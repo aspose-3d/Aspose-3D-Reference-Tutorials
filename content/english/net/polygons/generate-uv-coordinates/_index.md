@@ -53,7 +53,7 @@ namespace Aspose._3D.Examples.CSharp.Polygons
             //put it to the scene
             var node = scene.RootNode.CreateChildNode(mesh);
             //then save it
-            scene.Save(RunExamples.GetOutputFilePath("Aspose.obj"), FileFormat.WavefrontOBJ);
+            scene.Save("Your Output Directory"+"Aspose.obj", FileFormat.WavefrontOBJ);
             // ExEnd:GenerateUV
         }
     }

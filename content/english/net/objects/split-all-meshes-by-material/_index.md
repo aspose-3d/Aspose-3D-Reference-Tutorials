@@ -34,7 +34,7 @@ namespace Aspose._3D.Examples.CSharp._Working_with_Objects
             PolygonModifier.SplitMesh(scene, SplitMeshPolicy.CloneData);
 
             // Save file
-            var output = RunExamples.GetOutputFilePath("test-splitted.fbx");
+            var output = "Your Output Directory"+"test-splitted.fbx";
             scene.Save(output, FileFormat.FBX7500ASCII);
 
             // ExEnd:SplitAllMeshesofScenebyMaterial

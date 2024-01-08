@@ -26,7 +26,7 @@ namespace Aspose._3D.Examples.CSharp._3DScene
         public static void Run()
         {
             //ExStart: ThreeDProperties
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             Scene scene = new Scene(dataDir+ "EmbeddedTexture.fbx");
             Material material = scene.RootNode.ChildNodes[0].Material;
             PropertyCollection props = material.Properties;

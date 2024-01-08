@@ -30,7 +30,7 @@ namespace Aspose._3D.Examples.CSharp._Working_with_Objects
             // Triangulate a scene
             PolygonModifier.BuildTangentBinormal(scene);
             // Save 3D scene
-            scene.Save(RunExamples.GetOutputFilePath("BuildTangentAndBinormalData_out.fbx"), FileFormat.FBX7400ASCII);
+            scene.Save("Your Output Directory"+"BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII);
             // ExEnd:BuildTangentAndBinormalData              
         }
     }

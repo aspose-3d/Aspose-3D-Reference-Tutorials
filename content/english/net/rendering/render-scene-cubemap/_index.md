@@ -60,12 +60,12 @@ namespace Aspose._3D.Examples.CSharp.Rendering
                     //we can directly save each face to disk by specifing the file name
                     CubeFaceData<string> fileNames = new CubeFaceData<string>()
                     {
-                        Right = RunExamples.GetOutputFilePath("right.png"),
-                        Left = RunExamples.GetOutputFilePath("left.png"),
-                        Back = RunExamples.GetOutputFilePath("back.png"),
-                        Front = RunExamples.GetOutputFilePath("front.png"),
-                        Bottom = RunExamples.GetOutputFilePath("bottom.png"),
-                        Top = RunExamples.GetOutputFilePath("top.png")
+                        Right = "Your Output Directory"+"right.png",
+                        Left = "Your Output Directory"+"left.png",
+                        Back = "Your Output Directory"+"back.png",
+                        Front = "Your Output Directory"+"front.png",
+                        Bottom = "Your Output Directory"+"bottom.png",
+                        Top = "Your Output Directory"+"top.png"
                     };
                     //and call Save method
                     cubemap.Save(fileNames, ImageFormat.Png);

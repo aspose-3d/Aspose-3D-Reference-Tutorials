@@ -37,7 +37,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
             opt.LightingScheme = PdfLightingScheme.CAD;
             opt.RenderMode = PdfRenderMode.ShadedIllustration;
             // Save in the PDF format
-            scene.Save(RunExamples.GetOutputFilePath("output_out.pdf"), opt);
+            scene.Save("Your Output Directory"+"output_out.pdf", opt);
             // ExEnd:Save3DInPdf           
         }
     }

@@ -25,7 +25,7 @@ namespace Aspose._3D.Examples.CSharp.WorkingWithPointCloud
         public static void Run()
         {
             // ExStart:1
-            var pointCloud = (PointCloud)FileFormat.Draco.Decode(RunExamples.GetDataDir() + "point_cloud_no_qp.drc");
+            var pointCloud = (PointCloud)FileFormat.Draco.Decode("Your Document Directory" + "point_cloud_no_qp.drc");
             // ExEnd:1              
         }
     }

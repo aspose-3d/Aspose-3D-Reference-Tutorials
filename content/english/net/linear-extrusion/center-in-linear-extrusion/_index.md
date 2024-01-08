@@ -46,7 +46,7 @@ namespace Aspose._3D.Examples.CSharp.WorkingWithLinearExtrusion
             right.CreateChildNode(new Box(0.01, 3, 3));
 
             // Save 3D scene
-            scene.Save(RunExamples.GetOutputFilePath("CenterInLinearExtrusion.obj"), FileFormat.WavefrontOBJ);
+            scene.Save("Your Output Directory"+"CenterInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
             // ExEnd:CenterInLinearExtrusion            
         }
     }

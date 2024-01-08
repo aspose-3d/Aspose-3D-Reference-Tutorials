@@ -26,7 +26,7 @@ namespace Aspose._3D.Examples.CSharp.WorkingWithPointCloud
         public static void Run()
         {
             // ExStart:1
-            FileFormat.Draco.Encode(new Sphere(), RunExamples.GetDataDir() + "sphere.drc", new DracoSaveOptions() { PointCloud = true });
+            FileFormat.Draco.Encode(new Sphere(), "Your Document Directory" + "sphere.drc", new DracoSaveOptions() { PointCloud = true });
             // ExEnd:1              
         }
     }

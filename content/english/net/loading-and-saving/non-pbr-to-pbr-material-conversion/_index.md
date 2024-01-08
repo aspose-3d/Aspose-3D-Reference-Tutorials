@@ -39,7 +39,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_and_Saving
                 return new PbrMaterial() { Albedo = new Vector3(m.DiffuseColor.x, m.DiffuseColor.y, m.DiffuseColor.z) };
             };
             // save in GLTF 2.0 format
-            s.Save(RunExamples.GetOutputFilePath("Non_PBRtoPBRMaterial_Out.gltf"), opt);
+            s.Save("Your Output Directory"+"Non_PBRtoPBRMaterial_Out.gltf", opt);
             // ExEnd:Non_PBRtoPBRMaterial
         }
     }

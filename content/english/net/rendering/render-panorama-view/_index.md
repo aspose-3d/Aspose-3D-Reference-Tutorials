@@ -67,7 +67,7 @@ namespace Aspose._3D.Examples.CSharp.Rendering
                     //Execute the post processing effect and save the result to render target final
                     renderer.Execute(equirectangular, final);
                     //save the texture into disk
-                    ((ITexture2D)final.Targets[0]).Save(RunExamples.GetOutputFilePath("panaroma.png"), ImageFormat.Png);
+                    ((ITexture2D)final.Targets[0]).Save("Your Output Directory"+"panaroma.png", ImageFormat.Png);
                 }
                 // ExEnd:RenderPanaromaViewof3DScene
 

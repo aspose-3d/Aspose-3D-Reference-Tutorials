@@ -38,7 +38,7 @@ namespace Aspose._3D.Examples.CSharp.AssetInformation
             scene.AssetInfo.UnitScaleFactor = 0.6;
 
             // The saved file
-            var output = RunExamples.GetOutputFilePath("InformationToScene.fbx");
+            var output = "Your Output Directory"+"InformationToScene.fbx";
 
             // Save scene to 3D supported file formats
             scene.Save(output, FileFormat.FBX7500ASCII);

@@ -42,7 +42,7 @@ namespace Aspose._3D.Examples.CSharp.WorkingWithLinearExtrusion
             right.CreateChildNode(new LinearExtrusion(profile, 2) { Slices = 10 });
 
             // Save 3D scene
-            scene.Save(RunExamples.GetOutputFilePath("SlicesInLinearExtrusion.obj"), FileFormat.WavefrontOBJ);
+            scene.Save("Your Output Directory"+"SlicesInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
             // ExEnd:SlicesInLinearExtrusion            
         }
     }

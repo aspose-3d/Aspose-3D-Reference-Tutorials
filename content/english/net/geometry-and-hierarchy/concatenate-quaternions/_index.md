@@ -47,7 +47,7 @@ namespace Aspose._3D.Examples.CSharp.Geometry_Hierarchy
             cylinder = scene.RootNode.CreateChildNode("cylinder-q3", new Cylinder(0.1, 1, 2));
             cylinder.Transform.Rotation = q3;
             cylinder.Transform.Translation = new Vector3(5, 2, 0);
-            var output = RunExamples.GetOutputFilePath("test_out.fbx");
+            var output = "Your Output Directory"+"test_out.fbx";
             // Save to file
             scene.Save(output, FileFormat.FBX7400ASCII);
             // ExEnd:ConcatenateQuaternions

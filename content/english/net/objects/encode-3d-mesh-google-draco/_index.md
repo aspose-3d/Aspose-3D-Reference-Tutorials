@@ -33,7 +33,7 @@ namespace Aspose._3D.Examples.CSharp.Working_with_Objects
             var b = FileFormat.Draco.Encode(sphere.ToMesh(), 
                 new DracoSaveOptions() { CompressionLevel = DracoCompressionLevel.Optimal });
             // Save the raw bytes to file
-            File.WriteAllBytes(RunExamples.GetOutputFilePath("SphereMeshtoDRC_Out.drc"), b);
+            File.WriteAllBytes("Your Output Directory"+"SphereMeshtoDRC_Out.drc", b);
             // ExEnd:Encode3DMeshinGoogleDraco              
         }
     }

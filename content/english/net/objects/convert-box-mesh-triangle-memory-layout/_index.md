@@ -50,7 +50,7 @@ namespace Aspose._3D.Examples.CSharp._Working_with_Objects
             scene.RootNode.ChildNodes.Add(cubeNode);
 
             // The path to the documents directory.
-            string output = RunExamples.GetOutputFilePath("BoxToTriangleMeshCustomMemoryLayoutScene.fbx");
+            string output = "Your Output Directory"+"BoxToTriangleMeshCustomMemoryLayoutScene.fbx";
 
             // Save 3D scene in the supported file formats
             scene.Save(output, FileFormat.FBX7400ASCII);

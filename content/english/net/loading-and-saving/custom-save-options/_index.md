@@ -38,7 +38,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         public static void ColladaSaveOption()
         {
             // ExStart:ColladaSaveOption
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             ColladaSaveOptions saveColladaopts = new ColladaSaveOptions();
             // Generates indented XML document
             saveColladaopts.Indented = true;
@@ -52,7 +52,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         {
             // ExStart:Discreet3DSSaveOption
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             // Initialize an object
             Discreet3dsSaveOptions saveOpts = new Discreet3dsSaveOptions();
             // The start base for generating new name for duplicated names.
@@ -81,7 +81,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         {
             // ExStart:FBXSaveOption
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             // Initialize an object
             FbxSaveOptions saveOpts = new FbxSaveOptions(FileFormat.FBX7500ASCII);
             // Generates the legacy material properties.
@@ -100,7 +100,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         {
             // ExStart:ObjSaveOption
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             // Initialize an object
             ObjSaveOptions saveObjOpts = new ObjSaveOptions();
             // Import materials from external material library file
@@ -119,7 +119,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         {
             // ExStart:STLSaveOption
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             // Initialize an object
             StlSaveOptions saveSTLOpts = new StlSaveOptions();
             // Flip the coordinate system.
@@ -132,7 +132,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         {
             // ExStart:U3DSaveOption
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             // Initialize an object
             U3dSaveOptions saveU3DOptions = new U3dSaveOptions();
             // Export normal data.
@@ -167,14 +167,14 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
             // Customize the name of the buffer file which defines model
             opt.BufferFile = "mybuf.bin";
             // Save GlTF file
-            scene.Save(RunExamples.GetOutputFilePath("glTFSaveOptions_out.gltf"), opt);
+            scene.Save("Your Output Directory"+"glTFSaveOptions_out.gltf", opt);
 
             // Save a binary glTF file using KHR_binary_glTF extension
-            scene.Save(RunExamples.GetOutputFilePath("glTFSaveOptions_out.glb"), FileFormat.GLTF_Binary);
+            scene.Save("Your Output Directory"+"glTFSaveOptions_out.glb", FileFormat.GLTF_Binary);
 
             // Developers may use saving options to create a binary glTF file using KHR_binary_glTF extension
             GltfSaveOptions opts = new GltfSaveOptions(FileContentType.Binary);
-            scene.Save(RunExamples.GetOutputFilePath("Test_out.glb"), opts);
+            scene.Save("Your Output Directory"+"Test_out.glb", opts);
             // ExEnd:glTFSaveOptions
         }
         public static void DRCSaveOptions()
@@ -198,7 +198,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
             opts.CompressionLevel = DracoCompressionLevel.Optimal;
 
             // Save Google Draco (.drc) file
-            scene.Save(RunExamples.GetOutputFilePath("DRCSaveOptions_out.drc"), opts);
+            scene.Save("Your Output Directory"+"DRCSaveOptions_out.drc", opts);
             // ExEnd:DRCSaveOptions
         }
         public static void DiscardSavingMaterial()
@@ -213,14 +213,14 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
             ObjSaveOptions opt = new ObjSaveOptions();
             opt.FileSystem = new DummyFileSystem();
             // Save 3D scene
-            scene.Save(RunExamples.GetOutputFilePath("DiscardSavingMaterial_out.obj"), opt);
+            scene.Save("Your Output Directory"+"DiscardSavingMaterial_out.obj", opt);
             // ExEnd:DiscardSavingMaterial
         }
         public static void SavingDependenciesInLocalDirectory()
         {
             // ExStart:SavingDependenciesInLocalDirectory
             // The code example uses the LocalFileSystem class to save dependencies to the local directory.
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             // Initialize Scene object
             Scene scene = new Scene();
             // Create a child node
@@ -229,7 +229,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
             ObjSaveOptions opt = new ObjSaveOptions();
             opt.FileSystem = new LocalFileSystem(dataDir);
             // Save 3D scene
-            scene.Save(RunExamples.GetOutputFilePath("SavingDependenciesInLocalDirectory_out.obj"), opt);
+            scene.Save("Your Output Directory"+"SavingDependenciesInLocalDirectory_out.obj", opt);
             // ExEnd:SavingDependenciesInLocalDirectory
         }
         public static void SavingDependenciesInMemoryFileSystem()
@@ -245,10 +245,10 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
             MemoryFileSystem mfs = new MemoryFileSystem();
             opt.FileSystem = mfs;
             // Save 3D scene
-            scene.Save(RunExamples.GetOutputFilePath("SavingDependenciesInMemoryFileSystem_out.obj"), opt);
+            scene.Save("Your Output Directory"+"SavingDependenciesInMemoryFileSystem_out.obj", opt);
             // Get the test.mtl file content
             byte[] mtl = mfs.GetFileContent("SavingDependenciesInMemoryFileSystem_out.mtl");
-            File.WriteAllBytes(RunExamples.GetOutputFilePath("Material.mtl"), mtl);
+            File.WriteAllBytes("Your Output Directory"+"Material.mtl", mtl);
             // ExEnd:SavingDependenciesInMemoryFileSystem
         }
         /// <summary>
@@ -265,7 +265,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
             // The JSON content of GLTF file is indented for human reading, default value is false
             opt.PrettyPrint = true;
             // Save 3D Scene
-            scene.Save(RunExamples.GetDataDir() + "prettyPrintInGltfSaveOption.gltf", opt);
+            scene.Save("Your Document Directory" + "prettyPrintInGltfSaveOption.gltf", opt);
             // ExEnd:PrettyPrintInGltfSaveOption
         }
         /// <summary>
@@ -289,21 +289,21 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
             //Turn off the user interface
             opt.ShowUI = false; 
             // Save 3D to HTML5
-            scene.Save(RunExamples.GetOutputFilePath("HtmlSaveOption.html"), opt);
+            scene.Save("Your Output Directory"+"HtmlSaveOption.html", opt);
             // ExEnd:HtmlSaveOption
         }
 
         private static void RVMSaveOptions()
         {
             //ExStart: RVMSaveOptions
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             Scene scene = new Scene();
             var node = scene.RootNode.CreateChildNode("Box", new Box());
             node.SetProperty("rvm:Refno", "=3462123");
             node.SetProperty("rvm:Description", "This is the description of the box");
             //The RVM attribute's prefix is rvm:, all properties that starts with rvm: will be exported to .att file(the prefix will be removed)
             var opt = new RvmSaveOptions() { AttributePrefix = "rvm:", ExportAttributes = true };
-            scene.Save(RunExamples.GetOutputFilePath("test.rvm"), opt);
+            scene.Save("Your Output Directory"+"test.rvm", opt);
             //ExEnd: RVMSaveOptions
         }
     }

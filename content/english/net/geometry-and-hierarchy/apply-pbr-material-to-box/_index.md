@@ -37,7 +37,7 @@ namespace Aspose._3D.Examples.CSharp.Geometry_and_Hierarchy
             var boxNode = scene.RootNode.CreateChildNode("box", new Box());
             boxNode.Material = mat;
             // save 3d scene into STL format
-            scene.Save(RunExamples.GetOutputFilePath("PBR_Material_Box_Out.stl"), FileFormat.STLASCII);
+            scene.Save("Your Output Directory"+"PBR_Material_Box_Out.stl", FileFormat.STLASCII);
             // ExEnd:ApplyPBRMaterialToBox  
         }
     }

@@ -49,7 +49,7 @@ namespace Aspose._3D.Examples.CSharp.Geometry_Hierarchy
             // The path to the documents directory.
             
             // Set local file path
-            diffuse.FileName = RunExamples.GetOutputFilePath("surface.dds");
+            diffuse.FileName = "Your Output Directory"+"surface.dds";
 
             // Set Texture of the material
             mat.SetTexture("DiffuseColor", diffuse);
@@ -69,7 +69,7 @@ namespace Aspose._3D.Examples.CSharp.Geometry_Hierarchy
             // Set material property of the cube object
             cubeNode.Material = mat;
             
-            var output = RunExamples.GetOutputFilePath("MaterialToCube.fbx");
+            var output = "Your Output Directory"+"MaterialToCube.fbx";
 
             // Save 3D scene in the supported file formats
             scene.Save(output, FileFormat.FBX7400ASCII);

@@ -39,7 +39,7 @@ namespace Aspose._3D.Examples.CSharp.WorkingWithCylinder
             // Add cylinder to without a ShearBottom to the scene
             scene.RootNode.CreateChildNode(cylinder2);
             // Save scene
-            scene.Save(RunExamples.GetDataDir() + "CustomizedShearBottomCylinder.obj", FileFormat.WavefrontOBJ);
+            scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", FileFormat.WavefrontOBJ);
 
             // ExEnd:1              
         }

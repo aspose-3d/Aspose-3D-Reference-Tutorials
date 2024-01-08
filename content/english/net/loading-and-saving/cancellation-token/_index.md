@@ -31,7 +31,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_and_Saving
             cts.CancelAfter(1000);
             try
             {
-                scene.Open(RunExamples.GetOutputFilePath("document.fbx") , cts.Token);
+                scene.Open("Your Output Directory"+"document.fbx" , cts.Token);
                 Console.WriteLine("Import is done within 1000ms");
             }
             catch (ImportException e)

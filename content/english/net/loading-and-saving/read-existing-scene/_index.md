@@ -42,7 +42,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         public static void ReadRVMWithAttributes()
         {
             //ExStart:ReadRVMWithAttributes
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
 
             Scene scene = new Scene(RunExamples.GetDataFilePath("att-test.rvm"));
 

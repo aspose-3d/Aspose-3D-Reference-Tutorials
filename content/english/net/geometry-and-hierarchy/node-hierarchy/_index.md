@@ -47,7 +47,7 @@ namespace Aspose._3D.Examples.CSharp.Geometry_Hierarchy
             top.Transform.Rotation = Quaternion.FromEulerAngle(Math.PI, 4, 0);
           
             // The path to the documents directory.
-            string output = RunExamples.GetOutputFilePath("NodeHierarchy.fbx");
+            string output = "Your Output Directory"+"NodeHierarchy.fbx";
             
             // Save 3D scene in the supported file formats
             scene.Save(output, FileFormat.FBX7500ASCII);

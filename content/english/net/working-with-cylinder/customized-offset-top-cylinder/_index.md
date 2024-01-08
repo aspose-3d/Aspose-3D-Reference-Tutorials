@@ -39,7 +39,7 @@ namespace Aspose._3D.Examples.CSharp.WorkingWithCylinder
             // Create ChildNode
             scene.RootNode.CreateChildNode(cylinder2);
             // Save
-            scene.Save(RunExamples.GetDataDir()+ "CustomizedOffsetTopCylinder.obj", FileFormat.WavefrontOBJ);
+            scene.Save("Your Document Directory"+ "CustomizedOffsetTopCylinder.obj", FileFormat.WavefrontOBJ);
             // ExEnd:1              
         }
     }

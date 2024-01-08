@@ -45,7 +45,7 @@ namespace Aspose._3D.Examples.CSharp.Geometry_Hierarchy
             scene.RootNode.ChildNodes.Add(cubeNode);            
 
             // The path to the documents directory.
-            var output = RunExamples.GetOutputFilePath("TransformationToNode.fbx");
+            var output = "Your Output Directory"+"TransformationToNode.fbx";
    
             // Save 3D scene in the supported file formats
             scene.Save(output, FileFormat.FBX7500ASCII);

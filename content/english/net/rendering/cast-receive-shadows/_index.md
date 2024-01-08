@@ -75,7 +75,7 @@ namespace Aspose._3D.Examples.CSharp.Rendering
                 camera.ParentNode.Transform.Translation = new Vector3(10, 10, 10);
                 camera.LookAt = Vector3.Origin;
                 ImageRenderOptions opt = new ImageRenderOptions() { EnableShadows = true };
-                scene.Render(camera, RunExamples.GetOutputFilePath("CastAndReceiveShadow_out.png"), new Size(1024, 1024), ImageFormat.Png, opt);
+                scene.Render(camera, "Your Output Directory"+"CastAndReceiveShadow_out.png", new Size(1024, 1024), ImageFormat.Png, opt);
                 // ExEnd:CastAndReceiveShadow  
             }
             catch (Exception ex)

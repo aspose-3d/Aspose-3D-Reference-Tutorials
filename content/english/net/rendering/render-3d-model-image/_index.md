@@ -71,11 +71,11 @@ namespace Aspose._3D.Examples.CSharp.Rendering
                 // Set the background color
                 opt.BackgroundColor = Color.AliceBlue;
                 // Tells renderer where the it can find textures
-                opt.AssetDirectories.Add(RunExamples.GetDataDir() + "textures");
+                opt.AssetDirectories.Add("Your Document Directory" + "textures");
                 // Turn on shadow
                 opt.EnableShadows = true;
                 // Render the scene in given camera's perspective into specified png file with size 1024x1024
-                scene.Render(cam, RunExamples.GetOutputFilePath("Render3DModelImageFromCamera.png"), new Size(1024, 1024), ImageFormat.Png, opt);
+                scene.Render(cam, "Your Output Directory"+"Render3DModelImageFromCamera.png", new Size(1024, 1024), ImageFormat.Png, opt);
                 // ExEnd:Render3DModelImageFromCamera  
             }
             catch (Exception ex)

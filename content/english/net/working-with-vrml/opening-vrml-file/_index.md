@@ -27,7 +27,7 @@ namespace Aspose._3D.Examples.CSharp.WorkingWithVRML
             // Create a Scene
             Scene scene = new Scene();
             // Open Virtual Reality Modeling Language (VRML) file format
-            scene.Open(RunExamples.GetDataDir() + "test.wrl");
+            scene.Open("Your Document Directory" + "test.wrl");
             // Work with VRML file format...
 
             // ExEnd:OpenVRML              

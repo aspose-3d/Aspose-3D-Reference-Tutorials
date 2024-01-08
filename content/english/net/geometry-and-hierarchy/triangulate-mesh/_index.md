@@ -42,7 +42,7 @@ namespace Aspose._3D.Examples.CSharp.Geometry_Hierarchy
                 }
                 return true;
             });
-            var output  = RunExamples.GetOutputFilePath("document.fbx");
+            var output  = "Your Output Directory"+"document.fbx";
             scene.Save(output, FileFormat.FBX7400ASCII);
             // ExEnd:TriangulateMesh   
             Console.WriteLine("\nMesh has been Triangulated.\nFile saved at " + output);

@@ -31,7 +31,7 @@ namespace Aspose._3D.Examples.CSharp.WorkingWithPointCloud
         {
             // ExStart:1
             var scene = new Scene(new Sphere());
-            scene.Save(RunExamples.GetDataDir() + "Export3DSceneAsPointCloud.obj", new ObjSaveOptions() { PointCloud = true });
+            scene.Save("Your Document Directory" + "Export3DSceneAsPointCloud.obj", new ObjSaveOptions() { PointCloud = true });
             // ExEnd:1              
         }
     }

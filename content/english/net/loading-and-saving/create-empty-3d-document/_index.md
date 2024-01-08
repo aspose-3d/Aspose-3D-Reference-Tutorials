@@ -22,7 +22,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         {
             // ExStart:CreateEmpty3DDocument
             // The path to the documents directory.
-            var output = RunExamples.GetOutputFilePath("document.fbx");
+            var output = "Your Output Directory"+"document.fbx";
 
             // Create an object of the Scene class
             Scene scene = new Scene();

@@ -42,7 +42,7 @@ namespace Aspose._3D.Examples.CSharp.WorkingWithLinearExtrusion
             right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 360, Slices = 100, TwistOffset = new Vector3(3, 0, 0) });
 
             // Save 3D scene
-            scene.Save(RunExamples.GetOutputFilePath("TwistOffsetInLinearExtrusion.obj"), FileFormat.WavefrontOBJ);
+            scene.Save("Your Output Directory"+"TwistOffsetInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
             // ExEnd:TwistOffsetInLinearExtrusion            
         }
     }

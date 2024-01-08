@@ -57,7 +57,7 @@ namespace Aspose._3D.Examples.CSharp._3DScene
             */
 
             // open file for writing in binary mode
-            using (var writer = new BinaryWriter(new FileStream(RunExamples.GetOutputFilePath("Save3DMeshesInCustomBinaryFormat_out"), FileMode.Create, FileAccess.Write)))
+            using (var writer = new BinaryWriter(new FileStream("Your Output Directory"+"Save3DMeshesInCustomBinaryFormat_out", FileMode.Create, FileAccess.Write)))
             {
                 // visit each descent nodes
                 scene.RootNode.Accept(delegate(Node node)

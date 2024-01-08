@@ -56,7 +56,7 @@ namespace Aspose._3D.Examples.CSharp.Geometry_Hierarchy
             }
             
             // The path to the documents directory.
-            var output = RunExamples.GetOutputFilePath("MeshGeometryData.fbx");
+            var output = "Your Output Directory"+"MeshGeometryData.fbx";
         
             // Save 3D scene in the supported file formats
             scene.Save(output, FileFormat.FBX7400ASCII);

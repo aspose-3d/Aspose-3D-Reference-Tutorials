@@ -45,7 +45,7 @@ namespace Aspose._3D.Examples.CSharp.WorkingWithCylinder
             // Create ChildNode
             scene.RootNode.CreateChildNode(nonfan);
             // Save scene
-            scene.Save(RunExamples.GetDataDir() + "CreateFanCylinder.obj", FileFormat.WavefrontOBJ);
+            scene.Save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WavefrontOBJ);
             // ExEnd:1              
         }
     }

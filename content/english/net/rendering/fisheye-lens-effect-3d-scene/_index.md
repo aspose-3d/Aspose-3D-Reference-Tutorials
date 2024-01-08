@@ -72,7 +72,7 @@ namespace Aspose._3D.Examples.CSharp.Rendering
                     //Execute the post processing effect and save the result to render target final
                     renderer.Execute(fisheye, final);
                     //save the texture into disk
-                    ((ITexture2D)final.Targets[0]).Save(RunExamples.GetOutputFilePath("fisheye.png"), ImageFormat.Png);
+                    ((ITexture2D)final.Targets[0]).Save("Your Output Directory"+"fisheye.png", ImageFormat.Png);
                 }
                 // ExEnd:RenderFisheyeLensEffectof3DScene
 

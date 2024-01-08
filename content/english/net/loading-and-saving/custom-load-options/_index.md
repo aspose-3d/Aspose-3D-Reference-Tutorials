@@ -35,7 +35,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         {
             // ExStart:Discreet3DSOption
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
             // Sets wheather to use the transformation defined in the first frame of animation track.
             loadOpts.ApplyAnimationTransform = true;
@@ -51,7 +51,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         {
             // ExStart:ObjLoadOption
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             // Initialize an object
             ObjLoadOptions loadObjOpts = new ObjLoadOptions();
             // Import materials from external material library file
@@ -66,7 +66,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         {
             // ExStart:STLLoadOption
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             // Initialize an object
             StlLoadOptions loadSTLOpts = new StlLoadOptions();
             // Flip the coordinate system.
@@ -79,7 +79,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         {
             // ExStart:U3DLoadOption
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             // Initialize an object
             U3dLoadOptions loadU3DOpts = new U3dLoadOptions();
             // Flip the coordinate system.
@@ -92,7 +92,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         {
             // ExStart:glTFLoadOptions
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             // Initialize Scene class object
             Scene scene = new Scene();
             // Set load options
@@ -106,7 +106,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         {
             // ExStart:PlyLoadOptions
             // the path to the documents directory.
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             // initialize Scene class object
             Scene scene = new Scene();
             // initialize an object
@@ -121,7 +121,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         {
             // ExStart:XLoadOptions
             // the path to the documents directory.
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             // initialize Scene class object
             Scene scene = new Scene();
             // initialize an object
@@ -135,7 +135,7 @@ namespace Aspose._3D.Examples.CSharp.Loading_Saving
         private static void FBXLoadOptions()
         {
             //ExStart: FBXLoadOptions
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             //This will output all properties defined in GlobalSettings in FBX file.
             Scene scene = new Scene();
             var opt = new FbxLoadOptions() { KeepBuiltinGlobalSettings = true };

@@ -28,7 +28,7 @@ namespace Aspose._3D.Examples.CSharp.Polygons
             // Triangulate a scene
             PolygonModifier.Triangulate(scene);
             // Save 3D scene
-            scene.Save(RunExamples.GetOutputFilePath("triangulated_out.fbx"), FileFormat.FBX7400ASCII);
+            scene.Save("Your Output Directory"+"triangulated_out.fbx", FileFormat.FBX7400ASCII);
             // ExEnd:ConvertPolygonsToTriangles            
         }
     }

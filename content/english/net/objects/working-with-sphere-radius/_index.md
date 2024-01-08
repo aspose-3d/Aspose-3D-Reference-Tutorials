@@ -30,7 +30,7 @@ namespace Aspose._3D.Examples.CSharp.Working_with_Objects
             // Set Sphere Radius (Using Radius property you can get or set radius of Sphere)
             scene.RootNode.CreateChildNode(new Sphere() { Radius = 10 });
             // Save scene
-            scene.Save(RunExamples.GetDataDir() +"sphere.obj", FileFormat.WavefrontOBJ);
+            scene.Save("Your Document Directory" +"sphere.obj", FileFormat.WavefrontOBJ);
             // ExEnd:WorkingWithSphereRadius              
         }
     }

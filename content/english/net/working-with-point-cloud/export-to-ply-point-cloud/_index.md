@@ -26,7 +26,7 @@ namespace Aspose._3D.Examples.CSharp.WorkingWithPointCloud
         public static void Run()
         {
             // ExStart:1
-            FileFormat.PLY.Encode(new Sphere(), RunExamples.GetDataDir() + "sphere.ply", new PlySaveOptions() { PointCloud = true });
+            FileFormat.PLY.Encode(new Sphere(), "Your Document Directory" + "sphere.ply", new PlySaveOptions() { PointCloud = true });
 
             // ExEnd:1              
         }

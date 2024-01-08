@@ -24,7 +24,7 @@ namespace Aspose._3D.Examples.CSharp.WorkingWithPointCloud
         public static void Run()
         {
             // ExStart:1
-            var geom = FileFormat.PLY.Decode(RunExamples.GetDataDir() + "sphere.ply");
+            var geom = FileFormat.PLY.Decode("Your Document Directory" + "sphere.ply");
             // ExEnd:1              
         }
     }
