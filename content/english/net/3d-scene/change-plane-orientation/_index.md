@@ -27,7 +27,7 @@ namespace Aspose._3D.Examples.CSharp._3DScene
         {
             // ExStart:ChangePlaneOrientation
             // The path to the data directory
-            string dataDir = RunExamples.GetDataDir();
+            string dataDir = "Your Document Directory";
             // Initialize scene object
             Scene scene = new Scene();
             // Set Vector

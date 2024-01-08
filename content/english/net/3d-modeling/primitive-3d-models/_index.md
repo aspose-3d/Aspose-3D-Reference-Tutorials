@@ -34,7 +34,7 @@ namespace Aspose._3D.Examples.CSharp._3DModeling
             // Create a Cylinder model
             scene.RootNode.CreateChildNode("cylinder", new Cylinder());
             // Save drawing in the FBX format
-            var output = RunExamples.GetOutputFilePath("test.fbx");
+            var output = "Your Output Directory"+"test.fbx";
             scene.Save(output, FileFormat.FBX7500ASCII);
 
             // ExEnd:Primitive3DModels
