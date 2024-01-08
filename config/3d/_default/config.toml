@@ -1,4 +1,4 @@
-baseURL = "/tutorials/psd"
+baseURL = "/tutorials/3d"
 title = "Aspose API References"
 staticdir = 'content/static'
 enableRobotsTXT = true
@@ -152,7 +152,7 @@ title_404_page = "404 - Page Not Found | Aspose API References"
 # Open Grapgh settings
 title = "Aspose API References"
 images = ["images/Aspose-image-for-open-graph.jpg"]
-description = "Class Libraries & REST APIs for the developers to manipulate & process Files from Word, Excel, PowerPoint, Visio, PDF, psd & several other categories in Web, Desktop or Mobile apps. Develop & deploy on Windows, Linux, MacOS & Android platforms."
+description = "Class Libraries & REST APIs for the developers to manipulate & process Files from Word, Excel, PowerPoint, Visio, PDF, 3d & several other categories in Web, Desktop or Mobile apps. Develop & deploy on Windows, Linux, MacOS & Android platforms."
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""

@@ -1,7 +1,7 @@
 {
-  "name": "aspose-psd-api-references",
+  "name": "aspose-3d-api-references",
   "version": "1.0.0",
-  "description": "Aspose.psd API References.",
+  "description": "Aspose.3d API References.",
   "main": "none.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

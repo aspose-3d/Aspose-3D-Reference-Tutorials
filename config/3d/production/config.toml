@@ -1,4 +1,4 @@
-baseURL = "https://reference.aspose.com/tutorials/psd"
+baseURL = "https://reference.aspose.com/tutorials/3d"
 
 # Google Tag Manager settings
 [params.gtm]
@@ -6,4 +6,4 @@ gtm_id = "GTM-NJMHSH"
 
 [[deployment.targets]]
 name = "Production"
-URL = "s3://reference.aspose.com/?prefix=tutorials/psd/&region=us-west-2"
+URL = "s3://reference.aspose.com/?prefix=tutorials/3d/&region=us-west-2"
