@@ -47,7 +47,7 @@ FileFormat.PLY.Encode(sphere, exportPath, saveOptions);
 ```
 ## Conclusion
 Congratulations! You've successfully exported a 3D model to PLY format as a point cloud using Aspose.3D for .NET. This opens up endless possibilities for integrating immersive visuals into your applications.
----
+
 ## FAQs
 ### 1. Is Aspose.3D compatible with all .NET frameworks?
 Aspose.3D supports various .NET frameworks, ensuring compatibility across a wide range of development environments.

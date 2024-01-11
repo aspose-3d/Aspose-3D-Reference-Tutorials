@@ -45,7 +45,7 @@ Console.WriteLine($"Mesh Triangles: {mesh.Triangles.Count}");
 ```
 ## Conclusion
 In this tutorial, we've unveiled the artistry of decoding mesh from PLY format using Aspose.3D for .NET. With each line of code, you've sculpted a piece of the 3D universe. As you continue your coding endeavors, remember that the only limit is your imagination.
----
+
 ## Frequently Asked Questions
 ### Q: Is Aspose.3D compatible with other file formats?
 A: Absolutely! Aspose.3D supports a plethora of formats, ensuring seamless integration with your 3D projects.

@@ -49,7 +49,7 @@ Feel free to explore further and integrate this functionality into your projects
 ## Conclusion
 In this tutorial, we explored the process of encoding a sphere as a point cloud using Aspose.3D for .NET. This library opens up endless possibilities for working with 3D models in your .NET applications, providing a seamless and efficient experience.
 Now that you've mastered this aspect of Aspose.3D, unleash your creativity and explore more features offered by this powerful library.
-## FAQs
+## FAQ's
 ### Is Aspose.3D compatible with all .NET frameworks?
 Yes, Aspose.3D is compatible with a wide range of .NET frameworks, ensuring flexibility for developers.
 ### Can I use Aspose.3D for commercial projects?
