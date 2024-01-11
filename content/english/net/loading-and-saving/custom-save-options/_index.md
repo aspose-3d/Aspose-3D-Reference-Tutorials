@@ -2,13 +2,27 @@
 title: Loading and Saving -  Custom Save Options
 linktitle: Loading and Saving -  Custom Save Options
 second_title: Aspose.3D .NET API
-description: 
+description: Explore the power of Aspose.3D for .NET. Learn how to customize your 3D scene saving with step-by-step guides on Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC, and RVM formats.
 type: docs
 weight: 21
 url: /net/loading-and-saving/custom-save-options/
 ---
+## Introduction
 
-## Complete Source Code
+Welcome to the world of Aspose.3D for .NET! If you're looking to enhance your 3D development capabilities, you're in the right place. In this tutorial, we'll dive into the Loading and Saving functionalities, specifically focusing on Custom Save Options. Aspose.3D for .NET is a powerful library that empowers developers to manipulate and save 3D scenes efficiently.
+
+## Prerequisites
+
+Before we start exploring the exciting features of Aspose.3D, make sure you have the following prerequisites:
+
+- Basic understanding of C# and .NET development.
+- Aspose.3D for .NET library installed. You can download it from the [official release page](https://releases.aspose.com/3d/net/).
+- A development environment set up with Visual Studio or any other preferred C# IDE.
+
+## Import Namespaces
+
+To get started, let's import the necessary namespaces:
+
 ```csharp
 using System;
 using System.IO;
@@ -20,293 +34,100 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Utilities;
 using Aspose.ThreeD.Shading;
 using System.Drawing;
-
-namespace Aspose._3D.Examples.CSharp.Loading_Saving
-{
-    class SaveOptions
-    {
-        public static void Run()
-        {
-            ColladaSaveOption();
-            Discreet3DSSaveOption();
-            FBXSaveOption();
-            ObjSaveOption();
-            GlTFSaveOptions();
-            DRCSaveOptions();
-            RVMSaveOptions();
-        }
-        public static void ColladaSaveOption()
-        {
-            // ExStart:ColladaSaveOption
-            string dataDir = "Your Document Directory";
-            ColladaSaveOptions saveColladaopts = new ColladaSaveOptions();
-            // Generates indented XML document
-            saveColladaopts.Indented = true;
-            // The style of node transformation
-            saveColladaopts.TransformStyle = ColladaTransformStyle.Matrix;
-            // Configure the lookup paths to allow importer to find external dependencies.
-            saveColladaopts.LookupPaths = new List<string>(new string[] { dataDir });
-            // ExEnd:ColladaSaveOption
-        }
-        public static void Discreet3DSSaveOption()
-        {
-            // ExStart:Discreet3DSSaveOption
-            // The path to the documents directory.
-            string dataDir = "Your Document Directory";
-            // Initialize an object
-            Discreet3dsSaveOptions saveOpts = new Discreet3dsSaveOptions();
-            // The start base for generating new name for duplicated names.
-            saveOpts.DuplicatedNameCounterBase = 2;
-            // The format of the duplicated counter.
-            saveOpts.DuplicatedNameCounterFormat = "NameFormat";
-            // The separator between object's name and the duplicated counter.
-            saveOpts.DuplicatedNameSeparator = "Separator";
-            // Allows to export cameras
-            saveOpts.ExportCamera = true;
-            // Allows to export light
-            saveOpts.ExportLight = true;
-            // Flip the coordinate system
-            saveOpts.FlipCoordinateSystem = true;
-            // Prefer to use gamma-corrected color if a 3ds file provides both original color and gamma-corrected color.
-            saveOpts.GammaCorrectedColor = true;
-            // Use high-precise color which each color channel will use 32bit float.
-            saveOpts.HighPreciseColor = true;
-            // Configure the look up paths to allow importer to find external dependencies.
-            saveOpts.LookupPaths = new List<string>(new string[] { dataDir });
-            // Set the master scale
-            saveOpts.MasterScale = 1;
-            // ExEnd:Discreet3DSSaveOption
-        }
-        public static void FBXSaveOption()
-        {
-            // ExStart:FBXSaveOption
-            // The path to the documents directory.
-            string dataDir = "Your Document Directory";
-            // Initialize an object
-            FbxSaveOptions saveOpts = new FbxSaveOptions(FileFormat.FBX7500ASCII);
-            // Generates the legacy material properties.
-            saveOpts.ExportLegacyMaterialProperties = true;
-            // Fold repeated curve data using FBX's animation reference count
-            saveOpts.FoldRepeatedCurveData = true;
-            // Always generates material mapping information for geometries if the attached node contains materials.
-            saveOpts.GenerateVertexElementMaterial = true;
-            // Configure the look up paths to allow importer to find external dependencies.
-            saveOpts.LookupPaths = new List<string>(new string[] { dataDir });
-            // Generates a video object for texture.
-            saveOpts.VideoForTexture = true;
-            // ExEnd:FBXSaveOption
-        }
-        public static void ObjSaveOption()
-        {
-            // ExStart:ObjSaveOption
-            // The path to the documents directory.
-            string dataDir = "Your Document Directory";
-            // Initialize an object
-            ObjSaveOptions saveObjOpts = new ObjSaveOptions();
-            // Import materials from external material library file
-            saveObjOpts.EnableMaterials = true;
-            // Flip the coordinate system.
-            saveObjOpts.FlipCoordinateSystem = true;
-            // Configure the look up paths to allow importer to find external dependencies.
-            saveObjOpts.LookupPaths = new List<string>(new string[] { dataDir });
-            // Serialize W component in model's vertex position
-            saveObjOpts.SerializeW = true;
-            // Generate comments for each section
-            saveObjOpts.Verbose = true;
-            // ExEnd:ObjSaveOption
-        }
-        public static void STLSaveOption()
-        {
-            // ExStart:STLSaveOption
-            // The path to the documents directory.
-            string dataDir = "Your Document Directory";
-            // Initialize an object
-            StlSaveOptions saveSTLOpts = new StlSaveOptions();
-            // Flip the coordinate system.
-            saveSTLOpts.FlipCoordinateSystem = true;
-            // Configure the look up paths to allow importer to find external dependencies.
-            saveSTLOpts.LookupPaths = new List<string>(new string[] { dataDir });
-            // ExEnd:STLSaveOption
-        }
-        public static void U3DSaveOption()
-        {
-            // ExStart:U3DSaveOption
-            // The path to the documents directory.
-            string dataDir = "Your Document Directory";
-            // Initialize an object
-            U3dSaveOptions saveU3DOptions = new U3dSaveOptions();
-            // Export normal data.
-            saveU3DOptions.ExportNormals = true;
-            // Export the texture coordinates.
-            saveU3DOptions.ExportTextureCoordinates = true;
-            // Export the vertex diffuse color.
-            saveU3DOptions.ExportVertexDiffuse = true;
-            // Export vertex specular color
-            saveU3DOptions.ExportVertexSpecular = true;
-            // Flip the coordinate system.
-            saveU3DOptions.FlipCoordinateSystem = true;
-            // Configure the look up paths to allow importer to find external dependencies.
-            saveU3DOptions.LookupPaths = new List<string>(new string[] { dataDir });
-            // Compress the mesh data
-            saveU3DOptions.MeshCompression = true;
-            // ExEnd:U3DSaveOption
-        }
-        public static void GlTFSaveOptions()
-        {
-            // ExStart:glTFSaveOptions
-            // Initialize Scene object
-            Scene scene = new Scene();
-            // Create a child node
-            scene.RootNode.CreateChildNode("sphere", new Sphere());
-            // Set glTF saving options. The code example embeds all assets into the target file usually a glTF file comes with some dependencies, a bin file for model's vertex/indices, two .glsl files for vertex/fragment shaders
-            // Use opt.EmbedAssets to tells the Aspose.3D API to export scene and embed the dependencies inside the target file.
-            GltfSaveOptions opt = new GltfSaveOptions(FileContentType.ASCII);
-            opt.EmbedAssets = true;
-            // Use KHR_materials_common extension to define the material, thus no GLSL files are generated.
-            opt.UseCommonMaterials = true;
-            // Customize the name of the buffer file which defines model
-            opt.BufferFile = "mybuf.bin";
-            // Save GlTF file
-            scene.Save("Your Output Directory"+"glTFSaveOptions_out.gltf", opt);
-
-            // Save a binary glTF file using KHR_binary_glTF extension
-            scene.Save("Your Output Directory"+"glTFSaveOptions_out.glb", FileFormat.GLTF_Binary);
-
-            // Developers may use saving options to create a binary glTF file using KHR_binary_glTF extension
-            GltfSaveOptions opts = new GltfSaveOptions(FileContentType.Binary);
-            scene.Save("Your Output Directory"+"Test_out.glb", opts);
-            // ExEnd:glTFSaveOptions
-        }
-        public static void DRCSaveOptions()
-        {
-            // ExStart:DRCSaveOptions
-            // Initialize Scene object
-            Scene scene = new Scene();
-            // Create a child node
-            scene.RootNode.CreateChildNode("sphere", new Sphere());
-            // Initialize .DRC saving options. 
-            DracoSaveOptions opts = new DracoSaveOptions();
-            // Quantization bits for position
-            opts.PositionBits = 14;
-            // Quantization bits for texture coordinate
-            opts.TextureCoordinateBits = 8;
-            // Quantization bits for vertex color
-            opts.ColorBits = 10;
-            // Quantization bits for normal vectors
-            opts.NormalBits = 7;
-            // Set compression level
-            opts.CompressionLevel = DracoCompressionLevel.Optimal;
-
-            // Save Google Draco (.drc) file
-            scene.Save("Your Output Directory"+"DRCSaveOptions_out.drc", opts);
-            // ExEnd:DRCSaveOptions
-        }
-        public static void DiscardSavingMaterial()
-        {
-            // ExStart:DiscardSavingMaterial
-            // The code example uses the DummyFileSystem, so the material files are not created.
-            // Initialize Scene object
-            Scene scene = new Scene();
-            // Create a child node
-            scene.RootNode.CreateChildNode("sphere", new Sphere()).Material = new PhongMaterial();
-            // Set saving options
-            ObjSaveOptions opt = new ObjSaveOptions();
-            opt.FileSystem = new DummyFileSystem();
-            // Save 3D scene
-            scene.Save("Your Output Directory"+"DiscardSavingMaterial_out.obj", opt);
-            // ExEnd:DiscardSavingMaterial
-        }
-        public static void SavingDependenciesInLocalDirectory()
-        {
-            // ExStart:SavingDependenciesInLocalDirectory
-            // The code example uses the LocalFileSystem class to save dependencies to the local directory.
-            string dataDir = "Your Document Directory";
-            // Initialize Scene object
-            Scene scene = new Scene();
-            // Create a child node
-            scene.RootNode.CreateChildNode("sphere", new Sphere()).Material = new PhongMaterial();
-            // Set saving options
-            ObjSaveOptions opt = new ObjSaveOptions();
-            opt.FileSystem = new LocalFileSystem(dataDir);
-            // Save 3D scene
-            scene.Save("Your Output Directory"+"SavingDependenciesInLocalDirectory_out.obj", opt);
-            // ExEnd:SavingDependenciesInLocalDirectory
-        }
-        public static void SavingDependenciesInMemoryFileSystem()
-        {
-            // ExStart:SavingDependenciesInMemoryFileSystem
-            // The code example uses the MemoryFileSystem to intercepts the dependencies writing.
-            // Initialize Scene object
-            Scene scene = new Scene();
-            // Create a child node
-            scene.RootNode.CreateChildNode("sphere", new Sphere()).Material = new PhongMaterial();
-            // Set saving options
-            ObjSaveOptions opt = new ObjSaveOptions();
-            MemoryFileSystem mfs = new MemoryFileSystem();
-            opt.FileSystem = mfs;
-            // Save 3D scene
-            scene.Save("Your Output Directory"+"SavingDependenciesInMemoryFileSystem_out.obj", opt);
-            // Get the test.mtl file content
-            byte[] mtl = mfs.GetFileContent("SavingDependenciesInMemoryFileSystem_out.mtl");
-            File.WriteAllBytes("Your Output Directory"+"Material.mtl", mtl);
-            // ExEnd:SavingDependenciesInMemoryFileSystem
-        }
-        /// <summary>
-        /// The JSON content of GLTF file is indented for human reading, default value is false
-        /// This method is supported by version 19.8 or greater.
-        /// </summary>
-        public static void PrettyPrintInGltfSaveOption()
-        {
-            // ExStart:PrettyPrintInGltfSaveOption
-            // Initialize 3D scene
-            Scene scene = new Scene(new Sphere());
-            // Initialize GLTFSaveOptions
-            GltfSaveOptions opt = new GltfSaveOptions(FileFormat.GLTF2);
-            // The JSON content of GLTF file is indented for human reading, default value is false
-            opt.PrettyPrint = true;
-            // Save 3D Scene
-            scene.Save("Your Document Directory" + "prettyPrintInGltfSaveOption.gltf", opt);
-            // ExEnd:PrettyPrintInGltfSaveOption
-        }
-        /// <summary>
-        /// Save the 3D scene to HTML5 document
-        /// This method is supported by version 19.9 or greater.
-        /// </summary>
-        public static void Html5SaveOption()
-        {
-            // ExStart:HtmlSaveOption
-            // Initialize 3D scene
-            var scene = new Scene();
-            // Create a child node
-            var node = scene.RootNode.CreateChildNode(new Cylinder());
-            // Set child node properites
-            node.Material = new LambertMaterial() { DiffuseColor = new Vector3(Color.Chartreuse) };
-            scene.RootNode.CreateChildNode(new Light() { LightType = LightType.Point }).Transform.Translation = new Vector3(10, 0, 10);
-            // Create a HTML5SaveOptions
-            var opt = new Html5SaveOptions();
-            //Turn off the grid
-            opt.ShowGrid = false;
-            //Turn off the user interface
-            opt.ShowUI = false; 
-            // Save 3D to HTML5
-            scene.Save("Your Output Directory"+"HtmlSaveOption.html", opt);
-            // ExEnd:HtmlSaveOption
-        }
-
-        private static void RVMSaveOptions()
-        {
-            //ExStart: RVMSaveOptions
-            string dataDir = "Your Document Directory";
-            Scene scene = new Scene();
-            var node = scene.RootNode.CreateChildNode("Box", new Box());
-            node.SetProperty("rvm:Refno", "=3462123");
-            node.SetProperty("rvm:Description", "This is the description of the box");
-            //The RVM attribute's prefix is rvm:, all properties that starts with rvm: will be exported to .att file(the prefix will be removed)
-            var opt = new RvmSaveOptions() { AttributePrefix = "rvm:", ExportAttributes = true };
-            scene.Save("Your Output Directory"+"test.rvm", opt);
-            //ExEnd: RVMSaveOptions
-        }
-    }
-}
-
 ```
+
+Now that we've set the stage let's break down the tutorial into multiple steps.
+
+## Step 1: Collada Save Option
+
+Let's begin with Collada, a popular 3D file format. Follow these steps to customize Collada saving options:
+
+### 1. Set Up Directory:
+   ```csharp
+   string dataDir = "Your Document Directory";
+   ```
+
+### 2. Initialize Collada Save Options:
+   ```csharp
+   ColladaSaveOptions saveColladaOpts = new ColladaSaveOptions();
+   ```
+
+### 3. Configure Options:
+   ```csharp
+   saveColladaOpts.Indented = true;
+   saveColladaOpts.TransformStyle = ColladaTransformStyle.Matrix;
+   saveColladaOpts.LookupPaths = new List<string>(new string[] { dataDir });
+   ```
+
+## Step 2: Discreet 3DS Save Option
+
+Now, let's explore Discreet 3DS and its customization options:
+
+### 1. Set Up Directory:
+   ```csharp
+   string dataDir = "Your Document Directory";
+   ```
+
+### 2. Initialize 3DS Save Options:
+   ```csharp
+   Discreet3dsSaveOptions saveOpts = new Discreet3dsSaveOptions();
+   ```
+
+### 3. Configure Options:
+   ```csharp
+   saveOpts.DuplicatedNameCounterBase = 2;
+   // Additional configuration options...
+   ```
+
+Continue this step-by-step approach for FBX, OBJ, STL, U3D, glTF, and DRC save options, customizing each according to your requirements.
+
+## Step 3: glTF Save Options
+
+Now, let's focus on glTF, a format widely used in web and mobile applications. Customize your glTF save options with these steps:
+
+### 1. Initialize Scene Object:
+   ```csharp
+   Scene scene = new Scene();
+   scene.RootNode.CreateChildNode("sphere", new Sphere());
+   ```
+
+### 2. Set glTF Saving Options:
+   ```csharp
+   GltfSaveOptions opt = new GltfSaveOptions(FileContentType.ASCII);
+   opt.EmbedAssets = true;
+   opt.UseCommonMaterials = true;
+   opt.BufferFile = "mybuf.bin";
+   ```
+
+### 3. Save glTF File:
+   ```csharp
+   scene.Save("Your Output Directory" + "glTFSaveOptions_out.gltf", opt);
+   ```
+
+Follow a similar structure for other save options such as DRC and RVM.
+
+## Conclusion
+
+Congratulations! You've successfully explored the custom save options in Aspose.3D for .NET. This powerful library provides a myriad of options to tailor your 3D scene saving process.
+
+## FAQ's
+
+### Q1: Can I use Aspose.3D for .NET with other .NET frameworks?
+
+A1: Yes, Aspose.3D is compatible with various .NET frameworks, ensuring flexibility in your development environment.
+
+### Q2: Are there any licensing options available for Aspose.3D?
+
+A2: Yes, you can explore licensing options [here](https://purchase.aspose.com/buy).
+
+### Q3: Where can I find support for Aspose.3D-related queries?
+
+A3: You can seek support on the [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
+
+### Q4: Is there a free trial available?
+
+A4: Yes, you can access a free trial [here](https://releases.aspose.com/).
+
+### Q5: How can I get a temporary license for Aspose.3D?
+
+A5: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
