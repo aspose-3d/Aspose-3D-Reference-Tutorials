@@ -27,6 +27,7 @@ using Aspose.ThreeD;
 using Aspose.ThreeD.Shading;
 ```
 ## Dumping Embedded Textures - Step-by-Step Guide
+
 ## Step 1: Load the 3D Scene
 ```csharp
 Scene scene = new Scene(RunExamples.GetDataFilePath("Your3DModel.fbx"));
@@ -59,6 +60,7 @@ Now, you've successfully dumped embedded textures from your 3D model using Aspos
 ## Conclusion
 Congratulations on unraveling the magic of Aspose.3D! By following this step-by-step guide, you've mastered the art of dumping embedded textures. Incorporate this knowledge into your projects and witness the visual transformation it brings.
 ## Frequently Asked Questions
+
 ### Q: Can I use Aspose.3D for .NET with other programming languages?
 A: Aspose.3D primarily supports .NET languages, but you can explore wrappers or alternatives for other languages.
 ### Q: Is there a trial version available before purchasing?

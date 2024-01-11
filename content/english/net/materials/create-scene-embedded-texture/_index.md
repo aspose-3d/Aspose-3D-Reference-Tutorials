@@ -96,8 +96,9 @@ Congratulations! You've successfully created a 3D scene with embedded textures u
 ```
 ## Conclusion
 In this tutorial, we explored the basics of creating visually stunning 3D scenes with embedded textures using Aspose.3D for .NET. Armed with this knowledge, you can unleash your creativity and build captivating 3D applications.
+
 ## Frequently Asked Questions
- (FAQs)
+
 ### Q: Can I use Aspose.3D for .NET with other programming languages?
 A: Aspose.3D is primarily designed for .NET, but there are similar libraries available for other languages.
 ### Q: How can I apply animations to my 3D scenes?
