@@ -2,7 +2,7 @@
 title: Working With VRML
 linktitle: Working With VRML
 second_title: Aspose.3D .NET API
-description: Unlock your creative potential with Aspose.3D for .NET! Effortlessly open VRML files, turning your concepts into breathtaking 3D wonders. Explore VRML tutorials for seamless design mastery.
+description: Unlock your creative potential with Aspose.3D for .NET! Open VRML files, turning your concepts into 3D wonders. Explore VRML tutorials for seamless design mastery.
 type: docs
 weight: 35
 url: /net/working-with-vrml/

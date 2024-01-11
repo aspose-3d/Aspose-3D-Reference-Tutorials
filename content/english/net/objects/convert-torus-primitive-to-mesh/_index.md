@@ -69,4 +69,4 @@ Yes, you can obtain a temporary license [here](https://purchase.aspose.com/tempo
 ### Where can I find support for Aspose.3D?
 Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community support and assistance.
 ### Can I explore more tutorials and examples?
-Yes, refer to the [official documentation](https://reference.aspose.com/3d/net/) for comprehensive tutorials and examples.
+Yes, refer to the [documentation](https://reference.aspose.com/3d/net/) for comprehensive tutorials and examples.

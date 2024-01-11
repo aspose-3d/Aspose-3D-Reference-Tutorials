@@ -85,4 +85,4 @@ Yes, you can access the free trial [here](https://releases.aspose.com/).
 ### Q: Can I render scenes with animations using Aspose.3D?
 Absolutely! Aspose.3D supports rendering animated 3D scenes.
 ### Q: Where can I find detailed documentation?
-Refer to the official [Aspose.3D documentation](https://reference.aspose.com/3d/net/) for in-depth information.
+Refer to the [Aspose.3D documentation](https://reference.aspose.com/3d/net/) for in-depth information.

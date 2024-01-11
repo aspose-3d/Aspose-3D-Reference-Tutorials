@@ -1,6 +1,6 @@
 ---
-title: Linear Extrusion -  Center in Linear Extrusion
-linktitle: Linear Extrusion -  Center in Linear Extrusion
+title: Center in Linear Extrusion
+linktitle: Center in Linear Extrusion
 second_title: Aspose.3D .NET API
 description: Explore the world of 3D modeling with Aspose.3D for .NET. Center linear extrusion techniques, create stunning designs, and unleash your creativity.
 type: docs

@@ -11,7 +11,7 @@ url: /net/objects/convert-box-primitive-to-mesh/
 In the dynamic world of .NET development, mastering 3D graphics and meshes is crucial for creating immersive applications. Aspose.3D for .NET is a powerful tool that simplifies 3D modeling tasks, and in this tutorial, we'll focus on the step-by-step process of converting a Box primitive to a Mesh using Aspose.3D.
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites in place:
-1. Aspose.3D for .NET Library: Download and install the library from the [official Aspose documentation](https://reference.aspose.com/3d/net/).
+1. Aspose.3D for .NET Library: Download and install the library from the [Aspose documentation](https://reference.aspose.com/3d/net/).
 2. Development Environment: Set up a .NET development environment, and make sure you have a basic understanding of C# programming.
 3. IDE (Integrated Development Environment): Use your preferred IDE; Visual Studio is recommended for seamless integration.
 ## Import Namespaces

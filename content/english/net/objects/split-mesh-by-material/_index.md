@@ -11,7 +11,7 @@ url: /net/objects/split-mesh-by-material/
 Welcome to this comprehensive tutorial on splitting a mesh by material using Aspose.3D for .NET! If you're a developer working with 3D graphics and want to efficiently manage and manipulate meshes, you're in the right place. In this guide, we'll explore the process of splitting a mesh based on material, a crucial task in creating diverse and visually appealing 3D scenes.
 ## Prerequisites
 Before diving into the tutorial, make sure you have the following prerequisites in place:
-- Aspose.3D for .NET: Ensure you have the Aspose.3D library installed in your .NET project. If not, you can download it from the [official releases](https://releases.aspose.com/3d/net/) page.
+- Aspose.3D for .NET: Ensure you have the Aspose.3D library installed in your .NET project. If not, you can download it from the [releases](https://releases.aspose.com/3d/net/) page.
 - Basic Knowledge of 3D Graphics: Familiarize yourself with fundamental concepts of 3D graphics to grasp the nuances of mesh manipulation.
 - Development Environment: Set up a suitable .NET development environment, such as Visual Studio.
 ## Import Namespaces

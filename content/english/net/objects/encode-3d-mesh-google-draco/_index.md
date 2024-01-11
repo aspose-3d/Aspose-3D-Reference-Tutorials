@@ -57,4 +57,4 @@ Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community supp
 ### What is the purpose of a temporary license?
 A temporary license allows you to evaluate the full version of Aspose.3D for a limited time.
 ### Where can I find detailed documentation for Aspose.3D for .NET?
-Refer to the official [documentation](https://reference.aspose.com/3d/net/) for comprehensive information.
+Refer to the [documentation](https://reference.aspose.com/3d/net/) for comprehensive information.

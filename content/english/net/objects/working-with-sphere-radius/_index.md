@@ -11,7 +11,7 @@ url: /net/objects/working-with-sphere-radius/
 Welcome to the world of 3D modeling with Aspose.3D for .NET! In this tutorial, we will explore the powerful capabilities of Aspose.3D and guide you through creating stunning 3D models effortlessly. Whether you're a seasoned developer or a beginner looking to delve into the world of 3D modeling, this tutorial is designed to make the process seamless and enjoyable.
 ## Prerequisites
 Before we dive into the exciting world of 3D modeling using Aspose.3D for .NET, let's make sure you have the necessary prerequisites in place:
-1. Install Aspose.3D for .NET: Begin by downloading and installing Aspose.3D for .NET from the [official download link](https://releases.aspose.com/3d/net/). Follow the installation instructions provided to set up the library in your development environment.
+1. Install Aspose.3D for .NET: Begin by downloading and installing Aspose.3D for .NET from the [download link](https://releases.aspose.com/3d/net/). Follow the installation instructions provided to set up the library in your development environment.
 2. Access Documentation: Familiarize yourself with the library's documentation available at [Aspose.3D for .NET Documentation](https://reference.aspose.com/3d/net/). This resource will be your guide throughout the tutorial.
 3. Get a Temporary License: If you don't have a license yet, grab a temporary one from [here](https://purchase.aspose.com/temporary-license/) to explore the full potential of Aspose.3D during this tutorial.
 ## Import Namespaces
@@ -51,7 +51,7 @@ scene.Save("Your Document Directory" + "sphere.obj", FileFormat.WavefrontOBJ);
 ```
 Congratulations! You've successfully created a 3D model of a sphere using Aspose.3D for .NET. Feel free to explore further and experiment with different parameters to unleash your creativity.
 ## Conclusion
-In this tutorial, we've covered the basics of using Aspose.3D for .NET to create 3D models. This powerful library opens up a world of possibilities for developers, enabling them to bring their creative visions to life. As you continue exploring, refer to the [official documentation](https://reference.aspose.com/3d/net/) for more in-depth insights and advanced features.
+In this tutorial, we've covered the basics of using Aspose.3D for .NET to create 3D models. This powerful library opens up a world of possibilities for developers, enabling them to bring their creative visions to life. As you continue exploring, refer to the [documentation](https://reference.aspose.com/3d/net/) for more in-depth insights and advanced features.
 ## Frequently Asked Questions
  (FAQs)
 ### Q1: Is Aspose.3D compatible with all .NET frameworks?
@@ -63,4 +63,4 @@ For any queries or assistance, head over to the [Aspose.3D forum](https://forum.
 ### Q4: Is there a free trial available?
 Yes, you can access a free trial of Aspose.3D [here](https://releases.aspose.com/) to evaluate its features before making a purchase decision.
 ### Q5: Can I find more tutorials on advanced 3D modeling techniques?
-Certainly! Check the official documentation and community forums for additional tutorials and insights into mastering 3D modeling with Aspose.3D for .NET.
+Certainly! Check the documentation and community forums for additional tutorials and insights into mastering 3D modeling with Aspose.3D for .NET.

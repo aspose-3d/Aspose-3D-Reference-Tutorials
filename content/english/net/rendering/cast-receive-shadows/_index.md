@@ -11,7 +11,7 @@ url: /net/rendering/cast-receive-shadows/
 Welcome to the world of 3D rendering with Aspose.3D for .NET! In this tutorial, we will delve into the fascinating realm of casting and receiving shadows, a crucial aspect of creating realistic and visually stunning 3D scenes. Whether you are a seasoned developer or just starting your journey into 3D graphics, this guide will equip you with the knowledge and skills to enhance your rendering capabilities using Aspose.3D.
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following prerequisites in place:
-- Aspose.3D for .NET: Ensure you have the Aspose.3D library installed. You can download it from the official [Aspose.3D for .NET documentation](https://reference.aspose.com/3d/net/).
+- Aspose.3D for .NET: Ensure you have the Aspose.3D library installed. You can download it from the [Aspose.3D for .NET documentation](https://reference.aspose.com/3d/net/).
 - .NET Development Environment: Have a working .NET development environment set up on your machine.
 - Code Editor: Choose your preferred code editor; Visual Studio is recommended for a seamless experience.
 ## Import Namespaces

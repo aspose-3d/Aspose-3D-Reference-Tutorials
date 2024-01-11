@@ -1,6 +1,6 @@
 ---
-title: Linear Extrusion -  Slices in Linear Extrusion
-linktitle: Linear Extrusion -  Slices in Linear Extrusion
+title: Slices in Linear Extrusion
+linktitle: Slices in Linear Extrusion
 second_title: Aspose.3D .NET API
 description: Explore the world of 3D design with Aspose.3D for .NET. Create stunning models using our linear extrusion tutorial.
 type: docs

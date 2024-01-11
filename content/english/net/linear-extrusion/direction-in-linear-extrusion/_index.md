@@ -1,6 +1,6 @@
 ---
-title: Linear Extrusion -  Direction in Linear Extrusion
-linktitle: Linear Extrusion -  Direction in Linear Extrusion
+title: Direction in Linear Extrusion
+linktitle: Direction in Linear Extrusion
 second_title: Aspose.3D .NET API
 description: Unlock the world of 3D modeling with Aspose.3D for .NET. Learn direction linear extrusion, boost creativity, and craft immersive applications effortlessly.
 type: docs

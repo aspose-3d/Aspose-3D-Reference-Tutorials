@@ -12,7 +12,7 @@ Are you looking to harness the power of Aspose.3D for .NET to convert a Sphere M
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites in place:
 - Basic knowledge of .NET programming.
-- Aspose.3D for .NET library installed. You can download it from the official [Aspose.3D for .NET download page](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET library installed. You can download it from the [Aspose.3D for .NET download page](https://releases.aspose.com/3d/net/).
 - Familiarity with the C# programming language.
 ## Import Namespaces
 In your C# project, make sure to import the necessary namespaces to leverage Aspose.3D functionality:
@@ -87,7 +87,7 @@ Congratulations! You've successfully converted a Sphere Mesh to a Triangle Mesh 
 ### Q: Can I use Aspose.3D for .NET with other .NET frameworks?
 A: Yes, Aspose.3D for .NET is compatible with various .NET frameworks.
 ### Q: Where can I find detailed documentation for Aspose.3D for .NET?
-A: Refer to the [official Aspose.3D for .NET documentation](https://reference.aspose.com/3d/net/) for in-depth information.
+A: Refer to the [Aspose.3D for .NET documentation](https://reference.aspose.com/3d/net/) for in-depth information.
 ### Q: How can I get a temporary license for Aspose.3D for .NET?
 A: Visit [this link](https://purchase.aspose.com/temporary-license/) to obtain a temporary license.
 ### Q: Are there any sample projects available for Aspose.3D for .NET?

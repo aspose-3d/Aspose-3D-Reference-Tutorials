@@ -11,7 +11,7 @@ url: /net/working-with-point-cloud/encode-mesh/
 Are you ready to elevate your .NET development game with cutting-edge 3D graphics and mesh encoding? Look no further than Aspose.3D for .NET! This powerful library empowers developers to manipulate 3D scenes, create stunning visuals, and optimize mesh encoding seamlessly. In this tutorial, we'll delve into the intricacies of encoding mesh using Aspose.3D for .NET, providing you with a comprehensive guide to harnessing its capabilities.
 ## Prerequisites
 Before we dive into the tutorial, ensure you have the following prerequisites in place:
-1. Installation of Aspose.3D for .NET: Download and install the library by visiting the [official download page](https://releases.aspose.com/3d/net/). Follow the installation instructions provided in the documentation to integrate Aspose.3D seamlessly into your .NET environment.
+1. Installation of Aspose.3D for .NET: Download and install the library by visiting the [download page](https://releases.aspose.com/3d/net/). Follow the installation instructions provided in the documentation to integrate Aspose.3D seamlessly into your .NET environment.
 2. Document Directory: Prepare a directory where you'll store your 3D documents. This directory will be crucial for saving the encoded mesh files generated during the tutorial.
 ## Import Namespaces
 Let's kick things off by importing the necessary namespaces. These namespaces are essential for accessing the functionalities offered by Aspose.3D for .NET.

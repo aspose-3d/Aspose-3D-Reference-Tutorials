@@ -66,7 +66,7 @@ No, Aspose.3D is specifically designed for .NET development.
 ### Is there a free trial available?
 Yes, you can access the free trial [here](https://releases.aspose.com/).
 ### Where can I find Aspose.3D documentation?
-Refer to the official documentation [here](https://reference.aspose.com/3d/net/).
+Refer to the documentation [here](https://reference.aspose.com/3d/net/).
 ### How can I get support for Aspose.3D?
 Visit the support forum [here](https://forum.aspose.com/c/3d/18).
 ### Is there a temporary license option?

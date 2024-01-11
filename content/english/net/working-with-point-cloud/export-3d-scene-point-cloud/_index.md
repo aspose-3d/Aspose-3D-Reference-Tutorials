@@ -46,7 +46,7 @@ Yes, Aspose.3D for .NET supports scenes with multiple objects. You can easily ex
 ### Is Aspose.3D compatible with popular 3D file formats?
 Absolutely! Aspose.3D supports various 3D file formats, providing flexibility in working with different platforms and applications.
 ### Where can I find detailed documentation for Aspose.3D?
-The official documentation is available [here](https://reference.aspose.com/3d/net/), offering in-depth insights into the library's features and capabilities.
+The documentation is available [here](https://reference.aspose.com/3d/net/), offering in-depth insights into the library's features and capabilities.
 ### Are there any community forums for Aspose.3D support?
 Yes, you can join the Aspose.3D community at [https://forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) for discussions and assistance.
 ### Can I try Aspose.3D before purchasing?

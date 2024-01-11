@@ -1,6 +1,6 @@
 ---
-title: Linear Extrusion -  Performing Linear Extrusion
-linktitle: Linear Extrusion -  Performing Linear Extrusion
+title: Performing Linear Extrusion
+linktitle: Performing Linear Extrusion
 second_title: Aspose.3D .NET API
 description: Explore the world of 3D graphics with Aspose.3D for .NET. Performing Linear Extrusion in this step-by-step guide.
 type: docs

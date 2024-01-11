@@ -67,7 +67,7 @@ Console.WriteLine("\n Converted a Box mesh to triangle mesh with custom memory l
 Congratulations! You've successfully learned how to convert a Box Mesh to a Triangle Mesh with Custom Memory Layout using Aspose.3D for .NET. This capability opens up a world of possibilities for creating more intricate 3D models in your applications.
 ## FAQs
 ### 1. Where can I find the Aspose.3D documentation?
-You can access the official documentation [here](https://reference.aspose.com/3d/net/).
+You can access the documentation [here](https://reference.aspose.com/3d/net/).
 ### 2. How can I download Aspose.3D for .NET?
 You can download Aspose.3D for .NET [here](https://releases.aspose.com/3d/net/).
 ### 3. Where can I purchase Aspose.3D?

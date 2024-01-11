@@ -11,7 +11,7 @@ url: /net/objects/generate-data-for-meshes/
 Welcome to this step-by-step guide on generating normal data for meshes using Aspose.3D for .NET! If you're working with 3D models and want to enhance the visual appeal by adding normal data, this tutorial is for you. Aspose.3D is a powerful .NET library that simplifies 3D graphics programming, and in this guide, we'll walk you through the process of generating normal data for meshes.
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following prerequisites in place:
-- Aspose.3D for .NET: If you haven't already, download and install Aspose.3D for .NET from the official [download link](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET: If you haven't already, download and install Aspose.3D for .NET from the [download link](https://releases.aspose.com/3d/net/).
 - Sample 3D Model: For this tutorial, we'll use a 3ds file named "camera.3ds." You can find sample files on the [Aspose.3D documentation](https://reference.aspose.com/3d/net/).
 - Basic Understanding of C#: Familiarize yourself with C# as we'll be using it to work with Aspose.3D.
 Now that you have everything set up, let's get started with the step-by-step guide!
@@ -65,4 +65,4 @@ Visit the [temporary license page](https://purchase.aspose.com/temporary-license
 ### Where can I find in-depth documentation for Aspose.3D for .NET?
 The comprehensive documentation is available [here](https://reference.aspose.com/3d/net/).
 ### What if I need to purchase a license for Aspose.3D?
-You can buy a license from the official [purchase page](https://purchase.aspose.com/buy).
+You can buy a license from the [purchase page](https://purchase.aspose.com/buy).

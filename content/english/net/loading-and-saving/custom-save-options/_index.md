@@ -16,7 +16,7 @@ Welcome to the world of Aspose.3D for .NET! If you're looking to enhance your 3D
 Before we start exploring the exciting features of Aspose.3D, make sure you have the following prerequisites:
 
 - Basic understanding of C# and .NET development.
-- Aspose.3D for .NET library installed. You can download it from the [official release page](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET library installed. You can download it from the [release page](https://releases.aspose.com/3d/net/).
 - A development environment set up with Visual Studio or any other preferred C# IDE.
 
 ## Import Namespaces

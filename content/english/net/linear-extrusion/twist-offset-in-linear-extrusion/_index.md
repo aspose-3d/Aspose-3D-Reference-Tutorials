@@ -1,6 +1,6 @@
 ---
-title: Linear Extrusion -  Twist Offset in Linear Extrusion
-linktitle: Linear Extrusion -  Twist Offset in Linear Extrusion
+title: Twist Offset in Linear Extrusion
+linktitle: Twist Offset in Linear Extrusion
 second_title: Aspose.3D .NET API
 description: Explore the magic of Aspose.3D for .NET with our step-by-step guide on Twist Offset in Linear Extrusion. Elevate your 3D projects effortlessly.
 type: docs

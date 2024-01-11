@@ -1,6 +1,6 @@
 ---
-title: Linear Extrusion -  Twist in Linear Extrusion
-linktitle: Linear Extrusion -  Twist in Linear Extrusion
+title: Twist in Linear Extrusion
+linktitle: Twist in Linear Extrusion
 second_title: Aspose.3D .NET API
 description: Explore the captivating world of 3D graphics with Aspose.3D for .NET. Learn step by step Linear Extrusion with a Twist.
 type: docs

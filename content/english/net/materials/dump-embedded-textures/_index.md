@@ -70,4 +70,4 @@ A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community s
 ### Q: Can I obtain a temporary license for testing purposes?
 A: Yes, a temporary license is available [here](https://purchase.aspose.com/temporary-license/).
 ### Q: Where can I find comprehensive documentation for Aspose.3D?
-A: The official documentation is accessible [here](https://reference.aspose.com/3d/net/).
+A: The documentation is accessible [here](https://reference.aspose.com/3d/net/).

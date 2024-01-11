@@ -11,7 +11,7 @@ url: /net/working-with-point-cloud/export-to-ply-point-cloud/
 In the dynamic world of 3D modeling and development, Aspose.3D for .NET stands out as a powerful toolkit. This tutorial will guide you through the process of exporting 3D models to PLY format as a point cloud using Aspose.3D for .NET. If you're ready to enhance your projects with stunning visuals, follow along and unlock the full potential of this versatile library.
 ## Prerequisites
 Before diving into the tutorial, ensure that you have the following prerequisites in place:
-- Aspose.3D for .NET: Download and install the library from the [official download page](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET: Download and install the library from the [download page](https://releases.aspose.com/3d/net/).
 - Development Environment: Set up your preferred .NET development environment, such as Visual Studio.
 ## Import Namespaces
 To get started with Aspose.3D for .NET, import the necessary namespaces in your project:

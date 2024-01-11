@@ -11,7 +11,7 @@ url: /net/rendering/render-3d-model-image/
 Creating stunning 3D visualizations is an exciting aspect of software development, and with Aspose.3D for .NET, you can bring your 3D models to life. In this tutorial, we'll guide you through rendering a 3D model image from a camera using Aspose.3D, providing step-by-step instructions and valuable insights.
 ## Prerequisites
 Before we dive into the rendering process, make sure you have the following prerequisites in place:
-- Aspose.3D for .NET Library: Download and install the library from the [official download link](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET Library: Download and install the library from the [download link](https://releases.aspose.com/3d/net/).
 - 3D Model: Prepare a 3D model file (e.g., Aspose3D.obj) that you want to render.
 - .NET Development Environment: Ensure you have a working .NET development environment ready.
 ## Import Namespaces
@@ -86,6 +86,6 @@ A: Check the Aspose.3D [forum](https://forum.aspose.com/c/3d/18) for support and
 ### Q: Is there a free trial available?
 A: Yes, you can explore the features of Aspose.3D by obtaining a [free trial](https://releases.aspose.com/).
 ### Q: Where can I find comprehensive documentation?
-A: Refer to the [official documentation](https://reference.aspose.com/3d/net/) for in-depth guidance on Aspose.3D for .NET.
+A: Refer to the [documentation](https://reference.aspose.com/3d/net/) for in-depth guidance on Aspose.3D for .NET.
 ### Q: How do I purchase Aspose.3D for .NET?
 A: Visit the [purchase page](https://purchase.aspose.com/buy) to acquire the license that best suits your needs.

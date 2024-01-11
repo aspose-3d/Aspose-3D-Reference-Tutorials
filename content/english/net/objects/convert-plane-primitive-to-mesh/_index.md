@@ -11,7 +11,7 @@ url: /net/objects/convert-plane-primitive-to-mesh/
 In the ever-evolving world of 3D graphics and development, Aspose.3D for .NET emerges as a powerful tool for seamlessly manipulating and converting 3D objects. This tutorial will guide you through the process of converting a Plane Primitive to a Mesh using Aspose.3D for .NET.
 ## Prerequisites
 Before diving into the tutorial, ensure that you have the following prerequisites in place:
-- Aspose.3D for .NET Library: Download and install the Aspose.3D for .NET library from the [official download link](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET Library: Download and install the Aspose.3D for .NET library from the [download link](https://releases.aspose.com/3d/net/).
 - Development Environment: Set up your .NET development environment with the necessary tools and dependencies.
 - Basic Understanding of 3D Concepts: Familiarity with 3D graphics and concepts will be beneficial for better comprehension.
 ## Import Namespaces
@@ -69,10 +69,10 @@ In this tutorial, you've learned how to leverage Aspose.3D for .NET to convert a
 ### Is Aspose.3D compatible with all major 3D file formats?
 Yes, Aspose.3D supports a wide range of 3D file formats, ensuring compatibility with various industry standards.
 ### Can I use Aspose.3D for commercial projects?
-Absolutely, you can explore licensing options on the official Aspose purchasing page [here](https://purchase.aspose.com/buy).
+Absolutely, you can explore licensing options on the Aspose purchasing page [here](https://purchase.aspose.com/buy).
 ### Are there any temporary licenses available for testing purposes?
 Yes, you can obtain a temporary license for testing from [this link](https://purchase.aspose.com/temporary-license/).
 ### Where can I find additional support or community discussions related to Aspose.3D?
 Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for support and community discussions.
 ### How can I access the documentation for Aspose.3D?
-The official documentation is available [here](https://reference.aspose.com/3d/net/).
+The documentation is available [here](https://reference.aspose.com/3d/net/).
