@@ -90,7 +90,7 @@ Create a renderer and a render target to capture the scene.
 
 ## Step 5: Apply Post-Processing Effects
 
-### 5.1 Pixelation Effect
+### Step 5.1 Pixelation Effect
 
 ```csharp
 // Create pixelation effect
@@ -102,7 +102,7 @@ renderer.Render(rt);
 
 Apply pixelation effect and save the result.
 
-### 5.2 Grayscale Effect
+### Step 5.2 Grayscale Effect
 
 ```csharp
 // Create grayscale effect
@@ -115,7 +115,7 @@ renderer.Render(rt);
 
 Apply grayscale effect and save the result.
 
-### 5.3 Combine Effects
+### Step 5.3 Combine Effects
 
 ```csharp
 // Combine grayscale and pixelation effects
@@ -128,7 +128,7 @@ renderer.Render(rt);
 
 Combine multiple effects for unique results.
 
-### 5.4 Edge Detection Effect
+### Step 5.4 Edge Detection Effect
 
 ```csharp
 // Create edge detection effect
@@ -141,7 +141,7 @@ renderer.Render(rt);
 
 Apply edge detection effect and save the result.
 
-### 5.5 Blur Effect
+### Step 5.5 Blur Effect
 
 ```csharp
 // Create blur effect
