@@ -71,7 +71,7 @@ Explore the world of 3D graphics with Aspose.3D for .NET. Create immersive scene
 Explore the power of quaternion manipulation in 3D scenes with Aspose.3D for .NET. Learn to concatenate quaternions step by step for immersive transformations.
 ### [Creating Cube Scenes in 3D](./create-cube-scenes/)
 Craft stunning 3D cube scenes effortlessly with Aspose.3D for .NET. Download the library, follow our step-by-step guide, and unleash.
-### [Exposing Geometric Transformation in 3D Scenes](./expose-geometric-transformation
+### [Exposing Geometric Transformation in 3D Scenes](./expose-geometric-transformation/)
 Explore the limitless possibilities of 3D graphics in .NET with Aspose.3D. Uncover geometric transformations effortlessly.
 ### [Applying Material to Cube in 3D Scenes](./material-to-cube/)
 Explore Aspose.3D for .NET, your gateway to seamless 3D graphics manipulation. Apply materials effortlessly, enhance realism, and elevate your projects.
