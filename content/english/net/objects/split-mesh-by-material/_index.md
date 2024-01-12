@@ -61,7 +61,6 @@ Now, we split the mesh into two sub-meshes, grouping planes based on materials, 
 ## Conclusion
 Congratulations! You've successfully learned how to split a mesh by material using Aspose.3D for .NET. This technique is essential for managing complex 3D scenes efficiently.
 ## Frequently Asked Questions
- (FAQs)
 ### Q: Can I apply this technique to custom meshes?
 Absolutely! As long as your mesh has defined materials, you can use this approach.
 ### Q: How does the CloneData policy differ from the CompactData policy?

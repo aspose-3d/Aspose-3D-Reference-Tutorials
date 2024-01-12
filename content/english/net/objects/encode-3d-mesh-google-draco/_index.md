@@ -46,8 +46,8 @@ Finally, we save the compressed data to a file in the specified output directory
 Repeat these steps with your own 3D models, and you'll have them encoded in Google Draco format efficiently.
 ## Conclusion
 In this tutorial, we explored the process of encoding a 3D mesh in the Google Draco format using Aspose.3D for .NET. This powerful library simplifies complex 3D operations, providing developers with a seamless experience.
----
-### FAQs
+
+### FAQ's
 ### Can I use Aspose.3D for .NET with other programming languages?
 Aspose.3D is primarily designed for .NET, but Aspose provides similar libraries for Java and other platforms.
 ### Is there a free trial available for Aspose.3D for .NET?

@@ -25,7 +25,8 @@ using Aspose.ThreeD.Animation;
 using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Formats;
 ```
-## Tutorial: Converting Plane Primitive to Mesh
+## Converting Plane Primitive to Mesh
+
 ## Step 1: Initialize Scene Object
 ```csharp
 Scene scene = new Scene();

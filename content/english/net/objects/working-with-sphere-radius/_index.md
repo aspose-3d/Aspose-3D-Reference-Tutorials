@@ -53,7 +53,7 @@ Congratulations! You've successfully created a 3D model of a sphere using Aspose
 ## Conclusion
 In this tutorial, we've covered the basics of using Aspose.3D for .NET to create 3D models. This powerful library opens up a world of possibilities for developers, enabling them to bring their creative visions to life. As you continue exploring, refer to the [documentation](https://reference.aspose.com/3d/net/) for more in-depth insights and advanced features.
 ## Frequently Asked Questions
- (FAQs)
+
 ### Q1: Is Aspose.3D compatible with all .NET frameworks?
 Yes, Aspose.3D is compatible with a wide range of .NET frameworks, providing flexibility for developers across different environments.
 ### Q2: Can I use Aspose.3D for commercial projects?
