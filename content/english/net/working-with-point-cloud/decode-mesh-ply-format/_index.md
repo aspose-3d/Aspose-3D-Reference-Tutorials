@@ -18,7 +18,7 @@ Now that we're geared up, let the coding odyssey commence!
 ## Import Namespaces
 Before we embark on the coding adventure, we need to open the gateway to the world of 3D manipulation by importing the necessary namespaces.
 1. Aspose.3D Namespace: Begin by importing the core Aspose.3D namespace to unlock the functionalities we're about to explore.
-    ```csharp
+```csharp
 using Aspose.ThreeD;
 using System;
 using System.Collections.Generic;
