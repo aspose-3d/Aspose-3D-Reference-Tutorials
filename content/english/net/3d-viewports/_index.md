@@ -20,7 +20,7 @@ Picture this – pixelation, grayscale, edge detection, and blur effects seamles
 
 Whether you're crafting a gaming environment, architectural simulation, or any 3D application, these tutorials empower you to add that touch of finesse. Elevate your projects by harnessing the potential of Aspose.3D for .NET – where creativity meets simplicity.
 
-### **Capturing Viewports in 3D Scenes**
+## Capturing Viewports in 3D Scenes
 
 Unlock the secrets to capturing breathtaking 3D viewports in your scenes with Aspose.3D for .NET. This [tutorial](./capture-viewport/) unveils the art of rendering scenes with unparalleled flexibility, allowing you to showcase your creations from every angle.
 
