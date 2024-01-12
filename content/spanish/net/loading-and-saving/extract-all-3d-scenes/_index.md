@@ -1,6 +1,6 @@
 ---
-title: Cargar y guardar: extraer todas las escenas 3D
-linktitle: Cargar y guardar: extraer todas las escenas 3D
+tiitle: Cargar y guardar extraer todas las escenas 3D
+linktiitle: Cargar y guardar extraer todas las escenas 3D
 second_title: Aspose.3D API .NET
 description: Explore las posibilidades ilimitadas del desarrollo 3D con Aspose.3D para .NET. Cargue, guarde y extraiga escenas sin esfuerzo.
 type: docs

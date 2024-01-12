@@ -1,6 +1,6 @@
 ---
-title: Caricamento e salvataggio: utilizzo di CancellationToken
-linktitle: Caricamento e salvataggio: utilizzo di CancellationToken
+tiitle: Caricamento e salvataggio utilizzo di CancellationToken
+linktiitle: Caricamento e salvataggio utilizzo di CancellationToken
 second_title: API Aspose.3D .NET
 description: Esplora il mondo senza soluzione di continuità della modellazione 3D con Aspose.3D per .NET. Impara a caricare e salvare documenti 3D in modo efficiente utilizzando CancellationToken.
 type: docs

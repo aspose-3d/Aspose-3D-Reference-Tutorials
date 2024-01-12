@@ -1,6 +1,6 @@
 ---
-title: Cargar y guardar: abrir escena desde PDF protegido
-linktitle: Cargar y guardar: abrir escena desde PDF protegido
+tiitle: Cargar y guardar abrir escena desde PDF protegido
+linktiitle: Cargar y guardar abrir escena desde PDF protegido
 second_title: Aspose.3D API .NET
 description: Explore las posibilidades del modelado 3D con Aspose.3D para .NET. Aprenda a abrir escenas de archivos PDF protegidos en nuestra guía paso a paso.
 type: docs

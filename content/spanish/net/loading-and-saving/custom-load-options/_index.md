@@ -1,6 +1,6 @@
 ---
-title: Cargar y guardar: opciones de carga personalizadas
-linktitle: Cargar y guardar: opciones de carga personalizadas
+tiitle: Cargar y guardar opciones de carga personalizadas
+linktiitle: Cargar y guardar opciones de carga personalizadas
 second_title: Aspose.3D API .NET
 description: Explore Aspose.3D para .NET, la solución definitiva para cargar y guardar modelos 3D sin problemas.
 type: docs

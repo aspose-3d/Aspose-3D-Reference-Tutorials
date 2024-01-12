@@ -1,6 +1,6 @@
 ---
-title: Caricamento e salvataggio: salvataggio della scena 3D
-linktitle: Caricamento e salvataggio: salvataggio della scena 3D
+tiitle: Caricamento e salvataggio salvataggio della scena 3D
+linktiitle: Caricamento e salvataggio salvataggio della scena 3D
 second_title: API Aspose.3D .NET
 description: Esplora la potenza di Aspose.3D per .NET. una libreria versatile per una perfetta manipolazione delle scene 3D. Carica, salva e comprimi senza sforzo.
 type: docs

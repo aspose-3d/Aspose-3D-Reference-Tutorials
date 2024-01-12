@@ -2,7 +2,7 @@
 title: Cargando y guardando - Conversión de materiales que no son PBR a PBR
 linktitle: Cargando y guardando - Conversión de materiales que no son PBR a PBR
 second_title: Aspose.3D API .NET
-description: Explore Aspose.3D para .NET: convierta materiales que no sean PBR en PBR sin esfuerzo. Tutorial completo y potente API.
+description: Explore Aspose.3D para .NET convierta materiales que no sean PBR en PBR sin esfuerzo. Tutorial completo y potente API.
 type: docs
 weight: 16
 url: /es/net/loading-and-saving/non-pbr-to-pbr-material-conversion/

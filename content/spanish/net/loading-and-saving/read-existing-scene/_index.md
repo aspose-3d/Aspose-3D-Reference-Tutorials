@@ -1,6 +1,6 @@
 ---
-title: Cargar y guardar: leer una escena existente
-linktitle: Cargar y guardar: leer una escena existente
+tiitle: Cargar y guardar leer una escena existente
+linktiitle: Cargar y guardar leer una escena existente
 second_title: Aspose.3D API .NET
 description: Desbloquee el poder del modelado 3D en .NET con Aspose.3D. Cargue, guarde y manipule escenas sin esfuerzo. Sumérgete en el mundo de posibilidades ilimitadas.
 type: docs

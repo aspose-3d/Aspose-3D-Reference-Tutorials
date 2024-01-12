@@ -1,6 +1,6 @@
 ---
-title: Caricamento e salvataggio: opzioni di caricamento personalizzate
-linktitle: Caricamento e salvataggio: opzioni di caricamento personalizzate
+tiitle: Caricamento e salvataggio opzioni di caricamento personalizzate
+linktiitle: Caricamento e salvataggio opzioni di caricamento personalizzate
 second_title: API Aspose.3D .NET
 description: Esplora Aspose.3D per .NET, la soluzione definitiva per il caricamento e il salvataggio senza interruzioni dei modelli 3D.
 type: docs

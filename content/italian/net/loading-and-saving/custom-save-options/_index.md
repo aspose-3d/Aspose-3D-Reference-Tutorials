@@ -1,6 +1,6 @@
 ---
-title: Caricamento e salvataggio: opzioni di salvataggio personalizzate
-linktitle: Caricamento e salvataggio: opzioni di salvataggio personalizzate
+tiitle: Caricamento e salvataggio opzioni di salvataggio personalizzate
+linktiitle: Caricamento e salvataggio opzioni di salvataggio personalizzate
 second_title: API Aspose.3D .NET
 description: Esplora la potenza di Aspose.3D per .NET. Scopri come personalizzare il salvataggio delle scene 3D con guide dettagliate sui formati Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC e RVM.
 type: docs

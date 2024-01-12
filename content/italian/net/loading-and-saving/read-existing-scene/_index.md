@@ -1,6 +1,6 @@
 ---
-title: Caricamento e salvataggio: lettura di una scena esistente
-linktitle: Caricamento e salvataggio: lettura di una scena esistente
+tiitle: Caricamento e salvataggio lettura di una scena esistente
+linktiitle: Caricamento e salvataggio lettura di una scena esistente
 second_title: API Aspose.3D .NET
 description: Sblocca la potenza della modellazione 3D in .NET con Aspose.3D. Carica, salva e manipola le scene senza sforzo. Immergiti nel mondo delle possibilità illimitate.
 type: docs

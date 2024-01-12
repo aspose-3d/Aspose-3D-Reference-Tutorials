@@ -1,6 +1,6 @@
 ---
-title: Caricamento e salvataggio: apertura di una scena da PDF protetto
-linktitle: Caricamento e salvataggio: apertura di una scena da PDF protetto
+tiitle: Caricamento e salvataggio apertura di una scena da PDF protetto
+linktiitle: Caricamento e salvataggio apertura di una scena da PDF protetto
 second_title: API Aspose.3D .NET
 description: Esplora le possibilità della modellazione 3D con Aspose.3D per .NET. Impara ad aprire scene da PDF protetti nella nostra guida passo passo.
 type: docs

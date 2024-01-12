@@ -1,6 +1,6 @@
 ---
-title: Caricamento e salvataggio: estrazione di tutte le scene 3D
-linktitle: Caricamento e salvataggio: estrazione di tutte le scene 3D
+tiitle: Caricamento e salvataggio estrazione di tutte le scene 3D
+linktiitle: Caricamento e salvataggio estrazione di tutte le scene 3D
 second_title: API Aspose.3D .NET
 description: Esplora le possibilità illimitate dello sviluppo 3D con Aspose.3D per .NET. Carica, salva ed estrai scene senza sforzo.
 type: docs
