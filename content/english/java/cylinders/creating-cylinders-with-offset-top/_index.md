@@ -16,7 +16,7 @@ import com.aspose.threed.Cylinder;
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.Scene;
 import com.aspose.threed.Vector3;
-import examples.RunExamples;
+
 
 import java.io.IOException;
 
@@ -36,7 +36,7 @@ public class CustomizedOffsetTopCylinder {
         // Create ChildNode
         scene.getRootNode().createChildNode(cylinder2);
         // Save
-        scene.save(RunExamples.getDataDir()+ "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
+        scene.save("Your Document Directory"+ "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
         // ExEnd:1
     }
 }

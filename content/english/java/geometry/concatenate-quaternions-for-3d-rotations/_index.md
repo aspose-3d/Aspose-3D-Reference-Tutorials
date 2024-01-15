@@ -13,14 +13,14 @@ url: /java/geometry/concatenate-quaternions-for-3d-rotations/
 package examples.geometry;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 public class ConcatenateQuaternions {
 
         public static void run() throws Exception {
             // ExStart:ConcatenateQuaternions
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
 
             Scene scene = new Scene();
 

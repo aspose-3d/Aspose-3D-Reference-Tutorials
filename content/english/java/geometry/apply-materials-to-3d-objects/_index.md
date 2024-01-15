@@ -13,7 +13,7 @@ url: /java/geometry/apply-materials-to-3d-objects/
 package examples.geometry;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -43,7 +43,7 @@ public class MaterialToCube {
             Texture diffuse = new Texture();
 
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
 
             // Set local file path
             diffuse.setFileName(MyDir + "surface.dds");

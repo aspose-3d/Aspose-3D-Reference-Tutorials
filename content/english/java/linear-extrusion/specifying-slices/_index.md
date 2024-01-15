@@ -13,14 +13,14 @@ url: /java/linear-extrusion/specifying-slices/
 package examples.LinearExtrusion;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 import java.io.IOException;
 
 public class SlicesInLinearExtrusion {
     public static void run() throws IOException {
         // ExStart:SlicesInLinearExtrusion
         // The path to the documents directory.
-        String MyDir = RunExamples.getDataDir();
+        String MyDir = "Your Document Directory";
         // Initialize the base profile to be extruded
         RectangleShape profile = new RectangleShape();
         profile.setRoundingRadius(0.3);

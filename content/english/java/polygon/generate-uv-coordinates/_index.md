@@ -25,14 +25,14 @@ import com.aspose.threed.PolygonModifier;
 import com.aspose.threed.Scene;
 import com.aspose.threed.VertexElement;
 import com.aspose.threed.VertexElementType;
-import examples.RunExamples;
+
 
 public class GenerateUV {
 
             public static void run() throws Exception {
             // ExStart:GenerateUV
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             Scene scene = new Scene();
             //since all primitive entities in Aspose.3D will have builtin UV generation
             //here we manually remove it to assume we have a mesh without UV data

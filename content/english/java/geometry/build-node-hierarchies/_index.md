@@ -13,7 +13,7 @@ url: /java/geometry/build-node-hierarchies/
 package examples.geometry;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 
 public class NodeHierarchy {
@@ -43,7 +43,7 @@ public class NodeHierarchy {
             top.getTransform().setRotation(Quaternion.fromEulerAngle(Math.PI, 4, 0));
 
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             MyDir = MyDir + RunExamples.getOutputFilePath("NodeHierarchy.fbx");
 
             // Save 3D scene in the supported file formats

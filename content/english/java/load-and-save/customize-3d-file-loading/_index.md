@@ -13,7 +13,7 @@ url: /java/load-and-save/customize-3d-file-loading/
 package examples.loadsave;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 import java.io.IOException;
 
@@ -33,7 +33,7 @@ public class LoadOptions {
         {
             // ExStart:Discreet3DSOption
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
             // Sets wheather to use the transformation defined in the first frame of animation track.
             loadOpts.setApplyAnimationTransform(true);
@@ -49,7 +49,7 @@ public class LoadOptions {
         {
             // ExStart:ObjLoadOption
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // Initialize an object
             ObjLoadOptions loadObjOpts = new ObjLoadOptions();
             // Import materials from external material library file
@@ -64,7 +64,7 @@ public class LoadOptions {
         {
             // ExStart:STLLoadOption
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // Initialize an object
             StlLoadOptions loadSTLOpts = new StlLoadOptions();
             // Flip the coordinate system.
@@ -77,7 +77,7 @@ public class LoadOptions {
         {
             // ExStart:U3DLoadOption
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // Initialize an object
             U3dLoadOptions loadU3DOpts = new U3dLoadOptions();
             // Flip the coordinate system.
@@ -89,7 +89,7 @@ public class LoadOptions {
         public static void gltfLoadOptions() throws IOException {
             // ExStart:glTFLoadOptions
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // Initialize Scene class object
             Scene scene = new Scene();
             // Set load options
@@ -102,7 +102,7 @@ public class LoadOptions {
         public static void plyLoadOptions() throws IOException {
             // ExStart:PlyLoadOptions
             // the path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // initialize Scene class object
             Scene scene = new Scene();
             // initialize an object
@@ -116,7 +116,7 @@ public class LoadOptions {
         public static void xLoadOptions() throws IOException {
             // ExStart:XLoadOptions
             // the path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // initialize Scene class object
             Scene scene = new Scene();
             // initialize an object
@@ -130,7 +130,7 @@ public class LoadOptions {
         private static void FBXLoadOptions() throws IOException
         {
             //ExStart: FBXLoadOptions
-            String dataDir = RunExamples.getDataDir();
+            String dataDir = "Your Document Directory";
             //This will output all properties defined in GlobalSettings in FBX file.
             Scene scene = new Scene();
             FbxLoadOptions opt = new FbxLoadOptions();

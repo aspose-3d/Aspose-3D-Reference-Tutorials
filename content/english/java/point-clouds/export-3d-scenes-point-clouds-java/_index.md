@@ -15,7 +15,7 @@ package examples.pointcloud;
 import com.aspose.threed.ObjSaveOptions;
 import com.aspose.threed.Scene;
 import com.aspose.threed.Sphere;
-import examples.RunExamples;
+
 
 import java.io.IOException;
 
@@ -30,7 +30,7 @@ public class Export3DSceneAsPointCloud {
         // To export 3D scene as point cloud setPointCould
         opt.setPointCloud(true);
         // Save
-        scene.save(RunExamples.getDataDir()+ "export3DSceneAsPointCloud.obj", opt);
+        scene.save("Your Document Directory"+ "export3DSceneAsPointCloud.obj", opt);
         // ExEnd:1
     }
 }

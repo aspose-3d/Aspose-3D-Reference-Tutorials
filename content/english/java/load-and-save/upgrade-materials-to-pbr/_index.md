@@ -13,14 +13,14 @@ url: /java/load-and-save/upgrade-materials-to-pbr/
 package examples.loadsave;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 public class Non_PBRtoPBRMaterial {
 
         public static void run() throws Exception {
             // ExStart:Non_PBRtoPBRMaterial
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             /* initialize a new 3D scene */
             Scene s = new Scene();
             Box box = new Box();

@@ -14,14 +14,14 @@ package examples.loadsave;
 
 import com.aspose.threed.*;
 import com.aspose.threed.utils.MemoryStream;
-import examples.RunExamples;
+
 
 public class Save3DScene {
 
         public static void run() throws Exception {
             // ExStart:Save3DScene
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
 
             // Load a 3D document into Aspose.3D
             Scene scene = new Scene();

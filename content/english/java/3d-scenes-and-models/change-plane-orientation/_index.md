@@ -16,14 +16,14 @@ import com.aspose.threed.FileFormat;
 import com.aspose.threed.Plane;
 import com.aspose.threed.Scene;
 import com.aspose.threed.Vector3;
-import examples.RunExamples;
+
 
 
 public class ChangePlaneOrientation {
     public static void run() throws Exception {
         // ExStart:ChangePlaneOrientation
         // The path to the documents directory.
-        String MyDir = RunExamples.getDataDir();
+        String MyDir = "Your Document Directory";
         // Initialize Scene
         Scene scene = new Scene();
         // Initialize Plane

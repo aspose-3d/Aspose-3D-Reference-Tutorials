@@ -12,14 +12,14 @@ url: /java/primitive-3d-models/building-primitive-3d-models/
 ```java
 package examples.modeling;
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 public class Primitive3DModels {
 
     public static void run() throws Exception {
             // ExStart:Primitive3DModels
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
 
             // Initialize a Scene object
             Scene scene = new Scene();

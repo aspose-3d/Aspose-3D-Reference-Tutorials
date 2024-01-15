@@ -14,7 +14,7 @@ package examples.scene;
 
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.Scene;
-import examples.RunExamples;
+
 
 public class InformationToScene {
 
@@ -36,7 +36,7 @@ public class InformationToScene {
             scene.getAssetInfo().setUnitScaleFactor(0.6);
 
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             MyDir = MyDir + RunExamples.getOutputFilePath("InformationToScene.fbx");
 
             // Save scene to 3D supported file formats

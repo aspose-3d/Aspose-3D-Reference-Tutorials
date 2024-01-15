@@ -13,14 +13,14 @@ url: /java/geometry/triangulate-meshes-for-optimized-rendering/
 package examples.geometry;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 public class TriangulateMesh {
 
         public static void run() throws Exception {
             // ExStart:TriangulateMesh
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
 
             // Initialize scene object
             Scene scene = new Scene();

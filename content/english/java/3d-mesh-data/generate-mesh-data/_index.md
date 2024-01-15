@@ -13,7 +13,7 @@ url: /java/3d-mesh-data/generate-mesh-data/
 package examples.objects;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 import java.io.IOException;
 
@@ -22,7 +22,7 @@ public class GenerateDataForMeshes {
         public static void run() throws IOException {
             // ExStart:GenerateDataForMeshes
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
 
             // Load a 3ds file, 3ds file doesn't have normal data, but it has smoothing group
             Scene s = new Scene(MyDir + "camera.3ds");

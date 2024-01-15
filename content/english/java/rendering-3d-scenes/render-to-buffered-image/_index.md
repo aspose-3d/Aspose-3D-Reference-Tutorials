@@ -15,7 +15,7 @@ package examples.render;
 import com.aspose.threed.Camera;
 import com.aspose.threed.ImageRenderOptions;
 import com.aspose.threed.Scene;
-import examples.RunExamples;
+
 
 import javax.imageio.ImageIO;
 import java.awt.*;

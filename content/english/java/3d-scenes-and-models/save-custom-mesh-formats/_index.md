@@ -13,7 +13,7 @@ url: /java/3d-scenes-and-models/save-custom-mesh-formats/
 package examples.scene;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 import java.io.*;
 import java.util.List;
@@ -22,7 +22,7 @@ public class Save3DMeshesInCustomBinaryFormat {
     public static void run()  throws  Exception{
             // ExStart:Save3DMeshesInCustomBinaryFormat
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // load a 3D file
             Scene scene = new Scene(MyDir + "test.fbx");
 

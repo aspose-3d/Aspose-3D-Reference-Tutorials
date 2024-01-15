@@ -13,7 +13,7 @@ url: /java/geometry/transform-3d-nodes-with-euler-angles/
 package examples.geometry;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 public class TransformationToNodeByEulerAngles {
 
@@ -38,7 +38,7 @@ public class TransformationToNodeByEulerAngles {
             scene.getRootNode().getChildNodes().add(cubeNode);
 
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             MyDir = MyDir + RunExamples.getOutputFilePath("TransformationToNode.fbx");
 
             // Save 3D scene in the supported file formats

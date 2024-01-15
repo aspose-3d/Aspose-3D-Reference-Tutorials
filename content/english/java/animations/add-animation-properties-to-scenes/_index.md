@@ -13,7 +13,7 @@ url: /java/animations/add-animation-properties-to-scenes/
 package examples.animation;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 import examples.geometry.Common;
 
 public class PropertyToDocument {
@@ -57,7 +57,7 @@ public class PropertyToDocument {
             bindPoint.bindKeyframeSequence("Z", kfs);
 
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             MyDir = MyDir + RunExamples.getOutputFilePath("PropertyToDocument.fbx");
 
             // Save 3D scene in the supported file formats

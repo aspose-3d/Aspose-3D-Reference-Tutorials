@@ -13,13 +13,13 @@ url: /java/linear-extrusion/performing-linear-extrusion/
 package examples.LinearExtrusion;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 public class PerformingLinearExtrusion {
     public static void run() throws Exception {
         // ExStart:PerformingLinearExtrusion
         // The path to the documents directory.
-        String MyDir = RunExamples.getDataDir();
+        String MyDir = "Your Document Directory";
         // Initialize the base shape to be extruded
         // Initialize the base profile to be extruded
         RectangleShape profile = new RectangleShape();

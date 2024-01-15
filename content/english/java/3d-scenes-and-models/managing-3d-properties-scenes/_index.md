@@ -20,7 +20,7 @@ import com.aspose.threed.PropertyCollection;
 import com.aspose.threed.Scene;
 import com.aspose.threed.Vector3;
 
-import examples.RunExamples;
+
 
 public class ThreeDProperties {
 
@@ -28,7 +28,7 @@ public class ThreeDProperties {
 		// TODO Auto-generated method stub
 
 		//ExStart: ThreeDProperties
-        String dataDir = RunExamples.getDataDir();
+        String dataDir = "Your Document Directory";
         Scene scene = new Scene(dataDir+ "EmbeddedTexture.fbx");
         Material material = scene.getRootNode().getChildNodes().get(0).getMaterial();
         PropertyCollection props = material.getProperties();

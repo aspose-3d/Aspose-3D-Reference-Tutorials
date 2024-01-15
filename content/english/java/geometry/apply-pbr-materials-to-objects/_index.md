@@ -13,14 +13,14 @@ url: /java/geometry/apply-pbr-materials-to-objects/
 package examples.geometry;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 public class ApplyPBRMaterialToBox {
 
         public static void run() throws Exception {
             // ExStart:ApplyPBRMaterialToBox
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
 
             // initialize a scene
             Scene scene = new Scene();

@@ -16,7 +16,7 @@ import com.aspose.threed.DracoCompressionLevel;
 import com.aspose.threed.DracoSaveOptions;
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.Sphere;
-import examples.RunExamples;
+
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -27,7 +27,7 @@ public class Encode3DMeshinGoogleDraco {
         public static void run() throws IOException {
             // ExStart:Encode3DMeshinGoogleDraco
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
 
             // Create a sphere
             Sphere sphere = new Sphere();

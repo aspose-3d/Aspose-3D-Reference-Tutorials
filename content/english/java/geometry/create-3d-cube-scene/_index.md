@@ -20,7 +20,7 @@ import com.aspose.threed.FileFormat;
 import com.aspose.threed.Mesh;
 import com.aspose.threed.Node;
 import com.aspose.threed.Scene;
-import examples.RunExamples;
+
 
 
 public class CubeScene {
@@ -37,7 +37,7 @@ public class CubeScene {
             // Add Node to a scene
             scene.getRootNode().getChildNodes().add(cubeNode);
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             MyDir = MyDir + RunExamples.getOutputFilePath("CubeScene.fbx");
             // Save 3D scene in the supported file formats
             //scene.save(MyDir, FileFormat.FBX7400ASCII);

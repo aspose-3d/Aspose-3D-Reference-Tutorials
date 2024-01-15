@@ -13,7 +13,7 @@ url: /java/rendering-3d-scenes/manual-render-targets/
 package examples.render;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 import javax.imageio.ImageIO;
 import java.awt.*;

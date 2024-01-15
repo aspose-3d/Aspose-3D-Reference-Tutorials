@@ -14,7 +14,7 @@ package examples.loadsave;
 
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.Scene;
-import examples.RunExamples;
+
 
 import java.io.Console;
 
@@ -23,7 +23,7 @@ public class CreateEmpty3DDocument {
         public static void run() throws Exception {
             // ExStart:CreateEmpty3DDocument
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             MyDir = MyDir + "document.fbx";
 
             // Create an object of the Scene class

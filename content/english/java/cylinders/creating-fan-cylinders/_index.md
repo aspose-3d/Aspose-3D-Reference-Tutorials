@@ -13,7 +13,7 @@ url: /java/cylinders/creating-fan-cylinders/
 package examples.WorkingWithCylinder;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 import java.io.IOException;
 
@@ -35,7 +35,7 @@ public class CreateFanCylinder {
         // Create ChildNode
         scene.getRootNode().createChildNode(nonfan);
         // Save scene
-        scene.save(RunExamples.getDataDir()+ "CreateFanCylinder.obj", FileFormat.WAVEFRONTOBJ);
+        scene.save("Your Document Directory"+ "CreateFanCylinder.obj", FileFormat.WAVEFRONTOBJ);
         // ExEnd:1
     }
 }

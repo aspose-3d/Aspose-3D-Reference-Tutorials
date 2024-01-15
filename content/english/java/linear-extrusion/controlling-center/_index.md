@@ -13,7 +13,7 @@ url: /java/linear-extrusion/controlling-center/
 package examples.LinearExtrusion;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 import java.io.IOException;
 
@@ -21,7 +21,7 @@ public class CenterInLinearExtrusion {
     public static void run() throws IOException {
         // ExStart:CenterInLinearExtrusion
         // The path to the documents directory.
-        String MyDir = RunExamples.getDataDir();
+        String MyDir = "Your Document Directory";
         // Initialize the base profile to be extruded
         RectangleShape profile = new RectangleShape();
         profile.setRoundingRadius(0.3);

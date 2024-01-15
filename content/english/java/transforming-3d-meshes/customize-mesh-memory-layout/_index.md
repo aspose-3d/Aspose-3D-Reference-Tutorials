@@ -13,7 +13,7 @@ url: /java/transforming-3d-meshes/customize-mesh-memory-layout/
 package examples.objects;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 public class ConvertBoxMeshtoTriangleMeshCustomMemoryLayout {
 
@@ -42,7 +42,7 @@ public class ConvertBoxMeshtoTriangleMeshCustomMemoryLayout {
             scene.getRootNode().getChildNodes().add(cubeNode);
 
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir() + RunExamples.getOutputFilePath("BoxToTriangleMeshCustomMemoryLayoutScene.fbx");
+            String MyDir = "Your Document Directory" + RunExamples.getOutputFilePath("BoxToTriangleMeshCustomMemoryLayoutScene.fbx");
 
             // Save 3D scene in the supported file formats
             scene.save(MyDir, FileFormat.FBX7400ASCII);

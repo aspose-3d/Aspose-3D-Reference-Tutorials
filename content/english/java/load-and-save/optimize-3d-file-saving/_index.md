@@ -13,7 +13,7 @@ url: /java/load-and-save/optimize-3d-file-saving/
 package examples.loadsave;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -43,7 +43,7 @@ public class SaveOptions {
         // Use setter to change this configuration.
         opt.setPrettyPrint(true);
         // Save 3D Scene
-        scene.save(RunExamples.getDataDir() + "prettyPrintInGltfSaveOption.gltf", opt);
+        scene.save("Your Document Directory" + "prettyPrintInGltfSaveOption.gltf", opt);
         // ExEnd:prettyPrintInGltfSaveOption
     }
     //This method is supported by version 19.9 or greater
@@ -66,7 +66,7 @@ public class SaveOptions {
         opt.setShowGrid(false);
         //Turn off the user interface
         opt.setShowUI(false);
-        scene.save(RunExamples.getDataDir() + "html5SaveOption.html", FileFormat.HTML5);
+        scene.save("Your Document Directory" + "html5SaveOption.html", FileFormat.HTML5);
         // ExEnd:html5SaveOption
     }
 
@@ -74,7 +74,7 @@ public class SaveOptions {
         {
             // ExStart:ColladaSaveOption
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             ColladaSaveOptions saveColladaopts = new ColladaSaveOptions();
             // Generates indented XML document
             saveColladaopts.setIndented(true);
@@ -88,7 +88,7 @@ public class SaveOptions {
         {
             // ExStart:Discreet3DSSaveOption
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // Initialize an object
             Discreet3dsSaveOptions saveOpts = new Discreet3dsSaveOptions();
             // The start base for generating new name for duplicated names.
@@ -117,7 +117,7 @@ public class SaveOptions {
         {
             // ExStart:FBXSaveOption
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // Initialize an object
             FbxSaveOptions saveOpts = new FbxSaveOptions(FileFormat.FBX7400ASCII);
             // Generates the legacy material properties.
@@ -136,7 +136,7 @@ public class SaveOptions {
         {
             // ExStart:ObjSaveOption
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // Initialize an object
             ObjSaveOptions saveObjOpts = new ObjSaveOptions();
             // Import materials from external material library file
@@ -155,7 +155,7 @@ public class SaveOptions {
         {
             // ExStart:STLSaveOption
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // Initialize an object
             StlSaveOptions saveSTLOpts = new StlSaveOptions();
             // Flip the coordinate system.
@@ -168,7 +168,7 @@ public class SaveOptions {
         {
             // ExStart:U3DSaveOption
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // Initialize an object
             U3dSaveOptions saveU3DOptions = new U3dSaveOptions();
             // Export normal data.
@@ -191,7 +191,7 @@ public class SaveOptions {
         public static void glTFSaveOptions() throws Exception {
             // ExStart:glTFSaveOptions
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // Initialize Scene object
             Scene scene = new Scene();
             // Create a child node
@@ -218,7 +218,7 @@ public class SaveOptions {
         public static void drcSaveOptions() throws Exception {
             // ExStart:DRCSaveOptions
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // Initialize Scene object
             Scene scene = new Scene();
             // Create a child node
@@ -244,7 +244,7 @@ public class SaveOptions {
             // ExStart:DiscardSavingMaterial
             // The code example uses the DummyFileSystem, so the material files are not created.
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // Initialize Scene object
             Scene scene = new Scene();
             // Create a child node
@@ -260,7 +260,7 @@ public class SaveOptions {
             // ExStart:SavingDependenciesInLocalDirectory
             // The code example uses the LocalFileSystem class to save dependencies to the local directory.
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // Initialize Scene object
             Scene scene = new Scene();
             // Create a child node
@@ -276,7 +276,7 @@ public class SaveOptions {
             // ExStart:SavingDependenciesInMemoryFileSystem
             // The code example uses the MemoryFileSystem to intercepts the dependencies writing.
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             // Initialize Scene object
             Scene scene = new Scene();
             // Create a child node
@@ -295,7 +295,7 @@ public class SaveOptions {
         private static void RVMSaveOptions() throws IOException
         {
             //ExStart: RVMSaveOptions
-            String dataDir = RunExamples.getDataDir();
+            String dataDir = "Your Document Directory";
             Scene scene = new Scene();
             Node node = scene.getRootNode().createChildNode("Box", new Box());
             node.setProperty("rvm:Refno", "=3462123");

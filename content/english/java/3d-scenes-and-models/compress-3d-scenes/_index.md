@@ -22,13 +22,13 @@ import com.aspose.threed.Box;
 import com.aspose.threed.Scene;
 import com.aspose.threed.Transform;
 import com.aspose.threed.Vector3;
-import examples.RunExamples;
+
 
 public class ExportSceneToCompressedAMF {
             public static void run() throws Exception {
             // ExStart:CompressedAMF
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             Scene scene = new Scene();
             Box box = new Box();
             Transform tr = scene.getRootNode().createChildNode(box).getTransform();

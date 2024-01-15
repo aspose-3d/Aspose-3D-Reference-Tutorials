@@ -14,14 +14,14 @@ package examples.pointcloud;
 
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.Sphere;
-import examples.RunExamples;
+
 
 import java.io.IOException;
 
 public class EncodeMesh {
     public static void run() throws IOException {
         // ExStart:1
-        FileFormat.DRACO.encode(new Sphere(), RunExamples.getDataDir() + "sphere.drc");
+        FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
         // ExEnd:1
     }
 }

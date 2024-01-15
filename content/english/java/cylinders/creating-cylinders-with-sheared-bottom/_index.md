@@ -13,7 +13,7 @@ url: /java/cylinders/creating-cylinders-with-sheared-bottom/
 package examples.WorkingWithCylinder;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 import java.io.IOException;
 
@@ -33,7 +33,7 @@ public class CustomizedShearBottomCylinder {
         // Add cylinder to without a ShearBottom to the scene
         scene.getRootNode().createChildNode(cylinder2);
         // Save scene
-        scene.save(RunExamples.getDataDir()+ "CustomizedShearBottomCylinder.obj", FileFormat.WAVEFRONTOBJ);
+        scene.save("Your Document Directory"+ "CustomizedShearBottomCylinder.obj", FileFormat.WAVEFRONTOBJ);
         // ExEnd:1
     }
 }

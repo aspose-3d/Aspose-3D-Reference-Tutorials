@@ -13,7 +13,7 @@ url: /java/geometry/share-mesh-geometry-data/
 package examples.geometry;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 
 public class MeshGeometryData {
@@ -51,7 +51,7 @@ public class MeshGeometryData {
             }
 
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
             MyDir = MyDir + RunExamples.getOutputFilePath("MeshGeometryData.fbx");
 
             // Save 3D scene in the supported file formats

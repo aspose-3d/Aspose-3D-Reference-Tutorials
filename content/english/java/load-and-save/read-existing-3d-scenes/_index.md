@@ -14,7 +14,7 @@ package examples.loadsave;
 
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.Scene;
-import examples.RunExamples;
+
 
 import java.io.IOException;
 
@@ -23,7 +23,7 @@ public class ReadExistingScene {
         public static void run() throws IOException {
             // ExStart:ReadExistingScene
             // The path to the documents directory.
-            String MyDir = RunExamples.getDataDir();
+            String MyDir = "Your Document Directory";
 
             // Initialize a Scene class object
             Scene scene = new Scene();
@@ -38,7 +38,7 @@ public class ReadExistingScene {
         public static void ReadRVMWithAttributes() throws IOException
         {
             //ExStart:ReadRVMWithAttributes
-            String dataDir = RunExamples.getDataDir();
+            String dataDir = "Your Document Directory";
 
             Scene scene = new Scene(dataDir + "att-test.rvm");
             

@@ -13,13 +13,13 @@ url: /java/animations/set-up-target-camera/
 package examples.animation;
 
 import com.aspose.threed.*;
-import examples.RunExamples;
+
 
 public class SetupTargetAndCamera {
     public static void run() throws Exception {
         // ExStart:SetupTargetAndCamera
         // The path to the documents directory.
-        String MyDir = RunExamples.getDataDir();
+        String MyDir = "Your Document Directory";
         // Initialize scene object
         Scene scene = new Scene();
         // Get a child node object
