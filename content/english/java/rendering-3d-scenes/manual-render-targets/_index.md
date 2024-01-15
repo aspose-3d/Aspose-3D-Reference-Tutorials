@@ -26,7 +26,7 @@ public class ManualRenderTarget extends RenderBase{
     public static void run() throws IOException {
         Scene scene = new Scene();
         Camera camera = setupScene(scene);
-        String output = RunExamples.getOutputFilePath("manual-render-to-image.png");
+        String output = "manual-render-to-image.png";
         //Supported render target types: BufferedImage.TYPE_4BYTE_ABGR/TYPE_3BYTE_BGR
         BufferedImage image = new BufferedImage(1024, 1024, BufferedImage.TYPE_3BYTE_BGR);
         scene.render(camera, image);

@@ -44,7 +44,7 @@ public class NodeHierarchy {
 
             // The path to the documents directory.
             String MyDir = "Your Document Directory";
-            MyDir = MyDir + RunExamples.getOutputFilePath("NodeHierarchy.fbx");
+            MyDir = MyDir + "NodeHierarchy.fbx";
 
             // Save 3D scene in the supported file formats
             scene.save(MyDir, FileFormat.FBX7500ASCII);

@@ -39,7 +39,7 @@ public class TransformationToNodeByEulerAngles {
 
             // The path to the documents directory.
             String MyDir = "Your Document Directory";
-            MyDir = MyDir + RunExamples.getOutputFilePath("TransformationToNode.fbx");
+            MyDir = MyDir + "TransformationToNode.fbx";
 
             // Save 3D scene in the supported file formats
             scene.save(MyDir, FileFormat.FBX7500ASCII);

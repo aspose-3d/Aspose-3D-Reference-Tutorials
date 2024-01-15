@@ -41,7 +41,7 @@ public class TriangulateMesh {
                     return true;
                 }
             });
-            MyDir = MyDir + RunExamples.getOutputFilePath("document.fbx");
+            MyDir = MyDir + "document.fbx";
             scene.save(MyDir, FileFormat.FBX7400ASCII);
             // ExEnd:TriangulateMesh
             System.out.println("\nMesh has been Triangulated.\nFile saved at " + MyDir);

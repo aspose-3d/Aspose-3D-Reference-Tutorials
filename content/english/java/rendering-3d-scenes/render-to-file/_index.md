@@ -26,7 +26,7 @@ public class RenderToFile extends RenderBase {
 
         Scene scene = new Scene();
         Camera camera = setupScene(scene);
-        String output = RunExamples.getOutputFilePath("render-to-file.png");
+        String output = "render-to-file.png";
         //Scene.render uses ImageIO internally, what output format is supported depends on your JRE.
         scene.render(camera, output, new Dimension(1024, 1024), "png");
     }

@@ -28,7 +28,7 @@ public class Primitive3DModels {
             // Create a Cylinder model
             scene.getRootNode().createChildNode("cylinder", new Cylinder());
             // Save drawing in the FBX format
-            MyDir = MyDir + RunExamples.getOutputFilePath("test.fbx");
+            MyDir = MyDir + "test.fbx";
             scene.save(MyDir, FileFormat.FBX7500ASCII);
 
             // ExEnd:Primitive3DModels

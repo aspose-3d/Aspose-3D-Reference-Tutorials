@@ -66,7 +66,7 @@ public class MaterialToCube {
             // Set material property of the cube object
             cubeNode.setMaterial(mat);
 
-            MyDir = MyDir + RunExamples.getOutputFilePath("MaterialToCube.fbx");
+            MyDir = MyDir + "MaterialToCube.fbx";
 
             // Save 3D scene in the supported file formats
             scene.save(MyDir, FileFormat.FBX7400ASCII);

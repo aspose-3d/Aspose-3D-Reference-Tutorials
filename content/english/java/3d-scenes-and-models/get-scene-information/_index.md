@@ -37,7 +37,7 @@ public class InformationToScene {
 
             // The path to the documents directory.
             String MyDir = "Your Document Directory";
-            MyDir = MyDir + RunExamples.getOutputFilePath("InformationToScene.fbx");
+            MyDir = MyDir + "InformationToScene.fbx";
 
             // Save scene to 3D supported file formats
             scene.save(MyDir, FileFormat.FBX7500ASCII);

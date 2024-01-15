@@ -58,7 +58,7 @@ public class PropertyToDocument {
 
             // The path to the documents directory.
             String MyDir = "Your Document Directory";
-            MyDir = MyDir + RunExamples.getOutputFilePath("PropertyToDocument.fbx");
+            MyDir = MyDir + "PropertyToDocument.fbx";
 
             // Save 3D scene in the supported file formats
             scene.save(MyDir, FileFormat.FBX7500ASCII);

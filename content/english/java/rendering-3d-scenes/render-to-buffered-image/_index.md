@@ -34,7 +34,7 @@ public class RenderToBufferedImage extends RenderBase {
         scene.render(camera, image, opt);
 
         //save BufferedImage to file using ImageIO from JDK
-        String output = RunExamples.getOutputFilePath("render-to-image.png");
+        String output = "render-to-image.png";
         ImageIO.write(image, "png", new File(output));
     }
 }
