@@ -10,3 +10,4 @@ url: /java/licensing/
 
 ## Getting Started with Aspose.3D for Java Tutorials
 ### [Applying a License in Aspose.3D for Java](./applying-license-in-aspose-3d/)
+Unlock the full potential of Aspose.3D in Java applications by following our comprehensive guide on applying licenses.
