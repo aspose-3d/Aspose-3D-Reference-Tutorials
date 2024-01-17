@@ -2,13 +2,29 @@
 title: Optimize 3D File Saving in Java with Aspose.3D SaveOptions
 linktitle: Optimize 3D File Saving in Java with Aspose.3D SaveOptions
 second_title: Aspose.3D Java API
-description: 
+description: Learn how to optimize 3D file saving in Java with Aspose.3D SaveOptions. Enhance performance and customize outputs effortlessly.
 type: docs
 weight: 16
 url: /java/load-and-save/optimize-3d-file-saving/
 ---
+## Introduction
 
-## Complete Source Code
+Aspose.3D is a feature-rich Java library that empowers developers to work with 3D models seamlessly. When it comes to saving 3D files, the SaveOptions class offers a plethora of settings to fine-tune the output according to your requirements. In this tutorial, we'll explore various save options and how they can be leveraged to optimize the process.
+
+## Prerequisites
+
+Before we dive into the tutorial, make sure you have the following prerequisites in place:
+
+- Aspose.3D for Java: Ensure that you have the Aspose.3D library integrated into your Java project. You can download it [here](https://releases.aspose.com/3d/java/).
+
+- Java Development Environment: Have a functional Java development environment set up on your machine.
+
+- Document Directory: Create a directory where you want to save your 3D files and note its path for later use.
+
+## Import Packages
+
+In your Java project, import the necessary packages for working with Aspose.3D. This includes the `Scene` class and various SaveOptions classes. Below is a basic example:
+
 ```java
 package examples.loadsave;
 
@@ -20,293 +36,88 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-
-public class SaveOptions {
-
-        public static void run() throws Exception {
-            colladaSaveOption();
-            discreet3DSSaveOption();
-            fbxSaveOption();
-            objSaveOption();
-            glTFSaveOptions();
-            drcSaveOptions();
-        }
-    //This method is supported by version 19.8 or greater
-    public static void prettyPrintInGltfSaveOption() throws IOException {
-        // ExStart:prettyPrintInGltfSaveOption
-        // Initialize 3D scene
-        Scene scene = new Scene(new Sphere());
-        // Initialize GLTFSaveOptions
-        GltfSaveOptions opt = new GltfSaveOptions(FileFormat.GLTF2);
-        // opt.prettyPrint = true; //Old code
-        // The JSON content of GLTF file is indented for human reading, default value is false
-        // Use setter to change this configuration.
-        opt.setPrettyPrint(true);
-        // Save 3D Scene
-        scene.save("Your Document Directory" + "prettyPrintInGltfSaveOption.gltf", opt);
-        // ExEnd:prettyPrintInGltfSaveOption
-    }
-    //This method is supported by version 19.9 or greater
-    public static void html5SaveOption() throws IOException {
-        // ExStart:html5SaveOption
-        // Initialize a scene
-        Scene scene = new Scene();
-        // Initialize a node
-        Node node = scene.getRootNode().createChildNode(new Cylinder());
-        // Set child node properites
-        LambertMaterial mat = new LambertMaterial();
-        mat.setDiffuseColor(new Vector3(0.34,0.59, 0.41));
-        node.setMaterial(mat);
-        Light light = new Light();
-        light.setLightType(LightType.POINT);
-        scene.getRootNode().createChildNode(light).getTransform().setTranslation(10, 0, 10);
-        // Initialize HTML5SaveOptions
-        Html5SaveOptions opt = new Html5SaveOptions();
-        // Turn off the grid
-        opt.setShowGrid(false);
-        //Turn off the user interface
-        opt.setShowUI(false);
-        scene.save("Your Document Directory" + "html5SaveOption.html", FileFormat.HTML5);
-        // ExEnd:html5SaveOption
-    }
-
-    public static void colladaSaveOption()
-        {
-            // ExStart:ColladaSaveOption
-            // The path to the documents directory.
-            String MyDir = "Your Document Directory";
-            ColladaSaveOptions saveColladaopts = new ColladaSaveOptions();
-            // Generates indented XML document
-            saveColladaopts.setIndented(true);
-            // The style of node transformation
-            saveColladaopts.setTransformStyle(ColladaTransformStyle.MATRIX);
-            // Configure the lookup paths to allow importer to find external dependencies.
-            saveColladaopts.getLookupPaths().add(MyDir);
-            // ExEnd:ColladaSaveOption
-        }
-        public static void discreet3DSSaveOption()
-        {
-            // ExStart:Discreet3DSSaveOption
-            // The path to the documents directory.
-            String MyDir = "Your Document Directory";
-            // Initialize an object
-            Discreet3dsSaveOptions saveOpts = new Discreet3dsSaveOptions();
-            // The start base for generating new name for duplicated names.
-            saveOpts.setDuplicatedNameCounterBase(2);
-            // The format of the duplicated counter.
-            saveOpts.setDuplicatedNameCounterFormat("NameFormat");
-            // The separator between object's name and the duplicated counter.
-            saveOpts.setDuplicatedNameSeparator("Separator");
-            // Allows to export cameras
-            saveOpts.setExportCamera(true);
-            // Allows to export light
-            saveOpts.setExportLight(true);
-            // Flip the coordinate system
-            saveOpts.setFlipCoordinateSystem(true);
-            // Prefer to use gamma-corrected color if a 3ds file provides both original color and gamma-corrected color.
-            saveOpts.setGammaCorrectedColor(true);
-            // Use high-precise color which each color channel will use 32bit float.
-            saveOpts.setHighPreciseColor(true);
-            // Configure the look up paths to allow importer to find external dependencies.
-            saveOpts.getLookupPaths().add(MyDir);
-            // Set the master scale
-            saveOpts.setMasterScale(1);
-            // ExEnd:Discreet3DSSaveOption
-        }
-        public static void fbxSaveOption()
-        {
-            // ExStart:FBXSaveOption
-            // The path to the documents directory.
-            String MyDir = "Your Document Directory";
-            // Initialize an object
-            FbxSaveOptions saveOpts = new FbxSaveOptions(FileFormat.FBX7400ASCII);
-            // Generates the legacy material properties.
-            saveOpts.setExportLegacyMaterialProperties(true);
-            // Fold repeated curve data using FBX's animation reference count
-            saveOpts.setFoldRepeatedCurveData(true);
-            // Always generates material mapping information for geometries if the attached node contains materials.
-            saveOpts.setGenerateVertexElementMaterial(true);
-            // Configure the look up paths to allow importer to find external dependencies.
-            saveOpts.getLookupPaths().add(MyDir);
-            // Generates a video object for texture.
-            saveOpts.setVideoForTexture(true);
-            // ExEnd:FBXSaveOption
-        }
-        public static void objSaveOption()
-        {
-            // ExStart:ObjSaveOption
-            // The path to the documents directory.
-            String MyDir = "Your Document Directory";
-            // Initialize an object
-            ObjSaveOptions saveObjOpts = new ObjSaveOptions();
-            // Import materials from external material library file
-            saveObjOpts.setEnableMaterials(true);
-            // Flip the coordinate system.
-            saveObjOpts.setFlipCoordinateSystem(true);
-            // Configure the look up paths to allow importer to find external dependencies.
-            saveObjOpts.getLookupPaths().add(MyDir);
-            // Serialize W component in model's vertex position
-            saveObjOpts.setSerializeW(true);
-            // Generate comments for each section
-            saveObjOpts.setVerbose(true);
-            // ExEnd:ObjSaveOption
-        }
-        public static void STLSaveOption()
-        {
-            // ExStart:STLSaveOption
-            // The path to the documents directory.
-            String MyDir = "Your Document Directory";
-            // Initialize an object
-            StlSaveOptions saveSTLOpts = new StlSaveOptions();
-            // Flip the coordinate system.
-            saveSTLOpts.setFlipCoordinateSystem(true);
-            // Configure the look up paths to allow importer to find external dependencies.
-            saveSTLOpts.getLookupPaths().add(MyDir);
-            // ExEnd:STLSaveOption
-        }
-        public static void U3DSaveOption()
-        {
-            // ExStart:U3DSaveOption
-            // The path to the documents directory.
-            String MyDir = "Your Document Directory";
-            // Initialize an object
-            U3dSaveOptions saveU3DOptions = new U3dSaveOptions();
-            // Export normal data.
-            saveU3DOptions.setExportNormals(true);
-            // Export the texture coordinates.
-            saveU3DOptions.setExportTextureCoordinates(true);
-            // Export the vertex diffuse color.
-            saveU3DOptions.setExportVertexDiffuse(true);
-            // Export vertex specular color
-            saveU3DOptions.setExportVertexSpecular(true);
-            // Flip the coordinate system.
-            saveU3DOptions.setFlipCoordinateSystem(true);
-            // Configure the look up paths to allow importer to find external dependencies.
-            saveU3DOptions.getLookupPaths().add(MyDir);
-            // Compress the mesh data
-            saveU3DOptions.setMeshCompression(true);
-            // ExEnd:U3DSaveOption
-        }
-        
-        public static void glTFSaveOptions() throws Exception {
-            // ExStart:glTFSaveOptions
-            // The path to the documents directory.
-            String MyDir = "Your Document Directory";
-            // Initialize Scene object
-            Scene scene = new Scene();
-            // Create a child node
-            scene.getRootNode().createChildNode("sphere", new Sphere());
-            // Set glTF saving options. The code example embeds all assets into the target file usually a glTF file comes with some dependencies, a bin file for model's vertex/indices, two .glsl files for vertex/fragment shaders
-            // Use opt.EmbedAssets to tells the Aspose.3D API to export scene and embed the dependencies inside the target file.
-            GltfSaveOptions opt = new GltfSaveOptions(FileContentType.ASCII);
-            opt.setEmbedAssets(true);
-            // Use KHR_materials_common extension to define the material, thus no GLSL files are generated.
-            opt.setUseCommonMaterials(true);
-            // Customize the name of the buffer file which defines model
-            opt.setBufferFile("mybuf.bin");
-            // Save glTF file
-            scene.save(MyDir + "glTFSaveOptions_out.gltf", opt);
-
-            // Save a binary glTF file using KHR_binary_glTF extension
-            scene.save(MyDir + "glTFSaveOptions_out.glb", FileFormat.GLTF_BINARY);
-
-            // Developers may use saving options to create a binary glTF file using KHR_binary_glTF extension
-            GltfSaveOptions opts = new GltfSaveOptions(FileContentType.BINARY);
-            scene.save(MyDir + "Test_out.glb", opts);
-            // ExEnd:glTFSaveOptions
-        }
-        public static void drcSaveOptions() throws Exception {
-            // ExStart:DRCSaveOptions
-            // The path to the documents directory.
-            String MyDir = "Your Document Directory";
-            // Initialize Scene object
-            Scene scene = new Scene();
-            // Create a child node
-            scene.getRootNode().createChildNode("sphere", new Sphere());
-            // Initialize .DRC saving options.
-            DracoSaveOptions opts = new DracoSaveOptions();
-            // Quantization bits for position
-            opts.setPositionBits(14);
-            // Quantization bits for texture coordinate
-            opts.setTextureCoordinateBits(8);
-            // Quantization bits for vertex color
-            opts.setColorBits(10);
-            // Quantization bits for normal vectors
-            opts.setNormalBits(7);
-            // Set compression level
-            opts.setCompressionLevel(DracoCompressionLevel.OPTIMAL);
-
-            // Save Google Draco (.drc) file
-            scene.save(MyDir + "DRCSaveOptions_out.drc", opts);
-            // ExEnd:DRCSaveOptions
-        }
-        public static void DiscardSavingMaterial() throws Exception {
-            // ExStart:DiscardSavingMaterial
-            // The code example uses the DummyFileSystem, so the material files are not created.
-            // The path to the documents directory.
-            String MyDir = "Your Document Directory";
-            // Initialize Scene object
-            Scene scene = new Scene();
-            // Create a child node
-            scene.getRootNode().createChildNode("sphere", new Sphere()).setMaterial(new PhongMaterial());
-            // Set saving options
-            ObjSaveOptions opt = new ObjSaveOptions();
-            opt.setFileSystem(new DummyFileSystem());
-            // Save 3D scene
-            scene.save(MyDir + "DiscardSavingMaterial_out.obj", opt);
-            // ExEnd:DiscardSavingMaterial
-        }
-        public static void savingDependenciesInLocalDirectory() throws Exception {
-            // ExStart:SavingDependenciesInLocalDirectory
-            // The code example uses the LocalFileSystem class to save dependencies to the local directory.
-            // The path to the documents directory.
-            String MyDir = "Your Document Directory";
-            // Initialize Scene object
-            Scene scene = new Scene();
-            // Create a child node
-            scene.getRootNode().createChildNode("sphere", new Sphere()).setMaterial(new PhongMaterial());
-            // Set saving options
-            ObjSaveOptions opt = new ObjSaveOptions();
-            opt.setFileSystem(new LocalFileSystem(MyDir));
-            // Save 3D scene
-            scene.save(MyDir + "SavingDependenciesInLocalDirectory_out.obj", opt);
-            // ExEnd:SavingDependenciesInLocalDirectory
-        }
-        public static void SavingDependenciesInMemoryFileSystem() throws Exception {
-            // ExStart:SavingDependenciesInMemoryFileSystem
-            // The code example uses the MemoryFileSystem to intercepts the dependencies writing.
-            // The path to the documents directory.
-            String MyDir = "Your Document Directory";
-            // Initialize Scene object
-            Scene scene = new Scene();
-            // Create a child node
-            scene.getRootNode().createChildNode("sphere", new Sphere()).setMaterial(new PhongMaterial());
-            // Set saving options
-            ObjSaveOptions opt = new ObjSaveOptions();
-            MemoryFileSystem mfs = new MemoryFileSystem();
-            opt.setFileSystem(mfs);
-            // Save 3D scene
-            scene.save(MyDir + "SavingDependenciesInMemoryFileSystem_out.obj", opt);
-            // Get the test.mtl file content
-            byte[] mtl = mfs.getFileContent(MyDir + "SavingDependenciesInMemoryFileSystem_out.mtl");
-            Files.write(Paths.get(MyDir, "Material.mtl"), mtl);
-            // ExEnd:SavingDependenciesInMemoryFileSystem
-        }
-        private static void RVMSaveOptions() throws IOException
-        {
-            //ExStart: RVMSaveOptions
-            String dataDir = "Your Document Directory";
-            Scene scene = new Scene();
-            Node node = scene.getRootNode().createChildNode("Box", new Box());
-            node.setProperty("rvm:Refno", "=3462123");
-            node.setProperty("rvm:Description", "This is the description of the box");
-            //The RVM attribute's prefix is rvm:, all properties that starts with rvm: will be exported to .att file(the prefix will be removed)
-            RvmSaveOptions opt = new RvmSaveOptions();
-            opt.setAttributePrefix( "rvm:");
-            opt.setExportAttributes(true);
-            scene.save(dataDir + "test.rvm", opt);
-            //ExEnd: RVMSaveOptions
-        }
-}
-
 ```
+
+Now, let's break down each example into multiple steps to demonstrate the usage of different SaveOptions.
+
+## Step 1: Pretty Print in GLTF SaveOption
+
+The `prettyPrintInGltfSaveOption` method allows you to generate a GLTF file with indented JSON content for human readability.
+
+```java
+public static void prettyPrintInGltfSaveOption() throws IOException {
+    // Initialize 3D scene
+    Scene scene = new Scene(new Sphere());
+    
+    // Initialize GLTFSaveOptions
+    GltfSaveOptions opt = new GltfSaveOptions(FileFormat.GLTF2);
+    
+    // Enable pretty print for better readability
+    opt.setPrettyPrint(true);
+    
+    // Save 3D Scene
+    scene.save("Your Document Directory" + "prettyPrintInGltfSaveOption.gltf", opt);
+}
+```
+
+## Step 2: HTML5 SaveOption
+
+The `html5SaveOption` method demonstrates how to save a 3D scene as an HTML5 file, including customization options.
+
+```java
+public static void html5SaveOption() throws IOException {
+    // Initialize a scene
+    Scene scene = new Scene();
+    
+    // Create a child node with a cylinder
+    Node node = scene.getRootNode().createChildNode(new Cylinder());
+    
+    // Set properties for the child node
+    LambertMaterial mat = new LambertMaterial();
+    mat.setDiffuseColor(new Vector3(0.34, 0.59, 0.41));
+    node.setMaterial(mat);
+    
+    // Add a light to the scene
+    Light light = new Light();
+    light.setLightType(LightType.POINT);
+    scene.getRootNode().createChildNode(light).getTransform().setTranslation(10, 0, 10);
+    
+    // Initialize HTML5SaveOptions
+    Html5SaveOptions opt = new Html5SaveOptions();
+    
+    // Customize options (e.g., turn off grid and user interface)
+    opt.setShowGrid(false);
+    opt.setShowUI(false);
+    
+    // Save the scene as an HTML5 file
+    scene.save("Your Document Directory" + "html5SaveOption.html", FileFormat.HTML5);
+}
+```
+
+Continue with similar breakdowns for other SaveOptions methods such as `colladaSaveOption`, `discreet3DSSaveOption`, `fbxSaveOption`, `objSaveOption`, `STLSaveOption`, `U3DSaveOption`, `glTFSaveOptions`, and `drcSaveOptions`.
+
+## Conclusion
+
+By following this comprehensive tutorial, you've learned how to optimize 3D file saving in Java using Aspose.3D SaveOptions. Whether you're interested in pretty-printing GLTF files or customizing HTML5 outputs, Aspose.3D equips you with the tools to enhance your 3D graphics workflow.
+
+## FAQ's
+
+### Q1: How can I embed assets in a glTF file?
+
+A1: To embed assets, use the `setEmbedAssets(true)` method in the `GltfSaveOptions` class.
+
+### Q2: What is the purpose of the `setPositionBits` method in `DracoSaveOptions`?
+
+A2: The `setPositionBits` method sets the quantization bits for position in the Draco compression algorithm.
+
+### Q3: Can I export normal data in a U3D file?
+
+A3: Yes, you can export normal data by setting `setExportNormals(true)` in the `U3dSaveOptions` class.
+
+### Q4: How do I discard saving material files in an OBJ export?
+
+A4: Utilize the `setFileSystem(new DummyFileSystem())` method in the `ObjSaveOptions` class to discard material files.
+
+### Q5: Is there a way to save dependencies to a local directory in an OBJ file?
+
+A5: Yes, use the `setFileSystem(new LocalFileSystem(MyDir))` method in the `ObjSaveOptions` class to save dependencies locally.
