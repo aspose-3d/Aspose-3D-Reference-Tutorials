@@ -23,7 +23,7 @@ Before we dive into the tutorial, ensure you have the following prerequisites:
 In your Java project, make sure to import the necessary packages for Aspose.3D. Here's an example:
 
 ```java
-package examples.geometry;
+
 
 import com.aspose.threed.*;
 

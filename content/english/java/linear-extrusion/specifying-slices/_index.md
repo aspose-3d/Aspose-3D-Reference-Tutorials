@@ -23,7 +23,7 @@ Before diving into the tutorial, make sure you have the following prerequisites 
 In your Java project, import the Aspose.3D library. This is crucial for accessing the functionalities we'll be working with. Add the following import statement to your code:
 
 ```java
-package examples.LinearExtrusion;
+
 
 import com.aspose.threed.*;
 

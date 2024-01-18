@@ -24,7 +24,7 @@ Before diving into the tutorial, ensure you have the following prerequisites in 
 To get started, import the necessary packages in your Java code. Include the Aspose.3D library to access its functionalities. Here's an example:
 
 ```java
-package examples.pointcloud;
+
 
 import com.aspose.threed.DracoSaveOptions;
 import com.aspose.threed.FileFormat;

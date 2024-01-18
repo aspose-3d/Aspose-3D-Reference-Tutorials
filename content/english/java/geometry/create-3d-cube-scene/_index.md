@@ -24,7 +24,7 @@ Before we dive into the creation of the 3D cube scene, ensure you have the follo
 Begin by importing the necessary packages into your Java project:
 
 ```java
-package examples.geometry;
+
 
 import java.io.File;
 

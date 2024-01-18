@@ -24,7 +24,7 @@ Before we get started, make sure you have the following:
 In your Java project, import the necessary packages to begin working with Aspose.3D. Add the following lines to your code:
 
 ```java
-package examples.pointcloud;
+
 
 import com.aspose.threed.DracoSaveOptions;
 import com.aspose.threed.FileFormat;

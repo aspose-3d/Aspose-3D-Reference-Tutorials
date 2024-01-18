@@ -23,7 +23,7 @@ Before we embark on this creative journey, ensure you have the following prerequ
 Let's kick off the process by importing the necessary packages for our Java project. In your code, include the following:
 
 ```java
-package examples.WorkingWithCylinder;
+
 
 import com.aspose.threed.Cylinder;
 import com.aspose.threed.FileFormat;

@@ -24,7 +24,7 @@ Before we dive into the tutorial, make sure you have the following prerequisites
 Begin by importing the necessary packages into your Java project. Ensure that the Aspose.3D library is correctly added to your classpath. If you haven't downloaded it yet, you can find the download link [here](https://releases.aspose.com/3d/java/).
 
 ```java
-package examples.geometry;
+
 
 import com.aspose.threed.*;
 ```

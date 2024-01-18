@@ -24,7 +24,7 @@ Before we dive into the world of geometric transformations with Aspose.3D, ensur
 Once you have the Aspose.3D library, import the necessary packages to kickstart your journey into 3D geometric transformations. Add the following lines to your Java code:
 
 ```java
-package examples.geometry;
+
 
 import com.aspose.threed.Node;
 import com.aspose.threed.Vector3;

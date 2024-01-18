@@ -24,7 +24,7 @@ Before we dive into the tutorial, make sure you have the following prerequisites
 Start by importing the necessary packages to ensure smooth execution of the code. In your Java project, include the following:
 
 ```java
-package examples.animation;
+
 
 import com.aspose.threed.*;
 ```

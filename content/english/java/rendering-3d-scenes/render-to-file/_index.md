@@ -24,7 +24,7 @@ Before we dive into the exciting world of 3D rendering with Aspose.3D for Java, 
 To get started, import the required packages into your Java project. The following example demonstrates the basic setup:
 
 ```java
-package examples.render;
+
 
 import com.aspose.threed.*;
 

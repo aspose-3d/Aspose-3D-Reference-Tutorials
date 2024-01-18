@@ -28,7 +28,7 @@ Now that you're all set, let's dive into the main steps.
 Before we start reading 3D scenes, let's import the necessary packages in our Java code:
 
 ```java
-package examples.loadsave;
+
 
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.Scene;

@@ -24,7 +24,7 @@ Before diving into the tutorial, ensure you have the following prerequisites in 
 To get started, import the necessary packages into your Java project. Add the following lines at the beginning of your code:
 
 ```java
-package examples.geometry;
+
 
 import com.aspose.threed.*;
 

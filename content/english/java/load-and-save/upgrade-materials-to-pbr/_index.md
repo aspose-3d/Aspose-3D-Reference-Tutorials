@@ -26,7 +26,7 @@ Before diving into the tutorial, ensure you have the following prerequisites:
 To begin the upgrade process, import the required packages into your Java project. Use the following code snippet as a guide:
 
 ```java
-package examples.loadsave;
+
 
 import com.aspose.threed.*;
 ```

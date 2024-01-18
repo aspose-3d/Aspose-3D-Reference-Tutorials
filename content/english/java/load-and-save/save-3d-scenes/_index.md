@@ -24,7 +24,7 @@ Before diving into the tutorial, make sure you have the following prerequisites:
 To get started, import the necessary packages for Aspose.3D into your Java project:
 
 ```java
-package examples.loadsave;
+
 
 import com.aspose.threed.*;
 import com.aspose.threed.utils.MemoryStream;

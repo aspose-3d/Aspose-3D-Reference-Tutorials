@@ -24,7 +24,7 @@ Before we dive into the tutorial, make sure you have the following prerequisites
 Ensure that you import the necessary packages to leverage the functionalities provided by Aspose.3D in your Java code. Include the following:
 
 ```java
-package examples.scene;
+
 
 import java.io.IOException;
 

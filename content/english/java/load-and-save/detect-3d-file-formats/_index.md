@@ -24,7 +24,7 @@ Before diving into the tutorial, ensure you have the following prerequisites in 
 To get started with detecting 3D file formats, import the necessary packages into your Java project. Add the following lines at the beginning of your Java file:
 
 ```java
-package examples.loadsave;
+
 
 import com.aspose.threed.FileFormat;
 

@@ -24,7 +24,7 @@ Before diving into the tutorial, make sure you have the following prerequisites 
 To get started, import the necessary packages into your Java project. Add the following lines to your code:
 
 ```java
-package examples.objects;
+
 
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.Scene;

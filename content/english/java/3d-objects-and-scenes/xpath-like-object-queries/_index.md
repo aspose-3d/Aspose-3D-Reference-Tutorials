@@ -24,7 +24,7 @@ Before we embark on this exciting journey, ensure you have the following prerequ
 Let's kick things off by importing the necessary packages into your Java project. This step is crucial for integrating Aspose.3D into your development environment.
 
 ```java
-package examples.objects;
+
 
 import com.aspose.threed.*;
 

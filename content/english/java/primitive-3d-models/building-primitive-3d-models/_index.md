@@ -23,7 +23,7 @@ Before diving into the world of 3D modeling with Aspose.3D for Java, ensure you 
 Begin by importing the necessary packages into your Java project. This step is crucial for accessing the functionalities provided by Aspose.3D for Java.
 
 ```java
-package examples.modeling;
+
 import com.aspose.threed.*;
 ```
 

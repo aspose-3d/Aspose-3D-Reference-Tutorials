@@ -26,7 +26,7 @@ In this step, we'll import the necessary packages to kickstart our UV mapping jo
 ### Step 1: Import Aspose.3D Packages
 
 ```java
-package examples.geometry;
+
 
 import com.aspose.threed.*;
 

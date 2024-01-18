@@ -24,7 +24,7 @@ Before diving into the tutorial, ensure you have the following prerequisites:
 In your Java project, import the necessary packages to access the functionalities of Aspose.3D for Java.
 
 ```java
-package examples.polygons;
+
 
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.PolygonModifier;

@@ -24,7 +24,7 @@ Before we get started, make sure you have the following prerequisites:
 In your Java project, import the necessary packages from Aspose.3D. Ensure that your project is configured correctly to use the Aspose.3D library. Here's a sample import statement:
 
 ```java
-package examples.geometry;
+
 
 import com.aspose.threed.*;
 

@@ -25,7 +25,7 @@ Before diving into the customization process, ensure you have the following:
 In your Java project, make sure to import the necessary Aspose.3D packages:
 
 ```java
-package examples.loadsave;
+
 
 import com.aspose.threed.*;
 
