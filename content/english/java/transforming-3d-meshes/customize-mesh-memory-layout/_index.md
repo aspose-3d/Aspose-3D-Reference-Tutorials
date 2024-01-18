@@ -2,7 +2,7 @@
 title: Customize Memory Layout for 3D Meshes in Java
 linktitle: Customize Memory Layout for 3D Meshes in Java
 second_title: Aspose.3D Java API
-description: Enhance your Java 3D modeling with Aspose.3D: customize memory layout for optimal performance. Follow our step-by-step guide now!
+description: Enhance your Java 3D modeling with Aspose.3D - customize memory layout for optimal performance. Follow our step-by-step guide now!
 type: docs
 weight: 13
 url: /java/transforming-3d-meshes/customize-mesh-memory-layout/
