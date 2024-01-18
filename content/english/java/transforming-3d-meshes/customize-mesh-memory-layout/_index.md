@@ -64,7 +64,7 @@ Congratulations! You've successfully customized the memory layout for 3D meshes 
 ### Can I use Aspose.3D with other Java 3D libraries?
 Yes, Aspose.3D can be integrated with other Java 3D libraries to enhance functionality.
 ### Where can I find more documentation on Aspose.3D for Java?
-Visit the [official documentation](https://reference.aspose.com/3d/java/) for comprehensive information.
+Visit the [documentation](https://reference.aspose.com/3d/java/) for comprehensive information.
 ### Is there a free trial available?
 Yes, you can explore a free trial [here](https://releases.aspose.com/).
 ### How do I get support for Aspose.3D for Java?

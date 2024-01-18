@@ -15,7 +15,7 @@ Welcome to this step-by-step guide on generating point clouds from spheres in Ja
 
 Before we get started, make sure you have the following:
 
-- Java Development Kit (JDK): Ensure that you have Java installed on your machine. You can download it from [Oracle's official website](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Ensure that you have Java installed on your machine. You can download it from [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 - Aspose.3D Library: To perform 3D operations in Java, you need to have the Aspose.3D library. You can download it from the [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/).
 

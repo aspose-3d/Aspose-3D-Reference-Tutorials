@@ -14,7 +14,7 @@ Before we embark on this journey, ensure you have the following prerequisites in
 ### 1. Java Development Kit (JDK)
 Make sure you have the latest version of JDK installed on your machine. You can download it [here](https://www.oracle.com/java/technologies/javase-downloads.html).
 ### 2. Aspose.3D for Java Library
-Download and install the Aspose.3D for Java library from the [official website](https://releases.aspose.com/3d/java/). This library will be our toolkit for working with 3D models.
+Download and install the Aspose.3D for Java library from the [website](https://releases.aspose.com/3d/java/). This library will be our toolkit for working with 3D models.
 ### 3. Integrated Development Environment (IDE)
 Choose your preferred Java IDE, such as Eclipse or IntelliJ IDEA, and have it set up for Java development.
 Now that we have our tools ready, let's jump into the exciting world of 3D modeling!
@@ -49,7 +49,7 @@ Now that you've opened the VRML file, you can start manipulating the 3D model wi
 Continue adding steps as needed for your specific application, exploring the capabilities of Aspose.3D for Java.
 ## Conclusion
 Congratulations! You've just scratched the surface of the vast possibilities offered by Aspose.3D for Java. This guide has equipped you with the essential steps to open and manipulate VRML files, setting the stage for your 3D adventures.
-Feel free to explore the [official documentation](https://reference.aspose.com/3d/java/) for more in-depth insights and advanced features.
+Feel free to explore the [documentation](https://reference.aspose.com/3d/java/) for more in-depth insights and advanced features.
 ## FAQs
 ### 1. Can I use Aspose.3D for Java with other 3D file formats?
 Yes, Aspose.3D supports various 3D file formats beyond VRML, providing versatility in your projects.
