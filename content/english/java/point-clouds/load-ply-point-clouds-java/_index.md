@@ -24,8 +24,6 @@ Before diving into the tutorial, ensure you have the following prerequisites in 
 In your Java project, import the Aspose.3D library to get started. Add the following lines at the beginning of your code:
 
 ```java
-
-
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.Geometry;
 import com.aspose.threed.Sphere;

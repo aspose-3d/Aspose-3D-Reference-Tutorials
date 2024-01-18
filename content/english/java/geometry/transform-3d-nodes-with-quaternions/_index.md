@@ -24,8 +24,6 @@ Before we dive into the tutorial, make sure you have the following prerequisites
 In this section, we'll import the necessary packages to get started with 3D transformations using Aspose.3D.
 
 ```java
-
-
 import com.aspose.threed.*;
 ```
 

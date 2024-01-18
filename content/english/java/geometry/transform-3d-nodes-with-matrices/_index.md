@@ -1,5 +1,5 @@
 ---
-title: Transform 3D Nodes with Transformation Matrices in Java using Aspose.3D
+title: Transform 3D Nodes with Transformation Matrices using Aspose.3D
 linktitle: Transform 3D Nodes with Transformation Matrices in Java using Aspose.3D
 second_title: Aspose.3D Java API
 description: Explore the world of 3D graphics in Java with Aspose.3D. Learn to transform nodes effortlessly using transformation matrices.
@@ -24,8 +24,6 @@ Before we get started, make sure you have the following prerequisites:
 In your Java project, import the necessary packages from Aspose.3D. Ensure that your project is configured correctly to use the Aspose.3D library. Here's a sample import statement:
 
 ```java
-
-
 import com.aspose.threed.*;
 
 ```

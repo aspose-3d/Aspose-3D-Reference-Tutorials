@@ -24,8 +24,6 @@ Before we embark on this exciting journey, make sure you have the following prer
 Ensure that you have imported the necessary packages for using Aspose.3D in your Java project:
 
 ```java
-
-
 import com.aspose.threed.*;
 
 import java.util.Arrays;

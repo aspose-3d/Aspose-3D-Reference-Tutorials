@@ -26,8 +26,6 @@ Before we dive into the tutorial, make sure you have the following prerequisites
 In your Java project, import the necessary packages for working with Aspose.3D. This includes the `Scene` class and various SaveOptions classes. Below is a basic example:
 
 ```java
-
-
 import com.aspose.threed.*;
 
 

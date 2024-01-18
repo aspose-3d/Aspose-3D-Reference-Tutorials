@@ -24,8 +24,6 @@ Before we embark on this journey, ensure you have the following prerequisites in
 Begin by importing the necessary packages for your Java project. This ensures that your code has access to the Aspose.3D functionality. 
 
 ```java
-
-
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.Plane;
 import com.aspose.threed.Scene;

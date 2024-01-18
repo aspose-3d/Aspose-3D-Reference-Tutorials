@@ -24,8 +24,6 @@ Before we dive into the tutorial, make sure you have the following in place:
 In your Java project, import the necessary packages to leverage Aspose.3D functionalities. Add the following lines to your code:
 
 ```java
-
-
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.Scene;
 ```

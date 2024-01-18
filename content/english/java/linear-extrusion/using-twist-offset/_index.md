@@ -25,8 +25,6 @@ Before diving into the tutorial, ensure you have the following prerequisites in 
 In your Java project, import the necessary packages to start using Aspose.3D for Java. Ensure that you include the required libraries for seamless integration.
 
 ```java
-
-
 import com.aspose.threed.*;
 
 import java.io.IOException;

@@ -23,8 +23,6 @@ Before diving into the tutorial, ensure you have the following prerequisites:
 Make sure to import the necessary packages to leverage Aspose.3D functionalities. Include the following lines in your Java code:
 
 ```java
-
-
 import com.aspose.threed.*;
 ```
 

@@ -24,8 +24,6 @@ Before we dive into the tutorial, make sure you have the following prerequisites
 To get started, import the necessary packages into your Java project:
 
 ```java
-
-
 import com.aspose.threed.*;
 
 

@@ -23,8 +23,6 @@ Before diving into the tutorial, ensure the following prerequisites are met:
 Begin by importing the necessary packages into your Java project. These packages are essential for utilizing Aspose.3D functionalities. Add the following lines to your code:
 
 ```java
-
-
 import com.aspose.threed.ObjSaveOptions;
 import com.aspose.threed.Scene;
 import com.aspose.threed.Sphere;

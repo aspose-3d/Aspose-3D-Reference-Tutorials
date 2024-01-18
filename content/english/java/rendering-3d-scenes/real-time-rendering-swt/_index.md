@@ -25,8 +25,6 @@ Before we embark on this exciting journey, make sure you have the following prer
 In your Java project, import the necessary packages to kickstart the 3D rendering process. Here's a snippet to guide you:
 
 ```java
-
-
 import com.aspose.threed.*;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Display;

@@ -24,8 +24,6 @@ Before we dive into the tutorial, ensure you have the following prerequisites in
 In your Java project, import the required packages for Aspose.3D and Google Draco. Ensure you have the necessary dependencies to successfully execute the code.
 
 ```java
-
-
 import com.aspose.threed.DracoCompressionLevel;
 import com.aspose.threed.DracoSaveOptions;
 import com.aspose.threed.FileFormat;

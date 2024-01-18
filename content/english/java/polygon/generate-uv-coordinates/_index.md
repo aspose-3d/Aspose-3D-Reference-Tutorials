@@ -24,8 +24,6 @@ Before we dive into the tutorial, make sure you have the following prerequisites
 In your Java project, import the necessary packages from Aspose.3D. Ensure that you have the required dependencies set up to use Aspose.3D in your project.
 
 ```java
-
-
 import com.aspose.threed.Box;
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.Mesh;

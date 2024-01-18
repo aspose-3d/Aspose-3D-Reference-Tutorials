@@ -24,8 +24,6 @@ Before we dive into the tutorial, ensure you have the following prerequisites in
 Once you have the prerequisites in place, import the necessary packages into your Java project. This includes the Aspose.3D library and any other dependencies required for your project.
 
 ```java
-
-
 import com.aspose.threed.Camera;
 import com.aspose.threed.ImageRenderOptions;
 import com.aspose.threed.Scene;

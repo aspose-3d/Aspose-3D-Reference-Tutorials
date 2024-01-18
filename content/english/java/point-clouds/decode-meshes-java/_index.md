@@ -24,8 +24,6 @@ Before we dive into the tutorial, ensure you have the following prerequisites in
 To get started, import the necessary packages in your Java project. Add the following lines to your code:
 
 ```java
-
-
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.PointCloud;
 

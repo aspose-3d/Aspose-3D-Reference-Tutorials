@@ -23,8 +23,6 @@ Before diving into the tutorial, ensure you have the following prerequisites:
 To get started, import the necessary packages in your Java project:
 
 ```java
-
-
 import com.aspose.threed.AmfSaveOptions;
 import com.aspose.threed.Box;
 import com.aspose.threed.Scene;
