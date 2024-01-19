@@ -15,7 +15,7 @@ Im dynamischen Bereich der 3D-Grafiken und Visualisierungen ist die Fähigkeit, 
 
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1. Aspose.3D für .NET-Bibliothek: Stellen Sie sicher, dass die Aspose.3D-Bibliothek in Ihrem .NET-Projekt installiert ist. Sie können es herunterladen[Hier](https://releases.aspose.com/3d/net/).
+1.  Aspose.3D für .NET-Bibliothek: Stellen Sie sicher, dass die Aspose.3D-Bibliothek in Ihrem .NET-Projekt installiert ist. Sie können es herunterladen[Hier](https://releases.aspose.com/3d/net/).
 
 2. Entwicklungsumgebung: Richten Sie eine funktionierende .NET-Entwicklungsumgebung ein und erstellen Sie, falls noch nicht geschehen, ein neues Projekt, in dem Sie die Transformationen implementieren.
 
@@ -62,7 +62,7 @@ Hier generieren wir mit der Polygon-Builder-Methode ein Netz und weisen es dem K
 ## Schritt 3: Legen Sie eine benutzerdefinierte Übersetzungsmatrix fest
 
 ```csharp
-//Legen Sie eine benutzerdefinierte Übersetzungsmatrix fest
+// Legen Sie eine benutzerdefinierte Übersetzungsmatrix fest
 cubeNode.Transform.TransformMatrix = new Matrix4(
     1, -0.3, 0, 0,
     0.4, 1, 0.3, 0,
@@ -88,7 +88,7 @@ Fügen Sie den Würfelknoten in die Szene ein und machen Sie ihn so zu einem Tei
 // Der Pfad zum Dokumentenverzeichnis.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
+//Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -120,4 +120,4 @@ A2: Ja, Sie können mehrere Transformationen kombinieren, indem Sie ihre jeweili
 
 ### F5: Wo kann ich Hilfe suchen oder mich mit der Aspose.3D-Community verbinden?
 
- A5: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) um Fragen zu stellen, Erfahrungen auszutauschen und mit anderen Entwicklern über Aspose.3D in Kontakt zu treten.
+A5: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) um Fragen zu stellen, Erfahrungen auszutauschen und mit anderen Entwicklern über Aspose.3D in Kontakt zu treten.

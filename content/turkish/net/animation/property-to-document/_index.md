@@ -15,7 +15,7 @@ url: /tr/net/animation/property-to-document/
 
 Bu heyecan verici yolculuğa çıkmadan önce aşağıdaki ön koşulların yerine getirildiğinden emin olun:
 
--  Aspose.3D for .NET: Kütüphanenin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.3D web sitesi](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET: Kütüphanenin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.3D web sitesi](https://releases.aspose.com/3d/net/).
 
 - C# bilgisi: C# programlama diline aşina olmak, örnekleri anlamak ve uygulamak için gereklidir.
 

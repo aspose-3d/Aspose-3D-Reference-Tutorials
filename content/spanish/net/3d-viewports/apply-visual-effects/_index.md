@@ -16,7 +16,7 @@ Mejorar el atractivo visual de las escenas 3D es un aspecto crucial a la hora de
 Antes de sumergirse en el tutorial, asegúrese de tener lo siguiente:
 
 - Un conocimiento práctico del desarrollo de C# y .NET.
--  Aspose.3D para la biblioteca .NET instalada. Puedes descargarlo desde[aquí](https://releases.aspose.com/3d/net/).
+- Aspose.3D para la biblioteca .NET instalada. Puedes descargarlo desde[aquí](https://releases.aspose.com/3d/net/).
 - Un archivo de escena 3D (por ejemplo, "scene.obj") para experimentar.
 
 ## Importar espacios de nombres
@@ -93,7 +93,7 @@ Cree un renderizador y un objetivo de renderizado para capturar la escena.
 ### Paso 5.1 Efecto de pixelación
 
 ```csharp
-// Crear efecto de pixelación
+//Crear efecto de pixelación
 PostProcessing pixelation = renderer.GetPostProcessing("pixelation");
 renderer.PostProcessings.Add(pixelation);
 renderer.Render(rt);

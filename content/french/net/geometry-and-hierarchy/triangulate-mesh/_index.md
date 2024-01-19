@@ -15,7 +15,7 @@ Bienvenue dans ce didacticiel complet sur la triangulation des maillages dans le
 
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
--  Aspose.3D pour la bibliothèque .NET : assurez-vous que la bibliothèque Aspose.3D est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/net/).
+- Aspose.3D pour la bibliothèque .NET : assurez-vous que la bibliothèque Aspose.3D est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/net/).
 
 - Exemple de modèle 3D : disposez d'un modèle 3D au format FBX que vous souhaitez trianguler. Vous pouvez utiliser le[document.fbx](https://reference.aspose.com/3d/net/) fichier pour la pratique.
 

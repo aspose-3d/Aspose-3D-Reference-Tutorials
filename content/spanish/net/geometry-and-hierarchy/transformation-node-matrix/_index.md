@@ -15,7 +15,7 @@ En el ámbito dinámico de las visualizaciones y gráficos 3D, la capacidad de m
 
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
-1. Aspose.3D para la biblioteca .NET: asegúrese de tener la biblioteca Aspose.3D instalada en su proyecto .NET. Puedes descargarlo[aquí](https://releases.aspose.com/3d/net/).
+1.  Aspose.3D para la biblioteca .NET: asegúrese de tener la biblioteca Aspose.3D instalada en su proyecto .NET. Puedes descargarlo[aquí](https://releases.aspose.com/3d/net/).
 
 2. Entorno de desarrollo: configure un entorno de desarrollo .NET que funcione y, si aún no lo ha hecho, cree un nuevo proyecto donde implementará las transformaciones.
 
@@ -62,7 +62,7 @@ Aquí, generamos una malla usando el método de construcción de polígonos y la
 ## Paso 3: Establecer una matriz de traducción personalizada
 
 ```csharp
-//Establecer matriz de traducción personalizada
+// Establecer matriz de traducción personalizada
 cubeNode.Transform.TransformMatrix = new Matrix4(
     1, -0.3, 0, 0,
     0.4, 1, 0.3, 0,
@@ -88,7 +88,7 @@ Incluya el nodo del cubo en la escena, haciéndolo parte del entorno 3D general.
 // La ruta al directorio de documentos.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// Guarde la escena 3D en los formatos de archivo compatibles
+//Guarde la escena 3D en los formatos de archivo compatibles
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -120,4 +120,4 @@ R2: Sí, puedes combinar múltiples transformaciones multiplicando sus respectiv
 
 ### P5: ¿Dónde puedo buscar ayuda o conectarme con la comunidad Aspose.3D?
 
- A5: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para hacer preguntas, compartir experiencias y conectarse con otros desarrolladores que utilizan Aspose.3D.
+A5: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para hacer preguntas, compartir experiencias y conectarse con otros desarrolladores que utilizan Aspose.3D.

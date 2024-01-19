@@ -54,7 +54,7 @@ Sorunsuz bir entegrasyon süreci sağlayın ve Aspose.3D .NET'in güçlü özell
 ##  Malzemelerle Çarpıcı Sahneler Yaratın
 [Malzemeler](./materials/)
 
-Aspose.3D for .NET eğitimleriyle büyüleyici 3D sahneler oluşturun. Çarpıcı sahneler oluşturmayı, gömülü dokuları keşfetmeyi ve projelerinizi zahmetsizce geliştirmeyi öğrenin.
+Aspose.3D for .NET eğitimleriyle büyüleyici 3D sahneler yaratın. Çarpıcı sahneler oluşturmayı, gömülü dokuları keşfetmeyi ve projelerinizi zahmetsizce geliştirmeyi öğrenin.
 
 ##  Çokgenlerin Potansiyelini Ortaya Çıkarın
 [Çokgenler](./polygons/)

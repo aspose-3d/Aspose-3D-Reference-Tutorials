@@ -19,11 +19,11 @@ Innan vi dyker in, se till att du har följande förutsättningar:
 
 - Din dokumentkatalog: Skapa en katalog för dina projektfiler.
 
-Nu, låt oss komma igång med handledningen!
+Nu börjar vi med handledningen!
 
 ## Importera namnområden
 
-ditt .NET-projekt börjar du med att importera de nödvändiga namnrymden:
+I ditt .NET-projekt börjar du med att importera de nödvändiga namnrymden:
 
 ```csharp
 using Aspose.ThreeD;

@@ -16,7 +16,7 @@ Die Verbesserung der visuellen Attraktivität von 3D-Szenen ist ein entscheidend
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
 - Grundkenntnisse in der C#- und .NET-Entwicklung.
--  Aspose.3D für .NET-Bibliothek installiert. Sie können es herunterladen unter[Hier](https://releases.aspose.com/3d/net/).
+- Aspose.3D für .NET-Bibliothek installiert. Sie können es herunterladen unter[Hier](https://releases.aspose.com/3d/net/).
 - Eine 3D-Szenendatei (z. B. „scene.obj“) zum Experimentieren.
 
 ## Namespaces importieren
@@ -93,7 +93,7 @@ Erstellen Sie einen Renderer und ein Renderziel, um die Szene aufzunehmen.
 ### Schritt 5.1 Pixelierungseffekt
 
 ```csharp
-// Erstellen Sie einen Pixeleffekt
+//Erstellen Sie einen Pixeleffekt
 PostProcessing pixelation = renderer.GetPostProcessing("pixelation");
 renderer.PostProcessings.Add(pixelation);
 renderer.Render(rt);
@@ -105,7 +105,7 @@ Wenden Sie den Pixelierungseffekt an und speichern Sie das Ergebnis.
 ### Schritt 5.2 Graustufeneffekt
 
 ```csharp
-// Graustufeneffekt erstellen
+// Graustufeneffekt erzeugen
 PostProcessing grayscale = renderer.GetPostProcessing("grayscale");
 renderer.PostProcessings.Clear();
 renderer.PostProcessings.Add(grayscale);

@@ -84,11 +84,11 @@ A1：是的，Aspose.3D 支持多种 3D 文件格式，确保项目的灵活性�
 
 ### Q2：我可以将Aspose.3D用于商业用途吗？
 
-A2：当然！ Aspose.3D附带商业许可证，您可以购买[这里](https://purchase.aspose.com/buy).
+ A2：当然！ Aspose.3D附带商业许可证，您可以购买[这里](https://purchase.aspose.com/buy).
 
 ### Q3：Aspose.3D 有免费试用版吗？
 
- A3：是的，您可以通过下载免费试用版来探索Aspose.3D的功能[这里](https://releases.aspose.com/).
+A3：是的，您可以通过下载免费试用版来探索Aspose.3D的功能[这里](https://releases.aspose.com/).
 
 ### Q4：如何获得 Aspose.3D 的支持？
 
@@ -96,4 +96,4 @@ A2：当然！ Aspose.3D附带商业许可证，您可以购买[这里](https://
 
 ### Q5：测试需要临时许可证吗？
 
- A5：是的，如果您需要临时许可证用于测试目的，您可以获得一个[这里](https://purchase.aspose.com/temporary-license/).
+A5：是的，如果您需要临时许可证用于测试目的，您可以获得一个[这里](https://purchase.aspose.com/temporary-license/).

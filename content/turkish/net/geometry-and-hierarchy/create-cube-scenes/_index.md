@@ -87,7 +87,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Belgeler dizininin yolu.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-// 3B sahneyi desteklenen dosya formatlarında kaydedin
+//3B sahneyi desteklenen dosya formatlarında kaydedin
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

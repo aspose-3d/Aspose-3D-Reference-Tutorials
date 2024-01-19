@@ -44,7 +44,7 @@ Scene scene = new Scene();
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    //Имя файла требуется, если используется встроенная текстура.
+    // Имя файла требуется, если используется встроенная текстура.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

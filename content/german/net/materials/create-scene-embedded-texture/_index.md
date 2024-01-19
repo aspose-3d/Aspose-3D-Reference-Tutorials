@@ -44,7 +44,7 @@ Jetzt verleihen wir Ihrer Szene etwas visuelles Flair, indem wir eine Textur ein
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    //Der Dateiname ist erforderlich, wenn die eingebettete Textur verwendet wird.
+    // Der Dateiname ist erforderlich, wenn die eingebettete Textur verwendet wird.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

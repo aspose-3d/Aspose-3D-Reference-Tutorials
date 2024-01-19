@@ -104,7 +104,7 @@ A2: Auf jeden Fall! Aspose.3D bietet kommerzielle Lizenzen für die nahtlose Int
 
 ### F3: Gibt es eine Testversion?
 
- A3: Ja, Sie können die Funktionen von Aspose.3D erkunden, indem Sie die kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
+A3: Ja, Sie können die Funktionen von Aspose.3D erkunden, indem Sie die kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
 
 ### F4: Wo finde ich Community-Unterstützung und Diskussionen?
 

@@ -9,7 +9,7 @@ url: /tr/net/geometry-and-hierarchy/transformation-node-euler-angles/
 ---
 ## giriiş
 
-Aspose.3D for .NET kullanarak 3 boyutlu sahnelerde düğümlerin Euler açılarına göre dönüştürülmesine ilişkin bu kapsamlı eğitime hoş geldiniz. Bu kılavuzda, 3 boyutlu grafiklerin heyecan verici dünyasına dalacağız ve Euler açılarını kullanarak bir düğüme dönüşümler ekleme sürecini keşfedeceğiz. Aspose.3D for .NET, 3D sahneler ve ağlarla çalışmak için güçlü araçlar sunarak projelerinde çok yönlülük ve verimlilik arayan geliştiriciler için mükemmel bir seçimdir.
+Aspose.3D for .NET kullanarak 3 boyutlu sahnelerde düğümlerin Euler açılarına göre dönüştürülmesine ilişkin bu kapsamlı eğitime hoş geldiniz. Bu kılavuzda 3 boyutlu grafiklerin heyecan verici dünyasına dalacağız ve Euler açılarını kullanarak bir düğüme dönüşümler ekleme sürecini keşfedeceğiz. Aspose.3D for .NET, 3D sahneler ve ağlarla çalışmak için güçlü araçlar sunarak projelerinde çok yönlülük ve verimlilik arayan geliştiriciler için mükemmel bir seçimdir.
 
 ## Önkoşullar
 
@@ -51,7 +51,7 @@ Scene scene = new Scene();
 Node cubeNode = new Node("cube");
 ```
 
- kullanarak sahne içinde bir düğüm oluşturun.`Node` sınıf. Bu düğüm 3 boyutlu nesnemiz için konteyner görevi görecek.
+ kullanarak sahne içinde bir düğüm oluşturun.`Node`sınıf. Bu düğüm 3 boyutlu nesnemiz için konteyner görevi görecek.
 
 ## Adım 3: Polygon Builder'ı Kullanarak Mesh Oluşturun
 
@@ -97,7 +97,7 @@ Düğümü sahnenin hiyerarşisine dahil edin.
 // Belgeler dizininin yolu.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// 3B sahneyi desteklenen dosya formatlarında kaydedin
+//3B sahneyi desteklenen dosya formatlarında kaydedin
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -107,7 +107,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## Çözüm
 
-Tebrikler! Aspose.3D for .NET'i kullanarak 3D sahnelerde bir düğümü Euler açılarına göre nasıl dönüştüreceğinizi başarıyla öğrendiniz. Bu güçlü kütüphane, 3D grafik geliştirmede sonsuz olasılıkların kapısını açar.
+Tebrikler! Aspose.3D for .NET'i kullanarak 3D sahnelerde bir düğümü Euler açılarına göre nasıl dönüştüreceğinizi başarıyla öğrendiniz. Bu güçlü kütüphane, 3D grafik geliştirmede sonsuz olasılıkların kapısını açıyor.
 
 ## SSS'ler
 
@@ -129,4 +129,4 @@ C2: Evet, karmaşık efektler elde etmek için birden fazla dönüşümü birle�
 
 ### S5: Yardıma mı ihtiyacınız var veya özel sorularınız mı var?
 
- A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk desteği için.
+A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk desteği için.

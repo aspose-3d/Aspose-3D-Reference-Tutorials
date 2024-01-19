@@ -15,7 +15,7 @@ url: /ar/net/geometry-and-hierarchy/setup-uv-cube/
 
 قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
 
-1.  Aspose.3D لمكتبة .NET: تأكد من تثبيت مكتبة Aspose.3D. يمكنك تنزيله[هنا](https://releases.aspose.com/3d/net/).
+1. Aspose.3D لمكتبة .NET: تأكد من تثبيت مكتبة Aspose.3D. يمكنك تنزيله[هنا](https://releases.aspose.com/3d/net/).
 
 2. بيئة التطوير: قم بإعداد بيئة تطوير .NET باستخدام الأدوات اللازمة.
 

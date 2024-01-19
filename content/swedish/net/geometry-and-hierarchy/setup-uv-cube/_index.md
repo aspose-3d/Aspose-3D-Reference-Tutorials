@@ -15,7 +15,7 @@ Att skapa fängslande och visuellt tilltalande 3D-scener innebär ofta den noggr
 
 Innan du dyker in i handledningen, se till att du har följande förutsättningar:
 
-1.  Aspose.3D for .NET Library: Se till att du har Aspose.3D-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/net/).
+1. Aspose.3D for .NET Library: Se till att du har Aspose.3D-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/net/).
 
 2. Utvecklingsmiljö: Sätt upp en .NET-utvecklingsmiljö med nödvändiga verktyg.
 

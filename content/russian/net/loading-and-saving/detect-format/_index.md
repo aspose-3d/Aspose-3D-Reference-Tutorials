@@ -50,10 +50,10 @@ scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ### Шаг 2: Определите формат
 
 ```csharp
-// Эксстарт:детектформат
+//Эксстарт:детектформат
 // Определить формат 3D-файла
 FileFormat inputFormat = FileFormat.Detect(RunExamples.GetDataFilePath("document.fbx"));
-// Отобразить формат файла
+// Отображение формата файла
 Console.WriteLine("File Format: " + inputFormat.ToString());
 // Эксенд:детектформат
 ```
@@ -92,4 +92,4 @@ scene.Save("output.fbx", FileFormat.FBX7500ASCII);
 
 ### В5: Могу ли я бесплатно попробовать Aspose.3D перед покупкой?
 
- А5: Конечно! Загрузите бесплатную пробную версию с[Релизы Aspose.3D](https://releases.aspose.com/) ощутить его возможности на собственном опыте.
+А5: Конечно! Загрузите бесплатную пробную версию с[Релизы Aspose.3D](https://releases.aspose.com/) ощутить его возможности на собственном опыте.

@@ -9,7 +9,7 @@ is_root: true
 ---
 ## Introduktion
 
-Är du redo att ge dig ut på en resa in i den spännande sfären av 3D-modellering och animation? Leta inte längre – Aspose.3D för .NET ger dig en omfattande samling av tutorials och exempel, designade för att släppa lös din kreativitet och lyfta dina projekt till nya höjder.
+Är du redo att ge dig ut på en resa in i den spännande sfären av 3D-modellering och animation? Leta inte längre – Aspose.3D för .NET ger dig en omfattande samling handledningar och exempel, designade för att släppa loss din kreativitet och lyfta dina projekt till nya höjder.
 
 ##  Upptäck konsten med 3D-modellering
 [3D-modellering](./3d-modeling/)

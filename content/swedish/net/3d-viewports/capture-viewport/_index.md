@@ -51,7 +51,7 @@ scene.RootNode.CreateChildNode("camera", camera).Transform.Translation = new Vec
 camera.LookAt = new Vector3(50, 12, 0);
 ```
 
-## Steg 3: Lägg till belysning till scenen
+## Steg 3: Lägg till ljus till scenen
 
 Förbättra din scen genom att lägga till en ljuskälla. Kodavsnittet nedan visar hur man skapar ett punktljus:
 

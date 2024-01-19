@@ -1,6 +1,6 @@
 ---
-title:Cargar y guardar: crear un documento 3D vacío
-linktitle:Cargar y guardar: crear un documento 3D vacío
+title: Cargar y guardar crear un documento 3D vacío
+linktitle: Cargar y guardar crear un documento 3D vacío
 second_title: Aspose.3D API .NET
 description: Explore el mundo de la creación de documentos 3D con Aspose.3D para .NET. Crea, edita y guarda impresionantes escenas 3D sin esfuerzo.
 type: docs

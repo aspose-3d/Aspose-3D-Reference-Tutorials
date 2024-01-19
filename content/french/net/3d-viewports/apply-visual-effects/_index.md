@@ -16,7 +16,7 @@ Améliorer l'attrait visuel des scènes 3D est un aspect crucial de la création
 Avant de plonger dans le didacticiel, assurez-vous d'avoir les éléments suivants :
 
 - Une connaissance pratique du développement C# et .NET.
--  Aspose.3D pour la bibliothèque .NET installée. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/3d/net/).
+- Aspose.3D pour la bibliothèque .NET installée. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/3d/net/).
 - Un fichier de scène 3D (par exemple, "scene.obj") pour l'expérimentation.
 
 ## Importer des espaces de noms
@@ -93,7 +93,7 @@ Créez un moteur de rendu et une cible de rendu pour capturer la scène.
 ### Étape 5.1 Effet de pixellisation
 
 ```csharp
-// Créer un effet de pixellisation
+//Créer un effet de pixellisation
 PostProcessing pixelation = renderer.GetPostProcessing("pixelation");
 renderer.PostProcessings.Add(pixelation);
 renderer.Render(rt);

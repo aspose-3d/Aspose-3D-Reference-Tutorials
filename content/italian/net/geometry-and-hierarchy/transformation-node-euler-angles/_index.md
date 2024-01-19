@@ -51,7 +51,7 @@ Scene scene = new Scene();
 Node cubeNode = new Node("cube");
 ```
 
- Crea un nodo all'interno della scena utilizzando il file`Node` classe. Questo nodo servirà da contenitore per il nostro oggetto 3D.
+ Crea un nodo all'interno della scena utilizzando il file`Node`classe. Questo nodo servirà da contenitore per il nostro oggetto 3D.
 
 ## Passaggio 3: crea mesh utilizzando il generatore di poligoni
 
@@ -97,7 +97,7 @@ Incorpora il nodo nella gerarchia della scena.
 // Il percorso della directory dei documenti.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// Salva la scena 3D nei formati di file supportati
+//Salva la scena 3D nei formati di file supportati
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -129,4 +129,4 @@ R2: Sì, puoi combinare e applicare più trasformazioni per ottenere effetti com
 
 ### Q5: Hai bisogno di assistenza o hai domande specifiche?
 
- A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per il sostegno della comunità.
+A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per il sostegno della comunità.

@@ -15,7 +15,7 @@ url: /ar/net/geometry-and-hierarchy/transformation-node-matrix/
 
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
-1. Aspose.3D لمكتبة .NET: تأكد من تثبيت مكتبة Aspose.3D في مشروع .NET الخاص بك. يمكنك تنزيله[هنا](https://releases.aspose.com/3d/net/).
+1.  Aspose.3D لمكتبة .NET: تأكد من تثبيت مكتبة Aspose.3D في مشروع .NET الخاص بك. يمكنك تنزيله[هنا](https://releases.aspose.com/3d/net/).
 
 2. بيئة التطوير: قم بإعداد بيئة تطوير .NET عاملة، وإذا لم تكن قد قمت بذلك بالفعل، فقم بإنشاء مشروع جديد حيث ستقوم بتنفيذ التحويلات.
 
@@ -62,7 +62,7 @@ cubeNode.Entity = mesh;
 ## الخطوة 3: تعيين مصفوفة الترجمة المخصصة
 
 ```csharp
-//قم بتعيين مصفوفة الترجمة المخصصة
+// قم بتعيين مصفوفة الترجمة المخصصة
 cubeNode.Transform.TransformMatrix = new Matrix4(
     1, -0.3, 0, 0,
     0.4, 1, 0.3, 0,
@@ -88,7 +88,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // المسار إلى دليل المستندات.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
+//حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -120,4 +120,4 @@ A1: مصفوفة التحويل هي تمثيل رياضي يستخدم لتطب
 
 ### س5: أين يمكنني طلب المساعدة أو التواصل مع مجتمع Aspose.3D؟
 
- ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لطرح الأسئلة ومشاركة الخبرات والتواصل مع المطورين الآخرين باستخدام Aspose.3D.
+ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لطرح الأسئلة ومشاركة الخبرات والتواصل مع المطورين الآخرين باستخدام Aspose.3D.

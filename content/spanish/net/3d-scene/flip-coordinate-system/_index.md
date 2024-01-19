@@ -16,7 +16,7 @@ Bienvenido a esta guía paso a paso sobre cómo invertir el sistema de coordenad
 Antes de sumergirse en el tutorial, asegúrese de tener los siguientes requisitos previos:
 
 - Conocimientos básicos del lenguaje de programación C#.
--  Aspose.3D para la biblioteca .NET instalada. Puedes descargarlo desde[aquí](https://releases.aspose.com/3d/net/).
+- Aspose.3D para la biblioteca .NET instalada. Puedes descargarlo desde[aquí](https://releases.aspose.com/3d/net/).
 - Un archivo 3D de muestra en un formato compatible (por ejemplo, .3ds).
 
 ## Importar espacios de nombres
@@ -52,7 +52,7 @@ var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
 scene.Save(output, FileFormat.WavefrontOBJ);
 ```
 
- Ahora, usamos el`Save`método para exportar la escena, invirtiendo el sistema de coordenadas en el proceso. La salida se guarda en formato Wavefront OBJ.
+ Ahora, usamos el`Save` método para exportar la escena, invirtiendo el sistema de coordenadas en el proceso. La salida se guarda en formato Wavefront OBJ.
 
 ## Paso 3: Mostrar mensaje de éxito
 
@@ -78,7 +78,7 @@ R1: Aspose.3D para .NET está diseñado principalmente para programación en C#.
 
 ### P3: ¿Hay una prueba gratuita disponible de Aspose.3D para .NET?
 
-R3: Sí, puedes explorar la versión de prueba gratuita[aquí](https://releases.aspose.com/) antes de realizar una compra.
+ R3: Sí, puedes explorar la versión de prueba gratuita[aquí](https://releases.aspose.com/) antes de realizar una compra.
 
 ### P4: ¿Cómo puedo obtener una licencia temporal de Aspose.3D para .NET?
 

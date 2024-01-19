@@ -11,7 +11,7 @@ url: /sv/net/objects/split-mesh-by-material/
 Välkommen till denna omfattande handledning om att dela ett nät efter material med Aspose.3D för .NET! Om du är en utvecklare som arbetar med 3D-grafik och vill hantera och manipulera mesh effektivt, är du på rätt plats. I den här guiden kommer vi att utforska processen att dela upp ett nät baserat på material, en avgörande uppgift för att skapa olika och visuellt tilltalande 3D-scener.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
--  Aspose.3D för .NET: Se till att du har Aspose.3D-biblioteket installerat i ditt .NET-projekt. Om inte kan du ladda ner den från[släpper](https://releases.aspose.com/3d/net/) sida.
+-  Aspose.3D för .NET: Se till att du har Aspose.3D-biblioteket installerat i ditt .NET-projekt. Om inte kan du ladda ner det från[släpper](https://releases.aspose.com/3d/net/) sida.
 - Grundläggande kunskap om 3D-grafik: Bekanta dig med grundläggande koncept för 3D-grafik för att förstå nyanserna av mesh-manipulation.
 - Utvecklingsmiljö: Sätt upp en lämplig .NET-utvecklingsmiljö, som Visual Studio.
 ## Importera namnområden
@@ -54,7 +54,7 @@ mat.Indices.AddRange(new int[] { 0, 0, 0, 1, 1, 1 });
 Uppdatera materialindex för att förbereda för nästa uppdelning med CompactData-policyn.
 ## Steg 5: Dela nätet efter material (CompactData Policy)
 ```csharp
-// Dela upp den i 2 undermaskor, som var och en innehåller specifika plan
+//Dela upp den i 2 undermaskor, som var och en innehåller specifika plan
 planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CompactData);
 ```
 Nu delar vi nätet i två undernät, grupperar plan baserat på material och använder CompactData-policyn.

@@ -12,7 +12,7 @@ Aspose.3D for .NET kullanarak bir sahneyi altı yüzlü bir küp haritasına dö
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 - C# ve .NET geliştirme konusunda çalışma bilgisi.
-- Aspose.3D for .NET kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/3d/net/).
 - İşleme için GLB formatında bir 3B sahne dosyası (örneğin, "VirtualCity.glb").
 ## Ad Alanlarını İçe Aktar
 Aspose.3D için gerekli ad alanlarını C# kodunuza aktararak başlayın:

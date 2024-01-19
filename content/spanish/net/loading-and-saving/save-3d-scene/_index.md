@@ -49,7 +49,7 @@ MemoryStream dstStream = new MemoryStream();
 scene.Save(dstStream, FileFormat.FBX7500ASCII);
 ```
 
-Guarde la escena 3D cargada en una secuencia de memoria usando el`Save` método, especificando el formato de archivo deseado (en este caso, FBX7500ASCII).
+ Guarde la escena 3D cargada en una secuencia de memoria usando el`Save` método, especificando el formato de archivo deseado (en este caso, FBX7500ASCII).
 
 ### Paso 3: rebobinar la posición de la transmisión
 

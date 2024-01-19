@@ -87,7 +87,7 @@ Geben Sie das Ausgabeverzeichnis an und speichern Sie die 3D-Szene in einem unte
 // Der Pfad zum Dokumentenverzeichnis.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-// Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
+//Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

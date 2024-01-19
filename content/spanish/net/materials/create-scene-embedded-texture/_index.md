@@ -44,7 +44,7 @@ Ahora, agreguemos un poco de estilo visual a su escena incorporando una textura.
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    //El nombre del archivo es obligatorio si se utiliza la textura incrustada.
+    // El nombre del archivo es obligatorio si se utiliza la textura incrustada.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

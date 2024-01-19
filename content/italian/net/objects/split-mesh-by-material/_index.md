@@ -54,7 +54,7 @@ mat.Indices.AddRange(new int[] { 0, 0, 0, 1, 1, 1 });
 Aggiorna gli indici materiali per prepararti alla prossima operazione di suddivisione con la policy CompactData.
 ## Passaggio 5: suddivisione della mesh in base al materiale (policy CompactData)
 ```csharp
-// Dividilo in 2 sotto mesh, ciascuna contenente piani specifici
+//Dividilo in 2 sotto mesh, ciascuna contenente piani specifici
 planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CompactData);
 ```
 Ora dividiamo la mesh in due sottomesh, raggruppando i piani in base ai materiali e utilizzando la policy CompactData.

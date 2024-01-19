@@ -12,7 +12,7 @@ Bienvenue dans ce guide étape par étape sur le rendu d'une scène dans une car
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 - Une connaissance pratique du développement C# et .NET.
-- Aspose.3D pour .NET installé. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/net/).
+-  Aspose.3D pour .NET installé. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/net/).
 - Un fichier de scène 3D au format GLB (par exemple, "VirtualCity.glb") pour le rendu.
 ## Importer des espaces de noms
 Commencez par importer les espaces de noms nécessaires pour Aspose.3D dans votre code C# :

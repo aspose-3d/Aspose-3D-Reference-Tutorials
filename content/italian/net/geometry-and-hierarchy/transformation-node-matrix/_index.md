@@ -15,7 +15,7 @@ Nel regno dinamico della grafica e delle visualizzazioni 3D, la capacità di man
 
 Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
 
-1. Libreria Aspose.3D per .NET: assicurati di avere la libreria Aspose.3D installata nel tuo progetto .NET. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/net/).
+1.  Libreria Aspose.3D per .NET: assicurati di avere la libreria Aspose.3D installata nel tuo progetto .NET. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/net/).
 
 2. Ambiente di sviluppo: configura un ambiente di sviluppo .NET funzionante e, se non lo hai già fatto, crea un nuovo progetto in cui implementerai le trasformazioni.
 
@@ -62,7 +62,7 @@ Qui generiamo una mesh utilizzando il metodo di creazione poligoni e la assegnia
 ## Passaggio 3: imposta la matrice di traduzione personalizzata
 
 ```csharp
-//Imposta la matrice di traduzione personalizzata
+// Imposta la matrice di traduzione personalizzata
 cubeNode.Transform.TransformMatrix = new Matrix4(
     1, -0.3, 0, 0,
     0.4, 1, 0.3, 0,
@@ -88,7 +88,7 @@ Includi il nodo del cubo nella scena, rendendolo parte dell'ambiente 3D compless
 // Il percorso della directory dei documenti.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// Salva la scena 3D nei formati di file supportati
+//Salva la scena 3D nei formati di file supportati
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -120,4 +120,4 @@ A2: Sì, puoi combinare più trasformazioni moltiplicando le rispettive matrici 
 
 ### Q5: Dove posso chiedere assistenza o connettermi con la comunità Aspose.3D?
 
- A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per porre domande, condividere esperienze e connettersi con altri sviluppatori utilizzando Aspose.3D.
+A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per porre domande, condividere esperienze e connettersi con altri sviluppatori utilizzando Aspose.3D.

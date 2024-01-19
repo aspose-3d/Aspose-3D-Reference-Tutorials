@@ -51,7 +51,7 @@ Scene scene = new Scene();
 Node cubeNode = new Node("cube");
 ```
 
- Skapa en nod i scenen med hjälp av`Node` klass. Denna nod kommer att fungera som behållare för vårt 3D-objekt.
+ Skapa en nod i scenen med hjälp av`Node`klass. Denna nod kommer att fungera som behållare för vårt 3D-objekt.
 
 ## Steg 3: Skapa nät med Polygon Builder
 
@@ -97,7 +97,7 @@ Inkorporera noden i scenens hierarki.
 // Sökvägen till dokumentkatalogen.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// Spara 3D-scen i de filformat som stöds
+//Spara 3D-scen i de filformat som stöds
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd: AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -129,4 +129,4 @@ S2: Ja, du kan kombinera och tillämpa flera transformationer för att uppnå ko
 
 ### F5: Behöver du hjälp eller har specifika frågor?
 
- A5: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) för samhällsstöd.
+A5: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) för samhällsstöd.

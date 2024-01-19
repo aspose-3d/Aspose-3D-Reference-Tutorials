@@ -44,7 +44,7 @@ Maintenant, ajoutons une touche visuelle à votre scène en intégrant une textu
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    //Le nom du fichier est requis si la texture intégrée est utilisée.
+    // Le nom du fichier est requis si la texture intégrée est utilisée.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

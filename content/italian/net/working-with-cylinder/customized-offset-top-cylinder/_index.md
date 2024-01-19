@@ -2,7 +2,7 @@
 title: Cilindro superiore offset personalizzato
 linktitle: Cilindro superiore offset personalizzato
 second_title: API Aspose.3D .NET
-description: Esplora le meraviglie della grafica 3D con Aspose.3D per .NET. Impara a creare cilindri superiori offset personalizzati senza sforzo. Migliora la tua esperienza di codifica ora!
+description: Esplora le meraviglie della grafica 3D con Aspose.3D per .NET. Impara a creare cilindri superiori offset personalizzati senza sforzo. Migliora la tua esperienza di codifica adesso!
 type: docs
 weight: 11
 url: /it/net/working-with-cylinder/customized-offset-top-cylinder/
@@ -53,7 +53,7 @@ scene.RootNode.CreateChildNode(cylinder1).Transform.Translation = new Vector3(10
 Aggiungiamo il primo cilindro come nodo figlio alla scena, regolandone la posizione.
 ## Passaggio 5: inizializzare il secondo cilindro
 ```csharp
-// Inizializza il secondo cilindro senza OffsetTop personalizzato
+//Inizializza il secondo cilindro senza OffsetTop personalizzato
 var cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 ```
 Un secondo cilindro viene inizializzato senza un offset superiore personalizzato.

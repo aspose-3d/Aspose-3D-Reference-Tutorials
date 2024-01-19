@@ -12,7 +12,7 @@ Bienvenido a esta guía paso a paso sobre cómo representar una escena en un map
 ## Requisitos previos
 Antes de sumergirnos en el tutorial, asegúrese de tener implementados los siguientes requisitos previos:
 - Un conocimiento práctico del desarrollo de C# y .NET.
-- Aspose.3D para .NET instalado. Puedes descargarlo[aquí](https://releases.aspose.com/3d/net/).
+-  Aspose.3D para .NET instalado. Puedes descargarlo[aquí](https://releases.aspose.com/3d/net/).
 - Un archivo de escena 3D en formato GLB (por ejemplo, "VirtualCity.glb") para renderizar.
 ## Importar espacios de nombres
 Comience importando los espacios de nombres necesarios para Aspose.3D en su código C#:
@@ -74,7 +74,7 @@ CubeFaceData<string> fileNames = new CubeFaceData<string>()
 cubemap.Save(fileNames, ImageFormat.Png);
 ```
 ## Conclusión
-¡Felicidades! Ha renderizado con éxito una escena 3D en un mapa de cubos usando Aspose.3D para .NET. Explore más opciones de personalización y mejore sus proyectos de gráficos 3D con esta potente API.
+¡Felicidades! Ha renderizado con éxito una escena 3D en un mapa de cubos usando Aspose.3D para .NET. Explore más opciones de personalización y mejore sus proyectos de gráficos 3D con esta poderosa API.
 ## Preguntas frecuentes
 ### P: ¿Puedo usar Aspose.3D para .NET con otros formatos de archivos 3D?
 Sí, Aspose.3D admite varios formatos de archivos 3D, lo que brinda flexibilidad en sus proyectos.

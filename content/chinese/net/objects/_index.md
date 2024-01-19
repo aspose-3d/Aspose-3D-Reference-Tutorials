@@ -110,7 +110,7 @@ Aspose.3D for .NET 为希望深入研究 3D 建模复杂性的开发人员打开
 ### [将长方体基元转换为网格](./convert-box-primitive-to-mesh/)
 探索 Aspose.3D for .NET 的强大功能！轻松将 Box 基元转换为多功能网格。立即提升您的 3D 图形游戏水平。
 ### [将圆柱体基元转换为网格](./convert-cylinder-primitive-to-mesh/)
-了解如何使用 Aspose.3D for .NET 轻松将 Cylinder 基元转换为 Mesh。按照我们的分步指南进行无缝 3D 转换。
+了解如何使用 Aspose.3D for .NET 轻松地将 Cylinder 基元转换为 Mesh。按照我们的分步指南进行无缝 3D 转换。
 ### [将平面基元转换为网格](./convert-plane-primitive-to-mesh/)
 探索使用 Aspose.3D for .NET 将平面基元无缝转换为网格。轻松提升您的 3D 图形开发！
 ### [使用自定义内存布局将球体网格转换为三角形网格](./convert-sphere-mesh-triangle-memory-layout/)
@@ -132,4 +132,4 @@ Aspose.3D for .NET 为希望深入研究 3D 建模复杂性的开发人员打开
 ### [使用球体半径](./working-with-sphere-radius/)
 使用 Aspose.3D for .NET 释放 3D 建模的潜力。轻松创建令人惊叹的模型。立即下载免费试用版！
 ### [类似 XPath 的对象查询](./xpath-like-object-queries/)
-释放 Aspose.3D for .NET 的强大功能！使用类似 XPath 的查询无缝操作 3D 图形。立即下载，享受改变游戏规则的体验。
+释放 Aspose.3D for .NET 的力量！使用类似 XPath 的查询无缝操作 3D 图形。立即下载，享受改变游戏规则的体验。

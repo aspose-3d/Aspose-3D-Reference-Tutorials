@@ -15,7 +15,7 @@ Willkommen zu dieser Schritt-für-Schritt-Anleitung zur Verwendung von Aspose.3D
 
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
-- Aspose.3D für .NET: Stellen Sie sicher, dass die Aspose.3D für .NET-Bibliothek installiert ist. Den Download-Link finden Sie hier[Hier](https://releases.aspose.com/3d/net/).
+-  Aspose.3D für .NET: Stellen Sie sicher, dass die Aspose.3D für .NET-Bibliothek installiert ist. Den Download-Link finden Sie hier[Hier](https://releases.aspose.com/3d/net/).
 
 - Grundlegendes Verständnis von C#: In diesem Tutorial wird davon ausgegangen, dass Sie über grundlegende Kenntnisse der C#-Programmierung verfügen.
 
@@ -96,7 +96,7 @@ A1: Ja, Aspose.3D unterstützt eine Vielzahl von 3D-Dateiformaten und bietet so 
 
 ### F3: Benötige ich zum Testen eine temporäre Lizenz?
 
- A3: Ja, Sie können zu Testzwecken eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+A3: Ja, Sie können zu Testzwecken eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
 
 ### F4: Wo finde ich Unterstützung für Aspose.3D?
 

@@ -12,7 +12,7 @@ Välkommen till den här steg-för-steg-guiden om hur du renderar en scen till e
 ## Förutsättningar
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 - En praktisk kunskap om C# och .NET utveckling.
-- Aspose.3D för .NET installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/net/).
+-  Aspose.3D för .NET installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/net/).
 - En 3D-scenfil i GLB-format (t.ex. "VirtualCity.glb") för rendering.
 ## Importera namnområden
 Börja med att importera de nödvändiga namnrymden för Aspose.3D i din C#-kod:

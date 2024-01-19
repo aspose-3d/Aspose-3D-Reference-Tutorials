@@ -65,7 +65,7 @@ scene.RootNode.CreateChildNode(new Light()
     Color = new Vector3(Color.White)
 }).Transform.Translation = new Vector3(40, 10, 50);
 ```
-## Steg 4: Ange bildrenderingsalternativ
+## Steg 4: Ange alternativ för bildrendering
 ```csharp
 ImageRenderOptions opt = new ImageRenderOptions();
 opt.BackgroundColor = Color.AliceBlue;

@@ -39,7 +39,7 @@ Scene scene = new Scene(input);
 // Разделить все сетки
 PolygonModifier.SplitMesh(scene, SplitMeshPolicy.CloneData);
 ```
- Здесь мы используем`SplitMesh` метод из`PolygonModifier`класс для разделения всех сеток на основе материала.
+ Здесь мы используем`SplitMesh` метод из`PolygonModifier` класс для разделения всех сеток на основе материала.
 ## Шаг 3. Сохраните разделенную сцену
 ```csharp
 // Сохранить файл

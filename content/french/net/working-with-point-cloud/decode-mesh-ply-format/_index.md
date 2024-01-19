@@ -50,7 +50,7 @@ Dans ce didacticiel, nous avons dévoilé le talent artistique du décodage du m
 ### Q : Aspose.3D est-il compatible avec d’autres formats de fichiers ?
 R : Absolument ! Aspose.3D prend en charge une multitude de formats, garantissant une intégration transparente avec vos projets 3D.
 ### Q : Puis-je manipuler davantage le maillage décodé ?
-R : En effet ! Aspose.3D vous permet d'ajuster et d'améliorer votre maillage, vous donnant un contrôle total sur vos créations 3D.
+: En effet ! Aspose.3D vous permet d'ajuster et d'améliorer votre maillage, vous donnant un contrôle total sur vos créations 3D.
 ### Q : Où puis-je demander de l'aide si je rencontre des problèmes ?
  R : Rejoignez la communauté dynamique Aspose.3D sur[Forum Aspose](https://forum.aspose.com/c/3d/18) pour une assistance rapide et une résolution collaborative des problèmes.
 ### Q : Existe-t-il une version d'essai disponible avant d'effectuer un achat ?

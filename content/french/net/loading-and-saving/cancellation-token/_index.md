@@ -78,7 +78,7 @@ catch (ImportException e)
 }
 ```
 
- Essayez d'ouvrir le document 3D dans le délai spécifié. Le`cts.Token` Le paramètre garantit que l’opération peut être annulée si elle dépasse le délai d’attente défini.
+ Essayez d'ouvrir le document 3D dans le délai spécifié. Le`cts.Token`Le paramètre garantit que l’opération peut être annulée si elle dépasse le délai d’attente défini.
 
 ### Étape 5 : Gérer l'exception d'importation
 

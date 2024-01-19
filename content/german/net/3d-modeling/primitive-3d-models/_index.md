@@ -15,7 +15,7 @@ Willkommen in der aufregenden Welt der 3D-Modellierung mit Aspose.3D für .NET! 
 
 Bevor wir in die faszinierende Welt der 3D-Modellierung eintauchen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
--  Aspose.3D für .NET: Laden Sie die Aspose.3D für .NET-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/3d/net/).
+- Aspose.3D für .NET: Laden Sie die Aspose.3D für .NET-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/3d/net/).
 
 - Entwicklungsumgebung: Richten Sie eine .NET-Entwicklungsumgebung ein und stellen Sie die Kompatibilität mit Aspose.3D sicher.
 
@@ -40,7 +40,7 @@ Wenn diese Namespaces vorhanden sind, können Sie die Leistungsfähigkeit von As
 ## Schritt 1: Initialisieren Sie ein Szenenobjekt
 
 ```csharp
-// Initialisieren Sie ein Scene-Objekt
+//Initialisieren Sie ein Scene-Objekt
 Scene scene = new Scene();
 ```
 
@@ -107,4 +107,4 @@ A1: Aspose.3D unterstützt hauptsächlich .NET, es sind jedoch auch andere Versi
 
 ### F5: Gibt es Beispiel-Tutorials?
 
-A5: Ja, weitere Tutorials und Beispiele finden Sie im[Dokumentation](https://reference.aspose.com/3d/net/).
+ A5: Ja, weitere Tutorials und Beispiele finden Sie im[Dokumentation](https://reference.aspose.com/3d/net/).

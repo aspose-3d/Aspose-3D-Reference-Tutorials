@@ -78,7 +78,7 @@ A1：Aspose.3D for .NET 主要是为 C# 编程而设计的。然而，Aspose 为
 
 ### 问题 3：Aspose.3D for .NET 是否有免费试用版？
 
-A3：是的，您可以探索免费试用版[这里](https://releases.aspose.com/)在购买之前。
+ A3：是的，您可以探索免费试用版[这里](https://releases.aspose.com/)在购买之前。
 
 ### 问题 4：如何获得 Aspose.3D for .NET 的临时许可？
 

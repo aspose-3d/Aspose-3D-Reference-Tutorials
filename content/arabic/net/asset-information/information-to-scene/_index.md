@@ -15,7 +15,7 @@ url: /ar/net/asset-information/information-to-scene/
 
 قبل أن نتعمق في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
 
--  Aspose.3D لـ .NET: تأكد من تثبيت المكتبة. يمكنك تنزيله من[Aspose.3D لصفحة .NET](https://releases.aspose.com/3d/net/).
+- Aspose.3D لـ .NET: تأكد من تثبيت المكتبة. يمكنك تنزيله من[Aspose.3D لصفحة .NET](https://releases.aspose.com/3d/net/).
 
 ## استيراد مساحات الأسماء
 

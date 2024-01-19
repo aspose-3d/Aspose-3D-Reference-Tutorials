@@ -39,7 +39,7 @@ Scene scene = new Scene(input);
 // Dividi tutte le mesh
 PolygonModifier.SplitMesh(scene, SplitMeshPolicy.CloneData);
 ```
- Qui usiamo il`SplitMesh` metodo da`PolygonModifier`classe per dividere tutte le mesh in base al materiale.
+ Qui usiamo il`SplitMesh` metodo da`PolygonModifier` classe per dividere tutte le mesh in base al materiale.
 ## Passaggio 3: salva la scena divisa
 ```csharp
 // Salvare il file
@@ -57,7 +57,7 @@ Stampa un messaggio di successo indicando che l'operazione è stata completata c
 Congratulazioni! Hai imparato con successo come dividere tutte le mesh di una scena 3D per materiale utilizzando Aspose.3D per .NET. Questa può essere una tecnica preziosa per organizzare e gestire modelli 3D complessi.
 ## Domande frequenti
 ### 1. Posso utilizzare Aspose.3D per .NET con altri linguaggi di programmazione?
-Aspose.3D è progettato principalmente per .NET, ma fornisce l'interoperabilità con altri linguaggi tramite collegamenti linguistici .NET.
+Aspose.3D è progettato principalmente per .NET, ma fornisce interoperabilità con altri linguaggi tramite collegamenti linguistici .NET.
 ### 2. È disponibile una versione di prova?
  Sì, puoi accedere alla versione di prova gratuita[Qui](https://releases.aspose.com/).
 ### 3. Dove posso trovare ulteriori esempi e documentazione?

@@ -44,7 +44,7 @@ Scene scene = new Scene();
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    //اسم الملف مطلوب في حالة استخدام المادة المضمنة.
+    // اسم الملف مطلوب في حالة استخدام المادة المضمنة.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

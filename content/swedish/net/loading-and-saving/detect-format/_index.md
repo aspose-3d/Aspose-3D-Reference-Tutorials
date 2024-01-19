@@ -50,7 +50,7 @@ scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ### Steg 2: Upptäck formatet
 
 ```csharp
-// ExStart:DetectFormat
+//ExStart:DetectFormat
 // Upptäck formatet på en 3D-fil
 FileFormat inputFormat = FileFormat.Detect(RunExamples.GetDataFilePath("document.fbx"));
 // Visa filformatet
@@ -92,4 +92,4 @@ S1: Ja, Aspose.3D stöder ett brett utbud av 3D-filformat, vilket ger flexibilit
 
 ### F5: Kan jag prova Aspose.3D gratis innan jag köper?
 
- A5: Visst! Ladda ner den kostnadsfria testversionen från[Aspose.3D-släpp](https://releases.aspose.com/) att uppleva dess kapacitet på egen hand.
+A5: Visst! Ladda ner den kostnadsfria testversionen från[Aspose.3D-släpp](https://releases.aspose.com/) att uppleva dess kapacitet på egen hand.

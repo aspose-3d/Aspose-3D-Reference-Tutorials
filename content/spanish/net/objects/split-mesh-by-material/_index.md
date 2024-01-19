@@ -54,7 +54,7 @@ mat.Indices.AddRange(new int[] { 0, 0, 0, 1, 1, 1 });
 Actualice los índices de materiales para prepararse para la próxima operación dividida con la política CompactData.
 ## Paso 5: Dividir la malla por material (política de CompactData)
 ```csharp
-// Divídalo en 2 submallas, cada una de las cuales contiene planos específicos
+//Divídalo en 2 submallas, cada una de las cuales contiene planos específicos
 planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CompactData);
 ```
 Ahora, dividimos la malla en dos submallas, agrupando planos según los materiales y utilizando la política CompactData.

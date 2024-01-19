@@ -107,4 +107,4 @@ Cevap4: Aspose.3D, değişen karmaşıklıktaki sahneleri işlemek için tasarla
 
 ### S5: Ek desteği ve topluluk tartışmalarını nerede bulabilirim?
 
- A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) Destek ve tartışmalar için.
+A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) Destek ve tartışmalar için.

@@ -78,7 +78,7 @@ left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 0, Slices = 100 
 ## الخطوة 5: إجراء البثق الخطي مع الالتواء على العقدة اليمنى
 
 ```csharp
-// إجراء قذف خطي على العقدة اليمنى باستخدام خاصية الالتواء والشرائح
+//إجراء قذف خطي على العقدة اليمنى باستخدام خاصية الالتواء والشرائح
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 

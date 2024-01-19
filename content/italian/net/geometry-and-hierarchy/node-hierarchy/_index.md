@@ -17,11 +17,11 @@ Prima di intraprendere questo viaggio in 3D, assicurati di disporre dei seguenti
 
 -  Libreria Aspose.3D per .NET: assicurati di avere la libreria Aspose.3D integrata nel tuo progetto .NET. Se non l'hai ancora fatto, vai al[documentazione](https://reference.aspose.com/3d/net/) per l'orientamento.
 
--  Scarica la libreria: se non hai scaricato la libreria Aspose.3D, prendi l'ultima versione da[Link per scaricare](https://releases.aspose.com/3d/net/) e seguire le istruzioni di installazione fornite nella documentazione.
+-  Scarica la libreria: se non hai scaricato la libreria Aspose.3D, prendi l'ultima versione da[Link per scaricare](https://releases.aspose.com/3d/net/) seguire le istruzioni di installazione fornite nella documentazione.
 
 -  Ottieni una licenza: per sbloccare tutto il potenziale di Aspose.3D, è necessaria una licenza valida. Se non ne hai uno, puoi ottenerlo[Qui](https://purchase.aspose.com/buy) oppure optare per a[prova gratuita](https://releases.aspose.com/) per esplorarne le capacità.
 
-- Supporto e comunità: unisciti alla comunità Aspose.3D su[Forum di assistenza](https://forum.aspose.com/c/3d/18) per entrare in contatto con altri sviluppatori, chiedere aiuto e rimanere aggiornato sugli ultimi sviluppi.
+-  Supporto e comunità: unisciti alla comunità Aspose.3D su[Forum di assistenza](https://forum.aspose.com/c/3d/18)per entrare in contatto con altri sviluppatori, chiedere aiuto e rimanere aggiornato sugli ultimi sviluppi.
 
 -  Licenza temporanea (facoltativa): se stai esplorando Aspose.3D prima di effettuare un acquisto, considera di ottenere una[licenza temporanea](https://purchase.aspose.com/temporary-license/) per un accesso esteso.
 
@@ -68,7 +68,7 @@ cube1.Entity = mesh;
 cube2.Entity = mesh;
 ```
 
-Genera una mesh utilizzando un metodo adatto (qui,`CreateMeshUsingPolygonBuilder`) e assegnarlo ai nodi figlio.
+ Genera una mesh utilizzando un metodo adatto (qui,`CreateMeshUsingPolygonBuilder`) e assegnarlo ai nodi figlio.
 
 ## Passaggio 4: imposta le traduzioni
 

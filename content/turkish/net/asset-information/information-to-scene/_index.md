@@ -15,7 +15,7 @@ Değerli bilgiler elde etmek ve 3D sahnelerinizi geliştirmek için Aspose.3D fo
 
 Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
--  Aspose.3D for .NET: Kütüphanenin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.3D for .NET sayfası](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET: Kütüphanenin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.3D for .NET sayfası](https://releases.aspose.com/3d/net/).
 
 ## Ad Alanlarını İçe Aktar
 

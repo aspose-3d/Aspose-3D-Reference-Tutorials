@@ -11,9 +11,9 @@ url: /tr/net/objects/working-with-sphere-radius/
 Aspose.3D for .NET ile 3D modelleme dünyasına hoş geldiniz! Bu eğitimde Aspose.3D'nin güçlü yeteneklerini keşfedeceğiz ve çarpıcı 3D modelleri zahmetsizce oluşturmanızda size rehberlik edeceğiz. İster deneyimli bir geliştirici olun ister 3D modelleme dünyasına dalmak isteyen yeni başlayan biri olun, bu eğitim süreci kusursuz ve keyifli hale getirmek için tasarlanmıştır.
 ## Önkoşullar
 Aspose.3D for .NET'i kullanarak 3D modellemenin heyecan verici dünyasına dalmadan önce gerekli önkoşulların mevcut olduğundan emin olalım:
-1.  Aspose.3D for .NET'i yükleyin: Aspose.3D for .NET'i aşağıdaki adresten indirip yükleyerek başlayın:[İndirme: {link](https://releases.aspose.com/3d/net/). Kitaplığı geliştirme ortamınıza kurmak için sağlanan kurulum talimatlarını izleyin.
+1. Aspose.3D for .NET'i yükleyin: Aspose.3D for .NET'i aşağıdaki adresten indirip yükleyerek başlayın:[İndirme: {link](https://releases.aspose.com/3d/net/). Kitaplığı geliştirme ortamınıza kurmak için sağlanan kurulum talimatlarını izleyin.
 2.  Belgelere Erişim: Kütüphanenin şu adreste bulunan belgelerine aşina olun:[Aspose.3D for .NET Belgeleri](https://reference.aspose.com/3d/net/). Bu kaynak eğitim boyunca rehberiniz olacaktır.
-3. Geçici Lisans Alın: Henüz lisansınız yoksa, şu adresten geçici bir lisans alın:[Burada](https://purchase.aspose.com/temporary-license/) Bu eğitim sırasında Aspose.3D'nin tüm potansiyelini keşfetmek için.
+3.  Geçici Lisans Alın: Henüz lisansınız yoksa, şu adresten geçici bir lisans alın:[Burada](https://purchase.aspose.com/temporary-license/) Bu eğitim sırasında Aspose.3D'nin tüm potansiyelini keşfetmek için.
 ## Ad Alanlarını İçe Aktar
 Artık önkoşulları yerine getirdiğinize göre projeniz için gerekli ad alanlarını içe aktararak başlayalım. Bu adım Aspose.3D tarafından sağlanan işlevlere erişim için çok önemlidir.
 ## Adım 1: Aspose.3D Ad Alanını İçe Aktarın
@@ -40,7 +40,7 @@ Aşağıdaki kod parçacığını kullanarak yeni bir 3B sahne oluşturarak baş
 Scene scene = new Scene();
 ```
 ## Adım 2: Küre Yarıçapını Ayarlayın
-Şimdi sahnemize bir küre ekleyelim ve yarıçapını ayarlayalım. Bu, kullanılarak yapılır.`Radius` mülk.
+ Şimdi sahnemize bir küre ekleyelim ve yarıçapını ayarlayalım. Bu, kullanılarak yapılır.`Radius` mülk.
 ```csharp
 scene.RootNode.CreateChildNode(new Sphere() { Radius = 10 });
 ```
@@ -49,15 +49,15 @@ scene.RootNode.CreateChildNode(new Sphere() { Radius = 10 });
 ```csharp
 scene.Save("Your Document Directory" + "sphere.obj", FileFormat.WavefrontOBJ);
 ```
-Tebrikler! Aspose.3D for .NET'i kullanarak bir kürenin 3 boyutlu modelini başarıyla oluşturdunuz. Yaratıcılığınızı açığa çıkarmak için daha fazlasını keşfetmekten ve farklı parametrelerle denemeler yapmaktan çekinmeyin.
+Tebrikler! Aspose.3D for .NET'i kullanarak bir kürenin 3 boyutlu modelini başarıyla oluşturdunuz. Yaratıcılığınızı ortaya çıkarmak için daha fazlasını keşfetmekten ve farklı parametrelerle denemeler yapmaktan çekinmeyin.
 ## Çözüm
- Bu eğitimde, 3D modeller oluşturmak için Aspose.3D for .NET'i kullanmanın temellerini ele aldık. Bu güçlü kütüphane, geliştiricilere yaratıcı vizyonlarını hayata geçirmelerine olanak tanıyan bir fırsatlar dünyasının kapılarını açar. Keşfetmeye devam ederken, bkz.[dokümantasyon](https://reference.aspose.com/3d/net/) Daha ayrıntılı bilgiler ve gelişmiş özellikler için.
+Bu eğitimde, 3D modeller oluşturmak için Aspose.3D for .NET'i kullanmanın temellerini ele aldık. Bu güçlü kütüphane, geliştiricilere yaratıcı vizyonlarını hayata geçirmelerine olanak tanıyan bir fırsatlar dünyasının kapılarını açar. Keşfetmeye devam ederken, bkz.[dokümantasyon](https://reference.aspose.com/3d/net/) Daha ayrıntılı bilgiler ve gelişmiş özellikler için.
 ## Sıkça Sorulan Sorular
 
 ### S1: Aspose.3D tüm .NET çerçeveleriyle uyumlu mudur?
 Evet, Aspose.3D çok çeşitli .NET çerçeveleriyle uyumludur ve farklı ortamlardaki geliştiricilere esneklik sağlar.
 ### S2: Aspose.3D'yi ticari projeler için kullanabilir miyim?
-Kesinlikle! Aspose.3D, hem bireysel geliştiricilerin hem de işletmelerin ihtiyaçlarını karşılamak için ticari lisanslar sunar. Ziyaret etmek[Burada](https://purchase.aspose.com/buy) Lisanslama seçeneklerini keşfetmek için.
+ Kesinlikle! Aspose.3D, hem bireysel geliştiricilerin hem de işletmelerin ihtiyaçlarını karşılamak için ticari lisanslar sunar. Ziyaret etmek[Burada](https://purchase.aspose.com/buy) Lisanslama seçeneklerini keşfetmek için.
 ### S3: Aspose.3D için nasıl destek alabilirim?
  Herhangi bir sorunuz veya yardımınız için şu adrese gidin:[Aspose.3D forumu](https://forum.aspose.com/c/3d/18). Topluluk ve destek ekibi size yardımcı olmak için orada.
 ### S4: Ücretsiz deneme sürümü mevcut mu?

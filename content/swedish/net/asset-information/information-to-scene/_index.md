@@ -15,7 +15,7 @@ Välkommen till denna omfattande handledning om hur du använder Aspose.3D för 
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar:
 
--  Aspose.3D för .NET: Se till att du har biblioteket installerat. Du kan ladda ner den från[Aspose.3D för .NET-sida](https://releases.aspose.com/3d/net/).
+- Aspose.3D för .NET: Se till att du har biblioteket installerat. Du kan ladda ner den från[Aspose.3D för .NET-sida](https://releases.aspose.com/3d/net/).
 
 ## Importera namnområden
 

@@ -16,7 +16,7 @@ Migliorare l'attrattiva visiva delle scene 3D è un aspetto cruciale della creaz
 Prima di immergerti nel tutorial, assicurati di avere quanto segue:
 
 - Una conoscenza pratica dello sviluppo C# e .NET.
--  Aspose.3D per la libreria .NET installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/3d/net/).
+- Aspose.3D per la libreria .NET installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/3d/net/).
 - Un file di scena 3D (ad esempio, "scene.obj") per la sperimentazione.
 
 ## Importa spazi dei nomi
@@ -93,7 +93,7 @@ Crea un renderer e una destinazione di rendering per catturare la scena.
 ### Passaggio 5.1 Effetto pixel
 
 ```csharp
-// Crea un effetto pixel
+//Crea un effetto pixel
 PostProcessing pixelation = renderer.GetPostProcessing("pixelation");
 renderer.PostProcessings.Add(pixelation);
 renderer.Render(rt);

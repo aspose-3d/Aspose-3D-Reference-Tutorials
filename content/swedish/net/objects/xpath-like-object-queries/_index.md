@@ -20,7 +20,7 @@ För att kickstarta ditt Aspose.3D-äventyr, börja med att importera de nödvä
 ## Steg 1: Öppna Visual Studio
 Öppna Visual Studio och skapa ett nytt projekt eller öppna ett befintligt.
 ## Steg 2: Lägg till Aspose.3D-namnutrymme
-ditt projekt, lägg till följande med hjälp av uttalande i början av din kodfil:
+I ditt projekt, lägg till följande med hjälp av uttalande i början av din kodfil:
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
@@ -32,7 +32,7 @@ using System.Threading.Tasks;
 ```
 ## XPath-liknande objektfrågor
 Aspose.3D låter dig utföra XPath-liknande objektfrågor på dina 3D-scener, vilket möjliggör exakt manipulering av objekt. Låt oss dela upp exemplet i flera steg.
-## Steg 1: Scenskapande
+## Steg 1: Skapa scen
 Skapa en ny 3D-scen för att fungera som en duk för testning:
 ```csharp
 Scene s = new Scene();

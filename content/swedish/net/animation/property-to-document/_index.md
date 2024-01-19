@@ -15,7 +15,7 @@ Om du dyker in i sfären av 3D-scenskapande och animering i .NET, är Aspose.3D 
 
 Innan vi ger oss ut på denna spännande resa, se till att du har följande förutsättningar på plats:
 
--  Aspose.3D för .NET: Se till att du har biblioteket installerat. Du kan ladda ner den från[Aspose.3D webbplats](https://releases.aspose.com/3d/net/).
+- Aspose.3D för .NET: Se till att du har biblioteket installerat. Du kan ladda ner den från[Aspose.3D webbplats](https://releases.aspose.com/3d/net/).
 
 - Kunskaper i C#: Förtrogenhet med programmeringsspråket C# är avgörande för att förstå och implementera exemplen.
 
@@ -115,7 +115,7 @@ Grattis! Du har precis bemästrat konsten att animera egenskaper i 3D-scener med
 
 ### F2: Hur laddar jag ner Aspose.3D för .NET?
 
- A2: Du kan ladda ner det från[släpp sida](https://releases.aspose.com/3d/net/).
+ A2: Du kan ladda ner den från[släpp sida](https://releases.aspose.com/3d/net/).
 
 ### F3: Finns det en gratis provperiod?
 

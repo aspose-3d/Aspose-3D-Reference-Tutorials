@@ -15,7 +15,7 @@ Willkommen in der Welt von Aspose.3D für .NET, einer leistungsstarken Bibliothe
 
 Bevor wir mit dem Tutorial beginnen, stellen Sie sicher, dass Sie Folgendes eingerichtet haben:
 
-- Aspose.3D für .NET: Stellen Sie sicher, dass die Aspose.3D-Bibliothek installiert ist. Sie können es herunterladen unter[Hier](https://releases.aspose.com/3d/net/).
+-  Aspose.3D für .NET: Stellen Sie sicher, dass die Aspose.3D-Bibliothek installiert ist. Sie können es herunterladen unter[Hier](https://releases.aspose.com/3d/net/).
 
 - Entwicklungsumgebung: Richten Sie Ihre bevorzugte C#-Entwicklungsumgebung ein, z. B. Visual Studio.
 
@@ -98,7 +98,7 @@ A1: Aspose.3D unterstützt hauptsächlich .NET-Sprachen, Sie können jedoch Komp
 
 ### F2: Wo finde ich zusätzliche Beispiele und Ressourcen?
 
- A2: Die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18)ist ein großartiger Ort, um Unterstützung und Beispiele zu finden und mit der Community in Kontakt zu treten.
+ A2: Die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) ist ein großartiger Ort, um Unterstützung und Beispiele zu finden und mit der Community in Kontakt zu treten.
 
 ### F3: Gibt es eine Testversion für Aspose.3D?
 

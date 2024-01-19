@@ -49,7 +49,7 @@ MemoryStream dstStream = new MemoryStream();
 scene.Save(dstStream, FileFormat.FBX7500ASCII);
 ```
 
-Enregistrez la scène 3D chargée dans un flux mémoire à l'aide du`Save` en spécifiant le format de fichier souhaité (dans ce cas, FBX7500ASCII).
+ Enregistrez la scène 3D chargée dans un flux mémoire à l'aide du`Save` en spécifiant le format de fichier souhaité (dans ce cas, FBX7500ASCII).
 
 ### Étape 3 : Rembobiner la position du flux
 

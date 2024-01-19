@@ -53,7 +53,7 @@ scene.RootNode.CreateChildNode(cylinder1).Transform.Translation = new Vector3(10
 Agregamos el primer cilindro como nodo hijo a la escena, ajustando su posición.
 ## Paso 5: inicialice el segundo cilindro
 ```csharp
-// Inicializar el segundo cilindro sin OffsetTop personalizado
+//Inicializar el segundo cilindro sin OffsetTop personalizado
 var cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 ```
 Se inicializa un segundo cilindro sin una tapa desplazada personalizada.

@@ -39,7 +39,7 @@ string outputPath = "Your Document Directory";
 string outputFileName = "sphere.drc";
 DracoSaveOptions saveOptions = new DracoSaveOptions() { PointCloud = true };
 ```
-## 3. Adım: Küreyi Kodlayın
+## Adım 3: Küreyi Kodlayın
 Küreyi bir nokta bulutuna kodlamak için Aspose.3D kütüphanesini kullanın. Sihir yapılan yer burasıdır.
 ```csharp
 FileFormat.Draco.Encode(sphere, outputPath + outputFileName, saveOptions);

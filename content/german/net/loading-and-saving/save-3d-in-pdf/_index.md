@@ -75,7 +75,7 @@ Stellen Sie sicher, dass Sie „Ihr Ausgabeverzeichnis“ durch den gewünschten
 
 ## Abschluss
 
- Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.3D für .NET ein einfaches 3D-Modell erstellen und es im PDF-Format speichern. Dies ist nur der Anfang dessen, was Sie mit dieser leistungsstarken Bibliothek erreichen können. Entdecken Sie weitere Funktionen und Möglichkeiten im[Aspose.3D-Dokumentation](https://reference.aspose.com/3d/net/).
+Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.3D für .NET ein einfaches 3D-Modell erstellen und es im PDF-Format speichern. Dies ist nur der Anfang dessen, was Sie mit dieser leistungsstarken Bibliothek erreichen können. Entdecken Sie weitere Funktionen und Möglichkeiten im[Aspose.3D-Dokumentation](https://reference.aspose.com/3d/net/).
 
 ## FAQs
 

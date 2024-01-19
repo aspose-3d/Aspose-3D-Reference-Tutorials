@@ -15,7 +15,7 @@ Se ti stai immergendo nel regno della creazione e dell'animazione di scene 3D in
 
 Prima di intraprendere questo entusiasmante viaggio, assicurati di possedere i seguenti prerequisiti:
 
--  Aspose.3D per .NET: assicurati di avere la libreria installata. Puoi scaricarlo da[Sito web Aspose.3D](https://releases.aspose.com/3d/net/).
+- Aspose.3D per .NET: assicurati di avere la libreria installata. Puoi scaricarlo da[Sito web Aspose.3D](https://releases.aspose.com/3d/net/).
 
 - Conoscenza di C#: La familiarità con il linguaggio di programmazione C# è essenziale per comprendere e implementare gli esempi.
 

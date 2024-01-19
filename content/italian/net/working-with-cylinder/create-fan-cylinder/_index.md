@@ -91,6 +91,6 @@ Sì, Aspose.3D è compatibile con vari framework .NET, offrendo versatilità nei
 ### Dove posso trovare la documentazione dettagliata per Aspose.3D per .NET?
  La documentazione è disponibile[Qui](https://reference.aspose.com/3d/net/).
 ### Come posso ottenere supporto per Aspose.3D per .NET?
- Visita il forum di supporto[Qui](https://forum.aspose.com/c/3d/18) per l'aiuto della comunità e degli esperti Aspose.
+ Visita il forum di supporto[Qui](https://forum.aspose.com/c/3d/18)per l'aiuto della comunità e degli esperti Aspose.
 ### Sono disponibili licenze temporanee per Aspose.3D per .NET?
  Sì, è possibile ottenere licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/).

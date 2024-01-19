@@ -12,7 +12,7 @@ Vill du utnyttja kraften i Aspose.3D för .NET för att konvertera ett Sphere Me
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
 - Grundläggande kunskaper i .NET-programmering.
-- Aspose.3D för .NET-biblioteket installerat. Du kan ladda ner den från[Aspose.3D för .NET nedladdningssida](https://releases.aspose.com/3d/net/).
+-  Aspose.3D för .NET-biblioteket installerat. Du kan ladda ner den från[Aspose.3D för .NET nedladdningssida](https://releases.aspose.com/3d/net/).
 - Kännedom om programmeringsspråket C#.
 ## Importera namnområden
 I ditt C#-projekt, se till att importera de nödvändiga namnrymden för att utnyttja Aspose.3D-funktionaliteten:
@@ -70,7 +70,7 @@ cubeNode.Entity = sphere;
 ```csharp
 scene.RootNode.ChildNodes.Add(cubeNode);
 ```
-## Steg 9: Spara 3D-scen
+## Steg 9: Spara 3D-scenen
 ```csharp
 string output = "Your Output Directory" + "SphereToTriangleMeshCustomMemoryLayoutScene.fbx";
 scene.Save(output, FileFormat.FBX7400ASCII);

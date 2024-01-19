@@ -14,7 +14,7 @@ Avant de plonger dans le vif du sujet du décodage du maillage, assurons-nous qu
 1. Compréhension de base de la programmation 3D :
    Pour tirer le meilleur parti de ce didacticiel, il est essentiel d’avoir une compréhension fondamentale des concepts de programmation 3D. Si des termes comme sommets et polygones vous semblent familiers, vous êtes sur la bonne voie.
 2. Installation d'Aspose.3D pour .NET :
-    Rendez-vous sur[Documentation Aspose.3D](https://reference.aspose.com/3d/net/)pour installer et configurer Aspose.3D pour .NET. Cette puissante boîte à outils sera votre baguette magique tout au long de ce voyage.
+    Rendez-vous sur[Documentation Aspose.3D](https://reference.aspose.com/3d/net/) pour installer et configurer Aspose.3D pour .NET. Cette puissante boîte à outils sera votre baguette magique tout au long de ce voyage.
 ## Importer des espaces de noms
 Maintenant que nous sommes prêts, importons les espaces de noms nécessaires pour préparer le terrain pour un décodage de maillage brillant :
 ```csharp

@@ -21,7 +21,7 @@ Innan vi ger oss ut på denna spännande resa, se till att du har följande för
 
 ## Importera namnområden
 
-I ditt .NET-projekt, importera de nödvändiga namnområdena för att komma åt funktionerna i Aspose.3D. Lägg till följande rader i början av din kod:
+ditt .NET-projekt, importera de nödvändiga namnområdena för att komma åt funktionerna i Aspose.3D. Lägg till följande rader i början av din kod:
 
 ```csharp
 using Aspose.ThreeD;

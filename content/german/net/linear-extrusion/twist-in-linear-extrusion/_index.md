@@ -78,7 +78,7 @@ Hier geschieht die Magie. Führen Sie eine lineare Extrusion am linken Knoten au
 ## Schritt 5: Führen Sie eine lineare Extrusion mit Drehung am rechten Knoten durch
 
 ```csharp
-// Führen Sie eine lineare Extrusion am rechten Knoten mithilfe der Twist- und Slices-Eigenschaft durch
+//Führen Sie eine lineare Extrusion am rechten Knoten mithilfe der Twist- und Slices-Eigenschaft durch
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 

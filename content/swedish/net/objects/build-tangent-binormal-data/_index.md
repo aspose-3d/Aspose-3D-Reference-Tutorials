@@ -8,7 +8,7 @@ weight: 10
 url: /sv/net/objects/build-tangent-binormal-data/
 ---
 ## Introduktion
-Har du någonsin känt frustrationen av en trög 3D-modell som kör ner ditt projekt? Oroa dig inte, andra utvecklare, för hemligheten till smidig segling ligger i tangent- och binormala data. Dessa obesjungna hjältar optimerar mesh-rendering, vilket får dina modeller att sjunga som operativa divor på vilken scen som helst. Men hur utnyttjar vi deras kraft? Var inte rädd, för denna omfattande guide kommer att utrusta dig med Aspose.3D för .NET-verktygssatsen för att låsa upp magin med tangent- och binormala data med bara några klick!
+Har du någonsin känt frustrationen av en trög 3D-modell som kör ner ditt projekt? Oroa dig inte, andra utvecklare, för hemligheten till smidig segling ligger i tangent- och binormala data. Dessa obesjungna hjältar optimerar mesh-rendering, vilket får dina modeller att sjunga som operativa divor på vilken scen som helst. Men hur utnyttjar vi deras kraft? Var inte rädd, för den här omfattande guiden kommer att utrusta dig med Aspose.3D för .NET-verktygslådan för att låsa upp magin med tangent- och binormaldata med bara några klick!
 
 ## Förutsättningar:
 

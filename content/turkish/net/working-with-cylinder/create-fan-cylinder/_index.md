@@ -91,6 +91,6 @@ Evet, Aspose.3D çeşitli .NET çerçeveleriyle uyumludur ve geliştirme projele
 ### Aspose.3D for .NET'in ayrıntılı belgelerini nerede bulabilirim?
  Belgeler mevcut[Burada](https://reference.aspose.com/3d/net/).
 ### Aspose.3D for .NET için nasıl destek alabilirim?
- Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/3d/18) topluluktan ve Aspose uzmanlarından yardım almak için.
+ Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/3d/18)topluluktan ve Aspose uzmanlarından yardım almak için.
 ### Aspose.3D for .NET için geçici lisanslar mevcut mu?
  Evet, geçici lisanslar alınabilir[Burada](https://purchase.aspose.com/temporary-license/).

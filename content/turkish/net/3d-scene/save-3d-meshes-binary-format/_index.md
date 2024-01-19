@@ -15,7 +15,7 @@ Geliştiricilerin 3D dosyalarla zahmetsizce çalışmasını sağlayan güçlü 
 
 Eğiticiye geçmeden önce aşağıdakilerin mevcut olduğundan emin olun:
 
-- Aspose.3D for .NET: Aspose.3D kütüphanesinin kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET: Aspose.3D kütüphanesinin kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/3d/net/).
 
 - Geliştirme Ortamı: Visual Studio gibi tercih ettiğiniz C# geliştirme ortamını kurun.
 
@@ -46,7 +46,7 @@ Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
 
 ## Adım 2: Özel İkili Formatı Tanımlayın
 
-3B kafeslerinizi kaydetmek istediğiniz özel ikili formatın yapısını tanımlayın. Örnekte, bileşenler olarak MeshBlock, Vertex ve Triangle içeren bir yapı kullanılıyor.
+3B kafeslerinizi kaydetmek istediğiniz özel ikili formatın yapısını tanımlayın. Örnekte, bileşenler olarak MeshBlock, Vertex ve Triangle içeren bir yapı kullanılır.
 
 ## Adım 3: Dosyayı Yazmak İçin Açın
 
@@ -98,7 +98,7 @@ Cevap1: Aspose.3D öncelikli olarak .NET dillerini destekler ancak diğer diller
 
 ### S2: Ek örnekleri ve kaynakları nerede bulabilirim?
 
- A2:[Aspose.3D forumu](https://forum.aspose.com/c/3d/18)destek, örnekler bulmak ve toplulukla etkileşim kurmak için harika bir yerdir.
+ A2:[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) destek, örnekler bulmak ve toplulukla etkileşim kurmak için harika bir yerdir.
 
 ### S3: Aspose.3D'nin deneme sürümü mevcut mu?
 

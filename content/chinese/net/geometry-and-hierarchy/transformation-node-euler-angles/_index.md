@@ -37,14 +37,14 @@ using Aspose.ThreeD.Utilities;
 ## 第 1 步：初始化场景对象
 
 ```csharp
-// ExStart:AddTransformationToNodeByEulerAngles
+//ExStart:AddTransformationToNodeByEulerAngles
 //初始化场景对象
 Scene scene = new Scene();
 ```
 
 首先使用创建一个新的 3D 场景`Scene`班级。
 
-## 第2步：初始化节点类对象
+## 步骤2：初始化节点类对象
 
 ```csharp
 //初始化Node类对象
@@ -129,4 +129,4 @@ A2：是的，您可以组合并应用多种变换来实现复杂的效果。
 
 ### Q5：需要帮助或有具体问题吗？
 
- A5：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)以获得社区支持。
+A5：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)以获得社区支持。

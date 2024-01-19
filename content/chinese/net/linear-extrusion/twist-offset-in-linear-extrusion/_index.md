@@ -103,11 +103,11 @@ A1：Aspose.3D 主要支持.NET 语言，但Aspose 为Java 和其他平台提供
 
 ### Q3：是否有 Aspose.3D for .NET 社区论坛？
 
- A3：当然！加入社区：[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)与其他开发人员接触并寻求帮助。
+A3：当然！加入社区：[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)与其他开发人员接触并寻求帮助。
 
 ### Q4：是否有其他可用的示例和文档？
 
- A4：探索[文档](https://reference.aspose.com/3d/net/)获取广泛的指南和示例。
+A4：探索[文档](https://reference.aspose.com/3d/net/)获取广泛的指南和示例。
 
 ### Q5：哪里可以购买 Aspose.3D for .NET？
 

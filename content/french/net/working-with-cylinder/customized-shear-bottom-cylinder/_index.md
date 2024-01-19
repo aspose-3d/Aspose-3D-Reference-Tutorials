@@ -73,4 +73,4 @@ Oui, vous pouvez personnaliser le fond de cisaillement pour chaque cylindre indi
 ### Où puis-je trouver une assistance supplémentaire ?
  Visiter le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien et les discussions de la communauté.
 ### Comment puis-je obtenir un permis temporaire ?
-Obtenez votre permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
+ Obtenez votre permis temporaire[ici](https://purchase.aspose.com/temporary-license/).

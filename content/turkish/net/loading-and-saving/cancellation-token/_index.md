@@ -78,7 +78,7 @@ catch (ImportException e)
 }
 ```
 
- 3D belgeyi belirtilen zaman dilimi içinde açmayı deneyin.`cts.Token` parametresi, ayarlanan zaman aşımını aşması durumunda işlemin iptal edilebilmesini sağlar.
+ 3D belgeyi belirtilen zaman dilimi içinde açmayı deneyin.`cts.Token`parametresi, ayarlanan zaman aşımını aşması durumunda işlemin iptal edilebilmesini sağlar.
 
 ### Adım 5: İçe Aktarma İstisnasını İşleyin
 

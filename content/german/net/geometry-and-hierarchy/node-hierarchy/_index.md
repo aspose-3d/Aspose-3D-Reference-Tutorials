@@ -17,11 +17,11 @@ Bevor wir uns auf diese 3D-Reise begeben, stellen Sie sicher, dass die folgenden
 
 -  Aspose.3D für .NET-Bibliothek: Stellen Sie sicher, dass die Aspose.3D-Bibliothek in Ihr .NET-Projekt integriert ist. Wenn Sie dies noch nicht getan haben, gehen Sie zu[Dokumentation](https://reference.aspose.com/3d/net/) zur Führung.
 
--  Laden Sie die Bibliothek herunter: Wenn Sie die Aspose.3D-Bibliothek nicht heruntergeladen haben, holen Sie sich die neueste Version von[Download-Link](https://releases.aspose.com/3d/net/) und befolgen Sie die Installationsanweisungen in der Dokumentation.
+-  Laden Sie die Bibliothek herunter: Wenn Sie die Aspose.3D-Bibliothek nicht heruntergeladen haben, holen Sie sich die neueste Version von[Download-Link](https://releases.aspose.com/3d/net/)und befolgen Sie die Installationsanweisungen in der Dokumentation.
 
 -  Holen Sie sich eine Lizenz: Um das volle Potenzial von Aspose.3D auszuschöpfen, benötigen Sie eine gültige Lizenz. Wenn Sie keins haben, können Sie es erhalten[Hier](https://purchase.aspose.com/buy) oder entscheiden Sie sich für a[Kostenlose Testphase](https://releases.aspose.com/) um seine Fähigkeiten zu erkunden.
 
-- Support und Community: Treten Sie der Aspose.3D-Community auf der bei[Hilfeforum](https://forum.aspose.com/c/3d/18) um mit anderen Entwicklern in Kontakt zu treten, Hilfe zu suchen und über die neuesten Entwicklungen auf dem Laufenden zu bleiben.
+-  Support und Community: Treten Sie der Aspose.3D-Community auf der bei[Hilfeforum](https://forum.aspose.com/c/3d/18)um mit anderen Entwicklern in Kontakt zu treten, Hilfe zu suchen und über die neuesten Entwicklungen auf dem Laufenden zu bleiben.
 
 -  Temporäre Lizenz (optional): Wenn Sie Aspose.3D erkunden, bevor Sie einen Kauf tätigen, sollten Sie den Erwerb einer vorläufigen Lizenz in Betracht ziehen[temporäre Lizenz](https://purchase.aspose.com/temporary-license/) für erweiterten Zugriff.
 
@@ -68,7 +68,7 @@ cube1.Entity = mesh;
 cube2.Entity = mesh;
 ```
 
-Erzeugen Sie ein Netz mit einer geeigneten Methode (hier:`CreateMeshUsingPolygonBuilder`) und weisen Sie es den untergeordneten Knoten zu.
+ Erzeugen Sie ein Netz mit einer geeigneten Methode (hier:`CreateMeshUsingPolygonBuilder`) und weisen Sie es den untergeordneten Knoten zu.
 
 ## Schritt 4: Übersetzungen festlegen
 

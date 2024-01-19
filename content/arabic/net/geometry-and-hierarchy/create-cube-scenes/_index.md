@@ -87,7 +87,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // المسار إلى دليل المستندات.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-// حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
+//حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

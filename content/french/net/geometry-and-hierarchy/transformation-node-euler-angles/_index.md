@@ -51,7 +51,7 @@ Scene scene = new Scene();
 Node cubeNode = new Node("cube");
 ```
 
- Créez un nœud dans la scène à l'aide du`Node` classe. Ce nœud servira de conteneur pour notre objet 3D.
+ Créez un nœud dans la scène à l'aide du`Node`classe. Ce nœud servira de conteneur pour notre objet 3D.
 
 ## Étape 3 : Créer un maillage à l'aide de Polygon Builder
 
@@ -97,7 +97,7 @@ Incorporez le nœud dans la hiérarchie de la scène.
 // Le chemin d'accès au répertoire des documents.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// Enregistrez la scène 3D dans les formats de fichiers pris en charge
+//Enregistrez la scène 3D dans les formats de fichiers pris en charge
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd : AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -129,4 +129,4 @@ A2 : Oui, vous pouvez combiner et appliquer plusieurs transformations pour obten
 
 ### Q5 : Besoin d'aide ou avez des questions spécifiques ?
 
- A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien de la communauté.
+A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien de la communauté.

@@ -1,6 +1,6 @@
 ---
-title:Caricamento e salvataggio: estrazione di contenuti 3D grezzi da PDF
-linktitle:Caricamento e salvataggio: estrazione di contenuti 3D grezzi da PDF
+title: Caricamento e salvataggio estrazione di contenuti 3D grezzi da PDF
+linktitle: Caricamento e salvataggio estrazione di contenuti 3D grezzi da PDF
 second_title: API Aspose.3D .NET
 description: Impara a estrarre contenuti 3D da PDF utilizzando Aspose.3D per .NET. Guida passo passo con esempi di codice.
 type: docs

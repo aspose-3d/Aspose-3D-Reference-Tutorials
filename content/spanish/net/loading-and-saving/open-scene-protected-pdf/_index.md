@@ -1,6 +1,6 @@
 ---
-tiitle: Cargar y guardar abrir escena desde PDF protegido
-linktiitle: Cargar y guardar abrir escena desde PDF protegido
+title: Cargar y guardar abrir escena desde PDF protegido
+linktitle: Cargar y guardar abrir escena desde PDF protegido
 second_title: Aspose.3D API .NET
 description: Explore las posibilidades del modelado 3D con Aspose.3D para .NET. Aprenda a abrir escenas de archivos PDF protegidos en nuestra guía paso a paso.
 type: docs
@@ -72,7 +72,7 @@ Si sigue estos pasos, habrá cargado con éxito una escena 3D desde un PDF prote
 
 ## Conclusión
 
-En conclusión, Aspose.3D para .NET proporciona un potente conjunto de herramientas para manipular escenas 3D sin esfuerzo. Este tutorial se centró en cargar una escena desde un PDF protegido, mostrando la versatilidad y las características de seguridad de la API Aspose.3D.
+En conclusión, Aspose.3D para .NET proporciona un poderoso conjunto de herramientas para manipular escenas 3D sin esfuerzo. Este tutorial se centró en cargar una escena desde un PDF protegido, mostrando la versatilidad y las características de seguridad de la API Aspose.3D.
 
 ¡Empiece a explorar las infinitas posibilidades que ofrece Aspose.3D para .NET y lleve su desarrollo 3D a nuevas alturas!
 
@@ -84,7 +84,7 @@ R1: Sí, Aspose.3D admite una amplia gama de formatos de archivos 3D, lo que gar
 
 ### P2: ¿Puedo utilizar Aspose.3D con fines comerciales?
 
-R2: ¡Absolutamente! Aspose.3D viene con una licencia comercial y puedes comprarla[aquí](https://purchase.aspose.com/buy).
+ R2: ¡Absolutamente! Aspose.3D viene con una licencia comercial y puedes comprarla[aquí](https://purchase.aspose.com/buy).
 
 ### P3: ¿Hay una prueba gratuita disponible para Aspose.3D?
 

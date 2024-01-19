@@ -62,7 +62,7 @@ scene.RootNode.CreateChildNode(new Plane() { Up = new Vector3(1, 1, 3) });
 ## Шаг 3: Сохраните сцену
 
 ```csharp
-// Это создаст плоскость с настроенной ориентацией.
+// Это создаст плоскость с индивидуальной ориентацией.
 scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
 ```
 

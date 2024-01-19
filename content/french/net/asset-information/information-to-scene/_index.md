@@ -15,7 +15,7 @@ Bienvenue dans ce didacticiel complet sur l'utilisation d'Aspose.3D pour .NET po
 
 Avant de plonger dans le didacticiel, assurez-vous de disposer des prérequis suivants :
 
--  Aspose.3D pour .NET : assurez-vous que la bibliothèque est installée. Vous pouvez le télécharger depuis le[Page Aspose.3D pour .NET](https://releases.aspose.com/3d/net/).
+- Aspose.3D pour .NET : assurez-vous que la bibliothèque est installée. Vous pouvez le télécharger depuis le[Page Aspose.3D pour .NET](https://releases.aspose.com/3d/net/).
 
 ## Importer des espaces de noms
 

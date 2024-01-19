@@ -91,7 +91,7 @@ scene.Save("Your Output Directory" + "Aspose.amf", new AmfSaveOptions() { Enable
 
 ### Q1：Aspose.3D与流行的3D建模软件兼容吗？
 
-A1：Aspose.3D支持多种文件格式，使其与流行的3D建模工具兼容。
+A1：Aspose.3D支持各种文件格式，使其与流行的3D建模工具兼容。
 
 ### Q2：除了 AMF 之外，我还可以启用其他文件格式的压缩吗？
 
@@ -107,4 +107,4 @@ A4：Aspose.3D 旨在处理不同复杂程度的场景，并且没有严格的�
 
 ### Q5：我在哪里可以找到更多支持和社区讨论？
 
- A5：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)以寻求支持和讨论。
+A5：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)以寻求支持和讨论。

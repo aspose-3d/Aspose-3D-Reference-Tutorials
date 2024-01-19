@@ -15,7 +15,7 @@ Benvenuti nel mondo di Aspose.3D per .NET, una potente libreria che consente agl
 
 Prima di passare al tutorial, assicurati di avere quanto segue:
 
-- Aspose.3D per .NET: assicurati di avere la libreria Aspose.3D installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/3d/net/).
+-  Aspose.3D per .NET: assicurati di avere la libreria Aspose.3D installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/3d/net/).
 
 - Ambiente di sviluppo: configura il tuo ambiente di sviluppo C# preferito, come Visual Studio.
 
@@ -98,7 +98,7 @@ A1: Aspose.3D supporta principalmente i linguaggi .NET, ma puoi esplorare le opz
 
 ### Q2: Dove posso trovare ulteriori esempi e risorse?
 
- A2: Il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18)è un ottimo posto per trovare supporto, esempi e interagire con la comunità.
+ A2: Il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) è un ottimo posto per trovare supporto, esempi e interagire con la comunità.
 
 ### Q3: È disponibile una versione di prova per Aspose.3D?
 

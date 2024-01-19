@@ -39,7 +39,7 @@ Scene scene = new Scene(input);
 // Dividir todas las mallas
 PolygonModifier.SplitMesh(scene, SplitMeshPolicy.CloneData);
 ```
- Aquí utilizamos el`SplitMesh` método de la`PolygonModifier`clase para dividir todas las mallas según el material.
+ Aquí utilizamos el`SplitMesh` método de la`PolygonModifier` clase para dividir todas las mallas según el material.
 ## Paso 3: guarde la escena dividida
 ```csharp
 // Guardar el archivo

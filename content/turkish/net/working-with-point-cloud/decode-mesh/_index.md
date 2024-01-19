@@ -14,7 +14,7 @@ url: /tr/net/working-with-point-cloud/decode-mesh/
 1. 3D Programlamanın Temel Anlayışı:
    Bu eğitimden en iyi şekilde yararlanmak için 3D programlama kavramlarına ilişkin temel bilgilere sahip olmak çok önemlidir. Köşeler ve çokgenler gibi terimler tanıdık geliyorsa doğru yoldasınız demektir.
 2. Aspose.3D for .NET'in kurulumu:
-    Başını aşmak[Aspose.3D belgeleri](https://reference.aspose.com/3d/net/)Aspose.3D for .NET'i kurmak ve ayarlamak için. Bu güçlü araç seti, bu yolculuk boyunca sihirli değneğiniz olacak.
+    Başını aşmak[Aspose.3D belgeleri](https://reference.aspose.com/3d/net/) Aspose.3D for .NET'i kurmak ve ayarlamak için. Bu güçlü araç seti, bu yolculuk boyunca sihirli değneğiniz olacak.
 ## Ad Alanlarını İçe Aktar
 Artık hazır olduğumuza göre, mesh kod çözme mükemmelliğine zemin hazırlamak için gerekli ad alanlarını içe aktaralım:
 ```csharp

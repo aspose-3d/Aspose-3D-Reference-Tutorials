@@ -86,7 +86,7 @@ right.CreateChildNode(new LinearExtrusion(profile, 2) { Slices = 10 });
 ### 第 6 步：保存 3D 场景
 
 ```csharp
-//ExStart:保存3D场景
+// ExStart:保存3D场景
 scene.Save("Your Output Directory" + "SlicesInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 //ExEnd：保存3D场景
 ```

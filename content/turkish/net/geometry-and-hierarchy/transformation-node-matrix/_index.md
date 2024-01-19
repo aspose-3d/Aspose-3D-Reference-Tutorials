@@ -15,7 +15,7 @@ url: /tr/net/geometry-and-hierarchy/transformation-node-matrix/
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
-1. Aspose.3D for .NET Kütüphanesi: .NET projenizde Aspose.3D kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/3d/net/).
+1.  Aspose.3D for .NET Kütüphanesi: .NET projenizde Aspose.3D kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/3d/net/).
 
 2. Geliştirme Ortamı: Çalışan bir .NET geliştirme ortamı kurun ve henüz yapmadıysanız, dönüşümleri uygulayacağınız yeni bir proje oluşturun.
 
@@ -62,7 +62,7 @@ Burada, çokgen oluşturucu yöntemini kullanarak bir ağ oluşturuyoruz ve onu 
 ## 3. Adım: Özel Çeviri Matrisini Ayarlayın
 
 ```csharp
-//Özel çeviri matrisini ayarla
+// Özel çeviri matrisini ayarla
 cubeNode.Transform.TransformMatrix = new Matrix4(
     1, -0.3, 0, 0,
     0.4, 1, 0.3, 0,
@@ -88,7 +88,7 @@ Küp düğümünü sahneye dahil ederek genel 3B ortamın bir parçası haline g
 // Belgeler dizininin yolu.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// 3B sahneyi desteklenen dosya formatlarında kaydedin
+//3B sahneyi desteklenen dosya formatlarında kaydedin
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -120,4 +120,4 @@ Cevap2: Evet, ilgili matrisleri çarparak ve sonucu düğüme uygulayarak birden
 
 ### S5: Nereden yardım alabilirim veya Aspose.3D topluluğuyla bağlantı kurabilirim?
 
- A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) Aspose.3D'yi kullanarak sorular sormak, deneyimleri paylaşmak ve diğer geliştiricilerle bağlantı kurmak için.
+A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) Aspose.3D'yi kullanarak sorular sormak, deneyimleri paylaşmak ve diğer geliştiricilerle bağlantı kurmak için.

@@ -1,6 +1,6 @@
 ---
-title:Cargando y guardando: extracción de contenido 3D sin formato de PDF
-linktitle:Cargando y guardando: extracción de contenido 3D sin formato de PDF
+title: Cargando y guardando extracción de contenido 3D sin formato de PDF
+linktitle: Cargando y guardando extracción de contenido 3D sin formato de PDF
 second_title: Aspose.3D API .NET
 description: Aprenda a extraer contenido 3D de PDF usando Aspose.3D para .NET. Guía paso a paso con ejemplos de código.
 type: docs

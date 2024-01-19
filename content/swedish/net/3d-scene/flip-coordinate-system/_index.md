@@ -16,7 +16,7 @@ Välkommen till den här steg-för-steg-guiden om hur du vänder koordinatsystem
 Innan du dyker in i handledningen, se till att du har följande förutsättningar:
 
 - Grundläggande förståelse för programmeringsspråket C#.
--  Aspose.3D för .NET-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/3d/net/).
+- Aspose.3D för .NET-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/3d/net/).
 - Ett exempel på 3D-fil i ett format som stöds (t.ex. .3ds).
 
 ## Importera namnområden
@@ -52,7 +52,7 @@ var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
 scene.Save(output, FileFormat.WavefrontOBJ);
 ```
 
- Nu använder vi`Save`metod för att exportera scenen, vända koordinatsystemet i processen. Utdata sparas i Wavefront OBJ-format.
+ Nu använder vi`Save` metod för att exportera scenen, vända koordinatsystemet i processen. Utdata sparas i Wavefront OBJ-format.
 
 ## Steg 3: Visa framgångsmeddelande
 
@@ -78,7 +78,7 @@ S1: Aspose.3D för .NET är i första hand designad för C#-programmering. Men A
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.3D för .NET?
 
-A3: Ja, du kan utforska den kostnadsfria testversionen[här](https://releases.aspose.com/) innan du gör ett köp.
+ A3: Ja, du kan utforska den kostnadsfria testversionen[här](https://releases.aspose.com/) innan du gör ett köp.
 
 ### F4: Hur kan jag få tillfällig licens för Aspose.3D för .NET?
 

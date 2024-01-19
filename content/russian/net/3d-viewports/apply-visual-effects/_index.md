@@ -16,7 +16,7 @@ url: /ru/net/3d-viewports/apply-visual-effects/
 Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующее:
 
 - Практические знания разработки на C# и .NET.
--  Установлена библиотека Aspose.3D для .NET. Вы можете скачать его с[здесь](https://releases.aspose.com/3d/net/).
+- Установлена библиотека Aspose.3D для .NET. Вы можете скачать его с[здесь](https://releases.aspose.com/3d/net/).
 - Файл 3D-сцены (например, «scene.obj») для экспериментов.
 
 ## Импортировать пространства имен
@@ -93,7 +93,7 @@ using (var renderer = Renderer.CreateRenderer())
 ### Шаг 5.1. Эффект пикселизации
 
 ```csharp
-// Создать эффект пикселизации
+//Создать эффект пикселизации
 PostProcessing pixelation = renderer.GetPostProcessing("pixelation");
 renderer.PostProcessings.Add(pixelation);
 renderer.Render(rt);

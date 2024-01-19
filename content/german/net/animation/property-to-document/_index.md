@@ -15,7 +15,7 @@ Wenn Sie in den Bereich der Erstellung und Animation von 3D-Szenen in .NET einta
 
 Bevor wir uns auf diese aufregende Reise begeben, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
--  Aspose.3D für .NET: Stellen Sie sicher, dass Sie die Bibliothek installiert haben. Sie können es hier herunterladen[Aspose.3D-Website](https://releases.aspose.com/3d/net/).
+- Aspose.3D für .NET: Stellen Sie sicher, dass Sie die Bibliothek installiert haben. Sie können es hier herunterladen[Aspose.3D-Website](https://releases.aspose.com/3d/net/).
 
 - Kenntnisse in C#: Kenntnisse der Programmiersprache C# sind für das Verständnis und die Umsetzung der Beispiele unerlässlich.
 

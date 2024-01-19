@@ -48,7 +48,7 @@ Scene scene = new Scene();
 scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ```
 
- Kullanarak`Open` yöntemiyle mevcut bir 3 boyutlu belgeyi sahnemize yüklüyoruz. "document.fbx" kısmını istediğiniz 3D dosyanın yolu ile değiştirin.
+ Kullanarak`Open`yöntemiyle mevcut bir 3 boyutlu belgeyi sahnemize yüklüyoruz. "document.fbx" kısmını istediğiniz 3D dosyanın yolu ile değiştirin.
 
 ## Adım 3: Diskten Mevcut Bir Sahneyi Okumak
 
@@ -94,7 +94,7 @@ Cevap1: Aspose.3D öncelikli olarak .NET dillerini destekler ancak birlikte çal
 
 ### S3: Deneme sürümü mevcut mu?
 
- C3: Evet, Aspose.3D'yi bir[ücretsiz deneme](https://releases.aspose.com/).
+C3: Evet, Aspose.3D'yi bir[ücretsiz deneme](https://releases.aspose.com/).
 
 ### S4: Aspose.3D için nasıl geçici lisans alabilirim?
 
@@ -102,4 +102,4 @@ Cevap1: Aspose.3D öncelikli olarak .NET dillerini destekler ancak birlikte çal
 
 ### S5: Aspose.3D for .NET'i nereden satın alabilirim?
 
- A5: ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) Aspose.3D'nin tam sürümünü edinmek için.
+A5: ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) Aspose.3D'nin tam sürümünü edinmek için.

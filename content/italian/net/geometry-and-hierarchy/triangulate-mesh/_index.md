@@ -15,7 +15,7 @@ Benvenuti in questo tutorial completo sulla triangolazione delle mesh nelle scen
 
 Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
 
--  Libreria Aspose.3D per .NET: assicurati di avere la libreria Aspose.3D installata. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/net/).
+- Libreria Aspose.3D per .NET: assicurati di avere la libreria Aspose.3D installata. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/net/).
 
 - Modello 3D di esempio: disponi di un modello 3D nel formato FBX che desideri triangolare. È possibile utilizzare quanto fornito[documento.fbx](https://reference.aspose.com/3d/net/) file per esercitarsi.
 

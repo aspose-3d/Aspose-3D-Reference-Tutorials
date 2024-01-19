@@ -2,7 +2,7 @@
 title: 将圆柱体基元转换为网格
 linktitle: 将圆柱体基元转换为网格
 second_title: Aspose.3D .NET API
-description: 了解如何使用 Aspose.3D for .NET 轻松将 Cylinder 基元转换为 Mesh。按照我们的分步指南进行无缝 3D 转换。
+description: 了解如何使用 Aspose.3D for .NET 轻松地将 Cylinder 基元转换为 Mesh。按照我们的分步指南进行无缝 3D 转换。
 type: docs
 weight: 13
 url: /zh/net/objects/convert-cylinder-primitive-to-mesh/
@@ -30,7 +30,7 @@ using Aspose.ThreeD.Formats;
 Scene scene = new Scene();
 ```
 在这里，我们创建一个新的场景对象，用作 3D 实体的容器。
-## 第2步：初始化节点类对象
+## 步骤2：初始化节点类对象
 ```csharp
 Node cubeNode = new Node("cylinder");
 ```

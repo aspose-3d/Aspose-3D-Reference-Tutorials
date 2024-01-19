@@ -13,7 +13,7 @@ Benvenuti nel mondo coinvolgente dei tutorial Aspose.3D, dove la creatività inc
 
 ## Aspose.3D per .NET Tutorial
 {{% alert color="primary" %}}
-Esplora le possibilità della progettazione e dello sviluppo 3D con i nostri tutorial Aspose.3D per .NET. Queste guide sono progettate su misura per potenziare gli sviluppatori, fornendo approfondimenti e competenze pratiche per sfruttare le funzionalità di Aspose.3D all'interno del framework .NET. Che tu sia un principiante o un programmatore esperto, i nostri tutorial mirano a semplificare la tua curva di apprendimento, consentendoti di integrare e sfruttare in modo efficiente tutto il potenziale di Aspose.3D per .NET nei tuoi progetti. Immergiti in un mondo di creatività, innovazione e soluzioni 3D perfette mentre navighi attraverso i nostri tutorial intuitivi progettati per migliorare la tua competenza in Aspose.3D per .NET.
+Esplora le possibilità della progettazione e dello sviluppo 3D con i nostri tutorial Aspose.3D per .NET. Queste guide sono progettate su misura per potenziare gli sviluppatori, fornendo approfondimenti e competenze pratiche nello sfruttamento delle funzionalità di Aspose.3D all'interno del framework .NET. Che tu sia un principiante o un programmatore esperto, i nostri tutorial mirano a semplificare la tua curva di apprendimento, consentendoti di integrare e sfruttare in modo efficiente tutto il potenziale di Aspose.3D per .NET nei tuoi progetti. Immergiti in un mondo di creatività, innovazione e soluzioni 3D perfette mentre navighi attraverso i nostri tutorial intuitivi progettati per migliorare la tua competenza in Aspose.3D per .NET.
 {{% /alert %}}
 
 Questi sono i link ad alcune risorse utili:
@@ -35,4 +35,25 @@ Questi sono i link ad alcune risorse utili:
 - [Lavorare con la nuvola di punti](./net/working-with-point-cloud/)
 - [Lavorare con VRML](./net/working-with-vrml/)
 
+## Aspose.3D per tutorial Java
+{{% alert color="primary" %}}
+Sblocca le possibilità illimitate dello sviluppo Java 3D con Aspose.3D. I nostri tutorial completi coprono tutto, dall'animazione delle scene alla manipolazione di oggetti 3D e all'ottimizzazione dei dati mesh. Migliora le tue abilità con guide dettagliate su geometria, manipolazione di file, tecniche di rendering e altro ancora. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, i nostri tutorial ti consentono di creare accattivanti progetti 3D senza sforzo. Immergiti nel mondo di Aspose.3D per Java e trasforma la tua esperienza di codifica.
+{{% /alert %}}
 
+Questi sono i link ad alcune risorse utili:
+
+- [Lavorare con le animazioni in Java](./java/animations/)
+- [Lavorare con la geometria 3D in Java](./java/geometry/)
+- [Iniziare con Aspose.3D per Java](./java/licensing/)
+- [Creazione di modelli 3D con estrusione lineare in Java](./java/linear-extrusion/)
+- [Creazione di modelli 3D primitivi in Aspose.3D per Java](./java/primitive-3d-models/)
+- [Lavorare con i cilindri in Aspose.3D per Java](./java/cylinders/)
+- [Lavorare con file VRML in Java](./java/vrml-files/)
+- [Manipolazione dei poligoni nei modelli 3D con Java](./java/polygon/)
+- [Rendering di scene 3D in applicazioni Java](./java/rendering-3d-scenes/)
+- [Lavorare con scene e modelli 3D in Java](./java/3d-scenes-and-models/)
+- [Lavorare con file 3D in Java: crea, carica, salva e converti](./java/load-and-save/)
+- [Creazione e trasformazione di mesh 3D in Java](./java/transforming-3d-meshes/)
+- [Ottimizzazione e utilizzo dei dati mesh 3D in Java](./java/3d-mesh-data/)
+- [Manipolazione di oggetti e scene 3D in Java](./java/3d-objects-and-scenes/)
+- [Lavorare con le nuvole di punti in Java](./java/point-clouds/)

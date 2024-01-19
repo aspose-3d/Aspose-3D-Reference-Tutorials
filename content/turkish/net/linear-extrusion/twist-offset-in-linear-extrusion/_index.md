@@ -103,7 +103,7 @@ Cevap1: Aspose.3D öncelikle .NET dillerini destekler ancak Aspose, Java ve diğ
 
 ### S3: Aspose.3D for .NET için bir topluluk forumu var mı?
 
- A3: Kesinlikle! Şu adresteki topluluğa katılın:[Aspose.3D Forumu](https://forum.aspose.com/c/3d/18) diğer geliştiricilerle iletişim kurmak ve yardım istemek.
+A3: Kesinlikle! Şu adresteki topluluğa katılın:[Aspose.3D Forumu](https://forum.aspose.com/c/3d/18) diğer geliştiricilerle iletişim kurmak ve yardım istemek.
 
 ### S4: Ek örnekler ve belgeler mevcut mu?
 

@@ -55,7 +55,7 @@ using (var renderer = Renderer.CreateRenderer())
     rt.CreateViewport(cam, RelativeRectangle.FromScale(0, 0, 1, 1));
     renderer.Render(rt);
 ```
-## Étape 4 : Appliquer l’effet d’objectif Fisheye
+## Étape 4 : Appliquer l'effet d'objectif Fisheye
 Exécutez le post-traitement de l'effet de lentille fisheye sur la carte cubique rendue :
 ```csharp
 PostProcessing fisheye = renderer.GetPostProcessing("fisheye");

@@ -105,7 +105,7 @@ metered.SetMeteredKey("your-public-key", "your-private-key");
 
 ### Q2：哪里可以找到Aspose.3D的文档？
 
- A2：探索全面的文档[这里](https://reference.aspose.com/3d/net/).
+A2：探索全面的文档[这里](https://reference.aspose.com/3d/net/).
 
 ### Q3：如何获得 Aspose.3D 的支持？
 

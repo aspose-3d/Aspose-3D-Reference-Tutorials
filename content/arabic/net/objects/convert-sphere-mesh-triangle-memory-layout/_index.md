@@ -12,7 +12,7 @@ url: /ar/net/objects/convert-sphere-mesh-triangle-memory-layout/
 ## المتطلبات الأساسية
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 - المعرفة الأساسية ببرمجة .NET.
-- تم تثبيت Aspose.3D لمكتبة .NET. يمكنك تنزيله من[صفحة تنزيل Aspose.3D لـ .NET](https://releases.aspose.com/3d/net/).
+-  تم تثبيت Aspose.3D لمكتبة .NET. يمكنك تنزيله من[صفحة تنزيل Aspose.3D لـ .NET](https://releases.aspose.com/3d/net/).
 - الإلمام بلغة البرمجة C#.
 ## استيراد مساحات الأسماء
 في مشروع C# الخاص بك، تأكد من استيراد مساحات الأسماء اللازمة للاستفادة من وظيفة Aspose.3D:

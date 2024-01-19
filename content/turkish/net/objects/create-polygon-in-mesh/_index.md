@@ -58,4 +58,4 @@ C: Aspose.3D for .NET öncelikle Windows ortamları için tasarlanmıştır. Anc
 ### S: Aspose.3D for .NET'i öğrenmek için başka kaynaklar var mı?
  C: Kapsamlı olanı keşfedin[dokümantasyon](https://reference.aspose.com/3d/net/) derinlemesine bilgiler için kullanılabilir.
 ### S: Aspose.3D for .NET'i nasıl satın alabilirim?
- C: Ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) Lisansınızı almak ve Aspose.3D'nin tüm potansiyelini açığa çıkarmak için.
+ C: Ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) Lisansınızı almak ve Aspose.3D'nin tüm potansiyelini ortaya çıkarmak için.

@@ -12,7 +12,7 @@ Cherchez-vous à exploiter la puissance d’Aspose.3D pour .NET pour convertir u
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 - Connaissance de base de la programmation .NET.
-- Aspose.3D pour la bibliothèque .NET installée. Vous pouvez le télécharger depuis le[Page de téléchargement d'Aspose.3D pour .NET](https://releases.aspose.com/3d/net/).
+-  Aspose.3D pour la bibliothèque .NET installée. Vous pouvez le télécharger depuis le[Page de téléchargement d'Aspose.3D pour .NET](https://releases.aspose.com/3d/net/).
 - Familiarité avec le langage de programmation C#.
 ## Importer des espaces de noms
 Dans votre projet C#, assurez-vous d'importer les espaces de noms nécessaires pour exploiter la fonctionnalité Aspose.3D :
@@ -66,7 +66,7 @@ using (MemoryStream ms = new MemoryStream())
 ```csharp
 cubeNode.Entity = sphere;
 ```
-## Étape 8 : Ajouter un nœud à la scène
+## Étape 8 : ajouter un nœud à la scène
 ```csharp
 scene.RootNode.ChildNodes.Add(cubeNode);
 ```

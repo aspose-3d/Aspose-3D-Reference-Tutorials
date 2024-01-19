@@ -85,7 +85,7 @@ scene.Save("Your Output Directory" + "Aspose.amf", new AmfSaveOptions() { Enable
 
 ## Conclusión
 
-¡Felicidades! Ha exportado con éxito una escena 3D a un formato AMF comprimido utilizando Aspose.3D para .NET. Esta poderosa biblioteca abre un mundo de posibilidades para los desarrolladores 3D, permitiéndoles crear modelos eficientes y visualmente impresionantes.
+¡Felicidades! Ha exportado con éxito una escena 3D a un formato AMF comprimido usando Aspose.3D para .NET. Esta poderosa biblioteca abre un mundo de posibilidades para los desarrolladores 3D, permitiéndoles crear modelos eficientes y visualmente impresionantes.
 
 ## Preguntas frecuentes
 
@@ -107,4 +107,4 @@ R4: Aspose.3D está diseñado para manejar escenas de diversa complejidad y no e
 
 ### P5: ¿Dónde puedo encontrar apoyo adicional y debates comunitarios?
 
- A5: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para apoyo y discusiones.
+A5: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para apoyo y discusiones.

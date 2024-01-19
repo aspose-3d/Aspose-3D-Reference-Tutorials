@@ -55,11 +55,11 @@ cubeNode.Entity = box;
 ```csharp
 scene.RootNode.ChildNodes.Add(cubeNode);
 ```
-## Steg 6: Spara 3D-scen
+## Steg 6: Spara 3D-scenen
 ```csharp
 // Ange utdatakatalogen
 string output = "Your Output Directory" + "BoxToTriangleMeshCustomMemoryLayoutScene.fbx";
-// Spara 3D-scen i de filformat som stöds
+//Spara 3D-scen i de filformat som stöds
 scene.Save(output, FileFormat.FBX7400ASCII);
 Console.WriteLine("\n Converted a Box mesh to triangle mesh with custom memory layout of the vertex successfully.\nFile saved at " + output);
 ```

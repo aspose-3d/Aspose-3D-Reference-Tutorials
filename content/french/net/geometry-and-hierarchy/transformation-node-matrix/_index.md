@@ -15,7 +15,7 @@ Dans le domaine dynamique des graphiques et des visualisations 3D, la capacité 
 
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
-1. Bibliothèque Aspose.3D pour .NET : assurez-vous que la bibliothèque Aspose.3D est installée dans votre projet .NET. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/net/).
+1.  Bibliothèque Aspose.3D pour .NET : assurez-vous que la bibliothèque Aspose.3D est installée dans votre projet .NET. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/net/).
 
 2. Environnement de développement : configurez un environnement de développement .NET fonctionnel et, si ce n'est pas déjà fait, créez un nouveau projet dans lequel vous implémenterez les transformations.
 
@@ -62,7 +62,7 @@ Ici, nous générons un maillage à l'aide de la méthode de création de polygo
 ## Étape 3 : Définir une matrice de traduction personnalisée
 
 ```csharp
-//Définir une matrice de traduction personnalisée
+// Définir une matrice de traduction personnalisée
 cubeNode.Transform.TransformMatrix = new Matrix4(
     1, -0.3, 0, 0,
     0.4, 1, 0.3, 0,
@@ -88,7 +88,7 @@ Incluez le nœud de cube dans la scène, en l'intégrant à l'environnement 3D g
 // Le chemin d'accès au répertoire des documents.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// Enregistrez la scène 3D dans les formats de fichiers pris en charge
+//Enregistrez la scène 3D dans les formats de fichiers pris en charge
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd : AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -120,4 +120,4 @@ A2 : Oui, vous pouvez combiner plusieurs transformations en multipliant leurs ma
 
 ### Q5 : Où puis-je demander de l'aide ou me connecter à la communauté Aspose.3D ?
 
- A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour poser des questions, partager des expériences et vous connecter avec d'autres développeurs utilisant Aspose.3D.
+A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour poser des questions, partager des expériences et vous connecter avec d'autres développeurs utilisant Aspose.3D.

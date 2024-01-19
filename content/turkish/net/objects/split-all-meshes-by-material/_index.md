@@ -39,7 +39,7 @@ Scene scene = new Scene(input);
 // Tüm ağları böl
 PolygonModifier.SplitMesh(scene, SplitMeshPolicy.CloneData);
 ```
- Burada şunu kullanıyoruz:`SplitMesh` gelen yöntem`PolygonModifier`malzemeye göre tüm ağları bölmek için sınıf.
+ Burada şunu kullanıyoruz:`SplitMesh` gelen yöntem`PolygonModifier` malzemeye göre tüm ağları bölmek için sınıf.
 ## 3. Adım: Bölünmüş Sahneyi Kaydedin
 ```csharp
 // Dosyayı kaydet

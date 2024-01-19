@@ -15,7 +15,7 @@ Bienvenido a este completo tutorial sobre el uso de Aspose.3D para .NET para ext
 
 Antes de sumergirnos en el tutorial, asegúrese de tener los siguientes requisitos previos:
 
--  Aspose.3D para .NET: asegúrese de tener la biblioteca instalada. Puedes descargarlo desde el[Aspose.3D para la página .NET](https://releases.aspose.com/3d/net/).
+- Aspose.3D para .NET: asegúrese de tener la biblioteca instalada. Puedes descargarlo desde el[Aspose.3D para la página .NET](https://releases.aspose.com/3d/net/).
 
 ## Importar espacios de nombres
 

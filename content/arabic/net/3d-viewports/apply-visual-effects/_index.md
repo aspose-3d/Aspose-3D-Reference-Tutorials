@@ -16,7 +16,7 @@ url: /ar/net/3d-viewports/apply-visual-effects/
 قبل الغوص في البرنامج التعليمي، تأكد من أن لديك ما يلي:
 
 - معرفة عملية بتطوير C# و.NET.
--  تم تثبيت Aspose.3D لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/3d/net/).
+- تم تثبيت Aspose.3D لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/3d/net/).
 - ملف مشهد ثلاثي الأبعاد (على سبيل المثال، "scene.obj") للتجريب.
 
 ## استيراد مساحات الأسماء
@@ -93,7 +93,7 @@ using (var renderer = Renderer.CreateRenderer())
 ### الخطوة 5.1 تأثير البكسل
 
 ```csharp
-// إنشاء تأثير البكسل
+//إنشاء تأثير البكسل
 PostProcessing pixelation = renderer.GetPostProcessing("pixelation");
 renderer.PostProcessings.Add(pixelation);
 renderer.Render(rt);

@@ -39,7 +39,7 @@ Scene scene = new Scene(input);
 // تقسيم كافة الشبكات
 PolygonModifier.SplitMesh(scene, SplitMeshPolicy.CloneData);
 ```
- وهنا نستخدم`SplitMesh` الطريقة من`PolygonModifier`class لتقسيم جميع الشبكات بناءً على المادة.
+ وهنا نستخدم`SplitMesh` الطريقة من`PolygonModifier` class لتقسيم جميع الشبكات بناءً على المادة.
 ## الخطوة 3: احفظ المشهد المقسم
 ```csharp
 // احفظ الملف

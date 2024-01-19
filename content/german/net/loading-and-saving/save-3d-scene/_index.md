@@ -49,7 +49,7 @@ MemoryStream dstStream = new MemoryStream();
 scene.Save(dstStream, FileFormat.FBX7500ASCII);
 ```
 
-Speichern Sie die geladene 3D-Szene mit in einem Speicherstream`Save` -Methode unter Angabe des gewünschten Dateiformats (in diesem Fall FBX7500ASCII).
+ Speichern Sie die geladene 3D-Szene mit in einem Speicherstream`Save` -Methode unter Angabe des gewünschten Dateiformats (in diesem Fall FBX7500ASCII).
 
 ### Schritt 3: Spulen Sie die Stream-Position zurück
 

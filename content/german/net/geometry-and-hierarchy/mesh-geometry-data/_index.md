@@ -76,7 +76,7 @@ foreach (Vector3 color in colors)
     // Farbe einstellen
     mat.DiffuseColor = color;
     
-    // Material festlegen
+    // Material einstellen
     cube.Material = mat;
     
     // Übersetzung festlegen
@@ -95,7 +95,7 @@ Erstellen Sie mit der Polygon-Builder-Methode ein Netz und wenden Sie Farben auf
 // Der Pfad zum Dokumentenverzeichnis.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-// Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
+//Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

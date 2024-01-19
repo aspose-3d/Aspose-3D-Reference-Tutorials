@@ -11,9 +11,9 @@ url: /sv/net/objects/working-with-sphere-radius/
 Välkommen till en värld av 3D-modellering med Aspose.3D för .NET! I den här handledningen kommer vi att utforska de kraftfulla funktionerna i Aspose.3D och guida dig genom att skapa fantastiska 3D-modeller utan ansträngning. Oavsett om du är en erfaren utvecklare eller nybörjare som vill fördjupa dig i 3D-modelleringsvärlden, är den här handledningen utformad för att göra processen sömlös och njutbar.
 ## Förutsättningar
 Innan vi dyker in i den spännande världen av 3D-modellering med Aspose.3D för .NET, låt oss se till att du har de nödvändiga förutsättningarna på plats:
-1.  Installera Aspose.3D for .NET: Börja med att ladda ner och installera Aspose.3D for .NET från[nedladdningslänk](https://releases.aspose.com/3d/net/). Följ installationsinstruktionerna för att ställa in biblioteket i din utvecklingsmiljö.
+1. Installera Aspose.3D for .NET: Börja med att ladda ner och installera Aspose.3D for .NET från[nedladdningslänk](https://releases.aspose.com/3d/net/). Följ installationsinstruktionerna för att ställa in biblioteket i din utvecklingsmiljö.
 2.  Tillgång till dokumentation: Bekanta dig med bibliotekets dokumentation som finns tillgänglig på[Aspose.3D för .NET-dokumentation](https://reference.aspose.com/3d/net/). Den här resursen kommer att vara din guide genom hela handledningen.
-3. Skaffa en tillfällig licens: Om du inte har en licens ännu, skaffa en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/) för att utforska den fulla potentialen av Aspose.3D under denna handledning.
+3.  Skaffa en tillfällig licens: Om du inte har en licens ännu, skaffa en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/) för att utforska den fulla potentialen av Aspose.3D under denna handledning.
 ## Importera namnområden
 Nu när du har förutsättningarna på plats, låt oss börja med att importera de nödvändiga namnrymden för ditt projekt. Detta steg är avgörande för att få tillgång till funktionerna som tillhandahålls av Aspose.3D.
 ## Steg 1: Importera Aspose.3D-namnutrymme
@@ -40,7 +40,7 @@ Börja med att skapa en ny 3D-scen med hjälp av följande kodavsnitt:
 Scene scene = new Scene();
 ```
 ## Steg 2: Ställ in sfärradien
-Låt oss nu lägga till en sfär till vår scen och ställa in dess radie. Detta görs med hjälp av`Radius` fast egendom.
+ Låt oss nu lägga till en sfär till vår scen och ställa in dess radie. Detta görs med hjälp av`Radius` fast egendom.
 ```csharp
 scene.RootNode.CreateChildNode(new Sphere() { Radius = 10 });
 ```
@@ -51,13 +51,13 @@ scene.Save("Your Document Directory" + "sphere.obj", FileFormat.WavefrontOBJ);
 ```
 Grattis! Du har framgångsrikt skapat en 3D-modell av en sfär med Aspose.3D för .NET. Utforska gärna vidare och experimentera med olika parametrar för att släppa loss din kreativitet.
 ## Slutsats
- I den här handledningen har vi täckt grunderna för att använda Aspose.3D för .NET för att skapa 3D-modeller. Detta kraftfulla bibliotek öppnar upp en värld av möjligheter för utvecklare och gör det möjligt för dem att förverkliga sina kreativa visioner. När du fortsätter att utforska, se[dokumentation](https://reference.aspose.com/3d/net/) för mer djupgående insikter och avancerade funktioner.
+ den här handledningen har vi täckt grunderna för att använda Aspose.3D för .NET för att skapa 3D-modeller. Detta kraftfulla bibliotek öppnar upp en värld av möjligheter för utvecklare och gör det möjligt för dem att förverkliga sina kreativa visioner. När du fortsätter att utforska, se[dokumentation](https://reference.aspose.com/3d/net/) för mer djupgående insikter och avancerade funktioner.
 ## Vanliga frågor
 
 ### F1: Är Aspose.3D kompatibel med alla .NET-ramverk?
 Ja, Aspose.3D är kompatibel med ett brett utbud av .NET-ramverk, vilket ger flexibilitet för utvecklare i olika miljöer.
 ### F2: Kan jag använda Aspose.3D för kommersiella projekt?
-Absolut! Aspose.3D erbjuder kommersiella licenser för att möta behoven hos både enskilda utvecklare och företag. Besök[här](https://purchase.aspose.com/buy) för att utforska licensalternativ.
+ Absolut! Aspose.3D erbjuder kommersiella licenser för att möta behoven hos både enskilda utvecklare och företag. Besök[här](https://purchase.aspose.com/buy) för att utforska licensalternativ.
 ### F3: Hur kan jag få support för Aspose.3D?
  För eventuella frågor eller hjälp, gå över till[Aspose.3D-forum](https://forum.aspose.com/c/3d/18). Gemenskapen och supportteamet är där för att hjälpa dig.
 ### F4: Finns det en gratis provperiod?

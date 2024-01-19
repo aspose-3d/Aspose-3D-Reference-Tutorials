@@ -48,7 +48,7 @@ Node cubeNode = new Node("cube");
 // Chiama la classe Common per creare mesh utilizzando il metodo di creazione poligoni per impostare l'istanza della mesh
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
 
-// Nodo di puntamento sulla mesh
+//Nodo di puntamento sulla mesh
 cubeNode.Entity = mesh;
 
 // Aggiungi il cubo alla scena
@@ -83,7 +83,7 @@ diffuse.FileName = "embedded-texture.png";
 
 // Imposta il contenuto binario
 diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-// ExEnd:IncorporaRawContentData
+//ExEnd:IncorporaRawContentData
 ```
 
 ## Passaggio 4: impostare le proprietà del materiale
@@ -107,7 +107,7 @@ cubeNode.Material = mat;
 // ExStart:Salva scena 3DS
 var output = "Your Output Directory" + "MaterialToCube.fbx";
 
-// Salva la scena 3D nei formati di file supportati
+//Salva la scena 3D nei formati di file supportati
 scene.Save(output, FileFormat.FBX7400ASCII);
 // ExEnd:Salva scena 3DS
 
@@ -140,4 +140,4 @@ A3: Sì, Aspose.3D fornisce un supporto completo per la creazione e la manipolaz
 
 ### Q5: Come posso ottenere supporto per eventuali problemi o domande?
 
- A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) connettersi con la comunità e cercare assistenza.
+A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) connettersi con la comunità e cercare assistenza.

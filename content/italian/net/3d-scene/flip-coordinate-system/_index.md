@@ -16,7 +16,7 @@ Benvenuti in questa guida passo passo sull'inversione del sistema di coordinate 
 Prima di immergerti nel tutorial, assicurati di possedere i seguenti prerequisiti:
 
 - Conoscenza base del linguaggio di programmazione C#.
--  Aspose.3D per la libreria .NET installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/3d/net/).
+- Aspose.3D per la libreria .NET installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/3d/net/).
 - Un file 3D di esempio in un formato supportato (ad esempio, .3ds).
 
 ## Importa spazi dei nomi
@@ -52,7 +52,7 @@ var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
 scene.Save(output, FileFormat.WavefrontOBJ);
 ```
 
- Ora usiamo il file`Save`per esportare la scena, invertendo il sistema di coordinate nel processo. L'output viene salvato nel formato Wavefront OBJ.
+ Ora usiamo il file`Save` per esportare la scena, invertendo il sistema di coordinate nel processo. L'output viene salvato nel formato Wavefront OBJ.
 
 ## Passaggio 3: Visualizza il messaggio di successo
 
@@ -60,7 +60,7 @@ scene.Save(output, FileFormat.WavefrontOBJ);
 Console.WriteLine("\nCoordinate system has been flipped successfully.\nFile saved at " + output);
 ```
 
-Infine, visualizziamo un messaggio di successo, che indica che il sistema di coordinate è stato invertito correttamente e forniamo il percorso del file salvato.
+Infine, visualizziamo un messaggio di successo, che indica che il sistema di coordinate è stato invertito con successo e forniamo il percorso del file salvato.
 
 ## Conclusione
 
@@ -78,7 +78,7 @@ A1: Aspose.3D per .NET è progettato principalmente per la programmazione C#. Tu
 
 ### Q3: È disponibile una prova gratuita per Aspose.3D per .NET?
 
-R3: Sì, puoi esplorare la versione di prova gratuita[Qui](https://releases.aspose.com/) prima di effettuare un acquisto.
+ R3: Sì, puoi esplorare la versione di prova gratuita[Qui](https://releases.aspose.com/) prima di effettuare un acquisto.
 
 ### Q4: Come posso ottenere una licenza temporanea per Aspose.3D per .NET?
 

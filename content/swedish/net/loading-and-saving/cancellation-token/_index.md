@@ -78,7 +78,7 @@ catch (ImportException e)
 }
 ```
 
- Försök att öppna 3D-dokumentet inom den angivna tidsramen. De`cts.Token` parametern säkerställer att operationen kan avbrytas om den överskrider den inställda timeouten.
+ Försök att öppna 3D-dokumentet inom den angivna tidsramen. De`cts.Token`parametern säkerställer att operationen kan avbrytas om den överskrider den inställda timeouten.
 
 ### Steg 5: Hantera importundantag
 

@@ -16,7 +16,7 @@ url: /tr/net/3d-viewports/apply-visual-effects/
 Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 - C# ve .NET geliştirme konusunda çalışma bilgisi.
--  Aspose.3D for .NET kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/3d/net/).
 - Deneme amaçlı bir 3 boyutlu sahne dosyası (örneğin, "scene.obj").
 
 ## Ad Alanlarını İçe Aktar
@@ -61,7 +61,7 @@ scene.RootNode.CreateChildNode("light", new Light() { Color = new Vector3(Color.
 
 Görsel efektleri geliştirmek için aydınlatmayı kullanın.
 
-## Adım 4: Oluşturucu Oluşturun ve Oluşturma Hedefi
+## Adım 4: Bir Oluşturucu ve İşleme Hedefi Oluşturun
 
 ```csharp
 using (var renderer = Renderer.CreateRenderer())
@@ -93,7 +93,7 @@ Sahneyi yakalamak için bir oluşturucu ve oluşturma hedefi oluşturun.
 ### Adım 5.1 Pikselleştirme Etkisi
 
 ```csharp
-// Pikselleştirme efekti oluştur
+//Pikselleştirme efekti oluştur
 PostProcessing pixelation = renderer.GetPostProcessing("pixelation");
 renderer.PostProcessings.Add(pixelation);
 renderer.Render(rt);

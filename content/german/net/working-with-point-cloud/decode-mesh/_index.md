@@ -8,13 +8,13 @@ weight: 10
 url: /de/net/working-with-point-cloud/decode-mesh/
 ---
 ## Einführung
-Stellen Sie sich Folgendes vor: Sie befinden sich im Bereich der 3D-Entwicklung und versuchen, komplizierte Netzstrukturen zu entschlüsseln. Die Herausforderung ist real, aber keine Angst! Während wir uns auf diese Reise begeben, navigieren wir mit Aspose.3D für .NET – Ihrem vertrauenswürdigen Begleiter in der Welt der 3D-Programmierung – durch das Labyrinth der Mesh-Dekodierung.
+Stellen Sie sich Folgendes vor: Sie befinden sich im Bereich der 3D-Entwicklung und versuchen, komplizierte Netzstrukturen zu entschlüsseln. Die Herausforderung ist real, aber keine Angst! Während wir uns auf diese Reise begeben, navigieren wir mit Aspose.3D für .NET – Ihrem vertrauenswürdigen Begleiter in der Welt der 3D-Programmierung – durch das Labyrinth der Mesh-Decodierung.
 ## Voraussetzungen
 Bevor wir uns mit den Einzelheiten der Mesh-Decodierung befassen, stellen wir sicher, dass wir für das Abenteuer gerüstet sind. Hier sind einige Voraussetzungen, um Sie vorzubereiten:
 1. Grundlegendes Verständnis der 3D-Programmierung:
    Um dieses Tutorial optimal nutzen zu können, sind grundlegende Kenntnisse der 3D-Programmierkonzepte unerlässlich. Wenn Ihnen Begriffe wie Scheitelpunkte und Polygone bekannt vorkommen, sind Sie auf dem richtigen Weg.
 2. Installation von Aspose.3D für .NET:
-    Geh 'rüber zu[Aspose.3D-Dokumentation](https://reference.aspose.com/3d/net/)um Aspose.3D für .NET zu installieren und einzurichten. Dieses leistungsstarke Toolkit wird Ihr Zauberstab auf dieser Reise sein.
+    Geh 'rüber zu[Aspose.3D-Dokumentation](https://reference.aspose.com/3d/net/) um Aspose.3D für .NET zu installieren und einzurichten. Dieses leistungsstarke Toolkit wird Ihr Zauberstab auf dieser Reise sein.
 ## Namespaces importieren
 Nachdem wir nun vorbereitet sind, importieren wir die erforderlichen Namespaces, um die Voraussetzungen für eine brillante Mesh-Decodierung zu schaffen:
 ```csharp

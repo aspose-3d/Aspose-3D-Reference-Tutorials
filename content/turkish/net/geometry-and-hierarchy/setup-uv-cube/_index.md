@@ -15,7 +15,7 @@ Büyüleyici ve görsel olarak çekici 3D sahneler oluşturmak genellikle geomet
 
 Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
-1.  Aspose.3D for .NET Library: Aspose.3D kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/3d/net/).
+1. Aspose.3D for .NET Library: Aspose.3D kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/3d/net/).
 
 2. Geliştirme Ortamı: Gerekli araçlarla bir .NET geliştirme ortamı kurun.
 

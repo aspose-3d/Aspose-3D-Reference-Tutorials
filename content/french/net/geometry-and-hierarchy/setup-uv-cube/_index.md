@@ -15,7 +15,7 @@ La création de scènes 3D captivantes et visuellement attrayantes implique souv
 
 Avant de plonger dans le didacticiel, assurez-vous d'avoir les prérequis suivants :
 
-1.  Aspose.3D pour la bibliothèque .NET : assurez-vous que la bibliothèque Aspose.3D est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/net/).
+1. Aspose.3D pour la bibliothèque .NET : assurez-vous que la bibliothèque Aspose.3D est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/net/).
 
 2. Environnement de développement : mettre en place un environnement de développement .NET avec les outils nécessaires.
 

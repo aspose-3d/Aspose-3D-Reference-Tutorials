@@ -21,7 +21,7 @@ Aspose.3D for .NET'i kullanarak kamera perspektifinden etkileyici 3D model gör�
 
 ## 3D Sahneye Balıkgözü Lens Efekti Uygulama
 ### [Balıkgözü Lens Efekti Eğitimi](./fisheye-lens-effect-3d-scene/)
- Aspose.3D for .NET'i kullanarak büyüleyici balıkgözü lens efektiyle 3D sahnelerinizi dönüştürün. Ayrıntılı eğitimimiz, bu büyüleyici etkiyi yaratımlarınıza sorunsuz bir şekilde uygulamanıza olanak tanıyan adım adım bir yaklaşım sunar. Sahnelerinize benzersiz bir bakış açısı katmaya hazır mısınız?[Daha fazla bilgi edin!](./fisheye-lens-effect-3d-scene/)
+ Aspose.3D for .NET'i kullanarak büyüleyici balıkgözü lens efektiyle 3D sahnelerinizi dönüştürün. Ayrıntılı eğitimimiz, bu büyüleyici etkiyi yaratımlarınıza sorunsuz bir şekilde uygulamanıza olanak tanıyan adım adım bir yaklaşım sağlar. Sahnelerinize benzersiz bir bakış açısı katmaya hazır mısınız?[Daha fazla bilgi edin!](./fisheye-lens-effect-3d-scene/)
 
 ## 3D Sahnenin Panoramik Görünümünün Oluşturulması
 ### [Panorama Görünümü Oluşturma Eğitimi](./render-panorama-view/)

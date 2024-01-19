@@ -50,7 +50,7 @@ scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ### الخطوة 2: الكشف عن التنسيق
 
 ```csharp
-// ExStart:DetectFormat
+//ExStart:DetectFormat
 // اكتشاف تنسيق ملف ثلاثي الأبعاد
 FileFormat inputFormat = FileFormat.Detect(RunExamples.GetDataFilePath("document.fbx"));
 // عرض تنسيق الملف
@@ -92,4 +92,4 @@ scene.Save("output.fbx", FileFormat.FBX7500ASCII);
 
 ### س5: هل يمكنني تجربة Aspose.3D مجانًا قبل الشراء؟
 
- ج5: بالتأكيد! قم بتنزيل النسخة التجريبية المجانية من[إصدارات Aspose.3D](https://releases.aspose.com/) لتجربة قدراته بشكل مباشر.
+ج5: بالتأكيد! قم بتنزيل النسخة التجريبية المجانية من[إصدارات Aspose.3D](https://releases.aspose.com/) لتجربة قدراته بشكل مباشر.

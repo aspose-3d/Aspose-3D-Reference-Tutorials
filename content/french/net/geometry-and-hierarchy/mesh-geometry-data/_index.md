@@ -95,7 +95,7 @@ Créez un maillage à l'aide de la méthode de création de polygones et appliqu
 // Le chemin d'accès au répertoire des documents.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-// Enregistrez la scène 3D dans les formats de fichiers pris en charge
+//Enregistrez la scène 3D dans les formats de fichiers pris en charge
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

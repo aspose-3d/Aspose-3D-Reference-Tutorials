@@ -39,7 +39,7 @@ Scene scene = new Scene(input);
 // Diviser tous les maillages
 PolygonModifier.SplitMesh(scene, SplitMeshPolicy.CloneData);
 ```
- Ici, nous utilisons le`SplitMesh` méthode de la`PolygonModifier`classe pour diviser tous les maillages en fonction du matériau.
+ Ici, nous utilisons le`SplitMesh` méthode de la`PolygonModifier` classe pour diviser tous les maillages en fonction du matériau.
 ## Étape 3 : Enregistrez la scène divisée
 ```csharp
 // Enregistrer le fichier

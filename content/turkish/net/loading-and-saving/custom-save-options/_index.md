@@ -16,7 +16,7 @@ url: /tr/net/loading-and-saving/custom-save-options/
 Aspose.3D'nin heyecan verici özelliklerini keşfetmeye başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
 - C# ve .NET geliştirmenin temel anlayışı.
-- Aspose.3D for .NET kütüphanesi kuruldu. adresinden indirebilirsiniz.[yayın sayfası](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET kütüphanesi kuruldu. adresinden indirebilirsiniz.[yayın sayfası](https://releases.aspose.com/3d/net/).
 - Visual Studio veya tercih edilen herhangi bir C# IDE ile kurulmuş bir geliştirme ortamı.
 
 ## Ad Alanlarını İçe Aktar

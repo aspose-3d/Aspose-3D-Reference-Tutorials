@@ -51,7 +51,7 @@ Scene scene = new Scene();
 Node cubeNode = new Node("cube");
 ```
 
- Создайте узел внутри сцены, используя`Node` сорт. Этот узел будет служить контейнером для нашего 3D-объекта.
+ Создайте узел внутри сцены, используя`Node`сорт. Этот узел будет служить контейнером для нашего 3D-объекта.
 
 ## Шаг 3. Создайте сетку с помощью Polygon Builder
 
@@ -97,7 +97,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Путь к каталогу документов.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// Сохранение 3D-сцены в поддерживаемых форматах файлов.
+//Сохранение 3D-сцены в поддерживаемых форматах файлов.
 scene.Save(output, FileFormat.FBX7500ASCII);
 // Эксенд: аддтрансформатионтонодебиеулеранглес
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -129,4 +129,4 @@ A1: Aspose.3D поддерживает различные форматы 3D-фа
 
 ### В5: Нужна помощь или есть конкретные вопросы?
 
- A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) для поддержки сообщества.
+A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) для поддержки сообщества.

@@ -53,7 +53,7 @@ Düğümü oluşturulan Mesh geometrisiyle ilişkilendirin.
 scene.RootNode.ChildNodes.Add(cubeNode);
 ```
 Düğümü ana sahneye dahil edin.
-## 6. Adım: 3D Sahneyi Desteklenen Dosya Formatında Kaydedin
+## Adım 6: 3D Sahneyi Desteklenen Dosya Formatında Kaydedin
 ```csharp
 string output = "Your Output Directory" + "PlaneToMeshScene.fbx";
 scene.Save(output, FileFormat.FBX7400ASCII);

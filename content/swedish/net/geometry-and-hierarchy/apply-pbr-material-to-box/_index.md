@@ -104,7 +104,7 @@ A2: Absolut! Aspose.3D tillhandahåller kommersiella licenser för sömlös inte
 
 ### F3: Finns det en testversion tillgänglig?
 
- S3: Ja, du kan utforska Aspose.3D:s möjligheter genom att ladda ner den kostnadsfria testversionen[här](https://releases.aspose.com/).
+S3: Ja, du kan utforska Aspose.3D:s möjligheter genom att ladda ner den kostnadsfria testversionen[här](https://releases.aspose.com/).
 
 ### F4: Var kan jag hitta gemenskapsstöd och diskussioner?
 

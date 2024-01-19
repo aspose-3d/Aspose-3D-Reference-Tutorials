@@ -37,11 +37,11 @@ using Aspose.ThreeD.Utilities;
 تتضمن الخطوة الأولى تحديد البيانات العادية الأولية للمكعب الخاص بنا. يتم تمثيل العناصر الطبيعية ككائنات Vector4، وإليك مثال:
 
 ```csharp
-//ExStart:RawNormalData
+// ExStart:RawNormalData
 Vector4[] normals = new Vector4[]
 {
     new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
-    // ... (كرر مع القمم السبعة الأخرى)
+    //... (كرر مع القمم السبعة الأخرى)
 };
 // ExEnd:RawNormalData
 ```
@@ -87,7 +87,7 @@ Console.WriteLine("\nNormals have been set up successfully on the cube.");
 
 ### س2: هل يمكنني تجربة Aspose.3D قبل الشراء؟
 
- ج2: بالتأكيد! يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+ج2: بالتأكيد! يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 
 ### س3: أين يمكنني العثور على تراخيص مؤقتة لـ Aspose.3D؟
 

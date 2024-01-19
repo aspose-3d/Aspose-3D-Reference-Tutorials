@@ -44,7 +44,7 @@ Låt oss nu lägga till lite visuell stil till din scen genom att bädda in en t
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    //Filnamn krävs om den inbäddade texturen används.
+    // Filnamn krävs om den inbäddade texturen används.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

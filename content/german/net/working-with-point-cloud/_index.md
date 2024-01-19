@@ -47,7 +47,7 @@ Decode lässt sich mühelos mit Aspose.3D für .NET kombinieren. Ihr Einstieg in
 ### [Dekodierung eines Netzes aus dem PLY-Format](./decode-mesh-ply-format/)
 Entdecken Sie die Geheimnisse der 3D-Magie! Dekodieren Sie Netze mühelos aus dem PLY-Format mit Aspose.3D für .NET. Heben Sie Ihre Projekte in neue Dimensionen.
 ### [Kodierungsnetz](./encode-mesh/)
-Nutzen Sie das Potenzial von Aspose.3D für .NET! Kodieren Sie mühelos 3D-Netze mit Draco-Komprimierung. Werten Sie Ihre .NET-Entwicklung mit atemberaubender Grafik auf.
+Entfesseln Sie das Potenzial von Aspose.3D für .NET! Kodieren Sie mühelos 3D-Netze mit Draco-Komprimierung. Werten Sie Ihre .NET-Entwicklung mit atemberaubender Grafik auf.
 ### [Kodierung von Mesh in das PLY-Format](./encode-mesh-ply-format/)
 Entdecken Sie die Welt der 3D-Programmierung mit Aspose.3D für .NET. Erfahren Sie, wie Sie Meshes mühelos in das PLY-Format kodieren. Steigern Sie Ihr Entwicklungsspiel!
 ### [Kodierung der Kugel als Punktwolke](./encode-sphere-as-point-cloud/)

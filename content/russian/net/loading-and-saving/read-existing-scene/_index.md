@@ -48,7 +48,7 @@ Scene scene = new Scene();
 scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ```
 
- Используя`Open` мы загружаем существующий 3D-документ в нашу сцену. Замените «document.fbx» путем к желаемому 3D-файлу.
+ Используя`Open`мы загружаем существующий 3D-документ в нашу сцену. Замените «document.fbx» путем к желаемому 3D-файлу.
 
 ## Шаг 3. Чтение существующей сцены с диска
 
@@ -94,7 +94,7 @@ public static void ReadRVMWithAttributes()
 
 ### В3: Доступна ли пробная версия?
 
- О3: Да, вы можете изучить Aspose.3D с помощью[бесплатная пробная версия](https://releases.aspose.com/).
+О3: Да, вы можете изучить Aspose.3D с помощью[бесплатная пробная версия](https://releases.aspose.com/).
 
 ### В4: Как я могу получить временную лицензию на Aspose.3D?
 
@@ -102,4 +102,4 @@ public static void ReadRVMWithAttributes()
 
 ### Вопрос 5: Где я могу приобрести Aspose.3D для .NET?
 
- A5: Посетите[страница покупки](https://purchase.aspose.com/buy) чтобы приобрести полную версию Aspose.3D.
+A5: Посетите[страница покупки](https://purchase.aspose.com/buy) чтобы приобрести полную версию Aspose.3D.

@@ -8,7 +8,7 @@ weight: 24
 url: /it/net/objects/xpath-like-object-queries/
 ---
 ## introduzione
-Intraprendere un viaggio per liberare tutto il potenziale di Aspose.3D per .NET apre le porte a un regno di possibilità nella manipolazione della grafica 3D. Che tu sia uno sviluppatore esperto o un nuovo arrivato, questa guida ti guiderà attraverso le sfumature dello sfruttamento delle funzionalità di Aspose.3D.
+Intraprendere un viaggio per liberare tutto il potenziale di Aspose.3D per .NET apre le porte a un regno di possibilità nella manipolazione della grafica 3D. Che tu sia uno sviluppatore esperto o un nuovo arrivato, questa guida ti guiderà attraverso le sfumature dello sfruttamento delle capacità di Aspose.3D.
 ## Prerequisiti
 Prima di immergerti nel magico mondo di Aspose.3D, assicurati di disporre dei seguenti prerequisiti:
 - Conoscenza base del framework .NET

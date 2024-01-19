@@ -97,7 +97,7 @@ props["Diffuse"] = new Vector3(1, 0, 1);
 Получите экземпляр свойства по его имени для дальнейших манипуляций.
 
 ```csharp
-//Эксстарт: Жетпропертинстанцебинаме
+//Эксстарт: GetPropertyInstanceByName
 Property pdiffuse = props.FindProperty("Diffuse");
 Console.WriteLine(pdiffuse);
 //Эксенд: Жетпропертинстанцебинаме

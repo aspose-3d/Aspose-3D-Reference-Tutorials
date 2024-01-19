@@ -15,7 +15,7 @@ Bienvenue dans le monde d'Aspose.3D pour .NET, une bibliothèque puissante qui p
 
 Avant de passer au didacticiel, assurez-vous d'avoir les éléments suivants en place :
 
-- Aspose.3D pour .NET : assurez-vous que la bibliothèque Aspose.3D est installée. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/3d/net/).
+-  Aspose.3D pour .NET : assurez-vous que la bibliothèque Aspose.3D est installée. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/3d/net/).
 
 - Environnement de développement : configurez votre environnement de développement C# préféré, tel que Visual Studio.
 
@@ -48,7 +48,7 @@ Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
 
 Définissez la structure du format binaire personnalisé dans lequel vous souhaitez enregistrer vos maillages 3D. L'exemple utilise une structure avec MeshBlock, Vertex et Triangle comme composants.
 
-## Étape 3 : Ouvrir le fichier pour l'écriture
+## Étape 3 : Ouvrir le fichier pour l’écriture
 
 Ouvrez un fichier binaire en écriture, où les maillages 3D convertis seront enregistrés :
 
@@ -98,7 +98,7 @@ A1 : Aspose.3D prend principalement en charge les langages .NET, mais vous pouve
 
 ### Q2 : Où puis-je trouver des exemples et des ressources supplémentaires ?
 
- A2 : Le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18)est un excellent endroit pour trouver du soutien, des exemples et interagir avec la communauté.
+ A2 : Le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) est un excellent endroit pour trouver du soutien, des exemples et interagir avec la communauté.
 
 ### Q3 : Existe-t-il une version d’essai disponible pour Aspose.3D ?
 

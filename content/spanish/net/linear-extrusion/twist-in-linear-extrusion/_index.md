@@ -78,7 +78,7 @@ Aquí es donde ocurre la magia. Ejecute una extrusión lineal en el nodo izquier
 ## Paso 5: realizar una extrusión lineal con giro en el nodo derecho
 
 ```csharp
-// Realice una extrusión lineal en el nodo derecho usando la propiedad de giro y cortes
+//Realice una extrusión lineal en el nodo derecho usando la propiedad de giro y cortes
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 

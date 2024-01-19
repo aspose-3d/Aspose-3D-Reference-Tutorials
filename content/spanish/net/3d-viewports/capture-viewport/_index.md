@@ -9,7 +9,7 @@ url: /es/net/3d-viewports/capture-viewport/
 ---
 ## Introducción
 
-En el ámbito de la visualización y los gráficos 3D, capturar ventanas gráficas es una habilidad esencial que mejora la profundidad y el detalle de sus escenas. Aspose.3D para .NET proporciona una solución sólida para renderizar y manipular escenas 3D. Este tutorial lo guiará a través del proceso de captura de ventanas gráficas en escenas 3D usando Aspose.3D, permitiéndole crear visualizaciones impresionantes con facilidad.
+En el ámbito de la visualización y los gráficos 3D, capturar ventanas gráficas es una habilidad esencial que mejora la profundidad y el detalle de las escenas. Aspose.3D para .NET proporciona una solución sólida para renderizar y manipular escenas 3D. Este tutorial lo guiará a través del proceso de captura de ventanas gráficas en escenas 3D usando Aspose.3D, permitiéndole crear visualizaciones impresionantes con facilidad.
 
 ## Requisitos previos
 
@@ -85,7 +85,7 @@ renderer.Render(rt);
 ((ITexture2D)rt.Targets[0]).Save("Your Output Directory" + "file-1viewports_out.png", ImageFormat.Png);
 ```
 
-## Paso 6: modifique las ventanas gráficas y renderice nuevamente
+## Paso 6: modifique las ventanas gráficas y vuelva a renderizar
 
 Modifique las ventanas gráficas y renderice la escena una vez más, demostrando la flexibilidad de Aspose.3D:
 

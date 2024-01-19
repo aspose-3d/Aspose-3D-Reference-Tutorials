@@ -176,4 +176,4 @@ private static void FBXLoadOptions()
 
 ### Вопрос 5: Где я могу получить поддержку Aspose.3D для .NET?
 
- A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) за общественную поддержку и помощь.
+A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) за общественную поддержку и помощь.

@@ -33,7 +33,7 @@ using System.Threading.Tasks;
 ## Consultas de objetos tipo XPath
 Aspose.3D le permite realizar consultas de objetos similares a XPath en sus escenas 3D, lo que permite una manipulación precisa de los objetos. Dividamos el ejemplo en varios pasos.
 ## Paso 1: creación de escena
-Cree una nueva escena 3D que sirva como lienzo para la prueba:
+Cree una nueva escena 3D que sirva como lienzo para las pruebas:
 ```csharp
 Scene s = new Scene();
 ```

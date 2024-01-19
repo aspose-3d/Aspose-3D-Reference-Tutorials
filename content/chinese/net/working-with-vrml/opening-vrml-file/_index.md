@@ -44,7 +44,7 @@ scene.Open("Your Document Directory" + "test.wrl");
 此步骤邀请您深入研究 VRML 文件的核心。根据您的创意愿景自定义和操作 3D 元素。
 通过将流程分解为这些易于理解的步骤，Aspose.3D for .NET 使您能够轻松驾驭复杂的 3D 建模。
 ## 结论
-总之，Aspose.3D for .NET 是您通往迷人的 3D 建模领域的门户。从创建场景到打开 VRML 文件，可能性是无限的。利用 Aspose.3D 提供的精度和灵活性为您的项目提供支持。
+总之，Aspose.3D for .NET 是您通往迷人的 3D 建模领域的门户。从创建场景到打开 VRML 文件，可能性是无限的。借助 Aspose.3D 提供的精度和灵活性为您的项目提供支持。
 ## 常见问题解答
 ### 问：Aspose.3D 是否兼容各种 3D 文件格式？
 答：当然！ Aspose.3D 支持多种 3D 文件格式，为您的项目提供灵活性。

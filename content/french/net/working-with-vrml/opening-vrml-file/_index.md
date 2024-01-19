@@ -30,7 +30,7 @@ Maintenant, décomposons le processus en étapes claires et réalisables.
 Scene scene = new Scene();
 ```
 Commencez par initialiser une nouvelle scène, fournissant ainsi la toile de votre chef-d'œuvre 3D.
-## Étape 2 : ouvrir le fichier VRML
+## Étape 2 : Ouvrir le fichier VRML
 ```csharp
 // Format de fichier VRML (Virtual Reality Modeling Language) ouvert
 scene.Open("Your Document Directory" + "test.wrl");
@@ -47,7 +47,7 @@ En décomposant le processus en étapes compréhensibles, Aspose.3D pour .NET vo
 En conclusion, Aspose.3D pour .NET vous sert de passerelle vers le domaine captivant de la modélisation 3D. De la création d'une scène à l'ouverture de fichiers VRML, les possibilités sont illimitées. Renforcez vos projets avec la précision et la flexibilité qu'offre Aspose.3D.
 ## FAQ
 ### Q : Aspose.3D est-il compatible avec différents formats de fichiers 3D ?
-R : Absolument ! Aspose.3D prend en charge une large gamme de formats de fichiers 3D, offrant ainsi une flexibilité à vos projets.
+: Absolument ! Aspose.3D prend en charge une large gamme de formats de fichiers 3D, offrant ainsi une flexibilité à vos projets.
 ### Q : Puis-je essayer Aspose.3D avant d’acheter ?
  R : Certainement ! Explorez les fonctionnalités avec un essai gratuit disponible[ici](https://releases.aspose.com/).
 ### Q : Où puis-je trouver une documentation complète pour Aspose.3D ?

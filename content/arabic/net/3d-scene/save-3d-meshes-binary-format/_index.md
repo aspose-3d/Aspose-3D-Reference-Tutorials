@@ -15,7 +15,7 @@ url: /ar/net/3d-scene/save-3d-meshes-binary-format/
 
 قبل أن ننتقل إلى البرنامج التعليمي، تأكد من أن لديك ما يلي:
 
-- Aspose.3D لـ .NET: تأكد من تثبيت مكتبة Aspose.3D. يمكنك تنزيله من[هنا](https://releases.aspose.com/3d/net/).
+-  Aspose.3D لـ .NET: تأكد من تثبيت مكتبة Aspose.3D. يمكنك تنزيله من[هنا](https://releases.aspose.com/3d/net/).
 
 - بيئة التطوير: قم بإعداد بيئة تطوير C# المفضلة لديك، مثل Visual Studio.
 
@@ -98,7 +98,7 @@ Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
 ### س2: أين يمكنني العثور على أمثلة وموارد إضافية؟
 
- ج2: ال[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18)يعد مكانًا رائعًا للعثور على الدعم والأمثلة والتفاعل مع المجتمع.
+ ج2: ال[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) يعد مكانًا رائعًا للعثور على الدعم والأمثلة والتفاعل مع المجتمع.
 
 ### س3: هل هناك نسخة تجريبية متاحة لـ Aspose.3D؟
 

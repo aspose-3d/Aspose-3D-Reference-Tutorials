@@ -10,7 +10,7 @@ url: /de/net/polygons/
 
 ## Einführung
 
-Begeben Sie sich mit Aspose.3D für .NET-Tutorials auf eine Reise in die faszinierende Welt der 3D-Modellierung, die sich speziell auf Polygone konzentriert. In diesem umfassenden Leitfaden befassen wir uns mit zwei wesentlichen Aspekten: der Konvertierung von Polygonen in Dreiecke und der Beherrschung der Kunst, UV-Koordinaten zu generieren.
+Begeben Sie sich mit Aspose.3D für .NET-Tutorials auf eine Reise in die faszinierende Welt der 3D-Modellierung, die sich speziell auf Polygone konzentriert. In diesem umfassenden Leitfaden befassen wir uns mit zwei wesentlichen Aspekten: der Umwandlung von Polygonen in Dreiecke und der Beherrschung der Kunst der Generierung von UV-Koordinaten.
 
 ## Polygone in Dreiecke umwandeln
 ### [Tutorial zum Konvertieren von Polygonen in Dreiecke](./convert-polygons-to-triangles/)

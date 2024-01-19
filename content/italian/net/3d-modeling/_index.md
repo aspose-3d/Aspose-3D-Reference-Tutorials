@@ -10,7 +10,7 @@ url: /it/net/3d-modeling/
 
 ## introduzione
 
-Se hai mai sognato di creare modelli 3D mozzafiato, l'elenco dei tutorial Aspose.3D per .NET è la tua porta d'accesso per svelare i segreti di questo mondo dinamico. In questa guida ti guideremo attraverso i passaggi essenziali, concentrandoci sull'affascinante viaggio nella creazione di modelli 3D primitivi.
+Se hai mai sognato di creare modelli 3D mozzafiato, l'elenco dei tutorial Aspose.3D per .NET è la tua porta d'accesso per svelare i segreti di questo mondo dinamico. In questa guida ti guideremo attraverso i passaggi essenziali, concentrandoci sull'affascinante viaggio della creazione di modelli 3D primitivi.
 
 ## Comprendere le nozioni di base
 

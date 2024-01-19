@@ -15,7 +15,7 @@ url: /zh/net/asset-information/information-to-scene/
 
 在我们深入学习本教程之前，请确保您满足以下先决条件：
 
--  Aspose.3D for .NET：确保您已安装该库。您可以从[Aspose.3D for .NET 页面](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET：确保您已安装该库。您可以从[Aspose.3D for .NET 页面](https://releases.aspose.com/3d/net/).
 
 ## 导入命名空间
 
@@ -83,7 +83,7 @@ A1：Aspose.3D 主要支持 .NET 语言，但您可以探索其他语言的互�
 
 ### 问题 2：Aspose.3D for .NET 是否有免费试用版？
 
- A2：是的，您可以免费试用[这里](https://releases.aspose.com/).
+A2：是的，您可以免费试用[这里](https://releases.aspose.com/).
 
 ### Q3：如何获得 Aspose.3D 相关查询的支持？
 

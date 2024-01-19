@@ -51,7 +51,7 @@ Associera Mesh-geometrin med den tidigare skapade noden.
 scene.RootNode.ChildNodes.Add(cubeNode);
 ```
 Inkludera noden i scenen genom att lägga till den i rotnodens undernoder.
-## Steg 6: Spara 3D-scen
+## Steg 6: Spara 3D-scenen
 ```csharp
 string output = "Your Output Directory" + "CylinderToMeshScene.fbx";
 scene.Save(output, FileFormat.FBX7400ASCII);

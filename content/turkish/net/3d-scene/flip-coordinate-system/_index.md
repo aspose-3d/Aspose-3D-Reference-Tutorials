@@ -16,7 +16,7 @@ Aspose.3D for .NET kullanarak 3 boyutlu sahnelerde koordinat sistemini çevirmey
 Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
 - C# programlama dilinin temel anlayışı.
--  Aspose.3D for .NET kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/3d/net/).
 - Desteklenen formatta (örn. .3ds) örnek bir 3D dosya.
 
 ## Ad Alanlarını İçe Aktar
@@ -52,7 +52,7 @@ var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
 scene.Save(output, FileFormat.WavefrontOBJ);
 ```
 
- Şimdi şunu kullanıyoruz:`Save`Süreçte koordinat sistemini çevirerek sahneyi dışa aktarma yöntemi. Çıktı Wavefront OBJ formatında kaydedilir.
+ Şimdi şunu kullanıyoruz:`Save` Süreçte koordinat sistemini çevirerek sahneyi dışa aktarma yöntemi. Çıktı Wavefront OBJ formatında kaydedilir.
 
 ## 3. Adım: Başarı Mesajını Görüntüleyin
 
@@ -60,7 +60,7 @@ scene.Save(output, FileFormat.WavefrontOBJ);
 Console.WriteLine("\nCoordinate system has been flipped successfully.\nFile saved at " + output);
 ```
 
-Son olarak, koordinat sisteminin başarılı bir şekilde çevrildiğini belirten bir başarı mesajı görüntülüyor ve kaydedilen dosyanın yolunu sağlıyoruz.
+Son olarak, koordinat sisteminin başarıyla çevrildiğini belirten bir başarı mesajı görüntülüyor ve kaydedilen dosyanın yolunu sağlıyoruz.
 
 ## Çözüm
 
@@ -78,7 +78,7 @@ Cevap1: Aspose.3D for .NET öncelikle C# programlama için tasarlanmıştır. An
 
 ### S3: Aspose.3D for .NET'in ücretsiz deneme sürümü mevcut mu?
 
-C3: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/) bir satın alma işlemi yapmadan önce.
+ C3: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/) bir satın alma işlemi yapmadan önce.
 
 ### S4: Aspose.3D for .NET için nasıl geçici lisans alabilirim?
 

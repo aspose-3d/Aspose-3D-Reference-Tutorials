@@ -84,7 +84,7 @@ scene.Open(RunExamples.GetDataFilePath("House_Design.pdf"), opt);
 
 ### س2: هل يمكنني استخدام Aspose.3D لأغراض تجارية؟
 
-ج2: بالتأكيد! يأتي Aspose.3D مزودًا برخصة تجارية، ويمكنك شرائه[هنا](https://purchase.aspose.com/buy).
+ ج2: بالتأكيد! يأتي Aspose.3D مزودًا برخصة تجارية، ويمكنك شرائه[هنا](https://purchase.aspose.com/buy).
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.3D؟
 

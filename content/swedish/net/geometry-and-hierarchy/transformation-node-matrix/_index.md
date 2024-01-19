@@ -15,7 +15,7 @@ I den dynamiska sfären av 3D-grafik och visualiseringar är förmågan att mani
 
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
-1. Aspose.3D for .NET Library: Se till att du har Aspose.3D-biblioteket installerat i ditt .NET-projekt. Du kan ladda ner den[här](https://releases.aspose.com/3d/net/).
+1.  Aspose.3D for .NET Library: Se till att du har Aspose.3D-biblioteket installerat i ditt .NET-projekt. Du kan ladda ner den[här](https://releases.aspose.com/3d/net/).
 
 2. Utvecklingsmiljö: Skapa en fungerande .NET-utvecklingsmiljö, och om du inte redan har gjort det, skapa ett nytt projekt där du ska implementera omvandlingarna.
 
@@ -62,7 +62,7 @@ Här genererar vi ett nät med polygonbyggarmetoden och tilldelar det till noden
 ## Steg 3: Ställ in anpassad översättningsmatris
 
 ```csharp
-//Ställ in anpassad översättningsmatris
+// Ställ in anpassad översättningsmatris
 cubeNode.Transform.TransformMatrix = new Matrix4(
     1, -0.3, 0, 0,
     0.4, 1, 0.3, 0,
@@ -88,7 +88,7 @@ Inkludera kubnoden i scenen, vilket gör den till en del av den övergripande 3D
 // Sökvägen till dokumentkatalogen.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// Spara 3D-scen i de filformat som stöds
+//Spara 3D-scen i de filformat som stöds
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd: AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -120,4 +120,4 @@ S2: Ja, du kan kombinera flera transformationer genom att multiplicera deras res
 
 ### F5: Var kan jag söka hjälp eller få kontakt med Aspose.3D-communityt?
 
- A5: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) att ställa frågor, dela erfarenheter och få kontakt med andra utvecklare som använder Aspose.3D.
+A5: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) att ställa frågor, dela erfarenheter och få kontakt med andra utvecklare som använder Aspose.3D.

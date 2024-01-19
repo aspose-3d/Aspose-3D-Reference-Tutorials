@@ -29,7 +29,7 @@ using System.Threading.Tasks;
 ```
 ## 1. Adım: Bir Sahne Oluşturun
 ```csharp
-// Bir sahne oluştur
+// Bir sahne yarat
 Scene scene = new Scene();
 ```
 Bu, Aspose.3D'yi kullanarak yeni bir 3D sahneyi başlatır.
@@ -53,7 +53,7 @@ scene.RootNode.CreateChildNode(cylinder1).Transform.Translation = new Vector3(10
 İlk silindiri alt düğüm olarak sahneye konumunu ayarlayarak ekliyoruz.
 ## Adım 5: İkinci Silindiri Başlatın
 ```csharp
-// Özelleştirilmiş OffsetTop olmadan ikinci silindiri başlatın
+//Özelleştirilmiş OffsetTop olmadan ikinci silindiri başlatın
 var cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 ```
 İkinci bir silindir, özelleştirilmiş ofset üst kısmı olmadan başlatılır.
@@ -76,7 +76,7 @@ Bu eğitimde, özelleştirilmiş bir ofset üst silindir oluşturmak için Aspos
 ### S: Aspose.3D for .NET belgelerini nerede bulabilirim?
  C: Belgeler mevcut[Burada](https://reference.aspose.com/3d/net/).
 ### S: Aspose.3D for .NET'i nasıl indirebilirim?
- Cevap: İndirebilirsin[Burada](https://releases.aspose.com/3d/net/).
+ Cevap: İndirebilirsiniz[Burada](https://releases.aspose.com/3d/net/).
 ### S: Aspose.3D for .NET'in ücretsiz deneme sürümü mevcut mu?
  C: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
 ### S: Aspose.3D for .NET desteğini nereden alabilirim?

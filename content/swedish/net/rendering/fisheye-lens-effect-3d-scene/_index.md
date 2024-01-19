@@ -14,7 +14,7 @@ Innan vi börjar, se till att du har följande förutsättningar på plats:
 -  Aspose.3D för .NET: Se till att du har Aspose.3D-biblioteket för .NET installerat. Om inte kan du ladda ner den[här](https://releases.aspose.com/3d/net/).
 -  Exempel på 3D-scen: Vi kommer att arbeta med ett exempel på en 3D-scenfil (VirtualCity.glb). Du kan använda din egen scen eller ladda ner provet från[Aspose.3D-dokumentation](https://reference.aspose.com/3d/net/).
 ## Importera namnområden
-ditt .NET-projekt, inkludera de nödvändiga namnområdena för att komma åt Aspose.3D-funktionerna. Lägg till följande namnrymder i början av din kod:
+I ditt .NET-projekt, inkludera de nödvändiga namnområdena för att komma åt Aspose.3D-funktionerna. Lägg till följande namnrymder i början av din kod:
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;

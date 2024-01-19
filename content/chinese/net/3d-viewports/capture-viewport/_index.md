@@ -87,7 +87,7 @@ renderer.Render(rt);
 
 ## 第6步：修改视口并再次渲染
 
-修改视口并再次渲染场景，展示了Aspose.3D的灵活性：
+修改视口并再次渲染场景，展示了 Aspose.3D 的灵活性：
 
 ```csharp
 vp.Area = new RelativeRectangle() { ScaleWidth = 0.5f, ScaleHeight = 1 };

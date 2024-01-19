@@ -51,7 +51,7 @@ Scene scene = new Scene();
 Node cubeNode = new Node("cube");
 ```
 
- Erstellen Sie mithilfe von einen Knoten innerhalb der Szene`Node` Klasse. Dieser Knoten dient als Container für unser 3D-Objekt.
+ Erstellen Sie mithilfe von einen Knoten innerhalb der Szene`Node`Klasse. Dieser Knoten dient als Container für unser 3D-Objekt.
 
 ## Schritt 3: Erstellen Sie ein Netz mit Polygon Builder
 
@@ -97,7 +97,7 @@ Integrieren Sie den Knoten in die Hierarchie der Szene.
 // Der Pfad zum Dokumentenverzeichnis.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
+//Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -129,4 +129,4 @@ A2: Ja, Sie können mehrere Transformationen kombinieren und anwenden, um komple
 
 ### F5: Benötigen Sie Hilfe oder haben Sie spezielle Fragen?
 
- A5: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) für die Unterstützung der Gemeinschaft.
+A5: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) für die Unterstützung der Gemeinschaft.
