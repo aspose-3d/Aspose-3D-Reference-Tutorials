@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Belgeler dizininin yolu.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// 3B sahneyi desteklenen dosya formatlarında kaydedin
+//3B sahneyi desteklenen dosya formatlarında kaydedin
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);

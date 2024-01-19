@@ -15,7 +15,7 @@ Välkommen till denna omfattande handledning om triangulering av maskor i 3D-sce
 
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
--  Aspose.3D for .NET Library: Se till att du har Aspose.3D-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET Library: Se till att du har Aspose.3D-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/net/).
 
 - Exempel på 3D-modell: Ha en 3D-modell i FBX-format som du vill triangulera. Du kan använda den medföljande[document.fbx](https://reference.aspose.com/3d/net/) fil för övning.
 

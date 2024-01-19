@@ -1,6 +1,6 @@
 ---
-title:Caricamento e salvataggio: creazione di un documento 3D vuoto
-linktitle:Caricamento e salvataggio: creazione di un documento 3D vuoto
+title: Caricamento e salvataggio creazione di un documento 3D vuoto
+linktitle: Caricamento e salvataggio creazione di un documento 3D vuoto
 second_title: API Aspose.3D .NET
 description: Esplora il mondo della creazione di documenti 3D con Aspose.3D per .NET. Crea, modifica e salva splendide scene 3D senza sforzo.
 type: docs

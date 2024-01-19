@@ -16,7 +16,7 @@ Willkommen in der Welt von Aspose.3D für .NET! Wenn Sie Ihre 3D-Entwicklungsfä
 Bevor wir mit der Erkundung der aufregenden Funktionen von Aspose.3D beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
 - Grundlegendes Verständnis der C#- und .NET-Entwicklung.
-- Aspose.3D für .NET-Bibliothek installiert. Sie können es hier herunterladen[Release-Seite](https://releases.aspose.com/3d/net/).
+-  Aspose.3D für .NET-Bibliothek installiert. Sie können es hier herunterladen[Release-Seite](https://releases.aspose.com/3d/net/).
 - Eine mit Visual Studio oder einer anderen bevorzugten C#-IDE eingerichtete Entwicklungsumgebung.
 
 ## Namespaces importieren

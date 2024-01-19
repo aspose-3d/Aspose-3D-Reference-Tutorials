@@ -77,7 +77,7 @@ På den högra noden, utför linjär extrudering med hjälp av egenskapen twist,
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 360, Slices = 100, TwistOffset = new Vector3(3, 0, 0) });
 ```
 
-## Steg 6: Spara 3D-scen
+## Steg 6: Spara 3D-scenen
 
 Spara 3D-scenen i önskad utdatakatalog, och ange filformatet som WavefrontOBJ.
 
@@ -103,7 +103,7 @@ S1: Aspose.3D stöder främst .NET-språk, men Aspose tillhandahåller liknande 
 
 ### F3: Finns det ett communityforum för Aspose.3D för .NET?
 
- A3: Absolut! Gå med i samhället kl[Aspose.3D Forum](https://forum.aspose.com/c/3d/18) att engagera sig med andra utvecklare och söka hjälp.
+A3: Absolut! Gå med i samhället kl[Aspose.3D Forum](https://forum.aspose.com/c/3d/18) att engagera sig med andra utvecklare och söka hjälp.
 
 ### F4: Finns det ytterligare exempel och dokumentation tillgänglig?
 

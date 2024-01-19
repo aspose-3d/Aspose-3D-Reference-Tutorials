@@ -21,7 +21,7 @@ Daha sorunsuz işleme, daha hızlı yükleme süreleri ve performans artışı i
 
 [Box Mesh'i Üçgen Mesh'e Dönüştürme Eğitimi](./convert-box-mesh-triangle-memory-layout/)
 
-Aspose.3D for .NET'i keşfedin ve Özel Bellek Düzeni ile Box Mesh'i Üçgen Mesh'e dönüştürmeyi öğrenin. Bu eğitim, süreci kolay adımlara bölerek uygulamalarınızda 3D modellemeyi verimlilik ve hassasiyetle gerçekleştirmenize olanak tanır.
+Aspose.3D for .NET'i keşfedin ve Özel Bellek Düzeni ile Box Mesh'i Üçgen Mesh'e dönüştürmeyi öğrenin. Bu eğitim, süreci kolay adımlara bölerek uygulamalarınızda 3D modellemeyi verimlilik ve hassasiyetle gerçekleştirmenize olanak sağlar.
 
 ## Box Primitive'i Mesh'e Dönüştürme
 

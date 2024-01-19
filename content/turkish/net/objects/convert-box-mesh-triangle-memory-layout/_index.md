@@ -59,7 +59,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 ```csharp
 // Çıkış dizinini belirtin
 string output = "Your Output Directory" + "BoxToTriangleMeshCustomMemoryLayoutScene.fbx";
-// 3B sahneyi desteklenen dosya formatlarında kaydedin
+//3B sahneyi desteklenen dosya formatlarında kaydedin
 scene.Save(output, FileFormat.FBX7400ASCII);
 Console.WriteLine("\n Converted a Box mesh to triangle mesh with custom memory layout of the vertex successfully.\nFile saved at " + output);
 ```

@@ -12,7 +12,7 @@ Willkommen bei dieser Schritt-für-Schritt-Anleitung zum Rendern einer Szene in 
 ## Voraussetzungen
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 - Grundkenntnisse in der C#- und .NET-Entwicklung.
-- Aspose.3D für .NET installiert. Sie können es herunterladen[Hier](https://releases.aspose.com/3d/net/).
+-  Aspose.3D für .NET installiert. Sie können es herunterladen[Hier](https://releases.aspose.com/3d/net/).
 - Eine 3D-Szenendatei im GLB-Format (z. B. „VirtualCity.glb“) zum Rendern.
 ## Namespaces importieren
 Importieren Sie zunächst die erforderlichen Namespaces für Aspose.3D in Ihren C#-Code:

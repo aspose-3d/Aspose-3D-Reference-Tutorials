@@ -12,7 +12,7 @@ Benvenuti in questa guida passo passo sul rendering di una scena in una mappa cu
 ## Prerequisiti
 Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 - Una conoscenza pratica dello sviluppo C# e .NET.
-- Aspose.3D per .NET installato. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/net/).
+-  Aspose.3D per .NET installato. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/net/).
 - Un file di scena 3D in formato GLB (ad esempio "VirtualCity.glb") per il rendering.
 ## Importa spazi dei nomi
 Inizia importando gli spazi dei nomi necessari per Aspose.3D nel tuo codice C#:

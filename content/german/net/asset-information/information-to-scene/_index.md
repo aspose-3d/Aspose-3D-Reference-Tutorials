@@ -15,7 +15,7 @@ Willkommen zu diesem umfassenden Tutorial zur Verwendung von Aspose.3D für .NET
 
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
--  Aspose.3D für .NET: Stellen Sie sicher, dass Sie die Bibliothek installiert haben. Sie können es hier herunterladen[Aspose.3D für .NET-Seite](https://releases.aspose.com/3d/net/).
+- Aspose.3D für .NET: Stellen Sie sicher, dass Sie die Bibliothek installiert haben. Sie können es hier herunterladen[Aspose.3D für .NET-Seite](https://releases.aspose.com/3d/net/).
 
 ## Namespaces importieren
 

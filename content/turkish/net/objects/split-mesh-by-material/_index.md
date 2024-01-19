@@ -54,7 +54,7 @@ mat.Indices.AddRange(new int[] { 0, 0, 0, 1, 1, 1 });
 CompactData politikasıyla bir sonraki bölme işlemine hazırlanmak için malzeme endekslerini güncelleyin.
 ## Adım 5: Mesh'i Malzemeye Göre Bölme (CompactData Politikası)
 ```csharp
-// Her biri belirli düzlemler içeren 2 alt ağa bölün
+//Her biri belirli düzlemler içeren 2 alt ağa bölün
 planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CompactData);
 ```
 Şimdi ağı iki alt ağa böldük, düzlemleri malzemelere göre gruplandırdık ve CompactData ilkesini kullandık.

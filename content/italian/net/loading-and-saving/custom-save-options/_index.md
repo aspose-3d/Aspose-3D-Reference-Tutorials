@@ -1,6 +1,6 @@
 ---
-tiitle: Caricamento e salvataggio opzioni di salvataggio personalizzate
-linktiitle: Caricamento e salvataggio opzioni di salvataggio personalizzate
+title: Caricamento e salvataggio opzioni di salvataggio personalizzate
+linktitle: Caricamento e salvataggio opzioni di salvataggio personalizzate
 second_title: API Aspose.3D .NET
 description: Esplora la potenza di Aspose.3D per .NET. Scopri come personalizzare il salvataggio delle scene 3D con guide dettagliate sui formati Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC e RVM.
 type: docs
@@ -16,7 +16,7 @@ Benvenuti nel mondo di Aspose.3D per .NET! Se stai cercando di migliorare le tue
 Prima di iniziare a esplorare le interessanti funzionalità di Aspose.3D, assicurati di avere i seguenti prerequisiti:
 
 - Conoscenza di base dello sviluppo C# e .NET.
-- Aspose.3D per la libreria .NET installata. Puoi scaricarlo da[pagina di rilascio](https://releases.aspose.com/3d/net/).
+-  Aspose.3D per la libreria .NET installata. Puoi scaricarlo da[pagina di rilascio](https://releases.aspose.com/3d/net/).
 - Un ambiente di sviluppo configurato con Visual Studio o qualsiasi altro IDE C# preferito.
 
 ## Importa spazi dei nomi

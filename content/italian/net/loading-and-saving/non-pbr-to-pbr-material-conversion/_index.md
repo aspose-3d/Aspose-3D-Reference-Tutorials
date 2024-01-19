@@ -1,6 +1,6 @@
 ---
-tiitle: Caricamento e salvataggio conversione di materiale da non PBR a PBR
-linktiitle: Caricamento e salvataggio conversione di materiale da non PBR a PBR
+title: Caricamento e salvataggio conversione di materiale da non PBR a PBR
+linktitle: Caricamento e salvataggio conversione di materiale da non PBR a PBR
 second_title: API Aspose.3D .NET
 description: Esplora Aspose.3D per .NET converti materiali non PBR in PBR senza sforzo. Tutorial completo e API potente.
 type: docs
@@ -15,7 +15,7 @@ Benvenuti in questa guida passo passo sull'utilizzo di Aspose.3D per .NET per co
 
 Prima di immergerci nel tutorial, assicurati di possedere i seguenti prerequisiti:
 
-- Aspose.3D per .NET: assicurati di avere la libreria Aspose.3D per .NET installata. È possibile trovare il collegamento per il download[Qui](https://releases.aspose.com/3d/net/).
+-  Aspose.3D per .NET: assicurati di avere la libreria Aspose.3D per .NET installata. È possibile trovare il collegamento per il download[Qui](https://releases.aspose.com/3d/net/).
 
 - Comprensione di base di C#: questo tutorial presuppone che tu abbia una conoscenza di base della programmazione C#.
 
@@ -96,7 +96,7 @@ A1: Sì, Aspose.3D supporta un'ampia gamma di formati di file 3D, offrendo fless
 
 ### Q3: Ho bisogno di una licenza temporanea per i test?
 
- R3: Sì, puoi ottenere una licenza temporanea a scopo di test[Qui](https://purchase.aspose.com/temporary-license/).
+R3: Sì, puoi ottenere una licenza temporanea a scopo di test[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### Q4: Dove posso trovare supporto per Aspose.3D?
 

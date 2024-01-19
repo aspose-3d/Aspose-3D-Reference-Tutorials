@@ -14,7 +14,7 @@ Prima di immergerci nei dettagli della decodifica mesh, assicuriamoci di essere 
 1. Comprensione di base della programmazione 3D:
    Per sfruttare al meglio questo tutorial, è essenziale avere una conoscenza fondamentale dei concetti di programmazione 3D. Se termini come vertici e poligoni ti suonano familiari, sei sulla strada giusta.
 2. Installazione di Aspose.3D per .NET:
-    Vai a[Documentazione Aspose.3D](https://reference.aspose.com/3d/net/)per installare e configurare Aspose.3D per .NET. Questo potente kit di strumenti sarà la tua bacchetta magica durante questo viaggio.
+    Vai a[Documentazione Aspose.3D](https://reference.aspose.com/3d/net/) per installare e configurare Aspose.3D per .NET. Questo potente kit di strumenti sarà la tua bacchetta magica durante questo viaggio.
 ## Importa spazi dei nomi
 Ora che siamo pronti, importiamo gli spazi dei nomi necessari per preparare il terreno per la brillantezza della decodifica mesh:
 ```csharp

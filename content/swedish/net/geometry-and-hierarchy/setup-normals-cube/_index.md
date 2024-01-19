@@ -37,11 +37,11 @@ using Aspose.ThreeD.Utilities;
 Det första steget innebär att definiera rå normaldata för vår kub. Normaler representeras som Vector4-objekt, och här är ett exempel:
 
 ```csharp
-//ExStart:RawNormalData
+// ExStart:RawNormalData
 Vector4[] normals = new Vector4[]
 {
     new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
-    // ... (upprepa för de andra 7 hörnen)
+    //... (upprepa för de andra 7 hörnen)
 };
 // ExEnd:RawNormalData
 ```
@@ -87,7 +87,7 @@ S1: Ja, Aspose.3D stöder olika 3D-filformat, vilket möjliggör sömlös integr
 
 ### F2: Kan jag prova Aspose.3D innan jag köper?
 
- A2: Absolut! Du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/).
+A2: Absolut! Du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/).
 
 ### F3: Var kan jag hitta tillfälliga licenser för Aspose.3D?
 

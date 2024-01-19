@@ -35,4 +35,25 @@ Estos son enlaces a algunos recursos útiles:
 - [Trabajar con nube de puntos](./net/working-with-point-cloud/)
 - [Trabajar con VRML](./net/working-with-vrml/)
 
+## Tutoriales de Aspose.3D para Java
+{{% alert color="primary" %}}
+Desbloquee las posibilidades ilimitadas del desarrollo Java 3D con Aspose.3D. Nuestros completos tutoriales cubren todo, desde animar escenas hasta manipular objetos 3D y optimizar datos de malla. Mejore sus habilidades con guías paso a paso sobre geometría, manipulación de archivos, técnicas de renderizado y más. Si eres un desarrollador experimentado o estás empezando, nuestros tutoriales te permiten crear proyectos 3D cautivadores sin esfuerzo. Sumérgete en el mundo de Aspose.3D para Java y transforma tu experiencia de codificación.
+{{% /alert %}}
 
+Estos son enlaces a algunos recursos útiles:
+
+- [Trabajar con animaciones en Java](./java/animations/)
+- [Trabajar con geometría 3D en Java](./java/geometry/)
+- [Primeros pasos con Aspose.3D para Java](./java/licensing/)
+- [Creando modelos 3D con extrusión lineal en Java](./java/linear-extrusion/)
+- [Creación de modelos 3D primitivos en Aspose.3D para Java](./java/primitive-3d-models/)
+- [Trabajar con cilindros en Aspose.3D para Java](./java/cylinders/)
+- [Trabajar con archivos VRML en Java](./java/vrml-files/)
+- [Manipulación de polígonos en modelos 3D con Java](./java/polygon/)
+- [Representación de escenas 3D en aplicaciones Java](./java/rendering-3d-scenes/)
+- [Trabajar con escenas y modelos 3D en Java](./java/3d-scenes-and-models/)
+- [Trabajar con archivos 3D en Java: crear, cargar, guardar y convertir](./java/load-and-save/)
+- [Creando y transformando mallas 3D en Java](./java/transforming-3d-meshes/)
+- [Optimización y trabajo con datos de malla 3D en Java](./java/3d-mesh-data/)
+- [Manipulación de objetos y escenas 3D en Java](./java/3d-objects-and-scenes/)
+- [Trabajar con nubes de puntos en Java](./java/point-clouds/)

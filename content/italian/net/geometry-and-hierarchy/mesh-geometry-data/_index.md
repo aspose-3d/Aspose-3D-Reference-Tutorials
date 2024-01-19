@@ -95,7 +95,7 @@ Crea una mesh utilizzando il metodo di creazione poligoni e applica i colori a d
 // Il percorso della directory dei documenti.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-// Salva la scena 3D nei formati di file supportati
+//Salva la scena 3D nei formati di file supportati
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

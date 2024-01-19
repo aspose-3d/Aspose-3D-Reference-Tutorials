@@ -75,7 +75,7 @@ scene.Save("Your Output Directory" + "output_out.pdf", opt);
 
 ## Çözüm
 
- Tebrikler! Basit bir 3D model oluşturmak ve bunu PDF formatında kaydetmek için Aspose.3D for .NET'i nasıl kullanacağınızı başarıyla öğrendiniz. Bu, bu güçlü kütüphaneyle başarabileceklerinizin sadece başlangıcı. Daha fazla özellik ve olasılığı keşfedin[Aspose.3D belgeleri](https://reference.aspose.com/3d/net/).
+Tebrikler! Basit bir 3D model oluşturmak ve bunu PDF formatında kaydetmek için Aspose.3D for .NET'i nasıl kullanacağınızı başarıyla öğrendiniz. Bu, bu güçlü kütüphaneyle başarabileceklerinizin sadece başlangıcı. Daha fazla özellik ve olasılığı keşfedin[Aspose.3D belgeleri](https://reference.aspose.com/3d/net/).
 
 ## SSS'ler
 

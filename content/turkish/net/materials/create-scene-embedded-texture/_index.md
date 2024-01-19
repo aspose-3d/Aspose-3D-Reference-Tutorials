@@ -44,7 +44,7 @@ Scene scene = new Scene();
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    //Gömülü doku kullanılıyorsa dosya adı gereklidir.
+    // Gömülü doku kullanılıyorsa dosya adı gereklidir.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

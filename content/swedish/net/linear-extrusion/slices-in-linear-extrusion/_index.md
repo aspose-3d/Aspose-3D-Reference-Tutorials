@@ -83,7 +83,7 @@ right.CreateChildNode(new LinearExtrusion(profile, 2) { Slices = 10 });
 // ExEnd:LinearExtrusionRightNode
 ```
 
-### Steg 6: Spara 3D-scen
+### Steg 6: Spara 3D-scenen
 
 ```csharp
 // ExStart:Save3DScene

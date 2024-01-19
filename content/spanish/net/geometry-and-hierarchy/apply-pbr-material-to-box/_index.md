@@ -104,7 +104,7 @@ R2: ¡Absolutamente! Aspose.3D proporciona licencias comerciales para una integr
 
 ### P3: ¿Hay una versión de prueba disponible?
 
- R3: Sí, puede explorar las capacidades de Aspose.3D descargando la versión de prueba gratuita[aquí](https://releases.aspose.com/).
+R3: Sí, puede explorar las capacidades de Aspose.3D descargando la versión de prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Dónde puedo encontrar debates y apoyo de la comunidad?
 

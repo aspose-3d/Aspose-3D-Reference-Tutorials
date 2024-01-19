@@ -21,7 +21,7 @@ C# kullanımı da dahil olmak üzere .NET geliştirme konusunda sağlam bir anla
 
 ### 2. Aspose.3D for .NET Kurulumu
 
-Aspose.3D for .NET'i ziyaret ederek indirip yükleyin.[İndirme: {link](https://releases.aspose.com/3d/net/) . Herhangi bir sorunla karşılaşırsanız, bkz.[dokümantasyon](https://reference.aspose.com/3d/net/) yardım için.
+ Aspose.3D for .NET'i ziyaret ederek indirip yükleyin.[İndirme: {link](https://releases.aspose.com/3d/net/) . Herhangi bir sorunla karşılaşırsanız, bkz.[dokümantasyon](https://reference.aspose.com/3d/net/) yardım için.
 
 ### 3. Temel 3D Kavramları
 
@@ -91,9 +91,9 @@ Cevap1: Aspose.3D, çok çeşitli .NET çerçeveleriyle uyumludur ve çeşitli p
 
  Cevap3: Forumlar destek aramak ve toplulukla etkileşim kurmak için mükemmel bir yerdir. Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) yardım için.
 
-### S4: Daha fazla öğretici ve örnek keşfedebilir miyim?
+### S4: Daha fazla öğretici ve örnek inceleyebilir miyim?
 
- A4: Kesinlikle![dokümantasyon](https://reference.aspose.com/3d/net/)Aspose.3D deneyiminizi geliştirmek için kapsamlı eğitimler, örnekler ve belgeler sağlar.
+ A4: Kesinlikle![dokümantasyon](https://reference.aspose.com/3d/net/) Aspose.3D deneyiminizi geliştirmek için kapsamlı eğitimler, örnekler ve belgeler sağlar.
 
 ### S5: Aspose.3D for .NET'i nasıl satın alabilirim?
 

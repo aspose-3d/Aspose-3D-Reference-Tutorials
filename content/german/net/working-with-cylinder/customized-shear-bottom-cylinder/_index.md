@@ -73,4 +73,4 @@ Ja, Sie können den Scherboden für jeden Zylinder individuell anpassen und so e
 ### Wo finde ich zusätzliche Unterstützung?
  Besuche den[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) für Community-Unterstützung und Diskussionen.
 ### Wie kann ich eine temporäre Lizenz erhalten?
-Holen Sie sich Ihre temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
+ Holen Sie sich Ihre temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).

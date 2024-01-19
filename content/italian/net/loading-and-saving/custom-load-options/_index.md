@@ -1,6 +1,6 @@
 ---
-tiitle: Caricamento e salvataggio opzioni di caricamento personalizzate
-linktiitle: Caricamento e salvataggio opzioni di caricamento personalizzate
+title: Caricamento e salvataggio opzioni di caricamento personalizzate
+linktitle: Caricamento e salvataggio opzioni di caricamento personalizzate
 second_title: API Aspose.3D .NET
 description: Esplora Aspose.3D per .NET, la soluzione definitiva per il caricamento e il salvataggio senza interruzioni dei modelli 3D.
 type: docs
@@ -176,4 +176,4 @@ A4: Sì, puoi esplorare le funzionalità di Aspose.3D per .NET scaricando il fil
 
 ### Q5: Dove posso cercare supporto per Aspose.3D per .NET?
 
- A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per il sostegno e l'assistenza della comunità.
+A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per il sostegno e l'assistenza della comunità.

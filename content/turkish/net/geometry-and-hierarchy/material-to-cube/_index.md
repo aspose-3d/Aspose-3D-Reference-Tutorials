@@ -48,7 +48,7 @@ Node cubeNode = new Node("cube");
 // Örgü örneğini ayarlamak için çokgen oluşturucu yöntemini kullanarak ortak sınıf oluşturma örgüsünü çağırın
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
 
-// Düğümü ağa yönlendirin
+//Düğümü ağa yönlendirin
 cubeNode.Entity = mesh;
 
 // Sahneye küp ekle
@@ -83,7 +83,7 @@ diffuse.FileName = "embedded-texture.png";
 
 // İkili içeriği ayarla
 diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-// ExEnd:EmbedRawContentData
+//ExEnd:EmbedRawContentData
 ```
 
 ## Adım 4: Malzeme Özelliklerini Ayarlayın
@@ -107,7 +107,7 @@ cubeNode.Material = mat;
 // ExStart:3DScene'i Kaydet
 var output = "Your Output Directory" + "MaterialToCube.fbx";
 
-// 3B sahneyi desteklenen dosya formatlarında kaydedin
+//3B sahneyi desteklenen dosya formatlarında kaydedin
 scene.Save(output, FileFormat.FBX7400ASCII);
 // ExEnd:3DScene'i Kaydet
 
@@ -140,4 +140,4 @@ Cevap3: Evet, Aspose.3D, 3D sahnelerde animasyonlar oluşturmak ve değiştirmek
 
 ### S5: Herhangi bir sorun veya soru için nasıl destek alabilirim?
 
- A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) toplulukla bağlantı kurmak ve yardım istemek.
+A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) toplulukla bağlantı kurmak ve yardım istemek.

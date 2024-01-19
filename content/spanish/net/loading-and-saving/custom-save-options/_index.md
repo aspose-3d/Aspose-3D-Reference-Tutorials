@@ -16,7 +16,7 @@ url: /es/net/loading-and-saving/custom-save-options/
 Antes de comenzar a explorar las interesantes funciones de Aspose.3D, asegúrese de tener los siguientes requisitos previos:
 
 - Conocimientos básicos del desarrollo de C# y .NET.
-- Aspose.3D para la biblioteca .NET instalada. Puedes descargarlo desde el[página de lanzamiento](https://releases.aspose.com/3d/net/).
+-  Aspose.3D para la biblioteca .NET instalada. Puedes descargarlo desde el[página de lanzamiento](https://releases.aspose.com/3d/net/).
 - Un entorno de desarrollo configurado con Visual Studio o cualquier otro IDE de C# preferido.
 
 ## Importar espacios de nombres

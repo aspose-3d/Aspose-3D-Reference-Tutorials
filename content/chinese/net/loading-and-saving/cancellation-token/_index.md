@@ -111,7 +111,7 @@ catch (ImportException e)
 
 ### Q3：哪里可以找到对 Aspose.3D 的支持？
 
- A3：加入社区讨论[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18).
+A3：加入社区讨论[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18).
 
 ### Q4：购买前可以免费试用Aspose.3D吗？
 

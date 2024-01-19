@@ -9,7 +9,7 @@ url: /es/net/geometry-and-hierarchy/node-hierarchy/
 ---
 ## Introducción
 
-Bienvenido al mundo de Aspose.3D para .NET, una poderosa biblioteca que permite a los desarrolladores trabajar sin problemas con escenas y modelos 3D en sus aplicaciones .NET. En este tutorial, profundizaremos en las complejidades de comprender la jerarquía de nodos en escenas 3D usando Aspose.3D. Al final de esta guía, tendrá una sólida comprensión de cómo manipular la estructura de escenas 3D a través de nodos, lo que le permitirá crear experiencias visuales impresionantes.
+Bienvenido al mundo de Aspose.3D para .NET, una potente biblioteca que permite a los desarrolladores trabajar sin problemas con escenas y modelos 3D en sus aplicaciones .NET. En este tutorial, profundizaremos en las complejidades de comprender la jerarquía de nodos en escenas 3D usando Aspose.3D. Al final de esta guía, tendrá una comprensión sólida de cómo manipular la estructura de escenas 3D a través de nodos, lo que le permitirá crear experiencias visuales impresionantes.
 
 ## Requisitos previos
 
@@ -17,11 +17,11 @@ Antes de embarcarnos en este viaje 3D, asegúrese de cumplir con los siguientes 
 
 -  Aspose.3D para la biblioteca .NET: asegúrese de tener la biblioteca Aspose.3D integrada en su proyecto .NET. Si aún no lo has hecho, dirígete al[documentación](https://reference.aspose.com/3d/net/) para ayuda.
 
--  Descargue la biblioteca: si no ha descargado la biblioteca Aspose.3D, obtenga la última versión de[enlace de descarga](https://releases.aspose.com/3d/net/) y siga las instrucciones de instalación proporcionadas en la documentación.
+-  Descargue la biblioteca: si no ha descargado la biblioteca Aspose.3D, obtenga la última versión de[enlace de descarga](https://releases.aspose.com/3d/net/) siga las instrucciones de instalación proporcionadas en la documentación.
 
 -  Obtenga una licencia: para desbloquear todo el potencial de Aspose.3D, necesita una licencia válida. Si no tienes uno, puedes obtenerlo.[aquí](https://purchase.aspose.com/buy) u optar por un[prueba gratis](https://releases.aspose.com/) para explorar sus capacidades.
 
-- Soporte y comunidad: únase a la comunidad Aspose.3D en el[Foro de soporte](https://forum.aspose.com/c/3d/18) para conectarse con otros desarrolladores, buscar ayuda y mantenerse actualizado sobre los últimos desarrollos.
+-  Soporte y comunidad: únase a la comunidad Aspose.3D en el[Foro de soporte](https://forum.aspose.com/c/3d/18)para conectarse con otros desarrolladores, buscar ayuda y mantenerse actualizado sobre los últimos desarrollos.
 
 -  Licencia temporal (opcional): si está explorando Aspose.3D antes de realizar una compra, considere obtener una[licencia temporal](https://purchase.aspose.com/temporary-license/) para acceso extendido.
 
@@ -68,7 +68,7 @@ cube1.Entity = mesh;
 cube2.Entity = mesh;
 ```
 
-Genere una malla usando un método adecuado (aquí,`CreateMeshUsingPolygonBuilder`) y asígnelo a los nodos secundarios.
+ Genere una malla usando un método adecuado (aquí,`CreateMeshUsingPolygonBuilder`) y asígnelo a los nodos secundarios.
 
 ## Paso 4: establecer traducciones
 

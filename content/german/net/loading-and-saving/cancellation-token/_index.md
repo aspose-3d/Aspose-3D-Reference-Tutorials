@@ -78,7 +78,7 @@ catch (ImportException e)
 }
 ```
 
- Versuchen Sie, das 3D-Dokument innerhalb des angegebenen Zeitrahmens zu öffnen. Der`cts.Token` Der Parameter stellt sicher, dass der Vorgang abgebrochen werden kann, wenn er das eingestellte Timeout überschreitet.
+ Versuchen Sie, das 3D-Dokument innerhalb des angegebenen Zeitrahmens zu öffnen. Der`cts.Token`Der Parameter stellt sicher, dass der Vorgang abgebrochen werden kann, wenn er das eingestellte Timeout überschreitet.
 
 ### Schritt 5: Importausnahme behandeln
 

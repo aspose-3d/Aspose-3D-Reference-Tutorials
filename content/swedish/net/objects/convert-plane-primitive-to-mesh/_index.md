@@ -65,7 +65,7 @@ Console.WriteLine("\n Converted the primitive Plane to a mesh successfully.\nFil
 ```
 Informera användaren om den lyckade konverteringen och den sparade filens plats.
 ## Slutsats
-den här handledningen har du lärt dig hur du använder Aspose.3D för .NET för att sömlöst konvertera en Plane Primitive till en Mesh. Aspose.3D förenklar 3D-manipulation, vilket gör det till ett ovärderligt verktyg för utvecklare som arbetar med 3D-grafik i .NET-applikationer.
+I den här handledningen har du lärt dig hur du använder Aspose.3D för .NET för att sömlöst konvertera en Plane Primitive till en Mesh. Aspose.3D förenklar 3D-manipulation, vilket gör det till ett ovärderligt verktyg för utvecklare som arbetar med 3D-grafik i .NET-applikationer.
 ## Vanliga frågor
 ### Är Aspose.3D kompatibel med alla större 3D-filformat?
 Ja, Aspose.3D stöder ett brett utbud av 3D-filformat, vilket säkerställer kompatibilitet med olika industristandarder.

@@ -83,7 +83,7 @@ File.WriteAllBytes(fileName, content);
 
  О3: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/) для тестирования и оценки.
 
-### 4 квартал; Где я могу найти поддержку Aspose.3D?
+### квартал; Где я могу найти поддержку Aspose.3D?
 
  A4: Посетите форум Aspose.3D.[здесь](https://forum.aspose.com/c/3d/18) по любым вопросам, связанным с поддержкой.
 

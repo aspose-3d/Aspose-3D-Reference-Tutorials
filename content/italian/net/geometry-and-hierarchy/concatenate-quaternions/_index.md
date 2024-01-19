@@ -43,7 +43,7 @@ Scene scene = new Scene();
 
 ## Passaggio 2: definire i quaternioni
 
- Definire tre quaternioni,`q1`, `q2` E`q3`, ciascuno dei quali rappresenta una rotazione specifica.
+ Definire tre quaternioni,`q1`, `q2` , E`q3`, ciascuno dei quali rappresenta una rotazione specifica.
 
 ```csharp
 Quaternion q1 = Quaternion.FromEulerAngle(Math.PI * 0.5, 0, 0);

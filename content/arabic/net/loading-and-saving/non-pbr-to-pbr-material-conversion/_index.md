@@ -15,7 +15,7 @@ url: /ar/net/loading-and-saving/non-pbr-to-pbr-material-conversion/
 
 قبل أن نتعمق في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
 
-- Aspose.3D لـ .NET: تأكد من تثبيت مكتبة Aspose.3D لـ .NET. يمكنك العثور على رابط التحميل[هنا](https://releases.aspose.com/3d/net/).
+-  Aspose.3D لـ .NET: تأكد من تثبيت مكتبة Aspose.3D لـ .NET. يمكنك العثور على رابط التحميل[هنا](https://releases.aspose.com/3d/net/).
 
 - الفهم الأساسي لـ C#: يفترض هذا البرنامج التعليمي أن لديك فهمًا أساسيًا لبرمجة C#.
 
@@ -96,7 +96,7 @@ scene.Save("Your Output Directory" + "Non_PBRtoPBRMaterial_Out.gltf", options);
 
 ### س3: هل أحتاج إلى ترخيص مؤقت للاختبار؟
 
- ج3: نعم، يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار[هنا](https://purchase.aspose.com/temporary-license/).
+ج3: نعم، يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار[هنا](https://purchase.aspose.com/temporary-license/).
 
 ### س4: أين يمكنني العثور على الدعم لـ Aspose.3D؟
 

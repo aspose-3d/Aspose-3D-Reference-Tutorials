@@ -40,7 +40,7 @@ url: /it/net/working-with-point-cloud/
 
  Immergiti nell'affascinante mondo della modellazione 3D con Aspose.3D per .NET. Questo tutorial ti insegna come esportare modelli in formato PLY senza sforzo.[Eleva i tuoi progetti](./export-to-ply-point-cloud/) con immagini straordinarie e acquisisci una comprensione più approfondita dell'esportazione in diversi formati.[Esplora ora](./export-to-ply-point-cloud/) sbloccare tutto il potenziale di Aspose.3D per .NET.
 
- In conclusione, questi tutorial offrono una guida completa per lavorare con le nuvole di punti, decodificare e codificare mesh ed esportare scene 3D utilizzando[Aspose.3D per .NET](#working-with-point-cloud-tutorials) . Che tu sia un principiante o uno sviluppatore esperto, abbraccia la potenza di Aspose.3D e[porta le tue abilità di programmazione 3D a nuovi livelli](#working-with-point-cloud-tutorials)!
+ In conclusione, questi tutorial offrono una guida completa per lavorare con le nuvole di punti, decodificare e codificare le mesh ed esportare scene 3D utilizzando[Aspose.3D per .NET](#working-with-point-cloud-tutorials) . Che tu sia un principiante o uno sviluppatore esperto, abbraccia la potenza di Aspose.3D e[porta le tue abilità di programmazione 3D a nuovi livelli](#working-with-point-cloud-tutorials)!
 ## Utilizzo dei tutorial sulle nuvole di punti
 ### [Maglia di decodifica](./decode-mesh/)
 Decodifica mesh senza sforzo con Aspose.3D per .NET. La tua porta d'accesso alla programmazione 3D senza soluzione di continuità. Esplora, personalizza e migliora i tuoi progetti.

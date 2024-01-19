@@ -87,7 +87,7 @@ Specifica la directory di output e salva la scena 3D in un formato file supporta
 // Il percorso della directory dei documenti.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-// Salva la scena 3D nei formati di file supportati
+//Salva la scena 3D nei formati di file supportati
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

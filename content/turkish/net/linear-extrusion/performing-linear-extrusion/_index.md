@@ -103,6 +103,6 @@ A1: Kesinlikle! Aspose.3D kullanıcı dostu bir ortam sunar ve eğitimimiz size 
 
  A4: Katılın[Aspose.3D Forumu](https://forum.aspose.com/c/3d/18) Canlı bir toplulukla bağlantı kurmak ve yardım istemek.
 
-### S5: Ücretsiz deneme sürümü mevcut mu?
+### S5: Ücretsiz deneme sürümü var mı?
 
  A5: Kesinlikle! Ücretsiz deneme sürümünü indirin[Burada](https://releases.aspose.com/) Aspose.3D'nin yeteneklerini ilk elden deneyimlemek için.

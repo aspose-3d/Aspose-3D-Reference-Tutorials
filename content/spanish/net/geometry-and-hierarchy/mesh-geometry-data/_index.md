@@ -95,7 +95,7 @@ Cree una malla utilizando el método del generador de polígonos y aplique color
 // La ruta al directorio de documentos.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-// Guarde la escena 3D en los formatos de archivo compatibles
+//Guarde la escena 3D en los formatos de archivo compatibles
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

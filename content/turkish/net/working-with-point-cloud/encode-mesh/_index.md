@@ -8,7 +8,7 @@ weight: 12
 url: /tr/net/working-with-point-cloud/encode-mesh/
 ---
 ## giriiş
-.NET geliştirme oyununuzu son teknoloji 3D grafikler ve örgü kodlamayla yükseltmeye hazır mısınız? Aspose.3D for .NET'ten başka bir yere bakmayın! Bu güçlü kitaplık, geliştiricilerin 3D sahneleri değiştirmesine, çarpıcı görseller oluşturmasına ve örgü kodlamayı sorunsuz bir şekilde optimize etmesine olanak tanır. Bu eğitimde, Aspose.3D for .NET'i kullanarak ağ kodlamanın inceliklerini inceleyeceğiz ve size bunun özelliklerinden yararlanmanız için kapsamlı bir rehber sunacağız.
+.NET geliştirme oyununuzu son teknoloji 3D grafikler ve örgü kodlamayla yükseltmeye hazır mısınız? Aspose.3D for .NET'ten başka bir yere bakmayın! Bu güçlü kitaplık, geliştiricilerin 3D sahneleri değiştirmesine, çarpıcı görseller oluşturmasına ve örgü kodlamayı sorunsuz bir şekilde optimize etmesine olanak tanır. Bu eğitimde, Aspose.3D for .NET'i kullanarak ağ kodlamanın inceliklerini inceleyeceğiz ve size bu özelliğin özelliklerinden yararlanmanız için kapsamlı bir kılavuz sunacağız.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 1.  Aspose.3D for .NET Kurulumu: Kütüphaneyi ziyaret ederek indirip yükleyin.[indirme sayfası](https://releases.aspose.com/3d/net/). Aspose.3D'yi .NET ortamınıza sorunsuz bir şekilde entegre etmek için belgelerde verilen kurulum talimatlarını izleyin.

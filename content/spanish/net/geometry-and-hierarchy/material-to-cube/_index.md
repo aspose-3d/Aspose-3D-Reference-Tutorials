@@ -48,7 +48,7 @@ Node cubeNode = new Node("cube");
 // Llame a la clase común para crear malla utilizando el método de creación de polígonos para establecer una instancia de malla
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
 
-// Apuntar nodo a la malla.
+//Apuntar nodo a la malla.
 cubeNode.Entity = mesh;
 
 // Añadir cubo a la escena.
@@ -83,7 +83,7 @@ diffuse.FileName = "embedded-texture.png";
 
 // Establecer contenido binario
 diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-// ExEnd:EmbedRawContentData
+//ExEnd:EmbedRawContentData
 ```
 
 ## Paso 4: establecer las propiedades del material
@@ -107,7 +107,7 @@ cubeNode.Material = mat;
 // ExInicio:GuardarEscena3DS
 var output = "Your Output Directory" + "MaterialToCube.fbx";
 
-// Guarde la escena 3D en los formatos de archivo compatibles
+//Guarde la escena 3D en los formatos de archivo compatibles
 scene.Save(output, FileFormat.FBX7400ASCII);
 // ExEnd:GuardarEscena 3DS
 
@@ -140,4 +140,4 @@ R3: Sí, Aspose.3D brinda soporte integral para crear y manipular animaciones en
 
 ### P5: ¿Cómo puedo obtener asistencia para cualquier problema o consulta?
 
- A5: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para conectarse con la comunidad y buscar ayuda.
+A5: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para conectarse con la comunidad y buscar ayuda.

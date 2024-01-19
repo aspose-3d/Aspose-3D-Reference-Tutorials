@@ -14,7 +14,7 @@ Innan vi dyker in i nätavkodningen, låt oss se till att vi är rustade för ä
 1. Grundläggande förståelse för 3D-programmering:
    För att få ut det mesta av denna handledning är det viktigt att ha en grundläggande förståelse för 3D-programmeringskoncept. Om termer som hörn och polygoner låter bekanta är du på rätt spår.
 2. Installation av Aspose.3D för .NET:
-    Gå över till[Aspose.3D-dokumentation](https://reference.aspose.com/3d/net/)för att installera och ställa in Aspose.3D för .NET. Denna kraftfulla verktygslåda kommer att vara din trollstav under hela resan.
+    Gå över till[Aspose.3D-dokumentation](https://reference.aspose.com/3d/net/) för att installera och ställa in Aspose.3D för .NET. Denna kraftfulla verktygslåda kommer att vara din trollstav under hela resan.
 ## Importera namnområden
 Nu när vi är förberedda, låt oss importera de nödvändiga namnrymden för att sätta scenen för mesh-avkodning:
 ```csharp
@@ -43,7 +43,7 @@ Ersätt "Din dokumentkatalog" med den faktiska sökvägen till ditt mesh-dokumen
 ## Steg 5: Utforska och anpassa
 Voila! Du har framgångsrikt avkodat ett nät med Aspose.3D för .NET. Ta tillfället i akt att utforska det avkodade punktmolnet och anpassa din applikation baserat på ditt projekts unika krav.
 ## Slutsats
-I den här resan genom mesh-avkodning med Aspose.3D för .NET har vi avmystifierat komplexiteten och gett dig möjlighet att utnyttja 3D-programmeringens fulla potential. När du fördjupar dig i dina projekt, kom ihåg – kraften att avkoda ligger i dina händer, och Aspose.3D är din fasta allierade.
+På den här resan genom mesh-avkodning med Aspose.3D för .NET har vi avmystifierat komplexiteten och gett dig möjlighet att utnyttja 3D-programmeringens fulla potential. När du fördjupar dig i dina projekt, kom ihåg – kraften att avkoda ligger i dina händer, och Aspose.3D är din fasta allierade.
 ## Vanliga frågor
 ### Är Aspose.3D kompatibel med olika mesh-format?
 Absolut! Aspose.3D stöder ett brett utbud av mesh-format, vilket säkerställer kompatibilitet med olika 3D-applikationer.

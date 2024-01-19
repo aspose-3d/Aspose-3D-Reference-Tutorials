@@ -17,11 +17,11 @@ Avant de vous lancer dans ce voyage 3D, assurez-vous d'avoir les conditions pré
 
 -  Bibliothèque Aspose.3D pour .NET : assurez-vous que la bibliothèque Aspose.3D est intégrée à votre projet .NET. Si vous ne l'avez pas encore fait, rendez-vous sur[Documentation](https://reference.aspose.com/3d/net/) à titre indicatif.
 
--  Téléchargez la bibliothèque : si vous n'avez pas téléchargé la bibliothèque Aspose.3D, récupérez la dernière version depuis le[lien de téléchargement](https://releases.aspose.com/3d/net/) et suivez les instructions d'installation fournies dans la documentation.
+-  Téléchargez la bibliothèque : si vous n'avez pas téléchargé la bibliothèque Aspose.3D, récupérez la dernière version depuis le[lien de téléchargement](https://releases.aspose.com/3d/net/)et suivez les instructions d'installation fournies dans la documentation.
 
 -  Obtenez une licence : pour libérer tout le potentiel d'Aspose.3D, vous avez besoin d'une licence valide. Si vous n'en avez pas, vous pouvez l'obtenir[ici](https://purchase.aspose.com/buy) ou optez pour un[essai gratuit](https://releases.aspose.com/) pour explorer ses capacités.
 
-- Support et communauté : rejoignez la communauté Aspose.3D sur le[forum d'entraide](https://forum.aspose.com/c/3d/18) pour vous connecter avec d'autres développeurs, demander de l'aide et rester informé des derniers développements.
+-  Support et communauté : rejoignez la communauté Aspose.3D sur le[forum d'entraide](https://forum.aspose.com/c/3d/18)pour vous connecter avec d'autres développeurs, demander de l'aide et rester informé des derniers développements.
 
 -  Licence temporaire (facultatif) : si vous explorez Aspose.3D avant de faire un achat, envisagez d'obtenir un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour un accès étendu.
 
@@ -68,7 +68,7 @@ cube1.Entity = mesh;
 cube2.Entity = mesh;
 ```
 
-Générez un maillage en utilisant une méthode adaptée (ici,`CreateMeshUsingPolygonBuilder`) et attribuez-le aux nœuds enfants.
+ Générez un maillage en utilisant une méthode adaptée (ici,`CreateMeshUsingPolygonBuilder`) et attribuez-le aux nœuds enfants.
 
 ## Étape 4 : Définir les traductions
 

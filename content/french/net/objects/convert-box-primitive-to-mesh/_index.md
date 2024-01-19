@@ -54,9 +54,9 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 ```
 ## Étape 6 : Enregistrer la scène 3D
 ```csharp
-//Spécifiez le répertoire de sortie et le nom du fichier
+// Spécifiez le répertoire de sortie et le nom du fichier
 string output = "Your Output Directory" + "BoxToMeshScene.fbx";
-// Enregistrez la scène 3D dans les formats de fichiers pris en charge
+//Enregistrez la scène 3D dans les formats de fichiers pris en charge
 scene.Save(output, FileFormat.FBX7400ASCII);
 // Afficher le message de réussite
 Console.WriteLine("\nConverted the primitive Box to a mesh successfully.\nFile saved at " + output);

@@ -16,7 +16,7 @@ Willkommen zu dieser Schritt-für-Schritt-Anleitung zum Umkehren des Koordinaten
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
 - Grundlegendes Verständnis der Programmiersprache C#.
--  Aspose.3D für .NET-Bibliothek installiert. Sie können es herunterladen unter[Hier](https://releases.aspose.com/3d/net/).
+- Aspose.3D für .NET-Bibliothek installiert. Sie können es herunterladen unter[Hier](https://releases.aspose.com/3d/net/).
 - Eine Beispiel-3D-Datei in einem unterstützten Format (z. B. .3ds).
 
 ## Namespaces importieren
@@ -52,7 +52,7 @@ var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
 scene.Save(output, FileFormat.WavefrontOBJ);
 ```
 
- Jetzt verwenden wir die`Save`Methode, um die Szene zu exportieren und dabei das Koordinatensystem umzudrehen. Die Ausgabe wird im Wavefront OBJ-Format gespeichert.
+ Jetzt verwenden wir die`Save` Methode, um die Szene zu exportieren und dabei das Koordinatensystem umzudrehen. Die Ausgabe wird im Wavefront OBJ-Format gespeichert.
 
 ## Schritt 3: Erfolgsmeldung anzeigen
 
@@ -78,7 +78,7 @@ A1: Aspose.3D für .NET ist hauptsächlich für die C#-Programmierung konzipiert
 
 ### F3: Gibt es eine kostenlose Testversion für Aspose.3D für .NET?
 
-A3: Ja, Sie können die kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/) bevor Sie einen Kauf tätigen.
+ A3: Ja, Sie können die kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/) bevor Sie einen Kauf tätigen.
 
 ### F4: Wie kann ich eine temporäre Lizenz für Aspose.3D für .NET erhalten?
 

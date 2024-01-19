@@ -94,12 +94,12 @@ A1：Aspose.3D 主要支持 .NET 语言，但您可以探索互操作性选项�
 
 ### Q3：有试用版吗？
 
- A3：是的，您可以使用以下工具探索 Aspose.3D：[免费试用](https://releases.aspose.com/).
+A3：是的，您可以使用以下工具探索 Aspose.3D：[免费试用](https://releases.aspose.com/).
 
 ### Q4：如何获得Aspose.3D的临时许可证？
 
- A4：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+A4：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 
 ### Q5：哪里可以购买 Aspose.3D for .NET？
 
- A5：访问[购买页面](https://purchase.aspose.com/buy)获取完整版本的 Aspose.3D。
+A5：访问[购买页面](https://purchase.aspose.com/buy)获取完整版本的 Aspose.3D。

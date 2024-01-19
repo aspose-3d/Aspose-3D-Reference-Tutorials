@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Путь к каталогу документов.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// Сохранение 3D-сцены в поддерживаемых форматах файлов.
+//Сохранение 3D-сцены в поддерживаемых форматах файлов.
 scene.Save(output, FileFormat.FBX7500ASCII);
 // Эксенд: аддтрансформатионтонодебикватернион
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);

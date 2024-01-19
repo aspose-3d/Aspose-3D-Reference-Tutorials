@@ -78,7 +78,7 @@ left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 0, Slices = 100 
 ## Шаг 5. Выполните линейное вытягивание с поворотом на правом узле.
 
 ```csharp
-// Выполните линейное вытягивание правого узла, используя свойство скручивания и срезов.
+//Выполните линейное вытягивание правого узла, используя свойство скручивания и срезов.
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 

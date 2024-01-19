@@ -73,4 +73,4 @@ Evet, her silindir için kesme tabanını ayrı ayrı özelleştirerek benzersiz
 ### Ek desteği nerede bulabilirim?
  Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk desteği ve tartışmalar için.
 ### Geçici lisansı nasıl alabilirim?
-Geçici lisansınızı alın[Burada](https://purchase.aspose.com/temporary-license/).
+ Geçici lisansınızı alın[Burada](https://purchase.aspose.com/temporary-license/).

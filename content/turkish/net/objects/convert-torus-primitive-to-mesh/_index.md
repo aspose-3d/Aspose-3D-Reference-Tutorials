@@ -68,5 +68,5 @@ Aspose.3D çok çeşitli 3D dosya formatlarını destekler. Tam liste için belg
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) test için.
 ### Aspose.3D desteğini nerede bulabilirim?
  Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) Toplumsal destek ve yardım için.
-### Daha fazla öğretici ve örnek inceleyebilir miyim?
+### Daha fazla öğretici ve örnek keşfedebilir miyim?
  Evet, şuraya bakın:[dokümantasyon](https://reference.aspose.com/3d/net/) Kapsamlı eğitimler ve örnekler için.

@@ -103,7 +103,7 @@ A1: Aspose.3D unterstützt hauptsächlich .NET-Sprachen, Aspose bietet jedoch ä
 
 ### F3: Gibt es ein Community-Forum für Aspose.3D für .NET?
 
- A3: Auf jeden Fall! Treten Sie der Community bei[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) mit anderen Entwicklern in Kontakt zu treten und Unterstützung zu suchen.
+A3: Auf jeden Fall! Treten Sie der Community bei[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) mit anderen Entwicklern in Kontakt zu treten und Unterstützung zu suchen.
 
 ### F4: Sind zusätzliche Beispiele und Dokumentation verfügbar?
 

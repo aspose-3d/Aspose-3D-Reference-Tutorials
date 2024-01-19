@@ -43,7 +43,7 @@ Scene scene = new Scene();
 
 ## Schritt 2: Quaternionen definieren
 
- Definieren Sie drei Quaternionen,`q1`, `q2` Und`q3`, die jeweils eine bestimmte Drehung darstellen.
+ Definieren Sie drei Quaternionen,`q1`, `q2` , Und`q3`, die jeweils eine bestimmte Drehung darstellen.
 
 ```csharp
 Quaternion q1 = Quaternion.FromEulerAngle(Math.PI * 0.5, 0, 0);

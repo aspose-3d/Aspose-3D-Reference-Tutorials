@@ -88,7 +88,7 @@ A1：是的，Aspose.3D 支持多种 3D 文件格式，为您的项目提供灵�
 
 ### 问题 4：Aspose.3D 有哪些支持选项？
 
- A4：探索[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)以获得社区支持和讨论。
+A4：探索[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)以获得社区支持和讨论。
 
 ### Q5：购买前可以免费试用Aspose.3D吗？
 

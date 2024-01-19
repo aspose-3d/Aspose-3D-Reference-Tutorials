@@ -15,7 +15,7 @@ url: /ar/net/geometry-and-hierarchy/triangulate-mesh/
 
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
--  Aspose.3D لمكتبة .NET: تأكد من تثبيت مكتبة Aspose.3D. يمكنك تنزيله[هنا](https://releases.aspose.com/3d/net/).
+- Aspose.3D لمكتبة .NET: تأكد من تثبيت مكتبة Aspose.3D. يمكنك تنزيله[هنا](https://releases.aspose.com/3d/net/).
 
 - نموذج نموذج ثلاثي الأبعاد: احصل على نموذج ثلاثي الأبعاد بتنسيق FBX الذي تريد تثليثه. يمكنك استخدام المقدمة[document.fbx](https://reference.aspose.com/3d/net/) ملف للممارسة.
 

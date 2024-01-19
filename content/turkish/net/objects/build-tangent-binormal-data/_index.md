@@ -64,7 +64,7 @@ foreach (Mesh mesh in scene.Meshes)
 
 ## 4. Dönüştürülen Modeli Kaydedin:
 
- Ağınıza örülmüş teğet ve iki normal verilerle başyapıtı ortaya çıkarmanın zamanı geldi! Kullan`Save` çıktı dizinini ve formatını belirten sahne nesnenizin yöntemi (örneğin, "Çıktı Dizininiz"+"BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII):
+ Ağınıza örülmüş teğet ve iki normal verilerle başyapıtı ortaya çıkarmanın zamanı geldi! Kullan`Save` çıktı dizinini ve biçimini belirterek sahne nesnenizin yöntemi (örneğin, "Çıktı Dizininiz"+"BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII):
 
 ```C#
 scene.Save("Your Output Directory"+"BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII);

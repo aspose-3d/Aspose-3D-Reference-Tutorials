@@ -95,7 +95,7 @@ foreach (Vector3 color in colors)
 // Belgeler dizininin yolu.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-// 3B sahneyi desteklenen dosya formatlarında kaydedin
+//3B sahneyi desteklenen dosya formatlarında kaydedin
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

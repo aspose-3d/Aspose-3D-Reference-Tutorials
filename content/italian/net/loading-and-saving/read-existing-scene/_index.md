@@ -1,6 +1,6 @@
 ---
-tiitle: Caricamento e salvataggio lettura di una scena esistente
-linktiitle: Caricamento e salvataggio lettura di una scena esistente
+title: Caricamento e salvataggio lettura di una scena esistente
+linktitle: Caricamento e salvataggio lettura di una scena esistente
 second_title: API Aspose.3D .NET
 description: Sblocca la potenza della modellazione 3D in .NET con Aspose.3D. Carica, salva e manipola le scene senza sforzo. Immergiti nel mondo delle possibilità illimitate.
 type: docs
@@ -48,7 +48,7 @@ Scene scene = new Scene();
 scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ```
 
- Utilizzando il`Open` metodo, carichiamo un documento 3D esistente nella nostra scena. Sostituisci "document.fbx" con il percorso del file 3D desiderato.
+ Utilizzando il`Open`metodo, carichiamo un documento 3D esistente nella nostra scena. Sostituisci "document.fbx" con il percorso del file 3D desiderato.
 
 ## Passaggio 3: leggere una scena esistente dal disco
 
@@ -94,7 +94,7 @@ A1: Aspose.3D supporta principalmente i linguaggi .NET, ma puoi esplorare le opz
 
 ### Q3: È disponibile una versione di prova?
 
- A3: Sì, puoi esplorare Aspose.3D con a[prova gratuita](https://releases.aspose.com/).
+A3: Sì, puoi esplorare Aspose.3D con a[prova gratuita](https://releases.aspose.com/).
 
 ### Q4: Come posso ottenere una licenza temporanea per Aspose.3D?
 
@@ -102,4 +102,4 @@ A1: Aspose.3D supporta principalmente i linguaggi .NET, ma puoi esplorare le opz
 
 ### Q5: Dove posso acquistare Aspose.3D per .NET?
 
- A5: Visita il[pagina di acquisto](https://purchase.aspose.com/buy) per acquisire la versione completa di Aspose.3D.
+A5: Visita il[pagina di acquisto](https://purchase.aspose.com/buy) per acquisire la versione completa di Aspose.3D.

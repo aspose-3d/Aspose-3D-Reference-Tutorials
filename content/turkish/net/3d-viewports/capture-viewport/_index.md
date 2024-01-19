@@ -111,7 +111,7 @@ Cevap1: Evet, Aspose.3D çeşitli 3D dosya formatlarını destekleyerek çok çe
 
 ### S2: Aspose.3D'yi oyun geliştirme için kullanabilir miyim?
 
-Cevap2: Aspose.3D öncelikle grafik ve görselleştirme için tasarlanmış olsa da, işlevleri oyun geliştirmenin belirli yönlerini tamamlayabilir.
+Cevap2: Aspose.3D öncelikli olarak grafik ve görselleştirme için tasarlanmış olsa da, işlevleri oyun geliştirmenin belirli yönlerini tamamlayabilir.
 
 ### S3: Ek örnekleri ve belgeleri nerede bulabilirim?
 

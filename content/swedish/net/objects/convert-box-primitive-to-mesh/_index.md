@@ -8,7 +8,7 @@ weight: 12
 url: /sv/net/objects/convert-box-primitive-to-mesh/
 ---
 ## Introduktion
-I den dynamiska världen av .NET-utveckling är det avgörande att behärska 3D-grafik och mesh för att skapa uppslukande applikationer. Aspose.3D för .NET är ett kraftfullt verktyg som förenklar 3D-modelleringsuppgifter, och i den här handledningen kommer vi att fokusera på steg-för-steg-processen att konvertera en Box primitiv till en Mesh med Aspose.3D.
+den dynamiska världen av .NET-utveckling är det avgörande att behärska 3D-grafik och mesh för att skapa uppslukande applikationer. Aspose.3D för .NET är ett kraftfullt verktyg som förenklar 3D-modelleringsuppgifter, och i den här handledningen kommer vi att fokusera på steg-för-steg-processen att konvertera en Box primitiv till en Mesh med Aspose.3D.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
 1.  Aspose.3D för .NET Library: Ladda ner och installera biblioteket från[Aspose dokumentation](https://reference.aspose.com/3d/net/).
@@ -52,11 +52,11 @@ cubeNode.Entity = mesh;
 // Lägg till nod till en scen
 scene.RootNode.ChildNodes.Add(cubeNode);
 ```
-## Steg 6: Spara 3D-scen
+## Steg 6: Spara 3D-scenen
 ```csharp
-//Ange utdatakatalog och filnamn
+// Ange utdatakatalog och filnamn
 string output = "Your Output Directory" + "BoxToMeshScene.fbx";
-// Spara 3D-scen i de filformat som stöds
+//Spara 3D-scen i de filformat som stöds
 scene.Save(output, FileFormat.FBX7400ASCII);
 // Visa framgångsmeddelande
 Console.WriteLine("\nConverted the primitive Box to a mesh successfully.\nFile saved at " + output);

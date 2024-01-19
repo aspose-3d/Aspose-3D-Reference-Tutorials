@@ -8,7 +8,7 @@ weight: 11
 url: /ar/net/objects/convert-box-mesh-triangle-memory-layout/
 ---
 ## مقدمة
-مرحبًا بك في هذا الدليل الشامل حول تحويل Box Mesh إلى شبكة مثلثة باستخدام تخطيط ذاكرة مخصص باستخدام Aspose.3D لـ .NET. Aspose.3D هي مكتبة قوية توفر إمكانات معالجة ثلاثية الأبعاد متقدمة لمطوري .NET. في هذا البرنامج التعليمي، سنستكشف العملية خطوة بخطوة، مما يضمن أنه يمكنك دمج هذه الوظائف بسلاسة في مشاريعك.
+مرحبًا بك في هذا الدليل الشامل حول تحويل شبكة مربعة إلى شبكة مثلثة باستخدام تخطيط ذاكرة مخصص باستخدام Aspose.3D لـ .NET. Aspose.3D هي مكتبة قوية توفر إمكانات معالجة ثلاثية الأبعاد متقدمة لمطوري .NET. في هذا البرنامج التعليمي، سنستكشف العملية خطوة بخطوة، مما يضمن أنه يمكنك دمج هذه الوظائف بسلاسة في مشاريعك.
 ## المتطلبات الأساسية
 قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
 - المعرفة الأساسية ببرمجة .NET.
@@ -59,7 +59,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 ```csharp
 // تحديد دليل الإخراج
 string output = "Your Output Directory" + "BoxToTriangleMeshCustomMemoryLayoutScene.fbx";
-// حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
+//حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
 scene.Save(output, FileFormat.FBX7400ASCII);
 Console.WriteLine("\n Converted a Box mesh to triangle mesh with custom memory layout of the vertex successfully.\nFile saved at " + output);
 ```

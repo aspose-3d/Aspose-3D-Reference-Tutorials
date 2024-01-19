@@ -103,7 +103,7 @@ scene.Save("Your Output Directory" + "TwistOffsetInLinearExtrusion.obj", FileFor
 
 ### س3: هل يوجد منتدى مجتمعي لـ Aspose.3D لـ .NET؟
 
- ج3: بالتأكيد! انضم إلى المجتمع في[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) للتعامل مع زملائك المطورين وطلب المساعدة.
+ج3: بالتأكيد! انضم إلى المجتمع في[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) للتعامل مع زملائك المطورين وطلب المساعدة.
 
 ### س4: هل هناك أمثلة ووثائق إضافية متاحة؟
 

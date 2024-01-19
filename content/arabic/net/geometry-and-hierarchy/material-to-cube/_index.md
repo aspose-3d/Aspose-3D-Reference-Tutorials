@@ -48,7 +48,7 @@ Node cubeNode = new Node("cube");
 // استدعاء الفئة المشتركة لإنشاء شبكة باستخدام طريقة إنشاء المضلع لتعيين مثيل الشبكة
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
 
-// نقطة العقدة إلى الشبكة
+//نقطة العقدة إلى الشبكة
 cubeNode.Entity = mesh;
 
 // إضافة مكعب إلى مكان الحادث
@@ -83,7 +83,7 @@ diffuse.FileName = "embedded-texture.png";
 
 // تعيين المحتوى الثنائي
 diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-// ExEnd:EmbedRawContentData
+//ExEnd:EmbedRawContentData
 ```
 
 ## الخطوة 4: تعيين خصائص المواد
@@ -107,7 +107,7 @@ cubeNode.Material = mat;
 // ExStart: Save3DScene
 var output = "Your Output Directory" + "MaterialToCube.fbx";
 
-// حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
+//حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
 scene.Save(output, FileFormat.FBX7400ASCII);
 // ExEnd:Save3DScene
 
@@ -140,4 +140,4 @@ Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + out
 
 ### س5: كيف يمكنني الحصول على الدعم لأية مشكلات أو استفسارات؟
 
- ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) للتواصل مع المجتمع وطلب المساعدة.
+ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) للتواصل مع المجتمع وطلب المساعدة.

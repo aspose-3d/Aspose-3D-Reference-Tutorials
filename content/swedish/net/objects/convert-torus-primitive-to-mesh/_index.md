@@ -50,7 +50,7 @@ Associera nätgeometrin med noden.
 scene.RootNode.ChildNodes.Add(torusNode);
 ```
 Integrera torusnoden i scenen.
-## Steg 6: Spara 3D-scen
+## Steg 6: Spara 3D-scenen
 ```csharp
 var output = "Your Output Directory" + "TorusToMeshScene.fbx";
 scene.Save(output, FileFormat.FBX7400ASCII);

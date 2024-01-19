@@ -14,7 +14,7 @@ Antes de sumergirnos en el meollo de la decodificación de malla, asegurémonos 
 1. Comprensión básica de la programación 3D:
    Para aprovechar al máximo este tutorial, es esencial tener una comprensión fundamental de los conceptos de programación 3D. Si términos como vértices y polígonos le suenan familiares, está en el camino correcto.
 2. Instalación de Aspose.3D para .NET:
-    Dirigirse a[Documentación de Aspose.3D](https://reference.aspose.com/3d/net/)para instalar y configurar Aspose.3D para .NET. Este poderoso conjunto de herramientas será tu varita mágica a lo largo de este viaje.
+    Dirigirse a[Documentación de Aspose.3D](https://reference.aspose.com/3d/net/) para instalar y configurar Aspose.3D para .NET. Este poderoso conjunto de herramientas será tu varita mágica a lo largo de este viaje.
 ## Importar espacios de nombres
 Ahora que estamos preparados, importemos los espacios de nombres necesarios para preparar el escenario para la brillantez de la decodificación de malla:
 ```csharp

@@ -9,7 +9,7 @@ url: /es/net/linear-extrusion/center-in-linear-extrusion/
 ---
 ## Introducción
 
-Bienvenido a esta guía completa sobre cómo dominar la extrusión lineal utilizando Aspose.3D para .NET. Si buscas mejorar tus habilidades de modelado 3D y crear extrusiones impresionantes, estás en el lugar correcto. En este tutorial, profundizaremos en la técnica de extrusión lineal, centrándonos específicamente en el aspecto de centrado para llevar tus diseños a un nivel completamente nuevo.
+Bienvenido a esta guía completa sobre cómo dominar la extrusión lineal usando Aspose.3D para .NET. Si buscas mejorar tus habilidades de modelado 3D y crear extrusiones impresionantes, estás en el lugar correcto. En este tutorial, profundizaremos en la técnica de extrusión lineal, centrándonos específicamente en el aspecto de centrado para llevar tus diseños a un nivel completamente nuevo.
 
 ## Requisitos previos
 

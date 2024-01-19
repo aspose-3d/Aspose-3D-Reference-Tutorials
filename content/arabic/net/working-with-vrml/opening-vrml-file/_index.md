@@ -55,4 +55,4 @@ scene.Open("Your Document Directory" + "test.wrl");
 ### س: كيف يمكنني الحصول على الدعم لـ Aspose.3D؟
  ج: تواصل مع مجتمعنا واحصل على الدعم على موقعنا[المنتدى](https://forum.aspose.com/c/3d/18).
 ### س: هل التراخيص المؤقتة متاحة لـ Aspose.3D؟
- ج: نعم، استكشف التراخيص المؤقتة التي تلبي احتياجاتك المحددة[هنا](https://purchase.aspose.com/temporary-license/).
+ ج: نعم، استكشف التراخيص المؤقتة التي تلبي احتياجاتك الخاصة[هنا](https://purchase.aspose.com/temporary-license/).

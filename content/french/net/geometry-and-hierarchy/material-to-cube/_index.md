@@ -48,7 +48,7 @@ Node cubeNode = new Node("cube");
 // Appelez la classe Common pour créer un maillage à l'aide de la méthode de création de polygones pour définir l'instance de maillage
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
 
-// Pointer le nœud vers le maillage
+//Pointer le nœud vers le maillage
 cubeNode.Entity = mesh;
 
 // Ajouter un cube à la scène
@@ -83,7 +83,7 @@ diffuse.FileName = "embedded-texture.png";
 
 // Définir le contenu binaire
 diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-// ExEnd : IncorporerRawContentData
+//ExEnd : IncorporerRawContentData
 ```
 
 ## Étape 4 : Définir les propriétés du matériau
@@ -107,7 +107,7 @@ cubeNode.Material = mat;
 // ExDémarrer : Enregistrer la scène 3DS
 var output = "Your Output Directory" + "MaterialToCube.fbx";
 
-// Enregistrez la scène 3D dans les formats de fichiers pris en charge
+//Enregistrez la scène 3D dans les formats de fichiers pris en charge
 scene.Save(output, FileFormat.FBX7400ASCII);
 // ExEnd : Save3DScene
 
@@ -140,4 +140,4 @@ A3 : Oui, Aspose.3D fournit une prise en charge complète pour la création et l
 
 ### Q5 : Comment puis-je obtenir de l'aide pour tout problème ou question ?
 
- A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour entrer en contact avec la communauté et demander de l'aide.
+A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour entrer en contact avec la communauté et demander de l'aide.

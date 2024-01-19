@@ -48,7 +48,7 @@ Node cubeNode = new Node("cube");
 // Anrop Common class skapa mesh med polygonbyggarmetoden för att ställa in mesh-instans
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
 
-// Peka noden mot nätet
+//Peka noden mot nätet
 cubeNode.Entity = mesh;
 
 // Lägg till en kub i scenen
@@ -83,7 +83,7 @@ diffuse.FileName = "embedded-texture.png";
 
 // Ställ in binärt innehåll
 diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-// ExEnd:EmbedRawContentData
+//ExEnd:EmbedRawContentData
 ```
 
 ## Steg 4: Ställ in materialegenskaper
@@ -107,7 +107,7 @@ cubeNode.Material = mat;
 // ExStart:Save3DScene
 var output = "Your Output Directory" + "MaterialToCube.fbx";
 
-// Spara 3D-scen i de filformat som stöds
+//Spara 3D-scen i de filformat som stöds
 scene.Save(output, FileFormat.FBX7400ASCII);
 // ExEnd:Save3DScene
 
@@ -140,4 +140,4 @@ S3: Ja, Aspose.3D ger omfattande stöd för att skapa och manipulera animationer
 
 ### F5: Hur kan jag få support för eventuella problem eller frågor?
 
- A5: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) att få kontakt med samhället och söka hjälp.
+A5: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) att få kontakt med samhället och söka hjälp.

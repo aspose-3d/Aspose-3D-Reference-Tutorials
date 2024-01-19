@@ -21,7 +21,7 @@ url: /ar/net/geometry-and-hierarchy/expose-geometric-transformation/
 
 ### 2. Aspose.3D لتثبيت .NET
 
-قم بتنزيل وتثبيت Aspose.3D لـ .NET من خلال زيارة الموقع[رابط التحميل](https://releases.aspose.com/3d/net/) . إذا واجهت أي مشاكل، راجع[توثيق](https://reference.aspose.com/3d/net/) للمساعدة.
+ قم بتنزيل وتثبيت Aspose.3D لـ .NET من خلال زيارة الموقع[رابط التحميل](https://releases.aspose.com/3d/net/) . إذا واجهت أي مشاكل، راجع[توثيق](https://reference.aspose.com/3d/net/) للمساعدة.
 
 ### 3. المفاهيم الأساسية ثلاثية الأبعاد
 
@@ -93,7 +93,7 @@ Console.WriteLine(n.EvaluateGlobalTransform(false));
 
 ### س4: هل يمكنني استكشاف المزيد من البرامج التعليمية والأمثلة؟
 
- ج4: بالتأكيد! ال[توثيق](https://reference.aspose.com/3d/net/)يوفر برامج تعليمية وأمثلة ووثائق مكثفة لتعزيز تجربة Aspose.3D الخاصة بك.
+ ج4: بالتأكيد! ال[توثيق](https://reference.aspose.com/3d/net/) يوفر برامج تعليمية وأمثلة ووثائق مكثفة لتعزيز تجربة Aspose.3D الخاصة بك.
 
 ### س5: كيف يمكنني شراء Aspose.3D لـ .NET؟
 

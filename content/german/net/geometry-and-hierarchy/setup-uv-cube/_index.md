@@ -15,7 +15,7 @@ Die Erstellung fesselnder und optisch ansprechender 3D-Szenen erfordert oft den 
 
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
-1.  Aspose.3D für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.3D-Bibliothek installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/3d/net/).
+1. Aspose.3D für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.3D-Bibliothek installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/3d/net/).
 
 2. Entwicklungsumgebung: Richten Sie eine .NET-Entwicklungsumgebung mit den erforderlichen Tools ein.
 

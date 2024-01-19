@@ -17,7 +17,7 @@ url: /ar/net/loading-and-saving/read-existing-scene/
 
 - الفهم الأساسي للغة البرمجة C#.
 - تم تثبيت Visual Studio على جهازك.
-- تم تنزيل Aspose.3D لمكتبة .NET وإضافتها إلى مشروعك.
+- تم تنزيل مكتبة Aspose.3D لـ .NET وإضافتها إلى مشروعك.
 
 الآن، دعونا نتسخ أيدينا ببعض التعليمات البرمجية!
 
@@ -48,7 +48,7 @@ Scene scene = new Scene();
 scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ```
 
- الاستفادة من`Open` الطريقة، نقوم بتحميل مستند ثلاثي الأبعاد موجود في مشهدنا. استبدل "document.fbx" بالمسار إلى الملف ثلاثي الأبعاد المطلوب.
+ الاستفادة من`Open`الطريقة، نقوم بتحميل مستند ثلاثي الأبعاد موجود في مشهدنا. استبدل "document.fbx" بالمسار إلى الملف ثلاثي الأبعاد المطلوب.
 
 ## الخطوة 3: قراءة مشهد موجود من القرص
 
@@ -94,7 +94,7 @@ public static void ReadRVMWithAttributes()
 
 ### س3: هل هناك نسخة تجريبية متاحة؟
 
- ج3: نعم، يمكنك استكشاف Aspose.3D باستخدام ملف[تجربة مجانية](https://releases.aspose.com/).
+ج3: نعم، يمكنك استكشاف Aspose.3D باستخدام ملف[تجربة مجانية](https://releases.aspose.com/).
 
 ### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟
 
@@ -102,4 +102,4 @@ public static void ReadRVMWithAttributes()
 
 ### س5: أين يمكنني شراء Aspose.3D لـ .NET؟
 
- ج5: قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على النسخة الكاملة من Aspose.3D.
+ج5: قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على النسخة الكاملة من Aspose.3D.

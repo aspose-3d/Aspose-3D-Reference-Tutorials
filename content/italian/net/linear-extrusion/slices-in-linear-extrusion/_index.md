@@ -46,7 +46,7 @@ var profile = new RectangleShape()
 {
     RoundingRadius = 0.3
 };
-// ExEnd:InizializzaBaseProfile
+// ExEnd:InitializeBaseProfile
 ```
 
 ### Passaggio 2: crea una scena 3D
@@ -103,7 +103,7 @@ A1: Aspose.3D è progettato principalmente per .NET, ma puoi esplorare le opzion
 
 ### Q2: Dove posso trovare la documentazione dettagliata per Aspose.3D per .NET?
 
- A2: Fare riferimento alla documentazione[Qui](https://reference.aspose.com/3d/net/) per informazioni approfondite sulle capacità e sull'utilizzo di Aspose.3D.
+ R2: Fare riferimento alla documentazione[Qui](https://reference.aspose.com/3d/net/) per informazioni approfondite sulle capacità e sull'utilizzo di Aspose.3D.
 
 ### Q3: È disponibile una prova gratuita per Aspose.3D per .NET?
 

@@ -39,7 +39,7 @@ Scene scene = new Scene(input);
 // Teilen Sie alle Netze auf
 PolygonModifier.SplitMesh(scene, SplitMeshPolicy.CloneData);
 ```
- Hier verwenden wir die`SplitMesh` Methode aus der`PolygonModifier`Klasse, um alle Netze basierend auf dem Material aufzuteilen.
+ Hier verwenden wir die`SplitMesh` Methode aus der`PolygonModifier` Klasse, um alle Netze basierend auf dem Material aufzuteilen.
 ## Schritt 3: Speichern Sie die geteilte Szene
 ```csharp
 // Datei speichern

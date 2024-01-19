@@ -73,4 +73,4 @@ scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
 ### Где я могу найти дополнительную поддержку?
  Посетить[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) за поддержку сообщества и обсуждения.
 ### Как получить временную лицензию?
-Получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+ Получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).

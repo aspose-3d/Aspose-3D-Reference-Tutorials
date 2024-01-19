@@ -53,7 +53,7 @@ scene.RootNode.CreateChildNode(cylinder1).Transform.Translation = new Vector3(10
 Nous ajoutons le premier cylindre en tant que nœud enfant à la scène, en ajustant sa position.
 ## Étape 5 : initialiser le deuxième cylindre
 ```csharp
-// Initialiser le deuxième cylindre sans OffsetTop personnalisé
+//Initialiser le deuxième cylindre sans OffsetTop personnalisé
 var cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 ```
 Un deuxième cylindre est initialisé sans dessus décalé personnalisé.

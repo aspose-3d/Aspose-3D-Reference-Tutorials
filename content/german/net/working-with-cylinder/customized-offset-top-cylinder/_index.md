@@ -53,7 +53,7 @@ scene.RootNode.CreateChildNode(cylinder1).Transform.Translation = new Vector3(10
 Wir fügen der Szene den ersten Zylinder als untergeordneten Knoten hinzu und passen seine Position an.
 ## Schritt 5: Initialisieren Sie den zweiten Zylinder
 ```csharp
-// Zweiten Zylinder ohne angepasstes OffsetTop initialisieren
+//Zweiten Zylinder ohne angepasstes OffsetTop initialisieren
 var cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 ```
 Ein zweiter Zylinder wird ohne angepasstes Offset-Oberteil initialisiert.

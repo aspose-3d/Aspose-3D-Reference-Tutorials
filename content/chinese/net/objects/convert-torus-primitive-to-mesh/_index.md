@@ -29,7 +29,7 @@ using Aspose.ThreeD.Formats;
 Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
 ```
 将 3D 文件加载到场景中。代替`"test.fbx"`与您的文件的路径。
-## 第2步：初始化节点类对象
+## 步骤2：初始化节点类对象
 ```csharp
 Node torusNode = new Node("torus");
 ```

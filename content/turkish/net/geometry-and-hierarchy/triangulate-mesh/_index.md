@@ -15,7 +15,7 @@ Aspose.3D for .NET kullanarak 3D sahnelerde ağların üçgenlenmesine ilişkin 
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
--  Aspose.3D for .NET Library: Aspose.3D kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET Library: Aspose.3D kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/3d/net/).
 
 - Örnek 3D Model: Üçgen oluşturmak istediğiniz FBX formatında bir 3D modele sahip olun. Sağlananları kullanabilirsiniz[belge.fbx](https://reference.aspose.com/3d/net/) pratik için dosya.
 

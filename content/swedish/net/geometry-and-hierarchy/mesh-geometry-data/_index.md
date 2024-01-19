@@ -95,7 +95,7 @@ Skapa ett nät med polygonbyggarmetoden och applicera färger på olika delar av
 // Sökvägen till dokumentkatalogen.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-// Spara 3D-scen i de filformat som stöds
+//Spara 3D-scen i de filformat som stöds
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

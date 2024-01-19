@@ -47,7 +47,7 @@ Ekstrüzyon için temel profili ayarlayarak başlayın. Bu örnekte, belirtilen 
 ## 2. Adım: 3B Sahne Oluşturun
 
 ```csharp
-// Bir sahne oluştur
+// Bir sahne yarat
 Scene scene = new Scene();
 ```
 
@@ -78,7 +78,7 @@ Sihir yapılan yer burasıdır. Döndürme derecesini tanımlamak için büküm 
 ## Adım 5: Sağ Düğümde Büküm ile Doğrusal Ekstrüzyon Gerçekleştirin
 
 ```csharp
-// Bükme ve dilimleme özelliğini kullanarak sağ düğümde doğrusal ekstrüzyon gerçekleştirin
+//Bükme ve dilimleme özelliğini kullanarak sağ düğümde doğrusal ekstrüzyon gerçekleştirin
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 

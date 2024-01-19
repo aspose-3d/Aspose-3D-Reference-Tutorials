@@ -84,7 +84,7 @@ Cevap1: Evet, Aspose.3D çok çeşitli 3D dosya formatlarını destekleyerek pro
 
 ### S2: Aspose.3D'yi ticari amaçlarla kullanabilir miyim?
 
-A2: Kesinlikle! Aspose.3D ticari bir lisansla birlikte gelir ve onu satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+ A2: Kesinlikle! Aspose.3D ticari bir lisansla birlikte gelir ve onu satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
 
 ### S3: Aspose.3D'nin ücretsiz deneme sürümü mevcut mu?
 

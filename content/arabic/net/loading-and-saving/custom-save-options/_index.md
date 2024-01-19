@@ -16,7 +16,7 @@ url: /ar/net/loading-and-saving/custom-save-options/
 قبل أن نبدأ في استكشاف الميزات المثيرة لـ Aspose.3D، تأكد من أن لديك المتطلبات الأساسية التالية:
 
 - الفهم الأساسي لتطوير C# و.NET.
-- تم تثبيت Aspose.3D لمكتبة .NET. يمكنك تنزيله من[صفحة الإصدار](https://releases.aspose.com/3d/net/).
+-  تم تثبيت Aspose.3D لمكتبة .NET. يمكنك تنزيله من[صفحة الإصدار](https://releases.aspose.com/3d/net/).
 - بيئة تطوير تم إعدادها باستخدام Visual Studio أو أي برنامج C# IDE مفضل آخر.
 
 ## استيراد مساحات الأسماء

@@ -20,7 +20,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 ## Importera namnområden
 
-I ditt .NET-projekt, inkludera de nödvändiga namnområdena för att utnyttja kraften i Aspose.3D:
+ditt .NET-projekt, inkludera de nödvändiga namnområdena för att utnyttja kraften i Aspose.3D:
 
 ```csharp
 using System;
@@ -43,7 +43,7 @@ Scene scene = new Scene();
 
 ## Steg 2: Definiera Quaternions
 
- Definiera tre kvaternioner,`q1`, `q2` och`q3`, var och en representerar en specifik rotation.
+ Definiera tre kvaternioner,`q1`, `q2` , och`q3`, var och en representerar en specifik rotation.
 
 ```csharp
 Quaternion q1 = Quaternion.FromEulerAngle(Math.PI * 0.5, 0, 0);

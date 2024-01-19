@@ -73,4 +73,4 @@ Ja, du kan anpassa skjuvbotten för varje cylinder individuellt, vilket gör att
 ### Var kan jag hitta ytterligare support?
  Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) för samhällsstöd och diskussioner.
 ### Hur kan jag få en tillfällig licens?
-Skaffa din tillfälliga licens[här](https://purchase.aspose.com/temporary-license/).
+ Skaffa din tillfälliga licens[här](https://purchase.aspose.com/temporary-license/).

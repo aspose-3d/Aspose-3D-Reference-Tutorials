@@ -37,11 +37,11 @@ using Aspose.ThreeD.Utilities;
 Der erste Schritt besteht darin, rohe Normaldaten für unseren Würfel zu definieren. Normalen werden als Vector4-Objekte dargestellt, und hier ist ein Beispiel:
 
 ```csharp
-//ExStart:RawNormalData
+// ExStart:RawNormalData
 Vector4[] normals = new Vector4[]
 {
     new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
-    // ... (für die anderen 7 Eckpunkte wiederholen)
+    //... (für die anderen 7 Eckpunkte wiederholen)
 };
 // ExEnd:RawNormalData
 ```
@@ -87,7 +87,7 @@ A1: Ja, Aspose.3D unterstützt verschiedene 3D-Dateiformate und ermöglicht so e
 
 ### F2: Kann ich Aspose.3D vor dem Kauf testen?
 
- A2: Auf jeden Fall! Sie können eine kostenlose Testversion herunterladen unter[Hier](https://releases.aspose.com/).
+A2: Auf jeden Fall! Sie können eine kostenlose Testversion herunterladen unter[Hier](https://releases.aspose.com/).
 
 ### F3: Wo finde ich temporäre Lizenzen für Aspose.3D?
 

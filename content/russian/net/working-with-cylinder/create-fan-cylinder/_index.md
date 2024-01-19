@@ -91,6 +91,6 @@ scene.Save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.Wavef
 ### Где я могу найти подробную документацию по Aspose.3D для .NET?
  Документация доступна[здесь](https://reference.aspose.com/3d/net/).
 ### Как я могу получить поддержку Aspose.3D для .NET?
- Посетите форум поддержки[здесь](https://forum.aspose.com/c/3d/18) за помощь сообщества и экспертов Aspose.
+ Посетите форум поддержки[здесь](https://forum.aspose.com/c/3d/18)за помощь сообщества и экспертов Aspose.
 ### Доступны ли временные лицензии для Aspose.3D для .NET?
  Да, временные лицензии можно получить.[здесь](https://purchase.aspose.com/temporary-license/).

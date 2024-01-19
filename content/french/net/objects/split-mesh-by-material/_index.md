@@ -54,7 +54,7 @@ mat.Indices.AddRange(new int[] { 0, 0, 0, 1, 1, 1 });
 Mettez à jour les index de matériaux pour préparer la prochaine opération de fractionnement avec la stratégie CompactData.
 ## Étape 5 : Division du maillage par matériau (politique CompactData)
 ```csharp
-// Divisez-le en 2 sous-maillages, chacun contenant des plans spécifiques
+//Divisez-le en 2 sous-maillages, chacun contenant des plans spécifiques
 planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CompactData);
 ```
 Maintenant, nous divisons le maillage en deux sous-maillages, en regroupant les plans en fonction des matériaux et en utilisant la politique CompactData.

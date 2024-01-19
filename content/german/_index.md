@@ -35,4 +35,25 @@ Dies sind Links zu einigen nützlichen Ressourcen:
 - [Arbeiten mit Punktwolke](./net/working-with-point-cloud/)
 - [Arbeiten mit VRML](./net/working-with-vrml/)
 
+## Aspose.3D für Java-Tutorials
+{{% alert color="primary" %}}
+Erschließen Sie mit Aspose.3D die grenzenlosen Möglichkeiten der Java 3D-Entwicklung. Unsere umfassenden Tutorials decken alles ab, von der Animation von Szenen über die Manipulation von 3D-Objekten bis hin zur Optimierung von Netzdaten. Verbessern Sie Ihre Fähigkeiten mit Schritt-für-Schritt-Anleitungen zu Geometrie, Dateibearbeitung, Rendering-Techniken und mehr. Ganz gleich, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen: Mit unseren Tutorials können Sie mühelos faszinierende 3D-Projekte erstellen. Tauchen Sie ein in die Welt von Aspose.3D für Java und verwandeln Sie Ihr Programmiererlebnis.
+{{% /alert %}}
 
+Dies sind Links zu einigen nützlichen Ressourcen:
+
+- [Arbeiten mit Animationen in Java](./java/animations/)
+- [Arbeiten mit 3D-Geometrie in Java](./java/geometry/)
+- [Erste Schritte mit Aspose.3D für Java](./java/licensing/)
+- [Erstellen von 3D-Modellen mit linearer Extrusion in Java](./java/linear-extrusion/)
+- [Erstellen primitiver 3D-Modelle in Aspose.3D für Java](./java/primitive-3d-models/)
+- [Arbeiten mit Zylindern in Aspose.3D für Java](./java/cylinders/)
+- [Arbeiten mit VRML-Dateien in Java](./java/vrml-files/)
+- [Polygonmanipulation in 3D-Modellen mit Java](./java/polygon/)
+- [Rendern von 3D-Szenen in Java-Anwendungen](./java/rendering-3d-scenes/)
+- [Arbeiten mit 3D-Szenen und Modellen in Java](./java/3d-scenes-and-models/)
+- [Arbeiten mit 3D-Dateien in Java – Erstellen, Laden, Speichern und Konvertieren](./java/load-and-save/)
+- [Erstellen und Transformieren von 3D-Netzen in Java](./java/transforming-3d-meshes/)
+- [Optimieren und Arbeiten mit 3D-Netzdaten in Java](./java/3d-mesh-data/)
+- [Bearbeiten von 3D-Objekten und Szenen in Java](./java/3d-objects-and-scenes/)
+- [Arbeiten mit Punktwolken in Java](./java/point-clouds/)

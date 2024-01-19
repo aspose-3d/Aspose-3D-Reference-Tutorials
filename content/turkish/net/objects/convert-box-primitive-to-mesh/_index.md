@@ -54,14 +54,14 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 ```
 ## Adım 6: 3D Sahneyi Kaydet
 ```csharp
-//Çıkış dizinini ve dosya adını belirtin
+// Çıkış dizinini ve dosya adını belirtin
 string output = "Your Output Directory" + "BoxToMeshScene.fbx";
-// 3B sahneyi desteklenen dosya formatlarında kaydedin
+//3B sahneyi desteklenen dosya formatlarında kaydedin
 scene.Save(output, FileFormat.FBX7400ASCII);
 // Başarı mesajını görüntüle
 Console.WriteLine("\nConverted the primitive Box to a mesh successfully.\nFile saved at " + output);
 ```
-Bu kısa kılavuz, basit bir Box temel öğesini Aspose.3D for .NET kullanarak çok yönlü bir Mesh'e dönüştürerek daha karmaşık 3D modelleme çalışmaları için bir temel sağlar.
+Bu kısa kılavuz, Aspose.3D for .NET kullanarak basit bir Box temel öğesini çok yönlü bir Mesh'e dönüştürerek daha karmaşık 3D modelleme çalışmaları için bir temel sağlar.
 ## Çözüm
 Aspose.3D for .NET, geliştiricilerin uygulamaları içindeki 3D nesneleri sorunsuz bir şekilde işlemesine olanak tanır. Bu eğitim, bir Box primitifini Mesh'e dönüştürmenin temel adımlarında size yol göstererek 3D grafiklerde sonsuz olasılıklara kapı açmıştır.
 ## SSS

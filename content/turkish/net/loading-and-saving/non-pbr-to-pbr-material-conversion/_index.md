@@ -15,7 +15,7 @@ PBR Olmayan (Fiziksel Tabanlı İşleme) PBR malzemelerine dönüştürmek için
 
 Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
-- Aspose.3D for .NET: Aspose.3D for .NET kütüphanesinin kurulu olduğundan emin olun. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET: Aspose.3D for .NET kütüphanesinin kurulu olduğundan emin olun. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/3d/net/).
 
 - Temel C# Anlayışı: Bu eğitimde, C# programlama konusunda temel bir anlayışa sahip olduğunuz varsayılmaktadır.
 
@@ -96,12 +96,12 @@ Cevap1: Evet, Aspose.3D çok çeşitli 3D dosya formatlarını destekleyerek pro
 
 ### S3: Test için geçici bir lisansa ihtiyacım var mı?
 
- Cevap3: Evet, test amaçlı olarak geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+Cevap3: Evet, test amaçlı olarak geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S4: Aspose.3D desteğini nerede bulabilirim?
 
  A4: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk desteği ve tartışmalar için.
 
-### S5: Ücretsiz deneme sürümü mevcut mu?
+### S5: Ücretsiz deneme sürümü var mı?
 
  Cevap5: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).

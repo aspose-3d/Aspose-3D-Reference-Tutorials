@@ -15,7 +15,7 @@ Bienvenido a este completo tutorial sobre cómo triangular mallas en escenas 3D 
 
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
--  Aspose.3D para la biblioteca .NET: asegúrese de tener instalada la biblioteca Aspose.3D. Puedes descargarlo[aquí](https://releases.aspose.com/3d/net/).
+- Aspose.3D para la biblioteca .NET: asegúrese de tener instalada la biblioteca Aspose.3D. Puedes descargarlo[aquí](https://releases.aspose.com/3d/net/).
 
 - Modelo 3D de muestra: tenga un modelo 3D en formato FBX que desee triangular. Puedes utilizar el proporcionado[documento.fbx](https://reference.aspose.com/3d/net/) archivo para practicar.
 

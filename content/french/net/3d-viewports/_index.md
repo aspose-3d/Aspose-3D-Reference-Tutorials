@@ -28,7 +28,7 @@ Entrez dans la peau d’un photographe virtuel en parcourant notre guide complet
 
 Que vous créiez une visite virtuelle, documentiez des conceptions architecturales ou créiez une présentation, la maîtrise de la capture de fenêtres change la donne. Aspose.3D pour .NET simplifie les complexités et vous offre un voyage fluide dans le monde du rendu de scènes 3D.
 
-En conclusion, ces tutoriels vous servent de boussole dans le vaste paysage de la conception 3D. De l'application d'effets visuels captivants à la maîtrise de l'art de la capture de fenêtres, Aspose.3D pour .NET ouvre la voie à des projets fluides et visuellement époustouflants. Élevez vos compétences, transcendez les frontières et laissez votre créativité briller dans le monde de la 3D.
+En conclusion, ces tutoriels vous servent de boussole dans le vaste paysage de la conception 3D. De l'application d'effets visuels captivants à la maîtrise de l'art de la capture de fenêtres d'affichage, Aspose.3D pour .NET ouvre la voie à des projets fluides et visuellement époustouflants. Élevez vos compétences, transcendez les frontières et laissez votre créativité briller dans le monde de la 3D.
 ## Tutoriels sur les fenêtres 3D
 ### [Application d'effets visuels dans les fenêtres 3D](./apply-visual-effects/)
 Explorez le monde de la visualisation 3D avec Aspose.3D pour .NET. Apprenez à appliquer des effets visuels captivants à vos scènes à l'aide de didacticiels étape par étape. Améliorez vos projets avec des effets de pixellisation, de niveaux de gris, de détection des contours et de flou.

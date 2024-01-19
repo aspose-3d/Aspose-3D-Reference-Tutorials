@@ -15,7 +15,7 @@ url: /zh/net/geometry-and-hierarchy/transformation-node-matrix/
 
 在深入学习本教程之前，请确保您具备以下先决条件：
 
-1. Aspose.3D for .NET 库：确保您的 .NET 项目中安装了 Aspose.3D 库。你可以下载它[这里](https://releases.aspose.com/3d/net/).
+1.  Aspose.3D for .NET 库：确保您的 .NET 项目中安装了 Aspose.3D 库。你可以下载它[这里](https://releases.aspose.com/3d/net/).
 
 2. 开发环境：设置一个工作的 .NET 开发环境，如果还没有，请创建一个新项目，在其中实现转换。
 
@@ -120,4 +120,4 @@ A2：是的，您可以通过将各自的矩阵相乘并将结果应用到节点
 
 ### Q5：我可以在哪里寻求帮助或与 Aspose.3D 社区联系？
 
- A5：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)使用 Aspose.3D 提出问题、分享经验并与其他开发人员联系。
+A5：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)使用 Aspose.3D 提出问题、分享经验并与其他开发人员联系。

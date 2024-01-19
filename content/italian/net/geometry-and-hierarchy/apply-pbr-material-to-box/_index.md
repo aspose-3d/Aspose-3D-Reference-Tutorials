@@ -104,7 +104,7 @@ A2: Assolutamente! Aspose.3D fornisce licenze commerciali per una perfetta integ
 
 ### Q3: È disponibile una versione di prova?
 
- A3: Sì, puoi esplorare le funzionalità di Aspose.3D scaricando la versione di prova gratuita[Qui](https://releases.aspose.com/).
+A3: Sì, puoi esplorare le funzionalità di Aspose.3D scaricando la versione di prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q4: Dove posso trovare il supporto e le discussioni della community?
 

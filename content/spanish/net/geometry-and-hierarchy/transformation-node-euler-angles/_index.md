@@ -51,7 +51,7 @@ Scene scene = new Scene();
 Node cubeNode = new Node("cube");
 ```
 
- Crea un nodo dentro de la escena usando el`Node` clase. Este nodo servirá como contenedor para nuestro objeto 3D.
+ Crea un nodo dentro de la escena usando el`Node`clase. Este nodo servirá como contenedor para nuestro objeto 3D.
 
 ## Paso 3: crear malla usando Polygon Builder
 
@@ -97,7 +97,7 @@ Incorpora el nodo a la jerarquía de la escena.
 // La ruta al directorio de documentos.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// Guarde la escena 3D en los formatos de archivo compatibles
+//Guarde la escena 3D en los formatos de archivo compatibles
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -129,4 +129,4 @@ R2: Sí, puedes combinar y aplicar múltiples transformaciones para lograr efect
 
 ### P5: ¿Necesita ayuda o tiene preguntas específicas?
 
- A5: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para el apoyo de la comunidad.
+A5: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para el apoyo de la comunidad.

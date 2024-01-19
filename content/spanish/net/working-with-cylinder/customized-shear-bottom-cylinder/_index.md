@@ -73,4 +73,4 @@ Sí, puede personalizar el fondo de corte para cada cilindro individualmente, lo
 ### ¿Dónde puedo encontrar soporte adicional?
  Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para apoyo y debates de la comunidad.
 ### ¿Cómo puedo obtener una licencia temporal?
-Obtenga su licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ Obtenga su licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).

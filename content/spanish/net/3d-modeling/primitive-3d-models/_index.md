@@ -15,7 +15,7 @@ url: /es/net/3d-modeling/primitive-3d-models/
 
 Antes de sumergirnos en el fascinante reino del modelado 3D, asegúrese de cumplir con los siguientes requisitos previos:
 
--  Aspose.3D para .NET: descargue e instale la biblioteca Aspose.3D para .NET desde[enlace de descarga](https://releases.aspose.com/3d/net/).
+- Aspose.3D para .NET: descargue e instale la biblioteca Aspose.3D para .NET desde[enlace de descarga](https://releases.aspose.com/3d/net/).
 
 - Entorno de desarrollo: configure un entorno de desarrollo .NET, garantizando la compatibilidad con Aspose.3D.
 
@@ -40,7 +40,7 @@ Con estos espacios de nombres implementados, está listo para liberar el poder d
 ## Paso 1: Inicializar un objeto de escena
 
 ```csharp
-// Inicializar un objeto de escena
+//Inicializar un objeto de escena
 Scene scene = new Scene();
 ```
 
@@ -107,4 +107,4 @@ R1: Aspose.3D admite principalmente .NET, pero hay otras versiones disponibles p
 
 ### P5: ¿Hay tutoriales de muestra disponibles?
 
-R5: Sí, explore más tutoriales y ejemplos en el[documentación](https://reference.aspose.com/3d/net/).
+ R5: Sí, explore más tutoriales y ejemplos en el[documentación](https://reference.aspose.com/3d/net/).

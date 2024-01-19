@@ -15,7 +15,7 @@ url: /zh/net/geometry-and-hierarchy/setup-uv-cube/
 
 在深入学习本教程之前，请确保您满足以下先决条件：
 
-1.  Aspose.3D for .NET 库：确保您已安装 Aspose.3D 库。你可以下载它[这里](https://releases.aspose.com/3d/net/).
+1. Aspose.3D for .NET 库：确保您已安装 Aspose.3D 库。你可以下载它[这里](https://releases.aspose.com/3d/net/).
 
 2. 开发环境：使用必要的工具设置 .NET 开发环境。
 
@@ -110,11 +110,11 @@ A1：Aspose.3D for .NET 是一个功能强大的库，用于 .NET 应用程序�
 
 ### Q3：有免费试用吗？
 
-A3：是的，您可以免费试用[这里](https://releases.aspose.com/).
+ A3：是的，您可以免费试用[这里](https://releases.aspose.com/).
 
 ### Q4：如何获得 Aspose.3D 的支持？
 
- A4：访问支持论坛[这里](https://forum.aspose.com/c/3d/18).
+A4：访问支持论坛[这里](https://forum.aspose.com/c/3d/18).
 
 ### Q5：有临时许可证吗？
 

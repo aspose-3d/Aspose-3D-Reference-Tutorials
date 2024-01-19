@@ -104,7 +104,7 @@ scene.Save("Your Output Directory" + "PBR_Material_Box_Out.stl", FileFormat.STLA
 
 ### س3: هل هناك نسخة تجريبية متاحة؟
 
- ج3: نعم، يمكنك استكشاف إمكانيات Aspose.3D عن طريق تنزيل النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+ج3: نعم، يمكنك استكشاف إمكانيات Aspose.3D عن طريق تنزيل النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 
 ### س4: أين يمكنني العثور على دعم المجتمع والمناقشات؟
 

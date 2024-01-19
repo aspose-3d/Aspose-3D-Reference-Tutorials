@@ -40,7 +40,7 @@ Sphere sphere = new Sphere();
 ```csharp
 string documentDirectory = "Your Document Directory";
 ```
-Geben Sie den Verzeichnispfad an, in dem Sie das codierte Mesh-Dokument speichern möchten. Ersetzen Sie „Ihr Dokumentenverzeichnis“ durch den tatsächlichen Pfad.
+Geben Sie den Verzeichnispfad an, in dem Sie das codierte Mesh-Dokument speichern möchten. Ersetzen Sie „Ihr Dokumentverzeichnis“ durch den tatsächlichen Pfad.
 ## Schritt 3: Kodieren Sie das Kugelnetz
 ```csharp
 FileFormat.Draco.Encode(sphere, documentDirectory + "sphere.drc");

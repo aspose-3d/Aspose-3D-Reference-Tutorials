@@ -48,7 +48,7 @@ Scene scene = new Scene();
 scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ```
 
- Utiliser le`Open` méthode, nous chargeons un document 3D existant dans notre scène. Remplacez "document.fbx" par le chemin d'accès au fichier 3D souhaité.
+ Utiliser le`Open`méthode, nous chargeons un document 3D existant dans notre scène. Remplacez "document.fbx" par le chemin d'accès au fichier 3D souhaité.
 
 ## Étape 3 : Lire une scène existante à partir du disque
 
@@ -94,7 +94,7 @@ A1 : Aspose.3D prend principalement en charge les langages .NET, mais vous pouve
 
 ### Q3 : Existe-t-il une version d'essai disponible ?
 
- A3 : Oui, vous pouvez explorer Aspose.3D avec un[essai gratuit](https://releases.aspose.com/).
+A3 : Oui, vous pouvez explorer Aspose.3D avec un[essai gratuit](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je obtenir une licence temporaire pour Aspose.3D ?
 
@@ -102,4 +102,4 @@ A1 : Aspose.3D prend principalement en charge les langages .NET, mais vous pouve
 
 ### Q5 : Où puis-je acheter Aspose.3D pour .NET ?
 
- A5 : Visitez le[page d'achat](https://purchase.aspose.com/buy) pour acquérir la version complète d'Aspose.3D.
+A5 : Visitez le[page d'achat](https://purchase.aspose.com/buy) pour acquérir la version complète d'Aspose.3D.

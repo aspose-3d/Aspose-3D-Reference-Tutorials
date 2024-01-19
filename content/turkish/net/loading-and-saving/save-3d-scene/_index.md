@@ -49,7 +49,7 @@ MemoryStream dstStream = new MemoryStream();
 scene.Save(dstStream, FileFormat.FBX7500ASCII);
 ```
 
-Yüklenen 3B sahneyi kullanarak bir bellek akışına kaydedin.`Save` İstenilen dosya formatını (bu durumda FBX7500ASCII) belirterek yöntemi kullanın.
+ Yüklenen 3B sahneyi kullanarak bir bellek akışına kaydedin.`Save` İstenilen dosya formatını (bu durumda FBX7500ASCII) belirterek yöntemi kullanın.
 
 ### 3. Adım: Akış Konumunu Geri Sarın
 

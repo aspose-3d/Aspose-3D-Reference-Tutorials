@@ -9,13 +9,13 @@ url: /tr/net/3d-modeling/primitive-3d-models/
 ---
 ## giriiş
 
-Aspose.3D for .NET ile 3D modellemenin heyecan verici dünyasına hoş geldiniz! Bu kapsamlı eğitimde Aspose.3D'yi kullanarak ilkel 3D modeller oluşturma sürecini adım adım inceleyeceğiz. İster deneyimli bir geliştirici olun ister meraklı bir başlangıç seviyesinde olun, bu kılavuz Aspose.3D'nin gücünden yararlanarak projeleriniz için görsel açıdan etkileyici 3D öğeler oluşturmanıza yardımcı olacaktır.
+Aspose.3D for .NET ile 3D modellemenin heyecan verici dünyasına hoş geldiniz! Bu kapsamlı eğitimde Aspose.3D'yi kullanarak ilkel 3D modeller oluşturma sürecini adım adım inceleyeceğiz. İster deneyimli bir geliştirici olun, ister meraklı bir başlangıç seviyesinde olun, bu kılavuz Aspose.3D'nin gücünden yararlanarak projeleriniz için görsel açıdan etkileyici 3D öğeler oluşturmanıza yardımcı olacaktır.
 
 ## Önkoşullar
 
 3D modellemenin büyüleyici dünyasına dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
--  Aspose.3D for .NET: Aspose.3D for .NET kitaplığını indirip yükleyin.[İndirme: {link](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET: Aspose.3D for .NET kitaplığını indirip yükleyin.[İndirme: {link](https://releases.aspose.com/3d/net/).
 
 - Geliştirme Ortamı: Aspose.3D ile uyumluluğu sağlayan bir .NET geliştirme ortamı kurun.
 
@@ -40,7 +40,7 @@ Bu ad alanlarının varlığıyla, .NET uygulamanızda Aspose.3D'nin gücünü a
 ## Adım 1: Bir Sahne Nesnesini Başlatın
 
 ```csharp
-// Bir Sahne nesnesini başlat
+//Bir Sahne nesnesini başlat
 Scene scene = new Scene();
 ```
 
@@ -107,4 +107,4 @@ Cevap1: Aspose.3D öncelikle .NET'i destekler ancak Java ve diğer platformlar i
 
 ### S5: Herhangi bir örnek eğitim mevcut mu?
 
-A5: Evet, daha fazla öğreticiyi ve örneği keşfedin[dokümantasyon](https://reference.aspose.com/3d/net/).
+ A5: Evet, daha fazla öğreticiyi ve örneği keşfedin[dokümantasyon](https://reference.aspose.com/3d/net/).

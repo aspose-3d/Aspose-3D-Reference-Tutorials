@@ -16,7 +16,7 @@ Välkommen till Aspose.3Ds värld för .NET! Om du vill förbättra dina 3D-utve
 Innan vi börjar utforska de spännande funktionerna i Aspose.3D, se till att du har följande förutsättningar:
 
 - Grundläggande förståelse för C# och .NET utveckling.
-- Aspose.3D för .NET-biblioteket installerat. Du kan ladda ner den från[släpp sida](https://releases.aspose.com/3d/net/).
+-  Aspose.3D för .NET-biblioteket installerat. Du kan ladda ner den från[släpp sida](https://releases.aspose.com/3d/net/).
 - En utvecklingsmiljö inrättad med Visual Studio eller någon annan föredragen C# IDE.
 
 ## Importera namnområden

@@ -15,7 +15,7 @@ Välkommen till den här steg-för-steg-guiden om hur du använder Aspose.3D fö
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar:
 
-- Aspose.3D for .NET: Se till att du har Aspose.3D for .NET-biblioteket installerat. Du hittar nedladdningslänken[här](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET: Se till att du har Aspose.3D for .NET-biblioteket installerat. Du hittar nedladdningslänken[här](https://releases.aspose.com/3d/net/).
 
 - Grundläggande förståelse för C#: Denna handledning förutsätter att du har en grundläggande förståelse för C#-programmering.
 
@@ -96,7 +96,7 @@ S1: Ja, Aspose.3D stöder ett brett utbud av 3D-filformat, vilket ger flexibilit
 
 ### F3: Behöver jag en tillfällig licens för att testa?
 
- S3: Ja, du kan få en tillfällig licens för teständamål[här](https://purchase.aspose.com/temporary-license/).
+S3: Ja, du kan få en tillfällig licens för teständamål[här](https://purchase.aspose.com/temporary-license/).
 
 ### F4: Var kan jag hitta support för Aspose.3D?
 

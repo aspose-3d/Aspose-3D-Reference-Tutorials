@@ -87,7 +87,7 @@ Ange utdatakatalogen och spara 3D-scenen i ett filformat som stöds (FBX i det h
 // Sökvägen till dokumentkatalogen.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-// Spara 3D-scen i de filformat som stöds
+//Spara 3D-scen i de filformat som stöds
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

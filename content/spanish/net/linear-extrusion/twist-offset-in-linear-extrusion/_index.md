@@ -103,7 +103,7 @@ R1: Aspose.3D admite principalmente lenguajes .NET, pero Aspose proporciona bibl
 
 ### P3: ¿Existe un foro comunitario para Aspose.3D para .NET?
 
- R3: ¡Absolutamente! Únase a la comunidad en[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para interactuar con otros desarrolladores y buscar ayuda.
+R3: ¡Absolutamente! Únase a la comunidad en[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para interactuar con otros desarrolladores y buscar ayuda.
 
 ### P4: ¿Hay ejemplos y documentación adicionales disponibles?
 

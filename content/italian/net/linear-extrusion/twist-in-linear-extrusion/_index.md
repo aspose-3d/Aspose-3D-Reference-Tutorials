@@ -78,7 +78,7 @@ Qui è dove avviene la magia. Esegui l'estrusione lineare sul nodo sinistro, inc
 ## Passaggio 5: eseguire l'estrusione lineare con torsione sul nodo destro
 
 ```csharp
-// Esegui l'estrusione lineare sul nodo destro utilizzando la proprietà twist e slice
+//Esegui l'estrusione lineare sul nodo destro utilizzando la proprietà twist e slice
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 

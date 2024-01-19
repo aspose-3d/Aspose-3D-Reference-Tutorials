@@ -78,7 +78,7 @@ catch (ImportException e)
 }
 ```
 
- Intente abrir el documento 3D dentro del período de tiempo especificado. El`cts.Token` El parámetro garantiza que la operación se pueda cancelar si excede el tiempo de espera establecido.
+ Intente abrir el documento 3D dentro del período de tiempo especificado. El`cts.Token`El parámetro garantiza que la operación se pueda cancelar si excede el tiempo de espera establecido.
 
 ### Paso 5: Manejar la excepción de importación
 

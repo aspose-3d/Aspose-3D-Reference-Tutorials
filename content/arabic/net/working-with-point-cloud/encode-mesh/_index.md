@@ -55,7 +55,7 @@ FileFormat.Draco.Encode(sphere, documentDirectory + "sphere.drc");
 ### س: هل يمكنني تشفير الشبكات باستخدام خوارزميات ضغط أخرى إلى جانب Draco؟
 ج: يدعم Aspose.3D for .NET حاليًا ضغط Draco، مما يوفر تشفيرًا شبكيًا فعالاً وقويًا.
 ### س: هل يتوفر ترخيص مؤقت لـ Aspose.3D لـ .NET؟
- ج: نعم، يمكنك الحصول على ترخيص مؤقت عن طريق الزيارة[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/).
+ ج: نعم، يمكنك الحصول على ترخيص مؤقت من خلال الزيارة[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني العثور على وثائق شاملة لـ Aspose.3D لـ .NET؟
  ج: استكشف الوثائق التفصيلية على[Aspose.3D لتوثيق .NET](https://reference.aspose.com/3d/net/).
 ### س: كيف يمكنني الحصول على الدعم أو التواصل مع مجتمع Aspose.3D؟

@@ -48,7 +48,7 @@ Node cubeNode = new Node("cube");
 // Вызов общего класса создает сетку, используя метод построения полигонов, чтобы установить экземпляр сетки.
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
 
-// Наведите узел на сетку
+//Наведите узел на сетку
 cubeNode.Entity = mesh;
 
 // Добавляем куб в сцену
@@ -83,7 +83,7 @@ diffuse.FileName = "embedded-texture.png";
 
 // Установить двоичный контент
 diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-// ExEnd:EmbedRawContentData
+//ExEnd:EmbedRawContentData
 ```
 
 ## Шаг 4: Установите свойства материала
@@ -107,7 +107,7 @@ cubeNode.Material = mat;
 // ExStart:Сохранить3DScene
 var output = "Your Output Directory" + "MaterialToCube.fbx";
 
-// Сохранение 3D-сцены в поддерживаемых форматах файлов.
+//Сохранение 3D-сцены в поддерживаемых форматах файлов.
 scene.Save(output, FileFormat.FBX7400ASCII);
 // ExEnd:Сохранить3DScene
 
@@ -140,4 +140,4 @@ Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + out
 
 ### В5: Как я могу получить поддержку по любым вопросам или вопросам?
 
- A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) связаться с сообществом и обратиться за помощью.
+A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) связаться с сообществом и обратиться за помощью.

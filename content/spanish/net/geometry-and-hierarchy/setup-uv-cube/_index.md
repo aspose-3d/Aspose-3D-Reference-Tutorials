@@ -15,7 +15,7 @@ La creación de escenas 3D cautivadoras y visualmente atractivas a menudo implic
 
 Antes de sumergirse en el tutorial, asegúrese de tener los siguientes requisitos previos:
 
-1.  Aspose.3D para la biblioteca .NET: asegúrese de tener instalada la biblioteca Aspose.3D. Puedes descargarlo[aquí](https://releases.aspose.com/3d/net/).
+1. Aspose.3D para la biblioteca .NET: asegúrese de tener instalada la biblioteca Aspose.3D. Puedes descargarlo[aquí](https://releases.aspose.com/3d/net/).
 
 2. Entorno de desarrollo: Configure un entorno de desarrollo .NET con las herramientas necesarias.
 

@@ -21,7 +21,7 @@ Se till att du har en gedigen förståelse för .NET-utveckling, inklusive anvä
 
 ### 2. Aspose.3D för .NET-installation
 
-Ladda ner och installera Aspose.3D för .NET genom att besöka[nedladdningslänk](https://releases.aspose.com/3d/net/) . Om du stöter på några problem, se[dokumentation](https://reference.aspose.com/3d/net/) för assistens.
+ Ladda ner och installera Aspose.3D för .NET genom att besöka[nedladdningslänk](https://releases.aspose.com/3d/net/) . Om du stöter på några problem, se[dokumentation](https://reference.aspose.com/3d/net/) för assistens.
 
 ### 3. Grundläggande 3D-koncept
 
@@ -29,7 +29,7 @@ Friska upp dina kunskaper om grundläggande 3D-koncept, inklusive noder, transfo
 
 ## Importera namnområden
 
-I ditt .NET-projekt, importera de nödvändiga namnrymden för att kickstarta din resa med Aspose.3D.
+ditt .NET-projekt, importera de nödvändiga namnrymden för att kickstarta din resa med Aspose.3D.
 
 ```csharp
 using Aspose.ThreeD;
@@ -93,7 +93,7 @@ S1: Aspose.3D är kompatibel med ett brett utbud av .NET-ramverk, vilket säkers
 
 ### F4: Kan jag utforska fler handledningar och exempel?
 
- A4: Visst! De[dokumentation](https://reference.aspose.com/3d/net/)tillhandahåller omfattande handledningar, exempel och dokumentation för att förbättra din Aspose.3D-upplevelse.
+ A4: Visst! De[dokumentation](https://reference.aspose.com/3d/net/) tillhandahåller omfattande handledningar, exempel och dokumentation för att förbättra din Aspose.3D-upplevelse.
 
 ### F5: Hur köper jag Aspose.3D för .NET?
 

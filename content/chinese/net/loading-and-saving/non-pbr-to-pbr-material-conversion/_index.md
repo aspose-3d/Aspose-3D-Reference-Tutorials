@@ -15,7 +15,7 @@ url: /zh/net/loading-and-saving/non-pbr-to-pbr-material-conversion/
 
 在我们深入学习本教程之前，请确保您满足以下先决条件：
 
-- Aspose.3D for .NET：确保您已安装 Aspose.3D for .NET 库。你可以找到下载链接[这里](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET：确保您已安装 Aspose.3D for .NET 库。你可以找到下载链接[这里](https://releases.aspose.com/3d/net/).
 
 - C# 的基本了解：本教程假设您对 C# 编程有基本的了解。
 
@@ -82,7 +82,7 @@ scene.Save("Your Output Directory" + "Non_PBRtoPBRMaterial_Out.gltf", options);
 
 ## 结论
 
-恭喜！您已成功学习如何使用 Aspose.3D for .NET 将非 PBR 材质转换为 PBR 材质。这个强大的工具为您的 .NET 应用程序中的 3D 图形操作开辟了无限的可能性。
+恭喜！您已成功学习如何使用 Aspose.3D for .NET 将非 PBR 材质转换为 PBR 材质。这个强大的工具为 .NET 应用程序中的 3D 图形操作开辟了无限的可能性。
 
 ## 常见问题解答
 
@@ -96,7 +96,7 @@ A1：是的，Aspose.3D 支持多种 3D 文件格式，为您的项目提供灵�
 
 ### Q3：测试需要临时许可证吗？
 
- A3：是的，您可以获得临时许可证用于测试目的[这里](https://purchase.aspose.com/temporary-license/).
+A3：是的，您可以获得临时许可证用于测试目的[这里](https://purchase.aspose.com/temporary-license/).
 
 ### Q4：哪里可以找到对 Aspose.3D 的支持？
 
@@ -104,4 +104,4 @@ A1：是的，Aspose.3D 支持多种 3D 文件格式，为您的项目提供灵�
 
 ### Q5: 有免费试用吗？
 
- A5：是的，您可以探索免费试用版[这里](https://releases.aspose.com/).
+A5：是的，您可以探索免费试用版[这里](https://releases.aspose.com/).

@@ -16,7 +16,7 @@ Att förbättra 3D-scenernas visuella tilltalande är en avgörande aspekt för 
 Innan du dyker in i handledningen, se till att du har följande:
 
 - En praktisk kunskap om C# och .NET utveckling.
--  Aspose.3D för .NET-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/3d/net/).
+- Aspose.3D för .NET-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/3d/net/).
 - En 3D-scenfil (t.ex. "scene.obj") för experiment.
 
 ## Importera namnområden
@@ -93,7 +93,7 @@ Skapa en renderare och ett rendermål för att fånga scenen.
 ### Steg 5.1 Pixeleringseffekt
 
 ```csharp
-// Skapa pixeleringseffekt
+//Skapa pixeleringseffekt
 PostProcessing pixelation = renderer.GetPostProcessing("pixelation");
 renderer.PostProcessings.Add(pixelation);
 renderer.Render(rt);

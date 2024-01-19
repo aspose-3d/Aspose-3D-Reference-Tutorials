@@ -1,6 +1,6 @@
 ---
-tiitle: Cargar y guardar leer una escena existente
-linktiitle: Cargar y guardar leer una escena existente
+title: Cargar y guardar leer una escena existente
+linktitle: Cargar y guardar leer una escena existente
 second_title: Aspose.3D API .NET
 description: Desbloquee el poder del modelado 3D en .NET con Aspose.3D. Cargue, guarde y manipule escenas sin esfuerzo. Sumérgete en el mundo de posibilidades ilimitadas.
 type: docs
@@ -48,7 +48,7 @@ Scene scene = new Scene();
 scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ```
 
- Utilizando el`Open` método, cargamos un documento 3D existente en nuestra escena. Reemplace "document.fbx" con la ruta al archivo 3D que desee.
+ Utilizando el`Open`método, cargamos un documento 3D existente en nuestra escena. Reemplace "document.fbx" con la ruta al archivo 3D que desee.
 
 ## Paso 3: leer una escena existente desde el disco
 
@@ -94,7 +94,7 @@ R1: Aspose.3D admite principalmente lenguajes .NET, pero puede explorar opciones
 
 ### P3: ¿Hay una versión de prueba disponible?
 
- R3: Sí, puedes explorar Aspose.3D con un[prueba gratis](https://releases.aspose.com/).
+R3: Sí, puedes explorar Aspose.3D con un[prueba gratis](https://releases.aspose.com/).
 
 ### P4: ¿Cómo puedo obtener una licencia temporal para Aspose.3D?
 
@@ -102,4 +102,4 @@ R1: Aspose.3D admite principalmente lenguajes .NET, pero puede explorar opciones
 
 ### P5: ¿Dónde puedo comprar Aspose.3D para .NET?
 
- A5: Visita el[pagina de compra](https://purchase.aspose.com/buy) para adquirir la versión completa de Aspose.3D.
+A5: Visita el[pagina de compra](https://purchase.aspose.com/buy) para adquirir la versión completa de Aspose.3D.

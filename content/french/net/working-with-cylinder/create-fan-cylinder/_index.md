@@ -61,7 +61,7 @@ Ajoutez le cylindre du ventilateur en tant que nœud enfant au nœud racine de l
 var nonfan = new Cylinder(2, 2, 10, 20, 1, false);
 ```
 Explorez la flexibilité d'Aspose.3D en créant un cylindre sans la partie ventilateur.
-## Étape 6 : Personnaliser les propriétés des cylindres sans ventilateur
+## Étape 6 : Personnaliser les propriétés du cylindre sans ventilateur
 ```csharp
 // Définir GenerateFanCylinder sur false
 nonfan.GenerateFanCylinder = false;
@@ -91,6 +91,6 @@ Oui, Aspose.3D est compatible avec divers frameworks .NET, offrant une polyvalen
 ### Où puis-je trouver une documentation détaillée pour Aspose.3D pour .NET ?
  La documentation est disponible[ici](https://reference.aspose.com/3d/net/).
 ### Comment puis-je obtenir du support pour Aspose.3D pour .NET ?
- Visitez le forum d'assistance[ici](https://forum.aspose.com/c/3d/18) pour obtenir l’aide de la communauté et des experts Aspose.
+ Visitez le forum d'assistance[ici](https://forum.aspose.com/c/3d/18)pour obtenir l’aide de la communauté et des experts Aspose.
 ### Des licences temporaires sont-elles disponibles pour Aspose.3D pour .NET ?
  Oui, des licences temporaires peuvent être obtenues[ici](https://purchase.aspose.com/temporary-license/).

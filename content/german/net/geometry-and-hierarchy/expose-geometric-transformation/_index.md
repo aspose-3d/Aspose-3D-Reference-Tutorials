@@ -21,7 +21,7 @@ Stellen Sie sicher, dass Sie über solide Kenntnisse der .NET-Entwicklung verfü
 
 ### 2. Aspose.3D für .NET-Installation
 
-Laden Sie Aspose.3D für .NET herunter und installieren Sie es, indem Sie die besuchen[Download-Link](https://releases.aspose.com/3d/net/) . Wenn Sie auf Probleme stoßen, lesen Sie die[Dokumentation](https://reference.aspose.com/3d/net/) zur Hilfe.
+ Laden Sie Aspose.3D für .NET herunter und installieren Sie es, indem Sie die besuchen[Download-Link](https://releases.aspose.com/3d/net/) . Wenn Sie auf Probleme stoßen, lesen Sie die[Dokumentation](https://reference.aspose.com/3d/net/) zur Hilfe.
 
 ### 3. Grundlegende 3D-Konzepte
 
@@ -93,7 +93,7 @@ A1: Aspose.3D ist mit einer Vielzahl von .NET-Frameworks kompatibel und gewährl
 
 ### F4: Kann ich weitere Tutorials und Beispiele erkunden?
 
- A4: Auf jeden Fall! Der[Dokumentation](https://reference.aspose.com/3d/net/)bietet umfangreiche Tutorials, Beispiele und Dokumentationen, um Ihr Aspose.3D-Erlebnis zu verbessern.
+ A4: Auf jeden Fall! Der[Dokumentation](https://reference.aspose.com/3d/net/) bietet umfangreiche Tutorials, Beispiele und Dokumentationen, um Ihr Aspose.3D-Erlebnis zu verbessern.
 
 ### F5: Wie kaufe ich Aspose.3D für .NET?
 

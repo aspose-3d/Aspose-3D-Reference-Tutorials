@@ -12,7 +12,7 @@ url: /es/net/objects/convert-sphere-primitive-to-mesh/
 ## Requisitos previos
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 - Conocimientos básicos de programación .NET.
-- Aspose.3D para la biblioteca .NET instalada. Puedes descargarlo desde el[Página de descarga de Aspose.3D para .NET](https://releases.aspose.com/3d/net/).
+-  Aspose.3D para la biblioteca .NET instalada. Puedes descargarlo desde el[Página de descarga de Aspose.3D para .NET](https://releases.aspose.com/3d/net/).
 - Familiaridad con el lenguaje de programación C#.
 ## Importar espacios de nombres
 En su proyecto C#, asegúrese de importar los espacios de nombres necesarios para aprovechar la funcionalidad Aspose.3D:

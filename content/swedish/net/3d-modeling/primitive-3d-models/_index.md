@@ -15,7 +15,7 @@ Välkommen till den spännande världen av 3D-modellering med Aspose.3D för .NE
 
 Innan vi dyker in i den fascinerande sfären av 3D-modellering, se till att du har följande förutsättningar på plats:
 
--  Aspose.3D for .NET: Ladda ner och installera Aspose.3D for .NET-biblioteket från[nedladdningslänk](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET: Ladda ner och installera Aspose.3D for .NET-biblioteket från[nedladdningslänk](https://releases.aspose.com/3d/net/).
 
 - Utvecklingsmiljö: Sätt upp en .NET-utvecklingsmiljö som säkerställer kompatibilitet med Aspose.3D.
 
@@ -40,7 +40,7 @@ Med dessa namnutrymmen på plats är du redo att släppa lös kraften i Aspose.3
 ## Steg 1: Initiera ett scenobjekt
 
 ```csharp
-// Initiera ett scenobjekt
+//Initiera ett scenobjekt
 Scene scene = new Scene();
 ```
 
@@ -107,4 +107,4 @@ S1: Aspose.3D stöder i första hand .NET, men det finns andra versioner tillgä
 
 ### F5: Finns det några exempel på handledningar tillgängliga?
 
-S5: Ja, utforska fler handledningar och exempel i[dokumentation](https://reference.aspose.com/3d/net/).
+ S5: Ja, utforska fler handledningar och exempel i[dokumentation](https://reference.aspose.com/3d/net/).

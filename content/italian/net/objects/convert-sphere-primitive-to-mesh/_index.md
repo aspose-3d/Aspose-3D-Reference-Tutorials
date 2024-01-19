@@ -12,7 +12,7 @@ Stai cercando di sfruttare la potenza di Aspose.3D per .NET per convertire una M
 ## Prerequisiti
 Prima di immergerti nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 - Conoscenza base della programmazione .NET.
-- Aspose.3D per la libreria .NET installata. Puoi scaricarlo da[Pagina di download di Aspose.3D per .NET](https://releases.aspose.com/3d/net/).
+-  Aspose.3D per la libreria .NET installata. Puoi scaricarlo da[Pagina di download di Aspose.3D per .NET](https://releases.aspose.com/3d/net/).
 - Conoscenza del linguaggio di programmazione C#.
 ## Importa spazi dei nomi
 Nel tuo progetto C#, assicurati di importare gli spazi dei nomi necessari per sfruttare la funzionalità Aspose.3D:

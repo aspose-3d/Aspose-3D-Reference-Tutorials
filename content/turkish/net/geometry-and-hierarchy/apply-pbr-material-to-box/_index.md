@@ -104,7 +104,7 @@ A2: Kesinlikle! Aspose.3D, uygulamalarınıza kusursuz entegrasyon için ticari 
 
 ### S3: Deneme sürümü mevcut mu?
 
- Cevap3: Evet, ücretsiz deneme sürümünü indirerek Aspose.3D'nin yeteneklerini keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+Cevap3: Evet, ücretsiz deneme sürümünü indirerek Aspose.3D'nin yeteneklerini keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Topluluk desteğini ve tartışmalarını nerede bulabilirim?
 

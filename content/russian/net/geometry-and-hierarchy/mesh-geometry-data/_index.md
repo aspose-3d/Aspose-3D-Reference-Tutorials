@@ -95,7 +95,7 @@ foreach (Vector3 color in colors)
 // Путь к каталогу документов.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-// Сохранение 3D-сцены в поддерживаемых форматах файлов.
+//Сохранение 3D-сцены в поддерживаемых форматах файлов.
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

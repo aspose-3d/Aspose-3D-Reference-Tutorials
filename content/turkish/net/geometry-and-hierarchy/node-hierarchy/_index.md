@@ -17,11 +17,11 @@ Bu 3D yolculuğa çıkmadan önce aşağıdaki önkoşulların mevcut olduğunda
 
 -  Aspose.3D for .NET Kütüphanesi: Aspose.3D kütüphanesinin .NET projenize entegre olduğundan emin olun. Bunu henüz yapmadıysanız, şu adrese gidin:[dokümantasyon](https://reference.aspose.com/3d/net/) rehberlik için.
 
--  Kütüphaneyi İndirin: Aspose.3D kütüphanesini indirmediyseniz, en son sürümü şuradan edinin:[İndirme: {link](https://releases.aspose.com/3d/net/) ve belgelerde verilen kurulum talimatlarını izleyin.
+-  Kütüphaneyi İndirin: Aspose.3D kütüphanesini indirmediyseniz, en son sürümü şuradan edinin:[İndirme: {link](https://releases.aspose.com/3d/net/)ve belgelerde verilen kurulum talimatlarını izleyin.
 
 -  Lisans Alın: Aspose.3D'nin tüm potansiyelini açığa çıkarmak için geçerli bir lisansa ihtiyacınız var. Elinizde yoksa edinebilirsiniz[Burada](https://purchase.aspose.com/buy) veya birini tercih edin[ücretsiz deneme](https://releases.aspose.com/) yeteneklerini keşfetmek için.
 
-- Destek ve Topluluk: Aspose.3D topluluğuna katılın[destek Forumu](https://forum.aspose.com/c/3d/18) diğer geliştiricilerle bağlantı kurmak, yardım istemek ve en son gelişmelerden haberdar olmak için.
+-  Destek ve Topluluk: Aspose.3D topluluğuna katılın[destek Forumu](https://forum.aspose.com/c/3d/18)diğer geliştiricilerle bağlantı kurmak, yardım istemek ve en son gelişmelerden haberdar olmak için.
 
 -  Geçici Lisans (İsteğe Bağlı): Bir satın alma işlemi yapmadan önce Aspose.3D'yi araştırıyorsanız, bir geçici Lisans almayı düşünün.[geçici lisans](https://purchase.aspose.com/temporary-license/) genişletilmiş erişim için.
 
@@ -68,7 +68,7 @@ cube1.Entity = mesh;
 cube2.Entity = mesh;
 ```
 
-Uygun bir yöntem kullanarak bir ağ oluşturun (burada,`CreateMeshUsingPolygonBuilder`) ve onu alt düğümlere atayın.
+ Uygun bir yöntem kullanarak bir ağ oluşturun (burada,`CreateMeshUsingPolygonBuilder`) ve onu alt düğümlere atayın.
 
 ## Adım 4: Çevirileri Ayarlayın
 

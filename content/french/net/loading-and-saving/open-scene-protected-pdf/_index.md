@@ -84,7 +84,7 @@ A1 : Oui, Aspose.3D prend en charge une large gamme de formats de fichiers 3D, g
 
 ### Q2 : Puis-je utiliser Aspose.3D à des fins commerciales ?
 
-A2 : Absolument ! Aspose.3D est livré avec une licence commerciale et vous pouvez l'acheter[ici](https://purchase.aspose.com/buy).
+ A2 : Absolument ! Aspose.3D est livré avec une licence commerciale et vous pouvez l'acheter[ici](https://purchase.aspose.com/buy).
 
 ### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.3D ?
 

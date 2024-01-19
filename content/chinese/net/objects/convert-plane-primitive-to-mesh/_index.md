@@ -32,7 +32,7 @@ using Aspose.ThreeD.Formats;
 Scene scene = new Scene();
 ```
 创建一个新的场景对象作为 3D 元素的容器。
-## 第2步：初始化节点类对象
+## 步骤2：初始化节点类对象
 ```csharp
 Node cubeNode = new Node("plane");
 ```

@@ -176,4 +176,4 @@ Cevap4: Evet, Aspose.3D for .NET'in özelliklerini aşağıdaki dosyayı indirer
 
 ### S5: Aspose.3D for .NET desteğini nereden alabilirim?
 
- A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) Toplumsal destek ve yardım için.
+A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) Toplumsal destek ve yardım için.

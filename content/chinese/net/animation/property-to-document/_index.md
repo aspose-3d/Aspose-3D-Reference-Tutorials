@@ -15,7 +15,7 @@ url: /zh/net/animation/property-to-document/
 
 在我们踏上这一激动人心的旅程之前，请确保您满足以下先决条件：
 
--  Aspose.3D for .NET：确保您已安装该库。您可以从[Aspose.3D 网站](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET：确保您已安装该库。您可以从[Aspose.3D 网站](https://releases.aspose.com/3d/net/).
 
 - C# 知识：熟悉 C# 编程语言对于理解和实现示例至关重要。
 
@@ -119,7 +119,7 @@ Console.WriteLine("\nAnimation property added successfully to document.\nFile sa
 
 ### Q3：有免费试用吗？
 
- A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
+A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
 
 ### Q4：从哪里可以获得 Aspose.3D 的支持？
 

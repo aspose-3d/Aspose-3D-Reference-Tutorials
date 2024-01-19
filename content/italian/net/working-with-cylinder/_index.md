@@ -32,6 +32,6 @@ In conclusione, Aspose.3D per .NET apre le porte a un mondo di possibilità illi
 ### [Creazione del cilindro della ventola](./create-fan-cylinder/)
 Sblocca il mondo della progettazione 3D con Aspose.3D per .NET! Crea straordinari cilindri con ventola e senza ventola senza sforzo. Scarica subito la tua versione di prova.
 ### [Cilindro superiore offset personalizzato](./customized-offset-top-cylinder/)
-Esplora le meraviglie della grafica 3D con Aspose.3D per .NET. Impara a creare cilindri superiori offset personalizzati senza sforzo. Migliora la tua esperienza di codifica ora!
+Esplora le meraviglie della grafica 3D con Aspose.3D per .NET. Impara a creare cilindri superiori offset personalizzati senza sforzo. Migliora la tua esperienza di codifica adesso!
 ### [Cilindro inferiore a taglio personalizzato](./customized-shear-bottom-cylinder/)
 Impara a creare cilindri con fondo di taglio personalizzati utilizzando Aspose.3D per .NET con la nostra guida dettagliata passo passo. Migliora le tue capacità di modellazione 3D oggi!

@@ -39,7 +39,7 @@ var cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 ## 步骤 3：为气缸 1 定制剪切底部
 将定制的剪切底部应用于第一个圆柱体：
 ```csharp
-cylinder1.ShearBottom = new Vector2(0, 0.83); // xy 平面（z 轴）剪切 47.5 度
+cylinder1.ShearBottom = new Vector2(0, 0.83); //xy 平面（z 轴）剪切 47.5 度
 ```
 ## 第 4 步：将圆柱体 1 添加到场景中
 将第一个圆柱体添加到场景中并设置其平移：

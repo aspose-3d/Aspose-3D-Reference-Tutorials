@@ -104,7 +104,7 @@ A2：当然！ Aspose.3D 提供商业许可证，可无缝集成到您的应用�
 
 ### Q3：有试用版吗？
 
- A3：是的，您可以通过下载免费试用版来探索 Aspose.3D 的功能[这里](https://releases.aspose.com/).
+A3：是的，您可以通过下载免费试用版来探索 Aspose.3D 的功能[这里](https://releases.aspose.com/).
 
 ### Q4：我在哪里可以找到社区支持和讨论？
 

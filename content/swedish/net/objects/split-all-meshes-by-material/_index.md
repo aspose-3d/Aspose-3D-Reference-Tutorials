@@ -39,7 +39,7 @@ Scene scene = new Scene(input);
 // Dela alla maskor
 PolygonModifier.SplitMesh(scene, SplitMeshPolicy.CloneData);
 ```
- Här använder vi`SplitMesh` metod från`PolygonModifier`klass för att dela upp alla maskor baserat på materialet.
+ Här använder vi`SplitMesh` metod från`PolygonModifier` klass för att dela upp alla maskor baserat på materialet.
 ## Steg 3: Spara den delade scenen
 ```csharp
 // Spara fil

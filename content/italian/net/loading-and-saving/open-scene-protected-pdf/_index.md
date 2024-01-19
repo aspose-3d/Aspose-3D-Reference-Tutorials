@@ -1,6 +1,6 @@
 ---
-tiitle: Caricamento e salvataggio apertura di una scena da PDF protetto
-linktiitle: Caricamento e salvataggio apertura di una scena da PDF protetto
+title: Caricamento e salvataggio apertura di una scena da PDF protetto
+linktitle: Caricamento e salvataggio apertura di una scena da PDF protetto
 second_title: API Aspose.3D .NET
 description: Esplora le possibilità della modellazione 3D con Aspose.3D per .NET. Impara ad aprire scene da PDF protetti nella nostra guida passo passo.
 type: docs
@@ -84,7 +84,7 @@ A1: Sì, Aspose.3D supporta un'ampia gamma di formati di file 3D, garantendo fle
 
 ### Q2: Posso utilizzare Aspose.3D per scopi commerciali?
 
-A2: Assolutamente! Aspose.3D viene fornito con una licenza commerciale e puoi acquistarla[Qui](https://purchase.aspose.com/buy).
+ A2: Assolutamente! Aspose.3D viene fornito con una licenza commerciale e puoi acquistarla[Qui](https://purchase.aspose.com/buy).
 
 ### Q3: È disponibile una prova gratuita per Aspose.3D?
 

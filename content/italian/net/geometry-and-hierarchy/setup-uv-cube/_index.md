@@ -15,7 +15,7 @@ La creazione di scene 3D accattivanti e visivamente accattivanti spesso comporta
 
 Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
 
-1.  Libreria Aspose.3D per .NET: assicurati di avere la libreria Aspose.3D installata. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/net/).
+1. Libreria Aspose.3D per .NET: assicurati di avere la libreria Aspose.3D installata. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/net/).
 
 2. Ambiente di sviluppo: configura un ambiente di sviluppo .NET con gli strumenti necessari.
 

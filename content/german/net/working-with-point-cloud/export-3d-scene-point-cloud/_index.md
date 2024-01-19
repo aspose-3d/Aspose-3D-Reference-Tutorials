@@ -13,7 +13,7 @@ Willkommen in der Welt von Aspose.3D für .NET, einer leistungsstarken Bibliothe
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 -  Aspose.3D für .NET: Stellen Sie sicher, dass Sie die Aspose.3D-Bibliothek installiert haben. Den Download-Link finden Sie hier[Hier](https://releases.aspose.com/3d/net/).
 - Entwicklungsumgebung: Richten Sie Ihre bevorzugte .NET-Entwicklungsumgebung ein, z. B. Visual Studio.
-- Grundlegendes Verständnis von 3D-Szenen: Machen Sie sich mit den grundlegenden Konzepten im Zusammenhang mit 3D-Szenen vertraut.
+- Grundlegendes Verständnis von 3D-Szenen: Machen Sie sich mit grundlegenden Konzepten im Zusammenhang mit 3D-Szenen vertraut.
 - Dokumentverzeichnis: Denken Sie an ein bestimmtes Verzeichnis, in dem Sie Ihre exportierte 3D-Szene als Punktwolke speichern möchten.
 ## Namespaces importieren
 Importieren Sie in Ihrem .NET-Projekt die erforderlichen Namespaces, um auf die Funktionen von Aspose.3D zuzugreifen. Fügen Sie am Anfang Ihres Codes die folgenden Zeilen hinzu:

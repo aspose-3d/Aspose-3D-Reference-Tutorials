@@ -75,7 +75,7 @@ Asegúrese de reemplazar "Su directorio de salida" con la ruta deseada.
 
 ## Conclusión
 
- ¡Felicidades! Ha aprendido con éxito cómo utilizar Aspose.3D para .NET para crear un modelo 3D simple y guardarlo en formato PDF. Esto es sólo el comienzo de lo que puedes lograr con esta poderosa biblioteca. Explora más características y posibilidades en el[Documentación de Aspose.3D](https://reference.aspose.com/3d/net/).
+¡Felicidades! Ha aprendido con éxito cómo utilizar Aspose.3D para .NET para crear un modelo 3D simple y guardarlo en formato PDF. Esto es sólo el comienzo de lo que puedes lograr con esta poderosa biblioteca. Explora más características y posibilidades en el[Documentación de Aspose.3D](https://reference.aspose.com/3d/net/).
 
 ## Preguntas frecuentes
 

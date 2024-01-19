@@ -15,7 +15,7 @@ Benvenuti in questo tutorial completo sull'utilizzo di Aspose.3D per .NET per es
 
 Prima di immergerci nel tutorial, assicurati di possedere i seguenti prerequisiti:
 
--  Aspose.3D per .NET: assicurati di avere la libreria installata. Puoi scaricarlo da[Aspose.3D per la pagina .NET](https://releases.aspose.com/3d/net/).
+- Aspose.3D per .NET: assicurati di avere la libreria installata. Puoi scaricarlo da[Aspose.3D per la pagina .NET](https://releases.aspose.com/3d/net/).
 
 ## Importa spazi dei nomi
 

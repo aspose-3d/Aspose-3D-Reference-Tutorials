@@ -1,6 +1,6 @@
 ---
-tiitle: Caricamento e salvataggio salvataggio della scena 3D
-linktiitle: Caricamento e salvataggio salvataggio della scena 3D
+title: Caricamento e salvataggio salvataggio della scena 3D
+linktitle: Caricamento e salvataggio salvataggio della scena 3D
 second_title: API Aspose.3D .NET
 description: Esplora la potenza di Aspose.3D per .NET. una libreria versatile per una perfetta manipolazione delle scene 3D. Carica, salva e comprimi senza sforzo.
 type: docs
@@ -49,7 +49,7 @@ MemoryStream dstStream = new MemoryStream();
 scene.Save(dstStream, FileFormat.FBX7500ASCII);
 ```
 
-Salvare la scena 3D caricata in un flusso di memoria utilizzando il file`Save` metodo, specificando il formato file desiderato (in questo caso, FBX7500ASCII).
+ Salvare la scena 3D caricata in un flusso di memoria utilizzando il file`Save` metodo, specificando il formato file desiderato (in questo caso, FBX7500ASCII).
 
 ### Passaggio 3: riavvolgi la posizione dello streaming
 

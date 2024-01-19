@@ -15,7 +15,7 @@ url: /zh/net/3d-scene/save-3d-meshes-binary-format/
 
 在我们开始学习本教程之前，请确保您已准备好以下内容：
 
-- Aspose.3D for .NET：确保您已安装 Aspose.3D 库。您可以从以下位置下载：[这里](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET：确保您已安装 Aspose.3D 库。您可以从以下位置下载：[这里](https://releases.aspose.com/3d/net/).
 
 - 开发环境：设置您首选的 C# 开发环境，例如 Visual Studio。
 

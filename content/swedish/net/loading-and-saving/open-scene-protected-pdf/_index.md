@@ -84,7 +84,7 @@ S1: Ja, Aspose.3D stöder ett brett utbud av 3D-filformat, vilket säkerställer
 
 ### F2: Kan jag använda Aspose.3D för kommersiella ändamål?
 
-A2: Absolut! Aspose.3D kommer med en kommersiell licens, och du kan köpa den[här](https://purchase.aspose.com/buy).
+ A2: Absolut! Aspose.3D kommer med en kommersiell licens, och du kan köpa den[här](https://purchase.aspose.com/buy).
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.3D?
 

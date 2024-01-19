@@ -17,11 +17,11 @@ Innan vi ger oss ut på denna 3D-resa, se till att du har följande förutsättn
 
 -  Aspose.3D for .NET Library: Se till att du har Aspose.3D-biblioteket integrerat i ditt .NET-projekt. Om du inte har gjort detta än, gå till[dokumentation](https://reference.aspose.com/3d/net/) för vägledning.
 
--  Ladda ner biblioteket: Om du inte har laddat ner Aspose.3D-biblioteket, hämta den senaste versionen från[nedladdningslänk](https://releases.aspose.com/3d/net/) och följ installationsinstruktionerna i dokumentationen.
+-  Ladda ner biblioteket: Om du inte har laddat ner Aspose.3D-biblioteket, hämta den senaste versionen från[nedladdningslänk](https://releases.aspose.com/3d/net/)och följ installationsinstruktionerna i dokumentationen.
 
 -  Skaffa en licens: För att låsa upp Aspose.3Ds fulla potential behöver du en giltig licens. Om du inte har en så kan du få den[här](https://purchase.aspose.com/buy) eller välj en[gratis provperiod](https://releases.aspose.com/) att utforska dess kapacitet.
 
-- Support och community: Gå med i Aspose.3D-communityt på[supportforum](https://forum.aspose.com/c/3d/18) för att få kontakt med andra utvecklare, söka hjälp och hålla dig uppdaterad om den senaste utvecklingen.
+-  Support och community: Gå med i Aspose.3D-communityt på[supportforum](https://forum.aspose.com/c/3d/18)för att få kontakt med andra utvecklare, söka hjälp och hålla dig uppdaterad om den senaste utvecklingen.
 
 -  Tillfällig licens (valfritt): Om du utforskar Aspose.3D innan du gör ett köp, överväg att skaffa en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för utökad åtkomst.
 
@@ -68,7 +68,7 @@ cube1.Entity = mesh;
 cube2.Entity = mesh;
 ```
 
-Generera ett nät med en lämplig metod (här,`CreateMeshUsingPolygonBuilder`) och tilldela den till barnnoderna.
+ Generera ett nät med en lämplig metod (här,`CreateMeshUsingPolygonBuilder`) och tilldela den till barnnoderna.
 
 ## Steg 4: Ställ in översättningar
 

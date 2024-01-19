@@ -37,7 +37,7 @@ using Aspose.ThreeD.Utilities;
 第一步涉及为我们的立方体定义原始法线数据。法线表示为 Vector4 对象，下面是一个示例：
 
 ```csharp
-//ExStart：原始法线数据
+// ExStart：原始法线数据
 Vector4[] normals = new Vector4[]
 {
     new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
@@ -87,7 +87,7 @@ A1：是的，Aspose.3D 支持各种 3D 文件格式，可以与您现有的项�
 
 ### Q2：我可以在购买前试用Aspose.3D吗？
 
- A2：当然！您可以从以下位置下载免费试用版[这里](https://releases.aspose.com/).
+A2：当然！您可以从以下位置下载免费试用版[这里](https://releases.aspose.com/).
 
 ### Q3：在哪里可以找到 Aspose.3D 的临时许可证？
 

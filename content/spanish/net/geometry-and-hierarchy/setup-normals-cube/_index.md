@@ -37,11 +37,11 @@ using Aspose.ThreeD.Utilities;
 El primer paso consiste en definir datos normales sin procesar para nuestro cubo. Las normales se representan como objetos Vector4 y aquí hay un ejemplo:
 
 ```csharp
-//ExInicio:RawNormalData
+// ExInicio:RawNormalData
 Vector4[] normals = new Vector4[]
 {
     new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
-    // ... (repetir para los otros 7 vértices)
+    //... (repetir para los otros 7 vértices)
 };
 // ExEnd:RawNormalData
 ```
@@ -87,7 +87,7 @@ R1: Sí, Aspose.3D admite varios formatos de archivos 3D, lo que permite una int
 
 ### P2: ¿Puedo probar Aspose.3D antes de comprarlo?
 
- R2: ¡Absolutamente! Puede descargar una prueba gratuita desde[aquí](https://releases.aspose.com/).
+R2: ¡Absolutamente! Puede descargar una prueba gratuita desde[aquí](https://releases.aspose.com/).
 
 ### P3: ¿Dónde puedo encontrar licencias temporales para Aspose.3D?
 

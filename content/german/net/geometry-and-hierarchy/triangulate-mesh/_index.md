@@ -15,7 +15,7 @@ Willkommen zu diesem umfassenden Tutorial zum Triangulieren von Netzen in 3D-Sze
 
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
--  Aspose.3D für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.3D-Bibliothek installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/3d/net/).
+- Aspose.3D für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.3D-Bibliothek installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/3d/net/).
 
 - Beispiel eines 3D-Modells: Sie verfügen über ein 3D-Modell im FBX-Format, das Sie triangulieren möchten. Sie können das bereitgestellte verwenden[document.fbx](https://reference.aspose.com/3d/net/) Datei zum Üben.
 

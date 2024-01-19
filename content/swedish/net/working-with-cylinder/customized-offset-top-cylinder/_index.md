@@ -53,7 +53,7 @@ scene.RootNode.CreateChildNode(cylinder1).Transform.Translation = new Vector3(10
 Vi lägger till den första cylindern som en barnnod till scenen och justerar dess position.
 ## Steg 5: Initiera den andra cylindern
 ```csharp
-// Initiera den andra cylindern utan anpassad OffsetTop
+//Initiera den andra cylindern utan anpassad OffsetTop
 var cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 ```
 En andra cylinder initieras utan en anpassad offset topp.

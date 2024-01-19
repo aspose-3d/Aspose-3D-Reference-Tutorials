@@ -45,7 +45,7 @@ Ange katalogsökvägen där du vill spara det kodade mesh-dokumentet. Ersätt "D
 ```csharp
 FileFormat.Draco.Encode(sphere, documentDirectory + "sphere.drc");
 ```
- Här använder vi Aspose.3D-biblioteket för att koda`sphere` mesh med hjälp av Draco-komprimeringsalgoritmen. Det kodade nätet sparas som en ".drc"-fil i den angivna dokumentkatalogen.
+ Här använder vi Aspose.3D-biblioteket för att koda`sphere` mesh med Dracos komprimeringsalgoritm. Det kodade nätet sparas som en ".drc"-fil i den angivna dokumentkatalogen.
 Upprepa dessa steg för olika 3D-objekt eller justera parametrar för att skräddarsy kodningsprocessen efter dina specifika behov.
 Genom att dela upp kodningsprocessen i hanterbara steg kan du enkelt integrera Aspose.3D för .NET i dina projekt, vilket öppnar upp en värld av möjligheter för 3D-grafik och mesh-manipulation.
 ## Slutsats

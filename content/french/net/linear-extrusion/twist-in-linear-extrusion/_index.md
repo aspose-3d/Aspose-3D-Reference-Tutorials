@@ -78,7 +78,7 @@ C'est là que la magie opère. Exécutez une extrusion linéaire sur le nœud ga
 ## Étape 5 : Effectuer une extrusion linéaire avec torsion sur le nœud droit
 
 ```csharp
-// Effectuez une extrusion linéaire sur le nœud droit à l'aide des propriétés twist et slices
+//Effectuez une extrusion linéaire sur le nœud droit à l'aide des propriétés twist et slices
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 

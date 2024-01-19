@@ -11,7 +11,7 @@ url: /tr/net/geometry-and-hierarchy/setup-normals-cube/
 
 Aspose.3D for .NET kullanarak 3D sahnelerde bir küp üzerinde normalleri ayarlamaya ilişkin adım adım kılavuzumuza hoş geldiniz. Aspose.3D, .NET geliştiricilerinin 3D dosyalarla çalışmasına olanak tanıyan, 3D modelleme ve manipülasyon için çok çeşitli işlevler sağlayan güçlü bir kütüphanedir.
 
-Bu eğitimde, Aspose.3D'yi kullanarak 3 boyutlu bir sahnede bir küp üzerinde normalleri ayarlama sürecinde size yol göstereceğiz. Normaller, 3D grafiklerde uygun ışıklandırma ve gölgeleme için çok önemlidir ve bunların nasıl kurulacağını anlamak, gerçekçi ve görsel olarak çekici 3D modeller oluşturmak için çok önemlidir.
+Bu eğitimde, Aspose.3D'yi kullanarak 3 boyutlu bir sahnede bir küp üzerinde normalleri ayarlama sürecinde size yol göstereceğiz. Normaller, 3D grafiklerde uygun ışıklandırma ve gölgeleme için çok önemlidir ve bunların nasıl kurulacağını anlamak, gerçekçi ve görsel olarak çekici 3D modeller oluşturmak için temel öneme sahiptir.
 
 ## Önkoşullar
 
@@ -37,11 +37,11 @@ using Aspose.ThreeD.Utilities;
 İlk adım, küpümüz için ham normal verileri tanımlamayı içerir. Normaller Vector4 nesneleri olarak temsil edilir ve işte bir örnek:
 
 ```csharp
-//ExStart:RawNormalData
+// ExStart:RawNormalData
 Vector4[] normals = new Vector4[]
 {
     new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
-    // ... (diğer 7 köşe için tekrarlayın)
+    //... (diğer 7 köşe için tekrarlayın)
 };
 // ExEnd:RawNormalData
 ```
@@ -87,7 +87,7 @@ Cevap1: Evet, Aspose.3D çeşitli 3D dosya formatlarını destekleyerek mevcut p
 
 ### S2: Satın almadan önce Aspose.3D'yi deneyebilir miyim?
 
- A2: Kesinlikle! Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+A2: Kesinlikle! Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
 
 ### S3: Aspose.3D için geçici lisansları nerede bulabilirim?
 

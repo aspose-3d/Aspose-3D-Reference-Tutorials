@@ -51,7 +51,7 @@ Scene scene = new Scene();
 Node cubeNode = new Node("cube");
 ```
 
- قم بإنشاء عقدة داخل المشهد باستخدام`Node` فصل. ستكون هذه العقدة بمثابة حاوية لكائننا ثلاثي الأبعاد.
+ قم بإنشاء عقدة داخل المشهد باستخدام`Node`فصل. ستكون هذه العقدة بمثابة حاوية لكائننا ثلاثي الأبعاد.
 
 ## الخطوة 3: إنشاء شبكة باستخدام Polygon Builder
 
@@ -97,7 +97,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // المسار إلى دليل المستندات.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
+//حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -129,4 +129,4 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة محددة؟
 
- ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لدعم المجتمع.
+ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لدعم المجتمع.

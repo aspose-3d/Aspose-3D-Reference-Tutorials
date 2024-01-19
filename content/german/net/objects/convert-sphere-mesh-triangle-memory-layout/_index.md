@@ -12,7 +12,7 @@ Möchten Sie die Leistungsfähigkeit von Aspose.3D für .NET nutzen, um ein Kuge
 ## Voraussetzungen
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 - Grundkenntnisse der .NET-Programmierung.
-- Aspose.3D für .NET-Bibliothek installiert. Sie können es hier herunterladen[Aspose.3D für .NET-Downloadseite](https://releases.aspose.com/3d/net/).
+-  Aspose.3D für .NET-Bibliothek installiert. Sie können es hier herunterladen[Aspose.3D für .NET-Downloadseite](https://releases.aspose.com/3d/net/).
 - Vertrautheit mit der Programmiersprache C#.
 ## Namespaces importieren
 Stellen Sie in Ihrem C#-Projekt sicher, dass Sie die erforderlichen Namespaces importieren, um die Aspose.3D-Funktionalität zu nutzen:

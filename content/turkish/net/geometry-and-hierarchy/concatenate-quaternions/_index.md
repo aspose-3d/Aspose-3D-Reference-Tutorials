@@ -43,7 +43,7 @@ Scene scene = new Scene();
 
 ## Adım 2: Kuaterniyonları Tanımlayın
 
- Üç kuaterniyonu tanımlayın,`q1`, `q2` Ve`q3`, her biri belirli bir rotasyonu temsil eder.
+ Üç kuaterniyonu tanımlayın,`q1`, `q2` , Ve`q3`, her biri belirli bir rotasyonu temsil eder.
 
 ```csharp
 Quaternion q1 = Quaternion.FromEulerAngle(Math.PI * 0.5, 0, 0);

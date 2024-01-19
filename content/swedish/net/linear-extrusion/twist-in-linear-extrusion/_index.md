@@ -78,7 +78,7 @@ Det är här magin händer. Utför linjär extrudering på den vänstra noden, i
 ## Steg 5: Utför linjär extrudering med vridning på höger nod
 
 ```csharp
-// Utför linjär extrudering på den högra noden med hjälp av egenskapen twist and slices
+//Utför linjär extrudering på den högra noden med hjälp av egenskapen twist and slices
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 

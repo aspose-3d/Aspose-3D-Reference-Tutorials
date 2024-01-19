@@ -53,7 +53,7 @@ scene.RootNode.CreateChildNode(cylinder1).Transform.Translation = new Vector3(10
 نضيف الأسطوانة الأولى كعقدة فرعية إلى المشهد، ونضبط موضعها.
 ## الخطوة 5: تهيئة الاسطوانة الثانية
 ```csharp
-// تهيئة الاسطوانة الثانية بدون OffsetTop المخصص
+//تهيئة الاسطوانة الثانية بدون OffsetTop المخصص
 var cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 ```
 تتم تهيئة الأسطوانة الثانية بدون سطح إزاحة مخصص.

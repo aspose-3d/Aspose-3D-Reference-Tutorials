@@ -15,7 +15,7 @@ url: /zh/net/geometry-and-hierarchy/triangulate-mesh/
 
 在深入学习本教程之前，请确保您具备以下先决条件：
 
--  Aspose.3D for .NET 库：确保您已安装 Aspose.3D 库。你可以下载它[这里](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET 库：确保您已安装 Aspose.3D 库。你可以下载它[这里](https://releases.aspose.com/3d/net/).
 
 - 示例 3D 模型：拥有要进行三角测量的 FBX 格式的 3D 模型。您可以使用提供的[文件.fbx](https://reference.aspose.com/3d/net/)归档练习。
 

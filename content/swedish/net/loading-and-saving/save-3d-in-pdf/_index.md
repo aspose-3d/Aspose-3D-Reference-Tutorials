@@ -23,7 +23,7 @@ Innan vi dyker in i handledningen, se till att du har följande förutsättninga
 
 ## Importera namnområden
 
-I ditt .NET-projekt, se till att importera de nödvändiga namnområdena för att komma åt funktionerna som tillhandahålls av Aspose.3D:
+ditt .NET-projekt, se till att importera de nödvändiga namnområdena för att komma åt funktionerna som tillhandahålls av Aspose.3D:
 
 ```csharp
 using System;
@@ -75,7 +75,7 @@ Se till att ersätta "Din utdatakatalog" med den önskade sökvägen.
 
 ## Slutsats
 
- Grattis! Du har framgångsrikt lärt dig hur du använder Aspose.3D för .NET för att skapa en enkel 3D-modell och spara den i PDF-format. Detta är bara början på vad du kan uppnå med detta kraftfulla bibliotek. Utforska fler funktioner och möjligheter i[Aspose.3D-dokumentation](https://reference.aspose.com/3d/net/).
+Grattis! Du har framgångsrikt lärt dig hur du använder Aspose.3D för .NET för att skapa en enkel 3D-modell och spara den i PDF-format. Detta är bara början på vad du kan uppnå med detta kraftfulla bibliotek. Utforska fler funktioner och möjligheter i[Aspose.3D-dokumentation](https://reference.aspose.com/3d/net/).
 
 ## FAQ's
 

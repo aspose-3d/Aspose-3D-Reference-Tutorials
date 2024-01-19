@@ -42,7 +42,7 @@ using Aspose.ThreeD.Utilities;
 Scene scene = new Scene();
 ```
 
-## 第2步：初始化节点类对象
+## 步骤2：初始化节点类对象
 
 ```csharp
 //初始化Node类对象

@@ -54,7 +54,7 @@ mat.Indices.AddRange(new int[] { 0, 0, 0, 1, 1, 1 });
 Aktualisieren Sie Materialindizes, um sich mit der CompactData-Richtlinie auf den nächsten Teilungsvorgang vorzubereiten.
 ## Schritt 5: Aufteilen des Netzes nach Material (CompactData-Richtlinie)
 ```csharp
-// Teilen Sie es in zwei Unternetze auf, die jeweils bestimmte Ebenen enthalten
+//Teilen Sie es in zwei Unternetze auf, die jeweils bestimmte Ebenen enthalten
 planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CompactData);
 ```
 Jetzt teilen wir das Netz in zwei Unternetze auf, gruppieren Ebenen nach Materialien und verwenden die CompactData-Richtlinie.
