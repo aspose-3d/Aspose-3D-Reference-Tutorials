@@ -1,6 +1,6 @@
 ---
-title: Transforming Node by Euler Angles in 3D Scenes
-linktitle: Transforming Node by Euler Angles in 3D Scenes
+title: Transforming Node by Euler Angles 
+linktitle: Transforming Node by Euler Angles 
 second_title: Aspose.3D .NET API
 description: Learn to transform 3D nodes effortlessly with Aspose.3D for .NET. Follow our step-by-step guide for stunning results in your projects.
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
 Start by creating a new 3D scene using the `Scene` class.
 
-## Step 2: Initialize Node Class Object
 
-```csharp
-// Initialize Node class object
-Node cubeNode = new Node("cube");
-```
-
-Create a node within the scene using the `Node` class. This node will serve as the container for our 3D object.
-
-## Step 3: Create Mesh Using Polygon Builder
+## Step 2: Create Mesh Using primitive Box
 
 ```csharp
 // Call Common class create mesh using polygon builder method to set mesh instance 
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
 Invoke a method (in this case, `CreateMeshUsingPolygonBuilder` from a custom `Common` class) to generate a mesh for the 3D object.
 
-## Step 4: Point Node to the Mesh Geometry
+## Step 3: Create a container node for the mesh
 
 ```csharp
 // Point node to the Mesh geometry
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-Associate the created mesh with the node.
+Create a node within the scene using the `Node` class. This node will serve as the container for our 3D object.
 
-## Step 5: Set Euler Angles and Translation
+## Step 4: Set Euler Angles and Translation
 
 ```csharp
 // Euler angles
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 Define the Euler angles and translation for the node to position it in the 3D space.
 
-## Step 6: Add Cube to the Scene
-
-```csharp
-// Add cube to the scene
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-Incorporate the node into the scene's hierarchy.
-
-## Step 7: Save the 3D Scene
+## Step 5: Save the 3D Scene
 
 ```csharp
 // The path to the documents directory.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
 // Save 3D scene in the supported file formats
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```

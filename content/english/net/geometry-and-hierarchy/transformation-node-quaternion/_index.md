@@ -1,6 +1,6 @@
 ---
-title: Transforming Node by Quaternion in 3D Scenes
-linktitle: Transforming Node by Quaternion in 3D Scenes
+title: Transforming Node by Quaternion 
+linktitle: Transforming Node by Quaternion 
 second_title: Aspose.3D .NET API
 description: Learn to transform 3D nodes with quaternions using Aspose.3D for .NET. Step-by-step guide for beginners.
 type: docs

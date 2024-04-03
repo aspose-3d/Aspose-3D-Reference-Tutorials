@@ -1,8 +1,8 @@
 ---
-title: Loading and Saving -  Custom Save Options
-linktitle: Loading and Saving -  Custom Save Options
+title: Custom Save Options
+linktitle: Custom Save Options
 second_title: Aspose.3D .NET API
-description: Explore the power of Aspose.3D for .NET. Learn how to customize your 3D scene saving with step-by-step guides on Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC, and RVM formats.
+description: Explore the power of Aspose.3D for .NET. Learn how to customize your 3D scene saving with step-by-step guides on Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC, and RVM formats.
 type: docs
 weight: 21
 url: /net/loading-and-saving/custom-save-options/

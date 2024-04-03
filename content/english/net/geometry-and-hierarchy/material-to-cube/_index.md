@@ -1,6 +1,6 @@
 ---
-title: Applying Material to Cube in 3D Scenes
-linktitle: Applying Material to Cube in 3D Scenes
+title: Applying Material to Cube 
+linktitle: Applying Material to Cube 
 second_title: Aspose.3D .NET API
 description: Explore Aspose.3D for .NET, your gateway to seamless 3D graphics manipulation. Apply materials effortlessly, enhance realism, and elevate your projects.
 type: docs
@@ -42,17 +42,12 @@ using System.IO;
 // Initialize scene object
 Scene scene = new Scene();
 
-// Initialize cube node object
-Node cubeNode = new Node("cube");
+// Create a box instance.
+var box = new Box();
 
-// Call Common class create mesh using polygon builder method to set mesh instance 
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+// Attach box instance to scene
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-// Point node to the mesh
-cubeNode.Entity = mesh;
-
-// Add cube to the scene
-scene.RootNode.ChildNodes.Add(cubeNode);
 // ExEnd:InitializeSceneAndCube
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 // Set local file path for the texture
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 // Set Texture of the material
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,7 +77,7 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 // Set binary content
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
 // ExEnd:EmbedRawContentData
 ```
 
@@ -105,10 +100,10 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart:Save3DScene
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
 // Save 3D scene in the supported file formats
-scene.Save(output, FileFormat.FBX7400ASCII);
+scene.Save(output);
 // ExEnd:Save3DScene
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);

@@ -1,6 +1,6 @@
 ---
-title: Creating Cube Scenes in 3D
-linktitle: Creating Cube Scenes in 3D
+title: Creating Cube Scenes 
+linktitle: Creating Cube Scenes 
 second_title: Aspose.3D .NET API
 description: Craft stunning 3D cube scenes effortlessly with Aspose.3D for .NET. Download the library, follow our step-by-step guide, and unleash.
 type: docs

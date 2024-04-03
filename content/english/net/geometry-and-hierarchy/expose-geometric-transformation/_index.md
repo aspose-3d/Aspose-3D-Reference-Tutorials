@@ -1,6 +1,6 @@
 ---
-title: Exposing Geometric Transformation in 3D Scenes
-linktitle: Exposing Geometric Transformation in 3D Scenes
+title: Exposing Geometric Transformation
+linktitle: Exposing Geometric Transformation 
 second_title: Aspose.3D .NET API
 description: Explore the limitless possibilities of 3D graphics in .NET with Aspose.3D. Uncover geometric transformations effortlessly.
 type: docs

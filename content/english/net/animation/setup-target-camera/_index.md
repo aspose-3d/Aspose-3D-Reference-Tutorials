@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## Step 5: Save the Scene
 
-Save the configured scene to a specified output directory in the desired file format, such as .3ds.
+Save the configured scene to a specified output directory in the desired file format, such as .fbx.
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## Conclusion
