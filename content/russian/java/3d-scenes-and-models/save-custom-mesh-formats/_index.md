@@ -115,7 +115,7 @@ try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new
 
 ### Вопрос 3: Где я могу найти поддержку Aspose.3D для Java?
 
- A3: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18)для любой помощи или вопросов.
+ A3: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) для любой помощи или вопросов.
 
 ### Вопрос 4: Есть ли образцы 3D-моделей для тестирования?
 

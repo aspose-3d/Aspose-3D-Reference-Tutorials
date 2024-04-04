@@ -16,7 +16,7 @@ url: /zh-hant/java/geometry/transform-3d-nodes-with-quaternions/
 在我們深入學習本教程之前，請確保您具備以下先決條件：
 
 - Java 程式設計的基礎知識。
--  Aspose.3D for Java 已安裝。你可以下載它[這裡](https://releases.aspose.com/3d/java/).
+- Aspose.3D for Java 已安裝。你可以下載它[這裡](https://releases.aspose.com/3d/java/).
 - 設定 3D 場景的文件目錄。
 
 ## 導入包
@@ -35,7 +35,7 @@ import com.aspose.threed.*;
 Scene scene = new Scene();
 ```
 
-## 步驟2：初始化節點類別對象
+## 第2步：初始化節點類別對象
 
 現在，建立一個節點類對象，在本例中代表一個立方體。
 

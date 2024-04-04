@@ -16,7 +16,7 @@ Bienvenido a la guía completa sobre cómo trabajar con propiedades 3D y datos p
 Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
 - Kit de desarrollo de Java (JDK) instalado en su máquina.
-- Biblioteca Aspose.3D descargada y configurada. Puedes descargarlo desde el[Aspose sitio web](https://releases.aspose.com/3d/java/).
+-  Biblioteca Aspose.3D descargada y configurada. Puedes descargarlo desde el[Aspose sitio web](https://releases.aspose.com/3d/java/).
 - Un conocimiento básico de la programación Java.
 
 ## Importar paquetes
@@ -107,7 +107,7 @@ Recorra las propiedades de la propiedad "Difusa", demostrando la capacidad de na
 
 ### P1: ¿Cómo puedo instalar la biblioteca Aspose.3D en mi proyecto Java?
 
- R1: Puede descargar la biblioteca desde[Aspose sitio web](https://releases.aspose.com/3d/java/) siga las instrucciones de instalación proporcionadas en la documentación.
+ R1: Puede descargar la biblioteca desde[Aspose sitio web](https://releases.aspose.com/3d/java/) y siga las instrucciones de instalación proporcionadas en la documentación.
 
 ### P2: ¿Hay opciones de prueba gratuitas disponibles para Aspose.3D?
 
@@ -119,7 +119,7 @@ Recorra las propiedades de la propiedad "Difusa", demostrando la capacidad de na
 
 ### P4: ¿Existe un foro de soporte para Aspose.3D donde pueda hacer preguntas y buscar ayuda?
 
- A4: Sí, visita el[Foro de soporte de Aspose.3D](https://forum.aspose.com/c/3d/18) para conectarse con la comunidad y obtener ayuda de expertos.
+A4: Sí, visita el[Foro de soporte de Aspose.3D](https://forum.aspose.com/c/3d/18) para conectarse con la comunidad y obtener ayuda de expertos.
 
 ### P5: ¿Cómo puedo obtener una licencia temporal para Aspose.3D?
 

@@ -1,6 +1,6 @@
 ---
-title: 3D シーンでのクォータニオンによるノードの変換
-linktitle: 3D シーンでのクォータニオンによるノードの変換
+title: クォータニオンによるノードの変換
+linktitle: クォータニオンによるノードの変換
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して、クォータニオンを使用して 3D ノードを変換する方法を学びます。初心者向けのステップバイステップガイド。
 type: docs

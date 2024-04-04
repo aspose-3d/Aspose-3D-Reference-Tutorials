@@ -13,7 +13,7 @@ url: /hu/net/materials/create-scene-embedded-texture/
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
 - Alapvető ismeretek a C# és .NET programozásról.
 - A Visual Studio telepítve van a gépedre.
--  Aspose.3D for .NET könyvtár, amelyet letölthet[itt](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET könyvtár, amelyet letölthet[itt](https://releases.aspose.com/3d/net/).
 - A 3D grafika és a jelenetkészítés fogalmainak ismerete.
 ## Névterek importálása
 Kezdje azzal, hogy importálja a szükséges névtereket a projektbe. Ezek a névterek biztosítják a 3D grafikus manipulációhoz szükséges eszközöket és funkciókat.
@@ -32,19 +32,19 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Shading;
 ```
 ## 1. lépés: Jelenet létrehozása
-Kezdje új 3D-s jelenet létrehozásával az Aspose.3D for .NET használatával. Ez lesz a vászon a 3D remekművéhez.
+Kezdje új 3D-s jelenet létrehozásával az Aspose.3D for .NET használatával. Ez lesz a vászon a 3D-s remekművéhez.
 ```csharp
 // Hozzon létre egy FBX-fájlt beágyazott textúrákkal
 Scene scene = new Scene();
 ```
 ## 2. lépés: Beágyazott textúra létrehozása
-Most pedig adjunk némi vizuális érzéket a jelenethez egy textúra beágyazásával. Létrehozunk egy textúrát egyéni tartalommal, és hozzárendelünk egy fájlnevet.
+Most pedig adjunk némi vizuális érzéket a jelenethez egy textúra beágyazásával. Létrehozunk egy textúrát egyéni tartalommal, és fájlnevet rendelünk hozzá.
 ```csharp
 // Hozzon létre egy beágyazott textúrát
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    // A fájlnév megadása kötelező, ha a beágyazott textúrát használja.
+    // fájlnév megadása kötelező, ha a beágyazott textúrát használja.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");
@@ -66,7 +66,7 @@ scene.RootNode.CreateChildNode(new Torus()).Material = mat;
 ## 5. lépés: A jelenet mentése
 Végül mentse a remekművét fájlba. Ebben a példában FBX formátumban mentjük el.
 ```csharp
-// Mentse el a jelenetet egy fájlba
+// Mentse el a jelenetet fájlba
 scene.Save(RunExamples.GetOutputFilePath(@"test.fbx"), FileFormat.FBX7500ASCII);
 ```
 Gratulálunk! Sikeresen létrehozott egy 3D-s jelenetet beágyazott textúrákkal az Aspose.3D for .NET segítségével.

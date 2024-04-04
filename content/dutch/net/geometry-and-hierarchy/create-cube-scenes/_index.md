@@ -1,6 +1,6 @@
 ---
-title: Kubusscènes maken in 3D
-linktitle: Kubusscènes maken in 3D
+title: Kubusscènes maken
+linktitle: Kubusscènes maken
 second_title: Aspose.3D .NET-API
 description: Maak moeiteloos verbluffende 3D-kubusscènes met Aspose.3D voor .NET. Download de bibliotheek, volg onze stapsgewijze handleiding en ga los.
 type: docs
@@ -87,7 +87,7 @@ Geef de uitvoermap op en sla de 3D-scène op in een ondersteund bestandsformaat 
 // Het pad naar de documentenmap.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//Sla 3D-scènes op in de ondersteunde bestandsformaten
+// Sla 3D-scènes op in de ondersteunde bestandsformaten
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

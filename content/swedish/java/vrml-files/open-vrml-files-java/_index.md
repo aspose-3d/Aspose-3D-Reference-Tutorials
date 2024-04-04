@@ -27,7 +27,7 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 ## Steg 1: Initiera en scen
-Börja med att skapa en ny scen som fungerar som duk för vår 3D-värld.
+Börja med att skapa en ny scen, som fungerar som duk för vår 3D-värld.
 ```java
 // Sökvägen till dokumentkatalogen.
 String MyDir = "Your Document Directory";

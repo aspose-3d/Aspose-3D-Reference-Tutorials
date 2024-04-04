@@ -16,7 +16,7 @@ Welkom bij deze stapsgewijze handleiding voor het transformeren van 3D-knooppunt
 Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten voldoet:
 
 - Basiskennis van Java-programmeren.
--  Aspose.3D voor Java geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/3d/java/).
+- Aspose.3D voor Java geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/3d/java/).
 - Een documentmap voor het opslaan van uw 3D-scènes.
 
 ## Pakketten importeren

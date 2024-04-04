@@ -19,9 +19,9 @@ Aspose.3D를 사용하여 Java의 3D 객체에 PBR(물리 기반 렌더링) 자�
 
 2.  Aspose.3D 라이브러리: 다음에서 Aspose.3D 라이브러리를 다운로드하여 설치하세요.[다운로드 링크](https://releases.aspose.com/3d/java/).
 
-3.  문서:[선적 서류 비치](https://reference.aspose.com/3d/java/) Aspose.3D를 사용하여 라이브러리 기능에 익숙해지세요.
+3.  문서:[선적 서류 비치](https://reference.aspose.com/3d/java/)Aspose.3D를 사용하여 라이브러리 기능에 익숙해지세요.
 
-4.  임시면허(선택) : 면허가 없을 경우 임시면허를 취득할 수 있습니다.[임시면허](https://purchase.aspose.com/temporary-license/) 시험용.
+4.  임시면허(선택) : 면허가 없을 경우 임시면허를 취득할 수 있습니다.[임시 면허증](https://purchase.aspose.com/temporary-license/) 시험용.
 
 ## 패키지 가져오기
 
@@ -72,7 +72,7 @@ boxNode.setMaterial(mat);
 ```java
 // ExStart:Save3DScene
 scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
-// 확장:Save3DScene
+//확장:Save3DScene
 ```
 
 더 복잡한 장면이나 다른 개체에 대해 이 단계를 반복합니다.

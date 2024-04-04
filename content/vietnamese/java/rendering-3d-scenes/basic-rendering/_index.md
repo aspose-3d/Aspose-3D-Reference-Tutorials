@@ -107,7 +107,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá các bước thiết yế
 
  A3: Khám phá[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) cho các cuộc thảo luận cộng đồng và các dự án ví dụ.
 
-### Câu hỏi 4: Tôi có thể dùng thử Aspose.3D miễn phí cho Java không?
+### Câu hỏi 4: Tôi có thể dùng thử Aspose.3D cho Java miễn phí không?
 
  A4: Có, bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 

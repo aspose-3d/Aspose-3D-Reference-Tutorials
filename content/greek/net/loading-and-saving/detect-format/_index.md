@@ -1,6 +1,6 @@
 ---
-title: Φόρτωση και αποθήκευση - Μορφή ανίχνευσης
-linktitle: Φόρτωση και αποθήκευση - Μορφή ανίχνευσης
+title: Μορφή ανίχνευσης
+linktitle: Μορφή ανίχνευσης
 second_title: Aspose.3D .NET API
 description: Κατακτήστε τον χειρισμό αρχείων 3D χωρίς κόπο με το Aspose.3D για .NET. Φόρτωση, αποθήκευση και ανίχνευση μορφών απρόσκοπτα.
 type: docs
@@ -50,7 +50,7 @@ scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ### Βήμα 2: Εντοπίστε τη Μορφή
 
 ```csharp
-//ExStart:DetectFormat
+// ExStart:DetectFormat
 // Εντοπίστε τη μορφή ενός αρχείου 3D
 FileFormat inputFormat = FileFormat.Detect(RunExamples.GetDataFilePath("document.fbx"));
 // Εμφάνιση της μορφής αρχείου
@@ -92,4 +92,4 @@ A1: Ναι, το Aspose.3D υποστηρίζει ένα ευρύ φάσμα μ�
 
 ### Ε5: Μπορώ να δοκιμάσω το Aspose.3D δωρεάν πριν το αγοράσω;
 
-Α5: Σίγουρα! Κατεβάστε τη δωρεάν δοκιμαστική έκδοση από[Εκδόσεις Aspose.3D](https://releases.aspose.com/) να βιώσουν τις δυνατότητές του από πρώτο χέρι.
+ Α5: Σίγουρα! Κατεβάστε τη δωρεάν δοκιμαστική έκδοση από[Εκδόσεις Aspose.3D](https://releases.aspose.com/) να βιώσουν τις δυνατότητές του από πρώτο χέρι.

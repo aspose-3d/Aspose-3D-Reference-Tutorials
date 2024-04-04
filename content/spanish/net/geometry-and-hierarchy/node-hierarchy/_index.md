@@ -1,6 +1,6 @@
 ---
-title: Comprender la jerarquía de nodos en escenas 3D
-linktitle: Comprender la jerarquía de nodos en escenas 3D
+title: Comprender la jerarquía de nodos
+linktitle: Comprender la jerarquía de nodos
 second_title: Aspose.3D API .NET
 description: ¡Desbloquee el poder de Aspose.3D para .NET! Sumérgete en la manipulación de la jerarquía de nodos con esta guía paso a paso. Crea impresionantes escenas en 3D sin esfuerzo.
 type: docs
@@ -9,7 +9,7 @@ url: /es/net/geometry-and-hierarchy/node-hierarchy/
 ---
 ## Introducción
 
-Bienvenido al mundo de Aspose.3D para .NET, una potente biblioteca que permite a los desarrolladores trabajar sin problemas con escenas y modelos 3D en sus aplicaciones .NET. En este tutorial, profundizaremos en las complejidades de comprender la jerarquía de nodos en escenas 3D usando Aspose.3D. Al final de esta guía, tendrá una comprensión sólida de cómo manipular la estructura de escenas 3D a través de nodos, lo que le permitirá crear experiencias visuales impresionantes.
+Bienvenido al mundo de Aspose.3D para .NET, una poderosa biblioteca que permite a los desarrolladores trabajar sin problemas con escenas y modelos 3D en sus aplicaciones .NET. En este tutorial, profundizaremos en las complejidades de comprender la jerarquía de nodos en escenas 3D usando Aspose.3D. Al final de esta guía, tendrá una sólida comprensión de cómo manipular la estructura de escenas 3D a través de nodos, lo que le permitirá crear experiencias visuales impresionantes.
 
 ## Requisitos previos
 
@@ -17,7 +17,7 @@ Antes de embarcarnos en este viaje 3D, asegúrese de cumplir con los siguientes 
 
 -  Aspose.3D para la biblioteca .NET: asegúrese de tener la biblioteca Aspose.3D integrada en su proyecto .NET. Si aún no lo has hecho, dirígete al[documentación](https://reference.aspose.com/3d/net/) para ayuda.
 
--  Descargue la biblioteca: si no ha descargado la biblioteca Aspose.3D, obtenga la última versión de[enlace de descarga](https://releases.aspose.com/3d/net/) siga las instrucciones de instalación proporcionadas en la documentación.
+-  Descargue la biblioteca: si no ha descargado la biblioteca Aspose.3D, obtenga la última versión de[enlace de descarga](https://releases.aspose.com/3d/net/) y siga las instrucciones de instalación proporcionadas en la documentación.
 
 -  Obtenga una licencia: para desbloquear todo el potencial de Aspose.3D, necesita una licencia válida. Si no tienes uno, puedes obtenerlo.[aquí](https://purchase.aspose.com/buy) u optar por un[prueba gratis](https://releases.aspose.com/) para explorar sus capacidades.
 

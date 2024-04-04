@@ -117,4 +117,4 @@ A2: Abszolút! Az Aspose.3D zökkenőmentesen integrálódik más Java könyvtá
 
 ### 5. kérdés: Segítségre van szüksége, vagy konkrét kérdései vannak?
 
-A5: Látogassa meg a[Aspose.3D közösségi fórum](https://forum.aspose.com/c/3d/18) szakértői támogatásért.
+ A5: Látogassa meg a[Aspose.3D közösségi fórum](https://forum.aspose.com/c/3d/18) szakértői támogatásért.

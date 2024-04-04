@@ -103,7 +103,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan állítson be irányt a lineáris ext
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.3D-hez?
 
- A4: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18)bármilyen segítségért vagy kérdésért.
+ A4: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) bármilyen segítségért vagy kérdésért.
 
 ### 5. kérdés: Rendelkezésre állnak ideiglenes licencek az Aspose.3D számára?
 

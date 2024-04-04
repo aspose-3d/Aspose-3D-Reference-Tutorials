@@ -15,7 +15,7 @@ url: /ko/net/3d-modeling/primitive-3d-models/
 
 3D 모델링의 매혹적인 영역을 살펴보기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하십시오.
 
-- .NET용 Aspose.3D: 다음에서 .NET용 Aspose.3D 라이브러리를 다운로드하여 설치하세요.[다운로드 링크](https://releases.aspose.com/3d/net/).
+-  .NET용 Aspose.3D: 다음에서 .NET용 Aspose.3D 라이브러리를 다운로드하여 설치하세요.[다운로드 링크](https://releases.aspose.com/3d/net/).
 
 - 개발 환경: Aspose.3D와의 호환성을 보장하는 .NET 개발 환경을 설정합니다.
 
@@ -58,7 +58,7 @@ scene.RootNode.CreateChildNode("box", new Box());
 ## 3단계: 원통 모델 생성
 
 ```csharp
-// 원통 모델 생성
+// 원통 모델 만들기
 scene.RootNode.CreateChildNode("cylinder", new Cylinder());
 ```
 

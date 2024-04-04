@@ -1,6 +1,6 @@
 ---
-title: Odhalení geometrické transformace ve 3D scénách
-linktitle: Odhalení geometrické transformace ve 3D scénách
+title: Odhalení geometrické transformace
+linktitle: Odhalení geometrické transformace
 second_title: Aspose.3D .NET API
 description: Prozkoumejte neomezené možnosti 3D grafiky v .NET s Aspose.3D. Odhalte geometrické transformace bez námahy.
 type: docs

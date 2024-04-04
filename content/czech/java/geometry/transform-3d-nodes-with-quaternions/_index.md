@@ -16,7 +16,7 @@ Vítejte v tomto podrobném průvodci o transformaci 3D uzlů pomocí čtveřice
 Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
 - Základní znalost programování v Javě.
--  Nainstalovaný Aspose.3D for Java. Můžete si jej stáhnout[tady](https://releases.aspose.com/3d/java/).
+- Nainstalovaný Aspose.3D for Java. Můžete si jej stáhnout[tady](https://releases.aspose.com/3d/java/).
 - Adresář dokumentů nastavený pro ukládání vašich 3D scén.
 
 ## Importujte balíčky

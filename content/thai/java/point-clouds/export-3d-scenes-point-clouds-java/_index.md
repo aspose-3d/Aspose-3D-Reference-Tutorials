@@ -53,7 +53,7 @@ ObjSaveOptions opt = new ObjSaveOptions();
 
 ## ขั้นตอนที่ 3: ตั้งค่า Point Cloud
 
- เปิดใช้งานคุณสมบัติการส่งออก point cloud โดยการตั้งค่า`setPointCloud` ตัวเลือกในการ`true`: :
+ เปิดใช้งานคุณสมบัติการส่งออก point cloud โดยการตั้งค่า`setPointCloud` ตัวเลือกในการ`true`-
 
 ```java
 // ในการส่งออกฉาก 3 มิติเป็น point cloud setPointCloud
@@ -65,7 +65,7 @@ opt.setPointCloud(true);
 บันทึกฉาก 3 มิติเป็นพอยต์คลาวด์ในไดเร็กทอรีที่ต้องการ:
 
 ```java
-// บันทึก
+//บันทึก
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 

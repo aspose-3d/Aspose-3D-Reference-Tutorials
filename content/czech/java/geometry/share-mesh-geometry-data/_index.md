@@ -88,7 +88,7 @@ Zadejte adresář a název souboru pro uložení 3D scény v podporovaném form�
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "MeshGeometryData.fbx";
 
-//Uložte 3D scénu v podporovaných formátech souborů
+// Uložte 3D scénu v podporovaných formátech souborů
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

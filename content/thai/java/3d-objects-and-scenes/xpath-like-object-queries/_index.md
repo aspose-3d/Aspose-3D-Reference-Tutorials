@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## ขั้นตอนที่ 2: สร้างลำดับชั้นของโหนด
 
 ```java
-// ExStart: สร้างลำดับชั้น
+//ExStart: สร้างลำดับชั้น
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

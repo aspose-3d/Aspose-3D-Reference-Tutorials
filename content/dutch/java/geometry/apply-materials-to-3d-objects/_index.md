@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## Stap 4: Wijs het knooppunt naar de mesh
 
 ```java
-//Wijs het knooppunt naar de mesh
+// Wijs het knooppunt naar de mesh
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // Stel de bestandsnaam in
 MyDir = MyDir + "MaterialToCube.fbx";
-//Sla 3D-scènes op in de ondersteunde bestandsformaten
+// Sla 3D-scènes op in de ondersteunde bestandsformaten
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

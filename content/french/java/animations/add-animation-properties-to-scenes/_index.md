@@ -54,7 +54,7 @@ Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ## Étape 4 : Rechercher la propriété de traduction
 
 ```java
-// Rechercher la propriété de traduction sur l'objet de transformation du nœud
+//Rechercher la propriété de traduction sur l'objet de transformation du nœud
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
@@ -99,7 +99,7 @@ bindPoint.bindKeyframeSequence("Z", kfs);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "PropertyToDocument.fbx";
 
-//Enregistrez la scène 3D dans les formats de fichiers pris en charge
+// Enregistrez la scène 3D dans les formats de fichiers pris en charge
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
@@ -119,7 +119,7 @@ Toutes nos félicitations! Vous avez ajouté avec succès des propriétés d'ani
 
 ### Q3 : Où puis-je trouver de l'assistance pour Aspose.3D ?
 
- A3 : Rejoignez la communauté sur[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) à l'aide.
+A3 : Rejoignez la communauté sur[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) à l'aide.
 
 ### Q4 : Comment puis-je obtenir une licence temporaire ?
 

@@ -84,7 +84,7 @@ C: Aspose.3D, çeşitli 3D model formatlarını destekleyerek birçok popüler m
 ### S: Oluşturma sorunlarını nasıl giderebilirim?
  C: Aspose.3D'yi kontrol edin[forum](https://forum.aspose.com/c/3d/18) Yaygın görüntü oluşturma sorunlarına yönelik destek ve çözümler için.
 ### S: Ücretsiz deneme mevcut mu?
- C: Evet, Aspose.3D'nin özelliklerini bir lisans edinerek keşfedebilirsiniz.[ücretsiz deneme](https://releases.aspose.com/).
+C: Evet, Aspose.3D'nin özelliklerini bir lisans edinerek keşfedebilirsiniz.[ücretsiz deneme](https://releases.aspose.com/).
 ### S: Kapsamlı belgeleri nerede bulabilirim?
  C: Bkz.[dokümantasyon](https://reference.aspose.com/3d/net/) Aspose.3D for .NET hakkında ayrıntılı rehberlik için.
 ### S: Aspose.3D for .NET'i nasıl satın alabilirim?

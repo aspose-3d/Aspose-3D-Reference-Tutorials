@@ -1,6 +1,6 @@
 ---
-title: 3डी दृश्यों में ट्रांसफॉर्मेशन मैट्रिक्स द्वारा नोड को बदलना
-linktitle: 3डी दृश्यों में ट्रांसफॉर्मेशन मैट्रिक्स द्वारा नोड को बदलना
+title: ट्रांसफ़ॉर्मेशन मैट्रिक्स द्वारा ट्रांसफ़ॉर्मिंग नोड
+linktitle: ट्रांसफ़ॉर्मेशन मैट्रिक्स द्वारा ट्रांसफ़ॉर्मिंग नोड
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D का उपयोग करके नोड्स को 3D दृश्यों में आसानी से रूपांतरित करें। ट्यूटोरियल के साथ चरण-दर-चरण नोड परिवर्तन सीखें।
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 अब जब हमने मूल बातें कवर कर ली हैं, तो आइए परिवर्तन प्रक्रिया को चरण-दर-चरण मार्गदर्शिका में विभाजित करें।
 
-## चरण 1: दृश्य और नोड आरंभ करें
+## चरण 1: दृश्य आरंभ करें
 
 ```csharp
 // ExStart:AddTransformationToNodeByTransformationMatrix
 // दृश्य वस्तु आरंभ करें
 Scene scene = new Scene();
 
-// नोड क्लास ऑब्जेक्ट को प्रारंभ करें
-Node cubeNode = new Node("cube");
 ```
 
-इस चरण में, हम एक नया 3D दृश्य और उस दृश्य के भीतर "क्यूब" नामक एक नोड बनाते हैं।
+इस चरण में, हम एक नया खाली 3D दृश्य बनाते हैं।
 
-## चरण 2: जाल बनाएं और ज्यामिति सेट करें
+## चरण 2: जाल बनाएं और दृश्य से जोड़ें
 
 ```csharp
 // मेश इंस्टेंस सेट करने के लिए पॉलीगॉन बिल्डर विधि का उपयोग करके कॉमन क्लास क्रिएट मेश को कॉल करें
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// मेष ज्यामिति को बिंदु नोड
-cubeNode.Entity = mesh;
+// जाल के लिए एक कंटेनर नोड बनाएं।
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 यहां, हम बहुभुज बिल्डर विधि का उपयोग करके एक जाल बनाते हैं और इसे नोड को सौंपते हैं, हमारे घन के लिए ज्यामिति स्थापित करते हैं।
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 नोड पर लागू विशिष्ट परिवर्तन को निर्धारित करने के लिए एक कस्टम अनुवाद मैट्रिक्स को परिभाषित करें। अपने वांछित परिवर्तन के लिए मैट्रिक्स मानों को आवश्यकतानुसार समायोजित करें।
 
-## चरण 4: दृश्य में नोड जोड़ें
-
-```csharp
-// दृश्य में क्यूब जोड़ें
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 दृश्य में क्यूब नोड को शामिल करें, जिससे यह समग्र 3D वातावरण का हिस्सा बन जाए।
 
-## चरण 5: दृश्य सहेजें
+## चरण 4: दृश्य सहेजें
 
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
-scene.Save(output, FileFormat.FBX7500ASCII);
+// समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ### Q4: मैं .NET के लिए Aspose.3D के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
 
- A4: पर जाएँ[अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/) मूल्यांकन उद्देश्यों के लिए अस्थायी लाइसेंस प्राप्त करने के लिए Aspose वेबसाइट पर जाएं।
+ A4: पर जाएँ[अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/)मूल्यांकन उद्देश्यों के लिए अस्थायी लाइसेंस प्राप्त करने के लिए Aspose वेबसाइट पर जाएं।
 
 ### Q5: मैं कहां से सहायता मांग सकता हूं या Aspose.3D समुदाय से जुड़ सकता हूं?
 
-A5: पर जाएँ[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) Aspose.3D का उपयोग करके प्रश्न पूछने, अनुभव साझा करने और अन्य डेवलपर्स से जुड़ने के लिए।
+ A5: पर जाएँ[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) Aspose.3D का उपयोग करके प्रश्न पूछने, अनुभव साझा करने और अन्य डेवलपर्स से जुड़ने के लिए।

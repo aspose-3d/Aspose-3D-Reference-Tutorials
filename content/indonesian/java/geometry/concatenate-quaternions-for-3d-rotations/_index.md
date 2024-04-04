@@ -16,7 +16,7 @@ Penggabungan angka empat adalah konsep dasar dalam grafik 3D, memungkinkan Anda 
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 
 - Pengetahuan dasar tentang pemrograman Java.
--  Aspose.3D untuk Java diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/3d/java/).
+- Aspose.3D untuk Java diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/3d/java/).
 
 ## Paket Impor
 

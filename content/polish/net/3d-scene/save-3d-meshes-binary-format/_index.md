@@ -41,12 +41,24 @@ using System.Text;
 Załaduj swój plik 3D za pomocą Aspose.3D. W tym przykładzie ładujemy plik o nazwie „test.fbx”:
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## Krok 2: Zdefiniuj niestandardowy format binarny
 
 Zdefiniuj strukturę niestandardowego formatu binarnego, w którym chcesz zapisać siatki 3D. W przykładzie zastosowano strukturę z komponentami MeshBlock, Vertex i Triangle.
+
+```csharp
+// Układ pamięci wierzchołka jest
+// pozycja pływająca[3];
+// pływak[3] normalny;
+// pływak[3] UV;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## Krok 3: Otwórz plik do zapisu
 
@@ -79,16 +91,35 @@ Dla każdego elementu siatki przekonwertuj punkty kontrolne na przestrzeń świa
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (kontynuuj zapisywanie punktów kontrolnych i indeksów trójkątów)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//Układ pamięci siatki jest następujący:
+// float[16] transform_matrix;
+// int liczba_wierzchołków;
+// int liczba_indeksów;
+// wierzchołek[liczba_wierzchołków] wierzchołki;
+// ushort[indices_count] indeksy;
+
+
+//napisz transformację
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//wpisz liczbę wierzchołków/indeksów
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//zapisz wierzchołki i indeksy
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## Wniosek
 
-tym samouczku omówiliśmy proces zapisywania siatek 3D w niestandardowym formacie binarnym przy użyciu Aspose.3D dla .NET. Ta potężna biblioteka zapewnia programistom narzędzia potrzebne do płynnego manipulowania plikami 3D. Eksperymentuj z różnymi formatami i ustawieniami, aby odblokować pełny potencjał Aspose.3D w swoich projektach.
+W tym samouczku omówiliśmy proces zapisywania siatek 3D w niestandardowym formacie binarnym przy użyciu Aspose.3D dla .NET. Ta potężna biblioteka zapewnia programistom narzędzia potrzebne do płynnego manipulowania plikami 3D. Eksperymentuj z różnymi formatami i ustawieniami, aby odblokować pełny potencjał Aspose.3D w swoich projektach.
 
 ## Często zadawane pytania
 
@@ -98,7 +129,7 @@ O1: Aspose.3D obsługuje przede wszystkim języki .NET, ale możesz sprawdzić o
 
 ### P2: Gdzie mogę znaleźć dodatkowe przykłady i zasoby?
 
- A2:[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) to świetne miejsce, aby znaleźć wsparcie, przykłady i nawiązać kontakt ze społecznością.
+ A2:[Forum Aspose.3D](https://forum.aspose.com/c/3d/18)to świetne miejsce, aby znaleźć wsparcie, przykłady i nawiązać kontakt ze społecznością.
 
 ### P3: Czy dostępna jest wersja próbna Aspose.3D?
 

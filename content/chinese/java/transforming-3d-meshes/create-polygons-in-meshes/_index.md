@@ -8,7 +8,7 @@ weight: 10
 url: /zh/java/transforming-3d-meshes/create-polygons-in-meshes/
 ---
 ## 介绍
-在 3D 图形的动态世界中，创建复杂且视觉上令人惊叹的对象的能力是开发人员的一项基本技能。 Aspose.3D for Java 提供了一个强大的工具包，可以轻松创建 3D 网格。在本教程中，我们将指导您完成使用 Aspose.3D for Java 在 3D 网格中创建多边形的过程。
+在 3D 图形的动态世界中，创建复杂且视觉上令人惊叹的对象的能力是开发人员的一项基本技能。 Aspose.3D for Java 提供了一个强大的工具包，可以轻松创建 3D 网格。在本教程中，我们将指导您完成使用 Aspose.3D for Java 在 3D 网格内创建多边形的过程。
 ## 先决条件
 在深入学习本教程之前，请确保您具备以下先决条件：
 1. Java 开发环境：确保您的系统上安装了有效的 Java 开发环境。

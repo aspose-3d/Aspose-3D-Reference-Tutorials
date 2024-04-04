@@ -1,6 +1,6 @@
 ---
-title: Travailler avec des données de géométrie de maillage dans des scènes 3D
-linktitle: Travailler avec des données de géométrie de maillage dans des scènes 3D
+title: Travailler avec des données de géométrie de maillage
+linktitle: Travailler avec des données de géométrie de maillage
 second_title: API Aspose.3D .NET
 description: Maîtrisez l'art de la programmation graphique 3D avec Aspose.3D pour .NET. Créez, manipulez et enregistrez de superbes scènes 3D sans effort.
 type: docs
@@ -17,7 +17,7 @@ Avant de vous lancer dans ce voyage 3D, assurez-vous d'avoir les conditions pré
 
 - Une connaissance pratique de la programmation C# et .NET.
 - Visual Studio installé sur votre ordinateur.
--  Bibliothèque Aspose.3D pour .NET, que vous pouvez télécharger[ici](https://releases.aspose.com/3d/net/).
+- Bibliothèque Aspose.3D pour .NET, que vous pouvez télécharger[ici](https://releases.aspose.com/3d/net/).
 
 Maintenant que vous êtes prêt, passons au monde fascinant de la programmation graphique 3D !
 
@@ -95,7 +95,7 @@ Créez un maillage à l'aide de la méthode de création de polygones et appliqu
 // Le chemin d'accès au répertoire des documents.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//Enregistrez la scène 3D dans les formats de fichiers pris en charge
+// Enregistrez la scène 3D dans les formats de fichiers pris en charge
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

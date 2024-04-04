@@ -41,7 +41,7 @@ String MyDir = "Your Document Directory";
 MyDir = MyDir + "document.fbx";
 ```
 
-## Langkah 2: Buat Objek Adegan
+## Langkah 2: Buat Objek Pemandangan
 
 Buat objek kelas Scene, yang akan berfungsi sebagai kanvas untuk dokumen 3D Anda.
 

@@ -81,4 +81,4 @@ A2: Kesinlikle! Aspose.3D, yeni başlayanlar için kullanıcı dostu bir arayüz
 
 ### S5: Aspose.3D'de sorunlarla karşılaşırsam nereden yardım alabilirim?
 
-A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) toplumdan ve uzmanlardan yardım istemek.
+ A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) toplumdan ve uzmanlardan yardım istemek.

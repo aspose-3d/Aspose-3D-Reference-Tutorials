@@ -15,7 +15,7 @@ Chào mừng bạn đến với thế giới thú vị của mô hình 3D với 
 
 Trước khi chúng ta đi sâu vào lĩnh vực mô hình 3D hấp dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
-- Aspose.3D for .NET: Tải xuống và cài đặt thư viện Aspose.3D for .NET từ[Liên kết tải xuống](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET: Tải xuống và cài đặt thư viện Aspose.3D for .NET từ[Liên kết tải xuống](https://releases.aspose.com/3d/net/).
 
 - Môi trường phát triển: Thiết lập môi trường phát triển .NET, đảm bảo khả năng tương thích với Aspose.3D.
 

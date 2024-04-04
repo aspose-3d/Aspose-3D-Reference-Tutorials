@@ -1,6 +1,6 @@
 ---
-title: Knotenhierarchie in 3D-Szenen verstehen
-linktitle: Knotenhierarchie in 3D-Szenen verstehen
+title: Knotenhierarchie verstehen
+linktitle: Knotenhierarchie verstehen
 second_title: Aspose.3D .NET API
 description: Nutzen Sie die Leistungsfähigkeit von Aspose.3D für .NET! Tauchen Sie mit dieser Schritt-für-Schritt-Anleitung in die Manipulation der Knotenhierarchie ein. Erstellen Sie mühelos atemberaubende 3D-Szenen.
 type: docs
@@ -17,7 +17,7 @@ Bevor wir uns auf diese 3D-Reise begeben, stellen Sie sicher, dass die folgenden
 
 -  Aspose.3D für .NET-Bibliothek: Stellen Sie sicher, dass die Aspose.3D-Bibliothek in Ihr .NET-Projekt integriert ist. Wenn Sie dies noch nicht getan haben, gehen Sie zu[Dokumentation](https://reference.aspose.com/3d/net/) zur Führung.
 
--  Laden Sie die Bibliothek herunter: Wenn Sie die Aspose.3D-Bibliothek nicht heruntergeladen haben, holen Sie sich die neueste Version von[Download-Link](https://releases.aspose.com/3d/net/)und befolgen Sie die Installationsanweisungen in der Dokumentation.
+-  Laden Sie die Bibliothek herunter: Wenn Sie die Aspose.3D-Bibliothek nicht heruntergeladen haben, holen Sie sich die neueste Version von[Download-Link](https://releases.aspose.com/3d/net/) und befolgen Sie die Installationsanweisungen in der Dokumentation.
 
 -  Holen Sie sich eine Lizenz: Um das volle Potenzial von Aspose.3D auszuschöpfen, benötigen Sie eine gültige Lizenz. Wenn Sie keins haben, können Sie es erhalten[Hier](https://purchase.aspose.com/buy) oder entscheiden Sie sich für a[Kostenlose Testphase](https://releases.aspose.com/) um seine Fähigkeiten zu erkunden.
 

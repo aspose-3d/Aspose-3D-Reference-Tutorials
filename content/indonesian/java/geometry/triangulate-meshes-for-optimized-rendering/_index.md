@@ -36,7 +36,7 @@ String MyDir = "Your Document Directory";
 
 ## Langkah 2: Inisialisasi Adegan
 
-Buat objek adegan baru dan buka dokumen 3D Anda.
+Buat objek pemandangan baru dan buka dokumen 3D Anda.
 
 ```java
 Scene scene = new Scene();

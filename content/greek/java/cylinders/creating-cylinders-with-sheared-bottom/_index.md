@@ -45,7 +45,7 @@ Scene scene = new Scene();
 // Δημιουργήστε τον κύλινδρο 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // Προσαρμοσμένος πυθμένας διάτμησης για τον κύλινδρο 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // Διάτμηση 47,5 μοίρες στο επίπεδο xy (άξονας z)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //Διάτμηση 47,5 μοίρες στο επίπεδο xy (άξονας z)
 // Προσθέστε τον κύλινδρο 1 στη σκηνή
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // ExEnd: 4

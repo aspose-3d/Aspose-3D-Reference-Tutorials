@@ -80,7 +80,7 @@ A1: Aspose.3D è progettato per essere compatibile con gli ambienti di sviluppo 
 
 ### Q2: Dove posso trovare la documentazione dettagliata per Aspose.3D in Java?
 
- R2: Fare riferimento alla documentazione[Qui](https://reference.aspose.com/3d/java/) per informazioni complete ed esempi.
+ A2: Fare riferimento alla documentazione[Qui](https://reference.aspose.com/3d/java/) per informazioni complete ed esempi.
 
 ### Q3: Posso provare Aspose.3D prima dell'acquisto?
 

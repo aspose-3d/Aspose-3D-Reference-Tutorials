@@ -9,7 +9,7 @@ url: /pt/java/load-and-save/read-existing-3d-scenes/
 ---
 ## Introdução
 
-Se você está mergulhando no mundo dos gráficos e design 3D usando Java, você terá uma surpresa. Aspose.3D for Java é uma biblioteca poderosa que simplifica o processo de trabalho com cenas 3D. Neste tutorial, guiaremos você pelas etapas de leitura de cenas 3D existentes sem esforço, abrindo um mundo de possibilidades de modificação, adição e processamento.
+Se você está mergulhando no mundo dos gráficos e design 3D usando Java, você terá uma surpresa. Aspose.3D for Java é uma biblioteca poderosa que simplifica o processo de trabalho com cenas 3D. Neste tutorial, guiaremos você pelas etapas de leitura de cenas 3D existentes sem esforço, abrindo um leque de possibilidades de modificação, adição e processamento.
 
 ## Pré-requisitos
 

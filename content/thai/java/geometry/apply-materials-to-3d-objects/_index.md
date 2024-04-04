@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## ขั้นตอนที่ 4: ชี้โหนดไปที่ตาข่าย
 
 ```java
-//ชี้โหนดไปที่ตาข่าย
+// ชี้โหนดไปที่ตาข่าย
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // ตั้งชื่อไฟล์
 MyDir = MyDir + "MaterialToCube.fbx";
-//บันทึกฉาก 3 มิติในรูปแบบไฟล์ที่รองรับ
+// บันทึกฉาก 3 มิติในรูปแบบไฟล์ที่รองรับ
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

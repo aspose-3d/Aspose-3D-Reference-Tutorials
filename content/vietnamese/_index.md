@@ -20,20 +20,13 @@ Khám phá các khả năng thiết kế và phát triển 3D với hướng d�
  
 - [mô hình 3d](./net/3d-modeling/)
 - [Cảnh 3D](./net/3d-scene/)
-- [Chế độ xem 3D](./net/3d-viewports/)
 - [Hoạt hình](./net/animation/)
-- [Thông tin tài sản](./net/asset-information/)
 - [Hình học và thứ bậc](./net/geometry-and-hierarchy/)
 - [Giấy phép](./net/license/)
 - [Đang tải và lưu](./net/loading-and-saving/)
 - [Nguyên vật liệu](./net/materials/)
-- [Đa giác](./net/polygons/)
 - [Kết xuất](./net/rendering/)
-- [Đùn tuyến tính](./net/linear-extrusion/)
-- [Các đối tượng](./net/objects/)
-- [Làm việc với xi lanh](./net/working-with-cylinder/)
-- [Làm việc với đám mây điểm](./net/working-with-point-cloud/)
-- [Làm việc với VRML](./net/working-with-vrml/)
+- [Mắt lưới](./net/meshes/)
 
 ## Aspose.3D cho Hướng dẫn Java
 {{% alert color="primary" %}}

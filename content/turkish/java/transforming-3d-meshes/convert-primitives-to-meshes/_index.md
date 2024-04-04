@@ -55,13 +55,13 @@ scene.getRootNode().addChildNode(cubeNode);
 ```java
 // Belgeler dizininin yolu.
 String MyDir = "Your Document Directory" + "BoxToMeshScene.fbx";
-//3B sahneyi desteklenen dosya formatlarında kaydedin
+// 3B sahneyi desteklenen dosya formatlarında kaydedin
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 System.out.println("\n Converted the primitive Box to a mesh successfully.\nFile saved at " + MyDir);
 ```
 Bu adımları titizlikle takip ederek, Aspose.3D for Java'yı kullanarak basit bir kutuyu etkili bir şekilde bir ağa dönüştürdünüz.
 ## Çözüm
-Bu derste, sadece yüzeysel bir çalışma yapmakla kalmadık, aynı zamanda Aspose.3D'yi kullanarak Java'da ilkelleri mesh'lere dönüştürmenin inceliklerini de inceledik. Bu özellik, 3D sahnelerinize derinlik ve ayrıntı eklemenizi sağlayarak yaratıcılık için yeni yollar açmanızı sağlar. Unutmayın, pratik 3D grafik programlamada uzmanlaşmanın anahtarıdır.
+Bu derste, yalnızca yüzeysel bir çalışma yapmakla kalmadık, aynı zamanda Aspose.3D'yi kullanarak Java'da ilkelleri mesh'lere dönüştürmenin inceliklerini de inceledik. Bu özellik, 3D sahnelerinize derinlik ve ayrıntı eklemenizi sağlayarak yaratıcılık için yeni yollar açmanızı sağlar. Unutmayın, pratik 3D grafik programlamada uzmanlaşmanın anahtarıdır.
 ## Sıkça Sorulan Sorular
 ### S1: Aspose.3D for Java diğer Java 3D kütüphaneleriyle birlikte kullanılabilir mi?
 Kesinlikle! Aspose.3D for Java, diğer Java 3D kitaplıklarıyla sorunsuz bir şekilde bütünleşerek 3D grafik projelerinizde esneklik sunar.

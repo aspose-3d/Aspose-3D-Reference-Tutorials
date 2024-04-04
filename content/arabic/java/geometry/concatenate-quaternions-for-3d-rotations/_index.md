@@ -16,7 +16,7 @@ url: /ar/java/geometry/concatenate-quaternions-for-3d-rotations/
 قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
 
 - المعرفة الأساسية ببرمجة جافا.
--  تم تثبيت Aspose.3D لـ Java. يمكنك تنزيله[هنا](https://releases.aspose.com/3d/java/).
+- تم تثبيت Aspose.3D لـ Java. يمكنك تنزيله[هنا](https://releases.aspose.com/3d/java/).
 
 ## حزم الاستيراد
 

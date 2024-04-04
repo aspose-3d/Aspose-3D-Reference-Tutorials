@@ -16,7 +16,7 @@ Chào mừng bạn đến với hướng dẫn toàn diện này về cách chia
 Trước khi chúng ta bắt đầu cuộc hành trình thú vị này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
 - Kiến thức cơ bản về lập trình Java.
-- Đã cài đặt thư viện Aspose.3D cho Java. Bạn có thể tải nó xuống từ[trang web giả định](https://releases.aspose.com/3d/java/).
+-  Đã cài đặt thư viện Aspose.3D cho Java. Bạn có thể tải nó xuống từ[trang web giả định](https://releases.aspose.com/3d/java/).
 - Môi trường phát triển tích hợp (IDE) được thiết lập để phát triển Java.
 
 ## Gói nhập khẩu
@@ -55,7 +55,7 @@ VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElem
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 ```
 
-## Bước 4: Chia lưới thành các lưới con
+## Bước 4: Chia lưới thành các lưới phụ
 
 ```java
 // Chia lưới thành 6 lưới con, mỗi mặt phẳng trở thành một lưới con
@@ -76,7 +76,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```java
 // Hiển thị thông báo thành công
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
-//ExEnd:SplitMeshbyMaterial
+// ExEnd:SplitMeshbyMaterial
 ```
 
 ## Phần kết luận
@@ -103,4 +103,4 @@ A2: Chắc chắn rồi! Phương pháp này có khả năng mở rộng tốt c
 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho bất kỳ vấn đề hoặc thắc mắc nào?
 
-A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để nhận được sự hỗ trợ tận tình từ cộng đồng.
+ A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để nhận được sự hỗ trợ tận tình từ cộng đồng.

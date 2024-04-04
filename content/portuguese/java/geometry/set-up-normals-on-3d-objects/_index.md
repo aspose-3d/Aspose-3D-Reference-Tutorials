@@ -84,10 +84,10 @@ A1: Sim, Aspose.3D pode ser integrado com outras bibliotecas Java 3D para uma so
 
  A3: Sim, você pode acessar a avaliação gratuita[aqui](https://releases.aspose.com/).
 
-### P4: Como posso obter licenças temporárias?
+### Q4: Como posso obter licenças temporárias?
 
  A4: Licenças temporárias podem ser obtidas[aqui](https://purchase.aspose.com/temporary-license/).
 
 ### P5: Precisa de ajuda ou deseja discutir com a comunidade?
 
-A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para apoio e discussões.
+ A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para apoio e discussões.

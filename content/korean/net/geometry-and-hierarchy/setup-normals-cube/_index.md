@@ -1,6 +1,6 @@
 ---
-title: 3D 장면의 큐브에 법선 설정
-linktitle: 3D 장면의 큐브에 법선 설정
+title: 큐브의 법선 설정
+linktitle: 큐브의 법선 설정
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 큐브에 법선을 설정하는 방법을 알아보세요. 이 단계별 가이드를 통해 3D 모델링 기술을 향상하세요.
 type: docs
@@ -21,7 +21,7 @@ url: /ko/net/geometry-and-hierarchy/setup-normals-cube/
 
 ## 네임스페이스 가져오기
 
-시작하려면 필요한 네임스페이스를 프로젝트로 가져오세요.
+시작하려면 필요한 네임스페이스를 프로젝트로 가져오겠습니다.
 
 ```csharp
 using System;

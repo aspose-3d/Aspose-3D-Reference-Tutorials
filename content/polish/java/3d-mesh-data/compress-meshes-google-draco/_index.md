@@ -21,7 +21,7 @@ Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymag
 
 ## Importuj pakiety
 
-W swoim projekcie Java zaimportuj wymagane pakiety dla Aspose.3D i Google Draco. Upewnij się, że masz niezbędne zależności, aby pomyślnie wykonać kod.
+swoim projekcie Java zaimportuj wymagane pakiety dla Aspose.3D i Google Draco. Upewnij się, że masz niezbędne zależności, aby pomyślnie wykonać kod.
 
 ```java
 import com.aspose.threed.DracoCompressionLevel;

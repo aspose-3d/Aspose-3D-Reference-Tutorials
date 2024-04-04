@@ -32,7 +32,7 @@ url: /zh/java/geometry/
 
 ## 使用 Aspose.3D 在 Java 3D 中共享网格几何数据
 
-使用 Aspose.3D 探索 Java 3D 的奇迹，并了解如何在节点之间轻松共享网格几何数据。这个全面的教程是您掌握这项基本技能的关键。[阅读更多](./share-mesh-geometry-data/)
+使用 Aspose.3D 探索 Java 3D 的奇迹，并了解如何在节点之间轻松共享网格几何数据。这个综合教程是您掌握这项基本技能的关键。[阅读更多](./share-mesh-geometry-data/)
 
 ## 使用 Java 和 Aspose.3D 在 3D 场景中构建节点层次结构
 

@@ -26,7 +26,7 @@ Mulailah dengan mengimpor paket yang diperlukan ke proyek Java Anda. Langkah ini
 import com.aspose.threed.*;
 ```
 
-## Langkah 1: Inisialisasi Objek Adegan
+## Langkah 1: Inisialisasi Objek Pemandangan
 
 Mari kita mulai prosesnya dengan menginisialisasi objek pemandangan. Ini akan berfungsi sebagai kanvas tempat keajaiban 3D kita akan terungkap.
 
@@ -88,7 +88,7 @@ Tentukan direktori dan nama file untuk menyimpan adegan 3D dalam format file yan
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "MeshGeometryData.fbx";
 
-//Simpan adegan 3D dalam format file yang didukung
+// Simpan adegan 3D dalam format file yang didukung
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

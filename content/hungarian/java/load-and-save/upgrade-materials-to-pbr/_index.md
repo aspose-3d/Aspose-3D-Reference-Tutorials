@@ -93,7 +93,7 @@ Kövesse ezeket a lépéseket aprólékosan, hogy zökkenőmentesen frissítse 3
 
 ### 3. kérdés: Van ingyenes próbaverzió?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hol találok támogatást az Aspose.3D-hez?
 

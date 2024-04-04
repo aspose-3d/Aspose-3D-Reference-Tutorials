@@ -47,7 +47,7 @@ Absolutamente! Aspose.3D atende desenvolvedores de todos os níveis, fornecendo 
 Sim, o Aspose.3D oferece uma gama de funcionalidades para criar modelos 3D complexos e detalhados, tornando-o adequado para uma ampla variedade de aplicações.
 ### 3. Com que frequência as atualizações são lançadas para Aspose.3D?
  Aspose.3D é mantido e atualizado ativamente. Verifica a[documentação](https://reference.aspose.com/3d/java/) para os últimos lançamentos e recursos.
-### 4. Existe uma avaliação gratuita disponível para Aspose.3D?
+### 4. Existe um teste gratuito disponível para Aspose.3D?
  Sim, você pode explorar os recursos do Aspose.3D acessando o[teste grátis](https://releases.aspose.com/).
 ### 5. Onde posso procurar suporte para Aspose.3D?
  Para qualquer dúvida ou assistência, visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18).

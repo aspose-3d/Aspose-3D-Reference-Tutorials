@@ -9,14 +9,14 @@ url: /hu/java/3d-mesh-data/generate-mesh-data/
 ---
 ## Bevezetés
 
-3D mesh adatok létrehozása és kezelése Java nyelven kihívásokkal teli, de izgalmas feladat lehet, különösen akkor, ha olyan fájlokkal kell foglalkozni, amelyekből hiányoznak az alapvető normál adatok. Az Aspose.3D for Java jön a megmentésre, hatékony eszközkészletet biztosítva a 3D grafika és háló hatékony kezeléséhez. Ebben az oktatóanyagban végigvezetjük a 3D hálók normál adatainak előállítási folyamatán a Java Aspose.3D használatával.
+A 3D mesh adatok létrehozása és kezelése Java nyelven kihívásokkal teli, de izgalmas feladat lehet, különösen akkor, ha olyan fájlokkal kell foglalkozni, amelyekből hiányoznak az alapvető normál adatok. Az Aspose.3D for Java jön a megmentésre, hatékony eszközkészletet biztosítva a 3D grafika és háló hatékony kezeléséhez. Ebben az oktatóanyagban végigvezetjük a 3D hálók normál adatainak előállítási folyamatán a Java Aspose.3D használatával.
 
 ## Előfeltételek
 
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 
 - Java programozási alapismeretek.
--  Aspose.3D for Java telepítve. Letöltheti[itt](https://releases.aspose.com/3d/java/).
+- Aspose.3D for Java telepítve. Letöltheti[itt](https://releases.aspose.com/3d/java/).
 - 3D fájl 3ds formátumban. Példaként a „camera.3ds”-t fogjuk használni.
 
 ## Csomagok importálása

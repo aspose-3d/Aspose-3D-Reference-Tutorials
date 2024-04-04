@@ -65,7 +65,7 @@ Met deze stap wordt een bestaand 3D-document in het Scene-object geladen. Vervan
 System.out.println("\n3D Scene is ready for modification, addition, or processing purposes.");
 ```
 
-Deze regel bevestigt dat de 3D-scène succesvol is geladen en gereed is voor verdere acties.
+Deze regel bevestigt dat de 3D-scène succesvol is geladen en klaar is voor verdere acties.
 
 ## Aanvullend voorbeeld: Lees RVM met attributen
 

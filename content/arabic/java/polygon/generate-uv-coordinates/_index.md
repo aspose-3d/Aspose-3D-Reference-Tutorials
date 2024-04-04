@@ -107,7 +107,7 @@ scene.save(MyDir + "test.obj", FileFormat.WAVEFRONTOBJ);
 
 ### س2: هل هناك نسخة تجريبية متاحة لـ Aspose.3D؟
 
- ج2: نعم، يمكنك استكشاف ميزات Aspose.3D باستخدام النسخة التجريبية المجانية المتاحة[هنا](https://releases.aspose.com/).
+ ج2: نعم، يمكنك استكشاف ميزات Aspose.3D باستخدام النسخة التجريبية المجانية المتوفرة[هنا](https://releases.aspose.com/).
 
 ### س3: كيف يمكنني الحصول على الدعم لـ Aspose.3D؟
 

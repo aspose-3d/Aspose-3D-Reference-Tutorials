@@ -103,7 +103,7 @@ O1: Aspose.3D obsługuje różne języki programowania, w tym .NET i Java.
 
 ### P4: Jak mogę uzyskać wsparcie dla Aspose.3D?
 
- A4: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) celu uzyskania pomocy lub pytań.
+ A4: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) w celu uzyskania pomocy lub pytań.
 
 ### P5: Czy dostępne są tymczasowe licencje dla Aspose.3D?
 

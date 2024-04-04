@@ -80,7 +80,7 @@ Congratulazioni! Hai imparato con successo come specificare le sezioni nell'estr
 
 ### Q2: Dove posso trovare la documentazione per Aspose.3D?
 
- R2: Fare riferimento alla documentazione[Qui](https://reference.aspose.com/3d/java/).
+ A2: Fare riferimento alla documentazione[Qui](https://reference.aspose.com/3d/java/).
 
 ### Q3: È disponibile una prova gratuita?
 

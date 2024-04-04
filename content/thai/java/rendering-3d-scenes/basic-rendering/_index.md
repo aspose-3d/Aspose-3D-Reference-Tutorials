@@ -38,7 +38,7 @@ import java.awt.*;
 ```java
 protected static Camera setupScene(Scene scene) {
     // รหัสการตั้งค่ากล้องและการจัดแสง
-    // ...
+    // -
     return camera;
 }
 ```
@@ -71,7 +71,7 @@ torus.getTransform().setTranslation(2, 1, 1);
 
 ```java
 // รหัสสำหรับการเพิ่มกระบอกสูบที่มีการหมุนและวัสดุเฉพาะ
-// ...
+// -
 ```
 
 ### ขั้นตอนที่ 5: การกำหนดค่ากล้อง

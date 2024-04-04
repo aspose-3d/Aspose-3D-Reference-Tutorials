@@ -1,6 +1,6 @@
 ---
-title: 在 3D 场景中的立方体上设置法线
-linktitle: 在 3D 场景中的立方体上设置法线
+title: 在立方体上设置法线
+linktitle: 在立方体上设置法线
 second_title: Aspose.3D .NET API
 description: 学习使用 Aspose.3D for .NET 在 3D 立方体上设置法线。通过本分步指南增强您的 3D 建模技能。
 type: docs

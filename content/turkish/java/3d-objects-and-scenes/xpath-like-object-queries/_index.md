@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## Adım 2: Düğümlerin Hiyerarşisini Oluşturun
 
 ```java
-// ExStart:Hiyerarşi Oluşturma
+//ExStart:Hiyerarşi Oluşturma
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

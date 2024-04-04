@@ -1,6 +1,6 @@
 ---
-title: Csomópont átalakítása transzformációs mátrix segítségével 3D-s jelenetekben
-linktitle: Csomópont átalakítása transzformációs mátrix segítségével 3D-s jelenetekben
+title: Csomópont átalakítása transzformációs mátrix segítségével
+linktitle: Csomópont átalakítása transzformációs mátrix segítségével
 second_title: Aspose.3D .NET API
 description: Könnyedén alakíthatja át a csomópontokat 3D-s jelenetekben az Aspose.3D for .NET használatával. Ismerje meg a csomópont-átalakításokat lépésről lépésre az oktatóanyag segítségével.
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 Most, hogy áttekintettük az alapokat, bontsuk le az átalakítási folyamatot egy lépésről lépésre szóló útmutatóra.
 
-## 1. lépés: Inicializálja a jelenetet és a csomópontot
+## 1. lépés: Inicializálja a jelenetet
 
 ```csharp
 // ExStart:AddTransformationToNodeByTransformationMatrix
 // Jelenetobjektum inicializálása
 Scene scene = new Scene();
 
-// Node osztály objektum inicializálása
-Node cubeNode = new Node("cube");
 ```
 
-Ebben a lépésben létrehozunk egy új 3D-s jelenetet és a jeleneten belül egy "kocka" nevű csomópontot.
+Ebben a lépésben egy új üres 3D-s jelenetet hozunk létre.
 
-## 2. lépés: Háló létrehozása és geometria beállítása
+## 2. lépés: Háló létrehozása és a jelenethez csatolás
 
 ```csharp
 // Hívja a Common class create mesh-t a sokszögépítő metódussal a hálópéldány beállításához
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// Pontcsomópont a Mesh geometriára
-cubeNode.Entity = mesh;
+// Hozzon létre egy tároló csomópontot a háló számára.
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 Itt generálunk egy hálót a poligonépítő módszerrel, és hozzárendeljük a csomóponthoz, meghatározva a kockánk geometriáját.
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 Határozzon meg egy egyéni fordítási mátrixot a csomópontra alkalmazott konkrét transzformáció meghatározásához. Állítsa be a mátrix értékeit a kívánt transzformációhoz.
 
-## 4. lépés: Csomópont hozzáadása a jelenethez
-
-```csharp
-// Adjon hozzá kockát a jelenethez
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 Szerelje be a kocka csomópontot a jelenetbe, így az a teljes 3D környezet részévé válik.
 
-## 5. lépés: Mentse el a jelenetet
+## 4. lépés: Mentse el a jelenetet
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Mentse a 3D jelenetet a támogatott fájlformátumokba
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Mentse a 3D jelenetet a támogatott fájlformátumokba
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ Gratulálunk! Sikeresen átalakított egy csomópontot transzformációs mátrix
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.3D for .NET számára?
 
- A4: Látogassa meg a[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/) az Aspose webhelyén, hogy ideiglenes engedélyt szerezzen értékelési célokra.
+ A4: Látogassa meg a[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/)az Aspose webhelyén, hogy ideiglenes engedélyt szerezzen értékelési célokra.
 
 ### 5. kérdés: Hol kérhetek segítséget, vagy csatlakozhatok az Aspose.3D közösséghez?
 
-A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) kérdéseket feltenni, tapasztalatokat megosztani, és kapcsolatba lépni más fejlesztőkkel az Aspose.3D használatával.
+ A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) kérdéseket feltenni, tapasztalatokat megosztani, és kapcsolatba lépni más fejlesztőkkel az Aspose.3D használatával.

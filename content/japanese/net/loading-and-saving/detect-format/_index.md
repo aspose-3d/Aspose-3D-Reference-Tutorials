@@ -1,8 +1,8 @@
 ---
-title: ロードと保存 - フォーマットの検出
-linktitle: ロードと保存 - フォーマットの検出
+title: フォーマットの検出
+linktitle: フォーマットの検出
 second_title: Aspose.3D .NET API
-description: Aspose.3D for .NET を使用して、3D ファイル操作を簡単にマスターします。フォーマットのロード、保存、検出をシームレスに実行します。
+description: Aspose.3D for .NET を使用して、3D ファイル操作を簡単にマスターします。形式をシームレスに読み込み、保存、検出します。
 type: docs
 weight: 12
 url: /ja/net/loading-and-saving/detect-format/

@@ -17,7 +17,7 @@ url: /sv/java/3d-mesh-data/
 
 ## Generera data för 3D-nät i Java (Normaler, Tangenter, Binormaler)
 
-Är du redo att ta dina Java-projekt till nästa nivå?[Generera data för 3D-nät i Java (Normaler, Tangenter, Binormaler)](./generate-mesh-data/) med Aspose.3D är handledningen du behöver. Dyk djupt in i 3D-grafikens krångligheter när vi guidar dig genom att enkelt generera normal data för dina 3D-nät. Lär dig hur du förbättrar dina projekts visuella attraktionskraft och navigerar i 3D-världen med tillförsikt.
+ Är du redo att ta dina Java-projekt till nästa nivå?[Generera data för 3D-nät i Java (Normaler, Tangenter, Binormaler)](./generate-mesh-data/)med Aspose.3D är handledningen du behöver. Dyk djupt in i 3D-grafikens krångligheter när vi guidar dig genom att enkelt generera normal data för dina 3D-nät. Lär dig hur du förbättrar dina projekts visuella attraktionskraft och navigerar i 3D-världen med tillförsikt.
 
 ## Dela 3D-nät efter material för effektiv bearbetning i Java
 

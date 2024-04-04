@@ -1,6 +1,6 @@
 ---
-title: Exponera geometrisk transformation i 3D-scener
-linktitle: Exponera geometrisk transformation i 3D-scener
+title: Exponera geometrisk transformation
+linktitle: Exponera geometrisk transformation
 second_title: Aspose.3D .NET API
 description: Utforska de obegränsade möjligheterna med 3D-grafik i .NET med Aspose.3D. Upptäck geometriska transformationer utan ansträngning.
 type: docs
@@ -29,7 +29,7 @@ Friska upp dina kunskaper om grundläggande 3D-koncept, inklusive noder, transfo
 
 ## Importera namnområden
 
-ditt .NET-projekt, importera de nödvändiga namnrymden för att kickstarta din resa med Aspose.3D.
+I ditt .NET-projekt, importera de nödvändiga namnrymden för att kickstarta din resa med Aspose.3D.
 
 ```csharp
 using Aspose.ThreeD;

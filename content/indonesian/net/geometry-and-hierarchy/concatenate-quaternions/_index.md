@@ -1,6 +1,6 @@
 ---
-title: Menggabungkan Quaternion dalam Adegan 3D
-linktitle: Menggabungkan Quaternion dalam Adegan 3D
+title: Penggabungan Kuarter
+linktitle: Penggabungan Kuarter
 second_title: Aspose.3D .NET API
 description: Jelajahi kekuatan manipulasi angka empat dalam adegan 3D dengan Aspose.3D untuk .NET. Pelajari cara menggabungkan angka empat selangkah demi selangkah untuk transformasi yang mendalam.
 type: docs
@@ -96,7 +96,7 @@ A2: Ya, Aspose.3D untuk .NET dirancang untuk bekerja secara lancar dengan pustak
 
 ### Q3: Apakah ada uji coba gratis yang tersedia untuk Aspose.3D untuk .NET?
 
- A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.3D untuk .NET?
 

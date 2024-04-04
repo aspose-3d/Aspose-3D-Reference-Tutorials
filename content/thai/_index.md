@@ -20,20 +20,13 @@ is_root: true
  
 - [การสร้างแบบจำลอง 3 มิติ](./net/3d-modeling/)
 - [ฉาก 3 มิติ](./net/3d-scene/)
-- [วิวพอร์ต 3 มิติ](./net/3d-viewports/)
 - [แอนิเมชั่น](./net/animation/)
-- [ข้อมูลสินทรัพย์](./net/asset-information/)
 - [เรขาคณิตและลำดับชั้น](./net/geometry-and-hierarchy/)
 - [ใบอนุญาต](./net/license/)
 - [กำลังโหลดและบันทึก](./net/loading-and-saving/)
 - [วัสดุ](./net/materials/)
-- [รูปหลายเหลี่ยม](./net/polygons/)
 - [กำลังเรนเดอร์](./net/rendering/)
-- [การอัดขึ้นรูปเชิงเส้น](./net/linear-extrusion/)
-- [วัตถุ](./net/objects/)
-- [การทำงานกับกระบอกสูบ](./net/working-with-cylinder/)
-- [การทำงานกับพอยต์คลาวด์](./net/working-with-point-cloud/)
-- [การทำงานกับ VRML](./net/working-with-vrml/)
+- [ตาข่าย](./net/meshes/)
 
 ## Aspose.3D สำหรับการสอน Java
 {{% alert color="primary" %}}

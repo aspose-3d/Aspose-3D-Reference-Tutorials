@@ -1,6 +1,6 @@
 ---
-title: Phơi bày sự biến đổi hình học trong cảnh 3D
-linktitle: Phơi bày sự biến đổi hình học trong cảnh 3D
+title: Phơi bày sự biến đổi hình học
+linktitle: Phơi bày sự biến đổi hình học
 second_title: API Aspose.3D .NET
 description: Khám phá khả năng vô hạn của đồ họa 3D trong .NET với Aspose.3D. Khám phá các phép biến đổi hình học một cách dễ dàng.
 type: docs

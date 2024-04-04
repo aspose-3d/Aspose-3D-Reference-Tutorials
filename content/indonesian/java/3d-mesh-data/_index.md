@@ -17,7 +17,7 @@ Apakah Anda siap untuk meningkatkan keterampilan pengembangan 3D Anda di Java? S
 
 ## Hasilkan Data untuk Jerat 3D di Java (Normal, Tangen, Binormal)
 
-Siap membawa proyek Java Anda ke level berikutnya?[Hasilkan Data untuk Jerat 3D di Java (Normal, Tangen, Binormal)](./generate-mesh-data/) dengan Aspose.3D adalah tutorial yang Anda butuhkan. Selidiki lebih dalam seluk-beluk grafik 3D saat kami memandu Anda dalam menghasilkan data normal dengan mudah untuk jerat 3D Anda. Pelajari cara meningkatkan daya tarik visual proyek Anda dan menavigasi dunia 3D dengan percaya diri.
+ Siap membawa proyek Java Anda ke level berikutnya?[Hasilkan Data untuk Jerat 3D di Java (Normal, Tangen, Binormal)](./generate-mesh-data/)dengan Aspose.3D adalah tutorial yang Anda butuhkan. Selidiki lebih dalam seluk-beluk grafik 3D saat kami memandu Anda dalam menghasilkan data normal dengan mudah untuk jerat 3D Anda. Pelajari cara meningkatkan daya tarik visual proyek Anda dan menavigasi dunia 3D dengan percaya diri.
 
 ## Pisahkan Jerat 3D berdasarkan Bahan untuk Pemrosesan yang Efisien di Java
 

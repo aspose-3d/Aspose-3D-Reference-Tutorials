@@ -9,14 +9,14 @@ url: /tr/java/geometry/transform-3d-nodes-with-quaternions/
 ---
 ## giriiş
 
-Aspose.3D kullanarak Java'da 3D düğümleri kuaterniyonlarla dönüştürmeye yönelik bu adım adım kılavuza hoş geldiniz. Java uygulamanızı güçlü 3B dönüşümlerle geliştirmek istiyorsanız bu eğitim tam size göre. Aspose.3D for Java, 3D grafiklerle çalışmak için güçlü bir dizi özellik sunar ve bu eğitimde, kuaterniyonlar kullanarak 3D düğümleri dönüştürmeye odaklanacağız.
+Aspose.3D kullanarak Java'da 3D düğümleri kuaterniyonlarla dönüştürmeye yönelik bu adım adım kılavuza hoş geldiniz. Java uygulamanızı güçlü 3B dönüşümlerle geliştirmek istiyorsanız bu eğitim tam size göre. Aspose.3D for Java, 3D grafiklerle çalışmak için güçlü özellikler sunar ve bu eğitimde, kuaterniyonlar kullanarak 3D düğümleri dönüştürmeye odaklanacağız.
 
 ## Önkoşullar
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
 - Java programlamanın temel bilgisi.
--  Aspose.3D for Java yüklü. İndirebilirsin[Burada](https://releases.aspose.com/3d/java/).
+- Aspose.3D for Java yüklü. İndirebilirsin[Burada](https://releases.aspose.com/3d/java/).
 - 3D sahnelerinizi kaydetmek için ayarlanmış bir belge dizini.
 
 ## Paketleri İçe Aktar

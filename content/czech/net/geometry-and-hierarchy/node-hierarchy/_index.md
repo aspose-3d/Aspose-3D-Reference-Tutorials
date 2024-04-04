@@ -1,6 +1,6 @@
 ---
-title: Pochopení hierarchie uzlů ve 3D scénách
-linktitle: Pochopení hierarchie uzlů ve 3D scénách
+title: Pochopení hierarchie uzlů
+linktitle: Pochopení hierarchie uzlů
 second_title: Aspose.3D .NET API
 description: Odemkněte sílu Aspose.3D pro .NET! Ponořte se do manipulace s hierarchií uzlů pomocí tohoto podrobného průvodce. Vytvářejte úžasné 3D scény bez námahy.
 type: docs
@@ -17,7 +17,7 @@ Než se vydáme na tuto 3D cestu, ujistěte se, že máte splněny následujíc�
 
 -  Knihovna Aspose.3D for .NET: Ujistěte se, že máte knihovnu Aspose.3D integrovanou do svého projektu .NET. Pokud jste to ještě neudělali, zamiřte na[dokumentace](https://reference.aspose.com/3d/net/) pro vedení.
 
--  Stáhnout knihovnu: Pokud jste si nestáhli knihovnu Aspose.3D, stáhněte si nejnovější verzi z[odkaz ke stažení](https://releases.aspose.com/3d/net/) postupujte podle pokynů k instalaci uvedených v dokumentaci.
+-  Stáhnout knihovnu: Pokud jste si nestáhli knihovnu Aspose.3D, stáhněte si nejnovější verzi z[odkaz ke stažení](https://releases.aspose.com/3d/net/) a postupujte podle pokynů k instalaci uvedených v dokumentaci.
 
 -  Získejte licenci: Chcete-li odemknout plný potenciál Aspose.3D, potřebujete platnou licenci. Pokud žádný nemáte, můžete ho získat[tady](https://purchase.aspose.com/buy) nebo se rozhodnout pro a[zkušební verze zdarma](https://releases.aspose.com/) prozkoumat jeho schopnosti.
 

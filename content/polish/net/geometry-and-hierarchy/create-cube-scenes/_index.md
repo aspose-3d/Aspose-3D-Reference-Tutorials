@@ -1,6 +1,6 @@
 ---
-title: Tworzenie scen sześciennych w 3D
-linktitle: Tworzenie scen sześciennych w 3D
+title: Tworzenie scen sześciennych
+linktitle: Tworzenie scen sześciennych
 second_title: Aspose.3D API .NET
 description: Twórz oszałamiające sceny z kostkami 3D bez wysiłku dzięki Aspose.3D dla .NET. Pobierz bibliotekę, postępuj zgodnie z naszym przewodnikiem krok po kroku i uwolnij się.
 type: docs
@@ -87,7 +87,7 @@ Określ katalog wyjściowy i zapisz scenę 3D w obsługiwanym formacie pliku (w 
 // Ścieżka do katalogu dokumentów.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//Zapisz scenę 3D w obsługiwanych formatach plików
+// Zapisz scenę 3D w obsługiwanych formatach plików
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 
@@ -103,7 +103,7 @@ Gratulacje! Właśnie stworzyłeś swoją pierwszą scenę kostki 3D przy użyci
 
 ## Wniosek
 
-W tym samouczku zbadaliśmy proces tworzenia urzekających scen kostek 3D przy użyciu Aspose.3D dla .NET. Teraz, uzbrojony w tę wiedzę, możesz uwolnić swoją kreatywność i ożywić swoje wizje 3D.
+tym samouczku zbadaliśmy proces tworzenia urzekających scen kostek 3D przy użyciu Aspose.3D dla .NET. Teraz, uzbrojony w tę wiedzę, możesz uwolnić swoją kreatywność i ożywić swoje wizje 3D.
 
 ## Często zadawane pytania
 
@@ -117,7 +117,7 @@ A2: Absolutnie! Eksperymentuj z materiałami, kolorami i fakturami, aby uzyskać
 
 ### P3: Gdzie mogę znaleźć dodatkowe wsparcie i zasoby?
 
- A3: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za pomoc społeczną i dyskusje.
+ A3: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za pomoc społeczną i dyskusję.
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 

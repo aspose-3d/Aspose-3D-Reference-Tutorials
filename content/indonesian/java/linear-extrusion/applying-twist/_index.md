@@ -91,7 +91,7 @@ Simpan adegan 3D dalam format file Wavefront OBJ.
 ```java
 // ExStart:Simpan3DScene
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-// ExEnd:Simpan3DScene
+//ExEnd:Simpan3DScene
 ```
 
 ## Kesimpulan

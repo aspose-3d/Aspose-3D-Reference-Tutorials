@@ -54,7 +54,7 @@ Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ## 4. lépés: Keresse meg a fordítási tulajdonságot
 
 ```java
-// Keresse meg a fordítási tulajdonságot a csomópont transzformációs objektumán
+//Keresse meg a fordítási tulajdonságot a csomópont transzformációs objektumán
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
@@ -99,7 +99,7 @@ bindPoint.bindKeyframeSequence("Z", kfs);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "PropertyToDocument.fbx";
 
-//Mentse a 3D jelenetet a támogatott fájlformátumokba
+// Mentse a 3D jelenetet a támogatott fájlformátumokba
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
@@ -119,7 +119,7 @@ Gratulálunk! Sikeresen hozzáadta az animációs tulajdonságokat a 3D-s jelene
 
 ### 3. kérdés: Hol találok támogatást az Aspose.3D-hez?
 
- V3: Csatlakozz a közösséghez a következő címen:[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) segítségért.
+V3: Csatlakozz a közösséghez a következő címen:[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) segítségért.
 
 ### 4. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
 

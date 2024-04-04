@@ -115,7 +115,7 @@ Câu trả lời 1: Có, Aspose.3D hỗ trợ nhiều định dạng mô hình 3
 
 ### Câu hỏi 3: Tôi có thể tìm hỗ trợ cho Aspose.3D cho Java ở đâu?
 
- A3: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18)cho bất kỳ sự trợ giúp hoặc thắc mắc.
+ A3: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) cho bất kỳ sự trợ giúp hoặc thắc mắc.
 
 ### Câu hỏi 4: Có sẵn mô hình 3D mẫu nào để thử nghiệm không?
 

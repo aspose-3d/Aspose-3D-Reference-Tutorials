@@ -16,7 +16,7 @@ Witamy w kompleksowym przewodniku na temat pracy z właściwościami 3D i niesta
 Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 
 - Zestaw Java Development Kit (JDK) zainstalowany na komputerze.
-- Pobrano i skonfigurowano bibliotekę Aspose.3D. Można go pobrać z[Strona Aspose](https://releases.aspose.com/3d/java/).
+-  Pobrano i skonfigurowano bibliotekę Aspose.3D. Można go pobrać z[Strona Aspose](https://releases.aspose.com/3d/java/).
 - Podstawowa znajomość programowania w języku Java.
 
 ## Importuj pakiety
@@ -107,7 +107,7 @@ Gratulacje! Pomyślnie nauczyłeś się pracować z właściwościami 3D i niest
 
 ### P1: Jak mogę zainstalować bibliotekę Aspose.3D w moim projekcie Java?
 
- O1: Możesz pobrać bibliotekę z[Strona Aspose](https://releases.aspose.com/3d/java/) postępuj zgodnie z instrukcjami instalacji zawartymi w dokumentacji.
+ O1: Możesz pobrać bibliotekę z[Strona Aspose](https://releases.aspose.com/3d/java/) i postępuj zgodnie z instrukcjami instalacji zawartymi w dokumentacji.
 
 ### P2: Czy dostępne są bezpłatne opcje próbne dla Aspose.3D?
 
@@ -119,7 +119,7 @@ Gratulacje! Pomyślnie nauczyłeś się pracować z właściwościami 3D i niest
 
 ### P4: Czy istnieje forum wsparcia dla Aspose.3D, na którym mogę zadawać pytania i szukać pomocy?
 
- A4: Tak, odwiedź[Forum wsparcia Aspose.3D](https://forum.aspose.com/c/3d/18) aby nawiązać kontakt ze społecznością i uzyskać pomoc od ekspertów.
+A4: Tak, odwiedź[Forum wsparcia Aspose.3D](https://forum.aspose.com/c/3d/18) aby nawiązać kontakt ze społecznością i uzyskać pomoc od ekspertów.
 
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.3D?
 

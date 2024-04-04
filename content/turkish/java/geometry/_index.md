@@ -20,7 +20,7 @@ Aspose.3D ile Fiziksel Tabanlı Rendering (PBR) dünyasına dalın. Eğitimimiz,
 
 ## Aspose.3D ile Java'da 3D Küp Sahnesi Oluşturun
 
- Aspose.3D for Java ile 3D küp sahne grafiklerinin harikalarını keşfedin. Bu eğitim, çarpıcı 3D sahneleri zahmetsizce oluşturmanıza olanak sağlar. Yaratıcılığınızı serbest bırakın ve sınırsız olasılıkları keşfedin.[Devamını oku](./create-3d-cube-scene/)
+ Aspose.3D for Java ile 3D küp sahne grafiklerinin harikalarını keşfedin. Bu eğitim, çarpıcı 3D sahneleri zahmetsizce oluşturmanıza olanak tanır. Yaratıcılığınızı serbest bırakın ve sınırsız olasılıkları keşfedin.[Devamını oku](./create-3d-cube-scene/)
 
 ## Aspose.3D ile Java 3D'deki Geometrik Dönüşümleri Ortaya Çıkarın
 

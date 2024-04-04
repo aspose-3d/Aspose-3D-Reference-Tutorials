@@ -92,4 +92,4 @@ O1: Aspose.3D został zaprojektowany tak, aby był kompatybilny ze standardowymi
 
 ### P5: Gdzie mogę szukać wsparcia lub omawiać zapytania związane z Aspose.3D?
 
- Odpowiedź 5: Odwiedź forum społeczności[Tutaj](https://forum.aspose.com/c/3d/18) za wsparcie i dyskusje.
+ Odpowiedź 5: Odwiedź forum społeczności[Tutaj](https://forum.aspose.com/c/3d/18) za wsparcie i dyskusję.

@@ -93,7 +93,7 @@ Parabéns! Você aprendeu com sucesso como usar Aspose.3D para Java para renderi
 
 ### P2: Existe um teste gratuito disponível?
 
- A2: Sim, você pode acessar a avaliação gratuita[aqui](https://releases.aspose.com/).
+ A2: Sim, você pode acessar o teste gratuito[aqui](https://releases.aspose.com/).
 
 ### Q3: Onde posso encontrar suporte para Aspose.3D para Java?
 

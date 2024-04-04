@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## Schritt 4: Zeigen Sie den Knoten auf das Netz
 
 ```java
-//Zeigen Sie den Knoten auf das Netz
+// Zeigen Sie den Knoten auf das Netz
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // Legen Sie den Dateinamen fest
 MyDir = MyDir + "MaterialToCube.fbx";
-//Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
+// Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

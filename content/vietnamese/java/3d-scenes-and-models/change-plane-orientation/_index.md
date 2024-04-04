@@ -16,7 +16,7 @@ Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi 
 Trước khi chúng ta bắt đầu cuộc hành trình này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
 - Hiểu biết cơ bản về lập trình Java.
--  Aspose.3D cho Java đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/3d/java/).
+- Aspose.3D cho Java đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/3d/java/).
 - Một môi trường phát triển sẵn sàng cho việc mã hóa Java.
 
 ## Gói nhập khẩu
@@ -101,7 +101,7 @@ Câu trả lời 1: Có, Aspose.3D hỗ trợ nhiều ngôn ngữ lập trình k
 
 ### Câu hỏi 2: Aspose.3D có bản dùng thử miễn phí không?
 
-A2: Chắc chắn rồi! Bạn có thể khám phá các tính năng của Aspose.3D bằng cách truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ A2: Chắc chắn rồi! Bạn có thể khám phá các tính năng của Aspose.3D bằng cách truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 3: Tôi có thể tìm hỗ trợ cho Aspose.3D ở đâu?
 

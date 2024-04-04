@@ -15,7 +15,7 @@ url: /ja/net/animation/property-to-document/
 
 このエキサイティングな旅に着手する前に、次の前提条件が満たされていることを確認してください。
 
-- Aspose.3D for .NET: ライブラリがインストールされていることを確認してください。からダウンロードできます。[Aspose.3D Web サイト](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET: ライブラリがインストールされていることを確認してください。からダウンロードできます。[Aspose.3D Web サイト](https://releases.aspose.com/3d/net/).
 
 - C# の知識: 例を理解して実装するには、C# プログラミング言語に精通していることが不可欠です。
 

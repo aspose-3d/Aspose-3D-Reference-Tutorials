@@ -1,6 +1,6 @@
 ---
-title: Geometrische transformatie blootleggen in 3D-scènes
-linktitle: Geometrische transformatie blootleggen in 3D-scènes
+title: Geometrische transformatie blootleggen
+linktitle: Geometrische transformatie blootleggen
 second_title: Aspose.3D .NET-API
 description: Ontdek de grenzeloze mogelijkheden van 3D-graphics in .NET met Aspose.3D. Ontdek moeiteloos geometrische transformaties.
 type: docs

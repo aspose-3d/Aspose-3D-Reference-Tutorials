@@ -1,6 +1,6 @@
 ---
-title: 로드 및 저장 - 사용자 정의 로드 옵션
-linktitle: 로드 및 저장 - 사용자 정의 로드 옵션
+title: 사용자 정의 로드 옵션
+linktitle: 사용자 정의 로드 옵션
 second_title: Aspose.3D .NET API
 description: 원활한 3D 모델 로드 및 저장을 위한 최고의 솔루션인 .NET용 Aspose.3D를 살펴보세요.
 type: docs
@@ -41,8 +41,6 @@ using Aspose.ThreeD.Formats;
 ```csharp
 private static void Discreet3DSLoadOption()
 {
-    // 문서 디렉터리의 경로입니다.
-    string dataDir = "Your Document Directory";
     Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
 
     //맞춤 옵션 설정
@@ -50,6 +48,9 @@ private static void Discreet3DSLoadOption()
     loadOpts.FlipCoordinateSystem = true;
     loadOpts.GammaCorrectedColor = true;
     loadOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //로드 옵션을 사용하여 파일 로드
+    var scene = Scene.FromFile("test.3ds", loadOpts);
 }
 ```
 
@@ -58,14 +59,16 @@ private static void Discreet3DSLoadOption()
 ```csharp
 private static void ObjLoadOption()
 {
-    // 문서 디렉터리의 경로입니다.
-    string dataDir = "Your Document Directory";
     ObjLoadOptions loadObjOpts = new ObjLoadOptions();
 
     //맞춤 옵션 설정
     loadObjOpts.EnableMaterials = true;
     loadObjOpts.FlipCoordinateSystem = true;
     loadObjOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //로드 옵션을 사용하여 파일 로드
+    var scene = Scene.FromFile("test.obj", loadObjOpts);
+
 }
 ```
 
@@ -75,12 +78,14 @@ private static void ObjLoadOption()
 private static void STLLoadOption()
 {
     // 문서 디렉터리의 경로입니다.
-    string dataDir = "Your Document Directory";
     StlLoadOptions loadSTLOpts = new StlLoadOptions();
 
     //맞춤 옵션 설정
     loadSTLOpts.FlipCoordinateSystem = true;
     loadSTLOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //로드 옵션을 사용하여 파일 로드
+    var scene = Scene.FromFile("test.stl", loadSTLOpts);
 }
 ```
 
@@ -96,6 +101,9 @@ private static void U3DLoadOption()
     //맞춤 옵션 설정
     loadU3DOpts.FlipCoordinateSystem = true;
     loadU3DOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //로드 옵션을 사용하여 파일 로드
+    var scene = Scene.FromFile("test.u3d", loadU3DOpts);
 }
 ```
 
@@ -105,13 +113,12 @@ private static void U3DLoadOption()
 private static void glTFLoadOptions()
 {
     // 문서 디렉터리의 경로입니다.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     GltfLoadOptions loadOpt = new GltfLoadOptions();
 
     //맞춤 옵션 설정
     loadOpt.FlipTexCoordV = true;
-    scene.Open(dataDir + "Duck.gltf", loadOpt);
+    scene.Open("Duck.gltf", loadOpt);
 }
 ```
 
@@ -127,7 +134,7 @@ private static void PlyLoadOptions()
 
     //맞춤 옵션 설정
     loadPLYOpts.FlipCoordinateSystem = true;
-    scene.Open(RunExamples.GetDataFilePath("vase-v2.ply"), loadPLYOpts);
+    scene.Open("vase-v2.ply", loadPLYOpts);
 }
 ```
 
@@ -137,12 +144,11 @@ private static void PlyLoadOptions()
 private static void FBXLoadOptions()
 {
     // 문서 디렉터리의 경로입니다.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     FbxLoadOptions opt = new FbxLoadOptions() { KeepBuiltinGlobalSettings = true };
 
     //맞춤 옵션 설정
-    scene.Open(dataDir + "test.FBX", opt);
+    scene.Open("test.FBX", opt);
 
     // FBX 파일의 GlobalSettings에 정의된 출력 속성
     foreach (Property property in scene.RootNode.AssetInfo.Properties)
@@ -176,4 +182,4 @@ A4: 예, 다음을 다운로드하여 .NET용 Aspose.3D의 기능을 탐색할 �
 
 ### Q5: .NET용 Aspose.3D에 대한 지원은 어디서 찾을 수 있습니까?
 
-A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역 사회 지원 및 지원을 위해.
+ A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역 사회 지원 및 지원을 위해.

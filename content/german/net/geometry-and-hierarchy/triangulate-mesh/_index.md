@@ -1,6 +1,6 @@
 ---
-title: Triangulierendes Netz in 3D-Szenen
-linktitle: Triangulierendes Netz in 3D-Szenen
+title: Triangulierendes Netz
+linktitle: Triangulierendes Netz
 second_title: Aspose.3D .NET API
 description: Entdecken Sie in dieser Schritt-für-Schritt-Anleitung die Leistungsfähigkeit von Aspose.3D für .NET. Erfahren Sie, wie Sie 3D-Netze für eine verbesserte Modellierung mühelos triangulieren.
 type: docs
@@ -17,7 +17,7 @@ Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Vora
 
 - Aspose.3D für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.3D-Bibliothek installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/3d/net/).
 
-- Beispiel eines 3D-Modells: Sie verfügen über ein 3D-Modell im FBX-Format, das Sie triangulieren möchten. Sie können das bereitgestellte verwenden[document.fbx](https://reference.aspose.com/3d/net/) Datei zum Üben.
+-  Beispiel eines 3D-Modells: Sie verfügen über ein 3D-Modell im FBX-Format, das Sie triangulieren möchten. Sie können das bereitgestellte verwenden[document.fbx](https://reference.aspose.com/3d/net/) Datei zum Üben.
 
 ## Namespaces importieren
 
@@ -75,7 +75,7 @@ Geben Sie das Ausgabeverzeichnis an und speichern Sie die geänderte Szene. Stel
 Console.WriteLine("\nMesh has been Triangulated.\nFile saved at " + output);
 ```
 
-Drucken Sie eine Meldung aus, die die erfolgreiche Triangulation bestätigt, und geben Sie den Pfad an, in dem die geänderte Datei gespeichert ist.
+Drucken Sie eine Meldung aus, die die erfolgreiche Triangulation bestätigt, und geben Sie den Pfad an, in dem die geänderte Datei gespeichert wird.
 
 ## Abschluss
 

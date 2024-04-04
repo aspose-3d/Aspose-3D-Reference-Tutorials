@@ -15,7 +15,7 @@ url: /zh/java/cylinders/creating-fan-cylinders/
 
 在我们深入学习本教程之前，请确保您具备以下先决条件：
 
--  Java 开发工具包 (JDK)：确保您的系统上安装了 JDK。你可以下载它[这里](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java 开发工具包 (JDK)：确保您的系统上安装了 JDK。你可以下载它[这里](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 - Aspose.3D for Java：从以下位置下载并安装适用于 Java 的 Aspose.3D 库：[下载链接](https://releases.aspose.com/3d/java/).
 

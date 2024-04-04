@@ -15,7 +15,7 @@ url: /hu/net/3d-modeling/primitive-3d-models/
 
 Mielőtt belemerülnénk a 3D-s modellezés lenyűgöző birodalmába, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Aspose.3D for .NET: Töltse le és telepítse az Aspose.3D for .NET könyvtárat a[letöltési link](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET: Töltse le és telepítse az Aspose.3D for .NET könyvtárat a[letöltési link](https://releases.aspose.com/3d/net/).
 
 - Fejlesztői környezet: .NET fejlesztői környezet létrehozása, amely biztosítja az Aspose.3D-vel való kompatibilitást.
 

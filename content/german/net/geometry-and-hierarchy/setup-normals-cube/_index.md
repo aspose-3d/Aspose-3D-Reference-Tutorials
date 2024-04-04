@@ -1,6 +1,6 @@
 ---
-title: Einrichten von Normalen auf Würfeln in 3D-Szenen
-linktitle: Einrichten von Normalen auf Würfeln in 3D-Szenen
+title: Normalen auf Cube einrichten
+linktitle: Normalen auf Cube einrichten
 second_title: Aspose.3D .NET API
 description: Erfahren Sie, wie Sie mit Aspose.3D für .NET Normalen auf einem 3D-Würfel einrichten. Verbessern Sie Ihre 3D-Modellierungsfähigkeiten mit dieser Schritt-für-Schritt-Anleitung.
 type: docs

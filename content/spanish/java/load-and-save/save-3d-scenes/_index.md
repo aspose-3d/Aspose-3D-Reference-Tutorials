@@ -21,7 +21,7 @@ Antes de sumergirse en el tutorial, asegúrese de tener los siguientes requisito
 
 ## Importar paquetes
 
-Para comenzar, importe los paquetes necesarios para Aspose.3D a su proyecto Java:
+Para comenzar, importe los paquetes necesarios para Aspose.3D en su proyecto Java:
 
 ```java
 import com.aspose.threed.*;

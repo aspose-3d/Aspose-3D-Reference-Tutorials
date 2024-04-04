@@ -17,7 +17,7 @@ Você está pronto para aprimorar suas habilidades de desenvolvimento 3D em Java
 
 ## Gerar dados para malhas 3D em Java (Normais, Tangentes, Binormais)
 
-Pronto para levar seus projetos Java para o próximo nível?[Gerar dados para malhas 3D em Java (Normais, Tangentes, Binormais)](./generate-mesh-data/) com Aspose.3D é o tutorial que você precisa. Mergulhe profundamente nas complexidades dos gráficos 3D enquanto orientamos você na geração fácil de dados normais para suas malhas 3D. Aprenda como aprimorar o apelo visual de seus projetos e navegar no mundo do 3D com confiança.
+ Pronto para levar seus projetos Java para o próximo nível?[Gerar dados para malhas 3D em Java (Normais, Tangentes, Binormais)](./generate-mesh-data/)com Aspose.3D é o tutorial que você precisa. Mergulhe profundamente nas complexidades dos gráficos 3D enquanto orientamos você na geração fácil de dados normais para suas malhas 3D. Aprenda como aprimorar o apelo visual de seus projetos e navegar no mundo do 3D com confiança.
 
 ## Divida malhas 3D por material para processamento eficiente em Java
 

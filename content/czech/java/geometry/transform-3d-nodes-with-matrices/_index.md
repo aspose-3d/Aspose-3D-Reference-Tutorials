@@ -114,7 +114,7 @@ Odpověď 3: Velikost vašich 3D scén může být omezena systémovými prostř
 
 ### Q4: Kde najdu další příklady a dokumentaci?
 
- A4: Navštivte[Aspose.3D dokumentace](https://reference.aspose.com/3d/java/) pro více příkladů a podrobností.
+ A4: Navštivte[Aspose.3D dokumentace](https://reference.aspose.com/3d/java/) pro další příklady a podrobnosti.
 
 ### Q5: Jak získám dočasnou licenci pro Aspose.3D?
 

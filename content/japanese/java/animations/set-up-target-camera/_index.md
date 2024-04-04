@@ -97,4 +97,4 @@ scene.save(MyDir, FileFormat.DISCREET3DS);
 
 ### Q5: 仮免許はどうやって取得できますか?
 
-A5: 仮免許を取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+ A5: 仮免許を取得できます。[ここ](https://purchase.aspose.com/temporary-license/).

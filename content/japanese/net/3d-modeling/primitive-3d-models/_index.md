@@ -15,7 +15,7 @@ Aspose.3D for .NET を使用したエキサイティングな 3D モデリング
 
 3D モデリングの魅力的な領域に入る前に、次の前提条件が満たされていることを確認してください。
 
-- Aspose.3D for .NET: Aspose.3D for .NET ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードリンク](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET: Aspose.3D for .NET ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードリンク](https://releases.aspose.com/3d/net/).
 
 - 開発環境: .NET 開発環境をセットアップし、Aspose.3D との互換性を確保します。
 

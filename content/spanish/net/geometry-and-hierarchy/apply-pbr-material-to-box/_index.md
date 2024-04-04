@@ -1,6 +1,6 @@
 ---
-title: Aplicación de material PBR a cajas en escenas 3D
-linktitle: Aplicación de material PBR a cajas en escenas 3D
+title: Aplicar material PBR a la caja
+linktitle: Aplicar material PBR a la caja
 second_title: Aspose.3D API .NET
 description: Explore el mundo de los gráficos 3D con Aspose.3D para .NET. Cree escenas inmersivas sin esfuerzo utilizando materiales de renderizado basado físicamente.
 type: docs
@@ -21,7 +21,7 @@ Antes de sumergirnos en el apasionante mundo de los gráficos 3D, asegurémonos 
 
 ### Adquirir una Licencia
 
- Para desbloquear todo el potencial de Aspose.3D, obtenga una licencia válida. Puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) o comprar una licencia completa[aquí](https://purchase.aspose.com/buy).
+Para desbloquear todo el potencial de Aspose.3D, obtenga una licencia válida. Puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) o comprar una licencia completa[aquí](https://purchase.aspose.com/buy).
 
 ## Importar espacios de nombres
 
@@ -104,7 +104,7 @@ R2: ¡Absolutamente! Aspose.3D proporciona licencias comerciales para una integr
 
 ### P3: ¿Hay una versión de prueba disponible?
 
-R3: Sí, puede explorar las capacidades de Aspose.3D descargando la versión de prueba gratuita[aquí](https://releases.aspose.com/).
+ R3: Sí, puede explorar las capacidades de Aspose.3D descargando la versión de prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Dónde puedo encontrar debates y apoyo de la comunidad?
 

@@ -16,7 +16,7 @@ Willkommen zu dieser Schritt-für-Schritt-Anleitung zur Transformation von 3D-Kn
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 - Grundkenntnisse der Java-Programmierung.
--  Aspose.3D für Java installiert. Sie können es herunterladen[Hier](https://releases.aspose.com/3d/java/).
+- Aspose.3D für Java installiert. Sie können es herunterladen[Hier](https://releases.aspose.com/3d/java/).
 - Ein zum Speichern Ihrer 3D-Szenen eingerichtetes Dokumentenverzeichnis.
 
 ## Pakete importieren

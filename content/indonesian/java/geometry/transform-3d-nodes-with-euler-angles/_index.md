@@ -72,7 +72,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "TransformationToNode.fbx";
 
-//Simpan adegan 3D dalam format file yang didukung
+// Simpan adegan 3D dalam format file yang didukung
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:TambahkanTransformasiKeNodeByEulerAngles
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);

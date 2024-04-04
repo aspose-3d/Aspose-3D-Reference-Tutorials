@@ -87,7 +87,7 @@ Gefeliciteerd! U hebt met succes een doelcamera voor 3D-animaties in Java ingest
 
  A2: Raadpleeg de[Aspose.3D Java-documentatie](https://reference.aspose.com/3d/java/) voor uitgebreide begeleiding.
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+### Vraag 3: Is er een gratis proefperiode beschikbaar?
 
  A3: Ja, u kunt een gratis proefversie van Aspose.3D verkennen[hier](https://releases.aspose.com/).
 
@@ -97,4 +97,4 @@ Gefeliciteerd! U hebt met succes een doelcamera voor 3D-animaties in Java ingest
 
 ### Vraag 5: Hoe kan ik een tijdelijke licentie verkrijgen?
 
-A5: U kunt een tijdelijke licentie aanschaffen[hier](https://purchase.aspose.com/temporary-license/).
+ A5: U kunt een tijdelijke licentie aanschaffen[hier](https://purchase.aspose.com/temporary-license/).

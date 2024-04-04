@@ -54,7 +54,7 @@ Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ## Stap 4: Zoek vertaaleigenschap
 
 ```java
-// Zoek de vertalingseigenschap op het transformatieobject van het knooppunt
+//Zoek de vertalingseigenschap op het transformatieobject van het knooppunt
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
@@ -99,7 +99,7 @@ bindPoint.bindKeyframeSequence("Z", kfs);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "PropertyToDocument.fbx";
 
-//Sla 3D-scènes op in de ondersteunde bestandsformaten
+// Sla 3D-scènes op in de ondersteunde bestandsformaten
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
@@ -119,7 +119,7 @@ Gefeliciteerd! U hebt met succes animatie-eigenschappen aan uw 3D-scène toegevo
 
 ### V3: Waar kan ik ondersteuning vinden voor Aspose.3D?
 
- A3: Sluit je aan bij de community op[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) Voor assistentie.
+A3: Sluit je aan bij de community op[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) Voor assistentie.
 
 ### Vraag 4: Hoe kan ik een tijdelijke licentie krijgen?
 

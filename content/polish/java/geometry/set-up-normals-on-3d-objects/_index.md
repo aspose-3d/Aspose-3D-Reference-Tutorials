@@ -90,4 +90,4 @@ Odpowiedź 1: Tak, Aspose.3D można zintegrować z innymi bibliotekami Java 3D w
 
 ### P5: Potrzebujesz pomocy lub chcesz porozmawiać ze społecznością?
 
-A5: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie i dyskusje.
+ A5: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie i dyskusję.

@@ -1,6 +1,6 @@
 ---
-title: Compreendendo a hierarquia de nós em cenas 3D
-linktitle: Compreendendo a hierarquia de nós em cenas 3D
+title: Compreendendo a hierarquia de nós
+linktitle: Compreendendo a hierarquia de nós
 second_title: API Aspose.3D .NET
 description: Desbloqueie o poder do Aspose.3D para .NET! Mergulhe na manipulação da hierarquia de nós com este guia passo a passo. Crie cenas 3D impressionantes sem esforço.
 type: docs
@@ -17,7 +17,7 @@ Antes de embarcarmos nesta jornada 3D, certifique-se de ter os seguintes pré-re
 
 -  Biblioteca Aspose.3D para .NET: Certifique-se de ter a biblioteca Aspose.3D integrada ao seu projeto .NET. Se você ainda não fez isso, vá até o[documentação](https://reference.aspose.com/3d/net/) para orientação.
 
--  Baixe a biblioteca: Se você não baixou a biblioteca Aspose.3D, pegue a versão mais recente no[Link para Download](https://releases.aspose.com/3d/net/) siga as instruções de instalação fornecidas na documentação.
+-  Baixe a biblioteca: Se você não baixou a biblioteca Aspose.3D, pegue a versão mais recente no[Link para Download](https://releases.aspose.com/3d/net/) e siga as instruções de instalação fornecidas na documentação.
 
 -  Obtenha uma licença: Para desbloquear todo o potencial do Aspose.3D, você precisa de uma licença válida. Se você não tiver um, você pode obtê-lo[aqui](https://purchase.aspose.com/buy) ou opte por um[teste grátis](https://releases.aspose.com/) para explorar suas capacidades.
 

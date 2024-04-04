@@ -16,8 +16,8 @@ Witamy w tym przewodniku krok po kroku dotyczącym odwracania układu współrz�
 Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
 
 - Podstawowa znajomość języka programowania C#.
-- Zainstalowana biblioteka Aspose.3D dla .NET. Można go pobrać z[Tutaj](https://releases.aspose.com/3d/net/).
-- Przykładowy plik 3D w obsługiwanym formacie (np. .3ds).
+-  Zainstalowana biblioteka Aspose.3D dla .NET. Można go pobrać z[Tutaj](https://releases.aspose.com/3d/net/).
+- Przykładowy plik 3D w obsługiwanym formacie (np. .ma).
 
 ## Importuj przestrzenie nazw
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // Ścieżka do pliku wejściowego
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // Zainicjuj obiekt sceny
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
  W tym kroku ładujemy scenę 3D z określonej ścieżki pliku za pomocą`Open` metoda.
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
  Teraz używamy`Save` metoda eksportu sceny, odwracając przy tym układ współrzędnych. Dane wyjściowe są zapisywane w formacie Wavefront OBJ.

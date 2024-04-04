@@ -1,6 +1,6 @@
 ---
-title: Φόρτωση και αποθήκευση - Δημιουργία κενού τρισδιάστατου εγγράφου
-linktitle: Φόρτωση και αποθήκευση - Δημιουργία κενού τρισδιάστατου εγγράφου
+title: Δημιουργία κενού τρισδιάστατου εγγράφου
+linktitle: Δημιουργία κενού τρισδιάστατου εγγράφου
 second_title: Aspose.3D .NET API
 description: Εξερευνήστε τον κόσμο της δημιουργίας τρισδιάστατων εγγράφων με το Aspose.3D για .NET. Δημιουργήστε, επεξεργαστείτε και αποθηκεύστε εκπληκτικές σκηνές 3D χωρίς κόπο.
 type: docs
@@ -46,7 +46,7 @@ var output = "Your Output Directory" + "document.fbx";
 Scene scene = new Scene();
 
 // Αποθηκεύστε το έγγραφο της τρισδιάστατης σκηνής σε μορφή FBX
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 
 // ExEnd:CreateEmpty3DDocument
 ```

@@ -95,7 +95,7 @@ A2: 예, Aspose.3D는 개인 및 상업용 프로젝트 모두에 사용할 수 
 
 ### Q3: Aspose.3D에 대한 지원은 어떻게 받을 수 있나요?
 
- A3: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역사회 지원을 원하거나 구매를 고려해보세요.[임시면허](https://purchase.aspose.com/temporary-license/) 프리미엄 지원을 위해.
+ A3: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역사회 지원을 원하거나 구매를 고려해보세요.[임시 면허증](https://purchase.aspose.com/temporary-license/) 프리미엄 지원을 위해.
 
 ### Q4: Aspose.3D에 다른 3D 모델링 기능이 있습니까?
 

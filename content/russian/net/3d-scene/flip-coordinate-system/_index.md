@@ -16,8 +16,8 @@ url: /ru/net/3d-scene/flip-coordinate-system/
 Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующие предварительные условия:
 
 - Базовое понимание языка программирования C#.
-- Установлена библиотека Aspose.3D для .NET. Вы можете скачать его с[здесь](https://releases.aspose.com/3d/net/).
-- Пример 3D-файла в поддерживаемом формате (например, .3ds).
+-  Установлена библиотека Aspose.3D для .NET. Вы можете скачать его с[здесь](https://releases.aspose.com/3d/net/).
+- Пример 3D-файла в поддерживаемом формате (например, .ma).
 
 ## Импортировать пространства имен
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // Путь к входному файлу
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // Инициализировать объект сцены
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
  На этом этапе мы загружаем 3D-сцену по указанному пути к файлу, используя команду`Open` метод.
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
  Теперь мы используем`Save` метод экспорта сцены, переворачивающий при этом систему координат. Вывод сохраняется в формате Wavefront OBJ.

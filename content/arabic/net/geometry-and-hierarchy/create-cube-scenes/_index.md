@@ -1,6 +1,6 @@
 ---
-title: إنشاء مشاهد مكعبة ثلاثية الأبعاد
-linktitle: إنشاء مشاهد مكعبة ثلاثية الأبعاد
+title: خلق مشاهد مكعب
+linktitle: خلق مشاهد مكعب
 second_title: Aspose.3D.NET API
 description: صمم مشاهد مكعبات ثلاثية الأبعاد مذهلة دون عناء باستخدام Aspose.3D لـ .NET. قم بتنزيل المكتبة، واتبع دليلنا خطوة بخطوة، وأطلق العنان.
 type: docs
@@ -87,7 +87,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // المسار إلى دليل المستندات.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
+// حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

@@ -9,7 +9,7 @@ url: /zh-hant/java/rendering-3d-scenes/real-time-rendering-swt/
 ---
 ## 介紹
 
-您準備好將您的 Java 應用程式提升到新的維度了嗎？在本教程中，我們將指導您使用 Aspose.3D for Java 實現即時 3D 渲染。 Aspose.3D 是一個功能強大的函式庫，可讓您將令人驚嘆的 3D 圖形無縫整合到您的 Java 應用程式中。當我們深入研究使用 Aspose.3D 和 SWT（標準控制工具包）進行即時渲染的世界時，請係好安全帶。
+您準備好將您的 Java 應用程式提升到新的維度了嗎？在本教程中，我們將指導您使用 Aspose.3D for Java 實現即時 3D 渲染。 Aspose.3D 是一個功能強大的函式庫，可讓您將令人驚嘆的 3D 圖形無縫整合到您的 Java 應用程式中。當我們深入研究使用 Aspose.3D 和 SWT（標準小工具工具包）進行即時渲染的世界時，請繫好安全帶。
 
 ## 先決條件
 
@@ -107,7 +107,7 @@ A1：是的，Aspose.3D是跨平台的，支援各種作業系統。
 
 A2：當然！ Aspose.3D 與其他 Java 程式庫無縫集成，為您的開發提供靈活性。
 
-### 問題 3：在哪裡可以找到 Java 版 Aspose.3D 的綜合文件？
+### 問題 3：在哪裡可以找到 Java 中 Aspose.3D 的綜合文件？
 
  A3：請參閱[文件](https://reference.aspose.com/3d/java/)了解 Aspose.3D for Java 的詳細見解。
 
@@ -117,4 +117,4 @@ A2：當然！ Aspose.3D 與其他 Java 程式庫無縫集成，為您的開發�
 
 ### Q5：需要幫助或有具體問題嗎？
 
-A5：訪問[Aspose.3D 社群論壇](https://forum.aspose.com/c/3d/18)尋求專家支援。
+ A5：訪問[Aspose.3D 社群論壇](https://forum.aspose.com/c/3d/18)尋求專家支援。

@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## Bước 4: Trỏ nút vào lưới
 
 ```java
-//Điểm nút vào lưới
+// Điểm nút vào lưới
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // Đặt tên tập tin
 MyDir = MyDir + "MaterialToCube.fbx";
-//Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
+// Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

@@ -42,4 +42,4 @@ Fedezze fel a 3D-s jelenetkezelés világát Java nyelven az Aspose.3D segítsé
 ### [Mentse el a 3D hálókat egyéni bináris formátumokba a Java rugalmassága érdekében](./save-custom-mesh-formats/)
 Ismerje meg, hogyan menthet 3D hálókat egyéni bináris formátumokba az Aspose.3D for Java használatával. Növelje a Java alkalmazások rugalmasságát ezzel a lépésenkénti oktatóanyaggal.
 ### [Dolgozzon 3D tulajdonságokkal és egyéni adatokkal a Java jelenetekben az Aspose.3D használatával](./managing-3d-properties-scenes/)
-Javítsa Java-alkalmazásait az Aspose.3D segítségével a zökkenőmentes 3D-s tulajdonságkezelés érdekében. Kövesse oktatóanyagunkat a lépésenkénti útmutatásért.
+Javítsa Java-alkalmazásait az Aspose.3D segítségével a zökkenőmentes 3D tulajdonságkezelés érdekében. Kövesse oktatóanyagunkat a lépésenkénti útmutatásért.

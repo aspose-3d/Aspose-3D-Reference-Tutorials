@@ -16,7 +16,7 @@ Konkatenacja kwaternionów to podstawowa koncepcja grafiki 3D, umożliwiająca p
 Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
 
 - Podstawowa znajomość programowania w języku Java.
--  Zainstalowano Aspose.3D dla Java. Możesz go pobrać[Tutaj](https://releases.aspose.com/3d/java/).
+- Zainstalowano Aspose.3D dla Java. Możesz go pobrać[Tutaj](https://releases.aspose.com/3d/java/).
 
 ## Importuj pakiety
 

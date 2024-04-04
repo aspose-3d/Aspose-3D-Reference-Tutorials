@@ -4,7 +4,7 @@ linktitle: Animation
 second_title: Aspose.3D .NET API
 description: Lås upp en värld av 3D-animation med Aspose.3D för .NET-tutorials. Lär dig att animera egenskaper och ställa in mål och kameror för dynamiska scener utan ansträngning.
 type: docs
-weight: 23
+weight: 30
 url: /sv/net/animation/
 ---
 ## Introduktion
@@ -12,7 +12,7 @@ url: /sv/net/animation/
 Välkommen till den fascinerande sfären av 3D-animation med Aspose.3D för .NET! I den här omfattande guiden kommer vi att utforska två viktiga handledningar som ger dig möjlighet att skapa fängslande och dynamiska 3D-scener. Låt oss ge oss ut på denna spännande resa tillsammans!
 
 ## Animera egenskaper för att dokumentera i 3D-scener
- Är du redo att blåsa liv i dina 3D-skapelser? Vår första handledning,[Animera egenskaper för att dokumentera i 3D-scener](./property-to-document/)är din nyckel till att låsa upp magin i Aspose.3D för .NET. I den här steg-för-steg-guiden går vi igenom processen att animera 3D-egenskaper, så att du kan ingjuta dina scener med dynamisk rörelse och realism.
+Är du redo att blåsa liv i dina 3D-skapelser? Vår första handledning,[Animera egenskaper för att dokumentera i 3D-scener](./property-to-document/), är din nyckel till att låsa upp magin i Aspose.3D för .NET. I den här steg-för-steg-guiden går vi igenom processen att animera 3D-egenskaper, så att du kan ingjuta dina scener med dynamisk rörelse och realism.
 
 ### Varför ska du utforska denna handledning?
 - Enkel animering: Upptäck hur du sömlöst animerar egenskaper, vilket gör dina 3D-modeller till liv med lätthet.

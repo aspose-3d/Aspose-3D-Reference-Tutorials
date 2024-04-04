@@ -1,6 +1,6 @@
 ---
-title: 3B Sahnelerde Küpte Normalleri Ayarlama
-linktitle: 3B Sahnelerde Küpte Normalleri Ayarlama
+title: Cube'da Normalleri Ayarlama
+linktitle: Cube'da Normalleri Ayarlama
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'i kullanarak 3D küpte normalleri ayarlamayı öğrenin. Bu adım adım kılavuzla 3D modelleme becerilerinizi geliştirin.
 type: docs
@@ -11,7 +11,7 @@ url: /tr/net/geometry-and-hierarchy/setup-normals-cube/
 
 Aspose.3D for .NET kullanarak 3D sahnelerde bir küp üzerinde normalleri ayarlamaya ilişkin adım adım kılavuzumuza hoş geldiniz. Aspose.3D, .NET geliştiricilerinin 3D dosyalarla çalışmasına olanak tanıyan, 3D modelleme ve manipülasyon için çok çeşitli işlevler sağlayan güçlü bir kütüphanedir.
 
-Bu eğitimde, Aspose.3D'yi kullanarak 3 boyutlu bir sahnede bir küp üzerinde normalleri ayarlama sürecinde size yol göstereceğiz. Normaller, 3D grafiklerde uygun ışıklandırma ve gölgeleme için çok önemlidir ve bunların nasıl kurulacağını anlamak, gerçekçi ve görsel olarak çekici 3D modeller oluşturmak için temel öneme sahiptir.
+Bu eğitimde, Aspose.3D'yi kullanarak 3 boyutlu bir sahnede bir küp üzerinde normalleri ayarlama sürecinde size yol göstereceğiz. Normaller, 3D grafiklerde uygun ışıklandırma ve gölgeleme için çok önemlidir ve bunların nasıl kurulacağını anlamak, gerçekçi ve görsel olarak çekici 3D modeller oluşturmak için çok önemlidir.
 
 ## Önkoşullar
 

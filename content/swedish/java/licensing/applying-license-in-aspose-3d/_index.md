@@ -22,7 +22,8 @@ Innan vi börjar, se till att du har följande förutsättningar på plats:
 
 För att komma igång, importera nödvändiga paket till ditt Java-projekt. Se till att Aspose.3D läggs till i din klassväg. Här är ett exempel:
 
-```javaimport com.aspose.threed.License;
+```java
+import com.aspose.threed.License;
 import com.aspose.threed.Metered;
 
 import java.io.FileInputStream;

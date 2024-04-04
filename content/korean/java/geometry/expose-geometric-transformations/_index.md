@@ -9,7 +9,7 @@ url: /ko/java/geometry/expose-geometric-transformations/
 ---
 ## 소개
 
-Java 3D 프로그래밍의 역동적인 세계에서 기하학적 변환을 익히는 것은 중요한 기술입니다. Aspose.3D for Java는 개발자가 3D 모델링의 복잡성을 쉽게 탐구할 수 있도록 지원하는 강력한 라이브러리입니다. 이 튜토리얼에서는 Java용 Aspose.3D를 사용하여 기하학적 변환을 노출하고 조작하는 계몽적인 여정을 시작합니다.
+Java 3D 프로그래밍의 역동적인 세계에서 기하학적 변환을 익히는 것은 중요한 기술입니다. Aspose.3D for Java는 개발자가 3D 모델링의 복잡성을 쉽게 탐구할 수 있도록 지원하는 강력한 라이브러리입니다. 이 튜토리얼에서는 Java용 Aspose.3D를 사용하여 기하학적 변환을 노출하고 조작하는 계몽적인 여정을 시작하겠습니다.
 
 ## 전제 조건
 
@@ -85,4 +85,4 @@ A1: Aspose.3D는 JDK를 지원하는 모든 Java 개발 환경과 완벽하게 �
 
 ### Q5: Aspose.3D를 테스트하려면 임시 라이선스가 필요합니까?
 
- A5: 획득[임시면허](https://purchase.aspose.com/temporary-license/) 테스트 목적으로.
+ A5: 획득[임시 면허증](https://purchase.aspose.com/temporary-license/) 테스트 목적으로.

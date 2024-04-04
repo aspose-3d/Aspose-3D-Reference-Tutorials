@@ -16,7 +16,7 @@ Att skapa och manipulera 3D-mesh-data i Java kan vara en utmanande men spännand
 Innan du dyker in i handledningen, se till att du har följande förutsättningar:
 
 - Grundläggande kunskaper i Java-programmering.
--  Aspose.3D för Java installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/java/).
+- Aspose.3D för Java installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/java/).
 - En 3D-fil i 3ds-format. Vi kommer att använda "camera.3ds" som ett exempel.
 
 ## Importera paket

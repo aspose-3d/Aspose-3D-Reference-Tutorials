@@ -70,7 +70,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "CubeScene.fbx";
 
-//Sla 3D-scènes op in de ondersteunde bestandsformaten
+// Sla 3D-scènes op in de ondersteunde bestandsformaten
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
@@ -94,7 +94,7 @@ Gefeliciteerd! U hebt met succes een 3D-kubusscène gemaakt met Aspose.3D voor J
 
  A2: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) voor gemeenschapssteun.
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+### Vraag 3: Is er een gratis proefperiode beschikbaar?
 
  A3: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
 

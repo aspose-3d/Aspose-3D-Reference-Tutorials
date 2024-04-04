@@ -97,4 +97,4 @@ Glückwunsch! Sie haben mit Aspose.3D erfolgreich eine Zielkamera für 3D-Animat
 
 ### F5: Wie kann ich eine temporäre Lizenz erhalten?
 
-A5: Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+ A5: Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).

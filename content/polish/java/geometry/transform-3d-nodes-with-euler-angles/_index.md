@@ -30,7 +30,7 @@ import com.aspose.threed.*;
 ## Krok 1. Zainicjuj scenę i węzeł
 
 ```java
-// ExStart:Dodaj transformację do węzła według kątów Eulera
+// ExStart: Dodaj transformację do węzła według kątów Eulera
 // Zainicjuj obiekt sceny
 Scene scene = new Scene();
 
@@ -72,7 +72,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "TransformationToNode.fbx";
 
-//Zapisz scenę 3D w obsługiwanych formatach plików
+// Zapisz scenę 3D w obsługiwanych formatach plików
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);

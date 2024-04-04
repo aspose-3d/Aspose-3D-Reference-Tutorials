@@ -1,6 +1,6 @@
 ---
-title: Đang tải và lưu - Phát hiện định dạng
-linktitle: Đang tải và lưu - Phát hiện định dạng
+title: Phát hiện định dạng
+linktitle: Phát hiện định dạng
 second_title: API Aspose.3D .NET
 description: Làm chủ thao tác tệp 3D một cách dễ dàng với Aspose.3D cho .NET. Tải, lưu và phát hiện các định dạng một cách liền mạch.
 type: docs
@@ -50,7 +50,7 @@ scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ### Bước 2: Phát hiện định dạng
 
 ```csharp
-//ExStart:Phát hiệnĐịnh dạng
+// ExStart:Phát hiệnĐịnh dạng
 // Phát hiện định dạng của tệp 3D
 FileFormat inputFormat = FileFormat.Detect(RunExamples.GetDataFilePath("document.fbx"));
 // Hiển thị định dạng tập tin
@@ -92,4 +92,4 @@ Câu trả lời 1: Có, Aspose.3D hỗ trợ nhiều định dạng tệp 3D, m
 
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.3D miễn phí trước khi mua không?
 
-A5: Chắc chắn rồi! Tải xuống phiên bản dùng thử miễn phí từ[Bản phát hành Aspose.3D](https://releases.aspose.com/) để trải nghiệm trực tiếp khả năng của nó.
+ A5: Chắc chắn rồi! Tải xuống phiên bản dùng thử miễn phí từ[Bản phát hành Aspose.3D](https://releases.aspose.com/) để trải nghiệm trực tiếp khả năng của nó.

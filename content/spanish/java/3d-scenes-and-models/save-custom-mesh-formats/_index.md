@@ -105,7 +105,7 @@ Siguiendo este tutorial, habrá aprendido cómo utilizar Aspose.3D para Java par
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.3D para Java con otros formatos de modelos 3D?
+### P1: ¿Puedo utilizar Aspose.3D para Java con otros formatos de modelos 3D?
 
 R1: Sí, Aspose.3D admite varios formatos de modelos 3D, lo que brinda flexibilidad en su desarrollo.
 
@@ -115,7 +115,7 @@ R1: Sí, Aspose.3D admite varios formatos de modelos 3D, lo que brinda flexibili
 
 ### P3: ¿Dónde puedo encontrar soporte para Aspose.3D para Java?
 
- A3: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18)para cualquier ayuda o consulta.
+ A3: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para cualquier ayuda o consulta.
 
 ### P4: ¿Hay algún modelo 3D de muestra disponible para probar?
 

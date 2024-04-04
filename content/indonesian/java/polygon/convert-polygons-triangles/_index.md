@@ -83,7 +83,7 @@ A2: Tentu saja, Aspose.3D untuk Java mendukung berbagai format file 3D, memastik
 
 ### Q3: Apakah ada batasan pada versi uji coba gratis Aspose.3D untuk Java?
 
-A3: Versi uji coba gratis memiliki beberapa batasan fitur. Periksalah[dokumentasi](https://reference.aspose.com/3d/java/) untuk detailnya.
+A3: Versi uji coba gratis memiliki beberapa keterbatasan fitur. Periksalah[dokumentasi](https://reference.aspose.com/3d/java/) untuk detailnya.
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.3D untuk pertanyaan terkait Java?
 

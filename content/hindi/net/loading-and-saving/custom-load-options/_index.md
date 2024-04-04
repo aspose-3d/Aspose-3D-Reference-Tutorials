@@ -1,6 +1,6 @@
 ---
-title: लोड करना और सहेजना - कस्टम लोड विकल्प
-linktitle: लोड करना और सहेजना - कस्टम लोड विकल्प
+title: कस्टम लोड विकल्प
+linktitle: कस्टम लोड विकल्प
 second_title: Aspose.3D .NET API
 description: निर्बाध 3D मॉडल लोडिंग और सेविंग के लिए .NET के लिए Aspose.3D का सर्वोत्तम समाधान खोजें।
 type: docs
@@ -41,8 +41,6 @@ using Aspose.ThreeD.Formats;
 ```csharp
 private static void Discreet3DSLoadOption()
 {
-    // दस्तावेज़ निर्देशिका का पथ.
-    string dataDir = "Your Document Directory";
     Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
 
     //कस्टम विकल्प सेट करें
@@ -50,6 +48,9 @@ private static void Discreet3DSLoadOption()
     loadOpts.FlipCoordinateSystem = true;
     loadOpts.GammaCorrectedColor = true;
     loadOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //लोड विकल्पों के साथ फ़ाइल लोड करें
+    var scene = Scene.FromFile("test.3ds", loadOpts);
 }
 ```
 
@@ -58,14 +59,16 @@ private static void Discreet3DSLoadOption()
 ```csharp
 private static void ObjLoadOption()
 {
-    // दस्तावेज़ निर्देशिका का पथ.
-    string dataDir = "Your Document Directory";
     ObjLoadOptions loadObjOpts = new ObjLoadOptions();
 
     //कस्टम विकल्प सेट करें
     loadObjOpts.EnableMaterials = true;
     loadObjOpts.FlipCoordinateSystem = true;
     loadObjOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //लोड विकल्पों के साथ फ़ाइल लोड करें
+    var scene = Scene.FromFile("test.obj", loadObjOpts);
+
 }
 ```
 
@@ -75,12 +78,14 @@ private static void ObjLoadOption()
 private static void STLLoadOption()
 {
     // दस्तावेज़ निर्देशिका का पथ.
-    string dataDir = "Your Document Directory";
     StlLoadOptions loadSTLOpts = new StlLoadOptions();
 
     //कस्टम विकल्प सेट करें
     loadSTLOpts.FlipCoordinateSystem = true;
     loadSTLOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //लोड विकल्पों के साथ फ़ाइल लोड करें
+    var scene = Scene.FromFile("test.stl", loadSTLOpts);
 }
 ```
 
@@ -96,6 +101,9 @@ private static void U3DLoadOption()
     //कस्टम विकल्प सेट करें
     loadU3DOpts.FlipCoordinateSystem = true;
     loadU3DOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //लोड विकल्पों के साथ फ़ाइल लोड करें
+    var scene = Scene.FromFile("test.u3d", loadU3DOpts);
 }
 ```
 
@@ -105,13 +113,12 @@ private static void U3DLoadOption()
 private static void glTFLoadOptions()
 {
     // दस्तावेज़ निर्देशिका का पथ.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     GltfLoadOptions loadOpt = new GltfLoadOptions();
 
     //कस्टम विकल्प सेट करें
     loadOpt.FlipTexCoordV = true;
-    scene.Open(dataDir + "Duck.gltf", loadOpt);
+    scene.Open("Duck.gltf", loadOpt);
 }
 ```
 
@@ -127,7 +134,7 @@ private static void PlyLoadOptions()
 
     //कस्टम विकल्प सेट करें
     loadPLYOpts.FlipCoordinateSystem = true;
-    scene.Open(RunExamples.GetDataFilePath("vase-v2.ply"), loadPLYOpts);
+    scene.Open("vase-v2.ply", loadPLYOpts);
 }
 ```
 
@@ -137,12 +144,11 @@ private static void PlyLoadOptions()
 private static void FBXLoadOptions()
 {
     // दस्तावेज़ निर्देशिका का पथ.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     FbxLoadOptions opt = new FbxLoadOptions() { KeepBuiltinGlobalSettings = true };
 
     //कस्टम विकल्प सेट करें
-    scene.Open(dataDir + "test.FBX", opt);
+    scene.Open("test.FBX", opt);
 
     // एफबीएक्स फ़ाइल में ग्लोबलसेटिंग्स में परिभाषित आउटपुट गुण
     foreach (Property property in scene.RootNode.AssetInfo.Properties)
@@ -176,4 +182,4 @@ A4: हाँ, आप डाउनलोड करके .NET के लिए A
 
 ### Q5: मैं .NET के लिए Aspose.3D के लिए समर्थन कहाँ से प्राप्त कर सकता हूँ?
 
-A5: पर जाएँ[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) सामुदायिक समर्थन और सहायता के लिए।
+ A5: पर जाएँ[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) सामुदायिक समर्थन और सहायता के लिए।

@@ -16,7 +16,7 @@ Crear y manipular datos de malla 3D en Java puede ser una tarea desafiante pero 
 Antes de sumergirse en el tutorial, asegúrese de tener los siguientes requisitos previos:
 
 - Conocimientos básicos de programación Java.
--  Aspose.3D para Java instalado. Puedes descargarlo[aquí](https://releases.aspose.com/3d/java/).
+- Aspose.3D para Java instalado. Puedes descargarlo[aquí](https://releases.aspose.com/3d/java/).
 - Un archivo 3D en formato 3ds. Usaremos "camera.3ds" como ejemplo.
 
 ## Importar paquetes

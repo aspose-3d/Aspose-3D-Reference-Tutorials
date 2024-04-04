@@ -96,7 +96,7 @@ public static void html5SaveOption() throws IOException {
 
 ## Çözüm
 
-Bu kapsamlı eğitimi takip ederek Aspose.3D SaveOptions'ı kullanarak Java'da 3D dosya kaydetmeyi nasıl optimize edeceğinizi öğrendiniz. İster GLTF dosyalarını güzel bir şekilde yazdırmak, ister HTML5 çıktılarını özelleştirmek istiyor olun, Aspose.3D sizi 3D grafik iş akışınızı geliştirecek araçlarla donatır.
+Bu kapsamlı eğitimi takip ederek Aspose.3D SaveOptions'ı kullanarak Java'da 3D dosya kaydetmeyi nasıl optimize edeceğinizi öğrendiniz. İster GLTF dosyalarını güzel bir şekilde yazdırmak ister HTML5 çıktılarını özelleştirmek istiyor olun, Aspose.3D sizi 3D grafik iş akışınızı geliştirecek araçlarla donatır.
 
 ## SSS'ler
 

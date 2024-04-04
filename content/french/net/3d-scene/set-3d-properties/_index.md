@@ -105,7 +105,7 @@ Console.WriteLine(pdiffuse);
 
 ## Étape 6 : Parcourir les propriétés de la propriété
 
- Depuis`Property` est hérité de`A3DObject`, vous pouvez parcourir les propriétés d'une propriété.
+ Depuis`Property` est hérité de`A3DObject`vous pouvez parcourir les propriétés d'une propriété.
 
 ```csharp
 //ExStart : TraversePropertyProperties

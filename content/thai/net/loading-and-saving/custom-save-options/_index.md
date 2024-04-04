@@ -1,8 +1,8 @@
 ---
-title: การโหลดและการบันทึก - ตัวเลือกการบันทึกแบบกำหนดเอง
-linktitle: การโหลดและการบันทึก - ตัวเลือกการบันทึกแบบกำหนดเอง
+title: ตัวเลือกการบันทึกแบบกำหนดเอง
+linktitle: ตัวเลือกการบันทึกแบบกำหนดเอง
 second_title: Aspose.3D .NET API
-description: สำรวจพลังของ Aspose.3D สำหรับ .NET เรียนรู้วิธีปรับแต่งการบันทึกฉาก 3D ของคุณด้วยคำแนะนำทีละขั้นตอนในรูปแบบ Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC และ RVM
+description: สำรวจพลังของ Aspose.3D สำหรับ .NET เรียนรู้วิธีปรับแต่งการบันทึกฉาก 3D ของคุณด้วยคำแนะนำทีละขั้นตอนในรูปแบบ Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC และ RVM
 type: docs
 weight: 21
 url: /th/net/loading-and-saving/custom-save-options/

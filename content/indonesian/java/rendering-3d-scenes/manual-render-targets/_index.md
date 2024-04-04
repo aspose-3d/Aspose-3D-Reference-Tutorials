@@ -9,7 +9,7 @@ url: /id/java/rendering-3d-scenes/manual-render-targets/
 ---
 ## Perkenalan
 
-Apakah Anda siap untuk meningkatkan grafis Java 3D Anda ke level selanjutnya? Aspose.3D untuk Java adalah pintu gerbang Anda untuk membuka potensi penuh dari rendering yang disesuaikan. Dalam tutorial ini, kita akan mempelajari seluk-beluk pengontrolan target render secara manual, memberi Anda alat untuk membuat pemandangan visual menawan yang disesuaikan dengan spesifikasi Anda.
+Apakah Anda siap untuk meningkatkan grafis Java 3D Anda ke level berikutnya? Aspose.3D untuk Java adalah pintu gerbang Anda untuk membuka potensi penuh dari rendering yang disesuaikan. Dalam tutorial ini, kita akan mempelajari seluk-beluk pengontrolan target render secara manual, memberi Anda alat untuk membuat pemandangan visual menawan yang disesuaikan dengan spesifikasi Anda.
 
 ## Prasyarat
 

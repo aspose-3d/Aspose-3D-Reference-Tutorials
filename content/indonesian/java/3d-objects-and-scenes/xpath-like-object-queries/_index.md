@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## Langkah 2: Buat Hirarki Node
 
 ```java
-// ExStart:BuatHierarki
+//ExStart:BuatHierarki
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

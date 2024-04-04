@@ -1,10 +1,10 @@
 ---
-title: 3D-modellering
-linktitle: 3D-modellering
+title: Modellering
+linktitle: Modellering
 second_title: Aspose.3D .NET API
 description: Upptäck konsten att 3D-modellera med Aspose.3D för .NET! Skapa enkelt fängslande primitiva modeller i denna omfattande handledning. Släpp loss din kreativitet idag.
 type: docs
-weight: 20
+weight: 28
 url: /sv/net/3d-modeling/
 ---
 
@@ -16,11 +16,38 @@ Om du någonsin har drömt om att skapa hisnande 3D-modeller, är Aspose.3D för
 
 Ge dig ut på din 3D-modelleringsresa genom att fördjupa dig i de grundläggande aspekterna. Aspose.3D för .NET förenklar den intrikata världen av 3D-modellering, vilket gör den tillgänglig för både nybörjare och erfarna entusiaster. Lär dig om de grundläggande principerna och verktygen som lägger grunden för din kreativa utforskning.
 
-## [Skapa primitiva 3D-modeller](./primitive-3d-models/)
+## Linjär extrudering på 2D-form för att skapa nytt nät
 
-## Skulptera underverk med Aspose.3D
+Aspose.3D möjliggör linjär extrudering av former för att skapa nya maskor, vilket förbättrar geometrisk komplexitet och visuellt djup i 3D-modeller och scener. Den här funktionen tillåter användare att utöka 2D-former längs en specificerad axel och omvandla dem till volymetriska solider med lätthet och precision.
 
- Navigera till[Skapa primitiva 3D-modeller](./primitive-3d-models/) handledning, där vi reder ut magin med skulptering med Aspose.3D för .NET. Fördjupa dig i en steg-för-steg-guide, så att du enkelt kan forma primitiva modeller som fängslar ögat. Från grundläggande former till intrikata mönster, den här handledningen täcker allt.
+[Läs handledningen: Linjär extrudering](./linear-extrusion/)
+
+## Skapa primitiva 3D-modeller
+
+ Navigera till[Skapa primitiva 3D-modeller](./primitive-3d-models/)handledning, där vi reder ut magin med skulptering med Aspose.3D för .NET. Fördjupa dig i en steg-för-steg-guide, så att du enkelt kan forma primitiva modeller som fängslar ögat. Från grundläggande former till intrikata mönster, den här handledningen täcker allt.
+
+[Läs handledningen: Skapa primitiva 3D-modeller](./primitive-3d-models/)
+
+## Ändra planorientering i 3D-scener
+
+Ge dig ut på en resa för att bemästra konsten att ändra planorientering i 3D-scener med Aspose.3D för .NET. Vår omfattande guide tar dig genom varje steg och säkerställer sömlös integration i dina projekt. Släpp lös potentialen i dina 3D-scener med nyfunnen kontroll.
+
+[Läs handledningen: Ändra planorientering i 3D-scener](./change-plane-orientation/)
+
+## Ändra planorientering i 3D-scener
+
+Ge dig ut på en resa för att bemästra konsten att ändra planorientering i 3D-scener med Aspose.3D för .NET. Vår omfattande guide tar dig genom varje steg och säkerställer sömlös integration i dina projekt. Släpp lös potentialen i dina 3D-scener med nyfunnen kontroll.
+
+[Läs handledningen: Ändra planorientering i 3D-scener](./change-plane-orientation/)
+
+
+## Arbeta med cylinder
+
+Aspose.3D underlättar skapandet av parametriska 3D-geometricylindrar, vilket gör det möjligt för användare att generera maskor utan ansträngning. Med den här funktionen kan användare definiera cylindrar med specificerade dimensioner och egenskaper, sömlöst integrera dem i sina 3D-modeller och scener för förbättrad realism och detaljer.
+
+[Läs handledningen: Arbeta med cylinder](./working-with-cylinder/)
+
+
 
 ### Dyk ner i grunderna
 
@@ -36,7 +63,7 @@ Det fina med 3D-modellering ligger i friheten att släppa loss din kreativitet. 
 
 ## Lyft dina färdigheter idag!
 
-Aspose.3D för .NET Tutorials Lista är inte bara en guide; det är en inbjudan att utforska de obegränsade möjligheterna med 3D-modellering. Dyk ner i[Skapa primitiva 3D-modeller](./primitive-3d-models/) handledning och skulptera underverk som överskrider fantasins gränser. Släpp lös artisten i dig – börja din resa nu!
+ Aspose.3D för .NET Tutorials Lista är inte bara en guide; det är en inbjudan att utforska de obegränsade möjligheterna med 3D-modellering. Dyk ner i[Skapa primitiva 3D-modeller](./primitive-3d-models/) handledning och skulptera underverk som överskrider fantasins gränser. Släpp lös artisten i dig – börja din resa nu!
 ## Handledning för 3D-modellering
 ### [Skapa primitiva 3D-modeller](./primitive-3d-models/)
 Utforska världen av 3D-modellering med Aspose.3D för .NET. Skapa fantastiska primitiva modeller utan ansträngning.

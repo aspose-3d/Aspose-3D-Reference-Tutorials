@@ -15,7 +15,7 @@ url: /el/java/cylinders/creating-fan-cylinders/
 
 Πριν ξεκινήσουμε το σεμινάριο, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 
--  Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK στο σύστημά σας. Μπορείτε να το κατεβάσετε[εδώ](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Βεβαιωθείτε ότι έχετε εγκαταστήσει το JDK στο σύστημά σας. Μπορείτε να το κατεβάσετε[εδώ](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 -  Aspose.3D για Java: Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη Aspose.3D για Java από το[σύνδεσμος λήψης](https://releases.aspose.com/3d/java/).
 

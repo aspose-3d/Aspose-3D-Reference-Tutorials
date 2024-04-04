@@ -10,7 +10,7 @@ url: /cs/java/transforming-3d-meshes/
 
 ## Úvod
 
-Vydejte se na fascinující cestu do světa 3D grafiky s Aspose.3D pro Javu. V této obsáhlé sérii výukových programů vás provedeme procesem vytváření a transformace 3D sítí a odemkneme plný potenciál této výkonné Java knihovny.
+Vydejte se na fascinující cestu do světa 3D grafiky s Aspose.3D pro Javu. V této obsáhlé sérii výukových programů vás provedeme procesem vytváření a transformace 3D sítí a odemkneme plný potenciál této výkonné knihovny Java.
 
 ## Ponořte se do mnohoúhelníků 
 [Vytvářejte polygony ve 3D sítích pomocí Aspose.3D](./create-polygons-in-meshes/)

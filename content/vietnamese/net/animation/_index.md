@@ -4,7 +4,7 @@ linktitle: Hoạt hình
 second_title: API Aspose.3D .NET
 description: Mở khóa thế giới hoạt hình 3D với hướng dẫn Aspose.3D for .NET. Tìm hiểu cách tạo hoạt ảnh cho các thuộc tính cũng như thiết lập mục tiêu và camera cho các cảnh động một cách dễ dàng.
 type: docs
-weight: 23
+weight: 30
 url: /vi/net/animation/
 ---
 ## Giới thiệu
@@ -12,7 +12,7 @@ url: /vi/net/animation/
 Chào mừng bạn đến với thế giới hoạt hình 3D hấp dẫn với Aspose.3D cho .NET! Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá hai hướng dẫn cần thiết sẽ giúp bạn tạo ra những cảnh 3D sống động và quyến rũ. Hãy cùng nhau bắt đầu cuộc hành trình thú vị này nhé!
 
 ## Thuộc tính hoạt hình cho tài liệu trong cảnh 3D
- Bạn đã sẵn sàng thổi sức sống vào tác phẩm 3D của mình chưa? Hướng dẫn đầu tiên của chúng tôi,[Thuộc tính hoạt hình cho tài liệu trong cảnh 3D](./property-to-document/)là chìa khóa để bạn khám phá sự kỳ diệu của Aspose.3D dành cho .NET. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình tạo hoạt ảnh cho các thuộc tính 3D, cho phép bạn truyền tải các cảnh của mình bằng chuyển động động và hiện thực.
+Bạn đã sẵn sàng thổi sức sống vào tác phẩm 3D của mình chưa? Hướng dẫn đầu tiên của chúng tôi,[Thuộc tính hoạt hình cho tài liệu trong cảnh 3D](./property-to-document/), là chìa khóa để bạn khám phá sự kỳ diệu của Aspose.3D dành cho .NET. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình tạo hoạt ảnh cho các thuộc tính 3D, cho phép bạn truyền tải các cảnh của mình bằng chuyển động động và hiện thực.
 
 ### Tại sao bạn nên khám phá hướng dẫn này?
 - Hoạt hình dễ dàng: Khám phá cách tạo hoạt ảnh liền mạch cho các thuộc tính, làm cho mô hình 3D của bạn trở nên sống động một cách dễ dàng.

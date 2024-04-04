@@ -1,8 +1,8 @@
 ---
-title: Φόρτωση και αποθήκευση - Προσαρμοσμένες επιλογές αποθήκευσης
-linktitle: Φόρτωση και αποθήκευση - Προσαρμοσμένες επιλογές αποθήκευσης
+title: Προσαρμοσμένες επιλογές αποθήκευσης
+linktitle: Προσαρμοσμένες επιλογές αποθήκευσης
 second_title: Aspose.3D .NET API
-description: Εξερευνήστε τη δύναμη του Aspose.3D για .NET. Μάθετε πώς να προσαρμόζετε την αποθήκευση 3D σκηνής με οδηγούς βήμα προς βήμα σε μορφές Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC και RVM.
+description: Εξερευνήστε τη δύναμη του Aspose.3D για .NET. Μάθετε πώς να προσαρμόζετε την εξοικονόμηση 3D σκηνής με οδηγούς βήμα προς βήμα σε μορφές Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC και RVM.
 type: docs
 weight: 21
 url: /el/net/loading-and-saving/custom-save-options/

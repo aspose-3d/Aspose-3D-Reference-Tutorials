@@ -1,6 +1,6 @@
 ---
-title: Anwenden von Material auf Würfel in 3D-Szenen
-linktitle: Anwenden von Material auf Würfel in 3D-Szenen
+title: Auftragen von Material auf den Würfel
+linktitle: Auftragen von Material auf den Würfel
 second_title: Aspose.3D .NET API
 description: Entdecken Sie Aspose.3D für .NET, Ihr Tor zur nahtlosen 3D-Grafikbearbeitung. Wenden Sie Materialien mühelos an, verbessern Sie den Realismus und werten Sie Ihre Projekte auf.
 type: docs
@@ -9,7 +9,7 @@ url: /de/net/geometry-and-hierarchy/material-to-cube/
 ---
 ## Einführung
 
-Willkommen in der faszinierenden Welt der 3D-Grafikbearbeitung mit Aspose.3D für .NET! In diesem Tutorial befassen wir uns mit dem Prozess des Anwendens von Materialien auf einen Würfel in Ihren 3D-Szenen und verleihen Ihren Kreationen ein ganz neues Maß an Realismus und visueller Attraktivität.
+Willkommen in der faszinierenden Welt der 3D-Grafikbearbeitung mit Aspose.3D für .NET! In diesem Tutorial befassen wir uns mit dem Prozess des Anwendens von Materialien auf einen Würfel in Ihren 3D-Szenen und verleihen Ihren Kreationen ein völlig neues Maß an Realismus und visueller Attraktivität.
 
 ## Voraussetzungen
 
@@ -42,17 +42,12 @@ using System.IO;
 // Szenenobjekt initialisieren
 Scene scene = new Scene();
 
-// Cube-Knotenobjekt initialisieren
-Node cubeNode = new Node("cube");
+// Erstellen Sie eine Box-Instanz.
+var box = new Box();
 
-// Rufen Sie die allgemeine Klasse „Erstellen Sie ein Netz mithilfe der Polygon-Builder-Methode“ auf, um eine Netzinstanz festzulegen
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+// Box-Instanz an Szene anhängen
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//Zeigen Sie den Knoten auf das Netz
-cubeNode.Entity = mesh;
-
-// Fügen Sie der Szene einen Würfel hinzu
-scene.RootNode.ChildNodes.Add(cubeNode);
 // ExEnd:InitializeSceneAndCube
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 // Legen Sie den lokalen Dateipfad für die Textur fest
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 // Legen Sie die Textur des Materials fest
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,8 +77,8 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 // Binärinhalt festlegen
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-//ExEnd:EmbedRawContentData
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
+// ExEnd:EmbedRawContentData
 ```
 
 ## Schritt 4: Materialeigenschaften festlegen
@@ -105,11 +100,11 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart:Save3DScene
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
-//Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
-scene.Save(output, FileFormat.FBX7400ASCII);
-// ExEnd:Save3DScene
+// Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
+scene.Save(output);
+//ExEnd:Save3DScene
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
 ```
@@ -140,4 +135,4 @@ A3: Ja, Aspose.3D bietet umfassende Unterstützung für die Erstellung und Bearb
 
 ### F5: Wie kann ich bei Problemen oder Fragen Unterstützung erhalten?
 
-A5: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) um mit der Community in Kontakt zu treten und Hilfe zu suchen.
+ A5: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) um mit der Community in Kontakt zu treten und Hilfe zu suchen.

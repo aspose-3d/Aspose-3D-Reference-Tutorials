@@ -2,21 +2,21 @@
 title: Dolgozzon 3D tulajdonságokkal és egyéni adatokkal a Java jelenetekben az Aspose.3D használatával
 linktitle: Dolgozzon 3D tulajdonságokkal és egyéni adatokkal a Java jelenetekben az Aspose.3D használatával
 second_title: Aspose.3D Java API
-description: Javítsa Java-alkalmazásait az Aspose.3D segítségével a zökkenőmentes 3D-s tulajdonságkezelés érdekében. Kövesse oktatóanyagunkat a lépésenkénti útmutatásért.
+description: Javítsa Java-alkalmazásait az Aspose.3D segítségével a zökkenőmentes 3D tulajdonságkezelés érdekében. Kövesse oktatóanyagunkat a lépésenkénti útmutatásért.
 type: docs
 weight: 14
 url: /hu/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
 ## Bevezetés
 
-Üdvözöljük az Aspose.3D használatával a 3D tulajdonságokkal és egyéni adatokkal kapcsolatos Java-jelenetekben való munkavégzésről szóló átfogó útmutatóban. Ebben az oktatóanyagban az Aspose.3D hatékony szolgáltatásaival foglalkozunk, lépésről lépésre útmutatást adva a Java-alkalmazásokon belüli 3D-tulajdonságok kezeléséhez.
+Üdvözöljük az átfogó útmutatóban a 3D tulajdonságokkal és egyéni adatokkal való munkavégzésről Java jelenetekben az Aspose.3D használatával. Ebben az oktatóanyagban az Aspose.3D hatékony funkcióival foglalkozunk, lépésről lépésre útmutatást adva a Java-alkalmazásokon belüli 3D-tulajdonságok kezeléséhez.
 
 ## Előfeltételek
 
 Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
 - Java Development Kit (JDK) telepítve a gépére.
-- Az Aspose.3D könyvtár letöltve és beállítva. Letöltheti a[Aspose honlapja](https://releases.aspose.com/3d/java/).
+-  Az Aspose.3D könyvtár letöltve és beállítva. Letöltheti a[Aspose honlapja](https://releases.aspose.com/3d/java/).
 - Alapvető ismeretek a Java programozásról.
 
 ## Csomagok importálása
@@ -107,7 +107,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan kell 3D tulajdonságokkal és egyéni
 
 ### 1. kérdés: Hogyan telepíthetem az Aspose.3D könyvtárat a Java projektembe?
 
- V1: A könyvtárat letöltheti a[Aspose honlapja](https://releases.aspose.com/3d/java/)és kövesse a dokumentációban található telepítési utasításokat.
+ V1: A könyvtárat letöltheti a[Aspose honlapja](https://releases.aspose.com/3d/java/) és kövesse a dokumentációban található telepítési utasításokat.
 
 ### 2. kérdés: Vannak ingyenes próbaverziók az Aspose.3D számára?
 
@@ -119,7 +119,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan kell 3D tulajdonságokkal és egyéni
 
 ### 4. kérdés: Létezik-e az Aspose.3D támogatási fóruma, ahol kérdéseket tehetek fel és segítséget kérhetek?
 
- A4: Igen, látogassa meg a[Aspose.3D támogatási fórum](https://forum.aspose.com/c/3d/18) kapcsolatba lépni a közösséggel, és segítséget kérni szakértőktől.
+A4: Igen, látogassa meg a[Aspose.3D támogatási fórum](https://forum.aspose.com/c/3d/18) kapcsolatba lépni a közösséggel, és segítséget kérni szakértőktől.
 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?
 

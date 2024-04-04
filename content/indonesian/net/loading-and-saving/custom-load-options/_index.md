@@ -1,6 +1,6 @@
 ---
-title: Memuat dan Menyimpan - Opsi Pemuatan Khusus
-linktitle: Memuat dan Menyimpan - Opsi Pemuatan Khusus
+title: Opsi Pemuatan Khusus
+linktitle: Opsi Pemuatan Khusus
 second_title: Aspose.3D .NET API
 description: Jelajahi Aspose.3D untuk .NET, solusi terbaik untuk pemuatan dan penyimpanan model 3D yang lancar.
 type: docs
@@ -41,8 +41,6 @@ using Aspose.ThreeD.Formats;
 ```csharp
 private static void Discreet3DSLoadOption()
 {
-    // Jalur ke direktori dokumen.
-    string dataDir = "Your Document Directory";
     Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
 
     //Tetapkan opsi khusus
@@ -50,6 +48,9 @@ private static void Discreet3DSLoadOption()
     loadOpts.FlipCoordinateSystem = true;
     loadOpts.GammaCorrectedColor = true;
     loadOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Muat file dengan opsi memuat
+    var scene = Scene.FromFile("test.3ds", loadOpts);
 }
 ```
 
@@ -58,14 +59,16 @@ private static void Discreet3DSLoadOption()
 ```csharp
 private static void ObjLoadOption()
 {
-    // Jalur ke direktori dokumen.
-    string dataDir = "Your Document Directory";
     ObjLoadOptions loadObjOpts = new ObjLoadOptions();
 
     //Tetapkan opsi khusus
     loadObjOpts.EnableMaterials = true;
     loadObjOpts.FlipCoordinateSystem = true;
     loadObjOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Muat file dengan opsi memuat
+    var scene = Scene.FromFile("test.obj", loadObjOpts);
+
 }
 ```
 
@@ -75,12 +78,14 @@ private static void ObjLoadOption()
 private static void STLLoadOption()
 {
     // Jalur ke direktori dokumen.
-    string dataDir = "Your Document Directory";
     StlLoadOptions loadSTLOpts = new StlLoadOptions();
 
     //Tetapkan opsi khusus
     loadSTLOpts.FlipCoordinateSystem = true;
     loadSTLOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Muat file dengan opsi memuat
+    var scene = Scene.FromFile("test.stl", loadSTLOpts);
 }
 ```
 
@@ -96,6 +101,9 @@ private static void U3DLoadOption()
     //Tetapkan opsi khusus
     loadU3DOpts.FlipCoordinateSystem = true;
     loadU3DOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Muat file dengan opsi memuat
+    var scene = Scene.FromFile("test.u3d", loadU3DOpts);
 }
 ```
 
@@ -105,13 +113,12 @@ private static void U3DLoadOption()
 private static void glTFLoadOptions()
 {
     // Jalur ke direktori dokumen.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     GltfLoadOptions loadOpt = new GltfLoadOptions();
 
     //Tetapkan opsi khusus
     loadOpt.FlipTexCoordV = true;
-    scene.Open(dataDir + "Duck.gltf", loadOpt);
+    scene.Open("Duck.gltf", loadOpt);
 }
 ```
 
@@ -127,7 +134,7 @@ private static void PlyLoadOptions()
 
     //Tetapkan opsi khusus
     loadPLYOpts.FlipCoordinateSystem = true;
-    scene.Open(RunExamples.GetDataFilePath("vase-v2.ply"), loadPLYOpts);
+    scene.Open("vase-v2.ply", loadPLYOpts);
 }
 ```
 
@@ -137,12 +144,11 @@ private static void PlyLoadOptions()
 private static void FBXLoadOptions()
 {
     // Jalur ke direktori dokumen.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     FbxLoadOptions opt = new FbxLoadOptions() { KeepBuiltinGlobalSettings = true };
 
     //Tetapkan opsi khusus
-    scene.Open(dataDir + "test.FBX", opt);
+    scene.Open("test.FBX", opt);
 
     // Properti keluaran ditentukan dalam GlobalSettings di file FBX
     foreach (Property property in scene.RootNode.AssetInfo.Properties)
@@ -176,4 +182,4 @@ A4: Ya, Anda dapat menjelajahi kemampuan Aspose.3D untuk .NET dengan mengunduh[u
 
 ### Q5: Di mana saya dapat mencari dukungan untuk Aspose.3D untuk .NET?
 
-A5: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan dan bantuan masyarakat.
+ A5: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan dan bantuan masyarakat.

@@ -37,7 +37,7 @@ import examples.geometry.Common;
 Scene scene = new Scene();
 ```
 
-## 2단계: Polygon Builder를 사용하여 메시 생성
+## 2단계: Polygon Builder를 사용하여 메쉬 생성
 
 ```java
 // Common 클래스를 호출하여 폴리곤 빌더 방법을 사용하여 메쉬를 생성하여 메쉬 인스턴스를 설정합니다.
@@ -54,7 +54,7 @@ Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ## 4단계: 번역 속성 찾기
 
 ```java
-// 노드의 변환 객체에서 변환 속성 찾기
+//노드의 변환 객체에서 변환 속성 찾기
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
@@ -71,7 +71,7 @@ BindPoint bindPoint = new BindPoint(scene, translation);
 // 배율의 X 구성 요소에 애니메이션 곡선을 만듭니다.
 KeyframeSequence kfs = new KeyframeSequence();
 
-// X 구성 요소에 대한 키프레임 추가
+// X 구성요소에 대한 키프레임 추가
 kfs.add(0, 10.0f, Interpolation.BEZIER);
 kfs.add(3, 20.0f, Interpolation.BEZIER);
 kfs.add(5, 30.0f, Interpolation.LINEAR);
@@ -99,7 +99,7 @@ bindPoint.bindKeyframeSequence("Z", kfs);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "PropertyToDocument.fbx";
 
-//지원되는 파일 형식으로 3D 장면 저장
+// 지원되는 파일 형식으로 3D 장면 저장
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
@@ -119,11 +119,11 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 
 ### Q3: Aspose.3D에 대한 지원은 어디서 찾을 수 있나요?
 
- A3: 다음 커뮤니티에 가입하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 도움을 위해.
+A3: 다음 커뮤니티에 가입하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 도움을 위해.
 
 ### Q4: 임시 라이센스는 어떻게 얻을 수 있나요?
 
- A4:[임시면허](https://purchase.aspose.com/temporary-license/) 평가 기간 동안
+ A4:[임시 면허증](https://purchase.aspose.com/temporary-license/) 평가 기간 동안
 
 ### Q5: 더 많은 튜토리얼이 있나요?
 

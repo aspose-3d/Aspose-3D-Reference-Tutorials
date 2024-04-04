@@ -23,7 +23,7 @@ Voordat we ons verdiepen in de how-to, moeten we eerst begrijpen waarom het toep
 
 ### Stapsgewijze handleiding
 
-U hoeft niet alleen door de complexiteiten te navigeren; wij hebben een stapsgewijze handleiding voor u klaar staan. Volg onze gedetailleerde instructies om de licentie moeiteloos toe te passen en optimaal gebruik te maken van de functies van Aspose.3D. Van het verkrijgen van het licentiebestand tot het integreren ervan in uw Java-project, elke stap wordt voor uw gemak toegelicht.
+U hoeft niet alleen door de complexiteiten te navigeren; wij hebben een stapsgewijze handleiding voor u klaarstaan. Volg onze gedetailleerde instructies om de licentie moeiteloos toe te passen en optimaal gebruik te maken van de functies van Aspose.3D. Van het verkrijgen van het licentiebestand tot het integreren ervan in uw Java-project, elke stap wordt voor uw gemak toegelicht.
 
 ### Naadloze integratie
 

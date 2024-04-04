@@ -16,7 +16,7 @@ Vítejte v našem podrobném průvodci o vylepšení umístění 3D scény v Jav
 Než se vydáme na tuto cestu, ujistěte se, že máte splněny následující předpoklady:
 
 - Základní znalost programování v Javě.
--  Nainstalovaný Aspose.3D for Java. Můžete si jej stáhnout[tady](https://releases.aspose.com/3d/java/).
+- Nainstalovaný Aspose.3D for Java. Můžete si jej stáhnout[tady](https://releases.aspose.com/3d/java/).
 - Vývojové prostředí připravené pro Java kódování.
 
 ## Importujte balíčky
@@ -101,7 +101,7 @@ Odpověď 1: Ano, Aspose.3D podporuje různé programovací jazyky, včetně Jav
 
 ### Q2: Je k dispozici bezplatná zkušební verze pro Aspose.3D?
 
-A2: Určitě! Funkce Aspose.3D můžete prozkoumat přístupem k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+ A2: Určitě! Funkce Aspose.3D můžete prozkoumat přístupem k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
 
 ### Q3: Kde najdu podporu pro Aspose.3D?
 

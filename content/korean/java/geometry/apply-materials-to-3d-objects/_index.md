@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## 4단계: 노드를 메시에 지정
 
 ```java
-//노드를 메쉬로 가리킵니다.
+// 노드를 메쉬로 가리킵니다.
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // 파일 이름 설정
 MyDir = MyDir + "MaterialToCube.fbx";
-//지원되는 파일 형식으로 3D 장면 저장
+// 지원되는 파일 형식으로 3D 장면 저장
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
@@ -156,7 +156,7 @@ A1: 예, Aspose.3D를 사용하면 향상된 사용자 정의를 위해 3D 개�
 
 ### Q3: Aspose.3D for Java에 임시 라이선스를 사용할 수 있나요?
 
- A3: 그렇습니다.[임시면허](https://purchase.aspose.com/temporary-license/) 평가 목적으로.
+ A3: 그렇습니다.[임시 면허증](https://purchase.aspose.com/temporary-license/) 평가 목적으로.
 
 ### Q4: Aspose.3D에 대한 지원은 어디서 찾을 수 있나요?
 

@@ -1,6 +1,6 @@
 ---
-title: Trasformazione del nodo tramite quaternione in scene 3D
-linktitle: Trasformazione del nodo tramite quaternione in scene 3D
+title: Trasformazione del nodo per quaternione
+linktitle: Trasformazione del nodo per quaternione
 second_title: API Aspose.3D .NET
 description: Impara a trasformare i nodi 3D con quaternioni utilizzando Aspose.3D per .NET. Guida passo passo per principianti.
 type: docs
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Il percorso della directory dei documenti.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//Salva la scena 3D nei formati di file supportati
+// Salva la scena 3D nei formati di file supportati
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## Conclusione
 
-Congratulazioni! Hai imparato con successo come trasformare un nodo tramite quaternione in scene 3D utilizzando Aspose.3D per .NET. Esplora ulteriori funzionalità e possibilità facendo riferimento a[documentazione](https://reference.aspose.com/3d/net/).
+ Congratulazioni! Hai imparato con successo come trasformare un nodo tramite quaternione in scene 3D utilizzando Aspose.3D per .NET. Esplora ulteriori funzionalità e possibilità facendo riferimento a[documentazione](https://reference.aspose.com/3d/net/).
 
 ## Domande frequenti
 

@@ -1,6 +1,6 @@
 ---
-title: Làm việc với dữ liệu hình học lưới trong cảnh 3D
-linktitle: Làm việc với dữ liệu hình học lưới trong cảnh 3D
+title: Làm việc với dữ liệu hình học lưới
+linktitle: Làm việc với dữ liệu hình học lưới
 second_title: API Aspose.3D .NET
 description: Nắm vững nghệ thuật lập trình đồ họa 3D với Aspose.3D cho .NET. Tạo, thao tác và lưu các cảnh 3D tuyệt đẹp một cách dễ dàng.
 type: docs
@@ -17,7 +17,7 @@ Trước khi chúng ta bắt tay vào hành trình 3D này, hãy đảm bảo b�
 
 - Kiến thức làm việc về lập trình C# và .NET.
 - Visual Studio được cài đặt trên máy của bạn.
--  Thư viện Aspose.3D cho .NET mà bạn có thể tải xuống[đây](https://releases.aspose.com/3d/net/).
+- Thư viện Aspose.3D cho .NET mà bạn có thể tải xuống[đây](https://releases.aspose.com/3d/net/).
 
 Bây giờ bạn đã sẵn sàng, hãy bước vào thế giới hấp dẫn của lập trình đồ họa 3D!
 
@@ -95,7 +95,7 @@ Tạo lưới bằng phương pháp xây dựng đa giác và áp dụng màu s�
 // Đường dẫn đến thư mục tài liệu.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
+// Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

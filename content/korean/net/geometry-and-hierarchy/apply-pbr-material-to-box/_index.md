@@ -1,6 +1,6 @@
 ---
-title: 3D 장면의 상자에 PBR 재질 적용
-linktitle: 3D 장면의 상자에 PBR 재질 적용
+title: 상자에 PBR 재질 적용
+linktitle: 상자에 PBR 재질 적용
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 그래픽의 세계를 탐험해보세요. 물리 기반 렌더링 자료를 사용하여 몰입형 장면을 쉽게 만들 수 있습니다.
 type: docs
@@ -21,7 +21,7 @@ url: /ko/net/geometry-and-hierarchy/apply-pbr-material-to-box/
 
 ### 라이센스 취득
 
- Aspose.3D의 잠재력을 최대한 활용하려면 유효한 라이센스를 얻으십시오. 임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 또는 정식 라이센스를 구매하세요[여기](https://purchase.aspose.com/buy).
+Aspose.3D의 잠재력을 최대한 활용하려면 유효한 라이센스를 얻으십시오. 임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 또는 정식 라이센스를 구매하세요[여기](https://purchase.aspose.com/buy).
 
 ## 네임스페이스 가져오기
 
@@ -104,7 +104,7 @@ A2: 물론이죠! Aspose.3D는 애플리케이션에 원활하게 통합할 수 
 
 ### Q3: 평가판을 사용할 수 있나요?
 
-A3: 예, 무료 평가판을 다운로드하여 Aspose.3D의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+ A3: 예, 무료 평가판을 다운로드하여 Aspose.3D의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q4: 커뮤니티 지원과 토론은 어디서 찾을 수 있나요?
 

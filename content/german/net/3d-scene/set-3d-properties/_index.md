@@ -19,7 +19,7 @@ Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden 
 
 - Dokumentenverzeichnis: Erstellen Sie ein Verzeichnis zum Speichern Ihrer 3D-Dokumente.
 
-Da Sie nun über die wesentlichen Grundlagen verfügen, wollen wir uns mit dem Festlegen dreidimensionaler Eigenschaften in 3D-Szenen mithilfe von Aspose.3D für .NET befassen.
+Da Sie nun über die Grundlagen verfügen, wollen wir uns mit dem Prozess des Festlegens dreidimensionaler Eigenschaften in 3D-Szenen mithilfe von Aspose.3D für .NET befassen.
 
 ## Namespaces importieren
 

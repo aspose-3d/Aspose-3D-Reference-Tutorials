@@ -16,7 +16,7 @@ Aspose.3D kullanarak Java'da 3D sahne konumlandırmayı geliştirmeye yönelik a
 Bu yolculuğa çıkmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
 - Java programlamanın temel anlayışı.
--  Aspose.3D for Java yüklü. İndirebilirsin[Burada](https://releases.aspose.com/3d/java/).
+- Aspose.3D for Java yüklü. İndirebilirsin[Burada](https://releases.aspose.com/3d/java/).
 - Java kodlamaya hazır bir geliştirme ortamı.
 
 ## Paketleri İçe Aktar
@@ -101,7 +101,7 @@ Cevap1: Evet, Aspose.3D, Java, .NET ve daha fazlası dahil olmak üzere çeşitl
 
 ### S2: Aspose.3D'nin ücretsiz deneme sürümü mevcut mu?
 
-A2: Kesinlikle! Ücretsiz deneme sürümüne erişerek Aspose.3D'nin özelliklerini keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+ A2: Kesinlikle! Ücretsiz deneme sürümüne erişerek Aspose.3D'nin özelliklerini keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S3: Aspose.3D desteğini nerede bulabilirim?
 

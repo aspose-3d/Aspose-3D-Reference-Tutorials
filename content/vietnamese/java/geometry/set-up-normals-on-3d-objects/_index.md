@@ -90,4 +90,4 @@ Câu trả lời 1: Có, Aspose.3D có thể được tích hợp với các th�
 
 ### Q5: Cần hỗ trợ hoặc muốn thảo luận với cộng đồng?
 
-A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để được hỗ trợ và thảo luận.
+ A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để được hỗ trợ và thảo luận.

@@ -11,7 +11,7 @@ url: /ko/net/rendering/render-panorama-view/
 매력적인 3D 장면을 생성하고 이를 파노라마 뷰로 렌더링하는 것은 현대 애플리케이션의 필수적인 측면이 되었습니다. .NET용 Aspose.3D는 3D 렌더링 기능을 프로젝트에 원활하게 통합하려는 개발자에게 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 .NET용 Aspose.3D를 사용하여 3D 장면의 파노라마 보기를 렌더링하는 프로세스를 살펴보겠습니다.
 ## 전제 조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
--  .NET용 Aspose.3D: Aspose.3D 라이브러리를 다운로드하고 설치하세요. 라이브러리와 문서를 찾을 수 있습니다[여기](https://releases.aspose.com/3d/net/).
+-  .NET용 Aspose.3D: Aspose.3D 라이브러리를 다운로드하고 설치합니다. 라이브러리와 문서를 찾을 수 있습니다[여기](https://releases.aspose.com/3d/net/).
 - .NET 개발 환경: 컴퓨터에 작동하는 .NET 개발 환경이 설정되어 있는지 확인하세요.
 - 샘플 3D 장면: 파노라마 보기 렌더링에 사용할 "VirtualCity.glb"와 같은 샘플 3D 장면 파일을 다운로드합니다.
 ## 네임스페이스 가져오기
@@ -69,7 +69,7 @@ PostProcessing equirectangular = renderer.GetPostProcessing("equirectangular");
 equirectangular.Input = rt.Targets[0];
 renderer.Execute(equirectangular, final);
 ```
-정방형 투영 후처리를 적용하여 파노라마 보기를 생성합니다.
+정방형 투영 후처리를 적용하여 파노라마 뷰를 생성합니다.
 ## 6단계: 렌더링된 파노라마 저장
 ```csharp
 ((ITexture2D)final.Targets[0]).Save("Your Output Directory" + "panorama.png", ImageFormat.Png);

@@ -93,7 +93,7 @@ Odpověď 1: Ano, Aspose.3D je kompatibilní s různými vývojovými prostřed�
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
 
 ### Q4: Kde najdu podporu pro Aspose.3D?
 

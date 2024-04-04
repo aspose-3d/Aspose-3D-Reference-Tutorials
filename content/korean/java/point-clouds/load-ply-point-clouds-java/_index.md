@@ -70,7 +70,7 @@ Geometry geom = FileFormat.PLY.decode("Your Document Directory" + "sphere.ply");
 
 ## FAQ
 
-### Q1: 상용 프로젝트에서 Java용 Aspose.3D를 사용할 수 있나요?
+### Q1: 상용 프로젝트에서 Java용 Aspose.3D를 사용할 수 있습니까?
 
  A1: 네, 가능합니다. 상업적인 용도로 사용하려면 라이선스 취득을 고려하세요.[여기](https://purchase.aspose.com/buy).
 

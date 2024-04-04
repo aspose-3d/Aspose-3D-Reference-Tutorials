@@ -88,13 +88,13 @@ scene.save(MyDir + "test.amf", opt);
 
 A1：是的，Aspose.3D for Java 可以滿足不同專業程度的開發人員的需求。
 
-### Q2：我可以將Aspose.3D for Java 用於商業專案嗎？
+### Q2：我可以將Aspose.3D for Java用於商業專案嗎？
 
  A2：當然。參觀[購買頁面](https://purchase.aspose.com/buy)探索許可證選項。
 
 ### Q3：有免費試用選項嗎？
 
- A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
+A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
 
 ### Q4：哪裡可以找到 Aspose.3D for Java 的支援？
 

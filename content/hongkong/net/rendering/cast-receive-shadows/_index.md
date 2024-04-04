@@ -44,7 +44,7 @@ scene.RootNode.CreateChildNode("light", light = new Light()
     //光源配置...
 }).Transform.Translation = new Vector3(9.4785, 5, 3.18);
 ```
-在場景中加入光源。配置顏色、陰影和衰減等參數以獲得逼真的燈光效果。
+在場景中加入光源。配置顏色、陰影和衰減等參數以獲得逼真的照明效果。
 ## 第 3 步：在場景中建立對象
 ```csharp
 Node plane = scene.RootNode.CreateChildNode("plane", new Plane(20, 20));
@@ -55,9 +55,9 @@ Node plane = scene.RootNode.CreateChildNode("plane", new Plane(20, 20));
 ```csharp
 scene.Render(camera, "Your Output Directory" + "CastAndReceiveShadow_out.png", new Size(1024, 1024), ImageFormat.Png, opt);
 ```
-使用指定的相機渲染配置的場景並將輸出影像儲存到指定目錄。
+使用指定相機渲染配置的場景並將輸出影像儲存到指定目錄。
 ## 結論
-恭喜！您已成功探索了使用 Aspose.3D for .NET 在 3D 場景中投射和接收陰影的基礎知識。這個強大的庫為您在應用程式中創建身臨其境且引人入勝的視覺體驗開闢了無限的可能性。
+恭喜！您已成功探索了使用 Aspose.3D for .NET 在 3D 場景中投射和接收陰影的基礎知識。這個強大的庫為您在應用程式中創建身臨其境且引人入勝的視覺體驗提供了無限的可能性。
 ## 經常問的問題
 ### Q：我可以進一步自訂陰影屬性嗎？
 答：是的，Aspose.3D 提供了廣泛的選項來微調陰影設置，包括陰影顏色、強度等。

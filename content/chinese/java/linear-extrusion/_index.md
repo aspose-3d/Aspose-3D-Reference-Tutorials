@@ -51,7 +51,7 @@ url: /zh/java/linear-extrusion/
 使用 Aspose.3D for Java 踏上这段激动人心的旅程，其中每个教程都会解锁您的 3D 建模专业知识的新维度。无论您是经验丰富的开发人员还是好奇的初学者，我们用户友好的指南都能确保您获得引人入胜且丰富的体验。立即下载，开始 3D 冒险吧！
 ## Java 教程中使用线性拉伸创建 3D 模型
 ### [在 Aspose.3D for Java 中执行线性挤出](./performing-linear-extrusion/)
-使用 Aspose.3D for Java 探索 3D 建模世界。学习轻松执行线性挤压。
+使用 Aspose.3D for Java 探索 3D 建模世界。学习轻松执行线性挤出。
 ### [使用 Aspose.3D for Java 控制线性拉伸的中心](./controlling-center/)
 使用 Aspose.3D 探索 Java 中的 3D 图形世界。轻松控制线性挤压的中心。
 ### [使用 Aspose.3D for Java 设置线性拉伸方向](./setting-direction/)

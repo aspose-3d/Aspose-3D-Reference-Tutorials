@@ -65,7 +65,7 @@ opt.setPointCloud(true);
 Enregistrez la scène 3D sous forme de nuage de points dans le répertoire souhaité :
 
 ```java
-// Sauvegarder
+//Sauvegarder
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 

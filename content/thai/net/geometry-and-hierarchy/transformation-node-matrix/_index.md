@@ -1,6 +1,6 @@
 ---
-title: การแปลงโหนดด้วยเมทริกซ์การแปลงในฉาก 3 มิติ
-linktitle: การแปลงโหนดด้วยเมทริกซ์การแปลงในฉาก 3 มิติ
+title: การแปลงโหนดโดยเมทริกซ์การแปลง
+linktitle: การแปลงโหนดโดยเมทริกซ์การแปลง
 second_title: Aspose.3D .NET API
 description: แปลงโหนดอย่างง่ายดายในฉาก 3 มิติโดยใช้ Aspose.3D สำหรับ .NET เรียนรู้การแปลงโหนดทีละขั้นตอนด้วยบทช่วยสอน
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 ตอนนี้เราได้พูดถึงข้อมูลพื้นฐานแล้ว เรามาแจกแจงกระบวนการเปลี่ยนแปลงเป็นคำแนะนำทีละขั้นตอนกัน
 
-## ขั้นตอนที่ 1: เริ่มต้นฉากและโหนด
+## ขั้นตอนที่ 1: เริ่มต้นฉาก
 
 ```csharp
 // ExStart:AddTransformationToNodeByTransformationMatrix
 // เริ่มต้นวัตถุฉาก
 Scene scene = new Scene();
 
-// เริ่มต้นวัตถุคลาสโหนด
-Node cubeNode = new Node("cube");
 ```
 
-ในขั้นตอนนี้ เราสร้างฉาก 3 มิติใหม่และโหนดชื่อ "คิวบ์" ภายในฉากนั้น
+ในขั้นตอนนี้ เราจะสร้างฉาก 3D เปล่าใหม่
 
-## ขั้นตอนที่ 2: สร้าง Mesh และตั้งค่าเรขาคณิต
+## ขั้นตอนที่ 2: สร้าง Mesh และแนบไปกับฉาก
 
 ```csharp
 // เรียกคลาส Common สร้าง mesh โดยใช้วิธีสร้างรูปหลายเหลี่ยมเพื่อตั้งค่าอินสแตนซ์ mesh
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// ชี้โหนดไปที่เรขาคณิตของ Mesh
-cubeNode.Entity = mesh;
+// สร้างโหนดคอนเทนเนอร์สำหรับตาข่าย
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 ที่นี่ เราสร้าง mesh โดยใช้วิธีสร้างรูปหลายเหลี่ยมและกำหนดให้กับโหนด โดยสร้างรูปทรงเรขาคณิตสำหรับคิวบ์ของเรา
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 กำหนดเมทริกซ์การแปลที่กำหนดเองเพื่อกำหนดการเปลี่ยนแปลงเฉพาะที่ใช้กับโหนด ปรับค่าเมทริกซ์ตามต้องการสำหรับการแปลงที่คุณต้องการ
 
-## ขั้นตอนที่ 4: เพิ่มโหนดในฉาก
-
-```csharp
-// เพิ่มลูกบาศก์ลงในฉาก
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 รวมโหนดคิวบ์ไว้ในฉาก ทำให้เป็นส่วนหนึ่งของสภาพแวดล้อม 3 มิติโดยรวม
 
-## ขั้นตอนที่ 5: บันทึกฉาก
+## ขั้นตอนที่ 4: บันทึกฉาก
 
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//บันทึกฉาก 3 มิติในรูปแบบไฟล์ที่รองรับ
-scene.Save(output, FileFormat.FBX7500ASCII);
+// บันทึกฉาก 3 มิติในรูปแบบไฟล์ที่รองรับ
+scene.Save(output);
 // ตัวอย่าง: เพิ่มTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ A2: ได้ คุณสามารถรวมการแปลงหลา
 
 ### คำถามที่ 4: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.3D สำหรับ .NET ได้อย่างไร
 
- A4: เยี่ยมชม[หน้าใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) บนเว็บไซต์ Aspose เพื่อขอรับใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์ในการประเมิน
+ A4: เยี่ยมชม[หน้าใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)บนเว็บไซต์ Aspose เพื่อขอรับใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์ในการประเมิน
 
 ### คำถามที่ 5: ฉันจะขอความช่วยเหลือหรือเชื่อมต่อกับชุมชน Aspose.3D ได้ที่ไหน
 
-A5: เยี่ยมชม[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) เพื่อถามคำถาม แบ่งปันประสบการณ์ และเชื่อมต่อกับนักพัฒนารายอื่นโดยใช้ Aspose.3D
+ A5: เยี่ยมชม[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) เพื่อถามคำถาม แบ่งปันประสบการณ์ และเชื่อมต่อกับนักพัฒนารายอื่นโดยใช้ Aspose.3D

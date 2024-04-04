@@ -2,7 +2,7 @@
 title: Nyírt aljú hengerek létrehozása Aspose.3D for Java programban
 linktitle: Nyírt aljú hengerek létrehozása Aspose.3D for Java programban
 second_title: Aspose.3D Java API
-description: Tanuljon meg testreszabott, nyírt fenékű hengereket létrehozni az Aspose.3D for Java segítségével. Növelje 3D-s modellezési készségeit ezzel a lépésről-lépésre szóló útmutatóval.
+description: Tanuljon meg testreszabott, nyírt fenékű hengereket létrehozni az Aspose.3D for Java segítségével. Növelje 3D-s modellezési készségeit ezzel a lépésről lépésre bemutatott útmutatóval.
 type: docs
 weight: 12
 url: /hu/java/cylinders/creating-cylinders-with-sheared-bottom/
@@ -45,7 +45,7 @@ Most készítsük el az első nyírt aljú hengert:
 // Hozzon létre 1 hengert
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // Testreszabott nyírófenék az 1. hengerhez
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // Nyírás 47,5 fok az xy síkban (z tengely)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //Nyírás 47,5 fok az xy síkban (z tengely)
 // Adja hozzá az 1. hengert a jelenethez
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // ExEnd:4

@@ -1,6 +1,6 @@
 ---
-title: Knooppunt transformeren door transformatiematrix in 3D-scènes
-linktitle: Knooppunt transformeren door transformatiematrix in 3D-scènes
+title: Transformatieknooppunt door transformatiematrix
+linktitle: Transformatieknooppunt door transformatiematrix
 second_title: Aspose.3D .NET-API
 description: Transformeer knooppunten moeiteloos in 3D-scènes met Aspose.3D voor .NET. Leer stapsgewijze knooppunttransformaties met een tutorial.
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 Nu we de basisbeginselen hebben besproken, gaan we het transformatieproces opsplitsen in een stapsgewijze handleiding.
 
-## Stap 1: Initialiseer scène en knooppunt
+## Stap 1: Initialiseer scène
 
 ```csharp
 // ExStart:AddTransformationToNodeByTransformationMatrix
 // Initialiseer scèneobject
 Scene scene = new Scene();
 
-// Initialiseer het knooppuntklasseobject
-Node cubeNode = new Node("cube");
 ```
 
-In deze stap maken we een nieuwe 3D-scène en een knooppunt met de naam "kubus" binnen die scène.
+In deze stap maken we een nieuwe lege 3D-scène.
 
-## Stap 2: Maak mesh en stel de geometrie in
+## Stap 2: Mesh maken en aan scène koppelen
 
 ```csharp
 // Roep de Common-klasse aan om mesh te maken met behulp van de polygon builder-methode om de mesh-instantie in te stellen
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// Wijs het knooppunt naar de Mesh-geometrie
-cubeNode.Entity = mesh;
+// Maak een containerknooppunt voor de mesh.
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 Hier genereren we een mesh met behulp van de polygoonbouwermethode en wijzen deze toe aan het knooppunt, waarmee we de geometrie voor onze kubus vaststellen.
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 Definieer een aangepaste vertaalmatrix om de specifieke transformatie te bepalen die op het knooppunt wordt toegepast. Pas de matrixwaarden indien nodig aan voor de gewenste transformatie.
 
-## Stap 4: Voeg een knooppunt toe aan de scène
-
-```csharp
-// Voeg een kubus toe aan de scène
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 Neem het kubusknooppunt op in de scène, zodat het onderdeel wordt van de algehele 3D-omgeving.
 
-## Stap 5: Sla de scène op
+## Stap 4: Sla de scène op
 
 ```csharp
 // Het pad naar de documentenmap.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Sla 3D-scènes op in de ondersteunde bestandsformaten
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Sla 3D-scènes op in de ondersteunde bestandsformaten
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ A2: Ja, u kunt meerdere transformaties combineren door hun respectievelijke matr
 
 ### V4: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.3D voor .NET?
 
- A4: Bezoek de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/) op de Aspose-website om een tijdelijke licentie voor evaluatiedoeleinden te verkrijgen.
+ A4: Bezoek de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/)op de Aspose-website om een tijdelijke licentie voor evaluatiedoeleinden te verkrijgen.
 
 ### Vraag 5: Waar kan ik hulp zoeken of verbinding maken met de Aspose.3D-gemeenschap?
 
-A5: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) om vragen te stellen, ervaringen te delen en contact te maken met andere ontwikkelaars die Aspose.3D gebruiken.
+ A5: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) om vragen te stellen, ervaringen te delen en contact te maken met andere ontwikkelaars die Aspose.3D gebruiken.

@@ -78,7 +78,7 @@ A1: Sì, Aspose.3D può essere integrato con altre librerie Java 3D per una solu
 
 ### Q2: Dove posso trovare la documentazione dettagliata?
 
- R2: Fare riferimento alla documentazione[Qui](https://reference.aspose.com/3d/java/) per informazioni approfondite.
+ A2: Fare riferimento alla documentazione[Qui](https://reference.aspose.com/3d/java/) per informazioni approfondite.
 
 ### Q3: È disponibile una prova gratuita?
 
@@ -90,4 +90,4 @@ A1: Sì, Aspose.3D può essere integrato con altre librerie Java 3D per una solu
 
 ### Q5: Hai bisogno di assistenza o vuoi discutere con la comunità?
 
-A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per supporto e discussioni.
+ A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per supporto e discussioni.

@@ -16,8 +16,8 @@ url: /el/net/3d-scene/flip-coordinate-system/
 Πριν βουτήξετε στο σεμινάριο, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 
 - Βασική κατανόηση της γλώσσας προγραμματισμού C#.
-- Εγκαταστάθηκε το Aspose.3D για τη βιβλιοθήκη .NET. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/3d/net/).
-- Ένα δείγμα αρχείου 3D σε υποστηριζόμενη μορφή (π.χ. .3ds).
+-  Εγκαταστάθηκε το Aspose.3D για τη βιβλιοθήκη .NET. Μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/3d/net/).
+- Ένα δείγμα αρχείου 3D σε υποστηριζόμενη μορφή (π.χ. .ma).
 
 ## Εισαγωγή χώρων ονομάτων
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // Η διαδρομή προς το αρχείο εισόδου
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // Αρχικοποίηση αντικειμένου σκηνής
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
  Σε αυτό το βήμα, φορτώνουμε μια τρισδιάστατη σκηνή από την καθορισμένη διαδρομή αρχείου χρησιμοποιώντας το`Open` μέθοδος.
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
  Τώρα, χρησιμοποιούμε το`Save` μέθοδος εξαγωγής της σκηνής, αναποδογυρίζοντας το σύστημα συντεταγμένων στη διαδικασία. Η έξοδος αποθηκεύεται σε μορφή Wavefront OBJ.

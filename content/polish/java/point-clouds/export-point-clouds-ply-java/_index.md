@@ -76,7 +76,7 @@ Odpowiedź 1: Aspose.3D jest przeznaczony głównie dla języka Java, ale Aspose
 
 ### P4: Jak mogę uzyskać wsparcie dla Aspose.3D dla Java?
 
- A4: Odwiedź forum Aspose.3D[Tutaj](https://forum.aspose.com/c/3d/18) za wsparcie i dyskusje.
+ A4: Odwiedź forum Aspose.3D[Tutaj](https://forum.aspose.com/c/3d/18) za wsparcie i dyskusję.
 
 ### P5: Gdzie mogę kupić Aspose.3D dla Java?
 

@@ -19,7 +19,7 @@ Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có
 
 2.  Thư viện Aspose.3D: Tải xuống và cài đặt thư viện Aspose.3D từ[Liên kết tải xuống](https://releases.aspose.com/3d/java/).
 
-3.  Tài liệu: Tham khảo[tài liệu](https://reference.aspose.com/3d/java/) để Aspose.3D làm quen với các tính năng của thư viện.
+3.  Tài liệu: Tham khảo[tài liệu](https://reference.aspose.com/3d/java/)để Aspose.3D làm quen với các tính năng của thư viện.
 
 4.  Giấy phép tạm thời (Tùy chọn): Nếu bạn không có giấy phép, bạn có thể lấy giấy phép[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử nghiệm.
 
@@ -72,7 +72,7 @@ Lưu cảnh 3D, bao gồm vật liệu PBR được áp dụng, thành định d
 ```java
 // ExStart:Save3DScene
 scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
-// ExEnd:Save3DScene
+//ExEnd:Save3DScene
 ```
 
 Lặp lại các bước này cho các cảnh phức tạp hơn hoặc các đối tượng khác nhau.

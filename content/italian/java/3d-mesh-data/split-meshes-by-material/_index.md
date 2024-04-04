@@ -16,7 +16,7 @@ Benvenuti in questo tutorial completo sulla suddivisione delle mesh 3D per mater
 Prima di intraprendere questo entusiasmante viaggio, assicurati di possedere i seguenti prerequisiti:
 
 - Conoscenza base della programmazione Java.
-- Aspose.3D per la libreria Java installata. Puoi scaricarlo da[Sito web Aspose](https://releases.aspose.com/3d/java/).
+-  Aspose.3D per la libreria Java installata. Puoi scaricarlo da[Sito web Aspose](https://releases.aspose.com/3d/java/).
 - Un ambiente di sviluppo integrato (IDE) configurato per lo sviluppo Java.
 
 ## Importa pacchetti
@@ -76,7 +76,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```java
 // Visualizza il messaggio di successo
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
-//ExEnd:DividiMeshperMateriale
+// ExEnd:DividiMeshperMateriale
 ```
 
 ## Conclusione
@@ -103,4 +103,4 @@ A2: Assolutamente! Questo metodo si adatta bene ai modelli 3D complessi, ottimiz
 
 ### Q5: Come posso ottenere supporto per eventuali problemi o domande?
 
-A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per il supporto dedicato da parte della comunità.
+ A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per il supporto dedicato da parte della comunità.

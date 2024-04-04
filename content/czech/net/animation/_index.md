@@ -4,7 +4,7 @@ linktitle: Animace
 second_title: Aspose.3D .NET API
 description: Odemkněte svět 3D animací pomocí výukových programů Aspose.3D for .NET. Naučte se animovat vlastnosti a bez námahy nastavovat cíle a kamery pro dynamické scény.
 type: docs
-weight: 23
+weight: 30
 url: /cs/net/animation/
 ---
 ## Úvod
@@ -12,7 +12,7 @@ url: /cs/net/animation/
 Vítejte ve fascinující říši 3D animace s Aspose.3D pro .NET! V tomto komplexním průvodci prozkoumáme dva základní návody, které vám umožní vytvářet podmanivé a dynamické 3D scény. Vydejme se společně na tuto vzrušující cestu!
 
 ## Animace vlastností pro dokument ve 3D scénách
- Jste připraveni vdechnout život svým 3D výtvorům? Náš první tutoriál,[Animace vlastností pro dokument ve 3D scénách](./property-to-document/)je vaším klíčem k odemknutí kouzla Aspose.3D pro .NET. V tomto podrobném průvodci vás provedeme procesem animace 3D vlastností, což vám umožní vdechnout vašim scénám dynamický pohyb a realismus.
+Jste připraveni vdechnout život svým 3D výtvorům? Náš první tutoriál,[Animace vlastností pro dokument ve 3D scénách](./property-to-document/), je vaším klíčem k odemknutí kouzla Aspose.3D pro .NET. V tomto podrobném průvodci vás provedeme procesem animace 3D vlastností, což vám umožní vdechnout vašim scénám dynamický pohyb a realismus.
 
 ### Proč byste měli prozkoumat tento návod?
 - Animace bez námahy: Objevte, jak plynule animovat vlastnosti a snadno tak oživit vaše 3D modely.

@@ -15,7 +15,7 @@ Czy jesteś gotowy, aby podnieść poziom swoich doświadczeń w modelowaniu 3D 
 
 Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 
--  Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK w swoim systemie. Możesz go pobrać[Tutaj](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK w swoim systemie. Możesz go pobrać[Tutaj](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 -  Aspose.3D dla Java: Pobierz i zainstaluj bibliotekę Aspose.3D dla Java z[link do pobrania](https://releases.aspose.com/3d/java/).
 
@@ -101,7 +101,7 @@ Gratulacje! Pomyślnie utworzyłeś niestandardowe cylindry wentylatorów przy u
 
 ## Wniosek
 
-tym samouczku zbadaliśmy proces wykorzystania Aspose.3D dla Java do tworzenia spersonalizowanych cylindrów wentylatorów w scenie 3D. Wszechstronność Aspose.3D umożliwia programistom łatwe ulepszanie projektów modelowania 3D.
+W tym samouczku zbadaliśmy proces wykorzystania Aspose.3D dla Java do tworzenia spersonalizowanych cylindrów wentylatorów w scenie 3D. Wszechstronność Aspose.3D umożliwia programistom łatwe ulepszanie projektów modelowania 3D.
 
 ## Często zadawane pytania
 

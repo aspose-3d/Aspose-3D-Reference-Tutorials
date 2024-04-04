@@ -16,7 +16,7 @@ Aspose.3D for Java là một thư viện đa năng cho phép các nhà phát tri
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên máy của bạn.
-- Đã tải xuống thư viện Aspose.3D cho Java. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/3d/java/).
+-  Đã tải xuống thư viện Aspose.3D cho Java. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/3d/java/).
 
 ## Gói nhập khẩu
 
@@ -94,7 +94,7 @@ Câu trả lời 1: Có, Aspose.3D dành cho Java đáp ứng nhu cầu của c�
 
 ### Câu hỏi 3: Có tùy chọn dùng thử miễn phí nào không?
 
- Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Tôi có thể tìm hỗ trợ cho Aspose.3D cho Java ở đâu?
 

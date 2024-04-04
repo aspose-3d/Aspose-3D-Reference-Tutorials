@@ -16,7 +16,7 @@ url: /zh-hant/java/cylinders/creating-cylinders-with-offset-top/
 在我們開始這趟創意之旅之前，請確保您具備以下先決條件：
 
 - Java 開發工具包 (JDK)：Aspose.3D for Java 需要在您的電腦上安裝相容的 JDK。
-- Aspose.3D 函式庫：下載 Aspose.3D 函式庫並將其整合到您的 Java 專案中。您可以找到該庫和詳細文檔[這裡](https://releases.aspose.com/3d/java/).
+-  Aspose.3D 函式庫：下載 Aspose.3D 函式庫並將其整合到您的 Java 專案中。您可以找到該庫和詳細文檔[這裡](https://releases.aspose.com/3d/java/).
 
 ## 導入包
 
@@ -118,7 +118,7 @@ A2：當然！ Aspose.3D 提供了應用紋理和材質的廣泛功能，以增�
 
 ### Q3：Aspose.3D 有可用的授權選項嗎？
 
- A3：是的，您可以探索並選擇適合您需求的授權選項[這裡](https://purchase.aspose.com/buy).
+A3：是的，您可以探索並選擇適合您需求的授權選項[這裡](https://purchase.aspose.com/buy).
 
 ### Q4：我如何尋求協助或分享我使用 Aspose.3D 的經驗？
 

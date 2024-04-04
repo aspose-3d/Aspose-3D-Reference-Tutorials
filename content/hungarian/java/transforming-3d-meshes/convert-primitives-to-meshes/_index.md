@@ -37,7 +37,7 @@ Node cubeNode = new Node("box");
 // ExStart:ConvertBoxPrimitivetoMesh
 // Objektum inicializálása Box osztály szerint
 IMeshConvertible convertible = new Box();
-// Alakítsa át a dobozt hálóvá
+// Konvertálja a dobozt hálóvá
 Mesh mesh = convertible.toMesh();
 // ExEnd:ConvertBoxPrimitivetoMesh
 ```
@@ -55,7 +55,7 @@ scene.getRootNode().addChildNode(cubeNode);
 ```java
 // A dokumentumok könyvtárának elérési útja.
 String MyDir = "Your Document Directory" + "BoxToMeshScene.fbx";
-//Mentse a 3D jelenetet a támogatott fájlformátumokba
+// Mentse a 3D jelenetet a támogatott fájlformátumokba
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 System.out.println("\n Converted the primitive Box to a mesh successfully.\nFile saved at " + MyDir);
 ```

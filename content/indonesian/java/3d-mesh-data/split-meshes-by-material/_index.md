@@ -16,7 +16,7 @@ Selamat datang di tutorial komprehensif tentang pemisahan jerat 3D berdasarkan m
 Sebelum kita memulai perjalanan menarik ini, pastikan Anda memiliki prasyarat berikut:
 
 - Pengetahuan dasar tentang pemrograman Java.
-- Aspose.3D untuk perpustakaan Java diinstal. Anda dapat mengunduhnya dari[Asumsikan situs web](https://releases.aspose.com/3d/java/).
+-  Aspose.3D untuk perpustakaan Java diinstal. Anda dapat mengunduhnya dari[Asumsikan situs web](https://releases.aspose.com/3d/java/).
 - Lingkungan Pengembangan Terpadu (IDE) yang disiapkan untuk pengembangan Java.
 
 ## Paket Impor
@@ -76,7 +76,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```java
 // Tampilkan pesan sukses
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
-//ExEnd: SplitMeshby Material
+// ExEnd: SplitMeshby Material
 ```
 
 ## Kesimpulan
@@ -103,4 +103,4 @@ A2: Tentu saja! Metode ini dapat diskalakan dengan baik untuk model 3D yang rumi
 
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk masalah atau pertanyaan apa pun?
 
-A5: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) atas dukungan khusus dari komunitas.
+ A5: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) atas dukungan khusus dari komunitas.

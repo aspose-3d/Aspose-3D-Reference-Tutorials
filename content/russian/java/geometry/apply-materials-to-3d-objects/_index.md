@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## Шаг 4: Наведите узел на сетку
 
 ```java
-//Наведите узел на сетку
+// Наведите узел на сетку
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // Установите имя файла
 MyDir = MyDir + "MaterialToCube.fbx";
-//Сохранение 3D-сцены в поддерживаемых форматах файлов.
+// Сохранение 3D-сцены в поддерживаемых форматах файлов.
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

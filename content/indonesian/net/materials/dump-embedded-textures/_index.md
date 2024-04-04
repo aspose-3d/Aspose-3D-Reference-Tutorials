@@ -1,6 +1,6 @@
 ---
-title: Membuang Tekstur Tertanam
-linktitle: Membuang Tekstur Tertanam
+title: Membuang Tekstur Tersemat
+linktitle: Membuang Tekstur Tersemat
 second_title: Aspose.3D .NET API
 description: Buka rahasia tekstur yang disematkan dalam model 3D dengan Aspose.3D untuk .NET. Pelajari panduan langkah demi langkah kami untuk integrasi yang lancar. Unduh uji coba gratis Anda sekarang!
 type: docs

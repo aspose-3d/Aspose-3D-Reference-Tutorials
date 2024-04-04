@@ -105,7 +105,7 @@ Console.WriteLine(pdiffuse);
 
 ## Βήμα 6: Διασχίστε τις ιδιότητες της ιδιοκτησίας
 
- Από`Property` κληρονομείται από`A3DObject`, μπορείτε να διασχίσετε τις ιδιότητες μιας ιδιοκτησίας.
+ Από`Property` κληρονομείται από`A3DObject`μπορείτε να διασχίσετε τις ιδιότητες μιας ιδιοκτησίας.
 
 ```csharp
 //ExStart: TraversePropertyProperties

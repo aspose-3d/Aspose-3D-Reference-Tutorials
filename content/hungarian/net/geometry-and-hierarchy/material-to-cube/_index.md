@@ -1,6 +1,6 @@
 ---
-title: Anyag felvitele a kockára 3D-s jelenetekben
-linktitle: Anyag felvitele a kockára 3D-s jelenetekben
+title: Anyag felvitele a Cube-ra
+linktitle: Anyag felvitele a Cube-ra
 second_title: Aspose.3D .NET API
 description: Fedezze fel a .NET-hez készült Aspose.3D-t, amely a zökkenőmentes 3D grafikus manipuláció kapuja. Könnyedén alkalmazzon anyagokat, fokozza a valósághűséget, és emelje fel projektjeit.
 type: docs
@@ -9,7 +9,7 @@ url: /hu/net/geometry-and-hierarchy/material-to-cube/
 ---
 ## Bevezetés
 
-Üdvözöljük a 3D grafikus manipuláció lenyűgöző világában az Aspose.3D for .NET használatával! Ebben az oktatóanyagban belemerülünk a 3D-s jelenetekben lévő anyagok kockára való felvitelének folyamatába, és a valósághűség és a vizuális vonzerő egy teljesen új szintjét adjuk alkotásaihoz.
+Üdvözöljük a 3D grafikus manipuláció lenyűgöző világában az Aspose.3D for .NET használatával! Ebben az oktatóanyagban belevetjük magunkat a 3D-s jelenetekben lévő anyagok kockára való felvitelének folyamatába, és a valósághűség és a vizuális vonzerő egy teljesen új szintjét adjuk alkotásaihoz.
 
 ## Előfeltételek
 
@@ -42,17 +42,12 @@ using System.IO;
 // Jelenetobjektum inicializálása
 Scene scene = new Scene();
 
-// A kocka csomópont objektum inicializálása
-Node cubeNode = new Node("cube");
+// Hozzon létre egy dobozpéldányt.
+var box = new Box();
 
-// Hívja a Common class create mesh-t a sokszögépítő metódussal a hálópéldány beállításához
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+// Dobozpéldány csatolása a jelenethez
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//Mutasson csomópontot a hálóra
-cubeNode.Entity = mesh;
-
-// Adjon hozzá kockát a jelenethez
-scene.RootNode.ChildNodes.Add(cubeNode);
 // ExEnd:InitializeSceneAndCube
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 // Állítsa be a textúra helyi fájl elérési útját
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 // Állítsa be az anyag textúráját
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,8 +77,8 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 // Bináris tartalom beállítása
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-//ExEnd:EmbedRawContentData
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
+// ExEnd:EmbedRawContentData
 ```
 
 ## 4. lépés: Állítsa be az anyag tulajdonságait
@@ -105,11 +100,11 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart:Save3DScene
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
-//Mentse a 3D jelenetet a támogatott fájlformátumokba
-scene.Save(output, FileFormat.FBX7400ASCII);
-// ExEnd:Save3DScene
+// Mentse a 3D jelenetet a támogatott fájlformátumokba
+scene.Save(output);
+//ExEnd:Save3DScene
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
 ```
@@ -140,4 +135,4 @@ A2: Abszolút! Amint az ebben az oktatóanyagban látható, egyszerűen beállí
 
 ### 5. kérdés: Hogyan kaphatok támogatást bármilyen probléma vagy kérdés esetén?
 
-A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) kapcsolatba lépni a közösséggel és segítséget kérni.
+ A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) kapcsolatba lépni a közösséggel és segítséget kérni.

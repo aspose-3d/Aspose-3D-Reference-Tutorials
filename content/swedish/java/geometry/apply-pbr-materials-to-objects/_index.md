@@ -19,13 +19,13 @@ Innan vi dyker in i handledningen, se till att du har följande förutsättninga
 
 2.  Aspose.3D Library: Ladda ner och installera Aspose.3D-biblioteket från[nedladdningslänk](https://releases.aspose.com/3d/java/).
 
-3.  Dokumentation: Se[dokumentation](https://reference.aspose.com/3d/java/) för Aspose.3D för att bekanta dig med bibliotekets funktioner.
+3.  Dokumentation: Se[dokumentation](https://reference.aspose.com/3d/java/)för Aspose.3D för att bekanta dig med bibliotekets funktioner.
 
 4.  Tillfällig licens (valfritt): Om du inte har en licens kan du få en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för provning.
 
 ## Importera paket
 
-ditt Java-projekt, inkludera de nödvändiga paketen för att använda Aspose.3D. Lägg till följande importsatser till din kod:
+I ditt Java-projekt, inkludera de nödvändiga paketen för att använda Aspose.3D. Lägg till följande importsatser till din kod:
 
 ```java
 import com.aspose.threed.*;
@@ -72,7 +72,7 @@ Spara 3D-scenen, inklusive det applicerade PBR-materialet, i ett specifikt filfo
 ```java
 // ExStart:Save3DScene
 scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
-// ExEnd:Save3DScene
+//ExEnd:Save3DScene
 ```
 
 Upprepa dessa steg för mer komplexa scener eller olika objekt.

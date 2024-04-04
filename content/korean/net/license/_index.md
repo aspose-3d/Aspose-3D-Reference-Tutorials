@@ -4,7 +4,7 @@ linktitle: 특허
 second_title: Aspose.3D .NET API
 description: 라이센스 적용에 대한 자세한 튜토리얼을 통해 Aspose.3D .NET의 잠재력을 극대화하십시오. 원활한 통합 프로세스를 보장하고 강력한 기능을 잠금 해제하세요.
 type: docs
-weight: 26
+weight: 36
 url: /ko/net/license/
 ---
 ## 소개

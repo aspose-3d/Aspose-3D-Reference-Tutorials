@@ -97,4 +97,4 @@ Chúc mừng! Bạn đã thiết lập thành công máy ảnh mục tiêu cho h
 
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời?
 
-Câu trả lời 5: Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ Câu trả lời 5: Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).

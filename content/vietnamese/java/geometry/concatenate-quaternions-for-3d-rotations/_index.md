@@ -1,6 +1,6 @@
 ---
-title: Ghép nối các Quaternions cho phép quay 3D trong Java với Aspose.3D
-linktitle: Ghép nối các Quaternions cho phép quay 3D trong Java với Aspose.3D
+title: Ghép nối các bậc bốn cho phép quay 3D trong Java với Aspose.3D
+linktitle: Ghép nối các bậc bốn cho phép quay 3D trong Java với Aspose.3D
 second_title: API Java Aspose.3D
 description: Tìm hiểu cách ghép nối các bậc bốn để xoay 3D trong Java bằng cách sử dụng Aspose.3D. Hãy làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi hoạt ảnh liền mạch.
 type: docs
@@ -16,7 +16,7 @@ Ghép nối Quaternion là một khái niệm cơ bản trong đồ họa 3D, ch
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
 
 - Kiến thức cơ bản về lập trình Java.
--  Aspose.3D cho Java đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/3d/java/).
+- Aspose.3D cho Java đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/3d/java/).
 
 ## Gói nhập khẩu
 

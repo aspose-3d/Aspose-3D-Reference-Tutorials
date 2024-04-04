@@ -51,7 +51,7 @@ profile.setRoundingRadius(0.3);
 Ekstrüzyona tabi tutulan nesnelerinizi barındıracak bir 3 boyutlu sahne oluşturun.
 
 ```java
-// Bir sahne yarat
+// Bir sahne oluştur
 Scene scene = new Scene();
 ```
 

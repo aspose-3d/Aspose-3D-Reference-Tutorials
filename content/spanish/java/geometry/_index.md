@@ -2,7 +2,7 @@
 title: Trabajar con geometría 3D en Java
 linktitle: Trabajar con geometría 3D en Java
 second_title: API de Java Aspose.3D
-description: Explore los tutoriales de Aspose.3D para Java sobre cómo trabajar con geometría 3D. Domine los materiales PBR, las rotaciones de cuaterniones, las escenas de cubos y más. Eleve sus gráficos Java 3D.
+description: Explore los tutoriales de Aspose.3D para Java sobre cómo trabajar con geometría 3D. Domine los materiales PBR, las rotaciones de cuaterniones, las escenas de cubos y más. Mejore sus gráficos Java 3D.
 type: docs
 weight: 21
 url: /es/java/geometry/

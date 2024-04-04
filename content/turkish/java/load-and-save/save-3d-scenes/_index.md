@@ -9,7 +9,7 @@ url: /tr/java/load-and-save/save-3d-scenes/
 ---
 ## giriiş
 
-3D sahneler oluşturmak ve değiştirmek programlamanın büyüleyici bir yönüdür ve güçlü Aspose.3D for Java kütüphanesi ile bu görev daha da heyecan verici ve verimli hale gelir. Bu eğitimde, Aspose.3D for Java'yı kullanarak 3D sahneleri çeşitli formatlarda kaydetme sürecinde size rehberlik edeceğiz. İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, bu adım adım kılavuz, Java uygulamalarınızı geliştirmek için Aspose.3D'nin özelliklerinden yararlanmanıza yardımcı olacaktır.
+3D sahneler oluşturmak ve değiştirmek programlamanın büyüleyici bir yönüdür ve güçlü Aspose.3D for Java kütüphanesi ile bu görev daha da heyecan verici ve verimli hale gelir. Bu eğitimde, Aspose.3D for Java'yı kullanarak 3D sahneleri çeşitli formatlarda kaydetme sürecinde size rehberlik edeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu adım adım kılavuz, Java uygulamalarınızı geliştirmek için Aspose.3D'nin özelliklerinden yararlanmanıza yardımcı olacaktır.
 
 ## Önkoşullar
 

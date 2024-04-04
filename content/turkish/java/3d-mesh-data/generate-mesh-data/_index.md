@@ -16,7 +16,7 @@ Java'da 3B ağ verileri oluşturmak ve değiştirmek, özellikle temel normal ve
 Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
 - Java programlamanın temel bilgisi.
--  Aspose.3D for Java yüklü. İndirebilirsin[Burada](https://releases.aspose.com/3d/java/).
+- Aspose.3D for Java yüklü. İndirebilirsin[Burada](https://releases.aspose.com/3d/java/).
 - 3ds formatında bir 3D dosya. Örnek olarak "camera.3ds" kullanacağız.
 
 ## Paketleri İçe Aktar

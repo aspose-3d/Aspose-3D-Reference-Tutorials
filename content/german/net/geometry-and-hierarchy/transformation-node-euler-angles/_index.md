@@ -1,6 +1,6 @@
 ---
-title: Transformieren von Knoten durch Euler-Winkel in 3D-Szenen
-linktitle: Transformieren von Knoten durch Euler-Winkel in 3D-Szenen
+title: Transformierender Knoten durch Euler-Winkel
+linktitle: Transformierender Knoten durch Euler-Winkel
 second_title: Aspose.3D .NET API
 description: Lernen Sie, 3D-Knoten mühelos mit Aspose.3D für .NET zu transformieren. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für beeindruckende Ergebnisse bei Ihren Projekten.
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
  Erstellen Sie zunächst eine neue 3D-Szene mit`Scene` Klasse.
 
-## Schritt 2: Knotenklassenobjekt initialisieren
 
-```csharp
-// Node-Klassenobjekt initialisieren
-Node cubeNode = new Node("cube");
-```
-
- Erstellen Sie mithilfe von einen Knoten innerhalb der Szene`Node`Klasse. Dieser Knoten dient als Container für unser 3D-Objekt.
-
-## Schritt 3: Erstellen Sie ein Netz mit Polygon Builder
+## Schritt 2: Erstellen Sie ein Netz mithilfe einer primitiven Box
 
 ```csharp
 // Rufen Sie die allgemeine Klasse „Erstellen Sie ein Netz mithilfe der Polygon-Builder-Methode“ auf, um eine Netzinstanz festzulegen
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
- Rufen Sie eine Methode auf (in diesem Fall`CreateMeshUsingPolygonBuilder` aus einem Brauch`Common` Klasse), um ein Netz für das 3D-Objekt zu generieren.
+ Rufen Sie eine Methode auf (in diesem Fall`CreateMeshUsingPolygonBuilder` aus einem Brauch`Common`Klasse), um ein Netz für das 3D-Objekt zu generieren.
 
-## Schritt 4: Punktknoten auf die Netzgeometrie
+## Schritt 3: Erstellen Sie einen Containerknoten für das Netz
 
 ```csharp
 // Punktknoten zur Mesh-Geometrie
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-Verknüpfen Sie das erstellte Netz mit dem Knoten.
+ Erstellen Sie mithilfe von einen Knoten innerhalb der Szene`Node` Klasse. Dieser Knoten dient als Container für unser 3D-Objekt.
 
-## Schritt 5: Legen Sie die Euler-Winkel und die Übersetzung fest
+## Schritt 4: Legen Sie die Euler-Winkel und die Translation fest
 
 ```csharp
 // Euler-Winkel
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 Definieren Sie die Euler-Winkel und die Translation für den Knoten, um ihn im 3D-Raum zu positionieren.
 
-## Schritt 6: Würfel zur Szene hinzufügen
-
-```csharp
-// Fügen Sie der Szene einen Würfel hinzu
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-Integrieren Sie den Knoten in die Hierarchie der Szene.
-
-## Schritt 7: Speichern Sie die 3D-Szene
+## Schritt 5: Speichern Sie die 3D-Szene
 
 ```csharp
 // Der Pfad zum Dokumentenverzeichnis.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ A2: Ja, Sie können mehrere Transformationen kombinieren und anwenden, um komple
 
 ### F5: Benötigen Sie Hilfe oder haben Sie spezielle Fragen?
 
-A5: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) für die Unterstützung der Gemeinschaft.
+ A5: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) für die Unterstützung der Gemeinschaft.

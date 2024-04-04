@@ -1,6 +1,6 @@
 ---
-title: การโหลดและการบันทึก - ตัวเลือกการโหลดแบบกำหนดเอง
-linktitle: การโหลดและการบันทึก - ตัวเลือกการโหลดแบบกำหนดเอง
+title: ตัวเลือกการโหลดแบบกำหนดเอง
+linktitle: ตัวเลือกการโหลดแบบกำหนดเอง
 second_title: Aspose.3D .NET API
 description: สำรวจ Aspose.3D สำหรับ .NET ซึ่งเป็นโซลูชันขั้นสูงสุดสำหรับการโหลดและบันทึกโมเดล 3 มิติที่ราบรื่น
 type: docs
@@ -41,8 +41,6 @@ using Aspose.ThreeD.Formats;
 ```csharp
 private static void Discreet3DSLoadOption()
 {
-    // เส้นทางไปยังไดเร็กทอรีเอกสาร
-    string dataDir = "Your Document Directory";
     Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
 
     //ตั้งค่าตัวเลือกแบบกำหนดเอง
@@ -50,6 +48,9 @@ private static void Discreet3DSLoadOption()
     loadOpts.FlipCoordinateSystem = true;
     loadOpts.GammaCorrectedColor = true;
     loadOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //โหลดไฟล์พร้อมตัวเลือกการโหลด
+    var scene = Scene.FromFile("test.3ds", loadOpts);
 }
 ```
 
@@ -58,14 +59,16 @@ private static void Discreet3DSLoadOption()
 ```csharp
 private static void ObjLoadOption()
 {
-    // เส้นทางไปยังไดเร็กทอรีเอกสาร
-    string dataDir = "Your Document Directory";
     ObjLoadOptions loadObjOpts = new ObjLoadOptions();
 
     //ตั้งค่าตัวเลือกแบบกำหนดเอง
     loadObjOpts.EnableMaterials = true;
     loadObjOpts.FlipCoordinateSystem = true;
     loadObjOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //โหลดไฟล์พร้อมตัวเลือกการโหลด
+    var scene = Scene.FromFile("test.obj", loadObjOpts);
+
 }
 ```
 
@@ -75,12 +78,14 @@ private static void ObjLoadOption()
 private static void STLLoadOption()
 {
     // เส้นทางไปยังไดเร็กทอรีเอกสาร
-    string dataDir = "Your Document Directory";
     StlLoadOptions loadSTLOpts = new StlLoadOptions();
 
     //ตั้งค่าตัวเลือกแบบกำหนดเอง
     loadSTLOpts.FlipCoordinateSystem = true;
     loadSTLOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //โหลดไฟล์พร้อมตัวเลือกการโหลด
+    var scene = Scene.FromFile("test.stl", loadSTLOpts);
 }
 ```
 
@@ -96,6 +101,9 @@ private static void U3DLoadOption()
     //ตั้งค่าตัวเลือกแบบกำหนดเอง
     loadU3DOpts.FlipCoordinateSystem = true;
     loadU3DOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //โหลดไฟล์พร้อมตัวเลือกการโหลด
+    var scene = Scene.FromFile("test.u3d", loadU3DOpts);
 }
 ```
 
@@ -105,13 +113,12 @@ private static void U3DLoadOption()
 private static void glTFLoadOptions()
 {
     // เส้นทางไปยังไดเร็กทอรีเอกสาร
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     GltfLoadOptions loadOpt = new GltfLoadOptions();
 
     //ตั้งค่าตัวเลือกแบบกำหนดเอง
     loadOpt.FlipTexCoordV = true;
-    scene.Open(dataDir + "Duck.gltf", loadOpt);
+    scene.Open("Duck.gltf", loadOpt);
 }
 ```
 
@@ -127,7 +134,7 @@ private static void PlyLoadOptions()
 
     //ตั้งค่าตัวเลือกแบบกำหนดเอง
     loadPLYOpts.FlipCoordinateSystem = true;
-    scene.Open(RunExamples.GetDataFilePath("vase-v2.ply"), loadPLYOpts);
+    scene.Open("vase-v2.ply", loadPLYOpts);
 }
 ```
 
@@ -137,12 +144,11 @@ private static void PlyLoadOptions()
 private static void FBXLoadOptions()
 {
     // เส้นทางไปยังไดเร็กทอรีเอกสาร
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     FbxLoadOptions opt = new FbxLoadOptions() { KeepBuiltinGlobalSettings = true };
 
     //ตั้งค่าตัวเลือกแบบกำหนดเอง
-    scene.Open(dataDir + "test.FBX", opt);
+    scene.Open("test.FBX", opt);
 
     // คุณสมบัติเอาต์พุตที่กำหนดใน GlobalSettings ในไฟล์ FBX
     foreach (Property property in scene.RootNode.AssetInfo.Properties)
@@ -176,4 +182,4 @@ A4: ได้ คุณสามารถสำรวจความสามา
 
 ### คำถามที่ 5: ฉันจะขอรับการสนับสนุนสำหรับ Aspose.3D สำหรับ .NET ได้ที่ไหน
 
-A5: เยี่ยมชม[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) สำหรับการสนับสนุนและช่วยเหลือชุมชน
+ A5: เยี่ยมชม[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) สำหรับการสนับสนุนและช่วยเหลือชุมชน

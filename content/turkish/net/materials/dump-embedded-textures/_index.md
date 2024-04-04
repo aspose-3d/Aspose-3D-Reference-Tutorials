@@ -62,7 +62,7 @@ Aspose.3D'nin büyüsünü ortaya çıkardığınız için tebrikler! Bu adım a
 ## Sıkça Sorulan Sorular
 
 ### S: Aspose.3D for .NET'i diğer programlama dilleriyle birlikte kullanabilir miyim?
-C: Aspose.3D öncelikli olarak .NET dillerini destekler ancak diğer diller için sarmalayıcıları veya alternatifleri de keşfedebilirsiniz.
+C: Aspose.3D öncelikle .NET dillerini destekler ancak diğer diller için sarmalayıcıları veya alternatifleri de keşfedebilirsiniz.
 ### S: Satın almadan önce deneme sürümü mevcut mu?
  C: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 ### S: Aspose.3D hakkında nasıl yardım alabilirim veya tartışmalara nasıl katılabilirim?

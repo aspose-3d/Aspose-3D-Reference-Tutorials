@@ -81,10 +81,10 @@ Chúc mừng! Bạn đã hiển thị thành công hình ảnh mô hình 3D từ
 ## Câu hỏi thường gặp
 ### Câu hỏi: Tôi có thể sử dụng Aspose.3D cho .NET với các công cụ lập mô hình 3D khác không?
 Trả lời: Aspose.3D hỗ trợ nhiều định dạng mô hình 3D khác nhau, giúp nó tương thích với nhiều công cụ tạo mô hình phổ biến.
-### Câu hỏi: Làm cách nào để khắc phục sự cố kết xuất?
+### Câu hỏi: Làm cách nào để khắc phục sự cố hiển thị?
  A: Kiểm tra Aspose.3D[diễn đàn](https://forum.aspose.com/c/3d/18) để được hỗ trợ và giải pháp cho các vấn đề kết xuất phổ biến.
 ### Hỏi: Có bản dùng thử miễn phí không?
- Trả lời: Có, bạn có thể khám phá các tính năng của Aspose.3D bằng cách lấy[dùng thử miễn phí](https://releases.aspose.com/).
+Trả lời: Có, bạn có thể khám phá các tính năng của Aspose.3D bằng cách lấy[dùng thử miễn phí](https://releases.aspose.com/).
 ### Hỏi: Tôi có thể tìm tài liệu đầy đủ ở đâu?
  Đáp: Hãy tham khảo[tài liệu](https://reference.aspose.com/3d/net/) để được hướng dẫn chuyên sâu về Aspose.3D cho .NET.
 ### Câu hỏi: Làm cách nào để mua Aspose.3D cho .NET?

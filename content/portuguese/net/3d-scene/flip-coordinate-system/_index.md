@@ -16,8 +16,8 @@ Bem-vindo a este guia passo a passo sobre como inverter o sistema de coordenadas
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos:
 
 - Compreensão básica da linguagem de programação C#.
-- Biblioteca Aspose.3D para .NET instalada. Você pode baixá-lo em[aqui](https://releases.aspose.com/3d/net/).
-- Um arquivo 3D de amostra em um formato compatível (por exemplo, .3ds).
+-  Biblioteca Aspose.3D para .NET instalada. Você pode baixá-lo em[aqui](https://releases.aspose.com/3d/net/).
+- Um arquivo 3D de amostra em um formato compatível (por exemplo, .ma).
 
 ## Importar namespaces
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // O caminho para o arquivo de entrada
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // Inicializar objeto de cena
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
  Nesta etapa, carregamos uma cena 3D do caminho de arquivo especificado usando o`Open` método.
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
  Agora, usamos o`Save` método para exportar a cena, invertendo o sistema de coordenadas no processo. A saída é salva no formato Wavefront OBJ.

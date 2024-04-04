@@ -4,7 +4,7 @@ linktitle: رخصة
 second_title: Aspose.3D.NET API
 description: قم بزيادة إمكانات Aspose.3D .NET إلى الحد الأقصى من خلال برنامجنا التعليمي التفصيلي حول تطبيق التراخيص. ضمان عملية تكامل سلسة وإطلاق العنان لميزاتها القوية.
 type: docs
-weight: 26
+weight: 36
 url: /ar/net/license/
 ---
 ## مقدمة

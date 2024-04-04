@@ -91,7 +91,7 @@ Zapisz scenę 3D w formacie pliku Wavefront OBJ.
 ```java
 // ExStart: Zapisz3DScene
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-// Rozwiń: Zapisz3DScenę
+//Rozwiń: Zapisz3DScenę
 ```
 
 ## Wniosek

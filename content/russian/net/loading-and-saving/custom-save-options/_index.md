@@ -1,8 +1,8 @@
 ---
-title: Загрузка и сохранение — пользовательские параметры сохранения
-linktitle: Загрузка и сохранение — пользовательские параметры сохранения
+title: Пользовательские параметры сохранения
+linktitle: Пользовательские параметры сохранения
 second_title: Aspose.3D .NET API
-description: Откройте для себя возможности Aspose.3D для .NET. Узнайте, как настроить сохранение 3D-сцены, с помощью пошаговых руководств по форматам Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC и RVM.
+description: Откройте для себя возможности Aspose.3D для .NET. Узнайте, как настроить сохранение 3D-сцены, с помощью пошаговых руководств по форматам Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC и RVM.
 type: docs
 weight: 21
 url: /ru/net/loading-and-saving/custom-save-options/

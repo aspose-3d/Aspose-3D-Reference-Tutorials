@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## Etapa 4: apontar o nó para a malha
 
 ```java
-//Apontar nó para a malha
+// Apontar nó para a malha
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // Defina o nome do arquivo
 MyDir = MyDir + "MaterialToCube.fbx";
-//Salve cenas 3D nos formatos de arquivo suportados
+// Salve cenas 3D nos formatos de arquivo suportados
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

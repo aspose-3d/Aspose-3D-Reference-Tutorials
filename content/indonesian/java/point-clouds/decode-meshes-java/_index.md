@@ -81,7 +81,7 @@ A1: Tentu saja! Perpustakaan menyediakan antarmuka yang ramah pengguna dan dokum
 
 ### Q3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.3D untuk Java?
 
- A3: Bergabunglah dengan komunitas di[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) untuk berinteraksi dengan pengguna lain dan mendapatkan bantuan dari para ahli.
+A3: Bergabunglah dengan komunitas di[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) untuk berinteraksi dengan pengguna lain dan mendapatkan bantuan dari para ahli.
 
 ### Q4: Apakah tersedia uji coba gratis?
 

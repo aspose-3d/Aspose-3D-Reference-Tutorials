@@ -45,7 +45,7 @@ Laten we nu de eerste cilinder maken met een geschoren bodem:
 // Maak cilinder 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // Aangepaste schuifbodem voor cilinder 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // Afschuiving 47,5 graden in het xy-vlak (z-as)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //Afschuiving 47,5 graden in het xy-vlak (z-as)
 // Voeg cilinder 1 toe aan de scène
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // Verleng:4

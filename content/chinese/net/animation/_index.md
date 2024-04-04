@@ -4,7 +4,7 @@ linktitle: 动画片
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 教程解锁 3D 动画世界。学习为属性设置动画并轻松设置动态场景的目标和摄像机。
 type: docs
-weight: 23
+weight: 30
 url: /zh/net/animation/
 ---
 ## 介绍
@@ -16,7 +16,7 @@ url: /zh/net/animation/
 
 ### 为什么要探索本教程？
 - 轻松的动画：了解如何无缝地制作属性动画，轻松使您的 3D 模型栩栩如生。
-- 分步指导：按照我们的详细说明来掌握 Aspose.3D for .NET 中的动画属性艺术。
+- 分步指导：按照我们的详细说明掌握 Aspose.3D for .NET 中的动画属性艺术。
 - 动态场景：了解创建吸引观众并留下持久印象的动态场景背后的秘密。
 
 准备好提升您的 3D 项目了吗？潜入[动画属性教程](./property-to-document/)现在！

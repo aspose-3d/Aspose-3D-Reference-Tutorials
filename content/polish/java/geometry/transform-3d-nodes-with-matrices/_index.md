@@ -28,7 +28,7 @@ import com.aspose.threed.*;
 
 ```
 
-## Przekształcanie węzłów 3D
+## Transformacja węzłów 3D
 
 ### Krok 1: Zainicjuj obiekt sceny
 

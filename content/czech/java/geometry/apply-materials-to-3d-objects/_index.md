@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## Krok 4: Nasměrujte uzel na síť
 
 ```java
-//Bodový uzel do sítě
+// Bodový uzel do sítě
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // Nastavte název souboru
 MyDir = MyDir + "MaterialToCube.fbx";
-//Uložte 3D scénu v podporovaných formátech souborů
+// Uložte 3D scénu v podporovaných formátech souborů
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

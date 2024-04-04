@@ -53,7 +53,7 @@ String output = "manual-render-to-image.png";
 
 ## الخطوة 3: إنشاء صورة مخزنة
 
- إنشاء`BufferedImage` بالأبعاد والنوع المطلوب للتقديم:
+ إنشاء`BufferedImage` بالأبعاد والنوع المطلوب للعرض:
 
 ```java
 BufferedImage image = new BufferedImage(1024, 1024, BufferedImage.TYPE_3BYTE_BGR);

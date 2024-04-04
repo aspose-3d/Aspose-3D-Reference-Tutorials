@@ -81,7 +81,7 @@ A1: Abszolút! A könyvtár felhasználóbarát felületet és átfogó dokument
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.3D for Java számára?
 
- V3: Csatlakozz a közösséghez a következő címen:[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) kapcsolatba léphet más felhasználókkal, és segítséget kérhet szakértőktől.
+V3: Csatlakozz a közösséghez a következő címen:[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) kapcsolatba léphet más felhasználókkal, és segítséget kérhet szakértőktől.
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 

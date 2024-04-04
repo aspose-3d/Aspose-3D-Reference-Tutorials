@@ -1,6 +1,6 @@
 ---
-title: Загрузка и сохранение — пользовательские параметры загрузки
-linktitle: Загрузка и сохранение — пользовательские параметры загрузки
+title: Пользовательские параметры загрузки
+linktitle: Пользовательские параметры загрузки
 second_title: Aspose.3D .NET API
 description: Изучите Aspose.3D для .NET — идеальное решение для плавной загрузки и сохранения 3D-моделей.
 type: docs
@@ -41,8 +41,6 @@ using Aspose.ThreeD.Formats;
 ```csharp
 private static void Discreet3DSLoadOption()
 {
-    // Путь к каталогу документов.
-    string dataDir = "Your Document Directory";
     Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
 
     //Установить пользовательские параметры
@@ -50,6 +48,9 @@ private static void Discreet3DSLoadOption()
     loadOpts.FlipCoordinateSystem = true;
     loadOpts.GammaCorrectedColor = true;
     loadOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Загрузить файл с параметрами загрузки
+    var scene = Scene.FromFile("test.3ds", loadOpts);
 }
 ```
 
@@ -58,14 +59,16 @@ private static void Discreet3DSLoadOption()
 ```csharp
 private static void ObjLoadOption()
 {
-    // Путь к каталогу документов.
-    string dataDir = "Your Document Directory";
     ObjLoadOptions loadObjOpts = new ObjLoadOptions();
 
     //Установить пользовательские параметры
     loadObjOpts.EnableMaterials = true;
     loadObjOpts.FlipCoordinateSystem = true;
     loadObjOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Загрузить файл с параметрами загрузки
+    var scene = Scene.FromFile("test.obj", loadObjOpts);
+
 }
 ```
 
@@ -75,12 +78,14 @@ private static void ObjLoadOption()
 private static void STLLoadOption()
 {
     // Путь к каталогу документов.
-    string dataDir = "Your Document Directory";
     StlLoadOptions loadSTLOpts = new StlLoadOptions();
 
     //Установить пользовательские параметры
     loadSTLOpts.FlipCoordinateSystem = true;
     loadSTLOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Загрузить файл с параметрами загрузки
+    var scene = Scene.FromFile("test.stl", loadSTLOpts);
 }
 ```
 
@@ -96,6 +101,9 @@ private static void U3DLoadOption()
     //Установить пользовательские параметры
     loadU3DOpts.FlipCoordinateSystem = true;
     loadU3DOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Загрузить файл с параметрами загрузки
+    var scene = Scene.FromFile("test.u3d", loadU3DOpts);
 }
 ```
 
@@ -105,13 +113,12 @@ private static void U3DLoadOption()
 private static void glTFLoadOptions()
 {
     // Путь к каталогу документов.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     GltfLoadOptions loadOpt = new GltfLoadOptions();
 
     //Установить пользовательские параметры
     loadOpt.FlipTexCoordV = true;
-    scene.Open(dataDir + "Duck.gltf", loadOpt);
+    scene.Open("Duck.gltf", loadOpt);
 }
 ```
 
@@ -127,7 +134,7 @@ private static void PlyLoadOptions()
 
     //Установить пользовательские параметры
     loadPLYOpts.FlipCoordinateSystem = true;
-    scene.Open(RunExamples.GetDataFilePath("vase-v2.ply"), loadPLYOpts);
+    scene.Open("vase-v2.ply", loadPLYOpts);
 }
 ```
 
@@ -137,12 +144,11 @@ private static void PlyLoadOptions()
 private static void FBXLoadOptions()
 {
     // Путь к каталогу документов.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     FbxLoadOptions opt = new FbxLoadOptions() { KeepBuiltinGlobalSettings = true };
 
     //Установить пользовательские параметры
-    scene.Open(dataDir + "test.FBX", opt);
+    scene.Open("test.FBX", opt);
 
     // Свойства вывода, определенные в GlobalSettings в файле FBX.
     foreach (Property property in scene.RootNode.AssetInfo.Properties)
@@ -176,4 +182,4 @@ private static void FBXLoadOptions()
 
 ### Вопрос 5: Где я могу получить поддержку Aspose.3D для .NET?
 
-A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) за общественную поддержку и помощь.
+ A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) за общественную поддержку и помощь.

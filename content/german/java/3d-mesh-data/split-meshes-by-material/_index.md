@@ -16,7 +16,7 @@ Willkommen zu diesem umfassenden Tutorial zum Aufteilen von 3D-Netzen nach Mater
 Bevor wir uns auf diese spannende Reise begeben, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
 - Grundkenntnisse der Java-Programmierung.
-- Aspose.3D für Java-Bibliothek installiert. Sie können es hier herunterladen[Aspose-Website](https://releases.aspose.com/3d/java/).
+-  Aspose.3D für Java-Bibliothek installiert. Sie können es hier herunterladen[Aspose-Website](https://releases.aspose.com/3d/java/).
 - Eine integrierte Entwicklungsumgebung (IDE), die für die Java-Entwicklung eingerichtet wurde.
 
 ## Pakete importieren
@@ -76,7 +76,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```java
 // Erfolgsmeldung anzeigen
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
-//ExEnd:SplitMeshbyMaterial
+// ExEnd:SplitMeshbyMaterial
 ```
 
 ## Abschluss
@@ -103,4 +103,4 @@ A2: Auf jeden Fall! Diese Methode lässt sich gut für komplexe 3D-Modelle skali
 
 ### F5: Wie kann ich bei Problemen oder Fragen Unterstützung erhalten?
 
-A5: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) für die engagierte Unterstützung der Community.
+ A5: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) für die engagierte Unterstützung der Community.

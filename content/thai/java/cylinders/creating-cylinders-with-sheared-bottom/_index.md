@@ -45,7 +45,7 @@ Scene scene = new Scene();
 // สร้างกระบอกสูบ 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // แรงเฉือนด้านล่างแบบกำหนดเองสำหรับกระบอกสูบ 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // แรงเฉือน 47.5 องศาในระนาบ xy (แกน z)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //แรงเฉือน 47.5 องศาในระนาบ xy (แกน z)
 // เพิ่มกระบอก 1 เข้าไปในฉาก
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // สิ้นสุด:4

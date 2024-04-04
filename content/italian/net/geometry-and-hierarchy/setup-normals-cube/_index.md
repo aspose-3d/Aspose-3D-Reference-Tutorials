@@ -1,6 +1,6 @@
 ---
-title: Impostazione delle normali sul cubo nelle scene 3D
-linktitle: Impostazione delle normali sul cubo nelle scene 3D
+title: Impostazione delle normali sul cubo
+linktitle: Impostazione delle normali sul cubo
 second_title: API Aspose.3D .NET
 description: Impara a impostare le normali su un cubo 3D utilizzando Aspose.3D per .NET. Migliora le tue capacità di modellazione 3D con questa guida passo passo.
 type: docs

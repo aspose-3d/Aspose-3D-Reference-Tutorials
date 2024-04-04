@@ -97,7 +97,7 @@ props["Diffuse"] = new Vector3(1, 0, 1);
 Получите экземпляр свойства по его имени для дальнейших манипуляций.
 
 ```csharp
-//Эксстарт: GetPropertyInstanceByName
+//Эксстарт: Жетпропертинстанцебинаме
 Property pdiffuse = props.FindProperty("Diffuse");
 Console.WriteLine(pdiffuse);
 //Эксенд: Жетпропертинстанцебинаме
@@ -105,7 +105,7 @@ Console.WriteLine(pdiffuse);
 
 ## Шаг 6: Обход свойств свойства
 
- С`Property` унаследован от`A3DObject`, вы можете просматривать свойства свойства.
+ С`Property` унаследован от`A3DObject`вы можете просматривать свойства свойства.
 
 ```csharp
 //ExStart: Траверспропертипропертиес

@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## चरण 5: दृश्य सहेजें
 
-कॉन्फ़िगर किए गए दृश्य को वांछित फ़ाइल स्वरूप, जैसे .3ds में निर्दिष्ट आउटपुट निर्देशिका में सहेजें।
+कॉन्फ़िगर किए गए दृश्य को वांछित फ़ाइल स्वरूप, जैसे .fbx, में निर्दिष्ट आउटपुट निर्देशिका में सहेजें।
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## निष्कर्ष
@@ -98,7 +98,7 @@ A1: Aspose.3D लोकप्रिय 3D मॉडलिंग टूल के
 
 ### Q4: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
 
- उ4: हां, आप निःशुल्क परीक्षण का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
+उ4: हां, आप निःशुल्क परीक्षण का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
 
 ### Q5: मैं अस्थायी लाइसेंस कैसे प्राप्त करूं?
 

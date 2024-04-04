@@ -53,7 +53,7 @@ scene.getAssetInfo().setUnitName("pole");
 scene.getAssetInfo().setUnitScaleFactor(0.6);
 ```
 
-3D sahneniz için ölçü birimlerini tanımlayın. Bu örnekte eski Mısır birimlerini kullanıyoruz.
+3D sahneniz için ölçüm birimlerini tanımlayın. Bu örnekte eski Mısır birimlerini kullanıyoruz.
 
 ## Adım 4: Sahneyi Dosyaya Kaydetme
 

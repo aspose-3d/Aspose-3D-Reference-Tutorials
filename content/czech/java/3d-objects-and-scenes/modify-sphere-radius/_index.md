@@ -94,7 +94,7 @@ Gratulujeme! Úspěšně jste upravili poloměr 3D koule pomocí Aspose.3D for J
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.3D pro Java?
 
- A3: Ano, můžete prozkoumat funkce s bezplatnou zkušební verzí návštěvou[Aspose.3D zkušební verze zdarma](https://releases.aspose.com/).
+ A3: Ano, můžete prozkoumat funkce s bezplatnou zkušební verzí návštěvou[Bezplatná zkušební verze Aspose.3D](https://releases.aspose.com/).
 
 ### Q4: Kde mohu získat podporu pro Aspose.3D pro Java?
 

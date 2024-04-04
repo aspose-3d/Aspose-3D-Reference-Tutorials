@@ -105,7 +105,7 @@ Console.WriteLine(pdiffuse);
 
 ## Passaggio 6: proprietà della proprietà Traverse
 
- Da`Property` è ereditato da`A3DObject`, è possibile attraversare le proprietà di una proprietà.
+ Da`Property` è ereditato da`A3DObject`è possibile attraversare le proprietà di una proprietà.
 
 ```csharp
 //ExStart: TraversePropertyProperties

@@ -117,6 +117,6 @@ A1: Aspose.3D terutama dirancang untuk Java, namun Aspose menawarkan versi untuk
 
  A4: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/3d/java/).
 
-### Q5: Bisakah saya membeli lisensi sementara untuk Aspose.3D?
+### Q5: Dapatkah saya membeli lisensi sementara untuk Aspose.3D?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).

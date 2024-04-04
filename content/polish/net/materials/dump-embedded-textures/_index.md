@@ -66,7 +66,7 @@ Odp.: Aspose.3D obsługuje głównie języki .NET, ale możesz eksplorować opak
 ### P: Czy przed zakupem dostępna jest wersja próbna?
  Odp.: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 ### P: Jak mogę szukać pomocy lub angażować się w dyskusje na temat Aspose.3D?
- O: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczne.
+ O: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności.
 ### P: Czy mogę uzyskać tymczasową licencję do celów testowych?
  Odpowiedź: Tak, dostępna jest licencja tymczasowa[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę znaleźć obszerną dokumentację dla Aspose.3D?

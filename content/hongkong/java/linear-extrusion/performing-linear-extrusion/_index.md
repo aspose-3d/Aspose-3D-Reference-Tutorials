@@ -2,7 +2,7 @@
 title: 在 Aspose.3D for Java 中執行線性擠出
 linktitle: 在 Aspose.3D for Java 中執行線性擠出
 second_title: Aspose.3D Java API
-description: 使用 Aspose.3D for Java 探索 3D 建模世界。學習輕鬆執行線性擠壓。
+description: 使用 Aspose.3D for Java 探索 3D 建模世界。學習輕鬆執行線性擠出。
 type: docs
 weight: 10
 url: /zh-hant/java/linear-extrusion/performing-linear-extrusion/

@@ -1,6 +1,6 @@
 ---
-title: Membuat Silinder Kipas Khusus dengan Aspose.3D untuk Java
-linktitle: Membuat Silinder Kipas Khusus dengan Aspose.3D untuk Java
+title: Membuat Silinder Kipas yang Disesuaikan dengan Aspose.3D untuk Java
+linktitle: Membuat Silinder Kipas yang Disesuaikan dengan Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Pelajari cara membuat silinder kipas khusus di Java dengan Aspose.3D. Tingkatkan permainan pemodelan 3D Anda dengan mudah.
 type: docs
@@ -15,7 +15,7 @@ Apakah Anda siap untuk meningkatkan pengalaman pemodelan 3D Anda dengan Aspose.3
 
 Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
--  Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di sistem Anda. Anda dapat mengunduhnya[Di Sini](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di sistem Anda. Anda dapat mengunduhnya[Di Sini](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 -  Aspose.3D untuk Java: Unduh dan instal perpustakaan Aspose.3D untuk Java dari[tautan unduhan](https://releases.aspose.com/3d/java/).
 

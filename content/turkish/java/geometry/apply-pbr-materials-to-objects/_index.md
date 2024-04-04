@@ -19,7 +19,7 @@ Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin o
 
 2.  Aspose.3D Kütüphanesi: Aspose.3D kütüphanesini şuradan indirip yükleyin:[İndirme: {link](https://releases.aspose.com/3d/java/).
 
-3.  Dokümantasyon: Bkz.[dokümantasyon](https://reference.aspose.com/3d/java/) Aspose.3D'nin kitaplığın özelliklerini tanımasını sağlayın.
+3.  Dokümantasyon: Bkz.[dokümantasyon](https://reference.aspose.com/3d/java/)Aspose.3D'nin kitaplığın özelliklerini tanımasını sağlayın.
 
 4.  Geçici Lisans (Opsiyonel): Lisansınız yoksa geçici lisans alabilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/) test için.
 
@@ -72,7 +72,7 @@ Uygulanan PBR materyali de dahil olmak üzere 3B sahneyi STL gibi belirli bir do
 ```java
 // ExStart:3DScene'i Kaydet
 scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
-// ExEnd:3DScene'i Kaydet
+//ExEnd:3DScene'i Kaydet
 ```
 
 Daha karmaşık sahneler veya farklı nesneler için bu adımları tekrarlayın.

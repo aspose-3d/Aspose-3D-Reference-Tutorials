@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## الخطوة 4: أشر العقدة إلى الشبكة
 
 ```java
-//نقطة العقدة إلى الشبكة
+// نقطة العقدة إلى الشبكة
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // قم بتعيين اسم الملف
 MyDir = MyDir + "MaterialToCube.fbx";
-//حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
+// حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

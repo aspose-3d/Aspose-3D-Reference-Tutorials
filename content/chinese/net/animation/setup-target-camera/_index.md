@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## 第 5 步：保存场景
 
-以所需的文件格式（例如 .3ds）将配置的场景保存到指定的输出目录。
+将配置的场景以所需的文件格式（例如 .fbx）保存到指定的输出目录。
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## 结论
@@ -98,7 +98,7 @@ A2：当然！ Aspose.3D 使开发人员能够轻松为游戏创建 3D 资产。
 
 ### Q4：有免费试用吗？
 
- A4：是的，您可以探索免费试用[这里](https://releases.aspose.com/).
+A4：是的，您可以探索免费试用[这里](https://releases.aspose.com/).
 
 ### Q5：如何获得临时驾照？
 

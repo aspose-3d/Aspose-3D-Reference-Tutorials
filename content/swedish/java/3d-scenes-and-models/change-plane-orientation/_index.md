@@ -16,7 +16,7 @@ Välkommen till vår steg-för-steg-guide för att förbättra 3D-scenpositioner
 Innan vi ger oss ut på denna resa, se till att du har följande förutsättningar på plats:
 
 - En grundläggande förståelse för Java-programmering.
--  Aspose.3D för Java installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/java/).
+- Aspose.3D för Java installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/java/).
 - En utvecklingsmiljö redo för Java-kodning.
 
 ## Importera paket
@@ -101,7 +101,7 @@ S1: Ja, Aspose.3D stöder olika programmeringsspråk, inklusive Java, .NET och m
 
 ### F2: Finns en gratis testversion tillgänglig för Aspose.3D?
 
-A2: Visst! Du kan utforska funktionerna i Aspose.3D genom att få tillgång till den kostnadsfria provperioden[här](https://releases.aspose.com/).
+ A2: Visst! Du kan utforska funktionerna i Aspose.3D genom att få tillgång till den kostnadsfria provperioden[här](https://releases.aspose.com/).
 
 ### F3: Var kan jag hitta support för Aspose.3D?
 

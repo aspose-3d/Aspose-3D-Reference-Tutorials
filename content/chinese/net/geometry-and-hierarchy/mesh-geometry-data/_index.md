@@ -1,6 +1,6 @@
 ---
-title: 在 3D 场景中使用网格几何数据
-linktitle: 在 3D 场景中使用网格几何数据
+title: 使用网格几何数据
+linktitle: 使用网格几何数据
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 掌握 3D 图形编程的艺术。轻松创建、操作和保存令人惊叹的 3D 场景。
 type: docs
@@ -9,7 +9,7 @@ url: /zh/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
 ## 介绍
 
-欢迎来到使用 Aspose.3D for .NET 进行 3D 图形编程的激动人心的世界！在本教程中，我们将使用 Aspose.3D（面向 .NET 开发人员的强大且多功能的库）深入研究在 3D 场景中处理网格几何数据的复杂性。无论您是经验丰富的程序员还是刚刚开始接触 3D 图形，本分步指南都将帮助您轻松掌握处理网格几何数据的艺术。
+欢迎来到使用 Aspose.3D for .NET 进行 3D 图形编程的激动人心的世界！在本教程中，我们将使用 Aspose.3D（面向 .NET 开发人员的强大且多功能的库）深入研究在 3D 场景中处理网格几何数据的复杂性。无论您是经验丰富的程序员还是刚刚开始使用 3D 图形，本分步指南都将帮助您轻松掌握处理网格几何数据的艺术。
 
 ## 先决条件
 
@@ -17,7 +17,7 @@ url: /zh/net/geometry-and-hierarchy/mesh-geometry-data/
 
 - 具备 C# 和 .NET 编程的实用知识。
 - Visual Studio 安装在您的计算机上。
--  Aspose.3D for .NET 库，您可以下载[这里](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET 库，您可以下载[这里](https://releases.aspose.com/3d/net/).
 
 现在您已准备就绪，让我们进入 3D 图形编程的迷人世界吧！
 

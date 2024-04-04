@@ -1,6 +1,6 @@
 ---
-title: Csomópont átalakítása Quaternion által 3D-s jelenetekben
-linktitle: Csomópont átalakítása Quaternion által 3D-s jelenetekben
+title: Csomópont átalakítása Quaternion által
+linktitle: Csomópont átalakítása Quaternion által
 second_title: Aspose.3D .NET API
 description: Tanuljon meg 3D csomópontokat kvaterniók segítségével átalakítani az Aspose.3D for .NET használatával. Lépésről lépésre útmutató kezdőknek.
 type: docs
@@ -23,7 +23,7 @@ Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a követ
 
 ## Névterek importálása
 
-A .NET-projektben adja meg az Aspose.3D szükséges névtereit:
+.NET-projektben adja meg az Aspose.3D szükséges névtereit:
 
 ```csharp
 using System;
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // A dokumentumok könyvtárának elérési útja.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//Mentse a 3D jelenetet a támogatott fájlformátumokba
+// Mentse a 3D jelenetet a támogatott fájlformátumokba
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## Következtetés
 
-Gratulálunk! Sikeresen megtanulta, hogyan lehet egy csomópontot kvaternióval átalakítani 3D-s jelenetekben az Aspose.3D for .NET használatával. Fedezzen fel további funkciókat és lehetőségeket a[dokumentáció](https://reference.aspose.com/3d/net/).
+ Gratulálunk! Sikeresen megtanulta, hogyan lehet egy csomópontot kvaternióval átalakítani 3D-s jelenetekben az Aspose.3D for .NET használatával. Fedezzen fel további funkciókat és lehetőségeket a[dokumentáció](https://reference.aspose.com/3d/net/).
 
 ## GYIK
 

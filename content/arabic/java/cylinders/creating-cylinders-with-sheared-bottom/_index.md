@@ -45,7 +45,7 @@ Scene scene = new Scene();
 // إنشاء اسطوانة 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // تخصيص أسفل القص للاسطوانة 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // القص 47.5 درجة في المستوى xy (المحور z)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //القص 47.5 درجة في المستوى xy (المحور z)
 // أضف الاسطوانة 1 إلى المشهد
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // النهاية:4

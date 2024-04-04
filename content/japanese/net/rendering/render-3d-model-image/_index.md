@@ -84,7 +84,7 @@ A: Aspose.3D はさまざまな 3D モデル形式をサポートしており、
 ### Q: レンダリングの問題をトラブルシューティングするにはどうすればよいですか?
  A: Aspose.3D を確認してください。[フォーラム](https://forum.aspose.com/c/3d/18)一般的なレンダリングの問題に対するサポートと解決策については、こちらをご覧ください。
 ### Q: 無料トライアルはありますか?
- A: はい、Aspose.3D の機能を調べるには、[無料トライアル](https://releases.aspose.com/).
+A: はい、Aspose.3D の機能を調べるには、[無料トライアル](https://releases.aspose.com/).
 ### Q: 包括的なドキュメントはどこで入手できますか?
  A: を参照してください。[ドキュメンテーション](https://reference.aspose.com/3d/net/) Aspose.3D for .NET の詳細なガイダンスについては、「Aspose.3D for .NET」を参照してください。
 ### Q: Aspose.3D for .NET を購入するにはどうすればよいですか?

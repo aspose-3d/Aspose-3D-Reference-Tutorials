@@ -1,6 +1,6 @@
 ---
-title: Laden en opslaan - CancellationToken gebruiken
-linktitle: Laden en opslaan - CancellationToken gebruiken
+title: CancellationToken gebruiken
+linktitle: CancellationToken gebruiken
 second_title: Aspose.3D .NET-API
 description: Ontdek de naadloze wereld van 3D-modellering met Aspose.3D voor .NET. Leer hoe u 3D-documenten efficiënt kunt laden en opslaan met CancellationToken.
 type: docs
@@ -78,7 +78,7 @@ catch (ImportException e)
 }
 ```
 
- Probeer het 3D-document binnen het opgegeven tijdsbestek te openen. De`cts.Token`parameter zorgt ervoor dat de bewerking kan worden geannuleerd als deze de ingestelde time-out overschrijdt.
+ Probeer het 3D-document binnen het opgegeven tijdsbestek te openen. De`cts.Token` parameter zorgt ervoor dat de bewerking kan worden geannuleerd als deze de ingestelde time-out overschrijdt.
 
 ### Stap 5: Importuitzondering afhandelen
 

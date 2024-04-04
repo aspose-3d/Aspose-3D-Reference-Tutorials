@@ -31,7 +31,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 ```
 
-## Langkah 1: Inisialisasi Objek Adegan
+## Langkah 1: Inisialisasi Objek Pemandangan
 
 ```java
 // Inisialisasi objek adegan
@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## Langkah 4: Arahkan Node ke Mesh
 
 ```java
-//Arahkan simpul ke jaring
+// Arahkan simpul ke jaring
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // Tetapkan nama file
 MyDir = MyDir + "MaterialToCube.fbx";
-//Simpan adegan 3D dalam format file yang didukung
+// Simpan adegan 3D dalam format file yang didukung
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

@@ -1,6 +1,6 @@
 ---
-title: 將 PBR 材質應用於 3D 場景中的盒子
-linktitle: 將 PBR 材質應用於 3D 場景中的盒子
+title: 將 PBR 材質應用到盒子上
+linktitle: 將 PBR 材質應用到盒子上
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 圖形世界。使用基於物理的渲染材質輕鬆創建身臨其境的場景。
 type: docs
@@ -104,7 +104,7 @@ A2：當然！ Aspose.3D 提供商業許可證，可無縫整合到您的應用�
 
 ### Q3：有試用版嗎？
 
-A3：是的，您可以透過下載免費試用版來探索 Aspose.3D 的功能[這裡](https://releases.aspose.com/).
+ A3：是的，您可以透過下載免費試用版來探索 Aspose.3D 的功能[這裡](https://releases.aspose.com/).
 
 ### Q4：我可以在哪裡找到社區支持和討論？
 

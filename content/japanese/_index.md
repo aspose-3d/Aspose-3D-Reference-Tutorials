@@ -20,20 +20,13 @@ Aspose.3D for .NET チュートリアルで 3D 設計と開発の可能性を探
  
 - [3Dモデリング](./net/3d-modeling/)
 - [3Dシーン](./net/3d-scene/)
-- [3D ビューポート](./net/3d-viewports/)
 - [アニメーション](./net/animation/)
-- [資産情報](./net/asset-information/)
 - [ジオメトリと階層](./net/geometry-and-hierarchy/)
 - [ライセンス](./net/license/)
 - [ロードと保存](./net/loading-and-saving/)
 - [材料](./net/materials/)
-- [ポリゴン](./net/polygons/)
 - [レンダリング](./net/rendering/)
-- [線形押出](./net/linear-extrusion/)
-- [オブジェクト](./net/objects/)
-- [シリンダーの操作](./net/working-with-cylinder/)
-- [点群の操作](./net/working-with-point-cloud/)
-- [VRML の操作](./net/working-with-vrml/)
+- [メッシュ](./net/meshes/)
 
 ## Aspose.3D for Java チュートリアル
 {{% alert color="primary" %}}

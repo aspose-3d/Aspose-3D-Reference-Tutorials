@@ -1,6 +1,6 @@
 ---
-title: 3डी दृश्यों में क्वाटरनियन द्वारा नोड को बदलना
-linktitle: 3डी दृश्यों में क्वाटरनियन द्वारा नोड को बदलना
+title: क्वाटरनियन द्वारा नोड का रूपांतरण
+linktitle: क्वाटरनियन द्वारा नोड का रूपांतरण
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D का उपयोग करके 3D नोड्स को चतुर्भुज के साथ बदलना सीखें। शुरुआती लोगों के लिए चरण-दर-चरण मार्गदर्शिका।
 type: docs
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // दस्तावेज़ निर्देशिका का पथ.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
+// समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByQuatermion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## निष्कर्ष
 
-बधाई हो! आपने .NET के लिए Aspose.3D का उपयोग करके 3D दृश्यों में क्वाटरनियन द्वारा एक नोड को बदलने का तरीका सफलतापूर्वक सीखा है। का संदर्भ लेकर अधिक सुविधाओं और संभावनाओं का अन्वेषण करें[प्रलेखन](https://reference.aspose.com/3d/net/).
+ बधाई हो! आपने .NET के लिए Aspose.3D का उपयोग करके 3D दृश्यों में क्वाटरनियन द्वारा एक नोड को बदलने का तरीका सफलतापूर्वक सीखा है। का संदर्भ लेकर अधिक सुविधाओं और संभावनाओं का अन्वेषण करें[प्रलेखन](https://reference.aspose.com/3d/net/).
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

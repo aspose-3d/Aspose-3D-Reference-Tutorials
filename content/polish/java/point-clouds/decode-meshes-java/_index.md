@@ -35,7 +35,7 @@ import java.io.IOException;
 
 ### Krok 1: Zainicjuj PointCloud
 
- Rozpocznij od inicjalizacji a`PointCloud` obiekt. Poniższy fragment kodu demonstruje ten krok:
+ Rozpocznij od inicjalizacji a`PointCloud` obiekt. Poniższy fragment kodu ilustruje ten krok:
 
 ```java
 // ExStart:1
@@ -81,7 +81,7 @@ A1: Absolutnie! Biblioteka zapewnia przyjazny interfejs użytkownika i obszerną
 
 ### P3: Jak mogę uzyskać wsparcie dla Aspose.3D dla Java?
 
- A3: Dołącz do społeczności pod adresem[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) do interakcji z innymi użytkownikami i uzyskania pomocy ekspertów.
+A3: Dołącz do społeczności pod adresem[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) do interakcji z innymi użytkownikami i uzyskania pomocy ekspertów.
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 

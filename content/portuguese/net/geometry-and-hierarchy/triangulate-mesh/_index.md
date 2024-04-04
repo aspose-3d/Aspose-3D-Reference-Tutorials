@@ -1,6 +1,6 @@
 ---
-title: Triangulação de malha em cenas 3D
-linktitle: Triangulação de malha em cenas 3D
+title: Malha Triangulante
+linktitle: Malha Triangulante
 second_title: API Aspose.3D .NET
 description: Explore o poder do Aspose.3D para .NET neste guia passo a passo. Aprenda como triangular malhas 3D sem esforço para modelagem aprimorada.
 type: docs
@@ -17,7 +17,7 @@ Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisito
 
 - Biblioteca Aspose.3D para .NET: Certifique-se de ter a biblioteca Aspose.3D instalada. Você pode baixá-lo[aqui](https://releases.aspose.com/3d/net/).
 
-- Modelo 3D de amostra: tenha um modelo 3D no formato FBX que deseja triangular. Você pode usar o fornecido[documento.fbx](https://reference.aspose.com/3d/net/) arquivo para praticar.
+-  Modelo 3D de amostra: tenha um modelo 3D no formato FBX que deseja triangular. Você pode usar o fornecido[documento.fbx](https://reference.aspose.com/3d/net/) arquivo para praticar.
 
 ## Importar namespaces
 

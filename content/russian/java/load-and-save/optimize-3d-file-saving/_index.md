@@ -40,7 +40,7 @@ import java.nio.file.Paths;
 
 ## Шаг 1. Красивая печать в GLTF SaveOption
 
-`prettyPrintInGltfSaveOption` Метод позволяет создать файл GLTF с содержимым JSON с отступом для удобства чтения человеком.
+`prettyPrintInGltfSaveOption` Метод позволяет генерировать файл GLTF с содержимым JSON с отступом для удобства чтения человеком.
 
 ```java
 public static void prettyPrintInGltfSaveOption() throws IOException {

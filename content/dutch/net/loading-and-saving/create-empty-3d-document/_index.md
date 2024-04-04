@@ -1,6 +1,6 @@
 ---
-title: Laden en opslaan - Een leeg 3D-document maken
-linktitle: Laden en opslaan - Een leeg 3D-document maken
+title: Een leeg 3D-document maken
+linktitle: Een leeg 3D-document maken
 second_title: Aspose.3D .NET-API
 description: Ontdek de wereld van het maken van 3D-documenten met Aspose.3D voor .NET. Creëer, bewerk en bewaar moeiteloos verbluffende 3D-scènes.
 type: docs
@@ -46,7 +46,7 @@ var output = "Your Output Directory" + "document.fbx";
 Scene scene = new Scene();
 
 // Sla het 3D-scènedocument op in FBX-formaat
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 
 // ExEnd: Maak een leeg 3D-document
 ```

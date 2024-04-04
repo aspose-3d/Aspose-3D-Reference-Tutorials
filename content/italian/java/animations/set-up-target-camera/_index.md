@@ -97,4 +97,4 @@ Congratulazioni! Hai configurato con successo una fotocamera di destinazione per
 
 ### Q5: Come posso ottenere una licenza temporanea?
 
-A5: È possibile acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+ A5: È possibile acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).

@@ -70,7 +70,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "CubeScene.fbx";
 
-//Simpan adegan 3D dalam format file yang didukung
+// Simpan adegan 3D dalam format file yang didukung
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

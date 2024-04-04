@@ -16,7 +16,7 @@ Välkommen till denna steg-för-steg-guide om att transformera 3D-noder med quat
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
 - Grundläggande kunskaper i Java-programmering.
--  Aspose.3D för Java installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/java/).
+- Aspose.3D för Java installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/java/).
 - En dokumentkatalog inrättad för att spara dina 3D-scener.
 
 ## Importera paket

@@ -1,6 +1,6 @@
 ---
-title: PBR-anyag alkalmazása a dobozra 3D-s jelenetekben
-linktitle: PBR-anyag alkalmazása a dobozra 3D-s jelenetekben
+title: PBR anyag felvitele a dobozra
+linktitle: PBR anyag felvitele a dobozra
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D grafika világát az Aspose.3D for .NET segítségével. Hozzon létre magával ragadó jeleneteket erőfeszítés nélkül a fizikai alapú renderelő anyagok segítségével.
 type: docs
@@ -9,7 +9,7 @@ url: /hu/net/geometry-and-hierarchy/apply-pbr-material-to-box/
 ---
 ## Bevezetés
 
-Üdvözöljük a 3D grafika lenyűgöző világában! Ebben a lépésről lépésre bemutatjuk a hatékony Aspose.3D for .NET könyvtárat, és megtanuljuk, hogyan lehet lenyűgöző 3D-s jeleneteket létrehozni fizikai alapú renderelés (PBR) anyagok segítségével. Az Aspose.3D leegyszerűsíti a 3D grafika összetett folyamatát, és lehetőségek tárházát nyitja meg a fejlesztők előtt.
+Üdvözöljük a 3D grafika lenyűgöző világában! Ebben a lépésről lépésre bemutatjuk a hatékony Aspose.3D for .NET könyvtárat, és megtanuljuk, hogyan készítsünk lenyűgöző 3D-s jeleneteket fizikai alapú renderelés (PBR) anyagok segítségével. Az Aspose.3D leegyszerűsíti a 3D grafika összetett folyamatát, és lehetőségek tárházát nyitja meg a fejlesztők előtt.
 
 ## Előfeltételek
 
@@ -21,7 +21,7 @@ Mielőtt belevetnénk magunkat a 3D grafika izgalmas világába, győződjünk m
 
 ### Szerezzen licencet
 
- Az Aspose.3D teljes potenciáljának kiaknázásához szerezzen be érvényes licencet. Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) vagy vásároljon teljes licencet[itt](https://purchase.aspose.com/buy).
+Az Aspose.3D teljes potenciáljának kiaknázásához szerezzen be érvényes licencet. Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) vagy vásároljon teljes licencet[itt](https://purchase.aspose.com/buy).
 
 ## Névterek importálása
 
@@ -104,7 +104,7 @@ A2: Abszolút! Az Aspose.3D kereskedelmi licenceket biztosít az alkalmazásokba
 
 ### 3. kérdés: Elérhető próbaverzió?
 
-3. válasz: Igen, felfedezheti az Aspose.3D képességeit az ingyenes próbaverzió letöltésével[itt](https://releases.aspose.com/).
+ 3. válasz: Igen, felfedezheti az Aspose.3D képességeit az ingyenes próbaverzió letöltésével[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hol találok közösségi támogatást és megbeszéléseket?
 

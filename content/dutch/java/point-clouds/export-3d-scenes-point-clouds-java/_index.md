@@ -65,7 +65,7 @@ opt.setPointCloud(true);
 Sla de 3D-scène op als puntenwolk in de gewenste map:
 
 ```java
-// Redden
+//Redden
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 
@@ -83,7 +83,7 @@ Gefeliciteerd! U hebt met succes een 3D-scène als puntenwolk geëxporteerd met 
 
  A2: Download de bibliotheek[hier](https://releases.aspose.com/3d/java/).
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+### Vraag 3: Is er een gratis proefperiode beschikbaar?
 
  A3: Ja, ontdek de gratis proefperiode[hier](https://releases.aspose.com/).
 

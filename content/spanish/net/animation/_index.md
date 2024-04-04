@@ -4,7 +4,7 @@ linktitle: Animación
 second_title: Aspose.3D API .NET
 description: Desbloquee el mundo de la animación 3D con los tutoriales de Aspose.3D para .NET. Aprenda a animar propiedades y configurar objetivos y cámaras para escenas dinámicas sin esfuerzo.
 type: docs
-weight: 23
+weight: 30
 url: /es/net/animation/
 ---
 ## Introducción
@@ -12,7 +12,7 @@ url: /es/net/animation/
 ¡Bienvenido al fascinante reino de la animación 3D con Aspose.3D para .NET! En esta guía completa, exploraremos dos tutoriales esenciales que le permitirán crear escenas 3D cautivadoras y dinámicas. ¡Embárquemonos juntos en este emocionante viaje!
 
 ## Animar propiedades para documentar en escenas 3D
- ¿Estás listo para darle vida a tus creaciones 3D? Nuestro primer tutorial,[Animar propiedades para documentar en escenas 3D](./property-to-document/)es la clave para desbloquear la magia de Aspose.3D para .NET. En esta guía paso a paso, lo guiaremos a través del proceso de animación de propiedades 3D, permitiéndole infundir a sus escenas movimiento dinámico y realismo.
+¿Estás listo para darle vida a tus creaciones 3D? Nuestro primer tutorial,[Animar propiedades para documentar en escenas 3D](./property-to-document/), es la clave para desbloquear la magia de Aspose.3D para .NET. En esta guía paso a paso, lo guiaremos a través del proceso de animación de propiedades 3D, permitiéndole infundir a sus escenas movimiento dinámico y realismo.
 
 ### ¿Por qué deberías explorar este tutorial?
 - Animación sin esfuerzo: descubra cómo animar propiedades sin problemas, dando vida a sus modelos 3D con facilidad.

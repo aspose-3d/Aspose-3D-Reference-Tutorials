@@ -9,7 +9,7 @@ url: /cs/java/linear-extrusion/applying-twist/
 ---
 ## Úvod
 
-Vítejte v tomto podrobném návodu na použití zkroucení při lineárním vytlačování pomocí Aspose.3D pro Java. Aspose.3D je výkonná Java knihovna, která umožňuje vývojářům pracovat s 3D formáty souborů a nabízí robustní funkce pro vytváření, manipulaci a vykreslování 3D scén. V tomto tutoriálu prozkoumáme, jak použít efekt kroucení během procesu lineárního vytlačování pro vylepšení vašich 3D modelů.
+Vítejte v tomto podrobném návodu na použití zkroucení při lineárním vytlačování pomocí Aspose.3D pro Java. Aspose.3D je výkonná Java knihovna, která umožňuje vývojářům pracovat s 3D formáty souborů a nabízí robustní funkce pro vytváření, manipulaci a renderování 3D scén. V tomto tutoriálu prozkoumáme, jak použít efekt kroucení během procesu lineárního vytlačování pro vylepšení vašich 3D modelů.
 
 ## Předpoklady
 
@@ -91,7 +91,7 @@ Uložte 3D scénu ve formátu souboru Wavefront OBJ.
 ```java
 // ExStart:Save3DScene
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-// ExEnd:Save3DScene
+//ExEnd:Save3DScene
 ```
 
 ## Závěr

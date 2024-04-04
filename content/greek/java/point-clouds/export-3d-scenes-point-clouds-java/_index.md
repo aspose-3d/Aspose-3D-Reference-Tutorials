@@ -65,7 +65,7 @@ opt.setPointCloud(true);
 Αποθηκεύστε την τρισδιάστατη σκηνή ως σύννεφο σημείων στον επιθυμητό κατάλογο:
 
 ```java
-// Αποθηκεύσετε
+//Αποθηκεύσετε
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 

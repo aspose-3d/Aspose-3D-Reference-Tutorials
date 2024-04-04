@@ -1,6 +1,6 @@
 ---
-title: Transforming Node pomocí Transformation Matrix ve 3D scénách
-linktitle: Transforming Node pomocí Transformation Matrix ve 3D scénách
+title: Transformace uzlu pomocí transformační matice
+linktitle: Transformace uzlu pomocí transformační matice
 second_title: Aspose.3D .NET API
 description: Transformujte uzly bez námahy ve 3D scénách pomocí Aspose.3D for .NET. Naučte se krok za krokem transformace uzlů pomocí kurzu.
 type: docs
@@ -9,7 +9,7 @@ url: /cs/net/geometry-and-hierarchy/transformation-node-matrix/
 ---
 ## Úvod
 
-V dynamické oblasti 3D grafiky a vizualizací je schopnost manipulovat s objekty ve scéně zásadním aspektem. Aspose.3D for .NET umožňuje vývojářům bezproblémově transformovat uzly pomocí transformačních matic, čímž přidává vrstvu kreativity a kontroly do 3D scén. Tento tutoriál vás krok za krokem provede procesem transformace uzlu ve 3D scéně.
+V dynamické oblasti 3D grafiky a vizualizací je schopnost manipulovat s objekty ve scéně zásadním aspektem. Aspose.3D for .NET umožňuje vývojářům bezproblémově transformovat uzly pomocí transformačních matic a přidat do 3D scén vrstvu kreativity a kontroly. Tento tutoriál vás krok za krokem provede procesem transformace uzlu ve 3D scéně.
 
 ## Předpoklady
 
@@ -17,7 +17,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte splněny násl
 
 1.  Knihovna Aspose.3D for .NET: Ujistěte se, že máte ve svém projektu .NET nainstalovanou knihovnu Aspose.3D. Můžete si jej stáhnout[tady](https://releases.aspose.com/3d/net/).
 
-2. Vývojové prostředí: Nastavte funkční vývojové prostředí .NET, a pokud jste tak ještě neučinili, vytvořte nový projekt, ve kterém budete implementovat transformace.
+2. Vývojové prostředí: Nastavte funkční vývojové prostředí .NET, a pokud jste tak ještě neudělali, vytvořte nový projekt, kde budete implementovat transformace.
 
 ## Importovat jmenné prostory
 
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 Nyní, když jsme probrali základy, pojďme si rozdělit proces transformace na průvodce krok za krokem.
 
-## Krok 1: Inicializujte scénu a uzel
+## Krok 1: Inicializujte scénu
 
 ```csharp
 // ExStart:AddTransformationToNodeByTransformationMatrix
 // Inicializujte objekt scény
 Scene scene = new Scene();
 
-// Inicializujte objekt třídy Node
-Node cubeNode = new Node("cube");
 ```
 
-V tomto kroku vytvoříme novou 3D scénu a uzel pojmenovaný „kostka“ v rámci této scény.
+V tomto kroku vytvoříme novou prázdnou 3D scénu.
 
-## Krok 2: Vytvořte síť a nastavte geometrii
+## Krok 2: Vytvořte síť a připojte ji ke scéně
 
 ```csharp
 // Volejte Common class create mesh pomocí metody polygon builder pro nastavení instance mesh
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// Bodový uzel ke geometrii sítě
-cubeNode.Entity = mesh;
+// Vytvořte uzel kontejneru pro síť.
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 Zde vygenerujeme síť pomocí metody polygon builder a přiřadíme ji k uzlu, čímž vytvoříme geometrii pro naši krychli.
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 Definujte vlastní matici překladu, abyste určili konkrétní transformaci použitou na uzel. Upravte hodnoty matice podle potřeby pro požadovanou transformaci.
 
-## Krok 4: Přidejte uzel do scény
-
-```csharp
-// Přidejte kostku na scénu
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 Zahrňte uzel krychle do scény, čímž se stane součástí celkového 3D prostředí.
 
-## Krok 5: Uložte scénu
+## Krok 4: Uložte scénu
 
 ```csharp
 // Cesta k adresáři dokumentů.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Uložte 3D scénu v podporovaných formátech souborů
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Uložte 3D scénu v podporovaných formátech souborů
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ Odpověď 2: Ano, můžete kombinovat více transformací vynásobením jejich p
 
 ### Q4: Jak mohu získat dočasnou licenci pro Aspose.3D for .NET?
 
- A4: Navštivte[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/) na webu Aspose k získání dočasné licence pro účely hodnocení.
+ A4: Navštivte[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/)na webu Aspose k získání dočasné licence pro účely hodnocení.
 
 ### Otázka 5: Kde mohu vyhledat pomoc nebo se spojit s komunitou Aspose.3D?
 
-A5: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) klást otázky, sdílet zkušenosti a spojit se s ostatními vývojáři pomocí Aspose.3D.
+ A5: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) klást otázky, sdílet zkušenosti a spojit se s ostatními vývojáři pomocí Aspose.3D.

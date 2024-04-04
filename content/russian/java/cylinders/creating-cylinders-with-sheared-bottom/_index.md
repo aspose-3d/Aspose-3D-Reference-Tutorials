@@ -45,7 +45,7 @@ Scene scene = new Scene();
 // Создать цилиндр 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // Индивидуальное срезное дно для цилиндра 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // Сдвиг 47,5 градусов в плоскости xy (ось z)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //Сдвиг 47,5 градусов в плоскости xy (ось z)
 // Добавьте цилиндр 1 в сцену
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // ExEnd:4

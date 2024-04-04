@@ -105,7 +105,7 @@ Console.WriteLine(pdiffuse);
 
 ## Paso 6: atravesar las propiedades de la propiedad
 
- Desde`Property` se hereda de`A3DObject`, puede recorrer las propiedades de una propiedad.
+ Desde`Property` se hereda de`A3DObject`puede recorrer las propiedades de una propiedad.
 
 ```csharp
 //ExStart: TraversePropertyPropiedades

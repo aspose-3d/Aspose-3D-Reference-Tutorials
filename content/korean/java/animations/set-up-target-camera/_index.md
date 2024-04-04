@@ -9,7 +9,7 @@ url: /ko/java/animations/set-up-target-camera/
 ---
 ## 소개
 
-Aspose.3D를 사용하여 Java에서 3D 애니메이션용 대상 카메라를 설정하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 숙련된 개발자이거나 Java에서 3D 애니메이션을 처음 시작하는 경우에도 이 튜토리얼은 명확하고 간결한 지침을 통해 프로세스를 안내합니다.
+Aspose.3D를 사용하여 Java에서 3D 애니메이션용 대상 카메라를 설정하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 숙련된 개발자이든 이제 막 Java로 3D 애니메이션을 시작하는 사람이든 이 튜토리얼은 명확하고 간결한 지침을 통해 프로세스를 안내합니다.
 
 ## 전제 조건
 
@@ -97,4 +97,4 @@ scene.save(MyDir, FileFormat.DISCREET3DS);
 
 ### Q5: 임시 라이센스는 어떻게 얻을 수 있나요?
 
-A5: 임시 라이센스를 취득할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+ A5: 임시 라이센스를 취득할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).

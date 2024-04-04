@@ -16,7 +16,7 @@ Trong lĩnh vực tạo mô hình 3D dựa trên Java, Aspose.3D nổi bật nh�
 Trước khi chúng ta bắt tay vào hành trình sáng tạo này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK): Aspose.3D dành cho Java yêu cầu cài đặt JDK tương thích trên máy của bạn.
-- Thư viện Aspose.3D: Tải xuống và tích hợp thư viện Aspose.3D vào dự án Java của bạn. Bạn có thể tìm thấy thư viện và tài liệu chi tiết[đây](https://releases.aspose.com/3d/java/).
+-  Thư viện Aspose.3D: Tải xuống và tích hợp thư viện Aspose.3D vào dự án Java của bạn. Bạn có thể tìm thấy thư viện và tài liệu chi tiết[đây](https://releases.aspose.com/3d/java/).
 
 ## Gói nhập khẩu
 
@@ -73,7 +73,7 @@ Hãy khởi tạo hình trụ thứ hai không có đỉnh bù tùy chỉnh:
 
 ```java
 // ExStart:4
-//Khởi tạo trụ thứ hai mà không tùy chỉnh OffsetTop
+// Khởi tạo trụ thứ hai mà không tùy chỉnh OffsetTop
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExEnd:4
 ```
@@ -95,7 +95,7 @@ Cuối cùng, lưu cảnh có các hình trụ đã tạo dưới dạng tệp W
 
 ```java
 // ExStart:6
-// Cứu
+//Cứu
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // ExEnd:6
 ```
@@ -118,7 +118,7 @@ A2: Chắc chắn rồi! Aspose.3D cung cấp các khả năng mở rộng để
 
 ### Câu hỏi 3: Có bất kỳ tùy chọn cấp phép nào dành cho Aspose.3D không?
 
- A3: Có, bạn có thể khám phá và chọn tùy chọn cấp phép phù hợp với nhu cầu của mình[đây](https://purchase.aspose.com/buy).
+A3: Có, bạn có thể khám phá và chọn tùy chọn cấp phép phù hợp với nhu cầu của mình[đây](https://purchase.aspose.com/buy).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể tìm kiếm sự trợ giúp hoặc chia sẻ trải nghiệm của mình với Aspose.3D?
 

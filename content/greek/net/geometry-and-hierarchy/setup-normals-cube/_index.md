@@ -1,6 +1,6 @@
 ---
-title: Ρύθμιση Normals στο Cube σε σκηνές 3D
-linktitle: Ρύθμιση Normals στο Cube σε σκηνές 3D
+title: Ρύθμιση Normals στο Cube
+linktitle: Ρύθμιση Normals στο Cube
 second_title: Aspose.3D .NET API
 description: Μάθετε να ρυθμίζετε κανονικά σε έναν κύβο 3D χρησιμοποιώντας το Aspose.3D για .NET. Βελτιώστε τις δεξιότητές σας στο τρισδιάστατο μοντέλο με αυτόν τον οδηγό βήμα προς βήμα.
 type: docs

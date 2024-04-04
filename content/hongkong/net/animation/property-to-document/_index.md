@@ -15,7 +15,7 @@ url: /zh-hant/net/animation/property-to-document/
 
 在我們踏上這趟令人興奮的旅程之前，請確保您符合以下先決條件：
 
-- Aspose.3D for .NET：確保您已安裝該程式庫。您可以從[Aspose.3D 網站](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET：確保您已安裝該程式庫。您可以從[Aspose.3D 網站](https://releases.aspose.com/3d/net/).
 
 - C# 知識：熟悉 C# 程式語言對於理解和實作範例至關重要。
 

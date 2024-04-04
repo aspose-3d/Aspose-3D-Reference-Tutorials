@@ -65,7 +65,7 @@ opt.setPointCloud(true);
 Uložte 3D scénu jako mračno bodů do požadovaného adresáře:
 
 ```java
-// Uložit
+//Uložit
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 

@@ -81,7 +81,7 @@ A1: Absoluut! De bibliotheek biedt een gebruiksvriendelijke interface en uitgebr
 
 ### V3: Hoe kan ik ondersteuning krijgen voor Aspose.3D voor Java?
 
- A3: Sluit je aan bij de community op[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) om met andere gebruikers te communiceren en hulp te krijgen van experts.
+A3: Sluit je aan bij de community op[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) om met andere gebruikers te communiceren en hulp te krijgen van experts.
 
 ### Vraag 4: Is er een gratis proefversie beschikbaar?
 

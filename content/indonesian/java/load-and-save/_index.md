@@ -18,7 +18,7 @@ Apakah Anda siap untuk terjun ke dunia grafis 3D yang menakjubkan di Java? Kunju
 
 ## Mendeteksi Format File 3D secara Efisien di Java dengan Aspose.3D
 
- Sederhanakan proses pengembangan Anda dengan mendeteksi format file 3D dengan mudah di Java menggunakan Aspose.3D. Tutorial kami memandu Anda melalui langkah-langkahnya, memberikan solusi ampuh untuk kebutuhan grafis 3D Anda. Temukan lebih banyak[Di Sini](./detect-3d-file-formats/).
+ Sederhanakan proses pengembangan Anda dengan mendeteksi format file 3D dengan mudah di Java dengan Aspose.3D. Tutorial kami memandu Anda melalui langkah-langkahnya, memberikan solusi ampuh untuk kebutuhan grafis 3D Anda. Temukan lebih banyak[Di Sini](./detect-3d-file-formats/).
 
 ## Sesuaikan Pemuatan File 3D di Java dengan Aspose.3D LoadOptions
 

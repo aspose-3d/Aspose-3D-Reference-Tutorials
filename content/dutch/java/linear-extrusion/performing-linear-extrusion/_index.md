@@ -21,7 +21,7 @@ Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende ver
 
 ## Pakketten importeren
 
-Nadat u uw ontwikkelomgeving heeft ingesteld en de Aspose.3D-bibliotheek heeft geïnstalleerd, is het tijd om de benodigde pakketten te importeren. Neem het volgende op in uw Java-code:
+Nadat u uw ontwikkelomgeving heeft ingericht en de Aspose.3D-bibliotheek heeft geïnstalleerd, is het tijd om de benodigde pakketten te importeren. Neem het volgende op in uw Java-code:
 
 ```java
 import com.aspose.threed.*;

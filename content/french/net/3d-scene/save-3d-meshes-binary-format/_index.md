@@ -41,14 +41,26 @@ using System.Text;
 Chargez votre fichier 3D à l'aide d'Aspose.3D. Dans cet exemple, nous chargeons un fichier nommé "test.fbx" :
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## Étape 2 : Définir un format binaire personnalisé
 
 Définissez la structure du format binaire personnalisé dans lequel vous souhaitez enregistrer vos maillages 3D. L'exemple utilise une structure avec MeshBlock, Vertex et Triangle comme composants.
 
-## Étape 3 : Ouvrir le fichier pour l’écriture
+```csharp
+// La disposition de la mémoire d'un sommet est
+// position flottante[3] ;
+// flotteur[3] normal ;
+// flotteur[3] uv;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
+
+## Étape 3 : Ouvrir le fichier pour l'écriture
 
 Ouvrez un fichier binaire en écriture, où les maillages 3D convertis seront enregistrés :
 
@@ -79,11 +91,30 @@ Pour chaque entité maillée, convertissez les points de contrôle en espace mon
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (continuez à écrire les points de contrôle et les indices triangulaires)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//La disposition de la mémoire du maillage est :
+// float[16] transform_matrix;
+// int nombre_nombre de sommets ;
+// int indices_count;
+// sommet[vertices_count] sommets ;
+// indices ushort[indices_count] ;
+
+
+//écrire une transformation
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//écrire le nombre de sommets/indices
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//écrire des sommets et des indices
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## Conclusion
@@ -98,7 +129,7 @@ A1 : Aspose.3D prend principalement en charge les langages .NET, mais vous pouve
 
 ### Q2 : Où puis-je trouver des exemples et des ressources supplémentaires ?
 
- A2 : Le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) est un excellent endroit pour trouver du soutien, des exemples et interagir avec la communauté.
+ A2 : Le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18)est un excellent endroit pour trouver du soutien, des exemples et interagir avec la communauté.
 
 ### Q3 : Existe-t-il une version d’essai disponible pour Aspose.3D ?
 

@@ -1,6 +1,6 @@
 ---
-title: การตั้งค่า Normals บน Cube ในฉาก 3D
-linktitle: การตั้งค่า Normals บน Cube ในฉาก 3D
+title: การตั้งค่า Normals บน Cube
+linktitle: การตั้งค่า Normals บน Cube
 second_title: Aspose.3D .NET API
 description: เรียนรู้วิธีตั้งค่าบรรทัดฐานบนคิวบ์ 3 มิติโดยใช้ Aspose.3D สำหรับ .NET เสริมทักษะการสร้างแบบจำลอง 3 มิติของคุณด้วยคำแนะนำทีละขั้นตอนนี้
 type: docs

@@ -15,7 +15,7 @@ Bienvenue dans le domaine fascinant de la modélisation 3D avec Aspose.3D pour J
 
 ## Commencer
 
- Plongeons-y ! Le[Didacticiel](./building-primitive-3d-models/) est votre passerelle vers le monde de la modélisation 3D. Découvrez les bases d'Aspose.3D pour Java et préparez le terrain pour vos efforts créatifs. Découvrez les outils essentiels, la configuration de l'environnement et les fondements des modèles 3D primitifs.
+ Allons-y ! Le[Didacticiel](./building-primitive-3d-models/) est votre passerelle vers le monde de la modélisation 3D. Découvrez les bases d'Aspose.3D pour Java et préparez le terrain pour vos efforts créatifs. Découvrez les outils essentiels, la configuration de l'environnement et les fondements des modèles 3D primitifs.
 
 #### Comprendre les formes primitives
 

@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## Krok 5: Zapisz scenę
 
-Zapisz skonfigurowaną scenę w określonym katalogu wyjściowym w żądanym formacie pliku, np. .3ds.
+Zapisz skonfigurowaną scenę w określonym katalogu wyjściowym w żądanym formacie pliku, np. .fbx.
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## Wniosek
@@ -98,7 +98,7 @@ A2: Absolutnie! Aspose.3D umożliwia programistom łatwe tworzenie zasobów 3D d
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 
- Odpowiedź 4: Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+Odpowiedź 4: Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P5: Jak uzyskać licencję tymczasową?
 

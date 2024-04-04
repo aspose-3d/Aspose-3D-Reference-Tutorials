@@ -45,7 +45,7 @@ Scene scene = new Scene();
 // सिलेंडर 1 बनाएं
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // सिलेंडर 1 के लिए अनुकूलित कतरनी तल
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // xy तल (z-अक्ष) में कतरनी 47.5डिग्री
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //xy तल (z-अक्ष) में कतरनी 47.5डिग्री
 // दृश्य में सिलेंडर 1 जोड़ें
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // ExEnd:4

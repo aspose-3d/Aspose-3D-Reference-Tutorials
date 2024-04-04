@@ -1,6 +1,6 @@
 ---
-title: การเปิดเผยการเปลี่ยนแปลงทางเรขาคณิตในฉาก 3 มิติ
-linktitle: การเปิดเผยการเปลี่ยนแปลงทางเรขาคณิตในฉาก 3 มิติ
+title: เปิดเผยการเปลี่ยนแปลงทางเรขาคณิต
+linktitle: เปิดเผยการเปลี่ยนแปลงทางเรขาคณิต
 second_title: Aspose.3D .NET API
 description: สำรวจความเป็นไปได้ที่ไร้ขีดจำกัดของกราฟิก 3D ใน .NET ด้วย Aspose.3D ค้นพบการเปลี่ยนแปลงทางเรขาคณิตได้อย่างง่ายดาย
 type: docs
@@ -21,7 +21,7 @@ url: /th/net/geometry-and-hierarchy/expose-geometric-transformation/
 
 ### 2. Aspose.3D สำหรับการติดตั้ง .NET
 
- ดาวน์โหลดและติดตั้ง Aspose.3D สำหรับ .NET โดยไปที่[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/3d/net/) . หากคุณพบปัญหาใด ๆ โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/3d/net/) สำหรับความช่วยเหลือ.
+ ดาวน์โหลดและติดตั้ง Aspose.3D สำหรับ .NET โดยไปที่[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/3d/net/) - หากคุณพบปัญหาใด ๆ โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/3d/net/) สำหรับความช่วยเหลือ.
 
 ### 3. แนวคิด 3 มิติขั้นพื้นฐาน
 

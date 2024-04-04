@@ -65,7 +65,7 @@ opt.setPointCloud(true);
 Mentse el a 3D-s jelenetet pontfelhőként a kívánt könyvtárba:
 
 ```java
-// Megment
+//Megment
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 

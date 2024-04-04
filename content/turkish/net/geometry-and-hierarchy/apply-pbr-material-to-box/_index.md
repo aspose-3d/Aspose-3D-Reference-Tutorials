@@ -1,6 +1,6 @@
 ---
-title: 3B Sahnelerde PBR Malzemesini Kutuya Uygulama
-linktitle: 3B Sahnelerde PBR Malzemesini Kutuya Uygulama
+title: PBR Malzemesinin Kutuya Uygulanması
+linktitle: PBR Malzemesinin Kutuya Uygulanması
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D grafik dünyasını keşfedin. Fiziksel Tabanlı İşleme malzemelerini kullanarak zahmetsizce sürükleyici sahneler oluşturun.
 type: docs
@@ -21,7 +21,7 @@ url: /tr/net/geometry-and-hierarchy/apply-pbr-material-to-box/
 
 ### Lisans Alın
 
- Aspose.3D'nin tüm potansiyelini açığa çıkarmak için geçerli bir lisans edinin. Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) veya tam lisans satın alın[Burada](https://purchase.aspose.com/buy).
+Aspose.3D'nin tüm potansiyelini açığa çıkarmak için geçerli bir lisans edinin. Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) veya tam lisans satın alın[Burada](https://purchase.aspose.com/buy).
 
 ## Ad Alanlarını İçe Aktar
 
@@ -104,7 +104,7 @@ A2: Kesinlikle! Aspose.3D, uygulamalarınıza kusursuz entegrasyon için ticari 
 
 ### S3: Deneme sürümü mevcut mu?
 
-Cevap3: Evet, ücretsiz deneme sürümünü indirerek Aspose.3D'nin yeteneklerini keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+ Cevap3: Evet, ücretsiz deneme sürümünü indirerek Aspose.3D'nin yeteneklerini keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
 
 ### S4: Topluluk desteğini ve tartışmalarını nerede bulabilirim?
 

@@ -16,7 +16,7 @@ Aspose.3D'yi kullanarak Java sahnelerinde 3D özellikler ve özel verilerle çal
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
 - Makinenizde Java Geliştirme Kiti (JDK) yüklü.
-- Aspose.3D kütüphanesi indirildi ve kuruldu. adresinden indirebilirsiniz.[Web sitesi](https://releases.aspose.com/3d/java/).
+-  Aspose.3D kütüphanesi indirildi ve kuruldu. adresinden indirebilirsiniz.[Web sitesi](https://releases.aspose.com/3d/java/).
 - Java programlamanın temel anlayışı.
 
 ## Paketleri İçe Aktar
@@ -107,7 +107,7 @@ Tebrikler! Aspose.3D'yi kullanarak Java sahnelerinde 3D özellikler ve özel ver
 
 ### S1: Aspose.3D kütüphanesini Java projeme nasıl kurabilirim?
 
- A1: Kütüphaneyi şuradan indirebilirsiniz:[Web sitesi](https://releases.aspose.com/3d/java/)ve belgelerde verilen kurulum talimatlarını izleyin.
+ A1: Kütüphaneyi şuradan indirebilirsiniz:[Web sitesi](https://releases.aspose.com/3d/java/) ve belgelerde verilen kurulum talimatlarını izleyin.
 
 ### S2: Aspose.3D için ücretsiz deneme seçenekleri mevcut mu?
 
@@ -119,7 +119,7 @@ Tebrikler! Aspose.3D'yi kullanarak Java sahnelerinde 3D özellikler ve özel ver
 
 ### S4: Aspose.3D için soru sorabileceğim ve yardım arayabileceğim bir destek forumu var mı?
 
- A4: Evet, ziyaret edin[Aspose.3D destek forumu](https://forum.aspose.com/c/3d/18) toplulukla bağlantı kurmak ve uzmanlardan yardım almak.
+A4: Evet, ziyaret edin[Aspose.3D destek forumu](https://forum.aspose.com/c/3d/18) toplulukla bağlantı kurmak ve uzmanlardan yardım almak.
 
 ### S5: Aspose.3D için nasıl geçici lisans alabilirim?
 

@@ -1,6 +1,6 @@
 ---
-title: Ghép nối các Quaternion trong cảnh 3D
-linktitle: Ghép nối các Quaternion trong cảnh 3D
+title: Kết nối quaternions
+linktitle: Kết nối quaternions
 second_title: API Aspose.3D .NET
 description: Khám phá sức mạnh của thao tác quaternion trong cảnh 3D với Aspose.3D cho .NET. Tìm hiểu cách nối các quaternion từng bước để tạo ra các phép biến đổi sống động.
 type: docs
@@ -96,7 +96,7 @@ Câu trả lời 2: Có, Aspose.3D dành cho .NET được thiết kế để ho
 
 ### Câu hỏi 3: Có bản dùng thử miễn phí dành cho Aspose.3D cho .NET không?
 
- Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.3D cho .NET?
 

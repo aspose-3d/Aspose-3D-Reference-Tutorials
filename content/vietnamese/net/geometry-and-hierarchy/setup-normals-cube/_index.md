@@ -1,8 +1,8 @@
 ---
-title: Thiết lập chuẩn trên khối trong cảnh 3D
-linktitle: Thiết lập chuẩn trên khối trong cảnh 3D
+title: Thiết lập chuẩn trên Cube
+linktitle: Thiết lập chuẩn trên Cube
 second_title: API Aspose.3D .NET
-description: Tìm hiểu cách thiết lập quy chuẩn trên khối 3D bằng Aspose.3D cho .NET. Nâng cao kỹ năng lập mô hình 3D của bạn với hướng dẫn từng bước này.
+description: Tìm hiểu cách thiết lập quy tắc trên khối 3D bằng Aspose.3D cho .NET. Nâng cao kỹ năng lập mô hình 3D của bạn với hướng dẫn từng bước này.
 type: docs
 weight: 17
 url: /vi/net/geometry-and-hierarchy/setup-normals-cube/

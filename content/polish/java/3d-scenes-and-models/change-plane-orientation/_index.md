@@ -16,7 +16,7 @@ Witamy w naszym przewodniku krok po kroku dotyczącym ulepszania pozycjonowania 
 Zanim wyruszymy w tę podróż, upewnijmy się, że spełniliśmy następujące wymagania wstępne:
 
 - Podstawowa znajomość programowania w języku Java.
--  Zainstalowano Aspose.3D dla Java. Możesz go pobrać[Tutaj](https://releases.aspose.com/3d/java/).
+- Zainstalowano Aspose.3D dla Java. Możesz go pobrać[Tutaj](https://releases.aspose.com/3d/java/).
 - Środowisko programistyczne gotowe do kodowania w języku Java.
 
 ## Importuj pakiety
@@ -90,7 +90,7 @@ Ten krok gwarantuje zachowanie zmian.
 
 ## Wniosek
 
-Wykonując poniższe kroki, udało Ci się pomyślnie zmodyfikować orientację płaszczyzny w celu precyzyjnego pozycjonowania scen 3D w Javie przy użyciu Aspose.3D. Eksperymentuj z różnymi wektorami, aby osiągnąć pożądane rezultaty i wznieść swoje sceny 3D na nowy poziom!
+Wykonując te kroki, pomyślnie zmodyfikowałeś orientację płaszczyzny w celu precyzyjnego pozycjonowania scen 3D w Javie przy użyciu Aspose.3D. Eksperymentuj z różnymi wektorami, aby osiągnąć pożądane rezultaty i wznieść swoje sceny 3D na nowy poziom!
 
 
 ## Często zadawane pytania
@@ -101,7 +101,7 @@ Odpowiedź 1: Tak, Aspose.3D obsługuje różne języki programowania, w tym Jav
 
 ### P2: Czy dostępna jest bezpłatna wersja próbna Aspose.3D?
 
-A2: Oczywiście! Możesz poznać funkcje Aspose.3D, korzystając z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+ A2: Oczywiście! Możesz poznać funkcje Aspose.3D, korzystając z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
 
 ### P3: Gdzie mogę znaleźć wsparcie dla Aspose.3D?
 

@@ -4,7 +4,7 @@ linktitle: Lisans
 second_title: Aspose.3D .NET API'si
 description: Lisans başvurusuna ilişkin ayrıntılı eğitimimizle Aspose.3D .NET'in potansiyelini en üst düzeye çıkarın. Sorunsuz bir entegrasyon süreci sağlayın ve güçlü özelliklerinin kilidini açın.
 type: docs
-weight: 26
+weight: 36
 url: /tr/net/license/
 ---
 ## giriiş

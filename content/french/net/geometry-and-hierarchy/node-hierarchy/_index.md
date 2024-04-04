@@ -1,6 +1,6 @@
 ---
-title: Comprendre la hiérarchie des nœuds dans les scènes 3D
-linktitle: Comprendre la hiérarchie des nœuds dans les scènes 3D
+title: Comprendre la hiérarchie des nœuds
+linktitle: Comprendre la hiérarchie des nœuds
 second_title: API Aspose.3D .NET
 description: Libérez la puissance d’Aspose.3D pour .NET ! Plongez dans la manipulation de la hiérarchie des nœuds avec ce guide étape par étape. Créez de superbes scènes 3D sans effort.
 type: docs
@@ -17,7 +17,7 @@ Avant de vous lancer dans ce voyage 3D, assurez-vous d'avoir les conditions pré
 
 -  Bibliothèque Aspose.3D pour .NET : assurez-vous que la bibliothèque Aspose.3D est intégrée à votre projet .NET. Si vous ne l'avez pas encore fait, rendez-vous sur[Documentation](https://reference.aspose.com/3d/net/) à titre indicatif.
 
--  Téléchargez la bibliothèque : si vous n'avez pas téléchargé la bibliothèque Aspose.3D, récupérez la dernière version depuis le[lien de téléchargement](https://releases.aspose.com/3d/net/)et suivez les instructions d'installation fournies dans la documentation.
+-  Téléchargez la bibliothèque : si vous n'avez pas téléchargé la bibliothèque Aspose.3D, récupérez la dernière version depuis le[lien de téléchargement](https://releases.aspose.com/3d/net/) et suivez les instructions d'installation fournies dans la documentation.
 
 -  Obtenez une licence : pour libérer tout le potentiel d'Aspose.3D, vous avez besoin d'une licence valide. Si vous n'en avez pas, vous pouvez l'obtenir[ici](https://purchase.aspose.com/buy) ou optez pour un[essai gratuit](https://releases.aspose.com/) pour explorer ses capacités.
 

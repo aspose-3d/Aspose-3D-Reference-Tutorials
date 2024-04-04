@@ -60,7 +60,7 @@ left.createChildNode(new LinearExtrusion(profile, 2) {{setSlices(2);}});
 right.createChildNode(new LinearExtrusion(profile, 2) {{setSlices(10);}});
 ```
 
-## Paso 4: guarde la escena
+## Paso 4: guarda la escena
 
 Guarde la escena 3D en el formato deseado, en este caso, un archivo Wavefront OBJ.
 

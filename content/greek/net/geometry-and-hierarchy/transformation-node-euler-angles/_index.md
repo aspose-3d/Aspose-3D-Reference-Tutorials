@@ -1,6 +1,6 @@
 ---
-title: Transforming Node από Euler Angles σε τρισδιάστατες σκηνές
-linktitle: Transforming Node από Euler Angles σε τρισδιάστατες σκηνές
+title: Transforming Node από Euler Angles
+linktitle: Transforming Node από Euler Angles
 second_title: Aspose.3D .NET API
 description: Μάθετε να μετασχηματίζετε τρισδιάστατους κόμβους χωρίς κόπο με το Aspose.3D για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για εκπληκτικά αποτελέσματα στα έργα σας.
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
  Ξεκινήστε δημιουργώντας μια νέα τρισδιάστατη σκηνή χρησιμοποιώντας το`Scene` τάξη.
 
-## Βήμα 2: Αρχικοποίηση αντικειμένου κλάσης κόμβου
 
-```csharp
-// Αρχικοποίηση αντικειμένου κλάσης κόμβου
-Node cubeNode = new Node("cube");
-```
-
- Δημιουργήστε έναν κόμβο μέσα στη σκηνή χρησιμοποιώντας το`Node`τάξη. Αυτός ο κόμβος θα χρησιμεύσει ως κοντέινερ για το τρισδιάστατο αντικείμενο μας.
-
-## Βήμα 3: Δημιουργήστε Mesh χρησιμοποιώντας το Polygon Builder
+## Βήμα 2: Δημιουργήστε Mesh χρησιμοποιώντας το primitive Box
 
 ```csharp
 // Καλέστε Common class δημιουργία πλέγματος χρησιμοποιώντας τη μέθοδο δημιουργίας πολυγώνων για να ορίσετε την παρουσία πλέγματος
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
- Επικαλέστε μια μέθοδο (σε αυτή την περίπτωση,`CreateMeshUsingPolygonBuilder` από ένα έθιμο`Common` class) για να δημιουργήσετε ένα πλέγμα για το τρισδιάστατο αντικείμενο.
+ Επικαλέστε μια μέθοδο (σε αυτή την περίπτωση,`CreateMeshUsingPolygonBuilder` από ένα έθιμο`Common`class) για να δημιουργήσετε ένα πλέγμα για το τρισδιάστατο αντικείμενο.
 
-## Βήμα 4: Σημειώστε τον κόμβο στη γεωμετρία του πλέγματος
+## Βήμα 3: Δημιουργήστε έναν κόμβο κοντέινερ για το πλέγμα
 
 ```csharp
 // Σημειώστε τον κόμβο στη γεωμετρία του Mesh
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-Συσχετίστε το δημιουργημένο πλέγμα με τον κόμβο.
+ Δημιουργήστε έναν κόμβο μέσα στη σκηνή χρησιμοποιώντας το`Node` τάξη. Αυτός ο κόμβος θα χρησιμεύσει ως κοντέινερ για το τρισδιάστατο αντικείμενο μας.
 
-## Βήμα 5: Ρυθμίστε τις γωνίες και τη μετάφραση Euler
+## Βήμα 4: Ρυθμίστε τις γωνίες και τη μετάφραση Euler
 
 ```csharp
 // Γωνίες Euler
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 Καθορίστε τις γωνίες Euler και τη μετάφραση για τον κόμβο για να τον τοποθετήσει στον τρισδιάστατο χώρο.
 
-## Βήμα 6: Προσθέστε Cube στη σκηνή
-
-```csharp
-// Προσθέστε κύβο στη σκηνή
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-Ενσωματώστε τον κόμβο στην ιεραρχία της σκηνής.
-
-## Βήμα 7: Αποθηκεύστε την τρισδιάστατη σκηνή
+## Βήμα 5: Αποθηκεύστε την τρισδιάστατη σκηνή
 
 ```csharp
 // Η διαδρομή προς τον κατάλογο εγγράφων.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Αποθηκεύστε τη σκηνή 3D στις υποστηριζόμενες μορφές αρχείων
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Αποθηκεύστε τη σκηνή 3D στις υποστηριζόμενες μορφές αρχείων
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ A2: Ναι, μπορείτε να συνδυάσετε και να εφαρμό�
 
 ### Ε5: Χρειάζεστε βοήθεια ή έχετε συγκεκριμένες ερωτήσεις;
 
-A5: Επισκεφθείτε το[Aspose.3D φόρουμ](https://forum.aspose.com/c/3d/18) για κοινοτική υποστήριξη.
+ A5: Επισκεφθείτε το[Aspose.3D φόρουμ](https://forum.aspose.com/c/3d/18) για κοινοτική υποστήριξη.

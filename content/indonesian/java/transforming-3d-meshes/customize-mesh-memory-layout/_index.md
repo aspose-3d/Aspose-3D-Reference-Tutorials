@@ -19,7 +19,7 @@ Pastikan untuk mengimpor paket yang diperlukan ke proyek Java Anda. Ini termasuk
 import com.aspose.threed.*;
 // Impor perpustakaan Aspose.3D
 ```
-## Langkah 1: Inisialisasi Objek Adegan
+## Langkah 1: Inisialisasi Objek Pemandangan
 ```java
 // Inisialisasi objek adegan
 Scene scene = new Scene();
@@ -54,7 +54,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 ```java
 // Tentukan direktori untuk menyimpan adegan 3D
 String MyDir = "Your Document Directory" + "BoxToTriangleMeshCustomMemoryLayoutScene.fbx";
-//Simpan adegan 3D dalam format file yang didukung
+// Simpan adegan 3D dalam format file yang didukung
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 System.out.println("\nConverted a Box mesh to triangle mesh with custom memory layout of the vertex successfully.\nFile saved at " + MyDir);
 ```

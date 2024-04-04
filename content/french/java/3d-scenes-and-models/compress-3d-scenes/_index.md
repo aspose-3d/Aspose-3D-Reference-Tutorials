@@ -16,7 +16,7 @@ Aspose.3D pour Java est une bibliothèque polyvalente qui permet aux développeu
 Avant de plonger dans le didacticiel, assurez-vous d'avoir les prérequis suivants :
 
 - Kit de développement Java (JDK) installé sur votre machine.
-- Aspose.3D pour la bibliothèque Java téléchargée. Vous pouvez trouver le lien de téléchargement[ici](https://releases.aspose.com/3d/java/).
+-  Aspose.3D pour la bibliothèque Java téléchargée. Vous pouvez trouver le lien de téléchargement[ici](https://releases.aspose.com/3d/java/).
 
 ## Importer des packages
 
@@ -45,7 +45,7 @@ String MyDir = "Your Document Directory";
 Scene scene = new Scene();
 ```
 
-## Étape 3 : Ajouter des objets 3D
+## Étape 3 : ajouter des objets 3D
 
 Ajoutez des objets 3D à votre scène, comme une boîte :
 
@@ -94,7 +94,7 @@ A1 : Oui, Aspose.3D pour Java répond aux besoins des développeurs ayant diffé
 
 ### Q3 : Existe-t-il des options d'essai gratuit disponibles ?
 
- A3 : Oui, vous pouvez accéder à un essai gratuit[ici](https://releases.aspose.com/).
+A3 : Oui, vous pouvez accéder à un essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q4 : Où puis-je trouver du support pour Aspose.3D pour Java ?
 

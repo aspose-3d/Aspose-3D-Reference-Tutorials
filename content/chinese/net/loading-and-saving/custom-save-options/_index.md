@@ -1,8 +1,8 @@
 ---
-title: 加载和保存 - 自定义保存选项
-linktitle: 加载和保存 - 自定义保存选项
+title: 自定义保存选项
+linktitle: 自定义保存选项
 second_title: Aspose.3D .NET API
-description: 探索 Aspose.3D for .NET 的强大功能。了解如何通过 Collada、3DS、FBX、OBJ、STL、U3D、glTF、DRC 和 RVM 格式的分步指南自定义 3D 场景保存。
+description: 探索 Aspose.3D for .NET 的强大功能。了解如何通过 Collada、USD、3DS、FBX、OBJ、STL、U3D、glTF、DRC 和 RVM 格式的分步指南自定义 3D 场景保存。
 type: docs
 weight: 21
 url: /zh/net/loading-and-saving/custom-save-options/
@@ -126,7 +126,7 @@ A1：是的，Aspose.3D 与各种.NET 框架兼容，确保您的开发环境的
 
 ### Q4：有免费试用吗？
 
- A4：是的，您可以免费试用[这里](https://releases.aspose.com/).
+A4：是的，您可以免费试用[这里](https://releases.aspose.com/).
 
 ### Q5：如何获得Aspose.3D的临时许可证？
 

@@ -65,7 +65,7 @@ opt.setPointCloud(true);
 3B sahneyi istediğiniz dizine nokta bulutu olarak kaydedin:
 
 ```java
-// Kaydetmek
+//Kaydetmek
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 

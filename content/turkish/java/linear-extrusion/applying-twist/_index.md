@@ -91,7 +91,7 @@ right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(90); setSlice
 ```java
 // ExStart:3DScene'i Kaydet
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-// ExEnd:3DScene'i Kaydet
+//ExEnd:3DScene'i Kaydet
 ```
 
 ## Çözüm

@@ -1,6 +1,6 @@
 ---
-title: تثليث الشبكة في مشاهد ثلاثية الأبعاد
-linktitle: تثليث الشبكة في مشاهد ثلاثية الأبعاد
+title: شبكة التثليث
+linktitle: شبكة التثليث
 second_title: Aspose.3D.NET API
 description: اكتشف قوة Aspose.3D لـ .NET في هذا الدليل التفصيلي خطوة بخطوة. تعرف على كيفية تثليث الشبكات ثلاثية الأبعاد بسهولة لتحسين النماذج.
 type: docs
@@ -17,7 +17,7 @@ url: /ar/net/geometry-and-hierarchy/triangulate-mesh/
 
 - Aspose.3D لمكتبة .NET: تأكد من تثبيت مكتبة Aspose.3D. يمكنك تنزيله[هنا](https://releases.aspose.com/3d/net/).
 
-- نموذج نموذج ثلاثي الأبعاد: احصل على نموذج ثلاثي الأبعاد بتنسيق FBX الذي تريد تثليثه. يمكنك استخدام المقدمة[document.fbx](https://reference.aspose.com/3d/net/) ملف للممارسة.
+-  نموذج نموذج ثلاثي الأبعاد: احصل على نموذج ثلاثي الأبعاد بتنسيق FBX الذي تريد تثليثه. يمكنك استخدام المقدمة[document.fbx](https://reference.aspose.com/3d/net/) ملف للممارسة.
 
 ## استيراد مساحات الأسماء
 

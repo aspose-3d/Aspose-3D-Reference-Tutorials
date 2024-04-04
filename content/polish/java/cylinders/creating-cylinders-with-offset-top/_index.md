@@ -9,14 +9,14 @@ url: /pl/java/cylinders/creating-cylinders-with-offset-top/
 ---
 ## Wstęp
 
-W dziedzinie modelowania 3D w oparciu o Javę Aspose.3D wyróżnia się jako potężne narzędzie, oferując programistom możliwość łatwego tworzenia skomplikowanych scen 3D. W tym samouczku zagłębimy się w fascynujący świat Aspose.3D dla Java, koncentrując się na konkretnym zadaniu – tworzeniu cylindrów z przesuniętymi wierzchołkami. Pod koniec tego przewodnika będziesz w pełni obeznany z procesem, co umożliwi Ci bezproblemową integrację tej funkcji z projektami 3D.
+dziedzinie modelowania 3D w oparciu o Javę Aspose.3D wyróżnia się jako potężne narzędzie, oferując programistom możliwość łatwego tworzenia skomplikowanych scen 3D. W tym samouczku zagłębimy się w fascynujący świat Aspose.3D dla Java, koncentrując się na konkretnym zadaniu – tworzeniu cylindrów z przesuniętymi wierzchołkami. Pod koniec tego przewodnika będziesz w pełni obeznany z procesem, co umożliwi Ci bezproblemową integrację tej funkcji z projektami 3D.
 
 ## Warunki wstępne
 
 Zanim wyruszymy w tę twórczą podróż, upewnij się, że spełniasz następujące wymagania wstępne:
 
 - Zestaw Java Development Kit (JDK): Aspose.3D dla Java wymaga kompatybilnego pakietu JDK zainstalowanego na twoim komputerze.
-- Biblioteka Aspose.3D: Pobierz i zintegruj bibliotekę Aspose.3D ze swoim projektem Java. Można znaleźć bibliotekę i szczegółową dokumentację[Tutaj](https://releases.aspose.com/3d/java/).
+-  Biblioteka Aspose.3D: Pobierz i zintegruj bibliotekę Aspose.3D ze swoim projektem Java. Można znaleźć bibliotekę i szczegółową dokumentację[Tutaj](https://releases.aspose.com/3d/java/).
 
 ## Importuj pakiety
 
@@ -73,7 +73,7 @@ Zainicjujmy drugi cylinder bez niestandardowego przesuniętego blatu:
 
 ```java
 // ExStart:4
-//Zainicjuj drugi cylinder bez dostosowanego OffsetTop
+// Zainicjuj drugi cylinder bez dostosowanego OffsetTop
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // RozwińKoniec:4
 ```
@@ -95,7 +95,7 @@ Na koniec zapisz scenę z utworzonymi cylindrami jako plik Wavefront OBJ w katal
 
 ```java
 // ExStart:6
-// Ratować
+//Ratować
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // RozwińKoniec:6
 ```
@@ -118,7 +118,7 @@ A2: Absolutnie! Aspose.3D zapewnia szerokie możliwości stosowania tekstur i ma
 
 ### P3: Czy dostępne są opcje licencjonowania dla Aspose.3D?
 
- Odpowiedź 3: Tak, możesz sprawdzić i wybrać opcję licencjonowania odpowiadającą Twoim potrzebom[Tutaj](https://purchase.aspose.com/buy).
+Odpowiedź 3: Tak, możesz sprawdzić i wybrać opcję licencjonowania odpowiadającą Twoim potrzebom[Tutaj](https://purchase.aspose.com/buy).
 
 ### P4: Jak mogę szukać pomocy lub podzielić się swoimi doświadczeniami z Aspose.3D?
 

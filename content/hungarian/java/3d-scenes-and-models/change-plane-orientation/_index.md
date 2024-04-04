@@ -16,7 +16,7 @@ url: /hu/java/3d-scenes-and-models/change-plane-orientation/
 Mielőtt nekivágnánk ennek az útnak, győződjön meg arról, hogy a következő előfeltételeket teljesíti:
 
 - Alapvető ismeretek a Java programozásról.
--  Aspose.3D for Java telepítve. Letöltheti[itt](https://releases.aspose.com/3d/java/).
+- Aspose.3D for Java telepítve. Letöltheti[itt](https://releases.aspose.com/3d/java/).
 - Java kódolásra kész fejlesztői környezet.
 
 ## Csomagok importálása
@@ -90,7 +90,7 @@ Ez a lépés biztosítja a változtatások megőrzését.
 
 ## Következtetés
 
-Az alábbi lépések követésével sikeresen módosította a sík tájolását a precíz 3D-s jelenetpozicionálás érdekében Java nyelven az Aspose.3D használatával. Kísérletezzen különböző vektorokkal, hogy elérje a kívánt eredményeket, és új magasságokba emelje 3D-s jeleneteit!
+Az alábbi lépések követésével sikeresen módosította a sík tájolását a precíz 3D-s jelenetpozicionálás érdekében Java nyelven az Aspose.3D használatával. Kísérletezzen különböző vektorokkal, hogy elérje a kívánt eredményt, és új magasságokba emelje 3D-s jeleneteit!
 
 
 ## GYIK
@@ -101,7 +101,7 @@ Az alábbi lépések követésével sikeresen módosította a sík tájolását 
 
 ### 2. kérdés: Elérhető az Aspose.3D ingyenes próbaverziója?
 
-A2: Természetesen! Az ingyenes próbaverzió segítségével felfedezheti az Aspose.3D szolgáltatásait[itt](https://releases.aspose.com/).
+ A2: Természetesen! Az ingyenes próbaverzió segítségével felfedezheti az Aspose.3D szolgáltatásait[itt](https://releases.aspose.com/).
 
 ### 3. kérdés: Hol találok támogatást az Aspose.3D-hez?
 

@@ -42,7 +42,7 @@ Most bontsuk fel a példát több lépésre:
 String MyDir = "Your Document Directory";
 ```
 
-Cserélje ki a „Saját dokumentumkönyvtárat” arra az elérési útra, ahová menteni szeretné a 3D modellfájlt.
+Cserélje ki a "Dokumentumkönyvtár" elemet arra az elérési útra, ahová menteni szeretné a 3D modellfájlt.
 
 ## 2. lépés: Hozzon létre egy jelenetet
 
@@ -50,7 +50,7 @@ Cserélje ki a „Saját dokumentumkönyvtárat” arra az elérési útra, ahov
 Scene scene = new Scene();
 ```
 
-Új 3D-s jelenet inicializálása az Aspose.3D segítségével.
+Inicializáljon egy új 3D-s jelenetet az Aspose.3D segítségével.
 
 ## 3. lépés: Hozzon létre egy hálót
 

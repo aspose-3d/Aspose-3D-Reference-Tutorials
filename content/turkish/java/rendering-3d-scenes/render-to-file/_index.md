@@ -52,7 +52,7 @@ Camera camera = setupScene(scene);
 
 ## Adım 3: Çıktı Dosyasını Belirleyin
 
-Çıktı dosyası formatını seçin ve oluşturulan görüntü için bir dosya adı girin. Bu örnekte PNG formatını kullanacağız.
+Çıktı dosyası formatını seçin ve oluşturulan görüntü için bir dosya adı belirtin. Bu örnekte PNG formatını kullanacağız.
 
 ```java
 String output = "render-to-file.png";

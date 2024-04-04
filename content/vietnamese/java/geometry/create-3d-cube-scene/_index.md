@@ -70,7 +70,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "CubeScene.fbx";
 
-//Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
+// Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

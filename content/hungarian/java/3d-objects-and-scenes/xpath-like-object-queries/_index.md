@@ -9,7 +9,7 @@ url: /hu/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
 ## Bevezetés
 
-A Java 3D-s modellezése és jelenetmanipulációja ijesztő feladat lehet, de ne félj! Az Aspose.3D for Java robusztus megoldást kínál a 3D objektumok kezelésére, így a fejlesztők számára felbecsülhetetlen értékű eszköz. Ebben az oktatóanyagban végigvezetjük az XPath-szerű lekérdezések 3D objektumokra történő alkalmazásán Java nyelven az Aspose.3D használatával.
+Java 3D-s modellezése és jelenetmanipulációja ijesztő feladat lehet, de ne félj! Az Aspose.3D for Java robusztus megoldást kínál a 3D objektumok kezelésére, így a fejlesztők számára felbecsülhetetlen értékű eszköz. Ebben az oktatóanyagban végigvezetjük az XPath-szerű lekérdezések 3D objektumokra történő alkalmazásán Java nyelven az Aspose.3D használatával.
 
 ## Előfeltételek
 
@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## 2. lépés: Hozzon létre egy csomóponti hierarchiát
 
 ```java
-// ExStart:Hierarchia létrehozása
+//ExStart:Hierarchia létrehozása
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

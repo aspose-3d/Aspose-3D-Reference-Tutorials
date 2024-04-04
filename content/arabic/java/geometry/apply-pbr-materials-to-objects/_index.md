@@ -19,7 +19,7 @@ url: /ar/java/geometry/apply-pbr-materials-to-objects/
 
 2.  مكتبة Aspose.3D: قم بتنزيل وتثبيت مكتبة Aspose.3D من ملف[رابط التحميل](https://releases.aspose.com/3d/java/).
 
-3.  التوثيق: راجع[توثيق](https://reference.aspose.com/3d/java/) لـ Aspose.3D للتعرف على مميزات المكتبة.
+3.  التوثيق: راجع[توثيق](https://reference.aspose.com/3d/java/)لـ Aspose.3D للتعرف على مميزات المكتبة.
 
 4.  الترخيص المؤقت (اختياري): إذا لم يكن لديك ترخيص، يمكنك الحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) للاختبار.
 
@@ -72,7 +72,7 @@ boxNode.setMaterial(mat);
 ```java
 // ExStart: Save3DScene
 scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
-// ExEnd:Save3DScene
+//ExEnd:Save3DScene
 ```
 
 كرر هذه الخطوات لمشاهد أكثر تعقيدًا أو كائنات مختلفة.

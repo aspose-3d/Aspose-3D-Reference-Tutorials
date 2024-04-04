@@ -20,20 +20,13 @@ Bunlar bazı yararlı kaynaklara bağlantılar:
  
 - [3D modelleme](./net/3d-modeling/)
 - [3D Sahne](./net/3d-scene/)
-- [3D Görünümler](./net/3d-viewports/)
 - [Animasyon](./net/animation/)
-- [Varlık Bilgileri](./net/asset-information/)
 - [Geometri ve Hiyerarşi](./net/geometry-and-hierarchy/)
 - [Lisans](./net/license/)
 - [Yükleme ve Kaydetme](./net/loading-and-saving/)
 - [Malzemeler](./net/materials/)
-- [Çokgenler](./net/polygons/)
 - [İşleme](./net/rendering/)
-- [Doğrusal Ekstrüzyon](./net/linear-extrusion/)
-- [Nesneler](./net/objects/)
-- [Silindirle Çalışmak](./net/working-with-cylinder/)
-- [Point Cloud ile Çalışmak](./net/working-with-point-cloud/)
-- [VRML ile Çalışmak](./net/working-with-vrml/)
+- [Kafesler](./net/meshes/)
 
 ## Java Eğitimleri için Aspose.3D
 {{% alert color="primary" %}}

@@ -16,7 +16,7 @@ Quaternion-konkatenering är ett grundläggande koncept inom 3D-grafik, som låt
 Innan du dyker in i handledningen, se till att du har följande förutsättningar:
 
 - Grundläggande kunskaper i Java-programmering.
--  Aspose.3D för Java installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/java/).
+- Aspose.3D för Java installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/java/).
 
 ## Importera paket
 

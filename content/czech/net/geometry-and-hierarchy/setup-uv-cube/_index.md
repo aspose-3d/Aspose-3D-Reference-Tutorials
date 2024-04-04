@@ -1,6 +1,6 @@
 ---
-title: Nastavení UV na kostce ve 3D scénách
-linktitle: Nastavení UV na kostce ve 3D scénách
+title: Nastavení UV na Cube
+linktitle: Nastavení UV na Cube
 second_title: Aspose.3D .NET API
 description: Naučte se nastavit UV mapování na 3D krychli pomocí Aspose.3D pro .NET. Vytvářejte vizuálně úžasné scény s přesným mapováním textur.
 type: docs

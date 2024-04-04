@@ -1,6 +1,6 @@
 ---
-title: Tạo cảnh khối trong 3D
-linktitle: Tạo cảnh khối trong 3D
+title: Tạo cảnh khối
+linktitle: Tạo cảnh khối
 second_title: API Aspose.3D .NET
 description: Tạo các cảnh khối 3D tuyệt đẹp một cách dễ dàng với Aspose.3D cho .NET. Tải xuống thư viện, làm theo hướng dẫn từng bước của chúng tôi và khám phá.
 type: docs
@@ -87,7 +87,7 @@ Chỉ định thư mục đầu ra và lưu cảnh 3D ở định dạng tệp �
 // Đường dẫn đến thư mục tài liệu.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
+// Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

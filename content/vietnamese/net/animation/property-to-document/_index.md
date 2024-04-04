@@ -15,7 +15,7 @@ Nếu bạn đang đi sâu vào lĩnh vực tạo cảnh và hoạt hình 3D tro
 
 Trước khi chúng ta bắt đầu cuộc hành trình thú vị này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
-- Aspose.3D for .NET: Đảm bảo bạn đã cài đặt thư viện. Bạn có thể tải nó xuống từ[Trang web Aspose.3D](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET: Đảm bảo bạn đã cài đặt thư viện. Bạn có thể tải nó xuống từ[Trang web Aspose.3D](https://releases.aspose.com/3d/net/).
 
 - Kiến thức về C#: Làm quen với ngôn ngữ lập trình C# là điều cần thiết để hiểu và triển khai các ví dụ.
 

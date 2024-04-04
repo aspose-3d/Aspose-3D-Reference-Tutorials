@@ -1,6 +1,6 @@
 ---
-title: Thiết lập UV trên khối lập phương trong cảnh 3D
-linktitle: Thiết lập UV trên khối lập phương trong cảnh 3D
+title: Thiết lập UV trên Cube
+linktitle: Thiết lập UV trên Cube
 second_title: API Aspose.3D .NET
 description: Tìm hiểu cách thiết lập ánh xạ UV trên khối 3D bằng Aspose.3D cho .NET. Tạo cảnh trực quan ấn tượng với bản đồ kết cấu chính xác.
 type: docs

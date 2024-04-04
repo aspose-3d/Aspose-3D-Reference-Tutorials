@@ -1,6 +1,6 @@
 ---
-title: 3D シーンで Cube に UV を設定する
-linktitle: 3D シーンで Cube に UV を設定する
+title: Cube に UV を設定する
+linktitle: Cube に UV を設定する
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D キューブに UV マッピングを設定する方法を学びます。正確なテクスチャ マッピングを使用して、視覚的に素晴らしいシーンを作成します。
 type: docs

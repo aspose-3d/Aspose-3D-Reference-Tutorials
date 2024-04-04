@@ -1,6 +1,6 @@
 ---
-title: Memuat dan Menyimpan - Membuat Dokumen 3D Kosong
-linktitle: Memuat dan Menyimpan - Membuat Dokumen 3D Kosong
+title: Membuat Dokumen 3D Kosong
+linktitle: Membuat Dokumen 3D Kosong
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia pembuatan dokumen 3D dengan Aspose.3D untuk .NET. Buat, edit, dan simpan pemandangan 3D yang menakjubkan dengan mudah.
 type: docs
@@ -46,7 +46,7 @@ var output = "Your Output Directory" + "document.fbx";
 Scene scene = new Scene();
 
 // Simpan dokumen adegan 3D dalam format FBX
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 
 // ExEnd:BuatDokumen 3DKosong
 ```
@@ -81,6 +81,6 @@ A1: Ya, Aspose.3D untuk .NET menyediakan antarmuka yang ramah pengguna, sehingga
 
  A4: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Di mana saya bisa membeli Aspose.3D untuk .NET?
+### Q5: Di mana saya dapat membeli Aspose.3D untuk .NET?
 
  A5: Anda dapat membeli perpustakaan[Di Sini](https://purchase.aspose.com/buy).

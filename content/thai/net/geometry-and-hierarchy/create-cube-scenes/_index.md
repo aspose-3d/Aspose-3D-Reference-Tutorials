@@ -1,6 +1,6 @@
 ---
-title: การสร้างฉากคิวบ์ในแบบ 3 มิติ
-linktitle: การสร้างฉากคิวบ์ในแบบ 3 มิติ
+title: การสร้างฉากคิวบ์
+linktitle: การสร้างฉากคิวบ์
 second_title: Aspose.3D .NET API
 description: สร้างฉากคิวบ์ 3D ที่น่าทึ่งได้อย่างง่ายดายด้วย Aspose.3D สำหรับ .NET ดาวน์โหลดห้องสมุด ทำตามคำแนะนำทีละขั้นตอนของเรา และปลดปล่อย
 type: docs
@@ -87,7 +87,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//บันทึกฉาก 3 มิติในรูปแบบไฟล์ที่รองรับ
+// บันทึกฉาก 3 มิติในรูปแบบไฟล์ที่รองรับ
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

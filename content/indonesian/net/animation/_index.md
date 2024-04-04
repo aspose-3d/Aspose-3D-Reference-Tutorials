@@ -4,7 +4,7 @@ linktitle: Animasi
 second_title: Aspose.3D .NET API
 description: Buka dunia animasi 3D dengan tutorial Aspose.3D untuk .NET. Pelajari cara menganimasikan properti dan menyiapkan target dan kamera untuk pemandangan dinamis dengan mudah.
 type: docs
-weight: 23
+weight: 30
 url: /id/net/animation/
 ---
 ## Perkenalan
@@ -12,7 +12,7 @@ url: /id/net/animation/
 Selamat datang di dunia animasi 3D yang menakjubkan dengan Aspose.3D untuk .NET! Dalam panduan komprehensif ini, kita akan menjelajahi dua tutorial penting yang akan memberdayakan Anda untuk membuat pemandangan 3D yang menawan dan dinamis. Mari kita memulai perjalanan mengasyikkan ini bersama-sama!
 
 ## Menganimasikan Properti untuk Mendokumentasikan dalam Adegan 3D
- Apakah Anda siap untuk menghidupkan kreasi 3D Anda? Tutorial pertama kami,[Menganimasikan Properti untuk Mendokumentasikan dalam Adegan 3D](./property-to-document/)adalah kunci Anda untuk membuka keajaiban Aspose.3D untuk .NET. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses menganimasikan properti 3D, memungkinkan Anda memasukkan gerakan dinamis dan realisme ke dalam adegan Anda.
+Apakah Anda siap untuk menghidupkan kreasi 3D Anda? Tutorial pertama kami,[Menganimasikan Properti untuk Mendokumentasikan dalam Adegan 3D](./property-to-document/), adalah kunci Anda untuk membuka keajaiban Aspose.3D untuk .NET. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses menganimasikan properti 3D, memungkinkan Anda memasukkan gerakan dinamis dan realisme ke dalam adegan Anda.
 
 ### Mengapa Anda Harus Menjelajahi Tutorial Ini?
 - Animasi yang Mudah: Temukan cara menganimasikan properti dengan lancar, menjadikan model 3D Anda hidup dengan mudah.

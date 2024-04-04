@@ -1,6 +1,6 @@
 ---
-title: Δημιουργία σκηνών κύβου σε 3D
-linktitle: Δημιουργία σκηνών κύβου σε 3D
+title: Δημιουργία σκηνών σε κύβους
+linktitle: Δημιουργία σκηνών σε κύβους
 second_title: Aspose.3D .NET API
 description: Δημιουργήστε εκπληκτικές σκηνές σε κύβους 3D χωρίς κόπο με το Aspose.3D για .NET. Κατεβάστε τη βιβλιοθήκη, ακολουθήστε τον βήμα προς βήμα οδηγό μας και απελευθερώστε.
 type: docs
@@ -87,7 +87,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//Αποθηκεύστε τη σκηνή 3D στις υποστηριζόμενες μορφές αρχείων
+// Αποθηκεύστε τη σκηνή 3D στις υποστηριζόμενες μορφές αρχείων
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

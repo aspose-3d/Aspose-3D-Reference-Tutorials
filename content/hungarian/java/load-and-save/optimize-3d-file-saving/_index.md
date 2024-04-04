@@ -118,4 +118,4 @@ A4: Használja a`setFileSystem(new DummyFileSystem())` módszer a`ObjSaveOptions
 
 ### 5. kérdés: Van mód a függőségek mentésére egy helyi könyvtárba OBJ-fájlban?
 
- V5: Igen, használja a`setFileSystem(new LocalFileSystem(MyDir))` módszer a`ObjSaveOptions` osztályt a függőségek helyi mentéséhez.
+ V5: Igen, használja a`setFileSystem(new LocalFileSystem(MyDir))` módszer a`ObjSaveOptions` osztályba a függőségek helyi mentéséhez.

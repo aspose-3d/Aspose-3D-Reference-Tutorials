@@ -88,7 +88,7 @@ Adja meg a könyvtárat és a fájlnevet a 3D jelenet támogatott fájlformátum
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "MeshGeometryData.fbx";
 
-//Mentse a 3D jelenetet a támogatott fájlformátumokba
+// Mentse a 3D jelenetet a támogatott fájlformátumokba
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

@@ -81,4 +81,4 @@ R2: ¡Absolutamente! Aspose.3D ofrece una interfaz fácil de usar para principia
 
 ### P5: ¿Dónde puedo buscar ayuda si tengo problemas con Aspose.3D?
 
-A5: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) buscar ayuda de la comunidad y de expertos.
+ A5: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) buscar ayuda de la comunidad y de expertos.

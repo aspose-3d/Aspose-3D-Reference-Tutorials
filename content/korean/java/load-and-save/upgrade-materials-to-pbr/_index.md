@@ -93,7 +93,7 @@ A1: 예, Aspose.3D는 다양한 Java 개발 환경과 호환됩니다.
 
 ### Q3: 무료 평가판이 제공됩니까?
 
- A3: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+A3: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q4: Aspose.3D에 대한 지원은 어디서 찾을 수 있나요?
 

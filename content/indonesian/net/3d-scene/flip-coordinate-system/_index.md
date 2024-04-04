@@ -16,8 +16,8 @@ Selamat datang di panduan langkah demi langkah tentang membalik sistem koordinat
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 
 - Pemahaman dasar bahasa pemrograman C#.
-- Aspose.3D untuk perpustakaan .NET diinstal. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/3d/net/).
-- Contoh file 3D dalam format yang didukung (misalnya, .3ds).
+-  Aspose.3D untuk perpustakaan .NET diinstal. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/3d/net/).
+- Contoh file 3D dalam format yang didukung (misalnya, .ma).
 
 ## Impor Namespace
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // Jalur ke file masukan
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // Inisialisasi objek adegan
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
  Pada langkah ini, kita memuat adegan 3D dari jalur file yang ditentukan menggunakan`Open` metode.
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
  Sekarang, kami menggunakan`Save` metode untuk mengekspor adegan, membalik sistem koordinat dalam prosesnya. Outputnya disimpan dalam format Wavefront OBJ.

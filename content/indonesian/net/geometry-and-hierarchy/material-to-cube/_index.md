@@ -1,6 +1,6 @@
 ---
-title: Menerapkan Material ke Kubus dalam Adegan 3D
-linktitle: Menerapkan Material ke Kubus dalam Adegan 3D
+title: Menerapkan Bahan ke Kubus
+linktitle: Menerapkan Bahan ke Kubus
 second_title: Aspose.3D .NET API
 description: Jelajahi Aspose.3D untuk .NET, gerbang Anda menuju manipulasi grafis 3D yang mulus. Terapkan materi dengan mudah, tingkatkan realisme, dan tingkatkan proyek Anda.
 type: docs
@@ -42,17 +42,12 @@ using System.IO;
 // Inisialisasi objek adegan
 Scene scene = new Scene();
 
-// Inisialisasi objek simpul kubus
-Node cubeNode = new Node("cube");
+// Buat contoh kotak.
+var box = new Box();
 
-// Panggil kelas Common membuat mesh menggunakan metode pembuat poligon untuk menyetel instance mesh
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+// Lampirkan contoh kotak ke adegan
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//Arahkan simpul ke jaring
-cubeNode.Entity = mesh;
-
-// Tambahkan kubus ke tempat kejadian
-scene.RootNode.ChildNodes.Add(cubeNode);
 // ExEnd:InisialisasiSceneAndCube
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 // Tetapkan jalur file lokal untuk tekstur
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 // Atur Tekstur material
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,8 +77,8 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 // Tetapkan konten biner
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-//ExEnd: Sematkan Data Konten Mentah
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
+// ExEnd: Sematkan Data Konten Mentah
 ```
 
 ## Langkah 4: Atur Properti Material
@@ -105,11 +100,11 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart:Simpan3DScene
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
-//Simpan adegan 3D dalam format file yang didukung
-scene.Save(output, FileFormat.FBX7400ASCII);
-// ExEnd:Simpan3DScene
+// Simpan adegan 3D dalam format file yang didukung
+scene.Save(output);
+//ExEnd:Simpan3DScene
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
 ```
@@ -140,4 +135,4 @@ A3: Ya, Aspose.3D memberikan dukungan komprehensif untuk membuat dan memanipulas
 
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk masalah atau pertanyaan apa pun?
 
-A5: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk berhubungan dengan masyarakat dan mencari bantuan.
+ A5: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk berhubungan dengan masyarakat dan mencari bantuan.

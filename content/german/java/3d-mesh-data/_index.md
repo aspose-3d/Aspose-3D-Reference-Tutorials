@@ -17,7 +17,7 @@ Sind Sie bereit, Ihre 3D-Entwicklungsfähigkeiten in Java zu verbessern? Tauchen
 
 ## Generieren Sie Daten für 3D-Netze in Java (Normalen, Tangenten, Binormalen)
 
-Sind Sie bereit, Ihre Java-Projekte auf die nächste Stufe zu heben?[Generieren Sie Daten für 3D-Netze in Java (Normalen, Tangenten, Binormalen)](./generate-mesh-data/) mit Aspose.3D ist das Tutorial, das Sie brauchen. Tauchen Sie tief in die Feinheiten der 3D-Grafik ein, während wir Sie durch die mühelose Generierung normaler Daten für Ihre 3D-Netze führen. Erfahren Sie, wie Sie die visuelle Attraktivität Ihrer Projekte steigern und sich souverän in der 3D-Welt zurechtfinden.
+ Sind Sie bereit, Ihre Java-Projekte auf die nächste Stufe zu heben?[Generieren Sie Daten für 3D-Netze in Java (Normalen, Tangenten, Binormalen)](./generate-mesh-data/)mit Aspose.3D ist das Tutorial, das Sie brauchen. Tauchen Sie tief in die Feinheiten der 3D-Grafik ein, während wir Sie durch die mühelose Generierung normaler Daten für Ihre 3D-Netze führen. Erfahren Sie, wie Sie die visuelle Attraktivität Ihrer Projekte steigern und sich souverän in der 3D-Welt zurechtfinden.
 
 ## Teilen Sie 3D-Netze nach Material für eine effiziente Verarbeitung in Java auf
 

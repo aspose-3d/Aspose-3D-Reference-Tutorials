@@ -16,7 +16,7 @@ Di bidang pemodelan 3D berbasis Java, Aspose.3D menonjol sebagai alat yang ampuh
 Sebelum kita memulai perjalanan kreatif ini, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK): Aspose.3D untuk Java memerlukan JDK yang kompatibel yang diinstal pada mesin Anda.
-- Perpustakaan Aspose.3D: Unduh dan integrasikan perpustakaan Aspose.3D ke dalam proyek Java Anda. Anda dapat menemukan perpustakaan dan dokumentasi terperinci[Di Sini](https://releases.aspose.com/3d/java/).
+-  Perpustakaan Aspose.3D: Unduh dan integrasikan perpustakaan Aspose.3D ke dalam proyek Java Anda. Anda dapat menemukan perpustakaan dan dokumentasi terperinci[Di Sini](https://releases.aspose.com/3d/java/).
 
 ## Paket Impor
 
@@ -73,7 +73,7 @@ Mari kita inisialisasi silinder kedua tanpa bagian atas offset yang disesuaikan:
 
 ```java
 // MantanMulai:4
-//Inisialisasi silinder kedua tanpa OffsetTop yang disesuaikan
+// Inisialisasi silinder kedua tanpa OffsetTop yang disesuaikan
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExEnd:4
 ```
@@ -95,7 +95,7 @@ Terakhir, simpan adegan dengan silinder yang dibuat sebagai file Wavefront OBJ d
 
 ```java
 // MantanMulai:6
-// Menyimpan
+//Menyimpan
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // ExEnd:6
 ```
@@ -118,7 +118,7 @@ A2: Tentu saja! Aspose.3D memberikan kemampuan ekstensif untuk menerapkan tekstu
 
 ### Q3: Apakah ada opsi lisensi yang tersedia untuk Aspose.3D?
 
- A3: Ya, Anda dapat mengeksplorasi dan memilih opsi lisensi yang sesuai dengan kebutuhan Anda[Di Sini](https://purchase.aspose.com/buy).
+A3: Ya, Anda dapat mengeksplorasi dan memilih opsi lisensi yang sesuai dengan kebutuhan Anda[Di Sini](https://purchase.aspose.com/buy).
 
 ### Q4: Bagaimana saya bisa mencari bantuan atau berbagi pengalaman saya dengan Aspose.3D?
 

@@ -81,7 +81,7 @@ A1: Kesinlikle! Kütüphane, kullanıcı dostu bir arayüz ve kapsamlı belgeler
 
 ### S3: Aspose.3D for Java desteğini nasıl alabilirim?
 
- A3: Şu adresteki topluluğa katılın:[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) diğer kullanıcılarla etkileşime geçmek ve uzmanlardan yardım almak.
+A3: Şu adresteki topluluğa katılın:[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) diğer kullanıcılarla etkileşime geçmek ve uzmanlardan yardım almak.
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 

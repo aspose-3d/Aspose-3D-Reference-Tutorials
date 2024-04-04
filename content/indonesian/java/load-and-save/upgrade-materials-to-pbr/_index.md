@@ -93,7 +93,7 @@ A1: Ya, Aspose.3D kompatibel dengan berbagai lingkungan pengembangan Java.
 
 ### Q3: Apakah tersedia uji coba gratis?
 
- A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Di mana saya dapat menemukan dukungan untuk Aspose.3D?
 

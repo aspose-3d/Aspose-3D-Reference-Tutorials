@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## ステップ 5: シーンを保存する
 
-設定したシーンを、.3ds などの目的のファイル形式で指定した出力ディレクトリに保存します。
+構成されたシーンを、.fbx などの目的のファイル形式で指定された出力ディレクトリに保存します。
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## 結論
@@ -90,7 +90,7 @@ A1: Aspose.3D はさまざまなファイル形式をサポートしており、
 
 ### Q2: ゲーム開発に Aspose.3D を使用できますか?
 
-A2：もちろんです！ Aspose.3D を使用すると、開発者はゲーム用の 3D アセットを簡単に作成できます。
+A2: もちろんです！ Aspose.3D を使用すると、開発者はゲーム用の 3D アセットを簡単に作成できます。
 
 ### Q3: Aspose.3D の追加サポートはどこで見つけられますか?
 
@@ -98,7 +98,7 @@ A2：もちろんです！ Aspose.3D を使用すると、開発者はゲーム�
 
 ### Q4: 無料トライアルはありますか?
 
- A4: はい、無料トライアルを試すことができます[ここ](https://releases.aspose.com/).
+A4: はい、無料トライアルを試すことができます[ここ](https://releases.aspose.com/).
 
 ### Q5: 仮ライセンスを取得するにはどうすればよいですか?
 

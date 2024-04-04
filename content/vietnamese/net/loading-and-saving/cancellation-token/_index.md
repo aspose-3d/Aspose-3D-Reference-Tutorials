@@ -1,6 +1,6 @@
 ---
-title: Đang tải và lưu - Sử dụng CancellationToken
-linktitle: Đang tải và lưu - Sử dụng CancellationToken
+title: Sử dụng CancellingToken
+linktitle: Sử dụng CancellingToken
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới liền mạch của mô hình 3D với Aspose.3D cho .NET. Tìm hiểu cách tải và lưu tài liệu 3D một cách hiệu quả bằng cách sử dụng CancellationToken.
 type: docs
@@ -78,7 +78,7 @@ catch (ImportException e)
 }
 ```
 
- Cố gắng mở tài liệu 3D trong khung thời gian đã chỉ định. Các`cts.Token`tham số đảm bảo rằng thao tác có thể bị hủy nếu vượt quá thời gian chờ đã đặt.
+ Cố gắng mở tài liệu 3D trong khung thời gian đã chỉ định. Các`cts.Token` tham số đảm bảo rằng thao tác có thể bị hủy nếu vượt quá thời gian chờ đã đặt.
 
 ### Bước 5: Xử lý ngoại lệ nhập
 

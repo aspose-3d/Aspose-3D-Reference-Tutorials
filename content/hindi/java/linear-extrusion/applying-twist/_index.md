@@ -91,7 +91,7 @@ right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(90); setSlice
 ```java
 // एक्सस्टार्ट: सेव3डीएससीन
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-// ExEnd:Save3DScene
+//ExEnd:Save3DScene
 ```
 
 ## निष्कर्ष

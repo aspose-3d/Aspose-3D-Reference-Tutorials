@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## Étape 2 : Créer une hiérarchie de nœuds
 
 ```java
-// ExStart : Créer une hiérarchie
+//ExStart : Créer une hiérarchie
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

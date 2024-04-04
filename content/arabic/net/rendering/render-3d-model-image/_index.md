@@ -84,7 +84,7 @@ scene.Render(cam, "Your Output Directory" + "Render3DModelImageFromCamera.png", 
 ### س: كيف يمكنني استكشاف مشكلات العرض وإصلاحها؟
  ج: تحقق من Aspose.3D[المنتدى](https://forum.aspose.com/c/3d/18) للحصول على الدعم والحلول لمشاكل العرض الشائعة.
 ### س: هل هناك نسخة تجريبية مجانية متاحة؟
- ج: نعم، يمكنك استكشاف ميزات Aspose.3D عن طريق الحصول على ملف[تجربة مجانية](https://releases.aspose.com/).
+ج: نعم، يمكنك استكشاف ميزات Aspose.3D عن طريق الحصول على ملف[تجربة مجانية](https://releases.aspose.com/).
 ### س: أين يمكنني العثور على وثائق شاملة؟
  ج: راجع[توثيق](https://reference.aspose.com/3d/net/) للحصول على إرشادات متعمقة حول Aspose.3D لـ .NET.
 ### س: كيف يمكنني شراء Aspose.3D لـ .NET؟

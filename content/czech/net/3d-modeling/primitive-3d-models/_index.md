@@ -15,7 +15,7 @@ Vítejte ve vzrušujícím světě 3D modelování s Aspose.3D pro .NET! V tomto
 
 Než se ponoříme do fascinující sféry 3D modelování, ujistěte se, že máte splněny následující předpoklady:
 
-- Aspose.3D for .NET: Stáhněte si a nainstalujte knihovnu Aspose.3D for .NET z[odkaz ke stažení](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET: Stáhněte si a nainstalujte knihovnu Aspose.3D for .NET z[odkaz ke stažení](https://releases.aspose.com/3d/net/).
 
 - Vývojové prostředí: Nastavte vývojové prostředí .NET zajišťující kompatibilitu s Aspose.3D.
 
@@ -35,7 +35,7 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Formats;
 ```
 
-S těmito jmennými prostory na místě jste připraveni uvolnit sílu Aspose.3D ve vaší aplikaci .NET.
+těmito jmennými prostory na místě jste připraveni uvolnit sílu Aspose.3D ve vaší aplikaci .NET.
 
 ## Krok 1: Inicializujte objekt scény
 

@@ -1,8 +1,8 @@
 ---
-title: Načítání a ukládání – vlastní možnosti ukládání
-linktitle: Načítání a ukládání – vlastní možnosti ukládání
+title: Vlastní možnosti uložení
+linktitle: Vlastní možnosti uložení
 second_title: Aspose.3D .NET API
-description: Prozkoumejte sílu Aspose.3D pro .NET. Naučte se, jak přizpůsobit ukládání 3D scény pomocí podrobných průvodců ve formátech Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC a RVM.
+description: Prozkoumejte sílu Aspose.3D pro .NET. Naučte se, jak přizpůsobit ukládání 3D scény pomocí podrobných průvodců ve formátech Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC a RVM.
 type: docs
 weight: 21
 url: /cs/net/loading-and-saving/custom-save-options/

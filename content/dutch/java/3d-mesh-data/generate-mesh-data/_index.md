@@ -16,7 +16,7 @@ Het creëren en manipuleren van 3D mesh-gegevens in Java kan een uitdagende maar
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 - Basiskennis van Java-programmeren.
--  Aspose.3D voor Java geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/3d/java/).
+- Aspose.3D voor Java geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/3d/java/).
 - Een 3D-bestand in 3ds-formaat. We gebruiken "camera.3ds" als voorbeeld.
 
 ## Pakketten importeren
@@ -84,7 +84,7 @@ A1: Ja, Aspose.3D ondersteunt verschillende 3D-bestandsformaten, waardoor flexib
 
  A2: Absoluut! U kunt Aspose.3D voor Java aanschaffen[hier](https://purchase.aspose.com/buy).
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+### Vraag 3: Is er een gratis proefperiode beschikbaar?
 
  A3: Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
 

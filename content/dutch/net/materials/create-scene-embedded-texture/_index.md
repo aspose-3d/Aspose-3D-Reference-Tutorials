@@ -13,7 +13,7 @@ Welkom in de opwindende wereld van 3D-graphics met Aspose.3D voor .NET! In deze 
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 - Een basiskennis van programmeren in C# en .NET.
 - Visual Studio is op uw computer geïnstalleerd.
--  Aspose.3D voor .NET-bibliotheek, die u kunt downloaden[hier](https://releases.aspose.com/3d/net/).
+- Aspose.3D voor .NET-bibliotheek, die u kunt downloaden[hier](https://releases.aspose.com/3d/net/).
 - Bekendheid met de concepten van 3D-graphics en scènecreatie.
 ## Naamruimten importeren
 Begin met het importeren van de benodigde naamruimten in uw project. Deze naamruimten bieden u de tools en functionaliteiten die nodig zijn voor manipulatie van 3D-afbeeldingen.
@@ -44,7 +44,7 @@ Laten we nu wat visuele flair aan uw scène toevoegen door een textuur in te slu
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    // Bestandsnaam is vereist als de ingesloten textuur wordt gebruikt.
+    //Bestandsnaam is vereist als de ingesloten textuur wordt gebruikt.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

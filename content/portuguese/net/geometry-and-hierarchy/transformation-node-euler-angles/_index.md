@@ -1,6 +1,6 @@
 ---
-title: Transformando o nó por ângulos de Euler em cenas 3D
-linktitle: Transformando o nó por ângulos de Euler em cenas 3D
+title: Transformando o nó por ângulos de Euler
+linktitle: Transformando o nó por ângulos de Euler
 second_title: API Aspose.3D .NET
 description: Aprenda a transformar nós 3D sem esforço com Aspose.3D for .NET. Siga nosso guia passo a passo para obter resultados impressionantes em seus projetos.
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
  Comece criando uma nova cena 3D usando o`Scene` aula.
 
-## Etapa 2: inicializar o objeto de classe do nó
 
-```csharp
-// Inicializar objeto de classe Node
-Node cubeNode = new Node("cube");
-```
-
- Crie um nó dentro da cena usando o`Node`aula. Este nó servirá como contêiner para nosso objeto 3D.
-
-## Etapa 3: criar malha usando o Polygon Builder
+## Etapa 2: Criar malha usando caixa primitiva
 
 ```csharp
 // Chame a classe Common para criar malha usando o método construtor de polígono para definir a instância da malha
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
- Invoque um método (neste caso,`CreateMeshUsingPolygonBuilder` de um costume`Common` class) para gerar uma malha para o objeto 3D.
+ Invoque um método (neste caso,`CreateMeshUsingPolygonBuilder` de um costume`Common`class) para gerar uma malha para o objeto 3D.
 
-## Etapa 4: apontar o nó para a geometria da malha
+## Etapa 3: crie um nó de contêiner para a malha
 
 ```csharp
 // Aponte o nó para a geometria da malha
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-Associe a malha criada ao nó.
+ Crie um nó dentro da cena usando o`Node` aula. Este nó servirá como contêiner para nosso objeto 3D.
 
-## Etapa 5: definir ângulos de Euler e tradução
+## Etapa 4: definir ângulos de Euler e tradução
 
 ```csharp
 // Ângulos de Euler
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 Defina os ângulos de Euler e a translação do nó para posicioná-lo no espaço 3D.
 
-## Etapa 6: adicionar cubo à cena
-
-```csharp
-// Adicione um cubo à cena
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-Incorpore o nó na hierarquia da cena.
-
-## Passo 7: Salve a cena 3D
+## Etapa 5: salve a cena 3D
 
 ```csharp
 // O caminho para o diretório de documentos.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Salve cenas 3D nos formatos de arquivo suportados
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Salve cenas 3D nos formatos de arquivo suportados
+scene.Save(output);
 // ExEnd: AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ A2: Sim, você pode combinar e aplicar múltiplas transformações para obter ef
 
 ### P5: Precisa de ajuda ou tem dúvidas específicas?
 
-A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para apoio comunitário.
+ A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para apoio comunitário.

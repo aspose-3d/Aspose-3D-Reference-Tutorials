@@ -22,7 +22,8 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 
 Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java. Upewnij się, że Aspose.3D jest dodany do ścieżki klas. Oto przykład:
 
-```javaimport com.aspose.threed.License;
+```java
+import com.aspose.threed.License;
 import com.aspose.threed.Metered;
 
 import java.io.FileInputStream;

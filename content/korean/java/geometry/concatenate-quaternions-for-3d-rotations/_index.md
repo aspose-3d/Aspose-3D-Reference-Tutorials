@@ -16,7 +16,7 @@ url: /ko/java/geometry/concatenate-quaternions-for-3d-rotations/
 튜토리얼을 시작하기 전에 다음 전제조건이 충족되었는지 확인하십시오.
 
 - Java 프로그래밍에 대한 기본 지식.
--  Java용 Aspose.3D가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/3d/java/).
+- Java용 Aspose.3D가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/3d/java/).
 
 ## 패키지 가져오기
 
@@ -102,7 +102,7 @@ System.out.println("\nQuaternions concatenated successfully.\nFile saved at " + 
 
 ### Q4: Aspose.3D에 임시 라이선스를 사용할 수 있나요?
 
- A4: 그렇습니다.[임시면허](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.
+ A4: 그렇습니다.[임시 면허증](https://purchase.aspose.com/temporary-license/) 테스트 및 평가 목적으로.
 
 ### Q5: 3D 장면 저장에 지원되는 파일 형식은 무엇입니까?
 

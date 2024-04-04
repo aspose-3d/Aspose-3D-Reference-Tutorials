@@ -88,7 +88,7 @@ for(Vector3 color : colors) {
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "MeshGeometryData.fbx";
 
-//지원되는 파일 형식으로 3D 장면 저장
+// 지원되는 파일 형식으로 3D 장면 저장
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## Adım 4: Düğümü Ağa Yönlendirin
 
 ```java
-//Düğümü ağa yönlendirin
+// Düğümü ağa yönlendirin
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // Dosya adını ayarlayın
 MyDir = MyDir + "MaterialToCube.fbx";
-//3B sahneyi desteklenen dosya formatlarında kaydedin
+// 3B sahneyi desteklenen dosya formatlarında kaydedin
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

@@ -1,6 +1,6 @@
 ---
-title: Csomópont átalakítása Euler-szögekkel 3D-s jelenetekben
-linktitle: Csomópont átalakítása Euler-szögekkel 3D-s jelenetekben
+title: Csomópont átalakítása Euler-szögekkel
+linktitle: Csomópont átalakítása Euler-szögekkel
 second_title: Aspose.3D .NET API
 description: Tanulja meg a 3D csomópontok könnyed átalakítását az Aspose.3D for .NET segítségével. Kövesse lépésről lépésre útmutatónkat, hogy lenyűgöző eredményeket érjen el projektjei során.
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
  Kezdje új 3D-s jelenet létrehozásával a`Scene` osztály.
 
-## 2. lépés: Inicializálja a Node Class Object-et
 
-```csharp
-// Node osztály objektum inicializálása
-Node cubeNode = new Node("cube");
-```
-
- Hozzon létre egy csomópontot a jeleneten belül a`Node`osztály. Ez a csomópont a 3D objektumunk tárolójaként fog szolgálni.
-
-## 3. lépés: Háló létrehozása a Polygon Builder segítségével
+## 2. lépés: Háló létrehozása primitív doboz használatával
 
 ```csharp
 // Hívja a Common class create mesh-t a sokszögépítő metódussal a hálópéldány beállításához
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
- Hívjon meg egy metódust (ebben az esetben`CreateMeshUsingPolygonBuilder` szokásból`Common` osztály) háló létrehozásához a 3D objektumhoz.
+ Hívjon meg egy metódust (ebben az esetben`CreateMeshUsingPolygonBuilder` szokásból`Common`osztály) háló létrehozásához a 3D objektumhoz.
 
-## 4. lépés: Mutasson csomópontot a hálógeometriára
+## 3. lépés: Hozzon létre egy tároló csomópontot a háló számára
 
 ```csharp
 // Pontcsomópont a Mesh geometriára
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-Társítsa a létrehozott hálót a csomóponthoz.
+ Hozzon létre egy csomópontot a jeleneten belül a`Node` osztály. Ez a csomópont a 3D objektumunk tárolójaként fog szolgálni.
 
-## 5. lépés: Állítsa be az Euler-szögeket és a fordítást
+## 4. lépés: Állítsa be az Euler-szögeket és a fordítást
 
 ```csharp
 // Euler-szögek
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 Határozza meg az Euler-szögeket és a transzlációt a csomópont számára, hogy elhelyezze a 3D-s térben.
 
-## 6. lépés: Kocka hozzáadása a jelenethez
-
-```csharp
-// Adjon hozzá kockát a jelenethez
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-Szerelje be a csomópontot a jelenet hierarchiájába.
-
-## 7. lépés: Mentse el a 3D-s jelenetet
+## 5. lépés: Mentse el a 3D-s jelenetet
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Mentse a 3D jelenetet a támogatott fájlformátumokba
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Mentse a 3D jelenetet a támogatott fájlformátumokba
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ Gratulálunk! Sikeresen megtanulta, hogyan lehet egy csomópontot Euler-szögekk
 
 ### 5. kérdés: Segítségre van szüksége, vagy konkrét kérdései vannak?
 
-A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) közösségi támogatásért.
+ A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) közösségi támogatásért.

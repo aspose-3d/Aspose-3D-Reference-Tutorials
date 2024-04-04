@@ -90,4 +90,4 @@ Gratulálunk! Sikeresen beállította a normál értékeket egy 3D objektumon Ja
 
 ### 5. kérdés: Segítségre van szüksége, vagy szeretne beszélgetni a közösséggel?
 
-A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) támogatásért és megbeszélésekért.
+ A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) támogatásért és megbeszélésekért.

@@ -1,6 +1,6 @@
 ---
-title: Materiaal toepassen op kubussen in 3D-scènes
-linktitle: Materiaal toepassen op kubussen in 3D-scènes
+title: Materiaal op kubus aanbrengen
+linktitle: Materiaal op kubus aanbrengen
 second_title: Aspose.3D .NET-API
 description: Ontdek Aspose.3D voor .NET, uw toegangspoort tot naadloze manipulatie van 3D-afbeeldingen. Pas materialen moeiteloos toe, verbeter het realisme en breng uw projecten naar een hoger niveau.
 type: docs
@@ -42,17 +42,12 @@ using System.IO;
 // Initialiseer scèneobject
 Scene scene = new Scene();
 
-// Initialiseer het kubusknooppuntobject
-Node cubeNode = new Node("cube");
+// Maak een box-instantie.
+var box = new Box();
 
-// Roep de Common-klasse aan om mesh te maken met behulp van de polygon builder-methode om de mesh-instantie in te stellen
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+// Voeg een box-instantie toe aan de scène
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//Wijs het knooppunt naar de mesh
-cubeNode.Entity = mesh;
-
-// Voeg een kubus toe aan de scène
-scene.RootNode.ChildNodes.Add(cubeNode);
 // ExEnd: InitialiseerSceneAndCube
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 // Stel het lokale bestandspad in voor de textuur
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 // Stel de textuur van het materiaal in
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,8 +77,8 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 // Stel binaire inhoud in
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-//ExEnd:EmbedRawContentData
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
+// ExEnd:EmbedRawContentData
 ```
 
 ## Stap 4: Materiaaleigenschappen instellen
@@ -105,11 +100,11 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart: Save3DSene
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
-//Sla 3D-scènes op in de ondersteunde bestandsformaten
-scene.Save(output, FileFormat.FBX7400ASCII);
-// Uitbreiden: 3DSene opslaan
+// Sla 3D-scènes op in de ondersteunde bestandsformaten
+scene.Save(output);
+//Uitbreiden: 3DScene opslaan
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
 ```
@@ -140,4 +135,4 @@ A3: Ja, Aspose.3D biedt uitgebreide ondersteuning voor het maken en manipuleren 
 
 ### Vraag 5: Hoe kan ik ondersteuning krijgen voor eventuele problemen of vragen?
 
-A5: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) om verbinding te maken met de gemeenschap en hulp te zoeken.
+ A5: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) om verbinding te maken met de gemeenschap en hulp te zoeken.

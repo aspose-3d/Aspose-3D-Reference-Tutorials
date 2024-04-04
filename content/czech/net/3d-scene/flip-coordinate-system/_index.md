@@ -16,8 +16,8 @@ Vítejte v tomto podrobném průvodci překlápěním souřadnicového systému 
 Než se ponoříte do výukového programu, ujistěte se, že máte následující předpoklady:
 
 - Základní znalost programovacího jazyka C#.
-- Nainstalovaná knihovna Aspose.3D for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/3d/net/).
-- Ukázkový 3D soubor v podporovaném formátu (např. .3ds).
+-  Nainstalovaná knihovna Aspose.3D for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/3d/net/).
+- Ukázkový 3D soubor v podporovaném formátu (např. .ma).
 
 ## Importovat jmenné prostory
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // Cesta ke vstupnímu souboru
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // Inicializujte objekt scény
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
  V tomto kroku načteme 3D scénu ze zadané cesty k souboru pomocí`Open` metoda.
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
  Nyní používáme`Save` způsob exportu scény, překlápění souřadnicového systému v procesu. Výstup je uložen ve formátu Wavefront OBJ.

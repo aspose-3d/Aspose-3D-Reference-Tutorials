@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## चरण 2: नोड्स का एक पदानुक्रम बनाएं
 
 ```java
-// एक्सस्टार्ट: पदानुक्रम बनाएं
+//एक्सस्टार्ट: पदानुक्रम बनाएं
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

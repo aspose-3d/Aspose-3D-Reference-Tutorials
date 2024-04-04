@@ -9,14 +9,14 @@ url: /hu/java/cylinders/creating-cylinders-with-offset-top/
 ---
 ## Bevezetés
 
-A Java-alapú 3D-modellezés területén az Aspose.3D hatékony eszközként tűnik ki, és lehetőséget kínál a fejlesztőknek, hogy könnyedén készítsenek bonyolult 3D-s jeleneteket. Ebben az oktatóanyagban elmélyülünk az Aspose.3D for Java lenyűgöző világában, egy konkrét feladatra összpontosítva – eltolt tetejű hengerek létrehozására. Ennek az útmutatónak a végére már határozottan átlátja a folyamatot, így ezt a funkciót zökkenőmentesen integrálhatja 3D projektjeibe.
+Java-alapú 3D-modellezés területén az Aspose.3D hatékony eszközként tűnik ki, és lehetőséget kínál a fejlesztőknek, hogy könnyedén készítsenek bonyolult 3D-s jeleneteket. Ebben az oktatóanyagban elmélyülünk az Aspose.3D for Java lenyűgöző világában, egy konkrét feladatra összpontosítva – eltolt tetejű hengerek létrehozására. Ennek az útmutatónak a végére már határozottan átlátja a folyamatot, így ezt a funkciót zökkenőmentesen integrálhatja 3D projektjeibe.
 
 ## Előfeltételek
 
 Mielőtt nekivágnánk ennek a kreatív útnak, győződjön meg arról, hogy a következő előfeltételekkel rendelkezik:
 
 - Java Development Kit (JDK): Az Aspose.3D for Java kompatibilis JDK-t igényel a számítógépen.
-- Aspose.3D Library: Töltse le és integrálja az Aspose.3D könyvtárat Java projektjébe. Megtalálható a könyvtár és a részletes dokumentáció[itt](https://releases.aspose.com/3d/java/).
+-  Aspose.3D Library: Töltse le és integrálja az Aspose.3D könyvtárat Java projektjébe. Megtalálható a könyvtár és a részletes dokumentáció[itt](https://releases.aspose.com/3d/java/).
 
 ## Csomagok importálása
 
@@ -73,7 +73,7 @@ Inicializáljunk egy második hengert testreszabott eltolt tető nélkül:
 
 ```java
 // ExStart:4
-// második henger inicializálása testreszabott OffsetTop nélkül
+// A második henger inicializálása testreszabott OffsetTop nélkül
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExEnd:4
 ```
@@ -95,7 +95,7 @@ Végül mentse el a jelenetet a létrehozott hengerekkel Wavefront OBJ fájlkén
 
 ```java
 // ExStart:6
-// Megment
+//Megment
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // ExEnd:6
 ```
@@ -118,7 +118,7 @@ A2: Abszolút! Az Aspose.3D kiterjedt lehetőségeket kínál a textúrák és a
 
 ### 3. kérdés: Rendelkezésre állnak-e licencelési lehetőségek az Aspose.3D számára?
 
- V3: Igen, felfedezheti és kiválaszthatja az igényeinek megfelelő licencelési lehetőséget[itt](https://purchase.aspose.com/buy).
+V3: Igen, felfedezheti és kiválaszthatja az igényeinek megfelelő licencelési lehetőséget[itt](https://purchase.aspose.com/buy).
 
 ### 4. kérdés: Hogyan kérhetek segítséget vagy oszthatok meg tapasztalataimat az Aspose.3D-vel kapcsolatban?
 

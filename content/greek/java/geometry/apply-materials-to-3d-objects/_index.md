@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## Βήμα 4: Σημειώστε τον κόμβο στο πλέγμα
 
 ```java
-//Τοποθετήστε τον κόμβο στο πλέγμα
+// Τοποθετήστε τον κόμβο στο πλέγμα
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // Ορίστε το όνομα αρχείου
 MyDir = MyDir + "MaterialToCube.fbx";
-//Αποθηκεύστε τη σκηνή 3D στις υποστηριζόμενες μορφές αρχείων
+// Αποθηκεύστε τη σκηνή 3D στις υποστηριζόμενες μορφές αρχείων
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

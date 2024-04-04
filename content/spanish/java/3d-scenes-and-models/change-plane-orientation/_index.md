@@ -16,7 +16,7 @@ Bienvenido a nuestra guía paso a paso sobre cómo mejorar el posicionamiento de
 Antes de embarcarnos en este viaje, asegúrese de contar con los siguientes requisitos previos:
 
 - Un conocimiento básico de la programación Java.
--  Aspose.3D para Java instalado. Puedes descargarlo[aquí](https://releases.aspose.com/3d/java/).
+- Aspose.3D para Java instalado. Puedes descargarlo[aquí](https://releases.aspose.com/3d/java/).
 - Un entorno de desarrollo listo para la codificación Java.
 
 ## Importar paquetes
@@ -60,7 +60,7 @@ A continuación, inicializa un nuevo plano dentro de la escena:
 Plane plane = new Plane();
 ```
 
-## Paso 4: establecer el vector
+## Paso 4: Establecer vector
 
 Establece un vector para definir la orientación del plano:
 
@@ -95,13 +95,13 @@ Siguiendo estos pasos, habrá modificado con éxito la orientación del plano pa
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.3D para Java con otros lenguajes de programación?
+### P1: ¿Puedo utilizar Aspose.3D para Java con otros lenguajes de programación?
 
 R1: Sí, Aspose.3D admite varios lenguajes de programación, incluidos Java, .NET y más.
 
 ### P2: ¿Hay una prueba gratuita disponible para Aspose.3D?
 
-R2: ¡Por supuesto! Puede explorar las características de Aspose.3D accediendo a la prueba gratuita[aquí](https://releases.aspose.com/).
+ R2: ¡Por supuesto! Puede explorar las características de Aspose.3D accediendo a la prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P3: ¿Dónde puedo encontrar soporte para Aspose.3D?
 

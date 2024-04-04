@@ -1,6 +1,6 @@
 ---
-title: 3D 장면에서 기하학적 변환 노출
-linktitle: 3D 장면에서 기하학적 변환 노출
+title: 기하학적 변환 노출
+linktitle: 기하학적 변환 노출
 second_title: Aspose.3D .NET API
 description: Aspose.3D를 사용하여 .NET에서 3D 그래픽의 무한한 가능성을 탐색해 보세요. 기하학적 변형을 손쉽게 찾아보세요.
 type: docs

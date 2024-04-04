@@ -16,7 +16,7 @@ url: /ar/java/3d-scenes-and-models/change-plane-orientation/
 قبل أن نبدأ هذه الرحلة، تأكد من توفر المتطلبات الأساسية التالية:
 
 - الفهم الأساسي لبرمجة جافا.
--  تم تثبيت Aspose.3D لـ Java. يمكنك تنزيله[هنا](https://releases.aspose.com/3d/java/).
+- تم تثبيت Aspose.3D لـ Java. يمكنك تنزيله[هنا](https://releases.aspose.com/3d/java/).
 - بيئة تطوير جاهزة لترميز Java.
 
 ## حزم الاستيراد
@@ -101,7 +101,7 @@ scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
 
 ### س2: هل تتوفر نسخة تجريبية مجانية لـ Aspose.3D؟
 
-ج2: بالتأكيد! يمكنك استكشاف ميزات Aspose.3D عن طريق الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+ ج2: بالتأكيد! يمكنك استكشاف ميزات Aspose.3D عن طريق الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 
 ### س3: أين يمكنني العثور على الدعم لـ Aspose.3D؟
 

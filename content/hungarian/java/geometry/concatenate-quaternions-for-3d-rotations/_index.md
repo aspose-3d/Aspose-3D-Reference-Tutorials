@@ -16,7 +16,7 @@ kvaterniós összefűzés a 3D grafika alapvető fogalma, amely lehetővé teszi
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 
 - Java programozási alapismeretek.
--  Aspose.3D for Java telepítve. Letöltheti[itt](https://releases.aspose.com/3d/java/).
+- Aspose.3D for Java telepítve. Letöltheti[itt](https://releases.aspose.com/3d/java/).
 
 ## Csomagok importálása
 

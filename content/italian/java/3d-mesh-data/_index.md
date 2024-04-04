@@ -17,7 +17,7 @@ Sei pronto per migliorare le tue capacità di sviluppo 3D in Java? Immergiti nel
 
 ## Genera dati per mesh 3D in Java (normali, tangenti, binormali)
 
-Pronto a portare i tuoi progetti Java al livello successivo?[Genera dati per mesh 3D in Java (normali, tangenti, binormali)](./generate-mesh-data/) con Aspose.3D è il tutorial di cui hai bisogno. Immergiti nelle complessità della grafica 3D mentre ti guidiamo attraverso la generazione senza sforzo di dati normali per le tue mesh 3D. Scopri come migliorare l'impatto visivo dei tuoi progetti e navigare nel mondo del 3D con sicurezza.
+ Pronto a portare i tuoi progetti Java al livello successivo?[Genera dati per mesh 3D in Java (normali, tangenti, binormali)](./generate-mesh-data/)con Aspose.3D è il tutorial di cui hai bisogno. Immergiti nelle complessità della grafica 3D mentre ti guidiamo attraverso la generazione senza sforzo di dati normali per le tue mesh 3D. Scopri come migliorare l'impatto visivo dei tuoi progetti e navigare nel mondo del 3D con sicurezza.
 
 ## Dividi mesh 3D per materiale per un'elaborazione efficiente in Java
 

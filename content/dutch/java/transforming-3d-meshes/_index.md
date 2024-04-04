@@ -12,7 +12,7 @@ url: /nl/java/transforming-3d-meshes/
 
 Ga op een fascinerende reis door de wereld van 3D-graphics met Aspose.3D voor Java. In deze uitgebreide tutorialserie begeleiden we u door het proces van het maken en transformeren van 3D-meshes, waardoor het volledige potentieel van deze krachtige Java-bibliotheek wordt ontgrendeld.
 
-## Duik in veelhoeken 
+## Duik in polygonen 
 [Creëer polygonen in 3D-mazen met Aspose.3D](./create-polygons-in-meshes/)
 
 Ontdek de kunst van het moeiteloos maken van verbluffende polygonen met Aspose.3D. Met onze stapsgewijze Java-tutorial kunt u de creatieve mogelijkheden van 3D-graphics benutten. Download Aspose.3D nu en begin aan een naadloze ontwikkelingservaring.

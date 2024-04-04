@@ -16,7 +16,7 @@ Bienvenue dans ce guide étape par étape sur la transformation de nœuds 3D ave
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
 - Connaissance de base de la programmation Java.
--  Aspose.3D pour Java installé. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/java/).
+- Aspose.3D pour Java installé. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/java/).
 - Un répertoire de documents configuré pour sauvegarder vos scènes 3D.
 
 ## Importer des packages

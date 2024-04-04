@@ -1,6 +1,6 @@
 ---
-title: Chargement et sauvegarde - Options de chargement personnalisées
-linktitle: Chargement et sauvegarde - Options de chargement personnalisées
+title: Options de chargement personnalisées
+linktitle: Options de chargement personnalisées
 second_title: API Aspose.3D .NET
 description: Explorez Aspose.3D pour .NET, la solution ultime pour un chargement et une sauvegarde transparents de modèles 3D.
 type: docs
@@ -41,8 +41,6 @@ using Aspose.ThreeD.Formats;
 ```csharp
 private static void Discreet3DSLoadOption()
 {
-    // Le chemin d'accès au répertoire des documents.
-    string dataDir = "Your Document Directory";
     Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
 
     //Définir des options personnalisées
@@ -50,6 +48,9 @@ private static void Discreet3DSLoadOption()
     loadOpts.FlipCoordinateSystem = true;
     loadOpts.GammaCorrectedColor = true;
     loadOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Charger le fichier avec les options de chargement
+    var scene = Scene.FromFile("test.3ds", loadOpts);
 }
 ```
 
@@ -58,14 +59,16 @@ private static void Discreet3DSLoadOption()
 ```csharp
 private static void ObjLoadOption()
 {
-    // Le chemin d'accès au répertoire des documents.
-    string dataDir = "Your Document Directory";
     ObjLoadOptions loadObjOpts = new ObjLoadOptions();
 
     //Définir des options personnalisées
     loadObjOpts.EnableMaterials = true;
     loadObjOpts.FlipCoordinateSystem = true;
     loadObjOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Charger le fichier avec les options de chargement
+    var scene = Scene.FromFile("test.obj", loadObjOpts);
+
 }
 ```
 
@@ -75,12 +78,14 @@ private static void ObjLoadOption()
 private static void STLLoadOption()
 {
     // Le chemin d'accès au répertoire des documents.
-    string dataDir = "Your Document Directory";
     StlLoadOptions loadSTLOpts = new StlLoadOptions();
 
     //Définir des options personnalisées
     loadSTLOpts.FlipCoordinateSystem = true;
     loadSTLOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Charger le fichier avec les options de chargement
+    var scene = Scene.FromFile("test.stl", loadSTLOpts);
 }
 ```
 
@@ -96,6 +101,9 @@ private static void U3DLoadOption()
     //Définir des options personnalisées
     loadU3DOpts.FlipCoordinateSystem = true;
     loadU3DOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Charger le fichier avec les options de chargement
+    var scene = Scene.FromFile("test.u3d", loadU3DOpts);
 }
 ```
 
@@ -105,13 +113,12 @@ private static void U3DLoadOption()
 private static void glTFLoadOptions()
 {
     // Le chemin d'accès au répertoire des documents.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     GltfLoadOptions loadOpt = new GltfLoadOptions();
 
     //Définir des options personnalisées
     loadOpt.FlipTexCoordV = true;
-    scene.Open(dataDir + "Duck.gltf", loadOpt);
+    scene.Open("Duck.gltf", loadOpt);
 }
 ```
 
@@ -127,7 +134,7 @@ private static void PlyLoadOptions()
 
     //Définir des options personnalisées
     loadPLYOpts.FlipCoordinateSystem = true;
-    scene.Open(RunExamples.GetDataFilePath("vase-v2.ply"), loadPLYOpts);
+    scene.Open("vase-v2.ply", loadPLYOpts);
 }
 ```
 
@@ -137,12 +144,11 @@ private static void PlyLoadOptions()
 private static void FBXLoadOptions()
 {
     // Le chemin d'accès au répertoire des documents.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     FbxLoadOptions opt = new FbxLoadOptions() { KeepBuiltinGlobalSettings = true };
 
     //Définir des options personnalisées
-    scene.Open(dataDir + "test.FBX", opt);
+    scene.Open("test.FBX", opt);
 
     // Propriétés de sortie définies dans GlobalSettings dans le fichier FBX
     foreach (Property property in scene.RootNode.AssetInfo.Properties)
@@ -176,4 +182,4 @@ A4 : Oui, vous pouvez explorer les capacités d'Aspose.3D pour .NET en télécha
 
 ### Q5 : Où puis-je demander de l'aide pour Aspose.3D pour .NET ?
 
-A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien et l’assistance de la communauté.
+ A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien et l’assistance de la communauté.

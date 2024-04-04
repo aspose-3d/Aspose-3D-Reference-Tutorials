@@ -97,4 +97,4 @@ Gratulacje! Pomyślnie skonfigurowałeś docelową kamerę do animacji 3D w Javi
 
 ### P5: Jak mogę uzyskać licencję tymczasową?
 
-Odpowiedź 5: Możesz nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odpowiedź 5: Możesz nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).

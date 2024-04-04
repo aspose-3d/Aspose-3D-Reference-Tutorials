@@ -20,20 +20,13 @@ is_root: true
  
 - [3D-моделирование](./net/3d-modeling/)
 - [3D-сцена](./net/3d-scene/)
-- [3D-окна просмотра](./net/3d-viewports/)
 - [Анимация](./net/animation/)
-- [Информация об активе](./net/asset-information/)
 - [Геометрия и иерархия](./net/geometry-and-hierarchy/)
 - [Лицензия](./net/license/)
 - [Загрузка и сохранение](./net/loading-and-saving/)
 - [Материалы](./net/materials/)
-- [Полигоны](./net/polygons/)
 - [Рендеринг](./net/rendering/)
-- [Линейная экструзия](./net/linear-extrusion/)
-- [Объекты](./net/objects/)
-- [Работа с цилиндром](./net/working-with-cylinder/)
-- [Работа с облаком точек](./net/working-with-point-cloud/)
-- [Работа с VRML](./net/working-with-vrml/)
+- [Сетки](./net/meshes/)
 
 ## Учебные пособия по Aspose.3D для Java
 {{% alert color="primary" %}}

@@ -1,6 +1,6 @@
 ---
-title: Aaneenschakelen van quaternionen in 3D-scènes
-linktitle: Aaneenschakelen van quaternionen in 3D-scènes
+title: Aaneengeschakelde quaternionen
+linktitle: Aaneengeschakelde quaternionen
 second_title: Aspose.3D .NET-API
 description: Ontdek de kracht van quaternionmanipulatie in 3D-scènes met Aspose.3D voor .NET. Leer stap voor stap quaternionen aan elkaar te koppelen voor meeslepende transformaties.
 type: docs
@@ -63,7 +63,7 @@ cylinder.Transform.Translation = new Vector3(-5, 2, 0);
 // Herhaal voor vraag 2 en vraag 3
 ```
 
-## Stap 4: Opslaan naar bestand
+## Stap 4: Opslaan in bestand
 
 Sla de scène op in een bestand en geef het uitvoerformaat en de bestandsnaam op.
 
@@ -96,7 +96,7 @@ A2: Ja, Aspose.3D voor .NET is ontworpen om naadloos samen te werken met andere 
 
 ### V3: Is er een gratis proefversie beschikbaar voor Aspose.3D voor .NET?
 
- A3: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
+A3: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
 
 ### V4: Hoe kan ik ondersteuning krijgen voor Aspose.3D voor .NET?
 

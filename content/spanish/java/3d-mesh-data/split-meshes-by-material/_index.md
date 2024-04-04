@@ -16,7 +16,7 @@ Bienvenido a este tutorial completo sobre cómo dividir mallas 3D por material p
 Antes de embarcarnos en este emocionante viaje, asegúrese de cumplir con los siguientes requisitos previos:
 
 - Conocimientos básicos de programación Java.
-- Biblioteca Aspose.3D para Java instalada. Puedes descargarlo desde el[Aspose sitio web](https://releases.aspose.com/3d/java/).
+-  Biblioteca Aspose.3D para Java instalada. Puedes descargarlo desde el[Aspose sitio web](https://releases.aspose.com/3d/java/).
 - Un entorno de desarrollo integrado (IDE) configurado para el desarrollo de Java.
 
 ## Importar paquetes
@@ -76,7 +76,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```java
 // Mostrar mensaje de éxito
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
-//ExEnd:SplitMeshbyMaterial
+// ExEnd:SplitMeshbyMaterial
 ```
 
 ## Conclusión
@@ -103,4 +103,4 @@ R2: ¡Absolutamente! Este método se adapta bien a modelos 3D complejos y optimi
 
 ### P5: ¿Cómo puedo obtener asistencia para cualquier problema o consulta?
 
-A5: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) por el apoyo dedicado de la comunidad.
+ A5: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) por el apoyo dedicado de la comunidad.

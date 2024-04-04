@@ -1,6 +1,6 @@
 ---
-title: Würfelszenen in 3D erstellen
-linktitle: Würfelszenen in 3D erstellen
+title: Würfelszenen erstellen
+linktitle: Würfelszenen erstellen
 second_title: Aspose.3D .NET API
 description: Erstellen Sie mühelos atemberaubende 3D-Würfelszenen mit Aspose.3D für .NET. Laden Sie die Bibliothek herunter, folgen Sie unserer Schritt-für-Schritt-Anleitung und legen Sie los.
 type: docs
@@ -87,7 +87,7 @@ Geben Sie das Ausgabeverzeichnis an und speichern Sie die 3D-Szene in einem unte
 // Der Pfad zum Dokumentenverzeichnis.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
+// Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

@@ -45,7 +45,7 @@ Ahora, creemos el primer cilindro con el fondo cortado:
 // Crear cilindro 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // Fondo de corte personalizado para el cilindro 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // Corte 47,5 grados en el plano xy (eje z)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //Corte 47,5 grados en el plano xy (eje z)
 // Agregue el cilindro 1 a la escena.
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // Fin final: 4
@@ -63,7 +63,7 @@ scene.getRootNode().createChildNode(cylinder2);
 // Fin final: 5
 ```
 
-## Paso 4: guarde la escena
+## Paso 4: guarda la escena
 
 Guarde la escena con los cilindros personalizados en su directorio de documentos:
 ```java

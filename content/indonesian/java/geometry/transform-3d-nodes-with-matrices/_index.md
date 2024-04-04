@@ -30,7 +30,7 @@ import com.aspose.threed.*;
 
 ## Mengubah Node 3D
 
-### Langkah 1: Inisialisasi Objek Adegan
+### Langkah 1: Inisialisasi Objek Pemandangan
 
 Mulailah dengan menginisialisasi objek pemandangan, yang berfungsi sebagai wadah elemen 3D.
 

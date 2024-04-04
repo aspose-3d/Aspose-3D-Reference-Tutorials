@@ -13,27 +13,20 @@ Benvenuti nel mondo coinvolgente dei tutorial Aspose.3D, dove la creatività inc
 
 ## Aspose.3D per .NET Tutorial
 {{% alert color="primary" %}}
-Esplora le possibilità della progettazione e dello sviluppo 3D con i nostri tutorial Aspose.3D per .NET. Queste guide sono progettate su misura per potenziare gli sviluppatori, fornendo approfondimenti e competenze pratiche nello sfruttamento delle funzionalità di Aspose.3D all'interno del framework .NET. Che tu sia un principiante o un programmatore esperto, i nostri tutorial mirano a semplificare la tua curva di apprendimento, consentendoti di integrare e sfruttare in modo efficiente tutto il potenziale di Aspose.3D per .NET nei tuoi progetti. Immergiti in un mondo di creatività, innovazione e soluzioni 3D perfette mentre navighi attraverso i nostri tutorial intuitivi progettati per migliorare la tua competenza in Aspose.3D per .NET.
+Esplora le possibilità della progettazione e dello sviluppo 3D con i nostri tutorial Aspose.3D per .NET. Queste guide sono progettate su misura per potenziare gli sviluppatori, fornendo approfondimenti e competenze pratiche per sfruttare le funzionalità di Aspose.3D all'interno del framework .NET. Che tu sia un principiante o un programmatore esperto, i nostri tutorial mirano a semplificare la tua curva di apprendimento, consentendoti di integrare e sfruttare in modo efficiente tutto il potenziale di Aspose.3D per .NET nei tuoi progetti. Immergiti in un mondo di creatività, innovazione e soluzioni 3D perfette mentre navighi attraverso i nostri tutorial intuitivi progettati per migliorare la tua competenza in Aspose.3D per .NET.
 {{% /alert %}}
 
 Questi sono i link ad alcune risorse utili:
  
 - [Modellazione 3D](./net/3d-modeling/)
 - [Scena 3D](./net/3d-scene/)
-- [Viste 3D](./net/3d-viewports/)
 - [Animazione](./net/animation/)
-- [Informazioni sulle risorse](./net/asset-information/)
 - [Geometria e gerarchia](./net/geometry-and-hierarchy/)
 - [Licenza](./net/license/)
 - [Caricamento e salvataggio](./net/loading-and-saving/)
 - [Materiali](./net/materials/)
-- [Poligoni](./net/polygons/)
 - [Rendering](./net/rendering/)
-- [Estrusione lineare](./net/linear-extrusion/)
-- [Oggetti](./net/objects/)
-- [Lavorare con il cilindro](./net/working-with-cylinder/)
-- [Lavorare con la nuvola di punti](./net/working-with-point-cloud/)
-- [Lavorare con VRML](./net/working-with-vrml/)
+- [Maglie](./net/meshes/)
 
 ## Aspose.3D per tutorial Java
 {{% alert color="primary" %}}

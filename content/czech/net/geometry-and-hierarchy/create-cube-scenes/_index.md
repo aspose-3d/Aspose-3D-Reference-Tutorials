@@ -1,8 +1,8 @@
 ---
-title: Vytváření krychlových scén ve 3D
-linktitle: Vytváření krychlových scén ve 3D
+title: Vytváření krychlových scén
+linktitle: Vytváření krychlových scén
 second_title: Aspose.3D .NET API
-description: S Aspose.3D for .NET bez námahy vytvářejte úžasné 3D scény z kostek. Stáhněte si knihovnu, postupujte podle našeho podrobného průvodce a uvolněte.
+description: Aspose.3D for .NET bez námahy vytvářejte úžasné 3D scény z kostek. Stáhněte si knihovnu, postupujte podle našeho podrobného průvodce a uvolněte.
 type: docs
 weight: 12
 url: /cs/net/geometry-and-hierarchy/create-cube-scenes/
@@ -87,7 +87,7 @@ Zadejte výstupní adresář a uložte 3D scénu v podporovaném formátu soubor
 // Cesta k adresáři dokumentů.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//Uložte 3D scénu v podporovaných formátech souborů
+// Uložte 3D scénu v podporovaných formátech souborů
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 
@@ -103,7 +103,7 @@ Gratulujeme! Právě jste vytvořili svou první 3D scénu krychle pomocí Aspos
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali proces vytváření úchvatných 3D scén v kostce pomocí Aspose.3D pro .NET. Nyní, vyzbrojeni těmito znalostmi, můžete popustit uzdu své kreativitě a přivést své 3D vize k životu.
+tomto tutoriálu jsme prozkoumali proces vytváření úchvatných 3D scén v kostce pomocí Aspose.3D pro .NET. Nyní, vyzbrojeni těmito znalostmi, můžete popustit uzdu své kreativitě a přivést své 3D vize k životu.
 
 ## FAQ
 

@@ -9,14 +9,14 @@ url: /ko/java/cylinders/creating-cylinders-with-offset-top/
 ---
 ## 소개
 
-Java 기반 3D 모델링 영역에서 Aspose.3D는 개발자에게 복잡한 3D 장면을 쉽게 만들 수 있는 기능을 제공하는 강력한 도구로 돋보입니다. 이 튜토리얼에서는 오프셋 상단이 있는 원통을 생성하는 특정 작업에 중점을 두고 Java용 Aspose.3D의 매혹적인 세계를 탐구합니다. 이 가이드를 마치면 프로세스를 확실히 이해하게 되어 이 기능을 3D 프로젝트에 원활하게 통합할 수 있게 됩니다.
+Java 기반 3D 모델링 영역에서 Aspose.3D는 개발자에게 복잡한 3D 장면을 쉽게 만들 수 있는 기능을 제공하는 강력한 도구로 돋보입니다. 이 튜토리얼에서는 오프셋 상단이 있는 원통을 만드는 특정 작업에 중점을 두고 Java용 Aspose.3D의 매혹적인 세계를 탐구합니다. 이 가이드를 마치면 프로세스를 확실히 이해하게 되어 이 기능을 3D 프로젝트에 원활하게 통합할 수 있게 됩니다.
 
 ## 전제 조건
 
 이 창의적인 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
 
 - JDK(Java Development Kit): Java용 Aspose.3D를 사용하려면 컴퓨터에 호환 가능한 JDK가 설치되어 있어야 합니다.
-- Aspose.3D 라이브러리: Aspose.3D 라이브러리를 다운로드하여 Java 프로젝트에 통합하세요. 라이브러리와 자세한 문서를 찾을 수 있습니다[여기](https://releases.aspose.com/3d/java/).
+-  Aspose.3D 라이브러리: Aspose.3D 라이브러리를 다운로드하여 Java 프로젝트에 통합하세요. 라이브러리와 자세한 문서를 찾을 수 있습니다[여기](https://releases.aspose.com/3d/java/).
 
 ## 패키지 가져오기
 
@@ -73,7 +73,7 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 
 ```java
 // ExStart:4
-//사용자 정의된 OffsetTop 없이 두 번째 실린더 초기화
+// 사용자 정의된 OffsetTop 없이 두 번째 실린더 초기화
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // 연장:4
 ```
@@ -95,7 +95,7 @@ scene.getRootNode().createChildNode(cylinder2);
 
 ```java
 // ExStart:6
-// 구하다
+//구하다
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // 연장:6
 ```
@@ -118,7 +118,7 @@ A2: 물론이죠! Aspose.3D는 텍스처와 재료를 적용하여 3D 모델의 
 
 ### Q3: Aspose.3D에 사용할 수 있는 라이선스 옵션이 있습니까?
 
- A3: 예, 필요에 맞는 라이선스 옵션을 탐색하고 선택할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+A3: 예, 필요에 맞는 라이선스 옵션을 탐색하고 선택할 수 있습니다.[여기](https://purchase.aspose.com/buy).
 
 ### Q4: Aspose.3D에 대한 도움을 구하거나 내 경험을 공유하려면 어떻게 해야 합니까?
 

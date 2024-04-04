@@ -15,7 +15,7 @@ url: /ar/java/cylinders/creating-fan-cylinders/
 
 قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
--  Java Development Kit (JDK): تأكد من تثبيت JDK على نظامك. يمكنك تنزيله[هنا](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): تأكد من تثبيت JDK على نظامك. يمكنك تنزيله[هنا](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 -  Aspose.3D لـ Java: قم بتنزيل وتثبيت مكتبة Aspose.3D لـ Java من[رابط التحميل](https://releases.aspose.com/3d/java/).
 

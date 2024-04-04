@@ -15,7 +15,7 @@ Ha a .NET-ben a 3D-s jelenetek létrehozásának és animációjának birodalmá
 
 Mielőtt nekivágnánk ennek az izgalmas utazásnak, győződjön meg arról, hogy a következő előfeltételekkel rendelkezik:
 
-- Aspose.3D for .NET: Győződjön meg arról, hogy a könyvtár telepítve van. Letöltheti a[Aspose.3D weboldal](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET: Győződjön meg arról, hogy a könyvtár telepítve van. Letöltheti a[Aspose.3D weboldal](https://releases.aspose.com/3d/net/).
 
 - C# ismerete: A C# programozási nyelv ismerete elengedhetetlen a példák megértéséhez és megvalósításához.
 

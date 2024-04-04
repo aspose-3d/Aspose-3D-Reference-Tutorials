@@ -1,6 +1,6 @@
 ---
-title: 3D Sahnelerde Cube'da UV Ayarlama
-linktitle: 3D Sahnelerde Cube'da UV Ayarlama
+title: Cube'da UV Kurulumu
+linktitle: Cube'da UV Kurulumu
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'i kullanarak 3 boyutlu bir küp üzerinde UV eşlemeyi ayarlamayı öğrenin. Hassas doku eşlemeyle görsel olarak etkileyici sahneler oluşturun.
 type: docs

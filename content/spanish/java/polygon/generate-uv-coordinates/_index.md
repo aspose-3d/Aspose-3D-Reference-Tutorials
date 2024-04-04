@@ -101,7 +101,7 @@ Repita estos pasos en su proyecto Java para generar con éxito coordenadas UV pa
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.3D para Java con otros lenguajes de programación?
+### P1: ¿Puedo utilizar Aspose.3D para Java con otros lenguajes de programación?
 
 R1: Aspose.3D está diseñado principalmente para Java, pero Aspose ofrece versiones para otros lenguajes como .NET. Consulte la documentación para obtener detalles específicos del idioma.
 

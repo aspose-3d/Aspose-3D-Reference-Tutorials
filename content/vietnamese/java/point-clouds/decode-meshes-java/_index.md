@@ -81,7 +81,7 @@ A1: Chắc chắn rồi! Thư viện cung cấp giao diện thân thiện với 
 
 ### Câu hỏi 3: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.3D cho Java?
 
- A3: Tham gia cộng đồng tại[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) để tương tác với những người dùng khác và nhận được sự trợ giúp từ các chuyên gia.
+A3: Tham gia cộng đồng tại[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) để tương tác với những người dùng khác và nhận được sự trợ giúp từ các chuyên gia.
 
 ### Q4: Có bản dùng thử miễn phí không?
 

@@ -1,6 +1,6 @@
 ---
-title: Создание кубических сцен в 3D
-linktitle: Создание кубических сцен в 3D
+title: Создание кубических сцен
+linktitle: Создание кубических сцен
 second_title: Aspose.3D .NET API
 description: Создавайте потрясающие сцены из 3D-кубов без особых усилий с помощью Aspose.3D для .NET. Загрузите библиотеку, следуйте нашему пошаговому руководству и наслаждайтесь ее возможностями.
 type: docs
@@ -87,7 +87,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Путь к каталогу документов.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//Сохранение 3D-сцены в поддерживаемых форматах файлов.
+// Сохранение 3D-сцены в поддерживаемых форматах файлов.
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

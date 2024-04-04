@@ -19,7 +19,7 @@ Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 2.  Perpustakaan Aspose.3D: Unduh dan instal perpustakaan Aspose.3D dari[tautan unduhan](https://releases.aspose.com/3d/java/).
 
-3.  Dokumentasi: Lihat[dokumentasi](https://reference.aspose.com/3d/java/) agar Aspose.3D membiasakan diri Anda dengan fitur-fitur perpustakaan.
+3.  Dokumentasi: Lihat[dokumentasi](https://reference.aspose.com/3d/java/)agar Aspose.3D membiasakan diri Anda dengan fitur-fitur perpustakaan.
 
 4.  Lisensi Sementara (Opsional): Jika Anda tidak memiliki lisensi, Anda dapat memperoleh a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk pengujian.
 
@@ -72,7 +72,7 @@ Simpan adegan 3D, termasuk materi PBR yang diterapkan, ke dalam format file tert
 ```java
 // ExStart:Simpan3DScene
 scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
-// ExEnd:Simpan3DScene
+//ExEnd:Simpan3DScene
 ```
 
 Ulangi langkah-langkah ini untuk pemandangan yang lebih kompleks atau objek berbeda.

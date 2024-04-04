@@ -4,7 +4,7 @@ linktitle: Giấy phép
 second_title: API Aspose.3D .NET
 description: Tối đa hóa tiềm năng của Aspose.3D .NET với hướng dẫn chi tiết của chúng tôi về cách áp dụng giấy phép. Đảm bảo quá trình tích hợp liền mạch và mở khóa các tính năng mạnh mẽ của nó.
 type: docs
-weight: 26
+weight: 36
 url: /vi/net/license/
 ---
 ## Giới thiệu

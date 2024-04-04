@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## Étape 4 : pointer le nœud vers le maillage
 
 ```java
-//Pointer le nœud vers le maillage
+// Pointer le nœud vers le maillage
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // Définir le nom du fichier
 MyDir = MyDir + "MaterialToCube.fbx";
-//Enregistrez la scène 3D dans les formats de fichiers pris en charge
+// Enregistrez la scène 3D dans les formats de fichiers pris en charge
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

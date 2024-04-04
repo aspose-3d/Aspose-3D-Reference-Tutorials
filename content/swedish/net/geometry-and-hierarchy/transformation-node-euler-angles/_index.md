@@ -1,6 +1,6 @@
 ---
-title: Transforming Node av Euler Angles i 3D-scener
-linktitle: Transforming Node av Euler Angles i 3D-scener
+title: Transforming Node av Euler Angles
+linktitle: Transforming Node av Euler Angles
 second_title: Aspose.3D .NET API
 description: Lär dig att transformera 3D-noder utan ansträngning med Aspose.3D för .NET. Följ vår steg-för-steg-guide för fantastiska resultat i dina projekt.
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
  Börja med att skapa en ny 3D-scen med hjälp av`Scene` klass.
 
-## Steg 2: Initiera Node Class Object
 
-```csharp
-// Initiera Node-klassobjekt
-Node cubeNode = new Node("cube");
-```
-
- Skapa en nod i scenen med hjälp av`Node`klass. Denna nod kommer att fungera som behållare för vårt 3D-objekt.
-
-## Steg 3: Skapa nät med Polygon Builder
+## Steg 2: Skapa nät med primitiv box
 
 ```csharp
 // Anrop Common class skapa mesh med polygonbyggarmetoden för att ställa in mesh-instans
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
- Anropa en metod (i det här fallet,`CreateMeshUsingPolygonBuilder` från en sed`Common` klass) för att generera ett nät för 3D-objektet.
+ Anropa en metod (i det här fallet,`CreateMeshUsingPolygonBuilder` från en sed`Common`klass) för att generera ett nät för 3D-objektet.
 
-## Steg 4: Peka noden till nätgeometrin
+## Steg 3: Skapa en containernod för nätet
 
 ```csharp
 // Peka noden på Mesh-geometrin
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-Associera det skapade nätet med noden.
+ Skapa en nod i scenen med hjälp av`Node` klass. Denna nod kommer att fungera som behållare för vårt 3D-objekt.
 
-## Steg 5: Ställ in Euler-vinklar och översättning
+## Steg 4: Ställ in Euler-vinklar och översättning
 
 ```csharp
 // Euler vinklar
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 Definiera Euler-vinklarna och översättningen för noden för att placera den i 3D-utrymmet.
 
-## Steg 6: Lägg till kub i scenen
-
-```csharp
-// Lägg till en kub i scenen
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-Inkorporera noden i scenens hierarki.
-
-## Steg 7: Spara 3D-scenen
+## Steg 5: Spara 3D-scenen
 
 ```csharp
 // Sökvägen till dokumentkatalogen.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Spara 3D-scen i de filformat som stöds
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Spara 3D-scen i de filformat som stöds
+scene.Save(output);
 // ExEnd: AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ S2: Ja, du kan kombinera och tillämpa flera transformationer för att uppnå ko
 
 ### F5: Behöver du hjälp eller har specifika frågor?
 
-A5: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) för samhällsstöd.
+ A5: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) för samhällsstöd.

@@ -1,6 +1,6 @@
 ---
-title: Werken met mesh-geometriegegevens in 3D-scènes
-linktitle: Werken met mesh-geometriegegevens in 3D-scènes
+title: Werken met meshgeometriegegevens
+linktitle: Werken met meshgeometriegegevens
 second_title: Aspose.3D .NET-API
 description: Beheers de kunst van het programmeren van grafische 3D-afbeeldingen met Aspose.3D voor .NET. Creëer, manipuleer en bewaar moeiteloos verbluffende 3D-scènes.
 type: docs
@@ -17,7 +17,7 @@ Voordat we aan deze 3D-reis beginnen, moet u ervoor zorgen dat u aan de volgende
 
 - Een praktische kennis van C# en .NET-programmering.
 - Visual Studio is op uw computer geïnstalleerd.
--  Aspose.3D voor .NET-bibliotheek, die u kunt downloaden[hier](https://releases.aspose.com/3d/net/).
+- Aspose.3D voor .NET-bibliotheek, die u kunt downloaden[hier](https://releases.aspose.com/3d/net/).
 
 Nu je er helemaal klaar voor bent, gaan we de fascinerende wereld van grafische 3D-programmering betreden!
 
@@ -95,7 +95,7 @@ Maak een mesh met behulp van de polygoonbouwermethode en pas kleuren toe op vers
 // Het pad naar de documentenmap.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//Sla 3D-scènes op in de ondersteunde bestandsformaten
+// Sla 3D-scènes op in de ondersteunde bestandsformaten
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

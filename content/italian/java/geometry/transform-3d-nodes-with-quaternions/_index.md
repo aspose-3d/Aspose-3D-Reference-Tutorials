@@ -16,7 +16,7 @@ Benvenuti in questa guida passo passo sulla trasformazione dei nodi 3D con quate
 Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 
 - Conoscenza base della programmazione Java.
--  Aspose.3D per Java installato. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/java/).
+- Aspose.3D per Java installato. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/java/).
 - Una directory di documenti predisposta per salvare le tue scene 3D.
 
 ## Importa pacchetti

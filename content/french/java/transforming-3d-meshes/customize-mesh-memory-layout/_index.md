@@ -54,7 +54,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 ```java
 // Spécifiez le répertoire pour enregistrer la scène 3D
 String MyDir = "Your Document Directory" + "BoxToTriangleMeshCustomMemoryLayoutScene.fbx";
-//Enregistrez la scène 3D dans les formats de fichiers pris en charge
+// Enregistrez la scène 3D dans les formats de fichiers pris en charge
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 System.out.println("\nConverted a Box mesh to triangle mesh with custom memory layout of the vertex successfully.\nFile saved at " + MyDir);
 ```

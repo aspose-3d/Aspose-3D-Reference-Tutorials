@@ -4,7 +4,7 @@ linktitle: Lisensi
 second_title: Aspose.3D .NET API
 description: Maksimalkan potensi Aspose.3D .NET dengan tutorial mendetail kami tentang penerapan lisensi. Pastikan proses integrasi lancar dan buka fitur-fitur canggihnya.
 type: docs
-weight: 26
+weight: 36
 url: /id/net/license/
 ---
 ## Perkenalan

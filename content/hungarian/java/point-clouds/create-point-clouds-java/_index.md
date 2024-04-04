@@ -52,7 +52,7 @@ Szükség szerint ismételje meg ezt a lépést a különböző hálók esetébe
 
 ## 2. lépés: További feldolgozás (opcionális)
 
-Igényei alapján további feldolgozást végezhet a generált pontfelhő-adatokon. Az Aspose.3D különféle módszereket kínál a pontfelhő információk manipulálására és javítására.
+Igényei alapján további feldolgozást végezhet a generált pontfelhő adatokon. Az Aspose.3D különféle módszereket kínál a pontfelhő információk manipulálására és javítására.
 
 ## 3. lépés: Mentés és felhasználás
 

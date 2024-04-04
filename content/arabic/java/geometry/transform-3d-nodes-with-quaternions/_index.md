@@ -16,7 +16,7 @@ url: /ar/java/geometry/transform-3d-nodes-with-quaternions/
 قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 
 - المعرفة الأساسية ببرمجة جافا.
--  تم تثبيت Aspose.3D لـ Java. يمكنك تنزيله[هنا](https://releases.aspose.com/3d/java/).
+- تم تثبيت Aspose.3D لـ Java. يمكنك تنزيله[هنا](https://releases.aspose.com/3d/java/).
 - تم إعداد دليل المستندات لحفظ المشاهد ثلاثية الأبعاد.
 
 ## حزم الاستيراد

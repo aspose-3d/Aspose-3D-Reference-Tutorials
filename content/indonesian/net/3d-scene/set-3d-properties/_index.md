@@ -105,7 +105,7 @@ Console.WriteLine(pdiffuse);
 
 ## Langkah 6: Melintasi Properti Properti
 
- Sejak`Property` diwarisi dari`A3DObject`, Anda dapat melintasi properti suatu properti.
+ Sejak`Property` diwarisi dari`A3DObject`Anda dapat melintasi properti suatu properti.
 
 ```csharp
 //ExStart: TraversePropertyProperties

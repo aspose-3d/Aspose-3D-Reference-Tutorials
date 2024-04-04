@@ -16,7 +16,7 @@ Selamat datang di panduan langkah demi langkah tentang mengubah node 3D dengan a
 Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 - Pengetahuan dasar tentang pemrograman Java.
--  Aspose.3D untuk Java diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/3d/java/).
+- Aspose.3D untuk Java diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/3d/java/).
 - Direktori dokumen disiapkan untuk menyimpan adegan 3D Anda.
 
 ## Paket Impor
@@ -27,7 +27,7 @@ Di bagian ini, kita akan mengimpor paket yang diperlukan untuk memulai transform
 import com.aspose.threed.*;
 ```
 
-## Langkah 1: Inisialisasi Objek Adegan
+## Langkah 1: Inisialisasi Objek Pemandangan
 
 Untuk memulai, buatlah objek pemandangan yang akan berfungsi sebagai wadah untuk elemen 3D Anda.
 

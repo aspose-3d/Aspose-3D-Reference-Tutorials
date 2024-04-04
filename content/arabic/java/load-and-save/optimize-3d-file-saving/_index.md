@@ -40,7 +40,7 @@ import java.nio.file.Paths;
 
 ## الخطوة 1: طباعة جميلة في GLTF SaveOption
 
- ال`prettyPrintInGltfSaveOption` تتيح لك الطريقة إنشاء ملف GLTF بمحتوى JSON ذي مسافة بادئة لسهولة القراءة البشرية.
+ ال`prettyPrintInGltfSaveOption` تسمح لك الطريقة بإنشاء ملف GLTF بمحتوى JSON ذو مسافة بادئة لسهولة القراءة البشرية.
 
 ```java
 public static void prettyPrintInGltfSaveOption() throws IOException {

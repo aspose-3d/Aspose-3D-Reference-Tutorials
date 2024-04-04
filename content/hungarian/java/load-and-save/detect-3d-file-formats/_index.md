@@ -81,4 +81,4 @@ A2: Abszolút! Az Aspose.3D felhasználóbarát felületet kínál a kezdőknek,
 
 ### 5. kérdés: Hol kérhetek segítséget, ha problémákat tapasztalok az Aspose.3D-vel?
 
-A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) hogy segítséget kérjen a közösségtől és szakértőktől.
+ A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) hogy segítséget kérjen a közösségtől és szakértőktől.

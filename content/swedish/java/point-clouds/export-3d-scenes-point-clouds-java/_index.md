@@ -65,7 +65,7 @@ opt.setPointCloud(true);
 Spara 3D-scenen som ett punktmoln i önskad katalog:
 
 ```java
-// Spara
+//Spara
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 

@@ -1,6 +1,6 @@
 ---
-title: PBR-materiaal toepassen op dozen in 3D-scènes
-linktitle: PBR-materiaal toepassen op dozen in 3D-scènes
+title: PBR-materiaal op doos aanbrengen
+linktitle: PBR-materiaal op doos aanbrengen
 second_title: Aspose.3D .NET-API
 description: Ontdek de wereld van 3D-graphics met Aspose.3D voor .NET. Creëer moeiteloos meeslepende scènes met behulp van Physically Based Rendering-materialen.
 type: docs
@@ -21,7 +21,7 @@ Voordat we in de opwindende wereld van 3D-graphics duiken, zorgen we ervoor dat 
 
 ### Verkrijg een licentie
 
- Om het volledige potentieel van Aspose.3D te ontsluiten, moet u een geldige licentie verkrijgen. U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/) of koop een volledige licentie[hier](https://purchase.aspose.com/buy).
+Om het volledige potentieel van Aspose.3D te ontsluiten, moet u een geldige licentie verkrijgen. U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/) of koop een volledige licentie[hier](https://purchase.aspose.com/buy).
 
 ## Naamruimten importeren
 
@@ -102,9 +102,9 @@ A1: Ja, Aspose.3D ondersteunt verschillende 3D-bestandsformaten, waardoor flexib
 
 A2: Absoluut! Aspose.3D biedt commerciële licenties voor naadloze integratie in uw applicaties.
 
-### Vraag 3: Is er een proefversie beschikbaar?
+### Q3: Is er een proefversie beschikbaar?
 
-A3: Ja, u kunt de mogelijkheden van Aspose.3D verkennen door de gratis proefversie te downloaden[hier](https://releases.aspose.com/).
+ A3: Ja, u kunt de mogelijkheden van Aspose.3D verkennen door de gratis proefversie te downloaden[hier](https://releases.aspose.com/).
 
 ### Vraag 4: Waar kan ik community-ondersteuning en discussies vinden?
 

@@ -22,7 +22,8 @@ Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có sẵn các đi�
 
 Để bắt đầu, hãy nhập các gói cần thiết vào dự án Java của bạn. Đảm bảo rằng Aspose.3D được thêm vào đường dẫn lớp của bạn. Đây là một ví dụ:
 
-```javaimport com.aspose.threed.License;
+```java
+import com.aspose.threed.License;
 import com.aspose.threed.Metered;
 
 import java.io.FileInputStream;

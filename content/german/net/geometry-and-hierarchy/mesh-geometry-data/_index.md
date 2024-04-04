@@ -1,6 +1,6 @@
 ---
-title: Arbeiten mit Netzgeometriedaten in 3D-Szenen
-linktitle: Arbeiten mit Netzgeometriedaten in 3D-Szenen
+title: Arbeiten mit Netzgeometriedaten
+linktitle: Arbeiten mit Netzgeometriedaten
 second_title: Aspose.3D .NET API
 description: Meistern Sie die Kunst der 3D-Grafikprogrammierung mit Aspose.3D für .NET. Erstellen, bearbeiten und speichern Sie mühelos atemberaubende 3D-Szenen.
 type: docs
@@ -17,7 +17,7 @@ Bevor wir uns auf diese 3D-Reise begeben, stellen Sie sicher, dass die folgenden
 
 - Grundkenntnisse in C#- und .NET-Programmierung.
 - Visual Studio ist auf Ihrem Computer installiert.
--  Aspose.3D für .NET-Bibliothek, die Sie herunterladen können[Hier](https://releases.aspose.com/3d/net/).
+- Aspose.3D für .NET-Bibliothek, die Sie herunterladen können[Hier](https://releases.aspose.com/3d/net/).
 
 Nachdem Sie nun fertig sind, stürzen wir uns in die faszinierende Welt der 3D-Grafikprogrammierung!
 
@@ -95,7 +95,7 @@ Erstellen Sie mit der Polygon-Builder-Methode ein Netz und wenden Sie Farben auf
 // Der Pfad zum Dokumentenverzeichnis.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
+// Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

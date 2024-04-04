@@ -88,7 +88,7 @@ Chỉ định thư mục và tên tệp để lưu cảnh 3D ở định dạng 
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "MeshGeometryData.fbx";
 
-//Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
+// Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

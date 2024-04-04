@@ -1,6 +1,6 @@
 ---
-title: تحويل العقدة بواسطة Quaternion في مشاهد ثلاثية الأبعاد
-linktitle: تحويل العقدة بواسطة Quaternion في مشاهد ثلاثية الأبعاد
+title: تحويل العقدة بواسطة Quaternion
+linktitle: تحويل العقدة بواسطة Quaternion
 second_title: Aspose.3D.NET API
 description: تعلم كيفية تحويل العقد ثلاثية الأبعاد باستخدام الكواترنيونات باستخدام Aspose.3D لـ .NET. دليل خطوة بخطوة للمبتدئين.
 type: docs
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // المسار إلى دليل المستندات.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
+// حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## خاتمة
 
-تهانينا! لقد تعلمت بنجاح كيفية تحويل عقدة بواسطة quaternion في مشاهد ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. اكتشف المزيد من الميزات والإمكانيات من خلال الرجوع إلى[توثيق](https://reference.aspose.com/3d/net/).
+ تهانينا! لقد تعلمت بنجاح كيفية تحويل عقدة بواسطة quaternion في مشاهد ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. اكتشف المزيد من الميزات والإمكانيات من خلال الرجوع إلى[توثيق](https://reference.aspose.com/3d/net/).
 
 ## الأسئلة الشائعة
 

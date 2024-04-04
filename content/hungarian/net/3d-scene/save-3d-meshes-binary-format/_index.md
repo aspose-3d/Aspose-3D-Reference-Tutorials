@@ -41,12 +41,24 @@ using System.Text;
 Töltse be a 3D fájlt az Aspose.3D segítségével. Ebben a példában egy "test.fbx" nevű fájlt töltünk be:
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## 2. lépés: Adja meg az egyéni bináris formátumot
 
 Határozza meg annak az egyéni bináris formátumnak a szerkezetét, amelyben el szeretné menteni a 3D hálókat. A példa olyan struktúrát használ, amelyben a MeshBlock, a Vertex és a Triangle összetevők.
+
+```csharp
+// Egy csúcs memóriaelrendezése az
+// float[3] pozíció;
+// float[3] normál;
+// float[3] uv;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## 3. lépés: Nyissa meg a fájlt íráshoz
 
@@ -79,11 +91,30 @@ Minden egyes háló entitásnál konvertálja a vezérlőpontokat világtérré,
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (folytassa a vezérlőpontok és a háromszög indexek írását)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//A háló memória elrendezése a következő:
+// float[16] transzformációs_mátrix;
+// int csúcsok_száma;
+// int indexek_száma;
+// vertex[vertices_count] csúcsok;
+// ushort[indexek_száma] indexek;
+
+
+//írási átalakítás
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//írja be a csúcsok/indexek számát
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//csúcsokat és indexeket írjon
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## Következtetés
@@ -98,7 +129,7 @@ Ebben az oktatóanyagban a 3D hálók egyéni bináris formátumban történő m
 
 ### 2. kérdés: Hol találhatok további példákat és forrásokat?
 
- A2: Az[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) nagyszerű hely a támogatásra, a példákra és a közösséggel való kapcsolatra.
+ A2: Az[Aspose.3D fórum](https://forum.aspose.com/c/3d/18)nagyszerű hely a támogatásra, a példákra és a közösséggel való kapcsolatra.
 
 ### 3. kérdés: Elérhető az Aspose.3D próbaverziója?
 

@@ -41,12 +41,24 @@ using System.Text;
 Ladda din 3D-fil med Aspose.3D. I det här exemplet laddar vi en fil med namnet "test.fbx":
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## Steg 2: Definiera anpassat binärt format
 
 Definiera strukturen för det anpassade binära formatet du vill spara dina 3D-nät i. Exemplet använder en struktur med MeshBlock, Vertex och Triangle som komponenter.
+
+```csharp
+// Minneslayouten för en vertex är
+// flyta[3] position;
+// flyta[3] normal;
+// flyta[3] uv;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## Steg 3: Öppna fil för skrivning
 
@@ -79,16 +91,35 @@ För varje mesh-enhet, konvertera kontrollpunkter till världsrymden och skriv d
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (fortsätt att skriva kontrollpunkter och triangelindex)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//Nätets minneslayout är:
+// float[16] transform_matrix;
+// int vertices_count;
+// int index_count;
+// vertex[vertices_count] vertex;
+// ushort[index_count] index;
+
+
+//skriva omvandla
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//skriv antal hörn/index
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//skriva hörn och index
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## Slutsats
 
-den här handledningen täckte vi processen att spara 3D-nät i ett anpassat binärt format med Aspose.3D för .NET. Detta kraftfulla bibliotek ger utvecklare de verktyg som behövs för att manipulera 3D-filer sömlöst. Experimentera med olika format och inställningar för att låsa upp Aspose.3Ds fulla potential i dina projekt.
+I den här handledningen täckte vi processen att spara 3D-nät i ett anpassat binärt format med Aspose.3D för .NET. Detta kraftfulla bibliotek ger utvecklare de verktyg som behövs för att manipulera 3D-filer sömlöst. Experimentera med olika format och inställningar för att låsa upp Aspose.3Ds fulla potential i dina projekt.
 
 ## Vanliga frågor
 
@@ -98,7 +129,7 @@ S1: Aspose.3D stöder främst .NET-språk, men du kan utforska kompatibilitetsal
 
 ### F2: Var kan jag hitta ytterligare exempel och resurser?
 
- A2: Den[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) är ett bra ställe att hitta stöd, exempel och engagera sig i samhället.
+ A2: Den[Aspose.3D-forum](https://forum.aspose.com/c/3d/18)är ett bra ställe att hitta stöd, exempel och engagera sig i samhället.
 
 ### F3: Finns det en testversion tillgänglig för Aspose.3D?
 

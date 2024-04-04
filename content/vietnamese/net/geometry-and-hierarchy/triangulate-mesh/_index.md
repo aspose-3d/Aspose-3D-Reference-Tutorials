@@ -1,6 +1,6 @@
 ---
-title: Lưới tam giác trong cảnh 3D
-linktitle: Lưới tam giác trong cảnh 3D
+title: Lưới tam giác
+linktitle: Lưới tam giác
 second_title: API Aspose.3D .NET
 description: Khám phá sức mạnh của Aspose.3D cho .NET trong hướng dẫn từng bước này. Tìm hiểu cách tạo tam giác lưới 3D một cách dễ dàng để tạo mô hình nâng cao.
 type: docs
@@ -17,7 +17,7 @@ Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn cá
 
 - Aspose.3D for .NET Library: Đảm bảo bạn đã cài đặt thư viện Aspose.3D. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/3d/net/).
 
-- Mô hình 3D mẫu: Có mô hình 3D ở định dạng FBX mà bạn muốn tam giác hóa. Bạn có thể sử dụng được cung cấp[tài liệu.fbx](https://reference.aspose.com/3d/net/) hồ sơ để thực hành.
+-  Mô hình 3D mẫu: Có mô hình 3D ở định dạng FBX mà bạn muốn tam giác hóa. Bạn có thể sử dụng được cung cấp[tài liệu.fbx](https://reference.aspose.com/3d/net/) hồ sơ để thực hành.
 
 ## Nhập không gian tên
 

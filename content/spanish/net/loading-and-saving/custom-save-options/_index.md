@@ -1,8 +1,8 @@
 ---
-title: Cargando y guardando - Opciones de guardado personalizadas
-linktitle: Cargando y guardando - Opciones de guardado personalizadas
+title: Opciones de guardado personalizadas
+linktitle: Opciones de guardado personalizadas
 second_title: Aspose.3D API .NET
-description: Explore el poder de Aspose.3D para .NET. Aprenda a personalizar el guardado de escenas 3D con guías paso a paso en los formatos Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC y RVM.
+description: Explore el poder de Aspose.3D para .NET. Aprenda a personalizar el guardado de escenas 3D con guías paso a paso en los formatos Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC y RVM.
 type: docs
 weight: 21
 url: /es/net/loading-and-saving/custom-save-options/

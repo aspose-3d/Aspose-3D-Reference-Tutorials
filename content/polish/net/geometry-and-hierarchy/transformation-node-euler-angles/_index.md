@@ -1,6 +1,6 @@
 ---
-title: Transformacja węzła według kątów Eulera w scenach 3D
-linktitle: Transformacja węzła według kątów Eulera w scenach 3D
+title: Transformacja węzła według kątów Eulera
+linktitle: Transformacja węzła według kątów Eulera
 second_title: Aspose.3D API .NET
 description: Naucz się bez wysiłku przekształcać węzły 3D za pomocą Aspose.3D dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać oszałamiające rezultaty w swoich projektach.
 type: docs
@@ -37,41 +37,33 @@ Podzielmy teraz przykład na wiele kroków, aby ułatwić zrozumienie.
 ## Krok 1: Zainicjuj obiekt sceny
 
 ```csharp
-// ExStart:Dodaj transformację do węzła według kątów Eulera
+// ExStart: Dodaj transformację do węzła według kątów Eulera
 // Zainicjuj obiekt sceny
 Scene scene = new Scene();
 ```
 
  Zacznij od utworzenia nowej sceny 3D za pomocą narzędzia`Scene` klasa.
 
-## Krok 2: Zainicjuj obiekt klasy węzła
 
-```csharp
-// Zainicjuj obiekt klasy Node
-Node cubeNode = new Node("cube");
-```
-
- Utwórz węzeł w scenie za pomocą`Node`klasa. Węzeł ten będzie służył jako kontener dla naszego obiektu 3D.
-
-## Krok 3: Utwórz siatkę za pomocą narzędzia Polygon Builder
+## Krok 2: Utwórz siatkę za pomocą prymitywnego pudełka
 
 ```csharp
 // Wywołaj klasę Common, aby utworzyć siatkę przy użyciu metody konstruktora wielokątów, aby ustawić instancję siatki
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
- Wywołaj metodę (w tym przypadku`CreateMeshUsingPolygonBuilder` ze zwyczaju`Common` class) w celu wygenerowania siatki dla obiektu 3D.
+ Wywołaj metodę (w tym przypadku`CreateMeshUsingPolygonBuilder` ze zwyczaju`Common`class) w celu wygenerowania siatki dla obiektu 3D.
 
-## Krok 4: Skieruj węzeł na geometrię siatki
+## Krok 3: Utwórz węzeł kontenerowy dla siatki
 
 ```csharp
 // Wskaż węzeł na geometrię siatki
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-Powiąż utworzoną siatkę z węzłem.
+ Utwórz węzeł w scenie za pomocą`Node` klasa. Węzeł ten będzie służył jako kontener dla naszego obiektu 3D.
 
-## Krok 5: Ustaw kąty Eulera i przesunięcie
+## Krok 4: Ustaw kąty Eulera i przesunięcie
 
 ```csharp
 // Kąty Eulera
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 Zdefiniuj kąty Eulera i translację węzła, aby ustawić go w przestrzeni 3D.
 
-## Krok 6: Dodaj kostkę do sceny
-
-```csharp
-// Dodaj kostkę do sceny
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-Dołącz węzeł do hierarchii sceny.
-
-## Krok 7: Zapisz scenę 3D
+## Krok 5: Zapisz scenę 3D
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Zapisz scenę 3D w obsługiwanych formatach plików
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Zapisz scenę 3D w obsługiwanych formatach plików
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ Odpowiedź 2: Tak, możesz łączyć i stosować wiele transformacji, aby uzyska
 
 ### P5: Potrzebujesz pomocy lub masz konkretne pytania?
 
-A5: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczne.
+ A5: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności.

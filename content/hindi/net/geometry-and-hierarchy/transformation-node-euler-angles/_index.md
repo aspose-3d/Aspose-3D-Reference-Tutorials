@@ -1,6 +1,6 @@
 ---
-title: 3डी दृश्यों में यूलर एंगल्स द्वारा नोड को बदलना
-linktitle: 3डी दृश्यों में यूलर एंगल्स द्वारा नोड को बदलना
+title: यूलर एंगल्स द्वारा ट्रांसफॉर्मिंग नोड
+linktitle: यूलर एंगल्स द्वारा ट्रांसफॉर्मिंग नोड
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D के साथ 3D नोड्स को आसानी से बदलना सीखें। अपनी परियोजनाओं में आश्चर्यजनक परिणामों के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
  का उपयोग करके एक नया 3D दृश्य बनाकर प्रारंभ करें`Scene` कक्षा।
 
-## चरण 2: नोड क्लास ऑब्जेक्ट को आरंभ करें
 
-```csharp
-// नोड क्लास ऑब्जेक्ट को प्रारंभ करें
-Node cubeNode = new Node("cube");
-```
-
- का उपयोग करके दृश्य के भीतर एक नोड बनाएं`Node`कक्षा। यह नोड हमारे 3डी ऑब्जेक्ट के लिए कंटेनर के रूप में काम करेगा।
-
-## चरण 3: पॉलीगॉन बिल्डर का उपयोग करके जाल बनाएं
+## चरण 2: आदिम बॉक्स का उपयोग करके जाल बनाएं
 
 ```csharp
 // मेश इंस्टेंस सेट करने के लिए पॉलीगॉन बिल्डर विधि का उपयोग करके कॉमन क्लास क्रिएट मेश को कॉल करें
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
- एक विधि लागू करें (इस मामले में,`CreateMeshUsingPolygonBuilder` एक प्रथा से`Common` क्लास) 3डी ऑब्जेक्ट के लिए एक जाल तैयार करने के लिए।
+ एक विधि लागू करें (इस मामले में,`CreateMeshUsingPolygonBuilder` एक प्रथा से`Common`क्लास) 3डी ऑब्जेक्ट के लिए एक जाल तैयार करने के लिए।
 
-## चरण 4: मेष ज्यामिति को बिंदु नोड
+## चरण 3: जाल के लिए एक कंटेनर नोड बनाएं
 
 ```csharp
 // मेष ज्यामिति को बिंदु नोड
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-निर्मित जाल को नोड के साथ संबद्ध करें।
+ का उपयोग करके दृश्य के भीतर एक नोड बनाएं`Node` कक्षा। यह नोड हमारे 3डी ऑब्जेक्ट के लिए कंटेनर के रूप में काम करेगा।
 
-## चरण 5: यूलर कोण और अनुवाद सेट करें
+## चरण 4: यूलर कोण और अनुवाद सेट करें
 
 ```csharp
 // यूलर कोण
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 यूलर कोणों को परिभाषित करें और नोड को 3डी स्थान में स्थित करने के लिए उसका अनुवाद करें।
 
-## चरण 6: दृश्य में क्यूब जोड़ें
-
-```csharp
-// दृश्य में क्यूब जोड़ें
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-नोड को दृश्य के पदानुक्रम में शामिल करें।
-
-## चरण 7: 3डी दृश्य सहेजें
+## चरण 5: 3डी दृश्य सहेजें
 
 ```csharp
 // दस्तावेज़ निर्देशिका का पथ.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
-scene.Save(output, FileFormat.FBX7500ASCII);
+// समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ A1: Aspose.3D विभिन्न 3D फ़ाइल स्वरूपों 
 
 ### Q5: सहायता की आवश्यकता है या विशिष्ट प्रश्न हैं?
 
-A5: पर जाएँ[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) सामुदायिक समर्थन के लिए.
+ A5: पर जाएँ[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) सामुदायिक समर्थन के लिए.

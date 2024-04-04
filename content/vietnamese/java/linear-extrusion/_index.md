@@ -55,7 +55,7 @@ Khám phá thế giới mô hình 3D với Aspose.3D cho Java. Tìm hiểu cách
 ### [Trung tâm điều khiển trong ép đùn tuyến tính với Aspose.3D cho Java](./controlling-center/)
 Khám phá thế giới đồ họa 3D trong Java với Aspose.3D. Kiểm soát trung tâm trong quá trình đùn tuyến tính một cách dễ dàng.
 ### [Đặt hướng trong ép đùn tuyến tính với Aspose.3D cho Java](./setting-direction/)
-Làm chủ quá trình ép đùn tuyến tính với Aspose.3D cho Java! Hãy làm theo hướng dẫn của chúng tôi để lập trình 3D liền mạch. Tải xuống ngay để có trải nghiệm thú vị.
+Làm chủ quá trình đùn tuyến tính với Aspose.3D cho Java! Hãy làm theo hướng dẫn của chúng tôi để lập trình 3D liền mạch. Tải xuống ngay để có trải nghiệm thú vị.
 ### [Chỉ định các lát cắt trong ép đùn tuyến tính với Aspose.3D cho Java](./specifying-slices/)
 Tìm hiểu cách chỉ định các lát cắt trong ép đùn tuyến tính bằng Aspose.3D cho Java. Nâng cao kỹ năng lập mô hình 3D của bạn với hướng dẫn từng bước này.
 ### [Áp dụng Twist trong ép đùn tuyến tính với Aspose.3D cho Java](./applying-twist/)

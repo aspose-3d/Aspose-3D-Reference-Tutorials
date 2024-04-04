@@ -1,6 +1,6 @@
 ---
-title: 로드 및 저장 - 형식 감지
-linktitle: 로드 및 저장 - 형식 감지
+title: 형식 감지
+linktitle: 형식 감지
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 파일 조작을 손쉽게 마스터하세요. 형식을 원활하게 로드, 저장 및 감지합니다.
 type: docs
@@ -50,7 +50,7 @@ scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ### 2단계: 형식 감지
 
 ```csharp
-//ExStart:형식 감지
+// ExStart:형식 감지
 // 3D 파일 형식 감지
 FileFormat inputFormat = FileFormat.Detect(RunExamples.GetDataFilePath("document.fbx"));
 // 파일 형식 표시
@@ -92,4 +92,4 @@ A1: 예, Aspose.3D는 광범위한 3D 파일 형식을 지원하여 프로젝트
 
 ### Q5: 구매하기 전에 Aspose.3D를 무료로 사용해 볼 수 있나요?
 
-A5: 물론이죠! 다음에서 무료 평가판을 다운로드하세요.[Aspose.3D 릴리스](https://releases.aspose.com/) 그 능력을 직접 경험해보세요.
+ A5: 물론이죠! 다음에서 무료 평가판을 다운로드하세요.[Aspose.3D 릴리스](https://releases.aspose.com/) 그 능력을 직접 경험해보세요.

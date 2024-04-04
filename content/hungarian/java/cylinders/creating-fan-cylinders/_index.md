@@ -15,7 +15,7 @@ Készen áll arra, hogy javítsa 3D modellezési élményét az Aspose.3D for Ja
 
 Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
--  Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a rendszeren. Letöltheti[itt](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a rendszeren. Letöltheti[itt](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 -  Aspose.3D for Java: Töltse le és telepítse az Aspose.3D for Java könyvtárat a[letöltési link](https://releases.aspose.com/3d/java/).
 

@@ -1,6 +1,6 @@
 ---
-title: Háromszögelési háló 3D-s jelenetekben
-linktitle: Háromszögelési háló 3D-s jelenetekben
+title: Háromszögelő háló
+linktitle: Háromszögelő háló
 second_title: Aspose.3D .NET API
 description: Fedezze fel az Aspose.3D for .NET erejét ebben a lépésenkénti útmutatóban. Tanulja meg, hogyan lehet 3D hálókat könnyedén háromszögelni a továbbfejlesztett modellezés érdekében.
 type: docs
@@ -17,7 +17,7 @@ Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következ
 
 - Aspose.3D for .NET Library: Győződjön meg arról, hogy telepítve van az Aspose.3D könyvtár. Letöltheti[itt](https://releases.aspose.com/3d/net/).
 
-- Minta 3D-modell: Legyen egy FBX formátumú 3D-modell, amelyet háromszögelni szeretne. Használhatja a megadott[document.fbx](https://reference.aspose.com/3d/net/) fájl a gyakorlathoz.
+-  Minta 3D-modell: Legyen egy FBX formátumú 3D-modell, amelyet háromszögelni szeretne. Használhatja a megadott[document.fbx](https://reference.aspose.com/3d/net/) fájl a gyakorlathoz.
 
 ## Névterek importálása
 

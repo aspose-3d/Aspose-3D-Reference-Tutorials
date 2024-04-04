@@ -65,7 +65,7 @@ opt.setPointCloud(true);
 Zapisz scenę 3D jako chmurę punktów w żądanym katalogu:
 
 ```java
-// Ratować
+//Ratować
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 

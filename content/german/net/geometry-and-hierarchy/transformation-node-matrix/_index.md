@@ -1,6 +1,6 @@
 ---
-title: Knoten durch Transformationsmatrix in 3D-Szenen transformieren
-linktitle: Knoten durch Transformationsmatrix in 3D-Szenen transformieren
+title: Knoten durch Transformationsmatrix transformieren
+linktitle: Knoten durch Transformationsmatrix transformieren
 second_title: Aspose.3D .NET API
 description: Transformieren Sie Knoten mühelos in 3D-Szenen mit Aspose.3D für .NET. Lernen Sie Schritt-für-Schritt-Knotentransformationen mit dem Tutorial.
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 Nachdem wir uns nun mit den Grundlagen befasst haben, wollen wir den Transformationsprozess in einer Schritt-für-Schritt-Anleitung aufschlüsseln.
 
-## Schritt 1: Szene und Knoten initialisieren
+## Schritt 1: Szene initialisieren
 
 ```csharp
 // ExStart:AddTransformationToNodeByTransformationMatrix
 // Szenenobjekt initialisieren
 Scene scene = new Scene();
 
-// Node-Klassenobjekt initialisieren
-Node cubeNode = new Node("cube");
 ```
 
-In diesem Schritt erstellen wir eine neue 3D-Szene und einen Knoten namens „Cube“ innerhalb dieser Szene.
+In diesem Schritt erstellen wir eine neue leere 3D-Szene.
 
-## Schritt 2: Netz erstellen und Geometrie festlegen
+## Schritt 2: Netz erstellen und an Szene anhängen
 
 ```csharp
 // Rufen Sie die allgemeine Klasse „Erstellen Sie ein Netz mithilfe der Polygon-Builder-Methode“ auf, um eine Netzinstanz festzulegen
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// Punktknoten zur Mesh-Geometrie
-cubeNode.Entity = mesh;
+// Erstellen Sie einen Containerknoten für das Netz.
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 Hier generieren wir mit der Polygon-Builder-Methode ein Netz und weisen es dem Knoten zu, um die Geometrie für unseren Würfel festzulegen.
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 Definieren Sie eine benutzerdefinierte Übersetzungsmatrix, um die spezifische Transformation zu bestimmen, die auf den Knoten angewendet wird. Passen Sie die Matrixwerte nach Bedarf für Ihre gewünschte Transformation an.
 
-## Schritt 4: Knoten zur Szene hinzufügen
-
-```csharp
-// Fügen Sie der Szene einen Würfel hinzu
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 Fügen Sie den Würfelknoten in die Szene ein und machen Sie ihn so zu einem Teil der gesamten 3D-Umgebung.
 
-## Schritt 5: Speichern Sie die Szene
+## Schritt 4: Speichern Sie die Szene
 
 ```csharp
 // Der Pfad zum Dokumentenverzeichnis.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ A2: Ja, Sie können mehrere Transformationen kombinieren, indem Sie ihre jeweili
 
 ### F4: Wie kann ich eine temporäre Lizenz für Aspose.3D für .NET erhalten?
 
- A4: Besuchen Sie die[temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/) auf der Aspose-Website, um eine temporäre Lizenz zu Evaluierungszwecken zu erhalten.
+ A4: Besuchen Sie die[temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/)auf der Aspose-Website, um eine temporäre Lizenz zu Evaluierungszwecken zu erhalten.
 
 ### F5: Wo kann ich Hilfe suchen oder mich mit der Aspose.3D-Community verbinden?
 
-A5: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) um Fragen zu stellen, Erfahrungen auszutauschen und mit anderen Entwicklern über Aspose.3D in Kontakt zu treten.
+ A5: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) um Fragen zu stellen, Erfahrungen auszutauschen und mit anderen Entwicklern über Aspose.3D in Kontakt zu treten.

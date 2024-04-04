@@ -17,7 +17,7 @@ url: /zh/net/3d-scene/flip-coordinate-system/
 
 - 对 C# 编程语言有基本了解。
 - 安装了 Aspose.3D for .NET 库。您可以从以下位置下载：[这里](https://releases.aspose.com/3d/net/).
-- 支持格式的示例 3D 文件（例如 .3ds）。
+- 支持格式（例如 .ma）的示例 3D 文件。
 
 ## 导入命名空间
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 //输入文件的路径
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 //初始化场景对象
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
 在此步骤中，我们使用以下命令从指定文件路径加载 3D 场景`Open`方法。
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
 现在，我们使用`Save`方法导出场景，过程中翻转坐标系。输出以 Wavefront OBJ 格式保存。

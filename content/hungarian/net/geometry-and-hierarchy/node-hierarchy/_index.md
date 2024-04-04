@@ -1,6 +1,6 @@
 ---
-title: A csomóponti hierarchia megértése 3D-s jelenetekben
-linktitle: A csomóponti hierarchia megértése 3D-s jelenetekben
+title: A csomóponti hierarchia megértése
+linktitle: A csomóponti hierarchia megértése
 second_title: Aspose.3D .NET API
 description: Oldja fel az Aspose.3D erejét .NET-hez! Merüljön el a csomópont-hierarchia manipulációjában ezzel a lépésről lépésre szóló útmutatóval. Lenyűgöző 3D-s jeleneteket készíthet könnyedén.
 type: docs
@@ -17,7 +17,7 @@ Mielőtt nekivágnánk ennek a 3D-s utazásnak, győződjön meg arról, hogy a 
 
 -  Aspose.3D for .NET Library: Győződjön meg arról, hogy az Aspose.3D könyvtár integrálva van a .NET-projektbe. Ha még nem tetted meg, menj a[dokumentáció](https://reference.aspose.com/3d/net/) útmutatásért.
 
--  Töltse le a könyvtárat: Ha még nem töltötte le az Aspose.3D könyvtárat, töltse le a legújabb verziót a[letöltési link](https://releases.aspose.com/3d/net/)és kövesse a dokumentációban található telepítési utasításokat.
+-  Töltse le a könyvtárat: Ha még nem töltötte le az Aspose.3D könyvtárat, töltse le a legújabb verziót a[letöltési link](https://releases.aspose.com/3d/net/) és kövesse a dokumentációban található telepítési utasításokat.
 
 -  Licenc beszerzése: Az Aspose.3D teljes potenciáljának kiaknázásához érvényes licencre van szüksége. Ha nincs, beszerezheti[itt](https://purchase.aspose.com/buy) vagy válasszon a[ingyenes próbaverzió](https://releases.aspose.com/) hogy feltárja a képességeit.
 

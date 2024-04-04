@@ -1,6 +1,6 @@
 ---
-title: Menerapkan Material PBR ke Kotak dalam Adegan 3D
-linktitle: Menerapkan Material PBR ke Kotak dalam Adegan 3D
+title: Menerapkan Bahan PBR ke Kotak
+linktitle: Menerapkan Bahan PBR ke Kotak
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia grafis 3D dengan Aspose.3D untuk .NET. Buat adegan yang imersif dengan mudah menggunakan materi Rendering Berbasis Fisik.
 type: docs
@@ -21,7 +21,7 @@ Sebelum kita terjun ke dunia grafis 3D yang menarik, pastikan Anda sudah menyiap
 
 ### Dapatkan Lisensi
 
- Untuk membuka potensi penuh Aspose.3D, dapatkan lisensi yang valid. Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) atau membeli lisensi penuh[Di Sini](https://purchase.aspose.com/buy).
+Untuk membuka potensi penuh Aspose.3D, dapatkan lisensi yang valid. Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) atau membeli lisensi penuh[Di Sini](https://purchase.aspose.com/buy).
 
 ## Impor Namespace
 
@@ -98,13 +98,13 @@ Menjelajah ke dalam grafik 3D dengan Aspose.3D untuk .NET membuka pintu menuju k
 
 A1: Ya, Aspose.3D mendukung berbagai format file 3D, memastikan fleksibilitas dalam proyek Anda.
 
-### Q2: Dapatkah saya menggunakan Aspose.3D untuk aplikasi komersial?
+### Q2: Bisakah saya menggunakan Aspose.3D untuk aplikasi komersial?
 
 A2: Tentu saja! Aspose.3D memberikan lisensi komersial untuk integrasi tanpa batas ke dalam aplikasi Anda.
 
 ### Q3: Apakah ada versi uji coba yang tersedia?
 
-A3: Ya, Anda dapat menjelajahi kemampuan Aspose.3D dengan mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A3: Ya, Anda dapat menjelajahi kemampuan Aspose.3D dengan mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Di mana saya bisa mendapatkan dukungan dan diskusi komunitas?
 

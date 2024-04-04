@@ -20,20 +20,13 @@ Voici des liens vers quelques ressources utiles :
  
 - [modélisation 3D](./net/3d-modeling/)
 - [Scène 3D](./net/3d-scene/)
-- [Fenêtres 3D](./net/3d-viewports/)
 - [Animation](./net/animation/)
-- [Informations sur les actifs](./net/asset-information/)
 - [Géométrie et hiérarchie](./net/geometry-and-hierarchy/)
 - [Licence](./net/license/)
 - [Chargement et sauvegarde](./net/loading-and-saving/)
 - [Matériaux](./net/materials/)
-- [Polygones](./net/polygons/)
 - [Le rendu](./net/rendering/)
-- [Extrusion linéaire](./net/linear-extrusion/)
-- [Objets](./net/objects/)
-- [Travailler avec un cylindre](./net/working-with-cylinder/)
-- [Travailler avec un nuage de points](./net/working-with-point-cloud/)
-- [Travailler avec VRML](./net/working-with-vrml/)
+- [Mailles](./net/meshes/)
 
 ## Aspose.3D pour les didacticiels Java
 {{% alert color="primary" %}}

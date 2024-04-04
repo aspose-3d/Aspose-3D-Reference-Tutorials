@@ -1,6 +1,6 @@
 ---
-title: Преобразование узла с помощью кватерниона в 3D-сценах
-linktitle: Преобразование узла с помощью кватерниона в 3D-сценах
+title: Преобразование узла с помощью кватерниона
+linktitle: Преобразование узла с помощью кватерниона
 second_title: Aspose.3D .NET API
 description: Научитесь преобразовывать 3D-узлы с помощью кватернионов с помощью Aspose.3D для .NET. Пошаговое руководство для начинающих.
 type: docs
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Путь к каталогу документов.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//Сохранение 3D-сцены в поддерживаемых форматах файлов.
+// Сохранение 3D-сцены в поддерживаемых форматах файлов.
 scene.Save(output, FileFormat.FBX7500ASCII);
 // Эксенд: аддтрансформатионтонодебикватернион
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## Заключение
 
-Поздравляем! Вы успешно научились преобразовывать узел по кватернионам в 3D-сценах с помощью Aspose.3D для .NET. Узнайте больше о функциях и возможностях, обратившись к[документация](https://reference.aspose.com/3d/net/).
+ Поздравляем! Вы успешно научились преобразовывать узел по кватернионам в 3D-сценах с помощью Aspose.3D для .NET. Узнайте больше о функциях и возможностях, обратившись к[документация](https://reference.aspose.com/3d/net/).
 
 ## Часто задаваемые вопросы
 

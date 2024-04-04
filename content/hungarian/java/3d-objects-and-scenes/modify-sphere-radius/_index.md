@@ -21,7 +21,7 @@ Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következ
 
 ## Csomagok importálása
 
-kezdéshez importálja a szükséges csomagokat a Java projektbe. Adja hozzá a következő sorokat a kódhoz:
+A kezdéshez importálja a szükséges csomagokat a Java projektbe. Adja hozzá a következő sorokat a kódhoz:
 
 ```java
 import com.aspose.threed.FileFormat;

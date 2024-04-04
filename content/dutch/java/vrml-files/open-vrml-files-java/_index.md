@@ -51,7 +51,7 @@ Ga door met het toevoegen van stappen als dat nodig is voor uw specifieke toepas
 Gefeliciteerd! Je hebt zojuist het oppervlak betreden van de enorme mogelijkheden die Aspose.3D voor Java biedt. Deze gids heeft u voorzien van de essentiële stappen voor het openen en manipuleren van VRML-bestanden, waarmee u de weg vrijmaakt voor uw 3D-avonturen.
  Ontdek gerust de[documentatie](https://reference.aspose.com/3d/java/) voor meer diepgaande inzichten en geavanceerde functies.
 ## Veelgestelde vragen
-### 1. Kan ik Aspose.3D voor Java gebruiken met andere 3D-bestandsformaten?
+### 1. Kan ik Aspose.3D voor Java gebruiken met andere 3D-bestandsindelingen?
 Ja, Aspose.3D ondersteunt diverse 3D-bestandsformaten naast VRML, waardoor u veelzijdigheid in uw projecten krijgt.
 ### 2. Waar kan ik ondersteuning krijgen voor Aspose.3D voor Java?
  Voor vragen of hulp kunt u terecht op de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) om in contact te komen met de gemeenschap en experts.

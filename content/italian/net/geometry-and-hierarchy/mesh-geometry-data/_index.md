@@ -1,6 +1,6 @@
 ---
-title: Lavorare con i dati della geometria mesh nelle scene 3D
-linktitle: Lavorare con i dati della geometria mesh nelle scene 3D
+title: Lavorare con i dati della geometria della mesh
+linktitle: Lavorare con i dati della geometria della mesh
 second_title: API Aspose.3D .NET
 description: Padroneggia l'arte della programmazione grafica 3D con Aspose.3D per .NET. Crea, manipola e salva splendide scene 3D senza sforzo.
 type: docs
@@ -17,7 +17,7 @@ Prima di intraprendere questo viaggio in 3D, assicurati di disporre dei seguenti
 
 - Una conoscenza pratica della programmazione C# e .NET.
 - Visual Studio installato sul tuo computer.
--  Libreria Aspose.3D per .NET, che puoi scaricare[Qui](https://releases.aspose.com/3d/net/).
+- Libreria Aspose.3D per .NET, che puoi scaricare[Qui](https://releases.aspose.com/3d/net/).
 
 Ora che è tutto pronto, tuffiamoci nell'affascinante mondo della programmazione grafica 3D!
 
@@ -95,7 +95,7 @@ Crea una mesh utilizzando il metodo di creazione poligoni e applica i colori a d
 // Il percorso della directory dei documenti.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//Salva la scena 3D nei formati di file supportati
+// Salva la scena 3D nei formati di file supportati
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

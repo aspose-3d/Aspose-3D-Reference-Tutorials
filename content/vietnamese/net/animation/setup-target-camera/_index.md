@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## Bước 5: Lưu cảnh
 
-Lưu cảnh đã định cấu hình vào thư mục đầu ra được chỉ định ở định dạng tệp mong muốn, chẳng hạn như .3ds.
+Lưu cảnh đã định cấu hình vào thư mục đầu ra được chỉ định ở định dạng tệp mong muốn, chẳng hạn như .fbx.
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## Phần kết luận
@@ -98,7 +98,7 @@ A2: Chắc chắn rồi! Aspose.3D trao quyền cho các nhà phát triển tạ
 
 ### Q4: Có bản dùng thử miễn phí không?
 
- Câu trả lời 4: Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Câu trả lời 4: Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời?
 

@@ -16,7 +16,7 @@ Aspose.3D for Java, geliştiricilerin Java uygulamalarındaki 3D sahneler, nesne
 Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
 - Makinenizde Java Geliştirme Kiti (JDK) yüklü.
-- Aspose.3D for Java kütüphanesi indirildi. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/3d/java/).
+-  Aspose.3D for Java kütüphanesi indirildi. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/3d/java/).
 
 ## Paketleri İçe Aktar
 
@@ -94,7 +94,7 @@ C1: Evet, Aspose.3D for Java, farklı uzmanlık düzeylerine sahip geliştiricil
 
 ### S3: Ücretsiz deneme seçenekleri mevcut mu?
 
- C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.3D for Java desteğini nerede bulabilirim?
 

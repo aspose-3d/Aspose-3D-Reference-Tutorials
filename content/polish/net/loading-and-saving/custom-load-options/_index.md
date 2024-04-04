@@ -1,6 +1,6 @@
 ---
-title: Ładowanie i zapisywanie — niestandardowe opcje ładowania
-linktitle: Ładowanie i zapisywanie — niestandardowe opcje ładowania
+title: Niestandardowe opcje ładowania
+linktitle: Niestandardowe opcje ładowania
 second_title: Aspose.3D API .NET
 description: Poznaj Aspose.3D dla .NET, najlepsze rozwiązanie do płynnego ładowania i zapisywania modeli 3D.
 type: docs
@@ -9,7 +9,7 @@ url: /pl/net/loading-and-saving/custom-load-options/
 ---
 ## Wstęp
 
-Witamy w świecie Aspose.3D dla .NET – potężnej biblioteki, która umożliwia programistom bezproblemową pracę z plikami 3D. W tym samouczku zagłębimy się w zawiłości ładowania i zapisywania modeli 3D, skupiając się na niestandardowych opcjach ładowania. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem, ten przewodnik przeprowadzi Cię krok po kroku przez proces, upewniając się, że wykorzystasz pełny potencjał Aspose.3D dla .NET.
+Witamy w świecie Aspose.3D dla .NET – potężnej biblioteki, która umożliwia programistom bezproblemową pracę z plikami 3D. W tym samouczku zagłębimy się w zawiłości ładowania i zapisywania modeli 3D, koncentrując się na niestandardowych opcjach ładowania. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem, ten przewodnik przeprowadzi Cię krok po kroku przez proces, upewniając się, że wykorzystasz pełny potencjał Aspose.3D dla .NET.
 
 ## Warunki wstępne
 
@@ -41,8 +41,6 @@ using Aspose.ThreeD.Formats;
 ```csharp
 private static void Discreet3DSLoadOption()
 {
-    // Ścieżka do katalogu dokumentów.
-    string dataDir = "Your Document Directory";
     Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
 
     //Ustaw opcje niestandardowe
@@ -50,6 +48,9 @@ private static void Discreet3DSLoadOption()
     loadOpts.FlipCoordinateSystem = true;
     loadOpts.GammaCorrectedColor = true;
     loadOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Załaduj plik z opcjami ładowania
+    var scene = Scene.FromFile("test.3ds", loadOpts);
 }
 ```
 
@@ -58,14 +59,16 @@ private static void Discreet3DSLoadOption()
 ```csharp
 private static void ObjLoadOption()
 {
-    // Ścieżka do katalogu dokumentów.
-    string dataDir = "Your Document Directory";
     ObjLoadOptions loadObjOpts = new ObjLoadOptions();
 
     //Ustaw opcje niestandardowe
     loadObjOpts.EnableMaterials = true;
     loadObjOpts.FlipCoordinateSystem = true;
     loadObjOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Załaduj plik z opcjami ładowania
+    var scene = Scene.FromFile("test.obj", loadObjOpts);
+
 }
 ```
 
@@ -75,12 +78,14 @@ private static void ObjLoadOption()
 private static void STLLoadOption()
 {
     // Ścieżka do katalogu dokumentów.
-    string dataDir = "Your Document Directory";
     StlLoadOptions loadSTLOpts = new StlLoadOptions();
 
     //Ustaw opcje niestandardowe
     loadSTLOpts.FlipCoordinateSystem = true;
     loadSTLOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Załaduj plik z opcjami ładowania
+    var scene = Scene.FromFile("test.stl", loadSTLOpts);
 }
 ```
 
@@ -96,6 +101,9 @@ private static void U3DLoadOption()
     //Ustaw opcje niestandardowe
     loadU3DOpts.FlipCoordinateSystem = true;
     loadU3DOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Załaduj plik z opcjami ładowania
+    var scene = Scene.FromFile("test.u3d", loadU3DOpts);
 }
 ```
 
@@ -105,13 +113,12 @@ private static void U3DLoadOption()
 private static void glTFLoadOptions()
 {
     // Ścieżka do katalogu dokumentów.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     GltfLoadOptions loadOpt = new GltfLoadOptions();
 
     //Ustaw opcje niestandardowe
     loadOpt.FlipTexCoordV = true;
-    scene.Open(dataDir + "Duck.gltf", loadOpt);
+    scene.Open("Duck.gltf", loadOpt);
 }
 ```
 
@@ -127,7 +134,7 @@ private static void PlyLoadOptions()
 
     //Ustaw opcje niestandardowe
     loadPLYOpts.FlipCoordinateSystem = true;
-    scene.Open(RunExamples.GetDataFilePath("vase-v2.ply"), loadPLYOpts);
+    scene.Open("vase-v2.ply", loadPLYOpts);
 }
 ```
 
@@ -137,12 +144,11 @@ private static void PlyLoadOptions()
 private static void FBXLoadOptions()
 {
     // Ścieżka do katalogu dokumentów.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     FbxLoadOptions opt = new FbxLoadOptions() { KeepBuiltinGlobalSettings = true };
 
     //Ustaw opcje niestandardowe
-    scene.Open(dataDir + "test.FBX", opt);
+    scene.Open("test.FBX", opt);
 
     // Właściwości wyjściowe zdefiniowane w GlobalSettings w pliku FBX
     foreach (Property property in scene.RootNode.AssetInfo.Properties)
@@ -176,4 +182,4 @@ O4: Tak, możesz poznać możliwości Aspose.3D dla .NET, pobierając plik[bezp�
 
 ### P5: Gdzie mogę szukać wsparcia dla Aspose.3D dla .NET?
 
-A5: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie i pomoc społeczną.
+ A5: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie i pomoc społeczną.

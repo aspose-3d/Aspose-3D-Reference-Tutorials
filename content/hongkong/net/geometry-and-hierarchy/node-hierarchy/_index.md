@@ -1,6 +1,6 @@
 ---
-title: 了解 3D 場景中的節點層次結構
-linktitle: 了解 3D 場景中的節點層次結構
+title: 了解節點層次結構
+linktitle: 了解節點層次結構
 second_title: Aspose.3D .NET API
 description: 釋放 Aspose.3D for .NET 的強大功能！透過此逐步指南深入了解節點層次結構操作。輕鬆創建令人驚嘆的 3D 場景。
 type: docs

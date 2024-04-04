@@ -1,6 +1,6 @@
 ---
-title: 3D シーンでの幾何学的変換の公開
-linktitle: 3D シーンでの幾何学的変換の公開
+title: 幾何学的変換の公開
+linktitle: 幾何学的変換の公開
 second_title: Aspose.3D .NET API
 description: Aspose.3D を使用して、.NET の 3D グラフィックスの無限の可能性を探ってください。幾何学的変形を簡単に明らかにします。
 type: docs

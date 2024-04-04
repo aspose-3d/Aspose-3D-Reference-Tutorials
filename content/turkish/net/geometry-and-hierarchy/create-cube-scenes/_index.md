@@ -1,6 +1,6 @@
 ---
-title: 3D'de Küp Sahneleri Oluşturma
-linktitle: 3D'de Küp Sahneleri Oluşturma
+title: Küp Sahneleri Oluşturma
+linktitle: Küp Sahneleri Oluşturma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile büyüleyici 3D küp sahnelerini zahmetsizce oluşturun. Kütüphaneyi indirin, adım adım kılavuzumuzu izleyin ve serbest bırakın.
 type: docs
@@ -87,7 +87,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Belgeler dizininin yolu.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//3B sahneyi desteklenen dosya formatlarında kaydedin
+// 3B sahneyi desteklenen dosya formatlarında kaydedin
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

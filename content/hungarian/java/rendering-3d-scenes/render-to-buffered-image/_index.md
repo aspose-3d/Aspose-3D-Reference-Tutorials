@@ -62,7 +62,7 @@ ImageRenderOptions opt = new ImageRenderOptions();
 opt.setBackgroundColor(new Color(0x156043));
 ```
 
-## 4. lépés: Renderje le a jelenetet
+## 4. lépés: Renderelje le a jelenetet
 
 Renderelje le a 3D-s jelenetet a pufferelt képre a meghatározott kamera és opciók használatával.
 

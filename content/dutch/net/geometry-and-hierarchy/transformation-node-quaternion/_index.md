@@ -1,6 +1,6 @@
 ---
-title: Knooppunt transformeren door Quaternion in 3D-scènes
-linktitle: Knooppunt transformeren door Quaternion in 3D-scènes
+title: Knooppunt transformeren door Quaternion
+linktitle: Knooppunt transformeren door Quaternion
 second_title: Aspose.3D .NET-API
 description: Leer hoe u 3D-knooppunten kunt transformeren met quaternionen met behulp van Aspose.3D voor .NET. Stap-voor-stap handleiding voor beginners.
 type: docs
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Het pad naar de documentenmap.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//Sla 3D-scènes op in de ondersteunde bestandsformaten
+// Sla 3D-scènes op in de ondersteunde bestandsformaten
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## Conclusie
 
-Gefeliciteerd! Je hebt met succes geleerd hoe je een knooppunt per quaternion kunt transformeren in 3D-scènes met behulp van Aspose.3D voor .NET. Ontdek meer functies en mogelijkheden door te verwijzen naar de[documentatie](https://reference.aspose.com/3d/net/).
+ Gefeliciteerd! Je hebt met succes geleerd hoe je een knooppunt per quaternion kunt transformeren in 3D-scènes met behulp van Aspose.3D voor .NET. Ontdek meer functies en mogelijkheden door te verwijzen naar de[documentatie](https://reference.aspose.com/3d/net/).
 
 ## Veelgestelde vragen
 

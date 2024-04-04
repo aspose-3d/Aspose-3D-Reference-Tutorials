@@ -1,6 +1,6 @@
 ---
-title: Transformation de nœuds par Euler Angles dans des scènes 3D
-linktitle: Transformation de nœuds par Euler Angles dans des scènes 3D
+title: Transformation du nœud par Euler Angles
+linktitle: Transformation du nœud par Euler Angles
 second_title: API Aspose.3D .NET
 description: Apprenez à transformer des nœuds 3D sans effort avec Aspose.3D pour .NET. Suivez notre guide étape par étape pour obtenir des résultats époustouflants dans vos projets.
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
  Commencez par créer une nouvelle scène 3D à l'aide du`Scene` classe.
 
-## Étape 2 : initialiser l'objet de classe de nœud
 
-```csharp
-// Initialiser l'objet de classe Node
-Node cubeNode = new Node("cube");
-```
-
- Créez un nœud dans la scène à l'aide du`Node`classe. Ce nœud servira de conteneur pour notre objet 3D.
-
-## Étape 3 : Créer un maillage à l'aide de Polygon Builder
+## Étape 2 : Créer un maillage à l'aide d'une boîte primitive
 
 ```csharp
 // Appelez la classe Common pour créer un maillage à l'aide de la méthode de création de polygones pour définir l'instance de maillage
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
- Invoquez une méthode (dans ce cas,`CreateMeshUsingPolygonBuilder` d'une coutume`Common` classe) pour générer un maillage pour l’objet 3D.
+ Invoquez une méthode (dans ce cas,`CreateMeshUsingPolygonBuilder` d'une coutume`Common`classe) pour générer un maillage pour l’objet 3D.
 
-## Étape 4 : Pointer le nœud vers la géométrie du maillage
+## Étape 3 : Créer un nœud conteneur pour le maillage
 
 ```csharp
 // Pointer le nœud vers la géométrie du maillage
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-Associez le maillage créé au nœud.
+ Créez un nœud dans la scène à l'aide du`Node` classe. Ce nœud servira de conteneur pour notre objet 3D.
 
-## Étape 5 : Définir les angles d'Euler et la traduction
+## Étape 4 : Définir les angles d'Euler et la traduction
 
 ```csharp
 // Angles d'Euler
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 Définissez les angles d'Euler et la translation du nœud pour le positionner dans l'espace 3D.
 
-## Étape 6 : ajouter un cube à la scène
-
-```csharp
-// Ajouter un cube à la scène
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-Incorporez le nœud dans la hiérarchie de la scène.
-
-## Étape 7 : Enregistrez la scène 3D
+## Étape 5 : Enregistrez la scène 3D
 
 ```csharp
 // Le chemin d'accès au répertoire des documents.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Enregistrez la scène 3D dans les formats de fichiers pris en charge
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Enregistrez la scène 3D dans les formats de fichiers pris en charge
+scene.Save(output);
 // ExEnd : AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ A2 : Oui, vous pouvez combiner et appliquer plusieurs transformations pour obten
 
 ### Q5 : Besoin d'aide ou avez des questions spécifiques ?
 
-A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien de la communauté.
+ A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien de la communauté.

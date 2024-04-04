@@ -97,4 +97,4 @@ Parabéns! Você configurou com sucesso uma câmera de destino para animações 
 
 ### P5: Como posso obter uma licença temporária?
 
-A5: Você pode adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+ A5: Você pode adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).

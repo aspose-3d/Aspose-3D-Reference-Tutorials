@@ -105,7 +105,7 @@ Console.WriteLine(pdiffuse);
 
 ## Krok 6: Projděte vlastnosti vlastnosti
 
- Od té doby`Property` je zděděno z`A3DObject`, můžete procházet vlastnosti vlastnosti.
+ Od té doby`Property` je zděděno z`A3DObject`můžete procházet vlastnosti vlastnosti.
 
 ```csharp
 //ExStart: TraversePropertyProperties

@@ -1,6 +1,6 @@
 ---
-title: Laden en opslaan - Formaat detecteren
-linktitle: Laden en opslaan - Formaat detecteren
+title: Formaat detecteren
+linktitle: Formaat detecteren
 second_title: Aspose.3D .NET-API
 description: Beheers moeiteloos 3D-bestandsmanipulatie met Aspose.3D voor .NET. Laad, bewaar en detecteer formaten naadloos.
 type: docs
@@ -50,7 +50,7 @@ scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ### Stap 2: Detecteer het formaat
 
 ```csharp
-//ExStart:DetectFormat
+// ExStart:DetectFormat
 // Detecteer het formaat van een 3D-bestand
 FileFormat inputFormat = FileFormat.Detect(RunExamples.GetDataFilePath("document.fbx"));
 // Geef het bestandsformaat weer
@@ -92,4 +92,4 @@ A1: Ja, Aspose.3D ondersteunt een breed scala aan 3D-bestandsformaten, wat flexi
 
 ### V5: Kan ik Aspose.3D gratis uitproberen voordat ik een aankoop doe?
 
-A5: Zeker! Download de gratis proefversie van[Aspose.3D-releases](https://releases.aspose.com/) om de mogelijkheden uit de eerste hand te ervaren.
+ A5: Zeker! Download de gratis proefversie van[Aspose.3D-releases](https://releases.aspose.com/) om de mogelijkheden uit de eerste hand te ervaren.

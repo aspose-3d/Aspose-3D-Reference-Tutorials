@@ -17,7 +17,7 @@ Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymag
 
 - Środowisko programistyczne Java: Upewnij się, że masz zainstalowaną Javę w swoim systemie.
 -  Biblioteka Aspose.3D: Pobierz i zainstaluj bibliotekę Aspose.3D z[Tutaj](https://releases.aspose.com/3d/java/).
-- Programistyczne IDE: Wybierz zintegrowane środowisko programistyczne (IDE) przyjazne dla języka Java, takie jak Eclipse lub IntelliJ.
+- Programistyczne IDE: Wybierz przyjazne dla języka Java zintegrowane środowisko programistyczne (IDE), takie jak Eclipse lub IntelliJ.
 
 ## Importuj pakiety
 

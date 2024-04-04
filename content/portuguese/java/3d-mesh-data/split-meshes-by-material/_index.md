@@ -16,7 +16,7 @@ Bem-vindo a este tutorial abrangente sobre divisão de malhas 3D por material pa
 Antes de embarcarmos nesta jornada emocionante, certifique-se de ter os seguintes pré-requisitos em vigor:
 
 - Conhecimento básico de programação Java.
-- Biblioteca Aspose.3D para Java instalada. Você pode baixá-lo no[Aspor site](https://releases.aspose.com/3d/java/).
+-  Biblioteca Aspose.3D para Java instalada. Você pode baixá-lo no[Aspor site](https://releases.aspose.com/3d/java/).
 - Um Ambiente de Desenvolvimento Integrado (IDE) configurado para desenvolvimento Java.
 
 ## Importar pacotes
@@ -76,7 +76,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```java
 // Exibir mensagem de sucesso
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
-//ExEnd:SplitMeshbyMaterial
+// ExEnd:SplitMeshbyMaterial
 ```
 
 ## Conclusão
@@ -103,4 +103,4 @@ A2: Com certeza! Este método é bem dimensionado para modelos 3D complexos, oti
 
 ### P5: Como posso obter suporte para quaisquer problemas ou dúvidas?
 
-A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) pelo apoio dedicado da comunidade.
+ A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) pelo apoio dedicado da comunidade.

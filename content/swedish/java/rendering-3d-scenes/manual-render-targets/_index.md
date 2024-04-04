@@ -59,7 +59,7 @@ String output = "manual-render-to-image.png";
 BufferedImage image = new BufferedImage(1024, 1024, BufferedImage.TYPE_3BYTE_BGR);
 ```
 
-## Steg 4: Gör scen till bild
+## Steg 4: Återge scen till bild
 
 Återge scenen till den skapade bilden:
 

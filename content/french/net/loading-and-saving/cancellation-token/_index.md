@@ -1,6 +1,6 @@
 ---
-title: Chargement et sauvegarde - Utilisation de CancellationToken
-linktitle: Chargement et sauvegarde - Utilisation de CancellationToken
+title: Utilisation du jeton d'annulation
+linktitle: Utilisation du jeton d'annulation
 second_title: API Aspose.3D .NET
 description: Explorez le monde transparent de la modélisation 3D avec Aspose.3D pour .NET. Apprenez à charger et enregistrer efficacement des documents 3D à l'aide de CancellationToken.
 type: docs
@@ -78,7 +78,7 @@ catch (ImportException e)
 }
 ```
 
- Essayez d'ouvrir le document 3D dans le délai spécifié. Le`cts.Token`Le paramètre garantit que l’opération peut être annulée si elle dépasse le délai d’attente défini.
+ Essayez d'ouvrir le document 3D dans le délai spécifié. Le`cts.Token` Le paramètre garantit que l’opération peut être annulée si elle dépasse le délai d’attente défini.
 
 ### Étape 5 : Gérer l'exception d'importation
 

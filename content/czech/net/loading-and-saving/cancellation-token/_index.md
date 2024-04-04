@@ -1,6 +1,6 @@
 ---
-title: Načítání a ukládání – pomocí CancellationToken
-linktitle: Načítání a ukládání – pomocí CancellationToken
+title: Použití CancellationToken
+linktitle: Použití CancellationToken
 second_title: Aspose.3D .NET API
 description: Prozkoumejte bezproblémový svět 3D modelování s Aspose.3D pro .NET. Naučte se efektivně načítat a ukládat 3D dokumenty pomocí CancellationToken.
 type: docs
@@ -78,7 +78,7 @@ catch (ImportException e)
 }
 ```
 
- Pokuste se otevřít 3D dokument v určeném časovém rámci. The`cts.Token`Parametr zajišťuje, že operaci lze zrušit, pokud překročí nastavený časový limit.
+ Pokuste se otevřít 3D dokument v určeném časovém rámci. The`cts.Token` Parametr zajišťuje, že operaci lze zrušit, pokud překročí nastavený časový limit.
 
 ### Krok 5: Ošetřete výjimku importu
 

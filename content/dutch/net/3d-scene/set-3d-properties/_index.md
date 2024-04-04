@@ -105,7 +105,7 @@ Console.WriteLine(pdiffuse);
 
 ## Stap 6: Doorloop de eigendommen van onroerend goed
 
- Sinds`Property` is geërfd van`A3DObject`, kunt u de eigenschappen van een eigenschap doorlopen.
+ Sinds`Property` is geërfd van`A3DObject`kunt u de eigenschappen van een eigenschap doorlopen.
 
 ```csharp
 //ExStart: TraversePropertyProperties

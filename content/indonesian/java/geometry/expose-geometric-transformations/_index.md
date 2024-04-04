@@ -75,7 +75,7 @@ A1: Aspose.3D terintegrasi secara mulus dengan lingkungan pengembangan Java apa 
 
  A2: Lihat[dokumentasi](https://reference.aspose.com/3d/java/) untuk wawasan mendetail tentang fungsi Aspose.3D.
 
-### Q3: Dapatkah saya mencoba Aspose.3D untuk Java sebelum membeli?
+### Q3: Bisakah saya mencoba Aspose.3D untuk Java sebelum membeli?
 
  A3: Ya, Anda dapat menjelajahi a[uji coba gratis](https://releases.aspose.com/) sebelum melakukan pembelian.
 

@@ -1,6 +1,6 @@
 ---
-title: Áp dụng vật liệu cho khối trong cảnh 3D
-linktitle: Áp dụng vật liệu cho khối trong cảnh 3D
+title: Áp dụng vật liệu cho khối
+linktitle: Áp dụng vật liệu cho khối
 second_title: API Aspose.3D .NET
 description: Khám phá Aspose.3D cho .NET, cánh cổng dẫn đến thao tác đồ họa 3D liền mạch của bạn. Áp dụng vật liệu một cách dễ dàng, nâng cao tính hiện thực và nâng tầm dự án của bạn.
 type: docs
@@ -42,17 +42,12 @@ using System.IO;
 // Khởi tạo đối tượng cảnh
 Scene scene = new Scene();
 
-// Khởi tạo đối tượng nút khối
-Node cubeNode = new Node("cube");
+// Tạo một phiên bản hộp.
+var box = new Box();
 
-// Gọi Lớp chung tạo lưới bằng phương pháp xây dựng đa giác để đặt phiên bản lưới
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+// Đính kèm phiên bản hộp vào cảnh
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//Điểm nút vào lưới
-cubeNode.Entity = mesh;
-
-// Thêm khối vào hiện trường
-scene.RootNode.ChildNodes.Add(cubeNode);
 // ExEnd:Khởi tạoSceneAndCube
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 // Đặt đường dẫn tệp cục bộ cho kết cấu
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 // Đặt kết cấu của vật liệu
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,8 +77,8 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 // Đặt nội dung nhị phân
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-//ExEnd:NhúngRawContentData
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
+// ExEnd:NhúngRawContentData
 ```
 
 ## Bước 4: Đặt thuộc tính vật liệu
@@ -105,11 +100,11 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart:Save3DScene
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
-//Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
-scene.Save(output, FileFormat.FBX7400ASCII);
-// ExEnd:Save3DScene
+// Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
+scene.Save(output);
+//ExEnd:Save3DScene
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
 ```
@@ -140,4 +135,4 @@ Câu trả lời 3: Có, Aspose.3D cung cấp hỗ trợ toàn diện để tạ
 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho bất kỳ vấn đề hoặc thắc mắc nào?
 
-A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để kết nối với cộng đồng và tìm kiếm sự giúp đỡ.
+ A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để kết nối với cộng đồng và tìm kiếm sự giúp đỡ.

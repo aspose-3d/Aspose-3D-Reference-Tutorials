@@ -41,12 +41,24 @@ using System.Text;
 Muat file 3D Anda menggunakan Aspose.3D. Dalam contoh ini, kita memuat file bernama "test.fbx":
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## Langkah 2: Tentukan Format Biner Khusus
 
 Tentukan struktur format biner khusus tempat Anda ingin menyimpan jerat 3D. Contoh ini menggunakan struktur dengan MeshBlock, Vertex, dan Triangle sebagai komponennya.
+
+```csharp
+// Tata letak memori sebuah simpul adalah
+// posisi float[3];
+// mengapung[3] biasa;
+// mengapung[3] uv;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## Langkah 3: Buka File untuk Menulis
 
@@ -79,11 +91,30 @@ Untuk setiap entitas mesh, konversikan titik kontrol ke ruang dunia dan tuliskan
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (lanjutkan menulis titik kontrol dan indeks segitiga)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//Tata letak memori mesh adalah:
+// float[16] transform_matrix;
+// int jumlah_simpul;
+// int indeks_hitungan;
+// simpul[vertices_count] simpul;
+// indeks ushort[indices_count];
+
+
+//tulis transformasi
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//tulis jumlah simpul/indeks
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//menulis simpul dan indeks
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## Kesimpulan
@@ -98,7 +129,7 @@ A1: Aspose.3D terutama mendukung bahasa .NET, namun Anda dapat menjelajahi opsi 
 
 ### Q2: Di mana saya dapat menemukan contoh dan sumber tambahan?
 
- A2: Itu[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) adalah tempat yang bagus untuk mendapatkan dukungan, contoh, dan terlibat dengan komunitas.
+ A2: Itu[Forum Aspose.3D](https://forum.aspose.com/c/3d/18)adalah tempat yang bagus untuk mendapatkan dukungan, contoh, dan terlibat dengan komunitas.
 
 ### Q3: Apakah ada versi uji coba yang tersedia untuk Aspose.3D?
 

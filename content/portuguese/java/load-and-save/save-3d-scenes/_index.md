@@ -84,7 +84,7 @@ Neste tutorial, cobrimos os fundamentos do salvamento de cenas 3D em vários for
 
 ## Perguntas frequentes
 
-### Q1: Posso usar Aspose.3D para Java com outras bibliotecas Java?
+### Q1: Posso usar Aspose.3D for Java com outras bibliotecas Java?
 
 A1: Sim, o Aspose.3D for Java pode ser perfeitamente integrado com outras bibliotecas Java para aprimorar a funcionalidade.
 

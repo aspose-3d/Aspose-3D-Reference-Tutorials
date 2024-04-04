@@ -16,7 +16,7 @@ url: /ja/java/geometry/concatenate-quaternions-for-3d-rotations/
 チュートリアルに進む前に、次の前提条件を満たしていることを確認してください。
 
 - Java プログラミングの基本的な知識。
--  Java 用 Aspose.3D がインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/3d/java/).
+- Java 用 Aspose.3D がインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/3d/java/).
 
 ## パッケージのインポート
 
@@ -26,7 +26,7 @@ Aspose.3D 機能を利用するために必要なパッケージを必ずイン�
 import com.aspose.threed.*;
 ```
 
-次に、サンプル コードを複数のステップに分割して、包括的なチュートリアルを作成しましょう。
+ここで、サンプル コードを複数のステップに分割して、包括的なチュートリアルを作成しましょう。
 
 ## ステップ 1: シーンをセットアップする
 

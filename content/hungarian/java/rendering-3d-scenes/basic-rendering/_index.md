@@ -16,7 +16,7 @@ url: /hu/java/rendering-3d-scenes/basic-rendering/
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
 - Java programozási alapismeretek.
--  Aspose.3D for Java telepítve. Ha nem, akkor letöltheti[itt](https://releases.aspose.com/3d/java/).
+-  Az Aspose.3D for Java telepítve. Ha nem, akkor letöltheti[itt](https://releases.aspose.com/3d/java/).
 - 3D grafikai fogalmak ismerete.
 
 ## Csomagok importálása

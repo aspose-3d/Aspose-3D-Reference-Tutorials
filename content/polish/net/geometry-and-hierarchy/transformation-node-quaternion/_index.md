@@ -1,6 +1,6 @@
 ---
-title: Transformacja węzła przez kwaternion w scenach 3D
-linktitle: Transformacja węzła przez kwaternion w scenach 3D
+title: Transformacja węzła według kwaternionów
+linktitle: Transformacja węzła według kwaternionów
 second_title: Aspose.3D API .NET
 description: Naucz się przekształcać węzły 3D za pomocą kwaternionów przy użyciu Aspose.3D dla .NET. Przewodnik krok po kroku dla początkujących.
 type: docs
@@ -23,7 +23,7 @@ Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymag
 
 ## Importuj przestrzenie nazw
 
-W projekcie .NET uwzględnij wymagane przestrzenie nazw dla Aspose.3D:
+projekcie .NET uwzględnij wymagane przestrzenie nazw dla Aspose.3D:
 
 ```csharp
 using System;
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Ścieżka do katalogu dokumentów.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//Zapisz scenę 3D w obsługiwanych formatach plików
+// Zapisz scenę 3D w obsługiwanych formatach plików
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## Wniosek
 
-Gratulacje! Pomyślnie nauczyłeś się, jak przekształcać węzeł za pomocą kwaternionów w scenach 3D przy użyciu Aspose.3D dla .NET. Odkryj więcej funkcji i możliwości, korzystając z[dokumentacja](https://reference.aspose.com/3d/net/).
+ Gratulacje! Pomyślnie nauczyłeś się, jak przekształcać węzeł za pomocą kwaternionów w scenach 3D przy użyciu Aspose.3D dla .NET. Odkryj więcej funkcji i możliwości, korzystając z[dokumentacja](https://reference.aspose.com/3d/net/).
 
 ## Często zadawane pytania
 
@@ -116,7 +116,7 @@ Odpowiedź 1: Kwaterniony to jednostki matematyczne używane do reprezentowania 
 
 ### P4: Gdzie mogę znaleźć wsparcie dla Aspose.3D dla .NET?
 
- A4: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie i dyskusje.
+ A4: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie i dyskusję.
 
 ### P5: Jak uzyskać tymczasową licencję na Aspose.3D?
 

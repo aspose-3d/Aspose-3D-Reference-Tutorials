@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## Bước 2: Tạo hệ thống phân cấp các nút
 
 ```java
-// ExStart:Tạo phân cấp
+//ExStart:Tạo phân cấp
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

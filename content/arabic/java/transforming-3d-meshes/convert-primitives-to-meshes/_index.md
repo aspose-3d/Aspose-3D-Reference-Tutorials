@@ -55,7 +55,7 @@ scene.getRootNode().addChildNode(cubeNode);
 ```java
 // المسار إلى دليل المستندات.
 String MyDir = "Your Document Directory" + "BoxToMeshScene.fbx";
-//حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
+// حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 System.out.println("\n Converted the primitive Box to a mesh successfully.\nFile saved at " + MyDir);
 ```

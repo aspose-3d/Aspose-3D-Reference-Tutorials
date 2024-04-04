@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## Adım 5: Sahneyi Kaydedin
 
-Yapılandırılmış sahneyi, .3ds gibi istenen dosya formatında belirtilen bir çıktı dizinine kaydedin.
+Yapılandırılmış sahneyi, .fbx gibi istenen dosya biçiminde belirtilen bir çıktı dizinine kaydedin.
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## Çözüm
@@ -98,7 +98,7 @@ A2: Kesinlikle! Aspose.3D, geliştiricilerin oyunlar için kolaylıkla 3D varlı
 
 ### S4: Ücretsiz deneme sürümü mevcut mu?
 
- Cevap4: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+Cevap4: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S5: Geçici lisansı nasıl edinebilirim?
 

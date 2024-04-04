@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## Stap 2: Creëer een hiërarchie van knooppunten
 
 ```java
-// ExStart:Hiërarchie maken
+//ExStart:Hiërarchie maken
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");
@@ -88,7 +88,7 @@ In deze zelfstudie hebben we het proces van het toepassen van XPath-achtige quer
 
  A2: U kunt het downloaden[hier](https://releases.aspose.com/3d/java/).
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+### Vraag 3: Is er een gratis proefperiode beschikbaar?
 
  A3: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
 

@@ -1,6 +1,6 @@
 ---
-title: 3D シーンのキューブにマテリアルを適用する
-linktitle: 3D シーンのキューブにマテリアルを適用する
+title: キューブにマテリアルを適用する
+linktitle: キューブにマテリアルを適用する
 second_title: Aspose.3D .NET API
 description: シームレスな 3D グラフィックス操作へのゲートウェイである Aspose.3D for .NET を探索してください。マテリアルを簡単に適用し、リアリズムを高め、プロジェクトを向上させます。
 type: docs
@@ -42,17 +42,12 @@ using System.IO;
 //シーンオブジェクトを初期化する
 Scene scene = new Scene();
 
-//キューブノードオブジェクトの初期化
-Node cubeNode = new Node("cube");
+//ボックスインスタンスを作成します。
+var box = new Box();
 
-//ポリゴン ビルダー メソッドを使用して共通クラスのメッシュ作成を呼び出し、メッシュ インスタンスを設定します
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+//ボックス インスタンスをシーンにアタッチする
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//ノードをメッシュにポイントします
-cubeNode.Entity = mesh;
-
-//シーンにキューブを追加する
-scene.RootNode.ChildNodes.Add(cubeNode);
 //ExEnd:InitializeSceneAndCube
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 //テクスチャのローカル ファイル パスを設定します
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 //マテリアルのテクスチャを設定する
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,7 +77,7 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 //バイナリコンテンツを設定する
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
 //ExEnd:EmbedRawContentData
 ```
 
@@ -105,10 +100,10 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart:3DScene の保存
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
 //3D シーンをサポートされているファイル形式で保存する
-scene.Save(output, FileFormat.FBX7400ASCII);
+scene.Save(output);
 //ExEnd:Save3DScene
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
@@ -140,4 +135,4 @@ A4: を探索してください。[ドキュメンテーション](https://refer
 
 ### Q5: 問題や質問に対するサポートはどうすれば受けられますか?
 
-A5: にアクセスしてください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)コミュニティとつながり、支援を求めます。
+ A5: にアクセスしてください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)コミュニティとつながり、支援を求めます。

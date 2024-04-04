@@ -2,7 +2,7 @@
 title: 使用 Aspose.3D 在 Java 中高效检测 3D 文件格式
 linktitle: 使用 Aspose.3D 在 Java 中高效检测 3D 文件格式
 second_title: Aspose.3D Java API
-description: 使用 Aspose.3D 轻松检测 Java 中的 3D 文件格式。利用这个强大的库简化您的开发流程。
+description: 使用 Aspose.3D 轻松检测 Java 中的 3D 文件格式。利用这个强大的库简化您的开发过程。
 type: docs
 weight: 11
 url: /zh/java/load-and-save/detect-3d-file-formats/
@@ -81,4 +81,4 @@ A2：当然！ Aspose.3D 为初学者提供用户友好的界面，同时为经�
 
 ### Q5：如果我在使用 Aspose.3D 时遇到问题，可以在哪里寻求帮助？
 
-A5：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)寻求社会各界和专家的帮助。
+ A5：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)寻求社会各界和专家的帮助。

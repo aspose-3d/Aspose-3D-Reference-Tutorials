@@ -16,8 +16,8 @@ Aspose.3D for .NET kullanarak 3 boyutlu sahnelerde koordinat sistemini çevirmey
 Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
 - C# programlama dilinin temel anlayışı.
-- Aspose.3D for .NET kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/3d/net/).
-- Desteklenen formatta (örn. .3ds) örnek bir 3D dosya.
+-  Aspose.3D for .NET kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/3d/net/).
+- Desteklenen formatta (örn. .ma) örnek bir 3D dosya.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // Giriş dosyasının yolu
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // Sahne nesnesini başlat
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
  Bu adımda belirtilen dosya yolundan 3 boyutlu bir sahneyi aşağıdaki komutu kullanarak yüklüyoruz:`Open` yöntem.
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
  Şimdi şunu kullanıyoruz:`Save` Süreçte koordinat sistemini çevirerek sahneyi dışa aktarma yöntemi. Çıktı Wavefront OBJ formatında kaydedilir.
@@ -60,7 +64,7 @@ scene.Save(output, FileFormat.WavefrontOBJ);
 Console.WriteLine("\nCoordinate system has been flipped successfully.\nFile saved at " + output);
 ```
 
-Son olarak, koordinat sisteminin başarıyla çevrildiğini belirten bir başarı mesajı görüntülüyor ve kaydedilen dosyanın yolunu sağlıyoruz.
+Son olarak, koordinat sisteminin başarılı bir şekilde çevrildiğini belirten bir başarı mesajı görüntülüyor ve kaydedilen dosyanın yolunu sağlıyoruz.
 
 ## Çözüm
 

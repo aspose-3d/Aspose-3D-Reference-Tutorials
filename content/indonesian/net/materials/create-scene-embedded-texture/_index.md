@@ -13,7 +13,7 @@ Selamat datang di dunia grafis 3D yang menarik dengan Aspose.3D untuk .NET! Dala
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 - Pemahaman dasar tentang pemrograman C# dan .NET.
 - Visual Studio diinstal pada mesin Anda.
--  Aspose.3D untuk perpustakaan .NET, yang dapat Anda unduh[Di Sini](https://releases.aspose.com/3d/net/).
+- Aspose.3D untuk perpustakaan .NET, yang dapat Anda unduh[Di Sini](https://releases.aspose.com/3d/net/).
 - Keakraban dengan konsep grafik 3D dan pembuatan pemandangan.
 ## Impor Namespace
 Mulailah dengan mengimpor namespace yang diperlukan ke dalam proyek Anda. Namespace ini akan memberi Anda alat dan fungsi yang diperlukan untuk manipulasi grafis 3D.
@@ -44,7 +44,7 @@ Sekarang, mari tambahkan kesan visual pada pemandangan Anda dengan menyematkan t
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    // Nama file diperlukan jika tekstur tersemat digunakan.
+    //Nama file diperlukan jika tekstur tersemat digunakan.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

@@ -16,7 +16,7 @@ Selamat datang di panduan langkah demi langkah kami dalam meningkatkan pemosisia
 Sebelum kita memulai perjalanan ini, pastikan Anda memiliki prasyarat berikut:
 
 - Pemahaman dasar tentang pemrograman Java.
--  Aspose.3D untuk Java diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/3d/java/).
+- Aspose.3D untuk Java diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/3d/java/).
 - Lingkungan pengembangan yang siap untuk pengkodean Java.
 
 ## Paket Impor
@@ -101,7 +101,7 @@ A1: Ya, Aspose.3D mendukung berbagai bahasa pemrograman, termasuk Java, .NET, da
 
 ### Q2: Apakah uji coba gratis tersedia untuk Aspose.3D?
 
-A2: Tentu saja! Anda dapat menjelajahi fitur Aspose.3D dengan mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+ A2: Tentu saja! Anda dapat menjelajahi fitur Aspose.3D dengan mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q3: Di mana saya dapat menemukan dukungan untuk Aspose.3D?
 

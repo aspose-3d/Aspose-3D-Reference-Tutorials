@@ -1,6 +1,6 @@
 ---
-title: 加载和保存 - 检测格式
-linktitle: 加载和保存 - 检测格式
+title: 检测格式
+linktitle: 检测格式
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 轻松掌握 3D 文件操作。无缝加载、保存和检测格式。
 type: docs

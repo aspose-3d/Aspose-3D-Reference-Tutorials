@@ -1,6 +1,6 @@
 ---
-title: 3D Sahnelerde Geometrik Dönüşümü Ortaya Çıkarma
-linktitle: 3D Sahnelerde Geometrik Dönüşümü Ortaya Çıkarma
+title: Geometrik Dönüşümün Ortaya Çıkarılması
+linktitle: Geometrik Dönüşümün Ortaya Çıkarılması
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D ile .NET'teki 3D grafiklerin sınırsız olanaklarını keşfedin. Geometrik dönüşümleri zahmetsizce ortaya çıkarın.
 type: docs
@@ -91,7 +91,7 @@ Cevap1: Aspose.3D, çok çeşitli .NET çerçeveleriyle uyumludur ve çeşitli p
 
  Cevap3: Forumlar destek aramak ve toplulukla etkileşim kurmak için mükemmel bir yerdir. Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) yardım için.
 
-### S4: Daha fazla öğretici ve örnek inceleyebilir miyim?
+### S4: Daha fazla öğretici ve örnek keşfedebilir miyim?
 
  A4: Kesinlikle![dokümantasyon](https://reference.aspose.com/3d/net/) Aspose.3D deneyiminizi geliştirmek için kapsamlı eğitimler, örnekler ve belgeler sağlar.
 

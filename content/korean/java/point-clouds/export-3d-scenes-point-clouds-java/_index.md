@@ -65,7 +65,7 @@ opt.setPointCloud(true);
 3D 장면을 원하는 디렉토리에 포인트 클라우드로 저장합니다.
 
 ```java
-// 구하다
+//구하다
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 

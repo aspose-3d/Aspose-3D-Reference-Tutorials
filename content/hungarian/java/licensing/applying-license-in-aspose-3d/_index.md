@@ -22,7 +22,8 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek
 
 A kezdéshez importálja a szükséges csomagokat a Java projektbe. Győződjön meg arról, hogy az Aspose.3D hozzáadva van az osztályútvonalhoz. Íme egy példa:
 
-```javaimport com.aspose.threed.License;
+```java
+import com.aspose.threed.License;
 import com.aspose.threed.Metered;
 
 import java.io.FileInputStream;

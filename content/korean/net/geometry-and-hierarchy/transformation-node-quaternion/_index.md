@@ -1,6 +1,6 @@
 ---
-title: 3D 장면에서 쿼터니언으로 노드 변환
-linktitle: 3D 장면에서 쿼터니언으로 노드 변환
+title: 쿼터니언으로 노드 변환
+linktitle: 쿼터니언으로 노드 변환
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 쿼터니언으로 3D 노드를 변환하는 방법을 알아보세요. 초보자를 위한 단계별 가이드입니다.
 type: docs
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // 문서 디렉터리의 경로입니다.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//지원되는 파일 형식으로 3D 장면 저장
+// 지원되는 파일 형식으로 3D 장면 저장
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## 결론
 
-축하해요! .NET용 Aspose.3D를 사용하여 3D 장면에서 노드를 쿼터니언으로 변환하는 방법을 성공적으로 배웠습니다. 다음을 참조하여 더 많은 기능과 가능성을 살펴보세요.[선적 서류 비치](https://reference.aspose.com/3d/net/).
+ 축하해요! .NET용 Aspose.3D를 사용하여 3D 장면에서 노드를 쿼터니언으로 변환하는 방법을 성공적으로 배웠습니다. 다음을 참조하여 더 많은 기능과 가능성을 살펴보세요.[선적 서류 비치](https://reference.aspose.com/3d/net/).
 
 ## FAQ
 

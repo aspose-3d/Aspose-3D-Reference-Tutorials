@@ -13,7 +13,7 @@ url: /ar/net/materials/create-scene-embedded-texture/
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 - فهم أساسي لبرمجة C# و.NET.
 - تم تثبيت Visual Studio على جهازك.
--  Aspose.3D لمكتبة .NET، والتي يمكنك تنزيلها[هنا](https://releases.aspose.com/3d/net/).
+- Aspose.3D لمكتبة .NET، والتي يمكنك تنزيلها[هنا](https://releases.aspose.com/3d/net/).
 - الإلمام بمفاهيم الرسومات ثلاثية الأبعاد وإنشاء المشهد.
 ## استيراد مساحات الأسماء
 ابدأ باستيراد مساحات الأسماء الضرورية إلى مشروعك. ستزودك مساحات الأسماء هذه بالأدوات والوظائف المطلوبة لمعالجة الرسومات ثلاثية الأبعاد.
@@ -44,7 +44,7 @@ Scene scene = new Scene();
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    // اسم الملف مطلوب في حالة استخدام المادة المضمنة.
+    //اسم الملف مطلوب في حالة استخدام المادة المضمنة.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

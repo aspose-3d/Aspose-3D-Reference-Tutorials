@@ -84,7 +84,7 @@ J: Aspose.3D mendukung berbagai format model 3D, sehingga kompatibel dengan bany
 ### T: Bagaimana cara memecahkan masalah rendering?
  A: Periksa Aspose.3D[forum](https://forum.aspose.com/c/3d/18) untuk dukungan dan solusi terhadap masalah rendering umum.
 ### T: Apakah tersedia uji coba gratis?
- A: Ya, Anda dapat menjelajahi fitur Aspose.3D dengan memperoleh a[uji coba gratis](https://releases.aspose.com/).
+A: Ya, Anda dapat menjelajahi fitur Aspose.3D dengan memperoleh a[uji coba gratis](https://releases.aspose.com/).
 ### T: Di mana saya dapat menemukan dokumentasi lengkap?
  J: Lihat[dokumentasi](https://reference.aspose.com/3d/net/) untuk panduan mendalam tentang Aspose.3D untuk .NET.
 ### T: Bagaimana cara membeli Aspose.3D untuk .NET?

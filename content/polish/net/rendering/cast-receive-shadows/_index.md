@@ -35,7 +35,7 @@ Scene scene = new Scene();
 Camera camera = new Camera();
 // Dodatkowy kod konfiguracji kamery...
 ```
- Utwórz scenę 3D i skonfiguruj kamerę, aby oglądać tę scenę. Dostosuj parametry kamery, takie jak`NearPlane` I`LookAt` dla optymalnego renderowania.
+Utwórz scenę 3D i skonfiguruj kamerę, aby oglądać tę scenę. Dostosuj parametry kamery, takie jak`NearPlane` I`LookAt` dla optymalnego renderowania.
 ## Krok 2: Przedstaw źródło światła
 ```csharp
 Light light;

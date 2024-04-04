@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## Krok 2: Vytvořte hierarchii uzlů
 
 ```java
-// ExStart:CreateHierarchy
+//ExStart:CreateHierarchy
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

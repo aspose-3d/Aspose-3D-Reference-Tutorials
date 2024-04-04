@@ -13,7 +13,7 @@ url: /es/net/materials/create-scene-embedded-texture/
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 - Un conocimiento básico de la programación en C# y .NET.
 - Visual Studio instalado en su máquina.
--  Biblioteca Aspose.3D para .NET, que puedes descargar[aquí](https://releases.aspose.com/3d/net/).
+- Biblioteca Aspose.3D para .NET, que puedes descargar[aquí](https://releases.aspose.com/3d/net/).
 - Familiaridad con los conceptos de gráficos 3D y creación de escenas.
 ## Importar espacios de nombres
 Comience importando los espacios de nombres necesarios a su proyecto. Estos espacios de nombres le proporcionarán las herramientas y funcionalidades necesarias para la manipulación de gráficos 3D.
@@ -44,7 +44,7 @@ Ahora, agreguemos un poco de estilo visual a su escena incorporando una textura.
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    // El nombre del archivo es obligatorio si se utiliza la textura incrustada.
+    //El nombre del archivo es obligatorio si se utiliza la textura incrustada.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

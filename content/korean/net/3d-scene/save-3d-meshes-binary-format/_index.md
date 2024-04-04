@@ -41,12 +41,24 @@ using System.Text;
 Aspose.3D를 사용하여 3D 파일을 로드합니다. 이 예에서는 "test.fbx"라는 파일을 로드합니다.
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## 2단계: 사용자 정의 바이너리 형식 정의
 
 3D 메시를 저장할 사용자 정의 바이너리 형식의 구조를 정의합니다. 이 예에서는 MeshBlock, Vertex 및 Triangle이 구성 요소로 포함된 구조를 사용합니다.
+
+```csharp
+// 정점의 메모리 레이아웃은 다음과 같습니다.
+// float[3] 위치;
+// float[3] 보통;
+// 플로트[3] uv;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## 3단계: 쓰기 위해 파일 열기
 
@@ -79,11 +91,30 @@ scene.RootNode.Accept(delegate(Node node)
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (계속해서 제어점과 삼각형 지수를 작성하세요)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//메시의 메모리 레이아웃은 다음과 같습니다.
+// float[16] 변환_매트릭스;
+// int vertices_count;
+// int index_count;
+// 정점[vertices_count] 정점;
+// ushort[indices_count] 인덱스;
+
+
+//쓰기 변환
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//정점/인덱스 수 쓰기
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//정점과 인덱스 쓰기
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## 결론
@@ -98,7 +129,7 @@ A1: Aspose.3D는 주로 .NET 언어를 지원하지만 다른 언어에 대한 �
 
 ### Q2: 추가 예제와 리소스는 어디서 찾을 수 있나요?
 
- A2:[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지원과 사례를 찾고 커뮤니티에 참여할 수 있는 좋은 장소입니다.
+ A2:[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18)지원과 사례를 찾고 커뮤니티에 참여할 수 있는 좋은 장소입니다.
 
 ### Q3: Aspose.3D에 사용할 수 있는 평가판이 있습니까?
 

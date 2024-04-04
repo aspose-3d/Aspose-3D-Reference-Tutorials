@@ -13,7 +13,7 @@ Aspose.3D for .NET ile 3D grafiklerin heyecan verici dünyasına hoş geldiniz! 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 - C# ve .NET programlamanın temel anlayışı.
 - Makinenizde Visual Studio yüklü.
--  İndirebileceğiniz Aspose.3D for .NET kütüphanesi[Burada](https://releases.aspose.com/3d/net/).
+- İndirebileceğiniz Aspose.3D for .NET kütüphanesi[Burada](https://releases.aspose.com/3d/net/).
 - 3D grafik ve sahne oluşturma kavramlarına aşinalık.
 ## Ad Alanlarını İçe Aktar
 Gerekli ad alanlarını projenize aktararak başlayın. Bu ad alanları size 3B grafik manipülasyonu için gerekli araçları ve işlevleri sağlayacaktır.
@@ -44,7 +44,7 @@ Scene scene = new Scene();
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    // Gömülü doku kullanılıyorsa dosya adı gereklidir.
+    //Gömülü doku kullanılıyorsa dosya adı gereklidir.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

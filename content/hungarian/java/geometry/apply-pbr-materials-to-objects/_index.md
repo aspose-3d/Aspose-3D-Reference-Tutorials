@@ -9,7 +9,7 @@ url: /hu/java/geometry/apply-pbr-materials-to-objects/
 ---
 ## Bevezetés
 
-Üdvözöljük ebben a lépésenkénti útmutatóban a fizikai alapú renderelés (PBR) anyagok Java 3D objektumokra történő alkalmazásáról az Aspose.3D használatával. Az Aspose.3D egy hatékony Java könyvtár, amely átfogó funkcionalitást biztosít a 3D modellekkel és jelenetekkel való munkához. Ebben az oktatóanyagban a PBR anyagok alkalmazására összpontosítunk, amelyek szimulálják a valós világítási és felületi tulajdonságokat, javítva ezzel a 3D objektumok valósághűségét.
+Üdvözöljük ebben a lépésenkénti útmutatóban a fizikai alapú renderelés (PBR) anyagok Java 3D objektumokra történő alkalmazásáról az Aspose.3D használatával. Az Aspose.3D egy hatékony Java könyvtár, amely átfogó funkcionalitást biztosít a 3D modellekkel és jelenetekkel való munkához. Ebben az oktatóanyagban a PBR anyagok alkalmazására összpontosítunk, amelyek szimulálják a valós világ megvilágítását és felületi tulajdonságait, javítva ezzel a 3D objektumok valósághűségét.
 
 ## Előfeltételek
 
@@ -19,7 +19,7 @@ Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a követ
 
 2.  Aspose.3D Library: Töltse le és telepítse az Aspose.3D könyvtárat a[letöltési link](https://releases.aspose.com/3d/java/).
 
-3.  Dokumentáció: Lásd a[dokumentáció](https://reference.aspose.com/3d/java/) az Aspose.3D számára, hogy megismerkedjen a könyvtár funkcióival.
+3.  Dokumentáció: Lásd a[dokumentáció](https://reference.aspose.com/3d/java/)az Aspose.3D számára, hogy megismerkedjen a könyvtár funkcióival.
 
 4.  Ideiglenes licenc (opcionális): Ha nincs engedélye, beszerezhet a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) tesztelésre.
 
@@ -72,7 +72,7 @@ Mentse el a 3D-s jelenetet, beleértve az alkalmazott PBR-anyagot is, egy adott 
 ```java
 // ExStart:Save3DScene
 scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
-// ExEnd:Save3DScene
+//ExEnd:Save3DScene
 ```
 
 Ismételje meg ezeket a lépéseket bonyolultabb jelenetek vagy különböző objektumok esetén.

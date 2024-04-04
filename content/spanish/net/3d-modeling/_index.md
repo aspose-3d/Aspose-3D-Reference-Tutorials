@@ -1,10 +1,10 @@
 ---
-title: modelado 3D
-linktitle: modelado 3D
+title: Modelado
+linktitle: Modelado
 second_title: Aspose.3D API .NET
 description: ¡Descubre el arte del modelado 3D con Aspose.3D para .NET! Crea fácilmente modelos primitivos cautivadores en este completo tutorial. Libera tu creatividad hoy.
 type: docs
-weight: 20
+weight: 28
 url: /es/net/3d-modeling/
 ---
 
@@ -16,11 +16,38 @@ Si alguna vez ha soñado con crear impresionantes modelos 3D, la lista de tutori
 
 Embárcate en tu viaje de modelado 3D profundizando en los aspectos fundamentales. Aspose.3D para .NET simplifica el intrincado mundo del modelado 3D, haciéndolo accesible tanto para principiantes como para entusiastas experimentados. Conozca los principios y herramientas básicos que sientan las bases para su exploración creativa.
 
-## [Creando modelos 3D primitivos](./primitive-3d-models/)
+## Extrusión lineal en forma 2D para crear una nueva malla.
 
-## Esculpiendo maravillas con Aspose.3D
+Aspose.3D permite la extrusión lineal de formas para crear nuevas mallas, mejorando la complejidad geométrica y la profundidad visual en modelos y escenas 3D. Esta función permite a los usuarios extender formas 2D a lo largo de un eje específico, transformándolas en sólidos volumétricos con facilidad y precisión.
 
- Navega hasta el[Creando modelos 3D primitivos](./primitive-3d-models/) tutorial, donde desentrañamos la magia de esculpir con Aspose.3D para .NET. Sumérgete en una guía paso a paso que te permitirá moldear sin esfuerzo modelos primitivos que cautivan la vista. Desde formas básicas hasta diseños complejos, este tutorial lo cubre todo.
+[Lea el tutorial: Extrusión lineal](./linear-extrusion/)
+
+## Creando modelos 3D primitivos
+
+ Navega hasta el[Creando modelos 3D primitivos](./primitive-3d-models/)tutorial, donde desentrañamos la magia de esculpir con Aspose.3D para .NET. Sumérgete en una guía paso a paso que te permitirá moldear sin esfuerzo modelos primitivos que cautivan la vista. Desde formas básicas hasta diseños complejos, este tutorial lo cubre todo.
+
+[Lea el tutorial: Creación de modelos 3D primitivos](./primitive-3d-models/)
+
+## Cambiar la orientación del plano en escenas 3D
+
+Embárquese en un viaje para dominar el arte de cambiar la orientación del plano en escenas 3D utilizando Aspose.3D para .NET. Nuestra guía completa lo guía en cada paso, garantizando una integración perfecta en sus proyectos. Libera el potencial de tus escenas 3D con un nuevo control.
+
+[Lea el tutorial: Cambiar la orientación del plano en escenas 3D](./change-plane-orientation/)
+
+## Cambiar la orientación del plano en escenas 3D
+
+Embárquese en un viaje para dominar el arte de cambiar la orientación del plano en escenas 3D utilizando Aspose.3D para .NET. Nuestra guía completa lo guía en cada paso, garantizando una integración perfecta en sus proyectos. Libera el potencial de tus escenas 3D con un nuevo control.
+
+[Lea el tutorial: Cambiar la orientación del plano en escenas 3D](./change-plane-orientation/)
+
+
+## Trabajar con cilindro
+
+Aspose.3D facilita la creación de cilindros de geometría 3D paramétrica, lo que permite a los usuarios generar mallas sin esfuerzo. Con esta función, los usuarios pueden definir cilindros con dimensiones y propiedades específicas, integrándolos perfectamente en sus modelos y escenas 3D para mejorar el realismo y el detalle.
+
+[Lea el tutorial: Trabajar con cilindro](./working-with-cylinder/)
+
+
 
 ### Sumérgete en lo básico
 
@@ -36,7 +63,7 @@ La belleza del modelado 3D radica en la libertad de dar rienda suelta a tu creat
 
 ## ¡Mejore sus habilidades hoy!
 
-El listado de tutoriales de Aspose.3D para .NET no es sólo una guía; es una invitación a explorar las posibilidades ilimitadas del modelado 3D. Sumérgete en el[Creando modelos 3D primitivos](./primitive-3d-models/) tutorial y esculpe maravillas que trascienden los límites de la imaginación. Libera al artista que llevas dentro: ¡comienza tu viaje ahora!
+ El listado de tutoriales de Aspose.3D para .NET no es sólo una guía; es una invitación a explorar las posibilidades ilimitadas del modelado 3D. Sumérgete en el[Creando modelos 3D primitivos](./primitive-3d-models/) tutorial y esculpe maravillas que trascienden los límites de la imaginación. Libera al artista que llevas dentro: ¡comienza tu viaje ahora!
 ## Tutoriales de modelado 3D
 ### [Creando modelos 3D primitivos](./primitive-3d-models/)
 Explore el mundo del modelado 3D con Aspose.3D para .NET. Crea impresionantes modelos primitivos sin esfuerzo.

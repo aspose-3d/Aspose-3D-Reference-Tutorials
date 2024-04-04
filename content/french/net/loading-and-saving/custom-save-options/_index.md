@@ -1,8 +1,8 @@
 ---
-title: Chargement et sauvegarde - Options de sauvegarde personnalisées
-linktitle: Chargement et sauvegarde - Options de sauvegarde personnalisées
+title: Options d'enregistrement personnalisées
+linktitle: Options d'enregistrement personnalisées
 second_title: API Aspose.3D .NET
-description: Découvrez la puissance d'Aspose.3D pour .NET. Apprenez à personnaliser l'enregistrement de votre scène 3D avec des guides étape par étape sur les formats Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC et RVM.
+description: Découvrez la puissance d'Aspose.3D pour .NET. Apprenez à personnaliser l'enregistrement de votre scène 3D avec des guides étape par étape sur les formats Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC et RVM.
 type: docs
 weight: 21
 url: /fr/net/loading-and-saving/custom-save-options/

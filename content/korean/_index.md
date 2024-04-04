@@ -20,20 +20,13 @@ is_root: true
  
 - [3D 모델링](./net/3d-modeling/)
 - [3D 장면](./net/3d-scene/)
-- [3D 뷰포트](./net/3d-viewports/)
 - [생기](./net/animation/)
-- [자산정보](./net/asset-information/)
 - [기하학과 계층](./net/geometry-and-hierarchy/)
 - [특허](./net/license/)
 - [로드 및 저장](./net/loading-and-saving/)
 - [재료](./net/materials/)
-- [다각형](./net/polygons/)
 - [표현](./net/rendering/)
-- [선형 압출](./net/linear-extrusion/)
-- [사물](./net/objects/)
-- [원통 작업](./net/working-with-cylinder/)
-- [포인트 클라우드 작업](./net/working-with-point-cloud/)
-- [VRML 작업](./net/working-with-vrml/)
+- [메쉬](./net/meshes/)
 
 ## Java 튜토리얼용 Aspose.3D
 {{% alert color="primary" %}}

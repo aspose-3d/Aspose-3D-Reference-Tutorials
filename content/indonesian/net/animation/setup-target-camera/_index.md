@@ -33,7 +33,7 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Langkah 1: Inisialisasi Objek Adegan
+## Langkah 1: Inisialisasi Objek Pemandangan
 
 Mulailah dengan menginisialisasi objek pemandangan. Ini berfungsi sebagai kanvas tempat animasi 3D Anda akan menjadi hidup.
 
@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## Langkah 5: Simpan Adegan
 
-Simpan adegan yang dikonfigurasi ke direktori keluaran tertentu dalam format file yang diinginkan, seperti .3ds.
+Simpan adegan yang dikonfigurasi ke direktori keluaran tertentu dalam format file yang diinginkan, seperti .fbx.
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## Kesimpulan
@@ -98,7 +98,7 @@ A2: Tentu saja! Aspose.3D memberdayakan pengembang untuk membuat aset 3D untuk g
 
 ### Q4: Apakah tersedia uji coba gratis?
 
- A4: Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
+A4: Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q5: Bagaimana cara mendapatkan lisensi sementara?
 

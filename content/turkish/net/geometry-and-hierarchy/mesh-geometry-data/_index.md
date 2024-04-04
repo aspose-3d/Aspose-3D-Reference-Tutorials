@@ -1,6 +1,6 @@
 ---
-title: 3B Sahnelerde Mesh Geometri Verileriyle Çalışma
-linktitle: 3B Sahnelerde Mesh Geometri Verileriyle Çalışma
+title: Mesh Geometri Verileriyle Çalışma
+linktitle: Mesh Geometri Verileriyle Çalışma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D grafik programlama sanatında ustalaşın. Çarpıcı 3D sahneleri zahmetsizce oluşturun, değiştirin ve kaydedin.
 type: docs
@@ -17,7 +17,7 @@ Bu 3D yolculuğa çıkmadan önce aşağıdaki önkoşulların mevcut olduğunda
 
 - C# ve .NET programlama konusunda çalışma bilgisi.
 - Makinenizde Visual Studio yüklü.
--  İndirebileceğiniz Aspose.3D for .NET kütüphanesi[Burada](https://releases.aspose.com/3d/net/).
+- İndirebileceğiniz Aspose.3D for .NET kütüphanesi[Burada](https://releases.aspose.com/3d/net/).
 
 Artık hazır olduğunuza göre, 3D grafik programlamanın büyüleyici dünyasına atlayalım!
 
@@ -95,7 +95,7 @@ foreach (Vector3 color in colors)
 // Belgeler dizininin yolu.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//3B sahneyi desteklenen dosya formatlarında kaydedin
+// 3B sahneyi desteklenen dosya formatlarında kaydedin
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

@@ -1,6 +1,6 @@
 ---
-title: تحويل العقدة بواسطة مصفوفة التحويل في مشاهد ثلاثية الأبعاد
-linktitle: تحويل العقدة بواسطة مصفوفة التحويل في مشاهد ثلاثية الأبعاد
+title: تحويل العقدة بواسطة مصفوفة التحويل
+linktitle: تحويل العقدة بواسطة مصفوفة التحويل
 second_title: Aspose.3D.NET API
 description: قم بتحويل العقد بسهولة في مشاهد ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. تعلم تحويلات العقدة خطوة بخطوة مع البرنامج التعليمي.
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 الآن بعد أن قمنا بتغطية الأساسيات، دعنا نقسم عملية التحويل إلى دليل خطوة بخطوة.
 
-## الخطوة 1: تهيئة المشهد والعقدة
+## الخطوة 1: تهيئة المشهد
 
 ```csharp
 // ExStart:AddTransformationToNodeByTransformationMatrix
 // تهيئة كائن المشهد
 Scene scene = new Scene();
 
-// تهيئة كائن فئة العقدة
-Node cubeNode = new Node("cube");
 ```
 
-في هذه الخطوة، نقوم بإنشاء مشهد ثلاثي الأبعاد جديد وعقدة تسمى "مكعب" داخل هذا المشهد.
+في هذه الخطوة، نقوم بإنشاء مشهد ثلاثي الأبعاد فارغ جديد.
 
-## الخطوة 2: إنشاء شبكة وتعيين الهندسة
+## الخطوة 2: إنشاء شبكة وإرفاقها بالمشهد
 
 ```csharp
 // استدعاء الفئة المشتركة لإنشاء شبكة باستخدام طريقة إنشاء المضلع لتعيين مثيل الشبكة
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// نقطة العقدة إلى هندسة الشبكة
-cubeNode.Entity = mesh;
+// قم بإنشاء عقدة حاوية للشبكة.
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 هنا، نقوم بإنشاء شبكة باستخدام طريقة إنشاء المضلعات وتخصيصها للعقدة، مما يؤدي إلى إنشاء الشكل الهندسي للمكعب الخاص بنا.
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 حدد مصفوفة ترجمة مخصصة لتحديد التحويل المحدد المطبق على العقدة. اضبط قيم المصفوفة حسب الحاجة للتحويل المطلوب.
 
-## الخطوة 4: إضافة عقدة إلى المشهد
-
-```csharp
-// إضافة مكعب إلى مكان الحادث
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 قم بتضمين عقدة المكعب في المشهد، مما يجعلها جزءًا من البيئة ثلاثية الأبعاد الشاملة.
 
-## الخطوة 5: احفظ المشهد
+## الخطوة 4: احفظ المشهد
 
 ```csharp
 // المسار إلى دليل المستندات.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
-scene.Save(output, FileFormat.FBX7500ASCII);
+// حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ A1: مصفوفة التحويل هي تمثيل رياضي يستخدم لتطب
 
 ### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D لـ .NET؟
 
- ج4: قم بزيارة[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/) على موقع Aspose للحصول على ترخيص مؤقت لأغراض التقييم.
+ ج4: قم بزيارة[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/)على موقع Aspose للحصول على ترخيص مؤقت لأغراض التقييم.
 
 ### س5: أين يمكنني طلب المساعدة أو التواصل مع مجتمع Aspose.3D؟
 
-ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لطرح الأسئلة ومشاركة الخبرات والتواصل مع المطورين الآخرين باستخدام Aspose.3D.
+ ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لطرح الأسئلة ومشاركة الخبرات والتواصل مع المطورين الآخرين باستخدام Aspose.3D.

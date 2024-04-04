@@ -1,6 +1,6 @@
 ---
-title: Carregar e Salvar - Criando um Documento 3D Vazio
-linktitle: Carregar e Salvar - Criando um Documento 3D Vazio
+title: Criando um documento 3D vazio
+linktitle: Criando um documento 3D vazio
 second_title: API Aspose.3D .NET
 description: Explore o mundo da criação de documentos 3D com Aspose.3D for .NET. Crie, edite e salve cenas 3D impressionantes sem esforço.
 type: docs
@@ -46,7 +46,7 @@ var output = "Your Output Directory" + "document.fbx";
 Scene scene = new Scene();
 
 // Salve o documento da cena 3D no formato FBX
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 
 // ExEnd:CriarEmpty3DDocument
 ```

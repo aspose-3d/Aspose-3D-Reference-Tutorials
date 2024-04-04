@@ -22,7 +22,8 @@ Java용 Aspose.3D에서 라이선스를 적용하는 방법에 대한 단계별 
 
 시작하려면 필요한 패키지를 Java 프로젝트로 가져옵니다. Aspose.3D가 클래스 경로에 추가되었는지 확인하세요. 예는 다음과 같습니다.
 
-```javaimport com.aspose.threed.License;
+```java
+import com.aspose.threed.License;
 import com.aspose.threed.Metered;
 
 import java.io.FileInputStream;

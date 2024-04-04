@@ -16,8 +16,8 @@ url: /hu/net/3d-scene/flip-coordinate-system/
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 
 - A C# programozási nyelv alapvető ismerete.
-- Aspose.3D for .NET könyvtár telepítve. Letöltheti innen[itt](https://releases.aspose.com/3d/net/).
-- 3D-mintafájl támogatott formátumban (pl. .3ds).
+-  Aspose.3D for .NET könyvtár telepítve. Letöltheti innen[itt](https://releases.aspose.com/3d/net/).
+- 3D-mintafájl támogatott formátumban (pl. .ma).
 
 ## Névterek importálása
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // A bemeneti fájl elérési útja
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // Jelenetobjektum inicializálása
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
  Ebben a lépésben egy 3D-s jelenetet töltünk be a megadott fájlútvonalról a`Open` módszer.
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
  Most használjuk a`Save` módszer a jelenet exportálására, a koordinátarendszer átfordítása közben. A kimenet Wavefront OBJ formátumban kerül mentésre.
@@ -60,7 +64,7 @@ scene.Save(output, FileFormat.WavefrontOBJ);
 Console.WriteLine("\nCoordinate system has been flipped successfully.\nFile saved at " + output);
 ```
 
-Végül megjelenítünk egy sikerüzenetet, amely jelzi, hogy a koordinátarendszer sikeresen meg lett fordítva, és megadjuk a mentett fájl elérési útját.
+Végül megjelenítünk egy sikerüzenetet, amely jelzi, hogy a koordinátarendszer sikeresen át lett fordítva, és megadjuk a mentett fájl elérési útját.
 
 ## Következtetés
 

@@ -1,6 +1,6 @@
 ---
-title: Nastavení normálů na krychli ve 3D scénách
-linktitle: Nastavení normálů na krychli ve 3D scénách
+title: Nastavení normálů na krychli
+linktitle: Nastavení normálů na krychli
 second_title: Aspose.3D .NET API
 description: Naučte se nastavit normály na 3D krychli pomocí Aspose.3D pro .NET. Vylepšete své dovednosti v oblasti 3D modelování pomocí tohoto podrobného průvodce.
 type: docs

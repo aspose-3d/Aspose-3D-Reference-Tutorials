@@ -19,7 +19,7 @@ Voordat we in de tutorial duiken, moet je ervoor zorgen dat je aan de volgende v
 
 2.  Aspose.3D-bibliotheek: Download en installeer de Aspose.3D-bibliotheek van de[download link](https://releases.aspose.com/3d/java/).
 
-3.  Documentatie: Raadpleeg de[documentatie](https://reference.aspose.com/3d/java/) voor Aspose.3D om vertrouwd te raken met de functies van de bibliotheek.
+3.  Documentatie: Raadpleeg de[documentatie](https://reference.aspose.com/3d/java/)voor Aspose.3D om vertrouwd te raken met de functies van de bibliotheek.
 
 4.  Tijdelijke licentie (optioneel): Als u geen licentie heeft, kunt u een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) om uit te proberen.
 
@@ -72,7 +72,7 @@ Sla de 3D-scène, inclusief het toegepaste PBR-materiaal, op in een specifiek be
 ```java
 // ExStart: Save3DSene
 scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
-// Uitbreiden: 3DSene opslaan
+//Uitbreiden: 3DScene opslaan
 ```
 
 Herhaal deze stappen voor complexere scènes of andere objecten.
@@ -91,7 +91,7 @@ Gefeliciteerd! U hebt met succes PBR-materialen toegepast op een 3D-object in Ja
 
  A2: Sluit je aan bij de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) voor steun en hulp van de gemeenschap.
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+### Vraag 3: Is er een gratis proefperiode beschikbaar?
 
  A3: Ja, u kunt een[gratis proefperiode](https://releases.aspose.com/) voordat u een aankoop doet.
 

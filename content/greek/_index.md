@@ -20,20 +20,13 @@ is_root: true
  
 - [3D Μοντελοποίηση](./net/3d-modeling/)
 - [3D σκηνή](./net/3d-scene/)
-- [Θύρες προβολής 3D](./net/3d-viewports/)
 - [Κινουμένων σχεδίων](./net/animation/)
-- [Πληροφορίες περιουσιακών στοιχείων](./net/asset-information/)
 - [Γεωμετρία και Ιεραρχία](./net/geometry-and-hierarchy/)
 - [Αδεια](./net/license/)
 - [Φόρτωση και αποθήκευση](./net/loading-and-saving/)
 - [Υλικά](./net/materials/)
-- [Πολύγωνα](./net/polygons/)
 - [Απόδοση](./net/rendering/)
-- [Γραμμική Εξώθηση](./net/linear-extrusion/)
-- [Αντικείμενα](./net/objects/)
-- [Εργασία με κύλινδρο](./net/working-with-cylinder/)
-- [Εργασία με το Point Cloud](./net/working-with-point-cloud/)
-- [Εργασία με VRML](./net/working-with-vrml/)
+- [Πλέγματα](./net/meshes/)
 
 ## Aspose.3D for Java Tutorials
 {{% alert color="primary" %}}

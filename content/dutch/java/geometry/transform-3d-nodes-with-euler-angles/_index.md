@@ -72,7 +72,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "TransformationToNode.fbx";
 
-//Sla 3D-scènes op in de ondersteunde bestandsformaten
+// Sla 3D-scènes op in de ondersteunde bestandsformaten
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
@@ -94,7 +94,7 @@ Gefeliciteerd! Je hebt met succes 3D-knooppunten getransformeerd met behulp van 
 
  A2: De[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) is de plek om hulp te zoeken en verbinding te maken met de gemeenschap.
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+### Vraag 3: Is er een gratis proefperiode beschikbaar?
 
  A3: Ja, u kunt de[gratis proefperiode](https://releases.aspose.com/) om de mogelijkheden van Aspose.3D te ervaren.
 

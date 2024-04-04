@@ -1,6 +1,6 @@
 ---
-title: Ställa in UV på kub i 3D-scener
-linktitle: Ställa in UV på kub i 3D-scener
+title: Installation av UV på Cube
+linktitle: Installation av UV på Cube
 second_title: Aspose.3D .NET API
 description: Lär dig att ställa in UV-kartläggning på en 3D-kub med Aspose.3D för .NET. Skapa visuellt fantastiska scener med exakt texturkartläggning.
 type: docs

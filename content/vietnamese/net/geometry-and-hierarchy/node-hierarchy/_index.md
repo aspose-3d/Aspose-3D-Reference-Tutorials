@@ -1,6 +1,6 @@
 ---
-title: Tìm hiểu hệ thống phân cấp nút trong cảnh 3D
-linktitle: Tìm hiểu hệ thống phân cấp nút trong cảnh 3D
+title: Hiểu hệ thống phân cấp nút
+linktitle: Hiểu hệ thống phân cấp nút
 second_title: API Aspose.3D .NET
 description: Khai phá sức mạnh của Aspose.3D cho .NET! Đi sâu vào thao tác phân cấp nút với hướng dẫn từng bước này. Tạo cảnh 3D tuyệt đẹp một cách dễ dàng.
 type: docs
@@ -17,7 +17,7 @@ Trước khi chúng ta bắt tay vào hành trình 3D này, hãy đảm bảo b�
 
 -  Aspose.3D for .NET Library: Đảm bảo rằng bạn đã tích hợp thư viện Aspose.3D vào dự án .NET của mình. Nếu bạn chưa làm điều này, hãy đến[tài liệu](https://reference.aspose.com/3d/net/) để được hướng dẫn.
 
--  Tải xuống Thư viện: Nếu bạn chưa tải xuống thư viện Aspose.3D, hãy lấy phiên bản mới nhất từ[Liên kết tải xuống](https://releases.aspose.com/3d/net/)và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+-  Tải xuống Thư viện: Nếu bạn chưa tải xuống thư viện Aspose.3D, hãy lấy phiên bản mới nhất từ[Liên kết tải xuống](https://releases.aspose.com/3d/net/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
 
 - Nhận giấy phép: Để mở khóa toàn bộ tiềm năng của Aspose.3D, bạn cần có giấy phép hợp lệ. Nếu bạn không có, bạn có thể lấy nó[đây](https://purchase.aspose.com/buy) hoặc chọn một[dùng thử miễn phí](https://releases.aspose.com/) để khám phá khả năng của nó.
 
@@ -79,7 +79,7 @@ cube2.Transform.Translation = new Vector3(10, 0, 0);
 
 Xác định các bản dịch cho từng nút khối, định vị chúng trong không gian 3D.
 
-## Bước 5: Áp dụng Xoay cho nút gốc
+## Bước 5: Áp dụng Xoay vòng cho Nút gốc
 
 ```csharp
 top.Transform.Rotation = Quaternion.FromEulerAngle(Math.PI, 4, 0);

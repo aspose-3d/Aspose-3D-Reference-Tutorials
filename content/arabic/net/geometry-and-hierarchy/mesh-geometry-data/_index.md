@@ -1,6 +1,6 @@
 ---
-title: العمل مع البيانات الهندسية الشبكية في المشاهد ثلاثية الأبعاد
-linktitle: العمل مع البيانات الهندسية الشبكية في المشاهد ثلاثية الأبعاد
+title: العمل مع بيانات هندسة الشبكة
+linktitle: العمل مع بيانات هندسة الشبكة
 second_title: Aspose.3D.NET API
 description: أتقن فن برمجة الرسومات ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. قم بإنشاء مشاهد ثلاثية الأبعاد مذهلة ومعالجتها وحفظها دون عناء.
 type: docs
@@ -17,7 +17,7 @@ url: /ar/net/geometry-and-hierarchy/mesh-geometry-data/
 
 - معرفة عملية ببرمجة C# و.NET.
 - تم تثبيت Visual Studio على جهازك.
--  Aspose.3D لمكتبة .NET، والتي يمكنك تنزيلها[هنا](https://releases.aspose.com/3d/net/).
+- Aspose.3D لمكتبة .NET، والتي يمكنك تنزيلها[هنا](https://releases.aspose.com/3d/net/).
 
 الآن بعد أن انتهيت من كل شيء، دعنا ننتقل إلى عالم برمجة الرسومات ثلاثية الأبعاد الرائع!
 
@@ -95,7 +95,7 @@ foreach (Vector3 color in colors)
 // المسار إلى دليل المستندات.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
+// حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

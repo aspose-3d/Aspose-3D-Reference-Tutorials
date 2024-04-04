@@ -60,7 +60,7 @@ String output = "render-to-file.png";
 
 ## Krok 4: Renderujte scénu
 
- Využijte`render` metoda transformace vaší 3D scény na soubor 2D obrázku. Podle potřeby upravte rozměry a výstupní formát.
+ Využijte`render` způsob transformace vaší 3D scény na 2D obrazový soubor. Podle potřeby upravte rozměry a výstupní formát.
 
 ```java
 scene.render(camera, output, new Dimension(1024, 1024), "png");

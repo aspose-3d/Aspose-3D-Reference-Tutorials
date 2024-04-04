@@ -9,7 +9,7 @@ url: /vi/java/rendering-3d-scenes/manual-render-targets/
 ---
 ## Giới thiệu
 
-Bạn đã sẵn sàng nâng đồ họa Java 3D của mình lên một tầm cao mới chưa? Aspose.3D cho Java là cửa ngõ để bạn khai thác toàn bộ tiềm năng của kết xuất tùy chỉnh. Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc kiểm soát mục tiêu hiển thị theo cách thủ công, cung cấp cho bạn các công cụ để tạo cảnh hấp dẫn về mặt hình ảnh phù hợp với thông số kỹ thuật của bạn.
+Bạn đã sẵn sàng nâng đồ họa Java 3D của mình lên một tầm cao mới chưa? Aspose.3D cho Java là cửa ngõ để bạn khai thác toàn bộ tiềm năng của kết xuất tùy chỉnh. Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc kiểm soát mục tiêu kết xuất theo cách thủ công, cung cấp cho bạn các công cụ để tạo cảnh hấp dẫn về mặt hình ảnh phù hợp với thông số kỹ thuật của bạn.
 
 ## Điều kiện tiên quyết
 

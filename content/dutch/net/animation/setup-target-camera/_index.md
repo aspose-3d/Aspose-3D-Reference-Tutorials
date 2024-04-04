@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## Stap 5: Sla de scène op
 
-Sla de geconfigureerde scène op in een opgegeven uitvoermap in het gewenste bestandsformaat, zoals .3ds.
+Sla de geconfigureerde scène op in een opgegeven uitvoermap in het gewenste bestandsformaat, zoals .fbx.
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## Conclusie
@@ -98,7 +98,7 @@ A2: Absoluut! Aspose.3D stelt ontwikkelaars in staat om met gemak 3D-middelen vo
 
 ### Vraag 4: Is er een gratis proefversie beschikbaar?
 
- A4: Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
+A4: Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
 
 ### Vraag 5: Hoe verkrijg ik een tijdelijke licentie?
 

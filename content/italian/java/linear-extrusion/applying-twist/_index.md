@@ -48,7 +48,7 @@ Inizializzare il profilo di base da estrudere. In questo esempio utilizziamo una
 // ExStart:InizializzaProfiloBase
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
-// ExEnd:InitializeBaseProfile
+// ExEnd:InizializzaBaseProfile
 ```
 
 ## Passaggio 3: crea una scena
@@ -91,7 +91,7 @@ Salva la scena 3D nel formato file Wavefront OBJ.
 ```java
 // ExStart:Salva scena 3DS
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-// ExEnd:Salva scena 3DS
+//ExEnd:Salva scena 3DS
 ```
 
 ## Conclusione

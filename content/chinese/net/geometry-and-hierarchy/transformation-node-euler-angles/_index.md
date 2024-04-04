@@ -1,6 +1,6 @@
 ---
-title: 在 3D 场景中通过欧拉角变换节点
-linktitle: 在 3D 场景中通过欧拉角变换节点
+title: 通过欧拉角变换节点
+linktitle: 通过欧拉角变换节点
 second_title: Aspose.3D .NET API
 description: 学习使用 Aspose.3D for .NET 轻松转换 3D 节点。请遵循我们的分步指南，让您的项目取得令人惊叹的结果。
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
 首先使用创建一个新的 3D 场景`Scene`班级。
 
-## 步骤2：初始化节点类对象
 
-```csharp
-//初始化Node类对象
-Node cubeNode = new Node("cube");
-```
-
-使用以下命令在场景中创建一个节点`Node`班级。该节点将用作 3D 对象的容器。
-
-## 第 3 步：使用多边形生成器创建网格
+## 第 2 步：使用原始 Box 创建网格
 
 ```csharp
 //调用 Common 类使用多边形生成器方法创建网格来设置网格实例
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
 调用一个方法（在本例中，`CreateMeshUsingPolygonBuilder`从一个习惯`Common`类）来生成 3D 对象的网格。
 
-## 第 4 步：将节点指向网格几何体
+## 步骤 3：为网格创建容器节点
 
 ```csharp
 //将节点指向网格几何体
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-将创建的网格与节点关联。
+使用以下命令在场景中创建一个节点`Node`班级。该节点将用作 3D 对象的容器。
 
-## 第 5 步：设置欧拉角和平移
+## 第 4 步：设置欧拉角和平移
 
 ```csharp
 //欧拉角
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 定义节点的欧拉角和平移以将其定位在 3D 空间中。
 
-## 第 6 步：将立方体添加到场景中
-
-```csharp
-//将立方体添加到场景中
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-将节点合并到场景的层次结构中。
-
-## 第 7 步：保存 3D 场景
+## 第 5 步：保存 3D 场景
 
 ```csharp
 //文档目录的路径。
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
 //以支持的文件格式保存 3D 场景
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 //ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ A2：是的，您可以组合并应用多种变换来实现复杂的效果。
 
 ### Q5：需要帮助或有具体问题吗？
 
-A5：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)以获得社区支持。
+ A5：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)以获得社区支持。

@@ -15,7 +15,7 @@ Aspose.3D for Java ile 3D modelleme deneyiminizi yükseltmeye hazır mısınız?
 
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
--  Java Geliştirme Kiti (JDK): Sisteminizde JDK'nın kurulu olduğundan emin olun. İndirebilirsin[Burada](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Geliştirme Kiti (JDK): Sisteminizde JDK'nın kurulu olduğundan emin olun. İndirebilirsin[Burada](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 -  Aspose.3D for Java: Aspose.3D for Java kütüphanesini şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/3d/java/).
 

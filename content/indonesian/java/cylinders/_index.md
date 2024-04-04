@@ -11,9 +11,9 @@ url: /id/java/cylinders/
 
 Apakah Anda siap untuk meningkatkan keterampilan pemodelan 3D Anda? Aspose.3D untuk Java membuka banyak sekali kemungkinan, dan dalam tutorial ini, kami akan memandu Anda melalui dunia menawan dalam membuat silinder khusus. Baik Anda seorang pengembang berpengalaman atau baru terjun ke dunia pemodelan 3D, tutorial ini akan meningkatkan keterampilan Anda dan menambahkan sentuhan keunikan pada proyek Anda.
 
-## Membuat Silinder Kipas Khusus dengan Aspose.3D untuk Java
+## Membuat Silinder Kipas yang Disesuaikan dengan Aspose.3D untuk Java
 
-### [Membuat Silinder Kipas Khusus dengan Aspose.3D untuk Java](./creating-fan-cylinders/)
+### [Membuat Silinder Kipas yang Disesuaikan dengan Aspose.3D untuk Java](./creating-fan-cylinders/)
 
 Jika Anda pernah bertanya-tanya bagaimana menghidupkan model 3D Anda dengan silinder kipas, tutorial ini adalah pintu gerbang Anda. Kami akan memandu Anda melalui proses langkah demi langkah, memastikan bahwa Anda tidak hanya memahami tetapi juga menguasai seni membuat silinder kipas khusus dengan mudah menggunakan Aspose.3D untuk Java. Dari dasar hingga teknik lanjutan, kami siap membantu Anda. Tingkatkan permainan pemodelan 3D Anda dan tinggalkan kesan mendalam pada audiens Anda.
 
@@ -31,7 +31,7 @@ Tingkatkan keterampilan pemodelan 3D Anda dengan silinder khusus yang dilengkapi
 
 Buka potensi penuh Aspose.3D untuk Java dan jadikan nama Anda di dunia pemodelan 3D. Selami tutorial ini, jelajahi tekniknya, dan saksikan kreasi Anda menjadi nyata dengan cara yang tidak pernah Anda bayangkan sebelumnya. Biarkan imajinasi Anda menjadi liar, dan biarkan Aspose.3D untuk Java menjadi teman tepercaya Anda dalam perjalanan kreativitas dan inovasi yang mengasyikkan ini.
 ## Bekerja dengan Silinder di Aspose.3D untuk Tutorial Java
-### [Membuat Silinder Kipas Khusus dengan Aspose.3D untuk Java](./creating-fan-cylinders/)
+### [Membuat Silinder Kipas yang Disesuaikan dengan Aspose.3D untuk Java](./creating-fan-cylinders/)
 Pelajari cara membuat silinder kipas khusus di Java dengan Aspose.3D. Tingkatkan permainan pemodelan 3D Anda dengan mudah.
 ### [Membuat Silinder dengan Offset Top di Aspose.3D untuk Java](./creating-cylinders-with-offset-top/)
 Jelajahi keajaiban pemodelan 3D di Java dengan Aspose.3D. Pelajari cara membuat silinder menawan dengan bagian atas offset dengan mudah.

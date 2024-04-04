@@ -20,7 +20,7 @@ Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymag
 
 ## Importuj pakiety
 
-swoim projekcie Java upewnij się, że zaimportowałeś niezbędne pakiety, aby wykorzystać funkcjonalności Aspose.3D:
+W swoim projekcie Java upewnij się, że zaimportowałeś niezbędne pakiety, aby wykorzystać funkcjonalności Aspose.3D:
 
 ```java
 import com.aspose.threed.*;
@@ -54,7 +54,7 @@ Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ## Krok 4: Znajdź właściwość tłumaczenia
 
 ```java
-// Znajdź właściwość tłumaczenia w obiekcie transformacji węzła
+//Znajdź właściwość tłumaczenia w obiekcie transformacji węzła
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
@@ -99,7 +99,7 @@ bindPoint.bindKeyframeSequence("Z", kfs);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "PropertyToDocument.fbx";
 
-//Zapisz scenę 3D w obsługiwanych formatach plików
+// Zapisz scenę 3D w obsługiwanych formatach plików
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
@@ -119,7 +119,7 @@ Gratulacje! Pomyślnie dodałeś właściwości animacji do swojej sceny 3D przy
 
 ### P3: Gdzie mogę znaleźć wsparcie dla Aspose.3D?
 
- A3: Dołącz do społeczności pod adresem[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) do pomocy.
+A3: Dołącz do społeczności pod adresem[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) do pomocy.
 
 ### P4: Jak mogę uzyskać licencję tymczasową?
 

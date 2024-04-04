@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## 4. lépés: Mutasson a csomópontot a hálóra
 
 ```java
-//Mutasson csomópontot a hálóra
+// Mutasson csomópontot a hálóra
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // Állítsa be a fájl nevét
 MyDir = MyDir + "MaterialToCube.fbx";
-//Mentse a 3D jelenetet a támogatott fájlformátumokba
+// Mentse a 3D jelenetet a támogatott fájlformátumokba
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

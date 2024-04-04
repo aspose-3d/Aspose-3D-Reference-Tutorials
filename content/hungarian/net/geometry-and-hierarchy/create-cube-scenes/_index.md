@@ -1,6 +1,6 @@
 ---
-title: Kockajelenetek készítése 3D-ben
-linktitle: Kockajelenetek készítése 3D-ben
+title: Kockajelenetek készítése
+linktitle: Kockajelenetek készítése
 second_title: Aspose.3D .NET API
 description: Az Aspose.3D for .NET segítségével könnyedén készíthet lenyűgöző 3D kockajeleneteket. Töltse le a könyvtárat, kövesse lépésről lépésre útmutatónkat, és engedje szabadjára.
 type: docs
@@ -87,7 +87,7 @@ Adja meg a kimeneti könyvtárat, és mentse a 3D jelenetet támogatott fájlfor
 // A dokumentumok könyvtárának elérési útja.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//Mentse a 3D jelenetet a támogatott fájlformátumokba
+// Mentse a 3D jelenetet a támogatott fájlformátumokba
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

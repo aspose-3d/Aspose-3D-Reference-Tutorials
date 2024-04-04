@@ -15,7 +15,7 @@ url: /ar/net/3d-modeling/primitive-3d-models/
 
 قبل أن نتعمق في عالم النمذجة ثلاثية الأبعاد الرائع، تأكد من توفر المتطلبات الأساسية التالية:
 
-- Aspose.3D for .NET: قم بتنزيل وتثبيت مكتبة Aspose.3D for .NET من[رابط التحميل](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET: قم بتنزيل وتثبيت مكتبة Aspose.3D for .NET من[رابط التحميل](https://releases.aspose.com/3d/net/).
 
 - بيئة التطوير: قم بإعداد بيئة تطوير .NET، مما يضمن التوافق مع Aspose.3D.
 

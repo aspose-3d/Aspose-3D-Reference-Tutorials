@@ -41,12 +41,24 @@ using System.Text;
 使用 Aspose.3D 加载 3D 文件。在此示例中，我们加载一个名为“test.fbx”的文件：
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## 第 2 步：定义自定义二进制格式
 
 定义要保存 3D 网格的自定义二进制格式的结构。该示例使用以 MeshBlock、Vertex 和 Triangle 作为组件的结构。
+
+```csharp
+//顶点的内存布局是
+//浮动[3]位置；
+//浮动[3]正常；
+//浮动[3]紫外线；
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## 第三步：打开文件进行写入
 
@@ -79,11 +91,30 @@ scene.RootNode.Accept(delegate(Node node)
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ...（继续写控制点和三角形索引）
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//网格的内存布局是：
+//浮动[16]变换矩阵；
+// int vertices_count；
+// int 索引计数；
+//顶点[vertices_count]个顶点；
+// ushort[indices_count] 索引；
+
+
+//写变换
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//写入顶点/索引的数量
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//写入顶点和索引
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## 结论

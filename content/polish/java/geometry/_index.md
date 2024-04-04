@@ -20,7 +20,7 @@ Zanurz się w świecie renderowania opartego na fizyce (PBR) dzięki Aspose.3D. 
 
 ## Utwórz scenę kostki 3D w Javie za pomocą Aspose.3D
 
- Zagłęb się w cuda grafiki sześcianów 3D dzięki Aspose.3D dla Java. Ten samouczek umożliwia łatwe tworzenie oszałamiających scen 3D. Uwolnij swoją kreatywność i odkryj nieograniczone możliwości.[Czytaj więcej](./create-3d-cube-scene/)
+ Zagłęb się w cuda grafiki scen sześcianów 3D dzięki Aspose.3D dla Java. Ten samouczek umożliwia łatwe tworzenie oszałamiających scen 3D. Uwolnij swoją kreatywność i odkryj nieograniczone możliwości.[Czytaj więcej](./create-3d-cube-scene/)
 
 ## Ujawnij transformacje geometryczne w Javie 3D za pomocą Aspose.3D
 

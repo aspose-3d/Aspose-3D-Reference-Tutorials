@@ -1,6 +1,6 @@
 ---
-title: Работа с данными геометрии сетки в 3D-сценах
-linktitle: Работа с данными геометрии сетки в 3D-сценах
+title: Работа с данными геометрии сетки
+linktitle: Работа с данными геометрии сетки
 second_title: Aspose.3D .NET API
 description: Овладейте искусством программирования 3D-графики с помощью Aspose.3D для .NET. Создавайте, манипулируйте и сохраняйте потрясающие 3D-сцены без особых усилий.
 type: docs
@@ -17,7 +17,7 @@ url: /ru/net/geometry-and-hierarchy/mesh-geometry-data/
 
 - Практические знания программирования на C# и .NET.
 - Visual Studio установлена на вашем компьютере.
--  Библиотека Aspose.3D для .NET, которую вы можете скачать[здесь](https://releases.aspose.com/3d/net/).
+- Библиотека Aspose.3D для .NET, которую вы можете скачать[здесь](https://releases.aspose.com/3d/net/).
 
 Теперь, когда все готово, давайте окунемся в увлекательный мир программирования 3D-графики!
 
@@ -95,7 +95,7 @@ foreach (Vector3 color in colors)
 // Путь к каталогу документов.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//Сохранение 3D-сцены в поддерживаемых форматах файлов.
+// Сохранение 3D-сцены в поддерживаемых форматах файлов.
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

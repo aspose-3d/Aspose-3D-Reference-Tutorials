@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## الخطوة 2: إنشاء تسلسل هرمي للعقد
 
 ```java
-// ExStart: إنشاء التسلسل الهرمي
+//ExStart: إنشاء التسلسل الهرمي
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

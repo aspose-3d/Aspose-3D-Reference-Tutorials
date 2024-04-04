@@ -13,7 +13,7 @@ Witamy w ekscytującym świecie grafiki 3D z Aspose.3D dla .NET! W tym komplekso
 Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 - Podstawowa znajomość programowania w C# i .NET.
 - Program Visual Studio zainstalowany na Twoim komputerze.
--  Biblioteka Aspose.3D dla .NET, którą możesz pobrać[Tutaj](https://releases.aspose.com/3d/net/).
+- Biblioteka Aspose.3D dla .NET, którą możesz pobrać[Tutaj](https://releases.aspose.com/3d/net/).
 - Znajomość koncepcji grafiki 3D i tworzenia scen.
 ## Importuj przestrzenie nazw
 Zacznij od zaimportowania niezbędnych przestrzeni nazw do swojego projektu. Te przestrzenie nazw zapewnią Ci narzędzia i funkcjonalności wymagane do manipulacji grafiką 3D.
@@ -44,7 +44,7 @@ Teraz dodajmy trochę wizualnego akcentu do Twojej sceny, osadzając teksturę. 
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    // Nazwa pliku jest wymagana, jeśli używana jest osadzona tekstura.
+    //Nazwa pliku jest wymagana, jeśli używana jest osadzona tekstura.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

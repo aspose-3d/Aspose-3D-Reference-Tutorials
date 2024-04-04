@@ -1,6 +1,6 @@
 ---
-title: Aplikace materiálu PBR na box ve 3D scénách
-linktitle: Aplikace materiálu PBR na box ve 3D scénách
+title: Aplikace materiálu PBR na krabici
+linktitle: Aplikace materiálu PBR na krabici
 second_title: Aspose.3D .NET API
 description: Prozkoumejte svět 3D grafiky s Aspose.3D pro .NET. Vytvářejte pohlcující scény bez námahy pomocí fyzicky založených renderovacích materiálů.
 type: docs
@@ -21,7 +21,7 @@ Než se ponoříme do vzrušujícího světa 3D grafiky, ujistěte se, že máte
 
 ### Získejte licenci
 
- Chcete-li odemknout plný potenciál Aspose.3D, získejte platnou licenci. Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) nebo zakoupit plnou licenci[tady](https://purchase.aspose.com/buy).
+Chcete-li odemknout plný potenciál Aspose.3D, získejte platnou licenci. Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) nebo zakoupit plnou licenci[tady](https://purchase.aspose.com/buy).
 
 ## Importovat jmenné prostory
 
@@ -104,7 +104,7 @@ A2: Rozhodně! Aspose.3D poskytuje komerční licence pro bezproblémovou integr
 
 ### Q3: Je k dispozici zkušební verze?
 
-A3: Ano, můžete prozkoumat možnosti Aspose.3D stažením bezplatné zkušební verze[tady](https://releases.aspose.com/).
+ A3: Ano, můžete prozkoumat možnosti Aspose.3D stažením bezplatné zkušební verze[tady](https://releases.aspose.com/).
 
 ### Q4: Kde najdu podporu komunity a diskuse?
 

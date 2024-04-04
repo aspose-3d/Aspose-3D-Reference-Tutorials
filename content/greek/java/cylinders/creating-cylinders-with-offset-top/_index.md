@@ -16,7 +16,7 @@ url: /el/java/cylinders/creating-cylinders-with-offset-top/
 Πριν ξεκινήσουμε αυτό το δημιουργικό ταξίδι, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 
 - Java Development Kit (JDK): Το Aspose.3D for Java απαιτεί ένα συμβατό JDK εγκατεστημένο στον υπολογιστή σας.
-- Aspose.3D Library: Κατεβάστε και ενσωματώστε τη βιβλιοθήκη Aspose.3D στο έργο σας Java. Μπορείτε να βρείτε τη βιβλιοθήκη και λεπτομερή τεκμηρίωση[εδώ](https://releases.aspose.com/3d/java/).
+-  Aspose.3D Library: Κατεβάστε και ενσωματώστε τη βιβλιοθήκη Aspose.3D στο έργο σας Java. Μπορείτε να βρείτε τη βιβλιοθήκη και λεπτομερή τεκμηρίωση[εδώ](https://releases.aspose.com/3d/java/).
 
 ## Εισαγωγή πακέτων
 
@@ -67,13 +67,13 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 // ExEnd: 3
 ```
 
-## Βήμα 4: Αρχικοποιήστε τον δεύτερο κύλινδρο
+## Βήμα 4: Εκκίνηση του δεύτερου κυλίνδρου
 
 Ας αρχικοποιήσουμε έναν δεύτερο κύλινδρο χωρίς προσαρμοσμένη οροφή μετατόπισης:
 
 ```java
 // ExStart: 4
-//Αρχικοποιήστε τον δεύτερο κύλινδρο χωρίς προσαρμοσμένο OffsetTop
+// Αρχικοποιήστε τον δεύτερο κύλινδρο χωρίς προσαρμοσμένο OffsetTop
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExEnd: 4
 ```
@@ -95,7 +95,7 @@ scene.getRootNode().createChildNode(cylinder2);
 
 ```java
 // ExStart: 6
-// Αποθηκεύσετε
+//Αποθηκεύσετε
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // Παράταση: 6
 ```
@@ -118,7 +118,7 @@ A1: Ναι, το Aspose.3D ενσωματώνεται απρόσκοπτα με 
 
 ### Ε3: Υπάρχουν διαθέσιμες επιλογές αδειοδότησης για το Aspose.3D;
 
- A3: Ναι, μπορείτε να εξερευνήσετε και να επιλέξετε την επιλογή αδειοδότησης που ταιριάζει στις ανάγκες σας[εδώ](https://purchase.aspose.com/buy).
+A3: Ναι, μπορείτε να εξερευνήσετε και να επιλέξετε την επιλογή αδειοδότησης που ταιριάζει στις ανάγκες σας[εδώ](https://purchase.aspose.com/buy).
 
 ### Ε4: Πώς μπορώ να ζητήσω βοήθεια ή να μοιραστώ τις εμπειρίες μου με το Aspose.3D;
 

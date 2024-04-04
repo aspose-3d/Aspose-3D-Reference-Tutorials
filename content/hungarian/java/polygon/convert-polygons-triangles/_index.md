@@ -91,4 +91,4 @@ Gratulálunk! Sikeresen konvertálta a sokszögeket háromszögekké, javítva e
 
 ### 5. kérdés: Elérhető ideiglenes licenc lehetőség az Aspose.3D for Java számára?
 
- A5: Igen, fedezze fel a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) lehetőség rövid távú használatra.
+ V5: Igen, fedezze fel a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) lehetőség rövid távú használatra.

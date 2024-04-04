@@ -1,6 +1,6 @@
 ---
-title: 3D 장면의 큐브에 재질 적용
-linktitle: 3D 장면의 큐브에 재질 적용
+title: 큐브에 재료 적용
+linktitle: 큐브에 재료 적용
 second_title: Aspose.3D .NET API
 description: 원활한 3D 그래픽 조작을 위한 게이트웨이인 .NET용 Aspose.3D를 살펴보세요. 손쉽게 재료를 적용하고 현실감을 높이며 프로젝트를 향상시켜 보세요.
 type: docs
@@ -42,17 +42,12 @@ using System.IO;
 // 장면 객체 초기화
 Scene scene = new Scene();
 
-// 큐브 노드 객체 초기화
-Node cubeNode = new Node("cube");
+// 상자 인스턴스를 만듭니다.
+var box = new Box();
 
-// Common 클래스를 호출하여 폴리곤 빌더 방법을 사용하여 메쉬를 생성하여 메쉬 인스턴스를 설정합니다.
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+// 상자 인스턴스를 장면에 연결
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//노드를 메쉬로 가리킵니다.
-cubeNode.Entity = mesh;
-
-// 장면에 큐브 추가
-scene.RootNode.ChildNodes.Add(cubeNode);
 // ExEnd:InitializeSceneAndCube
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 // 텍스처의 로컬 파일 경로 설정
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 // 재료의 질감 설정
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,8 +77,8 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 // 바이너리 콘텐츠 설정
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-//ExEnd:EmbedRawContentData
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
+// ExEnd:EmbedRawContentData
 ```
 
 ## 4단계: 재료 속성 설정
@@ -105,11 +100,11 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart:Save3DScene
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
-//지원되는 파일 형식으로 3D 장면 저장
-scene.Save(output, FileFormat.FBX7400ASCII);
-// 확장:Save3DScene
+// 지원되는 파일 형식으로 3D 장면 저장
+scene.Save(output);
+//확장:Save3DScene
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
 ```
@@ -140,4 +135,4 @@ A3: 예, Aspose.3D는 3D 장면에서 애니메이션을 생성하고 조작하�
 
 ### Q5: 문제나 쿼리에 대한 지원을 어떻게 받을 수 있나요?
 
-A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역사회와 연결하고 도움을 구합니다.
+ A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역사회와 연결하고 도움을 구합니다.

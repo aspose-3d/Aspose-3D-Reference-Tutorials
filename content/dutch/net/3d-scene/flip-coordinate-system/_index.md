@@ -16,8 +16,8 @@ Welkom bij deze stapsgewijze handleiding over het omdraaien van het coördinaten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 - Basiskennis van de programmeertaal C#.
-- Aspose.3D voor .NET-bibliotheek geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/3d/net/).
-- Een voorbeeld van een 3D-bestand in een ondersteund formaat (bijvoorbeeld .3ds).
+-  Aspose.3D voor .NET-bibliotheek geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/3d/net/).
+- Een voorbeeld van een 3D-bestand in een ondersteund formaat (bijvoorbeeld .ma).
 
 ## Naamruimten importeren
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // Het pad naar het invoerbestand
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // Initialiseer scèneobject
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
  In deze stap laden we een 3D-scène vanuit het opgegeven bestandspad met behulp van de`Open` methode.
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
  Nu gebruiken wij de`Save` methode om de scène te exporteren, waarbij het coördinatensysteem wordt omgedraaid. De uitvoer wordt opgeslagen in het Wavefront OBJ-formaat.

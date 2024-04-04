@@ -1,6 +1,6 @@
 ---
-title: تحويل العقدة بواسطة زوايا أويلر في مشاهد ثلاثية الأبعاد
-linktitle: تحويل العقدة بواسطة زوايا أويلر في مشاهد ثلاثية الأبعاد
+title: تحويل العقدة بواسطة زوايا أويلر
+linktitle: تحويل العقدة بواسطة زوايا أويلر
 second_title: Aspose.3D.NET API
 description: تعلم كيفية تحويل العقد ثلاثية الأبعاد بسهولة باستخدام Aspose.3D لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على نتائج مذهلة في مشاريعك.
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
  ابدأ بإنشاء مشهد ثلاثي الأبعاد جديد باستخدام`Scene` فصل.
 
-## الخطوة 2: تهيئة كائن فئة العقدة
 
-```csharp
-// تهيئة كائن فئة العقدة
-Node cubeNode = new Node("cube");
-```
-
- قم بإنشاء عقدة داخل المشهد باستخدام`Node`فصل. ستكون هذه العقدة بمثابة حاوية لكائننا ثلاثي الأبعاد.
-
-## الخطوة 3: إنشاء شبكة باستخدام Polygon Builder
+## الخطوة 2: إنشاء شبكة باستخدام الصندوق البدائي
 
 ```csharp
 // استدعاء الفئة المشتركة لإنشاء شبكة باستخدام طريقة إنشاء المضلع لتعيين مثيل الشبكة
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
- استدعاء طريقة (في هذه الحالة،`CreateMeshUsingPolygonBuilder` من العرف`Common` class) لإنشاء شبكة للكائن ثلاثي الأبعاد.
+ استدعاء طريقة (في هذه الحالة،`CreateMeshUsingPolygonBuilder` من العرف`Common`class) لإنشاء شبكة للكائن ثلاثي الأبعاد.
 
-## الخطوة 4: أشر العقدة إلى هندسة الشبكة
+## الخطوة 3: إنشاء عقدة حاوية للشبكة
 
 ```csharp
 // نقطة العقدة إلى هندسة الشبكة
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-قم بربط الشبكة التي تم إنشاؤها بالعقدة.
+ قم بإنشاء عقدة داخل المشهد باستخدام`Node` فصل. ستكون هذه العقدة بمثابة حاوية لكائننا ثلاثي الأبعاد.
 
-## الخطوة 5: ضبط زوايا أويلر والترجمة
+## الخطوة 4: ضبط زوايا أويلر والترجمة
 
 ```csharp
 // زوايا أويلر
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 حدد زوايا أويلر وترجمتها للعقدة لوضعها في الفضاء ثلاثي الأبعاد.
 
-## الخطوة 6: إضافة المكعب إلى المشهد
-
-```csharp
-// إضافة مكعب إلى مكان الحادث
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-قم بدمج العقدة في التسلسل الهرمي للمشهد.
-
-## الخطوة 7: احفظ المشهد ثلاثي الأبعاد
+## الخطوة 5: احفظ المشهد ثلاثي الأبعاد
 
 ```csharp
 // المسار إلى دليل المستندات.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
-scene.Save(output, FileFormat.FBX7500ASCII);
+// حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة محددة؟
 
-ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لدعم المجتمع.
+ ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لدعم المجتمع.

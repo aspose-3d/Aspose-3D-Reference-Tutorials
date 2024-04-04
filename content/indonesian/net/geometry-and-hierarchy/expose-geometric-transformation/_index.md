@@ -1,6 +1,6 @@
 ---
-title: Mengekspos Transformasi Geometris dalam Pemandangan 3D
-linktitle: Mengekspos Transformasi Geometris dalam Pemandangan 3D
+title: Mengekspos Transformasi Geometris
+linktitle: Mengekspos Transformasi Geometris
 second_title: Aspose.3D .NET API
 description: Jelajahi kemungkinan tak terbatas dari grafik 3D di .NET dengan Aspose.3D. Temukan transformasi geometris dengan mudah.
 type: docs

@@ -9,14 +9,14 @@ url: /cs/java/cylinders/creating-cylinders-with-offset-top/
 ---
 ## Úvod
 
-V oblasti 3D modelování založeného na Javě vyniká Aspose.3D jako výkonný nástroj, který vývojářům nabízí možnost snadno vytvářet složité 3D scény. V tomto tutoriálu se ponoříme do fascinujícího světa Aspose.3D pro Java a zaměříme se na konkrétní úkol – vytváření válců s odsazenými vršky. Na konci této příručky budete mít pevný přehled o procesu, který vám umožní bezproblémově integrovat tuto funkci do vašich 3D projektů.
+oblasti 3D modelování založeného na Javě vyniká Aspose.3D jako výkonný nástroj, který vývojářům nabízí možnost snadno vytvářet složité 3D scény. V tomto tutoriálu se ponoříme do fascinujícího světa Aspose.3D pro Java a zaměříme se na konkrétní úkol – vytváření válců s odsazenými vrcholy. Na konci této příručky budete mít pevný přehled o procesu, který vám umožní bezproblémově integrovat tuto funkci do vašich 3D projektů.
 
 ## Předpoklady
 
 Než se pustíme do této kreativní cesty, ujistěte se, že máte splněny následující předpoklady:
 
 - Java Development Kit (JDK): Aspose.3D for Java vyžaduje na vašem počítači nainstalovaný kompatibilní JDK.
-- Knihovna Aspose.3D: Stáhněte si a integrujte knihovnu Aspose.3D do svého projektu Java. Najdete zde knihovnu a podrobnou dokumentaci[tady](https://releases.aspose.com/3d/java/).
+-  Knihovna Aspose.3D: Stáhněte si a integrujte knihovnu Aspose.3D do svého projektu Java. Najdete zde knihovnu a podrobnou dokumentaci[tady](https://releases.aspose.com/3d/java/).
 
 ## Importujte balíčky
 
@@ -73,7 +73,7 @@ Pojďme inicializovat druhý válec bez přizpůsobeného ofsetového vrcholu:
 
 ```java
 // Start: 4
-//Inicializujte druhý válec bez přizpůsobeného OffsetTop
+// Inicializujte druhý válec bez přizpůsobeného OffsetTop
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // Rozšíření:4
 ```
@@ -95,7 +95,7 @@ Nakonec uložte scénu s vytvořenými cylindry jako soubor Wavefront OBJ do adr
 
 ```java
 // Start: 6
-// Uložit
+//Uložit
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // Konec:6
 ```
@@ -118,7 +118,7 @@ A2: Rozhodně! Aspose.3D poskytuje rozsáhlé možnosti pro aplikaci textur a ma
 
 ### Q3: Jsou pro Aspose.3D k dispozici nějaké možnosti licencování?
 
- A3: Ano, můžete prozkoumat a vybrat možnost licencování, která vyhovuje vašim potřebám[tady](https://purchase.aspose.com/buy).
+A3: Ano, můžete prozkoumat a vybrat možnost licencování, která vyhovuje vašim potřebám[tady](https://purchase.aspose.com/buy).
 
 ### Q4: Jak mohu vyhledat pomoc nebo sdílet své zkušenosti s Aspose.3D?
 

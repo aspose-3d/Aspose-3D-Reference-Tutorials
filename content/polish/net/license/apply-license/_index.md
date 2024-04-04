@@ -13,7 +13,7 @@ Czy jesteś gotowy, aby odblokować pełny potencjał Aspose.3D dla .NET? Zastos
 
 ## Warunki wstępne
 
-Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące elementy:
+Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące informacje:
 
 - Podstawowa znajomość Aspose.3D dla .NET.
 - Biblioteka Aspose.3D zainstalowana w projekcie .NET.

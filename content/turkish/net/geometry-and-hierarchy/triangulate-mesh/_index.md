@@ -1,6 +1,6 @@
 ---
-title: 3D Sahnelerde Meshin Üçgenleştirilmesi
-linktitle: 3D Sahnelerde Meshin Üçgenleştirilmesi
+title: Üçgenleme Mesh
+linktitle: Üçgenleme Mesh
 second_title: Aspose.3D .NET API'si
 description: Bu adım adım kılavuzla Aspose.3D for .NET'in gücünü keşfedin. Gelişmiş modelleme için 3D ağları zahmetsizce nasıl üçgenleştireceğinizi öğrenin.
 type: docs
@@ -17,7 +17,7 @@ Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden e
 
 - Aspose.3D for .NET Library: Aspose.3D kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/3d/net/).
 
-- Örnek 3D Model: Üçgen oluşturmak istediğiniz FBX formatında bir 3D modele sahip olun. Sağlananları kullanabilirsiniz[belge.fbx](https://reference.aspose.com/3d/net/) pratik için dosya.
+-  Örnek 3D Model: Üçgen oluşturmak istediğiniz FBX formatında bir 3D modele sahip olun. Sağlananları kullanabilirsiniz[belge.fbx](https://reference.aspose.com/3d/net/) pratik için dosya.
 
 ## Ad Alanlarını İçe Aktar
 

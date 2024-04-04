@@ -35,7 +35,7 @@ using Aspose.ThreeD.Utilities;
 
 ## 1. lépés: Inicializálja a jelenetobjektumot
 
-Kezdje a jelenet objektum inicializálásával. Ez szolgál a vászonként, ahol a 3D animáció életre kel.
+Kezdje a jelenet objektum inicializálásával. Ez a vászon, ahol a 3D animáció életre kel.
 
 ```csharp
 // ExStart:SetupTargetAndCamera
@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## 5. lépés: Mentse el a jelenetet
 
-Mentse a konfigurált jelenetet egy megadott kimeneti könyvtárba a kívánt fájlformátumban, például .3ds.
+Mentse a konfigurált jelenetet egy megadott kimeneti könyvtárba a kívánt fájlformátumban, például .fbx.
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## Következtetés
@@ -98,7 +98,7 @@ A2: Abszolút! Az Aspose.3D segítségével a fejlesztők könnyedén hozhatnak 
 
 ### 4. kérdés: Van ingyenes próbaverzió?
 
- 4. válasz: Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
+4. válasz: Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
 

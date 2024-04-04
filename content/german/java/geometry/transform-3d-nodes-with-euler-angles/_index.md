@@ -21,7 +21,7 @@ Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden 
 
 ## Pakete importieren
 
- Beginnen Sie mit dem Importieren der erforderlichen Pakete in Ihr Java-Projekt. Stellen Sie sicher, dass die Aspose.3D-Bibliothek korrekt zu Ihrem Klassenpfad hinzugefügt wurde. Wenn Sie es noch nicht heruntergeladen haben, finden Sie hier den Download-Link[Hier](https://releases.aspose.com/3d/java/).
+ Beginnen Sie mit dem Importieren der erforderlichen Pakete in Ihr Java-Projekt. Stellen Sie sicher, dass die Aspose.3D-Bibliothek korrekt zu Ihrem Klassenpfad hinzugefügt wird. Wenn Sie es noch nicht heruntergeladen haben, finden Sie hier den Download-Link[Hier](https://releases.aspose.com/3d/java/).
 
 ```java
 import com.aspose.threed.*;
@@ -72,7 +72,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "TransformationToNode.fbx";
 
-//Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
+// Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);

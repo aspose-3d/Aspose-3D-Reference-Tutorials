@@ -70,7 +70,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "CubeScene.fbx";
 
-//समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
+// समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
@@ -90,7 +90,7 @@ System.out.println("\nCube Scene created successfully.\nFile saved at " + MyDir)
 
  A1: हाँ, आप कर सकते हैं। जाँचें[खरीद पृष्ठ](https://purchase.aspose.com/buy) लाइसेंसिंग विवरण के लिए.
 
-### Q2: मैं Aspose.3D के लिए समर्थन कैसे प्राप्त कर सकता हूँ?
+### Q2: मैं Aspose.3D के लिए समर्थन कैसे प्राप्त कर सकता हूं?
 
  A2: पर जाएँ[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) सामुदायिक समर्थन के लिए.
 

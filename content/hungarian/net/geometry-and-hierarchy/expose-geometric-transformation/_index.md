@@ -1,6 +1,6 @@
 ---
-title: Geometriai transzformáció feltárása 3D-s jelenetekben
-linktitle: Geometriai transzformáció feltárása 3D-s jelenetekben
+title: Geometriai transzformáció feltárása
+linktitle: Geometriai transzformáció feltárása
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D grafika korlátlan lehetőségeit a .NET-ben az Aspose.3D segítségével. Fedezze fel a geometriai transzformációkat könnyedén.
 type: docs
@@ -29,7 +29,7 @@ Frissítse tudását az alapvető 3D-s fogalmakról, beleértve a csomópontokat
 
 ## Névterek importálása
 
-.NET-projektben importálja a szükséges névtereket, hogy elindítsa az Aspose.3D-vel való utazását.
+A .NET-projektben importálja a szükséges névtereket, hogy elindítsa az Aspose.3D-vel való utazását.
 
 ```csharp
 using Aspose.ThreeD;

@@ -1,6 +1,6 @@
 ---
-title: Mengubah Node dengan Matriks Transformasi dalam Adegan 3D
-linktitle: Mengubah Node dengan Matriks Transformasi dalam Adegan 3D
+title: Transformasi Node dengan Matriks Transformasi
+linktitle: Transformasi Node dengan Matriks Transformasi
 second_title: Aspose.3D .NET API
 description: Transformasikan node dengan mudah dalam adegan 3D menggunakan Aspose.3D untuk .NET. Pelajari transformasi node langkah demi langkah dengan tutorial.
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 Sekarang setelah kita membahas dasar-dasarnya, mari kita uraikan proses transformasi menjadi panduan langkah demi langkah.
 
-## Langkah 1: Inisialisasi Scene dan Node
+## Langkah 1: Inisialisasi Adegan
 
 ```csharp
 // ExStart:TambahkanTransformasiToNodeByTransformationMatrix
 // Inisialisasi objek adegan
 Scene scene = new Scene();
 
-// Inisialisasi objek kelas Node
-Node cubeNode = new Node("cube");
 ```
 
-Pada langkah ini, kita membuat adegan 3D baru dan sebuah node bernama "kubus" di dalam adegan itu.
+Pada langkah ini, kita membuat adegan 3D kosong baru.
 
-## Langkah 2: Buat Mesh dan Atur Geometri
+## Langkah 2: Buat Mesh dan Lampirkan Ke Adegan
 
 ```csharp
 // Panggil kelas Common membuat mesh menggunakan metode pembuat poligon untuk menyetel instance mesh
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// Arahkan simpul ke geometri Mesh
-cubeNode.Entity = mesh;
+// Buat node kontainer untuk mesh.
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 Di sini, kita membuat mesh menggunakan metode pembuat poligon dan menetapkannya ke node, sehingga membentuk geometri untuk kubus kita.
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 Tentukan matriks terjemahan khusus untuk menentukan transformasi spesifik yang diterapkan pada node. Sesuaikan nilai matriks sesuai kebutuhan untuk transformasi yang Anda inginkan.
 
-## Langkah 4: Tambahkan Node ke Adegan
-
-```csharp
-// Tambahkan kubus ke tempat kejadian
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 Sertakan node kubus dalam adegan, menjadikannya bagian dari keseluruhan lingkungan 3D.
 
-## Langkah 5: Simpan Adegan
+## Langkah 4: Simpan Adegan
 
 ```csharp
 // Jalur ke direktori dokumen.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Simpan adegan 3D dalam format file yang didukung
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Simpan adegan 3D dalam format file yang didukung
+scene.Save(output);
 // ExEnd:TambahkanTransformasiToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ A2: Ya, Anda dapat menggabungkan beberapa transformasi dengan mengalikan matriks
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara Aspose.3D untuk .NET?
 
- A4: Kunjungi[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/) di situs web Aspose untuk mendapatkan lisensi sementara untuk tujuan evaluasi.
+ A4: Kunjungi[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/)di situs web Aspose untuk mendapatkan lisensi sementara untuk tujuan evaluasi.
 
 ### Q5: Di mana saya bisa mencari bantuan atau terhubung dengan komunitas Aspose.3D?
 
-A5: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk mengajukan pertanyaan, berbagi pengalaman, dan terhubung dengan pengembang lain menggunakan Aspose.3D.
+ A5: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk mengajukan pertanyaan, berbagi pengalaman, dan terhubung dengan pengembang lain menggunakan Aspose.3D.

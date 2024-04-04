@@ -9,7 +9,7 @@ url: /hu/net/license/apply-license/
 ---
 ## Bevezetés
 
-Készen áll az Aspose.3D teljes potenciáljának kiaknázására a .NET számára? A licenc alkalmazása kulcsfontosságú a fejlett funkciók eléréséhez és a zökkenőmentes integrációhoz. Ebben a lépésről-lépésre szóló útmutatóban végigvezetjük Önt a licenc igénylésének különböző módszerein, így biztosítva az Aspose.3D alkalmazás zökkenőmentes beállítási folyamatát.
+Készen áll az Aspose.3D teljes potenciáljának kiaknázására a .NET számára? A licenc alkalmazása kulcsfontosságú a fejlett funkciók eléréséhez és a zökkenőmentes integrációhoz. Ebben a lépésenkénti útmutatóban végigvezetjük Önt a licencigénylés különböző módszerein, biztosítva ezzel az Aspose.3D alkalmazás zökkenőmentes beállítási folyamatát.
 
 ## Előfeltételek
 

@@ -32,7 +32,7 @@ import java.io.IOException;
 Silindirlerinizi ekleyeceğiniz ve değiştireceğiniz bir 3B sahne oluşturarak başlayın:
 ```java
 // ExStart:3
-// Bir sahne yarat
+// Bir sahne oluştur
 Scene scene = new Scene();
 // ExEnd:3
 ```
@@ -45,7 +45,7 @@ Scene scene = new Scene();
 // Silindir 1'i oluştur
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // Silindir 1 için özelleştirilmiş kesme tabanı
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // Xy düzleminde (z ekseni) 47,5 derecelik kayma
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //Xy düzleminde (z ekseni) 47,5 derecelik kayma
 // 1. silindiri olay yerine ekleyin
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // ExBitiş:4
@@ -85,7 +85,7 @@ Bu eğitimde, 3D modelleme projelerinizi geliştirmek için Aspose.3D for Java'd
 
 Cevap1: Aspose.3D for Java bağımsız çalışacak şekilde tasarlanmıştır. Onu diğer kitaplıklarla entegre edebilseniz de, çoğu 3D modelleme görevini tek başına gerçekleştirebilecek kadar güçlüdür.
 
-### S2: Aspose.3D, 3D modellemeye yeni başlayanlar için uygun mudur?
+### S2: Aspose.3D, 3D modellemeye yeni başlayanlar için uygun mu?
 
 Cevap2: Evet, Aspose.3D, kullanıcı dostu bir API sunarak 3D modellemede hem yeni başlayanlar hem de deneyimli geliştiriciler için uygun hale getiriyor.
 

@@ -27,7 +27,7 @@ Rozpocznij od zaimportowania niezbędnych pakietów do projektu Java. Ten krok j
 import com.aspose.threed.*;
 ```
 
-Teraz, gdy już wszystko skonfigurowałeś, przejdźmy do sedna tego samouczka – budowania prymitywnych modeli 3D.
+Teraz, gdy już wszystko skonfigurowałeś, przejdźmy do sedna tego samouczka – tworzenia prymitywnych modeli 3D.
 
 ## Tworzenie sceny
 

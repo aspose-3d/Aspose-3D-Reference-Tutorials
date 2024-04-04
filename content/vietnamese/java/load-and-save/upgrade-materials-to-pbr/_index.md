@@ -93,7 +93,7 @@ Câu trả lời 1: Có, Aspose.3D tương thích với nhiều môi trường p
 
 ### Câu 3: Có bản dùng thử miễn phí không?
 
- Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Tôi có thể tìm hỗ trợ cho Aspose.3D ở đâu?
 

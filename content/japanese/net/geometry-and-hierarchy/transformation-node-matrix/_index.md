@@ -1,6 +1,6 @@
 ---
-title: 3D シーンでの変換マトリックスによるノードの変換
-linktitle: 3D シーンでの変換マトリックスによるノードの変換
+title: 変換行列によるノードの変換
+linktitle: 変換行列によるノードの変換
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して、3D シーンでノードを簡単に変換します。チュートリアルで段階的にノード変換を学習します。
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 基本を説明したので、変換プロセスをステップバイステップのガイドに分解してみましょう。
 
-## ステップ 1: シーンとノードを初期化する
+## ステップ 1: シーンを初期化する
 
 ```csharp
-//ExStart:AddTransformationToNodeByTransformationMatrix
+// ExStart:AddTransformationToNodeByTransformationMatrix
 //シーンオブジェクトを初期化する
 Scene scene = new Scene();
 
-//Nodeクラスオブジェクトの初期化
-Node cubeNode = new Node("cube");
 ```
 
-このステップでは、新しい 3D シーンとそのシーン内に「cube」という名前のノードを作成します。
+このステップでは、新しい空の 3D シーンを作成します。
 
-## ステップ 2: メッシュの作成とジオメトリの設定
+## ステップ 2: メッシュを作成してシーンにアタッチする
 
 ```csharp
 //ポリゴン ビルダー メソッドを使用して共通クラスのメッシュ作成を呼び出し、メッシュ インスタンスを設定します
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-//ノードをメッシュ ジオメトリにポイントします
-cubeNode.Entity = mesh;
+//メッシュのコンテナ ノードを作成します。
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 ここでは、ポリゴン ビルダー メソッドを使用してメッシュを生成し、それをノードに割り当てて、立方体のジオメトリを確立します。
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 カスタム変換行列を定義して、ノードに適用される特定の変換を決定します。必要な変換に必要なマトリックス値を調整します。
 
-## ステップ 4: シーンにノードを追加する
-
-```csharp
-//シーンにキューブを追加する
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 キューブ ノードをシーンに含めて、3D 環境全体の一部にします。
 
-## ステップ 5: シーンを保存する
+## ステップ 4: シーンを保存する
 
 ```csharp
 //ドキュメントディレクトリへのパス。
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
 //3D シーンをサポートされているファイル形式で保存する
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ A2: はい、それぞれの行列を乗算し、その結果をノードに適�
 
 ### Q4: Aspose.3D for .NET の一時ライセンスを取得するにはどうすればよいですか?
 
- A4: にアクセスしてください。[一時ライセンスのページ](https://purchase.aspose.com/temporary-license/) Aspose Web サイトにアクセスして、評価目的の一時ライセンスを取得します。
+ A4: にアクセスしてください。[一時ライセンスのページ](https://purchase.aspose.com/temporary-license/)Aspose Web サイトにアクセスして、評価目的の一時ライセンスを取得します。
 
 ### Q5: どこでサポートを求めたり、Aspose.3D コミュニティに連絡したりできますか?
 
-A5: にアクセスしてください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18) Aspose.3D を使用して、質問したり、経験を共有したり、他の開発者とつながったりできます。
+ A5: にアクセスしてください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18) Aspose.3D を使用して、質問したり、経験を共有したり、他の開発者とつながったりできます。

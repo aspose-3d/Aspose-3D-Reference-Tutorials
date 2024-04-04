@@ -1,6 +1,6 @@
 ---
-title: Betöltés és mentés - Egyéni betöltési lehetőségek
-linktitle: Betöltés és mentés - Egyéni betöltési lehetőségek
+title: Egyedi betöltési beállítások
+linktitle: Egyedi betöltési beállítások
 second_title: Aspose.3D .NET API
 description: Fedezze fel a .NET-hez készült Aspose.3D-t, amely a tökéletes megoldás a 3D-s modellek zökkenőmentes betöltésére és mentésére.
 type: docs
@@ -9,7 +9,7 @@ url: /hu/net/loading-and-saving/custom-load-options/
 ---
 ## Bevezetés
 
-Üdvözöljük az Aspose.3D for .NET világában – egy hatékony könyvtár, amely képessé teszi a fejlesztőket a 3D fájlokkal való zökkenőmentes munkavégzésre. Ebben az oktatóanyagban a 3D-s modellek betöltésének és mentésének bonyolultságába fogunk beleásni, az egyéni betöltési lehetőségekre összpontosítva. Akár tapasztalt fejlesztő, akár újonc, ez az útmutató lépésről lépésre végigvezeti a folyamaton, biztosítva, hogy az Aspose.3D .NET-hez való teljes potenciálját kihasználja.
+Üdvözöljük az Aspose.3D for .NET világában – egy hatékony könyvtár, amely képessé teszi a fejlesztőket a 3D fájlokkal való zökkenőmentes munkavégzésre. Ebben az oktatóanyagban a 3D-s modellek betöltésének és mentésének bonyolultságába fogunk beleásni, az egyéni betöltési lehetőségekre összpontosítva. Akár tapasztalt fejlesztő, akár újonc, ez az útmutató lépésről lépésre végigvezeti a folyamaton, biztosítva, hogy az Aspose.3D for .NET teljes potenciálját kihasználja.
 
 ## Előfeltételek
 
@@ -41,8 +41,6 @@ using Aspose.ThreeD.Formats;
 ```csharp
 private static void Discreet3DSLoadOption()
 {
-    // A dokumentumok könyvtárának elérési útja.
-    string dataDir = "Your Document Directory";
     Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
 
     //Állítson be egyéni beállításokat
@@ -50,6 +48,9 @@ private static void Discreet3DSLoadOption()
     loadOpts.FlipCoordinateSystem = true;
     loadOpts.GammaCorrectedColor = true;
     loadOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Fájl betöltése a betöltési beállításokkal
+    var scene = Scene.FromFile("test.3ds", loadOpts);
 }
 ```
 
@@ -58,14 +59,16 @@ private static void Discreet3DSLoadOption()
 ```csharp
 private static void ObjLoadOption()
 {
-    // A dokumentumok könyvtárának elérési útja.
-    string dataDir = "Your Document Directory";
     ObjLoadOptions loadObjOpts = new ObjLoadOptions();
 
     //Állítson be egyéni beállításokat
     loadObjOpts.EnableMaterials = true;
     loadObjOpts.FlipCoordinateSystem = true;
     loadObjOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Fájl betöltése a betöltési beállításokkal
+    var scene = Scene.FromFile("test.obj", loadObjOpts);
+
 }
 ```
 
@@ -75,12 +78,14 @@ private static void ObjLoadOption()
 private static void STLLoadOption()
 {
     // A dokumentumok könyvtárának elérési útja.
-    string dataDir = "Your Document Directory";
     StlLoadOptions loadSTLOpts = new StlLoadOptions();
 
     //Állítson be egyéni beállításokat
     loadSTLOpts.FlipCoordinateSystem = true;
     loadSTLOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Fájl betöltése a betöltési beállításokkal
+    var scene = Scene.FromFile("test.stl", loadSTLOpts);
 }
 ```
 
@@ -96,6 +101,9 @@ private static void U3DLoadOption()
     //Állítson be egyéni beállításokat
     loadU3DOpts.FlipCoordinateSystem = true;
     loadU3DOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Fájl betöltése a betöltési beállításokkal
+    var scene = Scene.FromFile("test.u3d", loadU3DOpts);
 }
 ```
 
@@ -105,13 +113,12 @@ private static void U3DLoadOption()
 private static void glTFLoadOptions()
 {
     // A dokumentumok könyvtárának elérési útja.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     GltfLoadOptions loadOpt = new GltfLoadOptions();
 
     //Állítson be egyéni beállításokat
     loadOpt.FlipTexCoordV = true;
-    scene.Open(dataDir + "Duck.gltf", loadOpt);
+    scene.Open("Duck.gltf", loadOpt);
 }
 ```
 
@@ -127,7 +134,7 @@ private static void PlyLoadOptions()
 
     //Állítson be egyéni beállításokat
     loadPLYOpts.FlipCoordinateSystem = true;
-    scene.Open(RunExamples.GetDataFilePath("vase-v2.ply"), loadPLYOpts);
+    scene.Open("vase-v2.ply", loadPLYOpts);
 }
 ```
 
@@ -137,12 +144,11 @@ private static void PlyLoadOptions()
 private static void FBXLoadOptions()
 {
     // A dokumentumok könyvtárának elérési útja.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     FbxLoadOptions opt = new FbxLoadOptions() { KeepBuiltinGlobalSettings = true };
 
     //Állítson be egyéni beállításokat
-    scene.Open(dataDir + "test.FBX", opt);
+    scene.Open("test.FBX", opt);
 
     // A GlobalSettingsben meghatározott kimeneti tulajdonságok az FBX fájlban
     foreach (Property property in scene.RootNode.AssetInfo.Properties)
@@ -176,4 +182,4 @@ A1: Abszolút! Az Aspose.3D for .NET felhasználóbarát felületet biztosít, �
 
 ### 5. kérdés: Hol kérhetek támogatást az Aspose.3D for .NET-hez?
 
-A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) közösségi támogatásért és segítségért.
+ A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) közösségi támogatásért és segítségért.

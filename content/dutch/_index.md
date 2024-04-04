@@ -20,20 +20,13 @@ Dit zijn links naar enkele nuttige bronnen:
  
 - [3D-modellering](./net/3d-modeling/)
 - [3D-scène](./net/3d-scene/)
-- [3D-viewports](./net/3d-viewports/)
 - [Animatie](./net/animation/)
-- [Activa-informatie](./net/asset-information/)
 - [Geometrie en hiërarchie](./net/geometry-and-hierarchy/)
 - [Licentie](./net/license/)
 - [Laden en opslaan](./net/loading-and-saving/)
 - [Materialen](./net/materials/)
-- [Veelhoeken](./net/polygons/)
 - [Weergave](./net/rendering/)
-- [Lineaire extrusie](./net/linear-extrusion/)
-- [Voorwerpen](./net/objects/)
-- [Werken met cilinder](./net/working-with-cylinder/)
-- [Werken met puntenwolk](./net/working-with-point-cloud/)
-- [Werken met VRML](./net/working-with-vrml/)
+- [Meshes](./net/meshes/)
 
 ## Aspose.3D voor Java-zelfstudies
 {{% alert color="primary" %}}

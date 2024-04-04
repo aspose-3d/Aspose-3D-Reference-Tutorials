@@ -54,7 +54,7 @@ Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ## Βήμα 4: Βρείτε την ιδιότητα μετάφρασης
 
 ```java
-// Βρείτε την ιδιότητα μετάφρασης στο αντικείμενο μετασχηματισμού του κόμβου
+//Βρείτε την ιδιότητα μετάφρασης στο αντικείμενο μετασχηματισμού του κόμβου
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
@@ -99,7 +99,7 @@ bindPoint.bindKeyframeSequence("Z", kfs);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "PropertyToDocument.fbx";
 
-//Αποθηκεύστε τη σκηνή 3D στις υποστηριζόμενες μορφές αρχείων
+// Αποθηκεύστε τη σκηνή 3D στις υποστηριζόμενες μορφές αρχείων
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
@@ -119,7 +119,7 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 
 ### Ε3: Πού μπορώ να βρω υποστήριξη για το Aspose.3D;
 
- A3: Εγγραφείτε στην κοινότητα στο[Aspose.3D Forum](https://forum.aspose.com/c/3d/18) για βοήθεια.
+A3: Εγγραφείτε στην κοινότητα στο[Aspose.3D Forum](https://forum.aspose.com/c/3d/18) για βοήθεια.
 
 ### Ε4: Πώς μπορώ να πάρω μια προσωρινή άδεια;
 

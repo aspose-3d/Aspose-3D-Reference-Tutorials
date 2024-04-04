@@ -63,7 +63,7 @@ Ontgrendel het potentieel van 3D-graphics met Aspose.3D voor Java. Creëer, tran
 
 ### [Optimaliseren en werken met 3D Mesh-gegevens in Java](./3d-mesh-data/)
 
-Optimaliseer uw 3D-toepassingen met Aspose.3D voor Java. Leer meshes comprimeren met Google Draco, mesh-gegevens genereren en 3D-meshes efficiënt op materiaal verwerken. Beheers de kunst van het optimaliseren en werken met 3D mesh-gegevens.
+Optimaliseer uw 3D-toepassingen met Aspose.3D voor Java. Leer meshes comprimeren met Google Draco, mesh-gegevens genereren en 3D-meshes efficiënt op materiaal verwerken. Beheers de kunst van het optimaliseren van en werken met 3D mesh-gegevens.
 
 ### [Manipuleren van 3D-objecten en scènes in Java](./3d-objects-and-scenes/)
 

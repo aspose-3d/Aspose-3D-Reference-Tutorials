@@ -1,6 +1,6 @@
 ---
-title: 3D シーンでのメッシュ ジオメトリ データの操作
-linktitle: 3D シーンでのメッシュ ジオメトリ データの操作
+title: メッシュ ジオメトリ データの操作
+linktitle: メッシュ ジオメトリ データの操作
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D グラフィックス プログラミングの技術をマスターしましょう。見事な 3D シーンを簡単に作成、操作、保存できます。
 type: docs
@@ -17,7 +17,7 @@ Aspose.3D for .NET を使用した 3D グラフィックス プログラミン�
 
 - C# および .NET プログラミングに関する実践的な知識。
 - Visual Studio がマシンにインストールされていること。
--  Aspose.3D for .NET ライブラリ (ダウンロード可能)[ここ](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET ライブラリ (ダウンロード可能)[ここ](https://releases.aspose.com/3d/net/).
 
 これで準備は完了です。3D グラフィックス プログラミングの魅力的な世界に飛び込みましょう。
 

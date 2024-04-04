@@ -16,7 +16,7 @@ Aspose.3D kullanarak Java'da verimli işleme için 3D ağları malzemeye göre b
 Bu heyecan verici yolculuğa çıkmadan önce aşağıdaki ön koşulların yerine getirildiğinden emin olun:
 
 - Java programlamanın temel bilgisi.
-- Aspose.3D for Java kütüphanesi kuruldu. adresinden indirebilirsiniz.[Web sitesi](https://releases.aspose.com/3d/java/).
+-  Aspose.3D for Java kütüphanesi kuruldu. adresinden indirebilirsiniz.[Web sitesi](https://releases.aspose.com/3d/java/).
 - Java geliştirme için kurulmuş bir Tümleşik Geliştirme Ortamı (IDE).
 
 ## Paketleri İçe Aktar
@@ -76,7 +76,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```java
 // Başarı mesajını görüntüle
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
-//ExEnd:SplitMeshbyMaterial
+// ExEnd:SplitMeshbyMaterial
 ```
 
 ## Çözüm
@@ -103,4 +103,4 @@ A2: Kesinlikle! Bu yöntem, karmaşık 3D modeller için iyi ölçeklenir ve bun
 
 ### S5: Herhangi bir sorun veya soru için nasıl destek alabilirim?
 
-A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluktan özel destek için.
+ A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluktan özel destek için.

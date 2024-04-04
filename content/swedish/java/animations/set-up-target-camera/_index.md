@@ -97,4 +97,4 @@ Grattis! Du har framgångsrikt konfigurerat en målkamera för 3D-animationer i 
 
 ### F5: Hur kan jag få en tillfällig licens?
 
-S5: Du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ S5: Du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).

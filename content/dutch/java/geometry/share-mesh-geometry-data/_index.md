@@ -88,7 +88,7 @@ Geef de map en bestandsnaam op voor het opslaan van de 3D-scène in het onderste
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "MeshGeometryData.fbx";
 
-//Sla 3D-scènes op in de ondersteunde bestandsformaten
+// Sla 3D-scènes op in de ondersteunde bestandsformaten
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

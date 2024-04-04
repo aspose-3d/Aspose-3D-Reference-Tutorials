@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## Steg 5: Spara scenen
 
-Spara den konfigurerade scenen till en specificerad utdatakatalog i önskat filformat, till exempel .3ds.
+Spara den konfigurerade scenen till en angiven utdatakatalog i önskat filformat, som .fbx.
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## Slutsats
@@ -98,7 +98,7 @@ A2: Absolut! Aspose.3D ger utvecklare möjlighet att skapa 3D-tillgångar för s
 
 ### F4: Finns det en gratis provperiod?
 
- A4: Ja, du kan utforska en gratis provperiod[här](https://releases.aspose.com/).
+A4: Ja, du kan utforska en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F5: Hur får jag en tillfällig licens?
 

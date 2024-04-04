@@ -16,7 +16,7 @@ Chào mừng bạn đến với hướng dẫn từng bước này về cách ch
 Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
 - Kiến thức cơ bản về lập trình Java.
--  Aspose.3D cho Java đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/3d/java/).
+- Aspose.3D cho Java đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/3d/java/).
 - Một thư mục tài liệu được thiết lập để lưu cảnh 3D của bạn.
 
 ## Gói nhập khẩu

@@ -1,6 +1,6 @@
 ---
-title: 在 3D 場景中連接四元數
-linktitle: 在 3D 場景中連接四元數
+title: 連接四元數
+linktitle: 連接四元數
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 場景中四元數操作的強大功能。學習逐步連接四元數以實現身臨其境的轉換。
 type: docs
@@ -96,7 +96,7 @@ A2：是的，Aspose.3D for .NET 旨在與其他 .NET 程式庫無縫協作。
 
 ### 問題 3：Aspose.3D for .NET 是否有免費試用版？
 
- A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
+A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
 
 ### 問題 4：如何獲得 Aspose.3D for .NET 支援？
 

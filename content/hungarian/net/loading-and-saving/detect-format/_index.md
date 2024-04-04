@@ -1,6 +1,6 @@
 ---
-title: Betöltés és mentés – Formátum észlelése
-linktitle: Betöltés és mentés – Formátum észlelése
+title: Formátum észlelése
+linktitle: Formátum észlelése
 second_title: Aspose.3D .NET API
 description: Az Aspose.3D for .NET segítségével könnyedén kezelheti a 3D fájlokat. A formátumok zökkenőmentes betöltése, mentése és észlelése.
 type: docs
@@ -50,7 +50,7 @@ scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ### 2. lépés: A formátum észlelése
 
 ```csharp
-//ExStart:DetectFormat
+// ExStart:DetectFormat
 // 3D fájl formátumának észlelése
 FileFormat inputFormat = FileFormat.Detect(RunExamples.GetDataFilePath("document.fbx"));
 // A fájlformátum megjelenítése
@@ -92,4 +92,4 @@ Gratulálunk! Sikeresen betöltött, észlelt és elmentett egy 3D fájlt az Asp
 
 ### 5. kérdés: Kipróbálhatom ingyenesen az Aspose.3D-t a vásárlás előtt?
 
-A5: Természetesen! Töltse le az ingyenes próbaverziót innen[Aspose.3D kiadások](https://releases.aspose.com/) hogy saját bőrén tapasztalja meg képességeit.
+ A5: Természetesen! Töltse le az ingyenes próbaverziót innen[Aspose.3D kiadások](https://releases.aspose.com/) hogy saját bőrén tapasztalja meg képességeit.

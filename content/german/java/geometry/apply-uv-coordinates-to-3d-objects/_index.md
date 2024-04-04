@@ -81,7 +81,7 @@ Glückwunsch! Sie haben mit Aspose.3D in Java erfolgreich UV-Koordinaten auf ein
 
 ## Abschluss
 
-In diesem Tutorial haben wir die wesentlichen Schritte zum Anwenden von UV-Koordinaten auf 3D-Objekte mithilfe von Aspose.3D in Java untersucht. Das Verständnis von UV-Mapping ist entscheidend für die Verbesserung der visuellen Attraktivität Ihrer 3D-Grafiken. Experimentieren Sie ruhig mit verschiedenen Formen und Texturen, um Ihrer Kreativität freien Lauf zu lassen.
+In diesem Tutorial haben wir die wesentlichen Schritte zum Anwenden von UV-Koordinaten auf 3D-Objekte mithilfe von Aspose.3D in Java untersucht. Das Verständnis des UV-Mappings ist entscheidend für die Verbesserung der visuellen Attraktivität Ihrer 3D-Grafiken. Experimentieren Sie ruhig mit verschiedenen Formen und Texturen, um Ihrer Kreativität freien Lauf zu lassen.
 
 ## FAQs
 

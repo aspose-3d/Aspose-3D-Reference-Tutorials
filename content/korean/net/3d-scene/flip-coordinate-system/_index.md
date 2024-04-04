@@ -16,8 +16,8 @@ url: /ko/net/3d-scene/flip-coordinate-system/
 튜토리얼을 시작하기 전에 다음 전제조건이 충족되었는지 확인하십시오.
 
 - C# 프로그래밍 언어에 대한 기본 이해.
-- .NET 라이브러리용 Aspose.3D가 설치되었습니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/3d/net/).
-- 지원되는 형식(예: .3ds)의 샘플 3D 파일입니다.
+-  .NET 라이브러리용 Aspose.3D가 설치되었습니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/3d/net/).
+- 지원되는 형식(예: .ma)의 샘플 3D 파일입니다.
 
 ## 네임스페이스 가져오기
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // 입력 파일의 경로
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // 장면 객체 초기화
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
  이 단계에서는 다음을 사용하여 지정된 파일 경로에서 3D 장면을 로드합니다.`Open` 방법.
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
  이제 우리는`Save` 장면을 내보내는 방법으로 그 과정에서 좌표계를 뒤집습니다. 출력은 Wavefront OBJ 형식으로 저장됩니다.

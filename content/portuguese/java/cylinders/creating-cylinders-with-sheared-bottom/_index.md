@@ -45,7 +45,7 @@ Agora, vamos criar o primeiro cilindro com fundo cortado:
 // Crie o cilindro 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // Fundo de cisalhamento personalizado para cilindro 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // Cisalhamento 47,5 graus no plano xy (eixo z)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //Cisalhamento 47,5 graus no plano xy (eixo z)
 // Adicione o cilindro 1 à cena
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // Fim:4

@@ -20,20 +20,13 @@ Ezek a linkek néhány hasznos forráshoz:
  
 - [3D modellezés](./net/3d-modeling/)
 - [3D-s jelenet](./net/3d-scene/)
-- [3D nézetablakok](./net/3d-viewports/)
 - [Élénkség](./net/animation/)
-- [Eszközinformáció](./net/asset-information/)
 - [Geometria és hierarchia](./net/geometry-and-hierarchy/)
 - [Engedély](./net/license/)
 - [Betöltés és mentés](./net/loading-and-saving/)
 - [Anyagok](./net/materials/)
-- [Sokszögek](./net/polygons/)
 - [Rendering](./net/rendering/)
-- [Lineáris extrudálás](./net/linear-extrusion/)
-- [Objektumok](./net/objects/)
-- [Munka hengerrel](./net/working-with-cylinder/)
-- [Munka a pontfelhővel](./net/working-with-point-cloud/)
-- [Munka a VRML-lel](./net/working-with-vrml/)
+- [Hálók](./net/meshes/)
 
 ## Aspose.3D for Java oktatóanyagok
 {{% alert color="primary" %}}

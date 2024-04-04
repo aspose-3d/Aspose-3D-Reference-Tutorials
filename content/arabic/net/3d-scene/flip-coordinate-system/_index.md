@@ -16,8 +16,8 @@ url: /ar/net/3d-scene/flip-coordinate-system/
 قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
 
 - الفهم الأساسي للغة البرمجة C#.
-- تم تثبيت Aspose.3D لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/3d/net/).
-- نموذج لملف ثلاثي الأبعاد بتنسيق مدعوم (على سبيل المثال، ‎.3ds).
+-  تم تثبيت Aspose.3D لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/3d/net/).
+- نموذج ملف ثلاثي الأبعاد بتنسيق مدعوم (على سبيل المثال، .ma).
 
 ## استيراد مساحات الأسماء
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // المسار إلى ملف الإدخال
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // تهيئة كائن المشهد
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
  في هذه الخطوة، نقوم بتحميل مشهد ثلاثي الأبعاد من مسار الملف المحدد باستخدام ملف`Open` طريقة.
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
  والآن نستخدم`Save` طريقة لتصدير المشهد، مع قلب نظام الإحداثيات في هذه العملية. يتم حفظ الإخراج بتنسيق Wavefront OBJ.

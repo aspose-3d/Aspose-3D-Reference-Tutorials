@@ -27,12 +27,12 @@ Bạn đã sẵn sàng thêm điểm nhấn độc đáo cho mô hình 3D của 
 
 ### [Tạo hình trụ có đáy cắt trong Aspose.3D cho Java](./creating-cylinders-with-sheared-bottom/)
 
-Đưa kỹ năng tạo mô hình 3D của bạn lên một tầm cao mới với các hình trụ tùy chỉnh có đáy cắt. Trong hướng dẫn này, được cung cấp bởi Aspose.3D cho Java, chúng tôi chia quy trình thành các bước đơn giản, dễ thực hiện. Cho dù bạn là người mới bắt đầu hay nhà phát triển có kinh nghiệm, bạn sẽ tìm thấy những hiểu biết có giá trị để nâng cao kỹ năng tạo mô hình 3D của mình. Nâng cao dự án của bạn bằng các hình trụ thể hiện nét độc đáo. Hãy theo dõi và nắm vững nghệ thuật tạo hình trụ có đáy cắt bằng Aspose.3D cho Java.
+Đưa kỹ năng tạo mô hình 3D của bạn lên một tầm cao mới với các hình trụ tùy chỉnh có đáy cắt. Trong hướng dẫn này, được cung cấp bởi Aspose.3D cho Java, chúng tôi chia quy trình thành các bước đơn giản, dễ thực hiện. Cho dù bạn là người mới bắt đầu hay nhà phát triển có kinh nghiệm, bạn sẽ tìm thấy những hiểu biết có giá trị để nâng cao kỹ năng tạo mô hình 3D của mình. Nâng tầm dự án của bạn bằng các hình trụ thể hiện nét độc đáo. Hãy theo dõi và nắm vững nghệ thuật tạo hình trụ có đáy cắt bằng Aspose.3D cho Java.
 
 Khai thác toàn bộ tiềm năng của Aspose.3D cho Java và ghi dấu ấn của bạn trong thế giới mô hình 3D. Đi sâu vào những hướng dẫn này, khám phá các kỹ thuật và xem những sáng tạo của bạn trở nên sống động theo những cách mà bạn chưa từng nghĩ là có thể. Hãy để trí tưởng tượng của bạn được phát huy và hãy để Aspose.3D cho Java trở thành người bạn đồng hành đáng tin cậy của bạn trên hành trình sáng tạo và đổi mới thú vị này.
 ## Làm việc với Xi lanh trong Aspose.3D cho Hướng dẫn Java
 ### [Tạo các trụ quạt tùy chỉnh với Aspose.3D cho Java](./creating-fan-cylinders/)
-Tìm hiểu cách tạo các hình trụ quạt tùy chỉnh trong Java với Aspose.3D. Nâng cao trò chơi mô hình 3D của bạn một cách dễ dàng.
+Tìm hiểu cách tạo các hình trụ quạt tùy chỉnh trong Java bằng Aspose.3D. Nâng cao trò chơi mô hình 3D của bạn một cách dễ dàng.
 ### [Tạo hình trụ với Offset Top trong Aspose.3D cho Java](./creating-cylinders-with-offset-top/)
 Khám phá những điều kỳ diệu của mô hình 3D trong Java với Aspose.3D. Học cách tạo ra các hình trụ quyến rũ với phần đỉnh lệch một cách dễ dàng.
 ### [Tạo hình trụ có đáy cắt trong Aspose.3D cho Java](./creating-cylinders-with-sheared-bottom/)

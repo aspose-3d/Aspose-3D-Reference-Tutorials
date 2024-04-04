@@ -103,7 +103,7 @@ scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 
 ### س4: كيف يمكنني الحصول على الدعم لـ Aspose.3D؟
 
- ج4: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18)لأية مساعدة أو استفسار.
+ ج4: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لأية مساعدة أو استفسار.
 
 ### س5: هل التراخيص المؤقتة متاحة لـ Aspose.3D؟
 

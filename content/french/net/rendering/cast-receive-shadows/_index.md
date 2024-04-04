@@ -35,7 +35,7 @@ Scene scene = new Scene();
 Camera camera = new Camera();
 // Code de configuration supplémentaire de la caméra...
 ```
- Créez une scène 3D et configurez une caméra pour visualiser la scène. Ajustez les paramètres de la caméra tels que`NearPlane` et`LookAt` pour un rendu optimal.
+Créez une scène 3D et configurez une caméra pour visualiser la scène. Ajustez les paramètres de la caméra tels que`NearPlane` et`LookAt` pour un rendu optimal.
 ## Étape 2 : Introduire la source de lumière
 ```csharp
 Light light;
@@ -60,7 +60,7 @@ Effectuez le rendu de la scène configurée à l'aide de la caméra spécifiée 
 Toutes nos félicitations! Vous avez exploré avec succès les bases de la projection et de la réception d'ombres dans une scène 3D à l'aide d'Aspose.3D pour .NET. Cette puissante bibliothèque ouvre des possibilités infinies pour créer des expériences visuelles immersives et captivantes dans vos applications.
 ## Questions fréquemment posées
 ### Q : Puis-je personnaliser davantage les propriétés de l'ombre ?
-R : Oui, Aspose.3D propose de nombreuses options pour affiner les paramètres des ombres, notamment la couleur, l'intensité et bien plus encore.
+: Oui, Aspose.3D propose de nombreuses options pour affiner les paramètres des ombres, notamment la couleur, l'intensité et bien plus encore.
 ### Q : Comment puis-je optimiser les performances de rendu ?
 R : Pensez à ajuster la complexité de la scène, à utiliser des matériaux efficaces et à optimiser les sources de lumière pour améliorer la vitesse de rendu.
 ### Q : Aspose.3D prend-il en charge d'autres formats de fichiers 3D ?

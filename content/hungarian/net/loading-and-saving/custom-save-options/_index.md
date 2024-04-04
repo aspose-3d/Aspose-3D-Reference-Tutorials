@@ -1,8 +1,8 @@
 ---
-title: Betöltés és mentés – Egyéni mentési beállítások
-linktitle: Betöltés és mentés – Egyéni mentési beállítások
+title: Egyéni mentési beállítások
+linktitle: Egyéni mentési beállítások
 second_title: Aspose.3D .NET API
-description: Fedezze fel az Aspose.3D for .NET erejét. A Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC és RVM formátumok lépésenkénti útmutatói segítségével megtudhatja, hogyan szabhatja testre 3D-s jelenetmentését.
+description: Fedezze fel az Aspose.3D for .NET erejét. A Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC és RVM formátumok lépésenkénti útmutatói segítségével megtudhatja, hogyan szabhatja testre 3D-s jelenetmentését.
 type: docs
 weight: 21
 url: /hu/net/loading-and-saving/custom-save-options/
@@ -83,7 +83,7 @@ Folytassa ezt a lépésről lépésre történő megközelítést az FBX, OBJ, S
 
 ## 3. lépés: glTF mentési beállítások
 
-Most koncentráljunk a glTF-re, amely a webes és mobilalkalmazásokban széles körben használt formátum. Testreszabhatja glTF mentési beállításait az alábbi lépésekkel:
+Most koncentráljunk a glTF-re, amely a webes és mobilalkalmazásokban széles körben használt formátum. Testreszabhatja a glTF mentési beállításait az alábbi lépésekkel:
 
 ### 1. Jelenet objektum inicializálása:
    ```csharp
