@@ -4,7 +4,7 @@ linktitle: Animation
 second_title: Aspose.3D .NET API
 description: Unlock the world of 3D animation with Aspose.3D for .NET tutorials. Learn to animate properties and set up targets and cameras for dynamic scenes effortlessly.
 type: docs
-weight: 23
+weight: 30
 url: /net/animation/
 ---
 ## Introduction

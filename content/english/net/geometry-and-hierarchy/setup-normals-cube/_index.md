@@ -1,6 +1,6 @@
 ---
-title: Setting Up Normals on Cube in 3D Scenes
-linktitle: Setting Up Normals on Cube in 3D Scenes
+title: Setting Up Normals on Cube 
+linktitle: Setting Up Normals on Cube 
 second_title: Aspose.3D .NET API
 description: Learn to set up normals on a 3D cube using Aspose.3D for .NET. Enhance your 3D modeling skills with this step-by-step guide.
 type: docs

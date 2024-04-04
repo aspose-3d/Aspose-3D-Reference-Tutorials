@@ -1,6 +1,6 @@
 ---
-title: Working with Mesh Geometry Data in 3D Scenes
-linktitle: Working with Mesh Geometry Data in 3D Scenes
+title: Working with Mesh Geometry Data 
+linktitle: Working with Mesh Geometry Data 
 second_title: Aspose.3D .NET API
 description: Master the art of 3D graphics programming with Aspose.3D for .NET. Create, manipulate, and save stunning 3D scenes effortlessly.
 type: docs

@@ -1,6 +1,6 @@
 ---
-title: Loading and Saving -  Using CancellationToken
-linktitle: Loading and Saving -  Using CancellationToken
+title: Using CancellationToken
+linktitle:  Using CancellationToken
 second_title: Aspose.3D .NET API
 description: Explore the seamless world of 3D modeling with Aspose.3D for .NET. Learn to load and save 3D documents efficiently using CancellationToken.
 type: docs

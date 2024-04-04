@@ -17,7 +17,7 @@ Before diving into the tutorial, ensure you have the following prerequisites:
 
 - Basic understanding of C# programming language.
 - Aspose.3D for .NET library installed. You can download it from [here](https://releases.aspose.com/3d/net/).
-- A sample 3D file in a supported format (e.g., .3ds).
+- A sample 3D file in a supported format (e.g., .ma).
 
 ## Import Namespaces
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // The path to the input file
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // Initialize scene object
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
 In this step, we load a 3D scene from the specified file path using the `Open` method.
@@ -49,7 +49,11 @@ In this step, we load a 3D scene from the specified file path using the `Open` m
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
 Now, we use the `Save` method to export the scene, flipping the coordinate system in the process. The output is saved in Wavefront OBJ format.

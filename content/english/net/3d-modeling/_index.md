@@ -1,10 +1,10 @@
 ---
-title: 3D Modeling
-linktitle: 3D Modeling
+title: Modeling
+linktitle: Modeling
 second_title: Aspose.3D .NET API
 description: Discover the art of 3D modeling with Aspose.3D for .NET! Easily craft captivating primitive models in this comprehensive tutorial. Unleash your creativity today.
 type: docs
-weight: 20
+weight: 28
 url: /net/3d-modeling/
 ---
 
@@ -16,11 +16,38 @@ If you've ever dreamed of crafting breathtaking 3D models, the Aspose.3D for .NE
 
 Embark on your 3D modeling journey by delving into the foundational aspects. Aspose.3D for .NET simplifies the intricate world of 3D modeling, making it accessible to beginners and seasoned enthusiasts alike. Learn about the core principles and tools that lay the groundwork for your creative exploration.
 
-## [Creating Primitive 3D Models](./primitive-3d-models/)
+## Linear extrusion on 2D shape to create new mesh
 
-## Sculpting Wonders with Aspose.3D
+Aspose.3D enables the linear extrusion of shapes to create new meshes, enhancing geometric complexity and visual depth in 3D models and scenes. This feature allows users to extend 2D shapes along a specified axis, transforming them into volumetric solids with ease and precision.
+
+[Read the tutorial: Linear Extrusion](./linear-extrusion/)
+
+## Creating Primitive 3D Models
 
 Navigate to the [Creating Primitive 3D Models](./primitive-3d-models/) tutorial, where we unravel the magic of sculpting with Aspose.3D for .NET. Immerse yourself in a step-by-step guide, allowing you to effortlessly mold primitive models that captivate the eye. From basic shapes to intricate designs, this tutorial covers it all.
+
+[Read the tutorial: Creating Primitive 3D Models](./primitive-3d-models/)
+
+## Changing Plane Orientation in 3D Scenes
+
+Embark on a journey to master the art of changing plane orientation in 3D scenes using Aspose.3D for .NET. Our comprehensive guide takes you through each step, ensuring seamless integration into your projects. Unleash the potential of your 3D scenes with newfound control.
+
+[Read the tutorial: Changing Plane Orientation in 3D Scenes](./change-plane-orientation/)
+
+## Changing Plane Orientation in 3D Scenes
+
+Embark on a journey to master the art of changing plane orientation in 3D scenes using Aspose.3D for .NET. Our comprehensive guide takes you through each step, ensuring seamless integration into your projects. Unleash the potential of your 3D scenes with newfound control.
+
+[Read the tutorial: Changing Plane Orientation in 3D Scenes](./change-plane-orientation/)
+
+
+## Working With Cylinder
+
+Aspose.3D facilitates the creation of parametric 3D geometry cylinders, enabling users to generate meshes effortlessly. With this feature, users can define cylinders with specified dimensions and properties, seamlessly integrating them into their 3D models and scenes for enhanced realism and detail.
+
+[Read the tutorial: Working With Cylinder](./working-with-cylinder/)
+
+
 
 ### Dive into the Basics
 

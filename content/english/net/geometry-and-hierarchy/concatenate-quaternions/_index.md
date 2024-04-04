@@ -1,6 +1,6 @@
 ---
-title: Concatenating Quaternions in 3D Scenes
-linktitle: Concatenating Quaternions in 3D Scenes
+title: Concatenating Quaternions 
+linktitle: Concatenating Quaternions 
 second_title: Aspose.3D .NET API
 description: Explore the power of quaternion manipulation in 3D scenes with Aspose.3D for .NET. Learn to concatenate quaternions step by step for immersive transformations.
 type: docs

@@ -1,6 +1,6 @@
 ---
-title: Setting Up UV on Cube in 3D Scenes
-linktitle: Setting Up UV on Cube in 3D Scenes
+title: Setting Up UV on Cube 
+linktitle: Setting Up UV on Cube 
 second_title: Aspose.3D .NET API
 description: Learn to set up UV mapping on a 3D cube using Aspose.3D for .NET. Create visually stunning scenes with precise texture mapping.
 type: docs
