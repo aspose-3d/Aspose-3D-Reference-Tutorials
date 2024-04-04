@@ -16,7 +16,7 @@ Aspose.3D for Java je všestranná knihovna, která umožňuje vývojářům pra
 Než se ponoříte do výukového programu, ujistěte se, že máte následující předpoklady:
 
 - Java Development Kit (JDK) nainstalovaný na vašem počítači.
-- Knihovna Aspose.3D pro Java stažena. Odkaz ke stažení najdete[tady](https://releases.aspose.com/3d/java/).
+-  Knihovna Aspose.3D pro Java stažena. Odkaz ke stažení najdete[tady](https://releases.aspose.com/3d/java/).
 
 ## Importujte balíčky
 
@@ -94,7 +94,7 @@ Odpověď 1: Ano, Aspose.3D for Java vyhovuje potřebám vývojářů s různou 
 
 ### Q3: Jsou k dispozici nějaké bezplatné zkušební možnosti?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
 
 ### Q4: Kde najdu podporu pro Aspose.3D pro Java?
 

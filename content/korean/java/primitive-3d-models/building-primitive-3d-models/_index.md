@@ -51,7 +51,7 @@ scene.getRootNode().createChildNode("box", new Box());
 ### 3단계: 원통 모델 생성
 
 ```java
-// 원통 모델 생성
+// 원통 모델 만들기
 scene.getRootNode().createChildNode("cylinder", new Cylinder());
 ```
 
@@ -87,4 +87,4 @@ A2: 물론이죠! Aspose.3D는 포괄적인 기능 세트를 제공하므로 단
 
 ### Q5: Aspose.3D에 대한 임시 라이선스를 어떻게 얻나요?
 
- A5: 당신은[임시면허](https://purchase.aspose.com/temporary-license/) Aspose.3D의 경우 웹사이트를 통해.
+ A5: 당신은[임시 면허증](https://purchase.aspose.com/temporary-license/) Aspose.3D의 경우 웹사이트를 통해.

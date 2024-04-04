@@ -1,6 +1,6 @@
 ---
-title: Förstå nodhierarki i 3D-scener
-linktitle: Förstå nodhierarki i 3D-scener
+title: Förstå nodhierarkin
+linktitle: Förstå nodhierarkin
 second_title: Aspose.3D .NET API
 description: Lås upp kraften i Aspose.3D för .NET! Dyk in i nodhierarkimanipulation med denna steg-för-steg-guide. Skapa fantastiska 3D-scener utan ansträngning.
 type: docs
@@ -17,7 +17,7 @@ Innan vi ger oss ut på denna 3D-resa, se till att du har följande förutsättn
 
 -  Aspose.3D for .NET Library: Se till att du har Aspose.3D-biblioteket integrerat i ditt .NET-projekt. Om du inte har gjort detta än, gå till[dokumentation](https://reference.aspose.com/3d/net/) för vägledning.
 
--  Ladda ner biblioteket: Om du inte har laddat ner Aspose.3D-biblioteket, hämta den senaste versionen från[nedladdningslänk](https://releases.aspose.com/3d/net/)och följ installationsinstruktionerna i dokumentationen.
+-  Ladda ner biblioteket: Om du inte har laddat ner Aspose.3D-biblioteket, hämta den senaste versionen från[nedladdningslänk](https://releases.aspose.com/3d/net/) och följ installationsinstruktionerna i dokumentationen.
 
 -  Skaffa en licens: För att låsa upp Aspose.3Ds fulla potential behöver du en giltig licens. Om du inte har en så kan du få den[här](https://purchase.aspose.com/buy) eller välj en[gratis provperiod](https://releases.aspose.com/) att utforska dess kapacitet.
 

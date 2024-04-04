@@ -16,7 +16,7 @@ La concatenazione dei quaternioni è un concetto fondamentale nella grafica 3D, 
 Prima di immergerti nel tutorial, assicurati di possedere i seguenti prerequisiti:
 
 - Conoscenza base della programmazione Java.
--  Aspose.3D per Java installato. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/java/).
+- Aspose.3D per Java installato. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/java/).
 
 ## Importa pacchetti
 

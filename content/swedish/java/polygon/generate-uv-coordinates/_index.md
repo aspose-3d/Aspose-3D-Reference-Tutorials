@@ -59,7 +59,7 @@ Mesh mesh = (new Box()).toMesh();
 mesh.getVertexElements().remove(mesh.getElement(VertexElementType.UV));
 ```
 
-Generera ett nät, i det här fallet en låda, och ta bort inbyggda UV-data för att simulera ett nät utan UV-information.
+Generera ett nät, i det här fallet en låda, och ta bort de inbyggda UV-data för att simulera ett nät utan UV-information.
 
 ## Steg 4: Generera UV-koordinater manuellt
 

@@ -97,4 +97,4 @@ scene.save(MyDir, FileFormat.DISCREET3DS);
 
 ### Q5：如何获得临时驾照？
 
-A5：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+ A5：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).

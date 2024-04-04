@@ -97,4 +97,4 @@ scene.save(MyDir, FileFormat.DISCREET3DS);
 
 ### В5: Как я могу получить временную лицензию?
 
-О5: Вы можете приобрести временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+ О5: Вы можете приобрести временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).

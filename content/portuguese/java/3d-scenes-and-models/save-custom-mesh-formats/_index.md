@@ -109,13 +109,13 @@ Seguindo este tutorial, você aprendeu como usar Aspose.3D for Java para salvar 
 
 A1: Sim, o Aspose.3D suporta vários formatos de modelo 3D, proporcionando flexibilidade no seu desenvolvimento.
 
-### Q2: Há uma licença temporária disponível para Aspose.3D para Java?
+### Q2: Há uma licença temporária disponível para Aspose.3D for Java?
 
  A2: Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Onde posso encontrar suporte para Aspose.3D para Java?
 
- A3: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18)para qualquer assistência ou dúvida.
+ A3: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para qualquer assistência ou dúvida.
 
 ### Q4: Há algum modelo 3D de amostra disponível para teste?
 

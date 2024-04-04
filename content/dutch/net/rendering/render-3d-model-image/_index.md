@@ -84,7 +84,7 @@ A: Aspose.3D ondersteunt verschillende 3D-modelformaten, waardoor het compatibel
 ### Vraag: Hoe kan ik weergaveproblemen oplossen?
  A: Controleer Aspose.3D[forum](https://forum.aspose.com/c/3d/18) voor ondersteuning en oplossingen voor veelvoorkomende weergaveproblemen.
 ### Vraag: Is er een gratis proefversie beschikbaar?
- A: Ja, u kunt de functies van Aspose.3D verkennen door een[gratis proefperiode](https://releases.aspose.com/).
+A: Ja, u kunt de functies van Aspose.3D verkennen door een[gratis proefperiode](https://releases.aspose.com/).
 ### Vraag: Waar kan ik uitgebreide documentatie vinden?
  A: Raadpleeg de[documentatie](https://reference.aspose.com/3d/net/) voor diepgaande begeleiding over Aspose.3D voor .NET.
 ### Vraag: Hoe koop ik Aspose.3D voor .NET?

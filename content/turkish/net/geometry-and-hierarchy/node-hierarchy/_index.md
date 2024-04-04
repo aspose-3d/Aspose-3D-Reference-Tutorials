@@ -1,6 +1,6 @@
 ---
-title: 3B Sahnelerde Düğüm Hiyerarşisini Anlamak
-linktitle: 3B Sahnelerde Düğüm Hiyerarşisini Anlamak
+title: Düğüm Hiyerarşisini Anlamak
+linktitle: Düğüm Hiyerarşisini Anlamak
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'in gücünün kilidini açın! Bu adım adım kılavuzla düğüm hiyerarşisi manipülasyonuna dalın. Çarpıcı 3D sahneleri zahmetsizce oluşturun.
 type: docs
@@ -17,7 +17,7 @@ Bu 3D yolculuğa çıkmadan önce aşağıdaki önkoşulların mevcut olduğunda
 
 -  Aspose.3D for .NET Kütüphanesi: Aspose.3D kütüphanesinin .NET projenize entegre olduğundan emin olun. Bunu henüz yapmadıysanız, şu adrese gidin:[dokümantasyon](https://reference.aspose.com/3d/net/) rehberlik için.
 
--  Kütüphaneyi İndirin: Aspose.3D kütüphanesini indirmediyseniz, en son sürümü şuradan edinin:[İndirme: {link](https://releases.aspose.com/3d/net/)ve belgelerde verilen kurulum talimatlarını izleyin.
+-  Kütüphaneyi İndirin: Aspose.3D kütüphanesini indirmediyseniz, en son sürümü şuradan edinin:[İndirme: {link](https://releases.aspose.com/3d/net/) ve belgelerde verilen kurulum talimatlarını izleyin.
 
 -  Lisans Alın: Aspose.3D'nin tüm potansiyelini açığa çıkarmak için geçerli bir lisansa ihtiyacınız var. Elinizde yoksa edinebilirsiniz[Burada](https://purchase.aspose.com/buy) veya birini tercih edin[ücretsiz deneme](https://releases.aspose.com/) yeteneklerini keşfetmek için.
 

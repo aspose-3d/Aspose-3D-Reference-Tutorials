@@ -1,6 +1,6 @@
 ---
-title: 3D 장면의 큐브에 UV 설정
-linktitle: 3D 장면의 큐브에 UV 설정
+title: 큐브에 UV 설정하기
+linktitle: 큐브에 UV 설정하기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 큐브에 UV 매핑을 설정하는 방법을 알아보세요. 정밀한 텍스처 매핑으로 시각적으로 놀라운 장면을 만들어보세요.
 type: docs

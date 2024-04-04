@@ -9,7 +9,7 @@ url: /tr/java/geometry/triangulate-meshes-for-optimized-rendering/
 ---
 ## giriiş
 
-Ağ üçgenlemesi, karmaşık çokgen yapıları daha basit üçgenlere ayırma işlemidir. Bu yalnızca işleme performansını artırmakla kalmaz, aynı zamanda çeşitli geometrik hesaplamaları da kolaylaştırır. Aspose.3D for Java, ağ manipülasyonu için güçlü bir çözüm sunuyor ve bu kılavuzda, gelişmiş işleme verimliliği için ağları adım adım üçgenleştirme sürecini inceleyeceğiz.
+Ağ üçgenlemesi, karmaşık çokgen yapıları daha basit üçgenlere ayırma işlemidir. Bu yalnızca işleme performansını artırmakla kalmaz, aynı zamanda çeşitli geometrik hesaplamaları da kolaylaştırır. Aspose.3D for Java, ağ manipülasyonu için güçlü bir çözüm sunar ve bu kılavuzda, gelişmiş işleme verimliliği için ağları adım adım üçgenleştirme sürecini inceleyeceğiz.
 
 ## Önkoşullar
 

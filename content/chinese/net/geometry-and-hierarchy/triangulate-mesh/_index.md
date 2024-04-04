@@ -1,6 +1,6 @@
 ---
-title: 3D 场景中的三角网格
-linktitle: 3D 场景中的三角网格
+title: 三角网格
+linktitle: 三角网格
 second_title: Aspose.3D .NET API
 description: 在此分步指南中探索 Aspose.3D for .NET 的强大功能。了解如何轻松对 3D 网格进行三角测量以增强建模。
 type: docs

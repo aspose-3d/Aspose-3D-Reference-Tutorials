@@ -1,6 +1,6 @@
 ---
-title: Knooppunthiërarchie in 3D-scènes begrijpen
-linktitle: Knooppunthiërarchie in 3D-scènes begrijpen
+title: Knooppunthiërarchie begrijpen
+linktitle: Knooppunthiërarchie begrijpen
 second_title: Aspose.3D .NET-API
 description: Ontgrendel de kracht van Aspose.3D voor .NET! Duik in de manipulatie van knooppunthiërarchieën met deze stapsgewijze handleiding. Creëer moeiteloos verbluffende 3D-scènes.
 type: docs
@@ -17,7 +17,7 @@ Voordat we aan deze 3D-reis beginnen, moet u ervoor zorgen dat u aan de volgende
 
 -  Aspose.3D voor .NET-bibliotheek: Zorg ervoor dat de Aspose.3D-bibliotheek in uw .NET-project is geïntegreerd. Als je dit nog niet hebt gedaan, ga dan naar de[documentatie](https://reference.aspose.com/3d/net/) voor begeleiding.
 
--  Download de bibliotheek: Als u de Aspose.3D-bibliotheek niet hebt gedownload, download dan de nieuwste versie van de[download link](https://releases.aspose.com/3d/net/)en volg de installatie-instructies in de documentatie.
+-  Download de bibliotheek: Als u de Aspose.3D-bibliotheek niet hebt gedownload, download dan de nieuwste versie van de[download link](https://releases.aspose.com/3d/net/) en volg de installatie-instructies in de documentatie.
 
 -  Verkrijg een licentie: om het volledige potentieel van Aspose.3D te benutten, hebt u een geldige licentie nodig. Als u er geen heeft, kunt u deze verkrijgen[hier](https://purchase.aspose.com/buy) of kies voor een[gratis proefperiode](https://releases.aspose.com/) om zijn mogelijkheden te verkennen.
 

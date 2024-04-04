@@ -1,6 +1,6 @@
 ---
-title: Konfigurowanie UV na kostce w scenach 3D
-linktitle: Konfigurowanie UV na kostce w scenach 3D
+title: Konfigurowanie UV w kostce
+linktitle: Konfigurowanie UV w kostce
 second_title: Aspose.3D API .NET
 description: Dowiedz się, jak skonfigurować mapowanie UV na kostce 3D przy użyciu Aspose.3D dla .NET. Twórz oszałamiające wizualnie sceny dzięki precyzyjnemu mapowaniu tekstur.
 type: docs

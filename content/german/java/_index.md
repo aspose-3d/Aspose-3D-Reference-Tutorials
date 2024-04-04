@@ -15,7 +15,7 @@ Sind Sie bereit, Ihre Java-3D-Projekte auf die nächste Stufe zu heben? Tauchen 
 
 ### [Arbeiten mit Animationen in Java](./animations/)
 
-Bringen Sie Leben in Ihre Java 3D-Projekte! Erfahren Sie, wie Sie Animationseigenschaften nahtlos hinzufügen und Zielkameras einrichten. Steigern Sie Ihre Entwicklung mit fesselnden 3D-Animationen, die einen bleibenden Eindruck hinterlassen.
+Bringen Sie Leben in Ihre Java-3D-Projekte! Erfahren Sie, wie Sie Animationseigenschaften nahtlos hinzufügen und Zielkameras einrichten. Steigern Sie Ihre Entwicklung mit fesselnden 3D-Animationen, die einen bleibenden Eindruck hinterlassen.
 
 ### [Arbeiten mit 3D-Geometrie in Java](./geometry/)
 
@@ -31,7 +31,7 @@ Entdecken Sie die Welt der 3D-Modellierung mit Aspose.3D für Java. Meistern Sie
 
 ### [Erstellen primitiver 3D-Modelle in Aspose.3D für Java](./primitive-3d-models/)
 
-Erstellen Sie mithilfe unserer Tutorials mühelos atemberaubende 3D-Modelle. Lassen Sie Ihrer Kreativität freien Lauf mit Schritt-für-Schritt-Anleitungen zum Erstellen primitiver 3D-Modelle. Es ist Zeit, Ihre künstlerische Seite in der Welt von 3D zum Ausdruck zu bringen.
+Erstellen Sie mit unseren Tutorials mühelos atemberaubende 3D-Modelle. Lassen Sie Ihrer Kreativität freien Lauf mit Schritt-für-Schritt-Anleitungen zum Erstellen primitiver 3D-Modelle. Es ist Zeit, Ihre künstlerische Seite in der Welt von 3D zum Ausdruck zu bringen.
 
 ### [Arbeiten mit Zylindern in Aspose.3D für Java](./cylinders/)
 

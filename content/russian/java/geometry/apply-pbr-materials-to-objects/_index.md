@@ -19,7 +19,7 @@ url: /ru/java/geometry/apply-pbr-materials-to-objects/
 
 2.  Библиотека Aspose.3D: Загрузите и установите библиотеку Aspose.3D с сайта[ссылка для скачивания](https://releases.aspose.com/3d/java/).
 
-3.  Документация: см.[документация](https://reference.aspose.com/3d/java/) для Aspose.3D, чтобы ознакомиться с возможностями библиотеки.
+3.  Документация: см.[документация](https://reference.aspose.com/3d/java/)для Aspose.3D, чтобы ознакомиться с возможностями библиотеки.
 
 4.  Временная лицензия (необязательно). Если у вас нет лицензии, вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) для тестирования.
 
@@ -72,7 +72,7 @@ boxNode.setMaterial(mat);
 ```java
 // ExStart:Сохранить3DScene
 scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
-// ExEnd:Сохранить3DScene
+//ExEnd:Сохранить3DScene
 ```
 
 Повторите эти шаги для более сложных сцен или других объектов.

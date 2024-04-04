@@ -53,7 +53,7 @@ Aspose.3D의 PolygonModifier 클래스를 활용하여 로드된 3D 장면을 �
 // ExStart:장면 삼각 측량
 // 장면을 삼각측량하기
 PolygonModifier.triangulate(scene);
-// 확장:장면 삼각 측량
+// 확장:장면 삼각측량
 ```
 
 ## 3단계: 삼각측정된 3D 장면 저장
@@ -91,4 +91,4 @@ A3: 무료 평가판에는 일부 기능 제한이 있습니다. 을 체크 해�
 
 ### Q5: Aspose.3D for Java에 사용할 수 있는 임시 라이선스 옵션이 있습니까?
 
- A5: 그렇습니다.[임시면허](https://purchase.aspose.com/temporary-license/) 단기 사용을 위한 옵션입니다.
+ A5: 그렇습니다.[임시 면허증](https://purchase.aspose.com/temporary-license/) 단기 사용을 위한 옵션입니다.

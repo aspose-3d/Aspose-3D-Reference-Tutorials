@@ -16,7 +16,7 @@ url: /zh/java/3d-scenes-and-models/change-plane-orientation/
 在我们开始这一旅程之前，请确保您具备以下先决条件：
 
 - 对 Java 编程有基本的了解。
--  Aspose.3D for Java 已安装。你可以下载它[这里](https://releases.aspose.com/3d/java/).
+- Aspose.3D for Java 已安装。你可以下载它[这里](https://releases.aspose.com/3d/java/).
 - 适合 Java 编码的开发环境。
 
 ## 导入包
@@ -101,7 +101,7 @@ A1：是的，Aspose.3D 支持多种编程语言，包括 Java、.NET 等。
 
 ### Q2：Aspose.3D 可以免费试用吗？
 
-A2：当然！您可以通过访问免费试用版探索 Aspose.3D 的功能[这里](https://releases.aspose.com/).
+ A2：当然！您可以通过访问免费试用版探索 Aspose.3D 的功能[这里](https://releases.aspose.com/).
 
 ### Q3：哪里可以找到对 Aspose.3D 的支持？
 

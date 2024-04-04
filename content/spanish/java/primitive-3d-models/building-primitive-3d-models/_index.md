@@ -69,7 +69,7 @@ scene.save(myDir, FileFormat.FBX7500ASCII);
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.3D para Java con otros lenguajes de programación?
+### P1: ¿Puedo utilizar Aspose.3D para Java con otros lenguajes de programación?
 
 R1: Aspose.3D admite principalmente Java, pero hay versiones disponibles para otros lenguajes como .NET.
 

@@ -17,7 +17,7 @@ Bent u klaar om uw 3D-ontwikkelvaardigheden in Java te verbeteren? Duik in de we
 
 ## Genereer gegevens voor 3D-mazen in Java (normalen, raaklijnen, binormalen)
 
-Klaar om uw Java-projecten naar een hoger niveau te tillen?[Genereer gegevens voor 3D-mazen in Java (normalen, raaklijnen, binormalen)](./generate-mesh-data/) met Aspose.3D is de tutorial die je nodig hebt. Duik diep in de fijne kneepjes van 3D-graphics terwijl we u begeleiden bij het moeiteloos genereren van normale gegevens voor uw 3D-meshes. Leer hoe u de visuele aantrekkingskracht van uw projecten kunt vergroten en met vertrouwen door de wereld van 3D kunt navigeren.
+ Klaar om uw Java-projecten naar een hoger niveau te tillen?[Genereer gegevens voor 3D-mazen in Java (normalen, raaklijnen, binormalen)](./generate-mesh-data/)met Aspose.3D is de tutorial die je nodig hebt. Duik diep in de fijne kneepjes van 3D-graphics terwijl we u begeleiden bij het moeiteloos genereren van normale gegevens voor uw 3D-meshes. Leer hoe u de visuele aantrekkingskracht van uw projecten kunt vergroten en met vertrouwen door de wereld van 3D kunt navigeren.
 
 ## Splits 3D-mazen op materiaal voor efficiënte verwerking in Java
 

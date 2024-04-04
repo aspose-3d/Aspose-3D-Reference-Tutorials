@@ -16,7 +16,7 @@ Vítejte v tomto komplexním tutoriálu o rozdělení 3D sítí podle materiálu
 Než se vydáme na tuto vzrušující cestu, ujistěte se, že máte splněny následující předpoklady:
 
 - Základní znalost programování v Javě.
-- Nainstalovaná knihovna Aspose.3D for Java. Můžete si jej stáhnout z[Aspose webové stránky](https://releases.aspose.com/3d/java/).
+-  Nainstalovaná knihovna Aspose.3D for Java. Můžete si jej stáhnout z[Aspose webové stránky](https://releases.aspose.com/3d/java/).
 - Integrované vývojové prostředí (IDE) nastavené pro vývoj v Javě.
 
 ## Importujte balíčky
@@ -76,7 +76,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```java
 // Zobrazit zprávu o úspěchu
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
-//ExEnd:SplitMeshbyMaterial
+// ExEnd:SplitMeshbyMaterial
 ```
 
 ## Závěr
@@ -103,4 +103,4 @@ A2: Rozhodně! Tato metoda je vhodná pro složité 3D modely a optimalizuje jej
 
 ### Q5: Jak mohu získat podporu pro jakékoli problémy nebo dotazy?
 
-A5: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) za obětavou podporu od komunity.
+ A5: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) za obětavou podporu od komunity.

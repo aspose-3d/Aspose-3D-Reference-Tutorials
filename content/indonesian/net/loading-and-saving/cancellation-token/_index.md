@@ -1,6 +1,6 @@
 ---
-title: Memuat dan Menyimpan - Menggunakan CancellationToken
-linktitle: Memuat dan Menyimpan - Menggunakan CancellationToken
+title: Menggunakan CancellationToken
+linktitle: Menggunakan CancellationToken
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia pemodelan 3D yang mulus dengan Aspose.3D untuk .NET. Pelajari cara memuat dan menyimpan dokumen 3D secara efisien menggunakan CancellationToken.
 type: docs
@@ -78,7 +78,7 @@ catch (ImportException e)
 }
 ```
 
- Cobalah untuk membuka dokumen 3D dalam jangka waktu yang ditentukan. Itu`cts.Token`parameter memastikan bahwa operasi dapat dibatalkan jika melebihi batas waktu yang ditetapkan.
+ Cobalah untuk membuka dokumen 3D dalam jangka waktu yang ditentukan. Itu`cts.Token` parameter memastikan bahwa operasi dapat dibatalkan jika melebihi batas waktu yang ditetapkan.
 
 ### Langkah 5: Tangani Pengecualian Impor
 

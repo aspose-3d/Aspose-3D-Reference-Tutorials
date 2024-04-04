@@ -1,6 +1,6 @@
 ---
-title: Triangulerande nät i 3D-scener
-linktitle: Triangulerande nät i 3D-scener
+title: Triangulerande nät
+linktitle: Triangulerande nät
 second_title: Aspose.3D .NET API
 description: Utforska kraften i Aspose.3D för .NET i denna steg-för-steg-guide. Lär dig hur du enkelt triangulerar 3D-nät för förbättrad modellering.
 type: docs
@@ -17,7 +17,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 - Aspose.3D for .NET Library: Se till att du har Aspose.3D-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/net/).
 
-- Exempel på 3D-modell: Ha en 3D-modell i FBX-format som du vill triangulera. Du kan använda den medföljande[document.fbx](https://reference.aspose.com/3d/net/) fil för övning.
+-  Exempel på 3D-modell: Ha en 3D-modell i FBX-format som du vill triangulera. Du kan använda den medföljande[document.fbx](https://reference.aspose.com/3d/net/) fil för övning.
 
 ## Importera namnområden
 

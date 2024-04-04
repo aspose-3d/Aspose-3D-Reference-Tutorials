@@ -1,6 +1,6 @@
 ---
-title: Zrozumienie hierarchii węzłów w scenach 3D
-linktitle: Zrozumienie hierarchii węzłów w scenach 3D
+title: Zrozumienie hierarchii węzłów
+linktitle: Zrozumienie hierarchii węzłów
 second_title: Aspose.3D API .NET
 description: Odblokuj moc Aspose.3D dla .NET! Zanurz się w manipulację hierarchią węzłów, korzystając z tego przewodnika krok po kroku. Twórz oszałamiające sceny 3D bez wysiłku.
 type: docs
@@ -17,7 +17,7 @@ Zanim wyruszymy w tę podróż 3D, upewnij się, że spełniasz następujące wy
 
 -  Biblioteka Aspose.3D dla .NET: Upewnij się, że biblioteka Aspose.3D jest zintegrowana z projektem .NET. Jeśli jeszcze tego nie zrobiłeś, przejdź do[dokumentacja](https://reference.aspose.com/3d/net/) w celu uzyskania pomocy.
 
--  Pobierz bibliotekę: Jeśli nie pobrałeś biblioteki Aspose.3D, pobierz najnowszą wersję z[link do pobrania](https://releases.aspose.com/3d/net/) postępuj zgodnie z instrukcjami instalacji zawartymi w dokumentacji.
+-  Pobierz bibliotekę: Jeśli nie pobrałeś biblioteki Aspose.3D, pobierz najnowszą wersję z[link do pobrania](https://releases.aspose.com/3d/net/) i postępuj zgodnie z instrukcjami instalacji zawartymi w dokumentacji.
 
 -  Zdobądź licencję: Aby odblokować pełny potencjał Aspose.3D, potrzebujesz ważnej licencji. Jeśli go nie masz, możesz go zdobyć[Tutaj](https://purchase.aspose.com/buy) lub zdecyduj się na[bezpłatna wersja próbna](https://releases.aspose.com/) aby poznać jego możliwości.
 

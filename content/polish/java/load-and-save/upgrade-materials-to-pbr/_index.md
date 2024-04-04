@@ -93,11 +93,11 @@ Odpowiedź 1: Tak, Aspose.3D jest kompatybilny z różnymi środowiskami program
 
 ### P3: Czy dostępny jest bezpłatny okres próbny?
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P4: Gdzie mogę znaleźć wsparcie dla Aspose.3D?
 
- A4: Poznaj[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczne.
+ A4: Poznaj[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności.
 
 ### P5: Jak uzyskać tymczasową licencję na Aspose.3D?
 

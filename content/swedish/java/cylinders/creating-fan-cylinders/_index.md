@@ -15,7 +15,7 @@ url: /sv/java/cylinders/creating-fan-cylinders/
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
--  Java Development Kit (JDK): Se till att du har JDK installerat på ditt system. Du kan ladda ner den[här](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Se till att du har JDK installerat på ditt system. Du kan ladda ner den[här](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 -  Aspose.3D for Java: Ladda ner och installera Aspose.3D-biblioteket för Java från[nedladdningslänk](https://releases.aspose.com/3d/java/).
 
@@ -101,7 +101,7 @@ Grattis! Du har framgångsrikt skapat anpassade fläktcylindrar med Aspose.3D f�
 
 ## Slutsats
 
-den här handledningen utforskade vi processen att utnyttja Aspose.3D för Java för att skapa personliga fläktcylindrar i en 3D-scen. Mångsidigheten hos Aspose.3D ger utvecklare möjlighet att förbättra sina 3D-modelleringsprojekt med lätthet.
+I den här handledningen utforskade vi processen att utnyttja Aspose.3D för Java för att skapa personliga fläktcylindrar i en 3D-scen. Mångsidigheten hos Aspose.3D ger utvecklare möjlighet att förbättra sina 3D-modelleringsprojekt med lätthet.
 
 ## FAQ's
 

@@ -63,7 +63,7 @@ Neste tutorial, exploramos o processo contínuo de detecção eficiente de forma
 
 ## Perguntas frequentes
 
-### Q1: Posso usar Aspose.3D para Java com outras bibliotecas Java?
+### Q1: Posso usar Aspose.3D for Java com outras bibliotecas Java?
 
 A1: Sim, o Aspose.3D foi projetado para integração perfeita com outras bibliotecas Java, proporcionando flexibilidade em sua pilha de desenvolvimento.
 
@@ -81,4 +81,4 @@ A2: Com certeza! Aspose.3D oferece uma interface amigável para iniciantes, ao m
 
 ### P5: Onde posso procurar ajuda se encontrar problemas com o Aspose.3D?
 
-A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) procurar assistência da comunidade e de especialistas.
+ A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) procurar assistência da comunidade e de especialistas.

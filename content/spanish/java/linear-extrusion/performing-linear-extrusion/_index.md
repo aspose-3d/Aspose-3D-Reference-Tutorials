@@ -9,7 +9,7 @@ url: /es/java/linear-extrusion/performing-linear-extrusion/
 ---
 ## Introducción
 
-¡Bienvenido a este completo tutorial sobre cómo realizar una extrusión lineal en Aspose.3D para Java! Si buscas mejorar tus habilidades de modelado 3D usando Java, estás en el lugar correcto. En este tutorial, lo guiaremos a través del proceso de realizar una extrusión lineal usando Aspose.3D, una poderosa biblioteca Java para modelado 3D.
+¡Bienvenido a este completo tutorial sobre cómo realizar una extrusión lineal en Aspose.3D para Java! Si buscas mejorar tus habilidades de modelado 3D usando Java, estás en el lugar correcto. En este tutorial, lo guiaremos a través del proceso de realizar una extrusión lineal usando Aspose.3D, una potente biblioteca Java para modelado 3D.
 
 ## Requisitos previos
 

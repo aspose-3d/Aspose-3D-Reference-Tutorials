@@ -45,7 +45,7 @@ Créons maintenant le premier cylindre avec un fond cisaillé :
 // Créer le cylindre 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // Fond de cisaillement personnalisé pour cylindre 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // Cisaillement de 47,5 degrés dans le plan xy (axe z)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //Cisaillement de 47,5 degrés dans le plan xy (axe z)
 // Ajouter le cylindre 1 à la scène
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // ExFin : 4

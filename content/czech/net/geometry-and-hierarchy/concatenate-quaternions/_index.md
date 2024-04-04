@@ -1,6 +1,6 @@
 ---
-title: Zřetězení kvaternionů ve 3D scénách
-linktitle: Zřetězení kvaternionů ve 3D scénách
+title: Zřetězení kvaternionů
+linktitle: Zřetězení kvaternionů
 second_title: Aspose.3D .NET API
 description: Prozkoumejte sílu manipulace se čtveřicí ve 3D scénách s Aspose.3D pro .NET. Naučte se zřetězit čtveřice krok za krokem pro pohlcující transformace.
 type: docs
@@ -96,7 +96,7 @@ Odpověď 2: Ano, Aspose.3D for .NET je navržen tak, aby bezproblémově spolup
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.3D pro .NET?
 
- A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat podporu pro Aspose.3D pro .NET?
 

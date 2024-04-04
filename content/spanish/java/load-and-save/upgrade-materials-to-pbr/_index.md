@@ -93,7 +93,7 @@ R1: Sí, Aspose.3D es compatible con varios entornos de desarrollo Java.
 
 ### P3: ¿Hay una prueba gratuita disponible?
 
- R3: Sí, puedes acceder a una prueba gratuita[aquí](https://releases.aspose.com/).
+R3: Sí, puedes acceder a una prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P4: ¿Dónde puedo encontrar soporte para Aspose.3D?
 

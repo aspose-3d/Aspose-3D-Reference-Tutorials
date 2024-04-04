@@ -41,7 +41,7 @@ using System.Threading.Tasks;
 3D シーンをロードすることから始めます。この例では、テクスチャが埋め込まれた FBX ファイルを使用します。
 
 ```csharp
-//例開始: Load3DScene
+//ExStart: Load3DScene
 string dataDir = "Your Document Directory";
 Scene scene = new Scene(dataDir + "EmbeddedTexture.fbx");
 //ExEnd: Load3DScene

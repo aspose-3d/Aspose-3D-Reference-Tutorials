@@ -9,7 +9,7 @@ url: /de/java/linear-extrusion/controlling-center/
 ---
 ## Einführung
 
-In der Welt der 3D-Grafik und der Java-Programmierung spielt die Steuerung des Zentrums bei der linearen Extrusion eine entscheidende Rolle, um die gewünschten Effekte in Ihren Projekten zu erzielen. Aspose.3D für Java bietet ein leistungsstarkes Toolkit zur nahtlosen Bewältigung solcher Aufgaben. In diesem Tutorial befassen wir uns mit dem Prozess der Steuerung des Zentrums bei der linearen Extrusion mit Aspose.3D für Java und schlüsseln jeden Schritt auf, um ein reibungsloses und umfassendes Verständnis zu gewährleisten.
+In der Welt der 3D-Grafik und der Java-Programmierung spielt die Steuerung des Zentrums bei der linearen Extrusion eine entscheidende Rolle, um die gewünschten Effekte in Ihren Projekten zu erzielen. Aspose.3D für Java bietet ein leistungsstarkes Toolkit zur nahtlosen Bewältigung solcher Aufgaben. In diesem Tutorial tauchen wir in den Prozess der Steuerung des Zentrums bei der linearen Extrusion mit Aspose.3D für Java ein und schlüsseln jeden Schritt auf, um ein reibungsloses und umfassendes Verständnis zu gewährleisten.
 
 ## Voraussetzungen
 

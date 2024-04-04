@@ -44,7 +44,7 @@ scene.RootNode.CreateChildNode("light", light = new Light()
     //光源配置...
 }).Transform.Translation = new Vector3(9.4785, 5, 3.18);
 ```
-向场景添加光源。配置颜色、阴影和衰减等参数以获得逼真的灯光效果。
+向场景添加光源。配置颜色、阴影和衰减等参数以获得逼真的照明效果。
 ## 第 3 步：在场景中创建对象
 ```csharp
 Node plane = scene.RootNode.CreateChildNode("plane", new Plane(20, 20));
@@ -55,9 +55,9 @@ Node plane = scene.RootNode.CreateChildNode("plane", new Plane(20, 20));
 ```csharp
 scene.Render(camera, "Your Output Directory" + "CastAndReceiveShadow_out.png", new Size(1024, 1024), ImageFormat.Png, opt);
 ```
-使用指定的相机渲染配置的场景并将输出图像保存到指定目录。
+使用指定相机渲染配置的场景并将输出图像保存到指定目录。
 ## 结论
-恭喜！您已成功探索了使用 Aspose.3D for .NET 在 3D 场景中投射和接收阴影的基础知识。这个强大的库为您在应用程序中创建身临其境且引人入胜的视觉体验开辟了无限的可能性。
+恭喜！您已成功探索了使用 Aspose.3D for .NET 在 3D 场景中投射和接收阴影的基础知识。这个强大的库为您在应用程序中创建身临其境且引人入胜的视觉体验提供了无限的可能性。
 ## 经常问的问题
 ### 问：我可以进一步自定义阴影属性吗？
 答：是的，Aspose.3D 提供了广泛的选项来微调阴影设置，包括阴影颜色、强度等。

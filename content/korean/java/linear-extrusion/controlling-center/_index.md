@@ -107,7 +107,7 @@ Java용 Aspose.3D를 사용하여 선형 압출에서 중심을 제어하면 3D 
 
 ## FAQ
 
-### Q1: 상용 프로젝트에서 Java용 Aspose.3D를 사용할 수 있나요?
+### Q1: 상용 프로젝트에서 Java용 Aspose.3D를 사용할 수 있습니까?
 
  A1: 예, Java용 Aspose.3D는 상업용으로 사용할 수 있습니다. 라이선스에 대한 자세한 내용을 보려면 다음을 방문하세요.[여기](https://purchase.aspose.com/buy).
 

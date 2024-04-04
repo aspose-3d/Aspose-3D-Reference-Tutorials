@@ -1,6 +1,6 @@
 ---
-title: 3डी दृश्यों में मेश ज्योमेट्री डेटा के साथ कार्य करना
-linktitle: 3डी दृश्यों में मेश ज्योमेट्री डेटा के साथ कार्य करना
+title: मेष ज्यामिति डेटा के साथ कार्य करना
+linktitle: मेष ज्यामिति डेटा के साथ कार्य करना
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D के साथ 3D ग्राफिक्स प्रोग्रामिंग की कला में महारत हासिल करें। आश्चर्यजनक 3D दृश्यों को सहजता से बनाएं, हेरफेर करें और सहेजें।
 type: docs
@@ -17,7 +17,7 @@ url: /hi/net/geometry-and-hierarchy/mesh-geometry-data/
 
 - C# और .NET प्रोग्रामिंग का कार्यसाधक ज्ञान।
 - आपकी मशीन पर विज़ुअल स्टूडियो स्थापित है।
--  .NET लाइब्रेरी के लिए Aspose.3D, जिसे आप डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/3d/net/).
+- .NET लाइब्रेरी के लिए Aspose.3D, जिसे आप डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/3d/net/).
 
 अब जब आप पूरी तरह तैयार हो गए हैं, तो आइए 3डी ग्राफ़िक्स प्रोग्रामिंग की आकर्षक दुनिया में कूदें!
 
@@ -95,7 +95,7 @@ foreach (Vector3 color in colors)
 // दस्तावेज़ निर्देशिका का पथ.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
+// समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

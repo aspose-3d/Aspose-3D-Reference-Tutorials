@@ -82,7 +82,7 @@ Gefeliciteerd! Je hebt met succes geleerd hoe je segmenten kunt specificeren in 
 
  A2: Raadpleeg de documentatie[hier](https://reference.aspose.com/3d/java/).
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+### Vraag 3: Is er een gratis proefperiode beschikbaar?
 
  A3: Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
 

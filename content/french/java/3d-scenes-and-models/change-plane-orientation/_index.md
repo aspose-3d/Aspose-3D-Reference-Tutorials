@@ -16,7 +16,7 @@ Bienvenue dans notre guide étape par étape sur l'amélioration du positionneme
 Avant de nous lancer dans cette aventure, assurez-vous d’avoir les conditions préalables suivantes en place :
 
 - Une compréhension de base de la programmation Java.
--  Aspose.3D pour Java installé. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/java/).
+- Aspose.3D pour Java installé. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/java/).
 - Un environnement de développement prêt pour le codage Java.
 
 ## Importer des packages
@@ -101,7 +101,7 @@ A1 : Oui, Aspose.3D prend en charge divers langages de programmation, notamment 
 
 ### Q2 : Un essai gratuit est-il disponible pour Aspose.3D ?
 
-A2 : Certainement ! Vous pouvez explorer les fonctionnalités d'Aspose.3D en accédant à l'essai gratuit[ici](https://releases.aspose.com/).
+ A2 : Certainement ! Vous pouvez explorer les fonctionnalités d'Aspose.3D en accédant à l'essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q3 : Où puis-je trouver de l'assistance pour Aspose.3D ?
 

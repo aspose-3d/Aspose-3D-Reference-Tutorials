@@ -97,4 +97,4 @@ scene.save(MyDir, FileFormat.DISCREET3DS);
 
 ### P5: ¿Cómo puedo obtener una licencia temporal?
 
-R5: Puedes adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ R5: Puedes adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).

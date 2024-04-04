@@ -1,8 +1,8 @@
 ---
-title: 로드 및 저장 - 사용자 정의 저장 옵션
-linktitle: 로드 및 저장 - 사용자 정의 저장 옵션
+title: 사용자 정의 저장 옵션
+linktitle: 사용자 정의 저장 옵션
 second_title: Aspose.3D .NET API
-description: .NET용 Aspose.3D의 강력한 기능을 살펴보세요. Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC 및 RVM 형식에 대한 단계별 가이드를 통해 3D 장면 저장을 사용자 정의하는 방법을 알아보세요.
+description: .NET용 Aspose.3D의 강력한 기능을 살펴보세요. Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC 및 RVM 형식에 대한 단계별 가이드를 통해 3D 장면 저장을 사용자 정의하는 방법을 알아보세요.
 type: docs
 weight: 21
 url: /ko/net/loading-and-saving/custom-save-options/

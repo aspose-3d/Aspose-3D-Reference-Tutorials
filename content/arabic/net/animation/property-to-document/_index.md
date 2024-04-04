@@ -15,7 +15,7 @@ url: /ar/net/animation/property-to-document/
 
 قبل أن نبدأ هذه الرحلة المثيرة، تأكد من توفر المتطلبات الأساسية التالية:
 
-- Aspose.3D لـ .NET: تأكد من تثبيت المكتبة. يمكنك تنزيله من[موقع Aspose.3D](https://releases.aspose.com/3d/net/).
+-  Aspose.3D لـ .NET: تأكد من تثبيت المكتبة. يمكنك تنزيله من[موقع Aspose.3D](https://releases.aspose.com/3d/net/).
 
 - معرفة لغة C#: يعد الإلمام بلغة البرمجة C# أمرًا ضروريًا لفهم الأمثلة وتنفيذها.
 

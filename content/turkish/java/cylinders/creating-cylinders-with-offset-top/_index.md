@@ -16,7 +16,7 @@ Java tabanlı 3D modelleme alanında Aspose.3D, geliştiricilere karmaşık 3D s
 Bu yaratıcı yolculuğa çıkmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
 - Java Geliştirme Kiti (JDK): Aspose.3D for Java, makinenizde uyumlu bir JDK'nın kurulu olmasını gerektirir.
-- Aspose.3D Kütüphanesi: Aspose.3D kütüphanesini indirin ve Java projenize entegre edin. Kütüphaneyi ve ayrıntılı belgeleri bulabilirsiniz.[Burada](https://releases.aspose.com/3d/java/).
+-  Aspose.3D Kütüphanesi: Aspose.3D kütüphanesini indirin ve Java projenize entegre edin. Kütüphaneyi ve ayrıntılı belgeleri bulabilirsiniz.[Burada](https://releases.aspose.com/3d/java/).
 
 ## Paketleri İçe Aktar
 
@@ -38,7 +38,7 @@ import java.io.IOException;
 
 ```java
 // ExStart:1
-// Bir sahne yarat
+// Bir sahne oluştur
 Scene scene = new Scene();
 // ExEnd:1
 ```
@@ -73,7 +73,7 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 
 ```java
 // ExStart:4
-//Özelleştirilmiş OffsetTop olmadan ikinci silindiri başlatın
+// Özelleştirilmiş OffsetTop olmadan ikinci silindiri başlatın
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExBitiş:4
 ```
@@ -95,7 +95,7 @@ Son olarak, oluşturulan silindirlerin bulunduğu sahneyi Wavefront OBJ dosyası
 
 ```java
 // ExStart:6
-// Kaydetmek
+//Kaydetmek
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // ExBitiş:6
 ```
@@ -118,7 +118,7 @@ A2: Kesinlikle! Aspose.3D, 3D modellerinizin görsel çekiciliğini artırmak i�
 
 ### S3: Aspose.3D için herhangi bir lisanslama seçeneği mevcut mu?
 
- Cevap3: Evet, ihtiyaçlarınıza uygun lisanslama seçeneğini araştırıp seçebilirsiniz.[Burada](https://purchase.aspose.com/buy).
+Cevap3: Evet, ihtiyaçlarınıza uygun lisanslama seçeneğini araştırıp seçebilirsiniz.[Burada](https://purchase.aspose.com/buy).
 
 ### S4: Aspose.3D ile nasıl yardım isteyebilirim veya deneyimlerimi paylaşabilirim?
 

@@ -45,7 +45,7 @@ Scene scene = new Scene("Your Document Directory" + "test.fbx");
 
 ```java
 // คำจำกัดความของโครงสร้างสำหรับรูปแบบไบนารีที่กำหนดเอง
-// ...
+// -
 ```
 
 ## ขั้นตอนที่ 3: บันทึก 3D Meshes ในรูปแบบไบนารีที่กำหนดเอง
@@ -101,7 +101,7 @@ try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new
 
 ## บทสรุป
 
-เมื่อทำตามบทช่วยสอนนี้ คุณได้เรียนรู้วิธีใช้ Aspose.3D สำหรับ Java เพื่อบันทึก 3D mesh ในรูปแบบไบนารีแบบกำหนดเอง ซึ่งช่วยเพิ่มความยืดหยุ่นให้กับแอปพลิเคชัน Java ของคุณ
+เมื่อทำตามบทช่วยสอนนี้ คุณได้เรียนรู้วิธีใช้ Aspose.3D สำหรับ Java เพื่อบันทึก 3D meshes ในรูปแบบไบนารีแบบกำหนดเอง ซึ่งช่วยเพิ่มความยืดหยุ่นให้กับแอปพลิเคชัน Java ของคุณ
 
 ## คำถามที่พบบ่อย
 
@@ -115,7 +115,7 @@ try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new
 
 ### คำถามที่ 3: ฉันจะรับการสนับสนุนสำหรับ Aspose.3D สำหรับ Java ได้ที่ไหน
 
- A3: เยี่ยมชม[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18)สำหรับความช่วยเหลือหรือข้อสงสัยใด ๆ
+ A3: เยี่ยมชม[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) สำหรับความช่วยเหลือหรือข้อสงสัยใด ๆ
 
 ### คำถามที่ 4: มีโมเดล 3D ตัวอย่างสำหรับการทดสอบหรือไม่
 

@@ -16,8 +16,8 @@ url: /hi/net/3d-scene/flip-coordinate-system/
 ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित शर्तें हैं:
 
 - C# प्रोग्रामिंग भाषा की बुनियादी समझ।
-- .NET लाइब्रेरी के लिए Aspose.3D स्थापित किया गया। आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/3d/net/).
-- समर्थित प्रारूप में एक नमूना 3D फ़ाइल (उदाहरण के लिए, .3ds)।
+-  .NET लाइब्रेरी के लिए Aspose.3D स्थापित किया गया। आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/3d/net/).
+- समर्थित प्रारूप में एक नमूना 3डी फ़ाइल (उदाहरण के लिए, .ma)।
 
 ## नामस्थान आयात करें
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // इनपुट फ़ाइल का पथ
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // दृश्य वस्तु आरंभ करें
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
  इस चरण में, हम निर्दिष्ट फ़ाइल पथ से एक 3D दृश्य लोड करते हैं`Open` तरीका।
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
  अब, हम इसका उपयोग करते हैं`Save` प्रक्रिया में समन्वय प्रणाली को पलटते हुए, दृश्य को निर्यात करने की विधि। आउटपुट वेवफ्रंट ओबीजे प्रारूप में सहेजा गया है।

@@ -17,7 +17,7 @@ url: /es/java/3d-mesh-data/
 
 ## Generar datos para mallas 3D en Java (normales, tangentes, binormales)
 
-¿Listo para llevar tus proyectos Java al siguiente nivel?[Generar datos para mallas 3D en Java (normales, tangentes, binormales)](./generate-mesh-data/) con Aspose.3D es el tutorial que necesitas. Sumérgete en las complejidades de los gráficos 3D mientras te guiamos para generar sin esfuerzo datos normales para tus mallas 3D. Aprenda cómo mejorar el atractivo visual de sus proyectos y navegue por el mundo del 3D con confianza.
+ ¿Listo para llevar tus proyectos Java al siguiente nivel?[Generar datos para mallas 3D en Java (normales, tangentes, binormales)](./generate-mesh-data/)con Aspose.3D es el tutorial que necesitas. Sumérgete en las complejidades de los gráficos 3D mientras te guiamos para generar sin esfuerzo datos normales para tus mallas 3D. Aprenda cómo mejorar el atractivo visual de sus proyectos y navegue por el mundo del 3D con confianza.
 
 ## Divida mallas 3D por material para un procesamiento eficiente en Java
 

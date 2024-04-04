@@ -1,6 +1,6 @@
 ---
-title: 在 3D 场景中的立方体上设置 UV
-linktitle: 在 3D 场景中的立方体上设置 UV
+title: 在立方体上设置 UV
+linktitle: 在立方体上设置 UV
 second_title: Aspose.3D .NET API
 description: 了解使用 Aspose.3D for .NET 在 3D 立方体上设置 UV 映射。通过精确的纹理映射创建视觉上令人惊叹的场景。
 type: docs

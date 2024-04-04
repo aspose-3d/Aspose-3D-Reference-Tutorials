@@ -1,6 +1,6 @@
 ---
-title: 3D 장면에서 메시 형상 데이터 작업
-linktitle: 3D 장면에서 메시 형상 데이터 작업
+title: 메시 형상 데이터 작업
+linktitle: 메시 형상 데이터 작업
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 그래픽 프로그래밍 기술을 마스터하세요. 놀라운 3D 장면을 손쉽게 생성, 조작 및 저장하세요.
 type: docs
@@ -17,7 +17,7 @@ url: /ko/net/geometry-and-hierarchy/mesh-geometry-data/
 
 - C# 및 .NET 프로그래밍에 대한 실무 지식.
 - 컴퓨터에 Visual Studio가 설치되어 있습니다.
--  다운로드할 수 있는 .NET 라이브러리용 Aspose.3D[여기](https://releases.aspose.com/3d/net/).
+- 다운로드할 수 있는 .NET 라이브러리용 Aspose.3D[여기](https://releases.aspose.com/3d/net/).
 
 이제 모든 준비가 완료되었으므로 3D 그래픽 프로그래밍의 매혹적인 세계로 뛰어들어 봅시다!
 
@@ -95,7 +95,7 @@ foreach (Vector3 color in colors)
 // 문서 디렉터리의 경로입니다.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//지원되는 파일 형식으로 3D 장면 저장
+// 지원되는 파일 형식으로 3D 장면 저장
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

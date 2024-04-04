@@ -16,7 +16,7 @@ url: /ar/java/3d-mesh-data/generate-mesh-data/
 قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
 
 - المعرفة الأساسية ببرمجة جافا.
--  تم تثبيت Aspose.3D لـ Java. يمكنك تنزيله[هنا](https://releases.aspose.com/3d/java/).
+- تم تثبيت Aspose.3D لـ Java. يمكنك تنزيله[هنا](https://releases.aspose.com/3d/java/).
 - ملف ثلاثي الأبعاد بصيغة 3ds. سنستخدم "camera.3ds" كمثال.
 
 ## حزم الاستيراد
@@ -82,7 +82,7 @@ System.out.println("\nNormal data generated successfully for all meshes.");
 
 ### س2: هل يمكنني استخدام Aspose.3D لأغراض تجارية؟
 
- ج2: بالتأكيد! يمكنك شراء Aspose.3D لـ Java[هنا](https://purchase.aspose.com/buy).
+ ج2: بالتأكيد! يمكنك شراء Aspose.3D لجافا[هنا](https://purchase.aspose.com/buy).
 
 ### س3: هل هناك نسخة تجريبية مجانية متاحة؟
 

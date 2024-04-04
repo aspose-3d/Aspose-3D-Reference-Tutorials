@@ -20,20 +20,13 @@ Zde jsou odkazy na některé užitečné zdroje:
  
 - [3D modelování](./net/3d-modeling/)
 - [3D scéna](./net/3d-scene/)
-- [3D výřezy](./net/3d-viewports/)
 - [Animace](./net/animation/)
-- [Informace o majetku](./net/asset-information/)
 - [Geometrie a hierarchie](./net/geometry-and-hierarchy/)
 - [Licence](./net/license/)
 - [Načítání a ukládání](./net/loading-and-saving/)
 - [Materiály](./net/materials/)
-- [Polygony](./net/polygons/)
 - [Vykreslování](./net/rendering/)
-- [Lineární vytlačování](./net/linear-extrusion/)
-- [Objekty](./net/objects/)
-- [Práce s válcem](./net/working-with-cylinder/)
-- [Práce s mrakem bodů](./net/working-with-point-cloud/)
-- [Práce s VRML](./net/working-with-vrml/)
+- [Sítě](./net/meshes/)
 
 ## Aspose.3D for Java Tutoriály
 {{% alert color="primary" %}}

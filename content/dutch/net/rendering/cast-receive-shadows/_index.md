@@ -35,7 +35,7 @@ Scene scene = new Scene();
 Camera camera = new Camera();
 // Extra camera-installatiecode...
 ```
- Maak een 3D-scène en stel een camera in om de scène te bekijken. Pas cameraparameters aan, zoals`NearPlane` En`LookAt` voor een optimale weergave.
+Maak een 3D-scène en stel een camera in om de scène te bekijken. Pas cameraparameters aan, zoals`NearPlane` En`LookAt` voor een optimale weergave.
 ## Stap 2: Introduceer de lichtbron
 ```csharp
 Light light;
@@ -63,7 +63,7 @@ Gefeliciteerd! Je hebt met succes de basisbeginselen van het werpen en ontvangen
 A: Ja, Aspose.3D biedt uitgebreide opties om schaduwinstellingen te verfijnen, inclusief schaduwkleur, intensiteit en meer.
 ### Vraag: Hoe kan ik de weergaveprestaties optimaliseren?
 A: Overweeg om de complexiteit van de scène aan te passen, efficiënte materialen te gebruiken en lichtbronnen te optimaliseren om de weergavesnelheid te verbeteren.
-### Vraag: Ondersteunt Aspose.3D andere 3D-bestandsindelingen?
+### Vraag: Ondersteunt Aspose.3D andere 3D-bestandsformaten?
 A: Ja, Aspose.3D ondersteunt een breed scala aan 3D-bestandsformaten, waardoor het veelzijdig is voor verschillende projectvereisten.
 ### Vraag: Is er een communityforum voor Aspose.3D-ondersteuning?
  A: Ja, u kunt ondersteuning vinden en in contact komen met de gemeenschap op de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18).

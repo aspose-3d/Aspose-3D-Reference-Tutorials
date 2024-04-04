@@ -1,8 +1,8 @@
 ---
-title: Yükleme ve Kaydetme - Özel Kaydetme Seçenekleri
-linktitle: Yükleme ve Kaydetme - Özel Kaydetme Seçenekleri
+title: Özel Kaydetme Seçenekleri
+linktitle: Özel Kaydetme Seçenekleri
 second_title: Aspose.3D .NET API'si
-description: Aspose.3D for .NET'in gücünü keşfedin. Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC ve RVM formatlarındaki adım adım kılavuzlarla 3B sahne kaydetmenizi nasıl özelleştireceğinizi öğrenin.
+description: Aspose.3D for .NET'in gücünü keşfedin. Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC ve RVM formatlarındaki adım adım kılavuzlarla 3D sahne kaydetmenizi nasıl özelleştireceğinizi öğrenin.
 type: docs
 weight: 21
 url: /tr/net/loading-and-saving/custom-save-options/

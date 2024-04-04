@@ -80,7 +80,7 @@ A1: Ja, Aspose.3D kan worden geïntegreerd met andere Java 3D-bibliotheken voor 
 
  A2: Raadpleeg de documentatie[hier](https://reference.aspose.com/3d/java/) voor diepgaande informatie.
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+### Vraag 3: Is er een gratis proefperiode beschikbaar?
 
  A3: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
 
@@ -90,4 +90,4 @@ A1: Ja, Aspose.3D kan worden geïntegreerd met andere Java 3D-bibliotheken voor 
 
 ### Vraag 5: Heeft u hulp nodig of wilt u met de gemeenschap praten?
 
-A5: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) voor ondersteuning en discussies.
+ A5: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) voor ondersteuning en discussies.

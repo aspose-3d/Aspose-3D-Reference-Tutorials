@@ -41,12 +41,24 @@ using System.Text;
 โหลดไฟล์ 3D ของคุณโดยใช้ Aspose.3D ในตัวอย่างนี้ เราโหลดไฟล์ชื่อ "test.fbx":
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## ขั้นตอนที่ 2: กำหนดรูปแบบไบนารีแบบกำหนดเอง
 
 กำหนดโครงสร้างของรูปแบบไบนารีแบบกำหนดเองที่คุณต้องการบันทึก 3D Meshes ของคุณ ตัวอย่างนี้ใช้โครงสร้างที่มี MeshBlock, Vertex และ Triangle เป็นส่วนประกอบ
+
+```csharp
+// รูปแบบหน่วยความจำของจุดยอดคือ
+// ตำแหน่งลอย [3];
+// ลอย [3] ปกติ;
+// ลอย[3]ยูวี;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## ขั้นตอนที่ 3: เปิดไฟล์เพื่อเขียน
 
@@ -79,11 +91,30 @@ scene.RootNode.Accept(delegate(Node node)
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (เขียนจุดควบคุมและดัชนีสามเหลี่ยมต่อไป)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//เค้าโครงหน่วยความจำของ mesh คือ:
+// ลอย [16] แปลง_เมทริกซ์;
+// int vertices_count;
+// ดัชนี int_count;
+// จุดยอด [vertices_count] จุดยอด;
+// ushort[indices_count] ดัชนี;
+
+
+//เขียนการแปลง
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//เขียนจำนวนจุดยอด/ดัชนี
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//เขียนจุดยอดและดัชนี
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## บทสรุป
@@ -98,7 +129,7 @@ Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
 ### คำถามที่ 2: ฉันจะหาตัวอย่างและแหล่งข้อมูลเพิ่มเติมได้จากที่ไหน
 
- A2: เดอะ[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) เป็นสถานที่ที่ดีในการค้นหาการสนับสนุน ตัวอย่าง และการมีส่วนร่วมกับชุมชน
+ A2: เดอะ[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18)เป็นสถานที่ที่ดีในการค้นหาการสนับสนุน ตัวอย่าง และการมีส่วนร่วมกับชุมชน
 
 ### คำถามที่ 3: Aspose.3D มีเวอร์ชันทดลองใช้งานหรือไม่
 

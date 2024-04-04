@@ -86,7 +86,7 @@ scene.render(camera, output, new Dimension(1024, 1024), "png");
 
 ### س4: أين يمكنني شراء Aspose.3D لـ Java؟
 
- ج4: قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على الترخيص الخاص بك وفتح الميزات المميزة.
+ ج4: قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على الترخيص الخاص بك وفتح الميزات المتميزة.
 
 ### س5: هل يمكنني تجربة Aspose.3D لـ Java قبل الشراء؟
 

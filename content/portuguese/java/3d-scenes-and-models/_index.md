@@ -13,7 +13,7 @@ Você está pronto para elevar seus aplicativos Java a novos patamares em gráfi
 
 ## Modifique a orientação do plano para posicionamento preciso da cena 3D em Java
 
- Mergulhe no mundo cativante do posicionamento de cenas 3D em Java com Aspose.3D. Nosso tutorial sobre[Modificar orientação do plano](./change-plane-orientation/) irá capacitá-lo a aumentar a precisão. Aprenda como modificar a orientação do plano para obter uma experiência 3D visualmente impressionante e precisa. Baixe agora e testemunhe a transformação em seus aplicativos Java.
+ Mergulhe no mundo cativante do posicionamento de cenas 3D em Java com Aspose.3D. Nosso tutorial sobre[Modificar orientação do plano](./change-plane-orientation/) irá capacitá-lo a aumentar a precisão. Aprenda como modificar a orientação do plano para obter uma experiência 3D visualmente deslumbrante e precisa. Baixe agora e testemunhe a transformação em seus aplicativos Java.
 
 ## Compacte cenas 3D para armazenamento e compartilhamento eficientes com Aspose.3D para Java
 

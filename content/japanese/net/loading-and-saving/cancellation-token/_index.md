@@ -1,6 +1,6 @@
 ---
-title: ロードと保存 - cancelToken の使用
-linktitle: ロードと保存 - cancelToken の使用
+title: CancelToken の使用
+linktitle: CancelToken の使用
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して、シームレスな 3D モデリングの世界を探索してください。 CancelToken を使用して 3D ドキュメントを効率的にロードおよび保存する方法を学びます。
 type: docs
@@ -111,7 +111,7 @@ catch (ImportException e)
 
 ### Q3: Aspose.3D のサポートはどこで見つけられますか?
 
- A3: コミュニティのディスカッションに参加してください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18).
+ A3: コミュニティ ディスカッションに参加してください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18).
 
 ### Q4: 購入する前に、Aspose.3D を無料で試すことはできますか?
 

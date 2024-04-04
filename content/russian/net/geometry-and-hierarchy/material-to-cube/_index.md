@@ -1,6 +1,6 @@
 ---
-title: Применение материала к кубу в 3D-сценах
-linktitle: Применение материала к кубу в 3D-сценах
+title: Применение материала к кубу
+linktitle: Применение материала к кубу
 second_title: Aspose.3D .NET API
 description: Изучите Aspose.3D для .NET, ваш путь к беспрепятственному манипулированию 3D-графикой. Легко применяйте материалы, повышайте реалистичность и совершенствуйте свои проекты.
 type: docs
@@ -42,17 +42,12 @@ using System.IO;
 // Инициализировать объект сцены
 Scene scene = new Scene();
 
-// Инициализировать объект узла куба
-Node cubeNode = new Node("cube");
+// Создайте экземпляр коробки.
+var box = new Box();
 
-// Вызов общего класса создает сетку, используя метод построения полигонов, чтобы установить экземпляр сетки.
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+// Прикрепить экземпляр коробки к сцене
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//Наведите узел на сетку
-cubeNode.Entity = mesh;
-
-// Добавляем куб в сцену
-scene.RootNode.ChildNodes.Add(cubeNode);
 // ExEnd:InitializeSceneAndCube
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 // Установить локальный путь к файлу текстуры
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 // Установить текстуру материала
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,8 +77,8 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 // Установить двоичный контент
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-//ExEnd:EmbedRawContentData
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
+// ExEnd:EmbedRawContentData
 ```
 
 ## Шаг 4: Установите свойства материала
@@ -105,11 +100,11 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart:Сохранить3DScene
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
-//Сохранение 3D-сцены в поддерживаемых форматах файлов.
-scene.Save(output, FileFormat.FBX7400ASCII);
-// ExEnd:Сохранить3DScene
+// Сохранение 3D-сцены в поддерживаемых форматах файлов.
+scene.Save(output);
+//ExEnd:Сохранить3DScene
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
 ```
@@ -140,4 +135,4 @@ Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + out
 
 ### В5: Как я могу получить поддержку по любым вопросам или вопросам?
 
-A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) связаться с сообществом и обратиться за помощью.
+ A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) связаться с сообществом и обратиться за помощью.

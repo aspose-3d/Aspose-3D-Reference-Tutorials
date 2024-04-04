@@ -16,7 +16,7 @@ url: /zh-hant/java/geometry/concatenate-quaternions-for-3d-rotations/
 在深入學習本教程之前，請確保您具備以下先決條件：
 
 - Java 程式設計的基礎知識。
--  Aspose.3D for Java 已安裝。你可以下載它[這裡](https://releases.aspose.com/3d/java/).
+- Aspose.3D for Java 已安裝。你可以下載它[這裡](https://releases.aspose.com/3d/java/).
 
 ## 導入包
 

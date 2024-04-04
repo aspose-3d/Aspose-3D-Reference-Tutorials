@@ -16,7 +16,7 @@ Criar e manipular dados de malha 3D em Java pode ser uma tarefa desafiadora, mas
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos:
 
 - Conhecimento básico de programação Java.
--  Aspose.3D para Java instalado. Você pode baixá-lo[aqui](https://releases.aspose.com/3d/java/).
+- Aspose.3D para Java instalado. Você pode baixá-lo[aqui](https://releases.aspose.com/3d/java/).
 - Um arquivo 3D no formato 3ds. Usaremos "camera.3ds" como exemplo.
 
 ## Importar pacotes

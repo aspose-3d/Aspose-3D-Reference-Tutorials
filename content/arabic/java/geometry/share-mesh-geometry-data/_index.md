@@ -88,7 +88,7 @@ for(Vector3 color : colors) {
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "MeshGeometryData.fbx";
 
-//حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
+// حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

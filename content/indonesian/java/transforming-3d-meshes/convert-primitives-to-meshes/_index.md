@@ -22,7 +22,7 @@ import com.aspose.threed.*;
 ```
 ## Konversi Primitif ke Jerat di Java
 Sekarang, mari pelajari langkah-langkah praktis mengonversi primitif menjadi jerat menggunakan Aspose.3D untuk Java. Ikuti petunjuk rinci di bawah ini:
-## Langkah 1: Inisialisasi Objek Adegan
+## Langkah 1: Inisialisasi Objek Pemandangan
 ```java
 // Inisialisasi objek adegan
 Scene scene = new Scene();
@@ -55,7 +55,7 @@ scene.getRootNode().addChildNode(cubeNode);
 ```java
 // Jalur ke direktori dokumen.
 String MyDir = "Your Document Directory" + "BoxToMeshScene.fbx";
-//Simpan adegan 3D dalam format file yang didukung
+// Simpan adegan 3D dalam format file yang didukung
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 System.out.println("\n Converted the primitive Box to a mesh successfully.\nFile saved at " + MyDir);
 ```

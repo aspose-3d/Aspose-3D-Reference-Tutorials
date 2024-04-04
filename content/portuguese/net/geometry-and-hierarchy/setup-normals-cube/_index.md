@@ -1,6 +1,6 @@
 ---
-title: Configurando normais no cubo em cenas 3D
-linktitle: Configurando normais no cubo em cenas 3D
+title: Configurando normais no cubo
+linktitle: Configurando normais no cubo
 second_title: API Aspose.3D .NET
 description: Aprenda a configurar normais em um cubo 3D usando Aspose.3D for .NET. Aprimore suas habilidades de modelagem 3D com este guia passo a passo.
 type: docs

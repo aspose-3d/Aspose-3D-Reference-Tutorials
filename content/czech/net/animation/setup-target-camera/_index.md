@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## Krok 5: Uložte scénu
 
-Uložte nakonfigurovanou scénu do určeného výstupního adresáře v požadovaném formátu souboru, například .3ds.
+Uložte nakonfigurovanou scénu do určeného výstupního adresáře v požadovaném formátu souboru, jako je .fbx.
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## Závěr
@@ -98,7 +98,7 @@ A2: Rozhodně! Aspose.3D umožňuje vývojářům snadno vytvářet 3D prostřed
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 
- A4: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+A4: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 
 ### Q5: Jak získám dočasnou licenci?
 

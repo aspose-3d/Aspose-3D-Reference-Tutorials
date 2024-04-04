@@ -1,6 +1,6 @@
 ---
-title: Triangulation du maillage dans les scènes 3D
-linktitle: Triangulation du maillage dans les scènes 3D
+title: Maillage triangulant
+linktitle: Maillage triangulant
 second_title: API Aspose.3D .NET
 description: Découvrez la puissance d'Aspose.3D pour .NET dans ce guide étape par étape. Apprenez à trianguler sans effort des maillages 3D pour une modélisation améliorée.
 type: docs
@@ -17,7 +17,7 @@ Avant de plonger dans le didacticiel, assurez-vous que les conditions préalable
 
 - Aspose.3D pour la bibliothèque .NET : assurez-vous que la bibliothèque Aspose.3D est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/net/).
 
-- Exemple de modèle 3D : disposez d'un modèle 3D au format FBX que vous souhaitez trianguler. Vous pouvez utiliser le[document.fbx](https://reference.aspose.com/3d/net/) fichier pour la pratique.
+-  Exemple de modèle 3D : disposez d'un modèle 3D au format FBX que vous souhaitez trianguler. Vous pouvez utiliser le[document.fbx](https://reference.aspose.com/3d/net/) fichier pour la pratique.
 
 ## Importer des espaces de noms
 
@@ -93,7 +93,7 @@ A2 : Absolument. Aspose.3D peut être intégré de manière transparente aux app
 
 ### Q3 : Existe-t-il des options de licence disponibles pour Aspose.3D ?
 
- A3 : Oui, vous pouvez explorer les options de licence et effectuer un achat[ici](https://purchase.aspose.com/buy).
+ A3 : Oui, vous pouvez explorer les options de licence et effectuer un achat[ici](https://purchase.aspose.com/buy).
 
 ### Q4 : Existe-t-il un forum communautaire pour le support d'Aspose.3D ?
 

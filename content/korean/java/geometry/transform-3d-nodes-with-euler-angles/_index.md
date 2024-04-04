@@ -72,7 +72,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "TransformationToNode.fbx";
 
-//지원되는 파일 형식으로 3D 장면 저장
+// 지원되는 파일 형식으로 3D 장면 저장
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
@@ -86,7 +86,7 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 
 ## FAQ
 
-### Q1: 상용 프로젝트에서 Java용 Aspose.3D를 사용할 수 있나요?
+### Q1: 상용 프로젝트에서 Java용 Aspose.3D를 사용할 수 있습니까?
 
  A1: 네, 가능합니다. 방문하다[구매 페이지](https://purchase.aspose.com/buy) 라이선스 세부정보를 확인하세요.
 

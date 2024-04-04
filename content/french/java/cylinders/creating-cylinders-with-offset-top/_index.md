@@ -16,7 +16,7 @@ Dans le domaine de la modélisation 3D basée sur Java, Aspose.3D se distingue c
 Avant de nous lancer dans ce voyage créatif, assurez-vous d’avoir les conditions préalables suivantes en place :
 
 - Kit de développement Java (JDK) : Aspose.3D pour Java nécessite un JDK compatible installé sur votre machine.
-- Bibliothèque Aspose.3D : Téléchargez et intégrez la bibliothèque Aspose.3D dans votre projet Java. Vous pouvez trouver la bibliothèque et la documentation détaillée[ici](https://releases.aspose.com/3d/java/).
+-  Bibliothèque Aspose.3D : Téléchargez et intégrez la bibliothèque Aspose.3D dans votre projet Java. Vous pouvez trouver la bibliothèque et la documentation détaillée[ici](https://releases.aspose.com/3d/java/).
 
 ## Importer des packages
 
@@ -73,7 +73,7 @@ Initialisons un deuxième cylindre sans dessus décalé personnalisé :
 
 ```java
 // ExDébut : 4
-//Initialiser le deuxième cylindre sans OffsetTop personnalisé
+// Initialiser le deuxième cylindre sans OffsetTop personnalisé
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExFin : 4
 ```
@@ -95,7 +95,7 @@ Enfin, enregistrez la scène avec les cylindres créés sous forme de fichier Wa
 
 ```java
 // ExDébut : 6
-// Sauvegarder
+//Sauvegarder
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // ExFin : 6
 ```
@@ -118,7 +118,7 @@ A2 : Absolument ! Aspose.3D offre des fonctionnalités étendues pour appliquer 
 
 ### Q3 : Existe-t-il des options de licence disponibles pour Aspose.3D ?
 
- A3 : Oui, vous pouvez explorer et choisir l'option de licence qui correspond à vos besoins.[ici](https://purchase.aspose.com/buy).
+A3 : Oui, vous pouvez explorer et choisir l'option de licence qui correspond à vos besoins.[ici](https://purchase.aspose.com/buy).
 
 ### Q4 : Comment puis-je demander de l'aide ou partager mes expériences avec Aspose.3D ?
 

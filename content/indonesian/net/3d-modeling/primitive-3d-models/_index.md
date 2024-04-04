@@ -15,7 +15,7 @@ Selamat datang di dunia pemodelan 3D yang menarik dengan Aspose.3D untuk .NET! D
 
 Sebelum kita menyelami dunia pemodelan 3D yang menarik, pastikan Anda memiliki prasyarat berikut:
 
-- Aspose.3D untuk .NET: Unduh dan instal perpustakaan Aspose.3D untuk .NET dari[tautan unduhan](https://releases.aspose.com/3d/net/).
+-  Aspose.3D untuk .NET: Unduh dan instal perpustakaan Aspose.3D untuk .NET dari[tautan unduhan](https://releases.aspose.com/3d/net/).
 
 - Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET, pastikan kompatibilitas dengan Aspose.3D.
 
@@ -37,7 +37,7 @@ using Aspose.ThreeD.Formats;
 
 Dengan namespace ini, Anda siap untuk melepaskan kekuatan Aspose.3D dalam aplikasi .NET Anda.
 
-## Langkah 1: Inisialisasi Objek Pemandangan
+## Langkah 1: Inisialisasi Objek Adegan
 
 ```csharp
 //Inisialisasi objek Scene

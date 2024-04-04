@@ -119,7 +119,7 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 
 ### Q3：哪里可以找到对 Aspose.3D 的支持？
 
- A3：加入社区[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)寻求帮助。
+A3：加入社区[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)寻求帮助。
 
 ### Q4：如何获得临时驾照？
 

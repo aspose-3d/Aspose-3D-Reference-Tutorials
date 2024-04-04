@@ -41,12 +41,24 @@ using System.Text;
 Laad uw 3D-bestand met Aspose.3D. In dit voorbeeld laden we een bestand met de naam "test.fbx":
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## Stap 2: Definieer een aangepast binair formaat
 
 Definieer de structuur van het aangepaste binaire formaat waarin u uw 3D-meshes wilt opslaan. In het voorbeeld wordt een structuur gebruikt met MeshBlock, Vertex en Triangle als componenten.
+
+```csharp
+// De geheugenindeling van een hoekpunt is
+// zweefstand[3];
+// zweef[3] normaal;
+// zweven[3] uv;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## Stap 3: Open het bestand om te schrijven
 
@@ -79,11 +91,30 @@ Converteer voor elke mesh-entiteit controlepunten naar de wereldruimte en schrij
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (ga verder met het schrijven van controlepunten en driehoeksindexen)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//De geheugenindeling van de mesh is:
+// float[16] transformatiematrix;
+// int hoekpunten_count;
+// int index_count;
+// hoekpunt[hoekpunten_telling] hoekpunten;
+// ushort[indices_count] indices;
+
+
+//schrijf transformatie
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//schrijf het aantal hoekpunten/indices
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//schrijf hoekpunten en indices
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## Conclusie
@@ -98,7 +129,7 @@ A1: Aspose.3D ondersteunt voornamelijk .NET-talen, maar u kunt compatibiliteitso
 
 ### Vraag 2: Waar kan ik aanvullende voorbeelden en bronnen vinden?
 
- A2: De[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) is een geweldige plek om ondersteuning en voorbeelden te vinden en contact te maken met de gemeenschap.
+ A2: De[Aspose.3D-forum](https://forum.aspose.com/c/3d/18)is een geweldige plek om ondersteuning en voorbeelden te vinden en contact te maken met de gemeenschap.
 
 ### V3: Is er een proefversie beschikbaar voor Aspose.3D?
 

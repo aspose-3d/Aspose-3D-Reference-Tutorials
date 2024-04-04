@@ -54,7 +54,7 @@ Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ## Langkah 4: Temukan Properti Terjemahan
 
 ```java
-// Temukan properti terjemahan pada objek transformasi node
+//Temukan properti terjemahan pada objek transformasi node
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
@@ -99,7 +99,7 @@ bindPoint.bindKeyframeSequence("Z", kfs);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "PropertyToDocument.fbx";
 
-//Simpan adegan 3D dalam format file yang didukung
+// Simpan adegan 3D dalam format file yang didukung
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
@@ -119,7 +119,7 @@ Selamat! Anda telah berhasil menambahkan properti animasi ke adegan 3D menggunak
 
 ### Q3: Di mana saya dapat menemukan dukungan untuk Aspose.3D?
 
- A3: Bergabunglah dengan komunitas di[Forum Asumsikan.3D](https://forum.aspose.com/c/3d/18) untuk bantuan.
+A3: Bergabunglah dengan komunitas di[Forum Asumsikan.3D](https://forum.aspose.com/c/3d/18) untuk bantuan.
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara?
 

@@ -58,6 +58,6 @@ scene.open(MyDir + "test.wrl");
 ### 3. 무료 평가판이 있나요?
  틀림없이! 무료 평가판을 통해 Aspose.3D의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
 ### 4. 임시면허는 어떻게 취득하나요?
- 임시 라이센스 옵션을 보려면 다음으로 이동하세요.[임시면허](https://purchase.aspose.com/temporary-license/).
+ 임시 라이센스 옵션을 보려면 다음으로 이동하세요.[임시 면허증](https://purchase.aspose.com/temporary-license/).
 ### 5. Java용 Aspose.3D를 어디서 구입할 수 있나요?
  잠재력을 최대한 활용하려면 Java용 Aspose.3D를 구입하세요.[여기](https://purchase.aspose.com/buy).

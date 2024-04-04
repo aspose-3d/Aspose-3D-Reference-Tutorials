@@ -1,6 +1,6 @@
 ---
-title: 3D 장면에서 메시 삼각측량
-linktitle: 3D 장면에서 메시 삼각측량
+title: 삼각측량 메쉬
+linktitle: 삼각측량 메쉬
 second_title: Aspose.3D .NET API
 description: 이 단계별 가이드에서 .NET용 Aspose.3D의 강력한 기능을 살펴보세요. 향상된 모델링을 위해 3D 메시를 손쉽게 삼각측량하는 방법을 알아보세요.
 type: docs
@@ -17,7 +17,7 @@ url: /ko/net/geometry-and-hierarchy/triangulate-mesh/
 
 - .NET 라이브러리용 Aspose.3D: Aspose.3D 라이브러리가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/3d/net/).
 
-- 샘플 3D 모델: 삼각 측량하려는 FBX 형식의 3D 모델이 있습니다. 제공된 것을 사용할 수 있습니다[문서.fbx](https://reference.aspose.com/3d/net/) 연습용 파일입니다.
+-  샘플 3D 모델: 삼각 측량하려는 FBX 형식의 3D 모델이 있습니다. 제공된 것을 사용할 수 있습니다[문서.fbx](https://reference.aspose.com/3d/net/) 연습용 파일입니다.
 
 ## 네임스페이스 가져오기
 

@@ -1,8 +1,8 @@
 ---
-title: Memuat dan Menyimpan - Opsi Penyimpanan Khusus
-linktitle: Memuat dan Menyimpan - Opsi Penyimpanan Khusus
+title: Opsi Penyimpanan Kustom
+linktitle: Opsi Penyimpanan Kustom
 second_title: Aspose.3D .NET API
-description: Jelajahi kekuatan Aspose.3D untuk .NET. Pelajari cara menyesuaikan penyimpanan adegan 3D Anda dengan panduan langkah demi langkah tentang format Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC, dan RVM.
+description: Jelajahi kekuatan Aspose.3D untuk .NET. Pelajari cara menyesuaikan penyimpanan adegan 3D Anda dengan panduan langkah demi langkah tentang format Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC, dan RVM.
 type: docs
 weight: 21
 url: /id/net/loading-and-saving/custom-save-options/
@@ -85,7 +85,7 @@ Lanjutkan pendekatan langkah demi langkah ini untuk opsi penyimpanan FBX, OBJ, S
 
 Sekarang, mari fokus pada glTF, format yang banyak digunakan di aplikasi web dan seluler. Sesuaikan opsi penyimpanan glTF Anda dengan langkah-langkah berikut:
 
-### 1. Inisialisasi Objek Pemandangan:
+### 1. Inisialisasi Objek Adegan:
    ```csharp
    Scene scene = new Scene();
    scene.RootNode.CreateChildNode("sphere", new Sphere());

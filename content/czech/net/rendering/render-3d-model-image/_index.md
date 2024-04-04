@@ -84,7 +84,7 @@ Odpověď: Aspose.3D podporuje různé formáty 3D modelů, díky čemuž je kom
 ### Otázka: Jak mohu vyřešit problémy s vykreslováním?
  A: Zkontrolujte Aspose.3D[Fórum](https://forum.aspose.com/c/3d/18) za podporu a řešení běžných problémů s vykreslováním.
 ### Otázka: Je k dispozici bezplatná zkušební verze?
- Odpověď: Ano, funkce Aspose.3D můžete prozkoumat získáním a[zkušební verze zdarma](https://releases.aspose.com/).
+Odpověď: Ano, funkce Aspose.3D můžete prozkoumat získáním a[zkušební verze zdarma](https://releases.aspose.com/).
 ### Otázka: Kde najdu komplexní dokumentaci?
  A: Viz[dokumentace](https://reference.aspose.com/3d/net/) pro hloubkové vedení Aspose.3D pro .NET.
 ### Otázka: Jak koupím Aspose.3D pro .NET?

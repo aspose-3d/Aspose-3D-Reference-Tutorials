@@ -1,6 +1,6 @@
 ---
-title: Nakładanie materiału PBR na pudełko w scenach 3D
-linktitle: Nakładanie materiału PBR na pudełko w scenach 3D
+title: Nakładanie materiału PBR na pudełko
+linktitle: Nakładanie materiału PBR na pudełko
 second_title: Aspose.3D API .NET
 description: Poznaj świat grafiki 3D dzięki Aspose.3D dla .NET. Twórz wciągające sceny bez wysiłku, korzystając z materiałów do renderowania fizycznego.
 type: docs
@@ -21,7 +21,7 @@ Zanim zagłębimy się w ekscytujący świat grafiki 3D, upewnijmy się, że mam
 
 ### Zdobądź licencję
 
- Aby odblokować pełny potencjał Aspose.3D, uzyskaj ważną licencję. Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) lub kup pełną licencję[Tutaj](https://purchase.aspose.com/buy).
+Aby odblokować pełny potencjał Aspose.3D, uzyskaj ważną licencję. Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) lub kup pełną licencję[Tutaj](https://purchase.aspose.com/buy).
 
 ## Importuj przestrzenie nazw
 
@@ -104,11 +104,11 @@ A2: Absolutnie! Aspose.3D zapewnia licencje komercyjne umożliwiające bezproble
 
 ### P3: Czy dostępna jest wersja próbna?
 
-Odpowiedź 3: Tak, możesz poznać możliwości Aspose.3D, pobierając bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+ Odpowiedź 3: Tak, możesz poznać możliwości Aspose.3D, pobierając bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 
 ### P4: Gdzie mogę znaleźć wsparcie i dyskusje społeczności?
 
- A4: Dołącz do społeczności Aspose.3D pod adresem[Fora Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie i dyskusje.
+ A4: Dołącz do społeczności Aspose.3D pod adresem[Fora Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie i dyskusję.
 
 ### P5: Jak uzyskać tymczasową licencję na Aspose.3D?
 

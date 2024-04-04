@@ -103,7 +103,7 @@ Cevap1: Aspose.3D, .NET ve Java dahil olmak üzere çeşitli programlama dilleri
 
 ### S4: Aspose.3D için nasıl destek alabilirim?
 
- A4: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18)herhangi bir yardım veya sorularınız için.
+ A4: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) herhangi bir yardım veya sorularınız için.
 
 ### S5: Aspose.3D için geçici lisanslar mevcut mu?
 

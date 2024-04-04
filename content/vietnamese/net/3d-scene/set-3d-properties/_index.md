@@ -105,7 +105,7 @@ Console.WriteLine(pdiffuse);
 
 ## Bước 6: Duyệt thuộc tính của thuộc tính
 
- Từ`Property` được kế thừa từ`A3DObject`, bạn có thể duyệt qua các thuộc tính của một thuộc tính.
+ Từ`Property` được kế thừa từ`A3DObject`bạn có thể duyệt qua các thuộc tính của một thuộc tính.
 
 ```csharp
 //ExStart: TraversePropertyProperties

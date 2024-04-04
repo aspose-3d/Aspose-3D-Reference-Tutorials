@@ -16,7 +16,7 @@ Aspose.3D를 사용하여 Java 장면에서 3D 속성 및 사용자 정의 데�
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 - 컴퓨터에 JDK(Java Development Kit)가 설치되어 있습니다.
-- Aspose.3D 라이브러리를 다운로드하고 설정했습니다. 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/3d/java/).
+-  Aspose.3D 라이브러리를 다운로드하고 설정했습니다. 다음에서 다운로드할 수 있습니다.[Aspose 웹 사이트](https://releases.aspose.com/3d/java/).
 - Java 프로그래밍에 대한 기본적인 이해.
 
 ## 패키지 가져오기
@@ -107,7 +107,7 @@ for (Property pp : pdiffuse.getProperties()) {
 
 ### Q1: Java 프로젝트에 Aspose.3D 라이브러리를 어떻게 설치할 수 있나요?
 
- A1: 다음에서 라이브러리를 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/3d/java/)설명서에 제공된 설치 지침을 따르세요.
+ A1: 다음에서 라이브러리를 다운로드할 수 있습니다.[Aspose 웹 사이트](https://releases.aspose.com/3d/java/) 설명서에 제공된 설치 지침을 따르세요.
 
 ### Q2: Aspose.3D에 사용할 수 있는 무료 평가판 옵션이 있습니까?
 
@@ -119,7 +119,7 @@ for (Property pp : pdiffuse.getProperties()) {
 
 ### Q4: 질문을 하고 도움을 구할 수 있는 Aspose.3D 지원 포럼이 있습니까?
 
- A4: 그렇습니다.[Aspose.3D 지원 포럼](https://forum.aspose.com/c/3d/18) 커뮤니티와 연결하고 전문가의 도움을 받으세요.
+A4: 그렇습니다.[Aspose.3D 지원 포럼](https://forum.aspose.com/c/3d/18) 커뮤니티와 연결하고 전문가의 도움을 받으세요.
 
 ### Q5: Aspose.3D에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
 

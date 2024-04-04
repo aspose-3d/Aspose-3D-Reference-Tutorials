@@ -16,7 +16,7 @@ url: /hi/java/geometry/concatenate-quaternions-for-3d-rotations/
 ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित शर्तें हैं:
 
 - जावा प्रोग्रामिंग का बुनियादी ज्ञान।
--  जावा के लिए Aspose.3D स्थापित किया गया। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/3d/java/).
+- जावा के लिए Aspose.3D स्थापित किया गया। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/3d/java/).
 
 ## पैकेज आयात करें
 

@@ -41,12 +41,24 @@ using System.Text;
 Φορτώστε το αρχείο 3D χρησιμοποιώντας το Aspose.3D. Σε αυτό το παράδειγμα, φορτώνουμε ένα αρχείο με το όνομα "test.fbx":
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## Βήμα 2: Ορισμός προσαρμοσμένης δυαδικής μορφής
 
 Καθορίστε τη δομή της προσαρμοσμένης δυαδικής μορφής στην οποία θέλετε να αποθηκεύσετε τα τρισδιάστατα πλέγματα. Το παράδειγμα χρησιμοποιεί μια δομή με στοιχεία MeshBlock, Vertex και Triangle.
+
+```csharp
+// Η διάταξη μνήμης μιας κορυφής είναι
+// float[3] θέση?
+// float[3] normal?
+// float[3] uv;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## Βήμα 3: Ανοίξτε το Αρχείο για εγγραφή
 
@@ -79,11 +91,30 @@ scene.RootNode.Accept(delegate(Node node)
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (συνεχίστε να γράφετε σημεία ελέγχου και δείκτες τριγώνων)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//Η διάταξη μνήμης του πλέγματος είναι:
+// float[16] transform_matrix;
+// int vertices_count;
+// int indices_count;
+// vertex[vertices_count] κορυφές;
+// ushort[index_count] δείκτες.
+
+
+//γράφω μετασχηματισμός
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//γράψτε τον αριθμό των κορυφών/δεικτών
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//γράψτε κορυφές και δείκτες
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## συμπέρασμα
@@ -98,7 +129,7 @@ A1: Το Aspose.3D υποστηρίζει κυρίως γλώσσες .NET, αλ
 
 ### Ε2: Πού μπορώ να βρω επιπλέον παραδείγματα και πόρους;
 
- Α2: Το[Aspose.3D φόρουμ](https://forum.aspose.com/c/3d/18) είναι ένα εξαιρετικό μέρος για να βρείτε υποστήριξη, παραδείγματα και να ασχοληθείτε με την κοινότητα.
+ Α2: Το[Aspose.3D φόρουμ](https://forum.aspose.com/c/3d/18)είναι ένα εξαιρετικό μέρος για να βρείτε υποστήριξη, παραδείγματα και να ασχοληθείτε με την κοινότητα.
 
 ### Ε3: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.3D;
 

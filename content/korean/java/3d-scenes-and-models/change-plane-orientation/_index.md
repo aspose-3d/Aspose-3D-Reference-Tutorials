@@ -16,7 +16,7 @@ Aspose.3D를 사용하여 Java에서 3D 장면 위치 지정을 향상시키는 
 이 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
 
 - Java 프로그래밍에 대한 기본적인 이해.
--  Java용 Aspose.3D가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/3d/java/).
+- Java용 Aspose.3D가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/3d/java/).
 - Java 코딩을 위한 개발 환경이 준비되어 있습니다.
 
 ## 패키지 가져오기
@@ -101,7 +101,7 @@ A1: 예, Aspose.3D는 Java, .NET 등을 포함한 다양한 프로그래밍 언�
 
 ### Q2: Aspose.3D에 대한 무료 평가판이 제공됩니까?
 
-A2: 물론이죠! 무료 평가판에 액세스하여 Aspose.3D의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+ A2: 물론이죠! 무료 평가판에 액세스하여 Aspose.3D의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q3: Aspose.3D에 대한 지원은 어디서 찾을 수 있나요?
 

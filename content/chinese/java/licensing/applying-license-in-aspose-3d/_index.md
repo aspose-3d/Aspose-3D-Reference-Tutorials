@@ -22,7 +22,8 @@ url: /zh/java/licensing/applying-license-in-aspose-3d/
 
 首先，将必要的包导入到您的 Java 项目中。确保 Aspose.3D 已添加到您的类路径中。这是一个例子：
 
-```javaimport com.aspose.threed.License;
+```java
+import com.aspose.threed.License;
 import com.aspose.threed.Metered;
 
 import java.io.FileInputStream;

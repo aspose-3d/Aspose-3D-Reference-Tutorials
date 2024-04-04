@@ -114,7 +114,7 @@ public static void html5SaveOption() throws IOException {
 
 ### Q4: OBJ 내보내기에서 재료 파일 저장을 어떻게 취소합니까?
 
-A4: 활용`setFileSystem(new DummyFileSystem())` 의 방법`ObjSaveOptions` 머티리얼 파일을 삭제하는 클래스입니다.
+A4: 활용`setFileSystem(new DummyFileSystem())` 의 방법`ObjSaveOptions` 재료 파일을 삭제하는 클래스입니다.
 
 ### Q5: OBJ 파일의 로컬 디렉터리에 종속성을 저장하는 방법이 있습니까?
 

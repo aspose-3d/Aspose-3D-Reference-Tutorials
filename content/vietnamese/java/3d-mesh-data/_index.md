@@ -17,7 +17,7 @@ Bạn đã sẵn sàng nâng cao kỹ năng phát triển 3D của mình bằng 
 
 ## Tạo dữ liệu cho lưới 3D trong Java (Bình thường, Tiếp tuyến, Nhị chuẩn)
 
-Bạn đã sẵn sàng đưa các dự án Java của mình lên một tầm cao mới chưa?[Tạo dữ liệu cho lưới 3D trong Java (Bình thường, Tiếp tuyến, Nhị chuẩn)](./generate-mesh-data/) với Aspose.3D chính là hướng dẫn bạn cần. Đi sâu vào sự phức tạp của đồ họa 3D khi chúng tôi hướng dẫn bạn cách dễ dàng tạo dữ liệu thông thường cho lưới 3D của bạn. Tìm hiểu cách nâng cao sức hấp dẫn trực quan cho các dự án của bạn và tự tin điều hướng thế giới 3D.
+ Bạn đã sẵn sàng đưa các dự án Java của mình lên một tầm cao mới chưa?[Tạo dữ liệu cho lưới 3D trong Java (Bình thường, Tiếp tuyến, Nhị chuẩn)](./generate-mesh-data/)với Aspose.3D chính là hướng dẫn bạn cần. Đi sâu vào sự phức tạp của đồ họa 3D khi chúng tôi hướng dẫn bạn cách dễ dàng tạo dữ liệu thông thường cho lưới 3D của bạn. Tìm hiểu cách nâng cao sức hấp dẫn trực quan cho các dự án của bạn và tự tin điều hướng thế giới 3D.
 
 ## Chia lưới 3D theo vật liệu để xử lý hiệu quả trong Java
 

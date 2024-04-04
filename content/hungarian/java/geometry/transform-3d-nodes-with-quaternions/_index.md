@@ -16,7 +16,7 @@ url: /hu/java/geometry/transform-3d-nodes-with-quaternions/
 Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
 - Java programozási alapismeretek.
--  Aspose.3D for Java telepítve. Letöltheti[itt](https://releases.aspose.com/3d/java/).
+- Aspose.3D for Java telepítve. Letöltheti[itt](https://releases.aspose.com/3d/java/).
 - 3D jelenetek mentéséhez beállított dokumentumkönyvtár.
 
 ## Csomagok importálása

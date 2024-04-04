@@ -1,6 +1,6 @@
 ---
-title: 加载和保存 - 使用 CancellationToken
-linktitle: 加载和保存 - 使用 CancellationToken
+title: 使用 CancellationToken
+linktitle: 使用 CancellationToken
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 建模的无缝世界。了解使用 CancellationToken 高效加载和保存 3D 文档。
 type: docs

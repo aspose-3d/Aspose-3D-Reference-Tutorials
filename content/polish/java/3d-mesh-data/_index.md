@@ -17,7 +17,7 @@ Czy jesteś gotowy, aby podnieść swoje umiejętności programowania 3D w Javie
 
 ## Generuj dane dla siatek 3D w Javie (normalne, styczne, binormalne)
 
-Gotowy, aby przenieść swoje projekty Java na wyższy poziom?[Generuj dane dla siatek 3D w Javie (normalne, styczne, binormalne)](./generate-mesh-data/) z Aspose.3D jest tutorial, którego potrzebujesz. Zanurz się głęboko w zawiłości grafiki 3D, gdy poprowadzimy Cię przez łatwe generowanie normalnych danych dla siatek 3D. Dowiedz się, jak poprawić atrakcyjność wizualną swoich projektów i bez obaw poruszać się po świecie 3D.
+ Gotowy, aby przenieść swoje projekty Java na wyższy poziom?[Generuj dane dla siatek 3D w Javie (normalne, styczne, binormalne)](./generate-mesh-data/) Aspose.3D jest tutorial, którego potrzebujesz. Zanurz się głęboko w zawiłości grafiki 3D, gdy poprowadzimy Cię przez łatwe generowanie normalnych danych dla siatek 3D. Dowiedz się, jak poprawić atrakcyjność wizualną swoich projektów i bez obaw poruszać się po świecie 3D.
 
 ## Podziel siatki 3D według materiału w celu wydajnego przetwarzania w Javie
 

@@ -1,6 +1,6 @@
 ---
-title: Transformera nod med transformationsmatris i 3D-scener
-linktitle: Transformera nod med transformationsmatris i 3D-scener
+title: Transformering av nod genom transformationsmatris
+linktitle: Transformering av nod genom transformationsmatris
 second_title: Aspose.3D .NET API
 description: Förvandla noder utan ansträngning i 3D-scener med Aspose.3D för .NET. Lär dig steg-för-steg-nodtransformationer med handledning.
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 Nu när vi har täckt grunderna, låt oss dela upp omvandlingsprocessen i en steg-för-steg-guide.
 
-## Steg 1: Initiera scen och nod
+## Steg 1: Initiera scen
 
 ```csharp
 // ExStart: AddTransformationToNodeByTransformationMatrix
 // Initiera scenobjekt
 Scene scene = new Scene();
 
-// Initiera Node-klassobjekt
-Node cubeNode = new Node("cube");
 ```
 
-I det här steget skapar vi en ny 3D-scen och en nod som heter "kub" inom den scenen.
+I det här steget skapar vi en ny tom 3D-scen.
 
-## Steg 2: Skapa nät och ställ in geometri
+## Steg 2: Skapa nät och fäst till scen
 
 ```csharp
 // Anrop Common class skapa mesh med polygonbyggarmetoden för att ställa in mesh-instans
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// Peka noden på Mesh-geometrin
-cubeNode.Entity = mesh;
+// Skapa en containernod för nätet.
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 Här genererar vi ett nät med polygonbyggarmetoden och tilldelar det till noden och etablerar geometrin för vår kub.
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 Definiera en anpassad översättningsmatris för att bestämma den specifika transformationen som tillämpas på noden. Justera matrisvärdena efter behov för din önskade transformation.
 
-## Steg 4: Lägg till nod till scenen
-
-```csharp
-// Lägg till en kub i scenen
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 Inkludera kubnoden i scenen, vilket gör den till en del av den övergripande 3D-miljön.
 
-## Steg 5: Spara scenen
+## Steg 4: Spara scenen
 
 ```csharp
 // Sökvägen till dokumentkatalogen.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Spara 3D-scen i de filformat som stöds
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Spara 3D-scen i de filformat som stöds
+scene.Save(output);
 // ExEnd: AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ S2: Ja, du kan kombinera flera transformationer genom att multiplicera deras res
 
 ### F4: Hur kan jag få en tillfällig licens för Aspose.3D för .NET?
 
- A4: Besök[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/) på Asposes webbplats för att få en tillfällig licens för utvärderingsändamål.
+ A4: Besök[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/)på Asposes webbplats för att få en tillfällig licens för utvärderingsändamål.
 
 ### F5: Var kan jag söka hjälp eller få kontakt med Aspose.3D-communityt?
 
-A5: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) att ställa frågor, dela erfarenheter och få kontakt med andra utvecklare som använder Aspose.3D.
+ A5: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) att ställa frågor, dela erfarenheter och få kontakt med andra utvecklare som använder Aspose.3D.

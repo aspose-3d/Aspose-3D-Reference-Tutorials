@@ -97,4 +97,4 @@ Gratulálunk! Sikeresen beállított egy célkamerát a 3D animációkhoz Java n
 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
 
-V5: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+ V5: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).

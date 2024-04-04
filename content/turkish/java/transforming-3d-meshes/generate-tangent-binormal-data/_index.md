@@ -36,7 +36,7 @@ Scene scene = new Scene(MyDir + "document.fbx");
 // Bir sahneyi üçgenleme
 PolygonModifier.buildTangentBinormal(scene);
 ```
-Bu adım, 3 boyutlu sahnenin düzgün bir şekilde üçgenlenmesini sağlamak ve teğet ve iki normal veriler üretmek için gerekli ortamı hazırlamak açısından çok önemlidir.
+Bu adım, 3 boyutlu sahnenin düzgün bir şekilde üçgenlenmesini sağlamak ve teğet ve iki normal veriler oluşturmak için gerekli ortamı hazırlamak açısından çok önemlidir.
 ## 3. Adım: 3D Sahneyi Kaydedin
 ```java
 // 3D sahneyi kaydet

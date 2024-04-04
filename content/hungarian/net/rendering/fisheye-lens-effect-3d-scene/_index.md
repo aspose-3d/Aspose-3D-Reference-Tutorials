@@ -70,7 +70,7 @@ Gratulálunk! Sikeresen alkalmazta a halszem lencse effektust a 3D-s jeleneten a
 ### Alkalmazhatom a halszem-effektust bármely 3D-s jelenetre?
 Igen, a halszem effektust bármilyen 3D jelenetre alkalmazhatja. Az optimális eredmény érdekében győződjön meg arról, hogy a jelenet megfelelően van betöltve és megvilágítva.
 ### Mi a jelentősége a látómező (fov) 360 fokos beállításának?
-360 fokos látómező teljes gömb alakú vetítést biztosít, lenyűgöző halszem hatást keltve.
+A 360 fokos látómező teljes gömb alakú vetítést biztosít, lenyűgöző halszem hatást keltve.
 ### Hogyan szabhatom testre a világítást a 3D-s jelenetemben?
 A kívánt fényhatások elérése érdekében beállíthatja a lámpák tulajdonságait, például helyzetét, típusát és színét.
 ### Van-e korlátozás a feldolgozható 3D-s jelenet méretére?

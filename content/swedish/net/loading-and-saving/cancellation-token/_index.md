@@ -1,6 +1,6 @@
 ---
-title: Laddar och sparar - Använder CancellationToken
-linktitle: Laddar och sparar - Använder CancellationToken
+title: Använder CancellationToken
+linktitle: Använder CancellationToken
 second_title: Aspose.3D .NET API
 description: Utforska den sömlösa världen av 3D-modellering med Aspose.3D för .NET. Lär dig att ladda och spara 3D-dokument effektivt med CancellationToken.
 type: docs
@@ -78,7 +78,7 @@ catch (ImportException e)
 }
 ```
 
- Försök att öppna 3D-dokumentet inom den angivna tidsramen. De`cts.Token`parametern säkerställer att operationen kan avbrytas om den överskrider den inställda timeouten.
+ Försök att öppna 3D-dokumentet inom den angivna tidsramen. De`cts.Token` parametern säkerställer att operationen kan avbrytas om den överskrider den inställda timeouten.
 
 ### Steg 5: Hantera importundantag
 

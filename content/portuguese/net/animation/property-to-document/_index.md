@@ -15,7 +15,7 @@ Se você está mergulhando no reino da criação e animação de cenas 3D em .NE
 
 Antes de embarcarmos nesta jornada emocionante, certifique-se de ter os seguintes pré-requisitos em vigor:
 
-- Aspose.3D para .NET: Certifique-se de ter a biblioteca instalada. Você pode baixá-lo no[Site Aspose.3D](https://releases.aspose.com/3d/net/).
+-  Aspose.3D para .NET: Certifique-se de ter a biblioteca instalada. Você pode baixá-lo no[Site Aspose.3D](https://releases.aspose.com/3d/net/).
 
 - Conhecimento de C#: A familiaridade com a linguagem de programação C# é essencial para a compreensão e implementação dos exemplos.
 

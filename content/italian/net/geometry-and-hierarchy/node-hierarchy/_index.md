@@ -1,6 +1,6 @@
 ---
-title: Comprensione della gerarchia dei nodi nelle scene 3D
-linktitle: Comprensione della gerarchia dei nodi nelle scene 3D
+title: Comprendere la gerarchia dei nodi
+linktitle: Comprendere la gerarchia dei nodi
 second_title: API Aspose.3D .NET
 description: Sblocca la potenza di Aspose.3D per .NET! Immergiti nella manipolazione della gerarchia dei nodi con questa guida passo passo. Crea splendide scene 3D senza sforzo.
 type: docs
@@ -17,7 +17,7 @@ Prima di intraprendere questo viaggio in 3D, assicurati di disporre dei seguenti
 
 -  Libreria Aspose.3D per .NET: assicurati di avere la libreria Aspose.3D integrata nel tuo progetto .NET. Se non l'hai ancora fatto, vai al[documentazione](https://reference.aspose.com/3d/net/) per l'orientamento.
 
--  Scarica la libreria: se non hai scaricato la libreria Aspose.3D, prendi l'ultima versione da[Link per scaricare](https://releases.aspose.com/3d/net/) seguire le istruzioni di installazione fornite nella documentazione.
+-  Scarica la libreria: se non hai scaricato la libreria Aspose.3D, prendi l'ultima versione da[Link per scaricare](https://releases.aspose.com/3d/net/) e seguire le istruzioni di installazione fornite nella documentazione.
 
 -  Ottieni una licenza: per sbloccare tutto il potenziale di Aspose.3D, è necessaria una licenza valida. Se non ne hai uno, puoi ottenerlo[Qui](https://purchase.aspose.com/buy) oppure optare per a[prova gratuita](https://releases.aspose.com/) per esplorarne le capacità.
 

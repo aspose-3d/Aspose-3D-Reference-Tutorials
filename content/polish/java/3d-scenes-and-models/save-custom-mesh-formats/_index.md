@@ -115,7 +115,7 @@ Odpowiedź 1: Tak, Aspose.3D obsługuje różne formaty modeli 3D, zapewniając 
 
 ### P3: Gdzie mogę znaleźć wsparcie dla Aspose.3D dla Java?
 
- A3: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) celu uzyskania pomocy lub pytań.
+ A3: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) w celu uzyskania pomocy lub pytań.
 
 ### P4: Czy dostępne są jakieś przykładowe modele 3D do testowania?
 

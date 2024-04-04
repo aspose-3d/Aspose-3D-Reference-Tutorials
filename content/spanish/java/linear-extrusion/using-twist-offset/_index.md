@@ -112,4 +112,4 @@ scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 
 ### P5: ¿Hay ejemplos y tutoriales adicionales disponibles?
 
- R5: Sí, consulte el[documentación](https://reference.aspose.com/3d/java/) para obtener más ejemplos y tutoriales detallados.
+ R5: Sí, consulte la[documentación](https://reference.aspose.com/3d/java/) para obtener más ejemplos y tutoriales detallados.

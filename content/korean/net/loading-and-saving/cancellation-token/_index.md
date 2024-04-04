@@ -1,6 +1,6 @@
 ---
-title: 로드 및 저장 - CancellationToken 사용
-linktitle: 로드 및 저장 - CancellationToken 사용
+title: CancellationToken 사용
+linktitle: CancellationToken 사용
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 원활한 3D 모델링 세계를 탐색해 보세요. CancellationToken을 사용하여 3D 문서를 효율적으로 로드하고 저장하는 방법을 알아보세요.
 type: docs
@@ -78,7 +78,7 @@ catch (ImportException e)
 }
 ```
 
- 지정된 시간 내에 3D 문서를 열려고 시도합니다. 그만큼`cts.Token`매개변수는 설정된 제한 시간을 초과하는 경우 작업이 취소될 수 있도록 보장합니다.
+ 지정된 시간 내에 3D 문서를 열려고 시도합니다. 그만큼`cts.Token` 매개변수는 설정된 제한 시간을 초과하는 경우 작업이 취소될 수 있도록 보장합니다.
 
 ### 5단계: 가져오기 예외 처리
 

@@ -15,7 +15,7 @@ url: /zh/net/3d-modeling/primitive-3d-models/
 
 在我们深入研究 3D 建模的迷人领域之前，请确保您具备以下先决条件：
 
-- Aspose.3D for .NET：从以下位置下载并安装 Aspose.3D for .NET 库：[下载链接](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET：从以下位置下载并安装 Aspose.3D for .NET 库：[下载链接](https://releases.aspose.com/3d/net/).
 
 - 开发环境：搭建.NET开发环境，确保与Aspose.3D的兼容性。
 

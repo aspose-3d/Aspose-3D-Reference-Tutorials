@@ -101,7 +101,7 @@ Tento fragment kódu ukazuje, jak procházet 3D modelem, převádět sítě a uk
 
 ## Závěr
 
-Sledováním tohoto tutoriálu jste se naučili, jak používat Aspose.3D for Java k ukládání 3D sítí ve vlastním binárním formátu, čímž se zvyšuje flexibilita vašich aplikací Java.
+Sledováním tohoto kurzu jste se naučili, jak používat Aspose.3D for Java k ukládání 3D sítí ve vlastním binárním formátu, čímž se zvyšuje flexibilita vašich aplikací Java.
 
 ## FAQ
 
@@ -115,7 +115,7 @@ Odpověď 1: Ano, Aspose.3D podporuje různé formáty 3D modelů a poskytuje fl
 
 ### Q3: Kde najdu podporu pro Aspose.3D pro Java?
 
- A3: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18)pro jakoukoli pomoc nebo dotazy.
+ A3: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) pro jakoukoli pomoc nebo dotazy.
 
 ### Q4: Jsou k dispozici nějaké ukázkové 3D modely pro testování?
 

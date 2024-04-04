@@ -81,7 +81,7 @@ A1: Absolut! Biblioteket tillhandahåller ett användarvänligt gränssnitt och 
 
 ### F3: Hur kan jag få support för Aspose.3D för Java?
 
- A3: Gå med i samhället kl[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) att interagera med andra användare och få hjälp av experter.
+A3: Gå med i samhället kl[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) att interagera med andra användare och få hjälp av experter.
 
 ### F4: Finns det en gratis provperiod?
 

@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## Βήμα 5: Αποθηκεύστε τη σκηνή
 
-Αποθηκεύστε τη διαμορφωμένη σκηνή σε έναν καθορισμένο κατάλογο εξόδου στην επιθυμητή μορφή αρχείου, όπως .3ds.
+Αποθηκεύστε τη διαμορφωμένη σκηνή σε έναν καθορισμένο κατάλογο εξόδου στην επιθυμητή μορφή αρχείου, όπως .fbx.
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## συμπέρασμα
@@ -98,7 +98,7 @@ A1: Το Aspose.3D υποστηρίζει διάφορες μορφές αρχε
 
 ### Ε4: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
 
- A4: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+A4: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
 
 ### Ε5: Πώς μπορώ να αποκτήσω προσωρινή άδεια;
 

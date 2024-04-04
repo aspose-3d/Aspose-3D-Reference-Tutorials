@@ -20,20 +20,13 @@ is_root: true
  
 - [3D النمذجة](./net/3d-modeling/)
 - [مشهد ثلاثي الأبعاد](./net/3d-scene/)
-- [منافذ عرض ثلاثية الأبعاد](./net/3d-viewports/)
 - [الرسوم المتحركة](./net/animation/)
-- [معلومات الأصول](./net/asset-information/)
 - [الهندسة والتسلسل الهرمي](./net/geometry-and-hierarchy/)
 - [رخصة](./net/license/)
 - [التحميل والحفظ](./net/loading-and-saving/)
 - [مواد](./net/materials/)
-- [المضلعات](./net/polygons/)
 - [استدعاء](./net/rendering/)
-- [النتوء الخطي](./net/linear-extrusion/)
-- [أشياء](./net/objects/)
-- [العمل مع الاسطوانة](./net/working-with-cylinder/)
-- [العمل مع بوينت كلاود](./net/working-with-point-cloud/)
-- [العمل مع VRML](./net/working-with-vrml/)
+- [تنسجم](./net/meshes/)
 
 ## Aspose.3D لدروس جافا
 {{% alert color="primary" %}}

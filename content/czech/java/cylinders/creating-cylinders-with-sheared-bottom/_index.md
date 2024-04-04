@@ -45,7 +45,7 @@ Nyní vytvoříme první válec se střiženým dnem:
 // Vytvořte válec 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // Přizpůsobené dno nůžek pro válec 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // Smyk 47,5 stupně v rovině xy (osa z)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //Smyk 47,5 stupně v rovině xy (osa z)
 // Přidejte válec 1 do scény
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // Rozšíření:4
@@ -77,7 +77,7 @@ Gratulujeme! Úspěšně jste vytvořili válce se střižným dnem pomocí Aspo
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak využít Aspose.3D pro Javu k vylepšení vašich projektů 3D modelování. Vytváření přizpůsobených válců se střiženými spodky dodává vašim návrhům jedinečný nádech a Aspose.3D zjednodušuje proces.
+V tomto tutoriálu jsme prozkoumali, jak využít Aspose.3D pro Javu k vylepšení vašich projektů 3D modelování. Vytváření přizpůsobených válců se střižným dnem dodává vašim návrhům jedinečný nádech a Aspose.3D zjednodušuje proces.
 
 ## FAQ
 

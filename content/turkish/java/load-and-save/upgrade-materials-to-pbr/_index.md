@@ -9,7 +9,7 @@ url: /tr/java/load-and-save/upgrade-materials-to-pbr/
 ---
 ## giriiş
 
-3D malzemelerinizi PBR'ye yükseltmek, Java uygulamalarınızda gerçeğe yakın görseller elde etmeye yönelik dönüştürücü bir adımdır. Aspose.3D bu süreci basitleştirerek geleneksel malzemelerden PBR malzemelerine sorunsuz bir şekilde geçiş yapmanızı sağlar. Bu öğreticide gerekli önkoşulları inceleyeceğiz, paketleri içe aktaracağız ve her örneği ayrıntılı adımlara ayıracağız.
+3D malzemelerinizi PBR'ye yükseltmek, Java uygulamalarınızda gerçeğe yakın görseller elde etmeye yönelik dönüştürücü bir adımdır. Aspose.3D bu süreci basitleştirerek geleneksel malzemelerden PBR malzemelerine sorunsuz bir şekilde geçiş yapmanızı sağlar. Bu öğreticide gerekli ön koşulları inceleyeceğiz, paketleri içe aktaracağız ve her örneği ayrıntılı adımlara ayıracağız.
 
 ## Önkoşullar
 
@@ -93,7 +93,7 @@ Cevap1: Evet, Aspose.3D çeşitli Java geliştirme ortamlarıyla uyumludur.
 
 ### S3: Ücretsiz deneme sürümü mevcut mu?
 
- C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S4: Aspose.3D desteğini nerede bulabilirim?
 

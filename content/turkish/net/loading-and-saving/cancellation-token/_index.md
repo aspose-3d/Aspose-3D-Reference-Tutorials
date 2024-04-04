@@ -1,6 +1,6 @@
 ---
-title: Yükleme ve Kaydetme - CancellationToken'ı Kullanma
-linktitle: Yükleme ve Kaydetme - CancellationToken'ı Kullanma
+title: CancellationToken'ı kullanma
+linktitle: CancellationToken'ı kullanma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D modellemenin kusursuz dünyasını keşfedin. CancellationToken'ı kullanarak 3D belgeleri verimli bir şekilde yüklemeyi ve kaydetmeyi öğrenin.
 type: docs
@@ -78,7 +78,7 @@ catch (ImportException e)
 }
 ```
 
- 3D belgeyi belirtilen zaman dilimi içinde açmayı deneyin.`cts.Token`parametresi, ayarlanan zaman aşımını aşması durumunda işlemin iptal edilebilmesini sağlar.
+ 3D belgeyi belirtilen zaman dilimi içinde açmayı deneyin.`cts.Token` parametresi, ayarlanan zaman aşımını aşması durumunda işlemin iptal edilebilmesini sağlar.
 
 ### Adım 5: İçe Aktarma İstisnasını İşleyin
 

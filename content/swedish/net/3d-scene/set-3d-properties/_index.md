@@ -105,7 +105,7 @@ Console.WriteLine(pdiffuse);
 
 ## Steg 6: Gå igenom egenskapens egenskaper
 
- Eftersom`Property` ärvs från`A3DObject`, kan du gå igenom egenskaperna för en fastighet.
+ Eftersom`Property` ärvs från`A3DObject`kan du gå igenom egenskaperna för en fastighet.
 
 ```csharp
 //ExStart: TraversePropertyProperties

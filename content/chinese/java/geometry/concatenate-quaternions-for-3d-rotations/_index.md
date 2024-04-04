@@ -16,7 +16,7 @@ url: /zh/java/geometry/concatenate-quaternions-for-3d-rotations/
 在深入学习本教程之前，请确保您具备以下先决条件：
 
 - Java 编程的基础知识。
--  Aspose.3D for Java 已安装。你可以下载它[这里](https://releases.aspose.com/3d/java/).
+- Aspose.3D for Java 已安装。你可以下载它[这里](https://releases.aspose.com/3d/java/).
 
 ## 导入包
 
@@ -98,7 +98,7 @@ System.out.println("\nQuaternions concatenated successfully.\nFile saved at " + 
 
 ### Q3：如何寻求Aspose.3D的支持？
 
- A3：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)提出问题、分享经验并从社区获得帮助。
+ A3：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)提出问题、分享经验并从社区获取帮助。
 
 ### Q4：Aspose.3D 是否有临时许可证？
 

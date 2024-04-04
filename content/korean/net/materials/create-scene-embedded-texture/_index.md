@@ -13,7 +13,7 @@ url: /ko/net/materials/create-scene-embedded-texture/
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - C# 및 .NET 프로그래밍에 대한 기본적인 이해.
 - 컴퓨터에 Visual Studio가 설치되어 있습니다.
--  다운로드할 수 있는 .NET 라이브러리용 Aspose.3D[여기](https://releases.aspose.com/3d/net/).
+- 다운로드할 수 있는 .NET 라이브러리용 Aspose.3D[여기](https://releases.aspose.com/3d/net/).
 - 3D 그래픽 및 장면 생성 개념에 익숙합니다.
 ## 네임스페이스 가져오기
 필요한 네임스페이스를 프로젝트로 가져오는 것부터 시작하세요. 이러한 네임스페이스는 3D 그래픽 조작에 필요한 도구와 기능을 제공합니다.
@@ -44,7 +44,7 @@ Scene scene = new Scene();
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    // 내장된 텍스처를 사용하는 경우 파일 이름이 필요합니다.
+    //내장된 텍스처를 사용하는 경우 파일 이름이 필요합니다.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

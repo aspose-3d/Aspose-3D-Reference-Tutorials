@@ -49,7 +49,7 @@ Utilisez Aspose.3D pour créer un maillage à l'aide de la méthode de création
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-## Étape 3 : définir les normales
+## Étape 3 : Définir les normales
 
 Créez un élément de sommet pour les normales et copiez-y les données normales brutes.
 
@@ -90,4 +90,4 @@ A1 : Oui, Aspose.3D peut être intégré à d'autres bibliothèques Java 3D pour
 
 ### Q5 : Besoin d'aide ou envie de discuter avec la communauté ?
 
-A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour du soutien et des discussions.
+ A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour du soutien et des discussions.

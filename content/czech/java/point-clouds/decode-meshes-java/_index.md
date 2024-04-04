@@ -81,7 +81,7 @@ A1: Rozhodně! Knihovna poskytuje uživatelsky přívětivé rozhraní a komplex
 
 ### Q3: Jak mohu získat podporu pro Aspose.3D pro Java?
 
- A3: Připojte se ke komunitě na[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) komunikovat s ostatními uživateli a získat pomoc od odborníků.
+A3: Připojte se ke komunitě na[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) komunikovat s ostatními uživateli a získat pomoc od odborníků.
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 

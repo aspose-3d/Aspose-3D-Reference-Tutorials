@@ -1,6 +1,6 @@
 ---
-title: Memahami Hierarki Node dalam Adegan 3D
-linktitle: Memahami Hierarki Node dalam Adegan 3D
+title: Memahami Hierarki Node
+linktitle: Memahami Hierarki Node
 second_title: Aspose.3D .NET API
 description: Buka kekuatan Aspose.3D untuk .NET! Selami manipulasi hierarki node dengan panduan langkah demi langkah ini. Buat adegan 3D yang menakjubkan dengan mudah.
 type: docs
@@ -17,7 +17,7 @@ Sebelum kita memulai perjalanan 3D ini, pastikan Anda memiliki prasyarat berikut
 
 -  Aspose.3D untuk Perpustakaan .NET: Pastikan Anda memiliki perpustakaan Aspose.3D yang terintegrasi ke dalam proyek .NET Anda. Jika Anda belum melakukannya, kunjungi[dokumentasi](https://reference.aspose.com/3d/net/) untuk bimbingan.
 
--  Unduh Perpustakaan: Jika Anda belum mengunduh perpustakaan Aspose.3D, ambil versi terbaru dari[tautan unduhan](https://releases.aspose.com/3d/net/)dan ikuti petunjuk instalasi yang disediakan dalam dokumentasi.
+-  Unduh Perpustakaan: Jika Anda belum mengunduh perpustakaan Aspose.3D, ambil versi terbaru dari[tautan unduhan](https://releases.aspose.com/3d/net/) dan ikuti petunjuk instalasi yang disediakan dalam dokumentasi.
 
 -  Dapatkan Lisensi: Untuk membuka potensi penuh Aspose.3D, Anda memerlukan lisensi yang valid. Jika Anda tidak memilikinya, Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/buy) atau memilih a[uji coba gratis](https://releases.aspose.com/) untuk mengeksplorasi kemampuannya.
 
@@ -42,7 +42,7 @@ using Aspose.ThreeD.Utilities;
 
 Namespace ini akan memberi Anda akses ke kelas dan metode penting untuk bekerja dengan adegan 3D.
 
-## Langkah 1: Inisialisasi Objek Adegan
+## Langkah 1: Inisialisasi Objek Pemandangan
 
 ```csharp
 Scene scene = new Scene();

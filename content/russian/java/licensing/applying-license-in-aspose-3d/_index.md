@@ -22,7 +22,8 @@ url: /ru/java/licensing/applying-license-in-aspose-3d/
 
 Для начала импортируйте необходимые пакеты в свой Java-проект. Убедитесь, что Aspose.3D добавлен в ваш путь к классам. Вот пример:
 
-```javaimport com.aspose.threed.License;
+```java
+import com.aspose.threed.License;
 import com.aspose.threed.Metered;
 
 import java.io.FileInputStream;

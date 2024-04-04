@@ -1,6 +1,6 @@
 ---
-title: 3D 장면에서 오일러 각도로 노드 변환
-linktitle: 3D 장면에서 오일러 각도로 노드 변환
+title: 오일러 각도로 노드 변환
+linktitle: 오일러 각도로 노드 변환
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 노드를 손쉽게 변환하는 방법을 알아보세요. 귀하의 프로젝트에서 놀라운 결과를 얻으려면 단계별 가이드를 따르십시오.
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
  다음을 사용하여 새로운 3D 장면을 만드는 것부터 시작하세요.`Scene` 수업.
 
-## 2단계: 노드 클래스 객체 초기화
 
-```csharp
-// 노드 클래스 객체 초기화
-Node cubeNode = new Node("cube");
-```
-
- 다음을 사용하여 장면 내에 노드를 만듭니다.`Node`수업. 이 노드는 3D 개체의 컨테이너 역할을 합니다.
-
-## 3단계: 다각형 빌더를 사용하여 메시 생성
+## 2단계: 기본 상자를 사용하여 메쉬 만들기
 
 ```csharp
 // Common 클래스를 호출하여 폴리곤 빌더 방법을 사용하여 메쉬를 생성하여 메쉬 인스턴스를 설정합니다.
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
- 메서드를 호출합니다(이 경우`CreateMeshUsingPolygonBuilder` 관습에서`Common` 클래스) 3D 개체에 대한 메쉬를 생성합니다.
+ 메서드를 호출합니다(이 경우`CreateMeshUsingPolygonBuilder` 관습에서`Common`클래스) 3D 개체에 대한 메쉬를 생성합니다.
 
-## 4단계: 노드를 메쉬 형상으로 지정
+## 3단계: 메시용 컨테이너 노드 만들기
 
 ```csharp
 // 메쉬 형상에 대한 포인트 노드
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-생성된 메시를 노드와 연결합니다.
+ 다음을 사용하여 장면 내에 노드를 만듭니다.`Node` 수업. 이 노드는 3D 개체의 컨테이너 역할을 합니다.
 
-## 5단계: 오일러 각도 및 변환 설정
+## 4단계: 오일러 각도 및 변환 설정
 
 ```csharp
 // 오일러 각도
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 노드의 오일러 각도와 변환을 정의하여 3D 공간에 배치합니다.
 
-## 6단계: 장면에 큐브 추가
-
-```csharp
-// 장면에 큐브 추가
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-노드를 장면의 계층 구조에 통합합니다.
-
-## 7단계: 3D 장면 저장
+## 5단계: 3D 장면 저장
 
 ```csharp
 // 문서 디렉터리의 경로입니다.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//지원되는 파일 형식으로 3D 장면 저장
-scene.Save(output, FileFormat.FBX7500ASCII);
+// 지원되는 파일 형식으로 3D 장면 저장
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ A2: 예, 여러 변형을 결합하고 적용하여 복잡한 효과를 얻을 �
 
 ### Q5: 도움이 필요하거나 구체적인 질문이 있습니까?
 
-A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역 사회 지원을 위해.
+ A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역 사회 지원을 위해.

@@ -16,7 +16,7 @@ url: /ru/java/3d-mesh-data/split-meshes-by-material/
 Прежде чем мы отправимся в это увлекательное путешествие, убедитесь, что у вас есть следующие предпосылки:
 
 - Базовые знания Java-программирования.
-- Установлена библиотека Aspose.3D для Java. Вы можете скачать его с сайта[Веб-сайт Aspose](https://releases.aspose.com/3d/java/).
+-  Установлена библиотека Aspose.3D для Java. Вы можете скачать его с сайта[Веб-сайт Aspose](https://releases.aspose.com/3d/java/).
 - Интегрированная среда разработки (IDE), созданная для разработки Java.
 
 ## Импортировать пакеты
@@ -76,7 +76,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```java
 // Отображать сообщение об успехе
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
-//ExEnd:SplitMeshbyMaterial
+// ExEnd:SplitMeshbyMaterial
 ```
 
 ## Заключение
@@ -103,4 +103,4 @@ System.out.println("\nSplitting a mesh by specifying the material successfully."
 
 ### В5: Как я могу получить поддержку по любым вопросам или вопросам?
 
-A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) за целенаправленную поддержку сообщества.
+ A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) за целенаправленную поддержку сообщества.

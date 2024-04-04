@@ -1,6 +1,6 @@
 ---
-title: Application de matériau au cube dans des scènes 3D
-linktitle: Application de matériau au cube dans des scènes 3D
+title: Application de matériau au cube
+linktitle: Application de matériau au cube
 second_title: API Aspose.3D .NET
 description: Explorez Aspose.3D pour .NET, votre passerelle vers une manipulation transparente de graphiques 3D. Appliquez des matériaux sans effort, améliorez le réalisme et élevez vos projets.
 type: docs
@@ -42,17 +42,12 @@ using System.IO;
 // Initialiser l'objet de scène
 Scene scene = new Scene();
 
-// Initialiser l'objet nœud de cube
-Node cubeNode = new Node("cube");
+// Créez une instance de boîte.
+var box = new Box();
 
-// Appelez la classe Common pour créer un maillage à l'aide de la méthode de création de polygones pour définir l'instance de maillage
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+// Attacher une instance de boîte à une scène
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//Pointer le nœud vers le maillage
-cubeNode.Entity = mesh;
-
-// Ajouter un cube à la scène
-scene.RootNode.ChildNodes.Add(cubeNode);
 // ExEnd : InitializeSceneAndCube
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 // Définir le chemin du fichier local pour la texture
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 // Définir la texture du matériau
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,8 +77,8 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 // Définir le contenu binaire
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-//ExEnd : IncorporerRawContentData
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
+// ExEnd : IncorporerRawContentData
 ```
 
 ## Étape 4 : Définir les propriétés du matériau
@@ -105,11 +100,11 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExDémarrer : Enregistrer la scène 3DS
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
-//Enregistrez la scène 3D dans les formats de fichiers pris en charge
-scene.Save(output, FileFormat.FBX7400ASCII);
-// ExEnd : Save3DScene
+// Enregistrez la scène 3D dans les formats de fichiers pris en charge
+scene.Save(output);
+//ExEnd : Save3DScene
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
 ```
@@ -140,4 +135,4 @@ A3 : Oui, Aspose.3D fournit une prise en charge complète pour la création et l
 
 ### Q5 : Comment puis-je obtenir de l'aide pour tout problème ou question ?
 
-A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour entrer en contact avec la communauté et demander de l'aide.
+ A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour entrer en contact avec la communauté et demander de l'aide.

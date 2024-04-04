@@ -101,7 +101,7 @@ try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new
 
 ## 결론
 
-이 튜토리얼을 따라가면서 Java용 Aspose.3D를 사용하여 3D 메시를 사용자 정의 바이너리 형식으로 저장하여 Java 애플리케이션의 유연성을 향상시키는 방법을 배웠습니다.
+이 튜토리얼을 통해 Java용 Aspose.3D를 사용하여 3D 메시를 사용자 정의 바이너리 형식으로 저장하여 Java 애플리케이션의 유연성을 향상시키는 방법을 배웠습니다.
 
 ## FAQ
 
@@ -115,7 +115,7 @@ A1: 예, Aspose.3D는 다양한 3D 모델 형식을 지원하여 개발 유연�
 
 ### Q3: Java용 Aspose.3D에 대한 지원은 어디서 찾을 수 있나요?
 
- A3: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18)도움이나 문의사항이 있으면
+ A3: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 도움이나 문의사항이 있으면
 
 ### Q4: 테스트에 사용할 수 있는 샘플 3D 모델이 있습니까?
 

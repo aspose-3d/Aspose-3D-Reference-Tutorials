@@ -33,7 +33,7 @@ Node cubeNode = new Node("box");
 ```java
 // 상자의 메쉬 가져오기
 Mesh box = (new Box()).toMesh();
-// 사용자 정의된 꼭짓점 레이아웃 만들기
+// 사용자 정의된 꼭지점 레이아웃 만들기
 VertexDeclaration vd = new VertexDeclaration();
 VertexField position = vd.addField(VertexFieldDataType.F_VECTOR4, VertexFieldSemantic.POSITION);
 vd.addField(VertexFieldDataType.F_VECTOR3, VertexFieldSemantic.NORMAL);
@@ -54,7 +54,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 ```java
 // 3D 장면을 저장할 디렉터리를 지정하세요.
 String MyDir = "Your Document Directory" + "BoxToTriangleMeshCustomMemoryLayoutScene.fbx";
-//지원되는 파일 형식으로 3D 장면 저장
+// 지원되는 파일 형식으로 3D 장면 저장
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 System.out.println("\nConverted a Box mesh to triangle mesh with custom memory layout of the vertex successfully.\nFile saved at " + MyDir);
 ```

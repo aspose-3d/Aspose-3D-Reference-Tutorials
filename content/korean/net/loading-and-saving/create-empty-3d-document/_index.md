@@ -1,6 +1,6 @@
 ---
-title: 로드 및 저장 - 빈 3D 문서 만들기
-linktitle: 로드 및 저장 - 빈 3D 문서 만들기
+title: 빈 3D 문서 만들기
+linktitle: 빈 3D 문서 만들기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 문서 생성의 세계를 탐험해보세요. 놀라운 3D 장면을 손쉽게 생성, 편집 및 저장하세요.
 type: docs
@@ -46,7 +46,7 @@ var output = "Your Output Directory" + "document.fbx";
 Scene scene = new Scene();
 
 // 3D 장면 문서를 FBX 형식으로 저장
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 
 // ExEnd:CreateEmpty3DDocument
 ```

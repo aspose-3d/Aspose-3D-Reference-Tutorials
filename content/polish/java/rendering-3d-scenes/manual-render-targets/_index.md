@@ -51,7 +51,7 @@ Określ plik obrazu wyjściowego, w którym zostanie zapisana wyrenderowana scen
 String output = "manual-render-to-image.png";
 ```
 
-## Krok 3: Utwórz obraz buforowany
+## Krok 3: Utwórz buforowany obraz
 
  Stwórz`BufferedImage` o pożądanych wymiarach i typie renderowania:
 

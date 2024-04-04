@@ -15,7 +15,7 @@ Jste připraveni vylepšit své zkušenosti s 3D modelováním pomocí Aspose.3D
 
 Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
--  Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovaný JDK. Můžete si jej stáhnout[tady](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovaný JDK. Můžete si jej stáhnout[tady](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 -  Aspose.3D for Java: Stáhněte si a nainstalujte knihovnu Aspose.3D pro Java z webu[odkaz ke stažení](https://releases.aspose.com/3d/java/).
 
@@ -101,7 +101,7 @@ Gratulujeme! Úspěšně jste vytvořili přizpůsobené válce ventilátoru pom
 
 ## Závěr
 
-tomto tutoriálu jsme prozkoumali proces využití Aspose.3D pro Java k vytvoření personalizovaných válců ventilátoru ve 3D scéně. Všestrannost Aspose.3D umožňuje vývojářům snadno vylepšit jejich projekty 3D modelování.
+V tomto tutoriálu jsme prozkoumali proces využití Aspose.3D pro Java k vytvoření personalizovaných válců ventilátoru ve 3D scéně. Všestrannost Aspose.3D umožňuje vývojářům snadno vylepšit jejich projekty 3D modelování.
 
 ## FAQ
 

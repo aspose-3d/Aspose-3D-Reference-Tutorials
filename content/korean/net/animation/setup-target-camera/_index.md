@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## 5단계: 장면 저장
 
-구성된 장면을 .3ds와 같은 원하는 파일 형식으로 지정된 출력 디렉터리에 저장합니다.
+구성된 장면을 .fbx와 같은 원하는 파일 형식으로 지정된 출력 디렉터리에 저장합니다.
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## 결론
@@ -98,7 +98,7 @@ A2: 물론이죠! Aspose.3D는 개발자가 게임용 3D 자산을 쉽게 만들
 
 ### Q4: 무료 평가판이 제공됩니까?
 
- A4: 예, 무료 평가판을 사용해 볼 수 있습니다.[여기](https://releases.aspose.com/).
+A4: 예, 무료 평가판을 사용해 볼 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q5: 임시 라이센스는 어떻게 얻나요?
 

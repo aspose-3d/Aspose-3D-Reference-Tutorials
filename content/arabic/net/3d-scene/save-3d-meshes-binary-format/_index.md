@@ -41,12 +41,24 @@ using System.Text;
 قم بتحميل ملفك ثلاثي الأبعاد باستخدام Aspose.3D. في هذا المثال، نقوم بتحميل ملف باسم "test.fbx":
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## الخطوة 2: تحديد التنسيق الثنائي المخصص
 
 حدد بنية التنسيق الثنائي المخصص الذي تريد حفظ شبكاتك ثلاثية الأبعاد فيه. يستخدم المثال بنية تحتوي على MeshBlock وVertex وTriangle كمكونات.
+
+```csharp
+// تخطيط الذاكرة للقمة هو
+// موقف تعويم[3]؛
+// تعويم[3] عادي؛
+// تعويم [3] الأشعة فوق البنفسجية؛
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## الخطوة 3: افتح الملف للكتابة
 
@@ -79,11 +91,30 @@ scene.RootNode.Accept(delegate(Node node)
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (تابع كتابة نقاط التحكم ومؤشرات المثلث)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//تخطيط ذاكرة الشبكة هو:
+// تعويم[16] Transform_matrix؛
+// int vertices_count;
+// indices_count;
+// قمة [vertices_count] القمم؛
+// مؤشرات ushort[indices_count]؛
+
+
+//تحويل الكتابة
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//اكتب عدد القمم/المؤشرات
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//كتابة القمم والمؤشرات
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## خاتمة
@@ -98,7 +129,7 @@ Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
 ### س2: أين يمكنني العثور على أمثلة وموارد إضافية؟
 
- ج2: ال[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) يعد مكانًا رائعًا للعثور على الدعم والأمثلة والتفاعل مع المجتمع.
+ ج2: ال[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18)يعد مكانًا رائعًا للعثور على الدعم والأمثلة والتفاعل مع المجتمع.
 
 ### س3: هل هناك نسخة تجريبية متاحة لـ Aspose.3D؟
 

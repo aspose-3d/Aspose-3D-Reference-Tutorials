@@ -1,6 +1,6 @@
 ---
-title: UV beállítása a Cube-on 3D-s jelenetekben
-linktitle: UV beállítása a Cube-on 3D-s jelenetekben
+title: UV beállítása a Cube-on
+linktitle: UV beállítása a Cube-on
 second_title: Aspose.3D .NET API
 description: Ismerje meg az UV-leképezés beállítását 3D-kockán az Aspose.3D for .NET használatával. Hozzon létre vizuálisan lenyűgöző jeleneteket precíz textúra-leképezéssel.
 type: docs

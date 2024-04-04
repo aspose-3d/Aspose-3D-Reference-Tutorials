@@ -8,7 +8,7 @@ weight: 10
 url: /de/net/rendering/cast-receive-shadows/
 ---
 ## Einführung
-Willkommen in der Welt des 3D-Renderings mit Aspose.3D für .NET! In diesem Tutorial befassen wir uns mit dem faszinierenden Bereich des Werfens und Empfangens von Schatten, einem entscheidenden Aspekt bei der Erstellung realistischer und visuell beeindruckender 3D-Szenen. Ganz gleich, ob Sie ein erfahrener Entwickler sind oder gerade erst Ihre Reise in die 3D-Grafik beginnen, dieser Leitfaden vermittelt Ihnen das Wissen und die Fähigkeiten, um Ihre Rendering-Fähigkeiten mit Aspose.3D zu verbessern.
+Willkommen in der Welt des 3D-Renderings mit Aspose.3D für .NET! In diesem Tutorial befassen wir uns mit dem faszinierenden Bereich des Werfens und Empfangens von Schatten, einem entscheidenden Aspekt bei der Erstellung realistischer und visuell beeindruckender 3D-Szenen. Ganz gleich, ob Sie ein erfahrener Entwickler sind oder gerade erst Ihre Reise in die Welt der 3D-Grafik beginnen, dieser Leitfaden vermittelt Ihnen das Wissen und die Fähigkeiten, um Ihre Rendering-Fähigkeiten mit Aspose.3D zu verbessern.
 ## Voraussetzungen
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 -  Aspose.3D für .NET: Stellen Sie sicher, dass die Aspose.3D-Bibliothek installiert ist. Sie können es hier herunterladen[Aspose.3D für .NET-Dokumentation](https://reference.aspose.com/3d/net/).
@@ -35,7 +35,7 @@ Scene scene = new Scene();
 Camera camera = new Camera();
 // Zusätzlicher Kamera-Setup-Code...
 ```
- Erstellen Sie eine 3D-Szene und richten Sie eine Kamera ein, um die Szene anzuzeigen. Passen Sie Kameraparameter an, z`NearPlane` Und`LookAt` für eine optimale Wiedergabe.
+Erstellen Sie eine 3D-Szene und richten Sie eine Kamera ein, um die Szene anzuzeigen. Passen Sie Kameraparameter an, z`NearPlane` Und`LookAt` für eine optimale Wiedergabe.
 ## Schritt 2: Lichtquelle einführen
 ```csharp
 Light light;

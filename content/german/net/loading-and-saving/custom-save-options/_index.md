@@ -1,8 +1,8 @@
 ---
-title: Laden und Speichern – Benutzerdefinierte Speicheroptionen
-linktitle: Laden und Speichern – Benutzerdefinierte Speicheroptionen
+title: Benutzerdefinierte Speicheroptionen
+linktitle: Benutzerdefinierte Speicheroptionen
 second_title: Aspose.3D .NET API
-description: Entdecken Sie die Leistungsfähigkeit von Aspose.3D für .NET. Erfahren Sie, wie Sie Ihre 3D-Szenenspeicherung mit Schritt-für-Schritt-Anleitungen zu den Formaten Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC und RVM anpassen.
+description: Entdecken Sie die Leistungsfähigkeit von Aspose.3D für .NET. Erfahren Sie, wie Sie Ihre 3D-Szenenspeicherung mit Schritt-für-Schritt-Anleitungen zu den Formaten Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC und RVM anpassen.
 type: docs
 weight: 21
 url: /de/net/loading-and-saving/custom-save-options/

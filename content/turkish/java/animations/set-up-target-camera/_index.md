@@ -97,4 +97,4 @@ Tebrikler! Aspose.3D'yi kullanarak Java'da 3D animasyonlar için hedef kamerayı
 
 ### S5: Geçici lisansı nasıl alabilirim?
 
-Cevap5: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).

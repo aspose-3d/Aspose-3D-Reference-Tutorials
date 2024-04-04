@@ -1,6 +1,6 @@
 ---
-title: 3D 장면의 노드 계층 이해
-linktitle: 3D 장면의 노드 계층 이해
+title: 노드 계층 이해
+linktitle: 노드 계층 이해
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D의 강력한 기능을 활용해 보세요! 이 단계별 가이드를 통해 노드 계층 구조 조작에 대해 자세히 알아보세요. 멋진 3D 장면을 손쉽게 만들어 보세요.
 type: docs
@@ -17,13 +17,13 @@ url: /ko/net/geometry-and-hierarchy/node-hierarchy/
 
 -  .NET 라이브러리용 Aspose.3D: Aspose.3D 라이브러리가 .NET 프로젝트에 통합되어 있는지 확인하세요. 아직 이 작업을 수행하지 않았다면 다음 페이지로 이동하세요.[선적 서류 비치](https://reference.aspose.com/3d/net/) 안내를 위해.
 
--  라이브러리 다운로드: Aspose.3D 라이브러리를 다운로드하지 않은 경우 다음에서 최신 버전을 다운로드하세요.[다운로드 링크](https://releases.aspose.com/3d/net/)설명서에 제공된 설치 지침을 따르세요.
+-  라이브러리 다운로드: Aspose.3D 라이브러리를 다운로드하지 않은 경우 다음에서 최신 버전을 다운로드하세요.[다운로드 링크](https://releases.aspose.com/3d/net/) 설명서에 제공된 설치 지침을 따르세요.
 
 -  라이선스 받기: Aspose.3D의 잠재력을 최대한 활용하려면 유효한 라이선스가 필요합니다. 없으신 분들은 얻으시면 됩니다[여기](https://purchase.aspose.com/buy) 또는 다음을 선택하세요.[무료 시험판](https://releases.aspose.com/) 그 능력을 탐구합니다.
 
 -  지원 및 커뮤니티: Aspose.3D 커뮤니티에 가입하세요.[지원 포럼](https://forum.aspose.com/c/3d/18)다른 개발자와 연결하고, 도움을 구하고, 최신 개발 소식을 받아보세요.
 
--  임시 라이선스(선택 사항): 구매하기 전에 Aspose.3D를 탐색하는 경우[임시면허](https://purchase.aspose.com/temporary-license/) 확장된 액세스를 위해.
+-  임시 라이선스(선택 사항): 구매하기 전에 Aspose.3D를 탐색하는 경우[임시 면허증](https://purchase.aspose.com/temporary-license/) 확장된 액세스를 위해.
 
 이제 도구가 준비되었으므로 Aspose.3D를 사용하여 3D 노드 계층 구조를 조작하는 흥미로운 세계를 살펴보겠습니다.
 

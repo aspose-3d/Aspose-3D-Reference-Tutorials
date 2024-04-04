@@ -35,7 +35,7 @@ Scene scene = new Scene();
 Camera camera = new Camera();
 // Ytterligare kamerainställningskod...
 ```
- Skapa en 3D-scen och ställ in en kamera för att se scenen. Justera kameraparametrar som t.ex`NearPlane` och`LookAt` för optimal rendering.
+Skapa en 3D-scen och ställ in en kamera för att se scenen. Justera kameraparametrar som t.ex`NearPlane` och`LookAt` för optimal rendering.
 ## Steg 2: Introducera ljuskälla
 ```csharp
 Light light;

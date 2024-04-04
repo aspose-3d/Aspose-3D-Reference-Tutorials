@@ -115,7 +115,7 @@ Ennek az oktatóanyagnak a követésével megtanulta, hogyan használhatja az As
 
 ### 3. kérdés: Hol találok támogatást az Aspose.3D for Java számára?
 
- A3: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18)bármilyen segítségért vagy kérdésért.
+ A3: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) bármilyen segítségért vagy kérdésért.
 
 ### 4. kérdés: Vannak 3D-s mintamodellek tesztelésre?
 

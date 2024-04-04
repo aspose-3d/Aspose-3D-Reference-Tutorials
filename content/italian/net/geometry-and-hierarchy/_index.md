@@ -15,13 +15,21 @@ Intraprendi un viaggio emozionante nel regno della grafica 3D con i tutorial Asp
 
  Immergiti nell'affascinante mondo dei materiali Physically Based Rendering (PBR) con Aspose.3D per .NET. In questo tutorial ti guidiamo attraverso il processo di applicazione dei materiali PBR a una scatola, consentendoti di creare scene coinvolgenti senza sforzo.[Per saperne di più](./apply-pbr-material-to-box/)
 
+
+## Query di oggetti simili a XPath
+
+[Esercitazione sulle query di oggetti simili a XPath](./xpath-like-object-queries/)
+
+Sblocca il potenziale di Aspose.3D per .NET! Sfrutta la versatilità delle query simili a XPath per navigare e manipolare facilmente gli oggetti all'interno della gerarchia della scena. Scaricalo ora per un'esperienza rivoluzionaria, semplificando la manipolazione della grafica 3D come mai prima d'ora.
+
+
 ## Concatenazione di quaternioni in scene 3D
 
  Sblocca la potenza della manipolazione dei quaternioni nelle scene 3D con Aspose.3D per .NET. Impara a concatenare i quaternioni passo dopo passo, liberando il loro potenziale per trasformazioni coinvolgenti.[Per saperne di più](./concatenate-quaternions/)
 
 ## Creazione di scene cubiche in 3D
 
- Crea scene di cubi 3D visivamente sbalorditive senza sforzo con Aspose.3D per .NET. Scarica la libreria e segui la nostra guida completa per liberare la tua creatività.[Per saperne di più](./create-cube-scenes/)
+Crea scene di cubi 3D visivamente sbalorditive senza sforzo con Aspose.3D per .NET. Scarica la libreria e segui la nostra guida completa per liberare la tua creatività.[Per saperne di più](./create-cube-scenes/)
 
 ## Esposizione della trasformazione geometrica nelle scene 3D
 
@@ -37,11 +45,11 @@ Intraprendi un viaggio emozionante nel regno della grafica 3D con i tutorial Asp
 
 ## Comprensione della gerarchia dei nodi nelle scene 3D
 
- Sblocca la potenza di Aspose.3D per .NET! Immergiti nella manipolazione della gerarchia dei nodi con questa guida completa, che ti consente di creare straordinarie scene 3D senza sforzo.[Per saperne di più](./node-hierarchy/)
+Sblocca la potenza di Aspose.3D per .NET! Immergiti nella manipolazione della gerarchia dei nodi con questa guida completa, che ti consente di creare straordinarie scene 3D senza sforzo.[Per saperne di più](./node-hierarchy/)
 
 ## Impostazione delle normali sul cubo nelle scene 3D
 
-Migliora le tue capacità di modellazione 3D con Aspose.3D per .NET. Impara a impostare le normali su un cubo 3D attraverso questa guida passo passo, aggiungendo profondità e realismo alle tue creazioni.[Per saperne di più](./setup-normals-cube/)
+ Migliora le tue capacità di modellazione 3D con Aspose.3D per .NET. Impara a impostare le normali su un cubo 3D attraverso questa guida passo passo, aggiungendo profondità e realismo alle tue creazioni.[Per saperne di più](./setup-normals-cube/)
 
 ## Impostazione UV sul cubo nelle scene 3D
 
@@ -53,41 +61,14 @@ Migliora le tue capacità di modellazione 3D con Aspose.3D per .NET. Impara a im
 
 ## Trasformazione del nodo tramite quaternione in scene 3D
 
- Immergiti nel mondo delle trasformazioni dei quaternioni con Aspose.3D per .NET. Questa guida per principianti fornisce un tutorial passo passo per trasformare i nodi 3D con quaternioni.[Per saperne di più](./transformation-node-quaternion/)
+Immergiti nel mondo delle trasformazioni dei quaternioni con Aspose.3D per .NET. Questa guida per principianti fornisce un tutorial passo passo per trasformare i nodi 3D con quaternioni.[Per saperne di più](./transformation-node-quaternion/)
 
 ## Trasformazione del nodo tramite matrice di trasformazione nelle scene 3D
 
-Trasforma facilmente i nodi in scene 3D utilizzando Aspose.3D per .NET. Il nostro tutorial fornisce una guida dettagliata sulle trasformazioni dei nodi utilizzando le matrici di trasformazione.[Per saperne di più](./transformation-node-matrix/)
+ Trasforma facilmente i nodi in scene 3D utilizzando Aspose.3D per .NET. Il nostro tutorial fornisce una guida dettagliata sulle trasformazioni dei nodi utilizzando le matrici di trasformazione.[Per saperne di più](./transformation-node-matrix/)
 
 ## Mesh triangolare nelle scene 3D
 
  Esplora la potenza di Aspose.3D per .NET con questa guida passo passo sulla triangolazione semplice delle mesh 3D. Migliora le tue capacità di modellazione per un'esperienza più coinvolgente.[Per saperne di più](./triangulate-mesh/)
 
 Intraprendi questo entusiasmante viaggio con i tutorial Aspose.3D per .NET e migliora la tua esperienza nella grafica 3D. Immergiti in ogni tutorial, segui i passaggi e osserva le tue abilità raggiungere nuove vette. Buona programmazione!
-## Esercitazioni su geometria e gerarchia
-### [Applicazione del materiale PBR alla scatola nelle scene 3D](./apply-pbr-material-to-box/)
-Esplora il mondo della grafica 3D con Aspose.3D per .NET. Crea scene coinvolgenti senza sforzo utilizzando materiali di rendering basati sulla fisica.
-### [Concatenazione di quaternioni in scene 3D](./concatenate-quaternions/)
-Esplora la potenza della manipolazione dei quaternioni nelle scene 3D con Aspose.3D per .NET. Impara a concatenare i quaternioni passo dopo passo per trasformazioni coinvolgenti.
-### [Creazione di scene cubiche in 3D](./create-cube-scenes/)
-Crea splendide scene di cubi 3D senza sforzo con Aspose.3D per .NET. Scarica la libreria, segui la nostra guida passo passo e scatenati.
-### [Esposizione della trasformazione geometrica nelle scene 3D](./expose-geometric-transformation/)
-Esplora le possibilità illimitate della grafica 3D in .NET con Aspose.3D. Scopri le trasformazioni geometriche senza sforzo.
-### [Applicazione di materiale al cubo nelle scene 3D](./material-to-cube/)
-Esplora Aspose.3D per .NET, il tuo gateway per la manipolazione grafica 3D senza soluzione di continuità. Applica i materiali senza sforzo, migliora il realismo ed eleva i tuoi progetti.
-### [Lavorare con i dati della geometria mesh nelle scene 3D](./mesh-geometry-data/)
-Padroneggia l'arte della programmazione grafica 3D con Aspose.3D per .NET. Crea, manipola e salva splendide scene 3D senza sforzo.
-### [Comprensione della gerarchia dei nodi nelle scene 3D](./node-hierarchy/)
-Sblocca la potenza di Aspose.3D per .NET! Immergiti nella manipolazione della gerarchia dei nodi con questa guida passo passo. Crea splendide scene 3D senza sforzo.
-### [Impostazione delle normali sul cubo nelle scene 3D](./setup-normals-cube/)
-Impara a impostare le normali su un cubo 3D utilizzando Aspose.3D per .NET. Migliora le tue capacità di modellazione 3D con questa guida passo passo.
-### [Impostazione UV sul cubo nelle scene 3D](./setup-uv-cube/)
-Impara a impostare la mappatura UV su un cubo 3D utilizzando Aspose.3D per .NET. Crea scene visivamente sbalorditive con una mappatura precisa delle texture.
-### [Trasformazione del nodo mediante angoli di Eulero in scene 3D](./transformation-node-euler-angles/)
-Impara a trasformare i nodi 3D senza sforzo con Aspose.3D per .NET. Segui la nostra guida passo passo per ottenere risultati sorprendenti nei tuoi progetti.
-### [Trasformazione del nodo tramite quaternione in scene 3D](./transformation-node-quaternion/)
-Impara a trasformare i nodi 3D con quaternioni utilizzando Aspose.3D per .NET. Guida passo passo per principianti.
-### [Trasformazione del nodo tramite matrice di trasformazione nelle scene 3D](./transformation-node-matrix/)
-Trasforma i nodi senza sforzo in scene 3D utilizzando Aspose.3D per .NET. Scopri le trasformazioni dei nodi passo dopo passo con il tutorial.
-### [Mesh triangolare nelle scene 3D](./triangulate-mesh/)
-Esplora la potenza di Aspose.3D per .NET in questa guida passo passo. Scopri come triangolare facilmente le mesh 3D per una modellazione avanzata.

@@ -76,7 +76,7 @@ Pro vytvoření panoramatického pohledu použijte následné zpracování ekvid
 ```
 Uložte vykreslený panoramatický obraz do určeného výstupního adresáře.
 ## Závěr
-S Aspose.3D for .NET se vykreslování panoramatického pohledu na 3D scénu stává přímočarým procesem. Vylepšete své aplikace bezproblémovým začleněním pohlcujících 3D vizualizací.
+Aspose.3D for .NET se vykreslování panoramatického pohledu na 3D scénu stává přímočarým procesem. Vylepšete své aplikace bezproblémovým začleněním pohlcujících 3D vizualizací.
 ## Často kladené otázky
 ### Otázka: Mohu použít svou vlastní 3D scénu pro vykreslování panoramat?
 Ano, jednoduše nahraďte cestu k souboru ukázkové scény cestou k vaší vlastní 3D scéně.

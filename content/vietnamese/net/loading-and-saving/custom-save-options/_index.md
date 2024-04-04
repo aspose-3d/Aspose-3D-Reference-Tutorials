@@ -1,8 +1,8 @@
 ---
-title: Đang tải và lưu - Tùy chọn lưu tùy chỉnh
-linktitle: Đang tải và lưu - Tùy chọn lưu tùy chỉnh
+title: Tùy chọn lưu tùy chỉnh
+linktitle: Tùy chọn lưu tùy chỉnh
 second_title: API Aspose.3D .NET
-description: Khám phá sức mạnh của Aspose.3D cho .NET. Tìm hiểu cách tùy chỉnh lưu cảnh 3D của bạn bằng hướng dẫn từng bước trên các định dạng Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC và RVM.
+description: Khám phá sức mạnh của Aspose.3D cho .NET. Tìm hiểu cách tùy chỉnh lưu cảnh 3D của bạn với hướng dẫn từng bước về các định dạng Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC và RVM.
 type: docs
 weight: 21
 url: /vi/net/loading-and-saving/custom-save-options/

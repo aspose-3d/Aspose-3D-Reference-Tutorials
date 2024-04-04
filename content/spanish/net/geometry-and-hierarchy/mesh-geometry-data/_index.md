@@ -1,6 +1,6 @@
 ---
-title: Trabajar con datos de geometría de malla en escenas 3D
-linktitle: Trabajar con datos de geometría de malla en escenas 3D
+title: Trabajar con datos de geometría de malla
+linktitle: Trabajar con datos de geometría de malla
 second_title: Aspose.3D API .NET
 description: Domine el arte de la programación de gráficos 3D con Aspose.3D para .NET. Crea, manipula y guarda impresionantes escenas 3D sin esfuerzo.
 type: docs
@@ -17,7 +17,7 @@ Antes de embarcarnos en este viaje 3D, asegúrese de cumplir con los siguientes 
 
 - Conocimiento práctico de programación en C# y .NET.
 - Visual Studio instalado en su máquina.
--  Biblioteca Aspose.3D para .NET, que puedes descargar[aquí](https://releases.aspose.com/3d/net/).
+- Biblioteca Aspose.3D para .NET, que puedes descargar[aquí](https://releases.aspose.com/3d/net/).
 
 Ahora que ya está todo listo, ¡saltemos al fascinante mundo de la programación de gráficos 3D!
 
@@ -95,7 +95,7 @@ Cree una malla utilizando el método del generador de polígonos y aplique color
 // La ruta al directorio de documentos.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//Guarde la escena 3D en los formatos de archivo compatibles
+// Guarde la escena 3D en los formatos de archivo compatibles
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

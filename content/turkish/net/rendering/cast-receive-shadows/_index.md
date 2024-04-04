@@ -35,7 +35,7 @@ Scene scene = new Scene();
 Camera camera = new Camera();
 // Ek kamera kurulum kodu...
 ```
- Bir 3D sahne oluşturun ve sahneyi görüntülemek için bir kamera ayarlayın. gibi kamera parametrelerini ayarlayın.`NearPlane` Ve`LookAt` Optimum işleme için.
+Bir 3D sahne oluşturun ve sahneyi görüntülemek için bir kamera ayarlayın. gibi kamera parametrelerini ayarlayın.`NearPlane` Ve`LookAt` Optimum işleme için.
 ## Adım 2: Işık Kaynağını Tanıtın
 ```csharp
 Light light;

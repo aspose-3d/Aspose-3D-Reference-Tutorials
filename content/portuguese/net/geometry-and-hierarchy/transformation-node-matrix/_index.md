@@ -1,6 +1,6 @@
 ---
-title: Transformando Nó por Matriz de Transformação em Cenas 3D
-linktitle: Transformando Nó por Matriz de Transformação em Cenas 3D
+title: Transformando Nó por Matriz de Transformação
+linktitle: Transformando Nó por Matriz de Transformação
 second_title: API Aspose.3D .NET
 description: Transforme nós sem esforço em cenas 3D usando Aspose.3D para .NET. Aprenda transformações de nós passo a passo com tutorial.
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 Agora que cobrimos o básico, vamos dividir o processo de transformação em um guia passo a passo.
 
-## Etapa 1: inicializar cena e nó
+## Etapa 1: inicializar a cena
 
 ```csharp
 // ExStart:AddTransformationToNodeByTransformationMatrix
 // Inicializar objeto de cena
 Scene scene = new Scene();
 
-// Inicializar objeto de classe Node
-Node cubeNode = new Node("cube");
 ```
 
-Nesta etapa, criamos uma nova cena 3D e um nó denominado “cubo” dentro dessa cena.
+Nesta etapa, criamos uma nova cena 3D vazia.
 
-## Passo 2: Criar Malha e Definir Geometria
+## Etapa 2: criar malha e anexar à cena
 
 ```csharp
 // Chame a classe Common para criar malha usando o método construtor de polígono para definir a instância da malha
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// Aponte o nó para a geometria da malha
-cubeNode.Entity = mesh;
+// Crie um nó de contêiner para a malha.
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 Aqui, geramos uma malha usando o método construtor de polígonos e a atribuímos ao nó, estabelecendo a geometria do nosso cubo.
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 Defina uma matriz de tradução personalizada para determinar a transformação específica aplicada ao nó. Ajuste os valores da matriz conforme necessário para a transformação desejada.
 
-## Etapa 4: adicionar nó à cena
-
-```csharp
-// Adicione um cubo à cena
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 Inclua o nó do cubo na cena, tornando-o parte do ambiente 3D geral.
 
-## Etapa 5: salve a cena
+## Etapa 4: salve a cena
 
 ```csharp
 // O caminho para o diretório de documentos.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Salve cenas 3D nos formatos de arquivo suportados
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Salve cenas 3D nos formatos de arquivo suportados
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ A2: Sim, você pode combinar múltiplas transformações multiplicando suas resp
 
 ### Q4: Como posso obter uma licença temporária para Aspose.3D for .NET?
 
- A4: Visite o[página de licença temporária](https://purchase.aspose.com/temporary-license/) no site Aspose para obter uma licença temporária para fins de avaliação.
+ A4: Visite o[página de licença temporária](https://purchase.aspose.com/temporary-license/)no site Aspose para obter uma licença temporária para fins de avaliação.
 
 ### Q5: Onde posso procurar assistência ou conectar-me com a comunidade Aspose.3D?
 
-A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para fazer perguntas, compartilhar experiências e conectar-se com outros desenvolvedores usando Aspose.3D.
+ A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para fazer perguntas, compartilhar experiências e conectar-se com outros desenvolvedores usando Aspose.3D.

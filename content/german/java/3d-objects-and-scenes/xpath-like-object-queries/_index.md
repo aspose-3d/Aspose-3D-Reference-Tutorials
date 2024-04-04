@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## Schritt 2: Erstellen Sie eine Knotenhierarchie
 
 ```java
-// ExStart:CreateHierarchy
+//ExStart:CreateHierarchy
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

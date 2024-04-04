@@ -16,7 +16,7 @@ Bem-vindo ao nosso guia passo a passo sobre como aprimorar o posicionamento de c
 Antes de embarcarmos nesta jornada, certifique-se de ter os seguintes pré-requisitos em vigor:
 
 - Uma compreensão básica da programação Java.
--  Aspose.3D para Java instalado. Você pode baixá-lo[aqui](https://releases.aspose.com/3d/java/).
+- Aspose.3D para Java instalado. Você pode baixá-lo[aqui](https://releases.aspose.com/3d/java/).
 - Um ambiente de desenvolvimento pronto para codificação Java.
 
 ## Importar pacotes
@@ -101,7 +101,7 @@ A1: Sim, Aspose.3D oferece suporte a várias linguagens de programação, inclui
 
 ### Q2: Há uma avaliação gratuita disponível para Aspose.3D?
 
-A2: Certamente! Você pode explorar os recursos do Aspose.3D acessando a avaliação gratuita[aqui](https://releases.aspose.com/).
+ A2: Certamente! Você pode explorar os recursos do Aspose.3D acessando a avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### Q3: Onde posso encontrar suporte para Aspose.3D?
 

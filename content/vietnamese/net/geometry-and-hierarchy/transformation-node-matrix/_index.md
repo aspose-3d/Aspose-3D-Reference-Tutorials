@@ -1,6 +1,6 @@
 ---
-title: Chuyển đổi nút bằng ma trận chuyển đổi trong cảnh 3D
-linktitle: Chuyển đổi nút bằng ma trận chuyển đổi trong cảnh 3D
+title: Nút chuyển đổi bằng ma trận chuyển đổi
+linktitle: Nút chuyển đổi bằng ma trận chuyển đổi
 second_title: API Aspose.3D .NET
 description: Chuyển đổi các nút dễ dàng trong cảnh 3D bằng Aspose.3D cho .NET. Tìm hiểu các chuyển đổi nút từng bước với hướng dẫn.
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 Bây giờ chúng ta đã đề cập đến những điều cơ bản, hãy chia quá trình chuyển đổi thành hướng dẫn từng bước.
 
-## Bước 1: Khởi tạo Cảnh và Nút
+## Bước 1: Khởi tạo cảnh
 
 ```csharp
 // ExStart:AddTransformationToNodeByTransformationMatrix
 // Khởi tạo đối tượng cảnh
 Scene scene = new Scene();
 
-// Khởi tạo đối tượng lớp Node
-Node cubeNode = new Node("cube");
 ```
 
-Trong bước này, chúng tôi tạo cảnh 3D mới và nút có tên là "khối lập phương" trong cảnh đó.
+Trong bước này, chúng ta tạo cảnh 3D trống mới.
 
-## Bước 2: Tạo lưới và thiết lập hình học
+## Bước 2: Tạo lưới và đính kèm vào cảnh
 
 ```csharp
 // Gọi Lớp chung tạo lưới bằng phương pháp xây dựng đa giác để đặt phiên bản lưới
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// Nút điểm vào hình học Lưới
-cubeNode.Entity = mesh;
+// Tạo một nút chứa cho lưới.
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 Ở đây, chúng ta tạo lưới bằng phương pháp xây dựng đa giác và gán nó cho nút, thiết lập hình dạng cho khối lập phương của chúng ta.
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 Xác định ma trận dịch tùy chỉnh để xác định phép biến đổi cụ thể được áp dụng cho nút. Điều chỉnh các giá trị ma trận nếu cần cho phép chuyển đổi mong muốn của bạn.
 
-## Bước 4: Thêm nút vào cảnh
-
-```csharp
-// Thêm khối vào hiện trường
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 Bao gồm nút khối trong cảnh, biến nó thành một phần của môi trường 3D tổng thể.
 
-## Bước 5: Lưu cảnh
+## Bước 4: Lưu cảnh
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ Câu trả lời 2: Có, bạn có thể kết hợp nhiều phép biến đổi
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.3D cho .NET?
 
- A4: Tham quan[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) trên trang web Aspose để lấy giấy phép tạm thời cho mục đích đánh giá.
+ A4: Tham quan[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)trên trang web Aspose để lấy giấy phép tạm thời cho mục đích đánh giá.
 
 ### Câu hỏi 5: Tôi có thể tìm kiếm hỗ trợ hoặc kết nối với cộng đồng Aspose.3D ở đâu?
 
-A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để đặt câu hỏi, chia sẻ kinh nghiệm và kết nối với các nhà phát triển khác bằng Aspose.3D.
+ A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để đặt câu hỏi, chia sẻ kinh nghiệm và kết nối với các nhà phát triển khác bằng Aspose.3D.

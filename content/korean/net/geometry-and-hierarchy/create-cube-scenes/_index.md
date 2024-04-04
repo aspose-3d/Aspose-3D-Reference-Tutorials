@@ -1,6 +1,6 @@
 ---
-title: 3D로 큐브 장면 만들기
-linktitle: 3D로 큐브 장면 만들기
+title: 큐브 장면 만들기
+linktitle: 큐브 장면 만들기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 멋진 3D 큐브 장면을 손쉽게 제작하세요. 라이브러리를 다운로드하고 단계별 가이드를 따라 실행해 보세요.
 type: docs
@@ -87,7 +87,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // 문서 디렉터리의 경로입니다.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//지원되는 파일 형식으로 3D 장면 저장
+// 지원되는 파일 형식으로 3D 장면 저장
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

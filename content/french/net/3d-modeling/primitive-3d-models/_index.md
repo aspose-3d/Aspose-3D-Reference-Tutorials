@@ -15,7 +15,7 @@ Bienvenue dans le monde passionnant de la modélisation 3D avec Aspose.3D pour .
 
 Avant de plonger dans le domaine fascinant de la modélisation 3D, assurez-vous d’avoir les prérequis suivants en place :
 
-- Aspose.3D pour .NET : téléchargez et installez la bibliothèque Aspose.3D pour .NET à partir du[lien de téléchargement](https://releases.aspose.com/3d/net/).
+-  Aspose.3D pour .NET : téléchargez et installez la bibliothèque Aspose.3D pour .NET à partir du[lien de téléchargement](https://releases.aspose.com/3d/net/).
 
 - Environnement de développement : mettre en place un environnement de développement .NET, garantissant la compatibilité avec Aspose.3D.
 

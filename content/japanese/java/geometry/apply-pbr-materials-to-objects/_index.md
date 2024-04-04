@@ -19,7 +19,7 @@ Aspose.3D を使用して Java の 3D オブジェクトに物理ベース レ�
 
 2.  Aspose.3D ライブラリ: Aspose.3D ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードリンク](https://releases.aspose.com/3d/java/).
 
-3. ドキュメント: を参照してください。[ドキュメンテーション](https://reference.aspose.com/3d/java/) Aspose.3D については、ライブラリの機能をよく理解してください。
+3. ドキュメント: を参照してください。[ドキュメンテーション](https://reference.aspose.com/3d/java/)Aspose.3D については、ライブラリの機能をよく理解してください。
 
 4. 一時ライセンス (オプション): ライセンスをお持ちでない場合は、ライセンスを取得できます。[仮免許](https://purchase.aspose.com/temporary-license/)テスト用。
 

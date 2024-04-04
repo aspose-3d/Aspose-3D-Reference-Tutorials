@@ -1,6 +1,6 @@
 ---
-title: Yükleme ve Kaydetme - Boş Bir 3D Belge Oluşturma
-linktitle: Yükleme ve Kaydetme - Boş Bir 3D Belge Oluşturma
+title: Boş Bir 3D Belge Oluşturma
+linktitle: Boş Bir 3D Belge Oluşturma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D belge oluşturma dünyasını keşfedin. Çarpıcı 3D sahneleri zahmetsizce oluşturun, düzenleyin ve kaydedin.
 type: docs
@@ -46,7 +46,7 @@ var output = "Your Output Directory" + "document.fbx";
 Scene scene = new Scene();
 
 // 3B sahne belgesini FBX formatında kaydedin
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 
 // ExEnd:CreateEmpty3DDocument
 ```

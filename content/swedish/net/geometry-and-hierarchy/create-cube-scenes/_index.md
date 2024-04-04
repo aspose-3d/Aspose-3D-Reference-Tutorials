@@ -1,6 +1,6 @@
 ---
-title: Skapa kubscener i 3D
-linktitle: Skapa kubscener i 3D
+title: Skapa kubscener
+linktitle: Skapa kubscener
 second_title: Aspose.3D .NET API
 description: Skapa fantastiska 3D-kubscener utan ansträngning med Aspose.3D för .NET. Ladda ner biblioteket, följ vår steg-för-steg-guide och släpp lös.
 type: docs
@@ -87,7 +87,7 @@ Ange utdatakatalogen och spara 3D-scenen i ett filformat som stöds (FBX i det h
 // Sökvägen till dokumentkatalogen.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//Spara 3D-scen i de filformat som stöds
+// Spara 3D-scen i de filformat som stöds
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 
@@ -103,7 +103,7 @@ Grattis! Du har precis skapat din första 3D-kubscen med Aspose.3D för .NET. Ex
 
 ## Slutsats
 
-I den här handledningen utforskade vi processen att skapa fängslande 3D-kubscener med Aspose.3D för .NET. Nu, beväpnad med denna kunskap, kan du släppa lös din kreativitet och ge dina 3D-visioner liv.
+den här handledningen utforskade vi processen att skapa fängslande 3D-kubscener med Aspose.3D för .NET. Nu, beväpnad med denna kunskap, kan du släppa lös din kreativitet och ge dina 3D-visioner liv.
 
 ## FAQ's
 

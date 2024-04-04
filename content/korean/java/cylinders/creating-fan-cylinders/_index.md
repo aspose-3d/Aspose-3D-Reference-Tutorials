@@ -15,7 +15,7 @@ Java용 Aspose.3D를 사용하여 3D 모델링 경험을 향상시킬 준비가 
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
--  JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://www.oracle.com/java/technologies/javase-downloads.html).
+- JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 -  Java용 Aspose.3D: 다음 사이트에서 Java용 Aspose.3D 라이브러리를 다운로드하여 설치하세요.[다운로드 링크](https://releases.aspose.com/3d/java/).
 

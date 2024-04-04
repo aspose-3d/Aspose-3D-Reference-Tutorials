@@ -16,7 +16,7 @@ Vytváření a manipulace s daty 3D sítě v Javě může být náročný, ale v
 Než se ponoříte do výukového programu, ujistěte se, že máte následující předpoklady:
 
 - Základní znalost programování v Javě.
--  Nainstalovaný Aspose.3D for Java. Můžete si jej stáhnout[tady](https://releases.aspose.com/3d/java/).
+- Nainstalovaný Aspose.3D for Java. Můžete si jej stáhnout[tady](https://releases.aspose.com/3d/java/).
 - 3D soubor ve formátu 3ds. Jako příklad použijeme "camera.3ds".
 
 ## Importujte balíčky

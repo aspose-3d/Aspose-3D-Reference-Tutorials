@@ -1,8 +1,8 @@
 ---
-title: Laddar och sparar - anpassade sparalternativ
-linktitle: Laddar och sparar - anpassade sparalternativ
+title: Anpassade sparalternativ
+linktitle: Anpassade sparalternativ
 second_title: Aspose.3D .NET API
-description: Utforska kraften i Aspose.3D för .NET. Lär dig hur du anpassar ditt 3D-scensparande med steg-för-steg-guider för formaten Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC och RVM.
+description: Utforska kraften i Aspose.3D för .NET. Lär dig hur du anpassar din 3D-scensparning med steg-för-steg-guider för formaten Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC och RVM.
 type: docs
 weight: 21
 url: /sv/net/loading-and-saving/custom-save-options/

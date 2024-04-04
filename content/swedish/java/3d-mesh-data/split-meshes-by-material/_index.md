@@ -16,7 +16,7 @@ Välkommen till denna omfattande handledning om att dela 3D-maskor efter materia
 Innan vi ger oss ut på denna spännande resa, se till att du har följande förutsättningar på plats:
 
 - Grundläggande kunskaper i Java-programmering.
-- Aspose.3D för Java-biblioteket installerat. Du kan ladda ner den från[Aspose hemsida](https://releases.aspose.com/3d/java/).
+-  Aspose.3D för Java-biblioteket installerat. Du kan ladda ner den från[Aspose hemsida](https://releases.aspose.com/3d/java/).
 - En integrerad utvecklingsmiljö (IDE) inrättad för Java-utveckling.
 
 ## Importera paket
@@ -76,7 +76,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```java
 // Visa framgångsmeddelande
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
-//ExEnd:SplitMeshbyMaterial
+// ExEnd:SplitMeshbyMaterial
 ```
 
 ## Slutsats
@@ -103,4 +103,4 @@ A2: Absolut! Denna metod kan skalas bra för intrikata 3D-modeller, och optimera
 
 ### F5: Hur kan jag få support för eventuella problem eller frågor?
 
-A5: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) för dedikerat stöd från samhället.
+ A5: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) för dedikerat stöd från samhället.

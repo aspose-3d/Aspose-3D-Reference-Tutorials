@@ -1,6 +1,6 @@
 ---
-title: Transformando Node por Quaternion em cenas 3D
-linktitle: Transformando Node por Quaternion em cenas 3D
+title: Transformando Nó por Quaternion
+linktitle: Transformando Nó por Quaternion
 second_title: API Aspose.3D .NET
 description: Aprenda a transformar nós 3D com quaternions usando Aspose.3D for .NET. Guia passo a passo para iniciantes.
 type: docs
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // O caminho para o diretório de documentos.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//Salve cenas 3D nos formatos de arquivo suportados
+// Salve cenas 3D nos formatos de arquivo suportados
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd: AddTransformationToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## Conclusão
 
-Parabéns! Você aprendeu com sucesso como transformar um nó por quaternion em cenas 3D usando Aspose.3D para .NET. Explore mais recursos e possibilidades consultando o[documentação](https://reference.aspose.com/3d/net/).
+ Parabéns! Você aprendeu com sucesso como transformar um nó por quaternion em cenas 3D usando Aspose.3D para .NET. Explore mais recursos e possibilidades consultando o[documentação](https://reference.aspose.com/3d/net/).
 
 ## Perguntas frequentes
 

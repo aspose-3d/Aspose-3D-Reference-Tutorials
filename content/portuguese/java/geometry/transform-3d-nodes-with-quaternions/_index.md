@@ -16,7 +16,7 @@ Bem-vindo a este guia passo a passo sobre como transformar nós 3D com quaternio
 Antes de mergulharmos no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
 
 - Conhecimento básico de programação Java.
--  Aspose.3D para Java instalado. Você pode baixá-lo[aqui](https://releases.aspose.com/3d/java/).
+- Aspose.3D para Java instalado. Você pode baixá-lo[aqui](https://releases.aspose.com/3d/java/).
 - Um diretório de documentos configurado para salvar suas cenas 3D.
 
 ## Importar pacotes

@@ -17,7 +17,7 @@ Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende ver
 
 - Java-ontwikkelomgeving: Zet een Java-ontwikkelomgeving op uw systeem op.
 -  Aspose.3D voor Java: Download en installeer Aspose.3D voor Java vanaf de[download link](https://releases.aspose.com/3d/java/).
-- Voorbeeld 3D-bestand: bereid een voorbeeld 3D-bestand voor in een indeling die wordt ondersteund door Aspose.3D, zoals FBX.
+- Voorbeeld van 3D-bestand: maak een voorbeeld van een 3D-bestand in een indeling die wordt ondersteund door Aspose.3D, zoals FBX.
 
 ## Pakketten importeren
 

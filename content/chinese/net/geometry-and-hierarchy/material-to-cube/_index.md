@@ -1,6 +1,6 @@
 ---
-title: 将材质应用到 3D 场景中的立方体
-linktitle: 将材质应用到 3D 场景中的立方体
+title: 将材质应用到立方体
+linktitle: 将材质应用到立方体
 second_title: Aspose.3D .NET API
 description: 探索 Aspose.3D for .NET，这是无缝 3D 图形操作的门户。轻松应用材料、增强真实感并提升您的项目。
 type: docs
@@ -42,17 +42,12 @@ using System.IO;
 //初始化场景对象
 Scene scene = new Scene();
 
-//初始化立方体节点对象
-Node cubeNode = new Node("cube");
+//创建一个盒子实例。
+var box = new Box();
 
-//调用 Common 类使用多边形生成器方法创建网格来设置网格实例
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+//将盒子实例附加到场景
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//将节点指向网格
-cubeNode.Entity = mesh;
-
-//将立方体添加到场景中
-scene.RootNode.ChildNodes.Add(cubeNode);
 //ExEnd:初始化场景和立方体
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 //设置纹理的本地文件路径
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 //设置材质的纹理
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,7 +77,7 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 //设置二进制内容
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
 //扩展结束：嵌入原始内容数据
 ```
 
@@ -105,10 +100,10 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart:保存3D场景
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
 //以支持的文件格式保存 3D 场景
-scene.Save(output, FileFormat.FBX7400ASCII);
+scene.Save(output);
 //ExEnd：保存3D场景
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
@@ -140,4 +135,4 @@ A4：探索[文档](https://reference.aspose.com/3d/net/)以获得深入的见�
 
 ### Q5：如果有任何问题或疑问，我如何获得支持？
 
-A5：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)与社区联系并寻求帮助。
+ A5：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)与社区联系并寻求帮助。

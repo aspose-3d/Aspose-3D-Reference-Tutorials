@@ -16,7 +16,7 @@ Witamy w tym kompleksowym samouczku na temat dzielenia siatek 3D według materia
 Zanim wyruszymy w tę ekscytującą podróż, upewnij się, że spełniasz następujące wymagania wstępne:
 
 - Podstawowa znajomość programowania w języku Java.
-- Zainstalowana biblioteka Aspose.3D for Java. Można go pobrać z[Strona Aspose](https://releases.aspose.com/3d/java/).
+-  Zainstalowana biblioteka Aspose.3D for Java. Można go pobrać z[Strona Aspose](https://releases.aspose.com/3d/java/).
 - Zintegrowane środowisko programistyczne (IDE) skonfigurowane do programowania w języku Java.
 
 ## Importuj pakiety
@@ -76,7 +76,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```java
 // Wyświetl komunikat o powodzeniu
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
-//Rozwiń:SplitMeshbyMaterial
+// Rozwiń:SplitMeshbyMaterial
 ```
 
 ## Wniosek
@@ -103,4 +103,4 @@ A2: Absolutnie! Metoda ta dobrze skaluje się w przypadku skomplikowanych modeli
 
 ### P5: Jak mogę uzyskać pomoc w przypadku jakichkolwiek problemów lub zapytań?
 
-A5: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za oddane wsparcie społeczności.
+ A5: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za oddane wsparcie społeczności.

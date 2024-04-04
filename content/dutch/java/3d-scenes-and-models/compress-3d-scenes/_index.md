@@ -16,7 +16,7 @@ Aspose.3D voor Java is een veelzijdige bibliotheek waarmee ontwikkelaars kunnen 
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 - Java Development Kit (JDK) op uw computer geïnstalleerd.
-- Aspose.3D voor Java-bibliotheek gedownload. Je kunt de downloadlink vinden[hier](https://releases.aspose.com/3d/java/).
+-  Aspose.3D voor Java-bibliotheek gedownload. Je kunt de downloadlink vinden[hier](https://releases.aspose.com/3d/java/).
 
 ## Pakketten importeren
 
@@ -94,7 +94,7 @@ A1: Ja, Aspose.3D voor Java komt tegemoet aan de behoeften van ontwikkelaars met
 
 ### Vraag 3: Zijn er gratis proefopties beschikbaar?
 
- A3: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
+A3: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
 
 ### V4: Waar kan ik ondersteuning vinden voor Aspose.3D voor Java?
 

@@ -1,6 +1,6 @@
 ---
-title: Загрузка и сохранение – определение формата
-linktitle: Загрузка и сохранение – определение формата
+title: Определение формата
+linktitle: Определение формата
 second_title: Aspose.3D .NET API
 description: Освойте управление 3D-файлами без особых усилий с помощью Aspose.3D для .NET. Загружайте, сохраняйте и распознавайте форматы без проблем.
 type: docs
@@ -50,7 +50,7 @@ scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ### Шаг 2: Определите формат
 
 ```csharp
-//Эксстарт:детектформат
+// Эксстарт:детектформат
 // Определить формат 3D-файла
 FileFormat inputFormat = FileFormat.Detect(RunExamples.GetDataFilePath("document.fbx"));
 // Отображение формата файла
@@ -92,4 +92,4 @@ scene.Save("output.fbx", FileFormat.FBX7500ASCII);
 
 ### В5: Могу ли я бесплатно попробовать Aspose.3D перед покупкой?
 
-А5: Конечно! Загрузите бесплатную пробную версию с[Релизы Aspose.3D](https://releases.aspose.com/) ощутить его возможности на собственном опыте.
+ А5: Конечно! Загрузите бесплатную пробную версию с[Релизы Aspose.3D](https://releases.aspose.com/) ощутить его возможности на собственном опыте.

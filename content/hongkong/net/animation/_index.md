@@ -4,7 +4,7 @@ linktitle: 卡通
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 教學解鎖 3D 動畫世界。學習為屬性設定動畫並輕鬆設定動態場景的目標和攝影機。
 type: docs
-weight: 23
+weight: 30
 url: /zh-hant/net/animation/
 ---
 ## 介紹
@@ -16,7 +16,7 @@ url: /zh-hant/net/animation/
 
 ### 為什麼要探索本教學？
 - 輕鬆的動畫：了解如何無縫地製作屬性動畫，輕鬆使您的 3D 模型栩栩如生。
-- 逐步指導：按照我們的詳細說明來掌握 Aspose.3D for .NET 中的動畫屬性藝術。
+- 逐步指導：按照我們的詳細說明掌握 Aspose.3D for .NET 中的動畫屬性藝術。
 - 動態場景：了解創造吸引觀眾並留下持久印象的動態場景背後的秘密。
 
 準備好提升您的 3D 專案了嗎？潛入[動畫屬性教學](./property-to-document/)現在！

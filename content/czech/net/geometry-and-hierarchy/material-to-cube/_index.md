@@ -1,6 +1,6 @@
 ---
-title: Aplikace materiálu na kostku ve 3D scénách
-linktitle: Aplikace materiálu na kostku ve 3D scénách
+title: Nanášení materiálu na kostku
+linktitle: Nanášení materiálu na kostku
 second_title: Aspose.3D .NET API
 description: Prozkoumejte Aspose.3D for .NET, vaši bránu k bezproblémové manipulaci s 3D grafikou. Aplikujte materiály bez námahy, zvyšte realističnost a pozvedněte své projekty.
 type: docs
@@ -42,17 +42,12 @@ using System.IO;
 // Inicializujte objekt scény
 Scene scene = new Scene();
 
-// Inicializujte objekt uzlu krychle
-Node cubeNode = new Node("cube");
+// Vytvořte instanci boxu.
+var box = new Box();
 
-// Volejte Common class create mesh pomocí metody polygon builder pro nastavení instance mesh
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+// Připojte instanci boxu ke scéně
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//Bodový uzel do sítě
-cubeNode.Entity = mesh;
-
-// Přidejte kostku na scénu
-scene.RootNode.ChildNodes.Add(cubeNode);
 // ExEnd:InitializeSceneAndCube
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 // Nastavte místní cestu k souboru pro texturu
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 // Nastavte texturu materiálu
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,8 +77,8 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 // Nastavte binární obsah
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-//ExEnd:EmbedRawContentData
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
+// ExEnd:EmbedRawContentData
 ```
 
 ## Krok 4: Nastavte vlastnosti materiálu
@@ -105,11 +100,11 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart:Save3DScene
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
-//Uložte 3D scénu v podporovaných formátech souborů
-scene.Save(output, FileFormat.FBX7400ASCII);
-// ExEnd:Save3DScene
+// Uložte 3D scénu v podporovaných formátech souborů
+scene.Save(output);
+//ExEnd:Save3DScene
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
 ```
@@ -140,4 +135,4 @@ Odpověď 3: Ano, Aspose.3D poskytuje komplexní podporu pro vytváření a mani
 
 ### Q5: Jak mohu získat podporu pro jakékoli problémy nebo dotazy?
 
-A5: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) spojit se s komunitou a vyhledat pomoc.
+ A5: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) spojit se s komunitou a vyhledat pomoc.

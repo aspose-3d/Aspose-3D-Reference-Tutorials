@@ -118,4 +118,4 @@ A4: Wykorzystaj`setFileSystem(new DummyFileSystem())` metoda w`ObjSaveOptions` c
 
 ### P5: Czy istnieje sposób na zapisanie zależności w katalogu lokalnym w pliku OBJ?
 
- O5: Tak, użyj`setFileSystem(new LocalFileSystem(MyDir))` metoda w`ObjSaveOptions` class, aby zapisać zależności lokalnie.
+ O5: Tak, użyj`setFileSystem(new LocalFileSystem(MyDir))` metoda w`ObjSaveOptions` class, aby lokalnie zapisać zależności.

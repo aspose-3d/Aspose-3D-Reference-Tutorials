@@ -1,6 +1,6 @@
 ---
-title: Normálok beállítása a Cube-on 3D-s jelenetekben
-linktitle: Normálok beállítása a Cube-on 3D-s jelenetekben
+title: Normálok beállítása a Cube-on
+linktitle: Normálok beállítása a Cube-on
 second_title: Aspose.3D .NET API
 description: Tanuljon meg normál értékeket beállítani egy 3D kockán az Aspose.3D for .NET használatával. Fejlessze 3D-s modellezési készségeit ezzel a lépésről-lépésre szóló útmutatóval.
 type: docs

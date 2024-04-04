@@ -16,7 +16,7 @@ Creare e manipolare dati mesh 3D in Java può essere un compito impegnativo ma e
 Prima di immergerti nel tutorial, assicurati di possedere i seguenti prerequisiti:
 
 - Conoscenza base della programmazione Java.
--  Aspose.3D per Java installato. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/java/).
+- Aspose.3D per Java installato. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/java/).
 - Un file 3D in formato 3ds. Utilizzeremo "camera.3ds" come esempio.
 
 ## Importa pacchetti

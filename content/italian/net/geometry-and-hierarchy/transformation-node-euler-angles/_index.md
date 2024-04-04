@@ -1,6 +1,6 @@
 ---
-title: Trasformazione del nodo mediante angoli di Eulero in scene 3D
-linktitle: Trasformazione del nodo mediante angoli di Eulero in scene 3D
+title: Trasformazione del nodo mediante angoli di Eulero
+linktitle: Trasformazione del nodo mediante angoli di Eulero
 second_title: API Aspose.3D .NET
 description: Impara a trasformare i nodi 3D senza sforzo con Aspose.3D per .NET. Segui la nostra guida passo passo per ottenere risultati sorprendenti nei tuoi progetti.
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
  Inizia creando una nuova scena 3D utilizzando`Scene` classe.
 
-## Passaggio 2: inizializzare l'oggetto classe nodo
 
-```csharp
-// Inizializza l'oggetto della classe Node
-Node cubeNode = new Node("cube");
-```
-
- Crea un nodo all'interno della scena utilizzando il file`Node`classe. Questo nodo servirà da contenitore per il nostro oggetto 3D.
-
-## Passaggio 3: crea mesh utilizzando il generatore di poligoni
+## Passaggio 2: crea mesh utilizzando la scatola primitiva
 
 ```csharp
 // Chiama la classe Common per creare mesh utilizzando il metodo di creazione poligoni per impostare l'istanza della mesh
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
- Invocare un metodo (in questo caso,`CreateMeshUsingPolygonBuilder` da una consuetudine`Common` class) per generare una mesh per l'oggetto 3D.
+ Invocare un metodo (in questo caso,`CreateMeshUsingPolygonBuilder` da una consuetudine`Common`class) per generare una mesh per l'oggetto 3D.
 
-## Passaggio 4: puntare il nodo sulla geometria della mesh
+## Passaggio 3: crea un nodo contenitore per la mesh
 
 ```csharp
 // Nodo punto alla geometria Mesh
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-Associa la mesh creata al nodo.
+ Crea un nodo all'interno della scena utilizzando il file`Node` classe. Questo nodo servirà da contenitore per il nostro oggetto 3D.
 
-## Passaggio 5: impostare gli angoli e la traslazione di Eulero
+## Passaggio 4: impostare gli angoli e la traslazione di Eulero
 
 ```csharp
 // Angoli di Eulero
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 Definire gli angoli di Eulero e la traslazione del nodo per posizionarlo nello spazio 3D.
 
-## Passaggio 6: aggiungi il cubo alla scena
-
-```csharp
-// Aggiungi il cubo alla scena
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-Incorpora il nodo nella gerarchia della scena.
-
-## Passaggio 7: salva la scena 3D
+## Passaggio 5: salva la scena 3D
 
 ```csharp
 // Il percorso della directory dei documenti.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Salva la scena 3D nei formati di file supportati
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Salva la scena 3D nei formati di file supportati
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ R2: Sì, puoi combinare e applicare più trasformazioni per ottenere effetti com
 
 ### Q5: Hai bisogno di assistenza o hai domande specifiche?
 
-A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per il sostegno della comunità.
+ A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per il sostegno della comunità.

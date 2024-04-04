@@ -1,6 +1,6 @@
 ---
-title: Bekerja dengan Data Geometri Mesh dalam Pemandangan 3D
-linktitle: Bekerja dengan Data Geometri Mesh dalam Pemandangan 3D
+title: Bekerja dengan Data Geometri Mesh
+linktitle: Bekerja dengan Data Geometri Mesh
 second_title: Aspose.3D .NET API
 description: Kuasai seni pemrograman grafis 3D dengan Aspose.3D untuk .NET. Buat, manipulasi, dan simpan pemandangan 3D yang menakjubkan dengan mudah.
 type: docs
@@ -17,7 +17,7 @@ Sebelum kita memulai perjalanan 3D ini, pastikan Anda memiliki prasyarat berikut
 
 - Pengetahuan tentang pemrograman C# dan .NET.
 - Visual Studio diinstal pada mesin Anda.
--  Aspose.3D untuk perpustakaan .NET, yang dapat Anda unduh[Di Sini](https://releases.aspose.com/3d/net/).
+- Aspose.3D untuk perpustakaan .NET, yang dapat Anda unduh[Di Sini](https://releases.aspose.com/3d/net/).
 
 Sekarang setelah Anda siap, mari terjun ke dunia pemrograman grafis 3D yang menakjubkan!
 
@@ -95,7 +95,7 @@ Buat mesh menggunakan metode pembuat poligon dan terapkan warna ke berbagai bagi
 // Jalur ke direktori dokumen.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//Simpan adegan 3D dalam format file yang didukung
+// Simpan adegan 3D dalam format file yang didukung
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

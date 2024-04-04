@@ -65,7 +65,7 @@ opt.setPointCloud(true);
 Simpan adegan 3D sebagai point cloud di direktori yang diinginkan:
 
 ```java
-// Menyimpan
+//Menyimpan
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 

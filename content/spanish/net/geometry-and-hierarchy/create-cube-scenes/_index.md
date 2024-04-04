@@ -1,6 +1,6 @@
 ---
-title: Creando escenas cúbicas en 3D
-linktitle: Creando escenas cúbicas en 3D
+title: Creando escenas de cubos
+linktitle: Creando escenas de cubos
 second_title: Aspose.3D API .NET
 description: Cree impresionantes escenas de cubos en 3D sin esfuerzo con Aspose.3D para .NET. Descargue la biblioteca, siga nuestra guía paso a paso y dé rienda suelta.
 type: docs
@@ -87,7 +87,7 @@ Especifique el directorio de salida y guarde la escena 3D en un formato de archi
 // La ruta al directorio de documentos.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//Guarde la escena 3D en los formatos de archivo compatibles
+// Guarde la escena 3D en los formatos de archivo compatibles
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

@@ -1,6 +1,6 @@
 ---
-title: Verwendung des Verdrehungsversatzes in der linearen Extrusion mit Aspose.3D für Java
-linktitle: Verwendung des Verdrehungsversatzes in der linearen Extrusion mit Aspose.3D für Java
+title: Verwenden von Twist Offset in der linearen Extrusion mit Aspose.3D für Java
+linktitle: Verwenden von Twist Offset in der linearen Extrusion mit Aspose.3D für Java
 second_title: Aspose.3D Java-API
 description: Verbessern Sie Ihre 3D-Modellierungskenntnisse mit Aspose.3D für Java. Erfahren Sie in diesem umfassenden Tutorial, wie Sie den Verdrehungsversatz in der linearen Extrusion verwenden.
 

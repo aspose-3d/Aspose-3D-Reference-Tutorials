@@ -16,7 +16,7 @@ Chào mừng bạn đến với hướng dẫn toàn diện về cách làm vi�
 Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
 - Bộ công cụ phát triển Java (JDK) được cài đặt trên máy của bạn.
-- Thư viện Aspose.3D được tải xuống và thiết lập. Bạn có thể tải nó xuống từ[trang web giả định](https://releases.aspose.com/3d/java/).
+-  Thư viện Aspose.3D được tải xuống và thiết lập. Bạn có thể tải nó xuống từ[trang web giả định](https://releases.aspose.com/3d/java/).
 - Hiểu biết cơ bản về lập trình Java.
 
 ## Gói nhập khẩu
@@ -107,7 +107,7 @@ Chúc mừng! Bạn đã học thành công cách làm việc với các thuộc
 
 ### Câu hỏi 1: Làm cách nào tôi có thể cài đặt thư viện Aspose.3D trong dự án Java của mình?
 
- A1: Bạn có thể tải xuống thư viện từ[trang web giả định](https://releases.aspose.com/3d/java/)và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+ A1: Bạn có thể tải xuống thư viện từ[trang web giả định](https://releases.aspose.com/3d/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
 
 ### Câu hỏi 2: Có bất kỳ tùy chọn dùng thử miễn phí nào cho Aspose.3D không?
 
@@ -119,7 +119,7 @@ Chúc mừng! Bạn đã học thành công cách làm việc với các thuộc
 
 ### Câu hỏi 4: Có diễn đàn hỗ trợ nào cho Aspose.3D để tôi có thể đặt câu hỏi và tìm kiếm sự trợ giúp không?
 
- A4: Có, hãy truy cập[Diễn đàn hỗ trợ Aspose.3D](https://forum.aspose.com/c/3d/18) để kết nối với cộng đồng và nhận được sự trợ giúp từ các chuyên gia.
+A4: Có, hãy truy cập[Diễn đàn hỗ trợ Aspose.3D](https://forum.aspose.com/c/3d/18) để kết nối với cộng đồng và nhận được sự trợ giúp từ các chuyên gia.
 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.3D?
 

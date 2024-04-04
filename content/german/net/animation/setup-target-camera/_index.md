@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## Schritt 5: Speichern Sie die Szene
 
-Speichern Sie die konfigurierte Szene in einem angegebenen Ausgabeverzeichnis im gewünschten Dateiformat, z. B. .3ds.
+Speichern Sie die konfigurierte Szene in einem angegebenen Ausgabeverzeichnis im gewünschten Dateiformat, z. B. .fbx.
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## Abschluss
@@ -98,7 +98,7 @@ A2: Auf jeden Fall! Aspose.3D ermöglicht Entwicklern die einfache Erstellung vo
 
 ### F4: Gibt es eine kostenlose Testversion?
 
- A4: Ja, Sie können eine kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/).
+A4: Ja, Sie können eine kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/).
 
 ### F5: Wie erhalte ich eine temporäre Lizenz?
 

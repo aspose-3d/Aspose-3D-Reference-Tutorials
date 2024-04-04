@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## Passaggio 2: crea una gerarchia di nodi
 
 ```java
-// ExStart:CreaGerarchia
+//ExStart:CreaGerarchia
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

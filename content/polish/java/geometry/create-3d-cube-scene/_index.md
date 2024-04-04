@@ -70,7 +70,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "CubeScene.fbx";
 
-//Zapisz scenę 3D w obsługiwanych formatach plików
+// Zapisz scenę 3D w obsługiwanych formatach plików
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
@@ -92,7 +92,7 @@ Gratulacje! Pomyślnie utworzyłeś scenę kostki 3D przy użyciu Aspose.3D dla 
 
 ### P2: Jak mogę uzyskać wsparcie dla Aspose.3D?
 
- A2: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczne.
+ A2: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności.
 
 ### P3: Czy dostępny jest bezpłatny okres próbny?
 

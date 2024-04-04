@@ -60,12 +60,12 @@ ObjSaveOptions opt = new ObjSaveOptions();
 opt.setPointCloud(true);
 ```
 
-## Paso 4: guarde la escena
+## Paso 4: guarda la escena
 
 Guarde la escena 3D como una nube de puntos en el directorio deseado:
 
 ```java
-// Ahorrar
+//Ahorrar
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 

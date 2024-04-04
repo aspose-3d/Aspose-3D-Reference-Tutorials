@@ -81,7 +81,7 @@ A1: Com certeza! A biblioteca oferece uma interface amigável e documentação a
 
 ### Q3: Como posso obter suporte para Aspose.3D para Java?
 
- A3: Junte-se à comunidade em[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) para interagir com outros usuários e obter assistência de especialistas.
+A3: Junte-se à comunidade em[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18) para interagir com outros usuários e obter assistência de especialistas.
 
 ### Q4: Existe um teste gratuito disponível?
 

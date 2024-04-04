@@ -1,6 +1,6 @@
 ---
-title: Kvaterniók összefűzése 3D-s jelenetekben
-linktitle: Kvaterniók összefűzése 3D-s jelenetekben
+title: Kvaderniók összefűzése
+linktitle: Kvaderniók összefűzése
 second_title: Aspose.3D .NET API
 description: Fedezze fel a quaternion manipuláció erejét 3D-s jelenetekben az Aspose.3D for .NET segítségével. Ismerje meg a kvaterniók összefűzését lépésről lépésre a magával ragadó átalakítások érdekében.
 type: docs
@@ -20,7 +20,7 @@ Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következ
 
 ## Névterek importálása
 
-.NET-projektben vegye fel a szükséges névtereket az Aspose.3D erejének kiaknázásához:
+A .NET-projektben vegye fel a szükséges névtereket az Aspose.3D erejének kiaknázásához:
 
 ```csharp
 using System;
@@ -96,7 +96,7 @@ Gratulálunk! Sikeresen megtanulta, hogyan fűzhet össze kvaterniókat 3D-s jel
 
 ### 3. kérdés: Elérhető ingyenes próbaverzió az Aspose.3D for .NET számára?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.3D for .NET-hez?
 

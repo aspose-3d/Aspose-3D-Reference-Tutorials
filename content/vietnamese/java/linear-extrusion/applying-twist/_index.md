@@ -91,7 +91,7 @@ Lưu cảnh 3D ở định dạng tệp Wavefront OBJ.
 ```java
 // ExStart:Save3DScene
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-// ExEnd:Save3DScene
+//ExEnd:Save3DScene
 ```
 
 ## Phần kết luận

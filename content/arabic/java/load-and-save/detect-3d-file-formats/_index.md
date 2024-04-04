@@ -81,4 +81,4 @@ System.out.println("File Format: " + inputFormat.toString());
 
 ### س5: أين يمكنني طلب المساعدة إذا واجهت مشكلات مع Aspose.3D؟
 
-ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لطلب المساعدة من المجتمع والخبراء.
+ ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لطلب المساعدة من المجتمع والخبراء.

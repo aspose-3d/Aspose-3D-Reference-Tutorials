@@ -31,7 +31,7 @@ Sekarang setelah semuanya siap, mari beralih ke inti tutorial ini – membuat mo
 
 ## Membuat Adegan
 
-### Langkah 1: Inisialisasi Objek Pemandangan
+### Langkah 1: Inisialisasi Objek Adegan
 
 ```java
 // Jalur ke direktori dokumen.

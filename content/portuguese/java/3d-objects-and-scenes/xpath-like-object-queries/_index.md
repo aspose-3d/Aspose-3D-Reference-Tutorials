@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## Etapa 2: Crie uma hierarquia de nós
 
 ```java
-// ExStart:CriarHierarquia
+//ExStart:CriarHierarquia
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

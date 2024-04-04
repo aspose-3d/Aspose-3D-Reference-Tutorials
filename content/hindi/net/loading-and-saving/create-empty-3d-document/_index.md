@@ -1,6 +1,6 @@
 ---
-title: लोड करना और सहेजना - एक खाली 3D दस्तावेज़ बनाना
-linktitle: लोड करना और सहेजना - एक खाली 3D दस्तावेज़ बनाना
+title: एक खाली 3डी दस्तावेज़ बनाना
+linktitle: एक खाली 3डी दस्तावेज़ बनाना
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D के साथ 3D दस्तावेज़ निर्माण की दुनिया का अन्वेषण करें। आश्चर्यजनक 3D दृश्यों को सहजता से बनाएं, संपादित करें और सहेजें।
 type: docs
@@ -46,7 +46,7 @@ var output = "Your Output Directory" + "document.fbx";
 Scene scene = new Scene();
 
 // 3D दृश्य दस्तावेज़ को FBX प्रारूप में सहेजें
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 
 // ExEnd:Empty3DDocument बनाएं
 ```

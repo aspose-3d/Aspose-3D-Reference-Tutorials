@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## Paso 2: crear una jerarquía de nodos
 
 ```java
-// ExStart:CrearJerarquía
+//ExStart:CrearJerarquía
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

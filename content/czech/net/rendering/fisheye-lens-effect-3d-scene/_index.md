@@ -8,7 +8,7 @@ weight: 12
 url: /cs/net/rendering/fisheye-lens-effect-3d-scene/
 ---
 ## Úvod
-Chcete zlepšit vizuální přitažlivost svých 3D scén? Ponořte se do fascinujícího světa efektů rybího oka s Aspose.3D pro .NET. Tento tutoriál vás krok za krokem provede tím, jak aplikovat efekt rybího oka na vaše 3D scény, čímž jim poskytne jedinečnou a podmanivou perspektivu.
+Chcete zlepšit vizuální přitažlivost svých 3D scén? Ponořte se do fascinujícího světa efektů rybího oka s Aspose.3D pro .NET. Tento tutoriál vás krok za krokem provede tím, jak aplikovat efekt rybího oka na vaše 3D scény, což jim poskytne jedinečnou a podmanivou perspektivu.
 ## Předpoklady
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 -  Aspose.3D for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.3D pro .NET. Pokud ne, můžete si jej stáhnout[tady](https://releases.aspose.com/3d/net/).

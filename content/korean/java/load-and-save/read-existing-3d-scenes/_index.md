@@ -25,7 +25,7 @@ Java를 사용하여 3D 그래픽 및 디자인의 세계에 뛰어들고 있다
 
 ## 패키지 가져오기
 
-3D 장면 읽기를 시작하기 전에 Java 코드에 필요한 패키지를 가져와 보겠습니다.
+3D 장면을 읽기 전에 Java 코드에 필요한 패키지를 가져와 보겠습니다.
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -41,7 +41,7 @@ import java.io.IOException;
 String MyDir = "Your Document Directory";
 ```
 
-"문서 디렉토리"를 3D 문서가 저장된 폴더의 경로로 바꾸십시오.
+"문서 디렉토리"를 3D 문서가 저장된 폴더 경로로 바꾸십시오.
 
 ## 2단계: 장면 개체 초기화
 
@@ -95,7 +95,7 @@ A2: Aspose.3D는 강력하지만 대규모 3D 문서에는 추가 고려 사항�
 
 ### Q3: Aspose.3D 커뮤니티에 어떻게 기여할 수 있나요?
 
- A3: 자유롭게 참여해 주세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 자신의 경험을 공유하고, 질문하고, 다른 사람들로부터 배우십시오.
+ A3: 자유롭게 참여해 주세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 자신의 경험을 공유하고, 질문하고, 다른 사람들로부터 배우세요.
 
 ### Q4: 평가판을 사용할 수 있나요?
 

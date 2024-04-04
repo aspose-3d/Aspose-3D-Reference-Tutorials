@@ -15,7 +15,7 @@ Als je je verdiept in het maken en animeren van 3D-scènes in .NET, is Aspose.3D
 
 Voordat we aan deze spannende reis beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
-- Aspose.3D voor .NET: Zorg ervoor dat de bibliotheek is geïnstalleerd. Je kunt het downloaden van de[Aspose.3D-website](https://releases.aspose.com/3d/net/).
+-  Aspose.3D voor .NET: Zorg ervoor dat de bibliotheek is geïnstalleerd. Je kunt het downloaden van de[Aspose.3D-website](https://releases.aspose.com/3d/net/).
 
 - Kennis van C#: Bekendheid met de programmeertaal C# is essentieel voor het begrijpen en implementeren van de voorbeelden.
 
@@ -117,7 +117,7 @@ Gefeliciteerd! Je hebt zojuist de kunst van het animeren van eigenschappen in 3D
 
  A2: U kunt het downloaden van de[pagina vrijgeven](https://releases.aspose.com/3d/net/).
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+### Vraag 3: Is er een gratis proefperiode beschikbaar?
 
  A3: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
 

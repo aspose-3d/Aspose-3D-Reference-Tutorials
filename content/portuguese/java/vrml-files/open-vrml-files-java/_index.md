@@ -11,7 +11,7 @@ url: /pt/java/vrml-files/open-vrml-files-java/
 Bem-vindo ao emocionante mundo da modelagem 3D em Java! Neste guia abrangente, mergulharemos no fascinante reino da Virtual Reality Modeling Language (VRML) usando Aspose.3D para Java. Quer você seja um desenvolvedor experiente ou um entusiasta curioso, este tutorial passo a passo irá capacitá-lo a abrir e manipular arquivos VRML sem esforço.
 ## Pré-requisitos
 Antes de embarcarmos nesta jornada, certifique-se de ter os seguintes pré-requisitos em vigor:
-### 1. Kit de Desenvolvimento Java (JDK)
+### 1. Kit de desenvolvimento Java (JDK)
  Certifique-se de ter a versão mais recente do JDK instalada em sua máquina. Você pode baixá-lo[aqui](https://www.oracle.com/java/technologies/javase-downloads.html).
 ### 2. Biblioteca Aspose.3D para Java
 Baixe e instale a biblioteca Aspose.3D para Java do[local na rede Internet](https://releases.aspose.com/3d/java/). Esta biblioteca será nosso kit de ferramentas para trabalhar com modelos 3D.

@@ -35,7 +35,7 @@ Scene scene = new Scene();
 Camera camera = new Camera();
 // Codice di configurazione aggiuntivo della telecamera...
 ```
- Crea una scena 3D e imposta una telecamera per visualizzare la scena. Regola i parametri della fotocamera come`NearPlane` E`LookAt` per una resa ottimale.
+Crea una scena 3D e imposta una telecamera per visualizzare la scena. Regola i parametri della fotocamera come`NearPlane` E`LookAt` per una resa ottimale.
 ## Passaggio 2: introdurre la sorgente luminosa
 ```csharp
 Light light;

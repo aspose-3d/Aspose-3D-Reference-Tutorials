@@ -1,6 +1,6 @@
 ---
-title: Siatka triangulacyjna w scenach 3D
-linktitle: Siatka triangulacyjna w scenach 3D
+title: Siatka triangulacyjna
+linktitle: Siatka triangulacyjna
 second_title: Aspose.3D API .NET
 description: Poznaj moc Aspose.3D dla .NET w tym przewodniku krok po kroku. Dowiedz się, jak bez wysiłku triangulować siatki 3D w celu lepszego modelowania.
 type: docs
@@ -17,7 +17,7 @@ Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymag
 
 - Biblioteka Aspose.3D dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.3D. Możesz go pobrać[Tutaj](https://releases.aspose.com/3d/net/).
 
-- Przykładowy model 3D: Przygotuj model 3D w formacie FBX, który chcesz poddać triangulacji. Możesz skorzystać z dostarczonego[dokument.fbx](https://reference.aspose.com/3d/net/) plik do ćwiczeń.
+-  Przykładowy model 3D: Przygotuj model 3D w formacie FBX, który chcesz poddać triangulacji. Możesz skorzystać z dostarczonego[dokument.fbx](https://reference.aspose.com/3d/net/) plik do ćwiczeń.
 
 ## Importuj przestrzenie nazw
 

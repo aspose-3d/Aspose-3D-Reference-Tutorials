@@ -54,7 +54,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 ```java
 // Określ katalog, w którym chcesz zapisać scenę 3D
 String MyDir = "Your Document Directory" + "BoxToTriangleMeshCustomMemoryLayoutScene.fbx";
-//Zapisz scenę 3D w obsługiwanych formatach plików
+// Zapisz scenę 3D w obsługiwanych formatach plików
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 System.out.println("\nConverted a Box mesh to triangle mesh with custom memory layout of the vertex successfully.\nFile saved at " + MyDir);
 ```
@@ -68,6 +68,6 @@ Tak, Aspose.3D można zintegrować z innymi bibliotekami Java 3D w celu zwiększ
 ### Czy dostępny jest bezpłatny okres próbny?
  Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 ### Jak uzyskać wsparcie dla Aspose.3D dla Java?
- Odwiedzić[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczne.
+ Odwiedzić[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności.
 ### Czy mogę kupić tymczasową licencję na Aspose.3D?
  Tak, można uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).

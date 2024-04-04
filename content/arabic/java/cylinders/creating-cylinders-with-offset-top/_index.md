@@ -16,7 +16,7 @@ url: /ar/java/cylinders/creating-cylinders-with-offset-top/
 قبل أن نبدأ هذه الرحلة الإبداعية، تأكد من توفر المتطلبات الأساسية التالية:
 
 - Java Development Kit (JDK): يتطلب Aspose.3D for Java تثبيت JDK متوافقًا على جهازك.
-- مكتبة Aspose.3D: قم بتنزيل مكتبة Aspose.3D ودمجها في مشروع Java الخاص بك. يمكنك العثور على المكتبة والوثائق التفصيلية[هنا](https://releases.aspose.com/3d/java/).
+-  مكتبة Aspose.3D: قم بتنزيل مكتبة Aspose.3D ودمجها في مشروع Java الخاص بك. يمكنك العثور على المكتبة والوثائق التفصيلية[هنا](https://releases.aspose.com/3d/java/).
 
 ## حزم الاستيراد
 
@@ -73,7 +73,7 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 
 ```java
 // البداية:4
-//تهيئة الاسطوانة الثانية بدون OffsetTop المخصص
+// تهيئة الاسطوانة الثانية بدون OffsetTop المخصص
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // النهاية:4
 ```
@@ -95,7 +95,7 @@ scene.getRootNode().createChildNode(cylinder2);
 
 ```java
 // البداية:6
-// يحفظ
+//يحفظ
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // النهاية:6
 ```
@@ -118,7 +118,7 @@ scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFo
 
 ### س3: هل هناك أي خيارات ترخيص متاحة لـ Aspose.3D؟
 
- ج3: نعم، يمكنك استكشاف واختيار خيار الترخيص الذي يناسب احتياجاتك[هنا](https://purchase.aspose.com/buy).
+ج3: نعم، يمكنك استكشاف واختيار خيار الترخيص الذي يناسب احتياجاتك[هنا](https://purchase.aspose.com/buy).
 
 ### س4: كيف يمكنني طلب المساعدة أو مشاركة تجاربي مع Aspose.3D؟
 

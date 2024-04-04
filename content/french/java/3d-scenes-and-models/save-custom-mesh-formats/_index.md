@@ -39,7 +39,7 @@ import java.util.List;
 Scene scene = new Scene("Your Document Directory" + "test.fbx");
 ```
 
-## Étape 2 : Définir le format binaire personnalisé
+## Étape 2 : définir le format binaire personnalisé
 
 Avant d'enregistrer les maillages 3D, définissez la structure de votre format binaire personnalisé. L'exemple montre une structure simple :
 
@@ -115,7 +115,7 @@ A1 : Oui, Aspose.3D prend en charge différents formats de modèles 3D, offrant 
 
 ### Q3 : Où puis-je trouver du support pour Aspose.3D pour Java ?
 
- A3 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18)pour toute aide ou question.
+ A3 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour toute aide ou question.
 
 ### Q4 : Existe-t-il des exemples de modèles 3D disponibles pour les tests ?
 

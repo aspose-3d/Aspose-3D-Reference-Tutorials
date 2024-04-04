@@ -1,6 +1,6 @@
 ---
-title: Créer des scènes de cube en 3D
-linktitle: Créer des scènes de cube en 3D
+title: Création de scènes de cube
+linktitle: Création de scènes de cube
 second_title: API Aspose.3D .NET
 description: Créez de superbes scènes de cube 3D sans effort avec Aspose.3D pour .NET. Téléchargez la bibliothèque, suivez notre guide étape par étape et libérez-vous.
 type: docs
@@ -52,7 +52,7 @@ Maintenant, ajoutons un nœud pour représenter notre cube dans la scène :
 Node cubeNode = new Node("cube");
 ```
 
-## Étape 3 : Construire le maillage
+## Étape 3 : Construire le maillage
 
 Utilisez la classe Common pour créer un maillage pour votre cube à l'aide de la méthode de création de polygones :
 
@@ -87,7 +87,7 @@ Spécifiez le répertoire de sortie et enregistrez la scène 3D dans un format d
 // Le chemin d'accès au répertoire des documents.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//Enregistrez la scène 3D dans les formats de fichiers pris en charge
+// Enregistrez la scène 3D dans les formats de fichiers pris en charge
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

@@ -1,6 +1,6 @@
 ---
-title: การแปลงโหนดด้วย Quaternion ในฉาก 3 มิติ
-linktitle: การแปลงโหนดด้วย Quaternion ในฉาก 3 มิติ
+title: การแปลงโหนดโดย Quaternion
+linktitle: การแปลงโหนดโดย Quaternion
 second_title: Aspose.3D .NET API
 description: เรียนรู้วิธีการแปลงโหนด 3 มิติด้วยควอเทอร์เนียนโดยใช้ Aspose.3D สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับผู้เริ่มต้น
 type: docs
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//บันทึกฉาก 3 มิติในรูปแบบไฟล์ที่รองรับ
+// บันทึกฉาก 3 มิติในรูปแบบไฟล์ที่รองรับ
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ตัวอย่าง: AddTransformationToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## บทสรุป
 
-ยินดีด้วย! คุณได้เรียนรู้วิธีแปลงโหนดทีละควอเทอร์เนียนในฉาก 3 มิติโดยใช้ Aspose.3D สำหรับ .NET เรียบร้อยแล้ว สำรวจคุณสมบัติและความเป็นไปได้เพิ่มเติมโดยอ้างอิงจาก[เอกสารประกอบ](https://reference.aspose.com/3d/net/).
+ ยินดีด้วย! คุณได้เรียนรู้วิธีแปลงโหนดทีละควอเทอร์เนียนในฉาก 3 มิติโดยใช้ Aspose.3D สำหรับ .NET เรียบร้อยแล้ว สำรวจคุณสมบัติและความเป็นไปได้เพิ่มเติมโดยอ้างอิงจาก[เอกสารประกอบ](https://reference.aspose.com/3d/net/).
 
 ## คำถามที่พบบ่อย
 

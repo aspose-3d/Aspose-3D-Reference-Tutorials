@@ -105,7 +105,7 @@ Console.WriteLine(pdiffuse);
 
 ## Adım 6: Özelliğin Özelliklerini Çaprazlayın
 
- O zamandan beri`Property` miras alındı`A3DObject`, bir özelliğin özellikleri arasında geçiş yapabilirsiniz.
+ O zamandan beri`Property` miras alındı`A3DObject`bir özelliğin özellikleri arasında geçiş yapabilirsiniz.
 
 ```csharp
 //ExStart: TraversePropertyProperties

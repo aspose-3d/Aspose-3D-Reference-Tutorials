@@ -1,6 +1,6 @@
 ---
-title: Ρύθμιση UV στο Cube σε σκηνές 3D
-linktitle: Ρύθμιση UV στο Cube σε σκηνές 3D
+title: Ρύθμιση UV στο Cube
+linktitle: Ρύθμιση UV στο Cube
 second_title: Aspose.3D .NET API
 description: Μάθετε να ρυθμίζετε τη χαρτογράφηση UV σε έναν κύβο 3D χρησιμοποιώντας το Aspose.3D για .NET. Δημιουργήστε οπτικά εντυπωσιακές σκηνές με ακριβή χαρτογράφηση υφής.
 type: docs

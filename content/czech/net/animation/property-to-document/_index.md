@@ -15,7 +15,7 @@ Pokud se ponoříte do říše tvorby 3D scén a animací v .NET, Aspose.3D je v
 
 Než se vydáme na tuto vzrušující cestu, ujistěte se, že máte splněny následující předpoklady:
 
-- Aspose.3D for .NET: Ujistěte se, že máte nainstalovanou knihovnu. Můžete si jej stáhnout z[Web Aspose.3D](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET: Ujistěte se, že máte nainstalovanou knihovnu. Můžete si jej stáhnout z[Web Aspose.3D](https://releases.aspose.com/3d/net/).
 
 - Znalost C#: Pro pochopení a implementaci příkladů je nezbytná znalost programovacího jazyka C#.
 

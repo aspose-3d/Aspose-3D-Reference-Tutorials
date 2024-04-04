@@ -45,7 +45,7 @@ Ora creiamo il primo cilindro con il fondo tranciato:
 // Crea il cilindro 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // Fondo di taglio personalizzato per cilindro 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // Taglio 47,5 gradi nel piano xy (asse z)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //Taglio 47,5 gradi nel piano xy (asse z)
 // Aggiungi il cilindro 1 alla scena
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // Fine Estesa:4

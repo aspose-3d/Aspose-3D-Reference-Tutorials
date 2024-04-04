@@ -16,7 +16,7 @@ La concaténation de quaternions est un concept fondamental des graphiques 3D, v
 Avant de plonger dans le didacticiel, assurez-vous d'avoir les prérequis suivants :
 
 - Connaissance de base de la programmation Java.
--  Aspose.3D pour Java installé. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/java/).
+- Aspose.3D pour Java installé. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/java/).
 
 ## Importer des packages
 

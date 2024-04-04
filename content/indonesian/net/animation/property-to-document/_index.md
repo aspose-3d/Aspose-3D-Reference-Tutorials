@@ -15,7 +15,7 @@ Jika Anda terjun ke dunia pembuatan adegan 3D dan animasi di .NET, Aspose.3D ada
 
 Sebelum kita memulai perjalanan menarik ini, pastikan Anda memiliki prasyarat berikut:
 
-- Aspose.3D untuk .NET: Pastikan Anda telah menginstal perpustakaan. Anda dapat mengunduhnya dari[Situs web Aspose.3D](https://releases.aspose.com/3d/net/).
+-  Aspose.3D untuk .NET: Pastikan Anda telah menginstal perpustakaan. Anda dapat mengunduhnya dari[Situs web Aspose.3D](https://releases.aspose.com/3d/net/).
 
 - Pengetahuan tentang C#: Keakraban dengan bahasa pemrograman C# sangat penting untuk memahami dan menerapkan contoh.
 
@@ -38,7 +38,7 @@ using Aspose.ThreeD.Utilities;
 using Aspose._3D.Examples.CSharp.Geometry_Hierarchy;
 ```
 
-## Langkah 1: Inisialisasi Objek Pemandangan
+## Langkah 1: Inisialisasi Objek Adegan
 
 ```csharp
 Scene scene = new Scene();

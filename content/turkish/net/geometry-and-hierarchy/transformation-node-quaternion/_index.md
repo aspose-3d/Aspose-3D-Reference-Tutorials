@@ -1,6 +1,6 @@
 ---
-title: 3B Sahnelerde Düğümün Kuaterniyonla Dönüştürülmesi
-linktitle: 3B Sahnelerde Düğümün Kuaterniyonla Dönüştürülmesi
+title: Düğümün Kuaterniyonla Dönüştürülmesi
+linktitle: Düğümün Kuaterniyonla Dönüştürülmesi
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'i kullanarak 3D düğümleri kuaterniyonlarla dönüştürmeyi öğrenin. Yeni başlayanlar için adım adım kılavuz.
 type: docs
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Belgeler dizininin yolu.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//3B sahneyi desteklenen dosya formatlarında kaydedin
+// 3B sahneyi desteklenen dosya formatlarında kaydedin
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## Çözüm
 
-Tebrikler! Aspose.3D for .NET'i kullanarak 3D sahnelerde bir düğümü dörtlü olarak nasıl dönüştüreceğinizi başarıyla öğrendiniz. Şuraya başvurarak daha fazla özellik ve olasılığı keşfedin:[dokümantasyon](https://reference.aspose.com/3d/net/).
+ Tebrikler! Aspose.3D for .NET'i kullanarak 3D sahnelerde bir düğümü dörtlü olarak nasıl dönüştüreceğinizi başarıyla öğrendiniz. Şuraya başvurarak daha fazla özellik ve olasılığı keşfedin:[dokümantasyon](https://reference.aspose.com/3d/net/).
 
 ## SSS'ler
 

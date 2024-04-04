@@ -1,8 +1,8 @@
 ---
-title: ロードと保存 - カスタム保存オプション
-linktitle: ロードと保存 - カスタム保存オプション
+title: カスタム保存オプション
+linktitle: カスタム保存オプション
 second_title: Aspose.3D .NET API
-description: Aspose.3D for .NET の威力を体験してください。 Collada、3DS、FBX、OBJ、STL、U3D、glTF、DRC、および RVM 形式に関するステップバイステップのガイドを使用して、3D シーンの保存をカスタマイズする方法を学びます。
+description: Aspose.3D for .NET の威力を体験してください。 Collada、USD、3DS、FBX、OBJ、STL、U3D、glTF、DRC、および RVM 形式に関するステップバイステップのガイドを使用して、3D シーンの保存をカスタマイズする方法を学びます。
 type: docs
 weight: 21
 url: /ja/net/loading-and-saving/custom-save-options/

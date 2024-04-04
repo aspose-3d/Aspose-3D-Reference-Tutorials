@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## Passaggio 4: puntare il nodo sulla mesh
 
 ```java
-//Nodo di puntamento sulla mesh
+// Nodo di puntamento sulla mesh
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // Imposta il nome del file
 MyDir = MyDir + "MaterialToCube.fbx";
-//Salva la scena 3D nei formati di file supportati
+// Salva la scena 3D nei formati di file supportati
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

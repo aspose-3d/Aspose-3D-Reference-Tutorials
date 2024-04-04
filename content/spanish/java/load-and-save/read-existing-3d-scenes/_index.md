@@ -85,7 +85,7 @@ Este ejemplo muestra la lectura de un archivo RVM junto con sus atributos.
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.3D para Java con otros lenguajes de programación?
+### P1: ¿Puedo utilizar Aspose.3D para Java con otros lenguajes de programación?
 
 R1: Aspose.3D admite principalmente Java, pero consulte la documentación para ver si hay actualizaciones de compatibilidad entre idiomas.
 

@@ -1,6 +1,6 @@
 ---
-title: Memuat dan Menyimpan - Mendeteksi Format
-linktitle: Memuat dan Menyimpan - Mendeteksi Format
+title: Mendeteksi Format
+linktitle: Mendeteksi Format
 second_title: Aspose.3D .NET API
 description: Kuasai manipulasi file 3D dengan mudah dengan Aspose.3D untuk .NET. Muat, simpan, dan deteksi format dengan lancar.
 type: docs
@@ -50,7 +50,7 @@ scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ### Langkah 2: Deteksi Formatnya
 
 ```csharp
-//ExStart:DetectFormat
+// ExStart:DetectFormat
 // Deteksi format file 3D
 FileFormat inputFormat = FileFormat.Detect(RunExamples.GetDataFilePath("document.fbx"));
 // Menampilkan format file
@@ -92,4 +92,4 @@ A1: Ya, Aspose.3D mendukung berbagai format file 3D, memberikan fleksibilitas da
 
 ### Q5: Dapatkah saya mencoba Aspose.3D secara gratis sebelum membeli?
 
-A5: Tentu saja! Unduh versi uji coba gratis dari[Rilis Aspose.3D](https://releases.aspose.com/) untuk merasakan kemampuannya secara langsung.
+ A5: Tentu saja! Unduh versi uji coba gratis dari[Rilis Aspose.3D](https://releases.aspose.com/) untuk merasakan kemampuannya secara langsung.

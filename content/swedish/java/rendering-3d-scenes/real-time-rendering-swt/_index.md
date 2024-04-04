@@ -95,7 +95,7 @@ display.dispose();
 
 ## Slutsats
 
-Grattis! Du har framgångsrikt implementerat 3D-rendering i realtid i din Java-applikation med Aspose.3D och SWT. Sammanslagningen av Aspose.3D:s möjligheter och det intuitiva SWT-ramverket öppnar upp ett rike av möjligheter för att skapa visuellt fantastiska applikationer.
+Grattis! Du har framgångsrikt implementerat 3D-rendering i realtid i din Java-applikation med Aspose.3D och SWT. Sammanslagningen av Aspose.3D:s möjligheter och det intuitiva SWT-ramverket öppnar upp en värld av möjligheter för att skapa visuellt fantastiska applikationer.
 
 ## FAQ's
 
@@ -117,4 +117,4 @@ A2: Absolut! Aspose.3D integreras sömlöst med andra Java-bibliotek, vilket ger
 
 ### F5: Behöver du hjälp eller har specifika frågor?
 
-A5: Besök[Aspose.3D-gemenskapsforum](https://forum.aspose.com/c/3d/18) för expertstöd.
+ A5: Besök[Aspose.3D-gemenskapsforum](https://forum.aspose.com/c/3d/18) för expertstöd.

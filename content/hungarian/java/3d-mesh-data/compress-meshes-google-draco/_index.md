@@ -41,7 +41,7 @@ Mielőtt elkezdené, hozzon létre egy új Java-projektet, és adja hozzá az As
 
 ## 2. lépés: Hozzon létre egy gömböt
 
-Most hozzunk létre egy 3D-s gömböt az Aspose.3D segítségével. Ez szolgál majd mintahálóként a tömörítéshez.
+Most pedig hozzunk létre egy 3D-s gömböt az Aspose.3D segítségével. Ez szolgál majd mintahálóként a tömörítéshez.
 
 ```java
 // ExStart:Encode3DMeshinGoogleDraco

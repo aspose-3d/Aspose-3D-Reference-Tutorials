@@ -9,7 +9,7 @@ url: /tr/java/licensing/applying-license-in-aspose-3d/
 ---
 ## giriiş
 
-Aspose.3D for Java'da lisans başvurusuna yönelik bu adım adım kılavuza hoş geldiniz. Aspose.3D, geliştiricilerin 3D dosyalarla zahmetsizce çalışmasına olanak tanıyan güçlü bir Java kütüphanesidir. Bu eğitimde, Java uygulamalarınızda Aspose.3D'nin tüm potansiyelini ortaya çıkarmanızı sağlamak için çeşitli yöntemler kullanarak lisans başvuru sürecini ayrıntılı olarak ele alacağız.
+Aspose.3D for Java'da lisans başvurusuna yönelik bu adım adım kılavuza hoş geldiniz. Aspose.3D, geliştiricilerin 3D dosyalarla zahmetsizce çalışmasına olanak tanıyan güçlü bir Java kütüphanesidir. Bu eğitimde, Java uygulamalarınızda Aspose.3D'nin tüm potansiyelini açığa çıkarabilmenizi sağlamak için çeşitli yöntemler kullanarak lisans başvuru sürecini ayrıntılı olarak ele alacağız.
 
 ## Önkoşullar
 
@@ -22,7 +22,8 @@ Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
 Başlamak için gerekli paketleri Java projenize aktarın. Aspose.3D'nin sınıf yolunuza eklendiğinden emin olun. İşte bir örnek:
 
-```javaimport com.aspose.threed.License;
+```java
+import com.aspose.threed.License;
 import com.aspose.threed.Metered;
 
 import java.io.FileInputStream;

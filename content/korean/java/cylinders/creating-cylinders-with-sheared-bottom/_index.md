@@ -9,7 +9,7 @@ url: /ko/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
 ## 소개
 
-Java용 Aspose.3D를 사용하여 바닥이 잘린 원통을 만드는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.3D는 3D 파일을 쉽게 작업할 수 있게 해주는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 바닥이 잘린 맞춤형 실린더를 만드는 방법에 대해 알아보고 Aspose.3D를 사용하여 3D 모델링 기술을 향상시키는 실습 경험을 제공합니다.
+Java용 Aspose.3D를 사용하여 바닥이 잘린 원통을 만드는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.3D는 3D 파일을 쉽게 작업할 수 있게 해주는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 바닥이 잘린 맞춤형 실린더를 만드는 방법을 알아보고 Aspose.3D를 사용하여 3D 모델링 기술을 향상시키는 실습 경험을 제공합니다.
 
 ## 전제 조건
 
@@ -45,7 +45,7 @@ Scene scene = new Scene();
 // 원통 1 생성
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // 실린더 1의 맞춤형 전단 바닥
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // xy 평면(z축)에서 47.5deg 전단
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //xy 평면(z축)에서 47.5deg 전단
 // 장면에 원통 1 추가
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // 연장:4

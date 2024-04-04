@@ -1,6 +1,6 @@
 ---
-title: 3D 장면에서 변환 매트릭스로 노드 변환
-linktitle: 3D 장면에서 변환 매트릭스로 노드 변환
+title: 변환 매트릭스로 노드 변환
+linktitle: 변환 매트릭스로 노드 변환
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 장면에서 노드를 쉽게 변환할 수 있습니다. 튜토리얼을 통해 단계별 노드 변환을 알아보세요.
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 이제 기본 사항을 다루었으므로 변환 프로세스를 단계별 가이드로 나누어 보겠습니다.
 
-## 1단계: 장면 및 노드 초기화
+## 1단계: 장면 초기화
 
 ```csharp
 // ExStart:AddTransformationToNodeByTransformationMatrix
 // 장면 객체 초기화
 Scene scene = new Scene();
 
-// 노드 클래스 객체 초기화
-Node cubeNode = new Node("cube");
 ```
 
-이 단계에서는 새로운 3D 장면과 해당 장면 내에 "큐브"라는 노드를 만듭니다.
+이 단계에서는 새로운 빈 3D 장면을 만듭니다.
 
-## 2단계: 메시 생성 및 형상 설정
+## 2단계: 메시 생성 및 장면에 연결
 
 ```csharp
 // Common 클래스를 호출하여 폴리곤 빌더 방법을 사용하여 메쉬를 생성하여 메쉬 인스턴스를 설정합니다.
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// 메쉬 형상에 대한 포인트 노드
-cubeNode.Entity = mesh;
+// 메시에 대한 컨테이너 노드를 만듭니다.
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 여기서는 폴리곤 빌더 방법을 사용하여 메시를 생성하고 이를 노드에 할당하여 큐브의 지오메트리를 설정합니다.
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 노드에 적용되는 특정 변환을 결정하려면 사용자 정의 변환 행렬을 정의하십시오. 원하는 변환에 필요한 대로 행렬 값을 조정합니다.
 
-## 4단계: 장면에 노드 추가
-
-```csharp
-// 장면에 큐브 추가
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 장면에 큐브 노드를 포함시켜 전체 3D 환경의 일부로 만듭니다.
 
-## 5단계: 장면 저장
+## 4단계: 장면 저장
 
 ```csharp
 // 문서 디렉터리의 경로입니다.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//지원되는 파일 형식으로 3D 장면 저장
-scene.Save(output, FileFormat.FBX7500ASCII);
+// 지원되는 파일 형식으로 3D 장면 저장
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ A2: 예, 각 행렬을 곱하고 그 결과를 노드에 적용하여 여러 변
 
 ### Q4: .NET용 Aspose.3D의 임시 라이선스를 어떻게 얻을 수 있나요?
 
- A4: 다음을 방문하세요.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/) Aspose 웹사이트에서 평가 목적으로 임시 라이선스를 얻으세요.
+ A4: 다음을 방문하세요.[임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/)Aspose 웹사이트에서 평가 목적으로 임시 라이선스를 얻으세요.
 
 ### Q5: 어디서 도움을 구하거나 Aspose.3D 커뮤니티에 연결할 수 있나요?
 
-A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) Aspose.3D를 사용하여 질문하고, 경험을 공유하고, 다른 개발자와 연결합니다.
+ A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) Aspose.3D를 사용하여 질문하고, 경험을 공유하고, 다른 개발자와 연결하세요.

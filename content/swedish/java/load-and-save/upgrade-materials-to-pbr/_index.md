@@ -93,7 +93,7 @@ S1: Ja, Aspose.3D är kompatibel med olika Java-utvecklingsmiljöer.
 
 ### F3: Finns det en gratis provperiod?
 
- S3: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
+S3: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F4: Var kan jag hitta support för Aspose.3D?
 

@@ -1,6 +1,6 @@
 ---
-title: 3D シーンでのメッシュの三角形化
-linktitle: 3D シーンでのメッシュの三角形化
+title: メッシュの三角化
+linktitle: メッシュの三角化
 second_title: Aspose.3D .NET API
 description: このステップバイステップ ガイドで、Aspose.3D for .NET の威力を探ってください。 3D メッシュを簡単に三角形分割してモデリングを強化する方法を学びます。
 type: docs

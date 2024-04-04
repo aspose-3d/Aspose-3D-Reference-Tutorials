@@ -17,7 +17,7 @@ Siap menghidupkan adegan 3D Anda? Tutorial kami tentang membuat pemandangan deng
 
 [Baca tutorialnya: Membuat Scene dengan Tekstur Tertanam](./create-scene-embedded-texture/)
 
-## Membuang Tekstur Tertanam
+## Membuang Tekstur Tersemat
 
 Selidiki lebih dalam seluk-beluk pemodelan 3D dengan tutorial kami tentang membuang tekstur yang tertanam. Aspose.3D untuk .NET memberdayakan Anda untuk mengungkap rahasia yang tersembunyi dalam model 3D. Panduan langkah demi langkah kami memastikan perjalanan yang lancar, memandu Anda melalui proses membuka kunci dan memanfaatkan tekstur yang tertanam. Siap untuk meningkatkan keterampilan pemodelan 3D Anda? Unduh uji coba gratis Anda sekarang dan mulailah petualangan yang kaya tekstur.
 
@@ -29,5 +29,5 @@ Buka potensi Aspose.3D untuk .NET sekarang juga. Unduh perpustakaannya, jelajahi
 ## Bahan Tutorial
 ### [Membuat Adegan dengan Tekstur Tertanam](./create-scene-embedded-texture/)
 Buat pemandangan 3D yang memukau dengan tekstur tertanam menggunakan Aspose.3D untuk .NET. Ikuti panduan langkah demi langkah kami untuk hasil yang menakjubkan.
-### [Membuang Tekstur Tertanam](./dump-embedded-textures/)
+### [Membuang Tekstur Tersemat](./dump-embedded-textures/)
 Buka rahasia tekstur yang disematkan dalam model 3D dengan Aspose.3D untuk .NET. Pelajari panduan langkah demi langkah kami untuk integrasi yang lancar. Unduh uji coba gratis Anda sekarang!

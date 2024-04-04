@@ -1,6 +1,6 @@
 ---
-title: Triangulación de malla en escenas 3D
-linktitle: Triangulación de malla en escenas 3D
+title: Malla Trianguladora
+linktitle: Malla Trianguladora
 second_title: Aspose.3D API .NET
 description: Explore el poder de Aspose.3D para .NET en esta guía paso a paso. Aprenda a triangular sin esfuerzo mallas 3D para un modelado mejorado.
 type: docs
@@ -17,7 +17,7 @@ Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes req
 
 - Aspose.3D para la biblioteca .NET: asegúrese de tener instalada la biblioteca Aspose.3D. Puedes descargarlo[aquí](https://releases.aspose.com/3d/net/).
 
-- Modelo 3D de muestra: tenga un modelo 3D en formato FBX que desee triangular. Puedes utilizar el proporcionado[documento.fbx](https://reference.aspose.com/3d/net/) archivo para practicar.
+-  Modelo 3D de muestra: tenga un modelo 3D en formato FBX que desee triangular. Puedes utilizar el proporcionado[documento.fbx](https://reference.aspose.com/3d/net/) archivo para practicar.
 
 ## Importar espacios de nombres
 

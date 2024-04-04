@@ -105,7 +105,7 @@ Console.WriteLine(pdiffuse);
 
 ## Krok 6: Przejdź przez właściwości właściwości
 
- Od`Property` jest dziedziczony od`A3DObject`, możesz przeglądać właściwości właściwości.
+ Od`Property` jest dziedziczony od`A3DObject`możesz przeglądać właściwości właściwości.
 
 ```csharp
 //ExStart: TraversePropertyProperties

@@ -15,7 +15,7 @@ Si se está sumergiendo en el ámbito de la creación y animación de escenas 3D
 
 Antes de embarcarnos en este emocionante viaje, asegúrese de cumplir con los siguientes requisitos previos:
 
-- Aspose.3D para .NET: asegúrese de tener la biblioteca instalada. Puedes descargarlo desde el[Sitio web de Aspose.3D](https://releases.aspose.com/3d/net/).
+-  Aspose.3D para .NET: asegúrese de tener la biblioteca instalada. Puedes descargarlo desde el[Sitio web de Aspose.3D](https://releases.aspose.com/3d/net/).
 
 - Conocimiento de C#: la familiaridad con el lenguaje de programación C# es esencial para comprender e implementar los ejemplos.
 
@@ -105,7 +105,7 @@ Console.WriteLine("\nAnimation property added successfully to document.\nFile sa
 
 ## Conclusión
 
-¡Felicidades! Acaba de dominar el arte de animar propiedades en escenas 3D utilizando Aspose.3D para .NET. Ahora, deja fluir tu creatividad mientras infundes vida a tus creaciones 3D.
+¡Felicidades! Acaba de dominar el arte de animar propiedades en escenas 3D usando Aspose.3D para .NET. Ahora, deja fluir tu creatividad mientras infundes vida a tus creaciones 3D.
 
 ## Preguntas frecuentes
 

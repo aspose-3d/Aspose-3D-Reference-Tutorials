@@ -16,7 +16,7 @@ Tạo và thao tác dữ liệu lưới 3D trong Java có thể là một nhiệ
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
 
 - Kiến thức cơ bản về lập trình Java.
--  Aspose.3D cho Java đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/3d/java/).
+- Aspose.3D cho Java đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/3d/java/).
 - Tệp 3D ở định dạng 3ds. Chúng tôi sẽ sử dụng "Camera.3ds" làm ví dụ.
 
 ## Gói nhập khẩu

@@ -16,8 +16,8 @@ Chào mừng bạn đến với hướng dẫn từng bước này về cách l�
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
 
 - Hiểu biết cơ bản về ngôn ngữ lập trình C#.
-- Đã cài đặt thư viện Aspose.3D cho .NET. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/3d/net/).
-- Tệp 3D mẫu ở định dạng được hỗ trợ (ví dụ: .3ds).
+-  Đã cài đặt thư viện Aspose.3D cho .NET. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/3d/net/).
+- Tệp 3D mẫu ở định dạng được hỗ trợ (ví dụ: .ma).
 
 ## Nhập không gian tên
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // Đường dẫn đến tập tin đầu vào
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // Khởi tạo đối tượng cảnh
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
  Trong bước này, chúng tôi tải cảnh 3D từ đường dẫn tệp đã chỉ định bằng cách sử dụng`Open` phương pháp.
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
  Bây giờ, chúng tôi sử dụng`Save` phương pháp xuất cảnh, lật hệ tọa độ trong quy trình. Đầu ra được lưu ở định dạng Wavefront OBJ.

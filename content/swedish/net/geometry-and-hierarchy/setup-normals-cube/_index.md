@@ -1,6 +1,6 @@
 ---
-title: Ställa in normaler på kub i 3D-scener
-linktitle: Ställa in normaler på kub i 3D-scener
+title: Ställa in normala på Cube
+linktitle: Ställa in normala på Cube
 second_title: Aspose.3D .NET API
 description: Lär dig att ställa in normaler på en 3D-kub med Aspose.3D för .NET. Förbättra dina färdigheter i 3D-modellering med denna steg-för-steg-guide.
 type: docs

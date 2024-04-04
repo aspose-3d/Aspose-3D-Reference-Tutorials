@@ -91,7 +91,7 @@ Mentse el a 3D-s jelenetet Wavefront OBJ fájlformátumban.
 ```java
 // ExStart:Save3DScene
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-// ExEnd:Save3DScene
+//ExEnd:Save3DScene
 ```
 
 ## Következtetés

@@ -82,7 +82,7 @@ System.out.println("\nNode hierarchy added successfully to document.\nFile saved
 
 A1：當然！ Aspose.3D for Java 提供了一個使用者友善的介面，使初學者和經驗豐富的開發人員都可以使用它。
 
-### Q2：我可以將Aspose.3D for Java 用於商業專案嗎？
+### Q2：我可以將Aspose.3D for Java用於商業專案嗎？
 
  A2: 是的，可以。參觀[購買頁面](https://purchase.aspose.com/buy)了解許可詳細資訊。
 

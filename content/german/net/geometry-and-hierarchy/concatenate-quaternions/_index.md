@@ -1,6 +1,6 @@
 ---
-title: Verketten von Quaternionen in 3D-Szenen
-linktitle: Verketten von Quaternionen in 3D-Szenen
+title: Verketten von Quaternionen
+linktitle: Verketten von Quaternionen
 second_title: Aspose.3D .NET API
 description: Entdecken Sie die Leistungsfähigkeit der Quaternion-Manipulation in 3D-Szenen mit Aspose.3D für .NET. Lernen Sie Schritt für Schritt, Quaternionen für immersive Transformationen zu verketten.
 type: docs
@@ -96,7 +96,7 @@ A2: Ja, Aspose.3D für .NET ist so konzipiert, dass es nahtlos mit anderen .NET-
 
 ### F3: Gibt es eine kostenlose Testversion für Aspose.3D für .NET?
 
- A3: Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+A3: Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
 
 ### F4: Wie erhalte ich Unterstützung für Aspose.3D für .NET?
 

@@ -16,7 +16,7 @@ Benvenuti nella nostra guida passo passo sul miglioramento del posizionamento de
 Prima di intraprendere questo viaggio, assicurati di possedere i seguenti prerequisiti:
 
 - Una conoscenza di base della programmazione Java.
--  Aspose.3D per Java installato. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/java/).
+- Aspose.3D per Java installato. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/java/).
 - Un ambiente di sviluppo pronto per la codifica Java.
 
 ## Importa pacchetti
@@ -101,7 +101,7 @@ A1: Sì, Aspose.3D supporta vari linguaggi di programmazione, tra cui Java, .NET
 
 ### Q2: È disponibile una prova gratuita per Aspose.3D?
 
-A2: Certamente! Puoi esplorare le funzionalità di Aspose.3D accedendo alla prova gratuita[Qui](https://releases.aspose.com/).
+ A2: Certamente! Puoi esplorare le funzionalità di Aspose.3D accedendo alla prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q3: Dove posso trovare supporto per Aspose.3D?
 

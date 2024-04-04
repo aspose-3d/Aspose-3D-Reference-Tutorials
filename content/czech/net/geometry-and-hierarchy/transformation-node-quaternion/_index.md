@@ -1,6 +1,6 @@
 ---
-title: Transforming Node by Quaternion ve 3D scénách
-linktitle: Transforming Node by Quaternion ve 3D scénách
+title: Transforming Node by Quaternion
+linktitle: Transforming Node by Quaternion
 second_title: Aspose.3D .NET API
 description: Naučte se transformovat 3D uzly pomocí čtveřice pomocí Aspose.3D for .NET. Průvodce krok za krokem pro začátečníky.
 type: docs
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Cesta k adresáři dokumentů.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//Uložte 3D scénu v podporovaných formátech souborů
+// Uložte 3D scénu v podporovaných formátech souborů
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak transformovat uzel čtveřicí ve 3D scénách pomocí Aspose.3D pro .NET. Prozkoumejte další funkce a možnosti odkazem na[dokumentace](https://reference.aspose.com/3d/net/).
+ Gratulujeme! Úspěšně jste se naučili, jak transformovat uzel čtveřicí ve 3D scénách pomocí Aspose.3D pro .NET. Prozkoumejte další funkce a možnosti odkazem na[dokumentace](https://reference.aspose.com/3d/net/).
 
 ## FAQ
 

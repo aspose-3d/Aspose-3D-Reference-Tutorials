@@ -17,7 +17,7 @@ Jste připraveni zlepšit své 3D vývojové dovednosti v Javě? Ponořte se do 
 
 ## Generování dat pro 3D sítě v Javě (normální, tečné, binormální)
 
-Jste připraveni posunout své Java projekty na další úroveň?[Generování dat pro 3D sítě v Javě (normální, tečné, binormální)](./generate-mesh-data/) s Aspose.3D je výukový program, který potřebujete. Ponořte se hluboko do složitosti 3D grafiky, když vás provedeme jednoduchým generováním normálních dat pro vaše 3D sítě. Naučte se, jak zvýšit vizuální přitažlivost svých projektů a procházet světem 3D s jistotou.
+ Jste připraveni posunout své Java projekty na další úroveň?[Generování dat pro 3D sítě v Javě (normální, tečné, binormální)](./generate-mesh-data/) Aspose.3D je výukový program, který potřebujete. Ponořte se hluboko do složitosti 3D grafiky, když vás provedeme jednoduchým generováním normálních dat pro vaše 3D sítě. Naučte se, jak zvýšit vizuální přitažlivost svých projektů a procházet světem 3D s jistotou.
 
 ## Rozdělte 3D sítě podle materiálu pro efektivní zpracování v Javě
 

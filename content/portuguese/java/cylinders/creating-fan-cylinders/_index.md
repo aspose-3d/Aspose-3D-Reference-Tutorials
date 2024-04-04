@@ -15,7 +15,7 @@ Você está pronto para elevar sua experiência de modelagem 3D com Aspose.3D pa
 
 Antes de mergulharmos no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
 
--  Java Development Kit (JDK): Certifique-se de ter o JDK instalado em seu sistema. Você pode baixá-lo[aqui](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Certifique-se de ter o JDK instalado em seu sistema. Você pode baixá-lo[aqui](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 -  Aspose.3D para Java: Baixe e instale a biblioteca Aspose.3D para Java do[Link para Download](https://releases.aspose.com/3d/java/).
 

@@ -1,6 +1,6 @@
 ---
-title: 在 3D 場景中透過四元數變換節點
-linktitle: 在 3D 場景中透過四元數變換節點
+title: 透過四元數變換節點
+linktitle: 透過四元數變換節點
 second_title: Aspose.3D .NET API
 description: 學習使用 Aspose.3D for .NET 使用四元數轉換 3D 節點。初學者的逐步指南。
 type: docs
@@ -42,7 +42,7 @@ using Aspose.ThreeD.Utilities;
 Scene scene = new Scene();
 ```
 
-## 步驟2：初始化節點類別對象
+## 第2步：初始化節點類別對象
 
 ```csharp
 //初始化Node類別物件

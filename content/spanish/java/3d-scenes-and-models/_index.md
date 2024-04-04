@@ -9,7 +9,7 @@ url: /es/java/3d-scenes-and-models/
 ---
 ## Introducción
 
-¿Está listo para elevar sus aplicaciones Java a nuevas alturas en modelado y gráficos 3D? ¡Bienvenido a nuestros completos tutoriales de Aspose.3D para Java! Libere el potencial del posicionamiento, la compresión, la recuperación de información, el guardado de mallas y la manipulación perfecta de propiedades de escenas 3D con una guía paso a paso.
+¿Está listo para elevar sus aplicaciones Java a nuevas alturas en modelado y gráficos 3D? ¡Bienvenido a nuestros completos tutoriales de Aspose.3D para Java! Libere el potencial del posicionamiento de escenas 3D, la compresión, la recuperación de información, el guardado de mallas y la manipulación perfecta de propiedades con una guía paso a paso.
 
 ## Modifique la orientación del plano para un posicionamiento preciso de la escena 3D en Java
 

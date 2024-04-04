@@ -41,12 +41,24 @@ using System.Text;
 Načtěte svůj 3D soubor pomocí Aspose.3D. V tomto příkladu načteme soubor s názvem „test.fbx“:
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## Krok 2: Definujte vlastní binární formát
 
 Definujte strukturu vlastního binárního formátu, do kterého chcete uložit své 3D sítě. Příklad používá strukturu s MeshBlock, Vertex a Triangle jako komponenty.
+
+```csharp
+// Rozložení paměti vrcholu je
+// plovoucí[3] poloha;
+// plovoucí[3] normální;
+// plovák[3] uv;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## Krok 3: Otevřete soubor pro zápis
 
@@ -79,16 +91,35 @@ Pro každou entitu sítě převeďte řídicí body na světový prostor a zapi�
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (pokračujte v psaní kontrolních bodů a trojúhelníkových indexů)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//Rozložení paměti sítě je:
+// float[16] transform_matrix;
+// int vertices_count;
+// int počet_indexů;
+// vertex[vertices_count] vertexy;
+// ushort[index_count] indexy;
+
+
+//napsat transformovat
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//napište počet vrcholů/indexů
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//zapisovat vrcholy a indexy
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## Závěr
 
-tomto tutoriálu jsme se zabývali procesem ukládání 3D sítí ve vlastním binárním formátu pomocí Aspose.3D for .NET. Tato výkonná knihovna poskytuje vývojářům nástroje potřebné k bezproblémové manipulaci s 3D soubory. Experimentujte s různými formáty a nastaveními, abyste ve svých projektech odemkli plný potenciál Aspose.3D.
+V tomto tutoriálu jsme se zabývali procesem ukládání 3D sítí ve vlastním binárním formátu pomocí Aspose.3D for .NET. Tato výkonná knihovna poskytuje vývojářům nástroje potřebné k bezproblémové manipulaci s 3D soubory. Experimentujte s různými formáty a nastaveními, abyste ve svých projektech odemkli plný potenciál Aspose.3D.
 
 ## Nejčastější dotazy
 
@@ -98,7 +129,7 @@ Odpověď 1: Aspose.3D primárně podporuje jazyky .NET, ale můžete prozkoumat
 
 ### Q2: Kde najdu další příklady a zdroje?
 
- A2:[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) je skvělým místem k nalezení podpory, příkladů a zapojení do komunity.
+ A2:[Aspose.3D fórum](https://forum.aspose.com/c/3d/18)je skvělým místem k nalezení podpory, příkladů a zapojení do komunity.
 
 ### Q3: Je k dispozici zkušební verze pro Aspose.3D?
 

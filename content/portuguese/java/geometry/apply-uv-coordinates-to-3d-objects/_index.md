@@ -1,6 +1,6 @@
 ---
-title: Aplique coordenadas UV a objetos 3D em Java com Aspose.3D
-linktitle: Aplique coordenadas UV a objetos 3D em Java com Aspose.3D
+title: Aplicar coordenadas UV a objetos 3D em Java com Aspose.3D
+linktitle: Aplicar coordenadas UV a objetos 3D em Java com Aspose.3D
 second_title: API Java Aspose.3D
 description: Aprenda a aplicar coordenadas UV a objetos 3D em Java com Aspose.3D. Eleve seus gráficos com este guia passo a passo.
 type: docs

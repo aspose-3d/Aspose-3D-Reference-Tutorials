@@ -45,7 +45,7 @@ Sekarang, mari kita buat silinder pertama dengan bagian bawah yang dicukur:
 // Buat silinder 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // Bagian bawah geser yang disesuaikan untuk silinder 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // Geser 47,5 derajat pada bidang xy (sumbu z)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //Geser 47,5 derajat pada bidang xy (sumbu z)
 // Tambahkan silinder 1 ke tempat kejadian
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // ExEnd:4

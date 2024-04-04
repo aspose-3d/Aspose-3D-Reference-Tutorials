@@ -1,6 +1,6 @@
 ---
-title: Łączenie kwaternionów w scenach 3D
-linktitle: Łączenie kwaternionów w scenach 3D
+title: Łączenie kwaternionów
+linktitle: Łączenie kwaternionów
 second_title: Aspose.3D API .NET
 description: Odkryj moc manipulacji kwaternionami w scenach 3D za pomocą Aspose.3D dla .NET. Naucz się krok po kroku łączyć kwaterniony, aby uzyskać wciągające transformacje.
 type: docs
@@ -20,7 +20,7 @@ Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymag
 
 ## Importuj przestrzenie nazw
 
-swoim projekcie .NET uwzględnij niezbędne przestrzenie nazw, aby wykorzystać moc Aspose.3D:
+W swoim projekcie .NET uwzględnij niezbędne przestrzenie nazw, aby wykorzystać moc Aspose.3D:
 
 ```csharp
 using System;
@@ -96,7 +96,7 @@ Odpowiedź 2: Tak, Aspose.3D dla .NET został zaprojektowany tak, aby bezproblem
 
 ### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.3D dla .NET?
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 
 ### P4: Jak mogę uzyskać wsparcie dla Aspose.3D dla .NET?
 

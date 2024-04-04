@@ -16,7 +16,7 @@ Welkom bij deze uitgebreide tutorial over het splitsen van 3D-meshes op materiaa
 Voordat we aan deze spannende reis beginnen, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
 
 - Basiskennis van Java-programmeren.
-- Aspose.3D voor Java-bibliotheek geïnstalleerd. Je kunt het downloaden van de[Aspose-website](https://releases.aspose.com/3d/java/).
+-  Aspose.3D voor Java-bibliotheek geïnstalleerd. Je kunt het downloaden van de[Aspose-website](https://releases.aspose.com/3d/java/).
 - Een Integrated Development Environment (IDE) opgezet voor Java-ontwikkeling.
 
 ## Pakketten importeren
@@ -76,7 +76,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```java
 // Succesbericht weergeven
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
-//ExEnd:GesplitstMeshbyMateriaal
+// ExEnd:GesplitstMeshbyMateriaal
 ```
 
 ## Conclusie
@@ -103,4 +103,4 @@ A2: Absoluut! Deze methode is goed schaalbaar voor ingewikkelde 3D-modellen, waa
 
 ### Vraag 5: Hoe kan ik ondersteuning krijgen voor eventuele problemen of vragen?
 
-A5: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) voor toegewijde steun van de gemeenschap.
+ A5: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) voor toegewijde steun van de gemeenschap.

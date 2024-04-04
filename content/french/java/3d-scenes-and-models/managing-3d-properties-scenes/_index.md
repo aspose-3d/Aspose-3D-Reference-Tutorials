@@ -16,7 +16,7 @@ Bienvenue dans le guide complet sur l'utilisation des propriétés 3D et des don
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 
 - Kit de développement Java (JDK) installé sur votre machine.
-- Bibliothèque Aspose.3D téléchargée et configurée. Vous pouvez le télécharger depuis le[Site Aspose](https://releases.aspose.com/3d/java/).
+-  Bibliothèque Aspose.3D téléchargée et configurée. Vous pouvez le télécharger depuis le[Site Aspose](https://releases.aspose.com/3d/java/).
 - Une compréhension de base de la programmation Java.
 
 ## Importer des packages
@@ -107,7 +107,7 @@ Toutes nos félicitations! Vous avez appris avec succès à utiliser des propri�
 
 ### Q1 : Comment puis-je installer la bibliothèque Aspose.3D dans mon projet Java ?
 
- A1 : Vous pouvez télécharger la bibliothèque à partir du[Site Aspose](https://releases.aspose.com/3d/java/)et suivez les instructions d'installation fournies dans la documentation.
+ A1 : Vous pouvez télécharger la bibliothèque à partir du[Site Aspose](https://releases.aspose.com/3d/java/) et suivez les instructions d'installation fournies dans la documentation.
 
 ### Q2 : Existe-t-il des options d’essai gratuit disponibles pour Aspose.3D ?
 
@@ -119,7 +119,7 @@ Toutes nos félicitations! Vous avez appris avec succès à utiliser des propri�
 
 ### Q4 : Existe-t-il un forum d'assistance pour Aspose.3D où je peux poser des questions et demander de l'aide ?
 
- A4 : Oui, visitez le[Forum d'assistance Aspose.3D](https://forum.aspose.com/c/3d/18) pour se connecter avec la communauté et obtenir l’aide d’experts.
+A4 : Oui, visitez le[Forum d'assistance Aspose.3D](https://forum.aspose.com/c/3d/18) pour se connecter avec la communauté et obtenir l’aide d’experts.
 
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.3D ?
 

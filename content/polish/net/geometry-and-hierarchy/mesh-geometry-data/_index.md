@@ -1,6 +1,6 @@
 ---
-title: Praca z danymi geometrii siatki w scenach 3D
-linktitle: Praca z danymi geometrii siatki w scenach 3D
+title: Praca z danymi geometrii siatki
+linktitle: Praca z danymi geometrii siatki
 second_title: Aspose.3D API .NET
 description: Opanuj sztukę programowania grafiki 3D dzięki Aspose.3D dla .NET. Twórz, manipuluj i zapisuj wspaniałe sceny 3D bez wysiłku.
 type: docs
@@ -17,7 +17,7 @@ Zanim wyruszymy w tę podróż 3D, upewnij się, że spełniasz następujące wy
 
 - Praktyczna znajomość programowania w C# i .NET.
 - Program Visual Studio zainstalowany na Twoim komputerze.
--  Biblioteka Aspose.3D dla .NET, którą możesz pobrać[Tutaj](https://releases.aspose.com/3d/net/).
+- Biblioteka Aspose.3D dla .NET, którą możesz pobrać[Tutaj](https://releases.aspose.com/3d/net/).
 
 Teraz, gdy już wszystko gotowe, wskoczmy do fascynującego świata programowania grafiki 3D!
 
@@ -95,7 +95,7 @@ Utwórz siatkę za pomocą metody konstruktora wielokątów i zastosuj kolory do
 // Ścieżka do katalogu dokumentów.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//Zapisz scenę 3D w obsługiwanych formatach plików
+// Zapisz scenę 3D w obsługiwanych formatach plików
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

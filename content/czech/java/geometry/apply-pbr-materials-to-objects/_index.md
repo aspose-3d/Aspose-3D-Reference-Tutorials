@@ -19,7 +19,7 @@ Než se pustíme do výukového programu, ujistěte se, že máte splněny násl
 
 2.  Knihovna Aspose.3D: Stáhněte a nainstalujte knihovnu Aspose.3D z[odkaz ke stažení](https://releases.aspose.com/3d/java/).
 
-3.  Dokumentace: Viz[dokumentace](https://reference.aspose.com/3d/java/) pro Aspose.3D, abyste se seznámili s funkcemi knihovny.
+3.  Dokumentace: Viz[dokumentace](https://reference.aspose.com/3d/java/)pro Aspose.3D, abyste se seznámili s funkcemi knihovny.
 
 4.  Dočasná licence (volitelné): Pokud nemáte licenci, můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro testování.
 
@@ -72,7 +72,7 @@ Uložte 3D scénu, včetně použitého materiálu PBR, do specifického formát
 ```java
 // ExStart:Save3DScene
 scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
-// ExEnd:Save3DScene
+//ExEnd:Save3DScene
 ```
 
 Opakujte tyto kroky pro složitější scény nebo různé objekty.

@@ -93,7 +93,7 @@ A1：是的，Aspose.3D相容於各種Java開發環境。
 
 ### Q3：有免費試用嗎？
 
- A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
+A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
 
 ### Q4：哪裡可以找到對 Aspose.3D 的支援？
 

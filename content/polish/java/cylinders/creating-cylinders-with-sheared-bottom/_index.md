@@ -45,7 +45,7 @@ Teraz utwórzmy pierwszy walec ze ściętym dnem:
 // Utwórz cylinder 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // Dostosowane dno ścinane dla cylindra 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // Ścinanie 47,5 stopnia w płaszczyźnie xy (oś z)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //Ścinanie 47,5 stopnia w płaszczyźnie xy (oś z)
 // Dodaj cylinder 1 do sceny
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // RozwińKoniec:4

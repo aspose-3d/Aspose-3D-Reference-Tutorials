@@ -16,7 +16,7 @@ Aspose.3D를 사용하여 Java에서 쿼터니언으로 3D 노드를 변환하�
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 - Java 프로그래밍에 대한 기본 지식.
--  Java용 Aspose.3D가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/3d/java/).
+- Java용 Aspose.3D가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/3d/java/).
 - 3D 장면을 저장하기 위해 설정된 문서 디렉토리입니다.
 
 ## 패키지 가져오기

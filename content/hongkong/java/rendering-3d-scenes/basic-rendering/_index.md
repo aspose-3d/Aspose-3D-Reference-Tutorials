@@ -38,7 +38,7 @@ import java.awt.*;
 ```java
 protected static Camera setupScene(Scene scene) {
     //設定相機和燈光的代碼
-    //…
+    //……
     return camera;
 }
 ```
@@ -71,7 +71,7 @@ torus.getTransform().setTranslation(2, 1, 1);
 
 ```java
 //添加具有特定轉數和材料的氣缸的代碼
-//…
+//……
 ```
 
 ### 第5步：配置相機

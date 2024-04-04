@@ -1,6 +1,6 @@
 ---
-title: Configuración de UV en Cube en escenas 3D
-linktitle: Configuración de UV en Cube en escenas 3D
+title: Configurar UV en Cube
+linktitle: Configurar UV en Cube
 second_title: Aspose.3D API .NET
 description: Aprenda a configurar el mapeo UV en un cubo 3D usando Aspose.3D para .NET. Cree escenas visualmente impresionantes con un mapeo de texturas preciso.
 type: docs

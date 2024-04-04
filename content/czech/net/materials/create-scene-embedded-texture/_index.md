@@ -13,7 +13,7 @@ Vítejte ve vzrušujícím světě 3D grafiky s Aspose.3D pro .NET! V tomto komp
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 - Základní znalost programování v C# a .NET.
 - Visual Studio nainstalované na vašem počítači.
--  Aspose.3D for .NET knihovna, kterou si můžete stáhnout[tady](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET knihovna, kterou si můžete stáhnout[tady](https://releases.aspose.com/3d/net/).
 - Seznámení s koncepty 3D grafiky a tvorby scén.
 ## Importovat jmenné prostory
 Začněte importováním potřebných jmenných prostorů do vašeho projektu. Tyto jmenné prostory vám poskytnou nástroje a funkce potřebné pro manipulaci s 3D grafikou.
@@ -44,7 +44,7 @@ Nyní dodejte vaší scéně vizuální šmrnc vložením textury. Vytvoříme t
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    // Pokud je použita vložená textura, je vyžadován název souboru.
+    //Pokud je použita vložená textura, je vyžadován název souboru.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

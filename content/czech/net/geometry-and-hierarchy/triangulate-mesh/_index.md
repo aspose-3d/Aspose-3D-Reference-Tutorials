@@ -1,6 +1,6 @@
 ---
-title: Triangulační síť ve 3D scénách
-linktitle: Triangulační síť ve 3D scénách
+title: Triangulační síť
+linktitle: Triangulační síť
 second_title: Aspose.3D .NET API
 description: Prozkoumejte sílu Aspose.3D pro .NET v tomto podrobném průvodci. Naučte se, jak snadno triangulovat 3D sítě pro lepší modelování.
 type: docs
@@ -17,7 +17,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte splněny násl
 
 - Aspose.3D for .NET Library: Ujistěte se, že máte nainstalovanou knihovnu Aspose.3D. Můžete si jej stáhnout[tady](https://releases.aspose.com/3d/net/).
 
-- Ukázka 3D modelu: Mějte 3D model ve formátu FBX, který chcete triangulovat. Můžete použít poskytnuté[dokument.fbx](https://reference.aspose.com/3d/net/) soubor pro praxi.
+-  Ukázka 3D modelu: Mějte 3D model ve formátu FBX, který chcete triangulovat. Můžete použít poskytnuté[dokument.fbx](https://reference.aspose.com/3d/net/) soubor pro praxi.
 
 ## Importovat jmenné prostory
 

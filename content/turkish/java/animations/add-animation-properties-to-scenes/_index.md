@@ -54,7 +54,7 @@ Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ## Adım 4: Çeviri Özelliğini Bulun
 
 ```java
-// Düğümün dönüştürme nesnesinde çeviri özelliğini bulun
+//Düğümün dönüştürme nesnesinde çeviri özelliğini bulun
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
@@ -99,7 +99,7 @@ bindPoint.bindKeyframeSequence("Z", kfs);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "PropertyToDocument.fbx";
 
-//3B sahneyi desteklenen dosya formatlarında kaydedin
+// 3B sahneyi desteklenen dosya formatlarında kaydedin
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
@@ -119,7 +119,7 @@ Tebrikler! Java'da Aspose.3D'yi kullanarak 3D sahnenize animasyon özelliklerini
 
 ### S3: Aspose.3D desteğini nerede bulabilirim?
 
- A3: Şu adresteki topluluğa katılın:[Aspose.3D Forumu](https://forum.aspose.com/c/3d/18) yardım için.
+A3: Şu adresteki topluluğa katılın:[Aspose.3D Forumu](https://forum.aspose.com/c/3d/18) yardım için.
 
 ### S4: Geçici lisansı nasıl alabilirim?
 

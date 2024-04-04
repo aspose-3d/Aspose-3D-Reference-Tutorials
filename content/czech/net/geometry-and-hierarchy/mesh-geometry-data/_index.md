@@ -1,6 +1,6 @@
 ---
-title: Práce s daty geometrie sítě ve 3D scénách
-linktitle: Práce s daty geometrie sítě ve 3D scénách
+title: Práce s daty geometrie sítě
+linktitle: Práce s daty geometrie sítě
 second_title: Aspose.3D .NET API
 description: Ovládněte umění programování 3D grafiky s Aspose.3D pro .NET. Vytvářejte, manipulujte a ukládejte úžasné 3D scény bez námahy.
 type: docs
@@ -17,7 +17,7 @@ Než se vydáme na tuto 3D cestu, ujistěte se, že máte splněny následujíc�
 
 - Pracovní znalost programování C# a .NET.
 - Visual Studio nainstalované na vašem počítači.
--  Aspose.3D for .NET knihovna, kterou si můžete stáhnout[tady](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET knihovna, kterou si můžete stáhnout[tady](https://releases.aspose.com/3d/net/).
 
 Nyní, když je vše připraveno, pojďme skočit do fascinujícího světa programování 3D grafiky!
 
@@ -95,7 +95,7 @@ Vytvořte síť pomocí metody polygon builder a aplikujte barvy na různé čá
 // Cesta k adresáři dokumentů.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//Uložte 3D scénu v podporovaných formátech souborů
+// Uložte 3D scénu v podporovaných formátech souborů
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

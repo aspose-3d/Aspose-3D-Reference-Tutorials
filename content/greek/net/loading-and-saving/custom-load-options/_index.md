@@ -1,6 +1,6 @@
 ---
-title: Φόρτωση και αποθήκευση - Προσαρμοσμένες επιλογές φόρτωσης
-linktitle: Φόρτωση και αποθήκευση - Προσαρμοσμένες επιλογές φόρτωσης
+title: Προσαρμοσμένες επιλογές φόρτωσης
+linktitle: Προσαρμοσμένες επιλογές φόρτωσης
 second_title: Aspose.3D .NET API
 description: Εξερευνήστε το Aspose.3D για .NET την απόλυτη λύση για απρόσκοπτη φόρτωση και αποθήκευση τρισδιάστατων μοντέλων.
 type: docs
@@ -41,8 +41,6 @@ using Aspose.ThreeD.Formats;
 ```csharp
 private static void Discreet3DSLoadOption()
 {
-    // Η διαδρομή προς τον κατάλογο εγγράφων.
-    string dataDir = "Your Document Directory";
     Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
 
     //Ορίστε προσαρμοσμένες επιλογές
@@ -50,6 +48,9 @@ private static void Discreet3DSLoadOption()
     loadOpts.FlipCoordinateSystem = true;
     loadOpts.GammaCorrectedColor = true;
     loadOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Φόρτωση αρχείου με τις επιλογές φόρτωσης
+    var scene = Scene.FromFile("test.3ds", loadOpts);
 }
 ```
 
@@ -58,14 +59,16 @@ private static void Discreet3DSLoadOption()
 ```csharp
 private static void ObjLoadOption()
 {
-    // Η διαδρομή προς τον κατάλογο εγγράφων.
-    string dataDir = "Your Document Directory";
     ObjLoadOptions loadObjOpts = new ObjLoadOptions();
 
     //Ορίστε προσαρμοσμένες επιλογές
     loadObjOpts.EnableMaterials = true;
     loadObjOpts.FlipCoordinateSystem = true;
     loadObjOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Φόρτωση αρχείου με τις επιλογές φόρτωσης
+    var scene = Scene.FromFile("test.obj", loadObjOpts);
+
 }
 ```
 
@@ -75,12 +78,14 @@ private static void ObjLoadOption()
 private static void STLLoadOption()
 {
     // Η διαδρομή προς τον κατάλογο εγγράφων.
-    string dataDir = "Your Document Directory";
     StlLoadOptions loadSTLOpts = new StlLoadOptions();
 
     //Ορίστε προσαρμοσμένες επιλογές
     loadSTLOpts.FlipCoordinateSystem = true;
     loadSTLOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Φόρτωση αρχείου με τις επιλογές φόρτωσης
+    var scene = Scene.FromFile("test.stl", loadSTLOpts);
 }
 ```
 
@@ -96,6 +101,9 @@ private static void U3DLoadOption()
     //Ορίστε προσαρμοσμένες επιλογές
     loadU3DOpts.FlipCoordinateSystem = true;
     loadU3DOpts.LookupPaths = new List<string>(new string[] { dataDir });
+
+    //Φόρτωση αρχείου με τις επιλογές φόρτωσης
+    var scene = Scene.FromFile("test.u3d", loadU3DOpts);
 }
 ```
 
@@ -105,13 +113,12 @@ private static void U3DLoadOption()
 private static void glTFLoadOptions()
 {
     // Η διαδρομή προς τον κατάλογο εγγράφων.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     GltfLoadOptions loadOpt = new GltfLoadOptions();
 
     //Ορίστε προσαρμοσμένες επιλογές
     loadOpt.FlipTexCoordV = true;
-    scene.Open(dataDir + "Duck.gltf", loadOpt);
+    scene.Open("Duck.gltf", loadOpt);
 }
 ```
 
@@ -127,7 +134,7 @@ private static void PlyLoadOptions()
 
     //Ορίστε προσαρμοσμένες επιλογές
     loadPLYOpts.FlipCoordinateSystem = true;
-    scene.Open(RunExamples.GetDataFilePath("vase-v2.ply"), loadPLYOpts);
+    scene.Open("vase-v2.ply", loadPLYOpts);
 }
 ```
 
@@ -137,12 +144,11 @@ private static void PlyLoadOptions()
 private static void FBXLoadOptions()
 {
     // Η διαδρομή προς τον κατάλογο εγγράφων.
-    string dataDir = "Your Document Directory";
     Scene scene = new Scene();
     FbxLoadOptions opt = new FbxLoadOptions() { KeepBuiltinGlobalSettings = true };
 
     //Ορίστε προσαρμοσμένες επιλογές
-    scene.Open(dataDir + "test.FBX", opt);
+    scene.Open("test.FBX", opt);
 
     // Ιδιότητες εξόδου που ορίζονται στις GlobalSettings σε αρχείο FBX
     foreach (Property property in scene.RootNode.AssetInfo.Properties)
@@ -176,4 +182,4 @@ A4: Ναι, μπορείτε να εξερευνήσετε τις δυνατότ
 
 ### Ε5: Πού μπορώ να αναζητήσω υποστήριξη για το Aspose.3D για .NET;
 
-A5: Επισκεφθείτε το[Aspose.3D φόρουμ](https://forum.aspose.com/c/3d/18) για κοινοτική υποστήριξη και βοήθεια.
+ A5: Επισκεφθείτε το[Aspose.3D φόρουμ](https://forum.aspose.com/c/3d/18) για κοινοτική υποστήριξη και βοήθεια.

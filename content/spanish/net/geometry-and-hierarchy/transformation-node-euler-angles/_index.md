@@ -1,6 +1,6 @@
 ---
-title: Transformando Nodo por Euler Angles en Escenas 3D
-linktitle: Transformando Nodo por Euler Angles en Escenas 3D
+title: Nodo transformador según los ángulos de Euler
+linktitle: Nodo transformador según los ángulos de Euler
 second_title: Aspose.3D API .NET
 description: Aprenda a transformar nodos 3D sin esfuerzo con Aspose.3D para .NET. Siga nuestra guía paso a paso para obtener resultados sorprendentes en sus proyectos.
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
  Comience creando una nueva escena 3D usando el`Scene` clase.
 
-## Paso 2: inicializar el objeto de clase de nodo
 
-```csharp
-// Inicializar objeto de clase de nodo
-Node cubeNode = new Node("cube");
-```
-
- Crea un nodo dentro de la escena usando el`Node`clase. Este nodo servirá como contenedor para nuestro objeto 3D.
-
-## Paso 3: crear malla usando Polygon Builder
+## Paso 2: crear malla usando un cuadro primitivo
 
 ```csharp
 // Llame a la clase común para crear malla utilizando el método de creación de polígonos para establecer una instancia de malla
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
- Invocar un método (en este caso,`CreateMeshUsingPolygonBuilder` de una costumbre`Common` clase) para generar una malla para el objeto 3D.
+ Invocar un método (en este caso,`CreateMeshUsingPolygonBuilder` de una costumbre`Common`clase) para generar una malla para el objeto 3D.
 
-## Paso 4: Apunte el nodo a la geometría de malla
+## Paso 3: crear un nodo contenedor para la malla
 
 ```csharp
 // Apuntar el nodo a la geometría de malla
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-Asocie la malla creada con el nodo.
+ Crea un nodo dentro de la escena usando el`Node` clase. Este nodo servirá como contenedor para nuestro objeto 3D.
 
-## Paso 5: Establecer los ángulos y la traducción de Euler
+## Paso 4: Establecer los ángulos y la traducción de Euler
 
 ```csharp
 // ángulos de euler
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 Defina los ángulos de Euler y la traslación del nodo para posicionarlo en el espacio 3D.
 
-## Paso 6: agrega cubo a la escena
-
-```csharp
-// Añadir cubo a la escena.
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-Incorpora el nodo a la jerarquía de la escena.
-
-## Paso 7: guarde la escena 3D
+## Paso 5: guarde la escena 3D
 
 ```csharp
 // La ruta al directorio de documentos.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Guarde la escena 3D en los formatos de archivo compatibles
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Guarde la escena 3D en los formatos de archivo compatibles
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ R2: Sí, puedes combinar y aplicar múltiples transformaciones para lograr efect
 
 ### P5: ¿Necesita ayuda o tiene preguntas específicas?
 
-A5: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para el apoyo de la comunidad.
+ A5: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para el apoyo de la comunidad.

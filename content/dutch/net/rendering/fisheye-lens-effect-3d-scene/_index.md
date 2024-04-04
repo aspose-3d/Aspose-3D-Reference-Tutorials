@@ -14,7 +14,7 @@ Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 -  Aspose.3D voor .NET: Zorg ervoor dat de Aspose.3D-bibliotheek voor .NET is geïnstalleerd. Zo niet, dan kunt u deze downloaden[hier](https://releases.aspose.com/3d/net/).
 -  Voorbeeld van een 3D-scène: we gaan werken met een voorbeeld van een 3D-scènebestand (VirtualCity.glb). U kunt uw eigen scène gebruiken of het voorbeeld downloaden van de[Aspose.3D-documentatie](https://reference.aspose.com/3d/net/).
 ## Naamruimten importeren
-Neem in uw .NET-project de nodige naamruimten op om toegang te krijgen tot de Aspose.3D-functionaliteiten. Voeg de volgende naamruimten toe aan het begin van uw code:
+Neem in uw .NET-project de benodigde naamruimten op om toegang te krijgen tot de Aspose.3D-functionaliteiten. Voeg de volgende naamruimten toe aan het begin van uw code:
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;

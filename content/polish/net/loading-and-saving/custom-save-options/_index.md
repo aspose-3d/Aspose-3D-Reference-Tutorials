@@ -1,8 +1,8 @@
 ---
-title: Ładowanie i zapisywanie — niestandardowe opcje zapisywania
-linktitle: Ładowanie i zapisywanie — niestandardowe opcje zapisywania
+title: Niestandardowe opcje zapisywania
+linktitle: Niestandardowe opcje zapisywania
 second_title: Aspose.3D API .NET
-description: Poznaj moc Aspose.3D dla .NET. Dowiedz się, jak dostosować zapisywanie scen 3D, korzystając ze szczegółowych przewodników dotyczących formatów Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC i RVM.
+description: Poznaj moc Aspose.3D dla .NET. Dowiedz się, jak dostosować zapisywanie scen 3D, korzystając ze szczegółowych przewodników dotyczących formatów Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC i RVM.
 type: docs
 weight: 21
 url: /pl/net/loading-and-saving/custom-save-options/
@@ -38,7 +38,7 @@ using System.Drawing;
 
 Teraz, gdy mamy już przygotowany etap, podzielmy samouczek na kilka kroków.
 
-## Krok 1: Opcja zapisu Collady
+## Krok 1: Opcja zapisu Collada
 
 Zacznijmy od Collady, popularnego formatu plików 3D. Wykonaj poniższe kroki, aby dostosować opcje zapisywania Collada:
 

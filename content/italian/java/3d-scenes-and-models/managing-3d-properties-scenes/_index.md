@@ -16,7 +16,7 @@ Benvenuti nella guida completa su come lavorare con proprietà 3D e dati persona
 Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 
 - Java Development Kit (JDK) installato sul tuo computer.
-- Libreria Aspose.3D scaricata e configurata. Puoi scaricarlo da[Sito web Aspose](https://releases.aspose.com/3d/java/).
+-  Libreria Aspose.3D scaricata e configurata. Puoi scaricarlo da[Sito web Aspose](https://releases.aspose.com/3d/java/).
 - Una conoscenza di base della programmazione Java.
 
 ## Importa pacchetti
@@ -107,7 +107,7 @@ Congratulazioni! Hai imparato con successo come lavorare con proprietà 3D e dat
 
 ### Q1: Come posso installare la libreria Aspose.3D nel mio progetto Java?
 
- A1: È possibile scaricare la libreria da[Sito web Aspose](https://releases.aspose.com/3d/java/) seguire le istruzioni di installazione fornite nella documentazione.
+ A1: È possibile scaricare la libreria da[Sito web Aspose](https://releases.aspose.com/3d/java/) e seguire le istruzioni di installazione fornite nella documentazione.
 
 ### Q2: Sono disponibili opzioni di prova gratuite per Aspose.3D?
 
@@ -119,7 +119,7 @@ Congratulazioni! Hai imparato con successo come lavorare con proprietà 3D e dat
 
 ### Q4: Esiste un forum di supporto per Aspose.3D dove posso porre domande e chiedere assistenza?
 
- A4: Sì, visita il[Forum di supporto Aspose.3D](https://forum.aspose.com/c/3d/18) per connettersi con la comunità e ottenere aiuto dagli esperti.
+A4: Sì, visita il[Forum di supporto Aspose.3D](https://forum.aspose.com/c/3d/18) per connettersi con la comunità e ottenere aiuto dagli esperti.
 
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.3D?
 

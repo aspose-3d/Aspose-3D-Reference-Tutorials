@@ -1,6 +1,6 @@
 ---
-title: Ładowanie i zapisywanie - przy użyciu tokena anulowania
-linktitle: Ładowanie i zapisywanie - przy użyciu tokena anulowania
+title: Korzystanie z tokena anulowania
+linktitle: Korzystanie z tokena anulowania
 second_title: Aspose.3D API .NET
 description: Poznaj płynny świat modelowania 3D dzięki Aspose.3D dla .NET. Naucz się efektywnie ładować i zapisywać dokumenty 3D za pomocą CancellationToken.
 type: docs
@@ -78,7 +78,7 @@ catch (ImportException e)
 }
 ```
 
- Spróbuj otworzyć dokument 3D w określonym przedziale czasu. The`cts.Token`Parametr zapewnia, że operacja może zostać anulowana w przypadku przekroczenia ustawionego limitu czasu.
+ Spróbuj otworzyć dokument 3D w określonym przedziale czasu. The`cts.Token` Parametr zapewnia, że operacja może zostać anulowana w przypadku przekroczenia ustawionego limitu czasu.
 
 ### Krok 5: Obsługa wyjątku importu
 

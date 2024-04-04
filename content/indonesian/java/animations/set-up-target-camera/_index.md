@@ -27,7 +27,7 @@ Mulailah dengan mengimpor paket yang diperlukan untuk memastikan kelancaran ekse
 import com.aspose.threed.*;
 ```
 
-## Langkah 1: Inisialisasi Objek Adegan
+## Langkah 1: Inisialisasi Objek Pemandangan
 
 Mulailah dengan menginisialisasi objek adegan, yang berfungsi sebagai dasar animasi 3D Anda.
 
@@ -97,4 +97,4 @@ Selamat! Anda telah berhasil menyiapkan kamera target untuk animasi 3D di Java m
 
 ### Q5: Bagaimana cara mendapatkan lisensi sementara?
 
-A5: Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A5: Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).

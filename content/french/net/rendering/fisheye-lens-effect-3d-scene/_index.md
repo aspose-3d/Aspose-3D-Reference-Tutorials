@@ -73,7 +73,7 @@ Oui, vous pouvez appliquer l'effet fisheye à n'importe quelle scène 3D. Assure
 Un champ de vision de 360 degrés assure une projection sphérique complète, créant un superbe effet fisheye.
 ### Comment puis-je personnaliser l’éclairage de ma scène 3D ?
 Vous pouvez ajuster les propriétés des lumières, telles que la position, le type et la couleur, pour obtenir les effets d'éclairage souhaités.
-### Y a-t-il une limite à la taille de la scène 3D pouvant être traitée ?
+### a-t-il une limite à la taille de la scène 3D pouvant être traitée ?
 La taille de la scène 3D est principalement limitée par les ressources système. Assurez-vous que votre matériel peut gérer la taille de votre scène.
 ### Puis-je utiliser un format de sortie différent du format PNG pour le résultat de l'effet fisheye ?
 Oui, vous pouvez modifier le code pour enregistrer la sortie dans différents formats d'image en fonction de vos besoins.

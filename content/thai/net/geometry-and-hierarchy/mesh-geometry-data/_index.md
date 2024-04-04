@@ -1,6 +1,6 @@
 ---
-title: การทำงานกับข้อมูลเรขาคณิตแบบตาข่ายในฉาก 3 มิติ
-linktitle: การทำงานกับข้อมูลเรขาคณิตแบบตาข่ายในฉาก 3 มิติ
+title: การทำงานกับข้อมูลเรขาคณิตแบบตาข่าย
+linktitle: การทำงานกับข้อมูลเรขาคณิตแบบตาข่าย
 second_title: Aspose.3D .NET API
 description: เชี่ยวชาญศิลปะการเขียนโปรแกรมกราฟิก 3 มิติด้วย Aspose.3D สำหรับ .NET สร้าง จัดการ และบันทึกฉาก 3 มิติที่น่าทึ่งได้อย่างง่ายดาย
 type: docs
@@ -17,7 +17,7 @@ url: /th/net/geometry-and-hierarchy/mesh-geometry-data/
 
 - มีความรู้เกี่ยวกับการเขียนโปรแกรม C# และ .NET
 - ติดตั้ง Visual Studio บนเครื่องของคุณแล้ว
--  Aspose.3D สำหรับไลบรารี .NET ซึ่งคุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/3d/net/).
+- Aspose.3D สำหรับไลบรารี .NET ซึ่งคุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/3d/net/).
 
 ตอนนี้คุณพร้อมแล้ว มาร่วมเข้าสู่โลกแห่งการเขียนโปรแกรมกราฟิก 3D อันน่าทึ่งกันเถอะ!
 
@@ -95,7 +95,7 @@ foreach (Vector3 color in colors)
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//บันทึกฉาก 3 มิติในรูปแบบไฟล์ที่รองรับ
+// บันทึกฉาก 3 มิติในรูปแบบไฟล์ที่รองรับ
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

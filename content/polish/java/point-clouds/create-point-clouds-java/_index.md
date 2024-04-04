@@ -74,7 +74,7 @@ Gratulacje! Pomyślnie nauczyłeś się tworzyć chmury punktów z siatek w Javi
 
 ### P3: Gdzie mogę znaleźć wsparcie dla Aspose.3D?
 
- A3: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczne.
+ A3: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności.
 
 ### P4: Jak uzyskać licencję tymczasową?
 

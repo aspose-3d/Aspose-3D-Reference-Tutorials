@@ -16,7 +16,7 @@ Java ベースの 3D モデリングの分野では、Aspose.3D は強力なツ�
 このクリエイティブな旅に着手する前に、次の前提条件が満たされていることを確認してください。
 
 - Java 開発キット (JDK): Aspose.3D for Java には、互換性のある JDK がマシンにインストールされている必要があります。
-- Aspose.3D ライブラリ: Aspose.3D ライブラリをダウンロードして、Java プロジェクトに統合します。ライブラリと詳細なドキュメントを見つけることができます[ここ](https://releases.aspose.com/3d/java/).
+-  Aspose.3D ライブラリ: Aspose.3D ライブラリをダウンロードして、Java プロジェクトに統合します。ライブラリと詳細なドキュメントを見つけることができます[ここ](https://releases.aspose.com/3d/java/).
 
 ## パッケージのインポート
 
@@ -73,7 +73,7 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 
 ```java
 //例開始:4
-//OffsetTop をカスタマイズせずに 2 番目のシリンダを初期化する
+// OffsetTop をカスタマイズせずに 2 番目のシリンダを初期化する
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 //拡張終了:4
 ```
@@ -118,7 +118,7 @@ A2: もちろんです！ Aspose.3D は、テクスチャとマテリアルを�
 
 ### Q3: Aspose.3D で利用できるライセンス オプションはありますか?
 
- A3: はい、ニーズに合ったライセンス オプションを調べて選択できます。[ここ](https://purchase.aspose.com/buy).
+A3: はい、ニーズに合ったライセンス オプションを調べて選択できます。[ここ](https://purchase.aspose.com/buy).
 
 ### Q4: Aspose.3D に関するサポートを求めたり、経験を共有したりするにはどうすればよいですか?
 

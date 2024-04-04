@@ -1,6 +1,6 @@
 ---
-title: Einrichten von UV auf Cube in 3D-Szenen
-linktitle: Einrichten von UV auf Cube in 3D-Szenen
+title: UV auf Cube einrichten
+linktitle: UV auf Cube einrichten
 second_title: Aspose.3D .NET API
 description: Erfahren Sie, wie Sie mit Aspose.3D für .NET UV-Mapping auf einem 3D-Würfel einrichten. Erstellen Sie visuell beeindruckende Szenen mit präziser Texturzuordnung.
 type: docs

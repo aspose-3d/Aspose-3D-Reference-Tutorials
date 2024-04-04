@@ -16,7 +16,7 @@ Welkom bij onze stapsgewijze handleiding voor het verbeteren van de positionerin
 Voordat we aan deze reis beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 - Een basiskennis van Java-programmeren.
--  Aspose.3D voor Java geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/3d/java/).
+- Aspose.3D voor Java geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/3d/java/).
 - Een ontwikkelomgeving die klaar is voor Java-codering.
 
 ## Pakketten importeren
@@ -101,7 +101,7 @@ A1: Ja, Aspose.3D ondersteunt verschillende programmeertalen, waaronder Java, .N
 
 ### Vraag 2: Is er een gratis proefversie beschikbaar voor Aspose.3D?
 
-A2: Zeker! U kunt de functies van Aspose.3D verkennen door gebruik te maken van de gratis proefperiode[hier](https://releases.aspose.com/).
+ A2: Zeker! U kunt de functies van Aspose.3D verkennen door gebruik te maken van de gratis proefperiode[hier](https://releases.aspose.com/).
 
 ### V3: Waar kan ik ondersteuning vinden voor Aspose.3D?
 

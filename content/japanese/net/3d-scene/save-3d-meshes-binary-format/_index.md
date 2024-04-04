@@ -41,12 +41,24 @@ using System.Text;
 Aspose.3D を使用して 3D ファイルを読み込みます。この例では、「test.fbx」という名前のファイルをロードします。
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## ステップ 2: カスタム バイナリ形式を定義する
 
 3D メッシュを保存するカスタム バイナリ形式の構造を定義します。この例では、コンポーネントとして MeshBlock、Vertex、Triangle を含む構造を使用します。
+
+```csharp
+//頂点のメモリ レイアウトは次のとおりです。
+// float[3] 位置;
+// float[3] 通常;
+// float[3] uv;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## ステップ 3: 書き込み用にファイルを開く
 
@@ -79,11 +91,30 @@ scene.RootNode.Accept(delegate(Node node)
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (制御点と三角形のインデックスの書き込みを続けます)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//メッシュのメモリ レイアウトは次のとおりです。
+// float[16] 変換行列;
+// int 頂点数;
+// int インデックス数;
+//頂点[頂点数] 頂点;
+// ushort[indices_count] インデックス;
+
+
+//書き込み変換
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//頂点/インデックスの数を書き込む
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//頂点とインデックスを書き込む
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## 結論

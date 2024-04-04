@@ -9,14 +9,14 @@ url: /cs/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
 ## Úvod
 
-Vítejte v obsáhlém průvodci pro práci s 3D vlastnostmi a uživatelskými daty ve scénách Java pomocí Aspose.3D. V tomto tutoriálu se ponoříme do výkonných funkcí Aspose.3D a poskytneme vám podrobné pokyny pro manipulaci s 3D vlastnostmi ve vašich aplikacích Java.
+Vítejte v obsáhlém průvodci pro práci s 3D vlastnostmi a uživatelskými daty ve scénách Java pomocí Aspose.3D. V tomto tutoriálu se ponoříme do výkonných funkcí Aspose.3D a poskytneme podrobné pokyny pro manipulaci s 3D vlastnostmi ve vašich aplikacích Java.
 
 ## Předpoklady
 
 Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 
 - Java Development Kit (JDK) nainstalovaný na vašem počítači.
-- Knihovna Aspose.3D stažena a nastavena. Můžete si jej stáhnout z[Aspose webové stránky](https://releases.aspose.com/3d/java/).
+-  Knihovna Aspose.3D stažena a nastavena. Můžete si jej stáhnout z[Aspose webové stránky](https://releases.aspose.com/3d/java/).
 - Základní znalost programování v Javě.
 
 ## Importujte balíčky
@@ -69,7 +69,7 @@ Iterujte všechny vlastnosti pomocí cyklu for a vytiskněte jejich názvy a hod
 props.set("Diffuse", new Vector3(1, 0, 1));
 ```
 
-tomto kroku upravíme hodnotu konkrétní vlastnosti ("Diffuse"), abychom změnili vzhled 3D modelu.
+V tomto kroku upravíme hodnotu konkrétní vlastnosti ("Diffuse"), abychom změnili vzhled 3D modelu.
 
 ## Krok 5: Načtení vlastnosti podle názvu
 
@@ -107,7 +107,7 @@ Gratulujeme! Úspěšně jste se naučili, jak pracovat s 3D vlastnostmi a uživ
 
 ### Q1: Jak mohu nainstalovat knihovnu Aspose.3D do svého projektu Java?
 
- A1: Knihovnu si můžete stáhnout z[Aspose webové stránky](https://releases.aspose.com/3d/java/) postupujte podle pokynů k instalaci uvedených v dokumentaci.
+ A1: Knihovnu si můžete stáhnout z[Aspose webové stránky](https://releases.aspose.com/3d/java/) a postupujte podle pokynů k instalaci uvedených v dokumentaci.
 
 ### Q2: Existují nějaké bezplatné zkušební možnosti pro Aspose.3D?
 
@@ -119,7 +119,7 @@ Gratulujeme! Úspěšně jste se naučili, jak pracovat s 3D vlastnostmi a uživ
 
 ### Q4: Existuje fórum podpory pro Aspose.3D, kde mohu klást otázky a hledat pomoc?
 
- A4: Ano, navštivte[Fórum podpory Aspose.3D](https://forum.aspose.com/c/3d/18) spojit se s komunitou a získat pomoc od odborníků.
+A4: Ano, navštivte[Fórum podpory Aspose.3D](https://forum.aspose.com/c/3d/18) spojit se s komunitou a získat pomoc od odborníků.
 
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.3D?
 

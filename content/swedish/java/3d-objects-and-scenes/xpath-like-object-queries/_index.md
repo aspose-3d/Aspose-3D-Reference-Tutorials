@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## Steg 2: Skapa en hierarki av noder
 
 ```java
-// ExStart:CreateHierarchy
+//ExStart:CreateHierarchy
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

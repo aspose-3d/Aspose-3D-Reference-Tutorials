@@ -16,7 +16,7 @@ url: /hu/java/3d-mesh-data/split-meshes-by-material/
 Mielőtt nekivágnánk ennek az izgalmas utazásnak, győződjön meg arról, hogy a következő előfeltételeket teljesíti:
 
 - Java programozási alapismeretek.
-- Aspose.3D for Java könyvtár telepítve. Letöltheti a[Aspose honlapja](https://releases.aspose.com/3d/java/).
+-  Aspose.3D for Java könyvtár telepítve. Letöltheti a[Aspose honlapja](https://releases.aspose.com/3d/java/).
 - Java fejlesztéshez beállított integrált fejlesztői környezet (IDE).
 
 ## Csomagok importálása
@@ -58,11 +58,11 @@ mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 ## 4. lépés: Oszd fel a hálót alhálókra
 
 ```java
-// Osszuk fel a hálót 6 részhálóra, mindegyik sík részhálóvá válik
+// Osszuk fel a hálót 6 részhálóra, mindegyik sík részhálóvá váljon
 Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
 ```
 
-## 5. lépés: Frissítse az anyagindexeket és ossza fel újra
+## 5. lépés: Frissítse az anyagindexeket, és ossza fel újra
 
 ```java
 // Frissítse az anyagindexeket, és ossza fel 2 részhálóra
@@ -76,7 +76,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```java
 // Sikeres üzenet megjelenítése
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
-//ExEnd: SplitMeshby Material
+// ExEnd: SplitMeshby Material
 ```
 
 ## Következtetés
@@ -103,4 +103,4 @@ A2: Abszolút! Ez a módszer jól skálázható bonyolult 3D modellekhez, anyags
 
 ### 5. kérdés: Hogyan kaphatok támogatást bármilyen probléma vagy kérdés esetén?
 
-A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) a közösség elkötelezett támogatásáért.
+ A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) a közösség elkötelezett támogatásáért.

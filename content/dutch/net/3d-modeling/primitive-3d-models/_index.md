@@ -15,7 +15,7 @@ Welkom in de opwindende wereld van 3D-modellering met Aspose.3D voor .NET! In de
 
 Voordat we in de fascinerende wereld van 3D-modellering duiken, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
 
-- Aspose.3D voor .NET: Download en installeer de Aspose.3D voor .NET-bibliotheek van de[download link](https://releases.aspose.com/3d/net/).
+-  Aspose.3D voor .NET: Download en installeer de Aspose.3D voor .NET-bibliotheek van de[download link](https://releases.aspose.com/3d/net/).
 
 - Ontwikkelomgeving: Zet een .NET-ontwikkelomgeving op, zorg voor compatibiliteit met Aspose.3D.
 

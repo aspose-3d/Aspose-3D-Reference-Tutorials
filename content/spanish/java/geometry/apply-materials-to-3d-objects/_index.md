@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## Paso 4: Apunte el nodo a la malla
 
 ```java
-//Apuntar nodo a la malla.
+// Apuntar nodo a la malla.
 cubeNode.setEntity(mesh);
 ```
 
@@ -117,7 +117,7 @@ diffuse.setContent(Files.readAllBytes(Paths.get(MyDir, "aspose-logo.jpg")));
 mat.setSpecularColor(new Vector3(1, 0, 0));
 ```
 
-## Paso 13: Establecer el brillo
+## Paso 13: configurar el brillo
 
 ```java
 // Establecer brillo
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // Establecer el nombre del archivo
 MyDir = MyDir + "MaterialToCube.fbx";
-//Guarde la escena 3D en los formatos de archivo compatibles
+// Guarde la escena 3D en los formatos de archivo compatibles
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

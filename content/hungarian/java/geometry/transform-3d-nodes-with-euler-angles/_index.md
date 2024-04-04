@@ -9,7 +9,7 @@ url: /hu/java/geometry/transform-3d-nodes-with-euler-angles/
 ---
 ## Bevezetés
 
-Üdvözöljük ebben a lépésről lépésre bemutatott oktatóanyagban, amely a 3D csomópontok Euler-szögekkel történő átalakítását mutatja be Java nyelven az Aspose.3D használatával. Ebben az útmutatóban elmélyülünk a 3D-s csomópontokhoz történő transzformációk hozzáadásának folyamatában, az Euler-szögek használatával a dinamikus pozicionálás és tájolás elérése érdekében.
+Üdvözöljük ebben a lépésről lépésre bemutatott oktatóanyagban, amely a 3D csomópontok Euler-szögekkel történő átalakítását mutatja be Java nyelven az Aspose.3D használatával. Ebben az útmutatóban a 3D-s csomópontokhoz történő transzformációk hozzáadásának folyamatát mutatjuk be, az Euler-szögek segítségével a dinamikus pozicionálás és tájolás elérése érdekében.
 
 ## Előfeltételek
 
@@ -72,7 +72,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "TransformationToNode.fbx";
 
-//Mentse a 3D jelenetet a támogatott fájlformátumokba
+// Mentse a 3D jelenetet a támogatott fájlformátumokba
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);

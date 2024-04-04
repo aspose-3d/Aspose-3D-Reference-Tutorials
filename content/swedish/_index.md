@@ -20,20 +20,13 @@ Det här är länkar till några användbara resurser:
  
 - [3D-modellering](./net/3d-modeling/)
 - [3D-scen](./net/3d-scene/)
-- [3D-vyportar](./net/3d-viewports/)
 - [Animation](./net/animation/)
-- [Tillgångsinformation](./net/asset-information/)
 - [Geometri och hierarki](./net/geometry-and-hierarchy/)
 - [Licens](./net/license/)
 - [Laddar och sparar](./net/loading-and-saving/)
 - [Material](./net/materials/)
-- [Polygoner](./net/polygons/)
 - [Tolkning](./net/rendering/)
-- [Linjär extrudering](./net/linear-extrusion/)
-- [Föremål](./net/objects/)
-- [Arbeta med cylinder](./net/working-with-cylinder/)
-- [Arbeta med Point Cloud](./net/working-with-point-cloud/)
-- [Arbeta med VRML](./net/working-with-vrml/)
+- [Maskor](./net/meshes/)
 
 ## Aspose.3D för Java Tutorials
 {{% alert color="primary" %}}

@@ -88,7 +88,7 @@ Especifique el directorio y el nombre de archivo para guardar la escena 3D en el
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "MeshGeometryData.fbx";
 
-//Guarde la escena 3D en los formatos de archivo compatibles
+// Guarde la escena 3D en los formatos de archivo compatibles
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

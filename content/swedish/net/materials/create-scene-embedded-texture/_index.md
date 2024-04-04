@@ -13,7 +13,7 @@ Välkommen till den spännande världen av 3D-grafik med Aspose.3D för .NET! I 
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
 - En grundläggande förståelse för programmering i C# och .NET.
 - Visual Studio installerat på din dator.
--  Aspose.3D för .NET-bibliotek, som du kan ladda ner[här](https://releases.aspose.com/3d/net/).
+- Aspose.3D för .NET-bibliotek, som du kan ladda ner[här](https://releases.aspose.com/3d/net/).
 - Bekantskap med begreppen 3D-grafik och scenskapande.
 ## Importera namnområden
 Börja med att importera de nödvändiga namnrymden till ditt projekt. Dessa namnrymder ger dig de verktyg och funktioner som krävs för manipulering av 3D-grafik.
@@ -44,7 +44,7 @@ Låt oss nu lägga till lite visuell stil till din scen genom att bädda in en t
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    // Filnamn krävs om den inbäddade texturen används.
+    //Filnamn krävs om den inbäddade texturen används.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");

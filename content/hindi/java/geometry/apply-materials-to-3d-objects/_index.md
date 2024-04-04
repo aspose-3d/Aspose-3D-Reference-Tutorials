@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## चरण 4: नोड को मेष पर इंगित करें
 
 ```java
-//नोड को जाल की ओर इंगित करें
+// नोड को जाल की ओर इंगित करें
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // फ़ाइल नाम सेट करें
 MyDir = MyDir + "MaterialToCube.fbx";
-//समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
+// समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

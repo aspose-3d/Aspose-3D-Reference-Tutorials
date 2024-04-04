@@ -16,7 +16,7 @@ Bienvenue dans ce didacticiel complet sur la division des maillages 3D par maté
 Avant de nous lancer dans ce voyage passionnant, assurez-vous d’avoir les conditions préalables suivantes en place :
 
 - Connaissance de base de la programmation Java.
-- Aspose.3D pour la bibliothèque Java installée. Vous pouvez le télécharger depuis le[Site Aspose](https://releases.aspose.com/3d/java/).
+-  Aspose.3D pour la bibliothèque Java installée. Vous pouvez le télécharger depuis le[Site Aspose](https://releases.aspose.com/3d/java/).
 - Un environnement de développement intégré (IDE) configuré pour le développement Java.
 
 ## Importer des packages
@@ -76,7 +76,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```java
 // Afficher le message de réussite
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
-//ExEnd : SplitMeshbyMaterial
+// ExEnd : SplitMeshbyMaterial
 ```
 
 ## Conclusion
@@ -103,4 +103,4 @@ A2 : Absolument ! Cette méthode s'adapte bien aux modèles 3D complexes, optimi
 
 ### Q5 : Comment puis-je obtenir de l'aide pour tout problème ou question ?
 
-A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien dévoué de la communauté.
+ A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien dévoué de la communauté.

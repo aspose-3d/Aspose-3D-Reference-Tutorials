@@ -1,6 +1,6 @@
 ---
-title: Menyiapkan Normals pada Cube dalam Adegan 3D
-linktitle: Menyiapkan Normals pada Cube dalam Adegan 3D
+title: Menyiapkan Normal pada Cube
+linktitle: Menyiapkan Normal pada Cube
 second_title: Aspose.3D .NET API
 description: Pelajari cara mengatur normal pada kubus 3D menggunakan Aspose.3D untuk .NET. Tingkatkan keterampilan pemodelan 3D Anda dengan panduan langkah demi langkah ini.
 type: docs

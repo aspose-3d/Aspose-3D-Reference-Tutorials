@@ -45,7 +45,7 @@ Låt oss nu skapa den första cylindern med en klippt botten:
 // Skapa cylinder 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // Anpassad klippbotten för cylinder 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // Skjuvning 47,5 grader i xy-planet (z-axeln)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //Skjuvning 47,5 grader i xy-planet (z-axeln)
 // Lägg till cylinder 1 till scenen
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // Exend:4

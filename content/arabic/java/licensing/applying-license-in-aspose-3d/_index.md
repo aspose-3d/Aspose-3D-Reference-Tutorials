@@ -22,7 +22,8 @@ url: /ar/java/licensing/applying-license-in-aspose-3d/
 
 للبدء، قم باستيراد الحزم الضرورية إلى مشروع Java الخاص بك. تأكد من إضافة Aspose.3D إلى مسار الفصل الدراسي الخاص بك. هنا مثال:
 
-```javaimport com.aspose.threed.License;
+```java
+import com.aspose.threed.License;
 import com.aspose.threed.Metered;
 
 import java.io.FileInputStream;

@@ -12,20 +12,32 @@ url: /hu/net/rendering/
 Készen állsz egy izgalmas utazásra a 3D renderelés birodalmába? Ne keressen tovább! Az Aspose.3D for .NET megnyitja az ajtót a lehetőségek világa felé, lehetővé téve, hogy szabadjára engedje kreativitását és fejlessze készségeit. Ebben az átfogó oktatóanyagban végigvezetjük az Aspose.3D for .NET használatával történő megjelenítés néhány legérdekesebb szempontjain.
 
 ## Árnyékok vetése és fogadása
-### [Az árnyékok vetésének és fogadásának oktatóanyaga](./cast-receive-shadows/)
  Merüljön el mélyen az árnyékok vetésének és fogadásának művészetében a 3D-s renderelés területén az Aspose.3D for .NET segítségével. Részletes útmutatónk segítségével könnyedén elsajátíthatja ezt az alapvető technikát, életre keltve jeleneteit dinamikus és valósághű árnyékokkal. Készen áll a renderelő játék fejlesztésére?[Kezd el most!](./cast-receive-shadows/)
+
+[Olvassa el az oktatóanyagot: Az árnyékok vetésének és fogadásának oktatóanyaga](./cast-receive-shadows/)
+
+
+## Nézőablakok rögzítése 3D-s jelenetekben
+Ebben az oktatóanyagban megvizsgáltuk a nézetablak rögzítésének folyamatát 3D-s jelenetekben az Aspose.3D for .NET használatával. Hatékony funkcióit kihasználva új magasságokba emelheti 3D grafikai projektjeit, lenyűgöző vizuális élményt nyújtva.
+
+[Olvassa el az oktatóanyagot: Nézőablakok rögzítése 3D-s jelenetekben](./capture-viewport/)
+
 
 ## 3D-s modellkép renderelése a kamerából
 ### [3D-s modellképek renderelésének bemutatója](./render-3d-model-image/)
-Fedezze fel a lenyűgöző 3D modellképek készítésének titkait a fényképezőgép szemszögéből az Aspose.3D for .NET segítségével. Felhasználóbarát útmutatónk végigvezeti Önt a folyamaton, biztosítva, hogy könnyen készíthessen lenyűgöző vizualizációkat, amelyek bemutatják 3D modelljeiben rejlő valódi lehetőségeket. Készen állsz, hogy életre keltsd alkotásaidat?[Fedezze fel most!](./render-3d-model-image/)
+ Fedezze fel a lenyűgöző 3D modellképek készítésének titkait a fényképezőgép szemszögéből az Aspose.3D for .NET segítségével. Felhasználóbarát útmutatónk végigvezeti Önt a folyamaton, biztosítva, hogy könnyen készíthessen lenyűgöző vizualizációkat, amelyek bemutatják 3D modelljeiben rejlő valódi lehetőségeket. Készen állsz, hogy életre keltsd alkotásaidat?[Fedezze fel most!](./render-3d-model-image/)
 
 ## Halszem lencse effektus alkalmazása 3D-s jelenetre
-### [Halszem lencse effektus oktatóanyag](./fisheye-lens-effect-3d-scene/)
- Alakítsa át 3D-s jeleneteit a varázslatos halszem lencse effektussal az Aspose.3D for .NET segítségével. Részletes oktatóanyagunk lépésről lépésre kínál megközelítést, amely lehetővé teszi, hogy ezt a lenyűgöző hatást zökkenőmentesen alkalmazza alkotásaiban. Készen állsz, hogy egyedi perspektívát adj a jeleneteidhez?[Tudj meg többet!](./fisheye-lens-effect-3d-scene/)
+Alakítsa át 3D-s jeleneteit a varázslatos halszem lencse effektussal az Aspose.3D for .NET segítségével. Részletes oktatóanyagunk lépésről lépésre kínál megközelítést, amely lehetővé teszi, hogy ezt a lenyűgöző hatást zökkenőmentesen alkalmazza alkotásaiban. Készen állsz, hogy egyedi perspektívát adj a jeleneteidhez?[Tudj meg többet!](./fisheye-lens-effect-3d-scene/)
+[Olvassa el az oktatóanyagot: Halszem lencse effektus oktatóanyag](./fisheye-lens-effect-3d-scene/)
 
 ## A 3D-s jelenet panorámaképének renderelése
 ### [Panorámanézet oktatóanyag megjelenítése](./render-panorama-view/)
-Merüljön el a lenyűgöző 3D-s panorámaképek világában az Aspose.3D for .NET segítségével. Útmutatónk végigvezeti Önt a folyamaton, és gondoskodik arról, hogy könnyedén készíthessen olyan lélegzetelállító jeleneteket, amelyek lekötik a közönséget. Készen áll arra, hogy panorámás pompájában keltse életre alkotásait?[Fedezze fel, hogyan!](./render-panorama-view/)
+ Merüljön el a lenyűgöző 3D-s panorámaképek világában az Aspose.3D for .NET segítségével. Útmutatónk végigvezeti Önt a folyamaton, és gondoskodik arról, hogy könnyedén készíthessen olyan lélegzetelállító jeleneteket, amelyek lekötik a közönséget. Készen áll arra, hogy panorámás pompájában keltse életre alkotásait?[Fedezze fel, hogyan!](./render-panorama-view/)
+
+## Alkalmazzon több vizuális effektust a 3D-s jelenetekre
+### [Vizuális effektusok oktatóanyag alkalmazása](./apply-visual-effects/)
+Merüljön el a lenyűgöző vizuális effektusok birodalmában az Aspose.3D for .NET segítségével. Átfogó útmutatónk végigvezeti Önt az utazáson, és lehetővé teszi, hogy könnyedén készítsen lenyűgöző jeleneteket, lenyűgöző vizuális fejlesztésekkel. A szélérzékeléstől az elmosódásig és pixelezésig, tárja fel a kreatív lehetőségek világát, hogy kiemelje alkotásait. Készen áll arra, hogy elbűvölő vizuális effektusokkal lebilincselő remekművekké alakítsa terveit?[Fedezze fel, hogyan!](./apply-visual-effects/)
 
 ## Jelenet megjelenítése kockatérképbe hat arccal
 ### [Jelenet megjelenítése Cubemap oktatóprogramban](./render-scene-cubemap/)

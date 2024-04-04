@@ -58,7 +58,7 @@ Válassza ki a kimeneti fájl formátumát, és adjon meg egy fájlnevet a rende
 String output = "render-to-file.png";
 ```
 
-## 4. lépés: Renderje le a jelenetet
+## 4. lépés: Renderelje le a jelenetet
 
  Használja ki a`render` módszer a 3D jelenet 2D képfájllá alakítására. Szükség szerint állítsa be a méreteket és a kimeneti formátumot.
 

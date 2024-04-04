@@ -1,6 +1,6 @@
 ---
-title: Criando cenas de cubo em 3D
-linktitle: Criando cenas de cubo em 3D
+title: Criando Cenas de Cubo
+linktitle: Criando Cenas de Cubo
 second_title: API Aspose.3D .NET
 description: Crie cenas impressionantes de cubos 3D sem esforço com Aspose.3D para .NET. Baixe a biblioteca, siga nosso guia passo a passo e liberte-se.
 type: docs
@@ -87,7 +87,7 @@ Especifique o diretório de saída e salve a cena 3D em um formato de arquivo co
 // O caminho para o diretório de documentos.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//Salve cenas 3D nos formatos de arquivo suportados
+// Salve cenas 3D nos formatos de arquivo suportados
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

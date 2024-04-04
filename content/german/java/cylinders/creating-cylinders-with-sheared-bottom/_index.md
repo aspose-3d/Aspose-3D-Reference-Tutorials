@@ -9,7 +9,7 @@ url: /de/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
 ## Einführung
 
-Willkommen bei dieser Schritt-für-Schritt-Anleitung zum Erstellen von Zylindern mit gescherten Böden mit Aspose.3D für Java. Aspose.3D ist eine leistungsstarke Java-Bibliothek, mit der Sie mühelos mit 3D-Dateien arbeiten können. In diesem Tutorial befassen wir uns mit der Erstellung benutzerdefinierter Zylinder mit geschertem Boden und vermitteln Ihnen praktische Erfahrungen mit der Verwendung von Aspose.3D, um Ihre 3D-Modellierungsfähigkeiten zu verbessern.
+Willkommen bei dieser Schritt-für-Schritt-Anleitung zum Erstellen von Zylindern mit gescherten Böden mit Aspose.3D für Java. Aspose.3D ist eine leistungsstarke Java-Bibliothek, mit der Sie mühelos mit 3D-Dateien arbeiten können. In diesem Tutorial befassen wir uns mit der Erstellung individueller Zylinder mit geschertem Boden und vermitteln Ihnen praktische Erfahrungen mit der Verwendung von Aspose.3D, um Ihre 3D-Modellierungskenntnisse zu verbessern.
 
 ## Voraussetzungen
 
@@ -45,7 +45,7 @@ Erstellen wir nun den ersten Zylinder mit geschertem Boden:
 // Erstellen Sie Zylinder 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // Maßgeschneiderter Scherenboden für Zylinder 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // Scherung 47,5 Grad in der xy-Ebene (z-Achse)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //Scherung 47,5 Grad in der xy-Ebene (z-Achse)
 // Fügen Sie Zylinder 1 zur Szene hinzu
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // ExEnd:4

@@ -1,6 +1,6 @@
 ---
-title: 在 3D 場景中使用網格幾何數據
-linktitle: 在 3D 場景中使用網格幾何數據
+title: 使用網格幾何數據
+linktitle: 使用網格幾何數據
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 掌握 3D 圖形程式設計的藝術。輕鬆建立、操作和保存令人驚嘆的 3D 場景。
 type: docs
@@ -9,7 +9,7 @@ url: /zh-hant/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
 ## 介紹
 
-歡迎來到使用 Aspose.3D for .NET 進行 3D 圖形編程的令人興奮的世界！在本教程中，我們將使用 Aspose.3D（面向 .NET 開發人員的強大且多功能的程式庫）深入研究在 3D 場景中處理網格幾何資料的複雜性。無論您是經驗豐富的程式設計師還是剛開始接觸 3D 圖形，本逐步指南都將幫助您輕鬆掌握處理網格幾何資料的藝術。
+歡迎來到使用 Aspose.3D for .NET 進行 3D 圖形編程的令人興奮的世界！在本教程中，我們將使用 Aspose.3D（面向 .NET 開發人員的強大且多功能的程式庫）深入研究在 3D 場景中處理網格幾何資料的複雜性。無論您是經驗豐富的程式設計師還是剛開始使用 3D 圖形，本逐步指南都將幫助您輕鬆掌握處理網格幾何資料的藝術。
 
 ## 先決條件
 
@@ -17,7 +17,7 @@ url: /zh-hant/net/geometry-and-hierarchy/mesh-geometry-data/
 
 - 具備 C# 和 .NET 程式設計的實用知識。
 - Visual Studio 安裝在您的電腦上。
--  Aspose.3D for .NET 函式庫，您可以下載[這裡](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET 函式庫，您可以下載[這裡](https://releases.aspose.com/3d/net/).
 
 現在您已準備就緒，讓我們進入 3D 圖形編程的迷人世界！
 

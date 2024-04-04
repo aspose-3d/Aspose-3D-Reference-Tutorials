@@ -9,7 +9,7 @@ url: /vi/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn từng bước này về cách tạo hình trụ có đáy cắt bằng Aspose.3D cho Java. Aspose.3D là một thư viện Java mạnh mẽ cho phép bạn làm việc với các tệp 3D một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc tạo các hình trụ tùy chỉnh có đáy cắt, cung cấp cho bạn trải nghiệm thực tế trong việc sử dụng Aspose.3D để nâng cao kỹ năng lập mô hình 3D của bạn.
+Chào mừng bạn đến với hướng dẫn từng bước này về cách tạo hình trụ có đáy cắt bằng Aspose.3D cho Java. Aspose.3D là một thư viện Java mạnh mẽ cho phép bạn làm việc với các tệp 3D một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc tạo các hình trụ tùy chỉnh có đáy cắt, cung cấp cho bạn trải nghiệm thực tế khi sử dụng Aspose.3D để nâng cao kỹ năng lập mô hình 3D của bạn.
 
 ## Điều kiện tiên quyết
 
@@ -45,7 +45,7 @@ Bây giờ, hãy tạo hình trụ đầu tiên có đáy bị cắt:
 // Tạo hình trụ 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 // Đáy cắt tùy chỉnh cho xi lanh 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); // Cắt 47,5 độ trong mặt phẳng xy (trục z)
+cylinder1.setShearBottom(new Vector2(0, 0.83)); //Cắt 47,5 độ trong mặt phẳng xy (trục z)
 // Thêm hình trụ 1 vào hiện trường
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // ExEnd:4

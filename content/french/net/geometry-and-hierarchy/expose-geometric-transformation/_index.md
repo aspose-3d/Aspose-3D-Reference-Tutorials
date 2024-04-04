@@ -1,6 +1,6 @@
 ---
-title: Exposer la transformation géométrique dans les scènes 3D
-linktitle: Exposer la transformation géométrique dans les scènes 3D
+title: Exposer la transformation géométrique
+linktitle: Exposer la transformation géométrique
 second_title: API Aspose.3D .NET
 description: Explorez les possibilités illimitées des graphiques 3D dans .NET avec Aspose.3D. Découvrez les transformations géométriques sans effort.
 type: docs

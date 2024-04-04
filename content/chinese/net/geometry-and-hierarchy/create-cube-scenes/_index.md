@@ -1,6 +1,6 @@
 ---
-title: 创建 3D 立方体场景
-linktitle: 创建 3D 立方体场景
+title: 创建立方体场景
+linktitle: 创建立方体场景
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 轻松制作令人惊叹的 3D 立方体场景。下载库，按照我们的分步指南进行操作，然后释放。
 type: docs

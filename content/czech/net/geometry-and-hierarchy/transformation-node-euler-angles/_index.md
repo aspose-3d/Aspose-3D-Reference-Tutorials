@@ -1,6 +1,6 @@
 ---
-title: Transforming Node od Euler Angles ve 3D scénách
-linktitle: Transforming Node od Euler Angles ve 3D scénách
+title: Transformační uzel podle Eulerových úhlů
+linktitle: Transformační uzel podle Eulerových úhlů
 second_title: Aspose.3D .NET API
 description: Naučte se bez námahy transformovat 3D uzly s Aspose.3D pro .NET. Postupujte podle našeho podrobného průvodce pro ohromující výsledky ve vašich projektech.
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
  Začněte vytvořením nové 3D scény pomocí`Scene` třída.
 
-## Krok 2: Inicializujte objekt třídy uzlu
 
-```csharp
-// Inicializujte objekt třídy Node
-Node cubeNode = new Node("cube");
-```
-
- Vytvořte uzel ve scéně pomocí`Node`třída. Tento uzel bude sloužit jako kontejner pro náš 3D objekt.
-
-## Krok 3: Vytvořte síť pomocí Polygon Builder
+## Krok 2: Vytvořte síť pomocí primitivního boxu
 
 ```csharp
 // Volejte Common class create mesh pomocí metody polygon builder pro nastavení instance mesh
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
- Vyvolejte metodu (v tomto případě`CreateMeshUsingPolygonBuilder` ze zvyku`Common` class) pro vygenerování sítě pro 3D objekt.
+ Vyvolejte metodu (v tomto případě`CreateMeshUsingPolygonBuilder` ze zvyku`Common`class) pro vygenerování sítě pro 3D objekt.
 
-## Krok 4: Nasměrujte uzel na geometrii sítě
+## Krok 3: Vytvořte uzel kontejneru pro síť
 
 ```csharp
 // Bodový uzel ke geometrii sítě
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-Přidružte vytvořenou síť k uzlu.
+ Vytvořte uzel ve scéně pomocí`Node` třída. Tento uzel bude sloužit jako kontejner pro náš 3D objekt.
 
-## Krok 5: Nastavte Eulerovy úhly a překlad
+## Krok 4: Nastavte Eulerovy úhly a překlad
 
 ```csharp
 // Eulerovy úhly
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 Definujte Eulerovy úhly a posun pro uzel, abyste jej umístili do 3D prostoru.
 
-## Krok 6: Přidejte kostku do scény
-
-```csharp
-// Přidejte kostku na scénu
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-Začlenit uzel do hierarchie scény.
-
-## Krok 7: Uložte 3D scénu
+## Krok 5: Uložte 3D scénu
 
 ```csharp
 // Cesta k adresáři dokumentů.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Uložte 3D scénu v podporovaných formátech souborů
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Uložte 3D scénu v podporovaných formátech souborů
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ A2: Ano, můžete kombinovat a použít více transformací k dosažení komplex
 
 ### Q5: Potřebujete pomoc nebo máte konkrétní otázky?
 
-A5: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) za podporu komunity.
+ A5: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) za podporu komunity.

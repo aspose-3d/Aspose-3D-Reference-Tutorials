@@ -35,7 +35,7 @@ Scene scene = new Scene();
 Camera camera = new Camera();
 // További kamera beállítási kód...
 ```
- Hozzon létre egy 3D-s jelenetet, és állítson be egy kamerát a jelenet megtekintéséhez. Állítsa be a kamera paramétereit, mint pl`NearPlane` és`LookAt` az optimális megjelenítés érdekében.
+Hozzon létre egy 3D-s jelenetet, és állítson be egy kamerát a jelenet megtekintéséhez. Állítsa be a kamera paramétereit, mint pl`NearPlane` és`LookAt` az optimális megjelenítés érdekében.
 ## 2. lépés: Mutassa be a fényforrást
 ```csharp
 Light light;
@@ -51,7 +51,7 @@ Node plane = scene.RootNode.CreateChildNode("plane", new Plane(20, 20));
 // További objektumok (tórusz, dobozok) beállítási kódja...
 ```
 Hozzon létre tárgyakat, például síkokat, tóruszokat és dobozokat a jeleneten belül. Állítsa be az anyagokat és a pozíciókat a kívánt vizuális hatások eléréséhez.
-## 4. lépés: Renderje le a jelenetet
+## 4. lépés: Renderelje le a jelenetet
 ```csharp
 scene.Render(camera, "Your Output Directory" + "CastAndReceiveShadow_out.png", new Size(1024, 1024), ImageFormat.Png, opt);
 ```

@@ -1,6 +1,6 @@
 ---
-title: Concaténation de quaternions dans des scènes 3D
-linktitle: Concaténation de quaternions dans des scènes 3D
+title: Concaténation des quaternions
+linktitle: Concaténation des quaternions
 second_title: API Aspose.3D .NET
 description: Explorez la puissance de la manipulation des quaternions dans les scènes 3D avec Aspose.3D pour .NET. Apprenez à concaténer les quaternions étape par étape pour des transformations immersives.
 type: docs
@@ -96,7 +96,7 @@ A2 : Oui, Aspose.3D pour .NET est conçu pour fonctionner de manière transparen
 
 ### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.3D pour .NET ?
 
- A3 : Oui, vous pouvez accéder à un essai gratuit[ici](https://releases.aspose.com/).
+A3 : Oui, vous pouvez accéder à un essai gratuit[ici](https://releases.aspose.com/).
 
 ### Q4 : Comment puis-je obtenir du support pour Aspose.3D pour .NET ?
 

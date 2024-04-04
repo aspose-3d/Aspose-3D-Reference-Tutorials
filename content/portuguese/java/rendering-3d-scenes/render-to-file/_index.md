@@ -80,7 +80,7 @@ Parabéns! Você salvou com sucesso uma cena 3D renderizada em um arquivo de ima
 
  A2: Obtenha uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para explorar todo o potencial do Aspose.3D para Java.
 
-### Q3: Existe um fórum da comunidade para Aspose.3D for Java?
+### Q3: Existe um fórum da comunidade para Aspose.3D para Java?
 
  A3: Com certeza! Participe das discussões e busque apoio no[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18).
 

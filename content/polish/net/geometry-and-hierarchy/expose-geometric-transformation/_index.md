@@ -1,6 +1,6 @@
 ---
-title: Ujawnianie transformacji geometrycznej w scenach 3D
-linktitle: Ujawnianie transformacji geometrycznej w scenach 3D
+title: Ujawnianie transformacji geometrycznej
+linktitle: Ujawnianie transformacji geometrycznej
 second_title: Aspose.3D API .NET
 description: Odkryj nieograniczone możliwości grafiki 3D w .NET dzięki Aspose.3D. Odkrywaj przekształcenia geometryczne bez wysiłku.
 type: docs
@@ -29,7 +29,7 @@ Odśwież swoją wiedzę na temat podstawowych koncepcji 3D, w tym węzłów, tr
 
 ## Importuj przestrzenie nazw
 
-swoim projekcie .NET zaimportuj niezbędne przestrzenie nazw, aby rozpocząć swoją podróż z Aspose.3D.
+W swoim projekcie .NET zaimportuj niezbędne przestrzenie nazw, aby rozpocząć swoją podróż z Aspose.3D.
 
 ```csharp
 using Aspose.ThreeD;

@@ -90,4 +90,4 @@ System.out.println("\nNormals have been set up successfully on the cube.");
 
 ### س5: هل تحتاج إلى المساعدة أو تريد المناقشة مع المجتمع؟
 
-ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) للدعم والمناقشات.
+ ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) للدعم والمناقشات.

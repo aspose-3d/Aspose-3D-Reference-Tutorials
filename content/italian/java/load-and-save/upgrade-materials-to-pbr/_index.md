@@ -79,7 +79,7 @@ Segui questi passaggi meticolosamente per aggiornare senza problemi i tuoi mater
 
 ## Conclusione
 
-In conclusione, Aspose.3D per Java ti consente di elevare l'attrattiva visiva della tua grafica 3D aggiornando i materiali su PBR. Abbraccia questa tecnologia per ottenere un realismo migliorato e affascinare il tuo pubblico con applicazioni Java visivamente sbalorditive.
+In conclusione, Aspose.3D per Java ti consente di elevare l'attrattiva visiva della tua grafica 3D aggiornando i materiali su PBR. Abbraccia questa tecnologia per ottenere un realismo migliorato e affascinare il tuo pubblico con applicazioni Java visivamente sorprendenti.
 
 ## Domande frequenti
 
@@ -93,7 +93,7 @@ A1: Sì, Aspose.3D è compatibile con vari ambienti di sviluppo Java.
 
 ### Q3: È disponibile una prova gratuita?
 
- R3: Sì, puoi accedere a una prova gratuita[Qui](https://releases.aspose.com/).
+R3: Sì, puoi accedere a una prova gratuita[Qui](https://releases.aspose.com/).
 
 ### Q4: Dove posso trovare supporto per Aspose.3D?
 

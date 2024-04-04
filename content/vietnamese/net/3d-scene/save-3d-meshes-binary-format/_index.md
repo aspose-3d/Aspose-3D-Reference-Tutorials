@@ -41,12 +41,24 @@ using System.Text;
 Tải tệp 3D của bạn bằng Aspose.3D. Trong ví dụ này, chúng tôi tải một tệp có tên "test.fbx":
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## Bước 2: Xác định định dạng nhị phân tùy chỉnh
 
 Xác định cấu trúc của định dạng nhị phân tùy chỉnh mà bạn muốn lưu lưới 3D của mình vào. Ví dụ này sử dụng cấu trúc có MeshBlock, Vertex và Triangle làm thành phần.
+
+```csharp
+// Bố cục bộ nhớ của một đỉnh là
+// vị trí phao [3];
+// float[3] bình thường;
+// phao[3] uv;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## Bước 3: Mở tệp để viết
 
@@ -79,11 +91,30 @@ scene.RootNode.Accept(delegate(Node node)
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (viết tiếp điểm khống chế và chỉ số tam giác)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//Bố cục bộ nhớ của lưới là:
+// float[16] Transform_matrix;
+// int đỉnh_count;
+// int chỉ số_count;
+// đỉnh[vertices_count] đỉnh;
+// chỉ số ushort[indices_count];
+
+
+//viết biến đổi
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//ghi số đỉnh/chỉ số
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//viết các đỉnh và chỉ số
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## Phần kết luận
@@ -98,7 +129,7 @@ Câu trả lời 1: Aspose.3D chủ yếu hỗ trợ các ngôn ngữ .NET, như
 
 ### Câu hỏi 2: Tôi có thể tìm thêm ví dụ và tài nguyên ở đâu?
 
- A2: Cái[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) là một nơi tuyệt vời để tìm kiếm sự hỗ trợ, ví dụ và tương tác với cộng đồng.
+ A2: Cái[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18)là một nơi tuyệt vời để tìm kiếm sự hỗ trợ, ví dụ và tương tác với cộng đồng.
 
 ### Câu hỏi 3: Có phiên bản dùng thử cho Aspose.3D không?
 

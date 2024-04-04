@@ -1,6 +1,6 @@
 ---
-title: 載入和儲存 - 檢測格式
-linktitle: 載入和儲存 - 檢測格式
+title: 檢測格式
+linktitle: 檢測格式
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 輕鬆掌握 3D 檔案操作。無縫載入、儲存和偵測格式。
 type: docs

@@ -12,20 +12,32 @@ url: /pl/net/rendering/
 Czy jesteś gotowy, aby wyruszyć w ekscytującą podróż do świata renderowania 3D? Nie szukaj dalej! Aspose.3D dla .NET otwiera drzwi do świata możliwości, pozwalając uwolnić kreatywność i udoskonalić swoje umiejętności. W tym obszernym samouczku poprowadzimy Cię przez niektóre z najbardziej intrygujących aspektów renderowania przy użyciu Aspose.3D dla .NET.
 
 ## Rzucanie i odbieranie cieni
-### [Samouczek rzucania i odbierania cieni](./cast-receive-shadows/)
  Zanurz się głęboko w sztuce rzucania i odbierania cieni w dziedzinie renderowania 3D dzięki Aspose.3D dla .NET. Nasz przewodnik krok po kroku pomoże Ci bez wysiłku opanować tę niezbędną technikę, ożywiając sceny za pomocą dynamicznych i realistycznych cieni. Gotowy, aby ulepszyć swoją grę renderowania?[Zacznij teraz!](./cast-receive-shadows/)
+
+[Przeczytaj samouczek: Samouczek rzucania i odbierania cieni](./cast-receive-shadows/)
+
+
+## Przechwytywanie rzutni w scenach 3D
+tym samouczku zbadaliśmy proces przechwytywania rzutni w scenach 3D przy użyciu Aspose.3D dla .NET. Wykorzystując jego zaawansowane funkcje, możesz wznieść swoje projekty graficzne 3D na nowy poziom, zapewniając urzekające wrażenia wizualne.
+
+[Przeczytaj samouczek: Przechwytywanie rzutni w scenach 3D](./capture-viewport/)
+
 
 ## Renderowanie obrazu modelu 3D z kamery
 ### [Samouczek renderowania obrazu modelu 3D](./render-3d-model-image/)
-Odblokuj sekrety tworzenia oszałamiających obrazów modeli 3D z perspektywy kamery przy użyciu Aspose.3D dla .NET. Nasz przyjazny dla użytkownika przewodnik przeprowadzi Cię przez cały proces, dzięki czemu możesz łatwo stworzyć urzekające wizualizacje, które pokażą prawdziwy potencjał Twoich modeli 3D. Gotowy, aby ożywić swoje dzieła?[Przeglądaj teraz!](./render-3d-model-image/)
+ Odblokuj sekrety tworzenia oszałamiających obrazów modeli 3D z perspektywy kamery przy użyciu Aspose.3D dla .NET. Nasz przyjazny dla użytkownika przewodnik przeprowadzi Cię przez cały proces, dzięki czemu możesz łatwo stworzyć urzekające wizualizacje, które pokażą prawdziwy potencjał Twoich modeli 3D. Gotowy, aby ożywić swoje dzieła?[Przeglądaj teraz!](./render-3d-model-image/)
 
 ## Stosowanie efektu obiektywu typu rybie oko do sceny 3D
-### [Poradnik dotyczący efektu obiektywu typu rybie oko](./fisheye-lens-effect-3d-scene/)
- Przekształć swoje sceny 3D za pomocą czarującego efektu obiektywu typu rybie oko, korzystając z Aspose.3D dla .NET. Nasz szczegółowy samouczek przedstawia podejście krok po kroku, dzięki czemu możesz bezproblemowo zastosować ten zniewalający efekt do swoich dzieł. Chcesz dodać wyjątkową perspektywę do swoich scen?[Ucz się więcej!](./fisheye-lens-effect-3d-scene/)
+Przekształć swoje sceny 3D za pomocą czarującego efektu obiektywu typu rybie oko, korzystając z Aspose.3D dla .NET. Nasz szczegółowy samouczek przedstawia podejście krok po kroku, dzięki czemu możesz bezproblemowo zastosować ten zniewalający efekt do swoich dzieł. Chcesz dodać wyjątkową perspektywę do swoich scen?[Ucz się więcej!](./fisheye-lens-effect-3d-scene/)
+[Przeczytaj tutorial: Poradnik dotyczący efektu rybiego oka](./fisheye-lens-effect-3d-scene/)
 
 ## Renderowanie widoku panoramicznego sceny 3D
 ### [Samouczek renderowania widoku panoramicznego](./render-panorama-view/)
-Zanurz się w świecie oszałamiających widoków panoramicznych 3D dzięki Aspose.3D dla .NET. Nasz przewodnik przeprowadzi Cię przez cały proces, upewniając się, że możesz bez wysiłku stworzyć zapierające dech w piersiach sceny, które urzekają widzów. Gotowy, aby ożywić swoje dzieła w panoramicznym blasku?[Odkryj jak!](./render-panorama-view/)
+ Zanurz się w świecie oszałamiających widoków panoramicznych 3D dzięki Aspose.3D dla .NET. Nasz przewodnik przeprowadzi Cię przez cały proces, upewniając się, że możesz bez wysiłku stworzyć zapierające dech w piersiach sceny, które urzekają widzów. Gotowy, aby ożywić swoje dzieła w panoramicznym blasku?[Odkryj jak!](./render-panorama-view/)
+
+## Zastosuj więcej efektów wizualnych do sceny 3D
+### [Samouczek dotyczący stosowania efektów wizualnych](./apply-visual-effects/)
+Zanurz się w krainę hipnotyzujących efektów wizualnych dzięki Aspose.3D dla .NET. Nasz obszerny przewodnik poprowadzi Cię przez całą podróż, umożliwiając łatwe tworzenie oszałamiających scen ozdobionych urzekającymi ulepszeniami wizualnymi. Od wykrywania krawędzi po rozmycie i pikselację, odblokuj świat kreatywnych możliwości, aby ulepszyć swoje dzieła. Czy jesteś gotowy przekształcić swoje projekty w urzekające arcydzieła z urzekającymi efektami wizualnymi?[Odkryj jak!](./apply-visual-effects/)
 
 ## Renderowanie sceny do mapy kostki z sześcioma ścianami
 ### [Samouczek renderowania sceny do Cubemap](./render-scene-cubemap/)

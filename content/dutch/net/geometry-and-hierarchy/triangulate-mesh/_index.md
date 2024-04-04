@@ -1,6 +1,6 @@
 ---
-title: Mesh trianguleren in 3D-scènes
-linktitle: Mesh trianguleren in 3D-scènes
+title: Triangulerend gaas
+linktitle: Triangulerend gaas
 second_title: Aspose.3D .NET-API
 description: Ontdek de kracht van Aspose.3D voor .NET in deze stapsgewijze handleiding. Leer hoe u moeiteloos 3D-meshes kunt trianguleren voor verbeterde modellering.
 type: docs
@@ -17,7 +17,7 @@ Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende ver
 
 - Aspose.3D voor .NET-bibliotheek: Zorg ervoor dat de Aspose.3D-bibliotheek is geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/3d/net/).
 
-- Voorbeeld van een 3D-model: zorg dat u een 3D-model in het FBX-formaat hebt dat u wilt trianguleren. U kunt gebruik maken van de meegeleverde[document.fbx](https://reference.aspose.com/3d/net/) dossier voor de praktijk.
+-  Voorbeeld van een 3D-model: zorg dat u een 3D-model in het FBX-formaat hebt dat u wilt trianguleren. U kunt gebruik maken van de meegeleverde[document.fbx](https://reference.aspose.com/3d/net/) dossier voor de praktijk.
 
 ## Naamruimten importeren
 

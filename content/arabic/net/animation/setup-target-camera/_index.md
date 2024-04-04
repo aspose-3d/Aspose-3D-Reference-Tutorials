@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## الخطوة 5: احفظ المشهد
 
-احفظ المشهد الذي تم تكوينه في دليل إخراج محدد بتنسيق الملف المطلوب، مثل ‎.3ds.
+احفظ المشهد الذي تم تكوينه في دليل إخراج محدد بتنسيق الملف المطلوب، مثل ‎.fbx.
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## خاتمة
@@ -98,7 +98,7 @@ scene.Save(output, FileFormat.Discreet3DS);
 
 ### س4: هل هناك نسخة تجريبية مجانية متاحة؟
 
- ج4: نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+ج4: نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت؟
 

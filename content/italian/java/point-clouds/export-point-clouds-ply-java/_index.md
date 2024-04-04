@@ -58,7 +58,7 @@ Ripeti questi passaggi per diverse rappresentazioni di nuvole di punti secondo n
 
 ## Conclusione
 
-Congratulazioni! Hai esportato con successo le nuvole di punti nel formato PLY utilizzando Aspose.3D per Java. Questo tutorial ha coperto i passaggi essenziali, dalla configurazione dell'ambiente alla verifica dell'output. Esplora più funzionalità e possibilità con Aspose.3D per migliorare i tuoi progetti di sviluppo 3D.
+Congratulazioni! Hai esportato con successo nuvole di punti nel formato PLY utilizzando Aspose.3D per Java. Questo tutorial ha coperto i passaggi essenziali, dalla configurazione dell'ambiente alla verifica dell'output. Esplora più funzionalità e possibilità con Aspose.3D per migliorare i tuoi progetti di sviluppo 3D.
 
 ## Domande frequenti
 
@@ -68,7 +68,7 @@ A1: Aspose.3D è progettato principalmente per Java, ma Aspose fornisce librerie
 
 ### Q2: Dove posso trovare la documentazione dettagliata per Aspose.3D per Java?
 
- R2: Fare riferimento alla documentazione[Qui](https://reference.aspose.com/3d/java/).
+ A2: Fare riferimento alla documentazione[Qui](https://reference.aspose.com/3d/java/).
 
 ### Q3: È disponibile una prova gratuita per Aspose.3D per Java?
 

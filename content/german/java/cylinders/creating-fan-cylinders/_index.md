@@ -15,7 +15,7 @@ Sind Sie bereit, Ihre 3D-Modellierungserfahrung mit Aspose.3D für Java zu verbe
 
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
--  Java Development Kit (JDK): Stellen Sie sicher, dass JDK auf Ihrem System installiert ist. Sie können es herunterladen[Hier](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Stellen Sie sicher, dass JDK auf Ihrem System installiert ist. Sie können es herunterladen[Hier](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 -  Aspose.3D für Java: Laden Sie die Aspose.3D-Bibliothek für Java von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/3d/java/).
 
@@ -49,7 +49,7 @@ Erstellen wir nun einen Lüfterzylinder mit der Aspose.3D-Bibliothek:
 
 ```java
 // ExStart:3
-// Erstellen Sie einen Zylinder mit Lüfter
+// Erstellen Sie einen Zylinder mit Ventilator
 Cylinder fan = new Cylinder(2, 2, 10, 20, 1, false);
 fan.setGenerateFanCylinder(true);
 fan.setThetaLength(MathUtils.toRadian(270.0));

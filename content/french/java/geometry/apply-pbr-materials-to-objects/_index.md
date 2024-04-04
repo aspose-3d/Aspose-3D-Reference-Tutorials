@@ -19,7 +19,7 @@ Avant de plonger dans le didacticiel, assurez-vous que les conditions préalable
 
 2.  Bibliothèque Aspose.3D : téléchargez et installez la bibliothèque Aspose.3D à partir du[lien de téléchargement](https://releases.aspose.com/3d/java/).
 
-3.  Documentation : reportez-vous au[Documentation](https://reference.aspose.com/3d/java/) pour Aspose.3D pour vous familiariser avec les fonctionnalités de la bibliothèque.
+3.  Documentation : reportez-vous au[Documentation](https://reference.aspose.com/3d/java/)pour Aspose.3D pour vous familiariser avec les fonctionnalités de la bibliothèque.
 
 4.  Licence temporaire (facultatif) : Si vous n'avez pas de licence, vous pouvez obtenir une[permis temporaire](https://purchase.aspose.com/temporary-license/) pour tester.
 
@@ -72,7 +72,7 @@ Enregistrez la scène 3D, y compris le matériau PBR appliqué, dans un format d
 ```java
 // ExDémarrer : Enregistrer la scène 3DS
 scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
-// ExEnd : Save3DScene
+//ExEnd : Save3DScene
 ```
 
 Répétez ces étapes pour des scènes plus complexes ou des objets différents.

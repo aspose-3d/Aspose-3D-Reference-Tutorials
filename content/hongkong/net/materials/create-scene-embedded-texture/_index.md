@@ -13,7 +13,7 @@ url: /zh-hant/net/materials/create-scene-embedded-texture/
 在深入學習本教程之前，請確保您具備以下先決條件：
 - 對 C# 和 .NET 程式設計有基本了解。
 - Visual Studio 安裝在您的電腦上。
--  Aspose.3D for .NET 函式庫，您可以下載[這裡](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET 函式庫，您可以下載[這裡](https://releases.aspose.com/3d/net/).
 - 熟悉 3D 圖形和場景創建的概念。
 ## 導入命名空間
 首先將必要的命名空間匯入到您的專案中。這些命名空間將為您提供 3D 圖形操作所需的工具和功能。

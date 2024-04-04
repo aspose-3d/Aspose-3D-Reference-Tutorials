@@ -91,9 +91,9 @@ A1: Ja, Aspose.3D is compatibel met verschillende Java-ontwikkelomgevingen.
 
  A2: Ja, u kunt Aspose.3D gebruiken voor zowel persoonlijke als commerciële projecten. Bezoek de[aankooppagina](https://purchase.aspose.com/buy) voor licentiegegevens.
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+### Vraag 3: Is er een gratis proefperiode beschikbaar?
 
- A3: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
+A3: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
 
 ### V4: Waar kan ik ondersteuning vinden voor Aspose.3D?
 

@@ -27,7 +27,7 @@ import com.aspose.threed.*;
 //初始化場景對象
 Scene scene = new Scene();
 ```
-## 步驟2：初始化節點類別對象
+## 第2步：初始化節點類別對象
 ```java
 //初始化Node類別物件
 Node cubeNode = new Node("box");

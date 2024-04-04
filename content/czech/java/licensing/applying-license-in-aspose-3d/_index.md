@@ -22,7 +22,8 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
 Chcete-li začít, importujte potřebné balíčky do svého projektu Java. Ujistěte se, že Aspose.3D je přidán do vaší třídy. Zde je příklad:
 
-```javaimport com.aspose.threed.License;
+```java
+import com.aspose.threed.License;
 import com.aspose.threed.Metered;
 
 import java.io.FileInputStream;

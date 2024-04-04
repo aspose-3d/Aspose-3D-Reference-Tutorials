@@ -1,6 +1,6 @@
 ---
-title: Munka háló geometriai adatokkal 3D jelenetekben
-linktitle: Munka háló geometriai adatokkal 3D jelenetekben
+title: Munka a háló geometriai adatokkal
+linktitle: Munka a háló geometriai adatokkal
 second_title: Aspose.3D .NET API
 description: Sajátítsa el a 3D grafikus programozás művészetét az Aspose.3D for .NET segítségével. Könnyedén létrehozhat, manipulálhat és menthet lenyűgöző 3D-s jeleneteket.
 type: docs
@@ -17,7 +17,7 @@ Mielőtt nekivágnánk ennek a 3D-s utazásnak, győződjön meg arról, hogy a 
 
 - C# és .NET programozási ismeretek.
 - A Visual Studio telepítve van a gépedre.
--  Aspose.3D for .NET könyvtár, amelyet letölthet[itt](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET könyvtár, amelyet letölthet[itt](https://releases.aspose.com/3d/net/).
 
 Most, hogy minden készen áll, ugorjunk be a 3D grafikus programozás lenyűgöző világába!
 
@@ -95,7 +95,7 @@ Hozzon létre egy hálót a sokszögépítő módszerrel, és alkalmazzon színe
 // A dokumentumok könyvtárának elérési útja.
 var output = "Your Output Directory" + "MeshGeometryData.fbx";
 
-//Mentse a 3D jelenetet a támogatott fájlformátumokba
+// Mentse a 3D jelenetet a támogatott fájlformátumokba
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

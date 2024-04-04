@@ -1,6 +1,6 @@
 ---
-title: التحميل والحفظ - إنشاء مستند ثلاثي الأبعاد فارغ
-linktitle: التحميل والحفظ - إنشاء مستند ثلاثي الأبعاد فارغ
+title: إنشاء مستند ثلاثي الأبعاد فارغ
+linktitle: إنشاء مستند ثلاثي الأبعاد فارغ
 second_title: Aspose.3D.NET API
 description: استكشف عالم إنشاء المستندات ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. قم بإنشاء وتحرير وحفظ مشاهد ثلاثية الأبعاد مذهلة دون عناء.
 type: docs
@@ -46,7 +46,7 @@ var output = "Your Output Directory" + "document.fbx";
 Scene scene = new Scene();
 
 // احفظ مستند المشهد ثلاثي الأبعاد بتنسيق FBX
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 
 // ExEnd:CreateEmpty3DDocument
 ```

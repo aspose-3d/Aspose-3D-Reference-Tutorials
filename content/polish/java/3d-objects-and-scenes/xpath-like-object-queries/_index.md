@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## Krok 2: Utwórz hierarchię węzłów
 
 ```java
-// ExStart: Utwórz hierarchię
+//ExStart: Utwórz hierarchię
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

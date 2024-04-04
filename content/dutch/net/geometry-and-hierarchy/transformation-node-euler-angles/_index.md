@@ -1,6 +1,6 @@
 ---
-title: Knooppunt transformeren door Euler-hoeken in 3D-scènes
-linktitle: Knooppunt transformeren door Euler-hoeken in 3D-scènes
+title: Knooppunt transformeren door Euler-hoeken
+linktitle: Knooppunt transformeren door Euler-hoeken
 second_title: Aspose.3D .NET-API
 description: Leer moeiteloos 3D-knooppunten transformeren met Aspose.3D voor .NET. Volg onze stapsgewijze handleiding voor verbluffende resultaten in uw projecten.
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
  Begin met het maken van een nieuwe 3D-scène met behulp van de`Scene` klas.
 
-## Stap 2: Initialiseer het knooppuntklasseobject
 
-```csharp
-// Initialiseer het knooppuntklasseobject
-Node cubeNode = new Node("cube");
-```
-
- Maak een knooppunt binnen de scène met behulp van de`Node`klas. Dit knooppunt zal dienen als de container voor ons 3D-object.
-
-## Stap 3: Maak mesh met Polygon Builder
+## Stap 2: Maak mesh met behulp van primitieve box
 
 ```csharp
 // Roep de Common-klasse aan om mesh te maken met behulp van de polygon builder-methode om de mesh-instantie in te stellen
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
- Roep een methode aan (in dit geval`CreateMeshUsingPolygonBuilder` uit een gewoonte`Common` class) om een mesh voor het 3D-object te genereren.
+ Roep een methode aan (in dit geval`CreateMeshUsingPolygonBuilder` uit een gewoonte`Common`class) om een mesh voor het 3D-object te genereren.
 
-## Stap 4: Wijs het knooppunt naar de mesh-geometrie
+## Stap 3: Maak een containerknooppunt voor de mesh
 
 ```csharp
 // Wijs het knooppunt naar de Mesh-geometrie
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-Koppel de gemaakte mesh aan het knooppunt.
+ Maak een knooppunt binnen de scène met behulp van de`Node` klas. Dit knooppunt zal dienen als de container voor ons 3D-object.
 
-## Stap 5: Stel Euler-hoeken en vertaling in
+## Stap 4: Stel Euler-hoeken en vertaling in
 
 ```csharp
 // Euler-hoeken
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 Definieer de Euler-hoeken en vertaling voor het knooppunt om het in de 3D-ruimte te positioneren.
 
-## Stap 6: Voeg kubus toe aan de scène
-
-```csharp
-// Voeg een kubus toe aan de scène
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-Neem het knooppunt op in de hiërarchie van de scène.
-
-## Stap 7: Sla de 3D-scène op
+## Stap 5: Sla de 3D-scène op
 
 ```csharp
 // Het pad naar de documentenmap.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Sla 3D-scènes op in de ondersteunde bestandsformaten
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Sla 3D-scènes op in de ondersteunde bestandsformaten
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ A2: Ja, u kunt meerdere transformaties combineren en toepassen om complexe effec
 
 ### Vraag 5: Heeft u hulp nodig of heeft u specifieke vragen?
 
-A5: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) voor gemeenschapssteun.
+ A5: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) voor gemeenschapssteun.

@@ -89,4 +89,4 @@ FileFormat.DRACO.encode(sphere, "Your Document Directory" + "sphere.drc", opt);
 
 ### س5: أين يمكنني العثور على الوثائق؟
 
- ج5: الرجوع إلى التفاصيل[Aspose.3D وثائق جافا](https://reference.aspose.com/3d/java/) للحصول على معلومات شاملة.
+ ج5: الرجوع إلى التفصيل[Aspose.3D وثائق جافا](https://reference.aspose.com/3d/java/) للحصول على معلومات شاملة.

@@ -65,7 +65,7 @@ opt.setPointCloud(true);
 احفظ المشهد ثلاثي الأبعاد كسحابة نقطية في الدليل المطلوب:
 
 ```java
-// يحفظ
+//يحفظ
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 

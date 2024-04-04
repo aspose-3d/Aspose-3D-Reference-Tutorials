@@ -16,8 +16,8 @@ url: /th/net/3d-scene/flip-coordinate-system/
 ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
 
 - ความเข้าใจพื้นฐานเกี่ยวกับภาษาการเขียนโปรแกรม C#
-- ติดตั้ง Aspose.3D สำหรับไลบรารี .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/3d/net/).
-- ไฟล์ 3D ตัวอย่างในรูปแบบที่รองรับ (เช่น .3ds)
+-  ติดตั้ง Aspose.3D สำหรับไลบรารี .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/3d/net/).
+- ไฟล์ 3D ตัวอย่างในรูปแบบที่รองรับ (เช่น .ma)
 
 ## นำเข้าเนมสเปซ
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // เส้นทางไปยังไฟล์อินพุต
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // เริ่มต้นวัตถุฉาก
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
  ในขั้นตอนนี้ เราจะโหลดฉาก 3 มิติจากเส้นทางไฟล์ที่ระบุโดยใช้`Open` วิธี.
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
  ตอนนี้เราใช้`Save` วิธีส่งออกฉากพลิกระบบพิกัดในกระบวนการ เอาต์พุตจะถูกบันทึกในรูปแบบ Wavefront OBJ

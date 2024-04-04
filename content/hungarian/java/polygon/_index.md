@@ -33,7 +33,7 @@ A textúratérképezés a magával ragadó 3D-s látvány lelke, és az Aspose.3
 
 ### A textúratérképezés művészete UV-koordinátákkal
 
-Gondoljon az UV-koordinátákra, mint a textúrák GPS-ére a 3D világában. Oktatóanyagunk végigvezeti Önt ezen koordináták Aspose.3D használatával történő generálásának folyamatán, így biztosítva, hogy a textúrák zökkenőmentesen körbevegyék a modelleket. Növelje projektjei vizuális vonzerejét a textúratérképezés művészetének elsajátításával.
+Gondoljon az UV-koordinátákra, mint a textúrák GPS-ére a 3D világában. Oktatóanyagunk végigvezeti Önt ezen koordináták Aspose.3D segítségével történő generálásának folyamatán, így biztosítva, hogy a textúrák zökkenőmentesen körbevegyék a modelleket. Növelje projektjei vizuális vonzerejét a textúratérképezés művészetének elsajátításával.
 
 ### Lépésről lépésre a továbbfejlesztett textúra-leképezéshez
 

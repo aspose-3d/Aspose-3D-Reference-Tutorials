@@ -1,6 +1,6 @@
 ---
-title: Tải và lưu - Tạo tài liệu 3D trống
-linktitle: Tải và lưu - Tạo tài liệu 3D trống
+title: Tạo một tài liệu 3D trống
+linktitle: Tạo một tài liệu 3D trống
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới tạo tài liệu 3D với Aspose.3D cho .NET. Tạo, chỉnh sửa và lưu các cảnh 3D tuyệt đẹp một cách dễ dàng.
 type: docs
@@ -46,7 +46,7 @@ var output = "Your Output Directory" + "document.fbx";
 Scene scene = new Scene();
 
 // Lưu tài liệu cảnh 3D ở định dạng FBX
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 
 // ExEnd:CreateEmpty3DDocument
 ```

@@ -1,6 +1,6 @@
 ---
-title: การตั้งค่า UV บน Cube ในฉาก 3 มิติ
-linktitle: การตั้งค่า UV บน Cube ในฉาก 3 มิติ
+title: การตั้งค่า UV บน Cube
+linktitle: การตั้งค่า UV บน Cube
 second_title: Aspose.3D .NET API
 description: เรียนรู้วิธีตั้งค่าการทำแผนที่ UV บนคิวบ์ 3 มิติโดยใช้ Aspose.3D สำหรับ .NET สร้างฉากที่สวยงามตระการตาด้วยการทำแผนที่พื้นผิวที่แม่นยำ
 type: docs

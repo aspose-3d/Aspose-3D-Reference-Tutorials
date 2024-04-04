@@ -1,6 +1,6 @@
 ---
-title: Betöltés és mentés – Üres 3D-s dokumentum létrehozása
-linktitle: Betöltés és mentés – Üres 3D-s dokumentum létrehozása
+title: Üres 3D-s dokumentum létrehozása
+linktitle: Üres 3D-s dokumentum létrehozása
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D-s dokumentumkészítés világát az Aspose.3D for .NET segítségével. Könnyedén létrehozhat, szerkeszthet és menthet lenyűgöző 3D-s jeleneteket.
 type: docs
@@ -9,7 +9,7 @@ url: /hu/net/loading-and-saving/create-empty-3d-document/
 ---
 ## Bevezetés
 
-Üdvözöljük a 3D-s dokumentumkészítés világában az Aspose.3D for .NET használatával! Ebben az oktatóanyagban a 3D-s dokumentumok betöltésének és mentésének alapjait fedezzük fel. Az Aspose.3D for .NET hatékony eszközkészletet kínál a 3D-s jelenetekkel való munkavégzéshez, és minden lépésen végigvezetjük Önt a zökkenőmentes kezdés érdekében.
+Üdvözöljük a 3D-s dokumentumkészítés világában az Aspose.3D for .NET használatával! Ebben az oktatóanyagban a 3D-s dokumentumok betöltésének és mentésének alapjait fedezzük fel. Az Aspose.3D for .NET hatékony eszközkészletet biztosít a 3D-s jelenetekkel való munkavégzéshez, és minden lépésen végigvezetjük, hogy zökkenőmentesen kezdhesse el.
 
 ## Előfeltételek
 
@@ -46,7 +46,7 @@ var output = "Your Output Directory" + "document.fbx";
 Scene scene = new Scene();
 
 // Mentse el a 3D jelenet dokumentumot FBX formátumban
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 
 // ExEnd:CreateEmpty3DDocument
 ```

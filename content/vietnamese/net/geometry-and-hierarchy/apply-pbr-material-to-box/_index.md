@@ -1,6 +1,6 @@
 ---
-title: Áp dụng vật liệu PBR vào hộp trong cảnh 3D
-linktitle: Áp dụng vật liệu PBR vào hộp trong cảnh 3D
+title: Áp dụng vật liệu PBR vào hộp
+linktitle: Áp dụng vật liệu PBR vào hộp
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới đồ họa 3D với Aspose.3D cho .NET. Tạo các cảnh sống động một cách dễ dàng bằng cách sử dụng vật liệu Kết xuất dựa trên vật lý.
 type: docs
@@ -21,7 +21,7 @@ Trước khi chúng ta đi sâu vào thế giới đồ họa 3D thú vị, hãy
 
 ### Nhận giấy phép
 
- Để mở khóa toàn bộ tiềm năng của Aspose.3D, hãy lấy giấy phép hợp lệ. Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) hoặc mua giấy phép đầy đủ[đây](https://purchase.aspose.com/buy).
+Để mở khóa toàn bộ tiềm năng của Aspose.3D, hãy lấy giấy phép hợp lệ. Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) hoặc mua giấy phép đầy đủ[đây](https://purchase.aspose.com/buy).
 
 ## Nhập không gian tên
 
@@ -104,7 +104,7 @@ A2: Chắc chắn rồi! Aspose.3D cung cấp giấy phép thương mại để 
 
 ### Câu 3: Có phiên bản dùng thử không?
 
-Câu trả lời 3: Có, bạn có thể khám phá các khả năng của Aspose.3D bằng cách tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Câu trả lời 3: Có, bạn có thể khám phá các khả năng của Aspose.3D bằng cách tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 4: Tôi có thể tìm sự hỗ trợ và thảo luận của cộng đồng ở đâu?
 

@@ -1,6 +1,6 @@
 ---
-title: Transformacja węzła za pomocą macierzy transformacji w scenach 3D
-linktitle: Transformacja węzła za pomocą macierzy transformacji w scenach 3D
+title: Węzeł przekształcający według macierzy transformacji
+linktitle: Węzeł przekształcający według macierzy transformacji
 second_title: Aspose.3D API .NET
 description: Bez wysiłku przekształcaj węzły w scenach 3D za pomocą Aspose.3D dla .NET. Dowiedz się, jak krok po kroku przekształcać węzły, korzystając z samouczka.
 type: docs
@@ -17,7 +17,7 @@ Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymag
 
 1.  Biblioteka Aspose.3D dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.3D w projekcie .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/3d/net/).
 
-2. Środowisko programistyczne: skonfiguruj działające środowisko programistyczne .NET, a jeśli jeszcze tego nie zrobiłeś, utwórz nowy projekt, w którym będziesz wdrażać transformacje.
+2. Środowisko programistyczne: Skonfiguruj działające środowisko programistyczne .NET, a jeśli jeszcze tego nie zrobiłeś, utwórz nowy projekt, w którym będziesz wdrażać transformacje.
 
 ## Importuj przestrzenie nazw
 
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 Teraz, gdy omówiliśmy podstawy, podzielmy proces transformacji na przewodnik krok po kroku.
 
-## Krok 1: Zainicjuj scenę i węzeł
+## Krok 1: Zainicjuj scenę
 
 ```csharp
 // ExStart:AddTransformationToNodeByTransformationMatrix
 // Zainicjuj obiekt sceny
 Scene scene = new Scene();
 
-// Zainicjuj obiekt klasy Node
-Node cubeNode = new Node("cube");
 ```
 
-Na tym etapie tworzymy nową scenę 3D i węzeł o nazwie „kostka” w tej scenie.
+Na tym etapie tworzymy nową, pustą scenę 3D.
 
-## Krok 2: Utwórz siatkę i ustaw geometrię
+## Krok 2: Utwórz siatkę i dołącz do sceny
 
 ```csharp
 // Wywołaj klasę Common, aby utworzyć siatkę przy użyciu metody konstruktora wielokątów, aby ustawić instancję siatki
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// Wskaż węzeł na geometrię siatki
-cubeNode.Entity = mesh;
+// Utwórz węzeł kontenerowy dla siatki.
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 Tutaj generujemy siatkę metodą wielokąta i przypisujemy ją do węzła, ustalając geometrię naszej kostki.
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 Zdefiniuj niestandardową macierz translacji, aby określić konkretną transformację zastosowaną do węzła. Dostosuj wartości macierzy zgodnie z potrzebami żądanej transformacji.
 
-## Krok 4: Dodaj węzeł do sceny
-
-```csharp
-// Dodaj kostkę do sceny
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 Dołącz węzeł sześcianu do sceny, czyniąc go częścią ogólnego środowiska 3D.
 
-## Krok 5: Zapisz scenę
+## Krok 4: Zapisz scenę
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Zapisz scenę 3D w obsługiwanych formatach plików
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Zapisz scenę 3D w obsługiwanych formatach plików
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ Odpowiedź 2: Tak, możesz łączyć wiele transformacji, mnożąc ich odpowiedn
 
 ### P4: Jak mogę uzyskać tymczasową licencję na Aspose.3D dla .NET?
 
- A4: Odwiedź[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/) na stronie internetowej Aspose w celu uzyskania tymczasowej licencji do celów ewaluacyjnych.
+ A4: Odwiedź[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/)na stronie internetowej Aspose w celu uzyskania tymczasowej licencji do celów ewaluacyjnych.
 
 ### P5: Gdzie mogę szukać pomocy lub połączyć się ze społecznością Aspose.3D?
 
-A5: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) aby zadawać pytania, dzielić się doświadczeniami i łączyć się z innymi programistami korzystającymi z Aspose.3D.
+ A5: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) aby zadawać pytania, dzielić się doświadczeniami i łączyć się z innymi programistami korzystającymi z Aspose.3D.

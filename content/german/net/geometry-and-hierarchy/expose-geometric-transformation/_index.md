@@ -1,6 +1,6 @@
 ---
-title: Aufdecken geometrischer Transformationen in 3D-Szenen
-linktitle: Aufdecken geometrischer Transformationen in 3D-Szenen
+title: Aufdecken der geometrischen Transformation
+linktitle: Aufdecken der geometrischen Transformation
 second_title: Aspose.3D .NET API
 description: Entdecken Sie mit Aspose.3D die grenzenlosen Möglichkeiten von 3D-Grafiken in .NET. Entdecken Sie mühelos geometrische Transformationen.
 type: docs

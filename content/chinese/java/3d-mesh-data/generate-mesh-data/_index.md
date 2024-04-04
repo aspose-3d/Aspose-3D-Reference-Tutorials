@@ -9,14 +9,14 @@ url: /zh/java/3d-mesh-data/generate-mesh-data/
 ---
 ## 介绍
 
-在 Java 中创建和操作 3D 网格数据可能是一项具有挑战性但令人兴奋的任务，尤其是在处理缺乏基本法线数据的文件时。 Aspose.3D for Java 可以解决这个问题，它提供了一个强大的工具包来有效地处理 3D 图形和网格。在本教程中，我们将指导您完成使用 Java 中的 Aspose.3D 生成 3D 网格法线数据的过程。
+在 Java 中创建和操作 3D 网格数据可能是一项具有挑战性但令人兴奋的任务，特别是在处理缺乏基本法线数据的文件时。 Aspose.3D for Java 可以解决这个问题，它提供了一个强大的工具包来有效地处理 3D 图形和网格。在本教程中，我们将指导您完成使用 Java 中的 Aspose.3D 生成 3D 网格法线数据的过程。
 
 ## 先决条件
 
 在深入学习本教程之前，请确保您具备以下先决条件：
 
 - Java 编程的基础知识。
--  Aspose.3D for Java 已安装。你可以下载它[这里](https://releases.aspose.com/3d/java/).
+- Aspose.3D for Java 已安装。你可以下载它[这里](https://releases.aspose.com/3d/java/).
 - 3ds 格式的 3D 文件。我们将使用“camera.3ds”作为示例。
 
 ## 导入包
@@ -37,7 +37,7 @@ import java.io.IOException;
 //文档目录的路径。
 String MyDir = "Your Document Directory";
 
-//加载3ds文件，3ds文件没有正常数据，但有平滑组
+//加载3ds文件，3ds文件没有普通数据，但有平滑组
 Scene s = new Scene(MyDir + "camera.3ds");
 ```
 

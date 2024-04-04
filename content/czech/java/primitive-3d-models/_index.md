@@ -30,4 +30,4 @@ Připojte se k nám na této vzrušující cestě prostřednictvím výukových 
 Začněte vytvářet své primitivní 3D modely ještě dnes s Aspose.3D pro Java – kde se kreativita snoubí s technologií!
 ## Vytváření primitivních 3D modelů v Aspose.3D pro Java tutoriály
 ### [Vytváření primitivních 3D modelů pomocí Aspose.3D pro Javu](./building-primitive-3d-models/)
-Objevte umění 3D modelování s Aspose.3D pro Javu. Naučte se bez námahy stavět primitivní 3D modely a popusťte uzdu své kreativitě.
+Objevte umění 3D modelování s Aspose.3D pro Java. Naučte se bez námahy stavět primitivní 3D modely a popusťte uzdu své kreativitě.

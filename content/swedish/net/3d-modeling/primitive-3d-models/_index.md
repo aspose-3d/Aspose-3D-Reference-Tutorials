@@ -15,7 +15,7 @@ Välkommen till den spännande världen av 3D-modellering med Aspose.3D för .NE
 
 Innan vi dyker in i den fascinerande sfären av 3D-modellering, se till att du har följande förutsättningar på plats:
 
-- Aspose.3D for .NET: Ladda ner och installera Aspose.3D for .NET-biblioteket från[nedladdningslänk](https://releases.aspose.com/3d/net/).
+-  Aspose.3D for .NET: Ladda ner och installera Aspose.3D for .NET-biblioteket från[nedladdningslänk](https://releases.aspose.com/3d/net/).
 
 - Utvecklingsmiljö: Sätt upp en .NET-utvecklingsmiljö som säkerställer kompatibilitet med Aspose.3D.
 

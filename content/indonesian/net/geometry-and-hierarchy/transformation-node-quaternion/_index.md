@@ -1,6 +1,6 @@
 ---
-title: Mengubah Node demi Quaternion dalam Adegan 3D
-linktitle: Mengubah Node demi Quaternion dalam Adegan 3D
+title: Mengubah Node demi Quaternion
+linktitle: Mengubah Node demi Quaternion
 second_title: Aspose.3D .NET API
 description: Pelajari cara mengubah node 3D dengan angka empat menggunakan Aspose.3D untuk .NET. Panduan langkah demi langkah untuk pemula.
 type: docs
@@ -34,7 +34,7 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Langkah 1: Inisialisasi Objek Pemandangan
+## Langkah 1: Inisialisasi Objek Adegan
 
 ```csharp
 // ExStart:TambahkanTransformasiToNodeByQuaternion
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Jalur ke direktori dokumen.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//Simpan adegan 3D dalam format file yang didukung
+// Simpan adegan 3D dalam format file yang didukung
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:TambahkanTransformasiToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## Kesimpulan
 
-Selamat! Anda telah berhasil mempelajari cara mengubah simpul demi angka empat dalam adegan 3D menggunakan Aspose.3D untuk .NET. Jelajahi lebih banyak fitur dan kemungkinan dengan mengacu pada[dokumentasi](https://reference.aspose.com/3d/net/).
+ Selamat! Anda telah berhasil mempelajari cara mengubah simpul demi angka empat dalam adegan 3D menggunakan Aspose.3D untuk .NET. Jelajahi lebih banyak fitur dan kemungkinan dengan mengacu pada[dokumentasi](https://reference.aspose.com/3d/net/).
 
 ## FAQ
 

@@ -16,8 +16,8 @@ Aspose.3D for .NET を使用して 3D シーンの座標系を反転するため
 チュートリアルに進む前に、次の前提条件を満たしていることを確認してください。
 
 - C# プログラミング言語の基本的な理解。
-- Aspose.3D for .NET ライブラリがインストールされています。からダウンロードできます[ここ](https://releases.aspose.com/3d/net/).
-- サポートされている形式のサンプル 3D ファイル (.3ds など)。
+-  Aspose.3D for .NET ライブラリがインストールされています。からダウンロードできます[ここ](https://releases.aspose.com/3d/net/).
+- サポートされている形式 (.ma など) のサンプル 3D ファイル。
 
 ## 名前空間のインポート
 
@@ -37,10 +37,10 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 //入力ファイルへのパス
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 //シーンオブジェクトを初期化する
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
 このステップでは、指定されたファイル パスから 3D シーンをロードします。`Open`方法。
@@ -49,7 +49,11 @@ scene.Open(input, FileFormat.Discreet3DS);
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
 さて、私たちは、`Save`メソッドを使用してシーンをエクスポートし、その過程で座標系を反転します。出力は Wavefront OBJ 形式で保存されます。

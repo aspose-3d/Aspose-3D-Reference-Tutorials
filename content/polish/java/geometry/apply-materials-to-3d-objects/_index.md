@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## Krok 4: Skieruj węzeł na siatkę
 
 ```java
-//Wskaż węzeł na siatkę
+// Wskaż węzeł na siatkę
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // Ustaw nazwę pliku
 MyDir = MyDir + "MaterialToCube.fbx";
-//Zapisz scenę 3D w obsługiwanych formatach plików
+// Zapisz scenę 3D w obsługiwanych formatach plików
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

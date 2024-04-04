@@ -13,27 +13,20 @@ is_root: true
 
 ## Aspose.3D for .NET 教程
 {{% alert color="primary" %}}
-通过我们的 Aspose.3D for .NET 教程探索 3D 设计和开发的可能性。这些指南旨在为开发人员提供帮助，提供在 .NET 框架内利用 Aspose.3D 功能的见解和实践专业知识。无论您是新手还是经验丰富的编码员，我们的教程都旨在简化您的学习曲线，使您能够在项目中高效集成和利用 Aspose.3D for .NET 的全部潜力。浏览我们的用户友好型教程，深入了解创意、创新和无缝 3D 解决方案的世界，这些教程旨在提高您对 Aspose.3D for .NET 的熟练程度。
+通过我们的 Aspose.3D for .NET 教程探索 3D 设计和开发的可能性。这些指南旨在为开发人员提供帮助，提供在 .NET 框架内利用 Aspose.3D 功能的见解和实践专业知识。无论您是新手还是经验丰富的编码员，我们的教程都旨在简化您的学习曲线，使您能够在项目中高效地集成和利用 Aspose.3D for .NET 的全部潜力。浏览我们的用户友好型教程，深入了解创意、创新和无缝 3D 解决方案的世界，这些教程旨在提高您对 Aspose.3D for .NET 的熟练程度。
 {{% /alert %}}
 
 这些是一些有用资源的链接：
  
 - [3D建模](./net/3d-modeling/)
 - [3D场景](./net/3d-scene/)
-- [3D 视口](./net/3d-viewports/)
 - [动画片](./net/animation/)
-- [资产信息](./net/asset-information/)
 - [几何和层次结构](./net/geometry-and-hierarchy/)
 - [执照](./net/license/)
 - [加载和保存](./net/loading-and-saving/)
 - [材料](./net/materials/)
-- [多边形](./net/polygons/)
 - [渲染](./net/rendering/)
-- [线性挤压](./net/linear-extrusion/)
-- [对象](./net/objects/)
-- [使用气缸](./net/working-with-cylinder/)
-- [使用点云](./net/working-with-point-cloud/)
-- [使用 VRML](./net/working-with-vrml/)
+- [网格](./net/meshes/)
 
 ## Aspose.3D Java 教程
 {{% alert color="primary" %}}

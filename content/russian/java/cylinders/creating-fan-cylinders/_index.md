@@ -15,7 +15,7 @@ url: /ru/java/cylinders/creating-fan-cylinders/
 
 Прежде чем мы углубимся в руководство, убедитесь, что у вас есть следующие предварительные условия:
 
--  Java Development Kit (JDK): убедитесь, что в вашей системе установлен JDK. Вы можете скачать его[здесь](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): убедитесь, что в вашей системе установлен JDK. Вы можете скачать его[здесь](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 -  Aspose.3D для Java: Загрузите и установите библиотеку Aspose.3D для Java с сайта[ссылка для скачивания](https://releases.aspose.com/3d/java/).
 
@@ -77,7 +77,7 @@ scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0)
 
 ```java
 // ExStart:5
-// Создаём цилиндр без вентилятора
+// Создаем цилиндр без вентилятора
 Cylinder nonfan = new Cylinder(2, 2, 10, 20, 1, false);
 // Создать дочерний узел
 scene.getRootNode().createChildNode(nonfan);

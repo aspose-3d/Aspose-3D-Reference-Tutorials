@@ -1,6 +1,6 @@
 ---
-title: Transformieren von Knoten durch Quaternion in 3D-Szenen
-linktitle: Transformieren von Knoten durch Quaternion in 3D-Szenen
+title: Transformierender Knoten durch Quaternion
+linktitle: Transformierender Knoten durch Quaternion
 second_title: Aspose.3D .NET API
 description: Erfahren Sie, wie Sie mit Aspose.3D für .NET 3D-Knoten mit Quaternionen transformieren. Schritt-für-Schritt-Anleitung für Anfänger.
 type: docs
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Der Pfad zum Dokumentenverzeichnis.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
+// Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## Abschluss
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.3D für .NET einen Knoten durch Quaternion in 3D-Szenen transformieren. Entdecken Sie weitere Funktionen und Möglichkeiten, indem Sie sich auf die beziehen[Dokumentation](https://reference.aspose.com/3d/net/).
+ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.3D für .NET einen Knoten durch Quaternion in 3D-Szenen transformieren. Entdecken Sie weitere Funktionen und Möglichkeiten, indem Sie sich auf die beziehen[Dokumentation](https://reference.aspose.com/3d/net/).
 
 ## FAQs
 

@@ -16,7 +16,7 @@ Aspose.3D를 사용하여 Java에서 효율적인 처리를 위해 3D 메시를 
 이 흥미진진한 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
 
 - Java 프로그래밍에 대한 기본 지식.
-- Java 라이브러리용 Aspose.3D가 설치되었습니다. 다음에서 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/3d/java/).
+-  Java 라이브러리용 Aspose.3D가 설치되었습니다. 다음에서 다운로드할 수 있습니다.[Aspose 웹 사이트](https://releases.aspose.com/3d/java/).
 - Java 개발을 위해 설정된 IDE(통합 개발 환경)입니다.
 
 ## 패키지 가져오기
@@ -76,7 +76,7 @@ planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```java
 // 성공 메시지 표시
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
-//ExEnd:SplitMeshbyMaterial
+// ExEnd:SplitMeshbyMaterial
 ```
 
 ## 결론
@@ -103,4 +103,4 @@ A2: 물론이죠! 이 방법은 복잡한 3D 모델에 적합하며 재료별 �
 
 ### Q5: 문제나 쿼리에 대한 지원을 어떻게 받을 수 있나요?
 
-A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역 사회의 전담 지원을 위해.
+ A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역 사회의 전담 지원을 위해.

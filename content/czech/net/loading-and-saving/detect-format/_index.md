@@ -1,6 +1,6 @@
 ---
-title: Načítání a ukládání - Detekce formátu
-linktitle: Načítání a ukládání - Detekce formátu
+title: Detekce formátu
+linktitle: Detekce formátu
 second_title: Aspose.3D .NET API
 description: Ovládněte bez námahy manipulaci s 3D soubory s Aspose.3D pro .NET. Bezproblémové načítání, ukládání a detekce formátů.
 type: docs
@@ -50,7 +50,7 @@ scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ### Krok 2: Zjistěte formát
 
 ```csharp
-//ExStart:DetectFormat
+// ExStart:DetectFormat
 // Zjistěte formát 3D souboru
 FileFormat inputFormat = FileFormat.Detect(RunExamples.GetDataFilePath("document.fbx"));
 // Zobrazte formát souboru
@@ -92,4 +92,4 @@ Odpověď 1: Ano, Aspose.3D podporuje širokou škálu formátů 3D souborů a p
 
 ### Q5: Mohu vyzkoušet Aspose.3D zdarma před nákupem?
 
-A5: Určitě! Stáhněte si bezplatnou zkušební verzi z[Vydání Aspose.3D](https://releases.aspose.com/) vyzkoušet jeho schopnosti na vlastní kůži.
+ A5: Určitě! Stáhněte si bezplatnou zkušební verzi z[Vydání Aspose.3D](https://releases.aspose.com/) vyzkoušet jeho schopnosti na vlastní kůži.

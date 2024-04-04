@@ -20,24 +20,17 @@ Ini adalah tautan ke beberapa sumber yang bermanfaat:
  
 - [model 3D](./net/3d-modeling/)
 - [Adegan 3D](./net/3d-scene/)
-- [Area Pandang 3D](./net/3d-viewports/)
 - [Animasi](./net/animation/)
-- [Informasi Aset](./net/asset-information/)
 - [Geometri dan Hirarki](./net/geometry-and-hierarchy/)
 - [Lisensi](./net/license/)
 - [Memuat dan Menyimpan](./net/loading-and-saving/)
 - [Bahan](./net/materials/)
-- [Poligon](./net/polygons/)
 - [Render](./net/rendering/)
-- [Ekstrusi Linier](./net/linear-extrusion/)
-- [Objek](./net/objects/)
-- [Bekerja Dengan Silinder](./net/working-with-cylinder/)
-- [Bekerja Dengan Titik Cloud](./net/working-with-point-cloud/)
-- [Bekerja Dengan VRML](./net/working-with-vrml/)
+- [Jerat](./net/meshes/)
 
 ## Aspose.3D untuk Tutorial Java
 {{% alert color="primary" %}}
-Buka kemungkinan tak terbatas pengembangan Java 3D dengan Aspose.3D. Tutorial komprehensif kami mencakup segalanya mulai dari menganimasikan adegan hingga memanipulasi objek 3D dan mengoptimalkan data mesh. Tingkatkan keterampilan Anda dengan panduan langkah demi langkah tentang geometri, manipulasi file, teknik rendering, dan banyak lagi. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial kami memberdayakan Anda untuk membuat proyek 3D yang menawan dengan mudah. Selami dunia Aspose.3D untuk Java dan ubah pengalaman coding Anda.
+Buka kemungkinan tak terbatas pengembangan Java 3D dengan Aspose.3D. Tutorial komprehensif kami mencakup segalanya mulai dari menganimasikan adegan hingga memanipulasi objek 3D dan mengoptimalkan data mesh. Tingkatkan keterampilan Anda dengan panduan langkah demi langkah tentang geometri, manipulasi file, teknik rendering, dan banyak lagi. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial kami memberdayakan Anda untuk membuat proyek 3D yang menawan dengan mudah. Selami dunia Aspose.3D untuk Java dan ubah pengalaman pengkodean Anda.
 {{% /alert %}}
 
 Ini adalah tautan ke beberapa sumber yang bermanfaat:

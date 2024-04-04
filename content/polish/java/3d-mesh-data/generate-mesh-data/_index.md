@@ -16,7 +16,7 @@ Tworzenie i manipulowanie danymi siatki 3D w Javie może być trudnym, ale ekscy
 Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
 
 - Podstawowa znajomość programowania w języku Java.
--  Zainstalowano Aspose.3D dla Java. Możesz go pobrać[Tutaj](https://releases.aspose.com/3d/java/).
+- Zainstalowano Aspose.3D dla Java. Możesz go pobrać[Tutaj](https://releases.aspose.com/3d/java/).
 - Plik 3D w formacie 3ds. Jako przykład użyjemy pliku „camera.3ds”.
 
 ## Importuj pakiety

@@ -1,6 +1,6 @@
 ---
-title: 3B Sahnelerde Küp'e Malzeme Uygulama
-linktitle: 3B Sahnelerde Küp'e Malzeme Uygulama
+title: Malzemeyi Küp'e Uygulamak
+linktitle: Malzemeyi Küp'e Uygulamak
 second_title: Aspose.3D .NET API'si
 description: Kesintisiz 3D grafik manipülasyonuna açılan kapınız olan Aspose.3D for .NET'i keşfedin. Malzemeleri zahmetsizce uygulayın, gerçekçiliği artırın ve projelerinizi geliştirin.
 type: docs
@@ -42,17 +42,12 @@ using System.IO;
 // Sahne nesnesini başlat
 Scene scene = new Scene();
 
-// Küp düğümü nesnesini başlat
-Node cubeNode = new Node("cube");
+// Bir kutu örneği oluşturun.
+var box = new Box();
 
-// Örgü örneğini ayarlamak için çokgen oluşturucu yöntemini kullanarak ortak sınıf oluşturma örgüsünü çağırın
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+// Kutu örneğini sahneye ekleyin
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//Düğümü ağa yönlendirin
-cubeNode.Entity = mesh;
-
-// Sahneye küp ekle
-scene.RootNode.ChildNodes.Add(cubeNode);
 // ExEnd:SceneAndCube'u Başlat
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 // Doku için yerel dosya yolunu ayarlayın
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 // Malzemenin dokusunu ayarla
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,8 +77,8 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 // İkili içeriği ayarla
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-//ExEnd:EmbedRawContentData
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
+// ExEnd:EmbedRawContentData
 ```
 
 ## Adım 4: Malzeme Özelliklerini Ayarlayın
@@ -105,11 +100,11 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart:3DScene'i Kaydet
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
-//3B sahneyi desteklenen dosya formatlarında kaydedin
-scene.Save(output, FileFormat.FBX7400ASCII);
-// ExEnd:3DScene'i Kaydet
+// 3B sahneyi desteklenen dosya formatlarında kaydedin
+scene.Save(output);
+//ExEnd:3DScene'i Kaydet
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
 ```
@@ -140,4 +135,4 @@ Cevap3: Evet, Aspose.3D, 3D sahnelerde animasyonlar oluşturmak ve değiştirmek
 
 ### S5: Herhangi bir sorun veya soru için nasıl destek alabilirim?
 
-A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) toplulukla bağlantı kurmak ve yardım istemek.
+ A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) toplulukla bağlantı kurmak ve yardım istemek.

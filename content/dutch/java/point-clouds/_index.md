@@ -48,4 +48,4 @@ Ontdek de wereld van 3D-graphics met Aspose.3D in Java. Leer puntenwolken uit bo
 ### [Exporteer 3D-scènes als puntenwolken met Aspose.3D voor Java](./export-3d-scenes-point-clouds-java/)
 Leer hoe u 3D-scènes als puntenwolken in Java kunt exporteren met Aspose.3D. Verbeter uw toepassingen met krachtige 3D-graphics en visualisatie.
 ### [Stroomlijn de verwerking van puntenwolken met PLY Export in Java](./ply-export-point-clouds-java/)
-Ontdek de gestroomlijnde verwerking van puntenwolken in Java met Aspose.3D. Leer moeiteloos PLY-bestanden exporteren. Geef uw grafische 3D-projecten een boost met onze stapsgewijze handleiding.
+Ontdek de gestroomlijnde afhandeling van puntenwolken in Java met Aspose.3D. Leer moeiteloos PLY-bestanden exporteren. Geef uw grafische 3D-projecten een boost met onze stapsgewijze handleiding.

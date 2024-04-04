@@ -41,12 +41,24 @@ using System.Text;
 Загрузите свой 3D-файл с помощью Aspose.3D. В этом примере мы загружаем файл с именем «test.fbx»:
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## Шаг 2. Определите собственный двоичный формат
 
 Определите структуру пользовательского двоичного формата, в котором вы хотите сохранить свои 3D-сетки. В примере используется структура с MeshBlock, Vertex и Triangle в качестве компонентов.
+
+```csharp
+// Расположение памяти вершины
+// позиция с плавающей запятой[3];
+// float[3] нормально;
+// поплавок[3] УФ;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## Шаг 3: Откройте файл для записи
 
@@ -79,11 +91,30 @@ scene.RootNode.Accept(delegate(Node node)
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (продолжайте писать контрольные точки и индексы треугольников)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//Расположение памяти сетки:
+// float[16] Transform_matrix;
+// ИНТ vertices_count;
+// интервал index_count;
+// вершины[vertices_count] вершин;
+// индексы ushort[indices_count];
+
+
+//написать преобразование
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//написать количество вершин/индексов
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//писать вершины и индексы
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## Заключение
@@ -98,7 +129,7 @@ Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
 ### Вопрос 2. Где я могу найти дополнительные примеры и ресурсы?
 
- А2:[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) — отличное место, где можно найти поддержку, примеры и пообщаться с сообществом.
+ А2:[Форум Aspose.3D](https://forum.aspose.com/c/3d/18)— отличное место, где можно найти поддержку, примеры и пообщаться с сообществом.
 
 ### В3: Доступна ли пробная версия для Aspose.3D?
 

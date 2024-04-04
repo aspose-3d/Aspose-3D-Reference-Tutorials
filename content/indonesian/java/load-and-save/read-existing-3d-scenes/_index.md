@@ -43,7 +43,7 @@ String MyDir = "Your Document Directory";
 
 Pastikan Anda mengganti "Direktori Dokumen Anda" dengan jalur ke folder tempat dokumen 3D Anda disimpan.
 
-## Langkah 2: Inisialisasi Objek Adegan
+## Langkah 2: Inisialisasi Objek Pemandangan
 
 ```java
 Scene scene = new Scene();

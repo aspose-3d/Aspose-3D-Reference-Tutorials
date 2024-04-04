@@ -4,7 +4,7 @@ linktitle: Animasyon
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET eğitimleriyle 3D animasyon dünyasının kilidini açın. Özellikleri canlandırmayı ve dinamik sahneler için hedefleri ve kameraları zahmetsizce ayarlamayı öğrenin.
 type: docs
-weight: 23
+weight: 30
 url: /tr/net/animation/
 ---
 ## giriiş
@@ -12,7 +12,7 @@ url: /tr/net/animation/
 Aspose.3D for .NET ile büyüleyici 3D animasyon dünyasına hoş geldiniz! Bu kapsamlı kılavuzda, büyüleyici ve dinamik 3D sahneler oluşturmanıza yardımcı olacak iki temel öğreticiyi inceleyeceğiz. Bu heyecan verici yolculuğa birlikte çıkalım!
 
 ## 3B Sahnelerde Belgelemek İçin Özellikleri Animasyonlandırma
- 3D yaratımlarınıza hayat vermeye hazır mısınız? İlk dersimiz,[3B Sahnelerde Belgelemek İçin Özellikleri Animasyonlandırma](./property-to-document/)Aspose.3D for .NET'in büyüsünü ortaya çıkarmanın anahtarıdır. Bu adım adım kılavuzda, sahnelerinize dinamik hareket ve gerçekçilik katmanızı sağlayacak şekilde 3B özellikleri canlandırma sürecinde size yol göstereceğiz.
+3D yaratımlarınıza hayat vermeye hazır mısınız? İlk dersimiz,[3B Sahnelerde Belgelemek İçin Özellikleri Animasyonlandırma](./property-to-document/), Aspose.3D for .NET'in büyüsünü ortaya çıkarmanın anahtarıdır. Bu adım adım kılavuzda, sahnelerinize dinamik hareket ve gerçekçilik katmanızı sağlayacak şekilde 3B özellikleri canlandırma sürecinde size yol göstereceğiz.
 
 ### Bu Eğitimi Neden Keşfetmelisiniz?
 - Zahmetsiz Animasyon: 3D modellerinize kolaylıkla hayat vererek özellikleri kusursuz bir şekilde nasıl canlandıracağınızı keşfedin.

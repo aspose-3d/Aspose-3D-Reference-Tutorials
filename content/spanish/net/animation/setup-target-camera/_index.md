@@ -45,7 +45,7 @@ Scene scene = new Scene();
 
 ## Paso 2: obtener un objeto de nodo secundario
 
-A continuación, cree un objeto de nodo secundario que represente la cámara. Este paso implica definir los atributos de la cámara dentro de la escena.
+continuación, cree un objeto de nodo secundario que represente la cámara. Este paso implica definir los atributos de la cámara dentro de la escena.
 
 ```csharp
 // Obtener un objeto de nodo secundario
@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## Paso 5: guarde la escena
 
-Guarde la escena configurada en un directorio de salida especificado en el formato de archivo deseado, como .3ds.
+Guarde la escena configurada en un directorio de salida especificado en el formato de archivo deseado, como .fbx.
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## Conclusión
@@ -98,7 +98,7 @@ R2: ¡Absolutamente! Aspose.3D permite a los desarrolladores crear recursos 3D p
 
 ### P4: ¿Hay una prueba gratuita disponible?
 
- R4: Sí, puedes explorar una prueba gratuita[aquí](https://releases.aspose.com/).
+R4: Sí, puedes explorar una prueba gratuita[aquí](https://releases.aspose.com/).
 
 ### P5: ¿Cómo obtengo una licencia temporal?
 

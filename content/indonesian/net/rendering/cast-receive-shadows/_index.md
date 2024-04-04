@@ -35,7 +35,7 @@ Scene scene = new Scene();
 Camera camera = new Camera();
 // Kode pengaturan kamera tambahan...
 ```
- Buat adegan 3D dan siapkan kamera untuk melihat adegan itu. Sesuaikan parameter kamera seperti`NearPlane` Dan`LookAt` untuk rendering yang optimal.
+Buat adegan 3D dan siapkan kamera untuk melihat adegan itu. Sesuaikan parameter kamera seperti`NearPlane` Dan`LookAt` untuk rendering yang optimal.
 ## Langkah 2: Perkenalkan Sumber Cahaya
 ```csharp
 Light light;

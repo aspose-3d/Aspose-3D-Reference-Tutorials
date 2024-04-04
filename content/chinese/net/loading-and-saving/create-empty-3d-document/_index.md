@@ -1,6 +1,6 @@
 ---
-title: 加载和保存 - 创建空 3D 文档
-linktitle: 加载和保存 - 创建空 3D 文档
+title: 创建空 3D 文档
+linktitle: 创建空 3D 文档
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 文档创建的世界。轻松创建、编辑和保存令人惊叹的 3D 场景。
 type: docs
@@ -46,7 +46,7 @@ var output = "Your Output Directory" + "document.fbx";
 Scene scene = new Scene();
 
 //将 3D 场景文档保存为 FBX 格式
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 
 //ExEnd：创建空3D文档
 ```

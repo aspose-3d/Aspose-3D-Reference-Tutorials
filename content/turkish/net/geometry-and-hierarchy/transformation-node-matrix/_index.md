@@ -1,6 +1,6 @@
 ---
-title: 3B Sahnelerde Düğümün Dönüşüm Matrisine Göre Dönüştürülmesi
-linktitle: 3B Sahnelerde Düğümün Dönüşüm Matrisine Göre Dönüştürülmesi
+title: Düğümün Dönüşüm Matrisine Göre Dönüştürülmesi
+linktitle: Düğümün Dönüşüm Matrisine Göre Dönüştürülmesi
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'i kullanarak düğümleri 3D sahnelerde zahmetsizce dönüştürün. Öğreticiyle adım adım düğüm dönüşümlerini öğrenin.
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 Artık temel konuları ele aldığımıza göre, dönüşüm sürecini adım adım bir kılavuza ayıralım.
 
-## Adım 1: Sahneyi ve Düğümü Başlatın
+## 1. Adım: Sahneyi Başlatın
 
 ```csharp
 // ExStart:AddTransformationToNodeByTransformationMatrix
 // Sahne nesnesini başlat
 Scene scene = new Scene();
 
-// Düğüm sınıfı nesnesini başlat
-Node cubeNode = new Node("cube");
 ```
 
-Bu adımda yeni bir 3 boyutlu sahne ve o sahnenin içinde "cube" isimli bir düğüm oluşturuyoruz.
+Bu adımda yeni bir boş 3D sahne oluşturuyoruz.
 
-## Adım 2: Mesh Oluşturun ve Geometriyi Ayarlayın
+## Adım 2: Mesh Oluşturun ve Sahneye Ekleyin
 
 ```csharp
 // Örgü örneğini ayarlamak için çokgen oluşturucu yöntemini kullanarak ortak sınıf oluşturma örgüsünü çağırın
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// Düğümü Mesh geometrisine yönlendirin
-cubeNode.Entity = mesh;
+// Ağ için bir konteyner düğümü oluşturun.
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 Burada, çokgen oluşturucu yöntemini kullanarak bir ağ oluşturuyoruz ve onu düğüme atayarak küpümüzün geometrisini oluşturuyoruz.
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 Düğüme uygulanan spesifik dönüşümü belirlemek için özel bir çeviri matrisi tanımlayın. İstediğiniz dönüşüm için matris değerlerini gerektiği gibi ayarlayın.
 
-## Adım 4: Sahneye Düğüm Ekleyin
-
-```csharp
-// Sahneye küp ekle
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 Küp düğümünü sahneye dahil ederek genel 3B ortamın bir parçası haline getirin.
 
-## Adım 5: Sahneyi Kaydedin
+## Adım 4: Sahneyi Kaydedin
 
 ```csharp
 // Belgeler dizininin yolu.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//3B sahneyi desteklenen dosya formatlarında kaydedin
-scene.Save(output, FileFormat.FBX7500ASCII);
+// 3B sahneyi desteklenen dosya formatlarında kaydedin
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ Cevap2: Evet, ilgili matrisleri çarparak ve sonucu düğüme uygulayarak birden
 
 ### S4: Aspose.3D for .NET için nasıl geçici lisans alabilirim?
 
- A4: Ziyaret edin[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/) Değerlendirme amacıyla geçici bir lisans almak için Aspose web sitesinde.
+ A4: Ziyaret edin[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/)Değerlendirme amacıyla geçici bir lisans almak için Aspose web sitesinde.
 
 ### S5: Nereden yardım alabilirim veya Aspose.3D topluluğuyla bağlantı kurabilirim?
 
-A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) Aspose.3D'yi kullanarak sorular sormak, deneyimleri paylaşmak ve diğer geliştiricilerle bağlantı kurmak için.
+ A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) Aspose.3D'yi kullanarak sorular sormak, deneyimleri paylaşmak ve diğer geliştiricilerle bağlantı kurmak için.

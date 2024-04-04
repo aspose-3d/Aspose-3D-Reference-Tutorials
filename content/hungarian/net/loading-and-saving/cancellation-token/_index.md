@@ -1,6 +1,6 @@
 ---
-title: Betöltés és mentés – CancellationToken használata
-linktitle: Betöltés és mentés – CancellationToken használata
+title: A CancellationToken használata
+linktitle: A CancellationToken használata
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D modellezés zökkenőmentes világát az Aspose.3D for .NET segítségével. Tanuljon meg hatékonyan betölteni és elmenteni 3D dokumentumokat a CancellationToken használatával.
 type: docs
@@ -78,7 +78,7 @@ catch (ImportException e)
 }
 ```
 
- Próbálja meg megnyitni a 3D dokumentumot a megadott időkereten belül. A`cts.Token`paraméter biztosítja, hogy a művelet megszakítható legyen, ha túllépi a beállított időt.
+ Próbálja meg megnyitni a 3D dokumentumot a megadott időkereten belül. A`cts.Token` paraméter biztosítja, hogy a művelet megszakítható legyen, ha túllépi a beállított időt.
 
 ### 5. lépés: Az importálási kivétel kezelése
 

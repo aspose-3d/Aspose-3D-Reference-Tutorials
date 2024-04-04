@@ -84,7 +84,7 @@ S: Aspose.3D stöder olika 3D-modellformat, vilket gör den kompatibel med mång
 ### F: Hur kan jag felsöka renderingsproblem?
  S: Kontrollera Aspose.3D[forum](https://forum.aspose.com/c/3d/18) för support och lösningar på vanliga renderingsproblem.
 ### F: Finns det en gratis provperiod?
- S: Ja, du kan utforska funktionerna i Aspose.3D genom att skaffa en[gratis provperiod](https://releases.aspose.com/).
+S: Ja, du kan utforska funktionerna i Aspose.3D genom att skaffa en[gratis provperiod](https://releases.aspose.com/).
 ### F: Var kan jag hitta omfattande dokumentation?
  S: Se[dokumentation](https://reference.aspose.com/3d/net/) för djupgående vägledning om Aspose.3D för .NET.
 ### F: Hur köper jag Aspose.3D för .NET?

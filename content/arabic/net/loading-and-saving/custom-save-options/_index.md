@@ -1,8 +1,8 @@
 ---
-title: التحميل والحفظ - خيارات الحفظ المخصصة
-linktitle: التحميل والحفظ - خيارات الحفظ المخصصة
+title: خيارات الحفظ المخصصة
+linktitle: خيارات الحفظ المخصصة
 second_title: Aspose.3D.NET API
-description: اكتشف قوة Aspose.3D لـ .NET. تعرف على كيفية تخصيص حفظ المشهد ثلاثي الأبعاد باستخدام أدلة خطوة بخطوة على تنسيقات Collada و3DS وFBX وOBJ وSTL وU3D وglTF وDRC وRVM.
+description: اكتشف قوة Aspose.3D لـ .NET. تعرف على كيفية تخصيص حفظ المشهد ثلاثي الأبعاد باستخدام أدلة خطوة بخطوة على تنسيقات Collada وUSD و3DS وFBX وOBJ وSTL وU3D وglTF وDRC وRVM.
 type: docs
 weight: 21
 url: /ar/net/loading-and-saving/custom-save-options/

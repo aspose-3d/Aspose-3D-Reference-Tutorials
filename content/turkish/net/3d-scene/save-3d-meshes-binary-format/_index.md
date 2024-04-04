@@ -41,12 +41,24 @@ using System.Text;
 Aspose.3D'yi kullanarak 3D dosyanızı yükleyin. Bu örnekte "test.fbx" adlı bir dosya yüklüyoruz:
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## Adım 2: Özel İkili Formatı Tanımlayın
 
-3B kafeslerinizi kaydetmek istediğiniz özel ikili formatın yapısını tanımlayın. Örnekte, bileşenler olarak MeshBlock, Vertex ve Triangle içeren bir yapı kullanılır.
+3B kafeslerinizi kaydetmek istediğiniz özel ikili formatın yapısını tanımlayın. Örnekte, bileşenler olarak MeshBlock, Vertex ve Triangle içeren bir yapı kullanılıyor.
+
+```csharp
+// Bir köşenin hafıza düzeni
+// kayan nokta[3] konumu;
+// kayan nokta[3] normal;
+// kayan nokta[3] uv;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## Adım 3: Dosyayı Yazmak İçin Açın
 
@@ -79,11 +91,30 @@ Her mesh varlığı için, kontrol noktalarını dünya uzayına dönüştürün
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (kontrol noktalarını ve üçgen indekslerini yazmaya devam edin)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//Ağın bellek düzeni şöyledir:
+// float[16] transform_matrix;
+// int vertices_count;
+// int indeks_sayısı;
+// vertex[vertices_count] köşe noktaları;
+// ushort[indices_count] endeksleri;
+
+
+//dönüşümü yaz
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//köşe/indeks sayısını yaz
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//köşeleri ve indeksleri yaz
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## Çözüm
@@ -98,7 +129,7 @@ Cevap1: Aspose.3D öncelikli olarak .NET dillerini destekler ancak diğer diller
 
 ### S2: Ek örnekleri ve kaynakları nerede bulabilirim?
 
- A2:[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) destek, örnekler bulmak ve toplulukla etkileşim kurmak için harika bir yerdir.
+ A2:[Aspose.3D forumu](https://forum.aspose.com/c/3d/18)destek, örnekler bulmak ve toplulukla etkileşim kurmak için harika bir yerdir.
 
 ### S3: Aspose.3D'nin deneme sürümü mevcut mu?
 

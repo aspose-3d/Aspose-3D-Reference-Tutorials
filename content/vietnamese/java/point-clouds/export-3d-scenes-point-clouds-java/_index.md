@@ -65,7 +65,7 @@ opt.setPointCloud(true);
 Lưu cảnh 3D dưới dạng đám mây điểm trong thư mục mong muốn:
 
 ```java
-// Cứu
+//Cứu
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 

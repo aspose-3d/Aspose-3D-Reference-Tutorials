@@ -1,6 +1,6 @@
 ---
-title: Nakładanie materiału na kostkę w scenach 3D
-linktitle: Nakładanie materiału na kostkę w scenach 3D
+title: Nakładanie materiału na kostkę
+linktitle: Nakładanie materiału na kostkę
 second_title: Aspose.3D API .NET
 description: Poznaj Aspose.3D dla .NET, swoją bramę do płynnej manipulacji grafiką 3D. Bez wysiłku stosuj materiały, zwiększ realizm i podnieś poziom swoich projektów.
 type: docs
@@ -42,17 +42,12 @@ using System.IO;
 // Zainicjuj obiekt sceny
 Scene scene = new Scene();
 
-// Zainicjuj obiekt węzła kostki
-Node cubeNode = new Node("cube");
+// Utwórz instancję pudełka.
+var box = new Box();
 
-// Wywołaj klasę Common, aby utworzyć siatkę przy użyciu metody konstruktora wielokątów, aby ustawić instancję siatki
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+// Dołącz instancję pudełka do sceny
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//Wskaż węzeł na siatkę
-cubeNode.Entity = mesh;
-
-// Dodaj kostkę do sceny
-scene.RootNode.ChildNodes.Add(cubeNode);
 // ExEnd:InitializeSceneAndCube
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 // Ustaw lokalną ścieżkę pliku tekstury
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 // Ustaw teksturę materiału
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,8 +77,8 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 // Ustaw zawartość binarną
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-//ExEnd:EmbedRawContentData
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
+// ExEnd:EmbedRawContentData
 ```
 
 ## Krok 4: Ustaw właściwości materiału
@@ -105,11 +100,11 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart: Zapisz3DScene
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
-//Zapisz scenę 3D w obsługiwanych formatach plików
-scene.Save(output, FileFormat.FBX7400ASCII);
-// Rozwiń: Zapisz3DScenę
+// Zapisz scenę 3D w obsługiwanych formatach plików
+scene.Save(output);
+//Rozwiń: Zapisz3DScenę
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
 ```
@@ -140,4 +135,4 @@ O3: Tak, Aspose.3D zapewnia kompleksową obsługę tworzenia i manipulowania ani
 
 ### P5: Jak mogę uzyskać pomoc w przypadku jakichkolwiek problemów lub zapytań?
 
-A5: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) nawiązać kontakt ze społecznością i poprosić o pomoc.
+ A5: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) nawiązać kontakt ze społecznością i poprosić o pomoc.

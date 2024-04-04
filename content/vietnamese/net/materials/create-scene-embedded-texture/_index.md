@@ -13,7 +13,7 @@ Chào mừng bạn đến với thế giới đồ họa 3D thú vị với Aspo
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 - Hiểu biết cơ bản về lập trình C# và .NET.
 - Visual Studio được cài đặt trên máy của bạn.
--  Thư viện Aspose.3D cho .NET mà bạn có thể tải xuống[đây](https://releases.aspose.com/3d/net/).
+- Thư viện Aspose.3D cho .NET mà bạn có thể tải xuống[đây](https://releases.aspose.com/3d/net/).
 - Làm quen với các khái niệm về đồ họa 3D và tạo cảnh.
 ## Nhập không gian tên
 Bắt đầu bằng cách nhập các không gian tên cần thiết vào dự án của bạn. Các không gian tên này sẽ cung cấp cho bạn các công cụ và chức năng cần thiết để thao tác đồ họa 3D.
@@ -38,13 +38,13 @@ Bắt đầu bằng cách tạo cảnh 3D mới bằng Aspose.3D cho .NET. Đi�
 Scene scene = new Scene();
 ```
 ## Bước 2: Tạo một kết cấu nhúng
-Bây giờ, hãy thêm một số điểm nhấn trực quan vào khung cảnh của bạn bằng cách nhúng một họa tiết. Chúng tôi sẽ tạo một kết cấu có nội dung tùy chỉnh và gán cho nó một tên tệp.
+Bây giờ, hãy thêm một số điểm nhấn trực quan vào cảnh của bạn bằng cách nhúng một họa tiết. Chúng tôi sẽ tạo một kết cấu có nội dung tùy chỉnh và gán cho nó một tên tệp.
 ```csharp
 // Tạo một kết cấu nhúng
 Texture tex = new Texture()
 {
     Content = CreateTextureContent(),
-    // Tên tệp là bắt buộc nếu sử dụng kết cấu nhúng.
+    //Tên tệp là bắt buộc nếu sử dụng kết cấu nhúng.
     FileName = "test.png"
 };
 tex.SetProperty("TexProp", "value");
@@ -102,8 +102,8 @@ Trong hướng dẫn này, chúng ta đã khám phá những kiến thức cơ b
 ### Câu hỏi: Tôi có thể sử dụng Aspose.3D cho .NET với các ngôn ngữ lập trình khác không?
 Trả lời: Aspose.3D được thiết kế chủ yếu cho .NET, nhưng cũng có những thư viện tương tự dành cho các ngôn ngữ khác.
 ### Câu hỏi: Làm cách nào tôi có thể áp dụng hoạt ảnh cho cảnh 3D của mình?
-Đáp: Aspose.3D cung cấp khả năng hoạt ảnh; tham khảo tài liệu để được hướng dẫn chi tiết.
-### Câu hỏi: Có phiên bản dùng thử dành cho Aspose.3D cho .NET không?
+Đáp: Aspose.3D cung cấp khả năng hoạt hình; tham khảo tài liệu để được hướng dẫn chi tiết.
+### Câu hỏi: Có phiên bản dùng thử cho Aspose.3D cho .NET không?
  A: Có, bạn có thể tải xuống phiên bản dùng thử[đây](https://releases.aspose.com/).
 ### Hỏi: Tôi có thể tìm thêm nguồn hỗ trợ và nguồn lực ở đâu?
  Đáp: Hãy ghé thăm[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để được cộng đồng hỗ trợ và thảo luận.

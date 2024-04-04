@@ -1,6 +1,6 @@
 ---
-title: تطبيق المادة على المكعب في مشاهد ثلاثية الأبعاد
-linktitle: تطبيق المادة على المكعب في مشاهد ثلاثية الأبعاد
+title: تطبيق المواد على المكعب
+linktitle: تطبيق المواد على المكعب
 second_title: Aspose.3D.NET API
 description: استكشف Aspose.3D for .NET، بوابتك إلى معالجة الرسومات ثلاثية الأبعاد بشكل سلس. قم بتطبيق المواد دون عناء، وتعزيز الواقعية، والارتقاء بمشاريعك.
 type: docs
@@ -42,17 +42,12 @@ using System.IO;
 // تهيئة كائن المشهد
 Scene scene = new Scene();
 
-// تهيئة كائن عقدة المكعب
-Node cubeNode = new Node("cube");
+// إنشاء مثيل مربع.
+var box = new Box();
 
-// استدعاء الفئة المشتركة لإنشاء شبكة باستخدام طريقة إنشاء المضلع لتعيين مثيل الشبكة
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+// قم بإرفاق مثيل الصندوق بالمشهد
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//نقطة العقدة إلى الشبكة
-cubeNode.Entity = mesh;
-
-// إضافة مكعب إلى مكان الحادث
-scene.RootNode.ChildNodes.Add(cubeNode);
 // ExEnd: تهيئة المشهد والمكعب
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 // قم بتعيين مسار الملف المحلي للنسيج
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 // ضبط نسيج المادة
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,8 +77,8 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 // تعيين المحتوى الثنائي
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-//ExEnd:EmbedRawContentData
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
+// ExEnd:EmbedRawContentData
 ```
 
 ## الخطوة 4: تعيين خصائص المواد
@@ -105,11 +100,11 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart: Save3DScene
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
-//حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
-scene.Save(output, FileFormat.FBX7400ASCII);
-// ExEnd:Save3DScene
+// حفظ المشهد ثلاثي الأبعاد بتنسيقات الملفات المدعومة
+scene.Save(output);
+//ExEnd:Save3DScene
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
 ```
@@ -140,4 +135,4 @@ Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + out
 
 ### س5: كيف يمكنني الحصول على الدعم لأية مشكلات أو استفسارات؟
 
-ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) للتواصل مع المجتمع وطلب المساعدة.
+ ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) للتواصل مع المجتمع وطلب المساعدة.

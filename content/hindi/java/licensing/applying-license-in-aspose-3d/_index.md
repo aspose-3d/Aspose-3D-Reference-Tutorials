@@ -22,7 +22,8 @@ url: /hi/java/licensing/applying-license-in-aspose-3d/
 
 आरंभ करने के लिए, अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करें। सुनिश्चित करें कि Aspose.3D आपके क्लासपाथ में जोड़ा गया है। यहाँ एक उदाहरण है:
 
-```javaimport com.aspose.threed.License;
+```java
+import com.aspose.threed.License;
 import com.aspose.threed.Metered;
 
 import java.io.FileInputStream;

@@ -1,6 +1,6 @@
 ---
-title: Chuyển đổi nút bằng Quaternion trong cảnh 3D
-linktitle: Chuyển đổi nút bằng Quaternion trong cảnh 3D
+title: Chuyển đổi nút bằng Quaternion
+linktitle: Chuyển đổi nút bằng Quaternion
 second_title: API Aspose.3D .NET
 description: Tìm hiểu cách chuyển đổi các nút 3D bằng quaternion bằng Aspose.3D cho .NET. Hướng dẫn từng bước cho người mới bắt đầu.
 type: docs
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Đường dẫn đến thư mục tài liệu.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
+// Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## Phần kết luận
 
-Chúc mừng! Bạn đã học thành công cách chuyển đổi nút bằng quaternion trong cảnh 3D bằng cách sử dụng Aspose.3D cho .NET. Khám phá thêm các tính năng và khả năng bằng cách tham khảo[tài liệu](https://reference.aspose.com/3d/net/).
+ Chúc mừng! Bạn đã học thành công cách chuyển đổi nút bằng quaternion trong cảnh 3D bằng cách sử dụng Aspose.3D cho .NET. Khám phá thêm các tính năng và khả năng bằng cách tham khảo[tài liệu](https://reference.aspose.com/3d/net/).
 
 ## Câu hỏi thường gặp
 

@@ -9,7 +9,7 @@ url: /hu/net/3d-scene/set-3d-properties/
 ---
 ## Bevezetés
 
-A magával ragadó háromdimenziós jelenetek létrehozása gyakran megköveteli a különféle tulajdonságok manipulálásának képességét, mélységet és valósághűséget adva a projektekhez. Az Aspose.3D for .NET hatékony eszközkészletet biztosít ennek eléréséhez, lehetővé téve a 3D jelenetek háromdimenziós tulajdonságainak zökkenőmentes beállítását és módosítását. Ebben az oktatóanyagban lépésről lépésre vizsgáljuk meg a folyamatot, és jobban megérti, hogyan használhatja hatékonyan az Aspose.3D-t .NET-hez.
+magával ragadó háromdimenziós jelenetek létrehozása gyakran megköveteli a különféle tulajdonságok manipulálásának képességét, mélységet és valósághűséget adva a projektekhez. Az Aspose.3D for .NET hatékony eszközkészletet biztosít ennek eléréséhez, lehetővé téve a 3D jelenetek háromdimenziós tulajdonságainak zökkenőmentes beállítását és módosítását. Ebben az oktatóanyagban lépésről lépésre vizsgáljuk meg a folyamatot, és jobban megérti, hogyan használhatja hatékonyan az Aspose.3D-t .NET-hez.
 
 ## Előfeltételek
 
@@ -19,11 +19,11 @@ Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik
 
 - Dokumentumkönyvtár: Hozzon létre egy könyvtárat a 3D dokumentumok tárolására.
 
-Most, hogy a legfontosabb dolgok a helyükön vannak, vizsgáljuk meg a háromdimenziós tulajdonságok beállításának folyamatát a 3D-s jelenetekben az Aspose.3D for .NET használatával.
+Most, hogy a legfontosabb dolgok a helyükön vannak, fedezzük fel a háromdimenziós tulajdonságok beállításának folyamatát 3D-s jelenetekben az Aspose.3D for .NET használatával.
 
 ## Névterek importálása
 
-kezdéshez importálja a szükséges névtereket a projektbe. Ezek a névterek biztosítják az Aspose.3D for .NET háromdimenziós tulajdonságainak kezeléséhez szükséges osztályokat és metódusokat.
+A kezdéshez importálja a szükséges névtereket a projektbe. Ezek a névterek biztosítják az Aspose.3D for .NET háromdimenziós tulajdonságainak kezeléséhez szükséges osztályokat és metódusokat.
 
 ```csharp
 using Aspose.ThreeD;
@@ -105,7 +105,7 @@ Console.WriteLine(pdiffuse);
 
 ## 6. lépés: Járja be az ingatlan tulajdonságait
 
- Mivel`Property` -től öröklődik`A3DObject`, bejárhatja egy ingatlan tulajdonságait.
+ Mivel`Property` -től öröklődik`A3DObject`bejárhatja egy ingatlan tulajdonságait.
 
 ```csharp
 //ExStart: TraversePropertyProperties

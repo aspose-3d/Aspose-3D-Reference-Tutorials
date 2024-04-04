@@ -1,6 +1,6 @@
 ---
-title: Mesh triangolare nelle scene 3D
-linktitle: Mesh triangolare nelle scene 3D
+title: Maglia triangolare
+linktitle: Maglia triangolare
 second_title: API Aspose.3D .NET
 description: Esplora la potenza di Aspose.3D per .NET in questa guida passo passo. Scopri come triangolare facilmente le mesh 3D per una modellazione avanzata.
 type: docs
@@ -17,7 +17,7 @@ Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
 
 - Libreria Aspose.3D per .NET: assicurati di avere la libreria Aspose.3D installata. Puoi scaricarlo[Qui](https://releases.aspose.com/3d/net/).
 
-- Modello 3D di esempio: disponi di un modello 3D nel formato FBX che desideri triangolare. È possibile utilizzare quanto fornito[documento.fbx](https://reference.aspose.com/3d/net/) file per esercitarsi.
+-  Modello 3D di esempio: disponi di un modello 3D nel formato FBX che desideri triangolare. È possibile utilizzare quanto fornito[documento.fbx](https://reference.aspose.com/3d/net/) file per esercitarsi.
 
 ## Importa spazi dei nomi
 

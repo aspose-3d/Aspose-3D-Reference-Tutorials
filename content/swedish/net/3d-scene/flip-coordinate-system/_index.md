@@ -16,8 +16,8 @@ Välkommen till den här steg-för-steg-guiden om hur du vänder koordinatsystem
 Innan du dyker in i handledningen, se till att du har följande förutsättningar:
 
 - Grundläggande förståelse för programmeringsspråket C#.
-- Aspose.3D för .NET-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/3d/net/).
-- Ett exempel på 3D-fil i ett format som stöds (t.ex. .3ds).
+-  Aspose.3D för .NET-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/3d/net/).
+- Ett exempel på 3D-fil i ett format som stöds (t.ex. .ma).
 
 ## Importera namnområden
 
@@ -37,19 +37,23 @@ using Aspose.ThreeD.Formats;
 
 ```csharp
 // Sökvägen till indatafilen
-string input = RunExamples.GetDataFilePath("camera.3ds");            
+string input = "camera.ma";
 // Initiera scenobjekt
 Scene scene = new Scene();
-scene.Open(input, FileFormat.Discreet3DS);
+scene.Open(input);
 ```
 
  I det här steget laddar vi en 3D-scen från den angivna filsökvägen med hjälp av`Open` metod.
 
-## Steg 2: Vänd koordinatsystemet
+## Steg 2: Vänd koordinatsystem
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
-scene.Save(output, FileFormat.WavefrontOBJ);
+var opt = new ObjSaveOptions()
+{
+    FlipCoordinateSystem = true
+};
+scene.Save(output, opt);
 ```
 
  Nu använder vi`Save` metod för att exportera scenen, vända koordinatsystemet i processen. Utdata sparas i Wavefront OBJ-format.

@@ -16,7 +16,7 @@ Bienvenido a esta guía paso a paso sobre cómo transformar nodos 3D con cuatern
 Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 
 - Conocimientos básicos de programación Java.
--  Aspose.3D para Java instalado. Puedes descargarlo[aquí](https://releases.aspose.com/3d/java/).
+- Aspose.3D para Java instalado. Puedes descargarlo[aquí](https://releases.aspose.com/3d/java/).
 - Un directorio de documentos configurado para guardar sus escenas 3D.
 
 ## Importar paquetes

@@ -16,7 +16,7 @@ Das Erstellen und Bearbeiten von 3D-Netzdaten in Java kann eine herausfordernde 
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 
 - Grundkenntnisse der Java-Programmierung.
--  Aspose.3D für Java installiert. Sie können es herunterladen[Hier](https://releases.aspose.com/3d/java/).
+- Aspose.3D für Java installiert. Sie können es herunterladen[Hier](https://releases.aspose.com/3d/java/).
 - Eine 3D-Datei im 3ds-Format. Als Beispiel verwenden wir „camera.3ds“.
 
 ## Pakete importieren

@@ -16,7 +16,7 @@ Aspose.3D untuk Java adalah perpustakaan serbaguna yang memungkinkan pengembang 
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) diinstal pada mesin Anda.
-- Aspose.3D untuk perpustakaan Java diunduh. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/3d/java/).
+-  Aspose.3D untuk perpustakaan Java diunduh. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/3d/java/).
 
 ## Paket Impor
 
@@ -94,7 +94,7 @@ A1: Ya, Aspose.3D untuk Java melayani kebutuhan pengembang dengan berbagai tingk
 
 ### Q3: Apakah ada opsi uji coba gratis yang tersedia?
 
- A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 
 ### Q4: Di mana saya dapat menemukan dukungan untuk Aspose.3D untuk Java?
 

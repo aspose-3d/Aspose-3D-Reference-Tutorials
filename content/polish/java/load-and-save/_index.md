@@ -28,7 +28,7 @@ Ulepsz ładowanie plików 3D w Javie dzięki konfigurowalnym opcjom LoadOptions 
 
  Osiągnij większy realizm w grafice 3D dzięki Aspose.3D. Dowiedz się, jak bez wysiłku uaktualnić materiały 3D do renderowania opartego na fizyce (PBR) w Javie. Zachwyć odbiorców oszałamiającymi wizualnie efektami wizualnymi[Tutaj](./upgrade-materials-to-pbr/).
 
-## Czytaj istniejące sceny 3D bez wysiłku w Javie za pomocą Aspose.3D
+## Bez wysiłku czytaj istniejące sceny 3D w Javie za pomocą Aspose.3D
 
  Odkryj ogromne możliwości czytania i manipulowania istniejącymi scenami 3D w Javie za pomocą Aspose.3D. Odkryj sekrety płynnej grafiki 3D[Tutaj](./read-existing-3d-scenes/).
 
@@ -50,7 +50,7 @@ Bez wysiłku wykrywaj formaty plików 3D w Javie za pomocą Aspose.3D. Usprawnij
 Ulepsz ładowanie plików 3D w Javie dzięki konfigurowalnym modułom LoadOptions Aspose.3D. Naucz się krok po kroku dostosowywania dla 3DS, OBJ, STL, U3D, glTF, PLY, X i opcjonalnego FBX.
 ### [Uaktualnij materiały 3D do wersji PBR, aby uzyskać większy realizm w Javie za pomocą Aspose.3D](./upgrade-materials-to-pbr/)
 Bezproblemowo aktualizuj materiały 3D do PBR w Javie za pomocą Aspose.3D. Osiągnij większy realizm i urzekające efekty wizualne.
-### [Czytaj istniejące sceny 3D bez wysiłku w Javie za pomocą Aspose.3D](./read-existing-3d-scenes/)
+### [Bez wysiłku czytaj istniejące sceny 3D w Javie za pomocą Aspose.3D](./read-existing-3d-scenes/)
 Poznaj świat grafiki 3D dzięki Aspose.3D dla Java. Bez wysiłku czytaj i manipuluj istniejącymi scenami 3D.
 ### [Zapisuj sceny 3D w różnych formatach za pomocą Aspose.3D dla Java](./save-3d-scenes/)
 Poznaj płynny świat manipulacji scenami 3D w Javie dzięki Aspose.3D. Dowiedz się, jak bez wysiłku zapisywać sceny w różnych formatach.

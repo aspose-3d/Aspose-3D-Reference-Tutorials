@@ -101,7 +101,7 @@ Bu kod parçacığı, 3B modelde nasıl geçiş yapılacağını, ağların nas�
 
 ## Çözüm
 
-Bu eğitimi takip ederek, 3D ağları özel bir ikili formatta kaydetmek için Aspose.3D for Java'yı nasıl kullanacağınızı öğrendiniz ve böylece Java uygulamalarınızın esnekliğini artırdınız.
+Bu eğitimi takip ederek, 3D ağları özel bir ikili formatta kaydetmek için Aspose.3D for Java'yı nasıl kullanacağınızı öğrendiniz, böylece Java uygulamalarınızın esnekliğini artırdınız.
 
 ## SSS'ler
 
@@ -115,7 +115,7 @@ Cevap1: Evet, Aspose.3D çeşitli 3D model formatlarını destekleyerek gelişti
 
 ### S3: Aspose.3D for Java desteğini nerede bulabilirim?
 
- A3: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18)herhangi bir yardım veya sorularınız için.
+ A3: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) herhangi bir yardım veya sorularınız için.
 
 ### S4: Test için kullanılabilecek örnek 3D modeller var mı?
 

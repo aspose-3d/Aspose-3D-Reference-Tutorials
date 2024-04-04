@@ -14,7 +14,7 @@ Bạn đã sẵn sàng khám phá thế giới đồ họa 3D hấp dẫn với 
 
 Đi sâu vào lĩnh vực Kết xuất dựa trên vật lý (PBR) với Aspose.3D. Hướng dẫn của chúng tôi hướng dẫn bạn quy trình áp dụng các vật liệu PBR thực tế cho các đối tượng 3D của bạn trong Java. Nâng cao chất lượng hình ảnh của các dự án của bạn một cách dễ dàng.[Đọc thêm](./apply-pbr-materials-to-objects/)
 
-## Ghép nối các Quaternions cho phép quay 3D trong Java với Aspose.3D
+## Ghép nối các bậc bốn cho phép quay 3D trong Java với Aspose.3D
 
  Khám phá bí mật về phép quay 3D liền mạch trong Java bằng Aspose.3D. Hướng dẫn từng bước của chúng tôi sẽ hướng dẫn bạn cách ghép nối các quaternion, cho phép chuyển đổi hoạt ảnh mượt mà. Hãy cách mạng hóa các ứng dụng Java của bạn ngay bây giờ.[Đọc thêm](./concatenate-quaternions-for-3d-rotations/)
 
@@ -65,7 +65,7 @@ Khám phá thế giới đồ họa 3D trong Java với Aspose.3D. Tìm hiểu c
 ## Làm việc với Hình học 3D trong Hướng dẫn Java
 ### [Áp dụng Vật liệu PBR cho Đối tượng 3D trong Java với Aspose.3D](./apply-pbr-materials-to-objects/)
 Tìm hiểu cách áp dụng vật liệu PBR thực tế cho các đối tượng 3D trong Java bằng Aspose.3D. Nâng cao chất lượng hình ảnh với Kết xuất dựa trên vật lý.
-### [Ghép nối các Quaternions cho phép quay 3D trong Java với Aspose.3D](./concatenate-quaternions-for-3d-rotations/)
+### [Ghép nối các bậc bốn cho phép quay 3D trong Java với Aspose.3D](./concatenate-quaternions-for-3d-rotations/)
 Tìm hiểu cách ghép nối các bậc bốn để xoay 3D trong Java bằng cách sử dụng Aspose.3D. Hãy làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi hoạt ảnh liền mạch.
 ### [Tạo cảnh khối 3D trong Java với Aspose.3D](./create-3d-cube-scene/)
 Khám phá sự kỳ diệu của đồ họa cảnh khối 3D với Aspose.3D cho Java. Tạo cảnh tuyệt đẹp một cách dễ dàng.

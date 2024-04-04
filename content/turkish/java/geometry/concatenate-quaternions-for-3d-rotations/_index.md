@@ -16,7 +16,7 @@ Kuaterniyon birleştirme, 3D grafiklerde temel bir kavramdır ve birden fazla d�
 Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
 - Java programlamanın temel bilgisi.
--  Aspose.3D for Java yüklü. İndirebilirsin[Burada](https://releases.aspose.com/3d/java/).
+- Aspose.3D for Java yüklü. İndirebilirsin[Burada](https://releases.aspose.com/3d/java/).
 
 ## Paketleri İçe Aktar
 

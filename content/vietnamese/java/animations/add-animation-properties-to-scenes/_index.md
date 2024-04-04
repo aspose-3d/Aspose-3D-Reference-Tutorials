@@ -54,7 +54,7 @@ Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ## Bước 4: Tìm thuộc tính dịch
 
 ```java
-// Tìm thuộc tính dịch trên đối tượng biến đổi của nút
+//Tìm thuộc tính dịch trên đối tượng biến đổi của nút
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
@@ -99,7 +99,7 @@ bindPoint.bindKeyframeSequence("Z", kfs);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "PropertyToDocument.fbx";
 
-//Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
+// Lưu cảnh 3D ở các định dạng tệp được hỗ trợ
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
@@ -119,7 +119,7 @@ Chúc mừng! Bạn đã thêm thành công các thuộc tính hoạt ảnh vào
 
 ### Câu hỏi 3: Tôi có thể tìm hỗ trợ cho Aspose.3D ở đâu?
 
- A3: Tham gia cộng đồng tại[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để được hỗ trợ.
+A3: Tham gia cộng đồng tại[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để được hỗ trợ.
 
 ### Q4: Làm thế nào tôi có thể nhận được giấy phép tạm thời?
 

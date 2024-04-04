@@ -97,4 +97,4 @@ Gratulujeme! Úspěšně jste nastavili cílovou kameru pro 3D animace v Javě p
 
 ### Q5: Jak mohu získat dočasnou licenci?
 
-A5: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ A5: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).

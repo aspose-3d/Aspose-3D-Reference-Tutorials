@@ -54,7 +54,7 @@ Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ## ขั้นตอนที่ 4: ค้นหาคุณสมบัติการแปล
 
 ```java
-// ค้นหาคุณสมบัติการแปลบนวัตถุการแปลงของโหนด
+//ค้นหาคุณสมบัติการแปลบนวัตถุการแปลงของโหนด
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
@@ -99,7 +99,7 @@ bindPoint.bindKeyframeSequence("Z", kfs);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "PropertyToDocument.fbx";
 
-//บันทึกฉาก 3 มิติในรูปแบบไฟล์ที่รองรับ
+// บันทึกฉาก 3 มิติในรูปแบบไฟล์ที่รองรับ
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
@@ -119,7 +119,7 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 
 ### คำถามที่ 3: ฉันจะรับการสนับสนุนสำหรับ Aspose.3D ได้ที่ไหน
 
- A3: เข้าร่วมชุมชนได้ที่[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) สำหรับความช่วยเหลือ.
+A3: เข้าร่วมชุมชนได้ที่[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) สำหรับความช่วยเหลือ.
 
 ### คำถามที่ 4: ฉันจะรับใบอนุญาตชั่วคราวได้อย่างไร
 

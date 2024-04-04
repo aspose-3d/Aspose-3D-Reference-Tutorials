@@ -17,7 +17,7 @@ Készen állsz, hogy javítsd 3D-s fejlesztési készségeidet Java nyelven? Mer
 
 ## Adatok generálása 3D hálókhoz Java nyelven (normálok, érintők, binormálisok)
 
-Készen áll arra, hogy Java projektjeit a következő szintre emelje?[Adatok generálása 3D hálókhoz Java nyelven (normálok, érintők, binormálisok)](./generate-mesh-data/) Az Aspose.3D a szükséges oktatóanyag. Merüljön el mélyen a 3D grafika bonyolultságaiban, miközben végigvezetjük Önt a 3D hálók normál adatainak egyszerű generálásán. Tanulja meg, hogyan javíthatja projektjei vizuális vonzerejét, és hogyan navigálhat magabiztosan a 3D világában.
+ Készen áll arra, hogy Java projektjeit a következő szintre emelje?[Adatok generálása 3D hálókhoz Java nyelven (normálok, érintők, binormálisok)](./generate-mesh-data/)Az Aspose.3D a szükséges oktatóanyag. Merüljön el mélyen a 3D grafika bonyolultságaiban, miközben végigvezetjük Önt a 3D hálók normál adatainak egyszerű generálásán. Tanulja meg, hogyan javíthatja projektjei vizuális vonzerejét, és hogyan navigálhat magabiztosan a 3D világában.
 
 ## Ossza fel a 3D hálókat anyag szerint a hatékony Java feldolgozás érdekében
 

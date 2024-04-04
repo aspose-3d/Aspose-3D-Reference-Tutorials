@@ -34,7 +34,7 @@ String MyDir = "Your Document Directory";
 // Initialiser une scène
 Scene scene = new Scene();
 ```
-## Étape 2 : Ouvrir le fichier VRML
+## Étape 2 : ouvrir le fichier VRML
 Ensuite, ouvrez un fichier VRML dans votre scène. C'est la passerelle vers le modèle 3D que vous souhaitez manipuler.
 ```java
 // Format de fichier VRML (Virtual Reality Modeling Language) ouvert

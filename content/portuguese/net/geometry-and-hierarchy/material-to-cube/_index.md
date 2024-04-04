@@ -1,6 +1,6 @@
 ---
-title: Aplicando Material ao Cubo em Cenas 3D
-linktitle: Aplicando Material ao Cubo em Cenas 3D
+title: Aplicando Material ao Cubo
+linktitle: Aplicando Material ao Cubo
 second_title: API Aspose.3D .NET
 description: Explore o Aspose.3D for .NET, sua porta de entrada para a manipulação perfeita de gráficos 3D. Aplique materiais sem esforço, aumente o realismo e eleve seus projetos.
 type: docs
@@ -42,17 +42,12 @@ using System.IO;
 // Inicializar objeto de cena
 Scene scene = new Scene();
 
-// Inicializar objeto de nó de cubo
-Node cubeNode = new Node("cube");
+// Crie uma instância de caixa.
+var box = new Box();
 
-// Chame a classe Common para criar malha usando o método construtor de polígono para definir a instância da malha
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+// Anexe a instância da caixa à cena
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//Apontar nó para a malha
-cubeNode.Entity = mesh;
-
-// Adicione um cubo à cena
-scene.RootNode.ChildNodes.Add(cubeNode);
 // ExEnd:InitializeSceneAndCube
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 // Defina o caminho do arquivo local para a textura
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 // Definir textura do material
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,8 +77,8 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 // Definir conteúdo binário
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-//ExEnd:EmbedRawContentData
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
+// ExEnd:EmbedRawContentData
 ```
 
 ## Etapa 4: definir propriedades do material
@@ -105,11 +100,11 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart:Salvar3DScene
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
-//Salve cenas 3D nos formatos de arquivo suportados
-scene.Save(output, FileFormat.FBX7400ASCII);
-// ExEnd:Save3DScene
+// Salve cenas 3D nos formatos de arquivo suportados
+scene.Save(output);
+//ExEnd:Save3DScene
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
 ```
@@ -140,4 +135,4 @@ R3: Sim, o Aspose.3D oferece suporte abrangente para criação e manipulação d
 
 ### P5: Como posso obter suporte para quaisquer problemas ou dúvidas?
 
-A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para se conectar com a comunidade e buscar assistência.
+ A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para se conectar com a comunidade e buscar assistência.

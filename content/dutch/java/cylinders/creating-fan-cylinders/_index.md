@@ -15,7 +15,7 @@ Bent u klaar om uw 3D-modelleringservaring naar een hoger niveau te tillen met A
 
 Voordat we in de tutorial duiken, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
 
--  Java Development Kit (JDK): Zorg ervoor dat JDK op uw systeem is geïnstalleerd. Je kunt het downloaden[hier](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Java Development Kit (JDK): Zorg ervoor dat JDK op uw systeem is geïnstalleerd. Je kunt het downloaden[hier](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 -  Aspose.3D voor Java: Download en installeer de Aspose.3D-bibliotheek voor Java vanaf de[download link](https://releases.aspose.com/3d/java/).
 

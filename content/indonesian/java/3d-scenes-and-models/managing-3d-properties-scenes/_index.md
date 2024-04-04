@@ -16,7 +16,7 @@ Selamat datang di panduan komprehensif tentang bekerja dengan properti 3D dan da
 Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) diinstal pada mesin Anda.
-- Pustaka Aspose.3D diunduh dan disiapkan. Anda dapat mengunduhnya dari[Asumsikan situs web](https://releases.aspose.com/3d/java/).
+-  Pustaka Aspose.3D diunduh dan disiapkan. Anda dapat mengunduhnya dari[Asumsikan situs web](https://releases.aspose.com/3d/java/).
 - Pemahaman dasar tentang pemrograman Java.
 
 ## Paket Impor
@@ -107,7 +107,7 @@ Selamat! Anda telah berhasil mempelajari cara bekerja dengan properti 3D dan dat
 
 ### Q1: Bagaimana cara menginstal perpustakaan Aspose.3D di proyek Java saya?
 
- A1: Anda dapat mengunduh perpustakaan dari[Asumsikan situs web](https://releases.aspose.com/3d/java/)dan ikuti petunjuk instalasi yang disediakan dalam dokumentasi.
+ A1: Anda dapat mengunduh perpustakaan dari[Asumsikan situs web](https://releases.aspose.com/3d/java/) dan ikuti petunjuk instalasi yang disediakan dalam dokumentasi.
 
 ### Q2: Apakah ada opsi uji coba gratis yang tersedia untuk Aspose.3D?
 
@@ -119,7 +119,7 @@ Selamat! Anda telah berhasil mempelajari cara bekerja dengan properti 3D dan dat
 
 ### Q4: Apakah ada forum dukungan untuk Aspose.3D di mana saya dapat mengajukan pertanyaan dan mencari bantuan?
 
- A4: Ya, kunjungi[Forum dukungan Aspose.3D](https://forum.aspose.com/c/3d/18) untuk terhubung dengan komunitas dan mendapatkan bantuan dari para ahli.
+A4: Ya, kunjungi[Forum dukungan Aspose.3D](https://forum.aspose.com/c/3d/18) untuk terhubung dengan komunitas dan mendapatkan bantuan dari para ahli.
 
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
 

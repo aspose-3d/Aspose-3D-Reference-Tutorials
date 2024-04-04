@@ -19,13 +19,13 @@ Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymag
 
 2.  Biblioteka Aspose.3D: Pobierz i zainstaluj bibliotekę Aspose.3D z[link do pobrania](https://releases.aspose.com/3d/java/).
 
-3.  Dokumentacja: Patrz[dokumentacja](https://reference.aspose.com/3d/java/) dla Aspose.3D, aby zapoznać się z funkcjami biblioteki.
+3.  Dokumentacja: Patrz[dokumentacja](https://reference.aspose.com/3d/java/)dla Aspose.3D, aby zapoznać się z funkcjami biblioteki.
 
 4.  Licencja tymczasowa (opcjonalnie): Jeśli nie masz licencji, możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla testów.
 
 ## Importuj pakiety
 
-swoim projekcie Java dołącz pakiety niezbędne do korzystania z Aspose.3D. Dodaj następujące instrukcje importu do swojego kodu:
+W swoim projekcie Java dołącz pakiety niezbędne do korzystania z Aspose.3D. Dodaj następujące instrukcje importu do swojego kodu:
 
 ```java
 import com.aspose.threed.*;
@@ -72,7 +72,7 @@ Zapisz scenę 3D, łącznie z zastosowanym materiałem PBR, w określonym formac
 ```java
 // ExStart: Zapisz3DScene
 scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
-// Rozwiń: Zapisz3DScenę
+//Rozwiń: Zapisz3DScenę
 ```
 
 Powtórz te kroki dla bardziej złożonych scen lub różnych obiektów.

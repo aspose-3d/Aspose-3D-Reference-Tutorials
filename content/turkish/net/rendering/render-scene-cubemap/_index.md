@@ -8,7 +8,7 @@ weight: 14
 url: /tr/net/rendering/render-scene-cubemap/
 ---
 ## giriiş
-Aspose.3D for .NET kullanarak bir sahneyi altı yüzlü bir küp haritasına dönüştürmeyi anlatan bu adım adım kılavuza hoş geldiniz. Bu eğitimde, bir 3B sahneyi işleyerek çarpıcı bir küp haritası oluşturma sürecinde size yol göstereceğiz. Aspose.3D, 3D grafik manipülasyonunu basitleştiren güçlü bir .NET API'sidir ve bu kılavuzla, büyüleyici küp haritaları oluşturmak için onun yeteneklerinden yararlanacaksınız.
+Aspose.3D for .NET kullanarak bir sahneyi altı yüzlü bir küp haritasına dönüştürmeyi anlatan bu adım adım kılavuza hoş geldiniz. Bu eğitimde, bir 3B sahneyi işleyerek çarpıcı bir küp haritası oluşturma sürecinde size yol göstereceğiz. Aspose.3D, 3D grafik manipülasyonunu kolaylaştıran güçlü bir .NET API'sidir ve bu kılavuzla, büyüleyici küp haritaları oluşturmak için onun yeteneklerinden yararlanacaksınız.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 - C# ve .NET geliştirme konusunda çalışma bilgisi.

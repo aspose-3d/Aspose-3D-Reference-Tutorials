@@ -9,7 +9,7 @@ url: /fr/java/point-clouds/create-point-clouds-java/
 ---
 ## Introduction
 
-Bienvenue dans ce didacticiel complet sur la création de nuages de points à partir de maillages en Java à l'aide d'Aspose.3D. Aspose.3D est une puissante bibliothèque Java qui fournit des fonctionnalités étendues pour la modélisation et la manipulation 3D. Dans ce didacticiel, nous vous guiderons tout au long du processus de génération de nuages de points à partir de maillages, en vous proposant des étapes claires et détaillées pour une expérience fluide.
+Bienvenue dans ce didacticiel complet sur la création de nuages de points à partir de maillages en Java à l'aide d'Aspose.3D. Aspose.3D est une puissante bibliothèque Java qui fournit des fonctionnalités étendues pour la modélisation et la manipulation 3D. Dans ce didacticiel, nous vous guiderons tout au long du processus de génération de nuages de points à partir de maillages, en vous proposant des étapes claires et détaillées pour une expérience transparente.
 
 ## Conditions préalables
 

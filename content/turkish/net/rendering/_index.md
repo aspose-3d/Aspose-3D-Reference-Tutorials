@@ -12,20 +12,32 @@ url: /tr/net/rendering/
 3D render alanında heyecan verici bir yolculuğa çıkmaya hazır mısınız? Başka yerde arama! Aspose.3D for .NET, olasılıklar dünyasının kapısını açarak yaratıcılığınızı açığa çıkarmanıza ve becerilerinizi geliştirmenize olanak tanır. Bu kapsamlı eğitim listesinde, Aspose.3D for .NET kullanarak görüntü oluşturmanın en ilgi çekici yönlerinden bazılarında size rehberlik edeceğiz.
 
 ## Gölgeleri Oluşturmak ve Almak
-### [Gölgeleri Oluşturma ve Alma Eğitimi](./cast-receive-shadows/)
  Aspose.3D for .NET ile 3D görüntüleme alanında gölge oluşturma ve alma sanatının derinliklerine dalın. Adım adım kılavuzumuz, bu temel tekniğe zahmetsizce hakim olmanızı sağlayarak sahnelerinize dinamik ve gerçekçi gölgelerle hayat verir. Render oyununuzu yükseltmeye hazır mısınız?[Şimdi başla!](./cast-receive-shadows/)
+
+[Eğiticiyi okuyun: Gölgeleri Oluşturma ve Alma Eğitimi](./cast-receive-shadows/)
+
+
+## 3D Sahnelerde Görüntü Alanlarını Yakalama
+Bu eğitimde Aspose.3D for .NET'i kullanarak 3D sahnelerde görünüm yakalama sürecini araştırdık. Güçlü özelliklerinden yararlanarak, 3D grafik projelerinizi yeni boyutlara taşıyarak büyüleyici görsel deneyimler sağlayabilirsiniz.
+
+[Eğiticiyi okuyun: 3B Sahnelerde Görünüm Pencerelerini Yakalama](./capture-viewport/)
+
 
 ## Kameradan 3D Model Görüntüsü Oluşturma
 ### [3D Model Görüntüsü Oluşturma Eğitimi](./render-3d-model-image/)
-Aspose.3D for .NET'i kullanarak kamera perspektifinden etkileyici 3D model görüntüler oluşturmanın sırlarını açığa çıkarın. Kullanıcı dostu kılavuzumuz, 3D modellerinizin gerçek potansiyelini sergileyen büyüleyici görselleştirmeleri kolayca oluşturabilmenizi sağlayarak size süreç boyunca yol gösterir. Kreasyonlarınızı hayata geçirmeye hazır mısınız?[Şimdi keşfedin!](./render-3d-model-image/)
+ Aspose.3D for .NET'i kullanarak kamera perspektifinden etkileyici 3D model görüntüler oluşturmanın sırlarını açığa çıkarın. Kullanıcı dostu kılavuzumuz, 3D modellerinizin gerçek potansiyelini sergileyen büyüleyici görselleştirmeleri kolayca oluşturabilmenizi sağlayarak size süreç boyunca yol gösterir. Kreasyonlarınızı hayata geçirmeye hazır mısınız?[Şimdi keşfedin!](./render-3d-model-image/)
 
 ## 3D Sahneye Balıkgözü Lens Efekti Uygulama
-### [Balıkgözü Lens Efekti Eğitimi](./fisheye-lens-effect-3d-scene/)
- Aspose.3D for .NET'i kullanarak büyüleyici balıkgözü lens efektiyle 3D sahnelerinizi dönüştürün. Ayrıntılı eğitimimiz, bu büyüleyici etkiyi yaratımlarınıza sorunsuz bir şekilde uygulamanıza olanak tanıyan adım adım bir yaklaşım sağlar. Sahnelerinize benzersiz bir bakış açısı katmaya hazır mısınız?[Daha fazla bilgi edin!](./fisheye-lens-effect-3d-scene/)
+Aspose.3D for .NET'i kullanarak büyüleyici balıkgözü lens efektiyle 3D sahnelerinizi dönüştürün. Ayrıntılı eğitimimiz, bu büyüleyici etkiyi yaratımlarınıza sorunsuz bir şekilde uygulamanıza olanak tanıyan adım adım bir yaklaşım sağlar. Sahnelerinize benzersiz bir bakış açısı katmaya hazır mısınız?[Daha fazla bilgi edin!](./fisheye-lens-effect-3d-scene/)
+[Eğiticiyi okuyun: Balıkgözü Lens Efekti Eğitimi](./fisheye-lens-effect-3d-scene/)
 
 ## 3D Sahnenin Panoramik Görünümünün Oluşturulması
 ### [Panorama Görünümü Oluşturma Eğitimi](./render-panorama-view/)
-Aspose.3D for .NET ile kendinizi büyüleyici 3D panorama görüntülerinin dünyasına bırakın. Rehberimiz, izleyicilerinizi büyüleyen nefes kesici sahneleri zahmetsizce yaratabilmenizi sağlayarak süreç boyunca size yol gösterir. Kreasyonlarınızı panoramik ihtişamla hayata geçirmeye hazır mısınız?[Nasıl olduğunu keşfedin!](./render-panorama-view/)
+ Aspose.3D for .NET ile kendinizi büyüleyici 3D panorama görüntülerinin dünyasına bırakın. Rehberimiz, izleyicilerinizi büyüleyen nefes kesici sahneleri zahmetsizce yaratabilmenizi sağlayarak süreç boyunca size yol gösterir. Kreasyonlarınızı panoramik ihtişamla hayata geçirmeye hazır mısınız?[Nasıl olduğunu keşfedin!](./render-panorama-view/)
+
+## 3D sahneye daha fazla görsel efekt uygulayın
+### [Görsel Efekt Eğitimini Uygula](./apply-visual-effects/)
+Aspose.3D for .NET ile büyüleyici görsel efektlerin dünyasına dalın. Kapsamlı kılavuzumuz, büyüleyici görsel geliştirmelerle süslenmiş çarpıcı sahneleri zahmetsizce oluşturmanıza olanak tanıyarak yolculuk boyunca size yol gösterir. Kenar algılamadan bulanıklaştırma ve pikselleştirmeye kadar, yaratımlarınızı geliştirecek yaratıcı olanaklar dünyasının kilidini açın. Tasarımlarınızı büyüleyici görsel efektlerle büyüleyici şaheserlere dönüştürmeye hazır mısınız?[Nasıl olduğunu keşfedin!](./apply-visual-effects/)
 
 ## Sahneyi Altı Yüzlü Küp Haritasına Dönüştürme
 ### [Sahneyi Küp Haritasına Dönüştürme Eğitimi](./render-scene-cubemap/)

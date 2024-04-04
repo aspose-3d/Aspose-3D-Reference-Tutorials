@@ -1,6 +1,6 @@
 ---
-title: Transformation d'un nœud par matrice de transformation dans des scènes 3D
-linktitle: Transformation d'un nœud par matrice de transformation dans des scènes 3D
+title: Transformation du nœud par matrice de transformation
+linktitle: Transformation du nœud par matrice de transformation
 second_title: API Aspose.3D .NET
 description: Transformez les nœuds sans effort dans des scènes 3D à l'aide d'Aspose.3D pour .NET. Apprenez les transformations de nœuds étape par étape avec le didacticiel.
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 Maintenant que nous avons couvert les bases, décomposons le processus de transformation en un guide étape par étape.
 
-## Étape 1 : initialiser la scène et le nœud
+## Étape 1 : initialiser la scène
 
 ```csharp
 // ExStart : AddTransformationToNodeByTransformationMatrix
 // Initialiser l'objet de scène
 Scene scene = new Scene();
 
-// Initialiser l'objet de classe Node
-Node cubeNode = new Node("cube");
 ```
 
-Dans cette étape, nous créons une nouvelle scène 3D et un nœud nommé « cube » au sein de cette scène.
+Dans cette étape, nous créons une nouvelle scène 3D vide.
 
-## Étape 2 : Créer un maillage et définir la géométrie
+## Étape 2 : créer un maillage et l'attacher à la scène
 
 ```csharp
 // Appelez la classe Common pour créer un maillage à l'aide de la méthode de création de polygones pour définir l'instance de maillage
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// Pointer le nœud vers la géométrie du maillage
-cubeNode.Entity = mesh;
+// Créez un nœud conteneur pour le maillage.
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 Ici, nous générons un maillage à l'aide de la méthode de création de polygones et l'attribuons au nœud, établissant ainsi la géométrie de notre cube.
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 Définissez une matrice de traduction personnalisée pour déterminer la transformation spécifique appliquée au nœud. Ajustez les valeurs de la matrice selon vos besoins pour la transformation souhaitée.
 
-## Étape 4 : ajouter un nœud à la scène
-
-```csharp
-// Ajouter un cube à la scène
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 Incluez le nœud de cube dans la scène, en l'intégrant à l'environnement 3D global.
 
-## Étape 5 : Enregistrez la scène
+## Étape 4 : Enregistrez la scène
 
 ```csharp
 // Le chemin d'accès au répertoire des documents.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
-//Enregistrez la scène 3D dans les formats de fichiers pris en charge
-scene.Save(output, FileFormat.FBX7500ASCII);
+// Enregistrez la scène 3D dans les formats de fichiers pris en charge
+scene.Save(output);
 // ExEnd : AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -116,8 +107,8 @@ A2 : Oui, vous pouvez combiner plusieurs transformations en multipliant leurs ma
 
 ### Q4 : Comment puis-je obtenir une licence temporaire pour Aspose.3D pour .NET ?
 
- A4 : Visitez le[page de licence temporaire](https://purchase.aspose.com/temporary-license/) sur le site Aspose pour obtenir une licence temporaire à des fins d'évaluation.
+ A4 : Visitez le[page de licence temporaire](https://purchase.aspose.com/temporary-license/)sur le site Aspose pour obtenir une licence temporaire à des fins d'évaluation.
 
 ### Q5 : Où puis-je demander de l'aide ou me connecter à la communauté Aspose.3D ?
 
-A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour poser des questions, partager des expériences et vous connecter avec d'autres développeurs utilisant Aspose.3D.
+ A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour poser des questions, partager des expériences et vous connecter avec d'autres développeurs utilisant Aspose.3D.

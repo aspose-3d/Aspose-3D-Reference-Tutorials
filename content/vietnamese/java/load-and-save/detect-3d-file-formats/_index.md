@@ -81,4 +81,4 @@ A2: Chắc chắn rồi! Aspose.3D cung cấp giao diện thân thiện với ng
 
 ### Câu hỏi 5: Tôi có thể tìm kiếm trợ giúp ở đâu nếu gặp sự cố với Aspose.3D?
 
-A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để tìm kiếm sự giúp đỡ từ cộng đồng và các chuyên gia.
+ A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để tìm kiếm sự giúp đỡ từ cộng đồng và các chuyên gia.

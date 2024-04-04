@@ -1,6 +1,6 @@
 ---
-title: Menyiapkan UV pada Kubus dalam Pemandangan 3D
-linktitle: Menyiapkan UV pada Kubus dalam Pemandangan 3D
+title: Menyiapkan UV pada Kubus
+linktitle: Menyiapkan UV pada Kubus
 second_title: Aspose.3D .NET API
 description: Pelajari cara menyiapkan pemetaan UV pada kubus 3D menggunakan Aspose.3D untuk .NET. Ciptakan pemandangan yang menakjubkan secara visual dengan pemetaan tekstur yang presisi.
 type: docs

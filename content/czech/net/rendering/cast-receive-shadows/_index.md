@@ -35,7 +35,7 @@ Scene scene = new Scene();
 Camera camera = new Camera();
 // Další kód nastavení kamery...
 ```
- Vytvořte 3D scénu a nastavte kameru pro zobrazení scény. Upravte parametry kamery jako např`NearPlane` a`LookAt` pro optimální vykreslení.
+Vytvořte 3D scénu a nastavte kameru pro zobrazení scény. Upravte parametry kamery jako např`NearPlane` a`LookAt` pro optimální vykreslení.
 ## Krok 2: Představte zdroj světla
 ```csharp
 Light light;

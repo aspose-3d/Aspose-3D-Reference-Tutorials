@@ -50,7 +50,7 @@ Scene scene = new Scene(MyDir + "document.fbx");
 Χρησιμοποιήστε την κλάση PolygonModifier του Aspose.3D για να τριγωνοποιήσετε τη φορτωμένη τρισδιάστατη σκηνή.
 
 ```java
-// ExStart:TriangulateScene
+// ExStart:TriangularScene
 // Τριγωνισμός μιας σκηνής
 PolygonModifier.triangulate(scene);
 // ExEnd:TriangulateScene

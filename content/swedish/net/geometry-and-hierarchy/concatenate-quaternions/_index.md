@@ -1,6 +1,6 @@
 ---
-title: Sammanfoga Quaternions i 3D-scener
-linktitle: Sammanfoga Quaternions i 3D-scener
+title: Sammanfoga kvarternioner
+linktitle: Sammanfoga kvarternioner
 second_title: Aspose.3D .NET API
 description: Utforska kraften i quaternion-manipulation i 3D-scener med Aspose.3D för .NET. Lär dig att sammanfoga quaternions steg för steg för uppslukande transformationer.
 type: docs
@@ -20,7 +20,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 ## Importera namnområden
 
-ditt .NET-projekt, inkludera de nödvändiga namnområdena för att utnyttja kraften i Aspose.3D:
+I ditt .NET-projekt, inkludera de nödvändiga namnområdena för att utnyttja kraften i Aspose.3D:
 
 ```csharp
 using System;
@@ -96,7 +96,7 @@ S2: Ja, Aspose.3D för .NET är designat för att fungera sömlöst med andra .N
 
 ### F3: Finns det en gratis testversion tillgänglig för Aspose.3D för .NET?
 
- S3: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
+S3: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
 
 ### F4: Hur kan jag få support för Aspose.3D för .NET?
 

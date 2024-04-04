@@ -1,6 +1,6 @@
 ---
-title: Membuat Adegan Kubus dalam 3D
-linktitle: Membuat Adegan Kubus dalam 3D
+title: Membuat Adegan Kubus
+linktitle: Membuat Adegan Kubus
 second_title: Aspose.3D .NET API
 description: Buat adegan kubus 3D yang menakjubkan dengan mudah menggunakan Aspose.3D untuk .NET. Unduh perpustakaannya, ikuti panduan langkah demi langkah kami, dan lepaskan.
 type: docs
@@ -87,7 +87,7 @@ Tentukan direktori keluaran dan simpan adegan 3D dalam format file yang didukung
 // Jalur ke direktori dokumen.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//Simpan adegan 3D dalam format file yang didukung
+// Simpan adegan 3D dalam format file yang didukung
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 

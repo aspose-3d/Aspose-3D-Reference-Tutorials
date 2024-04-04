@@ -19,7 +19,7 @@ Ga op een spannende onderneming in het rijk van 3D-bolmanipulatie met behulp van
 ## Pas XPath-achtige zoekopdrachten toe op 3D-objecten in Java
 Ontrafel de kracht van XPath-achtige queries in Java 3D-programmeren met Aspose.3D. Deze tutorial biedt uitgebreide inzichten in het toepassen van geavanceerde query's om 3D-objecten naadloos te manipuleren. Verbeter uw 3D-ontwikkelingsvaardigheden terwijl u de wereld van XPath-achtige zoekopdrachten verkent en verbeter uw vermogen om moeiteloos met 3D-scènes te communiceren.
 
- Klaar om uw Java 3D-programmeervaardigheden naar een hoger niveau te tillen? Duik in de tutorial[hier](./xpath-like-object-queries/) en geef uzelf de kennis om XPath-achtige query's effectief toe te passen. Aspose.3D zorgt voor een gebruiksvriendelijke en efficiënte leerervaring, waardoor complexe 3D-objectmanipulatie voor iedereen toegankelijk wordt.
+ Klaar om uw Java 3D-programmeervaardigheden naar een hoger niveau te tillen? Duik in de tutorial[hier](./xpath-like-object-queries/) en geef uzelf de kennis om XPath-achtige zoekopdrachten effectief toe te passen. Aspose.3D zorgt voor een gebruiksvriendelijke en efficiënte leerervaring, waardoor complexe 3D-objectmanipulatie voor iedereen toegankelijk wordt.
 
 Kortom, deze tutorials fungeren als uw toegangspoort tot het beheersen van Java 3D-programmering met Aspose.3D. Of u nu de 3D-bolradius wijzigt of XPath-achtige query's toepast, elke tutorial is ontworpen om uw vaardigheden te verbeteren en bij te dragen aan een naadloze 3D-ontwikkelervaring. Download de bronnen, volg de stapsgewijze instructies en ontgrendel vandaag nog de eindeloze mogelijkheden van Java 3D-programmeren!
 ## 3D-objecten en scènes manipuleren in Java-tutorials

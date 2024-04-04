@@ -45,7 +45,7 @@ Scene scene = new Scene("Your Document Directory" + "test.fbx");
 
 ```java
 //自訂二進位格式的結構定義
-//…
+//……
 ```
 
 ## 步驟 3：以自訂二進位格式儲存 3D 網格

@@ -84,7 +84,7 @@ R: Aspose.3D supporta vari formati di modelli 3D, rendendolo compatibile con mol
 ### D: Come posso risolvere i problemi di rendering?
  R: Controlla Aspose.3D[Forum](https://forum.aspose.com/c/3d/18) per supporto e soluzioni a problemi di rendering comuni.
 ### D: È disponibile una prova gratuita?
- R: Sì, puoi esplorare le funzionalità di Aspose.3D ottenendo a[prova gratuita](https://releases.aspose.com/).
+R: Sì, puoi esplorare le funzionalità di Aspose.3D ottenendo a[prova gratuita](https://releases.aspose.com/).
 ### D: Dove posso trovare la documentazione completa?
  R: Fare riferimento a[documentazione](https://reference.aspose.com/3d/net/) per una guida approfondita su Aspose.3D per .NET.
 ### D: Come posso acquistare Aspose.3D per .NET?

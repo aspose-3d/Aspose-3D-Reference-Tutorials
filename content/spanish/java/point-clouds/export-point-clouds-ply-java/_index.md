@@ -62,7 +62,7 @@ Repita estos pasos para diferentes representaciones de nubes de puntos según se
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.3D para Java con otros lenguajes de programación?
+### P1: ¿Puedo utilizar Aspose.3D para Java con otros lenguajes de programación?
 
 R1: Aspose.3D está diseñado principalmente para Java, pero Aspose proporciona bibliotecas para varios lenguajes de programación.
 

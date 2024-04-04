@@ -16,7 +16,7 @@ Quaternion-aaneenschakeling is een fundamenteel concept in 3D-graphics, waardoor
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 
 - Basiskennis van Java-programmeren.
--  Aspose.3D voor Java geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/3d/java/).
+- Aspose.3D voor Java geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/3d/java/).
 
 ## Pakketten importeren
 

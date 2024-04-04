@@ -16,7 +16,7 @@ url: /zh/java/3d-scenes-and-models/managing-3d-properties-scenes/
 在我们深入学习本教程之前，请确保您具备以下先决条件：
 
 - 您的计算机上安装了 Java 开发工具包 (JDK)。
-- Aspose.3D 库下载并设置。您可以从[阿斯普斯网站](https://releases.aspose.com/3d/java/).
+-  Aspose.3D 库下载并设置。您可以从[阿斯普斯网站](https://releases.aspose.com/3d/java/).
 - 对 Java 编程有基本的了解。
 
 ## 导入包
@@ -119,7 +119,7 @@ for (Property pp : pdiffuse.getProperties()) {
 
 ### Q4：是否有 Aspose.3D 支持论坛，我可以在那里提出问题并寻求帮助？
 
- A4：是的，请访问[Aspose.3D 支持论坛](https://forum.aspose.com/c/3d/18)与社区联系并获得专家的帮助。
+A4：是的，请访问[Aspose.3D 支持论坛](https://forum.aspose.com/c/3d/18)与社区联系并获得专家的帮助。
 
 ### Q5：如何获得Aspose.3D的临时许可证？
 

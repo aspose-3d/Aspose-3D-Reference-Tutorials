@@ -22,7 +22,8 @@ url: /th/java/licensing/applying-license-in-aspose-3d/
 
 ในการเริ่มต้น ให้นำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ ตรวจสอบให้แน่ใจว่าเพิ่ม Aspose.3D ใน classpath ของคุณแล้ว นี่คือตัวอย่าง:
 
-```javaimport com.aspose.threed.License;
+```java
+import com.aspose.threed.License;
 import com.aspose.threed.Metered;
 
 import java.io.FileInputStream;

@@ -1,6 +1,6 @@
 ---
-title: Applicera PBR-material på box i 3D-scener
-linktitle: Applicera PBR-material på box i 3D-scener
+title: Applicera PBR-material på lådan
+linktitle: Applicera PBR-material på lådan
 second_title: Aspose.3D .NET API
 description: Utforska en värld av 3D-grafik med Aspose.3D för .NET. Skapa uppslukande scener utan ansträngning med fysiskt baserad renderingsmaterial.
 type: docs
@@ -21,7 +21,7 @@ Innan vi dyker in i den spännande världen av 3D-grafik, låt oss se till att d
 
 ### Skaffa en licens
 
- Skaffa en giltig licens för att låsa upp Aspose.3Ds fulla potential. Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) eller köp en fullständig licens[här](https://purchase.aspose.com/buy).
+Skaffa en giltig licens för att låsa upp Aspose.3Ds fulla potential. Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) eller köp en fullständig licens[här](https://purchase.aspose.com/buy).
 
 ## Importera namnområden
 
@@ -104,7 +104,7 @@ A2: Absolut! Aspose.3D tillhandahåller kommersiella licenser för sömlös inte
 
 ### F3: Finns det en testversion tillgänglig?
 
-S3: Ja, du kan utforska Aspose.3D:s möjligheter genom att ladda ner den kostnadsfria testversionen[här](https://releases.aspose.com/).
+ S3: Ja, du kan utforska Aspose.3D:s möjligheter genom att ladda ner den kostnadsfria testversionen[här](https://releases.aspose.com/).
 
 ### F4: Var kan jag hitta gemenskapsstöd och diskussioner?
 

@@ -1,6 +1,6 @@
 ---
-title: Melakukan Triangulasi Mesh dalam Adegan 3D
-linktitle: Melakukan Triangulasi Mesh dalam Adegan 3D
+title: Triangulasi Jaring
+linktitle: Triangulasi Jaring
 second_title: Aspose.3D .NET API
 description: Jelajahi kekuatan Aspose.3D untuk .NET dalam panduan langkah demi langkah ini. Pelajari cara melakukan triangulasi jerat 3D dengan mudah untuk pemodelan yang lebih baik.
 type: docs
@@ -17,7 +17,7 @@ Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 
 - Aspose.3D untuk Perpustakaan .NET: Pastikan Anda telah menginstal perpustakaan Aspose.3D. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/3d/net/).
 
-- Contoh Model 3D: Miliki model 3D dalam format FBX yang ingin Anda triangulasi. Anda dapat menggunakan yang disediakan[dokumen.fbx](https://reference.aspose.com/3d/net/) berkas untuk latihan.
+-  Contoh Model 3D: Miliki model 3D dalam format FBX yang ingin Anda triangulasi. Anda dapat menggunakan yang disediakan[dokumen.fbx](https://reference.aspose.com/3d/net/) berkas untuk latihan.
 
 ## Impor Namespace
 
@@ -32,7 +32,7 @@ using Aspose.ThreeD.Shading;
 using System.Drawing;
 ```
 
-## Langkah 1: Inisialisasi Objek Adegan
+## Langkah 1: Inisialisasi Objek Pemandangan
 
 ```csharp
 Scene scene = new Scene();

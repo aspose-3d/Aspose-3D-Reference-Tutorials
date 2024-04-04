@@ -45,7 +45,7 @@ Scene scene = new Scene();
 
 ## Etapa 2: obter um objeto de nó filho
 
-A seguir, crie um objeto de nó filho representando a câmera. Esta etapa envolve definir os atributos da câmera dentro da cena.
+seguir, crie um objeto de nó filho representando a câmera. Esta etapa envolve definir os atributos da câmera dentro da cena.
 
 ```csharp
 // Obtenha um objeto de nó filho
@@ -71,11 +71,11 @@ cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target")
 
 ## Etapa 5: salve a cena
 
-Salve a cena configurada em um diretório de saída especificado no formato de arquivo desejado, como .3ds.
+Salve a cena configurada em um diretório de saída especificado no formato de arquivo desejado, como .fbx.
 
 ```csharp
-var output = "Your Output Directory" + "camera-test.3ds";
-scene.Save(output, FileFormat.Discreet3DS);
+var output = "Your Output Directory" + "camera-test.fbx";
+scene.Save(output);
 ```
 
 ## Conclusão
@@ -98,7 +98,7 @@ A2: Com certeza! Aspose.3D capacita os desenvolvedores a criar recursos 3D para 
 
 ### Q4: Existe um teste gratuito disponível?
 
- A4: Sim, você pode explorar uma avaliação gratuita[aqui](https://releases.aspose.com/).
+A4: Sim, você pode explorar uma avaliação gratuita[aqui](https://releases.aspose.com/).
 
 ### P5: Como obtenho uma licença temporária?
 

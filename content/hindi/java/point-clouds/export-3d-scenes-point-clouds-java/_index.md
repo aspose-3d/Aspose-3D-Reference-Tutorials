@@ -65,7 +65,7 @@ opt.setPointCloud(true);
 वांछित निर्देशिका में 3डी दृश्य को पॉइंट क्लाउड के रूप में सहेजें:
 
 ```java
-// बचाना
+//बचाना
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 

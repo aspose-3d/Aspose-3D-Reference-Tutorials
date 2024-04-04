@@ -65,7 +65,7 @@ opt.setPointCloud(true);
 Сохраните 3D-сцену как облако точек в нужную директорию:
 
 ```java
-// Сохранять
+//Сохранять
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 

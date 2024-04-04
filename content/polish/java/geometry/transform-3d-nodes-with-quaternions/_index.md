@@ -16,7 +16,7 @@ Witamy w tym przewodniku krok po kroku dotyczącym przekształcania węzłów 3D
 Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 
 - Podstawowa znajomość programowania w języku Java.
--  Zainstalowano Aspose.3D dla Java. Możesz go pobrać[Tutaj](https://releases.aspose.com/3d/java/).
+- Zainstalowano Aspose.3D dla Java. Możesz go pobrać[Tutaj](https://releases.aspose.com/3d/java/).
 - Katalog dokumentów skonfigurowany do zapisywania scen 3D.
 
 ## Importuj pakiety

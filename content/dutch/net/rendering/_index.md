@@ -12,20 +12,32 @@ url: /nl/net/rendering/
 Ben je klaar om te beginnen aan een spannende reis naar het rijk van 3D-rendering? Zoek niet verder! Aspose.3D voor .NET opent de deur naar een wereld van mogelijkheden, waardoor u uw creativiteit de vrije loop kunt laten en uw vaardigheden kunt verbeteren. In deze uitgebreide tutorialgids begeleiden we u door enkele van de meest intrigerende aspecten van het renderen met Aspose.3D voor .NET.
 
 ## Schaduwen werpen en ontvangen
-### [Zelfstudie over het werpen en ontvangen van schaduwen](./cast-receive-shadows/)
  Duik diep in de kunst van het werpen en ontvangen van schaduwen op het gebied van 3D-rendering met Aspose.3D voor .NET. Onze stapsgewijze handleiding stelt u in staat deze essentiële techniek moeiteloos onder de knie te krijgen, waardoor uw scènes tot leven komen met dynamische en realistische schaduwen. Klaar om je renderingspel naar een hoger niveau te tillen?[Begin nu!](./cast-receive-shadows/)
+
+[Lees de tutorial: Schaduwen casten en ontvangen Tutorial](./cast-receive-shadows/)
+
+
+## Viewports vastleggen in 3D-scènes
+In deze zelfstudie hebben we het proces van het vastleggen van zichtvensters in 3D-scènes onderzocht met behulp van Aspose.3D voor .NET. Door gebruik te maken van de krachtige functies kunt u uw grafische 3D-projecten naar nieuwe hoogten tillen en boeiende visuele ervaringen bieden.
+
+[Lees de tutorial: Viewports vastleggen in 3D-scènes](./capture-viewport/)
+
 
 ## Rendering van 3D-modelafbeelding van camera
 ### [3D-modelafbeelding zelfstudie weergeven](./render-3d-model-image/)
-Ontgrendel de geheimen van het maken van verbluffende 3D-modelafbeeldingen vanuit het perspectief van een camera met Aspose.3D voor .NET. Onze gebruiksvriendelijke gids leidt u door het proces en zorgt ervoor dat u eenvoudig boeiende visualisaties kunt maken die het ware potentieel van uw 3D-modellen laten zien. Klaar om je creaties tot leven te laten komen?[Ontdek nu!](./render-3d-model-image/)
+ Ontgrendel de geheimen van het maken van verbluffende 3D-modelafbeeldingen vanuit het perspectief van een camera met Aspose.3D voor .NET. Onze gebruiksvriendelijke gids leidt u door het proces en zorgt ervoor dat u eenvoudig boeiende visualisaties kunt maken die het ware potentieel van uw 3D-modellen laten zien. Klaar om je creaties tot leven te laten komen?[Ontdek nu!](./render-3d-model-image/)
 
 ## Fisheye-lenseffect toepassen op 3D-scène
-### [Zelfstudie over fisheye-lenseffecten](./fisheye-lens-effect-3d-scene/)
- Transformeer uw 3D-scènes met het betoverende fisheye-lenseffect met Aspose.3D voor .NET. Onze gedetailleerde tutorial biedt een stapsgewijze aanpak, zodat u dit boeiende effect naadloos op uw creaties kunt toepassen. Klaar om een uniek perspectief aan uw scènes toe te voegen?[Kom meer te weten!](./fisheye-lens-effect-3d-scene/)
+Transformeer uw 3D-scènes met het betoverende fisheye-lenseffect met Aspose.3D voor .NET. Onze gedetailleerde tutorial biedt een stapsgewijze aanpak, zodat u dit boeiende effect naadloos op uw creaties kunt toepassen. Klaar om een uniek perspectief aan uw scènes toe te voegen?[Kom meer te weten!](./fisheye-lens-effect-3d-scene/)
+[Lees de tutorial: Fisheye-lenseffect-tutorial](./fisheye-lens-effect-3d-scene/)
 
 ## Panoramaweergave van 3D-scène weergeven
 ### [Zelfstudie Panoramaweergave weergeven](./render-panorama-view/)
-Dompel jezelf onder in de wereld van verbluffende 3D-panoramaweergaven met Aspose.3D voor .NET. Onze gids leidt u door het proces en zorgt ervoor dat u moeiteloos adembenemende scènes kunt creëren die uw publiek boeien. Klaar om uw creaties tot leven te brengen in panoramische pracht?[Ontdek hoe!](./render-panorama-view/)
+ Dompel jezelf onder in de wereld van verbluffende 3D-panoramaweergaven met Aspose.3D voor .NET. Onze gids leidt u door het proces en zorgt ervoor dat u moeiteloos adembenemende scènes kunt creëren die uw publiek boeien. Klaar om uw creaties tot leven te brengen in panoramische pracht?[Ontdek hoe!](./render-panorama-view/)
+
+## Pas meer visuele effecten toe op de 3D-scène
+### [Tutorial voor visuele effecten toepassen](./apply-visual-effects/)
+Duik in het rijk van betoverende visuele effecten met Aspose.3D voor .NET. Onze uitgebreide gids leidt u door de reis, zodat u moeiteloos verbluffende scènes kunt maken die zijn versierd met boeiende visuele verbeteringen. Van randdetectie tot onscherpte en pixelvorming, ontgrendel een wereld van creatieve mogelijkheden om uw creaties naar een hoger niveau te tillen. Bent u bereid uw ontwerpen om te zetten in boeiende meesterwerken met betoverende visuele effecten?[Ontdek hoe!](./apply-visual-effects/)
 
 ## Scène renderen in Cubemap met zes gezichten
 ### [Render scène in Cubemap-zelfstudie](./render-scene-cubemap/)

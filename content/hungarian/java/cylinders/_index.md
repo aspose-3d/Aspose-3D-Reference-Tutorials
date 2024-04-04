@@ -9,7 +9,7 @@ url: /hu/java/cylinders/
 ---
 ## Bevezetés
 
-Készen állsz, hogy magasabb szintre emeld 3D modellezési készségeidet? Az Aspose.3D for Java a lehetőségek világát nyitja meg, és ebben az oktatóanyagban végigvezetjük a személyre szabott hengerek létrehozásának lenyűgöző birodalmán. Akár tapasztalt fejlesztő, akár csak belép a 3D-modellezés világába, ezek az oktatóanyagok fejlesztik készségeit, és egyediséget adnak projektjeihez.
+Készen állsz, hogy magasabb szintre emeld 3D modellezési készségeidet? Az Aspose.3D for Java a lehetőségek világát nyitja meg, és ebben az oktatóanyagban végigvezetjük Önt a testreszabott hengerek létrehozásának lenyűgöző birodalmán. Akár tapasztalt fejlesztő, akár csak belép a 3D-modellezés világába, ezek az oktatóanyagok fejlesztik készségeit, és egy kis egyediséget adnak projektjeihez.
 
 ## Testreszabott ventilátorhengerek létrehozása az Aspose.3D for Java segítségével
 
@@ -36,4 +36,4 @@ Tanuljon meg testreszabott ventilátorhengereket létrehozni Java nyelven az Asp
 ### [Hengerek létrehozása eltolt felsővel az Aspose.3D for Java programban](./creating-cylinders-with-offset-top/)
 Fedezze fel a 3D modellezés csodáit Java nyelven az Aspose.3D segítségével. Tanuljon meg könnyedén létrehozni lenyűgöző hengereket eltolt tetővel.
 ### [Nyírt aljú hengerek létrehozása Aspose.3D for Java programban](./creating-cylinders-with-sheared-bottom/)
-Tanuljon meg testreszabott, nyírt fenékű hengereket létrehozni az Aspose.3D for Java segítségével. Növelje 3D-s modellezési készségeit ezzel a lépésről-lépésre szóló útmutatóval.
+Tanuljon meg testreszabott, nyírt fenékű hengereket létrehozni az Aspose.3D for Java segítségével. Növelje 3D-s modellezési készségeit ezzel a lépésről lépésre bemutatott útmutatóval.

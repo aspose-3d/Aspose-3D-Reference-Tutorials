@@ -1,8 +1,8 @@
 ---
-title: Laden en opslaan - Aangepaste opslagopties
-linktitle: Laden en opslaan - Aangepaste opslagopties
+title: Aangepaste opslagopties
+linktitle: Aangepaste opslagopties
 second_title: Aspose.3D .NET-API
-description: Ontdek de kracht van Aspose.3D voor .NET. Leer hoe u uw 3D-scènebesparing kunt aanpassen met stapsgewijze handleidingen voor de formaten Collada, 3DS, FBX, OBJ, STL, U3D, glTF, DRC en RVM.
+description: Ontdek de kracht van Aspose.3D voor .NET. Leer hoe u uw 3D-scènebesparing kunt aanpassen met stapsgewijze handleidingen voor de formaten Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC en RVM.
 type: docs
 weight: 21
 url: /nl/net/loading-and-saving/custom-save-options/

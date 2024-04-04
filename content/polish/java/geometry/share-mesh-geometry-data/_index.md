@@ -88,7 +88,7 @@ Określ katalog i nazwę pliku do zapisania sceny 3D w obsługiwanym formacie pl
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "MeshGeometryData.fbx";
 
-//Zapisz scenę 3D w obsługiwanych formatach plików
+// Zapisz scenę 3D w obsługiwanych formatach plików
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
@@ -108,7 +108,7 @@ O1: Tak, Aspose.3D został zaprojektowany tak, aby bezproblemowo współpracowa�
 
 ### P3: Jak mogę uzyskać wsparcie dla Aspose.3D?
 
- A3: Odwiedź Aspose.3D[forum](https://forum.aspose.com/c/3d/18) za wsparcie i dyskusje.
+ A3: Odwiedź Aspose.3D[forum](https://forum.aspose.com/c/3d/18) za wsparcie i dyskusję.
 
 ### P4: Czy dostępny jest bezpłatny okres próbny?
 

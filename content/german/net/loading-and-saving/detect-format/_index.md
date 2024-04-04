@@ -1,6 +1,6 @@
 ---
-title: Laden und Speichern – Format erkennen
-linktitle: Laden und Speichern – Format erkennen
+title: Format erkennen
+linktitle: Format erkennen
 second_title: Aspose.3D .NET API
 description: Meistern Sie mühelos die Bearbeitung von 3D-Dateien mit Aspose.3D für .NET. Laden, speichern und erkennen Sie Formate nahtlos.
 type: docs
@@ -50,7 +50,7 @@ scene.Open(RunExamples.GetDataFilePath("document.fbx"));
 ### Schritt 2: Ermitteln Sie das Format
 
 ```csharp
-//ExStart:DetectFormat
+// ExStart:DetectFormat
 // Erkennen Sie das Format einer 3D-Datei
 FileFormat inputFormat = FileFormat.Detect(RunExamples.GetDataFilePath("document.fbx"));
 // Zeigen Sie das Dateiformat an
@@ -92,4 +92,4 @@ A1: Ja, Aspose.3D unterstützt eine Vielzahl von 3D-Dateiformaten und bietet so 
 
 ### F5: Kann ich Aspose.3D vor dem Kauf kostenlos testen?
 
-A5: Auf jeden Fall! Laden Sie die kostenlose Testversion herunter von[Aspose.3D-Veröffentlichungen](https://releases.aspose.com/) um seine Fähigkeiten aus erster Hand zu erleben.
+ A5: Auf jeden Fall! Laden Sie die kostenlose Testversion herunter von[Aspose.3D-Veröffentlichungen](https://releases.aspose.com/) um seine Fähigkeiten aus erster Hand zu erleben.

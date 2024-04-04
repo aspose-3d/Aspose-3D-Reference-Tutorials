@@ -145,7 +145,7 @@ Door het laden van 3D-bestanden in Java aan te passen met LoadOptions van Aspose
 
  A2: U kunt het downloaden[hier](https://releases.aspose.com/3d/java/).
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+### Vraag 3: Is er een gratis proefperiode beschikbaar?
 
  A3: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
 

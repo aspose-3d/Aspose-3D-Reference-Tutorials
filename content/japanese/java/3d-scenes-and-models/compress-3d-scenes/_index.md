@@ -16,7 +16,7 @@ Aspose.3D for Java は、開発者が Java アプリケーションで 3D シー
 チュートリアルに進む前に、次の前提条件を満たしていることを確認してください。
 
 - Java Development Kit (JDK) がマシンにインストールされています。
-- Java ライブラリ用の Aspose.3D がダウンロードされました。ダウンロードリンクが見つかります[ここ](https://releases.aspose.com/3d/java/).
+-  Java ライブラリ用の Aspose.3D がダウンロードされました。ダウンロードリンクが見つかります[ここ](https://releases.aspose.com/3d/java/).
 
 ## パッケージのインポート
 
@@ -94,7 +94,7 @@ A1: はい、Aspose.3D for Java は、さまざまなレベルの専門知識を
 
 ### Q3: 無料トライアルのオプションはありますか?
 
- A3: はい、無料トライアルにアクセスできます。[ここ](https://releases.aspose.com/).
+A3: はい、無料トライアルにアクセスできます。[ここ](https://releases.aspose.com/).
 
 ### Q4: Java 用 Aspose.3D のサポートはどこで見つけられますか?
 

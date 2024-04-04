@@ -27,7 +27,7 @@ Une fois que vous avez configuré votre environnement de développement et insta
 import com.aspose.threed.*;
 ```
 
-Décomposons chaque étape pour garantir une compréhension claire.
+Décomposons chaque étape pour assurer une compréhension claire.
 
 ## Étape 1 : Définir le répertoire des documents
 

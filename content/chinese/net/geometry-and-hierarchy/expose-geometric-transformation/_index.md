@@ -1,6 +1,6 @@
 ---
-title: 揭示 3D 场景中的几何变换
-linktitle: 揭示 3D 场景中的几何变换
+title: 揭示几何变换
+linktitle: 揭示几何变换
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D 探索 .NET 中 3D 图形的无限可能性。轻松揭示几何变换。
 type: docs

@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## Βήμα 2: Δημιουργήστε μια Ιεραρχία Κόμβων
 
 ```java
-// ExStart:CreateHierarchy
+//ExStart:CreateHierarchy
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");

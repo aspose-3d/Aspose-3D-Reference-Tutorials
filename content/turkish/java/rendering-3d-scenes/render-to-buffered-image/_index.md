@@ -9,7 +9,7 @@ url: /tr/java/rendering-3d-scenes/render-to-buffered-image/
 ---
 ## giriiş
 
-Aspose.3D for Java kullanarak 3D sahnelerin ara belleğe alınmış görüntülere dönüştürülmesine ilişkin bu adım adım kılavuza hoş geldiniz. Aspose.3D, geliştiricilerin 3D dosya ve sahnelerle çalışmasına olanak tanıyan, oluşturma ve işleme için çok yönlü işlevsellik sağlayan güçlü bir Java kütüphanesidir. Bu eğitimde, 3B sahneleri ara belleğe alınmış görüntülere dönüştürmeye odaklanacağız ve Java'da daha ileri işleme olanaklarını ön plana çıkaracağız.
+Aspose.3D for Java kullanarak 3D sahnelerin ara belleğe alınmış görüntülere dönüştürülmesine ilişkin bu adım adım kılavuza hoş geldiniz. Aspose.3D, geliştiricilerin 3D dosya ve sahnelerle çalışmasına olanak tanıyan, oluşturma ve işleme için çok yönlü işlevsellik sağlayan güçlü bir Java kitaplığıdır. Bu eğitimde, 3B sahneleri ara belleğe alınmış görüntülere dönüştürmeye odaklanacağız ve Java'da daha ileri işleme olanaklarını ön plana çıkaracağız.
 
 ## Önkoşullar
 

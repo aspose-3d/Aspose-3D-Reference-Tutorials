@@ -16,7 +16,7 @@ Créer et manipuler des données de maillage 3D en Java peut être une tâche di
 Avant de plonger dans le didacticiel, assurez-vous d'avoir les prérequis suivants :
 
 - Connaissance de base de la programmation Java.
--  Aspose.3D pour Java installé. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/java/).
+- Aspose.3D pour Java installé. Vous pouvez le télécharger[ici](https://releases.aspose.com/3d/java/).
 - Un fichier 3D au format 3ds. Nous utiliserons "camera.3ds" comme exemple.
 
 ## Importer des packages

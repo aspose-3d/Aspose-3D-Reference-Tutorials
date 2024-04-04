@@ -91,7 +91,7 @@ Speichern Sie die 3D-Szene im Wavefront OBJ-Dateiformat.
 ```java
 // ExStart:Save3DScene
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-// ExEnd:Save3DScene
+//ExEnd:Save3DScene
 ```
 
 ## Abschluss

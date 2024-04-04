@@ -9,7 +9,7 @@ url: /pt/java/geometry/apply-pbr-materials-to-objects/
 ---
 ## Introdução
 
-Bem-vindo a este guia passo a passo sobre a aplicação de materiais de renderização baseada em física (PBR) a objetos 3D em Java usando Aspose.3D. Aspose.3D é uma biblioteca Java poderosa que fornece funcionalidade abrangente para trabalhar com modelos e cenas 3D. Neste tutorial, vamos nos concentrar na aplicação de materiais PBR, que simulam a iluminação e as propriedades da superfície do mundo real, aprimorando o realismo de seus objetos 3D.
+Bem-vindo a este guia passo a passo sobre a aplicação de materiais de renderização baseada em física (PBR) a objetos 3D em Java usando Aspose.3D. Aspose.3D é uma biblioteca Java poderosa que fornece funcionalidade abrangente para trabalhar com modelos e cenas 3D. Neste tutorial, vamos nos concentrar na aplicação de materiais PBR, que simulam a iluminação e as propriedades da superfície do mundo real, melhorando o realismo dos seus objetos 3D.
 
 ## Pré-requisitos
 
@@ -19,7 +19,7 @@ Antes de mergulharmos no tutorial, certifique-se de ter os seguintes pré-requis
 
 2.  Biblioteca Aspose.3D: Baixe e instale a biblioteca Aspose.3D do[Link para Download](https://releases.aspose.com/3d/java/).
 
-3.  Documentação: Consulte o[documentação](https://reference.aspose.com/3d/java/) para Aspose.3D se familiarizar com os recursos da biblioteca.
+3.  Documentação: Consulte o[documentação](https://reference.aspose.com/3d/java/)para Aspose.3D se familiarizar com os recursos da biblioteca.
 
 4.  Licença Temporária (Opcional): Se você não tiver uma licença, poderá obter uma[licença temporária](https://purchase.aspose.com/temporary-license/) para teste.
 
@@ -72,7 +72,7 @@ Salve a cena 3D, incluindo o material PBR aplicado, em um formato de arquivo esp
 ```java
 // ExStart:Salvar3DScene
 scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
-// ExEnd:Save3DScene
+//ExEnd:Save3DScene
 ```
 
 Repita essas etapas para cenas mais complexas ou objetos diferentes.

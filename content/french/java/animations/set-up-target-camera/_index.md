@@ -97,4 +97,4 @@ Toutes nos félicitations! Vous avez configuré avec succès une caméra cible p
 
 ### Q5 : Comment puis-je obtenir une licence temporaire ?
 
-A5 : Vous pouvez acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Vous pouvez acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).

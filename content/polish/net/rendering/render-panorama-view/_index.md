@@ -87,4 +87,4 @@ Dostosuj parametry renderowania i wymiary docelowe w oparciu o wymagania aplikac
 ### P: Czy mogę zintegrować ten samouczek z aplikacją internetową?
 Tak, włączając Aspose.3D for .NET do swojego projektu internetowego .NET.
 ### P: Czy istnieje forum społecznościowe dotyczące obsługi Aspose.3D?
- Tak, odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczne.
+ Tak, odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności.

@@ -1,6 +1,6 @@
 ---
-title: 在 3D 場景中透過變換矩陣變換節點
-linktitle: 在 3D 場景中透過變換矩陣變換節點
+title: 透過變換矩陣變換節點
+linktitle: 透過變換矩陣變換節點
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 在 3D 場景中輕鬆變換節點。透過教程學習分步節點轉換。
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 現在我們已經介紹了基礎知識，讓我們將轉換過程分解為逐步指南。
 
-## 第1步：初始化場景和節點
+## 第 1 步：初始化場景
 
 ```csharp
-//ExStart：透過變換矩陣新增變換到節點
+// ExStart：透過變換矩陣新增變換到節點
 //初始化場景對象
 Scene scene = new Scene();
 
-//初始化Node類別物件
-Node cubeNode = new Node("cube");
 ```
 
-在此步驟中，我們建立一個新的 3D 場景以及該場景中名為「cube」的節點。
+在此步驟中，我們建立一個新的空 3D 場景。
 
-## 第 2 步：建立網格並設定幾何圖形
+## 第 2 步：建立網格並附加到場景
 
 ```csharp
 //呼叫 Common 類別使用多邊形生成器方法建立網格來設定網格實例
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-//將節點指向網格幾何體
-cubeNode.Entity = mesh;
+//為網格建立一個容器節點。
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 在這裡，我們使用多邊形生成器方法來產生網格並將其分配給節點，從而為立方體建立幾何形狀。
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 定義自訂轉換矩陣以確定應用於節點的特定轉換。根據所需轉換的需要調整矩陣值。
 
-## 第 4 步：將節點加入場景中
-
-```csharp
-//將立方體加入場景中
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 將立方體節點包含在場景中，使其成為整個 3D 環境的一部分。
 
-## 第 5 步：儲存場景
+## 第 4 步：儲存場景
 
 ```csharp
 //文檔目錄的路徑。
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
 //以支援的檔案格式儲存 3D 場景
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 // ExEnd：透過變換矩陣加入變換到節點
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -120,4 +111,4 @@ A2：是的，您可以透過將各自的矩陣相乘並將結果應用到節點
 
 ### Q5：我可以在哪裡尋求協助或與 Aspose.3D 社群聯繫？
 
-A5：訪問[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)使用 Aspose.3D 提出問題、分享經驗並與其他開發人員聯繫。
+ A5：訪問[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)使用 Aspose.3D 提出問題、分享經驗並與其他開發人員聯繫。

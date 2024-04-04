@@ -43,7 +43,7 @@ Scene s = new Scene();
 ## 2단계: 노드 계층 구조 생성
 
 ```java
-// ExStart:CreateHierarchy
+//ExStart:CreateHierarchy
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");
@@ -61,7 +61,7 @@ c.createChildNode("c2").addEntity(new Light("light"));
 // 위치에 관계없이 카메라 유형 또는 이름이 'light'인 개체를 선택합니다.
 List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = '카메라') 또는 (@Name = 'light')]");
 
-// 루트 노드 아래 'c'라는 노드의 하위 노드 아래에서 단일 카메라 객체를 선택합니다.
+// 루트 노드 아래 'c'라는 노드의 하위 노드 아래에서 단일 카메라 개체를 선택합니다.
 A3DObject c1 = (A3DObject) s.getRootNode().selectSingleObject("/c/*/<Camera>");
 
 // 'a1'이 직접 자식 노드가 아니더라도 루트 노드 아래에서 'a1'이라는 노드를 선택합니다.

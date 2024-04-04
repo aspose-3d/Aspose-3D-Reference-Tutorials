@@ -1,6 +1,6 @@
 ---
-title: Εφαρμογή υλικού στον κύβο σε τρισδιάστατες σκηνές
-linktitle: Εφαρμογή υλικού στον κύβο σε τρισδιάστατες σκηνές
+title: Εφαρμογή υλικού στον κύβο
+linktitle: Εφαρμογή υλικού στον κύβο
 second_title: Aspose.3D .NET API
 description: Εξερευνήστε το Aspose.3D για .NET, την πύλη σας για απρόσκοπτη επεξεργασία τρισδιάστατων γραφικών. Εφαρμόστε υλικά χωρίς κόπο, βελτιώστε τον ρεαλισμό και αναβαθμίστε τα έργα σας.
 type: docs
@@ -42,17 +42,12 @@ using System.IO;
 // Αρχικοποίηση αντικειμένου σκηνής
 Scene scene = new Scene();
 
-// Αρχικοποίηση αντικειμένου κόμβου κύβου
-Node cubeNode = new Node("cube");
+// Δημιουργήστε ένα παράδειγμα πλαισίου.
+var box = new Box();
 
-// Καλέστε Common class δημιουργία πλέγματος χρησιμοποιώντας τη μέθοδο δημιουργίας πολυγώνων για να ορίσετε την παρουσία πλέγματος
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+// Συνδέστε το στιγμιότυπο του πλαισίου στη σκηνή
+Node cubeNode = scene.RootNode.CreateChildNode(box);
 
-//Τοποθετήστε τον κόμβο στο πλέγμα
-cubeNode.Entity = mesh;
-
-// Προσθέστε κύβο στη σκηνή
-scene.RootNode.ChildNodes.Add(cubeNode);
 // ExEnd:InitializeSceneAndCube
 ```
 
@@ -67,7 +62,7 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 
 // Ορίστε τοπική διαδρομή αρχείου για την υφή
-diffuse.FileName = "Your Output Directory" + "surface.dds";
+diffuse.FileName = "surface.dds";
 
 // Σύνολο Υφή του υλικού
 mat.SetTexture("DiffuseColor", diffuse);
@@ -82,8 +77,8 @@ mat.SetTexture("DiffuseColor", diffuse);
 diffuse.FileName = "embedded-texture.png";
 
 // Ορισμός δυαδικού περιεχομένου
-diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
-//ExEnd:EmbedRawContentData
+diffuse.Content = File.ReadAllBytes("aspose-logo.jpg");
+// ExEnd:EmbedRawContentData
 ```
 
 ## Βήμα 4: Ορίστε τις ιδιότητες υλικού
@@ -105,11 +100,11 @@ cubeNode.Material = mat;
 
 ```csharp
 // ExStart:Save3DScene
-var output = "Your Output Directory" + "MaterialToCube.fbx";
+var output = "MaterialToCube.fbx";
 
-//Αποθηκεύστε τη σκηνή 3D στις υποστηριζόμενες μορφές αρχείων
-scene.Save(output, FileFormat.FBX7400ASCII);
-// ExEnd:Save3DScene
+// Αποθηκεύστε τη σκηνή 3D στις υποστηριζόμενες μορφές αρχείων
+scene.Save(output);
+//ExEnd:Save3DScene
 
 Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + output);
 ```
@@ -140,4 +135,4 @@ A3: Ναι, το Aspose.3D παρέχει ολοκληρωμένη υποστή�
 
 ### Ε5: Πώς μπορώ να λάβω υποστήριξη για τυχόν ζητήματα ή απορίες;
 
-A5: Επισκεφθείτε το[Aspose.3D φόρουμ](https://forum.aspose.com/c/3d/18) να συνδεθείτε με την κοινότητα και να αναζητήσετε βοήθεια.
+ A5: Επισκεφθείτε το[Aspose.3D φόρουμ](https://forum.aspose.com/c/3d/18) να συνδεθείτε με την κοινότητα και να αναζητήσετε βοήθεια.

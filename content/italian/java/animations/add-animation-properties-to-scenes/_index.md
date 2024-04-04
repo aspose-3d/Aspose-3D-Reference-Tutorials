@@ -54,7 +54,7 @@ Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ## Passaggio 4: trova la proprietà di traduzione
 
 ```java
-// Trova la proprietà di traduzione sull'oggetto di trasformazione del nodo
+//Trova la proprietà di traduzione sull'oggetto di trasformazione del nodo
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
@@ -95,11 +95,11 @@ bindPoint.bindKeyframeSequence("Z", kfs);
 ## Passaggio 8: salva la scena 3D
 
 ```java
-// Specificare la directory per salvare la scena 3D
+// Specificare la directory in cui salvare la scena 3D
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "PropertyToDocument.fbx";
 
-//Salva la scena 3D nei formati di file supportati
+// Salva la scena 3D nei formati di file supportati
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
@@ -119,7 +119,7 @@ Congratulazioni! Hai aggiunto con successo le proprietà di animazione alla scen
 
 ### Q3: Dove posso trovare supporto per Aspose.3D?
 
- A3: Unisciti alla community su[Aspose.3D Forum](https://forum.aspose.com/c/3d/18) per assistenza.
+A3: Unisciti alla community su[Aspose.3D Forum](https://forum.aspose.com/c/3d/18) per assistenza.
 
 ### Q4: Come posso ottenere una licenza temporanea?
 

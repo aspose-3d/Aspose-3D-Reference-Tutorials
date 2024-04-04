@@ -9,7 +9,7 @@ url: /sv/java/geometry/share-mesh-geometry-data/
 ---
 ## Introduktion
 
-Att ge dig ut på en resa in i Java 3Ds rike med Aspose.3D öppnar upp en värld av möjligheter för att skapa fantastiska visualiseringar och uppslukande upplevelser. I den här handledningen kommer vi att guida dig genom processen att dela mesh-geometridata i Java 3D med Aspose.3D. Följ varje steg noggrant, och mot slutet kommer du att sömlöst utbyta mesh-data mellan flera noder.
+Att ge dig ut på en resa in i Java 3Ds rike med Aspose.3D öppnar upp en värld av möjligheter för att skapa fantastiska visualiseringar och uppslukande upplevelser. I den här handledningen kommer vi att guida dig genom processen att dela mesh-geometridata i Java 3D med Aspose.3D. Följ varje steg noggrant, och i slutet kommer du att sömlöst utbyta mesh-data mellan flera noder.
 
 ## Förutsättningar
 
@@ -88,7 +88,7 @@ Ange katalogen och filnamnet för att spara 3D-scenen i det filformat som stöds
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "MeshGeometryData.fbx";
 
-//Spara 3D-scen i de filformat som stöds
+// Spara 3D-scen i de filformat som stöds
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

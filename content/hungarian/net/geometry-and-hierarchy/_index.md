@@ -15,13 +15,21 @@ Induljon el egy izgalmas utazásra a 3D grafika birodalmába az Aspose.3D for .N
 
  Merüljön el a fizikai alapú renderelés (PBR) anyagok lenyűgöző világában az Aspose.3D for .NET segítségével. Ebben az oktatóanyagban végigvezetjük Önt a PBR anyagok dobozra való felvitelének folyamatán, így könnyedén hozhat létre magával ragadó jeleneteket.[Olvass tovább](./apply-pbr-material-to-box/)
 
+
+## XPath-szerű objektumlekérdezések
+
+[XPath-szerű objektumlekérdezések oktatóanyaga](./xpath-like-object-queries/)
+
+Engedje ki az Aspose.3D-ben rejlő lehetőségeket a .NET számára! Használja ki az XPath-szerű lekérdezések sokoldalúságát, hogy könnyedén navigáljon és kezeljen objektumokat a jelenethierarchián belül. Töltse le most a forradalmi élményért, és minden eddiginél egyszerűbbé teszi a 3D grafikus manipulációt.
+
+
 ## Kvaterniók összefűzése 3D-s jelenetekben
 
  Fedezze fel a quaternion manipuláció erejét 3D jelenetekben az Aspose.3D for .NET segítségével. Tanuld meg lépésről lépésre összefűzni a kvaterniókat, felszabadítva bennük a magával ragadó átalakítások lehetőségét.[Olvass tovább](./concatenate-quaternions/)
 
 ## Kockajelenetek készítése 3D-ben
 
- A .NET-hez készült Aspose.3D segítségével könnyedén készíthet vizuálisan lenyűgöző 3D kockajeleneteket. Töltse le a könyvtárat, és kövesse átfogó útmutatónkat, hogy szabadjára engedje kreativitását.[Olvass tovább](./create-cube-scenes/)
+ .NET-hez készült Aspose.3D segítségével könnyedén készíthet vizuálisan lenyűgöző 3D kockajeleneteket. Töltse le a könyvtárat, és kövesse átfogó útmutatónkat, hogy szabadjára engedje kreativitását.[Olvass tovább](./create-cube-scenes/)
 
 ## Geometriai transzformáció feltárása 3D-s jelenetekben
 
@@ -37,11 +45,11 @@ Induljon el egy izgalmas utazásra a 3D grafika birodalmába az Aspose.3D for .N
 
 ## A csomóponti hierarchia megértése 3D-s jelenetekben
 
- Oldja fel az Aspose.3D erejét .NET-hez! Merüljön el a csomópont-hierarchia manipulációjában ezzel az átfogó útmutatóval, amely lehetővé teszi, hogy könnyedén készítsen lenyűgöző 3D-s jeleneteket.[Olvass tovább](./node-hierarchy/)
+Oldja fel az Aspose.3D erejét .NET-hez! Merüljön el a csomópont-hierarchia manipulációjában ezzel az átfogó útmutatóval, amely lehetővé teszi, hogy könnyedén készítsen lenyűgöző 3D-s jeleneteket.[Olvass tovább](./node-hierarchy/)
 
 ## Normálok beállítása a Cube-on 3D-s jelenetekben
 
-Növelje 3D modellezési készségeit az Aspose.3D for .NET segítségével. Ennek a lépésről-lépésre szóló útmutatónak a segítségével megtanulhatja, hogyan állíthat be normál értékeket egy 3D-kockán, mélységet és valósághűséget adva alkotásainak.[Olvass tovább](./setup-normals-cube/)
+ Növelje 3D modellezési készségeit az Aspose.3D for .NET segítségével. Ennek a lépésről-lépésre szóló útmutatónak a segítségével megtanulhatja, hogyan állíthat be normál értékeket egy 3D-kockán, mélységet és valósághűséget adva alkotásainak.[Olvass tovább](./setup-normals-cube/)
 
 ## UV beállítása a Cube-on 3D-s jelenetekben
 
@@ -53,41 +61,14 @@ Növelje 3D modellezési készségeit az Aspose.3D for .NET segítségével. Enn
 
 ## Csomópont átalakítása Quaternion által 3D-s jelenetekben
 
- Merüljön el a kvaternion transzformációk világában az Aspose.3D for .NET segítségével. Ez a kezdőbarát útmutató lépésről lépésre ismerteti a 3D csomópontok kvaterniók segítségével történő átalakítását.[Olvass tovább](./transformation-node-quaternion/)
+Merüljön el a kvaternion transzformációk világában az Aspose.3D for .NET segítségével. Ez a kezdőbarát útmutató lépésről lépésre ismerteti a 3D csomópontok kvaterniók segítségével történő átalakítását.[Olvass tovább](./transformation-node-quaternion/)
 
 ## Csomópont átalakítása transzformációs mátrix segítségével 3D-s jelenetekben
 
-Könnyedén átalakíthatja a csomópontokat 3D-s jelenetekben az Aspose.3D for .NET segítségével. Oktatóanyagunk részletes útmutatót nyújt a transzformációs mátrixok használatával történő csomópont-transzformációkhoz.[Olvass tovább](./transformation-node-matrix/)
+ Könnyedén átalakíthatja a csomópontokat 3D-s jelenetekben az Aspose.3D for .NET segítségével. Oktatóanyagunk részletes útmutatót nyújt a transzformációs mátrixok használatával történő csomópont-transzformációkhoz.[Olvass tovább](./transformation-node-matrix/)
 
 ## Háromszögelési háló 3D-s jelenetekben
 
  Fedezze fel az Aspose.3D for .NET erejét ezzel a lépésről-lépésre szóló útmutatóval a 3D hálók könnyedén háromszögeléséhez. Fejleszd modellezési készségeidet a magával ragadó élmény érdekében.[Olvass tovább](./triangulate-mesh/)
 
 Vágjon bele az Aspose.3D for .NET oktatóprogramok izgalmas utazásába, és emelje 3D grafikai szakértelmét. Merüljön el az egyes oktatóanyagokban, kövesse a lépéseket, és figyelje, ahogy képességei új magasságokba emelkednek. Boldog kódolást!
-## Geometria és hierarchia oktatóanyagok
-### [PBR-anyag alkalmazása a dobozra 3D-s jelenetekben](./apply-pbr-material-to-box/)
-Fedezze fel a 3D grafika világát az Aspose.3D for .NET segítségével. Hozzon létre magával ragadó jeleneteket erőfeszítés nélkül a fizikai alapú renderelő anyagok segítségével.
-### [Kvaterniók összefűzése 3D-s jelenetekben](./concatenate-quaternions/)
-Fedezze fel a quaternion manipuláció erejét 3D-s jelenetekben az Aspose.3D for .NET segítségével. Ismerje meg a kvaterniók összefűzését lépésről lépésre a magával ragadó átalakítások érdekében.
-### [Kockajelenetek készítése 3D-ben](./create-cube-scenes/)
-Az Aspose.3D for .NET segítségével könnyedén készíthet lenyűgöző 3D kockajeleneteket. Töltse le a könyvtárat, kövesse lépésről lépésre útmutatónkat, és engedje szabadjára.
-### [Geometriai transzformáció feltárása 3D-s jelenetekben](./expose-geometric-transformation/)
-Fedezze fel a 3D grafika korlátlan lehetőségeit a .NET-ben az Aspose.3D segítségével. Fedezze fel a geometriai transzformációkat könnyedén.
-### [Anyag felvitele a kockára 3D-s jelenetekben](./material-to-cube/)
-Fedezze fel a .NET-hez készült Aspose.3D-t, amely a zökkenőmentes 3D grafikus manipuláció kapuja. Könnyedén alkalmazzon anyagokat, fokozza a valósághűséget, és emelje fel projektjeit.
-### [Munka háló geometriai adatokkal 3D jelenetekben](./mesh-geometry-data/)
-Sajátítsa el a 3D grafikus programozás művészetét az Aspose.3D for .NET segítségével. Könnyedén létrehozhat, manipulálhat és menthet lenyűgöző 3D-s jeleneteket.
-### [A csomóponti hierarchia megértése 3D-s jelenetekben](./node-hierarchy/)
-Oldja fel az Aspose.3D erejét .NET-hez! Merüljön el a csomópont-hierarchia manipulációjában ezzel a lépésről lépésre szóló útmutatóval. Lenyűgöző 3D-s jeleneteket készíthet könnyedén.
-### [Normálok beállítása a Cube-on 3D-s jelenetekben](./setup-normals-cube/)
-Tanuljon meg normál értékeket beállítani egy 3D kockán az Aspose.3D for .NET használatával. Fejlessze 3D-s modellezési készségeit ezzel a lépésről-lépésre szóló útmutatóval.
-### [UV beállítása a Cube-on 3D-s jelenetekben](./setup-uv-cube/)
-Ismerje meg az UV-leképezés beállítását 3D-kockán az Aspose.3D for .NET használatával. Hozzon létre vizuálisan lenyűgöző jeleneteket precíz textúra-leképezéssel.
-### [Csomópont átalakítása Euler-szögekkel 3D-s jelenetekben](./transformation-node-euler-angles/)
-Tanulja meg a 3D csomópontok könnyed átalakítását az Aspose.3D for .NET segítségével. Kövesse lépésről lépésre útmutatónkat, hogy lenyűgöző eredményeket érjen el projektjei során.
-### [Csomópont átalakítása Quaternion által 3D-s jelenetekben](./transformation-node-quaternion/)
-Tanuljon meg 3D csomópontokat kvaterniók segítségével átalakítani az Aspose.3D for .NET használatával. Lépésről lépésre útmutató kezdőknek.
-### [Csomópont átalakítása transzformációs mátrix segítségével 3D-s jelenetekben](./transformation-node-matrix/)
-Könnyedén alakíthatja át a csomópontokat 3D-s jelenetekben az Aspose.3D for .NET használatával. Ismerje meg a csomópont-átalakításokat lépésről lépésre az oktatóanyag segítségével.
-### [Háromszögelési háló 3D-s jelenetekben](./triangulate-mesh/)
-Fedezze fel az Aspose.3D for .NET erejét ebben a lépésenkénti útmutatóban. Tanulja meg, hogyan lehet 3D hálókat könnyedén háromszögelni a továbbfejlesztett modellezés érdekében.

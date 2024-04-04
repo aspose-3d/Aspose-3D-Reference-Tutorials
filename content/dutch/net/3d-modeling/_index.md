@@ -1,10 +1,10 @@
 ---
-title: 3D-modellering
-linktitle: 3D-modellering
+title: Modellering
+linktitle: Modellering
 second_title: Aspose.3D .NET-API
 description: Ontdek de kunst van 3D-modellering met Aspose.3D voor .NET! Maak eenvoudig boeiende primitieve modellen in deze uitgebreide tutorial. Laat vandaag nog uw creativiteit de vrije loop.
 type: docs
-weight: 20
+weight: 28
 url: /nl/net/3d-modeling/
 ---
 
@@ -16,11 +16,38 @@ Als je er ooit van hebt gedroomd adembenemende 3D-modellen te maken, is de Aspos
 
 Begin aan uw 3D-modelleringsreis door u te verdiepen in de fundamentele aspecten. Aspose.3D voor .NET vereenvoudigt de ingewikkelde wereld van 3D-modellering, waardoor deze toegankelijk wordt voor zowel beginners als doorgewinterde enthousiastelingen. Leer meer over de kernprincipes en hulpmiddelen die de basis leggen voor uw creatieve verkenning.
 
-## [Primitieve 3D-modellen maken](./primitive-3d-models/)
+## Lineaire extrusie op 2D-vorm om nieuw gaas te creëren
 
-## Wonderen beeldhouwen met Aspose.3D
+Aspose.3D maakt de lineaire extrusie van vormen mogelijk om nieuwe meshes te creëren, waardoor de geometrische complexiteit en visuele diepte in 3D-modellen en scènes worden verbeterd. Met deze functie kunnen gebruikers 2D-vormen langs een specifieke as uitbreiden, waardoor ze gemakkelijk en nauwkeurig worden omgezet in volumetrische lichamen.
 
- Navigeer naar de[Primitieve 3D-modellen maken](./primitive-3d-models/) tutorial, waarin we de magie van beeldhouwen met Aspose.3D voor .NET ontrafelen. Dompel uzelf onder in een stapsgewijze handleiding, waarmee u moeiteloos primitieve modellen kunt vormen die het oog boeien. Van basisvormen tot ingewikkelde ontwerpen, deze tutorial behandelt het allemaal.
+[Lees de tutorial: Lineaire extrusie](./linear-extrusion/)
+
+## Primitieve 3D-modellen maken
+
+ Navigeer naar de[Primitieve 3D-modellen maken](./primitive-3d-models/)tutorial, waarin we de magie van beeldhouwen met Aspose.3D voor .NET ontrafelen. Dompel uzelf onder in een stapsgewijze handleiding, waarmee u moeiteloos primitieve modellen kunt vormen die het oog boeien. Van basisvormen tot ingewikkelde ontwerpen, deze tutorial behandelt het allemaal.
+
+[Lees de tutorial: Primitieve 3D-modellen maken](./primitive-3d-models/)
+
+## De vlakoriëntatie in 3D-scènes wijzigen
+
+Ga op reis om de kunst van het veranderen van vlakoriëntatie in 3D-scènes onder de knie te krijgen met behulp van Aspose.3D voor .NET. Onze uitgebreide gids begeleidt u bij elke stap en zorgt voor een naadloze integratie in uw projecten. Ontketen het potentieel van uw 3D-scènes met hernieuwde controle.
+
+[Lees de tutorial: De vlakoriëntatie wijzigen in 3D-scènes](./change-plane-orientation/)
+
+## De vlakoriëntatie in 3D-scènes wijzigen
+
+Ga op reis om de kunst van het veranderen van vlakoriëntatie in 3D-scènes onder de knie te krijgen met behulp van Aspose.3D voor .NET. Onze uitgebreide gids begeleidt u bij elke stap en zorgt voor een naadloze integratie in uw projecten. Ontketen het potentieel van uw 3D-scènes met hernieuwde controle.
+
+[Lees de tutorial: De vlakoriëntatie wijzigen in 3D-scènes](./change-plane-orientation/)
+
+
+## Werken met cilinder
+
+Aspose.3D vergemakkelijkt de creatie van parametrische cilinders met 3D-geometrie, waardoor gebruikers moeiteloos meshes kunnen genereren. Met deze functie kunnen gebruikers cilinders definiëren met gespecificeerde afmetingen en eigenschappen, en deze naadloos integreren in hun 3D-modellen en scènes voor meer realisme en detail.
+
+[Lees de tutorial: Werken met cilinder](./working-with-cylinder/)
+
+
 
 ### Duik in de basis
 
@@ -36,7 +63,7 @@ De schoonheid van 3D-modellering ligt in de vrijheid om uw creativiteit de vrije
 
 ## Verbeter vandaag nog uw vaardigheden!
 
-Aspose.3D voor .NET-tutorials De lijst is niet slechts een leidraad; het is een uitnodiging om de grenzeloze mogelijkheden van 3D-modellering te verkennen. Duik in de[Primitieve 3D-modellen maken](./primitive-3d-models/) tutorial en beeldhouw wonderen die de grenzen van de verbeelding overstijgen. Laat de kunstenaar in u los – begin nu aan uw reis!
+ Aspose.3D voor .NET-tutorials De lijst is niet slechts een leidraad; het is een uitnodiging om de grenzeloze mogelijkheden van 3D-modellering te verkennen. Duik in de[Primitieve 3D-modellen maken](./primitive-3d-models/) tutorial en beeldhouw wonderen die de grenzen van de verbeelding overstijgen. Laat de kunstenaar in u los – begin nu aan uw reis!
 ## Tutorials voor 3D-modellering
 ### [Primitieve 3D-modellen maken](./primitive-3d-models/)
 Ontdek de wereld van 3D-modellering met Aspose.3D voor .NET. Creëer moeiteloos verbluffende primitieve modellen.

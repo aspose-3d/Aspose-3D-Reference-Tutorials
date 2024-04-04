@@ -19,7 +19,7 @@ Apakah rendering Java 3D Anda kurang memiliki kecepatan dan efisiensi yang layak
 
 ### Mengapa Memilih Konversi Segitiga?
 
-Bayangkan poligon sebagai potongan puzzle, dan segitiga sebagai pasangan yang sempurna. Dengan mengonversi poligon menjadi segitiga, Anda mengoptimalkan model 3D untuk rendering, memastikan pengalaman visual yang mulus. Selami tutorialnya, yang berisi petunjuk langkah demi langkah dan cuplikan kode mengungkap proses tersebut, sehingga memberdayakan Anda untuk membuka potensi sebenarnya dari rendering Java 3D.
+Bayangkan poligon sebagai potongan puzzle, dan segitiga sebagai pasangan yang sempurna. Dengan mengonversi poligon menjadi segitiga, Anda mengoptimalkan model 3D untuk rendering, memastikan pengalaman visual yang lancar. Selami tutorialnya, yang berisi petunjuk langkah demi langkah dan cuplikan kode mengungkap proses tersebut, sehingga memberdayakan Anda untuk membuka potensi sebenarnya dari rendering Java 3D.
 
 ### Unduh Sekarang untuk Pengalaman Pengembangan 3D yang Mulus
 

@@ -17,7 +17,7 @@ Java'da 3D geliştirme becerilerinizi geliştirmeye hazır mısınız? Size 3D m
 
 ## Java'da 3B Ağlar için Veri Oluşturma (Normaller, Teğetler, Binormaller)
 
-Java projelerinizi bir sonraki seviyeye taşımaya hazır mısınız?[Java'da 3B Ağlar için Veri Oluşturma (Normaller, Teğetler, Binormaller)](./generate-mesh-data/) Aspose.3D'de ihtiyacınız olan eğitim var. 3B ağlarınız için normal verileri zahmetsizce oluşturma konusunda size rehberlik ederken, 3B grafiklerin inceliklerine derinlemesine dalın. Projelerinizin görsel çekiciliğini nasıl artıracağınızı ve 3D dünyasında güvenle gezinmeyi öğrenin.
+ Java projelerinizi bir sonraki seviyeye taşımaya hazır mısınız?[Java'da 3B Ağlar için Veri Oluşturma (Normaller, Teğetler, Binormaller)](./generate-mesh-data/)Aspose.3D'de ihtiyacınız olan eğitim var. 3B ağlarınız için normal verileri zahmetsizce oluşturma konusunda size rehberlik ederken, 3B grafiklerin inceliklerine derinlemesine dalın. Projelerinizin görsel çekiciliğini nasıl artıracağınızı ve 3D dünyasında güvenle gezinmeyi öğrenin.
 
 ## Java'da Verimli İşleme için 3D Meshleri Malzemeye Göre Bölün
 

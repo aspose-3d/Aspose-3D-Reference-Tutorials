@@ -59,7 +59,7 @@ Door deze stappen te volgen, hebt u Aspose.3D met succes in uw Java-project geï
 
 ## Conclusie
 
-In deze zelfstudie hebben we het naadloze proces van het efficiënt detecteren van 3D-bestandsindelingen in Java onderzocht met behulp van Aspose.3D. Deze krachtige bibliotheek stroomlijnt de ontwikkelingsworkflow, waardoor ontwikkelaars moeiteloos met diverse 3D-bestandsformaten kunnen werken.
+In deze zelfstudie hebben we het naadloze proces van het efficiënt detecteren van 3D-bestandsindelingen in Java onderzocht met behulp van Aspose.3D. Deze krachtige bibliotheek stroomlijnt de ontwikkelingsworkflow, waardoor ontwikkelaars moeiteloos met diverse 3D-bestandsindelingen kunnen werken.
 
 ## Veelgestelde vragen
 
@@ -81,4 +81,4 @@ A2: Absoluut! Aspose.3D biedt een gebruiksvriendelijke interface voor beginners 
 
 ### V5: Waar kan ik hulp zoeken als ik problemen ondervind met Aspose.3D?
 
-A5: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) om hulp te zoeken bij de gemeenschap en deskundigen.
+ A5: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) om hulp te zoeken bij de gemeenschap en deskundigen.

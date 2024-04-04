@@ -93,7 +93,7 @@ s.save(MyDir + "Non_PBRtoPBRMaterial_Out.gltf", opt);
 
 ### คำถามที่ 3: มีการทดลองใช้ฟรีหรือไม่?
 
- A3: ได้ คุณสามารถทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+A3: ได้ คุณสามารถทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
 
 ### คำถามที่ 4: ฉันจะรับการสนับสนุนสำหรับ Aspose.3D ได้ที่ไหน
 

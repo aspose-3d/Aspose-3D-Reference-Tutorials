@@ -16,7 +16,7 @@ Välkommen till den omfattande guiden om att arbeta med 3D-egenskaper och anpass
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
 - Java Development Kit (JDK) installerat på din maskin.
-- Aspose.3D-biblioteket har laddats ner och ställts in. Du kan ladda ner den från[Aspose hemsida](https://releases.aspose.com/3d/java/).
+-  Aspose.3D-biblioteket har laddats ner och ställts in. Du kan ladda ner den från[Aspose hemsida](https://releases.aspose.com/3d/java/).
 - En grundläggande förståelse för Java-programmering.
 
 ## Importera paket
@@ -69,7 +69,7 @@ Iterera genom alla egenskaper med en for-loop, skriv ut deras namn och värden. 
 props.set("Diffuse", new Vector3(1, 0, 1));
 ```
 
-det här steget ändrar vi värdet på en specifik egenskap ("Diffus") för att ändra utseendet på 3D-modellen.
+I det här steget ändrar vi värdet på en specifik egenskap ("Diffus") för att ändra utseendet på 3D-modellen.
 
 ## Steg 5: Hämta egendom efter namn
 
@@ -107,7 +107,7 @@ Grattis! Du har framgångsrikt lärt dig hur du arbetar med 3D-egenskaper och an
 
 ### F1: Hur kan jag installera Aspose.3D-biblioteket i mitt Java-projekt?
 
- A1: Du kan ladda ner biblioteket från[Aspose hemsida](https://releases.aspose.com/3d/java/)och följ installationsinstruktionerna i dokumentationen.
+ A1: Du kan ladda ner biblioteket från[Aspose hemsida](https://releases.aspose.com/3d/java/) och följ installationsinstruktionerna i dokumentationen.
 
 ### F2: Finns det några gratis provversioner tillgängliga för Aspose.3D?
 
@@ -119,7 +119,7 @@ Grattis! Du har framgångsrikt lärt dig hur du arbetar med 3D-egenskaper och an
 
 ### F4: Finns det ett supportforum för Aspose.3D där jag kan ställa frågor och söka hjälp?
 
- A4: Ja, besök[Aspose.3D supportforum](https://forum.aspose.com/c/3d/18) att få kontakt med samhället och få hjälp av experter.
+A4: Ja, besök[Aspose.3D supportforum](https://forum.aspose.com/c/3d/18) att få kontakt med samhället och få hjälp av experter.
 
 ### F5: Hur kan jag få en tillfällig licens för Aspose.3D?
 

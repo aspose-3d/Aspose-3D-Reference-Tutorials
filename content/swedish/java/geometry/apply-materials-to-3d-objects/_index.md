@@ -55,7 +55,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ## Steg 4: Peka noden till nätet
 
 ```java
-//Peka noden mot nätet
+// Peka noden mot nätet
 cubeNode.setEntity(mesh);
 ```
 
@@ -136,7 +136,7 @@ cubeNode.setMaterial(mat);
 ```java
 // Ställ in filnamnet
 MyDir = MyDir + "MaterialToCube.fbx";
-//Spara 3D-scen i de filformat som stöds
+// Spara 3D-scen i de filformat som stöds
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 

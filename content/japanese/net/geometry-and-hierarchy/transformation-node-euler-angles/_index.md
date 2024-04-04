@@ -1,6 +1,6 @@
 ---
-title: 3D シーンでのオイラー角によるノードの変換
-linktitle: 3D シーンでのオイラー角によるノードの変換
+title: オイラー角によるノードの変換
+linktitle: オイラー角によるノードの変換
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D ノードを簡単に変換する方法を学びます。プロジェクトで素晴らしい結果を得るには、ステップバイステップのガイドに従ってください。
 type: docs
@@ -44,34 +44,26 @@ Scene scene = new Scene();
 
 まず、を使用して新しい 3D シーンを作成します。`Scene`クラス。
 
-## ステップ 2: ノード クラス オブジェクトを初期化する
 
-```csharp
-//Nodeクラスオブジェクトの初期化
-Node cubeNode = new Node("cube");
-```
-
-を使用してシーン内にノードを作成します。`Node`クラス。このノードは 3D オブジェクトのコンテナとして機能します。
-
-## ステップ 3: ポリゴン ビルダーを使用してメッシュを作成する
+## ステップ 2: プリミティブ ボックスを使用してメッシュを作成する
 
 ```csharp
 //ポリゴン ビルダー メソッドを使用して共通クラスのメッシュ作成を呼び出し、メッシュ インスタンスを設定します
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 ```
 
 メソッドを呼び出します (この場合、`CreateMeshUsingPolygonBuilder`習慣から`Common`クラス) を使用して 3D オブジェクトのメッシュを生成します。
 
-## ステップ 4: ノードをメッシュ ジオメトリにポイントする
+## ステップ 3: メッシュのコンテナ ノードを作成する
 
 ```csharp
 //ノードをメッシュ ジオメトリにポイントします
-cubeNode.Entity = mesh;
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-作成したメッシュをノードに関連付けます。
+を使用してシーン内にノードを作成します。`Node`クラス。このノードは 3D オブジェクトのコンテナとして機能します。
 
-## ステップ 5: オイラー角と平行移動を設定する
+## ステップ 4: オイラー角と平行移動を設定する
 
 ```csharp
 //オイラー角
@@ -82,23 +74,14 @@ cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 
 ノードのオイラー角と移動を定義して、ノードを 3D 空間に配置します。
 
-## ステップ 6: キューブをシーンに追加する
-
-```csharp
-//シーンにキューブを追加する
-scene.RootNode.ChildNodes.Add(cubeNode);
-```
-
-ノードをシーンの階層に組み込みます。
-
-## ステップ 7: 3D シーンを保存する
+## ステップ 5: 3D シーンを保存する
 
 ```csharp
 //ドキュメントディレクトリへのパス。
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
 //3D シーンをサポートされているファイル形式で保存する
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 //ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
@@ -129,4 +112,4 @@ A2: はい、複数の変換を組み合わせて適用して、複雑な効果�
 
 ### Q5: サポートが必要ですか、それとも具体的な質問がありますか?
 
-A5: にアクセスしてください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)コミュニティサポートのために。
+ A5: にアクセスしてください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)コミュニティサポートのために。

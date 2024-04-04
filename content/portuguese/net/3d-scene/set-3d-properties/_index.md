@@ -9,7 +9,7 @@ url: /pt/net/3d-scene/set-3d-properties/
 ---
 ## Introdução
 
-A criação de cenas tridimensionais cativantes geralmente requer a capacidade de manipular várias propriedades, adicionando profundidade e realismo aos seus projetos. Aspose.3D for .NET fornece um conjunto de ferramentas poderoso para conseguir isso, permitindo definir e modificar propriedades tridimensionais em suas cenas 3D sem esforço. Neste tutorial, exploraremos o processo passo a passo, aprimorando sua compreensão de como aproveitar o Aspose.3D for .NET de maneira eficaz.
+criação de cenas tridimensionais cativantes geralmente requer a capacidade de manipular várias propriedades, adicionando profundidade e realismo aos seus projetos. Aspose.3D for .NET fornece um conjunto de ferramentas poderoso para conseguir isso, permitindo definir e modificar propriedades tridimensionais em suas cenas 3D sem esforço. Neste tutorial, exploraremos o processo passo a passo, aprimorando sua compreensão de como aproveitar o Aspose.3D for .NET de maneira eficaz.
 
 ## Pré-requisitos
 
@@ -19,7 +19,7 @@ Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisito
 
 - Diretório de documentos: Crie um diretório para armazenar seus documentos 3D.
 
-Agora que você já conhece o essencial, vamos explorar o processo de configuração de propriedades tridimensionais em cenas 3D usando Aspose.3D for .NET.
+Agora que você conhece o essencial, vamos explorar o processo de configuração de propriedades tridimensionais em cenas 3D usando Aspose.3D for .NET.
 
 ## Importar namespaces
 
@@ -105,7 +105,7 @@ Console.WriteLine(pdiffuse);
 
 ## Etapa 6: Propriedades da propriedade transversal
 
- Desde`Property` é herdado de`A3DObject`, você pode percorrer as propriedades de uma propriedade.
+ Desde`Property` é herdado de`A3DObject`você pode percorrer as propriedades de uma propriedade.
 
 ```csharp
 //ExStart: TraversePropertyProperties

@@ -22,7 +22,8 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 Untuk memulai, impor paket yang diperlukan ke proyek Java Anda. Pastikan Aspose.3D ditambahkan ke classpath Anda. Berikut ini contohnya:
 
-```javaimport com.aspose.threed.License;
+```java
+import com.aspose.threed.License;
 import com.aspose.threed.Metered;
 
 import java.io.FileInputStream;

@@ -15,7 +15,7 @@ Java tabanlı 3D projelerin heyecan verici dünyasına adım attığımız Aspos
 
 ### [Aspose.3D Eğitimi - Sahnelere Animasyon Özellikleri Ekleme](./add-animation-properties-to-scenes/)
 
- Yolculuğumuzun ilk ayağında 3D sahnelerinizi büyüleyici animasyonlarla nasıl dolduracağınızı keşfedeceğiz. Java tabanlı projelerinizin akıcı hareketler ve dinamik efektlerle hayat bulduğunu hayal edin. Adım adım eğitimimiz, animasyon özelliklerinin kusursuz bir şekilde entegrasyonunu sağlayarak, yaratımlarınıza zahmetsizce canlılık katmanızı sağlar. Sihri ortaya çıkarın[Burada](./add-animation-properties-to-scenes/) ve statik sahnelerin hareketli başyapıtlara dönüşümüne tanık olun.
+ Yolculuğumuzun ilk ayağında 3D sahnelerinizi büyüleyici animasyonlarla nasıl dolduracağınızı keşfedeceğiz. Java tabanlı projelerinizin akıcı hareketler ve dinamik efektlerle hayat bulduğunu hayal edin. Adım adım eğitimimiz, animasyon özelliklerinin kusursuz entegrasyonunu sağlayarak, yaratımlarınıza zahmetsizce canlılık katmanızı sağlar. Sihri ortaya çıkarın[Burada](./add-animation-properties-to-scenes/) ve statik sahnelerin hareketli başyapıtlara dönüşümüne tanık olun.
 
 ## Java'da 3D Animasyonlar için Hedef Kamerayı Ayarlama
 

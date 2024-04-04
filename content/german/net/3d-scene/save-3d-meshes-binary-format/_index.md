@@ -41,12 +41,24 @@ using System.Text;
 Laden Sie Ihre 3D-Datei mit Aspose.3D. In diesem Beispiel laden wir eine Datei namens „test.fbx“:
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## Schritt 2: Definieren Sie ein benutzerdefiniertes Binärformat
 
 Definieren Sie die Struktur des benutzerdefinierten Binärformats, in dem Sie Ihre 3D-Netze speichern möchten. Das Beispiel verwendet eine Struktur mit MeshBlock, Vertex und Triangle als Komponenten.
+
+```csharp
+// Das Speicherlayout eines Scheitelpunkts ist
+// float[3] Position;
+// float[3] normal;
+// float[3] uv;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## Schritt 3: Datei zum Schreiben öffnen
 
@@ -79,11 +91,30 @@ Konvertieren Sie für jedes Netzelement Kontrollpunkte in den Weltraum und schre
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (Weiter Kontrollpunkte und Dreiecksindizes schreiben)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//Das Speicherlayout des Netzes ist:
+// float[16] transform_matrix;
+// int vertices_count;
+// int indices_count;
+// vertex[vertices_count] vertices;
+// ushort[indices_count] Indizes;
+
+
+//Transformation schreiben
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//Anzahl der Eckpunkte/Indizes schreiben
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//Schreiben Sie Scheitelpunkte und Indizes
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## Abschluss
@@ -98,7 +129,7 @@ A1: Aspose.3D unterstützt hauptsächlich .NET-Sprachen, Sie können jedoch Komp
 
 ### F2: Wo finde ich zusätzliche Beispiele und Ressourcen?
 
- A2: Die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) ist ein großartiger Ort, um Unterstützung und Beispiele zu finden und mit der Community in Kontakt zu treten.
+ A2: Die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18)ist ein großartiger Ort, um Unterstützung und Beispiele zu finden und mit der Community in Kontakt zu treten.
 
 ### F3: Gibt es eine Testversion für Aspose.3D?
 

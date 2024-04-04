@@ -9,7 +9,7 @@ url: /hu/java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
 ## Bevezetés
 
-Üdvözöljük ebben az átfogó oktatóanyagban, amely az UV-koordináták 3D objektumokra történő alkalmazásáról szól Java nyelven az Aspose.3D használatával. A 3D-s grafika világában az UV-koordináták döntő szerepet játszanak a textúrák felületekre való feltérképezésében, javítva az alkotások vizuális vonzerejét. Ez az oktatóanyag végigvezeti Önt a folyamaton, lebontva az egyes lépéseket a gördülékeny és hatékony tanulási élmény biztosítása érdekében.
+Üdvözöljük ebben az átfogó oktatóanyagban, amely az UV-koordináták 3D objektumokra történő alkalmazásáról szól Java nyelven az Aspose.3D használatával. A 3D grafika világában az UV-koordináták döntő szerepet játszanak a textúrák felületekre való feltérképezésében, javítva alkotásai vizuális vonzerejét. Ez az oktatóanyag végigvezeti Önt a folyamaton, lebontva az egyes lépéseket a gördülékeny és hatékony tanulási élmény biztosítása érdekében.
 
 ## Előfeltételek
 

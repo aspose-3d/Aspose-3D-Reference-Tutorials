@@ -28,7 +28,7 @@ import com.aspose.threed.*;
 
 ```
 
-## Langkah 1: Inisialisasi Objek Adegan
+## Langkah 1: Inisialisasi Objek Pemandangan
 
 ```java
 // Inisialisasi objek adegan

@@ -1,6 +1,6 @@
 ---
-title: Konfigurowanie normalnych na kostce w scenach 3D
-linktitle: Konfigurowanie normalnych na kostce w scenach 3D
+title: Konfigurowanie normalnych w kostce
+linktitle: Konfigurowanie normalnych w kostce
 second_title: Aspose.3D API .NET
 description: Naucz się konfigurować normalne na kostce 3D przy użyciu Aspose.3D dla .NET. Popraw swoje umiejętności modelowania 3D dzięki temu przewodnikowi krok po kroku.
 type: docs

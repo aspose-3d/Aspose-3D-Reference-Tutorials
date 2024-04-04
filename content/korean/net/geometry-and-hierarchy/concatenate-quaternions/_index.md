@@ -1,6 +1,6 @@
 ---
-title: 3D 장면에서 쿼터니언 연결
-linktitle: 3D 장면에서 쿼터니언 연결
+title: 쿼터니언 연결
+linktitle: 쿼터니언 연결
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 장면에서 쿼터니언 조작의 강력한 기능을 살펴보세요. 몰입형 변환을 위해 쿼터니언을 단계별로 연결하는 방법을 알아보세요.
 type: docs
@@ -15,7 +15,7 @@ url: /ko/net/geometry-and-hierarchy/concatenate-quaternions/
 
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
--  .NET 라이브러리용 Aspose.3D: 다음에서 라이브러리를 다운로드하고 설치합니다.[Aspose 웹사이트](https://releases.aspose.com/3d/net/).
+-  .NET 라이브러리용 Aspose.3D: 다음에서 라이브러리를 다운로드하고 설치합니다.[Aspose 웹 사이트](https://releases.aspose.com/3d/net/).
 - 개발 환경: .NET용 개발 환경이 작동하는지 확인하세요.
 
 ## 네임스페이스 가져오기
@@ -96,7 +96,7 @@ A2: 예, .NET용 Aspose.3D는 다른 .NET 라이브러리와 원활하게 작동
 
 ### Q3: .NET용 Aspose.3D에 대한 무료 평가판이 있습니까?
 
- A3: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+A3: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q4: .NET용 Aspose.3D에 대한 지원을 어떻게 받을 수 있나요?
 

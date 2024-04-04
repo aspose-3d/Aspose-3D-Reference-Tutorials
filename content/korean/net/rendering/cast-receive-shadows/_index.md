@@ -35,7 +35,7 @@ Scene scene = new Scene();
 Camera camera = new Camera();
 // 추가 카메라 설정 코드...
 ```
- 3D 장면을 생성하고 장면을 볼 수 있도록 카메라를 설정합니다. 다음과 같은 카메라 매개변수를 조정합니다.`NearPlane` 그리고`LookAt` 최적의 렌더링을 위해
+3D 장면을 생성하고 장면을 볼 수 있도록 카메라를 설정합니다. 다음과 같은 카메라 매개변수를 조정합니다.`NearPlane` 그리고`LookAt` 최적의 렌더링을 위해
 ## 2단계: 광원 도입
 ```csharp
 Light light;

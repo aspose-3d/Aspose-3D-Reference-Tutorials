@@ -16,7 +16,7 @@ Az Aspose.3D for Java egy sokoldalú könyvtár, amely lehetővé teszi a fejles
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 
 - Java Development Kit (JDK) telepítve a gépére.
-- Aspose.3D for Java könyvtár letöltve. A letöltési linket megtalálod[itt](https://releases.aspose.com/3d/java/).
+-  Aspose.3D for Java könyvtár letöltve. A letöltési linket megtalálod[itt](https://releases.aspose.com/3d/java/).
 
 ## Csomagok importálása
 
@@ -94,7 +94,7 @@ A 3D jelenetek hatékony tömörítése elengedhetetlen a tároláshoz és a meg
 
 ### 3. kérdés: Vannak-e ingyenes próbaverziók?
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 
 ### 4. kérdés: Hol találok támogatást az Aspose.3D for Java számára?
 

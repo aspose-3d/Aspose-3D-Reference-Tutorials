@@ -16,7 +16,7 @@ Sei pronto per intraprendere un emozionante viaggio nel regno della modellazione
 
 Immergiti nelle basi dell'estrusione lineare con Aspose.3D per Java. Scopri i segreti per trasformare senza sforzo forme 2D in affascinanti strutture 3D. La nostra guida passo passo ti assicura di cogliere i concetti fondamentali, permettendoti di dare vita alle tue creazioni digitali.
 
- Pronto per iniziare?[Esegui ora l'estrusione lineare](./performing-linear-extrusion/)
+ Pronti per iniziare?[Esegui ora l'estrusione lineare](./performing-linear-extrusion/)
 
 ## Centro di controllo nell'estrusione lineare con Aspose.3D per Java
 

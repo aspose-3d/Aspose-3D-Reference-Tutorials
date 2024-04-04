@@ -1,6 +1,6 @@
 ---
-title: Μετασχηματισμός κόμβου από Quaternion σε τρισδιάστατες σκηνές
-linktitle: Μετασχηματισμός κόμβου από Quaternion σε τρισδιάστατες σκηνές
+title: Μετασχηματισμός κόμβου κατά τεταρτοταγή
+linktitle: Μετασχηματισμός κόμβου κατά τεταρτοταγή
 second_title: Aspose.3D .NET API
 description: Μάθετε να μετασχηματίζετε τρισδιάστατους κόμβους με τεταρτοταγή χρησιμοποιώντας το Aspose.3D για .NET. Οδηγός βήμα προς βήμα για αρχάριους.
 type: docs
@@ -90,7 +90,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-//Αποθηκεύστε τη σκηνή 3D στις υποστηριζόμενες μορφές αρχείων
+// Αποθηκεύστε τη σκηνή 3D στις υποστηριζόμενες μορφές αρχείων
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
@@ -98,7 +98,7 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 
 ## συμπέρασμα
 
-Συγχαρητήρια! Έχετε μάθει με επιτυχία πώς να μετασχηματίζετε έναν κόμβο με τεταρτοταγή σε σκηνές 3D χρησιμοποιώντας το Aspose.3D για .NET. Εξερευνήστε περισσότερες δυνατότητες και δυνατότητες ανατρέχοντας στο[τεκμηρίωση](https://reference.aspose.com/3d/net/).
+ Συγχαρητήρια! Έχετε μάθει με επιτυχία πώς να μετασχηματίζετε έναν κόμβο με τεταρτοταγή σε σκηνές 3D χρησιμοποιώντας το Aspose.3D για .NET. Εξερευνήστε περισσότερες δυνατότητες και δυνατότητες ανατρέχοντας στο[τεκμηρίωση](https://reference.aspose.com/3d/net/).
 
 ## Συχνές ερωτήσεις
 

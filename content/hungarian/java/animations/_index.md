@@ -2,7 +2,7 @@
 title: Animációk használata Java nyelven
 linktitle: Animációk használata Java nyelven
 second_title: Aspose.3D Java API
-description: Emelje fel Java 3D projektjeit az Aspose.3D oktatóanyagokkal! Tanuljon meg animációs tulajdonságokat hozzáadni, és zökkenőmentesen beállítani a célkamerákat a magával ragadó 3D fejlesztéshez.
+description: Emelje fel Java 3D projektjeit az Aspose.3D oktatóanyagokkal! Tanuljon meg animációs tulajdonságokat hozzáadni, és zökkenőmentesen beállítani a célkamerákat a lenyűgöző 3D fejlesztés érdekében.
 type: docs
 weight: 20
 url: /hu/java/animations/

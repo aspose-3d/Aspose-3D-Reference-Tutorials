@@ -37,7 +37,7 @@ Nu när vi har våra paket på plats, låt oss gå vidare till att ställa in UV
 
 I det här avsnittet guidar vi dig genom processen att ställa in UV-koordinater på en kub med Aspose.3D.
 
-### Steg 2: Skapa UV och index
+### Steg 2: Skapa UV:er och index
 
 ```java
 // ExStart:SetupUVOnCube

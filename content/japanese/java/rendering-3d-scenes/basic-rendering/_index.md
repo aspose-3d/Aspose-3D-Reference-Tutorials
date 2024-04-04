@@ -76,7 +76,7 @@ torus.getTransform().setTranslation(2, 1, 1);
 
 ### ステップ 5: カメラの設定
 
-最後のステップでは、シーンの目的のビューを取得できるようにカメラを構成します。
+最後のステップでは、シーンの目的のビューを取得できるようにカメラを設定します。
 
 ```java
 Camera camera = new Camera();

@@ -75,13 +75,13 @@ Aspose.3D for Java 提供了大量的 3D 圖形功能。探索[文件](https://r
 
 A1：當然！該庫提供了用戶友好的介面和全面的文檔，使各個級別的開發人員都可以使用它。
 
-### Q2：我可以將Aspose.3D for Java 用於商業專案嗎？
+### Q2：我可以將Aspose.3D for Java用於商業專案嗎？
 
  A2：是的，您可以在個人和商業專案中使用 Aspose.3D for Java。訪問[buy.aspose.com/buy](https://purchase.aspose.com/buy)了解許可詳細資訊。
 
 ### Q3：如何獲得 Aspose.3D for Java 支援？
 
- A3：加入社區[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18)與其他用戶互動並獲得專家的協助。
+A3：加入社區[forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18)與其他用戶互動並獲得專家的協助。
 
 ### Q4：有免費試用嗎？
 

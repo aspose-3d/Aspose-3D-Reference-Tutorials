@@ -74,7 +74,7 @@ CubeFaceData<string> fileNames = new CubeFaceData<string>()
 cubemap.Save(fileNames, ImageFormat.Png);
 ```
 ## Conclusión
-¡Felicidades! Ha renderizado con éxito una escena 3D en un mapa de cubos usando Aspose.3D para .NET. Explore más opciones de personalización y mejore sus proyectos de gráficos 3D con esta poderosa API.
+¡Felicidades! Ha renderizado con éxito una escena 3D en un mapa de cubos usando Aspose.3D para .NET. Explore más opciones de personalización y mejore sus proyectos de gráficos 3D con esta potente API.
 ## Preguntas frecuentes
 ### P: ¿Puedo usar Aspose.3D para .NET con otros formatos de archivos 3D?
 Sí, Aspose.3D admite varios formatos de archivos 3D, lo que brinda flexibilidad en sus proyectos.

@@ -8,7 +8,7 @@ weight: 10
 url: /vi/net/rendering/cast-receive-shadows/
 ---
 ## Giới thiệu
-Chào mừng bạn đến với thế giới kết xuất 3D với Aspose.3D cho .NET! Trong hướng dẫn này, chúng ta sẽ đi sâu vào lĩnh vực truyền và nhận bóng hấp dẫn, một khía cạnh quan trọng trong việc tạo cảnh 3D chân thực và ấn tượng về mặt hình ảnh. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình tiếp cận đồ họa 3D, hướng dẫn này sẽ trang bị cho bạn kiến thức và kỹ năng để nâng cao khả năng kết xuất của bạn bằng Aspose.3D.
+Chào mừng bạn đến với thế giới kết xuất 3D với Aspose.3D cho .NET! Trong hướng dẫn này, chúng ta sẽ đi sâu vào lĩnh vực truyền và nhận bóng hấp dẫn, một khía cạnh quan trọng trong việc tạo cảnh 3D chân thực và ấn tượng về mặt hình ảnh. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình sang đồ họa 3D, hướng dẫn này sẽ trang bị cho bạn kiến thức và kỹ năng để nâng cao khả năng kết xuất của bạn bằng Aspose.3D.
 ## Điều kiện tiên quyết
 Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 -  Aspose.3D for .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.3D. Bạn có thể tải nó xuống từ[Aspose.3D cho tài liệu .NET](https://reference.aspose.com/3d/net/).
@@ -35,7 +35,7 @@ Scene scene = new Scene();
 Camera camera = new Camera();
 // Mã cài đặt camera bổ sung...
 ```
- Tạo cảnh 3D và thiết lập camera để xem cảnh. Điều chỉnh các thông số camera như`NearPlane` Và`LookAt` để hiển thị tối ưu.
+Tạo cảnh 3D và thiết lập camera để xem cảnh. Điều chỉnh các thông số camera như`NearPlane` Và`LookAt` để hiển thị tối ưu.
 ## Bước 2: Giới thiệu nguồn sáng
 ```csharp
 Light light;

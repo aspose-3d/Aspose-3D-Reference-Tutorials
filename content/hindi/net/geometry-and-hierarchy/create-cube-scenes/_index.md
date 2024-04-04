@@ -1,6 +1,6 @@
 ---
-title: 3डी में घन दृश्य बनाना
-linktitle: 3डी में घन दृश्य बनाना
+title: घन दृश्य बनाना
+linktitle: घन दृश्य बनाना
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D के साथ सहजता से आश्चर्यजनक 3D क्यूब दृश्य बनाएं। लाइब्रेरी डाउनलोड करें, हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें और मुक्त हो जाएं।
 type: docs
@@ -87,7 +87,7 @@ scene.RootNode.ChildNodes.Add(cubeNode);
 // दस्तावेज़ निर्देशिका का पथ.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-//समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
+// समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 
