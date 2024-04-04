@@ -1,6 +1,6 @@
 ---
-title: Loading and Saving -  Detecting Format
-linktitle: Loading and Saving -  Detecting Format
+title: Detecting Format
+linktitle: Detecting Format
 second_title: Aspose.3D .NET API
 description: Master 3D file manipulation effortlessly with Aspose.3D for .NET. Load, save, and detect formats seamlessly.
 type: docs

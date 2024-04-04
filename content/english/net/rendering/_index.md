@@ -12,20 +12,32 @@ url: /net/rendering/
 Are you ready to embark on an exciting journey into the realm of 3D rendering? Look no further! Aspose.3D for .NET opens the door to a world of possibilities, allowing you to unleash your creativity and enhance your skills. In this comprehensive tutorial listing, we'll guide you through some of the most intriguing aspects of rendering using Aspose.3D for .NET.
 
 ## Casting and Receiving Shadows
-### [Casting and Receiving Shadows Tutorial](./cast-receive-shadows/)
 Dive deep into the art of casting and receiving shadows in the realm of 3D rendering with Aspose.3D for .NET. Our step-by-step guide empowers you to effortlessly master this essential technique, bringing your scenes to life with dynamic and realistic shadows. Ready to elevate your rendering game? [Get started now!](./cast-receive-shadows/)
+
+[Read the tutorial: Casting and Receiving Shadows Tutorial](./cast-receive-shadows/)
+
+
+## Capturing Viewports in 3D Scenes
+In this tutorial, we explored the process of capturing viewports in 3D scenes using Aspose.3D for .NET. Leveraging its powerful features, you can elevate your 3D graphics projects to new heights, providing captivating visual experiences.
+
+[Read the tutorial: Capturing Viewports in 3D Scenes](./capture-viewport/)
+
 
 ## Rendering 3D Model Image from Camera
 ### [Rendering 3D Model Image Tutorial](./render-3d-model-image/)
 Unlock the secrets of creating stunning 3D model images from the perspective of a camera using Aspose.3D for .NET. Our user-friendly guide takes you through the process, ensuring that you can easily produce captivating visualizations that showcase the true potential of your 3D models. Ready to make your creations come alive? [Explore now!](./render-3d-model-image/)
 
 ## Applying Fisheye Lens Effect to 3D Scene
-### [Fisheye Lens Effect Tutorial](./fisheye-lens-effect-3d-scene/)
 Transform your 3D scenes with the enchanting fisheye lens effect using Aspose.3D for .NET. Our detailed tutorial provides a step-by-step approach, allowing you to seamlessly apply this captivating effect to your creations. Ready to add a unique perspective to your scenes? [Learn more!](./fisheye-lens-effect-3d-scene/)
+[Read the tutorial: Fisheye Lens Effect Tutorial](./fisheye-lens-effect-3d-scene/)
 
 ## Rendering Panorama View of 3D Scene
 ### [Rendering Panorama View Tutorial](./render-panorama-view/)
 Immerse yourself in the world of stunning 3D panorama views with Aspose.3D for .NET. Our guide walks you through the process, ensuring that you can effortlessly create breathtaking scenes that captivate your audience. Ready to bring your creations to life in panoramic splendor? [Discover how!](./render-panorama-view/)
+
+## Apply more visual effects to 3D scene
+### [Apply Visual Effects Tutorial](./apply-visual-effects/)
+Dive into the realm of mesmerizing visual effects with Aspose.3D for .NET. Our comprehensive guide leads you through the journey, empowering you to effortlessly craft stunning scenes adorned with captivating visual enhancements. From edge detection to blur and pixelation, unlock a world of creative possibilities to elevate your creations. Are you prepared to transform your designs into captivating masterpieces with enchanting visual effects?  [Discover how!](./apply-visual-effects/)
 
 ## Rendering Scene into Cubemap with Six Faces
 ### [Render Scene into Cubemap Tutorial](./render-scene-cubemap/)

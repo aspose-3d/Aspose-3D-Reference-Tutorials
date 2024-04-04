@@ -1,6 +1,6 @@
 ---
-title: Triangulating Mesh in 3D Scenes
-linktitle: Triangulating Mesh in 3D Scenes
+title: Triangulating Mesh 
+linktitle: Triangulating Mesh 
 second_title: Aspose.3D .NET API
 description: Explore the power of Aspose.3D for .NET in this step-by-step guide. Learn how to effortlessly triangulate 3D meshes for enhanced modeling.
 type: docs

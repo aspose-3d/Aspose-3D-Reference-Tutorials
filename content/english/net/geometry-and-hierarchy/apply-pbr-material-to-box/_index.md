@@ -1,6 +1,6 @@
 ---
-title: Applying PBR Material to Box in 3D Scenes
-linktitle: Applying PBR Material to Box in 3D Scenes
+title: Applying PBR Material to Box
+linktitle: Applying PBR Material to Box
 second_title: Aspose.3D .NET API
 description: Explore the world of 3D graphics with Aspose.3D for .NET. Create immersive scenes effortlessly using Physically Based Rendering materials.
 type: docs

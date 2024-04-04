@@ -20,20 +20,13 @@ These are links to some useful resources:
  
 - [3D Modeling](./net/3d-modeling/)
 - [3D Scene](./net/3d-scene/)
-- [3D Viewports](./net/3d-viewports/)
 - [Animation](./net/animation/)
-- [Asset Information](./net/asset-information/)
 - [Geometry and Hierarchy](./net/geometry-and-hierarchy/)
 - [License](./net/license/)
 - [Loading and Saving](./net/loading-and-saving/)
 - [Materials](./net/materials/)
-- [Polygons](./net/polygons/)
 - [Rendering](./net/rendering/)
-- [Linear Extrusion](./net/linear-extrusion/)
-- [Objects](./net/objects/)
-- [Working With Cylinder](./net/working-with-cylinder/)
-- [Working With Point Cloud](./net/working-with-point-cloud/)
-- [Working With VRML](./net/working-with-vrml/)
+- [Meshes](./net/meshes/)
 
 ## Aspose.3D for Java Tutorials
 {{% alert color="primary" %}}

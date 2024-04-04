@@ -1,6 +1,6 @@
 ---
-title: Understanding Node Hierarchy in 3D Scenes
-linktitle: Understanding Node Hierarchy in 3D Scenes
+title: Understanding Node Hierarchy 
+linktitle: Understanding Node Hierarchy 
 second_title: Aspose.3D .NET API
 description: Unlock the power of Aspose.3D for .NET! Dive into node hierarchy manipulation with this step-by-step guide. Create stunning 3D scenes effortlessly.
 type: docs

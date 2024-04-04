@@ -1,6 +1,6 @@
 ---
-title: Transforming Node by Transformation Matrix in 3D Scenes
-linktitle: Transforming Node by Transformation Matrix in 3D Scenes
+title: Transforming Node by Transformation Matrix 
+linktitle: Transforming Node by Transformation Matrix 
 second_title: Aspose.3D .NET API
 description: Transform nodes effortlessly in 3D scenes using Aspose.3D for .NET. Learn step-by-step node transformations with tutorial.
 type: docs
@@ -34,27 +34,25 @@ using Aspose.ThreeD.Utilities;
 
 Now that we've covered the basics, let's break down the transformation process into a step-by-step guide.
 
-## Step 1: Initialize Scene and Node
+## Step 1: Initialize Scene
 
 ```csharp
 // ExStart:AddTransformationToNodeByTransformationMatrix            
 // Initialize scene object
 Scene scene = new Scene();
 
-// Initialize Node class object
-Node cubeNode = new Node("cube");
 ```
 
-In this step, we create a new 3D scene and a node named "cube" within that scene.
+In this step, we create a new empty 3D scene.
 
-## Step 2: Create Mesh and Set Geometry
+## Step 2: Create Mesh and Attach To Scene
 
 ```csharp
 // Call Common class create mesh using polygon builder method to set mesh instance 
-Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+Mesh mesh = (new Box()).ToMesh();
 
-// Point node to the Mesh geometry
-cubeNode.Entity = mesh;
+// Create a container node for the mesh.
+Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
 Here, we generate a mesh using the polygon builder method and assign it to the node, establishing the geometry for our cube.
@@ -73,23 +71,16 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 
 Define a custom translation matrix to determine the specific transformation applied to the node. Adjust the matrix values as needed for your desired transformation.
 
-## Step 4: Add Node to the Scene
-
-```csharp
-// Add cube to the scene
-scene.RootNode.ChildNodes.Add(cubeNode);            
-```
-
 Include the cube node in the scene, making it part of the overall 3D environment.
 
-## Step 5: Save the Scene
+## Step 4: Save the Scene
 
 ```csharp
 // The path to the documents directory.
-var output = "Your Output Directory" + "TransformationToNode.fbx";
+var output = "TransformationToNode.fbx";
 
 // Save 3D scene in the supported file formats
-scene.Save(output, FileFormat.FBX7500ASCII);
+scene.Save(output);
 // ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```

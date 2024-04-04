@@ -41,12 +41,24 @@ using System.Text;
 Load your 3D file using Aspose.3D. In this example, we load a file named "test.fbx":
 
 ```csharp
-Scene scene = new Scene(RunExamples.GetDataFilePath("test.fbx"));
+Scene scene = Scene.FromFile("test.fbx");
 ```
 
 ## Step 2: Define Custom Binary Format
 
 Define the structure of the custom binary format you want to save your 3D meshes in. The example uses a structure with MeshBlock, Vertex, and Triangle as components.
+
+```csharp
+//The memory layout of a vertex is 
+// float[3] position;
+// float[3] normal;
+// float[3] uv;
+var vertexDeclaration = new VertexDeclaration();
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
+
+```
 
 ## Step 3: Open File for Writing
 
@@ -79,11 +91,30 @@ For each mesh entity, convert control points to world space and write them to th
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
-var controlPoints = m.ControlPoints;
-int[][] triFaces = PolygonModifier.Triangulate(controlPoints, m.Polygons);
-Matrix4 transform = node.GlobalTransform.TransformMatrix;
 
-// ... (continue writing control points and triangle indices)
+var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
+
+
+//The mesh's memory layout is:
+// float[16] transform_matrix;
+// int vertices_count;
+// int indices_count;
+// vertex[vertices_count] vertices;
+// ushort[indices_count] indices;
+
+
+//write transform
+var transform = node.GlobalTransform.TransformMatrix.ToArray();
+for(int i = 0; i < transform.Length; i++)
+    writer.Write((float)transform[i]);
+//write number of vertices/indices
+writer.Write(triMesh.VerticesCount);
+writer.Write(triMesh.IndicesCount);
+//write vertices and indices
+writer.Flush();
+triMesh.WriteVerticesTo(writer.BaseStream);
+triMesh.Write16bIndicesTo(writer.BaseStream);
+
 ```
 
 ## Conclusion
