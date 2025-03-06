@@ -3,10 +3,16 @@ title: Získejte informace z 3D scén v aplikacích Java
 linktitle: Získejte informace z 3D scén v aplikacích Java
 second_title: Aspose.3D Java API
 description: Prozkoumejte svět manipulace 3D scén v Javě s Aspose.3D. Tento tutoriál vás provede získáváním informací krok za krokem.
-type: docs
 weight: 12
 url: /cs/java/3d-scenes-and-models/get-scene-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte informace z 3D scén v aplikacích Java
+
 ## Úvod
 
 Vítejte v tomto komplexním průvodci o získávání informací z 3D scén v aplikacích Java pomocí Aspose.3D. Pokud jste vývojář v jazyce Java a chcete vylepšit možnosti své aplikace pomocí manipulace s 3D scénou, jste na správném místě. Tento tutoriál vás provede procesem krok za krokem a zajistí, že důkladně pochopíte každý koncept.
@@ -99,3 +105,9 @@ A2: Rozhodně. Aspose.3D nabízí komerční licence pro vývojáře, což zaji�
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.3D?
 
  A5: Získejte dočasnou licenci pro testovací účely[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

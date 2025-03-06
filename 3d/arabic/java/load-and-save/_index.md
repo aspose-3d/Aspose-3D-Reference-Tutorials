@@ -3,10 +3,16 @@ title: العمل مع الملفات ثلاثية الأبعاد في Java - ا
 linktitle: العمل مع الملفات ثلاثية الأبعاد في Java - الإنشاء والتحميل والحفظ والتحويل
 second_title: Aspose.3D جافا API
 description: أتقن معالجة الملفات ثلاثية الأبعاد في Java دون عناء باستخدام دروس Aspose.3D. يمكنك إنشاء ملفات ثلاثية الأبعاد وتحميلها وحفظها وتحويلها بسهولة باستخدام الأدلة خطوة بخطوة.
-type: docs
 weight: 30
 url: /ar/java/load-and-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع الملفات ثلاثية الأبعاد في Java - الإنشاء والتحميل والحفظ والتحويل
+
 
 ## مقدمة
 
@@ -56,3 +62,9 @@ url: /ar/java/load-and-save/
 استكشف العالم السلس لمعالجة المشهد ثلاثي الأبعاد في Java باستخدام Aspose.3D. تعلم كيفية حفظ المشاهد بتنسيقات مختلفة دون عناء.
 ### [تحسين حفظ الملفات ثلاثية الأبعاد في Java باستخدام Aspose.3D SaveOptions](./optimize-3d-file-saving/)
 تعرف على كيفية تحسين حفظ الملفات ثلاثية الأبعاد في Java باستخدام Aspose.3D SaveOptions. تعزيز الأداء وتخصيص المخرجات دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

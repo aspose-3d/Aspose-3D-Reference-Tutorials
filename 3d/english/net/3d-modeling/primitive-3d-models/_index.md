@@ -3,10 +3,16 @@ title: Creating Primitive 3D Models
 linktitle: Creating Primitive 3D Models
 second_title: Aspose.3D .NET API
 description: Explore the world of 3D modeling with Aspose.3D for .NET. Create stunning primitive models effortlessly.
-type: docs
 weight: 10
 url: /net/3d-modeling/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creating Primitive 3D Models
+
 ## Introduction
 
 Welcome to the exciting world of 3D modeling with Aspose.3D for .NET! In this comprehensive tutorial, we will explore the process of creating primitive 3D models using Aspose.3D in a step-by-step manner. Whether you are a seasoned developer or a curious beginner, this guide will help you harness the power of Aspose.3D to craft visually stunning 3D elements for your projects.
@@ -108,3 +114,10 @@ A4: You can obtain a temporary license [here](https://purchase.aspose.com/tempor
 ### Q5: Are there any sample tutorials available?
 
 A5: Yes, explore more tutorials and examples in the [documentation](https://reference.aspose.com/3d/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

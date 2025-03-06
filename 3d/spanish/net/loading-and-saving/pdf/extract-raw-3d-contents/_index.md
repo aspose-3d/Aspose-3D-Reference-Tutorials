@@ -3,10 +3,16 @@ title: Extracción de contenidos 3D sin procesar de PDF
 linktitle: Extracción de contenidos 3D sin procesar de PDF
 second_title: Aspose.3D API .NET
 description: Aprenda a extraer contenido 3D de PDF usando Aspose.3D para .NET. Guía paso a paso con ejemplos de código.
-type: docs
 weight: 14
 url: /es/net/loading-and-saving/pdf/extract-raw-3d-contents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extracción de contenidos 3D sin procesar de PDF
+
 ## Introducción
 
 Bienvenido a esta guía completa sobre cómo extraer contenidos 3D sin procesar de PDF usando Aspose.3D para .NET. Aspose.3D es una API potente y versátil que permite a los desarrolladores trabajar con archivos 3D sin esfuerzo. En este tutorial, nos centraremos en el proceso de extracción de contenidos 3D sin procesar de archivos PDF, brindándole una guía paso a paso.
@@ -90,3 +96,9 @@ R1: Sí, Aspose.3D admite una amplia gama de formatos de archivos 3D, lo que lo 
 ### P5: ¿Hay alguna documentación disponible para Aspose.3D?
 
  A5: Sí, la documentación se puede encontrar[aquí](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

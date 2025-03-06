@@ -3,10 +3,16 @@ title: 在 3D 視窗中應用視覺效果
 linktitle: 在 3D 視窗中應用視覺效果
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 視覺化世界。使用逐步教學學習如何將迷人的視覺效果應用到場景中。透過像素化、灰階、邊緣偵測和模糊效果來提升您的專案。
-type: docs
 weight: 10
 url: /zh-hant/net/rendering/apply-visual-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 3D 視窗中應用視覺效果
+
 ## 介紹
 
 增強 3D 場景的視覺吸引力是創造沉浸式體驗的重要方面。 Aspose.3D for .NET 提供了一組強大的工具來將視覺效果應用於 3D 視窗。在本教程中，我們將逐步介紹在 3D 場景中應用各種效果的過程，包括像素化、灰階、邊緣偵測和模糊。
@@ -179,3 +185,9 @@ A4：Aspose.3D提供了多種內建的後處理效果，您可以使用該程式
 ### Q5：我可以將Aspose.3D用於商業項目嗎？
 
  A5：是的，您可以將Aspose.3D用於商業目的。請參閱[購買頁面](https://purchase.aspose.com/buy)了解許可詳細資訊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

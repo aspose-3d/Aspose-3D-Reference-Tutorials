@@ -3,10 +3,16 @@ title: 3D メッシュを Google Draco 形式でエンコードする
 linktitle: Draco での 3D メッシュのエンコード
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して、Google Draco 形式での簡単な 3D メッシュ エンコーディングを試してください。ステップバイステップのガイドに従ってください。効率的で強力、そして開発者にとって使いやすい!
-type: docs
 weight: 19
 url: /ja/net/loading-and-saving/draco/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D メッシュを Google Draco 形式でエンコードする
+
 ## 導入
 3D グラフィックスの世界を深く掘り下げていて、3D メッシュ データを効率的に圧縮したい場合は、もう探す必要はありません。このチュートリアルでは、Aspose.3D for .NET を使用して 3D メッシュを Google Draco 形式にエンコードするプロセスを説明します。この強力なライブラリにより、開発者は 3D ファイル形式をシームレスに操作し、メッシュ エンコーディングを含むさまざまな操作を実行できるようになります。
 ## 前提条件
@@ -58,3 +64,9 @@ Aspose.3D は主に .NET 用に設計されていますが、Aspose は Java や
 一時ライセンスを使用すると、期間限定で Aspose.3D のフル バージョンを評価できます。
 ### Aspose.3D for .NET の詳細なドキュメントはどこで見つけられますか?
 を参照してください。[ドキュメンテーション](https://reference.aspose.com/3d/net/)包括的な情報については。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

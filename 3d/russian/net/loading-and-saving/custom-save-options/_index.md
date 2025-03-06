@@ -3,10 +3,16 @@ title: Пользовательские параметры сохранения
 linktitle: Пользовательские параметры сохранения
 second_title: Aspose.3D .NET API
 description: Откройте для себя возможности Aspose.3D для .NET. Узнайте, как настроить сохранение 3D-сцены, с помощью пошаговых руководств по форматам Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC и RVM.
-type: docs
 weight: 21
 url: /ru/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Пользовательские параметры сохранения
+
 ## Введение
 
 Добро пожаловать в мир Aspose.3D для .NET! Если вы хотите расширить свои возможности в области 3D-разработки, вы попали по адресу. В этом уроке мы углубимся в функции загрузки и сохранения, уделив особое внимание пользовательским параметрам сохранения. Aspose.3D для .NET — это мощная библиотека, которая позволяет разработчикам эффективно манипулировать и сохранять 3D-сцены.
@@ -131,3 +137,9 @@ using System.Drawing;
 ### В5: Как я могу получить временную лицензию на Aspose.3D?
 
  A5: Получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

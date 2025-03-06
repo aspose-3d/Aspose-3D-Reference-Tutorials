@@ -3,10 +3,16 @@ title: Triển khai kết xuất 3D thời gian thực trong các ứng dụng J
 linktitle: Triển khai kết xuất 3D thời gian thực trong các ứng dụng Java bằng SWT
 second_title: API Java Aspose.3D
 description: Khám phá sự kỳ diệu của kết xuất 3D thời gian thực trong Java với Aspose.3D. Tạo các ứng dụng trực quan tuyệt đẹp một cách dễ dàng.
-type: docs
 weight: 14
 url: /vi/java/rendering-3d-scenes/real-time-rendering-swt/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Triển khai kết xuất 3D thời gian thực trong các ứng dụng Java bằng SWT
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng tầm ứng dụng Java của mình lên một tầm cao mới chưa? Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn triển khai kết xuất 3D theo thời gian thực bằng Aspose.3D cho Java. Aspose.3D là một thư viện mạnh mẽ cho phép bạn tích hợp đồ họa 3D tuyệt đẹp một cách liền mạch vào các ứng dụng Java của mình. Hãy sẵn sàng khi chúng ta đi sâu vào thế giới kết xuất thời gian thực với Aspose.3D và SWT (Bộ công cụ tiện ích tiêu chuẩn).
@@ -118,3 +124,9 @@ A2: Chắc chắn rồi! Aspose.3D tích hợp liền mạch với các thư vi�
 ### Câu 5: Cần hỗ trợ hoặc có câu hỏi cụ thể?
 
  A5: Tham quan[Diễn đàn cộng đồng Aspose.3D](https://forum.aspose.com/c/3d/18) để được hỗ trợ từ chuyên gia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

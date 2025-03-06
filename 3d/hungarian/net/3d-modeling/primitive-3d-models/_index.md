@@ -3,10 +3,16 @@ title: Primitív 3D-s modellek készítése
 linktitle: Primitív 3D-s modellek készítése
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D modellezés világát az Aspose.3D for .NET segítségével. Lenyűgöző primitív modelleket hozhat létre könnyedén.
-type: docs
 weight: 10
 url: /hu/net/3d-modeling/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Primitív 3D-s modellek készítése
+
 ## Bevezetés
 
 Üdvözöljük a 3D modellezés izgalmas világában az Aspose.3D for .NET segítségével! Ebben az átfogó oktatóanyagban lépésről lépésre feltárjuk a primitív 3D modellek létrehozásának folyamatát az Aspose.3D használatával. Akár tapasztalt fejlesztő, akár kíváncsi kezdő, ez az útmutató segít hasznosítani az Aspose.3D erejét, hogy vizuálisan lenyűgöző 3D-s elemeket készítsen projektjeihez.
@@ -108,3 +114,9 @@ Console.WriteLine("\nBuilding a scene from primitive 3D models successfully.\nFi
 ### 5. kérdés: Rendelkezésre állnak oktatóanyagok mintái?
 
  5. válasz: Igen, keressen további oktatóanyagokat és példákat a[dokumentáció](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

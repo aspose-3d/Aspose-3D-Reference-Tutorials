@@ -3,10 +3,16 @@ title: Création de cylindres de ventilateur personnalisés avec Aspose.3D pour 
 linktitle: Création de cylindres de ventilateur personnalisés avec Aspose.3D pour Java
 second_title: API Java Aspose.3D
 description: Apprenez à créer des cylindres de ventilateur personnalisés en Java avec Aspose.3D. Améliorez votre jeu de modélisation 3D sans effort.
-type: docs
 weight: 10
 url: /fr/java/cylinders/creating-fan-cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création de cylindres de ventilateur personnalisés avec Aspose.3D pour Java
+
 ## Introduction
 
 Êtes-vous prêt à améliorer votre expérience de modélisation 3D avec Aspose.3D pour Java ? Ce didacticiel vous guidera tout au long du processus de création de cylindres de ventilateur personnalisés à l'aide de la puissante bibliothèque Aspose.3D. Que vous soyez un développeur chevronné ou un débutant, ce guide étape par étape vous aidera à libérer tout le potentiel d'Aspose.3D en Java.
@@ -124,3 +130,9 @@ A2 : Absolument ! Aspose.3D offre de nombreuses options de personnalisation, vou
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.3D ?
 
  A5 : Acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/) pour vos besoins de tests et de développement.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

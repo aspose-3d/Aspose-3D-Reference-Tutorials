@@ -3,10 +3,16 @@ title: 使用网格几何数据
 linktitle: 使用网格几何数据
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 掌握 3D 图形编程的艺术。轻松创建、操作和保存令人惊叹的 3D 场景。
-type: docs
 weight: 15
 url: /zh/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用网格几何数据
+
 ## 介绍
 
 欢迎来到使用 Aspose.3D for .NET 进行 3D 图形编程的激动人心的世界！在本教程中，我们将使用 Aspose.3D（面向 .NET 开发人员的强大且多功能的库）深入研究在 3D 场景中处理网格几何数据的复杂性。无论您是经验丰富的程序员还是刚刚开始使用 3D 图形，本分步指南都将帮助您轻松掌握处理网格几何数据的艺术。
@@ -126,3 +132,9 @@ A2：是的，您可以免费试用[这里](https://releases.aspose.com/).
 ### Q5：3D场景支持哪些文件格式？
 
  A5：Aspose.3D支持多种文件格式，包括FBX、STL等。请参阅[文档](https://reference.aspose.com/3d/net/)以获得完整列表。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

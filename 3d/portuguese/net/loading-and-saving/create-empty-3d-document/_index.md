@@ -3,10 +3,16 @@ title: Criando um documento 3D vazio
 linktitle: Criando um documento 3D vazio
 second_title: API Aspose.3D .NET
 description: Explore o mundo da criação de documentos 3D com Aspose.3D for .NET. Crie, edite e salve cenas 3D impressionantes sem esforço.
-type: docs
 weight: 11
 url: /pt/net/loading-and-saving/create-empty-3d-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Criando um documento 3D vazio
+
 ## Introdução
 
 Bem-vindo ao mundo da criação de documentos 3D usando Aspose.3D for .NET! Neste tutorial, exploraremos os fundamentos do carregamento e salvamento de documentos 3D. Aspose.3D for .NET fornece um conjunto poderoso de ferramentas para trabalhar com cenas 3D e orientaremos você em cada etapa para ajudá-lo a começar sem problemas.
@@ -84,3 +90,9 @@ A1: Sim, o Aspose.3D for .NET fornece uma interface amigável, tornando-o acess�
 ### Q5: Onde posso comprar o Aspose.3D para .NET?
 
  A5: Você pode comprar a biblioteca[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.3D에 라이선스 적용
 linktitle: .NET용 Aspose.3D에 라이선스 적용
 second_title: Aspose.3D .NET API
 description: 라이선스를 원활하게 적용하여 .NET용 Aspose.3D의 강력한 기능을 활용하세요. 원활한 통합 경험을 위해 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/license/apply-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.3D에 라이선스 적용
+
 ## 소개
 
 .NET용 Aspose.3D의 잠재력을 최대한 활용할 준비가 되셨습니까? 라이선스 적용은 고급 기능에 액세스하고 원활한 통합을 보장하는 열쇠입니다. 이 단계별 가이드에서는 라이선스를 적용하는 다양한 방법을 안내하여 Aspose.3D 애플리케이션의 원활한 설정 프로세스를 보장합니다.
@@ -118,3 +124,9 @@ metered.SetMeteredKey("your-public-key", "your-private-key");
 ### Q5: 라이센스는 어떻게 구매할 수 있나요?
 
  A5: 라이센스 구매[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

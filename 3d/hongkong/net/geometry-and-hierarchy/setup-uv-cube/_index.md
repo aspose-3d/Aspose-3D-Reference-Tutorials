@@ -3,10 +3,16 @@ title: 在立方體上設定 UV
 linktitle: 在立方體上設定 UV
 second_title: Aspose.3D .NET API
 description: 了解使用 Aspose.3D for .NET 在 3D 立方體上設定 UV 映射。透過精確的紋理映射創造視覺上令人驚嘆的場景。
-type: docs
 weight: 18
 url: /zh-hant/net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在立方體上設定 UV
+
 ## 介紹
 
 創建迷人且具有視覺吸引力的 3D 場景通常涉及在幾何形狀上設置 UV 映射的細緻過程。在本教程中，我們將探索如何使用 Aspose.3D for .NET 在立方體上設定 UV。 Aspose.3D 是一個功能強大的.NET 函式庫，為 3D 建模和操作提供了一套全面的功能。
@@ -119,3 +125,9 @@ A4：造訪支援論壇[這裡](https://forum.aspose.com/c/3d/18).
 ### Q5：有臨時許可證嗎？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

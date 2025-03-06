@@ -3,10 +3,16 @@ title: Načítání a ukládání
 linktitle: Načítání a ukládání
 second_title: Aspose.3D .NET API
 description: Pozvedněte svou hru 3D modelování s Aspose.3D pro .NET! Zvládněte efektivní techniky načítání a ukládání pomocí CancellationToken. Prozkoumat nyní!
-type: docs
 weight: 27
 url: /cs/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Načítání a ukládání
+
 ## Úvod
 
 Ponořte se do fascinující sféry 3D modelování s Aspose.3D for .NET, vaší bránou k bezproblémové a efektivní manipulaci s 3D dokumenty. V této sérii výukových programů prozkoumáme složitosti načítání a ukládání 3D modelů a odemkneme svět kreativních možností.
@@ -105,3 +111,9 @@ Exportujte metadata, jako jsou vlastnosti scény, atributy objektů a další re
 ### Načtěte vložené textury z USDZ do paměti
 
 Přístup k vloženým texturovým datům v souborech USDZ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

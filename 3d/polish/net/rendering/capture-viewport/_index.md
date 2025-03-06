@@ -3,10 +3,16 @@ title: Przechwytywanie rzutni w scenach 3D
 linktitle: Przechwytywanie rzutni w scenach 3D
 second_title: Aspose.3D API .NET
 description: Naucz się przechwytywać wspaniałe rzutnie 3D za pomocą Aspose.3D dla .NET. Przewodnik krok po kroku dotyczący elastycznego renderowania scen.
-type: docs
 weight: 11
 url: /pl/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przechwytywanie rzutni w scenach 3D
+
 ## Wstęp
 
 W dziedzinie grafiki i wizualizacji 3D przechwytywanie rzutni jest niezbędną umiejętnością, która zwiększa głębię i szczegółowość scen. Aspose.3D dla .NET zapewnia solidne rozwiązanie do renderowania i manipulowania scenami 3D. Ten samouczek poprowadzi Cię przez proces przechwytywania rzutni w scenach 3D przy użyciu Aspose.3D, umożliwiając z łatwością tworzenie oszałamiających wizualizacji.
@@ -124,3 +130,9 @@ Odpowiedź 2: Chociaż Aspose.3D jest przeznaczony głównie do grafiki i wizual
 ### P5: Jak mogę szukać pomocy lub uczestniczyć w społeczności?
 
  A5: Dołącz do społeczności Aspose.3D na[forum wsparcia](https://forum.aspose.com/c/3d/18) za pomoc i współpracę.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tạo tọa độ UV để lập bản đồ kết cấu trong mô hình 
 linktitle: Tạo tọa độ UV để lập bản đồ kết cấu trong mô hình Java 3D
 second_title: API Java Aspose.3D
 description: Tìm hiểu cách tạo tọa độ UV cho mô hình Java 3D bằng Aspose.3D. Nâng cao khả năng lập bản đồ kết cấu trong dự án của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 11
 url: /vi/java/polygon/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tọa độ UV để lập bản đồ kết cấu trong mô hình Java 3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách tạo tọa độ UV để ánh xạ kết cấu trong mô hình Java 3D bằng Aspose.3D. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo tọa độ UV theo cách thủ công cho lưới trong mô hình 3D. Đây là một bước quan trọng trong việc lập bản đồ kết cấu, cho phép bạn nâng cao sức hấp dẫn trực quan của mô hình 3D của mình.
@@ -120,3 +126,9 @@ Câu trả lời 1: Aspose.3D được thiết kế chủ yếu cho Java, nhưng
 ### Câu hỏi 5: Tôi có thể mua giấy phép tạm thời cho Aspose.3D không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

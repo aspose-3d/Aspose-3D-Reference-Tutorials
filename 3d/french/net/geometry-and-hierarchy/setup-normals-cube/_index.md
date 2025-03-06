@@ -3,10 +3,16 @@ title: Configuration des normales sur Cube
 linktitle: Configuration des normales sur Cube
 second_title: API Aspose.3D .NET
 description: Apprenez à configurer des normales sur un cube 3D à l'aide d'Aspose.3D pour .NET. Améliorez vos compétences en modélisation 3D avec ce guide étape par étape.
-type: docs
 weight: 17
 url: /fr/net/geometry-and-hierarchy/setup-normals-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration des normales sur Cube
+
 ## Introduction
 
 Bienvenue dans notre guide étape par étape sur la configuration des normales sur un cube dans des scènes 3D à l'aide d'Aspose.3D pour .NET. Aspose.3D est une bibliothèque puissante qui permet aux développeurs .NET de travailler avec des fichiers 3D, offrant un large éventail de fonctionnalités pour la modélisation et la manipulation 3D.
@@ -100,3 +106,9 @@ A2 : Absolument ! Vous pouvez télécharger un essai gratuit à partir de[ici](h
 ### Q5 : Existe-t-il des ressources supplémentaires pour apprendre Aspose.3D ?
 
  A5 : Explorez le vaste[Documentation](https://reference.aspose.com/3d/net/) pour découvrir plus de fonctionnalités et de conseils.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

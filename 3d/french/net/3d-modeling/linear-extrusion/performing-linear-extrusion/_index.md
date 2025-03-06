@@ -3,10 +3,16 @@ title: Exécution d'une extrusion linéaire
 linktitle: Exécution d'une extrusion linéaire
 second_title: API Aspose.3D .NET
 description: Explorez le monde des graphiques 3D avec Aspose.3D pour .NET. Réalisation d'une extrusion linéaire dans ce guide étape par étape.
-type: docs
 weight: 12
 url: /fr/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exécution d'une extrusion linéaire
+
 ## Introduction:
 
 Embarquez pour un voyage passionnant dans le domaine des graphiques 3D avec Aspose.3D pour .NET, une centrale qui élève votre jeu de développement. Dans ce didacticiel, nous approfondirons les subtilités de l'extrusion linéaire, une technique fascinante qui donne vie aux profils 2D statiques, les propulsant dans le monde dynamique de la 3D. Ouvrons la porte à la créativité et à l'innovation avec Aspose.3D !
@@ -106,3 +112,9 @@ A1 : Absolument ! Aspose.3D offre un environnement convivial et notre didacticie
 ### Q5 : Existe-t-il un essai gratuit ?
 
  A5 : Certainement ! Téléchargez la version d'essai gratuite[ici](https://releases.aspose.com/) pour découvrir les capacités d'Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

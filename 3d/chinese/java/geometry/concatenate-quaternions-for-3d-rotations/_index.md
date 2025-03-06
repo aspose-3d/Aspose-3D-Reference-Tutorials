@@ -3,10 +3,16 @@ title: 使用 Aspose.3D 连接 Java 中 3D 旋转的四元数
 linktitle: 使用 Aspose.3D 连接 Java 中 3D 旋转的四元数
 second_title: Aspose.3D Java API
 description: 了解如何使用 Aspose.3D 在 Java 中连接四元数以进行 3D 旋转。请按照我们的分步指南进行无缝动画转换。
-type: docs
 weight: 11
 url: /zh/java/geometry/concatenate-quaternions-for-3d-rotations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D 连接 Java 中 3D 旋转的四元数
+
 ## 介绍
 
 四元数串联是 3D 图形中的基本概念，允许您无缝组合多个旋转变换。 Aspose.3D 在 Java 中简化了这一过程，提供了一种高效且直观的方式来处理四元数运算。在本教程中，我们将指导您完成连接四元数并使用 Aspose.3D 将它们应用到 3D 对象的过程。
@@ -107,3 +113,9 @@ System.out.println("\nQuaternions concatenated successfully.\nFile saved at " + 
 ### Q5：3D场景支持哪些文件格式？
 
 A5：Aspose.3D支持多种格式，您可以将场景保存为FBX格式，如本教程所示。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

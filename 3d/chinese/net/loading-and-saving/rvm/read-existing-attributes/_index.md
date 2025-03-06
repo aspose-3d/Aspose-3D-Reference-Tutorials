@@ -3,10 +3,16 @@ title: 带属性的阅读场景
 linktitle: 带属性的阅读场景
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D 释放 .NET 中 3D 建模的强大功能。轻松加载、保存和操作场景。潜入充满无限可能的世界。
-type: docs
 weight: 18
 url: /zh/net/loading-and-saving/rvm/read-existing-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 带属性的阅读场景
+
 ## 介绍
 
 在不断发展的 3D 图形和建模领域，Aspose.3D for .NET 成为一种强大的工具，为开发人员提供无缝集成和强大的功能。本教程将指导您完成读取 RVM 文件的过程，特别关注读取其外部属性。系好安全带，我们踏上利用 Aspose.3D 功能的旅程！
@@ -79,3 +85,9 @@ A4: You can acquire a temporary license [here](https://buy.aspose.com/temporary-
 ### Q5: Where can I purchase Aspose.3D for .NET?
 
 A5: Visit the [purchase page](https://buy.aspose.com/buy）获取完整版本的 Aspose.3D。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

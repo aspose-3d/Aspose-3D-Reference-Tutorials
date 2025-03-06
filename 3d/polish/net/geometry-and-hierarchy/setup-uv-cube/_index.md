@@ -3,10 +3,16 @@ title: Konfigurowanie UV w kostce
 linktitle: Konfigurowanie UV w kostce
 second_title: Aspose.3D API .NET
 description: Dowiedz się, jak skonfigurować mapowanie UV na kostce 3D przy użyciu Aspose.3D dla .NET. Twórz oszałamiające wizualnie sceny dzięki precyzyjnemu mapowaniu tekstur.
-type: docs
 weight: 18
 url: /pl/net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurowanie UV w kostce
+
 ## Wstęp
 
 Tworzenie urzekających i atrakcyjnych wizualnie scen 3D często wiąże się ze skrupulatnym procesem konfigurowania mapowania UV na kształtach geometrycznych. W tym samouczku przyjrzymy się, jak skonfigurować UV na kostce za pomocą Aspose.3D dla .NET. Aspose.3D to potężna biblioteka .NET, która zapewnia kompleksowy zestaw funkcji do modelowania i manipulacji 3D.
@@ -119,3 +125,9 @@ O1: Aspose.3D dla .NET to potężna biblioteka do modelowania i manipulacji 3D w
 ### P5: Czy dostępne są licencje tymczasowe?
 
  Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 将材质应用到立方体
 linktitle: 将材质应用到立方体
 second_title: Aspose.3D .NET API
 description: 探索 Aspose.3D for .NET，这是无缝 3D 图形操作的门户。轻松应用材料、增强真实感并提升您的项目。
-type: docs
 weight: 14
 url: /zh/net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将材质应用到立方体
+
 ## 介绍
 
 欢迎来到使用 Aspose.3D for .NET 进行 3D 图形操作的迷人世界！在本教程中，我们将深入探讨将材质应用到 3D 场景中的立方体的过程，为您的创作添加全新水平的真实感和视觉吸引力。
@@ -136,3 +142,9 @@ A4：探索[文档](https://reference.aspose.com/3d/net/)以获得深入的见�
 ### Q5：如果有任何问题或疑问，我如何获得支持？
 
  A5：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)与社区联系并寻求帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

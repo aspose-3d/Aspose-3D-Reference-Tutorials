@@ -3,10 +3,16 @@ title: 線形押し出しのツイスト オフセット
 linktitle: 線形押し出しのツイスト オフセット
 second_title: Aspose.3D .NET API
 description: 線形押し出しのツイスト オフセットに関するステップバイステップ ガイドで、Aspose.3D for .NET の魅力を探ってください。 3D プロジェクトを簡単にレベルアップします。
-type: docs
 weight: 15
 url: /ja/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 線形押し出しのツイスト オフセット
+
 ## 導入
 
 Aspose.3D for .NET の世界へようこそ。これは、開発者が 3D 操作を簡単に処理できるようにする多用途ライブラリです。このチュートリアルでは、興味深い機能の 1 つである「線形押し出しのツイスト オフセット」について詳しく説明します。 3D プログラミング スキルを向上させる準備ができている場合は、すぐに始めてみましょう。
@@ -112,3 +118,9 @@ A4: を探索してください。[ドキュメンテーション](https://refer
 ### Q5: Aspose.3D for .NET はどこで購入できますか?
 
  A5: へ向かう[このリンク](https://purchase.aspose.com/buy)購入して、Aspose.3D の可能性を最大限に引き出してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

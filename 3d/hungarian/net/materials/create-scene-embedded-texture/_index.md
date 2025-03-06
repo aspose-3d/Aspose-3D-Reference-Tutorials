@@ -3,10 +3,16 @@ title: Jelenet készítése beágyazott textúrával
 linktitle: Jelenet készítése beágyazott textúrával
 second_title: Aspose.3D .NET API
 description: Hozzon létre lenyűgöző 3D-s jeleneteket beágyazott textúrákkal az Aspose.3D for .NET segítségével. Kövesse lépésről lépésre útmutatónkat a lenyűgöző eredményekért.
-type: docs
 weight: 10
 url: /hu/net/materials/create-scene-embedded-texture/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jelenet készítése beágyazott textúrával
+
 ## Bevezetés
 Üdvözöljük a 3D grafika izgalmas világában az Aspose.3D for .NET segítségével! Ebben az átfogó oktatóanyagban végigvezetjük Önt a lenyűgöző 3D-s jelenetek létrehozásának folyamatán, beágyazott textúrákkal az Aspose.3D segítségével, amely egy hatékony és sokoldalú könyvtár .NET-fejlesztők számára.
 ## Előfeltételek
@@ -109,3 +115,9 @@ V: Az Aspose.3D animációs lehetőségeket biztosít; részletes utasításokat
  V: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) közösségi támogatásra és beszélgetésekre.
 ### K: Használhatom az Aspose.3D-t kereskedelmi projektekhez?
  V: Igen, vásárolhat licencet[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

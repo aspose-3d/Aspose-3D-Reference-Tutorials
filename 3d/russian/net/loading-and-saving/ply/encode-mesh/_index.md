@@ -3,10 +3,16 @@ title: Кодирование сетки в формат PLY
 linktitle: Кодирование сетки в формат PLY
 second_title: Aspose.3D .NET API
 description: Исследуйте мир 3D-программирования с помощью Aspose.3D для .NET. Узнайте, как легко кодировать сетки в формат PLY. Поднимите свою развивающую игру на новый уровень!
-type: docs
 weight: 13
 url: /ru/net/loading-and-saving/ply/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Кодирование сетки в формат PLY
+
 ## Введение
 Путешествие в мир 3D-программирования может быть одновременно захватывающим и пугающим. Как разработчик, вы можете захотеть изучить возможности, которые предлагает 3D-графика. В этом уроке мы погрузимся в увлекательный процесс кодирования сетки в формат PLY с использованием Aspose.3D для .NET.
 ## Предварительные условия
@@ -56,3 +62,9 @@ FileFormat.PLY.Encode(sphere, "sphere.ply");
  Посетите форум Aspose.3D[здесь](https://forum.aspose.com/c/3d/18) связаться с сообществом и обратиться за помощью.
 ### 5. Существует ли бесплатная пробная версия Aspose.3D?
  Конечно! Изучите возможности Aspose.3D с помощью бесплатной пробной версии[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

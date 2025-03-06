@@ -3,10 +3,16 @@ title: Выполнение линейной экструзии
 linktitle: Выполнение линейной экструзии
 second_title: Aspose.3D .NET API
 description: Исследуйте мир 3D-графики с помощью Aspose.3D для .NET. Выполнение линейной экструзии в этом пошаговом руководстве.
-type: docs
 weight: 12
 url: /ru/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Выполнение линейной экструзии
+
 ## Введение:
 
 Отправьтесь в захватывающее путешествие в мир 3D-графики с Aspose.3D для .NET, мощным инструментом, который поднимает вашу разработку игр на новый уровень. В этом уроке мы углубимся в тонкости линейной экструзии — увлекательной техники, которая вдыхает жизнь в статические 2D-профили, перенося их в динамичный мир 3D. Давайте откроем путь к творчеству и инновациям с помощью Aspose.3D!
@@ -106,3 +112,9 @@ scene.Save(RunExamples.GetOutputFilePath("LinearExtrusion.obj"), FileFormat.Wave
 ### В5: Есть ли бесплатная пробная версия?
 
  А5: Конечно! Скачать бесплатную пробную версию[здесь](https://releases.aspose.com/) чтобы лично ощутить возможности Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

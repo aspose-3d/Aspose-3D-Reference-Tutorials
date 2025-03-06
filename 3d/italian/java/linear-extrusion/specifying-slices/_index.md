@@ -3,10 +3,16 @@ title: Specifica delle sezioni nell'estrusione lineare con Aspose.3D per Java
 linktitle: Specifica delle sezioni nell'estrusione lineare con Aspose.3D per Java
 second_title: API Java Aspose.3D
 description: Impara a specificare le sezioni nell'estrusione lineare utilizzando Aspose.3D per Java. Migliora le tue capacità di modellazione 3D con questa guida passo passo.
-type: docs
 weight: 13
 url: /it/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specifica delle sezioni nell'estrusione lineare con Aspose.3D per Java
+
 ## introduzione
 
 La creazione di modelli 3D complessi spesso richiede molto più della semplice creatività; richiede una conoscenza approfondita degli strumenti a tua disposizione. Aspose.3D per Java rappresenta un punto di svolta in questo senso. In questo tutorial ci concentreremo su un aspetto specifico: specificare le sezioni nell'estrusione lineare.
@@ -93,3 +99,9 @@ Congratulazioni! Hai imparato con successo come specificare le sezioni nell'estr
 ### Q5: Posso acquistare una licenza temporanea?
 
  R5: Sì, è possibile ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

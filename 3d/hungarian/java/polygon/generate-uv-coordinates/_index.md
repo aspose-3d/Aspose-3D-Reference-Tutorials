@@ -3,10 +3,16 @@ title: Hozzon létre UV-koordinátákat a textúra-leképezéshez Java 3D-s mode
 linktitle: Hozzon létre UV-koordinátákat a textúra-leképezéshez Java 3D-s modellekben
 second_title: Aspose.3D Java API
 description: Tanuljon meg UV-koordinátákat generálni Java 3D modellekhez az Aspose.3D segítségével. Ezzel a lépésenkénti útmutatóval javíthatja a textúra-leképezést projektjeiben.
-type: docs
 weight: 11
 url: /hu/java/polygon/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre UV-koordinátákat a textúra-leképezéshez Java 3D-s modellekben
+
 ## Bevezetés
 
 Üdvözöljük lépésenkénti útmutatónkban, amely az Aspose.3D használatával Java 3D-modellek textúra-leképezéséhez szükséges UV-koordináták létrehozásával foglalkozik. Ebben az oktatóanyagban végigvezetjük a háló UV-koordinátáinak manuális létrehozásának folyamatán egy 3D-s modellben. Ez a textúra-térképezés döntő lépése, amely lehetővé teszi 3D modelljei vizuális vonzerejének fokozását.
@@ -120,3 +126,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan generálhat UV-koordinátákat textú
 ### 5. kérdés: Vásárolhatok ideiglenes licencet az Aspose.3D-hez?
 
  V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

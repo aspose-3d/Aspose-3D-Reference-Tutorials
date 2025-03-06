@@ -3,10 +3,16 @@ title: Java での 3D オブジェクトとシーンの操作
 linktitle: Java での 3D オブジェクトとシーンの操作
 second_title: Aspose.3D Java API
 description: Aspose.3D チュートリアルで Java 3D プログラミングの世界を解き放ちましょう。シームレスな 3D 開発のために、球の半径を変更し、XPath のようなクエリを簡単に適用する方法を学びます。
-type: docs
 weight: 33
 url: /ja/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java での 3D オブジェクトとシーンの操作
+
 ## 導入
 
 Java 3D プログラミングは、3D オブジェクトとシーンの操作に焦点を当てた Aspose.3D チュートリアルを使用して魅力的な旅になります。この記事では、3D 開発スキルの向上を約束する 2 つの重要なチュートリアルについて詳しく説明します。
@@ -27,3 +33,9 @@ Aspose.3D を使用して、Java 3D プログラミングにおける XPath の�
 Aspose.3D を使用して Java 3D プログラミングを探索し、球の半径を簡単に変更します。今すぐダウンロードして、シームレスな 3D 開発エクスペリエンスを体験してください。
 ### [Java で XPath のようなクエリを 3D オブジェクトに適用する](./xpath-like-object-queries/)
 Aspose.3D を使用すると、Java での 3D オブジェクト クエリを簡単にマスターできます。 XPath のようなクエリを適用し、シーンを操作し、3D 開発を強化します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

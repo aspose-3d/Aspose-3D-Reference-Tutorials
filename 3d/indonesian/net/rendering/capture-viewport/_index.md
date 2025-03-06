@@ -3,10 +3,16 @@ title: Menangkap Area Pandang dalam Pemandangan 3D
 linktitle: Menangkap Area Pandang dalam Pemandangan 3D
 second_title: Aspose.3D .NET API
 description: Pelajari cara menangkap area pandang 3D yang menakjubkan menggunakan Aspose.3D untuk .NET. Panduan langkah demi langkah untuk merender adegan dengan fleksibilitas.
-type: docs
 weight: 11
 url: /id/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menangkap Area Pandang dalam Pemandangan 3D
+
 ## Perkenalan
 
 Dalam bidang grafik dan visualisasi 3D, menangkap area pandang adalah keterampilan penting yang meningkatkan kedalaman dan detail pemandangan Anda. Aspose.3D untuk .NET memberikan solusi tangguh untuk merender dan memanipulasi adegan 3D. Tutorial ini akan memandu Anda melalui proses menangkap area pandang dalam adegan 3D menggunakan Aspose.3D, memungkinkan Anda membuat visualisasi menakjubkan dengan mudah.
@@ -124,3 +130,9 @@ A2: Meskipun Aspose.3D terutama dirancang untuk grafis dan visualisasi, fungsiny
 ### Q5: Bagaimana saya bisa mencari bantuan atau berpartisipasi dalam komunitas?
 
  A5: Bergabunglah dengan komunitas Aspose.3D di[forum dukungan](https://forum.aspose.com/c/3d/18) untuk bantuan dan kerjasama.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

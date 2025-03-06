@@ -3,10 +3,16 @@ title: Transforming Node by Transformation Matrix
 linktitle: Transforming Node by Transformation Matrix 
 second_title: Aspose.3D .NET API
 description: Transform nodes effortlessly in 3D scenes using Aspose.3D for .NET. Learn step-by-step node transformations with tutorial.
-type: docs
 weight: 21
 url: /net/geometry-and-hierarchy/transformation-node-matrix/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transforming Node by Transformation Matrix
+
 ## Introduction
 
 In the dynamic realm of 3D graphics and visualizations, the ability to manipulate objects within a scene is a crucial aspect. Aspose.3D for .NET empowers developers to seamlessly transform nodes using transformation matrices, adding a layer of creativity and control to 3D scenes. This tutorial will guide you through the process of transforming a node in a 3D scene step by step.
@@ -112,3 +118,10 @@ A4: Visit the [temporary license page](https://purchase.aspose.com/temporary-lic
 ### Q5: Where can I seek assistance or connect with the Aspose.3D community?
 
 A5: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) to ask questions, share experiences, and connect with other developers using Aspose.3D.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

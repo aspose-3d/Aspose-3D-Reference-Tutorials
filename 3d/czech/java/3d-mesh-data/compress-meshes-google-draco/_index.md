@@ -3,10 +3,16 @@ title: Komprimujte 3D sítě pomocí Google Draco v Javě
 linktitle: Komprimujte 3D sítě pomocí Google Draco v Javě
 second_title: Aspose.3D Java API
 description: Optimalizujte své 3D aplikace pomocí Aspose.3D. Přečtěte si, jak komprimovat sítě pomocí Google Draco v Javě. Postupujte podle našeho podrobného průvodce pro efektivní 3D vývoj.
-type: docs
 weight: 10
 url: /cs/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Komprimujte 3D sítě pomocí Google Draco v Javě
+
 ## Úvod
 
 Vítejte v tomto komplexním průvodci o kompresi 3D sítí pomocí Google Draco v Javě pomocí Aspose.3D. V tomto tutoriálu vás provedeme procesem efektivní komprese 3D sítí s využitím síly Aspose.3D. Pokud jste vývojář, který chce vylepšit své 3D aplikace zmenšením velikosti sítě, aniž by došlo ke snížení kvality, jste na správném místě.
@@ -100,3 +106,9 @@ Odpověď 2: I když se tento tutoriál zaměřuje na Javu, Google Draco je k di
 ### Q5: Existuje komunitní fórum pro podporu Aspose.3D?
 
  A5: Ano, pro podporu komunity a diskuse navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

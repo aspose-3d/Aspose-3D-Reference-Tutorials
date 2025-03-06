@@ -3,10 +3,16 @@ title: Customized Shear Bottom Cylinder
 linktitle: Customized Shear Bottom Cylinder
 second_title: Aspose.3D .NET API
 description: Learn to create customized shear bottom cylinders using Aspose.3D for .NET with our detailed step-by-step guide. Elevate your 3D modeling skills today!
-type: docs
 weight: 12
 url: /net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Customized Shear Bottom Cylinder
+
 ## Introduction
 Welcome to our comprehensive guide on creating a customized cylinder using Aspose.3D for .NET. If you're looking to enhance your 3D modeling skills and add unique features to your projects, you're in the right place. In this tutorial, we'll walk you through the process step by step, using clear explanations and code snippets.
 ## Prerequisites
@@ -83,3 +89,10 @@ Yes, you can explore the free trial version [here](https://releases.aspose.com/)
 Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community support and discussions.
 ### How can I obtain a temporary license?
 Get your temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

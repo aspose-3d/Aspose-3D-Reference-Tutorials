@@ -3,10 +3,16 @@ title: Buat Adegan Kubus 3D di Java dengan Aspose.3D
 linktitle: Buat Adegan Kubus 3D di Java dengan Aspose.3D
 second_title: Asumsikan.3D Java API
 description: Jelajahi keajaiban grafik adegan kubus 3D dengan Aspose.3D untuk Java. Ciptakan pemandangan menakjubkan dengan mudah.
-type: docs
 weight: 12
 url: /id/java/geometry/create-3d-cube-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Adegan Kubus 3D di Java dengan Aspose.3D
+
 ## Perkenalan
 
 Selamat datang di dunia grafis 3D yang menakjubkan di Java menggunakan Aspose.3D! Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan adegan kubus 3D yang menakjubkan menggunakan Aspose.3D untuk Java. Aspose.3D adalah perpustakaan Java yang kuat yang menyediakan fungsionalitas komprehensif untuk bekerja dengan model dan pemandangan 3D.
@@ -105,3 +111,9 @@ Selamat! Anda telah berhasil membuat adegan kubus 3D menggunakan Aspose.3D untuk
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
 
  A5: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

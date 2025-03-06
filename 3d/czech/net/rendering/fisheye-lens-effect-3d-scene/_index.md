@@ -3,10 +3,16 @@ title: Použití efektu rybího oka pomocí Aspose.3D pro .NET
 linktitle: Použití efektu rybího oka na 3D scénu
 second_title: Aspose.3D .NET API
 description: Vylepšete své 3D scény pomocí Aspose.3D pro .NET! Naučte se krok za krokem aplikovat efekt podmanivého rybího oka. Stáhnout teď!
-type: docs
 weight: 12
 url: /cs/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použití efektu rybího oka pomocí Aspose.3D pro .NET
+
 ## Úvod
 Chcete zlepšit vizuální přitažlivost svých 3D scén? Ponořte se do fascinujícího světa efektů rybího oka s Aspose.3D pro .NET. Tento tutoriál vás krok za krokem provede tím, jak aplikovat efekt rybího oka na vaše 3D scény, což jim poskytne jedinečnou a podmanivou perspektivu.
 ## Předpoklady
@@ -77,3 +83,9 @@ Můžete upravit vlastnosti světel, jako je poloha, typ a barva, abyste dosáhl
 Velikost 3D scény je primárně omezena systémovými prostředky. Ujistěte se, že váš hardware zvládne velikost vaší scény.
 ### Mohu pro výsledek efektu rybího oka použít jiný výstupní formát místo PNG?
 Ano, kód můžete upravit a uložit výstup v různých formátech obrázků na základě vašich požadavků.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

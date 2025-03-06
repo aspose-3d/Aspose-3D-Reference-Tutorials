@@ -3,10 +3,16 @@ title: Применяйте материалы к 3D-объектам в Java с
 linktitle: Применяйте материалы к 3D-объектам в Java с помощью Aspose.3D
 second_title: Aspose.3D Java API
 description: Исследуйте мир 3D-графики с помощью Aspose.3D для Java. Узнайте, как легко применять материалы к 3D-объектам. Улучшите свои проекты с помощью реалистичных визуальных эффектов.
-type: docs
 weight: 14
 url: /ru/java/geometry/apply-materials-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Применяйте материалы к 3D-объектам в Java с помощью Aspose.3D
+
 ## Введение
 
 В динамичном мире 3D-графики Aspose.3D for Java выделяется как мощный инструмент, который вдохнет жизнь в ваши проекты. Добавление материалов к 3D-объектам повышает их визуальную привлекательность, делая их более реалистичными. В этом уроке мы покажем вам процесс применения материалов к 3D-кубу с помощью Aspose.3D для Java.
@@ -165,3 +171,9 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 ### В5: Могу ли я загрузить библиотеку Aspose.3D по определенной ссылке?
 
  A5: Да, используйте[ссылка для скачивания](https://releases.aspose.com/3d/java/) для доступа к последней версии Aspose.3D для Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ترميز شبكة ثلاثية الأبعاد بتنسيق Google Draco
 linktitle: ترميز شبكة ثلاثية الأبعاد في دراكو
 second_title: Aspose.3D.NET API
 description: استكشف ترميز الشبكات ثلاثية الأبعاد السهل بتنسيق Google Draco باستخدام Aspose.3D لـ .NET. اتبع دليلنا خطوة بخطوة. فعالة وقوية وصديقة للمطورين!
-type: docs
 weight: 19
 url: /ar/net/loading-and-saving/draco/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ترميز شبكة ثلاثية الأبعاد بتنسيق Google Draco
+
 ## مقدمة
 إذا كنت تتعمق في عالم الرسومات ثلاثية الأبعاد وترغب في ضغط بيانات الشبكة ثلاثية الأبعاد بكفاءة، فلا تبحث أكثر. في هذا البرنامج التعليمي، سنرشدك خلال عملية تشفير شبكة ثلاثية الأبعاد في تنسيق Google Draco باستخدام Aspose.3D لـ .NET. تعمل هذه المكتبة القوية على تمكين المطورين من العمل بسلاسة مع تنسيقات الملفات ثلاثية الأبعاد وتنفيذ عمليات متنوعة، بما في ذلك التشفير الشبكي.
 ## المتطلبات الأساسية
@@ -58,3 +64,9 @@ File.WriteAllBytes("YourOutputDirectory/SphereMeshtoDRC_Out.drc", b);
 يسمح لك الترخيص المؤقت بتقييم الإصدار الكامل من Aspose.3D لفترة محدودة.
 ### أين يمكنني العثور على وثائق مفصلة عن Aspose.3D لـ .NET؟
  الرجوع إلى[توثيق](https://reference.aspose.com/3d/net/) للحصول على معلومات شاملة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

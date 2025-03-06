@@ -3,10 +3,16 @@ title: Рендеринг 3D-сцен в приложениях Java
 linktitle: Рендеринг 3D-сцен в приложениях Java
 second_title: Aspose.3D Java API
 description: Откройте для себя мир 3D-графики на Java с помощью учебных пособий Aspose.3D. Освойте ручной рендеринг, базовые методы, обработку изображений и рендеринг в реальном времени без особых усилий.
-type: docs
 weight: 28
 url: /ru/java/rendering-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг 3D-сцен в приложениях Java
+
 ## Введение
 
 Готовы ли вы отправиться в путешествие в захватывающий мир 3D-графики на Java? Не смотрите дальше! Aspose.3D for Java предлагает вам серию учебных пособий, которые поднимут ваши навыки программирования на Java на новую высоту. Давайте углубимся в тонкости рендеринга 3D-сцен с помощью этих подробных руководств.
@@ -48,3 +54,9 @@ url: /ru/java/rendering-3d-scenes/
 Откройте для себя мир 3D-графики с помощью Aspose.3D для Java. Научитесь легко сохранять потрясающие сцены в изображения.
 ### [Реализация 3D-рендеринга в реальном времени в приложениях Java с использованием SWT](./real-time-rendering-swt/)
 Исследуйте магию 3D-рендеринга в реальном времени на Java с помощью Aspose.3D. Создавайте визуально ошеломляющие приложения без особых усилий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

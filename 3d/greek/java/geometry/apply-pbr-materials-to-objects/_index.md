@@ -3,10 +3,16 @@ title: Εφαρμόστε Υλικά PBR σε τρισδιάστατα αντι�
 linktitle: Εφαρμόστε Υλικά PBR σε τρισδιάστατα αντικείμενα σε Java με το Aspose.3D
 second_title: Aspose.3D Java API
 description: Μάθετε να εφαρμόζετε ρεαλιστικά υλικά PBR σε τρισδιάστατα αντικείμενα σε Java χρησιμοποιώντας το Aspose.3D. Βελτιώστε την οπτική ποιότητα με τη φυσική απόδοση.
-type: docs
 weight: 10
 url: /el/java/geometry/apply-pbr-materials-to-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμόστε Υλικά PBR σε τρισδιάστατα αντικείμενα σε Java με το Aspose.3D
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτόν τον οδηγό βήμα προς βήμα σχετικά με την εφαρμογή υλικών φυσικής απόδοσης (PBR) σε τρισδιάστατα αντικείμενα σε Java χρησιμοποιώντας το Aspose.3D. Το Aspose.3D είναι μια ισχυρή βιβλιοθήκη Java που παρέχει ολοκληρωμένη λειτουργικότητα για εργασία με τρισδιάστατα μοντέλα και σκηνές. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στην εφαρμογή υλικών PBR, τα οποία προσομοιώνουν τις ιδιότητες φωτισμού και επιφάνειας του πραγματικού κόσμου, ενισχύοντας τον ρεαλισμό των 3D αντικειμένων σας.
@@ -102,3 +108,9 @@ scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
 ### Ε5: Πώς μπορώ να αποκτήσω προσωρινή άδεια για δοκιμή;
 
  Α5: Επίσκεψη[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/) να πάρει προσωρινή άδεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

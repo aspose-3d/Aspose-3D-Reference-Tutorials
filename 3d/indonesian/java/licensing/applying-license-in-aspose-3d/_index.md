@@ -3,10 +3,16 @@ title: Menerapkan Lisensi di Aspose.3D untuk Java
 linktitle: Menerapkan Lisensi di Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Buka potensi penuh Aspose.3D dalam aplikasi Java dengan mengikuti panduan komprehensif kami dalam menerapkan lisensi.
-type: docs
 weight: 10
 url: /id/java/licensing/applying-license-in-aspose-3d/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Lisensi di Aspose.3D untuk Java
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah tentang penerapan lisensi di Aspose.3D untuk Java. Aspose.3D adalah perpustakaan Java yang kuat yang memungkinkan pengembang untuk bekerja dengan file 3D dengan mudah. Dalam tutorial ini, kami akan mempelajari proses penerapan lisensi menggunakan berbagai metode, memastikan Anda dapat membuka potensi penuh Aspose.3D di aplikasi Java Anda.
@@ -111,3 +117,9 @@ A1: Ya, Aspose.3D kompatibel dengan Java 6 dan versi yang lebih baru.
 ### Q5: Apakah saya memerlukan lisensi sementara untuk pengujian?
 
  A5: Ya, dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

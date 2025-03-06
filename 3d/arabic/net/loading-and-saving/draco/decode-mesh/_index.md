@@ -3,10 +3,16 @@ title: شبكة فك التشفير
 linktitle: شبكة فك التشفير
 second_title: Aspose.3D.NET API
 description: ينسجم فك التشفير بسهولة مع Aspose.3D لـ .NET. بوابتك إلى برمجة ثلاثية الأبعاد سلسة. استكشاف وتخصيص والارتقاء بمشاريعك.
-type: docs
 weight: 10
 url: /ar/net/loading-and-saving/draco/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# شبكة فك التشفير
+
 ## مقدمة
 تصور هذا: أنت في عالم التطوير ثلاثي الأبعاد، وتسعى جاهداً لفك تشفير الهياكل الشبكية المعقدة. التحدي حقيقي، لكن لا تخف! بينما نبدأ في هذه الرحلة، سوف نتنقل في متاهة فك تشفير الشبكات باستخدام Aspose.3D for .NET - رفيقك الموثوق به في عالم البرمجة ثلاثية الأبعاد.
 ## المتطلبات الأساسية
@@ -55,3 +61,9 @@ var pointCloud = (PointCloud)FileFormat.Draco.Decode("Your Document Directory" +
  بالتأكيد! الاستيلاء على الخاص بك[تجربة مجانية](https://releases.aspose.com/) لتجربة براعة Aspose.3D قبل تقديم أي التزامات.
 ### هل تحتاج إلى ترخيص مؤقت لمشروع قصير الأجل؟
  رئيس ل[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) واحصل على ترخيص مؤقت مصمم خصيصًا لاحتياجات مشروعك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

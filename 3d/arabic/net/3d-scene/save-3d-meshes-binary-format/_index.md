@@ -3,10 +3,16 @@ title: حفظ الشبكات ثلاثية الأبعاد بتنسيق ثنائي
 linktitle: حفظ الشبكات ثلاثية الأبعاد بتنسيق ثنائي مخصص
 second_title: Aspose.3D.NET API
 description: استكشف عالم الأبعاد الثلاثية باستخدام Aspose.3D لـ .NET. تعلم كيفية حفظ الشبكات بتنسيق ثنائي مخصص.
-type: docs
 weight: 13
 url: /ar/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ الشبكات ثلاثية الأبعاد بتنسيق ثنائي مخصص
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.3D for .NET، وهي مكتبة قوية تمكّن المطورين من العمل مع الملفات ثلاثية الأبعاد دون عناء. في هذا البرنامج التعليمي، سنتعمق في عملية حفظ الشبكات ثلاثية الأبعاد بتنسيق ثنائي مخصص باستخدام Aspose.3D لـ .NET. يفترض هذا الدليل أن لديك فهمًا أساسيًا لـ C# وأنك على دراية بمكتبة Aspose.3D.
@@ -142,3 +148,9 @@ triMesh.Write16bIndicesTo(writer.BaseStream);
 ### س5: هل يمكنني شراء Aspose.3D لـ .NET؟
 
  ج5: نعم، يمكنك شراء Aspose.3D من[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

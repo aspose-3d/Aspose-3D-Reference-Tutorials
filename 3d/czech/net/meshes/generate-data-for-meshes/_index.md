@@ -3,10 +3,16 @@ title: Generování normálních dat pro sítě
 linktitle: Generování normálních dat pro sítě
 second_title: Aspose.3D .NET API
 description: Vylepšete 3D modely pomocí Aspose.3D pro .NET! Naučte se generovat normální data pro sítě v tomto podrobném průvodci. Realismus se snoubí s jednoduchostí.
-type: docs
 weight: 20
 url: /cs/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generování normálních dat pro sítě
+
 ## Úvod
 Vítejte v tomto podrobném průvodci generováním normálních dat pro sítě pomocí Aspose.3D pro .NET! Pokud pracujete s 3D modely a chcete vylepšit vizuální přitažlivost přidáním normálních dat, je tento výukový program právě pro vás. Aspose.3D je výkonná knihovna .NET, která zjednodušuje programování 3D grafiky a v této příručce vás provedeme procesem generování normálních dat pro sítě.
 ## Předpoklady
@@ -66,3 +72,9 @@ Ano, Aspose.3D podporuje různé 3D formáty, včetně FBX, STL a dalších. Odk
  K dispozici je obsáhlá dokumentace[tady](https://reference.aspose.com/3d/net/).
 ### Co když potřebuji zakoupit licenci pro Aspose.3D?
  Licenci si můžete zakoupit od[nákupní stránku](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

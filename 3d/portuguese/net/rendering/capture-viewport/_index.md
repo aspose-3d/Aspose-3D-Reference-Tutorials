@@ -3,10 +3,16 @@ title: Capturando viewports em cenas 3D
 linktitle: Capturando viewports em cenas 3D
 second_title: API Aspose.3D .NET
 description: Aprenda a capturar viewports 3D impressionantes usando Aspose.3D para .NET. Guia passo a passo para renderizar cenas com flexibilidade.
-type: docs
 weight: 11
 url: /pt/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Capturando viewports em cenas 3D
+
 ## Introdução
 
 No domínio dos gráficos e visualização 3D, capturar viewports é uma habilidade essencial que aprimora a profundidade e os detalhes de suas cenas. Aspose.3D for .NET fornece uma solução robusta para renderizar e manipular cenas 3D. Este tutorial irá guiá-lo através do processo de captura de viewports em cenas 3D usando Aspose.3D, permitindo criar visualizações impressionantes com facilidade.
@@ -124,3 +130,9 @@ A2: Embora o Aspose.3D seja projetado principalmente para gráficos e visualiza�
 ### P5: Como posso procurar ajuda ou participar na comunidade?
 
  A5: Junte-se à comunidade Aspose.3D no[Fórum de suporte](https://forum.aspose.com/c/3d/18) para assistência e colaboração.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

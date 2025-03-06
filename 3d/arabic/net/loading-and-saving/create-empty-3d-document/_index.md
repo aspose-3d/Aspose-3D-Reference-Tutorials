@@ -3,10 +3,16 @@ title: إنشاء مستند ثلاثي الأبعاد فارغ
 linktitle: إنشاء مستند ثلاثي الأبعاد فارغ
 second_title: Aspose.3D.NET API
 description: استكشف عالم إنشاء المستندات ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. قم بإنشاء وتحرير وحفظ مشاهد ثلاثية الأبعاد مذهلة دون عناء.
-type: docs
 weight: 11
 url: /ar/net/loading-and-saving/create-empty-3d-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مستند ثلاثي الأبعاد فارغ
+
 ## مقدمة
 
 مرحبًا بك في عالم إنشاء المستندات ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET! في هذا البرنامج التعليمي، سوف نستكشف أساسيات تحميل المستندات ثلاثية الأبعاد وحفظها. يوفر Aspose.3D for .NET مجموعة قوية من الأدوات للتعامل مع المشاهد ثلاثية الأبعاد، وسنرشدك خلال كل خطوة لمساعدتك على البدء بسلاسة.
@@ -84,3 +90,9 @@ Console.WriteLine("\nAn empty 3D document created successfully.\nFile saved at "
 ### س5: أين يمكنني شراء Aspose.3D لـ .NET؟
 
  ج5: يمكنك شراء المكتبة[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

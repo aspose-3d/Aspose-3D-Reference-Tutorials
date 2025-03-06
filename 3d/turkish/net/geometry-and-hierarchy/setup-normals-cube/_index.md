@@ -3,10 +3,16 @@ title: Cube'da Normalleri Ayarlama
 linktitle: Cube'da Normalleri Ayarlama
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'i kullanarak 3D küpte normalleri ayarlamayı öğrenin. Bu adım adım kılavuzla 3D modelleme becerilerinizi geliştirin.
-type: docs
 weight: 17
 url: /tr/net/geometry-and-hierarchy/setup-normals-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cube'da Normalleri Ayarlama
+
 ## giriiş
 
 Aspose.3D for .NET kullanarak 3D sahnelerde bir küp üzerinde normalleri ayarlamaya ilişkin adım adım kılavuzumuza hoş geldiniz. Aspose.3D, .NET geliştiricilerinin 3D dosyalarla çalışmasına olanak tanıyan, 3D modelleme ve manipülasyon için çok çeşitli işlevler sağlayan güçlü bir kütüphanedir.
@@ -100,3 +106,9 @@ A2: Kesinlikle! Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada]
 ### S5: Aspose.3D'yi öğrenmek için ek kaynaklar var mı?
 
  A5: Kapsamlı olanı keşfedin[dokümantasyon](https://reference.aspose.com/3d/net/) Daha fazla özellik ve ipucu keşfetmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Objektové dotazy podobné XPath
 linktitle: Objektové dotazy podobné XPath
 second_title: Aspose.3D .NET API
 description: Uvolněte sílu Aspose.3D pro .NET! Bezproblémově manipulujte s 3D grafikou pomocí dotazů podobných XPath. Stáhněte si nyní a zažijte novou hru.
-type: docs
 weight: 24
 url: /cs/net/geometry-and-hierarchy/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Objektové dotazy podobné XPath
+
 ## Úvod
 Vydání se na cestu k využití plného potenciálu Aspose.3D for .NET otevírá dveře do říše možností v manipulaci s 3D grafikou. Ať už jste zkušený vývojář nebo nováček, tento průvodce vás provede nuancemi využití schopností Aspose.3D.
 ## Předpoklady
@@ -94,3 +100,9 @@ Bezplatná zkušební verze přichází s omezenými funkcemi. Podrobnosti nalez
  Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) za podporu komunity.
 ### Jaké výhody nabízí Aspose.3D oproti jiným 3D knihovnám pro .NET?
 Aspose.3D poskytuje komplexní sadu funkcí, včetně výkonných objektových dotazů a robustních možností vykreslování.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

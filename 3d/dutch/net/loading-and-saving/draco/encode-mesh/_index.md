@@ -3,10 +3,16 @@ title: Coderen van 3D Mesh in Google Draco-formaat
 linktitle: Coderen van 3D Mesh in Draco
 second_title: Aspose.3D .NET-API
 description: Ontdek eenvoudige 3D-mesh-codering in Google Draco-indeling met Aspose.3D voor .NET. Volg onze stapsgewijze handleiding. Efficiënt, krachtig en ontwikkelaarsvriendelijk!
-type: docs
 weight: 19
 url: /nl/net/loading-and-saving/draco/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Coderen van 3D Mesh in Google Draco-formaat
+
 ## Invoering
 Als u zich verdiept in de wereld van 3D-graphics en uw 3D-mesh-gegevens efficiënt wilt comprimeren, hoeft u niet verder te zoeken. In deze zelfstudie begeleiden we u bij het coderen van een 3D-mesh naar het Google Draco-formaat met behulp van Aspose.3D voor .NET. Deze krachtige bibliotheek stelt ontwikkelaars in staat naadloos met 3D-bestandsformaten te werken en verschillende bewerkingen uit te voeren, waaronder mesh-codering.
 ## Vereisten
@@ -58,3 +64,9 @@ Aspose.3D is voornamelijk ontworpen voor .NET, maar Aspose biedt vergelijkbare b
 Met een tijdelijke licentie kunt u de volledige versie van Aspose.3D gedurende een beperkte tijd evalueren.
 ### Waar kan ik gedetailleerde documentatie vinden voor Aspose.3D voor .NET?
  Verwijs naar de[documentatie](https://reference.aspose.com/3d/net/) voor uitgebreide informatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ubah Radius Sphere 3D di Java dengan Aspose.3D
 linktitle: Ubah Radius Sphere 3D di Java dengan Aspose.3D
 second_title: Asumsikan.3D Java API
 description: Jelajahi pemrograman Java 3D dengan Aspose.3D, memodifikasi radius bola dengan mudah. Unduh sekarang untuk pengalaman pengembangan 3D yang lancar.
-type: docs
 weight: 10
 url: /id/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ubah Radius Sphere 3D di Java dengan Aspose.3D
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami tentang memodifikasi radius bola 3D menggunakan Aspose.3D untuk Java. Aspose.3D adalah perpustakaan Java yang kuat yang memungkinkan pengembang untuk bekerja dengan file 3D dan memanipulasinya dengan lancar. Dalam tutorial ini, kita akan fokus mengubah radius bola 3D menggunakan contoh praktis dan penjelasan detail.
@@ -103,3 +109,9 @@ Selamat! Anda telah berhasil memodifikasi radius bola 3D menggunakan Aspose.3D u
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
 
  A5: Anda bisa mendapatkan lisensi sementara dengan mengunjungi[Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

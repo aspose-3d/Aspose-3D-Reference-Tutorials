@@ -3,10 +3,16 @@ title: Modellering
 linktitle: Modellering
 second_title: Aspose.3D .NET API
 description: Upptäck konsten att 3D-modellera med Aspose.3D för .NET! Skapa enkelt fängslande primitiva modeller i denna omfattande handledning. Släpp loss din kreativitet idag.
-type: docs
 weight: 28
 url: /sv/net/3d-modeling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modellering
+
 
 ## Introduktion
 
@@ -67,3 +73,9 @@ Det fina med 3D-modellering ligger i friheten att släppa loss din kreativitet. 
 ## Handledning för 3D-modellering
 ### [Skapa primitiva 3D-modeller](./primitive-3d-models/)
 Utforska världen av 3D-modellering med Aspose.3D för .NET. Skapa fantastiska primitiva modeller utan ansträngning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

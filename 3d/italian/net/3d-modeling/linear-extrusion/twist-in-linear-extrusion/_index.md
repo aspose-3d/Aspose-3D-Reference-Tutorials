@@ -3,10 +3,16 @@ title: Torsione nell'estrusione lineare
 linktitle: Torsione nell'estrusione lineare
 second_title: API Aspose.3D .NET
 description: Esplora l'accattivante mondo della grafica 3D con Aspose.3D per .NET. Impara passo dopo passo l'estrusione lineare con una svolta.
-type: docs
 weight: 14
 url: /it/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Torsione nell'estrusione lineare
+
 ## introduzione
 
 Nel mondo in continua evoluzione dello sviluppo .NET, sfruttare la potenza della grafica 3D è un'impresa entusiasmante. Aspose.3D per .NET emerge come un prezioso toolkit, consentendo agli sviluppatori di creare applicazioni coinvolgenti e visivamente sorprendenti senza soluzione di continuità. In questa guida completa, approfondiremo una caratteristica interessante: l'estrusione lineare con una svolta. Questo tutorial ti guiderà attraverso il processo passo dopo passo, sbloccando il potenziale di Aspose.3D per .NET.
@@ -118,3 +124,9 @@ A4: Certamente! Aspose.3D offre un ricco set di funzionalità. Sentiti libero di
 ### Q5: Esiste una comunità per il supporto e le discussioni di Aspose.3D?
 
  A5: Sì, unisciti alla comunità Aspose.3D su[Aspose Forum](https://forum.aspose.com/c/3d/18) per supporto e discussioni coinvolgenti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

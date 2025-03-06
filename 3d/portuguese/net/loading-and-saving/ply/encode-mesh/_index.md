@@ -3,10 +3,16 @@ title: Codificando malha para formato PLY
 linktitle: Codificando malha para formato PLY
 second_title: API Aspose.3D .NET
 description: Explore o mundo da programação 3D com Aspose.3D for .NET. Aprenda como codificar malhas no formato PLY sem esforço. Eleve seu jogo de desenvolvimento!
-type: docs
 weight: 13
 url: /pt/net/loading-and-saving/ply/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codificando malha para formato PLY
+
 ## Introdução
 Embarcar em uma jornada pelo reino da programação 3D pode ser emocionante e intimidante. Como desenvolvedor, você pode desejar explorar as possibilidades que os gráficos 3D oferecem. Neste tutorial, mergulharemos no fascinante processo de codificação de uma malha para o formato PLY usando Aspose.3D for .NET.
 ## Pré-requisitos
@@ -56,3 +62,9 @@ Absolutamente! Aspose.3D suporta a codificação de uma variedade de formas 3D, 
  Visite o fórum Aspose.3D[aqui](https://forum.aspose.com/c/3d/18) para se conectar com a comunidade e buscar assistência.
 ### 5. Existe um teste gratuito disponível para Aspose.3D?
  Certamente! Explore os recursos do Aspose.3D com uma avaliação gratuita[aqui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

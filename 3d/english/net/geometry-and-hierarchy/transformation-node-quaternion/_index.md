@@ -3,10 +3,16 @@ title: Transforming Node by Quaternion
 linktitle: Transforming Node by Quaternion 
 second_title: Aspose.3D .NET API
 description: Learn to transform 3D nodes with quaternions using Aspose.3D for .NET. Step-by-step guide for beginners.
-type: docs
 weight: 20
 url: /net/geometry-and-hierarchy/transformation-node-quaternion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transforming Node by Quaternion
+
 ## Introduction
 
 Welcome to a step-by-step guide on transforming a node by quaternion in 3D scenes using Aspose.3D for .NET. In this tutorial, we'll explore the powerful capabilities of Aspose.3D for .NET and walk through the process of adding transformations to a 3D node using quaternions.
@@ -122,3 +128,10 @@ A4: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for support an
 
 A5: Get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

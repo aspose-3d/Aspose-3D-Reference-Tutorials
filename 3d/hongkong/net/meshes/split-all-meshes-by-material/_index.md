@@ -3,10 +3,16 @@ title: 依材質分割場景的所有網格
 linktitle: 依材質分割場景的所有網格
 second_title: Aspose.3D .NET API
 description: 了解如何使用 Aspose.3D for .NET 依材質分割 3D 網格。按照我們的逐步指南高效組織和管理 3D 模型。
-type: docs
 weight: 21
 url: /zh-hant/net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 依材質分割場景的所有網格
+
 ## 介紹
 歡迎閱讀本逐步指南，以了解如何使用 Aspose.3D for .NET 依材質分割 3D 場景的所有網格。如果您正在使用 3D 模型並希望根據材質有效地組織網格，那麼本教學適合您。 Aspose.3D 是一個功能強大的 .NET 程式庫，提供了一系列用於處理 3D 檔案的功能，使其成為開發人員的絕佳選擇。
 ## 先決條件
@@ -66,3 +72,9 @@ Aspose.3D 主要是為.NET 設計的，但它透過.NET 語言綁定提供與其
 參觀[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)以獲得社區支持和討論。
 ### 5. 我可以獲得臨時許可證嗎？
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 線形押し出しの実行
 linktitle: 線形押し出しの実行
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D グラフィックスの世界を探索してください。このステップバイステップ ガイドでは、線形押し出しを実行します。
-type: docs
 weight: 12
 url: /ja/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 線形押し出しの実行
+
 ## 導入：
 
 開発ゲームを向上させる強力なツールである Aspose.3D for .NET を使用して、3D グラフィックスの領域へのスリリングな旅に乗り出しましょう。このチュートリアルでは、静的な 2D プロファイルに命を吹き込み、動的な 3D の世界に押し出す魅力的なテクニックであるリニア押し出しの複雑さを掘り下げていきます。 Aspose.3D を使用して創造性とイノベーションへの扉を開けましょう!
@@ -106,3 +112,9 @@ A1: もちろんです！ Aspose.3D はユーザーフレンドリーな環境�
 ### Q5: 無料トライアルはありますか?
 
  A5：確かに！無料試用版をダウンロードする[ここ](https://releases.aspose.com/) Aspose.3D の機能を直接体験してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

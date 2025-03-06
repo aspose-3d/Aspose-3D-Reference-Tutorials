@@ -3,10 +3,16 @@ title: Appliquer des requêtes de type XPath à des objets 3D en Java
 linktitle: Appliquer des requêtes de type XPath à des objets 3D en Java
 second_title: API Java Aspose.3D
 description: Maîtrisez facilement les requêtes d'objets 3D en Java avec Aspose.3D. Appliquez des requêtes de type XPath, manipulez des scènes et améliorez votre développement 3D.
-type: docs
 weight: 11
 url: /fr/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Appliquer des requêtes de type XPath à des objets 3D en Java
+
 ## Introduction
 
 Se plonger dans le domaine de la modélisation 3D et de la manipulation de scènes en Java peut être une tâche ardue, mais n'ayez crainte ! Aspose.3D pour Java fournit une solution robuste pour gérer les objets 3D, ce qui en fait un outil inestimable pour les développeurs. Dans ce didacticiel, nous vous guiderons dans l'application de requêtes de type XPath à des objets 3D en Java à l'aide d'Aspose.3D.
@@ -99,3 +105,9 @@ Dans ce didacticiel, nous avons démystifié le processus d'application de requ�
 ### Q5 : Besoin d'un permis temporaire ?
 
  A5 : Obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

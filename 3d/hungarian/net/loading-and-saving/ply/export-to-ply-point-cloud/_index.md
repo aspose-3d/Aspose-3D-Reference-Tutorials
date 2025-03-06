@@ -3,10 +3,16 @@ title: Exportálás PLY formátumba pontfelhőként
 linktitle: Exportálás PLY formátumba pontfelhőként
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D modellezés világát az Aspose.3D for .NET segítségével. Tanulja meg a modelleket könnyedén exportálni PLY formátumba. Emelje fel projektjeit lenyűgöző látványvilággal.
-type: docs
 weight: 16
 url: /hu/net/loading-and-saving/ply/export-to-ply-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportálás PLY formátumba pontfelhőként
+
 ## Bevezetés
 3D modellezés és fejlesztés dinamikus világában az Aspose.3D for .NET hatékony eszköztárként tűnik ki. Ez az oktatóanyag végigvezeti Önt a 3D-s modellek PLY formátumba exportálásán pontfelhőként az Aspose.3D for .NET használatával. Ha készen áll projektjeit lenyűgöző látványvilággal bővíteni, kövesse a lépést, és aknázza ki a sokoldalú könyvtárban rejlő lehetőségeket.
 ## Előfeltételek
@@ -59,3 +65,9 @@ Az Aspose.3D különféle .NET-keretrendszereket támogat, biztosítva a kompati
  Igen, fedezze fel a funkciókat a[ingyenes próbaverzió](https://releases.aspose.com/) kötelezettségvállalás előtt.
 ### 5. Hogyan szerezhetek ideiglenes engedélyt?
  Ideiglenes engedélyezési lehetőségekért látogasson el a webhelyre[ez a link](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

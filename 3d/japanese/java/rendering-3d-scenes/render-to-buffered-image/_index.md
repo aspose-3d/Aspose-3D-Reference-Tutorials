@@ -3,10 +3,16 @@ title: Java でさらに処理するために 3D シーンをバッファリン�
 linktitle: Java でさらに処理するために 3D シーンをバッファリングされたイメージにレンダリングする
 second_title: Aspose.3D Java API
 description: 3D シーンをバッファリングされたイメージにレンダリングする際の Aspose.3D for Java のパワーを探ってください。前提条件、インポートパッケージ、FAQ を含むステップバイステップのガイド。
-type: docs
 weight: 12
 url: /ja/java/rendering-3d-scenes/render-to-buffered-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でさらに処理するために 3D シーンをバッファリングされたイメージにレンダリングする
+
 ## 導入
 
 Aspose.3D for Java を使用して 3D シーンをバッファリングされたイメージにレンダリングするためのこのステップバイステップ ガイドへようこそ。 Aspose.3D は、開発者が 3D ファイルやシーンを操作できるようにする強力な Java ライブラリで、レンダリングと処理のための多用途の機能を提供します。このチュートリアルでは、3D シーンをバッファリングされたイメージにレンダリングすることに焦点を当て、Java でさらに処理する可能性を広げます。
@@ -106,3 +112,9 @@ ImageIO.write(image, "png", new File(output));
 ### Q5: 追加のレンダリング オプションはありますか?
 
  A5: はい、Aspose.3D ドキュメントを参照してください。[ここ](https://reference.aspose.com/3d/java/)レンダリング オプションに関する包括的な情報については、こちらをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

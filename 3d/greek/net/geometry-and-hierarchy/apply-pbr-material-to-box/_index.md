@@ -3,10 +3,16 @@ title: Εφαρμογή υλικού PBR στο κουτί
 linktitle: Εφαρμογή υλικού PBR στο κουτί
 second_title: Aspose.3D .NET API
 description: Εξερευνήστε τον κόσμο των τρισδιάστατων γραφικών με το Aspose.3D για .NET. Δημιουργήστε καθηλωτικές σκηνές χωρίς κόπο χρησιμοποιώντας υλικά απόδοσης με φυσική βάση.
-type: docs
 weight: 10
 url: /el/net/geometry-and-hierarchy/apply-pbr-material-to-box/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή υλικού PBR στο κουτί
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον συναρπαστικό κόσμο των τρισδιάστατων γραφικών! Σε αυτόν τον οδηγό βήμα προς βήμα, θα εξερευνήσουμε την πανίσχυρη βιβλιοθήκη Aspose.3D για .NET και θα μάθουμε πώς να δημιουργείτε εκπληκτικές σκηνές 3D χρησιμοποιώντας υλικά φυσικής απόδοσης (PBR). Το Aspose.3D απλοποιεί την πολύπλοκη διαδικασία των τρισδιάστατων γραφικών και ανοίγει ένα πεδίο δυνατοτήτων για προγραμματιστές.
@@ -113,3 +119,9 @@ A1: Ναι, το Aspose.3D υποστηρίζει διάφορες μορφές 
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.3D;
 
  A5: Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/) για σκοπούς αξιολόγησης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

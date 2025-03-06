@@ -3,10 +3,16 @@ title: Richting instellen in lineaire extrusie met Aspose.3D voor Java
 linktitle: Richting instellen in lineaire extrusie met Aspose.3D voor Java
 second_title: Aspose.3D Java-API
 description: Beheers lineaire extrusie met Aspose.3D voor Java! Volg onze gids voor naadloos 3D-programmeren. Download nu voor een boeiende ervaring.
-type: docs
 weight: 12
 url: /nl/java/linear-extrusion/setting-direction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Richting instellen in lineaire extrusie met Aspose.3D voor Java
+
 ## Invoering
 
 Welkom bij onze stapsgewijze handleiding over het instellen van richting bij lineaire extrusie met Aspose.3D voor Java. Aspose.3D is een krachtige Java-bibliotheek waarmee ontwikkelaars naadloos met 3D-bestanden en scènes kunnen werken. In deze tutorial zullen we ons concentreren op de specifieke taak om richting te geven aan lineaire extrusie, waardoor uw vaardigheid in 3D-programmeren wordt verbeterd.
@@ -108,3 +114,9 @@ A1: Aspose.3D ondersteunt verschillende programmeertalen, waaronder .NET en Java
 ### V5: Zijn er tijdelijke licenties beschikbaar voor Aspose.3D?
 
  A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

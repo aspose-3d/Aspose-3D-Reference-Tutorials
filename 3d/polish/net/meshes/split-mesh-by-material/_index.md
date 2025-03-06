@@ -3,10 +3,16 @@ title: Dzielenie siatki według materiału
 linktitle: Dzielenie siatki według materiału
 second_title: Aspose.3D API .NET
 description: Naucz się dzielić siatki 3D według materiału za pomocą Aspose.3D dla .NET. Popraw organizację i wydajność sceny. Przewodnik krok po kroku dla programistów.
-type: docs
 weight: 22
 url: /pl/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dzielenie siatki według materiału
+
 ## Wstęp
 Witamy w tym kompleksowym samouczku na temat dzielenia siatki według materiału przy użyciu Aspose.3D dla .NET! Jeśli jesteś programistą pracującym z grafiką 3D i chcesz efektywnie zarządzać siatkami i manipulować nimi, jesteś we właściwym miejscu. W tym przewodniku omówimy proces dzielenia siatki na podstawie materiału, co jest kluczowym zadaniem w tworzeniu różnorodnych i atrakcyjnych wizualnie scen 3D.
 ## Warunki wstępne
@@ -71,3 +77,9 @@ Ogólnie rzecz biorąc, polityka CloneData może mieć nieco lepszą wydajność
 Tak, możesz renderować i wizualizować powstałe podsiatki przy użyciu możliwości renderowania Aspose.3D.
 ### P: Czy Aspose.3D nadaje się do tworzenia gier?
 Chociaż Aspose.3D jest używany głównie do modelowania i renderowania, można go zintegrować z procesami tworzenia gier w celu wykonania określonych zadań.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

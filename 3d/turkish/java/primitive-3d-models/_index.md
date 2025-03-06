@@ -3,10 +3,16 @@ title: Aspose.3D for Java'da İlkel 3D Modeller Oluşturma
 linktitle: Aspose.3D for Java'da İlkel 3D Modeller Oluşturma
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java eğitimlerini kullanarak göz alıcı 3D modelleri zahmetsizce oluşturun. İlkel 3D modeller oluşturmaya ilişkin adım adım kılavuzlarla yaratıcılığınızı açığa çıkarın.
-type: docs
 weight: 24
 url: /tr/java/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java'da İlkel 3D Modeller Oluşturma
+
 
 
 ## giriiş
@@ -31,3 +37,9 @@ Yaratıcılığın teknolojiyle buluştuğu Aspose.3D for Java ile ilkel 3D mode
 ## Java Eğitimleri için Aspose.3D'de İlkel 3D Modeller Oluşturma
 ### [Aspose.3D for Java ile İlkel 3D Modeller Oluşturma](./building-primitive-3d-models/)
 Aspose.3D for Java ile 3D modelleme sanatını keşfedin. İlkel 3D modelleri zahmetsizce oluşturmayı öğrenin ve yaratıcılığınızı serbest bırakın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

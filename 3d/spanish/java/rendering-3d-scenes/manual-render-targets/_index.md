@@ -3,10 +3,16 @@ title: Controle manualmente los objetivos de renderizado para un renderizado per
 linktitle: Controle manualmente los objetivos de renderizado para un renderizado personalizado en Java 3D
 second_title: API de Java Aspose.3D
 description: Explore el poder de Aspose.3D para Java en esta guía paso a paso. Controle manualmente los objetivos de renderizado para obtener impresionantes gráficos Java 3D personalizados.
-type: docs
 weight: 10
 url: /es/java/rendering-3d-scenes/manual-render-targets/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Controle manualmente los objetivos de renderizado para un renderizado personalizado en Java 3D
+
 ## Introducción
 
 ¿Estás listo para llevar tus gráficos Java 3D al siguiente nivel? Aspose.3D para Java es su puerta de entrada para desbloquear todo el potencial del renderizado personalizado. En este tutorial, profundizaremos en las complejidades del control manual de los objetivos de renderizado, brindándole las herramientas para crear escenas visualmente cautivadoras adaptadas a sus especificaciones.
@@ -117,3 +123,9 @@ R1: Sí, Aspose.3D proporciona una interfaz fácil de usar, lo que la hace acces
 ### P5: ¿Qué es la ráfaga en los gráficos 3D de Java y cómo la aborda Aspose.3D?
 
 A5: La explosión se refiere a la intensidad repentina o los cambios rápidos en los elementos gráficos. Aspose.3D proporciona herramientas para transiciones suaves y ajustes dinámicos, minimizando las ráfagas en sus escenas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

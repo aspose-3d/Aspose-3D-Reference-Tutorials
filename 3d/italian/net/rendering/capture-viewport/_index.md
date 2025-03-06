@@ -3,10 +3,16 @@ title: Catturare le finestre nelle scene 3D
 linktitle: Catturare le finestre nelle scene 3D
 second_title: API Aspose.3D .NET
 description: Impara a catturare straordinarie visualizzazioni 3D utilizzando Aspose.3D per .NET. Guida passo passo per eseguire il rendering delle scene con flessibilità.
-type: docs
 weight: 11
 url: /it/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Catturare le finestre nelle scene 3D
+
 ## introduzione
 
 Nel regno della grafica e della visualizzazione 3D, catturare le finestre è un'abilità essenziale che migliora la profondità e il dettaglio delle scene. Aspose.3D per .NET fornisce una soluzione solida per il rendering e la manipolazione di scene 3D. Questo tutorial ti guiderà attraverso il processo di acquisizione dei viewport nelle scene 3D utilizzando Aspose.3D, consentendoti di creare visualizzazioni straordinarie con facilità.
@@ -124,3 +130,9 @@ A2: Sebbene Aspose.3D sia progettato principalmente per la grafica e la visualiz
 ### Q5: Come posso chiedere aiuto o partecipare alla comunità?
 
  A5: Unisciti alla comunità Aspose.3D su[Forum di assistenza](https://forum.aspose.com/c/3d/18) per assistenza e collaborazione.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การแปลงโหนดโดย Quaternion
 linktitle: การแปลงโหนดโดย Quaternion
 second_title: Aspose.3D .NET API
 description: เรียนรู้วิธีการแปลงโหนด 3 มิติด้วยควอเทอร์เนียนโดยใช้ Aspose.3D สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับผู้เริ่มต้น
-type: docs
 weight: 20
 url: /th/net/geometry-and-hierarchy/transformation-node-quaternion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การแปลงโหนดโดย Quaternion
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนเกี่ยวกับการแปลงโหนดตามควอเทอร์เนียนในฉาก 3 มิติโดยใช้ Aspose.3D สำหรับ .NET ในบทช่วยสอนนี้ เราจะสำรวจความสามารถอันทรงพลังของ Aspose.3D สำหรับ .NET และอธิบายกระบวนการเพิ่มการแปลงให้กับโหนด 3D โดยใช้ควอเทอร์เนียน
@@ -121,3 +127,10 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.3D ได้อย่างไร
 
  A5: รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

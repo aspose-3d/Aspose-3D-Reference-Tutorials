@@ -3,10 +3,16 @@ title: Extraction de contenu 3D brut à partir d'un PDF
 linktitle: Extraction de contenu 3D brut à partir d'un PDF
 second_title: API Aspose.3D .NET
 description: Apprenez à extraire du contenu 3D d'un PDF à l'aide d'Aspose.3D pour .NET. Guide étape par étape avec des exemples de code.
-type: docs
 weight: 14
 url: /fr/net/loading-and-saving/pdf/extract-raw-3d-contents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraction de contenu 3D brut à partir d'un PDF
+
 ## Introduction
 
 Bienvenue dans ce guide complet sur l'extraction de contenu 3D brut à partir d'un PDF à l'aide d'Aspose.3D pour .NET. Aspose.3D est une API puissante et polyvalente qui permet aux développeurs de travailler avec des fichiers 3D sans effort. Dans ce didacticiel, nous nous concentrerons sur le processus d'extraction de contenu 3D brut à partir de fichiers PDF, en vous fournissant des conseils étape par étape.
@@ -90,3 +96,9 @@ A1 : Oui, Aspose.3D prend en charge une large gamme de formats de fichiers 3D, c
 ### Q5 : Existe-t-il une documentation disponible pour Aspose.3D ?
 
  A5 : Oui, la documentation peut être trouvée[ici](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

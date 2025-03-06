@@ -3,10 +3,16 @@ title: Salva scene 3D in vari formati con Aspose.3D per Java
 linktitle: Salva scene 3D in vari formati con Aspose.3D per Java
 second_title: API Java Aspose.3D
 description: Esplora il mondo senza soluzione di continuità della manipolazione delle scene 3D in Java con Aspose.3D. Impara a salvare scene in vari formati senza sforzo.
-type: docs
 weight: 15
 url: /it/java/load-and-save/save-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salva scene 3D in vari formati con Aspose.3D per Java
+
 ## introduzione
 
 Creare e manipolare scene 3D è un aspetto affascinante della programmazione e, con la potente libreria Aspose.3D per Java, questo compito diventa ancora più entusiasmante ed efficiente. In questo tutorial ti guideremo attraverso il processo di salvataggio di scene 3D in vari formati utilizzando Aspose.3D per Java. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, questa guida passo passo ti aiuterà a sfruttare le funzionalità di Aspose.3D per migliorare le tue applicazioni Java.
@@ -103,3 +109,9 @@ R3: Fare riferimento alla documentazione[Qui](https://reference.aspose.com/3d/ja
 ### Q5: Posso acquistare una licenza temporanea?
 
  R5: Sì, puoi acquistare una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java'da 3B Ağlar için Veri Oluşturma (Normaller, Teğetler, Binormalle
 linktitle: Java'da 3B Ağlar için Veri Oluşturma (Normaller, Teğetler, Binormaller)
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile Java projelerinizi geliştirin. 3B ağlara yönelik normal verileri zahmetsizce oluşturmak için eğitimimizi takip edin. 3D grafiklere kolaylıkla dalın.
-type: docs
 weight: 11
 url: /tr/java/3d-mesh-data/generate-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da 3B Ağlar için Veri Oluşturma (Normaller, Teğetler, Binormaller)
+
 ## giriiş
 
 Java'da 3B ağ verileri oluşturmak ve değiştirmek, özellikle temel normal verilerden yoksun dosyalarla uğraşırken zorlu ama heyecan verici bir görev olabilir. Aspose.3D for Java, 3D grafikleri ve ağları verimli bir şekilde yönetmek için güçlü bir araç seti sağlayarak kurtarmaya geliyor. Bu eğitimde, Java'da Aspose.3D kullanarak 3D ağlar için normal veriler oluşturma sürecinde size rehberlik edeceğiz.
@@ -95,3 +101,9 @@ Cevap1: Evet, Aspose.3D çeşitli 3D dosya formatlarını destekleyerek projeler
 ### S5: Yardıma mı ihtiyacınız var veya toplulukla bağlantı kurmak mı istiyorsunuz?
 
  Cevap5: Aspose.3D forumunu ziyaret edin[Burada](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

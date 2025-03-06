@@ -3,10 +3,16 @@ title: Création de cylindres avec décalage supérieur dans Aspose.3D pour Java
 linktitle: Création de cylindres avec décalage supérieur dans Aspose.3D pour Java
 second_title: API Java Aspose.3D
 description: Explorez les merveilles de la modélisation 3D en Java avec Aspose.3D. Apprenez à créer sans effort des cylindres captivants avec des sommets décalés.
-type: docs
 weight: 11
 url: /fr/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création de cylindres avec décalage supérieur dans Aspose.3D pour Java
+
 ## Introduction
 
 Dans le domaine de la modélisation 3D basée sur Java, Aspose.3D se distingue comme un outil puissant, offrant aux développeurs la possibilité de créer facilement des scènes 3D complexes. Dans ce didacticiel, nous plongerons dans le monde fascinant d'Aspose.3D pour Java, en nous concentrant sur une tâche spécifique : créer des cylindres avec des sommets décalés. À la fin de ce guide, vous maîtriserez parfaitement le processus, vous permettant d'intégrer cette fonctionnalité de manière transparente dans vos projets 3D.
@@ -127,3 +133,9 @@ A3 : Oui, vous pouvez explorer et choisir l'option de licence qui correspond �
 ### Q5 : Existe-t-il une option de licence temporaire à des fins de test ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire à des fins de tests et d'évaluation[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

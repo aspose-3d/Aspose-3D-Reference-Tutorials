@@ -3,10 +3,16 @@ title: Kiểm soát mục tiêu kết xuất theo cách thủ công để hiển
 linktitle: Kiểm soát mục tiêu kết xuất theo cách thủ công để hiển thị tùy chỉnh trong Java 3D
 second_title: API Java Aspose.3D
 description: Khám phá sức mạnh của Aspose.3D cho Java trong hướng dẫn từng bước này. Kiểm soát thủ công các mục tiêu kết xuất để có đồ họa Java 3D tùy chỉnh tuyệt đẹp.
-type: docs
 weight: 10
 url: /vi/java/rendering-3d-scenes/manual-render-targets/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kiểm soát mục tiêu kết xuất theo cách thủ công để hiển thị tùy chỉnh trong Java 3D
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng đồ họa Java 3D của mình lên một tầm cao mới chưa? Aspose.3D cho Java là cửa ngõ để bạn khai thác toàn bộ tiềm năng của kết xuất tùy chỉnh. Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc kiểm soát mục tiêu kết xuất theo cách thủ công, cung cấp cho bạn các công cụ để tạo cảnh hấp dẫn về mặt hình ảnh phù hợp với thông số kỹ thuật của bạn.
@@ -117,3 +123,9 @@ Câu trả lời 1: Có, Aspose.3D cung cấp giao diện thân thiện với ng
 ### Câu hỏi 5: Tính bùng nổ trong đồ họa Java 3D là gì và Aspose.3D giải quyết vấn đề đó như thế nào?
 
 Câu trả lời 5: Sự bùng nổ đề cập đến cường độ đột ngột hoặc những thay đổi nhanh chóng trong các thành phần đồ họa. Aspose.3D cung cấp các công cụ để chuyển tiếp mượt mà và điều chỉnh động, giảm thiểu tình trạng giật hình trong cảnh của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

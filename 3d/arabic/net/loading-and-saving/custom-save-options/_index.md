@@ -3,10 +3,16 @@ title: خيارات الحفظ المخصصة
 linktitle: خيارات الحفظ المخصصة
 second_title: Aspose.3D.NET API
 description: اكتشف قوة Aspose.3D لـ .NET. تعرف على كيفية تخصيص حفظ المشهد ثلاثي الأبعاد باستخدام أدلة خطوة بخطوة على تنسيقات Collada وUSD و3DS وFBX وOBJ وSTL وU3D وglTF وDRC وRVM.
-type: docs
 weight: 21
 url: /ar/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# خيارات الحفظ المخصصة
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.3D لـ .NET! إذا كنت تتطلع إلى تحسين قدرات التطوير ثلاثي الأبعاد لديك، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سنتعمق في وظائف التحميل والحفظ، مع التركيز بشكل خاص على خيارات الحفظ المخصصة. Aspose.3D for .NET هي مكتبة قوية تمكّن المطورين من معالجة المشاهد ثلاثية الأبعاد وحفظها بكفاءة.
@@ -131,3 +137,9 @@ using System.Drawing;
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟
 
  ج5: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

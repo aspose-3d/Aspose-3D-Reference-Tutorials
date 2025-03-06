@@ -3,10 +3,16 @@ title: Mengubah Parametrik Primitif menjadi Mesh
 linktitle: Mengubah Parametrik Primitif menjadi Mesh
 second_title: Aspose.3D .NET API
 description: Jelajahi kekuatan Aspose.3D untuk .NET! Ubah primitif parametrik menjadi Mesh serbaguna dengan mudah. Tingkatkan permainan grafis 3D Anda hari ini.
-type: docs
 weight: 12
 url: /id/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengubah Parametrik Primitif menjadi Mesh
+
 ## Perkenalan
 
 Aspose.3D menyediakan beragam bentuk primitif, termasuk kotak, bidang, tori, bola, silinder, piramida, dan banyak lagi. Primitif ini ditentukan oleh parameternya, menjadikannya sangat serbaguna untuk pemodelan prosedural. Dengan menyesuaikan parameter secara terprogram, Anda dapat membuat berbagai macam model 3D dengan kode minimal.
@@ -73,3 +79,9 @@ Ya, Aspose.3D mendukung berbagai kerangka .NET, memastikan kompatibilitas dengan
  Ya, jelajahi Aspose.3D dengan[uji coba gratis](https://releases.aspose.com/) untuk merasakan kemampuannya sebelum membuat komitmen.
 ### Bisakah saya mendapatkan lisensi sementara untuk tujuan pengujian?
  Ya, amankan a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi Aspose.3D secara komprehensif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

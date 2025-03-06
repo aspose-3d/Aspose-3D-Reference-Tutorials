@@ -3,10 +3,16 @@ title: Java'daki 3B Nesnelere XPath Benzeri Sorgular Uygulama
 linktitle: Java'daki 3B Nesnelere XPath Benzeri Sorgular Uygulama
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile Java'da 3D nesne sorgularında zahmetsizce ustalaşın. XPath benzeri sorgular uygulayın, sahneleri değiştirin ve 3B gelişiminizi geliştirin.
-type: docs
 weight: 11
 url: /tr/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'daki 3B Nesnelere XPath Benzeri Sorgular Uygulama
+
 ## giriiş
 
 Java'da 3D modelleme ve sahne manipülasyonu alanına girmek göz korkutucu bir iş olabilir, ancak korkmayın! Aspose.3D for Java, 3D nesnelerin işlenmesi için sağlam bir çözüm sunarak onu geliştiriciler için paha biçilmez bir araç haline getiriyor. Bu eğitimde, Aspose.3D kullanarak Java'daki XPath benzeri sorguların 3D nesnelere uygulanması konusunda size rehberlik edeceğiz.
@@ -99,3 +105,9 @@ Bu eğitimde Aspose.3D for Java kullanarak XPath benzeri sorguları 3 boyutlu ne
 ### S5: Geçici bir lisansa mı ihtiyacınız var?
 
  Cevap5: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

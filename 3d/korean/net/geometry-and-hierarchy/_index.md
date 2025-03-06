@@ -3,10 +3,16 @@ title: 기하학과 계층
 linktitle: 기하학과 계층
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D 튜토리얼을 통해 3D 그래픽의 세계를 경험해보세요. PBR 재질 적용부터 기하학적 변형까지 모든 측면을 손쉽게 마스터하세요.
-type: docs
 weight: 25
 url: /ko/net/geometry-and-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 기하학과 계층
+
 ## 소개
 
 .NET용 Aspose.3D 튜토리얼을 통해 3D 그래픽 영역으로 스릴 넘치는 여행을 떠나보세요. 귀하가 초보자이든 노련한 개발자이든 이 단계별 가이드는 귀하의 기술을 향상시키고 원활한 3D 그래픽 조작의 비밀을 밝힐 것을 약속합니다.
@@ -72,3 +78,9 @@ url: /ko/net/geometry-and-hierarchy/
  3D 메쉬를 손쉽게 삼각측량하는 방법에 대한 단계별 가이드를 통해 .NET용 Aspose.3D의 강력한 기능을 살펴보세요. 보다 몰입감 넘치는 경험을 위해 모델링 기술을 향상하세요.[더 읽어보세요](./triangulate-mesh/)
 
 .NET용 Aspose.3D 튜토리얼의 흥미진진한 여정을 시작하고 3D 그래픽 전문 지식을 향상시키세요. 각 튜토리얼을 자세히 살펴보고, 단계를 따르고, 기술이 새로운 차원으로 치솟는 것을 지켜보세요. 즐거운 코딩하세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

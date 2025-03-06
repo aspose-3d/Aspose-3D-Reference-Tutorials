@@ -3,10 +3,16 @@ title: Offset xoắn trong ép đùn tuyến tính
 linktitle: Offset xoắn trong ép đùn tuyến tính
 second_title: API Aspose.3D .NET
 description: Khám phá sự kỳ diệu của Aspose.3D cho .NET với hướng dẫn từng bước của chúng tôi về Twist Offset trong Linear Extrusion. Nâng cao các dự án 3D của bạn một cách dễ dàng.
-type: docs
 weight: 15
 url: /vi/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Offset xoắn trong ép đùn tuyến tính
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.3D cho .NET, một thư viện linh hoạt trao quyền cho các nhà phát triển xử lý thao tác 3D một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một trong những tính năng hấp dẫn - "Twist Offset in Linear Extrusion". Nếu bạn đã sẵn sàng nâng cao kỹ năng lập trình 3D của mình, hãy bắt đầu ngay!
@@ -112,3 +118,9 @@ Câu trả lời 1: Aspose.3D chủ yếu hỗ trợ các ngôn ngữ .NET, như
 ### Câu hỏi 5: Tôi có thể mua Aspose.3D cho .NET ở đâu?
 
  A5: Hướng tới[liên kết này](https://purchase.aspose.com/buy) để mua hàng và khai thác toàn bộ tiềm năng của Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mengubah Poligon menjadi Segitiga
 linktitle: Mengubah Poligon menjadi Segitiga
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia pemodelan 3D yang mulus dengan Aspose.3D untuk .NET. Ubah poligon menjadi segitiga dengan mudah menggunakan panduan langkah demi langkah kami. Unduh uji coba gratis Anda sekarang!
-type: docs
 weight: 10
 url: /id/net/meshes/convert-polygons-to-triangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengubah Poligon menjadi Segitiga
+
 ## Perkenalan
 Jika Anda mempelajari dunia grafis dan pemodelan 3D yang menarik menggunakan .NET, Aspose.3D adalah alat canggih yang dapat menyederhanakan alur kerja Anda. Salah satu operasi penting dalam pemodelan 3D adalah mengubah poligon menjadi segitiga, dan dalam tutorial ini, kami akan memandu Anda melalui prosesnya langkah demi langkah.
 ## Prasyarat
@@ -52,3 +58,9 @@ Kesimpulannya, Aspose.3D untuk .NET memberikan solusi yang lancar untuk mengubah
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### 5. Dimana saya bisa membeli Aspose.3D untuk .NET?
  Anda dapat membeli Aspose.3D[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

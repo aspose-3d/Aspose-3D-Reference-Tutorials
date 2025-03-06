@@ -3,10 +3,16 @@ title: Aspose.3D for Java を使用した線形押し出しのコントロール
 linktitle: Aspose.3D for Java を使用した線形押し出しのコントロール センター
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して Java の 3D グラフィックスの世界を探索してください。直線押し出しの中心を簡単に制御します。
-type: docs
 weight: 11
 url: /ja/java/linear-extrusion/controlling-center/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java を使用した線形押し出しのコントロール センター
+
 ## 導入
 
 3D グラフィックスと Java プログラミングの世界では、線形押し出しの中心を制御することが、プロジェクトで望ましい効果を達成する上で重要な役割を果たします。 Aspose.3D for Java は、そのようなタスクをシームレスに処理するための強力なツールキットを提供します。このチュートリアルでは、Aspose.3D for Java を使用して線形押し出しで中心を制御するプロセスを詳しく説明し、スムーズかつ包括的に理解できるように各ステップを詳しく説明します。
@@ -126,3 +132,9 @@ A4: はい、テスト目的で一時ライセンスが必要な場合は、取�
 ### Q5: ドキュメントはどこで入手できますか?
 
  A5: Aspose.3D for Java のドキュメントが入手可能です。[ここ](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

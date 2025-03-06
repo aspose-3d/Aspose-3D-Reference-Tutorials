@@ -3,10 +3,16 @@ title: Richting in lineaire extrusie
 linktitle: Richting in lineaire extrusie
 second_title: Aspose.3D .NET-API
 description: Ontgrendel de wereld van 3D-modellering met Aspose.3D voor .NET. Leer richting lineaire extrusie, vergroot de creativiteit en maak moeiteloos meeslepende toepassingen.
-type: docs
 weight: 11
 url: /nl/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Richting in lineaire extrusie
+
 ## Invoering
 
 In de dynamische wereld van softwareontwikkeling is het creëren van meeslepende 3D-modellen een onmisbare vaardigheid. Aspose.3D voor .NET biedt ontwikkelaars een robuuste set tools om het potentieel van 3D-modellering in hun toepassingen te benutten. In deze tutorial duiken we in de intrigerende wereld van lineaire extrusie en verkennen we de nuances van de functie "Richting in lineaire extrusie".
@@ -110,3 +116,9 @@ In deze tutorial navigeerden we door de fascinerende wereld van 3D-modellering m
 ### V5: Waar kan ik gedetailleerde documentatie vinden voor Aspose.3D voor .NET?
 
  A5: Raadpleeg de uitgebreide[Aspose.3D .NET-documentatie](https://reference.aspose.com/3d/net/) voor diepgaande informatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

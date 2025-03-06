@@ -3,10 +3,16 @@ title: التحميل والحفظ
 linktitle: التحميل والحفظ
 second_title: Aspose.3D.NET API
 description: ارفع مستوى لعبة النمذجة ثلاثية الأبعاد الخاصة بك باستخدام Aspose.3D لـ .NET! إتقان تقنيات التحميل والحفظ الفعالة باستخدام CancellationToken. اكتشف الآن!
-type: docs
 weight: 27
 url: /ar/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التحميل والحفظ
+
 ## مقدمة
 
 انغمس في عالم النمذجة ثلاثية الأبعاد الرائع باستخدام Aspose.3D لـ .NET، بوابتك إلى معالجة المستندات ثلاثية الأبعاد بسلاسة وكفاءة. في هذه السلسلة التعليمية، سنستكشف تعقيدات تحميل النماذج ثلاثية الأبعاد وحفظها، وفتح عالم من الإمكانيات الإبداعية.
@@ -105,3 +111,9 @@ url: /ar/net/loading-and-saving/
 ### تحميل القوام المضمن من USDZ إلى الذاكرة
 
 الوصول إلى بيانات النسيج المضمنة داخل ملفات USDZ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

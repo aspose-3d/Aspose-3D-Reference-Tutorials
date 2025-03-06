@@ -3,10 +3,16 @@ title: Сброс встроенных текстур
 linktitle: Сброс встроенных текстур
 second_title: Aspose.3D .NET API
 description: Раскройте секреты встроенных текстур в 3D-моделях с помощью Aspose.3D для .NET. Ознакомьтесь с нашим пошаговым руководством по плавной интеграции. Загрузите бесплатную пробную версию прямо сейчас!
-type: docs
 weight: 11
 url: /ru/net/materials/dump-embedded-textures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сброс встроенных текстур
+
 ## Введение
 Добро пожаловать в мир Aspose.3D для .NET — мощного набора инструментов, который позволяет разработчикам легко манипулировать 3D-файлами и работать с ними. В этом подробном руководстве мы углубимся в увлекательную область создания дампов встроенных текстур с помощью Aspose.3D. Если вы хотите улучшить свое 3D-приложение, раскрывая потенциал встроенных текстур, вы попали по адресу.
 ## Предварительные условия
@@ -71,3 +77,9 @@ if(tex.Content != null)
  О: Да, доступна временная лицензия.[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу найти подробную документацию по Aspose.3D?
  О: Документация доступна[здесь](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

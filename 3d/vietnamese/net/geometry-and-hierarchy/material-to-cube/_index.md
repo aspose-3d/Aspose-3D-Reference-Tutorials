@@ -3,10 +3,16 @@ title: Áp dụng vật liệu cho khối
 linktitle: Áp dụng vật liệu cho khối
 second_title: API Aspose.3D .NET
 description: Khám phá Aspose.3D cho .NET, cánh cổng dẫn đến thao tác đồ họa 3D liền mạch của bạn. Áp dụng vật liệu một cách dễ dàng, nâng cao tính hiện thực và nâng tầm dự án của bạn.
-type: docs
 weight: 14
 url: /vi/net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng vật liệu cho khối
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới thao tác đồ họa 3D hấp dẫn bằng Aspose.3D cho .NET! Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình áp dụng vật liệu cho hình khối trong cảnh 3D của bạn, thêm một mức độ hiện thực và hấp dẫn trực quan hoàn toàn mới vào tác phẩm của bạn.
@@ -136,3 +142,9 @@ Câu trả lời 3: Có, Aspose.3D cung cấp hỗ trợ toàn diện để tạ
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho bất kỳ vấn đề hoặc thắc mắc nào?
 
  A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để kết nối với cộng đồng và tìm kiếm sự giúp đỡ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

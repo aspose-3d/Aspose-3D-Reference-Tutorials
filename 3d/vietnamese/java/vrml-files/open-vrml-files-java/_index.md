@@ -3,10 +3,16 @@ title: Lập mô hình Java 3D với Aspose.3D - Khám phá VRML
 linktitle: Mở và thao tác các tệp VRML trong Java bằng Aspose.3D
 second_title: API Java Aspose.3D
 description: Khám phá sự kỳ diệu của mô hình 3D trong Java với Aspose.3D. Mở và thao tác các tệp VRML một cách liền mạch. Đi sâu vào một thế giới của những khả năng vô hạn!
-type: docs
 weight: 10
 url: /vi/java/vrml-files/open-vrml-files-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lập mô hình Java 3D với Aspose.3D - Khám phá VRML
+
 ## Giới thiệu
 Chào mừng bạn đến với thế giới thú vị của mô hình 3D trong Java! Trong hướng dẫn toàn diện này, chúng ta sẽ đi sâu vào lĩnh vực hấp dẫn của Ngôn ngữ mô hình hóa thực tế ảo (VRML) bằng Aspose.3D cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người đam mê tò mò, hướng dẫn từng bước này sẽ giúp bạn mở và thao tác các tệp VRML một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -61,3 +67,9 @@ Có, Aspose.3D hỗ trợ nhiều định dạng tệp 3D khác nhau ngoài VRML
  Để biết các tùy chọn cấp phép tạm thời, hãy truy cập[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 ### 5. Tôi có thể mua Aspose.3D cho Java ở đâu?
  Để khai thác toàn bộ tiềm năng, bạn có thể mua Aspose.3D cho Java[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

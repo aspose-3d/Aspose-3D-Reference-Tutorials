@@ -3,10 +3,16 @@ title: 多角形を三角形に変換する
 linktitle: 多角形を三角形に変換する
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して、シームレスな 3D モデリングの世界を探索してください。ステップバイステップのガイドを使用して、多角形を三角形に簡単に変換します。今すぐ無料トライアルをダウンロードしてください!
-type: docs
 weight: 10
 url: /ja/net/meshes/convert-polygons-to-triangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 多角形を三角形に変換する
+
 ## 導入
 .NET を使用して 3D グラフィックスとモデリングのエキサイティングな世界を深く掘り下げている場合、Aspose.3D はワークフローを合理化できる強力なツールです。 3D モデリングにおける重要な操作の 1 つは、ポリゴンを三角形に変換することです。このチュートリアルでは、そのプロセスを段階的に説明します。
 ## 前提条件
@@ -52,3 +58,9 @@ scene.Save("Your Output Directory" + "triangulated_out.fbx", FileFormat.FBX7400A
 仮免許が取得できる[ここ](https://purchase.aspose.com/temporary-license/).
 ### 5. Aspose.3D for .NET はどこで購入できますか?
  Aspose.3D を購入できます[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

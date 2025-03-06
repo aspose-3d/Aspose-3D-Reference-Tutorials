@@ -3,10 +3,16 @@ title: Speichern Sie 3D-Netze in benutzerdefinierten Binärformaten für mehr Fl
 linktitle: Speichern Sie 3D-Netze in benutzerdefinierten Binärformaten für mehr Flexibilität in Java
 second_title: Aspose.3D Java-API
 description: Erfahren Sie, wie Sie mit Aspose.3D für Java 3D-Netze in benutzerdefinierten Binärformaten speichern. Erhöhen Sie die Flexibilität in Java-Anwendungen mit diesem Schritt-für-Schritt-Tutorial.
-type: docs
 weight: 13
 url: /de/java/3d-scenes-and-models/save-custom-mesh-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Speichern Sie 3D-Netze in benutzerdefinierten Binärformaten für mehr Flexibilität in Java
+
 ## Einführung
 
 Willkommen zu dieser Schritt-für-Schritt-Anleitung zum Speichern von 3D-Netzen in benutzerdefinierten Binärformaten für mehr Flexibilität in Java mit Aspose.3D. In diesem Leitfaden führen wir Sie durch den Prozess der Konvertierung von 3D-Netzen und deren Speicherung in einem benutzerdefinierten Binärformat, um die Flexibilität und Interoperabilität Ihrer Java-Anwendungen zu verbessern.
@@ -124,3 +130,9 @@ A4: Die Aspose.3D-Dokumentation kann Beispielmodelle enthalten, oder Sie können
 ### F5: Kann ich das Binärformat weiter an spezifische Anforderungen anpassen?
 
 A5: Auf jeden Fall können Sie das Binärformat jederzeit an die spezifischen Anforderungen Ihrer Anwendung anpassen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

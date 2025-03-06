@@ -3,10 +3,16 @@ title: Materiály
 linktitle: Materiály
 second_title: Aspose.3D .NET API
 description: Odemkněte svět podmanivých 3D scén pomocí výukových programů Aspose.3D for .NET. Naučte se vytvářet úžasné scény a bez námahy prozkoumávejte vložené textury.
-type: docs
 weight: 28
 url: /cs/net/materials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Materiály
+
 ## Úvod
 
 Jste připraveni vydat se na cestu do vzrušující říše 3D designu a vizualizace? Aspose.3D for .NET otevírá dveře do světa, kde kreativitě se meze nekladou. V tomto článku vás provedeme řadou výukových programů, z nichž každý odemkne nový aspekt této výkonné knihovny .NET.
@@ -31,3 +37,9 @@ Odemkněte potenciál Aspose.3D pro .NET ještě dnes. Stáhněte si knihovnu, p
 Vytvářejte fascinující 3D scény s vloženými texturami pomocí Aspose.3D for .NET. Postupujte podle našeho podrobného průvodce pro ohromující výsledky.
 ### [Dumping Embedded Textures](./dump-embedded-textures/)
 Odhalte tajemství vložených textur ve 3D modelech s Aspose.3D pro .NET. Ponořte se do našeho podrobného průvodce pro bezproblémovou integraci. Stáhněte si bezplatnou zkušební verzi nyní!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

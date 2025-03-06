@@ -3,10 +3,16 @@ title: Center i linjär extrudering
 linktitle: Center i linjär extrudering
 second_title: Aspose.3D .NET API
 description: Utforska världen av 3D-modellering med Aspose.3D för .NET. Centrera linjära extruderingstekniker, skapa fantastiska mönster och släpp lös din kreativitet.
-type: docs
 weight: 10
 url: /sv/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Center i linjär extrudering
+
 ## Introduktion
 
 Välkommen till den här omfattande guiden för att bemästra linjär extrudering med Aspose.3D för .NET. Om du vill förbättra dina färdigheter i 3D-modellering och skapa fantastiska profiler, är du på rätt plats. I den här handledningen kommer vi att fördjupa oss i linjär extruderingsteknik, speciellt med fokus på centreringsaspekten för att ta dina mönster till en helt ny nivå.
@@ -109,3 +115,10 @@ S1: Aspose.3D stöder främst .NET-språk som C# och VB.NET.
 ### F5: Var kan jag köpa Aspose.3D för .NET-licensen?
 
  A5: Köp din licens[här](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

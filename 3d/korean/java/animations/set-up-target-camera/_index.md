@@ -3,10 +3,16 @@ title: Java에서 3D 애니메이션용 대상 카메라 설정 | Aspose.3D 튜�
 linktitle: Java에서 3D 애니메이션용 대상 카메라 설정 | Aspose.3D 튜토리얼
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java 3D 애니메이션을 손쉽게 탐색해 보세요. 단계별 가이드를 보려면 튜토리얼을 따르세요. 매력적인 3D 개발 여정을 위해 지금 다운로드하세요.
-type: docs
 weight: 11
 url: /ko/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 3D 애니메이션용 대상 카메라 설정 | Aspose.3D 튜토리얼
+
 ## 소개
 
 Aspose.3D를 사용하여 Java에서 3D 애니메이션용 대상 카메라를 설정하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 숙련된 개발자이든 이제 막 Java로 3D 애니메이션을 시작하는 사람이든 이 튜토리얼은 명확하고 간결한 지침을 통해 프로세스를 안내합니다.
@@ -98,3 +104,9 @@ scene.save(MyDir, FileFormat.DISCREET3DS);
 ### Q5: 임시 라이센스는 어떻게 얻을 수 있나요?
 
  A5: 임시 라이센스를 취득할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

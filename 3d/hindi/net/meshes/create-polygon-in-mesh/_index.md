@@ -3,10 +3,16 @@ title: मेष में बहुभुज बनाना
 linktitle: मेष में बहुभुज बनाना
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D के साथ 3D मॉडलिंग की दुनिया का अन्वेषण करें। आसानी से जालों में आश्चर्यजनक बहुभुज बनाएं। एक व्यापक विकास अनुभव के लिए अभी डाउनलोड करें!
-type: docs
 weight: 18
 url: /hi/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# मेष में बहुभुज बनाना
+
 ## परिचय
 क्या आप .NET के लिए Aspose.3D के साथ 3D मॉडलिंग की रोमांचक दुनिया में उतरने के लिए तैयार हैं? यदि आप एक डेवलपर हैं जो अपने कौशल को बढ़ाना चाहते हैं या एक नवागंतुक हैं जो शानदार 3डी मेश बनाने में रुचि रखते हैं, तो आप सही जगह पर हैं। इस व्यापक ट्यूटोरियल में, हम Aspose.3D का उपयोग करके एक जाल में बहुभुज बनाने की प्रक्रिया में आपका मार्गदर्शन करेंगे।
 ## आवश्यक शर्तें
@@ -59,3 +65,9 @@ mesh.CreatePolygon(0, 1, 2, 3);
  ए: व्यापक अन्वेषण करें[प्रलेखन](https://reference.aspose.com/3d/net/) गहन अंतर्दृष्टि के लिए उपलब्ध है।
 ### प्रश्न: मैं .NET के लिए Aspose.3D कैसे खरीदूं?
  ए: पर जाएँ[खरीद पृष्ठ](https://purchase.aspose.com/buy) अपना लाइसेंस प्राप्त करने और Aspose.3D की पूरी क्षमता को अनलॉक करने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

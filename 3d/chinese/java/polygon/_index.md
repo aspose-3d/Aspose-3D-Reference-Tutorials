@@ -3,10 +3,16 @@ title: 使用 Java 在 3D 模型中进行多边形操作
 linktitle: 使用 Java 在 3D 模型中进行多边形操作
 second_title: Aspose.3D Java API
 description: 通过 Aspose.3D 教程探索 Java 中的高效 3D 渲染。将多边形转换为三角形并生成 UV 坐标，以获得最佳性能和增强的纹理映射。
-type: docs
 weight: 27
 url: /zh/java/polygon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 3D 模型中进行多边形操作
+
 ## 介绍
 
 欢迎来到 Java 3D 开发领域，Aspose.3D 占据中心舞台来提升您的项目。在本教程系列中，我们将深入研究多边形操作的复杂性，重点关注两个关键方面：将多边形转换为三角形以实现高效渲染，以及生成 UV 坐标以增强纹理映射。
@@ -49,3 +55,9 @@ url: /zh/java/polygon/
 使用 Aspose.3D 增强 Java 3D 渲染。学习将多边形转换为三角形以获得最佳性能。立即下载以获得无缝的 3D 开发体验。
 ### [为 Java 3D 模型中的纹理映射生成 UV 坐标](./generate-uv-coordinates/)
 学习使用 Aspose.3D 为 Java 3D 模型生成 UV 坐标。通过此分步指南增强项目中的纹理映射。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

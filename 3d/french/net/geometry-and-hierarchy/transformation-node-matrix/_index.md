@@ -3,10 +3,16 @@ title: Transformation du nœud par matrice de transformation
 linktitle: Transformation du nœud par matrice de transformation
 second_title: API Aspose.3D .NET
 description: Transformez les nœuds sans effort dans des scènes 3D à l'aide d'Aspose.3D pour .NET. Apprenez les transformations de nœuds étape par étape avec le didacticiel.
-type: docs
 weight: 21
 url: /fr/net/geometry-and-hierarchy/transformation-node-matrix/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformation du nœud par matrice de transformation
+
 ## Introduction
 
 Dans le domaine dynamique des graphiques et des visualisations 3D, la capacité de manipuler des objets au sein d’une scène est un aspect crucial. Aspose.3D pour .NET permet aux développeurs de transformer de manière transparente les nœuds à l'aide de matrices de transformation, ajoutant ainsi une couche de créativité et de contrôle aux scènes 3D. Ce didacticiel vous guidera étape par étape dans le processus de transformation d'un nœud en scène 3D.
@@ -112,3 +118,9 @@ A2 : Oui, vous pouvez combiner plusieurs transformations en multipliant leurs ma
 ### Q5 : Où puis-je demander de l'aide ou me connecter à la communauté Aspose.3D ?
 
  A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour poser des questions, partager des expériences et vous connecter avec d'autres développeurs utilisant Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

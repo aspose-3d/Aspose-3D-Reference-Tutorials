@@ -3,10 +3,16 @@ title: Geometria e gerarchia
 linktitle: Geometria e gerarchia
 second_title: API Aspose.3D .NET
 description: Sblocca il mondo della grafica 3D con i tutorial Aspose.3D per .NET. Dall'applicazione dei materiali PBR alle trasformazioni geometriche, padroneggia ogni aspetto senza sforzo.
-type: docs
 weight: 25
 url: /it/net/geometry-and-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geometria e gerarchia
+
 ## introduzione
 
 Intraprendi un viaggio emozionante nel regno della grafica 3D con i tutorial Aspose.3D per .NET. Che tu sia un principiante o uno sviluppatore esperto, queste guide passo passo promettono di migliorare le tue capacità e svelare i segreti di una perfetta manipolazione della grafica 3D.
@@ -72,3 +78,9 @@ Immergiti nel mondo delle trasformazioni dei quaternioni con Aspose.3D per .NET.
  Esplora la potenza di Aspose.3D per .NET con questa guida passo passo sulla triangolazione semplice delle mesh 3D. Migliora le tue capacità di modellazione per un'esperienza più coinvolgente.[Per saperne di più](./triangulate-mesh/)
 
 Intraprendi questo entusiasmante viaggio con i tutorial Aspose.3D per .NET e migliora la tua esperienza nella grafica 3D. Immergiti in ogni tutorial, segui i passaggi e osserva le tue abilità raggiungere nuove vette. Buona programmazione!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

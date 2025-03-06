@@ -3,10 +3,16 @@ title: Τροποποίηση προσανατολισμού επιπέδου γ
 linktitle: Τροποποίηση προσανατολισμού επιπέδου για ακριβή 3D τοποθέτηση σκηνής σε Java
 second_title: Aspose.3D Java API
 description: Βελτιώστε την τοποθέτηση σκηνής 3D σε Java με το Aspose.3D. Τροποποιήστε τον προσανατολισμό του επιπέδου για ακρίβεια. Κάντε λήψη τώρα για μια μαγευτική οπτική εμπειρία.
-type: docs
 weight: 10
 url: /el/java/3d-scenes-and-models/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Τροποποίηση προσανατολισμού επιπέδου για ακριβή 3D τοποθέτηση σκηνής σε Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για τη βελτίωση της τοποθέτησης 3D σκηνής σε Java χρησιμοποιώντας το Aspose.3D. Αυτό το σεμινάριο θα εμβαθύνει στην τροποποίηση του προσανατολισμού του επιπέδου για ακριβή 3D τοποθέτηση σκηνής, δίνοντάς σας τη δυνατότητα να δημιουργήσετε οπτικά εντυπωσιακές και με ακρίβεια τοποθετημένες σκηνές.
@@ -114,3 +120,9 @@ A1: Ναι, το Aspose.3D υποστηρίζει διάφορες γλώσσε�
 ### Ε5: Υπάρχει μια επιλογή προσωρινής άδειας;
 
  A5: Ναι, εάν χρειάζεστε προσωρινή άδεια, μπορείτε να αποκτήσετε μία[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Opzioni di caricamento personalizzate
 linktitle: Opzioni di caricamento personalizzate
 second_title: API Aspose.3D .NET
 description: Esplora Aspose.3D per .NET, la soluzione definitiva per il caricamento e il salvataggio senza interruzioni dei modelli 3D.
-type: docs
 weight: 15
 url: /it/net/loading-and-saving/custom-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opzioni di caricamento personalizzate
+
 ## introduzione
 
 Benvenuti nel mondo di Aspose.3D per .NET, una potente libreria che consente agli sviluppatori di lavorare senza problemi con file 3D. In questo tutorial, approfondiremo le complessità del caricamento e del salvataggio dei modelli 3D, concentrandoci sulle opzioni di caricamento personalizzate. Che tu sia uno sviluppatore esperto o un nuovo arrivato, questa guida ti guiderà attraverso il processo passo dopo passo, assicurandoti di sfruttare tutto il potenziale di Aspose.3D per .NET.
@@ -183,3 +189,9 @@ A4: Sì, puoi esplorare le funzionalità di Aspose.3D per .NET scaricando il fil
 ### Q5: Dove posso cercare supporto per Aspose.3D per .NET?
 
  A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per il sostegno e l'assistenza della comunità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

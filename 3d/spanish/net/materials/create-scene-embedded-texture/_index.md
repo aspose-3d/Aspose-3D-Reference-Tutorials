@@ -3,10 +3,16 @@ title: Crear una escena con textura incrustada
 linktitle: Crear una escena con textura incrustada
 second_title: Aspose.3D API .NET
 description: Cree fascinantes escenas 3D con texturas incrustadas utilizando Aspose.3D para .NET. Siga nuestra guía paso a paso para obtener resultados sorprendentes.
-type: docs
 weight: 10
 url: /es/net/materials/create-scene-embedded-texture/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crear una escena con textura incrustada
+
 ## Introducción
 ¡Bienvenido al apasionante mundo de los gráficos 3D con Aspose.3D para .NET! En este completo tutorial, lo guiaremos a través del proceso de creación de impresionantes escenas 3D con texturas incrustadas utilizando Aspose.3D, una biblioteca potente y versátil para desarrolladores .NET.
 ## Requisitos previos
@@ -109,3 +115,9 @@ R: Aspose.3D proporciona capacidades de animación; consulte la documentación p
  R: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para apoyo y debates de la comunidad.
 ### P: ¿Puedo utilizar Aspose.3D para proyectos comerciales?
  R: Sí, puedes comprar una licencia.[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การทำงานกับ Point Clouds ใน Java
 linktitle: การทำงานกับ Point Clouds ใน Java
 second_title: Aspose.3D จาวา API
 description: ถอดรหัส โหลด สร้าง ส่งออก และปรับปรุงประสิทธิภาพของ point cloud ใน Java ได้อย่างง่ายดายด้วยบทช่วยสอน Aspose.3D พัฒนาทักษะการพัฒนา 3D ของคุณทีละขั้นตอน
-type: docs
 weight: 34
 url: /th/java/point-clouds/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การทำงานกับ Point Clouds ใน Java
+
 
 ## การแนะนำ
 
@@ -49,3 +55,9 @@ url: /th/java/point-clouds/
 เรียนรู้วิธีส่งออกฉาก 3 มิติเป็นพอยต์คลาวด์ใน Java ด้วย Aspose.3D ปรับปรุงแอปพลิเคชันของคุณด้วยกราฟิก 3 มิติและการแสดงภาพอันทรงพลัง
 ### [ปรับปรุงการจัดการ Point Cloud ด้วย PLY Export ใน Java](./ply-export-point-clouds-java/)
 สำรวจการจัดการพอยต์คลาวด์ที่มีประสิทธิภาพใน Java ด้วย Aspose.3D เรียนรู้การส่งออกไฟล์ PLY ได้อย่างง่ายดาย เพิ่มประสิทธิภาพโปรเจ็กต์กราฟิก 3D ของคุณด้วยคำแนะนำทีละขั้นตอนของเรา
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

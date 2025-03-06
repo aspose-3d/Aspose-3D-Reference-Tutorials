@@ -3,10 +3,16 @@ title: Bahan
 linktitle: Bahan
 second_title: Aspose.3D .NET API
 description: Buka dunia pemandangan 3D yang menawan dengan tutorial Aspose.3D untuk .NET. Belajar membuat pemandangan menakjubkan dan menjelajahi tekstur yang tertanam dengan mudah.
-type: docs
 weight: 28
 url: /id/net/materials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bahan
+
 ## Perkenalan
 
 Apakah Anda siap untuk memulai perjalanan ke dunia desain dan visualisasi 3D yang menarik? Aspose.3D untuk .NET membuka pintu ke dunia di mana kreativitas tidak mengenal batas. Dalam artikel ini, kami akan memandu Anda melalui serangkaian tutorial, masing-masing membuka aspek baru dari perpustakaan .NET yang kuat ini.
@@ -31,3 +37,9 @@ Buka potensi Aspose.3D untuk .NET sekarang juga. Unduh perpustakaannya, jelajahi
 Buat pemandangan 3D yang memukau dengan tekstur tertanam menggunakan Aspose.3D untuk .NET. Ikuti panduan langkah demi langkah kami untuk hasil yang menakjubkan.
 ### [Membuang Tekstur Tersemat](./dump-embedded-textures/)
 Buka rahasia tekstur yang disematkan dalam model 3D dengan Aspose.3D untuk .NET. Pelajari panduan langkah demi langkah kami untuk integrasi yang lancar. Unduh uji coba gratis Anda sekarang!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

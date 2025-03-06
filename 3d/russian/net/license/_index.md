@@ -3,10 +3,16 @@ title: Лицензия
 linktitle: Лицензия
 second_title: Aspose.3D .NET API
 description: Максимизируйте потенциал Aspose.3D .NET с помощью нашего подробного руководства по применению лицензий. Обеспечьте плавный процесс интеграции и разблокируйте его мощные функции.
-type: docs
 weight: 36
 url: /ru/net/license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Лицензия
+
 ## Введение
 
 Если вы погружаетесь в мир Aspose.3D для .NET, вы на правильном пути к разблокированию множества мощных функций. Однако, чтобы полностью использовать его потенциал, вам необходимо пройти основной процесс подачи заявки на лицензию. Это пошаговое руководство проведет вас через плавную интеграцию лицензии, гарантируя, что вы сможете максимально эффективно использовать Aspose.3D для .NET.
@@ -22,3 +28,9 @@ url: /ru/net/license/
 ## Учебные пособия по лицензиям
 ### [Применение лицензии к Aspose.3D для .NET](./apply-license/)
 Раскройте возможности Aspose.3D для .NET, легко применив лицензию. Следуйте нашему пошаговому руководству, чтобы интеграция прошла гладко.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

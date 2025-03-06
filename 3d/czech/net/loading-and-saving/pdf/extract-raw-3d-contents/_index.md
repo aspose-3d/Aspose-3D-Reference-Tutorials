@@ -3,10 +3,16 @@ title: Extrahování surového 3D obsahu z PDF
 linktitle: Extrahování surového 3D obsahu z PDF
 second_title: Aspose.3D .NET API
 description: Naučte se extrahovat 3D obsah z PDF pomocí Aspose.3D for .NET. Podrobný průvodce s příklady kódu.
-type: docs
 weight: 14
 url: /cs/net/loading-and-saving/pdf/extract-raw-3d-contents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extrahování surového 3D obsahu z PDF
+
 ## Úvod
 
 Vítejte v tomto komplexním průvodci extrahováním surového 3D obsahu z PDF pomocí Aspose.3D pro .NET. Aspose.3D je výkonné a všestranné API, které umožňuje vývojářům pracovat s 3D soubory bez námahy. V tomto tutoriálu se zaměříme na proces extrahování surového 3D obsahu ze souborů PDF a poskytneme vám podrobné pokyny.
@@ -90,3 +96,9 @@ Odpověď 1: Ano, Aspose.3D podporuje širokou škálu formátů 3D souborů, d�
 ### Q5: Je k dispozici nějaká dokumentace pro Aspose.3D?
 
  A5: Ano, dokumentaci lze nalézt[tady](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.3D를 사용하여 Java에서 빈 3D 문서를 만드는 방법
 linktitle: Aspose.3D를 사용하여 Java에서 빈 3D 문서를 만드는 방법
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 3D 그래픽의 세계를 탐험해보세요. 단계별 가이드에 따라 빈 3D 문서를 쉽게 만드세요.
-type: docs
 weight: 10
 url: /ko/java/load-and-save/create-empty-3d-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D를 사용하여 Java에서 빈 3D 문서를 만드는 방법
+
 ## 소개
 
 3D 그래픽 및 시각화 영역에서 Java용 Aspose.3D는 개발자를 위한 강력한 도구로 돋보입니다. 다양한 기능과 강력한 기능을 통해 3D 문서를 생성하고 조작하기 위한 탁월한 플랫폼을 제공합니다. 이 튜토리얼에서는 Aspose.3D를 사용하여 Java에서 빈 3D 문서를 만드는 과정을 안내합니다.
@@ -93,3 +99,9 @@ A1: Aspose.3D는 표준 Java 개발 환경과 호환되도록 설계되었습니
 ### Q5: Aspose.3D 관련 질문에 대한 지원을 구하거나 논의할 수 있는 곳은 어디입니까?
 
  A5: 커뮤니티 포럼을 방문하세요.[여기](https://forum.aspose.com/c/3d/18) 지원과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

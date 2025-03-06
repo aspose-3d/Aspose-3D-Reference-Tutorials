@@ -3,10 +3,16 @@ title: Ukládání 3D sítí ve vlastním binárním formátu
 linktitle: Ukládání 3D sítí ve vlastním binárním formátu
 second_title: Aspose.3D .NET API
 description: Prozkoumejte svět 3D s Aspose.3D pro .NET. Naučte se ukládat sítě ve vlastním binárním formátu.
-type: docs
 weight: 13
 url: /cs/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ukládání 3D sítí ve vlastním binárním formátu
+
 ## Úvod
 
 Vítejte ve světě Aspose.3D for .NET, výkonné knihovny, která umožňuje vývojářům pracovat s 3D soubory bez námahy. V tomto tutoriálu se ponoříme do procesu ukládání 3D sítí ve vlastním binárním formátu pomocí Aspose.3D for .NET. Tato příručka předpokládá, že máte základní znalosti jazyka C# a jste obeznámeni s knihovnou Aspose.3D.
@@ -142,3 +148,9 @@ Odpověď 1: Aspose.3D primárně podporuje jazyky .NET, ale můžete prozkoumat
 ### Q5: Mohu zakoupit Aspose.3D pro .NET?
 
  A5: Ano, můžete si koupit Aspose.3D z[nákupní stránku](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

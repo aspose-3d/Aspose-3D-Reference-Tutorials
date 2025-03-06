@@ -3,10 +3,16 @@ title: Chuyển đổi các nút 3D với các góc Euler trong Java bằng Aspo
 linktitle: Chuyển đổi các nút 3D với các góc Euler trong Java bằng Aspose.3D
 second_title: API Java Aspose.3D
 description: Khám phá thế giới biến đổi 3D trong Java với Aspose.3D. Làm theo hướng dẫn từng bước của chúng tôi để thêm các góc Euler động vào các nút 3D của bạn.
-type: docs
 weight: 19
 url: /vi/java/geometry/transform-3d-nodes-with-euler-angles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi các nút 3D với các góc Euler trong Java bằng Aspose.3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách chuyển đổi các nút 3D với các góc Euler trong Java bằng Aspose.3D. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình thêm các phép biến đổi vào nút 3D, sử dụng các góc Euler để đạt được định vị và định hướng động.
@@ -105,3 +111,9 @@ Chúc mừng! Bạn đã chuyển đổi thành công các nút 3D bằng cách 
 ### Câu 5: Tôi có thể tìm tài liệu ở đâu?
 
  A5: Cái[tài liệu](https://reference.aspose.com/3d/java/) cung cấp hướng dẫn toàn diện về cách sử dụng Aspose.3D cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

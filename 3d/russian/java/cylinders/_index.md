@@ -3,10 +3,16 @@ title: Работа с цилиндрами в Aspose.3D для Java
 linktitle: Работа с цилиндрами в Aspose.3D для Java
 second_title: Aspose.3D Java API
 description: Создавайте потрясающие 3D-модели без особых усилий с помощью Aspose.3D для Java! Научитесь создавать цилиндры вентилятора, цилиндры со смещенным верхом и цилиндры со срезанным дном с помощью учебных пособий.
-type: docs
 weight: 25
 url: /ru/java/cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с цилиндрами в Aspose.3D для Java
+
 ## Введение
 
 Готовы ли вы поднять свои навыки 3D-моделирования на новый уровень? Aspose.3D для Java открывает мир возможностей, и в этом уроке мы познакомим вас с увлекательной областью создания индивидуальных цилиндров. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете заниматься 3D-моделированием, эти руководства повысят ваши навыки и добавят уникальности вашим проектам.
@@ -37,3 +43,9 @@ url: /ru/java/cylinders/
 Откройте для себя чудеса 3D-моделирования на Java с помощью Aspose.3D. Научитесь легко создавать очаровательные цилиндры со смещенными верхушками.
 ### [Создание цилиндров со скошенным днищем в Aspose.3D для Java](./creating-cylinders-with-sheared-bottom/)
 Научитесь создавать индивидуальные цилиндры со срезанным днищем, используя Aspose.3D для Java. Совершенствуйте свои навыки 3D-моделирования с помощью этого пошагового руководства.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

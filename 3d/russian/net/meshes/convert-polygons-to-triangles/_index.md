@@ -3,10 +3,16 @@ title: Преобразование многоугольников в треуг
 linktitle: Преобразование многоугольников в треугольники
 second_title: Aspose.3D .NET API
 description: Исследуйте беспрепятственный мир 3D-моделирования с помощью Aspose.3D для .NET. Легко преобразуйте многоугольники в треугольники, используя наше пошаговое руководство. Загрузите бесплатную пробную версию прямо сейчас!
-type: docs
 weight: 10
 url: /ru/net/meshes/convert-polygons-to-triangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование многоугольников в треугольники
+
 ## Введение
 Если вы погружаетесь в захватывающий мир 3D-графики и моделирования с использованием .NET, Aspose.3D — это мощный инструмент, который может оптимизировать ваш рабочий процесс. Одной из важнейших операций 3D-моделирования является преобразование полигонов в треугольники, и в этом уроке мы шаг за шагом проведем вас через этот процесс.
 ## Предварительные условия
@@ -52,3 +58,9 @@ scene.Save("Your Output Directory" + "triangulated_out.fbx", FileFormat.FBX7400A
  Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### 5. Где я могу приобрести Aspose.3D для .NET?
  Вы можете приобрести Aspose.3D[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

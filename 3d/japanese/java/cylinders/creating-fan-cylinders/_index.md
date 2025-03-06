@@ -3,10 +3,16 @@ title: Aspose.3D for Java を使用したカスタマイズされたファン �
 linktitle: Aspose.3D for Java を使用したカスタマイズされたファン シリンダーの作成
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して Java でカスタマイズされたファン シリンダーを作成する方法を学びます。 3D モデリング ゲームを簡単にレベルアップします。
-type: docs
 weight: 10
 url: /ja/java/cylinders/creating-fan-cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java を使用したカスタマイズされたファン シリンダーの作成
+
 ## 導入
 
 Aspose.3D for Java を使用して 3D モデリング エクスペリエンスを向上させる準備はできていますか?このチュートリアルでは、強力な Aspose.3D ライブラリを使用してカスタマイズされたファン シリンダーを作成するプロセスを説明します。経験豊富な開発者でも初心者でも、このステップバイステップのガイドは、Java で Aspose.3D の可能性を最大限に引き出すのに役立ちます。
@@ -124,3 +130,9 @@ A2: もちろんです！ Aspose.3D には、カスタマイズのための広�
 ### Q5: Aspose.3D の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: 仮免許を取得します。[ここ](https://purchase.aspose.com/temporary-license/)テストと開発のニーズに対応します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

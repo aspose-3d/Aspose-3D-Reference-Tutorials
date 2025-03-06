@@ -3,10 +3,16 @@ title: تعريض التحول الهندسي
 linktitle: تعريض التحول الهندسي
 second_title: Aspose.3D.NET API
 description: استكشف الإمكانيات اللامحدودة للرسومات ثلاثية الأبعاد في .NET باستخدام Aspose.3D. كشف التحولات الهندسية دون عناء.
-type: docs
 weight: 13
 url: /ar/net/geometry-and-hierarchy/expose-geometric-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعريض التحول الهندسي
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.3D المثير لـ .NET! في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات كشف التحولات الهندسية في المشاهد ثلاثية الأبعاد باستخدام Aspose.3D. إذا كنت مطور .NET حريصًا على تحسين قدرات الرسومات ثلاثية الأبعاد لديك، فأنت في المكان الصحيح.
@@ -98,3 +104,9 @@ Console.WriteLine(n.EvaluateGlobalTransform(false));
 ### س5: كيف يمكنني شراء Aspose.3D لـ .NET؟
 
  ج5: لشراء Aspose.3D لـ .NET، قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) على موقع Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: العمل مع الهندسة ثلاثية الأبعاد في جافا
 linktitle: العمل مع الهندسة ثلاثية الأبعاد في جافا
 second_title: Aspose.3D جافا API
 description: استكشف دروس Aspose.3D for Java حول العمل مع الهندسة ثلاثية الأبعاد. إتقان مواد PBR، وتدوير الكواترنيون، ومشاهد المكعب، والمزيد. ارفع مستوى رسومات Java ثلاثية الأبعاد.
-type: docs
 weight: 21
 url: /ar/java/geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع الهندسة ثلاثية الأبعاد في جافا
+
 ## مقدمة
 هل أنت مستعد للتعمق في عالم الرسومات ثلاثية الأبعاد الرائع باستخدام Aspose.3D لـ Java؟ تغطي برامجنا التعليمية مجموعة واسعة من المواضيع، مما يمكّنك من تحسين تطبيقات Java الخاصة بك باستخدام عناصر ثلاثية الأبعاد قوية ومذهلة بصريًا. فلنبدأ هذه الرحلة خطوة بخطوة.
 
@@ -89,3 +95,9 @@ url: /ar/java/geometry/
 استكشف عالم الرسومات ثلاثية الأبعاد في Java باستخدام Aspose.3D. تعلم كيفية تحويل العقد بسهولة باستخدام مصفوفات التحويل.
 ### [تثليث الشبكات للعرض الأمثل في Java باستخدام Aspose.3D](./triangulate-meshes-for-optimized-rendering/)
 تعرف على كيفية تعزيز كفاءة العرض ثلاثي الأبعاد في Java باستخدام Aspose.3D. شبكات مثلثة للحصول على الأداء الأمثل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

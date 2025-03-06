@@ -3,10 +3,16 @@ title: Εφαρμογή άδειας χρήσης στο Aspose.3D για Java
 linktitle: Εφαρμογή άδειας χρήσης στο Aspose.3D για Java
 second_title: Aspose.3D Java API
 description: Ξεκλειδώστε πλήρως τις δυνατότητες του Aspose.3D σε εφαρμογές Java ακολουθώντας τον ολοκληρωμένο οδηγό μας για την εφαρμογή αδειών.
-type: docs
 weight: 10
 url: /el/java/licensing/applying-license-in-aspose-3d/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή άδειας χρήσης στο Aspose.3D για Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτόν τον αναλυτικό οδηγό σχετικά με την εφαρμογή άδειας χρήσης στο Aspose.3D για Java. Το Aspose.3D είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία 3D χωρίς κόπο. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία εφαρμογής μιας άδειας χρήσης χρησιμοποιώντας διάφορες μεθόδους, διασφαλίζοντας ότι μπορείτε να ξεκλειδώσετε πλήρως τις δυνατότητες του Aspose.3D στις εφαρμογές σας Java.
@@ -111,3 +117,9 @@ A1: Ναι, το Aspose.3D είναι συμβατό με Java 6 και νεότ
 ### Ε5: Χρειάζομαι μια προσωρινή άδεια για δοκιμή;
 
  A5: Ναι, αποκτήστε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

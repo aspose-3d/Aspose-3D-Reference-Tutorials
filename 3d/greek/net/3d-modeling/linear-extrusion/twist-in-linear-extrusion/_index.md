@@ -3,10 +3,16 @@ title: Twist in Linear Extrusion
 linktitle: Twist in Linear Extrusion
 second_title: Aspose.3D .NET API
 description: Εξερευνήστε τον μαγευτικό κόσμο των τρισδιάστατων γραφικών με το Aspose.3D για .NET. Μάθετε βήμα προς βήμα τη Γραμμική εξώθηση με περιστροφή.
-type: docs
 weight: 14
 url: /el/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Twist in Linear Extrusion
+
 ## Εισαγωγή
 
 Στον συνεχώς εξελισσόμενο κόσμο της ανάπτυξης .NET, η αξιοποίηση της δύναμης των τρισδιάστατων γραφικών είναι μια συναρπαστική προσπάθεια. Το Aspose.3D for .NET αναδεικνύεται ως μια πολύτιμη εργαλειοθήκη, δίνοντας τη δυνατότητα στους προγραμματιστές να δημιουργούν απρόσκοπτα καθηλωτικές και οπτικά εντυπωσιακές εφαρμογές. Σε αυτόν τον περιεκτικό οδηγό, θα εμβαθύνουμε σε ένα ενδιαφέρον χαρακτηριστικό - τη Γραμμική εξώθηση με περιστροφή. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία βήμα προς βήμα, ξεκλειδώνοντας τις δυνατότητες του Aspose.3D για .NET.
@@ -118,3 +124,9 @@ A3: Ενώ ένας μεγαλύτερος αριθμός τμημάτων πρ�
 ### Ε5: Υπάρχει κοινότητα για υποστήριξη και συζητήσεις Aspose.3D;
 
  A5: Ναι, εγγραφείτε στην κοινότητα Aspose.3D στο[Aspose Forum](https://forum.aspose.com/c/3d/18) για υποστήριξη και ενδιαφέρουσες συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

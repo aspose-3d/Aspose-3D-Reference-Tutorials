@@ -3,10 +3,16 @@ title: 線性擠壓中的扭轉偏移
 linktitle: 線性擠壓中的扭轉偏移
 second_title: Aspose.3D .NET API
 description: 透過我們有關線性拉伸中扭曲偏移的分步指南，探索 Aspose.3D for .NET 的魔力。輕鬆提升您的 3D 專案。
-type: docs
 weight: 15
 url: /zh-hant/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 線性擠壓中的扭轉偏移
+
 ## 介紹
 
 歡迎來到 Aspose.3D for .NET 的世界，這是一個多功能函式庫，讓開發人員能夠輕鬆處理 3D 操作。在本教程中，我們將深入研究其中一個有趣的功能 - “線性擠出中的扭曲偏移”。如果您已準備好提升 3D 程式設計技能，那就讓我們開始吧！
@@ -112,3 +118,9 @@ A4：探索[文件](https://reference.aspose.com/3d/net/)取得廣泛的指南�
 ### Q5：哪裡可以購買 Aspose.3D for .NET？
 
  A5：前往[這個連結](https://purchase.aspose.com/buy)進行購買並釋放 Aspose.3D 的全部潛力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

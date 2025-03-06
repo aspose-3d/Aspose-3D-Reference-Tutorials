@@ -3,10 +3,16 @@ title: PLY フォーマットからメッシュをデコードする
 linktitle: PLY フォーマットからメッシュをデコードする
 second_title: Aspose.3D .NET API
 description: 3D マジックの秘密を解き明かしましょう! Aspose.3D for .NET を使用すると、PLY 形式からメッシュを簡単にデコードできます。プロジェクトを新たな次元に引き上げます。
-type: docs
 weight: 11
 url: /ja/net/loading-and-saving/ply/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLY フォーマットからメッシュをデコードする
+
 ## 導入
 これを想像してください: あなたは 3D プロジェクトに命を吹き込み、日常と非日常を区別する繊細なレイヤーを追加しようとしています。しかし、どこから始めればよいでしょうか?恐れることはありません、勇敢な開発者! Aspose.3D for .NET の領域へようこそ。創造性と機能性が調和のとれたダンスで出会います。
 進化し続けるプログラミングの世界において、Aspose.3D はビーコンの役割を果たし、3 次元ウィザードリーの領域で .NET の能力を高める強力なツールキットを提供します。このチュートリアルでは、Aspose.3D を使用して PLY 形式からメッシュをデコードする旅に乗り出し、シームレスな 3D 統合の秘密を解明します。
@@ -57,3 +63,9 @@ A：確かに！ Aspose.3D を使用すると、メッシュを調整および�
 A：確かに！あなたのものをつかんでください[無料トライアル](https://releases.aspose.com/)Aspose.3D の魔法を直接体験してください。
 ### Q: 延長テスト用の一時ライセンスを取得するにはどうすればよいですか?
 訪問[このリンク](https://purchase.aspose.com/temporary-license/)没入型トライアル体験のための一時ライセンスを確保します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Criando Cilindros com Offset Top em Aspose.3D para Java
 linktitle: Criando Cilindros com Offset Top em Aspose.3D para Java
 second_title: API Java Aspose.3D
 description: Explore as maravilhas da modelagem 3D em Java com Aspose.3D. Aprenda a criar cilindros cativantes com topos deslocados sem esforço.
-type: docs
 weight: 11
 url: /pt/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Criando Cilindros com Offset Top em Aspose.3D para Java
+
 ## Introdução
 
 No domínio da modelagem 3D baseada em Java, Aspose.3D se destaca como uma ferramenta poderosa, oferecendo aos desenvolvedores a capacidade de criar cenas 3D complexas com facilidade. Neste tutorial, mergulharemos no fascinante mundo do Aspose.3D para Java, focando em uma tarefa específica – criar cilindros com topos deslocados. Ao final deste guia, você terá uma compreensão sólida do processo, permitindo integrar esse recurso perfeitamente em seus projetos 3D.
@@ -127,3 +133,9 @@ A3: Sim, você pode explorar e escolher a opção de licenciamento que atenda à
 ### P5: Existe uma opção de licença temporária para fins de teste?
 
  A5: Sim, você pode obter uma licença temporária para fins de teste e avaliação[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

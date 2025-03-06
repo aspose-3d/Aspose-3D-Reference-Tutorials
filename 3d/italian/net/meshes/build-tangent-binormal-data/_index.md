@@ -3,10 +3,16 @@ title: Costruzione di dati tangenti e binormali
 linktitle: Costruzione di dati tangenti e binormali
 second_title: API Aspose.3D .NET
 description: Sfrutta la potenza dei dati tangenti e binormali per ottimizzare i tuoi modelli 3D per un rendering più fluido, tempi di caricamento più rapidi e un aumento delle prestazioni.
-type: docs
 weight: 10
 url: /it/net/meshes/build-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Costruzione di dati tangenti e binormali
+
 ## introduzione
 Hai mai sentito la frustrazione di un modello 3D lento che impantana il tuo progetto? Non preoccuparti, collega sviluppatore, perché il segreto per una navigazione fluida risiede nei dati tangenti e binormali. Questi eroi non celebrati ottimizzano il rendering mesh, facendo cantare i tuoi modelli come dive dell'opera su qualsiasi palco. Ma come sfruttare il loro potere? Non temere, perché questa guida completa ti fornirà il toolkit Aspose.3D per .NET per sbloccare la magia dei dati tangenti e binormali in pochi clic!
 
@@ -85,3 +91,9 @@ Aspose.3D supporta numerosi formati come OBJ, STL e glTF. Converti semplicemente
  Aspose.3D ha un portale di documentazione completo su[Qui](https://docs.aspose.com/3d/net/) Inoltre, il forum della comunità Aspose su[Qui](https://forum.aspose.com/) è sempre pieno di sviluppatori utili.
 ### Posso utilizzare Aspose.3D per progetti commerciali? 
  SÌ! Aspose.3D offre varie opzioni di licenza per soddisfare le tue esigenze. Controlla la loro pagina dei prezzi su[Qui](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

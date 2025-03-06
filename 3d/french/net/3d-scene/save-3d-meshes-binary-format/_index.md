@@ -3,10 +3,16 @@ title: Enregistrement de maillages 3D au format binaire personnalisé
 linktitle: Enregistrement de maillages 3D au format binaire personnalisé
 second_title: API Aspose.3D .NET
 description: Explorez le monde de la 3D avec Aspose.3D pour .NET. Apprenez à enregistrer des maillages au format binaire personnalisé.
-type: docs
 weight: 13
 url: /fr/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrement de maillages 3D au format binaire personnalisé
+
 ## Introduction
 
 Bienvenue dans le monde d'Aspose.3D pour .NET, une bibliothèque puissante qui permet aux développeurs de travailler sans effort avec des fichiers 3D. Dans ce didacticiel, nous aborderons le processus d'enregistrement des maillages 3D dans un format binaire personnalisé à l'aide d'Aspose.3D pour .NET. Ce guide suppose que vous avez une compréhension de base de C# et que vous êtes familier avec la bibliothèque Aspose.3D.
@@ -142,3 +148,9 @@ A1 : Aspose.3D prend principalement en charge les langages .NET, mais vous pouve
 ### Q5 : Puis-je acheter Aspose.3D pour .NET ?
 
  A5 : Oui, vous pouvez acheter Aspose.3D sur le site[page d'achat](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

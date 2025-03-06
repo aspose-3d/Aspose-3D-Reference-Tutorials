@@ -3,10 +3,16 @@ title: تنفيذ البثق الخطي في Aspose.3D لجافا
 linktitle: تنفيذ البثق الخطي في Aspose.3D لجافا
 second_title: Aspose.3D جافا API
 description: استكشف عالم النمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. تعلم كيفية أداء البثق الخطي دون عناء.
-type: docs
 weight: 10
 url: /ar/java/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنفيذ البثق الخطي في Aspose.3D لجافا
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول إجراء البثق الخطي في Aspose.3D لـ Java! إذا كنت تتطلع إلى تحسين مهاراتك في تصميم النماذج ثلاثية الأبعاد باستخدام Java، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سنرشدك خلال عملية تنفيذ البثق الخطي باستخدام Aspose.3D، وهي مكتبة Java قوية للنمذجة ثلاثية الأبعاد.
@@ -104,3 +110,9 @@ A1: تم تصميم Aspose.3D للعمل مع Java 1.6 والإصدارات ال
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.3D؟
 
  ج5: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

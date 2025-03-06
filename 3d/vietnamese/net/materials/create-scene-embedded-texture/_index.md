@@ -3,10 +3,16 @@ title: Tạo cảnh với kết cấu nhúng
 linktitle: Tạo cảnh với kết cấu nhúng
 second_title: API Aspose.3D .NET
 description: Tạo cảnh 3D đầy mê hoặc với họa tiết được nhúng bằng Aspose.3D cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có kết quả tuyệt vời.
-type: docs
 weight: 10
 url: /vi/net/materials/create-scene-embedded-texture/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo cảnh với kết cấu nhúng
+
 ## Giới thiệu
 Chào mừng bạn đến với thế giới đồ họa 3D thú vị với Aspose.3D cho .NET! Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình tạo cảnh 3D tuyệt đẹp với các họa tiết được nhúng bằng Aspose.3D, một thư viện mạnh mẽ và linh hoạt dành cho các nhà phát triển .NET.
 ## Điều kiện tiên quyết
@@ -109,3 +115,9 @@ Trả lời: Aspose.3D được thiết kế chủ yếu cho .NET, nhưng cũng 
  Đáp: Hãy ghé thăm[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để được cộng đồng hỗ trợ và thảo luận.
 ### Câu hỏi: Tôi có thể sử dụng Aspose.3D cho các dự án thương mại không?
  Đ: Có, bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

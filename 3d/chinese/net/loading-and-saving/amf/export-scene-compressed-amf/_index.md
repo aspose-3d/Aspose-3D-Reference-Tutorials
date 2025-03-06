@@ -3,10 +3,16 @@ title: 将 3D 场景导出为压缩的 AMF 格式
 linktitle: 将场景导出到压缩的 AMF
 second_title: Aspose.3D .NET API
 description: 了解如何使用 Aspose.3D for .NET 将 3D 场景导出为压缩的 AMF 格式。通过本分步指南增强您的开发技能。
-type: docs
 weight: 11
 url: /zh/net/loading-and-saving/amf/export-scene-compressed-amf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将 3D 场景导出为压缩的 AMF 格式
+
 ## 介绍
 
 在 3D 建模和渲染的动态世界中，效率和灵活性至关重要。 Aspose.3D for .NET 使开发人员能够将 3D 场景无缝导出为压缩的 AMF（增材制造文件）格式，确保最佳文件大小而不影响质量。本教程将逐步指导您完成整个过程，使初学者和经验丰富的开发人员都能轻松利用 Aspose.3D for .NET 的功能。
@@ -98,3 +104,9 @@ A4：Aspose.3D 旨在处理不同复杂程度的场景，并且没有严格的�
 ### Q5：我在哪里可以找到更多支持和社区讨论？
 
  A5：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)以寻求支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.3D for Java 中應用許可證
 linktitle: 在 Aspose.3D for Java 中應用許可證
 second_title: Aspose.3D Java API
 description: 遵循我們關於應用許可證的綜合指南，釋放 Aspose.3D 在 Java 應用程式中的全部潛力。
-type: docs
 weight: 10
 url: /zh-hant/java/licensing/applying-license-in-aspose-3d/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.3D for Java 中應用許可證
+
 ## 介紹
 
 歡迎閱讀有關在 Aspose.3D for Java 中申請許可證的逐步指南。 Aspose.3D 是一個功能強大的 Java 程式庫，可讓開發人員輕鬆處理 3D 檔案。在本教程中，我們將深入研究使用各種方法申請許可證的過程，確保您可以在 Java 應用程式中釋放 Aspose.3D 的全部潛力。
@@ -111,3 +117,9 @@ A1：是的，Aspose.3D 相容於 Java 6 及更高版本。
 ### Q5：測試需要臨時許可證嗎？
 
  A5：是的，獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 3D シーンでのアニメーション用のターゲットとカメラ�
 linktitle: 3D シーンでのアニメーション用のターゲットとカメラのセットアップ
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET で 3D アニメーションの魔法を解き放ちます。この包括的なチュートリアルを使用して、ターゲットとカメラを簡単にセットアップします。
-type: docs
 weight: 11
 url: /ja/net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D シーンでのアニメーション用のターゲットとカメラのセットアップ
+
 ## 導入
 
 ターゲットとカメラの設定は、3D アニメーション プロジェクトの基礎となります。 Aspose.3D for .NET は、このプロセスを合理化するための強力なツール セットを提供し、開発者が創造性を発揮できるようにします。このチュートリアルでは、複雑な要素を分解して、一見困難に見えるタスクをより管理しやすくしながら、手順を説明します。
@@ -103,3 +109,9 @@ A4: はい、無料トライアルを試すことができます[ここ](https:/
 ### Q5: 仮ライセンスを取得するにはどうすればよいですか?
 
  A5: 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Siatki
 linktitle: Siatki
 second_title: Aspose.3D API .NET
 description: Odblokuj sekrety Aspose.3D dla .NET dzięki naszym obszernym samouczkom. Optymalizuj modele 3D, konwertuj prymitywy na siatki i bez wysiłku ulepszaj grafikę.
-type: docs
 weight: 26
 url: /pl/net/meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Siatki
+
 ## Wstęp
 
 Aspose.3D dla .NET otwiera świat możliwości dla programistów chcących zagłębić się w zawiłości siatek 3D. W tym artykule przeprowadzimy Cię przez różne samouczki dotyczące siatek, z których każdy oferuje unikalne spojrzenie na wykorzystanie pełnego potencjału Aspose.3D dla .NET.
@@ -69,3 +75,9 @@ Opanuj sztukę dzielenia siatek 3D według materiału dzięki Aspose.3D dla .NET
 [Przeczytaj samouczek: Podziel siatkę według materiału](./split-mesh-by-material/)
 
 Podsumowując, nasze samouczki Aspose.3D dla .NET oferują kompleksowy przewodnik po opanowaniu różnych aspektów modelowania 3D. Zanurz się, udoskonal swoje umiejętności i podnieś poziom swojej gry programistycznej 3D!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تحويل العقد ثلاثية الأبعاد باستخدام مصف
 linktitle: تحويل العقد ثلاثية الأبعاد باستخدام مصفوفات التحويل في Java باستخدام Aspose.3D
 second_title: Aspose.3D جافا API
 description: استكشف عالم الرسومات ثلاثية الأبعاد في Java باستخدام Aspose.3D. تعلم كيفية تحويل العقد بسهولة باستخدام مصفوفات التحويل.
-type: docs
 weight: 21
 url: /ar/java/geometry/transform-3d-nodes-with-matrices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل العقد ثلاثية الأبعاد باستخدام مصفوفات التحويل باستخدام Aspose.3D
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل التفصيلي حول تحويل العقد ثلاثية الأبعاد باستخدام مصفوفات التحويل في Java باستخدام Aspose.3D. إذا كنت مطور Java وتتطلع إلى تحسين مهاراتك في الرسومات والنمذجة ثلاثية الأبعاد، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سوف نتعمق في عملية تطبيق التحويلات على العقد ثلاثية الأبعاد ضمن إطار عمل Aspose.3D.
@@ -119,3 +125,9 @@ A2: استخدم مصفوفة التدوير المناسبة في مصفوفة 
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟
 
  ج5: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ställ in målkamera för 3D-animationer i Java | Aspose.3D Tutorial
 linktitle: Ställ in målkamera för 3D-animationer i Java | Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 description: Utforska Java 3D-animationer utan ansträngning med Aspose.3D. Följ vår handledning för en steg-för-steg-guide. Ladda ner nu för en fängslande 3D-utvecklingsresa.
-type: docs
 weight: 11
 url: /sv/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställ in målkamera för 3D-animationer i Java | Aspose.3D Tutorial
+
 ## Introduktion
 
 Välkommen till den här steg-för-steg-guiden om hur du ställer in en målkamera för 3D-animationer i Java med Aspose.3D. Oavsett om du är en erfaren utvecklare eller precis har börjat med 3D-animationer i Java, kommer den här handledningen att leda dig genom processen med tydliga och koncisa instruktioner.
@@ -98,3 +104,9 @@ Grattis! Du har framgångsrikt konfigurerat en målkamera för 3D-animationer i 
 ### F5: Hur kan jag få en tillfällig licens?
 
  S5: Du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

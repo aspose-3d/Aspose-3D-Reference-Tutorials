@@ -3,10 +3,16 @@ title: Thiết lập chuẩn trên Cube
 linktitle: Thiết lập chuẩn trên Cube
 second_title: API Aspose.3D .NET
 description: Tìm hiểu cách thiết lập quy tắc trên khối 3D bằng Aspose.3D cho .NET. Nâng cao kỹ năng lập mô hình 3D của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 17
 url: /vi/net/geometry-and-hierarchy/setup-normals-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thiết lập chuẩn trên Cube
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách thiết lập các chuẩn mực trên khối trong cảnh 3D bằng Aspose.3D cho .NET. Aspose.3D là một thư viện mạnh mẽ cho phép các nhà phát triển .NET làm việc với các tệp 3D, cung cấp nhiều chức năng cho thao tác và tạo mô hình 3D.
@@ -100,3 +106,9 @@ A2: Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn 
 ### Câu hỏi 5: Có tài nguyên bổ sung nào để học Aspose.3D không?
 
  A5: Khám phá cái mở rộng[tài liệu](https://reference.aspose.com/3d/net/) để khám phá thêm các tính năng và thủ thuật.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

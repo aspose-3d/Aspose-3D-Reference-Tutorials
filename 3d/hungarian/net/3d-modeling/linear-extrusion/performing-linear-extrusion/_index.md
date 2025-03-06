@@ -3,10 +3,16 @@ title: Lineáris extrudálás végrehajtása
 linktitle: Lineáris extrudálás végrehajtása
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D grafika világát az Aspose.3D for .NET segítségével. Lineáris extrudálás végrehajtása ebben a lépésről lépésre.
-type: docs
 weight: 12
 url: /hu/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lineáris extrudálás végrehajtása
+
 ## Bevezetés:
 
 Induljon el egy izgalmas utazásra a 3D grafika birodalmába az Aspose.3D for .NET segítségével, egy olyan erőművel, amely feldobja fejlesztőjátékát. Ebben az oktatóanyagban a Lineáris extrudálás – egy lenyűgöző technika, amely életet lehel a statikus 2D profilokba, és a 3D dinamikus világába lendítjük őket – bonyodalmaiba fogunk beleásni. Nyissuk ki a kaput a kreativitás és az innováció előtt az Aspose.3D segítségével!
@@ -106,3 +112,9 @@ A1: Abszolút! Az Aspose.3D felhasználóbarát környezetet kínál, oktatóany
 ### 5. kérdés: Van ingyenes próbaverzió?
 
  A5: Természetesen! Töltse le az ingyenes próbaverziót[itt](https://releases.aspose.com/) hogy első kézből tapasztalja meg az Aspose.3D képességeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

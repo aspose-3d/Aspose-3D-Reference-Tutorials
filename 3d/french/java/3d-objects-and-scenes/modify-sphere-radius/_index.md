@@ -3,10 +3,16 @@ title: Modifier le rayon de la sphère 3D en Java avec Aspose.3D
 linktitle: Modifier le rayon de la sphère 3D en Java avec Aspose.3D
 second_title: API Java Aspose.3D
 description: Explorez la programmation Java 3D avec Aspose.3D, en modifiant le rayon de la sphère sans effort. Téléchargez-le maintenant pour une expérience de développement 3D fluide.
-type: docs
 weight: 10
 url: /fr/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifier le rayon de la sphère 3D en Java avec Aspose.3D
+
 ## Introduction
 
 Bienvenue dans notre guide étape par étape sur la modification du rayon d'une sphère 3D à l'aide d'Aspose.3D pour Java. Aspose.3D est une puissante bibliothèque Java qui permet aux développeurs de travailler avec des fichiers 3D et de les manipuler de manière transparente. Dans ce didacticiel, nous nous concentrerons sur la modification du rayon d'une sphère 3D à l'aide d'exemples pratiques et d'explications détaillées.
@@ -103,3 +109,9 @@ Toutes nos félicitations! Vous avez modifié avec succès le rayon de la sphèr
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.3D ?
 
  A5 : Vous pouvez obtenir un permis temporaire en visitant[Permis temporaire](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

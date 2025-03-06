@@ -3,10 +3,16 @@ title: 使用 Aspose.3D for Java 将点云导出为 PLY 格式
 linktitle: 使用 Aspose.3D for Java 将点云导出为 PLY 格式
 second_title: Aspose.3D Java API
 description: 探索 Aspose.3D for Java 将点云导出为 PLY 格式的强大功能。按照我们的分步指南进行无缝 3D 开发。
-type: docs
 weight: 13
 url: /zh/java/point-clouds/export-point-clouds-ply-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D for Java 将点云导出为 PLY 格式
+
 ## 介绍
 
 欢迎阅读这份有关使用 Aspose.3D for Java 将点云导出为 PLY 格式的综合指南。 Aspose.3D 是一个功能强大的 Java 库，允许开发人员处理 3D 文件，提供管理和操作各种 3D 格式的无缝体验。在本教程中，我们将重点关注将点云导出为 PLY 格式，这是一种广泛使用的用于表示 3D 数据的文件格式。
@@ -81,3 +87,9 @@ A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
 ### Q5：哪里可以购买Aspose.3D for Java？
 
 A5：购买Aspose.3D for Java[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

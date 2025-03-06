@@ -3,10 +3,16 @@ title: การสร้างรูปหลายเหลี่ยมใน 
 linktitle: การสร้างรูปหลายเหลี่ยมใน Mesh
 second_title: Aspose.3D .NET API
 description: สำรวจโลกแห่งการสร้างแบบจำลอง 3 มิติด้วย Aspose.3D สำหรับ .NET สร้างรูปหลายเหลี่ยมที่น่าทึ่งในตาข่ายได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การพัฒนาที่ดื่มด่ำ!
-type: docs
 weight: 18
 url: /th/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างรูปหลายเหลี่ยมใน Mesh
+
 ## การแนะนำ
 คุณพร้อมที่จะดำดิ่งสู่โลกแห่งการสร้างแบบจำลอง 3 มิติที่น่าตื่นเต้นด้วย Aspose.3D สำหรับ .NET แล้วหรือยัง? หากคุณเป็นนักพัฒนาที่ต้องการพัฒนาทักษะของคุณ หรือผู้มาใหม่ที่สนใจในการสร้าง 3D mesh อันน่าทึ่ง คุณมาถูกที่แล้ว ในบทช่วยสอนที่ครอบคลุมนี้ เราจะแนะนำคุณตลอดกระบวนการสร้างรูปหลายเหลี่ยมใน Mesh โดยใช้ Aspose.3D
 ## ข้อกำหนดเบื้องต้น
@@ -59,3 +65,9 @@ mesh.CreatePolygon(0, 1, 2, 3);
  ตอบ: สำรวจอย่างกว้างขวาง[เอกสารประกอบ](https://reference.aspose.com/3d/net/) พร้อมสำหรับข้อมูลเชิงลึก
 ### ถาม: ฉันจะซื้อ Aspose.3D สำหรับ .NET ได้อย่างไร
  ตอบ: เยี่ยมชม[หน้าซื้อ](https://purchase.aspose.com/buy) เพื่อรับใบอนุญาตของคุณและปลดล็อคศักยภาพสูงสุดของ Aspose.3D
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

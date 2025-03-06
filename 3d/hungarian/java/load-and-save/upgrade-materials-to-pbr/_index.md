@@ -3,10 +3,16 @@ title: Frissítse a 3D anyagokat PBR-re a Java fokozott realizmusa érdekében a
 linktitle: Frissítse a 3D anyagokat PBR-re a Java fokozott realizmusa érdekében az Aspose.3D segítségével
 second_title: Aspose.3D Java API
 description: Az Aspose.3D segítségével könnyedén frissítheti a 3D-s anyagokat PBR-re Java nyelven. Érjen el fokozott realizmust a lenyűgöző látvány érdekében.
-type: docs
 weight: 13
 url: /hu/java/load-and-save/upgrade-materials-to-pbr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Frissítse a 3D anyagokat PBR-re a Java fokozott realizmusa érdekében az Aspose.3D segítségével
+
 ## Bevezetés
 
 A 3D-s anyagok PBR-re való frissítése átalakuló lépés a Java-alkalmazások élethű látványvilágának elérése felé. Az Aspose.3D leegyszerűsíti ezt a folyamatot, lehetővé téve a zökkenőmentes átállást a hagyományos anyagokról a PBR anyagokra. Ebben az oktatóanyagban megvizsgáljuk a szükséges előfeltételeket, csomagokat importálunk, és az egyes példákat részletes lépésekre bontjuk.
@@ -102,3 +108,9 @@ Kövesse ezeket a lépéseket aprólékosan, hogy zökkenőmentesen frissítse 3
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?
 
  A5: Látogassa meg[ez a link](https://purchase.aspose.com/temporary-license/) ideiglenes licencinformációkért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

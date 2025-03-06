@@ -3,10 +3,16 @@ title: Thay đổi hướng mặt phẳng trong cảnh 3D
 linktitle: Thay đổi hướng mặt phẳng trong cảnh 3D
 second_title: API Aspose.3D .NET
 description: Khám phá Aspose.3D cho .NET và làm chủ việc thay đổi hướng mặt phẳng trong cảnh 3D. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/net/3d-modeling/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi hướng mặt phẳng trong cảnh 3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách thay đổi hướng mặt phẳng trong cảnh 3D bằng Aspose.3D cho .NET! Nếu bạn là nhà phát triển hoặc người đam mê 3D đang muốn nâng cao kỹ năng của mình thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình từng bước, sử dụng các ví dụ rõ ràng và giải thích chi tiết. Cuối cùng, bạn sẽ hiểu rõ về cách điều khiển hướng mặt phẳng trong các dự án 3D của mình.
@@ -95,3 +101,9 @@ Câu trả lời 1: Aspose.3D có thể hoạt động liền mạch với các 
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết ở đâu?
 
  A5: Tham khảo tài liệu[đây](https://reference.aspose.com/3d/net/) để biết thông tin chuyên sâu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tạo hình trụ có đáy cắt trong Aspose.3D cho Java
 linktitle: Tạo hình trụ có đáy cắt trong Aspose.3D cho Java
 second_title: API Java Aspose.3D
 description: Tìm hiểu cách tạo các hình trụ tùy chỉnh có đáy cắt bằng Aspose.3D cho Java. Nâng cao kỹ năng lập mô hình 3D của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 12
 url: /vi/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo hình trụ có đáy cắt trong Aspose.3D cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách tạo hình trụ có đáy cắt bằng Aspose.3D cho Java. Aspose.3D là một thư viện Java mạnh mẽ cho phép bạn làm việc với các tệp 3D một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc tạo các hình trụ tùy chỉnh có đáy cắt, cung cấp cho bạn trải nghiệm thực tế khi sử dụng Aspose.3D để nâng cao kỹ năng lập mô hình 3D của bạn.
@@ -100,3 +106,9 @@ Câu trả lời 2: Có, Aspose.3D cung cấp API thân thiện với người d
 ### Câu hỏi 5: Tôi có thể mua Aspose.3D cho Java không?
 
  Câu trả lời 5: Có, bạn có thể mua Aspose.3D cho Java[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

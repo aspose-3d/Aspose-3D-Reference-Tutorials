@@ -3,10 +3,16 @@ title: 임베디드 텍스처 덤핑
 linktitle: 임베디드 텍스처 덤핑
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 모델에 포함된 텍스처의 비밀을 풀어보세요. 원활한 통합을 위한 단계별 가이드를 살펴보세요. 지금 무료 평가판을 다운로드하세요!
-type: docs
 weight: 11
 url: /ko/net/materials/dump-embedded-textures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 임베디드 텍스처 덤핑
+
 ## 소개
 개발자가 3D 파일을 원활하게 조작하고 작업할 수 있도록 지원하는 강력한 도구 키트인 .NET용 Aspose.3D의 세계에 오신 것을 환영합니다. 이 포괄적인 튜토리얼에서 우리는 Aspose.3D를 사용하여 내장된 텍스처를 덤프하는 매혹적인 영역을 탐구할 것입니다. 내장된 텍스처의 잠재력을 활용하여 3D 애플리케이션을 향상시키고 싶다면 잘 찾아오셨습니다.
 ## 전제 조건
@@ -71,3 +77,9 @@ A: Aspose.3D는 주로 .NET 언어를 지원하지만 다른 언어에 대한 �
  A: 예, 임시 라이센스를 사용할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.3D에 대한 종합 문서는 어디서 찾을 수 있나요?
  A: 문서에 접근할 수 있습니다.[여기](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

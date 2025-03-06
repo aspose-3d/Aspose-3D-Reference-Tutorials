@@ -3,10 +3,16 @@ title: Compresser les maillages 3D avec Google Draco en Java
 linktitle: Compresser les maillages 3D avec Google Draco en Java
 second_title: API Java Aspose.3D
 description: Optimisez vos applications 3D avec Aspose.3D. Apprenez à compresser des maillages à l'aide de Google Draco en Java. Suivez notre guide étape par étape pour un développement 3D efficace.
-type: docs
 weight: 10
 url: /fr/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Compresser les maillages 3D avec Google Draco en Java
+
 ## Introduction
 
 Bienvenue dans ce guide complet sur la compression de maillages 3D avec Google Draco en Java à l'aide d'Aspose.3D. Dans ce didacticiel, nous vous guiderons tout au long du processus de compression efficace des maillages 3D, en utilisant la puissance d'Aspose.3D. Si vous êtes un développeur cherchant à améliorer vos applications 3D en réduisant la taille des maillages sans compromettre la qualité, vous êtes au bon endroit.
@@ -100,3 +106,9 @@ A2 : Bien que ce didacticiel se concentre sur Java, Google Draco est disponible
 ### Q5 : Existe-t-il un forum communautaire pour le support d'Aspose.3D ?
 
  A5 : Oui, pour le soutien et les discussions de la communauté, visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

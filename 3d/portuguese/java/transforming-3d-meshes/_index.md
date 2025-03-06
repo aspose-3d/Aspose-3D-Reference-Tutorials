@@ -3,10 +3,16 @@ title: Criando e transformando malhas 3D em Java
 linktitle: Criando e transformando malhas 3D em Java
 second_title: API Java Aspose.3D
 description: Desbloqueie o potencial dos gráficos 3D com Aspose.3D para Java. Crie, transforme e otimize malhas sem esforço. Eleve sua experiência de codificação com nossos tutoriais.
-type: docs
 weight: 31
 url: /pt/java/transforming-3d-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Criando e transformando malhas 3D em Java
+
 
 ## Introdução
 
@@ -42,3 +48,9 @@ Aprimore seus gráficos 3D com Aspose.3D para Java. Gere dados tangentes e binor
 Embarque em uma jornada rumo ao domínio dos gráficos 3D com Aspose.3D para Java - converta facilmente primitivos em malhas hipnotizantes. Eleve sua experiência de codificação agora!
 ### [Personalize o layout de memória para malhas 3D em Java](./customize-mesh-memory-layout/)
 Aprimore sua modelagem Java 3D com Aspose.3D: personalize o layout da memória para obter desempenho ideal. Siga nosso guia passo a passo agora!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

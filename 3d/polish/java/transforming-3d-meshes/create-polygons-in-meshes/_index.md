@@ -3,10 +3,16 @@ title: Samouczek Java - Twórz wielokąty w siatkach 3D za pomocą Aspose.3D
 linktitle: Samouczek Java - Twórz wielokąty w siatkach 3D za pomocą Aspose.3D
 second_title: Aspose.3D API Java
 description: Odblokuj moc grafiki 3D dzięki Aspose.3D dla Java. Twórz wspaniałe wielokąty bez wysiłku. Pobierz teraz, aby zapewnić płynny rozwój.
-type: docs
 weight: 10
 url: /pl/java/transforming-3d-meshes/create-polygons-in-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Samouczek Java - Twórz wielokąty w siatkach 3D za pomocą Aspose.3D
+
 ## Wstęp
 dynamicznym świecie grafiki 3D umiejętność tworzenia skomplikowanych i wizualnie oszałamiających obiektów jest podstawową umiejętnością programistów. Aspose.3D dla Java zapewnia potężny zestaw narzędzi, który ułatwia tworzenie siatek 3D. W tym samouczku przeprowadzimy Cię przez proces tworzenia wielokątów w siatkach 3D przy użyciu Aspose.3D dla Java.
 ## Warunki wstępne
@@ -51,3 +57,9 @@ Tak, Aspose.3D oferuje szereg funkcji do tworzenia skomplikowanych i szczegóło
  Tak, możesz poznać możliwości Aspose.3D, uzyskując dostęp do[bezpłatna wersja próbna](https://releases.aspose.com/).
 ### 5. Gdzie mogę szukać wsparcia dla Aspose.3D?
  W razie jakichkolwiek pytań lub pomocy odwiedź stronę[Forum Aspose.3D](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

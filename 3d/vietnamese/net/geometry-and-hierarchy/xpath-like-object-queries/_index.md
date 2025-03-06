@@ -3,10 +3,16 @@ title: Truy vấn đối tượng giống XPath
 linktitle: Truy vấn đối tượng giống XPath
 second_title: API Aspose.3D .NET
 description: Giải phóng sức mạnh của Aspose.3D cho .NET! Thao tác liền mạch đồ họa 3D với các truy vấn giống XPath. Tải xuống ngay để có trải nghiệm thay đổi trò chơi.
-type: docs
 weight: 24
 url: /vi/net/geometry-and-hierarchy/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy vấn đối tượng giống XPath
+
 ## Giới thiệu
 Bắt tay vào hành trình giải phóng toàn bộ tiềm năng của Aspose.3D cho .NET sẽ mở ra cánh cửa dẫn đến nhiều khả năng trong thao tác đồ họa 3D. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, hướng dẫn này sẽ hướng dẫn bạn các sắc thái của việc khai thác các khả năng của Aspose.3D.
 ## Điều kiện tiên quyết
@@ -94,3 +100,9 @@ Phiên bản dùng thử miễn phí đi kèm với các tính năng hạn chế
  Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để hỗ trợ cộng đồng.
 ### Aspose.3D mang lại những lợi thế gì so với các thư viện 3D khác cho .NET?
 Aspose.3D cung cấp một bộ tính năng toàn diện, bao gồm các truy vấn đối tượng mạnh mẽ và khả năng hiển thị mạnh mẽ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manually Control Render Targets for Customized Rendering in Java 3D
 linktitle: Manually Control Render Targets for Customized Rendering in Java 3D
 second_title: Aspose.3D Java API
 description: Explore the power of Aspose.3D for Java in this step-by-step guide. Manually control render targets for stunning customized Java 3D graphics.
-type: docs
 weight: 10
 url: /java/rendering-3d-scenes/manual-render-targets/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manually Control Render Targets for Customized Rendering in Java 3D
+
 ## Introduction
 
 Are you ready to elevate your Java 3D graphics to the next level? Aspose.3D for Java is your gateway to unlocking the full potential of customized rendering. In this tutorial, we'll delve into the intricacies of manually controlling render targets, giving you the tools to create visually captivating scenes tailored to your specifications.
@@ -117,3 +123,10 @@ A4: Yes, you can access the free trial [here](https://releases.aspose.com/).
 ### Q5: What is burstiness in Java 3D graphics, and how does Aspose.3D address it?
 
 A5: Burstiness refers to the sudden intensity or rapid changes in graphical elements. Aspose.3D provides tools for smooth transitions and dynamic adjustments, minimizing burstiness in your scenes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

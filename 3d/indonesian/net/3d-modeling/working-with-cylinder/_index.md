@@ -3,10 +3,16 @@ title: Silinder Bawah Geser yang Disesuaikan
 linktitle: Silinder Bawah Geser yang Disesuaikan
 second_title: Aspose.3D .NET API
 description: Pelajari cara membuat silinder bawah geser khusus menggunakan Aspose.3D untuk .NET dengan panduan langkah demi langkah terperinci kami. Tingkatkan keterampilan pemodelan 3D Anda hari ini!
-type: docs
 weight: 12
 url: /id/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Silinder Bawah Geser yang Disesuaikan
+
 ## Perkenalan
 Selamat datang di panduan komprehensif kami tentang cara membuat silinder khusus menggunakan Aspose.3D untuk .NET. Jika Anda ingin meningkatkan keterampilan pemodelan 3D dan menambahkan fitur unik ke proyek Anda, Anda berada di tempat yang tepat. Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah, menggunakan penjelasan yang jelas dan cuplikan kode.
 ## Prasyarat
@@ -83,3 +89,9 @@ Ya, Anda dapat menyesuaikan dasar geser untuk setiap silinder satu per satu, seh
  Mengunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan dan diskusi komunitas.
 ### Bagaimana saya bisa mendapatkan lisensi sementara?
  Dapatkan lisensi sementara Anda[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

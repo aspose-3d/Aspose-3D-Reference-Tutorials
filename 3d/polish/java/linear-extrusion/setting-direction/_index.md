@@ -3,10 +3,16 @@ title: Ustawianie kierunku w wytłaczaniu liniowym za pomocą Aspose.3D dla Java
 linktitle: Ustawianie kierunku w wytłaczaniu liniowym za pomocą Aspose.3D dla Java
 second_title: Aspose.3D API Java
 description: Opanuj wytłaczanie liniowe z Aspose.3D dla Java! Postępuj zgodnie z naszym przewodnikiem, aby uzyskać płynne programowanie 3D. Pobierz teraz i ciesz się wciągającymi wrażeniami.
-type: docs
 weight: 12
 url: /pl/java/linear-extrusion/setting-direction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawianie kierunku w wytłaczaniu liniowym za pomocą Aspose.3D dla Java
+
 ## Wstęp
 
 Witamy w naszym przewodniku krok po kroku dotyczącym ustawiania kierunku wytłaczania liniowego przy użyciu Aspose.3D dla Java. Aspose.3D to potężna biblioteka Java, która umożliwia programistom bezproblemową pracę z plikami i scenami 3D. W tym samouczku skupimy się na konkretnym zadaniu, jakim jest ustawienie kierunku wytłaczania liniowego, zwiększając Twoją biegłość w programowaniu 3D.
@@ -108,3 +114,9 @@ O1: Aspose.3D obsługuje różne języki programowania, w tym .NET i Java.
 ### P5: Czy dostępne są tymczasowe licencje dla Aspose.3D?
 
  Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

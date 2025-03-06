@@ -3,10 +3,16 @@ title: Opening Scene from Protected PDF
 linktitle: Opening Scene from Protected PDF
 second_title: Aspose.3D .NET API
 description: Explore the possibilities of 3D modeling with Aspose.3D for .NET. Learn to open scenes from protected PDFs in our step-by-step guide.
-type: docs
 weight: 17
 url: /net/loading-and-saving/pdf/open-scene-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opening Scene from Protected PDF
+
 ## Introduction
 
 Welcome to our comprehensive guide on leveraging the capabilities of Aspose.3D for .NET to enhance your 3D modeling and manipulation tasks. Aspose.3D is a robust API that allows developers to work seamlessly with 3D file formats in their .NET applications. In this tutorial, we'll focus on the vital aspect of loading and saving, specifically opening a scene from a protected PDF using Aspose.3D for .NET.
@@ -97,3 +103,10 @@ A4: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) to seek assist
 ### Q5: Do I need a temporary license for testing?
 
 A5: Yes, if you require a temporary license for testing purposes, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

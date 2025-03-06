@@ -3,10 +3,16 @@ title: 3D シーンでのビューポートのキャプチャ
 linktitle: 3D シーンでのビューポートのキャプチャ
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して、見事な 3D ビューポートをキャプチャする方法を学びます。シーンを柔軟にレンダリングするためのステップバイステップのガイド。
-type: docs
 weight: 11
 url: /ja/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D シーンでのビューポートのキャプチャ
+
 ## 導入
 
 3D グラフィックスとビジュアライゼーションの領域では、ビューポートのキャプチャはシーンの奥行きと詳細を向上させる重要なスキルです。 Aspose.3D for .NET は、3D シーンのレンダリングと操作のための堅牢なソリューションを提供します。このチュートリアルでは、Aspose.3D を使用して 3D シーンでビューポートをキャプチャするプロセスを説明し、見事なビジュアライゼーションを簡単に作成できるようにします。
@@ -124,3 +130,9 @@ A2: Aspose.3D は主にグラフィックスと視覚化のために設計され
 ### Q5: 助けを求めたり、コミュニティに参加するにはどうすればよいですか?
 
  A5: Aspose.3D コミュニティに参加してください。[サポートフォーラム](https://forum.aspose.com/c/3d/18)支援と協力のために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

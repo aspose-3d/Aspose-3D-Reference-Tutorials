@@ -3,10 +3,16 @@ title: Animating Properties to Document in 3D Scenes
 linktitle: Animating Properties to Document in 3D Scenes
 second_title: Aspose.3D .NET API
 description: Learn to animate 3D properties with Aspose.3D for .NET. Step-by-step guide for creating dynamic scenes.
-type: docs
 weight: 10
 url: /net/animation/property-to-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Animating Properties to Document in 3D Scenes
+
 ## Introduction
 
 If you're diving into the realm of 3D scene creation and animation in .NET, Aspose.3D is your go-to toolkit. In this step-by-step guide, we'll explore the process of animating properties in 3D scenes using Aspose.3D for .NET. By the end, you'll be equipped with the knowledge to breathe life into your 3D projects.
@@ -128,3 +134,10 @@ A4: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for support.
 ### Q5: Can I obtain a temporary license?
 
 A5: Yes, you can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

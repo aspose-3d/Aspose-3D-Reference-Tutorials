@@ -3,10 +3,16 @@ title: Rendering di scene 3D in immagini memorizzate in buffer per un'ulteriore 
 linktitle: Rendering di scene 3D in immagini memorizzate in buffer per un'ulteriore elaborazione in Java
 second_title: API Java Aspose.3D
 description: Esplora la potenza di Aspose.3D per Java nel rendering di scene 3D in immagini bufferizzate. Guida passo passo con prerequisiti, pacchetti di importazione e domande frequenti.
-type: docs
 weight: 12
 url: /it/java/rendering-3d-scenes/render-to-buffered-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendering di scene 3D in immagini memorizzate in buffer per un'ulteriore elaborazione in Java
+
 ## introduzione
 
 Benvenuti in questa guida passo passo sul rendering di scene 3D in immagini memorizzate utilizzando Aspose.3D per Java. Aspose.3D è una potente libreria Java che consente agli sviluppatori di lavorare con file e scene 3D, fornendo funzionalità versatili per il rendering e l'elaborazione. In questo tutorial, ci concentreremo sul rendering di scene 3D in immagini bufferizzate, aprendo possibilità per un'ulteriore elaborazione in Java.
@@ -106,3 +112,9 @@ Congratulazioni! Hai imparato con successo come utilizzare Aspose.3D per Java pe
 ### Q5: Sono disponibili opzioni di rendering aggiuntive?
 
  A5: Sì, esplora la documentazione Aspose.3D[Qui](https://reference.aspose.com/3d/java/) per informazioni complete sulle opzioni di rendering.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: قم بتطبيق إحداثيات الأشعة فوق البنفسجية
 linktitle: قم بتطبيق إحداثيات الأشعة فوق البنفسجية على الكائنات ثلاثية الأبعاد في Java باستخدام Aspose.3D
 second_title: Aspose.3D جافا API
 description: تعلم كيفية تطبيق إحداثيات الأشعة فوق البنفسجية على الكائنات ثلاثية الأبعاد في Java باستخدام Aspose.3D. ارفع مستوى رسوماتك باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 18
 url: /ar/java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتطبيق إحداثيات الأشعة فوق البنفسجية على الكائنات ثلاثية الأبعاد في Java باستخدام Aspose.3D
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول تطبيق إحداثيات الأشعة فوق البنفسجية على الكائنات ثلاثية الأبعاد في Java باستخدام Aspose.3D. في عالم الرسومات ثلاثية الأبعاد، تلعب إحداثيات الأشعة فوق البنفسجية دورًا حاسمًا في رسم خرائط للأنسجة على الأسطح، مما يعزز المظهر البصري لإبداعاتك. سيرشدك هذا البرنامج التعليمي خلال العملية، مع تفصيل كل خطوة لضمان تجربة تعليمية سلسة وفعالة.
@@ -104,3 +110,9 @@ System.out.println("\nUVs have been set up successfully on the cube.");
 ### س5: أين يمكنني شراء Aspose.3D؟
 
  ج5: لشراء Aspose.3D، قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nanášení materiálu na kostku
 linktitle: Nanášení materiálu na kostku
 second_title: Aspose.3D .NET API
 description: Prozkoumejte Aspose.3D for .NET, vaši bránu k bezproblémové manipulaci s 3D grafikou. Aplikujte materiály bez námahy, zvyšte realističnost a pozvedněte své projekty.
-type: docs
 weight: 14
 url: /cs/net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nanášení materiálu na kostku
+
 ## Úvod
 
 Vítejte ve fascinujícím světě manipulace s 3D grafikou pomocí Aspose.3D for .NET! V tomto tutoriálu se ponoříme do procesu nanášení materiálů na kostku ve vašich 3D scénách a přidáme zcela novou úroveň realismu a vizuální přitažlivosti vašim výtvorům.
@@ -136,3 +142,9 @@ Odpověď 3: Ano, Aspose.3D poskytuje komplexní podporu pro vytváření a mani
 ### Q5: Jak mohu získat podporu pro jakékoli problémy nebo dotazy?
 
  A5: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) spojit se s komunitou a vyhledat pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

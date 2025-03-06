@@ -3,10 +3,16 @@ title: Java 教程 - 使用 Aspose.3D 在 3D 网格中创建多边形
 linktitle: Java 教程 - 使用 Aspose.3D 在 3D 网格中创建多边形
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D for Java 释放 3D 图形的强大功能。轻松创建令人惊叹的多边形。立即下载以获得无缝的开发体验。
-type: docs
 weight: 10
 url: /zh/java/transforming-3d-meshes/create-polygons-in-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 教程 - 使用 Aspose.3D 在 3D 网格中创建多边形
+
 ## 介绍
 在 3D 图形的动态世界中，创建复杂且视觉上令人惊叹的对象的能力是开发人员的一项基本技能。 Aspose.3D for Java 提供了一个强大的工具包，可以轻松创建 3D 网格。在本教程中，我们将指导您完成使用 Aspose.3D for Java 在 3D 网格内创建多边形的过程。
 ## 先决条件
@@ -51,3 +57,9 @@ mesh.createPolygon(0, 1, 2, 3);
 是的，您可以通过访问来探索 Aspose.3D 的功能[免费试用](https://releases.aspose.com/).
 ### 5. 我在哪里可以寻求Aspose.3D的支持？
 如有任何疑问或帮助，请访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

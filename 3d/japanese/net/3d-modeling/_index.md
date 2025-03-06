@@ -3,10 +3,16 @@ title: モデリング
 linktitle: モデリング
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET で 3D モデリングの芸術を発見してください!この包括的なチュートリアルで、魅力的なプリミティブ モデルを簡単に作成できます。今日あなたの創造性を解き放ちましょう。
-type: docs
 weight: 28
 url: /ja/net/3d-modeling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# モデリング
+
 
 ## 導入
 
@@ -67,3 +73,9 @@ Aspose.3D は、パラメトリック 3D ジオメトリ シリンダーの作�
 ## 3D モデリングのチュートリアル
 ### [プリミティブ 3D モデルの作成](./primitive-3d-models/)
 Aspose.3D for .NET を使用して 3D モデリングの世界を探索してください。魅力的なプリミティブ モデルを簡単に作成できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Scène de lecture avec attributs
 linktitle: Scène de lecture avec attributs
 second_title: API Aspose.3D .NET
 description: Libérez la puissance de la modélisation 3D dans .NET avec Aspose.3D. Chargez, enregistrez et manipulez des scènes sans effort. Plongez dans le monde des possibilités illimitées.
-type: docs
 weight: 18
 url: /fr/net/loading-and-saving/rvm/read-existing-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Scène de lecture avec attributs
+
 ## Introduction
 
 Dans le paysage en constante évolution du graphisme et de la modélisation 3D, Aspose.3D pour .NET apparaît comme un outil puissant, offrant une intégration transparente et des fonctionnalités robustes aux développeurs. Ce didacticiel vous guidera tout au long du processus de lecture d'un fichier RVM, en se concentrant spécifiquement sur la lecture de ses attributs externes. Attachez votre ceinture et embarquez pour un voyage visant à exploiter les capacités d'Aspose.3D !
@@ -79,3 +85,9 @@ A4: You can acquire a temporary license [here](https://buy.aspose.com/temporary-
 ### Q5: Where can I purchase Aspose.3D for .NET?
 
 A5: Visit the [purchase page](https://buy.aspose.com/buy) pour acquérir la version complète d’Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

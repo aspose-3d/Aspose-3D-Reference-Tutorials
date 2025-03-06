@@ -3,10 +3,16 @@ title: Tworzenie i przekształcanie siatek 3D w Javie
 linktitle: Tworzenie i przekształcanie siatek 3D w Javie
 second_title: Aspose.3D API Java
 description: Odblokuj potencjał grafiki 3D dzięki Aspose.3D dla Java. Bez wysiłku twórz, przekształcaj i optymalizuj siatki. Zwiększ swoje doświadczenie w kodowaniu dzięki naszym samouczkom.
-type: docs
 weight: 31
 url: /pl/java/transforming-3d-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tworzenie i przekształcanie siatek 3D w Javie
+
 
 ## Wstęp
 
@@ -42,3 +48,9 @@ Ulepsz swoją grafikę 3D za pomocą Aspose.3D dla Java. Bez wysiłku generuj da
 Wyrusz w podróż do mistrzostwa grafiki 3D z Aspose.3D dla Java - bez wysiłku konwertuj prymitywy na hipnotyzujące siatki. Popraw swoje doświadczenie w kodowaniu już teraz!
 ### [Dostosuj układ pamięci dla siatek 3D w Javie](./customize-mesh-memory-layout/)
 Ulepsz swoje modelowanie 3D w Javie za pomocą Aspose.3D: dostosuj układ pamięci w celu uzyskania optymalnej wydajności. Skorzystaj już teraz z naszego przewodnika krok po kroku!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

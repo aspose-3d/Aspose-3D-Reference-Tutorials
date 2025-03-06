@@ -3,10 +3,16 @@ title: 使用 Aspose.3D SaveOptions 優化 Java 中的 3D 檔案保存
 linktitle: 使用 Aspose.3D SaveOptions 優化 Java 中的 3D 檔案保存
 second_title: Aspose.3D Java API
 description: 了解如何使用 Aspose.3D SaveOptions 優化 Java 中的 3D 檔案保存。輕鬆增強效能並自訂輸出。
-type: docs
 weight: 16
 url: /zh-hant/java/load-and-save/optimize-3d-file-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D SaveOptions 優化 Java 中的 3D 檔案保存
+
 ## 介紹
 
 Aspose.3D 是一個功能豐富的 Java 函式庫，可讓開發人員無縫地使用 3D 模型。在儲存 3D 檔案時，SaveOptions 類別提供了大量設定來根據您的要求微調輸出。在本教程中，我們將探討各種保存選項以及如何利用它們來優化流程。
@@ -119,3 +125,9 @@ A4：利用`setFileSystem(new DummyFileSystem())`方法中的`ObjSaveOptions`類
 ### Q5：有沒有辦法將依賴項儲存到 OBJ 檔案中的本機目錄？
 
  A5：是的，使用`setFileSystem(new LocalFileSystem(MyDir))`方法中的`ObjSaveOptions`類別在本地保存依賴項。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

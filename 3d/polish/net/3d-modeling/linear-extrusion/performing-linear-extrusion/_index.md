@@ -3,10 +3,16 @@ title: Wykonywanie wytłaczania liniowego
 linktitle: Wykonywanie wytłaczania liniowego
 second_title: Aspose.3D API .NET
 description: Poznaj świat grafiki 3D dzięki Aspose.3D dla .NET. Wykonywanie wytłaczania liniowego w tym przewodniku krok po kroku.
-type: docs
 weight: 12
 url: /pl/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wykonywanie wytłaczania liniowego
+
 ## Wstęp:
 
 Wyrusz w ekscytującą podróż do krainy grafiki 3D z Aspose.3D dla .NET, potężnym narzędziem, które podnosi poziom Twojej gry programistycznej. W tym samouczku zagłębimy się w zawiłości wytłaczania liniowego – fascynującej techniki, która tchnie życie w statyczne profile 2D, przenosząc je do dynamicznego świata 3D. Otwórzmy drzwi do kreatywności i innowacji, korzystając z Aspose.3D!
@@ -106,3 +112,9 @@ A1: Absolutnie! Aspose.3D oferuje przyjazne dla użytkownika środowisko, a nasz
 ### P5: Czy dostępny jest bezpłatny okres próbny?
 
  A5: Oczywiście! Pobierz bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/) aby na własnej skórze doświadczyć możliwości Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

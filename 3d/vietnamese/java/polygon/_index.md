@@ -3,10 +3,16 @@ title: Thao tác đa giác trong mô hình 3D với Java
 linktitle: Thao tác đa giác trong mô hình 3D với Java
 second_title: API Java Aspose.3D
 description: Khám phá kết xuất 3D hiệu quả trong Java với các hướng dẫn Aspose.3D. Chuyển đổi đa giác thành hình tam giác và tạo tọa độ UV để có hiệu suất tối ưu và lập bản đồ kết cấu nâng cao.
-type: docs
 weight: 27
 url: /vi/java/polygon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác đa giác trong mô hình 3D với Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với lĩnh vực phát triển Java 3D, nơi Aspose.3D chiếm vị trí trung tâm để nâng cao các dự án của bạn. Trong loạt bài hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của thao tác đa giác, tập trung vào hai khía cạnh quan trọng: chuyển đổi đa giác thành hình tam giác để hiển thị hiệu quả và tạo tọa độ UV để nâng cao ánh xạ kết cấu.
@@ -49,3 +55,9 @@ Tóm lại, Aspose.3D dành cho Java mở ra cánh cửa dẫn đến một th�
 Nâng cao kết xuất Java 3D với Aspose.3D. Tìm hiểu cách chuyển đổi đa giác thành hình tam giác để có hiệu suất tối ưu. Tải xuống ngay để có trải nghiệm phát triển 3D liền mạch.
 ### [Tạo tọa độ UV để lập bản đồ kết cấu trong mô hình Java 3D](./generate-uv-coordinates/)
 Tìm hiểu cách tạo tọa độ UV cho mô hình Java 3D bằng Aspose.3D. Nâng cao khả năng lập bản đồ kết cấu trong dự án của bạn với hướng dẫn từng bước này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

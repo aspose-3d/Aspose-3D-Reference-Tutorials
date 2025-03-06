@@ -3,10 +3,16 @@ title: 장면을 포인트 클라우드로 인코딩
 linktitle: 장면을 포인트 클라우드로 인코딩
 second_title: Aspose.3D .NET API
 description: Aspose.3D를 사용하여 .NET에서 3D 모델링의 세계를 탐험해보세요. 구를 포인트 클라우드로 쉽게 인코딩하는 방법을 알아보세요. 지금 창의력을 발휘해보세요!
-type: docs
 weight: 14
 url: /ko/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 장면을 포인트 클라우드로 인코딩
+
 ## 소개
 .NET용 Aspose.3D를 사용하여 구를 포인트 클라우드로 인코딩하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. Aspose.3D는 개발자가 .NET 애플리케이션에서 3D 모델을 원활하게 사용할 수 있도록 지원하는 강력하고 다재다능한 라이브러리입니다. 이 튜토리얼에서는 Aspose.3D를 사용하여 구를 포인트 클라우드로 인코딩하는 과정을 안내합니다.
 ## 전제 조건
@@ -60,3 +66,9 @@ FileFormat.Draco.Encode(sphere, outputPath + outputFileName, saveOptions);
  Aspose.3D 포럼을 방문하세요[여기](https://forum.aspose.com/c/3d/18) 커뮤니티 지원 및 토론을 위해.
 ### 테스트하려면 임시 라이센스가 필요합니까?
  예, 라이브러리를 테스트하는 경우 임시 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

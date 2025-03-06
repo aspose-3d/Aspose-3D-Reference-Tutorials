@@ -3,10 +3,16 @@ title: تويست أوفست في النتوء الخطي
 linktitle: تويست أوفست في النتوء الخطي
 second_title: Aspose.3D.NET API
 description: اكتشف سحر Aspose.3D لـ .NET من خلال دليلنا خطوة بخطوة حول Twist Offset في Linear Extrusion. ارفع مستوى مشروعاتك ثلاثية الأبعاد دون عناء.
-type: docs
 weight: 15
 url: /ar/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تويست أوفست في النتوء الخطي
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.3D for .NET، وهي مكتبة متعددة الاستخدامات تمكن المطورين من التعامل مع المعالجة ثلاثية الأبعاد بسهولة. في هذا البرنامج التعليمي، سوف نتعمق في إحدى الميزات المثيرة للاهتمام - "Twist Offset in Linear Extrusion". إذا كنت مستعدًا لرفع مستوى مهاراتك في البرمجة ثلاثية الأبعاد، فلنتعمق في الأمر!
@@ -112,3 +118,9 @@ scene.Save("Your Output Directory" + "TwistOffsetInLinearExtrusion.obj", FileFor
 ### س5: أين يمكنني شراء Aspose.3D لـ .NET؟
 
  ج5: توجه إلى[هذا الرابط](https://purchase.aspose.com/buy) لإجراء عملية شراء وفتح الإمكانات الكاملة لـ Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 3D 장면에서 좌표계 뒤집기
 linktitle: 3D 장면에서 좌표계 뒤집기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 장면에서 좌표계를 뒤집는 기술을 마스터하세요. 원활한 구현을 위해 단계별 가이드를 따르세요.
-type: docs
 weight: 12
 url: /ko/net/3d-scene/flip-coordinate-system/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D 장면에서 좌표계 뒤집기
+
 ## 소개
 
 .NET용 Aspose.3D를 사용하여 3D 장면에서 좌표계를 뒤집는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 장면에서 좌표계를 조작하려는 개발자나 3D 애호가라면 잘 찾아오셨습니다. 이 튜토리얼에서는 이 기능을 원활하게 구현할 수 있도록 프로세스를 안내합니다.
@@ -91,3 +97,9 @@ A1: .NET용 Aspose.3D는 주로 C# 프로그래밍용으로 설계되었습니�
 ### Q5: Aspose.3D for .NET과 관련된 지원을 받거나 질문을 할 수 있는 곳은 어디입니까?
 
  A5: Aspose 커뮤니티 포럼[여기](https://forum.aspose.com/c/3d/18) 지원과 토론을 위한 이상적인 장소입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

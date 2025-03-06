@@ -3,10 +3,16 @@ title: Konwersja prymitywu parametrycznego na siatkę
 linktitle: Konwersja prymitywu parametrycznego na siatkę
 second_title: Aspose.3D API .NET
 description: Poznaj moc Aspose.3D dla .NET! Bez wysiłku konwertuj parametryczne prymitywy na wszechstronną siatkę. Podnieś poziom swojej gry graficznej 3D już dziś.
-type: docs
 weight: 12
 url: /pl/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwersja prymitywu parametrycznego na siatkę
+
 ## Wstęp
 
 Aspose.3D zapewnia bogaty zestaw prymitywnych kształtów, w tym pudełka, płaszczyzny, tori, kule, cylindry, piramidy i inne. Te prymitywy są definiowane przez ich parametry, co czyni je bardzo wszechstronnymi w modelowaniu proceduralnym. Dostosowując parametry programowo, można tworzyć szeroką gamę modeli 3D przy minimalnej ilości kodu.
@@ -73,3 +79,9 @@ Tak, Aspose.3D obsługuje szeroką gamę frameworków .NET, zapewniając kompaty
  Tak, poznaj Aspose.3D za pomocą[bezpłatna wersja próbna](https://releases.aspose.com/) aby doświadczyć jego możliwości przed podjęciem zobowiązania.
 ### Czy mogę uzyskać tymczasową licencję do celów testowych?
  Tak, zabezpiecz[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do kompleksowej oceny Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 선형 돌출의 슬라이스
 linktitle: 선형 돌출의 슬라이스
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 디자인의 세계를 탐험해보세요. 선형 압출 튜토리얼을 사용하여 멋진 모델을 만들어 보세요.
-type: docs
 weight: 13
 url: /ko/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 선형 돌출의 슬라이스
+
 ## 소개
 
 .NET용 Aspose.3D를 사용하여 3D 디자인의 세계에 오신 것을 환영합니다! 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 튜토리얼은 강력한 Aspose.3D 라이브러리를 사용하여 멋진 3D 시각화를 만드는 과정을 안내합니다.
@@ -116,3 +122,9 @@ A1: Aspose.3D는 기본적으로 .NET용으로 설계되었지만 .NET 바인딩
 ### Q5: .NET용 Aspose.3D의 임시 라이선스를 사용할 수 있나요?
 
  A5: 네, 임시 라이센스를 취득하세요[여기](https://purchase.aspose.com/temporary-license/) 평가 목적으로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

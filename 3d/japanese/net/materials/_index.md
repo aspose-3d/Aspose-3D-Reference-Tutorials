@@ -3,10 +3,16 @@ title: 材料
 linktitle: 材料
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET チュートリアルを使用して、魅力的な 3D シーンの世界を解き放ちましょう。見事なシーンを作成し、埋め込まれたテクスチャを簡単に探索する方法を学びましょう。
-type: docs
 weight: 28
 url: /ja/net/materials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 材料
+
 ## 導入
 
 3D デザインとビジュアライゼーションのエキサイティングな領域への旅に乗り出す準備はできていますか? Aspose.3D for .NET は、創造性に限界のない世界への扉を開きます。この記事では、この強力な .NET ライブラリの新しい側面を明らかにする一連のチュートリアルを紹介します。
@@ -31,3 +37,9 @@ url: /ja/net/materials/
 Aspose.3D for .NET を使用して、テクスチャが埋め込まれた魅力的な 3D シーンを作成します。素晴らしい結果を得るには、ステップバイステップのガイドに従ってください。
 ### [埋め込みテクスチャのダンプ](./dump-embedded-textures/)
 Aspose.3D for .NET を使用して、3D モデルに埋め込まれたテクスチャの秘密を解き明かしましょう。シームレスな統合のためのステップバイステップのガイドをご覧ください。今すぐ無料トライアルをダウンロードしてください!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

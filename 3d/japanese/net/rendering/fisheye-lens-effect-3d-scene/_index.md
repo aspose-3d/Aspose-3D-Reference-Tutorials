@@ -3,10 +3,16 @@ title: Aspose.3D for .NET を使用した魚眼レンズ効果の適用
 linktitle: 3D シーンに魚眼レンズ効果を適用する
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D シーンを強化しましょう!魅惑的な魚眼レンズ効果を段階的に適用する方法を学びましょう。ダウンロード中！
-type: docs
 weight: 12
 url: /ja/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for .NET を使用した魚眼レンズ効果の適用
+
 ## 導入
 3D シーンの視覚的な魅力を強化したいと考えていますか? Aspose.3D for .NET を使用して、魚眼レンズ エフェクトの魅力的な世界に飛び込んでください。このチュートリアルでは、3D シーンに魚眼レンズ エフェクトを適用して、ユニークで魅力的な視点を与える方法を段階的に説明します。
 ## 前提条件
@@ -77,3 +83,9 @@ renderer.Execute(fisheye, final);
 3D シーンのサイズは主にシステム リソースによって制限されます。ハードウェアがシーンのサイズを処理できることを確認してください。
 ### 魚眼効果の結果に PNG の代わりに別の出力形式を使用できますか?
 はい、コードを変更して、要件に基づいて出力をさまざまな画像形式で保存できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

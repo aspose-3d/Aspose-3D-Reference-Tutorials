@@ -3,10 +3,16 @@ title: Requêtes d'objets de type XPath
 linktitle: Requêtes d'objets de type XPath
 second_title: API Aspose.3D .NET
 description: Libérez la puissance d'Aspose.3D pour .NET ! Manipulez en toute transparence des graphiques 3D avec des requêtes de type XPath. Téléchargez-le maintenant pour une expérience qui change la donne.
-type: docs
 weight: 24
 url: /fr/net/geometry-and-hierarchy/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Requêtes d'objets de type XPath
+
 ## Introduction
 Se lancer dans un voyage pour libérer tout le potentiel d’Aspose.3D pour .NET ouvre les portes d’un royaume de possibilités en matière de manipulation graphique 3D. Que vous soyez un développeur chevronné ou un nouveau venu, ce guide vous guidera à travers les nuances de l'exploitation des capacités d'Aspose.3D.
 ## Conditions préalables
@@ -94,3 +100,9 @@ La version d'essai gratuite est livrée avec des fonctionnalités limitées. Con
  Visiter le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien de la communauté.
 ### Quels avantages Aspose.3D offre-t-il par rapport aux autres bibliothèques 3D pour .NET ?
 Aspose.3D fournit un ensemble complet de fonctionnalités, notamment des requêtes d'objets puissantes et des capacités de rendu robustes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java에서 애니메이션 작업
 linktitle: Java에서 애니메이션 작업
 second_title: Aspose.3D 자바 API
 description: Aspose.3D 튜토리얼을 통해 Java 3D 프로젝트를 향상하세요! 매력적인 3D 개발을 위해 애니메이션 속성을 추가하고 대상 카메라를 원활하게 설정하는 방법을 알아보세요.
-type: docs
 weight: 20
 url: /ko/java/animations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 애니메이션 작업
+
 ## 소개
 
 Java 기반 3D 프로젝트의 흥미로운 영역을 탐구하는 Java 자습서용 Aspose.3D에 오신 것을 환영합니다. 이 시리즈에서는 애니메이션을 마스터링하여 창작물에 생동감과 역동성을 부여하는 데 중점을 둡니다. Aspose.3D를 사용하여 3D 애니메이션 영역을 통해 스릴 넘치는 여행을 시작하면서 안전벨트를 매세요!
@@ -30,3 +36,9 @@ Java 튜토리얼용 Aspose.3D에 푹 빠져서 3D 프로젝트를 역동적이�
 Aspose.3D로 Java 기반 3D 프로젝트를 향상하세요. 튜토리얼을 따라 애니메이션 속성을 원활하게 추가하세요.
 ### [Java에서 3D 애니메이션용 대상 카메라 설정 | Aspose.3D 튜토리얼](./set-up-target-camera/)
 Aspose.3D를 사용하여 Java 3D 애니메이션을 손쉽게 탐색해 보세요. 단계별 가이드를 보려면 튜토리얼을 따르세요. 매력적인 3D 개발 여정을 위해 지금 다운로드하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

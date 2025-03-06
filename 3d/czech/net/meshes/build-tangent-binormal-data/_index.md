@@ -3,10 +3,16 @@ title: Budování tečných a binormálních dat
 linktitle: Budování tečných a binormálních dat
 second_title: Aspose.3D .NET API
 description: Uvolněte sílu tečných a binormálních dat a optimalizujte své 3D modely pro hladší vykreslování, rychlejší načítání a zvýšení výkonu.
-type: docs
 weight: 10
 url: /cs/net/meshes/build-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Budování tečných a binormálních dat
+
 ## Úvod
 Cítili jste někdy frustraci z pomalého 3D modelu, který uvízl ve vašem projektu? Nedělejte si starosti, kolego vývojáři, protože tajemství hladké plavby spočívá v tečných a binormálních datech. Tito neopěvovaní hrdinové optimalizují vykreslování sítě, díky čemuž budou vaše modely zpívat jako operní divy na jakémkoli pódiu. Ale jak využijeme jejich sílu? Nebojte se, protože tento komplexní průvodce vás vybaví sadou nástrojů Aspose.3D for .NET, která vám umožní odemknout kouzlo tečných a binormálních dat jen několika kliknutími!
 
@@ -85,3 +91,9 @@ Aspose.3D podporuje četné formáty jako OBJ, STL a glTF. Před pokračováním
  Aspose.3D má komplexní dokumentační portál na adrese[tady](https://docs.aspose.com/3d/net/) Navíc komunitní fórum Aspose na adrese[tady](https://forum.aspose.com/) je vždy plná užitečných vývojářů.
 ### Mohu použít Aspose.3D pro komerční projekty? 
  Ano! Aspose.3D nabízí různé možnosti licencování, aby vyhovovaly vašim potřebám. Podívejte se na jejich ceník na[tady](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

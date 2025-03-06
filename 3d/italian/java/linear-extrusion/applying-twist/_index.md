@@ -3,10 +3,16 @@ title: Applicazione di Twist nell'estrusione lineare con Aspose.3D per Java
 linktitle: Applicazione di Twist nell'estrusione lineare con Aspose.3D per Java
 second_title: API Java Aspose.3D
 description: Scopri come aggiungere una svolta ai tuoi modelli 3D utilizzando Aspose.3D per Java. Segui la nostra guida passo passo per effetti di estrusione lineare migliorati.
-type: docs
 weight: 14
 url: /it/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applicazione di Twist nell'estrusione lineare con Aspose.3D per Java
+
 ## introduzione
 
 Benvenuti in questo tutorial passo passo sull'applicazione di una svolta nell'estrusione lineare utilizzando Aspose.3D per Java. Aspose.3D è una potente libreria Java che consente agli sviluppatori di lavorare con formati di file 3D, offrendo robuste funzionalità per la creazione, la manipolazione e il rendering di scene 3D. In questo tutorial esploreremo come applicare un effetto di torsione durante il processo di estrusione lineare per migliorare i tuoi modelli 3D.
@@ -119,3 +125,9 @@ A1: Sì, Aspose.3D supporta vari formati di file 3D, consentendo di importare, e
 ### Q5: Dove posso acquistare Aspose.3D per Java?
 
  A5: Acquista Aspose.3D per Java da[pagina di acquisto](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تطور في النتوء الخطي
 linktitle: تطور في النتوء الخطي
 second_title: Aspose.3D.NET API
 description: استكشف العالم الساحر للرسومات ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. تعلم خطوة بخطوة النتوء الخطي مع الالتواء.
-type: docs
 weight: 14
 url: /ar/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطور في النتوء الخطي
+
 ## مقدمة
 
 في عالم تطوير .NET دائم التطور، يعد تسخير قوة الرسومات ثلاثية الأبعاد بمثابة مسعى مثير. يظهر Aspose.3D for .NET كمجموعة أدوات قيمة، تمكن المطورين من إنشاء تطبيقات غامرة ومذهلة بصريًا بسلاسة. في هذا الدليل الشامل، سوف نتعمق في ميزة واحدة مثيرة للاهتمام - البثق الخطي مع الالتواء. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة، مما يفتح إمكانات Aspose.3D لـ .NET.
@@ -118,3 +124,9 @@ A3: على الرغم من أن العدد الأكبر من الشرائح يض
 ### س5: هل يوجد مجتمع لدعم ومناقشات Aspose.3D؟
 
  ج5: نعم، انضم إلى مجتمع Aspose.3D على[منتدى أسبوز](https://forum.aspose.com/c/3d/18) للحصول على الدعم والمناقشات الجذابة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

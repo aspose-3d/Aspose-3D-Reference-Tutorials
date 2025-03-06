@@ -3,10 +3,16 @@ title: ถอดรหัสตาข่าย
 linktitle: ถอดรหัสตาข่าย
 second_title: Aspose.3D .NET API
 description: ถอดรหัส mesh ได้อย่างง่ายดายด้วย Aspose.3D สำหรับ .NET ประตูสู่การเขียนโปรแกรม 3 มิติที่ราบรื่น สำรวจ ปรับแต่ง และยกระดับโครงการของคุณ
-type: docs
 weight: 10
 url: /th/net/loading-and-saving/draco/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ถอดรหัสตาข่าย
+
 ## การแนะนำ
 ลองนึกภาพสิ่งนี้: คุณอยู่ในขอบเขตของการพัฒนา 3 มิติ โดยมุ่งมั่นที่จะถอดรหัสโครงสร้างตาข่ายที่ซับซ้อน ความท้าทายมีจริง แต่อย่ากลัว! ในขณะที่เราเริ่มต้นการเดินทางนี้ เราจะนำทางเขาวงกตของการถอดรหัสแบบ mesh โดยใช้ Aspose.3D สำหรับ .NET ซึ่งเป็นคู่หูที่คุณไว้วางใจในโลกแห่งการเขียนโปรแกรม 3 มิติ
 ## ข้อกำหนดเบื้องต้น
@@ -55,3 +61,9 @@ var pointCloud = (PointCloud)FileFormat.Draco.Decode("Your Document Directory" +
  แน่นอน! คว้าของคุณ[ทดลองฟรี](https://releases.aspose.com/) เพื่อสัมผัสประสบการณ์อันทรงพลังของ Aspose.3D ก่อนที่จะตัดสินใจใดๆ
 ### ต้องการใบอนุญาตชั่วคราวสำหรับโครงการระยะสั้นหรือไม่?
  มุ่งหน้าไป[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) และรับใบอนุญาตชั่วคราวที่ปรับให้เหมาะกับความต้องการของโครงการของคุณ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

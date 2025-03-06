@@ -3,10 +3,16 @@ title: पैरामीट्रिक आदिम को मेष में
 linktitle: पैरामीट्रिक आदिम को मेष में परिवर्तित करना
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D की शक्ति का अन्वेषण करें! पैरामीट्रिक प्रिमिटिव को आसानी से बहुमुखी मेष में परिवर्तित करें। आज ही अपने 3डी ग्राफ़िक्स गेम को उन्नत करें।
-type: docs
 weight: 12
 url: /hi/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# पैरामीट्रिक आदिम को मेष में परिवर्तित करना
+
 ## परिचय
 
 Aspose.3D आदिम आकृतियों का एक समृद्ध सेट प्रदान करता है, जिसमें बक्से, विमान, तोरी, गोले, सिलेंडर, पिरामिड और बहुत कुछ शामिल हैं। इन आदिमों को उनके मापदंडों द्वारा परिभाषित किया जाता है, जो उन्हें प्रक्रियात्मक मॉडलिंग के लिए अत्यधिक बहुमुखी बनाता है। मापदंडों को प्रोग्रामेटिक रूप से समायोजित करके, आप न्यूनतम कोड के साथ विभिन्न प्रकार के 3D मॉडल बना सकते हैं।
@@ -73,3 +79,9 @@ Console.WriteLine("\nConverted the primitive Box to a mesh successfully.\nFile s
  हाँ, Aspose.3D के साथ अन्वेषण करें[मुफ्त परीक्षण](https://releases.aspose.com/) प्रतिबद्धता बनाने से पहले इसकी क्षमताओं का अनुभव करना।
 ### क्या मैं परीक्षण प्रयोजनों के लिए अस्थायी लाइसेंस प्राप्त कर सकता हूँ?
  हाँ, सुरक्षित ए[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) Aspose.3D का व्यापक मूल्यांकन करना।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

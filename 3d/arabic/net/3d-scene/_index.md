@@ -3,10 +3,16 @@ title: مشهد ثلاثي الأبعاد
 linktitle: مشهد ثلاثي الأبعاد
 second_title: Aspose.3D.NET API
 description: استكشف دروس Aspose.3D for .NET حول تغيير اتجاه المستوى، وتصدير المشاهد إلى تنسيق AMF المضغوط، وقلب أنظمة الإحداثيات، والمزيد.
-type: docs
 weight: 21
 url: /ar/net/3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مشهد ثلاثي الأبعاد
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.3D لـ .NET، حيث يلتقي الإبداع بالدقة. في هذه السلسلة التعليمية، نتعمق في تعقيدات معالجة المشهد ثلاثي الأبعاد، ونقدم أدلة خطوة بخطوة لتعزيز براعتك في التطوير.
@@ -37,3 +43,9 @@ url: /ar/net/3d-scene/
 [اقرأ البرنامج التعليمي: ضبط الخصائص ثلاثية الأبعاد في المشاهد ثلاثية الأبعاد](./set-3d-properties/)
 
 في الختام، تفتح سلسلة دروس Aspose.3D for .NET الأبواب أمام عالم من الاحتمالات. يوفر كل برنامج تعليمي رؤى عملية، مما يتيح لك التنقل عبر تعقيدات معالجة المشهد ثلاثي الأبعاد بثقة. سواء كنت مطورًا متمرسًا أو بدأت للتو، فإن هذه الأدلة تمكّنك من إطلاق العنان للإمكانات الكاملة لـ Aspose.3D for .NET في مشروعاتك. انغمس ودع إبداعك يرتفع في الفضاء ثلاثي الأبعاد!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

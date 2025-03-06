@@ -3,10 +3,16 @@ title: Lavora con proprietà 3D e dati personalizzati nelle scene Java utilizzan
 linktitle: Lavora con proprietà 3D e dati personalizzati nelle scene Java utilizzando Aspose.3D
 second_title: API Java Aspose.3D
 description: Migliora le tue applicazioni Java con Aspose.3D per una manipolazione perfetta delle proprietà 3D. Segui il nostro tutorial per una guida passo passo.
-type: docs
 weight: 14
 url: /it/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lavora con proprietà 3D e dati personalizzati nelle scene Java utilizzando Aspose.3D
+
 ## introduzione
 
 Benvenuti nella guida completa su come lavorare con proprietà 3D e dati personalizzati nelle scene Java utilizzando Aspose.3D. In questo tutorial, approfondiremo le potenti funzionalità di Aspose.3D, fornendo una guida passo passo sulla manipolazione delle proprietà 3D all'interno delle tue applicazioni Java.
@@ -124,3 +130,9 @@ A4: Sì, visita il[Forum di supporto Aspose.3D](https://forum.aspose.com/c/3d/18
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.3D?
 
  R5: Puoi acquisire una licenza temporanea visitando[questo link](https://purchase.aspose.com/temporary-license/) sul sito di Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

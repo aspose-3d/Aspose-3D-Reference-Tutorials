@@ -3,10 +3,16 @@ title: Делитесь данными геометрии сетки в Java 3D 
 linktitle: Делитесь данными геометрии сетки в Java 3D с помощью Aspose.3D
 second_title: Aspose.3D Java API
 description: Исследуйте чудеса Java 3D с помощью Aspose.3D. Узнайте, как легко обмениваться данными геометрии сетки между узлами, в этом подробном руководстве.
-type: docs
 weight: 15
 url: /ru/java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Делитесь данными геометрии сетки в Java 3D с помощью Aspose.3D
+
 ## Введение
 
 Отправляясь в мир Java 3D с помощью Aspose.3D, вы открываете мир возможностей для создания потрясающих визуализаций и захватывающих впечатлений. В этом уроке мы проведем вас через процесс обмена данными геометрии сетки в Java 3D с использованием Aspose.3D. Внимательно выполняйте каждый шаг, и к концу вы сможете беспрепятственно обмениваться данными сетки между несколькими узлами.
@@ -117,3 +123,9 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 ### В5: Как мне получить временную лицензию на Aspose.3D?
 
  A5: Вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

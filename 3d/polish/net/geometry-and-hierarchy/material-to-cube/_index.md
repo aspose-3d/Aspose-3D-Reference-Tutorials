@@ -3,10 +3,16 @@ title: Nakładanie materiału na kostkę
 linktitle: Nakładanie materiału na kostkę
 second_title: Aspose.3D API .NET
 description: Poznaj Aspose.3D dla .NET, swoją bramę do płynnej manipulacji grafiką 3D. Bez wysiłku stosuj materiały, zwiększ realizm i podnieś poziom swoich projektów.
-type: docs
 weight: 14
 url: /pl/net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nakładanie materiału na kostkę
+
 ## Wstęp
 
 Witamy w fascynującym świecie manipulacji grafiką 3D przy użyciu Aspose.3D dla .NET! W tym samouczku zagłębimy się w proces nakładania materiałów na sześcian w scenach 3D, dodając do Twoich dzieł zupełnie nowy poziom realizmu i atrakcyjności wizualnej.
@@ -136,3 +142,9 @@ O3: Tak, Aspose.3D zapewnia kompleksową obsługę tworzenia i manipulowania ani
 ### P5: Jak mogę uzyskać pomoc w przypadku jakichkolwiek problemów lub zapytań?
 
  A5: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) nawiązać kontakt ze społecznością i poprosić o pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

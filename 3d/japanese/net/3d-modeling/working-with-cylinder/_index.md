@@ -3,10 +3,16 @@ title: カスタマイズされたシャーボトムシリンダー
 linktitle: カスタマイズされたシャーボトムシリンダー
 second_title: Aspose.3D .NET API
 description: 詳細なステップバイステップ ガイドで、Aspose.3D for .NET を使用してカスタマイズされたシア ボトム シリンダーを作成する方法を学びます。今すぐ 3D モデリングのスキルを向上させましょう!
-type: docs
 weight: 12
 url: /ja/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# カスタマイズされたシャーボトムシリンダー
+
 ## 導入
 Aspose.3D for .NET を使用してカスタマイズされたシリンダーを作成するための包括的なガイドへようこそ。 3D モデリングのスキルを向上させ、プロジェクトに独自の機能を追加したい場合は、ここが最適な場所です。このチュートリアルでは、明確な説明とコード スニペットを使用して、プロセスを段階的に説明します。
 ## 前提条件
@@ -83,3 +89,9 @@ scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
 訪問[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)コミュニティのサポートとディスカッションのために。
 ### 仮免許はどうやって取得できますか?
 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

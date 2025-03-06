@@ -3,10 +3,16 @@ title: Transformación de nodo por matriz de transformación
 linktitle: Transformación de nodo por matriz de transformación
 second_title: Aspose.3D API .NET
 description: Transforme nodos sin esfuerzo en escenas 3D usando Aspose.3D para .NET. Aprenda las transformaciones de nodos paso a paso con un tutorial.
-type: docs
 weight: 21
 url: /es/net/geometry-and-hierarchy/transformation-node-matrix/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformación de nodo por matriz de transformación
+
 ## Introducción
 
 En el ámbito dinámico de las visualizaciones y gráficos 3D, la capacidad de manipular objetos dentro de una escena es un aspecto crucial. Aspose.3D para .NET permite a los desarrolladores transformar nodos sin problemas utilizando matrices de transformación, agregando una capa de creatividad y control a las escenas 3D. Este tutorial lo guiará a través del proceso de transformar un nodo en una escena 3D paso a paso.
@@ -112,3 +118,9 @@ R2: Sí, puedes combinar múltiples transformaciones multiplicando sus respectiv
 ### P5: ¿Dónde puedo buscar ayuda o conectarme con la comunidad Aspose.3D?
 
  A5: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para hacer preguntas, compartir experiencias y conectarse con otros desarrolladores que utilizan Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

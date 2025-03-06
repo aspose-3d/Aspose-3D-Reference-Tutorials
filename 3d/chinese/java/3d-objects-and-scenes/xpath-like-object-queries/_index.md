@@ -3,10 +3,16 @@ title: 在 Java 中将类似 XPath 的查询应用于 3D 对象
 linktitle: 在 Java 中将类似 XPath 的查询应用于 3D 对象
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 轻松掌握 Java 中的 3D 对象查询。应用类似 XPath 的查询、操作场景并提升您的 3D 开发。
-type: docs
 weight: 11
 url: /zh/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中将类似 XPath 的查询应用于 3D 对象
+
 ## 介绍
 
 深入研究 Java 中的 3D 建模和场景操作领域可能是一项艰巨的任务，但不要害怕！ Aspose.3D for Java 提供了处理 3D 对象的强大解决方案，使其成为开发人员的宝贵工具。在本教程中，我们将指导您使用 Aspose.3D 在 Java 中对 3D 对象应用类似 XPath 的查询。
@@ -99,3 +105,9 @@ A4：访问支持论坛[这里](https://forum.aspose.com/c/3d/18).
 ### Q5: 需要临时许可证吗？
 
  A5：获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

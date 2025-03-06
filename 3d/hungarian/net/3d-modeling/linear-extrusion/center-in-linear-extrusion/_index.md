@@ -3,10 +3,16 @@ title: Középpontja a lineáris extrudálásban
 linktitle: Középpontja a lineáris extrudálásban
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D modellezés világát az Aspose.3D for .NET segítségével. Középre állítsa a lineáris extrudálási technikákat, készítsen lenyűgöző terveket, és engedje szabadjára kreativitását.
-type: docs
 weight: 10
 url: /hu/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Középpontja a lineáris extrudálásban
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó útmutatóban a lineáris extrudálás elsajátításáról az Aspose.3D for .NET használatával. Ha 3D modellezési készségeit szeretné fejleszteni, és lenyűgöző extrudálásokat szeretne készíteni, akkor jó helyen jár. Ebben az oktatóanyagban a lineáris extrudálási technikával foglalkozunk, különös tekintettel a központosítási szempontra, hogy a terveket egy teljesen új szintre emeljük.
@@ -109,3 +115,10 @@ Gratulálunk! Sikeresen elsajátította a lineáris extrudálás művészetét a
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.3D for .NET licencet?
 
  V5: Vásárolja meg a licencét[itt](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

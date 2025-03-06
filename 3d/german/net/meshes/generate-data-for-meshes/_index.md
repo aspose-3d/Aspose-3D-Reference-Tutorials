@@ -3,10 +3,16 @@ title: Generieren von Normaldaten für Netze
 linktitle: Generieren von Normaldaten für Netze
 second_title: Aspose.3D .NET API
 description: Verbessern Sie 3D-Modelle mit Aspose.3D für .NET! Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie normale Daten für Netze generieren. Realismus trifft auf Einfachheit.
-type: docs
 weight: 20
 url: /de/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generieren von Normaldaten für Netze
+
 ## Einführung
 Willkommen bei dieser Schritt-für-Schritt-Anleitung zum Generieren normaler Daten für Netze mit Aspose.3D für .NET! Wenn Sie mit 3D-Modellen arbeiten und die visuelle Attraktivität durch das Hinzufügen normaler Daten verbessern möchten, ist dieses Tutorial genau das Richtige für Sie. Aspose.3D ist eine leistungsstarke .NET-Bibliothek, die die 3D-Grafikprogrammierung vereinfacht. In diesem Handbuch führen wir Sie durch den Prozess der Generierung normaler Daten für Netze.
 ## Voraussetzungen
@@ -66,3 +72,9 @@ Ja, Aspose.3D unterstützt verschiedene 3D-Formate, darunter FBX, STL und mehr. 
  Die umfassende Dokumentation liegt vor[Hier](https://reference.aspose.com/3d/net/).
 ### Was passiert, wenn ich eine Lizenz für Aspose.3D erwerben muss?
  Sie können eine Lizenz bei kaufen[Kaufseite](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

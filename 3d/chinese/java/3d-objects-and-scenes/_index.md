@@ -3,10 +3,16 @@ title: 在 Java 中操作 3D 对象和场景
 linktitle: 在 Java 中操作 3D 对象和场景
 second_title: Aspose.3D Java API
 description: 通过 Aspose.3D 教程解锁 Java 3D 编程的世界。了解如何修改球体半径并轻松应用类似 XPath 的查询以实现无缝 3D 开发。
-type: docs
 weight: 33
 url: /zh/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中操作 3D 对象和场景
+
 ## 介绍
 
 通过 Aspose.3D 教程，Java 3D 编程成为一段迷人的旅程，重点关注操作 3D 对象和场景。在本文中，我们将深入研究两个有望提高您的 3D 开发技能的基本教程。
@@ -27,3 +33,9 @@ url: /zh/java/3d-objects-and-scenes/
 使用 Aspose.3D 探索 Java 3D 编程，轻松修改球体半径。立即下载以获得无缝的 3D 开发体验。
 ### [在 Java 中将类似 XPath 的查询应用于 3D 对象](./xpath-like-object-queries/)
 使用 Aspose.3D 轻松掌握 Java 中的 3D 对象查询。应用类似 XPath 的查询、操作场景并提升您的 3D 开发。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Applying Visual Effects in 3D Viewports
 linktitle: Applying Visual Effects in 3D Viewports
 second_title: Aspose.3D .NET API
 description: Explore the world of 3D visualization with Aspose.3D for .NET. Learn to apply captivating visual effects to your scenes using step-by-step tutorials. Elevate your projects with pixelation, grayscale, edge detection, and blur effects.
-type: docs
 weight: 10
 url: /net/rendering/apply-visual-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applying Visual Effects in 3D Viewports
+
 ## Introduction
 
 Enhancing the visual appeal of 3D scenes is a crucial aspect of creating immersive experiences. Aspose.3D for .NET provides a powerful set of tools to apply visual effects to 3D viewports. In this tutorial, we'll walk through the process of applying various effects to a 3D scene, including pixelation, grayscale, edge detection, and blur.
@@ -179,3 +185,10 @@ A4: Aspose.3D provides a variety of built-in post-processing effects, and you ca
 ### Q5: Can I use Aspose.3D for commercial projects?
 
 A5: Yes, you can use Aspose.3D for commercial purposes. Refer to the [purchase page](https://purchase.aspose.com/buy) for licensing details.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

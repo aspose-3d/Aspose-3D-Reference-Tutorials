@@ -3,10 +3,16 @@ title: Impostazione di target e telecamere per l'animazione in scene 3D
 linktitle: Impostazione di target e telecamere per l'animazione in scene 3D
 second_title: API Aspose.3D .NET
 description: Sblocca la magia dell'animazione 3D con Aspose.3D per .NET. Configura facilmente target e fotocamere utilizzando questo tutorial completo.
-type: docs
 weight: 11
 url: /it/net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Impostazione di target e telecamere per l'animazione in scene 3D
+
 ## introduzione
 
 L'impostazione di target e telecamere costituisce la base di qualsiasi progetto di animazione 3D. Aspose.3D per .NET offre un robusto set di strumenti per semplificare questo processo, consentendo agli sviluppatori di liberare la propria creatività. Questo tutorial ti guiderà attraverso i passaggi, analizzando le complessità e rendendo più gestibile il compito apparentemente arduo.
@@ -103,3 +109,9 @@ R4: Sì, puoi esplorare una prova gratuita[Qui](https://releases.aspose.com/).
 ### Q5: Come posso ottenere una licenza temporanea?
 
  A5: ottieni una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Загрузка и сохранение
 linktitle: Загрузка и сохранение
 second_title: Aspose.3D .NET API
 description: Улучшите свою игру по 3D-моделированию с помощью Aspose.3D для .NET! Освойте эффективные методы загрузки и сохранения с помощью CancellationToken. Исследуйте сейчас!
-type: docs
 weight: 27
 url: /ru/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Загрузка и сохранение
+
 ## Введение
 
 Погрузитесь в захватывающую сферу 3D-моделирования с помощью Aspose.3D для .NET, вашего шлюза к беспрепятственному и эффективному манипулированию 3D-документами. В этой серии руководств мы рассмотрим тонкости загрузки и сохранения 3D-моделей, открывая мир творческих возможностей.
@@ -105,3 +111,9 @@ url: /ru/net/loading-and-saving/
 ### Загрузка встроенных текстур из USDZ в память
 
 Доступ к встроенным данным текстур в файлах USDZ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

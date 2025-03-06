@@ -3,10 +3,16 @@ title: Malla Trianguladora
 linktitle: Malla Trianguladora
 second_title: Aspose.3D API .NET
 description: Explore el poder de Aspose.3D para .NET en esta guía paso a paso. Aprenda a triangular sin esfuerzo mallas 3D para un modelado mejorado.
-type: docs
 weight: 22
 url: /es/net/geometry-and-hierarchy/triangulate-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Malla Trianguladora
+
 ## Introducción
 
 Bienvenido a este completo tutorial sobre cómo triangular mallas en escenas 3D usando Aspose.3D para .NET. Aspose.3D es una poderosa biblioteca que permite a los desarrolladores .NET trabajar sin problemas con archivos 3D, ofreciendo una amplia gama de funcionalidades para crear, manipular y convertir modelos 3D.
@@ -102,3 +108,10 @@ R2: Absolutamente. Aspose.3D se puede integrar perfectamente en aplicaciones web
 ### P5: ¿Puedo probar Aspose.3D gratis antes de comprarlo?
 
  R5: ¡Por supuesto! Puedes descargar una versión de prueba gratuita.[aquí](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

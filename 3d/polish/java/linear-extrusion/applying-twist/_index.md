@@ -3,10 +3,16 @@ title: Stosowanie skrętu w wytłaczaniu liniowym za pomocą Aspose.3D dla Java
 linktitle: Stosowanie skrętu w wytłaczaniu liniowym za pomocą Aspose.3D dla Java
 second_title: Aspose.3D API Java
 description: Dowiedz się, jak dodać zwrot akcji do swoich modeli 3D za pomocą Aspose.3D dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać ulepszone efekty wytłaczania liniowego.
-type: docs
 weight: 14
 url: /pl/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stosowanie skrętu w wytłaczaniu liniowym za pomocą Aspose.3D dla Java
+
 ## Wstęp
 
 Witamy w tym samouczku krok po kroku dotyczącym zastosowania skrętu w wytłaczaniu liniowym przy użyciu Aspose.3D dla Java. Aspose.3D to potężna biblioteka Java, która umożliwia programistom pracę z formatami plików 3D, oferując solidną funkcjonalność do tworzenia, manipulowania i renderowania scen 3D. W tym samouczku dowiemy się, jak zastosować efekt skrętu podczas procesu wytłaczania liniowego, aby ulepszyć modele 3D.
@@ -119,3 +125,9 @@ Odpowiedź 1: Tak, Aspose.3D obsługuje różne formaty plików 3D, umożliwiaj�
 ### P5: Gdzie mogę kupić Aspose.3D dla Java?
 
  A5: Kup Aspose.3D dla Java w sklepie[strona zakupowa](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

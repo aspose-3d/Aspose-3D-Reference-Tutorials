@@ -3,10 +3,16 @@ title: Putar dalam Ekstrusi Linier
 linktitle: Putar dalam Ekstrusi Linier
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia grafis 3D yang menawan dengan Aspose.3D untuk .NET. Pelajari langkah demi langkah Ekstrusi Linier dengan Twist.
-type: docs
 weight: 14
 url: /id/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Putar dalam Ekstrusi Linier
+
 ## Perkenalan
 
 Di dunia perkembangan .NET yang terus berkembang, memanfaatkan kekuatan grafis 3D adalah upaya yang menarik. Aspose.3D untuk .NET muncul sebagai perangkat berharga, memberdayakan pengembang untuk membuat aplikasi yang imersif dan menakjubkan secara visual dengan mulus. Dalam panduan komprehensif ini, kita akan mempelajari satu fitur menarik - Ekstrusi Linier dengan Twist. Tutorial ini akan memandu Anda melalui proses langkah demi langkah, membuka potensi Aspose.3D untuk .NET.
@@ -118,3 +124,9 @@ A4: Tentu saja! Aspose.3D menawarkan serangkaian fitur yang kaya. Jangan ragu un
 ### Q5: Apakah ada komunitas untuk dukungan dan diskusi Aspose.3D?
 
  A5: Ya, bergabunglah dengan komunitas Aspose.3D di[Asumsikan Forum](https://forum.aspose.com/c/3d/18) untuk dukungan dan diskusi yang menarik.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

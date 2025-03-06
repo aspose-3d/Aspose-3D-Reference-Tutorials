@@ -3,10 +3,16 @@ title: 将信息提取到场景资产
 linktitle: 将信息提取到场景资产
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 轻松增强您的 3D 场景。学习逐步添加有价值的资产信息。立即下载以获得动态 3D 体验。
-type: docs
 weight: 10
 url: /zh/net/3d-scene/information-to-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将信息提取到场景资产
+
 ## 介绍
 
 欢迎阅读这个关于使用 Aspose.3D for .NET 提取有价值的信息并增强 3D 场景的综合教程。 Aspose.3D 是一个功能强大的库，使开发人员能够在 .NET 应用程序中无缝操作 3D 场景。在本教程中，我们将重点关注向场景添加资产信息的关键任务。
@@ -96,3 +102,9 @@ A2：是的，您可以免费试用[这里](https://releases.aspose.com/).
 ### Q5：在哪里可以找到 Aspose.3D for .NET 的详细文档？
 
  A5：请参阅[文档](https://reference.aspose.com/3d/net/)以获得深入的信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

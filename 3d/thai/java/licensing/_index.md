@@ -3,10 +3,16 @@ title: เริ่มต้นใช้งาน Aspose.3D สำหรับ J
 linktitle: เริ่มต้นใช้งาน Aspose.3D สำหรับ Java
 second_title: Aspose.3D จาวา API
 description: ค้นพบพลังของ Aspose.3D Java ผ่านบทช่วยสอนเชิงลึกของเรา เรียนรู้วิธีใช้ใบอนุญาตเพื่อปลดปล่อยความสามารถเต็มรูปแบบของเครื่องมือ Java อันทรงพลังนี้
-type: docs
 weight: 22
 url: /th/java/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เริ่มต้นใช้งาน Aspose.3D สำหรับ Java
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับแอปพลิเคชัน Java ของคุณด้วยคุณสมบัติที่โดดเด่นของ Aspose.3D แล้วหรือยัง? เจาะลึกบทช่วยสอนที่ครอบคลุมของเราซึ่งจะแนะนำคุณในทุกแง่มุม โดยเริ่มจากขั้นตอนพื้นฐานของการสมัครใบอนุญาต
@@ -37,3 +43,9 @@ url: /th/java/licensing/
 ## เริ่มต้นใช้งาน Aspose.3D สำหรับบทช่วยสอน Java
 ### [การใช้ใบอนุญาตใน Aspose.3D สำหรับ Java](./applying-license-in-aspose-3d/)
 ปลดล็อกศักยภาพทั้งหมดของ Aspose.3D ในแอปพลิเคชัน Java โดยทำตามคำแนะนำที่ครอบคลุมของเราเกี่ยวกับการยื่นใบอนุญาต
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

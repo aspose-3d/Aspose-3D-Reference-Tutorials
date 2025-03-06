@@ -3,10 +3,16 @@ title: Skapa anpassade fläktcylindrar med Aspose.3D för Java
 linktitle: Skapa anpassade fläktcylindrar med Aspose.3D för Java
 second_title: Aspose.3D Java API
 description: Lär dig att skapa skräddarsydda fläktcylindrar i Java med Aspose.3D. Lyft ditt 3D-modelleringsspel utan ansträngning.
-type: docs
 weight: 10
 url: /sv/java/cylinders/creating-fan-cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa anpassade fläktcylindrar med Aspose.3D för Java
+
 ## Introduktion
 
 Är du redo att höja din upplevelse av 3D-modellering med Aspose.3D för Java? Denna handledning guidar dig genom processen att skapa skräddarsydda fläktcylindrar med hjälp av det kraftfulla Aspose.3D-biblioteket. Oavsett om du är en erfaren utvecklare eller nybörjare, kommer denna steg-för-steg-guide att hjälpa dig att frigöra den fulla potentialen hos Aspose.3D i Java.
@@ -124,3 +130,9 @@ A2: Absolut! Aspose.3D erbjuder omfattande alternativ för anpassning, så att d
 ### F5: Hur kan jag få en tillfällig licens för Aspose.3D?
 
  A5: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för dina test- och utvecklingsbehov.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

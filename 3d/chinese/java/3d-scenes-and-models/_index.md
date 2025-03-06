@@ -3,10 +3,16 @@ title: 在 Java 中使用 3D 场景和模型
 linktitle: 在 Java 中使用 3D 场景和模型
 second_title: Aspose.3D Java API
 description: 通过我们的教程了解 Aspose.3D for Java 的强大功能。提高 Java 应用程序中 3D 场景的精度、存储效率和操作。
-type: docs
 weight: 29
 url: /zh/java/3d-scenes-and-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用 3D 场景和模型
+
 ## 介绍
 
 您准备好将您的 Java 应用程序提升到 3D 图形和建模的新高度了吗？欢迎来到我们全面的 Aspose.3D for Java 教程！通过逐步指导，释放 3D 场景定位、压缩、信息检索、网格保存和无缝属性操作的潜力。
@@ -43,3 +49,9 @@ Aspose.3D for Java 提供无缝 3D 属性操作。我们的教程[管理 3D 属�
 了解如何使用 Aspose.3D for Java 以自定义二进制格式保存 3D 网格。通过此分步教程增强 Java 应用程序的灵活性。
 ### [使用 Aspose.3D 在 Java 场景中处理 3D 属性和自定义数据](./managing-3d-properties-scenes/)
 使用 Aspose.3D 增强您的 Java 应用程序，实现无缝 3D 属性操作。请按照我们的教程获取分步指导。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

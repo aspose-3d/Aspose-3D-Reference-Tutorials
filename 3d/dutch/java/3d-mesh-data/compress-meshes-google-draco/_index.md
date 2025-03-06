@@ -3,10 +3,16 @@ title: Comprimeer 3D-mazen met Google Draco in Java
 linktitle: Comprimeer 3D-mazen met Google Draco in Java
 second_title: Aspose.3D Java-API
 description: Optimaliseer uw 3D-toepassingen met Aspose.3D. Leer hoe u meshes comprimeert met Google Draco in Java. Volg onze stapsgewijze handleiding voor efficiënte 3D-ontwikkeling.
-type: docs
 weight: 10
 url: /nl/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprimeer 3D-mazen met Google Draco in Java
+
 ## Invoering
 
 Welkom bij deze uitgebreide handleiding over het comprimeren van 3D-meshes met Google Draco in Java met behulp van Aspose.3D. In deze zelfstudie leiden we u door het proces van het efficiënt comprimeren van 3D-meshes, waarbij we gebruik maken van de kracht van Aspose.3D. Als u een ontwikkelaar bent die uw 3D-toepassingen wil verbeteren door de maaswijdten te verkleinen zonder concessies te doen aan de kwaliteit, dan bent u hier op de juiste plek.
@@ -100,3 +106,9 @@ A2: Hoewel deze tutorial zich richt op Java, is Google Draco beschikbaar voor ge
 ### V5: Is er een communityforum voor Aspose.3D-ondersteuning?
 
  A5: Ja, voor ondersteuning en discussies uit de gemeenschap kunt u terecht op de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

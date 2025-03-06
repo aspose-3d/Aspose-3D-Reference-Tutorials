@@ -3,10 +3,16 @@ title: Mailles
 linktitle: Mailles
 second_title: API Aspose.3D .NET
 description: Découvrez les secrets d'Aspose.3D pour .NET avec nos didacticiels complets. Optimisez les modèles 3D, convertissez les primitives en maillages et améliorez les graphiques sans effort.
-type: docs
 weight: 26
 url: /fr/net/meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mailles
+
 ## Introduction
 
 Aspose.3D pour .NET ouvre un monde de possibilités aux développeurs souhaitant se plonger dans les subtilités des maillages 3D. Dans cet article, nous vous guiderons à travers différents didacticiels de maillage, chacun offrant une perspective unique sur l'exploitation de tout le potentiel d'Aspose.3D pour .NET.
@@ -69,3 +75,9 @@ Maîtrisez l'art de diviser les maillages 3D par matériau avec Aspose.3D pour .
 [Lire le tutoriel : Diviser le maillage par matériau](./split-mesh-by-material/)
 
 En conclusion, nos tutoriels Aspose.3D pour .NET proposent un guide complet pour maîtriser différents aspects de la modélisation 3D. Plongez, améliorez vos compétences et élevez votre jeu de développement 3D !
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

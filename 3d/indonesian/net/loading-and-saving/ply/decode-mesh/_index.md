@@ -3,10 +3,16 @@ title: Decoding Mesh dari Format PLY
 linktitle: Decoding Mesh dari Format PLY
 second_title: Aspose.3D .NET API
 description: Buka rahasia sihir 3D! Dekode mesh dari format PLY dengan mudah menggunakan Aspose.3D untuk .NET. Tingkatkan proyek Anda ke dimensi baru.
-type: docs
 weight: 11
 url: /id/net/loading-and-saving/ply/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Decoding Mesh dari Format PLY
+
 ## Perkenalan
 Bayangkan ini: Anda sedang dalam upaya untuk menghidupkan proyek 3D Anda, menambahkan lapisan kemahiran ekstra yang memisahkan hal-hal biasa dari hal-hal luar biasa. Tapi dari mana Anda memulai? Jangan takut, pengembang pemberani! Selamat datang di ranah Aspose.3D untuk .NET, tempat kreativitas bertemu fungsionalitas dalam tarian yang harmonis.
 Dalam dunia pemrograman yang terus berkembang, Aspose.3D berdiri sebagai mercusuar, menawarkan perangkat canggih untuk memperkuat kehebatan .NET Anda di bidang sihir tiga dimensi. Dalam tutorial ini, kita memulai perjalanan untuk memecahkan kode mesh dari format PLY menggunakan Aspose.3D, mengungkap rahasia integrasi 3D yang mulus.
@@ -57,3 +63,9 @@ J: Memang! Aspose.3D memberdayakan Anda untuk mengubah dan menyempurnakan mesh A
 J: Tentu saja! Ambil milikmu[uji coba gratis](https://releases.aspose.com/) dan rasakan keajaiban Aspose.3D secara langsung.
 ### T: Bagaimana saya bisa mendapatkan lisensi sementara untuk pengujian yang diperpanjang?
  Sebuah kunjungan[Link ini](https://purchase.aspose.com/temporary-license/) untuk mendapatkan lisensi sementara untuk pengalaman uji coba yang mendalam.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

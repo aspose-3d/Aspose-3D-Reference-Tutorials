@@ -3,10 +3,16 @@ title: Aspose.3D for Java ile Verimli Depolama ve Paylaşım için 3D Sahneleri 
 linktitle: Aspose.3D for Java ile Verimli Depolama ve Paylaşım için 3D Sahneleri Sıkıştırın
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java ile 3D sahneleri verimli bir şekilde nasıl sıkıştıracağınızı öğrenin. Optimum depolama ve paylaşım için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/java/3d-scenes-and-models/compress-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java ile Verimli Depolama ve Paylaşım için 3D Sahneleri Sıkıştırın
+
 ## giriiş
 
 Aspose.3D for Java, geliştiricilerin Java uygulamalarındaki 3D sahneler, nesneler ve animasyonlarla çalışmasına olanak tanıyan çok yönlü bir kütüphanedir. Öne çıkan özelliklerinden biri, kaliteden ödün vermeden dosya boyutlarını azaltarak 3D sahneleri sıkıştırabilme yeteneğidir. Bu eğitim, depolama ve paylaşım için 3B sahneleri verimli bir şekilde sıkıştırma adımlarında size yol gösterecektir.
@@ -103,3 +109,10 @@ C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases
 ### S5: Aspose.3D for Java için nasıl geçici lisans edinebilirim?
 
  A5: Adımları izleyin[Burada](https://purchase.aspose.com/temporary-license/) geçici lisans almak için.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

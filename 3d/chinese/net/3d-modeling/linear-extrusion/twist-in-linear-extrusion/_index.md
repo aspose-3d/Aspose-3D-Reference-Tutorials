@@ -3,10 +3,16 @@ title: 线性挤压扭转
 linktitle: 线性挤压扭转
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索迷人的 3D 图形世界。逐步学习带有扭曲的线性挤压。
-type: docs
 weight: 14
 url: /zh/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 线性挤压扭转
+
 ## 介绍
 
 在不断发展的 .NET 开发世界中，利用 3D 图形的力量是一项令人兴奋的努力。 Aspose.3D for .NET 成为一个有价值的工具包，使开发人员能够无缝创建身临其境且视觉震撼的应用程序。在本综合指南中，我们将深入研究一个有趣的功能 - 带扭曲的线性挤出。本教程将逐步引导您完成整个过程，释放 Aspose.3D for .NET 的潜力。
@@ -118,3 +124,9 @@ A4：当然！ Aspose.3D 提供了一组丰富的功能。您可以随意将线�
 ### Q5：有 Aspose.3D 支持和讨论的社区吗？
 
  A5：是的，加入 Aspose.3D 社区：[Aspose论坛](https://forum.aspose.com/c/3d/18)以获得支持和参与讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

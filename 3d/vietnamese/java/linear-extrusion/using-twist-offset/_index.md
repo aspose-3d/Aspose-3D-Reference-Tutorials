@@ -4,10 +4,16 @@ linktitle: Sử dụng Twist Offset trong ép đùn tuyến tính với Aspose.3
 second_title: API Java Aspose.3D
 description: Nâng cao kỹ năng tạo mô hình 3D của bạn với Aspose.3D cho Java. Tìm hiểu cách sử dụng Twist Offset trong Linear Extrusion trong hướng dẫn toàn diện này.
 
-type: docs
 weight: 15
 url: /vi/java/linear-extrusion/using-twist-offset/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sử dụng Twist Offset trong ép đùn tuyến tính với Aspose.3D cho Java
+
 ## Giới thiệu
 
 Trong thế giới năng động của đồ họa 3D, việc nắm vững nghệ thuật đùn tuyến tính là yếu tố thay đổi cuộc chơi. Với Aspose.3D cho Java, bạn có thể nâng cao kỹ năng tạo mô hình 3D của mình bằng cách kết hợp tính năng Twist Offset vào quy trình ép đùn tuyến tính của mình. Hướng dẫn này sẽ hướng dẫn bạn các bước sử dụng Twist Offset trong Linear Extrusion bằng Aspose.3D cho Java, cung cấp cho bạn các công cụ để tạo cảnh 3D tuyệt đẹp.
@@ -113,3 +119,9 @@ Chúc mừng! Bạn đã triển khai thành công Twist Offset trong Linear Ext
 ### Câu hỏi 5: Có sẵn các ví dụ và hướng dẫn bổ sung không?
 
  A5: Có, hãy tham khảo[tài liệu](https://reference.aspose.com/3d/java/) để biết thêm ví dụ và hướng dẫn chuyên sâu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

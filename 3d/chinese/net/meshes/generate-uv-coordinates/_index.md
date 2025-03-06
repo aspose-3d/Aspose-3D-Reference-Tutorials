@@ -3,10 +3,16 @@ title: 生成 UV 坐标
 linktitle: 生成 UV 坐标
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 建模世界。轻松掌握 UV 坐标生成。立即提升您的项目！
-type: docs
 weight: 11
 url: /zh/net/meshes/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 生成 UV 坐标
+
 ## 介绍
 释放 Aspose.3D for .NET 的强大功能并深入研究 UV 坐标生成领域。在本教程中，我们将指导您完成基本步骤，以掌握使用 Aspose.3D 进行 3D 建模的这一基本方面。无论您是经验丰富的开发人员还是新手，本指南都将为您提供轻松创建和操作网格 UV 坐标的知识。
 ## 先决条件
@@ -74,3 +80,9 @@ Aspose.3D 主要支持 .NET 语言，但您可以探索互操作性选项。
 是的，您可以获得[临时执照](https://purchase.aspose.com/temporary-license/)用于测试和评估。
 ### 问：在哪里可以找到其他教程和资源？
 探索[Aspose.3D 文档](https://reference.aspose.com/3d/net/)获取全面的指南和示例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

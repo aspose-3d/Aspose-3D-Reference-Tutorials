@@ -3,10 +3,16 @@ title: 使用 Aspose.3D 在 Java 中使用四元數轉換 3D 節點
 linktitle: 使用 Aspose.3D 在 Java 中使用四元數轉換 3D 節點
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 增強您的 Java 應用程序，以實現強大的 3D 轉換。在本逐步指南中學習使用四元數轉換節點。
-type: docs
 weight: 20
 url: /zh-hant/java/geometry/transform-3d-nodes-with-quaternions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D 在 Java 中使用四元數轉換 3D 節點
+
 ## 介紹
 
 歡迎閱讀有關使用 Aspose.3D 在 Java 中使用四元數轉換 3D 節點的逐步指南。如果您希望透過強大的 3D 轉換來增強 Java 應用程序，那麼本教程適合您。 Aspose.3D for Java 提供了一組強大的功能來處理 3D 圖形，在本教程中，我們將重點放在使用四元數轉換 3D 節點。
@@ -119,3 +125,9 @@ A1：Aspose.3D for Java 提供免費試用版。你可以找到它[這裡](https
 ### Q5：哪裡可以購買Aspose.3D for Java？
 
  A5：可以買[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

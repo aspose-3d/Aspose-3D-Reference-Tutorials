@@ -3,10 +3,16 @@ title: Java의 구에서 포인트 클라우드 생성
 linktitle: Java의 구에서 포인트 클라우드 생성
 second_title: Aspose.3D 자바 API
 description: Java의 Aspose.3D를 사용하여 3D 그래픽의 세계를 탐험해보세요. 따라하기 쉬운 튜토리얼을 통해 구에서 포인트 클라우드를 생성하는 방법을 알아보세요.
-type: docs
 weight: 14
 url: /ko/java/point-clouds/generate-point-clouds-spheres-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java의 구에서 포인트 클라우드 생성
+
 ## 소개
 
 Aspose.3D를 사용하여 Java의 구에서 포인트 클라우드를 생성하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 3D 그래픽의 매혹적인 세계에 빠져들고 싶고 멋진 시각화를 만들고 싶다면 바로 이곳에 오셨습니다. 이 튜토리얼에서는 과정을 단계별로 안내하므로 초보자도 쉽게 따라할 수 있습니다.
@@ -90,3 +96,10 @@ FileFormat.DRACO.encode(sphere, "Your Document Directory" + "sphere.drc", opt);
 ### Q5: 문서는 어디서 찾을 수 있나요?
 
  A5: 자세한 내용을 참조하세요.[Aspose.3D 자바 문서](https://reference.aspose.com/3d/java/) 포괄적인 정보를 얻으려면.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

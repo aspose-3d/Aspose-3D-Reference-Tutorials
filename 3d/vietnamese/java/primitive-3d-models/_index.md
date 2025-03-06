@@ -3,10 +3,16 @@ title: Tạo mô hình 3D nguyên thủy trong Aspose.3D cho Java
 linktitle: Tạo mô hình 3D nguyên thủy trong Aspose.3D cho Java
 second_title: API Java Aspose.3D
 description: Dễ dàng tạo các mô hình 3D tuyệt đẹp bằng cách sử dụng hướng dẫn Aspose.3D cho Java. Giải phóng khả năng sáng tạo của bạn với hướng dẫn từng bước về cách xây dựng mô hình 3D nguyên thủy.
-type: docs
 weight: 24
 url: /vi/java/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo mô hình 3D nguyên thủy trong Aspose.3D cho Java
+
 
 
 ## Giới thiệu
@@ -31,3 +37,9 @@ Bắt đầu xây dựng các mô hình 3D nguyên thủy của bạn ngay hôm 
 ## Tạo mô hình 3D nguyên thủy trong Aspose.3D cho Hướng dẫn Java
 ### [Xây dựng mô hình 3D nguyên thủy với Aspose.3D cho Java](./building-primitive-3d-models/)
 Khám phá nghệ thuật tạo mô hình 3D với Aspose.3D cho Java. Học cách xây dựng các mô hình 3D nguyên thủy một cách dễ dàng và phát huy khả năng sáng tạo của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

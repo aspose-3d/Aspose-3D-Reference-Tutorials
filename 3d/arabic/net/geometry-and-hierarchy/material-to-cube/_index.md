@@ -3,10 +3,16 @@ title: تطبيق المواد على المكعب
 linktitle: تطبيق المواد على المكعب
 second_title: Aspose.3D.NET API
 description: استكشف Aspose.3D for .NET، بوابتك إلى معالجة الرسومات ثلاثية الأبعاد بشكل سلس. قم بتطبيق المواد دون عناء، وتعزيز الواقعية، والارتقاء بمشاريعك.
-type: docs
 weight: 14
 url: /ar/net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق المواد على المكعب
+
 ## مقدمة
 
 مرحبًا بك في العالم الرائع لمعالجة الرسومات ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET! في هذا البرنامج التعليمي، سنتعمق في عملية تطبيق المواد على المكعب في مشاهدك ثلاثية الأبعاد، مما يضيف مستوى جديدًا تمامًا من الواقعية والجاذبية البصرية إلى إبداعاتك.
@@ -136,3 +142,9 @@ Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + out
 ### س5: كيف يمكنني الحصول على الدعم لأية مشكلات أو استفسارات؟
 
  ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) للتواصل مع المجتمع وطلب المساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

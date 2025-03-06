@@ -3,10 +3,16 @@ title: जावा ट्यूटोरियल - Aspose.3D के साथ 
 linktitle: जावा ट्यूटोरियल - Aspose.3D के साथ 3D मेश में बहुभुज बनाएं
 second_title: Aspose.3D जावा एपीआई
 description: जावा के लिए Aspose.3D के साथ 3D ग्राफ़िक्स की शक्ति को अनलॉक करें। सहजता से आश्चर्यजनक बहुभुज बनाएं। निर्बाध विकास अनुभव के लिए अभी डाउनलोड करें।
-type: docs
 weight: 10
 url: /hi/java/transforming-3d-meshes/create-polygons-in-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा ट्यूटोरियल - Aspose.3D के साथ 3D मेश में बहुभुज बनाएं
+
 ## परिचय
 3डी ग्राफ़िक्स की गतिशील दुनिया में, जटिल और देखने में आश्चर्यजनक वस्तुएं बनाने की क्षमता डेवलपर्स के लिए एक मौलिक कौशल है। जावा के लिए Aspose.3D एक शक्तिशाली टूलकिट प्रदान करता है जो आसानी से 3D जाल निर्माण की सुविधा प्रदान करता है। इस ट्यूटोरियल में, हम जावा के लिए Aspose.3D का उपयोग करके 3D मेश के भीतर बहुभुज बनाने की प्रक्रिया में आपका मार्गदर्शन करेंगे।
 ## आवश्यक शर्तें
@@ -51,3 +57,9 @@ mesh.createPolygon(0, 1, 2, 3);
  हां, आप एक्सेस करके Aspose.3D की क्षमताओं का पता लगा सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/).
 ### 5. मैं Aspose.3D के लिए समर्थन कहाँ से प्राप्त कर सकता हूँ?
  किसी भी प्रश्न या सहायता के लिए, पर जाएँ[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

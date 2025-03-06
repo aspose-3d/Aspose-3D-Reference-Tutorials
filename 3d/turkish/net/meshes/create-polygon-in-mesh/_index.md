@@ -3,10 +3,16 @@ title: Mesh'te Çokgen Oluşturma
 linktitle: Mesh'te Çokgen Oluşturma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D modelleme dünyasını keşfedin. Zahmetsizce ağlarda çarpıcı çokgenler oluşturun. Sürükleyici bir geliştirme deneyimi için hemen indirin!
-type: docs
 weight: 18
 url: /tr/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mesh'te Çokgen Oluşturma
+
 ## giriiş
 Aspose.3D for .NET ile 3D modellemenin heyecan verici dünyasına dalmaya hazır mısınız? Becerilerinizi geliştirmek isteyen bir geliştiriciyseniz veya çarpıcı 3D kafesler oluşturmakla ilgilenen yeni başlayan biriyseniz, doğru yerdesiniz. Bu kapsamlı eğitimde Aspose.3D'yi kullanarak ağda çokgen oluşturma sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -59,3 +65,9 @@ C: Aspose.3D for .NET öncelikle Windows ortamları için tasarlanmıştır. Anc
  C: Kapsamlı olanı keşfedin[dokümantasyon](https://reference.aspose.com/3d/net/) derinlemesine bilgiler için kullanılabilir.
 ### S: Aspose.3D for .NET'i nasıl satın alabilirim?
  C: Ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) Lisansınızı almak ve Aspose.3D'nin tüm potansiyelini ortaya çıkarmak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

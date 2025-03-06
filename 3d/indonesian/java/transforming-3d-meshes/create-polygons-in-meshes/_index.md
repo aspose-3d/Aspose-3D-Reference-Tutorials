@@ -3,10 +3,16 @@ title: Tutorial Java - Membuat Poligon dalam Jerat 3D dengan Aspose.3D
 linktitle: Tutorial Java - Membuat Poligon dalam Jerat 3D dengan Aspose.3D
 second_title: Asumsikan.3D Java API
 description: Buka kekuatan grafis 3D dengan Aspose.3D untuk Java. Buat poligon menakjubkan dengan mudah. Unduh sekarang untuk pengalaman pengembangan yang lancar.
-type: docs
 weight: 10
 url: /id/java/transforming-3d-meshes/create-polygons-in-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Java - Membuat Poligon dalam Jerat 3D dengan Aspose.3D
+
 ## Perkenalan
 Dalam dunia grafis 3D yang dinamis, kemampuan untuk membuat objek yang rumit dan menakjubkan secara visual merupakan keterampilan mendasar bagi pengembang. Aspose.3D untuk Java menyediakan toolkit canggih yang memfasilitasi pembuatan mesh 3D dengan mudah. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan poligon dalam jerat 3D menggunakan Aspose.3D untuk Java.
 ## Prasyarat
@@ -51,3 +57,9 @@ Ya, Aspose.3D menawarkan berbagai fungsi untuk membuat model 3D yang rumit dan d
  Ya, Anda dapat menjelajahi kemampuan Aspose.3D dengan mengakses[uji coba gratis](https://releases.aspose.com/).
 ### 5. Dimana saya bisa mencari dukungan untuk Aspose.3D?
  Untuk pertanyaan atau bantuan apa pun, kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

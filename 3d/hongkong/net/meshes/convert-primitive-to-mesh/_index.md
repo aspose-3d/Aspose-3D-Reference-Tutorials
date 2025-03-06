@@ -3,10 +3,16 @@ title: 將參數化基元轉換為網格
 linktitle: 將參數化基元轉換為網格
 second_title: Aspose.3D .NET API
 description: 探索 Aspose.3D for .NET 的強大功能！輕鬆將參數化基元轉換為多功能網格。立即提升您的 3D 圖形遊戲等級。
-type: docs
 weight: 12
 url: /zh-hant/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將參數化基元轉換為網格
+
 ## 介紹
 
 Aspose.3D 提供了一組豐富的原始形狀，包括長方體、平面、環面、球體、圓柱體、金字塔等。這些基元由它們的參數定義，使得它們對於程式建模具有高度通用性。透過以程式方式調整參數，您可以使用最少的程式碼建立各種 3D 模型。
@@ -73,3 +79,9 @@ Aspose.3D for .NET 使開發人員能夠在其應用程式中無縫操作 3D 物
 是的，探索 Aspose.3D[免費試用](https://releases.aspose.com/)在做出承諾之前體驗其能力。
 ### 我可以獲得用於測試目的的臨時許可證嗎？
 是的，請確保[臨時執照](https://purchase.aspose.com/temporary-license/)全面評估Aspose.3D。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

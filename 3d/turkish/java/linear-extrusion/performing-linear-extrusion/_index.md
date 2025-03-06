@@ -3,10 +3,16 @@ title: Aspose.3D for Java'da Doğrusal Ekstrüzyon Gerçekleştirme
 linktitle: Aspose.3D for Java'da Doğrusal Ekstrüzyon Gerçekleştirme
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java ile 3D modelleme dünyasını keşfedin. Doğrusal ekstrüzyonu zahmetsizce gerçekleştirmeyi öğrenin.
-type: docs
 weight: 10
 url: /tr/java/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java'da Doğrusal Ekstrüzyon Gerçekleştirme
+
 ## giriiş
 
 Aspose.3D for Java'da doğrusal ekstrüzyon gerçekleştirmeye yönelik bu kapsamlı eğitime hoş geldiniz! Java kullanarak 3D modelleme becerilerinizi geliştirmek istiyorsanız doğru yerdesiniz. Bu eğitimde, 3D modelleme için güçlü bir Java kütüphanesi olan Aspose.3D'yi kullanarak doğrusal ekstrüzyon gerçekleştirme sürecinde size rehberlik edeceğiz.
@@ -104,3 +110,9 @@ C2: Evet, Aspose.3D hem kişisel hem de ticari projeler için kullanılabilir. L
 ### S5: Aspose.3D'nin ücretsiz deneme sürümü mevcut mu?
 
  C5: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

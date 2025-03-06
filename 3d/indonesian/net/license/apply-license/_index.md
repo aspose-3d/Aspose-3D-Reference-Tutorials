@@ -3,10 +3,16 @@ title: Menerapkan Lisensi ke Aspose.3D untuk .NET
 linktitle: Menerapkan Lisensi ke Aspose.3D untuk .NET
 second_title: Aspose.3D .NET API
 description: Buka kekuatan Aspose.3D untuk .NET dengan menerapkan lisensi secara lancar. Ikuti panduan langkah demi langkah kami untuk pengalaman integrasi yang lancar.
-type: docs
 weight: 10
 url: /id/net/license/apply-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Lisensi ke Aspose.3D untuk .NET
+
 ## Perkenalan
 
 Apakah Anda siap untuk membuka potensi penuh Aspose.3D untuk .NET? Menerapkan lisensi adalah kunci Anda untuk mengakses fitur-fitur canggih dan memastikan integrasi yang lancar. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui berbagai metode penerapan lisensi, memastikan kelancaran proses penyiapan untuk aplikasi Aspose.3D Anda.
@@ -118,3 +124,9 @@ Selamat! Anda telah berhasil mempelajari cara menerapkan lisensi Aspose.3D untuk
 ### Q5: Bagaimana cara membeli lisensi?
 
  A5: Beli lisensi Anda[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

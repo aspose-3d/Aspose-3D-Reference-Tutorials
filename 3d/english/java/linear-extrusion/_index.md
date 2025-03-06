@@ -3,10 +3,16 @@ title: Creating 3D Models with Linear Extrusion in Java
 linktitle: Creating 3D Models with Linear Extrusion in Java
 second_title: Aspose.3D Java API
 description: Explore the world of 3D modeling with Aspose.3D for Java. Master linear extrusion effortlessly. Control center, set direction, specify slices, apply twist, and more!
-type: docs
 weight: 23
 url: /java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creating 3D Models with Linear Extrusion in Java
+
 ## Introduction
 
 
@@ -62,3 +68,9 @@ Learn to specify slices in linear extrusion using Aspose.3D for Java. Elevate yo
 Learn how to add a twist to your 3D models using Aspose.3D for Java. Follow our step-by-step guide for enhanced linear extrusion effects.
 ### [Using Twist Offset in Linear Extrusion with Aspose.3D for Java](./using-twist-offset/)
 Enhance your 3D modeling skills with Aspose.3D for Java. Learn to use Twist Offset in Linear Extrusion in this comprehensive tutorial.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Триангулирующая сетка
 linktitle: Триангулирующая сетка
 second_title: Aspose.3D .NET API
 description: Изучите возможности Aspose.3D для .NET в этом пошаговом руководстве. Узнайте, как легко триангулировать 3D-сетки для улучшения моделирования.
-type: docs
 weight: 22
 url: /ru/net/geometry-and-hierarchy/triangulate-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Триангулирующая сетка
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по триангуляции сеток в 3D-сценах с использованием Aspose.3D для .NET. Aspose.3D — это мощная библиотека, которая позволяет .NET-разработчикам беспрепятственно работать с 3D-файлами, предлагая широкий спектр функций для создания, управления и преобразования 3D-моделей.
@@ -102,3 +108,10 @@ Console.WriteLine("\nMesh has been Triangulated.\nFile saved at " + output);
 ### В5: Могу ли я бесплатно попробовать Aspose.3D перед покупкой?
 
  А5: Конечно! Вы можете скачать бесплатную пробную версию[здесь](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

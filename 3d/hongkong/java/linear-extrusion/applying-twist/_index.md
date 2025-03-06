@@ -3,10 +3,16 @@ title: 使用 Aspose.3D for Java 在線性拉伸中應用扭曲
 linktitle: 使用 Aspose.3D for Java 在線性拉伸中應用扭曲
 second_title: Aspose.3D Java API
 description: 了解如何使用 Aspose.3D for Java 為 3D 模型新增扭曲。請依照我們的逐步指南來增強線性擠壓效果。
-type: docs
 weight: 14
 url: /zh-hant/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D for Java 在線性拉伸中應用扭曲
+
 ## 介紹
 
 歡迎閱讀本分步教程，了解如何使用 Aspose.3D for Java 在線性拉伸中應用扭曲。 Aspose.3D 是一個功能強大的 Java 函式庫，使開發人員能夠使用 3D 檔案格式，為建立、操作和渲染 3D 場景提供強大的功能。在本教程中，我們將探索如何在線性擠出過程中應用扭曲效果來增強 3D 模型。
@@ -119,3 +125,9 @@ A1：是的，Aspose.3D 支援各種 3D 檔案格式，讓您可以匯入、匯�
 ### Q5：哪裡可以購買Aspose.3D for Java？
 
 A5：從 Aspose.3D for Java 購買[購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

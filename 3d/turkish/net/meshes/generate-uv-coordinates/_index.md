@@ -3,10 +3,16 @@ title: UV Koordinatlarının Oluşturulması
 linktitle: UV Koordinatlarının Oluşturulması
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D modelleme dünyasını keşfedin. Master UV, üretimi zahmetsizce koordine eder. Projelerinizi şimdi yükseltin!
-type: docs
 weight: 11
 url: /tr/net/meshes/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# UV Koordinatlarının Oluşturulması
+
 ## giriiş
 Aspose.3D for .NET'in gücünün kilidini açın ve UV koordinatları oluşturma dünyasına dalın. Bu eğitimde, Aspose.3D'yi kullanarak 3D modellemenin bu temel yönüne hakim olmanız için gerekli adımlarda size rehberlik edeceğiz. İster deneyimli bir geliştirici olun ister yeni başlayan biri olun, bu kılavuz sizi ağlarınız için UV koordinatlarını zahmetsizce oluşturma ve değiştirme bilgisiyle donatacaktır.
 ## Önkoşullar
@@ -74,3 +80,9 @@ Aspose.3D öncelikle .NET dillerini destekler ancak birlikte çalışabilirlik s
  Evet, alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Test ve değerlendirme için.
 ### S: Ek eğitimleri ve kaynakları nerede bulabilirim?
  Keşfedin[Aspose.3D Belgeleri](https://reference.aspose.com/3d/net/) Kapsamlı kılavuzlar ve örnekler için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

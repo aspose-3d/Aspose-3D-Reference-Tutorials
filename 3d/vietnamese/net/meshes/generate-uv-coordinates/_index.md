@@ -3,10 +3,16 @@ title: Tạo tọa độ UV
 linktitle: Tạo tọa độ UV
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới mô hình 3D với Aspose.3D cho .NET. Master UV điều phối việc tạo một cách dễ dàng. Nâng tầm dự án của bạn ngay bây giờ!
-type: docs
 weight: 11
 url: /vi/net/meshes/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tọa độ UV
+
 ## Giới thiệu
 Mở khóa sức mạnh của Aspose.3D cho .NET và đi sâu vào lĩnh vực tạo tọa độ UV. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước cần thiết để nắm vững khía cạnh cơ bản này của mô hình 3D bằng Aspose.3D. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, hướng dẫn này sẽ trang bị cho bạn kiến thức để dễ dàng tạo và thao tác tọa độ UV cho lưới của bạn.
 ## Điều kiện tiên quyết
@@ -74,3 +80,9 @@ Bản dùng thử miễn phí có một số hạn chế về tính năng nhưng
  Có, bạn có thể nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để kiểm tra và đánh giá.
 ### Câu hỏi: Tôi có thể tìm thêm hướng dẫn và tài nguyên ở đâu?
  Khám phá cái[Tài liệu Aspose.3D](https://reference.aspose.com/3d/net/) để có hướng dẫn và ví dụ toàn diện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: KAT desteği
 linktitle: KAT desteği
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D, PLY formatını sorunsuz bir şekilde destekleyerek çok yönlü kullanım durumları için 3D modellerin sorunsuz bir şekilde içe ve dışa aktarılmasını kolaylaştırır.
-type: docs
 weight: 27
 url: /tr/net/loading-and-saving/ply
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# KAT desteği
+
 ## giriiş
 
 Bu eğitim serisinde Aspose.3D'deki glTF desteğinin inceliklerini keşfederek yaratıcı olasılıklarla dolu bir dünyanın kapısını aralayacağız.
@@ -30,3 +36,9 @@ Aspose.3D, ağları PLY formatında nokta bulutları olarak kodlama yeteneği su
 Aspose.3D for .NET ile sınırsız olasılıklarla dolu bir yolculuğa çıkın. İster acemi ister deneyimli bir geliştirici olun, eğitimlerimiz tüm beceri düzeylerine uygundur. 3D modelleme deneyiminizi dönüştürün; Aspose.3D for .NET ile keşfedin, yaratın ve yenilik yapın.
 
 3D modelleme becerilerinizi geliştirmeye hazır mısınız? Eğiticileri keşfetmeye başlayın. Aspose.3D for .NET'in tüm potansiyelini açığa çıkarın ve 3D şaheserlerinizi zahmetsizce şekillendirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

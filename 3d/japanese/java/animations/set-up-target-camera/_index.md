@@ -3,10 +3,16 @@ title: Java で 3D アニメーション用のターゲット カメラをセッ
 linktitle: Java で 3D アニメーション用のターゲット カメラをセットアップする | Aspose.3D チュートリアル
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して Java 3D アニメーションを簡単に探索してください。ステップバイステップのガイドについては、チュートリアルに従ってください。今すぐダウンロードして、魅力的な 3D 開発の旅を体験してください。
-type: docs
 weight: 11
 url: /ja/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で 3D アニメーション用のターゲット カメラをセットアップする | Aspose.3D チュートリアル
+
 ## 導入
 
 Aspose.3D を使用して Java で 3D アニメーション用のターゲット カメラを設定するためのこのステップバイステップ ガイドへようこそ。あなたが経験豊富な開発者であっても、Java で 3D アニメーションを始めたばかりであっても、このチュートリアルでは、明確かつ簡潔な手順でプロセスを順を追って説明します。
@@ -98,3 +104,9 @@ scene.save(MyDir, FileFormat.DISCREET3DS);
 ### Q5: 仮免許はどうやって取得できますか?
 
  A5: 仮免許を取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

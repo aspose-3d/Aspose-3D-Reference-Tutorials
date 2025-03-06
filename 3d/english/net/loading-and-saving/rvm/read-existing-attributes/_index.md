@@ -3,10 +3,16 @@ title: Reading scene with attributes
 linktitle: Reading scene with attributes
 second_title: Aspose.3D .NET API
 description: Unlock the power of 3D modeling in .NET with Aspose.3D. Load, save, and manipulate scenes effortlessly. Dive into the world of limitless possibilities.
-type: docs
 weight: 18
 url: /net/loading-and-saving/rvm/read-existing-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Reading scene with attributes
+
 ## Introduction
 
 In the ever-evolving landscape of 3D graphics and modeling, Aspose.3D for .NET emerges as a powerful tool, providing seamless integration and robust functionality for developers. This tutorial will guide you through the process of reading an RVM file, specifically focusing on reading its external attributes. Buckle up as we embark on a journey to harness the capabilities of Aspose.3D!
@@ -79,3 +85,10 @@ A4: You can acquire a temporary license [here](https://purchase.aspose.com/tempo
 ### Q5: Where can I purchase Aspose.3D for .NET?
 
 A5: Visit the [purchase page](https://purchase.aspose.com/buy) to acquire the full version of Aspose.3D.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

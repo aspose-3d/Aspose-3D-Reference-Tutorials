@@ -3,10 +3,16 @@ title: สร้างข้อมูล Tangent และ Binormal สำหร
 linktitle: สร้างข้อมูล Tangent และ Binormal สำหรับ 3D Meshes ใน Java
 second_title: Aspose.3D จาวา API
 description: ปรับปรุงกราฟิก 3D ของคุณด้วย Aspose.3D สำหรับ Java สร้างข้อมูลแทนเจนต์และข้อมูลชีวปกติได้อย่างง่ายดาย ลองทดลองใช้ฟรีทันที!
-type: docs
 weight: 11
 url: /th/java/transforming-3d-meshes/generate-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สร้างข้อมูล Tangent และ Binormal สำหรับ 3D Meshes ใน Java
+
 ในโลกแบบไดนามิกของกราฟิก 3 มิติ การทำความเข้าใจและจัดการข้อมูลแทนเจนต์และข้อมูลชีวปกติเป็นสิ่งสำคัญสำหรับการสร้างแบบจำลองที่สมจริงและน่าดึงดูดสายตา คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการสร้างข้อมูลแทนเจนต์และข้อมูลชีวปกติสำหรับ 3D mesh โดยใช้ Aspose.3D สำหรับ Java ในฐานะนักเขียน SEO ที่เชี่ยวชาญ ฉันจะตรวจสอบให้แน่ใจว่าบทช่วยสอนนี้ไม่เพียงแต่ให้ข้อมูลเท่านั้น แต่ยังเหมาะสำหรับเครื่องมือค้นหาอีกด้วย
 ## การแนะนำ
 การสร้างประสบการณ์ 3D ที่ดื่มด่ำมักต้องการมากกว่าแค่การสร้างแบบจำลอง ข้อมูลแทนเจนต์และไบนอร์มอลมีบทบาทสำคัญในการแรเงาและการจัดแสง ช่วยเพิ่มความสมจริงให้กับฉาก 3D ของคุณ ด้วย Aspose.3D สำหรับ Java คุณสามารถสร้างข้อมูลนี้ได้อย่างง่ายดายและยกระดับกราฟิก 3D ของคุณไปอีกระดับ
@@ -56,3 +62,9 @@ scene.save("BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII);
  คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ฉันจะซื้อ Aspose.3D ได้ที่ไหน
  คุณสามารถซื้อ Aspose.3D ได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

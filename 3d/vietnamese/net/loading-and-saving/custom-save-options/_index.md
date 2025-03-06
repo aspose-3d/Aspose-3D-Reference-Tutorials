@@ -3,10 +3,16 @@ title: Tùy chọn lưu tùy chỉnh
 linktitle: Tùy chọn lưu tùy chỉnh
 second_title: API Aspose.3D .NET
 description: Khám phá sức mạnh của Aspose.3D cho .NET. Tìm hiểu cách tùy chỉnh lưu cảnh 3D của bạn với hướng dẫn từng bước về các định dạng Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC và RVM.
-type: docs
 weight: 21
 url: /vi/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chọn lưu tùy chỉnh
+
 ## Giới thiệu
 
 Chào mừng đến với thế giới của Aspose.3D cho .NET! Nếu bạn đang tìm cách nâng cao khả năng phát triển 3D của mình thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng ta sẽ đi sâu vào các chức năng Tải và Lưu, đặc biệt tập trung vào Tùy chọn Lưu Tùy chỉnh. Aspose.3D for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác và lưu cảnh 3D một cách hiệu quả.
@@ -131,3 +137,9 @@ Câu trả lời 1: Có, Aspose.3D tương thích với nhiều khung .NET khác
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.3D?
 
  A5: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

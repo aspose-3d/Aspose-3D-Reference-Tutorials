@@ -3,10 +3,16 @@ title: 3D 장면의 문서에 속성 애니메이션 적용
 linktitle: 3D 장면의 문서에 속성 애니메이션 적용
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 속성에 애니메이션을 적용하는 방법을 알아보세요. 역동적인 장면을 만들기 위한 단계별 가이드입니다.
-type: docs
 weight: 10
 url: /ko/net/animation/property-to-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D 장면의 문서에 속성 애니메이션 적용
+
 ## 소개
 
 .NET에서 3D 장면 생성 및 애니메이션 영역에 뛰어들고 있다면 Aspose.3D가 가장 적합한 툴킷입니다. 이 단계별 가이드에서는 .NET용 Aspose.3D를 사용하여 3D 장면의 속성에 애니메이션을 적용하는 프로세스를 살펴보겠습니다. 결국, 여러분은 3D 프로젝트에 생명을 불어넣는 지식을 갖추게 될 것입니다.
@@ -128,3 +134,9 @@ Console.WriteLine("\nAnimation property added successfully to document.\nFile sa
 ### Q5: 임시 라이센스를 얻을 수 있나요?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

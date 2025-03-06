@@ -3,10 +3,16 @@ title: Aangepaste schuifbodemcilinder
 linktitle: Aangepaste schuifbodemcilinder
 second_title: Aspose.3D .NET-API
 description: Leer hoe u aangepaste schuifbodemcilinders kunt maken met Aspose.3D voor .NET met onze gedetailleerde stapsgewijze handleiding. Verbeter vandaag nog uw vaardigheden op het gebied van 3D-modelleren!
-type: docs
 weight: 12
 url: /nl/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aangepaste schuifbodemcilinder
+
 ## Invoering
 Welkom bij onze uitgebreide handleiding over het maken van een aangepaste cilinder met Aspose.3D voor .NET. Als u uw vaardigheden op het gebied van 3D-modelleren wilt verbeteren en unieke functies aan uw projecten wilt toevoegen, bent u hier aan het juiste adres. In deze tutorial leiden we u stap voor stap door het proces, aan de hand van duidelijke uitleg en codefragmenten.
 ## Vereisten
@@ -83,3 +89,9 @@ Ja, u kunt de schuifbodem voor elke cilinder afzonderlijk aanpassen, waardoor u 
  Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) voor gemeenschapsondersteuning en discussies.
 ### Hoe kan ik een tijdelijke licentie verkrijgen?
  Haal uw tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

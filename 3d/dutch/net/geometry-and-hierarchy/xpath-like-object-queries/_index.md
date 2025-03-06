@@ -3,10 +3,16 @@ title: XPath-achtige objectquery's
 linktitle: XPath-achtige objectquery's
 second_title: Aspose.3D .NET-API
 description: Ontketen de kracht van Aspose.3D voor .NET! Manipuleer 3D-afbeeldingen naadloos met XPath-achtige query's. Download nu voor een baanbrekende ervaring.
-type: docs
 weight: 24
 url: /nl/net/geometry-and-hierarchy/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XPath-achtige objectquery's
+
 ## Invoering
 Als je op reis gaat om het volledige potentieel van Aspose.3D voor .NET te ontketenen, open je deuren naar een rijk aan mogelijkheden op het gebied van grafische manipulatie van 3D. Of u nu een doorgewinterde ontwikkelaar of een nieuwkomer bent, deze gids leidt u door de nuances van het benutten van de mogelijkheden van Aspose.3D.
 ## Vereisten
@@ -94,3 +100,9 @@ De gratis proefversie wordt geleverd met beperkte functies. Raadpleeg de documen
  Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) voor gemeenschapssteun.
 ### Welke voordelen biedt Aspose.3D ten opzichte van andere 3D-bibliotheken voor .NET?
 Aspose.3D biedt een uitgebreide reeks functies, waaronder krachtige objectquery's en robuuste weergavemogelijkheden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mendeteksi Format
 linktitle: Mendeteksi Format
 second_title: Aspose.3D .NET API
 description: Kuasai manipulasi file 3D dengan mudah dengan Aspose.3D untuk .NET. Muat, simpan, dan deteksi format dengan lancar.
-type: docs
 weight: 12
 url: /id/net/loading-and-saving/detect-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendeteksi Format
+
 ## Perkenalan
 
 Selamat datang di dunia manipulasi file 3D yang menarik menggunakan Aspose.3D untuk .NET! Baik Anda seorang pengembang berpengalaman atau baru memulai dengan grafik 3D, tutorial ini akan memandu Anda melalui proses memuat, menyimpan, dan mendeteksi format dengan mudah.
@@ -93,3 +99,9 @@ A1: Ya, Aspose.3D mendukung berbagai format file 3D, memberikan fleksibilitas da
 ### Q5: Dapatkah saya mencoba Aspose.3D secara gratis sebelum membeli?
 
  A5: Tentu saja! Unduh versi uji coba gratis dari[Rilis Aspose.3D](https://releases.aspose.com/) untuk merasakan kemampuannya secara langsung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

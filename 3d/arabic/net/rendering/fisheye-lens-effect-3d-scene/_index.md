@@ -3,10 +3,16 @@ title: تطبيق تأثير عدسة عين السمكة باستخدام Aspos
 linktitle: تطبيق تأثير عدسة عين السمكة على المشهد ثلاثي الأبعاد
 second_title: Aspose.3D.NET API
 description: عزز مشاهدك ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET! تعلم كيفية تطبيق تأثير عدسة عين السمكة الجذاب خطوة بخطوة. التحميل الان!
-type: docs
 weight: 12
 url: /ar/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق تأثير عدسة عين السمكة باستخدام Aspose.3D لـ .NET
+
 ## مقدمة
 هل تتطلع إلى تحسين المظهر البصري لمشاهدك ثلاثية الأبعاد؟ انغمس في عالم تأثيرات عدسة عين السمكة الرائع باستخدام Aspose.3D لـ .NET. سيرشدك هذا البرنامج التعليمي خطوة بخطوة حول كيفية تطبيق تأثير عدسة عين السمكة على المشاهد ثلاثية الأبعاد، مما يمنحها منظورًا فريدًا وجذابًا.
 ## المتطلبات الأساسية
@@ -77,3 +83,9 @@ renderer.Execute(fisheye, final);
 يقتصر حجم المشهد ثلاثي الأبعاد بشكل أساسي على موارد النظام. تأكد من أن أجهزتك يمكنها التعامل مع حجم المشهد الخاص بك.
 ### هل يمكنني استخدام تنسيق إخراج مختلف بدلاً من PNG للحصول على نتيجة تأثير عين السمكة؟
 نعم، يمكنك تعديل الكود لحفظ المخرجات بتنسيقات صور مختلفة بناءً على متطلباتك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

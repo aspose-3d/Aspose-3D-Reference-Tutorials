@@ -3,10 +3,16 @@ title: Hengerek létrehozása eltolt felsővel az Aspose.3D for Java programban
 linktitle: Hengerek létrehozása eltolt felsővel az Aspose.3D for Java programban
 second_title: Aspose.3D Java API
 description: Fedezze fel a 3D modellezés csodáit Java nyelven az Aspose.3D segítségével. Tanuljon meg könnyedén létrehozni lenyűgöző hengereket eltolt tetővel.
-type: docs
 weight: 11
 url: /hu/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hengerek létrehozása eltolt felsővel az Aspose.3D for Java programban
+
 ## Bevezetés
 
 Java-alapú 3D-modellezés területén az Aspose.3D hatékony eszközként tűnik ki, és lehetőséget kínál a fejlesztőknek, hogy könnyedén készítsenek bonyolult 3D-s jeleneteket. Ebben az oktatóanyagban elmélyülünk az Aspose.3D for Java lenyűgöző világában, egy konkrét feladatra összpontosítva – eltolt tetejű hengerek létrehozására. Ennek az útmutatónak a végére már határozottan átlátja a folyamatot, így ezt a funkciót zökkenőmentesen integrálhatja 3D projektjeibe.
@@ -127,3 +133,9 @@ V3: Igen, felfedezheti és kiválaszthatja az igényeinek megfelelő licencelés
 ### 5. kérdés: Van-e ideiglenes licenc lehetőség tesztelési célokra?
 
  5. válasz: Igen, ideiglenes licencet szerezhet tesztelési és értékelési célokra[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

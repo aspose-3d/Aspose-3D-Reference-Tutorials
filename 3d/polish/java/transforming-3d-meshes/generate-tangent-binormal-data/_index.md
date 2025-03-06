@@ -3,10 +3,16 @@ title: Generuj dane styczne i binormalne dla siatek 3D w Javie
 linktitle: Generuj dane styczne i binormalne dla siatek 3D w Javie
 second_title: Aspose.3D API Java
 description: Ulepsz swoją grafikę 3D za pomocą Aspose.3D dla Java. Bez wysiłku generuj dane styczne i binormalne. Wypróbuj bezpłatną wersję próbną już teraz!
-type: docs
 weight: 11
 url: /pl/java/transforming-3d-meshes/generate-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generuj dane styczne i binormalne dla siatek 3D w Javie
+
 dynamicznym świecie grafiki 3D zrozumienie i manipulowanie danymi stycznymi i binormalnymi ma kluczowe znaczenie dla tworzenia realistycznych i atrakcyjnych wizualnie modeli. Ten przewodnik krok po kroku przeprowadzi Cię przez proces generowania danych stycznych i binormalnych dla siatek 3D przy użyciu Aspose.3D dla Java. Jako biegły autor tekstów SEO dopilnuję, aby ten samouczek zawierał nie tylko informacje, ale także był zoptymalizowany pod kątem wyszukiwarek.
 ## Wstęp
 Tworzenie wciągających wrażeń 3D często wymaga czegoś więcej niż tylko modelowania. Dane styczne i binormalne odgrywają kluczową rolę w cieniowaniu i oświetleniu, zwiększając realizm scen 3D. Dzięki Aspose.3D dla Java możesz bez wysiłku wygenerować te dane i przenieść grafikę 3D na wyższy poziom.
@@ -56,3 +62,9 @@ Gratulacje! Pomyślnie wygenerowałeś dane styczne i binormalne dla siatek 3D p
  Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę kupić Aspose.3D?
  Możesz kupić Aspose.3D[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

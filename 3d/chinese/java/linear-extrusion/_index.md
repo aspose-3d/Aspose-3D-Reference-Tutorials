@@ -3,10 +3,16 @@ title: 在 Java 中使用线性拉伸创建 3D 模型
 linktitle: 在 Java 中使用线性拉伸创建 3D 模型
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D for Java 探索 3D 建模世界。轻松掌握线性挤出。控制中心、设置方向、指定切片、应用扭曲等等！
-type: docs
 weight: 23
 url: /zh/java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用线性拉伸创建 3D 模型
+
 ## 介绍
 
 
@@ -62,3 +68,9 @@ url: /zh/java/linear-extrusion/
 了解如何使用 Aspose.3D for Java 为 3D 模型添加扭曲。请按照我们的分步指南来增强线性挤压效果。
 ### [在 Aspose.3D for Java 中使用线性拉伸中的扭曲偏移](./using-twist-offset/)
 使用 Aspose.3D for Java 增强您的 3D 建模技能。在这个综合教程中学习如何在线性拉伸中使用扭曲偏移。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chia lưới theo vật liệu
 linktitle: Chia lưới theo vật liệu
 second_title: API Aspose.3D .NET
 description: Tìm hiểu cách phân chia lưới 3D theo vật liệu bằng Aspose.3D cho .NET. Cải thiện tổ chức cảnh và hiệu quả. Hướng dẫn từng bước dành cho nhà phát triển.
-type: docs
 weight: 22
 url: /vi/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chia lưới theo vật liệu
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách chia lưới theo vật liệu bằng Aspose.3D cho .NET! Nếu bạn là nhà phát triển làm việc với đồ họa 3D và muốn quản lý cũng như thao tác các mắt lưới một cách hiệu quả thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình tách lưới dựa trên vật liệu, một nhiệm vụ quan trọng trong việc tạo ra các cảnh 3D đa dạng và hấp dẫn về mặt hình ảnh.
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Nói chung, chính sách CloneData có thể có hiệu suất tốt hơn một 
 Có, bạn có thể kết xuất và trực quan hóa các lưới con kết quả bằng khả năng kết xuất Aspose.3D.
 ### Hỏi: Aspose.3D có phù hợp để phát triển trò chơi không?
 Mặc dù chủ yếu được sử dụng để lập mô hình và kết xuất, Aspose.3D có thể được tích hợp vào quy trình phát triển trò chơi cho các tác vụ cụ thể.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

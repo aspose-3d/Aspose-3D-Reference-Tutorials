@@ -3,10 +3,16 @@ title: Non-PBR to PBR Material Conversion
 linktitle: Non-PBR to PBR Material Conversion
 second_title: Aspose.3D .NET API
 description: Explore Aspose.3D for .NET - Convert Non-PBR to PBR materials effortlessly. Comprehensive tutorial and powerful API.
-type: docs
 weight: 16
 url: /net/loading-and-saving/gltf/non-pbr-to-pbr-material-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Non-PBR to PBR Material Conversion
+
 ## Introduction
 
 Welcome to this step-by-step guide on using Aspose.3D for .NET to convert Non-PBR (Physically Based Rendering) to PBR materials. Aspose.3D is a powerful API that allows developers to work seamlessly with 3D file formats in their .NET applications.
@@ -105,3 +111,10 @@ A4: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community 
 ### Q5: Is there a free trial available?
 
 A5: Yes, you can explore a free trial version [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

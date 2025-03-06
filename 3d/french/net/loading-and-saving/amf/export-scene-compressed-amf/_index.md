@@ -3,10 +3,16 @@ title: Exportation d'une scène 3D au format AMF compressé
 linktitle: Exportation de la scène vers AMF compressé
 second_title: API Aspose.3D .NET
 description: Découvrez comment exporter des scènes 3D au format AMF compressé à l'aide d'Aspose.3D pour .NET. Améliorez vos compétences de développement avec ce guide étape par étape.
-type: docs
 weight: 11
 url: /fr/net/loading-and-saving/amf/export-scene-compressed-amf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportation d'une scène 3D au format AMF compressé
+
 ## Introduction
 
 Dans le monde dynamique de la modélisation et du rendu 3D, l’efficacité et la flexibilité sont primordiales. Aspose.3D pour .NET permet aux développeurs d'exporter de manière transparente des scènes 3D au format compressé AMF (Additive Manufacturing File), garantissant une taille de fichier optimale sans compromettre la qualité. Ce didacticiel vous guidera tout au long du processus étape par étape, permettant ainsi aux développeurs débutants et expérimentés d'exploiter facilement les capacités d'Aspose.3D pour .NET.
@@ -98,3 +104,9 @@ A4 : Aspose.3D est conçu pour gérer des scènes de complexité variable et il 
 ### Q5 : Où puis-je trouver du soutien supplémentaire et des discussions communautaires ?
 
  A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour du soutien et des discussions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

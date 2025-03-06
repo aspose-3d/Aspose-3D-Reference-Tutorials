@@ -3,10 +3,16 @@ title: Trung tâm đùn tuyến tính
 linktitle: Trung tâm đùn tuyến tính
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới mô hình 3D với Aspose.3D cho .NET. Kỹ thuật ép đùn tuyến tính tập trung, tạo ra các thiết kế tuyệt đẹp và thỏa sức sáng tạo của bạn.
-type: docs
 weight: 10
 url: /vi/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trung tâm đùn tuyến tính
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách làm chủ quá trình ép đùn tuyến tính bằng Aspose.3D cho .NET. Nếu bạn đang tìm cách nâng cao kỹ năng lập mô hình 3D của mình và tạo ra các sản phẩm ép đùn tuyệt đẹp thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng ta sẽ đi sâu vào kỹ thuật ép đùn tuyến tính, đặc biệt tập trung vào khía cạnh định tâm để đưa thiết kế của bạn lên một tầm cao hoàn toàn mới.
@@ -109,3 +115,10 @@ Trả lời 1: Aspose.3D chủ yếu hỗ trợ các ngôn ngữ .NET như C# v�
 ### Câu hỏi 5: Tôi có thể mua giấy phép Aspose.3D cho .NET ở đâu?
 
  A5: Mua giấy phép của bạn[đây](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

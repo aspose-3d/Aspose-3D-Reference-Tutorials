@@ -3,10 +3,16 @@ title: Adatok generálása 3D hálókhoz Java nyelven (normálok, érintők, bin
 linktitle: Adatok generálása 3D hálókhoz Java nyelven (normálok, érintők, binormálisok)
 second_title: Aspose.3D Java API
 description: Javítsa Java projektjeit az Aspose.3D segítségével. Kövesse oktatóanyagunkat, hogy könnyedén generáljon normál adatokat a 3D hálókhoz. Merüljön el könnyedén a 3D grafikában.
-type: docs
 weight: 11
 url: /hu/java/3d-mesh-data/generate-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adatok generálása 3D hálókhoz Java nyelven (normálok, érintők, binormálisok)
+
 ## Bevezetés
 
 A 3D mesh adatok létrehozása és kezelése Java nyelven kihívásokkal teli, de izgalmas feladat lehet, különösen akkor, ha olyan fájlokkal kell foglalkozni, amelyekből hiányoznak az alapvető normál adatok. Az Aspose.3D for Java jön a megmentésre, hatékony eszközkészletet biztosítva a 3D grafika és háló hatékony kezeléséhez. Ebben az oktatóanyagban végigvezetjük a 3D hálók normál adatainak előállítási folyamatán a Java Aspose.3D használatával.
@@ -95,3 +101,9 @@ Az Aspose.3D for Java leegyszerűsíti a 3D grafikával végzett munka összetet
 ### 5. kérdés: Segítségre van szüksége, vagy szeretne kapcsolatba lépni a közösséggel?
 
  5. válasz: Látogassa meg az Aspose.3D fórumot[itt](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

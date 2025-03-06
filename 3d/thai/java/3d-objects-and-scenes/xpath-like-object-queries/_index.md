@@ -3,10 +3,16 @@ title: ใช้แบบสอบถามที่เหมือน XPath ก
 linktitle: ใช้แบบสอบถามที่เหมือน XPath กับวัตถุ 3 มิติใน Java
 second_title: Aspose.3D จาวา API
 description: สืบค้นวัตถุ 3D ต้นแบบใน Java ได้อย่างง่ายดายด้วย Aspose.3D ใช้คำสั่งเหมือน XPath จัดการฉาก และยกระดับการพัฒนา 3D ของคุณ
-type: docs
 weight: 11
 url: /th/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ใช้แบบสอบถามที่เหมือน XPath กับวัตถุ 3 มิติใน Java
+
 ## การแนะนำ
 
 การเจาะลึกเข้าสู่ขอบเขตของการสร้างแบบจำลอง 3 มิติและการจัดการฉากใน Java อาจเป็นงานที่น่ากังวล แต่อย่ากลัวเลย! Aspose.3D สำหรับ Java มอบโซลูชันที่มีประสิทธิภาพสำหรับการจัดการวัตถุ 3 มิติ ทำให้เป็นเครื่องมืออันล้ำค่าสำหรับนักพัฒนา ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดการประยุกต์ใช้การสืบค้นที่คล้ายกับ XPath กับวัตถุ 3 มิติใน Java โดยใช้ Aspose.3D
@@ -99,3 +105,9 @@ obj = (A3DObject) s.getRootNode().selectSingleObject("/");
 ### Q5: ต้องการใบอนุญาตชั่วคราวหรือไม่?
 
  A5: รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

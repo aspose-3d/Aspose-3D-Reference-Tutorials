@@ -3,10 +3,16 @@ title: Nokta Bulutu Olarak PLY Formatına Aktarma
 linktitle: Nokta Bulutu Olarak PLY Formatına Aktarma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D modelleme dünyasını keşfedin. Modelleri zahmetsizce PLY formatına aktarmayı öğrenin. Çarpıcı görsellerle projelerinizi geliştirin.
-type: docs
 weight: 16
 url: /tr/net/loading-and-saving/ply/export-to-ply-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nokta Bulutu Olarak PLY Formatına Aktarma
+
 ## giriiş
 3D modelleme ve geliştirmenin dinamik dünyasında Aspose.3D for .NET güçlü bir araç seti olarak öne çıkıyor. Bu eğitim, Aspose.3D for .NET kullanarak 3D modelleri nokta bulutu olarak PLY formatına aktarma sürecinde size rehberlik edecektir. Projelerinizi çarpıcı görsellerle geliştirmeye hazırsanız, takip edin ve bu çok yönlü kitaplığın tüm potansiyelini ortaya çıkarın.
 ## Önkoşullar
@@ -59,3 +65,9 @@ Aspose.3D, çeşitli .NET çerçevelerini destekleyerek çok çeşitli geliştir
  Evet, özellikleri bir[ücretsiz deneme](https://releases.aspose.com/) bir taahhütte bulunmadan önce.
 ### 5. Geçici lisansı nasıl alabilirim?
  Geçici lisanslama seçenekleri için şu adresi ziyaret edin:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Capturar ventanas gráficas en escenas 3D
 linktitle: Capturar ventanas gráficas en escenas 3D
 second_title: Aspose.3D API .NET
 description: Aprenda a capturar impresionantes ventanas gráficas 3D utilizando Aspose.3D para .NET. Guía paso a paso para renderizar escenas con flexibilidad.
-type: docs
 weight: 11
 url: /es/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Capturar ventanas gráficas en escenas 3D
+
 ## Introducción
 
 En el ámbito de la visualización y los gráficos 3D, capturar ventanas gráficas es una habilidad esencial que mejora la profundidad y el detalle de sus escenas. Aspose.3D para .NET proporciona una solución sólida para renderizar y manipular escenas 3D. Este tutorial lo guiará a través del proceso de captura de ventanas gráficas en escenas 3D usando Aspose.3D, permitiéndole crear visualizaciones impresionantes con facilidad.
@@ -124,3 +130,9 @@ R2: Si bien Aspose.3D está diseñado principalmente para gráficos y visualizac
 ### P5: ¿Cómo puedo buscar ayuda o participar en la comunidad?
 
  A5: Únase a la comunidad Aspose.3D en el[Foro de soporte](https://forum.aspose.com/c/3d/18) para asistencia y colaboración.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Export 3D Scenes as Point Clouds with Aspose.3D for Java
 linktitle: Export 3D Scenes as Point Clouds with Aspose.3D for Java
 second_title: Aspose.3D Java API
 description: Learn how to export 3D scenes as point clouds in Java with Aspose.3D. Enhance your applications with powerful 3D graphics and visualization.
-type: docs
 weight: 15
 url: /java/point-clouds/export-3d-scenes-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export 3D Scenes as Point Clouds with Aspose.3D for Java
+
 ## Introduction
 
 Aspose.3D for Java facilitates the export of 3D scenes in various formats, including the generation of point clouds. Point clouds are crucial in various industries, from gaming to simulation, offering a representation of a physical space through a collection of points in a 3D coordinate system.
@@ -94,3 +100,10 @@ A4: Visit the Aspose.3D community forum [here](https://forum.aspose.com/c/3d/18)
 ### Q5: Looking to purchase Aspose.3D for Java?
 
 A5: Explore purchasing options [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

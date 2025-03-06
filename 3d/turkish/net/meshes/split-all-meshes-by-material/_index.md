@@ -3,10 +3,16 @@ title: Sahnenin Tüm Ağlarını Malzemeye Göre Bölme
 linktitle: Sahnenin Tüm Ağlarını Malzemeye Göre Bölme
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET kullanarak 3D ağları malzemeye göre nasıl böleceğinizi öğrenin. 3D modellerin verimli organizasyonu ve yönetimi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 21
 url: /tr/net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sahnenin Tüm Ağlarını Malzemeye Göre Bölme
+
 ## giriiş
 Aspose.3D for .NET kullanarak bir 3D sahnenin tüm ağlarını malzemeye göre bölmeyi anlatan bu adım adım kılavuza hoş geldiniz. 3D modellerle çalışıyorsanız ve ağlarınızı malzemelere göre verimli bir şekilde düzenlemek istiyorsanız bu eğitim tam size göre. Aspose.3D, 3D dosyalarla çalışmak için çeşitli özellikler sunan güçlü bir .NET kitaplığıdır ve bu da onu geliştiriciler için mükemmel bir seçim haline getirir.
 ## Önkoşullar
@@ -66,3 +72,9 @@ Aspose.3D öncelikle .NET için tasarlanmıştır ancak .NET dil bağlantıları
  Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk desteği ve tartışmalar için.
 ### 5. Geçici lisans alabilir miyim?
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

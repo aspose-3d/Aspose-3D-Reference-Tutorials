@@ -3,10 +3,16 @@ title: Création de cylindres avec fond cisaillé dans Aspose.3D pour Java
 linktitle: Création de cylindres avec fond cisaillé dans Aspose.3D pour Java
 second_title: API Java Aspose.3D
 description: Apprenez à créer des cylindres personnalisés avec des fonds cisaillés à l'aide d'Aspose.3D pour Java. Améliorez vos compétences en modélisation 3D avec ce guide étape par étape.
-type: docs
 weight: 12
 url: /fr/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création de cylindres avec fond cisaillé dans Aspose.3D pour Java
+
 ## Introduction
 
 Bienvenue dans ce guide étape par étape sur la création de cylindres à fond cisaillé à l'aide d'Aspose.3D pour Java. Aspose.3D est une puissante bibliothèque Java qui vous permet de travailler avec des fichiers 3D sans effort. Dans ce didacticiel, nous allons plonger dans la création de cylindres personnalisés avec des fonds cisaillés, vous offrant ainsi une expérience pratique de l'utilisation d'Aspose.3D pour améliorer vos compétences en modélisation 3D.
@@ -100,3 +106,9 @@ A2 : Oui, Aspose.3D fournit une API conviviale, ce qui la rend adaptée aussi bi
 ### Q5 : Puis-je acheter Aspose.3D pour Java ?
 
  A5 : Oui, vous pouvez acheter Aspose.3D pour Java[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Applying Fisheye Lens Effect with Aspose.3D for .NET
 linktitle: Applying Fisheye Lens Effect to 3D Scene
 second_title: Aspose.3D .NET API
 description: Enhance your 3D scenes with Aspose.3D for .NET! Learn how to apply a captivating fisheye lens effect step by step. Download now!
-type: docs
 weight: 12
 url: /net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applying Fisheye Lens Effect with Aspose.3D for .NET
+
 ## Introduction
 Are you looking to enhance the visual appeal of your 3D scenes? Dive into the fascinating world of fisheye lens effects with Aspose.3D for .NET. This tutorial will guide you step by step on how to apply a fisheye lens effect to your 3D scenes, giving them a unique and captivating perspective.
 ## Prerequisites
@@ -77,3 +83,10 @@ You can adjust the properties of the lights, such as position, type, and color, 
 The size of the 3D scene is primarily limited by system resources. Ensure that your hardware can handle the size of your scene.
 ### Can I use a different output format instead of PNG for the fisheye effect result?
 Yes, you can modify the code to save the output in different image formats based on your requirements.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: विशेषताओं के साथ दृश्य पढ़न
 linktitle: विशेषताओं के साथ दृश्य पढ़ना
 second_title: Aspose.3D .NET API
 description: Aspose.3D के साथ .NET में 3D मॉडलिंग की शक्ति को अनलॉक करें। दृश्यों को सहजता से लोड करें, सहेजें और हेरफेर करें। असीमित संभावनाओं की दुनिया में गोता लगाएँ।
-type: docs
 weight: 18
 url: /hi/net/loading-and-saving/rvm/read-existing-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# विशेषताओं के साथ दृश्य पढ़ना
+
 ## परिचय
 
 3डी ग्राफिक्स और मॉडलिंग के लगातार विकसित हो रहे परिदृश्य में, .NET के लिए Aspose.3D एक शक्तिशाली उपकरण के रूप में उभरता है, जो डेवलपर्स के लिए निर्बाध एकीकरण और मजबूत कार्यक्षमता प्रदान करता है। यह ट्यूटोरियल आपको आरवीएम फ़ाइल को पढ़ने की प्रक्रिया में मार्गदर्शन करेगा, विशेष रूप से इसकी बाहरी विशेषताओं को पढ़ने पर ध्यान केंद्रित करेगा। Aspose.3D की क्षमताओं का दोहन करने के लिए हम यात्रा पर निकल रहे हैं, कमर कस लें!
@@ -79,3 +85,9 @@ A4: You can acquire a temporary license [here](https://buy.aspose.com/temporary-
 ### Q5: Where can I purchase Aspose.3D for .NET?
 
 A5: Visit the [purchase page](https://Aspose.3D का पूर्ण संस्करण प्राप्त करने के लिए buy.aspose.com/buy)।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

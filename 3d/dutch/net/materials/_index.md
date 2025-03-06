@@ -3,10 +3,16 @@ title: Materialen
 linktitle: Materialen
 second_title: Aspose.3D .NET-API
 description: Ontgrendel de wereld van boeiende 3D-scènes met Aspose.3D voor .NET-tutorials. Leer hoe u verbluffende scènes kunt maken en ingebedde texturen moeiteloos kunt verkennen.
-type: docs
 weight: 28
 url: /nl/net/materials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Materialen
+
 ## Invoering
 
 Ben je klaar om op reis te gaan naar de spannende wereld van 3D-ontwerp en visualisatie? Aspose.3D voor .NET opent de deur naar een wereld waar creativiteit geen grenzen kent. In dit artikel begeleiden we u door een reeks tutorials, waarbij elke tutorial een nieuw facet van deze krachtige .NET-bibliotheek ontgrendelt.
@@ -31,3 +37,9 @@ Ontgrendel vandaag nog het potentieel van Aspose.3D voor .NET. Download de bibli
 Creëer betoverende 3D-scènes met ingebedde texturen met behulp van Aspose.3D voor .NET. Volg onze stapsgewijze handleiding voor verbluffende resultaten.
 ### [Ingebedde texturen dumpen](./dump-embedded-textures/)
 Ontgrendel de geheimen van ingebedde texturen in 3D-modellen met Aspose.3D voor .NET. Duik in onze stap-voor-stap handleiding voor een naadloze integratie. Download nu uw gratis proefversie!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

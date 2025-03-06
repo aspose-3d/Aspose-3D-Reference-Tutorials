@@ -3,10 +3,16 @@ title: 디코딩 메시
 linktitle: 디코딩 메시
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 메시를 손쉽게 디코딩합니다. 원활한 3D 프로그래밍을 위한 관문입니다. 프로젝트를 탐색하고, 맞춤화하고, 향상하세요.
-type: docs
 weight: 10
 url: /ko/net/loading-and-saving/draco/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 디코딩 메시
+
 ## 소개
 상상해 보세요. 귀하는 3D 개발 영역에 있으며 복잡한 메시 구조를 디코딩하려고 노력하고 있습니다. 도전은 현실이지만 두려워하지 마세요! 이 여정을 시작하면서 우리는 3D 프로그래밍 세계에서 신뢰할 수 있는 동반자인 .NET용 Aspose.3D를 사용하여 메시 디코딩의 미로를 탐색하게 될 것입니다.
 ## 전제 조건
@@ -55,3 +61,9 @@ var pointCloud = (PointCloud)FileFormat.Draco.Decode("Your Document Directory" +
  틀림없이! 당신의[무료 시험판](https://releases.aspose.com/) 약속을 하기 전에 Aspose.3D의 우수성을 경험해 보세요.
 ### 단기 프로젝트를 위한 임시 라이센스가 필요합니까?
  향하다[임시면허](https://purchase.aspose.com/temporary-license/) 프로젝트 요구 사항에 맞는 임시 라이센스를 취득하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

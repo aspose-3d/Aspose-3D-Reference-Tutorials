@@ -3,10 +3,16 @@ title: Opsi Penyimpanan Kustom
 linktitle: Opsi Penyimpanan Kustom
 second_title: Aspose.3D .NET API
 description: Jelajahi kekuatan Aspose.3D untuk .NET. Pelajari cara menyesuaikan penyimpanan adegan 3D Anda dengan panduan langkah demi langkah tentang format Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC, dan RVM.
-type: docs
 weight: 21
 url: /id/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opsi Penyimpanan Kustom
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.3D untuk .NET! Jika Anda ingin meningkatkan kemampuan pengembangan 3D, Anda berada di tempat yang tepat. Dalam tutorial ini, kita akan mendalami fungsi Memuat dan Menyimpan, khususnya berfokus pada Opsi Penyimpanan Kustom. Aspose.3D untuk .NET adalah perpustakaan canggih yang memberdayakan pengembang untuk memanipulasi dan menyimpan adegan 3D secara efisien.
@@ -131,3 +137,9 @@ A1: Ya, Aspose.3D kompatibel dengan berbagai kerangka .NET, memastikan fleksibil
 ### Q5: Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.3D?
 
  A5: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

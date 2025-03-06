@@ -3,10 +3,16 @@ title: Vytváření válců se střiženým dnem v Aspose.3D pro Javu
 linktitle: Vytváření válců se střiženým dnem v Aspose.3D pro Javu
 second_title: Aspose.3D Java API
 description: Naučte se vytvářet přizpůsobené válce se střižným dnem pomocí Aspose.3D pro Java. Zvyšte své dovednosti v oblasti 3D modelování pomocí tohoto podrobného průvodce.
-type: docs
 weight: 12
 url: /cs/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytváření válců se střiženým dnem v Aspose.3D pro Javu
+
 ## Úvod
 
 Vítejte v tomto podrobném průvodci vytvářením válců se střiženým dnem pomocí Aspose.3D pro Java. Aspose.3D je výkonná Java knihovna, která vám umožní bez námahy pracovat s 3D soubory. V tomto tutoriálu se ponoříme do vytváření přizpůsobených válců se střiženým dnem, které vám poskytne praktickou zkušenost s používáním Aspose.3D ke zlepšení vašich dovedností v oblasti 3D modelování.
@@ -100,3 +106,9 @@ A2: Ano, Aspose.3D poskytuje uživatelsky přívětivé API, takže je vhodné p
 ### Q5: Mohu si koupit Aspose.3D pro Java?
 
  A5: Ano, můžete si zakoupit Aspose.3D pro Java[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

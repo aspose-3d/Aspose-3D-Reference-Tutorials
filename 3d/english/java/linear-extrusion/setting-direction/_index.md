@@ -3,10 +3,16 @@ title: Setting Direction in Linear Extrusion with Aspose.3D for Java
 linktitle: Setting Direction in Linear Extrusion with Aspose.3D for Java
 second_title: Aspose.3D Java API
 description: Master linear extrusion with Aspose.3D for Java! Follow our guide for seamless 3D programming. Download now for a captivating experience.
-type: docs
 weight: 12
 url: /java/linear-extrusion/setting-direction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting Direction in Linear Extrusion with Aspose.3D for Java
+
 ## Introduction
 
 Welcome to our step-by-step guide on setting direction in linear extrusion using Aspose.3D for Java. Aspose.3D is a powerful Java library that allows developers to work seamlessly with 3D files and scenes. In this tutorial, we will focus on the specific task of setting direction in linear extrusion, enhancing your proficiency in 3D programming.
@@ -108,3 +114,10 @@ A4: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for any assist
 ### Q5: Are temporary licenses available for Aspose.3D?
 
 A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

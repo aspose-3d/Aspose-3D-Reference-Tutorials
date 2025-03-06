@@ -3,10 +3,16 @@ title: Center in Linear Extrusion
 linktitle: Center in Linear Extrusion
 second_title: Aspose.3D .NET API
 description: Explore the world of 3D modeling with Aspose.3D for .NET. Center linear extrusion techniques, create stunning designs, and unleash your creativity.
-type: docs
 weight: 10
 url: /net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Center in Linear Extrusion
+
 ## Introduction
 
 Welcome to this comprehensive guide on mastering linear extrusion using Aspose.3D for .NET. If you're looking to enhance your 3D modeling skills and create stunning extrusions, you're in the right place. In this tutorial, we'll delve into the linear extrusion technique, specifically focusing on the centering aspect to bring your designs to a whole new level.
@@ -110,3 +116,10 @@ A4: You can acquire a temporary license [here](https://purchase.aspose.com/tempo
 
 A5: Purchase your license [here](https://purchase.aspose.com/buy).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: วัสดุ
 linktitle: วัสดุ
 second_title: Aspose.3D .NET API
 description: ปลดล็อกโลกแห่งฉาก 3 มิติที่น่าตื่นตาตื่นใจด้วย Aspose.3D สำหรับบทช่วยสอน .NET เรียนรู้การสร้างฉากที่น่าทึ่งและสำรวจพื้นผิวที่ฝังไว้ได้อย่างง่ายดาย
-type: docs
 weight: 28
 url: /th/net/materials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# วัสดุ
+
 ## การแนะนำ
 
 คุณพร้อมที่จะเริ่มต้นการเดินทางสู่อาณาจักรที่น่าตื่นเต้นของการออกแบบและการแสดงภาพ 3 มิติแล้วหรือยัง? Aspose.3D สำหรับ .NET เปิดประตูสู่โลกที่ความคิดสร้างสรรค์ไม่มีขอบเขต ในบทความนี้ เราจะแนะนำคุณตลอดชุดบทช่วยสอน โดยแต่ละชุดจะปลดล็อกแง่มุมใหม่ของไลบรารี .NET อันทรงพลังนี้
@@ -31,3 +37,9 @@ url: /th/net/materials/
 สร้างฉาก 3 มิติที่น่าตื่นตาตื่นใจด้วยพื้นผิวแบบฝังโดยใช้ Aspose.3D สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อผลลัพธ์ที่น่าทึ่ง
 ### [การทิ้งพื้นผิวแบบฝัง](./dump-embedded-textures/)
 ปลดล็อกความลับของพื้นผิวแบบฝังในโมเดล 3 มิติด้วย Aspose.3D สำหรับ .NET เจาะลึกคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น ดาวน์โหลดทดลองใช้ฟรีตอนนี้!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

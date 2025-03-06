@@ -3,10 +3,16 @@ title: Nastavte normály na 3D objektech v Javě pomocí Aspose.3D
 linktitle: Nastavte normály na 3D objektech v Javě pomocí Aspose.3D
 second_title: Aspose.3D Java API
 description: Naučte se nastavit normály na 3D objektech v Javě pomocí Aspose.3D. Vylepšete svou grafiku pomocí tohoto komplexního návodu.
-type: docs
 weight: 17
 url: /cs/java/geometry/set-up-normals-on-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavte normály na 3D objektech v Javě pomocí Aspose.3D
+
 ## Úvod
 
 Vítejte v našem podrobném průvodci nastavením normál na 3D objektech v Javě pomocí Aspose.3D. Ať už jste zkušený vývojář nebo s 3D grafikou teprve začínáte, pochopení a manipulace s normály je zásadní pro dosažení realistických světelných efektů ve vašich 3D modelech. V tomto tutoriálu vás provedeme celým procesem a rozdělíme ho do snadno srozumitelných kroků.
@@ -91,3 +97,9 @@ A1: Ano, Aspose.3D lze integrovat s jinými Java 3D knihovnami pro komplexní ř
 ### Q5: Potřebujete pomoc nebo chcete diskutovat s komunitou?
 
  A5: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) za podporu a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

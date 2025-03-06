@@ -3,10 +3,16 @@ title: 使用 Aspose.3D for Java 將 3D 場景匯出為點雲
 linktitle: 使用 Aspose.3D for Java 將 3D 場景匯出為點雲
 second_title: Aspose.3D Java API
 description: 了解如何使用 Aspose.3D 將 3D 場景匯出為 Java 中的點雲。透過強大的 3D 圖形和視覺化增強您的應用程式。
-type: docs
 weight: 15
 url: /zh-hant/java/point-clouds/export-3d-scenes-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D for Java 將 3D 場景匯出為點雲
+
 ## 介紹
 
 Aspose.3D for Java 有助於以各種格式匯出 3D 場景，包括生成點雲。點雲在從遊戲到模擬的各個行業中都至關重要，它透過 3D 座標系中的點集合提供物理空間的表示。
@@ -94,3 +100,9 @@ A3：是的，探索免費試用[這裡](https://releases.aspose.com/).
 ### Q5：想要購買 Aspose.3D for Java？
 
  A5：探索購買選項[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

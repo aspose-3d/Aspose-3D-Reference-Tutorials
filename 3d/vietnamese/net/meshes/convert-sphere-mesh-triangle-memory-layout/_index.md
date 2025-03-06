@@ -3,10 +3,16 @@ title: Chuyển đổi lưới hình cầu thành lưới tam giác với bố c
 linktitle: Chuyển đổi lưới hình cầu thành lưới tam giác với bố cục bộ nhớ tùy chỉnh
 second_title: API Aspose.3D .NET
 description: Khám phá Aspose.3D cho .NET và dễ dàng chuyển đổi Sphere Mesh thành Triangle Mesh với bố cục bộ nhớ tùy chỉnh. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 15
 url: /vi/net/meshes/convert-sphere-mesh-triangle-memory-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi lưới hình cầu thành lưới tam giác với bố cục bộ nhớ tùy chỉnh
+
 ## Giới thiệu
 Bạn đang tìm cách khai thác sức mạnh của Aspose.3D cho .NET để chuyển đổi Lưới hình cầu thành Lưới tam giác với bố cục bộ nhớ tùy chỉnh? Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình, giúp ngay cả những người mới bắt đầu cũng có thể dễ dàng làm theo. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách đạt được điều này bằng cách sử dụng Aspose.3D cho .NET.
 ## Điều kiện tiên quyết
@@ -74,3 +80,9 @@ Trả lời: Có, Aspose.3D cho .NET tương thích với nhiều khung .NET kh�
  Đáp: Khám phá tài liệu Aspose.3D cho .NET và[Kho lưu trữ GitHub](https://github.com/aspose-3d/Aspose.3D-for-.NET) cho các dự án mẫu.
 ### Câu hỏi: Có cộng đồng tích cực nào hỗ trợ Aspose.3D cho .NET không?
  A: Vâng, hãy tham gia[Aspose.3D cho diễn đàn .NET](https://forum.aspose.com/c/3d/18) để nhận được sự giúp đỡ từ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

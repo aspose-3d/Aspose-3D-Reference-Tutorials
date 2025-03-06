@@ -3,10 +3,16 @@ title: 三角網格
 linktitle: 三角網格
 second_title: Aspose.3D .NET API
 description: 在此逐步指南中探索 Aspose.3D for .NET 的強大功能。了解如何輕鬆對 3D 網格進行三角測量以增強建模。
-type: docs
 weight: 22
 url: /zh-hant/net/geometry-and-hierarchy/triangulate-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 三角網格
+
 ## 介紹
 
 歡迎來到這個關於使用 Aspose.3D for .NET 在 3D 場景中對網格進行三角測量的綜合教程。 Aspose.3D 是一個功能強大的程式庫，使 .NET 開發人員能夠無縫地處理 3D 文件，並提供用於創建、操作和轉換 3D 模型的廣泛功能。
@@ -102,3 +108,10 @@ A2：當然。 Aspose.3D 可以無縫整合到桌面和 Web 應用程式中。
 ### Q5：購買前可以免費試用Aspose.3D嗎？
 
  A5：當然！您可以下載免費試用版[這裡](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

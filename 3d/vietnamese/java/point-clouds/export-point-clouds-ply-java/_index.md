@@ -3,10 +3,16 @@ title: Xuất các đám mây điểm sang định dạng PLY bằng Aspose.3D c
 linktitle: Xuất các đám mây điểm sang định dạng PLY bằng Aspose.3D cho Java
 second_title: API Java Aspose.3D
 description: Khám phá sức mạnh của Aspose.3D cho Java trong việc xuất các đám mây điểm sang định dạng PLY. Hãy làm theo hướng dẫn từng bước của chúng tôi để phát triển 3D liền mạch.
-type: docs
 weight: 13
 url: /vi/java/point-clouds/export-point-clouds-ply-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất các đám mây điểm sang định dạng PLY bằng Aspose.3D cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách xuất đám mây điểm sang định dạng PLY bằng Aspose.3D cho Java. Aspose.3D là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp 3D, cung cấp trải nghiệm liền mạch trong việc quản lý và thao tác các định dạng 3D khác nhau. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc xuất các đám mây điểm sang định dạng PLY, một định dạng tệp được sử dụng rộng rãi để biểu diễn dữ liệu 3D.
@@ -81,3 +87,9 @@ Câu trả lời 1: Aspose.3D chủ yếu được thiết kế cho Java, nhưng
 ### Câu hỏi 5: Tôi có thể mua Aspose.3D cho Java ở đâu?
 
  Câu trả lời 5: Mua Aspose.3D cho Java[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

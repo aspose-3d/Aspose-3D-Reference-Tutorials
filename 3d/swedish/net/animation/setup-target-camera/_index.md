@@ -3,10 +3,16 @@ title: Ställa in mål och kameror för animering i 3D-scener
 linktitle: Ställa in mål och kameror för animering i 3D-scener
 second_title: Aspose.3D .NET API
 description: Lås upp magin med 3D-animation med Aspose.3D för .NET. Ställ enkelt in mål och kameror med denna omfattande handledning.
-type: docs
 weight: 11
 url: /sv/net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställa in mål och kameror för animering i 3D-scener
+
 ## Introduktion
 
 Att sätta upp mål och kameror utgör grunden för alla 3D-animationsprojekt. Aspose.3D för .NET erbjuder en robust uppsättning verktyg för att effektivisera denna process, så att utvecklare kan släppa lös sin kreativitet. Denna handledning guidar dig genom stegen, bryta ner komplexiteten och göra den till synes skrämmande uppgiften mer hanterbar.
@@ -103,3 +109,9 @@ A4: Ja, du kan utforska en gratis provperiod[här](https://releases.aspose.com/)
 ### F5: Hur får jag en tillfällig licens?
 
  A5: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

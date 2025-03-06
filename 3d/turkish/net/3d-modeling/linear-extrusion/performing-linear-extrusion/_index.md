@@ -3,10 +3,16 @@ title: Doğrusal Ekstrüzyon Gerçekleştirme
 linktitle: Doğrusal Ekstrüzyon Gerçekleştirme
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D grafik dünyasını keşfedin. Bu adım adım kılavuzda Doğrusal Ekstrüzyonun Gerçekleştirilmesi.
-type: docs
 weight: 12
 url: /tr/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Doğrusal Ekstrüzyon Gerçekleştirme
+
 ## Giriiş:
 
 Geliştirme oyununuzu geliştiren bir güç merkezi olan Aspose.3D for .NET ile 3D grafikler dünyasına heyecan verici bir yolculuğa çıkın. Bu derste, statik 2D profillere hayat veren ve onları 3D'nin dinamik dünyasına iten büyüleyici bir teknik olan Doğrusal Ekstrüzyonun inceliklerini inceleyeceğiz. Aspose.3D'yi kullanarak yaratıcılığın ve yeniliğin kapısını açalım!
@@ -106,3 +112,9 @@ A1: Kesinlikle! Aspose.3D kullanıcı dostu bir ortam sunar ve eğitimimiz size 
 ### S5: Ücretsiz deneme sürümü var mı?
 
  A5: Kesinlikle! Ücretsiz deneme sürümünü indirin[Burada](https://releases.aspose.com/) Aspose.3D'nin yeteneklerini ilk elden deneyimlemek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

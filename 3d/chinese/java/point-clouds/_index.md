@@ -3,10 +3,16 @@ title: 在 Java 中使用点云
 linktitle: 在 Java 中使用点云
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 教程轻松解码、加载、创建、导出和简化 Java 中的点云。逐步增强您的 3D 开发技能。
-type: docs
 weight: 34
 url: /zh/java/point-clouds/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用点云
+
 
 ## 介绍
 
@@ -49,3 +55,9 @@ url: /zh/java/point-clouds/
 了解如何使用 Aspose.3D 将 3D 场景导出为 Java 中的点云。通过强大的 3D 图形和可视化增强您的应用程序。
 ### [使用 Java 中的 PLY Export 简化点云处理](./ply-export-point-clouds-java/)
 使用 Aspose.3D 探索 Java 中的简化点云处理。了解轻松导出 PLY 文件。通过我们的分步指南来提升您的 3D 图形项目。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

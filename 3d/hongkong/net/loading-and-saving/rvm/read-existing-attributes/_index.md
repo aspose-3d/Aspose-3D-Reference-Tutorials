@@ -3,10 +3,16 @@ title: 屬性的閱讀場景
 linktitle: 屬性的閱讀場景
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D 釋放 .NET 中 3D 建模的強大功能。輕鬆載入、儲存和操作場景。潛入充滿無限可能的世界。
-type: docs
 weight: 18
 url: /zh-hant/net/loading-and-saving/rvm/read-existing-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 屬性的閱讀場景
+
 ## 介紹
 
 在不斷發展的 3D 圖形和建模領域，Aspose.3D for .NET 成為一種強大的工具，為開發人員提供無縫整合和強大的功能。本教學將引導您完成讀取 RVM 檔案的過程，特別注意讀取其外部屬性。繫好安全帶，我們踏上利用 Aspose.3D 功能的旅程！
@@ -79,3 +85,9 @@ A4: You can acquire a temporary license [here](https://buy.aspose.com/temporary-
 ### Q5: Where can I purchase Aspose.3D for .NET?
 
 A5: Visit the [purchase page](https://buy.aspose.com/buy）取得完整版本的 Aspose.3D。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

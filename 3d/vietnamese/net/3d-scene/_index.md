@@ -3,10 +3,16 @@ title: Cảnh 3D
 linktitle: Cảnh 3D
 second_title: API Aspose.3D .NET
 description: Khám phá các hướng dẫn Aspose.3D for .NET về cách thay đổi hướng mặt phẳng, xuất cảnh sang định dạng AMF nén, lật hệ tọa độ, v.v.
-type: docs
 weight: 21
 url: /vi/net/3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cảnh 3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.3D dành cho .NET, nơi sự sáng tạo đáp ứng độ chính xác. Trong loạt bài hướng dẫn này, chúng tôi đi sâu vào sự phức tạp của thao tác cảnh 3D, cung cấp hướng dẫn từng bước để nâng cao khả năng phát triển của bạn.
@@ -37,3 +43,9 @@ Khám phá khả năng to lớn của việc lưu lưới 3D ở định dạng 
 [Đọc hướng dẫn: Đặt thuộc tính ba chiều trong cảnh 3D](./set-3d-properties/)
 
 Tóm lại, loạt bài hướng dẫn Aspose.3D cho .NET mở ra cánh cửa dẫn đến nhiều khả năng. Mỗi hướng dẫn cung cấp những hiểu biết thực tế, cho phép bạn tự tin điều hướng sự phức tạp của thao tác cảnh 3D. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, những hướng dẫn này sẽ giúp bạn phát huy hết tiềm năng của Aspose.3D cho .NET trong các dự án của mình. Hãy hòa mình vào và để khả năng sáng tạo của bạn bay cao trong không gian ba chiều!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

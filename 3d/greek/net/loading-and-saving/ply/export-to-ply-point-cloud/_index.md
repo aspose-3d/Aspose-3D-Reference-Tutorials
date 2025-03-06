@@ -3,10 +3,16 @@ title: Εξαγωγή σε μορφή PLY ως Point Cloud
 linktitle: Εξαγωγή σε μορφή PLY ως Point Cloud
 second_title: Aspose.3D .NET API
 description: Εξερευνήστε τον κόσμο της τρισδιάστατης μοντελοποίησης με το Aspose.3D για .NET. Μάθετε να εξάγετε μοντέλα σε μορφή PLY χωρίς κόπο. Αναβαθμίστε τα έργα σας με εκπληκτικά γραφικά.
-type: docs
 weight: 16
 url: /el/net/loading-and-saving/ply/export-to-ply-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαγωγή σε μορφή PLY ως Point Cloud
+
 ## Εισαγωγή
 Στον δυναμικό κόσμο της τρισδιάστατης μοντελοποίησης και ανάπτυξης, το Aspose.3D for .NET ξεχωρίζει ως μια ισχυρή εργαλειοθήκη. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία εξαγωγής μοντέλων 3D σε μορφή PLY ως νέφος σημείων χρησιμοποιώντας το Aspose.3D για .NET. Εάν είστε έτοιμοι να βελτιώσετε τα έργα σας με εκπληκτικά γραφικά, ακολουθήστε και ξεκλειδώστε όλες τις δυνατότητες αυτής της ευέλικτης βιβλιοθήκης.
 ## Προαπαιτούμενα
@@ -59,3 +65,9 @@ FileFormat.PLY.Encode(sphere, exportPath, saveOptions);
  Ναι, εξερευνήστε τις δυνατότητες με α[δωρεάν δοκιμή](https://releases.aspose.com/) πριν αναλάβετε δέσμευση.
 ### 5. Πώς μπορώ να αποκτήσω προσωρινή άδεια;
  Για προσωρινές επιλογές αδειοδότησης, επισκεφθείτε[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

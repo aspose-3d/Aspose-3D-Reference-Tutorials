@@ -3,10 +3,16 @@ title: اقرأ المشاهد ثلاثية الأبعاد الموجودة بس
 linktitle: اقرأ المشاهد ثلاثية الأبعاد الموجودة بسهولة في Java باستخدام Aspose.3D
 second_title: Aspose.3D جافا API
 description: استكشف عالم الرسومات ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. يمكنك قراءة المشاهد ثلاثية الأبعاد الموجودة ومعالجتها بسهولة.
-type: docs
 weight: 14
 url: /ar/java/load-and-save/read-existing-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# اقرأ المشاهد ثلاثية الأبعاد الموجودة بسهولة في Java باستخدام Aspose.3D
+
 ## مقدمة
 
 إذا كنت تغوص في عالم الرسومات والتصميمات ثلاثية الأبعاد باستخدام Java، فأنت في مكان رائع. Aspose.3D for Java هي مكتبة قوية تعمل على تبسيط عملية العمل مع المشاهد ثلاثية الأبعاد. في هذا البرنامج التعليمي، سنرشدك خلال خطوات قراءة المشاهد ثلاثية الأبعاد الموجودة دون عناء، مما يفتح أمامك عالمًا من إمكانيات التعديل والإضافة والمعالجة.
@@ -104,3 +110,9 @@ FileFormat.RVM_BINARY.loadAttributes(scene, dataDir + "att-test.att");
 ### س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.3D لـ Java؟
 
 ج5: الوثائق الشاملة متاحة[هنا](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

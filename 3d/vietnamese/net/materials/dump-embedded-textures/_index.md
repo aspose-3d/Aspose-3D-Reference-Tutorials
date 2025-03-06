@@ -3,10 +3,16 @@ title: Kết cấu nhúng
 linktitle: Kết cấu nhúng
 second_title: API Aspose.3D .NET
 description: Mở khóa bí mật của kết cấu nhúng trong mô hình 3D với Aspose.3D cho .NET. Đi sâu vào hướng dẫn từng bước của chúng tôi để tích hợp liền mạch. Tải về dùng thử ngay!
-type: docs
 weight: 11
 url: /vi/net/materials/dump-embedded-textures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết cấu nhúng
+
 ## Giới thiệu
 Chào mừng bạn đến với thế giới của Aspose.3D cho .NET - một bộ công cụ mạnh mẽ cho phép các nhà phát triển thao tác và làm việc với các tệp 3D một cách liền mạch. Trong hướng dẫn toàn diện này, chúng ta sẽ đi sâu vào lĩnh vực hấp dẫn của việc kết xuất các kết cấu nhúng bằng Aspose.3D. Nếu bạn mong muốn nâng cao ứng dụng 3D của mình bằng cách khai thác tiềm năng của các họa tiết được nhúng thì bạn đã đến đúng nơi.
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Trả lời: Aspose.3D chủ yếu hỗ trợ các ngôn ngữ .NET, nhưng bạ
  A: Có, giấy phép tạm thời có sẵn[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm tài liệu toàn diện về Aspose.3D ở đâu?
  A: Tài liệu có thể truy cập được[đây](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

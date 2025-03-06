@@ -3,10 +3,16 @@ title: Draai in lineaire extrusie
 linktitle: Draai in lineaire extrusie
 second_title: Aspose.3D .NET-API
 description: Ontdek de boeiende wereld van 3D-graphics met Aspose.3D voor .NET. Leer stap voor stap lineaire extrusie met een twist.
-type: docs
 weight: 14
 url: /nl/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Draai in lineaire extrusie
+
 ## Invoering
 
 In de steeds evoluerende wereld van .NET-ontwikkeling is het benutten van de kracht van 3D-graphics een opwindende onderneming. Aspose.3D voor .NET komt naar voren als een waardevolle toolkit, waarmee ontwikkelaars naadloos meeslepende en visueel verbluffende applicaties kunnen creëren. In deze uitgebreide gids gaan we dieper in op één intrigerende functie: lineaire extrusie met een twist. Deze tutorial begeleidt u stap voor stap door het proces en ontsluit de mogelijkheden van Aspose.3D voor .NET.
@@ -118,3 +124,9 @@ A4: Zeker! Aspose.3D biedt een rijke reeks functies. Combineer Linear Extrusie g
 ### Vraag 5: Is er een community voor Aspose.3D-ondersteuning en discussies?
 
  A5: Ja, word lid van de Aspose.3D-gemeenschap op[Aspose-forum](https://forum.aspose.com/c/3d/18) voor ondersteuning en boeiende discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

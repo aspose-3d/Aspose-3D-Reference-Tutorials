@@ -3,10 +3,16 @@ title: Java용 Aspose.3D를 사용하여 다양한 형식으로 3D 장면 저장
 linktitle: Java용 Aspose.3D를 사용하여 다양한 형식으로 3D 장면 저장
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java에서 원활한 3D 장면 조작 세계를 탐색해 보세요. 손쉽게 다양한 형식으로 장면을 저장하는 방법을 알아보세요.
-type: docs
 weight: 15
 url: /ko/java/load-and-save/save-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D를 사용하여 다양한 형식으로 3D 장면 저장
+
 ## 소개
 
 3D 장면을 생성하고 조작하는 것은 프로그래밍의 매력적인 측면이며, 강력한 Java 라이브러리용 Aspose.3D를 사용하면 이 작업이 더욱 흥미롭고 효율적이 됩니다. 이 튜토리얼에서는 Aspose.3D for Java를 사용하여 다양한 형식으로 3D 장면을 저장하는 과정을 안내합니다. 숙련된 개발자이든 이제 막 시작하든 이 단계별 가이드는 Aspose.3D의 기능을 활용하여 Java 애플리케이션을 향상시키는 데 도움이 될 것입니다.
@@ -103,3 +109,9 @@ A3: 설명서를 참조하세요[여기](https://reference.aspose.com/3d/java/).
 ### Q5: 임시 라이센스를 구매할 수 있나요?
 
  A5: 예, 임시 라이센스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

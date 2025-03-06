@@ -3,10 +3,16 @@ title: Sík tájolásának megváltoztatása 3D-s jelenetekben
 linktitle: Sík tájolásának megváltoztatása 3D-s jelenetekben
 second_title: Aspose.3D .NET API
 description: Fedezze fel az Aspose.3D-t .NET-hez, és sajátítsa el a változó síktájolást 3D-s jelenetekben. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 10
 url: /hu/net/3d-modeling/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sík tájolásának megváltoztatása 3D-s jelenetekben
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó útmutatóban a sík tájolásának megváltoztatásáról 3D jelenetekben az Aspose.3D for .NET használatával! Ha Ön fejlesztő vagy 3D rajongó, aki készségeit szeretné fejleszteni, akkor jó helyen jár. Ebben az oktatóanyagban lépésről lépésre elmélyülünk a folyamatban, világos példák és részletes magyarázatok segítségével. A végére alapos ismerete lesz arról, hogyan lehet manipulálni a sík tájolását a 3D projektekben.
@@ -95,3 +101,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan módosíthatja a sík tájolását a 
 ### 5. kérdés: Hol találok részletes dokumentációt?
 
  V5: Lásd a dokumentációt[itt](https://reference.aspose.com/3d/net/) mélyreható tájékoztatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

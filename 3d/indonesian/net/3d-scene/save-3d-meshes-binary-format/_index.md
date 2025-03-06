@@ -3,10 +3,16 @@ title: Menyimpan Jerat 3D dalam Format Biner Khusus
 linktitle: Menyimpan Jerat 3D dalam Format Biner Khusus
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia 3D dengan Aspose.3D untuk .NET. Pelajari cara menyimpan jerat dalam format biner khusus.
-type: docs
 weight: 13
 url: /id/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyimpan Jerat 3D dalam Format Biner Khusus
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.3D untuk .NET, perpustakaan canggih yang memberdayakan pengembang untuk bekerja dengan file 3D dengan mudah. Dalam tutorial ini, kita akan mempelajari proses menyimpan jerat 3D dalam format biner khusus menggunakan Aspose.3D untuk .NET. Panduan ini mengasumsikan Anda memiliki pemahaman dasar tentang C# dan familiar dengan perpustakaan Aspose.3D.
@@ -142,3 +148,9 @@ A1: Aspose.3D terutama mendukung bahasa .NET, namun Anda dapat menjelajahi opsi 
 ### Q5: Dapatkah saya membeli Aspose.3D untuk .NET?
 
  A5: Ya, Anda dapat membeli Aspose.3D dari[halaman pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

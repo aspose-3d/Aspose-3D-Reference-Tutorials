@@ -3,10 +3,16 @@ title: Tạo mô hình 3D với ép đùn tuyến tính trong Java
 linktitle: Tạo mô hình 3D với ép đùn tuyến tính trong Java
 second_title: API Java Aspose.3D
 description: Khám phá thế giới mô hình 3D với Aspose.3D cho Java. Làm chủ việc ép đùn tuyến tính một cách dễ dàng. Trung tâm điều khiển, đặt hướng, chỉ định các lát cắt, áp dụng vòng xoắn và hơn thế nữa!
-type: docs
 weight: 23
 url: /vi/java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo mô hình 3D với ép đùn tuyến tính trong Java
+
 ## Giới thiệu
 
 
@@ -62,3 +68,9 @@ Tìm hiểu cách chỉ định các lát cắt trong ép đùn tuyến tính b�
 Tìm hiểu cách thêm điểm nhấn vào mô hình 3D của bạn bằng Aspose.3D cho Java. Thực hiện theo hướng dẫn từng bước của chúng tôi để có hiệu ứng ép đùn tuyến tính nâng cao.
 ### [Sử dụng Twist Offset trong ép đùn tuyến tính với Aspose.3D cho Java](./using-twist-offset/)
 Nâng cao kỹ năng tạo mô hình 3D của bạn với Aspose.3D cho Java. Tìm hiểu cách sử dụng Twist Offset trong Linear Extrusion trong hướng dẫn toàn diện này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

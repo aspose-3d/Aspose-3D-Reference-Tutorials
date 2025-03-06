@@ -3,10 +3,16 @@ title: Java용 Aspose.3D를 사용하여 메시를 효율적으로 디코딩
 linktitle: Java용 Aspose.3D를 사용하여 메시를 효율적으로 디코딩
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 효율적인 3D 메시 디코딩을 살펴보세요. 개발자를 위한 단계별 튜토리얼입니다.
-type: docs
 weight: 10
 url: /ko/java/point-clouds/decode-meshes-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D를 사용하여 메시를 효율적으로 디코딩
+
 ## 소개
 
 메시를 효율적으로 디코딩하는 것은 3D 개발의 중요한 측면입니다. Java용 Aspose.3D는 메시를 정확하고 빠르게 디코딩할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 최적의 결과를 위해 이 강력한 Java 라이브러리를 활용하는 단계를 살펴보겠습니다.
@@ -90,3 +96,10 @@ A3: 다음 커뮤니티에 가입하세요.[forum.aspose.com/c/3d/18](https://fo
 ### Q5: 테스트하려면 임시 라이센스가 필요합니까?
 
  A5: 예, 테스트 목적으로 임시 라이센스를 얻을 수 있습니다.[buy.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

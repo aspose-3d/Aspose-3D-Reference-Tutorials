@@ -3,10 +3,16 @@ title: Comprimir malhas 3D com Google Draco em Java
 linktitle: Comprimir malhas 3D com Google Draco em Java
 second_title: API Java Aspose.3D
 description: Otimize seus aplicativos 3D com Aspose.3D. Aprenda como compactar malhas usando Google Draco em Java. Siga nosso guia passo a passo para um desenvolvimento 3D eficiente.
-type: docs
 weight: 10
 url: /pt/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprimir malhas 3D com Google Draco em Java
+
 ## Introdução
 
 Bem-vindo a este guia completo sobre compactação de malhas 3D com Google Draco em Java usando Aspose.3D. Neste tutorial, orientaremos você no processo de compactação eficiente de malhas 3D, utilizando o poder do Aspose.3D. Se você é um desenvolvedor que busca aprimorar seus aplicativos 3D reduzindo tamanhos de malha sem comprometer a qualidade, você está no lugar certo.
@@ -100,3 +106,9 @@ A2: Embora este tutorial se concentre em Java, o Google Draco está disponível 
 ### Q5: Existe um fórum da comunidade para suporte ao Aspose.3D?
 
  R5: Sim, para suporte e discussões da comunidade, visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

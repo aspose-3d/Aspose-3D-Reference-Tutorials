@@ -3,10 +3,16 @@ title: Bewaar 3D-mazen in aangepaste binaire formaten voor flexibiliteit in Java
 linktitle: Bewaar 3D-mazen in aangepaste binaire formaten voor flexibiliteit in Java
 second_title: Aspose.3D Java-API
 description: Leer hoe u 3D-meshes in aangepaste binaire formaten kunt opslaan met Aspose.3D voor Java. Verbeter de flexibiliteit in Java-toepassingen met deze stapsgewijze zelfstudie.
-type: docs
 weight: 13
 url: /nl/java/3d-scenes-and-models/save-custom-mesh-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bewaar 3D-mazen in aangepaste binaire formaten voor flexibiliteit in Java
+
 ## Invoering
 
 Welkom bij deze stapsgewijze zelfstudie over het opslaan van 3D-meshes in aangepaste binaire formaten voor flexibiliteit in Java met behulp van Aspose.3D. In deze handleiding leiden we u door het proces van het converteren van 3D-meshes en het opslaan ervan in een aangepast binair formaat om de flexibiliteit en interoperabiliteit in uw Java-toepassingen te verbeteren.
@@ -124,3 +130,9 @@ A4: De documentatie van Aspose.3D kan voorbeeldmodellen bevatten, maar u kunt oo
 ### Vraag 5: Kan ik het binaire formaat verder aanpassen aan specifieke vereisten?
 
 A5: Absoluut, u kunt het binaire formaat gerust aanpassen aan de specifieke behoeften van uw toepassing.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

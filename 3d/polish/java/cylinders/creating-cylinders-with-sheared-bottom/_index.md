@@ -3,10 +3,16 @@ title: Tworzenie cylindrów ze ściętym dnem w Aspose.3D dla Java
 linktitle: Tworzenie cylindrów ze ściętym dnem w Aspose.3D dla Java
 second_title: Aspose.3D API Java
 description: Naucz się tworzyć niestandardowe cylindry ze ściętymi spodami przy użyciu Aspose.3D dla Java. Podnieś swoje umiejętności modelowania 3D dzięki temu przewodnikowi krok po kroku.
-type: docs
 weight: 12
 url: /pl/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tworzenie cylindrów ze ściętym dnem w Aspose.3D dla Java
+
 ## Wstęp
 
 Witamy w tym przewodniku krok po kroku dotyczącym tworzenia cylindrów ze ściętymi dnami przy użyciu Aspose.3D dla Java. Aspose.3D to potężna biblioteka Java, która umożliwia bezproblemową pracę z plikami 3D. W tym samouczku zagłębimy się w tworzenie niestandardowych cylindrów ze ściętymi spodami, zapewniając praktyczne doświadczenie w używaniu Aspose.3D w celu udoskonalenia umiejętności modelowania 3D.
@@ -100,3 +106,9 @@ Odpowiedź 2: Tak, Aspose.3D zapewnia przyjazne dla użytkownika API, dzięki cz
 ### P5: Czy mogę kupić Aspose.3D dla Java?
 
  Odpowiedź 5: Tak, możesz kupić Aspose.3D dla Java[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

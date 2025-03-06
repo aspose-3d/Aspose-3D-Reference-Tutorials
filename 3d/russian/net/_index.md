@@ -1,12 +1,17 @@
 ---
 title: Комплексные руководства и примеры Aspose.3D для .NET
 linktitle: Учебные пособия по Aspose.3D для .NET
-type: docs
 weight: 10
 url: /ru/net/
 description: Откройте для себя мир 3D-моделирования и анимации с помощью учебных пособий Aspose.3D для .NET. Улучшайте свои проекты без особых усилий — от рендеринга до линейной экструзии.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Комплексные руководства и примеры Aspose.3D для .NET
+
 ## Введение
 
 Готовы ли вы отправиться в увлекательное путешествие в мир 3D-моделирования и анимации? Не ищите дальше — Aspose.3D для .NET предлагает вам обширную коллекцию учебных пособий и примеров, призванных раскрыть ваш творческий потенциал и поднять ваши проекты на новую высоту.
@@ -60,3 +65,9 @@ is_root: true
 
 
 Раскройте свой творческий потенциал и погрузитесь в мир учебных пособий Aspose.3D for .NET. Загрузите пробную версию прямо сейчас и поднимите свои 3D-проекты на невероятную высоту!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

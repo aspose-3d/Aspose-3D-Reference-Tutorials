@@ -3,10 +3,16 @@ title: Doelen en camera's instellen voor animatie in 3D-scènes
 linktitle: Doelen en camera's instellen voor animatie in 3D-scènes
 second_title: Aspose.3D .NET-API
 description: Ontgrendel de magie van 3D-animatie met Aspose.3D voor .NET. Stel moeiteloos doelen en camera's in met behulp van deze uitgebreide tutorial.
-type: docs
 weight: 11
 url: /nl/net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Doelen en camera's instellen voor animatie in 3D-scènes
+
 ## Invoering
 
 Het instellen van doelen en camera's vormt de basis van elk 3D-animatieproject. Aspose.3D voor .NET biedt een robuuste set tools om dit proces te stroomlijnen, waardoor ontwikkelaars hun creativiteit de vrije loop kunnen laten. Deze tutorial leidt je door de stappen, waarbij de complexiteit wordt weggenomen en de ogenschijnlijk lastige taak beter beheersbaar wordt.
@@ -103,3 +109,9 @@ A4: Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose
 ### Vraag 5: Hoe verkrijg ik een tijdelijke licentie?
 
  A5: Vraag een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 造型
 linktitle: 造型
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 建模的艺术！在这个综合教程中轻松制作迷人的原始模型。今天释放您的创造力。
-type: docs
 weight: 28
 url: /zh/net/3d-modeling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 造型
+
 
 ## 介绍
 
@@ -67,3 +73,9 @@ Aspose.3D 有助于创建参数化 3D 几何圆柱体，使用户能够轻松生
 ## 3D 建模教程
 ### [创建原始 3D 模型](./primitive-3d-models/)
 使用 Aspose.3D for .NET 探索 3D 建模世界。轻松创建令人惊叹的原始模型。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nyírt aljú hengerek létrehozása Aspose.3D for Java programban
 linktitle: Nyírt aljú hengerek létrehozása Aspose.3D for Java programban
 second_title: Aspose.3D Java API
 description: Tanuljon meg testreszabott, nyírt fenékű hengereket létrehozni az Aspose.3D for Java segítségével. Növelje 3D-s modellezési készségeit ezzel a lépésről lépésre bemutatott útmutatóval.
-type: docs
 weight: 12
 url: /hu/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nyírt aljú hengerek létrehozása Aspose.3D for Java programban
+
 ## Bevezetés
 
 Üdvözöljük ebben a lépésről lépésre szóló útmutatóban a nyírt fenekű hengerek létrehozásáról az Aspose.3D for Java használatával. Az Aspose.3D egy hatékony Java-könyvtár, amely lehetővé teszi a 3D-s fájlokkal való erőfeszítés nélküli munkát. Ebben az oktatóanyagban elmerülünk a testreszabott, nyírt fenékű hengerek létrehozásában, amelyek gyakorlati tapasztalatot nyújtanak az Aspose.3D használatában a 3D-s modellezési képességek fejlesztése érdekében.
@@ -100,3 +106,9 @@ Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan lehet kihasználni az Aspos
 ### 5. kérdés: Megvásárolhatom az Aspose.3D-t Java-hoz?
 
  5. válasz: Igen, megvásárolhatja az Aspose.3D-t Java-hoz[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

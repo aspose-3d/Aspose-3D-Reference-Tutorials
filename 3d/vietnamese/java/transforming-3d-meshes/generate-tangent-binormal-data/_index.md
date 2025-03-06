@@ -3,10 +3,16 @@ title: Tạo dữ liệu tiếp tuyến và nhị phân cho lưới 3D trong Jav
 linktitle: Tạo dữ liệu tiếp tuyến và nhị phân cho lưới 3D trong Java
 second_title: API Java Aspose.3D
 description: Nâng cao đồ họa 3D của bạn với Aspose.3D cho Java. Tạo dữ liệu tiếp tuyến và nhị phân một cách dễ dàng. Hãy thử dùng thử miễn phí ngay bây giờ!
-type: docs
 weight: 11
 url: /vi/java/transforming-3d-meshes/generate-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo dữ liệu tiếp tuyến và nhị phân cho lưới 3D trong Java
+
 Trong thế giới năng động của đồ họa 3D, việc hiểu và thao tác dữ liệu tiếp tuyến và nhị phân là rất quan trọng để tạo ra các mô hình thực tế và hấp dẫn về mặt hình ảnh. Hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình tạo dữ liệu tiếp tuyến và nhị phân cho lưới 3D bằng Aspose.3D cho Java. Là một người viết SEO thành thạo, tôi đảm bảo rằng hướng dẫn này không chỉ mang tính thông tin mà còn được tối ưu hóa cho các công cụ tìm kiếm.
 ## Giới thiệu
 Việc tạo ra trải nghiệm 3D phong phú thường đòi hỏi nhiều thứ hơn là chỉ lập mô hình. Dữ liệu tiếp tuyến và nhị phân đóng vai trò quan trọng trong việc tạo bóng và chiếu sáng, nâng cao tính chân thực cho cảnh 3D của bạn. Với Aspose.3D cho Java, bạn có thể dễ dàng tạo dữ liệu này và đưa đồ họa 3D của mình lên một tầm cao mới.
@@ -56,3 +62,9 @@ Chúc mừng! Bạn đã tạo thành công dữ liệu tiếp tuyến và nhị
  Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể mua Aspose.3D ở đâu?
  Bạn có thể mua Aspose.3D[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

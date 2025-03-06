@@ -3,10 +3,16 @@ title: जावा में 3डी एनिमेशन के लिए ल
 linktitle: जावा में 3डी एनिमेशन के लिए लक्ष्य कैमरा सेट करें | Aspose.3D ट्यूटोरियल
 second_title: Aspose.3D जावा एपीआई
 description: Aspose.3D के साथ सहजता से जावा 3D एनिमेशन का अन्वेषण करें। चरण-दर-चरण मार्गदर्शिका के लिए हमारे ट्यूटोरियल का अनुसरण करें। मनोरम 3डी विकास यात्रा के लिए अभी डाउनलोड करें।
-type: docs
 weight: 11
 url: /hi/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में 3डी एनिमेशन के लिए लक्ष्य कैमरा सेट करें | Aspose.3D ट्यूटोरियल
+
 ## परिचय
 
 Aspose.3D का उपयोग करके जावा में 3D एनिमेशन के लिए एक लक्ष्य कैमरा स्थापित करने पर इस चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है। चाहे आप एक अनुभवी डेवलपर हों या जावा में 3डी एनिमेशन के साथ शुरुआत कर रहे हों, यह ट्यूटोरियल आपको स्पष्ट और संक्षिप्त निर्देशों के साथ प्रक्रिया से परिचित कराएगा।
@@ -98,3 +104,9 @@ scene.save(MyDir, FileFormat.DISCREET3DS);
 ### Q5: मैं अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
 
  A5: आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

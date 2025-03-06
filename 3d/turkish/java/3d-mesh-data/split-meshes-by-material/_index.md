@@ -3,10 +3,16 @@ title: Java'da Verimli İşleme için 3D Meshleri Malzemeye Göre Bölün
 linktitle: Java'da Verimli İşleme için 3D Meshleri Malzemeye Göre Bölün
 second_title: Aspose.3D Java API'si
 description: 3D ağları malzemeye göre verimli bir şekilde bölmeye yönelik adım adım kılavuzumuzla Aspose.3D'nin Java'daki gücünü keşfedin. Uygulamanızın performansını sorunsuz bir şekilde artırın.
-type: docs
 weight: 12
 url: /tr/java/3d-mesh-data/split-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Verimli İşleme için 3D Meshleri Malzemeye Göre Bölün
+
 ## giriiş
 
 Aspose.3D kullanarak Java'da verimli işleme için 3D ağları malzemeye göre bölmeyi konu alan bu kapsamlı eğitime hoş geldiniz. 3D grafik dünyasına dalmak istiyorsanız ve güçlü bir Java kütüphanesine ihtiyacınız varsa Aspose.3D sizin çözümünüzdür. Bu eğitimde, Java uygulamanızı üstün performans için optimize ederek 3D ağları malzemeye göre verimli bir şekilde kullanma sürecinde size yol göstereceğiz.
@@ -104,3 +110,10 @@ A2: Kesinlikle! Bu yöntem, karmaşık 3D modeller için iyi ölçeklenir ve bun
 ### S5: Herhangi bir sorun veya soru için nasıl destek alabilirim?
 
  A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluktan özel destek için.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

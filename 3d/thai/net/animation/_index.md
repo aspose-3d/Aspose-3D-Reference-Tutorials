@@ -3,10 +3,16 @@ title: แอนิเมชั่น
 linktitle: แอนิเมชั่น
 second_title: Aspose.3D .NET API
 description: ปลดล็อกโลกแห่งแอนิเมชั่น 3 มิติด้วย Aspose.3D สำหรับบทช่วยสอน .NET เรียนรู้การสร้างภาพเคลื่อนไหวและตั้งค่าเป้าหมายและกล้องสำหรับฉากไดนามิกได้อย่างง่ายดาย
-type: docs
 weight: 30
 url: /th/net/animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แอนิเมชั่น
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่อาณาจักรแอนิเมชั่น 3 มิติที่น่าหลงใหลด้วย Aspose.3D สำหรับ .NET! ในคู่มือที่ครอบคลุมนี้ เราจะสำรวจบทช่วยสอนที่จำเป็นสองบทที่จะช่วยให้คุณสร้างฉาก 3 มิติที่น่าดึงดูดและมีชีวิตชีวา มาเริ่มต้นการเดินทางที่น่าตื่นเต้นนี้ด้วยกัน!
@@ -37,3 +43,9 @@ url: /th/net/animation/
 เรียนรู้การสร้างภาพเคลื่อนไหวคุณสมบัติ 3 มิติด้วย Aspose.3D สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับการสร้างฉากแบบไดนามิก
 ### [การตั้งค่าเป้าหมายและกล้องสำหรับแอนิเมชั่นในฉาก 3 มิติ](./setup-target-camera/)
 ปลดล็อกความมหัศจรรย์ของแอนิเมชัน 3 มิติด้วย Aspose.3D สำหรับ .NET กำหนดเป้าหมายและกล้องได้อย่างง่ายดายโดยใช้บทช่วยสอนที่ครอบคลุมนี้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

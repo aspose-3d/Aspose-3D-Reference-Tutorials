@@ -3,10 +3,16 @@ title: Charger des nuages de points PLY de manière transparente en Java
 linktitle: Charger des nuages de points PLY de manière transparente en Java
 second_title: API Java Aspose.3D
 description: Améliorez votre application Java avec le chargement transparent du nuage de points PLY Aspose.3D. Guide étape par étape, FAQ et assistance.
-type: docs
 weight: 11
 url: /fr/java/point-clouds/load-ply-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Charger des nuages de points PLY de manière transparente en Java
+
 ## Introduction
 
 Bienvenue dans ce guide complet sur le chargement transparent de nuages de points PLY en Java à l'aide d'Aspose.3D. Si vous souhaitez améliorer votre application Java avec de puissantes capacités de traitement de nuages de points 3D, vous êtes au bon endroit. Dans ce didacticiel, nous vous guiderons pas à pas tout au long du processus, en veillant à ce que vous maîtrisiez parfaitement chaque concept.
@@ -89,3 +95,10 @@ A3 : Se référer à la documentation[ici](https://reference.aspose.com/3d/java
 ### Q5 : Puis-je obtenir une licence temporaire pour tester ?
 
  A5 : Bien sûr, obtenez un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

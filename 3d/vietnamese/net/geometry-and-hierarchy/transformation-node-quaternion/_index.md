@@ -3,10 +3,16 @@ title: Chuyển đổi nút bằng Quaternion
 linktitle: Chuyển đổi nút bằng Quaternion
 second_title: API Aspose.3D .NET
 description: Tìm hiểu cách chuyển đổi các nút 3D bằng quaternion bằng Aspose.3D cho .NET. Hướng dẫn từng bước cho người mới bắt đầu.
-type: docs
 weight: 20
 url: /vi/net/geometry-and-hierarchy/transformation-node-quaternion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi nút bằng Quaternion
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước về cách chuyển đổi nút theo bậc bốn trong cảnh 3D bằng Aspose.3D cho .NET. Trong hướng dẫn này, chúng ta sẽ khám phá các khả năng mạnh mẽ của Aspose.3D cho .NET và hướng dẫn quy trình thêm các phép biến đổi vào nút 3D bằng cách sử dụng quaternions.
@@ -121,3 +127,10 @@ Trả lời 1: Quaternion là các thực thể toán học được sử dụng
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.3D?
 
  A5: Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

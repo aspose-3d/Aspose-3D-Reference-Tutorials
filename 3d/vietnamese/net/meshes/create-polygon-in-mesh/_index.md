@@ -3,10 +3,16 @@ title: Tạo đa giác trong lưới
 linktitle: Tạo đa giác trong lưới
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới mô hình 3D với Aspose.3D cho .NET. Tạo đa giác tuyệt đẹp trong các mắt lưới một cách dễ dàng. Tải xuống ngay để có trải nghiệm phát triển tuyệt vời!
-type: docs
 weight: 18
 url: /vi/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo đa giác trong lưới
+
 ## Giới thiệu
 Bạn đã sẵn sàng bước vào thế giới mô hình 3D thú vị với Aspose.3D cho .NET chưa? Nếu bạn là nhà phát triển đang tìm cách nâng cao kỹ năng của mình hoặc là người mới quan tâm đến việc tạo các lưới 3D tuyệt đẹp thì bạn đã đến đúng nơi. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình tạo đa giác trong lưới bằng Aspose.3D.
 ## Điều kiện tiên quyết
@@ -59,3 +65,9 @@ Trả lời: Aspose.3D cho .NET được thiết kế chủ yếu cho môi trư�
  A: Khám phá những điều sâu rộng[tài liệu](https://reference.aspose.com/3d/net/) có sẵn cho những hiểu biết sâu sắc.
 ### Câu hỏi: Làm cách nào để mua Aspose.3D cho .NET?
  Đáp: Hãy ghé thăm[trang mua hàng](https://purchase.aspose.com/buy) để có được giấy phép của bạn và mở khóa toàn bộ tiềm năng của Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

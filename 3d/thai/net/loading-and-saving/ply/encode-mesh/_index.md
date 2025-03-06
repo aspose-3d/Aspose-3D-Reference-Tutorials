@@ -3,10 +3,16 @@ title: การเข้ารหัส Mesh เป็นรูปแบบ PLY
 linktitle: การเข้ารหัส Mesh เป็นรูปแบบ PLY
 second_title: Aspose.3D .NET API
 description: สำรวจโลกของการเขียนโปรแกรม 3D ด้วย Aspose.3D สำหรับ .NET เรียนรู้วิธีเข้ารหัส Mesh เป็นรูปแบบ PLY ได้อย่างง่ายดาย ยกระดับเกมการพัฒนาของคุณ!
-type: docs
 weight: 13
 url: /th/net/loading-and-saving/ply/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเข้ารหัส Mesh เป็นรูปแบบ PLY
+
 ## การแนะนำ
 การเริ่มต้นการเดินทางสู่อาณาจักรของการเขียนโปรแกรม 3 มิติอาจเป็นเรื่องที่น่าตื่นเต้นและน่าหวาดกลัว ในฐานะนักพัฒนา คุณอาจพบว่าตัวเองโหยหาที่จะสำรวจความเป็นไปได้ต่างๆ ที่กราฟิก 3 มิตินำเสนอ ในบทช่วยสอนนี้ เราจะเจาะลึกกระบวนการอันน่าทึ่งของการเข้ารหัส Mesh เป็นรูปแบบ PLY โดยใช้ Aspose.3D สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -56,3 +62,9 @@ FileFormat.PLY.Encode(sphere, "sphere.ply");
  เยี่ยมชมฟอรั่ม Aspose.3D[ที่นี่](https://forum.aspose.com/c/3d/18) เพื่อเชื่อมต่อกับชุมชนและขอความช่วยเหลือ
 ### 5. Aspose.3D มีรุ่นทดลองใช้ฟรีหรือไม่
  แน่นอน! สำรวจความสามารถของ Aspose.3D ด้วยการทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

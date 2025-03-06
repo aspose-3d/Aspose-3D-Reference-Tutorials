@@ -3,10 +3,16 @@ title: Έκθεση γεωμετρικού μετασχηματισμού
 linktitle: Έκθεση γεωμετρικού μετασχηματισμού
 second_title: Aspose.3D .NET API
 description: Εξερευνήστε τις απεριόριστες δυνατότητες των τρισδιάστατων γραφικών στο .NET με το Aspose.3D. Ανακαλύψτε γεωμετρικούς μετασχηματισμούς χωρίς κόπο.
-type: docs
 weight: 13
 url: /el/net/geometry-and-hierarchy/expose-geometric-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Έκθεση γεωμετρικού μετασχηματισμού
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον συναρπαστικό κόσμο του Aspose.3D για .NET! Σε αυτό το σεμινάριο, θα εμβαθύνουμε στις περιπλοκές της έκθεσης γεωμετρικών μετασχηματισμών σε τρισδιάστατες σκηνές χρησιμοποιώντας το Aspose.3D. Εάν είστε προγραμματιστής .NET που θέλει να βελτιώσει τις δυνατότητες τρισδιάστατων γραφικών σας, βρίσκεστε στο σωστό μέρος.
@@ -98,3 +104,9 @@ A1: Το Aspose.3D είναι συμβατό με ένα ευρύ φάσμα π�
 ### Ε5: Πώς μπορώ να αγοράσω το Aspose.3D για .NET;
 
  A5: Για να αγοράσετε το Aspose.3D για .NET, επισκεφτείτε το[σελίδα αγοράς](https://purchase.aspose.com/buy) στον ιστότοπο Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

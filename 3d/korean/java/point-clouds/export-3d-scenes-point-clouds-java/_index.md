@@ -3,10 +3,16 @@ title: Java용 Aspose.3D를 사용하여 3D 장면을 포인트 클라우드로 
 linktitle: Java용 Aspose.3D를 사용하여 3D 장면을 포인트 클라우드로 내보내기
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java에서 3D 장면을 포인트 클라우드로 내보내는 방법을 알아보세요. 강력한 3D 그래픽과 시각화로 애플리케이션을 강화하세요.
-type: docs
 weight: 15
 url: /ko/java/point-clouds/export-3d-scenes-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D를 사용하여 3D 장면을 포인트 클라우드로 내보내기
+
 ## 소개
 
 Java용 Aspose.3D는 포인트 클라우드 생성을 포함하여 다양한 형식으로 3D 장면을 쉽게 내보낼 수 있습니다. 포인트 클라우드는 게임부터 시뮬레이션까지 다양한 산업에서 중요하며, 3D 좌표계의 포인트 모음을 통해 물리적 공간을 표현합니다.
@@ -94,3 +100,9 @@ scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ### Q5: Java용 Aspose.3D를 구매하려고 하시나요?
 
  A5: 구매 옵션 살펴보기[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

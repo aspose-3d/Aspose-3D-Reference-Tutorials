@@ -3,10 +3,16 @@ title: 定制剪底油缸
 linktitle: 定制剪底油缸
 second_title: Aspose.3D .NET API
 description: 通过我们详细的分步指南，学习使用 Aspose.3D for .NET 创建定制的剪切底部圆柱体。立即提升您的 3D 建模技能！
-type: docs
 weight: 12
 url: /zh/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 定制剪底油缸
+
 ## 介绍
 欢迎阅读我们有关使用 Aspose.3D for .NET 创建定制圆柱体的综合指南。如果您希望提高 3D 建模技能并为您的项目添加独特的功能，那么您来对地方了。在本教程中，我们将使用清晰的解释和代码片段逐步引导您完成该过程。
 ## 先决条件
@@ -83,3 +89,9 @@ scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
 参观[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)以获得社区支持和讨论。
 ### 我怎样才能获得临时许可证？
 获取您的临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

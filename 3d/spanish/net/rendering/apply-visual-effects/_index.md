@@ -3,10 +3,16 @@ title: Aplicar efectos visuales en ventanas gráficas 3D
 linktitle: Aplicar efectos visuales en ventanas gráficas 3D
 second_title: Aspose.3D API .NET
 description: Explore el mundo de la visualización 3D con Aspose.3D para .NET. Aprenda a aplicar efectos visuales cautivadores a sus escenas utilizando tutoriales paso a paso. Mejore sus proyectos con efectos de pixelación, escala de grises, detección de bordes y desenfoque.
-type: docs
 weight: 10
 url: /es/net/rendering/apply-visual-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar efectos visuales en ventanas gráficas 3D
+
 ## Introducción
 
 Mejorar el atractivo visual de las escenas 3D es un aspecto crucial a la hora de crear experiencias inmersivas. Aspose.3D para .NET proporciona un potente conjunto de herramientas para aplicar efectos visuales a ventanas gráficas 3D. En este tutorial, recorreremos el proceso de aplicación de varios efectos a una escena 3D, incluida la pixelación, la escala de grises, la detección de bordes y el desenfoque.
@@ -179,3 +185,9 @@ R4: Aspose.3D proporciona una variedad de efectos de posprocesamiento integrados
 ### P5: ¿Puedo utilizar Aspose.3D para proyectos comerciales?
 
  R5: Sí, puedes utilizar Aspose.3D con fines comerciales. Referirse a[pagina de compra](https://purchase.aspose.com/buy) para obtener detalles sobre la licencia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

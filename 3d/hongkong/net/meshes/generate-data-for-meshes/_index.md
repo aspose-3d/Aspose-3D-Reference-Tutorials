@@ -3,10 +3,16 @@ title: 產生網格的法線數據
 linktitle: 產生網格的法線數據
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 增強 3D 模型！在本逐步指南中學習如何產生網格的法線資料。現實主義與簡單性的結合。
-type: docs
 weight: 20
 url: /zh-hant/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 產生網格的法線數據
+
 ## 介紹
 歡迎閱讀使用 Aspose.3D for .NET 產生網格法線資料的逐步指南！如果您正在使用 3D 模型並希望透過添加普通資料來增強視覺吸引力，那麼本教學適合您。 Aspose.3D 是一個功能強大的 .NET 庫，可簡化 3D 圖形編程，在本指南中，我們將引導您完成為網格生成法線資料的過程。
 ## 先決條件
@@ -66,3 +72,9 @@ Console.WriteLine("\nNormal data generated successfully for all meshes.");
 提供全面的文檔[這裡](https://reference.aspose.com/3d/net/).
 ### 如果我需要購買 Aspose.3D 許可證怎麼辦？
 您可以從以下位置購買許可證[購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

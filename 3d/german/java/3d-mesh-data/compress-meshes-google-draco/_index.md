@@ -3,10 +3,16 @@ title: Komprimieren Sie 3D-Netze mit Google Draco in Java
 linktitle: Komprimieren Sie 3D-Netze mit Google Draco in Java
 second_title: Aspose.3D Java-API
 description: Optimieren Sie Ihre 3D-Anwendungen mit Aspose.3D. Erfahren Sie, wie Sie Meshes mit Google Draco in Java komprimieren. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente 3D-Entwicklung.
-type: docs
 weight: 10
 url: /de/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Komprimieren Sie 3D-Netze mit Google Draco in Java
+
 ## Einführung
 
 Willkommen zu dieser umfassenden Anleitung zum Komprimieren von 3D-Netzen mit Google Draco in Java mithilfe von Aspose.3D. In diesem Tutorial führen wir Sie durch den Prozess der effizienten Komprimierung von 3D-Netzen unter Nutzung der Leistungsfähigkeit von Aspose.3D. Wenn Sie als Entwickler Ihre 3D-Anwendungen verbessern möchten, indem Sie die Netzgröße reduzieren, ohne die Qualität zu beeinträchtigen, sind Sie hier richtig.
@@ -100,3 +106,9 @@ A2: Während sich dieses Tutorial auf Java konzentriert, ist Google Draco für d
 ### F5: Gibt es ein Community-Forum für Aspose.3D-Unterstützung?
 
  A5: Ja, für Community-Unterstützung und Diskussionen besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

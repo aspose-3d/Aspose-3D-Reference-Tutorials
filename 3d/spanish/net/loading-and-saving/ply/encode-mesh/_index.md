@@ -3,10 +3,16 @@ title: Codificación de malla en formato PLY
 linktitle: Codificación de malla en formato PLY
 second_title: Aspose.3D API .NET
 description: Explore el mundo de la programación 3D con Aspose.3D para .NET. Aprenda a codificar mallas en formato PLY sin esfuerzo. ¡Mejora tu juego de desarrollo!
-type: docs
 weight: 13
 url: /es/net/loading-and-saving/ply/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codificación de malla en formato PLY
+
 ## Introducción
 Embarcarse en un viaje al ámbito de la programación 3D puede resultar tan emocionante como intimidante. Como desarrollador, es posible que desee explorar las posibilidades que ofrecen los gráficos 3D. En este tutorial, nos sumergiremos en el fascinante proceso de codificar una malla en formato PLY usando Aspose.3D para .NET.
 ## Requisitos previos
@@ -56,3 +62,9 @@ Sí, Aspose.3D se integra perfectamente con varios proyectos .NET, proporcionand
  Visita el foro de Aspose.3D[aquí](https://forum.aspose.com/c/3d/18) para conectarse con la comunidad y buscar ayuda.
 ### 5. ¿Existe una prueba gratuita disponible para Aspose.3D?
  ¡Ciertamente! Explore las capacidades de Aspose.3D con una prueba gratuita[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

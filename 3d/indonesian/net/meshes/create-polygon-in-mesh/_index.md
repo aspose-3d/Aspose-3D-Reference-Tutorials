@@ -3,10 +3,16 @@ title: Membuat Poligon di Mesh
 linktitle: Membuat Poligon di Mesh
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia pemodelan 3D dengan Aspose.3D untuk .NET. Buat poligon menakjubkan dalam jerat dengan mudah. Unduh sekarang untuk pengalaman pengembangan yang mendalam!
-type: docs
 weight: 18
 url: /id/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Poligon di Mesh
+
 ## Perkenalan
 Apakah Anda siap untuk terjun ke dunia pemodelan 3D yang menarik dengan Aspose.3D untuk .NET? Jika Anda seorang pengembang yang ingin meningkatkan keterampilan Anda atau pendatang baru yang tertarik membuat jerat 3D yang menakjubkan, Anda berada di tempat yang tepat. Dalam tutorial komprehensif ini, kami akan memandu Anda melalui proses pembuatan poligon dalam mesh menggunakan Aspose.3D.
 ## Prasyarat
@@ -59,3 +65,9 @@ J: Aspose.3D untuk .NET terutama dirancang untuk lingkungan Windows. Namun, Anda
  A: Jelajahi yang luas[dokumentasi](https://reference.aspose.com/3d/net/) tersedia untuk wawasan mendalam.
 ### T: Bagaimana cara membeli Aspose.3D untuk .NET?
  J: Kunjungi[halaman pembelian](https://purchase.aspose.com/buy) untuk mendapatkan lisensi Anda dan membuka potensi penuh Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

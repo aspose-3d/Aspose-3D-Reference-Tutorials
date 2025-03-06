@@ -3,10 +3,16 @@ title: Sửa đổi hướng mặt phẳng để định vị cảnh 3D chính x
 linktitle: Sửa đổi hướng mặt phẳng để định vị cảnh 3D chính xác trong Java
 second_title: API Java Aspose.3D
 description: Nâng cao khả năng định vị cảnh 3D trong Java với Aspose.3D. Sửa đổi hướng mặt phẳng cho chính xác. Tải xuống ngay để có trải nghiệm hình ảnh hấp dẫn.
-type: docs
 weight: 10
 url: /vi/java/3d-scenes-and-models/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sửa đổi hướng mặt phẳng để định vị cảnh 3D chính xác trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách nâng cao khả năng định vị cảnh 3D trong Java bằng Aspose.3D. Hướng dẫn này sẽ đi sâu vào việc sửa đổi hướng mặt phẳng để định vị cảnh 3D chính xác, cho phép bạn tạo các cảnh được định vị chính xác và ấn tượng về mặt trực quan.
@@ -114,3 +120,9 @@ Câu trả lời 1: Có, Aspose.3D hỗ trợ nhiều ngôn ngữ lập trình k
 ### Câu 5: Có tùy chọn giấy phép tạm thời không?
 
  Câu trả lời 5: Có, nếu bạn cần giấy phép tạm thời, bạn có thể lấy giấy phép[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

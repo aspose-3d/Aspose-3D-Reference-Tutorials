@@ -3,10 +3,16 @@ title: Hoạt hình
 linktitle: Hoạt hình
 second_title: API Aspose.3D .NET
 description: Mở khóa thế giới hoạt hình 3D với hướng dẫn Aspose.3D for .NET. Tìm hiểu cách tạo hoạt ảnh cho các thuộc tính cũng như thiết lập mục tiêu và camera cho các cảnh động một cách dễ dàng.
-type: docs
 weight: 30
 url: /vi/net/animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hoạt hình
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới hoạt hình 3D hấp dẫn với Aspose.3D cho .NET! Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá hai hướng dẫn cần thiết sẽ giúp bạn tạo ra những cảnh 3D sống động và quyến rũ. Hãy cùng nhau bắt đầu cuộc hành trình thú vị này nhé!
@@ -37,3 +43,9 @@ Tóm lại, với hướng dẫn Aspose.3D cho .NET, bạn không chỉ học; b
 Tìm hiểu cách tạo hiệu ứng động cho các thuộc tính 3D bằng Aspose.3D cho .NET. Hướng dẫn từng bước để tạo cảnh động.
 ### [Thiết lập mục tiêu và máy ảnh cho hoạt ảnh trong cảnh 3D](./setup-target-camera/)
 Khám phá sự kỳ diệu của hoạt hình 3D với Aspose.3D cho .NET. Dễ dàng thiết lập mục tiêu và camera bằng hướng dẫn toàn diện này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

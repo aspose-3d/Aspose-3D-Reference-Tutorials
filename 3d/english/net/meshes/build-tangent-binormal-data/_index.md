@@ -3,10 +3,16 @@ title: Building Tangent and Binormal Data
 linktitle: Building Tangent and Binormal Data
 second_title: Aspose.3D .NET API
 description: Unleash the power of tangent and binormal data to optimize your 3D models for smoother rendering, faster loading times, and a boost in performance.
-type: docs
 weight: 10
 url: /net/meshes/build-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Building Tangent and Binormal Data
+
 ## Introduction
 Ever felt the frustration of a sluggish 3D model bogging down your project? Don't fret, fellow developer, for the secret to smooth sailing lies in tangent and binormal data. These unsung heroes optimize mesh rendering, making your models sing like operatic divas on any stage. But how do we harness their power? Fear not, for this comprehensive guide will equip you with the Aspose.3D for .NET toolkit to unlock the magic of tangent and binormal data in just a few clicks!
 
@@ -85,3 +91,10 @@ Absolutely! Download a free trial from [here](https://releases.aspose.com/3d/net
 Aspose.3D has a comprehensive documentation portal at [here](https://docs.aspose.com/3d/net/). Additionally, the Aspose community forum at [here](https://forum.aspose.com/) is always buzzing with helpful developers.
 ### Can I use Aspose.3D for commercial projects? 
 Yes! Aspose.3D offers various licensing options to suit your needs. Check out their pricing page at [here](https://purchase.aspose.com/buy)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

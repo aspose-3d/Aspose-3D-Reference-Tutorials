@@ -3,10 +3,16 @@ title: Arbeta med 3D-scener och modeller i Java
 linktitle: Arbeta med 3D-scener och modeller i Java
 second_title: Aspose.3D Java API
 description: Upptäck kraften i Aspose.3D för Java genom våra tutorials. Förbättra precisionen, lagringseffektiviteten och manipuleringen av 3D-scener i dina Java-applikationer.
-type: docs
 weight: 29
 url: /sv/java/3d-scenes-and-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeta med 3D-scener och modeller i Java
+
 ## Introduktion
 
 Är du redo att lyfta dina Java-applikationer till nya höjder inom 3D-grafik och modellering? Välkommen till vår omfattande Aspose.3D för Java tutorials! Släpp loss potentialen med 3D-scenpositionering, komprimering, informationshämtning, mesh-sparande och sömlös egenskapsmanipulation med steg-för-steg-vägledning.
@@ -43,3 +49,9 @@ Utforska världen av 3D-scenmanipulation i Java med Aspose.3D. Denna handledning
 Lär dig hur du sparar 3D-nät i anpassade binära format med Aspose.3D för Java. Förbättra flexibiliteten i Java-applikationer med denna steg-för-steg handledning.
 ### [Arbeta med 3D-egenskaper och anpassade data i Java-scener med Aspose.3D](./managing-3d-properties-scenes/)
 Förbättra dina Java-applikationer med Aspose.3D för sömlös manipulation av 3D-egenskaper. Följ vår handledning för steg-för-steg-vägledning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

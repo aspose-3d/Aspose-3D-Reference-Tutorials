@@ -3,10 +3,16 @@ title: Kết xuất cảnh 3D thành hình ảnh được đệm để xử lý 
 linktitle: Kết xuất cảnh 3D thành hình ảnh được đệm để xử lý thêm trong Java
 second_title: API Java Aspose.3D
 description: Khám phá sức mạnh của Aspose.3D cho Java trong việc hiển thị cảnh 3D thành hình ảnh được đệm. Hướng dẫn từng bước với các điều kiện tiên quyết, nhập gói và Câu hỏi thường gặp.
-type: docs
 weight: 12
 url: /vi/java/rendering-3d-scenes/render-to-buffered-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất cảnh 3D thành hình ảnh được đệm để xử lý thêm trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách hiển thị cảnh 3D thành hình ảnh được đệm bằng Aspose.3D cho Java. Aspose.3D là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp và cảnh 3D, cung cấp chức năng linh hoạt để kết xuất và xử lý. Trong hướng dẫn này, chúng ta sẽ tập trung vào việc hiển thị cảnh 3D thành hình ảnh được đệm, mở ra khả năng xử lý sâu hơn trong Java.
@@ -106,3 +112,9 @@ Chúc mừng! Bạn đã học thành công cách sử dụng Aspose.3D cho Java
 ### Câu hỏi 5: Có sẵn các tùy chọn hiển thị bổ sung không?
 
  Câu trả lời 5: Có, hãy khám phá tài liệu Aspose.3D[đây](https://reference.aspose.com/3d/java/) để biết thông tin toàn diện về các tùy chọn kết xuất.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

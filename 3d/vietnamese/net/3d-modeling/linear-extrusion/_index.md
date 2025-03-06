@@ -3,10 +3,16 @@ title: Đùn tuyến tính
 linktitle: Đùn tuyến tính
 second_title: API Aspose.3D .NET
 description: Mở khóa khả năng sáng tạo 3D với hướng dẫn Aspose.3D for .NET. Nắm vững các kỹ thuật ép đùn tuyến tính, nâng cao thiết kế và nâng cao dự án của bạn một cách dễ dàng.
-type: docs
 weight: 31
 url: /vi/net/3d-modeling/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đùn tuyến tính
+
 ## Giới thiệu
 | Explore the dynamic realm of [3D modeling](./center-in-linear-extrusion/) through Aspose.3D for .NET tutorials, focusing on various aspects of linear extrusion. Master the art of [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), and incorporating [twist offsets](./twist-offset-in-linear-extrusion/) in your designs. Each tutorial is a gateway to unlocking new dimensions of creativity in 3D graphics. Dive into the captivating world of Aspose.3D for .NET and unleash your imagination. |
 
@@ -42,3 +48,9 @@ Khám phá thế giới thiết kế 3D với Aspose.3D cho .NET. Tạo các mô
 Khám phá thế giới đồ họa 3D quyến rũ với Aspose.3D cho .NET. Tìm hiểu từng bước Đùn tuyến tính với một vòng xoắn.
 ### [Offset xoắn trong ép đùn tuyến tính](./twist-offset-in-linear-extrusion/)
 Khám phá sự kỳ diệu của Aspose.3D cho .NET với hướng dẫn từng bước của chúng tôi về Twist Offset trong Linear Extrusion. Nâng cao các dự án 3D của bạn một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

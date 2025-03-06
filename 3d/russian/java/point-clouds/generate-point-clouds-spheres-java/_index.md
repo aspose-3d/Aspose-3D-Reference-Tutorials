@@ -3,10 +3,16 @@ title: Создание облаков точек из сфер в Java
 linktitle: Создание облаков точек из сфер в Java
 second_title: Aspose.3D Java API
 description: Исследуйте мир 3D-графики с помощью Aspose.3D на Java. Научитесь создавать облака точек из сфер с помощью этого простого руководства.
-type: docs
 weight: 14
 url: /ru/java/point-clouds/generate-point-clouds-spheres-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание облаков точек из сфер в Java
+
 ## Введение
 
 Добро пожаловать в это пошаговое руководство по созданию облаков точек из сфер в Java с помощью Aspose.3D. Если вы хотите погрузиться в увлекательный мир 3D-графики и хотите создавать потрясающие визуализации, вы попали по адресу. Это руководство проведет вас через весь процесс, и его будет легко освоить даже новичкам.
@@ -90,3 +96,10 @@ FileFormat.DRACO.encode(sphere, "Your Document Directory" + "sphere.drc", opt);
 ### В5: Где я могу найти документацию?
 
  A5: обратитесь к подробному[Документация Aspose.3D Java](https://reference.aspose.com/3d/java/) для получения исчерпывающей информации.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

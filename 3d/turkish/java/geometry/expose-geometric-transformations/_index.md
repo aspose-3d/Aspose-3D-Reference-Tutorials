@@ -3,10 +3,16 @@ title: Aspose.3D ile Java 3D'deki Geometrik Dönüşümleri Ortaya Çıkarın
 linktitle: Aspose.3D ile Java 3D'deki Geometrik Dönüşümleri Ortaya Çıkarın
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile Java'da 3 boyutlu geometrik dönüşümlere hakim olmak artık çok kolay. Düğümleri yönetmeyi, çevirileri uygulamayı ve küresel dönüşümleri değerlendirmeyi öğrenin.
-type: docs
 weight: 13
 url: /tr/java/geometry/expose-geometric-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D ile Java 3D'deki Geometrik Dönüşümleri Ortaya Çıkarın
+
 ## giriiş
 
 Java 3D programlamanın dinamik dünyasında geometrik dönüşümlerde uzmanlaşmak çok önemli bir beceridir. Aspose.3D for Java, geliştiricilerin 3D modellemenin inceliklerini zahmetsizce keşfetmesine olanak tanıyan güçlü bir kütüphanedir. Bu eğitimde Aspose.3D for Java'yı kullanarak geometrik dönüşümleri ortaya çıkarmak ve değiştirmek için aydınlatıcı bir yolculuğa çıkacağız.
@@ -86,3 +92,9 @@ Cevap1: Aspose.3D, JDK'yı destekleyen tüm Java geliştirme ortamlarıyla sorun
 ### S5: Aspose.3D'yi test etmek için geçici bir lisansa ihtiyacım var mı?
 
  A5: Bir tane edinin[geçici lisans](https://purchase.aspose.com/temporary-license/) test amaçlı.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

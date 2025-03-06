@@ -3,10 +3,16 @@ title: Skonfiguruj kamerę docelową dla animacji 3D w Javie | Samouczek Aspose.
 linktitle: Skonfiguruj kamerę docelową dla animacji 3D w Javie | Samouczek Aspose.3D
 second_title: Aspose.3D API Java
 description: Przeglądaj animacje Java 3D bez wysiłku dzięki Aspose.3D. Skorzystaj z naszego samouczka, aby zapoznać się z przewodnikiem krok po kroku. Pobierz teraz i weź udział w fascynującej podróży programistycznej 3D.
-type: docs
 weight: 11
 url: /pl/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skonfiguruj kamerę docelową dla animacji 3D w Javie | Samouczek Aspose.3D
+
 ## Wstęp
 
 Witamy w tym przewodniku krok po kroku dotyczącym konfigurowania docelowej kamery do animacji 3D w Javie przy użyciu Aspose.3D. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz od animacji 3D w Javie, ten samouczek przeprowadzi Cię przez proces, dostarczając jasnych i zwięzłych instrukcji.
@@ -98,3 +104,9 @@ Gratulacje! Pomyślnie skonfigurowałeś docelową kamerę do animacji 3D w Javi
 ### P5: Jak mogę uzyskać licencję tymczasową?
 
  Odpowiedź 5: Możesz nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

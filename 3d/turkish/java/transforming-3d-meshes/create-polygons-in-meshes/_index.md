@@ -3,10 +3,16 @@ title: Java Eğitimi - Aspose.3D ile 3D Meshlerde Çokgenler Oluşturun
 linktitle: Java Eğitimi - Aspose.3D ile 3D Meshlerde Çokgenler Oluşturun
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java ile 3D grafiklerin gücünün kilidini açın. Çarpıcı çokgenleri zahmetsizce oluşturun. Sorunsuz bir geliştirme deneyimi için hemen indirin.
-type: docs
 weight: 10
 url: /tr/java/transforming-3d-meshes/create-polygons-in-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Eğitimi - Aspose.3D ile 3D Meshlerde Çokgenler Oluşturun
+
 ## giriiş
 3D grafiklerin dinamik dünyasında, karmaşık ve görsel olarak etkileyici nesneler yaratma yeteneği, geliştiriciler için temel bir beceridir. Aspose.3D for Java, 3D mesh oluşturmayı kolaylıkla kolaylaştıran güçlü bir araç seti sağlar. Bu eğitimde, Aspose.3D for Java'yı kullanarak 3D ağlar içinde çokgenler oluşturma sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -51,3 +57,9 @@ Evet, Aspose.3D, karmaşık ve ayrıntılı 3D modeller oluşturmak için çeşi
  Evet, Aspose.3D'nin yeteneklerini şu adrese erişerek keşfedebilirsiniz:[ücretsiz deneme](https://releases.aspose.com/).
 ### 5. Aspose.3D için nereden destek alabilirim?
  Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.3D forumu](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

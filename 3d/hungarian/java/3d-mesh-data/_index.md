@@ -3,10 +3,16 @@ title: 3D Mesh adatok optimalizálása és kezelése Java nyelven
 linktitle: 3D Mesh adatok optimalizálása és kezelése Java nyelven
 second_title: Aspose.3D Java API
 description: Optimalizálja 3D alkalmazásait az Aspose.3D for Java segítségével. Tanulja meg a hálók tömörítését a Google Draco segítségével, hálóadatok generálását és a 3D hálók anyagonkénti hatékony feldolgozását.
-type: docs
 weight: 32
 url: /hu/java/3d-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D Mesh adatok optimalizálása és kezelése Java nyelven
+
 ## Bevezetés
 
 Készen állsz, hogy javítsd 3D-s fejlesztési készségeidet Java nyelven? Merüljön el az Aspose.3D világában, ahol átfogó oktatóanyagokat kínálunk a 3D mesh adatok optimalizálásáról és a velük való munkavégzésről. Akár tapasztalt fejlesztő, akár csak most kezdi, ezek az oktatóanyagok segítségével könnyedén javíthatja Java-projektjeit.
@@ -31,3 +37,9 @@ Optimalizálja 3D alkalmazásait az Aspose.3D segítségével. Ismerje meg, hogy
 Javítsa Java projektjeit az Aspose.3D segítségével. Kövesse oktatóanyagunkat, hogy könnyedén generáljon normál adatokat a 3D hálókhoz. Merüljön el könnyedén a 3D grafikában.
 ### [Ossza fel a 3D hálókat anyag szerint a hatékony Java feldolgozás érdekében](./split-meshes-by-material/)
 Fedezze fel az Aspose.3D erejét Java nyelven a 3D hálók anyagonkénti hatékony felosztásáról szóló, lépésről lépésre szóló útmutatónkkal. Növelje alkalmazásának teljesítményét zökkenőmentesen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إنشاء وتحويل شبكات ثلاثية الأبعاد في Java
 linktitle: إنشاء وتحويل شبكات ثلاثية الأبعاد في Java
 second_title: Aspose.3D جافا API
 description: أطلق العنان لإمكانات الرسومات ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. يمكنك إنشاء الشبكات وتحويلها وتحسينها بسهولة. ارفع مستوى تجربتك في البرمجة من خلال برامجنا التعليمية.
-type: docs
 weight: 31
 url: /ar/java/transforming-3d-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء وتحويل شبكات ثلاثية الأبعاد في Java
+
 
 ## مقدمة
 
@@ -42,3 +48,9 @@ url: /ar/java/transforming-3d-meshes/
 انطلق في رحلة إلى إتقان الرسومات ثلاثية الأبعاد باستخدام Aspose.3D لـ Java - قم بتحويل البدائيات إلى شبكات ساحرة دون عناء. ارفع مستوى تجربة البرمجة الخاصة بك الآن!
 ### [تخصيص تخطيط الذاكرة للشبكات ثلاثية الأبعاد في Java](./customize-mesh-memory-layout/)
 قم بتحسين تصميم Java 3D الخاص بك باستخدام Aspose.3D: قم بتخصيص تخطيط الذاكرة للحصول على الأداء الأمثل. اتبع دليلنا خطوة بخطوة الآن!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

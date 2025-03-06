@@ -3,10 +3,16 @@ title: Coördinatensysteem omdraaien in 3D-scènes
 linktitle: Coördinatensysteem omdraaien in 3D-scènes
 second_title: Aspose.3D .NET-API
 description: Beheers de kunst van het omdraaien van coördinatensystemen in 3D-scènes met Aspose.3D voor .NET. Volg onze stapsgewijze handleiding voor een naadloze implementatie.
-type: docs
 weight: 12
 url: /nl/net/3d-scene/flip-coordinate-system/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Coördinatensysteem omdraaien in 3D-scènes
+
 ## Invoering
 
 Welkom bij deze stapsgewijze handleiding over het omdraaien van het coördinatensysteem in 3D-scènes met Aspose.3D voor .NET. Als u een ontwikkelaar of een 3D-liefhebber bent en coördinatensystemen in uw scènes wilt manipuleren, bent u hier op de juiste plek. In deze zelfstudie leiden we u door het proces, zodat u deze functie eenvoudig naadloos kunt implementeren.
@@ -91,3 +97,9 @@ A1: Aspose.3D voor .NET is voornamelijk ontworpen voor C#-programmering. Aspose 
 ### V5: Waar kan ik ondersteuning zoeken of vragen stellen met betrekking tot Aspose.3D voor .NET?
 
  A5: Het Aspose-communityforum[hier](https://forum.aspose.com/c/3d/18) is de ideale plek voor ondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

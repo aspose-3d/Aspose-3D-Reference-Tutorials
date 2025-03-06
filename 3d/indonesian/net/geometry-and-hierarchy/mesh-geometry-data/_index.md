@@ -3,10 +3,16 @@ title: Bekerja dengan Data Geometri Mesh
 linktitle: Bekerja dengan Data Geometri Mesh
 second_title: Aspose.3D .NET API
 description: Kuasai seni pemrograman grafis 3D dengan Aspose.3D untuk .NET. Buat, manipulasi, dan simpan pemandangan 3D yang menakjubkan dengan mudah.
-type: docs
 weight: 15
 url: /id/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Data Geometri Mesh
+
 ## Perkenalan
 
 Selamat datang di dunia pemrograman grafis 3D yang menarik dengan Aspose.3D untuk .NET! Dalam tutorial ini, kita akan mempelajari seluk-beluk bekerja dengan Data Geometri Mesh dalam adegan 3D menggunakan Aspose.3D, perpustakaan yang kuat dan serbaguna untuk pengembang .NET. Baik Anda seorang programmer berpengalaman atau baru memulai dengan grafik 3D, panduan langkah demi langkah ini akan membantu Anda menguasai seni menangani data geometri mesh dengan mudah.
@@ -126,3 +132,9 @@ A1: Aspose.3D terutama dirancang untuk .NET, namun Anda dapat menjelajahi produk
 ### Q5: Format file apa yang didukung untuk menyimpan adegan 3D?
 
  A5: Aspose.3D mendukung berbagai format file, termasuk FBX, STL, dan lainnya. Mengacu kepada[dokumentasi](https://reference.aspose.com/3d/net/) untuk daftar lengkap.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

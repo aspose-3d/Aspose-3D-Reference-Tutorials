@@ -3,10 +3,16 @@ title: Nút chuyển đổi bằng ma trận chuyển đổi
 linktitle: Nút chuyển đổi bằng ma trận chuyển đổi
 second_title: API Aspose.3D .NET
 description: Chuyển đổi các nút dễ dàng trong cảnh 3D bằng Aspose.3D cho .NET. Tìm hiểu các chuyển đổi nút từng bước với hướng dẫn.
-type: docs
 weight: 21
 url: /vi/net/geometry-and-hierarchy/transformation-node-matrix/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nút chuyển đổi bằng ma trận chuyển đổi
+
 ## Giới thiệu
 
 Trong lĩnh vực động của đồ họa và trực quan hóa 3D, khả năng điều khiển các vật thể trong một cảnh là một khía cạnh quan trọng. Aspose.3D for .NET trao quyền cho các nhà phát triển chuyển đổi liền mạch các nút bằng cách sử dụng ma trận chuyển đổi, thêm một lớp sáng tạo và khả năng kiểm soát vào cảnh 3D. Hướng dẫn này sẽ hướng dẫn bạn từng bước trong quá trình chuyển đổi nút trong cảnh 3D.
@@ -112,3 +118,9 @@ Câu trả lời 2: Có, bạn có thể kết hợp nhiều phép biến đổi
 ### Câu hỏi 5: Tôi có thể tìm kiếm hỗ trợ hoặc kết nối với cộng đồng Aspose.3D ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để đặt câu hỏi, chia sẻ kinh nghiệm và kết nối với các nhà phát triển khác bằng Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

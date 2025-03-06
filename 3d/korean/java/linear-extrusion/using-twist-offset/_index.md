@@ -4,10 +4,16 @@ linktitle: Java용 Aspose.3D를 사용하여 선형 돌출에서 비틀기 오�
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 3D 모델링 기술을 향상하세요. 이 포괄적인 튜토리얼에서 선형 돌출의 비틀기 오프셋을 사용하는 방법을 알아보세요.
 
-type: docs
 weight: 15
 url: /ko/java/linear-extrusion/using-twist-offset/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D를 사용하여 선형 돌출에서 비틀기 오프셋 사용
+
 ## 소개
 
 3D 그래픽의 역동적인 세계에서 선형 압출 기술을 익히는 것은 판도를 바꾸는 일입니다. Java용 Aspose.3D를 사용하면 Twist Offset 기능을 선형 압출 프로세스에 통합하여 3D 모델링 기술을 향상시킬 수 있습니다. 이 튜토리얼에서는 Java용 Aspose.3D를 사용하여 선형 압출에서 Twist Offset을 활용하는 단계를 안내하고 멋진 3D 장면을 만드는 도구를 제공합니다.
@@ -113,3 +119,9 @@ scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### Q5: 추가 예제와 튜토리얼이 있습니까?
 
  A5: 그렇습니다.[선적 서류 비치](https://reference.aspose.com/3d/java/) 더 많은 예제와 심층적인 튜토리얼을 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

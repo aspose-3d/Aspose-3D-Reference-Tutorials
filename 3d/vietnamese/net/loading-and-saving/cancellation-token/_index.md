@@ -3,10 +3,16 @@ title: Sử dụng CancellingToken
 linktitle: Sử dụng CancellingToken
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới liền mạch của mô hình 3D với Aspose.3D cho .NET. Tìm hiểu cách tải và lưu tài liệu 3D một cách hiệu quả bằng cách sử dụng CancellationToken.
-type: docs
 weight: 10
 url: /vi/net/loading-and-saving/cancellation-token/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sử dụng CancellingToken
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách sử dụng Aspose.3D cho .NET để nâng cao các dự án kết xuất và tạo mô hình 3D của bạn. Aspose.3D là một thư viện mạnh mẽ cho phép các nhà phát triển .NET làm việc liền mạch với các tệp 3D. Trong hướng dẫn này, chúng ta sẽ đi sâu vào các khía cạnh tải và lưu, đặc biệt tập trung vào việc sử dụng CancellationToken để quản lý hiệu quả các tác vụ không đồng bộ.
@@ -120,3 +126,9 @@ Chúc mừng! Bạn đã điều hướng thành công trong quá trình sử d�
 ### Câu hỏi 5: Phiên bản mới nhất của Aspose.3D dành cho .NET là gì?
 
  Câu trả lời 5: Luôn cập nhật bằng cách kiểm tra[trang tải xuống](https://releases.aspose.com/3d/net/) cho phiên bản mới nhất.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

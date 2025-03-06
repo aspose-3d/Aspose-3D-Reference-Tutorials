@@ -3,10 +3,16 @@ title: Melakukan Ekstrusi Linier
 linktitle: Melakukan Ekstrusi Linier
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia grafis 3D dengan Aspose.3D untuk .NET. Melakukan Ekstrusi Linier dalam panduan langkah demi langkah ini.
-type: docs
 weight: 12
 url: /id/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Melakukan Ekstrusi Linier
+
 ## Perkenalan:
 
 Mulailah perjalanan mendebarkan ke dunia grafis 3D dengan Aspose.3D untuk .NET, pembangkit tenaga listrik yang meningkatkan permainan pengembangan Anda. Dalam tutorial ini, kita akan mempelajari seluk-beluk Ekstrusi Linier – sebuah teknik menarik yang menghidupkan profil 2D statis, mendorongnya ke dunia 3D yang dinamis. Mari buka pintu kreativitas dan inovasi menggunakan Aspose.3D!
@@ -106,3 +112,9 @@ A1: Tentu saja! Aspose.3D menawarkan lingkungan yang ramah pengguna, dan tutoria
 ### Q5: Apakah tersedia uji coba gratis?
 
  A5: Tentu saja! Unduh versi uji coba gratis[Di Sini](https://releases.aspose.com/) untuk merasakan kemampuan Aspose.3D secara langsung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

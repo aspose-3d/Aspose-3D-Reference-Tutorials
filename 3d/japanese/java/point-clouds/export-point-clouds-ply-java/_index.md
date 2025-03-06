@@ -3,10 +3,16 @@ title: Aspose.3D for Java を使用して点群を PLY 形式にエクスポー�
 linktitle: Aspose.3D for Java を使用して点群を PLY 形式にエクスポート
 second_title: Aspose.3D Java API
 description: 点群を PLY 形式にエクスポートする際の Aspose.3D for Java の機能を試してください。シームレスな 3D 開発については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 13
 url: /ja/java/point-clouds/export-point-clouds-ply-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java を使用して点群を PLY 形式にエクスポート
+
 ## 導入
 
 Aspose.3D for Java を使用して点群を PLY 形式にエクスポートするためのこの包括的なガイドへようこそ。 Aspose.3D は、開発者が 3D ファイルを操作できるようにする強力な Java ライブラリで、さまざまな 3D 形式の管理と操作におけるシームレスなエクスペリエンスを提供します。このチュートリアルでは、点群を 3D データを表現するために広く使用されているファイル形式である PLY 形式にエクスポートすることに焦点を当てます。
@@ -81,3 +87,9 @@ A3: はい、無料トライアルを利用できます。[ここ](https://relea
 ### Q5: Aspose.3D for Java はどこで購入できますか?
 
  A5: Aspose.3D for Java を購入する[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

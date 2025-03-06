@@ -3,10 +3,16 @@ title: Format de détection
 linktitle: Format de détection
 second_title: API Aspose.3D .NET
 description: Maîtrisez la manipulation de fichiers 3D sans effort avec Aspose.3D pour .NET. Chargez, enregistrez et détectez les formats en toute transparence.
-type: docs
 weight: 12
 url: /fr/net/loading-and-saving/detect-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Format de détection
+
 ## Introduction
 
 Bienvenue dans le monde passionnant de la manipulation de fichiers 3D à l'aide d'Aspose.3D pour .NET ! Que vous soyez un développeur chevronné ou que vous débutiez tout juste avec les graphiques 3D, ce didacticiel vous guidera facilement tout au long du processus de chargement, d'enregistrement et de détection des formats.
@@ -93,3 +99,9 @@ A1 : Oui, Aspose.3D prend en charge une large gamme de formats de fichiers 3D, o
 ### Q5 : Puis-je essayer Aspose.3D gratuitement avant d’acheter ?
 
  A5 : Certainement ! Téléchargez la version d'essai gratuite à partir de[Sorties Aspose.3D](https://releases.aspose.com/) pour expérimenter ses capacités par vous-même.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

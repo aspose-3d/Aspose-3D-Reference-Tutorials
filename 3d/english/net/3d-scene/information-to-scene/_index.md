@@ -3,10 +3,16 @@ title: Extracting Information to Scene Assets
 linktitle: Extracting Information to Scene Assets
 second_title: Aspose.3D .NET API
 description: Enhance your 3D scenes effortlessly with Aspose.3D for .NET. Learn to add valuable asset information step by step. Download now for a dynamic 3D experience.
-type: docs
 weight: 10
 url: /net/3d-scene/information-to-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extracting Information to Scene Assets
+
 ## Introduction
 
 Welcome to this comprehensive tutorial on using Aspose.3D for .NET to extract valuable information and enhance your 3D scenes. Aspose.3D is a powerful library that empowers developers to manipulate 3D scenes seamlessly within .NET applications. In this tutorial, we'll focus on the crucial task of adding asset information to a scene.
@@ -96,3 +102,10 @@ A4: Yes, you can acquire a temporary license [here](https://purchase.aspose.com/
 ### Q5: Where can I find detailed documentation for Aspose.3D for .NET?
 
 A5: Refer to the [documentation](https://reference.aspose.com/3d/net/) for in-depth information.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

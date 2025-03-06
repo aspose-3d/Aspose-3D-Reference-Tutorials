@@ -3,10 +3,16 @@ title: Applying Material to Cube
 linktitle: Applying Material to Cube 
 second_title: Aspose.3D .NET API
 description: Explore Aspose.3D for .NET, your gateway to seamless 3D graphics manipulation. Apply materials effortlessly, enhance realism, and elevate your projects.
-type: docs
 weight: 14
 url: /net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applying Material to Cube
+
 ## Introduction
 
 Welcome to the fascinating world of 3D graphics manipulation using Aspose.3D for .NET! In this tutorial, we'll dive into the process of applying materials to a cube in your 3D scenes, adding a whole new level of realism and visual appeal to your creations.
@@ -136,3 +142,10 @@ A4: Explore the [documentation](https://reference.aspose.com/3d/net/) for in-dep
 ### Q5: How can I get support for any issues or queries?
 
 A5: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) to connect with the community and seek assistance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

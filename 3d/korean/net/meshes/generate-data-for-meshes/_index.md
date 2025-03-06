@@ -3,10 +3,16 @@ title: 메시에 대한 일반 데이터 생성
 linktitle: 메시에 대한 일반 데이터 생성
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D로 3D 모델을 향상하세요! 이 단계별 가이드에서 메시에 대한 일반 데이터를 생성하는 방법을 알아보세요. 사실주의는 단순함을 만났습니다.
-type: docs
 weight: 20
 url: /ko/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 메시에 대한 일반 데이터 생성
+
 ## 소개
 .NET용 Aspose.3D를 사용하여 메쉬용 일반 데이터를 생성하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다! 3D 모델로 작업 중이고 일반 데이터를 추가하여 시각적 매력을 향상시키고 싶다면 이 튜토리얼이 적합합니다. Aspose.3D는 3D 그래픽 프로그래밍을 단순화하는 강력한 .NET 라이브러리이며, 이 가이드에서는 메시에 대한 일반 데이터를 생성하는 과정을 안내합니다.
 ## 전제 조건
@@ -66,3 +72,9 @@ Console.WriteLine("\nNormal data generated successfully for all meshes.");
  포괄적인 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/3d/net/).
 ### Aspose.3D 라이선스를 구매해야 하면 어떻게 되나요?
  에서 라이센스를 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

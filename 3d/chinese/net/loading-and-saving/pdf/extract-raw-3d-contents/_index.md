@@ -3,10 +3,16 @@ title: 从 PDF 中提取原始 3D 内容
 linktitle: 从 PDF 中提取原始 3D 内容
 second_title: Aspose.3D .NET API
 description: 学习使用 Aspose.3D for .NET 从 PDF 中提取 3D 内容。带有代码示例的分步指南。
-type: docs
 weight: 14
 url: /zh/net/loading-and-saving/pdf/extract-raw-3d-contents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 从 PDF 中提取原始 3D 内容
+
 ## 介绍
 
 欢迎阅读这份有关使用 Aspose.3D for .NET 从 PDF 中提取原始 3D 内容的综合指南。 Aspose.3D 是一个功能强大且多功能的 API，允许开发人员轻松处理 3D 文件。在本教程中，我们将重点介绍从 PDF 文件中提取原始 3D 内容的过程，为您提供分步指导。
@@ -90,3 +96,9 @@ A1：是的，Aspose.3D 支持多种 3D 文件格式，使其适用于各种应�
 ### Q5：Aspose.3D 有可用的文档吗？
 
  A5：是的，可以找到文档[这里](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

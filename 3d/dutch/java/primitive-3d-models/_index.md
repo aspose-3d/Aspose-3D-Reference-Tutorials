@@ -3,10 +3,16 @@ title: Primitieve 3D-modellen maken in Aspose.3D voor Java
 linktitle: Primitieve 3D-modellen maken in Aspose.3D voor Java
 second_title: Aspose.3D Java-API
 description: Maak moeiteloos verbluffende 3D-modellen met behulp van Aspose.3D voor Java-tutorials. Laat uw creativiteit de vrije loop met stapsgewijze handleidingen voor het bouwen van primitieve 3D-modellen.
-type: docs
 weight: 24
 url: /nl/java/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Primitieve 3D-modellen maken in Aspose.3D voor Java
+
 
 
 ## Invoering
@@ -31,3 +37,9 @@ Begin vandaag nog met het bouwen van uw primitieve 3D-modellen met Aspose.3D voo
 ## Primitieve 3D-modellen maken in Aspose.3D voor Java-tutorials
 ### [Primitieve 3D-modellen bouwen met Aspose.3D voor Java](./building-primitive-3d-models/)
 Ontdek de kunst van 3D-modelleren met Aspose.3D voor Java. Leer moeiteloos primitieve 3D-modellen bouwen en laat uw creativiteit de vrije loop.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

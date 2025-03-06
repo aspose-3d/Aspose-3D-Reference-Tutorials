@@ -3,10 +3,16 @@ title: Java용 Aspose.3D를 사용하여 선형 돌출의 방향 설정
 linktitle: Java용 Aspose.3D를 사용하여 선형 돌출의 방향 설정
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 선형 압출을 마스터하세요! 원활한 3D 프로그래밍을 위한 가이드를 따르세요. 지금 다운로드하여 매혹적인 경험을 즐겨보세요.
-type: docs
 weight: 12
 url: /ko/java/linear-extrusion/setting-direction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D를 사용하여 선형 돌출의 방향 설정
+
 ## 소개
 
 Java용 Aspose.3D를 사용하여 선형 압출 방향 설정에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.3D는 개발자가 3D 파일 및 장면을 원활하게 작업할 수 있게 해주는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 선형 압출의 방향을 설정하는 특정 작업에 중점을 두고 3D 프로그래밍 능력을 향상시킵니다.
@@ -108,3 +114,9 @@ A1: Aspose.3D는 .NET 및 Java를 포함한 다양한 프로그래밍 언어를 
 ### Q5: Aspose.3D에 임시 라이선스를 사용할 수 있나요?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Генерация нормальных данных для сеток
 linktitle: Генерация нормальных данных для сеток
 second_title: Aspose.3D .NET API
 description: Усовершенствуйте 3D-модели с помощью Aspose.3D для .NET! Научитесь генерировать нормальные данные для сеток в этом пошаговом руководстве. Реализм встречается с простотой.
-type: docs
 weight: 20
 url: /ru/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Генерация нормальных данных для сеток
+
 ## Введение
 Добро пожаловать в это пошаговое руководство по созданию нормальных данных для сеток с использованием Aspose.3D для .NET! Если вы работаете с 3D-моделями и хотите повысить их визуальную привлекательность, добавив обычные данные, это руководство для вас. Aspose.3D — это мощная библиотека .NET, которая упрощает программирование 3D-графики, и в этом руководстве мы познакомим вас с процессом генерации обычных данных для сеток.
 ## Предварительные условия
@@ -66,3 +72,9 @@ Console.WriteLine("\nNormal data generated successfully for all meshes.");
  Полная документация доступна[здесь](https://reference.aspose.com/3d/net/).
 ### Что делать, если мне нужно приобрести лицензию на Aspose.3D?
  Вы можете купить лицензию на сайте[страница покупки](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

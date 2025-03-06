@@ -3,10 +3,16 @@ title: قم بتحميل PLY Point Clouds بسلاسة في Java
 linktitle: قم بتحميل PLY Point Clouds بسلاسة في Java
 second_title: Aspose.3D جافا API
 description: قم بتحسين تطبيق Java الخاص بك من خلال التحميل السحابي لنقطة PLY السلسة من Aspose.3D. دليل خطوة بخطوة والأسئلة الشائعة والدعم.
-type: docs
 weight: 11
 url: /ar/java/point-clouds/load-ply-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتحميل PLY Point Clouds بسلاسة في Java
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول التحميل السلس لسحب نقاط PLY في Java باستخدام Aspose.3D. إذا كنت تتطلع إلى تحسين تطبيق Java الخاص بك من خلال إمكانات المعالجة السحابية القوية ثلاثية الأبعاد، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة، مما يضمن أنك تفهم كل مفهوم جيدًا.
@@ -89,3 +95,10 @@ Geometry geom = FileFormat.PLY.decode("Your Document Directory" + "sphere.ply");
 ### س5: هل يمكنني الحصول على ترخيص مؤقت للاختبار؟
 
  ج5: بالتأكيد، احصل على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

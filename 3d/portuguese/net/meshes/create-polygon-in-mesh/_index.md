@@ -3,10 +3,16 @@ title: Criando um polígono em malha
 linktitle: Criando um polígono em malha
 second_title: API Aspose.3D .NET
 description: Explore o mundo da modelagem 3D com Aspose.3D for .NET. Crie polígonos impressionantes em malhas sem esforço. Baixe agora para uma experiência de desenvolvimento envolvente!
-type: docs
 weight: 18
 url: /pt/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Criando um polígono em malha
+
 ## Introdução
 Você está pronto para mergulhar no emocionante mundo da modelagem 3D com Aspose.3D for .NET? Se você é um desenvolvedor que busca aprimorar suas habilidades ou um novato interessado em criar malhas 3D impressionantes, você está no lugar certo. Neste tutorial abrangente, orientaremos você no processo de criação de um polígono em uma malha usando Aspose.3D.
 ## Pré-requisitos
@@ -59,3 +65,9 @@ R: Aspose.3D for .NET foi projetado principalmente para ambientes Windows. No en
  R: Explore a extensa[documentação](https://reference.aspose.com/3d/net/) disponível para insights aprofundados.
 ### P: Como faço para adquirir o Aspose.3D para .NET?
  R: Visite o[página de compra](https://purchase.aspose.com/buy) para adquirir sua licença e desbloquear todo o potencial do Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

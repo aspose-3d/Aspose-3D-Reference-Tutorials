@@ -3,10 +3,16 @@ title: Renderização
 linktitle: Renderização
 second_title: API Aspose.3D .NET
 description: Eleve suas habilidades de renderização 3D com Aspose.3D para .NET! Projete sombras, crie visualizações cativantes, aplique efeitos de lente olho de peixe e muito mais.
-type: docs
 weight: 30
 url: /pt/net/rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Renderização
+
 ## Introdução
 
 Você está pronto para embarcar em uma jornada emocionante no reino da renderização 3D? Não procure mais! Aspose.3D for .NET abre as portas para um mundo de possibilidades, permitindo que você libere sua criatividade e aprimore suas habilidades. Nesta lista abrangente de tutoriais, guiaremos você por alguns dos aspectos mais intrigantes da renderização usando Aspose.3D para .NET.
@@ -55,3 +61,9 @@ Aprimore suas cenas 3D com Aspose.3D for .NET! Aprenda como aplicar um efeito ca
 Aprenda como criar vistas panorâmicas 3D impressionantes usando Aspose.3D para .NET. Siga nosso guia passo a passo para renderização de cena imersiva.
 ### [Renderizando cena em Cubemap com seis faces](./render-scene-cubemap/)
 Crie mapas de cubos impressionantes com Aspose.3D para .NET. Siga nosso guia passo a passo para renderizar cenas 3D em mapas cúbicos cativantes de seis faces.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

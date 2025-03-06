@@ -3,11 +3,16 @@ title: Kuasai Seni Manipulasi 3D dengan Aspose.3D
 linktitle: Tutorial Aspose.3D
 additionalTitle: Asumsikan Referensi API
 description: Buka rahasia penguasaan 3D dengan teknik canggih. Tingkatkan keterampilan Anda dalam desain dan pengembangan dengan panduan komprehensif kami untuk melepaskan kreativitas 3D.
-type: docs
 weight: 11
 url: /id/
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kuasai Seni Manipulasi 3D dengan Aspose.3D
+
 
 Selamat datang di dunia tutorial Aspose.3D yang mendalam, tempat kreativitas bertemu inovasi. Baik Anda seorang desainer berpengalaman atau pengembang pemula, panduan komprehensif kami memberdayakan Anda dengan teknik canggih untuk manipulasi 3D. Temukan rahasia menguasai desain dan pengembangan saat Anda memulai perjalanan untuk membuka potensi penuh Aspose.3D. Bergabunglah dengan kami saat kami mempelajari dunia dinamis seni tiga dimensi, memberi Anda alat dan pengetahuan untuk meningkatkan keterampilan Anda dan mewujudkan visi kreatif Anda. Biarkan eksplorasi dimulai!
 
@@ -50,3 +55,9 @@ Ini adalah tautan ke beberapa sumber yang bermanfaat:
 - [Mengoptimalkan dan Bekerja dengan Data Mesh 3D di Java](./java/3d-mesh-data/)
 - [Memanipulasi Objek dan Pemandangan 3D di Java](./java/3d-objects-and-scenes/)
 - [Bekerja dengan Point Clouds di Java](./java/point-clouds/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

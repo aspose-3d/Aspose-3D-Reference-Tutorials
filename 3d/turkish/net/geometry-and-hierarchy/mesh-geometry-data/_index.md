@@ -3,10 +3,16 @@ title: Mesh Geometri Verileriyle Çalışma
 linktitle: Mesh Geometri Verileriyle Çalışma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D grafik programlama sanatında ustalaşın. Çarpıcı 3D sahneleri zahmetsizce oluşturun, değiştirin ve kaydedin.
-type: docs
 weight: 15
 url: /tr/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mesh Geometri Verileriyle Çalışma
+
 ## giriiş
 
 Aspose.3D for .NET ile 3D grafik programlamanın heyecan verici dünyasına hoş geldiniz! Bu eğitimde, .NET geliştiricileri için güçlü ve çok yönlü bir kütüphane olan Aspose.3D'yi kullanarak 3D sahnelerde Mesh Geometri Verileri ile çalışmanın inceliklerini inceleyeceğiz. İster deneyimli bir programcı olun ister 3D grafiklere yeni başlıyor olun, bu adım adım kılavuz mesh geometrisi verilerini zahmetsizce kullanma sanatında ustalaşmanıza yardımcı olacaktır.
@@ -126,3 +132,9 @@ Cevap1: Aspose.3D öncelikle .NET için tasarlanmıştır ancak farklı platform
 ### S5: 3D sahneleri kaydetmek için hangi dosya formatları destekleniyor?
 
  Cevap5: Aspose.3D, FBX, STL ve daha fazlası dahil olmak üzere çeşitli dosya formatlarını destekler. Bakın[dokümantasyon](https://reference.aspose.com/3d/net/) tam bir liste için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

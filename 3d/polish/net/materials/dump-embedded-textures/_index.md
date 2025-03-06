@@ -3,10 +3,16 @@ title: Zrzucanie osadzonych tekstur
 linktitle: Zrzucanie osadzonych tekstur
 second_title: Aspose.3D API .NET
 description: Odblokuj sekrety osadzonych tekstur w modelach 3D za pomocą Aspose.3D dla .NET. Zapoznaj się z naszym przewodnikiem krok po kroku dotyczącym bezproblemowej integracji. Pobierz teraz bezpłatną wersję próbną!
-type: docs
 weight: 11
 url: /pl/net/materials/dump-embedded-textures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zrzucanie osadzonych tekstur
+
 ## Wstęp
 Witamy w świecie Aspose.3D dla .NET – potężnego zestawu narzędzi, który umożliwia programistom płynną manipulację i pracę z plikami 3D. W tym obszernym samouczku zagłębimy się w fascynującą dziedzinę zrzucania osadzonych tekstur za pomocą Aspose.3D. Jeśli chcesz ulepszyć swoją aplikację 3D, uwalniając potencjał osadzonych tekstur, jesteś we właściwym miejscu.
 ## Warunki wstępne
@@ -71,3 +77,9 @@ Odp.: Aspose.3D obsługuje głównie języki .NET, ale możesz eksplorować opak
  Odpowiedź: Tak, dostępna jest licencja tymczasowa[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę znaleźć obszerną dokumentację dla Aspose.3D?
  Odpowiedź: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

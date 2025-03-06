@@ -1,12 +1,17 @@
 ---
 title: Átfogó oktatóanyagok és példák az Aspose.3D-re .NET-hez
 linktitle: Aspose.3D for .NET Tutorials
-type: docs
 weight: 10
 url: /hu/net/
 description: Fedezze fel a 3D modellezés és animáció világát az Aspose.3D for .NET oktatóanyaggal. Emelje fel projektjeit könnyedén – a rendereléstől a lineáris extrudálásig.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Átfogó oktatóanyagok és példák az Aspose.3D-re .NET-hez
+
 ## Bevezetés
 
 Készen állsz egy utazásra a 3D modellezés és animáció izgalmas birodalmába? Ne keressen tovább – Az Aspose.3D for .NET oktatóanyagok és példák átfogó gyűjteményét kínálja, amelyek célja, hogy szabadjára engedje kreativitását, és új magasságokba emelje projektjeit.
@@ -60,3 +65,9 @@ Induljon el a 3D-s animáció világába az Aspose.3D for .NET oktatóanyagaival
 
 
 Oldja fel a benne rejlő kreatív potenciált, és merüljön el az Aspose.3D for .NET oktatóanyagok világában. Töltse le próbaverzióját most, és emelje 3D-projektjeit rendkívüli magasságokba!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

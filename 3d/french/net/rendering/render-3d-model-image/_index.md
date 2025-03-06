@@ -3,10 +3,16 @@ title: Rendu d'une image de modèle 3D à partir d'une caméra
 linktitle: Rendu d'une image de modèle 3D à partir d'une caméra
 second_title: API Aspose.3D .NET
 description: Explorez le monde du rendu 3D avec Aspose.3D pour .NET. Apprenez à créer sans effort des visualisations captivantes à l’aide de notre guide étape par étape.
-type: docs
 weight: 11
 url: /fr/net/rendering/render-3d-model-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendu d'une image de modèle 3D à partir d'une caméra
+
 ## Introduction
 La création de superbes visualisations 3D est un aspect passionnant du développement logiciel, et avec Aspose.3D pour .NET, vous pouvez donner vie à vos modèles 3D. Dans ce didacticiel, nous vous guiderons dans le rendu d'une image de modèle 3D à partir d'une caméra à l'aide d'Aspose.3D, en vous fournissant des instructions étape par étape et des informations précieuses.
 ## Conditions préalables
@@ -89,3 +95,9 @@ R : Aspose.3D prend en charge différents formats de modèles 3D, ce qui le rend
  R : Reportez-vous au[Documentation](https://reference.aspose.com/3d/net/) pour des conseils approfondis sur Aspose.3D pour .NET.
 ### Q : Comment puis-je acheter Aspose.3D pour .NET ?
  R : Visitez le[page d'achat](https://purchase.aspose.com/buy) pour acquérir la licence la plus adaptée à vos besoins.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

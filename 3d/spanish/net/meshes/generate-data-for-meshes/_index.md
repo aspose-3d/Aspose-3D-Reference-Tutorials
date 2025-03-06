@@ -3,10 +3,16 @@ title: Generando datos normales para mallas
 linktitle: Generando datos normales para mallas
 second_title: Aspose.3D API .NET
 description: ¡Mejore los modelos 3D con Aspose.3D para .NET! Aprenda a generar datos normales para mallas en esta guía paso a paso. El realismo se une a la simplicidad.
-type: docs
 weight: 20
 url: /es/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generando datos normales para mallas
+
 ## Introducción
 ¡Bienvenido a esta guía paso a paso sobre cómo generar datos normales para mallas usando Aspose.3D para .NET! Si está trabajando con modelos 3D y desea mejorar el atractivo visual agregando datos normales, este tutorial es para usted. Aspose.3D es una potente biblioteca .NET que simplifica la programación de gráficos 3D y, en esta guía, lo guiaremos a través del proceso de generación de datos normales para mallas.
 ## Requisitos previos
@@ -66,3 +72,9 @@ Sí, Aspose.3D admite varios formatos 3D, incluidos FBX, STL y más. Referirse a
  La documentación completa está disponible.[aquí](https://reference.aspose.com/3d/net/).
 ### ¿Qué pasa si necesito comprar una licencia para Aspose.3D?
  Puede comprar una licencia en el[pagina de compra](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

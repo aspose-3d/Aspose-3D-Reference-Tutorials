@@ -3,10 +3,16 @@ title: Een polygoon in mesh maken
 linktitle: Een polygoon in mesh maken
 second_title: Aspose.3D .NET-API
 description: Ontdek de wereld van 3D-modellering met Aspose.3D voor .NET. Creëer moeiteloos verbluffende polygonen in meshes. Download nu voor een meeslepende ontwikkelingservaring!
-type: docs
 weight: 18
 url: /nl/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Een polygoon in mesh maken
+
 ## Invoering
 Ben je klaar om in de opwindende wereld van 3D-modellering te duiken met Aspose.3D voor .NET? Als je een ontwikkelaar bent die je vaardigheden wil verbeteren of een nieuwkomer die geïnteresseerd is in het maken van verbluffende 3D-meshes, dan ben je hier aan het juiste adres. In deze uitgebreide zelfstudie begeleiden we u bij het proces van het maken van een polygoon in een mesh met behulp van Aspose.3D.
 ## Vereisten
@@ -59,3 +65,9 @@ A: Aspose.3D voor .NET is voornamelijk ontworpen voor Windows-omgevingen. U kunt
  A: Ontdek het uitgebreide[documentatie](https://reference.aspose.com/3d/net/) beschikbaar voor diepgaande inzichten.
 ### Vraag: Hoe koop ik Aspose.3D voor .NET?
  A: Bezoek de[aankooppagina](https://purchase.aspose.com/buy) om uw licentie te verwerven en het volledige potentieel van Aspose.3D te ontsluiten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

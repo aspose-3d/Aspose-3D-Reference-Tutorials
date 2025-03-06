@@ -3,10 +3,16 @@ title: 在 Java 中将基元转换为网格
 linktitle: 在 Java 中将基元转换为网格
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D for Java 踏上掌握 3D 图形的旅程 - 毫不费力地将图元转换为令人着迷的网格。立即提升您的编码体验！
-type: docs
 weight: 12
 url: /zh/java/transforming-3d-meshes/convert-primitives-to-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中将基元转换为网格
+
 ## 介绍
 涉足 Java 中的 3D 图形领域可能会令人兴奋，尤其是当您的目标是通过将图元转换为复杂的网格来提升场景时。在本教程中，我们将指导您完成使用 Aspose.3D for Java 的过程，确保无缝且丰富的体验。
 ## 先决条件
@@ -73,3 +79,9 @@ System.out.println("\n Converted the primitive Box to a mesh successfully.\nFile
 事实上，可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### Q5：在哪里可以找到 Aspose.3D for Java 的详细文档？
 提供全面的文档[这里](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

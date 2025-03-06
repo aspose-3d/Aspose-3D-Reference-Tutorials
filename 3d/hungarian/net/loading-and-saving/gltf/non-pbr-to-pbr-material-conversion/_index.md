@@ -3,10 +3,16 @@ title: Nem PBR anyag átalakítás PBR-re
 linktitle: Nem PBR anyag átalakítás PBR-re
 second_title: Aspose.3D .NET API
 description: Fedezze fel az Aspose.3D for .NET-et – A nem PBR anyagokat könnyedén konvertálja PBR-be. Átfogó oktatóanyag és hatékony API.
-type: docs
 weight: 16
 url: /hu/net/loading-and-saving/gltf/non-pbr-to-pbr-material-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nem PBR anyag átalakítás PBR-re
+
 ## Bevezetés
 
 Üdvözöljük ebben a lépésről lépésre szóló útmutatóban az Aspose.3D for .NET használatáról a nem PBR (fizikai alapú renderelés) PBR anyagokká való konvertálásához. Az Aspose.3D egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak a 3D fájlformátumokkal .NET-alkalmazásaikban.
@@ -105,3 +111,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan lehet nem PBR-t PBR anyagokká konver
 ### 5. kérdés: Van ingyenes próbaverzió?
 
  5. válasz: Igen, felfedezhet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tutorial Java crea poligoni in mesh 3D con Aspose.3D
 linktitle: Tutorial Java crea poligoni in mesh 3D con Aspose.3D
 second_title: API Java Aspose.3D
 description: Sblocca la potenza della grafica 3D con Aspose.3D per Java. Crea straordinari poligoni senza sforzo. Scaricalo ora per un'esperienza di sviluppo senza interruzioni.
-type: docs
 weight: 10
 url: /it/java/transforming-3d-meshes/create-polygons-in-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Java crea poligoni in mesh 3D con Aspose.3D
+
 ## introduzione
 Nel dinamico mondo della grafica 3D, la capacità di creare oggetti complessi e visivamente sorprendenti è un'abilità fondamentale per gli sviluppatori. Aspose.3D per Java fornisce un potente toolkit che facilita facilmente la creazione di mesh 3D. In questo tutorial ti guideremo attraverso il processo di creazione di poligoni all'interno di mesh 3D utilizzando Aspose.3D per Java.
 ## Prerequisiti
@@ -51,3 +57,9 @@ Sì, Aspose.3D offre una gamma di funzionalità per creare modelli 3D complessi 
  Sì, puoi esplorare le funzionalità di Aspose.3D accedendo a[prova gratuita](https://releases.aspose.com/).
 ### 5. Dove posso chiedere supporto per Aspose.3D?
  Per qualsiasi domanda o assistenza, visitare il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

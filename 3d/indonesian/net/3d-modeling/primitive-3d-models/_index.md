@@ -3,10 +3,16 @@ title: Membuat Model 3D Primitif
 linktitle: Membuat Model 3D Primitif
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia pemodelan 3D dengan Aspose.3D untuk .NET. Buat model primitif yang menakjubkan dengan mudah.
-type: docs
 weight: 10
 url: /id/net/3d-modeling/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Model 3D Primitif
+
 ## Perkenalan
 
 Selamat datang di dunia pemodelan 3D yang menarik dengan Aspose.3D untuk .NET! Dalam tutorial komprehensif ini, kita akan mengeksplorasi proses pembuatan model 3D primitif menggunakan Aspose.3D secara langkah demi langkah. Baik Anda seorang pengembang berpengalaman atau pemula yang penasaran, panduan ini akan membantu Anda memanfaatkan kekuatan Aspose.3D untuk membuat elemen 3D yang menakjubkan secara visual untuk proyek Anda.
@@ -108,3 +114,9 @@ A1: Aspose.3D terutama mendukung .NET, namun ada versi lain yang tersedia untuk 
 ### Q5: Apakah ada contoh tutorial yang tersedia?
 
  A5: Ya, jelajahi lebih banyak tutorial dan contoh di[dokumentasi](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

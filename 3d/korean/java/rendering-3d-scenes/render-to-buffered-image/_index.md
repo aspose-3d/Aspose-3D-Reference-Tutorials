@@ -3,10 +3,16 @@ title: Java에서 추가 처리를 위해 3D 장면을 버퍼링된 이미지로
 linktitle: Java에서 추가 처리를 위해 3D 장면을 버퍼링된 이미지로 렌더링
 second_title: Aspose.3D 자바 API
 description: 3D 장면을 버퍼링된 이미지로 렌더링하는 데 있어 Java용 Aspose.3D의 강력한 기능을 살펴보세요. 필수 구성 요소, 가져오기 패키지 및 FAQ가 포함된 단계별 가이드입니다.
-type: docs
 weight: 12
 url: /ko/java/rendering-3d-scenes/render-to-buffered-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 추가 처리를 위해 3D 장면을 버퍼링된 이미지로 렌더링
+
 ## 소개
 
 Java용 Aspose.3D를 사용하여 3D 장면을 버퍼링된 이미지로 렌더링하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.3D는 개발자가 3D 파일 및 장면으로 작업할 수 있도록 하는 강력한 Java 라이브러리로, 렌더링 및 처리를 위한 다양한 기능을 제공합니다. 이 튜토리얼에서는 3D 장면을 버퍼링된 이미지로 렌더링하는 데 중점을 두고 Java에서 추가 처리 가능성을 열어줍니다.
@@ -106,3 +112,9 @@ ImageIO.write(image, "png", new File(output));
 ### Q5: 추가 렌더링 옵션을 사용할 수 있습니까?
 
  A5: 예, Aspose.3D 문서를 살펴보세요.[여기](https://reference.aspose.com/3d/java/) 렌더링 옵션에 대한 포괄적인 정보를 보려면
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

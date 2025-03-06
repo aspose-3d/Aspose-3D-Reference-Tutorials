@@ -3,10 +3,16 @@ title: Creating a Polygon in Mesh
 linktitle: Creating a Polygon in Mesh
 second_title: Aspose.3D .NET API
 description: Explore the world of 3D modeling with Aspose.3D for .NET. Create stunning polygons in meshes effortlessly. Download now for an immersive development experience!
-type: docs
 weight: 18
 url: /net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creating a Polygon in Mesh
+
 ## Introduction
 Are you ready to dive into the exciting world of 3D modeling with Aspose.3D for .NET? If you're a developer looking to enhance your skills or a newcomer interested in creating stunning 3D meshes, you're in the right place. In this comprehensive tutorial, we'll guide you through the process of creating a polygon in a mesh using Aspose.3D.
 ## Prerequisites
@@ -59,3 +65,10 @@ A: Yes, join the community discussion and get support on the [Aspose.3D forum](h
 A: Explore the extensive [documentation](https://reference.aspose.com/3d/net/) available for in-depth insights.
 ### Q: How do I purchase Aspose.3D for .NET?
 A: Visit the [purchase page](https://purchase.aspose.com/buy) to acquire your license and unlock the full potential of Aspose.3D.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

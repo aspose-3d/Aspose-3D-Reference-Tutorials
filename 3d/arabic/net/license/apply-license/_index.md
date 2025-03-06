@@ -3,10 +3,16 @@ title: تطبيق الترخيص على Aspose.3D لـ .NET
 linktitle: تطبيق الترخيص على Aspose.3D لـ .NET
 second_title: Aspose.3D.NET API
 description: أطلق العنان لقوة Aspose.3D لـ .NET من خلال تطبيق الترخيص بسلاسة. اتبع دليلنا خطوة بخطوة للحصول على تجربة تكامل سلسة.
-type: docs
 weight: 10
 url: /ar/net/license/apply-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق الترخيص على Aspose.3D لـ .NET
+
 ## مقدمة
 
 هل أنت مستعد لإطلاق الإمكانات الكاملة لـ Aspose.3D لـ .NET؟ إن تطبيق الترخيص هو مفتاحك للوصول إلى الميزات المتقدمة وضمان التكامل السلس. في هذا الدليل التفصيلي خطوة بخطوة، سنوجهك عبر الطرق المختلفة لتطبيق الترخيص، مما يضمن عملية إعداد سلسة لتطبيق Aspose.3D الخاص بك.
@@ -118,3 +124,9 @@ metered.SetMeteredKey("your-public-key", "your-private-key");
 ### س5: كيف يمكنني شراء ترخيص؟
 
  ج5: قم بشراء الترخيص الخاص بك[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

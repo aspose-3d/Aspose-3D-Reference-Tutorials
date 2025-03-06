@@ -3,10 +3,16 @@ title: 自訂保存選項
 linktitle: 自訂保存選項
 second_title: Aspose.3D .NET API
 description: 探索 Aspose.3D for .NET 的強大功能。了解如何透過 Collada、USD、3DS、FBX、OBJ、STL、U3D、glTF、DRC 和 RVM 格式的逐步指南自訂 3D 情境來儲存。
-type: docs
 weight: 21
 url: /zh-hant/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 自訂保存選項
+
 ## 介紹
 
 歡迎來到 Aspose.3D for .NET 的世界！如果您希望增強 3D 開發能力，那麼您來對地方了。在本教程中，我們將深入探討載入和儲存功能，特別關注自訂儲存選項。 Aspose.3D for .NET 是一個功能強大的函式庫，使開發人員能夠有效地操作和保存 3D 場景。
@@ -131,3 +137,9 @@ A4：是的，您可以免費試用[這裡](https://releases.aspose.com/).
 ### Q5：如何取得Aspose.3D的臨時授權？
 
  A5：獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

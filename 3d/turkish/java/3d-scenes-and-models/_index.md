@@ -3,10 +3,16 @@ title: Java'da 3B Sahneler ve Modellerle Çalışmak
 linktitle: Java'da 3B Sahneler ve Modellerle Çalışmak
 second_title: Aspose.3D Java API'si
 description: Eğitimlerimiz aracılığıyla Aspose.3D for Java'nın gücünü keşfedin. Java uygulamalarınızda hassasiyeti, depolama verimliliğini ve 3B sahnelerin işlenmesini geliştirin.
-type: docs
 weight: 29
 url: /tr/java/3d-scenes-and-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da 3B Sahneler ve Modellerle Çalışmak
+
 ## giriiş
 
 Java uygulamalarınızı 3D grafik ve modellemede yeni boyutlara yükseltmeye hazır mısınız? Kapsamlı Aspose.3D for Java eğitimlerimize hoş geldiniz! Adım adım rehberlikle 3B sahne konumlandırma, sıkıştırma, bilgi alma, ağ kaydetme ve kusursuz özellik manipülasyonunun potansiyelini açığa çıkarın.
@@ -43,3 +49,9 @@ Aspose.3D ile Java'da 3D sahne manipülasyonu dünyasını keşfedin. Bu eğitim
 Aspose.3D for Java'yı kullanarak 3D ağları özel ikili formatlarda nasıl kaydedeceğinizi öğrenin. Bu adım adım eğitimle Java uygulamalarında esnekliği artırın.
 ### [Aspose.3D Kullanarak Java Sahnelerinde 3D Özellikler ve Özel Verilerle Çalışma](./managing-3d-properties-scenes/)
 Kesintisiz 3D özellik manipülasyonu için Java uygulamalarınızı Aspose.3D ile geliştirin. Adım adım rehberlik için eğitimimizi takip edin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

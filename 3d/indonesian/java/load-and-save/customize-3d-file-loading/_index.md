@@ -3,10 +3,16 @@ title: Sesuaikan Pemuatan File 3D di Java dengan Aspose.3D LoadOptions
 linktitle: Sesuaikan Pemuatan File 3D di Java dengan Aspose.3D LoadOptions
 second_title: Asumsikan.3D Java API
 description: Tingkatkan pemuatan file 3D Anda di Java dengan LoadOptions Aspose.3D yang dapat disesuaikan. Pelajari penyesuaian langkah demi langkah untuk 3DS, OBJ, STL, U3D, glTF, PLY, X, dan FBX opsional.
-type: docs
 weight: 12
 url: /id/java/load-and-save/customize-3d-file-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Pemuatan File 3D di Java dengan Aspose.3D LoadOptions
+
 ## Perkenalan
 
 Dalam lanskap desain dan pengembangan 3D yang terus berkembang, penanganan format file 3D yang efisien sangatlah penting. Aspose.3D untuk Java memberikan solusi ampuh untuk menyesuaikan pemuatan berbagai format file 3D. Tutorial ini akan memandu Anda melalui proses penyesuaian pemuatan file 3D di Java menggunakan LoadOptions Aspose.3D.
@@ -156,3 +162,9 @@ Menyesuaikan pemuatan file 3D di Java dengan LoadOptions Aspose.3D memberdayakan
 ### Q5: Apakah saya memerlukan lisensi sementara untuk pengujian?
 
  A5: Ya, dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

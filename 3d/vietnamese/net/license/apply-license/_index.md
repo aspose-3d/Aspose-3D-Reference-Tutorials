@@ -3,10 +3,16 @@ title: Xin giấy phép cho Aspose.3D cho .NET
 linktitle: Xin giấy phép cho Aspose.3D cho .NET
 second_title: API Aspose.3D .NET
 description: Khai phá sức mạnh của Aspose.3D cho .NET bằng cách áp dụng giấy phép một cách liền mạch. Hãy làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm tích hợp suôn sẻ.
-type: docs
 weight: 10
 url: /vi/net/license/apply-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xin giấy phép cho Aspose.3D cho .NET
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng khai thác toàn bộ tiềm năng của Aspose.3D cho .NET chưa? Áp dụng giấy phép là chìa khóa để bạn truy cập các tính năng nâng cao và đảm bảo tích hợp liền mạch. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn các phương pháp áp dụng giấy phép khác nhau, đảm bảo quá trình thiết lập suôn sẻ cho ứng dụng Aspose.3D của bạn.
@@ -118,3 +124,9 @@ Chúc mừng! Bạn đã học thành công cách đăng ký giấy phép cho As
 ### Câu 5: Làm cách nào tôi có thể mua giấy phép?
 
  A5: Mua giấy phép của bạn[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mengekspos Transformasi Geometris
 linktitle: Mengekspos Transformasi Geometris
 second_title: Aspose.3D .NET API
 description: Jelajahi kemungkinan tak terbatas dari grafik 3D di .NET dengan Aspose.3D. Temukan transformasi geometris dengan mudah.
-type: docs
 weight: 13
 url: /id/net/geometry-and-hierarchy/expose-geometric-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekspos Transformasi Geometris
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.3D yang menarik untuk .NET! Dalam tutorial ini, kita akan mempelajari seluk-beluk mengekspos transformasi geometris dalam adegan 3D menggunakan Aspose.3D. Jika Anda seorang pengembang .NET yang ingin meningkatkan kemampuan grafis 3D Anda, Anda berada di tempat yang tepat.
@@ -98,3 +104,9 @@ A1: Aspose.3D kompatibel dengan berbagai kerangka .NET, memastikan fleksibilitas
 ### Q5: Bagaimana cara membeli Aspose.3D untuk .NET?
 
  A5: Untuk membeli Aspose.3D untuk .NET, kunjungi[halaman pembelian](https://purchase.aspose.com/buy) di situs web Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

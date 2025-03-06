@@ -3,10 +3,16 @@ title: Đặt thuộc tính ba chiều trong cảnh 3D
 linktitle: Đặt thuộc tính ba chiều trong cảnh 3D
 second_title: API Aspose.3D .NET
 description: Khám phá hướng dẫn Aspose.3D for .NET về cách thiết lập thuộc tính 3D. Tìm hiểu từng bước với các ví dụ về mã. Nâng cao kỹ năng xử lý cảnh 3D của bạn.
-type: docs
 weight: 14
 url: /vi/net/3d-scene/set-3d-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt thuộc tính ba chiều trong cảnh 3D
+
 ## Giới thiệu
 
 Tạo cảnh ba chiều quyến rũ thường đòi hỏi khả năng thao tác các thuộc tính khác nhau, thêm chiều sâu và tính chân thực cho dự án của bạn. Aspose.3D for .NET cung cấp một bộ công cụ mạnh mẽ để đạt được điều này, cho phép bạn thiết lập và sửa đổi các thuộc tính ba chiều trong cảnh 3D của mình một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình từng bước một, nâng cao hiểu biết của bạn về cách tận dụng Aspose.3D cho .NET một cách hiệu quả.
@@ -148,3 +154,10 @@ Câu trả lời 1: Có, Aspose.3D hỗ trợ nhiều định dạng tệp 3D kh
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.3D miễn phí cho .NET trước khi mua không?
 
  A5: Chắc chắn rồi! Tải về[phiên bản dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng của nó.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

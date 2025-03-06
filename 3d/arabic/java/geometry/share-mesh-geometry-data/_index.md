@@ -3,10 +3,16 @@ title: مشاركة بيانات هندسة الشبكة في Java 3D باستخ
 linktitle: مشاركة بيانات هندسة الشبكة في Java 3D باستخدام Aspose.3D
 second_title: Aspose.3D جافا API
 description: اكتشف عجائب Java 3D باستخدام Aspose.3D. تعرف على كيفية مشاركة بيانات الهندسة الشبكية بسهولة بين العقد في هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 15
 url: /ar/java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مشاركة بيانات هندسة الشبكة في Java 3D باستخدام Aspose.3D
+
 ## مقدمة
 
 إن الشروع في رحلة إلى عالم Java 3D باستخدام Aspose.3D يفتح عالمًا من الإمكانيات لإنشاء تصورات مذهلة وتجارب غامرة. في هذا البرنامج التعليمي، سنرشدك خلال عملية مشاركة البيانات الهندسية الشبكية في Java 3D باستخدام Aspose.3D. اتبع كل خطوة بعناية، وفي النهاية، ستتبادل بيانات الشبكة بسلاسة بين العقد المتعددة.
@@ -117,3 +123,9 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟
 
  ج5: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

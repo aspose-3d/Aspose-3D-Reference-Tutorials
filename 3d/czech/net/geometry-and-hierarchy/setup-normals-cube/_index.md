@@ -3,10 +3,16 @@ title: Nastavení normálů na krychli
 linktitle: Nastavení normálů na krychli
 second_title: Aspose.3D .NET API
 description: Naučte se nastavit normály na 3D krychli pomocí Aspose.3D pro .NET. Vylepšete své dovednosti v oblasti 3D modelování pomocí tohoto podrobného průvodce.
-type: docs
 weight: 17
 url: /cs/net/geometry-and-hierarchy/setup-normals-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení normálů na krychli
+
 ## Úvod
 
 Vítejte v našem podrobném průvodci nastavením normál na krychli ve 3D scénách pomocí Aspose.3D pro .NET. Aspose.3D je výkonná knihovna, která umožňuje vývojářům .NET pracovat s 3D soubory a poskytuje širokou škálu funkcí pro 3D modelování a manipulaci.
@@ -100,3 +106,9 @@ A2: Rozhodně! Bezplatnou zkušební verzi si můžete stáhnout z[tady](https:/
 ### Q5: Existují nějaké další zdroje pro výuku Aspose.3D?
 
  A5: Prozkoumejte rozsáhlé[dokumentace](https://reference.aspose.com/3d/net/) k objevování dalších funkcí a tipů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Rozdělte 3D sítě podle materiálu pro efektivní zpracování v Javě
 linktitle: Rozdělte 3D sítě podle materiálu pro efektivní zpracování v Javě
 second_title: Aspose.3D Java API
 description: Prozkoumejte sílu Aspose.3D v Javě pomocí našeho podrobného průvodce efektivním dělením 3D sítí podle materiálu. Bezproblémově zvyšujte výkon své aplikace.
-type: docs
 weight: 12
 url: /cs/java/3d-mesh-data/split-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozdělte 3D sítě podle materiálu pro efektivní zpracování v Javě
+
 ## Úvod
 
 Vítejte v tomto komplexním tutoriálu o rozdělení 3D sítí podle materiálu pro efektivní zpracování v Javě pomocí Aspose.3D. Pokud se ponoříte do světa 3D grafiky a potřebujete výkonnou knihovnu Java, Aspose.3D je vaším řešením. V tomto tutoriálu vás provedeme procesem efektivního zacházení s 3D sítěmi podle materiálu a optimalizací vaší Java aplikace pro vynikající výkon.
@@ -104,3 +110,10 @@ A2: Rozhodně! Tato metoda je vhodná pro složité 3D modely a optimalizuje jej
 ### Q5: Jak mohu získat podporu pro jakékoli problémy nebo dotazy?
 
  A5: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) za obětavou podporu od komunity.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

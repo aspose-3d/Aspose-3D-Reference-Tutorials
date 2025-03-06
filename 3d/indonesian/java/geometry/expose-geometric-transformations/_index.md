@@ -3,10 +3,16 @@ title: Ekspos Transformasi Geometris di Java 3D dengan Aspose.3D
 linktitle: Ekspos Transformasi Geometris di Java 3D dengan Aspose.3D
 second_title: Asumsikan.3D Java API
 description: Menguasai transformasi geometris 3D di Java menjadi mudah dengan Aspose.3D. Pelajari cara memanipulasi node, menerapkan terjemahan, dan mengevaluasi transformasi global.
-type: docs
 weight: 13
 url: /id/java/geometry/expose-geometric-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspos Transformasi Geometris di Java 3D dengan Aspose.3D
+
 ## Perkenalan
 
 Dalam dunia pemrograman Java 3D yang dinamis, menguasai transformasi geometri adalah keterampilan yang sangat penting. Aspose.3D untuk Java adalah perpustakaan tangguh yang memberdayakan pengembang untuk mempelajari seluk-beluk pemodelan 3D dengan mudah. Dalam tutorial ini, kita akan memulai perjalanan mencerahkan untuk mengekspos dan memanipulasi transformasi geometris menggunakan Aspose.3D untuk Java.
@@ -86,3 +92,9 @@ A1: Aspose.3D terintegrasi secara mulus dengan lingkungan pengembangan Java apa 
 ### Q5: Apakah saya memerlukan lisensi sementara untuk menguji Aspose.3D?
 
  A5: Dapatkan a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java でプリミティブをメッシュに変換する
 linktitle: Java でプリミティブをメッシュに変換する
 second_title: Aspose.3D Java API
 description: Aspose.3D for Java で 3D グラフィックスをマスターする旅に乗り出しましょう - プリミティブを魅惑的なメッシュに簡単に変換します。今すぐコーディング体験を向上させましょう!
-type: docs
 weight: 12
 url: /ja/java/transforming-3d-meshes/convert-primitives-to-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でプリミティブをメッシュに変換する
+
 ## 導入
 Java で 3D グラフィックスの領域に足を踏み入れると、特にプリミティブを複雑なメッシュに変換してシーンを向上させたい場合には、爽快な気分になることがあります。このチュートリアルでは、Aspose.3D for Java を使用するプロセスをガイドし、シームレスで充実したエクスペリエンスを保証します。
 ## 前提条件
@@ -73,3 +79,9 @@ System.out.println("\n Converted the primitive Box to a mesh successfully.\nFile
 確かに仮免許は取得できる[ここ](https://purchase.aspose.com/temporary-license/).
 ### Q5: Aspose.3D for Java の詳細なドキュメントはどこで見つけられますか?
 包括的なドキュメントが利用可能です[ここ](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

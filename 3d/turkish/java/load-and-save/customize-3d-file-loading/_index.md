@@ -3,10 +3,16 @@ title: Aspose.3D LoadOptions ile Java'da 3D Dosya Yüklemeyi Özelleştirin
 linktitle: Aspose.3D LoadOptions ile Java'da 3D Dosya Yüklemeyi Özelleştirin
 second_title: Aspose.3D Java API'si
 description: Aspose.3D özelleştirilebilir LoadOptions ile Java'da 3D dosya yüklemenizi geliştirin. 3DS, OBJ, STL, U3D, glTF, PLY, X ve isteğe bağlı FBX için adım adım özelleştirmeyi öğrenin.
-type: docs
 weight: 12
 url: /tr/java/load-and-save/customize-3d-file-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D LoadOptions ile Java'da 3D Dosya Yüklemeyi Özelleştirin
+
 ## giriiş
 
 Sürekli gelişen 3D tasarım ve geliştirme ortamında, 3D dosya formatlarının verimli şekilde kullanılması çok önemlidir. Aspose.3D for Java, çeşitli 3D dosya formatlarının yüklenmesini özelleştirmek için güçlü bir çözüm sunar. Bu eğitim, Aspose.3D'nin LoadOptions'ını kullanarak Java'da 3D dosya yüklemeyi özelleştirme sürecinde size rehberlik edecektir.
@@ -156,3 +162,9 @@ Aspose.3D'nin LoadOptions'ı ile Java'da 3D dosya yüklemeyi özelleştirmek, ge
 ### S5: Test için geçici bir lisansa ihtiyacım var mı?
 
  A5: Evet, geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

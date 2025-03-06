@@ -3,10 +3,16 @@ title: إعداد الأشعة فوق البنفسجية على المكعب
 linktitle: إعداد الأشعة فوق البنفسجية على المكعب
 second_title: Aspose.3D.NET API
 description: تعلم كيفية إعداد تعيين الأشعة فوق البنفسجية على مكعب ثلاثي الأبعاد باستخدام Aspose.3D لـ .NET. قم بإنشاء مشاهد مذهلة بصريًا باستخدام خريطة نسيج دقيقة.
-type: docs
 weight: 18
 url: /ar/net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إعداد الأشعة فوق البنفسجية على المكعب
+
 ## مقدمة
 
 غالبًا ما يتضمن إنشاء مشاهد ثلاثية الأبعاد جذابة وجذابة بصريًا عملية دقيقة لإعداد خرائط الأشعة فوق البنفسجية على الأشكال الهندسية. في هذا البرنامج التعليمي، سوف نستكشف كيفية إعداد الأشعة فوق البنفسجية على المكعب باستخدام Aspose.3D لـ .NET. Aspose.3D هي مكتبة .NET قوية توفر مجموعة شاملة من الميزات للنمذجة والمعالجة ثلاثية الأبعاد.
@@ -119,3 +125,9 @@ A1: Aspose.3D for .NET هي مكتبة قوية للنمذجة ثلاثية ال
 ### س5: هل التراخيص المؤقتة متاحة؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

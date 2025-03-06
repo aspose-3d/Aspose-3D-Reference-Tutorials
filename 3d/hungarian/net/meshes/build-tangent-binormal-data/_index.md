@@ -3,10 +3,16 @@ title: Érintő és binormális adatok felépítése
 linktitle: Érintő és binormális adatok felépítése
 second_title: Aspose.3D .NET API
 description: Engedje szabadjára a tangens és binormális adatok erejét, és optimalizálja 3D modelljeit a simább renderelés, a gyorsabb betöltési idő és a teljesítmény növelése érdekében.
-type: docs
 weight: 10
 url: /hu/net/meshes/build-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Érintő és binormális adatok felépítése
+
 ## Bevezetés
 Érezte már valaha a csalódottságát, amiért egy lomha 3D-s modell elakasztotta a projektjét? Ne aggódjon, fejlesztőtárs, mert a zökkenőmentes vitorlázás titka az érintő és binormális adatokban rejlik. Ezek a nem énekelt hősök optimalizálják a hálós megjelenítést, így modelljei operadívákként énekelnek minden színpadon. De hogyan hasznosíthatjuk erejüket? Ne féljen, mert ez az átfogó útmutató felszereli az Aspose.3D for .NET eszközkészlettel, amellyel néhány kattintással felszabadíthatja a tangens és binormális adatok varázsát!
 
@@ -85,3 +91,9 @@ Az Aspose.3D számos formátumot támogat, például OBJ, STL és glTF. Csak kon
  Az Aspose.3D átfogó dokumentációs portállal rendelkezik a címen[itt](https://docs.aspose.com/3d/net/) Ezenkívül az Aspose közösségi fórum a címen[itt](https://forum.aspose.com/) mindig nyüzsög a segítőkész fejlesztőktől.
 ### Használhatom az Aspose.3D-t kereskedelmi projektekhez? 
  Igen! Az Aspose.3D különféle licencelési lehetőségeket kínál az Ön igényeinek megfelelően. Tekintse meg árazási oldalukat a címen[itt](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

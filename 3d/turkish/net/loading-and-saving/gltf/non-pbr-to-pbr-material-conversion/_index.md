@@ -3,10 +3,16 @@ title: PBR'den PBR'ye Malzeme Dönüşümü
 linktitle: PBR'den PBR'ye Malzeme Dönüşümü
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'i keşfedin - PBR olmayan malzemeleri zahmetsizce PBR'ye dönüştürün. Kapsamlı eğitim ve güçlü API.
-type: docs
 weight: 16
 url: /tr/net/loading-and-saving/gltf/non-pbr-to-pbr-material-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PBR'den PBR'ye Malzeme Dönüşümü
+
 ## giriiş
 
 PBR Olmayan (Fiziksel Tabanlı İşleme) PBR malzemelerine dönüştürmek için Aspose.3D for .NET'in kullanımına ilişkin bu adım adım kılavuza hoş geldiniz. Aspose.3D, geliştiricilerin .NET uygulamalarında 3D dosya formatlarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir API'dir.
@@ -105,3 +111,9 @@ Cevap1: Evet, Aspose.3D çok çeşitli 3D dosya formatlarını destekleyerek pro
 ### S5: Ücretsiz deneme sürümü var mı?
 
  Cevap5: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

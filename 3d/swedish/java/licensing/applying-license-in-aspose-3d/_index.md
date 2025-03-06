@@ -3,10 +3,16 @@ title: Applicera en licens i Aspose.3D för Java
 linktitle: Applicera en licens i Aspose.3D för Java
 second_title: Aspose.3D Java API
 description: Lås upp den fulla potentialen hos Aspose.3D i Java-applikationer genom att följa vår omfattande guide om hur du ansöker om licenser.
-type: docs
 weight: 10
 url: /sv/java/licensing/applying-license-in-aspose-3d/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applicera en licens i Aspose.3D för Java
+
 ## Introduktion
 
 Välkommen till den här steg-för-steg-guiden om hur du ansöker om en licens i Aspose.3D för Java. Aspose.3D är ett kraftfullt Java-bibliotek som låter utvecklare arbeta med 3D-filer utan ansträngning. I den här handledningen kommer vi att fördjupa oss i processen att ansöka om en licens med olika metoder, för att säkerställa att du kan låsa upp den fulla potentialen hos Aspose.3D i dina Java-applikationer.
@@ -111,3 +117,9 @@ S1: Ja, Aspose.3D är kompatibel med Java 6 och senare versioner.
 ### F5: Behöver jag en tillfällig licens för att testa?
 
  A5: Ja, skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

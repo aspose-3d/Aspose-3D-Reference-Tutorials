@@ -3,10 +3,16 @@ title: Направление линейной экструзии
 linktitle: Направление линейной экструзии
 second_title: Aspose.3D .NET API
 description: Откройте для себя мир 3D-моделирования с помощью Aspose.3D для .NET. Изучите направление линейной экструзии, развивайте творческий подход и с легкостью создавайте иммерсивные приложения.
-type: docs
 weight: 11
 url: /ru/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Направление линейной экструзии
+
 ## Введение
 
 В динамичном мире разработки программного обеспечения создание иммерсивных 3D-моделей является незаменимым навыком. Aspose.3D для .NET предоставляет разработчикам надежный набор инструментов для использования потенциала 3D-моделирования в своих приложениях. В этом уроке мы углубимся в интригующий мир линейной экструзии и исследуем нюансы функции «Направление линейной экструзии».
@@ -110,3 +116,9 @@ scene.Save("Your Output Directory" + "DirectionInLinearExtrusion.obj", FileForma
 ### Вопрос 5: Где я могу найти подробную документацию по Aspose.3D для .NET?
 
  A5: обратитесь к подробному[Документация Aspose.3D .NET](https://reference.aspose.com/3d/net/) для более подробной информации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

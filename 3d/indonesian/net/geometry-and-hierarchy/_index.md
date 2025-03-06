@@ -3,10 +3,16 @@ title: Geometri dan Hierarki
 linktitle: Geometri dan Hierarki
 second_title: Aspose.3D .NET API
 description: Buka dunia grafis 3D dengan tutorial Aspose.3D untuk .NET. Dari penerapan material PBR hingga transformasi geometris, kuasai setiap aspek dengan mudah.
-type: docs
 weight: 25
 url: /id/net/geometry-and-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geometri dan Hierarki
+
 ## Perkenalan
 
 Mulailah perjalanan mendebarkan ke dunia grafis 3D dengan tutorial Aspose.3D untuk .NET. Baik Anda seorang pemula atau pengembang berpengalaman, panduan langkah demi langkah ini menjanjikan untuk meningkatkan keterampilan Anda dan mengungkap rahasia manipulasi grafis 3D yang mulus.
@@ -72,3 +78,9 @@ Selidiki dunia transformasi angka empat dengan Aspose.3D untuk .NET. Panduan ram
  Jelajahi kekuatan Aspose.3D untuk .NET dengan panduan langkah demi langkah tentang triangulasi jerat 3D dengan mudah. Tingkatkan keterampilan modeling Anda untuk pengalaman yang lebih mendalam.[Baca selengkapnya](./triangulate-mesh/)
 
 Mulailah perjalanan menarik tutorial Aspose.3D untuk .NET ini dan tingkatkan keahlian grafis 3D Anda. Selami setiap tutorial, ikuti langkah-langkahnya, dan saksikan keterampilan Anda melambung ke tingkat yang lebih tinggi. Selamat membuat kode!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

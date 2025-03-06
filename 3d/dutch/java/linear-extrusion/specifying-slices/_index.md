@@ -3,10 +3,16 @@ title: Segmenten specificeren in lineaire extrusie met Aspose.3D voor Java
 linktitle: Segmenten specificeren in lineaire extrusie met Aspose.3D voor Java
 second_title: Aspose.3D Java-API
 description: Leer segmenten te specificeren in lineaire extrusie met Aspose.3D voor Java. Verbeter uw vaardigheden op het gebied van 3D-modelleren met deze stapsgewijze handleiding.
-type: docs
 weight: 13
 url: /nl/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Segmenten specificeren in lineaire extrusie met Aspose.3D voor Java
+
 ## Invoering
 
 Het maken van ingewikkelde 3D-modellen vereist vaak meer dan alleen creativiteit; het vereist een grondig begrip van de tools die je tot je beschikking hebt. Aspose.3D voor Java is in dit opzicht een gamechanger. In deze tutorial zullen we ons concentreren op een specifiek aspect: het specificeren van plakjes in lineaire extrusie.
@@ -93,3 +99,9 @@ Gefeliciteerd! Je hebt met succes geleerd hoe je segmenten kunt specificeren in 
 ### Vraag 5: Kan ik een tijdelijke licentie kopen?
 
  A5: Ja, er kan een tijdelijke licentie worden verkregen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

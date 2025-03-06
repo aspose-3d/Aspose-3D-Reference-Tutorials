@@ -3,10 +3,16 @@ title: Udostępniaj dane dotyczące geometrii siatki w Java 3D za pomocą Aspose
 linktitle: Udostępniaj dane dotyczące geometrii siatki w Java 3D za pomocą Aspose.3D
 second_title: Aspose.3D API Java
 description: Odkryj cuda Java 3D z Aspose.3D. Z tego obszernego samouczka dowiesz się, jak bezproblemowo udostępniać dane geometrii siatki pomiędzy węzłami.
-type: docs
 weight: 15
 url: /pl/java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Udostępniaj dane dotyczące geometrii siatki w Java 3D za pomocą Aspose.3D
+
 ## Wstęp
 
 Wyruszenie w podróż do świata Java 3D z Aspose.3D otwiera świat możliwości tworzenia oszałamiających wizualizacji i wciągających doświadczeń. W tym samouczku przeprowadzimy Cię przez proces udostępniania danych geometrii siatki w Java 3D przy użyciu Aspose.3D. Wykonuj uważnie każdy krok, a na koniec będziesz bezproblemowo wymieniać dane siatki między wieloma węzłami.
@@ -117,3 +123,9 @@ O1: Tak, Aspose.3D został zaprojektowany tak, aby bezproblemowo współpracowa�
 ### P5: Jak uzyskać tymczasową licencję na Aspose.3D?
 
  Odpowiedź 5: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

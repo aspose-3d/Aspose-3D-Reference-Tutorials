@@ -3,10 +3,16 @@ title: 线性挤压
 linktitle: 线性挤压
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 教程释放 3D 创造力。掌握线性挤出技术、增强设计并轻松提升您的项目。
-type: docs
 weight: 31
 url: /zh/net/3d-modeling/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 线性挤压
+
 ## 介绍
 | Explore the dynamic realm of [3D modeling](./center-in-linear-extrusion/) through Aspose.3D for .NET tutorials, focusing on various aspects of linear extrusion. Master the art of [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), and incorporating [twist offsets](./twist-offset-in-linear-extrusion/) in your designs. Each tutorial is a gateway to unlocking new dimensions of creativity in 3D graphics. Dive into the captivating world of Aspose.3D for .NET and unleash your imagination. |
 
@@ -42,3 +48,9 @@ url: /zh/net/3d-modeling/linear-extrusion/
 使用 Aspose.3D for .NET 探索迷人的 3D 图形世界。逐步学习带有扭曲的线性挤压。
 ### [线性挤压中的扭转偏移](./twist-offset-in-linear-extrusion/)
 通过我们有关线性拉伸中扭曲偏移的分步指南，探索 Aspose.3D for .NET 的魔力。轻松提升您的 3D 项目。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

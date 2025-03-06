@@ -3,10 +3,16 @@ title: Thiết lập mục tiêu và máy ảnh cho hoạt ảnh trong cảnh 3D
 linktitle: Thiết lập mục tiêu và máy ảnh cho hoạt ảnh trong cảnh 3D
 second_title: API Aspose.3D .NET
 description: Khám phá sự kỳ diệu của hoạt hình 3D với Aspose.3D cho .NET. Dễ dàng thiết lập mục tiêu và camera bằng hướng dẫn toàn diện này.
-type: docs
 weight: 11
 url: /vi/net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thiết lập mục tiêu và máy ảnh cho hoạt ảnh trong cảnh 3D
+
 ## Giới thiệu
 
 Thiết lập mục tiêu và camera tạo thành nền tảng của bất kỳ dự án hoạt hình 3D nào. Aspose.3D for .NET cung cấp một bộ công cụ mạnh mẽ để hợp lý hóa quy trình này, cho phép các nhà phát triển thỏa sức sáng tạo. Hướng dẫn này sẽ hướng dẫn bạn qua các bước, chia nhỏ sự phức tạp và làm cho nhiệm vụ có vẻ khó khăn này trở nên dễ quản lý hơn.
@@ -103,3 +109,9 @@ Câu trả lời 4: Có, bạn có thể khám phá bản dùng thử miễn ph�
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời?
 
  A5: Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

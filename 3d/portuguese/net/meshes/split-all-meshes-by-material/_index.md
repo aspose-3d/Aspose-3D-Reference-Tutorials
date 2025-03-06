@@ -3,10 +3,16 @@ title: Dividindo todas as malhas da cena por material
 linktitle: Dividindo todas as malhas da cena por material
 second_title: API Aspose.3D .NET
 description: Aprenda como dividir malhas 3D por material usando Aspose.3D for .NET. Siga nosso guia passo a passo para organização e gerenciamento eficiente de modelos 3D.
-type: docs
 weight: 21
 url: /pt/net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dividindo todas as malhas da cena por material
+
 ## Introdução
 Bem-vindo a este guia passo a passo sobre como dividir todas as malhas de uma cena 3D por material usando Aspose.3D para .NET. Se você trabalha com modelos 3D e deseja organizar suas malhas de maneira eficiente com base em materiais, este tutorial é para você. Aspose.3D é uma biblioteca .NET poderosa que oferece uma variedade de recursos para trabalhar com arquivos 3D, tornando-a uma excelente escolha para desenvolvedores.
 ## Pré-requisitos
@@ -66,3 +72,9 @@ Aspose.3D foi projetado principalmente para .NET, mas fornece interoperabilidade
  Visite a[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para apoio e discussões da comunidade.
 ### 5. Posso obter uma licença temporária?
  Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

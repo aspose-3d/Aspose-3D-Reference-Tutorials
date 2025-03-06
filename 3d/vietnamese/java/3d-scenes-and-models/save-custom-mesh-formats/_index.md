@@ -3,10 +3,16 @@ title: Lưu lưới 3D ở định dạng nhị phân tùy chỉnh để linh ho
 linktitle: Lưu lưới 3D ở định dạng nhị phân tùy chỉnh để linh hoạt trong Java
 second_title: API Java Aspose.3D
 description: Tìm hiểu cách lưu lưới 3D ở định dạng nhị phân tùy chỉnh bằng Aspose.3D cho Java. Nâng cao tính linh hoạt trong các ứng dụng Java với hướng dẫn từng bước này.
-type: docs
 weight: 13
 url: /vi/java/3d-scenes-and-models/save-custom-mesh-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu lưới 3D ở định dạng nhị phân tùy chỉnh để linh hoạt trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách lưu lưới 3D ở định dạng nhị phân tùy chỉnh để linh hoạt trong Java bằng Aspose.3D. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi lưới 3D và lưu chúng ở định dạng nhị phân tùy chỉnh để nâng cao tính linh hoạt và khả năng tương tác trong các ứng dụng Java của bạn.
@@ -124,3 +130,9 @@ Câu trả lời 4: Tài liệu Aspose.3D có thể bao gồm các mô hình m�
 ### Câu hỏi 5: Tôi có thể tùy chỉnh thêm định dạng nhị phân cho các yêu cầu cụ thể không?
 
 Câu trả lời 5: Hoàn toàn có thể, vui lòng điều chỉnh định dạng nhị phân cho phù hợp với nhu cầu cụ thể của ứng dụng của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Compreendendo a hierarquia de nós
 linktitle: Compreendendo a hierarquia de nós
 second_title: API Aspose.3D .NET
 description: Desbloqueie o poder do Aspose.3D para .NET! Mergulhe na manipulação da hierarquia de nós com este guia passo a passo. Crie cenas 3D impressionantes sem esforço.
-type: docs
 weight: 16
 url: /pt/net/geometry-and-hierarchy/node-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Compreendendo a hierarquia de nós
+
 ## Introdução
 
 Bem-vindo ao mundo do Aspose.3D for .NET, uma biblioteca poderosa que permite aos desenvolvedores trabalhar perfeitamente com cenas e modelos 3D em seus aplicativos .NET. Neste tutorial, nos aprofundaremos nos meandros da compreensão da hierarquia de nós em cenas 3D usando Aspose.3D. Ao final deste guia, você terá uma compreensão sólida de como manipular a estrutura de cenas 3D por meio de nós, permitindo criar experiências visuais impressionantes.
@@ -129,3 +135,9 @@ A4: Com certeza! Aspose.3D é versátil e pode ser integrado em projetos de dese
 ### P5: Qual é a diferença entre uma licença temporária e uma licença completa?
 
 R5: Uma licença temporária fornece acesso de curto prazo para fins de avaliação, enquanto uma licença completa oferece uso irrestrito.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

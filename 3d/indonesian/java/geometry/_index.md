@@ -3,10 +3,16 @@ title: Bekerja dengan Geometri 3D di Java
 linktitle: Bekerja dengan Geometri 3D di Java
 second_title: Asumsikan.3D Java API
 description: Jelajahi Aspose.3D untuk tutorial Java tentang bekerja dengan geometri 3D. Kuasai materi PBR, rotasi angka empat, adegan kubus, dan banyak lagi. Tingkatkan grafis Java 3D Anda.
-type: docs
 weight: 21
 url: /id/java/geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Geometri 3D di Java
+
 ## Perkenalan
 Apakah Anda siap untuk mempelajari dunia grafis 3D yang menakjubkan dengan Aspose.3D untuk Java? Tutorial kami mencakup spektrum topik, memberdayakan Anda untuk menyempurnakan aplikasi Java Anda dengan elemen 3D yang kuat dan menakjubkan secara visual. Mari kita memulai perjalanan ini selangkah demi selangkah.
 
@@ -89,3 +95,9 @@ Sempurnakan aplikasi Java Anda dengan Aspose.3D untuk transformasi 3D yang hebat
 Jelajahi dunia grafis 3D di Java dengan Aspose.3D. Pelajari cara mengubah node dengan mudah menggunakan matriks transformasi.
 ### [Lakukan Triangulasi Jerat untuk Rendering yang Dioptimalkan di Java dengan Aspose.3D](./triangulate-meshes-for-optimized-rendering/)
 Pelajari cara meningkatkan efisiensi rendering 3D di Java menggunakan Aspose.3D. Lakukan triangulasi jerat untuk kinerja optimal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

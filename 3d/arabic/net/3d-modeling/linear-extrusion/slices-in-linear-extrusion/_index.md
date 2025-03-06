@@ -3,10 +3,16 @@ title: شرائح في النتوء الخطي
 linktitle: شرائح في النتوء الخطي
 second_title: Aspose.3D.NET API
 description: استكشف عالم التصميم ثلاثي الأبعاد باستخدام Aspose.3D لـ .NET. قم بإنشاء نماذج مذهلة باستخدام برنامجنا التعليمي للبثق الخطي.
-type: docs
 weight: 13
 url: /ar/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# شرائح في النتوء الخطي
+
 ## مقدمة
 
 مرحبًا بك في عالم التصميم ثلاثي الأبعاد باستخدام Aspose.3D لـ .NET! سواء كنت مطورًا متمرسًا أو بدأت للتو، سيرشدك هذا البرنامج التعليمي خلال عملية إنشاء تصورات ثلاثية الأبعاد مذهلة باستخدام مكتبة Aspose.3D القوية.
@@ -116,3 +122,9 @@ scene.Save("Your Output Directory" + "SlicesInLinearExtrusion.obj", FileFormat.W
 ### س5: هل يمكنني استخدام ترخيص مؤقت لـ Aspose.3D لـ .NET؟
 
  ج5: نعم، احصل على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

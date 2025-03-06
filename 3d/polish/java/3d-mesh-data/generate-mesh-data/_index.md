@@ -3,10 +3,16 @@ title: Generuj dane dla siatek 3D w Javie (normalne, styczne, binormalne)
 linktitle: Generuj dane dla siatek 3D w Javie (normalne, styczne, binormalne)
 second_title: Aspose.3D API Java
 description: Ulepsz swoje projekty Java za pomocą Aspose.3D. Postępuj zgodnie z naszym samouczkiem, aby bez wysiłku wygenerować normalne dane dla siatek 3D. Z łatwością zanurz się w grafice 3D.
-type: docs
 weight: 11
 url: /pl/java/3d-mesh-data/generate-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generuj dane dla siatek 3D w Javie (normalne, styczne, binormalne)
+
 ## Wstęp
 
 Tworzenie i manipulowanie danymi siatki 3D w Javie może być trudnym, ale ekscytującym zadaniem, szczególnie w przypadku plików, w których brakuje podstawowych normalnych danych. Z pomocą przychodzi Aspose.3D for Java, dostarczając potężny zestaw narzędzi do wydajnej obsługi grafiki 3D i siatek. W tym samouczku przeprowadzimy Cię przez proces generowania normalnych danych dla siatek 3D przy użyciu Aspose.3D w Javie.
@@ -95,3 +101,9 @@ Odpowiedź 1: Tak, Aspose.3D obsługuje różne formaty plików 3D, zapewniając
 ### P5: Potrzebujesz pomocy lub chcesz nawiązać kontakt ze społecznością?
 
  A5: Odwiedź forum Aspose.3D[Tutaj](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

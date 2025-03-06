@@ -3,10 +3,16 @@ title: Aspose.3D ile Malzemeleri Java'daki 3D Nesnelere Uygulayın
 linktitle: Aspose.3D ile Malzemeleri Java'daki 3D Nesnelere Uygulayın
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java ile 3D grafik dünyasını keşfedin. Malzemeleri 3B nesnelere sorunsuz bir şekilde nasıl uygulayacağınızı öğrenin. Gerçekçi görsellerle projelerinizi geliştirin.
-type: docs
 weight: 14
 url: /tr/java/geometry/apply-materials-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D ile Malzemeleri Java'daki 3D Nesnelere Uygulayın
+
 ## giriiş
 
 3D grafiklerin dinamik dünyasında Aspose.3D for Java, projelerinize hayat verecek güçlü bir araç olarak öne çıkıyor. 3B nesnelere malzeme eklemek görsel çekiciliği artırarak onları daha gerçekçi hale getirir. Bu eğitimde, Aspose.3D for Java kullanarak malzemeleri 3 boyutlu bir küpe uygulama sürecinde size yol göstereceğiz.
@@ -165,3 +171,9 @@ Cevap1: Evet, Aspose.3D, gelişmiş kişiselleştirme için bir 3D nesnenin fark
 ### S5: Aspose.3D kütüphanesini belirli bir bağlantıdan indirebilir miyim?
 
  A5: Evet, kullanın[İndirme: {link](https://releases.aspose.com/3d/java/) Aspose.3D for Java'nın en son sürümüne erişmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

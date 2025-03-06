@@ -3,10 +3,16 @@ title: Manipulacja wielokątami w modelach 3D przy użyciu języka Java
 linktitle: Manipulacja wielokątami w modelach 3D przy użyciu języka Java
 second_title: Aspose.3D API Java
 description: Poznaj wydajne renderowanie 3D w Javie dzięki samouczkom Aspose.3D. Konwertuj wielokąty na trójkąty i generuj współrzędne UV, aby uzyskać optymalną wydajność i ulepszone mapowanie tekstur.
-type: docs
 weight: 27
 url: /pl/java/polygon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulacja wielokątami w modelach 3D przy użyciu języka Java
+
 ## Wstęp
 
 Witamy w świecie programowania Java 3D, gdzie Aspose.3D zajmuje centralne miejsce, aby ulepszyć Twoje projekty. W tej serii samouczków zagłębimy się w zawiłości manipulacji wielokątami, koncentrując się na dwóch kluczowych aspektach: konwertowaniu wielokątów na trójkąty w celu wydajnego renderowania oraz generowaniu współrzędnych UV w celu ulepszenia mapowania tekstur.
@@ -49,3 +55,9 @@ Podsumowując, Aspose.3D dla Java otwiera drzwi do świata możliwości. Skorzys
 Ulepsz renderowanie 3D w Javie za pomocą Aspose.3D. Dowiedz się, jak konwertować wielokąty na trójkąty, aby uzyskać optymalną wydajność. Pobierz teraz, aby móc płynnie programować w 3D.
 ### [Generuj współrzędne UV do mapowania tekstur w modelach 3D Java](./generate-uv-coordinates/)
 Naucz się generować współrzędne UV dla modeli 3D Java przy użyciu Aspose.3D. Ulepsz mapowanie tekstur w swoich projektach, korzystając z tego przewodnika krok po kroku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

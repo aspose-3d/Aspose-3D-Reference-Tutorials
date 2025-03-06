@@ -3,10 +3,16 @@ title: تحديد الشرائح في النتوء الخطي باستخدام A
 linktitle: تحديد الشرائح في النتوء الخطي باستخدام Aspose.3D لـ Java
 second_title: Aspose.3D جافا API
 description: تعلم كيفية تحديد الشرائح في البثق الخطي باستخدام Aspose.3D لـ Java. ارفع مهاراتك في تصميم النماذج ثلاثية الأبعاد باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 13
 url: /ar/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد الشرائح في النتوء الخطي باستخدام Aspose.3D لـ Java
+
 ## مقدمة
 
 غالبًا ما يتطلب إنشاء نماذج ثلاثية الأبعاد معقدة أكثر من مجرد الإبداع؛ فهو يتطلب فهمًا شاملاً للأدوات المتاحة لك. يعتبر Aspose.3D for Java بمثابة تغيير جذري في هذا الصدد. في هذا البرنامج التعليمي، سوف نركز على جانب محدد - تحديد الشرائح في البثق الخطي.
@@ -93,3 +99,9 @@ scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### س5: هل يمكنني شراء ترخيص مؤقت؟
 
  ج5: نعم يمكن الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

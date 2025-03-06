@@ -3,10 +3,16 @@ title: دعم تنسيق ملف التصنيع المتقدم
 linktitle: دعم صندوق النقد العربي
 second_title: Aspose.3D.NET API
 description: يتكامل Aspose.3D بسلاسة مع ملف التصنيع المتقدم للضغط وإلغاء الضغط الفعال للنماذج ثلاثية الأبعاد، وتحسين أحجام الملفات وتحسين الأداء.
-type: docs
 weight: 27
 url: /ar/net/loading-and-saving/amf
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دعم تنسيق ملف التصنيع المتقدم
+
 ## مقدمة
 
 في هذه السلسلة التعليمية، سوف نستكشف تعقيدات دعم تنسيق ملف التصنيع المتقدم في Aspose.3D، مما يفتح عالمًا من الإمكانيات الإبداعية.
@@ -24,3 +30,9 @@ url: /ar/net/loading-and-saving/amf
 انطلق في رحلة ذات إمكانيات لا حدود لها مع Aspose.3D لـ .NET. سواء كنت مطورًا مبتدئًا أو متمرسًا، فإن برامجنا التعليمية تلبي جميع مستويات المهارة. قم بتحويل تجربة النمذجة ثلاثية الأبعاد الخاصة بك - استكشف وابتكر وابتكر باستخدام Aspose.3D لـ .NET.
 
 هل أنت مستعد لرفع مستوى مهاراتك في النمذجة ثلاثية الأبعاد؟ البدء في استكشاف البرامج التعليمية. أطلق العنان للإمكانات الكاملة لـ Aspose.3D لـ .NET وقم بنحت روائعك ثلاثية الأبعاد دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

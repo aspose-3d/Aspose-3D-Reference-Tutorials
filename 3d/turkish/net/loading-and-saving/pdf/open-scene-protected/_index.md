@@ -3,10 +3,16 @@ title: Korumalı PDF'den Sahne Açma
 linktitle: Korumalı PDF'den Sahne Açma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D modellemenin olanaklarını keşfedin. Adım adım kılavuzumuzda korumalı PDF'lerden sahneleri açmayı öğrenin.
-type: docs
 weight: 17
 url: /tr/net/loading-and-saving/pdf/open-scene-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Korumalı PDF'den Sahne Açma
+
 ## giriiş
 
 3D modelleme ve manipülasyon görevlerinizi geliştirmek için Aspose.3D for .NET'in yeteneklerinden yararlanmaya yönelik kapsamlı kılavuzumuza hoş geldiniz. Aspose.3D, geliştiricilerin .NET uygulamalarında 3D dosya formatlarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir API'dir. Bu eğitimde yükleme ve kaydetmenin hayati yönüne, özellikle de Aspose.3D for .NET kullanarak korumalı bir PDF'den bir sahne açmaya odaklanacağız.
@@ -97,3 +103,9 @@ Cevap1: Evet, Aspose.3D çok çeşitli 3D dosya formatlarını destekleyerek pro
 ### S5: Test için geçici bir lisansa ihtiyacım var mı?
 
  C5: Evet, test amacıyla geçici bir lisansa ihtiyacınız varsa, bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

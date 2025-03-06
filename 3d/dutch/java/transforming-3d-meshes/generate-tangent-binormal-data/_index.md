@@ -3,10 +3,16 @@ title: Genereer raak- en binormale gegevens voor 3D-mazen in Java
 linktitle: Genereer raak- en binormale gegevens voor 3D-mazen in Java
 second_title: Aspose.3D Java-API
 description: Verbeter uw 3D-graphics met Aspose.3D voor Java. Genereer moeiteloos tangente en binormale gegevens. Probeer nu de gratis proefperiode!
-type: docs
 weight: 11
 url: /nl/java/transforming-3d-meshes/generate-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Genereer raak- en binormale gegevens voor 3D-mazen in Java
+
 In de dynamische wereld van 3D-graphics is het begrijpen en manipuleren van raaklijn- en binormale gegevens cruciaal voor het creëren van realistische en visueel aantrekkelijke modellen. Deze stapsgewijze handleiding leidt u door het proces van het genereren van tangens- en binormale gegevens voor 3D-meshes met behulp van Aspose.3D voor Java. Als bekwame SEO-schrijver zorg ik ervoor dat deze tutorial niet alleen informatief is, maar ook geoptimaliseerd voor zoekmachines.
 ## Invoering
 Het creëren van meeslepende 3D-ervaringen vereist vaak meer dan alleen modelleren. Raaklijn- en binormale gegevens spelen een cruciale rol bij schaduw en verlichting, waardoor het realisme van uw 3D-scènes wordt vergroot. Met Aspose.3D voor Java kunt u deze gegevens moeiteloos genereren en uw 3D-afbeeldingen naar een hoger niveau tillen.
@@ -56,3 +62,9 @@ Gefeliciteerd! U hebt met succes tangens- en binormale gegevens voor uw 3D-meshe
  U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik Aspose.3D kopen?
  U kunt Aspose.3D kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

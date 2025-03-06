@@ -3,10 +3,16 @@ title: Trích xuất thông tin vào tài sản cảnh
 linktitle: Trích xuất thông tin vào tài sản cảnh
 second_title: API Aspose.3D .NET
 description: Nâng cao cảnh 3D của bạn một cách dễ dàng với Aspose.3D cho .NET. Tìm hiểu cách thêm thông tin tài sản có giá trị từng bước. Tải xuống ngay để có trải nghiệm 3D sống động.
-type: docs
 weight: 10
 url: /vi/net/3d-scene/information-to-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất thông tin vào tài sản cảnh
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách sử dụng Aspose.3D cho .NET để trích xuất thông tin có giá trị và nâng cao cảnh 3D của bạn. Aspose.3D là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác các cảnh 3D một cách liền mạch trong các ứng dụng .NET. Trong hướng dẫn này, chúng ta sẽ tập trung vào nhiệm vụ quan trọng là thêm thông tin nội dung vào một cảnh.
@@ -96,3 +102,9 @@ Câu trả lời 1: Aspose.3D chủ yếu hỗ trợ các ngôn ngữ .NET, như
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết về Aspose.3D cho .NET ở đâu?
 
  A5: Hãy tham khảo[tài liệu](https://reference.aspose.com/3d/net/) để biết thông tin chuyên sâu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Appliquer des coordonnées UV à des objets 3D en Java avec Aspose.3D
 linktitle: Appliquer des coordonnées UV à des objets 3D en Java avec Aspose.3D
 second_title: API Java Aspose.3D
 description: Apprenez à appliquer des coordonnées UV à des objets 3D en Java avec Aspose.3D. Améliorez vos graphiques avec ce guide étape par étape.
-type: docs
 weight: 18
 url: /fr/java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Appliquer des coordonnées UV à des objets 3D en Java avec Aspose.3D
+
 ## Introduction
 
 Bienvenue dans ce didacticiel complet sur l'application de coordonnées UV à des objets 3D en Java à l'aide d'Aspose.3D. Dans le monde du graphisme 3D, les coordonnées UV jouent un rôle crucial dans le mappage des textures sur les surfaces, améliorant ainsi l'attrait visuel de vos créations. Ce didacticiel vous guidera tout au long du processus, en décomposant chaque étape pour garantir une expérience d'apprentissage fluide et efficace.
@@ -104,3 +110,9 @@ R1 : Oui, le processus reste similaire pour les modèles complexes. Assurez-vous
 ### Q5 : Où puis-je acheter Aspose.3D ?
 
  A5 : Pour acheter Aspose.3D, visitez le[page d'achat](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: कस्टम सहेजें विकल्प
 linktitle: कस्टम सहेजें विकल्प
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D की शक्ति का अन्वेषण करें। कोलाडा, यूएसडी, 3डीएस, एफबीएक्स, ओबीजे, एसटीएल, यू3डी, जीएलटीएफ, डीआरसी और आरवीएम प्रारूपों पर चरण-दर-चरण गाइड के साथ अपने 3डी दृश्य बचत को अनुकूलित करना सीखें।
-type: docs
 weight: 21
 url: /hi/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# कस्टम सहेजें विकल्प
+
 ## परिचय
 
 .NET के लिए Aspose.3D की दुनिया में आपका स्वागत है! यदि आप अपनी 3डी विकास क्षमताओं को बढ़ाना चाह रहे हैं, तो आप सही जगह पर हैं। इस ट्यूटोरियल में, हम लोडिंग और सेविंग फ़ंक्शंस में गहराई से उतरेंगे, विशेष रूप से कस्टम सेव विकल्पों पर ध्यान केंद्रित करेंगे। .NET के लिए Aspose.3D एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को 3D दृश्यों में कुशलतापूर्वक हेरफेर करने और सहेजने में सक्षम बनाती है।
@@ -131,3 +137,9 @@ A1: हां, Aspose.3D विभिन्न .NET फ्रेमवर्क 
 ### Q5: मैं Aspose.3D के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
 
  A5: एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

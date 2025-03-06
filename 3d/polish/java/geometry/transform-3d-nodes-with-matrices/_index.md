@@ -3,10 +3,16 @@ title: Przekształcaj węzły 3D za pomocą macierzy transformacji przy użyciu 
 linktitle: Przekształcaj węzły 3D za pomocą macierzy transformacji w Javie przy użyciu Aspose.3D
 second_title: Aspose.3D API Java
 description: Poznaj świat grafiki 3D w Javie dzięki Aspose.3D. Naucz się bez wysiłku przekształcać węzły za pomocą macierzy transformacji.
-type: docs
 weight: 21
 url: /pl/java/geometry/transform-3d-nodes-with-matrices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przekształcaj węzły 3D za pomocą macierzy transformacji przy użyciu Aspose.3D
+
 ## Wstęp
 
 Witamy w tym przewodniku krok po kroku dotyczącym przekształcania węzłów 3D za pomocą macierzy transformacji w Javie przy użyciu Aspose.3D. Jeśli jesteś programistą Java i chcesz udoskonalić swoje umiejętności w zakresie grafiki 3D i modelowania, jesteś we właściwym miejscu. W tym samouczku zagłębimy się w proces stosowania transformacji do węzłów 3D w środowisku Aspose.3D.
@@ -119,3 +125,9 @@ O3: Rozmiar scen 3D może być ograniczony przez zasoby systemowe, ale Aspose.3D
 ### P5: Jak uzyskać tymczasową licencję na Aspose.3D?
 
  Odpowiedź 5: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

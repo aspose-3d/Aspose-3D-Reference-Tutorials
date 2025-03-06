@@ -3,10 +3,16 @@ title: Slices in Linear Extrusion
 linktitle: Slices in Linear Extrusion
 second_title: Aspose.3D .NET API
 description: Explore the world of 3D design with Aspose.3D for .NET. Create stunning models using our linear extrusion tutorial.
-type: docs
 weight: 13
 url: /net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Slices in Linear Extrusion
+
 ## Introduction
 
 Welcome to the world of 3D design using Aspose.3D for .NET! Whether you're a seasoned developer or just getting started, this tutorial will guide you through the process of creating stunning 3D visualizations using the powerful Aspose.3D library.
@@ -116,3 +122,10 @@ A4: Visit the Aspose.3D forum [here](https://forum.aspose.com/c/3d/18) to seek a
 ### Q5: Can I use a temporary license for Aspose.3D for .NET?
 
 A5: Yes, obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for evaluation purposes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

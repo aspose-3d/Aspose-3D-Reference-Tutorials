@@ -3,10 +3,16 @@ title: استخراج المعلومات إلى أصول المشهد
 linktitle: استخراج المعلومات إلى أصول المشهد
 second_title: Aspose.3D.NET API
 description: قم بتحسين مشاهدك ثلاثية الأبعاد دون عناء باستخدام Aspose.3D لـ .NET. تعلم كيفية إضافة معلومات الأصول القيمة خطوة بخطوة. قم بالتنزيل الآن للحصول على تجربة ديناميكية ثلاثية الأبعاد.
-type: docs
 weight: 10
 url: /ar/net/3d-scene/information-to-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخراج المعلومات إلى أصول المشهد
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول استخدام Aspose.3D لـ .NET لاستخراج معلومات قيمة وتحسين المشاهد ثلاثية الأبعاد. Aspose.3D هي مكتبة قوية تمكّن المطورين من التعامل مع المشاهد ثلاثية الأبعاد بسلاسة داخل تطبيقات .NET. في هذا البرنامج التعليمي، سنركز على المهمة الحاسمة المتمثلة في إضافة معلومات الأصول إلى المشهد.
@@ -96,3 +102,9 @@ Console.WriteLine("\nAsset information added successfully to Scene.\nFile saved 
 ### س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.3D لـ .NET؟
 
  ج5: راجع[توثيق](https://reference.aspose.com/3d/net/) للحصول على معلومات متعمقة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

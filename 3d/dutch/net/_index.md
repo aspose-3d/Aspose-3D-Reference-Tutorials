@@ -1,12 +1,17 @@
 ---
 title: Uitgebreide tutorials en voorbeelden van Aspose.3D voor .NET
 linktitle: Aspose.3D voor .NET-zelfstudies
-type: docs
 weight: 10
 url: /nl/net/
 description: Ontgrendel de wereld van 3D-modellering en -animatie met Aspose.3D voor .NET-tutorials. Breng uw projecten moeiteloos naar een hoger niveau – van rendering tot lineaire extrusie.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uitgebreide tutorials en voorbeelden van Aspose.3D voor .NET
+
 ## Invoering
 
 Ben je klaar om op reis te gaan naar de spannende wereld van 3D-modellering en -animatie? Zoek niet verder – Aspose.3D voor .NET biedt u een uitgebreide verzameling tutorials en voorbeelden, ontworpen om uw creativiteit de vrije loop te laten en uw projecten naar nieuwe hoogten te tillen.
@@ -60,3 +65,9 @@ Ga op reis in de wereld van 3D-animatie met Aspose.3D voor .NET-tutorials. Leer 
 
 
 Ontgrendel het creatieve potentieel in jezelf en duik in de wereld van Aspose.3D voor .NET-tutorials. Download nu uw proefversie en til uw 3D-projecten naar buitengewone hoogten!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

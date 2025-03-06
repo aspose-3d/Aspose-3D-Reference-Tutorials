@@ -3,10 +3,16 @@ title: Agregar propiedades de animación a escenas 3D en Java | Tutorial Aspose.
 linktitle: Agregar propiedades de animación a escenas 3D en Java | Tutorial Aspose.3D
 second_title: API de Java Aspose.3D
 description: Mejore sus proyectos 3D basados en Java con Aspose.3D. Siga nuestro tutorial para agregar propiedades de animación sin problemas.
-type: docs
 weight: 10
 url: /es/java/animations/add-animation-properties-to-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar propiedades de animación a escenas 3D en Java | Tutorial Aspose.3D
+
 ## Introducción
 
 Bienvenido a este tutorial paso a paso sobre cómo agregar propiedades de animación a escenas 3D en Java usando Aspose.3D. Si buscas mejorar tus proyectos 3D con animaciones dinámicas, estás en el lugar correcto. En esta guía, lo guiaremos a través del proceso, desglosando cada paso para una experiencia perfecta.
@@ -128,3 +134,9 @@ A3: Únase a la comunidad en[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) p
 ### P5: ¿Hay más tutoriales disponibles?
 
  A5: Explore lo completo[documentación](https://reference.aspose.com/3d/java/) para tutoriales adicionales.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

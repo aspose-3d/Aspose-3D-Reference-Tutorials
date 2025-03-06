@@ -3,10 +3,16 @@ title: Určení řezů v lineárním vytlačování pomocí Aspose.3D pro Javu
 linktitle: Určení řezů v lineárním vytlačování pomocí Aspose.3D pro Javu
 second_title: Aspose.3D Java API
 description: Naučte se specifikovat řezy v lineárním vytlačování pomocí Aspose.3D for Java. Zvyšte své dovednosti v oblasti 3D modelování pomocí tohoto podrobného průvodce.
-type: docs
 weight: 13
 url: /cs/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Určení řezů v lineárním vytlačování pomocí Aspose.3D pro Javu
+
 ## Úvod
 
 Vytváření složitých 3D modelů často vyžaduje víc než jen kreativitu; vyžaduje důkladné pochopení nástrojů, které máte k dispozici. Aspose.3D for Java v tomto ohledu mění hru. V tomto tutoriálu se zaměříme na konkrétní aspekt – specifikaci řezů v lineárním vytlačování.
@@ -93,3 +99,9 @@ Gratulujeme! Úspěšně jste se naučili, jak specifikovat řezy v lineárním 
 ### Q5: Mohu si zakoupit dočasnou licenci?
 
  A5: Ano, lze získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Encoding Mesh to PLY Format
 linktitle: Encoding Mesh to PLY Format
 second_title: Aspose.3D .NET API
 description: Explore the world of 3D programming with Aspose.3D for .NET. Learn how to encode meshes to the PLY format effortlessly. Elevate your development game!
-type: docs
 weight: 13
 url: /net/loading-and-saving/ply/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Encoding Mesh to PLY Format
+
 ## Introduction
 Embarking on a journey into the realm of 3D programming can be both thrilling and intimidating. As a developer, you may find yourself yearning to explore the possibilities that 3D graphics offer. In this tutorial, we'll dive into the fascinating process of encoding a mesh to the PLY format using Aspose.3D for .NET.
 ## Prerequisites
@@ -56,3 +62,10 @@ You can obtain a temporary license [here](https://purchase.aspose.com/temporary-
 Visit the Aspose.3D forum [here](https://forum.aspose.com/c/3d/18) to connect with the community and seek assistance.
 ### 5. Is there a free trial available for Aspose.3D?
 Certainly! Explore the capabilities of Aspose.3D with a free trial [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

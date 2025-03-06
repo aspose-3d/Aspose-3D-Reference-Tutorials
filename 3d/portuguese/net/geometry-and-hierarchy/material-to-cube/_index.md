@@ -3,10 +3,16 @@ title: Aplicando Material ao Cubo
 linktitle: Aplicando Material ao Cubo
 second_title: API Aspose.3D .NET
 description: Explore o Aspose.3D for .NET, sua porta de entrada para a manipulação perfeita de gráficos 3D. Aplique materiais sem esforço, aumente o realismo e eleve seus projetos.
-type: docs
 weight: 14
 url: /pt/net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicando Material ao Cubo
+
 ## Introdução
 
 Bem-vindo ao fascinante mundo da manipulação de gráficos 3D usando Aspose.3D for .NET! Neste tutorial, mergulharemos no processo de aplicação de materiais a um cubo em suas cenas 3D, adicionando um novo nível de realismo e apelo visual às suas criações.
@@ -136,3 +142,9 @@ R3: Sim, o Aspose.3D oferece suporte abrangente para criação e manipulação d
 ### P5: Como posso obter suporte para quaisquer problemas ou dúvidas?
 
  A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para se conectar com a comunidade e buscar assistência.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

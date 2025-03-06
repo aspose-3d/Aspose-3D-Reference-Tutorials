@@ -3,10 +3,16 @@ title: Splitting Mesh by Material
 linktitle: Splitting Mesh by Material
 second_title: Aspose.3D .NET API
 description: Learn to split 3D meshes by material with Aspose.3D for .NET. Improve scene organization and efficiency. Step-by-step guide for developers.
-type: docs
 weight: 22
 url: /net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Splitting Mesh by Material
+
 ## Introduction
 Welcome to this comprehensive tutorial on splitting a mesh by material using Aspose.3D for .NET! If you're a developer working with 3D graphics and want to efficiently manage and manipulate meshes, you're in the right place. In this guide, we'll explore the process of splitting a mesh based on material, a crucial task in creating diverse and visually appealing 3D scenes.
 ## Prerequisites
@@ -71,3 +77,10 @@ Generally, the CloneData policy may have slightly better performance due to shar
 Yes, you can render and visualize the resulting sub-meshes using Aspose.3D rendering capabilities.
 ### Q: Is Aspose.3D suitable for game development?
 While primarily used for modeling and rendering, Aspose.3D can be integrated into game development pipelines for specific tasks.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

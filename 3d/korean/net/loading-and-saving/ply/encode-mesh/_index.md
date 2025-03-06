@@ -3,10 +3,16 @@ title: 메시를 PLY 형식으로 인코딩
 linktitle: 메시를 PLY 형식으로 인코딩
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 프로그래밍의 세계를 탐험해보세요. 메쉬를 PLY 형식으로 쉽게 인코딩하는 방법을 알아보세요. 개발 게임을 향상시키세요!
-type: docs
 weight: 13
 url: /ko/net/loading-and-saving/ply/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 메시를 PLY 형식으로 인코딩
+
 ## 소개
 3D 프로그래밍 영역으로의 여행을 떠나는 것은 스릴과 동시에 두려운 일이 될 수 있습니다. 개발자로서 여러분은 3D 그래픽이 제공하는 가능성을 탐구하고 싶어할 수도 있습니다. 이 튜토리얼에서는 .NET용 Aspose.3D를 사용하여 메쉬를 PLY 형식으로 인코딩하는 흥미로운 프로세스를 살펴보겠습니다.
 ## 전제 조건
@@ -56,3 +62,9 @@ FileFormat.PLY.Encode(sphere, "sphere.ply");
  Aspose.3D 포럼을 방문하세요[여기](https://forum.aspose.com/c/3d/18) 지역사회와 연결하고 도움을 구합니다.
 ### 5. Aspose.3D에 대한 무료 평가판이 있습니까?
  틀림없이! 무료 평가판을 통해 Aspose.3D의 기능을 살펴보세요[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

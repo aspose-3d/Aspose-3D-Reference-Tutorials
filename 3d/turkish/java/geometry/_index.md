@@ -3,10 +3,16 @@ title: Java'da 3D Geometri ile Çalışmak
 linktitle: Java'da 3D Geometri ile Çalışmak
 second_title: Aspose.3D Java API'si
 description: 3D geometriyle çalışmaya ilişkin Aspose.3D for Java eğitimlerini keşfedin. PBR malzemeleri, kuaterniyon rotasyonları, küp sahneleri ve daha fazlasında uzmanlaşın. Java 3D grafiklerinizi yükseltin.
-type: docs
 weight: 21
 url: /tr/java/geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da 3D Geometri ile Çalışmak
+
 ## giriiş
 Aspose.3D for Java ile 3D grafiklerin büyüleyici dünyasına dalmaya hazır mısınız? Eğitimlerimiz, Java uygulamalarınızı güçlü ve görsel açıdan etkileyici 3D öğelerle geliştirmenize olanak tanıyan çeşitli konuları kapsar. Gelin bu yolculuğa adım adım çıkalım.
 
@@ -89,3 +95,9 @@ Güçlü 3D dönüşümler için Java uygulamalarınızı Aspose.3D ile gelişti
 Aspose.3D ile Java'daki 3D grafik dünyasını keşfedin. Dönüşüm matrislerini kullanarak düğümleri zahmetsizce dönüştürmeyi öğrenin.
 ### [Aspose.3D ile Java'da Optimize Edilmiş İşleme için Kafesleri Üçgenleştirme](./triangulate-meshes-for-optimized-rendering/)
 Aspose.3D'yi kullanarak Java'da 3D işleme verimliliğini nasıl artıracağınızı öğrenin. Optimum performans için ağları üçgenleştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

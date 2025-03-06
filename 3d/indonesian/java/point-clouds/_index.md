@@ -3,10 +3,16 @@ title: Bekerja dengan Point Clouds di Java
 linktitle: Bekerja dengan Point Clouds di Java
 second_title: Asumsikan.3D Java API
 description: Dekode, muat, buat, ekspor, dan sederhanakan point cloud dengan mudah di Java dengan tutorial Aspose.3D. Tingkatkan keterampilan pengembangan 3D Anda selangkah demi selangkah.
-type: docs
 weight: 34
 url: /id/java/point-clouds/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Point Clouds di Java
+
 
 ## Perkenalan
 
@@ -49,3 +55,9 @@ Jelajahi dunia grafis 3D dengan Aspose.3D di Java. Pelajari cara menghasilkan aw
 Pelajari cara mengekspor adegan 3D sebagai point cloud di Java dengan Aspose.3D. Sempurnakan aplikasi Anda dengan grafis dan visualisasi 3D yang kuat.
 ### [Sederhanakan Penanganan Point Cloud dengan PLY Ekspor di Java](./ply-export-point-clouds-java/)
 Jelajahi penanganan point cloud yang efisien di Java dengan Aspose.3D. Pelajari cara mengekspor file PLY dengan mudah. Tingkatkan proyek grafis 3D Anda dengan panduan langkah demi langkah kami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Centro nell'estrusione lineare
 linktitle: Centro nell'estrusione lineare
 second_title: API Aspose.3D .NET
 description: Esplora il mondo della modellazione 3D con Aspose.3D per .NET. Centrare le tecniche di estrusione lineare, creare design straordinari e liberare la tua creatività.
-type: docs
 weight: 10
 url: /it/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Centro nell'estrusione lineare
+
 ## introduzione
 
 Benvenuti in questa guida completa sulla padronanza dell'estrusione lineare utilizzando Aspose.3D per .NET. Se stai cercando di migliorare le tue capacità di modellazione 3D e creare estrusioni straordinarie, sei nel posto giusto. In questo tutorial approfondiremo la tecnica dell'estrusione lineare, concentrandoci in particolare sull'aspetto della centratura per portare i tuoi progetti a un livello completamente nuovo.
@@ -109,3 +115,10 @@ A1: Aspose.3D supporta principalmente linguaggi .NET come C# e VB.NET.
 ### Q5: Dove posso acquistare la licenza Aspose.3D per .NET?
 
  A5: Acquista la tua licenza[Qui](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Menyiapkan Target dan Kamera untuk Animasi dalam Adegan 3D
 linktitle: Menyiapkan Target dan Kamera untuk Animasi dalam Adegan 3D
 second_title: Aspose.3D .NET API
 description: Buka keajaiban animasi 3D dengan Aspose.3D untuk .NET. Siapkan target dan kamera dengan mudah menggunakan tutorial komprehensif ini.
-type: docs
 weight: 11
 url: /id/net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyiapkan Target dan Kamera untuk Animasi dalam Adegan 3D
+
 ## Perkenalan
 
 Menyiapkan target dan kamera merupakan dasar dari setiap proyek animasi 3D. Aspose.3D untuk .NET menawarkan seperangkat alat canggih untuk menyederhanakan proses ini, memungkinkan pengembang mengeluarkan kreativitas mereka. Tutorial ini akan memandu Anda melalui langkah-langkahnya, menguraikan kerumitannya, dan membuat tugas yang tampaknya menakutkan menjadi lebih mudah dikelola.
@@ -103,3 +109,9 @@ A4: Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.
 ### Q5: Bagaimana cara mendapatkan lisensi sementara?
 
  A5: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

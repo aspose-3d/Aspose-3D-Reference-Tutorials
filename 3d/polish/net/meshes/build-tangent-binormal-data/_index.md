@@ -3,10 +3,16 @@ title: Budowanie danych stycznych i binormalnych
 linktitle: Budowanie danych stycznych i binormalnych
 second_title: Aspose.3D API .NET
 description: Uwolnij moc danych stycznych i binormalnych, aby zoptymalizować modele 3D w celu uzyskania płynniejszego renderowania, krótszego czasu ładowania i zwiększenia wydajności.
-type: docs
 weight: 10
 url: /pl/net/meshes/build-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Budowanie danych stycznych i binormalnych
+
 ## Wstęp
 Czy kiedykolwiek czułeś frustrację związaną z powolnym modelem 3D, który utrudniał Twój projekt? Nie martw się, kolego programista, ponieważ sekret płynnego działania leży w danych stycznych i binormalnych. Ci niedocenieni bohaterowie optymalizują renderowanie siatki, dzięki czemu Twoje modele śpiewają jak operowe divy na każdej scenie. Jak jednak wykorzystać ich moc? Nie obawiaj się, ponieważ ten obszerny przewodnik wyposaży Cię w zestaw narzędzi Aspose.3D dla .NET, który pozwoli odblokować magię danych stycznych i binormalnych za pomocą zaledwie kilku kliknięć!
 
@@ -85,3 +91,9 @@ Aspose.3D obsługuje wiele formatów, takich jak OBJ, STL i glTF. Przed kontynuo
  Aspose.3D posiada kompleksowy portal dokumentacji pod adresem[Tutaj](https://docs.aspose.com/3d/net/) Dodatkowo forum społeczności Aspose pod adresem[Tutaj](https://forum.aspose.com/) zawsze tętni życiem pomocnych programistów.
 ### Czy mogę używać Aspose.3D w projektach komercyjnych? 
  Tak! Aspose.3D oferuje różne opcje licencjonowania dostosowane do Twoich potrzeb. Sprawdź ich stronę z cenami pod adresem[Tutaj](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

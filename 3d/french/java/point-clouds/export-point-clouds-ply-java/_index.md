@@ -3,10 +3,16 @@ title: Exporter des nuages de points au format PLY avec Aspose.3D pour Java
 linktitle: Exporter des nuages de points au format PLY avec Aspose.3D pour Java
 second_title: API Java Aspose.3D
 description: Découvrez la puissance d'Aspose.3D pour Java dans l'exportation de nuages de points au format PLY. Suivez notre guide étape par étape pour un développement 3D fluide.
-type: docs
 weight: 13
 url: /fr/java/point-clouds/export-point-clouds-ply-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporter des nuages de points au format PLY avec Aspose.3D pour Java
+
 ## Introduction
 
 Bienvenue dans ce guide complet sur l'exportation de nuages de points au format PLY à l'aide d'Aspose.3D pour Java. Aspose.3D est une puissante bibliothèque Java qui permet aux développeurs de travailler avec des fichiers 3D, offrant une expérience transparente dans la gestion et la manipulation de divers formats 3D. Dans ce tutoriel, nous nous concentrerons sur l'exportation de nuages de points au format PLY, un format de fichier largement utilisé pour représenter des données 3D.
@@ -81,3 +87,9 @@ A1 : Aspose.3D est principalement conçu pour Java, mais Aspose fournit des bibl
 ### Q5 : Où puis-je acheter Aspose.3D pour Java ?
 
  A5 : Achetez Aspose.3D pour Java[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

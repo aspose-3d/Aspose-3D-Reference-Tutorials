@@ -3,10 +3,16 @@ title: Malzemeyi Küp'e Uygulamak
 linktitle: Malzemeyi Küp'e Uygulamak
 second_title: Aspose.3D .NET API'si
 description: Kesintisiz 3D grafik manipülasyonuna açılan kapınız olan Aspose.3D for .NET'i keşfedin. Malzemeleri zahmetsizce uygulayın, gerçekçiliği artırın ve projelerinizi geliştirin.
-type: docs
 weight: 14
 url: /tr/net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Malzemeyi Küp'e Uygulamak
+
 ## giriiş
 
 Aspose.3D for .NET kullanarak 3D grafik manipülasyonunun büyüleyici dünyasına hoş geldiniz! Bu eğitimde, 3B sahnelerinizdeki malzemeleri bir küpe uygulama sürecine dalarak, yaratımlarınıza yepyeni bir gerçekçilik ve görsel çekicilik düzeyi katacağız.
@@ -136,3 +142,9 @@ Cevap3: Evet, Aspose.3D, 3D sahnelerde animasyonlar oluşturmak ve değiştirmek
 ### S5: Herhangi bir sorun veya soru için nasıl destek alabilirim?
 
  A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) toplulukla bağlantı kurmak ve yardım istemek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Animasi
 linktitle: Animasi
 second_title: Aspose.3D .NET API
 description: Buka dunia animasi 3D dengan tutorial Aspose.3D untuk .NET. Pelajari cara menganimasikan properti dan menyiapkan target dan kamera untuk pemandangan dinamis dengan mudah.
-type: docs
 weight: 30
 url: /id/net/animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Animasi
+
 ## Perkenalan
 
 Selamat datang di dunia animasi 3D yang menakjubkan dengan Aspose.3D untuk .NET! Dalam panduan komprehensif ini, kita akan menjelajahi dua tutorial penting yang akan memberdayakan Anda untuk membuat pemandangan 3D yang menawan dan dinamis. Mari kita memulai perjalanan mengasyikkan ini bersama-sama!
@@ -37,3 +43,9 @@ Kesimpulannya, dengan tutorial Aspose.3D untuk .NET, Anda tidak hanya belajar; A
 Pelajari cara menganimasikan properti 3D dengan Aspose.3D untuk .NET. Panduan langkah demi langkah untuk membuat pemandangan dinamis.
 ### [Menyiapkan Target dan Kamera untuk Animasi dalam Adegan 3D](./setup-target-camera/)
 Buka keajaiban animasi 3D dengan Aspose.3D untuk .NET. Siapkan target dan kamera dengan mudah menggunakan tutorial komprehensif ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

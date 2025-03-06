@@ -3,10 +3,16 @@ title: Knooppunt transformeren door Quaternion
 linktitle: Knooppunt transformeren door Quaternion
 second_title: Aspose.3D .NET-API
 description: Leer hoe u 3D-knooppunten kunt transformeren met quaternionen met behulp van Aspose.3D voor .NET. Stap-voor-stap handleiding voor beginners.
-type: docs
 weight: 20
 url: /nl/net/geometry-and-hierarchy/transformation-node-quaternion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Knooppunt transformeren door Quaternion
+
 ## Invoering
 
 Welkom bij een stapsgewijze handleiding voor het transformeren van een knooppunt per quaternion in 3D-scènes met behulp van Aspose.3D voor .NET. In deze zelfstudie verkennen we de krachtige mogelijkheden van Aspose.3D voor .NET en doorlopen we het proces van het toevoegen van transformaties aan een 3D-knooppunt met behulp van quaternionen.
@@ -121,3 +127,10 @@ A1: Quaternionen zijn wiskundige entiteiten die worden gebruikt om rotaties in d
 ### V5: Hoe verkrijg ik een tijdelijke licentie voor Aspose.3D?
 
  A5: Vraag een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

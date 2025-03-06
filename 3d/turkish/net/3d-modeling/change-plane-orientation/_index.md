@@ -3,10 +3,16 @@ title: 3B Sahnelerde Düzlem Yönünü Değiştirme
 linktitle: 3B Sahnelerde Düzlem Yönünü Değiştirme
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'i keşfedin ve 3D sahnelerde düzlem yönünü değiştirme konusunda uzmanlaşın. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/net/3d-modeling/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3B Sahnelerde Düzlem Yönünü Değiştirme
+
 ## giriiş
 
 Aspose.3D for .NET kullanarak 3 boyutlu sahnelerde düzlem yönünü değiştirmeyi konu alan bu kapsamlı kılavuza hoş geldiniz! Becerilerinizi geliştirmek isteyen bir geliştirici veya 3D meraklısıysanız doğru yerdesiniz. Bu eğitimde, net örnekler ve ayrıntılı açıklamalar kullanarak süreci adım adım inceleyeceğiz. Sonunda, 3B projelerinizde düzlem yönünü nasıl değiştireceğiniz konusunda sağlam bir anlayışa sahip olacaksınız.
@@ -95,3 +101,9 @@ Cevap1: Aspose.3D, diğer popüler 3D kitaplıklarla sorunsuz bir şekilde çal�
 ### S5: Ayrıntılı belgeleri nerede bulabilirim?
 
  A5: Belgelere bakın[Burada](https://reference.aspose.com/3d/net/) derinlemesine bilgi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

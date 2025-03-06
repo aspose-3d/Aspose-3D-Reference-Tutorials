@@ -3,10 +3,16 @@ title: Testreszabott ventilátorhengerek létrehozása az Aspose.3D for Java seg
 linktitle: Testreszabott ventilátorhengerek létrehozása az Aspose.3D for Java segítségével
 second_title: Aspose.3D Java API
 description: Tanuljon meg testreszabott ventilátorhengereket létrehozni Java nyelven az Aspose.3D segítségével. Emelje fel 3D modellező játékát könnyedén.
-type: docs
 weight: 10
 url: /hu/java/cylinders/creating-fan-cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Testreszabott ventilátorhengerek létrehozása az Aspose.3D for Java segítségével
+
 ## Bevezetés
 
 Készen áll arra, hogy javítsa 3D modellezési élményét az Aspose.3D for Java segítségével? Ez az oktatóanyag végigvezeti Önt a személyre szabott ventilátorhengerek létrehozásának folyamatán a hatékony Aspose.3D könyvtár használatával. Akár tapasztalt fejlesztő, akár kezdő, ez a lépésről lépésre bemutató útmutató segít az Aspose.3D teljes potenciáljának kiaknázásához Java nyelven.
@@ -124,3 +130,9 @@ A2: Abszolút! Az Aspose.3D széles körű testreszabási lehetőségeket kíná
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?
 
  V5: Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) tesztelési és fejlesztési igényeihez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

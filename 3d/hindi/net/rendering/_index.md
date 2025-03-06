@@ -3,10 +3,16 @@ title: प्रतिपादन
 linktitle: प्रतिपादन
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D के साथ अपने 3D रेंडरिंग कौशल को उन्नत करें! छाया डालें, मनमोहक दृश्य बनाएं, फ़िशआई लेंस प्रभाव लागू करें, और भी बहुत कुछ।
-type: docs
 weight: 30
 url: /hi/net/rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# प्रतिपादन
+
 ## परिचय
 
 क्या आप 3डी रेंडरिंग के क्षेत्र में एक रोमांचक यात्रा शुरू करने के लिए तैयार हैं? आगे कोई तलाश नहीं करें! .NET के लिए Aspose.3D संभावनाओं की दुनिया का द्वार खोलता है, जिससे आप अपनी रचनात्मकता को उजागर कर सकते हैं और अपने कौशल को बढ़ा सकते हैं। इस व्यापक ट्यूटोरियल सूची में, हम आपको .NET के लिए Aspose.3D का उपयोग करके रेंडरिंग के कुछ सबसे दिलचस्प पहलुओं के बारे में मार्गदर्शन करेंगे।
@@ -55,3 +61,9 @@ url: /hi/net/rendering/
 .NET के लिए Aspose.3D का उपयोग करके आश्चर्यजनक 3D पैनोरमा दृश्य बनाना सीखें। इमर्सिव सीन रेंडरिंग के लिए हमारे चरण-दर-चरण गाइड का पालन करें।
 ### [छह चेहरों के साथ क्यूबमैप में दृश्य प्रस्तुत करना](./render-scene-cubemap/)
 .NET के लिए Aspose.3D के साथ शानदार क्यूबमैप बनाएं। 3डी दृश्यों को आकर्षक छह-मुखी क्यूबमैप में प्रस्तुत करने के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

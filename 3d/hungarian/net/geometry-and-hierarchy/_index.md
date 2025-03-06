@@ -3,10 +3,16 @@ title: Geometria és hierarchia
 linktitle: Geometria és hierarchia
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D-s grafika világát az Aspose.3D for .NET oktatóanyaggal. A PBR anyagok alkalmazásától a geometriai átalakításokig minden szempontot könnyedén sajátíthat el.
-type: docs
 weight: 25
 url: /hu/net/geometry-and-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geometria és hierarchia
+
 ## Bevezetés
 
 Induljon el egy izgalmas utazásra a 3D grafika birodalmába az Aspose.3D for .NET oktatóanyagaival. Legyen szó kezdő vagy tapasztalt fejlesztőről, ezek a lépésről-lépésre szóló útmutatók azt ígérik, hogy fejlesztik képességeit, és felfedik a zökkenőmentes 3D grafikus manipuláció titkait.
@@ -72,3 +78,9 @@ Merüljön el a kvaternion transzformációk világában az Aspose.3D for .NET s
  Fedezze fel az Aspose.3D for .NET erejét ezzel a lépésről-lépésre szóló útmutatóval a 3D hálók könnyedén háromszögeléséhez. Fejleszd modellezési készségeidet a magával ragadó élmény érdekében.[Olvass tovább](./triangulate-mesh/)
 
 Vágjon bele az Aspose.3D for .NET oktatóprogramok izgalmas utazásába, és emelje 3D grafikai szakértelmét. Merüljön el az egyes oktatóanyagokban, kövesse a lépéseket, és figyelje, ahogy képességei új magasságokba emelkednek. Boldog kódolást!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java의 유연성을 위해 사용자 정의 바이너리 형식으로 3D
 linktitle: Java의 유연성을 위해 사용자 정의 바이너리 형식으로 3D 메시 저장
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 사용자 정의 바이너리 형식으로 3D 메시를 저장하는 방법을 알아보세요. 이 단계별 튜토리얼을 통해 Java 애플리케이션의 유연성을 향상하세요.
-type: docs
 weight: 13
 url: /ko/java/3d-scenes-and-models/save-custom-mesh-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java의 유연성을 위해 사용자 정의 바이너리 형식으로 3D 메시 저장
+
 ## 소개
 
 Aspose.3D를 사용하여 Java의 유연성을 위해 사용자 정의 바이너리 형식으로 3D 메시를 저장하는 방법에 대한 단계별 튜토리얼에 오신 것을 환영합니다. 이 가이드에서는 3D 메시를 변환하고 이를 사용자 정의 바이너리 형식으로 저장하여 Java 애플리케이션의 유연성과 상호 운용성을 향상시키는 과정을 안내합니다.
@@ -124,3 +130,9 @@ A4: Aspose.3D 문서에는 샘플 모델이 포함될 수 있으며, 테스트�
 ### Q5: 특정 요구 사항에 맞게 바이너리 형식을 추가로 사용자 정의할 수 있습니까?
 
 A5: 물론입니다. 애플리케이션의 특정 요구 사항에 맞게 바이너리 형식을 자유롭게 조정하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

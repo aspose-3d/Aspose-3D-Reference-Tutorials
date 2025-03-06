@@ -3,10 +3,16 @@ title: Utför linjär extrudering
 linktitle: Utför linjär extrudering
 second_title: Aspose.3D .NET API
 description: Utforska en värld av 3D-grafik med Aspose.3D för .NET. Utför linjär extrudering i denna steg-för-steg-guide.
-type: docs
 weight: 12
 url: /sv/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utför linjär extrudering
+
 ## Introduktion:
 
 Ge dig ut på en spännande resa in i 3D-grafikens rike med Aspose.3D för .NET, ett kraftpaket som lyfter ditt utvecklingsspel. I den här handledningen kommer vi att fördjupa oss i linjär extrudering – en fascinerande teknik som blåser liv i statiska 2D-profiler och driver dem in i 3Ds dynamiska värld. Låt oss låsa upp dörren till kreativitet och innovation med Aspose.3D!
@@ -106,3 +112,9 @@ A1: Absolut! Aspose.3D erbjuder en användarvänlig miljö, och vår handledning
 ### F5: Finns det en gratis provperiod?
 
  A5: Visst! Ladda ner den kostnadsfria testversionen[här](https://releases.aspose.com/) att uppleva Aspose.3D:s möjligheter på egen hand.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

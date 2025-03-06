@@ -4,10 +4,16 @@ linktitle: A Twist Offset használata a Lineáris extrudálásban az Aspose.3D f
 second_title: Aspose.3D Java API
 description: Növelje 3D modellezési készségeit az Aspose.3D for Java segítségével. Tanulja meg a Twist Offset használatát a lineáris extrudálásban ebben az átfogó oktatóanyagban.
 
-type: docs
 weight: 15
 url: /hu/java/linear-extrusion/using-twist-offset/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A Twist Offset használata a Lineáris extrudálásban az Aspose.3D for Java programban
+
 ## Bevezetés
 
 A 3D grafika dinamikus világában a lineáris extrudálás művészetének elsajátítása megváltoztatja a játékot. Az Aspose.3D for Java segítségével javíthatja 3D modellezési készségeit, ha beépíti a Twist Offset funkciót a lineáris extrudálási folyamatba. Ez az oktatóanyag végigvezeti Önt a Twist Offset használatának lépésein a Linear Extrusionban az Aspose.3D for Java használatával, amely eszközöket biztosít lenyűgöző 3D-s jelenetek létrehozásához.
@@ -113,3 +119,9 @@ Gratulálunk! Sikeresen implementálta a Twist Offset-et a Linear Extrusion prog
 ### 5. kérdés: Vannak-e további példák és oktatóanyagok?
 
  V5: Igen, lásd a[dokumentáció](https://reference.aspose.com/3d/java/) további példákért és részletes oktatóanyagokért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java에서 프리미티브를 메시로 변환
 linktitle: Java에서 프리미티브를 메시로 변환
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 3D 그래픽 숙달을 향한 여정을 시작하세요. 프리미티브를 매혹적인 메시로 손쉽게 변환합니다. 지금 코딩 경험을 향상해보세요!
-type: docs
 weight: 12
 url: /ko/java/transforming-3d-meshes/convert-primitives-to-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 프리미티브를 메시로 변환
+
 ## 소개
 Java에서 3D 그래픽 영역을 탐험하는 것은 신나는 일이 될 수 있으며, 특히 프리미티브를 복잡한 메시로 변환하여 장면을 향상시키려는 경우 더욱 그렇습니다. 이 튜토리얼에서는 원활하고 풍부한 경험을 보장하기 위해 Java용 Aspose.3D를 사용하는 프로세스를 안내합니다.
 ## 전제 조건
@@ -73,3 +79,9 @@ System.out.println("\n Converted the primitive Box to a mesh successfully.\nFile
  실제로 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 ### Q5: Java용 Aspose.3D에 대한 자세한 문서는 어디에서 찾을 수 있습니까?
  포괄적인 문서가 제공됩니다.[여기](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

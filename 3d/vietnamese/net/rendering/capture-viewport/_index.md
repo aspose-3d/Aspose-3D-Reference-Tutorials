@@ -3,10 +3,16 @@ title: Chụp các khung nhìn trong cảnh 3D
 linktitle: Chụp các khung nhìn trong cảnh 3D
 second_title: API Aspose.3D .NET
 description: Tìm hiểu cách chụp các khung nhìn 3D tuyệt đẹp bằng Aspose.3D cho .NET. Hướng dẫn từng bước để hiển thị cảnh một cách linh hoạt.
-type: docs
 weight: 11
 url: /vi/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chụp các khung nhìn trong cảnh 3D
+
 ## Giới thiệu
 
 Trong lĩnh vực đồ họa và trực quan hóa 3D, việc chụp khung nhìn là một kỹ năng thiết yếu giúp nâng cao độ sâu và chi tiết cho cảnh của bạn. Aspose.3D for .NET cung cấp một giải pháp mạnh mẽ để hiển thị và thao tác các cảnh 3D. Hướng dẫn này sẽ hướng dẫn bạn quy trình chụp các khung nhìn trong cảnh 3D bằng Aspose.3D, cho phép bạn tạo các hình ảnh trực quan tuyệt đẹp một cách dễ dàng.
@@ -124,3 +130,9 @@ Câu trả lời 2: Mặc dù Aspose.3D được thiết kế chủ yếu cho đ
 ### Câu hỏi 5: Làm cách nào tôi có thể tìm kiếm sự giúp đỡ hoặc tham gia vào cộng đồng?
 
  Câu trả lời 5: Tham gia cộng đồng Aspose.3D trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/3d/18) để được hỗ trợ và hợp tác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

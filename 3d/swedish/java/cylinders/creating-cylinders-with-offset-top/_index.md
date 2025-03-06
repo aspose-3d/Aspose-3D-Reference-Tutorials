@@ -3,10 +3,16 @@ title: Skapa cylindrar med offset topp i Aspose.3D för Java
 linktitle: Skapa cylindrar med offset topp i Aspose.3D för Java
 second_title: Aspose.3D Java API
 description: Utforska underverken med 3D-modellering i Java med Aspose.3D. Lär dig att skapa fängslande cylindrar med förskjutna toppar utan ansträngning.
-type: docs
 weight: 11
 url: /sv/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa cylindrar med offset topp i Aspose.3D för Java
+
 ## Introduktion
 
 Inom Java-baserad 3D-modellering framstår Aspose.3D som ett kraftfullt verktyg som erbjuder utvecklare möjligheten att skapa invecklade 3D-scener med lätthet. I den här handledningen kommer vi att fördjupa oss i den fascinerande världen av Aspose.3D för Java, med fokus på en specifik uppgift – att skapa cylindrar med förskjutna toppar. I slutet av den här guiden har du ett fast grepp om processen, vilket gör att du kan integrera den här funktionen sömlöst i dina 3D-projekt.
@@ -127,3 +133,9 @@ S3: Ja, du kan utforska och välja det licensalternativ som passar dina behov[h�
 ### F5: Finns det ett tillfälligt licensalternativ för teständamål?
 
  S5: Ja, du kan få en tillfällig licens för test- och utvärderingsändamål[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

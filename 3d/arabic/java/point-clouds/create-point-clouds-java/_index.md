@@ -3,10 +3,16 @@ title: إنشاء Point Clouds من Meshes في Java
 linktitle: إنشاء Point Clouds من Meshes في Java
 second_title: Aspose.3D جافا API
 description: استكشف عالم النمذجة ثلاثية الأبعاد في Java باستخدام Aspose.3D. تعلم كيفية إنشاء سحب نقطية من الشبكات بسهولة.
-type: docs
 weight: 12
 url: /ar/java/point-clouds/create-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء Point Clouds من Meshes في Java
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول إنشاء السحب النقطية من الشبكات في Java باستخدام Aspose.3D. Aspose.3D هي مكتبة Java قوية توفر وظائف واسعة النطاق للنمذجة والمعالجة ثلاثية الأبعاد. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء السحب النقطية من الشبكات، ونقدم خطوات واضحة ومفصلة لتجربة سلسة.
@@ -83,3 +89,9 @@ FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
 ### س5: أين يمكنني العثور على الوثائق؟
 
  ج5: راجع[توثيق](https://reference.aspose.com/3d/java/) للحصول على معلومات مفصلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

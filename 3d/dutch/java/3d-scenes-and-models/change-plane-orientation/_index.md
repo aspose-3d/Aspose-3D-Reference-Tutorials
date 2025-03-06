@@ -3,10 +3,16 @@ title: Pas de vlakoriëntatie aan voor nauwkeurige positionering van 3D-scènes 
 linktitle: Pas de vlakoriëntatie aan voor nauwkeurige positionering van 3D-scènes in Java
 second_title: Aspose.3D Java-API
 description: Verbeter de positionering van 3D-scènes in Java met Aspose.3D. Pas de vlakoriëntatie aan voor precisie. Download nu voor een boeiende visuele ervaring.
-type: docs
 weight: 10
 url: /nl/java/3d-scenes-and-models/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas de vlakoriëntatie aan voor nauwkeurige positionering van 3D-scènes in Java
+
 ## Invoering
 
 Welkom bij onze stapsgewijze handleiding voor het verbeteren van de positionering van 3D-scènes in Java met behulp van Aspose.3D. In deze tutorial wordt dieper ingegaan op het wijzigen van de vlakoriëntatie voor nauwkeurige positionering van 3D-scènes, waardoor u visueel verbluffende en nauwkeurig gepositioneerde scènes kunt creëren.
@@ -114,3 +120,9 @@ A1: Ja, Aspose.3D ondersteunt verschillende programmeertalen, waaronder Java, .N
 ### Vraag 5: Is er een tijdelijke licentieoptie?
 
  A5: Ja, als u een tijdelijke licentie nodig heeft, kunt u er een verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lineaire extrusie uitvoeren in Aspose.3D voor Java
 linktitle: Lineaire extrusie uitvoeren in Aspose.3D voor Java
 second_title: Aspose.3D Java-API
 description: Ontdek de wereld van 3D-modellering met Aspose.3D voor Java. Leer moeiteloos lineaire extrusie uitvoeren.
-type: docs
 weight: 10
 url: /nl/java/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lineaire extrusie uitvoeren in Aspose.3D voor Java
+
 ## Invoering
 
 Welkom bij deze uitgebreide tutorial over het uitvoeren van lineaire extrusie in Aspose.3D voor Java! Als u uw vaardigheden op het gebied van 3D-modelleren met Java wilt verbeteren, bent u hier aan het juiste adres. In deze zelfstudie begeleiden we u bij het uitvoeren van lineaire extrusie met Aspose.3D, een krachtige Java-bibliotheek voor 3D-modellering.
@@ -104,3 +110,9 @@ A2: Ja, Aspose.3D kan worden gebruikt voor zowel persoonlijke als commerciële p
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.3D?
 
  A5: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

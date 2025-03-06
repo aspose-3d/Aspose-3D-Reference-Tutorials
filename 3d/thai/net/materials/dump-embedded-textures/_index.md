@@ -3,10 +3,16 @@ title: การทิ้งพื้นผิวแบบฝัง
 linktitle: การทิ้งพื้นผิวแบบฝัง
 second_title: Aspose.3D .NET API
 description: ปลดล็อกความลับของพื้นผิวแบบฝังในโมเดล 3 มิติด้วย Aspose.3D สำหรับ .NET เจาะลึกคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น ดาวน์โหลดทดลองใช้ฟรีตอนนี้!
-type: docs
 weight: 11
 url: /th/net/materials/dump-embedded-textures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การทิ้งพื้นผิวแบบฝัง
+
 ## การแนะนำ
 ยินดีต้อนรับสู่โลกของ Aspose.3D สำหรับ .NET – ชุดเครื่องมืออันทรงพลังที่ช่วยให้นักพัฒนาสามารถจัดการและทำงานกับไฟล์ 3D ได้อย่างราบรื่น ในบทช่วยสอนที่ครอบคลุมนี้ เราจะเจาะลึกขอบเขตอันน่าทึ่งของการทิ้งพื้นผิวที่ฝังไว้โดยใช้ Aspose.3D หากคุณกระตือรือร้นที่จะปรับปรุงแอปพลิเคชัน 3D ของคุณด้วยการปลดล็อกศักยภาพของพื้นผิวที่ฝังอยู่ แสดงว่าคุณมาถูกที่แล้ว
 ## ข้อกำหนดเบื้องต้น
@@ -71,3 +77,9 @@ if(tex.Content != null)
  ตอบ: ได้ มีใบอนุญาตชั่วคราวให้ใช้งาน[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ถาม: ฉันจะหาเอกสารที่ครอบคลุมสำหรับ Aspose.3D ได้ที่ไหน
  ตอบ: สามารถเข้าถึงเอกสารได้[ที่นี่](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

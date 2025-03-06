@@ -3,10 +3,16 @@ title: Создание примитивных 3D-моделей с помощь
 linktitle: Создание примитивных 3D-моделей с помощью Aspose.3D для Java
 second_title: Aspose.3D Java API
 description: Откройте для себя искусство 3D-моделирования с помощью Aspose.3D для Java. Научитесь легко создавать примитивные 3D-модели и раскройте свой творческий потенциал.
-type: docs
 weight: 10
 url: /ru/java/primitive-3d-models/building-primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание примитивных 3D-моделей с помощью Aspose.3D для Java
+
 ## Введение
 
 Программное создание 3D-моделей может оказаться сложной задачей, но с Aspose.3D для Java это становится приятным и простым процессом. Цель этого руководства — помочь вам начать создавать примитивные 3D-модели, уделяя особое внимание простоте и эффективности.
@@ -88,3 +94,9 @@ scene.save(myDir, FileFormat.FBX7500ASCII);
 ### В5: Как мне получить временную лицензию на Aspose.3D?
 
  A5: Вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) для Aspose.3D через сайт.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

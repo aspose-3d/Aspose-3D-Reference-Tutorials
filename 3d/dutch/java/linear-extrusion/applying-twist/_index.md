@@ -3,10 +3,16 @@ title: Twist toepassen in lineaire extrusie met Aspose.3D voor Java
 linktitle: Twist toepassen in lineaire extrusie met Aspose.3D voor Java
 second_title: Aspose.3D Java-API
 description: Leer hoe u een draai kunt geven aan uw 3D-modellen met Aspose.3D voor Java. Volg onze stapsgewijze handleiding voor verbeterde lineaire extrusie-effecten.
-type: docs
 weight: 14
 url: /nl/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Twist toepassen in lineaire extrusie met Aspose.3D voor Java
+
 ## Invoering
 
 Welkom bij deze stapsgewijze zelfstudie over het toepassen van een twist in lineaire extrusie met Aspose.3D voor Java. Aspose.3D is een krachtige Java-bibliotheek waarmee ontwikkelaars met 3D-bestandsindelingen kunnen werken en robuuste functionaliteit biedt voor het maken, manipuleren en weergeven van 3D-scènes. In deze tutorial onderzoeken we hoe u een twist-effect kunt toepassen tijdens het lineaire extrusieproces om uw 3D-modellen te verbeteren.
@@ -119,3 +125,9 @@ A1: Ja, Aspose.3D ondersteunt verschillende 3D-bestandsindelingen, waardoor u di
 ### V5: Waar kan ik Aspose.3D voor Java kopen?
 
  A5: Koop Aspose.3D voor Java bij de[pagina kopen](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

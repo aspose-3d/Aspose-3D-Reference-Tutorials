@@ -3,10 +3,16 @@ title: フォーマットの検出
 linktitle: フォーマットの検出
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して、3D ファイル操作を簡単にマスターします。形式をシームレスに読み込み、保存、検出します。
-type: docs
 weight: 12
 url: /ja/net/loading-and-saving/detect-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# フォーマットの検出
+
 ## 導入
 
 Aspose.3D for .NET を使用した 3D ファイル操作のエキサイティングな世界へようこそ!経験豊富な開発者でも、3D グラフィックスを始めたばかりでも、このチュートリアルでは、形式の読み込み、保存、検出のプロセスを簡単に説明します。
@@ -93,3 +99,9 @@ A4: を探索してください。[Aspose.3D フォーラム](https://forum.aspo
 ### Q5: 購入する前に、Aspose.3D を無料で試すことはできますか?
 
 A5：確かに！無料試用版を以下からダウンロードします[Aspose.3D リリース](https://releases.aspose.com/)その機能を直接体験してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

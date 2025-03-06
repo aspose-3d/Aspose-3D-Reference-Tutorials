@@ -3,10 +3,16 @@ title: Merender Gambar Model 3D dari Kamera
 linktitle: Merender Gambar Model 3D dari Kamera
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia rendering 3D dengan Aspose.3D untuk .NET. Pelajari cara membuat visualisasi menawan dengan mudah menggunakan panduan langkah demi langkah kami.
-type: docs
 weight: 11
 url: /id/net/rendering/render-3d-model-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Merender Gambar Model 3D dari Kamera
+
 ## Perkenalan
 Membuat visualisasi 3D yang menakjubkan adalah aspek menarik dalam pengembangan perangkat lunak, dan dengan Aspose.3D untuk .NET, Anda dapat menghidupkan model 3D Anda. Dalam tutorial ini, kami akan memandu Anda dalam merender gambar model 3D dari kamera menggunakan Aspose.3D, memberikan petunjuk langkah demi langkah dan wawasan berharga.
 ## Prasyarat
@@ -89,3 +95,9 @@ A: Ya, Anda dapat menjelajahi fitur Aspose.3D dengan memperoleh a[uji coba grati
  J: Lihat[dokumentasi](https://reference.aspose.com/3d/net/) untuk panduan mendalam tentang Aspose.3D untuk .NET.
 ### T: Bagaimana cara membeli Aspose.3D untuk .NET?
  J: Kunjungi[halaman pembelian](https://purchase.aspose.com/buy) untuk mendapatkan lisensi yang paling sesuai dengan kebutuhan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Penguraian kode jaring
 linktitle: Penguraian kode jaring
 second_title: Aspose.3D .NET API
 description: Dekode menyatu dengan mudah dengan Aspose.3D untuk .NET. Gerbang Anda menuju pemrograman 3D yang mulus. Jelajahi, sesuaikan, dan tingkatkan proyek Anda.
-type: docs
 weight: 10
 url: /id/net/loading-and-saving/draco/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Penguraian kode jaring
+
 ## Perkenalan
 Bayangkan ini: Anda berada di bidang pengembangan 3D, berusaha memecahkan kode struktur mesh yang rumit. Tantangannya nyata, tapi jangan takut! Saat kita memulai perjalanan ini, kita akan menavigasi labirin decoding mesh menggunakan Aspose.3D untuk .NET – rekan tepercaya Anda dalam dunia pemrograman 3D.
 ## Prasyarat
@@ -55,3 +61,9 @@ Sangat! Aspose.3D mendukung berbagai format mesh, memastikan kompatibilitas deng
  Tentu! Ambil milikmu[uji coba gratis](https://releases.aspose.com/) untuk merasakan kehebatan Aspose.3D sebelum membuat komitmen apa pun.
 ### Butuh lisensi sementara untuk proyek jangka pendek?
  Menuju ke[Lisensi Sementara](https://purchase.aspose.com/temporary-license/) dan dapatkan lisensi sementara yang disesuaikan dengan kebutuhan proyek Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Niestandardowe opcje zapisywania
 linktitle: Niestandardowe opcje zapisywania
 second_title: Aspose.3D API .NET
 description: Poznaj moc Aspose.3D dla .NET. Dowiedz się, jak dostosować zapisywanie scen 3D, korzystając ze szczegółowych przewodników dotyczących formatów Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC i RVM.
-type: docs
 weight: 21
 url: /pl/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Niestandardowe opcje zapisywania
+
 ## Wstęp
 
 Witamy w świecie Aspose.3D dla .NET! Jeśli chcesz zwiększyć swoje możliwości w zakresie programowania 3D, jesteś we właściwym miejscu. W tym samouczku omówimy funkcje ładowania i zapisywania, skupiając się szczególnie na niestandardowych opcjach zapisywania. Aspose.3D dla .NET to potężna biblioteka, która umożliwia programistom efektywne manipulowanie i zapisywanie scen 3D.
@@ -131,3 +137,9 @@ Odpowiedź 1: Tak, Aspose.3D jest kompatybilny z różnymi frameworkami .NET, za
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.3D?
 
  A5: Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

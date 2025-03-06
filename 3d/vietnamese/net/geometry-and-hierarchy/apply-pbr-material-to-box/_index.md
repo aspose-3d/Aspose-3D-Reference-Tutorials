@@ -3,10 +3,16 @@ title: Áp dụng vật liệu PBR vào hộp
 linktitle: Áp dụng vật liệu PBR vào hộp
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới đồ họa 3D với Aspose.3D cho .NET. Tạo các cảnh sống động một cách dễ dàng bằng cách sử dụng vật liệu Kết xuất dựa trên vật lý.
-type: docs
 weight: 10
 url: /vi/net/geometry-and-hierarchy/apply-pbr-material-to-box/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng vật liệu PBR vào hộp
+
 ## Giới thiệu
 
 Chào mừng đến với thế giới đồ họa 3D hấp dẫn! Trong hướng dẫn từng bước này, chúng ta sẽ khám phá thư viện Aspose.3D for .NET mạnh mẽ và tìm hiểu cách tạo cảnh 3D tuyệt đẹp bằng cách sử dụng vật liệu Kết xuất dựa trên vật lý (PBR). Aspose.3D đơn giản hóa quy trình phức tạp của đồ họa 3D và mở ra nhiều khả năng cho các nhà phát triển.
@@ -113,3 +119,9 @@ A2: Chắc chắn rồi! Aspose.3D cung cấp giấy phép thương mại để 
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.3D?
 
  A5: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho mục đích đánh giá.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

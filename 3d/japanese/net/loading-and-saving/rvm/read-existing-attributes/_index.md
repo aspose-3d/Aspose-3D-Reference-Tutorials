@@ -3,10 +3,16 @@ title: 属性付きシーンの読み込み
 linktitle: 属性付きシーンの読み込み
 second_title: Aspose.3D .NET API
 description: Aspose.3D を使用して、.NET での 3D モデリングの能力を解放します。シーンを簡単にロード、保存、操作できます。無限の可能性の世界に飛び込みましょう。
-type: docs
 weight: 18
 url: /ja/net/loading-and-saving/rvm/read-existing-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 属性付きシーンの読み込み
+
 ## 導入
 
 3D グラフィックスとモデリングの進化し続ける状況において、Aspose.3D for .NET は強力なツールとして登場し、開発者にシームレスな統合と堅牢な機能を提供します。このチュートリアルでは、RVM ファイルを読み取るプロセス、特に外部属性の読み取りに焦点を当てて説明します。 Aspose.3D の機能を活用する旅に乗り出しましょう!
@@ -79,3 +85,9 @@ A4: You can acquire a temporary license [here](https://Purchase.aspose.com/tempo
 ### Q5: Where can I purchase Aspose.3D for .NET?
 
 A5: Visit the [purchase page](https://Purchase.aspose.com/buy) にアクセスして、Aspose.3D のフルバージョンを入手してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

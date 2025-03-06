@@ -3,10 +3,16 @@ title: Mastering Shadows in 3D Rendering with Aspose.3D for .NET
 linktitle: Casting and Receiving Shadows
 second_title: Aspose.3D .NET API
 description: Explore the world of 3D rendering with Aspose.3D for .NET. Cast and receive shadows effortlessly. Download your free trial now!
-type: docs
 weight: 10
 url: /net/rendering/cast-receive-shadows/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Shadows in 3D Rendering with Aspose.3D for .NET
+
 ## Introduction
 Welcome to the world of 3D rendering with Aspose.3D for .NET! In this tutorial, we will delve into the fascinating realm of casting and receiving shadows, a crucial aspect of creating realistic and visually stunning 3D scenes. Whether you are a seasoned developer or just starting your journey into 3D graphics, this guide will equip you with the knowledge and skills to enhance your rendering capabilities using Aspose.3D.
 ## Prerequisites
@@ -69,3 +75,10 @@ A: Yes, Aspose.3D supports a wide range of 3D file formats, making it versatile 
 A: Yes, you can find support and engage with the community on the [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
 ### Q: Can I try Aspose.3D before purchasing?
 A: Absolutely! Explore the library with a free trial available [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

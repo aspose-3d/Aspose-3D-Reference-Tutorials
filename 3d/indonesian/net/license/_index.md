@@ -3,10 +3,16 @@ title: Lisensi
 linktitle: Lisensi
 second_title: Aspose.3D .NET API
 description: Maksimalkan potensi Aspose.3D .NET dengan tutorial mendetail kami tentang penerapan lisensi. Pastikan proses integrasi lancar dan buka fitur-fitur canggihnya.
-type: docs
 weight: 36
 url: /id/net/license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lisensi
+
 ## Perkenalan
 
 Jika Anda mendalami dunia Aspose.3D untuk .NET, Anda berada di jalur yang tepat untuk membuka banyak fitur canggih. Namun, untuk memanfaatkan potensinya secara maksimal, Anda perlu menjalani proses penting dalam penerapan izin. Panduan langkah demi langkah ini akan memandu Anda melalui integrasi lisensi yang lancar, memastikan Anda memanfaatkan Aspose.3D untuk .NET secara maksimal.
@@ -22,3 +28,9 @@ Membuka potensi penuh Aspose.3D untuk .NET melalui lisensi yang tepat akan membe
 ## Tutorial Lisensi
 ### [Menerapkan Lisensi ke Aspose.3D untuk .NET](./apply-license/)
 Buka kekuatan Aspose.3D untuk .NET dengan menerapkan lisensi secara lancar. Ikuti panduan langkah demi langkah kami untuk pengalaman integrasi yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

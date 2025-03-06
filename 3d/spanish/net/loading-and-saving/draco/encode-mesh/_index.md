@@ -3,10 +3,16 @@ title: Codificación de malla 3D en formato Google Draco
 linktitle: Codificación de malla 3D en Draco
 second_title: Aspose.3D API .NET
 description: Explore la sencilla codificación de malla 3D en formato Google Draco utilizando Aspose.3D para .NET. Sigue nuestra guía paso a paso. ¡Eficiente, potente y fácil de desarrollar!
-type: docs
 weight: 19
 url: /es/net/loading-and-saving/draco/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codificación de malla 3D en formato Google Draco
+
 ## Introducción
 Si está profundizando en el mundo de los gráficos 3D y desea comprimir sus datos de malla 3D de manera eficiente, no busque más. En este tutorial, lo guiaremos a través del proceso de codificación de una malla 3D en el formato Google Draco usando Aspose.3D para .NET. Esta poderosa biblioteca permite a los desarrolladores trabajar sin problemas con formatos de archivos 3D y realizar diversas operaciones, incluida la codificación de malla.
 ## Requisitos previos
@@ -58,3 +64,9 @@ Aspose.3D está diseñado principalmente para .NET, pero Aspose proporciona bibl
 Una licencia temporal le permite evaluar la versión completa de Aspose.3D por un tiempo limitado.
 ### ¿Dónde puedo encontrar documentación detallada de Aspose.3D para .NET?
  Referirse a[documentación](https://reference.aspose.com/3d/net/) para obtener información completa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Работа с файлами VRML в Java
 linktitle: Работа с файлами VRML в Java
 second_title: Aspose.3D Java API
 description: Откройте для себя магию 3D-моделирования на Java с помощью Aspose.3D. Легко открывайте файлы VRML и манипулируйте ими. Погрузитесь в мир безграничных возможностей!
-type: docs
 weight: 26
 url: /ru/java/vrml-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с файлами VRML в Java
+
 ## Введение
 
  Добро пожаловать в увлекательный мир 3D-моделирования на Java! Эта серия уроков,[Работа с файлами VRML в Java](./open-vrml-files-java/)на базе Aspose.3D — это ваш путь к раскрытию всего потенциала 3D-графики в приложениях Java.
@@ -30,3 +36,9 @@ url: /ru/java/vrml-files/
 ## Работа с файлами VRML в учебниках по Java
 ### [Открывайте файлы VRML и управляйте ими на Java с помощью Aspose.3D](./open-vrml-files-java/)
 Откройте для себя магию 3D-моделирования на Java с помощью Aspose.3D. Легко открывайте файлы VRML и манипулируйте ими. Погрузитесь в мир безграничных возможностей!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

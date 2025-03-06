@@ -3,10 +3,16 @@ title: Betöltés és mentés
 linktitle: Betöltés és mentés
 second_title: Aspose.3D .NET API
 description: Emelje fel 3D modellező játékát az Aspose.3D for .NET segítségével! Sajátítsa el a hatékony betöltési és mentési technikákat a CancellationToken használatával. Fedezze fel most!
-type: docs
 weight: 27
 url: /hu/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Betöltés és mentés
+
 ## Bevezetés
 
 Merüljön el a 3D modellezés lenyűgöző birodalmában az Aspose.3D for .NET segítségével, amely a zökkenőmentes és hatékony 3D-s dokumentumkezelés átjárója. Ebben az oktatóanyag-sorozatban a 3D-s modellek betöltésének és mentésének fortélyait fedezzük fel, és ezzel feltárjuk a kreatív lehetőségek világát.
@@ -105,3 +111,9 @@ Exportálja a metaadatokat, például a jelenet tulajdonságait, az objektum att
 ### Beágyazott textúrák betöltése USDZ-ből a memóriába
 
 Hozzáférés a beágyazott textúraadatokhoz az USDZ-fájlokban.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

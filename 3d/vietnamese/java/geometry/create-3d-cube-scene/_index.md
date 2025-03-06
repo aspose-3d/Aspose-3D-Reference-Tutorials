@@ -3,10 +3,16 @@ title: Tạo cảnh khối 3D trong Java với Aspose.3D
 linktitle: Tạo cảnh khối 3D trong Java với Aspose.3D
 second_title: API Java Aspose.3D
 description: Khám phá sự kỳ diệu của đồ họa cảnh khối 3D với Aspose.3D cho Java. Tạo cảnh tuyệt đẹp một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/java/geometry/create-3d-cube-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo cảnh khối 3D trong Java với Aspose.3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới đồ họa 3D hấp dẫn trong Java bằng Aspose.3D! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo cảnh khối 3D tuyệt đẹp bằng Aspose.3D cho Java. Aspose.3D là một thư viện Java mạnh mẽ cung cấp các chức năng toàn diện để làm việc với các mô hình và cảnh 3D.
@@ -105,3 +111,9 @@ Chúc mừng! Bạn đã tạo thành công cảnh khối 3D bằng Aspose.3D ch
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.3D?
 
  A5: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

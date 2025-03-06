@@ -3,10 +3,16 @@ title: Mengekspor Adegan 3D ke Format AMF Terkompresi
 linktitle: Mengekspor Adegan ke AMF Terkompresi
 second_title: Aspose.3D .NET API
 description: Pelajari cara mengekspor adegan 3D ke format AMF terkompresi menggunakan Aspose.3D untuk .NET. Tingkatkan keterampilan pengembangan Anda dengan panduan langkah demi langkah ini.
-type: docs
 weight: 11
 url: /id/net/loading-and-saving/amf/export-scene-compressed-amf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekspor Adegan 3D ke Format AMF Terkompresi
+
 ## Perkenalan
 
 Dalam dunia pemodelan dan rendering 3D yang dinamis, efisiensi dan fleksibilitas adalah yang terpenting. Aspose.3D untuk .NET memberdayakan pengembang untuk mengekspor adegan 3D dengan lancar ke format AMF (Additive Manufacturing File) terkompresi, memastikan ukuran file optimal tanpa mengurangi kualitas. Tutorial ini akan memandu Anda melalui proses langkah demi langkah, sehingga memudahkan pemula dan pengembang berpengalaman untuk memanfaatkan kemampuan Aspose.3D untuk .NET.
@@ -98,3 +104,9 @@ A4: Aspose.3D dirancang untuk menangani adegan dengan kompleksitas yang berbeda-
 ### Q5: Di mana saya bisa mendapatkan dukungan tambahan dan diskusi komunitas?
 
  A5: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan dan diskusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lineáris extrudálás végrehajtása Aspose.3D for Java programban
 linktitle: Lineáris extrudálás végrehajtása Aspose.3D for Java programban
 second_title: Aspose.3D Java API
 description: Fedezze fel a 3D modellezés világát az Aspose.3D for Java segítségével. Tanulja meg a lineáris extrudálást erőfeszítés nélkül.
-type: docs
 weight: 10
 url: /hu/java/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lineáris extrudálás végrehajtása Aspose.3D for Java programban
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó oktatóanyagban, amely az Aspose.3D for Java-ban való lineáris extrudálás végrehajtásáról szól! Ha javítani szeretné 3D modellezési készségeit a Java használatával, akkor jó helyen jár. Ebben az oktatóanyagban végigvezetjük a lineáris extrudálás folyamatán az Aspose.3D segítségével, amely egy hatékony Java könyvtár 3D modellezéshez.
@@ -104,3 +110,9 @@ Gratulálunk! Megtanulta, hogyan használhatja az Aspose.3D for Java szoftvert l
 ### 5. kérdés: Elérhető az Aspose.3D ingyenes próbaverziója?
 
  5. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 사용자 정의 로드 옵션
 linktitle: 사용자 정의 로드 옵션
 second_title: Aspose.3D .NET API
 description: 원활한 3D 모델 로드 및 저장을 위한 최고의 솔루션인 .NET용 Aspose.3D를 살펴보세요.
-type: docs
 weight: 15
 url: /ko/net/loading-and-saving/custom-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 사용자 정의 로드 옵션
+
 ## 소개
 
 개발자가 3D 파일을 원활하게 사용할 수 있도록 지원하는 강력한 라이브러리인 .NET용 Aspose.3D의 세계에 오신 것을 환영합니다. 이 튜토리얼에서는 사용자 정의 로드 옵션에 중점을 두고 3D 모델 로드 및 저장의 복잡성을 자세히 살펴보겠습니다. 숙련된 개발자이든 초보자이든 이 가이드는 프로세스를 단계별로 안내하여 .NET용 Aspose.3D의 잠재력을 최대한 활용하도록 보장합니다.
@@ -183,3 +189,9 @@ A4: 예, 다음을 다운로드하여 .NET용 Aspose.3D의 기능을 탐색할 �
 ### Q5: .NET용 Aspose.3D에 대한 지원은 어디서 찾을 수 있습니까?
 
  A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역 사회 지원 및 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

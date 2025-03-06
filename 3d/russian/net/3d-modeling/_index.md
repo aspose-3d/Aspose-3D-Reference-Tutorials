@@ -3,10 +3,16 @@ title: Моделирование
 linktitle: Моделирование
 second_title: Aspose.3D .NET API
 description: Откройте для себя искусство 3D-моделирования с помощью Aspose.3D для .NET! С помощью этого подробного руководства вы легко сможете создавать захватывающие примитивные модели. Раскройте свой творческий потенциал сегодня.
-type: docs
 weight: 28
 url: /ru/net/3d-modeling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Моделирование
+
 
 ## Введение
 
@@ -67,3 +73,9 @@ Aspose.3D облегчает создание цилиндров с параме
 ## Учебники по 3D-моделированию
 ### [Создание примитивных 3D-моделей](./primitive-3d-models/)
 Исследуйте мир 3D-моделирования с помощью Aspose.3D для .NET. Создавайте потрясающие примитивные модели без особых усилий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

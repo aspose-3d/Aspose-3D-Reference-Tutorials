@@ -3,10 +3,16 @@ title: 3D 장면에서 평면 방향 변경
 linktitle: 3D 장면에서 평면 방향 변경
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 살펴보고 3D 장면에서 평면 방향 변경을 마스터하세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/3d-modeling/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D 장면에서 평면 방향 변경
+
 ## 소개
 
 .NET용 Aspose.3D를 사용하여 3D 장면에서 평면 방향을 변경하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다! 기술을 향상시키려는 개발자나 3D 매니아라면 잘 찾아오셨습니다. 이 튜토리얼에서는 명확한 예와 자세한 설명을 사용하여 프로세스를 단계별로 살펴보겠습니다. 마지막에는 3D 프로젝트에서 평면 방향을 조작하는 방법을 확실하게 이해하게 될 것입니다.
@@ -95,3 +101,9 @@ A1: Aspose.3D는 다른 인기 있는 3D 라이브러리와 원활하게 작동�
 ### Q5: 자세한 문서는 어디서 찾을 수 있나요?
 
  A5: 설명서를 참조하세요[여기](https://reference.aspose.com/3d/net/) 자세한 정보를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.3D를 사용하여 어안 렌즈 효과 적용
 linktitle: 3D 장면에 어안 렌즈 효과 적용
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D로 3D 장면을 향상하세요! 매혹적인 어안 렌즈 효과를 적용하는 방법을 단계별로 알아보세요. 지금 다운로드하세요!
-type: docs
 weight: 12
 url: /ko/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.3D를 사용하여 어안 렌즈 효과 적용
+
 ## 소개
 3D 장면의 시각적 매력을 향상시키고 싶으십니까? .NET용 Aspose.3D를 사용하여 어안 렌즈 효과의 매혹적인 세계에 빠져보세요. 이 튜토리얼에서는 3D 장면에 어안 렌즈 효과를 적용하여 독특하고 매력적인 관점을 제공하는 방법을 단계별로 안내합니다.
 ## 전제 조건
@@ -77,3 +83,9 @@ renderer.Execute(fisheye, final);
 3D 장면의 크기는 주로 시스템 리소스에 의해 제한됩니다. 하드웨어가 장면의 크기를 처리할 수 있는지 확인하십시오.
 ### 어안 효과 결과에 PNG 대신 다른 출력 형식을 사용할 수 있습니까?
 예, 요구 사항에 따라 다양한 이미지 형식으로 출력을 저장하도록 코드를 수정할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Podziel siatki 3D według materiału w celu wydajnego przetwarzania w Jav
 linktitle: Podziel siatki 3D według materiału w celu wydajnego przetwarzania w Javie
 second_title: Aspose.3D API Java
 description: Odkryj możliwości Aspose.3D w Javie dzięki naszemu przewodnikowi krok po kroku na temat efektywnego dzielenia siatek 3D według materiału. Bezproblemowo zwiększ wydajność swojej aplikacji.
-type: docs
 weight: 12
 url: /pl/java/3d-mesh-data/split-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podziel siatki 3D według materiału w celu wydajnego przetwarzania w Javie
+
 ## Wstęp
 
 Witamy w tym kompleksowym samouczku na temat dzielenia siatek 3D według materiału w celu wydajnego przetwarzania w Javie przy użyciu Aspose.3D. Jeśli nurkujesz w świecie grafiki 3D i potrzebujesz potężnej biblioteki Java, Aspose.3D jest rozwiązaniem dla Ciebie. W tym samouczku przeprowadzimy Cię przez proces wydajnej obsługi siatek 3D według materiału, optymalizując aplikację Java w celu uzyskania najwyższej wydajności.
@@ -104,3 +110,10 @@ A2: Absolutnie! Metoda ta dobrze skaluje się w przypadku skomplikowanych modeli
 ### P5: Jak mogę uzyskać pomoc w przypadku jakichkolwiek problemów lub zapytań?
 
  A5: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za oddane wsparcie społeczności.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

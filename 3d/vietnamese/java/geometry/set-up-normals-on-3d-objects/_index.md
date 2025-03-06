@@ -3,10 +3,16 @@ title: Thiết lập chuẩn trên các đối tượng 3D trong Java với Aspo
 linktitle: Thiết lập chuẩn trên các đối tượng 3D trong Java với Aspose.3D
 second_title: API Java Aspose.3D
 description: Tìm hiểu cách thiết lập quy tắc trên các đối tượng 3D trong Java với Aspose.3D. Nâng cao đồ họa của bạn với hướng dẫn toàn diện này.
-type: docs
 weight: 17
 url: /vi/java/geometry/set-up-normals-on-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thiết lập chuẩn trên các đối tượng 3D trong Java với Aspose.3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách thiết lập quy tắc trên các đối tượng 3D trong Java bằng Aspose.3D. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với đồ họa 3D, việc hiểu và thao tác các thông số chuẩn là rất quan trọng để đạt được hiệu ứng ánh sáng chân thực trong mô hình 3D của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, chia nó thành các bước dễ thực hiện.
@@ -91,3 +97,9 @@ Câu trả lời 1: Có, Aspose.3D có thể được tích hợp với các th�
 ### Q5: Cần hỗ trợ hoặc muốn thảo luận với cộng đồng?
 
  A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

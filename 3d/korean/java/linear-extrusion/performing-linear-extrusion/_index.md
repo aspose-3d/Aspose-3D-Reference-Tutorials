@@ -3,10 +3,16 @@ title: Java용 Aspose.3D에서 선형 압출 수행
 linktitle: Java용 Aspose.3D에서 선형 압출 수행
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 3D 모델링의 세계를 탐험해보세요. 손쉽게 선형 압출을 수행하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D에서 선형 압출 수행
+
 ## 소개
 
 Java용 Aspose.3D에서 선형 돌출을 수행하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! Java를 사용하여 3D 모델링 기술을 향상시키려는 경우 올바른 위치에 있습니다. 이 튜토리얼에서는 3D 모델링을 위한 강력한 Java 라이브러리인 Aspose.3D를 사용하여 선형 압출을 수행하는 과정을 안내합니다.
@@ -104,3 +110,9 @@ A2: 예, Aspose.3D는 개인 및 상업용 프로젝트 모두에 사용할 수 
 ### Q5: Aspose.3D에 대한 무료 평가판이 있습니까?
 
  A5: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

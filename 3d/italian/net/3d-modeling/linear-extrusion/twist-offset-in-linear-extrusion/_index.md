@@ -3,10 +3,16 @@ title: Offset torsione nell'estrusione lineare
 linktitle: Offset torsione nell'estrusione lineare
 second_title: API Aspose.3D .NET
 description: Esplora la magia di Aspose.3D per .NET con la nostra guida passo passo su Twist Offset nell'estrusione lineare. Migliora i tuoi progetti 3D senza sforzo.
-type: docs
 weight: 15
 url: /it/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Offset torsione nell'estrusione lineare
+
 ## introduzione
 
 Benvenuti nel mondo di Aspose.3D per .NET, una libreria versatile che consente agli sviluppatori di gestire facilmente la manipolazione 3D. In questo tutorial, approfondiremo una delle funzionalità più interessanti: il "Twist Offset nell'estrusione lineare". Se sei pronto per migliorare le tue capacità di programmazione 3D, tuffiamoci subito!
@@ -112,3 +118,9 @@ A1: Aspose.3D supporta principalmente i linguaggi .NET, ma Aspose fornisce libre
 ### Q5: Dove posso acquistare Aspose.3D per .NET?
 
  A5: Vai a[questo link](https://purchase.aspose.com/buy) per effettuare un acquisto e sbloccare tutto il potenziale di Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

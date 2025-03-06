@@ -3,10 +3,16 @@ title: Κινουμένων σχεδίων
 linktitle: Κινουμένων σχεδίων
 second_title: Aspose.3D .NET API
 description: Ξεκλειδώστε τον κόσμο των 3D animation με το Aspose.3D for .NET tutorials. Μάθετε να κάνετε κίνηση ιδιοτήτων και να ρυθμίζετε στόχους και κάμερες για δυναμικές σκηνές χωρίς κόπο.
-type: docs
 weight: 30
 url: /el/net/animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κινουμένων σχεδίων
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στη συναρπαστική σφαίρα των 3D animation με το Aspose.3D για .NET! Σε αυτόν τον περιεκτικό οδηγό, θα εξερευνήσουμε δύο βασικά μαθήματα που θα σας βοηθήσουν να δημιουργήσετε συναρπαστικές και δυναμικές σκηνές 3D. Ας ξεκινήσουμε μαζί αυτό το συναρπαστικό ταξίδι!
@@ -37,3 +43,9 @@ url: /el/net/animation/
 Μάθετε να κάνετε κίνηση 3D ιδιοτήτων με το Aspose.3D για .NET. Οδηγός βήμα προς βήμα για τη δημιουργία δυναμικών σκηνών.
 ### [Ρύθμιση στόχων και καμερών για κινούμενα σχέδια σε σκηνές 3D](./setup-target-camera/)
 Ξεκλειδώστε τη μαγεία του 3D animation με το Aspose.3D για .NET. Ρυθμίστε χωρίς κόπο στόχους και κάμερες χρησιμοποιώντας αυτό το ολοκληρωμένο σεμινάριο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

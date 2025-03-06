@@ -3,10 +3,16 @@ title: تشفير الشبكة إلى تنسيق PLY
 linktitle: تشفير الشبكة إلى تنسيق PLY
 second_title: Aspose.3D.NET API
 description: استكشف عالم البرمجة ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. تعرف على كيفية تشفير الشبكات إلى تنسيق PLY دون عناء. ارفع مستوى لعبة التطوير الخاصة بك!
-type: docs
 weight: 13
 url: /ar/net/loading-and-saving/ply/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تشفير الشبكة إلى تنسيق PLY
+
 ## مقدمة
 يمكن أن يكون الشروع في رحلة إلى عالم البرمجة ثلاثية الأبعاد أمرًا مثيرًا ومخيفًا. كمطور، قد تجد نفسك متشوقًا لاستكشاف الإمكانيات التي توفرها الرسومات ثلاثية الأبعاد. في هذا البرنامج التعليمي، سوف نتعمق في العملية الرائعة لترميز الشبكة إلى تنسيق PLY باستخدام Aspose.3D لـ .NET.
 ## المتطلبات الأساسية
@@ -56,3 +62,9 @@ FileFormat.PLY.Encode(sphere, "sphere.ply");
  قم بزيارة منتدى Aspose.3D[هنا](https://forum.aspose.com/c/3d/18) للتواصل مع المجتمع وطلب المساعدة.
 ### 5. هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.3D؟
  بالتأكيد! استكشف إمكانيات Aspose.3D من خلال النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

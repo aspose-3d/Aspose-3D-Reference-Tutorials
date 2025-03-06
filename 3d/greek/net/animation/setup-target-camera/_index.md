@@ -3,10 +3,16 @@ title: Ρύθμιση στόχων και καμερών για κινούμεν
 linktitle: Ρύθμιση στόχων και καμερών για κινούμενα σχέδια σε σκηνές 3D
 second_title: Aspose.3D .NET API
 description: Ξεκλειδώστε τη μαγεία του 3D animation με το Aspose.3D για .NET. Ρυθμίστε χωρίς κόπο στόχους και κάμερες χρησιμοποιώντας αυτό το ολοκληρωμένο σεμινάριο.
-type: docs
 weight: 11
 url: /el/net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση στόχων και καμερών για κινούμενα σχέδια σε σκηνές 3D
+
 ## Εισαγωγή
 
 Η ρύθμιση στόχων και καμερών αποτελεί τη βάση οποιουδήποτε έργου τρισδιάστατου animation. Το Aspose.3D for .NET προσφέρει ένα ισχυρό σύνολο εργαλείων για τον εξορθολογισμό αυτής της διαδικασίας, επιτρέποντας στους προγραμματιστές να απελευθερώσουν τη δημιουργικότητά τους. Αυτό το σεμινάριο θα σας καθοδηγήσει στα βήματα, αναλύοντας τις πολυπλοκότητες και κάνοντας τη φαινομενικά τρομακτική εργασία πιο διαχειρίσιμη.
@@ -103,3 +109,9 @@ A4: Ναι, μπορείτε να εξερευνήσετε μια δωρεάν �
 ### Ε5: Πώς μπορώ να αποκτήσω προσωρινή άδεια;
 
  A5: Πάρτε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

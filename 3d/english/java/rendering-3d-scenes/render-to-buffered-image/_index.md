@@ -3,10 +3,16 @@ title: Render 3D Scenes to Buffered Images for Further Processing in Java
 linktitle: Render 3D Scenes to Buffered Images for Further Processing in Java
 second_title: Aspose.3D Java API
 description: Explore the power of Aspose.3D for Java in rendering 3D scenes to buffered images. Step-by-step guide with prerequisites, import packages, and FAQs.
-type: docs
 weight: 12
 url: /java/rendering-3d-scenes/render-to-buffered-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render 3D Scenes to Buffered Images for Further Processing in Java
+
 ## Introduction
 
 Welcome to this step-by-step guide on rendering 3D scenes to buffered images using Aspose.3D for Java. Aspose.3D is a powerful Java library that allows developers to work with 3D files and scenes, providing versatile functionality for rendering and processing. In this tutorial, we'll focus on rendering 3D scenes to buffered images, opening up possibilities for further processing in Java.
@@ -106,3 +112,10 @@ A4: You can get a temporary license [here](https://purchase.aspose.com/temporary
 ### Q5: Are there additional rendering options available?
 
 A5: Yes, explore the Aspose.3D documentation [here](https://reference.aspose.com/3d/java/) for comprehensive information on rendering options.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

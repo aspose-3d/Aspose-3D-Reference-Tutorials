@@ -3,10 +3,16 @@ title: Tạo đám mây điểm từ lưới trong Java
 linktitle: Tạo đám mây điểm từ lưới trong Java
 second_title: API Java Aspose.3D
 description: Khám phá thế giới mô hình 3D trong Java với Aspose.3D. Tìm hiểu cách dễ dàng tạo các đám mây điểm từ các mắt lưới.
-type: docs
 weight: 12
 url: /vi/java/point-clouds/create-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo đám mây điểm từ lưới trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách tạo các đám mây điểm từ các mắt lưới trong Java bằng Aspose.3D. Aspose.3D là một thư viện Java mạnh mẽ cung cấp các chức năng mở rộng cho việc tạo mô hình và thao tác 3D. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo đám mây điểm từ lưới, cung cấp các bước rõ ràng và chi tiết để có trải nghiệm liền mạch.
@@ -83,3 +89,9 @@ Chúc mừng! Bạn đã học thành công cách tạo các đám mây điểm 
 ### Câu 5: Tôi có thể tìm tài liệu ở đâu?
 
  A5: Hãy tham khảo[tài liệu](https://reference.aspose.com/3d/java/) để biết thông tin chi tiết.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

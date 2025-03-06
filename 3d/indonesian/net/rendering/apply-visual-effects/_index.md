@@ -3,10 +3,16 @@ title: Menerapkan Efek Visual di Area Pandang 3D
 linktitle: Menerapkan Efek Visual di Area Pandang 3D
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia visualisasi 3D dengan Aspose.3D untuk .NET. Pelajari cara menerapkan efek visual menawan pada adegan Anda menggunakan tutorial langkah demi langkah. Tingkatkan proyek Anda dengan efek pikselasi, skala abu-abu, deteksi tepi, dan buram.
-type: docs
 weight: 10
 url: /id/net/rendering/apply-visual-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Efek Visual di Area Pandang 3D
+
 ## Perkenalan
 
 Meningkatkan daya tarik visual adegan 3D merupakan aspek penting dalam menciptakan pengalaman yang imersif. Aspose.3D untuk .NET menyediakan seperangkat alat canggih untuk menerapkan efek visual ke area pandang 3D. Dalam tutorial ini, kita akan memandu proses penerapan berbagai efek pada pemandangan 3D, termasuk pikselasi, skala abu-abu, deteksi tepi, dan buram.
@@ -179,3 +185,9 @@ A4: Aspose.3D menyediakan berbagai efek pasca-pemrosesan bawaan, dan Anda dapat 
 ### Q5: Dapatkah saya menggunakan Aspose.3D untuk proyek komersial?
 
  A5: Ya, Anda dapat menggunakan Aspose.3D untuk tujuan komersial. Mengacu kepada[halaman pembelian](https://purchase.aspose.com/buy) untuk rincian perizinan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.3D for Java 将渲染的 3D 场景保存到图像文件
 linktitle: 使用 Aspose.3D for Java 将渲染的 3D 场景保存到图像文件
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D for Java 解锁 3D 图形世界。了解如何轻松地将令人惊叹的场景保存到图像中。
-type: docs
 weight: 13
 url: /zh/java/rendering-3d-scenes/render-to-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D for Java 将渲染的 3D 场景保存到图像文件
+
 ## 介绍
 
 创建令人惊叹的 3D 场景是一项令人兴奋的冒险，而使用 Aspose.3D for Java，这个过程变得更加有意义。这个综合教程将指导您完成使用 Aspose.3D for Java 将渲染的 3D 场景保存到图像文件的步骤。无论您是经验丰富的开发人员还是 3D 图形领域的新手，本指南都将为您提供将您的创作变为现实的基本知识。
@@ -91,3 +97,9 @@ scene.render(camera, output, new Dimension(1024, 1024), "png");
 ### Q5：我可以在购买前试用 Aspose.3D for Java 吗？
 
  A5：当然！下载免费试用版[这里](https://releases.aspose.com/)亲身体验这些功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

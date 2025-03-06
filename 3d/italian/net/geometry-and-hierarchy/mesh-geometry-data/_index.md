@@ -3,10 +3,16 @@ title: Lavorare con i dati della geometria della mesh
 linktitle: Lavorare con i dati della geometria della mesh
 second_title: API Aspose.3D .NET
 description: Padroneggia l'arte della programmazione grafica 3D con Aspose.3D per .NET. Crea, manipola e salva splendide scene 3D senza sforzo.
-type: docs
 weight: 15
 url: /it/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lavorare con i dati della geometria della mesh
+
 ## introduzione
 
 Benvenuti nell'entusiasmante mondo della programmazione grafica 3D con Aspose.3D per .NET! In questo tutorial, approfondiremo le complessità del lavoro con i dati della geometria della mesh nelle scene 3D utilizzando Aspose.3D, una libreria potente e versatile per gli sviluppatori .NET. Che tu sia un programmatore esperto o che tu abbia appena iniziato con la grafica 3D, questa guida passo passo ti aiuterà a padroneggiare l'arte di gestire i dati della geometria mesh senza sforzo.
@@ -126,3 +132,9 @@ A1: Aspose.3D è progettato principalmente per .NET, ma puoi esplorare altri pro
 ### Q5: Quali formati di file sono supportati per il salvataggio delle scene 3D?
 
  A5: Aspose.3D supporta vari formati di file, inclusi FBX, STL e altri. Fare riferimento al[documentazione](https://reference.aspose.com/3d/net/) per un elenco completo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Φέτες σε Γραμμική Εξώθηση
 linktitle: Φέτες σε Γραμμική Εξώθηση
 second_title: Aspose.3D .NET API
 description: Εξερευνήστε τον κόσμο της τρισδιάστατης σχεδίασης με το Aspose.3D για .NET. Δημιουργήστε εντυπωσιακά μοντέλα χρησιμοποιώντας το σεμινάριο γραμμικής διέλασης.
-type: docs
 weight: 13
 url: /el/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Φέτες σε Γραμμική Εξώθηση
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον κόσμο του 3D design χρησιμοποιώντας το Aspose.3D για .NET! Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία δημιουργίας εκπληκτικών τρισδιάστατων απεικονίσεων χρησιμοποιώντας την ισχυρή βιβλιοθήκη Aspose.3D.
@@ -116,3 +122,9 @@ A1: Το Aspose.3D έχει σχεδιαστεί κυρίως για .NET, αλ�
 ### Ε5: Μπορώ να χρησιμοποιήσω μια προσωρινή άδεια χρήσης για το Aspose.3D για .NET;
 
  A5: Ναι, αποκτήστε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/) για σκοπούς αξιολόγησης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

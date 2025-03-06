@@ -3,10 +3,16 @@ title: Nastavení směru v lineárním vytlačování s Aspose.3D pro Java
 linktitle: Nastavení směru v lineárním vytlačování s Aspose.3D pro Java
 second_title: Aspose.3D Java API
 description: Zvládněte lineární vytlačování s Aspose.3D pro Java! Postupujte podle našeho průvodce pro bezproblémové 3D programování. Stáhněte si nyní a zažijte strhující zážitek.
-type: docs
 weight: 12
 url: /cs/java/linear-extrusion/setting-direction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení směru v lineárním vytlačování s Aspose.3D pro Java
+
 ## Úvod
 
 Vítejte v našem podrobném průvodci nastavením směru při lineárním vytlačování pomocí Aspose.3D pro Java. Aspose.3D je výkonná Java knihovna, která umožňuje vývojářům bezproblémově pracovat s 3D soubory a scénami. V tomto tutoriálu se zaměříme na konkrétní úkol, kterým je nastavení směru při lineárním vytlačování, čímž zvýšíme vaši odbornost v 3D programování.
@@ -108,3 +114,9 @@ A1: Aspose.3D podporuje různé programovací jazyky, včetně .NET a Java.
 ### Q5: Jsou k dispozici dočasné licence pro Aspose.3D?
 
  A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

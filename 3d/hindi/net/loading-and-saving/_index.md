@@ -3,10 +3,16 @@ title: लोड हो रहा है और सहेजा जा रहा
 linktitle: लोड हो रहा है और सहेजा जा रहा है
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D के साथ अपने 3D मॉडलिंग गेम को उन्नत बनाएं! कैंसिलेशनटोकन का उपयोग करके कुशल लोडिंग और सेविंग तकनीकों में महारत हासिल करें। अभी अन्वेषण करें!
-type: docs
 weight: 27
 url: /hi/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# लोड हो रहा है और सहेजा जा रहा है
+
 ## परिचय
 
 .NET के लिए Aspose.3D के साथ 3D मॉडलिंग के आकर्षक क्षेत्र में प्रवेश करें, जो निर्बाध और कुशल 3D दस्तावेज़ हेरफेर का आपका प्रवेश द्वार है। इस ट्यूटोरियल श्रृंखला में, हम रचनात्मक संभावनाओं की दुनिया को अनलॉक करते हुए 3डी मॉडल को लोड करने और सहेजने की जटिलताओं का पता लगाएंगे।
@@ -105,3 +111,9 @@ url: /hi/net/loading-and-saving/
 ### एम्बेडेड टेक्सचर को USDZ से मेमोरी में लोड करें
 
 USDZ फ़ाइलों के भीतर एम्बेडेड बनावट डेटा तक पहुंच।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

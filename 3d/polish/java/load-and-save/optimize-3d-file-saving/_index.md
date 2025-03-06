@@ -3,10 +3,16 @@ title: Zoptymalizuj zapisywanie plików 3D w Javie za pomocą opcji Aspose.3D Sa
 linktitle: Zoptymalizuj zapisywanie plików 3D w Javie za pomocą opcji Aspose.3D SaveOptions
 second_title: Aspose.3D API Java
 description: Dowiedz się, jak zoptymalizować zapisywanie plików 3D w Javie za pomocą Aspose.3D SaveOptions. Zwiększ wydajność i dostosuj wyniki bez wysiłku.
-type: docs
 weight: 16
 url: /pl/java/load-and-save/optimize-3d-file-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zoptymalizuj zapisywanie plików 3D w Javie za pomocą opcji Aspose.3D SaveOptions
+
 ## Wstęp
 
 Aspose.3D to bogata w funkcje biblioteka Java, która umożliwia programistom płynną pracę z modelami 3D. Jeśli chodzi o zapisywanie plików 3D, klasa SaveOptions oferuje mnóstwo ustawień pozwalających dostosować dane wyjściowe do własnych wymagań. W tym samouczku omówimy różne opcje zapisywania i sposoby ich wykorzystania w celu optymalizacji procesu.
@@ -119,3 +125,9 @@ A4: Wykorzystaj`setFileSystem(new DummyFileSystem())` metoda w`ObjSaveOptions` c
 ### P5: Czy istnieje sposób na zapisanie zależności w katalogu lokalnym w pliku OBJ?
 
  O5: Tak, użyj`setFileSystem(new LocalFileSystem(MyDir))` metoda w`ObjSaveOptions` class, aby lokalnie zapisać zależności.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

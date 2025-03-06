@@ -3,10 +3,16 @@ title: Chuyển đổi nguyên thủy thành lưới trong Java
 linktitle: Chuyển đổi nguyên thủy thành lưới trong Java
 second_title: API Java Aspose.3D
 description: Bắt tay vào cuộc hành trình làm chủ đồ họa 3D với Aspose.3D cho Java - dễ dàng chuyển đổi các nguyên thủy thành các mắt lưới đầy mê hoặc. Nâng cao trải nghiệm mã hóa của bạn ngay bây giờ!
-type: docs
 weight: 12
 url: /vi/java/transforming-3d-meshes/convert-primitives-to-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi nguyên thủy thành lưới trong Java
+
 ## Giới thiệu
 Việc mạo hiểm bước vào lĩnh vực đồ họa 3D trong Java có thể rất thú vị, đặc biệt là khi bạn muốn nâng cao cảnh của mình bằng cách chuyển đổi những hình ảnh nguyên thủy thành các mắt lưới phức tạp. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình sử dụng Aspose.3D cho Java, đảm bảo trải nghiệm liền mạch và phong phú.
 ## Điều kiện tiên quyết
@@ -73,3 +79,9 @@ Tuyệt đối! Aspose.3D cho Java tích hợp liền mạch với các thư vi�
  Thật vậy, giấy phép tạm thời có thể được lấy[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết về Aspose.3D cho Java ở đâu?
  Tài liệu đầy đủ có sẵn[đây](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

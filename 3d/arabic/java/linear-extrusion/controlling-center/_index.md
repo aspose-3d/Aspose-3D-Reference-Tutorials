@@ -3,10 +3,16 @@ title: مركز التحكم في النتوء الخطي باستخدام Aspos
 linktitle: مركز التحكم في النتوء الخطي باستخدام Aspose.3D لـ Java
 second_title: Aspose.3D جافا API
 description: استكشف عالم الرسومات ثلاثية الأبعاد في Java باستخدام Aspose.3D. السيطرة على المركز في قذف خطي دون عناء.
-type: docs
 weight: 11
 url: /ar/java/linear-extrusion/controlling-center/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مركز التحكم في النتوء الخطي باستخدام Aspose.3D لـ Java
+
 ## مقدمة
 
 في عالم الرسومات ثلاثية الأبعاد وبرمجة Java، يلعب التحكم في المركز في البثق الخطي دورًا حاسمًا في تحقيق التأثيرات المطلوبة في مشاريعك. يوفر Aspose.3D for Java مجموعة أدوات قوية للتعامل مع مثل هذه المهام بسلاسة. في هذا البرنامج التعليمي، سنتعمق في عملية التحكم في المركز في البثق الخطي باستخدام Aspose.3D لـ Java، مع تفصيل كل خطوة لضمان فهم سلس وشامل.
@@ -126,3 +132,9 @@ scene.save(MyDir + "CenterInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### س5: أين يمكنني العثور على الوثائق؟
 
  ج5: تتوفر وثائق Aspose.3D لـ Java[هنا](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

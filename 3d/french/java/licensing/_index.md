@@ -3,10 +3,16 @@ title: Premiers pas avec Aspose.3D pour Java
 linktitle: Premiers pas avec Aspose.3D pour Java
 second_title: API Java Aspose.3D
 description: Découvrez la puissance d'Aspose.3D Java à travers nos didacticiels approfondis. Découvrez comment appliquer des licences pour libérer toutes les capacités de ce puissant outil Java.
-type: docs
 weight: 22
 url: /fr/java/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Premiers pas avec Aspose.3D pour Java
+
 ## Introduction
 
 Êtes-vous prêt à élever vos applications Java avec les fonctionnalités remarquables d'Aspose.3D ? Plongez dans nos didacticiels complets qui vous guideront à travers tous les aspects, en commençant par l'étape fondamentale de l'application d'une licence.
@@ -37,3 +43,9 @@ En conclusion, nos didacticiels Aspose.3D pour Java ouvrent la voie à une expé
 ## Premiers pas avec Aspose.3D pour les didacticiels Java
 ### [Application d'une licence dans Aspose.3D pour Java](./applying-license-in-aspose-3d/)
 Libérez tout le potentiel d’Aspose.3D dans les applications Java en suivant notre guide complet sur l’application des licences.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

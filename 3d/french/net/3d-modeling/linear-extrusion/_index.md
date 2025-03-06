@@ -3,10 +3,16 @@ title: Extrusion linéaire
 linktitle: Extrusion linéaire
 second_title: API Aspose.3D .NET
 description: Libérez la créativité 3D avec les didacticiels Aspose.3D pour .NET. Maîtrisez les techniques d'extrusion linéaire, améliorez les conceptions et élevez vos projets sans effort.
-type: docs
 weight: 31
 url: /fr/net/3d-modeling/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extrusion linéaire
+
 ## Introduction
 | Explore the dynamic realm of [3D modeling](./center-in-linear-extrusion/) through Aspose.3D for .NET tutorials, focusing on various aspects of linear extrusion. Master the art of [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), and incorporating [twist offsets](./twist-offset-in-linear-extrusion/) in your designs. Each tutorial is a gateway to unlocking new dimensions of creativity in 3D graphics. Dive into the captivating world of Aspose.3D for .NET and unleash your imagination. |
 
@@ -42,3 +48,9 @@ Explorez le monde de la conception 3D avec Aspose.3D pour .NET. Créez de superb
 Explorez le monde captivant des graphiques 3D avec Aspose.3D pour .NET. Apprenez étape par étape l'extrusion linéaire avec une torsion.
 ### [Décalage de torsion dans l'extrusion linéaire](./twist-offset-in-linear-extrusion/)
 Explorez la magie d'Aspose.3D pour .NET avec notre guide étape par étape sur le décalage de torsion dans l'extrusion linéaire. Élevez vos projets 3D sans effort.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

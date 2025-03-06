@@ -3,10 +3,16 @@ title: Java에서 선형 돌출을 사용하여 3D 모델 만들기
 linktitle: Java에서 선형 돌출을 사용하여 3D 모델 만들기
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 3D 모델링의 세계를 탐험해보세요. 선형 압출을 손쉽게 마스터하세요. 중심 제어, 방향 설정, 슬라이스 지정, 비틀기 적용 등!
-type: docs
 weight: 23
 url: /ko/java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 선형 돌출을 사용하여 3D 모델 만들기
+
 ## 소개
 
 
@@ -62,3 +68,9 @@ Java용 Aspose.3D를 사용하여 선형 돌출에서 슬라이스를 지정하�
 Java용 Aspose.3D를 사용하여 3D 모델에 변형을 추가하는 방법을 알아보세요. 향상된 선형 압출 효과를 보려면 단계별 가이드를 따르세요.
 ### [Java용 Aspose.3D를 사용하여 선형 돌출에서 비틀기 오프셋 사용](./using-twist-offset/)
 Java용 Aspose.3D를 사용하여 3D 모델링 기술을 향상하세요. 이 포괄적인 튜토리얼에서 선형 돌출의 비틀기 오프셋을 사용하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: シーンのすべてのメッシュをマテリアルごとに分割す�
 linktitle: シーンのすべてのメッシュをマテリアルごとに分割する
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D メッシュをマテリアルごとに分割する方法を学びます。 3D モデルの効率的な編成と管理については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 21
 url: /ja/net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# シーンのすべてのメッシュをマテリアルごとに分割する
+
 ## 導入
 Aspose.3D for .NET を使用して 3D シーンのすべてのメッシュをマテリアルごとに分割するためのこのステップバイステップ ガイドへようこそ。 3D モデルを操作していて、マテリアルに基づいてメッシュを効率的に編成したい場合は、このチュートリアルが最適です。 Aspose.3D は、3D ファイルを操作するためのさまざまな機能を提供する強力な .NET ライブラリであり、開発者にとって優れた選択肢となります。
 ## 前提条件
@@ -66,3 +72,9 @@ Aspose.3D は主に .NET 用に設計されていますが、.NET 言語バイ�
 訪問[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)コミュニティのサポートとディスカッションのために。
 ### 5. 一時ライセンスを取得できますか?
 はい、仮免許を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

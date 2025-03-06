@@ -3,10 +3,16 @@ title: Extrahování informací do aktiv scény
 linktitle: Extrahování informací do aktiv scény
 second_title: Aspose.3D .NET API
 description: Vylepšete své 3D scény bez námahy s Aspose.3D pro .NET. Naučte se přidávat cenné informace o majetku krok za krokem. Stáhněte si nyní pro dynamický 3D zážitek.
-type: docs
 weight: 10
 url: /cs/net/3d-scene/information-to-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extrahování informací do aktiv scény
+
 ## Úvod
 
 Vítejte v tomto komplexním tutoriálu o používání Aspose.3D pro .NET k získávání cenných informací a vylepšení vašich 3D scén. Aspose.3D je výkonná knihovna, která umožňuje vývojářům bezproblémově manipulovat s 3D scénami v aplikacích .NET. V tomto tutoriálu se zaměříme na klíčový úkol přidání informací o majetku do scény.
@@ -96,3 +102,9 @@ Odpověď 1: Aspose.3D primárně podporuje jazyky .NET, ale můžete prozkoumat
 ### Q5: Kde najdu podrobnou dokumentaci k Aspose.3D pro .NET?
 
  A5: Viz[dokumentace](https://reference.aspose.com/3d/net/) pro podrobné informace.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

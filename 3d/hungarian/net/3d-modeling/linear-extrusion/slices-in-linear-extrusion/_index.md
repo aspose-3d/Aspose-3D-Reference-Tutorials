@@ -3,10 +3,16 @@ title: Szeletek lineáris extrudálásban
 linktitle: Szeletek lineáris extrudálásban
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D-s tervezés világát az Aspose.3D for .NET segítségével. Készítsen lenyűgöző modelleket lineáris extrudálási oktatóanyagunk segítségével.
-type: docs
 weight: 13
 url: /hu/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szeletek lineáris extrudálásban
+
 ## Bevezetés
 
 Üdvözöljük a 3D tervezés világában az Aspose.3D for .NET használatával! Akár tapasztalt fejlesztő, akár csak most kezdi, ez az oktatóanyag végigvezeti Önt a lenyűgöző 3D vizualizációk létrehozásának folyamatán a hatékony Aspose.3D könyvtár segítségével.
@@ -116,3 +122,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan hajthat végre lineáris extrudálás
 ### 5. kérdés: Használhatok ideiglenes licencet az Aspose.3D for .NET számára?
 
  V5: Igen, szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) értékelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تقسيم الشبكات ثلاثية الأبعاد حسب المواد
 linktitle: تقسيم الشبكات ثلاثية الأبعاد حسب المواد للمعالجة الفعالة في Java
 second_title: Aspose.3D جافا API
 description: اكتشف قوة Aspose.3D في Java من خلال دليلنا خطوة بخطوة حول تقسيم الشبكات ثلاثية الأبعاد بكفاءة حسب المادة. تعزيز أداء التطبيق الخاص بك بسلاسة.
-type: docs
 weight: 12
 url: /ar/java/3d-mesh-data/split-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقسيم الشبكات ثلاثية الأبعاد حسب المواد للمعالجة الفعالة في Java
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول تقسيم الشبكات ثلاثية الأبعاد حسب المواد للمعالجة الفعالة في Java باستخدام Aspose.3D. إذا كنت تغوص في عالم الرسومات ثلاثية الأبعاد وتحتاج إلى مكتبة Java قوية، فإن Aspose.3D هو الحل الأمثل لك. في هذا البرنامج التعليمي، سنرشدك خلال عملية التعامل بكفاءة مع الشبكات ثلاثية الأبعاد حسب المادة، وتحسين تطبيق Java الخاص بك للحصول على أداء فائق.
@@ -104,3 +110,10 @@ System.out.println("\nSplitting a mesh by specifying the material successfully."
 ### س5: كيف يمكنني الحصول على الدعم لأية مشكلات أو استفسارات؟
 
  ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) للحصول على الدعم المخصص من المجتمع.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Xây dựng dữ liệu tiếp tuyến và nhị phân
 linktitle: Xây dựng dữ liệu tiếp tuyến và nhị phân
 second_title: API Aspose.3D .NET
 description: Giải phóng sức mạnh của dữ liệu tiếp tuyến và nhị phân để tối ưu hóa mô hình 3D của bạn nhằm hiển thị mượt mà hơn, thời gian tải nhanh hơn và tăng hiệu suất.
-type: docs
 weight: 10
 url: /vi/net/meshes/build-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xây dựng dữ liệu tiếp tuyến và nhị phân
+
 ## Giới thiệu
 Bạn đã bao giờ cảm thấy thất vọng khi mô hình 3D chậm chạp làm chậm dự án của bạn chưa? Đừng lo lắng, nhà phát triển đồng nghiệp, vì bí quyết giúp việc thuận buồm xuôi gió nằm ở dữ liệu tiếp tuyến và nhị phân. Những anh hùng thầm lặng này tối ưu hóa kết xuất lưới, khiến người mẫu của bạn hát như những diva opera trên bất kỳ sân khấu nào. Nhưng làm thế nào để chúng ta khai thác được sức mạnh của họ? Đừng lo, vì hướng dẫn toàn diện này sẽ trang bị cho bạn bộ công cụ Aspose.3D for .NET để mở khóa sự kỳ diệu của dữ liệu tiếp tuyến và nhị phân chỉ trong vài cú nhấp chuột!
 
@@ -85,3 +91,9 @@ Aspose.3D hỗ trợ nhiều định dạng như OBJ, STL và glTF. Chỉ cần 
  Aspose.3D có một cổng tài liệu toàn diện tại[đây](https://docs.aspose.com/3d/net/) Ngoài ra, diễn đàn cộng đồng Aspose tại[đây](https://forum.aspose.com/) luôn gây xôn xao với các nhà phát triển hữu ích.
 ### Tôi có thể sử dụng Aspose.3D cho các dự án thương mại không? 
  Đúng! Aspose.3D cung cấp nhiều tùy chọn cấp phép khác nhau để phù hợp với nhu cầu của bạn. Kiểm tra trang giá của họ tại[đây](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

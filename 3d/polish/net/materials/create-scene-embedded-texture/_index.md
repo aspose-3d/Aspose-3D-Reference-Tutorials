@@ -3,10 +3,16 @@ title: Tworzenie sceny z osadzoną teksturą
 linktitle: Tworzenie sceny z osadzoną teksturą
 second_title: Aspose.3D API .NET
 description: Twórz hipnotyzujące sceny 3D z osadzonymi teksturami za pomocą Aspose.3D dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać oszałamiające rezultaty.
-type: docs
 weight: 10
 url: /pl/net/materials/create-scene-embedded-texture/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tworzenie sceny z osadzoną teksturą
+
 ## Wstęp
 Witamy w ekscytującym świecie grafiki 3D z Aspose.3D dla .NET! W tym kompleksowym samouczku poprowadzimy Cię przez proces tworzenia oszałamiających scen 3D z osadzonymi teksturami przy użyciu Aspose.3D, potężnej i wszechstronnej biblioteki dla programistów .NET.
 ## Warunki wstępne
@@ -109,3 +115,9 @@ Odp.: Aspose.3D zapewnia możliwości animacji; szczegółowe instrukcje można 
  O: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności i dyskusje.
 ### P: Czy mogę używać Aspose.3D w projektach komercyjnych?
  Odpowiedź: Tak, możesz kupić licencję[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

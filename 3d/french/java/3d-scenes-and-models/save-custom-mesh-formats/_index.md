@@ -3,10 +3,16 @@ title: Enregistrez les maillages 3D dans des formats binaires personnalisés pou
 linktitle: Enregistrez les maillages 3D dans des formats binaires personnalisés pour plus de flexibilité en Java
 second_title: API Java Aspose.3D
 description: Découvrez comment enregistrer des maillages 3D dans des formats binaires personnalisés à l'aide d'Aspose.3D pour Java. Améliorez la flexibilité des applications Java avec ce didacticiel étape par étape.
-type: docs
 weight: 13
 url: /fr/java/3d-scenes-and-models/save-custom-mesh-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrez les maillages 3D dans des formats binaires personnalisés pour plus de flexibilité en Java
+
 ## Introduction
 
 Bienvenue dans ce didacticiel étape par étape sur l'enregistrement de maillages 3D dans des formats binaires personnalisés pour plus de flexibilité en Java à l'aide d'Aspose.3D. Dans ce guide, nous vous guiderons à travers le processus de conversion de maillages 3D et de leur enregistrement dans un format binaire personnalisé pour améliorer la flexibilité et l'interopérabilité de vos applications Java.
@@ -124,3 +130,9 @@ A4 : La documentation Aspose.3D peut inclure des exemples de modèles, ou vous 
 ### Q5 : Puis-je personnaliser davantage le format binaire pour des besoins spécifiques ?
 
 A5 : Absolument, n'hésitez pas à adapter le format binaire en fonction des besoins spécifiques de votre application.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulera 3D-objekt och scener i Java
 linktitle: Manipulera 3D-objekt och scener i Java
 second_title: Aspose.3D Java API
 description: Lås upp en värld av Java 3D-programmering med Aspose.3D-tutorials. Lär dig att ändra sfärens radie och tillämpa XPath-liknande frågor utan ansträngning för sömlös 3D-utveckling.
-type: docs
 weight: 33
 url: /sv/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulera 3D-objekt och scener i Java
+
 ## Introduktion
 
 Java 3D-programmering blir en fängslande resa med Aspose.3D-tutorials, med fokus på att manipulera 3D-objekt och scener. I den här artikeln kommer vi att fördjupa oss i två viktiga handledningar som lovar att höja dina färdigheter i 3D-utveckling.
@@ -27,3 +33,9 @@ Sammanfattningsvis fungerar dessa tutorials som din inkörsport till att behärs
 Utforska Java 3D-programmering med Aspose.3D, ändra sfärens radie utan ansträngning. Ladda ner nu för en sömlös 3D-utvecklingsupplevelse.
 ### [Tillämpa XPath-liknande frågor på 3D-objekt i Java](./xpath-like-object-queries/)
 Bemästra 3D-objektfrågor i Java utan ansträngning med Aspose.3D. Använd XPath-liknande frågor, manipulera scener och lyft din 3D-utveckling.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

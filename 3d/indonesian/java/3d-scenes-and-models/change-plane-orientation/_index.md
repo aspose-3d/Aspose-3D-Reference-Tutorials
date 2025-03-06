@@ -3,10 +3,16 @@ title: Ubah Orientasi Bidang untuk Pemosisian Adegan 3D yang Tepat di Java
 linktitle: Ubah Orientasi Bidang untuk Pemosisian Adegan 3D yang Tepat di Java
 second_title: Asumsikan.3D Java API
 description: Tingkatkan pemosisian adegan 3D di Java dengan Aspose.3D. Ubah orientasi bidang untuk presisi. Unduh sekarang untuk pengalaman visual yang menawan.
-type: docs
 weight: 10
 url: /id/java/3d-scenes-and-models/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ubah Orientasi Bidang untuk Pemosisian Adegan 3D yang Tepat di Java
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami dalam meningkatkan pemosisian adegan 3D di Java menggunakan Aspose.3D. Tutorial ini akan mendalami cara memodifikasi orientasi bidang untuk penentuan posisi pemandangan 3D yang tepat, sehingga memberdayakan Anda untuk menciptakan pemandangan yang menakjubkan secara visual dan diposisikan secara akurat.
@@ -114,3 +120,9 @@ A1: Ya, Aspose.3D mendukung berbagai bahasa pemrograman, termasuk Java, .NET, da
 ### Q5: Apakah ada opsi lisensi sementara?
 
  A5: Ya, jika Anda memerlukan lisensi sementara, Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

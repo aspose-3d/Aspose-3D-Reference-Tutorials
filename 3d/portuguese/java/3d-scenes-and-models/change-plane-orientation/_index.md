@@ -3,10 +3,16 @@ title: Modifique a orientação do plano para posicionamento preciso da cena 3D 
 linktitle: Modifique a orientação do plano para posicionamento preciso da cena 3D em Java
 second_title: API Java Aspose.3D
 description: Aprimore o posicionamento da cena 3D em Java com Aspose.3D. Modifique a orientação do plano para obter precisão. Baixe agora para uma experiência visual cativante.
-type: docs
 weight: 10
 url: /pt/java/3d-scenes-and-models/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifique a orientação do plano para posicionamento preciso da cena 3D em Java
+
 ## Introdução
 
 Bem-vindo ao nosso guia passo a passo sobre como aprimorar o posicionamento de cenas 3D em Java usando Aspose.3D. Este tutorial se aprofundará na modificação da orientação do plano para um posicionamento preciso da cena 3D, permitindo que você crie cenas visualmente impressionantes e posicionadas com precisão.
@@ -114,3 +120,9 @@ A1: Sim, Aspose.3D oferece suporte a várias linguagens de programação, inclui
 ### P5: Existe uma opção de licença temporária?
 
  A5: Sim, se precisar de uma licença temporária, você pode obter uma[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

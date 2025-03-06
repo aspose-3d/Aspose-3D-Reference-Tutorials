@@ -3,10 +3,16 @@ title: Meshler İçin Normal Veri Oluşturma
 linktitle: Meshler İçin Normal Veri Oluşturma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D modelleri geliştirin! Bu adım adım kılavuzda ağlar için normal veriler oluşturmayı öğrenin. Gerçekçilik sadelikle buluşuyor.
-type: docs
 weight: 20
 url: /tr/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Meshler İçin Normal Veri Oluşturma
+
 ## giriiş
 Aspose.3D for .NET kullanarak ağlar için normal veri oluşturmayı anlatan bu adım adım kılavuza hoş geldiniz! 3D modellerle çalışıyorsanız ve normal veriler ekleyerek görsel çekiciliği artırmak istiyorsanız bu eğitim tam size göre. Aspose.3D, 3D grafik programlamayı basitleştiren güçlü bir .NET kitaplığıdır ve bu kılavuzda, ağlar için normal veri oluşturma sürecinde size yol göstereceğiz.
 ## Önkoşullar
@@ -66,3 +72,9 @@ Evet, Aspose.3D, FBX, STL ve daha fazlası dahil olmak üzere çeşitli 3D forma
  Kapsamlı belgeler mevcuttur[Burada](https://reference.aspose.com/3d/net/).
 ### Aspose.3D için lisans satın almam gerekirse ne olur?
  Lisansı şuradan satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

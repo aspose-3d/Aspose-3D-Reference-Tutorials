@@ -3,10 +3,16 @@ title: Doğrusal Ekstrüzyon
 linktitle: Doğrusal Ekstrüzyon
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET eğitimleriyle 3D yaratıcılığın kilidini açın. Doğrusal ekstrüzyon tekniklerinde ustalaşın, tasarımları geliştirin ve projelerinizi zahmetsizce yükseltin.
-type: docs
 weight: 31
 url: /tr/net/3d-modeling/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Doğrusal Ekstrüzyon
+
 ## giriiş
 | Explore the dynamic realm of [3D modeling](./center-in-linear-extrusion/) through Aspose.3D for .NET tutorials, focusing on various aspects of linear extrusion. Master the art of [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), and incorporating [twist offsets](./twist-offset-in-linear-extrusion/) in your designs. Each tutorial is a gateway to unlocking new dimensions of creativity in 3D graphics. Dive into the captivating world of Aspose.3D for .NET and unleash your imagination. |
 
@@ -42,3 +48,9 @@ Aspose.3D for .NET ile 3D tasarım dünyasını keşfedin. Doğrusal ekstrüzyon
 Aspose.3D for .NET ile 3D grafiklerin büyüleyici dünyasını keşfedin. Twist ile Doğrusal Ekstrüzyonu adım adım öğrenin.
 ### [Doğrusal Ekstrüzyonda Büküm Ofseti](./twist-offset-in-linear-extrusion/)
 Doğrusal Ekstrüzyonda Büküm Ofseti hakkındaki adım adım kılavuzumuzla Aspose.3D for .NET'in büyüsünü keşfedin. 3D projelerinizi zahmetsizce yükseltin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

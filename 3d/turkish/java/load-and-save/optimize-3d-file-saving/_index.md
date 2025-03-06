@@ -3,10 +3,16 @@ title: Aspose.3D SaveOptions ile Java'da 3D Dosya Kaydetmeyi Optimize Edin
 linktitle: Aspose.3D SaveOptions ile Java'da 3D Dosya Kaydetmeyi Optimize Edin
 second_title: Aspose.3D Java API'si
 description: Aspose.3D SaveOptions ile Java'da 3D dosya kaydetmeyi nasıl optimize edeceğinizi öğrenin. Performansı artırın ve çıktıları zahmetsizce özelleştirin.
-type: docs
 weight: 16
 url: /tr/java/load-and-save/optimize-3d-file-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D SaveOptions ile Java'da 3D Dosya Kaydetmeyi Optimize Edin
+
 ## giriiş
 
 Aspose.3D, geliştiricilerin 3D modellerle sorunsuz bir şekilde çalışmasını sağlayan, zengin özelliklere sahip bir Java kütüphanesidir. 3D dosyaları kaydetme söz konusu olduğunda SaveOptions sınıfı, çıktının gereksinimlerinize göre ince ayarını yapmak için çok sayıda ayar sunar. Bu eğitimde çeşitli kaydetme seçeneklerini ve süreci optimize etmek için bunlardan nasıl yararlanılabileceğini keşfedeceğiz.
@@ -119,3 +125,9 @@ A4: Kullanın`setFileSystem(new DummyFileSystem())` yöntemdeki`ObjSaveOptions` 
 ### S5: Bağımlılıkları bir OBJ dosyasındaki yerel dizine kaydetmenin bir yolu var mı?
 
  A5: Evet, kullanın`setFileSystem(new LocalFileSystem(MyDir))` yöntemdeki`ObjSaveOptions` bağımlılıkları yerel olarak kaydetmek için sınıf.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

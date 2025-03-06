@@ -3,10 +3,16 @@ title: Đặt hướng trong ép đùn tuyến tính với Aspose.3D cho Java
 linktitle: Đặt hướng trong ép đùn tuyến tính với Aspose.3D cho Java
 second_title: API Java Aspose.3D
 description: Làm chủ quá trình đùn tuyến tính với Aspose.3D cho Java! Hãy làm theo hướng dẫn của chúng tôi để lập trình 3D liền mạch. Tải xuống ngay để có trải nghiệm thú vị.
-type: docs
 weight: 12
 url: /vi/java/linear-extrusion/setting-direction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt hướng trong ép đùn tuyến tính với Aspose.3D cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách thiết lập hướng trong ép đùn tuyến tính bằng Aspose.3D cho Java. Aspose.3D là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp và cảnh 3D. Trong hướng dẫn này, chúng tôi sẽ tập trung vào nhiệm vụ cụ thể là thiết lập hướng trong ép đùn tuyến tính, nâng cao trình độ lập trình 3D của bạn.
@@ -108,3 +114,9 @@ Trả lời 1: Aspose.3D hỗ trợ nhiều ngôn ngữ lập trình khác nhau,
 ### Câu hỏi 5: Aspose.3D có giấy phép tạm thời không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

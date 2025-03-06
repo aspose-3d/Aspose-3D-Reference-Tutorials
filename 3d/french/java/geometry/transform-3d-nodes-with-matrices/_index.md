@@ -3,10 +3,16 @@ title: Transformez des nœuds 3D avec des matrices de transformation à l'aide d
 linktitle: Transformez des nœuds 3D avec des matrices de transformation en Java à l'aide d'Aspose.3D
 second_title: API Java Aspose.3D
 description: Explorez le monde des graphiques 3D en Java avec Aspose.3D. Apprenez à transformer des nœuds sans effort à l'aide de matrices de transformation.
-type: docs
 weight: 21
 url: /fr/java/geometry/transform-3d-nodes-with-matrices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformez des nœuds 3D avec des matrices de transformation à l'aide d'Aspose.3D
+
 ## Introduction
 
 Bienvenue dans ce guide étape par étape sur la transformation de nœuds 3D avec des matrices de transformation en Java à l'aide d'Aspose.3D. Si vous êtes un développeur Java cherchant à améliorer vos compétences en graphisme et en modélisation 3D, vous êtes au bon endroit. Dans ce didacticiel, nous allons plonger dans le processus d'application de transformations aux nœuds 3D dans le framework Aspose.3D.
@@ -119,3 +125,9 @@ A3 : La taille de vos scènes 3D peut être limitée par les ressources système
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.3D ?
 
  A5 : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

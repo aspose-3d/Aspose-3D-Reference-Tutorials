@@ -3,10 +3,16 @@ title: Upptäcker format
 linktitle: Upptäcker format
 second_title: Aspose.3D .NET API
 description: Bemästra 3D-filhantering utan ansträngning med Aspose.3D för .NET. Ladda, spara och identifiera format sömlöst.
-type: docs
 weight: 12
 url: /sv/net/loading-and-saving/detect-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Upptäcker format
+
 ## Introduktion
 
 Välkommen till den spännande världen av 3D-filmanipulation med Aspose.3D för .NET! Oavsett om du är en erfaren utvecklare eller bara har börjat med 3D-grafik, kommer denna handledning guida dig genom processen att ladda, spara och upptäcka format med lätthet.
@@ -93,3 +99,9 @@ S1: Ja, Aspose.3D stöder ett brett utbud av 3D-filformat, vilket ger flexibilit
 ### F5: Kan jag prova Aspose.3D gratis innan jag köper?
 
  A5: Visst! Ladda ner den kostnadsfria testversionen från[Aspose.3D-släpp](https://releases.aspose.com/) att uppleva dess kapacitet på egen hand.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

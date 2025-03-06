@@ -3,10 +3,16 @@ title: Java 3D'de Özelleştirilmiş İşleme için İşleme Hedeflerini Manuel 
 linktitle: Java 3D'de Özelleştirilmiş İşleme için İşleme Hedeflerini Manuel Olarak Kontrol Edin
 second_title: Aspose.3D Java API'si
 description: Bu adım adım kılavuzla Aspose.3D for Java'nın gücünü keşfedin. Çarpıcı özelleştirilmiş Java 3D grafikleri için işleme hedeflerini manuel olarak kontrol edin.
-type: docs
 weight: 10
 url: /tr/java/rendering-3d-scenes/manual-render-targets/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 3D'de Özelleştirilmiş İşleme için İşleme Hedeflerini Manuel Olarak Kontrol Edin
+
 ## giriiş
 
 Java 3D grafiklerinizi bir sonraki seviyeye yükseltmeye hazır mısınız? Aspose.3D for Java, özelleştirilmiş işlemenin tüm potansiyelini ortaya çıkarmanızı sağlayan ağ geçidinizdir. Bu eğitimde, işleme hedeflerini manuel olarak kontrol etmenin inceliklerini inceleyerek, spesifikasyonlarınıza göre uyarlanmış görsel olarak büyüleyici sahneler oluşturmanızı sağlayacak araçları sunacağız.
@@ -117,3 +123,9 @@ C1: Evet, Aspose.3D, kullanıcı dostu bir arayüz sunarak hem yeni başlayanlar
 ### S5: Java 3D grafiklerinde patlama nedir ve Aspose.3D bunu nasıl ele alıyor?
 
 Cevap5: Patlama, grafik öğelerdeki ani yoğunluk veya hızlı değişiklikleri ifade eder. Aspose.3D, yumuşak geçişler ve dinamik ayarlamalar için araçlar sunarak sahnelerinizdeki patlamaları en aza indirir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

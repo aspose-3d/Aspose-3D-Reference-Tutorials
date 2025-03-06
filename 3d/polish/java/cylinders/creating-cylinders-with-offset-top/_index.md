@@ -3,10 +3,16 @@ title: Tworzenie cylindrów z przesuniętą górą w Aspose.3D dla Java
 linktitle: Tworzenie cylindrów z przesuniętą górą w Aspose.3D dla Java
 second_title: Aspose.3D API Java
 description: Odkryj cuda modelowania 3D w Javie dzięki Aspose.3D. Naucz się bez wysiłku tworzyć urzekające cylindry z przesuniętymi blatami.
-type: docs
 weight: 11
 url: /pl/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tworzenie cylindrów z przesuniętą górą w Aspose.3D dla Java
+
 ## Wstęp
 
 dziedzinie modelowania 3D w oparciu o Javę Aspose.3D wyróżnia się jako potężne narzędzie, oferując programistom możliwość łatwego tworzenia skomplikowanych scen 3D. W tym samouczku zagłębimy się w fascynujący świat Aspose.3D dla Java, koncentrując się na konkretnym zadaniu – tworzeniu cylindrów z przesuniętymi wierzchołkami. Pod koniec tego przewodnika będziesz w pełni obeznany z procesem, co umożliwi Ci bezproblemową integrację tej funkcji z projektami 3D.
@@ -127,3 +133,9 @@ Odpowiedź 3: Tak, możesz sprawdzić i wybrać opcję licencjonowania odpowiada
 ### P5: Czy istnieje opcja licencji tymczasowej do celów testowych?
 
  Odpowiedź 5: Tak, możesz uzyskać tymczasową licencję do celów testowania i oceny[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

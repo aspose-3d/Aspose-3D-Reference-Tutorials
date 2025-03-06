@@ -3,10 +3,16 @@ title: 將許可證套用至 Aspose.3D for .NET
 linktitle: 將許可證套用至 Aspose.3D for .NET
 second_title: Aspose.3D .NET API
 description: 透過無縫應用授權來釋放 Aspose.3D for .NET 的強大功能。請遵循我們的逐步指南以獲得流暢的整合體驗。
-type: docs
 weight: 10
 url: /zh-hant/net/license/apply-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將許可證套用至 Aspose.3D for .NET
+
 ## 介紹
 
 您準備好釋放 Aspose.3D for .NET 的全部潛力了嗎？應用許可證是存取高級功能和確保無縫整合的關鍵。在本逐步指南中，我們將引導您完成應用程式授權的各種方法，確保您的 Aspose.3D 應用程式順利設定。
@@ -118,3 +124,9 @@ A3：造訪社群論壇[這裡](https://forum.aspose.com/c/3d/18)尋求任何幫
 ### Q5：如何購買許可證？
 
  A5：購買您的許可證[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

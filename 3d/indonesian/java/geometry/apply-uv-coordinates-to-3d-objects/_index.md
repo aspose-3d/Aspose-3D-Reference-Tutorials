@@ -3,10 +3,16 @@ title: Terapkan Koordinat UV ke Objek 3D di Java dengan Aspose.3D
 linktitle: Terapkan Koordinat UV ke Objek 3D di Java dengan Aspose.3D
 second_title: Asumsikan.3D Java API
 description: Belajar menerapkan koordinat UV pada objek 3D di Java dengan Aspose.3D. Tingkatkan grafis Anda dengan panduan langkah demi langkah ini.
-type: docs
 weight: 18
 url: /id/java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terapkan Koordinat UV ke Objek 3D di Java dengan Aspose.3D
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang penerapan koordinat UV pada objek 3D di Java menggunakan Aspose.3D. Dalam dunia grafis 3D, koordinat UV memainkan peran penting dalam memetakan tekstur ke permukaan, sehingga meningkatkan daya tarik visual kreasi Anda. Tutorial ini akan memandu Anda melalui prosesnya, merinci setiap langkah untuk memastikan pengalaman belajar yang lancar dan efektif.
@@ -104,3 +110,9 @@ A1: Ya, prosesnya tetap sama untuk model yang kompleks. Pastikan Anda memiliki d
 ### Q5: Dimana saya bisa membeli Aspose.3D?
 
  A5: Untuk membeli Aspose.3D, kunjungi[halaman pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

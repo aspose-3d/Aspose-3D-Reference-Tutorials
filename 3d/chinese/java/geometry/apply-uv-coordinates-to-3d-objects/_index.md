@@ -3,10 +3,16 @@ title: 使用 Aspose.3D 将 UV 坐标应用于 Java 中的 3D 对象
 linktitle: 使用 Aspose.3D 将 UV 坐标应用于 Java 中的 3D 对象
 second_title: Aspose.3D Java API
 description: 学习使用 Aspose.3D 将 UV 坐标应用于 Java 中的 3D 对象。通过此分步指南提升您的图形效果。
-type: docs
 weight: 18
 url: /zh/java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D 将 UV 坐标应用于 Java 中的 3D 对象
+
 ## 介绍
 
 欢迎来到这个关于使用 Aspose.3D 将 UV 坐标应用到 Java 中的 3D 对象的综合教程。在 3D 图形领域，UV 坐标在将纹理映射到表面、增强创作的视觉吸引力方面发挥着至关重要的作用。本教程将指导您完成整个过程，分解每个步骤，以确保顺利有效的学习体验。
@@ -104,3 +110,9 @@ A4：您可以获得临时许可证[这里](https://purchase.aspose.com/temporar
 ### Q5：哪里可以购买Aspose.3D？
 
  A5：要购买 Aspose.3D，请访问[购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

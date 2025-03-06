@@ -3,10 +3,16 @@ title: Преобразование примитивов в сетки в Java
 linktitle: Преобразование примитивов в сетки в Java
 second_title: Aspose.3D Java API
 description: Отправьтесь в путешествие к мастерству 3D-графики с Aspose.3D для Java — легко преобразуйте примитивы в завораживающие сетки. Повысьте свой опыт программирования прямо сейчас!
-type: docs
 weight: 12
 url: /ru/java/transforming-3d-meshes/convert-primitives-to-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование примитивов в сетки в Java
+
 ## Введение
 Погружение в область 3D-графики на Java может оказаться захватывающим, особенно если вы стремитесь улучшить свои сцены за счет преобразования примитивов в сложные сетки. В этом руководстве мы проведем вас через процесс использования Aspose.3D для Java, обеспечивая удобство и удобство работы.
 ## Предварительные условия
@@ -73,3 +79,9 @@ System.out.println("\n Converted the primitive Box to a mesh successfully.\nFile
  Действительно, временные лицензии можно получить[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос 5: Где я могу найти подробную документацию по Aspose.3D для Java?
  Доступна полная документация[здесь](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

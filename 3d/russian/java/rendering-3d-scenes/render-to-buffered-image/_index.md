@@ -3,10 +3,16 @@ title: Рендеринг 3D-сцен в буферизованные изобр
 linktitle: Рендеринг 3D-сцен в буферизованные изображения для дальнейшей обработки в Java
 second_title: Aspose.3D Java API
 description: Исследуйте возможности Aspose.3D для Java при рендеринге 3D-сцен в буферизованные изображения. Пошаговое руководство с предварительными условиями, пакетами импорта и часто задаваемыми вопросами.
-type: docs
 weight: 12
 url: /ru/java/rendering-3d-scenes/render-to-buffered-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг 3D-сцен в буферизованные изображения для дальнейшей обработки в Java
+
 ## Введение
 
 Добро пожаловать в это пошаговое руководство по рендерингу 3D-сцен в буферизованные изображения с помощью Aspose.3D для Java. Aspose.3D — это мощная библиотека Java, которая позволяет разработчикам работать с 3D-файлами и сценами, предоставляя универсальные функциональные возможности для рендеринга и обработки. В этом уроке мы сосредоточимся на рендеринге 3D-сцен в буферизованные изображения, открывая возможности для дальнейшей обработки в Java.
@@ -106,3 +112,9 @@ ImageIO.write(image, "png", new File(output));
 ### Вопрос 5. Доступны ли дополнительные параметры рендеринга?
 
  A5: Да, изучите документацию Aspose.3D.[здесь](https://reference.aspose.com/3d/java/) для получения исчерпывающей информации о вариантах рендеринга.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

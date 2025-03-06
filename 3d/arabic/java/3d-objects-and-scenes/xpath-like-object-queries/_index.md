@@ -3,10 +3,16 @@ title: تطبيق الاستعلامات الشبيهة بـ XPath على الك
 linktitle: تطبيق الاستعلامات الشبيهة بـ XPath على الكائنات ثلاثية الأبعاد في Java
 second_title: Aspose.3D جافا API
 description: إتقان استعلامات الكائنات ثلاثية الأبعاد في Java بسهولة باستخدام Aspose.3D. قم بتطبيق استعلامات شبيهة بـ XPath، وتعامل مع المشاهد، وقم برفع مستوى التطوير ثلاثي الأبعاد لديك.
-type: docs
 weight: 11
 url: /ar/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق الاستعلامات الشبيهة بـ XPath على الكائنات ثلاثية الأبعاد في Java
+
 ## مقدمة
 
 قد يكون الخوض في عالم النمذجة ثلاثية الأبعاد ومعالجة المشاهد في Java مهمة شاقة، لكن لا تخف! يوفر Aspose.3D for Java حلاً قويًا للتعامل مع الكائنات ثلاثية الأبعاد، مما يجعله أداة لا تقدر بثمن للمطورين. في هذا البرنامج التعليمي، سنرشدك خلال تطبيق الاستعلامات المشابهة لـ XPath على الكائنات ثلاثية الأبعاد في Java باستخدام Aspose.3D.
@@ -99,3 +105,9 @@ obj = (A3DObject) s.getRootNode().selectSingleObject("/");
 ### س5: هل تحتاج إلى ترخيص مؤقت؟
 
  ج5: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

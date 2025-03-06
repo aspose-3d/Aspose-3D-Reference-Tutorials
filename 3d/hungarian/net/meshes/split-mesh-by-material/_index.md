@@ -3,10 +3,16 @@ title: Háló felosztása anyag szerint
 linktitle: Háló felosztása anyag szerint
 second_title: Aspose.3D .NET API
 description: Tanulja meg a 3D hálók anyag szerinti felosztását az Aspose.3D for .NET segítségével. Javítsa a helyszínszervezést és a hatékonyságot. Lépésről lépésre útmutató fejlesztőknek.
-type: docs
 weight: 22
 url: /hu/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Háló felosztása anyag szerint
+
 ## Bevezetés
 Üdvözöljük ebben az átfogó oktatóanyagban a háló anyag szerinti felosztásáról az Aspose.3D for .NET használatával! Ha Ön 3D grafikával dolgozó fejlesztő, és hatékonyan szeretné kezelni és manipulálni a hálókat, akkor jó helyen jár. Ebben az útmutatóban a háló anyag alapján történő felosztásának folyamatát fogjuk megvizsgálni, amely kulcsfontosságú feladat a változatos és tetszetős 3D-s jelenetek létrehozásában.
 ## Előfeltételek
@@ -71,3 +77,9 @@ A CloneData házirend biztosítja, hogy minden részháló ugyanazt a vezérlőp
 Igen, az Aspose.3D renderelési képességekkel renderelheti és megjelenítheti az eredményül kapott részhálókat.
 ### K: Az Aspose.3D alkalmas játékfejlesztésre?
 Bár elsősorban modellezésre és renderelésre használják, az Aspose.3D integrálható a játékfejlesztési folyamatokba bizonyos feladatokhoz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

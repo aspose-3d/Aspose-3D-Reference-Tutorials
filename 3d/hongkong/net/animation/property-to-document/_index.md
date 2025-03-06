@@ -3,10 +3,16 @@ title: 在 3D 場景中對屬性進行動畫處理以記錄
 linktitle: 在 3D 場景中對屬性進行動畫處理以記錄
 second_title: Aspose.3D .NET API
 description: 學習使用 Aspose.3D for .NET 製作 3D 屬性動畫。建立動態場景的分步指南。
-type: docs
 weight: 10
 url: /zh-hant/net/animation/property-to-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 3D 場景中對屬性進行動畫處理以記錄
+
 ## 介紹
 
 如果您正在深入研究 .NET 中的 3D 場景創建和動畫領域，Aspose.3D 是您的首選工具包。在本逐步指南中，我們將探索使用 Aspose.3D for .NET 在 3D 場景中對屬性進行動畫處理的過程。最後，您將掌握為 3D 專案注入活力的知識。
@@ -128,3 +134,9 @@ A3：是的，您可以獲得免費試用[這裡](https://releases.aspose.com/).
 ### Q5: 我可以取得臨時許可證嗎？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

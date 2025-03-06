@@ -3,10 +3,16 @@ title: Menerapkan Bahan PBR ke Kotak
 linktitle: Menerapkan Bahan PBR ke Kotak
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia grafis 3D dengan Aspose.3D untuk .NET. Buat adegan yang imersif dengan mudah menggunakan materi Rendering Berbasis Fisik.
-type: docs
 weight: 10
 url: /id/net/geometry-and-hierarchy/apply-pbr-material-to-box/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Bahan PBR ke Kotak
+
 ## Perkenalan
 
 Selamat datang di dunia grafis 3D yang menakjubkan! Dalam panduan langkah demi langkah ini, kita akan menjelajahi pustaka Aspose.3D untuk .NET yang canggih dan mempelajari cara membuat pemandangan 3D yang menakjubkan menggunakan materi Rendering Berbasis Fisik (PBR). Aspose.3D menyederhanakan proses kompleks grafik 3D dan membuka banyak kemungkinan bagi pengembang.
@@ -113,3 +119,9 @@ A2: Tentu saja! Aspose.3D memberikan lisensi komersial untuk integrasi tanpa bat
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
 
  A5: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.3D for Java ile 3D Sahneleri Nokta Bulutları olarak dışa aktar�
 linktitle: Aspose.3D for Java ile 3D Sahneleri Nokta Bulutları olarak dışa aktarın
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile 3D sahneleri Java'da nokta bulutları olarak nasıl dışa aktaracağınızı öğrenin. Uygulamalarınızı güçlü 3D grafikler ve görselleştirmeyle geliştirin.
-type: docs
 weight: 15
 url: /tr/java/point-clouds/export-3d-scenes-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java ile 3D Sahneleri Nokta Bulutları olarak dışa aktarın
+
 ## giriiş
 
 Aspose.3D for Java, nokta bulutlarının oluşturulması da dahil olmak üzere 3D sahnelerin çeşitli formatlarda dışa aktarılmasını kolaylaştırır. Nokta bulutları, oyundan simülasyona kadar çeşitli endüstrilerde çok önemlidir ve 3 boyutlu koordinat sistemindeki bir dizi nokta aracılığıyla fiziksel bir alanın temsilini sunar.
@@ -94,3 +100,9 @@ Tebrikler! Aspose.3D for Java'yı kullanarak bir 3D sahneyi başarıyla nokta bu
 ### S5: Aspose.3D for Java'yı mı satın almak istiyorsunuz?
 
  Cevap5: Satın alma seçeneklerini keşfedin[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

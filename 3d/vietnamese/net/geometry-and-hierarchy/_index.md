@@ -3,10 +3,16 @@ title: Hình học và thứ bậc
 linktitle: Hình học và thứ bậc
 second_title: API Aspose.3D .NET
 description: Mở khóa thế giới đồ họa 3D với hướng dẫn Aspose.3D for .NET. Từ việc áp dụng vật liệu PBR đến các phép biến đổi hình học, bạn có thể làm chủ mọi khía cạnh một cách dễ dàng.
-type: docs
 weight: 25
 url: /vi/net/geometry-and-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hình học và thứ bậc
+
 ## Giới thiệu
 
 Bắt tay vào một cuộc hành trình ly kỳ vào thế giới đồ họa 3D với các hướng dẫn Aspose.3D cho .NET. Cho dù bạn là người mới hay nhà phát triển dày dạn kinh nghiệm, những hướng dẫn từng bước này hứa hẹn sẽ nâng cao kỹ năng của bạn và tiết lộ bí mật về thao tác đồ họa 3D liền mạch.
@@ -72,3 +78,9 @@ Khai phá sức mạnh của Aspose.3D cho .NET! Đi sâu vào thao tác phân c
  Khám phá sức mạnh của Aspose.3D cho .NET với hướng dẫn từng bước này về cách tạo lưới tam giác 3D một cách dễ dàng. Nâng cao kỹ năng lập mô hình của bạn để có trải nghiệm phong phú hơn.[Đọc thêm](./triangulate-mesh/)
 
 Bắt tay vào hành trình thú vị này của hướng dẫn Aspose.3D cho .NET và nâng cao chuyên môn đồ họa 3D của bạn. Đi sâu vào từng hướng dẫn, làm theo các bước và xem kỹ năng của bạn nâng lên tầm cao mới. Chúc mừng mã hóa!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

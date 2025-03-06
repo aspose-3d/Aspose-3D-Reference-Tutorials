@@ -3,10 +3,16 @@ title: Menerapkan Efek Lensa Fisheye dengan Aspose.3D untuk .NET
 linktitle: Menerapkan Efek Lensa Mata Ikan pada Pemandangan 3D
 second_title: Aspose.3D .NET API
 description: Sempurnakan adegan 3D Anda dengan Aspose.3D untuk .NET! Pelajari cara menerapkan efek lensa mata ikan yang menawan langkah demi langkah. Unduh sekarang!
-type: docs
 weight: 12
 url: /id/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Efek Lensa Fisheye dengan Aspose.3D untuk .NET
+
 ## Perkenalan
 Apakah Anda ingin meningkatkan daya tarik visual adegan 3D Anda? Selami dunia efek lensa fisheye yang menakjubkan dengan Aspose.3D untuk .NET. Tutorial ini akan memandu Anda langkah demi langkah tentang cara menerapkan efek lensa mata ikan pada pemandangan 3D Anda, sehingga memberikan perspektif yang unik dan menawan.
 ## Prasyarat
@@ -77,3 +83,9 @@ Anda dapat menyesuaikan properti lampu, seperti posisi, jenis, dan warna, untuk 
 Ukuran adegan 3D terutama dibatasi oleh sumber daya sistem. Pastikan perangkat keras Anda dapat menangani ukuran pemandangan Anda.
 ### Bisakah saya menggunakan format keluaran lain selain PNG untuk hasil efek mata ikan?
 Ya, Anda dapat memodifikasi kode untuk menyimpan keluaran dalam format gambar berbeda berdasarkan kebutuhan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

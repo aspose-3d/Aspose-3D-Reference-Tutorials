@@ -3,10 +3,16 @@ title: 類似 XPath 的物件查詢
 linktitle: 類似 XPath 的物件查詢
 second_title: Aspose.3D .NET API
 description: 釋放 Aspose.3D for .NET 的強大功能！使用類似 XPath 的查詢可無縫操作 3D 圖形。立即下載，享受改變遊戲規則的體驗。
-type: docs
 weight: 24
 url: /zh-hant/net/geometry-and-hierarchy/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 類似 XPath 的物件查詢
+
 ## 介紹
 踏上釋放 Aspose.3D for .NET 全部潛力的旅程，為 3D 圖形操作的可能性領域打開了大門。無論您是經驗豐富的開發人員還是新手，本指南都將引導您了解利用 Aspose.3D 功能的細微差別。
 ## 先決條件
@@ -94,3 +100,9 @@ Aspose.3D 與 .NET Framework 2.0 及更高版本相容。
 參觀[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)以獲得社區支持。
 ### 與其他 .NET 3D 函式庫相比，Aspose.3D 具有哪些優勢？
 Aspose.3D提供了一套全面的功能，包括強大的物件查詢和強大的渲染功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

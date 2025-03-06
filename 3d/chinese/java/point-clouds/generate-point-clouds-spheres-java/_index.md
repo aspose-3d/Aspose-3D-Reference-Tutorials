@@ -3,10 +3,16 @@ title: 在 Java 中从球体生成点云
 linktitle: 在 Java 中从球体生成点云
 second_title: Aspose.3D Java API
 description: 使用 Java 中的 Aspose.3D 探索 3D 图形的世界。通过这个易于理解的教程学习从球体生成点云。
-type: docs
 weight: 14
 url: /zh/java/point-clouds/generate-point-clouds-spheres-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中从球体生成点云
+
 ## 介绍
 
 欢迎阅读本分步指南，了解如何使用 Aspose.3D 在 Java 中从球体生成点云。如果您渴望深入 3D 图形的迷人世界并想要创建令人惊叹的可视化效果，那么您来对地方了。本教程将引导您完成整个过程，即使是初学者也能轻松掌握。
@@ -90,3 +96,10 @@ FileFormat.DRACO.encode(sphere, "Your Document Directory" + "sphere.drc", opt);
 ### Q5：在哪里可以找到文档？
 
  A5: 参见详细[Aspose.3D Java 文档](https://reference.aspose.com/3d/java/)以获得全面的信息。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

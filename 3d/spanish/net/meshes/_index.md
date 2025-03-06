@@ -3,10 +3,16 @@ title: Mallas
 linktitle: Mallas
 second_title: Aspose.3D API .NET
 description: Descubra los secretos de Aspose.3D para .NET con nuestros completos tutoriales. Optimice modelos 3D, convierta primitivos en mallas y mejore los gráficos sin esfuerzo.
-type: docs
 weight: 26
 url: /es/net/meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mallas
+
 ## Introducción
 
 Aspose.3D para .NET abre un mundo de posibilidades para los desarrolladores que buscan sumergirse en las complejidades de las mallas 3D. En este artículo, lo guiaremos a través de varios tutoriales sobre mallas, cada uno de los cuales ofrece una perspectiva única sobre cómo aprovechar todo el potencial de Aspose.3D para .NET.
@@ -69,3 +75,9 @@ Domina el arte de dividir mallas 3D por material con Aspose.3D para .NET. Mejore
 [Lea el tutorial: Dividir malla por material](./split-mesh-by-material/)
 
 En conclusión, nuestros tutoriales de Aspose.3D para .NET ofrecen una guía completa para dominar varios aspectos del modelado 3D. ¡Sumérgete, mejora tus habilidades y mejora tu juego de desarrollo 3D!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

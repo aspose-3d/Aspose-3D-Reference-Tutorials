@@ -3,10 +3,16 @@ title: Stosowanie efektów wizualnych w rzutniach 3D
 linktitle: Stosowanie efektów wizualnych w rzutniach 3D
 second_title: Aspose.3D API .NET
 description: Poznaj świat wizualizacji 3D dzięki Aspose.3D dla .NET. Naucz się stosować urzekające efekty wizualne do swoich scen, korzystając z samouczków krok po kroku. Ulepsz swoje projekty dzięki pikselacji, skali szarości, wykrywaniu krawędzi i efektom rozmycia.
-type: docs
 weight: 10
 url: /pl/net/rendering/apply-visual-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stosowanie efektów wizualnych w rzutniach 3D
+
 ## Wstęp
 
 Poprawa atrakcyjności wizualnej scen 3D jest kluczowym aspektem tworzenia wciągających wrażeń. Aspose.3D dla .NET zapewnia potężny zestaw narzędzi do stosowania efektów wizualnych w rzutniach 3D. W tym samouczku omówimy proces stosowania różnych efektów do sceny 3D, w tym pikselizacji, skali szarości, wykrywania krawędzi i rozmycia.
@@ -179,3 +185,9 @@ O4: Aspose.3D zapewnia wiele wbudowanych efektów przetwarzania końcowego, a za
 ### P5: Czy mogę używać Aspose.3D w projektach komercyjnych?
 
  O5: Tak, możesz używać Aspose.3D do celów komercyjnych. Patrz[strona zakupu](https://purchase.aspose.com/buy) w celu uzyskania szczegółów licencji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

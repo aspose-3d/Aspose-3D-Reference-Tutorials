@@ -3,10 +3,16 @@ title: Ukládání 3D scény do souboru FBX
 linktitle: Ukládání 3D scény do souboru FBX
 second_title: Aspose.3D .NET API
 description: Prozkoumejte sílu Aspose.3D pro .NET. všestranná knihovna pro bezproblémovou manipulaci s 3D scénou. Nakládejte, ukládejte a komprimujte bez námahy.
-type: docs
 weight: 20
 url: /cs/net/loading-and-saving/fbx/save-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ukládání 3D scény do souboru FBX
+
 ## Úvod
 
 Vítejte na vzrušující cestě do říše manipulace s 3D scénou pomocí Aspose.3D pro .NET! Ať už jste zkušený vývojář nebo zvědavý nadšenec, tento tutoriál vás provede procesem načítání, ukládání a komprese 3D scén bez námahy.
@@ -104,3 +110,9 @@ A2: Rozhodně! Aspose.3D se hladce integruje s ostatními knihovnami .NET a roz�
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.3D?
 
  A5: Ano, prozkoumejte funkce Aspose.3D tím, že uchopíte svůj[zkušební verze zdarma](https://releases.aspose.com/) dnes!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

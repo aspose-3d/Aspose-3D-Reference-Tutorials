@@ -3,10 +3,16 @@ title: Java에서 정확한 3D 장면 위치 지정을 위해 평면 방향 수�
 linktitle: Java에서 정확한 3D 장면 위치 지정을 위해 평면 방향 수정
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java에서 3D 장면 위치 지정을 향상하세요. 정밀도를 위해 평면 방향을 수정합니다. 매혹적인 시각적 경험을 위해 지금 다운로드하십시오.
-type: docs
 weight: 10
 url: /ko/java/3d-scenes-and-models/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 정확한 3D 장면 위치 지정을 위해 평면 방향 수정
+
 ## 소개
 
 Aspose.3D를 사용하여 Java에서 3D 장면 위치 지정을 향상시키는 단계별 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 정확한 3D 장면 배치를 위해 평면 방향을 수정하는 방법을 자세히 살펴보고 시각적으로 훌륭하고 정확하게 배치된 장면을 만들 수 있도록 지원합니다.
@@ -114,3 +120,9 @@ A1: 예, Aspose.3D는 Java, .NET 등을 포함한 다양한 프로그래밍 언�
 ### Q5: 임시 라이센스 옵션이 있습니까?
 
  A5: 예, 임시 라이센스가 필요한 경우 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

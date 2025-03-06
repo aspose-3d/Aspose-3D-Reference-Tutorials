@@ -3,10 +3,16 @@ title: Поддержка Google Драко
 linktitle: Поддержка Google Драко
 second_title: Aspose.3D .NET API
 description: Aspose.3D легко интегрируется с Google Draco для эффективного сжатия и распаковки 3D-моделей, оптимизации размеров файлов и повышения производительности.
-type: docs
 weight: 27
 url: /ru/net/loading-and-saving/draco
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поддержка Google Драко
+
 ## Введение
 
 В этой серии руководств мы рассмотрим тонкости поддержки Google Draco в Aspose.3D, открывая мир творческих возможностей.
@@ -29,3 +35,9 @@ Aspose.3D позволяет кодировать 3D-сетки в формат 
 Отправьтесь в путешествие безграничных возможностей с Aspose.3D для .NET. Независимо от того, являетесь ли вы новичком или опытным разработчиком, наши руководства подходят для всех уровней навыков. Преобразуйте свой опыт 3D-моделирования — исследуйте, создавайте и внедряйте инновации с помощью Aspose.3D для .NET.
 
 Готовы улучшить свои навыки 3D-моделирования? Начните изучать обучающие материалы. Раскройте весь потенциал Aspose.3D для .NET и создавайте свои 3D-шедевры без особых усилий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

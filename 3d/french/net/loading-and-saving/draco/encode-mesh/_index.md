@@ -3,10 +3,16 @@ title: Encodage du maillage 3D au format Google Draco
 linktitle: Encodage d'un maillage 3D dans Draco
 second_title: API Aspose.3D .NET
 description: Découvrez l'encodage simple de maillage 3D au format Google Draco à l'aide d'Aspose.3D pour .NET. Suivez notre guide étape par étape. Efficace, puissant et convivial pour les développeurs !
-type: docs
 weight: 19
 url: /fr/net/loading-and-saving/draco/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Encodage du maillage 3D au format Google Draco
+
 ## Introduction
 Si vous plongez dans le monde des graphiques 3D et souhaitez compresser efficacement vos données de maillage 3D, ne cherchez pas plus loin. Dans ce didacticiel, nous vous guiderons tout au long du processus d'encodage d'un maillage 3D au format Google Draco à l'aide d'Aspose.3D pour .NET. Cette puissante bibliothèque permet aux développeurs de travailler de manière transparente avec les formats de fichiers 3D et d'effectuer diverses opérations, notamment l'encodage de maillage.
 ## Conditions préalables
@@ -58,3 +64,9 @@ Aspose.3D est principalement conçu pour .NET, mais Aspose fournit des biblioth�
 Une licence temporaire vous permet d'évaluer la version complète d'Aspose.3D pour une durée limitée.
 ### Où puis-je trouver une documentation détaillée pour Aspose.3D pour .NET ?
  Se référer au[Documentation](https://reference.aspose.com/3d/net/) pour des informations complètes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

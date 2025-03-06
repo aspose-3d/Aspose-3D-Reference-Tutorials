@@ -3,10 +3,16 @@ title: Enregistrez des scènes 3D dans différents formats avec Aspose.3D pour J
 linktitle: Enregistrez des scènes 3D dans différents formats avec Aspose.3D pour Java
 second_title: API Java Aspose.3D
 description: Explorez le monde transparent de la manipulation de scènes 3D en Java avec Aspose.3D. Apprenez à enregistrer des scènes dans différents formats sans effort.
-type: docs
 weight: 15
 url: /fr/java/load-and-save/save-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrez des scènes 3D dans différents formats avec Aspose.3D pour Java
+
 ## Introduction
 
 Créer et manipuler des scènes 3D est un aspect fascinant de la programmation, et avec la puissante bibliothèque Aspose.3D pour Java, cette tâche devient encore plus passionnante et efficace. Dans ce didacticiel, nous vous guiderons tout au long du processus d'enregistrement de scènes 3D dans différents formats à l'aide d'Aspose.3D pour Java. Que vous soyez un développeur chevronné ou débutant, ce guide étape par étape vous aidera à exploiter les capacités d'Aspose.3D pour améliorer vos applications Java.
@@ -103,3 +109,9 @@ A3 : Se référer à la documentation[ici](https://reference.aspose.com/3d/java
 ### Q5 : Puis-je acheter une licence temporaire ?
 
  A5 : Oui, vous pouvez acheter une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

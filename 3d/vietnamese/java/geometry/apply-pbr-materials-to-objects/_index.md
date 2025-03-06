@@ -3,10 +3,16 @@ title: Áp dụng Vật liệu PBR cho Đối tượng 3D trong Java với Aspos
 linktitle: Áp dụng Vật liệu PBR cho Đối tượng 3D trong Java với Aspose.3D
 second_title: API Java Aspose.3D
 description: Tìm hiểu cách áp dụng vật liệu PBR thực tế cho các đối tượng 3D trong Java bằng Aspose.3D. Nâng cao chất lượng hình ảnh với Kết xuất dựa trên vật lý.
-type: docs
 weight: 10
 url: /vi/java/geometry/apply-pbr-materials-to-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Vật liệu PBR cho Đối tượng 3D trong Java với Aspose.3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách áp dụng vật liệu Kết xuất dựa trên vật lý (PBR) cho các đối tượng 3D trong Java bằng Aspose.3D. Aspose.3D là một thư viện Java mạnh mẽ cung cấp chức năng toàn diện để làm việc với các mô hình và cảnh 3D. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc áp dụng các vật liệu PBR, mô phỏng các đặc tính bề mặt và ánh sáng trong thế giới thực, nâng cao tính chân thực của các vật thể 3D của bạn.
@@ -102,3 +108,9 @@ Chúc mừng! Bạn đã áp dụng thành công vật liệu PBR cho đối tư
 ### Câu hỏi 5: Làm cách nào để có được giấy phép thử nghiệm tạm thời?
 
  A5: Thăm quan[liên kết này](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

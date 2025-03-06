@@ -3,10 +3,16 @@ title: 삼각측량 메쉬
 linktitle: 삼각측량 메쉬
 second_title: Aspose.3D .NET API
 description: 이 단계별 가이드에서 .NET용 Aspose.3D의 강력한 기능을 살펴보세요. 향상된 모델링을 위해 3D 메시를 손쉽게 삼각측량하는 방법을 알아보세요.
-type: docs
 weight: 22
 url: /ko/net/geometry-and-hierarchy/triangulate-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 삼각측량 메쉬
+
 ## 소개
 
 .NET용 Aspose.3D를 사용하여 3D 장면에서 메쉬 삼각측량에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.3D는 .NET 개발자가 3D 파일을 원활하게 작업할 수 있도록 지원하고 3D 모델 생성, 조작 및 변환을 위한 광범위한 기능을 제공하는 강력한 라이브러리입니다.
@@ -102,3 +108,10 @@ A2: 물론이죠. Aspose.3D는 데스크탑과 웹 애플리케이션 모두에 
 ### Q5: 구매하기 전에 Aspose.3D를 무료로 사용해 볼 수 있나요?
 
  A5: 물론이죠! 무료 평가판을 다운로드할 수 있습니다[여기](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

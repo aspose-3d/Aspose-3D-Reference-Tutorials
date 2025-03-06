@@ -3,10 +3,16 @@ title: PLY प्रारूप में एन्कोडिंग मेष
 linktitle: PLY प्रारूप में एन्कोडिंग मेष
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D के साथ 3D प्रोग्रामिंग की दुनिया का अन्वेषण करें। मेश को आसानी से PLY फॉर्मेट में एन्कोड करना सीखें। अपने विकास खेल को उन्नत करें!
-type: docs
 weight: 13
 url: /hi/net/loading-and-saving/ply/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLY प्रारूप में एन्कोडिंग मेष
+
 ## परिचय
 3डी प्रोग्रामिंग के क्षेत्र में यात्रा शुरू करना रोमांचकारी और डराने वाला दोनों हो सकता है। एक डेवलपर के रूप में, आप 3डी ग्राफ़िक्स द्वारा प्रदान की जाने वाली संभावनाओं का पता लगाने के लिए उत्सुक हो सकते हैं। इस ट्यूटोरियल में, हम .NET के लिए Aspose.3D का उपयोग करके PLY प्रारूप में एक जाल को एन्कोड करने की आकर्षक प्रक्रिया के बारे में जानेंगे।
 ## आवश्यक शर्तें
@@ -56,3 +62,9 @@ FileFormat.PLY.Encode(sphere, "sphere.ply");
  Aspose.3D फोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/3d/18) समुदाय से जुड़ने और सहायता प्राप्त करने के लिए।
 ### 5. क्या Aspose.3D के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
  निश्चित रूप से! निःशुल्क परीक्षण के साथ Aspose.3D की क्षमताओं का अन्वेषण करें[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

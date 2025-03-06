@@ -3,10 +3,16 @@ title: حفظ المشهد ثلاثي الأبعاد في ملف FBX
 linktitle: حفظ المشهد ثلاثي الأبعاد في ملف FBX
 second_title: Aspose.3D.NET API
 description: اكتشف قوة Aspose.3D لـ .NET. مكتبة متعددة الاستخدامات للتعامل السلس مع المشهد ثلاثي الأبعاد. قم بالتحميل والحفظ والضغط بسهولة.
-type: docs
 weight: 20
 url: /ar/net/loading-and-saving/fbx/save-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ المشهد ثلاثي الأبعاد في ملف FBX
+
 ## مقدمة
 
 مرحبًا بك في رحلة مثيرة إلى عالم معالجة المشهد ثلاثي الأبعاد باستخدام Aspose.3D لـ .NET! سواء كنت مطورًا متمرسًا أو متحمسًا للفضول، سيرشدك هذا البرنامج التعليمي خلال عملية تحميل المشاهد ثلاثية الأبعاد وحفظها وضغطها دون عناء.
@@ -104,3 +110,9 @@ scene.Save("UncompressedDocument.fbx", new FbxSaveOptions(FileFormat.FBX7500ASCI
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.3D؟
 
  ج5: نعم، استكشف ميزات Aspose.3D من خلال الحصول على ملف[تجربة مجانية](https://releases.aspose.com/) اليوم!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

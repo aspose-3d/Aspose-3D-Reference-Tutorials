@@ -3,10 +3,16 @@ title: Cube'da UV Kurulumu
 linktitle: Cube'da UV Kurulumu
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'i kullanarak 3 boyutlu bir küp üzerinde UV eşlemeyi ayarlamayı öğrenin. Hassas doku eşlemeyle görsel olarak etkileyici sahneler oluşturun.
-type: docs
 weight: 18
 url: /tr/net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cube'da UV Kurulumu
+
 ## giriiş
 
 Büyüleyici ve görsel olarak çekici 3D sahneler oluşturmak genellikle geometrik şekiller üzerinde UV haritalamanın ayarlanması gibi titiz bir süreci içerir. Bu eğitimde Aspose.3D for .NET kullanarak bir küp üzerinde UV'nin nasıl kurulacağını keşfedeceğiz. Aspose.3D, 3D modelleme ve manipülasyon için kapsamlı özellikler sağlayan güçlü bir .NET kütüphanesidir.
@@ -119,3 +125,9 @@ Cevap1: Aspose.3D for .NET, .NET uygulamalarında 3D modelleme ve manipülasyon 
 ### S5: Geçici lisanslar mevcut mu?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

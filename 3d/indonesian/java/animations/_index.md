@@ -3,10 +3,16 @@ title: Bekerja dengan Animasi di Java
 linktitle: Bekerja dengan Animasi di Java
 second_title: Asumsikan.3D Java API
 description: Tingkatkan proyek Java 3D Anda dengan tutorial Aspose.3D! Pelajari cara menambahkan properti animasi dan menyiapkan kamera target dengan lancar untuk pengembangan 3D yang menawan.
-type: docs
 weight: 20
 url: /id/java/animations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Animasi di Java
+
 ## Perkenalan
 
 Selamat datang di Tutorial Aspose.3D untuk Java, tempat kita mempelajari dunia proyek 3D berbasis Java yang menarik. Dalam seri ini, kami fokus pada penguasaan animasi untuk menghadirkan kehidupan dan dinamisme pada kreasi Anda. Jadi, kencangkan sabuk pengaman Anda saat kami memulai perjalanan mendebarkan melalui dunia animasi 3D dengan Aspose.3D!
@@ -30,3 +36,9 @@ Benamkan diri Anda dalam Tutorial Aspose.3D untuk Java dan ubah proyek 3D Anda m
 Tingkatkan proyek 3D berbasis Java Anda dengan Aspose.3D. Ikuti tutorial kami untuk menambahkan properti animasi dengan lancar.
 ### [Siapkan Kamera Target untuk Animasi 3D di Java | Tutorial Aspose.3D](./set-up-target-camera/)
 Jelajahi animasi Java 3D dengan mudah dengan Aspose.3D. Ikuti tutorial kami untuk panduan langkah demi langkah. Unduh sekarang untuk perjalanan pengembangan 3D yang menawan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

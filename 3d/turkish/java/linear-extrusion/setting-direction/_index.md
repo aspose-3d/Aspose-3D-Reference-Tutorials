@@ -3,10 +3,16 @@ title: Aspose.3D for Java ile Doğrusal Ekstrüzyonda Yönü Ayarlama
 linktitle: Aspose.3D for Java ile Doğrusal Ekstrüzyonda Yönü Ayarlama
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java ile doğrusal ekstrüzyona hakim olun! Kusursuz 3D programlama için kılavuzumuzu takip edin. Büyüleyici bir deneyim için hemen indirin.
-type: docs
 weight: 12
 url: /tr/java/linear-extrusion/setting-direction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java ile Doğrusal Ekstrüzyonda Yönü Ayarlama
+
 ## giriiş
 
 Aspose.3D for Java kullanarak doğrusal ekstrüzyonda yön ayarlamaya ilişkin adım adım kılavuzumuza hoş geldiniz. Aspose.3D, geliştiricilerin 3D dosyalar ve sahnelerle sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir Java kütüphanesidir. Bu eğitimde, doğrusal ekstrüzyonda yön belirleme gibi özel bir göreve odaklanarak 3D programlamadaki yeterliliğinizi geliştireceğiz.
@@ -108,3 +114,9 @@ Cevap1: Aspose.3D, .NET ve Java dahil olmak üzere çeşitli programlama dilleri
 ### S5: Aspose.3D için geçici lisanslar mevcut mu?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

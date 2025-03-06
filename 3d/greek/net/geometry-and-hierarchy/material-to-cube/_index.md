@@ -3,10 +3,16 @@ title: Εφαρμογή υλικού στον κύβο
 linktitle: Εφαρμογή υλικού στον κύβο
 second_title: Aspose.3D .NET API
 description: Εξερευνήστε το Aspose.3D για .NET, την πύλη σας για απρόσκοπτη επεξεργασία τρισδιάστατων γραφικών. Εφαρμόστε υλικά χωρίς κόπο, βελτιώστε τον ρεαλισμό και αναβαθμίστε τα έργα σας.
-type: docs
 weight: 14
 url: /el/net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή υλικού στον κύβο
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον συναρπαστικό κόσμο της χειραγώγησης τρισδιάστατων γραφικών χρησιμοποιώντας το Aspose.3D για .NET! Σε αυτό το σεμινάριο, θα βουτήξουμε στη διαδικασία εφαρμογής υλικών σε έναν κύβο στις τρισδιάστατες σκηνές σας, προσθέτοντας ένα εντελώς νέο επίπεδο ρεαλισμού και οπτικής έλξης στις δημιουργίες σας.
@@ -136,3 +142,9 @@ A3: Ναι, το Aspose.3D παρέχει ολοκληρωμένη υποστή�
 ### Ε5: Πώς μπορώ να λάβω υποστήριξη για τυχόν ζητήματα ή απορίες;
 
  A5: Επισκεφθείτε το[Aspose.3D φόρουμ](https://forum.aspose.com/c/3d/18) να συνδεθείτε με την κοινότητα και να αναζητήσετε βοήθεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: العمل مع الأسطوانات في Aspose.3D لـ Java
 linktitle: العمل مع الأسطوانات في Aspose.3D لـ Java
 second_title: Aspose.3D جافا API
 description: صمم نماذج ثلاثية الأبعاد مذهلة دون عناء باستخدام Aspose.3D لـ Java! تعلم كيفية إنشاء أسطوانات المروحة، والأسطوانات العلوية، والأسطوانات المقطوعة من الأسفل من خلال البرامج التعليمية.
-type: docs
 weight: 25
 url: /ar/java/cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع الأسطوانات في Aspose.3D لـ Java
+
 ## مقدمة
 
 هل أنت مستعد للارتقاء بمهاراتك في النمذجة ثلاثية الأبعاد إلى المستوى التالي؟ يفتح Aspose.3D for Java عالمًا من الإمكانيات، وفي هذا البرنامج التعليمي، سنرشدك عبر عالم آسر لإنشاء أسطوانات مخصصة. سواء كنت مطورًا متمرسًا أو مجرد دخول إلى عالم النمذجة ثلاثية الأبعاد، ستعمل هذه البرامج التعليمية على رفع مهاراتك وإضافة لمسة من التفرد إلى مشاريعك.
@@ -37,3 +43,9 @@ url: /ar/java/cylinders/
 اكتشف عجائب النمذجة ثلاثية الأبعاد في Java باستخدام Aspose.3D. تعلم كيفية إنشاء أسطوانات آسرة ذات أسطح متوازنة دون عناء.
 ### [إنشاء أسطوانات ذات قاع منفصل في Aspose.3D لـ Java](./creating-cylinders-with-sheared-bottom/)
 تعلم كيفية إنشاء أسطوانات مخصصة ذات قيعان مقطوعة باستخدام Aspose.3D لـ Java. ارفع مهاراتك في تصميم النماذج ثلاثية الأبعاد باستخدام هذا الدليل المفصّل خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

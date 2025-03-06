@@ -3,10 +3,16 @@ title: Generování dat pro 3D sítě v Javě (normální, tečné, binormální
 linktitle: Generování dat pro 3D sítě v Javě (normální, tečné, binormální)
 second_title: Aspose.3D Java API
 description: Vylepšete své Java projekty pomocí Aspose.3D. Postupujte podle našeho výukového programu a snadno vygenerujte normální data pro 3D sítě. Ponořte se s lehkostí do 3D grafiky.
-type: docs
 weight: 11
 url: /cs/java/3d-mesh-data/generate-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generování dat pro 3D sítě v Javě (normální, tečné, binormální)
+
 ## Úvod
 
 Vytváření a manipulace s daty 3D sítě v Javě může být náročný, ale vzrušující úkol, zejména při práci se soubory, které postrádají základní běžná data. Aspose.3D for Java přichází na pomoc a poskytuje výkonnou sadu nástrojů pro efektivní práci s 3D grafikou a sítěmi. V tomto tutoriálu vás provedeme procesem generování normálních dat pro 3D sítě pomocí Aspose.3D v Javě.
@@ -95,3 +101,9 @@ Odpověď 1: Ano, Aspose.3D podporuje různé formáty 3D souborů, což zajiš�
 ### Q5: Potřebujete pomoc nebo se chcete spojit s komunitou?
 
  A5: Navštivte fórum Aspose.3D[tady](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

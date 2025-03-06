@@ -3,10 +3,16 @@ title: Enregistrer la 3D au format PDF
 linktitle: Enregistrer la 3D au format PDF
 second_title: API Aspose.3D .NET
 description: Explorez Aspose.3D pour .NET. Votre bibliothèque incontournable pour une modélisation et un rendu 3D fluides. Enregistrez sans effort des modèles 3D au format PDF.
-type: docs
 weight: 19
 url: /fr/net/loading-and-saving/pdf/save-3d-in-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer la 3D au format PDF
+
 ## Introduction
 
 Bienvenue dans notre guide complet sur l'utilisation d'Aspose.3D pour .NET ! Dans ce didacticiel, nous vous guiderons à travers le processus de chargement et d'enregistrement de modèles 3D, en nous concentrant sur la tâche spécifique d'enregistrement d'un modèle 3D au format PDF. Aspose.3D pour .NET est une bibliothèque puissante qui fournit des outils efficaces pour travailler avec des fichiers 3D, ce qui en fait une ressource essentielle pour les développeurs et les passionnés du domaine.
@@ -98,3 +104,9 @@ A2 : Absolument ! Comme le montre le didacticiel, vous pouvez ajuster les modes 
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.3D pour .NET ?
 
  A5 : Pour obtenir un permis temporaire, visitez[ce lien](https://purchase.aspose.com/temporary-license/) et suivez les instructions fournies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

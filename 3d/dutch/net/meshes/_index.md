@@ -3,10 +3,16 @@ title: Meshes
 linktitle: Meshes
 second_title: Aspose.3D .NET-API
 description: Ontgrendel de geheimen van Aspose.3D voor .NET met onze uitgebreide tutorials. Optimaliseer 3D-modellen, converteer primitieven naar meshes en verbeter afbeeldingen moeiteloos.
-type: docs
 weight: 26
 url: /nl/net/meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Meshes
+
 ## Invoering
 
 Aspose.3D voor .NET opent een wereld van mogelijkheden voor ontwikkelaars die zich willen verdiepen in de fijne kneepjes van 3D-meshes. In dit artikel leiden we u door verschillende meshes-tutorials, die elk een uniek perspectief bieden op het benutten van het volledige potentieel van Aspose.3D voor .NET.
@@ -69,3 +75,9 @@ Beheers de kunst van het splitsen van 3D-mazen op materiaal met Aspose.3D voor .
 [Lees de tutorial: Mesh splitsen op materiaal](./split-mesh-by-material/)
 
 Kortom, onze Aspose.3D voor .NET-tutorials bieden een uitgebreide handleiding voor het beheersen van verschillende aspecten van 3D-modellering. Duik erin, verbeter je vaardigheden en til je 3D-ontwikkelspel naar een hoger niveau!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Irány beállítása a Lineáris extrudálásban az Aspose.3D for Java se
 linktitle: Irány beállítása a Lineáris extrudálásban az Aspose.3D for Java segítségével
 second_title: Aspose.3D Java API
 description: Master lineáris extrudálás Aspose.3D for Java! Kövesse útmutatónkat a zökkenőmentes 3D programozáshoz. Töltse le most a magával ragadó élményért.
-type: docs
 weight: 12
 url: /hu/java/linear-extrusion/setting-direction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Irány beállítása a Lineáris extrudálásban az Aspose.3D for Java segítségével
+
 ## Bevezetés
 
 Üdvözöljük lépésről lépésre szóló útmutatónkban a lineáris extrudálás irányának beállításához az Aspose.3D for Java használatával. Az Aspose.3D egy hatékony Java könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak 3D fájlokkal és jelenetekkel. Ebben az oktatóanyagban a lineáris extrudálás irányának meghatározásának konkrét feladatára fogunk összpontosítani, ezzel fejlesztve a 3D programozásban való jártasságot.
@@ -108,3 +114,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan állítson be irányt a lineáris ext
 ### 5. kérdés: Rendelkezésre állnak ideiglenes licencek az Aspose.3D számára?
 
  V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

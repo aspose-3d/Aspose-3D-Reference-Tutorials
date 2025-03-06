@@ -3,10 +3,16 @@ title: 创建原始 3D 模型
 linktitle: 创建原始 3D 模型
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 建模世界。轻松创建令人惊叹的原始模型。
-type: docs
 weight: 10
 url: /zh/net/3d-modeling/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 创建原始 3D 模型
+
 ## 介绍
 
 欢迎来到 Aspose.3D for .NET 的令人兴奋的 3D 建模世界！在这个综合教程中，我们将逐步探索使用 Aspose.3D 创建原始 3D 模型的过程。无论您是经验丰富的开发人员还是好奇的初学者，本指南都将帮助您利用 Aspose.3D 的强大功能为您的项目制作视觉上令人惊叹的 3D 元素。
@@ -108,3 +114,9 @@ A1：Aspose.3D 主要支持.NET，但还有其他版本可用于 Java 和其他�
 ### Q5: 有可用的示例教程吗？
 
  A5：是的，请探索更多教程和示例[文档](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

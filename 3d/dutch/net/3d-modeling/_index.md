@@ -3,10 +3,16 @@ title: Modellering
 linktitle: Modellering
 second_title: Aspose.3D .NET-API
 description: Ontdek de kunst van 3D-modellering met Aspose.3D voor .NET! Maak eenvoudig boeiende primitieve modellen in deze uitgebreide tutorial. Laat vandaag nog uw creativiteit de vrije loop.
-type: docs
 weight: 28
 url: /nl/net/3d-modeling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modellering
+
 
 ## Invoering
 
@@ -67,3 +73,9 @@ De schoonheid van 3D-modellering ligt in de vrijheid om uw creativiteit de vrije
 ## Tutorials voor 3D-modellering
 ### [Primitieve 3D-modellen maken](./primitive-3d-models/)
 Ontdek de wereld van 3D-modellering met Aspose.3D voor .NET. Creëer moeiteloos verbluffende primitieve modellen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Custom Save Options
 linktitle: Custom Save Options
 second_title: Aspose.3D .NET API
 description: Explore the power of Aspose.3D for .NET. Learn how to customize your 3D scene saving with step-by-step guides on Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC, and RVM formats.
-type: docs
 weight: 21
 url: /net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Custom Save Options
+
 ## Introduction
 
 Welcome to the world of Aspose.3D for .NET! If you're looking to enhance your 3D development capabilities, you're in the right place. In this tutorial, we'll dive into the Loading and Saving functionalities, specifically focusing on Custom Save Options. Aspose.3D for .NET is a powerful library that empowers developers to manipulate and save 3D scenes efficiently.
@@ -131,3 +137,10 @@ A4: Yes, you can access a free trial [here](https://releases.aspose.com/).
 ### Q5: How can I get a temporary license for Aspose.3D?
 
 A5: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

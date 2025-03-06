@@ -3,10 +3,16 @@ title: Создание облаков точек из сеток в Java
 linktitle: Создание облаков точек из сеток в Java
 second_title: Aspose.3D Java API
 description: Исследуйте мир 3D-моделирования на Java с помощью Aspose.3D. Научитесь легко создавать облака точек из сеток.
-type: docs
 weight: 12
 url: /ru/java/point-clouds/create-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание облаков точек из сеток в Java
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по созданию облаков точек из сеток в Java с использованием Aspose.3D. Aspose.3D — это мощная библиотека Java, предоставляющая обширные функциональные возможности для 3D-моделирования и манипулирования. В этом уроке мы проведем вас через процесс создания облаков точек из сеток, предложив четкие и подробные шаги для обеспечения бесперебойной работы.
@@ -83,3 +89,9 @@ FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
 ### В5: Где я могу найти документацию?
 
  A5: См.[документация](https://reference.aspose.com/3d/java/) для получения подробной информации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Élénkség
 linktitle: Élénkség
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D-s animáció világát az Aspose.3D for .NET oktatóanyagaival. Tanuljon meg könnyedén animálni a tulajdonságokat, és könnyedén beállítani célokat és kamerákat dinamikus jelenetekhez.
-type: docs
 weight: 30
 url: /hu/net/animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Élénkség
+
 ## Bevezetés
 
 Üdvözöljük a 3D-s animáció lenyűgöző birodalmában az Aspose.3D for .NET segítségével! Ebben az átfogó útmutatóban két alapvető oktatóanyagot fedezünk fel, amelyek segítségével lenyűgöző és dinamikus 3D-s jeleneteket hozhat létre. Induljunk együtt erre az izgalmas utazásra!
@@ -37,3 +43,9 @@ Készen állsz, hogy életet lehelj 3D alkotásaidba? Első oktatóanyagunk,[Tul
 Ismerje meg a 3D tulajdonságok animálását az Aspose.3D for .NET segítségével. Lépésről lépésre szóló útmutató dinamikus jelenetek létrehozásához.
 ### [Célpontok és kamerák beállítása animációhoz 3D-s jelenetekben](./setup-target-camera/)
 Fedezze fel a 3D-s animáció varázsát az Aspose.3D for .NET segítségével. Ezzel az átfogó oktatóanyaggal könnyedén beállíthat célpontokat és kamerákat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

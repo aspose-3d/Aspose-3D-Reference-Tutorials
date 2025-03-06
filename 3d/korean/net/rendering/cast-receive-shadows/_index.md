@@ -3,10 +3,16 @@ title: .NET용 Aspose.3D를 사용하여 3D 렌더링의 그림자 마스터하�
 linktitle: 그림자 투사 및 수신
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 렌더링의 세계를 탐험해보세요. 손쉽게 그림자를 투사하고 수신할 수 있습니다. 지금 무료 평가판을 다운로드하세요!
-type: docs
 weight: 10
 url: /ko/net/rendering/cast-receive-shadows/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.3D를 사용하여 3D 렌더링의 그림자 마스터하기
+
 ## 소개
 .NET용 Aspose.3D를 사용한 3D 렌더링의 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 사실적이고 시각적으로 놀라운 3D 장면을 만드는 데 중요한 측면인 그림자를 투사하고 받는 매혹적인 영역을 탐구합니다. 숙련된 개발자이거나 3D 그래픽에 대한 여정을 막 시작하는 경우에도 이 가이드는 Aspose.3D를 사용하여 렌더링 기능을 향상시키는 데 필요한 지식과 기술을 제공합니다.
 ## 전제 조건
@@ -69,3 +75,9 @@ A: 예, Aspose.3D는 광범위한 3D 파일 형식을 지원하므로 다양한 
  A: 예, 다음에서 지원을 찾고 커뮤니티에 참여할 수 있습니다.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18).
 ### Q: 구매하기 전에 Aspose.3D를 사용해 볼 수 있나요?
  답: 물론이죠! 무료 평가판으로 라이브러리를 탐색해 보세요.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Applicazione dell'effetto lente fisheye con Aspose.3D per .NET
 linktitle: Applicazione dell'effetto lente fisheye alla scena 3D
 second_title: API Aspose.3D .NET
 description: Migliora le tue scene 3D con Aspose.3D per .NET! Scopri come applicare un accattivante effetto lente fisheye passo dopo passo. Scarica ora!
-type: docs
 weight: 12
 url: /it/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applicazione dell'effetto lente fisheye con Aspose.3D per .NET
+
 ## introduzione
 Stai cercando di migliorare l'attrattiva visiva delle tue scene 3D? Immergiti nell'affascinante mondo degli effetti delle lenti fisheye con Aspose.3D per .NET. Questo tutorial ti guiderà passo dopo passo su come applicare un effetto lente fisheye alle tue scene 3D, donando loro una prospettiva unica e accattivante.
 ## Prerequisiti
@@ -77,3 +83,9 @@ Un campo visivo di 360 gradi garantisce una proiezione sferica completa, creando
 La dimensione della scena 3D è limitata principalmente dalle risorse di sistema. Assicurati che il tuo hardware sia in grado di gestire le dimensioni della scena.
 ### Posso utilizzare un formato di output diverso anziché PNG per il risultato dell'effetto fisheye?
 Sì, puoi modificare il codice per salvare l'output in diversi formati di immagine in base alle tue esigenze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

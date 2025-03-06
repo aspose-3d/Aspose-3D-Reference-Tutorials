@@ -3,10 +3,16 @@ title: Tömörítse a 3D Meshes-t a Google Draco segítségével Java nyelven
 linktitle: Tömörítse a 3D Meshes-t a Google Draco segítségével Java nyelven
 second_title: Aspose.3D Java API
 description: Optimalizálja 3D alkalmazásait az Aspose.3D segítségével. Ismerje meg, hogyan tömöríthet hálókat a Google Draco segítségével Java nyelven. Kövesse lépésről lépésre szóló útmutatónkat a hatékony 3D fejlesztés érdekében.
-type: docs
 weight: 10
 url: /hu/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tömörítse a 3D Meshes-t a Google Draco segítségével Java nyelven
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó útmutatóban a 3D hálók tömörítéséről a Google Draco segítségével Java nyelven az Aspose.3D használatával. Ebben az oktatóanyagban végigvezetjük a 3D hálók hatékony tömörítésének folyamatán, kihasználva az Aspose.3D erejét. Ha Ön egy fejlesztő, aki a hálóméretek minőségromlás nélküli csökkentésével szeretné továbbfejleszteni 3D alkalmazásait, akkor jó helyen jár.
@@ -100,3 +106,9 @@ Ebben az oktatóanyagban megvizsgáltuk a 3D hálók tömörítésének folyamat
 ### 5. kérdés: Létezik közösségi fórum az Aspose.3D támogatására?
 
  V5: Igen, közösségi támogatásért és beszélgetésekért látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

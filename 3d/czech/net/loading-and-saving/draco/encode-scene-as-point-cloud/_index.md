@@ -3,10 +3,16 @@ title: Kódování scény jako mrak bodů
 linktitle: Kódování scény jako mrak bodů
 second_title: Aspose.3D .NET API
 description: Prozkoumejte svět 3D modelování v .NET s Aspose.3D. Naučte se bez námahy kódovat koule do mračna bodů. Popusťte uzdu své kreativitě!
-type: docs
 weight: 14
 url: /cs/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kódování scény jako mrak bodů
+
 ## Úvod
 Vítejte v tomto komplexním průvodci kódováním koule jako mračna bodů pomocí Aspose.3D pro .NET. Aspose.3D je výkonná a všestranná knihovna, která umožňuje vývojářům bezproblémově pracovat s 3D modely v jejich aplikacích .NET. V tomto tutoriálu vás provedeme procesem kódování koule do mračna bodů pomocí Aspose.3D.
 ## Předpoklady
@@ -60,3 +66,9 @@ Ano, můžete prozkoumat Aspose.3D s bezplatnou zkušební verzí. Stáhnout to[
  Navštivte fórum Aspose.3D[tady](https://forum.aspose.com/c/3d/18) za podporu komunity a diskuze.
 ### Potřebuji pro testování dočasnou licenci?
  Ano, pokud testujete knihovnu, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

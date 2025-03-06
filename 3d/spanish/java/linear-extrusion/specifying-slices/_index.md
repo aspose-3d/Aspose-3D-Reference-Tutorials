@@ -3,10 +3,16 @@ title: Especificación de cortes en extrusión lineal con Aspose.3D para Java
 linktitle: Especificación de cortes en extrusión lineal con Aspose.3D para Java
 second_title: API de Java Aspose.3D
 description: Aprenda a especificar cortes en extrusión lineal usando Aspose.3D para Java. Mejore sus habilidades de modelado 3D con esta guía paso a paso.
-type: docs
 weight: 13
 url: /es/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Especificación de cortes en extrusión lineal con Aspose.3D para Java
+
 ## Introducción
 
 La creación de modelos 3D complejos a menudo requiere algo más que creatividad; exige una comprensión profunda de las herramientas a su disposición. Aspose.3D para Java cambia las reglas del juego en este sentido. En este tutorial, nos centraremos en un aspecto específico: especificar cortes en extrusión lineal.
@@ -93,3 +99,9 @@ scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### P5: ¿Puedo comprar una licencia temporal?
 
  R5: Sí, se puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

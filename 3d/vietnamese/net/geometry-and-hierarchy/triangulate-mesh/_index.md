@@ -3,10 +3,16 @@ title: Lưới tam giác
 linktitle: Lưới tam giác
 second_title: API Aspose.3D .NET
 description: Khám phá sức mạnh của Aspose.3D cho .NET trong hướng dẫn từng bước này. Tìm hiểu cách tạo tam giác lưới 3D một cách dễ dàng để tạo mô hình nâng cao.
-type: docs
 weight: 22
 url: /vi/net/geometry-and-hierarchy/triangulate-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưới tam giác
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách tạo lưới tam giác trong cảnh 3D bằng Aspose.3D cho .NET. Aspose.3D là một thư viện mạnh mẽ cho phép các nhà phát triển .NET làm việc liền mạch với các tệp 3D, cung cấp nhiều chức năng để tạo, thao tác và chuyển đổi mô hình 3D.
@@ -102,3 +108,10 @@ A2: Chắc chắn rồi. Aspose.3D có thể được tích hợp liền mạch 
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.3D miễn phí trước khi mua không?
 
  A5: Chắc chắn rồi! Bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

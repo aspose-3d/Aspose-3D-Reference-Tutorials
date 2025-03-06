@@ -3,10 +3,16 @@ title: Hiểu hệ thống phân cấp nút
 linktitle: Hiểu hệ thống phân cấp nút
 second_title: API Aspose.3D .NET
 description: Khai phá sức mạnh của Aspose.3D cho .NET! Đi sâu vào thao tác phân cấp nút với hướng dẫn từng bước này. Tạo cảnh 3D tuyệt đẹp một cách dễ dàng.
-type: docs
 weight: 16
 url: /vi/net/geometry-and-hierarchy/node-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiểu hệ thống phân cấp nút
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.3D cho .NET, một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các cảnh và mô hình 3D trong ứng dụng .NET của họ. Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc tìm hiểu hệ thống phân cấp nút trong cảnh 3D bằng cách sử dụng Aspose.3D. Đến cuối hướng dẫn này, bạn sẽ nắm vững cách thao tác cấu trúc của cảnh 3D thông qua các nút, cho phép bạn tạo ra trải nghiệm hình ảnh tuyệt đẹp.
@@ -129,3 +135,9 @@ A4: Chắc chắn rồi! Aspose.3D rất linh hoạt và có thể được tíc
 ### Câu hỏi 5: Sự khác biệt giữa giấy phép tạm thời và giấy phép đầy đủ là gì?
 
 Câu trả lời 5: Giấy phép tạm thời cung cấp quyền truy cập ngắn hạn cho mục đích đánh giá, trong khi giấy phép đầy đủ cung cấp quyền sử dụng không hạn chế.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إنشاء نماذج بدائية ثلاثية الأبعاد
 linktitle: إنشاء نماذج بدائية ثلاثية الأبعاد
 second_title: Aspose.3D.NET API
 description: استكشف عالم النمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. قم بإنشاء نماذج بدائية مذهلة دون عناء.
-type: docs
 weight: 10
 url: /ar/net/3d-modeling/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء نماذج بدائية ثلاثية الأبعاد
+
 ## مقدمة
 
 مرحبًا بك في عالم النمذجة ثلاثية الأبعاد المثير باستخدام Aspose.3D لـ .NET! في هذا البرنامج التعليمي الشامل، سوف نستكشف عملية إنشاء نماذج ثلاثية الأبعاد بدائية باستخدام Aspose.3D بطريقة خطوة بخطوة. سواء كنت مطورًا متمرسًا أو مبتدئًا فضوليًا، سيساعدك هذا الدليل على تسخير قوة Aspose.3D لصياغة عناصر ثلاثية الأبعاد مذهلة بصريًا لمشاريعك.
@@ -108,3 +114,9 @@ Console.WriteLine("\nBuilding a scene from primitive 3D models successfully.\nFi
 ### س5: هل هناك أي نماذج تعليمية متاحة؟
 
  ج5: نعم، اكتشف المزيد من البرامج التعليمية والأمثلة في[توثيق](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

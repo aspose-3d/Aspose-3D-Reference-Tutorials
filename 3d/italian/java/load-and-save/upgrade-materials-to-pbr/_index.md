@@ -3,10 +3,16 @@ title: Aggiorna i materiali 3D a PBR per un realismo migliorato in Java con Aspo
 linktitle: Aggiorna i materiali 3D a PBR per un realismo migliorato in Java con Aspose.3D
 second_title: API Java Aspose.3D
 description: Aggiorna facilmente i materiali 3D a PBR in Java con Aspose.3D. Ottieni un realismo migliorato per immagini accattivanti.
-type: docs
 weight: 13
 url: /it/java/load-and-save/upgrade-materials-to-pbr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiorna i materiali 3D a PBR per un realismo migliorato in Java con Aspose.3D
+
 ## introduzione
 
 L'aggiornamento dei tuoi materiali 3D a PBR rappresenta un passo fondamentale verso l'ottenimento di immagini realistiche nelle tue applicazioni Java. Aspose.3D semplifica questo processo, consentendoti di passare senza problemi dai materiali tradizionali ai materiali PBR. In questo tutorial esploreremo i prerequisiti necessari, importeremo i pacchetti e suddivideremo ogni esempio in passaggi dettagliati.
@@ -102,3 +108,9 @@ R3: Sì, puoi accedere a una prova gratuita[Qui](https://releases.aspose.com/).
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.3D?
 
  A5: Visita[questo link](https://purchase.aspose.com/temporary-license/) per informazioni sulla licenza temporanea.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

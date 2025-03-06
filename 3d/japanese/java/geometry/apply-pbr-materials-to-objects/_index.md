@@ -3,10 +3,16 @@ title: Aspose.3D を使用して Java の 3D オブジェクトに PBR マテリ
 linktitle: Aspose.3D を使用して Java の 3D オブジェクトに PBR マテリアルを適用する
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して、Java でリアルな PBR マテリアルを 3D オブジェクトに適用する方法を学びます。物理ベースのレンダリングで視覚的な品質を向上させます。
-type: docs
 weight: 10
 url: /ja/java/geometry/apply-pbr-materials-to-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D を使用して Java の 3D オブジェクトに PBR マテリアルを適用する
+
 ## 導入
 
 Aspose.3D を使用して Java の 3D オブジェクトに物理ベース レンダリング (PBR) マテリアルを適用するためのこのステップバイステップ ガイドへようこそ。 Aspose.3D は、3D モデルおよびシーンを操作するための包括的な機能を提供する強力な Java ライブラリです。このチュートリアルでは、現実世界の照明と表面のプロパティをシミュレートし、3D オブジェクトのリアリズムを高める PBR マテリアルの適用に焦点を当てます。
@@ -102,3 +108,9 @@ scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
 ### Q5: テスト用の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: 訪問[このリンク](https://purchase.aspose.com/temporary-license/)仮免許を取得するためです。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

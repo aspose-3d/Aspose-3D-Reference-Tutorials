@@ -3,10 +3,16 @@ title: Xoắn trong đùn tuyến tính
 linktitle: Xoắn trong đùn tuyến tính
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới đồ họa 3D quyến rũ với Aspose.3D cho .NET. Tìm hiểu từng bước Đùn tuyến tính với một vòng xoắn.
-type: docs
 weight: 14
 url: /vi/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xoắn trong đùn tuyến tính
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET không ngừng phát triển, việc khai thác sức mạnh của đồ họa 3D là một nỗ lực thú vị. Aspose.3D cho .NET nổi lên như một bộ công cụ có giá trị, trao quyền cho các nhà phát triển tạo ra các ứng dụng sống động và trực quan ấn tượng một cách liền mạch. Trong hướng dẫn toàn diện này, chúng ta sẽ đi sâu vào một tính năng hấp dẫn - Đùn tuyến tính với một vòng xoắn. Hướng dẫn này sẽ hướng dẫn bạn từng bước trong quy trình, mở khóa tiềm năng của Aspose.3D cho .NET.
@@ -118,3 +124,9 @@ A4: Chắc chắn rồi! Aspose.3D cung cấp một bộ tính năng phong phú.
 ### Câu hỏi 5: Có cộng đồng nào hỗ trợ và thảo luận về Aspose.3D không?
 
  Câu trả lời 5: Có, hãy tham gia cộng đồng Aspose.3D tại[Diễn đàn Aspose](https://forum.aspose.com/c/3d/18) để được hỗ trợ và thảo luận hấp dẫn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

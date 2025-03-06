@@ -3,10 +3,16 @@ title: Aspose.3D를 사용하여 Java에서 3D 개체에 법선 설정
 linktitle: Aspose.3D를 사용하여 Java에서 3D 개체에 법선 설정
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java에서 3D 개체에 법선을 설정하는 방법을 알아보세요. 이 포괄적인 튜토리얼을 통해 그래픽을 향상시키세요.
-type: docs
 weight: 17
 url: /ko/java/geometry/set-up-normals-on-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D를 사용하여 Java에서 3D 개체에 법선 설정
+
 ## 소개
 
 Aspose.3D를 사용하여 Java에서 3D 개체에 법선을 설정하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 숙련된 개발자이든 이제 막 3D 그래픽을 시작하는 사람이든 3D 모델에서 사실적인 조명 효과를 얻으려면 법선을 이해하고 조작하는 것이 중요합니다. 이 튜토리얼에서는 프로세스를 따라하기 쉬운 단계로 나누어 단계별로 안내합니다.
@@ -91,3 +97,9 @@ A1: 예, Aspose.3D는 포괄적인 솔루션을 위해 다른 Java 3D 라이브�
 ### Q5: 도움이 필요하거나 커뮤니티와 논의하고 싶으십니까?
 
  A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지원과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

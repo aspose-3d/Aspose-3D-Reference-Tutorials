@@ -3,10 +3,16 @@ title: Deel mesh-geometriegegevens in Java 3D met Aspose.3D
 linktitle: Deel mesh-geometriegegevens in Java 3D met Aspose.3D
 second_title: Aspose.3D Java-API
 description: Ontdek de wonderen van Java 3D met Aspose.3D. Leer in deze uitgebreide tutorial hoe u moeiteloos mesh-geometriegegevens kunt delen tussen knooppunten.
-type: docs
 weight: 15
 url: /nl/java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Deel mesh-geometriegegevens in Java 3D met Aspose.3D
+
 ## Invoering
 
 Als je met Aspose.3D op reis gaat naar het rijk van Java 3D, gaat er een wereld aan mogelijkheden open voor het creëren van verbluffende visualisaties en meeslepende ervaringen. In deze zelfstudie begeleiden we u bij het delen van mesh-geometriegegevens in Java 3D met behulp van Aspose.3D. Volg elke stap zorgvuldig en tegen het einde wisselt u naadloos mesh-gegevens uit tussen meerdere knooppunten.
@@ -117,3 +123,9 @@ A1: Ja, Aspose.3D is ontworpen om naadloos samen te werken met verschillende Jav
 ### V5: Hoe verkrijg ik een tijdelijke licentie voor Aspose.3D?
 
  A5: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

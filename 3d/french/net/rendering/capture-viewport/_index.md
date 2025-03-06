@@ -3,10 +3,16 @@ title: Capturer des fenêtres dans des scènes 3D
 linktitle: Capturer des fenêtres dans des scènes 3D
 second_title: API Aspose.3D .NET
 description: Apprenez à capturer de superbes fenêtres 3D à l'aide d'Aspose.3D pour .NET. Guide étape par étape pour rendre des scènes avec flexibilité.
-type: docs
 weight: 11
 url: /fr/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Capturer des fenêtres dans des scènes 3D
+
 ## Introduction
 
 Dans le domaine des graphiques et de la visualisation 3D, la capture de fenêtres est une compétence essentielle qui améliore la profondeur et les détails de vos scènes. Aspose.3D pour .NET fournit une solution robuste pour le rendu et la manipulation de scènes 3D. Ce didacticiel vous guidera tout au long du processus de capture de fenêtres dans des scènes 3D à l'aide d'Aspose.3D, vous permettant de créer facilement des visualisations époustouflantes.
@@ -124,3 +130,9 @@ A2 : Bien qu'Aspose.3D soit principalement conçu pour le graphisme et la visual
 ### Q5 : Comment puis-je demander de l'aide ou participer à la communauté ?
 
  A5 : Rejoignez la communauté Aspose.3D sur le[forum d'entraide](https://forum.aspose.com/c/3d/18) pour votre aide et votre collaboration.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

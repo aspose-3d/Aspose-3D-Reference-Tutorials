@@ -3,10 +3,16 @@ title: Creando un polígono en malla
 linktitle: Creando un polígono en malla
 second_title: Aspose.3D API .NET
 description: Explore el mundo del modelado 3D con Aspose.3D para .NET. Crea impresionantes polígonos en mallas sin esfuerzo. ¡Descárgalo ahora para disfrutar de una experiencia de desarrollo inmersiva!
-type: docs
 weight: 18
 url: /es/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creando un polígono en malla
+
 ## Introducción
 ¿Estás listo para sumergirte en el apasionante mundo del modelado 3D con Aspose.3D para .NET? Si eres un desarrollador que busca mejorar tus habilidades o un recién llegado interesado en crear impresionantes mallas 3D, estás en el lugar correcto. En este completo tutorial, lo guiaremos a través del proceso de creación de un polígono en una malla usando Aspose.3D.
 ## Requisitos previos
@@ -59,3 +65,9 @@ R: Aspose.3D para .NET está diseñado principalmente para entornos Windows. Sin
  R: Explora la extensa[documentación](https://reference.aspose.com/3d/net/) disponible para obtener información detallada.
 ### P: ¿Cómo compro Aspose.3D para .NET?
  R: Visita el[pagina de compra](https://purchase.aspose.com/buy) para adquirir su licencia y desbloquear todo el potencial de Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

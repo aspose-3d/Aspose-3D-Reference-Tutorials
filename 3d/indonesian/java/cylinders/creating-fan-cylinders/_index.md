@@ -3,10 +3,16 @@ title: Membuat Silinder Kipas yang Disesuaikan dengan Aspose.3D untuk Java
 linktitle: Membuat Silinder Kipas yang Disesuaikan dengan Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Pelajari cara membuat silinder kipas khusus di Java dengan Aspose.3D. Tingkatkan permainan pemodelan 3D Anda dengan mudah.
-type: docs
 weight: 10
 url: /id/java/cylinders/creating-fan-cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Silinder Kipas yang Disesuaikan dengan Aspose.3D untuk Java
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan pengalaman pemodelan 3D Anda dengan Aspose.3D untuk Java? Tutorial ini akan memandu Anda melalui proses pembuatan silinder kipas khusus menggunakan pustaka Aspose.3D yang kuat. Baik Anda seorang pengembang berpengalaman atau pemula, panduan langkah demi langkah ini akan membantu Anda mengeluarkan potensi penuh Aspose.3D di Java.
@@ -124,3 +130,9 @@ A2: Tentu saja! Aspose.3D menyediakan opsi penyesuaian yang luas, memungkinkan A
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
 
  A5: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk kebutuhan pengujian dan pengembangan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

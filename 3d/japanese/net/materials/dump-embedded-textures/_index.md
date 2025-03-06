@@ -3,10 +3,16 @@ title: 埋め込みテクスチャのダンプ
 linktitle: 埋め込みテクスチャのダンプ
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して、3D モデルに埋め込まれたテクスチャの秘密を解き明かしましょう。シームレスな統合のためのステップバイステップのガイドをご覧ください。今すぐ無料トライアルをダウンロードしてください!
-type: docs
 weight: 11
 url: /ja/net/materials/dump-embedded-textures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 埋め込みテクスチャのダンプ
+
 ## 導入
 Aspose.3D for .NET の世界へようこそ。これは、開発者が 3D ファイルをシームレスに操作および操作できるようにする強力なツールキットです。この包括的なチュートリアルでは、Aspose.3D を使用して埋め込みテクスチャをダンプするという興味深い領域を掘り下げていきます。埋め込まれたテクスチャの可能性を解き放ち、3D アプリケーションを強化したいと考えているなら、あなたは正しい場所にいます。
 ## 前提条件
@@ -71,3 +77,9 @@ A: Aspose.3D は主に .NET 言語をサポートしていますが、他の言�
  A: はい、一時ライセンスが利用可能です[ここ](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.3D の包括的なドキュメントはどこで見つけられますか?
  A: ドキュメントにはアクセスできます[ここ](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

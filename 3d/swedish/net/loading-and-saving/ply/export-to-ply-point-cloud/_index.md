@@ -3,10 +3,16 @@ title: Exporterar till PLY-format som Point Cloud
 linktitle: Exporterar till PLY-format som Point Cloud
 second_title: Aspose.3D .NET API
 description: Utforska världen av 3D-modellering med Aspose.3D för .NET. Lär dig att exportera modeller till PLY-format utan ansträngning. Lyft dina projekt med fantastiska bilder.
-type: docs
 weight: 16
 url: /sv/net/loading-and-saving/ply/export-to-ply-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporterar till PLY-format som Point Cloud
+
 ## Introduktion
 den dynamiska världen av 3D-modellering och utveckling framstår Aspose.3D för .NET som en kraftfull verktygslåda. Denna handledning guidar dig genom processen att exportera 3D-modeller till PLY-format som ett punktmoln med Aspose.3D för .NET. Om du är redo att förbättra dina projekt med fantastiska bilder, följ med och lås upp hela potentialen i detta mångsidiga bibliotek.
 ## Förutsättningar
@@ -59,3 +65,9 @@ Aspose.3D stöder olika .NET-ramverk, vilket säkerställer kompatibilitet över
  Ja, utforska funktionerna med en[gratis provperiod](https://releases.aspose.com/) innan du gör ett åtagande.
 ### 5. Hur får jag en tillfällig licens?
  För tillfälliga licensalternativ, besök[den här länken](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Generieren Sie UV-Koordinaten für die Texturzuordnung in Java-3D-Modelle
 linktitle: Generieren Sie UV-Koordinaten für die Texturzuordnung in Java-3D-Modellen
 second_title: Aspose.3D Java-API
 description: Erfahren Sie, wie Sie mit Aspose.3D UV-Koordinaten für Java-3D-Modelle generieren. Verbessern Sie die Texturzuordnung in Ihren Projekten mit dieser Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 11
 url: /de/java/polygon/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generieren Sie UV-Koordinaten für die Texturzuordnung in Java-3D-Modellen
+
 ## Einführung
 
 Willkommen zu unserer Schritt-für-Schritt-Anleitung zum Generieren von UV-Koordinaten für die Texturzuordnung in Java-3D-Modellen mit Aspose.3D. In diesem Tutorial führen wir Sie durch den Prozess der manuellen Generierung von UV-Koordinaten für ein Netz in einem 3D-Modell. Dies ist ein entscheidender Schritt bei der Texturzuordnung, der es Ihnen ermöglicht, die visuelle Attraktivität Ihrer 3D-Modelle zu verbessern.
@@ -120,3 +126,9 @@ A1: Aspose.3D wurde hauptsächlich für Java entwickelt, Aspose bietet jedoch Ve
 ### F5: Kann ich eine temporäre Lizenz für Aspose.3D erwerben?
 
  A5: Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

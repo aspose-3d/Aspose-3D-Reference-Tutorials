@@ -3,10 +3,16 @@ title: Ρύθμιση Normals σε τρισδιάστατα αντικείμεν
 linktitle: Ρύθμιση Normals σε τρισδιάστατα αντικείμενα σε Java με το Aspose.3D
 second_title: Aspose.3D Java API
 description: Μάθετε να ρυθμίζετε κανονικά σε τρισδιάστατα αντικείμενα σε Java με το Aspose.3D. Βελτιώστε τα γραφικά σας με αυτό το ολοκληρωμένο σεμινάριο.
-type: docs
 weight: 17
 url: /el/java/geometry/set-up-normals-on-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση Normals σε τρισδιάστατα αντικείμενα σε Java με το Aspose.3D
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για τη ρύθμιση κανονικών σε τρισδιάστατα αντικείμενα στην Java χρησιμοποιώντας το Aspose.3D. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε με τρισδιάστατα γραφικά, η κατανόηση και ο χειρισμός των κανονικών είναι ζωτικής σημασίας για την επίτευξη ρεαλιστικών εφέ φωτισμού στα τρισδιάστατα μοντέλα σας. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία, χωρίζοντάς την σε βήματα που μπορείτε να ακολουθήσετε εύκολα.
@@ -91,3 +97,9 @@ A1: Ναι, το Aspose.3D μπορεί να ενσωματωθεί με άλλ�
 ### Ε5: Χρειάζεστε βοήθεια ή θέλετε να συζητήσετε με την κοινότητα;
 
  A5: Επισκεφθείτε το[Aspose.3D φόρουμ](https://forum.aspose.com/c/3d/18) για υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

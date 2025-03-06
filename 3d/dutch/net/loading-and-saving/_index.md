@@ -3,10 +3,16 @@ title: Laden en opslaan
 linktitle: Laden en opslaan
 second_title: Aspose.3D .NET-API
 description: Verbeter uw 3D-modelleringsspel met Aspose.3D voor .NET! Beheers efficiënte laad- en bewaartechnieken met CancellationToken. Ontdek nu!
-type: docs
 weight: 27
 url: /nl/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Laden en opslaan
+
 ## Invoering
 
 Duik in de fascinerende wereld van 3D-modellering met Aspose.3D voor .NET, uw toegangspoort tot naadloze en efficiënte manipulatie van 3D-documenten. In deze tutorialserie onderzoeken we de fijne kneepjes van het laden en opslaan van 3D-modellen, waardoor een wereld van creatieve mogelijkheden wordt ontgrendeld.
@@ -105,3 +111,9 @@ Exporteer metagegevens zoals scène-eigenschappen, objectkenmerken en andere rel
 ### Laad ingebedde texturen van USDZ naar het geheugen
 
 Toegang tot ingebedde textuurgegevens in USDZ-bestanden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

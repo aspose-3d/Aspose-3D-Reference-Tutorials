@@ -3,10 +3,16 @@ title: Hiển thị các phép biến đổi hình học trong Java 3D với Asp
 linktitle: Hiển thị các phép biến đổi hình học trong Java 3D với Aspose.3D
 second_title: API Java Aspose.3D
 description: Làm chủ các phép biến đổi hình học 3D trong Java trở nên dễ dàng với Aspose.3D. Tìm hiểu cách thao tác các nút, áp dụng bản dịch và đánh giá các phép biến đổi toàn cầu.
-type: docs
 weight: 13
 url: /vi/java/geometry/expose-geometric-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị các phép biến đổi hình học trong Java 3D với Aspose.3D
+
 ## Giới thiệu
 
 Trong thế giới năng động của lập trình Java 3D, việc nắm vững các phép biến đổi hình học là một kỹ năng then chốt. Aspose.3D cho Java là một thư viện mạnh mẽ giúp các nhà phát triển có thể dễ dàng đi sâu vào sự phức tạp của mô hình 3D. Trong hướng dẫn này, chúng ta sẽ bắt đầu một hành trình khai sáng để trình bày và thao tác các phép biến đổi hình học bằng cách sử dụng Aspose.3D cho Java.
@@ -86,3 +92,9 @@ Câu trả lời 1: Aspose.3D tích hợp liền mạch với mọi môi trườ
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời để thử nghiệm Aspose.3D không?
 
  A5: Có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

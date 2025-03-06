@@ -3,10 +3,16 @@ title: Cảnh đọc có thuộc tính
 linktitle: Cảnh đọc có thuộc tính
 second_title: API Aspose.3D .NET
 description: Khai phá sức mạnh của mô hình 3D trong .NET với Aspose.3D. Tải, lưu và thao tác các cảnh một cách dễ dàng. Đi sâu vào thế giới của những khả năng vô hạn.
-type: docs
 weight: 18
 url: /vi/net/loading-and-saving/rvm/read-existing-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cảnh đọc có thuộc tính
+
 ## Giới thiệu
 
 Trong bối cảnh đồ họa và mô hình 3D không ngừng phát triển, Aspose.3D cho .NET nổi lên như một công cụ mạnh mẽ, cung cấp khả năng tích hợp liền mạch và chức năng mạnh mẽ cho các nhà phát triển. Hướng dẫn này sẽ hướng dẫn bạn qua quá trình đọc tệp RVM, đặc biệt tập trung vào việc đọc các thuộc tính bên ngoài của nó. Hãy thắt dây an toàn khi chúng ta bắt đầu hành trình khai thác các khả năng của Aspose.3D!
@@ -79,3 +85,9 @@ A4: You can acquire a temporary license [here](https://mua.aspose.com/temporary-
 ### Q5: Where can I purchase Aspose.3D for .NET?
 
 A5: Visit the [purchase page](https://buy.aspose.com/buy) để có được phiên bản đầy đủ của Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Transforme nodos 3D con matrices de transformación usando Aspose.3D
 linktitle: Transforme nodos 3D con matrices de transformación en Java usando Aspose.3D
 second_title: API de Java Aspose.3D
 description: Explora el mundo de los gráficos 3D en Java con Aspose.3D. Aprenda a transformar nodos sin esfuerzo utilizando matrices de transformación.
-type: docs
 weight: 21
 url: /es/java/geometry/transform-3d-nodes-with-matrices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transforme nodos 3D con matrices de transformación usando Aspose.3D
+
 ## Introducción
 
 Bienvenido a esta guía paso a paso sobre cómo transformar nodos 3D con matrices de transformación en Java usando Aspose.3D. Si eres un desarrollador de Java que busca mejorar tus habilidades de modelado y gráficos 3D, estás en el lugar correcto. En este tutorial, profundizaremos en el proceso de aplicar transformaciones a nodos 3D dentro del marco Aspose.3D.
@@ -119,3 +125,9 @@ R3: El tamaño de sus escenas 3D puede estar limitado por los recursos del siste
 ### P5: ¿Cómo obtengo una licencia temporal para Aspose.3D?
 
  R5: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Skapa 3D-modeller med linjär extrudering i Java
 linktitle: Skapa 3D-modeller med linjär extrudering i Java
 second_title: Aspose.3D Java API
 description: Utforska världen av 3D-modellering med Aspose.3D för Java. Bemästra linjär extrudering utan ansträngning. Kontrollcenter, ställ in riktning, ange skivor, applicera vridning och mer!
-type: docs
 weight: 23
 url: /sv/java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa 3D-modeller med linjär extrudering i Java
+
 ## Introduktion
 
 
@@ -62,3 +68,9 @@ Lär dig att specificera skivor i linjär extrudering med Aspose.3D för Java. �
 Lär dig hur du lägger till en twist till dina 3D-modeller med Aspose.3D för Java. Följ vår steg-för-steg-guide för förbättrade linjära extruderingseffekter.
 ### [Använda Twist Offset i linjär extrudering med Aspose.3D för Java](./using-twist-offset/)
 Förbättra dina färdigheter i 3D-modellering med Aspose.3D för Java. Lär dig att använda Twist Offset i linjär extrudering i denna omfattande handledning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

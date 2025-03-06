@@ -3,10 +3,16 @@ title: Java Tutorial - Create Polygons in 3D Meshes with Aspose.3D
 linktitle: Java Tutorial - Create Polygons in 3D Meshes with Aspose.3D
 second_title: Aspose.3D Java API
 description: Unlock the power of 3D graphics with Aspose.3D for Java. Create stunning polygons effortlessly. Download now for a seamless development experience.
-type: docs
 weight: 10
 url: /java/transforming-3d-meshes/create-polygons-in-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Tutorial - Create Polygons in 3D Meshes with Aspose.3D
+
 ## Introduction
 In the dynamic world of 3D graphics, the ability to create intricate and visually stunning objects is a fundamental skill for developers. Aspose.3D for Java provides a powerful toolkit that facilitates 3D mesh creation with ease. In this tutorial, we'll guide you through the process of creating polygons within 3D meshes using Aspose.3D for Java.
 ## Prerequisites
@@ -51,3 +57,10 @@ Aspose.3D is actively maintained and updated. Check the [documentation](https://
 Yes, you can explore the capabilities of Aspose.3D by accessing the [free trial](https://releases.aspose.com/).
 ### 5. Where can I seek support for Aspose.3D?
 For any queries or assistance, visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

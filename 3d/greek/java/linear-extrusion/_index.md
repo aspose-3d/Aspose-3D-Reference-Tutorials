@@ -3,10 +3,16 @@ title: Δημιουργία τρισδιάστατων μοντέλων με γ�
 linktitle: Δημιουργία τρισδιάστατων μοντέλων με γραμμική εξώθηση σε Java
 second_title: Aspose.3D Java API
 description: Εξερευνήστε τον κόσμο της τρισδιάστατης μοντελοποίησης με το Aspose.3D για Java. Κατακτήστε τη γραμμική εξώθηση χωρίς κόπο. Κέντρο ελέγχου, ορίστε την κατεύθυνση, καθορίστε φέτες, εφαρμόστε περιστροφή και πολλά άλλα!
-type: docs
 weight: 23
 url: /el/java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία τρισδιάστατων μοντέλων με γραμμική εξώθηση σε Java
+
 ## Εισαγωγή
 
 
@@ -62,3 +68,9 @@ url: /el/java/linear-extrusion/
 Μάθετε πώς μπορείτε να προσθέσετε μια ανατροπή στα τρισδιάστατα μοντέλα σας χρησιμοποιώντας το Aspose.3D για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για βελτιωμένα εφέ γραμμικής εξώθησης.
 ### [Χρήση Twist Offset σε Γραμμική Εξώθηση με Aspose.3D για Java](./using-twist-offset/)
 Βελτιώστε τις δεξιότητές σας στην τρισδιάστατη μοντελοποίηση με το Aspose.3D για Java. Μάθετε να χρησιμοποιείτε το Twist Offset στη Γραμμική Εξώθηση σε αυτό το ολοκληρωμένο σεμινάριο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

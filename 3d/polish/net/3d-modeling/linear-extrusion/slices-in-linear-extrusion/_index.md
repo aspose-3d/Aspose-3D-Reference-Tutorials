@@ -3,10 +3,16 @@ title: Plasterki w wytłaczaniu liniowym
 linktitle: Plasterki w wytłaczaniu liniowym
 second_title: Aspose.3D API .NET
 description: Poznaj świat projektowania 3D dzięki Aspose.3D dla .NET. Twórz wspaniałe modele, korzystając z naszego samouczka dotyczącego wytłaczania liniowego.
-type: docs
 weight: 13
 url: /pl/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Plasterki w wytłaczaniu liniowym
+
 ## Wstęp
 
 Witamy w świecie projektowania 3D przy użyciu Aspose.3D dla .NET! Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek poprowadzi Cię przez proces tworzenia oszałamiających wizualizacji 3D przy użyciu potężnej biblioteki Aspose.3D.
@@ -116,3 +122,9 @@ O1: Aspose.3D jest przeznaczony głównie dla .NET, ale możesz eksplorować opc
 ### P5: Czy mogę skorzystać z tymczasowej licencji na Aspose.3D dla .NET?
 
  Odpowiedź 5: Tak, uzyskaj licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

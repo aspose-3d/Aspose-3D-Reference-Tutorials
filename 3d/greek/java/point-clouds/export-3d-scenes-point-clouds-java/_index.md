@@ -3,10 +3,16 @@ title: Εξαγωγή τρισδιάστατων σκηνών ως σύννεφ�
 linktitle: Εξαγωγή τρισδιάστατων σκηνών ως σύννεφα σημείων με το Aspose.3D για Java
 second_title: Aspose.3D Java API
 description: Μάθετε πώς να εξάγετε τρισδιάστατες σκηνές ως σύννεφα σημείων σε Java με το Aspose.3D. Βελτιώστε τις εφαρμογές σας με ισχυρά τρισδιάστατα γραφικά και οπτικοποίηση.
-type: docs
 weight: 15
 url: /el/java/point-clouds/export-3d-scenes-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαγωγή τρισδιάστατων σκηνών ως σύννεφα σημείων με το Aspose.3D για Java
+
 ## Εισαγωγή
 
 Το Aspose.3D για Java διευκολύνει την εξαγωγή τρισδιάστατων σκηνών σε διάφορες μορφές, συμπεριλαμβανομένης της δημιουργίας σύννεφων σημείων. Τα σύννεφα σημείων είναι ζωτικής σημασίας σε διάφορους κλάδους, από τα παιχνίδια μέχρι την προσομοίωση, προσφέροντας μια αναπαράσταση ενός φυσικού χώρου μέσω μιας συλλογής σημείων σε ένα τρισδιάστατο σύστημα συντεταγμένων.
@@ -94,3 +100,9 @@ scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ### Ε5: Θέλετε να αγοράσετε το Aspose.3D για Java;
 
  A5: Εξερευνήστε τις επιλογές αγοράς[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

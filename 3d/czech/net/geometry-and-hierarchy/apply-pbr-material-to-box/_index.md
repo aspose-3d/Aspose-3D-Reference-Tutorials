@@ -3,10 +3,16 @@ title: Aplikace materiálu PBR na krabici
 linktitle: Aplikace materiálu PBR na krabici
 second_title: Aspose.3D .NET API
 description: Prozkoumejte svět 3D grafiky s Aspose.3D pro .NET. Vytvářejte pohlcující scény bez námahy pomocí fyzicky založených renderovacích materiálů.
-type: docs
 weight: 10
 url: /cs/net/geometry-and-hierarchy/apply-pbr-material-to-box/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplikace materiálu PBR na krabici
+
 ## Úvod
 
 Vítejte ve fascinujícím světě 3D grafiky! V tomto podrobném průvodci prozkoumáme výkonnou knihovnu Aspose.3D for .NET a naučíme se, jak vytvářet úžasné 3D scény pomocí materiálů PBR (Physically Based Rendering). Aspose.3D zjednodušuje komplexní proces 3D grafiky a otevírá říši možností pro vývojáře.
@@ -113,3 +119,9 @@ A2: Rozhodně! Aspose.3D poskytuje komerční licence pro bezproblémovou integr
 ### Q5: Jak získám dočasnou licenci pro Aspose.3D?
 
  A5: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro účely hodnocení.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

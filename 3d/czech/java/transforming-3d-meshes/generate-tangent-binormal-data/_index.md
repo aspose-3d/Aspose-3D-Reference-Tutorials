@@ -3,10 +3,16 @@ title: Generování tečných a binormálních dat pro 3D sítě v Javě
 linktitle: Generování tečných a binormálních dat pro 3D sítě v Javě
 second_title: Aspose.3D Java API
 description: Vylepšete svou 3D grafiku pomocí Aspose.3D for Java. Bez námahy generujte tečnou a binormální data. Vyzkoušejte bezplatnou zkušební verzi nyní!
-type: docs
 weight: 11
 url: /cs/java/transforming-3d-meshes/generate-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generování tečných a binormálních dat pro 3D sítě v Javě
+
 dynamickém světě 3D grafiky je pochopení a manipulace s tečnými a binormálními daty zásadní pro vytváření realistických a vizuálně přitažlivých modelů. Tento podrobný průvodce vás provede procesem generování tečných a binormálních dat pro 3D sítě pomocí Aspose.3D for Java. Jako zkušený autor SEO zajistím, že tento tutoriál bude nejen informativní, ale také optimalizovaný pro vyhledávače.
 ## Úvod
 Vytváření pohlcujících 3D zážitků často vyžaduje víc než jen modelování. Tangentní a binormální data hrají zásadní roli ve stínování a osvětlení, čímž zvyšují realističnost vašich 3D scén. S Aspose.3D for Java můžete tato data bez námahy generovat a posunout svou 3D grafiku na další úroveň.
@@ -56,3 +62,9 @@ Gratulujeme! Úspěšně jste vygenerovali tečnou a binormální data pro vaše
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde mohu zakoupit Aspose.3D?
  Můžete si koupit Aspose.3D[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

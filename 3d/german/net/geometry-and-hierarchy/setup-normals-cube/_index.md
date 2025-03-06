@@ -3,10 +3,16 @@ title: Normalen auf Cube einrichten
 linktitle: Normalen auf Cube einrichten
 second_title: Aspose.3D .NET API
 description: Erfahren Sie, wie Sie mit Aspose.3D für .NET Normalen auf einem 3D-Würfel einrichten. Verbessern Sie Ihre 3D-Modellierungsfähigkeiten mit dieser Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 17
 url: /de/net/geometry-and-hierarchy/setup-normals-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Normalen auf Cube einrichten
+
 ## Einführung
 
 Willkommen zu unserer Schritt-für-Schritt-Anleitung zum Einrichten von Normalen auf einem Würfel in 3D-Szenen mit Aspose.3D für .NET. Aspose.3D ist eine leistungsstarke Bibliothek, die .NET-Entwicklern die Arbeit mit 3D-Dateien ermöglicht und eine breite Palette von Funktionalitäten für die 3D-Modellierung und -Bearbeitung bereitstellt.
@@ -100,3 +106,9 @@ A2: Auf jeden Fall! Sie können eine kostenlose Testversion herunterladen unter[
 ### F5: Gibt es zusätzliche Ressourcen zum Erlernen von Aspose.3D?
 
  A5: Entdecken Sie das Umfangreiche[Dokumentation](https://reference.aspose.com/3d/net/) um weitere Funktionen und Tipps zu entdecken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

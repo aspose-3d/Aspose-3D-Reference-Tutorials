@@ -3,10 +3,16 @@ title: 在 Aspose.3D for Java 中创建具有剪切底部的圆柱体
 linktitle: 在 Aspose.3D for Java 中创建具有剪切底部的圆柱体
 second_title: Aspose.3D Java API
 description: 学习使用 Aspose.3D for Java 创建具有剪切底部的定制圆柱体。通过本分步指南提高您的 3D 建模技能。
-type: docs
 weight: 12
 url: /zh/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.3D for Java 中创建具有剪切底部的圆柱体
+
 ## 介绍
 
 欢迎阅读本分步指南，了解如何使用 Aspose.3D for Java 创建具有剪切底部的圆柱体。 Aspose.3D 是一个功能强大的 Java 库，可让您轻松处理 3D 文件。在本教程中，我们将深入创建具有剪切底部的定制圆柱体，为您提供使用 Aspose.3D 的实践经验，以增强您的 3D 建模技能。
@@ -100,3 +106,9 @@ A2：是的，Aspose.3D提供了用户友好的API，使其适合3D建模的初�
 ### Q5: 我可以购买 Aspose.3D for Java 吗？
 
  A5：是的，您可以购买Aspose.3D for Java[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

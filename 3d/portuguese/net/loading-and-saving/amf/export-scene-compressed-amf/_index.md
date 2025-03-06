@@ -3,10 +3,16 @@ title: Exportando cena 3D para formato AMF compactado
 linktitle: Exportando cena para AMF compactado
 second_title: API Aspose.3D .NET
 description: Aprenda como exportar cenas 3D para formato AMF compactado usando Aspose.3D for .NET. Aprimore suas habilidades de desenvolvimento com este guia passo a passo.
-type: docs
 weight: 11
 url: /pt/net/loading-and-saving/amf/export-scene-compressed-amf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportando cena 3D para formato AMF compactado
+
 ## Introdução
 
 No mundo dinâmico da modelagem e renderização 3D, eficiência e flexibilidade são fundamentais. Aspose.3D for .NET capacita os desenvolvedores a exportar perfeitamente cenas 3D para o formato compactado AMF (Additive Manufacturing File), garantindo o tamanho de arquivo ideal sem comprometer a qualidade. Este tutorial irá guiá-lo através do processo passo a passo, tornando mais fácil para iniciantes e desenvolvedores experientes aproveitar os recursos do Aspose.3D para .NET.
@@ -98,3 +104,9 @@ A4: Aspose.3D foi projetado para lidar com cenas de complexidade variada e não 
 ### P5: Onde posso encontrar suporte adicional e discussões na comunidade?
 
  A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para apoio e discussões.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

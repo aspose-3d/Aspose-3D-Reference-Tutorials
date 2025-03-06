@@ -3,10 +3,16 @@ title: Creazione di un poligono in mesh
 linktitle: Creazione di un poligono in mesh
 second_title: API Aspose.3D .NET
 description: Esplora il mondo della modellazione 3D con Aspose.3D per .NET. Crea straordinari poligoni in mesh senza sforzo. Scaricalo ora per un'esperienza di sviluppo coinvolgente!
-type: docs
 weight: 18
 url: /it/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creazione di un poligono in mesh
+
 ## introduzione
 Sei pronto per tuffarti nell'entusiasmante mondo della modellazione 3D con Aspose.3D per .NET? Se sei uno sviluppatore che desidera migliorare le proprie capacità o un nuovo arrivato interessato a creare straordinarie mesh 3D, sei nel posto giusto. In questo tutorial completo, ti guideremo attraverso il processo di creazione di un poligono in una mesh utilizzando Aspose.3D.
 ## Prerequisiti
@@ -59,3 +65,9 @@ R: Aspose.3D per .NET è progettato principalmente per ambienti Windows. Tuttavi
  A: Esplora l'ampio[documentazione](https://reference.aspose.com/3d/net/) a disposizione per approfondimenti.
 ### D: Come posso acquistare Aspose.3D per .NET?
  R: Visita il[pagina di acquisto](https://purchase.aspose.com/buy) per acquisire la tua licenza e sbloccare tutto il potenziale di Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

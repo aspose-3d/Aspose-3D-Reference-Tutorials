@@ -3,10 +3,16 @@ title: Ekspor Point Clouds ke Format PLY dengan Aspose.3D untuk Java
 linktitle: Ekspor Point Clouds ke Format PLY dengan Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Jelajahi kekuatan Aspose.3D untuk Java dalam mengekspor point cloud ke format PLY. Ikuti panduan langkah demi langkah kami untuk pengembangan 3D yang lancar.
-type: docs
 weight: 13
 url: /id/java/point-clouds/export-point-clouds-ply-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspor Point Clouds ke Format PLY dengan Aspose.3D untuk Java
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang mengekspor point cloud ke format PLY menggunakan Aspose.3D untuk Java. Aspose.3D adalah perpustakaan Java yang kuat yang memungkinkan pengembang untuk bekerja dengan file 3D, memberikan pengalaman yang lancar dalam mengelola dan memanipulasi berbagai format 3D. Dalam tutorial ini, kita akan fokus pada mengekspor point cloud ke format PLY, format file yang banyak digunakan untuk merepresentasikan data 3D.
@@ -81,3 +87,9 @@ A1: Aspose.3D terutama dirancang untuk Java, tetapi Aspose menyediakan perpustak
 ### Q5: Di mana saya bisa membeli Aspose.3D untuk Java?
 
  A5: Beli Aspose.3D untuk Java[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mengoptimalkan dan Bekerja dengan Data Mesh 3D di Java
 linktitle: Mengoptimalkan dan Bekerja dengan Data Mesh 3D di Java
 second_title: Asumsikan.3D Java API
 description: Optimalkan aplikasi 3D Anda dengan Aspose.3D untuk Java. Pelajari cara mengompresi mesh dengan Google Draco, menghasilkan data mesh, dan memproses mesh 3D secara efisien berdasarkan material.
-type: docs
 weight: 32
 url: /id/java/3d-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengoptimalkan dan Bekerja dengan Data Mesh 3D di Java
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan keterampilan pengembangan 3D Anda di Java? Selami dunia Aspose.3D, tempat kami memberikan Anda tutorial komprehensif tentang pengoptimalan dan bekerja dengan data mesh 3D. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini akan memberdayakan Anda untuk meningkatkan proyek Java Anda dengan mudah.
@@ -31,3 +37,9 @@ Optimalkan aplikasi 3D Anda dengan Aspose.3D. Pelajari cara mengompres jerat men
 Tingkatkan proyek Java Anda dengan Aspose.3D. Ikuti tutorial kami untuk dengan mudah menghasilkan data normal untuk jerat 3D. Selami grafik 3D dengan mudah.
 ### [Pisahkan Jerat 3D berdasarkan Bahan untuk Pemrosesan yang Efisien di Java](./split-meshes-by-material/)
 Jelajahi kekuatan Aspose.3D di Java dengan panduan langkah demi langkah kami dalam memisahkan mesh 3D secara efisien berdasarkan material. Tingkatkan kinerja aplikasi Anda dengan lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

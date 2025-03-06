@@ -3,10 +3,16 @@ title: Werken met 3D-scènes en modellen in Java
 linktitle: Werken met 3D-scènes en modellen in Java
 second_title: Aspose.3D Java-API
 description: Ontdek de kracht van Aspose.3D voor Java via onze tutorials. Verbeter de precisie, opslagefficiëntie en manipulatie van 3D-scènes in uw Java-toepassingen.
-type: docs
 weight: 29
 url: /nl/java/3d-scenes-and-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Werken met 3D-scènes en modellen in Java
+
 ## Invoering
 
 Bent u klaar om uw Java-applicaties naar nieuwe hoogten te tillen op het gebied van 3D-graphics en -modellering? Welkom bij onze uitgebreide Aspose.3D voor Java-tutorials! Ontketen het potentieel van 3D-scènepositionering, compressie, ophalen van informatie, mesh-besparing en naadloze manipulatie van eigendommen met stapsgewijze begeleiding.
@@ -43,3 +49,9 @@ Ontdek de wereld van 3D-scènemanipulatie in Java met Aspose.3D. Deze tutorial b
 Leer hoe u 3D-meshes in aangepaste binaire formaten kunt opslaan met Aspose.3D voor Java. Verbeter de flexibiliteit in Java-toepassingen met deze stapsgewijze zelfstudie.
 ### [Werk met 3D-eigenschappen en aangepaste gegevens in Java-scènes met behulp van Aspose.3D](./managing-3d-properties-scenes/)
 Verbeter uw Java-applicaties met Aspose.3D voor naadloze manipulatie van 3D-eigenschappen. Volg onze tutorial voor stapsgewijze begeleiding.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

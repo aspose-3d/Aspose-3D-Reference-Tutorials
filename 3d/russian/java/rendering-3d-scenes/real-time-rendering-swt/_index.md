@@ -3,10 +3,16 @@ title: Реализация 3D-рендеринга в реальном врем
 linktitle: Реализация 3D-рендеринга в реальном времени в приложениях Java с использованием SWT
 second_title: Aspose.3D Java API
 description: Исследуйте магию 3D-рендеринга в реальном времени на Java с помощью Aspose.3D. Создавайте визуально ошеломляющие приложения без особых усилий.
-type: docs
 weight: 14
 url: /ru/java/rendering-3d-scenes/real-time-rendering-swt/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Реализация 3D-рендеринга в реальном времени в приложениях Java с использованием SWT
+
 ## Введение
 
 Готовы ли вы поднять свои Java-приложения на новый уровень? В этом руководстве мы покажем вам реализацию 3D-рендеринга в реальном времени с использованием Aspose.3D для Java. Aspose.3D — это мощная библиотека, которая позволяет легко интегрировать потрясающую трехмерную графику в ваши Java-приложения. Пристегнитесь, и мы погрузимся в мир рендеринга в реальном времени с помощью Aspose.3D и SWT (Standard Widget Toolkit).
@@ -118,3 +124,9 @@ display.dispose();
 ### В5: Нужна помощь или есть конкретные вопросы?
 
  A5: Посетите[Форум сообщества Aspose.3D](https://forum.aspose.com/c/3d/18) за экспертную поддержку.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

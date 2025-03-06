@@ -3,10 +3,16 @@ title: Java-tutorial - Maak polygonen in 3D-mazen met Aspose.3D
 linktitle: Java-tutorial - Maak polygonen in 3D-mazen met Aspose.3D
 second_title: Aspose.3D Java-API
 description: Ontgrendel de kracht van 3D-graphics met Aspose.3D voor Java. Creëer moeiteloos verbluffende polygonen. Download nu voor een naadloze ontwikkelingservaring.
-type: docs
 weight: 10
 url: /nl/java/transforming-3d-meshes/create-polygons-in-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java-tutorial - Maak polygonen in 3D-mazen met Aspose.3D
+
 ## Invoering
 In de dynamische wereld van 3D-graphics is het vermogen om ingewikkelde en visueel verbluffende objecten te creëren een fundamentele vaardigheid voor ontwikkelaars. Aspose.3D voor Java biedt een krachtige toolkit waarmee u eenvoudig 3D-mesh-creaties kunt maken. In deze zelfstudie begeleiden we u bij het maken van polygonen binnen 3D-meshes met behulp van Aspose.3D voor Java.
 ## Vereisten
@@ -51,3 +57,9 @@ Ja, Aspose.3D biedt een scala aan functionaliteiten om ingewikkelde en gedetaill
  Ja, u kunt de mogelijkheden van Aspose.3D verkennen door naar de[gratis proefperiode](https://releases.aspose.com/).
 ### 5. Waar kan ik ondersteuning zoeken voor Aspose.3D?
  Voor vragen of hulp kunt u terecht op de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

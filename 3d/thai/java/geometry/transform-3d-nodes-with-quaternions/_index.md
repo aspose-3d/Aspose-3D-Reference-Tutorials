@@ -3,10 +3,16 @@ title: แปลงโหนด 3 มิติด้วย Quaternions ใน Ja
 linktitle: แปลงโหนด 3 มิติด้วย Quaternions ใน Java โดยใช้ Aspose.3D
 second_title: Aspose.3D จาวา API
 description: ปรับปรุงแอปพลิเคชัน Java ของคุณด้วย Aspose.3D เพื่อการแปลง 3D อันทรงพลัง เรียนรู้การแปลงโหนดโดยใช้ควอเทอร์เนียนในคำแนะนำทีละขั้นตอนนี้
-type: docs
 weight: 20
 url: /th/java/geometry/transform-3d-nodes-with-quaternions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แปลงโหนด 3 มิติด้วย Quaternions ใน Java โดยใช้ Aspose.3D
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนเกี่ยวกับการแปลงโหนด 3D ด้วยควอเทอร์เนียนใน Java โดยใช้ Aspose.3D หากคุณต้องการปรับปรุงแอปพลิเคชัน Java ของคุณด้วยการแปลง 3D อันทรงพลัง บทช่วยสอนนี้เหมาะสำหรับคุณ Aspose.3D สำหรับ Java มีชุดคุณลักษณะที่มีประสิทธิภาพสำหรับการทำงานกับกราฟิก 3D และในบทช่วยสอนนี้ เราจะเน้นที่การแปลงโหนด 3D โดยใช้ควอเทอร์เนียน
@@ -119,3 +125,9 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 ### คำถามที่ 5: ฉันจะซื้อ Aspose.3D สำหรับ Java ได้ที่ไหน
 
  A5: คุณสามารถซื้อได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

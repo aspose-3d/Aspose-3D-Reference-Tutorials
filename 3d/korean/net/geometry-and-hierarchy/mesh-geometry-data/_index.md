@@ -3,10 +3,16 @@ title: 메시 형상 데이터 작업
 linktitle: 메시 형상 데이터 작업
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 그래픽 프로그래밍 기술을 마스터하세요. 놀라운 3D 장면을 손쉽게 생성, 조작 및 저장하세요.
-type: docs
 weight: 15
 url: /ko/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 메시 형상 데이터 작업
+
 ## 소개
 
 .NET용 Aspose.3D를 사용하여 흥미로운 3D 그래픽 프로그래밍 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 .NET 개발자를 위한 강력하고 다재다능한 라이브러리인 Aspose.3D를 사용하여 3D 장면에서 메시 형상 데이터 작업의 복잡성을 자세히 살펴보겠습니다. 숙련된 프로그래머이든 이제 막 3D 그래픽을 시작하는 사람이든 이 단계별 가이드는 메시 형상 데이터를 쉽게 처리하는 기술을 익히는 데 도움이 될 것입니다.
@@ -126,3 +132,9 @@ A1: Aspose.3D는 기본적으로 .NET용으로 설계되었지만 다양한 플�
 ### Q5: 3D 장면 저장에 지원되는 파일 형식은 무엇입니까?
 
  A5: Aspose.3D는 FBX, STL 등을 포함한 다양한 파일 형식을 지원합니다. 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/3d/net/) 전체 목록을 보려면.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

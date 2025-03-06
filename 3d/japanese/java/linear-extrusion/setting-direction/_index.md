@@ -3,10 +3,16 @@ title: Aspose.3D for Java を使用した線形押し出しの方向の設定
 linktitle: Aspose.3D for Java を使用した線形押し出しの方向の設定
 second_title: Aspose.3D Java API
 description: Aspose.3D for Java で線形押し出しをマスターしましょう!シームレスな 3D プログラミングについてはガイドに従ってください。今すぐダウンロードして、魅力的な体験をお楽しみください。
-type: docs
 weight: 12
 url: /ja/java/linear-extrusion/setting-direction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java を使用した線形押し出しの方向の設定
+
 ## 導入
 
 Aspose.3D for Java を使用した線形押し出しの方向の設定に関するステップバイステップ ガイドへようこそ。 Aspose.3D は、開発者が 3D ファイルやシーンをシームレスに操作できるようにする強力な Java ライブラリです。このチュートリアルでは、線形押し出しの方向を設定する特定のタスクに焦点を当て、3D プログラミングの習熟度を高めます。
@@ -108,3 +114,9 @@ A1: Aspose.3D は、.NET や Java などのさまざまなプログラミング�
 ### Q5: Aspose.3D の一時ライセンスは利用できますか?
 
  A5: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

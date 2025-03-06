@@ -3,10 +3,16 @@ title: تطبيق مادة PBR على الصندوق
 linktitle: تطبيق مادة PBR على الصندوق
 second_title: Aspose.3D.NET API
 description: استكشف عالم الرسومات ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. قم بإنشاء مشاهد غامرة دون عناء باستخدام مواد العرض المادية.
-type: docs
 weight: 10
 url: /ar/net/geometry-and-hierarchy/apply-pbr-material-to-box/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق مادة PBR على الصندوق
+
 ## مقدمة
 
 مرحبًا بك في عالم الرسومات ثلاثية الأبعاد الرائع! في هذا الدليل التفصيلي، سنستكشف مكتبة Aspose.3D لـ .NET القوية ونتعلم كيفية إنشاء مشاهد ثلاثية الأبعاد مذهلة باستخدام مواد العرض الفعلي (PBR). يعمل Aspose.3D على تبسيط العملية المعقدة للرسومات ثلاثية الأبعاد ويفتح عالمًا من الإمكانيات للمطورين.
@@ -113,3 +119,9 @@ scene.Save("Your Output Directory" + "PBR_Material_Box_Out.stl", FileFormat.STLA
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟
 
  ج5: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

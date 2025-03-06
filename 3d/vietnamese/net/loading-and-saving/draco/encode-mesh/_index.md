@@ -3,10 +3,16 @@ title: Mã hóa lưới 3D ở định dạng Google Draco
 linktitle: Mã hóa lưới 3D trong Draco
 second_title: API Aspose.3D .NET
 description: Khám phá mã hóa lưới 3D dễ dàng ở định dạng Google Draco bằng Aspose.3D cho .NET. Thực hiện theo hướng dẫn từng bước của chúng tôi. Hiệu quả, mạnh mẽ và thân thiện với nhà phát triển!
-type: docs
 weight: 19
 url: /vi/net/loading-and-saving/draco/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mã hóa lưới 3D ở định dạng Google Draco
+
 ## Giới thiệu
 Nếu bạn đang đi sâu vào thế giới đồ họa 3D và muốn nén dữ liệu lưới 3D của mình một cách hiệu quả thì không cần tìm đâu xa. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình mã hóa lưới 3D sang định dạng Google Draco bằng Aspose.3D cho .NET. Thư viện mạnh mẽ này cho phép các nhà phát triển làm việc liền mạch với các định dạng tệp 3D và thực hiện nhiều thao tác khác nhau, bao gồm cả mã hóa lưới.
 ## Điều kiện tiên quyết
@@ -58,3 +64,9 @@ Aspose.3D được thiết kế chủ yếu cho .NET, nhưng Aspose cung cấp c
 Giấy phép tạm thời cho phép bạn đánh giá phiên bản đầy đủ của Aspose.3D trong một thời gian giới hạn.
 ### Tôi có thể tìm tài liệu chi tiết về Aspose.3D cho .NET ở đâu?
  Tham khảo đến[tài liệu](https://reference.aspose.com/3d/net/) để biết thông tin toàn diện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

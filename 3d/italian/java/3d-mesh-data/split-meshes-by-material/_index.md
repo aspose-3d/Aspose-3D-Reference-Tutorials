@@ -3,10 +3,16 @@ title: Dividi mesh 3D per materiale per un'elaborazione efficiente in Java
 linktitle: Dividi mesh 3D per materiale per un'elaborazione efficiente in Java
 second_title: API Java Aspose.3D
 description: Esplora la potenza di Aspose.3D in Java con la nostra guida passo passo sulla suddivisione efficiente delle mesh 3D in base al materiale. Migliora le prestazioni della tua applicazione senza problemi.
-type: docs
 weight: 12
 url: /it/java/3d-mesh-data/split-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dividi mesh 3D per materiale per un'elaborazione efficiente in Java
+
 ## introduzione
 
 Benvenuti in questo tutorial completo sulla suddivisione delle mesh 3D per materiale per un'elaborazione efficiente in Java utilizzando Aspose.3D. Se ti stai immergendo nel mondo della grafica 3D e hai bisogno di una potente libreria Java, Aspose.3D è la soluzione giusta. In questo tutorial ti guideremo attraverso il processo di gestione efficiente delle mesh 3D in base al materiale, ottimizzando la tua applicazione Java per prestazioni superiori.
@@ -104,3 +110,10 @@ A2: Assolutamente! Questo metodo si adatta bene ai modelli 3D complessi, ottimiz
 ### Q5: Come posso ottenere supporto per eventuali problemi o domande?
 
  A5: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per il supporto dedicato da parte della comunità.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

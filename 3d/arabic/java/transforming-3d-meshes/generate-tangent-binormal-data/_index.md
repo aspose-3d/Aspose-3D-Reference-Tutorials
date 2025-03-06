@@ -3,10 +3,16 @@ title: إنشاء بيانات الظل والثنائية الطبيعية لل
 linktitle: إنشاء بيانات الظل والثنائية الطبيعية للشبكات ثلاثية الأبعاد في Java
 second_title: Aspose.3D جافا API
 description: قم بتحسين رسوماتك ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. توليد بيانات الظل والثنائية دون عناء. جرب النسخة التجريبية المجانية الآن!
-type: docs
 weight: 11
 url: /ar/java/transforming-3d-meshes/generate-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء بيانات الظل والثنائية الطبيعية للشبكات ثلاثية الأبعاد في Java
+
 في العالم الديناميكي للرسومات ثلاثية الأبعاد، يعد فهم البيانات المماسية والثنائية الطبيعية ومعالجتها أمرًا بالغ الأهمية لإنشاء نماذج واقعية وجذابة بصريًا. سيرشدك هذا الدليل خطوة بخطوة خلال عملية إنشاء بيانات الظل والبيانات الثنائية للشبكات ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. باعتباري كاتبًا ماهرًا في مجال تحسين محركات البحث (SEO)، سأتأكد من أن هذا البرنامج التعليمي ليس مفيدًا فحسب، بل مُحسّن أيضًا لمحركات البحث.
 ## مقدمة
 غالبًا ما يتطلب إنشاء تجارب ثلاثية الأبعاد غامرة أكثر من مجرد تصميم النماذج. تلعب البيانات الظلية والثنائية الطبيعية دورًا حيويًا في التظليل والإضاءة، مما يعزز واقعية المشاهد ثلاثية الأبعاد. باستخدام Aspose.3D لـ Java، يمكنك إنشاء هذه البيانات بسهولة والارتقاء بالرسومات ثلاثية الأبعاد إلى المستوى التالي.
@@ -56,3 +62,9 @@ scene.save("BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII);
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء Aspose.3D؟
  يمكنك شراء Aspose.3D[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

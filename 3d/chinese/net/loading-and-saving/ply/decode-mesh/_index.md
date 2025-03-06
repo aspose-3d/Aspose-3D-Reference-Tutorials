@@ -3,10 +3,16 @@ title: 从 PLY 格式解码网格
 linktitle: 从 PLY 格式解码网格
 second_title: Aspose.3D .NET API
 description: 解开 3D 魔法的秘密！使用 Aspose.3D for .NET 轻松解码 PLY 格式的网格。将您的项目提升到新的维度。
-type: docs
 weight: 11
 url: /zh/net/loading-and-saving/ply/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 从 PLY 格式解码网格
+
 ## 介绍
 想象一下：您正在寻求为您的 3D 项目注入活力，添加一层额外的技巧，将平凡与非凡区分开来。但你从哪里开始呢？不要害怕，勇敢的开发者！欢迎来到 Aspose.3D for .NET 领域，在这里，创造力与功能和谐共舞。
 在不断发展的编程世界中，Aspose.3D 就像一座灯塔，提供了强大的工具包来增强您在三维魔法领域的 .NET 能力。在本教程中，我们将踏上使用 Aspose.3D 从 PLY 格式解码网格的旅程，揭开无缝 3D 集成的秘密。
@@ -57,3 +63,9 @@ Console.WriteLine($"Mesh Triangles: {mesh.Triangles.Count}");
 答：当然可以！抓住你的[免费试用](https://releases.aspose.com/)亲身体验 Aspose.3D 的魔力。
 ### 问：如何获得扩展测试的临时许可证？
 答：访问[这个链接](https://purchase.aspose.com/temporary-license/)以获得沉浸式试用体验的临时许可证。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

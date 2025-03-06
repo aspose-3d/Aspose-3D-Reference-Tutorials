@@ -3,10 +3,16 @@ title: Malha de decodificação
 linktitle: Malha de decodificação
 second_title: API Aspose.3D .NET
 description: Decode combina facilmente com Aspose.3D para .NET. Sua porta de entrada para programação 3D perfeita. Explore, personalize e eleve seus projetos.
-type: docs
 weight: 10
 url: /pt/net/loading-and-saving/draco/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Malha de decodificação
+
 ## Introdução
 Imagine isto: você está no domínio do desenvolvimento 3D, esforçando-se para decodificar estruturas de malha intrincadas. O desafio é real, mas não tema! Ao embarcarmos nesta jornada, navegaremos pelo labirinto da decodificação de malha usando Aspose.3D for .NET – seu companheiro confiável no mundo da programação 3D.
 ## Pré-requisitos
@@ -55,3 +61,9 @@ Absolutamente! Aspose.3D suporta uma ampla gama de formatos de malha, garantindo
  Certamente! Pegue o seu[teste grátis](https://releases.aspose.com/) experimentar as proezas do Aspose.3D antes de assumir qualquer compromisso.
 ### Precisa de uma licença temporária para um projeto de curto prazo?
  Dirigir a[Licença Temporária](https://purchase.aspose.com/temporary-license/) e adquira uma licença temporária adaptada às necessidades do seu projeto.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

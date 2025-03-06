@@ -3,10 +3,16 @@ title: Suporte PLY
 linktitle: Suporte PLY
 second_title: API Aspose.3D .NET
 description: Aspose.3D suporta perfeitamente o formato PLY, facilitando a importação e exportação suave de modelos 3D para casos de uso versáteis.
-type: docs
 weight: 27
 url: /pt/net/loading-and-saving/ply
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Suporte PLY
+
 ## Introdução
 
 Nesta série de tutoriais, exploraremos os meandros do suporte glTF no Aspose.3D, desbloqueando um mundo de possibilidades criativas.
@@ -30,3 +36,9 @@ Aspose.3D oferece a capacidade de codificar malhas como nuvens de pontos no form
 Embarque em uma jornada de possibilidades ilimitadas com Aspose.3D for .NET. Quer você seja um desenvolvedor novato ou experiente, nossos tutoriais atendem a todos os níveis de habilidade. Transforme sua experiência de modelagem 3D - explore, crie e inove com Aspose.3D for .NET.
 
 Pronto para aprimorar suas habilidades de modelagem 3D? Comece a explorar os tutoriais. Liberte todo o potencial do Aspose.3D for .NET e esculpa suas obras-primas 3D sem esforço.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

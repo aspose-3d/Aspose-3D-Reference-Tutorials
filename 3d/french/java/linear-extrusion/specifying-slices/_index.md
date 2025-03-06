@@ -3,10 +3,16 @@ title: Spécification de tranches dans l'extrusion linéaire avec Aspose.3D pour
 linktitle: Spécification de tranches dans l'extrusion linéaire avec Aspose.3D pour Java
 second_title: API Java Aspose.3D
 description: Apprenez à spécifier des tranches en extrusion linéaire à l'aide d'Aspose.3D pour Java. Améliorez vos compétences en modélisation 3D avec ce guide étape par étape.
-type: docs
 weight: 13
 url: /fr/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spécification de tranches dans l'extrusion linéaire avec Aspose.3D pour Java
+
 ## Introduction
 
 La création de modèles 3D complexes nécessite souvent plus que de la simple créativité ; cela nécessite une compréhension approfondie des outils à votre disposition. Aspose.3D pour Java change la donne à cet égard. Dans ce didacticiel, nous nous concentrerons sur un aspect spécifique : la spécification des tranches en extrusion linéaire.
@@ -93,3 +99,9 @@ Toutes nos félicitations! Vous avez appris avec succès comment spécifier des 
 ### Q5 : Puis-je acheter une licence temporaire ?
 
  A5 : Oui, une licence temporaire peut être obtenue[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

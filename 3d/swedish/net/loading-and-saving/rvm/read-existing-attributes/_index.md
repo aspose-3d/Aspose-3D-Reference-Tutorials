@@ -3,10 +3,16 @@ title: Lässcen med attribut
 linktitle: Lässcen med attribut
 second_title: Aspose.3D .NET API
 description: Lås upp kraften i 3D-modellering i .NET med Aspose.3D. Ladda, spara och manipulera scener utan ansträngning. Dyk in i en värld av gränslösa möjligheter.
-type: docs
 weight: 18
 url: /sv/net/loading-and-saving/rvm/read-existing-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lässcen med attribut
+
 ## Introduktion
 
 I det ständigt föränderliga landskapet av 3D-grafik och -modellering framstår Aspose.3D för .NET som ett kraftfullt verktyg som ger sömlös integration och robust funktionalitet för utvecklare. Den här handledningen guidar dig genom processen att läsa en RVM-fil, speciellt med fokus på att läsa dess externa attribut. Spänn fast när vi ger oss ut på en resa för att utnyttja kapaciteten hos Aspose.3D!
@@ -79,3 +85,9 @@ A4: You can acquire a temporary license [here](https://buy.aspose.com/temporary-
 ### Q5: Where can I purchase Aspose.3D for .NET?
 
 A5: Visit the [purchase page](https://buy.aspose.com/buy) för att förvärva den fullständiga versionen av Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

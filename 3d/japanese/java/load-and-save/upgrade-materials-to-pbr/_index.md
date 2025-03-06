@@ -3,10 +3,16 @@ title: Aspose.3D を使用して Java でのリアリズムを強化するため
 linktitle: Aspose.3D を使用して Java でのリアリズムを強化するために 3D マテリアルを PBR にアップグレードする
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用すると、Java で 3D マテリアルを PBR に簡単にアップグレードできます。リアリズムを強化して魅力的なビジュアルを実現します。
-type: docs
 weight: 13
 url: /ja/java/load-and-save/upgrade-materials-to-pbr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D を使用して Java でのリアリズムを強化するために 3D マテリアルを PBR にアップグレードする
+
 ## 導入
 
 3D マテリアルを PBR にアップグレードすることは、Java アプリケーションで本物のようなビジュアルを実現するための変革的なステップです。 Aspose.3D はこのプロセスを簡素化し、従来のマテリアルから PBR マテリアルにシームレスに移行できるようにします。このチュートリアルでは、必要な前提条件を調べ、パッケージをインポートし、各例を詳細な手順に分けて説明します。
@@ -102,3 +108,9 @@ A4: を探索してください。[Aspose.3D フォーラム](https://forum.aspo
 ### Q5: Aspose.3D の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: 訪問[このリンク](https://purchase.aspose.com/temporary-license/)一時ライセンス情報については、
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

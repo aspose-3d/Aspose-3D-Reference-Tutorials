@@ -3,10 +3,16 @@ title: Trích xuất nội dung 3D thô từ PDF
 linktitle: Trích xuất nội dung 3D thô từ PDF
 second_title: API Aspose.3D .NET
 description: Tìm hiểu cách trích xuất nội dung 3D từ PDF bằng Aspose.3D cho .NET. Hướng dẫn từng bước với các ví dụ về mã.
-type: docs
 weight: 14
 url: /vi/net/loading-and-saving/pdf/extract-raw-3d-contents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất nội dung 3D thô từ PDF
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách trích xuất nội dung 3D thô từ PDF bằng Aspose.3D cho .NET. Aspose.3D là một API mạnh mẽ và linh hoạt cho phép các nhà phát triển làm việc với các tệp 3D một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ tập trung vào quá trình trích xuất nội dung 3D thô từ tệp PDF, cung cấp cho bạn hướng dẫn từng bước.
@@ -90,3 +96,9 @@ Câu trả lời 1: Có, Aspose.3D hỗ trợ nhiều định dạng tệp 3D, g
 ### Câu hỏi 5: Có tài liệu nào dành cho Aspose.3D không?
 
  A5: Có, tài liệu có thể được tìm thấy[đây](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

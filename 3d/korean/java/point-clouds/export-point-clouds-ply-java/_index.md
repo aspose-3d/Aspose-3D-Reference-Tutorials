@@ -3,10 +3,16 @@ title: Java용 Aspose.3D를 사용하여 포인트 클라우드를 PLY 형식으
 linktitle: Java용 Aspose.3D를 사용하여 포인트 클라우드를 PLY 형식으로 내보내기
 second_title: Aspose.3D 자바 API
 description: 포인트 클라우드를 PLY 형식으로 내보낼 때 Java용 Aspose.3D의 강력한 기능을 살펴보세요. 원활한 3D 개발을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/java/point-clouds/export-point-clouds-ply-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D를 사용하여 포인트 클라우드를 PLY 형식으로 내보내기
+
 ## 소개
 
 Java용 Aspose.3D를 사용하여 포인트 클라우드를 PLY 형식으로 내보내는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. Aspose.3D는 개발자가 3D 파일로 작업할 수 있도록 하는 강력한 Java 라이브러리로, 다양한 3D 형식을 관리하고 조작하는 데 있어 원활한 경험을 제공합니다. 이 튜토리얼에서는 3D 데이터를 표현하기 위해 널리 사용되는 파일 형식인 PLY 형식으로 포인트 클라우드를 내보내는 방법에 중점을 둘 것입니다.
@@ -81,3 +87,9 @@ A1: Aspose.3D는 주로 Java용으로 설계되었지만 Aspose는 다양한 프
 ### Q5: Java용 Aspose.3D를 어디서 구입할 수 있나요?
 
  A5: Java용 Aspose.3D 구매[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

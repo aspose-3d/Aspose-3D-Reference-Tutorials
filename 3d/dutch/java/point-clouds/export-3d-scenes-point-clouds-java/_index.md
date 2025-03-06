@@ -3,10 +3,16 @@ title: Exporteer 3D-scènes als puntenwolken met Aspose.3D voor Java
 linktitle: Exporteer 3D-scènes als puntenwolken met Aspose.3D voor Java
 second_title: Aspose.3D Java-API
 description: Leer hoe u 3D-scènes als puntenwolken in Java kunt exporteren met Aspose.3D. Verbeter uw toepassingen met krachtige 3D-graphics en visualisatie.
-type: docs
 weight: 15
 url: /nl/java/point-clouds/export-3d-scenes-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporteer 3D-scènes als puntenwolken met Aspose.3D voor Java
+
 ## Invoering
 
 Aspose.3D voor Java vergemakkelijkt de export van 3D-scènes in verschillende formaten, inclusief het genereren van puntenwolken. Puntenwolken zijn cruciaal in verschillende industrieën, van gaming tot simulatie, en bieden een weergave van een fysieke ruimte door middel van een verzameling punten in een 3D-coördinatensysteem.
@@ -94,3 +100,9 @@ Gefeliciteerd! U hebt met succes een 3D-scène als puntenwolk geëxporteerd met 
 ### V5: Wilt u Aspose.3D voor Java kopen?
 
  A5: Ontdek aankoopopties[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

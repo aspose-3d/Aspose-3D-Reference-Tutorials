@@ -3,10 +3,16 @@ title: สร้างพิกัด UV สำหรับการทำแผ
 linktitle: สร้างพิกัด UV สำหรับการทำแผนที่พื้นผิวในโมเดล Java 3D
 second_title: Aspose.3D จาวา API
 description: เรียนรู้วิธีสร้างพิกัด UV สำหรับโมเดล Java 3D โดยใช้ Aspose.3D ปรับปรุงการแมปพื้นผิวในโครงการของคุณด้วยคำแนะนำทีละขั้นตอนนี้
-type: docs
 weight: 11
 url: /th/java/polygon/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สร้างพิกัด UV สำหรับการทำแผนที่พื้นผิวในโมเดล Java 3D
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนของเราเกี่ยวกับการสร้างพิกัด UV สำหรับการทำแผนที่พื้นผิวในโมเดล Java 3D โดยใช้ Aspose.3D ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการสร้างพิกัด UV ด้วยตนเองสำหรับตาข่ายในโมเดล 3 มิติ นี่เป็นขั้นตอนสำคัญในการทำแผนที่พื้นผิว ซึ่งช่วยให้คุณปรับปรุงรูปลักษณ์ที่สวยงามของโมเดล 3 มิติของคุณ
@@ -120,3 +126,9 @@ scene.save(MyDir + "test.obj", FileFormat.WAVEFRONTOBJ);
 ### คำถามที่ 5: ฉันสามารถซื้อใบอนุญาตชั่วคราวสำหรับ Aspose.3D ได้หรือไม่
 
  A5: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

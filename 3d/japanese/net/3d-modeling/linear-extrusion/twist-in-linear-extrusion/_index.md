@@ -3,10 +3,16 @@ title: 線形押出におけるねじれ
 linktitle: 線形押出におけるねじれ
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して、3D グラフィックスの魅力的な世界を探索してください。ツイストを使用した線形押し出しを段階的に学習します。
-type: docs
 weight: 14
 url: /ja/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 線形押出におけるねじれ
+
 ## 導入
 
 進化し続ける .NET 開発の世界において、3D グラフィックスのパワーを活用することはエキサイティングな取り組みです。 Aspose.3D for .NET は貴重なツールキットとして登場し、開発者が没入型で視覚的に美しいアプリケーションをシームレスに作成できるようにします。この包括的なガイドでは、興味深い機能の 1 つであるツイストによるリニア押し出しについて詳しく説明します。このチュートリアルでは、プロセスを段階的に説明し、Aspose.3D for .NET の可能性を解き放ちます。
@@ -118,3 +124,9 @@ A4：確かに！ Aspose.3D は豊富な機能セットを提供します。線�
 ### Q5: Aspose.3D のサポートとディスカッションのためのコミュニティはありますか?
 
  A5: はい、Aspose.3D コミュニティに参加してください。[アスペス フォーラム](https://forum.aspose.com/c/3d/18)サポートと魅力的なディスカッションのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

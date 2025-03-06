@@ -3,10 +3,16 @@ title: 使用 Aspose.3D for Java 設定線性拉伸方向
 linktitle: 使用 Aspose.3D for Java 設定線性拉伸方向
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D for Java 掌握線性擠出！請遵循我們的無縫 3D 程式指南。立即下載以獲得迷人的體驗。
-type: docs
 weight: 12
 url: /zh-hant/java/linear-extrusion/setting-direction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D for Java 設定線性拉伸方向
+
 ## 介紹
 
 歡迎閱讀我們關於使用 Aspose.3D for Java 設定線性擠出方向的逐步指南。 Aspose.3D 是一個功能強大的 Java 程式庫，可讓開發人員無縫地處理 3D 檔案和場景。在本教程中，我們將重點關注在線性擠出中設置方向的具體任務，以提高您在 3D 程式設計方面的熟練程度。
@@ -108,3 +114,9 @@ A1：Aspose.3D支援多種程式語言，包括.NET和Java。
 ### Q5：Aspose.3D 是否有臨時許可證？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

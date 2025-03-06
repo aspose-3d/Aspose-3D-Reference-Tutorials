@@ -3,10 +3,16 @@ title: 材料
 linktitle: 材料
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 教學解鎖迷人的 3D 場景世界。學習創造令人驚嘆的場景並輕鬆探索嵌入的紋理。
-type: docs
 weight: 28
 url: /zh-hant/net/materials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 材料
+
 ## 介紹
 
 您準備好踏上令人興奮的 3D 設計和視覺化領域之旅了嗎？ Aspose.3D for .NET 打開了通往創造力無限世界的大門。在本文中，我們將引導您完成一系列教程，每個教程都會解鎖這個強大的 .NET 庫的一個新方面。
@@ -31,3 +37,9 @@ url: /zh-hant/net/materials/
 使用 Aspose.3D for .NET 創建具有嵌入紋理的迷人 3D 場景。按照我們的逐步指南獲得令人驚嘆的結果。
 ### [轉儲嵌入紋理](./dump-embedded-textures/)
 使用 Aspose.3D for .NET 解開 3D 模型中嵌入紋理的秘密。深入了解我們的無縫集成分步指南。立即下載免費試用版！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

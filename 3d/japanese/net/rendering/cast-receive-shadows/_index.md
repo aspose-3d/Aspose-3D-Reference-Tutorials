@@ -3,10 +3,16 @@ title: Aspose.3D for .NET を使用した 3D レンダリングでのシャド�
 linktitle: 影の投影と受信
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D レンダリングの世界を探索してください。影をキャストしたり受信したりするのが簡単です。今すぐ無料トライアルをダウンロードしてください!
-type: docs
 weight: 10
 url: /ja/net/rendering/cast-receive-shadows/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for .NET を使用した 3D レンダリングでのシャドウのマスタリング
+
 ## 導入
 Aspose.3D for .NET を使用した 3D レンダリングの世界へようこそ!このチュートリアルでは、リアルで視覚的に素晴らしい 3D シーンを作成する上で重要な側面である、影のキャストと受け取りという興味深い領域を詳しく掘り下げていきます。経験豊富な開発者であっても、3D グラフィックスへの取り組みを始めたばかりであっても、このガイドでは、Aspose.3D を使用してレンダリング機能を強化するための知識とスキルを身につけることができます。
 ## 前提条件
@@ -69,3 +75,9 @@ A: はい、Aspose.3D は幅広い 3D ファイル形式をサポートしてい
  A: はい、サポートを見つけたり、コミュニティに参加したりできます。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18).
 ### Q: 購入する前に Aspose.3D を試すことはできますか?
  A: もちろんです！無料トライアルを利用してライブラリを探索する[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

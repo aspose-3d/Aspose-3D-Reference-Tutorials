@@ -3,10 +3,16 @@ title: División de malla por material
 linktitle: División de malla por material
 second_title: Aspose.3D API .NET
 description: Aprenda a dividir mallas 3D por material con Aspose.3D para .NET. Mejorar la organización y eficiencia de la escena. Guía paso a paso para desarrolladores.
-type: docs
 weight: 22
 url: /es/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# División de malla por material
+
 ## Introducción
 ¡Bienvenido a este tutorial completo sobre cómo dividir una malla por material usando Aspose.3D para .NET! Si es un desarrollador que trabaja con gráficos 3D y desea administrar y manipular mallas de manera eficiente, está en el lugar correcto. En esta guía, exploraremos el proceso de dividir una malla según el material, una tarea crucial en la creación de escenas 3D diversas y visualmente atractivas.
 ## Requisitos previos
@@ -71,3 +77,9 @@ Generalmente, la política CloneData puede tener un rendimiento ligeramente mejo
 Sí, puede renderizar y visualizar las submallas resultantes utilizando las capacidades de renderizado de Aspose.3D.
 ### P: ¿Aspose.3D es adecuado para el desarrollo de juegos?
 Si bien se utiliza principalmente para modelar y renderizar, Aspose.3D se puede integrar en procesos de desarrollo de juegos para tareas específicas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

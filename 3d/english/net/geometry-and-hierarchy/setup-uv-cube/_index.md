@@ -3,10 +3,16 @@ title: Setting Up UV on Cube
 linktitle: Setting Up UV on Cube 
 second_title: Aspose.3D .NET API
 description: Learn to set up UV mapping on a 3D cube using Aspose.3D for .NET. Create visually stunning scenes with precise texture mapping.
-type: docs
 weight: 18
 url: /net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting Up UV on Cube
+
 ## Introduction
 
 Creating captivating and visually appealing 3D scenes often involves the meticulous process of setting up UV mapping on geometric shapes. In this tutorial, we'll explore how to set up UV on a cube using Aspose.3D for .NET. Aspose.3D is a powerful .NET library that provides a comprehensive set of features for 3D modeling and manipulation.
@@ -119,3 +125,10 @@ A4: Visit the support forum [here](https://forum.aspose.com/c/3d/18).
 ### Q5: Are temporary licenses available?
 
 A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

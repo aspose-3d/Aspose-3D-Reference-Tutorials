@@ -3,10 +3,16 @@ title: Menyiapkan UV pada Kubus
 linktitle: Menyiapkan UV pada Kubus
 second_title: Aspose.3D .NET API
 description: Pelajari cara menyiapkan pemetaan UV pada kubus 3D menggunakan Aspose.3D untuk .NET. Ciptakan pemandangan yang menakjubkan secara visual dengan pemetaan tekstur yang presisi.
-type: docs
 weight: 18
 url: /id/net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyiapkan UV pada Kubus
+
 ## Perkenalan
 
 Membuat pemandangan 3D yang menawan dan menarik secara visual sering kali melibatkan proses yang cermat dalam menyiapkan pemetaan UV pada bentuk geometris. Dalam tutorial ini, kita akan mempelajari cara mengatur UV pada kubus menggunakan Aspose.3D untuk .NET. Aspose.3D adalah perpustakaan .NET yang kuat yang menyediakan serangkaian fitur lengkap untuk pemodelan dan manipulasi 3D.
@@ -119,3 +125,9 @@ A1: Aspose.3D untuk .NET adalah perpustakaan yang kuat untuk pemodelan dan manip
 ### Q5: Apakah lisensi sementara tersedia?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

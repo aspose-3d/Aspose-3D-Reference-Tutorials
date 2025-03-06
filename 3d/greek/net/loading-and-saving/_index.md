@@ -3,10 +3,16 @@ title: Φόρτωση και αποθήκευση
 linktitle: Φόρτωση και αποθήκευση
 second_title: Aspose.3D .NET API
 description: Ανεβάστε το παιχνίδι 3D μοντελοποίησης με το Aspose.3D για .NET! Κατακτήστε αποτελεσματικές τεχνικές φόρτωσης και αποθήκευσης χρησιμοποιώντας το CancellationToken. Εξερευνήστε τώρα!
-type: docs
 weight: 27
 url: /el/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Φόρτωση και αποθήκευση
+
 ## Εισαγωγή
 
 Βουτήξτε στη συναρπαστική σφαίρα της τρισδιάστατης μοντελοποίησης με το Aspose.3D για .NET, την πύλη σας για απρόσκοπτη και αποτελεσματική επεξεργασία 3D εγγράφων. Σε αυτήν τη σειρά εκμάθησης, θα εξερευνήσουμε τις περιπλοκές της φόρτωσης και αποθήκευσης μοντέλων 3D, ξεκλειδώνοντας έναν κόσμο δημιουργικών δυνατοτήτων.
@@ -105,3 +111,9 @@ url: /el/net/loading-and-saving/
 ### Φόρτωση ενσωματωμένων υφών από USDZ στη μνήμη
 
 Πρόσβαση σε ενσωματωμένα δεδομένα υφής σε αρχεία USDZ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

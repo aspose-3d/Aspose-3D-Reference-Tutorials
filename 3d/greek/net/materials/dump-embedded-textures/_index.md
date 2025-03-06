@@ -3,10 +3,16 @@ title: Απόρριψη ενσωματωμένων υφών
 linktitle: Απόρριψη ενσωματωμένων υφών
 second_title: Aspose.3D .NET API
 description: Ξεκλειδώστε τα μυστικά των ενσωματωμένων υφών σε τρισδιάστατα μοντέλα με το Aspose.3D για .NET. Βουτήξτε στον οδηγό μας βήμα προς βήμα για απρόσκοπτη ενσωμάτωση. Κατεβάστε τη δωρεάν δοκιμή σας τώρα!
-type: docs
 weight: 11
 url: /el/net/materials/dump-embedded-textures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Απόρριψη ενσωματωμένων υφών
+
 ## Εισαγωγή
 Καλώς ήλθατε στον κόσμο του Aspose.3D for .NET – μια ισχυρή εργαλειοθήκη που δίνει τη δυνατότητα στους προγραμματιστές να χειρίζονται και να εργάζονται με αρχεία 3D απρόσκοπτα. Σε αυτό το περιεκτικό σεμινάριο, θα εμβαθύνουμε στη συναρπαστική σφαίρα της απόρριψης ενσωματωμένων υφών χρησιμοποιώντας το Aspose.3D. Εάν επιθυμείτε να βελτιώσετε την τρισδιάστατη εφαρμογή σας ξεκλειδώνοντας τις δυνατότητες των ενσωματωμένων υφών, βρίσκεστε στο σωστό μέρος.
 ## Προαπαιτούμενα
@@ -71,3 +77,9 @@ if(tex.Content != null)
  Α: Ναι, είναι διαθέσιμη μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Πού μπορώ να βρω ολοκληρωμένη τεκμηρίωση για το Aspose.3D;
  Α: Η τεκμηρίωση είναι προσβάσιμη[εδώ](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

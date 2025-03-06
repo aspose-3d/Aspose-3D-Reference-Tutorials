@@ -3,10 +3,16 @@ title: Share Mesh Geometry Data in Java 3D with Aspose.3D
 linktitle: Share Mesh Geometry Data in Java 3D with Aspose.3D
 second_title: Aspose.3D Java API
 description: Explore the wonders of Java 3D with Aspose.3D. Learn how to share mesh geometry data effortlessly between nodes in this comprehensive tutorial.
-type: docs
 weight: 15
 url: /java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Share Mesh Geometry Data in Java 3D with Aspose.3D
+
 ## Introduction
 
 Embarking on a journey into the realm of Java 3D with Aspose.3D opens up a world of possibilities for creating stunning visualizations and immersive experiences. In this tutorial, we will guide you through the process of sharing mesh geometry data in Java 3D using Aspose.3D. Follow each step carefully, and by the end, you'll be seamlessly exchanging mesh data between multiple nodes.
@@ -117,3 +123,10 @@ A4: Yes, you can get a free trial [here](https://releases.aspose.com/).
 ### Q5: How do I obtain a temporary license for Aspose.3D?
 
 A5: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

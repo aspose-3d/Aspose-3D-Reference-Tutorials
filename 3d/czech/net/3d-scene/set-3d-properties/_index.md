@@ -3,10 +3,16 @@ title: Nastavení trojrozměrných vlastností ve 3D scénách
 linktitle: Nastavení trojrozměrných vlastností ve 3D scénách
 second_title: Aspose.3D .NET API
 description: Prozkoumejte výukový program Aspose.3D for .NET o nastavení 3D vlastností. Naučte se krok za krokem s příklady kódu. Zvyšte své dovednosti v oblasti manipulace s 3D scénou.
-type: docs
 weight: 14
 url: /cs/net/3d-scene/set-3d-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení trojrozměrných vlastností ve 3D scénách
+
 ## Úvod
 
 Vytváření podmanivých trojrozměrných scén často vyžaduje schopnost manipulovat s různými vlastnostmi a dodat vašim projektům hloubku a realismus. Aspose.3D for .NET poskytuje výkonnou sadu nástrojů k dosažení tohoto cíle, která vám umožňuje bez námahy nastavovat a upravovat trojrozměrné vlastnosti ve vašich 3D scénách. V tomto tutoriálu prozkoumáme proces krok za krokem, čímž zlepšíme vaše porozumění tomu, jak efektivně využít Aspose.3D pro .NET.
@@ -148,3 +154,10 @@ Odpověď 1: Ano, Aspose.3D podporuje různé formáty 3D souborů, včetně FBX
 ### Q5: Mohu si Aspose.3D for .NET vyzkoušet zdarma před nákupem?
 
  A5: Určitě! Stáhněte si[zkušební verze zdarma](https://releases.aspose.com/) prozkoumat jeho vlastnosti.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

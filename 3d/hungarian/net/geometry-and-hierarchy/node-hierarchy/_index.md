@@ -3,10 +3,16 @@ title: A csomóponti hierarchia megértése
 linktitle: A csomóponti hierarchia megértése
 second_title: Aspose.3D .NET API
 description: Oldja fel az Aspose.3D erejét .NET-hez! Merüljön el a csomópont-hierarchia manipulációjában ezzel a lépésről lépésre szóló útmutatóval. Lenyűgöző 3D-s jeleneteket készíthet könnyedén.
-type: docs
 weight: 16
 url: /hu/net/geometry-and-hierarchy/node-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A csomóponti hierarchia megértése
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.3D for .NET világában, egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak 3D-s jelenetekkel és modellekkel .NET-alkalmazásaikban. Ebben az oktatóanyagban az Aspose.3D segítségével 3D-s jelenetek csomópont-hierarchiájának megértésének bonyolultságába fogunk elmélyülni. Ennek az útmutatónak a végére szilárdan fog tudni, hogyan lehet csomópontokon keresztül manipulálni a 3D-s jelenetek szerkezetét, így lenyűgöző vizuális élményeket hozhat létre.
@@ -129,3 +135,9 @@ A4: Abszolút! Az Aspose.3D sokoldalú, játékfejlesztési projektekbe integrá
 ### 5. kérdés: Mi a különbség az ideiglenes és a teljes licenc között?
 
 5. válasz: Az ideiglenes licenc rövid távú hozzáférést biztosít értékelési célokra, míg a teljes licenc korlátlan használatot tesz lehetővé.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

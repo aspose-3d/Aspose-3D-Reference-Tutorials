@@ -3,10 +3,16 @@ title: 通过四元数变换节点
 linktitle: 通过四元数变换节点
 second_title: Aspose.3D .NET API
 description: 学习使用 Aspose.3D for .NET 使用四元数转换 3D 节点。初学者的分步指南。
-type: docs
 weight: 20
 url: /zh/net/geometry-and-hierarchy/transformation-node-quaternion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 通过四元数变换节点
+
 ## 介绍
 
 欢迎阅读有关使用 Aspose.3D for .NET 在 3D 场景中按四元数转换节点的分步指南。在本教程中，我们将探索 Aspose.3D for .NET 的强大功能，并逐步完成使用四元数向 3D 节点添加转换的过程。
@@ -121,3 +127,10 @@ A1：四元数是用于表示 3D 空间中的旋转的数学实体。
 ### Q5：如何获得Aspose.3D的临时许可证？
 
  A5：获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

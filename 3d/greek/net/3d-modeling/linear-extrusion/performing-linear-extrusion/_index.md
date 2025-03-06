@@ -3,10 +3,16 @@ title: Εκτέλεση Γραμμικής Εξώθησης
 linktitle: Εκτέλεση Γραμμικής Εξώθησης
 second_title: Aspose.3D .NET API
 description: Εξερευνήστε τον κόσμο των τρισδιάστατων γραφικών με το Aspose.3D για .NET. Εκτέλεση Γραμμικής Εξώθησης σε αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 12
 url: /el/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εκτέλεση Γραμμικής Εξώθησης
+
 ## Εισαγωγή:
 
 Ξεκινήστε ένα συναρπαστικό ταξίδι στη σφαίρα των τρισδιάστατων γραφικών με το Aspose.3D για .NET, ένα δυναμικό που αναβαθμίζει το παιχνίδι ανάπτυξης σας. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στις περιπλοκές της Γραμμικής Εξώθησης – μιας συναρπαστικής τεχνικής που δίνει ζωή σε στατικά προφίλ 2D, προωθώντας τα στον δυναμικό κόσμο του 3D. Ας ξεκλειδώσουμε την πόρτα της δημιουργικότητας και της καινοτομίας χρησιμοποιώντας το Aspose.3D!
@@ -106,3 +112,9 @@ scene.Save(RunExamples.GetOutputFilePath("LinearExtrusion.obj"), FileFormat.Wave
 ### Ε5: Υπάρχει δωρεάν δοκιμή διαθέσιμη;
 
  Α5: Σίγουρα! Κατεβάστε τη δωρεάν δοκιμαστική έκδοση[εδώ](https://releases.aspose.com/) για να γνωρίσετε από πρώτο χέρι τις δυνατότητες του Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

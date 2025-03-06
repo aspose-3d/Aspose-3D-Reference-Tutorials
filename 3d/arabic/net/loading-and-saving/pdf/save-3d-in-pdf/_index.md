@@ -3,10 +3,16 @@ title: حفظ 3D في PDF
 linktitle: حفظ 3D في PDF
 second_title: Aspose.3D.NET API
 description: استكشف Aspose.3D لـ .NET. مكتبتك المفضلة للنمذجة والعرض السلس ثلاثي الأبعاد. حفظ النماذج ثلاثية الأبعاد في ملف PDF بسهولة.
-type: docs
 weight: 19
 url: /ar/net/loading-and-saving/pdf/save-3d-in-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ 3D في PDF
+
 ## مقدمة
 
 مرحبًا بك في دليلنا الشامل حول استخدام Aspose.3D لـ .NET! في هذا البرنامج التعليمي، سنرشدك خلال عملية تحميل النماذج ثلاثية الأبعاد وحفظها، مع التركيز على المهمة المحددة المتمثلة في حفظ نموذج ثلاثي الأبعاد بتنسيق PDF. Aspose.3D for .NET هي مكتبة قوية توفر أدوات فعالة للعمل مع الملفات ثلاثية الأبعاد، مما يجعلها موردًا أساسيًا للمطورين والمتحمسين في هذا المجال.
@@ -98,3 +104,9 @@ scene.Save("Your Output Directory" + "output_out.pdf", opt);
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D لـ .NET؟
 
  ج5: للحصول على ترخيص مؤقت قم بزيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/) واتبع التعليمات المقدمة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

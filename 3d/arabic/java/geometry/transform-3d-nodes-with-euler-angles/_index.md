@@ -3,10 +3,16 @@ title: تحويل العقد ثلاثية الأبعاد بزوايا أويلر
 linktitle: تحويل العقد ثلاثية الأبعاد بزوايا أويلر في Java باستخدام Aspose.3D
 second_title: Aspose.3D جافا API
 description: استكشف عالم التحولات ثلاثية الأبعاد في Java باستخدام Aspose.3D. اتبع دليلنا خطوة بخطوة لإضافة زوايا أويلر الديناميكية إلى العقد ثلاثية الأبعاد.
-type: docs
 weight: 19
 url: /ar/java/geometry/transform-3d-nodes-with-euler-angles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل العقد ثلاثية الأبعاد بزوايا أويلر في Java باستخدام Aspose.3D
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي خطوة بخطوة حول تحويل العقد ثلاثية الأبعاد بزوايا أويلر في Java باستخدام Aspose.3D. في هذا الدليل، سوف نتعمق في عملية إضافة التحويلات إلى عقدة ثلاثية الأبعاد، باستخدام زوايا أويلر لتحقيق التموضع والتوجيه الديناميكي.
@@ -105,3 +111,9 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 ### س5: أين يمكنني العثور على الوثائق؟
 
  ج5: ال[توثيق](https://reference.aspose.com/3d/java/) يوفر إرشادات شاملة حول استخدام Aspose.3D لـ Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

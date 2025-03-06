@@ -3,10 +3,16 @@ title: Java Uygulamalarındaki 3B Sahnelerden Bilgi Alma
 linktitle: Java Uygulamalarındaki 3B Sahnelerden Bilgi Alma
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile Java'da 3D sahne manipülasyonu dünyasını keşfedin. Bu eğitim, bilgileri adım adım alma konusunda size yol gösterir.
-type: docs
 weight: 12
 url: /tr/java/3d-scenes-and-models/get-scene-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Uygulamalarındaki 3B Sahnelerden Bilgi Alma
+
 ## giriiş
 
 Aspose.3D kullanarak Java uygulamalarındaki 3D sahnelerden bilgi almaya ilişkin bu kapsamlı kılavuza hoş geldiniz. Uygulamanızın yeteneklerini 3B sahne manipülasyonuyla geliştirmek isteyen bir Java geliştiricisiyseniz doğru yerdesiniz. Bu eğitim, süreç boyunca size adım adım rehberlik edecek ve her kavramı iyice kavramanızı sağlayacaktır.
@@ -99,3 +105,9 @@ A2: Kesinlikle. Aspose.3D, geliştiricilere ticari lisanslar sunarak lisans gere
 ### S5: Aspose.3D için nasıl geçici lisans alabilirim?
 
  Cevap5: Test amaçlı geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

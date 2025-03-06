@@ -3,10 +3,16 @@ title: Кодирование сцены как облака точек
 linktitle: Кодирование сцены как облака точек
 second_title: Aspose.3D .NET API
 description: Исследуйте мир 3D-моделирования в .NET с помощью Aspose.3D. Научитесь легко кодировать сферы в облака точек. Раскройте свой творческий потенциал прямо сейчас!
-type: docs
 weight: 14
 url: /ru/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Кодирование сцены как облака точек
+
 ## Введение
 Добро пожаловать в это подробное руководство по кодированию сферы в облако точек с помощью Aspose.3D для .NET. Aspose.3D — это мощная и универсальная библиотека, которая позволяет разработчикам беспрепятственно работать с 3D-моделями в своих .NET-приложениях. В этом уроке мы покажем вам процесс кодирования сферы в облако точек с помощью Aspose.3D.
 ## Предварительные условия
@@ -60,3 +66,9 @@ FileFormat.Draco.Encode(sphere, outputPath + outputFileName, saveOptions);
  Посетите форум Aspose.3D[здесь](https://forum.aspose.com/c/3d/18) за поддержку сообщества и обсуждения.
 ### Нужна ли мне временная лицензия для тестирования?
  Да, если вы тестируете библиотеку, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

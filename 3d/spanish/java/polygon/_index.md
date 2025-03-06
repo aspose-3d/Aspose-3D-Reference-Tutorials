@@ -3,10 +3,16 @@ title: Manipulación de polígonos en modelos 3D con Java
 linktitle: Manipulación de polígonos en modelos 3D con Java
 second_title: API de Java Aspose.3D
 description: Explore la representación 3D eficiente en Java con los tutoriales de Aspose.3D. Convierta polígonos en triángulos y genere coordenadas UV para un rendimiento óptimo y un mapeo de texturas mejorado.
-type: docs
 weight: 27
 url: /es/java/polygon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulación de polígonos en modelos 3D con Java
+
 ## Introducción
 
 Bienvenido al ámbito del desarrollo Java 3D, donde Aspose.3D ocupa un lugar central para mejorar sus proyectos. En esta serie de tutoriales, profundizaremos en las complejidades de la manipulación de polígonos, centrándonos en dos aspectos cruciales: convertir polígonos en triángulos para una representación eficiente y generar coordenadas UV para mejorar el mapeo de texturas.
@@ -49,3 +55,9 @@ En conclusión, Aspose.3D para Java abre las puertas a un mundo de posibilidades
 Mejore la representación 3D de Java con Aspose.3D. Aprenda a convertir polígonos en triángulos para un rendimiento óptimo. Descárguelo ahora para disfrutar de una experiencia de desarrollo 3D perfecta.
 ### [Genere coordenadas UV para mapeo de texturas en modelos 3D de Java](./generate-uv-coordinates/)
 Aprenda a generar coordenadas UV para modelos 3D de Java utilizando Aspose.3D. Mejore el mapeo de texturas en sus proyectos con esta guía paso a paso.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

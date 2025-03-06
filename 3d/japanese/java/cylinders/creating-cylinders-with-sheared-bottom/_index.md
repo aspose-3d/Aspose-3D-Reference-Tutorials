@@ -3,10 +3,16 @@ title: Aspose.3D for Java で底部をせん断した円柱を作成する
 linktitle: Aspose.3D for Java で底部をせん断した円柱を作成する
 second_title: Aspose.3D Java API
 description: Aspose.3D for Java を使用して、底部をせん断したカスタマイズされた円柱を作成する方法を学びます。このステップバイステップのガイドで 3D モデリングのスキルを向上させましょう。
-type: docs
 weight: 12
 url: /ja/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java で底部をせん断した円柱を作成する
+
 ## 導入
 
 Aspose.3D for Java を使用して底部がせん断された円柱を作成するためのこのステップバイステップ ガイドへようこそ。 Aspose.3D は、3D ファイルを簡単に操作できる強力な Java ライブラリです。このチュートリアルでは、底部をせん断したカスタマイズされた円柱の作成について詳しく説明し、Aspose.3D を使用して 3D モデリング スキルを向上させる実践的な経験を提供します。
@@ -100,3 +106,9 @@ A2: はい、Aspose.3D はユーザーフレンドリーな API を提供する�
 ### Q5: Aspose.3D for Java を購入できますか?
 
  A5: はい、Aspose.3D for Java を購入できます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

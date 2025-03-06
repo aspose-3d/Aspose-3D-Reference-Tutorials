@@ -3,10 +3,16 @@ title: Lavorare con scene e modelli 3D in Java
 linktitle: Lavorare con scene e modelli 3D in Java
 second_title: API Java Aspose.3D
 description: Scopri la potenza di Aspose.3D per Java attraverso i nostri tutorial. Migliora la precisione, l'efficienza di archiviazione e la manipolazione delle scene 3D nelle tue applicazioni Java.
-type: docs
 weight: 29
 url: /it/java/3d-scenes-and-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lavorare con scene e modelli 3D in Java
+
 ## introduzione
 
 Sei pronto a elevare le tue applicazioni Java a nuovi livelli nella grafica e nella modellazione 3D? Benvenuti nel nostro tutorial completo su Aspose.3D per Java! Sfrutta il potenziale del posizionamento, della compressione, del recupero delle informazioni, del salvataggio delle mesh e della manipolazione continua delle proprietà delle scene 3D con una guida passo passo.
@@ -43,3 +49,9 @@ Esplora il mondo della manipolazione delle scene 3D in Java con Aspose.3D. Quest
 Scopri come salvare mesh 3D in formati binari personalizzati utilizzando Aspose.3D per Java. Migliora la flessibilità delle applicazioni Java con questo tutorial passo passo.
 ### [Lavora con proprietà 3D e dati personalizzati nelle scene Java utilizzando Aspose.3D](./managing-3d-properties-scenes/)
 Migliora le tue applicazioni Java con Aspose.3D per una manipolazione perfetta delle proprietà 3D. Segui il nostro tutorial per una guida passo passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

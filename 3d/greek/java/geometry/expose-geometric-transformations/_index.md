@@ -3,10 +3,16 @@ title: Εκθέστε γεωμετρικούς μετασχηματισμούς 
 linktitle: Εκθέστε γεωμετρικούς μετασχηματισμούς σε Java 3D με το Aspose.3D
 second_title: Aspose.3D Java API
 description: Η εκμάθηση τρισδιάστατων γεωμετρικών μετασχηματισμών σε Java έγινε εύκολη με το Aspose.3D. Μάθετε να χειρίζεστε κόμβους, να εφαρμόζετε μεταφράσεις και να αξιολογείτε τους καθολικούς μετασχηματισμούς.
-type: docs
 weight: 13
 url: /el/java/geometry/expose-geometric-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εκθέστε γεωμετρικούς μετασχηματισμούς σε Java 3D με το Aspose.3D
+
 ## Εισαγωγή
 
 Στον δυναμικό κόσμο του προγραμματισμού Java 3D, η κατοχή γεωμετρικών μετασχηματισμών είναι μια βασική δεξιότητα. Το Aspose.3D for Java είναι μια ισχυρή βιβλιοθήκη που δίνει τη δυνατότητα στους προγραμματιστές να εμβαθύνουν στις περιπλοκές της τρισδιάστατης μοντελοποίησης χωρίς κόπο. Σε αυτό το σεμινάριο, θα ξεκινήσουμε ένα διαφωτιστικό ταξίδι για να εκθέσουμε και να χειριστούμε γεωμετρικούς μετασχηματισμούς χρησιμοποιώντας το Aspose.3D για Java.
@@ -86,3 +92,9 @@ A1: Το Aspose.3D ενσωματώνεται απρόσκοπτα με οποι
 ### Ε5: Χρειάζομαι μια προσωρινή άδεια για τη δοκιμή του Aspose.3D;
 
  A5: Λάβετε ένα[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για δοκιμαστικούς σκοπούς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

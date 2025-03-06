@@ -3,10 +3,16 @@ title: Práce s daty geometrie sítě
 linktitle: Práce s daty geometrie sítě
 second_title: Aspose.3D .NET API
 description: Ovládněte umění programování 3D grafiky s Aspose.3D pro .NET. Vytvářejte, manipulujte a ukládejte úžasné 3D scény bez námahy.
-type: docs
 weight: 15
 url: /cs/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Práce s daty geometrie sítě
+
 ## Úvod
 
 Vítejte ve vzrušujícím světě programování 3D grafiky s Aspose.3D pro .NET! V tomto tutoriálu se ponoříme do složitosti práce s Mesh Geometry Data ve 3D scénách pomocí Aspose.3D, výkonné a všestranné knihovny pro vývojáře .NET. Ať už jste zkušený programátor nebo s 3D grafikou teprve začínáte, tento podrobný průvodce vám pomůže zvládnout umění manipulace s daty geometrie sítě bez námahy.
@@ -126,3 +132,9 @@ Odpověď 1: Aspose.3D je primárně navržen pro .NET, ale můžete prozkoumat 
 ### Q5: Jaké formáty souborů jsou podporovány pro ukládání 3D scén?
 
  A5: Aspose.3D podporuje různé formáty souborů, včetně FBX, STL a dalších. Odkazovat na[dokumentace](https://reference.aspose.com/3d/net/) pro úplný seznam.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

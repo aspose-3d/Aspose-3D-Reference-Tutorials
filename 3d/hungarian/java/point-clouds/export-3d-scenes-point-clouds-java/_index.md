@@ -3,10 +3,16 @@ title: Exportáljon 3D jeleneteket pontfelhőkként az Aspose.3D for Java segít
 linktitle: Exportáljon 3D jeleneteket pontfelhőkként az Aspose.3D for Java segítségével
 second_title: Aspose.3D Java API
 description: Ismerje meg, hogyan exportálhat 3D-s jeleneteket pontfelhőként Java nyelven az Aspose.3D segítségével. Javítsa alkalmazásait erőteljes 3D grafikával és vizualizációval.
-type: docs
 weight: 15
 url: /hu/java/point-clouds/export-3d-scenes-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportáljon 3D jeleneteket pontfelhőkként az Aspose.3D for Java segítségével
+
 ## Bevezetés
 
 Az Aspose.3D for Java megkönnyíti a 3D-s jelenetek exportálását különféle formátumokban, beleértve a pontfelhők létrehozását. A pontfelhők döntő jelentőségűek a különböző iparágakban, a játéktól a szimulációig, mivel egy 3D koordináta-rendszerben található pontok gyűjteményén keresztül egy fizikai teret ábrázolnak.
@@ -94,3 +100,9 @@ Gratulálunk! Sikeresen exportált egy 3D-s jelenetet pontfelhőként az Aspose.
 ### 5. kérdés: Aspose.3D for Java-t szeretné megvásárolni?
 
  5. válasz: Fedezze fel a vásárlási lehetőségeket[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 為 Java 3D 模型中的紋理映射產生 UV 座標
 linktitle: 為 Java 3D 模型中的紋理映射產生 UV 座標
 second_title: Aspose.3D Java API
 description: 學習使用 Aspose.3D 為 Java 3D 模型產生 UV 座標。透過此逐步指南增強項目中的紋理映射。
-type: docs
 weight: 11
 url: /zh-hant/java/polygon/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 為 Java 3D 模型中的紋理映射產生 UV 座標
+
 ## 介紹
 
 歡迎閱讀我們關於使用 Aspose.3D 在 Java 3D 模型中產生紋理映射的 UV 座標的逐步指南。在本教程中，我們將引導您完成為 3D 模型中的網格手動產生 UV 座標的過程。這是紋理映射中的關鍵步驟，可讓您增強 3D 模型的視覺吸引力。
@@ -120,3 +126,9 @@ A3：造訪Aspose.3D論壇[這裡](https://forum.aspose.com/c/3d/18)獲得社群
 ### Q5：我可以購買 Aspose.3D 的臨時授權嗎？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

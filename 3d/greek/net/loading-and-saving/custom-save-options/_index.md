@@ -3,10 +3,16 @@ title: Προσαρμοσμένες επιλογές αποθήκευσης
 linktitle: Προσαρμοσμένες επιλογές αποθήκευσης
 second_title: Aspose.3D .NET API
 description: Εξερευνήστε τη δύναμη του Aspose.3D για .NET. Μάθετε πώς να προσαρμόζετε την εξοικονόμηση 3D σκηνής με οδηγούς βήμα προς βήμα σε μορφές Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC και RVM.
-type: docs
 weight: 21
 url: /el/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμοσμένες επιλογές αποθήκευσης
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον κόσμο του Aspose.3D για .NET! Αν θέλετε να βελτιώσετε τις δυνατότητες ανάπτυξης 3D, βρίσκεστε στο σωστό μέρος. Σε αυτό το σεμινάριο, θα ασχοληθούμε με τις λειτουργίες Φόρτωση και Αποθήκευση, εστιάζοντας συγκεκριμένα στις Προσαρμοσμένες Επιλογές Αποθήκευσης. Το Aspose.3D for .NET είναι μια ισχυρή βιβλιοθήκη που δίνει τη δυνατότητα στους προγραμματιστές να χειρίζονται και να αποθηκεύουν 3D σκηνές αποτελεσματικά.
@@ -131,3 +137,9 @@ A1: Ναι, το Aspose.3D είναι συμβατό με διάφορα πλα�
 ### Ε5: Πώς μπορώ να πάρω μια προσωρινή άδεια για το Aspose.3D;
 
  A5: Λάβετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

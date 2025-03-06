@@ -3,10 +3,16 @@ title: Aspose.3D for Java で上部がオフセットされた円柱を作成す
 linktitle: Aspose.3D for Java で上部がオフセットされた円柱を作成する
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して、Java での 3D モデリングの素晴らしさを体験してください。上部がオフセットされた魅力的なシリンダーを簡単に作成する方法を学びましょう。
-type: docs
 weight: 11
 url: /ja/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java で上部がオフセットされた円柱を作成する
+
 ## 導入
 
 Java ベースの 3D モデリングの分野では、Aspose.3D は強力なツールとして際立っており、開発者に複雑な 3D シーンを簡単に作成する機能を提供します。このチュートリアルでは、上部がオフセットされた円柱の作成という特定のタスクに焦点を当てて、Aspose.3D for Java の魅力的な世界を掘り下げていきます。このガイドを読み終えるまでに、プロセスをしっかりと理解し、この機能を 3D プロジェクトにシームレスに統合できるようになります。
@@ -127,3 +133,9 @@ A3: はい、ニーズに合ったライセンス オプションを調べて選
 ### Q5: テスト目的の一時ライセンス オプションはありますか?
 
  A5: はい、テストと評価の目的で一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

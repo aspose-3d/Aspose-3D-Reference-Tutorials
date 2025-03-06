@@ -3,10 +3,16 @@ title: Lưu cảnh 3D được kết xuất vào tệp hình ảnh bằng Aspose
 linktitle: Lưu cảnh 3D được kết xuất vào tệp hình ảnh bằng Aspose.3D cho Java
 second_title: API Java Aspose.3D
 description: Mở khóa thế giới đồ họa 3D với Aspose.3D cho Java. Tìm hiểu cách lưu những cảnh tuyệt đẹp vào hình ảnh một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/java/rendering-3d-scenes/render-to-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu cảnh 3D được kết xuất vào tệp hình ảnh bằng Aspose.3D cho Java
+
 ## Giới thiệu
 
 Tạo cảnh 3D tuyệt đẹp là một công việc thú vị và với Aspose.3D cho Java, quá trình này thậm chí còn trở nên bổ ích hơn. Hướng dẫn toàn diện này sẽ hướng dẫn bạn các bước lưu cảnh 3D được hiển thị vào tệp hình ảnh bằng Aspose.3D cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bước vào thế giới đồ họa 3D, hướng dẫn này sẽ cung cấp cho bạn kiến thức cần thiết để biến những sáng tạo của bạn thành hiện thực.
@@ -91,3 +97,9 @@ Chúc mừng! Bạn đã lưu thành công cảnh 3D được hiển thị vào 
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.3D cho Java trước khi mua không?
 
  A5: Chắc chắn rồi! Tải về phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/) để trải nghiệm trực tiếp các khả năng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

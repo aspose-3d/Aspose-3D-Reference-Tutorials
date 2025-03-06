@@ -3,10 +3,16 @@ title: Fette nell'estrusione lineare
 linktitle: Fette nell'estrusione lineare
 second_title: API Aspose.3D .NET
 description: Esplora il mondo della progettazione 3D con Aspose.3D per .NET. Crea modelli straordinari utilizzando il nostro tutorial sull'estrusione lineare.
-type: docs
 weight: 13
 url: /it/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fette nell'estrusione lineare
+
 ## introduzione
 
 Benvenuti nel mondo della progettazione 3D utilizzando Aspose.3D per .NET! Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, questo tutorial ti guiderà attraverso il processo di creazione di straordinarie visualizzazioni 3D utilizzando la potente libreria Aspose.3D.
@@ -116,3 +122,9 @@ A1: Aspose.3D è progettato principalmente per .NET, ma puoi esplorare le opzion
 ### Q5: Posso utilizzare una licenza temporanea per Aspose.3D per .NET?
 
  A5: Sì, ottieni una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/) a fini di valutazione.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

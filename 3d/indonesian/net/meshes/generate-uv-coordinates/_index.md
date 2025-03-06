@@ -3,10 +3,16 @@ title: Menghasilkan Koordinat UV
 linktitle: Menghasilkan Koordinat UV
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia pemodelan 3D dengan Aspose.3D untuk .NET. Master UV mengoordinasikan pembangkitan dengan mudah. Tingkatkan proyek Anda sekarang!
-type: docs
 weight: 11
 url: /id/net/meshes/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menghasilkan Koordinat UV
+
 ## Perkenalan
 Buka kekuatan Aspose.3D untuk .NET dan selami bidang pembuatan koordinat UV. Dalam tutorial ini, kami akan memandu Anda melalui langkah-langkah penting untuk menguasai aspek dasar pemodelan 3D menggunakan Aspose.3D. Baik Anda seorang pengembang berpengalaman atau pendatang baru, panduan ini akan membekali Anda dengan pengetahuan untuk dengan mudah membuat dan memanipulasi koordinat UV untuk jerat Anda.
 ## Prasyarat
@@ -74,3 +80,9 @@ Uji coba gratis memiliki beberapa batasan fitur, tetapi Anda dapat merasakan fun
  Ya, Anda bisa mendapatkan a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk pengujian dan evaluasi.
 ### T: Di mana saya dapat menemukan tutorial dan sumber daya tambahan?
  Jelajahi[Dokumentasi Aspose.3D](https://reference.aspose.com/3d/net/) untuk panduan dan contoh yang komprehensif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Informationen aus 3D-Szenen in Java-Anwendungen abrufen
 linktitle: Informationen aus 3D-Szenen in Java-Anwendungen abrufen
 second_title: Aspose.3D Java-API
 description: Entdecken Sie die Welt der 3D-Szenenmanipulation in Java mit Aspose.3D. Dieses Tutorial führt Sie Schritt für Schritt durch das Abrufen von Informationen.
-type: docs
 weight: 12
 url: /de/java/3d-scenes-and-models/get-scene-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Informationen aus 3D-Szenen in Java-Anwendungen abrufen
+
 ## Einführung
 
 Willkommen zu diesem umfassenden Leitfaden zum Abrufen von Informationen aus 3D-Szenen in Java-Anwendungen mit Aspose.3D. Wenn Sie ein Java-Entwickler sind und die Fähigkeiten Ihrer Anwendung durch 3D-Szenenmanipulation erweitern möchten, sind Sie hier richtig. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess und stellt sicher, dass Sie jedes Konzept gründlich verstehen.
@@ -99,3 +105,9 @@ A2: Absolut. Aspose.3D bietet kommerzielle Lizenzen für Entwickler und stellt s
 ### F5: Wie kann ich eine temporäre Lizenz für Aspose.3D erhalten?
 
  A5: Besorgen Sie sich zu Testzwecken eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

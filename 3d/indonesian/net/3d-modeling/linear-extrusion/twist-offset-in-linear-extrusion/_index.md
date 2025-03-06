@@ -3,10 +3,16 @@ title: Twist Offset dalam Ekstrusi Linier
 linktitle: Twist Offset dalam Ekstrusi Linier
 second_title: Aspose.3D .NET API
 description: Jelajahi keajaiban Aspose.3D untuk .NET dengan panduan langkah demi langkah kami tentang Twist Offset dalam Linear Extrusion. Tingkatkan proyek 3D Anda dengan mudah.
-type: docs
 weight: 15
 url: /id/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Twist Offset dalam Ekstrusi Linier
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.3D untuk .NET, perpustakaan serbaguna yang memberdayakan pengembang untuk menangani manipulasi 3D dengan mudah. Dalam tutorial ini, kita akan mempelajari salah satu fitur menarik - "Twist Offset in Linear Extrusion." Jika Anda siap untuk meningkatkan keterampilan pemrograman 3D Anda, mari selami!
@@ -112,3 +118,9 @@ A1: Aspose.3D terutama mendukung bahasa .NET, namun Aspose menyediakan perpustak
 ### Q5: Di mana saya dapat membeli Aspose.3D untuk .NET?
 
  A5: Pergilah ke[Link ini](https://purchase.aspose.com/buy) untuk melakukan pembelian dan membuka potensi penuh Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

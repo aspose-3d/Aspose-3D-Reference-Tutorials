@@ -3,10 +3,16 @@ title: 为 3D 场景中的动画设置目标和相机
 linktitle: 为 3D 场景中的动画设置目标和相机
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 解锁 3D 动画的魔力。使用这个综合教程轻松设置目标和相机。
-type: docs
 weight: 11
 url: /zh/net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 为 3D 场景中的动画设置目标和相机
+
 ## 介绍
 
 设置目标和摄像机是任何 3D 动画项目的基础。 Aspose.3D for .NET 提供了一套强大的工具来简化此过程，使开发人员能够释放他们的创造力。本教程将指导您完成这些步骤，分解复杂性，并使看似艰巨的任务变得更易于管理。
@@ -103,3 +109,9 @@ A4：是的，您可以探索免费试用[这里](https://releases.aspose.com/).
 ### Q5：如何获得临时驾照？
 
  A5：获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

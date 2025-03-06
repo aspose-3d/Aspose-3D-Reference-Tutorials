@@ -3,10 +3,16 @@ title: Maillage de décodage
 linktitle: Maillage de décodage
 second_title: API Aspose.3D .NET
 description: Décodez les maillages sans effort avec Aspose.3D pour .NET. Votre passerelle vers une programmation 3D transparente. Explorez, personnalisez et élevez vos projets.
-type: docs
 weight: 10
 url: /fr/net/loading-and-saving/draco/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maillage de décodage
+
 ## Introduction
 Imaginez ceci : vous êtes dans le domaine du développement 3D et vous vous efforcez de décoder des structures de maillage complexes. Le défi est réel, mais n’ayez crainte ! Au cours de ce voyage, nous naviguerons dans le labyrinthe du décodage de maillage à l'aide d'Aspose.3D pour .NET, votre compagnon de confiance dans le monde de la programmation 3D.
 ## Conditions préalables
@@ -55,3 +61,9 @@ Absolument! Aspose.3D prend en charge une large gamme de formats de maillage, ga
  Certainement! Prenez votre[essai gratuit](https://releases.aspose.com/) expérimenter les prouesses d’Aspose.3D avant de prendre des engagements.
 ### Besoin d'une licence temporaire pour un projet à court terme ?
  Se diriger vers[Permis temporaire](https://purchase.aspose.com/temporary-license/) et acquérez une licence temporaire adaptée aux besoins de votre projet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

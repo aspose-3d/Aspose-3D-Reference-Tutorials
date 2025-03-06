@@ -3,10 +3,16 @@ title: 다각형을 삼각형으로 변환
 linktitle: 다각형을 삼각형으로 변환
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 원활한 3D 모델링 세계를 탐색해 보세요. 단계별 가이드를 사용하여 다각형을 삼각형으로 쉽게 변환하세요. 지금 무료 평가판을 다운로드하세요!
-type: docs
 weight: 10
 url: /ko/net/meshes/convert-polygons-to-triangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 다각형을 삼각형으로 변환
+
 ## 소개
 .NET을 사용하여 흥미로운 3D 그래픽 및 모델링 세계를 탐구하고 있다면 Aspose.3D는 작업 흐름을 간소화할 수 있는 강력한 도구입니다. 3D 모델링의 중요한 작업 중 하나는 다각형을 삼각형으로 변환하는 것입니다. 이 튜토리얼에서는 프로세스를 단계별로 안내합니다.
 ## 전제 조건
@@ -52,3 +58,9 @@ scene.Save("Your Output Directory" + "triangulated_out.fbx", FileFormat.FBX7400A
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### 5. .NET용 Aspose.3D를 어디서 구입할 수 있나요?
  Aspose.3D를 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

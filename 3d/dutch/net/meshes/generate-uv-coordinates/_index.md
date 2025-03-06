@@ -3,10 +3,16 @@ title: UV-coördinaten genereren
 linktitle: UV-coördinaten genereren
 second_title: Aspose.3D .NET-API
 description: Ontdek de wereld van 3D-modellering met Aspose.3D voor .NET. Master UV coördineert de opwekking moeiteloos. Breng uw projecten nu naar een hoger niveau!
-type: docs
 weight: 11
 url: /nl/net/meshes/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# UV-coördinaten genereren
+
 ## Invoering
 Ontgrendel de kracht van Aspose.3D voor .NET en duik in het rijk van het genereren van UV-coördinaten. In deze zelfstudie begeleiden we u door de essentiële stappen om dit fundamentele aspect van 3D-modellering met Aspose.3D onder de knie te krijgen. Of u nu een doorgewinterde ontwikkelaar of een nieuwkomer bent, deze gids zal u voorzien van de kennis om moeiteloos UV-coördinaten voor uw meshes te creëren en te manipuleren.
 ## Vereisten
@@ -74,3 +80,9 @@ De gratis proefperiode heeft enkele functiebeperkingen, maar u kunt de kernfunct
  Ja, u kunt een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor testen en evalueren.
 ### Vraag: Waar kan ik aanvullende tutorials en bronnen vinden?
  Ontdek de[Aspose.3D-documentatie](https://reference.aspose.com/3d/net/) voor uitgebreide handleidingen en voorbeelden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

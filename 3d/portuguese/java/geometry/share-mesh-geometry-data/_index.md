@@ -3,10 +3,16 @@ title: Compartilhe dados de geometria de malha em Java 3D com Aspose.3D
 linktitle: Compartilhe dados de geometria de malha em Java 3D com Aspose.3D
 second_title: API Java Aspose.3D
 description: Explore as maravilhas do Java 3D com Aspose.3D. Aprenda como compartilhar facilmente dados de geometria de malha entre nós neste tutorial abrangente.
-type: docs
 weight: 15
 url: /pt/java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Compartilhe dados de geometria de malha em Java 3D com Aspose.3D
+
 ## Introdução
 
 Embarcar em uma jornada no reino do Java 3D com Aspose.3D abre um mundo de possibilidades para a criação de visualizações impressionantes e experiências imersivas. Neste tutorial, iremos guiá-lo através do processo de compartilhamento de dados de geometria de malha em Java 3D usando Aspose.3D. Siga cada etapa cuidadosamente e, no final, você estará trocando dados de malha perfeitamente entre vários nós.
@@ -117,3 +123,9 @@ A1: Sim, o Aspose.3D foi projetado para funcionar perfeitamente com vários fram
 ### Q5: Como obtenho uma licença temporária para Aspose.3D?
 
  A5: Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

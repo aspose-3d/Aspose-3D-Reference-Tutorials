@@ -3,10 +3,16 @@ title: مشهد الافتتاح من ملف PDF المحمي
 linktitle: مشهد الافتتاح من ملف PDF المحمي
 second_title: Aspose.3D.NET API
 description: استكشف إمكانيات النمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. تعلم كيفية فتح المشاهد من ملفات PDF المحمية في دليلنا خطوة بخطوة.
-type: docs
 weight: 17
 url: /ar/net/loading-and-saving/pdf/open-scene-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مشهد الافتتاح من ملف PDF المحمي
+
 ## مقدمة
 
 مرحبًا بك في دليلنا الشامل حول الاستفادة من إمكانات Aspose.3D لـ .NET لتحسين مهام النمذجة والمعالجة ثلاثية الأبعاد. Aspose.3D عبارة عن واجهة برمجة تطبيقات قوية تتيح للمطورين العمل بسلاسة مع تنسيقات الملفات ثلاثية الأبعاد في تطبيقات .NET الخاصة بهم. في هذا البرنامج التعليمي، سنركز على الجانب الحيوي للتحميل والحفظ، وتحديدًا فتح مشهد من ملف PDF محمي باستخدام Aspose.3D لـ .NET.
@@ -97,3 +103,9 @@ scene.Open(RunExamples.GetDataFilePath("House_Design.pdf"), opt);
 ### س5: هل أحتاج إلى ترخيص مؤقت للاختبار؟
 
  ج5: نعم، إذا كنت بحاجة إلى ترخيص مؤقت لأغراض الاختبار، فيمكنك الحصول عليه[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

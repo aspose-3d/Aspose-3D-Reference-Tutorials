@@ -3,10 +3,16 @@ title: Rendering Scene into Cubemap with Six Faces
 linktitle: Rendering Scene into Cubemap with Six Faces
 second_title: Aspose.3D .NET API
 description: Create stunning cubemaps with Aspose.3D for .NET. Follow our step-by-step guide for rendering 3D scenes into captivating six-faced cubemaps.
-type: docs
 weight: 14
 url: /net/rendering/render-scene-cubemap/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendering Scene into Cubemap with Six Faces
+
 ## Introduction
 Welcome to this step-by-step guide on rendering a scene into a cubemap with six faces using Aspose.3D for .NET. In this tutorial, we'll walk you through the process of creating a stunning cubemap by rendering a 3D scene. Aspose.3D is a powerful .NET API that simplifies 3D graphics manipulation, and with this guide, you'll harness its capabilities to create captivating cubemaps.
 ## Prerequisites
@@ -86,3 +92,10 @@ Yes, you can access the free trial [here](https://releases.aspose.com/).
 Absolutely! Aspose.3D supports rendering animated 3D scenes.
 ### Q: Where can I find detailed documentation?
 Refer to the [Aspose.3D documentation](https://reference.aspose.com/3d/net/) for in-depth information.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

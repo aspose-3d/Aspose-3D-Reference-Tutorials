@@ -3,10 +3,16 @@ title: Aspose.3D ile Java'da 3D Sphere Yarıçapını değiştirin
 linktitle: Aspose.3D ile Java'da 3D Sphere Yarıçapını değiştirin
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile Java 3D programlamayı keşfedin, küre yarıçapını zahmetsizce değiştirin. Sorunsuz bir 3D geliştirme deneyimi için hemen indirin.
-type: docs
 weight: 10
 url: /tr/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D ile Java'da 3D Sphere Yarıçapını değiştirin
+
 ## giriiş
 
 Aspose.3D for Java kullanarak 3 boyutlu kürenin yarıçapını değiştirmeye yönelik adım adım kılavuzumuza hoş geldiniz. Aspose.3D, geliştiricilerin 3D dosyalarla çalışmasına ve bunları sorunsuz bir şekilde işlemesine olanak tanıyan güçlü bir Java kitaplığıdır. Bu derste pratik örnekler ve ayrıntılı açıklamalar kullanarak 3 boyutlu bir kürenin yarıçapını değiştirmeye odaklanacağız.
@@ -103,3 +109,9 @@ Tebrikler! Aspose.3D for Java'yı kullanarak 3B küre yarıçapını başarıyla
 ### S5: Aspose.3D için nasıl geçici lisans alabilirim?
 
  Cevap5: Ziyaret ederek geçici bir lisans alabilirsiniz.[Geçici Lisans](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

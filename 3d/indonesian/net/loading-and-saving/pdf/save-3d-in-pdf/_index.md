@@ -3,10 +3,16 @@ title: Menyimpan 3D dalam PDF
 linktitle: Menyimpan 3D dalam PDF
 second_title: Aspose.3D .NET API
 description: Jelajahi Aspose.3D untuk .NET. Pustaka pilihan Anda untuk pemodelan dan rendering 3D yang lancar. Simpan model 3D dalam PDF dengan mudah.
-type: docs
 weight: 19
 url: /id/net/loading-and-saving/pdf/save-3d-in-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyimpan 3D dalam PDF
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif kami tentang penggunaan Aspose.3D untuk .NET! Dalam tutorial ini, kami akan memandu Anda melalui proses memuat dan menyimpan model 3D, dengan fokus pada tugas khusus menyimpan model 3D dalam format PDF. Aspose.3D untuk .NET adalah perpustakaan canggih yang menyediakan alat efisien untuk bekerja dengan file 3D, menjadikannya sumber daya penting bagi pengembang dan penggemar di bidangnya.
@@ -98,3 +104,9 @@ A2: Tentu saja! Seperti yang ditunjukkan dalam tutorial, Anda dapat menyesuaikan
 ### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.3D untuk .NET?
 
  A5: Untuk mendapatkan lisensi sementara, kunjungi[Link ini](https://purchase.aspose.com/temporary-license/) dan ikuti instruksi yang diberikan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

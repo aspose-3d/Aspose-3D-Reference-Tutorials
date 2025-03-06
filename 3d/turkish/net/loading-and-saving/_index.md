@@ -3,10 +3,16 @@ title: Yükleme ve Kaydetme
 linktitle: Yükleme ve Kaydetme
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D modelleme oyununuzu bir üst seviyeye taşıyın! CancellationToken'ı kullanarak verimli yükleme ve kaydetme tekniklerinde ustalaşın. Şimdi keşfedin!
-type: docs
 weight: 27
 url: /tr/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Yükleme ve Kaydetme
+
 ## giriiş
 
 Kesintisiz ve verimli 3D belge manipülasyonuna açılan kapınız olan Aspose.3D for .NET ile 3D modellemenin büyüleyici dünyasına dalın. Bu eğitim serisinde, 3D modelleri yükleme ve kaydetmenin inceliklerini keşfederek yaratıcı olasılıklarla dolu bir dünyanın kilidini açacağız.
@@ -105,3 +111,9 @@ Sahne özellikleri, nesne nitelikleri ve diğer ilgili veriler gibi meta veriler
 ### Gömülü dokuları USDZ'den belleğe yükleyin
 
 USDZ dosyalarındaki gömülü doku verilerine erişim.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

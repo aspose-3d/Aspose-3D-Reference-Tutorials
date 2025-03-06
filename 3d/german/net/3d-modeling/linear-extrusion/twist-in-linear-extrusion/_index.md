@@ -3,10 +3,16 @@ title: Verdrehen in der linearen Extrusion
 linktitle: Verdrehen in der linearen Extrusion
 second_title: Aspose.3D .NET API
 description: Entdecken Sie die faszinierende Welt der 3D-Grafik mit Aspose.3D für .NET. Lernen Sie Schritt für Schritt die lineare Extrusion mit einem Twist.
-type: docs
 weight: 14
 url: /de/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verdrehen in der linearen Extrusion
+
 ## Einführung
 
 In der sich ständig weiterentwickelnden Welt der .NET-Entwicklung ist die Nutzung der Leistungsfähigkeit von 3D-Grafiken ein spannendes Unterfangen. Aspose.3D für .NET erweist sich als wertvolles Toolkit, das Entwicklern die nahtlose Erstellung immersiver und visuell beeindruckender Anwendungen ermöglicht. In diesem umfassenden Leitfaden befassen wir uns mit einer faszinierenden Funktion – der linearen Extrusion mit einem Twist. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess und erschließt das Potenzial von Aspose.3D für .NET.
@@ -118,3 +124,9 @@ A4: Auf jeden Fall! Aspose.3D bietet zahlreiche Funktionen. Für komplexere Desi
 ### F5: Gibt es eine Community für Aspose.3D-Support und Diskussionen?
 
  A5: Ja, treten Sie der Aspose.3D-Community bei[Aspose-Forum](https://forum.aspose.com/c/3d/18) für die Unterstützung und die spannenden Diskussionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

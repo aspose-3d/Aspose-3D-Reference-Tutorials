@@ -3,10 +3,16 @@ title: Manipulace s 3D objekty a scénami v Javě
 linktitle: Manipulace s 3D objekty a scénami v Javě
 second_title: Aspose.3D Java API
 description: Odemkněte svět Java 3D programování pomocí výukových programů Aspose.3D. Naučte se upravovat poloměr koule a bez námahy používat dotazy podobné XPath pro bezproblémový 3D vývoj.
-type: docs
 weight: 33
 url: /cs/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s 3D objekty a scénami v Javě
+
 ## Úvod
 
 Java 3D programování se stává fascinující cestou s Aspose.3D tutoriály, které se zaměřují na manipulaci s 3D objekty a scénami. V tomto článku se ponoříme do dvou základních výukových programů, které slibují, že posouvají vaše 3D vývojové dovednosti.
@@ -27,3 +33,9 @@ Závěrem lze říci, že tyto výukové programy fungují jako vaše brána ke 
 Prozkoumejte programování Java 3D s Aspose.3D a bez námahy upravte poloměr koule. Stáhněte si nyní pro bezproblémový 3D vývoj.
 ### [Aplikujte dotazy podobné XPath na 3D objekty v Javě](./xpath-like-object-queries/)
 Zvládněte dotazy na 3D objekty v Javě bez námahy s Aspose.3D. Aplikujte dotazy podobné XPath, manipulujte se scénami a pozvedněte svůj 3D vývoj.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

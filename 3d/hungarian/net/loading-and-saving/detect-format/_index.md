@@ -3,10 +3,16 @@ title: Formátum észlelése
 linktitle: Formátum észlelése
 second_title: Aspose.3D .NET API
 description: Az Aspose.3D for .NET segítségével könnyedén kezelheti a 3D fájlokat. A formátumok zökkenőmentes betöltése, mentése és észlelése.
-type: docs
 weight: 12
 url: /hu/net/loading-and-saving/detect-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formátum észlelése
+
 ## Bevezetés
 
 Üdvözöljük a 3D fájlkezelés izgalmas világában az Aspose.3D for .NET használatával! Akár tapasztalt fejlesztő, akár csak most kezdi a 3D grafikát, ez az oktatóanyag végigvezeti a formátumok könnyű betöltésének, mentésének és észlelésének folyamatán.
@@ -93,3 +99,9 @@ Gratulálunk! Sikeresen betöltött, észlelt és elmentett egy 3D fájlt az Asp
 ### 5. kérdés: Kipróbálhatom ingyenesen az Aspose.3D-t a vásárlás előtt?
 
  A5: Természetesen! Töltse le az ingyenes próbaverziót innen[Aspose.3D kiadások](https://releases.aspose.com/) hogy saját bőrén tapasztalja meg képességeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

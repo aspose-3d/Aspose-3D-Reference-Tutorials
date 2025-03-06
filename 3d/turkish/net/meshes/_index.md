@@ -3,10 +3,16 @@ title: Kafesler
 linktitle: Kafesler
 second_title: Aspose.3D .NET API'si
 description: Kapsamlı eğitimlerimizle Aspose.3D for .NET'in sırlarını açığa çıkarın. 3D modelleri optimize edin, temel öğeleri ağlara dönüştürün ve grafikleri zahmetsizce geliştirin.
-type: docs
 weight: 26
 url: /tr/net/meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kafesler
+
 ## giriiş
 
 Aspose.3D for .NET, 3D ağların inceliklerine dalmak isteyen geliştiriciler için bir olasılıklar dünyasının kapılarını açıyor. Bu makalede, her biri Aspose.3D for .NET'in tüm potansiyelinden yararlanma konusunda benzersiz bir bakış açısı sunan çeşitli mesh Eğitimleri konusunda size rehberlik edeceğiz.
@@ -69,3 +75,9 @@ Aspose.3D for .NET ile 3D ağları malzemeye göre bölme sanatında ustalaşın
 [Eğiticiyi okuyun: Mesh'i Malzemeye Göre Böl](./split-mesh-by-material/)
 
 Sonuç olarak Aspose.3D for .NET eğitimlerimiz, 3D modellemenin çeşitli yönlerinde uzmanlaşmak için kapsamlı bir rehber sunuyor. Dalış yapın, becerilerinizi geliştirin ve 3D geliştirme oyununuzu yükseltin!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 3D geometria használata Java nyelven
 linktitle: 3D geometria használata Java nyelven
 second_title: Aspose.3D Java API
 description: Fedezze fel az Aspose.3D for Java oktatóanyagait a 3D geometriával való munkavégzésről. Sajátítson el PBR-anyagokat, kvaternióforgatásokat, kockajeleneteket és sok mást. Emelje fel Java 3D grafikáját.
-type: docs
 weight: 21
 url: /hu/java/geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D geometria használata Java nyelven
+
 ## Bevezetés
 Készen áll arra, hogy elmélyüljön a 3D grafika lenyűgöző birodalmában az Aspose.3D for Java segítségével? Oktatóanyagaink a témakörök széles skáláját fedik le, lehetővé téve, hogy Java-alkalmazásait erőteljes és vizuálisan lenyűgöző 3D elemekkel fejlessze. Lépésről lépésre induljunk el ezen az úton.
 
@@ -89,3 +95,9 @@ Javítsa Java-alkalmazásait az Aspose.3D segítségével az erőteljes 3D-s át
 Fedezze fel a 3D grafika világát Java nyelven az Aspose.3D segítségével. Tanulja meg a csomópontok könnyed átalakítását transzformációs mátrixok segítségével.
 ### [Háromszögletű hálók az optimalizált leképezéshez Java nyelven az Aspose.3D segítségével](./triangulate-meshes-for-optimized-rendering/)
 Ismerje meg, hogyan növelheti a 3D-s megjelenítés hatékonyságát Java nyelven az Aspose.3D használatával. Háromszög alakú hálók az optimális teljesítmény érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

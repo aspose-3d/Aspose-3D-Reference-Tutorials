@@ -3,10 +3,16 @@ title: Ломтики в линейной экструзии
 linktitle: Ломтики в линейной экструзии
 second_title: Aspose.3D .NET API
 description: Исследуйте мир 3D-дизайна с помощью Aspose.3D для .NET. Создавайте потрясающие модели, используя наше руководство по линейной экструзии.
-type: docs
 weight: 13
 url: /ru/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ломтики в линейной экструзии
+
 ## Введение
 
 Добро пожаловать в мир 3D-дизайна с использованием Aspose.3D для .NET! Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это руководство проведет вас через процесс создания потрясающих 3D-визуализаций с использованием мощной библиотеки Aspose.3D.
@@ -116,3 +122,9 @@ scene.Save("Your Output Directory" + "SlicesInLinearExtrusion.obj", FileFormat.W
 ### Вопрос 5: Могу ли я использовать временную лицензию на Aspose.3D для .NET?
 
  A5: Да, получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/) в целях оценки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.3D for Java ile Doğrusal Ekstrüzyonda Twist Uygulamak
 linktitle: Aspose.3D for Java ile Doğrusal Ekstrüzyonda Twist Uygulamak
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java'yı kullanarak 3D modellerinize nasıl yenilik ekleyeceğinizi öğrenin. Gelişmiş doğrusal ekstrüzyon efektleri için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 14
 url: /tr/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java ile Doğrusal Ekstrüzyonda Twist Uygulamak
+
 ## giriiş
 
 Aspose.3D for Java kullanarak doğrusal ekstrüzyonda bir değişiklik uygulamaya yönelik bu adım adım eğitime hoş geldiniz. Aspose.3D, geliştiricilerin 3D dosya formatlarıyla çalışmasına olanak tanıyan, 3D sahneleri oluşturmak, değiştirmek ve işlemek için güçlü işlevsellik sunan güçlü bir Java kütüphanesidir. Bu eğitimde, 3D modellerinizi geliştirmek için doğrusal ekstrüzyon işlemi sırasında büküm efektinin nasıl uygulanacağını keşfedeceğiz.
@@ -119,3 +125,9 @@ Cevap1: Evet, Aspose.3D çeşitli 3D dosya formatlarını destekleyerek farklı 
 ### S5: Aspose.3D for Java'yı nereden satın alabilirim?
 
  Cevap5: Java için Aspose.3D'yi şu adresten satın alın:[satın alma sayfası](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

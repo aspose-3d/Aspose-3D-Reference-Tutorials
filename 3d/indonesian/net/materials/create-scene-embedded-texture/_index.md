@@ -3,10 +3,16 @@ title: Membuat Adegan dengan Tekstur Tertanam
 linktitle: Membuat Adegan dengan Tekstur Tertanam
 second_title: Aspose.3D .NET API
 description: Buat pemandangan 3D yang memukau dengan tekstur tertanam menggunakan Aspose.3D untuk .NET. Ikuti panduan langkah demi langkah kami untuk hasil yang menakjubkan.
-type: docs
 weight: 10
 url: /id/net/materials/create-scene-embedded-texture/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Adegan dengan Tekstur Tertanam
+
 ## Perkenalan
 Selamat datang di dunia grafis 3D yang menarik dengan Aspose.3D untuk .NET! Dalam tutorial komprehensif ini, kami akan memandu Anda melalui proses pembuatan pemandangan 3D yang menakjubkan dengan tekstur tertanam menggunakan Aspose.3D, perpustakaan yang kuat dan serbaguna untuk pengembang .NET.
 ## Prasyarat
@@ -109,3 +115,9 @@ J: Aspose.3D menyediakan kemampuan animasi; lihat dokumentasi untuk instruksi ri
  J: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan dan diskusi komunitas.
 ### T: Dapatkah saya menggunakan Aspose.3D untuk proyek komersial?
  A: Ya, Anda dapat membeli lisensinya[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

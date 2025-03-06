@@ -3,10 +3,16 @@ title: Wyodrębnianie surowej zawartości 3D z pliku PDF
 linktitle: Wyodrębnianie surowej zawartości 3D z pliku PDF
 second_title: Aspose.3D API .NET
 description: Dowiedz się, jak wyodrębnić zawartość 3D z pliku PDF za pomocą Aspose.3D dla .NET. Przewodnik krok po kroku z przykładami kodu.
-type: docs
 weight: 14
 url: /pl/net/loading-and-saving/pdf/extract-raw-3d-contents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnianie surowej zawartości 3D z pliku PDF
+
 ## Wstęp
 
 Witamy w tym kompleksowym przewodniku na temat wyodrębniania surowej zawartości 3D z pliku PDF przy użyciu Aspose.3D dla .NET. Aspose.3D to potężny i wszechstronny interfejs API, który umożliwia programistom bezproblemową pracę z plikami 3D. W tym samouczku skupimy się na procesie wyodrębniania surowej zawartości 3D z plików PDF, dostarczając wskazówek krok po kroku.
@@ -90,3 +96,9 @@ Odpowiedź 1: Tak, Aspose.3D obsługuje szeroką gamę formatów plików 3D, dzi
 ### P5: Czy dostępna jest dokumentacja dla Aspose.3D?
 
  Odpowiedź 5: Tak, można znaleźć dokumentację[Tutaj](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

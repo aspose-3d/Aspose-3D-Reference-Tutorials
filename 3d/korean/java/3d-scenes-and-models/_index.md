@@ -3,10 +3,16 @@ title: Java에서 3D 장면 및 모델 작업
 linktitle: Java에서 3D 장면 및 모델 작업
 second_title: Aspose.3D 자바 API
 description: 튜토리얼을 통해 Java용 Aspose.3D의 강력한 기능을 알아보세요. Java 애플리케이션에서 정밀도, 저장 효율성 및 3D 장면 조작을 향상시킵니다.
-type: docs
 weight: 29
 url: /ko/java/3d-scenes-and-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 3D 장면 및 모델 작업
+
 ## 소개
 
 Java 애플리케이션을 3D 그래픽 및 모델링 분야에서 새로운 차원으로 끌어올릴 준비가 되셨습니까? Java용 포괄적인 Aspose.3D 튜토리얼에 오신 것을 환영합니다! 단계별 지침을 통해 3D 장면 위치 지정, 압축, 정보 검색, 메시 저장 및 원활한 속성 조작의 잠재력을 활용해 보세요.
@@ -43,3 +49,9 @@ Aspose.3D를 사용하여 Java에서 3D 장면 조작의 세계를 탐험해보�
 Java용 Aspose.3D를 사용하여 사용자 정의 바이너리 형식으로 3D 메시를 저장하는 방법을 알아보세요. 이 단계별 튜토리얼을 통해 Java 애플리케이션의 유연성을 향상하세요.
 ### [Aspose.3D를 사용하여 Java 장면에서 3D 속성 및 사용자 정의 데이터 작업](./managing-3d-properties-scenes/)
 원활한 3D 속성 조작을 위해 Aspose.3D로 Java 애플리케이션을 강화하세요. 단계별 안내를 보려면 튜토리얼을 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

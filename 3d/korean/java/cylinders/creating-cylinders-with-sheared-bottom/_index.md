@@ -3,10 +3,16 @@ title: Java용 Aspose.3D에서 바닥이 전단된 원통 만들기
 linktitle: Java용 Aspose.3D에서 바닥이 전단된 원통 만들기
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 바닥이 잘린 맞춤형 실린더를 만드는 방법을 알아보세요. 이 단계별 가이드를 통해 3D 모델링 기술을 향상하세요.
-type: docs
 weight: 12
 url: /ko/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D에서 바닥이 전단된 원통 만들기
+
 ## 소개
 
 Java용 Aspose.3D를 사용하여 바닥이 잘린 원통을 만드는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.3D는 3D 파일을 쉽게 작업할 수 있게 해주는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 바닥이 잘린 맞춤형 실린더를 만드는 방법을 알아보고 Aspose.3D를 사용하여 3D 모델링 기술을 향상시키는 실습 경험을 제공합니다.
@@ -100,3 +106,9 @@ A2: 예, Aspose.3D는 사용자 친화적인 API를 제공하므로 3D 모델링
 ### Q5: Java용 Aspose.3D를 구입할 수 있나요?
 
  A5: 예, Java용 Aspose.3D를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

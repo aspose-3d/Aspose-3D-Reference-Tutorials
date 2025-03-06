@@ -3,10 +3,16 @@ title: 로드 및 저장
 linktitle: 로드 및 저장
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D로 3D 모델링 게임을 향상시키세요! CancellationToken을 사용하여 효율적인 로딩 및 저장 기술을 익히세요. 지금 탐험해보세요!
-type: docs
 weight: 27
 url: /ko/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 로드 및 저장
+
 ## 소개
 
 원활하고 효율적인 3D 문서 조작을 위한 게이트웨이인 .NET용 Aspose.3D를 사용하여 매혹적인 3D 모델링 영역에 빠져보세요. 이 튜토리얼 시리즈에서는 3D 모델 로드 및 저장의 복잡한 과정을 살펴보고 창의적인 가능성의 세계를 열어보겠습니다.
@@ -105,3 +111,9 @@ glTF 내보내기 중 압축을 지원하여 시각적 품질 저하 없이 파�
 ### USDZ에서 메모리로 내장된 텍스처 로드
 
 USDZ 파일 내에 포함된 텍스처 데이터에 액세스합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

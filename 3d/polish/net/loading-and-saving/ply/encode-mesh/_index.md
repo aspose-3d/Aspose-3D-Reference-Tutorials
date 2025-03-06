@@ -3,10 +3,16 @@ title: Kodowanie siatki do formatu PLY
 linktitle: Kodowanie siatki do formatu PLY
 second_title: Aspose.3D API .NET
 description: Poznaj świat programowania 3D z Aspose.3D dla .NET. Dowiedz się, jak bez wysiłku kodować siatki do formatu PLY. Podnieś poziom swojej gry rozwojowej!
-type: docs
 weight: 13
 url: /pl/net/loading-and-saving/ply/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kodowanie siatki do formatu PLY
+
 ## Wstęp
 Wyruszenie w podróż do świata programowania 3D może być zarówno ekscytujące, jak i onieśmielające. Jako programista możesz pragnąć poznać możliwości, jakie oferuje grafika 3D. W tym samouczku zagłębimy się w fascynujący proces kodowania siatki do formatu PLY przy użyciu Aspose.3D dla .NET.
 ## Warunki wstępne
@@ -56,3 +62,9 @@ Absolutnie! Aspose.3D obsługuje kodowanie różnych kształtów 3D, pozwalając
  Odwiedź forum Aspose.3D[Tutaj](https://forum.aspose.com/c/3d/18) nawiązać kontakt ze społecznością i poprosić o pomoc.
 ### 5. Czy dostępna jest bezpłatna wersja próbna Aspose.3D?
  Z pewnością! Poznaj możliwości Aspose.3D dzięki bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

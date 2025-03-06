@@ -3,10 +3,16 @@ title: Áp dụng hiệu ứng hình ảnh trong chế độ xem 3D
 linktitle: Áp dụng hiệu ứng hình ảnh trong chế độ xem 3D
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới trực quan 3D với Aspose.3D cho .NET. Tìm hiểu cách áp dụng các hiệu ứng hình ảnh hấp dẫn cho cảnh của bạn bằng cách sử dụng hướng dẫn từng bước. Nâng cao dự án của bạn với các hiệu ứng pixel, thang độ xám, phát hiện cạnh và làm mờ.
-type: docs
 weight: 10
 url: /vi/net/rendering/apply-visual-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng hiệu ứng hình ảnh trong chế độ xem 3D
+
 ## Giới thiệu
 
 Nâng cao sức hấp dẫn trực quan của cảnh 3D là một khía cạnh quan trọng trong việc tạo ra trải nghiệm sống động. Aspose.3D for .NET cung cấp một bộ công cụ mạnh mẽ để áp dụng hiệu ứng hình ảnh cho chế độ xem 3D. Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình áp dụng các hiệu ứng khác nhau cho cảnh 3D, bao gồm tạo pixel, thang độ xám, phát hiện cạnh và làm mờ.
@@ -179,3 +185,9 @@ Câu trả lời 4: Aspose.3D cung cấp nhiều hiệu ứng xử lý hậu k�
 ### Câu hỏi 5: Tôi có thể sử dụng Aspose.3D cho các dự án thương mại không?
 
  Câu trả lời 5: Có, bạn có thể sử dụng Aspose.3D cho mục đích thương mại. Tham khảo đến[trang mua hàng](https://purchase.aspose.com/buy) để biết chi tiết cấp phép.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

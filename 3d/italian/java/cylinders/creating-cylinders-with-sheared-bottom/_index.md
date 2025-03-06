@@ -3,10 +3,16 @@ title: Creazione di cilindri con fondo tranciato in Aspose.3D per Java
 linktitle: Creazione di cilindri con fondo tranciato in Aspose.3D per Java
 second_title: API Java Aspose.3D
 description: Impara a creare cilindri personalizzati con fondo tranciato utilizzando Aspose.3D per Java. Migliora le tue capacità di modellazione 3D con questa guida passo passo.
-type: docs
 weight: 12
 url: /it/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creazione di cilindri con fondo tranciato in Aspose.3D per Java
+
 ## introduzione
 
 Benvenuti in questa guida passo passo sulla creazione di cilindri con fondo tranciato utilizzando Aspose.3D per Java. Aspose.3D è una potente libreria Java che ti consente di lavorare con file 3D senza sforzo. In questo tutorial, ci immergeremo nella creazione di cilindri personalizzati con fondo tranciato, fornendoti un'esperienza pratica nell'utilizzo di Aspose.3D per migliorare le tue capacità di modellazione 3D.
@@ -100,3 +106,9 @@ A2: Sì, Aspose.3D fornisce un'API intuitiva, rendendola adatta sia ai principia
 ### Q5: Posso acquistare Aspose.3D per Java?
 
  A5: Sì, puoi acquistare Aspose.3D per Java[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

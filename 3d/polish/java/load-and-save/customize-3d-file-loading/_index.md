@@ -3,10 +3,16 @@ title: Dostosuj ładowanie plików 3D w Javie za pomocą Aspose.3D LoadOptions
 linktitle: Dostosuj ładowanie plików 3D w Javie za pomocą Aspose.3D LoadOptions
 second_title: Aspose.3D API Java
 description: Ulepsz ładowanie plików 3D w Javie dzięki konfigurowalnym modułom LoadOptions Aspose.3D. Naucz się krok po kroku dostosowywania dla 3DS, OBJ, STL, U3D, glTF, PLY, X i opcjonalnego FBX.
-type: docs
 weight: 12
 url: /pl/java/load-and-save/customize-3d-file-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosuj ładowanie plików 3D w Javie za pomocą Aspose.3D LoadOptions
+
 ## Wstęp
 
 stale zmieniającym się środowisku projektowania i rozwoju 3D, wydajna obsługa formatów plików 3D ma kluczowe znaczenie. Aspose.3D dla Java zapewnia potężne rozwiązanie umożliwiające dostosowanie ładowania różnych formatów plików 3D. Ten samouczek poprowadzi Cię przez proces dostosowywania ładowania plików 3D w Javie przy użyciu opcji LoadOptions Aspose.3D.
@@ -156,3 +162,9 @@ Dostosowywanie ładowania plików 3D w Javie za pomocą opcji LoadOptions Aspose
 ### P5: Czy potrzebuję tymczasowej licencji do testowania?
 
  Odpowiedź 5: Tak, uzyskaj licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

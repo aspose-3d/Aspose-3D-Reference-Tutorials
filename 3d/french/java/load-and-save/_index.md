@@ -3,10 +3,16 @@ title: Travailler avec des fichiers 3D en Java - Créer, charger, enregistrer et
 linktitle: Travailler avec des fichiers 3D en Java - Créer, charger, enregistrer et convertir
 second_title: API Java Aspose.3D
 description: Maîtrisez sans effort la manipulation de fichiers 3D en Java avec les didacticiels Aspose.3D. Créez, chargez, enregistrez et convertissez facilement des fichiers 3D à l'aide de guides étape par étape.
-type: docs
 weight: 30
 url: /fr/java/load-and-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec des fichiers 3D en Java - Créer, charger, enregistrer et convertir
+
 
 ## Introduction
 
@@ -56,3 +62,9 @@ Explorez le monde des graphiques 3D avec Aspose.3D pour Java. Lisez et manipulez
 Explorez le monde transparent de la manipulation de scènes 3D en Java avec Aspose.3D. Apprenez à enregistrer des scènes dans différents formats sans effort.
 ### [Optimisez l'enregistrement de fichiers 3D en Java avec Aspose.3D SaveOptions](./optimize-3d-file-saving/)
 Découvrez comment optimiser l'enregistrement de fichiers 3D en Java avec Aspose.3D SaveOptions. Améliorez les performances et personnalisez les sorties sans effort.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

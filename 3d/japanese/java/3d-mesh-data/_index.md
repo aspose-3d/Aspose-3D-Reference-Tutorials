@@ -3,10 +3,16 @@ title: Java での 3D メッシュ データの最適化と操作
 linktitle: Java での 3D メッシュ データの最適化と操作
 second_title: Aspose.3D Java API
 description: Aspose.3D for Java を使用して 3D アプリケーションを最適化します。 Google Draco を使用してメッシュを圧縮し、メッシュ データを生成し、マテリアルごとに 3D メッシュを効率的に処理する方法を学びます。
-type: docs
 weight: 32
 url: /ja/java/3d-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java での 3D メッシュ データの最適化と操作
+
 ## 導入
 
 Java での 3D 開発スキルを向上させる準備はできていますか? Aspose.3D の世界に飛び込み、3D メッシュ データの最適化と操作に関する包括的なチュートリアルをお届けします。経験豊富な開発者でも、初心者でも、これらのチュートリアルを使用すると、Java プロジェクトを簡単に強化できます。
@@ -31,3 +37,9 @@ Aspose.3D を使用して 3D アプリケーションを最適化します。 Ja
 Aspose.3D を使用して Java プロジェクトを強化します。チュートリアルに従って、3D メッシュの法線データを簡単に生成します。 3D グラフィックスを簡単に体験できます。
 ### [Java で効率的に処理するためにマテリアルごとに 3D メッシュを分割する](./split-meshes-by-material/)
 マテリアルごとに 3D メッシュを効率的に分割するためのステップバイステップのガイドを使用して、Java の Aspose.3D の威力を体験してください。アプリケーションのパフォーマンスをシームレスに強化します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Memulai dengan Aspose.3D untuk Java
 linktitle: Memulai dengan Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Temukan kekuatan Aspose.3D Java melalui tutorial mendalam kami. Pelajari cara menerapkan lisensi untuk mengeluarkan kemampuan penuh alat Java yang canggih ini.
-type: docs
 weight: 22
 url: /id/java/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memulai dengan Aspose.3D untuk Java
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan aplikasi Java Anda dengan fitur Aspose.3D yang luar biasa? Selami tutorial komprehensif kami yang akan memandu Anda melalui setiap aspek, dimulai dengan langkah mendasar dalam menerapkan lisensi.
@@ -37,3 +43,9 @@ Kesimpulannya, Tutorial Aspose.3D untuk Java kami membuka jalan bagi pengalaman 
 ## Memulai Aspose.3D untuk Tutorial Java
 ### [Menerapkan Lisensi di Aspose.3D untuk Java](./applying-license-in-aspose-3d/)
 Buka potensi penuh Aspose.3D dalam aplikasi Java dengan mengikuti panduan komprehensif kami dalam menerapkan lisensi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

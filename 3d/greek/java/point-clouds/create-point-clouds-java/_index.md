@@ -3,10 +3,16 @@ title: Δημιουργήστε Point Cloud από Meshes σε Java
 linktitle: Δημιουργήστε Point Cloud από Meshes σε Java
 second_title: Aspose.3D Java API
 description: Εξερευνήστε τον κόσμο της τρισδιάστατης μοντελοποίησης σε Java με το Aspose.3D. Μάθετε να δημιουργείτε αβίαστα σύννεφα σημείων από πλέγματα.
-type: docs
 weight: 12
 url: /el/java/point-clouds/create-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργήστε Point Cloud από Meshes σε Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτό το περιεκτικό σεμινάριο για τη δημιουργία σύννεφων σημείων από πλέγματα σε Java χρησιμοποιώντας το Aspose.3D. Το Aspose.3D είναι μια ισχυρή βιβλιοθήκη Java που παρέχει εκτεταμένες λειτουργίες για τρισδιάστατη μοντελοποίηση και χειρισμό. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας σύννεφων σημείων από πλέγματα, προσφέροντας σαφή και λεπτομερή βήματα για μια απρόσκοπτη εμπειρία.
@@ -83,3 +89,9 @@ FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
 ### Ε5: Πού μπορώ να βρω την τεκμηρίωση;
 
  A5: Ανατρέξτε στο[τεκμηρίωση](https://reference.aspose.com/3d/java/) για αναλυτικές πληροφορίες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

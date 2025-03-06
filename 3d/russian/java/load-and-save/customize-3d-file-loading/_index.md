@@ -3,10 +3,16 @@ title: Настройте загрузку 3D-файлов в Java с помощ
 linktitle: Настройте загрузку 3D-файлов в Java с помощью Aspose.3D LoadOptions
 second_title: Aspose.3D Java API
 description: Улучшите загрузку 3D-файлов на Java с помощью настраиваемых параметров LoadOptions Aspose.3D. Изучите пошаговую настройку 3DS, OBJ, STL, U3D, glTF, PLY, X и дополнительного FBX.
-type: docs
 weight: 12
 url: /ru/java/load-and-save/customize-3d-file-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройте загрузку 3D-файлов в Java с помощью Aspose.3D LoadOptions
+
 ## Введение
 
 В постоянно развивающемся мире 3D-проектирования и разработки решающее значение имеет эффективная обработка форматов 3D-файлов. Aspose.3D for Java предоставляет мощное решение для настройки загрузки различных форматов 3D-файлов. Это руководство проведет вас через процесс настройки загрузки 3D-файлов в Java с помощью LoadOptions Aspose.3D.
@@ -156,3 +162,9 @@ private static void FBXLoadOptions() throws IOException {
 ### В5: Нужна ли мне временная лицензия для тестирования?
 
  A5: Да, получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

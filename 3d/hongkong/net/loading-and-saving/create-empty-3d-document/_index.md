@@ -3,10 +3,16 @@ title: 建立空 3D 文檔
 linktitle: 建立空 3D 文檔
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 文件所建立的世界。輕鬆建立、編輯和儲存令人驚嘆的 3D 場景。
-type: docs
 weight: 11
 url: /zh-hant/net/loading-and-saving/create-empty-3d-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 建立空 3D 文檔
+
 ## 介紹
 
 歡迎來到使用 Aspose.3D for .NET 建立 3D 文件的世界！在本教程中，我們將探討載入和保存 3D 文件的基礎知識。 Aspose.3D for .NET 提供了一套強大的工具來處理 3D 場景，我們將引導您完成每個步驟，以幫助您順利入門。
@@ -84,3 +90,9 @@ A1：是的，Aspose.3D for .NET 提供了一個使用者友善的介面，無�
 ### Q5：哪裡可以購買 Aspose.3D for .NET？
 
  A5：您可以購買圖書館[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

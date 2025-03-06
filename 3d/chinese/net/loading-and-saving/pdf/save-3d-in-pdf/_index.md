@@ -3,10 +3,16 @@ title: 将 3D 保存为 PDF
 linktitle: 将 3D 保存为 PDF
 second_title: Aspose.3D .NET API
 description: 探索适用于 .NET 的 Aspose.3D。您的无缝 3D 建模和渲染首选库。轻松将 3D 模型保存为 PDF 格式。
-type: docs
 weight: 19
 url: /zh/net/loading-and-saving/pdf/save-3d-in-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将 3D 保存为 PDF
+
 ## 介绍
 
 欢迎使用我们关于使用 Aspose.3D for .NET 的综合指南！在本教程中，我们将引导您完成加载和保存 3D 模型的过程，重点关注以 PDF 格式保存 3D 模型的特定任务。 Aspose.3D for .NET 是一个功能强大的库，提供了处理 3D 文件的高效工具，使其成为该领域开发人员和爱好者的重要资源。
@@ -98,3 +104,9 @@ A2：当然！如教程中所示，您可以调整渲染模式、照明方案等
 ### Q5：如何获得 Aspose.3D for .NET 的临时许可证？
 
  A5：要获得临时许可证，请访问[这个链接](https://purchase.aspose.com/temporary-license/)并按照提供的说明进行操作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

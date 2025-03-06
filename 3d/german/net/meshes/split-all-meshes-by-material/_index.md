@@ -3,10 +3,16 @@ title: Aufteilen aller Szenennetze nach Material
 linktitle: Aufteilen aller Szenennetze nach Material
 second_title: Aspose.3D .NET API
 description: Erfahren Sie, wie Sie mit Aspose.3D für .NET 3D-Netze nach Material aufteilen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für die effiziente Organisation und Verwaltung von 3D-Modellen.
-type: docs
 weight: 21
 url: /de/net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aufteilen aller Szenennetze nach Material
+
 ## Einführung
 Willkommen bei dieser Schritt-für-Schritt-Anleitung zum Aufteilen aller Netze einer 3D-Szene nach Material mit Aspose.3D für .NET. Wenn Sie mit 3D-Modellen arbeiten und Ihre Netze basierend auf Materialien effizient organisieren möchten, ist dieses Tutorial genau das Richtige für Sie. Aspose.3D ist eine leistungsstarke .NET-Bibliothek, die eine Reihe von Funktionen für die Arbeit mit 3D-Dateien bietet und somit eine ausgezeichnete Wahl für Entwickler ist.
 ## Voraussetzungen
@@ -66,3 +72,9 @@ Aspose.3D ist in erster Linie für .NET konzipiert, bietet jedoch durch .NET-Spr
  Besuche den[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) für Community-Unterstützung und Diskussionen.
 ### 5. Kann ich eine temporäre Lizenz erhalten?
  Ja, Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

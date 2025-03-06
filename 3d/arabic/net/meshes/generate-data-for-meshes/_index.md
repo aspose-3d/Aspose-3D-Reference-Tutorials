@@ -3,10 +3,16 @@ title: توليد البيانات العادية للشبكات
 linktitle: توليد البيانات العادية للشبكات
 second_title: Aspose.3D.NET API
 description: تحسين النماذج ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET! تعلم كيفية إنشاء بيانات عادية للشبكات في هذا الدليل التفصيلي خطوة بخطوة. الواقعية تجتمع مع البساطة.
-type: docs
 weight: 20
 url: /ar/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# توليد البيانات العادية للشبكات
+
 ## مقدمة
 مرحبًا بك في هذا الدليل التفصيلي خطوة بخطوة حول إنشاء بيانات عادية للشبكات باستخدام Aspose.3D لـ .NET! إذا كنت تعمل باستخدام نماذج ثلاثية الأبعاد وترغب في تحسين المظهر المرئي عن طريق إضافة بيانات عادية، فهذا البرنامج التعليمي مناسب لك. Aspose.3D هي مكتبة .NET قوية تعمل على تبسيط برمجة الرسومات ثلاثية الأبعاد، وفي هذا الدليل، سنرشدك خلال عملية إنشاء البيانات العادية للشبكات.
 ## المتطلبات الأساسية
@@ -66,3 +72,9 @@ Console.WriteLine("\nNormal data generated successfully for all meshes.");
  الوثائق الشاملة متاحة[هنا](https://reference.aspose.com/3d/net/).
 ### ماذا لو كنت بحاجة لشراء ترخيص Aspose.3D؟
  يمكنك شراء ترخيص من[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

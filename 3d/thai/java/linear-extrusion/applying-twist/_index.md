@@ -3,10 +3,16 @@ title: การใช้ Twist ในการอัดขึ้นรูปเ
 linktitle: การใช้ Twist ในการอัดขึ้นรูปเชิงเส้นด้วย Aspose.3D สำหรับ Java
 second_title: Aspose.3D จาวา API
 description: เรียนรู้วิธีเพิ่มความแปลกใหม่ให้กับโมเดล 3 มิติของคุณโดยใช้ Aspose.3D สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อเพิ่มเอฟเฟกต์การอัดขึ้นรูปเชิงเส้น
-type: docs
 weight: 14
 url: /th/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การใช้ Twist ในการอัดขึ้นรูปเชิงเส้นด้วย Aspose.3D สำหรับ Java
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่บทช่วยสอนแบบทีละขั้นตอนเกี่ยวกับการใช้การบิดในการอัดขึ้นรูปเชิงเส้นโดยใช้ Aspose.3D สำหรับ Java Aspose.3D เป็นไลบรารี Java อันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับรูปแบบไฟล์ 3D ได้ โดยมีฟังก์ชันการทำงานที่มีประสิทธิภาพสำหรับการสร้าง จัดการ และเรนเดอร์ฉาก 3D ในบทช่วยสอนนี้ เราจะสำรวจวิธีการใช้เอฟเฟกต์การบิดในระหว่างกระบวนการอัดขึ้นรูปเชิงเส้นเพื่อปรับปรุงโมเดล 3D ของคุณ
@@ -119,3 +125,9 @@ scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### คำถามที่ 5: ฉันจะซื้อ Aspose.3D สำหรับ Java ได้ที่ไหน
 
  A5: ซื้อ Aspose.3D สำหรับ Java จาก[หน้าซื้อ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

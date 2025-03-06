@@ -3,10 +3,16 @@ title: Salvataggio di mesh 3D in formato binario personalizzato
 linktitle: Salvataggio di mesh 3D in formato binario personalizzato
 second_title: API Aspose.3D .NET
 description: Esplora il mondo del 3D con Aspose.3D per .NET. Impara a salvare le mesh in formato binario personalizzato.
-type: docs
 weight: 13
 url: /it/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salvataggio di mesh 3D in formato binario personalizzato
+
 ## introduzione
 
 Benvenuti nel mondo di Aspose.3D per .NET, una potente libreria che consente agli sviluppatori di lavorare con file 3D senza sforzo. In questo tutorial, approfondiremo il processo di salvataggio delle mesh 3D in un formato binario personalizzato utilizzando Aspose.3D per .NET. Questa guida presuppone che tu abbia una conoscenza di base di C# e che tu abbia familiarità con la libreria Aspose.3D.
@@ -142,3 +148,9 @@ A1: Aspose.3D supporta principalmente i linguaggi .NET, ma puoi esplorare le opz
 ### Q5: Posso acquistare Aspose.3D per .NET?
 
  A5: Sì, puoi acquistare Aspose.3D da[pagina di acquisto](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

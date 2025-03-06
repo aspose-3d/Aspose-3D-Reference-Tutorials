@@ -3,10 +3,16 @@ title: Melakukan Ekstrusi Linier di Aspose.3D untuk Java
 linktitle: Melakukan Ekstrusi Linier di Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Jelajahi dunia pemodelan 3D dengan Aspose.3D untuk Java. Belajar melakukan ekstrusi linier dengan mudah.
-type: docs
 weight: 10
 url: /id/java/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Melakukan Ekstrusi Linier di Aspose.3D untuk Java
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang melakukan ekstrusi linier di Aspose.3D untuk Java! Jika Anda ingin meningkatkan keterampilan pemodelan 3D menggunakan Java, Anda berada di tempat yang tepat. Dalam tutorial ini, kami akan memandu Anda melalui proses melakukan ekstrusi linier menggunakan Aspose.3D, pustaka Java yang kuat untuk pemodelan 3D.
@@ -104,3 +110,9 @@ A2: Ya, Aspose.3D dapat digunakan untuk proyek pribadi dan komersial. Periksa de
 ### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.3D?
 
  A5: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

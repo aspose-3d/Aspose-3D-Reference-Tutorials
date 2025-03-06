@@ -3,10 +3,16 @@ title: 3D 장면에서 뷰포트 캡처
 linktitle: 3D 장면에서 뷰포트 캡처
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 멋진 3D 뷰포트를 캡처하는 방법을 알아보세요. 유연하게 장면을 렌더링하기 위한 단계별 가이드입니다.
-type: docs
 weight: 11
 url: /ko/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D 장면에서 뷰포트 캡처
+
 ## 소개
 
 3D 그래픽 및 시각화 영역에서 뷰포트 캡처는 장면의 깊이와 디테일을 향상시키는 필수 기술입니다. .NET용 Aspose.3D는 3D 장면을 렌더링하고 조작하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.3D를 사용하여 3D 장면에서 뷰포트를 캡처하는 과정을 안내하므로 놀라운 시각화를 쉽게 만들 수 있습니다.
@@ -124,3 +130,9 @@ A2: Aspose.3D는 주로 그래픽과 시각화를 위해 설계되었지만 그 
 ### 질문 5: 어떻게 도움을 구하거나 커뮤니티에 참여할 수 있나요?
 
  A5: Aspose.3D 커뮤니티에 가입하세요.[지원 포럼](https://forum.aspose.com/c/3d/18) 지원과 협력을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

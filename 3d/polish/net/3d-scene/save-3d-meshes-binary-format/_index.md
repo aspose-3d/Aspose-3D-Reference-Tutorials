@@ -3,10 +3,16 @@ title: Zapisywanie siatek 3D w niestandardowym formacie binarnym
 linktitle: Zapisywanie siatek 3D w niestandardowym formacie binarnym
 second_title: Aspose.3D API .NET
 description: Poznaj świat 3D z Aspose.3D dla .NET. Dowiedz się, jak zapisywać siatki w niestandardowym formacie binarnym.
-type: docs
 weight: 13
 url: /pl/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisywanie siatek 3D w niestandardowym formacie binarnym
+
 ## Wstęp
 
 Witamy w świecie Aspose.3D dla .NET, potężnej biblioteki, która umożliwia programistom bezproblemową pracę z plikami 3D. W tym samouczku zagłębimy się w proces zapisywania siatek 3D w niestandardowym formacie binarnym przy użyciu Aspose.3D dla .NET. W tym przewodniku założono, że masz podstawową wiedzę na temat języka C# i znasz bibliotekę Aspose.3D.
@@ -142,3 +148,9 @@ O1: Aspose.3D obsługuje przede wszystkim języki .NET, ale możesz sprawdzić o
 ### P5: Czy mogę kupić Aspose.3D dla .NET?
 
  O5: Tak, możesz kupić Aspose.3D w sklepie[strona zakupu](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

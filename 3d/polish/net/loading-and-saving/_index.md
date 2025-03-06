@@ -3,10 +3,16 @@ title: Ładowanie i zapisywanie
 linktitle: Ładowanie i zapisywanie
 second_title: Aspose.3D API .NET
 description: Podnieś poziom swojej gry w modelowanie 3D dzięki Aspose.3D dla .NET! Opanuj efektywne techniki ładowania i zapisywania za pomocą CancellationToken. Przeglądaj teraz!
-type: docs
 weight: 27
 url: /pl/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ładowanie i zapisywanie
+
 ## Wstęp
 
 Zanurz się w fascynującą dziedzinę modelowania 3D dzięki Aspose.3D dla .NET, Twojej bramie do płynnej i wydajnej manipulacji dokumentami 3D. W tej serii samouczków zbadamy zawiłości ładowania i zapisywania modeli 3D, odblokowując świat kreatywnych możliwości.
@@ -105,3 +111,9 @@ Eksportuj metadane, takie jak właściwości sceny, atrybuty obiektów i inne is
 ### Załaduj osadzone tekstury z USDZ do pamięci
 
 Dostęp do osadzonych danych tekstur w plikach USDZ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

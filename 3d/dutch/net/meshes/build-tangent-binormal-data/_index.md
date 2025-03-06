@@ -3,10 +3,16 @@ title: Tangente en binormale gegevens opbouwen
 linktitle: Tangente en binormale gegevens opbouwen
 second_title: Aspose.3D .NET-API
 description: Ontketen de kracht van raaklijn- en binormale gegevens om uw 3D-modellen te optimaliseren voor vloeiendere weergave, snellere laadtijden en betere prestaties.
-type: docs
 weight: 10
 url: /nl/net/meshes/build-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tangente en binormale gegevens opbouwen
+
 ## Invoering
 Heeft u ooit de frustratie gevoeld dat een traag 3D-model uw project in de war bracht? Maak je geen zorgen, collega-ontwikkelaar, want het geheim van een soepele vaart ligt in raaklijn- en binormale gegevens. Deze onbezongen helden optimaliseren de mesh-weergave, waardoor uw modellen op elk podium zingen als operadiva's. Maar hoe benutten we hun macht? Wees niet bang, want deze uitgebreide gids voorziet je van de Aspose.3D voor .NET-toolkit waarmee je met slechts een paar klikken de magie van tangens- en binormale gegevens kunt ontsluiten!
 
@@ -85,3 +91,9 @@ Aspose.3D ondersteunt talrijke formaten zoals OBJ, STL en glTF. Converteer uw mo
  Aspose.3D heeft een uitgebreid documentatieportaal op[hier](https://docs.aspose.com/3d/net/) Bovendien is het Aspose-communityforum op[hier](https://forum.aspose.com/) bruist altijd van behulpzame ontwikkelaars.
 ### Kan ik Aspose.3D gebruiken voor commerciële projecten? 
  Ja! Aspose.3D biedt verschillende licentieopties om aan uw behoeften te voldoen. Bekijk hun prijspagina op[hier](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

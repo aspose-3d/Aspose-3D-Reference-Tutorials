@@ -3,10 +3,16 @@ title: Aspose.3D를 사용하여 변환 행렬로 3D 노드 변환
 linktitle: Aspose.3D를 사용하여 Java의 변환 행렬로 3D 노드 변환
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java에서 3D 그래픽의 세계를 탐험해보세요. 변환 행렬을 사용하여 손쉽게 노드를 변환하는 방법을 알아보세요.
-type: docs
 weight: 21
 url: /ko/java/geometry/transform-3d-nodes-with-matrices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D를 사용하여 변환 행렬로 3D 노드 변환
+
 ## 소개
 
 Aspose.3D를 사용하여 Java에서 변환 행렬로 3D 노드를 변환하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 3D 그래픽 및 모델링 기술을 향상시키려는 Java 개발자라면 잘 찾아오셨습니다. 이 튜토리얼에서는 Aspose.3D 프레임워크 내에서 3D 노드에 변환을 적용하는 프로세스를 살펴보겠습니다.
@@ -119,3 +125,9 @@ A3: 3D 장면의 크기는 시스템 리소스에 의해 제한될 수 있지만
 ### Q5: Aspose.3D에 대한 임시 라이선스를 어떻게 얻나요?
 
  A5: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

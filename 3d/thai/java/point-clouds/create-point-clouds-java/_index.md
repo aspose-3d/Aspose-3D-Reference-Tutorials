@@ -3,10 +3,16 @@ title: สร้าง Point Clouds จาก Meshes ใน Java
 linktitle: สร้าง Point Clouds จาก Meshes ใน Java
 second_title: Aspose.3D จาวา API
 description: สำรวจโลกของการสร้างแบบจำลอง 3 มิติใน Java ด้วย Aspose.3D เรียนรู้การสร้าง point cloud จาก mesh ได้อย่างง่ายดาย
-type: docs
 weight: 12
 url: /th/java/point-clouds/create-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สร้าง Point Clouds จาก Meshes ใน Java
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมเกี่ยวกับการสร้างพอยต์คลาวด์จาก mesh ใน Java โดยใช้ Aspose.3D Aspose.3D เป็นไลบรารี Java ที่ทรงพลังซึ่งมีฟังก์ชันการทำงานที่ครอบคลุมสำหรับการสร้างแบบจำลอง 3 มิติและการจัดการ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการสร้างพอยต์คลาวด์จาก Meshes โดยเสนอขั้นตอนที่ชัดเจนและมีรายละเอียดเพื่อประสบการณ์ที่ราบรื่น
@@ -83,3 +89,9 @@ FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
 ### Q5: ฉันจะหาเอกสารได้จากที่ไหน?
 
  A5: โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/3d/java/) สำหรับข้อมูลโดยละเอียด
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

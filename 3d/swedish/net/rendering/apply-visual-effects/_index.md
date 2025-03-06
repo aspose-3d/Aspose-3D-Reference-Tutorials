@@ -3,10 +3,16 @@ title: Tillämpa visuella effekter i 3D-vyportar
 linktitle: Tillämpa visuella effekter i 3D-vyportar
 second_title: Aspose.3D .NET API
 description: Utforska en värld av 3D-visualisering med Aspose.3D för .NET. Lär dig att applicera fängslande visuella effekter på dina scener med hjälp av steg-för-steg handledning. Lyft dina projekt med pixelering, gråskala, kantdetektering och oskärpa effekter.
-type: docs
 weight: 10
 url: /sv/net/rendering/apply-visual-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tillämpa visuella effekter i 3D-vyportar
+
 ## Introduktion
 
 Att förbättra 3D-scenernas visuella tilltalande är en avgörande aspekt för att skapa uppslukande upplevelser. Aspose.3D för .NET tillhandahåller en kraftfull uppsättning verktyg för att applicera visuella effekter på 3D-vyportar. I den här handledningen går vi igenom processen att applicera olika effekter på en 3D-scen, inklusive pixelering, gråskala, kantdetektering och oskärpa.
@@ -179,3 +185,9 @@ S4: Aspose.3D tillhandahåller en mängd inbyggda efterbehandlingseffekter, och 
 ### F5: Kan jag använda Aspose.3D för kommersiella projekt?
 
  S5: Ja, du kan använda Aspose.3D för kommersiella ändamål. Referera till[köpsidan](https://purchase.aspose.com/buy) för licensinformation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

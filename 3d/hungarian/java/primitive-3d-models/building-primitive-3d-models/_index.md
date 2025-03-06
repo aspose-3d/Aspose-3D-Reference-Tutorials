@@ -3,10 +3,16 @@ title: Primitív 3D modellek készítése Aspose.3D for Java segítségével
 linktitle: Primitív 3D modellek készítése Aspose.3D for Java segítségével
 second_title: Aspose.3D Java API
 description: Fedezze fel a 3D modellezés művészetét az Aspose.3D for Java segítségével. Tanuljon meg könnyedén építeni primitív 3D-s modelleket, és engedje szabadjára kreativitását.
-type: docs
 weight: 10
 url: /hu/java/primitive-3d-models/building-primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Primitív 3D modellek készítése Aspose.3D for Java segítségével
+
 ## Bevezetés
 
 A 3D-s modellek programozott létrehozása ijesztő feladat lehet, de az Aspose.3D for Java segítségével ez egy élvezetes és egyszerű folyamat. Ennek az oktatóanyagnak az a célja, hogy segítsen elkezdeni a primitív 3D-s modellek készítését, az egyszerűségre és a hatékonyságra összpontosítva.
@@ -88,3 +94,9 @@ A2: Abszolút! Az Aspose.3D a szolgáltatások átfogó készletét kínálja, �
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?
 
  A5: Megszerezheti a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) az Aspose.3D számára a weboldalon keresztül.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java での線形押し出しによる 3D モデルの作成
 linktitle: Java での線形押し出しによる 3D モデルの作成
 second_title: Aspose.3D Java API
 description: Aspose.3D for Java を使用して 3D モデリングの世界を探索してください。線形押し出しを簡単にマスターしましょう。コントロールセンター、方向の設定、スライスの指定、ツイストの適用など。
-type: docs
 weight: 23
 url: /ja/java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java での線形押し出しによる 3D モデルの作成
+
 ## 導入
 
 
@@ -62,3 +68,9 @@ Aspose.3D for Java を使用して線形押し出しでスライスを指定す�
 Aspose.3D for Java を使用して 3D モデルにひねりを加える方法を学びます。線形押し出し効果を強化するには、ステップバイステップのガイドに従ってください。
 ### [Aspose.3D for Java による線形押し出しでのツイスト オフセットの使用](./using-twist-offset/)
 Aspose.3D for Java を使用して 3D モデリング スキルを強化します。この包括的なチュートリアルでは、線形押し出しでのツイスト オフセットの使用方法を学習します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

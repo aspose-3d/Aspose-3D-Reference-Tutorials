@@ -3,10 +3,16 @@ title: Java での 3D シーンとモデルの操作
 linktitle: Java での 3D シーンとモデルの操作
 second_title: Aspose.3D Java API
 description: チュートリアルを通じて、Aspose.3D for Java の威力を発見してください。 Java アプリケーションでの 3D シーンの精度、ストレージ効率、および操作を強化します。
-type: docs
 weight: 29
 url: /ja/java/3d-scenes-and-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java での 3D シーンとモデルの操作
+
 ## 導入
 
 Java アプリケーションを 3D グラフィックスとモデリングの新たな高みに引き上げる準備はできていますか? Java 用の包括的な Aspose.3D チュートリアルへようこそ!ステップバイステップのガイダンスにより、3D シーンの位置決め、圧縮、情報取得、メッシュ保存、シームレスなプロパティ操作の可能性を解き放ちます。
@@ -43,3 +49,9 @@ Aspose.3D を使用して、Java での 3D シーン操作の世界を探索し�
 Aspose.3D for Java を使用して 3D メッシュをカスタム バイナリ形式で保存する方法を学びます。このステップバイステップのチュートリアルを使用して、Java アプリケーションの柔軟性を高めます。
 ### [Aspose.3D を使用した Java シーンの 3D プロパティとカスタム データの操作](./managing-3d-properties-scenes/)
 Aspose.3D を使用して Java アプリケーションを強化し、シームレスな 3D プロパティ操作を実現します。ステップバイステップのガイダンスについては、チュートリアルに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

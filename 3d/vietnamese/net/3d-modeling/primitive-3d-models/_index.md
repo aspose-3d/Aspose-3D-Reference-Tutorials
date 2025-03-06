@@ -3,10 +3,16 @@ title: Tạo mô hình 3D nguyên thủy
 linktitle: Tạo mô hình 3D nguyên thủy
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới mô hình 3D với Aspose.3D cho .NET. Tạo các mô hình nguyên thủy tuyệt đẹp một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/3d-modeling/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo mô hình 3D nguyên thủy
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới thú vị của mô hình 3D với Aspose.3D cho .NET! Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá quy trình tạo mô hình 3D nguyên thủy bằng Aspose.3D theo từng bước. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu tò mò, hướng dẫn này sẽ giúp bạn khai thác sức mạnh của Aspose.3D để tạo ra các phần tử 3D trực quan ấn tượng cho dự án của bạn.
@@ -108,3 +114,9 @@ Câu trả lời 1: Aspose.3D chủ yếu hỗ trợ .NET, nhưng có các phiê
 ### Câu hỏi 5: Có sẵn hướng dẫn mẫu nào không?
 
  Câu trả lời 5: Có, hãy khám phá thêm các hướng dẫn và ví dụ trong phần[tài liệu](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

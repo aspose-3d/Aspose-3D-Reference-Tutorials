@@ -3,10 +3,16 @@ title: アニメーション
 linktitle: アニメーション
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET チュートリアルで 3D アニメーションの世界を解き放ちましょう。プロパティをアニメーション化し、動的なシーンのターゲットとカメラを簡単に設定する方法を学びます。
-type: docs
 weight: 30
 url: /ja/net/animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# アニメーション
+
 ## 導入
 
 Aspose.3D for .NET を使用した 3D アニメーションの魅力的な領域へようこそ!この包括的なガイドでは、魅力的でダイナミックな 3D シーンを作成できるようにする 2 つの重要なチュートリアルについて説明します。このエキサイティングな旅に一緒に乗り出しましょう！
@@ -37,3 +43,9 @@ Aspose.3D for .NET を使用した 3D アニメーションの魅力的な領域
 Aspose.3D for .NET を使用して 3D プロパティをアニメーション化する方法を学びます。ダイナミックなシーンを作成するためのステップバイステップのガイド。
 ### [3D シーンでのアニメーション用のターゲットとカメラのセットアップ](./setup-target-camera/)
 Aspose.3D for .NET で 3D アニメーションの魔法を解き放ちます。この包括的なチュートリアルを使用して、ターゲットとカメラを簡単にセットアップします。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

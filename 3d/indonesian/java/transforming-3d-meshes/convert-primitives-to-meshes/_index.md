@@ -3,10 +3,16 @@ title: Konversi Primitif ke Jerat di Java
 linktitle: Konversi Primitif ke Jerat di Java
 second_title: Asumsikan.3D Java API
 description: Mulailah perjalanan menuju penguasaan grafis 3D dengan Aspose.3D untuk Java - ubah primitif menjadi jerat yang memukau dengan mudah. Tingkatkan pengalaman coding Anda sekarang!
-type: docs
 weight: 12
 url: /id/java/transforming-3d-meshes/convert-primitives-to-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi Primitif ke Jerat di Java
+
 ## Perkenalan
 Menjelajah ke dunia grafik 3D di Java bisa menjadi hal yang menyenangkan, terutama bila Anda ingin meningkatkan pemandangan dengan mengubah primitif menjadi jerat yang rumit. Dalam tutorial ini, kami akan memandu Anda melalui proses menggunakan Aspose.3D untuk Java, memastikan pengalaman yang lancar dan memperkaya.
 ## Prasyarat
@@ -73,3 +79,9 @@ Sangat! Aspose.3D untuk Java terintegrasi secara mulus dengan perpustakaan Java 
  Memang, izin sementara bisa diperoleh[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Q5: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.3D untuk Java?
  Dokumentasi komprehensif tersedia[Di Sini](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -4,10 +4,16 @@ linktitle: Χρήση Twist Offset σε Γραμμική Εξώθηση με Asp
 second_title: Aspose.3D Java API
 description: Βελτιώστε τις δεξιότητές σας στην τρισδιάστατη μοντελοποίηση με το Aspose.3D για Java. Μάθετε να χρησιμοποιείτε το Twist Offset στη Γραμμική Εξώθηση σε αυτό το ολοκληρωμένο σεμινάριο.
 
-type: docs
 weight: 15
 url: /el/java/linear-extrusion/using-twist-offset/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χρήση Twist Offset σε Γραμμική Εξώθηση με Aspose.3D για Java
+
 ## Εισαγωγή
 
 Στον δυναμικό κόσμο των τρισδιάστατων γραφικών, η γνώση της τέχνης της γραμμικής εξώθησης αλλάζει το παιχνίδι. Με το Aspose.3D για Java, μπορείτε να βελτιώσετε τις δεξιότητές σας στην τρισδιάστατη μοντελοποίηση ενσωματώνοντας τη δυνατότητα Twist Offset στη διαδικασία γραμμικής εξώθησης. Αυτό το σεμινάριο θα σας καθοδηγήσει στα βήματα χρήσης του Twist Offset στη Γραμμική Εξώθηση χρησιμοποιώντας το Aspose.3D για Java, παρέχοντάς σας τα εργαλεία για να δημιουργήσετε εκπληκτικές σκηνές 3D.
@@ -113,3 +119,9 @@ scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### Ε5: Υπάρχουν διαθέσιμα επιπλέον παραδείγματα και σεμινάρια;
 
  A5: Ναι, ανατρέξτε στο[τεκμηρίωση](https://reference.aspose.com/3d/java/) για περισσότερα παραδείγματα και σε βάθος σεμινάρια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

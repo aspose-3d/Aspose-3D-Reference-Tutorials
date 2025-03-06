@@ -3,10 +3,16 @@ title: Τροποποίηση 3D Sphere Radius σε Java με το Aspose.3D
 linktitle: Τροποποίηση 3D Sphere Radius σε Java με το Aspose.3D
 second_title: Aspose.3D Java API
 description: Εξερευνήστε τον προγραμματισμό Java 3D με το Aspose.3D, τροποποιώντας την ακτίνα σφαίρας χωρίς κόπο. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ανάπτυξης 3D.
-type: docs
 weight: 10
 url: /el/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Τροποποίηση 3D Sphere Radius σε Java με το Aspose.3D
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για την τροποποίηση της ακτίνας μιας τρισδιάστατης σφαίρας χρησιμοποιώντας το Aspose.3D για Java. Το Aspose.3D είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία 3D και να τα χειρίζονται απρόσκοπτα. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στην αλλαγή της ακτίνας μιας τρισδιάστατης σφαίρας χρησιμοποιώντας πρακτικά παραδείγματα και λεπτομερείς επεξηγήσεις.
@@ -103,3 +109,9 @@ scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.3D;
 
  A5: Μπορείτε να λάβετε μια προσωρινή άδεια με μια επίσκεψη[Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

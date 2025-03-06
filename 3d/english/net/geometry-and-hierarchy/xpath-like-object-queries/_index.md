@@ -3,10 +3,16 @@ title: XPath-Like Object Queries
 linktitle: XPath-Like Object Queries
 second_title: Aspose.3D .NET API
 description: Unleash the power of Aspose.3D for .NET! Seamlessly manipulate 3D graphics with XPath-like queries. Download now for a game-changing experience.
-type: docs
 weight: 24
 url: /net/geometry-and-hierarchy/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XPath-Like Object Queries
+
 ## Introduction
 Embarking on a journey to unleash the full potential of Aspose.3D for .NET opens doors to a realm of possibilities in 3D graphics manipulation. Whether you're a seasoned developer or a newcomer, this guide will walk you through the nuances of harnessing the capabilities of Aspose.3D.
 ## Prerequisites
@@ -94,3 +100,10 @@ The free trial version comes with limited features. Check the documentation for 
 Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community support.
 ### What advantages does Aspose.3D offer over other 3D libraries for .NET?
 Aspose.3D provides a comprehensive set of features, including powerful object queries and robust rendering capabilities.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

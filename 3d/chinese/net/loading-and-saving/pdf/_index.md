@@ -3,10 +3,16 @@ title: Adobe PDF 支持
 linktitle: Adobe PDF 支持
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 提升您的 3D 建模游戏！掌握使用 CancellationToken 的高效加载和保存技术。立即探索！
-type: docs
 weight: 27
 url: /zh/net/loading-and-saving/pdf
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adobe PDF 支持
+
 ## 介绍
 
 在本教程系列中，我们将探索 Aspose.3D 中 Adobe PDF 支持的复杂性，释放创意可能性的世界。
@@ -33,3 +39,9 @@ Aspose.3D 使用户能够轻松地将 3D 场景保存到 PDF 文件中，从而�
 使用 Aspose.3D for .NET 踏上无限可能的旅程。无论您是新手还是经验丰富的开发人员，我们的教程都适合所有技能水平。改变您的 3D 建模体验 - 使用 Aspose.3D for .NET 探索、创建和创新。
 
 准备好提升您的 3D 建模技能了吗？开始探索教程。释放 Aspose.3D for .NET 的全部潜力，轻松雕刻您的 3D 杰作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

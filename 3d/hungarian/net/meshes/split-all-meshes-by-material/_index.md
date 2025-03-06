@@ -3,10 +3,16 @@ title: A jelenet összes hálójának felosztása anyag szerint
 linktitle: A jelenet összes hálójának felosztása anyag szerint
 second_title: Aspose.3D .NET API
 description: Ismerje meg, hogyan oszthat fel 3D hálókat anyag szerint az Aspose.3D for .NET használatával. Kövesse lépésenkénti útmutatónkat a 3D modellek hatékony szervezéséhez és kezeléséhez.
-type: docs
 weight: 21
 url: /hu/net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A jelenet összes hálójának felosztása anyag szerint
+
 ## Bevezetés
 Üdvözöljük ebben a lépésről lépésre szóló útmutatóban, amely a 3D-s jelenet összes hálójának anyagonkénti felosztásáról szól az Aspose.3D for .NET használatával. Ha 3D-s modellekkel dolgozik, és hatékonyan szeretné rendszerezni a hálókat az anyagok alapján, akkor ez az oktatóanyag az Ön számára készült. Az Aspose.3D egy hatékony .NET-könyvtár, amely számos szolgáltatást biztosít a 3D-s fájlokkal való munkavégzéshez, így kiváló választás a fejlesztők számára.
 ## Előfeltételek
@@ -66,3 +72,9 @@ Az Aspose.3D elsősorban .NET-hez készült, de .NET nyelvi kötéseken kereszt�
  Meglátogatni a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) közösségi támogatásra és beszélgetésekre.
 ### 5. Kaphatok ideiglenes engedélyt?
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

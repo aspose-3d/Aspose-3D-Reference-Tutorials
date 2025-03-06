@@ -3,10 +3,16 @@ title: Menerapkan Bahan ke Kubus
 linktitle: Menerapkan Bahan ke Kubus
 second_title: Aspose.3D .NET API
 description: Jelajahi Aspose.3D untuk .NET, gerbang Anda menuju manipulasi grafis 3D yang mulus. Terapkan materi dengan mudah, tingkatkan realisme, dan tingkatkan proyek Anda.
-type: docs
 weight: 14
 url: /id/net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Bahan ke Kubus
+
 ## Perkenalan
 
 Selamat datang di dunia manipulasi grafis 3D yang menakjubkan menggunakan Aspose.3D untuk .NET! Dalam tutorial ini, kita akan mendalami proses penerapan material pada kubus dalam adegan 3D Anda, menambahkan tingkat realisme dan daya tarik visual yang benar-benar baru pada kreasi Anda.
@@ -136,3 +142,9 @@ A3: Ya, Aspose.3D memberikan dukungan komprehensif untuk membuat dan memanipulas
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk masalah atau pertanyaan apa pun?
 
  A5: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk berhubungan dengan masyarakat dan mencari bantuan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

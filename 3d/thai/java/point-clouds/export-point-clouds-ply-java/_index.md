@@ -3,10 +3,16 @@ title: ส่งออก Point Clouds เป็นรูปแบบ PLY ด้
 linktitle: ส่งออก Point Clouds เป็นรูปแบบ PLY ด้วย Aspose.3D สำหรับ Java
 second_title: Aspose.3D จาวา API
 description: สำรวจพลังของ Aspose.3D สำหรับ Java ในการส่งออก point cloud เป็นรูปแบบ PLY ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการพัฒนา 3D ที่ราบรื่น
-type: docs
 weight: 13
 url: /th/java/point-clouds/export-point-clouds-ply-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ส่งออก Point Clouds เป็นรูปแบบ PLY ด้วย Aspose.3D สำหรับ Java
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คำแนะนำที่ครอบคลุมเกี่ยวกับการส่งออก point cloud เป็นรูปแบบ PLY โดยใช้ Aspose.3D สำหรับ Java Aspose.3D เป็นไลบรารี Java อันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ 3D ได้ โดยมอบประสบการณ์ที่ราบรื่นในการจัดการและจัดการรูปแบบ 3D ต่างๆ ในบทช่วยสอนนี้ เราจะเน้นที่การส่งออกพอยต์คลาวด์เป็นรูปแบบ PLY ซึ่งเป็นรูปแบบไฟล์ที่ใช้กันอย่างแพร่หลายในการแสดงข้อมูล 3 มิติ
@@ -81,3 +87,9 @@ FileFormat.PLY.encode(new Sphere(), "Your Document Directory" + "sphere.ply");
 ### คำถามที่ 5: ฉันจะซื้อ Aspose.3D สำหรับ Java ได้ที่ไหน
 
  A5: ซื้อ Aspose.3D สำหรับ Java[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: التقليب نظام الإحداثيات في مشاهد ثلاثية
 linktitle: التقليب نظام الإحداثيات في مشاهد ثلاثية الأبعاد
 second_title: Aspose.3D.NET API
 description: أتقن فن قلب أنظمة الإحداثيات في المشاهد ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. اتبع دليلنا خطوة بخطوة للتنفيذ السلس.
-type: docs
 weight: 12
 url: /ar/net/3d-scene/flip-coordinate-system/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التقليب نظام الإحداثيات في مشاهد ثلاثية الأبعاد
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل التفصيلي خطوة بخطوة حول قلب نظام الإحداثيات في المشاهد ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. إذا كنت مطورًا أو متحمسًا للرسومات ثلاثية الأبعاد وتتطلع إلى التعامل مع أنظمة الإحداثيات في مشاهدك، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سنرشدك خلال العملية، مما يسهل عليك تنفيذ هذه الميزة بسلاسة.
@@ -91,3 +97,9 @@ A1: تم تصميم Aspose.3D for .NET بشكل أساسي لبرمجة C#. وم
 ### س5: أين يمكنني طلب الدعم أو طرح الأسئلة المتعلقة بـ Aspose.3D for .NET؟
 
  ج5: منتدى مجتمع Aspose[هنا](https://forum.aspose.com/c/3d/18) هو المكان المثالي للدعم والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

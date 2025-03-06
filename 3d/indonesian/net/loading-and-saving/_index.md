@@ -3,10 +3,16 @@ title: Memuat dan Menyimpan
 linktitle: Memuat dan Menyimpan
 second_title: Aspose.3D .NET API
 description: Tingkatkan permainan pemodelan 3D Anda dengan Aspose.3D untuk .NET! Kuasai teknik pemuatan dan penyimpanan yang efisien menggunakan CancellationToken. Jelajahi sekarang!
-type: docs
 weight: 27
 url: /id/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memuat dan Menyimpan
+
 ## Perkenalan
 
 Selami dunia pemodelan 3D yang menakjubkan dengan Aspose.3D untuk .NET, gerbang Anda menuju manipulasi dokumen 3D yang lancar dan efisien. Dalam seri tutorial ini, kita akan menjelajahi seluk-beluk memuat dan menyimpan model 3D, membuka dunia kemungkinan kreatif.
@@ -105,3 +111,9 @@ Ekspor metadata seperti properti pemandangan, atribut objek, dan data relevan la
 ### Muat tekstur yang disematkan dari USDZ ke memori
 
 Akses ke data tekstur yang tertanam dalam file USDZ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

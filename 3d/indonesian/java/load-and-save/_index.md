@@ -3,10 +3,16 @@ title: Bekerja dengan File 3D di Java - Buat, Muat, Simpan & Konversi
 linktitle: Bekerja dengan File 3D di Java - Buat, Muat, Simpan & Konversi
 second_title: Asumsikan.3D Java API
 description: Kuasai manipulasi file 3D dengan mudah di Java dengan tutorial Aspose.3D. Buat, muat, simpan, dan konversi file 3D dengan mudah menggunakan panduan langkah demi langkah.
-type: docs
 weight: 30
 url: /id/java/load-and-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan File 3D di Java - Buat, Muat, Simpan & Konversi
+
 
 ## Perkenalan
 
@@ -56,3 +62,9 @@ Jelajahi dunia grafis 3D dengan Aspose.3D untuk Java. Membaca dan memanipulasi a
 Jelajahi dunia manipulasi adegan 3D yang mulus di Java dengan Aspose.3D. Belajar menyimpan adegan dalam berbagai format dengan mudah.
 ### [Optimalkan Penyimpanan File 3D di Java dengan Aspose.3D SaveOptions](./optimize-3d-file-saving/)
 Pelajari cara mengoptimalkan penyimpanan file 3D di Java dengan Aspose.3D SaveOptions. Tingkatkan kinerja dan sesuaikan keluaran dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 以自訂二進位格式儲存 3D 網格
 linktitle: 以自訂二進位格式儲存 3D 網格
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 世界。了解以自訂二進位格式儲存網格。
-type: docs
 weight: 13
 url: /zh-hant/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 以自訂二進位格式儲存 3D 網格
+
 ## 介紹
 
 歡迎來到 Aspose.3D for .NET 的世界，這是一個功能強大的程式庫，使開發人員能夠輕鬆處理 3D 檔案。在本教程中，我們將深入研究使用 Aspose.3D for .NET 以自訂二進位格式儲存 3D 網格的過程。本指南假設您對 C# 有基本了解並熟悉 Aspose.3D 函式庫。
@@ -142,3 +148,9 @@ A1：Aspose.3D 主要支援 .NET 語言，但您可以探索其他語言的兼�
 ### Q5：我可以購買 Aspose.3D for .NET 嗎？
 
  A5：是的，您可以從[購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

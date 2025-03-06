@@ -3,10 +3,16 @@ title: Εφαρμογή εφέ φακού Fisheye με το Aspose.3D για .NE
 linktitle: Εφαρμογή εφέ φακού Fisheye σε τρισδιάστατη σκηνή
 second_title: Aspose.3D .NET API
 description: Βελτιώστε τις τρισδιάστατες σκηνές σας με το Aspose.3D για .NET! Μάθετε πώς να εφαρμόζετε ένα μαγευτικό εφέ φακού fisheye βήμα προς βήμα. Κατεβάστε τώρα!
-type: docs
 weight: 12
 url: /el/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή εφέ φακού Fisheye με το Aspose.3D για .NET
+
 ## Εισαγωγή
 Θέλετε να βελτιώσετε την οπτική ελκυστικότητα των 3D σκηνών σας; Βουτήξτε στον συναρπαστικό κόσμο των εφέ φακών fisheye με το Aspose.3D για .NET. Αυτό το σεμινάριο θα σας καθοδηγήσει βήμα προς βήμα για το πώς να εφαρμόσετε ένα εφέ φακού fisheye στις τρισδιάστατες σκηνές σας, δίνοντάς τους μια μοναδική και μαγευτική προοπτική.
 ## Προαπαιτούμενα
@@ -77,3 +83,9 @@ renderer.Execute(fisheye, final);
 Το μέγεθος της τρισδιάστατης σκηνής περιορίζεται κυρίως από τους πόρους του συστήματος. Βεβαιωθείτε ότι το υλικό σας μπορεί να χειριστεί το μέγεθος της σκηνής σας.
 ### Μπορώ να χρησιμοποιήσω διαφορετική μορφή εξόδου αντί για PNG για το αποτέλεσμα του εφέ fisheye;
 Ναι, μπορείτε να τροποποιήσετε τον κώδικα για να αποθηκεύσετε την έξοδο σε διαφορετικές μορφές εικόνας με βάση τις απαιτήσεις σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

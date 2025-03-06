@@ -3,10 +3,16 @@ title: Java を使用した 3D モデルのポリゴン操作
 linktitle: Java を使用した 3D モデルのポリゴン操作
 second_title: Aspose.3D Java API
 description: Aspose.3D チュートリアルを使用して、Java での効率的な 3D レンダリングを探索します。ポリゴンを三角形に変換し、UV 座標を生成して、最適なパフォーマンスと強化されたテクスチャ マッピングを実現します。
-type: docs
 weight: 27
 url: /ja/java/polygon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用した 3D モデルのポリゴン操作
+
 ## 導入
 
 Java 3D 開発の領域へようこそ。Aspose.3D がプロジェクトのレベルを高める中心的な役割を果たします。このチュートリアル シリーズでは、効率的なレンダリングのためのポリゴンから三角形への変換と、テクスチャ マッピングを強化するための UV 座標の生成という 2 つの重要な側面に焦点を当てて、ポリゴン操作の複雑さを掘り下げていきます。
@@ -49,3 +55,9 @@ UV 座標は、3D 世界のテクスチャの GPS と考えてください。こ
 Aspose.3D を使用して Java 3D レンダリングを強化します。最適なパフォーマンスを得るために、多角形を三角形に変換する方法を学びます。今すぐダウンロードして、シームレスな 3D 開発エクスペリエンスを体験してください。
 ### [Java 3D モデルでのテクスチャ マッピング用の UV 座標の生成](./generate-uv-coordinates/)
 Aspose.3D を使用して Java 3D モデルの UV 座標を生成する方法を学びます。このステップバイステップのガイドを使用して、プロジェクトのテクスチャ マッピングを強化します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

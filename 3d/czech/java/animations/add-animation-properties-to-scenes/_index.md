@@ -3,10 +3,16 @@ title: Přidat vlastnosti animace do 3D scén v Javě | Aspose.3D výukový prog
 linktitle: Přidat vlastnosti animace do 3D scén v Javě | Aspose.3D výukový program
 second_title: Aspose.3D Java API
 description: Vylepšete své 3D projekty založené na Javě pomocí Aspose.3D. Chcete-li plynule přidat vlastnosti animace, postupujte podle našeho návodu.
-type: docs
 weight: 10
 url: /cs/java/animations/add-animation-properties-to-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidat vlastnosti animace do 3D scén v Javě | Aspose.3D výukový program
+
 ## Úvod
 
 Vítejte v tomto podrobném tutoriálu o přidávání vlastností animace do 3D scén v Javě pomocí Aspose.3D. Pokud chcete vylepšit své 3D projekty dynamickými animacemi, jste na správném místě. V tomto průvodci vás provedeme celým procesem a rozebereme každý krok, aby byl zážitek bezproblémový.
@@ -128,3 +134,9 @@ A3: Připojte se ke komunitě na[Aspose.3D fórum](https://forum.aspose.com/c/3d
 ### Q5: Jsou k dispozici další výukové programy?
 
  A5: Prozkoumejte komplexní[dokumentace](https://reference.aspose.com/3d/java/) pro další výukové programy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

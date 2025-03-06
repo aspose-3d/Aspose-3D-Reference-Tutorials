@@ -3,10 +3,16 @@ title: Aspose.3D を使用した変換行列による 3D ノードの変換
 linktitle: Aspose.3D を使用した Java の変換行列による 3D ノードの変換
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して Java の 3D グラフィックスの世界を探索してください。変換行列を使用してノードを簡単に変換する方法を学びます。
-type: docs
 weight: 21
 url: /ja/java/geometry/transform-3d-nodes-with-matrices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D を使用した変換行列による 3D ノードの変換
+
 ## 導入
 
 Aspose.3D を使用して Java で変換行列を使用して 3D ノードを変換するためのこのステップバイステップ ガイドへようこそ。 3D グラフィックスとモデリングのスキルを向上させたいと考えている Java 開発者にとって、ここは正しい場所です。このチュートリアルでは、Aspose.3D フレームワーク内で 3D ノードに変換を適用するプロセスについて詳しく説明します。
@@ -119,3 +125,9 @@ A3: 3D シーンのサイズはシステム リソースによって制限され
 ### Q5: Aspose.3D の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: 仮免許は取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

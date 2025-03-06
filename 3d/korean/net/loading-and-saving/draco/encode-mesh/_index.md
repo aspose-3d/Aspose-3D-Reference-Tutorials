@@ -3,10 +3,16 @@ title: Google Draco 형식으로 3D 메시 인코딩
 linktitle: Draco에서 3D 메시 인코딩
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 Google Draco 형식의 간편한 3D 메시 인코딩을 살펴보세요. 단계별 가이드를 따르세요. 효율적이고 강력하며 개발자 친화적입니다!
-type: docs
 weight: 19
 url: /ko/net/loading-and-saving/draco/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Google Draco 형식으로 3D 메시 인코딩
+
 ## 소개
 3D 그래픽의 세계를 탐구하고 3D 메시 데이터를 효율적으로 압축하고 싶다면 더 이상 찾을 필요가 없습니다. 이 튜토리얼에서는 .NET용 Aspose.3D를 사용하여 3D 메시를 Google Draco 형식으로 인코딩하는 과정을 안내합니다. 이 강력한 라이브러리를 통해 개발자는 3D 파일 형식으로 원활하게 작업하고 메시 인코딩을 포함한 다양한 작업을 수행할 수 있습니다.
 ## 전제 조건
@@ -58,3 +64,9 @@ Aspose.3D는 주로 .NET용으로 설계되었지만 Aspose는 Java 및 기타 �
 임시 라이센스를 사용하면 제한된 시간 동안 Aspose.3D의 정식 버전을 평가할 수 있습니다.
 ### .NET용 Aspose.3D에 대한 자세한 문서는 어디서 찾을 수 있나요?
  다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/3d/net/) 포괄적인 정보를 얻으려면.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

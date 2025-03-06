@@ -3,10 +3,16 @@ title: Converting Parametric Primitive to Mesh
 linktitle: Converting Parametric Primitive to Mesh
 second_title: Aspose.3D .NET API
 description: Explore the power of Aspose.3D for .NET! Convert parametric primitives to versatile Mesh effortlessly. Elevate your 3D graphics game today.
-type: docs
 weight: 12
 url: /net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converting Parametric Primitive to Mesh
+
 ## Introduction
 
 Aspose.3D provides a rich set of primitive shapes, including boxes, planes, tori, spheres, cylinders, pyramids, and more. These primitives are defined by their parameters, making them highly versatile for procedural modeling. By adjusting the parameters programmatically, you can create a wide variety of 3D models with minimal code.
@@ -73,3 +79,10 @@ Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for dedicated tech
 Yes, explore Aspose.3D with the [free trial](https://releases.aspose.com/) to experience its capabilities before making a commitment.
 ### Can I obtain a temporary license for testing purposes?
 Yes, secure a [temporary license](https://purchase.aspose.com/temporary-license/) to evaluate Aspose.3D comprehensively.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

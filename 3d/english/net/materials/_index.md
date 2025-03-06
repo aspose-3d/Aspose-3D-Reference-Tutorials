@@ -3,10 +3,16 @@ title: Materials
 linktitle: Materials
 second_title: Aspose.3D .NET API
 description: Unlock the world of captivating 3D scenes with Aspose.3D for .NET tutorials. Learn to create stunning scenes and explore embedded textures effortlessly.
-type: docs
 weight: 28
 url: /net/materials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Materials
+
 ## Introduction
 
 Are you ready to embark on a journey into the exciting realm of 3D design and visualization? Aspose.3D for .NET opens the door to a world where creativity knows no bounds. In this article, we will guide you through a series of tutorials, each unlocking a new facet of this powerful .NET library.
@@ -31,3 +37,9 @@ Unlock the potential of Aspose.3D for .NET today. Download the library, explore 
 Create mesmerizing 3D scenes with embedded textures using Aspose.3D for .NET. Follow our step-by-step guide for stunning results.
 ### [Dumping Embedded Textures](./dump-embedded-textures/)
 Unlock the secrets of embedded textures in 3D models with Aspose.3D for .NET. Dive into our step-by-step guide for seamless integration. Download your free trial now!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

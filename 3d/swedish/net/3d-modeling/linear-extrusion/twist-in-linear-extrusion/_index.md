@@ -3,10 +3,16 @@ title: Twist i linjär extrudering
 linktitle: Twist i linjär extrudering
 second_title: Aspose.3D .NET API
 description: Utforska den fängslande världen av 3D-grafik med Aspose.3D för .NET. Lär dig steg för steg linjär extrudering med en vridning.
-type: docs
 weight: 14
 url: /sv/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Twist i linjär extrudering
+
 ## Introduktion
 
 I den ständigt föränderliga världen av .NET-utveckling är det en spännande ansträngning att utnyttja kraften i 3D-grafik. Aspose.3D för .NET framstår som en värdefull verktygslåda, som ger utvecklare möjlighet att skapa uppslukande och visuellt fantastiska applikationer sömlöst. I den här omfattande guiden kommer vi att fördjupa oss i en spännande funktion - Linjär extrudering med en vridning. Denna handledning kommer att leda dig genom processen steg för steg och frigöra potentialen hos Aspose.3D för .NET.
@@ -118,3 +124,9 @@ A4: Visst! Aspose.3D erbjuder en rik uppsättning funktioner. Kombinera gärna L
 ### F5: Finns det en community för Aspose.3D-stöd och diskussioner?
 
  S5: Ja, gå med i Aspose.3D-communityt på[Aspose Forum](https://forum.aspose.com/c/3d/18) för stöd och engagerande diskussioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

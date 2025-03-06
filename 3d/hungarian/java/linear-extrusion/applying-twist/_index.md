@@ -3,10 +3,16 @@ title: Twist alkalmazása a lineáris extrudálásban az Aspose.3D for Java seg�
 linktitle: Twist alkalmazása a lineáris extrudálásban az Aspose.3D for Java segítségével
 second_title: Aspose.3D Java API
 description: Ismerje meg, hogyan adhat csavart 3D modelljeihez az Aspose.3D for Java használatával. Kövesse lépésről lépésre útmutatónkat a továbbfejlesztett lineáris extrudálási hatásokért.
-type: docs
 weight: 14
 url: /hu/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Twist alkalmazása a lineáris extrudálásban az Aspose.3D for Java segítségével
+
 ## Bevezetés
 
 Üdvözöljük ebben a lépésenkénti oktatóanyagban, amely az Aspose.3D for Java segítségével történő lineáris extrudálás csavarozásának alkalmazásáról szól. Az Aspose.3D egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy 3D-s fájlformátumokkal dolgozzanak, robusztus funkcionalitást kínálva 3D-s jelenetek létrehozásához, manipulálásához és megjelenítéséhez. Ebben az oktatóanyagban azt fogjuk megvizsgálni, hogyan alkalmazhatunk csavarási effektust a lineáris extrudálási folyamat során a 3D modellek javítása érdekében.
@@ -119,3 +125,9 @@ Gratulálunk! Sikeresen alkalmazott egy csavart lineáris kihúzásban az Aspose
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.3D for Java-t?
 
  5. válasz: Vásárolja meg az Aspose.3D for Java programot a webhelyről[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

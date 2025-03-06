@@ -3,10 +3,16 @@ title: 接線データと従法線データの構築
 linktitle: 接線データと従法線データの構築
 second_title: Aspose.3D .NET API
 description: 接線データと従法線データの力を解き放ち、3D モデルを最適化して、レンダリングをよりスムーズにし、読み込み時間を短縮し、パフォーマンスを向上させます。
-type: docs
 weight: 10
 url: /ja/net/meshes/build-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 接線データと従法線データの構築
+
 ## 導入
 3D モデルの動作が遅いためにプロジェクトが行き詰まり、イライラしたことはありませんか?開発者の皆さん、心配しないでください。順風満帆の秘訣は接線データと従法線データにあります。これらの縁の下の力持ちはメッシュ レンダリングを最適化し、モデルをあらゆるステージでオペラの歌姫のように歌わせます。しかし、私たちは彼らの力をどのように利用するのでしょうか?心配しないでください。この包括的なガイドでは、数回クリックするだけで接線および従法線データの魔法を解き放つ Aspose.3D for .NET ツールキットが提供されます。
 
@@ -85,3 +91,9 @@ Aspose.3D は、OBJ、STL、glTF などの多数の形式をサポートして�
  Aspose.3D には、次の場所に包括的なドキュメント ポータルがあります。[ここ](https://docs.aspose.com/3d/net/)。さらに、Aspose コミュニティ フォーラム (次のサイト)[ここ](https://forum.aspose.com/)はいつも親切な開発者で賑わっています。
 ### Aspose.3D を商用プロジェクトに使用できますか? 
 はい！ Aspose.3D は、ニーズに合わせてさまざまなライセンス オプションを提供します。料金ページは次のとおりです。[ここ](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

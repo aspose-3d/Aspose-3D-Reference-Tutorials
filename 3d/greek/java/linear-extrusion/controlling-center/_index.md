@@ -3,10 +3,16 @@ title: Κέντρο Ελέγχου στη Γραμμική Εξώθηση με A
 linktitle: Κέντρο Ελέγχου στη Γραμμική Εξώθηση με Aspose.3D για Java
 second_title: Aspose.3D Java API
 description: Εξερευνήστε τον κόσμο των τρισδιάστατων γραφικών σε Java με το Aspose.3D. Ελέγξτε το κέντρο στη γραμμική εξώθηση χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/java/linear-extrusion/controlling-center/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κέντρο Ελέγχου στη Γραμμική Εξώθηση με Aspose.3D για Java
+
 ## Εισαγωγή
 
 Στον κόσμο των τρισδιάστατων γραφικών και του προγραμματισμού Java, ο έλεγχος του κέντρου στη γραμμική εξώθηση παίζει καθοριστικό ρόλο στην επίτευξη των επιθυμητών αποτελεσμάτων στα έργα σας. Το Aspose.3D για Java παρέχει μια ισχυρή εργαλειοθήκη για απρόσκοπτη διαχείριση τέτοιων εργασιών. Σε αυτό το σεμινάριο, θα βουτήξουμε στη διαδικασία ελέγχου του κέντρου σε γραμμική εξώθηση χρησιμοποιώντας το Aspose.3D για Java, αναλύοντας κάθε βήμα για να εξασφαλίσουμε μια ομαλή και ολοκληρωμένη κατανόηση.
@@ -126,3 +132,9 @@ A4: Ναι, εάν χρειάζεστε μια προσωρινή άδεια γ�
 ### Ε5: Πού μπορώ να βρω την τεκμηρίωση;
 
  A5: Η τεκμηρίωση για το Aspose.3D για Java είναι διαθέσιμη[εδώ](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Bagikan Data Geometri Mesh di Java 3D dengan Aspose.3D
 linktitle: Bagikan Data Geometri Mesh di Java 3D dengan Aspose.3D
 second_title: Asumsikan.3D Java API
 description: Jelajahi keajaiban Java 3D dengan Aspose.3D. Pelajari cara berbagi data geometri mesh dengan mudah antar node dalam tutorial komprehensif ini.
-type: docs
 weight: 15
 url: /id/java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bagikan Data Geometri Mesh di Java 3D dengan Aspose.3D
+
 ## Perkenalan
 
 Memulai perjalanan ke dunia Java 3D dengan Aspose.3D membuka banyak kemungkinan untuk menciptakan visualisasi yang menakjubkan dan pengalaman yang mendalam. Dalam tutorial ini, kami akan memandu Anda melalui proses berbagi data geometri mesh di Java 3D menggunakan Aspose.3D. Ikuti setiap langkah dengan cermat, dan pada akhirnya, Anda akan bertukar data mesh dengan lancar antar beberapa node.
@@ -117,3 +123,9 @@ A1: Ya, Aspose.3D dirancang untuk bekerja secara lancar dengan berbagai kerangka
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
 
  A5: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

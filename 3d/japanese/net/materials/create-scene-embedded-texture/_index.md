@@ -3,10 +3,16 @@ title: テクスチャが埋め込まれたシーンの作成
 linktitle: テクスチャが埋め込まれたシーンの作成
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して、テクスチャが埋め込まれた魅力的な 3D シーンを作成します。素晴らしい結果を得るには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 10
 url: /ja/net/materials/create-scene-embedded-texture/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# テクスチャが埋め込まれたシーンの作成
+
 ## 導入
 Aspose.3D for .NET を使用したエキサイティングな 3D グラフィックスの世界へようこそ!この包括的なチュートリアルでは、.NET 開発者向けの強力で多用途なライブラリである Aspose.3D を使用して、テクスチャが埋め込まれた見事な 3D シーンを作成するプロセスを説明します。
 ## 前提条件
@@ -109,3 +115,9 @@ A: Aspose.3D はアニメーション機能を提供します。詳細な手順�
  A: にアクセスしてください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)コミュニティのサポートとディスカッションのために。
 ### Q: Aspose.3D を商用プロジェクトに使用できますか?
  A: はい、ライセンスを購入できます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

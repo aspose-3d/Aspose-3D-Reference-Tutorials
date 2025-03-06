@@ -3,10 +3,16 @@ title: Terapkan Kueri Seperti XPath ke Objek 3D di Java
 linktitle: Terapkan Kueri Seperti XPath ke Objek 3D di Java
 second_title: Asumsikan.3D Java API
 description: Kuasai kueri objek 3D di Java dengan mudah menggunakan Aspose.3D. Terapkan kueri mirip XPath, manipulasi adegan, dan tingkatkan pengembangan 3D Anda.
-type: docs
 weight: 11
 url: /id/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terapkan Kueri Seperti XPath ke Objek 3D di Java
+
 ## Perkenalan
 
 Menggali dunia pemodelan 3D dan manipulasi adegan di Java bisa menjadi tugas yang menakutkan, tapi jangan takut! Aspose.3D untuk Java memberikan solusi tangguh untuk menangani objek 3D, menjadikannya alat yang sangat berharga bagi pengembang. Dalam tutorial ini, kami akan memandu Anda melalui penerapan kueri mirip XPath ke objek 3D di Java menggunakan Aspose.3D.
@@ -99,3 +105,9 @@ Dalam tutorial ini, kami telah mengungkap proses penerapan kueri mirip XPath ke 
 ### Q5: Butuh lisensi sementara?
 
  A5: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

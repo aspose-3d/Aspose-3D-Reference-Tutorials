@@ -3,10 +3,16 @@ title: Настройка UV на кубе
 linktitle: Настройка UV на кубе
 second_title: Aspose.3D .NET API
 description: Научитесь настраивать UV-преобразование в 3D-кубе с помощью Aspose.3D для .NET. Создавайте визуально потрясающие сцены с точным наложением текстур.
-type: docs
 weight: 18
 url: /ru/net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка UV на кубе
+
 ## Введение
 
 Создание захватывающих и визуально привлекательных 3D-сцен часто включает в себя кропотливый процесс настройки UV-преобразования геометрических фигур. В этом уроке мы рассмотрим, как настроить UV для куба с помощью Aspose.3D для .NET. Aspose.3D — это мощная библиотека .NET, предоставляющая полный набор функций для 3D-моделирования и манипулирования.
@@ -119,3 +125,9 @@ A1: Aspose.3D for .NET — это мощная библиотека для 3D-м
 ### Вопрос 5: Доступны ли временные лицензии?
 
  О5: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

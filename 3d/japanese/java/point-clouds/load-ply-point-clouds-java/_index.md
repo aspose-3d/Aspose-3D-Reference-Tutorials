@@ -3,10 +3,16 @@ title: PLY 点群を Java にシームレスにロードする
 linktitle: PLY 点群を Java にシームレスにロードする
 second_title: Aspose.3D Java API
 description: Aspose.3D シームレスな PLY 点群の読み込みを使用して Java アプリを強化します。ステップバイステップのガイド、よくある質問、サポート。
-type: docs
 weight: 11
 url: /ja/java/point-clouds/load-ply-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLY 点群を Java にシームレスにロードする
+
 ## 導入
 
 Aspose.3D を使用して Java で PLY 点群をシームレスにロードするためのこの包括的なガイドへようこそ。強力な 3D 点群処理機能を使用して Java アプリケーションを強化したい場合は、ここが最適な場所です。このチュートリアルでは、プロセスを段階的に説明し、各概念を完全に理解できるようにします。
@@ -89,3 +95,10 @@ A4: コミュニティ サポート フォーラムにアクセスしてくだ�
 ### Q5: テスト用の一時ライセンスを取得できますか?
 
  A5: 仮免許を取得してください。[ここ](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

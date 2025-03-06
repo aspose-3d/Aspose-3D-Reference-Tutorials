@@ -3,10 +3,16 @@ title: Transformez des nœuds 3D avec des quaternions en Java à l'aide d'Aspose
 linktitle: Transformez des nœuds 3D avec des quaternions en Java à l'aide d'Aspose.3D
 second_title: API Java Aspose.3D
 description: Améliorez vos applications Java avec Aspose.3D pour de puissantes transformations 3D. Apprenez à transformer des nœuds à l'aide de quaternions dans ce guide étape par étape.
-type: docs
 weight: 20
 url: /fr/java/geometry/transform-3d-nodes-with-quaternions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformez des nœuds 3D avec des quaternions en Java à l'aide d'Aspose.3D
+
 ## Introduction
 
 Bienvenue dans ce guide étape par étape sur la transformation de nœuds 3D avec des quaternions en Java à l'aide d'Aspose.3D. Si vous souhaitez améliorer votre application Java avec de puissantes transformations 3D, ce didacticiel est fait pour vous. Aspose.3D pour Java fournit un ensemble robuste de fonctionnalités pour travailler avec des graphiques 3D, et dans ce didacticiel, nous nous concentrerons sur la transformation des nœuds 3D à l'aide de quaternions.
@@ -119,3 +125,9 @@ A1 : Aspose.3D pour Java propose un essai gratuit. Tu peux le trouver[ici](https
 ### Q5 : Où puis-je acheter Aspose.3D pour Java ?
 
  A5 : Vous pouvez l'acheter[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

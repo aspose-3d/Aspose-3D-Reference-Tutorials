@@ -3,10 +3,16 @@ title: 更改 3D 場景中的平面方向
 linktitle: 更改 3D 場景中的平面方向
 second_title: Aspose.3D .NET API
 description: 探索 Aspose.3D for .NET 並掌握 3D 場景中平面方向的變化。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 10
 url: /zh-hant/net/3d-modeling/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 更改 3D 場景中的平面方向
+
 ## 介紹
 
 歡迎閱讀這份有關使用 Aspose.3D for .NET 在 3D 場景中更改平面方向的綜合指南！如果您是希望提高技能的開發人員或 3D 愛好者，那麼您來對地方了。在本教程中，我們將使用清晰的範例和詳細的解釋逐步深入研究該過程。最後，您將對如何在 3D 專案中操縱平面方向有深入的了解。
@@ -95,3 +101,9 @@ A1：Aspose.3D 可以與其他流行的 3D 庫無縫協作，為您的開發提�
 ### Q5：哪裡可以找到詳細的文件？
 
  A5：參考文檔[這裡](https://reference.aspose.com/3d/net/)以獲得深入的資訊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

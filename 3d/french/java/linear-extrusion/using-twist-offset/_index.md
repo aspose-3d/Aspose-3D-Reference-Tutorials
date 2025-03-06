@@ -4,10 +4,16 @@ linktitle: Utilisation du décalage de torsion dans l'extrusion linéaire avec A
 second_title: API Java Aspose.3D
 description: Améliorez vos compétences en modélisation 3D avec Aspose.3D pour Java. Apprenez à utiliser le décalage de torsion dans l'extrusion linéaire dans ce didacticiel complet.
 
-type: docs
 weight: 15
 url: /fr/java/linear-extrusion/using-twist-offset/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utilisation du décalage de torsion dans l'extrusion linéaire avec Aspose.3D pour Java
+
 ## Introduction
 
 Dans le monde dynamique du graphisme 3D, maîtriser l’art de l’extrusion linéaire change la donne. Avec Aspose.3D pour Java, vous pouvez améliorer vos compétences en modélisation 3D en incorporant la fonction Twist Offset dans votre processus d'extrusion linéaire. Ce didacticiel vous guidera à travers les étapes d'utilisation du Twist Offset dans l'extrusion linéaire à l'aide d'Aspose.3D pour Java, vous fournissant les outils nécessaires pour créer de superbes scènes 3D.
@@ -113,3 +119,9 @@ Toutes nos félicitations! Vous avez implémenté avec succès le décalage de t
 ### Q5 : Existe-t-il des exemples et des didacticiels supplémentaires disponibles ?
 
  A5 : Oui, reportez-vous au[Documentation](https://reference.aspose.com/3d/java/) pour plus d’exemples et des tutoriels approfondis.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

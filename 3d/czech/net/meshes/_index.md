@@ -3,10 +3,16 @@ title: Sítě
 linktitle: Sítě
 second_title: Aspose.3D .NET API
 description: Odhalte tajemství Aspose.3D pro .NET pomocí našich komplexních výukových programů. Optimalizujte 3D modely, převádějte primitiva na sítě a bez námahy vylepšujte grafiku.
-type: docs
 weight: 26
 url: /cs/net/meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sítě
+
 ## Úvod
 
 Aspose.3D for .NET otevírá svět možností pro vývojáře, kteří se chtějí ponořit do složitosti 3D sítí. V tomto článku vás provedeme různými výukovými programy, z nichž každý nabízí jedinečný pohled na využití plného potenciálu Aspose.3D pro .NET.
@@ -69,3 +75,9 @@ Ovládněte umění rozdělování 3D sítí podle materiálu s Aspose.3D pro .N
 [Přečtěte si tutoriál: Rozdělit síť podle materiálu](./split-mesh-by-material/)
 
 Na závěr naše výukové programy Aspose.3D for .NET nabízejí komplexního průvodce zvládnutím různých aspektů 3D modelování. Ponořte se do toho, vylepšete své dovednosti a pozvedněte svou 3D vývojovou hru!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

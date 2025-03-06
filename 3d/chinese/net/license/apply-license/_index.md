@@ -3,10 +3,16 @@ title: 将许可证应用于 Aspose.3D for .NET
 linktitle: 将许可证应用于 Aspose.3D for .NET
 second_title: Aspose.3D .NET API
 description: 通过无缝应用许可证来释放 Aspose.3D for .NET 的强大功能。请遵循我们的分步指南以获得流畅的集成体验。
-type: docs
 weight: 10
 url: /zh/net/license/apply-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将许可证应用于 Aspose.3D for .NET
+
 ## 介绍
 
 您准备好释放 Aspose.3D for .NET 的全部潜力了吗？应用许可证是访问高级功能和确保无缝集成的关键。在本分步指南中，我们将引导您完成应用许可证的各种方法，确保您的 Aspose.3D 应用程序顺利设置。
@@ -118,3 +124,9 @@ A3：访问社区论坛[这里](https://forum.aspose.com/c/3d/18)寻求任何帮
 ### Q5：如何购买许可证？
 
  A5：购买您的许可证[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

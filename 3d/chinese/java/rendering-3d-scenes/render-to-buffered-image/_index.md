@@ -3,10 +3,16 @@ title: 将 3D 场景渲染为缓冲图像以在 Java 中进行进一步处理
 linktitle: 将 3D 场景渲染为缓冲图像以在 Java 中进行进一步处理
 second_title: Aspose.3D Java API
 description: 探索 Aspose.3D for Java 在将 3D 场景渲染为缓冲图像方面的强大功能。包含先决条件、导入包和常见问题解答的分步指南。
-type: docs
 weight: 12
 url: /zh/java/rendering-3d-scenes/render-to-buffered-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将 3D 场景渲染为缓冲图像以在 Java 中进行进一步处理
+
 ## 介绍
 
 欢迎阅读本分步指南，了解如何使用 Aspose.3D for Java 将 3D 场景渲染为缓冲图像。 Aspose.3D 是一个功能强大的 Java 库，允许开发人员处理 3D 文件和场景，提供多种渲染和处理功能。在本教程中，我们将重点关注将 3D 场景渲染为缓冲图像，从而为在 Java 中进行进一步处理提供了可能性。
@@ -106,3 +112,9 @@ A3：访问Aspose.3D论坛[这里](https://forum.aspose.com/c/3d/18)如有任何
 ### Q5：是否有其他可用的渲染选项？
 
  A5：是的，探索 Aspose.3D 文档[这里](https://reference.aspose.com/3d/java/)有关渲染选项的全面信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

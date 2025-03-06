@@ -3,10 +3,16 @@ title: Áp dụng Giấy phép trong Aspose.3D cho Java
 linktitle: Áp dụng Giấy phép trong Aspose.3D cho Java
 second_title: API Java Aspose.3D
 description: Khai thác toàn bộ tiềm năng của Aspose.3D trong các ứng dụng Java bằng cách làm theo hướng dẫn toàn diện của chúng tôi về việc áp dụng giấy phép.
-type: docs
 weight: 10
 url: /vi/java/licensing/applying-license-in-aspose-3d/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Giấy phép trong Aspose.3D cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước về cách đăng ký giấy phép trong Aspose.3D cho Java. Aspose.3D là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp 3D một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào quy trình áp dụng giấy phép bằng nhiều phương pháp khác nhau, đảm bảo bạn có thể khai thác toàn bộ tiềm năng của Aspose.3D trong các ứng dụng Java của mình.
@@ -111,3 +117,9 @@ Câu trả lời 1: Có, Aspose.3D tương thích với Java 6 và các phiên b
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời để thử nghiệm không?
 
  A5: Có, xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

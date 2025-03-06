@@ -3,10 +3,16 @@ title: شبكة التثليث
 linktitle: شبكة التثليث
 second_title: Aspose.3D.NET API
 description: اكتشف قوة Aspose.3D لـ .NET في هذا الدليل التفصيلي خطوة بخطوة. تعرف على كيفية تثليث الشبكات ثلاثية الأبعاد بسهولة لتحسين النماذج.
-type: docs
 weight: 22
 url: /ar/net/geometry-and-hierarchy/triangulate-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# شبكة التثليث
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول تثليث الشبكات في المشاهد ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. Aspose.3D هي مكتبة قوية تمكّن مطوري .NET من العمل بسلاسة مع الملفات ثلاثية الأبعاد، وتقدم مجموعة واسعة من الوظائف لإنشاء النماذج ثلاثية الأبعاد ومعالجتها وتحويلها.
@@ -102,3 +108,10 @@ Console.WriteLine("\nMesh has been Triangulated.\nFile saved at " + output);
 ### س5: هل يمكنني تجربة Aspose.3D مجانًا قبل الشراء؟
 
  ج5: بالتأكيد! يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

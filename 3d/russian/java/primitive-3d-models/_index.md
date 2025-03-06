@@ -3,10 +3,16 @@ title: Создание примитивных 3D-моделей в Aspose.3D д
 linktitle: Создание примитивных 3D-моделей в Aspose.3D для Java
 second_title: Aspose.3D Java API
 description: Создавайте потрясающие 3D-модели без особых усилий, используя учебные пособия Aspose.3D для Java. Раскройте свой творческий потенциал с помощью пошаговых руководств по созданию примитивных 3D-моделей.
-type: docs
 weight: 24
 url: /ru/java/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание примитивных 3D-моделей в Aspose.3D для Java
+
 
 
 ## Введение
@@ -31,3 +37,9 @@ url: /ru/java/primitive-3d-models/
 ## Создание примитивных 3D-моделей в Aspose.3D для Java. Учебные пособия
 ### [Создание примитивных 3D-моделей с помощью Aspose.3D для Java](./building-primitive-3d-models/)
 Откройте для себя искусство 3D-моделирования с помощью Aspose.3D для Java. Научитесь легко создавать примитивные 3D-модели и раскройте свой творческий потенциал.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Condividi i dati della geometria della mesh in Java 3D con Aspose.3D
 linktitle: Condividi i dati della geometria della mesh in Java 3D con Aspose.3D
 second_title: API Java Aspose.3D
 description: Esplora le meraviglie di Java 3D con Aspose.3D. Scopri come condividere facilmente i dati della geometria della mesh tra i nodi in questo tutorial completo.
-type: docs
 weight: 15
 url: /it/java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Condividi i dati della geometria della mesh in Java 3D con Aspose.3D
+
 ## introduzione
 
 Intraprendere un viaggio nel regno di Java 3D con Aspose.3D apre un mondo di possibilità per creare visualizzazioni straordinarie ed esperienze coinvolgenti. In questo tutorial, ti guideremo attraverso il processo di condivisione dei dati della geometria della mesh in Java 3D utilizzando Aspose.3D. Segui attentamente ogni passaggio e, alla fine, scambierai senza problemi i dati mesh tra più nodi.
@@ -117,3 +123,9 @@ A1: Sì, Aspose.3D è progettato per funzionare perfettamente con vari framework
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.3D?
 
  A5: Puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

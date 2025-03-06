@@ -3,10 +3,16 @@ title: Java에서 PLY 포인트 클라우드를 원활하게 로드
 linktitle: Java에서 PLY 포인트 클라우드를 원활하게 로드
 second_title: Aspose.3D 자바 API
 description: Aspose.3D의 원활한 PLY 포인트 클라우드 로딩으로 Java 앱을 향상하세요. 단계별 가이드, FAQ 및 지원.
-type: docs
 weight: 11
 url: /ko/java/point-clouds/load-ply-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 PLY 포인트 클라우드를 원활하게 로드
+
 ## 소개
 
 Aspose.3D를 사용하여 Java에서 PLY 포인트 클라우드를 원활하게 로드하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. 강력한 3D 포인트 클라우드 처리 기능으로 Java 애플리케이션을 향상시키려는 경우 올바른 위치에 오셨습니다. 이 튜토리얼에서는 각 개념을 철저하게 이해할 수 있도록 프로세스를 단계별로 안내합니다.
@@ -89,3 +95,10 @@ A3: 설명서를 참조하세요[여기](https://reference.aspose.com/3d/java/).
 ### Q5: 테스트용 임시 라이센스를 얻을 수 있나요?
 
  A5: 물론 임시 면허를 취득하세요.[여기](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

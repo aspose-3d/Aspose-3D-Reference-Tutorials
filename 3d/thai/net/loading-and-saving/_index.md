@@ -3,10 +3,16 @@ title: กำลังโหลดและบันทึก
 linktitle: กำลังโหลดและบันทึก
 second_title: Aspose.3D .NET API
 description: ยกระดับเกมการสร้างแบบจำลอง 3 มิติของคุณด้วย Aspose.3D สำหรับ .NET! ฝึกฝนเทคนิคการโหลดและบันทึกอย่างมีประสิทธิภาพโดยใช้ CancellationToken สำรวจตอนนี้!
-type: docs
 weight: 27
 url: /th/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# กำลังโหลดและบันทึก
+
 ## การแนะนำ
 
 ดำดิ่งสู่อาณาจักรอันน่าทึ่งของการสร้างแบบจำลอง 3 มิติด้วย Aspose.3D สำหรับ .NET ประตูสู่การจัดการเอกสาร 3 มิติที่ราบรื่นและมีประสิทธิภาพ ในชุดบทช่วยสอนนี้ เราจะสำรวจความซับซ้อนของการโหลดและบันทึกโมเดล 3 มิติ เพื่อปลดล็อกโลกแห่งความเป็นไปได้ที่สร้างสรรค์
@@ -105,3 +111,9 @@ url: /th/net/loading-and-saving/
 ### โหลดพื้นผิวที่ฝังจาก USDZ ไปยังหน่วยความจำ
 
 เข้าถึงข้อมูลพื้นผิวที่ฝังอยู่ภายในไฟล์ USDZ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.3D cho .NET
 linktitle: Hướng dẫn Aspose.3D cho .NET
-type: docs
 weight: 10
 url: /vi/net/
 description: Mở khóa thế giới mô hình hóa và hoạt hình 3D với hướng dẫn Aspose.3D cho .NET. Nâng cao dự án của bạn một cách dễ dàng – từ kết xuất đến ép đùn tuyến tính.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.3D cho .NET
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng bắt đầu cuộc hành trình vào thế giới thú vị của mô hình và hoạt hình 3D chưa? Không cần tìm đâu xa - Aspose.3D for .NET mang đến cho bạn một bộ sưu tập toàn diện các hướng dẫn và ví dụ, được thiết kế để giải phóng khả năng sáng tạo của bạn và nâng dự án của bạn lên một tầm cao mới.
@@ -60,3 +65,9 @@ Bắt đầu cuộc hành trình vào thế giới hoạt hình 3D với các h�
 
 
 Mở khóa tiềm năng sáng tạo trong bạn và đi sâu vào thế giới hướng dẫn Aspose.3D cho .NET. Tải xuống bản dùng thử ngay bây giờ và nâng các dự án 3D của bạn lên tầm cao phi thường!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

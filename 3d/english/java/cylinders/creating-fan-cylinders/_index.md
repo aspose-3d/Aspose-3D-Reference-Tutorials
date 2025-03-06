@@ -3,10 +3,16 @@ title: Creating Customized Fan Cylinders with Aspose.3D for Java
 linktitle: Creating Customized Fan Cylinders with Aspose.3D for Java
 second_title: Aspose.3D Java API
 description: Learn to create customized fan cylinders in Java with Aspose.3D. Elevate your 3D modeling game effortlessly.
-type: docs
 weight: 10
 url: /java/cylinders/creating-fan-cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creating Customized Fan Cylinders with Aspose.3D for Java
+
 ## Introduction
 
 Are you ready to elevate your 3D modeling experience with Aspose.3D for Java? This tutorial will guide you through the process of creating customized fan cylinders using the powerful Aspose.3D library. Whether you're a seasoned developer or a beginner, this step-by-step guide will help you unleash the full potential of Aspose.3D in Java.
@@ -124,3 +130,10 @@ A4: Yes, you can explore Aspose.3D with a [free trial](https://releases.aspose.c
 ### Q5: How can I obtain a temporary license for Aspose.3D?
 
 A5: Acquire a temporary license [here](https://purchase.aspose.com/temporary-license/) for your testing and development needs.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

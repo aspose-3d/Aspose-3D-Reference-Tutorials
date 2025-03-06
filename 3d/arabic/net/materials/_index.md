@@ -3,10 +3,16 @@ title: مواد
 linktitle: مواد
 second_title: Aspose.3D.NET API
 description: افتح عالم المشاهد ثلاثية الأبعاد الجذابة باستخدام دروس Aspose.3D لـ .NET. تعلم كيفية إنشاء مشاهد مذهلة واستكشاف الأنسجة المضمنة دون عناء.
-type: docs
 weight: 28
 url: /ar/net/materials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مواد
+
 ## مقدمة
 
 هل أنت مستعد للشروع في رحلة إلى عالم التصميم والتصور ثلاثي الأبعاد المثير؟ يفتح Aspose.3D for .NET الباب أمام عالم لا يعرف فيه الإبداع حدودًا. في هذه المقالة، سنوجهك عبر سلسلة من البرامج التعليمية، يفتح كل منها جانبًا جديدًا من مكتبة .NET القوية هذه.
@@ -31,3 +37,9 @@ url: /ar/net/materials/
 قم بإنشاء مشاهد ثلاثية الأبعاد رائعة باستخدام مواد مضمنة باستخدام Aspose.3D لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على نتائج مذهلة.
 ### [إلقاء القوام المضمنة](./dump-embedded-textures/)
 اكتشف أسرار الأنسجة المضمنة في النماذج ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. تعمق في دليلنا خطوة بخطوة لتحقيق التكامل السلس. تحميل النسخة التجريبية المجانية من الآن!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

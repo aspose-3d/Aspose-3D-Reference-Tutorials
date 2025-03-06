@@ -3,10 +3,16 @@ title: Освойте базовые методы рендеринга 3D-сце
 linktitle: Освойте базовые методы рендеринга 3D-сцен на Java
 second_title: Aspose.3D Java API
 description: Изучите 3D-рендеринг на Java с помощью Aspose.3D. Овладейте фундаментальными приемами, настраивайте сцены и плавно визуализируйте формы. Совершенствуйте свои навыки программирования Java в 3D-графике.
-type: docs
 weight: 11
 url: /ru/java/rendering-3d-scenes/basic-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освойте базовые методы рендеринга 3D-сцен на Java
+
 ## Введение
 
 Добро пожаловать в захватывающий мир 3D-рендеринга на Java с использованием Aspose.3D! Если вы хотите освоить базовые методы рендеринга 3D-сцен, вы попали по адресу. В этом пошаговом руководстве мы покажем вам процесс настройки 3D-сцены, применения материалов и рендеринга различных форм. К концу вы получите четкое понимание фундаментальных концепций рендеринга в Java.
@@ -114,3 +120,9 @@ return camera;
 ### Вопрос 5: Где я могу приобрести Aspose.3D для Java?
 
  A5: вы можете купить товар[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

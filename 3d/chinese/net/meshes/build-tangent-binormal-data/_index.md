@@ -3,10 +3,16 @@ title: 构建切线和副法线数据
 linktitle: 构建切线和副法线数据
 second_title: Aspose.3D .NET API
 description: 释放切线和副法线数据的力量来优化您的 3D 模型，以实现更平滑的渲染、更快的加载时间和性能提升。
-type: docs
 weight: 10
 url: /zh/net/meshes/build-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 构建切线和副法线数据
+
 ## 介绍
 您是否曾因 3D 模型迟缓而使您的项目陷入困境而感到沮丧？别担心，开发人员同事，顺利航行的秘诀在于切线和非法线数据。这些无名英雄优化了网格渲染，使您的模型在任何舞台上都像歌剧女主角一样歌唱。但我们如何利用他们的力量呢？不用担心，因为本综合指南将为您配备 Aspose.3D for .NET 工具包，只需单击几下即可解锁切线和副法线数据的魔力！
 
@@ -85,3 +91,9 @@ Aspose.3D 支持多种格式，如 OBJ、STL 和 glTF。只需将您的模型转
  Aspose.3D 有一个全面的文档门户，位于[这里](https://docs.aspose.com/3d/net/)。此外，Aspose 社区论坛位于[这里](https://forum.aspose.com/)总是充满乐于助人的开发人员。
 ### 我可以将 Aspose.3D 用于商业项目吗？ 
 是的！ Aspose.3D 提供各种许可选项来满足您的需求。查看他们的定价页面[这里](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

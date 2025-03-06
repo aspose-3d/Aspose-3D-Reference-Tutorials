@@ -3,10 +3,16 @@ title: जाल
 linktitle: जाल
 second_title: Aspose.3D .NET API
 description: हमारे व्यापक ट्यूटोरियल के साथ .NET के लिए Aspose.3D के रहस्यों को अनलॉक करें। 3डी मॉडल अनुकूलित करें, प्रिमिटिव को मेश में बदलें और ग्राफिक्स को सहजता से बढ़ाएं।
-type: docs
 weight: 26
 url: /hi/net/meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जाल
+
 ## परिचय
 
 .NET के लिए Aspose.3D उन डेवलपर्स के लिए संभावनाओं की दुनिया खोलता है जो 3D मेश की पेचीदगियों में गोता लगाना चाहते हैं। इस लेख में, हम आपको विभिन्न मेश ट्यूटोरियल के माध्यम से मार्गदर्शन करेंगे, जिनमें से प्रत्येक .NET के लिए Aspose.3D की पूरी क्षमता का उपयोग करने पर एक अद्वितीय परिप्रेक्ष्य प्रदान करता है।
@@ -69,3 +75,9 @@ Aspose.3D मेश के लिए बनावट निर्देशां
 [ट्यूटोरियल पढ़ें: सामग्री द्वारा जाल को विभाजित करें](./split-mesh-by-material/)
 
 अंत में, .NET ट्यूटोरियल के लिए हमारा Aspose.3D 3D मॉडलिंग के विभिन्न पहलुओं में महारत हासिल करने के लिए एक व्यापक मार्गदर्शिका प्रदान करता है। इसमें गोता लगाएँ, अपने कौशल बढ़ाएँ, और अपने 3D विकास गेम को उन्नत करें!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

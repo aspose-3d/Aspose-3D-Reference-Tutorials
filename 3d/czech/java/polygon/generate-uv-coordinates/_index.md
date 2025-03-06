@@ -3,10 +3,16 @@ title: Generujte UV souřadnice pro mapování textur v Java 3D modelech
 linktitle: Generujte UV souřadnice pro mapování textur v Java 3D modelech
 second_title: Aspose.3D Java API
 description: Naučte se generovat UV souřadnice pro Java 3D modely pomocí Aspose.3D. Vylepšete mapování textur ve svých projektech pomocí tohoto podrobného průvodce.
-type: docs
 weight: 11
 url: /cs/java/polygon/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generujte UV souřadnice pro mapování textur v Java 3D modelech
+
 ## Úvod
 
 Vítejte v našem podrobném průvodci generováním UV souřadnic pro mapování textur v Java 3D modelech pomocí Aspose.3D. V tomto tutoriálu vás provedeme procesem ručního generování UV souřadnic pro síť ve 3D modelu. Toto je zásadní krok v mapování textur, který vám umožní zlepšit vizuální přitažlivost vašich 3D modelů.
@@ -120,3 +126,9 @@ A1: Aspose.3D je primárně navržen pro Javu, ale Aspose nabízí verze pro jin
 ### Q5: Mohu si zakoupit dočasnou licenci pro Aspose.3D?
 
  A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

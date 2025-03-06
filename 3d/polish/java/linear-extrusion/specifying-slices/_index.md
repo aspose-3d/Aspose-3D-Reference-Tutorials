@@ -3,10 +3,16 @@ title: Określanie plasterków w wytłaczaniu liniowym za pomocą Aspose.3D dla 
 linktitle: Określanie plasterków w wytłaczaniu liniowym za pomocą Aspose.3D dla Java
 second_title: Aspose.3D API Java
 description: Naucz się określać plasterki w wyciskaniu liniowym przy użyciu Aspose.3D dla Java. Podnieś swoje umiejętności modelowania 3D dzięki temu przewodnikowi krok po kroku.
-type: docs
 weight: 13
 url: /pl/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Określanie plasterków w wytłaczaniu liniowym za pomocą Aspose.3D dla Java
+
 ## Wstęp
 
 Tworzenie skomplikowanych modeli 3D często wymaga czegoś więcej niż tylko kreatywności; wymaga to dokładnego zrozumienia narzędzi, którymi dysponujesz. Aspose.3D dla Java zmienia zasady gry pod tym względem. W tym samouczku skupimy się na konkretnym aspekcie - określeniu przekrojów w wyciskaniu liniowym.
@@ -93,3 +99,9 @@ Gratulacje! Pomyślnie nauczyłeś się określać plasterki w wyciskaniu liniow
 ### P5: Czy mogę kupić licencję tymczasową?
 
  Odpowiedź 5: Tak, można uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

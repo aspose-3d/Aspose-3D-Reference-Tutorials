@@ -3,10 +3,16 @@ title: Ossza fel a 3D hálókat anyag szerint a hatékony Java feldolgozás érd
 linktitle: Ossza fel a 3D hálókat anyag szerint a hatékony Java feldolgozás érdekében
 second_title: Aspose.3D Java API
 description: Fedezze fel az Aspose.3D erejét Java nyelven a 3D hálók anyagonkénti hatékony felosztásáról szóló, lépésről lépésre szóló útmutatónkkal. Növelje alkalmazásának teljesítményét zökkenőmentesen.
-type: docs
 weight: 12
 url: /hu/java/3d-mesh-data/split-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ossza fel a 3D hálókat anyag szerint a hatékony Java feldolgozás érdekében
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó oktatóanyagban, amely a 3D hálók anyagonkénti felosztásáról szól a hatékony Java-feldolgozás érdekében az Aspose.3D használatával. Ha a 3D-s grafika világába merül, és hatékony Java-könyvtárra van szüksége, az Aspose.3D a legjobb megoldás. Ebben az oktatóanyagban végigvezetjük a 3D hálók anyagonkénti hatékony kezelésének folyamatán, optimalizálva Java-alkalmazását a kiváló teljesítmény érdekében.
@@ -104,3 +110,10 @@ A2: Abszolút! Ez a módszer jól skálázható bonyolult 3D modellekhez, anyags
 ### 5. kérdés: Hogyan kaphatok támogatást bármilyen probléma vagy kérdés esetén?
 
  A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) a közösség elkötelezett támogatásáért.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

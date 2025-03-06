@@ -3,10 +3,16 @@ title: Pemodelan
 linktitle: Pemodelan
 second_title: Aspose.3D .NET API
 description: Temukan seni pemodelan 3D dengan Aspose.3D untuk .NET! Buat model primitif menawan dengan mudah dalam tutorial komprehensif ini. Bebaskan kreativitas Anda hari ini.
-type: docs
 weight: 28
 url: /id/net/3d-modeling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pemodelan
+
 
 ## Perkenalan
 
@@ -67,3 +73,9 @@ Keindahan pemodelan 3D terletak pada kebebasan mengeluarkan kreativitas Anda. As
 ## Tutorial Pemodelan 3D
 ### [Membuat Model 3D Primitif](./primitive-3d-models/)
 Jelajahi dunia pemodelan 3D dengan Aspose.3D untuk .NET. Buat model primitif yang menakjubkan dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

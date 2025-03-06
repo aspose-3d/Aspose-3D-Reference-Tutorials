@@ -3,10 +3,16 @@ title: Центр управления в линейной экструзии с
 linktitle: Центр управления в линейной экструзии с помощью Aspose.3D для Java
 second_title: Aspose.3D Java API
 description: Исследуйте мир 3D-графики на Java с помощью Aspose.3D. Управляйте центром при линейной экструзии без особых усилий.
-type: docs
 weight: 11
 url: /ru/java/linear-extrusion/controlling-center/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Центр управления в линейной экструзии с помощью Aspose.3D для Java
+
 ## Введение
 
 В мире 3D-графики и программирования на Java управление центром линейной экструзии играет решающую роль в достижении желаемых эффектов в ваших проектах. Aspose.3D for Java предоставляет мощный набор инструментов для беспрепятственного решения таких задач. В этом уроке мы погрузимся в процесс управления центром при линейной экструзии с использованием Aspose.3D для Java, разбив каждый шаг, чтобы обеспечить плавное и полное понимание.
@@ -126,3 +132,9 @@ scene.save(MyDir + "CenterInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### В5: Где я могу найти документацию?
 
  A5: Документация Aspose.3D для Java доступна.[здесь](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

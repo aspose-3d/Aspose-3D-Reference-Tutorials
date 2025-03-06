@@ -3,10 +3,16 @@ title: Java アプリケーションの 3D シーンから情報を取得する
 linktitle: Java アプリケーションの 3D シーンから情報を取得する
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して、Java での 3D シーン操作の世界を探索してください。このチュートリアルでは、情報を取得する方法を段階的に説明します。
-type: docs
 weight: 12
 url: /ja/java/3d-scenes-and-models/get-scene-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java アプリケーションの 3D シーンから情報を取得する
+
 ## 導入
 
 Aspose.3D を使用して Java アプリケーションの 3D シーンから情報を取得するためのこの包括的なガイドへようこそ。 Java 開発者で、3D シーン操作によるアプリケーションの機能の強化を検討している場合は、ここが正しい場所です。このチュートリアルでは、プロセスを段階的にガイドし、各概念を完全に理解できるようにします。
@@ -99,3 +105,9 @@ A2: もちろんです。 Aspose.3D は開発者に商用ライセンスを提�
 ### Q5: Aspose.3D の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: テスト目的で一時ライセンスを取得します。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

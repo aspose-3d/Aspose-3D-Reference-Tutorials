@@ -3,10 +3,16 @@ title: Сжатие 3D-сетей с помощью Google Draco на Java
 linktitle: Сжатие 3D-сетей с помощью Google Draco на Java
 second_title: Aspose.3D Java API
 description: Оптимизируйте свои 3D-приложения с помощью Aspose.3D. Узнайте, как сжимать сетки с помощью Google Draco на Java. Следуйте нашему пошаговому руководству для эффективной 3D-разработки.
-type: docs
 weight: 10
 url: /ru/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сжатие 3D-сетей с помощью Google Draco на Java
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по сжатию 3D-сеток с помощью Google Draco на Java с использованием Aspose.3D. В этом уроке мы познакомим вас с процессом эффективного сжатия 3D-сеток, используя возможности Aspose.3D. Если вы разработчик, желающий улучшить свои 3D-приложения за счет уменьшения размера сетки без ущерба для качества, вы попали по адресу.
@@ -100,3 +106,9 @@ Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 ### Вопрос 5: Существует ли форум сообщества для поддержки Aspose.3D?
 
  О5: Да, для поддержки сообщества и обсуждения посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

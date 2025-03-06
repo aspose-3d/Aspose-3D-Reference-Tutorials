@@ -3,10 +3,16 @@ title: تحويل المضلعات إلى مثلثات
 linktitle: تحويل المضلعات إلى مثلثات
 second_title: Aspose.3D.NET API
 description: استكشف العالم السلس للنمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. قم بتحويل المضلعات إلى مثلثات بسهولة باستخدام دليلنا خطوة بخطوة. تحميل النسخة التجريبية المجانية من الآن!
-type: docs
 weight: 10
 url: /ar/net/meshes/convert-polygons-to-triangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل المضلعات إلى مثلثات
+
 ## مقدمة
 إذا كنت تتعمق في عالم الرسومات والنماذج ثلاثية الأبعاد المثير باستخدام .NET، فإن Aspose.3D هي أداة قوية يمكنها تبسيط سير عملك. إحدى العمليات الحاسمة في النمذجة ثلاثية الأبعاد هي تحويل المضلعات إلى مثلثات، وفي هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -52,3 +58,9 @@ scene.Save("Your Output Directory" + "triangulated_out.fbx", FileFormat.FBX7400A
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### 5. أين يمكنني شراء Aspose.3D لـ .NET؟
  يمكنك شراء Aspose.3D[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

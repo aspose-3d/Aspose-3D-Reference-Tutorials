@@ -3,10 +3,16 @@ title: Извлечение информации в ресурсы сцены
 linktitle: Извлечение информации в ресурсы сцены
 second_title: Aspose.3D .NET API
 description: Улучшите свои 3D-сцены без особых усилий с помощью Aspose.3D для .NET. Научитесь шаг за шагом добавлять ценную информацию об активах. Загрузите сейчас и наслаждайтесь динамичным 3D-изображением.
-type: docs
 weight: 10
 url: /ru/net/3d-scene/information-to-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Извлечение информации в ресурсы сцены
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по использованию Aspose.3D для .NET для извлечения ценной информации и улучшения ваших 3D-сцен. Aspose.3D — это мощная библиотека, которая позволяет разработчикам легко манипулировать 3D-сценами в приложениях .NET. В этом уроке мы сосредоточимся на важной задаче добавления информации об активах в сцену.
@@ -96,3 +102,9 @@ Console.WriteLine("\nAsset information added successfully to Scene.\nFile saved 
 ### Вопрос 5: Где я могу найти подробную документацию по Aspose.3D для .NET?
 
  A5: См.[документация](https://reference.aspose.com/3d/net/) для более подробной информации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

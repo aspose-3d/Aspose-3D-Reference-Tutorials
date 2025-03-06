@@ -1,12 +1,17 @@
 ---
 title: Aspose.3D for .NET ile ilgili Kapsamlı Eğitimler ve Örnekler
 linktitle: .NET için Aspose.3D Eğitimleri
-type: docs
 weight: 10
 url: /tr/net/
 description: Aspose.3D for .NET eğitimleriyle 3D modelleme ve animasyon dünyasının kilidini açın. İşlemeden doğrusal ekstrüzyona kadar projelerinizi zahmetsizce yükseltin.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for .NET ile ilgili Kapsamlı Eğitimler ve Örnekler
+
 ## giriiş
 
 3D modelleme ve animasyonun heyecan verici dünyasına doğru bir yolculuğa çıkmaya hazır mısınız? Daha fazla kendinizi yormayın – Aspose.3D for .NET, yaratıcılığınızı ortaya çıkarmak ve projelerinizi yeni boyutlara taşımak için tasarlanmış kapsamlı bir eğitim ve örnek koleksiyonu sunuyor.
@@ -60,3 +65,9 @@ Aspose.3D for .NET eğitimleriyle 3D animasyon dünyasına bir yolculuğa çık�
 
 
 İçinizdeki yaratıcı potansiyeli ortaya çıkarın ve Aspose.3D for .NET eğitimlerinin dünyasına dalın. Deneme sürümünüzü hemen indirin ve 3D projelerinizi olağanüstü boyutlara taşıyın!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

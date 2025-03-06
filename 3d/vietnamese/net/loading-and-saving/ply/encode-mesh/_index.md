@@ -3,10 +3,16 @@ title: Mã hóa lưới sang định dạng PLY
 linktitle: Mã hóa lưới sang định dạng PLY
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới lập trình 3D với Aspose.3D cho .NET. Tìm hiểu cách mã hóa các mắt lưới sang định dạng PLY một cách dễ dàng. Nâng cao trò chơi phát triển của bạn!
-type: docs
 weight: 13
 url: /vi/net/loading-and-saving/ply/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mã hóa lưới sang định dạng PLY
+
 ## Giới thiệu
 Bắt tay vào cuộc hành trình vào lĩnh vực lập trình 3D có thể vừa ly kỳ vừa đáng sợ. Là một nhà phát triển, bạn có thể thấy mình khao khát khám phá những khả năng mà đồ họa 3D mang lại. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình hấp dẫn để mã hóa lưới sang định dạng PLY bằng Aspose.3D cho .NET.
 ## Điều kiện tiên quyết
@@ -56,3 +62,9 @@ Tuyệt đối! Aspose.3D hỗ trợ mã hóa nhiều hình dạng 3D khác nhau
  Truy cập diễn đàn Aspose.3D[đây](https://forum.aspose.com/c/3d/18) để kết nối với cộng đồng và tìm kiếm sự giúp đỡ.
 ### 5. Aspose.3D có bản dùng thử miễn phí không?
  Chắc chắn! Khám phá các khả năng của Aspose.3D với bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

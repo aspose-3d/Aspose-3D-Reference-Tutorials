@@ -3,10 +3,16 @@ title: 使用 Aspose.3D 將 UV 座標應用於 Java 中的 3D 對象
 linktitle: 使用 Aspose.3D 將 UV 座標應用於 Java 中的 3D 對象
 second_title: Aspose.3D Java API
 description: 學習使用 Aspose.3D 將 UV 座標應用於 Java 中的 3D 物件。透過此逐步指南提升您的圖形效果。
-type: docs
 weight: 18
 url: /zh-hant/java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D 將 UV 座標應用於 Java 中的 3D 對象
+
 ## 介紹
 
 歡迎來到這個關於使用 Aspose.3D 將 UV 座標應用到 Java 中的 3D 物件的綜合教學。在 3D 圖形領域，UV 座標在將紋理映射到表面、增強創作的視覺吸引力方面發揮著至關重要的作用。本教學將引導您完成整個過程，分解每個步驟，以確保順利且有效的學習體驗。
@@ -104,3 +110,9 @@ A4：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporar
 ### Q5：哪裡可以購買Aspose.3D？
 
  A5：要購買 Aspose.3D，請訪問[購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

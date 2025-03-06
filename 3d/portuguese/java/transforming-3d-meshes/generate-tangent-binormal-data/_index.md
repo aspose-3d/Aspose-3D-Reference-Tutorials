@@ -3,10 +3,16 @@ title: Gere dados tangentes e binormais para malhas 3D em Java
 linktitle: Gere dados tangentes e binormais para malhas 3D em Java
 second_title: API Java Aspose.3D
 description: Aprimore seus gráficos 3D com Aspose.3D para Java. Gere dados tangentes e binormais sem esforço. Experimente o teste gratuito agora!
-type: docs
 weight: 11
 url: /pt/java/transforming-3d-meshes/generate-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gere dados tangentes e binormais para malhas 3D em Java
+
 No mundo dinâmico dos gráficos 3D, compreender e manipular dados tangentes e binormais é crucial para a criação de modelos realistas e visualmente atraentes. Este guia passo a passo orientará você no processo de geração de dados tangentes e binormais para malhas 3D usando Aspose.3D para Java. Como um escritor de SEO proficiente, garantirei que este tutorial não seja apenas informativo, mas também otimizado para mecanismos de pesquisa.
 ## Introdução
 A criação de experiências 3D imersivas geralmente requer mais do que apenas modelagem. Os dados tangentes e binormais desempenham um papel vital no sombreamento e na iluminação, melhorando o realismo das suas cenas 3D. Com Aspose.3D for Java, você pode gerar esses dados sem esforço e levar seus gráficos 3D para o próximo nível.
@@ -56,3 +62,9 @@ Parabéns! Você gerou com sucesso dados tangentes e binormais para suas malhas 
  Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 ### Onde posso comprar o Aspose.3D?
  Você pode comprar Aspose.3D[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Supporto per Khronos glTF
 linktitle: Supporto per Khronos glTF
 second_title: API Aspose.3D .NET
 description: Aspose.3D offre un supporto glTF completo per importare ed esportare facilmente modelli 3D in formato glTF, migliorando l'interoperabilità e semplificando i flussi di lavoro dei contenuti 3D.
-type: docs
 weight: 27
 url: /it/net/loading-and-saving/gltf
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Supporto per Khronos glTF
+
 ## introduzione
 
 In questa serie di tutorial esploreremo le complessità del supporto glTF in Aspose.3D, sbloccando un mondo di possibilità creative.
@@ -31,3 +37,9 @@ Aspose.3D facilita la conversione di materiali non PBR (rendering basato sul fis
 Intraprendi un viaggio di possibilità illimitate con Aspose.3D per .NET. Che tu sia un principiante o uno sviluppatore esperto, i nostri tutorial si rivolgono a tutti i livelli di abilità. Trasforma la tua esperienza di modellazione 3D: esplora, crea e innova con Aspose.3D per .NET.
 
 Pronto a migliorare le tue capacità di modellazione 3D? Inizia a esplorare i tutorial. Scatena tutto il potenziale di Aspose.3D per .NET e scolpisci i tuoi capolavori 3D senza sforzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

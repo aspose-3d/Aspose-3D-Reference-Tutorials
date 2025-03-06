@@ -3,10 +3,16 @@ title: تخصيص تخطيط الذاكرة للشبكات ثلاثية الأب
 linktitle: تخصيص تخطيط الذاكرة للشبكات ثلاثية الأبعاد في Java
 second_title: Aspose.3D جافا API
 description: قم بتحسين تصميم Java 3D الخاص بك باستخدام Aspose.3D - قم بتخصيص تخطيط الذاكرة للحصول على الأداء الأمثل. اتبع دليلنا خطوة بخطوة الآن!
-type: docs
 weight: 13
 url: /ar/java/transforming-3d-meshes/customize-mesh-memory-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص تخطيط الذاكرة للشبكات ثلاثية الأبعاد في Java
+
 ## مقدمة
 في العالم الديناميكي للنمذجة والعرض ثلاثي الأبعاد في Java، يبرز Aspose.3D كأداة قوية للمطورين الذين يبحثون عن المرونة والتخصيص. في هذا البرنامج التعليمي، سوف نتعمق في عملية تخصيص تخطيط الذاكرة للشبكات ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. بحلول نهاية هذا الدليل، سيكون لديك فهم قوي لكيفية تحسين استخدام الذاكرة للنمذجة ثلاثية الأبعاد المحسنة.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ System.out.println("\nConverted a Box mesh to triangle mesh with custom memory l
  قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لدعم المجتمع.
 ### هل يمكنني شراء ترخيص مؤقت لـ Aspose.3D؟
  نعم يمكن الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

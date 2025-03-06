@@ -3,10 +3,16 @@ title: การสร้างกระบอกสูบที่มี Sheare
 linktitle: การสร้างกระบอกสูบที่มี Sheared Bottom ใน Aspose.3D สำหรับ Java
 second_title: Aspose.3D จาวา API
 description: เรียนรู้วิธีสร้างกระบอกสูบแบบกำหนดเองพร้อมพื้นแบบเฉือนโดยใช้ Aspose.3D สำหรับ Java ยกระดับทักษะการสร้างแบบจำลอง 3 มิติของคุณด้วยคำแนะนำทีละขั้นตอนนี้
-type: docs
 weight: 12
 url: /th/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างกระบอกสูบที่มี Sheared Bottom ใน Aspose.3D สำหรับ Java
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนเกี่ยวกับการสร้างทรงกระบอกที่มีพื้นแบบเฉือนโดยใช้ Aspose.3D สำหรับ Java Aspose.3D เป็นไลบรารี Java อันทรงพลังที่ช่วยให้คุณทำงานกับไฟล์ 3D ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะเจาะลึกในการสร้างกระบอกสูบแบบกำหนดเองพร้อมพื้นแบบเฉือน เพื่อให้คุณสัมผัสประสบการณ์จริงในการใช้ Aspose.3D เพื่อพัฒนาทักษะการสร้างแบบจำลอง 3 มิติของคุณ
@@ -100,3 +106,9 @@ scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
 ### คำถามที่ 5: ฉันสามารถซื้อ Aspose.3D สำหรับ Java ได้หรือไม่
 
  A5: ได้ คุณสามารถซื้อ Aspose.3D สำหรับ Java ได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

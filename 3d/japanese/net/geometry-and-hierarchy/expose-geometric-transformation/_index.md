@@ -3,10 +3,16 @@ title: 幾何学的変換の公開
 linktitle: 幾何学的変換の公開
 second_title: Aspose.3D .NET API
 description: Aspose.3D を使用して、.NET の 3D グラフィックスの無限の可能性を探ってください。幾何学的変形を簡単に明らかにします。
-type: docs
 weight: 13
 url: /ja/net/geometry-and-hierarchy/expose-geometric-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 幾何学的変換の公開
+
 ## 導入
 
 Aspose.3D for .NET のエキサイティングな世界へようこそ!このチュートリアルでは、Aspose.3D を使用して 3D シーンで幾何学的変換を公開する複雑さを詳しく説明します。 3D グラフィックス機能を強化したいと考えている .NET 開発者にとって、ここは正しい場所です。
@@ -98,3 +104,9 @@ A1: Aspose.3D は、幅広い .NET フレームワークと互換性があり、
 ### Q5: Aspose.3D for .NET を購入するにはどうすればよいですか?
 
  A5: Aspose.3D for .NET を購入するには、次のサイトにアクセスしてください。[購入ページ](https://purchase.aspose.com/buy)Aspose Web サイトで。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

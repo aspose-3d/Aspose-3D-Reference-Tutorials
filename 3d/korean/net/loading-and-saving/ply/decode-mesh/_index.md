@@ -3,10 +3,16 @@ title: PLY 형식에서 메시 디코딩
 linktitle: PLY 형식에서 메시 디코딩
 second_title: Aspose.3D .NET API
 description: 3D 마술의 비밀을 풀어보세요! .NET용 Aspose.3D를 사용하여 PLY 형식의 메시를 손쉽게 디코딩합니다. 귀하의 프로젝트를 새로운 차원으로 끌어올리십시오.
-type: docs
 weight: 11
 url: /ko/net/loading-and-saving/ply/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLY 형식에서 메시 디코딩
+
 ## 소개
 이것을 상상해 보십시오: 귀하는 평범한 것과 비범한 것을 구분하는 정교함을 추가하여 3D 프로젝트에 생명을 불어넣고자 하는 탐구를 하고 있습니다. 하지만 어디서부터 시작하나요? 두려워하지 마세요, 용감한 개발자 여러분! 조화로운 춤 속에서 창의성과 기능성이 만나는 .NET용 Aspose.3D 영역에 오신 것을 환영합니다.
 끊임없이 진화하는 프로그래밍 세계에서 Aspose.3D는 3차원 마법 영역에서 .NET 능력을 증폭시킬 수 있는 강력한 툴킷을 제공하는 등대 역할을 합니다. 이 튜토리얼에서는 Aspose.3D를 사용하여 PLY 형식에서 메시를 디코딩하여 원활한 3D 통합의 비밀을 밝히는 여정을 시작합니다.
@@ -57,3 +63,9 @@ A: 그렇죠! Aspose.3D를 사용하면 메시를 조정하고 향상할 수 있
 답: 물론이죠! 당신의[무료 시험판](https://releases.aspose.com/) Aspose.3D의 마법을 직접 경험해보세요.
 ### Q: 연장 테스트를 위한 임시 라이센스를 어떻게 얻을 수 있나요?
  답: 방문하다[이 링크](https://purchase.aspose.com/temporary-license/) 몰입형 평가판 경험을 위한 임시 라이선스를 확보합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

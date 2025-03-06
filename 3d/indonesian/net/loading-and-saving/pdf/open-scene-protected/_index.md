@@ -3,10 +3,16 @@ title: Adegan Pembukaan dari PDF yang Dilindungi
 linktitle: Adegan Pembukaan dari PDF yang Dilindungi
 second_title: Aspose.3D .NET API
 description: Jelajahi kemungkinan pemodelan 3D dengan Aspose.3D untuk .NET. Pelajari cara membuka adegan dari PDF yang dilindungi dalam panduan langkah demi langkah kami.
-type: docs
 weight: 17
 url: /id/net/loading-and-saving/pdf/open-scene-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adegan Pembukaan dari PDF yang Dilindungi
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif kami tentang memanfaatkan kemampuan Aspose.3D untuk .NET guna meningkatkan tugas pemodelan dan manipulasi 3D Anda. Aspose.3D adalah API tangguh yang memungkinkan pengembang bekerja secara lancar dengan format file 3D di aplikasi .NET mereka. Dalam tutorial ini, kita akan fokus pada aspek penting memuat dan menyimpan, khususnya membuka adegan dari PDF yang dilindungi menggunakan Aspose.3D untuk .NET.
@@ -97,3 +103,9 @@ A1: Ya, Aspose.3D mendukung berbagai format file 3D, memastikan fleksibilitas da
 ### Q5: Apakah saya memerlukan lisensi sementara untuk pengujian?
 
  A5: Ya, jika Anda memerlukan lisensi sementara untuk tujuan pengujian, Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

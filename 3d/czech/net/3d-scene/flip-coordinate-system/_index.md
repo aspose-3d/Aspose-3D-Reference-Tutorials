@@ -3,10 +3,16 @@ title: Překlápění souřadnicového systému ve 3D scénách
 linktitle: Překlápění souřadnicového systému ve 3D scénách
 second_title: Aspose.3D .NET API
 description: Osvojte si umění překlápění souřadnicových systémů ve 3D scénách pomocí Aspose.3D for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou implementaci.
-type: docs
 weight: 12
 url: /cs/net/3d-scene/flip-coordinate-system/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Překlápění souřadnicového systému ve 3D scénách
+
 ## Úvod
 
 Vítejte v tomto podrobném průvodci překlápěním souřadnicového systému ve 3D scénách pomocí Aspose.3D pro .NET. Pokud jste vývojář nebo 3D nadšenec, který chce ve svých scénách manipulovat se souřadnicovými systémy, jste na správném místě. V tomto tutoriálu vás provedeme celým procesem a usnadníme vám bezproblémovou implementaci této funkce.
@@ -91,3 +97,9 @@ A1: Aspose.3D for .NET je primárně určen pro programování v C#. Aspose vša
 ### Q5: Kde mohu hledat podporu nebo klást otázky týkající se Aspose.3D for .NET?
 
  A5: Fórum komunity Aspose[tady](https://forum.aspose.com/c/3d/18) je ideálním místem pro podporu a diskuse.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

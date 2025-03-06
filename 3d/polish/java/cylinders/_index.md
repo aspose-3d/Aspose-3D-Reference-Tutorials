@@ -3,10 +3,16 @@ title: Praca z cylindrami w Aspose.3D dla Java
 linktitle: Praca z cylindrami w Aspose.3D dla Java
 second_title: Aspose.3D API Java
 description: Twórz oszałamiające modele 3D bez wysiłku dzięki Aspose.3D dla Java! Naucz się tworzyć cylindry wentylatorów, cylindry z przesuniętą górą i cylindry ze ściętym dołem, korzystając z samouczków.
-type: docs
 weight: 25
 url: /pl/java/cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Praca z cylindrami w Aspose.3D dla Java
+
 ## Wstęp
 
 Czy jesteś gotowy, aby przenieść swoje umiejętności modelowania 3D na wyższy poziom? Aspose.3D dla Java otwiera świat możliwości, a w tym samouczku poprowadzimy Cię przez urzekającą krainę tworzenia niestandardowych cylindrów. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero wkraczasz w świat modelowania 3D, te samouczki podniosą Twoje umiejętności i dodadzą Twoim projektom odrobinę wyjątkowości.
@@ -37,3 +43,9 @@ Naucz się tworzyć niestandardowe cylindry wentylatorów w Javie za pomocą Asp
 Odkryj cuda modelowania 3D w Javie dzięki Aspose.3D. Naucz się bez wysiłku tworzyć urzekające cylindry z przesuniętymi blatami.
 ### [Tworzenie cylindrów ze ściętym dnem w Aspose.3D dla Java](./creating-cylinders-with-sheared-bottom/)
 Naucz się tworzyć niestandardowe cylindry ze ściętymi spodami przy użyciu Aspose.3D dla Java. Podnieś swoje umiejętności modelowania 3D dzięki temu przewodnikowi krok po kroku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

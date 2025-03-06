@@ -3,10 +3,16 @@ title: Tạo một tài liệu 3D trống
 linktitle: Tạo một tài liệu 3D trống
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới tạo tài liệu 3D với Aspose.3D cho .NET. Tạo, chỉnh sửa và lưu các cảnh 3D tuyệt đẹp một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/loading-and-saving/create-empty-3d-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo một tài liệu 3D trống
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới tạo tài liệu 3D bằng Aspose.3D cho .NET! Trong hướng dẫn này, chúng ta sẽ khám phá những điều cơ bản về tải và lưu tài liệu 3D. Aspose.3D for .NET cung cấp một bộ công cụ mạnh mẽ để làm việc với cảnh 3D và chúng tôi sẽ hướng dẫn bạn từng bước để giúp bạn bắt đầu suôn sẻ.
@@ -84,3 +90,9 @@ Câu trả lời 1: Có, Aspose.3D cho .NET cung cấp giao diện thân thiện
 ### Câu hỏi 5: Tôi có thể mua Aspose.3D cho .NET ở đâu?
 
  A5: Bạn có thể mua thư viện[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

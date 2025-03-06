@@ -3,10 +3,16 @@ title: Lineaire extrusie uitvoeren
 linktitle: Lineaire extrusie uitvoeren
 second_title: Aspose.3D .NET-API
 description: Ontdek de wereld van 3D-graphics met Aspose.3D voor .NET. Lineaire extrusie uitvoeren in deze stapsgewijze handleiding.
-type: docs
 weight: 12
 url: /nl/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lineaire extrusie uitvoeren
+
 ## Invoering:
 
 Ga op een spannende reis naar het rijk van 3D-graphics met Aspose.3D voor .NET, een krachtpatser die je ontwikkelingsspel naar een hoger niveau tilt. In deze tutorial gaan we dieper in op de fijne kneepjes van lineaire extrusie – een fascinerende techniek die statische 2D-profielen tot leven brengt en ze naar de dynamische wereld van 3D stuwt. Laten we de deur naar creativiteit en innovatie openen met Aspose.3D!
@@ -106,3 +112,9 @@ A1: Absoluut! Aspose.3D biedt een gebruiksvriendelijke omgeving en onze tutorial
 ### Vraag 5: Is er een gratis proefversie beschikbaar?
 
  A5: Zeker! Download de gratis proefversie[hier](https://releases.aspose.com/) om de mogelijkheden van Aspose.3D uit de eerste hand te ervaren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

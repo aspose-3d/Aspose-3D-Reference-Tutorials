@@ -3,10 +3,16 @@ title: Generera normala data för maskor
 linktitle: Generera normala data för maskor
 second_title: Aspose.3D .NET API
 description: Förbättra 3D-modeller med Aspose.3D för .NET! Lär dig att generera normala data för maskor i denna steg-för-steg-guide. Realism möter enkelhet.
-type: docs
 weight: 20
 url: /sv/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generera normala data för maskor
+
 ## Introduktion
 Välkommen till den här steg-för-steg-guiden för att generera normala data för maskor med Aspose.3D för .NET! Om du arbetar med 3D-modeller och vill förbättra den visuella dragningskraften genom att lägga till normala data, är den här handledningen för dig. Aspose.3D är ett kraftfullt .NET-bibliotek som förenklar programmering av 3D-grafik, och i den här guiden går vi igenom processen att generera normal data för maskor.
 ## Förutsättningar
@@ -66,3 +72,9 @@ Ja, Aspose.3D stöder olika 3D-format, inklusive FBX, STL och mer. Referera till
  Den omfattande dokumentationen finns tillgänglig[här](https://reference.aspose.com/3d/net/).
 ### Vad händer om jag behöver köpa en licens för Aspose.3D?
  Du kan köpa en licens från[köpsidan](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

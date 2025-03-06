@@ -3,10 +3,16 @@ title: Tùy chỉnh tải tệp 3D trong Java với Aspose.3D LoadOptions
 linktitle: Tùy chỉnh tải tệp 3D trong Java với Aspose.3D LoadOptions
 second_title: API Java Aspose.3D
 description: Nâng cao khả năng tải tệp 3D của bạn trong Java bằng LoadOptions có thể tùy chỉnh của Aspose.3D. Tìm hiểu tùy chỉnh từng bước cho 3DS, OBJ, STL, U3D, glTF, PLY, X và FBX tùy chọn.
-type: docs
 weight: 12
 url: /vi/java/load-and-save/customize-3d-file-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh tải tệp 3D trong Java với Aspose.3D LoadOptions
+
 ## Giới thiệu
 
 Trong bối cảnh thiết kế và phát triển 3D không ngừng phát triển, việc xử lý hiệu quả các định dạng tệp 3D là rất quan trọng. Aspose.3D for Java cung cấp một giải pháp mạnh mẽ để tùy chỉnh việc tải các định dạng tệp 3D khác nhau. Hướng dẫn này sẽ hướng dẫn bạn qua quá trình tùy chỉnh tải tệp 3D trong Java bằng cách sử dụng LoadOptions của Aspose.3D.
@@ -156,3 +162,9 @@ Tùy chỉnh tải tệp 3D trong Java bằng LoadOptions của Aspose.3D cho ph
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời để thử nghiệm không?
 
  A5: Có, xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

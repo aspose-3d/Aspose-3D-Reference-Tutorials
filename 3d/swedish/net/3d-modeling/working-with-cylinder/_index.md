@@ -3,10 +3,16 @@ title: Anpassad skjuvcylinder
 linktitle: Anpassad skjuvcylinder
 second_title: Aspose.3D .NET API
 description: Lär dig att skapa skräddarsydda skjuvbottencylindrar med Aspose.3D för .NET med vår detaljerade steg-för-steg-guide. Lyft dina färdigheter i 3D-modellering idag!
-type: docs
 weight: 12
 url: /sv/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anpassad skjuvcylinder
+
 ## Introduktion
 Välkommen till vår omfattande guide för att skapa en anpassad cylinder med Aspose.3D för .NET. Om du vill förbättra dina färdigheter i 3D-modellering och lägga till unika funktioner till dina projekt, är du på rätt plats. I den här handledningen går vi igenom processen steg för steg, med hjälp av tydliga förklaringar och kodavsnitt.
 ## Förutsättningar
@@ -83,3 +89,9 @@ Ja, du kan anpassa skjuvbotten för varje cylinder individuellt, vilket gör att
  Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) för samhällsstöd och diskussioner.
 ### Hur kan jag få en tillfällig licens?
  Skaffa din tillfälliga licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

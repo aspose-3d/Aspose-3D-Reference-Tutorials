@@ -3,10 +3,16 @@ title: Zmodyfikuj orientację płaszczyzny, aby uzyskać precyzyjne pozycjonowan
 linktitle: Zmodyfikuj orientację płaszczyzny, aby uzyskać precyzyjne pozycjonowanie sceny 3D w Javie
 second_title: Aspose.3D API Java
 description: Ulepsz pozycjonowanie scen 3D w Javie za pomocą Aspose.3D. Zmodyfikuj orientację płaszczyzny, aby uzyskać precyzję. Pobierz teraz i ciesz się urzekającymi wrażeniami wizualnymi.
-type: docs
 weight: 10
 url: /pl/java/3d-scenes-and-models/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zmodyfikuj orientację płaszczyzny, aby uzyskać precyzyjne pozycjonowanie sceny 3D w Javie
+
 ## Wstęp
 
 Witamy w naszym przewodniku krok po kroku dotyczącym ulepszania pozycjonowania scen 3D w Javie przy użyciu Aspose.3D. W tym samouczku szczegółowo omówimy modyfikowanie orientacji płaszczyzny w celu precyzyjnego pozycjonowania scen 3D, co umożliwi tworzenie oszałamiających wizualnie i dokładnie rozmieszczonych scen.
@@ -114,3 +120,9 @@ Odpowiedź 1: Tak, Aspose.3D obsługuje różne języki programowania, w tym Jav
 ### P5: Czy istnieje opcja licencji tymczasowej?
 
  Odpowiedź 5: Tak, jeśli potrzebujesz licencji tymczasowej, możesz ją uzyskać[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

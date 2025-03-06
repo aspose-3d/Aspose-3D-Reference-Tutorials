@@ -3,10 +3,16 @@ title: 使用 Java 中的 Google Draco 壓縮 3D 網格
 linktitle: 使用 Java 中的 Google Draco 壓縮 3D 網格
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 優化您的 3D 應用程式。了解如何在 Java 中使用 Google Draco 壓縮網格。按照我們的逐步指南進行高效 3D 開發。
-type: docs
 weight: 10
 url: /zh-hant/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 中的 Google Draco 壓縮 3D 網格
+
 ## 介紹
 
 歡迎閱讀這份關於使用 Aspose.3D 在 Java 中透過 Google Draco 壓縮 3D 網格的綜合指南。在本教程中，我們將引導您完成利用 Aspose.3D 的強大功能高效壓縮 3D 網格的過程。如果您是開發人員，希望在不影響品質的情況下透過減小網格尺寸來增強 3D 應用程序，那麼您來對地方了。
@@ -100,3 +106,9 @@ A2：雖然本教學重點介紹 Java，但 Google Draco 可用於多種程式�
 ### Q5：有 Aspose.3D 支援的社群論壇嗎？
 
  A5：是的，如需社區支持和討論，請訪問[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

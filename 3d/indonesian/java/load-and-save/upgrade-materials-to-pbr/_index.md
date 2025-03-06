@@ -3,10 +3,16 @@ title: Tingkatkan Materi 3D ke PBR untuk Peningkatan Realisme di Java dengan Asp
 linktitle: Tingkatkan Materi 3D ke PBR untuk Peningkatan Realisme di Java dengan Aspose.3D
 second_title: Asumsikan.3D Java API
 description: Tingkatkan materi 3D ke PBR dengan mudah di Java dengan Aspose.3D. Raih realisme yang ditingkatkan untuk visual yang menawan.
-type: docs
 weight: 13
 url: /id/java/load-and-save/upgrade-materials-to-pbr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tingkatkan Materi 3D ke PBR untuk Peningkatan Realisme di Java dengan Aspose.3D
+
 ## Perkenalan
 
 Meningkatkan materi 3D Anda ke PBR adalah langkah transformatif menuju pencapaian visual yang nyata dalam aplikasi Java Anda. Aspose.3D menyederhanakan proses ini, memungkinkan Anda bertransisi dengan mulus dari material tradisional ke material PBR. Dalam tutorial ini, kita akan menjelajahi prasyarat yang diperlukan, mengimpor paket, dan memecah setiap contoh menjadi langkah-langkah mendetail.
@@ -102,3 +108,9 @@ A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.co
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
 
  A5: Kunjungi[Link ini](https://purchase.aspose.com/temporary-license/) untuk informasi lisensi sementara.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

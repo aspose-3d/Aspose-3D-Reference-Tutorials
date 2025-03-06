@@ -3,10 +3,16 @@ title: Voeg quaternions samen voor 3D-rotaties in Java met Aspose.3D
 linktitle: Voeg quaternions samen voor 3D-rotaties in Java met Aspose.3D
 second_title: Aspose.3D Java-API
 description: Leer hoe u quaternionen aaneenschakelt voor 3D-rotaties in Java met behulp van Aspose.3D. Volg onze stapsgewijze handleiding voor naadloze animatietransformaties.
-type: docs
 weight: 11
 url: /nl/java/geometry/concatenate-quaternions-for-3d-rotations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg quaternions samen voor 3D-rotaties in Java met Aspose.3D
+
 ## Invoering
 
 Quaternion-aaneenschakeling is een fundamenteel concept in 3D-graphics, waardoor u meerdere rotatietransformaties naadloos kunt combineren. Aspose.3D vereenvoudigt dit proces in Java en biedt een efficiënte en intuïtieve manier om quaternion-bewerkingen af te handelen. In deze zelfstudie begeleiden we u bij het aaneenschakelen van quaternionen en het toepassen ervan op 3D-objecten met behulp van Aspose.3D.
@@ -107,3 +113,9 @@ Door deze tutorial te volgen, heb je geleerd hoe je quaternionen aaneenschakelt 
 ### Vraag 5: Welke bestandsformaten worden ondersteund voor het opslaan van 3D-scènes?
 
 A5: Aspose.3D ondersteunt verschillende formaten en u kunt scènes opslaan in FBX-formaat, zoals gedemonstreerd in deze tutorial.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

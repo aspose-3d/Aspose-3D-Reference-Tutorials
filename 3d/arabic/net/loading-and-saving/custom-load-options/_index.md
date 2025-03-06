@@ -3,10 +3,16 @@ title: خيارات التحميل المخصصة
 linktitle: خيارات التحميل المخصصة
 second_title: Aspose.3D.NET API
 description: استكشف Aspose.3D for .NET، وهو الحل الأمثل لتحميل النماذج ثلاثية الأبعاد وحفظها بشكل سلس.
-type: docs
 weight: 15
 url: /ar/net/loading-and-saving/custom-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# خيارات التحميل المخصصة
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.3D for .NET - وهي مكتبة قوية تمكّن المطورين من العمل بسلاسة مع الملفات ثلاثية الأبعاد. في هذا البرنامج التعليمي، سنتعمق في تعقيدات تحميل النماذج ثلاثية الأبعاد وحفظها، مع التركيز على خيارات التحميل المخصصة. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا، سيرشدك هذا الدليل خلال العملية خطوة بخطوة، مما يضمن لك الاستفادة الكاملة من إمكانات Aspose.3D لـ .NET.
@@ -183,3 +189,9 @@ private static void FBXLoadOptions()
 ### س5: أين يمكنني طلب الدعم لـ Aspose.3D لـ .NET؟
 
  ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لدعم المجتمع ومساعدته.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

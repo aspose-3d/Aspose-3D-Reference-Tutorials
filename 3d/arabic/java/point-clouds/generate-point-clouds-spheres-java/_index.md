@@ -3,10 +3,16 @@ title: توليد نقطة الغيوم من المجالات في جافا
 linktitle: توليد نقطة الغيوم من المجالات في جافا
 second_title: Aspose.3D جافا API
 description: استكشف عالم الرسومات ثلاثية الأبعاد باستخدام Aspose.3D في Java. تعلم كيفية إنشاء سحب نقطية من المجالات باستخدام هذا البرنامج التعليمي سهل المتابعة.
-type: docs
 weight: 14
 url: /ar/java/point-clouds/generate-point-clouds-spheres-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# توليد نقطة الغيوم من المجالات في جافا
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل التفصيلي حول إنشاء السحب النقطية من المجالات في Java باستخدام Aspose.3D. إذا كنت متشوقًا للتعمق في عالم الرسومات ثلاثية الأبعاد الرائع وترغب في إنشاء تصورات مذهلة، فأنت في المكان الصحيح. سيرشدك هذا البرنامج التعليمي خلال العملية، مما يسهل متابعتها حتى للمبتدئين.
@@ -90,3 +96,10 @@ FileFormat.DRACO.encode(sphere, "Your Document Directory" + "sphere.drc", opt);
 ### س5: أين يمكنني العثور على الوثائق؟
 
  ج5: الرجوع إلى التفصيل[Aspose.3D وثائق جافا](https://reference.aspose.com/3d/java/) للحصول على معلومات شاملة.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

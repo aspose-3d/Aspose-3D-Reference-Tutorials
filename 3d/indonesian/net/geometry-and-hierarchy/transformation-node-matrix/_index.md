@@ -3,10 +3,16 @@ title: Transformasi Node dengan Matriks Transformasi
 linktitle: Transformasi Node dengan Matriks Transformasi
 second_title: Aspose.3D .NET API
 description: Transformasikan node dengan mudah dalam adegan 3D menggunakan Aspose.3D untuk .NET. Pelajari transformasi node langkah demi langkah dengan tutorial.
-type: docs
 weight: 21
 url: /id/net/geometry-and-hierarchy/transformation-node-matrix/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformasi Node dengan Matriks Transformasi
+
 ## Perkenalan
 
 Dalam dunia grafis dan visualisasi 3D yang dinamis, kemampuan memanipulasi objek dalam sebuah adegan merupakan aspek yang sangat penting. Aspose.3D untuk .NET memberdayakan pengembang untuk mengubah node dengan mulus menggunakan matriks transformasi, menambahkan lapisan kreativitas dan kontrol pada adegan 3D. Tutorial ini akan memandu Anda melalui proses transformasi node dalam adegan 3D langkah demi langkah.
@@ -112,3 +118,9 @@ A2: Ya, Anda dapat menggabungkan beberapa transformasi dengan mengalikan matriks
 ### Q5: Di mana saya bisa mencari bantuan atau terhubung dengan komunitas Aspose.3D?
 
  A5: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk mengajukan pertanyaan, berbagi pengalaman, dan terhubung dengan pengembang lain menggunakan Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

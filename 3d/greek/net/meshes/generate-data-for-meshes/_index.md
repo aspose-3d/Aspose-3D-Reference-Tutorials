@@ -3,10 +3,16 @@ title: Δημιουργία κανονικών δεδομένων για πλέ�
 linktitle: Δημιουργία κανονικών δεδομένων για πλέγματα
 second_title: Aspose.3D .NET API
 description: Βελτιώστε τα μοντέλα 3D με το Aspose.3D για .NET! Μάθετε πώς να δημιουργείτε κανονικά δεδομένα για πλέγματα σε αυτόν τον οδηγό βήμα προς βήμα. Ο ρεαλισμός συναντά την απλότητα.
-type: docs
 weight: 20
 url: /el/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία κανονικών δεδομένων για πλέγματα
+
 ## Εισαγωγή
 Καλώς ήρθατε σε αυτόν τον οδηγό βήμα προς βήμα για τη δημιουργία κανονικών δεδομένων για πλέγματα χρησιμοποιώντας το Aspose.3D για .NET! Εάν εργάζεστε με μοντέλα 3D και θέλετε να βελτιώσετε την οπτική έλξη προσθέτοντας κανονικά δεδομένα, αυτό το σεμινάριο είναι για εσάς. Το Aspose.3D είναι μια ισχυρή βιβλιοθήκη .NET που απλοποιεί τον προγραμματισμό τρισδιάστατων γραφικών και σε αυτόν τον οδηγό, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας κανονικών δεδομένων για πλέγματα.
 ## Προαπαιτούμενα
@@ -66,3 +72,9 @@ Console.WriteLine("\nNormal data generated successfully for all meshes.");
  Η πλήρης τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/3d/net/).
 ### Τι γίνεται αν χρειαστεί να αγοράσω άδεια χρήσης για το Aspose.3D;
  Μπορείτε να αγοράσετε άδεια από το[σελίδα αγοράς](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

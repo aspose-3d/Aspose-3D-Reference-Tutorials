@@ -3,10 +3,16 @@ title: 3D-s modellek készítése Lineáris extrudálással Java nyelven
 linktitle: 3D-s modellek készítése Lineáris extrudálással Java nyelven
 second_title: Aspose.3D Java API
 description: Fedezze fel a 3D modellezés világát az Aspose.3D for Java segítségével. Sajátítsa el a lineáris extrudálást könnyedén. Vezérlőközpont, irány beállítása, szeletek megadása, csavarás alkalmazása és még sok más!
-type: docs
 weight: 23
 url: /hu/java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D-s modellek készítése Lineáris extrudálással Java nyelven
+
 ## Bevezetés
 
 
@@ -62,3 +68,9 @@ Tanuljon meg szeleteket megadni lineáris extrudálás során az Aspose.3D for J
 Ismerje meg, hogyan adhat csavart 3D modelljeihez az Aspose.3D for Java használatával. Kövesse lépésről lépésre útmutatónkat a továbbfejlesztett lineáris extrudálási hatásokért.
 ### [Twist Offset használata a Lineáris extrudálásban az Aspose.3D for Java programban](./using-twist-offset/)
 Növelje 3D modellezési készségeit az Aspose.3D for Java segítségével. Tanulja meg a Twist Offset használatát a lineáris extrudálásban ebben az átfogó oktatóanyagban.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

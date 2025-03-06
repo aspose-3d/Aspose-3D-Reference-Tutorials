@@ -3,10 +3,16 @@ title: Normál adatok generálása hálókhoz
 linktitle: Normál adatok generálása hálókhoz
 second_title: Aspose.3D .NET API
 description: Javítsa ki a 3D modelleket az Aspose.3D for .NET segítségével! Ebben a lépésenkénti útmutatóban megtudhatja, hogyan generálhat normál adatokat a hálókhoz. A realizmus találkozik az egyszerűséggel.
-type: docs
 weight: 20
 url: /hu/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Normál adatok generálása hálókhoz
+
 ## Bevezetés
 Üdvözöljük ebben a lépésről lépésre bemutatott útmutatóban, amely az Aspose.3D for .NET segítségével történő normál adatok létrehozásáról szól! Ha 3D-s modellekkel dolgozik, és normál adatok hozzáadásával szeretné javítani a látványt, akkor ez az oktatóanyag az Ön számára készült. Az Aspose.3D egy hatékony .NET-könyvtár, amely leegyszerűsíti a 3D grafikus programozást, és ebben az útmutatóban végigvezetjük a hálók normál adatainak előállításán.
 ## Előfeltételek
@@ -66,3 +72,9 @@ Igen, az Aspose.3D különféle 3D formátumokat támogat, beleértve az FBX-et,
  A teljes körű dokumentáció elérhető[itt](https://reference.aspose.com/3d/net/).
 ### Mi a teendő, ha licencet kell vásárolnom az Aspose.3D-hez?
  Engedélyt vásárolhat a[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Özelleştirilmiş Kesme Alt Silindiri
 linktitle: Özelleştirilmiş Kesme Alt Silindiri
 second_title: Aspose.3D .NET API'si
 description: Ayrıntılı adım adım kılavuzumuzla Aspose.3D for .NET'i kullanarak özelleştirilmiş kesme alt silindirleri oluşturmayı öğrenin. Bugün 3D modelleme becerilerinizi geliştirin!
-type: docs
 weight: 12
 url: /tr/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Özelleştirilmiş Kesme Alt Silindiri
+
 ## giriiş
 Aspose.3D for .NET'i kullanarak özelleştirilmiş bir silindir oluşturmaya ilişkin kapsamlı kılavuzumuza hoş geldiniz. 3D modelleme becerilerinizi geliştirmek ve projelerinize benzersiz özellikler eklemek istiyorsanız doğru yerdesiniz. Bu eğitimde, anlaşılır açıklamalar ve kod parçacıkları kullanarak süreç boyunca size adım adım yol göstereceğiz.
 ## Önkoşullar
@@ -83,3 +89,9 @@ Evet, her silindir için kesme tabanını ayrı ayrı özelleştirerek benzersiz
  Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk desteği ve tartışmalar için.
 ### Geçici lisansı nasıl alabilirim?
  Geçici lisansınızı alın[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

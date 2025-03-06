@@ -3,10 +3,16 @@ title: 3D シーンでの座標系の反転
 linktitle: 3D シーンでの座標系の反転
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して、3D シーンで座標系を反転する技術をマスターします。シームレスな実装については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 12
 url: /ja/net/3d-scene/flip-coordinate-system/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D シーンでの座標系の反転
+
 ## 導入
 
 Aspose.3D for .NET を使用して 3D シーンの座標系を反転するためのこのステップバイステップ ガイドへようこそ。シーン内の座標系を操作したい開発者または 3D 愛好家にとって、ここは正しい場所です。このチュートリアルでは、この機能をシームレスに簡単に実装できるようにするプロセスを説明します。
@@ -91,3 +97,9 @@ A1: Aspose.3D for .NET は主に C# プログラミング用に設計されて�
 ### Q5: Aspose.3D for .NET に関連するサポートや質問はどこで受けられますか?
 
  A5: Aspose コミュニティ フォーラム[ここ](https://forum.aspose.com/c/3d/18)サポートやディスカッションに最適な場所です。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

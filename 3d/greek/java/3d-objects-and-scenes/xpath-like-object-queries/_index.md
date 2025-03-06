@@ -3,10 +3,16 @@ title: Εφαρμόστε ερωτήματα τύπου XPath σε τρισδι�
 linktitle: Εφαρμόστε ερωτήματα τύπου XPath σε τρισδιάστατα αντικείμενα σε Java
 second_title: Aspose.3D Java API
 description: Κύρια ερωτήματα αντικειμένων 3D στην Java χωρίς κόπο με το Aspose.3D. Εφαρμόστε ερωτήματα τύπου XPath, χειριστείτε σκηνές και αναβαθμίστε την τρισδιάστατη ανάπτυξή σας.
-type: docs
 weight: 11
 url: /el/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμόστε ερωτήματα τύπου XPath σε τρισδιάστατα αντικείμενα σε Java
+
 ## Εισαγωγή
 
 Η εμβάθυνση στη σφαίρα της τρισδιάστατης μοντελοποίησης και της χειραγώγησης σκηνής στην Java μπορεί να είναι μια αποθαρρυντική εργασία, αλλά μην φοβάστε! Το Aspose.3D για Java παρέχει μια ισχυρή λύση για το χειρισμό τρισδιάστατων αντικειμένων, καθιστώντας το ένα ανεκτίμητο εργαλείο για τους προγραμματιστές. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στην εφαρμογή ερωτημάτων που μοιάζουν με XPath σε τρισδιάστατα αντικείμενα σε Java χρησιμοποιώντας το Aspose.3D.
@@ -99,3 +105,9 @@ obj = (A3DObject) s.getRootNode().selectSingleObject("/");
 ### Ε5: Χρειάζεστε μια προσωρινή άδεια;
 
  A5: Λάβετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

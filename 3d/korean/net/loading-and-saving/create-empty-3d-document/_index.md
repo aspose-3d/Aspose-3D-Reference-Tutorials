@@ -3,10 +3,16 @@ title: 빈 3D 문서 만들기
 linktitle: 빈 3D 문서 만들기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 문서 생성의 세계를 탐험해보세요. 놀라운 3D 장면을 손쉽게 생성, 편집 및 저장하세요.
-type: docs
 weight: 11
 url: /ko/net/loading-and-saving/create-empty-3d-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 빈 3D 문서 만들기
+
 ## 소개
 
 .NET용 Aspose.3D를 사용하여 3D 문서 생성의 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 3D 문서 로드 및 저장의 기본 사항을 살펴보겠습니다. .NET용 Aspose.3D는 3D 장면 작업을 위한 강력한 도구 세트를 제공하며, 원활하게 시작할 수 있도록 각 단계를 안내합니다.
@@ -84,3 +90,9 @@ A1: 예, .NET용 Aspose.3D는 사용자 친화적인 인터페이스를 제공�
 ### Q5: .NET용 Aspose.3D를 어디서 구입할 수 있나요?
 
  A5: 라이브러리를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

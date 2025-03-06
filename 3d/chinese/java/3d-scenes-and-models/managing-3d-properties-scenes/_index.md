@@ -3,10 +3,16 @@ title: 使用 Aspose.3D 在 Java 场景中处理 3D 属性和自定义数据
 linktitle: 使用 Aspose.3D 在 Java 场景中处理 3D 属性和自定义数据
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 增强您的 Java 应用程序，实现无缝 3D 属性操作。请按照我们的教程获取分步指导。
-type: docs
 weight: 14
 url: /zh/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D 在 Java 场景中处理 3D 属性和自定义数据
+
 ## 介绍
 
 欢迎阅读有关使用 Aspose.3D 在 Java 场景中处理 3D 属性和自定义数据的综合指南。在本教程中，我们将深入研究 Aspose.3D 的强大功能，提供有关在 Java 应用程序中操作 3D 属性的分步指导。
@@ -124,3 +130,9 @@ A4：是的，请访问[Aspose.3D 支持论坛](https://forum.aspose.com/c/3d/18
 ### Q5：如何获得Aspose.3D的临时许可证？
 
  A5：您可以通过访问获得临时许可证[这个链接](https://purchase.aspose.com/temporary-license/)在 Aspose 网站上。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

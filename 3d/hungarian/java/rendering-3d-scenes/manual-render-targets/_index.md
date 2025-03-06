@@ -3,10 +3,16 @@ title: Manuálisan vezérelheti a leképezési célokat a személyre szabott lek
 linktitle: Manuálisan vezérelheti a leképezési célokat a személyre szabott leképezéshez Java 3D-ben
 second_title: Aspose.3D Java API
 description: Fedezze fel az Aspose.3D for Java erejét ebben a lépésenkénti útmutatóban. Manuálisan vezérelheti a renderelési célokat a lenyűgöző, testreszabott Java 3D grafikák érdekében.
-type: docs
 weight: 10
 url: /hu/java/rendering-3d-scenes/manual-render-targets/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manuálisan vezérelheti a leképezési célokat a személyre szabott leképezéshez Java 3D-ben
+
 ## Bevezetés
 
 Készen áll arra, hogy Java 3D grafikáját a következő szintre emelje? Az Aspose.3D for Java az Ön átjárója a testreszabott renderelésben rejlő lehetőségek teljes kihasználásához. Ebben az oktatóanyagban a renderelési célok kézi vezérlésének fortélyaiba fogunk elmélyülni, így eszközöket biztosítva az Ön specifikációira szabott, vizuálisan lenyűgöző jelenetek létrehozásához.
@@ -117,3 +123,9 @@ Az Aspose.3D for Java a lehetőségek tárházát nyitja meg a Java 3D grafika s
 ### 5. kérdés: Mi az a burstness a Java 3D grafikában, és hogyan kezeli az Aspose.3D?
 
 5. válasz: A burstness a grafikus elemek hirtelen intenzitását vagy gyors változásait jelenti. Az Aspose.3D eszközöket biztosít a sima átmenetekhez és a dinamikus beállításokhoz, minimalizálva a jelenetek sorozatosságát.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Java 中為 3D 動畫設定目標相機 | Aspose.3D 教學課程
 linktitle: 在 Java 中為 3D 動畫設定目標相機 | Aspose.3D 教學課程
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 輕鬆探索 Java 3D 動畫。請按照我們的教學取得逐步指南。立即下載，體驗迷人的 3D 開發之旅。
-type: docs
 weight: 11
 url: /zh-hant/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中為 3D 動畫設定目標相機 | Aspose.3D 教學課程
+
 ## 介紹
 
 歡迎閱讀本逐步指南，了解如何使用 Aspose.3D 在 Java 中設定 3D 動畫的目標相機。無論您是經驗豐富的開發人員還是剛開始使用 Java 3D 動畫，本教學都將透過清晰簡潔的說明引導您完成整個過程。
@@ -98,3 +104,9 @@ scene.save(MyDir, FileFormat.DISCREET3DS);
 ### Q5：如何取得臨時駕照？
 
  A5：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

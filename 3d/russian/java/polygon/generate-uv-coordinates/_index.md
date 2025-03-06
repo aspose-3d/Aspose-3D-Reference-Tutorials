@@ -3,10 +3,16 @@ title: Генерация UV-координат для отображения т
 linktitle: Генерация UV-координат для отображения текстур в 3D-моделях Java
 second_title: Aspose.3D Java API
 description: Научитесь генерировать UV-координаты для 3D-моделей Java с помощью Aspose.3D. Улучшите наложение текстур в своих проектах с помощью этого пошагового руководства.
-type: docs
 weight: 11
 url: /ru/java/polygon/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Генерация UV-координат для отображения текстур в 3D-моделях Java
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по созданию UV-координат для отображения текстур в 3D-моделях Java с использованием Aspose.3D. В этом уроке мы покажем вам процесс ручной генерации UV-координат для сетки в 3D-модели. Это важный шаг в наложении текстур, позволяющий повысить визуальную привлекательность ваших 3D-моделей.
@@ -120,3 +126,9 @@ scene.save(MyDir + "test.obj", FileFormat.WAVEFRONTOBJ);
 ### В5: Могу ли я приобрести временную лицензию для Aspose.3D?
 
  О5: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

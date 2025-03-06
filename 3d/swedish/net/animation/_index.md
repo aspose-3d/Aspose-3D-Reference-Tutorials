@@ -3,10 +3,16 @@ title: Animation
 linktitle: Animation
 second_title: Aspose.3D .NET API
 description: Lås upp en värld av 3D-animation med Aspose.3D för .NET-tutorials. Lär dig att animera egenskaper och ställa in mål och kameror för dynamiska scener utan ansträngning.
-type: docs
 weight: 30
 url: /sv/net/animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Animation
+
 ## Introduktion
 
 Välkommen till den fascinerande sfären av 3D-animation med Aspose.3D för .NET! I den här omfattande guiden kommer vi att utforska två viktiga handledningar som ger dig möjlighet att skapa fängslande och dynamiska 3D-scener. Låt oss ge oss ut på denna spännande resa tillsammans!
@@ -37,3 +43,9 @@ Sammanfattningsvis, med Aspose.3D för .NET tutorials lär du dig inte bara; du 
 Lär dig att animera 3D-egenskaper med Aspose.3D för .NET. Steg-för-steg-guide för att skapa dynamiska scener.
 ### [Ställa in mål och kameror för animering i 3D-scener](./setup-target-camera/)
 Lås upp magin med 3D-animation med Aspose.3D för .NET. Ställ enkelt in mål och kameror med denna omfattande handledning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

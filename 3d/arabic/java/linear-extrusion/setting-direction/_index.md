@@ -3,10 +3,16 @@ title: تحديد الاتجاه في النتوء الخطي باستخدام A
 linktitle: تحديد الاتجاه في النتوء الخطي باستخدام Aspose.3D لـ Java
 second_title: Aspose.3D جافا API
 description: إتقان البثق الخطي باستخدام Aspose.3D لـ Java! اتبع دليلنا لبرمجة ثلاثية الأبعاد سلسة. قم بالتنزيل الآن لتجربة آسرة.
-type: docs
 weight: 12
 url: /ar/java/linear-extrusion/setting-direction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد الاتجاه في النتوء الخطي باستخدام Aspose.3D لـ Java
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول تحديد الاتجاه في البثق الخطي باستخدام Aspose.3D لـ Java. Aspose.3D هي مكتبة Java قوية تتيح للمطورين العمل بسلاسة مع الملفات والمشاهد ثلاثية الأبعاد. في هذا البرنامج التعليمي، سنركز على المهمة المحددة المتمثلة في تحديد الاتجاه في البثق الخطي، مما يعزز كفاءتك في البرمجة ثلاثية الأبعاد.
@@ -108,3 +114,9 @@ scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### س5: هل التراخيص المؤقتة متاحة لـ Aspose.3D؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Doğrusal Ekstrüzyonda Yön
 linktitle: Doğrusal Ekstrüzyonda Yön
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D modelleme dünyasının kilidini açın. Yönlü doğrusal ekstrüzyonu öğrenin, yaratıcılığı artırın ve sürükleyici uygulamaları zahmetsizce oluşturun.
-type: docs
 weight: 11
 url: /tr/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Doğrusal Ekstrüzyonda Yön
+
 ## giriiş
 
 Yazılım geliştirmenin dinamik dünyasında, sürükleyici 3D modeller oluşturmak vazgeçilmez bir beceridir. Aspose.3D for .NET, geliştiricilere uygulamalarında 3D modellemenin potansiyelini kullanmaları için güçlü bir araç seti sağlar. Bu derste, doğrusal ekstrüzyonun ilgi çekici dünyasına dalacağız ve "Doğrusal Ekstrüzyonda Yön" özelliğinin nüanslarını keşfedeceğiz.
@@ -110,3 +116,9 @@ Bu eğitimde Aspose.3D for .NET'i kullanarak 3D modellemenin büyüleyici dünya
 ### S5: Aspose.3D for .NET'in ayrıntılı belgelerini nerede bulabilirim?
 
  A5: Kapsamlı bölüme bakın[Aspose.3D .NET Belgeleri](https://reference.aspose.com/3d/net/) derinlemesine bilgi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

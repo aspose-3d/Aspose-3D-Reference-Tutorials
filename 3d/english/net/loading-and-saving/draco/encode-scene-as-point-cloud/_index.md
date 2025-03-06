@@ -3,10 +3,16 @@ title: Encoding scene as Point Cloud
 linktitle: Encoding scene as Point Cloud
 second_title: Aspose.3D .NET API
 description: Explore the world of 3D modeling in .NET with Aspose.3D. Learn to encode spheres into point clouds effortlessly. Unleash your creativity now!
-type: docs
 weight: 14
 url: /net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Encoding scene as Point Cloud
+
 ## Introduction
 Welcome to this comprehensive guide on encoding a sphere as a point cloud using Aspose.3D for .NET. Aspose.3D is a powerful and versatile library that empowers developers to work with 3D models seamlessly in their .NET applications. In this tutorial, we will walk you through the process of encoding a sphere into a point cloud using Aspose.3D.
 ## Prerequisites
@@ -60,3 +66,10 @@ Yes, you can explore Aspose.3D with a free trial. Download it [here](https://rel
 Visit the Aspose.3D forum [here](https://forum.aspose.com/c/3d/18) for community support and discussions.
 ### Do I need a temporary license for testing?
 Yes, if you're testing the library, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

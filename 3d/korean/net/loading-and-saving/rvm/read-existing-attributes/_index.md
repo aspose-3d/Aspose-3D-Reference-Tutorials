@@ -3,10 +3,16 @@ title: 속성이 있는 장면 읽기
 linktitle: 속성이 있는 장면 읽기
 second_title: Aspose.3D .NET API
 description: Aspose.3D를 사용하여 .NET에서 3D 모델링의 강력한 기능을 활용해 보세요. 손쉽게 장면을 로드, 저장 및 조작할 수 있습니다. 무한한 가능성의 세계로 뛰어들어보세요.
-type: docs
 weight: 18
 url: /ko/net/loading-and-saving/rvm/read-existing-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 속성이 있는 장면 읽기
+
 ## 소개
 
 끊임없이 진화하는 3D 그래픽 및 모델링 환경에서 .NET용 Aspose.3D는 개발자에게 원활한 통합과 강력한 기능을 제공하는 강력한 도구로 등장합니다. 이 튜토리얼에서는 RVM 파일을 읽는 과정을 안내하며, 특히 외부 속성을 읽는 데 중점을 둡니다. Aspose.3D의 기능을 활용하기 위한 여정을 시작하면서 버클을 채우세요!
@@ -79,3 +85,9 @@ A4: You can acquire a temporary license [here](https://buy.aspose.com/temporary-
 ### Q5: Where can I purchase Aspose.3D for .NET?
 
 A5: Visit the [purchase page](https://buy.aspose.com/buy)에서 Aspose.3D 정식 버전을 다운로드할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

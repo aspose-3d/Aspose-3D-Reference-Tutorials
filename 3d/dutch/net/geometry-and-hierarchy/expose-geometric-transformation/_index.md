@@ -3,10 +3,16 @@ title: Geometrische transformatie blootleggen
 linktitle: Geometrische transformatie blootleggen
 second_title: Aspose.3D .NET-API
 description: Ontdek de grenzeloze mogelijkheden van 3D-graphics in .NET met Aspose.3D. Ontdek moeiteloos geometrische transformaties.
-type: docs
 weight: 13
 url: /nl/net/geometry-and-hierarchy/expose-geometric-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geometrische transformatie blootleggen
+
 ## Invoering
 
 Welkom in de opwindende wereld van Aspose.3D voor .NET! In deze zelfstudie verdiepen we ons in de fijne kneepjes van het blootleggen van geometrische transformaties in 3D-scènes met behulp van Aspose.3D. Als u een .NET-ontwikkelaar bent die graag uw grafische 3D-mogelijkheden wil verbeteren, bent u hier op de juiste plek.
@@ -98,3 +104,9 @@ A1: Aspose.3D is compatibel met een breed scala aan .NET-frameworks, waardoor fl
 ### V5: Hoe koop ik Aspose.3D voor .NET?
 
  A5: Als u Aspose.3D voor .NET wilt kopen, gaat u naar de[aankooppagina](https://purchase.aspose.com/buy) op de Aspose-website.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

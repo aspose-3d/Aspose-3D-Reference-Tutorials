@@ -3,10 +3,16 @@ title: Ottimizzazione e utilizzo dei dati mesh 3D in Java
 linktitle: Ottimizzazione e utilizzo dei dati mesh 3D in Java
 second_title: API Java Aspose.3D
 description: Ottimizza le tue applicazioni 3D con Aspose.3D per Java. Impara a comprimere le mesh con Google Draco, generare dati mesh ed elaborare in modo efficiente le mesh 3D per materiale.
-type: docs
 weight: 32
 url: /it/java/3d-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ottimizzazione e utilizzo dei dati mesh 3D in Java
+
 ## introduzione
 
 Sei pronto per migliorare le tue capacità di sviluppo 3D in Java? Immergiti nel mondo di Aspose.3D, dove ti offriamo tutorial completi sull'ottimizzazione e l'utilizzo dei dati mesh 3D. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, questi tutorial ti consentiranno di migliorare i tuoi progetti Java senza sforzo.
@@ -31,3 +37,9 @@ Ottimizza le tue applicazioni 3D con Aspose.3D. Scopri come comprimere le mesh u
 Migliora i tuoi progetti Java con Aspose.3D. Segui il nostro tutorial per generare facilmente dati normali per mesh 3D. Tuffati nella grafica 3D con facilità.
 ### [Dividi mesh 3D per materiale per un'elaborazione efficiente in Java](./split-meshes-by-material/)
 Esplora la potenza di Aspose.3D in Java con la nostra guida passo passo sulla suddivisione efficiente delle mesh 3D in base al materiale. Migliora le prestazioni della tua applicazione senza problemi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

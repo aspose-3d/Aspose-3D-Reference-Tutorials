@@ -3,10 +3,16 @@ title: إنشاء نماذج ثلاثية الأبعاد باستخدام الب
 linktitle: إنشاء نماذج ثلاثية الأبعاد باستخدام البثق الخطي في Java
 second_title: Aspose.3D جافا API
 description: استكشف عالم النمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. إتقان البثق الخطي دون عناء. مركز التحكم، ضبط الاتجاه، تحديد الشرائح، تطبيق الالتواء، والمزيد!
-type: docs
 weight: 23
 url: /ar/java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء نماذج ثلاثية الأبعاد باستخدام البثق الخطي في Java
+
 ## مقدمة
 
 
@@ -62,3 +68,9 @@ url: /ar/java/linear-extrusion/
 تعرف على كيفية إضافة لمسة إلى نماذجك ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. اتبع دليلنا خطوة بخطوة للحصول على تأثيرات البثق الخطي المحسنة.
 ### [استخدام الإزاحة الملتوية في البثق الخطي باستخدام Aspose.3D لـ Java](./using-twist-offset/)
 عزز مهاراتك في النمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. تعلم كيفية استخدام Twist Offset في Linear Extrusion في هذا البرنامج التعليمي الشامل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

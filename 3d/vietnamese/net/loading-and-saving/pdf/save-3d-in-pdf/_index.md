@@ -3,10 +3,16 @@ title: Lưu 3D dưới dạng PDF
 linktitle: Lưu 3D dưới dạng PDF
 second_title: API Aspose.3D .NET
 description: Khám phá Aspose.3D cho .NET. Thư viện truy cập của bạn để lập mô hình và hiển thị 3D liền mạch. Dễ dàng lưu mô hình 3D dưới dạng PDF.
-type: docs
 weight: 19
 url: /vi/net/loading-and-saving/pdf/save-3d-in-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu 3D dưới dạng PDF
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách sử dụng Aspose.3D cho .NET! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tải và lưu mô hình 3D, tập trung vào nhiệm vụ cụ thể là lưu mô hình 3D ở định dạng PDF. Aspose.3D for .NET là một thư viện mạnh mẽ cung cấp các công cụ hiệu quả để làm việc với các tệp 3D, khiến nó trở thành tài nguyên thiết yếu cho các nhà phát triển và những người đam mê trong lĩnh vực này.
@@ -98,3 +104,9 @@ A2: Chắc chắn rồi! Như được hiển thị trong hướng dẫn, bạn 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.3D cho .NET?
 
  Câu trả lời 5: Để có được giấy phép tạm thời, hãy truy cập[liên kết này](https://purchase.aspose.com/temporary-license/) và làm theo hướng dẫn được cung cấp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nén cảnh 3D để lưu trữ và chia sẻ hiệu quả với Aspose.3
 linktitle: Nén cảnh 3D để lưu trữ và chia sẻ hiệu quả với Aspose.3D cho Java
 second_title: API Java Aspose.3D
 description: Tìm hiểu cách nén cảnh 3D hiệu quả với Aspose.3D cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để lưu trữ và chia sẻ tối ưu.
-type: docs
 weight: 11
 url: /vi/java/3d-scenes-and-models/compress-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nén cảnh 3D để lưu trữ và chia sẻ hiệu quả với Aspose.3D cho Java
+
 ## Giới thiệu
 
 Aspose.3D for Java là một thư viện đa năng cho phép các nhà phát triển làm việc với cảnh, đối tượng và hoạt ảnh 3D trong các ứng dụng Java. Một trong những tính năng nổi bật của nó là khả năng nén cảnh 3D, giảm kích thước tệp mà không ảnh hưởng đến chất lượng. Hướng dẫn này sẽ hướng dẫn bạn các bước để nén cảnh 3D một cách hiệu quả để lưu trữ và chia sẻ.
@@ -103,3 +109,10 @@ Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn ph�
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.3D cho Java?
 
  A5: Thực hiện theo các bước[đây](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Węzeł przekształcający według macierzy transformacji
 linktitle: Węzeł przekształcający według macierzy transformacji
 second_title: Aspose.3D API .NET
 description: Bez wysiłku przekształcaj węzły w scenach 3D za pomocą Aspose.3D dla .NET. Dowiedz się, jak krok po kroku przekształcać węzły, korzystając z samouczka.
-type: docs
 weight: 21
 url: /pl/net/geometry-and-hierarchy/transformation-node-matrix/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Węzeł przekształcający według macierzy transformacji
+
 ## Wstęp
 
 W dynamicznej dziedzinie grafiki i wizualizacji 3D możliwość manipulowania obiektami w scenie jest kluczowym aspektem. Aspose.3D dla .NET umożliwia programistom płynne przekształcanie węzłów przy użyciu macierzy transformacji, dodając warstwę kreatywności i kontroli do scen 3D. Ten samouczek przeprowadzi Cię krok po kroku przez proces przekształcania węzła w scenie 3D.
@@ -112,3 +118,9 @@ Odpowiedź 2: Tak, możesz łączyć wiele transformacji, mnożąc ich odpowiedn
 ### P5: Gdzie mogę szukać pomocy lub połączyć się ze społecznością Aspose.3D?
 
  A5: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) aby zadawać pytania, dzielić się doświadczeniami i łączyć się z innymi programistami korzystającymi z Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

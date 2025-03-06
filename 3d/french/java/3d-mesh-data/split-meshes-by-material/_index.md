@@ -3,10 +3,16 @@ title: Diviser les maillages 3D par matériau pour un traitement efficace en Jav
 linktitle: Diviser les maillages 3D par matériau pour un traitement efficace en Java
 second_title: API Java Aspose.3D
 description: Explorez la puissance d'Aspose.3D en Java avec notre guide étape par étape sur la division efficace des maillages 3D par matériau. Améliorez les performances de votre application en toute transparence.
-type: docs
 weight: 12
 url: /fr/java/3d-mesh-data/split-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Diviser les maillages 3D par matériau pour un traitement efficace en Java
+
 ## Introduction
 
 Bienvenue dans ce didacticiel complet sur la division des maillages 3D par matériau pour un traitement efficace en Java à l'aide d'Aspose.3D. Si vous plongez dans le monde des graphiques 3D et avez besoin d'une puissante bibliothèque Java, Aspose.3D est votre solution incontournable. Dans ce didacticiel, nous vous guiderons tout au long du processus de gestion efficace des maillages 3D par matériau, en optimisant votre application Java pour des performances supérieures.
@@ -104,3 +110,10 @@ A2 : Absolument ! Cette méthode s'adapte bien aux modèles 3D complexes, optimi
 ### Q5 : Comment puis-je obtenir de l'aide pour tout problème ou question ?
 
  A5 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien dévoué de la communauté.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Odwracanie układu współrzędnych w scenach 3D
 linktitle: Odwracanie układu współrzędnych w scenach 3D
 second_title: Aspose.3D API .NET
 description: Opanuj sztukę odwracania układów współrzędnych w scenach 3D przy użyciu Aspose.3D dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową implementację.
-type: docs
 weight: 12
 url: /pl/net/3d-scene/flip-coordinate-system/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odwracanie układu współrzędnych w scenach 3D
+
 ## Wstęp
 
 Witamy w tym przewodniku krok po kroku dotyczącym odwracania układu współrzędnych w scenach 3D przy użyciu Aspose.3D dla .NET. Jeśli jesteś programistą lub entuzjastą 3D i chcesz manipulować układami współrzędnych w swoich scenach, jesteś we właściwym miejscu. W tym samouczku przeprowadzimy Cię przez cały proces, ułatwiając bezproblemowe wdrożenie tej funkcji.
@@ -91,3 +97,9 @@ O1: Aspose.3D dla .NET jest przeznaczony przede wszystkim do programowania w C#.
 ### P5: Gdzie mogę szukać pomocy lub zadać pytania związane z Aspose.3D dla .NET?
 
  A5: Forum społeczności Aspose[Tutaj](https://forum.aspose.com/c/3d/18) to idealne miejsce na wsparcie i dyskusję.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

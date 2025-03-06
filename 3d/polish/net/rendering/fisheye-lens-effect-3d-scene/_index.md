@@ -3,10 +3,16 @@ title: Stosowanie efektu obiektywu typu rybie oko w Aspose.3D dla .NET
 linktitle: Stosowanie efektu obiektywu typu rybie oko do sceny 3D
 second_title: Aspose.3D API .NET
 description: Ulepsz swoje sceny 3D dzięki Aspose.3D dla .NET! Dowiedz się, jak krok po kroku zastosować urzekający efekt obiektywu typu rybie oko. Pobierz teraz!
-type: docs
 weight: 12
 url: /pl/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stosowanie efektu obiektywu typu rybie oko w Aspose.3D dla .NET
+
 ## Wstęp
 Czy chcesz poprawić atrakcyjność wizualną swoich scen 3D? Zanurz się w fascynujący świat efektów obiektywu typu rybie oko dzięki Aspose.3D dla .NET. Ten samouczek poprowadzi Cię krok po kroku przez zastosowanie efektu obiektywu typu rybie oko do scen 3D, nadając im wyjątkową i urzekającą perspektywę.
 ## Warunki wstępne
@@ -77,3 +83,9 @@ Możesz dostosować właściwości świateł, takie jak położenie, typ i kolor
 Rozmiar sceny 3D jest ograniczony przede wszystkim zasobami systemowymi. Upewnij się, że Twój sprzęt jest w stanie obsłużyć rozmiar Twojej sceny.
 ### Czy mogę użyć innego formatu wyjściowego zamiast PNG, aby uzyskać efekt rybiego oka?
 Tak, możesz zmodyfikować kod, aby zapisać dane wyjściowe w różnych formatach obrazu w zależności od wymagań.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

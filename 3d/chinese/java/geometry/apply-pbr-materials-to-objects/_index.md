@@ -3,10 +3,16 @@ title: 使用 Aspose.3D 将 PBR 材质应用到 Java 中的 3D 对象
 linktitle: 使用 Aspose.3D 将 PBR 材质应用到 Java 中的 3D 对象
 second_title: Aspose.3D Java API
 description: 学习使用 Aspose.3D 将真实的 PBR 材质应用到 Java 中的 3D 对象。通过基于物理的渲染增强视觉质量。
-type: docs
 weight: 10
 url: /zh/java/geometry/apply-pbr-materials-to-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D 将 PBR 材质应用到 Java 中的 3D 对象
+
 ## 介绍
 
 欢迎阅读本分步指南，了解如何使用 Aspose.3D 将基于物理的渲染 (PBR) 材质应用到 Java 中的 3D 对象。 Aspose.3D 是一个功能强大的 Java 库，提供用于处理 3D 模型和场景的全面功能。在本教程中，我们将重点介绍应用 PBR 材质，它可以模拟真实世界的光照和表面属性，从而增强 3D 对象的真实感。
@@ -102,3 +108,9 @@ scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
 ### Q5：如何获得临时测试许可证？
 
  A5：参观[这个链接](https://purchase.aspose.com/temporary-license/)获得临时许可证。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

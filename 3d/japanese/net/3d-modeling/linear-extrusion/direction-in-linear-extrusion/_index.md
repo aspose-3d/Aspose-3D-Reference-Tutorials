@@ -3,10 +3,16 @@ title: 線形押出の方向
 linktitle: 線形押出の方向
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET で 3D モデリングの世界を解き放ちます。方向線形押し出しを学び、創造性を高め、没入型アプリケーションを簡単に作成します。
-type: docs
 weight: 11
 url: /ja/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 線形押出の方向
+
 ## 導入
 
 ソフトウェア開発のダイナミックな世界では、没入型 3D モデルの作成は不可欠なスキルです。 Aspose.3D for .NET は、アプリケーションで 3D モデリングの可能性を活用するための堅牢なツール セットを開発者に提供します。このチュートリアルでは、線形押し出しの興味深い世界を掘り下げ、「線形押し出しの方向」機能の微妙な違いを探っていきます。
@@ -110,3 +116,9 @@ A3: はい、無料トライアルで機能を試してください。[Aspose.3D
 ### Q5: Aspose.3D for .NET の詳細なドキュメントはどこで見つけられますか?
 
  A5: 総合を参照してください。[Aspose.3D .NET ドキュメント](https://reference.aspose.com/3d/net/)詳細な情報については。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

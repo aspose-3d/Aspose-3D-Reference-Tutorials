@@ -3,10 +3,16 @@ title: إنشاء مضلع في شبكة
 linktitle: إنشاء مضلع في شبكة
 second_title: Aspose.3D.NET API
 description: استكشف عالم النمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. قم بإنشاء مضلعات مذهلة في شبكات دون عناء. قم بالتنزيل الآن للحصول على تجربة تطوير غامرة!
-type: docs
 weight: 18
 url: /ar/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مضلع في شبكة
+
 ## مقدمة
 هل أنت مستعد للغوص في عالم النمذجة ثلاثية الأبعاد المثير باستخدام Aspose.3D لـ .NET؟ إذا كنت مطورًا يتطلع إلى تحسين مهاراتك أو وافدًا جديدًا مهتمًا بإنشاء شبكات ثلاثية الأبعاد مذهلة، فأنت في المكان الصحيح. في هذا البرنامج التعليمي الشامل، سنرشدك خلال عملية إنشاء مضلع في شبكة باستخدام Aspose.3D.
 ## المتطلبات الأساسية
@@ -59,3 +65,9 @@ mesh.CreatePolygon(0, 1, 2, 3);
  ج: استكشاف واسعة النطاق[توثيق](https://reference.aspose.com/3d/net/) متاحة للحصول على رؤى متعمقة.
 ### س: كيف يمكنني شراء Aspose.3D لـ .NET؟
  ج: قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على الترخيص الخاص بك وفتح الإمكانات الكاملة لـ Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

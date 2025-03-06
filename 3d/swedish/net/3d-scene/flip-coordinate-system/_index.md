@@ -3,10 +3,16 @@ title: Vändning av koordinatsystem i 3D-scener
 linktitle: Vändning av koordinatsystem i 3D-scener
 second_title: Aspose.3D .NET API
 description: Bemästra konsten att vända koordinatsystem i 3D-scener med Aspose.3D för .NET. Följ vår steg-för-steg-guide för sömlös implementering.
-type: docs
 weight: 12
 url: /sv/net/3d-scene/flip-coordinate-system/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vändning av koordinatsystem i 3D-scener
+
 ## Introduktion
 
 Välkommen till den här steg-för-steg-guiden om hur du vänder koordinatsystemet i 3D-scener med Aspose.3D för .NET. Om du är en utvecklare eller en 3D-entusiast som vill manipulera koordinatsystem i dina scener, är du på rätt plats. I den här handledningen går vi igenom processen, vilket gör det enkelt för dig att implementera den här funktionen sömlöst.
@@ -91,3 +97,9 @@ S1: Aspose.3D för .NET är i första hand designad för C#-programmering. Men A
 ### F5: Var kan jag söka support eller ställa frågor relaterade till Aspose.3D för .NET?
 
  S5: Aspose-gemenskapsforumet[här](https://forum.aspose.com/c/3d/18) är den idealiska platsen för stöd och diskussioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

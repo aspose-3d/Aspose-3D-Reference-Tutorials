@@ -1,12 +1,17 @@
 ---
 title: Aspose.3D for .NET 的綜合教學與範例
 linktitle: Aspose.3D for .NET 教學課程
-type: docs
 weight: 10
 url: /zh-hant/net/
 description: 使用 Aspose.3D for .NET 教學解鎖 3D 建模和動畫的世界。輕鬆提升您的專案 - 從渲染到線性擠壓。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for .NET 的綜合教學與範例
+
 ## 介紹
 
 您準備好踏上令人興奮的 3D 建模和動畫領域之旅了嗎？別再猶豫了 – Aspose.3D for .NET 為您帶來了全面的教程和範例集合，旨在釋放您的創造力並將您的專案提升到新的高度。
@@ -60,3 +65,9 @@ is_root: true
 
 
 釋放您的創造潛力，深入了解 Aspose.3D for .NET 教學的世界。立即下載試用版，將您的 3D 專案提升到非凡的高度！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.3D를 사용하여 Java의 현실감 향상을 위해 3D 재료를
 linktitle: Aspose.3D를 사용하여 Java의 현실감 향상을 위해 3D 재료를 PBR로 업그레이드
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java에서 3D 자료를 PBR로 손쉽게 업그레이드하세요. 시선을 사로잡는 시각적 효과를 위해 향상된 사실성을 달성하세요.
-type: docs
 weight: 13
 url: /ko/java/load-and-save/upgrade-materials-to-pbr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D를 사용하여 Java의 현실감 향상을 위해 3D 재료를 PBR로 업그레이드
+
 ## 소개
 
 3D 자료를 PBR로 업그레이드하는 것은 Java 애플리케이션에서 실제와 같은 시각적 효과를 얻기 위한 혁신적인 단계입니다. Aspose.3D는 이 프로세스를 단순화하여 기존 재료에서 PBR 재료로 원활하게 전환할 수 있도록 합니다. 이 튜토리얼에서는 필수 전제 조건을 살펴보고, 패키지를 가져오고, 각 예제를 세부 단계로 분류합니다.
@@ -102,3 +108,9 @@ A3: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://rele
 ### Q5: Aspose.3D에 대한 임시 라이선스를 어떻게 얻나요?
 
  A5: 방문[이 링크](https://purchase.aspose.com/temporary-license/) 임시 라이센스 정보를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

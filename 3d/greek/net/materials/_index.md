@@ -3,10 +3,16 @@ title: Υλικά
 linktitle: Υλικά
 second_title: Aspose.3D .NET API
 description: Ξεκλειδώστε τον κόσμο των συναρπαστικών 3D σκηνών με το Aspose.3D for .NET tutorials. Μάθετε να δημιουργείτε εκπληκτικές σκηνές και εξερευνήστε τις ενσωματωμένες υφές χωρίς κόπο.
-type: docs
 weight: 28
 url: /el/net/materials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Υλικά
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να ξεκινήσετε ένα ταξίδι στη συναρπαστική σφαίρα του τρισδιάστατου σχεδιασμού και της οπτικοποίησης; Το Aspose.3D for .NET ανοίγει την πόρτα σε έναν κόσμο όπου η δημιουργικότητα δεν γνωρίζει όρια. Σε αυτό το άρθρο, θα σας καθοδηγήσουμε σε μια σειρά από σεμινάρια, καθένα από τα οποία ξεκλειδώνει μια νέα πτυχή αυτής της ισχυρής βιβλιοθήκης .NET.
@@ -31,3 +37,9 @@ url: /el/net/materials/
 Δημιουργήστε μαγευτικές σκηνές 3D με ενσωματωμένες υφές χρησιμοποιώντας το Aspose.3D για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για εντυπωσιακά αποτελέσματα.
 ### [Απόρριψη ενσωματωμένων υφών](./dump-embedded-textures/)
 Ξεκλειδώστε τα μυστικά των ενσωματωμένων υφών σε τρισδιάστατα μοντέλα με το Aspose.3D για .NET. Βουτήξτε στον οδηγό μας βήμα προς βήμα για απρόσκοπτη ενσωμάτωση. Κατεβάστε τη δωρεάν δοκιμή σας τώρα!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

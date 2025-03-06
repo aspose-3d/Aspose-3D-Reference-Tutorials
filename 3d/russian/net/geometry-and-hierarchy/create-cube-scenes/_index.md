@@ -3,10 +3,16 @@ title: Создание кубических сцен
 linktitle: Создание кубических сцен
 second_title: Aspose.3D .NET API
 description: Создавайте потрясающие сцены из 3D-кубов без особых усилий с помощью Aspose.3D для .NET. Загрузите библиотеку, следуйте нашему пошаговому руководству и наслаждайтесь ее возможностями.
-type: docs
 weight: 12
 url: /ru/net/geometry-and-hierarchy/create-cube-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание кубических сцен
+
 ## Введение
 
 Готовы ли вы окунуться в увлекательный мир 3D-дизайна? В этом уроке мы проведем вас через процесс создания завораживающих кубических сцен с помощью Aspose.3D для .NET. Aspose.3D — это мощная и универсальная библиотека, которая позволяет разработчикам легко создавать захватывающие 3D-проекты.
@@ -126,3 +132,9 @@ Console.WriteLine("\nCube Scene created successfully.\nFile saved at " + output)
 ### В5: Как я могу получить временную лицензию на Aspose.3D?
 
  A5: Приобретите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

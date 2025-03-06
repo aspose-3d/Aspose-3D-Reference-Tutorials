@@ -3,10 +3,16 @@ title: Geometri ve Hiyerarşi
 linktitle: Geometri ve Hiyerarşi
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET eğitimleriyle 3D grafik dünyasının kilidini açın. PBR malzemelerinin uygulanmasından geometrik dönüşümlere kadar her konuda zahmetsizce ustalaşın.
-type: docs
 weight: 25
 url: /tr/net/geometry-and-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geometri ve Hiyerarşi
+
 ## giriiş
 
 Aspose.3D for .NET eğitimleriyle 3D grafikler dünyasına heyecan verici bir yolculuğa çıkın. İster acemi ister deneyimli bir geliştirici olun, bu adım adım kılavuzlar becerilerinizi geliştirmeyi ve kesintisiz 3D grafik manipülasyonunun sırlarını açığa çıkarmayı vaat ediyor.
@@ -72,3 +78,9 @@ Aspose.3D for .NET ile kuaterniyon dönüşümleri dünyasına adım atın. Bu y
  3D ağları zahmetsizce üçgenleştirmeye yönelik bu adım adım kılavuzla Aspose.3D for .NET'in gücünü keşfedin. Daha sürükleyici bir deneyim için modelleme becerilerinizi geliştirin.[Devamını oku](./triangulate-mesh/)
 
 Aspose.3D for .NET eğitimlerinin bu heyecan verici yolculuğuna çıkın ve 3D grafik uzmanlığınızı yükseltin. Her eğitime dalın, adımları izleyin ve becerilerinizin yeni boyutlara yükselmesini izleyin. Mutlu kodlama!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

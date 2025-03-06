@@ -3,10 +3,16 @@ title: الرسوم المتحركة
 linktitle: الرسوم المتحركة
 second_title: Aspose.3D.NET API
 description: افتح عالم الرسوم المتحركة ثلاثية الأبعاد باستخدام دروس Aspose.3D لـ .NET. تعلم كيفية تحريك الخصائص وإعداد الأهداف والكاميرات للمشاهد الديناميكية دون عناء.
-type: docs
 weight: 30
 url: /ar/net/animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الرسوم المتحركة
+
 ## مقدمة
 
 مرحبًا بك في عالم الرسوم المتحركة ثلاثي الأبعاد الرائع باستخدام Aspose.3D لـ .NET! في هذا الدليل الشامل، سنستكشف برنامجين تعليميين أساسيين سيمكنك من إنشاء مشاهد ثلاثية الأبعاد جذابة وديناميكية. دعونا نشرع في هذه الرحلة المثيرة معًا!
@@ -37,3 +43,9 @@ url: /ar/net/animation/
 تعلم كيفية تحريك الخصائص ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. دليل خطوة بخطوة لإنشاء مشاهد ديناميكية.
 ### [إعداد الأهداف والكاميرات للرسوم المتحركة في المشاهد ثلاثية الأبعاد](./setup-target-camera/)
 أطلق العنان لسحر الرسوم المتحركة ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. قم بإعداد الأهداف والكاميرات بسهولة باستخدام هذا البرنامج التعليمي الشامل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

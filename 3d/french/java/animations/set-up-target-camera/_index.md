@@ -3,10 +3,16 @@ title: Configurer la caméra cible pour les animations 3D en Java | Tutoriel Asp
 linktitle: Configurer la caméra cible pour les animations 3D en Java | Tutoriel Aspose.3D
 second_title: API Java Aspose.3D
 description: Explorez les animations Java 3D sans effort avec Aspose.3D. Suivez notre tutoriel pour un guide étape par étape. Téléchargez-le dès maintenant pour un parcours de développement 3D captivant.
-type: docs
 weight: 11
 url: /fr/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurer la caméra cible pour les animations 3D en Java | Tutoriel Aspose.3D
+
 ## Introduction
 
 Bienvenue dans ce guide étape par étape sur la configuration d'une caméra cible pour les animations 3D en Java à l'aide d'Aspose.3D. Que vous soyez un développeur chevronné ou que vous débutiez tout juste avec les animations 3D en Java, ce didacticiel vous guidera tout au long du processus avec des instructions claires et concises.
@@ -98,3 +104,9 @@ Toutes nos félicitations! Vous avez configuré avec succès une caméra cible p
 ### Q5 : Comment puis-je obtenir une licence temporaire ?
 
  A5 : Vous pouvez acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

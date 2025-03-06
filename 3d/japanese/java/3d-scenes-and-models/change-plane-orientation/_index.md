@@ -3,10 +3,16 @@ title: Java での正確な 3D シーンの位置決めのための平面方向�
 linktitle: Java での正確な 3D シーンの位置決めのための平面方向の変更
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して Java での 3D シーンの位置決めを強化します。精度を高めるために平面の向きを変更します。今すぐダウンロードして、魅力的なビジュアル体験を体験してください。
-type: docs
 weight: 10
 url: /ja/java/3d-scenes-and-models/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java での正確な 3D シーンの位置決めのための平面方向の変更
+
 ## 導入
 
 Aspose.3D を使用して Java で 3D シーンの位置決めを強化するためのステップバイステップ ガイドへようこそ。このチュートリアルでは、3D シーンを正確に配置するための平面方向の変更について詳しく説明し、視覚的に美しく正確に配置されたシーンを作成できるようにします。
@@ -114,3 +120,9 @@ A1: はい、Aspose.3D は Java、.NET などを含むさまざまなプログ�
 ### Q5: 一時ライセンスのオプションはありますか?
 
  A5: はい、一時ライセンスが必要な場合は取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

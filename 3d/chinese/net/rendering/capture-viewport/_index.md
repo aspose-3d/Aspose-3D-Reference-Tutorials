@@ -3,10 +3,16 @@ title: 捕获 3D 场景中的视口
 linktitle: 捕获 3D 场景中的视口
 second_title: Aspose.3D .NET API
 description: 学习使用 Aspose.3D for .NET 捕捉令人惊叹的 3D 视口。灵活渲染场景的分步指南。
-type: docs
 weight: 11
 url: /zh/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 捕获 3D 场景中的视口
+
 ## 介绍
 
 在 3D 图形和可视化领域，捕获视口是增强场景深度和细节的一项基本技能。 Aspose.3D for .NET 为渲染和操作 3D 场景提供了强大的解决方案。本教程将指导您完成使用 Aspose.3D 在 3D 场景中捕获视口的过程，让您轻松创建令人惊叹的可视化效果。
@@ -124,3 +130,9 @@ A4：是的，您可以免费试用[这里](https://releases.aspose.com/).
 ### Q5：我如何寻求帮助或参与社区？
 
  A5：加入 Aspose.3D 社区[支持论坛](https://forum.aspose.com/c/3d/18)寻求帮助和合作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Irány a lineáris extrudálásban
 linktitle: Irány a lineáris extrudálásban
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D modellezés világát az Aspose.3D for .NET segítségével. Tanulja meg az irányvonalas lineáris extrudálást, fokozza a kreativitást, és könnyedén készítsen magával ragadó alkalmazásokat.
-type: docs
 weight: 11
 url: /hu/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Irány a lineáris extrudálásban
+
 ## Bevezetés
 
 A szoftverfejlesztés dinamikus világában a magával ragadó 3D-s modellek készítése nélkülözhetetlen készség. Az Aspose.3D for .NET robusztus eszközkészletet biztosít a fejlesztők számára, amelyekkel kiaknázhatják alkalmazásaikban a 3D modellezésben rejlő lehetőségeket. Ebben az oktatóanyagban elmélyülünk a lineáris extrudálás izgalmas világában, és felfedezzük az „Irány a lineáris extrudálásban” funkció árnyalatait.
@@ -110,3 +116,9 @@ Ebben az oktatóanyagban a 3D modellezés lenyűgöző birodalmában navigáltun
 ### 5. kérdés: Hol találom az Aspose.3D for .NET részletes dokumentációját?
 
  V5: Lásd az átfogót[Aspose.3D .NET dokumentáció](https://reference.aspose.com/3d/net/) mélyreható tájékoztatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

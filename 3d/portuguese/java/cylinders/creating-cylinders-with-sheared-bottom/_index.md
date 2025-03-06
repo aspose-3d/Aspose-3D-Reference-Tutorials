@@ -3,10 +3,16 @@ title: Criando Cilindros com Fundo Cortado em Aspose.3D para Java
 linktitle: Criando Cilindros com Fundo Cortado em Aspose.3D para Java
 second_title: API Java Aspose.3D
 description: Aprenda a criar cilindros personalizados com fundos cortados usando Aspose.3D para Java. Eleve suas habilidades de modelagem 3D com este guia passo a passo.
-type: docs
 weight: 12
 url: /pt/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Criando Cilindros com Fundo Cortado em Aspose.3D para Java
+
 ## Introdução
 
 Bem-vindo a este guia passo a passo sobre como criar cilindros com fundos cortados usando Aspose.3D para Java. Aspose.3D é uma biblioteca Java poderosa que permite trabalhar com arquivos 3D sem esforço. Neste tutorial, mergulharemos na criação de cilindros personalizados com fundos cortados, proporcionando a você uma experiência prática no uso do Aspose.3D para aprimorar suas habilidades de modelagem 3D.
@@ -100,3 +106,9 @@ A2: Sim, o Aspose.3D fornece uma API amigável, tornando-o adequado tanto para i
 ### Q5: Posso comprar Aspose.3D para Java?
 
  A5: Sim, você pode comprar Aspose.3D para Java[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

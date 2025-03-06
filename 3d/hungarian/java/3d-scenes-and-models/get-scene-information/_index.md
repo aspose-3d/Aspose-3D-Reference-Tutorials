@@ -3,10 +3,16 @@ title: Információk lekérése a 3D jelenetekből a Java alkalmazásokban
 linktitle: Információk lekérése a 3D jelenetekből a Java alkalmazásokban
 second_title: Aspose.3D Java API
 description: Fedezze fel a 3D-s jelenetkezelés világát Java nyelven az Aspose.3D segítségével. Ez az oktatóanyag lépésről lépésre végigvezeti Önt az információk lekérésében.
-type: docs
 weight: 12
 url: /hu/java/3d-scenes-and-models/get-scene-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Információk lekérése a 3D jelenetekből a Java alkalmazásokban
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó útmutatóban, amely az Aspose.3D használatával Java-alkalmazások 3D-s jeleneteiből származó információk lekérésére vonatkozik. Ha Ön Java-fejlesztő, aki 3D-s jelenetmanipulációval szeretné bővíteni alkalmazásai képességeit, akkor jó helyen jár. Ez az oktatóanyag lépésről lépésre végigvezeti Önt a folyamaton, biztosítva, hogy minden koncepciót alaposan megértsen.
@@ -99,3 +105,9 @@ A2: Abszolút. Az Aspose.3D kereskedelmi licenceket kínál a fejlesztők szám�
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?
 
  5. válasz: Szerezzen ideiglenes licencet tesztelési célokra[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

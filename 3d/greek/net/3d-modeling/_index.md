@@ -3,10 +3,16 @@ title: Πρίπλασμα
 linktitle: Πρίπλασμα
 second_title: Aspose.3D .NET API
 description: Ανακαλύψτε την τέχνη της τρισδιάστατης μοντελοποίησης με το Aspose.3D για .NET! Δημιουργήστε εύκολα συναρπαστικά πρωτόγονα μοντέλα σε αυτό το ολοκληρωμένο σεμινάριο. Απελευθερώστε τη δημιουργικότητά σας σήμερα.
-type: docs
 weight: 28
 url: /el/net/3d-modeling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Πρίπλασμα
+
 
 ## Εισαγωγή
 
@@ -67,3 +73,9 @@ url: /el/net/3d-modeling/
 ## Εκμάθηση 3D Modeling
 ### [Δημιουργία πρωτόγονων τρισδιάστατων μοντέλων](./primitive-3d-models/)
 Εξερευνήστε τον κόσμο της τρισδιάστατης μοντελοποίησης με το Aspose.3D για .NET. Δημιουργήστε εκπληκτικά πρωτόγονα μοντέλα χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

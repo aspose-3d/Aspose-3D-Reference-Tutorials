@@ -3,10 +3,16 @@ title: Aspose.3D ile Java'da 3D Nesnelere UV Koordinatlarını Uygulama
 linktitle: Aspose.3D ile Java'da 3D Nesnelere UV Koordinatlarını Uygulama
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile Java'da UV koordinatlarını 3 boyutlu nesnelere uygulamayı öğrenin. Bu adım adım kılavuzla grafiklerinizi geliştirin.
-type: docs
 weight: 18
 url: /tr/java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D ile Java'da 3D Nesnelere UV Koordinatlarını Uygulama
+
 ## giriiş
 
 Aspose.3D kullanarak UV koordinatlarını Java'daki 3 boyutlu nesnelere uygulamaya yönelik bu kapsamlı eğitime hoş geldiniz. 3D grafik dünyasında, UV koordinatları dokuların yüzeylere eşlenmesinde önemli bir rol oynayarak eserlerinizin görsel çekiciliğini artırır. Bu eğitim, sorunsuz ve etkili bir öğrenme deneyimi sağlamak için her adımı parçalara ayırarak süreç boyunca size rehberlik edecektir.
@@ -104,3 +110,9 @@ Cevap1: Evet, karmaşık modeller için süreç benzerdir. Uygun UV verilerine v
 ### S5: Aspose.3D'yi nereden satın alabilirim?
 
  Cevap5: Aspose.3D'yi satın almak için şu adresi ziyaret edin:[satın alma sayfası](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

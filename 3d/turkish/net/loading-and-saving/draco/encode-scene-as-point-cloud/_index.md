@@ -3,10 +3,16 @@ title: Sahneyi Nokta Bulutu olarak kodlama
 linktitle: Sahneyi Nokta Bulutu olarak kodlama
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D ile .NET'te 3D modelleme dünyasını keşfedin. Küreleri zahmetsizce nokta bulutlarına kodlamayı öğrenin. Şimdi yaratıcılığınızı serbest bırakın!
-type: docs
 weight: 14
 url: /tr/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sahneyi Nokta Bulutu olarak kodlama
+
 ## giriiş
 Aspose.3D for .NET kullanarak bir küreyi nokta bulutu olarak kodlamaya ilişkin bu kapsamlı kılavuza hoş geldiniz. Aspose.3D, geliştiricilerin .NET uygulamalarında 3D modellerle sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü ve çok yönlü bir kütüphanedir. Bu eğitimde, Aspose.3D'yi kullanarak bir küreyi nokta bulutuna kodlama sürecinde size yol göstereceğiz.
 ## Önkoşullar
@@ -60,3 +66,9 @@ Evet, Aspose.3D'yi ücretsiz deneme sürümüyle keşfedebilirsiniz. İndir[Bura
  Aspose.3D forumunu ziyaret edin[Burada](https://forum.aspose.com/c/3d/18) topluluk desteği ve tartışmalar için.
 ### Test için geçici bir lisansa ihtiyacım var mı?
  Evet, kitaplığı test ediyorsanız geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

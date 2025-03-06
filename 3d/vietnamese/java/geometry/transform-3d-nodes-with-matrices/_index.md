@@ -3,10 +3,16 @@ title: Chuyển đổi các nút 3D bằng ma trận chuyển đổi bằng Aspo
 linktitle: Chuyển đổi các nút 3D bằng ma trận chuyển đổi trong Java bằng Aspose.3D
 second_title: API Java Aspose.3D
 description: Khám phá thế giới đồ họa 3D trong Java với Aspose.3D. Tìm hiểu cách chuyển đổi các nút một cách dễ dàng bằng cách sử dụng ma trận chuyển đổi.
-type: docs
 weight: 21
 url: /vi/java/geometry/transform-3d-nodes-with-matrices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi các nút 3D bằng ma trận chuyển đổi bằng Aspose.3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách chuyển đổi các nút 3D bằng ma trận chuyển đổi trong Java bằng Aspose.3D. Nếu bạn là nhà phát triển Java đang tìm cách nâng cao kỹ năng tạo mô hình và đồ họa 3D của mình thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình áp dụng các phép biến đổi cho các nút 3D trong khung Aspose.3D.
@@ -119,3 +125,9 @@ Câu trả lời 3: Kích thước cảnh 3D của bạn có thể bị giới h
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.3D?
 
  A5: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java 3D モデルでのテクスチャ マッピング用の UV 座標の
 linktitle: Java 3D モデルでのテクスチャ マッピング用の UV 座標の生成
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して Java 3D モデルの UV 座標を生成する方法を学びます。このステップバイステップのガイドを使用して、プロジェクトのテクスチャ マッピングを強化します。
-type: docs
 weight: 11
 url: /ja/java/polygon/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 3D モデルでのテクスチャ マッピング用の UV 座標の生成
+
 ## 導入
 
 Aspose.3D を使用して Java 3D モデルのテクスチャ マッピング用の UV 座標を生成するためのステップバイステップ ガイドへようこそ。このチュートリアルでは、3D モデルのメッシュの UV 座標を手動で生成するプロセスについて説明します。これはテクスチャ マッピングにおける重要なステップであり、3D モデルの視覚的な魅力を高めることができます。
@@ -120,3 +126,9 @@ A1: Aspose.3D は主に Java 用に設計されていますが、Aspose は .NET
 ### Q5: Aspose.3D の一時ライセンスを購入できますか?
 
  A5: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

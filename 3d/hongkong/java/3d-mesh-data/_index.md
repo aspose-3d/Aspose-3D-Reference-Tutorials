@@ -3,10 +3,16 @@ title: 在 Java 中優化並使用 3D 網格數據
 linktitle: 在 Java 中優化並使用 3D 網格數據
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D for Java 優化您的 3D 應用程式。學習使用 Google Draco 壓縮網格、產生網格資料以及按材質高效處理 3D 網格。
-type: docs
 weight: 32
 url: /zh-hant/java/3d-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中優化並使用 3D 網格數據
+
 ## 介紹
 
 您準備好提升您的 Java 3D 開發技能了嗎？深入了解 Aspose.3D 的世界，我們為您提供有關優化和使用 3D 網格資料的綜合教程。無論您是經驗豐富的開發人員還是新手，這些教學都將幫助您輕鬆增強您的 Java 專案。
@@ -31,3 +37,9 @@ url: /zh-hant/java/3d-mesh-data/
 使用 Aspose.3D 增強您的 Java 專案。按照我們的教學輕鬆產生 3D 網格的法線資料。輕鬆深入研究 3D 圖形。
 ### [依材料分割 3D 網格以在 Java 中進行高效處理](./split-meshes-by-material/)
 透過我們關於以材質有效分割 3D 網格的逐步指南，探索 Java 中 Aspose.3D 的強大功能。無縫增強應用程式的效能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

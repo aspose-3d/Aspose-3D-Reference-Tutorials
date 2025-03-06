@@ -3,10 +3,16 @@ title: Настройка трехмерных свойств в 3D-сценах
 linktitle: Настройка трехмерных свойств в 3D-сценах
 second_title: Aspose.3D .NET API
 description: Изучите руководство Aspose.3D for .NET по настройке 3D-свойств. Учитесь шаг за шагом на примерах кода. Совершенствуйте свои навыки манипулирования 3D-сценой.
-type: docs
 weight: 14
 url: /ru/net/3d-scene/set-3d-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка трехмерных свойств в 3D-сценах
+
 ## Введение
 
 Создание захватывающих трехмерных сцен часто требует умения манипулировать различными свойствами, добавляя глубину и реализм вашим проектам. Aspose.3D для .NET предоставляет мощный набор инструментов для достижения этой цели, позволяющий вам без особых усилий устанавливать и изменять трехмерные свойства в ваших 3D-сценах. В этом руководстве мы шаг за шагом рассмотрим этот процесс, улучшая ваше понимание того, как эффективно использовать Aspose.3D для .NET.
@@ -148,3 +154,10 @@ foreach (var pp in pdiffuse.Properties)
 ### Вопрос 5: Могу ли я бесплатно попробовать Aspose.3D для .NET перед покупкой?
 
  А5: Конечно! Загрузите[бесплатная пробная версия](https://releases.aspose.com/) изучить его особенности.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

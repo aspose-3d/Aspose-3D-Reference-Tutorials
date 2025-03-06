@@ -3,10 +3,16 @@ title: Testreszabhatja a 3D fájlbetöltést Java nyelven az Aspose.3D LoadOptio
 linktitle: Testreszabhatja a 3D fájlbetöltést Java nyelven az Aspose.3D LoadOptions segítségével
 second_title: Aspose.3D Java API
 description: Javítsa 3D-s fájlbetöltését Java nyelven az Aspose.3D testreszabható LoadOptions segítségével. Ismerje meg a 3DS, OBJ, STL, U3D, glTF, PLY, X és az opcionális FBX testreszabását lépésről lépésre.
-type: docs
 weight: 12
 url: /hu/java/load-and-save/customize-3d-file-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Testreszabhatja a 3D fájlbetöltést Java nyelven az Aspose.3D LoadOptions segítségével
+
 ## Bevezetés
 
 3D-s tervezés és fejlesztés folyamatosan változó környezetében a 3D-s fájlformátumok hatékony kezelése kulcsfontosságú. Az Aspose.3D for Java hatékony megoldást kínál a különféle 3D fájlformátumok betöltésének testreszabására. Ez az oktatóanyag végigvezeti Önt a 3D-s fájlok Java nyelven történő betöltésének testreszabásán az Aspose.3D LoadOptions segítségével.
@@ -156,3 +162,9 @@ A 3D fájlbetöltés Java nyelven történő testreszabása az Aspose.3D LoadOpt
 ### 5. kérdés: Szükségem van ideiglenes licencre a teszteléshez?
 
  V5: Igen, szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

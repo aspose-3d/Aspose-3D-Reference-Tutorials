@@ -3,10 +3,16 @@ title: 선형 돌출의 중심
 linktitle: 선형 돌출의 중심
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 모델링의 세계를 탐험해보세요. 선형 압출 기술을 중심으로 멋진 디자인을 만들고 창의력을 발휘해보세요.
-type: docs
 weight: 10
 url: /ko/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 선형 돌출의 중심
+
 ## 소개
 
 .NET용 Aspose.3D를 사용한 선형 돌출 마스터링에 대한 포괄적인 가이드에 오신 것을 환영합니다. 3D 모델링 기술을 향상하고 멋진 돌출을 만들고 싶다면 잘 찾아오셨습니다. 이 튜토리얼에서는 선형 압출 기술, 특히 센터링 측면에 초점을 맞춰 디자인을 완전히 새로운 수준으로 끌어올리는 기술을 자세히 살펴보겠습니다.
@@ -109,3 +115,10 @@ A1: Aspose.3D는 주로 C# 및 VB.NET과 같은 .NET 언어를 지원합니다.
 ### Q5: .NET용 Aspose.3D 라이선스는 어디서 구입할 수 있나요?
 
  A5: 라이센스 구매[여기](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

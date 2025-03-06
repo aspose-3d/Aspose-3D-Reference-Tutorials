@@ -3,10 +3,16 @@ title: 使用 Aspose.3D 進行 Java 3D 建模 - VRML 探索
 linktitle: 使用 Aspose.3D 在 Java 中開啟和操作 VRML 文件
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 解鎖 Java 3D 建模的魔力。無縫開啟和操作 VRML 檔案。潛入一個充滿無限可能的世界！
-type: docs
 weight: 10
 url: /zh-hant/java/vrml-files/open-vrml-files-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D 進行 Java 3D 建模 - VRML 探索
+
 ## 介紹
 歡迎來到 Java 3D 建模的令人興奮的世界！在本綜合指南中，我們將使用 Aspose.3D for Java 深入研究虛擬實境建模語言 (VRML) 的迷人領域。無論您是經驗豐富的開發人員還是好奇的愛好者，本逐步教學都將使您能夠輕鬆開啟和操作 VRML 檔案。
 ## 先決條件
@@ -61,3 +67,9 @@ scene.open(MyDir + "test.wrl");
 對於臨時許可選項，請訪問[臨時執照](https://purchase.aspose.com/temporary-license/).
 ### 5. 在哪裡可以購買 Aspose.3D for Java？
 要釋放全部潛力，您可以購買 Aspose.3D for Java[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

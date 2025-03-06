@@ -3,10 +3,16 @@ title: Dostosowany cylinder dolny ze ścinaniem
 linktitle: Dostosowany cylinder dolny ze ścinaniem
 second_title: Aspose.3D API .NET
 description: Dowiedz się, jak tworzyć niestandardowe cylindry ze ścinanym dolnym dnem przy użyciu Aspose.3D dla .NET, korzystając z naszego szczegółowego przewodnika krok po kroku. Podnieś swoje umiejętności modelowania 3D już dziś!
-type: docs
 weight: 12
 url: /pl/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosowany cylinder dolny ze ścinaniem
+
 ## Wstęp
 Witamy w naszym obszernym przewodniku na temat tworzenia niestandardowego cylindra przy użyciu Aspose.3D dla .NET. Jeśli chcesz udoskonalić swoje umiejętności modelowania 3D i dodać unikalne funkcje do swoich projektów, jesteś we właściwym miejscu. W tym samouczku przeprowadzimy Cię krok po kroku przez proces, korzystając z jasnych wyjaśnień i fragmentów kodu.
 ## Warunki wstępne
@@ -83,3 +89,9 @@ Tak, istnieje możliwość dostosowania dna ścinacza do każdego cylindra indyw
  Odwiedzić[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności i dyskusje.
 ### Jak mogę uzyskać licencję tymczasową?
  Zdobądź tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

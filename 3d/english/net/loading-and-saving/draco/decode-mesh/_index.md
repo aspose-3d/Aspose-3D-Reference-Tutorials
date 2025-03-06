@@ -3,10 +3,16 @@ title: Decoding Mesh
 linktitle: Decoding Mesh
 second_title: Aspose.3D .NET API
 description: Decode meshes effortlessly with Aspose.3D for .NET. Your gateway to seamless 3D programming. Explore, customize, and elevate your projects.
-type: docs
 weight: 10
 url: /net/loading-and-saving/draco/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Decoding Mesh
+
 ## Introduction
 Picture this: you're in the realm of 3D development, striving to decode intricate mesh structures. The challenge is real, but fear not! As we embark on this journey, we'll navigate the maze of mesh decoding using Aspose.3D for .NET – your trusted companion in the world of 3D programming.
 ## Prerequisites
@@ -55,3 +61,10 @@ Seek guidance and assistance from the vibrant Aspose community at [Aspose.3D For
 Certainly! Grab your [free trial](https://releases.aspose.com/) to experience the prowess of Aspose.3D before making any commitments.
 ### Need a temporary license for a short-term project?
 Head to [Temporary License](https://purchase.aspose.com/temporary-license/) and acquire a temporary license tailored to your project's needs.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

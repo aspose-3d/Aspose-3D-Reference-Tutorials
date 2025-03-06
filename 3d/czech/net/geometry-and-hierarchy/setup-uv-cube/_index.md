@@ -3,10 +3,16 @@ title: Nastavení UV na Cube
 linktitle: Nastavení UV na Cube
 second_title: Aspose.3D .NET API
 description: Naučte se nastavit UV mapování na 3D krychli pomocí Aspose.3D pro .NET. Vytvářejte vizuálně úžasné scény s přesným mapováním textur.
-type: docs
 weight: 18
 url: /cs/net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení UV na Cube
+
 ## Úvod
 
 Vytváření podmanivých a vizuálně přitažlivých 3D scén často zahrnuje pečlivý proces nastavení UV mapování na geometrické tvary. V tomto tutoriálu prozkoumáme, jak nastavit UV na krychli pomocí Aspose.3D pro .NET. Aspose.3D je výkonná knihovna .NET, která poskytuje komplexní sadu funkcí pro 3D modelování a manipulaci.
@@ -119,3 +125,9 @@ A1: Aspose.3D for .NET je výkonná knihovna pro 3D modelování a manipulaci v 
 ### Q5: Jsou k dispozici dočasné licence?
 
  A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kết xuất
 linktitle: Kết xuất
 second_title: API Aspose.3D .NET
 description: Nâng cao kỹ năng kết xuất 3D của bạn với Aspose.3D cho .NET! Tạo bóng, tạo hình ảnh trực quan quyến rũ, áp dụng hiệu ứng thấu kính mắt cá, v.v.
-type: docs
 weight: 30
 url: /vi/net/rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết xuất
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng tham gia vào một cuộc hành trình thú vị vào lĩnh vực kết xuất 3D chưa? Đừng tìm đâu xa! Aspose.3D for .NET mở ra cánh cửa dẫn đến một thế giới khả năng, cho phép bạn thỏa sức sáng tạo và nâng cao kỹ năng của mình. Trong danh sách hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn một số khía cạnh hấp dẫn nhất của việc hiển thị bằng Aspose.3D cho .NET.
@@ -55,3 +61,9 @@ Nâng cao cảnh 3D của bạn với Aspose.3D cho .NET! Tìm hiểu cách áp 
 Tìm hiểu cách tạo chế độ xem toàn cảnh 3D tuyệt đẹp bằng Aspose.3D cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để hiển thị cảnh sống động.
 ### [Hiển thị cảnh thành Cubemap với sáu mặt](./render-scene-cubemap/)
 Tạo các sơ đồ khối tuyệt đẹp với Aspose.3D cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để hiển thị cảnh 3D thành sơ đồ khối sáu mặt quyến rũ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

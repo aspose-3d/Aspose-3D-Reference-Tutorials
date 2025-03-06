@@ -3,10 +3,16 @@ title: Pisahkan Jerat 3D berdasarkan Bahan untuk Pemrosesan yang Efisien di Java
 linktitle: Pisahkan Jerat 3D berdasarkan Bahan untuk Pemrosesan yang Efisien di Java
 second_title: Asumsikan.3D Java API
 description: Jelajahi kekuatan Aspose.3D di Java dengan panduan langkah demi langkah kami dalam memisahkan mesh 3D secara efisien berdasarkan material. Tingkatkan kinerja aplikasi Anda dengan lancar.
-type: docs
 weight: 12
 url: /id/java/3d-mesh-data/split-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pisahkan Jerat 3D berdasarkan Bahan untuk Pemrosesan yang Efisien di Java
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang pemisahan jerat 3D berdasarkan material untuk pemrosesan yang efisien di Java menggunakan Aspose.3D. Jika Anda terjun ke dunia grafis 3D dan membutuhkan perpustakaan Java yang kuat, Aspose.3D adalah solusi tepat Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses penanganan jerat 3D berdasarkan material secara efisien, mengoptimalkan aplikasi Java Anda untuk kinerja yang unggul.
@@ -104,3 +110,10 @@ A2: Tentu saja! Metode ini dapat diskalakan dengan baik untuk model 3D yang rumi
 ### Q5: Bagaimana saya bisa mendapatkan dukungan untuk masalah atau pertanyaan apa pun?
 
  A5: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) atas dukungan khusus dari komunitas.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

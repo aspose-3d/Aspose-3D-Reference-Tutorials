@@ -4,10 +4,16 @@ linktitle: استخدام الإزاحة الملتوية في البثق الخ
 second_title: Aspose.3D جافا API
 description: عزز مهاراتك في النمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. تعلم كيفية استخدام Twist Offset في Linear Extrusion في هذا البرنامج التعليمي الشامل.
 
-type: docs
 weight: 15
 url: /ar/java/linear-extrusion/using-twist-offset/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخدام الإزاحة الملتوية في البثق الخطي باستخدام Aspose.3D لـ Java
+
 ## مقدمة
 
 في العالم الديناميكي للرسومات ثلاثية الأبعاد، يعد إتقان فن البثق الخطي بمثابة تغيير جذري لقواعد اللعبة. باستخدام Aspose.3D for Java، يمكنك رفع مهاراتك في النمذجة ثلاثية الأبعاد من خلال دمج ميزة Twist Offset في عملية البثق الخطي. سيرشدك هذا البرنامج التعليمي خلال خطوات استخدام Twist Offset في Linear Extrusion باستخدام Aspose.3D لـ Java، مما يوفر لك الأدوات اللازمة لإنشاء مشاهد ثلاثية الأبعاد مذهلة.
@@ -113,3 +119,9 @@ scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### س5: هل هناك أمثلة ودروس إضافية متاحة؟
 
  ج5: نعم، راجع[توثيق](https://reference.aspose.com/3d/java/) لمزيد من الأمثلة والبرامج التعليمية المتعمقة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

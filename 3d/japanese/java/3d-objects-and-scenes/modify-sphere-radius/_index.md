@@ -3,10 +3,16 @@ title: Aspose.3D を使用して Java で 3D 球の半径を変更する
 linktitle: Aspose.3D を使用して Java で 3D 球の半径を変更する
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して Java 3D プログラミングを探索し、球の半径を簡単に変更します。今すぐダウンロードして、シームレスな 3D 開発エクスペリエンスを体験してください。
-type: docs
 weight: 10
 url: /ja/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D を使用して Java で 3D 球の半径を変更する
+
 ## 導入
 
 Aspose.3D for Java を使用して 3D 球体の半径を変更するためのステップバイステップ ガイドへようこそ。 Aspose.3D は、開発者が 3D ファイルを操作し、シームレスに操作できるようにする強力な Java ライブラリです。このチュートリアルでは、実際の例と詳細な説明を使用して、3D 球体の半径の変更に焦点を当てます。
@@ -103,3 +109,9 @@ scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ### Q5: Aspose.3D の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: にアクセスして仮免許を取得できます。[仮免許](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

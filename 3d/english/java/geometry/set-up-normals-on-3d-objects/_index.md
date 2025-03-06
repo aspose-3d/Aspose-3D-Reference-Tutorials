@@ -3,10 +3,16 @@ title: Set Up Normals on 3D Objects in Java with Aspose.3D
 linktitle: Set Up Normals on 3D Objects in Java with Aspose.3D
 second_title: Aspose.3D Java API
 description: Learn to set up normals on 3D objects in Java with Aspose.3D. Enhance your graphics with this comprehensive tutorial.
-type: docs
 weight: 17
 url: /java/geometry/set-up-normals-on-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Up Normals on 3D Objects in Java with Aspose.3D
+
 ## Introduction
 
 Welcome to our step-by-step guide on setting up normals on 3D objects in Java using Aspose.3D. Whether you're a seasoned developer or just starting with 3D graphics, understanding and manipulating normals is crucial for achieving realistic lighting effects in your 3D models. In this tutorial, we will walk you through the process, breaking it down into easy-to-follow steps.
@@ -91,3 +97,10 @@ A4: Temporary licenses can be obtained [here](https://purchase.aspose.com/tempor
 ### Q5: Need assistance or want to discuss with the community?
 
 A5: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

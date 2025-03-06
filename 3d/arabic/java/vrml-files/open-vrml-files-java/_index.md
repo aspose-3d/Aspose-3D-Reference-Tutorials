@@ -3,10 +3,16 @@ title: نمذجة Java ثلاثية الأبعاد باستخدام Aspose.3D - 
 linktitle: فتح ملفات VRML ومعالجتها في Java باستخدام Aspose.3D
 second_title: Aspose.3D جافا API
 description: أطلق العنان لسحر النمذجة ثلاثية الأبعاد في Java باستخدام Aspose.3D. فتح ومعالجة ملفات VRML بسلاسة. الغوص في عالم من الاحتمالات لا حدود لها!
-type: docs
 weight: 10
 url: /ar/java/vrml-files/open-vrml-files-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# نمذجة Java ثلاثية الأبعاد باستخدام Aspose.3D - استكشاف VRML
+
 ## مقدمة
 مرحبًا بك في عالم النمذجة ثلاثية الأبعاد المثير في Java! في هذا الدليل الشامل، سوف نتعمق في عالم لغة نمذجة الواقع الافتراضي (VRML) الرائع باستخدام Aspose.3D لـ Java. سواء كنت مطورًا متمرسًا أو متحمسًا للفضول، فإن هذا البرنامج التعليمي خطوة بخطوة سيمكنك من فتح ملفات VRML ومعالجتها دون عناء.
 ## المتطلبات الأساسية
@@ -61,3 +67,9 @@ scene.open(MyDir + "test.wrl");
  للحصول على خيارات الترخيص المؤقت، توجه إلى[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/).
 ### 5. أين يمكنني شراء Aspose.3D لـ Java؟
  لفتح الإمكانات الكاملة، يمكنك شراء Aspose.3D لـ Java[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

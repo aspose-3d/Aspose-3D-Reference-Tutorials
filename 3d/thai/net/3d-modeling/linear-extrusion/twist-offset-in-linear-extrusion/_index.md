@@ -3,10 +3,16 @@ title: Twist Offset ในการอัดขึ้นรูปเชิงเ
 linktitle: Twist Offset ในการอัดขึ้นรูปเชิงเส้น
 second_title: Aspose.3D .NET API
 description: สำรวจความมหัศจรรย์ของ Aspose.3D สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนเกี่ยวกับ Twist Offset ใน Linear Extrusion ยกระดับโครงการ 3D ของคุณได้อย่างง่ายดาย
-type: docs
 weight: 15
 url: /th/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Twist Offset ในการอัดขึ้นรูปเชิงเส้น
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกของ Aspose.3D สำหรับ .NET ไลบรารีอเนกประสงค์ที่ช่วยให้นักพัฒนาสามารถจัดการกับการปรับแต่ง 3D ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะเจาะลึกถึงหนึ่งในคุณสมบัติที่น่าสนใจ นั่นก็คือ "Twist Offset ในการอัดขึ้นรูปเชิงเส้น" หากคุณพร้อมที่จะยกระดับทักษะการเขียนโปรแกรม 3D มาเริ่มกันเลย!
@@ -112,3 +118,9 @@ scene.Save("Your Output Directory" + "TwistOffsetInLinearExtrusion.obj", FileFor
 ### คำถามที่ 5: ฉันจะซื้อ Aspose.3D สำหรับ .NET ได้ที่ไหน
 
  A5: มุ่งหน้าสู่[ลิงค์นี้](https://purchase.aspose.com/buy) เพื่อซื้อและปลดล็อคศักยภาพเต็มรูปแบบของ Aspose.3D
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

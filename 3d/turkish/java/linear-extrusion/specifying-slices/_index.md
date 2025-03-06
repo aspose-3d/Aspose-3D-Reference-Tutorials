@@ -3,10 +3,16 @@ title: Aspose.3D for Java ile Doğrusal Ekstrüzyonda Dilimleri Belirleme
 linktitle: Aspose.3D for Java ile Doğrusal Ekstrüzyonda Dilimleri Belirleme
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java'yı kullanarak doğrusal ekstrüzyonda dilimleri belirtmeyi öğrenin. Bu adım adım kılavuzla 3D modelleme becerilerinizi geliştirin.
-type: docs
 weight: 13
 url: /tr/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java ile Doğrusal Ekstrüzyonda Dilimleri Belirleme
+
 ## giriiş
 
 Karmaşık 3D modeller oluşturmak çoğu zaman yaratıcılıktan fazlasını gerektirir; elinizdeki araçların tam olarak anlaşılmasını gerektirir. Aspose.3D for Java bu açıdan ezber bozan bir yazılımdır. Bu öğreticide belirli bir hususa odaklanacağız: doğrusal ekstrüzyonda dilimleri belirleme.
@@ -93,3 +99,9 @@ Tebrikler! Aspose.3D for Java'yı kullanarak doğrusal ekstrüzyonda dilimleri n
 ### S5: Geçici bir lisans satın alabilir miyim?
 
  Cevap5: Evet, geçici lisans alınabilir[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

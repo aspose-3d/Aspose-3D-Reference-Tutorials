@@ -3,10 +3,16 @@ title: Eigenschappen animeren om te documenteren in 3D-scènes
 linktitle: Eigenschappen animeren om te documenteren in 3D-scènes
 second_title: Aspose.3D .NET-API
 description: Leer 3D-eigenschappen animeren met Aspose.3D voor .NET. Stapsgewijze handleiding voor het creëren van dynamische scènes.
-type: docs
 weight: 10
 url: /nl/net/animation/property-to-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eigenschappen animeren om te documenteren in 3D-scènes
+
 ## Invoering
 
 Als je je verdiept in het maken en animeren van 3D-scènes in .NET, is Aspose.3D je favoriete toolkit. In deze stapsgewijze handleiding verkennen we het proces van het animeren van eigenschappen in 3D-scènes met Aspose.3D voor .NET. Aan het einde beschikt u over de kennis om uw 3D-projecten tot leven te brengen.
@@ -128,3 +134,9 @@ Gefeliciteerd! Je hebt zojuist de kunst van het animeren van eigenschappen in 3D
 ### Vraag 5: Kan ik een tijdelijke licentie verkrijgen?
 
  A5: Ja, u kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

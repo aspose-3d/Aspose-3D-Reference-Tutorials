@@ -3,10 +3,16 @@ title: Java에서 효율적인 처리를 위해 재료별로 3D 메시 분할
 linktitle: Java에서 효율적인 처리를 위해 재료별로 3D 메시 분할
 second_title: Aspose.3D 자바 API
 description: 3D 메시를 재료별로 효율적으로 분할하는 방법에 대한 단계별 가이드를 통해 Java에서 Aspose.3D의 강력한 기능을 살펴보세요. 애플리케이션의 성능을 원활하게 향상시키세요.
-type: docs
 weight: 12
 url: /ko/java/3d-mesh-data/split-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 효율적인 처리를 위해 재료별로 3D 메시 분할
+
 ## 소개
 
 Aspose.3D를 사용하여 Java에서 효율적인 처리를 위해 3D 메시를 재료별로 분할하는 포괄적인 튜토리얼에 오신 것을 환영합니다. 3D 그래픽의 세계에 뛰어들고 강력한 Java 라이브러리가 필요한 경우 Aspose.3D가 가장 적합한 솔루션입니다. 이 튜토리얼에서는 재료별로 3D 메시를 효율적으로 처리하고 우수한 성능을 위해 Java 애플리케이션을 최적화하는 프로세스를 안내합니다.
@@ -104,3 +110,10 @@ A2: 물론이죠! 이 방법은 복잡한 3D 모델에 적합하며 재료별 �
 ### Q5: 문제나 쿼리에 대한 지원을 어떻게 받을 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역 사회의 전담 지원을 위해.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

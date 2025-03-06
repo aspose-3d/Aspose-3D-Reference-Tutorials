@@ -3,10 +3,16 @@ title: Membuang Tekstur Tersemat
 linktitle: Membuang Tekstur Tersemat
 second_title: Aspose.3D .NET API
 description: Buka rahasia tekstur yang disematkan dalam model 3D dengan Aspose.3D untuk .NET. Pelajari panduan langkah demi langkah kami untuk integrasi yang lancar. Unduh uji coba gratis Anda sekarang!
-type: docs
 weight: 11
 url: /id/net/materials/dump-embedded-textures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuang Tekstur Tersemat
+
 ## Perkenalan
 Selamat datang di dunia Aspose.3D untuk .NET – perangkat canggih yang memberdayakan pengembang untuk memanipulasi dan bekerja dengan file 3D dengan lancar. Dalam tutorial komprehensif ini, kita akan mempelajari dunia menarik membuang tekstur yang tertanam menggunakan Aspose.3D. Jika Anda ingin menyempurnakan aplikasi 3D Anda dengan membuka potensi tekstur yang tertanam, Anda berada di tempat yang tepat.
 ## Prasyarat
@@ -71,3 +77,9 @@ J: Aspose.3D terutama mendukung bahasa .NET, namun Anda dapat menjelajahi wrappe
  A: Ya, lisensi sementara tersedia[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya dapat menemukan dokumentasi komprehensif untuk Aspose.3D?
  J: Dokumentasinya dapat diakses[Di Sini](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Extrahieren von rohen 3D-Inhalten aus PDF
 linktitle: Extrahieren von rohen 3D-Inhalten aus PDF
 second_title: Aspose.3D .NET API
 description: Erfahren Sie, wie Sie mit Aspose.3D für .NET 3D-Inhalte aus PDF extrahieren. Schritt-für-Schritt-Anleitung mit Codebeispielen.
-type: docs
 weight: 14
 url: /de/net/loading-and-saving/pdf/extract-raw-3d-contents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extrahieren von rohen 3D-Inhalten aus PDF
+
 ## Einführung
 
 Willkommen zu dieser umfassenden Anleitung zum Extrahieren von rohen 3D-Inhalten aus PDF mit Aspose.3D für .NET. Aspose.3D ist eine leistungsstarke und vielseitige API, die es Entwicklern ermöglicht, mühelos mit 3D-Dateien zu arbeiten. In diesem Tutorial konzentrieren wir uns auf den Prozess des Extrahierens roher 3D-Inhalte aus PDF-Dateien und geben Ihnen eine Schritt-für-Schritt-Anleitung.
@@ -90,3 +96,9 @@ A1: Ja, Aspose.3D unterstützt eine Vielzahl von 3D-Dateiformaten und ist somit 
 ### F5: Gibt es Dokumentation für Aspose.3D?
 
  A5: Ja, die Dokumentation kann gefunden werden[Hier](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

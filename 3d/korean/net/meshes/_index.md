@@ -3,10 +3,16 @@ title: 메쉬
 linktitle: 메쉬
 second_title: Aspose.3D .NET API
 description: 포괄적인 튜토리얼을 통해 .NET용 Aspose.3D의 비밀을 풀어보세요. 손쉽게 3D 모델을 최적화하고, 기본 요소를 메시로 변환하고, 그래픽을 향상하세요.
-type: docs
 weight: 26
 url: /ko/net/meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 메쉬
+
 ## 소개
 
 .NET용 Aspose.3D는 3D 메시의 복잡성을 탐구하려는 개발자에게 가능성의 세계를 열어줍니다. 이 기사에서는 .NET용 Aspose.3D의 잠재력을 최대한 활용하는 데 대한 고유한 관점을 제공하는 다양한 메시 튜토리얼을 안내합니다.
@@ -69,3 +75,9 @@ Aspose.3D는 메쉬에 대한 텍스처 좌표 생성을 용이하게 하여 시
 [튜토리얼 읽기: 재료별로 메시 분할](./split-mesh-by-material/)
 
 결론적으로, .NET용 Aspose.3D 튜토리얼은 3D 모델링의 다양한 측면을 마스터하기 위한 포괄적인 가이드를 제공합니다. 뛰어들어 기술을 강화하고 3D 개발 게임을 향상시키세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

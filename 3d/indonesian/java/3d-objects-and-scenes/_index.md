@@ -3,10 +3,16 @@ title: Memanipulasi Objek dan Pemandangan 3D di Java
 linktitle: Memanipulasi Objek dan Pemandangan 3D di Java
 second_title: Asumsikan.3D Java API
 description: Buka dunia pemrograman Java 3D dengan tutorial Aspose.3D. Pelajari cara mengubah radius bola dan menerapkan kueri mirip XPath dengan mudah untuk pengembangan 3D yang lancar.
-type: docs
 weight: 33
 url: /id/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memanipulasi Objek dan Pemandangan 3D di Java
+
 ## Perkenalan
 
 Pemrograman Java 3D menjadi perjalanan yang menawan dengan tutorial Aspose.3D, dengan fokus pada manipulasi objek dan pemandangan 3D. Pada artikel ini, kita akan mempelajari dua tutorial penting yang menjanjikan untuk meningkatkan keterampilan pengembangan 3D Anda.
@@ -27,3 +33,9 @@ Kesimpulannya, tutorial ini bertindak sebagai pintu gerbang Anda untuk menguasai
 Jelajahi pemrograman Java 3D dengan Aspose.3D, memodifikasi radius bola dengan mudah. Unduh sekarang untuk pengalaman pengembangan 3D yang lancar.
 ### [Terapkan Kueri Seperti XPath ke Objek 3D di Java](./xpath-like-object-queries/)
 Kuasai kueri objek 3D di Java dengan mudah menggunakan Aspose.3D. Terapkan kueri mirip XPath, manipulasi adegan, dan tingkatkan pengembangan 3D Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

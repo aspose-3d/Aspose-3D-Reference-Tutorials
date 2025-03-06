@@ -3,10 +3,16 @@ title: Cilindro inferiore a taglio personalizzato
 linktitle: Cilindro inferiore a taglio personalizzato
 second_title: API Aspose.3D .NET
 description: Impara a creare cilindri con fondo di taglio personalizzati utilizzando Aspose.3D per .NET con la nostra guida dettagliata passo passo. Migliora le tue capacità di modellazione 3D oggi!
-type: docs
 weight: 12
 url: /it/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cilindro inferiore a taglio personalizzato
+
 ## introduzione
 Benvenuti nella nostra guida completa sulla creazione di un cilindro personalizzato utilizzando Aspose.3D per .NET. Se stai cercando di migliorare le tue capacità di modellazione 3D e aggiungere funzionalità uniche ai tuoi progetti, sei nel posto giusto. In questo tutorial ti guideremo attraverso il processo passo dopo passo, utilizzando spiegazioni chiare e frammenti di codice.
 ## Prerequisiti
@@ -83,3 +89,9 @@ Sì, puoi personalizzare singolarmente il fondo di taglio per ogni cilindro, per
  Visitare il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per il supporto e le discussioni della comunità.
 ### Come posso ottenere una licenza temporanea?
  Ottieni la tua licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

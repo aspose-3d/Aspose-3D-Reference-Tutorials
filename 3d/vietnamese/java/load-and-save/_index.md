@@ -3,10 +3,16 @@ title: Làm việc với tệp 3D trong Java - Tạo, tải, lưu và chuyển �
 linktitle: Làm việc với tệp 3D trong Java - Tạo, tải, lưu và chuyển đổi
 second_title: API Java Aspose.3D
 description: Dễ dàng làm chủ thao tác tệp 3D trong Java với các hướng dẫn Aspose.3D. Tạo, tải, lưu và chuyển đổi tệp 3D một cách dễ dàng bằng cách sử dụng hướng dẫn từng bước.
-type: docs
 weight: 30
 url: /vi/java/load-and-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với tệp 3D trong Java - Tạo, tải, lưu và chuyển đổi
+
 
 ## Giới thiệu
 
@@ -56,3 +62,9 @@ Khám phá thế giới đồ họa 3D với Aspose.3D cho Java. Dễ dàng đ�
 Khám phá thế giới liền mạch của thao tác cảnh 3D trong Java với Aspose.3D. Tìm hiểu cách lưu cảnh ở nhiều định dạng khác nhau một cách dễ dàng.
 ### [Tối ưu hóa việc lưu tệp 3D trong Java với Aspose.3D SaveOptions](./optimize-3d-file-saving/)
 Tìm hiểu cách tối ưu hóa việc lưu tệp 3D trong Java với Aspose.3D SaveOptions. Nâng cao hiệu suất và tùy chỉnh đầu ra một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

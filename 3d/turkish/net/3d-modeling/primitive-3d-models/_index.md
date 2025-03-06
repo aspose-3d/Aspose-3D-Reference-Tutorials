@@ -3,10 +3,16 @@ title: İlkel 3D Modeller Oluşturma
 linktitle: İlkel 3D Modeller Oluşturma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D modelleme dünyasını keşfedin. Çarpıcı ilkel modelleri zahmetsizce yaratın.
-type: docs
 weight: 10
 url: /tr/net/3d-modeling/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# İlkel 3D Modeller Oluşturma
+
 ## giriiş
 
 Aspose.3D for .NET ile 3D modellemenin heyecan verici dünyasına hoş geldiniz! Bu kapsamlı eğitimde Aspose.3D'yi kullanarak ilkel 3D modeller oluşturma sürecini adım adım inceleyeceğiz. İster deneyimli bir geliştirici olun ister meraklı bir başlangıç seviyesinde olun, bu kılavuz Aspose.3D'nin gücünden yararlanarak projeleriniz için görsel açıdan etkileyici 3D öğeler oluşturmanıza yardımcı olacaktır.
@@ -108,3 +114,9 @@ Cevap1: Aspose.3D öncelikle .NET'i destekler ancak Java ve diğer platformlar i
 ### S5: Herhangi bir örnek eğitim mevcut mu?
 
  A5: Evet, daha fazla öğreticiyi ve örneği keşfedin[dokümantasyon](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

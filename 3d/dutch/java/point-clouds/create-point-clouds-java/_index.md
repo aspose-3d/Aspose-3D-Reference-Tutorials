@@ -3,10 +3,16 @@ title: Maak puntenwolken van meshes in Java
 linktitle: Maak puntenwolken van meshes in Java
 second_title: Aspose.3D Java-API
 description: Ontdek de wereld van 3D-modellering in Java met Aspose.3D. Leer moeiteloos puntenwolken maken uit meshes.
-type: docs
 weight: 12
 url: /nl/java/point-clouds/create-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak puntenwolken van meshes in Java
+
 ## Invoering
 
 Welkom bij deze uitgebreide tutorial over het maken van puntenwolken uit meshes in Java met behulp van Aspose.3D. Aspose.3D is een krachtige Java-bibliotheek die uitgebreide functionaliteiten biedt voor 3D-modellering en -manipulatie. In deze tutorial begeleiden we u door het proces van het genereren van puntenwolken uit meshes, met duidelijke en gedetailleerde stappen voor een naadloze ervaring.
@@ -83,3 +89,9 @@ Gefeliciteerd! Je hebt met succes geleerd hoe je puntenwolken kunt maken van mes
 ### Vraag 5: Waar kan ik de documentatie vinden?
 
  A5: Raadpleeg de[documentatie](https://reference.aspose.com/3d/java/) voor gedetailleerde informatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

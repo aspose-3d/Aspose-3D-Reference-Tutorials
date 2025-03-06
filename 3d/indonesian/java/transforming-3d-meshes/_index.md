@@ -3,10 +3,16 @@ title: Membuat dan Mengubah Jerat 3D di Java
 linktitle: Membuat dan Mengubah Jerat 3D di Java
 second_title: Asumsikan.3D Java API
 description: Buka potensi grafis 3D dengan Aspose.3D untuk Java. Membuat, mengubah, dan mengoptimalkan mesh dengan mudah. Tingkatkan pengalaman coding Anda dengan tutorial kami.
-type: docs
 weight: 31
 url: /id/java/transforming-3d-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat dan Mengubah Jerat 3D di Java
+
 
 ## Perkenalan
 
@@ -42,3 +48,9 @@ Sempurnakan grafis 3D Anda dengan Aspose.3D untuk Java. Hasilkan data tangen dan
 Mulailah perjalanan menuju penguasaan grafis 3D dengan Aspose.3D untuk Java - ubah primitif menjadi jerat yang memukau dengan mudah. Tingkatkan pengalaman coding Anda sekarang!
 ### [Sesuaikan Tata Letak Memori untuk Jerat 3D di Java](./customize-mesh-memory-layout/)
 Tingkatkan pemodelan Java 3D Anda dengan Aspose.3D: sesuaikan tata letak memori untuk kinerja optimal. Ikuti panduan langkah demi langkah kami sekarang!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

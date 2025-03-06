@@ -3,10 +3,16 @@ title: Mesh decoderen
 linktitle: Mesh decoderen
 second_title: Aspose.3D .NET-API
 description: Decodeer meshes moeiteloos met Aspose.3D voor .NET. Uw toegangspoort tot naadloze 3D-programmering. Ontdek, pas uw projecten aan en verbeter ze.
-type: docs
 weight: 10
 url: /nl/net/loading-and-saving/draco/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mesh decoderen
+
 ## Invoering
 Stel je dit voor: je bevindt je in het rijk van 3D-ontwikkeling en streeft ernaar ingewikkelde mesh-structuren te decoderen. De uitdaging is reëel, maar vrees niet! Terwijl we aan deze reis beginnen, navigeren we door het doolhof van mesh-decodering met behulp van Aspose.3D voor .NET – uw vertrouwde metgezel in de wereld van 3D-programmeren.
 ## Vereisten
@@ -55,3 +61,9 @@ Absoluut! Aspose.3D ondersteunt een breed scala aan mesh-formaten, waardoor comp
  Zeker! Grijp uw[gratis proefperiode](https://releases.aspose.com/) om de bekwaamheid van Aspose.3D te ervaren voordat u enige toezeggingen doet.
 ### Tijdelijke licentie nodig voor een kortlopend project?
  Ga naar[Tijdelijke licentie](https://purchase.aspose.com/temporary-license/) en verkrijg een tijdelijke licentie die is afgestemd op de behoeften van uw project.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

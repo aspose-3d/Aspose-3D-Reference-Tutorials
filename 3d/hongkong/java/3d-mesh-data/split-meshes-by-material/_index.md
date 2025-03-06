@@ -3,10 +3,16 @@ title: 依材料分割 3D 網格以在 Java 中進行高效處理
 linktitle: 依材料分割 3D 網格以在 Java 中進行高效處理
 second_title: Aspose.3D Java API
 description: 透過我們關於以材質有效分割 3D 網格的逐步指南，探索 Java 中 Aspose.3D 的強大功能。無縫增強應用程式的效能。
-type: docs
 weight: 12
 url: /zh-hant/java/3d-mesh-data/split-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 依材料分割 3D 網格以在 Java 中進行高效處理
+
 ## 介紹
 
 歡迎閱讀這個關於按材料分割 3D 網格以便使用 Aspose.3D 在 Java 中進行高效處理的綜合教程。如果您正在深入 3D 圖形世界並需要強大的 Java 程式庫，Aspose.3D 是您的首選解決方案。在本教程中，我們將引導您完成按材質高效處理 3D 網格、優化 Java 應用程式以獲得卓越效能的過程。
@@ -104,3 +110,10 @@ A2：當然！該方法可以很好地適應複雜的 3D 模型，以特定於�
 ### Q5：如果有任何問題或疑問，我該如何獲得支援？
 
  A5：訪問[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)以感謝社會各界的鼎力支持。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

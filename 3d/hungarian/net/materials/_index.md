@@ -3,10 +3,16 @@ title: Anyagok
 linktitle: Anyagok
 second_title: Aspose.3D .NET API
 description: Fedezze fel a magával ragadó 3D jelenetek világát az Aspose.3D for .NET oktatóanyaggal. Tanulj meg lenyűgöző jeleneteket létrehozni, és könnyedén fedezd fel a beágyazott textúrákat.
-type: docs
 weight: 28
 url: /hu/net/materials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anyagok
+
 ## Bevezetés
 
 Készen állsz egy utazásra a 3D tervezés és vizualizáció izgalmas birodalmába? Az Aspose.3D for .NET megnyitja az ajtót egy olyan világ felé, ahol a kreativitás nem ismer határokat. Ebben a cikkben végigvezetjük Önt egy sor oktatóanyagon, amelyek mindegyike feltárja ennek a nagy teljesítményű .NET-könyvtárnak egy-egy új oldalát.
@@ -31,3 +37,9 @@ Használja ki az Aspose.3D-ben rejlő lehetőségeket a .NET számára még ma. 
 Hozzon létre lenyűgöző 3D-s jeleneteket beágyazott textúrákkal az Aspose.3D for .NET segítségével. Kövesse lépésről lépésre útmutatónkat a lenyűgöző eredményekért.
 ### [Beágyazott textúrák dömpingje](./dump-embedded-textures/)
 Fedezze fel a beágyazott textúrák titkait a 3D modellekben az Aspose.3D for .NET segítségével. Merüljön el lépésről lépésre útmutatónkban a zökkenőmentes integráció érdekében. Töltse le ingyenes próbaverzióját most!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

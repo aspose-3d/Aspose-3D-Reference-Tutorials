@@ -3,10 +3,16 @@ title: Encodage du maillage au format PLY
 linktitle: Encodage du maillage au format PLY
 second_title: API Aspose.3D .NET
 description: Explorez le monde de la programmation 3D avec Aspose.3D pour .NET. Apprenez à encoder des maillages au format PLY sans effort. Élevez votre jeu de développement !
-type: docs
 weight: 13
 url: /fr/net/loading-and-saving/ply/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Encodage du maillage au format PLY
+
 ## Introduction
 Se lancer dans un voyage dans le domaine de la programmation 3D peut être à la fois passionnant et intimidant. En tant que développeur, vous aurez peut-être envie d’explorer les possibilités offertes par les graphiques 3D. Dans ce didacticiel, nous allons plonger dans le processus fascinant d'encodage d'un maillage au format PLY à l'aide d'Aspose.3D pour .NET.
 ## Conditions préalables
@@ -56,3 +62,9 @@ Absolument! Aspose.3D prend en charge l'encodage d'une variété de formes 3D, v
  Visitez le forum Aspose.3D[ici](https://forum.aspose.com/c/3d/18) pour entrer en contact avec la communauté et demander de l'aide.
 ### 5. Existe-t-il un essai gratuit disponible pour Aspose.3D ?
  Certainement! Explorez les capacités d'Aspose.3D avec un essai gratuit[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

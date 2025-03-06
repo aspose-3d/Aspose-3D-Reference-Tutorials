@@ -3,10 +3,16 @@ title: 큐브에 재료 적용
 linktitle: 큐브에 재료 적용
 second_title: Aspose.3D .NET API
 description: 원활한 3D 그래픽 조작을 위한 게이트웨이인 .NET용 Aspose.3D를 살펴보세요. 손쉽게 재료를 적용하고 현실감을 높이며 프로젝트를 향상시켜 보세요.
-type: docs
 weight: 14
 url: /ko/net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 큐브에 재료 적용
+
 ## 소개
 
 .NET용 Aspose.3D를 사용하여 3D 그래픽 조작의 매혹적인 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 3D 장면의 큐브에 재료를 적용하여 창작물에 완전히 새로운 수준의 현실감과 시각적 매력을 추가하는 과정을 자세히 살펴보겠습니다.
@@ -136,3 +142,9 @@ A3: 예, Aspose.3D는 3D 장면에서 애니메이션을 생성하고 조작하�
 ### Q5: 문제나 쿼리에 대한 지원을 어떻게 받을 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역사회와 연결하고 도움을 구합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

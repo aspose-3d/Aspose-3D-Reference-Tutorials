@@ -3,10 +3,16 @@ title: العمل مع ملفات VRML في جافا
 linktitle: العمل مع ملفات VRML في جافا
 second_title: Aspose.3D جافا API
 description: أطلق العنان لسحر النمذجة ثلاثية الأبعاد في Java باستخدام Aspose.3D. فتح ومعالجة ملفات VRML بسلاسة. الغوص في عالم من الاحتمالات لا حدود لها!
-type: docs
 weight: 26
 url: /ar/java/vrml-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع ملفات VRML في جافا
+
 ## مقدمة
 
  مرحبًا بك في عالم النمذجة ثلاثية الأبعاد في Java! هذه السلسلة التعليمية[العمل مع ملفات VRML في جافا](./open-vrml-files-java/)المدعوم من Aspose.3D، هو بوابتك لإطلاق العنان للإمكانات الكاملة للرسومات ثلاثية الأبعاد في تطبيقات Java.
@@ -30,3 +36,9 @@ url: /ar/java/vrml-files/
 ## العمل مع ملفات VRML في دروس جافا
 ### [فتح ملفات VRML ومعالجتها في Java باستخدام Aspose.3D](./open-vrml-files-java/)
 أطلق العنان لسحر النمذجة ثلاثية الأبعاد في Java باستخدام Aspose.3D. فتح ومعالجة ملفات VRML بسلاسة. الغوص في عالم من الاحتمالات لا حدود لها!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mengubah Orientasi Bidang dalam Pemandangan 3D
 linktitle: Mengubah Orientasi Bidang dalam Pemandangan 3D
 second_title: Aspose.3D .NET API
 description: Jelajahi Aspose.3D untuk .NET dan kuasai perubahan orientasi bidang dalam adegan 3D. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 10
 url: /id/net/3d-modeling/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengubah Orientasi Bidang dalam Pemandangan 3D
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang mengubah orientasi bidang dalam adegan 3D menggunakan Aspose.3D untuk .NET! Jika Anda seorang pengembang atau penggemar 3D yang ingin meningkatkan keterampilan Anda, Anda berada di tempat yang tepat. Dalam tutorial ini, kita akan mempelajari prosesnya langkah demi langkah, menggunakan contoh yang jelas dan penjelasan mendetail. Pada akhirnya, Anda akan memiliki pemahaman yang kuat tentang cara memanipulasi orientasi bidang dalam proyek 3D Anda.
@@ -95,3 +101,9 @@ A1: Aspose.3D dapat bekerja secara lancar dengan pustaka 3D populer lainnya, mem
 ### Q5: Di mana saya dapat menemukan dokumentasi terperinci?
 
  A5: Lihat dokumentasi[Di Sini](https://reference.aspose.com/3d/net/) untuk informasi mendalam.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

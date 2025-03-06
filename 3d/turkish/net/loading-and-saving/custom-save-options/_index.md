@@ -3,10 +3,16 @@ title: Özel Kaydetme Seçenekleri
 linktitle: Özel Kaydetme Seçenekleri
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'in gücünü keşfedin. Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC ve RVM formatlarındaki adım adım kılavuzlarla 3D sahne kaydetmenizi nasıl özelleştireceğinizi öğrenin.
-type: docs
 weight: 21
 url: /tr/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Özel Kaydetme Seçenekleri
+
 ## giriiş
 
 .NET için Aspose.3D dünyasına hoş geldiniz! 3D geliştirme yeteneklerinizi geliştirmek istiyorsanız doğru yerdesiniz. Bu eğitimde, özellikle Özel Kaydetme Seçeneklerine odaklanarak Yükleme ve Kaydetme işlevlerini ayrıntılı olarak ele alacağız. Aspose.3D for .NET, geliştiricilerin 3D sahneleri verimli bir şekilde işlemesine ve kaydetmesine olanak tanıyan güçlü bir kitaplıktır.
@@ -131,3 +137,9 @@ C1: Evet, Aspose.3D çeşitli .NET çerçeveleriyle uyumludur ve geliştirme ort
 ### S5: Aspose.3D için nasıl geçici lisans alabilirim?
 
  Cevap5: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

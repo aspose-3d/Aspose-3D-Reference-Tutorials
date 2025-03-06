@@ -3,10 +3,16 @@ title: Transformando Nó por Quaternion
 linktitle: Transformando Nó por Quaternion
 second_title: API Aspose.3D .NET
 description: Aprenda a transformar nós 3D com quaternions usando Aspose.3D for .NET. Guia passo a passo para iniciantes.
-type: docs
 weight: 20
 url: /pt/net/geometry-and-hierarchy/transformation-node-quaternion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformando Nó por Quaternion
+
 ## Introdução
 
 Bem-vindo a um guia passo a passo sobre como transformar um nó por quaternion em cenas 3D usando Aspose.3D para .NET. Neste tutorial, exploraremos os poderosos recursos do Aspose.3D para .NET e percorreremos o processo de adição de transformações a um nó 3D usando quaternions.
@@ -121,3 +127,10 @@ A1: Quaternions são entidades matemáticas usadas para representar rotações n
 ### Q5: Como obtenho uma licença temporária para Aspose.3D?
 
  A5: Obtenha uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

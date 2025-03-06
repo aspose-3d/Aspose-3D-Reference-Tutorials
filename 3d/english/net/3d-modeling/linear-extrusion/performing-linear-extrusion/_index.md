@@ -3,10 +3,16 @@ title: Performing Linear Extrusion
 linktitle: Performing Linear Extrusion
 second_title: Aspose.3D .NET API
 description: Explore the world of 3D graphics with Aspose.3D for .NET. Performing Linear Extrusion in this step-by-step guide.
-type: docs
 weight: 12
 url: /net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Performing Linear Extrusion
+
 ## Introduction:
 
 Embark on a thrilling journey into the realm of 3D graphics with Aspose.3D for .NET, a powerhouse that elevates your development game. In this tutorial, we will delve into the intricacies of Linear Extrusion – a fascinating technique that breathes life into static 2D profiles, propelling them into the dynamic world of 3D. Let’s unlock the door to creativity and innovation using Aspose.3D!
@@ -106,3 +112,10 @@ A4: Join the [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) to connect with
 ### Q5: Is there a free trial available?
 
 A5: Certainly! Download the free trial version [here](https://releases.aspose.com/) to experience Aspose.3D's capabilities firsthand.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

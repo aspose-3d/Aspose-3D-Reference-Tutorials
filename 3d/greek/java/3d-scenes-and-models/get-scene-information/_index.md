@@ -3,10 +3,16 @@ title: Ανάκτηση πληροφοριών από τρισδιάστατες
 linktitle: Ανάκτηση πληροφοριών από τρισδιάστατες σκηνές σε εφαρμογές Java
 second_title: Aspose.3D Java API
 description: Εξερευνήστε τον κόσμο της επεξεργασίας τρισδιάστατων σκηνών σε Java με το Aspose.3D. Αυτό το σεμινάριο σάς καθοδηγεί στην ανάκτηση πληροφοριών βήμα προς βήμα.
-type: docs
 weight: 12
 url: /el/java/3d-scenes-and-models/get-scene-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ανάκτηση πληροφοριών από τρισδιάστατες σκηνές σε εφαρμογές Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτόν τον περιεκτικό οδηγό για την ανάκτηση πληροφοριών από σκηνές 3D σε εφαρμογές Java χρησιμοποιώντας το Aspose.3D. Εάν είστε προγραμματιστής Java που θέλει να βελτιώσει τις δυνατότητες της εφαρμογής σας με τρισδιάστατη επεξεργασία σκηνής, βρίσκεστε στο σωστό μέρος. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία βήμα προς βήμα, διασφαλίζοντας ότι κατανοείτε κάθε έννοια πλήρως.
@@ -99,3 +105,9 @@ A1: Ναι, το Aspose.3D έχει σχεδιαστεί για να λειτο�
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.3D;
 
  A5: Λάβετε μια προσωρινή άδεια για σκοπούς δοκιμής[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 揭示幾何變換
 linktitle: 揭示幾何變換
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D 探索 .NET 中 3D 圖形的無限可能性。輕鬆揭示幾何變換。
-type: docs
 weight: 13
 url: /zh-hant/net/geometry-and-hierarchy/expose-geometric-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 揭示幾何變換
+
 ## 介紹
 
 歡迎來到 Aspose.3D for .NET 的令人興奮的世界！在本教程中，我們將深入研究使用 Aspose.3D 在 3D 場景中展示幾何變換的複雜性。如果您是一位渴望增強 3D 圖形功能的 .NET 開發人員，那麼您來對地方了。
@@ -98,3 +104,9 @@ A1：Aspose.3D 與各種 .NET 框架相容，確保靈活性以及與各種專�
 ### Q5：如何購買 Aspose.3D for .NET？
 
  A5：要購買 Aspose.3D for .NET，請訪問[購買頁面](https://purchase.aspose.com/buy)在 Aspose 網站上。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

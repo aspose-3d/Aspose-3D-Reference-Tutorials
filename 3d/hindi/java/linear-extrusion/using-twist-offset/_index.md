@@ -4,10 +4,16 @@ linktitle: जावा के लिए Aspose.3D के साथ लीनि
 second_title: Aspose.3D जावा एपीआई
 description: जावा के लिए Aspose.3D के साथ अपने 3D मॉडलिंग कौशल को बढ़ाएं। इस व्यापक ट्यूटोरियल में लीनियर एक्सट्रूज़न में ट्विस्ट ऑफ़सेट का उपयोग करना सीखें।
 
-type: docs
 weight: 15
 url: /hi/java/linear-extrusion/using-twist-offset/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.3D के साथ लीनियर एक्सट्रूज़न में ट्विस्ट ऑफ़सेट का उपयोग करना
+
 ## परिचय
 
 3डी ग्राफिक्स की गतिशील दुनिया में, लीनियर एक्सट्रूज़न की कला में महारत हासिल करना एक गेम-चेंजर है। जावा के लिए Aspose.3D के साथ, आप अपनी लीनियर एक्सट्रूज़न प्रक्रिया में ट्विस्ट ऑफ़सेट सुविधा को शामिल करके अपने 3D मॉडलिंग कौशल को बढ़ा सकते हैं। यह ट्यूटोरियल आपको जावा के लिए Aspose.3D का उपयोग करके लीनियर एक्सट्रूज़न में ट्विस्ट ऑफ़सेट का उपयोग करने के चरणों के माध्यम से मार्गदर्शन करेगा, जो आपको आश्चर्यजनक 3D दृश्य बनाने के लिए उपकरण प्रदान करेगा।
@@ -113,3 +119,9 @@ scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### Q5: क्या अतिरिक्त उदाहरण और ट्यूटोरियल उपलब्ध हैं?
 
  A5: हाँ, देखें[प्रलेखन](https://reference.aspose.com/3d/java/) अधिक उदाहरणों और गहन ट्यूटोरियल के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

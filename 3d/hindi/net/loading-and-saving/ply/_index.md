@@ -3,10 +3,16 @@ title: प्लाई समर्थन
 linktitle: प्लाई समर्थन
 second_title: Aspose.3D .NET API
 description: Aspose.3D निर्बाध रूप से PLY प्रारूप का समर्थन करता है, जिससे बहुमुखी उपयोग के मामलों के लिए 3D मॉडल के सुचारू आयात और निर्यात की सुविधा मिलती है।
-type: docs
 weight: 27
 url: /hi/net/loading-and-saving/ply
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# प्लाई समर्थन
+
 ## परिचय
 
 इस ट्यूटोरियल श्रृंखला में, हम रचनात्मक संभावनाओं की दुनिया को खोलते हुए, Aspose.3D में glTF समर्थन की जटिलताओं का पता लगाएंगे।
@@ -30,3 +36,9 @@ Aspose.3D, PLY प्रारूप में मेश को पॉइंट 
 .NET के लिए Aspose.3D के साथ असीमित संभावनाओं की यात्रा पर निकलें। चाहे आप नौसिखिया हों या अनुभवी डेवलपर, हमारे ट्यूटोरियल सभी कौशल स्तरों को पूरा करते हैं। अपने 3D मॉडलिंग अनुभव को बदलें - .NET के लिए Aspose.3D के साथ खोजें, बनाएं और नया करें।
 
 क्या आप अपने 3डी मॉडलिंग कौशल को उन्नत करने के लिए तैयार हैं? ट्यूटोरियल तलाशना शुरू करें. .NET के लिए Aspose.3D की पूरी क्षमता का उपयोग करें और अपनी 3D उत्कृष्ट कृतियों को सहजता से बनाएं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

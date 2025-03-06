@@ -3,10 +3,16 @@ title: 捕捉 3D 場景中的視窗
 linktitle: 捕捉 3D 場景中的視窗
 second_title: Aspose.3D .NET API
 description: 學習使用 Aspose.3D for .NET 捕捉令人驚嘆的 3D 視窗。靈活渲染場景的分步指南。
-type: docs
 weight: 11
 url: /zh-hant/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 捕捉 3D 場景中的視窗
+
 ## 介紹
 
 在 3D 圖形和視覺化領域，捕捉視窗是增強場景深度和細節的基本技能。 Aspose.3D for .NET 為渲染和操作 3D 場景提供了強大的解決方案。本教學將引導您完成使用 Aspose.3D 在 3D 場景中捕捉視窗的過程，讓您輕鬆創建令人驚嘆的視覺化效果。
@@ -124,3 +130,9 @@ A4：是的，您可以免費試用[這裡](https://releases.aspose.com/).
 ### Q5：我如何尋求協助或參與社區？
 
  A5：加入 Aspose.3D 社區[支援論壇](https://forum.aspose.com/c/3d/18)尋求幫助和合作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

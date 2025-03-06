@@ -3,10 +3,16 @@ title: Düğümün Kuaterniyonla Dönüştürülmesi
 linktitle: Düğümün Kuaterniyonla Dönüştürülmesi
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'i kullanarak 3D düğümleri kuaterniyonlarla dönüştürmeyi öğrenin. Yeni başlayanlar için adım adım kılavuz.
-type: docs
 weight: 20
 url: /tr/net/geometry-and-hierarchy/transformation-node-quaternion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Düğümün Kuaterniyonla Dönüştürülmesi
+
 ## giriiş
 
 Aspose.3D for .NET kullanarak 3D sahnelerde bir düğümü dörde bir dönüştürmeye ilişkin adım adım kılavuza hoş geldiniz. Bu eğitimde Aspose.3D for .NET'in güçlü yeteneklerini keşfedeceğiz ve kuaterniyonlar kullanarak bir 3D düğüme dönüşüm ekleme sürecini inceleyeceğiz.
@@ -121,3 +127,10 @@ Cevap1: Kuaterniyonlar, 3B uzaydaki dönüşleri temsil etmek için kullanılan 
 ### S5: Aspose.3D için geçici lisansı nasıl edinebilirim?
 
  Cevap5: Geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

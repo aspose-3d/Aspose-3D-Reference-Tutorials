@@ -3,10 +3,16 @@ title: Сжимайте 3D-сцены для эффективного хране
 linktitle: Сжимайте 3D-сцены для эффективного хранения и совместного использования с помощью Aspose.3D для Java
 second_title: Aspose.3D Java API
 description: Узнайте, как эффективно сжимать 3D-сцены с помощью Aspose.3D для Java. Следуйте нашему пошаговому руководству для оптимального хранения и совместного использования.
-type: docs
 weight: 11
 url: /ru/java/3d-scenes-and-models/compress-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сжимайте 3D-сцены для эффективного хранения и совместного использования с помощью Aspose.3D для Java
+
 ## Введение
 
 Aspose.3D for Java — это универсальная библиотека, которая позволяет разработчикам работать с 3D-сценами, объектами и анимацией в приложениях Java. Одной из его выдающихся особенностей является возможность сжимать 3D-сцены, уменьшая размер файлов без ущерба для качества. В этом руководстве вы узнаете, как эффективно сжимать 3D-сцены для хранения и совместного использования.
@@ -103,3 +109,10 @@ scene.save(MyDir + "test.amf", opt);
 ### Вопрос 5: Как получить временную лицензию на Aspose.3D для Java?
 
  A5: Следуйте инструкциям[здесь](https://purchase.aspose.com/temporary-license/) получить временную лицензию.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

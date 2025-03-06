@@ -3,10 +3,16 @@ title: Vytváření primitivních 3D modelů
 linktitle: Vytváření primitivních 3D modelů
 second_title: Aspose.3D .NET API
 description: Prozkoumejte svět 3D modelování s Aspose.3D pro .NET. Vytvářejte úžasné primitivní modely bez námahy.
-type: docs
 weight: 10
 url: /cs/net/3d-modeling/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytváření primitivních 3D modelů
+
 ## Úvod
 
 Vítejte ve vzrušujícím světě 3D modelování s Aspose.3D pro .NET! V tomto komplexním tutoriálu prozkoumáme proces vytváření primitivních 3D modelů pomocí Aspose.3D krok za krokem. Ať už jste zkušený vývojář nebo zvědavý začátečník, tato příručka vám pomůže využít sílu Aspose.3D k vytvoření vizuálně úžasných 3D prvků pro vaše projekty.
@@ -108,3 +114,9 @@ A1: Aspose.3D primárně podporuje .NET, ale jsou k dispozici i další verze pr
 ### Q5: Jsou k dispozici nějaké ukázkové tutoriály?
 
  A5: Ano, prozkoumejte další návody a příklady v[dokumentace](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

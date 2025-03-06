@@ -3,10 +3,16 @@ title: บีบอัดฉาก 3D เพื่อการจัดเก็
 linktitle: บีบอัดฉาก 3D เพื่อการจัดเก็บและการแชร์ที่มีประสิทธิภาพด้วย Aspose.3D สำหรับ Java
 second_title: Aspose.3D จาวา API
 description: เรียนรู้วิธีการบีบอัดฉาก 3D อย่างมีประสิทธิภาพด้วย Aspose.3D สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดเก็บและแบ่งปันที่เหมาะสมที่สุด
-type: docs
 weight: 11
 url: /th/java/3d-scenes-and-models/compress-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บีบอัดฉาก 3D เพื่อการจัดเก็บและการแชร์ที่มีประสิทธิภาพด้วย Aspose.3D สำหรับ Java
+
 ## การแนะนำ
 
 Aspose.3D สำหรับ Java เป็นไลบรารีอเนกประสงค์ที่ช่วยให้นักพัฒนาสามารถทำงานกับฉาก 3 มิติ ออบเจ็กต์ และแอนิเมชั่นในแอปพลิเคชัน Java หนึ่งในคุณสมบัติที่โดดเด่นของมันคือความสามารถในการบีบอัดฉาก 3 มิติ ซึ่งช่วยลดขนาดไฟล์โดยไม่กระทบต่อคุณภาพ บทช่วยสอนนี้จะแนะนำคุณตลอดขั้นตอนในการบีบอัดฉาก 3D เพื่อการจัดเก็บและการแชร์อย่างมีประสิทธิภาพ
@@ -103,3 +109,10 @@ A3: ได้ คุณสามารถทดลองใช้ฟรีได
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.3D สำหรับ Java ได้อย่างไร
 
  A5: ทำตามขั้นตอน[ที่นี่](https://purchase.aspose.com/temporary-license/) เพื่อรับใบอนุญาตชั่วคราว
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

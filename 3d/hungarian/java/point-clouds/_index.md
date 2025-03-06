@@ -3,10 +3,16 @@ title: Pontfelhők használata Java nyelven
 linktitle: Pontfelhők használata Java nyelven
 second_title: Aspose.3D Java API
 description: Könnyedén dekódolhat, tölthet be, hozhat létre, exportálhat és racionalizálhat pontfelhőket Java nyelven az Aspose.3D oktatóanyagokkal. Fejleszd lépésről lépésre 3D-s fejlesztési készségeidet.
-type: docs
 weight: 34
 url: /hu/java/point-clouds/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pontfelhők használata Java nyelven
+
 
 ## Bevezetés
 
@@ -49,3 +55,9 @@ Fedezze fel a 3D grafika világát a Java Aspose.3D segítségével. Tanuljon me
 Ismerje meg, hogyan exportálhat 3D-s jeleneteket pontfelhőként Java nyelven az Aspose.3D segítségével. Javítsa alkalmazásait erőteljes 3D grafikával és vizualizációval.
 ### [Racionalizálja a pontfelhőkezelést a PLY Export segítségével Java nyelven](./ply-export-point-clouds-java/)
 Fedezze fel az egyszerűsített pontfelhő-kezelést Java nyelven az Aspose.3D segítségével. Tanulja meg a PLY-fájlok könnyű exportálását. Fokozza fel 3D-s grafikai projektjeit lépésről lépésre szóló útmutatónkkal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

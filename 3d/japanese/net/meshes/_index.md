@@ -3,10 +3,16 @@ title: メッシュ
 linktitle: メッシュ
 second_title: Aspose.3D .NET API
 description: 包括的なチュートリアルで、Aspose.3D for .NET の秘密を解き明かしましょう。 3D モデルを最適化し、プリミティブをメッシュに変換し、グラフィックスを簡単に強化します。
-type: docs
 weight: 26
 url: /ja/net/meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# メッシュ
+
 ## 導入
 
 Aspose.3D for .NET は、3D メッシュの複雑さを探求したい開発者に可能性の世界を開きます。この記事では、Aspose.3D for .NET の可能性を最大限に活用するための独自の視点を提供するさまざまなメッシュ チュートリアルを紹介します。
@@ -69,3 +75,9 @@ Aspose.3D for .NET を使用して、マテリアルごとに 3D メッシュを
 [チュートリアルを読む: マテリアルごとにメッシュを分割](./split-mesh-by-material/)
 
 結論として、Aspose.3D for .NET チュートリアルは、3D モデリングのさまざまな側面を習得するための包括的なガイドを提供します。積極的に取り組み、スキルを向上させ、3D 開発ゲームをレベルアップさせましょう!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

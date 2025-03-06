@@ -3,10 +3,16 @@ title: Dela 3D-nät efter material för effektiv bearbetning i Java
 linktitle: Dela 3D-nät efter material för effektiv bearbetning i Java
 second_title: Aspose.3D Java API
 description: Utforska kraften i Aspose.3D i Java med vår steg-för-steg-guide om att dela 3D-maskor effektivt efter material. Förbättra din applikations prestanda sömlöst.
-type: docs
 weight: 12
 url: /sv/java/3d-mesh-data/split-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dela 3D-nät efter material för effektiv bearbetning i Java
+
 ## Introduktion
 
 Välkommen till denna omfattande handledning om att dela 3D-maskor efter material för effektiv bearbetning i Java med Aspose.3D. Om du dyker in i en värld av 3D-grafik och behöver ett kraftfullt Java-bibliotek, är Aspose.3D din bästa lösning. I den här handledningen går vi igenom processen för att effektivt hantera 3D-nät efter material, vilket optimerar din Java-applikation för överlägsen prestanda.
@@ -104,3 +110,10 @@ A2: Absolut! Denna metod kan skalas bra för intrikata 3D-modeller, och optimera
 ### F5: Hur kan jag få support för eventuella problem eller frågor?
 
  A5: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) för dedikerat stöd från samhället.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

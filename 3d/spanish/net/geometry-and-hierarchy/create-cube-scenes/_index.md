@@ -3,10 +3,16 @@ title: Creando escenas de cubos
 linktitle: Creando escenas de cubos
 second_title: Aspose.3D API .NET
 description: Cree impresionantes escenas de cubos en 3D sin esfuerzo con Aspose.3D para .NET. Descargue la biblioteca, siga nuestra guía paso a paso y dé rienda suelta.
-type: docs
 weight: 12
 url: /es/net/geometry-and-hierarchy/create-cube-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creando escenas de cubos
+
 ## Introducción
 
 ¿Estás listo para sumergirte en el cautivador mundo del diseño 3D? En este tutorial, lo guiaremos a través del proceso de creación de fascinantes escenas cúbicas usando Aspose.3D para .NET. Aspose.3D es una biblioteca poderosa y versátil que permite a los desarrolladores crear experiencias inmersivas en 3D sin problemas.
@@ -126,3 +132,9 @@ R2: ¡Absolutamente! Experimente con materiales, colores y texturas para lograr 
 ### P5: ¿Cómo puedo obtener una licencia temporal para Aspose.3D?
 
  A5: Adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

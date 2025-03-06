@@ -3,10 +3,16 @@ title: Optimaliseren en werken met 3D Mesh-gegevens in Java
 linktitle: Optimaliseren en werken met 3D Mesh-gegevens in Java
 second_title: Aspose.3D Java-API
 description: Optimaliseer uw 3D-toepassingen met Aspose.3D voor Java. Leer meshes comprimeren met Google Draco, mesh-gegevens genereren en 3D-meshes efficiënt op materiaal verwerken.
-type: docs
 weight: 32
 url: /nl/java/3d-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optimaliseren en werken met 3D Mesh-gegevens in Java
+
 ## Invoering
 
 Bent u klaar om uw 3D-ontwikkelvaardigheden in Java te verbeteren? Duik in de wereld van Aspose.3D, waar we u uitgebreide tutorials bieden over het optimaliseren van en werken met 3D mesh-gegevens. Of u nu een doorgewinterde ontwikkelaar bent of net begint, met deze tutorials kunt u uw Java-projecten moeiteloos verbeteren.
@@ -31,3 +37,9 @@ Optimaliseer uw 3D-toepassingen met Aspose.3D. Leer hoe u meshes comprimeert met
 Verbeter uw Java-projecten met Aspose.3D. Volg onze tutorial om moeiteloos normale gegevens voor 3D-meshes te genereren. Duik met gemak in 3D-graphics.
 ### [Splits 3D-mazen op materiaal voor efficiënte verwerking in Java](./split-meshes-by-material/)
 Ontdek de kracht van Aspose.3D in Java met onze stapsgewijze handleiding voor het efficiënt splitsen van 3D-meshes op materiaal. Verbeter de prestaties van uw applicatie naadloos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

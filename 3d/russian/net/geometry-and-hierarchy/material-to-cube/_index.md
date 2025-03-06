@@ -3,10 +3,16 @@ title: Применение материала к кубу
 linktitle: Применение материала к кубу
 second_title: Aspose.3D .NET API
 description: Изучите Aspose.3D для .NET, ваш путь к беспрепятственному манипулированию 3D-графикой. Легко применяйте материалы, повышайте реалистичность и совершенствуйте свои проекты.
-type: docs
 weight: 14
 url: /ru/net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Применение материала к кубу
+
 ## Введение
 
 Добро пожаловать в увлекательный мир манипуляций с 3D-графикой с помощью Aspose.3D для .NET! В этом уроке мы погрузимся в процесс применения материалов к кубу в ваших 3D-сценах, добавляя совершенно новый уровень реализма и визуальной привлекательности вашим творениям.
@@ -136,3 +142,9 @@ Console.WriteLine("\nMaterial added successfully to cube.\nFile saved at " + out
 ### В5: Как я могу получить поддержку по любым вопросам или вопросам?
 
  A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) связаться с сообществом и обратиться за помощью.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

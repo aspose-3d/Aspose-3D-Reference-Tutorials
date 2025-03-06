@@ -3,10 +3,16 @@ title: Render
 linktitle: Render
 second_title: Aspose.3D .NET API
 description: Tingkatkan keterampilan rendering 3D Anda dengan Aspose.3D untuk .NET! Ciptakan bayangan, ciptakan visualisasi menawan, terapkan efek lensa mata ikan, dan banyak lagi.
-type: docs
 weight: 30
 url: /id/net/rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render
+
 ## Perkenalan
 
 Apakah Anda siap untuk memulai perjalanan mengasyikkan ke dunia rendering 3D? Tidak perlu mencari lagi! Aspose.3D untuk .NET membuka pintu ke dunia yang penuh kemungkinan, memungkinkan Anda melepaskan kreativitas dan meningkatkan keterampilan Anda. Dalam daftar tutorial komprehensif ini, kami akan memandu Anda melalui beberapa aspek rendering yang paling menarik menggunakan Aspose.3D untuk .NET.
@@ -55,3 +61,9 @@ Sempurnakan adegan 3D Anda dengan Aspose.3D untuk .NET! Pelajari cara menerapkan
 Pelajari cara membuat tampilan panorama 3D yang menakjubkan menggunakan Aspose.3D untuk .NET. Ikuti panduan langkah demi langkah kami untuk rendering pemandangan yang imersif.
 ### [Merender Adegan menjadi Peta Kubus dengan Enam Wajah](./render-scene-cubemap/)
 Buat peta kubus yang menakjubkan dengan Aspose.3D untuk .NET. Ikuti panduan langkah demi langkah kami untuk merender adegan 3D menjadi peta kubus bermuka enam yang menawan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

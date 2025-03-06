@@ -3,10 +3,16 @@ title: Aplicar consultas tipo XPath a objetos 3D en Java
 linktitle: Aplicar consultas tipo XPath a objetos 3D en Java
 second_title: API de Java Aspose.3D
 description: Domine las consultas de objetos 3D en Java sin esfuerzo con Aspose.3D. Aplique consultas tipo XPath, manipule escenas y mejore su desarrollo 3D.
-type: docs
 weight: 11
 url: /es/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar consultas tipo XPath a objetos 3D en Java
+
 ## Introducción
 
 Profundizar en el ámbito del modelado 3D y la manipulación de escenas en Java puede ser una tarea desalentadora, ¡pero no temas! Aspose.3D para Java proporciona una solución sólida para manejar objetos 3D, lo que la convierte en una herramienta invaluable para los desarrolladores. En este tutorial, lo guiaremos a través de la aplicación de consultas tipo XPath a objetos 3D en Java usando Aspose.3D.
@@ -99,3 +105,9 @@ En este tutorial, hemos desmitificado el proceso de aplicación de consultas tip
 ### P5: ¿Necesita una licencia temporal?
 
  A5: Obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

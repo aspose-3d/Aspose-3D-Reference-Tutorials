@@ -3,10 +3,16 @@ title: Konvertera parametrisk primitiv till mesh
 linktitle: Konvertera parametrisk primitiv till mesh
 second_title: Aspose.3D .NET API
 description: Utforska kraften i Aspose.3D för .NET! Konvertera parametriska primitiver till mångsidig Mesh utan ansträngning. Höj ditt 3D-grafikspel idag.
-type: docs
 weight: 12
 url: /sv/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertera parametrisk primitiv till mesh
+
 ## Introduktion
 
 Aspose.3D tillhandahåller en rik uppsättning primitiva former, inklusive lådor, plan, tori, sfärer, cylindrar, pyramider och mer. Dessa primitiver definieras av sina parametrar, vilket gör dem mycket mångsidiga för procedurmodellering. Genom att justera parametrarna programmatiskt kan du skapa en mängd olika 3D-modeller med minimal kod.
@@ -73,3 +79,9 @@ Ja, Aspose.3D stöder ett brett utbud av .NET-ramverk, vilket säkerställer kom
  Ja, utforska Aspose.3D med[gratis provperiod](https://releases.aspose.com/) att uppleva dess kapacitet innan du gör ett åtagande.
 ### Kan jag få en tillfällig licens för teständamål?
  Ja, säker a[tillfällig licens](https://purchase.aspose.com/temporary-license/) för att utvärdera Aspose.3D heltäckande.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

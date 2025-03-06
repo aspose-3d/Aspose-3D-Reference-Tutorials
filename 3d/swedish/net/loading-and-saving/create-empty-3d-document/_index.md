@@ -3,10 +3,16 @@ title: Skapa ett tomt 3D-dokument
 linktitle: Skapa ett tomt 3D-dokument
 second_title: Aspose.3D .NET API
 description: Utforska världen av 3D-dokumentskapande med Aspose.3D för .NET. Skapa, redigera och spara fantastiska 3D-scener utan ansträngning.
-type: docs
 weight: 11
 url: /sv/net/loading-and-saving/create-empty-3d-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa ett tomt 3D-dokument
+
 ## Introduktion
 
 Välkommen till en värld av 3D-dokumentskapande med Aspose.3D för .NET! I den här handledningen kommer vi att utforska grunderna för att ladda och spara 3D-dokument. Aspose.3D för .NET tillhandahåller en kraftfull uppsättning verktyg för att arbeta med 3D-scener, och vi guidar dig genom varje steg för att hjälpa dig komma igång smidigt.
@@ -84,3 +90,9 @@ S1: Ja, Aspose.3D för .NET tillhandahåller ett användarvänligt gränssnitt, 
 ### F5: Var kan jag köpa Aspose.3D för .NET?
 
  A5: Du kan köpa biblioteket[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

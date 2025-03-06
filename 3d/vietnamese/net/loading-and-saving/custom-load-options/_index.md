@@ -3,10 +3,16 @@ title: Tùy chọn tải tùy chỉnh
 linktitle: Tùy chọn tải tùy chỉnh
 second_title: API Aspose.3D .NET
 description: Khám phá Aspose.3D cho .NET giải pháp tối ưu để tải và lưu mô hình 3D liền mạch.
-type: docs
 weight: 15
 url: /vi/net/loading-and-saving/custom-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chọn tải tùy chỉnh
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.3D cho .NET - một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp 3D. Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc tải và lưu mô hình 3D, tập trung vào các tùy chọn tải tùy chỉnh. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, hướng dẫn này sẽ hướng dẫn bạn từng bước quy trình, đảm bảo bạn khai thác toàn bộ tiềm năng của Aspose.3D cho .NET.
@@ -183,3 +189,9 @@ Câu trả lời 4: Có, bạn có thể khám phá các khả năng của Aspos
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự hỗ trợ cho Aspose.3D cho .NET ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để được cộng đồng hỗ trợ và giúp đỡ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

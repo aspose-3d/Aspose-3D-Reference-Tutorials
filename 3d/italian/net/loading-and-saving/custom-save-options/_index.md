@@ -3,10 +3,16 @@ title: Opzioni di salvataggio personalizzate
 linktitle: Opzioni di salvataggio personalizzate
 second_title: API Aspose.3D .NET
 description: Esplora la potenza di Aspose.3D per .NET. Scopri come personalizzare il salvataggio delle scene 3D con guide dettagliate sui formati Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC e RVM.
-type: docs
 weight: 21
 url: /it/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opzioni di salvataggio personalizzate
+
 ## introduzione
 
 Benvenuti nel mondo di Aspose.3D per .NET! Se stai cercando di migliorare le tue capacità di sviluppo 3D, sei nel posto giusto. In questo tutorial approfondiremo le funzionalità di caricamento e salvataggio, concentrandoci in particolare sulle opzioni di salvataggio personalizzate. Aspose.3D per .NET è una potente libreria che consente agli sviluppatori di manipolare e salvare scene 3D in modo efficiente.
@@ -131,3 +137,9 @@ A1: Sì, Aspose.3D è compatibile con vari framework .NET, garantendo flessibili
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.3D?
 
  A5: Ottieni una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

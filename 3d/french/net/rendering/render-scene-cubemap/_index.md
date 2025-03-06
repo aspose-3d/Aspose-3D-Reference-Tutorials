@@ -3,10 +3,16 @@ title: Rendu de la scène dans Cubemap avec six faces
 linktitle: Rendu de la scène dans Cubemap avec six faces
 second_title: API Aspose.3D .NET
 description: Créez de superbes cubesmaps avec Aspose.3D pour .NET. Suivez notre guide étape par étape pour restituer des scènes 3D en captivantes cubesmaps à six faces.
-type: docs
 weight: 14
 url: /fr/net/rendering/render-scene-cubemap/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendu de la scène dans Cubemap avec six faces
+
 ## Introduction
 Bienvenue dans ce guide étape par étape sur le rendu d'une scène dans une carte cubique à six faces à l'aide d'Aspose.3D pour .NET. Dans ce didacticiel, nous vous guiderons tout au long du processus de création d'une superbe carte cubique en rendant une scène 3D. Aspose.3D est une puissante API .NET qui simplifie la manipulation graphique 3D, et avec ce guide, vous exploiterez ses capacités pour créer des cubemaps captivantes.
 ## Conditions préalables
@@ -86,3 +92,9 @@ Oui, Aspose.3D prend en charge différents formats de fichiers 3D, offrant ainsi
 Absolument! Aspose.3D prend en charge le rendu de scènes 3D animées.
 ### Q : Où puis-je trouver une documentation détaillée ?
  Se référer au[Documentation Aspose.3D](https://reference.aspose.com/3d/net/) pour des informations détaillées.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

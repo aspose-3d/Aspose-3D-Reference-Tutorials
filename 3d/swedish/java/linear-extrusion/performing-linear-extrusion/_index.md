@@ -3,10 +3,16 @@ title: Utför linjär extrudering i Aspose.3D för Java
 linktitle: Utför linjär extrudering i Aspose.3D för Java
 second_title: Aspose.3D Java API
 description: Utforska världen av 3D-modellering med Aspose.3D för Java. Lär dig att utföra linjär extrudering utan ansträngning.
-type: docs
 weight: 10
 url: /sv/java/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utför linjär extrudering i Aspose.3D för Java
+
 ## Introduktion
 
 Välkommen till denna omfattande handledning om hur du utför linjär extrudering i Aspose.3D för Java! Om du vill förbättra dina färdigheter i 3D-modellering med Java, är du på rätt plats. I den här handledningen guidar vi dig genom processen att utföra linjär extrudering med Aspose.3D, ett kraftfullt Java-bibliotek för 3D-modellering.
@@ -104,3 +110,9 @@ S2: Ja, Aspose.3D kan användas för både personliga och kommersiella projekt. 
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.3D?
 
  A5: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

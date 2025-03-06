@@ -3,10 +3,16 @@ title: تطبيق Twist في النتوء الخطي باستخدام Aspose.3D 
 linktitle: تطبيق Twist في النتوء الخطي باستخدام Aspose.3D لـ Java
 second_title: Aspose.3D جافا API
 description: تعرف على كيفية إضافة لمسة إلى نماذجك ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. اتبع دليلنا خطوة بخطوة للحصول على تأثيرات البثق الخطي المحسنة.
-type: docs
 weight: 14
 url: /ar/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق Twist في النتوء الخطي باستخدام Aspose.3D لـ Java
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي خطوة بخطوة حول تطبيق الالتواء في البثق الخطي باستخدام Aspose.3D لـ Java. Aspose.3D هي مكتبة Java قوية تمكن المطورين من العمل مع تنسيقات الملفات ثلاثية الأبعاد، وتوفر وظائف قوية لإنشاء مشاهد ثلاثية الأبعاد ومعالجتها وعرضها. في هذا البرنامج التعليمي، سنستكشف كيفية تطبيق تأثير ملتوي أثناء عملية البثق الخطي لتحسين نماذجك ثلاثية الأبعاد.
@@ -119,3 +125,9 @@ scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### س5: أين يمكنني شراء Aspose.3D لـ Java؟
 
  A5: قم بشراء Aspose.3D لـ Java من[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

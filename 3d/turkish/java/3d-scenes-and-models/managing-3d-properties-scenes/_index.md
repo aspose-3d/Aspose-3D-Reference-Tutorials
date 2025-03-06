@@ -3,10 +3,16 @@ title: Aspose.3D Kullanarak Java Sahnelerinde 3D Özellikler ve Özel Verilerle 
 linktitle: Aspose.3D Kullanarak Java Sahnelerinde 3D Özellikler ve Özel Verilerle Çalışma
 second_title: Aspose.3D Java API'si
 description: Kesintisiz 3D özellik manipülasyonu için Java uygulamalarınızı Aspose.3D ile geliştirin. Adım adım rehberlik için eğitimimizi takip edin.
-type: docs
 weight: 14
 url: /tr/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D Kullanarak Java Sahnelerinde 3D Özellikler ve Özel Verilerle Çalışma
+
 ## giriiş
 
 Aspose.3D'yi kullanarak Java sahnelerinde 3D özellikler ve özel verilerle çalışmaya ilişkin kapsamlı kılavuza hoş geldiniz. Bu eğitimde Aspose.3D'nin güçlü özelliklerini inceleyeceğiz ve Java uygulamalarınızdaki 3D özelliklerin manipülasyonu konusunda adım adım rehberlik sağlayacağız.
@@ -124,3 +130,9 @@ A4: Evet, ziyaret edin[Aspose.3D destek forumu](https://forum.aspose.com/c/3d/18
 ### S5: Aspose.3D için nasıl geçici lisans alabilirim?
 
  Cevap5: adresini ziyaret ederek geçici bir lisans alabilirsiniz.[bu bağlantı](https://purchase.aspose.com/temporary-license/) Aspose'un web sitesinde.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

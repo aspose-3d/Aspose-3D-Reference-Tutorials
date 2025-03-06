@@ -3,10 +3,16 @@ title: 쿼터니언으로 노드 변환
 linktitle: 쿼터니언으로 노드 변환
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 쿼터니언으로 3D 노드를 변환하는 방법을 알아보세요. 초보자를 위한 단계별 가이드입니다.
-type: docs
 weight: 20
 url: /ko/net/geometry-and-hierarchy/transformation-node-quaternion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 쿼터니언으로 노드 변환
+
 ## 소개
 
 .NET용 Aspose.3D를 사용하여 3D 장면에서 노드를 쿼터니언으로 변환하는 단계별 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 .NET용 Aspose.3D의 강력한 기능을 살펴보고 쿼터니언을 사용하여 3D 노드에 변환을 추가하는 과정을 안내합니다.
@@ -121,3 +127,10 @@ A1: 쿼터니언은 3D 공간에서 회전을 나타내는 데 사용되는 수�
 ### Q5: Aspose.3D에 대한 임시 라이선스를 어떻게 얻나요?
 
  A5: 임시 라이센스 받기[여기](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

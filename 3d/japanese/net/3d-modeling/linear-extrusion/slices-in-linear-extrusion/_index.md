@@ -3,10 +3,16 @@ title: 線形押し出しのスライス
 linktitle: 線形押し出しのスライス
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D デザインの世界を探索してください。線形押し出しチュートリアルを使用して、素晴らしいモデルを作成します。
-type: docs
 weight: 13
 url: /ja/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 線形押し出しのスライス
+
 ## 導入
 
 Aspose.3D for .NET を使用した 3D デザインの世界へようこそ!経験豊富な開発者でも、初心者でも、このチュートリアルでは、強力な Aspose.3D ライブラリを使用して見事な 3D ビジュアライゼーションを作成するプロセスを説明します。
@@ -116,3 +122,9 @@ A1: Aspose.3D は主に .NET 用に設計されていますが、.NET バイン�
 ### Q5: Aspose.3D for .NET の一時ライセンスを使用できますか?
 
  A5: はい、一時ライセンスを取得します。[ここ](https://purchase.aspose.com/temporary-license/)評価目的のため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

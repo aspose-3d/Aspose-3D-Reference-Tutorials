@@ -3,10 +3,16 @@ title: Exponha transformações geométricas em Java 3D com Aspose.3D
 linktitle: Exponha transformações geométricas em Java 3D com Aspose.3D
 second_title: API Java Aspose.3D
 description: Dominar transformações geométricas 3D em Java ficou mais fácil com Aspose.3D. Aprenda a manipular nós, aplicar traduções e avaliar transformações globais.
-type: docs
 weight: 13
 url: /pt/java/geometry/expose-geometric-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exponha transformações geométricas em Java 3D com Aspose.3D
+
 ## Introdução
 
 No mundo dinâmico da programação Java 3D, dominar as transformações geométricas é uma habilidade fundamental. Aspose.3D for Java é uma biblioteca robusta que permite aos desenvolvedores mergulhar nas complexidades da modelagem 3D sem esforço. Neste tutorial, embarcaremos em uma jornada esclarecedora para expor e manipular transformações geométricas usando Aspose.3D para Java.
@@ -86,3 +92,9 @@ A1: Aspose.3D integra-se perfeitamente com qualquer ambiente de desenvolvimento 
 ### Q5: Preciso de uma licença temporária para testar o Aspose.3D?
 
  A5: Obtenha um[licença temporária](https://purchase.aspose.com/temporary-license/) para fins de teste.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

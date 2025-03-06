@@ -3,10 +3,16 @@ title: Java를 사용한 3D 모델의 다각형 조작
 linktitle: Java를 사용한 3D 모델의 다각형 조작
 second_title: Aspose.3D 자바 API
 description: Aspose.3D 튜토리얼을 통해 Java에서 효율적인 3D 렌더링을 살펴보세요. 최적의 성능과 향상된 텍스처 매핑을 위해 다각형을 삼각형으로 변환하고 UV 좌표를 생성합니다.
-type: docs
 weight: 27
 url: /ko/java/polygon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용한 3D 모델의 다각형 조작
+
 ## 소개
 
 Aspose.3D가 프로젝트를 향상시키기 위해 중심 무대를 차지하는 Java 3D 개발 영역에 오신 것을 환영합니다. 이 튜토리얼 시리즈에서는 효율적인 렌더링을 위해 다각형을 삼각형으로 변환하고 텍스처 매핑을 향상시키기 위해 UV 좌표를 생성하는 두 가지 중요한 측면에 중점을 두고 다각형 조작의 복잡성을 자세히 살펴보겠습니다.
@@ -49,3 +55,9 @@ UV 좌표를 3D 세계의 텍스처에 대한 GPS로 생각하십시오. 우리�
 Aspose.3D로 Java 3D 렌더링을 향상하세요. 최적의 성능을 위해 다각형을 삼각형으로 변환하는 방법을 알아보세요. 원활한 3D 개발 경험을 위해 지금 다운로드하세요.
 ### [Java 3D 모델에서 텍스처 매핑을 위한 UV 좌표 생성](./generate-uv-coordinates/)
 Aspose.3D를 사용하여 Java 3D 모델의 UV 좌표를 생성하는 방법을 알아보세요. 이 단계별 가이드를 통해 프로젝트의 텍스처 매핑을 향상하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

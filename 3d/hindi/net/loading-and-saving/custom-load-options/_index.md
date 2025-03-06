@@ -3,10 +3,16 @@ title: कस्टम लोड विकल्प
 linktitle: कस्टम लोड विकल्प
 second_title: Aspose.3D .NET API
 description: निर्बाध 3D मॉडल लोडिंग और सेविंग के लिए .NET के लिए Aspose.3D का सर्वोत्तम समाधान खोजें।
-type: docs
 weight: 15
 url: /hi/net/loading-and-saving/custom-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# कस्टम लोड विकल्प
+
 ## परिचय
 
 .NET के लिए Aspose.3D की दुनिया में आपका स्वागत है - एक शक्तिशाली लाइब्रेरी जो डेवलपर्स को 3D फ़ाइलों के साथ निर्बाध रूप से काम करने में सक्षम बनाती है। इस ट्यूटोरियल में, हम कस्टम लोड विकल्पों पर ध्यान केंद्रित करते हुए 3डी मॉडल को लोड करने और सहेजने की जटिलताओं पर ध्यान देंगे। चाहे आप अनुभवी डेवलपर हों या नवागंतुक, यह मार्गदर्शिका आपको चरण दर चरण प्रक्रिया के बारे में बताएगी, यह सुनिश्चित करते हुए कि आप .NET के लिए Aspose.3D की पूरी क्षमता का उपयोग करें।
@@ -183,3 +189,9 @@ A4: हाँ, आप डाउनलोड करके .NET के लिए A
 ### Q5: मैं .NET के लिए Aspose.3D के लिए समर्थन कहाँ से प्राप्त कर सकता हूँ?
 
  A5: पर जाएँ[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) सामुदायिक समर्थन और सहायता के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

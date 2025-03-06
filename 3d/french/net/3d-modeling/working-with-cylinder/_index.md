@@ -3,10 +3,16 @@ title: Cylindre inférieur de cisaillement personnalisé
 linktitle: Cylindre inférieur de cisaillement personnalisé
 second_title: API Aspose.3D .NET
 description: Apprenez à créer des cylindres inférieurs de cisaillement personnalisés à l'aide d'Aspose.3D pour .NET avec notre guide détaillé étape par étape. Élevez vos compétences en modélisation 3D dès aujourd'hui !
-type: docs
 weight: 12
 url: /fr/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cylindre inférieur de cisaillement personnalisé
+
 ## Introduction
 Bienvenue dans notre guide complet sur la création d'un cylindre personnalisé à l'aide d'Aspose.3D pour .NET. Si vous souhaitez améliorer vos compétences en modélisation 3D et ajouter des fonctionnalités uniques à vos projets, vous êtes au bon endroit. Dans ce didacticiel, nous vous guiderons pas à pas tout au long du processus, à l'aide d'explications claires et d'extraits de code.
 ## Conditions préalables
@@ -83,3 +89,9 @@ Oui, vous pouvez personnaliser le fond de cisaillement pour chaque cylindre indi
  Visiter le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien et les discussions de la communauté.
 ### Comment puis-je obtenir un permis temporaire ?
  Obtenez votre permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java 3D 모델에서 텍스처 매핑을 위한 UV 좌표 생성
 linktitle: Java 3D 모델에서 텍스처 매핑을 위한 UV 좌표 생성
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java 3D 모델의 UV 좌표를 생성하는 방법을 알아보세요. 이 단계별 가이드를 통해 프로젝트의 텍스처 매핑을 향상하세요.
-type: docs
 weight: 11
 url: /ko/java/polygon/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 3D 모델에서 텍스처 매핑을 위한 UV 좌표 생성
+
 ## 소개
 
 Aspose.3D를 사용하여 Java 3D 모델에서 텍스처 매핑을 위한 UV 좌표를 생성하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 3D 모델의 메시에 대한 UV 좌표를 수동으로 생성하는 과정을 안내합니다. 이는 텍스처 매핑의 중요한 단계로, 3D 모델의 시각적 매력을 향상시킬 수 있습니다.
@@ -120,3 +126,9 @@ A1: Aspose.3D는 주로 Java용으로 설계되었지만 Aspose는 .NET과 같�
 ### Q5: Aspose.3D의 임시 라이선스를 구입할 수 있나요?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

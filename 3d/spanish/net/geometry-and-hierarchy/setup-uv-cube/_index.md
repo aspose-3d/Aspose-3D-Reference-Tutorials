@@ -3,10 +3,16 @@ title: Configurar UV en Cube
 linktitle: Configurar UV en Cube
 second_title: Aspose.3D API .NET
 description: Aprenda a configurar el mapeo UV en un cubo 3D usando Aspose.3D para .NET. Cree escenas visualmente impresionantes con un mapeo de texturas preciso.
-type: docs
 weight: 18
 url: /es/net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurar UV en Cube
+
 ## Introducción
 
 La creación de escenas 3D cautivadoras y visualmente atractivas a menudo implica el proceso meticuloso de configurar el mapeo UV en formas geométricas. En este tutorial, exploraremos cómo configurar UV en un cubo usando Aspose.3D para .NET. Aspose.3D es una poderosa biblioteca .NET que proporciona un conjunto completo de funciones para modelado y manipulación 3D.
@@ -119,3 +125,9 @@ A1: Aspose.3D para .NET es una poderosa biblioteca para modelado y manipulación
 ### P5: ¿Hay licencias temporales disponibles?
 
  R5: Sí, puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

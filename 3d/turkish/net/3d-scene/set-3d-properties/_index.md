@@ -3,10 +3,16 @@ title: 3B Sahnelerde Üç Boyutlu Özellikleri Ayarlama
 linktitle: 3B Sahnelerde Üç Boyutlu Özellikleri Ayarlama
 second_title: Aspose.3D .NET API'si
 description: 3D özelliklerini ayarlamaya ilişkin Aspose.3D for .NET eğitimini keşfedin. Kod örnekleriyle adım adım öğrenin. 3D sahne manipülasyon becerilerinizi geliştirin.
-type: docs
 weight: 14
 url: /tr/net/3d-scene/set-3d-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3B Sahnelerde Üç Boyutlu Özellikleri Ayarlama
+
 ## giriiş
 
 Büyüleyici üç boyutlu sahneler oluşturmak çoğu zaman çeşitli özellikleri değiştirme, projelerinize derinlik ve gerçekçilik katma becerisini gerektirir. Aspose.3D for .NET, bunu başarmak için güçlü bir araç seti sağlayarak 3D sahnelerinizde üç boyutlu özellikleri zahmetsizce ayarlamanıza ve değiştirmenize olanak tanır. Bu eğitimde süreci adım adım inceleyerek Aspose.3D for .NET'ten nasıl etkili bir şekilde yararlanabileceğinizi daha iyi anlayacağız.
@@ -148,3 +154,10 @@ Cevap1: Evet, Aspose.3D, FBX, STL ve çok daha fazlası dahil olmak üzere çeş
 ### S5: Satın almadan önce Aspose.3D for .NET'i ücretsiz deneyebilir miyim?
 
  A5: Kesinlikle! İndir[ücretsiz deneme sürümü](https://releases.aspose.com/) özelliklerini keşfetmek için.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

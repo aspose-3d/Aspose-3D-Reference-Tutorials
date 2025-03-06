@@ -3,10 +3,16 @@ title: Java에서 3D 파일 작업 - 생성, 로드, 저장 및 변환
 linktitle: Java에서 3D 파일 작업 - 생성, 로드, 저장 및 변환
 second_title: Aspose.3D 자바 API
 description: Aspose.3D 튜토리얼을 통해 Java에서 3D 파일 조작을 쉽게 마스터하세요. 단계별 가이드를 사용하여 쉽게 3D 파일을 생성, 로드, 저장 및 변환하세요.
-type: docs
 weight: 30
 url: /ko/java/load-and-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 3D 파일 작업 - 생성, 로드, 저장 및 변환
+
 
 ## 소개
 
@@ -56,3 +62,9 @@ Java용 Aspose.3D를 사용하여 3D 그래픽의 세계를 탐험해보세요. 
 Aspose.3D를 사용하여 Java에서 원활한 3D 장면 조작 세계를 탐색해 보세요. 손쉽게 다양한 형식으로 장면을 저장하는 방법을 알아보세요.
 ### [Aspose.3D SaveOptions를 사용하여 Java에서 3D 파일 저장 최적화](./optimize-3d-file-saving/)
 Aspose.3D SaveOptions를 사용하여 Java에서 3D 파일 저장을 최적화하는 방법을 알아보세요. 손쉽게 성능을 향상하고 출력을 맞춤화하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

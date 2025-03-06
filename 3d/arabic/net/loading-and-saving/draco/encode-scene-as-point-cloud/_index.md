@@ -3,10 +3,16 @@ title: مشهد الترميز كـ Point Cloud
 linktitle: مشهد الترميز كـ Point Cloud
 second_title: Aspose.3D.NET API
 description: استكشف عالم النمذجة ثلاثية الأبعاد في .NET باستخدام Aspose.3D. تعلم كيفية تشفير المجالات إلى سحب نقطية دون عناء. أطلق العنان لإبداعك الآن!
-type: docs
 weight: 14
 url: /ar/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مشهد الترميز كـ Point Cloud
+
 ## مقدمة
 مرحبًا بك في هذا الدليل الشامل حول تشفير الكرة كسحابة نقطية باستخدام Aspose.3D لـ .NET. Aspose.3D هي مكتبة قوية ومتعددة الاستخدامات تمكن المطورين من العمل مع النماذج ثلاثية الأبعاد بسلاسة في تطبيقات .NET الخاصة بهم. في هذا البرنامج التعليمي، سنرشدك خلال عملية تشفير الكرة إلى سحابة نقطية باستخدام Aspose.3D.
 ## المتطلبات الأساسية
@@ -60,3 +66,9 @@ FileFormat.Draco.Encode(sphere, outputPath + outputFileName, saveOptions);
  قم بزيارة منتدى Aspose.3D[هنا](https://forum.aspose.com/c/3d/18) لدعم المجتمع والمناقشات.
 ### هل أحتاج إلى ترخيص مؤقت للاختبار؟
  نعم، إذا كنت تقوم باختبار المكتبة، فيمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

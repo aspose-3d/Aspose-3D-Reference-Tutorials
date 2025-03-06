@@ -3,10 +3,16 @@ title: Modélisation 3D Java avec Aspose.3D - Exploration VRML
 linktitle: Ouvrir et manipuler des fichiers VRML en Java avec Aspose.3D
 second_title: API Java Aspose.3D
 description: Débloquez la magie de la modélisation 3D en Java avec Aspose.3D. Ouvrez et manipulez les fichiers VRML en toute transparence. Plongez dans un monde de possibilités illimitées !
-type: docs
 weight: 10
 url: /fr/java/vrml-files/open-vrml-files-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modélisation 3D Java avec Aspose.3D - Exploration VRML
+
 ## Introduction
 Bienvenue dans le monde passionnant de la modélisation 3D en Java ! Dans ce guide complet, nous plongerons dans le domaine fascinant du langage de modélisation de réalité virtuelle (VRML) à l'aide d'Aspose.3D pour Java. Que vous soyez un développeur chevronné ou un passionné curieux, ce didacticiel étape par étape vous permettra d'ouvrir et de manipuler des fichiers VRML sans effort.
 ## Conditions préalables
@@ -61,3 +67,9 @@ Oui, Aspose.3D prend en charge divers formats de fichiers 3D au-delà du VRML, o
  Pour les options de licence temporaire, rendez-vous sur[permis temporaire](https://purchase.aspose.com/temporary-license/).
 ### 5. Où puis-je acheter Aspose.3D pour Java ?
  Pour libérer tout le potentiel, vous pouvez acheter Aspose.3D pour Java[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

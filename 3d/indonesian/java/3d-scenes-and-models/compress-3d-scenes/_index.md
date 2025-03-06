@@ -3,10 +3,16 @@ title: Kompres Adegan 3D untuk Penyimpanan dan Berbagi yang Efisien dengan Aspos
 linktitle: Kompres Adegan 3D untuk Penyimpanan dan Berbagi yang Efisien dengan Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Pelajari cara mengompresi adegan 3D secara efisien dengan Aspose.3D untuk Java. Ikuti panduan langkah demi langkah kami untuk penyimpanan dan berbagi yang optimal.
-type: docs
 weight: 11
 url: /id/java/3d-scenes-and-models/compress-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompres Adegan 3D untuk Penyimpanan dan Berbagi yang Efisien dengan Aspose.3D untuk Java
+
 ## Perkenalan
 
 Aspose.3D untuk Java adalah perpustakaan serbaguna yang memungkinkan pengembang bekerja dengan adegan 3D, objek, dan animasi dalam aplikasi Java. Salah satu fitur menonjolnya adalah kemampuan untuk mengompresi adegan 3D, mengurangi ukuran file tanpa mengurangi kualitas. Tutorial ini akan memandu Anda melalui langkah-langkah mengompresi adegan 3D secara efisien untuk penyimpanan dan berbagi.
@@ -103,3 +109,10 @@ A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.co
 ### Q5: Bagaimana cara mendapatkan lisensi sementara Aspose.3D untuk Java?
 
  A5: Ikuti langkah-langkahnya[Di Sini](https://purchase.aspose.com/temporary-license/) untuk memperoleh izin sementara.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 임베디드 텍스처로 장면 만들기
 linktitle: 임베디드 텍스처로 장면 만들기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 내장된 텍스처로 매혹적인 3D 장면을 만드세요. 놀라운 결과를 얻으려면 단계별 가이드를 따르십시오.
-type: docs
 weight: 10
 url: /ko/net/materials/create-scene-embedded-texture/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 임베디드 텍스처로 장면 만들기
+
 ## 소개
 .NET용 Aspose.3D를 사용하여 흥미진진한 3D 그래픽 세계에 오신 것을 환영합니다! 이 포괄적인 튜토리얼에서는 .NET 개발자를 위한 강력하고 다재다능한 라이브러리인 Aspose.3D를 사용하여 텍스처가 포함된 멋진 3D 장면을 만드는 과정을 안내합니다.
 ## 전제 조건
@@ -109,3 +115,9 @@ A: Aspose.3D는 애니메이션 기능을 제공합니다. 자세한 지침은 �
  답: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 커뮤니티 지원 및 토론을 위해.
 ### Q: Aspose.3D를 상업용 프로젝트에 사용할 수 있나요?
  A: 예, 라이센스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

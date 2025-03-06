@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.3D cho Java
 linktitle: Aspose.3D cho Hướng dẫn Java
-type: docs
 weight: 10
 url: /vi/java/
 description: Khám phá sức mạnh của Aspose.3D cho Java thông qua các hướng dẫn toàn diện. Nâng cao các dự án Java 3D của bạn bằng các hướng dẫn về hoạt ảnh, hình học, cấp phép và hơn thế nữa!
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.3D cho Java
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng đưa các dự án Java 3D của mình lên một tầm cao mới chưa? Đi sâu vào thế giới Aspose.3D cho Java với các hướng dẫn và ví dụ toàn diện của chúng tôi. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước của chúng tôi sẽ giúp bạn phát huy hết tiềm năng của Aspose.3D.
@@ -74,3 +79,9 @@ Mở khóa thế giới lập trình Java 3D với các hướng dẫn Aspose.3D
 Dễ dàng giải mã, tải, tạo, xuất và hợp lý hóa các đám mây điểm trong Java với các hướng dẫn Aspose.3D. Nâng cao kỹ năng phát triển 3D của bạn từng bước với hướng dẫn của chúng tôi về cách làm việc với đám mây điểm.
 
 Khám phá thế giới phong phú của Aspose.3D cho Java thông qua các hướng dẫn của chúng tôi. Từ hoạt ảnh và hình học đến thao tác và tối ưu hóa tệp, hướng dẫn của chúng tôi đề cập đến tất cả. Nâng cao kỹ năng phát triển Java 3D của bạn và tạo ra những trải nghiệm hình ảnh tuyệt đẹp!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

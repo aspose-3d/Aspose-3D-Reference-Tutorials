@@ -3,10 +3,16 @@ title: Menyimpan Adegan 3D ke file FBX
 linktitle: Menyimpan Adegan 3D ke file FBX
 second_title: Aspose.3D .NET API
 description: Jelajahi kekuatan Aspose.3D untuk .NET. perpustakaan serbaguna untuk manipulasi pemandangan 3D yang mulus. Muat, simpan, dan kompres dengan mudah.
-type: docs
 weight: 20
 url: /id/net/loading-and-saving/fbx/save-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyimpan Adegan 3D ke file FBX
+
 ## Perkenalan
 
 Selamat datang di perjalanan mengasyikkan ke dunia manipulasi adegan 3D menggunakan Aspose.3D untuk .NET! Baik Anda seorang pengembang berpengalaman atau penggemar yang penasaran, tutorial ini akan memandu Anda melalui proses memuat, menyimpan, dan mengompresi adegan 3D dengan mudah.
@@ -104,3 +110,9 @@ A2: Tentu saja! Aspose.3D terintegrasi secara mulus dengan perpustakaan .NET lai
 ### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.3D?
 
  A5: Ya, jelajahi fitur Aspose.3D dengan mengambil[uji coba gratis](https://releases.aspose.com/) Hari ini!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

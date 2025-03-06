@@ -3,10 +3,16 @@ title: Comprendre la hiérarchie des nœuds
 linktitle: Comprendre la hiérarchie des nœuds
 second_title: API Aspose.3D .NET
 description: Libérez la puissance d’Aspose.3D pour .NET ! Plongez dans la manipulation de la hiérarchie des nœuds avec ce guide étape par étape. Créez de superbes scènes 3D sans effort.
-type: docs
 weight: 16
 url: /fr/net/geometry-and-hierarchy/node-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprendre la hiérarchie des nœuds
+
 ## Introduction
 
 Bienvenue dans le monde d'Aspose.3D pour .NET, une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec des scènes et des modèles 3D dans leurs applications .NET. Dans ce didacticiel, nous approfondirons les subtilités de la compréhension de la hiérarchie des nœuds dans les scènes 3D à l'aide d'Aspose.3D. À la fin de ce guide, vous maîtriserez parfaitement la manière de manipuler la structure des scènes 3D via des nœuds, vous permettant ainsi de créer des expériences visuelles époustouflantes.
@@ -129,3 +135,9 @@ A4 : Absolument ! Aspose.3D est polyvalent et peut être intégré à des projet
 ### Q5 : Quelle est la différence entre une licence temporaire et une licence complète ?
 
 R5 : Une licence temporaire fournit un accès à court terme à des fins d'évaluation, tandis qu'une licence complète offre une utilisation sans restriction.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

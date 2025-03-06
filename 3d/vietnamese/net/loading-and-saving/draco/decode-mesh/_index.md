@@ -3,10 +3,16 @@ title: Lưới giải mã
 linktitle: Lưới giải mã
 second_title: API Aspose.3D .NET
 description: Giải mã các lưới dễ dàng bằng Aspose.3D cho .NET. Cổng vào lập trình 3D liền mạch của bạn. Khám phá, tùy chỉnh và nâng cao các dự án của bạn.
-type: docs
 weight: 10
 url: /vi/net/loading-and-saving/draco/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưới giải mã
+
 ## Giới thiệu
 Hãy hình dung thế này: bạn đang ở trong lĩnh vực phát triển 3D, cố gắng giải mã các cấu trúc lưới phức tạp. Thử thách là có thật, nhưng đừng sợ! Khi bắt đầu cuộc hành trình này, chúng ta sẽ điều hướng mê cung giải mã lưới bằng Aspose.3D cho .NET - người bạn đồng hành đáng tin cậy của bạn trong thế giới lập trình 3D.
 ## Điều kiện tiên quyết
@@ -55,3 +61,9 @@ Tuyệt đối! Aspose.3D hỗ trợ nhiều định dạng lưới, đảm bả
  Chắc chắn! Lấy của bạn[dùng thử miễn phí](https://releases.aspose.com/) để trải nghiệm sức mạnh của Aspose.3D trước khi đưa ra bất kỳ cam kết nào.
 ### Cần giấy phép tạm thời cho một dự án ngắn hạn?
  Đi tới[Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) và có được giấy phép tạm thời phù hợp với nhu cầu của dự án của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

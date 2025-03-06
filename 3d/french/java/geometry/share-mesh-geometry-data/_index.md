@@ -3,10 +3,16 @@ title: Partager des données de géométrie de maillage dans Java 3D avec Aspose
 linktitle: Partager des données de géométrie de maillage dans Java 3D avec Aspose.3D
 second_title: API Java Aspose.3D
 description: Explorez les merveilles de Java 3D avec Aspose.3D. Découvrez comment partager facilement des données de géométrie de maillage entre les nœuds dans ce didacticiel complet.
-type: docs
 weight: 15
 url: /fr/java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Partager des données de géométrie de maillage dans Java 3D avec Aspose.3D
+
 ## Introduction
 
 Se lancer dans un voyage dans le domaine de Java 3D avec Aspose.3D ouvre un monde de possibilités pour créer des visualisations époustouflantes et des expériences immersives. Dans ce didacticiel, nous vous guiderons tout au long du processus de partage de données géométriques de maillage dans Java 3D à l'aide d'Aspose.3D. Suivez attentivement chaque étape et, à la fin, vous échangerez de manière transparente des données de maillage entre plusieurs nœuds.
@@ -117,3 +123,9 @@ A1 : Oui, Aspose.3D est conçu pour fonctionner de manière transparente avec di
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.3D ?
 
  A5 : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

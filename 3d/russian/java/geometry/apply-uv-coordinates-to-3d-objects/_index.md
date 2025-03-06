@@ -3,10 +3,16 @@ title: Примените UV-координаты к 3D-объектам в Java
 linktitle: Примените UV-координаты к 3D-объектам в Java с помощью Aspose.3D
 second_title: Aspose.3D Java API
 description: Научитесь применять UV-координаты к 3D-объектам в Java с помощью Aspose.3D. Улучшите свою графику с помощью этого пошагового руководства.
-type: docs
 weight: 18
 url: /ru/java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Примените UV-координаты к 3D-объектам в Java с помощью Aspose.3D
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по применению UV-координат к 3D-объектам в Java с использованием Aspose.3D. В мире 3D-графики UV-координаты играют решающую роль в нанесении текстур на поверхности, повышая визуальную привлекательность ваших творений. Это руководство проведет вас через весь процесс, разбив каждый шаг, чтобы обеспечить плавное и эффективное обучение.
@@ -104,3 +110,9 @@ System.out.println("\nUVs have been set up successfully on the cube.");
 ### В5: Где я могу приобрести Aspose.3D?
 
  A5: Чтобы приобрести Aspose.3D, посетите[страница покупки](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

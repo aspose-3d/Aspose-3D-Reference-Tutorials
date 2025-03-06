@@ -3,10 +3,16 @@ title: Travailler avec des animations en Java
 linktitle: Travailler avec des animations en Java
 second_title: API Java Aspose.3D
 description: Élevez vos projets Java 3D avec les didacticiels Aspose.3D ! Apprenez à ajouter des propriétés d'animation et à configurer les caméras cibles de manière transparente pour un développement 3D captivant.
-type: docs
 weight: 20
 url: /fr/java/animations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec des animations en Java
+
 ## Introduction
 
 Bienvenue dans les didacticiels Aspose.3D pour Java, où nous plongeons dans le domaine passionnant des projets 3D basés sur Java. Dans cette série, nous nous concentrons sur la maîtrise des animations pour apporter vie et dynamisme à vos créations. Alors attachez vos ceintures et embarquez pour un voyage passionnant à travers le royaume des animations 3D avec Aspose.3D !
@@ -30,3 +36,9 @@ Plongez-vous dans les didacticiels Aspose.3D pour Java et transformez vos projet
 Améliorez vos projets 3D basés sur Java avec Aspose.3D. Suivez notre tutoriel pour ajouter des propriétés d'animation de manière transparente.
 ### [Configurer la caméra cible pour les animations 3D en Java | Tutoriel Aspose.3D](./set-up-target-camera/)
 Explorez les animations Java 3D sans effort avec Aspose.3D. Suivez notre tutoriel pour un guide étape par étape. Téléchargez-le dès maintenant pour un parcours de développement 3D captivant.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

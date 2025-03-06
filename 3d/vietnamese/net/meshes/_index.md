@@ -3,10 +3,16 @@ title: Mắt lưới
 linktitle: Mắt lưới
 second_title: API Aspose.3D .NET
 description: Mở khóa những bí mật của Aspose.3D cho .NET bằng các hướng dẫn toàn diện của chúng tôi. Tối ưu hóa mô hình 3D, chuyển đổi nguyên thủy thành lưới và nâng cao đồ họa một cách dễ dàng.
-type: docs
 weight: 26
 url: /vi/net/meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mắt lưới
+
 ## Giới thiệu
 
 Aspose.3D for .NET mở ra một thế giới khả năng cho các nhà phát triển đang tìm cách đi sâu vào sự phức tạp của lưới 3D. Trong bài viết này, chúng tôi sẽ hướng dẫn bạn qua các Hướng dẫn về lưới khác nhau, mỗi Hướng dẫn cung cấp một góc nhìn độc đáo về cách khai thác toàn bộ tiềm năng của Aspose.3D cho .NET.
@@ -69,3 +75,9 @@ Nắm vững nghệ thuật chia lưới 3D theo vật liệu với Aspose.3D ch
 [Đọc hướng dẫn: Chia lưới theo vật liệu](./split-mesh-by-material/)
 
 Tóm lại, hướng dẫn Aspose.3D cho .NET của chúng tôi cung cấp hướng dẫn toàn diện để nắm vững các khía cạnh khác nhau của mô hình 3D. Hãy tham gia, nâng cao kỹ năng và nâng tầm trò chơi phát triển 3D của bạn!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

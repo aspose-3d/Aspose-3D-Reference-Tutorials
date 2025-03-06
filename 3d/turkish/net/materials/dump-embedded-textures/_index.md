@@ -3,10 +3,16 @@ title: Gömülü Dokuları Atma
 linktitle: Gömülü Dokuları Atma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D modellerdeki gömülü dokuların sırlarını açığa çıkarın. Sorunsuz entegrasyon için adım adım kılavuzumuza göz atın. Şimdi ücretsiz deneme sürümünü indirin!
-type: docs
 weight: 11
 url: /tr/net/materials/dump-embedded-textures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gömülü Dokuları Atma
+
 ## giriiş
 Aspose.3D for .NET dünyasına hoş geldiniz; geliştiricilerin 3D dosyaları sorunsuz bir şekilde işlemesine ve bunlarla çalışmasına olanak tanıyan güçlü bir araç seti. Bu kapsamlı eğitimde Aspose.3D'yi kullanarak gömülü dokuları boşaltmanın büyüleyici dünyasına gireceğiz. Gömülü dokuların potansiyelini açığa çıkararak 3D uygulamanızı geliştirmek istiyorsanız doğru yerdesiniz.
 ## Önkoşullar
@@ -71,3 +77,9 @@ C: Aspose.3D öncelikle .NET dillerini destekler ancak diğer diller için sarma
  C: Evet, geçici lisans mevcut[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.3D için kapsamlı belgeleri nerede bulabilirim?
  C: Dokümantasyona erişilebilir[Burada](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

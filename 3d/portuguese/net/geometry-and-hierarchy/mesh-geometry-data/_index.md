@@ -3,10 +3,16 @@ title: Trabalhando com dados de geometria de malha
 linktitle: Trabalhando com dados de geometria de malha
 second_title: API Aspose.3D .NET
 description: Domine a arte da programação gráfica 3D com Aspose.3D para .NET. Crie, manipule e salve cenas 3D impressionantes sem esforço.
-type: docs
 weight: 15
 url: /pt/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabalhando com dados de geometria de malha
+
 ## Introdução
 
 Bem-vindo ao emocionante mundo da programação gráfica 3D com Aspose.3D for .NET! Neste tutorial, nos aprofundaremos nas complexidades de trabalhar com dados de geometria de malha em cenas 3D usando Aspose.3D, uma biblioteca poderosa e versátil para desenvolvedores .NET. Quer você seja um programador experiente ou esteja apenas começando com gráficos 3D, este guia passo a passo o ajudará a dominar a arte de lidar com dados de geometria de malha sem esforço.
@@ -126,3 +132,9 @@ A1: O Aspose.3D foi projetado principalmente para .NET, mas você pode explorar 
 ### P5: Quais formatos de arquivo são suportados para salvar cenas 3D?
 
  A5: Aspose.3D suporta vários formatos de arquivo, incluindo FBX, STL e muito mais. Consulte o[documentação](https://reference.aspose.com/3d/net/) para obter uma lista completa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java'da Esneklik için 3B Meshleri Özel İkili Formatlarda Kaydetme
 linktitle: Java'da Esneklik için 3B Meshleri Özel İkili Formatlarda Kaydetme
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java'yı kullanarak 3D ağları özel ikili formatlarda nasıl kaydedeceğinizi öğrenin. Bu adım adım eğitimle Java uygulamalarında esnekliği artırın.
-type: docs
 weight: 13
 url: /tr/java/3d-scenes-and-models/save-custom-mesh-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Esneklik için 3B Meshleri Özel İkili Formatlarda Kaydetme
+
 ## giriiş
 
 Aspose.3D kullanarak Java'da esneklik sağlamak için 3D mesh'leri özel ikili formatlarda kaydetmeye yönelik bu adım adım eğitime hoş geldiniz. Bu kılavuzda, Java uygulamalarınızdaki esnekliği ve birlikte çalışabilirliği artırmak için 3B ağları dönüştürme ve bunları özel bir ikili formatta kaydetme sürecinde size yol göstereceğiz.
@@ -124,3 +130,9 @@ Cevap4: Aspose.3D belgeleri örnek modeller içerebilir veya test için 3D model
 ### S5: İkili formatı belirli gereksinimler için daha da özelleştirebilir miyim?
 
 Cevap5: Kesinlikle, ikili formatı uygulamanızın özel ihtiyaçlarına uyacak şekilde uyarlamaktan çekinmeyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

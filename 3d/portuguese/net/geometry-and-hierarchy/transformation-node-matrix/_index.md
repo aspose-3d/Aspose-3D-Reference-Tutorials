@@ -3,10 +3,16 @@ title: Transformando Nó por Matriz de Transformação
 linktitle: Transformando Nó por Matriz de Transformação
 second_title: API Aspose.3D .NET
 description: Transforme nós sem esforço em cenas 3D usando Aspose.3D para .NET. Aprenda transformações de nós passo a passo com tutorial.
-type: docs
 weight: 21
 url: /pt/net/geometry-and-hierarchy/transformation-node-matrix/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformando Nó por Matriz de Transformação
+
 ## Introdução
 
 No domínio dinâmico dos gráficos e visualizações 3D, a capacidade de manipular objetos dentro de uma cena é um aspecto crucial. Aspose.3D for .NET capacita os desenvolvedores a transformar nós perfeitamente usando matrizes de transformação, adicionando uma camada de criatividade e controle às cenas 3D. Este tutorial irá guiá-lo passo a passo pelo processo de transformação de um nó em uma cena 3D.
@@ -112,3 +118,9 @@ A2: Sim, você pode combinar múltiplas transformações multiplicando suas resp
 ### Q5: Onde posso procurar assistência ou conectar-me com a comunidade Aspose.3D?
 
  A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para fazer perguntas, compartilhar experiências e conectar-se com outros desenvolvedores usando Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

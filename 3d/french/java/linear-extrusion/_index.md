@@ -3,10 +3,16 @@ title: Création de modèles 3D avec extrusion linéaire en Java
 linktitle: Création de modèles 3D avec extrusion linéaire en Java
 second_title: API Java Aspose.3D
 description: Explorez le monde de la modélisation 3D avec Aspose.3D pour Java. Maîtrisez l’extrusion linéaire sans effort. Centre de contrôle, définissez la direction, spécifiez les tranches, appliquez une torsion et bien plus encore !
-type: docs
 weight: 23
 url: /fr/java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création de modèles 3D avec extrusion linéaire en Java
+
 ## Introduction
 
 
@@ -62,3 +68,9 @@ Apprenez à spécifier des tranches en extrusion linéaire à l'aide d'Aspose.3D
 Apprenez à ajouter une touche à vos modèles 3D à l'aide d'Aspose.3D pour Java. Suivez notre guide étape par étape pour des effets d'extrusion linéaire améliorés.
 ### [Utilisation du décalage de torsion dans l'extrusion linéaire avec Aspose.3D pour Java](./using-twist-offset/)
 Améliorez vos compétences en modélisation 3D avec Aspose.3D pour Java. Apprenez à utiliser le décalage de torsion dans l'extrusion linéaire dans ce didacticiel complet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

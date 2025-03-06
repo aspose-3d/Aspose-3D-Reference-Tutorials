@@ -3,10 +3,16 @@ title: Aplique materiales PBR a objetos 3D en Java con Aspose.3D
 linktitle: Aplique materiales PBR a objetos 3D en Java con Aspose.3D
 second_title: API de Java Aspose.3D
 description: Aprenda a aplicar materiales PBR realistas a objetos 3D en Java usando Aspose.3D. Mejore la calidad visual con el renderizado basado físicamente.
-type: docs
 weight: 10
 url: /es/java/geometry/apply-pbr-materials-to-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplique materiales PBR a objetos 3D en Java con Aspose.3D
+
 ## Introducción
 
 Bienvenido a esta guía paso a paso sobre cómo aplicar materiales de renderizado basado físicamente (PBR) a objetos 3D en Java usando Aspose.3D. Aspose.3D es una potente biblioteca Java que proporciona una funcionalidad integral para trabajar con modelos y escenas 3D. En este tutorial, nos centraremos en la aplicación de materiales PBR, que simulan la iluminación y las propiedades de la superficie del mundo real, mejorando el realismo de sus objetos 3D.
@@ -102,3 +108,9 @@ Repita estos pasos para escenas más complejas u objetos diferentes.
 ### P5: ¿Cómo obtengo una licencia temporal para realizar pruebas?
 
  A5: Visita[este enlace](https://purchase.aspose.com/temporary-license/) para obtener una licencia temporal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

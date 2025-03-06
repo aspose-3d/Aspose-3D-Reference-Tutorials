@@ -3,10 +3,16 @@ title: Java의 PLY 내보내기를 통해 포인트 클라우드 처리 간소�
 linktitle: Java의 PLY 내보내기를 통해 포인트 클라우드 처리 간소화
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java에서 간소화된 포인트 클라우드 처리를 살펴보세요. PLY 파일을 손쉽게 내보내는 방법을 알아보세요. 단계별 가이드를 통해 귀하의 3D 그래픽 프로젝트를 향상시켜 보세요.
-type: docs
 weight: 16
 url: /ko/java/point-clouds/ply-export-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java의 PLY 내보내기를 통해 포인트 클라우드 처리 간소화
+
 ## 소개
 
 Aspose.3D를 사용하여 Java에서 PLY 내보내기를 통한 포인트 클라우드 처리 간소화에 대한 포괄적인 가이드에 오신 것을 환영합니다. 포인트 클라우드 처리는 3D 그래픽 및 시각화의 중요한 측면이며 Aspose.3D는 이 프로세스를 단순화하고 향상시키는 강력한 도구를 제공합니다. 이 튜토리얼에서는 효율적인 포인트 클라우드 처리에 중점을 두고 PLY 파일을 내보낼 때 Java용 Aspose.3D를 활용하는 데 필요한 단계를 안내합니다.
@@ -92,3 +98,9 @@ A2: 예, Aspose.3D는 상업용 및 개인용 모두에 적합합니다.
 ### Q5: Aspose.3D에 대한 자세한 문서를 탐색할 수 있습니까?
 
  A5: 물론이죠! 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/3d/java/) 자세한 정보를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

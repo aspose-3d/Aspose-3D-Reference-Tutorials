@@ -3,10 +3,16 @@ title: Aspose.3D for Java ile Doğrusal Ekstrüzyonda Kontrol Merkezi
 linktitle: Aspose.3D for Java ile Doğrusal Ekstrüzyonda Kontrol Merkezi
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile Java'daki 3D grafik dünyasını keşfedin. Doğrusal ekstrüzyonda merkezi zahmetsizce kontrol edin.
-type: docs
 weight: 11
 url: /tr/java/linear-extrusion/controlling-center/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java ile Doğrusal Ekstrüzyonda Kontrol Merkezi
+
 ## giriiş
 
 3D grafik ve Java programlama dünyasında, doğrusal ekstrüzyonda merkezin kontrol edilmesi, projelerinizde istenilen efektlerin elde edilmesinde çok önemli bir rol oynar. Aspose.3D for Java, bu tür görevleri sorunsuz bir şekilde gerçekleştirmek için güçlü bir araç seti sağlar. Bu eğitimde, Aspose.3D for Java'yı kullanarak doğrusal ekstrüzyonda merkezi kontrol etme sürecine dalacağız ve sorunsuz ve kapsamlı bir anlayış sağlamak için her adımı parçalara ayıracağız.
@@ -126,3 +132,9 @@ Cevap4: Evet, test amacıyla geçici bir lisansa ihtiyacınız varsa bir tane al
 ### S5: Belgeleri nerede bulabilirim?
 
  Cevap5: Aspose.3D for Java'nın belgeleri mevcut[Burada](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

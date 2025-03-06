@@ -4,10 +4,16 @@ linktitle: Aspose.3D for Java による線形押し出しでのツイスト オ�
 second_title: Aspose.3D Java API
 description: Aspose.3D for Java を使用して 3D モデリング スキルを強化します。この包括的なチュートリアルでは、線形押し出しでのツイスト オフセットの使用方法を学習します。
 
-type: docs
 weight: 15
 url: /ja/java/linear-extrusion/using-twist-offset/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java による線形押し出しでのツイスト オフセットの使用
+
 ## 導入
 
 3D グラフィックスのダイナミックな世界では、線形押し出しの技術を習得することがゲームチェンジャーとなります。 Aspose.3D for Java を使用すると、ツイスト オフセット機能を線形押し出しプロセスに組み込むことで、3D モデリングのスキルを向上させることができます。このチュートリアルでは、Aspose.3D for Java を使用して線形押し出しでツイスト オフセットを利用する手順を説明し、見事な 3D シーンを作成するツールを提供します。
@@ -113,3 +119,9 @@ scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### Q5: 追加の例やチュートリアルはありますか?
 
  A5: はい、を参照してください。[ドキュメンテーション](https://reference.aspose.com/3d/java/)より多くの例と詳細なチュートリアルについては、こちらをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

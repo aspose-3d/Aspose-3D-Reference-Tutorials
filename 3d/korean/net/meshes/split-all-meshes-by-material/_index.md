@@ -3,10 +3,16 @@ title: 장면의 모든 메시를 재료별로 분할하기
 linktitle: 장면의 모든 메시를 재료별로 분할하기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 메쉬를 재료별로 분할하는 방법을 알아보세요. 3D 모델의 효율적인 구성 및 관리를 위한 단계별 가이드를 따르십시오.
-type: docs
 weight: 21
 url: /ko/net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 장면의 모든 메시를 재료별로 분할하기
+
 ## 소개
 .NET용 Aspose.3D를 사용하여 3D 장면의 모든 메시를 재료별로 분할하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 3D 모델로 작업하고 재료를 기반으로 메시를 효율적으로 구성하려는 경우 이 튜토리얼이 적합합니다. Aspose.3D는 3D 파일 작업을 위한 다양한 기능을 제공하는 강력한 .NET 라이브러리이므로 개발자에게 탁월한 선택입니다.
 ## 전제 조건
@@ -66,3 +72,9 @@ Aspose.3D는 기본적으로 .NET용으로 설계되었지만 .NET 언어 바인
  방문하다[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 커뮤니티 지원 및 토론을 위해.
 ### 5. 임시면허를 취득할 수 있나요?
  네, 임시면허증을 받으실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

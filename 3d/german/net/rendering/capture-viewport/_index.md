@@ -3,10 +3,16 @@ title: Erfassen von Ansichtsfenstern in 3D-Szenen
 linktitle: Erfassen von Ansichtsfenstern in 3D-Szenen
 second_title: Aspose.3D .NET API
 description: Erfahren Sie, wie Sie mit Aspose.3D für .NET atemberaubende 3D-Ansichtsfenster erfassen. Schritt-für-Schritt-Anleitung zum flexiblen Rendern von Szenen.
-type: docs
 weight: 11
 url: /de/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erfassen von Ansichtsfenstern in 3D-Szenen
+
 ## Einführung
 
 Im Bereich der 3D-Grafik und -Visualisierung ist die Erfassung von Ansichtsfenstern eine wesentliche Fähigkeit, die die Tiefe und Detailgenauigkeit Ihrer Szenen verbessert. Aspose.3D für .NET bietet eine robuste Lösung zum Rendern und Bearbeiten von 3D-Szenen. Dieses Tutorial führt Sie durch den Prozess der Erfassung von Ansichtsfenstern in 3D-Szenen mit Aspose.3D, sodass Sie ganz einfach beeindruckende Visualisierungen erstellen können.
@@ -124,3 +130,9 @@ A2: Während Aspose.3D in erster Linie für Grafiken und Visualisierung konzipie
 ### F5: Wie kann ich Hilfe suchen oder mich an der Community beteiligen?
 
  A5: Treten Sie der Aspose.3D-Community bei[Hilfeforum](https://forum.aspose.com/c/3d/18) für Hilfe und Zusammenarbeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

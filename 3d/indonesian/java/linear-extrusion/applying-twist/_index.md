@@ -3,10 +3,16 @@ title: Menerapkan Twist dalam Ekstrusi Linier dengan Aspose.3D untuk Java
 linktitle: Menerapkan Twist dalam Ekstrusi Linier dengan Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Pelajari cara menambahkan sentuhan unik pada model 3D Anda menggunakan Aspose.3D untuk Java. Ikuti panduan langkah demi langkah kami untuk meningkatkan efek ekstrusi linier.
-type: docs
 weight: 14
 url: /id/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menerapkan Twist dalam Ekstrusi Linier dengan Aspose.3D untuk Java
+
 ## Perkenalan
 
 Selamat datang di tutorial langkah demi langkah tentang menerapkan twist dalam ekstrusi linier menggunakan Aspose.3D untuk Java. Aspose.3D adalah perpustakaan Java yang kuat yang memungkinkan pengembang untuk bekerja dengan format file 3D, menawarkan fungsionalitas yang kuat untuk membuat, memanipulasi, dan merender adegan 3D. Dalam tutorial ini, kita akan mempelajari cara menerapkan efek putaran selama proses ekstrusi linier untuk menyempurnakan model 3D Anda.
@@ -119,3 +125,9 @@ A1: Ya, Aspose.3D mendukung berbagai format file 3D, memungkinkan Anda mengimpor
 ### Q5: Di mana saya bisa membeli Aspose.3D untuk Java?
 
  A5: Beli Aspose.3D untuk Java dari[halaman pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

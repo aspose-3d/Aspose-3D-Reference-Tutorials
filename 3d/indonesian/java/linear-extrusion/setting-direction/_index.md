@@ -3,10 +3,16 @@ title: Menetapkan Arah dalam Ekstrusi Linier dengan Aspose.3D untuk Java
 linktitle: Menetapkan Arah dalam Ekstrusi Linier dengan Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Kuasai ekstrusi linier dengan Aspose.3D untuk Java! Ikuti panduan kami untuk pemrograman 3D yang lancar. Unduh sekarang untuk pengalaman menawan.
-type: docs
 weight: 12
 url: /id/java/linear-extrusion/setting-direction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menetapkan Arah dalam Ekstrusi Linier dengan Aspose.3D untuk Java
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami tentang pengaturan arah dalam ekstrusi linier menggunakan Aspose.3D untuk Java. Aspose.3D adalah perpustakaan Java yang kuat yang memungkinkan pengembang untuk bekerja secara lancar dengan file dan adegan 3D. Dalam tutorial ini, kami akan fokus pada tugas khusus mengatur arah dalam ekstrusi linier, meningkatkan kemahiran Anda dalam pemrograman 3D.
@@ -108,3 +114,9 @@ A1: Aspose.3D mendukung berbagai bahasa pemrograman, termasuk .NET dan Java.
 ### Q5: Apakah lisensi sementara tersedia untuk Aspose.3D?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Java 中生成 3D 网格的切线和副法线数据
 linktitle: 在 Java 中生成 3D 网格的切线和副法线数据
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D for Java 增强您的 3D 图形。轻松生成切线和副法线数据。立即免费试用！
-type: docs
 weight: 11
 url: /zh/java/transforming-3d-meshes/generate-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中生成 3D 网格的切线和副法线数据
+
 在 3D 图形的动态世界中，理解和操作切线和副法线数据对于创建逼真且具有视觉吸引力的模型至关重要。本分步指南将引导您完成使用 Aspose.3D for Java 生成 3D 网格的切线和副法线数据的过程。作为一名熟练的 SEO 作家，我将确保本教程不仅内容丰富，而且针对搜索引擎进行了优化。
 ## 介绍
 创建沉浸式 3D 体验通常需要的不仅仅是建模。切线和副法线数据在着色和照明中发挥着至关重要的作用，可增强 3D 场景的真实感。借助 Aspose.3D for Java，您可以轻松生成这些数据，并将您的 3D 图形提升到一个新的水平。
@@ -56,3 +62,9 @@ scene.save("BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII);
 您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以购买 Aspose.3D？
 你可以购买Aspose.3D[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

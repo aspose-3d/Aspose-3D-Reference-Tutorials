@@ -3,10 +3,16 @@ title: Zielkamera für 3D-Animationen in Java einrichten | Aspose.3D-Tutorial
 linktitle: Zielkamera für 3D-Animationen in Java einrichten | Aspose.3D-Tutorial
 second_title: Aspose.3D Java-API
 description: Entdecken Sie mühelos Java 3D-Animationen mit Aspose.3D. Folgen Sie unserem Tutorial für eine Schritt-für-Schritt-Anleitung. Laden Sie es jetzt herunter und erleben Sie eine fesselnde 3D-Entwicklungsreise.
-type: docs
 weight: 11
 url: /de/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zielkamera für 3D-Animationen in Java einrichten | Aspose.3D-Tutorial
+
 ## Einführung
 
 Willkommen zu dieser Schritt-für-Schritt-Anleitung zum Einrichten einer Zielkamera für 3D-Animationen in Java mit Aspose.3D. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst mit 3D-Animationen in Java beginnen, dieses Tutorial führt Sie mit klaren und prägnanten Anweisungen durch den Prozess.
@@ -98,3 +104,9 @@ Glückwunsch! Sie haben mit Aspose.3D erfolgreich eine Zielkamera für 3D-Animat
 ### F5: Wie kann ich eine temporäre Lizenz erhalten?
 
  A5: Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

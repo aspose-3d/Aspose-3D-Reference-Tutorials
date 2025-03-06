@@ -3,10 +3,16 @@ title: 將 PBR 材質應用到盒子上
 linktitle: 將 PBR 材質應用到盒子上
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 圖形世界。使用基於物理的渲染材質輕鬆創建身臨其境的場景。
-type: docs
 weight: 10
 url: /zh-hant/net/geometry-and-hierarchy/apply-pbr-material-to-box/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 PBR 材質應用到盒子上
+
 ## 介紹
 
 歡迎來到 3D 圖形的迷人世界！在本逐步指南中，我們將探索強大的 Aspose.3D for .NET 函式庫，並學習如何使用基於實體的渲染 (PBR) 材質來建立令人驚嘆的 3D 場景。 Aspose.3D 簡化了 3D 圖形的複雜過程，並為開發人員開闢了可能性的領域。
@@ -113,3 +119,9 @@ A2：當然！ Aspose.3D 提供商業許可證，可無縫整合到您的應用�
 ### Q5：如何取得Aspose.3D的臨時授權？
 
  A5：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)出於評估目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

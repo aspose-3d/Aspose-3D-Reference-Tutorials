@@ -3,10 +3,16 @@ title: Εκτέλεση Γραμμικής Εξώθησης στο Aspose.3D γ�
 linktitle: Εκτέλεση Γραμμικής Εξώθησης στο Aspose.3D για Java
 second_title: Aspose.3D Java API
 description: Εξερευνήστε τον κόσμο της τρισδιάστατης μοντελοποίησης με το Aspose.3D για Java. Μάθετε να εκτελείτε γραμμική εξώθηση χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/java/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εκτέλεση Γραμμικής Εξώθησης στο Aspose.3D για Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτό το ολοκληρωμένο σεμινάριο για την εκτέλεση γραμμικής εξώθησης στο Aspose.3D για Java! Αν θέλετε να βελτιώσετε τις δεξιότητές σας στο τρισδιάστατο μοντέλο χρησιμοποιώντας Java, βρίσκεστε στο σωστό μέρος. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εκτέλεσης γραμμικής εξώθησης χρησιμοποιώντας το Aspose.3D, μια ισχυρή βιβλιοθήκη Java για τρισδιάστατη μοντελοποίηση.
@@ -104,3 +110,9 @@ A2: Ναι, το Aspose.3D μπορεί να χρησιμοποιηθεί τόσ
 ### Ε5: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.3D;
 
  A5: Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

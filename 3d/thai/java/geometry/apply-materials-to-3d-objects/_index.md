@@ -3,10 +3,16 @@ title: ใช้วัสดุกับวัตถุ 3 มิติใน Jav
 linktitle: ใช้วัสดุกับวัตถุ 3 มิติใน Java ด้วย Aspose.3D
 second_title: Aspose.3D จาวา API
 description: สำรวจโลกของกราฟิก 3 มิติด้วย Aspose.3D สำหรับ Java เรียนรู้วิธีการนำวัสดุไปใช้กับวัตถุ 3 มิติได้อย่างราบรื่น ยกระดับโครงการของคุณด้วยภาพที่สมจริง
-type: docs
 weight: 14
 url: /th/java/geometry/apply-materials-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ใช้วัสดุกับวัตถุ 3 มิติใน Java ด้วย Aspose.3D
+
 ## การแนะนำ
 
 ในโลกแบบไดนามิกของกราฟิก 3D Aspose.3D สำหรับ Java มีความโดดเด่นในฐานะเครื่องมืออันทรงพลังในการทำให้โปรเจ็กต์ของคุณมีชีวิตชีวา การเพิ่มวัสดุให้กับวัตถุ 3 มิติช่วยเพิ่มความน่าดึงดูดทางสายตา ทำให้วัตถุมีความสมจริงมากขึ้น ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการนำวัสดุไปใช้กับคิวบ์ 3 มิติโดยใช้ Aspose.3D สำหรับ Java
@@ -165,3 +171,9 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 ### คำถามที่ 5: ฉันสามารถดาวน์โหลดไลบรารี Aspose.3D จากลิงก์เฉพาะได้หรือไม่
 
  A5: ใช่ ใช้[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/3d/java/) เพื่อเข้าถึง Aspose.3D สำหรับ Java เวอร์ชันล่าสุด
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

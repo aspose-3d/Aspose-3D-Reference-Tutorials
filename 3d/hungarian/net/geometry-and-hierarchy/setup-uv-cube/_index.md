@@ -3,10 +3,16 @@ title: UV beállítása a Cube-on
 linktitle: UV beállítása a Cube-on
 second_title: Aspose.3D .NET API
 description: Ismerje meg az UV-leképezés beállítását 3D-kockán az Aspose.3D for .NET használatával. Hozzon létre vizuálisan lenyűgöző jeleneteket precíz textúra-leképezéssel.
-type: docs
 weight: 18
 url: /hu/net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# UV beállítása a Cube-on
+
 ## Bevezetés
 
 Lebilincselő és tetszetős 3D-s jelenetek létrehozása gyakran magában foglalja a geometriai formák UV-leképezésének aprólékos beállítását. Ebben az oktatóanyagban megvizsgáljuk, hogyan állíthat be UV-sugárzást egy kockán az Aspose.3D for .NET használatával. Az Aspose.3D egy hatékony .NET-könyvtár, amely a 3D-modellezés és -manipuláció átfogó szolgáltatáskészletét kínálja.
@@ -119,3 +125,9 @@ Gratulálunk! Sikeresen beállította az UV-leképezést egy kockán az Aspose.3
 ### 5. kérdés: Rendelkezésre állnak ideiglenes licencek?
 
  V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

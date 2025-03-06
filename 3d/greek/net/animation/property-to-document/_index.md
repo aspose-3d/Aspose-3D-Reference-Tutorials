@@ -3,10 +3,16 @@ title: Κίνηση ιδιοτήτων για τεκμηρίωση σε τρισ
 linktitle: Κίνηση ιδιοτήτων για τεκμηρίωση σε τρισδιάστατες σκηνές
 second_title: Aspose.3D .NET API
 description: Μάθετε να κάνετε κίνηση 3D ιδιοτήτων με το Aspose.3D για .NET. Οδηγός βήμα προς βήμα για τη δημιουργία δυναμικών σκηνών.
-type: docs
 weight: 10
 url: /el/net/animation/property-to-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κίνηση ιδιοτήτων για τεκμηρίωση σε τρισδιάστατες σκηνές
+
 ## Εισαγωγή
 
 Εάν βουτάτε στη σφαίρα της δημιουργίας τρισδιάστατων σκηνών και της κινούμενης εικόνας στο .NET, το Aspose.3D είναι η εργαλειοθήκη σας. Σε αυτόν τον οδηγό βήμα προς βήμα, θα εξερευνήσουμε τη διαδικασία δημιουργίας κινούμενων εικόνων σε σκηνές 3D χρησιμοποιώντας το Aspose.3D για .NET. Στο τέλος, θα είστε εξοπλισμένοι με τη γνώση για να δώσετε ζωή στα τρισδιάστατα έργα σας.
@@ -128,3 +134,9 @@ Console.WriteLine("\nAnimation property added successfully to document.\nFile sa
 ### Ε5: Μπορώ να αποκτήσω προσωρινή άδεια;
 
  A5: Ναι, μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

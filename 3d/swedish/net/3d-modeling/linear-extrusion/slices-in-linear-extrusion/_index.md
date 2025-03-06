@@ -3,10 +3,16 @@ title: Skivor i linjär extrudering
 linktitle: Skivor i linjär extrudering
 second_title: Aspose.3D .NET API
 description: Utforska en värld av 3D-design med Aspose.3D för .NET. Skapa fantastiska modeller med vår handledning för linjär extrudering.
-type: docs
 weight: 13
 url: /sv/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skivor i linjär extrudering
+
 ## Introduktion
 
 Välkommen till en värld av 3D-design med Aspose.3D för .NET! Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här handledningen att guida dig genom processen att skapa fantastiska 3D-visualiseringar med hjälp av det kraftfulla Aspose.3D-biblioteket.
@@ -116,3 +122,9 @@ S1: Aspose.3D är i första hand utformad för .NET, men du kan utforska interop
 ### F5: Kan jag använda en tillfällig licens för Aspose.3D för .NET?
 
  A5: Ja, skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) i utvärderingssyfte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hiển thị cảnh 3D trong ứng dụng Java
 linktitle: Hiển thị cảnh 3D trong ứng dụng Java
 second_title: API Java Aspose.3D
 description: Mở khóa thế giới đồ họa 3D trong Java với các hướng dẫn Aspose.3D. Nắm vững cách kết xuất thủ công, các kỹ thuật cơ bản, xử lý hình ảnh và kết xuất theo thời gian thực một cách dễ dàng.
-type: docs
 weight: 28
 url: /vi/java/rendering-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị cảnh 3D trong ứng dụng Java
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng bắt đầu cuộc hành trình vào thế giới đồ họa 3D quyến rũ trong Java chưa? Đừng tìm đâu xa! Aspose.3D for Java mang đến cho bạn một loạt hướng dẫn sẽ nâng cao kỹ năng lập trình Java của bạn lên một tầm cao mới. Hãy cùng đi sâu vào sự phức tạp của việc hiển thị cảnh 3D với các hướng dẫn toàn diện này.
@@ -48,3 +54,9 @@ Khám phá sức mạnh của Aspose.3D cho Java trong việc hiển thị cản
 Mở khóa thế giới đồ họa 3D với Aspose.3D cho Java. Tìm hiểu cách lưu những cảnh tuyệt đẹp vào hình ảnh một cách dễ dàng.
 ### [Triển khai kết xuất 3D thời gian thực trong các ứng dụng Java bằng SWT](./real-time-rendering-swt/)
 Khám phá sự kỳ diệu của kết xuất 3D thời gian thực trong Java với Aspose.3D. Tạo các ứng dụng trực quan tuyệt đẹp một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

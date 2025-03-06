@@ -3,10 +3,16 @@ title: Praca z chmurami punktów w Javie
 linktitle: Praca z chmurami punktów w Javie
 second_title: Aspose.3D API Java
 description: Bez wysiłku dekoduj, ładuj, twórz, eksportuj i usprawniaj chmury punktów w Javie dzięki samouczkom Aspose.3D. Krok po kroku rozwijaj swoje umiejętności programowania 3D.
-type: docs
 weight: 34
 url: /pl/java/point-clouds/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Praca z chmurami punktów w Javie
+
 
 ## Wstęp
 
@@ -49,3 +55,9 @@ Poznaj świat grafiki 3D z Aspose.3D w Javie. Dzięki temu prostemu samouczkowi 
 Dowiedz się, jak eksportować sceny 3D jako chmury punktów w Javie za pomocą Aspose.3D. Ulepsz swoje aplikacje dzięki potężnej grafice 3D i wizualizacjom.
 ### [Usprawnij obsługę chmur punktów dzięki eksportowi PLY w Javie](./ply-export-point-clouds-java/)
 Poznaj usprawnioną obsługę chmur punktów w Javie dzięki Aspose.3D. Dowiedz się, jak bez wysiłku eksportować pliki PLY. Ulepsz swoje projekty grafiki 3D, korzystając z naszego przewodnika krok po kroku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

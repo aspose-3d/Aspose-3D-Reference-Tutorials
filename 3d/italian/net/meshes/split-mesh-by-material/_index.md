@@ -3,10 +3,16 @@ title: Divisione della mesh per materiale
 linktitle: Divisione della mesh per materiale
 second_title: API Aspose.3D .NET
 description: Impara a dividere le mesh 3D per materiale con Aspose.3D per .NET. Migliorare l'organizzazione e l'efficienza della scena. Guida passo passo per gli sviluppatori.
-type: docs
 weight: 22
 url: /it/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Divisione della mesh per materiale
+
 ## introduzione
 Benvenuti in questo tutorial completo sulla divisione di una mesh per materiale utilizzando Aspose.3D per .NET! Se sei uno sviluppatore che lavora con la grafica 3D e desideri gestire e manipolare in modo efficiente le mesh, sei nel posto giusto. In questa guida esploreremo il processo di divisione di una mesh in base al materiale, un compito cruciale nella creazione di scene 3D diverse e visivamente accattivanti.
 ## Prerequisiti
@@ -71,3 +77,9 @@ In generale, la policy CloneData potrebbe avere prestazioni leggermente migliori
 Sì, puoi eseguire il rendering e visualizzare le sottomesh risultanti utilizzando le funzionalità di rendering Aspose.3D.
 ### D: Aspose.3D è adatto allo sviluppo di giochi?
 Sebbene utilizzato principalmente per la modellazione e il rendering, Aspose.3D può essere integrato nelle pipeline di sviluppo di giochi per attività specifiche.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

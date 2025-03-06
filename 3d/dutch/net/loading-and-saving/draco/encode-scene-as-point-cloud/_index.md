@@ -3,10 +3,16 @@ title: Scène coderen als Point Cloud
 linktitle: Scène coderen als Point Cloud
 second_title: Aspose.3D .NET-API
 description: Ontdek de wereld van 3D-modellering in .NET met Aspose.3D. Leer moeiteloos bollen in puntenwolken te coderen. Laat nu uw creativiteit de vrije loop!
-type: docs
 weight: 14
 url: /nl/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Scène coderen als Point Cloud
+
 ## Invoering
 Welkom bij deze uitgebreide handleiding over het coderen van een bol als een puntenwolk met Aspose.3D voor .NET. Aspose.3D is een krachtige en veelzijdige bibliotheek waarmee ontwikkelaars naadloos met 3D-modellen kunnen werken in hun .NET-toepassingen. In deze zelfstudie leiden we u door het proces van het coderen van een bol naar een puntenwolk met behulp van Aspose.3D.
 ## Vereisten
@@ -60,3 +66,9 @@ Ja, je kunt Aspose.3D verkennen met een gratis proefperiode. Download het[hier](
  Bezoek het Aspose.3D-forum[hier](https://forum.aspose.com/c/3d/18) voor gemeenschapsondersteuning en discussies.
 ### Heb ik een tijdelijke licentie nodig voor testen?
  Ja, als u de bibliotheek test, kunt u een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

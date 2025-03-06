@@ -3,10 +3,16 @@ title: Driedimensionale eigenschappen instellen in 3D-scènes
 linktitle: Driedimensionale eigenschappen instellen in 3D-scènes
 second_title: Aspose.3D .NET-API
 description: Verken de Aspose.3D voor .NET-tutorial over het instellen van 3D-eigenschappen. Leer stap voor stap met codevoorbeelden. Verbeter uw vaardigheden op het gebied van 3D-scènemanipulatie.
-type: docs
 weight: 14
 url: /nl/net/3d-scene/set-3d-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Driedimensionale eigenschappen instellen in 3D-scènes
+
 ## Invoering
 
 Het creëren van boeiende driedimensionale scènes vereist vaak de mogelijkheid om verschillende eigenschappen te manipuleren, waardoor diepte en realisme aan uw projecten wordt toegevoegd. Aspose.3D voor .NET biedt een krachtige toolset om dit te bereiken, waardoor u moeiteloos driedimensionale eigenschappen binnen uw 3D-scènes kunt instellen en wijzigen. In deze zelfstudie verkennen we het proces stap voor stap, waardoor u beter begrijpt hoe u Aspose.3D voor .NET effectief kunt gebruiken.
@@ -148,3 +154,10 @@ A1: Ja, Aspose.3D ondersteunt verschillende 3D-bestandsindelingen, waaronder FBX
 ### V5: Kan ik Aspose.3D voor .NET gratis uitproberen voordat ik een aankoop doe?
 
  A5: Zeker! Download de[gratis proefversie](https://releases.aspose.com/) om de kenmerken ervan te verkennen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

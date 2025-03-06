@@ -3,10 +3,16 @@ title: Kueri Objek Seperti XPath
 linktitle: Kueri Objek Seperti XPath
 second_title: Aspose.3D .NET API
 description: Bebaskan kekuatan Aspose.3D untuk .NET! Memanipulasi grafik 3D secara mulus dengan kueri seperti XPath. Unduh sekarang untuk pengalaman yang mengubah permainan.
-type: docs
 weight: 24
 url: /id/net/geometry-and-hierarchy/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kueri Objek Seperti XPath
+
 ## Perkenalan
 Memulai perjalanan untuk mengeluarkan potensi penuh Aspose.3D untuk .NET membuka pintu ke berbagai kemungkinan dalam manipulasi grafis 3D. Baik Anda seorang pengembang berpengalaman atau pendatang baru, panduan ini akan memandu Anda memahami nuansa memanfaatkan kemampuan Aspose.3D.
 ## Prasyarat
@@ -94,3 +100,9 @@ Versi uji coba gratis hadir dengan fitur terbatas. Periksa dokumentasi untuk det
  Mengunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan masyarakat.
 ### Apa kelebihan yang ditawarkan Aspose.3D dibandingkan perpustakaan 3D lainnya untuk .NET?
 Aspose.3D menyediakan serangkaian fitur yang komprehensif, termasuk kueri objek yang canggih dan kemampuan rendering yang tangguh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

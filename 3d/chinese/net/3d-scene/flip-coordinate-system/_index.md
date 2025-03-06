@@ -3,10 +3,16 @@ title: 3D 场景中翻转坐标系
 linktitle: 3D 场景中翻转坐标系
 second_title: Aspose.3D .NET API
 description: 掌握使用 Aspose.3D for .NET 在 3D 场景中翻转坐标系的艺术。请遵循我们的分步指南以实现无缝实施。
-type: docs
 weight: 12
 url: /zh/net/3d-scene/flip-coordinate-system/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D 场景中翻转坐标系
+
 ## 介绍
 
 欢迎阅读本分步指南，了解如何使用 Aspose.3D for .NET 在 3D 场景中翻转坐标系。如果您是希望在场景中操作坐标系的开发人员或 3D 爱好者，那么您来对地方了。在本教程中，我们将引导您完成整个过程，使您轻松无缝地实现此功能。
@@ -91,3 +97,9 @@ A1：Aspose.3D for .NET 主要是为 C# 编程而设计的。然而，Aspose 为
 ### Q5：我可以在哪里寻求与 Aspose.3D for .NET 相关的支持或提出问题？
 
  A5：Aspose 社区论坛[这里](https://forum.aspose.com/c/3d/18)是支持和讨论的理想场所。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

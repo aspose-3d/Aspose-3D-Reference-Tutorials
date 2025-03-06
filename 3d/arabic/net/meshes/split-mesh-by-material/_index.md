@@ -3,10 +3,16 @@ title: تقسيم الشبكة حسب المادة
 linktitle: تقسيم الشبكة حسب المادة
 second_title: Aspose.3D.NET API
 description: تعلم كيفية تقسيم الشبكات ثلاثية الأبعاد حسب المادة باستخدام Aspose.3D لـ .NET. تحسين تنظيم المشهد وكفاءته. دليل خطوة بخطوة للمطورين.
-type: docs
 weight: 22
 url: /ar/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقسيم الشبكة حسب المادة
+
 ## مقدمة
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول تقسيم الشبكة حسب المادة باستخدام Aspose.3D لـ .NET! إذا كنت مطورًا يعمل مع الرسومات ثلاثية الأبعاد وترغب في إدارة الشبكات ومعالجتها بكفاءة، فأنت في المكان الصحيح. في هذا الدليل، سوف نستكشف عملية تقسيم الشبكة بناءً على المادة، وهي مهمة حاسمة في إنشاء مشاهد ثلاثية الأبعاد متنوعة وجذابة بصريًا.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CompactData);
 نعم، يمكنك عرض الشبكات الفرعية الناتجة وتصورها باستخدام إمكانيات العرض Aspose.3D.
 ### س: هل Aspose.3D مناسب لتطوير الألعاب؟
 على الرغم من استخدامه بشكل أساسي للنمذجة والعرض، يمكن دمج Aspose.3D في مسارات تطوير الألعاب لمهام محددة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

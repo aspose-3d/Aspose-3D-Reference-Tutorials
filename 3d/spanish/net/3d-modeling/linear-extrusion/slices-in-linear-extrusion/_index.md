@@ -3,10 +3,16 @@ title: Rebanadas en extrusión lineal
 linktitle: Rebanadas en extrusión lineal
 second_title: Aspose.3D API .NET
 description: Explore el mundo del diseño 3D con Aspose.3D para .NET. Cree modelos impresionantes utilizando nuestro tutorial de extrusión lineal.
-type: docs
 weight: 13
 url: /es/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rebanadas en extrusión lineal
+
 ## Introducción
 
 ¡Bienvenido al mundo del diseño 3D usando Aspose.3D para .NET! Ya sea que sea un desarrollador experimentado o recién esté comenzando, este tutorial lo guiará a través del proceso de creación de impresionantes visualizaciones 3D utilizando la poderosa biblioteca Aspose.3D.
@@ -116,3 +122,9 @@ R1: Aspose.3D está diseñado principalmente para .NET, pero puede explorar opci
 ### P5: ¿Puedo utilizar una licencia temporal de Aspose.3D para .NET?
 
  R5: Sí, obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) para fines de evaluación.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

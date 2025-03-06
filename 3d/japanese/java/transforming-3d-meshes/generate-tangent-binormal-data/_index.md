@@ -3,10 +3,16 @@ title: Java で 3D メッシュの接線データと従法線データを生成�
 linktitle: Java で 3D メッシュの接線データと従法線データを生成する
 second_title: Aspose.3D Java API
 description: Aspose.3D for Java を使用して 3D グラフィックスを強化します。接線データと従法線データを簡単に生成します。今すぐ無料トライアルを試してください!
-type: docs
 weight: 11
 url: /ja/java/transforming-3d-meshes/generate-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で 3D メッシュの接線データと従法線データを生成する
+
 3D グラフィックスの動的な世界では、リアルで視覚的に魅力的なモデルを作成するには、接線データと従法線データを理解して操作することが重要です。このステップバイステップのガイドでは、Aspose.3D for Java を使用して 3D メッシュの接線および従法線データを生成するプロセスについて説明します。熟練した SEO ライターとして、このチュートリアルが有益であるだけでなく、検索エンジン向けに最適化されていることを確認します。
 ## 導入
 没入型 3D エクスペリエンスを作成するには、多くの場合、単なるモデリング以上のものが必要になります。接線データと従法線データは、シェーディングとライティングにおいて重要な役割を果たし、3D シーンのリアリズムを高めます。 Aspose.3D for Java を使用すると、このデータを簡単に生成し、3D グラフィックスを次のレベルに引き上げることができます。
@@ -56,3 +62,9 @@ scene.save("BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII);
 仮免許が取得できる[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.3D はどこで購入できますか?
  Aspose.3D を購入できます[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

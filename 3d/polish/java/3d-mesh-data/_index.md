@@ -3,10 +3,16 @@ title: Optymalizacja i praca z danymi siatki 3D w Javie
 linktitle: Optymalizacja i praca z danymi siatki 3D w Javie
 second_title: Aspose.3D API Java
 description: Optymalizuj swoje aplikacje 3D za pomocą Aspose.3D dla Java. Dowiedz się, jak kompresować siatki za pomocą Google Draco, generować dane siatki i wydajnie przetwarzać siatki 3D według materiału.
-type: docs
 weight: 32
 url: /pl/java/3d-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optymalizacja i praca z danymi siatki 3D w Javie
+
 ## Wstęp
 
 Czy jesteś gotowy, aby podnieść swoje umiejętności programowania 3D w Javie? Zanurz się w świecie Aspose.3D, gdzie oferujemy kompleksowe samouczki dotyczące optymalizacji i pracy z danymi siatki 3D. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, te samouczki umożliwią Ci bezproblemowe ulepszanie projektów Java.
@@ -31,3 +37,9 @@ Optymalizuj swoje aplikacje 3D za pomocą Aspose.3D. Dowiedz się, jak kompresow
 Ulepsz swoje projekty Java za pomocą Aspose.3D. Postępuj zgodnie z naszym samouczkiem, aby bez wysiłku wygenerować normalne dane dla siatek 3D. Z łatwością zanurz się w grafice 3D.
 ### [Podziel siatki 3D według materiału w celu wydajnego przetwarzania w Javie](./split-meshes-by-material/)
 Odkryj możliwości Aspose.3D w Javie dzięki naszemu przewodnikowi krok po kroku na temat efektywnego dzielenia siatek 3D według materiału. Bezproblemowo zwiększ wydajność swojej aplikacji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

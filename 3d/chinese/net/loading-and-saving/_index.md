@@ -3,10 +3,16 @@ title: 加载和保存
 linktitle: 加载和保存
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 提升您的 3D 建模游戏！掌握使用 CancellationToken 的高效加载和保存技术。立即探索！
-type: docs
 weight: 27
 url: /zh/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 加载和保存
+
 ## 介绍
 
 使用 Aspose.3D for .NET 深入探索 3D 建模的迷人领域，这是无缝高效的 3D 文档操作的门户。在本教程系列中，我们将探索加载和保存 3D 模型的复杂性，解锁充满创意的可能性的世界。
@@ -105,3 +111,9 @@ glTF 导出期间的压缩支持，优化文件大小而不影响视觉质量。
 ### 将嵌入纹理从 USDZ 加载到内存
 
 访问 USDZ 文件中嵌入的纹理数据。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 几何和层次结构
 linktitle: 几何和层次结构
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 教程解锁 3D 图形世界。从应用 PBR 材质到几何变换，轻松掌握各个方面。
-type: docs
 weight: 25
 url: /zh/net/geometry-and-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 几何和层次结构
+
 ## 介绍
 
 通过 Aspose.3D for .NET 教程踏上 3D 图形领域的激动人心的旅程。无论您是新手还是经验丰富的开发人员，这些分步指南都有望提高您的技能并揭开无缝 3D 图形操作的秘密。
@@ -72,3 +78,9 @@ url: /zh/net/geometry-and-hierarchy/
 通过此关于轻松三角化 3D 网格的分步指南，探索 Aspose.3D for .NET 的强大功能。提高您的建模技能以获得更身临其境的体验。[阅读更多](./triangulate-mesh/)
 
 踏上 Aspose.3D for .NET 教程的激动人心之旅，提升您的 3D 图形专业知识。深入研究每个教程，按照步骤操作，然后观察您的技能飙升到新的高度。快乐编码！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

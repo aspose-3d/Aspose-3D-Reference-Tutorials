@@ -3,10 +3,16 @@ title: Setting Three-Dimensional Properties in 3D Scenes
 linktitle: Setting Three-Dimensional Properties in 3D Scenes
 second_title: Aspose.3D .NET API
 description: Explore Aspose.3D for .NET tutorial on setting 3D properties. Learn step by step with code examples. Elevate your 3D scene manipulation skills.
-type: docs
 weight: 14
 url: /net/3d-scene/set-3d-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting Three-Dimensional Properties in 3D Scenes
+
 ## Introduction
 
 Creating captivating three-dimensional scenes often requires the ability to manipulate various properties, adding depth and realism to your projects. Aspose.3D for .NET provides a powerful toolset to achieve this, allowing you to set and modify three-dimensional properties within your 3D scenes effortlessly. In this tutorial, we'll explore the process step by step, enhancing your understanding of how to leverage Aspose.3D for .NET effectively.
@@ -149,3 +155,10 @@ A4: Refer to the [documentation](https://reference.aspose.com/3d/net/) for compr
 
 A5: Certainly! Download the [free trial version](https://releases.aspose.com/) to explore its features.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

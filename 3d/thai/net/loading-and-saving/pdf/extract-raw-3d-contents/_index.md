@@ -3,10 +3,16 @@ title: แยกเนื้อหา Raw 3D จาก PDF
 linktitle: แยกเนื้อหา Raw 3D จาก PDF
 second_title: Aspose.3D .NET API
 description: เรียนรู้การแยกเนื้อหา 3 มิติจาก PDF โดยใช้ Aspose.3D สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด
-type: docs
 weight: 14
 url: /th/net/loading-and-saving/pdf/extract-raw-3d-contents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แยกเนื้อหา Raw 3D จาก PDF
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คู่มือที่ครอบคลุมเกี่ยวกับการแยกเนื้อหา 3D Raw จาก PDF โดยใช้ Aspose.3D สำหรับ .NET Aspose.3D เป็น API ที่ทรงพลังและอเนกประสงค์ซึ่งช่วยให้นักพัฒนาทำงานกับไฟล์ 3D ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะเน้นที่กระบวนการแยกเนื้อหาดิบ 3 มิติจากไฟล์ PDF โดยให้คำแนะนำทีละขั้นตอนแก่คุณ
@@ -90,3 +96,9 @@ File.WriteAllBytes(fileName, content);
 ### คำถามที่ 5: มีเอกสารสำหรับ Aspose.3D หรือไม่
 
  A5: ใช่ สามารถดูเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

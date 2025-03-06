@@ -3,10 +3,16 @@ title: 将多边形转换为三角形
 linktitle: 将多边形转换为三角形
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 建模的无缝世界。使用我们的分步指南轻松将多边形转换为三角形。立即下载免费试用版！
-type: docs
 weight: 10
 url: /zh/net/meshes/convert-polygons-to-triangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将多边形转换为三角形
+
 ## 介绍
 如果您正在使用 .NET 深入研究令人兴奋的 3D 图形和建模世界，Aspose.3D 是一个可以简化您的工作流程的强大工具。 3D 建模中的一项关键操作是将多边形转换为三角形，在本教程中，我们将逐步指导您完成该过程。
 ## 先决条件
@@ -52,3 +58,9 @@ scene.Save("Your Output Directory" + "triangulated_out.fbx", FileFormat.FBX7400A
 您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 5. 在哪里可以购买 Aspose.3D for .NET？
 您可以购买Aspose.3D[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

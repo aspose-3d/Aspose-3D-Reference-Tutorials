@@ -3,10 +3,16 @@ title: Trabajar con datos de geometría de malla
 linktitle: Trabajar con datos de geometría de malla
 second_title: Aspose.3D API .NET
 description: Domine el arte de la programación de gráficos 3D con Aspose.3D para .NET. Crea, manipula y guarda impresionantes escenas 3D sin esfuerzo.
-type: docs
 weight: 15
 url: /es/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabajar con datos de geometría de malla
+
 ## Introducción
 
 ¡Bienvenido al apasionante mundo de la programación de gráficos 3D con Aspose.3D para .NET! En este tutorial, profundizaremos en las complejidades de trabajar con datos de geometría de malla en escenas 3D utilizando Aspose.3D, una biblioteca poderosa y versátil para desarrolladores .NET. Ya sea que sea un programador experimentado o esté comenzando con los gráficos 3D, esta guía paso a paso lo ayudará a dominar el arte de manejar datos de geometría de malla sin esfuerzo.
@@ -126,3 +132,9 @@ R1: Aspose.3D está diseñado principalmente para .NET, pero puede explorar otro
 ### P5: ¿Qué formatos de archivo se admiten para guardar escenas 3D?
 
  R5: Aspose.3D admite varios formatos de archivo, incluidos FBX, STL y más. Referirse a[documentación](https://reference.aspose.com/3d/net/) para obtener una lista completa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

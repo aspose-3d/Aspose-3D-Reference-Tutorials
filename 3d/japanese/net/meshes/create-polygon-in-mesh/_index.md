@@ -3,10 +3,16 @@ title: メッシュ内にポリゴンを作成する
 linktitle: メッシュ内にポリゴンを作成する
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D モデリングの世界を探索してください。メッシュ内に美しいポリゴンを簡単に作成します。今すぐダウンロードして、没入型の開発体験を体験してください!
-type: docs
 weight: 18
 url: /ja/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# メッシュ内にポリゴンを作成する
+
 ## 導入
 Aspose.3D for .NET を使用して、エキサイティングな 3D モデリングの世界に飛び込む準備はできていますか?スキルを向上させたい開発者、または素晴らしい 3D メッシュの作成に興味のある初心者にとって、ここは正しい場所です。この包括的なチュートリアルでは、Aspose.3D を使用してメッシュ内にポリゴンを作成するプロセスを説明します。
 ## 前提条件
@@ -59,3 +65,9 @@ A: Aspose.3D for .NET は主に Windows 環境向けに設計されています�
  A: 広範囲を探索してください[ドキュメンテーション](https://reference.aspose.com/3d/net/)深い洞察が得られます。
 ### Q: Aspose.3D for .NET を購入するにはどうすればよいですか?
  A: にアクセスしてください。[購入ページ](https://purchase.aspose.com/buy)ライセンスを取得して、Aspose.3D の可能性を最大限に引き出します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

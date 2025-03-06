@@ -3,10 +3,16 @@ title: أداء النتوء الخطي
 linktitle: أداء النتوء الخطي
 second_title: Aspose.3D.NET API
 description: استكشف عالم الرسومات ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. إجراء البثق الخطي في هذا الدليل التفصيلي خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أداء النتوء الخطي
+
 ## مقدمة:
 
 انطلق في رحلة مثيرة إلى عالم الرسومات ثلاثية الأبعاد باستخدام Aspose.3D for .NET، وهو مصدر قوة يرفع مستوى لعبة التطوير الخاصة بك. في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات Linear Extrusion - وهي تقنية رائعة تبث الحياة في ملفات تعريف ثابتة ثنائية الأبعاد، وتدفعها إلى عالم ديناميكي ثلاثي الأبعاد. دعونا نفتح الباب أمام الإبداع والابتكار باستخدام Aspose.3D!
@@ -106,3 +112,9 @@ scene.Save(RunExamples.GetOutputFilePath("LinearExtrusion.obj"), FileFormat.Wave
 ### س5: هل هناك نسخة تجريبية مجانية متاحة؟
 
  ج5: بالتأكيد! حمل النسخة التجريبية المجانية[هنا](https://releases.aspose.com/) لتجربة قدرات Aspose.3D بشكل مباشر.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

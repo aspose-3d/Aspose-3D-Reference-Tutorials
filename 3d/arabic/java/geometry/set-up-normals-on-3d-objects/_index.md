@@ -3,10 +3,16 @@ title: قم بإعداد العناصر الطبيعية على الكائنات
 linktitle: قم بإعداد العناصر الطبيعية على الكائنات ثلاثية الأبعاد في Java باستخدام Aspose.3D
 second_title: Aspose.3D جافا API
 description: تعلم كيفية إعداد القيم الطبيعية على الكائنات ثلاثية الأبعاد في Java باستخدام Aspose.3D. عزز رسوماتك من خلال هذا البرنامج التعليمي الشامل.
-type: docs
 weight: 17
 url: /ar/java/geometry/set-up-normals-on-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإعداد العناصر الطبيعية على الكائنات ثلاثية الأبعاد في Java باستخدام Aspose.3D
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول إعداد القيم الطبيعية على كائنات ثلاثية الأبعاد في Java باستخدام Aspose.3D. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام الرسومات ثلاثية الأبعاد، فإن فهم المعايير الطبيعية ومعالجتها يعد أمرًا بالغ الأهمية لتحقيق تأثيرات إضاءة واقعية في نماذجك ثلاثية الأبعاد. في هذا البرنامج التعليمي، سنرشدك خلال العملية، ونقسمها إلى خطوات سهلة المتابعة.
@@ -91,3 +97,9 @@ System.out.println("\nNormals have been set up successfully on the cube.");
 ### س5: هل تحتاج إلى المساعدة أو تريد المناقشة مع المجتمع؟
 
  ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) للدعم والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

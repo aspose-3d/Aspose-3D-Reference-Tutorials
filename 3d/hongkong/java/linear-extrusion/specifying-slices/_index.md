@@ -3,10 +3,16 @@ title: 使用 Aspose.3D for Java 指定線性拉伸中的切片
 linktitle: 使用 Aspose.3D for Java 指定線性拉伸中的切片
 second_title: Aspose.3D Java API
 description: 學習使用 Aspose.3D for Java 在線性拉伸中指定切片。透過本逐步指南提升您的 3D 建模技能。
-type: docs
 weight: 13
 url: /zh-hant/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D for Java 指定線性拉伸中的切片
+
 ## 介紹
 
 創建複雜的 3D 模型通常需要的不僅僅是創造力；它需要對您可以使用的工具有透徹的了解。 Aspose.3D for Java 在這方面是個遊戲規則改變者。在本教程中，我們將重點放在一個特定方面 - 指定線性擠出中的切片。
@@ -93,3 +99,9 @@ A4：造訪支援論壇[這裡](https://forum.aspose.com/c/3d/18).
 ### Q5：我可以購買臨時許可證嗎？
 
  A5：是的，可以取得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

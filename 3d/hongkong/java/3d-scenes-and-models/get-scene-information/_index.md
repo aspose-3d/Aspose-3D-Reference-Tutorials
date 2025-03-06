@@ -3,10 +3,16 @@ title: 從 Java 應用程式中的 3D 場景檢索訊息
 linktitle: 從 Java 應用程式中的 3D 場景檢索訊息
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 探索 Java 中的 3D 場景操作世界。本教學將引導您逐步檢索資訊。
-type: docs
 weight: 12
 url: /zh-hant/java/3d-scenes-and-models/get-scene-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 從 Java 應用程式中的 3D 場景檢索訊息
+
 ## 介紹
 
 歡迎閱讀本關於使用 Aspose.3D 從 Java 應用程式中的 3D 場景中檢索資訊的綜合指南。如果您是 Java 開發人員，希望透過 3D 場景操作來增強應用程式的功能，那麼您來對地方了。本教學將逐步引導您完成整個過程，確保您徹底掌握每個概念。
@@ -99,3 +105,9 @@ A2：當然。 Aspose.3D 為開發人員提供商業許可，確保您遵守許�
 ### Q5：如何取得Aspose.3D的臨時授權？
 
 A5：取得用於測試目的的臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

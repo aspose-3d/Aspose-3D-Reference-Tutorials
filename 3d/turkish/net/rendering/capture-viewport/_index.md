@@ -3,10 +3,16 @@ title: 3D Sahnelerde Görüntü Alanlarını Yakalama
 linktitle: 3D Sahnelerde Görüntü Alanlarını Yakalama
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'i kullanarak büyüleyici 3D görünüm pencereleri yakalamayı öğrenin. Sahneleri esnek bir şekilde işlemek için adım adım kılavuz.
-type: docs
 weight: 11
 url: /tr/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D Sahnelerde Görüntü Alanlarını Yakalama
+
 ## giriiş
 
 3D grafikler ve görselleştirme alanında, görüntü pencerelerini yakalamak, sahnelerinizin derinliğini ve ayrıntısını artıran önemli bir beceridir. Aspose.3D for .NET, 3D sahnelerin işlenmesi ve işlenmesi için güçlü bir çözüm sunar. Bu eğitim, Aspose.3D'yi kullanarak 3D sahnelerdeki görüntü pencerelerini yakalama sürecinde size rehberlik edecek ve kolaylıkla çarpıcı görselleştirmeler oluşturmanıza olanak tanıyacaktır.
@@ -124,3 +130,9 @@ Cevap2: Aspose.3D öncelikle grafik ve görselleştirme için tasarlanmış olsa
 ### S5: Nasıl yardım isteyebilirim veya topluluğa nasıl katılabilirim?
 
  Cevap5: Aspose.3D topluluğuna katılın[destek Forumu](https://forum.aspose.com/c/3d/18) yardım ve işbirliği için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

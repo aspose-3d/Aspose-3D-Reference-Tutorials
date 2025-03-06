@@ -3,10 +3,16 @@ title: Xuất cảnh 3D dưới dạng đám mây điểm bằng Aspose.3D cho J
 linktitle: Xuất cảnh 3D dưới dạng đám mây điểm bằng Aspose.3D cho Java
 second_title: API Java Aspose.3D
 description: Tìm hiểu cách xuất cảnh 3D dưới dạng đám mây điểm trong Java bằng Aspose.3D. Nâng cao ứng dụng của bạn bằng đồ họa và trực quan hóa 3D mạnh mẽ.
-type: docs
 weight: 15
 url: /vi/java/point-clouds/export-3d-scenes-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất cảnh 3D dưới dạng đám mây điểm bằng Aspose.3D cho Java
+
 ## Giới thiệu
 
 Aspose.3D cho Java tạo điều kiện thuận lợi cho việc xuất cảnh 3D ở nhiều định dạng khác nhau, bao gồm cả việc tạo các đám mây điểm. Đám mây điểm rất quan trọng trong các ngành khác nhau, từ chơi game đến mô phỏng, cung cấp sự thể hiện không gian vật lý thông qua tập hợp các điểm trong hệ tọa độ 3D.
@@ -94,3 +100,9 @@ Chúc mừng! Bạn đã xuất thành công cảnh 3D dưới dạng đám mây
 ### Câu 5: Bạn đang muốn mua Aspose.3D cho Java?
 
  A5: Khám phá các lựa chọn mua hàng[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

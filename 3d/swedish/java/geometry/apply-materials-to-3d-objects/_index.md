@@ -3,10 +3,16 @@ title: Tillämpa material på 3D-objekt i Java med Aspose.3D
 linktitle: Tillämpa material på 3D-objekt i Java med Aspose.3D
 second_title: Aspose.3D Java API
 description: Utforska en värld av 3D-grafik med Aspose.3D för Java. Lär dig hur du applicerar material på 3D-objekt sömlöst. Lyft dina projekt med realistiska bilder.
-type: docs
 weight: 14
 url: /sv/java/geometry/apply-materials-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tillämpa material på 3D-objekt i Java med Aspose.3D
+
 ## Introduktion
 
 I den dynamiska världen av 3D-grafik framstår Aspose.3D för Java som ett kraftfullt verktyg för att ge liv åt dina projekt. Att lägga till material till 3D-objekt förbättrar visuella tilltalande, vilket gör dem mer realistiska. I den här handledningen går vi igenom processen att applicera material på en 3D-kub med Aspose.3D för Java.
@@ -165,3 +171,9 @@ S1: Ja, Aspose.3D låter dig applicera flera material på olika delar av ett 3D-
 ### F5: Kan jag ladda ner Aspose.3D-biblioteket från en specifik länk?
 
  A5: Ja, använd[nedladdningslänk](https://releases.aspose.com/3d/java/) för att komma åt den senaste versionen av Aspose.3D för Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

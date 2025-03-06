@@ -3,10 +3,16 @@ title: Triangulasi Jaring
 linktitle: Triangulasi Jaring
 second_title: Aspose.3D .NET API
 description: Jelajahi kekuatan Aspose.3D untuk .NET dalam panduan langkah demi langkah ini. Pelajari cara melakukan triangulasi jerat 3D dengan mudah untuk pemodelan yang lebih baik.
-type: docs
 weight: 22
 url: /id/net/geometry-and-hierarchy/triangulate-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Triangulasi Jaring
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang triangulasi jerat dalam adegan 3D menggunakan Aspose.3D untuk .NET. Aspose.3D adalah perpustakaan canggih yang memberdayakan pengembang .NET untuk bekerja secara lancar dengan file 3D, menawarkan berbagai fungsi untuk membuat, memanipulasi, dan mengonversi model 3D.
@@ -102,3 +108,10 @@ A2: Tentu saja. Aspose.3D dapat diintegrasikan dengan mulus ke dalam aplikasi de
 ### Q5: Dapatkah saya mencoba Aspose.3D secara gratis sebelum membeli?
 
  A5: Tentu saja! Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

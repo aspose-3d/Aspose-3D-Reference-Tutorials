@@ -3,10 +3,16 @@ title: Použití vizuálních efektů ve 3D výřezech
 linktitle: Použití vizuálních efektů ve 3D výřezech
 second_title: Aspose.3D .NET API
 description: Prozkoumejte svět 3D vizualizace s Aspose.3D pro .NET. Naučte se na své scény aplikovat podmanivé vizuální efekty pomocí výukových programů krok za krokem. Vylepšete své projekty pomocí pixelace, stupňů šedi, detekce okrajů a efektů rozmazání.
-type: docs
 weight: 10
 url: /cs/net/rendering/apply-visual-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použití vizuálních efektů ve 3D výřezech
+
 ## Úvod
 
 Vylepšení vizuální přitažlivosti 3D scén je zásadním aspektem vytváření pohlcujících zážitků. Aspose.3D for .NET poskytuje výkonnou sadu nástrojů pro aplikaci vizuálních efektů na 3D výřezy. V tomto tutoriálu si projdeme procesem aplikace různých efektů na 3D scénu, včetně pixelace, stupňů šedi, detekce hran a rozostření.
@@ -179,3 +185,9 @@ A4: Aspose.3D poskytuje řadu vestavěných efektů následného zpracování a 
 ### Q5: Mohu použít Aspose.3D pro komerční projekty?
 
  A5: Ano, můžete použít Aspose.3D pro komerční účely. Odkazovat na[nákupní stránku](https://purchase.aspose.com/buy) pro podrobnosti o licencích.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

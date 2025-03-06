@@ -3,10 +3,16 @@ title: Otimize o salvamento de arquivos 3D em Java com Aspose.3D SaveOptions
 linktitle: Otimize o salvamento de arquivos 3D em Java com Aspose.3D SaveOptions
 second_title: API Java Aspose.3D
 description: Aprenda como otimizar o salvamento de arquivos 3D em Java com Aspose.3D SaveOptions. Melhore o desempenho e personalize os resultados sem esforço.
-type: docs
 weight: 16
 url: /pt/java/load-and-save/optimize-3d-file-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Otimize o salvamento de arquivos 3D em Java com Aspose.3D SaveOptions
+
 ## Introdução
 
 Aspose.3D é uma biblioteca Java rica em recursos que permite aos desenvolvedores trabalhar com modelos 3D perfeitamente. Quando se trata de salvar arquivos 3D, a classe SaveOptions oferece uma infinidade de configurações para ajustar a saída de acordo com suas necessidades. Neste tutorial, exploraremos várias opções de salvamento e como elas podem ser aproveitadas para otimizar o processo.
@@ -119,3 +125,9 @@ A4: Utilize o`setFileSystem(new DummyFileSystem())` método no`ObjSaveOptions` c
 ### Q5: Existe uma maneira de salvar dependências em um diretório local em um arquivo OBJ?
 
  A5: Sim, use o`setFileSystem(new LocalFileSystem(MyDir))` método no`ObjSaveOptions` class para salvar dependências localmente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

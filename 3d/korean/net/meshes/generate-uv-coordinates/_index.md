@@ -3,10 +3,16 @@ title: UV 좌표 생성
 linktitle: UV 좌표 생성
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 모델링의 세계를 탐험해보세요. 마스터 UV는 손쉽게 생성을 조정합니다. 지금 귀하의 프로젝트를 향상시켜 보세요!
-type: docs
 weight: 11
 url: /ko/net/meshes/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# UV 좌표 생성
+
 ## 소개
 .NET용 Aspose.3D의 강력한 기능을 활용하고 UV 좌표 생성 영역에 대해 알아보세요. 이 튜토리얼에서는 Aspose.3D를 사용하여 3D 모델링의 기본 측면을 익히는 필수 단계를 안내합니다. 숙련된 개발자이든 초보자이든 이 가이드는 메시의 UV 좌표를 손쉽게 생성하고 조작하는 데 필요한 지식을 제공합니다.
 ## 전제 조건
@@ -74,3 +80,9 @@ Aspose.3D는 주로 .NET 언어를 지원하지만 상호 운용성 옵션을 �
  예, 다음을 얻을 수 있습니다.[임시 면허증](https://purchase.aspose.com/temporary-license/) 테스트 및 평가를 위해.
 ### Q: 추가 튜토리얼과 리소스는 어디서 찾을 수 있나요?
  탐색[Aspose.3D 문서](https://reference.aspose.com/3d/net/) 포괄적인 가이드와 예시를 보려면
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Animációs tulajdonságok hozzáadása a Java | 3D jelenetekhez Aspose.3
 linktitle: Animációs tulajdonságok hozzáadása a Java | 3D jelenetekhez Aspose.3D bemutató
 second_title: Aspose.3D Java API
 description: Javítsa Java-alapú 3D-projektjeit az Aspose.3D segítségével. Kövesse oktatóanyagunkat az animációs tulajdonságok zökkenőmentes hozzáadásához.
-type: docs
 weight: 10
 url: /hu/java/animations/add-animation-properties-to-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Animációs tulajdonságok hozzáadása a Java | 3D jelenetekhez Aspose.3D bemutató
+
 ## Bevezetés
 
 Üdvözöljük ebben a lépésről lépésre bemutató oktatóanyagban, amely az Aspose.3D segítségével animációs tulajdonságokat ad a Java 3D-s jeleneteihez. Ha dinamikus animációkkal szeretné javítani 3D projektjeit, akkor jó helyen jár. Ebben az útmutatóban végigvezetjük a folyamaton, az egyes lépéseket lebontva a zökkenőmentes élmény érdekében.
@@ -128,3 +134,9 @@ V3: Csatlakozz a közösséghez a következő címen:[Aspose.3D fórum](https://
 ### 5. kérdés: Vannak további oktatóanyagok?
 
  A5: Fedezze fel az átfogó[dokumentáció](https://reference.aspose.com/3d/java/) további oktatóanyagokért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Définition des propriétés tridimensionnelles dans les scènes 3D
 linktitle: Définition des propriétés tridimensionnelles dans les scènes 3D
 second_title: API Aspose.3D .NET
 description: Explorez le didacticiel Aspose.3D pour .NET sur la définition des propriétés 3D. Apprenez étape par étape avec des exemples de code. Élevez vos compétences en manipulation de scènes 3D.
-type: docs
 weight: 14
 url: /fr/net/3d-scene/set-3d-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition des propriétés tridimensionnelles dans les scènes 3D
+
 ## Introduction
 
 Créer des scènes tridimensionnelles captivantes nécessite souvent la capacité de manipuler diverses propriétés, ajoutant ainsi de la profondeur et du réalisme à vos projets. Aspose.3D pour .NET fournit un ensemble d'outils puissants pour y parvenir, vous permettant de définir et de modifier sans effort les propriétés tridimensionnelles dans vos scènes 3D. Dans ce didacticiel, nous explorerons le processus étape par étape, améliorant ainsi votre compréhension de la manière d'exploiter efficacement Aspose.3D pour .NET.
@@ -148,3 +154,10 @@ A1 : Oui, Aspose.3D prend en charge divers formats de fichiers 3D, notamment FBX
 ### Q5 : Puis-je essayer Aspose.3D pour .NET gratuitement avant d’acheter ?
 
  A5 : Certainement ! Téléchargez le[version d'essai gratuite](https://releases.aspose.com/) pour découvrir ses fonctionnalités.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

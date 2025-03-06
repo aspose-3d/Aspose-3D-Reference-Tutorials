@@ -3,10 +3,16 @@ title: قم بتعديل نصف قطر المجال ثلاثي الأبعاد ف
 linktitle: قم بتعديل نصف قطر المجال ثلاثي الأبعاد في Java باستخدام Aspose.3D
 second_title: Aspose.3D جافا API
 description: استكشف برمجة Java ثلاثية الأبعاد باستخدام Aspose.3D، وقم بتعديل نصف قطر الكرة بسهولة. قم بالتنزيل الآن للحصول على تجربة تطوير ثلاثية الأبعاد سلسة.
-type: docs
 weight: 10
 url: /ar/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعديل نصف قطر المجال ثلاثي الأبعاد في Java باستخدام Aspose.3D
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول تعديل نصف قطر الكرة ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. Aspose.3D هي مكتبة Java قوية تمكن المطورين من العمل مع الملفات ثلاثية الأبعاد ومعالجتها بسلاسة. في هذا البرنامج التعليمي، سوف نركز على تغيير نصف قطر الكرة ثلاثية الأبعاد باستخدام أمثلة عملية وشروحات مفصلة.
@@ -103,3 +109,9 @@ scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟
 
  ج5: يمكنك الحصول على ترخيص مؤقت من خلال الزيارة[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

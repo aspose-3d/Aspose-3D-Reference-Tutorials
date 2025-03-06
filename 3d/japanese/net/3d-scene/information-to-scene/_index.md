@@ -3,10 +3,16 @@ title: シーンアセットへの情報の抽出
 linktitle: シーンアセットへの情報の抽出
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D シーンを簡単に強化します。貴重な資産情報を追加する方法を段階的に学習します。今すぐダウンロードして、ダイナミックな 3D 体験を体験してください。
-type: docs
 weight: 10
 url: /ja/net/3d-scene/information-to-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# シーンアセットへの情報の抽出
+
 ## 導入
 
 Aspose.3D for .NET を使用して貴重な情報を抽出し、3D シーンを強化するためのこの包括的なチュートリアルへようこそ。 Aspose.3D は、開発者が .NET アプリケーション内で 3D シーンをシームレスに操作できるようにする強力なライブラリです。このチュートリアルでは、シーンにアセット情報を追加するという重要なタスクに焦点を当てます。
@@ -96,3 +102,9 @@ A1: Aspose.3D は主に .NET 言語をサポートしていますが、他の言
 ### Q5: Aspose.3D for .NET の詳細なドキュメントはどこで見つけられますか?
 
  A5: を参照してください。[ドキュメンテーション](https://reference.aspose.com/3d/net/)詳細な情報については。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

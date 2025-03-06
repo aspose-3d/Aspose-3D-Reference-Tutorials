@@ -3,10 +3,16 @@ title: Merender Adegan menjadi Peta Kubus dengan Enam Wajah
 linktitle: Merender Adegan menjadi Peta Kubus dengan Enam Wajah
 second_title: Aspose.3D .NET API
 description: Buat peta kubus yang menakjubkan dengan Aspose.3D untuk .NET. Ikuti panduan langkah demi langkah kami untuk merender adegan 3D menjadi peta kubus bermuka enam yang menawan.
-type: docs
 weight: 14
 url: /id/net/rendering/render-scene-cubemap/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Merender Adegan menjadi Peta Kubus dengan Enam Wajah
+
 ## Perkenalan
 Selamat datang di panduan langkah demi langkah dalam merender adegan menjadi peta kubus dengan enam wajah menggunakan Aspose.3D untuk .NET. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan peta kubus yang menakjubkan dengan merender adegan 3D. Aspose.3D adalah .NET API canggih yang menyederhanakan manipulasi grafik 3D, dan dengan panduan ini, Anda akan memanfaatkan kemampuannya untuk membuat peta kubus yang menawan.
 ## Prasyarat
@@ -86,3 +92,9 @@ Ya, Aspose.3D mendukung berbagai format file 3D, memberikan fleksibilitas dalam 
 Sangat! Aspose.3D mendukung rendering adegan 3D animasi.
 ### T: Di mana saya dapat menemukan dokumentasi detailnya?
  Mengacu kepada[Dokumentasi Aspose.3D](https://reference.aspose.com/3d/net/) untuk informasi mendalam.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

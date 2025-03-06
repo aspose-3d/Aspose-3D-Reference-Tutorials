@@ -3,10 +3,16 @@ title: Определение формата
 linktitle: Определение формата
 second_title: Aspose.3D .NET API
 description: Освойте управление 3D-файлами без особых усилий с помощью Aspose.3D для .NET. Загружайте, сохраняйте и распознавайте форматы без проблем.
-type: docs
 weight: 12
 url: /ru/net/loading-and-saving/detect-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Определение формата
+
 ## Введение
 
 Добро пожаловать в захватывающий мир манипуляций с 3D-файлами с помощью Aspose.3D для .NET! Независимо от того, являетесь ли вы опытным разработчиком или только начинаете работать с 3D-графикой, это руководство поможет вам с легкостью пройти процесс загрузки, сохранения и определения форматов.
@@ -93,3 +99,9 @@ scene.Save("output.fbx", FileFormat.FBX7500ASCII);
 ### В5: Могу ли я бесплатно попробовать Aspose.3D перед покупкой?
 
  А5: Конечно! Загрузите бесплатную пробную версию с[Релизы Aspose.3D](https://releases.aspose.com/) ощутить его возможности на собственном опыте.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

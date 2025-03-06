@@ -3,10 +3,16 @@ title: Rozdělení pletiva podle materiálu
 linktitle: Rozdělení pletiva podle materiálu
 second_title: Aspose.3D .NET API
 description: Naučte se rozdělit 3D sítě podle materiálu pomocí Aspose.3D pro .NET. Zlepšete organizaci a efektivitu scény. Podrobný průvodce pro vývojáře.
-type: docs
 weight: 22
 url: /cs/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozdělení pletiva podle materiálu
+
 ## Úvod
 Vítejte v tomto komplexním tutoriálu o rozdělení sítě podle materiálu pomocí Aspose.3D pro .NET! Pokud jste vývojář pracující s 3D grafikou a chcete efektivně spravovat sítě a manipulovat s nimi, jste na správném místě. V této příručce prozkoumáme proces dělení sítě na základě materiálu, což je zásadní úkol při vytváření různorodých a vizuálně přitažlivých 3D scén.
 ## Předpoklady
@@ -71,3 +77,9 @@ Obecně může mít zásada CloneData o něco lepší výkon díky sdíleným in
 Ano, můžete vykreslit a vizualizovat výsledné dílčí sítě pomocí funkcí vykreslování Aspose.3D.
 ### Otázka: Je Aspose.3D vhodný pro vývoj her?
 Zatímco se Aspose.3D primárně používá pro modelování a vykreslování, lze jej integrovat do kanálů vývoje her pro konkrétní úkoly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

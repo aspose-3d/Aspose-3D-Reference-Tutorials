@@ -3,10 +3,16 @@ title: Установка направления линейной экструз
 linktitle: Установка направления линейной экструзии с помощью Aspose.3D для Java
 second_title: Aspose.3D Java API
 description: Освойте линейную экструзию с помощью Aspose.3D для Java! Следуйте нашему руководству по бесшовному 3D-программированию. Загрузите сейчас и получите захватывающие впечатления.
-type: docs
 weight: 12
 url: /ru/java/linear-extrusion/setting-direction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установка направления линейной экструзии с помощью Aspose.3D для Java
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по настройке направления линейной экструзии с использованием Aspose.3D для Java. Aspose.3D — это мощная библиотека Java, которая позволяет разработчикам беспрепятственно работать с 3D-файлами и сценами. В этом уроке мы сосредоточимся на конкретной задаче задания направления линейной экструзии, что повысит ваши навыки в 3D-программировании.
@@ -108,3 +114,9 @@ scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### В5: Доступны ли временные лицензии для Aspose.3D?
 
  О5: Да, вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

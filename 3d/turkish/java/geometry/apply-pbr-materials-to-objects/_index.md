@@ -3,10 +3,16 @@ title: Aspose.3D ile PBR Materyallerini Java'daki 3D Nesnelere Uygulayın
 linktitle: Aspose.3D ile PBR Materyallerini Java'daki 3D Nesnelere Uygulayın
 second_title: Aspose.3D Java API'si
 description: Aspose.3D'yi kullanarak Java'daki 3D nesnelere gerçekçi PBR malzemeleri uygulamayı öğrenin. Fiziksel Tabanlı İşleme ile görsel kaliteyi artırın.
-type: docs
 weight: 10
 url: /tr/java/geometry/apply-pbr-materials-to-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D ile PBR Materyallerini Java'daki 3D Nesnelere Uygulayın
+
 ## giriiş
 
 Aspose.3D kullanarak Fiziksel Tabanlı İşleme (PBR) malzemelerinin Java'daki 3D nesnelere uygulanmasına ilişkin bu adım adım kılavuza hoş geldiniz. Aspose.3D, 3D modeller ve sahnelerle çalışmak için kapsamlı işlevsellik sağlayan güçlü bir Java kütüphanesidir. Bu eğitimde, gerçek dünyadaki aydınlatmayı ve yüzey özelliklerini simüle eden ve 3B nesnelerinizin gerçekçiliğini artıran PBR malzemelerinin uygulanmasına odaklanacağız.
@@ -102,3 +108,9 @@ Tebrikler! Aspose.3D'yi kullanarak PBR materyallerini Java'daki bir 3D nesneye b
 ### S5: Test için geçici lisansı nasıl edinebilirim?
 
  A5: Ziyaret edin[bu bağlantı](https://purchase.aspose.com/temporary-license/) geçici lisans almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

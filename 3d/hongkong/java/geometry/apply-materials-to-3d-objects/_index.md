@@ -3,10 +3,16 @@ title: 使用 Aspose.3D 將材質套用到 Java 中的 3D 對象
 linktitle: 使用 Aspose.3D 將材質套用到 Java 中的 3D 對象
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D for Java 探索 3D 圖形世界。了解如何將材質無縫地應用到 3D 物件。透過逼真的視覺效果提升您的專案。
-type: docs
 weight: 14
 url: /zh-hant/java/geometry/apply-materials-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D 將材質套用到 Java 中的 3D 對象
+
 ## 介紹
 
 在 3D 圖形的動態世界中，Aspose.3D for Java 是為您的專案帶來活力的強大工具。在 3D 物件中添加材質可增強視覺吸引力，使它們更加真實。在本教學中，我們將引導您完成使用 Aspose.3D for Java 將材質套用到 3D 立方體的過程。
@@ -165,3 +171,9 @@ A1：是的，Aspose.3D 可讓您將多種材質套用到 3D 物件的不同部�
 ### Q5：我可以從特定連結下載Aspose.3D函式庫嗎？
 
  A5：是的，使用[下載連結](https://releases.aspose.com/3d/java/)造訪最新版本的 Aspose.3D for Java。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

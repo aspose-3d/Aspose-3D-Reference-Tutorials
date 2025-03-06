@@ -3,10 +3,16 @@ title: Menentukan Irisan dalam Ekstrusi Linier dengan Aspose.3D untuk Java
 linktitle: Menentukan Irisan dalam Ekstrusi Linier dengan Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Pelajari cara menentukan irisan dalam ekstrusi linier menggunakan Aspose.3D untuk Java. Tingkatkan keterampilan pemodelan 3D Anda dengan panduan langkah demi langkah ini.
-type: docs
 weight: 13
 url: /id/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menentukan Irisan dalam Ekstrusi Linier dengan Aspose.3D untuk Java
+
 ## Perkenalan
 
 Membuat model 3D yang rumit seringkali membutuhkan lebih dari sekedar kreativitas; itu menuntut pemahaman menyeluruh tentang alat yang Anda miliki. Aspose.3D untuk Java adalah pengubah permainan dalam hal ini. Dalam tutorial ini, kita akan fokus pada aspek tertentu - menentukan irisan dalam ekstrusi linier.
@@ -93,3 +99,9 @@ Selamat! Anda telah berhasil mempelajari cara menentukan irisan dalam ekstrusi l
 ### Q5: Bisakah saya membeli lisensi sementara?
 
  A5: Ya, izin sementara dapat diperoleh[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

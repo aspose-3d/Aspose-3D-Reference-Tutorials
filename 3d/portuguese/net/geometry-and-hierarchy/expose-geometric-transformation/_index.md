@@ -3,10 +3,16 @@ title: Expondo a Transformação Geométrica
 linktitle: Expondo a Transformação Geométrica
 second_title: API Aspose.3D .NET
 description: Explore as possibilidades ilimitadas de gráficos 3D em .NET com Aspose.3D. Descubra transformações geométricas sem esforço.
-type: docs
 weight: 13
 url: /pt/net/geometry-and-hierarchy/expose-geometric-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Expondo a Transformação Geométrica
+
 ## Introdução
 
 Bem-vindo ao emocionante mundo do Aspose.3D para .NET! Neste tutorial, nos aprofundaremos nos meandros da exposição de transformações geométricas em cenas 3D usando Aspose.3D. Se você é um desenvolvedor .NET ansioso para aprimorar seus recursos gráficos 3D, você está no lugar certo.
@@ -98,3 +104,9 @@ A1: Aspose.3D é compatível com uma ampla gama de frameworks .NET, garantindo f
 ### Q5: Como faço para adquirir o Aspose.3D para .NET?
 
  A5: Para adquirir o Aspose.3D para .NET, visite o[página de compra](https://purchase.aspose.com/buy) no site da Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

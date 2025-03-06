@@ -3,10 +3,16 @@ title: Linjär extrudering
 linktitle: Linjär extrudering
 second_title: Aspose.3D .NET API
 description: Lås upp 3D-kreativitet med Aspose.3D för .NET tutorials. Bemästra linjära extruderingstekniker, förbättra designen och lyft dina projekt utan ansträngning.
-type: docs
 weight: 31
 url: /sv/net/3d-modeling/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Linjär extrudering
+
 ## Introduktion
 | Explore the dynamic realm of [3D modeling](./center-in-linear-extrusion/) through Aspose.3D for .NET tutorials, focusing on various aspects of linear extrusion. Master the art of [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), and incorporating [twist offsets](./twist-offset-in-linear-extrusion/) in your designs. Each tutorial is a gateway to unlocking new dimensions of creativity in 3D graphics. Dive into the captivating world of Aspose.3D for .NET and unleash your imagination. |
 
@@ -42,3 +48,9 @@ Utforska en värld av 3D-design med Aspose.3D för .NET. Skapa fantastiska model
 Utforska den fängslande världen av 3D-grafik med Aspose.3D för .NET. Lär dig steg för steg linjär extrudering med en vridning.
 ### [Twist Offset i linjär extrudering](./twist-offset-in-linear-extrusion/)
 Utforska magin med Aspose.3D för .NET med vår steg-för-steg-guide om Twist Offset i linjär extrudering. Lyft dina 3D-projekt utan ansträngning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

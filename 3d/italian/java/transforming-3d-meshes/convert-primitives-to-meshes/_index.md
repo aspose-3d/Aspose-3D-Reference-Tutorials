@@ -3,10 +3,16 @@ title: Converti primitive in mesh in Java
 linktitle: Converti primitive in mesh in Java
 second_title: API Java Aspose.3D
 description: Intraprendi un viaggio nella padronanza della grafica 3D con Aspose.3D per Java converti senza sforzo le primitive in mesh affascinanti. Migliora la tua esperienza di codifica adesso!
-type: docs
 weight: 12
 url: /it/java/transforming-3d-meshes/convert-primitives-to-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converti primitive in mesh in Java
+
 ## introduzione
 Avventurarsi nel regno della grafica 3D in Java può essere esaltante, soprattutto quando miri a elevare le tue scene convertendo le primitive in mesh intricate. In questo tutorial ti guideremo attraverso il processo utilizzando Aspose.3D per Java, garantendo un'esperienza fluida e arricchente.
 ## Prerequisiti
@@ -73,3 +79,9 @@ Assolutamente! Aspose.3D per Java si integra perfettamente con altre librerie Ja
  È infatti possibile ottenere licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/).
 ### Q5: Dove posso trovare la documentazione dettagliata per Aspose.3D per Java?
  È disponibile una documentazione completa[Qui](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

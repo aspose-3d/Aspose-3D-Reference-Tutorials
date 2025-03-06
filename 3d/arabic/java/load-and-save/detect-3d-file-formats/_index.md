@@ -3,10 +3,16 @@ title: اكتشف تنسيقات الملفات ثلاثية الأبعاد بك
 linktitle: اكتشف تنسيقات الملفات ثلاثية الأبعاد بكفاءة في Java باستخدام Aspose.3D
 second_title: Aspose.3D جافا API
 description: اكتشف بسهولة تنسيقات الملفات ثلاثية الأبعاد في Java باستخدام Aspose.3D. قم بتبسيط عملية التطوير الخاصة بك مع هذه المكتبة القوية.
-type: docs
 weight: 11
 url: /ar/java/load-and-save/detect-3d-file-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# اكتشف تنسيقات الملفات ثلاثية الأبعاد بكفاءة في Java باستخدام Aspose.3D
+
 ## مقدمة
 
 في عالم الرسومات ثلاثية الأبعاد المتطور باستمرار، يعد وجود أداة قوية للكشف عن تنسيقات الملفات بكفاءة أمرًا ضروريًا للمطورين. يظهر Aspose.3D for Java كحليف قوي، حيث يعمل على تبسيط العملية وتقديم تجربة سلسة. سيرشدك هذا البرنامج التعليمي خلال خطوات اكتشاف تنسيقات الملفات ثلاثية الأبعاد بكفاءة باستخدام Aspose.3D في Java.
@@ -82,3 +88,9 @@ System.out.println("File Format: " + inputFormat.toString());
 ### س5: أين يمكنني طلب المساعدة إذا واجهت مشكلات مع Aspose.3D؟
 
  ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لطلب المساعدة من المجتمع والخبراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Java 中从网格创建点云
 linktitle: 在 Java 中从网格创建点云
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 探索 Java 中的 3D 建模世界。学习如何轻松地从网格创建点云。
-type: docs
 weight: 12
 url: /zh/java/point-clouds/create-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中从网格创建点云
+
 ## 介绍
 
 欢迎来到这个关于使用 Aspose.3D 从 Java 中的网格创建点云的综合教程。 Aspose.3D 是一个功能强大的 Java 库，为 3D 建模和操作提供了广泛的功能。在本教程中，我们将指导您完成从网格生成点云的过程，并提供清晰详细的步骤以获得无缝体验。
@@ -83,3 +89,9 @@ FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
 ### Q5：在哪里可以找到文档？
 
  A5：请参阅[文档](https://reference.aspose.com/3d/java/)获取详细信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

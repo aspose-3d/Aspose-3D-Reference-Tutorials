@@ -3,10 +3,16 @@ title: PBR Malzemesinin Kutuya Uygulanması
 linktitle: PBR Malzemesinin Kutuya Uygulanması
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D grafik dünyasını keşfedin. Fiziksel Tabanlı İşleme malzemelerini kullanarak zahmetsizce sürükleyici sahneler oluşturun.
-type: docs
 weight: 10
 url: /tr/net/geometry-and-hierarchy/apply-pbr-material-to-box/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PBR Malzemesinin Kutuya Uygulanması
+
 ## giriiş
 
 3D grafiklerin büyüleyici dünyasına hoş geldiniz! Bu adım adım kılavuzda, güçlü Aspose.3D for .NET kütüphanesini keşfedeceğiz ve Fiziksel Tabanlı Rendering (PBR) malzemelerini kullanarak büyüleyici 3D sahnelerin nasıl oluşturulacağını öğreneceğiz. Aspose.3D, 3D grafiklerin karmaşık sürecini basitleştirir ve geliştiricilere birçok olasılık sunar.
@@ -113,3 +119,9 @@ A2: Kesinlikle! Aspose.3D, uygulamalarınıza kusursuz entegrasyon için ticari 
 ### S5: Aspose.3D için geçici lisansı nasıl edinebilirim?
 
  Cevap5: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

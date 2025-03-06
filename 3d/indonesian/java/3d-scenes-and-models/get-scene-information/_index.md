@@ -3,10 +3,16 @@ title: Ambil Informasi dari Adegan 3D di Aplikasi Java
 linktitle: Ambil Informasi dari Adegan 3D di Aplikasi Java
 second_title: Asumsikan.3D Java API
 description: Jelajahi dunia manipulasi adegan 3D di Java dengan Aspose.3D. Tutorial ini memandu Anda dalam mengambil informasi langkah demi langkah.
-type: docs
 weight: 12
 url: /id/java/3d-scenes-and-models/get-scene-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ambil Informasi dari Adegan 3D di Aplikasi Java
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang mengambil informasi dari adegan 3D di aplikasi Java menggunakan Aspose.3D. Jika Anda seorang pengembang Java yang ingin meningkatkan kemampuan aplikasi Anda dengan manipulasi pemandangan 3D, Anda berada di tempat yang tepat. Tutorial ini akan memandu Anda melalui proses langkah demi langkah, memastikan Anda memahami setiap konsep secara menyeluruh.
@@ -99,3 +105,9 @@ A2: Tentu saja. Aspose.3D menawarkan lisensi komersial untuk pengembang, memasti
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
 
  A5: Dapatkan lisensi sementara untuk tujuan pengujian[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

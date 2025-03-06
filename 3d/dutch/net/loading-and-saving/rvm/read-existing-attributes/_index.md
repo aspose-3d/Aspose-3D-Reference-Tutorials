@@ -3,10 +3,16 @@ title: Leestafereel met attributen
 linktitle: Leestafereel met attributen
 second_title: Aspose.3D .NET-API
 description: Ontgrendel de kracht van 3D-modellering in .NET met Aspose.3D. Scènes moeiteloos laden, opslaan en manipuleren. Duik in de wereld van onbegrensde mogelijkheden.
-type: docs
 weight: 18
 url: /nl/net/loading-and-saving/rvm/read-existing-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Leestafereel met attributen
+
 ## Invoering
 
 In het steeds evoluerende landschap van 3D-graphics en -modellering komt Aspose.3D voor .NET naar voren als een krachtig hulpmiddel dat naadloze integratie en robuuste functionaliteit voor ontwikkelaars biedt. Deze tutorial begeleidt u bij het lezen van een RVM-bestand, waarbij de nadruk vooral ligt op het lezen van de externe kenmerken ervan. Zet uw gordel vast terwijl we aan een reis beginnen om de mogelijkheden van Aspose.3D te benutten!
@@ -79,3 +85,9 @@ A4: You can acquire a temporary license [here](https://Purchase.aspose.com/tempo
 ### Q5: Where can I purchase Aspose.3D for .NET?
 
 A5: Visit the [purchase page](https://Purchase.aspose.com/buy) om de volledige versie van Aspose.3D te verkrijgen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

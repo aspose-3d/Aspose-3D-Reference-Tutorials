@@ -3,10 +3,16 @@ title: تخصيص اسطوانة القص السفلية
 linktitle: تخصيص اسطوانة القص السفلية
 second_title: Aspose.3D.NET API
 description: تعلم كيفية إنشاء أسطوانات سفلية مخصصة للقص باستخدام Aspose.3D لـ .NET من خلال دليلنا التفصيلي خطوة بخطوة. ارفع مهاراتك في النمذجة ثلاثية الأبعاد اليوم!
-type: docs
 weight: 12
 url: /ar/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص اسطوانة القص السفلية
+
 ## مقدمة
 مرحبًا بك في دليلنا الشامل حول إنشاء أسطوانة مخصصة باستخدام Aspose.3D لـ .NET. إذا كنت تتطلع إلى تحسين مهاراتك في تصميم النماذج ثلاثية الأبعاد وإضافة ميزات فريدة لمشاريعك، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة، باستخدام شرح واضح ومقتطفات التعليمات البرمجية.
 ## المتطلبات الأساسية
@@ -83,3 +89,9 @@ scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
  قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لدعم المجتمع والمناقشات.
 ### كيف يمكنني الحصول على ترخيص مؤقت؟
  احصل على ترخيصك المؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.3D를 사용하여 Java의 3D 개체에 UV 좌표 적용
 linktitle: Aspose.3D를 사용하여 Java의 3D 개체에 UV 좌표 적용
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java의 3D 개체에 UV 좌표를 적용하는 방법을 알아보세요. 이 단계별 가이드를 통해 그래픽을 향상해보세요.
-type: docs
 weight: 18
 url: /ko/java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D를 사용하여 Java의 3D 개체에 UV 좌표 적용
+
 ## 소개
 
 Aspose.3D를 사용하여 Java에서 3D 객체에 UV 좌표를 적용하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. 3D 그래픽 세계에서 UV 좌표는 텍스처를 표면에 매핑하여 창작물의 시각적 매력을 향상시키는 데 중요한 역할을 합니다. 이 튜토리얼은 원활하고 효과적인 학습 경험을 보장하기 위해 각 단계를 세분화하여 프로세스를 안내합니다.
@@ -104,3 +110,9 @@ A1: 예, 복잡한 모델의 경우에도 프로세스는 유사합니다. 적�
 ### Q5: Aspose.3D는 어디서 구매할 수 있나요?
 
  A5: Aspose.3D를 구매하려면 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

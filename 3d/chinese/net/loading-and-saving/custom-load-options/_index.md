@@ -3,10 +3,16 @@ title: 自定义加载选项
 linktitle: 自定义加载选项
 second_title: Aspose.3D .NET API
 description: 探索 Aspose.3D for .NET 无缝 3D 模型加载和保存的终极解决方案。
-type: docs
 weight: 15
 url: /zh/net/loading-and-saving/custom-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 自定义加载选项
+
 ## 介绍
 
 欢迎来到 Aspose.3D for .NET 的世界——一个强大的库，使开发人员能够无缝地处理 3D 文件。在本教程中，我们将深入研究加载和保存 3D 模型的复杂性，重点关注自定义加载选项。无论您是经验丰富的开发人员还是新手，本指南都将逐步引导您完成整个过程，确保您充分利用 Aspose.3D for .NET 的全部潜力。
@@ -183,3 +189,9 @@ A4：是的，您可以通过下载 Aspose.3D for .NET 来探索 Aspose.3D for .
 ### Q5：在哪里可以寻求 Aspose.3D for .NET 支持？
 
  A5：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)以获得社区的支持和帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

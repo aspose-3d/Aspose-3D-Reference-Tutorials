@@ -3,10 +3,16 @@ title: Γραμμική Εξώθηση
 linktitle: Γραμμική Εξώθηση
 second_title: Aspose.3D .NET API
 description: Ξεκλειδώστε τη δημιουργικότητα 3D με το Aspose.3D for .NET tutorials. Κατακτήστε τις τεχνικές γραμμικής διέλασης, βελτιώστε τα σχέδια και αναβαθμίστε τα έργα σας χωρίς κόπο.
-type: docs
 weight: 31
 url: /el/net/3d-modeling/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Γραμμική Εξώθηση
+
 ## Εισαγωγή
 | Explore the dynamic realm of [3D modeling](./center-in-linear-extrusion/) through Aspose.3D for .NET tutorials, focusing on various aspects of linear extrusion. Master the art of [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), and incorporating [twist offsets](./twist-offset-in-linear-extrusion/) in your designs. Each tutorial is a gateway to unlocking new dimensions of creativity in 3D graphics. Dive into the captivating world of Aspose.3D for .NET and unleash your imagination. |
 
@@ -42,3 +48,9 @@ url: /el/net/3d-modeling/linear-extrusion/
 Εξερευνήστε τον μαγευτικό κόσμο των τρισδιάστατων γραφικών με το Aspose.3D για .NET. Μάθετε βήμα προς βήμα τη Γραμμική εξώθηση με περιστροφή.
 ### [Twist Offset σε Γραμμική Εξώθηση](./twist-offset-in-linear-extrusion/)
 Εξερευνήστε τη μαγεία του Aspose.3D για .NET με τον βήμα προς βήμα οδηγό μας για το Twist Offset στη Γραμμική Εξώθηση. Αναβαθμίστε τα τρισδιάστατα έργα σας χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

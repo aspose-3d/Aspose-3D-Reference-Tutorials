@@ -3,10 +3,16 @@ title: Tulajdonságok animálása a 3D-s jelenetek dokumentálásához
 linktitle: Tulajdonságok animálása a 3D-s jelenetek dokumentálásához
 second_title: Aspose.3D .NET API
 description: Ismerje meg a 3D tulajdonságok animálását az Aspose.3D for .NET segítségével. Lépésről lépésre szóló útmutató dinamikus jelenetek létrehozásához.
-type: docs
 weight: 10
 url: /hu/net/animation/property-to-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tulajdonságok animálása a 3D-s jelenetek dokumentálásához
+
 ## Bevezetés
 
 Ha a .NET-ben a 3D-s jelenetek létrehozásának és animációjának birodalmába merül, az Aspose.3D a legjobb eszköztár. Ebben a lépésenkénti útmutatóban a 3D-s jelenetek tulajdonságainak animálásának folyamatát vizsgáljuk meg az Aspose.3D for .NET használatával. A végére fel lesz szerelve azzal a tudással, amellyel életet lehelhet 3D projektjeibe.
@@ -128,3 +134,9 @@ Gratulálunk! Ön most sajátította el a tulajdonságok animálását 3D jelene
 ### 5. kérdés: Kaphatok ideiglenes engedélyt?
 
  V5: Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

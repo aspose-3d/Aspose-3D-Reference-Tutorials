@@ -3,10 +3,16 @@ title: Applying Twist in Linear Extrusion with Aspose.3D for Java
 linktitle: Applying Twist in Linear Extrusion with Aspose.3D for Java
 second_title: Aspose.3D Java API
 description: Learn how to add a twist to your 3D models using Aspose.3D for Java. Follow our step-by-step guide for enhanced linear extrusion effects.
-type: docs
 weight: 14
 url: /java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applying Twist in Linear Extrusion with Aspose.3D for Java
+
 ## Introduction
 
 Welcome to this step-by-step tutorial on applying a twist in linear extrusion using Aspose.3D for Java. Aspose.3D is a powerful Java library that enables developers to work with 3D file formats, offering robust functionality for creating, manipulating, and rendering 3D scenes. In this tutorial, we will explore how to apply a twist effect during the linear extrusion process to enhance your 3D models.
@@ -119,3 +125,10 @@ A4: Get a temporary license from the [temporary license page](https://purchase.a
 ### Q5: Where can I purchase Aspose.3D for Java?
 
 A5: Purchase Aspose.3D for Java from the [buying page](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

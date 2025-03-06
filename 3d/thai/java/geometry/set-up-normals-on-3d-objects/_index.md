@@ -3,10 +3,16 @@ title: ตั้งค่า Normals บนวัตถุ 3 มิติใน 
 linktitle: ตั้งค่า Normals บนวัตถุ 3 มิติใน Java ด้วย Aspose.3D
 second_title: Aspose.3D จาวา API
 description: เรียนรู้วิธีตั้งค่าบรรทัดฐานบนวัตถุ 3 มิติใน Java ด้วย Aspose.3D ปรับปรุงกราฟิกของคุณด้วยบทช่วยสอนที่ครอบคลุมนี้
-type: docs
 weight: 17
 url: /th/java/geometry/set-up-normals-on-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ตั้งค่า Normals บนวัตถุ 3 มิติใน Java ด้วย Aspose.3D
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนในการตั้งค่าบรรทัดฐานบนวัตถุ 3 มิติใน Java โดยใช้ Aspose.3D ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นด้วยกราฟิก 3D การทำความเข้าใจและจัดการกับสภาวะปกติเป็นสิ่งสำคัญอย่างยิ่งในการบรรลุเอฟเฟกต์แสงที่สมจริงในโมเดล 3D ของคุณ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการ โดยแบ่งออกเป็นขั้นตอนที่ง่ายต่อการปฏิบัติตาม
@@ -91,3 +97,9 @@ System.out.println("\nNormals have been set up successfully on the cube.");
 ### Q5: ต้องการความช่วยเหลือหรือต้องการหารือกับชุมชน?
 
  A5: เยี่ยมชม[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) สำหรับการสนับสนุนและการอภิปราย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

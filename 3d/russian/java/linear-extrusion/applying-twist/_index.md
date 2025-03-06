@@ -3,10 +3,16 @@ title: Применение Twist при линейной экструзии с 
 linktitle: Применение Twist при линейной экструзии с помощью Aspose.3D для Java
 second_title: Aspose.3D Java API
 description: Узнайте, как добавить изюминку в ваши 3D-модели с помощью Aspose.3D для Java. Следуйте нашему пошаговому руководству, чтобы получить улучшенные эффекты линейной экструзии.
-type: docs
 weight: 14
 url: /ru/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Применение Twist при линейной экструзии с помощью Aspose.3D для Java
+
 ## Введение
 
 Добро пожаловать в это пошаговое руководство по применению поворота при линейной экструзии с использованием Aspose.3D для Java. Aspose.3D — это мощная библиотека Java, которая позволяет разработчикам работать с форматами 3D-файлов, предлагая надежную функциональность для создания, управления и рендеринга 3D-сцен. В этом уроке мы рассмотрим, как применить эффект скручивания в процессе линейной экструзии для улучшения ваших 3D-моделей.
@@ -119,3 +125,9 @@ scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### Вопрос 5: Где я могу приобрести Aspose.3D для Java?
 
  A5: Приобретите Aspose.3D для Java на сайте[страница покупки](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

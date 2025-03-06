@@ -3,10 +3,16 @@ title: Kódování Mesh do formátu PLY
 linktitle: Kódování Mesh do formátu PLY
 second_title: Aspose.3D .NET API
 description: Prozkoumejte svět 3D programování s Aspose.3D pro .NET. Naučte se, jak bez námahy kódovat sítě do formátu PLY. Pozvedněte svou vývojovou hru!
-type: docs
 weight: 13
 url: /cs/net/loading-and-saving/ply/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kódování Mesh do formátu PLY
+
 ## Úvod
 Vydat se na cestu do říše 3D programování může být vzrušující i zastrašující. Jako vývojář možná zjistíte, že toužíte prozkoumat možnosti, které 3D grafika nabízí. V tomto tutoriálu se ponoříme do fascinujícího procesu kódování sítě do formátu PLY pomocí Aspose.3D pro .NET.
 ## Předpoklady
@@ -56,3 +62,9 @@ Absolutně! Aspose.3D podporuje kódování různých 3D tvarů, což vám umož
  Navštivte fórum Aspose.3D[tady](https://forum.aspose.com/c/3d/18) spojit se s komunitou a vyhledat pomoc.
 ### 5. Je k dispozici bezplatná zkušební verze pro Aspose.3D?
  Rozhodně! Prozkoumejte možnosti Aspose.3D pomocí bezplatné zkušební verze[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

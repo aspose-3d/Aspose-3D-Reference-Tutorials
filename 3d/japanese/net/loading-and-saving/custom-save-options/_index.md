@@ -3,10 +3,16 @@ title: カスタム保存オプション
 linktitle: カスタム保存オプション
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET の威力を体験してください。 Collada、USD、3DS、FBX、OBJ、STL、U3D、glTF、DRC、および RVM 形式に関するステップバイステップのガイドを使用して、3D シーンの保存をカスタマイズする方法を学びます。
-type: docs
 weight: 21
 url: /ja/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# カスタム保存オプション
+
 ## 導入
 
 Aspose.3D for .NET の世界へようこそ! 3D 開発能力を強化したい場合は、ここが最適な場所です。このチュートリアルでは、特にカスタム保存オプションに焦点を当てて、読み込みと保存の機能について詳しく説明します。 Aspose.3D for .NET は、開発者が 3D シーンを効率的に操作および保存できるようにする強力なライブラリです。
@@ -131,3 +137,9 @@ A1: はい、Aspose.3D はさまざまな .NET フレームワークと互換性
 ### Q5: Aspose.3D の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

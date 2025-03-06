@@ -3,10 +3,16 @@ title: Plakjes in lineaire extrusie
 linktitle: Plakjes in lineaire extrusie
 second_title: Aspose.3D .NET-API
 description: Ontdek de wereld van 3D-ontwerp met Aspose.3D voor .NET. Maak verbluffende modellen met behulp van onze lineaire extrusie-tutorial.
-type: docs
 weight: 13
 url: /nl/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Plakjes in lineaire extrusie
+
 ## Invoering
 
 Welkom in de wereld van 3D-ontwerp met Aspose.3D voor .NET! Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze tutorial leidt u door het proces van het maken van verbluffende 3D-visualisaties met behulp van de krachtige Aspose.3D-bibliotheek.
@@ -116,3 +122,9 @@ A1: Aspose.3D is primair ontworpen voor .NET, maar u kunt interoperabiliteitsopt
 ### V5: Kan ik een tijdelijke licentie gebruiken voor Aspose.3D voor .NET?
 
  A5: Ja, verkrijg een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/) voor evaluatiedoeleinden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

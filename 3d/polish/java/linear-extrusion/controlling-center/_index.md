@@ -3,10 +3,16 @@ title: Centrum sterowania w wytłaczaniu liniowym z Aspose.3D dla Java
 linktitle: Centrum sterowania w wytłaczaniu liniowym z Aspose.3D dla Java
 second_title: Aspose.3D API Java
 description: Poznaj świat grafiki 3D w Javie dzięki Aspose.3D. Kontroluj środek w wytłaczaniu liniowym bez wysiłku.
-type: docs
 weight: 11
 url: /pl/java/linear-extrusion/controlling-center/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Centrum sterowania w wytłaczaniu liniowym z Aspose.3D dla Java
+
 ## Wstęp
 
 świecie grafiki 3D i programowania w Java, sterowanie środkiem w wyciskaniu liniowym odgrywa kluczową rolę w uzyskaniu pożądanych efektów w Twoich projektach. Aspose.3D dla Java zapewnia potężny zestaw narzędzi do płynnej obsługi takich zadań. W tym samouczku zagłębimy się w proces kontrolowania środka w wytłaczaniu liniowym przy użyciu Aspose.3D dla Java, dzieląc każdy krok, aby zapewnić płynne i wszechstronne zrozumienie.
@@ -126,3 +132,9 @@ Odpowiedź 4: Tak, jeśli potrzebujesz tymczasowej licencji do celów testowych,
 ### P5: Gdzie mogę znaleźć dokumentację?
 
  O5: Dostępna jest dokumentacja Aspose.3D dla Java[Tutaj](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

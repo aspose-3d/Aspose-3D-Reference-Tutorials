@@ -3,10 +3,16 @@ title: Dodaj właściwości animacji do scen 3D w Javie | Samouczek Aspose.3D
 linktitle: Dodaj właściwości animacji do scen 3D w Javie | Samouczek Aspose.3D
 second_title: Aspose.3D API Java
 description: Ulepsz swoje projekty 3D oparte na Javie za pomocą Aspose.3D. Postępuj zgodnie z naszym samouczkiem, aby bezproblemowo dodawać właściwości animacji.
-type: docs
 weight: 10
 url: /pl/java/animations/add-animation-properties-to-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj właściwości animacji do scen 3D w Javie | Samouczek Aspose.3D
+
 ## Wstęp
 
 Witamy w tym samouczku krok po kroku dotyczącym dodawania właściwości animacji do scen 3D w Javie przy użyciu Aspose.3D. Jeśli chcesz wzbogacić swoje projekty 3D o dynamiczne animacje, jesteś we właściwym miejscu. W tym przewodniku przeprowadzimy Cię przez ten proces, dzieląc każdy krok, aby zapewnić bezproblemową obsługę.
@@ -128,3 +134,9 @@ A3: Dołącz do społeczności pod adresem[Forum Aspose.3D](https://forum.aspose
 ### P5: Czy dostępnych jest więcej samouczków?
 
  A5: Poznaj kompleksowość[dokumentacja](https://reference.aspose.com/3d/java/) na dodatkowe tutoriale.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

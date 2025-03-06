@@ -3,10 +3,16 @@ title: Scheiben in der linearen Extrusion
 linktitle: Scheiben in der linearen Extrusion
 second_title: Aspose.3D .NET API
 description: Entdecken Sie die Welt des 3D-Designs mit Aspose.3D für .NET. Erstellen Sie atemberaubende Modelle mit unserem Tutorial zur linearen Extrusion.
-type: docs
 weight: 13
 url: /de/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Scheiben in der linearen Extrusion
+
 ## Einführung
 
 Willkommen in der Welt des 3D-Designs mit Aspose.3D für .NET! Unabhängig davon, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, führt Sie dieses Tutorial durch den Prozess der Erstellung atemberaubender 3D-Visualisierungen mithilfe der leistungsstarken Aspose.3D-Bibliothek.
@@ -116,3 +122,9 @@ A1: Aspose.3D ist in erster Linie für .NET konzipiert, Sie können jedoch mithi
 ### F5: Kann ich eine temporäre Lizenz für Aspose.3D für .NET verwenden?
 
  A5: Ja, besorgen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/) zu Auswertungszwecken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

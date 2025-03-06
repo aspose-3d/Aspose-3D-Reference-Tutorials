@@ -3,10 +3,16 @@ title: Fractionnement du maillage par matériau
 linktitle: Fractionnement du maillage par matériau
 second_title: API Aspose.3D .NET
 description: Apprenez à diviser les maillages 3D par matériau avec Aspose.3D pour .NET. Améliorez l’organisation et l’efficacité de la scène. Guide étape par étape pour les développeurs.
-type: docs
 weight: 22
 url: /fr/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fractionnement du maillage par matériau
+
 ## Introduction
 Bienvenue dans ce didacticiel complet sur la division d'un maillage par matériau à l'aide d'Aspose.3D pour .NET ! Si vous êtes un développeur travaillant avec des graphiques 3D et que vous souhaitez gérer et manipuler efficacement les maillages, vous êtes au bon endroit. Dans ce guide, nous explorerons le processus de division d'un maillage en fonction du matériau, une tâche cruciale dans la création de scènes 3D diverses et visuellement attrayantes.
 ## Conditions préalables
@@ -71,3 +77,9 @@ Généralement, la stratégie CloneData peut avoir des performances légèrement
 Oui, vous pouvez restituer et visualiser les sous-maillages résultants à l'aide des capacités de rendu Aspose.3D.
 ### Q : Aspose.3D est-il adapté au développement de jeux ?
 Bien qu'il soit principalement utilisé pour la modélisation et le rendu, Aspose.3D peut être intégré aux pipelines de développement de jeux pour des tâches spécifiques.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Opsi Pemuatan Khusus
 linktitle: Opsi Pemuatan Khusus
 second_title: Aspose.3D .NET API
 description: Jelajahi Aspose.3D untuk .NET, solusi terbaik untuk pemuatan dan penyimpanan model 3D yang lancar.
-type: docs
 weight: 15
 url: /id/net/loading-and-saving/custom-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opsi Pemuatan Khusus
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.3D untuk .NET – perpustakaan canggih yang memberdayakan pengembang untuk bekerja secara lancar dengan file 3D. Dalam tutorial ini, kita akan mempelajari seluk-beluk memuat dan menyimpan model 3D, dengan fokus pada opsi pemuatan khusus. Baik Anda pengembang berpengalaman atau pendatang baru, panduan ini akan memandu Anda melalui proses langkah demi langkah, memastikan Anda memanfaatkan potensi penuh Aspose.3D untuk .NET.
@@ -183,3 +189,9 @@ A4: Ya, Anda dapat menjelajahi kemampuan Aspose.3D untuk .NET dengan mengunduh[u
 ### Q5: Di mana saya dapat mencari dukungan untuk Aspose.3D untuk .NET?
 
  A5: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan dan bantuan masyarakat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Szene als Punktwolke kodieren
 linktitle: Szene als Punktwolke kodieren
 second_title: Aspose.3D .NET API
 description: Entdecken Sie die Welt der 3D-Modellierung in .NET mit Aspose.3D. Lernen Sie, Kugeln mühelos in Punktwolken zu kodieren. Lassen Sie jetzt Ihrer Kreativität freien Lauf!
-type: docs
 weight: 14
 url: /de/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szene als Punktwolke kodieren
+
 ## Einführung
 Willkommen zu dieser umfassenden Anleitung zum Codieren einer Kugel als Punktwolke mit Aspose.3D für .NET. Aspose.3D ist eine leistungsstarke und vielseitige Bibliothek, die Entwicklern die nahtlose Arbeit mit 3D-Modellen in ihren .NET-Anwendungen ermöglicht. In diesem Tutorial führen wir Sie durch den Prozess der Kodierung einer Kugel in eine Punktwolke mit Aspose.3D.
 ## Voraussetzungen
@@ -60,3 +66,9 @@ Ja, Sie können Aspose.3D mit einer kostenlosen Testversion erkunden. Lade es he
  Besuchen Sie das Aspose.3D-Forum[Hier](https://forum.aspose.com/c/3d/18) für Community-Unterstützung und Diskussionen.
 ### Benötige ich zum Testen eine temporäre Lizenz?
  Ja, wenn Sie die Bibliothek testen, können Sie eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

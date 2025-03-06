@@ -3,10 +3,16 @@ title: Dumping Embedded Textures
 linktitle: Dumping Embedded Textures
 second_title: Aspose.3D .NET API
 description: Unlock the secrets of embedded textures in 3D models with Aspose.3D for .NET. Dive into our step-by-step guide for seamless integration. Download your free trial now!
-type: docs
 weight: 11
 url: /net/materials/dump-embedded-textures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dumping Embedded Textures
+
 ## Introduction
 Welcome to the world of Aspose.3D for .NET – a powerful toolkit that empowers developers to manipulate and work with 3D files seamlessly. In this comprehensive tutorial, we'll delve into the fascinating realm of dumping embedded textures using Aspose.3D. If you're eager to enhance your 3D application by unlocking the potential of embedded textures, you're in the right place.
 ## Prerequisites
@@ -71,3 +77,10 @@ A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community s
 A: Yes, a temporary license is available [here](https://purchase.aspose.com/temporary-license/).
 ### Q: Where can I find comprehensive documentation for Aspose.3D?
 A: The documentation is accessible [here](https://reference.aspose.com/3d/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

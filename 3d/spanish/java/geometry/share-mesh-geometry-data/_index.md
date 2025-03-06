@@ -3,10 +3,16 @@ title: Comparta datos de geometría de malla en Java 3D con Aspose.3D
 linktitle: Comparta datos de geometría de malla en Java 3D con Aspose.3D
 second_title: API de Java Aspose.3D
 description: Explora las maravillas de Java 3D con Aspose.3D. Aprenda a compartir datos de geometría de malla sin esfuerzo entre nodos en este completo tutorial.
-type: docs
 weight: 15
 url: /es/java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comparta datos de geometría de malla en Java 3D con Aspose.3D
+
 ## Introducción
 
 Embarcarse en un viaje al reino de Java 3D con Aspose.3D abre un mundo de posibilidades para crear visualizaciones impresionantes y experiencias inmersivas. En este tutorial, lo guiaremos a través del proceso de compartir datos de geometría de malla en Java 3D usando Aspose.3D. Siga cada paso cuidadosamente y, al final, estará intercambiando datos de malla sin problemas entre múltiples nodos.
@@ -117,3 +123,9 @@ R1: Sí, Aspose.3D está diseñado para funcionar perfectamente con varios marco
 ### P5: ¿Cómo obtengo una licencia temporal para Aspose.3D?
 
  R5: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

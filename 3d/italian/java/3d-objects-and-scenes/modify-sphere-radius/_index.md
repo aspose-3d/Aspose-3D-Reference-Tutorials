@@ -3,10 +3,16 @@ title: Modifica il raggio della sfera 3D in Java con Aspose.3D
 linktitle: Modifica il raggio della sfera 3D in Java con Aspose.3D
 second_title: API Java Aspose.3D
 description: Esplora la programmazione Java 3D con Aspose.3D, modificando il raggio della sfera senza sforzo. Scaricalo ora per un'esperienza di sviluppo 3D senza interruzioni.
-type: docs
 weight: 10
 url: /it/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifica il raggio della sfera 3D in Java con Aspose.3D
+
 ## introduzione
 
 Benvenuti nella nostra guida passo passo sulla modifica del raggio di una sfera 3D utilizzando Aspose.3D per Java. Aspose.3D è una potente libreria Java che consente agli sviluppatori di lavorare con file 3D e manipolarli senza problemi. In questo tutorial ci concentreremo sulla modifica del raggio di una sfera 3D utilizzando esempi pratici e spiegazioni dettagliate.
@@ -103,3 +109,9 @@ Congratulazioni! Hai modificato con successo il raggio della sfera 3D utilizzand
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.3D?
 
  R5: Puoi ottenere una licenza temporanea visitando[Licenza temporanea](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

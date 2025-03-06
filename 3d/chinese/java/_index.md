@@ -1,12 +1,17 @@
 ---
 title: Aspose.3D for Java 综合教程和示例
 linktitle: Aspose.3D Java 教程
-type: docs
 weight: 10
 url: /zh/java/
 description: 通过综合教程了解 Aspose.3D for Java 的强大功能。通过有关动画、几何、许可等的教程提升您的 Java 3D 项目！
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java 综合教程和示例
+
 ## 介绍
 
 您准备好将您的 Java 3D 项目提升到一个新的水平吗？通过我们全面的教程和示例深入了解 Aspose.3D for Java 的世界。无论您是经验丰富的开发人员还是新手，我们的分步指南都将帮助您充分发挥 Aspose.3D 的潜力。
@@ -74,3 +79,9 @@ is_root: true
 使用 Aspose.3D 教程轻松解码、加载、创建、导出和简化 Java 中的点云。通过我们的点云使用指南逐步增强您的 3D 开发技能。
 
 通过我们的教程探索 Aspose.3D for Java 的丰富世界。从动画和几何到文件操作和优化，我们的指南涵盖了所有内容。提升您的 Java 3D 开发技能并创造令人惊叹的视觉体验！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java에서 3D 메시 생성 및 변환
 linktitle: Java에서 3D 메시 생성 및 변환
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 3D 그래픽의 잠재력을 활용해 보세요. 메쉬를 손쉽게 생성, 변환 및 최적화할 수 있습니다. 튜토리얼을 통해 코딩 경험을 향상해보세요.
-type: docs
 weight: 31
 url: /ko/java/transforming-3d-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 3D 메시 생성 및 변환
+
 
 ## 소개
 
@@ -42,3 +48,9 @@ Java용 Aspose.3D를 사용하여 3D 그래픽을 향상하세요. 접선 및 �
 Java용 Aspose.3D를 사용하여 3D 그래픽 숙달을 향한 여정을 시작하세요. 프리미티브를 매혹적인 메시로 손쉽게 변환합니다. 지금 코딩 경험을 향상해보세요!
 ### [Java에서 3D 메시에 대한 메모리 레이아웃 사용자 정의](./customize-mesh-memory-layout/)
 Aspose.3D로 Java 3D 모델링을 향상하세요. 최적의 성능을 위해 메모리 레이아웃을 사용자 정의하세요. 지금 단계별 가이드를 따르십시오!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

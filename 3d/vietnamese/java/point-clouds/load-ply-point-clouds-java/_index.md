@@ -3,10 +3,16 @@ title: Tải các đám mây điểm PLY một cách liền mạch trong Java
 linktitle: Tải các đám mây điểm PLY một cách liền mạch trong Java
 second_title: API Java Aspose.3D
 description: Nâng cao ứng dụng Java của bạn với tải đám mây điểm PLY liền mạch Aspose.3D. Hướng dẫn từng bước, Câu hỏi thường gặp và hỗ trợ.
-type: docs
 weight: 11
 url: /vi/java/point-clouds/load-ply-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải các đám mây điểm PLY một cách liền mạch trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách tải liền mạch các đám mây điểm PLY trong Java bằng Aspose.3D. Nếu bạn đang tìm cách nâng cao ứng dụng Java của mình bằng khả năng xử lý đám mây điểm 3D mạnh mẽ thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo bạn nắm bắt kỹ từng khái niệm.
@@ -89,3 +95,10 @@ A3: Tham khảo tài liệu[đây](https://reference.aspose.com/3d/java/).
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời để thử nghiệm không?
 
  A5: Chắc chắn rồi, xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

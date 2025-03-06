@@ -3,10 +3,16 @@ title: Scène d'encodage sous forme de nuage de points
 linktitle: Scène d'encodage sous forme de nuage de points
 second_title: API Aspose.3D .NET
 description: Explorez le monde de la modélisation 3D dans .NET avec Aspose.3D. Apprenez à coder des sphères dans des nuages de points sans effort. Libérez votre créativité maintenant!
-type: docs
 weight: 14
 url: /fr/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Scène d'encodage sous forme de nuage de points
+
 ## Introduction
 Bienvenue dans ce guide complet sur l'encodage d'une sphère sous forme de nuage de points à l'aide d'Aspose.3D pour .NET. Aspose.3D est une bibliothèque puissante et polyvalente qui permet aux développeurs de travailler de manière transparente avec des modèles 3D dans leurs applications .NET. Dans ce didacticiel, nous vous guiderons tout au long du processus d'encodage d'une sphère dans un nuage de points à l'aide d'Aspose.3D.
 ## Conditions préalables
@@ -60,3 +66,9 @@ Oui, vous pouvez explorer Aspose.3D avec un essai gratuit. Télécharge le[ici](
  Visitez le forum Aspose.3D[ici](https://forum.aspose.com/c/3d/18) pour le soutien et les discussions de la communauté.
 ### Ai-je besoin d’une licence temporaire pour tester ?
  Oui, si vous testez la bibliothèque, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

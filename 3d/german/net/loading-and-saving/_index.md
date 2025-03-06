@@ -3,10 +3,16 @@ title: Laden und Speichern
 linktitle: Laden und Speichern
 second_title: Aspose.3D .NET API
 description: Verbessern Sie Ihr 3D-Modellierungsspiel mit Aspose.3D für .NET! Beherrschen Sie effiziente Lade- und Speichertechniken mit CancellationToken. Jetzt entdecken!
-type: docs
 weight: 27
 url: /de/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Laden und Speichern
+
 ## Einführung
 
 Tauchen Sie ein in die faszinierende Welt der 3D-Modellierung mit Aspose.3D für .NET, Ihrem Tor zur nahtlosen und effizienten Bearbeitung von 3D-Dokumenten. In dieser Tutorialreihe erkunden wir die Feinheiten des Ladens und Speicherns von 3D-Modellen und erschließen so eine Welt voller kreativer Möglichkeiten.
@@ -105,3 +111,9 @@ Exportieren Sie Metadaten wie Szeneneigenschaften, Objektattribute und andere re
 ### Laden Sie eingebettete Texturen von USDZ in den Speicher
 
 Zugriff auf eingebettete Texturdaten in USDZ-Dateien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

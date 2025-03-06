@@ -3,10 +3,16 @@ title: Normálok beállítása a Cube-on
 linktitle: Normálok beállítása a Cube-on
 second_title: Aspose.3D .NET API
 description: Tanuljon meg normál értékeket beállítani egy 3D kockán az Aspose.3D for .NET használatával. Fejlessze 3D-s modellezési készségeit ezzel a lépésről-lépésre szóló útmutatóval.
-type: docs
 weight: 17
 url: /hu/net/geometry-and-hierarchy/setup-normals-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Normálok beállítása a Cube-on
+
 ## Bevezetés
 
 Üdvözöljük lépésenkénti útmutatónkban, amely az Aspose.3D for .NET használatával 3D-s jelenetek kockán való normál beállításáról szól. Az Aspose.3D egy hatékony könyvtár, amely lehetővé teszi a .NET fejlesztők számára, hogy 3D fájlokkal dolgozzanak, és a funkciók széles skáláját kínálja a 3D modellezéshez és manipulációhoz.
@@ -100,3 +106,9 @@ A2: Abszolút! Ingyenes próbaverziót letölthet a webhelyről[itt](https://rel
 ### 5. kérdés: Vannak további források az Aspose.3D tanulásához?
 
  A5: Fedezze fel a kiterjedt[dokumentáció](https://reference.aspose.com/3d/net/) további funkciók és tippek felfedezéséhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

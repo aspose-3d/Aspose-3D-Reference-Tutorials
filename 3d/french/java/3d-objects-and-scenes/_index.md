@@ -3,10 +3,16 @@ title: Manipulation d'objets et de scènes 3D en Java
 linktitle: Manipulation d'objets et de scènes 3D en Java
 second_title: API Java Aspose.3D
 description: Débloquez le monde de la programmation Java 3D avec les didacticiels Aspose.3D. Apprenez à modifier le rayon de la sphère et à appliquer des requêtes de type XPath sans effort pour un développement 3D fluide.
-type: docs
 weight: 33
 url: /fr/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulation d'objets et de scènes 3D en Java
+
 ## Introduction
 
 La programmation Java 3D devient un voyage captivant avec les didacticiels Aspose.3D, axés sur la manipulation d'objets et de scènes 3D. Dans cet article, nous aborderons deux didacticiels essentiels qui promettent d'élever vos compétences en développement 3D.
@@ -27,3 +33,9 @@ En conclusion, ces tutoriels vous servent de passerelle pour maîtriser la progr
 Explorez la programmation Java 3D avec Aspose.3D, en modifiant le rayon de la sphère sans effort. Téléchargez-le maintenant pour une expérience de développement 3D fluide.
 ### [Appliquer des requêtes de type XPath à des objets 3D en Java](./xpath-like-object-queries/)
 Maîtrisez facilement les requêtes d'objets 3D en Java avec Aspose.3D. Appliquez des requêtes de type XPath, manipulez des scènes et améliorez votre développement 3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

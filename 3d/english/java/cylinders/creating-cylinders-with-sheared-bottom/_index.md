@@ -3,10 +3,16 @@ title: Creating Cylinders with Sheared Bottom in Aspose.3D for Java
 linktitle: Creating Cylinders with Sheared Bottom in Aspose.3D for Java
 second_title: Aspose.3D Java API
 description: Learn to create customized cylinders with sheared bottoms using Aspose.3D for Java. Elevate your 3D modeling skills with this step-by-step guide.
-type: docs
 weight: 12
 url: /java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creating Cylinders with Sheared Bottom in Aspose.3D for Java
+
 ## Introduction
 
 Welcome to this step-by-step guide on creating cylinders with sheared bottoms using Aspose.3D for Java. Aspose.3D is a powerful Java library that allows you to work with 3D files effortlessly. In this tutorial, we'll dive into creating customized cylinders with sheared bottoms, providing you with a hands-on experience in using Aspose.3D to enhance your 3D modeling skills.
@@ -100,3 +106,10 @@ A4: You can get a temporary license [here](https://purchase.aspose.com/temporary
 ### Q5: Can I buy Aspose.3D for Java?
 
 A5: Yes, you can purchase Aspose.3D for Java [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.3D for .NET 应用鱼眼镜头效果
 linktitle: 将鱼眼镜头效果应用于 3D 场景
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 增强您的 3D 场景！了解如何逐步应用迷人的鱼眼镜头效果。现在下载！
-type: docs
 weight: 12
 url: /zh/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D for .NET 应用鱼眼镜头效果
+
 ## 介绍
 您是否希望增强 3D 场景的视觉吸引力？使用 Aspose.3D for .NET 深入探索鱼眼镜头效果的迷人世界。本教程将逐步指导您如何将鱼眼镜头效果应用到 3D 场景中，为它们提供独特而迷人的视角。
 ## 先决条件
@@ -77,3 +83,9 @@ renderer.Execute(fisheye, final);
 3D 场景的大小主要受系统资源的限制。确保您的硬件可以处理场景的大小。
 ### 我可以使用不同的输出格式而不是 PNG 来获得鱼眼效果结果吗？
 是的，您可以根据您的要求修改代码以将输出保存为不同的图像格式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

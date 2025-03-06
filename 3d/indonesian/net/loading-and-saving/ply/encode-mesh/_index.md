@@ -3,10 +3,16 @@ title: Pengkodean Mesh ke Format PLY
 linktitle: Pengkodean Mesh ke Format PLY
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia pemrograman 3D dengan Aspose.3D untuk .NET. Pelajari cara menyandikan jerat ke format PLY dengan mudah. Tingkatkan permainan pengembangan Anda!
-type: docs
 weight: 13
 url: /id/net/loading-and-saving/ply/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengkodean Mesh ke Format PLY
+
 ## Perkenalan
 Memulai perjalanan ke dunia pemrograman 3D bisa jadi mendebarkan sekaligus menakutkan. Sebagai pengembang, Anda mungkin ingin menjelajahi kemungkinan yang ditawarkan grafis 3D. Dalam tutorial ini, kita akan menyelami proses menarik dalam pengkodean mesh ke format PLY menggunakan Aspose.3D untuk .NET.
 ## Prasyarat
@@ -56,3 +62,9 @@ Sangat! Aspose.3D mendukung pengkodean berbagai bentuk 3D, memungkinkan Anda men
  Kunjungi forum Aspose.3D[Di Sini](https://forum.aspose.com/c/3d/18) untuk berhubungan dengan masyarakat dan mencari bantuan.
 ### 5. Apakah ada uji coba gratis yang tersedia untuk Aspose.3D?
  Tentu! Jelajahi kemampuan Aspose.3D dengan uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

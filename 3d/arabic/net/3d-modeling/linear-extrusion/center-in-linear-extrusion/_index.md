@@ -3,10 +3,16 @@ title: مركز في النتوء الخطي
 linktitle: مركز في النتوء الخطي
 second_title: Aspose.3D.NET API
 description: استكشف عالم النمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. تقنيات البثق الخطي المركزي، قم بإنشاء تصميمات مذهلة، وأطلق العنان لإبداعك.
-type: docs
 weight: 10
 url: /ar/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مركز في النتوء الخطي
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول إتقان البثق الخطي باستخدام Aspose.3D لـ .NET. إذا كنت تتطلع إلى تحسين مهاراتك في النمذجة ثلاثية الأبعاد وإنشاء عمليات سحب مذهلة، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سوف نتعمق في تقنية البثق الخطي، مع التركيز بشكل خاص على الجانب المركزي للارتقاء بتصميماتك إلى مستوى جديد تمامًا.
@@ -109,3 +115,10 @@ A1: يدعم Aspose.3D بشكل أساسي لغات .NET مثل C# وVB.NET.
 ### س5: أين يمكنني شراء ترخيص Aspose.3D لـ .NET؟
 
  ج5: قم بشراء الترخيص الخاص بك[هنا](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

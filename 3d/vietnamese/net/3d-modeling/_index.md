@@ -3,10 +3,16 @@ title: Làm người mẫu
 linktitle: Làm người mẫu
 second_title: API Aspose.3D .NET
 description: Khám phá nghệ thuật tạo mô hình 3D với Aspose.3D cho .NET! Dễ dàng tạo các mô hình nguyên thủy quyến rũ trong hướng dẫn toàn diện này. Hãy giải phóng sự sáng tạo của bạn ngay hôm nay.
-type: docs
 weight: 28
 url: /vi/net/3d-modeling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm người mẫu
+
 
 ## Giới thiệu
 
@@ -67,3 +73,9 @@ Vẻ đẹp của mô hình 3D nằm ở sự tự do thỏa sức sáng tạo c
 ## Hướng dẫn tạo mô hình 3D
 ### [Tạo mô hình 3D nguyên thủy](./primitive-3d-models/)
 Khám phá thế giới mô hình 3D với Aspose.3D cho .NET. Tạo các mô hình nguyên thủy tuyệt đẹp một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

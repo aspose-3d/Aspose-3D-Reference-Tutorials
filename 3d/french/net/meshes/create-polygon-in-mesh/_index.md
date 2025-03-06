@@ -3,10 +3,16 @@ title: Création d'un polygone dans un maillage
 linktitle: Création d'un polygone dans un maillage
 second_title: API Aspose.3D .NET
 description: Explorez le monde de la modélisation 3D avec Aspose.3D pour .NET. Créez de superbes polygones dans des maillages sans effort. Téléchargez-le maintenant pour une expérience de développement immersive !
-type: docs
 weight: 18
 url: /fr/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création d'un polygone dans un maillage
+
 ## Introduction
 Êtes-vous prêt à plonger dans le monde passionnant de la modélisation 3D avec Aspose.3D pour .NET ? Si vous êtes un développeur cherchant à améliorer vos compétences ou un nouveau venu intéressé par la création de superbes maillages 3D, vous êtes au bon endroit. Dans ce didacticiel complet, nous vous guiderons tout au long du processus de création d'un polygone dans un maillage à l'aide d'Aspose.3D.
 ## Conditions préalables
@@ -59,3 +65,9 @@ R : Aspose.3D pour .NET est principalement conçu pour les environnements Window
  R : Explorez les vastes[Documentation](https://reference.aspose.com/3d/net/) disponible pour des informations approfondies.
 ### Q : Comment puis-je acheter Aspose.3D pour .NET ?
  R : Visitez le[page d'achat](https://purchase.aspose.com/buy) pour acquérir votre licence et libérer tout le potentiel d'Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Generazione di dati normali per le mesh
 linktitle: Generazione di dati normali per le mesh
 second_title: API Aspose.3D .NET
 description: Migliora i modelli 3D con Aspose.3D per .NET! Impara a generare dati normali per le mesh in questa guida passo passo. Il realismo incontra la semplicità.
-type: docs
 weight: 20
 url: /it/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generazione di dati normali per le mesh
+
 ## introduzione
 Benvenuti in questa guida passo passo sulla generazione di dati normali per le mesh utilizzando Aspose.3D per .NET! Se lavori con modelli 3D e desideri migliorare l'impatto visivo aggiungendo dati normali, questo tutorial fa per te. Aspose.3D è una potente libreria .NET che semplifica la programmazione grafica 3D e in questa guida ti guideremo attraverso il processo di generazione di dati normali per le mesh.
 ## Prerequisiti
@@ -66,3 +72,9 @@ Sì, Aspose.3D supporta vari formati 3D, inclusi FBX, STL e altri. Fare riferime
  La documentazione completa è disponibile[Qui](https://reference.aspose.com/3d/net/).
 ### Cosa succede se devo acquistare una licenza per Aspose.3D?
  È possibile acquistare una licenza da[pagina di acquisto](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

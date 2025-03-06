@@ -3,10 +3,16 @@ title: 모든 3D 장면 추출
 linktitle: 모든 3D 장면 추출
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 개발의 무한한 가능성을 탐색해 보세요. 장면을 쉽게 로드, 저장 및 추출할 수 있습니다.
-type: docs
 weight: 13
 url: /ko/net/loading-and-saving/pdf/extract-all-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 모든 3D 장면 추출
+
 ## 소개
 
 개발자가 애플리케이션에서 3D 장면을 손쉽게 조작하고 처리할 수 있도록 지원하는 최첨단 라이브러리인 .NET용 Aspose.3D의 흥미진진한 세계에 오신 것을 환영합니다. 이 단계별 가이드에서는 .NET용 Aspose.3D를 사용하여 3D 장면을 로드, 저장 및 추출하는 기본 측면을 살펴보겠습니다. 숙련된 개발자이든 3D 그래픽 영역을 처음 접하는 사람이든 관계없이 이 튜토리얼은 원활한 학습 경험을 제공하도록 제작되었습니다.
@@ -93,3 +99,9 @@ A2: 물론이죠! Aspose.3D는 기본 장면부터 복잡한 3D 디자인까지 
 ### Q5: 도움이 필요하거나 Aspose.3D 커뮤니티에 연결하고 싶으십니까?
 
  A5: 지원 포럼을 방문하세요.[여기](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

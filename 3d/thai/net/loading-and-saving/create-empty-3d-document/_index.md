@@ -3,10 +3,16 @@ title: การสร้างเอกสาร 3 มิติเปล่า
 linktitle: การสร้างเอกสาร 3 มิติเปล่า
 second_title: Aspose.3D .NET API
 description: สำรวจโลกแห่งการสร้างเอกสาร 3 มิติด้วย Aspose.3D สำหรับ .NET สร้าง แก้ไข และบันทึกฉาก 3 มิติที่น่าทึ่งได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/net/loading-and-saving/create-empty-3d-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างเอกสาร 3 มิติเปล่า
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกแห่งการสร้างเอกสาร 3 มิติโดยใช้ Aspose.3D สำหรับ .NET! ในบทช่วยสอนนี้ เราจะสำรวจพื้นฐานของการโหลดและบันทึกเอกสาร 3D Aspose.3D สำหรับ .NET มีชุดเครื่องมืออันทรงพลังสำหรับการทำงานกับฉาก 3 มิติ และเราจะแนะนำคุณตลอดแต่ละขั้นตอนเพื่อช่วยให้คุณเริ่มต้นได้อย่างราบรื่น
@@ -84,3 +90,9 @@ Console.WriteLine("\nAn empty 3D document created successfully.\nFile saved at "
 ### คำถามที่ 5: ฉันจะซื้อ Aspose.3D สำหรับ .NET ได้ที่ไหน
 
  A5: คุณสามารถซื้อห้องสมุดได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Центр линейной экструзии
 linktitle: Центр линейной экструзии
 second_title: Aspose.3D .NET API
 description: Исследуйте мир 3D-моделирования с помощью Aspose.3D для .NET. Сосредоточьте методы линейной экструзии, создавайте потрясающие дизайны и раскрывайте свой творческий потенциал.
-type: docs
 weight: 10
 url: /ru/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Центр линейной экструзии
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по освоению линейной экструзии с использованием Aspose.3D для .NET. Если вы хотите улучшить свои навыки 3D-моделирования и создавать потрясающие выдавливания, вы попали по адресу. В этом уроке мы углубимся в технику линейной экструзии, уделив особое внимание аспекту центрирования, чтобы вывести ваши проекты на совершенно новый уровень.
@@ -109,3 +115,10 @@ A1: Aspose.3D в первую очередь поддерживает языки
 ### Вопрос 5: Где я могу приобрести лицензию Aspose.3D для .NET?
 
  A5: Купите лицензию[здесь](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

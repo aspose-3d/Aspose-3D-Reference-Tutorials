@@ -3,10 +3,16 @@ title: Bekerja dengan Silinder di Aspose.3D untuk Java
 linktitle: Bekerja dengan Silinder di Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Buat model 3D yang menakjubkan dengan mudah menggunakan Aspose.3D untuk Java! Pelajari cara membuat silinder kipas, silinder atas offset, dan silinder bawah geser dengan tutorial.
-type: docs
 weight: 25
 url: /id/java/cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Silinder di Aspose.3D untuk Java
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan keterampilan pemodelan 3D Anda? Aspose.3D untuk Java membuka banyak sekali kemungkinan, dan dalam tutorial ini, kami akan memandu Anda melalui dunia menawan dalam membuat silinder khusus. Baik Anda seorang pengembang berpengalaman atau baru terjun ke dunia pemodelan 3D, tutorial ini akan meningkatkan keterampilan Anda dan menambahkan sentuhan keunikan pada proyek Anda.
@@ -37,3 +43,9 @@ Pelajari cara membuat silinder kipas khusus di Java dengan Aspose.3D. Tingkatkan
 Jelajahi keajaiban pemodelan 3D di Java dengan Aspose.3D. Pelajari cara membuat silinder menawan dengan bagian atas offset dengan mudah.
 ### [Membuat Silinder dengan Sheared Bottom di Aspose.3D untuk Java](./creating-cylinders-with-sheared-bottom/)
 Pelajari cara membuat silinder khusus dengan bagian bawah yang dicukur menggunakan Aspose.3D untuk Java. Tingkatkan keterampilan pemodelan 3D Anda dengan panduan langkah demi langkah ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

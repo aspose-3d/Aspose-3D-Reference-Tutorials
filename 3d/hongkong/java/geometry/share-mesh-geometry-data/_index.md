@@ -3,10 +3,16 @@ title: 使用 Aspose.3D 在 Java 3D 中共享網格幾何數據
 linktitle: 使用 Aspose.3D 在 Java 3D 中共享網格幾何數據
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 探索 Java 3D 的奇蹟。在這個綜合教程中了解如何在節點之間輕鬆共享網格幾何資料。
-type: docs
 weight: 15
 url: /zh-hant/java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D 在 Java 3D 中共享網格幾何數據
+
 ## 介紹
 
 使用 Aspose.3D 踏上 Java 3D 領域的旅程，為創造令人驚嘆的視覺化和身臨其境的體驗打開了一個充滿可能性的世界。在本教程中，我們將引導您完成使用 Aspose.3D 在 Java 3D 中共享網格幾何資料的過程。仔細遵循每個步驟，到最後，您將在多個節點之間無縫交換網格資料。
@@ -117,3 +123,9 @@ A4：是的，您可以獲得免費試用[這裡](https://releases.aspose.com/).
 ### Q5：如何取得Aspose.3D的臨時授權？
 
  A5：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

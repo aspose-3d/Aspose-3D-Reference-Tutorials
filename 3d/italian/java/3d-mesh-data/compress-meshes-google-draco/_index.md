@@ -3,10 +3,16 @@ title: Comprimi mesh 3D con Google Draco in Java
 linktitle: Comprimi mesh 3D con Google Draco in Java
 second_title: API Java Aspose.3D
 description: Ottimizza le tue applicazioni 3D con Aspose.3D. Scopri come comprimere le mesh utilizzando Google Draco in Java. Segui la nostra guida passo passo per uno sviluppo 3D efficiente.
-type: docs
 weight: 10
 url: /it/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprimi mesh 3D con Google Draco in Java
+
 ## introduzione
 
 Benvenuti in questa guida completa sulla compressione delle mesh 3D con Google Draco in Java utilizzando Aspose.3D. In questo tutorial ti guideremo attraverso il processo di compressione delle mesh 3D in modo efficiente, utilizzando la potenza di Aspose.3D. Se sei uno sviluppatore che desidera migliorare le sue applicazioni 3D riducendo le dimensioni della mesh senza compromettere la qualità, sei nel posto giusto.
@@ -100,3 +106,9 @@ R2: Sebbene questo tutorial sia incentrato su Java, Google Draco è disponibile 
 ### Q5: Esiste un forum della community per il supporto Aspose.3D?
 
  R5: Sì, per il supporto e le discussioni della community, visitare il[Aspose.3D Forum](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

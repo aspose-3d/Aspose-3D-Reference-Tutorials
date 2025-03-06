@@ -3,10 +3,16 @@ title: Aspose.3D for Java を使用して 3D シーンを点群としてエク�
 linktitle: Aspose.3D for Java を使用して 3D シーンを点群としてエクスポートする
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して Java で 3D シーンを点群としてエクスポートする方法を学びます。強力な 3D グラフィックスと視覚化によりアプリケーションを強化します。
-type: docs
 weight: 15
 url: /ja/java/point-clouds/export-3d-scenes-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java を使用して 3D シーンを点群としてエクスポートする
+
 ## 導入
 
 Aspose.3D for Java は、点群の生成を含む、さまざまな形式での 3D シーンのエクスポートを容易にします。点群は、ゲームからシミュレーションに至るまで、さまざまな業界で重要であり、3D 座標系の点の集合を通じて物理空間を表現します。
@@ -94,3 +100,9 @@ A2: ライブラリをダウンロードします。[ここ](https://releases.as
 ### Q5: Java 用 Aspose.3D の購入を検討していますか?
 
  A5: 購入オプションを検討する[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

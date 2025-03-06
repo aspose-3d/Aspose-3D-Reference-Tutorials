@@ -3,10 +3,16 @@ title: การสร้างฉากคิวบ์
 linktitle: การสร้างฉากคิวบ์
 second_title: Aspose.3D .NET API
 description: สร้างฉากคิวบ์ 3D ที่น่าทึ่งได้อย่างง่ายดายด้วย Aspose.3D สำหรับ .NET ดาวน์โหลดห้องสมุด ทำตามคำแนะนำทีละขั้นตอนของเรา และปลดปล่อย
-type: docs
 weight: 12
 url: /th/net/geometry-and-hierarchy/create-cube-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างฉากคิวบ์
+
 ## การแนะนำ
 
 คุณพร้อมที่จะดำดิ่งสู่โลกแห่งการออกแบบ 3D อันน่าหลงใหลแล้วหรือยัง? ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการสร้างฉากคิวบ์ที่ชวนหลงใหลโดยใช้ Aspose.3D สำหรับ .NET Aspose.3D เป็นไลบรารี่ที่ทรงพลังและอเนกประสงค์ที่ช่วยให้นักพัฒนาสามารถสร้างประสบการณ์ 3D ที่ดื่มด่ำได้อย่างลงตัว
@@ -126,3 +132,9 @@ A2: แน่นอน! ทดลองใช้วัสดุ สี และ
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.3D ได้อย่างไร
 
  A5: รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

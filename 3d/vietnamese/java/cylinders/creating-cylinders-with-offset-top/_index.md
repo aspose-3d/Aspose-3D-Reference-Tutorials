@@ -3,10 +3,16 @@ title: Tạo hình trụ với Offset Top trong Aspose.3D cho Java
 linktitle: Tạo hình trụ với Offset Top trong Aspose.3D cho Java
 second_title: API Java Aspose.3D
 description: Khám phá những điều kỳ diệu của mô hình 3D trong Java với Aspose.3D. Học cách tạo ra các hình trụ quyến rũ với phần đỉnh lệch một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo hình trụ với Offset Top trong Aspose.3D cho Java
+
 ## Giới thiệu
 
 Trong lĩnh vực tạo mô hình 3D dựa trên Java, Aspose.3D nổi bật như một công cụ mạnh mẽ, cung cấp cho các nhà phát triển khả năng tạo các cảnh 3D phức tạp một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới hấp dẫn của Aspose.3D dành cho Java, tập trung vào một nhiệm vụ cụ thể – tạo hình trụ có đỉnh lệch. Đến cuối hướng dẫn này, bạn sẽ nắm vững quy trình, cho phép bạn tích hợp tính năng này một cách liền mạch vào các dự án 3D của mình.
@@ -127,3 +133,9 @@ A3: Có, bạn có thể khám phá và chọn tùy chọn cấp phép phù hợ
 ### Câu hỏi 5: Có tùy chọn cấp phép tạm thời cho mục đích thử nghiệm không?
 
  Câu trả lời 5: Có, bạn có thể lấy giấy phép tạm thời cho mục đích thử nghiệm và đánh giá[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

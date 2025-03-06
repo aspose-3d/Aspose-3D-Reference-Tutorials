@@ -3,10 +3,16 @@ title: Zmiana orientacji płaszczyzny w scenach 3D
 linktitle: Zmiana orientacji płaszczyzny w scenach 3D
 second_title: Aspose.3D API .NET
 description: Poznaj Aspose.3D dla .NET i opanuj zmianę orientacji płaszczyzny w scenach 3D. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 10
 url: /pl/net/3d-modeling/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zmiana orientacji płaszczyzny w scenach 3D
+
 ## Wstęp
 
 Witamy w tym kompleksowym przewodniku na temat zmiany orientacji płaszczyzny w scenach 3D przy użyciu Aspose.3D dla .NET! Jeśli jesteś programistą lub entuzjastą 3D i chcesz udoskonalić swoje umiejętności, jesteś we właściwym miejscu. W tym samouczku omówimy ten proces krok po kroku, korzystając z jasnych przykładów i szczegółowych wyjaśnień. Na koniec będziesz mieć solidną wiedzę na temat manipulowania orientacją płaszczyzny w projektach 3D.
@@ -95,3 +101,9 @@ Odpowiedź 1: Aspose.3D może bezproblemowo współpracować z innymi popularnym
 ### P5: Gdzie mogę znaleźć szczegółową dokumentację?
 
  Odpowiedź 5: Zapoznaj się z dokumentacją[Tutaj](https://reference.aspose.com/3d/net/) w celu uzyskania szczegółowych informacji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

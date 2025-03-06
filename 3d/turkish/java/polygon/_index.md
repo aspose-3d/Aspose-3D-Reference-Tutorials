@@ -3,10 +3,16 @@ title: Java ile 3D Modellerde Poligon Manipülasyonu
 linktitle: Java ile 3D Modellerde Poligon Manipülasyonu
 second_title: Aspose.3D Java API'si
 description: Aspose.3D eğitimleriyle Java'da verimli 3D görüntülemeyi keşfedin. Optimum performans ve gelişmiş doku haritalaması için çokgenleri üçgenlere dönüştürün ve UV koordinatları oluşturun.
-type: docs
 weight: 27
 url: /tr/java/polygon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java ile 3D Modellerde Poligon Manipülasyonu
+
 ## giriiş
 
 Aspose.3D'nin projelerinizi geliştirmek için merkezde yer aldığı Java 3D geliştirme dünyasına hoş geldiniz. Bu eğitim serisinde, iki önemli hususa odaklanarak çokgen manipülasyonunun inceliklerini inceleyeceğiz: verimli görüntü oluşturma için çokgenleri üçgenlere dönüştürmek ve doku eşlemeyi geliştirmek için UV koordinatları oluşturmak.
@@ -49,3 +55,9 @@ Sonuç olarak Aspose.3D for Java, olasılıklar dünyasının kapılarını aç�
 Aspose.3D ile Java 3D görüntülemeyi geliştirin. Optimum performans için çokgenleri üçgenlere dönüştürmeyi öğrenin. Sorunsuz bir 3D geliştirme deneyimi için hemen indirin.
 ### [Java 3D Modellerinde Doku Eşleme için UV Koordinatları Oluşturun](./generate-uv-coordinates/)
 Aspose.3D'yi kullanarak Java 3D modelleri için UV koordinatları oluşturmayı öğrenin. Bu adım adım kılavuzla projelerinizde doku haritalamayı geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

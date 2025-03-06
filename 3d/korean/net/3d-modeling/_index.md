@@ -3,10 +3,16 @@ title: 모델링
 linktitle: 모델링
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 모델링 기술을 발견해보세요! 이 포괄적인 튜토리얼에서 매력적인 기본 모델을 쉽게 제작해 보세요. 오늘 창의력을 발휘해 보세요.
-type: docs
 weight: 28
 url: /ko/net/3d-modeling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 모델링
+
 
 ## 소개
 
@@ -67,3 +73,9 @@ Aspose.3D는 파라메트릭 3D 지오메트리 실린더 생성을 용이하게
 ## 3D 모델링 튜토리얼
 ### [기본 3D 모델 만들기](./primitive-3d-models/)
 .NET용 Aspose.3D를 사용하여 3D 모델링의 세계를 탐험해보세요. 멋진 원시 모델을 손쉽게 만들어 보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Concaténer des quaternions pour les rotations 3D en Java avec Aspose.3D
 linktitle: Concaténer des quaternions pour les rotations 3D en Java avec Aspose.3D
 second_title: API Java Aspose.3D
 description: Apprenez à concaténer des quaternions pour des rotations 3D en Java à l'aide d'Aspose.3D. Suivez notre guide étape par étape pour des transformations d'animation transparentes.
-type: docs
 weight: 11
 url: /fr/java/geometry/concatenate-quaternions-for-3d-rotations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Concaténer des quaternions pour les rotations 3D en Java avec Aspose.3D
+
 ## Introduction
 
 La concaténation de quaternions est un concept fondamental des graphiques 3D, vous permettant de combiner de manière transparente plusieurs transformations de rotation. Aspose.3D simplifie ce processus en Java, offrant un moyen efficace et intuitif de gérer les opérations de quaternion. Dans ce didacticiel, nous vous guiderons tout au long du processus de concaténation des quaternions et de leur application à des objets 3D à l'aide d'Aspose.3D.
@@ -107,3 +113,9 @@ En suivant ce tutoriel, vous avez appris à concaténer des quaternions pour des
 ### Q5 : Quels formats de fichiers sont pris en charge pour enregistrer des scènes 3D ?
 
 A5 : Aspose.3D prend en charge différents formats et vous pouvez enregistrer des scènes au format FBX, comme démontré dans ce didacticiel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

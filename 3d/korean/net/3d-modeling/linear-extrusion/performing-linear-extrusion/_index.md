@@ -3,10 +3,16 @@ title: 선형 압출 수행
 linktitle: 선형 압출 수행
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 그래픽의 세계를 탐험해보세요. 이 단계별 가이드에서 선형 압출을 수행합니다.
-type: docs
 weight: 12
 url: /ko/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 선형 압출 수행
+
 ## 소개:
 
 개발 게임을 향상시키는 강력한 도구인 .NET용 Aspose.3D를 사용하여 3D 그래픽 영역으로 스릴 넘치는 여행을 떠나보세요. 이 튜토리얼에서는 정적 2D 프로파일에 생명을 불어넣고 이를 역동적인 3D 세계로 끌어들이는 매혹적인 기술인 선형 압출의 복잡성을 자세히 살펴보겠습니다. Aspose.3D를 사용하여 창의성과 혁신의 문을 열어보세요!
@@ -106,3 +112,9 @@ A1: 물론이죠! Aspose.3D는 사용자 친화적인 환경을 제공하며 튜
 ### Q5: 무료 평가판이 제공됩니까?
 
  A5: 물론이죠! 무료 평가판 다운로드[여기](https://releases.aspose.com/) Aspose.3D의 기능을 직접 경험해보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

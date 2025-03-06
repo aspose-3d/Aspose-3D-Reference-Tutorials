@@ -3,10 +3,16 @@ title: 从受保护的 PDF 打开场景
 linktitle: 从受保护的 PDF 打开场景
 second_title: Aspose.3D .NET API
 description: 探索使用 Aspose.3D for .NET 进行 3D 建模的可能性。在我们的分步指南中了解如何打开受保护的 PDF 中的场景。
-type: docs
 weight: 17
 url: /zh/net/loading-and-saving/pdf/open-scene-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 从受保护的 PDF 打开场景
+
 ## 介绍
 
 欢迎阅读我们关于利用 Aspose.3D for .NET 功能增强 3D 建模和操作任务的综合指南。 Aspose.3D 是一个强大的 API，允许开发人员在其 .NET 应用程序中无缝使用 3D 文件格式。在本教程中，我们将重点关注加载和保存的重要方面，特别是使用 Aspose.3D for .NET 从受保护的 PDF 打开场景。
@@ -97,3 +103,9 @@ A3：是的，您可以通过下载免费试用版来探索Aspose.3D的功能[�
 ### Q5：测试需要临时许可证吗？
 
 A5：是的，如果您需要临时许可证用于测试目的，您可以获得一个[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

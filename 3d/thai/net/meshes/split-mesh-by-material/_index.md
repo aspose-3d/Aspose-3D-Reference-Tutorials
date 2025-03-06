@@ -3,10 +3,16 @@ title: การแยกตาข่ายตามวัสดุ
 linktitle: การแยกตาข่ายตามวัสดุ
 second_title: Aspose.3D .NET API
 description: เรียนรู้การแยก 3D meshes ตามวัสดุด้วย Aspose.3D สำหรับ .NET ปรับปรุงการจัดฉากและประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา
-type: docs
 weight: 22
 url: /th/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การแยกตาข่ายตามวัสดุ
+
 ## การแนะนำ
 ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมเกี่ยวกับการแยก mesh ตามวัสดุโดยใช้ Aspose.3D สำหรับ .NET! หากคุณเป็นนักพัฒนาที่ทำงานกับกราฟิก 3D และต้องการจัดการและจัดการ Mesh อย่างมีประสิทธิภาพ แสดงว่าคุณมาถูกที่แล้ว ในคู่มือนี้ เราจะสำรวจกระบวนการแยก mesh ตามวัสดุ ซึ่งเป็นงานสำคัญในการสร้างฉาก 3 มิติที่หลากหลายและดึงดูดสายตา
 ## ข้อกำหนดเบื้องต้น
@@ -71,3 +77,9 @@ planes = PolygonModifier.SplitMesh(box, SplitMeshPolicy.CompactData);
 ใช่ คุณสามารถเรนเดอร์และแสดงภาพตาข่ายย่อยผลลัพธ์ได้โดยใช้ความสามารถในการเรนเดอร์ Aspose.3D
 ### ถาม: Aspose.3D เหมาะสำหรับการพัฒนาเกมหรือไม่
 แม้ว่าจะใช้เป็นหลักในการสร้างแบบจำลองและการเรนเดอร์ แต่ Aspose.3D ก็สามารถรวมเข้ากับขั้นตอนการพัฒนาเกมสำหรับงานเฉพาะได้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Geometriai transzformációk exponálása Java 3D-ben az Aspose.3D segít
 linktitle: Geometriai transzformációk exponálása Java 3D-ben az Aspose.3D segítségével
 second_title: Aspose.3D Java API
 description: Az Aspose.3D segítségével könnyedén elsajátíthatja a 3D geometriai transzformációkat Java nyelven. Ismerje meg a csomópontok kezelését, a fordítások alkalmazását és a globális átalakítások értékelését.
-type: docs
 weight: 13
 url: /hu/java/geometry/expose-geometric-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geometriai transzformációk exponálása Java 3D-ben az Aspose.3D segítségével
+
 ## Bevezetés
 
 Java 3D programozás dinamikus világában a geometriai transzformációk elsajátítása kulcsfontosságú készség. Az Aspose.3D for Java egy robusztus könyvtár, amely lehetővé teszi a fejlesztők számára, hogy könnyedén elmélyüljenek a 3D modellezés bonyolultságában. Ebben az oktatóanyagban egy felvilágosító utazásra indulunk, melynek során az Aspose.3D for Java segítségével feltárjuk és kezeljük a geometriai transzformációkat.
@@ -86,3 +92,9 @@ Ebben az oktatóanyagban a geometriai átalakítások Java 3D-ben az Aspose.3D-v
 ### 5. kérdés: Szükségem van ideiglenes licencre az Aspose.3D teszteléséhez?
 
  A5: Szerezzen be a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Pas materialen toe op 3D-objecten in Java met Aspose.3D
 linktitle: Pas materialen toe op 3D-objecten in Java met Aspose.3D
 second_title: Aspose.3D Java-API
 description: Ontdek de wereld van 3D-graphics met Aspose.3D voor Java. Leer hoe u materialen naadloos op 3D-objecten kunt toepassen. Verbeter uw projecten met realistische beelden.
-type: docs
 weight: 14
 url: /nl/java/geometry/apply-materials-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas materialen toe op 3D-objecten in Java met Aspose.3D
+
 ## Invoering
 
 In de dynamische wereld van 3D-graphics onderscheidt Aspose.3D voor Java zich als een krachtig hulpmiddel om uw projecten tot leven te brengen. Het toevoegen van materialen aan 3D-objecten vergroot de visuele aantrekkingskracht, waardoor ze realistischer worden. In deze zelfstudie leiden we u door het proces van het toepassen van materialen op een 3D-kubus met behulp van Aspose.3D voor Java.
@@ -165,3 +171,9 @@ A1: Ja, met Aspose.3D kunt u meerdere materialen toepassen op verschillende dele
 ### V5: Kan ik de Aspose.3D-bibliotheek downloaden via een specifieke link?
 
  A5: Ja, gebruik de[download link](https://releases.aspose.com/3d/java/) om toegang te krijgen tot de nieuwste versie van Aspose.3D voor Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

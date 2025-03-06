@@ -3,10 +3,16 @@ title: 线性挤压中心
 linktitle: 线性挤压中心
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 建模世界。集中线性挤压技术，创造令人惊叹的设计，并释放您的创造力。
-type: docs
 weight: 10
 url: /zh/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 线性挤压中心
+
 ## 介绍
 
 欢迎阅读这份关于使用 Aspose.3D for .NET 掌握线性挤出的综合指南。如果您希望提高 3D 建模技能并创建令人惊叹的挤压件，那么您来对地方了。在本教程中，我们将深入研究线性挤出技术，特别关注居中方面，将您的设计提升到一个全新的水平。
@@ -109,3 +115,10 @@ A4：您可以获得临时许可证[这里](https://purchase.aspose.com/temporar
 ### Q5: 在哪里可以购买 Aspose.3D for .NET 许可证？
 
  A5：购买您的许可证[这里](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

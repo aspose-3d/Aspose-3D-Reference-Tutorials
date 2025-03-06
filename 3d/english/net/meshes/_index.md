@@ -3,10 +3,16 @@ title: Meshes
 linktitle: Meshes
 second_title: Aspose.3D .NET API
 description: Unlock the secrets of Aspose.3D for .NET with our comprehensive tutorials. Optimize 3D models, convert primitives to meshes, and enhance graphics effortlessly.
-type: docs
 weight: 26
 url: /net/meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Meshes
+
 ## Introduction
 
 Aspose.3D for .NET opens up a world of possibilities for developers looking to dive into the intricacies of 3D meshes. In this article, we'll guide you through various meshes Tutorials, each offering a unique perspective on harnessing the full potential of Aspose.3D for .NET.
@@ -69,3 +75,9 @@ Master the art of splitting 3D meshes by material with Aspose.3D for .NET. Impro
 [Read the tutorial: Split Mesh by Material](./split-mesh-by-material/)
 
 In conclusion, our Aspose.3D for .NET tutorials offer a comprehensive guide to mastering various aspects of 3D modeling. Dive in, enhance your skills, and elevate your 3D development game!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java Tutorial - Skapa polygoner i 3D-nät med Aspose.3D
 linktitle: Java Tutorial - Skapa polygoner i 3D-nät med Aspose.3D
 second_title: Aspose.3D Java API
 description: Lås upp kraften i 3D-grafik med Aspose.3D för Java. Skapa fantastiska polygoner utan ansträngning. Ladda ner nu för en sömlös utvecklingsupplevelse.
-type: docs
 weight: 10
 url: /sv/java/transforming-3d-meshes/create-polygons-in-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Tutorial - Skapa polygoner i 3D-nät med Aspose.3D
+
 ## Introduktion
 den dynamiska världen av 3D-grafik är förmågan att skapa invecklade och visuellt fantastiska objekt en grundläggande färdighet för utvecklare. Aspose.3D för Java tillhandahåller en kraftfull verktygslåda som gör det enkelt att skapa 3D-nät. I den här handledningen guidar vi dig genom processen att skapa polygoner i 3D-nät med Aspose.3D för Java.
 ## Förutsättningar
@@ -51,3 +57,9 @@ Ja, Aspose.3D erbjuder en rad funktioner för att skapa intrikata och detaljerad
  Ja, du kan utforska funktionerna i Aspose.3D genom att komma åt[gratis provperiod](https://releases.aspose.com/).
 ### 5. Var kan jag söka support för Aspose.3D?
  För eventuella frågor eller hjälp, besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

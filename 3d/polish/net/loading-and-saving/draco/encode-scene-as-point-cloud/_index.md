@@ -3,10 +3,16 @@ title: Kodowanie sceny jako chmury punktów
 linktitle: Kodowanie sceny jako chmury punktów
 second_title: Aspose.3D API .NET
 description: Poznaj świat modelowania 3D w .NET dzięki Aspose.3D. Naucz się bez wysiłku kodować sfery w chmury punktów. Uwolnij swoją kreatywność już teraz!
-type: docs
 weight: 14
 url: /pl/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kodowanie sceny jako chmury punktów
+
 ## Wstęp
 Witamy w tym obszernym przewodniku na temat kodowania kuli jako chmury punktów przy użyciu Aspose.3D dla .NET. Aspose.3D to potężna i wszechstronna biblioteka, która umożliwia programistom płynną pracę z modelami 3D w aplikacjach .NET. W tym samouczku przeprowadzimy Cię przez proces kodowania kuli do chmury punktów za pomocą Aspose.3D.
 ## Warunki wstępne
@@ -60,3 +66,9 @@ Tak, możesz odkrywać Aspose.3D w ramach bezpłatnej wersji próbnej. Pobierz t
  Odwiedź forum Aspose.3D[Tutaj](https://forum.aspose.com/c/3d/18) za wsparcie społeczności i dyskusje.
 ### Czy do testowania potrzebuję tymczasowej licencji?
  Tak, jeśli testujesz bibliotekę, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

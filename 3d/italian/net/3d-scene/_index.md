@@ -3,10 +3,16 @@ title: Scena 3D
 linktitle: Scena 3D
 second_title: API Aspose.3D .NET
 description: Esplora Aspose.3D per tutorial .NET sulla modifica dell'orientamento del piano, sull'esportazione di scene in formato AMF compresso, sull'inversione dei sistemi di coordinate e altro ancora.
-type: docs
 weight: 21
 url: /it/net/3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Scena 3D
+
 ## introduzione
 
 Benvenuti nel mondo di Aspose.3D per .NET, dove la creatività incontra la precisione. In questa serie di tutorial, approfondiamo le complessità della manipolazione delle scene 3D, offrendo guide passo passo per migliorare le tue abilità di sviluppo.
@@ -37,3 +43,9 @@ Immergiti nel tutorial Aspose.3D per .NET sull'impostazione delle proprietà tri
 [Leggi il tutorial: Impostazione delle proprietà tridimensionali nelle scene 3D](./set-3d-properties/)
 
 In conclusione, la serie di tutorial Aspose.3D per .NET apre le porte a un regno di possibilità. Ogni tutorial fornisce approfondimenti pratici, consentendoti di affrontare con sicurezza le complessità della manipolazione delle scene 3D. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, queste guide ti consentono di liberare tutto il potenziale di Aspose.3D per .NET nei tuoi progetti. Immergiti e lascia che la tua creatività voli nello spazio tridimensionale!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

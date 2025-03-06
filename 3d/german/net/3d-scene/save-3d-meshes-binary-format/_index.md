@@ -3,10 +3,16 @@ title: Speichern von 3D-Netzen im benutzerdefinierten Binärformat
 linktitle: Speichern von 3D-Netzen im benutzerdefinierten Binärformat
 second_title: Aspose.3D .NET API
 description: Entdecken Sie die Welt von 3D mit Aspose.3D für .NET. Erfahren Sie, wie Sie Netze im benutzerdefinierten Binärformat speichern.
-type: docs
 weight: 13
 url: /de/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Speichern von 3D-Netzen im benutzerdefinierten Binärformat
+
 ## Einführung
 
 Willkommen in der Welt von Aspose.3D für .NET, einer leistungsstarken Bibliothek, die Entwicklern die mühelose Arbeit mit 3D-Dateien ermöglicht. In diesem Tutorial befassen wir uns mit dem Prozess des Speicherns von 3D-Netzen in einem benutzerdefinierten Binärformat mit Aspose.3D für .NET. In diesem Handbuch wird davon ausgegangen, dass Sie über grundlegende Kenntnisse von C# verfügen und mit der Aspose.3D-Bibliothek vertraut sind.
@@ -142,3 +148,9 @@ A1: Aspose.3D unterstützt hauptsächlich .NET-Sprachen, Sie können jedoch Komp
 ### F5: Kann ich Aspose.3D für .NET kaufen?
 
  A5: Ja, Sie können Aspose.3D bei kaufen[Kaufseite](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

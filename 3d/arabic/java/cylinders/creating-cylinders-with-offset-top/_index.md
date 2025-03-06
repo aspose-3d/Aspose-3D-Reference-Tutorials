@@ -3,10 +3,16 @@ title: إنشاء الأسطوانات ذات الإزاحة العلوية في
 linktitle: إنشاء الأسطوانات ذات الإزاحة العلوية في Aspose.3D لـ Java
 second_title: Aspose.3D جافا API
 description: اكتشف عجائب النمذجة ثلاثية الأبعاد في Java باستخدام Aspose.3D. تعلم كيفية إنشاء أسطوانات آسرة ذات أسطح متوازنة دون عناء.
-type: docs
 weight: 11
 url: /ar/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء الأسطوانات ذات الإزاحة العلوية في Aspose.3D لـ Java
+
 ## مقدمة
 
 في عالم النمذجة ثلاثية الأبعاد المستندة إلى Java، تبرز Aspose.3D كأداة قوية توفر للمطورين القدرة على إنشاء مشاهد ثلاثية الأبعاد معقدة بسهولة. في هذا البرنامج التعليمي، سوف نتعمق في عالم Aspose.3D الرائع لـ Java، مع التركيز على مهمة محددة - إنشاء أسطوانات ذات قمم متوازنة. بحلول نهاية هذا الدليل، سيكون لديك فهم جيد للعملية، مما يسمح لك بدمج هذه الميزة بسلاسة في مشاريعك ثلاثية الأبعاد.
@@ -127,3 +133,9 @@ scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFo
 ### س5: هل يوجد خيار ترخيص مؤقت لأغراض الاختبار؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار والتقييم[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

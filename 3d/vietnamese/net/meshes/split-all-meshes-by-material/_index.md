@@ -3,10 +3,16 @@ title: Tách tất cả các mắt lưới của cảnh theo vật liệu
 linktitle: Tách tất cả các mắt lưới của cảnh theo vật liệu
 second_title: API Aspose.3D .NET
 description: Tìm hiểu cách phân chia lưới 3D theo vật liệu bằng Aspose.3D cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tổ chức và quản lý mô hình 3D hiệu quả.
-type: docs
 weight: 21
 url: /vi/net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tách tất cả các mắt lưới của cảnh theo vật liệu
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước này về cách chia tất cả các mắt lưới của cảnh 3D theo vật liệu bằng Aspose.3D cho .NET. Nếu bạn đang làm việc với các mô hình 3D và muốn tổ chức lưới dựa trên vật liệu một cách hiệu quả thì hướng dẫn này là dành cho bạn. Aspose.3D là một thư viện .NET mạnh mẽ cung cấp nhiều tính năng để làm việc với các tệp 3D, khiến nó trở thành lựa chọn tuyệt vời cho các nhà phát triển.
 ## Điều kiện tiên quyết
@@ -66,3 +72,9 @@ Aspose.3D được thiết kế chủ yếu cho .NET, nhưng nó cung cấp kh�
  Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để được cộng đồng hỗ trợ và thảo luận.
 ### 5. Tôi có thể xin giấy phép tạm thời không?
  Có, bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

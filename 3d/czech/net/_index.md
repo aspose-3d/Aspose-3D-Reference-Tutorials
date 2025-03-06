@@ -1,12 +1,17 @@
 ---
 title: Komplexní návody a příklady Aspose.3D pro .NET
 linktitle: Aspose.3D for .NET Tutoriály
-type: docs
 weight: 10
 url: /cs/net/
 description: Odemkněte svět 3D modelování a animace pomocí výukových programů Aspose.3D for .NET. Zvyšte své projekty bez námahy – od vykreslování po lineární vytlačování.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Komplexní návody a příklady Aspose.3D pro .NET
+
 ## Úvod
 
 Jste připraveni vydat se na cestu do vzrušující říše 3D modelování a animace? Už nehledejte – Aspose.3D for .NET vám přináší komplexní sbírku výukových programů a příkladů navržených tak, aby popustili uzdu vaší kreativitě a pozvedli vaše projekty do nových výšin.
@@ -60,3 +65,9 @@ Vydejte se na cestu do světa 3D animace pomocí výukových programů Aspose.3D
 
 
 Odemkněte v sobě kreativní potenciál a ponořte se do světa výukových programů Aspose.3D for .NET. Stáhněte si zkušební verzi a pozvedněte své 3D projekty do mimořádných výšin!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

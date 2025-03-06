@@ -3,10 +3,16 @@ title: Aspose.3D for Java'da Lisans Başvurusu
 linktitle: Aspose.3D for Java'da Lisans Başvurusu
 second_title: Aspose.3D Java API'si
 description: Lisans başvurusuna ilişkin kapsamlı rehberimizi takip ederek Aspose.3D'nin Java uygulamalarındaki tüm potansiyelini ortaya çıkarın.
-type: docs
 weight: 10
 url: /tr/java/licensing/applying-license-in-aspose-3d/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java'da Lisans Başvurusu
+
 ## giriiş
 
 Aspose.3D for Java'da lisans başvurusuna yönelik bu adım adım kılavuza hoş geldiniz. Aspose.3D, geliştiricilerin 3D dosyalarla zahmetsizce çalışmasına olanak tanıyan güçlü bir Java kütüphanesidir. Bu eğitimde, Java uygulamalarınızda Aspose.3D'nin tüm potansiyelini açığa çıkarabilmenizi sağlamak için çeşitli yöntemler kullanarak lisans başvuru sürecini ayrıntılı olarak ele alacağız.
@@ -111,3 +117,9 @@ Cevap1: Evet, Aspose.3D, Java 6 ve sonraki sürümlerle uyumludur.
 ### S5: Test için geçici bir lisansa ihtiyacım var mı?
 
  A5: Evet, geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

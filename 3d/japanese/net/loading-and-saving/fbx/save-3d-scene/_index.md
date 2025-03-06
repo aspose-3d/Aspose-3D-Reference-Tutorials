@@ -3,10 +3,16 @@ title: 3D シーンを FBX ファイルに保存する
 linktitle: 3D シーンを FBX ファイルに保存する
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET の威力を体験してください。シームレスな 3D シーン操作のための多用途ライブラリ。読み込み、保存、圧縮が簡単に行えます。
-type: docs
 weight: 20
 url: /ja/net/loading-and-saving/fbx/save-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D シーンを FBX ファイルに保存する
+
 ## 導入
 
 Aspose.3D for .NET を使用した 3D シーン操作の領域へのエキサイティングな旅へようこそ!経験豊富な開発者であっても、好奇心旺盛な愛好家であっても、このチュートリアルでは、3D シーンを簡単にロード、保存、圧縮するプロセスをガイドします。
@@ -104,3 +110,9 @@ A2: もちろんです！ Aspose.3D は他の .NET ライブラリとシーム�
 ### Q5: Aspose.3D の無料トライアルはありますか?
 
  A5: はい、Aspose.3D の機能を調べてください。[無料トライアル](https://releases.aspose.com/)今日！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تقديم المشهد في Cubemap مع ستة وجوه
 linktitle: تقديم المشهد في Cubemap مع ستة وجوه
 second_title: Aspose.3D.NET API
 description: قم بإنشاء خرائط مكعبة مذهلة باستخدام Aspose.3D لـ .NET. اتبع دليلنا خطوة بخطوة لتحويل المشاهد ثلاثية الأبعاد إلى خرائط مكعبة جذابة ذات ستة وجوه.
-type: docs
 weight: 14
 url: /ar/net/rendering/render-scene-cubemap/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقديم المشهد في Cubemap مع ستة وجوه
+
 ## مقدمة
 مرحبًا بك في هذا الدليل المفصّل خطوة بخطوة حول عرض مشهد في خريطة مكعبة بستة وجوه باستخدام Aspose.3D لـ .NET. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء خريطة مكعبة مذهلة من خلال عرض مشهد ثلاثي الأبعاد. Aspose.3D عبارة عن واجهة برمجة تطبيقات .NET قوية تعمل على تبسيط معالجة الرسومات ثلاثية الأبعاد، ومع هذا الدليل، ستستغل إمكاناتها لإنشاء خرائط مكعبة جذابة.
 ## المتطلبات الأساسية
@@ -86,3 +92,9 @@ cubemap.Save(fileNames, ImageFormat.Png);
 قطعاً! يدعم Aspose.3D عرض المشاهد المتحركة ثلاثية الأبعاد.
 ### س: أين يمكنني العثور على وثائق مفصلة؟
  الرجوع إلى[وثائق Aspose.3D](https://reference.aspose.com/3d/net/) للحصول على معلومات متعمقة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

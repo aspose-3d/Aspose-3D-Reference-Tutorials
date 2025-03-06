@@ -3,10 +3,16 @@ title: 생기
 linktitle: 생기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D 튜토리얼을 통해 3D 애니메이션의 세계를 경험해보세요. 속성을 애니메이션화하고 동적 장면을 위한 타겟과 카메라를 쉽게 설정하는 방법을 알아보세요.
-type: docs
 weight: 30
 url: /ko/net/animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 생기
+
 ## 소개
 
 .NET용 Aspose.3D를 사용하여 매혹적인 3D 애니메이션 영역에 오신 것을 환영합니다! 이 종합 가이드에서는 매력적이고 역동적인 3D 장면을 만드는 데 도움이 되는 두 가지 필수 튜토리얼을 살펴보겠습니다. 이 흥미진진한 여행을 함께 시작해 보세요!
@@ -37,3 +43,9 @@ url: /ko/net/animation/
 .NET용 Aspose.3D를 사용하여 3D 속성에 애니메이션을 적용하는 방법을 알아보세요. 역동적인 장면을 만들기 위한 단계별 가이드입니다.
 ### [3D 장면의 애니메이션을 위한 대상 및 카메라 설정](./setup-target-camera/)
 .NET용 Aspose.3D를 사용하여 3D 애니메이션의 마법을 풀어보세요. 이 포괄적인 튜토리얼을 사용하여 타겟과 카메라를 쉽게 설정하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

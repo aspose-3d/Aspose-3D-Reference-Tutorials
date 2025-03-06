@@ -3,10 +3,16 @@ title: Criando uma cena com textura incorporada
 linktitle: Criando uma cena com textura incorporada
 second_title: API Aspose.3D .NET
 description: Crie cenas 3D fascinantes com texturas incorporadas usando Aspose.3D para .NET. Siga nosso guia passo a passo para obter resultados impressionantes.
-type: docs
 weight: 10
 url: /pt/net/materials/create-scene-embedded-texture/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Criando uma cena com textura incorporada
+
 ## Introdução
 Bem-vindo ao emocionante mundo dos gráficos 3D com Aspose.3D for .NET! Neste tutorial abrangente, iremos guiá-lo através do processo de criação de cenas 3D impressionantes com texturas incorporadas usando Aspose.3D, uma biblioteca poderosa e versátil para desenvolvedores .NET.
 ## Pré-requisitos
@@ -109,3 +115,9 @@ R: Aspose.3D fornece recursos de animação; consulte a documentação para obte
  R: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para apoio e discussões da comunidade.
 ### P: Posso usar o Aspose.3D para projetos comerciais?
  R: Sim, você pode comprar uma licença[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

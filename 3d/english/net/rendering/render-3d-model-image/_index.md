@@ -3,10 +3,16 @@ title: Rendering 3D Model Image from Camera
 linktitle: Rendering 3D Model Image from Camera
 second_title: Aspose.3D .NET API
 description: Explore the world of 3D rendering with Aspose.3D for .NET. Learn how to effortlessly create captivating visualizations using our step-by-step guide.
-type: docs
 weight: 11
 url: /net/rendering/render-3d-model-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendering 3D Model Image from Camera
+
 ## Introduction
 Creating stunning 3D visualizations is an exciting aspect of software development, and with Aspose.3D for .NET, you can bring your 3D models to life. In this tutorial, we'll guide you through rendering a 3D model image from a camera using Aspose.3D, providing step-by-step instructions and valuable insights.
 ## Prerequisites
@@ -89,3 +95,10 @@ A: Yes, you can explore the features of Aspose.3D by obtaining a [free trial](ht
 A: Refer to the [documentation](https://reference.aspose.com/3d/net/) for in-depth guidance on Aspose.3D for .NET.
 ### Q: How do I purchase Aspose.3D for .NET?
 A: Visit the [purchase page](https://purchase.aspose.com/buy) to acquire the license that best suits your needs.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

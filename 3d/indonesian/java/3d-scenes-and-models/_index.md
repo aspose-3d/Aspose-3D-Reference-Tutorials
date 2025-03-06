@@ -3,10 +3,16 @@ title: Bekerja dengan Adegan dan Model 3D di Java
 linktitle: Bekerja dengan Adegan dan Model 3D di Java
 second_title: Asumsikan.3D Java API
 description: Temukan kekuatan Aspose.3D untuk Java melalui tutorial kami. Tingkatkan presisi, efisiensi penyimpanan, dan manipulasi adegan 3D di aplikasi Java Anda.
-type: docs
 weight: 29
 url: /id/java/3d-scenes-and-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Adegan dan Model 3D di Java
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan aplikasi Java Anda ke level baru dalam grafis dan pemodelan 3D? Selamat datang di tutorial Aspose.3D untuk Java kami yang komprehensif! Bebaskan potensi pemosisian adegan 3D, kompresi, pengambilan informasi, penyimpanan mesh, dan manipulasi properti tanpa hambatan dengan panduan langkah demi langkah.
@@ -43,3 +49,9 @@ Jelajahi dunia manipulasi adegan 3D di Java dengan Aspose.3D. Tutorial ini meman
 Pelajari cara menyimpan jerat 3D dalam format biner khusus menggunakan Aspose.3D untuk Java. Tingkatkan fleksibilitas dalam aplikasi Java dengan tutorial langkah demi langkah ini.
 ### [Bekerja dengan Properti 3D dan Data Kustom dalam Adegan Java Menggunakan Aspose.3D](./managing-3d-properties-scenes/)
 Sempurnakan aplikasi Java Anda dengan Aspose.3D untuk manipulasi properti 3D yang lancar. Ikuti tutorial kami untuk panduan langkah demi langkah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

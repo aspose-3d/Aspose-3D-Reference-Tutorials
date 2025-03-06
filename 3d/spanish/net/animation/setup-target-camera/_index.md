@@ -3,10 +3,16 @@ title: Configuración de objetivos y cámaras para animación en escenas 3D
 linktitle: Configuración de objetivos y cámaras para animación en escenas 3D
 second_title: Aspose.3D API .NET
 description: Desbloquee la magia de la animación 3D con Aspose.3D para .NET. Configure objetivos y cámaras sin esfuerzo utilizando este completo tutorial.
-type: docs
 weight: 11
 url: /es/net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuración de objetivos y cámaras para animación en escenas 3D
+
 ## Introducción
 
 La configuración de objetivos y cámaras constituye la base de cualquier proyecto de animación 3D. Aspose.3D para .NET ofrece un sólido conjunto de herramientas para agilizar este proceso, permitiendo a los desarrolladores dar rienda suelta a su creatividad. Este tutorial lo guiará a través de los pasos, desglosando las complejidades y haciendo que la tarea aparentemente desalentadora sea más manejable.
@@ -103,3 +109,9 @@ R4: Sí, puedes explorar una prueba gratuita[aquí](https://releases.aspose.com/
 ### P5: ¿Cómo obtengo una licencia temporal?
 
  R5: Obtenga una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Exponera geometrisk transformation
 linktitle: Exponera geometrisk transformation
 second_title: Aspose.3D .NET API
 description: Utforska de obegränsade möjligheterna med 3D-grafik i .NET med Aspose.3D. Upptäck geometriska transformationer utan ansträngning.
-type: docs
 weight: 13
 url: /sv/net/geometry-and-hierarchy/expose-geometric-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exponera geometrisk transformation
+
 ## Introduktion
 
 Välkommen till den spännande världen av Aspose.3D för .NET! I den här handledningen kommer vi att fördjupa oss i krångligheterna med att exponera geometriska transformationer i 3D-scener med Aspose.3D. Om du är en .NET-utvecklare som vill förbättra dina 3D-grafikmöjligheter, är du på rätt plats.
@@ -98,3 +104,9 @@ S1: Aspose.3D är kompatibel med ett brett utbud av .NET-ramverk, vilket säkers
 ### F5: Hur köper jag Aspose.3D för .NET?
 
  S5: För att köpa Aspose.3D för .NET, besök[köpsidan](https://purchase.aspose.com/buy) på Asposes hemsida.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

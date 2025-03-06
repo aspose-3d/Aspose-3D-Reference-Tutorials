@@ -3,10 +3,16 @@ title: Loading and Saving
 linktitle: Loading and Saving
 second_title: Aspose.3D .NET API
 description: Elevate your 3D modeling game with Aspose.3D for .NET! Master efficient loading and saving techniques using CancellationToken. Explore now!
-type: docs
 weight: 27
 url: /net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Loading and Saving
+
 ## Introduction
 
 Dive into the fascinating realm of 3D modeling with Aspose.3D for .NET, your gateway to seamless and efficient 3D document manipulation. In this tutorial series, we'll explore the intricacies of loading and saving 3D models, unlocking a world of creative possibilities.
@@ -105,3 +111,9 @@ Export metadata such as scene properties, object attributes, and other relevant 
 ### Load embedded textures from USDZ to memory
 
 Access to embedded texture data within USDZ files.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

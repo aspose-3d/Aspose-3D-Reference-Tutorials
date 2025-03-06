@@ -3,10 +3,16 @@ title: Membaca adegan dengan atribut
 linktitle: Membaca adegan dengan atribut
 second_title: Aspose.3D .NET API
 description: Buka kekuatan pemodelan 3D di .NET dengan Aspose.3D. Muat, simpan, dan manipulasi adegan dengan mudah. Selami dunia dengan kemungkinan tak terbatas.
-type: docs
 weight: 18
 url: /id/net/loading-and-saving/rvm/read-existing-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membaca adegan dengan atribut
+
 ## Perkenalan
 
 Dalam lanskap grafis dan pemodelan 3D yang terus berkembang, Aspose.3D untuk .NET muncul sebagai alat yang ampuh, menyediakan integrasi tanpa batas dan fungsionalitas yang kuat bagi pengembang. Tutorial ini akan memandu Anda melalui proses membaca file RVM, khususnya berfokus pada membaca atribut eksternalnya. Bersiaplah saat kami memulai perjalanan untuk memanfaatkan kemampuan Aspose.3D!
@@ -79,3 +85,9 @@ A4: You can acquire a temporary license [here](https://pembelian.aspose.com/temp
 ### Q5: Where can I purchase Aspose.3D for .NET?
 
 A5: Visit the [purchase page](https://purchase.aspose.com/buy) untuk mendapatkan versi lengkap Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

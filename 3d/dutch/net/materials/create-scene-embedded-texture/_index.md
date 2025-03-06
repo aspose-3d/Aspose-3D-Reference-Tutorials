@@ -3,10 +3,16 @@ title: Een scène maken met ingebedde textuur
 linktitle: Een scène maken met ingebedde textuur
 second_title: Aspose.3D .NET-API
 description: Creëer betoverende 3D-scènes met ingebedde texturen met behulp van Aspose.3D voor .NET. Volg onze stapsgewijze handleiding voor verbluffende resultaten.
-type: docs
 weight: 10
 url: /nl/net/materials/create-scene-embedded-texture/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Een scène maken met ingebedde textuur
+
 ## Invoering
 Welkom in de opwindende wereld van 3D-graphics met Aspose.3D voor .NET! In deze uitgebreide tutorial begeleiden we u bij het maken van verbluffende 3D-scènes met ingebedde texturen met behulp van Aspose.3D, een krachtige en veelzijdige bibliotheek voor .NET-ontwikkelaars.
 ## Vereisten
@@ -109,3 +115,9 @@ A: Aspose.3D biedt animatiemogelijkheden; Raadpleeg de documentatie voor gedetai
  A: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) voor gemeenschapsondersteuning en discussies.
 ### Vraag: Kan ik Aspose.3D gebruiken voor commerciële projecten?
  A: Ja, u kunt een licentie kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

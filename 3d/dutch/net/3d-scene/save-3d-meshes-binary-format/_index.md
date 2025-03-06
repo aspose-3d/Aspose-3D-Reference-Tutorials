@@ -3,10 +3,16 @@ title: 3D-mazen opslaan in aangepast binair formaat
 linktitle: 3D-mazen opslaan in aangepast binair formaat
 second_title: Aspose.3D .NET-API
 description: Ontdek de wereld van 3D met Aspose.3D voor .NET. Leer hoe u meshes kunt opslaan in een aangepast binair formaat.
-type: docs
 weight: 13
 url: /nl/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D-mazen opslaan in aangepast binair formaat
+
 ## Invoering
 
 Welkom in de wereld van Aspose.3D voor .NET, een krachtige bibliotheek waarmee ontwikkelaars moeiteloos met 3D-bestanden kunnen werken. In deze zelfstudie verdiepen we ons in het proces van het opslaan van 3D-meshes in een aangepast binair formaat met behulp van Aspose.3D voor .NET. In deze handleiding wordt ervan uitgegaan dat u basiskennis heeft van C# en bekend bent met de Aspose.3D-bibliotheek.
@@ -142,3 +148,9 @@ A1: Aspose.3D ondersteunt voornamelijk .NET-talen, maar u kunt compatibiliteitso
 ### V5: Kan ik Aspose.3D voor .NET kopen?
 
  A5: Ja, u kunt Aspose.3D kopen bij de[aankooppagina](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 创建立方体场景
 linktitle: 创建立方体场景
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 轻松制作令人惊叹的 3D 立方体场景。下载库，按照我们的分步指南进行操作，然后释放。
-type: docs
 weight: 12
 url: /zh/net/geometry-and-hierarchy/create-cube-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 创建立方体场景
+
 ## 介绍
 
 您准备好进入 3D 设计的迷人世界了吗？在本教程中，我们将指导您完成使用 Aspose.3D for .NET 创建令人着迷的立方体场景的过程。 Aspose.3D 是一个功能强大且多功能的库，使开发人员能够无缝地打造沉浸式 3D 体验。
@@ -126,3 +132,9 @@ A2：当然！尝试材料、颜色和纹理以获得您想要的外观。
 ### Q5：如何获得Aspose.3D的临时许可证？
 
  A5：获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

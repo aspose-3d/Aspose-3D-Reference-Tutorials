@@ -3,10 +3,16 @@ title: الهندسة والتسلسل الهرمي
 linktitle: الهندسة والتسلسل الهرمي
 second_title: Aspose.3D.NET API
 description: افتح عالم الرسومات ثلاثية الأبعاد باستخدام دروس Aspose.3D لـ .NET. بدءًا من تطبيق مواد PBR وحتى التحولات الهندسية، يمكنك إتقان كل جانب دون عناء.
-type: docs
 weight: 25
 url: /ar/net/geometry-and-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الهندسة والتسلسل الهرمي
+
 ## مقدمة
 
 انطلق في رحلة مثيرة إلى عالم الرسومات ثلاثية الأبعاد باستخدام دروس Aspose.3D لـ .NET. سواء كنت مطورًا مبتدئًا أو متمرسًا، تعدك هذه الأدلة خطوة بخطوة برفع مهاراتك وكشف النقاب عن أسرار المعالجة السلسة للرسومات ثلاثية الأبعاد.
@@ -72,3 +78,9 @@ url: /ar/net/geometry-and-hierarchy/
  اكتشف قوة Aspose.3D لـ .NET من خلال هذا الدليل التفصيلي خطوة بخطوة حول تثليث الشبكات ثلاثية الأبعاد دون عناء. تعزيز مهارات النمذجة الخاصة بك للحصول على تجربة أكثر غامرة.[اقرأ أكثر](./triangulate-mesh/)
 
 انطلق في هذه الرحلة المثيرة من دروس Aspose.3D for .NET وارفع من خبرتك في الرسومات ثلاثية الأبعاد. انغمس في كل برنامج تعليمي، واتبع الخطوات، وشاهد مهاراتك ترتفع إلى آفاق جديدة. ترميز سعيد!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

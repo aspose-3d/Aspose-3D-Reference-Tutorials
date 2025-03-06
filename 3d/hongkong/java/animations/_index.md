@@ -3,10 +3,16 @@ title: 在 Java 中使用動畫
 linktitle: 在 Java 中使用動畫
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 教學提升您的 Java 3D 專案！了解如何添加動畫屬性並無縫設定目標相機以實現引人入勝的 3D 開發。
-type: docs
 weight: 20
 url: /zh-hant/java/animations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用動畫
+
 ## 介紹
 
 歡迎來到 Aspose.3D for Java 教程，在這裡我們深入研究基於 Java 的 3D 專案的令人興奮的領域。在本系列中，我們專注於掌握動畫，為您的創作帶來生命和活力。所以，請繫好安全帶，我們將透過 Aspose.3D 踏上 3D 動畫領域的驚險之旅！
@@ -30,3 +36,9 @@ url: /zh-hant/java/animations/
 使用 Aspose.3D 增強基於 Java 的 3D 專案。按照我們的教學無縫添加動畫屬性。
 ### [在 Java 中為 3D 動畫設定目標相機 | Aspose.3D 教學課程](./set-up-target-camera/)
 使用 Aspose.3D 輕鬆探索 Java 3D 動畫。請按照我們的教學取得逐步指南。立即下載，體驗迷人的 3D 開發之旅。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

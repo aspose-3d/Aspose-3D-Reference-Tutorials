@@ -3,10 +3,16 @@ title: Vytváření krychlových scén
 linktitle: Vytváření krychlových scén
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET bez námahy vytvářejte úžasné 3D scény z kostek. Stáhněte si knihovnu, postupujte podle našeho podrobného průvodce a uvolněte.
-type: docs
 weight: 12
 url: /cs/net/geometry-and-hierarchy/create-cube-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytváření krychlových scén
+
 ## Úvod
 
 Jste připraveni ponořit se do podmanivého světa 3D designu? V tomto tutoriálu vás provedeme procesem vytváření fascinujících scén s krychlí pomocí Aspose.3D pro .NET. Aspose.3D je výkonná a všestranná knihovna, která umožňuje vývojářům bezproblémově vytvářet pohlcující 3D zážitky.
@@ -126,3 +132,9 @@ A2: Rozhodně! Experimentujte s materiály, barvami a texturami, abyste dosáhli
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.3D?
 
  A5: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: العمل مع المشاهد والنماذج ثلاثية الأبعا
 linktitle: العمل مع المشاهد والنماذج ثلاثية الأبعاد في Java
 second_title: Aspose.3D جافا API
 description: اكتشف قوة Aspose.3D لـ Java من خلال برامجنا التعليمية. قم بتعزيز الدقة وكفاءة التخزين ومعالجة المشاهد ثلاثية الأبعاد في تطبيقات Java الخاصة بك.
-type: docs
 weight: 29
 url: /ar/java/3d-scenes-and-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع المشاهد والنماذج ثلاثية الأبعاد في Java
+
 ## مقدمة
 
 هل أنت مستعد لرفع مستوى تطبيقات Java الخاصة بك إلى آفاق جديدة في الرسومات والنمذجة ثلاثية الأبعاد؟ مرحبًا بك في دروس Aspose.3D الشاملة لجافا! أطلق العنان لإمكانات تحديد موضع المشهد ثلاثي الأبعاد، والضغط، واسترجاع المعلومات، وحفظ الشبكة، والتلاعب السلس بالخصائص من خلال إرشادات خطوة بخطوة.
@@ -43,3 +49,9 @@ url: /ar/java/3d-scenes-and-models/
 تعرف على كيفية حفظ الشبكات ثلاثية الأبعاد بتنسيقات ثنائية مخصصة باستخدام Aspose.3D لـ Java. عزز المرونة في تطبيقات Java من خلال هذا البرنامج التعليمي خطوة بخطوة.
 ### [العمل مع الخصائص ثلاثية الأبعاد والبيانات المخصصة في مشاهد Java باستخدام Aspose.3D](./managing-3d-properties-scenes/)
 قم بتحسين تطبيقات Java الخاصة بك باستخدام Aspose.3D للتعامل السلس مع الخصائص ثلاثية الأبعاد. اتبع البرنامج التعليمي لدينا للحصول على إرشادات خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Apply XPath-Like Queries to 3D Objects in Java
 linktitle: Apply XPath-Like Queries to 3D Objects in Java
 second_title: Aspose.3D Java API
 description: Master 3D object queries in Java effortlessly with Aspose.3D. Apply XPath-like queries, manipulate scenes, and elevate your 3D development.
-type: docs
 weight: 11
 url: /java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Apply XPath-Like Queries to 3D Objects in Java
+
 ## Introduction
 
 Delving into the realm of 3D modeling and scene manipulation in Java can be a daunting task, but fear not! Aspose.3D for Java provides a robust solution for handling 3D objects, making it an invaluable tool for developers. In this tutorial, we will guide you through the application of XPath-like queries to 3D objects in Java using Aspose.3D.
@@ -99,3 +105,10 @@ A4: Visit the support forum [here](https://forum.aspose.com/c/3d/18).
 ### Q5: Need a temporary license?
 
 A5: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

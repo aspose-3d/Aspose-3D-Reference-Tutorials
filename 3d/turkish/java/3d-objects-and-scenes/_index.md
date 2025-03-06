@@ -3,10 +3,16 @@ title: Java'da 3B Nesneleri ve Sahneleri Değiştirme
 linktitle: Java'da 3B Nesneleri ve Sahneleri Değiştirme
 second_title: Aspose.3D Java API'si
 description: Aspose.3D eğitimleriyle Java 3D programlama dünyasının kilidini açın. Kusursuz 3D geliştirme için küre yarıçapını değiştirmeyi ve XPath benzeri sorguları zahmetsizce uygulamayı öğrenin.
-type: docs
 weight: 33
 url: /tr/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da 3B Nesneleri ve Sahneleri Değiştirme
+
 ## giriiş
 
 Aspose.3D eğitimleriyle Java 3D programlama, 3D nesnelerin ve sahnelerin manipülasyonuna odaklanan büyüleyici bir yolculuğa dönüşüyor. Bu makalede, 3D geliştirme becerilerinizi geliştirmeyi vaat eden iki temel eğitime değineceğiz.
@@ -27,3 +33,9 @@ Sonuç olarak, bu eğitimler Aspose.3D ile Java 3D programlamada uzmanlaşmaya g
 Aspose.3D ile Java 3D programlamayı keşfedin, küre yarıçapını zahmetsizce değiştirin. Sorunsuz bir 3D geliştirme deneyimi için hemen indirin.
 ### [Java'daki 3B Nesnelere XPath Benzeri Sorgular Uygulama](./xpath-like-object-queries/)
 Aspose.3D ile Java'da 3D nesne sorgularında zahmetsizce ustalaşın. XPath benzeri sorgular uygulayın, sahneleri değiştirin ve 3B gelişiminizi geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

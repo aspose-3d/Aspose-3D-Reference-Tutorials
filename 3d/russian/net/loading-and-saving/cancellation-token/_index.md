@@ -3,10 +3,16 @@ title: Использование токена отмены
 linktitle: Использование токена отмены
 second_title: Aspose.3D .NET API
 description: Исследуйте беспрепятственный мир 3D-моделирования с помощью Aspose.3D для .NET. Научитесь эффективно загружать и сохранять 3D-документы с помощью CancellationToken.
-type: docs
 weight: 10
 url: /ru/net/loading-and-saving/cancellation-token/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Использование токена отмены
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по использованию Aspose.3D для .NET для улучшения ваших проектов 3D-моделирования и рендеринга. Aspose.3D — это мощная библиотека, которая позволяет .NET-разработчикам беспрепятственно работать с 3D-файлами. В этом руководстве мы углубимся в аспекты загрузки и сохранения, уделив особое внимание использованию CancellationToken для эффективного управления асинхронными задачами.
@@ -120,3 +126,9 @@ catch (ImportException e)
 ### Вопрос 5: Какая последняя версия Aspose.3D для .NET?
 
  A5: Будьте в курсе последних событий, проверяя[страница загрузки](https://releases.aspose.com/3d/net/) для последнего выпуска.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

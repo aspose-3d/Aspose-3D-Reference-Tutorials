@@ -3,10 +3,16 @@ title: Экспортируйте облака точек в формат PLY с
 linktitle: Экспортируйте облака точек в формат PLY с помощью Aspose.3D для Java
 second_title: Aspose.3D Java API
 description: Исследуйте возможности Aspose.3D for Java при экспорте облаков точек в формат PLY. Следуйте нашему пошаговому руководству для беспроблемной 3D-разработки.
-type: docs
 weight: 13
 url: /ru/java/point-clouds/export-point-clouds-ply-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Экспортируйте облака точек в формат PLY с помощью Aspose.3D для Java
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по экспорту облаков точек в формат PLY с использованием Aspose.3D для Java. Aspose.3D — это мощная библиотека Java, которая позволяет разработчикам работать с 3D-файлами, обеспечивая удобство управления и манипулирования различными 3D-форматами. В этом уроке мы сосредоточимся на экспорте облаков точек в формат PLY, широко используемый формат файлов для представления 3D-данных.
@@ -81,3 +87,9 @@ FileFormat.PLY.encode(new Sphere(), "Your Document Directory" + "sphere.ply");
 ### Вопрос 5: Где я могу приобрести Aspose.3D для Java?
 
  A5: Приобретите Aspose.3D для Java[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

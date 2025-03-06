@@ -3,10 +3,16 @@ title: Μετασχηματίστε τρισδιάστατους κόμβους 
 linktitle: Μετασχηματίστε τρισδιάστατους κόμβους με πίνακες μετασχηματισμού σε Java χρησιμοποιώντας το Aspose.3D
 second_title: Aspose.3D Java API
 description: Εξερευνήστε τον κόσμο των τρισδιάστατων γραφικών σε Java με το Aspose.3D. Μάθετε να μετασχηματίζετε κόμβους χωρίς κόπο χρησιμοποιώντας πίνακες μετασχηματισμού.
-type: docs
 weight: 21
 url: /el/java/geometry/transform-3d-nodes-with-matrices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετασχηματίστε τρισδιάστατους κόμβους με πίνακες μετασχηματισμού χρησιμοποιώντας το Aspose.3D
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτόν τον οδηγό βήμα προς βήμα για τον μετασχηματισμό τρισδιάστατων κόμβων με πίνακες μετασχηματισμού σε Java χρησιμοποιώντας το Aspose.3D. Εάν είστε προγραμματιστής Java που θέλει να βελτιώσει τις δεξιότητές σας στα τρισδιάστατα γραφικά και τη μοντελοποίηση, βρίσκεστε στο σωστό μέρος. Σε αυτό το σεμινάριο, θα βουτήξουμε στη διαδικασία εφαρμογής μετασχηματισμών σε τρισδιάστατους κόμβους εντός του πλαισίου Aspose.3D.
@@ -119,3 +125,9 @@ A3: Το μέγεθος των τρισδιάστατων σκηνών σας μ
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.3D;
 
  A5: Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

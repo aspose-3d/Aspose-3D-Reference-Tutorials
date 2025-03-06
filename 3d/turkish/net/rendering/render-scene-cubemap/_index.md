@@ -3,10 +3,16 @@ title: Sahneyi Altı Yüzlü Küp Haritasına Dönüştürme
 linktitle: Sahneyi Altı Yüzlü Küp Haritasına Dönüştürme
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile etkileyici küp haritaları oluşturun. 3B sahneleri büyüleyici altı yüzlü küp haritalarına dönüştürmek için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 14
 url: /tr/net/rendering/render-scene-cubemap/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sahneyi Altı Yüzlü Küp Haritasına Dönüştürme
+
 ## giriiş
 Aspose.3D for .NET kullanarak bir sahneyi altı yüzlü bir küp haritasına dönüştürmeyi anlatan bu adım adım kılavuza hoş geldiniz. Bu eğitimde, bir 3B sahneyi işleyerek çarpıcı bir küp haritası oluşturma sürecinde size yol göstereceğiz. Aspose.3D, 3D grafik manipülasyonunu kolaylaştıran güçlü bir .NET API'sidir ve bu kılavuzla, büyüleyici küp haritaları oluşturmak için onun yeteneklerinden yararlanacaksınız.
 ## Önkoşullar
@@ -86,3 +92,9 @@ Evet, Aspose.3D çeşitli 3D dosya formatlarını destekleyerek projelerinizde e
 Kesinlikle! Aspose.3D, animasyonlu 3D sahnelerin oluşturulmasını destekler.
 ### S: Ayrıntılı belgeleri nerede bulabilirim?
  Bakın[Aspose.3D belgeleri](https://reference.aspose.com/3d/net/) derinlemesine bilgi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การตั้งค่า UV บน Cube
 linktitle: การตั้งค่า UV บน Cube
 second_title: Aspose.3D .NET API
 description: เรียนรู้วิธีตั้งค่าการทำแผนที่ UV บนคิวบ์ 3 มิติโดยใช้ Aspose.3D สำหรับ .NET สร้างฉากที่สวยงามตระการตาด้วยการทำแผนที่พื้นผิวที่แม่นยำ
-type: docs
 weight: 18
 url: /th/net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การตั้งค่า UV บน Cube
+
 ## การแนะนำ
 
 การสร้างฉาก 3 มิติที่น่าดึงดูดและดึงดูดสายตามักเกี่ยวข้องกับกระบวนการที่พิถีพิถันในการตั้งค่าการทำแผนที่ UV บนรูปทรงเรขาคณิต ในบทช่วยสอนนี้ เราจะสำรวจวิธีตั้งค่า UV บนคิวบ์โดยใช้ Aspose.3D สำหรับ .NET Aspose.3D เป็นไลบรารี .NET ที่ทรงพลังซึ่งมีชุดคุณสมบัติที่ครอบคลุมสำหรับการสร้างแบบจำลองและการจัดการ 3D
@@ -119,3 +125,9 @@ elementUV.Indices.AddRange(uvsId);
 ### คำถามที่ 5: มีใบอนุญาตชั่วคราวหรือไม่
 
  A5: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

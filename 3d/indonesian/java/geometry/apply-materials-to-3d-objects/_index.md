@@ -3,10 +3,16 @@ title: Terapkan Material ke Objek 3D di Java dengan Aspose.3D
 linktitle: Terapkan Material ke Objek 3D di Java dengan Aspose.3D
 second_title: Asumsikan.3D Java API
 description: Jelajahi dunia grafis 3D dengan Aspose.3D untuk Java. Pelajari cara menerapkan materi ke objek 3D dengan mulus. Tingkatkan proyek Anda dengan visual yang realistis.
-type: docs
 weight: 14
 url: /id/java/geometry/apply-materials-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terapkan Material ke Objek 3D di Java dengan Aspose.3D
+
 ## Perkenalan
 
 Dalam dunia grafis 3D yang dinamis, Aspose.3D untuk Java menonjol sebagai alat yang ampuh untuk menghidupkan proyek Anda. Menambahkan material ke objek 3D meningkatkan daya tarik visual, menjadikannya lebih realistis. Dalam tutorial ini, kami akan memandu Anda melalui proses penerapan material ke kubus 3D menggunakan Aspose.3D untuk Java.
@@ -165,3 +171,9 @@ A1: Ya, Aspose.3D memungkinkan Anda menerapkan beberapa material ke berbagai bag
 ### Q5: Bisakah saya mengunduh perpustakaan Aspose.3D dari tautan tertentu?
 
  A5: Ya, gunakan[tautan unduhan](https://releases.aspose.com/3d/java/) untuk mengakses versi terbaru Aspose.3D untuk Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

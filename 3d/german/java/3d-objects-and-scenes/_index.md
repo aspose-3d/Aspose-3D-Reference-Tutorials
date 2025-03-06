@@ -3,10 +3,16 @@ title: Bearbeiten von 3D-Objekten und Szenen in Java
 linktitle: Bearbeiten von 3D-Objekten und Szenen in Java
 second_title: Aspose.3D Java-API
 description: Entdecken Sie die Welt der Java-3D-Programmierung mit Aspose.3D-Tutorials. Erfahren Sie, wie Sie den Kugelradius mühelos ändern und XPath-ähnliche Abfragen für eine nahtlose 3D-Entwicklung anwenden.
-type: docs
 weight: 33
 url: /de/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bearbeiten von 3D-Objekten und Szenen in Java
+
 ## Einführung
 
 Mit den Aspose.3D-Tutorials, die sich auf die Bearbeitung von 3D-Objekten und -Szenen konzentrieren, wird die Java-3D-Programmierung zu einer fesselnden Reise. In diesem Artikel befassen wir uns mit zwei wichtigen Tutorials, die versprechen, Ihre 3D-Entwicklungsfähigkeiten zu verbessern.
@@ -27,3 +33,9 @@ Zusammenfassend sind diese Tutorials Ihr Einstieg in die Beherrschung der Java-3
 Entdecken Sie die Java-3D-Programmierung mit Aspose.3D und ändern Sie den Kugelradius mühelos. Laden Sie es jetzt herunter und genießen Sie ein nahtloses 3D-Entwicklungserlebnis.
 ### [Wenden Sie XPath-ähnliche Abfragen auf 3D-Objekte in Java an](./xpath-like-object-queries/)
 Meistern Sie mühelos 3D-Objektabfragen in Java mit Aspose.3D. Wenden Sie XPath-ähnliche Abfragen an, manipulieren Sie Szenen und verbessern Sie Ihre 3D-Entwicklung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

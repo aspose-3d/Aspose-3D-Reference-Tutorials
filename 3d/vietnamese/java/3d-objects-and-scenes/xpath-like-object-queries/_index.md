@@ -3,10 +3,16 @@ title: Áp dụng các truy vấn giống XPath cho các đối tượng 3D tron
 linktitle: Áp dụng các truy vấn giống XPath cho các đối tượng 3D trong Java
 second_title: API Java Aspose.3D
 description: Làm chủ các truy vấn đối tượng 3D trong Java một cách dễ dàng với Aspose.3D. Áp dụng các truy vấn giống XPath, thao tác các cảnh và nâng cao quá trình phát triển 3D của bạn.
-type: docs
 weight: 11
 url: /vi/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng các truy vấn giống XPath cho các đối tượng 3D trong Java
+
 ## Giới thiệu
 
 Đi sâu vào lĩnh vực tạo mô hình 3D và thao tác cảnh trong Java có thể là một nhiệm vụ khó khăn, nhưng đừng lo! Aspose.3D for Java cung cấp một giải pháp mạnh mẽ để xử lý các đối tượng 3D, khiến nó trở thành một công cụ vô giá cho các nhà phát triển. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn ứng dụng các truy vấn giống XPath cho các đối tượng 3D trong Java bằng Aspose.3D.
@@ -99,3 +105,9 @@ Trong hướng dẫn này, chúng tôi đã làm sáng tỏ quy trình áp dụn
 ### Q5: Cần giấy phép tạm thời?
 
  A5: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

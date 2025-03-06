@@ -3,10 +3,16 @@ title: डिकोडिंग जाल
 linktitle: डिकोडिंग जाल
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D के साथ आसानी से डिकोड मेश। निर्बाध 3डी प्रोग्रामिंग के लिए आपका प्रवेश द्वार। अपनी परियोजनाओं का अन्वेषण, अनुकूलन और उन्नयन करें।
-type: docs
 weight: 10
 url: /hi/net/loading-and-saving/draco/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# डिकोडिंग जाल
+
 ## परिचय
 इसे चित्रित करें: आप 3डी विकास के दायरे में हैं, जटिल जाल संरचनाओं को डिकोड करने का प्रयास कर रहे हैं। चुनौती वास्तविक है, लेकिन डरें नहीं! जैसे ही हम इस यात्रा पर आगे बढ़ेंगे, हम .NET के लिए Aspose.3D का उपयोग करके मेश डिकोडिंग की भूलभुलैया को नेविगेट करेंगे - 3D प्रोग्रामिंग की दुनिया में आपका विश्वसनीय साथी।
 ## आवश्यक शर्तें
@@ -55,3 +61,9 @@ var pointCloud = (PointCloud)FileFormat.Draco.Decode("Your Document Directory" +
  निश्चित रूप से! अपना पकड़ो[मुफ्त परीक्षण](https://releases.aspose.com/) कोई भी प्रतिबद्धता बनाने से पहले Aspose.3D की शक्ति का अनुभव करें।
 ### किसी अल्पकालिक परियोजना के लिए अस्थायी लाइसेंस की आवश्यकता है?
  की ओर जाना[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) और अपने प्रोजेक्ट की आवश्यकताओं के अनुरूप एक अस्थायी लाइसेंस प्राप्त करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

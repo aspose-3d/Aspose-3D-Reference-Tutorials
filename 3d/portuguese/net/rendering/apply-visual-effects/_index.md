@@ -3,10 +3,16 @@ title: Aplicando efeitos visuais em viewports 3D
 linktitle: Aplicando efeitos visuais em viewports 3D
 second_title: API Aspose.3D .NET
 description: Explore o mundo da visualização 3D com Aspose.3D para .NET. Aprenda a aplicar efeitos visuais cativantes às suas cenas usando tutoriais passo a passo. Eleve seus projetos com efeitos de pixelização, escala de cinza, detecção de bordas e desfoque.
-type: docs
 weight: 10
 url: /pt/net/rendering/apply-visual-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicando efeitos visuais em viewports 3D
+
 ## Introdução
 
 Melhorar o apelo visual das cenas 3D é um aspecto crucial da criação de experiências envolventes. Aspose.3D for .NET fornece um poderoso conjunto de ferramentas para aplicar efeitos visuais a viewports 3D. Neste tutorial, percorreremos o processo de aplicação de vários efeitos a uma cena 3D, incluindo pixelização, escala de cinza, detecção de bordas e desfoque.
@@ -179,3 +185,9 @@ A4: Aspose.3D oferece uma variedade de efeitos de pós-processamento integrados 
 ### Q5: Posso usar Aspose.3D para projetos comerciais?
 
  A5: Sim, você pode usar Aspose.3D para fins comerciais. Consulte o[página de compra](https://purchase.aspose.com/buy) para detalhes de licenciamento.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

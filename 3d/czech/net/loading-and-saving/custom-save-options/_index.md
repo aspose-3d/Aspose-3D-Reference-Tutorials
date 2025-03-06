@@ -3,10 +3,16 @@ title: Vlastní možnosti uložení
 linktitle: Vlastní možnosti uložení
 second_title: Aspose.3D .NET API
 description: Prozkoumejte sílu Aspose.3D pro .NET. Naučte se, jak přizpůsobit ukládání 3D scény pomocí podrobných průvodců ve formátech Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC a RVM.
-type: docs
 weight: 21
 url: /cs/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vlastní možnosti uložení
+
 ## Úvod
 
 Vítejte ve světě Aspose.3D pro .NET! Pokud chcete vylepšit své možnosti 3D vývoje, jste na správném místě. V tomto tutoriálu se ponoříme do funkcí Načítání a Ukládání, konkrétně se zaměříme na Vlastní možnosti ukládání. Aspose.3D for .NET je výkonná knihovna, která umožňuje vývojářům efektivně manipulovat a ukládat 3D scény.
@@ -131,3 +137,9 @@ A1: Ano, Aspose.3D je kompatibilní s různými .NET frameworky, což zajišťuj
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.3D?
 
  A5: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

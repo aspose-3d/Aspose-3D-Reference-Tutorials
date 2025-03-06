@@ -3,10 +3,16 @@ title: シーンを 6 つの面を持つキューブマップにレンダリン�
 linktitle: シーンを 6 つの面を持つキューブマップにレンダリングする
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して、素晴らしいキューブマップを作成します。 3D シーンを魅力的な 6 面のキューブマップにレンダリングするためのステップバイステップ ガイドに従ってください。
-type: docs
 weight: 14
 url: /ja/net/rendering/render-scene-cubemap/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# シーンを 6 つの面を持つキューブマップにレンダリングする
+
 ## 導入
 Aspose.3D for .NET を使用してシーンを 6 つの面を持つキューブマップにレンダリングするためのこのステップバイステップ ガイドへようこそ。このチュートリアルでは、3D シーンをレンダリングして見事なキューブマップを作成するプロセスを説明します。 Aspose.3D は、3D グラフィックスの操作を簡素化する強力な .NET API です。このガイドでは、その機能を活用して魅力的なキューブマップを作成します。
 ## 前提条件
@@ -86,3 +92,9 @@ cubemap.Save(fileNames, ImageFormat.Png);
 絶対に！ Aspose.3D は、アニメーション 3D シーンのレンダリングをサポートしています。
 ### Q: 詳細なドキュメントはどこで入手できますか?
 を参照してください。[Aspose.3D ドキュメント](https://reference.aspose.com/3d/net/)詳細な情報については。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

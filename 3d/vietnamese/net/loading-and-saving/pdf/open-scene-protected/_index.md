@@ -3,10 +3,16 @@ title: Cảnh mở từ tệp PDF được bảo vệ
 linktitle: Cảnh mở từ tệp PDF được bảo vệ
 second_title: API Aspose.3D .NET
 description: Khám phá khả năng lập mô hình 3D với Aspose.3D cho .NET. Tìm hiểu cách mở cảnh từ các tệp PDF được bảo vệ trong hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 17
 url: /vi/net/loading-and-saving/pdf/open-scene-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cảnh mở từ tệp PDF được bảo vệ
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách tận dụng các khả năng của Aspose.3D cho .NET để nâng cao các tác vụ thao tác và lập mô hình 3D của bạn. Aspose.3D là một API mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các định dạng tệp 3D trong ứng dụng .NET của họ. Trong hướng dẫn này, chúng tôi sẽ tập trung vào khía cạnh quan trọng của việc tải và lưu, cụ thể là mở một cảnh từ tệp PDF được bảo vệ bằng Aspose.3D cho .NET.
@@ -97,3 +103,9 @@ Câu trả lời 1: Có, Aspose.3D hỗ trợ nhiều định dạng tệp 3D, �
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời để thử nghiệm không?
 
  Câu trả lời 5: Có, nếu bạn yêu cầu giấy phép tạm thời cho mục đích thử nghiệm, bạn có thể lấy giấy phép[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

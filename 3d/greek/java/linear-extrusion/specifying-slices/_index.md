@@ -3,10 +3,16 @@ title: Καθορισμός τμημάτων σε γραμμική εξώθησ�
 linktitle: Καθορισμός τμημάτων σε γραμμική εξώθηση με Aspose.3D για Java
 second_title: Aspose.3D Java API
 description: Μάθετε να καθορίζετε slices σε γραμμική εξώθηση χρησιμοποιώντας το Aspose.3D για Java. Αναβαθμίστε τις δεξιότητές σας στο τρισδιάστατο μοντέλο με αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 13
 url: /el/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καθορισμός τμημάτων σε γραμμική εξώθηση με Aspose.3D για Java
+
 ## Εισαγωγή
 
 Η δημιουργία περίπλοκων τρισδιάστατων μοντέλων απαιτεί συχνά κάτι περισσότερο από δημιουργικότητα. απαιτεί ενδελεχή κατανόηση των εργαλείων που έχετε στη διάθεσή σας. Το Aspose.3D για Java αλλάζει το παιχνίδι από αυτή την άποψη. Σε αυτό το σεμινάριο, θα επικεντρωθούμε σε μια συγκεκριμένη πτυχή - στον καθορισμό τμημάτων σε γραμμική εξώθηση.
@@ -93,3 +99,9 @@ scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### Ε5: Μπορώ να αγοράσω μια προσωρινή άδεια;
 
  A5: Ναι, μπορεί να ληφθεί προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

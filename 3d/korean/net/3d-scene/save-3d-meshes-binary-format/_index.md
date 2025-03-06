@@ -3,10 +3,16 @@ title: 사용자 정의 바이너리 형식으로 3D 메시 저장
 linktitle: 사용자 정의 바이너리 형식으로 3D 메시 저장
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D의 세계를 탐험해 보세요. 사용자 정의 바이너리 형식으로 메시를 저장하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 사용자 정의 바이너리 형식으로 3D 메시 저장
+
 ## 소개
 
 개발자가 쉽게 3D 파일 작업을 할 수 있도록 지원하는 강력한 라이브러리인 .NET용 Aspose.3D의 세계에 오신 것을 환영합니다. 이 튜토리얼에서는 .NET용 Aspose.3D를 사용하여 사용자 정의 바이너리 형식으로 3D 메시를 저장하는 프로세스를 자세히 살펴보겠습니다. 이 가이드에서는 귀하가 C#에 대한 기본적인 이해가 있고 Aspose.3D 라이브러리에 익숙하다고 가정합니다.
@@ -142,3 +148,9 @@ A1: Aspose.3D는 주로 .NET 언어를 지원하지만 다른 언어에 대한 �
 ### Q5: .NET용 Aspose.3D를 구입할 수 있나요?
 
  A5: 예, Aspose.3D를 다음 사이트에서 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

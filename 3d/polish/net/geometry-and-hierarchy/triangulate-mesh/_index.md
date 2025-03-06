@@ -3,10 +3,16 @@ title: Siatka triangulacyjna
 linktitle: Siatka triangulacyjna
 second_title: Aspose.3D API .NET
 description: Poznaj moc Aspose.3D dla .NET w tym przewodniku krok po kroku. Dowiedz się, jak bez wysiłku triangulować siatki 3D w celu lepszego modelowania.
-type: docs
 weight: 22
 url: /pl/net/geometry-and-hierarchy/triangulate-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Siatka triangulacyjna
+
 ## Wstęp
 
 Witamy w tym kompleksowym samouczku na temat triangulacji siatek w scenach 3D przy użyciu Aspose.3D dla .NET. Aspose.3D to potężna biblioteka, która umożliwia programistom .NET bezproblemową pracę z plikami 3D, oferując szeroką gamę funkcjonalności do tworzenia, manipulowania i konwertowania modeli 3D.
@@ -102,3 +108,10 @@ A2: Absolutnie. Aspose.3D można bezproblemowo zintegrować zarówno z aplikacja
 ### P5: Czy mogę wypróbować Aspose.3D za darmo przed zakupem?
 
  A5: Oczywiście! Możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

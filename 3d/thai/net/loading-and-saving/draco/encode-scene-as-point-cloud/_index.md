@@ -3,10 +3,16 @@ title: เข้ารหัสฉากเป็น Point Cloud
 linktitle: เข้ารหัสฉากเป็น Point Cloud
 second_title: Aspose.3D .NET API
 description: สำรวจโลกของการสร้างแบบจำลอง 3 มิติใน .NET ด้วย Aspose.3D เรียนรู้การเข้ารหัสทรงกลมให้เป็นพอยต์คลาวด์ได้อย่างง่ายดาย ปลดปล่อยความคิดสร้างสรรค์ของคุณตอนนี้!
-type: docs
 weight: 14
 url: /th/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เข้ารหัสฉากเป็น Point Cloud
+
 ## การแนะนำ
 ยินดีต้อนรับสู่คำแนะนำที่ครอบคลุมเกี่ยวกับการเข้ารหัสทรงกลมเป็นพอยต์คลาวด์โดยใช้ Aspose.3D สำหรับ .NET Aspose.3D เป็นไลบรารี่ที่ทรงพลังและอเนกประสงค์ซึ่งช่วยให้นักพัฒนาสามารถทำงานกับโมเดล 3D ได้อย่างราบรื่นในแอปพลิเคชัน .NET ของตน ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเข้ารหัสทรงกลมลงในพอยต์คลาวด์โดยใช้ Aspose.3D
 ## ข้อกำหนดเบื้องต้น
@@ -60,3 +66,9 @@ FileFormat.Draco.Encode(sphere, outputPath + outputFileName, saveOptions);
  เยี่ยมชมฟอรั่ม Aspose.3D[ที่นี่](https://forum.aspose.com/c/3d/18) สำหรับการสนับสนุนและการอภิปรายของชุมชน
 ### ฉันจำเป็นต้องมีใบอนุญาตชั่วคราวสำหรับการทดสอบหรือไม่?
  ใช่ หากคุณกำลังทดสอบห้องสมุด คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

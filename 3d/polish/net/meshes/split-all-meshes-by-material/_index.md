@@ -3,10 +3,16 @@ title: Dzielenie wszystkich siatek sceny według materiału
 linktitle: Dzielenie wszystkich siatek sceny według materiału
 second_title: Aspose.3D API .NET
 description: Dowiedz się, jak dzielić siatki 3D według materiału za pomocą Aspose.3D dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie organizować modele 3D i zarządzać nimi.
-type: docs
 weight: 21
 url: /pl/net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dzielenie wszystkich siatek sceny według materiału
+
 ## Wstęp
 Witamy w tym przewodniku krok po kroku dotyczącym dzielenia wszystkich siatek sceny 3D według materiału przy użyciu Aspose.3D dla .NET. Jeśli pracujesz z modelami 3D i chcesz efektywnie organizować swoje siatki w oparciu o materiały, ten poradnik jest dla Ciebie. Aspose.3D to potężna biblioteka .NET, która zapewnia szereg funkcji do pracy z plikami 3D, co czyni ją doskonałym wyborem dla programistów.
 ## Warunki wstępne
@@ -66,3 +72,9 @@ Aspose.3D jest przeznaczony głównie dla .NET, ale zapewnia interoperacyjność
  Odwiedzić[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności i dyskusje.
 ### 5. Czy mogę uzyskać licencję tymczasową?
  Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

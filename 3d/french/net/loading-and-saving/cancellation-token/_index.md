@@ -3,10 +3,16 @@ title: Utilisation du jeton d'annulation
 linktitle: Utilisation du jeton d'annulation
 second_title: API Aspose.3D .NET
 description: Explorez le monde transparent de la modélisation 3D avec Aspose.3D pour .NET. Apprenez à charger et enregistrer efficacement des documents 3D à l'aide de CancellationToken.
-type: docs
 weight: 10
 url: /fr/net/loading-and-saving/cancellation-token/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utilisation du jeton d'annulation
+
 ## Introduction
 
 Bienvenue dans notre guide complet sur l'utilisation d'Aspose.3D pour .NET pour améliorer vos projets de modélisation et de rendu 3D. Aspose.3D est une bibliothèque puissante qui permet aux développeurs .NET de travailler de manière transparente avec des fichiers 3D. Dans ce didacticiel, nous approfondirons les aspects de chargement et de sauvegarde, en nous concentrant spécifiquement sur l'utilisation de CancellationToken pour une gestion efficace des tâches asynchrones.
@@ -120,3 +126,9 @@ Toutes nos félicitations! Vous avez réussi à parcourir le processus d'utilisa
 ### Q5 : Quelle est la dernière version d’Aspose.3D pour .NET ?
 
  A5 : Restez à jour en consultant le[page de téléchargement](https://releases.aspose.com/3d/net/) pour la dernière version.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

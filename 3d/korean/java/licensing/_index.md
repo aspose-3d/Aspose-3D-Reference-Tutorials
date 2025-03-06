@@ -3,10 +3,16 @@ title: Java용 Aspose.3D 시작하기
 linktitle: Java용 Aspose.3D 시작하기
 second_title: Aspose.3D 자바 API
 description: 심층적인 튜토리얼을 통해 Aspose.3D Java의 강력한 기능을 알아보세요. 이 강력한 Java 도구의 모든 기능을 활용하기 위해 라이센스를 적용하는 방법을 알아보세요.
-type: docs
 weight: 22
 url: /ko/java/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D 시작하기
+
 ## 소개
 
 Aspose.3D의 놀라운 기능으로 Java 애플리케이션을 향상시킬 준비가 되셨습니까? 라이센스 적용의 기본 단계부터 시작하여 모든 측면을 안내하는 포괄적인 튜토리얼을 살펴보세요.
@@ -37,3 +43,9 @@ Aspose.3D의 놀라운 기능으로 Java 애플리케이션을 향상시킬 준�
 ## Java 자습서용 Aspose.3D 시작하기
 ### [Java용 Aspose.3D에서 라이선스 적용](./applying-license-in-aspose-3d/)
 라이선스 적용에 대한 포괄적인 가이드를 따라 Java 애플리케이션에서 Aspose.3D의 잠재력을 최대한 활용하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

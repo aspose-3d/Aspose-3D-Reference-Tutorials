@@ -3,10 +3,16 @@ title: Angeben von Slices in der linearen Extrusion mit Aspose.3D für Java
 linktitle: Angeben von Slices in der linearen Extrusion mit Aspose.3D für Java
 second_title: Aspose.3D Java-API
 description: Erfahren Sie, wie Sie mit Aspose.3D für Java Slices in der linearen Extrusion angeben. Verbessern Sie Ihre 3D-Modellierungsfähigkeiten mit dieser Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 13
 url: /de/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Angeben von Slices in der linearen Extrusion mit Aspose.3D für Java
+
 ## Einführung
 
 Die Erstellung komplexer 3D-Modelle erfordert oft mehr als nur Kreativität; Es erfordert ein gründliches Verständnis der Ihnen zur Verfügung stehenden Werkzeuge. Aspose.3D für Java ist in dieser Hinsicht ein Game-Changer. In diesem Tutorial konzentrieren wir uns auf einen bestimmten Aspekt – die Angabe von Slices in der linearen Extrusion.
@@ -93,3 +99,9 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.3D für Java Sli
 ### F5: Kann ich eine temporäre Lizenz erwerben?
 
  A5: Ja, eine temporäre Lizenz kann erworben werden[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

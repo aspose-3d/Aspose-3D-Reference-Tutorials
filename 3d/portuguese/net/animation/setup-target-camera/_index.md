@@ -3,10 +3,16 @@ title: Configurando alvos e câmeras para animação em cenas 3D
 linktitle: Configurando alvos e câmeras para animação em cenas 3D
 second_title: API Aspose.3D .NET
 description: Desbloqueie a magia da animação 3D com Aspose.3D para .NET. Configure alvos e câmeras sem esforço usando este tutorial abrangente.
-type: docs
 weight: 11
 url: /pt/net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurando alvos e câmeras para animação em cenas 3D
+
 ## Introdução
 
 A configuração de alvos e câmeras constitui a base de qualquer projeto de animação 3D. Aspose.3D for .NET oferece um conjunto robusto de ferramentas para agilizar esse processo, permitindo que os desenvolvedores liberem sua criatividade. Este tutorial irá guiá-lo através das etapas, detalhando as complexidades e tornando a tarefa aparentemente assustadora mais gerenciável.
@@ -103,3 +109,9 @@ A4: Sim, você pode explorar uma avaliação gratuita[aqui](https://releases.asp
 ### P5: Como obtenho uma licença temporária?
 
  A5: Obtenha uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

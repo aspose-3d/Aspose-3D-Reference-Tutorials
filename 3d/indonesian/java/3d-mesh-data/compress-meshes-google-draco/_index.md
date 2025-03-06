@@ -3,10 +3,16 @@ title: Kompres Jerat 3D dengan Google Draco di Java
 linktitle: Kompres Jerat 3D dengan Google Draco di Java
 second_title: Asumsikan.3D Java API
 description: Optimalkan aplikasi 3D Anda dengan Aspose.3D. Pelajari cara mengompres jerat menggunakan Google Draco di Java. Ikuti panduan langkah demi langkah kami untuk pengembangan 3D yang efisien.
-type: docs
 weight: 10
 url: /id/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompres Jerat 3D dengan Google Draco di Java
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang mengompresi mesh 3D dengan Google Draco di Java menggunakan Aspose.3D. Dalam tutorial ini, kami akan memandu Anda melalui proses mengompresi jerat 3D secara efisien, memanfaatkan kekuatan Aspose.3D. Jika Anda seorang pengembang yang ingin menyempurnakan aplikasi 3D dengan mengurangi ukuran mesh tanpa mengurangi kualitas, Anda berada di tempat yang tepat.
@@ -100,3 +106,9 @@ A2: Meskipun tutorial ini berfokus pada Java, Google Draco tersedia untuk diguna
 ### Q5: Apakah ada forum komunitas untuk dukungan Aspose.3D?
 
  A5: Ya, untuk dukungan dan diskusi komunitas, kunjungi[Forum Asumsikan.3D](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

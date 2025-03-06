@@ -3,10 +3,16 @@ title: रैखिक बाहर निकालना
 linktitle: रैखिक बाहर निकालना
 second_title: Aspose.3D .NET API
 description: .NET ट्यूटोरियल के लिए Aspose.3D के साथ 3D रचनात्मकता को अनलॉक करें। लीनियर एक्सट्रूज़न तकनीकों में महारत हासिल करें, डिज़ाइन को बेहतर बनाएं और अपनी परियोजनाओं को सहजता से उन्नत करें।
-type: docs
 weight: 31
 url: /hi/net/3d-modeling/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# रैखिक बाहर निकालना
+
 ## परिचय
 | Explore the dynamic realm of [3D modeling](./center-in-linear-extrusion/) through Aspose.3D for .NET tutorials, focusing on various aspects of linear extrusion. Master the art of [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), and incorporating [twist offsets](./twist-offset-in-linear-extrusion/) in your designs. Each tutorial is a gateway to unlocking new dimensions of creativity in 3D graphics. Dive into the captivating world of Aspose.3D for .NET and unleash your imagination. |
 
@@ -42,3 +48,9 @@ url: /hi/net/3d-modeling/linear-extrusion/
 .NET के लिए Aspose.3D के साथ 3D ग्राफ़िक्स की मनोरम दुनिया का अन्वेषण करें। ट्विस्ट के साथ चरण दर चरण लीनियर एक्सट्रूज़न सीखें।
 ### [लीनियर एक्सट्रूज़न में ट्विस्ट ऑफसेट](./twist-offset-in-linear-extrusion/)
 लीनियर एक्सट्रूज़न में ट्विस्ट ऑफसेट पर हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.3D के जादू का अन्वेषण करें। अपने 3D प्रोजेक्ट को सहजता से उन्नत करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

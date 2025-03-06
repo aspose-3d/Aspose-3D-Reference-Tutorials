@@ -3,10 +3,16 @@ title: जावा में 3डी मेश के लिए मेमोर
 linktitle: जावा में 3डी मेश के लिए मेमोरी लेआउट को अनुकूलित करें
 second_title: Aspose.3D जावा एपीआई
 description: Aspose.3D के साथ अपने जावा 3D मॉडलिंग को बढ़ाएं - इष्टतम प्रदर्शन के लिए मेमोरी लेआउट को अनुकूलित करें। अभी हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें!
-type: docs
 weight: 13
 url: /hi/java/transforming-3d-meshes/customize-mesh-memory-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में 3डी मेश के लिए मेमोरी लेआउट को अनुकूलित करें
+
 ## परिचय
 जावा में 3डी मॉडलिंग और रेंडरिंग की गतिशील दुनिया में, Aspose.3D लचीलेपन और अनुकूलन चाहने वाले डेवलपर्स के लिए एक शक्तिशाली उपकरण के रूप में खड़ा है। इस ट्यूटोरियल में, हम जावा के लिए Aspose.3D का उपयोग करके 3D मेश के लिए मेमोरी लेआउट को कस्टमाइज़ करने की प्रक्रिया के बारे में विस्तार से जानेंगे। इस गाइड के अंत तक, आपको इस बात की ठोस समझ हो जाएगी कि उन्नत 3डी मॉडलिंग के लिए मेमोरी उपयोग को कैसे अनुकूलित किया जाए।
 ## आवश्यक शर्तें
@@ -71,3 +77,9 @@ System.out.println("\nConverted a Box mesh to triangle mesh with custom memory l
  दौरा करना[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) सामुदायिक समर्थन के लिए.
 ### क्या मैं Aspose.3D के लिए अस्थायी लाइसेंस खरीद सकता हूँ?
  हाँ, अस्थायी लाइसेंस प्राप्त किया जा सकता है[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

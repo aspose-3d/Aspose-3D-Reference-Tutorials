@@ -3,10 +3,16 @@ title: Saving 3D Scene to FBX file
 linktitle: Saving 3D Scene to FBX file
 second_title: Aspose.3D .NET API
 description: Explore the power of Aspose.3D for .NET. a versatile library for seamless 3D scene manipulation. Load, save, and compress effortlessly.
-type: docs
 weight: 20
 url: /net/loading-and-saving/fbx/save-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Saving 3D Scene to FBX file
+
 ## Introduction
 
 Welcome to an exciting journey into the realm of 3D scene manipulation using Aspose.3D for .NET! Whether you're a seasoned developer or a curious enthusiast, this tutorial will guide you through the process of loading, saving, and compressing 3D scenes effortlessly.
@@ -104,3 +110,10 @@ A4: Join the vibrant Aspose.3D community on the [forum](https://forum.aspose.com
 ### Q5: Is there a free trial available for Aspose.3D?
 
 A5: Yes, explore the features of Aspose.3D by grabbing your [free trial](https://releases.aspose.com/) today!
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

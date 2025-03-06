@@ -3,10 +3,16 @@ title: Háromdimenziós tulajdonságok beállítása 3D jelenetekben
 linktitle: Háromdimenziós tulajdonságok beállítása 3D jelenetekben
 second_title: Aspose.3D .NET API
 description: Fedezze fel az Aspose.3D for .NET oktatóanyagát a 3D tulajdonságok beállításáról. Tanuljon lépésről lépésre kódpéldákkal. Növelje 3D-s jelenetmanipulációs készségeit.
-type: docs
 weight: 14
 url: /hu/net/3d-scene/set-3d-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Háromdimenziós tulajdonságok beállítása 3D jelenetekben
+
 ## Bevezetés
 
 magával ragadó háromdimenziós jelenetek létrehozása gyakran megköveteli a különféle tulajdonságok manipulálásának képességét, mélységet és valósághűséget adva a projektekhez. Az Aspose.3D for .NET hatékony eszközkészletet biztosít ennek eléréséhez, lehetővé téve a 3D jelenetek háromdimenziós tulajdonságainak zökkenőmentes beállítását és módosítását. Ebben az oktatóanyagban lépésről lépésre vizsgáljuk meg a folyamatot, és jobban megérti, hogyan használhatja hatékonyan az Aspose.3D-t .NET-hez.
@@ -148,3 +154,10 @@ Gratulálunk! Most már elsajátította a háromdimenziós tulajdonságok beáll
 ### 5. kérdés: Kipróbálhatom ingyenesen az Aspose.3D for .NET programot vásárlás előtt?
 
  A5: Természetesen! Töltse le a[ingyenes próbaverzió](https://releases.aspose.com/) jellemzőinek feltárására.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

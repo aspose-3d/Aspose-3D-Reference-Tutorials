@@ -3,10 +3,16 @@ title: Tạo cảnh khối
 linktitle: Tạo cảnh khối
 second_title: API Aspose.3D .NET
 description: Tạo các cảnh khối 3D tuyệt đẹp một cách dễ dàng với Aspose.3D cho .NET. Tải xuống thư viện, làm theo hướng dẫn từng bước của chúng tôi và khám phá.
-type: docs
 weight: 12
 url: /vi/net/geometry-and-hierarchy/create-cube-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo cảnh khối
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng bước vào thế giới quyến rũ của thiết kế 3D chưa? Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo các cảnh hình khối đầy mê hoặc bằng Aspose.3D cho .NET. Aspose.3D là một thư viện mạnh mẽ và linh hoạt giúp các nhà phát triển tạo ra trải nghiệm 3D sống động một cách liền mạch.
@@ -126,3 +132,9 @@ A2: Chắc chắn rồi! Thử nghiệm với các vật liệu, màu sắc và 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.3D?
 
  A5: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

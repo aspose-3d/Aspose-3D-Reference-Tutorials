@@ -3,10 +3,16 @@ title: إنشاء مشهد باستخدام مادة مضمنة
 linktitle: إنشاء مشهد باستخدام مادة مضمنة
 second_title: Aspose.3D.NET API
 description: قم بإنشاء مشاهد ثلاثية الأبعاد رائعة باستخدام مواد مضمنة باستخدام Aspose.3D لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على نتائج مذهلة.
-type: docs
 weight: 10
 url: /ar/net/materials/create-scene-embedded-texture/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مشهد باستخدام مادة مضمنة
+
 ## مقدمة
 مرحبًا بك في عالم الرسومات ثلاثية الأبعاد المثير باستخدام Aspose.3D لـ .NET! في هذا البرنامج التعليمي الشامل، سنرشدك خلال عملية إنشاء مشاهد ثلاثية الأبعاد مذهلة مع مواد مضمنة باستخدام Aspose.3D، وهي مكتبة قوية ومتعددة الاستخدامات لمطوري .NET.
 ## المتطلبات الأساسية
@@ -109,3 +115,9 @@ scene.Save(RunExamples.GetOutputFilePath(@"test.fbx"), FileFormat.FBX7500ASCII);
  ج: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لدعم المجتمع والمناقشات.
 ### س: هل يمكنني استخدام Aspose.3D للمشاريع التجارية؟
  ج: نعم، يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

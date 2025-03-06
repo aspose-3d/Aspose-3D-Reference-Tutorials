@@ -3,10 +3,16 @@ title: النمذجة
 linktitle: النمذجة
 second_title: Aspose.3D.NET API
 description: اكتشف فن النمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET! قم بصياغة نماذج بدائية جذابة بسهولة في هذا البرنامج التعليمي الشامل. أطلق العنان لإبداعك اليوم.
-type: docs
 weight: 28
 url: /ar/net/3d-modeling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# النمذجة
+
 
 ## مقدمة
 
@@ -67,3 +73,9 @@ url: /ar/net/3d-modeling/
 ## دروس النمذجة ثلاثية الأبعاد
 ### [إنشاء نماذج بدائية ثلاثية الأبعاد](./primitive-3d-models/)
 استكشف عالم النمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. قم بإنشاء نماذج بدائية مذهلة دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

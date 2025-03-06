@@ -3,10 +3,16 @@ title: 以 Google Draco 格式编码 3D 网格
 linktitle: 在 Draco 中编码 3D 网格
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 Google Draco 格式的简单 3D 网格编码。请遵循我们的分步指南。高效、强大且对开发人员友好！
-type: docs
 weight: 19
 url: /zh/net/loading-and-saving/draco/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 以 Google Draco 格式编码 3D 网格
+
 ## 介绍
 如果您正在深入研究 3D 图形世界并希望有效地压缩 3D 网格数据，那么您就不用再犹豫了。在本教程中，我们将指导您完成使用 Aspose.3D for .NET 将 3D 网格编码为 Google Draco 格式的过程。这个强大的库使开发人员能够无缝处理 3D 文件格式并执行各种操作，包括网格编码。
 ## 先决条件
@@ -58,3 +64,9 @@ Aspose.3D 主要是为 .NET 设计的，但 Aspose 为 Java 和其他平台提�
 临时许可证允许您在有限的时间内评估完整版本的 Aspose.3D。
 ### 在哪里可以找到 Aspose.3D for .NET 的详细文档？
 请参阅[文档](https://reference.aspose.com/3d/net/)以获得全面的信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

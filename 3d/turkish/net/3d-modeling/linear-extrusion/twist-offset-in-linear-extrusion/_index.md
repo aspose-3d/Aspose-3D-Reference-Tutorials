@@ -3,10 +3,16 @@ title: Doğrusal Ekstrüzyonda Büküm Ofseti
 linktitle: Doğrusal Ekstrüzyonda Büküm Ofseti
 second_title: Aspose.3D .NET API'si
 description: Doğrusal Ekstrüzyonda Büküm Ofseti hakkındaki adım adım kılavuzumuzla Aspose.3D for .NET'in büyüsünü keşfedin. 3D projelerinizi zahmetsizce yükseltin.
-type: docs
 weight: 15
 url: /tr/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Doğrusal Ekstrüzyonda Büküm Ofseti
+
 ## giriiş
 
 Geliştiricilerin 3D manipülasyonu kolaylıkla gerçekleştirmesini sağlayan çok yönlü bir kütüphane olan Aspose.3D for .NET dünyasına hoş geldiniz. Bu eğitimde ilgi çekici özelliklerden biri olan "Doğrusal Ekstrüzyonda Büküm Ofseti"ni inceleyeceğiz. 3D programlama becerilerinizi geliştirmeye hazırsanız, hemen konuya dalalım!
@@ -112,3 +118,9 @@ Cevap1: Aspose.3D öncelikle .NET dillerini destekler ancak Aspose, Java ve diğ
 ### S5: Aspose.3D for .NET'i nereden satın alabilirim?
 
  A5: Başa dön[bu bağlantı](https://purchase.aspose.com/buy) satın alma işlemi gerçekleştirin ve Aspose.3D'nin tüm potansiyelini ortaya çıkarın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

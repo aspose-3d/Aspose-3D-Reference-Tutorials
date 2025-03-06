@@ -3,10 +3,16 @@ title: 创建带有嵌入纹理的场景
 linktitle: 创建带有嵌入纹理的场景
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 创建具有嵌入纹理的迷人 3D 场景。按照我们的分步指南获得令人惊叹的结果。
-type: docs
 weight: 10
 url: /zh/net/materials/create-scene-embedded-texture/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 创建带有嵌入纹理的场景
+
 ## 介绍
 欢迎来到 Aspose.3D for .NET 令人兴奋的 3D 图形世界！在这个综合教程中，我们将指导您完成使用 Aspose.3D 创建令人惊叹的带有嵌入纹理的 3D 场景的过程，Aspose.3D 是一个面向 .NET 开发人员的强大且多功能的库。
 ## 先决条件
@@ -109,3 +115,9 @@ A：Aspose.3D提供动画功能；请参阅文档以获取详细说明。
 答：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)以获得社区支持和讨论。
 ### 问：我可以将 Aspose.3D 用于商业项目吗？
 答：是的，您可以购买许可证[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

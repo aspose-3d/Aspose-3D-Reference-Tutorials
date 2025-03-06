@@ -3,10 +3,16 @@ title: Создайте сцену 3D-куба на Java с помощью Aspos
 linktitle: Создайте сцену 3D-куба на Java с помощью Aspose.3D
 second_title: Aspose.3D Java API
 description: Исследуйте чудеса трехмерной графики кубических сцен с помощью Aspose.3D для Java. Создавайте потрясающие сцены без особых усилий.
-type: docs
 weight: 12
 url: /ru/java/geometry/create-3d-cube-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создайте сцену 3D-куба на Java с помощью Aspose.3D
+
 ## Введение
 
 Добро пожаловать в увлекательный мир 3D-графики на Java с помощью Aspose.3D! В этом уроке мы проведем вас через процесс создания потрясающей сцены 3D-куба с помощью Aspose.3D для Java. Aspose.3D — это мощная библиотека Java, предоставляющая комплексные функциональные возможности для работы с 3D-моделями и сценами.
@@ -105,3 +111,9 @@ System.out.println("\nCube Scene created successfully.\nFile saved at " + MyDir)
 ### В5: Как получить временную лицензию на Aspose.3D?
 
  A5: Вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

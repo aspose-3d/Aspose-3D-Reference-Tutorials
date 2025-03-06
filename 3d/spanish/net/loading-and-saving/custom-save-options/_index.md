@@ -3,10 +3,16 @@ title: Opciones de guardado personalizadas
 linktitle: Opciones de guardado personalizadas
 second_title: Aspose.3D API .NET
 description: Explore el poder de Aspose.3D para .NET. Aprenda a personalizar el guardado de escenas 3D con guías paso a paso en los formatos Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC y RVM.
-type: docs
 weight: 21
 url: /es/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opciones de guardado personalizadas
+
 ## Introducción
 
 ¡Bienvenido al mundo de Aspose.3D para .NET! Si busca mejorar sus capacidades de desarrollo 3D, está en el lugar correcto. En este tutorial, profundizaremos en las funcionalidades de carga y guardado, centrándonos específicamente en las opciones de guardado personalizadas. Aspose.3D para .NET es una poderosa biblioteca que permite a los desarrolladores manipular y guardar escenas 3D de manera eficiente.
@@ -131,3 +137,9 @@ R1: Sí, Aspose.3D es compatible con varios marcos .NET, lo que garantiza flexib
 ### P5: ¿Cómo puedo obtener una licencia temporal para Aspose.3D?
 
  A5: Obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Προσθήκη ιδιοτήτων κινούμενων εικόνων �
 linktitle: Προσθήκη ιδιοτήτων κινούμενων εικόνων σε τρισδιάστατες σκηνές σε Java | Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 description: Βελτιώστε τα τρισδιάστατα έργα σας που βασίζονται σε Java με το Aspose.3D. Ακολουθήστε το σεμινάριο μας για να προσθέσετε απρόσκοπτα ιδιότητες κινούμενων εικόνων.
-type: docs
 weight: 10
 url: /el/java/animations/add-animation-properties-to-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη ιδιοτήτων κινούμενων εικόνων σε τρισδιάστατες σκηνές σε Java | Aspose.3D Tutorial
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτό το βήμα προς βήμα σεμινάριο για την προσθήκη ιδιοτήτων κινούμενων εικόνων σε σκηνές 3D στην Java χρησιμοποιώντας το Aspose.3D. Αν θέλετε να βελτιώσετε τα τρισδιάστατα έργα σας με δυναμικά κινούμενα σχέδια, βρίσκεστε στο σωστό μέρος. Σε αυτόν τον οδηγό, θα σας καθοδηγήσουμε στη διαδικασία, αναλύοντας κάθε βήμα για μια απρόσκοπτη εμπειρία.
@@ -128,3 +134,9 @@ A3: Εγγραφείτε στην κοινότητα στο[Aspose.3D Forum](htt
 ### Ε5: Υπάρχουν περισσότερα διαθέσιμα μαθήματα;
 
  A5: Εξερευνήστε την περιεκτική[τεκμηρίωση](https://reference.aspose.com/3d/java/) για επιπλέον σεμινάρια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

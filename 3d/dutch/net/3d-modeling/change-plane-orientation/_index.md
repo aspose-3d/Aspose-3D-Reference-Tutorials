@@ -3,10 +3,16 @@ title: De vlakoriëntatie in 3D-scènes wijzigen
 linktitle: De vlakoriëntatie in 3D-scènes wijzigen
 second_title: Aspose.3D .NET-API
 description: Verken Aspose.3D voor .NET en beheer de veranderende vlakoriëntatie in 3D-scènes. Volg onze stapsgewijze handleiding voor een naadloze integratie.
-type: docs
 weight: 10
 url: /nl/net/3d-modeling/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# De vlakoriëntatie in 3D-scènes wijzigen
+
 ## Invoering
 
 Welkom bij deze uitgebreide handleiding over het wijzigen van de vlakoriëntatie in 3D-scènes met Aspose.3D voor .NET! Als je een ontwikkelaar of 3D-liefhebber bent en je vaardigheden wilt verbeteren, dan ben je hier aan het juiste adres. In deze tutorial gaan we stap voor stap dieper in op het proces, aan de hand van duidelijke voorbeelden en gedetailleerde uitleg. Aan het einde zul je een goed begrip hebben van hoe je de vlakoriëntatie in je 3D-projecten kunt manipuleren.
@@ -95,3 +101,9 @@ A1: Aspose.3D kan naadloos samenwerken met andere populaire 3D-bibliotheken, waa
 ### Vraag 5: Waar kan ik gedetailleerde documentatie vinden?
 
  A5: Raadpleeg de documentatie[hier](https://reference.aspose.com/3d/net/) voor diepgaande informatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

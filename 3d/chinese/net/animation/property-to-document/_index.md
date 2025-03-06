@@ -3,10 +3,16 @@ title: 在 3D 场景中对属性进行动画处理以记录
 linktitle: 在 3D 场景中对属性进行动画处理以记录
 second_title: Aspose.3D .NET API
 description: 学习使用 Aspose.3D for .NET 制作 3D 属性动画。创建动态场景的分步指南。
-type: docs
 weight: 10
 url: /zh/net/animation/property-to-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 3D 场景中对属性进行动画处理以记录
+
 ## 介绍
 
 如果您正在深入研究 .NET 中的 3D 场景创建和动画领域，Aspose.3D 是您的首选工具包。在本分步指南中，我们将探索使用 Aspose.3D for .NET 在 3D 场景中对属性进行动画处理的过程。最后，您将掌握为 3D 项目注入活力的知识。
@@ -128,3 +134,9 @@ A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
 ### Q5: 我可以获得临时许可证吗？
 
  A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

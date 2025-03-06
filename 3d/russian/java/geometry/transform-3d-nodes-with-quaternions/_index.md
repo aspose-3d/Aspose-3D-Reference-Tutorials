@@ -3,10 +3,16 @@ title: Преобразование 3D-узлов с помощью кватер
 linktitle: Преобразование 3D-узлов с помощью кватернионов в Java с помощью Aspose.3D
 second_title: Aspose.3D Java API
 description: Усовершенствуйте свои Java-приложения с помощью Aspose.3D для мощных 3D-преобразований. Научитесь преобразовывать узлы с помощью кватернионов в этом пошаговом руководстве.
-type: docs
 weight: 20
 url: /ru/java/geometry/transform-3d-nodes-with-quaternions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование 3D-узлов с помощью кватернионов в Java с помощью Aspose.3D
+
 ## Введение
 
 Добро пожаловать в это пошаговое руководство по преобразованию 3D-узлов с помощью кватернионов в Java с помощью Aspose.3D. Если вы хотите улучшить свое Java-приложение с помощью мощных 3D-преобразований, это руководство для вас. Aspose.3D для Java предоставляет мощный набор функций для работы с 3D-графикой, и в этом руководстве мы сосредоточимся на преобразовании 3D-узлов с использованием кватернионов.
@@ -119,3 +125,9 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 ### Вопрос 5: Где я могу приобрести Aspose.3D для Java?
 
  A5: Вы можете купить его[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

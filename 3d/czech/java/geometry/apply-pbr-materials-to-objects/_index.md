@@ -3,10 +3,16 @@ title: Aplikujte materiály PBR na 3D objekty v Javě pomocí Aspose.3D
 linktitle: Aplikujte materiály PBR na 3D objekty v Javě pomocí Aspose.3D
 second_title: Aspose.3D Java API
 description: Naučte se aplikovat realistické PBR materiály na 3D objekty v Javě pomocí Aspose.3D. Vylepšete vizuální kvalitu pomocí fyzicky založeného vykreslování.
-type: docs
 weight: 10
 url: /cs/java/geometry/apply-pbr-materials-to-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplikujte materiály PBR na 3D objekty v Javě pomocí Aspose.3D
+
 ## Úvod
 
 Vítejte v tomto podrobném průvodci aplikací materiálů PBR (Physical Based Rendering) na 3D objekty v Javě pomocí Aspose.3D. Aspose.3D je výkonná Java knihovna, která poskytuje komplexní funkce pro práci s 3D modely a scénami. V tomto tutoriálu se zaměříme na aplikaci materiálů PBR, které simulují skutečné osvětlení a vlastnosti povrchu, čímž zvyšují realističnost vašich 3D objektů.
@@ -102,3 +108,9 @@ Gratulujeme! Úspěšně jste aplikovali materiály PBR na 3D objekt v Javě pom
 ### Q5: Jak získám dočasnou licenci pro testování?
 
  A5: Návštěva[tento odkaz](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

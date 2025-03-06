@@ -3,10 +3,16 @@ title: Rendre des scènes 3D en images tamponnées pour un traitement ultérieur
 linktitle: Rendre des scènes 3D en images tamponnées pour un traitement ultérieur en Java
 second_title: API Java Aspose.3D
 description: Découvrez la puissance d'Aspose.3D pour Java pour le rendu de scènes 3D sur des images mises en mémoire tampon. Guide étape par étape avec les prérequis, les packages d'importation et les FAQ.
-type: docs
 weight: 12
 url: /fr/java/rendering-3d-scenes/render-to-buffered-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rendre des scènes 3D en images tamponnées pour un traitement ultérieur en Java
+
 ## Introduction
 
 Bienvenue dans ce guide étape par étape sur le rendu de scènes 3D sur des images mises en mémoire tampon à l'aide d'Aspose.3D pour Java. Aspose.3D est une puissante bibliothèque Java qui permet aux développeurs de travailler avec des fichiers et des scènes 3D, offrant des fonctionnalités polyvalentes pour le rendu et le traitement. Dans ce didacticiel, nous nous concentrerons sur le rendu de scènes 3D sur des images mises en mémoire tampon, ouvrant ainsi la voie à un traitement ultérieur en Java.
@@ -106,3 +112,9 @@ Toutes nos félicitations! Vous avez appris avec succès à utiliser Aspose.3D p
 ### Q5 : Existe-t-il des options de rendu supplémentaires disponibles ?
 
  A5 : Oui, explorez la documentation Aspose.3D[ici](https://reference.aspose.com/3d/java/) pour des informations complètes sur les options de rendu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

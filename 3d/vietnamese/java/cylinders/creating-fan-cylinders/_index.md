@@ -3,10 +3,16 @@ title: Tạo các trụ quạt tùy chỉnh với Aspose.3D cho Java
 linktitle: Tạo các trụ quạt tùy chỉnh với Aspose.3D cho Java
 second_title: API Java Aspose.3D
 description: Tìm hiểu cách tạo các hình trụ quạt tùy chỉnh trong Java với Aspose.3D. Nâng cao trò chơi mô hình 3D của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/cylinders/creating-fan-cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo các trụ quạt tùy chỉnh với Aspose.3D cho Java
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng cao trải nghiệm lập mô hình 3D của mình với Aspose.3D cho Java chưa? Hướng dẫn này sẽ hướng dẫn bạn quy trình tạo các trụ quạt tùy chỉnh bằng thư viện Aspose.3D mạnh mẽ. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu, hướng dẫn từng bước này sẽ giúp bạn phát huy toàn bộ tiềm năng của Aspose.3D trong Java.
@@ -124,3 +130,9 @@ A2: Chắc chắn rồi! Aspose.3D cung cấp các tùy chọn mở rộng để
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.3D?
 
  A5: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho nhu cầu thử nghiệm và phát triển của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

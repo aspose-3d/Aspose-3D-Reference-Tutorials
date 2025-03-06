@@ -3,10 +3,16 @@ title: Apply UV Coordinates to 3D Objects in Java with Aspose.3D
 linktitle: Apply UV Coordinates to 3D Objects in Java with Aspose.3D
 second_title: Aspose.3D Java API
 description: Learn to apply UV coordinates to 3D objects in Java with Aspose.3D. Elevate your graphics with this step-by-step guide.
-type: docs
 weight: 18
 url: /java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Apply UV Coordinates to 3D Objects in Java with Aspose.3D
+
 ## Introduction
 
 Welcome to this comprehensive tutorial on applying UV coordinates to 3D objects in Java using Aspose.3D. In the world of 3D graphics, UV coordinates play a crucial role in mapping textures onto surfaces, enhancing the visual appeal of your creations. This tutorial will guide you through the process, breaking down each step to ensure a smooth and effective learning experience.
@@ -104,3 +110,10 @@ A4: You can acquire a temporary license [here](https://purchase.aspose.com/tempo
 ### Q5: Where can I purchase Aspose.3D?
 
 A5: To purchase Aspose.3D, visit the [purchase page](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

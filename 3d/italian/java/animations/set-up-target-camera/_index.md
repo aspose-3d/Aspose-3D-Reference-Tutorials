@@ -3,10 +3,16 @@ title: Configura la fotocamera target per le animazioni 3D in Java | Tutorial As
 linktitle: Configura la fotocamera target per le animazioni 3D in Java | Tutorial Aspose.3D
 second_title: API Java Aspose.3D
 description: Esplora le animazioni Java 3D senza sforzo con Aspose.3D. Segui il nostro tutorial per una guida passo passo. Scaricalo ora per un affascinante viaggio di sviluppo 3D.
-type: docs
 weight: 11
 url: /it/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configura la fotocamera target per le animazioni 3D in Java | Tutorial Aspose.3D
+
 ## introduzione
 
 Benvenuti in questa guida passo passo sulla configurazione di una telecamera di destinazione per animazioni 3D in Java utilizzando Aspose.3D. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato con le animazioni 3D in Java, questo tutorial ti guiderà attraverso il processo con istruzioni chiare e concise.
@@ -98,3 +104,9 @@ Congratulazioni! Hai configurato con successo una fotocamera di destinazione per
 ### Q5: Come posso ottenere una licenza temporanea?
 
  A5: È possibile acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

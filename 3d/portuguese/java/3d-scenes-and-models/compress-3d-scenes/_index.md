@@ -3,10 +3,16 @@ title: Compacte cenas 3D para armazenamento e compartilhamento eficientes com As
 linktitle: Compacte cenas 3D para armazenamento e compartilhamento eficientes com Aspose.3D para Java
 second_title: API Java Aspose.3D
 description: Aprenda como compactar cenas 3D de forma eficiente com Aspose.3D para Java. Siga nosso guia passo a passo para armazenamento e compartilhamento ideais.
-type: docs
 weight: 11
 url: /pt/java/3d-scenes-and-models/compress-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Compacte cenas 3D para armazenamento e compartilhamento eficientes com Aspose.3D para Java
+
 ## Introdução
 
 Aspose.3D for Java é uma biblioteca versátil que permite aos desenvolvedores trabalhar com cenas, objetos e animações 3D em aplicativos Java. Um de seus recursos de destaque é a capacidade de compactar cenas 3D, reduzindo o tamanho dos arquivos sem comprometer a qualidade. Este tutorial orientará você nas etapas para compactar cenas 3D com eficiência para armazenamento e compartilhamento.
@@ -103,3 +109,10 @@ A3: Sim, você pode acessar uma avaliação gratuita[aqui](https://releases.aspo
 ### P5: Como obtenho uma licença temporária do Aspose.3D para Java?
 
  A5: Siga as etapas[aqui](https://purchase.aspose.com/temporary-license/) para adquirir uma licença temporária.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

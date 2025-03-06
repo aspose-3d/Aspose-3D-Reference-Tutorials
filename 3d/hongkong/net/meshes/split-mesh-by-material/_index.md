@@ -3,10 +3,16 @@ title: 依材質分割網格
 linktitle: 依材質分割網格
 second_title: Aspose.3D .NET API
 description: 學習使用 Aspose.3D for .NET 依材質分割 3D 網格。提高現場組織和效率。開發人員的分步指南。
-type: docs
 weight: 22
 url: /zh-hant/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 依材質分割網格
+
 ## 介紹
 歡迎來到這個關於使用 Aspose.3D for .NET 按材質分割網格的綜合教學！如果您是使用 3D 圖形的開發人員，並且希望有效地管理和操作網格，那麼您來對地方了。在本指南中，我們將探索基於材質分割網格的過程，這是創建多樣化且具有視覺吸引力的 3D 場景的關鍵任務。
 ## 先決條件
@@ -71,3 +77,9 @@ CloneData 策略確保每個子網格共享相同的控制點信息，而 Compac
 是的，您可以使用 Aspose.3D 渲染功能渲染和視覺化產生的子網格。
 ### Q：Aspose.3D適合遊戲開發嗎？
 雖然 Aspose.3D 主要用於建模和渲染，但它可以整合到遊戲開發管道中以執行特定任務。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

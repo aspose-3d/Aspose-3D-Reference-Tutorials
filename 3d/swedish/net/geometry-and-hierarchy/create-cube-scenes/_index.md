@@ -3,10 +3,16 @@ title: Skapa kubscener
 linktitle: Skapa kubscener
 second_title: Aspose.3D .NET API
 description: Skapa fantastiska 3D-kubscener utan ansträngning med Aspose.3D för .NET. Ladda ner biblioteket, följ vår steg-för-steg-guide och släpp lös.
-type: docs
 weight: 12
 url: /sv/net/geometry-and-hierarchy/create-cube-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa kubscener
+
 ## Introduktion
 
 Är du redo att dyka in i den fängslande världen av 3D-design? I den här handledningen guidar vi dig genom processen att skapa fascinerande kubscener med Aspose.3D för .NET. Aspose.3D är ett kraftfullt och mångsidigt bibliotek som ger utvecklare möjlighet att skapa uppslukande 3D-upplevelser sömlöst.
@@ -126,3 +132,9 @@ A2: Absolut! Experimentera med material, färger och texturer för att uppnå di
 ### F5: Hur kan jag få en tillfällig licens för Aspose.3D?
 
  A5: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

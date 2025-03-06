@@ -3,10 +3,16 @@ title: Applying License to Aspose.3D for .NET
 linktitle: Applying License to Aspose.3D for .NET
 second_title: Aspose.3D .NET API
 description: Unlock the power of Aspose.3D for .NET by applying a license seamlessly. Follow our step-by-step guide for a smooth integration experience.
-type: docs
 weight: 10
 url: /net/license/apply-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applying License to Aspose.3D for .NET
+
 ## Introduction
 
 Are you ready to unlock the full potential of Aspose.3D for .NET? Applying a license is your key to accessing advanced features and ensuring seamless integration. In this step-by-step guide, we'll walk you through various methods of applying a license, ensuring a smooth setup process for your Aspose.3D application.
@@ -118,3 +124,10 @@ A4: Find the latest release [here](https://releases.aspose.com/3d/net/).
 ### Q5: How can I purchase a license?
 
 A5: Purchase your license [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

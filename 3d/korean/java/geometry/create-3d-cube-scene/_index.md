@@ -3,10 +3,16 @@ title: Aspose.3D를 사용하여 Java에서 3D 큐브 장면 만들기
 linktitle: Aspose.3D를 사용하여 Java에서 3D 큐브 장면 만들기
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 3D 큐브 장면 그래픽의 경이로움을 탐험해보세요. 멋진 장면을 쉽게 만들어 보세요.
-type: docs
 weight: 12
 url: /ko/java/geometry/create-3d-cube-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D를 사용하여 Java에서 3D 큐브 장면 만들기
+
 ## 소개
 
 Aspose.3D를 사용하여 Java로 만든 매혹적인 3D 그래픽 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 Java용 Aspose.3D를 사용하여 멋진 3D 큐브 장면을 만드는 과정을 안내합니다. Aspose.3D는 3D 모델 및 장면 작업을 위한 포괄적인 기능을 제공하는 강력한 Java 라이브러리입니다.
@@ -105,3 +111,9 @@ System.out.println("\nCube Scene created successfully.\nFile saved at " + MyDir)
 ### Q5: Aspose.3D의 임시 라이센스를 얻는 방법은 무엇입니까?
 
  A5: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

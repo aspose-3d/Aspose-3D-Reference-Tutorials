@@ -3,10 +3,16 @@ title: Optimalkan Penyimpanan File 3D di Java dengan Aspose.3D SaveOptions
 linktitle: Optimalkan Penyimpanan File 3D di Java dengan Aspose.3D SaveOptions
 second_title: Asumsikan.3D Java API
 description: Pelajari cara mengoptimalkan penyimpanan file 3D di Java dengan Aspose.3D SaveOptions. Tingkatkan kinerja dan sesuaikan keluaran dengan mudah.
-type: docs
 weight: 16
 url: /id/java/load-and-save/optimize-3d-file-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optimalkan Penyimpanan File 3D di Java dengan Aspose.3D SaveOptions
+
 ## Perkenalan
 
 Aspose.3D adalah perpustakaan Java kaya fitur yang memberdayakan pengembang untuk bekerja dengan model 3D secara lancar. Dalam hal menyimpan file 3D, kelas SaveOptions menawarkan sejumlah besar pengaturan untuk menyempurnakan output sesuai kebutuhan Anda. Dalam tutorial ini, kita akan menjelajahi berbagai opsi penyimpanan dan bagaimana opsi tersebut dapat dimanfaatkan untuk mengoptimalkan proses.
@@ -119,3 +125,9 @@ A4: Gunakan`setFileSystem(new DummyFileSystem())` metode di`ObjSaveOptions` kela
 ### Q5: Apakah ada cara untuk menyimpan dependensi ke direktori lokal di file OBJ?
 
  A5: Ya, gunakan`setFileSystem(new LocalFileSystem(MyDir))` metode di`ObjSaveOptions` kelas untuk menyimpan dependensi secara lokal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

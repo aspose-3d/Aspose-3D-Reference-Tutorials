@@ -3,10 +3,16 @@ title: 3D 장면의 애니메이션을 위한 대상 및 카메라 설정
 linktitle: 3D 장면의 애니메이션을 위한 대상 및 카메라 설정
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 애니메이션의 마법을 풀어보세요. 이 포괄적인 튜토리얼을 사용하여 타겟과 카메라를 쉽게 설정하세요.
-type: docs
 weight: 11
 url: /ko/net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D 장면의 애니메이션을 위한 대상 및 카메라 설정
+
 ## 소개
 
 대상과 카메라 설정은 모든 3D 애니메이션 프로젝트의 기초를 형성합니다. .NET용 Aspose.3D는 이 프로세스를 간소화하는 강력한 도구 세트를 제공하여 개발자가 창의력을 발휘할 수 있도록 합니다. 이 튜토리얼에서는 단계를 안내하고, 복잡성을 분석하고, 어려워 보이는 작업을 보다 관리하기 쉽게 만듭니다.
@@ -103,3 +109,9 @@ A4: 예, 무료 평가판을 사용해 볼 수 있습니다.[여기](https://rel
 ### Q5: 임시 라이센스는 어떻게 얻나요?
 
  A5: 임시 라이센스 받기[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

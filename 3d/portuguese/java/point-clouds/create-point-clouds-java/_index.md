@@ -3,10 +3,16 @@ title: Crie nuvens de pontos a partir de malhas em Java
 linktitle: Crie nuvens de pontos a partir de malhas em Java
 second_title: API Java Aspose.3D
 description: Explore o mundo da modelagem 3D em Java com Aspose.3D. Aprenda a criar facilmente nuvens de pontos a partir de malhas.
-type: docs
 weight: 12
 url: /pt/java/point-clouds/create-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crie nuvens de pontos a partir de malhas em Java
+
 ## Introdução
 
 Bem-vindo a este tutorial abrangente sobre como criar nuvens de pontos a partir de malhas em Java usando Aspose.3D. Aspose.3D é uma biblioteca Java poderosa que fornece amplas funcionalidades para modelagem e manipulação 3D. Neste tutorial, orientaremos você no processo de geração de nuvens de pontos a partir de malhas, oferecendo etapas claras e detalhadas para uma experiência perfeita.
@@ -83,3 +89,9 @@ Parabéns! Você aprendeu com sucesso como criar nuvens de pontos a partir de ma
 ### P5: Onde posso encontrar a documentação?
 
  A5: Consulte o[documentação](https://reference.aspose.com/3d/java/) para obter informações detalhadas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

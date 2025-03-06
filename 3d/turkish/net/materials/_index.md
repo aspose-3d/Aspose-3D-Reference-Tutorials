@@ -3,10 +3,16 @@ title: Malzemeler
 linktitle: Malzemeler
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET eğitimleriyle büyüleyici 3D sahnelerin dünyasının kilidini açın. Çarpıcı sahneler oluşturmayı ve gömülü dokuları zahmetsizce keşfetmeyi öğrenin.
-type: docs
 weight: 28
 url: /tr/net/materials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Malzemeler
+
 ## giriiş
 
 3D tasarım ve görselleştirmenin heyecan verici dünyasına doğru bir yolculuğa çıkmaya hazır mısınız? Aspose.3D for .NET, yaratıcılığın sınır tanımadığı bir dünyanın kapısını açıyor. Bu makalede, her biri bu güçlü .NET kitaplığının yeni bir yönünün kilidini açan bir dizi eğitimde size rehberlik edeceğiz.
@@ -31,3 +37,9 @@ Aspose.3D for .NET'in potansiyelini bugün ortaya çıkarın. Kitaplığı indir
 Aspose.3D for .NET'i kullanarak gömülü dokularla büyüleyici 3D sahneler oluşturun. Çarpıcı sonuçlar için adım adım kılavuzumuzu izleyin.
 ### [Gömülü Dokuları Atma](./dump-embedded-textures/)
 Aspose.3D for .NET ile 3D modellerdeki gömülü dokuların sırlarını açığa çıkarın. Sorunsuz entegrasyon için adım adım kılavuzumuza göz atın. Şimdi ücretsiz deneme sürümünü indirin!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

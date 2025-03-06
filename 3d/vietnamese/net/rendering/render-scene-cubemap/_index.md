@@ -3,10 +3,16 @@ title: Hiển thị cảnh thành Cubemap với sáu mặt
 linktitle: Hiển thị cảnh thành Cubemap với sáu mặt
 second_title: API Aspose.3D .NET
 description: Tạo các sơ đồ khối tuyệt đẹp với Aspose.3D cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để hiển thị cảnh 3D thành sơ đồ khối sáu mặt quyến rũ.
-type: docs
 weight: 14
 url: /vi/net/rendering/render-scene-cubemap/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị cảnh thành Cubemap với sáu mặt
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước này về cách hiển thị một cảnh thành sơ đồ khối có sáu mặt bằng Aspose.3D cho .NET. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo sơ đồ khối tuyệt đẹp bằng cách hiển thị cảnh 3D. Aspose.3D là một API .NET mạnh mẽ giúp đơn giản hóa thao tác đồ họa 3D và với hướng dẫn này, bạn sẽ khai thác các khả năng của nó để tạo ra các sơ đồ khối quyến rũ.
 ## Điều kiện tiên quyết
@@ -86,3 +92,9 @@ Có, Aspose.3D hỗ trợ nhiều định dạng tệp 3D khác nhau, mang lại
 Tuyệt đối! Aspose.3D hỗ trợ hiển thị cảnh 3D hoạt hình.
 ### Hỏi: Tôi có thể tìm tài liệu chi tiết ở đâu?
  Tham khảo đến[Tài liệu Aspose.3D](https://reference.aspose.com/3d/net/) để biết thông tin chuyên sâu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

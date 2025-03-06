@@ -3,10 +3,16 @@ title: تحويل العقدة بواسطة Quaternion
 linktitle: تحويل العقدة بواسطة Quaternion
 second_title: Aspose.3D.NET API
 description: تعلم كيفية تحويل العقد ثلاثية الأبعاد باستخدام الكواترنيونات باستخدام Aspose.3D لـ .NET. دليل خطوة بخطوة للمبتدئين.
-type: docs
 weight: 20
 url: /ar/net/geometry-and-hierarchy/transformation-node-quaternion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل العقدة بواسطة Quaternion
+
 ## مقدمة
 
 مرحبًا بك في دليل خطوة بخطوة حول تحويل عقدة بواسطة quaternion في مشاهد ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. في هذا البرنامج التعليمي، سنستكشف الإمكانات القوية لـ Aspose.3D لـ .NET ونستعرض عملية إضافة التحويلات إلى عقدة ثلاثية الأبعاد باستخدام الكواترنيونات.
@@ -121,3 +127,10 @@ A1: Quaternions هي كيانات رياضية تستخدم لتمثيل عمل�
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟
 
  ج5: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

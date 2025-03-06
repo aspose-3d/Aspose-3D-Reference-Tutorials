@@ -3,10 +3,16 @@ title: Освоение теней в 3D-рендеринге с помощью 
 linktitle: Отбрасывание и получение теней
 second_title: Aspose.3D .NET API
 description: Исследуйте мир 3D-рендеринга с помощью Aspose.3D для .NET. Отбрасывайте и получайте тени без особых усилий. Загрузите бесплатную пробную версию прямо сейчас!
-type: docs
 weight: 10
 url: /ru/net/rendering/cast-receive-shadows/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение теней в 3D-рендеринге с помощью Aspose.3D для .NET
+
 ## Введение
 Добро пожаловать в мир 3D-рендеринга с помощью Aspose.3D для .NET! В этом уроке мы углубимся в увлекательную сферу отбрасывания и получения теней, важнейший аспект создания реалистичных и визуально потрясающих 3D-сцен. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете свой путь в 3D-графике, это руководство предоставит вам знания и навыки для расширения ваших возможностей рендеринга с помощью Aspose.3D.
 ## Предварительные условия
@@ -69,3 +75,9 @@ scene.Render(camera, "Your Output Directory" + "CastAndReceiveShadow_out.png", n
  О: Да, вы можете найти поддержку и пообщаться с сообществом на[Форум Aspose.3D](https://forum.aspose.com/c/3d/18).
 ### Вопрос: Могу ли я попробовать Aspose.3D перед покупкой?
  А: Абсолютно! Исследуйте библиотеку, воспользовавшись бесплатной пробной версией.[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

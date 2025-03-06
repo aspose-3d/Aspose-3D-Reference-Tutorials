@@ -3,10 +3,16 @@ title: Chỉ định các lát cắt trong ép đùn tuyến tính với Aspose.
 linktitle: Chỉ định các lát cắt trong ép đùn tuyến tính với Aspose.3D cho Java
 second_title: API Java Aspose.3D
 description: Tìm hiểu cách chỉ định các lát cắt trong ép đùn tuyến tính bằng Aspose.3D cho Java. Nâng cao kỹ năng lập mô hình 3D của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 13
 url: /vi/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉ định các lát cắt trong ép đùn tuyến tính với Aspose.3D cho Java
+
 ## Giới thiệu
 
 Việc tạo các mô hình 3D phức tạp thường đòi hỏi nhiều thứ hơn là chỉ có tính sáng tạo; nó đòi hỏi sự hiểu biết thấu đáo về các công cụ mà bạn có thể sử dụng. Aspose.3D cho Java là một công cụ thay đổi cuộc chơi về mặt này. Trong hướng dẫn này, chúng ta sẽ tập trung vào một khía cạnh cụ thể - chỉ định các lát cắt trong ép đùn tuyến tính.
@@ -93,3 +99,9 @@ Chúc mừng! Bạn đã học thành công cách chỉ định các lát cắt 
 ### Câu hỏi 5: Tôi có thể mua giấy phép tạm thời không?
 
  Câu trả lời 5: Có, có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

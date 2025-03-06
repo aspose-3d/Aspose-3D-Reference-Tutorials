@@ -3,10 +3,16 @@ title: Arbeiten mit Netzgeometriedaten
 linktitle: Arbeiten mit Netzgeometriedaten
 second_title: Aspose.3D .NET API
 description: Meistern Sie die Kunst der 3D-Grafikprogrammierung mit Aspose.3D für .NET. Erstellen, bearbeiten und speichern Sie mühelos atemberaubende 3D-Szenen.
-type: docs
 weight: 15
 url: /de/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeiten mit Netzgeometriedaten
+
 ## Einführung
 
 Willkommen in der aufregenden Welt der 3D-Grafikprogrammierung mit Aspose.3D für .NET! In diesem Tutorial befassen wir uns mit den Feinheiten der Arbeit mit Mesh-Geometriedaten in 3D-Szenen mithilfe von Aspose.3D, einer leistungsstarken und vielseitigen Bibliothek für .NET-Entwickler. Egal, ob Sie ein erfahrener Programmierer sind oder gerade erst mit 3D-Grafiken beginnen, diese Schritt-für-Schritt-Anleitung hilft Ihnen, die Kunst des mühelosen Umgangs mit Netzgeometriedaten zu meistern.
@@ -126,3 +132,9 @@ A1: Aspose.3D ist in erster Linie für .NET konzipiert, Sie können jedoch auch 
 ### F5: Welche Dateiformate werden zum Speichern von 3D-Szenen unterstützt?
 
  A5: Aspose.3D unterstützt verschiedene Dateiformate, einschließlich FBX, STL und mehr. Siehe die[Dokumentation](https://reference.aspose.com/3d/net/) für eine vollständige Liste.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

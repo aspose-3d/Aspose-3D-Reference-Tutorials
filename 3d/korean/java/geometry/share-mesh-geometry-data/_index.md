@@ -3,10 +3,16 @@ title: Aspose.3D를 사용하여 Java 3D의 메시 형상 데이터 공유
 linktitle: Aspose.3D를 사용하여 Java 3D의 메시 형상 데이터 공유
 second_title: Aspose.3D 자바 API
 description: Aspose.3D로 Java 3D의 경이로움을 탐험해보세요. 이 포괄적인 튜토리얼에서 노드 간에 메쉬 형상 데이터를 쉽게 공유하는 방법을 알아보세요.
-type: docs
 weight: 15
 url: /ko/java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D를 사용하여 Java 3D의 메시 형상 데이터 공유
+
 ## 소개
 
 Aspose.3D를 사용하여 Java 3D 영역으로의 여행을 시작하면 놀라운 시각화와 몰입형 경험을 만들 수 있는 가능성의 세계가 열립니다. 이 튜토리얼에서는 Aspose.3D를 사용하여 Java 3D에서 메시 형상 데이터를 공유하는 과정을 안내합니다. 각 단계를 주의 깊게 따라가면 결국에는 여러 노드 간에 메시 데이터를 원활하게 교환하게 됩니다.
@@ -117,3 +123,9 @@ A1: 예, Aspose.3D는 다양한 Java 프레임워크와 원활하게 작동하�
 ### Q5: Aspose.3D에 대한 임시 라이선스를 어떻게 얻나요?
 
  A5: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

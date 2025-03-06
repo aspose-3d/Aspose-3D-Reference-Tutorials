@@ -3,10 +3,16 @@ title: एनिमेशन
 linktitle: एनिमेशन
 second_title: Aspose.3D .NET API
 description: .NET ट्यूटोरियल के लिए Aspose.3D के साथ 3D एनिमेशन की दुनिया को अनलॉक करें। संपत्तियों को चेतन करना और गतिशील दृश्यों के लिए आसानी से लक्ष्य और कैमरे सेट करना सीखें।
-type: docs
 weight: 30
 url: /hi/net/animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# एनिमेशन
+
 ## परिचय
 
 .NET के लिए Aspose.3D के साथ 3D एनिमेशन के आकर्षक क्षेत्र में आपका स्वागत है! इस व्यापक गाइड में, हम दो आवश्यक ट्यूटोरियल का पता लगाएंगे जो आपको मनोरम और गतिशील 3डी दृश्य बनाने में सशक्त बनाएंगे। आइए एक साथ इस रोमांचक यात्रा पर चलें!
@@ -37,3 +43,9 @@ url: /hi/net/animation/
 .NET के लिए Aspose.3D के साथ 3D गुणों को एनिमेट करना सीखें। गतिशील दृश्य बनाने के लिए चरण-दर-चरण मार्गदर्शिका।
 ### [3डी दृश्यों में एनिमेशन के लिए लक्ष्य और कैमरे सेट करना](./setup-target-camera/)
 .NET के लिए Aspose.3D के साथ 3D एनिमेशन के जादू को अनलॉक करें। इस व्यापक ट्यूटोरियल का उपयोग करके आसानी से लक्ष्य और कैमरे सेट करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

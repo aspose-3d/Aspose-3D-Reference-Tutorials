@@ -3,10 +3,16 @@ title: Εξαγωγή Point Cloud σε μορφή PLY με Aspose.3D για Java
 linktitle: Εξαγωγή Point Cloud σε μορφή PLY με Aspose.3D για Java
 second_title: Aspose.3D Java API
 description: Εξερευνήστε τη δύναμη του Aspose.3D για Java στην εξαγωγή νέφους σημείων σε μορφή PLY. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ανάπτυξη 3D.
-type: docs
 weight: 13
 url: /el/java/point-clouds/export-point-clouds-ply-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εξαγωγή Point Cloud σε μορφή PLY με Aspose.3D για Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτόν τον περιεκτικό οδηγό για την εξαγωγή των cloud σημείων σε μορφή PLY χρησιμοποιώντας το Aspose.3D για Java. Το Aspose.3D είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία 3D, παρέχοντας μια απρόσκοπτη εμπειρία στη διαχείριση και χειρισμό διαφόρων μορφών 3D. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στην εξαγωγή σύννεφων σημείων στη μορφή PLY, μια μορφή αρχείου που χρησιμοποιείται ευρέως για την αναπαράσταση τρισδιάστατων δεδομένων.
@@ -81,3 +87,9 @@ A1: Το Aspose.3D έχει σχεδιαστεί κυρίως για Java, αλ�
 ### Ε5: Πού μπορώ να αγοράσω το Aspose.3D για Java;
 
  A5: Αγορά Aspose.3D για Java[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aplicando material PBR à caixa
 linktitle: Aplicando material PBR à caixa
 second_title: API Aspose.3D .NET
 description: Explore o mundo dos gráficos 3D com Aspose.3D para .NET. Crie cenas imersivas sem esforço usando materiais de renderização com base física.
-type: docs
 weight: 10
 url: /pt/net/geometry-and-hierarchy/apply-pbr-material-to-box/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicando material PBR à caixa
+
 ## Introdução
 
 Bem-vindo ao fascinante mundo dos gráficos 3D! Neste guia passo a passo, exploraremos a poderosa biblioteca Aspose.3D para .NET e aprenderemos como criar cenas 3D impressionantes usando materiais de renderização baseada em física (PBR). Aspose.3D simplifica o complexo processo de gráficos 3D e abre um mundo de possibilidades para desenvolvedores.
@@ -113,3 +119,9 @@ A2: Com certeza! Aspose.3D fornece licenças comerciais para integração perfei
 ### Q5: Como obtenho uma licença temporária para Aspose.3D?
 
  A5: Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para fins de avaliação.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

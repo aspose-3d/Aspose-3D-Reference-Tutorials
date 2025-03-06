@@ -3,10 +3,16 @@ title: Làm việc với Đám mây điểm trong Java
 linktitle: Làm việc với Đám mây điểm trong Java
 second_title: API Java Aspose.3D
 description: Dễ dàng giải mã, tải, tạo, xuất và hợp lý hóa các đám mây điểm trong Java với các hướng dẫn Aspose.3D. Nâng cao kỹ năng phát triển 3D của bạn từng bước.
-type: docs
 weight: 34
 url: /vi/java/point-clouds/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với Đám mây điểm trong Java
+
 
 ## Giới thiệu
 
@@ -49,3 +55,9 @@ Khám phá thế giới đồ họa 3D với Aspose.3D trong Java. Tìm hiểu c
 Tìm hiểu cách xuất cảnh 3D dưới dạng đám mây điểm trong Java bằng Aspose.3D. Nâng cao ứng dụng của bạn bằng đồ họa và trực quan hóa 3D mạnh mẽ.
 ### [Hợp lý hóa việc xử lý đám mây điểm bằng tính năng xuất PLY trong Java](./ply-export-point-clouds-java/)
 Khám phá cách xử lý đám mây điểm được sắp xếp hợp lý trong Java với Aspose.3D. Tìm hiểu cách xuất tệp PLY một cách dễ dàng. Tăng cường các dự án đồ họa 3D của bạn với hướng dẫn từng bước của chúng tôi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

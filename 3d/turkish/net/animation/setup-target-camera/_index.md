@@ -3,10 +3,16 @@ title: 3B Sahnelerde Animasyon için Hedefleri ve Kameraları Ayarlama
 linktitle: 3B Sahnelerde Animasyon için Hedefleri ve Kameraları Ayarlama
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D animasyonun büyüsünün kilidini açın. Bu kapsamlı eğitimi kullanarak hedefleri ve kameraları zahmetsizce kurun.
-type: docs
 weight: 11
 url: /tr/net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3B Sahnelerde Animasyon için Hedefleri ve Kameraları Ayarlama
+
 ## giriiş
 
 Hedeflerin ve kameraların ayarlanması herhangi bir 3D animasyon projesinin temelini oluşturur. Aspose.3D for .NET, bu süreci kolaylaştırmak için güçlü bir araç seti sunarak geliştiricilerin yaratıcılıklarını ortaya çıkarmalarına olanak tanır. Bu eğitim size adım adım rehberlik edecek, karmaşıklıkları ortadan kaldıracak ve göz korkutucu görünen görevi daha kolay yönetilebilir hale getirecek.
@@ -103,3 +109,9 @@ Cevap4: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://r
 ### S5: Geçici lisansı nasıl edinebilirim?
 
  Cevap5: Geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Primitieve 3D-modellen maken
 linktitle: Primitieve 3D-modellen maken
 second_title: Aspose.3D .NET-API
 description: Ontdek de wereld van 3D-modellering met Aspose.3D voor .NET. Creëer moeiteloos verbluffende primitieve modellen.
-type: docs
 weight: 10
 url: /nl/net/3d-modeling/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Primitieve 3D-modellen maken
+
 ## Invoering
 
 Welkom in de opwindende wereld van 3D-modellering met Aspose.3D voor .NET! In deze uitgebreide tutorial verkennen we stap voor stap het proces van het maken van primitieve 3D-modellen met Aspose.3D. Of u nu een doorgewinterde ontwikkelaar of een nieuwsgierige beginner bent, deze gids helpt u de kracht van Aspose.3D te benutten om visueel verbluffende 3D-elementen voor uw projecten te maken.
@@ -108,3 +114,9 @@ A1: Aspose.3D ondersteunt voornamelijk .NET, maar er zijn andere versies beschik
 ### Vraag 5: Zijn er voorbeeldtutorials beschikbaar?
 
  A5: Ja, bekijk meer tutorials en voorbeelden in de[documentatie](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

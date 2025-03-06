@@ -3,10 +3,16 @@ title: 將 3D 場景渲染為緩衝影像以在 Java 中進行進一步處理
 linktitle: 將 3D 場景渲染為緩衝影像以在 Java 中進行進一步處理
 second_title: Aspose.3D Java API
 description: 探索 Aspose.3D for Java 在將 3D 場景渲染為緩衝影像方面的強大功能。包含先決條件、匯入套件和常見問題解答的逐步指南。
-type: docs
 weight: 12
 url: /zh-hant/java/rendering-3d-scenes/render-to-buffered-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 3D 場景渲染為緩衝影像以在 Java 中進行進一步處理
+
 ## 介紹
 
 歡迎閱讀本逐步指南，了解如何使用 Aspose.3D for Java 將 3D 場景渲染為緩衝影像。 Aspose.3D 是一個功能強大的 Java 函式庫，可讓開發人員處理 3D 檔案和場景，提供多種渲染和處理功能。在本教程中，我們將重點放在將 3D 場景渲染為緩衝影像，從而為在 Java 中進行進一步處理提供了可能性。
@@ -106,3 +112,9 @@ A3：造訪Aspose.3D論壇[這裡](https://forum.aspose.com/c/3d/18)如有任何
 ### Q5：是否有其他可用的渲染選項？
 
  A5：是的，探索 Aspose.3D 文檔[這裡](https://reference.aspose.com/3d/java/)有關渲染選項的全面資訊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

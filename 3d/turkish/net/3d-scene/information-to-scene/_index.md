@@ -3,10 +3,16 @@ title: Sahne Varlıklarından Bilgi Çıkarma
 linktitle: Sahne Varlıklarından Bilgi Çıkarma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D sahnelerinizi zahmetsizce geliştirin. Değerli varlık bilgilerini adım adım eklemeyi öğrenin. Dinamik bir 3D deneyimi için hemen indirin.
-type: docs
 weight: 10
 url: /tr/net/3d-scene/information-to-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sahne Varlıklarından Bilgi Çıkarma
+
 ## giriiş
 
 Değerli bilgiler elde etmek ve 3D sahnelerinizi geliştirmek için Aspose.3D for .NET'in kullanımına ilişkin bu kapsamlı eğitime hoş geldiniz. Aspose.3D, geliştiricilerin .NET uygulamalarında 3D sahneleri sorunsuz bir şekilde işlemesine olanak tanıyan güçlü bir kütüphanedir. Bu eğitimde, bir sahneye varlık bilgisi ekleme gibi çok önemli bir göreve odaklanacağız.
@@ -96,3 +102,9 @@ Cevap1: Aspose.3D öncelikli olarak .NET dillerini destekler ancak diğer diller
 ### S5: Aspose.3D for .NET'in ayrıntılı belgelerini nerede bulabilirim?
 
  A5: Bkz.[dokümantasyon](https://reference.aspose.com/3d/net/) derinlemesine bilgi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

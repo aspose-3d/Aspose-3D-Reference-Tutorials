@@ -3,10 +3,16 @@ title: Java에서 Google Draco를 사용하여 3D 메시 압축
 linktitle: Java에서 Google Draco를 사용하여 3D 메시 압축
 second_title: Aspose.3D 자바 API
 description: Aspose.3D로 3D 애플리케이션을 최적화하세요. Java에서 Google Draco를 사용하여 메시를 압축하는 방법을 알아보세요. 효율적인 3D 개발을 위한 단계별 가이드를 따르십시오.
-type: docs
 weight: 10
 url: /ko/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 Google Draco를 사용하여 3D 메시 압축
+
 ## 소개
 
 Aspose.3D를 사용하여 Java에서 Google Draco로 3D 메시를 압축하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 Aspose.3D의 기능을 활용하여 3D 메시를 효율적으로 압축하는 과정을 안내합니다. 품질 저하 없이 메쉬 크기를 줄여 3D 애플리케이션을 향상시키려는 개발자라면 잘 찾아오셨습니다.
@@ -100,3 +106,9 @@ A1: 예, Aspose.3D는 광범위한 3D 파일 형식을 지원하므로 다양한
 ### Q5: Aspose.3D 지원을 위한 커뮤니티 포럼이 있습니까?
 
  답변 5: 예. 커뮤니티 지원 및 토론을 원하시면 다음 사이트를 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

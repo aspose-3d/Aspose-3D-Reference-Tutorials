@@ -3,10 +3,16 @@ title: 線形押出
 linktitle: 線形押出
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET チュートリアルで 3D の創造性を解き放ちます。線形押し出し技術をマスターし、デザインを強化し、プロジェクトを簡単に向上させます。
-type: docs
 weight: 31
 url: /ja/net/3d-modeling/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 線形押出
+
 ## 導入
 | Explore the dynamic realm of [3D modeling](./center-in-linear-extrusion/) through Aspose.3D for .NET tutorials, focusing on various aspects of linear extrusion. Master the art of [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), and incorporating [twist offsets](./twist-offset-in-linear-extrusion/) in your designs. Each tutorial is a gateway to unlocking new dimensions of creativity in 3D graphics. Dive into the captivating world of Aspose.3D for .NET and unleash your imagination. |
 
@@ -42,3 +48,9 @@ Aspose.3D for .NET を使用して 3D デザインの世界を探索してくだ
 Aspose.3D for .NET を使用して、3D グラフィックスの魅力的な世界を探索してください。ツイストを使用した線形押し出しを段階的に学習します。
 ### [線形押し出しのツイスト オフセット](./twist-offset-in-linear-extrusion/)
 線形押し出しのツイスト オフセットに関するステップバイステップ ガイドで、Aspose.3D for .NET の魅力を探ってください。 3D プロジェクトを簡単にレベルアップします。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

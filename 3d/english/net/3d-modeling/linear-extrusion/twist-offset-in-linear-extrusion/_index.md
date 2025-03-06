@@ -3,10 +3,16 @@ title: Twist Offset in Linear Extrusion
 linktitle: Twist Offset in Linear Extrusion
 second_title: Aspose.3D .NET API
 description: Explore the magic of Aspose.3D for .NET with our step-by-step guide on Twist Offset in Linear Extrusion. Elevate your 3D projects effortlessly.
-type: docs
 weight: 15
 url: /net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Twist Offset in Linear Extrusion
+
 ## Introduction
 
 Welcome to the world of Aspose.3D for .NET, a versatile library empowering developers to handle 3D manipulation with ease. In this tutorial, we will delve into one of the intriguing features - the "Twist Offset in Linear Extrusion." If you're ready to elevate your 3D programming skills, let's dive right in!
@@ -112,3 +118,10 @@ A4: Explore the [documentation](https://reference.aspose.com/3d/net/) for extens
 ### Q5: Where can I purchase Aspose.3D for .NET?
 
 A5: Head to [this link](https://purchase.aspose.com/buy) to make a purchase and unlock the full potential of Aspose.3D.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

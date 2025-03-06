@@ -3,10 +3,16 @@ title: Java에서 3D 메쉬용 데이터 생성(법선, 접선, 종법선)
 linktitle: Java에서 3D 메쉬용 데이터 생성(법선, 접선, 종법선)
 second_title: Aspose.3D 자바 API
 description: Aspose.3D로 Java 프로젝트를 강화하세요. 3D 메쉬에 대한 일반 데이터를 쉽게 생성하려면 튜토리얼을 따르십시오. 3D 그래픽을 쉽게 즐겨보세요.
-type: docs
 weight: 11
 url: /ko/java/3d-mesh-data/generate-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 3D 메쉬용 데이터 생성(법선, 접선, 종법선)
+
 ## 소개
 
 Java에서 3D 메시 데이터를 생성하고 조작하는 것은 까다로우면서도 흥미로운 작업이 될 수 있습니다. 특히 필수적인 일반 데이터가 부족한 파일을 처리할 때 더욱 그렇습니다. Java용 Aspose.3D가 구출되어 3D 그래픽과 메시를 효율적으로 처리하기 위한 강력한 툴킷을 제공합니다. 이 튜토리얼에서는 Java에서 Aspose.3D를 사용하여 3D 메쉬에 대한 일반 데이터를 생성하는 과정을 안내합니다.
@@ -95,3 +101,9 @@ A1: 예, Aspose.3D는 다양한 3D 파일 형식을 지원하여 프로젝트의
 ### Q5: 도움이 필요하거나 커뮤니티와 연결하고 싶으십니까?
 
  A5: Aspose.3D 포럼을 방문하세요.[여기](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

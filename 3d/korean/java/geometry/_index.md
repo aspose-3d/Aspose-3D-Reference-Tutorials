@@ -3,10 +3,16 @@ title: Java에서 3D 기하학 작업
 linktitle: Java에서 3D 기하학 작업
 second_title: Aspose.3D 자바 API
 description: 3D 형상 작업에 대한 Java 자습서용 Aspose.3D를 살펴보세요. PBR 자료, 쿼터니언 회전, 큐브 장면 등을 마스터하세요. Java 3D 그래픽을 향상시키십시오.
-type: docs
 weight: 21
 url: /ko/java/geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 3D 기하학 작업
+
 ## 소개
 Java용 Aspose.3D를 사용하여 3D 그래픽의 매혹적인 영역을 탐구할 준비가 되셨습니까? 우리의 튜토리얼은 다양한 주제를 다루며 강력하고 시각적으로 놀라운 3D 요소로 Java 애플리케이션을 향상시킬 수 있도록 지원합니다. 이 여정을 단계별로 시작해 보겠습니다.
 
@@ -89,3 +95,9 @@ Aspose.3D를 사용하여 Java에서 3D 변환의 세계를 탐험해보세요. 
 Aspose.3D를 사용하여 Java에서 3D 그래픽의 세계를 탐험해보세요. 변환 행렬을 사용하여 손쉽게 노드를 변환하는 방법을 알아보세요.
 ### [Aspose.3D를 사용하여 Java에서 최적화된 렌더링을 위한 메시 삼각 측량](./triangulate-meshes-for-optimized-rendering/)
 Aspose.3D를 사용하여 Java에서 3D 렌더링 효율성을 높이는 방법을 알아보세요. 최적의 성능을 위해 메시를 삼각측량합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

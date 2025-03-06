@@ -3,10 +3,16 @@ title: Truy xuất thông tin từ Cảnh 3D trong Ứng dụng Java
 linktitle: Truy xuất thông tin từ Cảnh 3D trong Ứng dụng Java
 second_title: API Java Aspose.3D
 description: Khám phá thế giới thao tác cảnh 3D trong Java với Aspose.3D. Hướng dẫn này hướng dẫn bạn cách lấy thông tin từng bước.
-type: docs
 weight: 12
 url: /vi/java/3d-scenes-and-models/get-scene-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy xuất thông tin từ Cảnh 3D trong Ứng dụng Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách truy xuất thông tin từ cảnh 3D trong ứng dụng Java bằng Aspose.3D. Nếu bạn là nhà phát triển Java đang tìm cách nâng cao khả năng của ứng dụng bằng thao tác với cảnh 3D thì bạn đã đến đúng nơi. Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo bạn nắm bắt kỹ lưỡng từng khái niệm.
@@ -99,3 +105,9 @@ A2: Chắc chắn rồi. Aspose.3D cung cấp giấy phép thương mại cho nh
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.3D?
 
  A5: Nhận giấy phép tạm thời cho mục đích thử nghiệm[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

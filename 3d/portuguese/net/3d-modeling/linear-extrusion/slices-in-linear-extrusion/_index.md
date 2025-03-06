@@ -3,10 +3,16 @@ title: Fatias em Extrusão Linear
 linktitle: Fatias em Extrusão Linear
 second_title: API Aspose.3D .NET
 description: Explore o mundo do design 3D com Aspose.3D para .NET. Crie modelos impressionantes usando nosso tutorial de extrusão linear.
-type: docs
 weight: 13
 url: /pt/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fatias em Extrusão Linear
+
 ## Introdução
 
 Bem-vindo ao mundo do design 3D usando Aspose.3D para .NET! Quer você seja um desenvolvedor experiente ou esteja apenas começando, este tutorial irá guiá-lo através do processo de criação de visualizações 3D impressionantes usando a poderosa biblioteca Aspose.3D.
@@ -116,3 +122,9 @@ A1: Aspose.3D foi projetado principalmente para .NET, mas você pode explorar op
 ### Q5: Posso usar uma licença temporária para Aspose.3D for .NET?
 
  A5: Sim, obtenha uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para fins de avaliação.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

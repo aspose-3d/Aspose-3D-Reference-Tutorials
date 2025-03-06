@@ -3,10 +3,16 @@ title: Κωδικοποίηση σκηνής ως Point Cloud
 linktitle: Κωδικοποίηση σκηνής ως Point Cloud
 second_title: Aspose.3D .NET API
 description: Εξερευνήστε τον κόσμο της τρισδιάστατης μοντελοποίησης στο .NET με το Aspose.3D. Μάθετε να κωδικοποιείτε σφαίρες σε σύννεφα σημείων χωρίς κόπο. Απελευθερώστε τη δημιουργικότητά σας τώρα!
-type: docs
 weight: 14
 url: /el/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κωδικοποίηση σκηνής ως Point Cloud
+
 ## Εισαγωγή
 Καλώς ορίσατε σε αυτόν τον περιεκτικό οδηγό για την κωδικοποίηση μιας σφαίρας ως σύννεφο σημείου χρησιμοποιώντας το Aspose.3D για .NET. Το Aspose.3D είναι μια ισχυρή και ευέλικτη βιβλιοθήκη που δίνει τη δυνατότητα στους προγραμματιστές να εργάζονται με τρισδιάστατα μοντέλα απρόσκοπτα στις εφαρμογές τους .NET. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία κωδικοποίησης μιας σφαίρας σε ένα νέφος σημείων χρησιμοποιώντας το Aspose.3D.
 ## Προαπαιτούμενα
@@ -60,3 +66,9 @@ FileFormat.Draco.Encode(sphere, outputPath + outputFileName, saveOptions);
  Επισκεφτείτε το φόρουμ Aspose.3D[εδώ](https://forum.aspose.com/c/3d/18) για κοινοτική υποστήριξη και συζητήσεις.
 ### Χρειάζομαι προσωρινή άδεια για δοκιμές;
  Ναι, εάν δοκιμάζετε τη βιβλιοθήκη, μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

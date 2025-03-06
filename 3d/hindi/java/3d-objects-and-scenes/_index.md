@@ -3,10 +3,16 @@ title: जावा में 3D ऑब्जेक्ट और दृश्य
 linktitle: जावा में 3D ऑब्जेक्ट और दृश्यों में हेरफेर करना
 second_title: Aspose.3D जावा एपीआई
 description: Aspose.3D ट्यूटोरियल के साथ जावा 3D प्रोग्रामिंग की दुनिया को अनलॉक करें। निर्बाध 3डी विकास के लिए गोलाकार त्रिज्या को संशोधित करना और XPath जैसी क्वेरीज़ को सहजता से लागू करना सीखें।
-type: docs
 weight: 33
 url: /hi/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में 3D ऑब्जेक्ट और दृश्यों में हेरफेर करना
+
 ## परिचय
 
 जावा 3D प्रोग्रामिंग Aspose.3D ट्यूटोरियल के साथ एक मनोरम यात्रा बन जाती है, जो 3D ऑब्जेक्ट और दृश्यों में हेरफेर करने पर केंद्रित है। इस लेख में, हम दो आवश्यक ट्यूटोरियल्स पर चर्चा करेंगे जो आपके 3डी विकास कौशल को उन्नत करने का वादा करते हैं।
@@ -27,3 +33,9 @@ Aspose.3D के साथ जावा 3D प्रोग्रामिंग 
 Aspose.3D के साथ जावा 3D प्रोग्रामिंग का अन्वेषण करें, आसानी से गोले की त्रिज्या को संशोधित करें। निर्बाध 3डी विकास अनुभव के लिए अभी डाउनलोड करें।
 ### [जावा में 3डी ऑब्जेक्ट पर XPath-जैसी क्वेरीज़ लागू करें](./xpath-like-object-queries/)
 Aspose.3D के साथ जावा में 3D ऑब्जेक्ट क्वेरीज़ को आसानी से मास्टर करें। XPath-जैसी क्वेरीज़ लागू करें, दृश्यों में हेरफेर करें और अपने 3D विकास को उन्नत करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

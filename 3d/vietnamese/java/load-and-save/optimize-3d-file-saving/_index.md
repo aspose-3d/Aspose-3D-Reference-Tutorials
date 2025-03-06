@@ -3,10 +3,16 @@ title: Tối ưu hóa việc lưu tệp 3D trong Java với Aspose.3D SaveOption
 linktitle: Tối ưu hóa việc lưu tệp 3D trong Java với Aspose.3D SaveOptions
 second_title: API Java Aspose.3D
 description: Tìm hiểu cách tối ưu hóa việc lưu tệp 3D trong Java với Aspose.3D SaveOptions. Nâng cao hiệu suất và tùy chỉnh đầu ra một cách dễ dàng.
-type: docs
 weight: 16
 url: /vi/java/load-and-save/optimize-3d-file-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tối ưu hóa việc lưu tệp 3D trong Java với Aspose.3D SaveOptions
+
 ## Giới thiệu
 
 Aspose.3D là một thư viện Java giàu tính năng cho phép các nhà phát triển làm việc liền mạch với các mô hình 3D. Khi nói đến việc lưu tệp 3D, lớp SaveOptions cung cấp rất nhiều cài đặt để tinh chỉnh đầu ra theo yêu cầu của bạn. Trong hướng dẫn này, chúng ta sẽ khám phá các tùy chọn lưu khác nhau và cách tận dụng chúng để tối ưu hóa quy trình.
@@ -119,3 +125,9 @@ A4: Sử dụng`setFileSystem(new DummyFileSystem())` phương pháp trong`ObjSa
 ### Câu hỏi 5: Có cách nào để lưu các phần phụ thuộc vào thư mục cục bộ trong tệp OBJ không?
 
  Câu trả lời 5: Có, hãy sử dụng`setFileSystem(new LocalFileSystem(MyDir))` phương pháp trong`ObjSaveOptions` class để lưu các phụ thuộc cục bộ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 將 3D 場景儲存到 FBX 文件
 linktitle: 將 3D 場景儲存到 FBX 文件
 second_title: Aspose.3D .NET API
 description: 探索 Aspose.3D for .NET 的強大功能。用於無縫 3D 場景操作的多功能函式庫。輕鬆載入、儲存和壓縮。
-type: docs
 weight: 20
 url: /zh-hant/net/loading-and-saving/fbx/save-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 3D 場景儲存到 FBX 文件
+
 ## 介紹
 
 歡迎來到使用 Aspose.3D for .NET 進行 3D 場景操作領域的令人興奮的旅程！無論您是經驗豐富的開發人員還是好奇的愛好者，本教學都將引導您輕鬆完成載入、儲存和壓縮 3D 場景的過程。
@@ -104,3 +110,9 @@ A2：當然！ Aspose.3D 與其他 .NET 函式庫無縫集成，增強了應用�
 ### Q5：Aspose.3D 有免費試用版嗎？
 
  A5：是的，透過抓住您的[免費試用](https://releases.aspose.com/)今天！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

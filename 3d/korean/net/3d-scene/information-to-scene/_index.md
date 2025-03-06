@@ -3,10 +3,16 @@ title: 장면 자산에 대한 정보 추출
 linktitle: 장면 자산에 대한 정보 추출
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 장면을 손쉽게 향상하세요. 귀중한 자산 정보를 단계별로 추가하는 방법을 알아보세요. 지금 다운로드하여 역동적인 3D 경험을 즐겨보세요.
-type: docs
 weight: 10
 url: /ko/net/3d-scene/information-to-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 장면 자산에 대한 정보 추출
+
 ## 소개
 
 .NET용 Aspose.3D를 사용하여 귀중한 정보를 추출하고 3D 장면을 향상시키는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.3D는 개발자가 .NET 애플리케이션 내에서 3D 장면을 원활하게 조작할 수 있도록 지원하는 강력한 라이브러리입니다. 이 튜토리얼에서는 장면에 자산 정보를 추가하는 중요한 작업에 중점을 둘 것입니다.
@@ -96,3 +102,9 @@ A1: Aspose.3D는 주로 .NET 언어를 지원하지만 다른 언어에 대한 �
 ### Q5: .NET용 Aspose.3D에 대한 자세한 문서는 어디에서 찾을 수 있습니까?
 
  A5: 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/3d/net/) 자세한 정보를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Сохранение 3D-сетей в пользовательском д
 linktitle: Сохранение 3D-сетей в пользовательском двоичном формате
 second_title: Aspose.3D .NET API
 description: Исследуйте мир 3D с помощью Aspose.3D для .NET. Научитесь сохранять сетки в пользовательском двоичном формате.
-type: docs
 weight: 13
 url: /ru/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохранение 3D-сетей в пользовательском двоичном формате
+
 ## Введение
 
 Добро пожаловать в мир Aspose.3D для .NET, мощной библиотеки, которая позволяет разработчикам легко работать с 3D-файлами. В этом уроке мы углубимся в процесс сохранения 3D-сеток в пользовательском двоичном формате с использованием Aspose.3D для .NET. В этом руководстве предполагается, что у вас есть базовые знания C# и вы знакомы с библиотекой Aspose.3D.
@@ -142,3 +148,9 @@ triMesh.Write16bIndicesTo(writer.BaseStream);
 ### Вопрос 5: Могу ли я приобрести Aspose.3D для .NET?
 
  О5: Да, вы можете купить Aspose.3D на сайте[страница покупки](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

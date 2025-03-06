@@ -3,10 +3,16 @@ title: Membangun Model 3D Primitif dengan Aspose.3D untuk Java
 linktitle: Membangun Model 3D Primitif dengan Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Temukan seni pemodelan 3D dengan Aspose.3D untuk Java. Belajar membuat model 3D primitif dengan mudah dan bebaskan kreativitas Anda.
-type: docs
 weight: 10
 url: /id/java/primitive-3d-models/building-primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membangun Model 3D Primitif dengan Aspose.3D untuk Java
+
 ## Perkenalan
 
 Membuat model 3D secara terprogram bisa menjadi tugas yang menakutkan, namun dengan Aspose.3D untuk Java, prosesnya menjadi proses yang menyenangkan dan mudah. Tutorial ini bertujuan untuk membantu Anda memulai membuat model 3D primitif, dengan fokus pada kesederhanaan dan efektivitas.
@@ -88,3 +94,9 @@ A2: Tentu saja! Aspose.3D menyediakan serangkaian fitur yang komprehensif, sehin
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
 
  A5: Anda dapat memperoleh a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk Aspose.3D melalui situs web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

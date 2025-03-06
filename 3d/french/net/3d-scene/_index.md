@@ -3,10 +3,16 @@ title: Scène 3D
 linktitle: Scène 3D
 second_title: API Aspose.3D .NET
 description: Explorez les didacticiels Aspose.3D pour .NET sur la modification de l'orientation du plan, l'exportation de scènes au format AMF compressé, l'inversion des systèmes de coordonnées et bien plus encore.
-type: docs
 weight: 21
 url: /fr/net/3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Scène 3D
+
 ## Introduction
 
 Bienvenue dans le monde d'Aspose.3D pour .NET, où la créativité rencontre la précision. Dans cette série de didacticiels, nous approfondissons les subtilités de la manipulation de scènes 3D, en proposant des guides étape par étape pour améliorer vos prouesses en matière de développement.
@@ -37,3 +43,9 @@ Plongez-vous dans le didacticiel Aspose.3D pour .NET sur la définition des prop
 [Lisez le didacticiel : Définition des propriétés tridimensionnelles dans les scènes 3D](./set-3d-properties/)
 
 En conclusion, la série de didacticiels Aspose.3D pour .NET ouvre les portes d'un royaume de possibilités. Chaque didacticiel fournit des informations pratiques, vous permettant de naviguer en toute confiance dans les complexités de la manipulation de scènes 3D. Que vous soyez un développeur chevronné ou débutant, ces guides vous permettent de libérer tout le potentiel d'Aspose.3D pour .NET dans vos projets. Plongez et laissez votre créativité s'envoler dans l'espace tridimensionnel !
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

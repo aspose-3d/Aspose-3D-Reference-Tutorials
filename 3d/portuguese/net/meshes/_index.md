@@ -3,10 +3,16 @@ title: Malhas
 linktitle: Malhas
 second_title: API Aspose.3D .NET
 description: Desvende os segredos do Aspose.3D for .NET com nossos tutoriais abrangentes. Otimize modelos 3D, converta primitivos em malhas e aprimore gráficos sem esforço.
-type: docs
 weight: 26
 url: /pt/net/meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Malhas
+
 ## Introdução
 
 Aspose.3D for .NET abre um mundo de possibilidades para desenvolvedores que buscam mergulhar nas complexidades das malhas 3D. Neste artigo, guiaremos você por vários tutoriais de malhas, cada um oferecendo uma perspectiva única sobre como aproveitar todo o potencial do Aspose.3D para .NET.
@@ -69,3 +75,9 @@ Domine a arte de dividir malhas 3D por material com Aspose.3D para .NET. Melhore
 [Leia o tutorial: Dividir malha por material](./split-mesh-by-material/)
 
 Concluindo, nossos tutoriais Aspose.3D for .NET oferecem um guia abrangente para dominar vários aspectos da modelagem 3D. Mergulhe, aprimore suas habilidades e eleve seu jogo de desenvolvimento 3D!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

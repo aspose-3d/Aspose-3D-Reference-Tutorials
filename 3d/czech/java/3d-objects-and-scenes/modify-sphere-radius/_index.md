@@ -3,10 +3,16 @@ title: Upravte poloměr 3D sféry v Javě pomocí Aspose.3D
 linktitle: Upravte poloměr 3D sféry v Javě pomocí Aspose.3D
 second_title: Aspose.3D Java API
 description: Prozkoumejte programování Java 3D s Aspose.3D a bez námahy upravte poloměr koule. Stáhněte si nyní pro bezproblémový 3D vývoj.
-type: docs
 weight: 10
 url: /cs/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Upravte poloměr 3D sféry v Javě pomocí Aspose.3D
+
 ## Úvod
 
 Vítejte v našem podrobném průvodci úpravou poloměru 3D koule pomocí Aspose.3D for Java. Aspose.3D je výkonná Java knihovna, která umožňuje vývojářům pracovat s 3D soubory a bezproblémově s nimi manipulovat. V tomto tutoriálu se zaměříme na změnu poloměru 3D koule pomocí praktických příkladů a podrobných vysvětlení.
@@ -103,3 +109,9 @@ Gratulujeme! Úspěšně jste upravili poloměr 3D koule pomocí Aspose.3D for J
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.3D?
 
  A5: Dočasnou licenci můžete získat návštěvou[Dočasná licence](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

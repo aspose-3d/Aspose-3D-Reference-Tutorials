@@ -3,10 +3,16 @@ title: Zapisuj siatki 3D w niestandardowych formatach binarnych, aby zapewnić e
 linktitle: Zapisuj siatki 3D w niestandardowych formatach binarnych, aby zapewnić elastyczność w Javie
 second_title: Aspose.3D API Java
 description: Dowiedz się, jak zapisywać siatki 3D w niestandardowych formatach binarnych przy użyciu Aspose.3D dla Java. Zwiększ elastyczność aplikacji Java dzięki temu samouczkowi krok po kroku.
-type: docs
 weight: 13
 url: /pl/java/3d-scenes-and-models/save-custom-mesh-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisuj siatki 3D w niestandardowych formatach binarnych, aby zapewnić elastyczność w Javie
+
 ## Wstęp
 
 Witamy w tym samouczku krok po kroku dotyczącym zapisywania siatek 3D w niestandardowych formatach binarnych, zapewniających elastyczność w Javie przy użyciu Aspose.3D. W tym przewodniku przeprowadzimy Cię przez proces konwertowania siatek 3D i zapisywania ich w niestandardowym formacie binarnym, aby zwiększyć elastyczność i interoperacyjność aplikacji Java.
@@ -124,3 +130,9 @@ O4: Dokumentacja Aspose.3D może zawierać przykładowe modele lub modele 3D mo�
 ### P5: Czy mogę bardziej dostosować format binarny do konkretnych wymagań?
 
 Odpowiedź 5: Oczywiście, możesz dostosować format binarny do specyficznych potrzeb swojej aplikacji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

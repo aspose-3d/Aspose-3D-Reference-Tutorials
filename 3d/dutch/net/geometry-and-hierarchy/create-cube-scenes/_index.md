@@ -3,10 +3,16 @@ title: Kubusscènes maken
 linktitle: Kubusscènes maken
 second_title: Aspose.3D .NET-API
 description: Maak moeiteloos verbluffende 3D-kubusscènes met Aspose.3D voor .NET. Download de bibliotheek, volg onze stapsgewijze handleiding en ga los.
-type: docs
 weight: 12
 url: /nl/net/geometry-and-hierarchy/create-cube-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kubusscènes maken
+
 ## Invoering
 
 Ben je klaar om in de boeiende wereld van 3D-ontwerp te duiken? In deze zelfstudie begeleiden we u bij het maken van betoverende kubusscènes met Aspose.3D voor .NET. Aspose.3D is een krachtige en veelzijdige bibliotheek waarmee ontwikkelaars naadloos meeslepende 3D-ervaringen kunnen creëren.
@@ -126,3 +132,9 @@ A2: Absoluut! Experimenteer met materialen, kleuren en texturen om de gewenste l
 ### V5: Hoe kan ik een tijdelijke licentie voor Aspose.3D verkrijgen?
 
  A5: Schaf een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Trung tâm điều khiển trong ép đùn tuyến tính với Aspose.3D 
 linktitle: Trung tâm điều khiển trong ép đùn tuyến tính với Aspose.3D cho Java
 second_title: API Java Aspose.3D
 description: Khám phá thế giới đồ họa 3D trong Java với Aspose.3D. Kiểm soát trung tâm trong quá trình đùn tuyến tính một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/linear-extrusion/controlling-center/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trung tâm điều khiển trong ép đùn tuyến tính với Aspose.3D cho Java
+
 ## Giới thiệu
 
 Trong thế giới đồ họa 3D và lập trình Java, việc kiểm soát trung tâm ép đùn tuyến tính đóng một vai trò quan trọng trong việc đạt được hiệu quả mong muốn trong các dự án của bạn. Aspose.3D cho Java cung cấp bộ công cụ mạnh mẽ để xử lý các tác vụ như vậy một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình điều khiển trung tâm trong ép đùn tuyến tính bằng Aspose.3D cho Java, chia nhỏ từng bước để đảm bảo sự hiểu biết suôn sẻ và toàn diện.
@@ -126,3 +132,9 @@ Câu trả lời 4: Có, nếu bạn yêu cầu giấy phép tạm thời cho m�
 ### Câu 5: Tôi có thể tìm tài liệu ở đâu?
 
  Câu trả lời 5: Tài liệu về Aspose.3D dành cho Java hiện có sẵn[đây](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

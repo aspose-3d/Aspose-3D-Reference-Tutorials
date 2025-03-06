@@ -3,10 +3,16 @@ title: Pengkodean Mesh 3D dalam Format Google Draco
 linktitle: Mengkodekan Mesh 3D di Draco
 second_title: Aspose.3D .NET API
 description: Jelajahi pengkodean mesh 3D yang mudah dalam format Google Draco menggunakan Aspose.3D untuk .NET. Ikuti panduan langkah demi langkah kami. Efisien, kuat, dan ramah pengembang!
-type: docs
 weight: 19
 url: /id/net/loading-and-saving/draco/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengkodean Mesh 3D dalam Format Google Draco
+
 ## Perkenalan
 Jika Anda mendalami dunia grafik 3D dan ingin mengompresi data mesh 3D secara efisien, tidak perlu mencari lagi. Dalam tutorial ini, kami akan memandu Anda melalui proses pengkodean mesh 3D ke dalam format Google Draco menggunakan Aspose.3D untuk .NET. Pustaka yang kuat ini memberdayakan pengembang untuk bekerja secara lancar dengan format file 3D dan melakukan berbagai operasi, termasuk pengkodean mesh.
 ## Prasyarat
@@ -58,3 +64,9 @@ Aspose.3D terutama dirancang untuk .NET, tetapi Aspose menyediakan perpustakaan 
 Lisensi sementara memungkinkan Anda mengevaluasi versi lengkap Aspose.3D untuk waktu terbatas.
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.3D untuk .NET?
  Mengacu kepada[dokumentasi](https://reference.aspose.com/3d/net/) untuk informasi yang komprehensif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

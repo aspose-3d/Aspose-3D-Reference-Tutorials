@@ -3,10 +3,16 @@ title: Przesunięcie skrętu w wytłaczaniu liniowym
 linktitle: Przesunięcie skrętu w wytłaczaniu liniowym
 second_title: Aspose.3D API .NET
 description: Odkryj magię Aspose.3D dla .NET dzięki naszemu przewodnikowi krok po kroku na temat przesunięcia skrętu w wytłaczaniu liniowym. Podnieś poziom swoich projektów 3D bez wysiłku.
-type: docs
 weight: 15
 url: /pl/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przesunięcie skrętu w wytłaczaniu liniowym
+
 ## Wstęp
 
 Witamy w świecie Aspose.3D dla .NET, wszechstronnej biblioteki umożliwiającej programistom łatwą obsługę manipulacji 3D. W tym samouczku zagłębimy się w jedną z intrygujących funkcji - „Przesunięcie skrętu w wytłaczaniu liniowym”. Jeśli jesteś gotowy, aby podnieść swoje umiejętności programowania 3D, przejdźmy do rzeczy!
@@ -112,3 +118,9 @@ Odpowiedź 1: Aspose.3D obsługuje głównie języki .NET, ale Aspose udostępni
 ### P5: Gdzie mogę kupić Aspose.3D dla .NET?
 
  A5: Udaj się do[ten link](https://purchase.aspose.com/buy) aby dokonać zakupu i odblokować pełny potencjał Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

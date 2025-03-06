@@ -3,10 +3,16 @@ title: Java의 3D 개체에 XPath와 유사한 쿼리 적용
 linktitle: Java의 3D 개체에 XPath와 유사한 쿼리 적용
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하면 Java에서 손쉽게 3D 객체 쿼리를 마스터할 수 있습니다. XPath와 같은 쿼리를 적용하고, 장면을 조작하고, 3D 개발 수준을 높이세요.
-type: docs
 weight: 11
 url: /ko/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java의 3D 개체에 XPath와 유사한 쿼리 적용
+
 ## 소개
 
 Java에서 3D 모델링 및 장면 조작 영역을 탐구하는 것은 어려운 작업일 수 있지만 두려워하지 마세요! Aspose.3D for Java는 3D 개체를 처리하기 위한 강력한 솔루션을 제공하므로 개발자에게 귀중한 도구입니다. 이 튜토리얼에서는 Aspose.3D를 사용하여 Java의 3D 객체에 XPath와 같은 쿼리를 적용하는 방법을 안내합니다.
@@ -99,3 +105,9 @@ obj = (A3DObject) s.getRootNode().selectSingleObject("/");
 ### Q5: 임시 라이센스가 필요합니까?
 
  A5: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nézőablakok rögzítése 3D-s jelenetekben
 linktitle: Nézőablakok rögzítése 3D-s jelenetekben
 second_title: Aspose.3D .NET API
 description: Tanuljon meg lenyűgöző 3D-s nézetablakokat rögzíteni az Aspose.3D for .NET használatával. Lépésről lépésre szóló útmutató a jelenetek rugalmas megjelenítéséhez.
-type: docs
 weight: 11
 url: /hu/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nézőablakok rögzítése 3D-s jelenetekben
+
 ## Bevezetés
 
 A 3D-s grafika és vizualizáció területén a nézetablak rögzítése elengedhetetlen készség, amely javítja a jelenetek mélységét és részletességét. Az Aspose.3D for .NET robusztus megoldást kínál a 3D jelenetek megjelenítésére és manipulálására. Ez az oktatóanyag végigvezeti Önt a nézetablakok rögzítésének folyamatán 3D jelenetekben az Aspose.3D segítségével, lehetővé téve, hogy könnyedén készítsen lenyűgöző vizualizációkat.
@@ -124,3 +130,9 @@ Ebben az oktatóanyagban megvizsgáltuk a nézetablak rögzítésének folyamat�
 ### 5. kérdés: Hogyan kérhetek segítséget vagy vehetek részt a közösségben?
 
  5. válasz: Csatlakozzon az Aspose.3D közösséghez a[támogatói fórum](https://forum.aspose.com/c/3d/18) segítségért és együttműködésért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

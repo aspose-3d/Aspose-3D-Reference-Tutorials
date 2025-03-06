@@ -3,10 +3,16 @@ title: فهم التسلسل الهرمي للعقدة
 linktitle: فهم التسلسل الهرمي للعقدة
 second_title: Aspose.3D.NET API
 description: أطلق العنان لقوة Aspose.3D لـ .NET! انغمس في التعامل مع التسلسل الهرمي للعقدة باستخدام هذا الدليل المفصّل خطوة بخطوة. قم بإنشاء مشاهد ثلاثية الأبعاد مذهلة دون عناء.
-type: docs
 weight: 16
 url: /ar/net/geometry-and-hierarchy/node-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# فهم التسلسل الهرمي للعقدة
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.3D for .NET، وهي مكتبة قوية تمكّن المطورين من العمل بسلاسة مع المشاهد والنماذج ثلاثية الأبعاد في تطبيقات .NET الخاصة بهم. في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات فهم التسلسل الهرمي للعقدة في المشاهد ثلاثية الأبعاد باستخدام Aspose.3D. بحلول نهاية هذا الدليل، سيكون لديك فهم قوي لكيفية التعامل مع بنية المشاهد ثلاثية الأبعاد من خلال العقد، مما يتيح لك إنشاء تجارب بصرية مذهلة.
@@ -129,3 +135,9 @@ Console.WriteLine("\nNode hierarchy added successfully to document.\nFile saved 
 ### س5: ما الفرق بين الترخيص المؤقت والترخيص الكامل؟
 
 ج5: يوفر الترخيص المؤقت وصولاً قصير المدى لأغراض التقييم، بينما يوفر الترخيص الكامل استخدامًا غير مقيد.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

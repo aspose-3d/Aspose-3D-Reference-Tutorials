@@ -3,10 +3,16 @@ title: Hỗ trợ PLY
 linktitle: Hỗ trợ PLY
 second_title: API Aspose.3D .NET
 description: Aspose.3D hỗ trợ liền mạch định dạng PLY, tạo điều kiện nhập và xuất mô hình 3D suôn sẻ cho các trường hợp sử dụng linh hoạt.
-type: docs
 weight: 27
 url: /vi/net/loading-and-saving/ply
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hỗ trợ PLY
+
 ## Giới thiệu
 
 Trong loạt bài hướng dẫn này, chúng ta sẽ khám phá sự phức tạp của việc hỗ trợ glTF trong Aspose.3D, mở ra một thế giới khả năng sáng tạo.
@@ -30,3 +36,9 @@ Aspose.3D cung cấp khả năng mã hóa các mắt lưới dưới dạng đá
 Bắt tay vào cuộc hành trình với những khả năng vô hạn với Aspose.3D cho .NET. Cho dù bạn là người mới hay nhà phát triển có kinh nghiệm, các hướng dẫn của chúng tôi đều phục vụ mọi cấp độ kỹ năng. Chuyển đổi trải nghiệm lập mô hình 3D của bạn - khám phá, sáng tạo và đổi mới với Aspose.3D cho .NET.
 
 Sẵn sàng nâng cao kỹ năng lập mô hình 3D của bạn? Bắt đầu khám phá các hướng dẫn. Giải phóng toàn bộ tiềm năng của Aspose.3D cho .NET và tạo ra những kiệt tác 3D của bạn một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

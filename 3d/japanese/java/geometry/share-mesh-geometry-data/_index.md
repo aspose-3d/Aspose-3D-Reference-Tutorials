@@ -3,10 +3,16 @@ title: Aspose.3D を使用して Java 3D のメッシュ ジオメトリ デー�
 linktitle: Aspose.3D を使用して Java 3D のメッシュ ジオメトリ データを共有する
 second_title: Aspose.3D Java API
 description: Aspose.3D で Java 3D の素晴らしさを体験してください。この包括的なチュートリアルでは、ノード間でメッシュ ジオメトリ データを簡単に共有する方法を学びます。
-type: docs
 weight: 15
 url: /ja/java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D を使用して Java 3D のメッシュ ジオメトリ データを共有する
+
 ## 導入
 
 Aspose.3D を使用して Java 3D の領域への旅に乗り出すと、素晴らしいビジュアライゼーションと没入型のエクスペリエンスを作成する可能性の世界が開かれます。このチュートリアルでは、Aspose.3D を使用して Java 3D でメッシュ ジオメトリ データを共有するプロセスについて説明します。各ステップを慎重に実行すると、最後には複数のノード間でメッシュ データをシームレスに交換できるようになります。
@@ -117,3 +123,9 @@ A4: はい、無料トライアルが可能です[ここ](https://releases.aspos
 ### Q5: Aspose.3D の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: 仮免許は取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: التعامل مع الكائنات والمشاهد ثلاثية الأ
 linktitle: التعامل مع الكائنات والمشاهد ثلاثية الأبعاد في Java
 second_title: Aspose.3D جافا API
 description: افتح عالم برمجة Java ثلاثية الأبعاد باستخدام دروس Aspose.3D. تعلم كيفية تعديل نصف قطر الكرة وتطبيق الاستعلامات المشابهة لـ XPath دون عناء من أجل التطوير السلس ثلاثي الأبعاد.
-type: docs
 weight: 33
 url: /ar/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع الكائنات والمشاهد ثلاثية الأبعاد في Java
+
 ## مقدمة
 
 تصبح برمجة Java 3D رحلة آسرة مع دروس Aspose.3D، التي تركز على التعامل مع الكائنات والمشاهد ثلاثية الأبعاد. في هذه المقالة، سوف نتعمق في برنامجين تعليميين أساسيين يعدان برفع مهاراتك في التطوير ثلاثي الأبعاد.
@@ -27,3 +33,9 @@ url: /ar/java/3d-objects-and-scenes/
 استكشف برمجة Java ثلاثية الأبعاد باستخدام Aspose.3D، وقم بتعديل نصف قطر الكرة بسهولة. قم بالتنزيل الآن للحصول على تجربة تطوير ثلاثية الأبعاد سلسة.
 ### [تطبيق الاستعلامات الشبيهة بـ XPath على الكائنات ثلاثية الأبعاد في Java](./xpath-like-object-queries/)
 إتقان استعلامات الكائنات ثلاثية الأبعاد في Java بسهولة باستخدام Aspose.3D. قم بتطبيق استعلامات شبيهة بـ XPath، وتعامل مع المشاهد، وقم برفع مستوى التطوير ثلاثي الأبعاد لديك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

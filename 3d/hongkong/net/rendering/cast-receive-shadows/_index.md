@@ -3,10 +3,16 @@ title: 使用 Aspose.3D for .NET 掌握 3D 渲染中的陰影
 linktitle: 投射和接收陰影
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 渲染世界。輕鬆投射和接收陰影。立即下載免費試用版！
-type: docs
 weight: 10
 url: /zh-hant/net/rendering/cast-receive-shadows/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D for .NET 掌握 3D 渲染中的陰影
+
 ## 介紹
 歡迎來到 Aspose.3D for .NET 的 3D 渲染世界！在本教程中，我們將深入研究投射和接收陰影的迷人領域，這是創建逼真且視覺上令人驚嘆的 3D 場景的關鍵方面。無論您是經驗豐富的開發人員還是剛開始 3D 圖形之旅，本指南都將為您提供使用 Aspose.3D 增強渲染能力的知識和技能。
 ## 先決條件
@@ -69,3 +75,9 @@ A：考慮調整場景複雜度、使用高效率材質、優化光源來提升�
 答：是的，您可以在以下位置找到支持並與社區互動：[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18).
 ### Q：我可以在購買前試用 Aspose.3D 嗎？
 答：當然！透過免費試用探索圖書館[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

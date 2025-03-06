@@ -3,10 +3,16 @@ title: Nakładanie materiału PBR na pudełko
 linktitle: Nakładanie materiału PBR na pudełko
 second_title: Aspose.3D API .NET
 description: Poznaj świat grafiki 3D dzięki Aspose.3D dla .NET. Twórz wciągające sceny bez wysiłku, korzystając z materiałów do renderowania fizycznego.
-type: docs
 weight: 10
 url: /pl/net/geometry-and-hierarchy/apply-pbr-material-to-box/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nakładanie materiału PBR na pudełko
+
 ## Wstęp
 
 Witamy w fascynującym świecie grafiki 3D! W tym przewodniku krok po kroku poznamy potężną bibliotekę Aspose.3D dla .NET i dowiemy się, jak tworzyć wspaniałe sceny 3D przy użyciu materiałów do renderowania opartego na fizyce (PBR). Aspose.3D upraszcza złożony proces grafiki 3D i otwiera pole możliwości dla programistów.
@@ -113,3 +119,9 @@ A2: Absolutnie! Aspose.3D zapewnia licencje komercyjne umożliwiające bezproble
 ### P5: Jak uzyskać tymczasową licencję na Aspose.3D?
 
  Odpowiedź 5: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

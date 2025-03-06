@@ -3,10 +3,16 @@ title: Creating and Transforming 3D Meshes in Java
 linktitle: Creating and Transforming 3D Meshes in Java
 second_title: Aspose.3D Java API
 description: Unlock the potential of 3D graphics with Aspose.3D for Java. Effortlessly create, transform, and optimize meshes. Elevate your coding experience with our tutorials.
-type: docs
 weight: 31
 url: /java/transforming-3d-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creating and Transforming 3D Meshes in Java
+
 
 ## Introduction
 
@@ -42,3 +48,9 @@ Enhance your 3D graphics with Aspose.3D for Java. Generate tangent and binormal 
 Embark on a journey into 3D graphics mastery with Aspose.3D for Java - effortlessly convert primitives to mesmerizing meshes. Elevate your coding experience now!
 ### [Customize Memory Layout for 3D Meshes in Java](./customize-mesh-memory-layout/)
 Enhance your Java 3D modeling with Aspose.3D: customize memory layout for optimal performance. Follow our step-by-step guide now!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

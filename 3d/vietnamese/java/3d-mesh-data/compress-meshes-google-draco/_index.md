@@ -3,10 +3,16 @@ title: Nén lưới 3D bằng Google Draco trong Java
 linktitle: Nén lưới 3D bằng Google Draco trong Java
 second_title: API Java Aspose.3D
 description: Tối ưu hóa các ứng dụng 3D của bạn với Aspose.3D. Tìm hiểu cách nén mắt lưới bằng Google Draco trong Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để phát triển 3D hiệu quả.
-type: docs
 weight: 10
 url: /vi/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nén lưới 3D bằng Google Draco trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về cách nén lưới 3D bằng Google Draco trong Java bằng Aspose.3D. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình nén lưới 3D một cách hiệu quả, sử dụng sức mạnh của Aspose.3D. Nếu bạn là nhà phát triển đang tìm cách nâng cao ứng dụng 3D của mình bằng cách giảm kích thước mắt lưới mà không ảnh hưởng đến chất lượng thì bạn đã đến đúng nơi.
@@ -100,3 +106,9 @@ Câu trả lời 2: Trong khi hướng dẫn này tập trung vào Java, Google 
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào hỗ trợ Aspose.3D không?
 
  Câu trả lời 5: Có, để được cộng đồng hỗ trợ và thảo luận, hãy truy cập[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.3D for Java 創建自訂風扇缸
 linktitle: 使用 Aspose.3D for Java 創建自訂風扇缸
 second_title: Aspose.3D Java API
 description: 學習使用 Aspose.3D 在 Java 中建立客製化風筒。輕鬆提升您的 3D 建模遊戲等級。
-type: docs
 weight: 10
 url: /zh-hant/java/cylinders/creating-fan-cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D for Java 創建自訂風扇缸
+
 ## 介紹
 
 您準備好使用 Aspose.3D for Java 提升您的 3D 建模體驗了嗎？本教學將引導您完成使用強大的 Aspose.3D 庫建立自訂風筒的過程。無論您是經驗豐富的開發人員還是初學者，本逐步指南都將幫助您充分發揮 Java 中 Aspose.3D 的潛力。
@@ -124,3 +130,9 @@ A2：當然！ Aspose.3D 提供了廣泛的客製化選項，讓您可以微調 
 ### Q5：如何取得Aspose.3D的臨時授權？
 
  A5：獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)滿足您的測試和開發需求。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

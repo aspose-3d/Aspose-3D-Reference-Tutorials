@@ -3,10 +3,16 @@ title: Extraire toutes les scènes 3D
 linktitle: Extraire toutes les scènes 3D
 second_title: API Aspose.3D .NET
 description: Explorez les possibilités illimitées du développement 3D avec Aspose.3D pour .NET. Chargez, enregistrez et extrayez des scènes sans effort.
-type: docs
 weight: 13
 url: /fr/net/loading-and-saving/pdf/extract-all-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraire toutes les scènes 3D
+
 ## Introduction
 
 Bienvenue dans le monde passionnant d'Aspose.3D pour .NET, une bibliothèque de pointe qui permet aux développeurs de manipuler et de traiter sans effort des scènes 3D dans leurs applications. Dans ce guide étape par étape, nous aborderons les aspects fondamentaux du chargement, de l'enregistrement et de l'extraction de scènes 3D à l'aide d'Aspose.3D pour .NET. Que vous soyez un développeur chevronné ou un nouveau venu dans le domaine des graphiques 3D, ce didacticiel est conçu pour vous offrir une expérience d'apprentissage fluide.
@@ -93,3 +99,9 @@ A2 : Absolument ! Aspose.3D s'adresse aux développeurs travaillant sur des proj
 ### Q5 : Besoin d'aide ou souhaitez-vous vous connecter à la communauté Aspose.3D ?
 
  A5 : Visitez notre forum d'assistance[ici](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

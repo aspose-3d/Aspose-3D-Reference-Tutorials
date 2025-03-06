@@ -3,10 +3,16 @@ title: 在 Aspose.3D for Java 中执行线性挤出
 linktitle: 在 Aspose.3D for Java 中执行线性挤出
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D for Java 探索 3D 建模世界。学习轻松执行线性挤出。
-type: docs
 weight: 10
 url: /zh/java/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.3D for Java 中执行线性挤出
+
 ## 介绍
 
 欢迎来到这个关于在 Aspose.3D for Java 中执行线性拉伸的综合教程！如果您希望使用 Java 增强 3D 建模技能，那么您来对地方了。在本教程中，我们将指导您完成使用 Aspose.3D（一个用于 3D 建模的强大 Java 库）执行线性挤压的过程。
@@ -104,3 +110,9 @@ A2：是的，Aspose.3D 可用于个人和商业项目。检查许可详细信�
 ### Q5：Aspose.3D 有免费试用版吗？
 
  A5：是的，您可以免费试用[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

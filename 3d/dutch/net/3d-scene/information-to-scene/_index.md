@@ -3,10 +3,16 @@ title: Informatie extraheren naar scènemiddelen
 linktitle: Informatie extraheren naar scènemiddelen
 second_title: Aspose.3D .NET-API
 description: Verbeter uw 3D-scènes moeiteloos met Aspose.3D voor .NET. Leer stap voor stap waardevolle asset-informatie toe te voegen. Download nu voor een dynamische 3D-ervaring.
-type: docs
 weight: 10
 url: /nl/net/3d-scene/information-to-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Informatie extraheren naar scènemiddelen
+
 ## Invoering
 
 Welkom bij deze uitgebreide tutorial over het gebruik van Aspose.3D voor .NET om waardevolle informatie te extraheren en uw 3D-scènes te verbeteren. Aspose.3D is een krachtige bibliotheek waarmee ontwikkelaars 3D-scènes naadloos kunnen manipuleren binnen .NET-toepassingen. In deze zelfstudie concentreren we ons op de cruciale taak van het toevoegen van iteminformatie aan een scène.
@@ -96,3 +102,9 @@ A1: Aspose.3D ondersteunt voornamelijk .NET-talen, maar u kunt interoperabilitei
 ### V5: Waar kan ik gedetailleerde documentatie vinden voor Aspose.3D voor .NET?
 
  A5: Raadpleeg de[documentatie](https://reference.aspose.com/3d/net/) voor diepgaande informatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

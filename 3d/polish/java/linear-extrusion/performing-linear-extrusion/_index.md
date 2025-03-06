@@ -3,10 +3,16 @@ title: Wykonywanie wytłaczania liniowego w Aspose.3D dla Java
 linktitle: Wykonywanie wytłaczania liniowego w Aspose.3D dla Java
 second_title: Aspose.3D API Java
 description: Poznaj świat modelowania 3D z Aspose.3D dla Java. Naucz się bez wysiłku wykonywać wytłaczanie liniowe.
-type: docs
 weight: 10
 url: /pl/java/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wykonywanie wytłaczania liniowego w Aspose.3D dla Java
+
 ## Wstęp
 
 Witamy w tym kompleksowym samouczku na temat wykonywania wytłaczania liniowego w Aspose.3D dla Java! Jeśli chcesz udoskonalić swoje umiejętności modelowania 3D przy użyciu języka Java, jesteś we właściwym miejscu. W tym samouczku przeprowadzimy Cię przez proces wykonywania wytłaczania liniowego przy użyciu Aspose.3D, potężnej biblioteki Java do modelowania 3D.
@@ -104,3 +110,9 @@ Odpowiedź 2: Tak, Aspose.3D może być używany zarówno do projektów osobisty
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.3D?
 
  Odpowiedź 5: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

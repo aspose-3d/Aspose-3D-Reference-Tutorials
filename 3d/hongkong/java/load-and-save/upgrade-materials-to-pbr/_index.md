@@ -3,10 +3,16 @@ title: 使用 Aspose.3D 將 3D 材質升級為 PBR，以增強 Java 中的真實
 linktitle: 使用 Aspose.3D 將 3D 材質升級為 PBR，以增強 Java 中的真實感
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 在 Java 中輕鬆將 3D 材質升級為 PBR。增強真實感，呈現迷人的視覺效果。
-type: docs
 weight: 13
 url: /zh-hant/java/load-and-save/upgrade-materials-to-pbr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D 將 3D 材質升級為 PBR，以增強 Java 中的真實感
+
 ## 介紹
 
 將 3D 材質升級到 PBR 是在 Java 應用程式中實現逼真視覺效果的變革性一步。 Aspose.3D 簡化了這個過程，讓您可以從傳統材質無縫過渡到 PBR 材質。在本教程中，我們將探討必要的先決條件、導入包，並將每個範例分解為詳細的步驟。
@@ -102,3 +108,9 @@ A4：探索[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)以獲得社區�
 ### Q5：如何取得Aspose.3D的臨時授權？
 
  A5：參觀[這個連結](https://purchase.aspose.com/temporary-license/)取得臨時許可證資訊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

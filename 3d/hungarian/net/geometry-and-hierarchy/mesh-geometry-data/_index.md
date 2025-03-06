@@ -3,10 +3,16 @@ title: Munka a háló geometriai adatokkal
 linktitle: Munka a háló geometriai adatokkal
 second_title: Aspose.3D .NET API
 description: Sajátítsa el a 3D grafikus programozás művészetét az Aspose.3D for .NET segítségével. Könnyedén létrehozhat, manipulálhat és menthet lenyűgöző 3D-s jeleneteket.
-type: docs
 weight: 15
 url: /hu/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Munka a háló geometriai adatokkal
+
 ## Bevezetés
 
 Üdvözöljük a 3D grafikus programozás izgalmas világában az Aspose.3D for .NET segítségével! Ebben az oktatóanyagban a Mesh Geometry Data 3D-s jelenetekben történő munkavégzésének bonyolultságába fogunk belemenni az Aspose.3D segítségével, amely egy hatékony és sokoldalú könyvtár .NET-fejlesztők számára. Akár tapasztalt programozó, akár csak most kezdi a 3D-s grafikát, ez a lépésről lépésre bemutató útmutató segít elsajátítani a hálógeometriai adatok könnyed kezelésének művészetét.
@@ -126,3 +132,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan kell hálógeometriai adatokkal dolgo
 ### 5. kérdés: Milyen fájlformátumok támogatottak a 3D-s jelenetek mentéséhez?
 
  5. válasz: Az Aspose.3D különféle fájlformátumokat támogat, beleértve az FBX-et, az STL-t és egyebeket. Utal[dokumentáció](https://reference.aspose.com/3d/net/) a teljes listáért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

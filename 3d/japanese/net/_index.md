@@ -1,12 +1,17 @@
 ---
 title: Aspose.3D for .NET の包括的なチュートリアルと例
 linktitle: Aspose.3D for .NET チュートリアル
-type: docs
 weight: 10
 url: /ja/net/
 description: Aspose.3D for .NET チュートリアルを使用して、3D モデリングとアニメーションの世界を解き放ちます。レンダリングから線形押し出しまで、プロジェクトを簡単にレベルアップします。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for .NET の包括的なチュートリアルと例
+
 ## 導入
 
 3D モデリングとアニメーションのエキサイティングな領域への旅に乗り出す準備はできていますか?もう探す必要はありません – Aspose.3D for .NET は、創造性を解き放ち、プロジェクトを新たな高みに引き上げるように設計された、チュートリアルとサンプルの包括的なコレクションを提供します。
@@ -60,3 +65,9 @@ Aspose.3D for .NET チュートリアルを使用して、3D アニメーショ�
 
 
 あなたの中にある創造的な可能性を解き放ち、Aspose.3D for .NET チュートリアルの世界に飛び込んでください。今すぐトライアル版をダウンロードして、3D プロジェクトを驚異的な高みに引き上げましょう!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

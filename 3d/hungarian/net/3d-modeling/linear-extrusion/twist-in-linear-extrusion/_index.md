@@ -3,10 +3,16 @@ title: Csavarja be a lineáris extrudálást
 linktitle: Csavarja be a lineáris extrudálást
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D grafika magával ragadó világát az Aspose.3D for .NET segítségével. Ismerje meg lépésről lépésre a lineáris extrudálást csavarral.
-type: docs
 weight: 14
 url: /hu/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Csavarja be a lineáris extrudálást
+
 ## Bevezetés
 
 A .NET fejlesztések folyamatosan fejlődő világában a 3D grafika erejének kihasználása izgalmas próbálkozás. Az Aspose.3D for .NET értékes eszköztárként jelenik meg, amely felhatalmazza a fejlesztőket magával ragadó és vizuálisan lenyűgöző alkalmazások zökkenőmentes létrehozására. Ebben az átfogó útmutatóban egy érdekes funkcióval foglalkozunk: a Lineáris extrudálás csavarral. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton, felszabadítva az Aspose.3D .NET-hez való lehetőségeit.
@@ -118,3 +124,9 @@ A4: Természetesen! Az Aspose.3D funkciók gazdag készletét kínálja. Nyugodt
 ### 5. kérdés: Van-e közösség az Aspose.3D támogatására és megbeszélésekre?
 
  5. válasz: Igen, csatlakozz az Aspose.3D közösséghez a címen[Aspose fórum](https://forum.aspose.com/c/3d/18) támogatásért és vonzó beszélgetésekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

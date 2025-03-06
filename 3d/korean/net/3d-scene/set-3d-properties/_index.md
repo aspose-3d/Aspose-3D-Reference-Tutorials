@@ -3,10 +3,16 @@ title: 3D 장면에서 3차원 속성 설정
 linktitle: 3D 장면에서 3차원 속성 설정
 second_title: Aspose.3D .NET API
 description: 3D 속성 설정에 대한 .NET 튜토리얼용 Aspose.3D를 살펴보세요. 코드 예제를 통해 단계별로 알아보세요. 3D 장면 조작 기술을 향상시키세요.
-type: docs
 weight: 14
 url: /ko/net/3d-scene/set-3d-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D 장면에서 3차원 속성 설정
+
 ## 소개
 
 매혹적인 3차원 장면을 만들려면 다양한 속성을 조작하고 프로젝트에 깊이와 현실감을 더하는 능력이 필요한 경우가 많습니다. .NET용 Aspose.3D는 이를 달성하기 위한 강력한 도구 세트를 제공하므로 3D 장면 내에서 3차원 속성을 쉽게 설정하고 수정할 수 있습니다. 이 튜토리얼에서는 프로세스를 단계별로 탐색하여 .NET용 Aspose.3D를 효과적으로 활용하는 방법에 대한 이해를 높일 것입니다.
@@ -148,3 +154,10 @@ A1: 예, Aspose.3D는 FBX, STL 등을 포함한 다양한 3D 파일 형식을 �
 ### Q5: 구매하기 전에 .NET용 Aspose.3D를 무료로 사용해 볼 수 있나요?
 
  A5: 물론이죠! 다운로드[무료 평가판](https://releases.aspose.com/) 그 특징을 탐구합니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

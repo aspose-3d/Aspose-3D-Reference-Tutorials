@@ -3,10 +3,16 @@ title: Dolgozzon 3D tulajdonságokkal és egyéni adatokkal a Java jelenetekben 
 linktitle: Dolgozzon 3D tulajdonságokkal és egyéni adatokkal a Java jelenetekben az Aspose.3D használatával
 second_title: Aspose.3D Java API
 description: Javítsa Java-alkalmazásait az Aspose.3D segítségével a zökkenőmentes 3D tulajdonságkezelés érdekében. Kövesse oktatóanyagunkat a lépésenkénti útmutatásért.
-type: docs
 weight: 14
 url: /hu/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dolgozzon 3D tulajdonságokkal és egyéni adatokkal a Java jelenetekben az Aspose.3D használatával
+
 ## Bevezetés
 
 Üdvözöljük az átfogó útmutatóban a 3D tulajdonságokkal és egyéni adatokkal való munkavégzésről Java jelenetekben az Aspose.3D használatával. Ebben az oktatóanyagban az Aspose.3D hatékony funkcióival foglalkozunk, lépésről lépésre útmutatást adva a Java-alkalmazásokon belüli 3D-tulajdonságok kezeléséhez.
@@ -124,3 +130,9 @@ A4: Igen, látogassa meg a[Aspose.3D támogatási fórum](https://forum.aspose.c
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?
 
  5. válasz: Ideiglenes engedélyt szerezhet be, ha ellátogat[ez a link](https://purchase.aspose.com/temporary-license/) az Aspose honlapján.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

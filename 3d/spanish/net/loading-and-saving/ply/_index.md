@@ -3,10 +3,16 @@ title: soporte de capas
 linktitle: soporte de capas
 second_title: Aspose.3D API .NET
 description: Aspose.3D admite perfectamente el formato PLY, lo que facilita la importación y exportación fluidas de modelos 3D para casos de uso versátiles.
-type: docs
 weight: 27
 url: /es/net/loading-and-saving/ply
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# soporte de capas
+
 ## Introducción
 
 En esta serie de tutoriales, exploraremos las complejidades del soporte glTF en Aspose.3D, desbloqueando un mundo de posibilidades creativas.
@@ -30,3 +36,9 @@ Aspose.3D proporciona la capacidad de codificar mallas como nubes de puntos en f
 Embárcate en un viaje de posibilidades ilimitadas con Aspose.3D para .NET. Ya sea que sea un desarrollador novato o experimentado, nuestros tutoriales se adaptan a todos los niveles. Transforme su experiencia de modelado 3D: explore, cree e innove con Aspose.3D para .NET.
 
 ¿Listo para mejorar tus habilidades de modelado 3D? Comience a explorar los tutoriales. Libere todo el potencial de Aspose.3D para .NET y esculpe sus obras maestras 3D sin esfuerzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

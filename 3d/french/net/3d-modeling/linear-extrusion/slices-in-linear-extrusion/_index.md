@@ -3,10 +3,16 @@ title: Tranches en extrusion linéaire
 linktitle: Tranches en extrusion linéaire
 second_title: API Aspose.3D .NET
 description: Explorez le monde de la conception 3D avec Aspose.3D pour .NET. Créez de superbes modèles à l’aide de notre didacticiel d’extrusion linéaire.
-type: docs
 weight: 13
 url: /fr/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tranches en extrusion linéaire
+
 ## Introduction
 
 Bienvenue dans le monde de la conception 3D avec Aspose.3D pour .NET ! Que vous soyez un développeur chevronné ou que vous débutiez tout juste, ce didacticiel vous guidera tout au long du processus de création de superbes visualisations 3D à l'aide de la puissante bibliothèque Aspose.3D.
@@ -116,3 +122,9 @@ A1 : Aspose.3D est principalement conçu pour .NET, mais vous pouvez explorer le
 ### Q5 : Puis-je utiliser une licence temporaire pour Aspose.3D pour .NET ?
 
  A5 : Oui, obtenez un permis temporaire[ici](https://purchase.aspose.com/temporary-license/) à des fins d’évaluation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

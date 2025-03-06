@@ -3,10 +3,16 @@ title: Conversion d'une primitive paramétrique en maillage
 linktitle: Conversion d'une primitive paramétrique en maillage
 second_title: API Aspose.3D .NET
 description: Découvrez la puissance d'Aspose.3D pour .NET ! Convertissez sans effort des primitives paramétriques en maillage polyvalent. Améliorez votre jeu graphique 3D dès aujourd'hui.
-type: docs
 weight: 12
 url: /fr/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conversion d'une primitive paramétrique en maillage
+
 ## Introduction
 
 Aspose.3D fournit un riche ensemble de formes primitives, notamment des boîtes, des plans, des tores, des sphères, des cylindres, des pyramides, etc. Ces primitives sont définies par leurs paramètres, ce qui les rend très polyvalentes pour la modélisation procédurale. En ajustant les paramètres par programme, vous pouvez créer une grande variété de modèles 3D avec un minimum de code.
@@ -73,3 +79,9 @@ Oui, Aspose.3D prend en charge une large gamme de frameworks .NET, garantissant 
  Oui, explorez Aspose.3D avec le[essai gratuit](https://releases.aspose.com/) expérimenter ses capacités avant de s’engager.
 ### Puis-je obtenir une licence temporaire à des fins de test ?
  Oui, sécurisez un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour évaluer Aspose.3D de manière globale.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

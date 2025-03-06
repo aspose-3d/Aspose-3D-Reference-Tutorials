@@ -3,10 +3,16 @@ title: Hướng dẫn Java - Tạo đa giác trong lưới 3D với Aspose.3D
 linktitle: Hướng dẫn Java - Tạo đa giác trong lưới 3D với Aspose.3D
 second_title: API Java Aspose.3D
 description: Khai phá sức mạnh của đồ họa 3D với Aspose.3D cho Java. Tạo đa giác tuyệt đẹp một cách dễ dàng. Tải xuống ngay để có trải nghiệm phát triển liền mạch.
-type: docs
 weight: 10
 url: /vi/java/transforming-3d-meshes/create-polygons-in-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn Java - Tạo đa giác trong lưới 3D với Aspose.3D
+
 ## Giới thiệu
 Trong thế giới năng động của đồ họa 3D, khả năng tạo ra các vật thể phức tạp và có hình ảnh bắt mắt là một kỹ năng cơ bản của các nhà phát triển. Aspose.3D cho Java cung cấp bộ công cụ mạnh mẽ giúp tạo lưới 3D một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo đa giác trong các lưới 3D bằng Aspose.3D cho Java.
 ## Điều kiện tiên quyết
@@ -51,3 +57,9 @@ Có, Aspose.3D cung cấp một loạt chức năng để tạo các mô hình 3
  Có, bạn có thể khám phá các khả năng của Aspose.3D bằng cách truy cập[dùng thử miễn phí](https://releases.aspose.com/).
 ### 5. Tôi có thể tìm kiếm sự hỗ trợ cho Aspose.3D ở đâu?
  Nếu có bất kỳ thắc mắc hoặc trợ giúp nào, hãy truy cập[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

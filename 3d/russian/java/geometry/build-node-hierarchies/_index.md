@@ -3,10 +3,16 @@ title: Создавайте иерархии узлов в 3D-сценах с п
 linktitle: Создавайте иерархии узлов в 3D-сценах с помощью Java и Aspose.3D
 second_title: Aspose.3D Java API
 description: Узнайте, как создавать динамические 3D-сцены на Java с помощью Aspose.3D. Легко создавайте иерархии узлов и улучшайте свою игру с 3D-графикой.
-type: docs
 weight: 16
 url: /ru/java/geometry/build-node-hierarchies/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создавайте иерархии узлов в 3D-сценах с помощью Java и Aspose.3D
+
 ## Введение
 
 В динамичном мире 3D-графики и программирования на Java создание иерархий узлов в 3D-сценах и управление ими является важнейшим навыком. Aspose.3D для Java позволяет разработчикам легко добиться этого, предлагая надежный набор инструментов для легкого создания сложных 3D-сцен. В этом руководстве мы проведем вас через процесс построения иерархии узлов с помощью Aspose.3D для Java, гарантируя, что даже новички смогут следовать этому процессу.
@@ -97,3 +103,9 @@ System.out.println("\nNode hierarchy added successfully to document.\nFile saved
 ### В5: Где я могу найти документацию?
 
  A5: См.[документация](https://reference.aspose.com/3d/java/) для получения подробной информации об Aspose.3D для Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Visuele effecten toepassen in 3D-viewports
 linktitle: Visuele effecten toepassen in 3D-viewports
 second_title: Aspose.3D .NET-API
 description: Ontdek de wereld van 3D-visualisatie met Aspose.3D voor .NET. Leer hoe u boeiende visuele effecten op uw scènes kunt toepassen met behulp van stapsgewijze zelfstudies. Verbeter uw projecten met pixelvorming, grijstinten, randdetectie en vervagingseffecten.
-type: docs
 weight: 10
 url: /nl/net/rendering/apply-visual-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Visuele effecten toepassen in 3D-viewports
+
 ## Invoering
 
 Het verbeteren van de visuele aantrekkingskracht van 3D-scènes is een cruciaal aspect bij het creëren van meeslepende ervaringen. Aspose.3D voor .NET biedt een krachtige set tools om visuele effecten toe te passen op 3D-viewports. In deze zelfstudie doorlopen we het proces van het toepassen van verschillende effecten op een 3D-scène, waaronder pixelvorming, grijstinten, randdetectie en vervaging.
@@ -179,3 +185,9 @@ A4: Aspose.3D biedt een verscheidenheid aan ingebouwde nabewerkingseffecten en u
 ### Vraag 5: Kan ik Aspose.3D gebruiken voor commerciële projecten?
 
  A5: Ja, u kunt Aspose.3D voor commerciële doeleinden gebruiken. Verwijs naar de[aankooppagina](https://purchase.aspose.com/buy) voor licentiegegevens.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

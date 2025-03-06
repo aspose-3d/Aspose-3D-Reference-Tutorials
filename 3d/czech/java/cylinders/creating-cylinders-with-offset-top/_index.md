@@ -3,10 +3,16 @@ title: Vytváření válců s odsazenou horní částí v Aspose.3D pro Java
 linktitle: Vytváření válců s odsazenou horní částí v Aspose.3D pro Java
 second_title: Aspose.3D Java API
 description: Prozkoumejte zázraky 3D modelování v Javě s Aspose.3D. Naučte se bez námahy vytvářet podmanivé válce s ofsetovými vršky.
-type: docs
 weight: 11
 url: /cs/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytváření válců s odsazenou horní částí v Aspose.3D pro Java
+
 ## Úvod
 
 oblasti 3D modelování založeného na Javě vyniká Aspose.3D jako výkonný nástroj, který vývojářům nabízí možnost snadno vytvářet složité 3D scény. V tomto tutoriálu se ponoříme do fascinujícího světa Aspose.3D pro Java a zaměříme se na konkrétní úkol – vytváření válců s odsazenými vrcholy. Na konci této příručky budete mít pevný přehled o procesu, který vám umožní bezproblémově integrovat tuto funkci do vašich 3D projektů.
@@ -127,3 +133,9 @@ A3: Ano, můžete prozkoumat a vybrat možnost licencování, která vyhovuje va
 ### Q5: Existuje možnost dočasné licence pro účely testování?
 
  A5: Ano, můžete získat dočasnou licenci pro účely testování a hodnocení[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

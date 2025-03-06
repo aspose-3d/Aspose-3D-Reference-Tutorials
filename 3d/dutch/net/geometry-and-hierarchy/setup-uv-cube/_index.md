@@ -3,10 +3,16 @@ title: UV instellen op Cube
 linktitle: UV instellen op Cube
 second_title: Aspose.3D .NET-API
 description: Leer hoe u UV-mapping instelt op een 3D-kubus met behulp van Aspose.3D voor .NET. Creëer visueel verbluffende scènes met nauwkeurige texture mapping.
-type: docs
 weight: 18
 url: /nl/net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# UV instellen op Cube
+
 ## Invoering
 
 Het creëren van boeiende en visueel aantrekkelijke 3D-scènes omvat vaak het nauwgezette proces van het opzetten van UV-mapping op geometrische vormen. In deze zelfstudie onderzoeken we hoe u UV op een kubus kunt instellen met Aspose.3D voor .NET. Aspose.3D is een krachtige .NET-bibliotheek die een uitgebreide reeks functies biedt voor 3D-modellering en -manipulatie.
@@ -119,3 +125,9 @@ A1: Aspose.3D voor .NET is een krachtige bibliotheek voor 3D-modellering en -man
 ### Vraag 5: Zijn er tijdelijke licenties beschikbaar?
 
  A5: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

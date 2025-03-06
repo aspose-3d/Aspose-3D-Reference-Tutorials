@@ -3,10 +3,16 @@ title: Alle netten van scène op materiaal splitsen
 linktitle: Alle netten van scène op materiaal splitsen
 second_title: Aspose.3D .NET-API
 description: Leer hoe u 3D-meshes op materiaal kunt splitsen met Aspose.3D voor .NET. Volg onze stapsgewijze handleiding voor het efficiënt organiseren en beheren van 3D-modellen.
-type: docs
 weight: 21
 url: /nl/net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alle netten van scène op materiaal splitsen
+
 ## Invoering
 Welkom bij deze stapsgewijze handleiding voor het splitsen van alle meshes van een 3D-scène op materiaal met behulp van Aspose.3D voor .NET. Als u met 3D-modellen werkt en uw meshes efficiënt wilt indelen op basis van materialen, dan is deze tutorial iets voor u. Aspose.3D is een krachtige .NET-bibliotheek die een reeks functies biedt voor het werken met 3D-bestanden, waardoor het een uitstekende keuze is voor ontwikkelaars.
 ## Vereisten
@@ -66,3 +72,9 @@ Aspose.3D is in de eerste plaats ontworpen voor .NET, maar biedt interoperabilit
  Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) voor gemeenschapsondersteuning en discussies.
 ### 5. Kan ik een tijdelijke licentie krijgen?
  Ja, u kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

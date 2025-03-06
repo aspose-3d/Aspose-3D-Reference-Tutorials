@@ -3,10 +3,16 @@ title: Java 튜토리얼 - Aspose.3D를 사용하여 3D 메쉬에서 다각형 �
 linktitle: Java 튜토리얼 - Aspose.3D를 사용하여 3D 메쉬에서 다각형 만들기
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 3D 그래픽의 성능을 활용해 보세요. 손쉽게 멋진 다각형을 만들어 보세요. 원활한 개발 경험을 위해 지금 다운로드하세요.
-type: docs
 weight: 10
 url: /ko/java/transforming-3d-meshes/create-polygons-in-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 튜토리얼 - Aspose.3D를 사용하여 3D 메쉬에서 다각형 만들기
+
 ## 소개
 3D 그래픽의 역동적인 세계에서 복잡하고 시각적으로 멋진 개체를 만드는 능력은 개발자의 기본 기술입니다. Aspose.3D for Java는 3D 메쉬 생성을 쉽게 해주는 강력한 툴킷을 제공합니다. 이 튜토리얼에서는 Java용 Aspose.3D를 사용하여 3D 메쉬 내에서 다각형을 만드는 과정을 안내합니다.
 ## 전제 조건
@@ -51,3 +57,9 @@ mesh.createPolygon(0, 1, 2, 3);
  예, Aspose.3D에 액세스하여 Aspose.3D의 기능을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/).
 ### 5. Aspose.3D에 대한 지원은 어디서 구할 수 있나요?
  질문이나 도움이 필요하면 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

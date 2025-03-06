@@ -3,10 +3,16 @@ title: Maillage triangulant
 linktitle: Maillage triangulant
 second_title: API Aspose.3D .NET
 description: Découvrez la puissance d'Aspose.3D pour .NET dans ce guide étape par étape. Apprenez à trianguler sans effort des maillages 3D pour une modélisation améliorée.
-type: docs
 weight: 22
 url: /fr/net/geometry-and-hierarchy/triangulate-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maillage triangulant
+
 ## Introduction
 
 Bienvenue dans ce didacticiel complet sur la triangulation des maillages dans les scènes 3D à l'aide d'Aspose.3D pour .NET. Aspose.3D est une bibliothèque puissante qui permet aux développeurs .NET de travailler de manière transparente avec des fichiers 3D, offrant un large éventail de fonctionnalités pour créer, manipuler et convertir des modèles 3D.
@@ -102,3 +108,10 @@ A2 : Absolument. Aspose.3D peut être intégré de manière transparente aux app
 ### Q5 : Puis-je essayer Aspose.3D gratuitement avant d’acheter ?
 
  A5 : Certainement ! Vous pouvez télécharger une version d'essai gratuite[ici](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

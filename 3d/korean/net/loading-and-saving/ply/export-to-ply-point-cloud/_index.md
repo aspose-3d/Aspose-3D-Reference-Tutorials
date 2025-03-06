@@ -3,10 +3,16 @@ title: 포인트 클라우드로 PLY 형식으로 내보내기
 linktitle: 포인트 클라우드로 PLY 형식으로 내보내기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 모델링의 세계를 탐험해보세요. 모델을 PLY 형식으로 쉽게 내보내는 방법을 알아보세요. 놀라운 비주얼로 프로젝트를 향상시키세요.
-type: docs
 weight: 16
 url: /ko/net/loading-and-saving/ply/export-to-ply-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 포인트 클라우드로 PLY 형식으로 내보내기
+
 ## 소개
 3D 모델링 및 개발의 역동적인 세계에서 .NET용 Aspose.3D는 강력한 툴킷으로 돋보입니다. 이 튜토리얼은 .NET용 Aspose.3D를 사용하여 3D 모델을 포인트 클라우드로 PLY 형식으로 내보내는 과정을 안내합니다. 놀라운 시각적 요소로 프로젝트를 향상시킬 준비가 되었다면 이 다용도 라이브러리의 잠재력을 최대한 활용해 보십시오.
 ## 전제 조건
@@ -59,3 +65,9 @@ Aspose.3D는 다양한 .NET 프레임워크를 지원하여 광범위한 개발 
  예, 다음을 통해 기능을 살펴보세요.[무료 시험판](https://releases.aspose.com/) 약속을 하기 전에.
 ### 5. 임시면허는 어떻게 취득하나요?
  임시 라이선스 옵션을 보려면 다음을 방문하세요.[이 링크](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

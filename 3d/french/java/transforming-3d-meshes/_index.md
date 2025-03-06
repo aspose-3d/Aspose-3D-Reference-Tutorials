@@ -3,10 +3,16 @@ title: Création et transformation de maillages 3D en Java
 linktitle: Création et transformation de maillages 3D en Java
 second_title: API Java Aspose.3D
 description: Libérez le potentiel des graphiques 3D avec Aspose.3D pour Java. Créez, transformez et optimisez sans effort des maillages. Améliorez votre expérience de codage avec nos tutoriels.
-type: docs
 weight: 31
 url: /fr/java/transforming-3d-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création et transformation de maillages 3D en Java
+
 
 ## Introduction
 
@@ -42,3 +48,9 @@ Améliorez vos graphiques 3D avec Aspose.3D pour Java. Générez des données ta
 Embarquez pour un voyage dans la maîtrise des graphiques 3D avec Aspose.3D pour Java - convertissez sans effort les primitives en maillages fascinants. Améliorez votre expérience de codage maintenant !
 ### [Personnaliser la disposition de la mémoire pour les maillages 3D en Java](./customize-mesh-memory-layout/)
 Améliorez votre modélisation Java 3D avec Aspose.3D : personnalisez la disposition de la mémoire pour des performances optimales. Suivez notre guide étape par étape dès maintenant !
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Normals beállítása 3D objektumokon Java nyelven az Aspose.3D segítsé
 linktitle: Normals beállítása 3D objektumokon Java nyelven az Aspose.3D segítségével
 second_title: Aspose.3D Java API
 description: Tanuljon meg normál értékeket beállítani 3D objektumokon Java nyelven az Aspose.3D segítségével. Javítsa ki grafikáját ezzel az átfogó oktatóanyaggal.
-type: docs
 weight: 17
 url: /hu/java/geometry/set-up-normals-on-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Normals beállítása 3D objektumokon Java nyelven az Aspose.3D segítségével
+
 ## Bevezetés
 
 Üdvözöljük lépésről-lépésre szóló útmutatónkban a Java 3D objektumok normál beállításáról az Aspose.3D használatával. Akár tapasztalt fejlesztő, akár csak most kezdi a 3D-s grafikát, a normál értékek megértése és manipulálása kulcsfontosságú a valósághű fényhatások eléréséhez 3D modelljeiben. Ebben az oktatóanyagban végigvezetjük a folyamaton, könnyen követhető lépésekre bontva.
@@ -91,3 +97,9 @@ Gratulálunk! Sikeresen beállította a normál értékeket egy 3D objektumon Ja
 ### 5. kérdés: Segítségre van szüksége, vagy szeretne beszélgetni a közösséggel?
 
  A5: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) támogatásért és megbeszélésekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

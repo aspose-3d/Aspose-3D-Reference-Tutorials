@@ -3,10 +3,16 @@ title: Menghasilkan Data Normal untuk Jerat
 linktitle: Menghasilkan Data Normal untuk Jerat
 second_title: Aspose.3D .NET API
 description: Sempurnakan model 3D dengan Aspose.3D untuk .NET! Pelajari cara menghasilkan data normal untuk mesh dalam panduan langkah demi langkah ini. Realisme bertemu dengan kesederhanaan.
-type: docs
 weight: 20
 url: /id/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menghasilkan Data Normal untuk Jerat
+
 ## Perkenalan
 Selamat datang di panduan langkah demi langkah dalam menghasilkan data normal untuk jerat menggunakan Aspose.3D untuk .NET! Jika Anda bekerja dengan model 3D dan ingin meningkatkan daya tarik visual dengan menambahkan data normal, tutorial ini cocok untuk Anda. Aspose.3D adalah pustaka .NET canggih yang menyederhanakan pemrograman grafis 3D, dan dalam panduan ini, kami akan memandu Anda melalui proses menghasilkan data normal untuk jerat.
 ## Prasyarat
@@ -66,3 +72,9 @@ Ya, Aspose.3D mendukung berbagai format 3D, termasuk FBX, STL, dan lainnya. Meng
  Dokumentasi komprehensif tersedia[Di Sini](https://reference.aspose.com/3d/net/).
 ### Bagaimana jika saya perlu membeli lisensi untuk Aspose.3D?
  Anda dapat membeli lisensi dari[halaman pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

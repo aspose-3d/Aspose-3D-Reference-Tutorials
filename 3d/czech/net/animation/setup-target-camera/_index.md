@@ -3,10 +3,16 @@ title: Nastavení cílů a kamer pro animaci ve 3D scénách
 linktitle: Nastavení cílů a kamer pro animaci ve 3D scénách
 second_title: Aspose.3D .NET API
 description: Odemkněte kouzlo 3D animace s Aspose.3D pro .NET. Pomocí tohoto komplexního návodu snadno nastavte cíle a kamery.
-type: docs
 weight: 11
 url: /cs/net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení cílů a kamer pro animaci ve 3D scénách
+
 ## Úvod
 
 Nastavení cílů a kamer tvoří základ každého 3D animačního projektu. Aspose.3D for .NET nabízí robustní sadu nástrojů pro zefektivnění tohoto procesu, což umožňuje vývojářům popustit uzdu jejich kreativitě. Tento tutoriál vás provede jednotlivými kroky, rozebere složitosti a učiní zdánlivě skličující úkol lépe zvládnutelným.
@@ -103,3 +109,9 @@ A4: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.
 ### Q5: Jak získám dočasnou licenci?
 
  A5: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

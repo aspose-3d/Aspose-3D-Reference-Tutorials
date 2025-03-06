@@ -3,10 +3,16 @@ title: 使用 Aspose.3D 在 Java 3D 中展示幾何變換
 linktitle: 使用 Aspose.3D 在 Java 3D 中展示幾何變換
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 可以輕鬆掌握 Java 中的 3D 幾何變換。學習操作節點、應用翻譯和評估全域變換。
-type: docs
 weight: 13
 url: /zh-hant/java/geometry/expose-geometric-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D 在 Java 3D 中展示幾何變換
+
 ## 介紹
 
 在 Java 3D 程式設計的動態世界中，掌握幾何變換是一項關鍵技能。 Aspose.3D for Java 是一個強大的函式庫，使開發人員能夠輕鬆地深入研究 3D 建模的複雜性。在本教程中，我們將踏上一段啟發性的旅程，使用 Aspose.3D for Java 來公開和操作幾何變換。
@@ -86,3 +92,9 @@ A1：Aspose.3D 可以與任何支援 JDK 的 Java 開發環境無縫整合。
 ### Q5：測試 Aspose.3D 需要臨時授權嗎？
 
  A5：獲得[臨時執照](https://purchase.aspose.com/temporary-license/)用於測試目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

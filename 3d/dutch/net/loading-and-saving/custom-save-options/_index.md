@@ -3,10 +3,16 @@ title: Aangepaste opslagopties
 linktitle: Aangepaste opslagopties
 second_title: Aspose.3D .NET-API
 description: Ontdek de kracht van Aspose.3D voor .NET. Leer hoe u uw 3D-scènebesparing kunt aanpassen met stapsgewijze handleidingen voor de formaten Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC en RVM.
-type: docs
 weight: 21
 url: /nl/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aangepaste opslagopties
+
 ## Invoering
 
 Welkom in de wereld van Aspose.3D voor .NET! Als u uw 3D-ontwikkelingsmogelijkheden wilt verbeteren, bent u hier aan het juiste adres. In deze tutorial duiken we in de functionaliteiten voor laden en opslaan, waarbij we ons specifiek concentreren op aangepaste opslagopties. Aspose.3D voor .NET is een krachtige bibliotheek waarmee ontwikkelaars 3D-scènes efficiënt kunnen manipuleren en opslaan.
@@ -131,3 +137,9 @@ A1: Ja, Aspose.3D is compatibel met verschillende .NET-frameworks, waardoor flex
 ### V5: Hoe kan ik een tijdelijke licentie krijgen voor Aspose.3D?
 
  A5: Verkrijg een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

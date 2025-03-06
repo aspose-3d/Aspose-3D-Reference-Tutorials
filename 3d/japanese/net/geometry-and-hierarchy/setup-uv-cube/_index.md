@@ -3,10 +3,16 @@ title: Cube に UV を設定する
 linktitle: Cube に UV を設定する
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D キューブに UV マッピングを設定する方法を学びます。正確なテクスチャ マッピングを使用して、視覚的に素晴らしいシーンを作成します。
-type: docs
 weight: 18
 url: /ja/net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cube に UV を設定する
+
 ## 導入
 
 魅力的で視覚的に魅力的な 3D シーンを作成するには、多くの場合、幾何学的形状に UV マッピングを設定するという綿密なプロセスが必要になります。このチュートリアルでは、Aspose.3D for .NET を使用して立方体に UV を設定する方法を検討します。 Aspose.3D は、3D モデリングと操作のための包括的な機能セットを提供する強力な .NET ライブラリです。
@@ -119,3 +125,9 @@ A1: Aspose.3D for .NET は、.NET アプリケーションでの 3D モデリン
 ### Q5: 一時ライセンスは利用できますか?
 
  A5: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

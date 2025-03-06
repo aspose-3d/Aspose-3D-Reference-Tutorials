@@ -3,10 +3,16 @@ title: Geometrik Dönüşümün Ortaya Çıkarılması
 linktitle: Geometrik Dönüşümün Ortaya Çıkarılması
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D ile .NET'teki 3D grafiklerin sınırsız olanaklarını keşfedin. Geometrik dönüşümleri zahmetsizce ortaya çıkarın.
-type: docs
 weight: 13
 url: /tr/net/geometry-and-hierarchy/expose-geometric-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geometrik Dönüşümün Ortaya Çıkarılması
+
 ## giriiş
 
 Aspose.3D for .NET'in heyecan verici dünyasına hoş geldiniz! Bu derste Aspose.3D'yi kullanarak 3D sahnelerdeki geometrik dönüşümleri ortaya çıkarmanın inceliklerini inceleyeceğiz. 3D grafik yeteneklerinizi geliştirmek isteyen bir .NET geliştiricisiyseniz doğru yerdesiniz.
@@ -98,3 +104,9 @@ Cevap1: Aspose.3D, çok çeşitli .NET çerçeveleriyle uyumludur ve çeşitli p
 ### S5: Aspose.3D for .NET'i nasıl satın alabilirim?
 
  Cevap5: Aspose.3D for .NET'i satın almak için şu adresi ziyaret edin:[satın alma sayfası](https://purchase.aspose.com/buy) Aspose'un web sitesinde.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

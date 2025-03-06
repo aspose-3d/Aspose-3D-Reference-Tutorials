@@ -3,10 +3,16 @@ title: Concaténation des quaternions
 linktitle: Concaténation des quaternions
 second_title: API Aspose.3D .NET
 description: Explorez la puissance de la manipulation des quaternions dans les scènes 3D avec Aspose.3D pour .NET. Apprenez à concaténer les quaternions étape par étape pour des transformations immersives.
-type: docs
 weight: 11
 url: /fr/net/geometry-and-hierarchy/concatenate-quaternions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Concaténation des quaternions
+
 ## Introduction
 
 Bienvenue dans ce didacticiel complet sur la concaténation des quaternions dans des scènes 3D à l'aide d'Aspose.3D pour .NET ! Si vous êtes un développeur ou un passionné de 3D souhaitant améliorer vos compétences en manipulation de quaternions, vous êtes au bon endroit. Ce didacticiel vous guidera étape par étape tout au long du processus, garantissant une expérience d'apprentissage fluide.
@@ -105,3 +111,9 @@ A3 : Oui, vous pouvez accéder à un essai gratuit[ici](https://releases.aspos
 ### Q5 : Puis-je utiliser une licence temporaire pour Aspose.3D pour .NET ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

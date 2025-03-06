@@ -3,10 +3,16 @@ title: Az Aspose.3D for Java első lépései
 linktitle: Az Aspose.3D for Java első lépései
 second_title: Aspose.3D Java API
 description: Fedezze fel az Aspose.3D Java erejét részletes oktatóanyagainkon keresztül. Ismerje meg, hogyan kell licenceket alkalmazni ennek a nagy teljesítményű Java-eszköznek a teljes képességeinek kiaknázásához.
-type: docs
 weight: 22
 url: /hu/java/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az Aspose.3D for Java első lépései
+
 ## Bevezetés
 
 Készen áll arra, hogy javítsa Java-alkalmazásait az Aspose.3D figyelemre méltó funkcióival? Merüljön el átfogó oktatóanyagainkban, amelyek minden szemponton végigvezetik Önt, kezdve a licenc igénylésének alapvető lépésével.
@@ -37,3 +43,9 @@ Ennek az oktatóanyagnak a végére nemcsak sikeresen alkalmazta a licencet, han
 ## Ismerkedés az Aspose.3D for Java oktatóanyaggal
 ### [Licenc alkalmazása az Aspose.3D for Java-ban](./applying-license-in-aspose-3d/)
 Használja ki az Aspose.3D teljes potenciálját a Java-alkalmazásokban, ha követi a licencek alkalmazásáról szóló átfogó útmutatónkat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

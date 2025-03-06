@@ -3,10 +3,16 @@ title: Manipulasi Poligon dalam Model 3D dengan Java
 linktitle: Manipulasi Poligon dalam Model 3D dengan Java
 second_title: Asumsikan.3D Java API
 description: Jelajahi rendering 3D yang efisien di Java dengan tutorial Aspose.3D. Ubah poligon menjadi segitiga dan hasilkan koordinat UV untuk kinerja optimal dan pemetaan tekstur yang ditingkatkan.
-type: docs
 weight: 27
 url: /id/java/polygon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Poligon dalam Model 3D dengan Java
+
 ## Perkenalan
 
 Selamat datang di dunia pengembangan Java 3D, di mana Aspose.3D menjadi pusat perhatian untuk meningkatkan proyek Anda. Dalam seri tutorial ini, kita akan mempelajari seluk-beluk manipulasi poligon, dengan fokus pada dua aspek penting: mengubah poligon menjadi segitiga untuk rendering yang efisien dan menghasilkan koordinat UV untuk menyempurnakan pemetaan tekstur.
@@ -49,3 +55,9 @@ Kesimpulannya, Aspose.3D untuk Java membuka pintu ke banyak kemungkinan. Ikuti t
 Tingkatkan rendering Java 3D dengan Aspose.3D. Pelajari cara mengubah poligon menjadi segitiga untuk performa optimal. Unduh sekarang untuk pengalaman pengembangan 3D yang lancar.
 ### [Hasilkan Koordinat UV untuk Pemetaan Tekstur dalam Model 3D Java](./generate-uv-coordinates/)
 Pelajari cara menghasilkan koordinat UV untuk model Java 3D menggunakan Aspose.3D. Tingkatkan pemetaan tekstur dalam proyek Anda dengan panduan langkah demi langkah ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

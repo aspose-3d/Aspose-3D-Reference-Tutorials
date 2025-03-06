@@ -3,10 +3,16 @@ title: Aplicación del efecto de lente ojo de pez con Aspose.3D para .NET
 linktitle: Aplicar el efecto de lente ojo de pez a una escena 3D
 second_title: Aspose.3D API .NET
 description: ¡Mejora tus escenas 3D con Aspose.3D para .NET! Aprende cómo aplicar un cautivador efecto de lente ojo de pez paso a paso. ¡Descargar ahora!
-type: docs
 weight: 12
 url: /es/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicación del efecto de lente ojo de pez con Aspose.3D para .NET
+
 ## Introducción
 ¿Está buscando mejorar el atractivo visual de sus escenas 3D? Sumérgete en el fascinante mundo de los efectos de lentes ojo de pez con Aspose.3D para .NET. Este tutorial te guiará paso a paso sobre cómo aplicar un efecto de lente ojo de pez a tus escenas 3D, dándoles una perspectiva única y cautivadora.
 ## Requisitos previos
@@ -77,3 +83,9 @@ Puede ajustar las propiedades de las luces, como la posición, el tipo y el colo
 El tamaño de la escena 3D está limitado principalmente por los recursos del sistema. Asegúrese de que su hardware pueda soportar el tamaño de su escena.
 ### ¿Puedo usar un formato de salida diferente en lugar de PNG para el resultado del efecto ojo de pez?
 Sí, puede modificar el código para guardar el resultado en diferentes formatos de imagen según sus requisitos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

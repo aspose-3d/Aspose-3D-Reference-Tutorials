@@ -3,10 +3,16 @@ title: Java でアニメーション プロパティを 3D シーンに追加す
 linktitle: Java でアニメーション プロパティを 3D シーンに追加する | Aspose.3D チュートリアル
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して Java ベースの 3D プロジェクトを強化します。チュートリアルに従って、アニメーション プロパティをシームレスに追加します。
-type: docs
 weight: 10
 url: /ja/java/animations/add-animation-properties-to-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でアニメーション プロパティを 3D シーンに追加する | Aspose.3D チュートリアル
+
 ## 導入
 
 Aspose.3D を使用して Java の 3D シーンにアニメーション プロパティを追加するこのステップバイステップのチュートリアルへようこそ。ダイナミック アニメーションで 3D プロジェクトを強化したい場合は、ここが正しい場所です。このガイドでは、シームレスなエクスペリエンスを実現するためのプロセスを各ステップに分けて説明します。
@@ -128,3 +134,9 @@ A3: コミュニティに参加してください。[Aspose.3D フォーラム](
 ### Q5: 他にも利用可能なチュートリアルはありますか?
 
  A5: 包括的な内容を探索する[ドキュメンテーション](https://reference.aspose.com/3d/java/)追加のチュートリアルについては。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

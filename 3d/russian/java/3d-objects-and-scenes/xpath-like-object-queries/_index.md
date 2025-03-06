@@ -3,10 +3,16 @@ title: Применение запросов типа XPath к 3D-объекта
 linktitle: Применение запросов типа XPath к 3D-объектам в Java
 second_title: Aspose.3D Java API
 description: С легкостью осваивайте запросы к 3D-объектам на Java с помощью Aspose.3D. Применяйте запросы, подобные XPath, манипулируйте сценами и повышайте уровень своей 3D-разработки.
-type: docs
 weight: 11
 url: /ru/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Применение запросов типа XPath к 3D-объектам в Java
+
 ## Введение
 
 Погружение в область 3D-моделирования и манипулирования сценой в Java может оказаться непростой задачей, но не бойтесь! Aspose.3D for Java предоставляет надежное решение для обработки 3D-объектов, что делает его бесценным инструментом для разработчиков. В этом руководстве мы покажем вам, как применять XPath-подобные запросы к 3D-объектам в Java с помощью Aspose.3D.
@@ -99,3 +105,9 @@ obj = (A3DObject) s.getRootNode().selectSingleObject("/");
 ### В5: Нужна временная лицензия?
 
  A5: Получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

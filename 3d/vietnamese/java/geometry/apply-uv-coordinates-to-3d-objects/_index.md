@@ -3,10 +3,16 @@ title: Áp dụng tọa độ UV cho các đối tượng 3D trong Java với As
 linktitle: Áp dụng tọa độ UV cho các đối tượng 3D trong Java với Aspose.3D
 second_title: API Java Aspose.3D
 description: Tìm hiểu cách áp dụng tọa độ UV cho các đối tượng 3D trong Java với Aspose.3D. Nâng cao đồ họa của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 18
 url: /vi/java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng tọa độ UV cho các đối tượng 3D trong Java với Aspose.3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách áp dụng tọa độ UV cho các đối tượng 3D trong Java bằng Aspose.3D. Trong thế giới đồ họa 3D, tọa độ UV đóng một vai trò quan trọng trong việc ánh xạ họa tiết lên các bề mặt, nâng cao sức hấp dẫn trực quan cho tác phẩm của bạn. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, chia nhỏ từng bước để đảm bảo trải nghiệm học tập suôn sẻ và hiệu quả.
@@ -104,3 +110,9 @@ Câu trả lời 1: Có, quy trình vẫn tương tự đối với các mô hì
 ### Câu 5: Tôi có thể mua Aspose.3D ở đâu?
 
  Câu trả lời 5: Để mua Aspose.3D, hãy truy cập[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

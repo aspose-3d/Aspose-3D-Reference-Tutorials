@@ -3,10 +3,16 @@ title: Eksportowanie do formatu PLY jako chmury punktów
 linktitle: Eksportowanie do formatu PLY jako chmury punktów
 second_title: Aspose.3D API .NET
 description: Poznaj świat modelowania 3D z Aspose.3D dla .NET. Dowiedz się, jak bez wysiłku eksportować modele do formatu PLY. Ulepsz swoje projekty dzięki oszałamiającym efektom wizualnym.
-type: docs
 weight: 16
 url: /pl/net/loading-and-saving/ply/export-to-ply-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eksportowanie do formatu PLY jako chmury punktów
+
 ## Wstęp
 dynamicznym świecie modelowania i programowania 3D Aspose.3D dla .NET wyróżnia się jako potężny zestaw narzędzi. Ten samouczek poprowadzi Cię przez proces eksportowania modeli 3D do formatu PLY jako chmury punktów przy użyciu Aspose.3D dla .NET. Jeśli chcesz ulepszyć swoje projekty za pomocą oszałamiających efektów wizualnych, postępuj zgodnie z nimi i odblokuj pełny potencjał tej wszechstronnej biblioteki.
 ## Warunki wstępne
@@ -59,3 +65,9 @@ Aspose.3D obsługuje różne platformy .NET, zapewniając kompatybilność w sze
  Tak, poznaj funkcje za pomocą a[bezpłatna wersja próbna](https://releases.aspose.com/) przed podjęciem zobowiązania.
 ### 5. Jak uzyskać licencję tymczasową?
  Informacje na temat opcji licencjonowania tymczasowego można znaleźć na stronie[ten link](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

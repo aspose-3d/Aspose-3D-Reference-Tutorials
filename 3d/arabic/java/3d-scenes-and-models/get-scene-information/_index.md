@@ -3,10 +3,16 @@ title: استرجاع المعلومات من المشاهد ثلاثية الأ
 linktitle: استرجاع المعلومات من المشاهد ثلاثية الأبعاد في تطبيقات Java
 second_title: Aspose.3D جافا API
 description: استكشف عالم معالجة المشهد ثلاثي الأبعاد في Java باستخدام Aspose.3D. يرشدك هذا البرنامج التعليمي خلال عملية استرجاع المعلومات خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/java/3d-scenes-and-models/get-scene-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استرجاع المعلومات من المشاهد ثلاثية الأبعاد في تطبيقات Java
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول استرداد المعلومات من المشاهد ثلاثية الأبعاد في تطبيقات Java باستخدام Aspose.3D. إذا كنت مطور Java وتتطلع إلى تحسين قدرات تطبيقك من خلال معالجة المشهد ثلاثي الأبعاد، فأنت في المكان الصحيح. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة، مما يضمن استيعاب كل مفهوم بدقة.
@@ -99,3 +105,9 @@ System.out.println("\nAsset information added successfully to Scene.\nFile saved
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟
 
  ج5: احصل على ترخيص مؤقت لأغراض الاختبار[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

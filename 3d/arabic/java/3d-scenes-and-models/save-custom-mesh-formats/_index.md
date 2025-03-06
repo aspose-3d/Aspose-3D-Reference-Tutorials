@@ -3,10 +3,16 @@ title: حفظ الشبكات ثلاثية الأبعاد بتنسيقات ثنا
 linktitle: حفظ الشبكات ثلاثية الأبعاد بتنسيقات ثنائية مخصصة لتحقيق المرونة في Java
 second_title: Aspose.3D جافا API
 description: تعرف على كيفية حفظ الشبكات ثلاثية الأبعاد بتنسيقات ثنائية مخصصة باستخدام Aspose.3D لـ Java. عزز المرونة في تطبيقات Java من خلال هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 13
 url: /ar/java/3d-scenes-and-models/save-custom-mesh-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ الشبكات ثلاثية الأبعاد بتنسيقات ثنائية مخصصة لتحقيق المرونة في Java
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي خطوة بخطوة حول حفظ الشبكات ثلاثية الأبعاد بتنسيقات ثنائية مخصصة لتحقيق المرونة في Java باستخدام Aspose.3D. في هذا الدليل، سنرشدك خلال عملية تحويل الشبكات ثلاثية الأبعاد وحفظها بتنسيق ثنائي مخصص لتعزيز المرونة وقابلية التشغيل التفاعلي في تطبيقات Java الخاصة بك.
@@ -124,3 +130,9 @@ try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new
 ### س5: هل يمكنني تخصيص التنسيق الثنائي بشكل أكبر لمتطلبات محددة؟
 
 ج5: بالتأكيد، لا تتردد في تعديل التنسيق الثنائي ليناسب الاحتياجات المحددة للتطبيق الخاص بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

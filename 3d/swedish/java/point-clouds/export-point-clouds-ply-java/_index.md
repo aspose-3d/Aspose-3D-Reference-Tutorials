@@ -3,10 +3,16 @@ title: Exportera punktmoln till PLY-format med Aspose.3D för Java
 linktitle: Exportera punktmoln till PLY-format med Aspose.3D för Java
 second_title: Aspose.3D Java API
 description: Utforska kraften i Aspose.3D för Java vid export av punktmoln till PLY-format. Följ vår steg-för-steg-guide för sömlös 3D-utveckling.
-type: docs
 weight: 13
 url: /sv/java/point-clouds/export-point-clouds-ply-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportera punktmoln till PLY-format med Aspose.3D för Java
+
 ## Introduktion
 
 Välkommen till den här omfattande guiden om att exportera punktmoln till PLY-format med Aspose.3D för Java. Aspose.3D är ett kraftfullt Java-bibliotek som låter utvecklare arbeta med 3D-filer, vilket ger en sömlös upplevelse av att hantera och manipulera olika 3D-format. I den här handledningen kommer vi att fokusera på att exportera punktmoln till PLY-formatet, ett allmänt använt filformat för att representera 3D-data.
@@ -81,3 +87,9 @@ A1: Aspose.3D är i första hand designad för Java, men Aspose tillhandahåller
 ### F5: Var kan jag köpa Aspose.3D för Java?
 
  A5: Köp Aspose.3D för Java[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

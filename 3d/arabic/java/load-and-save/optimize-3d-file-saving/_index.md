@@ -3,10 +3,16 @@ title: تحسين حفظ الملفات ثلاثية الأبعاد في Java ب
 linktitle: تحسين حفظ الملفات ثلاثية الأبعاد في Java باستخدام Aspose.3D SaveOptions
 second_title: Aspose.3D جافا API
 description: تعرف على كيفية تحسين حفظ الملفات ثلاثية الأبعاد في Java باستخدام Aspose.3D SaveOptions. تعزيز الأداء وتخصيص المخرجات دون عناء.
-type: docs
 weight: 16
 url: /ar/java/load-and-save/optimize-3d-file-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحسين حفظ الملفات ثلاثية الأبعاد في Java باستخدام Aspose.3D SaveOptions
+
 ## مقدمة
 
 Aspose.3D هي مكتبة Java غنية بالميزات تمكن المطورين من العمل مع النماذج ثلاثية الأبعاد بسلاسة. عندما يتعلق الأمر بحفظ الملفات ثلاثية الأبعاد، توفر فئة SaveOptions عددًا كبيرًا من الإعدادات لضبط الإخراج وفقًا لمتطلباتك. في هذا البرنامج التعليمي، سنستكشف خيارات الحفظ المختلفة وكيف يمكن الاستفادة منها لتحسين العملية.
@@ -119,3 +125,9 @@ public static void html5SaveOption() throws IOException {
 ### س 5: هل هناك طريقة لحفظ التبعيات إلى دليل محلي في ملف OBJ؟
 
  ج5: نعم، استخدم`setFileSystem(new LocalFileSystem(MyDir))` الطريقة في`ObjSaveOptions` فئة لحفظ التبعيات محليا.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

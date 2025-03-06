@@ -3,10 +3,16 @@ title: Aspose.3D を使用して Java の 3D オブジェクトにマテリア�
 linktitle: Aspose.3D を使用して Java の 3D オブジェクトにマテリアルを適用する
 second_title: Aspose.3D Java API
 description: Aspose.3D for Java を使用して 3D グラフィックスの世界を探索してください。マテリアルを 3D オブジェクトにシームレスに適用する方法を学びます。リアルなビジュアルでプロジェクトを向上させます。
-type: docs
 weight: 14
 url: /ja/java/geometry/apply-materials-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D を使用して Java の 3D オブジェクトにマテリアルを適用する
+
 ## 導入
 
 3D グラフィックスの動的な世界では、Aspose.3D for Java はプロジェクトに命を吹き込む強力なツールとして際立っています。 3D オブジェクトにマテリアルを追加すると、視覚的な魅力が高まり、よりリアルになります。このチュートリアルでは、Aspose.3D for Java を使用してマテリアルを 3D キューブに適用するプロセスを説明します。
@@ -165,3 +171,9 @@ A1: はい、Aspose.3D を使用すると、3D オブジェクトのさまざま
 ### Q5: 特定のリンクから Aspose.3D ライブラリをダウンロードできますか?
 
  A5: はい、使用してください。[ダウンロードリンク](https://releases.aspose.com/3d/java/) Aspose.3D for Java の最新バージョンにアクセスします。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

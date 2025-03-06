@@ -3,10 +3,16 @@ title: Travailler avec des données de géométrie de maillage
 linktitle: Travailler avec des données de géométrie de maillage
 second_title: API Aspose.3D .NET
 description: Maîtrisez l'art de la programmation graphique 3D avec Aspose.3D pour .NET. Créez, manipulez et enregistrez de superbes scènes 3D sans effort.
-type: docs
 weight: 15
 url: /fr/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec des données de géométrie de maillage
+
 ## Introduction
 
 Bienvenue dans le monde passionnant de la programmation graphique 3D avec Aspose.3D pour .NET ! Dans ce didacticiel, nous aborderons les subtilités de l'utilisation des données de géométrie de maillage dans des scènes 3D à l'aide d'Aspose.3D, une bibliothèque puissante et polyvalente pour les développeurs .NET. Que vous soyez un programmeur chevronné ou que vous débutiez tout juste avec les graphiques 3D, ce guide étape par étape vous aidera à maîtriser l'art de gérer les données géométriques de maillage sans effort.
@@ -126,3 +132,9 @@ A1 : Aspose.3D est principalement conçu pour .NET, mais vous pouvez explorer d'
 ### Q5 : Quels formats de fichiers sont pris en charge pour enregistrer des scènes 3D ?
 
  A5 : Aspose.3D prend en charge divers formats de fichiers, notamment FBX, STL, etc. Se référer au[Documentation](https://reference.aspose.com/3d/net/) pour une liste complète.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

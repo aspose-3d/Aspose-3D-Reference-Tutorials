@@ -3,10 +3,16 @@ title: Aspose.3D for Java での線形押し出しの実行
 linktitle: Aspose.3D for Java での線形押し出しの実行
 second_title: Aspose.3D Java API
 description: Aspose.3D for Java を使用して 3D モデリングの世界を探索してください。直線押し出しを簡単に実行する方法を学びましょう。
-type: docs
 weight: 10
 url: /ja/java/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java での線形押し出しの実行
+
 ## 導入
 
 Aspose.3D for Java で線形押し出しを実行するためのこの包括的なチュートリアルへようこそ! Java を使用して 3D モデリングのスキルを向上させたい場合は、ここが正しい場所です。このチュートリアルでは、3D モデリング用の強力な Java ライブラリである Aspose.3D を使用して線形押し出しを実行するプロセスを説明します。
@@ -104,3 +110,9 @@ A2: はい、Aspose.3D は個人プロジェクトと商用プロジェクトの
 ### Q5: Aspose.3D の無料トライアルはありますか?
 
  A5: はい、無料トライアルにアクセスできます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

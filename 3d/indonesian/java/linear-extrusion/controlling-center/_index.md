@@ -3,10 +3,16 @@ title: Pusat Pengendalian dalam Ekstrusi Linier dengan Aspose.3D untuk Java
 linktitle: Pusat Pengendalian dalam Ekstrusi Linier dengan Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Jelajahi dunia grafis 3D di Java dengan Aspose.3D. Kontrol bagian tengah dalam ekstrusi linier dengan mudah.
-type: docs
 weight: 11
 url: /id/java/linear-extrusion/controlling-center/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pusat Pengendalian dalam Ekstrusi Linier dengan Aspose.3D untuk Java
+
 ## Perkenalan
 
 Dalam dunia grafik 3D dan pemrograman Java, mengendalikan pusat dalam ekstrusi linier memainkan peran penting dalam mencapai efek yang diinginkan dalam proyek Anda. Aspose.3D untuk Java menyediakan toolkit yang kuat untuk menangani tugas-tugas tersebut dengan lancar. Dalam tutorial ini, kita akan mendalami proses pengendalian pusat dalam ekstrusi linier menggunakan Aspose.3D untuk Java, menguraikan setiap langkah untuk memastikan pemahaman yang lancar dan komprehensif.
@@ -126,3 +132,9 @@ A4: Ya, jika Anda memerlukan lisensi sementara untuk tujuan pengujian, Anda bisa
 ### Q5: Di mana saya dapat menemukan dokumentasinya?
 
  A5: Dokumentasi Aspose.3D untuk Java tersedia[Di Sini](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

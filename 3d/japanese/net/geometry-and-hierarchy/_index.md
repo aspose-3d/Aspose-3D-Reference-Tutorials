@@ -3,10 +3,16 @@ title: ジオメトリと階層
 linktitle: ジオメトリと階層
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET チュートリアルで 3D グラフィックスの世界を解き放ちます。 PBR マテリアルの適用から幾何学的変換まで、あらゆる側面を簡単にマスターできます。
-type: docs
 weight: 25
 url: /ja/net/geometry-and-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ジオメトリと階層
+
 ## 導入
 
 Aspose.3D for .NET チュートリアルを使用して、3D グラフィックスの領域へのスリリングな旅に乗り出しましょう。初心者でも経験豊富な開発者でも、これらのステップバイステップのガイドはスキルを向上させ、シームレスな 3D グラフィックス操作の秘密を明らかにすることを約束します。
@@ -72,3 +78,9 @@ Aspose.3D for .NET を使用して、3D シーン内のノードを簡単に変�
 3D メッシュを簡単に三角形分割するためのこのステップバイステップ ガイドを使用して、Aspose.3D for .NET の威力を体験してください。モデリング スキルを向上させて、より没入感のある体験を実現します。[続きを読む](./triangulate-mesh/)
 
 Aspose.3D for .NET チュートリアルのこのエキサイティングな旅に乗り出し、3D グラフィックスの専門知識を高めてください。各チュートリアルに取り組み、手順に従って、スキルが新たな高みに上昇するのを見てください。コーディングを楽しんでください!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

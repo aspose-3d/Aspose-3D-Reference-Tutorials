@@ -3,10 +3,16 @@ title: Buat Point Clouds dari Meshes di Java
 linktitle: Buat Point Clouds dari Meshes di Java
 second_title: Asumsikan.3D Java API
 description: Jelajahi dunia pemodelan 3D di Java dengan Aspose.3D. Pelajari cara membuat awan titik dari jerat dengan mudah.
-type: docs
 weight: 12
 url: /id/java/point-clouds/create-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Point Clouds dari Meshes di Java
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang membuat point cloud dari mesh di Java menggunakan Aspose.3D. Aspose.3D adalah perpustakaan Java yang kuat yang menyediakan fungsionalitas luas untuk pemodelan dan manipulasi 3D. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan point cloud dari mesh, menawarkan langkah-langkah yang jelas dan mendetail untuk pengalaman yang mulus.
@@ -83,3 +89,9 @@ Selamat! Anda telah berhasil mempelajari cara membuat point cloud dari mesh di J
 ### Q5: Di mana saya dapat menemukan dokumentasinya?
 
  A5: Lihat[dokumentasi](https://reference.aspose.com/3d/java/) untuk informasi rinci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

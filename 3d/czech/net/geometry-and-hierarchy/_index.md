@@ -3,10 +3,16 @@ title: Geometrie a hierarchie
 linktitle: Geometrie a hierarchie
 second_title: Aspose.3D .NET API
 description: Odemkněte svět 3D grafiky pomocí výukových programů Aspose.3D for .NET. Od aplikace materiálů PBR po geometrické transformace, zvládnete každý aspekt bez námahy.
-type: docs
 weight: 25
 url: /cs/net/geometry-and-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geometrie a hierarchie
+
 ## Úvod
 
 Vydejte se na vzrušující cestu do říše 3D grafiky s návody Aspose.3D for .NET. Ať už jste začátečník nebo ostřílený vývojář, tyto podrobné příručky slibují, že zvýší vaše dovednosti a odhalí tajemství bezproblémové manipulace s 3D grafikou.
@@ -72,3 +78,9 @@ Ponořte se do světa quaternionových transformací s Aspose.3D pro .NET. Tato 
  Prozkoumejte sílu Aspose.3D pro .NET pomocí tohoto podrobného průvodce jednoduchým triangulací 3D sítí. Vylepšete své modelovací dovednosti a získáte pohlcující zážitek.[Přečtěte si více](./triangulate-mesh/)
 
 Vydejte se na tuto vzrušující cestu výukových programů Aspose.3D for .NET a pozvedněte své znalosti 3D grafiky. Ponořte se do každého tutoriálu, postupujte podle kroků a sledujte, jak vaše dovednosti stoupají do nových výšin. Šťastné kódování!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

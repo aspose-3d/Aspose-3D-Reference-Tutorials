@@ -3,10 +3,16 @@ title: 접선 및 종법선 데이터 구축
 linktitle: 접선 및 종법선 데이터 구축
 second_title: Aspose.3D .NET API
 description: 접선 및 종법선 데이터의 강력한 기능을 활용하여 3D 모델을 최적화하여 보다 부드러운 렌더링, 보다 빠른 로딩 시간 및 성능 향상을 달성하세요.
-type: docs
 weight: 10
 url: /ko/net/meshes/build-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 접선 및 종법선 데이터 구축
+
 ## 소개
 느린 3D 모델로 인해 프로젝트가 지연되는 좌절감을 느낀 적이 있습니까? 동료 개발자 여러분, 걱정하지 마십시오. 원활한 항해의 비결은 접선 및 종법선 데이터에 있습니다. 이 알려지지 않은 영웅들은 메시 렌더링을 최적화하여 모델이 어떤 무대에서든 오페라 디바처럼 노래하도록 만듭니다. 하지만 우리는 그들의 힘을 어떻게 활용합니까? 두려워하지 마십시오. 이 포괄적인 가이드는 단 몇 번의 클릭만으로 탄젠트 및 종법선 데이터의 마법을 풀 수 있는 .NET용 Aspose.3D 툴킷을 제공합니다!
 
@@ -85,3 +91,9 @@ Aspose.3D는 OBJ, STL 및 glTF와 같은 다양한 형식을 지원합니다. �
  Aspose.3D에는 포괄적인 문서 포털이 있습니다.[여기](https://docs.aspose.com/3d/net/) 또한 Aspose 커뮤니티 포럼은 다음과 같습니다.[여기](https://forum.aspose.com/) 항상 도움이 되는 개발자들로 윙윙거립니다.
 ### 상업용 프로젝트에 Aspose.3D를 사용할 수 있나요? 
  예! Aspose.3D는 귀하의 필요에 맞는 다양한 라이센스 옵션을 제공합니다. 가격 페이지를 확인하세요.[여기](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

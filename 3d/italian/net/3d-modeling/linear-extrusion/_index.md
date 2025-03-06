@@ -3,10 +3,16 @@ title: Estrusione lineare
 linktitle: Estrusione lineare
 second_title: API Aspose.3D .NET
 description: Sblocca la creatività 3D con Aspose.3D per tutorial .NET. Padroneggia le tecniche di estrusione lineare, migliora i design ed eleva i tuoi progetti senza sforzo.
-type: docs
 weight: 31
 url: /it/net/3d-modeling/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Estrusione lineare
+
 ## introduzione
 | Explore the dynamic realm of [3D modeling](./center-in-linear-extrusion/) through Aspose.3D for .NET tutorials, focusing on various aspects of linear extrusion. Master the art of [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), and incorporating [twist offsets](./twist-offset-in-linear-extrusion/) in your designs. Each tutorial is a gateway to unlocking new dimensions of creativity in 3D graphics. Dive into the captivating world of Aspose.3D for .NET and unleash your imagination. |
 
@@ -42,3 +48,9 @@ Esplora il mondo della progettazione 3D con Aspose.3D per .NET. Crea modelli str
 Esplora l'accattivante mondo della grafica 3D con Aspose.3D per .NET. Impara passo dopo passo l'estrusione lineare con una svolta.
 ### [Offset torsione nell'estrusione lineare](./twist-offset-in-linear-extrusion/)
 Esplora la magia di Aspose.3D per .NET con la nostra guida passo passo su Twist Offset nell'estrusione lineare. Migliora i tuoi progetti 3D senza sforzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

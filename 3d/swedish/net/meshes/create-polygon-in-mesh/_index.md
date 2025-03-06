@@ -3,10 +3,16 @@ title: Skapa en polygon i mesh
 linktitle: Skapa en polygon i mesh
 second_title: Aspose.3D .NET API
 description: Utforska världen av 3D-modellering med Aspose.3D för .NET. Skapa fantastiska polygoner i maskor utan ansträngning. Ladda ner nu för en uppslukande utvecklingsupplevelse!
-type: docs
 weight: 18
 url: /sv/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa en polygon i mesh
+
 ## Introduktion
 Är du redo att dyka in i den spännande världen av 3D-modellering med Aspose.3D för .NET? Om du är en utvecklare som vill förbättra dina färdigheter eller en nykomling som är intresserad av att skapa fantastiska 3D-nät, är du på rätt plats. I den här omfattande handledningen guidar vi dig genom processen att skapa en polygon i ett nät med Aspose.3D.
 ## Förutsättningar
@@ -59,3 +65,9 @@ S: Aspose.3D för .NET är främst designad för Windows-miljöer. Du kan dock u
  S: Utforska det omfattande[dokumentation](https://reference.aspose.com/3d/net/) tillgänglig för djupgående insikter.
 ### F: Hur köper jag Aspose.3D för .NET?
  A: Besök[köpsidan](https://purchase.aspose.com/buy) för att förvärva din licens och låsa upp Aspose.3Ds fulla potential.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

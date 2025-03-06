@@ -3,10 +3,16 @@ title: Vytváření 3D modelů pomocí lineárního vytlačování v Javě
 linktitle: Vytváření 3D modelů pomocí lineárního vytlačování v Javě
 second_title: Aspose.3D Java API
 description: Prozkoumejte svět 3D modelování s Aspose.3D pro Java. Ovládněte lineární vytlačování bez námahy. Ovládací centrum, nastavení směru, určení řezů, použití twistu a další!
-type: docs
 weight: 23
 url: /cs/java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytváření 3D modelů pomocí lineárního vytlačování v Javě
+
 ## Úvod
 
 
@@ -62,3 +68,9 @@ Naučte se specifikovat řezy v lineárním vytlačování pomocí Aspose.3D for
 Naučte se, jak přidat šmrnc svým 3D modelům pomocí Aspose.3D for Java. Postupujte podle našeho podrobného průvodce pro vylepšené efekty lineárního vytlačování.
 ### [Použití Twist Offsetu v lineárním vytlačování s Aspose.3D pro Javu](./using-twist-offset/)
 Vylepšete své dovednosti v oblasti 3D modelování pomocí Aspose.3D for Java. Naučte se používat Twist Offset v lineárním vytlačování v tomto komplexním tutoriálu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 3B Meshleri Özel İkili Formatta Kaydetme
 linktitle: 3B Meshleri Özel İkili Formatta Kaydetme
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D dünyasını keşfedin. Kafesleri özel ikili formatta kaydetmeyi öğrenin.
-type: docs
 weight: 13
 url: /tr/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3B Meshleri Özel İkili Formatta Kaydetme
+
 ## giriiş
 
 Geliştiricilerin 3D dosyalarla zahmetsizce çalışmasını sağlayan güçlü bir kütüphane olan Aspose.3D for .NET dünyasına hoş geldiniz. Bu eğitimde, Aspose.3D for .NET kullanarak 3D mesh'leri özel bir ikili formatta kaydetme sürecini inceleyeceğiz. Bu kılavuz, temel C# bilgisine sahip olduğunuzu ve Aspose.3D kütüphanesine aşina olduğunuzu varsaymaktadır.
@@ -142,3 +148,9 @@ Cevap1: Aspose.3D öncelikli olarak .NET dillerini destekler ancak diğer diller
 ### S5: Aspose.3D for .NET'i satın alabilir miyim?
 
  Cevap5: Evet, Aspose.3D'yi şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

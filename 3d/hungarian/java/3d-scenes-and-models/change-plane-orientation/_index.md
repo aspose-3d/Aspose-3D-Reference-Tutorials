@@ -3,10 +3,16 @@ title: Módosítsa a sík tájolását a precíz 3D-s jelenet pozicionáláshoz 
 linktitle: Módosítsa a sík tájolását a precíz 3D-s jelenet pozicionáláshoz Java nyelven
 second_title: Aspose.3D Java API
 description: Javítsa a 3D-s jelenetpozícionálást Java nyelven az Aspose.3D segítségével. Módosítsa a sík tájolását a pontosság érdekében. Töltse le most a lenyűgöző vizuális élményért.
-type: docs
 weight: 10
 url: /hu/java/3d-scenes-and-models/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Módosítsa a sík tájolását a precíz 3D-s jelenet pozicionáláshoz Java nyelven
+
 ## Bevezetés
 
 Üdvözöljük lépésről lépésre szóló útmutatónkban a 3D-s jelenetpozicionálás javításáról Java nyelven az Aspose.3D használatával. Ez az oktatóanyag a sík tájolásának módosításával foglalkozik a precíz 3D-s jelenetpozícionálás érdekében, lehetővé téve, hogy vizuálisan lenyűgöző és pontosan elhelyezett jeleneteket készítsen.
@@ -114,3 +120,9 @@ Az alábbi lépések követésével sikeresen módosította a sík tájolását 
 ### 5. kérdés: Van ideiglenes licencelési lehetőség?
 
  V5: Igen, ha ideiglenes engedélyre van szüksége, beszerezhet egyet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

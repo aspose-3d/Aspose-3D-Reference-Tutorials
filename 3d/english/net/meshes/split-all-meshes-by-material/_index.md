@@ -3,10 +3,16 @@ title: Splitting All Meshes of Scene by Material
 linktitle: Splitting All Meshes of Scene by Material
 second_title: Aspose.3D .NET API
 description: Learn how to split 3D meshes by material using Aspose.3D for .NET. Follow our step-by-step guide for efficient organization and management of 3D models.
-type: docs
 weight: 21
 url: /net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Splitting All Meshes of Scene by Material
+
 ## Introduction
 Welcome to this step-by-step guide on splitting all meshes of a 3D scene by material using Aspose.3D for .NET. If you're working with 3D models and want to efficiently organize your meshes based on materials, this tutorial is for you. Aspose.3D is a powerful .NET library that provides a range of features for working with 3D files, making it an excellent choice for developers.
 ## Prerequisites
@@ -66,3 +72,10 @@ Explore the comprehensive documentation at [Aspose.3D Documentation](https://ref
 Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community support and discussions.
 ### 5. Can I obtain a temporary license?
 Yes, you can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Trích xuất tất cả cảnh 3D
 linktitle: Trích xuất tất cả cảnh 3D
 second_title: API Aspose.3D .NET
 description: Khám phá khả năng phát triển 3D vô hạn với Aspose.3D cho .NET. Tải, lưu và trích xuất cảnh một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/loading-and-saving/pdf/extract-all-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất tất cả cảnh 3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới thú vị của Aspose.3D dành cho .NET, một thư viện tiên tiến cho phép các nhà phát triển dễ dàng thao tác và xử lý cảnh 3D trong ứng dụng của họ. Trong hướng dẫn từng bước này, chúng tôi sẽ đi sâu vào các khía cạnh cơ bản của việc tải, lưu và trích xuất cảnh 3D bằng Aspose.3D cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới làm quen với lĩnh vực đồ họa 3D, hướng dẫn này được tạo ra để mang đến cho bạn trải nghiệm học tập liền mạch.
@@ -93,3 +99,9 @@ A2: Chắc chắn rồi! Aspose.3D phục vụ cho các nhà phát triển làm 
 ### Câu 5: Cần hỗ trợ hoặc muốn kết nối với cộng đồng Aspose.3D?
 
  A5: Truy cập diễn đàn hỗ trợ của chúng tôi[đây](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

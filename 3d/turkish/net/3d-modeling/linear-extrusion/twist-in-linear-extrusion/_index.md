@@ -3,10 +3,16 @@ title: Doğrusal Ekstrüzyonda Büküm
 linktitle: Doğrusal Ekstrüzyonda Büküm
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D grafiklerin büyüleyici dünyasını keşfedin. Twist ile Doğrusal Ekstrüzyonu adım adım öğrenin.
-type: docs
 weight: 14
 url: /tr/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Doğrusal Ekstrüzyonda Büküm
+
 ## giriiş
 
 Sürekli gelişen .NET geliştirme dünyasında, 3D grafiklerin gücünden yararlanmak heyecan verici bir çabadır. Aspose.3D for .NET, geliştiricilerin sürükleyici ve görsel olarak etkileyici uygulamaları sorunsuz bir şekilde oluşturmasına olanak tanıyan değerli bir araç seti olarak ortaya çıkıyor. Bu kapsamlı kılavuzda ilgi çekici bir özelliği inceleyeceğiz: Twist ile Doğrusal Ekstrüzyon. Bu eğitim size süreci adım adım anlatacak ve Aspose.3D for .NET'in potansiyelini ortaya çıkaracak.
@@ -118,3 +124,9 @@ A4: Kesinlikle! Aspose.3D zengin bir dizi özellik sunar. Daha karmaşık tasar�
 ### S5: Aspose.3D desteği ve tartışmaları için bir topluluk var mı?
 
  C5: Evet, Aspose.3D topluluğuna şu adresten katılın:[Aspose Forumu](https://forum.aspose.com/c/3d/18) Destek ve ilgi çekici tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

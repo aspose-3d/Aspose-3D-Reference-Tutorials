@@ -3,10 +3,16 @@ title: Korzystanie z tokena anulowania
 linktitle: Korzystanie z tokena anulowania
 second_title: Aspose.3D API .NET
 description: Poznaj płynny świat modelowania 3D dzięki Aspose.3D dla .NET. Naucz się efektywnie ładować i zapisywać dokumenty 3D za pomocą CancellationToken.
-type: docs
 weight: 10
 url: /pl/net/loading-and-saving/cancellation-token/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Korzystanie z tokena anulowania
+
 ## Wstęp
 
 Witamy w naszym obszernym przewodniku na temat wykorzystania Aspose.3D dla .NET do ulepszenia projektów modelowania i renderowania 3D. Aspose.3D to potężna biblioteka, która umożliwia programistom .NET bezproblemową pracę z plikami 3D. W tym samouczku zagłębimy się w aspekty ładowania i zapisywania, koncentrując się w szczególności na wykorzystaniu tokena anulowania do wydajnego zarządzania zadaniami asynchronicznymi.
@@ -120,3 +126,9 @@ Gratulacje! Pomyślnie przeszedłeś przez proces używania Aspose.3D dla .NET z
 ### P5: Jaka jest najnowsza wersja Aspose.3D dla .NET?
 
  A5: Bądź na bieżąco, sprawdzając[strona pobierania](https://releases.aspose.com/3d/net/) dla najnowszego wydania.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

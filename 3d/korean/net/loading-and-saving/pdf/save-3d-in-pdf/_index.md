@@ -3,10 +3,16 @@ title: PDF로 3D 저장
 linktitle: PDF로 3D 저장
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 살펴보세요. 원활한 3D 모델링 및 렌더링을 위한 유용한 라이브러리입니다. 3D 모델을 PDF로 손쉽게 저장하세요.
-type: docs
 weight: 19
 url: /ko/net/loading-and-saving/pdf/save-3d-in-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PDF로 3D 저장
+
 ## 소개
 
 .NET용 Aspose.3D 사용에 대한 종합 가이드에 오신 것을 환영합니다! 이 튜토리얼에서는 3D 모델을 PDF 형식으로 저장하는 특정 작업에 중점을 두고 3D 모델을 로드하고 저장하는 과정을 안내합니다. .NET용 Aspose.3D는 3D 파일 작업을 위한 효율적인 도구를 제공하는 강력한 라이브러리로, 해당 분야의 개발자와 매니아에게 필수적인 리소스입니다.
@@ -98,3 +104,9 @@ A2: 물론이죠! 튜토리얼에 표시된 대로 렌더링 모드, 조명 구�
 ### Q5: .NET용 Aspose.3D의 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: 임시 면허를 받으려면 다음을 방문하세요.[이 링크](https://purchase.aspose.com/temporary-license/) 제공된 지침을 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

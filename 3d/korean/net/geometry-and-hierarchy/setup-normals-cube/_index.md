@@ -3,10 +3,16 @@ title: 큐브의 법선 설정
 linktitle: 큐브의 법선 설정
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 큐브에 법선을 설정하는 방법을 알아보세요. 이 단계별 가이드를 통해 3D 모델링 기술을 향상하세요.
-type: docs
 weight: 17
 url: /ko/net/geometry-and-hierarchy/setup-normals-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 큐브의 법선 설정
+
 ## 소개
 
 .NET용 Aspose.3D를 사용하여 3D 장면의 큐브에 법선을 설정하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.3D는 .NET 개발자가 3D 파일로 작업할 수 있도록 지원하는 강력한 라이브러리로, 3D 모델링 및 조작을 위한 광범위한 기능을 제공합니다.
@@ -100,3 +106,9 @@ A2: 물론이죠! 다음에서 무료 평가판을 다운로드할 수 있습니
 ### Q5: Aspose.3D를 학습하기 위한 추가 리소스가 있습니까?
 
  A5: 광범위한 탐색[선적 서류 비치](https://reference.aspose.com/3d/net/) 더 많은 기능과 팁을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

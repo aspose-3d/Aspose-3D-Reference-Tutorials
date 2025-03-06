@@ -3,10 +3,16 @@ title: Optimisation et utilisation des données de maillage 3D en Java
 linktitle: Optimisation et utilisation des données de maillage 3D en Java
 second_title: API Java Aspose.3D
 description: Optimisez vos applications 3D avec Aspose.3D pour Java. Apprenez à compresser des maillages avec Google Draco, à générer des données de maillage et à traiter efficacement les maillages 3D par matériau.
-type: docs
 weight: 32
 url: /fr/java/3d-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optimisation et utilisation des données de maillage 3D en Java
+
 ## Introduction
 
 Êtes-vous prêt à élever vos compétences en développement 3D en Java ? Plongez dans le monde d'Aspose.3D, où nous vous proposons des didacticiels complets sur l'optimisation et l'utilisation des données de maillage 3D. Que vous soyez un développeur chevronné ou débutant, ces tutoriels vous permettront d'améliorer vos projets Java sans effort.
@@ -31,3 +37,9 @@ Optimisez vos applications 3D avec Aspose.3D. Apprenez à compresser des maillag
 Améliorez vos projets Java avec Aspose.3D. Suivez notre tutoriel pour générer sans effort des données normales pour les maillages 3D. Plongez facilement dans les graphiques 3D.
 ### [Diviser les maillages 3D par matériau pour un traitement efficace en Java](./split-meshes-by-material/)
 Explorez la puissance d'Aspose.3D en Java avec notre guide étape par étape sur la division efficace des maillages 3D par matériau. Améliorez les performances de votre application en toute transparence.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

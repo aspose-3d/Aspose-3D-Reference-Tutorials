@@ -3,10 +3,16 @@ title: Mengekstraksi Informasi ke Aset Adegan
 linktitle: Mengekstraksi Informasi ke Aset Adegan
 second_title: Aspose.3D .NET API
 description: Sempurnakan adegan 3D Anda dengan mudah dengan Aspose.3D untuk .NET. Pelajari cara menambahkan informasi aset berharga selangkah demi selangkah. Unduh sekarang untuk pengalaman 3D yang dinamis.
-type: docs
 weight: 10
 url: /id/net/3d-scene/information-to-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekstraksi Informasi ke Aset Adegan
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang penggunaan Aspose.3D untuk .NET untuk mengekstrak informasi berharga dan menyempurnakan adegan 3D Anda. Aspose.3D adalah perpustakaan canggih yang memberdayakan pengembang untuk memanipulasi adegan 3D dengan mulus dalam aplikasi .NET. Dalam tutorial ini, kita akan fokus pada tugas penting menambahkan informasi aset ke sebuah scene.
@@ -96,3 +102,9 @@ A1: Aspose.3D terutama mendukung bahasa .NET, namun Anda dapat menjelajahi opsi 
 ### Q5: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.3D untuk .NET?
 
  A5: Lihat[dokumentasi](https://reference.aspose.com/3d/net/) untuk informasi mendalam.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

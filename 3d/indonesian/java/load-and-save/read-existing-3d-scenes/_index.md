@@ -3,10 +3,16 @@ title: Baca Adegan 3D yang Ada dengan Mudah di Java dengan Aspose.3D
 linktitle: Baca Adegan 3D yang Ada dengan Mudah di Java dengan Aspose.3D
 second_title: Asumsikan.3D Java API
 description: Jelajahi dunia grafis 3D dengan Aspose.3D untuk Java. Membaca dan memanipulasi adegan 3D yang ada dengan mudah.
-type: docs
 weight: 14
 url: /id/java/load-and-save/read-existing-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Baca Adegan 3D yang Ada dengan Mudah di Java dengan Aspose.3D
+
 ## Perkenalan
 
 Jika Anda mendalami dunia grafis dan desain 3D menggunakan Java, Anda siap menikmatinya. Aspose.3D untuk Java adalah perpustakaan canggih yang menyederhanakan proses bekerja dengan adegan 3D. Dalam tutorial ini, kami akan memandu Anda melalui langkah-langkah membaca adegan 3D yang ada dengan mudah, membuka kemungkinan besar untuk modifikasi, penambahan, dan pemrosesan.
@@ -104,3 +110,9 @@ A2: Meskipun Aspose.3D sangat canggih, dokumen 3D berskala besar mungkin memerlu
 ### Q5: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.3D untuk Java?
 
 A5: Dokumentasi lengkap tersedia[Di Sini](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

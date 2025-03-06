@@ -3,10 +3,16 @@ title: Membuat Silinder dengan Offset Top di Aspose.3D untuk Java
 linktitle: Membuat Silinder dengan Offset Top di Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Jelajahi keajaiban pemodelan 3D di Java dengan Aspose.3D. Pelajari cara membuat silinder menawan dengan bagian atas offset dengan mudah.
-type: docs
 weight: 11
 url: /id/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Silinder dengan Offset Top di Aspose.3D untuk Java
+
 ## Perkenalan
 
 Di bidang pemodelan 3D berbasis Java, Aspose.3D menonjol sebagai alat yang ampuh, menawarkan kepada pengembang kemampuan untuk membuat adegan 3D yang rumit dengan mudah. Dalam tutorial ini, kita akan mempelajari dunia Aspose.3D untuk Java yang menarik, dengan fokus pada tugas tertentu – membuat silinder dengan bagian atas offset. Di akhir panduan ini, Anda akan memahami prosesnya dengan baik, memungkinkan Anda mengintegrasikan fitur ini dengan mulus ke dalam proyek 3D Anda.
@@ -127,3 +133,9 @@ A3: Ya, Anda dapat mengeksplorasi dan memilih opsi lisensi yang sesuai dengan ke
 ### Q5: Apakah ada opsi lisensi sementara untuk tujuan pengujian?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara untuk tujuan pengujian dan evaluasi[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

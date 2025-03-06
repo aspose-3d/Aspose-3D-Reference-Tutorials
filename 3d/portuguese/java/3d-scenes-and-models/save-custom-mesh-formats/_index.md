@@ -3,10 +3,16 @@ title: Salve malhas 3D em formatos binários personalizados para flexibilidade e
 linktitle: Salve malhas 3D em formatos binários personalizados para flexibilidade em Java
 second_title: API Java Aspose.3D
 description: Aprenda como salvar malhas 3D em formatos binários personalizados usando Aspose.3D para Java. Aumente a flexibilidade em aplicativos Java com este tutorial passo a passo.
-type: docs
 weight: 13
 url: /pt/java/3d-scenes-and-models/save-custom-mesh-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salve malhas 3D em formatos binários personalizados para flexibilidade em Java
+
 ## Introdução
 
 Bem-vindo a este tutorial passo a passo sobre como salvar malhas 3D em formatos binários personalizados para flexibilidade em Java usando Aspose.3D. Neste guia, orientaremos você no processo de conversão de malhas 3D e salvamento delas em um formato binário personalizado para aumentar a flexibilidade e a interoperabilidade em seus aplicativos Java.
@@ -124,3 +130,9 @@ A4: A documentação do Aspose.3D pode incluir modelos de amostra ou você pode 
 ### Q5: Posso personalizar ainda mais o formato binário para requisitos específicos?
 
 A5: Com certeza, sinta-se à vontade para adaptar o formato binário para atender às necessidades específicas do seu aplicativo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

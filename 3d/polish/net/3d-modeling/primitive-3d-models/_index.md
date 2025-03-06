@@ -3,10 +3,16 @@ title: Tworzenie prymitywnych modeli 3D
 linktitle: Tworzenie prymitywnych modeli 3D
 second_title: Aspose.3D API .NET
 description: Poznaj świat modelowania 3D z Aspose.3D dla .NET. Twórz oszałamiające, prymitywne modele bez wysiłku.
-type: docs
 weight: 10
 url: /pl/net/3d-modeling/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tworzenie prymitywnych modeli 3D
+
 ## Wstęp
 
 Witamy w ekscytującym świecie modelowania 3D z Aspose.3D dla .NET! W tym kompleksowym samouczku będziemy krok po kroku badać proces tworzenia prymitywnych modeli 3D przy użyciu Aspose.3D. Niezależnie od tego, czy jesteś doświadczonym programistą, czy ciekawskim początkującym, ten przewodnik pomoże Ci wykorzystać moc Aspose.3D do tworzenia oszałamiających wizualnie elementów 3D dla Twoich projektów.
@@ -108,3 +114,9 @@ Odpowiedź 1: Aspose.3D obsługuje przede wszystkim .NET, ale dostępne są inne
 ### P5: Czy dostępne są przykładowe samouczki?
 
  Odpowiedź 5: Tak, przejrzyj więcej samouczków i przykładów w[dokumentacja](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

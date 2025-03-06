@@ -3,10 +3,16 @@ title: Εργαστείτε με ιδιότητες 3D και προσαρμοσ
 linktitle: Εργαστείτε με ιδιότητες 3D και προσαρμοσμένα δεδομένα σε σκηνές Java χρησιμοποιώντας το Aspose.3D
 second_title: Aspose.3D Java API
 description: Βελτιώστε τις εφαρμογές σας Java με το Aspose.3D για απρόσκοπτη επεξεργασία ιδιοτήτων 3D. Ακολουθήστε το σεμινάριο μας για καθοδήγηση βήμα προς βήμα.
-type: docs
 weight: 14
 url: /el/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εργαστείτε με ιδιότητες 3D και προσαρμοσμένα δεδομένα σε σκηνές Java χρησιμοποιώντας το Aspose.3D
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον αναλυτικό οδηγό για την εργασία με ιδιότητες 3D και προσαρμοσμένα δεδομένα σε σκηνές Java χρησιμοποιώντας το Aspose.3D. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στις ισχυρές δυνατότητες του Aspose.3D, παρέχοντας οδηγίες βήμα προς βήμα σχετικά με τον χειρισμό των ιδιοτήτων 3D στις εφαρμογές σας Java.
@@ -124,3 +130,9 @@ A4: Ναι, επισκεφθείτε το[Φόρουμ υποστήριξης As
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.3D;
 
  A5: Μπορείτε να αποκτήσετε μια προσωρινή άδεια με μια επίσκεψη[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/) στον ιστότοπο Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

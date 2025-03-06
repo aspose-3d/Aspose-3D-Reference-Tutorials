@@ -3,10 +3,16 @@ title: Ρύθμιση κατεύθυνσης σε γραμμική εξώθησ�
 linktitle: Ρύθμιση κατεύθυνσης σε γραμμική εξώθηση με Aspose.3D για Java
 second_title: Aspose.3D Java API
 description: Κύρια γραμμική εξώθηση με Aspose.3D για Java! Ακολουθήστε τον οδηγό μας για απρόσκοπτο 3D προγραμματισμό. Κάντε λήψη τώρα για μια μαγευτική εμπειρία.
-type: docs
 weight: 12
 url: /el/java/linear-extrusion/setting-direction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση κατεύθυνσης σε γραμμική εξώθηση με Aspose.3D για Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για τη ρύθμιση της κατεύθυνσης στη γραμμική εξώθηση χρησιμοποιώντας το Aspose.3D για Java. Το Aspose.3D είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται απρόσκοπτα με αρχεία και σκηνές 3D. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στη συγκεκριμένη εργασία του καθορισμού της κατεύθυνσης στη γραμμική εξώθηση, ενισχύοντας την ικανότητά σας στον τρισδιάστατο προγραμματισμό.
@@ -108,3 +114,9 @@ A1: Το Aspose.3D υποστηρίζει διάφορες γλώσσες προ
 ### Ε5: Διατίθενται προσωρινές άδειες χρήσης για το Aspose.3D;
 
  A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

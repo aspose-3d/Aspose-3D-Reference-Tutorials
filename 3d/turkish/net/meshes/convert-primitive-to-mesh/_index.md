@@ -3,10 +3,16 @@ title: Parametrik Primitive'i Mesh'e Dönüştürme
 linktitle: Parametrik Primitive'i Mesh'e Dönüştürme
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'in gücünü keşfedin! Parametrik temel öğeleri zahmetsizce çok yönlü Mesh'e dönüştürün. 3D grafik oyununuzu bugün yükseltin.
-type: docs
 weight: 12
 url: /tr/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Parametrik Primitive'i Mesh'e Dönüştürme
+
 ## giriiş
 
 Aspose.3D, kutular, düzlemler, toriler, küreler, silindirler, piramitler ve daha fazlasını içeren zengin bir ilkel şekiller seti sunar. Bu temel öğeler, parametreleriyle tanımlanır ve bu da onları prosedürel modelleme için oldukça çok yönlü kılar. Parametreleri programlı olarak ayarlayarak minimum kodla çok çeşitli 3D modeller oluşturabilirsiniz.
@@ -73,3 +79,9 @@ Evet, Aspose.3D çok çeşitli .NET çerçevelerini destekleyerek çeşitli geli
  Evet, Aspose.3D'yi şununla keşfedin:[ücretsiz deneme](https://releases.aspose.com/) bir taahhütte bulunmadan önce yeteneklerini deneyimlemek.
 ### Test amaçlı geçici lisans alabilir miyim?
  Evet, güvenli bir[geçici lisans](https://purchase.aspose.com/temporary-license/) Aspose.3D'yi kapsamlı bir şekilde değerlendirmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

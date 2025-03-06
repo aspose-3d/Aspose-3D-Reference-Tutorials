@@ -3,10 +3,16 @@ title: Spara 3D-nät i anpassat binärt format
 linktitle: Spara 3D-nät i anpassat binärt format
 second_title: Aspose.3D .NET API
 description: Utforska 3D-världen med Aspose.3D för .NET. Lär dig att spara maskor i anpassat binärt format.
-type: docs
 weight: 13
 url: /sv/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara 3D-nät i anpassat binärt format
+
 ## Introduktion
 
 Välkommen till världen av Aspose.3D för .NET, ett kraftfullt bibliotek som ger utvecklare möjlighet att arbeta med 3D-filer utan ansträngning. I den här handledningen kommer vi att fördjupa oss i processen att spara 3D-nät i ett anpassat binärt format med Aspose.3D för .NET. Den här guiden förutsätter att du har en grundläggande förståelse för C# och är bekant med Aspose.3D-biblioteket.
@@ -142,3 +148,9 @@ S1: Aspose.3D stöder främst .NET-språk, men du kan utforska kompatibilitetsal
 ### F5: Kan jag köpa Aspose.3D för .NET?
 
  A5: Ja, du kan köpa Aspose.3D från[köpsidan](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

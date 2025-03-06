@@ -3,10 +3,16 @@ title: Génération de coordonnées UV
 linktitle: Génération de coordonnées UV
 second_title: API Aspose.3D .NET
 description: Explorez le monde de la modélisation 3D avec Aspose.3D pour .NET. Maîtrisez la génération de coordonnées UV sans effort. Élevez vos projets maintenant !
-type: docs
 weight: 11
 url: /fr/net/meshes/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Génération de coordonnées UV
+
 ## Introduction
 Libérez la puissance d'Aspose.3D pour .NET et plongez dans le domaine de la génération de coordonnées UV. Dans ce tutoriel, nous vous guiderons à travers les étapes essentielles pour maîtriser cet aspect fondamental de la modélisation 3D avec Aspose.3D. Que vous soyez un développeur chevronné ou un nouveau venu, ce guide vous fournira les connaissances nécessaires pour créer et manipuler sans effort les coordonnées UV de vos maillages.
 ## Conditions préalables
@@ -74,3 +80,9 @@ L'essai gratuit présente certaines limitations de fonctionnalités, mais vous p
  Oui, vous pouvez obtenir un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour les tests et l'évaluation.
 ### Q : Où puis-je trouver des didacticiels et des ressources supplémentaires ?
  Explore le[Documentation Aspose.3D](https://reference.aspose.com/3d/net/) pour des guides et des exemples complets.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

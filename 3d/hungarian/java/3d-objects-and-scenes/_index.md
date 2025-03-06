@@ -3,10 +3,16 @@ title: 3D objektumok és jelenetek manipulálása Java nyelven
 linktitle: 3D objektumok és jelenetek manipulálása Java nyelven
 second_title: Aspose.3D Java API
 description: Fedezze fel a Java 3D programozás világát az Aspose.3D oktatóanyagokkal. Tanulja meg a gömb sugarát módosítani, és könnyedén alkalmazzon XPath-szerű lekérdezéseket a zökkenőmentes 3D fejlesztés érdekében.
-type: docs
 weight: 33
 url: /hu/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D objektumok és jelenetek manipulálása Java nyelven
+
 ## Bevezetés
 
 A Java 3D programozás magával ragadó utazássá válik az Aspose.3D oktatóanyagaival, amelyek a 3D objektumok és jelenetek manipulálására összpontosítanak. Ebben a cikkben két olyan alapvető oktatóanyagot mutatunk be, amelyek 3D-s fejlesztési készségeinek fejlesztését ígérik.
@@ -27,3 +33,9 @@ Fedezd fel az XPath-szerű lekérdezések erejét a Java 3D programozásban az A
 Fedezze fel a Java 3D programozást az Aspose.3D segítségével, és könnyedén módosíthatja a gömb sugarát. Töltse le most a zökkenőmentes 3D-s fejlesztési élményért.
 ### [XPath-szerű lekérdezések alkalmazása 3D objektumokra Java nyelven](./xpath-like-object-queries/)
 Az Aspose.3D segítségével könnyedén kezelheti a 3D objektumlekérdezéseket Java nyelven. Alkalmazzon XPath-szerű lekérdezéseket, kezelje a jeleneteket, és emelje fel a 3D-s fejlesztést.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

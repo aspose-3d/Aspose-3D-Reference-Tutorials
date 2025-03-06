@@ -3,10 +3,16 @@ title: Java'da 3B Dosyalarla Çalışma - Oluştur, Yükle, Kaydet ve Dönüşt�
 linktitle: Java'da 3B Dosyalarla Çalışma - Oluştur, Yükle, Kaydet ve Dönüştür
 second_title: Aspose.3D Java API'si
 description: Aspose.3D eğitimleriyle Java'da 3D dosya manipülasyonunda zahmetsizce ustalaşın. Adım adım kılavuzları kullanarak 3D dosyaları kolaylıkla oluşturun, yükleyin, kaydedin ve dönüştürün.
-type: docs
 weight: 30
 url: /tr/java/load-and-save/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da 3B Dosyalarla Çalışma - Oluştur, Yükle, Kaydet ve Dönüştür
+
 
 ## giriiş
 
@@ -56,3 +62,9 @@ Aspose.3D for Java ile 3D grafik dünyasını keşfedin. Mevcut 3D sahneleri zah
 Aspose.3D ile Java'da 3D sahne manipülasyonunun kusursuz dünyasını keşfedin. Sahneleri çeşitli formatlarda zahmetsizce kaydetmeyi öğrenin.
 ### [Aspose.3D SaveOptions ile Java'da 3D Dosya Kaydetmeyi Optimize Edin](./optimize-3d-file-saving/)
 Aspose.3D SaveOptions ile Java'da 3D dosya kaydetmeyi nasıl optimize edeceğinizi öğrenin. Performansı artırın ve çıktıları zahmetsizce özelleştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

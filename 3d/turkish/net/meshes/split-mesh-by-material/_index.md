@@ -3,10 +3,16 @@ title: Meshin Malzemeye Göre Bölünmesi
 linktitle: Meshin Malzemeye Göre Bölünmesi
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D ağları malzemeye göre ayırmayı öğrenin. Sahne organizasyonunu ve verimliliğini artırın. Geliştiriciler için adım adım kılavuz.
-type: docs
 weight: 22
 url: /tr/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Meshin Malzemeye Göre Bölünmesi
+
 ## giriiş
 Aspose.3D for .NET kullanarak bir ağı malzemeye göre bölmeyi konu alan bu kapsamlı eğitime hoş geldiniz! 3D grafiklerle çalışan bir geliştiriciyseniz ve ağları verimli bir şekilde yönetmek ve değiştirmek istiyorsanız doğru yerdesiniz. Bu kılavuzda, çeşitli ve görsel açıdan çekici 3D sahneler oluşturmada çok önemli bir görev olan, bir ağı malzemeye göre bölme sürecini inceleyeceğiz.
 ## Önkoşullar
@@ -71,3 +77,9 @@ Genel olarak CloneData politikası, paylaşılan kontrol noktası bilgileri nede
 Evet, Aspose.3D işleme yeteneklerini kullanarak ortaya çıkan alt ağları işleyebilir ve görselleştirebilirsiniz.
 ### S: Aspose.3D oyun geliştirmeye uygun mu?
 Aspose.3D öncelikli olarak modelleme ve renderleme için kullanılsa da belirli görevler için oyun geliştirme hatlarına entegre edilebilir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

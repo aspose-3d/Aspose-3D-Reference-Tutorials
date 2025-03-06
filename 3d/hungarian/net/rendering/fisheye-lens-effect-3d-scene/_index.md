@@ -3,10 +3,16 @@ title: Halszem lencse effektus alkalmazása az Aspose.3D segítségével .NET-he
 linktitle: Halszem lencse effektus alkalmazása 3D-s jelenetre
 second_title: Aspose.3D .NET API
 description: Fokozza 3D jeleneteit az Aspose.3D for .NET segítségével! Ismerje meg lépésről lépésre, hogyan alkalmazhat elbűvölő halszem lencsehatást. Letöltés most!
-type: docs
 weight: 12
 url: /hu/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Halszem lencse effektus alkalmazása az Aspose.3D segítségével .NET-hez
+
 ## Bevezetés
 Szeretné javítani 3D jelenete vizuális vonzerejét? Merüljön el a halszem lencse effektusok lenyűgöző világában az Aspose.3D for .NET segítségével. Ez az oktatóanyag lépésről lépésre végigvezeti Önt abban, hogyan alkalmazzon halszem-lencse-effektust a 3D-s jelenetekhez, így egyedi és magával ragadó perspektívát ad.
 ## Előfeltételek
@@ -77,3 +83,9 @@ A kívánt fényhatások elérése érdekében beállíthatja a lámpák tulajdo
 A 3D-s jelenet méretét elsősorban a rendszer erőforrásai korlátozzák. Győződjön meg arról, hogy a hardver képes kezelni a jelenet méretét.
 ### Használhatok más kimeneti formátumot a PNG helyett a halszem effektus eredményéhez?
 Igen, módosíthatja a kódot, hogy a kimenetet az igényeinek megfelelően különböző képformátumokba mentse.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

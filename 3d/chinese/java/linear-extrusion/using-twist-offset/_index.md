@@ -4,10 +4,16 @@ linktitle: 在 Aspose.3D for Java 中使用线性拉伸中的扭曲偏移
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D for Java 增强您的 3D 建模技能。在这个综合教程中学习如何在线性拉伸中使用扭曲偏移。
 
-type: docs
 weight: 15
 url: /zh/java/linear-extrusion/using-twist-offset/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.3D for Java 中使用线性拉伸中的扭曲偏移
+
 ## 介绍
 
 在 3D 图形的动态世界中，掌握线性挤压艺术可以改变游戏规则。借助 Aspose.3D for Java，您可以通过将扭曲偏移功能合并到线性挤出过程中来提高您的 3D 建模技能。本教程将指导您完成使用 Aspose.3D for Java 在线性拉伸中使用扭曲偏移的步骤，为您提供创建令人惊叹的 3D 场景的工具。
@@ -113,3 +119,9 @@ scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### Q5：有额外的示例和教程吗？
 
  A5：是的，请参阅[文档](https://reference.aspose.com/3d/java/)了解更多示例和深入教程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

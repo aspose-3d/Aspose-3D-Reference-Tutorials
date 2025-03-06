@@ -3,10 +3,16 @@ title: Aspose.3D for .NET'e Lisans Başvurusu
 linktitle: Aspose.3D for .NET'e Lisans Başvurusu
 second_title: Aspose.3D .NET API'si
 description: Sorunsuz bir şekilde lisans uygulayarak Aspose.3D for .NET'in gücünün kilidini açın. Sorunsuz bir entegrasyon deneyimi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/net/license/apply-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for .NET'e Lisans Başvurusu
+
 ## giriiş
 
 Aspose.3D for .NET'in tüm potansiyelini ortaya çıkarmaya hazır mısınız? Lisans uygulamak, gelişmiş özelliklere erişmenin ve kusursuz entegrasyon sağlamanın anahtarıdır. Bu adım adım kılavuzda, Aspose.3D uygulamanız için sorunsuz bir kurulum süreci sağlayarak, lisans başvurusunda bulunmanın çeşitli yöntemlerini size anlatacağız.
@@ -118,3 +124,9 @@ Tebrikler! Aspose.3D for .NET'e nasıl lisans uygulayacağınızı başarıyla �
 ### S5: Nasıl lisans satın alabilirim?
 
  Cevap5: Lisansınızı satın alın[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

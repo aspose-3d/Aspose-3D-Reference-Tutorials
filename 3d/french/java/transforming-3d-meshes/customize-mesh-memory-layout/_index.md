@@ -3,10 +3,16 @@ title: Personnaliser la disposition de la mémoire pour les maillages 3D en Java
 linktitle: Personnaliser la disposition de la mémoire pour les maillages 3D en Java
 second_title: API Java Aspose.3D
 description: Améliorez votre modélisation Java 3D avec Aspose.3D - personnalisez la disposition de la mémoire pour des performances optimales. Suivez notre guide étape par étape dès maintenant !
-type: docs
 weight: 13
 url: /fr/java/transforming-3d-meshes/customize-mesh-memory-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personnaliser la disposition de la mémoire pour les maillages 3D en Java
+
 ## Introduction
 Dans le monde dynamique de la modélisation et du rendu 3D en Java, Aspose.3D s'impose comme un outil puissant pour les développeurs en quête de flexibilité et de personnalisation. Dans ce didacticiel, nous approfondirons le processus de personnalisation de la disposition de la mémoire pour les maillages 3D à l'aide d'Aspose.3D pour Java. À la fin de ce guide, vous aurez une solide compréhension de la façon d'optimiser l'utilisation de la mémoire pour une modélisation 3D améliorée.
 ## Conditions préalables
@@ -71,3 +77,9 @@ Oui, Aspose.3D peut être intégré à d'autres bibliothèques Java 3D pour amé
  Visiter le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien de la communauté.
 ### Puis-je acheter une licence temporaire pour Aspose.3D ?
  Oui, une licence temporaire peut être obtenue[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

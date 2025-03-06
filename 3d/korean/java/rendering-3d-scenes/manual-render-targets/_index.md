@@ -3,10 +3,16 @@ title: Java 3D에서 사용자 정의된 렌더링을 위해 렌더 대상을 �
 linktitle: Java 3D에서 사용자 정의된 렌더링을 위해 렌더 대상을 수동으로 제어
 second_title: Aspose.3D 자바 API
 description: 이 단계별 가이드에서 Java용 Aspose.3D의 강력한 기능을 살펴보세요. 놀라운 맞춤형 Java 3D 그래픽을 위해 렌더 타겟을 수동으로 제어합니다.
-type: docs
 weight: 10
 url: /ko/java/rendering-3d-scenes/manual-render-targets/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 3D에서 사용자 정의된 렌더링을 위해 렌더 대상을 수동으로 제어
+
 ## 소개
 
 Java 3D 그래픽을 다음 단계로 끌어올릴 준비가 되셨습니까? Aspose.3D for Java는 맞춤형 렌더링의 잠재력을 최대한 활용하는 관문입니다. 이 튜토리얼에서는 렌더 타겟을 수동으로 제어하는 복잡한 과정을 자세히 살펴보고 사양에 맞게 시각적으로 매력적인 장면을 만들 수 있는 도구를 제공합니다.
@@ -117,3 +123,9 @@ A1: 예, Aspose.3D는 사용자 친화적인 인터페이스를 제공하므로 
 ### Q5: Java 3D 그래픽의 버스트란 무엇이며 Aspose.3D는 이를 어떻게 해결합니까?
 
 A5: 폭발성이란 그래픽 요소의 갑작스러운 강도 또는 급격한 변화를 나타냅니다. Aspose.3D는 부드러운 전환과 동적 조정을 위한 도구를 제공하여 장면의 혼잡함을 최소화합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

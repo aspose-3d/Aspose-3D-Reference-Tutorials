@@ -3,10 +3,16 @@ title: 使用 Aspose.3D for Java 控制線性拉伸的中心
 linktitle: 使用 Aspose.3D for Java 控制線性拉伸的中心
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 探索 Java 中的 3D 圖形世界。輕鬆控制線性擠壓的中心。
-type: docs
 weight: 11
 url: /zh-hant/java/linear-extrusion/controlling-center/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D for Java 控制線性拉伸的中心
+
 ## 介紹
 
 在 3D 圖形和 Java 程式設計領域，控制線性擠出的中心對於在專案中實現所需效果起著至關重要的作用。 Aspose.3D for Java 提供了一個強大的工具包來無縫處理此類任務。在本教程中，我們將深入研究使用 Aspose.3D for Java 控制線性擠出中心的過程，分解每個步驟以確保順利、全面地理解。
@@ -126,3 +132,9 @@ A4：是的，如果您需要臨時許可證用於測試目的，您可以獲得
 ### Q5：在哪裡可以找到文件？
 
 A5：Aspose.3D for Java 的文件可用[這裡](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

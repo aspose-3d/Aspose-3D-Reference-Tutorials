@@ -3,10 +3,16 @@ title: Tạo dữ liệu cho lưới 3D trong Java (Bình thường, Tiếp tuy�
 linktitle: Tạo dữ liệu cho lưới 3D trong Java (Bình thường, Tiếp tuyến, Nhị chuẩn)
 second_title: API Java Aspose.3D
 description: Nâng cao các dự án Java của bạn với Aspose.3D. Hãy làm theo hướng dẫn của chúng tôi để dễ dàng tạo dữ liệu thông thường cho lưới 3D. Đi sâu vào đồ họa 3D một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/3d-mesh-data/generate-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo dữ liệu cho lưới 3D trong Java (Bình thường, Tiếp tuyến, Nhị chuẩn)
+
 ## Giới thiệu
 
 Tạo và thao tác dữ liệu lưới 3D trong Java có thể là một nhiệm vụ đầy thách thức nhưng thú vị, đặc biệt là khi xử lý các tệp thiếu dữ liệu thông thường cần thiết. Aspose.3D for Java là giải pháp hữu ích, cung cấp bộ công cụ mạnh mẽ để xử lý đồ họa 3D và lưới một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo dữ liệu thông thường cho lưới 3D bằng Aspose.3D trong Java.
@@ -95,3 +101,9 @@ Câu trả lời 1: Có, Aspose.3D hỗ trợ nhiều định dạng tệp 3D kh
 ### Q5: Cần hỗ trợ hoặc muốn kết nối với cộng đồng?
 
  Câu trả lời 5: Truy cập diễn đàn Aspose.3D[đây](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

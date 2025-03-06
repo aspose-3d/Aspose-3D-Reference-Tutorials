@@ -3,10 +3,16 @@ title: Extraindo informações para ativos de cena
 linktitle: Extraindo informações para ativos de cena
 second_title: API Aspose.3D .NET
 description: Aprimore suas cenas 3D sem esforço com Aspose.3D for .NET. Aprenda a adicionar informações valiosas sobre ativos passo a passo. Baixe agora para uma experiência 3D dinâmica.
-type: docs
 weight: 10
 url: /pt/net/3d-scene/information-to-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraindo informações para ativos de cena
+
 ## Introdução
 
 Bem-vindo a este tutorial abrangente sobre como usar Aspose.3D for .NET para extrair informações valiosas e aprimorar suas cenas 3D. Aspose.3D é uma biblioteca poderosa que permite aos desenvolvedores manipular cenas 3D perfeitamente em aplicativos .NET. Neste tutorial, focaremos na tarefa crucial de adicionar informações de ativos a uma cena.
@@ -96,3 +102,9 @@ A1: Aspose.3D oferece suporte principalmente a linguagens .NET, mas você pode e
 ### Q5: Onde posso encontrar documentação detalhada para Aspose.3D for .NET?
 
  A5: Consulte o[documentação](https://reference.aspose.com/3d/net/) para obter informações detalhadas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

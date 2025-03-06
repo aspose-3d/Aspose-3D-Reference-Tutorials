@@ -3,10 +3,16 @@ title: Définition de la direction dans l'extrusion linéaire avec Aspose.3D pou
 linktitle: Définition de la direction dans l'extrusion linéaire avec Aspose.3D pour Java
 second_title: API Java Aspose.3D
 description: Maîtrisez l'extrusion linéaire avec Aspose.3D pour Java ! Suivez notre guide pour une programmation 3D fluide. Téléchargez maintenant pour une expérience captivante.
-type: docs
 weight: 12
 url: /fr/java/linear-extrusion/setting-direction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition de la direction dans l'extrusion linéaire avec Aspose.3D pour Java
+
 ## Introduction
 
 Bienvenue dans notre guide étape par étape sur la définition de la direction dans l'extrusion linéaire à l'aide d'Aspose.3D pour Java. Aspose.3D est une puissante bibliothèque Java qui permet aux développeurs de travailler de manière transparente avec des fichiers et des scènes 3D. Dans ce didacticiel, nous nous concentrerons sur la tâche spécifique consistant à définir la direction de l'extrusion linéaire, améliorant ainsi vos compétences en programmation 3D.
@@ -108,3 +114,9 @@ A1 : Aspose.3D prend en charge divers langages de programmation, notamment .NET 
 ### Q5 : Des licences temporaires sont-elles disponibles pour Aspose.3D ?
 
  A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

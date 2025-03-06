@@ -3,10 +3,16 @@ title: Cilinders met geschoren bodem maken in Aspose.3D voor Java
 linktitle: Cilinders met geschoren bodem maken in Aspose.3D voor Java
 second_title: Aspose.3D Java-API
 description: Leer hoe u aangepaste cilinders met geschoren bodems kunt maken met Aspose.3D voor Java. Verbeter uw vaardigheden op het gebied van 3D-modelleren met deze stapsgewijze handleiding.
-type: docs
 weight: 12
 url: /nl/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cilinders met geschoren bodem maken in Aspose.3D voor Java
+
 ## Invoering
 
 Welkom bij deze stapsgewijze handleiding voor het maken van cilinders met geschoren bodems met Aspose.3D voor Java. Aspose.3D is een krachtige Java-bibliotheek waarmee u moeiteloos met 3D-bestanden kunt werken. In deze zelfstudie duiken we in het maken van aangepaste cilinders met geschoren bodems, waardoor u praktische ervaring krijgt met het gebruik van Aspose.3D om uw vaardigheden op het gebied van 3D-modelleren te verbeteren.
@@ -100,3 +106,9 @@ A2: Ja, Aspose.3D biedt een gebruiksvriendelijke API, waardoor het geschikt is v
 ### V5: Kan ik Aspose.3D voor Java kopen?
 
  A5: Ja, u kunt Aspose.3D voor Java aanschaffen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

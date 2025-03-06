@@ -3,10 +3,16 @@ title: Siapkan Kamera Target untuk Animasi 3D di Java | Tutorial Aspose.3D
 linktitle: Siapkan Kamera Target untuk Animasi 3D di Java | Tutorial Aspose.3D
 second_title: Asumsikan.3D Java API
 description: Jelajahi animasi Java 3D dengan mudah dengan Aspose.3D. Ikuti tutorial kami untuk panduan langkah demi langkah. Unduh sekarang untuk perjalanan pengembangan 3D yang menawan.
-type: docs
 weight: 11
 url: /id/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Siapkan Kamera Target untuk Animasi 3D di Java | Tutorial Aspose.3D
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah tentang menyiapkan kamera target untuk animasi 3D di Java menggunakan Aspose.3D. Apakah Anda seorang pengembang berpengalaman atau baru memulai dengan animasi 3D di Java, tutorial ini akan memandu Anda melalui proses dengan instruksi yang jelas dan ringkas.
@@ -98,3 +104,9 @@ Selamat! Anda telah berhasil menyiapkan kamera target untuk animasi 3D di Java m
 ### Q5: Bagaimana cara mendapatkan lisensi sementara?
 
  A5: Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

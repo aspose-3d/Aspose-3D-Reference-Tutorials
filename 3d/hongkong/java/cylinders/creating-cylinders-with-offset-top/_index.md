@@ -3,10 +3,16 @@ title: 在 Aspose.3D for Java 中建立具有頂部偏移的圓柱體
 linktitle: 在 Aspose.3D for Java 中建立具有頂部偏移的圓柱體
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 探索 Java 3D 建模的奇蹟。學習輕鬆創建具有偏置頂部的迷人圓柱體。
-type: docs
 weight: 11
 url: /zh-hant/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.3D for Java 中建立具有頂部偏移的圓柱體
+
 ## 介紹
 
 在基於 Java 的 3D 建模領域，Aspose.3D 作為一款強大的工具脫穎而出，使開發人員能夠輕鬆創建複雜的 3D 場景。在本教程中，我們將深入研究 Aspose.3D for Java 的迷人世界，重點關注特定任務 - 創建具有偏移頂部的圓柱體。閱讀本指南後，您將牢牢掌握流程，從而能夠將此功能無縫整合到您的 3D 專案中。
@@ -127,3 +133,9 @@ A3：是的，您可以探索並選擇適合您需求的授權選項[這裡](htt
 ### Q5：是否有用於測試目的的臨時許可證選項？
 
  A5：是的，您可以獲得臨時許可證用於測試和評估目的[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

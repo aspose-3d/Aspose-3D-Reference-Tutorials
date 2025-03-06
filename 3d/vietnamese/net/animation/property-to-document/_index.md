@@ -3,10 +3,16 @@ title: Thuộc tính hoạt hình cho tài liệu trong cảnh 3D
 linktitle: Thuộc tính hoạt hình cho tài liệu trong cảnh 3D
 second_title: API Aspose.3D .NET
 description: Tìm hiểu cách tạo hiệu ứng động cho các thuộc tính 3D bằng Aspose.3D cho .NET. Hướng dẫn từng bước để tạo cảnh động.
-type: docs
 weight: 10
 url: /vi/net/animation/property-to-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thuộc tính hoạt hình cho tài liệu trong cảnh 3D
+
 ## Giới thiệu
 
 Nếu bạn đang đi sâu vào lĩnh vực tạo cảnh và hoạt hình 3D trong .NET, Aspose.3D là bộ công cụ bạn nên sử dụng. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá quy trình tạo hoạt ảnh cho các thuộc tính trong cảnh 3D bằng Aspose.3D cho .NET. Cuối cùng, bạn sẽ được trang bị kiến thức để thổi sức sống vào các dự án 3D của mình.
@@ -128,3 +134,9 @@ Chúc mừng! Bạn vừa nắm vững nghệ thuật tạo hoạt ảnh cho cá
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời không?
 
  A5: Có, bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

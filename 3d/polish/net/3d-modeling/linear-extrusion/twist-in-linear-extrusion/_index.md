@@ -3,10 +3,16 @@ title: Skręt w wytłaczaniu liniowym
 linktitle: Skręt w wytłaczaniu liniowym
 second_title: Aspose.3D API .NET
 description: Poznaj urzekający świat grafiki 3D dzięki Aspose.3D dla .NET. Naucz się krok po kroku wytłaczania liniowego z niespodzianką.
-type: docs
 weight: 14
 url: /pl/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skręt w wytłaczaniu liniowym
+
 ## Wstęp
 
 W stale rozwijającym się świecie rozwoju .NET wykorzystanie mocy grafiki 3D jest ekscytującym przedsięwzięciem. Aspose.3D dla .NET jawi się jako cenny zestaw narzędzi, umożliwiający programistom płynne tworzenie wciągających i oszałamiających wizualnie aplikacji. W tym obszernym przewodniku zagłębimy się w jedną intrygującą funkcję – wytłaczanie liniowe z niespodzianką. Ten samouczek przeprowadzi Cię krok po kroku przez proces, odblokowując potencjał Aspose.3D dla .NET.
@@ -118,3 +124,9 @@ A4: Oczywiście! Aspose.3D oferuje bogaty zestaw funkcji. Możesz łączyć wyt�
 ### P5: Czy istnieje społeczność wspierająca i dyskusyjna Aspose.3D?
 
  O5: Tak, dołącz do społeczności Aspose.3D pod adresem[Forum Aspose](https://forum.aspose.com/c/3d/18) za wsparcie i ciekawe dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

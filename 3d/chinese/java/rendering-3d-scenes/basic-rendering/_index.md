@@ -3,10 +3,16 @@ title: 掌握 Java 3D 场景的基本渲染技术
 linktitle: 掌握 Java 3D 场景的基本渲染技术
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 探索 Java 中的 3D 渲染。掌握基本技术、设置场景并无缝渲染形状。提高您在 3D 图形方面的 Java 编程技能。
-type: docs
 weight: 11
 url: /zh/java/rendering-3d-scenes/basic-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 掌握 Java 3D 场景的基本渲染技术
+
 ## 介绍
 
 欢迎来到使用 Aspose.3D 在 Java 中进行 3D 渲染的激动人心的世界！如果您渴望掌握 3D 场景的基本渲染技术，那么您来对地方了。在本分步指南中，我们将引导您完成设置 3D 场景、应用材质和渲染各种形状的过程。最后，您将对 Java 中的基本渲染概念有深入的了解。
@@ -114,3 +120,9 @@ return camera;
 ### Q5：哪里可以购买Aspose.3D for Java？
 
 A5: 您可以购买该产品[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Normale gegevens voor meshes genereren
 linktitle: Normale gegevens voor meshes genereren
 second_title: Aspose.3D .NET-API
 description: Verbeter 3D-modellen met Aspose.3D voor .NET! Leer hoe u normale gegevens voor meshes genereert in deze stapsgewijze handleiding. Realisme ontmoet eenvoud.
-type: docs
 weight: 20
 url: /nl/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Normale gegevens voor meshes genereren
+
 ## Invoering
 Welkom bij deze stapsgewijze handleiding voor het genereren van normale gegevens voor meshes met Aspose.3D voor .NET! Als u met 3D-modellen werkt en de visuele aantrekkingskracht wilt vergroten door normale gegevens toe te voegen, dan is deze tutorial iets voor u. Aspose.3D is een krachtige .NET-bibliotheek die het programmeren van grafische 3D-bestanden vereenvoudigt. In deze handleiding leiden we u door het proces van het genereren van normale gegevens voor meshes.
 ## Vereisten
@@ -66,3 +72,9 @@ Ja, Aspose.3D ondersteunt verschillende 3D-formaten, waaronder FBX, STL en meer.
  De uitgebreide documentatie is beschikbaar[hier](https://reference.aspose.com/3d/net/).
 ### Wat moet ik doen als ik een licentie voor Aspose.3D moet aanschaffen?
  U kunt een licentie kopen bij de[aankooppagina](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

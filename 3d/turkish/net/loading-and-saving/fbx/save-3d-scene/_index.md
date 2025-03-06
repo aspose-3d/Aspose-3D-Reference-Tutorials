@@ -3,10 +3,16 @@ title: 3D Sahneyi FBX dosyasına kaydetme
 linktitle: 3D Sahneyi FBX dosyasına kaydetme
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'in gücünü keşfedin. Kesintisiz 3D sahne manipülasyonu için çok yönlü bir kitaplık. Zahmetsizce yükleyin, kaydedin ve sıkıştırın.
-type: docs
 weight: 20
 url: /tr/net/loading-and-saving/fbx/save-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D Sahneyi FBX dosyasına kaydetme
+
 ## giriiş
 
 Aspose.3D for .NET kullanarak 3 boyutlu sahne manipülasyonu dünyasına heyecan verici bir yolculuğa hoş geldiniz! İster deneyimli bir geliştirici ister meraklı bir meraklı olun, bu eğitim size 3D sahneleri zahmetsizce yükleme, kaydetme ve sıkıştırma sürecinde rehberlik edecektir.
@@ -104,3 +110,9 @@ A2: Kesinlikle! Aspose.3D, diğer .NET kitaplıklarıyla sorunsuz bir şekilde b
 ### S5: Aspose.3D'nin ücretsiz deneme sürümü mevcut mu?
 
  C5: Evet, Aspose.3D'nin özelliklerini, cihazınızı alarak keşfedin.[ücretsiz deneme](https://releases.aspose.com/) Bugün!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

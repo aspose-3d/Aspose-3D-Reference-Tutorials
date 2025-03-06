@@ -3,10 +3,16 @@ title: Információk kinyerése a helyszíni eszközökbe
 linktitle: Információk kinyerése a helyszíni eszközökbe
 second_title: Aspose.3D .NET API
 description: Fokozza könnyedén 3D jeleneteit az Aspose.3D for .NET segítségével. Ismerje meg, hogyan adhat hozzá értékes információkat lépésről lépésre. Töltse le most a dinamikus 3D élményért.
-type: docs
 weight: 10
 url: /hu/net/3d-scene/information-to-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Információk kinyerése a helyszíni eszközökbe
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó oktatóanyagban az Aspose.3D for .NET használatáról, amellyel értékes információkat nyerhet ki, és javíthatja 3D-s jeleneteit. Az Aspose.3D egy hatékony könyvtár, amely képessé teszi a fejlesztőket arra, hogy zökkenőmentesen manipulálják a 3D-s jeleneteket .NET-alkalmazásokon belül. Ebben az oktatóanyagban arra a kulcsfontosságú feladatra fogunk összpontosítani, hogy eszközinformációkat adjunk hozzá egy jelenethez.
@@ -96,3 +102,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan kell használni az Aspose.3D for .NET
 ### 5. kérdés: Hol találom az Aspose.3D for .NET részletes dokumentációját?
 
  A5: Lásd a[dokumentáció](https://reference.aspose.com/3d/net/) mélyreható tájékoztatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تحويل البدائيات إلى تنسجم في جافا
 linktitle: تحويل البدائيات إلى تنسجم في جافا
 second_title: Aspose.3D جافا API
 description: انطلق في رحلة إلى إتقان الرسومات ثلاثية الأبعاد باستخدام Aspose.3D لـ Java - قم بتحويل البدائيات إلى شبكات ساحرة دون عناء. ارفع مستوى تجربة البرمجة الخاصة بك الآن!
-type: docs
 weight: 12
 url: /ar/java/transforming-3d-meshes/convert-primitives-to-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل البدائيات إلى تنسجم في جافا
+
 ## مقدمة
 يمكن أن تكون المغامرة في عالم الرسومات ثلاثية الأبعاد في Java أمرًا مبهجًا، خاصة عندما تهدف إلى رفع مستوى المشاهد الخاصة بك عن طريق تحويل البدائيات إلى شبكات معقدة. في هذا البرنامج التعليمي، سنرشدك خلال العملية باستخدام Aspose.3D لـ Java، مما يضمن تجربة سلسة ومثرية.
 ## المتطلبات الأساسية
@@ -73,3 +79,9 @@ System.out.println("\n Converted the primitive Box to a mesh successfully.\nFile
  وبالفعل يمكن الحصول على تراخيص مؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
 ### س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.3D لـ Java؟
  الوثائق الشاملة متاحة[هنا](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

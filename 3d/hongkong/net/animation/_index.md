@@ -3,10 +3,16 @@ title: 卡通
 linktitle: 卡通
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 教學解鎖 3D 動畫世界。學習為屬性設定動畫並輕鬆設定動態場景的目標和攝影機。
-type: docs
 weight: 30
 url: /zh-hant/net/animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 卡通
+
 ## 介紹
 
 歡迎來到 Aspose.3D for .NET 的 3D 動畫的迷人領域！在本綜合指南中，我們將探討兩個重要教程，幫助您創建迷人的動態 3D 場景。讓我們一起踏上這段令人興奮的旅程吧！
@@ -37,3 +43,9 @@ url: /zh-hant/net/animation/
 學習使用 Aspose.3D for .NET 製作 3D 屬性動畫。建立動態場景的分步指南。
 ### [為 3D 場景中的動畫設定目標和相機](./setup-target-camera/)
 使用 Aspose.3D for .NET 解鎖 3D 動畫的魔力。使用這個綜合教學輕鬆設定目標和相機。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

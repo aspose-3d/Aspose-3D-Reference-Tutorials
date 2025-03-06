@@ -3,10 +3,16 @@ title: Настройка нормалей в кубе
 linktitle: Настройка нормалей в кубе
 second_title: Aspose.3D .NET API
 description: Научитесь настраивать нормали в 3D-кубе с помощью Aspose.3D для .NET. Совершенствуйте свои навыки 3D-моделирования с помощью этого пошагового руководства.
-type: docs
 weight: 17
 url: /ru/net/geometry-and-hierarchy/setup-normals-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка нормалей в кубе
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по настройке нормалей куба в 3D-сценах с использованием Aspose.3D для .NET. Aspose.3D — это мощная библиотека, которая позволяет .NET-разработчикам работать с 3D-файлами, предоставляя широкий спектр функций для 3D-моделирования и манипулирования.
@@ -100,3 +106,9 @@ Console.WriteLine("\nNormals have been set up successfully on the cube.");
 ### В5: Есть ли дополнительные ресурсы для изучения Aspose.3D?
 
  A5: Исследуйте обширные[документация](https://reference.aspose.com/3d/net/) чтобы узнать больше о функциях и советах.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

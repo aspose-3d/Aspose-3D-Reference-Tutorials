@@ -3,10 +3,16 @@ title: بناء نماذج بدائية ثلاثية الأبعاد باستخد
 linktitle: بناء نماذج بدائية ثلاثية الأبعاد باستخدام Aspose.3D لجافا
 second_title: Aspose.3D جافا API
 description: اكتشف فن النمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. تعلم كيفية إنشاء نماذج بدائية ثلاثية الأبعاد دون عناء وأطلق العنان لإبداعك.
-type: docs
 weight: 10
 url: /ar/java/primitive-3d-models/building-primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# بناء نماذج بدائية ثلاثية الأبعاد باستخدام Aspose.3D لجافا
+
 ## مقدمة
 
 يمكن أن يكون إنشاء نماذج ثلاثية الأبعاد برمجيًا مهمة شاقة، ولكن مع Aspose.3D لـ Java، تصبح عملية ممتعة ومباشرة. يهدف هذا البرنامج التعليمي إلى مساعدتك على البدء في إنشاء نماذج ثلاثية الأبعاد بدائية، مع التركيز على البساطة والفعالية.
@@ -88,3 +94,9 @@ scene.save(myDir, FileFormat.FBX7500ASCII);
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟
 
  ج5: يمكنك الحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لـ Aspose.3D من خلال الموقع الإلكتروني.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

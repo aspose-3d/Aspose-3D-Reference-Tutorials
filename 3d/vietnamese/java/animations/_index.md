@@ -3,10 +3,16 @@ title: Làm việc với Ảnh động trong Java
 linktitle: Làm việc với Ảnh động trong Java
 second_title: API Java Aspose.3D
 description: Nâng cao các dự án Java 3D của bạn với các hướng dẫn Aspose.3D! Tìm hiểu cách thêm thuộc tính hoạt ảnh và thiết lập máy ảnh mục tiêu một cách liền mạch để phát triển 3D hấp dẫn.
-type: docs
 weight: 20
 url: /vi/java/animations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với Ảnh động trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với Hướng dẫn Aspose.3D dành cho Java, nơi chúng tôi đi sâu vào lĩnh vực thú vị của các dự án 3D dựa trên Java. Trong loạt bài này, chúng tôi tập trung vào việc nắm vững hoạt ảnh để mang lại sức sống và sự năng động cho các tác phẩm của bạn. Vì vậy, hãy thắt dây an toàn khi chúng ta bắt đầu cuộc hành trình ly kỳ xuyên qua thế giới hoạt hình 3D với Aspose.3D!
@@ -30,3 +36,9 @@ Tiếp theo trong cuộc phiêu lưu của mình, chúng ta sẽ đi sâu vào s
 Nâng cao các dự án 3D dựa trên Java của bạn với Aspose.3D. Hãy làm theo hướng dẫn của chúng tôi để thêm các thuộc tính hoạt ảnh một cách liền mạch.
 ### [Thiết lập máy ảnh mục tiêu cho hoạt ảnh 3D trong Java | Hướng dẫn Aspose.3D](./set-up-target-camera/)
 Khám phá hoạt hình Java 3D một cách dễ dàng với Aspose.3D. Thực hiện theo hướng dẫn của chúng tôi để được hướng dẫn từng bước. Tải xuống ngay để có hành trình phát triển 3D hấp dẫn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

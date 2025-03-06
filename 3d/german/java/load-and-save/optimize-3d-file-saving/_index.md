@@ -3,10 +3,16 @@ title: Optimieren Sie das Speichern von 3D-Dateien in Java mit Aspose.3D SaveOpt
 linktitle: Optimieren Sie das Speichern von 3D-Dateien in Java mit Aspose.3D SaveOptions
 second_title: Aspose.3D Java-API
 description: Erfahren Sie, wie Sie das Speichern von 3D-Dateien in Java mit Aspose.3D SaveOptions optimieren. Verbessern Sie die Leistung und passen Sie die Ausgaben mühelos an.
-type: docs
 weight: 16
 url: /de/java/load-and-save/optimize-3d-file-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optimieren Sie das Speichern von 3D-Dateien in Java mit Aspose.3D SaveOptions
+
 ## Einführung
 
 Aspose.3D ist eine funktionsreiche Java-Bibliothek, die Entwicklern die nahtlose Arbeit mit 3D-Modellen ermöglicht. Wenn es um das Speichern von 3D-Dateien geht, bietet die SaveOptions-Klasse eine Vielzahl von Einstellungen, um die Ausgabe entsprechend Ihren Anforderungen anzupassen. In diesem Tutorial untersuchen wir verschiedene Speicheroptionen und wie sie zur Optimierung des Prozesses genutzt werden können.
@@ -119,3 +125,9 @@ A4: Nutzen Sie die`setFileSystem(new DummyFileSystem())` Methode in der`ObjSaveO
 ### F5: Gibt es eine Möglichkeit, Abhängigkeiten in einem lokalen Verzeichnis in einer OBJ-Datei zu speichern?
 
  A5: Ja, verwenden Sie das`setFileSystem(new LocalFileSystem(MyDir))` Methode in der`ObjSaveOptions` Klasse, um Abhängigkeiten lokal zu speichern.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

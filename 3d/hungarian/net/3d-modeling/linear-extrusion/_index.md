@@ -3,10 +3,16 @@ title: Lineáris extrudálás
 linktitle: Lineáris extrudálás
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D kreativitást az Aspose.3D for .NET oktatóprogramokkal. Sajátítsa el a lineáris extrudálási technikákat, tökéletesítse a terveket, és könnyedén emelje fel projektjeit.
-type: docs
 weight: 31
 url: /hu/net/3d-modeling/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lineáris extrudálás
+
 ## Bevezetés
 | Explore the dynamic realm of [3D modeling](./center-in-linear-extrusion/) through Aspose.3D for .NET tutorials, focusing on various aspects of linear extrusion. Master the art of [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), and incorporating [twist offsets](./twist-offset-in-linear-extrusion/) in your designs. Each tutorial is a gateway to unlocking new dimensions of creativity in 3D graphics. Dive into the captivating world of Aspose.3D for .NET and unleash your imagination. |
 
@@ -42,3 +48,9 @@ Fedezze fel a 3D-s tervezés világát az Aspose.3D for .NET segítségével. K�
 Fedezze fel a 3D grafika magával ragadó világát az Aspose.3D for .NET segítségével. Ismerje meg lépésről lépésre a lineáris extrudálást csavarral.
 ### [Twist Offset lineáris extrudálásnál](./twist-offset-in-linear-extrusion/)
 Fedezze fel az Aspose.3D for .NET varázslatát lépésről lépésre a Twist Offset in Linear Extrusion című útmutatónkkal. Emelje fel 3D projektjeit könnyedén.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

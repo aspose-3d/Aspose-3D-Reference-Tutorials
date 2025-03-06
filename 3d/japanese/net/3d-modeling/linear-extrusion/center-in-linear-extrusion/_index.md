@@ -3,10 +3,16 @@ title: 線形押出の中心
 linktitle: 線形押出の中心
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D モデリングの世界を探索してください。直線押し出し技術を中心に据えて、見事なデザインを作成し、創造性を解き放ちます。
-type: docs
 weight: 10
 url: /ja/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 線形押出の中心
+
 ## 導入
 
 Aspose.3D for .NET を使用して線形押し出しをマスターするためのこの包括的なガイドへようこそ。 3D モデリングのスキルを向上させ、見事な押し出しを作成したい場合は、ここが正しい場所です。このチュートリアルでは、線形押し出し技術を詳しく掘り下げ、特にセンタリングの側面に焦点を当てて、デザインをまったく新しいレベルに引き上げます。
@@ -109,3 +115,10 @@ A1: Aspose.3D は主に、C# や VB.NET などの .NET 言語をサポートし�
 ### Q5: Aspose.3D for .NET ライセンスはどこで購入できますか?
 
  A5: ライセンスを購入する[ここ](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

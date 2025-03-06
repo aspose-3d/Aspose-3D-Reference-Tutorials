@@ -3,10 +3,16 @@ title: Exportálja a pontfelhőket PLY formátumba az Aspose.3D for Java segíts
 linktitle: Exportálja a pontfelhőket PLY formátumba az Aspose.3D for Java segítségével
 second_title: Aspose.3D Java API
 description: Fedezze fel az Aspose.3D for Java erejét a pontfelhők PLY formátumba exportálásával. Kövesse lépésenkénti útmutatónkat a zökkenőmentes 3D fejlesztéshez.
-type: docs
 weight: 13
 url: /hu/java/point-clouds/export-point-clouds-ply-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportálja a pontfelhőket PLY formátumba az Aspose.3D for Java segítségével
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó útmutatóban a pontfelhők PLY formátumba történő exportálásáról az Aspose.3D for Java használatával. Az Aspose.3D egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy 3D fájlokkal dolgozzanak, zökkenőmentesen kezelve és kezelve a különböző 3D formátumokat. Ebben az oktatóanyagban a pontfelhők PLY formátumba történő exportálására összpontosítunk, amely egy széles körben használt fájlformátum a 3D adatok megjelenítésére.
@@ -81,3 +87,9 @@ Gratulálunk! Sikeresen exportálta a pontfelhőket PLY formátumba az Aspose.3D
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.3D for Java-t?
 
  5. válasz: Vásárolja meg az Aspose.3D for Java-t[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

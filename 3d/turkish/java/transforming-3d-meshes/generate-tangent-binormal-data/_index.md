@@ -3,10 +3,16 @@ title: Java'da 3B Meshler için Teğet ve Binormal Veri Oluşturma
 linktitle: Java'da 3B Meshler için Teğet ve Binormal Veri Oluşturma
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java ile 3D grafiklerinizi geliştirin. Teğet ve iki normal verileri zahmetsizce oluşturun. Ücretsiz denemeyi şimdi deneyin!
-type: docs
 weight: 11
 url: /tr/java/transforming-3d-meshes/generate-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da 3B Meshler için Teğet ve Binormal Veri Oluşturma
+
 3D grafiklerin dinamik dünyasında, teğet ve çift normal verileri anlamak ve işlemek, gerçekçi ve görsel olarak çekici modeller oluşturmak için çok önemlidir. Bu adım adım kılavuz, Aspose.3D for Java kullanarak 3D ağlar için teğet ve iki normal veriler oluşturma sürecinde size yol gösterecektir. Uzman bir SEO yazarı olarak bu eğitimin yalnızca bilgilendirici olmasını değil aynı zamanda arama motorları için optimize edilmesini de sağlayacağım.
 ## giriiş
 Sürükleyici 3D deneyimler oluşturmak çoğu zaman modellemeden daha fazlasını gerektirir. Teğet ve iki normal veriler, gölgeleme ve aydınlatmada hayati bir rol oynayarak 3D sahnelerinizin gerçekçiliğini artırır. Aspose.3D for Java ile bu verileri zahmetsizce oluşturabilir ve 3D grafiklerinizi bir sonraki seviyeye taşıyabilirsiniz.
@@ -56,3 +62,9 @@ Tebrikler! Aspose.3D for Java'yı kullanarak 3D ağlarınız için başarıyla t
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.3D'yi nereden satın alabilirim?
  Aspose.3D'yi satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

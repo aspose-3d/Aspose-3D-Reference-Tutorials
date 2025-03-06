@@ -3,10 +3,16 @@ title: Áp dụng Twist trong ép đùn tuyến tính với Aspose.3D cho Java
 linktitle: Áp dụng Twist trong ép đùn tuyến tính với Aspose.3D cho Java
 second_title: API Java Aspose.3D
 description: Tìm hiểu cách thêm điểm nhấn vào mô hình 3D của bạn bằng Aspose.3D cho Java. Thực hiện theo hướng dẫn từng bước của chúng tôi để có hiệu ứng ép đùn tuyến tính nâng cao.
-type: docs
 weight: 14
 url: /vi/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Twist trong ép đùn tuyến tính với Aspose.3D cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách áp dụng một bước xoắn trong ép đùn tuyến tính bằng Aspose.3D cho Java. Aspose.3D là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các định dạng tệp 3D, cung cấp chức năng mạnh mẽ để tạo, thao tác và hiển thị cảnh 3D. Trong hướng dẫn này, chúng ta sẽ khám phá cách áp dụng hiệu ứng xoắn trong quá trình ép đùn tuyến tính để nâng cao mô hình 3D của bạn.
@@ -119,3 +125,9 @@ Câu trả lời 1: Có, Aspose.3D hỗ trợ nhiều định dạng tệp 3D kh
 ### Câu hỏi 5: Tôi có thể mua Aspose.3D cho Java ở đâu?
 
  Câu trả lời 5: Mua Aspose.3D cho Java từ[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

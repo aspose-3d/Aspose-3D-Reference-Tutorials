@@ -3,10 +3,16 @@ title: रैखिक बाहर निकालना में दिशा
 linktitle: रैखिक बाहर निकालना में दिशा
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D के साथ 3D मॉडलिंग की दुनिया को अनलॉक करें। दिशा रैखिक एक्सट्रूज़न सीखें, रचनात्मकता को बढ़ावा दें, और सहजता से इमर्सिव एप्लिकेशन तैयार करें।
-type: docs
 weight: 11
 url: /hi/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# रैखिक बाहर निकालना में दिशा
+
 ## परिचय
 
 सॉफ्टवेयर विकास की गतिशील दुनिया में, इमर्सिव 3डी मॉडल बनाना एक अनिवार्य कौशल है। .NET के लिए Aspose.3D डेवलपर्स को उनके अनुप्रयोगों में 3D मॉडलिंग की क्षमता का उपयोग करने के लिए उपकरणों का एक मजबूत सेट प्रदान करता है। इस ट्यूटोरियल में, हम लीनियर एक्सट्रूज़न की दिलचस्प दुनिया में उतरेंगे और "डायरेक्शन इन लीनियर एक्सट्रूज़न" सुविधा की बारीकियों का पता लगाएंगे।
@@ -110,3 +116,9 @@ scene.Save("Your Output Directory" + "DirectionInLinearExtrusion.obj", FileForma
 ### Q5: मुझे .NET के लिए Aspose.3D के लिए विस्तृत दस्तावेज़ कहां मिल सकते हैं?
 
  A5: व्यापक का संदर्भ लें[Aspose.3D .NET दस्तावेज़ीकरण](https://reference.aspose.com/3d/net/) गहन जानकारी के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

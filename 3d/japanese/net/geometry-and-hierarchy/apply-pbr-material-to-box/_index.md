@@ -3,10 +3,16 @@ title: ボックスへの PBR マテリアルの適用
 linktitle: ボックスへの PBR マテリアルの適用
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D グラフィックスの世界を探索してください。物理ベースのレンダリング マテリアルを使用して、没入型のシーンを簡単に作成します。
-type: docs
 weight: 10
 url: /ja/net/geometry-and-hierarchy/apply-pbr-material-to-box/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ボックスへの PBR マテリアルの適用
+
 ## 導入
 
 魅力的な 3D グラフィックスの世界へようこそ!このステップバイステップ ガイドでは、強力な Aspose.3D for .NET ライブラリを探索し、物理ベース レンダリング (PBR) マテリアルを使用して見事な 3D シーンを作成する方法を学びます。 Aspose.3D は 3D グラフィックスの複雑なプロセスを簡素化し、開発者に可能性の領域を広げます。
@@ -113,3 +119,9 @@ A2: もちろんです！ Aspose.3D は、アプリケーションにシーム�
 ### Q5: Aspose.3D の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: 仮免許は取得できます。[ここ](https://purchase.aspose.com/temporary-license/)評価目的のため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Работа с данными геометрии сетки
 linktitle: Работа с данными геометрии сетки
 second_title: Aspose.3D .NET API
 description: Овладейте искусством программирования 3D-графики с помощью Aspose.3D для .NET. Создавайте, манипулируйте и сохраняйте потрясающие 3D-сцены без особых усилий.
-type: docs
 weight: 15
 url: /ru/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с данными геометрии сетки
+
 ## Введение
 
 Добро пожаловать в захватывающий мир программирования 3D-графики с помощью Aspose.3D для .NET! В этом уроке мы углубимся в тонкости работы с данными геометрии сетки в 3D-сценах с использованием Aspose.3D, мощной и универсальной библиотеки для разработчиков .NET. Независимо от того, являетесь ли вы опытным программистом или только начинаете заниматься 3D-графикой, это пошаговое руководство поможет вам без особых усилий овладеть искусством обработки данных геометрии сетки.
@@ -126,3 +132,9 @@ scene.Save(output, FileFormat.FBX7400ASCII);
 ### Вопрос 5. Какие форматы файлов поддерживаются для сохранения 3D-сцен?
 
  A5: Aspose.3D поддерживает различные форматы файлов, включая FBX, STL и другие. Обратитесь к[документация](https://reference.aspose.com/3d/net/) для полного списка.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hasilkan Koordinat UV untuk Pemetaan Tekstur dalam Model 3D Java
 linktitle: Hasilkan Koordinat UV untuk Pemetaan Tekstur dalam Model 3D Java
 second_title: Asumsikan.3D Java API
 description: Pelajari cara menghasilkan koordinat UV untuk model Java 3D menggunakan Aspose.3D. Tingkatkan pemetaan tekstur dalam proyek Anda dengan panduan langkah demi langkah ini.
-type: docs
 weight: 11
 url: /id/java/polygon/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hasilkan Koordinat UV untuk Pemetaan Tekstur dalam Model 3D Java
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami dalam menghasilkan koordinat UV untuk pemetaan tekstur dalam model Java 3D menggunakan Aspose.3D. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan koordinat UV secara manual untuk mesh dalam model 3D. Ini adalah langkah penting dalam pemetaan tekstur, memungkinkan Anda meningkatkan daya tarik visual model 3D Anda.
@@ -120,3 +126,9 @@ A1: Aspose.3D terutama dirancang untuk Java, namun Aspose menawarkan versi untuk
 ### Q5: Dapatkah saya membeli lisensi sementara untuk Aspose.3D?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

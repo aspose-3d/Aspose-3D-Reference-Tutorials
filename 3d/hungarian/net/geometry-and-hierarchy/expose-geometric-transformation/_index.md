@@ -3,10 +3,16 @@ title: Geometriai transzformáció feltárása
 linktitle: Geometriai transzformáció feltárása
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D grafika korlátlan lehetőségeit a .NET-ben az Aspose.3D segítségével. Fedezze fel a geometriai transzformációkat könnyedén.
-type: docs
 weight: 13
 url: /hu/net/geometry-and-hierarchy/expose-geometric-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geometriai transzformáció feltárása
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.3D for .NET izgalmas világában! Ebben az oktatóanyagban az Aspose.3D segítségével 3D-s jelenetekben a geometriai transzformációk feltárásának bonyolultságába fogunk elmélyülni. Ha Ön .NET-fejlesztő, aki szívesen fejleszti 3D grafikus képességeit, akkor jó helyen jár.
@@ -98,3 +104,9 @@ Az alábbi lépések követésével sikeresen felfedte a geometriai transzformá
 ### 5. kérdés: Hogyan vásárolhatom meg az Aspose.3D-t .NET-hez?
 
  5. válasz: Az Aspose.3D .NET-hez való megvásárlásához látogasson el a következő oldalra[vásárlási oldal](https://purchase.aspose.com/buy) az Aspose honlapján.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

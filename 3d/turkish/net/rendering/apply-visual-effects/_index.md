@@ -3,10 +3,16 @@ title: 3B Görünüm Pencerelerinde Görsel Efekt Uygulama
 linktitle: 3B Görünüm Pencerelerinde Görsel Efekt Uygulama
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D görselleştirme dünyasını keşfedin. Adım adım eğitimleri kullanarak sahnelerinize büyüleyici görsel efektler uygulamayı öğrenin. Projelerinizi pikselleştirme, gri tonlama, kenar algılama ve bulanıklaştırma efektleriyle geliştirin.
-type: docs
 weight: 10
 url: /tr/net/rendering/apply-visual-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3B Görünüm Pencerelerinde Görsel Efekt Uygulama
+
 ## giriiş
 
 3D sahnelerin görsel çekiciliğini artırmak, sürükleyici deneyimler yaratmanın çok önemli bir yönüdür. Aspose.3D for .NET, 3D görünüm pencerelerine görsel efektler uygulamak için güçlü bir araç seti sağlar. Bu eğitimde pikselleştirme, gri tonlama, kenar algılama ve bulanıklık dahil olmak üzere 3 boyutlu bir sahneye çeşitli efektler uygulama sürecini ele alacağız.
@@ -179,3 +185,9 @@ Cevap4: Aspose.3D çeşitli yerleşik işlem sonrası efektler sağlar ve kitapl
 ### S5: Aspose.3D'yi ticari projeler için kullanabilir miyim?
 
  Cevap5: Evet, Aspose.3D'yi ticari amaçlarla kullanabilirsiniz. Bakın[satın alma sayfası](https://purchase.aspose.com/buy) lisans ayrıntıları için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

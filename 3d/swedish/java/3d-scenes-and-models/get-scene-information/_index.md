@@ -3,10 +3,16 @@ title: Hämta information från 3D-scener i Java-applikationer
 linktitle: Hämta information från 3D-scener i Java-applikationer
 second_title: Aspose.3D Java API
 description: Utforska världen av 3D-scenmanipulation i Java med Aspose.3D. Denna handledning guidar dig genom att hämta information steg för steg.
-type: docs
 weight: 12
 url: /sv/java/3d-scenes-and-models/get-scene-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hämta information från 3D-scener i Java-applikationer
+
 ## Introduktion
 
 Välkommen till den här omfattande guiden för att hämta information från 3D-scener i Java-applikationer med Aspose.3D. Om du är en Java-utvecklare som vill förbättra din applikations kapacitet med 3D-scenmanipulation, är du på rätt plats. Denna handledning guidar dig genom processen steg för steg, så att du förstår varje koncept grundligt.
@@ -99,3 +105,9 @@ A2: Absolut. Aspose.3D erbjuder kommersiella licenser för utvecklare, vilket s�
 ### F5: Hur kan jag få en tillfällig licens för Aspose.3D?
 
  S5: Skaffa en tillfällig licens för teständamål[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

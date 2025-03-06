@@ -3,10 +3,16 @@ title: Mengekstrak Konten 3D Mentah dari PDF
 linktitle: Mengekstrak Konten 3D Mentah dari PDF
 second_title: Aspose.3D .NET API
 description: Pelajari cara mengekstrak konten 3D dari PDF menggunakan Aspose.3D untuk .NET. Panduan langkah demi langkah dengan contoh kode.
-type: docs
 weight: 14
 url: /id/net/loading-and-saving/pdf/extract-raw-3d-contents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekstrak Konten 3D Mentah dari PDF
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang mengekstraksi konten 3D mentah dari PDF menggunakan Aspose.3D untuk .NET. Aspose.3D adalah API yang kuat dan serbaguna yang memungkinkan pengembang bekerja dengan file 3D dengan mudah. Dalam tutorial ini, kami akan fokus pada proses mengekstraksi konten 3D mentah dari file PDF, memberi Anda panduan langkah demi langkah.
@@ -90,3 +96,9 @@ A1: Ya, Aspose.3D mendukung berbagai format file 3D, sehingga serbaguna untuk be
 ### Q5: Apakah ada dokumentasi yang tersedia untuk Aspose.3D?
 
  A5: Ya, dokumentasinya dapat ditemukan[Di Sini](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

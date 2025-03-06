@@ -3,10 +3,16 @@ title: إنشاء بيانات للشبكات ثلاثية الأبعاد في J
 linktitle: إنشاء بيانات للشبكات ثلاثية الأبعاد في Java (الطبيعية، الظلال، الثنائية الطبيعية)
 second_title: Aspose.3D جافا API
 description: قم بتحسين مشاريع Java الخاصة بك باستخدام Aspose.3D. اتبع البرنامج التعليمي الخاص بنا لإنشاء بيانات عادية للشبكات ثلاثية الأبعاد دون عناء. انغمس في الرسومات ثلاثية الأبعاد بسهولة.
-type: docs
 weight: 11
 url: /ar/java/3d-mesh-data/generate-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء بيانات للشبكات ثلاثية الأبعاد في Java (الطبيعية، الظلال، الثنائية الطبيعية)
+
 ## مقدمة
 
 يمكن أن يكون إنشاء بيانات شبكية ثلاثية الأبعاد ومعالجتها في Java مهمة صعبة ولكنها مثيرة، خاصة عند التعامل مع الملفات التي تفتقر إلى البيانات العادية الأساسية. يأتي Aspose.3D for Java للإنقاذ، حيث يوفر مجموعة أدوات قوية للتعامل مع الرسومات والشبكات ثلاثية الأبعاد بكفاءة. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء البيانات العادية للشبكات ثلاثية الأبعاد باستخدام Aspose.3D في Java.
@@ -95,3 +101,9 @@ System.out.println("\nNormal data generated successfully for all meshes.");
 ### س5: هل تحتاج إلى مساعدة أو تريد التواصل مع المجتمع؟
 
  ج5: قم بزيارة منتدى Aspose.3D[هنا](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

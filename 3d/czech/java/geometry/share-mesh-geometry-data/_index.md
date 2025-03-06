@@ -3,10 +3,16 @@ title: Sdílejte data geometrie sítě v Java 3D s Aspose.3D
 linktitle: Sdílejte data geometrie sítě v Java 3D s Aspose.3D
 second_title: Aspose.3D Java API
 description: Prozkoumejte zázraky Java 3D s Aspose.3D. V tomto komplexním kurzu se dozvíte, jak bez námahy sdílet data geometrie sítě mezi uzly.
-type: docs
 weight: 15
 url: /cs/java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sdílejte data geometrie sítě v Java 3D s Aspose.3D
+
 ## Úvod
 
 Vydání se na cestu do říše Java 3D s Aspose.3D otevírá svět možností pro vytváření úžasných vizualizací a pohlcujících zážitků. V tomto tutoriálu vás provedeme procesem sdílení dat geometrie sítě v Java 3D pomocí Aspose.3D. Pečlivě dodržujte každý krok a na konci budete plynule vyměňovat síťová data mezi více uzly.
@@ -117,3 +123,9 @@ Odpověď 1: Ano, Aspose.3D je navržen tak, aby bezproblémově fungoval s růz
 ### Q5: Jak získám dočasnou licenci pro Aspose.3D?
 
  A5: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

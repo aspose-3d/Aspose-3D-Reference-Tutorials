@@ -3,10 +3,16 @@ title: Generazione di coordinate UV
 linktitle: Generazione di coordinate UV
 second_title: API Aspose.3D .NET
 description: Esplora il mondo della modellazione 3D con Aspose.3D per .NET. Master UV coordina la generazione senza sforzo. Migliora i tuoi progetti ora!
-type: docs
 weight: 11
 url: /it/net/meshes/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generazione di coordinate UV
+
 ## introduzione
 Sblocca la potenza di Aspose.3D per .NET e tuffati nel regno della generazione di coordinate UV. In questo tutorial ti guideremo attraverso i passaggi essenziali per padroneggiare questo aspetto fondamentale della modellazione 3D utilizzando Aspose.3D. Che tu sia uno sviluppatore esperto o un nuovo arrivato, questa guida ti fornirà le conoscenze per creare e manipolare senza sforzo le coordinate UV per le tue mesh.
 ## Prerequisiti
@@ -74,3 +80,9 @@ La prova gratuita presenta alcune limitazioni di funzionalità, ma puoi sperimen
  Sì, puoi ottenere un[licenza temporanea](https://purchase.aspose.com/temporary-license/) per test e valutazioni.
 ### D: Dove posso trovare tutorial e risorse aggiuntivi?
  Esplorare la[Documentazione Aspose.3D](https://reference.aspose.com/3d/net/) per guide ed esempi completi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

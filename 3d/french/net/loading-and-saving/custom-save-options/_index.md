@@ -3,10 +3,16 @@ title: Options d'enregistrement personnalisées
 linktitle: Options d'enregistrement personnalisées
 second_title: API Aspose.3D .NET
 description: Découvrez la puissance d'Aspose.3D pour .NET. Apprenez à personnaliser l'enregistrement de votre scène 3D avec des guides étape par étape sur les formats Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC et RVM.
-type: docs
 weight: 21
 url: /fr/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Options d'enregistrement personnalisées
+
 ## Introduction
 
 Bienvenue dans le monde d'Aspose.3D pour .NET ! Si vous souhaitez améliorer vos capacités de développement 3D, vous êtes au bon endroit. Dans ce didacticiel, nous aborderons les fonctionnalités de chargement et de sauvegarde, en nous concentrant spécifiquement sur les options de sauvegarde personnalisées. Aspose.3D pour .NET est une bibliothèque puissante qui permet aux développeurs de manipuler et d'enregistrer efficacement des scènes 3D.
@@ -131,3 +137,9 @@ A1 : Oui, Aspose.3D est compatible avec divers frameworks .NET, garantissant ain
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.3D ?
 
  A5 : Obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

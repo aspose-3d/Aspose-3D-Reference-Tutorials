@@ -3,10 +3,16 @@ title: Maglia di decodifica
 linktitle: Maglia di decodifica
 second_title: API Aspose.3D .NET
 description: Decodifica mesh senza sforzo con Aspose.3D per .NET. La tua porta d'accesso alla programmazione 3D senza soluzione di continuità. Esplora, personalizza e migliora i tuoi progetti.
-type: docs
 weight: 10
 url: /it/net/loading-and-saving/draco/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maglia di decodifica
+
 ## introduzione
 Immagina questo: sei nel regno dello sviluppo 3D e stai cercando di decodificare complesse strutture mesh. La sfida è reale, ma non temere! Mentre ci imbarchiamo in questo viaggio, navigheremo nel labirinto della decodifica mesh utilizzando Aspose.3D per .NET, il tuo compagno di fiducia nel mondo della programmazione 3D.
 ## Prerequisiti
@@ -55,3 +61,9 @@ Assolutamente! Aspose.3D supporta un'ampia gamma di formati mesh, garantendo la 
  Certamente! Prendi il tuo[prova gratuita](https://releases.aspose.com/) per sperimentare l'abilità di Aspose.3D prima di prendere qualsiasi impegno.
 ### Hai bisogno di una licenza temporanea per un progetto a breve termine?
  Vai a[Licenza temporanea](https://purchase.aspose.com/temporary-license/) e acquisisci una licenza temporanea su misura per le esigenze del tuo progetto.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Fånga visningsportar i 3D-scener
 linktitle: Fånga visningsportar i 3D-scener
 second_title: Aspose.3D .NET API
 description: Lär dig att fånga fantastiska 3D-vyportar med Aspose.3D för .NET. Steg-för-steg-guide för att rendera scener med flexibilitet.
-type: docs
 weight: 11
 url: /sv/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fånga visningsportar i 3D-scener
+
 ## Introduktion
 
 När det gäller 3D-grafik och visualisering är att fånga visningsportar en viktig färdighet som förbättrar djupet och detaljerna i dina scener. Aspose.3D för .NET ger en robust lösning för att rendera och manipulera 3D-scener. Den här handledningen guidar dig genom processen att fånga visningsportar i 3D-scener med Aspose.3D, så att du enkelt kan skapa fantastiska visualiseringar.
@@ -124,3 +130,9 @@ S2: Även om Aspose.3D främst är designad för grafik och visualisering, kan d
 ### F5: Hur kan jag söka hjälp eller delta i samhället?
 
  S5: Gå med i Aspose.3D-communityt på[supportforum](https://forum.aspose.com/c/3d/18) för hjälp och samarbete.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

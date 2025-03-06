@@ -3,10 +3,16 @@ title: Controlling Center in Linear Extrusion with Aspose.3D for Java
 linktitle: Controlling Center in Linear Extrusion with Aspose.3D for Java
 second_title: Aspose.3D Java API
 description: Explore the world of 3D graphics in Java with Aspose.3D. Control the center in linear extrusion effortlessly.
-type: docs
 weight: 11
 url: /java/linear-extrusion/controlling-center/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Controlling Center in Linear Extrusion with Aspose.3D for Java
+
 ## Introduction
 
 In the world of 3D graphics and Java programming, controlling the center in linear extrusion plays a crucial role in achieving the desired effects in your projects. Aspose.3D for Java provides a powerful toolkit to handle such tasks seamlessly. In this tutorial, we'll dive into the process of controlling the center in linear extrusion using Aspose.3D for Java, breaking down each step to ensure a smooth and comprehensive understanding.
@@ -126,3 +132,10 @@ A4: Yes, if you require a temporary license for testing purposes, you can obtain
 ### Q5: Where can I find the documentation?
 
 A5: The documentation for Aspose.3D for Java is available [here](https://reference.aspose.com/3d/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

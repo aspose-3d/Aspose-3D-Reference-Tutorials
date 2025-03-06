@@ -3,10 +3,16 @@ title: Wyodrębnianie informacji do zasobów sceny
 linktitle: Wyodrębnianie informacji do zasobów sceny
 second_title: Aspose.3D API .NET
 description: Ulepsz swoje sceny 3D bez wysiłku dzięki Aspose.3D dla .NET. Dowiedz się, jak krok po kroku dodawać cenne informacje o zasobach. Pobierz teraz, aby cieszyć się dynamicznym doświadczeniem 3D.
-type: docs
 weight: 10
 url: /pl/net/3d-scene/information-to-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wyodrębnianie informacji do zasobów sceny
+
 ## Wstęp
 
 Witamy w tym kompleksowym samouczku dotyczącym używania Aspose.3D dla .NET do wydobywania cennych informacji i ulepszania scen 3D. Aspose.3D to potężna biblioteka, która umożliwia programistom płynne manipulowanie scenami 3D w aplikacjach .NET. W tym samouczku skupimy się na kluczowym zadaniu, jakim jest dodanie informacji o zasobach do sceny.
@@ -96,3 +102,9 @@ O1: Aspose.3D obsługuje przede wszystkim języki .NET, ale możesz poznać opcj
 ### P5: Gdzie mogę znaleźć szczegółową dokumentację Aspose.3D dla .NET?
 
  Odpowiedź 5: Patrz[dokumentacja](https://reference.aspose.com/3d/net/) w celu uzyskania szczegółowych informacji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java での点群の操作
 linktitle: Java での点群の操作
 second_title: Aspose.3D Java API
 description: Aspose.3D チュートリアルを使用すると、Java で点群を簡単にデコード、ロード、作成、エクスポート、合理化できます。 3D 開発スキルを段階的に強化してください。
-type: docs
 weight: 34
 url: /ja/java/point-clouds/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java での点群の操作
+
 
 ## 導入
 
@@ -49,3 +55,9 @@ Java の Aspose.3D を使用して 3D グラフィックスの世界を探索し
 Aspose.3D を使用して Java で 3D シーンを点群としてエクスポートする方法を学びます。強力な 3D グラフィックスと視覚化によりアプリケーションを強化します。
 ### [Java での PLY エクスポートによる点群処理の合理化](./ply-export-point-clouds-java/)
 Aspose.3D を使用して Java で点群処理を効率化してみましょう。 PLY ファイルを簡単にエクスポートする方法を学びましょう。ステップバイステップのガイドを使用して、3D グラフィックス プロジェクトを強化します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.3D for Java'da Silindirlerle Çalışmak
 linktitle: Aspose.3D for Java'da Silindirlerle Çalışmak
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java ile göz alıcı 3D modelleri zahmetsizce oluşturun! Öğreticilerle fan silindirleri, ofset üst silindirler ve makaslı tabanlı silindirler oluşturmayı öğrenin.
-type: docs
 weight: 25
 url: /tr/java/cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java'da Silindirlerle Çalışmak
+
 ## giriiş
 
 3D modelleme becerilerinizi bir sonraki seviyeye taşımaya hazır mısınız? Aspose.3D for Java, bir olasılıklar dünyasının kapılarını açıyor ve bu eğitimde, özelleştirilmiş silindirler oluşturmanın büyüleyici dünyasında size rehberlik edeceğiz. İster deneyimli bir geliştirici olun ister 3D modelleme dünyasına yeni adım atın, bu eğitimler becerilerinizi geliştirecek ve projelerinize benzersiz bir dokunuş katacaktır.
@@ -37,3 +43,9 @@ Aspose.3D ile Java'da özelleştirilmiş fan silindirleri oluşturmayı öğreni
 Aspose.3D ile Java'da 3D modellemenin harikalarını keşfedin. Üst kısmı ofset olan büyüleyici silindirleri zahmetsizce oluşturmayı öğrenin.
 ### [Aspose.3D for Java'da Tabanı Kesilmiş Silindirler Oluşturma](./creating-cylinders-with-sheared-bottom/)
 Aspose.3D for Java'yı kullanarak tabanı kesilmiş özelleştirilmiş silindirler oluşturmayı öğrenin. Bu adım adım kılavuzla 3D modelleme becerilerinizi geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Renderizando cena em Cubemap com seis faces
 linktitle: Renderizando cena em Cubemap com seis faces
 second_title: API Aspose.3D .NET
 description: Crie mapas de cubos impressionantes com Aspose.3D para .NET. Siga nosso guia passo a passo para renderizar cenas 3D em mapas cúbicos cativantes de seis faces.
-type: docs
 weight: 14
 url: /pt/net/rendering/render-scene-cubemap/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Renderizando cena em Cubemap com seis faces
+
 ## Introdução
 Bem-vindo a este guia passo a passo sobre como renderizar uma cena em um mapa cúbico com seis faces usando Aspose.3D para .NET. Neste tutorial, orientaremos você no processo de criação de um mapa cúbico impressionante, renderizando uma cena 3D. Aspose.3D é uma API .NET poderosa que simplifica a manipulação de gráficos 3D e, com este guia, você aproveitará seus recursos para criar mapas de cubos cativantes.
 ## Pré-requisitos
@@ -86,3 +92,9 @@ Sim, Aspose.3D suporta vários formatos de arquivo 3D, proporcionando flexibilid
 Absolutamente! Aspose.3D suporta renderização de cenas 3D animadas.
 ### P: Onde posso encontrar documentação detalhada?
  Consulte o[Documentação Aspose.3D](https://reference.aspose.com/3d/net/) para obter informações detalhadas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

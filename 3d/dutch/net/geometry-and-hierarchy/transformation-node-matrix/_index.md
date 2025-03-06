@@ -3,10 +3,16 @@ title: Transformatieknooppunt door transformatiematrix
 linktitle: Transformatieknooppunt door transformatiematrix
 second_title: Aspose.3D .NET-API
 description: Transformeer knooppunten moeiteloos in 3D-scènes met Aspose.3D voor .NET. Leer stapsgewijze knooppunttransformaties met een tutorial.
-type: docs
 weight: 21
 url: /nl/net/geometry-and-hierarchy/transformation-node-matrix/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformatieknooppunt door transformatiematrix
+
 ## Invoering
 
 In het dynamische domein van 3D-graphics en visualisaties is de mogelijkheid om objecten binnen een scène te manipuleren een cruciaal aspect. Aspose.3D voor .NET stelt ontwikkelaars in staat knooppunten naadloos te transformeren met behulp van transformatiematrices, waardoor een laag creativiteit en controle wordt toegevoegd aan 3D-scènes. Deze tutorial leidt u stap voor stap door het proces van het transformeren van een knooppunt in een 3D-scène.
@@ -112,3 +118,9 @@ A2: Ja, u kunt meerdere transformaties combineren door hun respectievelijke matr
 ### Vraag 5: Waar kan ik hulp zoeken of verbinding maken met de Aspose.3D-gemeenschap?
 
  A5: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) om vragen te stellen, ervaringen te delen en contact te maken met andere ontwikkelaars die Aspose.3D gebruiken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

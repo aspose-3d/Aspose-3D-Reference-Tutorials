@@ -3,10 +3,16 @@ title: Travailler avec des nuages de points en Java
 linktitle: Travailler avec des nuages de points en Java
 second_title: API Java Aspose.3D
 description: Décodez, chargez, créez, exportez et rationalisez sans effort des nuages de points en Java avec les didacticiels Aspose.3D. Améliorez étape par étape vos compétences en développement 3D.
-type: docs
 weight: 34
 url: /fr/java/point-clouds/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec des nuages de points en Java
+
 
 ## Introduction
 
@@ -49,3 +55,9 @@ Explorez le monde des graphiques 3D avec Aspose.3D en Java. Apprenez à génére
 Apprenez à exporter des scènes 3D sous forme de nuages de points en Java avec Aspose.3D. Améliorez vos applications avec de puissants graphiques et visualisations 3D.
 ### [Rationalisez la gestion des nuages de points avec l'exportation PLY en Java](./ply-export-point-clouds-java/)
 Explorez la gestion rationalisée des nuages de points en Java avec Aspose.3D. Apprenez à exporter des fichiers PLY sans effort. Boostez vos projets graphiques 3D avec notre guide étape par étape.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

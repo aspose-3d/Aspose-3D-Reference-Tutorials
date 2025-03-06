@@ -3,10 +3,16 @@ title: إنشاء إحداثيات الأشعة فوق البنفسجية لرس
 linktitle: إنشاء إحداثيات الأشعة فوق البنفسجية لرسم خرائط النسيج في نماذج Java ثلاثية الأبعاد
 second_title: Aspose.3D جافا API
 description: تعلم كيفية إنشاء إحداثيات الأشعة فوق البنفسجية لنماذج Java ثلاثية الأبعاد باستخدام Aspose.3D. قم بتحسين رسم خرائط النسيج في مشاريعك باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 11
 url: /ar/java/polygon/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء إحداثيات الأشعة فوق البنفسجية لرسم خرائط النسيج في نماذج Java ثلاثية الأبعاد
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول إنشاء إحداثيات الأشعة فوق البنفسجية لرسم خرائط النسيج في نماذج Java ثلاثية الأبعاد باستخدام Aspose.3D. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء إحداثيات الأشعة فوق البنفسجية يدويًا لشبكة في نموذج ثلاثي الأبعاد. تعد هذه خطوة حاسمة في رسم خرائط النسيج، مما يسمح لك بتحسين المظهر المرئي لنماذجك ثلاثية الأبعاد.
@@ -120,3 +126,9 @@ scene.save(MyDir + "test.obj", FileFormat.WAVEFRONTOBJ);
 ### س5: هل يمكنني شراء ترخيص مؤقت لـ Aspose.3D؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

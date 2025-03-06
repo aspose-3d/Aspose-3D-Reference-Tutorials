@@ -3,10 +3,16 @@ title: Java で XPath のようなクエリを 3D オブジェクトに適用す
 linktitle: Java で XPath のようなクエリを 3D オブジェクトに適用する
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用すると、Java での 3D オブジェクト クエリを簡単にマスターできます。 XPath のようなクエリを適用し、シーンを操作し、3D 開発を強化します。
-type: docs
 weight: 11
 url: /ja/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で XPath のようなクエリを 3D オブジェクトに適用する
+
 ## 導入
 
 Java で 3D モデリングとシーン操作の領域を掘り下げるのは、気が遠くなる作業かもしれませんが、心配する必要はありません。 Aspose.3D for Java は、3D オブジェクトを処理するための堅牢なソリューションを提供し、開発者にとって貴重なツールになります。このチュートリアルでは、Aspose.3D を使用して Java の 3D オブジェクトに XPath のようなクエリを適用する方法を説明します。
@@ -99,3 +105,9 @@ A3: はい、無料トライアルを利用できます。[ここ](https://relea
 ### Q5: 仮免許が必要ですか?
 
  A5: 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

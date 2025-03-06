@@ -3,10 +3,16 @@ title: Salvando malhas 3D em formato binário personalizado
 linktitle: Salvando malhas 3D em formato binário personalizado
 second_title: API Aspose.3D .NET
 description: Explore o mundo do 3D com Aspose.3D para .NET. Aprenda a salvar malhas em formato binário personalizado.
-type: docs
 weight: 13
 url: /pt/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salvando malhas 3D em formato binário personalizado
+
 ## Introdução
 
 Bem-vindo ao mundo do Aspose.3D for .NET, uma biblioteca poderosa que permite aos desenvolvedores trabalhar com arquivos 3D sem esforço. Neste tutorial, nos aprofundaremos no processo de salvar malhas 3D em um formato binário personalizado usando Aspose.3D para .NET. Este guia pressupõe que você tenha um conhecimento básico de C# e esteja familiarizado com a biblioteca Aspose.3D.
@@ -142,3 +148,9 @@ A1: Aspose.3D oferece suporte principalmente a linguagens .NET, mas você pode e
 ### Q5: Posso comprar o Aspose.3D para .NET?
 
  A5: Sim, você pode comprar Aspose.3D no[página de compra](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

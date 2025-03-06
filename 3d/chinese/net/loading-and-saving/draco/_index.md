@@ -3,10 +3,16 @@ title: 谷歌德拉科支持
 linktitle: 谷歌德拉科支持
 second_title: Aspose.3D .NET API
 description: Aspose.3D 与 Google Draco 无缝集成，可高效压缩和解压缩 3D 模型，优化文件大小并增强性能。
-type: docs
 weight: 27
 url: /zh/net/loading-and-saving/draco
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 谷歌德拉科支持
+
 ## 介绍
 
 在本教程系列中，我们将探索 Aspose.3D 中 Google Draco 支持的复杂性，解锁创意可能性的世界。
@@ -29,3 +35,9 @@ Aspose.3D 使您能够将 3D 网格编码为 Draco 格式的点云，为大型�
 使用 Aspose.3D for .NET 踏上无限可能的旅程。无论您是新手还是经验丰富的开发人员，我们的教程都适合所有技能水平。改变您的 3D 建模体验 - 使用 Aspose.3D for .NET 探索、创建和创新。
 
 准备好提升您的 3D 建模技能了吗？开始探索教程。释放 Aspose.3D for .NET 的全部潜力，轻松雕刻您的 3D 杰作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

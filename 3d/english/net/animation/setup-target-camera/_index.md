@@ -3,10 +3,16 @@ title: Setting Up Targets and Cameras for Animation in 3D Scenes
 linktitle: Setting Up Targets and Cameras for Animation in 3D Scenes
 second_title: Aspose.3D .NET API
 description: Unlock the magic of 3D animation with Aspose.3D for .NET. Effortlessly set up targets and cameras using this comprehensive tutorial.
-type: docs
 weight: 11
 url: /net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setting Up Targets and Cameras for Animation in 3D Scenes
+
 ## Introduction
 
 Setting up targets and cameras forms the foundation of any 3D animation project. Aspose.3D for .NET offers a robust set of tools to streamline this process, allowing developers to unleash their creativity. This tutorial will guide you through the steps, breaking down the complexities, and making the seemingly daunting task more manageable.
@@ -103,3 +109,10 @@ A4: Yes, you can explore a free trial [here](https://releases.aspose.com/).
 ### Q5: How do I obtain a temporary license?
 
 A5: Get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

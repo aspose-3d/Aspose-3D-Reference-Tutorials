@@ -3,10 +3,16 @@ title: 在 3D 视口中应用视觉效果
 linktitle: 在 3D 视口中应用视觉效果
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 可视化世界。使用分步教程学习如何将迷人的视觉效果应用到场景中。通过像素化、灰度、边缘检测和模糊效果提升您的项目。
-type: docs
 weight: 10
 url: /zh/net/rendering/apply-visual-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 3D 视口中应用视觉效果
+
 ## 介绍
 
 增强 3D 场景的视觉吸引力是创造沉浸式体验的一个重要方面。 Aspose.3D for .NET 提供了一组强大的工具来将视觉效果应用于 3D 视口。在本教程中，我们将逐步介绍向 3D 场景应用各种效果的过程，包括像素化、灰度、边缘检测和模糊。
@@ -179,3 +185,9 @@ A4：Aspose.3D提供了多种内置的后处理效果，您可以使用该库创
 ### Q5：我可以将Aspose.3D用于商业项目吗？
 
  A5：是的，您可以将Aspose.3D用于商业目的。请参阅[购买页面](https://purchase.aspose.com/buy)了解许可详细信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

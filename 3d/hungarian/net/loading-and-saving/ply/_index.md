@@ -3,10 +3,16 @@ title: PLY támogatás
 linktitle: PLY támogatás
 second_title: Aspose.3D .NET API
 description: Az Aspose.3D zökkenőmentesen támogatja a PLY formátumot, megkönnyítve a 3D modellek zökkenőmentes importját és exportálását a sokoldalú felhasználási esetekhez.
-type: docs
 weight: 27
 url: /hu/net/loading-and-saving/ply
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PLY támogatás
+
 ## Bevezetés
 
 Ebben az oktatóanyag-sorozatban az Aspose.3D glTF támogatásának fortélyait fedezzük fel, és ezzel a kreatív lehetőségek világát tárjuk fel.
@@ -30,3 +36,9 @@ Az Aspose.3D lehetőséget biztosít a hálók pontfelhőkként való kódolás�
 Induljon el a korlátlan lehetőségek utazására az Aspose.3D for .NET segítségével. Akár kezdő, akár tapasztalt fejlesztő, oktatóanyagaink minden készségszintet kielégítenek. Alakítsa át 3D modellezési élményét – fedezze fel, alkosson és újítson az Aspose.3D for .NET segítségével.
 
 Készen állsz 3D modellezési készségeid fejlesztésére? Kezdje el felfedezni az oktatóanyagokat. Engedje szabadjára az Aspose.3D teljes potenciálját .NET-hez, és készítse el 3D remekeit könnyedén.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

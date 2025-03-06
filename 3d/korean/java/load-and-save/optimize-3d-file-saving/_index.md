@@ -3,10 +3,16 @@ title: Aspose.3D SaveOptions를 사용하여 Java에서 3D 파일 저장 최적�
 linktitle: Aspose.3D SaveOptions를 사용하여 Java에서 3D 파일 저장 최적화
 second_title: Aspose.3D 자바 API
 description: Aspose.3D SaveOptions를 사용하여 Java에서 3D 파일 저장을 최적화하는 방법을 알아보세요. 손쉽게 성능을 향상하고 출력을 맞춤화하세요.
-type: docs
 weight: 16
 url: /ko/java/load-and-save/optimize-3d-file-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D SaveOptions를 사용하여 Java에서 3D 파일 저장 최적화
+
 ## 소개
 
 Aspose.3D는 개발자가 3D 모델을 원활하게 사용할 수 있도록 지원하는 기능이 풍부한 Java 라이브러리입니다. 3D 파일을 저장할 때 SaveOptions 클래스는 요구 사항에 따라 출력을 미세 조정할 수 있는 다양한 설정을 제공합니다. 이 튜토리얼에서는 다양한 저장 옵션과 이를 활용하여 프로세스를 최적화하는 방법을 살펴보겠습니다.
@@ -119,3 +125,9 @@ A4: 활용`setFileSystem(new DummyFileSystem())` 의 방법`ObjSaveOptions` 재�
 ### Q5: OBJ 파일의 로컬 디렉터리에 종속성을 저장하는 방법이 있습니까?
 
  A5: 예,`setFileSystem(new LocalFileSystem(MyDir))` 의 방법`ObjSaveOptions` 종속성을 로컬에 저장하는 클래스입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

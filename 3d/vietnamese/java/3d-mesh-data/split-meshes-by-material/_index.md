@@ -3,10 +3,16 @@ title: Chia lưới 3D theo vật liệu để xử lý hiệu quả trong Java
 linktitle: Chia lưới 3D theo vật liệu để xử lý hiệu quả trong Java
 second_title: API Java Aspose.3D
 description: Khám phá sức mạnh của Aspose.3D trong Java với hướng dẫn từng bước của chúng tôi về cách chia lưới 3D một cách hiệu quả theo vật liệu. Nâng cao hiệu suất ứng dụng của bạn một cách liền mạch.
-type: docs
 weight: 12
 url: /vi/java/3d-mesh-data/split-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chia lưới 3D theo vật liệu để xử lý hiệu quả trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách chia lưới 3D theo vật liệu để xử lý hiệu quả trong Java bằng Aspose.3D. Nếu bạn đang đi sâu vào thế giới đồ họa 3D và cần một thư viện Java mạnh mẽ, Aspose.3D là giải pháp phù hợp cho bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xử lý hiệu quả các lưới 3D theo vật liệu, tối ưu hóa ứng dụng Java của bạn để có hiệu suất vượt trội.
@@ -104,3 +110,10 @@ A2: Chắc chắn rồi! Phương pháp này có khả năng mở rộng tốt c
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho bất kỳ vấn đề hoặc thắc mắc nào?
 
  A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để nhận được sự hỗ trợ tận tình từ cộng đồng.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

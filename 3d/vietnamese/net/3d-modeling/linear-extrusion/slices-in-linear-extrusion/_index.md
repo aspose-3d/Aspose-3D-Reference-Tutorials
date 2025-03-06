@@ -3,10 +3,16 @@ title: Các lát trong đùn tuyến tính
 linktitle: Các lát trong đùn tuyến tính
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới thiết kế 3D với Aspose.3D cho .NET. Tạo các mô hình tuyệt đẹp bằng cách sử dụng hướng dẫn ép đùn tuyến tính của chúng tôi.
-type: docs
 weight: 13
 url: /vi/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các lát trong đùn tuyến tính
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới thiết kế 3D bằng Aspose.3D cho .NET! Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn qua quá trình tạo hình ảnh trực quan 3D tuyệt đẹp bằng thư viện Aspose.3D mạnh mẽ.
@@ -116,3 +122,9 @@ Câu trả lời 1: Aspose.3D được thiết kế chủ yếu cho .NET, nhưng
 ### Câu hỏi 5: Tôi có thể sử dụng giấy phép tạm thời cho Aspose.3D cho .NET không?
 
  A5: Có, xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho mục đích đánh giá.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

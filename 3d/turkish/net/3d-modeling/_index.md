@@ -3,10 +3,16 @@ title: Modelleme
 linktitle: Modelleme
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D modelleme sanatını keşfedin! Bu kapsamlı eğitimde büyüleyici ilkel modelleri kolayca oluşturun. Bugün yaratıcılığınızı serbest bırakın.
-type: docs
 weight: 28
 url: /tr/net/3d-modeling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modelleme
+
 
 ## giriiş
 
@@ -67,3 +73,9 @@ Temel konularda uzmanlaştıktan sonra becerilerinizi geliştirmenin zamanı gel
 ## 3D Modelleme Eğitimleri
 ### [İlkel 3D Modeller Oluşturma](./primitive-3d-models/)
 Aspose.3D for .NET ile 3D modelleme dünyasını keşfedin. Çarpıcı ilkel modelleri zahmetsizce yaratın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

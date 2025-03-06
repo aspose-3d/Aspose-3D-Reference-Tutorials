@@ -3,10 +3,16 @@ title: 连接四元数
 linktitle: 连接四元数
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 场景中四元数操作的强大功能。学习逐步连接四元数以实现身临其境的转换。
-type: docs
 weight: 11
 url: /zh/net/geometry-and-hierarchy/concatenate-quaternions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 连接四元数
+
 ## 介绍
 
 欢迎来到这个关于使用 Aspose.3D for .NET 在 3D 场景中连接四元数的综合教程！如果您是一名开发人员或 3D 爱好者，希望提高四元数操作技能，那么您来对地方了。本教程将逐步指导您完成整个过程，确保顺利的学习体验。
@@ -105,3 +111,9 @@ A3：是的，您可以免费试用[这里](https://releases.aspose.com/).
 ### Q5：我可以使用 Aspose.3D for .NET 的临时许可证吗？
 
  A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

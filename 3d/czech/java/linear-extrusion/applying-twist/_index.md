@@ -3,10 +3,16 @@ title: Aplikace Twist v lineárním vytlačování s Aspose.3D pro Javu
 linktitle: Aplikace Twist v lineárním vytlačování s Aspose.3D pro Javu
 second_title: Aspose.3D Java API
 description: Naučte se, jak přidat šmrnc svým 3D modelům pomocí Aspose.3D for Java. Postupujte podle našeho podrobného průvodce pro vylepšené efekty lineárního vytlačování.
-type: docs
 weight: 14
 url: /cs/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplikace Twist v lineárním vytlačování s Aspose.3D pro Javu
+
 ## Úvod
 
 Vítejte v tomto podrobném návodu na použití zkroucení při lineárním vytlačování pomocí Aspose.3D pro Java. Aspose.3D je výkonná Java knihovna, která umožňuje vývojářům pracovat s 3D formáty souborů a nabízí robustní funkce pro vytváření, manipulaci a renderování 3D scén. V tomto tutoriálu prozkoumáme, jak použít efekt kroucení během procesu lineárního vytlačování pro vylepšení vašich 3D modelů.
@@ -119,3 +125,9 @@ Odpověď 1: Ano, Aspose.3D podporuje různé formáty 3D souborů, což vám um
 ### Q5: Kde mohu zakoupit Aspose.3D pro Java?
 
  A5: Nákup Aspose.3D pro Java z[nákupní stránku](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

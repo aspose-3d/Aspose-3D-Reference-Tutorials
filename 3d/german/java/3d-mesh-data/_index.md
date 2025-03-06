@@ -3,10 +3,16 @@ title: Optimieren und Arbeiten mit 3D-Netzdaten in Java
 linktitle: Optimieren und Arbeiten mit 3D-Netzdaten in Java
 second_title: Aspose.3D Java-API
 description: Optimieren Sie Ihre 3D-Anwendungen mit Aspose.3D für Java. Erfahren Sie, wie Sie Netze mit Google Draco komprimieren, Netzdaten generieren und 3D-Netze effizient nach Material verarbeiten.
-type: docs
 weight: 32
 url: /de/java/3d-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optimieren und Arbeiten mit 3D-Netzdaten in Java
+
 ## Einführung
 
 Sind Sie bereit, Ihre 3D-Entwicklungsfähigkeiten in Java zu verbessern? Tauchen Sie ein in die Welt von Aspose.3D, wo wir Ihnen umfassende Tutorials zur Optimierung und Arbeit mit 3D-Netzdaten bieten. Ganz gleich, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen: Mit diesen Tutorials können Sie Ihre Java-Projekte mühelos verbessern.
@@ -31,3 +37,9 @@ Optimieren Sie Ihre 3D-Anwendungen mit Aspose.3D. Erfahren Sie, wie Sie Meshes m
 Erweitern Sie Ihre Java-Projekte mit Aspose.3D. Folgen Sie unserem Tutorial, um mühelos normale Daten für 3D-Netze zu generieren. Tauchen Sie mühelos in 3D-Grafiken ein.
 ### [Teilen Sie 3D-Netze nach Material für eine effiziente Verarbeitung in Java auf](./split-meshes-by-material/)
 Entdecken Sie die Leistungsfähigkeit von Aspose.3D in Java mit unserer Schritt-für-Schritt-Anleitung zum effizienten Aufteilen von 3D-Netzen nach Material. Verbessern Sie nahtlos die Leistung Ihrer Anwendung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

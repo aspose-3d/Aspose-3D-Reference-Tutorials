@@ -3,10 +3,16 @@ title: Vytvoření prázdného 3D dokumentu
 linktitle: Vytvoření prázdného 3D dokumentu
 second_title: Aspose.3D .NET API
 description: Prozkoumejte svět tvorby 3D dokumentů s Aspose.3D pro .NET. Vytvářejte, upravujte a ukládejte úžasné 3D scény bez námahy.
-type: docs
 weight: 11
 url: /cs/net/loading-and-saving/create-empty-3d-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvoření prázdného 3D dokumentu
+
 ## Úvod
 
 Vítejte ve světě tvorby 3D dokumentů pomocí Aspose.3D pro .NET! V tomto tutoriálu prozkoumáme základy načítání a ukládání 3D dokumentů. Aspose.3D for .NET poskytuje výkonnou sadu nástrojů pro práci s 3D scénami a my vás provedeme každým krokem, který vám pomůže hladce začít.
@@ -84,3 +90,9 @@ Odpověď 1: Ano, Aspose.3D for .NET poskytuje uživatelsky přívětivé rozhra
 ### Q5: Kde mohu zakoupit Aspose.3D pro .NET?
 
  A5: Můžete si koupit knihovnu[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

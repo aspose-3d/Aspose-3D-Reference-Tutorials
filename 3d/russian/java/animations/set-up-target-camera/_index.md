@@ -3,10 +3,16 @@ title: Настройка целевой камеры для 3D-анимации
 linktitle: Настройка целевой камеры для 3D-анимации в Java | Учебное пособие по Aspose.3D
 second_title: Aspose.3D Java API
 description: Исследуйте 3D-анимацию Java без особых усилий с помощью Aspose.3D. Следуйте нашему руководству, чтобы получить пошаговое руководство. Загрузите сейчас и совершите увлекательное путешествие по разработке 3D-технологий.
-type: docs
 weight: 11
 url: /ru/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка целевой камеры для 3D-анимации в Java | Учебное пособие по Aspose.3D
+
 ## Введение
 
 Добро пожаловать в это пошаговое руководство по настройке целевой камеры для 3D-анимации на Java с использованием Aspose.3D. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете осваивать 3D-анимацию на Java, это руководство проведет вас через весь процесс с четкими и краткими инструкциями.
@@ -98,3 +104,9 @@ scene.save(MyDir, FileFormat.DISCREET3DS);
 ### В5: Как я могу получить временную лицензию?
 
  О5: Вы можете приобрести временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

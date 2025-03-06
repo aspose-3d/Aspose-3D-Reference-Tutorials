@@ -3,10 +3,16 @@ title: 사용자 정의 저장 옵션
 linktitle: 사용자 정의 저장 옵션
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D의 강력한 기능을 살펴보세요. Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC 및 RVM 형식에 대한 단계별 가이드를 통해 3D 장면 저장을 사용자 정의하는 방법을 알아보세요.
-type: docs
 weight: 21
 url: /ko/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 사용자 정의 저장 옵션
+
 ## 소개
 
 .NET용 Aspose.3D의 세계에 오신 것을 환영합니다! 3D 개발 역량을 강화하고 싶다면 잘 찾아오셨습니다. 이 튜토리얼에서는 특히 사용자 정의 저장 옵션에 중점을 두고 로드 및 저장 기능을 자세히 살펴보겠습니다. .NET용 Aspose.3D는 개발자가 3D 장면을 효율적으로 조작하고 저장할 수 있도록 지원하는 강력한 라이브러리입니다.
@@ -131,3 +137,9 @@ A1: 예, Aspose.3D는 다양한 .NET 프레임워크와 호환되므로 개발 �
 ### Q5: Aspose.3D의 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

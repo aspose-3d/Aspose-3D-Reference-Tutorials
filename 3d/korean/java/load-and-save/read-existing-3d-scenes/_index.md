@@ -3,10 +3,16 @@ title: Aspose.3D를 사용하여 Java에서 기존 3D 장면을 쉽게 읽습니
 linktitle: Aspose.3D를 사용하여 Java에서 기존 3D 장면을 쉽게 읽습니다.
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 3D 그래픽의 세계를 탐험해보세요. 기존 3D 장면을 쉽게 읽고 조작할 수 있습니다.
-type: docs
 weight: 14
 url: /ko/java/load-and-save/read-existing-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D를 사용하여 Java에서 기존 3D 장면을 쉽게 읽습니다.
+
 ## 소개
 
 Java를 사용하여 3D 그래픽 및 디자인의 세계에 뛰어들고 있다면 정말 좋은 경험을 하게 될 것입니다. Aspose.3D for Java는 3D 장면 작업 프로세스를 단순화하는 강력한 라이브러리입니다. 이 튜토리얼에서는 기존 3D 장면을 쉽게 읽는 단계를 안내하여 수정, 추가 및 처리 가능성의 영역을 열어드립니다.
@@ -104,3 +110,9 @@ A2: Aspose.3D는 강력하지만 대규모 3D 문서에는 추가 고려 사항�
 ### Q5: Java용 Aspose.3D에 대한 자세한 문서는 어디에서 찾을 수 있습니까?
 
 A5: 포괄적인 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

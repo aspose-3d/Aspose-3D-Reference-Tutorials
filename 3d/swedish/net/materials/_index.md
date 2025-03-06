@@ -3,10 +3,16 @@ title: Material
 linktitle: Material
 second_title: Aspose.3D .NET API
 description: Lås upp en värld av fängslande 3D-scener med Aspose.3D för .NET-tutorials. Lär dig att skapa fantastiska scener och utforska inbäddade texturer utan ansträngning.
-type: docs
 weight: 28
 url: /sv/net/materials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Material
+
 ## Introduktion
 
 Är du redo att ge dig ut på en resa in i den spännande sfären av 3D-design och visualisering? Aspose.3D för .NET öppnar dörren till en värld där kreativiteten inte känner några gränser. I den här artikeln kommer vi att guida dig genom en serie tutorials, som var och en låser upp en ny aspekt av detta kraftfulla .NET-bibliotek.
@@ -31,3 +37,9 @@ Lås upp potentialen hos Aspose.3D för .NET idag. Ladda ner biblioteket, utfors
 Skapa fascinerande 3D-scener med inbäddade texturer med Aspose.3D för .NET. Följ vår steg-för-steg-guide för fantastiska resultat.
 ### [Dumpning av inbäddade texturer](./dump-embedded-textures/)
 Lås upp hemligheterna med inbäddade texturer i 3D-modeller med Aspose.3D för .NET. Dyk in i vår steg-för-steg-guide för sömlös integration. Ladda ner din kostnadsfria testversion nu!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

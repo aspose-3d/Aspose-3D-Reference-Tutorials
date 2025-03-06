@@ -3,10 +3,16 @@ title: 보호된 PDF에서 장면 열기
 linktitle: 보호된 PDF에서 장면 열기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 모델링의 가능성을 살펴보세요. 단계별 가이드를 통해 보호된 PDF에서 장면을 여는 방법을 알아보세요.
-type: docs
 weight: 17
 url: /ko/net/loading-and-saving/pdf/open-scene-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 보호된 PDF에서 장면 열기
+
 ## 소개
 
 .NET용 Aspose.3D의 기능을 활용하여 3D 모델링 및 조작 작업을 향상시키는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. Aspose.3D는 개발자가 .NET 애플리케이션에서 3D 파일 형식으로 원활하게 작업할 수 있도록 하는 강력한 API입니다. 이 튜토리얼에서는 로드 및 저장의 중요한 측면, 특히 .NET용 Aspose.3D를 사용하여 보호된 PDF에서 장면을 여는 방법에 중점을 둘 것입니다.
@@ -97,3 +103,9 @@ A1: 예, Aspose.3D는 광범위한 3D 파일 형식을 지원하여 프로젝트
 ### Q5: 테스트하려면 임시 라이센스가 필요합니까?
 
  A5: 예. 테스트 목적으로 임시 라이센스가 필요한 경우 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PBR-materiaal op doos aanbrengen
 linktitle: PBR-materiaal op doos aanbrengen
 second_title: Aspose.3D .NET-API
 description: Ontdek de wereld van 3D-graphics met Aspose.3D voor .NET. Creëer moeiteloos meeslepende scènes met behulp van Physically Based Rendering-materialen.
-type: docs
 weight: 10
 url: /nl/net/geometry-and-hierarchy/apply-pbr-material-to-box/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PBR-materiaal op doos aanbrengen
+
 ## Invoering
 
 Welkom in de fascinerende wereld van 3D-graphics! In deze stapsgewijze handleiding verkennen we de krachtige Aspose.3D voor .NET-bibliotheek en leren we hoe u verbluffende 3D-scènes kunt maken met behulp van Physically Based Rendering (PBR)-materialen. Aspose.3D vereenvoudigt het complexe proces van 3D-graphics en opent een scala aan mogelijkheden voor ontwikkelaars.
@@ -113,3 +119,9 @@ A2: Absoluut! Aspose.3D biedt commerciële licenties voor naadloze integratie in
 ### V5: Hoe verkrijg ik een tijdelijke licentie voor Aspose.3D?
 
  A5: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/) voor evaluatiedoeleinden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

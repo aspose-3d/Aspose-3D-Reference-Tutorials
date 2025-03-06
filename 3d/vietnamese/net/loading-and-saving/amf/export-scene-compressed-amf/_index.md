@@ -3,10 +3,16 @@ title: Xuất cảnh 3D sang định dạng AMF nén
 linktitle: Xuất cảnh sang AMF nén
 second_title: API Aspose.3D .NET
 description: Tìm hiểu cách xuất cảnh 3D sang định dạng AMF nén bằng Aspose.3D cho .NET. Nâng cao kỹ năng phát triển của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 11
 url: /vi/net/loading-and-saving/amf/export-scene-compressed-amf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất cảnh 3D sang định dạng AMF nén
+
 ## Giới thiệu
 
 Trong thế giới năng động của mô hình hóa và kết xuất 3D, hiệu quả và tính linh hoạt là điều tối quan trọng. Aspose.3D for .NET trao quyền cho các nhà phát triển xuất liền mạch cảnh 3D sang định dạng nén AMF (Tệp sản xuất phụ gia), đảm bảo kích thước tệp tối ưu mà không ảnh hưởng đến chất lượng. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình theo từng bước, giúp cả người mới bắt đầu và nhà phát triển có kinh nghiệm dễ dàng khai thác các khả năng của Aspose.3D cho .NET.
@@ -98,3 +104,9 @@ Câu trả lời 4: Aspose.3D được thiết kế để xử lý các cảnh c
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ và thảo luận cộng đồng ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

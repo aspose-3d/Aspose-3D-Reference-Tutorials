@@ -3,10 +3,16 @@ title: การเข้ารหัส 3D Mesh ในรูปแบบ Google
 linktitle: การเข้ารหัส 3D Mesh ใน Draco
 second_title: Aspose.3D .NET API
 description: สำรวจการเข้ารหัส 3D mesh อย่างง่ายในรูปแบบ Google Draco โดยใช้ Aspose.3D สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเรา มีประสิทธิภาพ ทรงพลัง และเป็นมิตรกับนักพัฒนา!
-type: docs
 weight: 19
 url: /th/net/loading-and-saving/draco/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเข้ารหัส 3D Mesh ในรูปแบบ Google Draco
+
 ## การแนะนำ
 หากคุณกำลังเจาะลึกเข้าไปในโลกของกราฟิก 3D และต้องการบีบอัดข้อมูล 3D mesh ของคุณอย่างมีประสิทธิภาพ ไม่ต้องมองหาที่ไหนอีกแล้ว ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเข้ารหัส 3D mesh เป็นรูปแบบ Google Draco โดยใช้ Aspose.3D สำหรับ .NET ไลบรารีอันทรงพลังนี้ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์รูปแบบ 3D ได้อย่างราบรื่น และดำเนินการต่างๆ รวมถึงการเข้ารหัสแบบ Mesh
 ## ข้อกำหนดเบื้องต้น
@@ -58,3 +64,9 @@ Aspose.3D ได้รับการออกแบบมาเพื่อ .NE
 ใบอนุญาตชั่วคราวช่วยให้คุณสามารถประเมิน Aspose.3D เวอร์ชันเต็มได้ในระยะเวลาที่จำกัด
 ### ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose.3D สำหรับ .NET ได้ที่ไหน
  อ้างถึง[เอกสารประกอบ](https://reference.aspose.com/3d/net/) เพื่อข้อมูลที่ครบถ้วน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Doğrusal Ekstrüzyonda Dilimler
 linktitle: Doğrusal Ekstrüzyonda Dilimler
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D tasarım dünyasını keşfedin. Doğrusal ekstrüzyon eğitimimizi kullanarak çarpıcı modeller oluşturun.
-type: docs
 weight: 13
 url: /tr/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Doğrusal Ekstrüzyonda Dilimler
+
 ## giriiş
 
 Aspose.3D for .NET kullanarak 3D tasarım dünyasına hoş geldiniz! İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim size güçlü Aspose.3D kütüphanesini kullanarak çarpıcı 3D görselleştirmeler oluşturma sürecinde rehberlik edecektir.
@@ -116,3 +122,9 @@ Cevap1: Aspose.3D öncelikle .NET için tasarlanmıştır, ancak .NET bağlamala
 ### S5: Aspose.3D for .NET için geçici bir lisans kullanabilir miyim?
 
  A5: Evet, geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Пользовательские параметры загрузки
 linktitle: Пользовательские параметры загрузки
 second_title: Aspose.3D .NET API
 description: Изучите Aspose.3D для .NET — идеальное решение для плавной загрузки и сохранения 3D-моделей.
-type: docs
 weight: 15
 url: /ru/net/loading-and-saving/custom-load-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Пользовательские параметры загрузки
+
 ## Введение
 
 Добро пожаловать в мир Aspose.3D для .NET — мощной библиотеки, которая позволяет разработчикам беспрепятственно работать с 3D-файлами. В этом уроке мы углубимся в тонкости загрузки и сохранения 3D-моделей, уделив особое внимание пользовательским параметрам загрузки. Независимо от того, являетесь ли вы опытным разработчиком или новичком, это руководство шаг за шагом проведет вас через весь процесс, гарантируя, что вы сможете использовать весь потенциал Aspose.3D для .NET.
@@ -183,3 +189,9 @@ private static void FBXLoadOptions()
 ### Вопрос 5: Где я могу получить поддержку Aspose.3D для .NET?
 
  A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) за общественную поддержку и помощь.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

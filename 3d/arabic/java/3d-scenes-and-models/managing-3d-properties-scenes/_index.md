@@ -3,10 +3,16 @@ title: العمل مع الخصائص ثلاثية الأبعاد والبيان
 linktitle: العمل مع الخصائص ثلاثية الأبعاد والبيانات المخصصة في مشاهد Java باستخدام Aspose.3D
 second_title: Aspose.3D جافا API
 description: قم بتحسين تطبيقات Java الخاصة بك باستخدام Aspose.3D للتعامل السلس مع الخصائص ثلاثية الأبعاد. اتبع البرنامج التعليمي لدينا للحصول على إرشادات خطوة بخطوة.
-type: docs
 weight: 14
 url: /ar/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع الخصائص ثلاثية الأبعاد والبيانات المخصصة في مشاهد Java باستخدام Aspose.3D
+
 ## مقدمة
 
 مرحبًا بك في الدليل الشامل حول التعامل مع الخصائص ثلاثية الأبعاد والبيانات المخصصة في مشاهد Java باستخدام Aspose.3D. في هذا البرنامج التعليمي، سوف نتعمق في الميزات القوية لـ Aspose.3D، ونقدم إرشادات خطوة بخطوة حول معالجة الخصائص ثلاثية الأبعاد داخل تطبيقات Java الخاصة بك.
@@ -124,3 +130,9 @@ for (Property pp : pdiffuse.getProperties()) {
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟
 
  ج5: يمكنك الحصول على ترخيص مؤقت من خلال الزيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/) على موقع Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

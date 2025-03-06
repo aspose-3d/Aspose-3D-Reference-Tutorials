@@ -3,10 +3,16 @@ title: Tutoriel Java - Créer des polygones dans des maillages 3D avec Aspose.3D
 linktitle: Tutoriel Java - Créer des polygones dans des maillages 3D avec Aspose.3D
 second_title: API Java Aspose.3D
 description: Libérez la puissance des graphiques 3D avec Aspose.3D pour Java. Créez de superbes polygones sans effort. Téléchargez-le maintenant pour une expérience de développement fluide.
-type: docs
 weight: 10
 url: /fr/java/transforming-3d-meshes/create-polygons-in-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutoriel Java - Créer des polygones dans des maillages 3D avec Aspose.3D
+
 ## Introduction
 Dans le monde dynamique des graphiques 3D, la capacité de créer des objets complexes et visuellement époustouflants est une compétence fondamentale pour les développeurs. Aspose.3D pour Java fournit une boîte à outils puissante qui facilite facilement la création de maillage 3D. Dans ce didacticiel, nous vous guiderons tout au long du processus de création de polygones dans des maillages 3D à l'aide d'Aspose.3D pour Java.
 ## Conditions préalables
@@ -51,3 +57,9 @@ Oui, Aspose.3D offre une gamme de fonctionnalités pour créer des modèles 3D c
  Oui, vous pouvez explorer les capacités d'Aspose.3D en accédant au[essai gratuit](https://releases.aspose.com/).
 ### 5. Où puis-je demander de l'aide pour Aspose.3D ?
  Pour toute question ou assistance, visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Μετατροπή παραμετρικού πρωτεύοντος σε �
 linktitle: Μετατροπή παραμετρικού πρωτεύοντος σε πλέγμα
 second_title: Aspose.3D .NET API
 description: Εξερευνήστε τη δύναμη του Aspose.3D για .NET! Μετατρέψτε παραμετρικά πρωτόγονα σε ευέλικτο Mesh χωρίς κόπο. Ανεβάστε το παιχνίδι 3D γραφικών σας σήμερα.
-type: docs
 weight: 12
 url: /el/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετατροπή παραμετρικού πρωτεύοντος σε πλέγμα
+
 ## Εισαγωγή
 
 Το Aspose.3D παρέχει ένα πλούσιο σύνολο πρωτόγονων σχημάτων, όπως κουτιά, επίπεδα, tori, σφαίρες, κυλίνδρους, πυραμίδες και άλλα. Αυτά τα πρωτόγονα ορίζονται από τις παραμέτρους τους, καθιστώντας τα εξαιρετικά ευέλικτα για διαδικαστική μοντελοποίηση. Προσαρμόζοντας τις παραμέτρους μέσω προγραμματισμού, μπορείτε να δημιουργήσετε μια μεγάλη ποικιλία μοντέλων 3D με ελάχιστο κώδικα.
@@ -73,3 +79,9 @@ Console.WriteLine("\nConverted the primitive Box to a mesh successfully.\nFile s
  Ναι, εξερευνήστε το Aspose.3D με το[δωρεάν δοκιμή](https://releases.aspose.com/) να βιώσει τις δυνατότητές του πριν αναλάβει μια δέσμευση.
 ### Μπορώ να αποκτήσω προσωρινή άδεια για σκοπούς δοκιμών;
  Ναι, ασφαλής α[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) να αξιολογήσει το Aspose.3D ολοκληρωμένα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

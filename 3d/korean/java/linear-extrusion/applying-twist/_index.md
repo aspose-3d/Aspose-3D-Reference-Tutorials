@@ -3,10 +3,16 @@ title: Java용 Aspose.3D를 사용하여 선형 압출에 비틀기 적용
 linktitle: Java용 Aspose.3D를 사용하여 선형 압출에 비틀기 적용
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 3D 모델에 변형을 추가하는 방법을 알아보세요. 향상된 선형 압출 효과를 보려면 단계별 가이드를 따르세요.
-type: docs
 weight: 14
 url: /ko/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D를 사용하여 선형 압출에 비틀기 적용
+
 ## 소개
 
 Java용 Aspose.3D를 사용하여 선형 돌출에 비틀림을 적용하는 방법에 대한 단계별 튜토리얼에 오신 것을 환영합니다. Aspose.3D는 개발자가 3D 파일 형식으로 작업할 수 있도록 지원하는 강력한 Java 라이브러리로, 3D 장면 생성, 조작 및 렌더링을 위한 강력한 기능을 제공합니다. 이 튜토리얼에서는 선형 돌출 프로세스 중에 비틀기 효과를 적용하여 3D 모델을 향상시키는 방법을 살펴보겠습니다.
@@ -119,3 +125,9 @@ A1: 예, Aspose.3D는 다양한 3D 파일 형식을 지원하므로 다양한 �
 ### Q5: Java용 Aspose.3D를 어디서 구입할 수 있나요?
 
  A5: 다음에서 Java용 Aspose.3D를 구입하세요.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

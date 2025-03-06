@@ -3,10 +3,16 @@ title: Đang tải và lưu
 linktitle: Đang tải và lưu
 second_title: API Aspose.3D .NET
 description: Nâng cao trò chơi mô hình 3D của bạn với Aspose.3D cho .NET! Nắm vững các kỹ thuật tải và lưu hiệu quả bằng cách sử dụng CancellationToken. Khám phá ngay bây giờ!
-type: docs
 weight: 27
 url: /vi/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đang tải và lưu
+
 ## Giới thiệu
 
 Đi sâu vào thế giới mô hình 3D hấp dẫn với Aspose.3D cho .NET, cửa ngõ để bạn thao tác tài liệu 3D liền mạch và hiệu quả. Trong loạt bài hướng dẫn này, chúng ta sẽ khám phá sự phức tạp của việc tải và lưu mô hình 3D, mở ra một thế giới khả năng sáng tạo.
@@ -105,3 +111,9 @@ Xuất siêu dữ liệu như thuộc tính cảnh, thuộc tính đối tượn
 ### Tải các kết cấu được nhúng từ USDZ vào bộ nhớ
 
 Truy cập vào dữ liệu kết cấu được nhúng trong tệp USDZ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

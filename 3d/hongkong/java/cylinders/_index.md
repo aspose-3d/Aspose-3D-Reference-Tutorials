@@ -3,10 +3,16 @@ title: 在 Aspose.3D for Java 中使用圓柱體
 linktitle: 在 Aspose.3D for Java 中使用圓柱體
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D for Java 輕鬆製作令人驚嘆的 3D 模型！透過教程學習創建風扇氣缸、偏置頂部氣缸和剪切底部氣缸。
-type: docs
 weight: 25
 url: /zh-hant/java/cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.3D for Java 中使用圓柱體
+
 ## 介紹
 
 您準備好將您的 3D 建模技能提升到新的水平了嗎？ Aspose.3D for Java 打開了一個充滿可能性的世界，在本教程中，我們將引導您完成創建自訂圓柱體的迷人領域。無論您是經驗豐富的開發人員還是剛踏入 3D 建模領域，這些教學課程都將提升您的技能並為您的專案增添獨特之處。
@@ -37,3 +43,9 @@ url: /zh-hant/java/cylinders/
 使用 Aspose.3D 探索 Java 3D 建模的奇蹟。學習輕鬆創建具有偏置頂部的迷人圓柱體。
 ### [在 Aspose.3D for Java 中建立具有剪切底部的圓柱體](./creating-cylinders-with-sheared-bottom/)
 學習使用 Aspose.3D for Java 建立具有剪切底部的客製化圓柱體。透過本逐步指南提升您的 3D 建模技能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

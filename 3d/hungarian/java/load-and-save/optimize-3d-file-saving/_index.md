@@ -3,10 +3,16 @@ title: Optimalizálja a 3D fájlmentést Java nyelven az Aspose.3D SaveOptions s
 linktitle: Optimalizálja a 3D fájlmentést Java nyelven az Aspose.3D SaveOptions segítségével
 second_title: Aspose.3D Java API
 description: Ismerje meg, hogyan optimalizálhatja a 3D fájlmentést Java nyelven az Aspose.3D SaveOptions segítségével. Növelje a teljesítményt és szabja testre a kimeneteket könnyedén.
-type: docs
 weight: 16
 url: /hu/java/load-and-save/optimize-3d-file-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optimalizálja a 3D fájlmentést Java nyelven az Aspose.3D SaveOptions segítségével
+
 ## Bevezetés
 
 Az Aspose.3D egy funkciókban gazdag Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak a 3D-s modellekkel. Ha 3D-s fájlok mentéséről van szó, a SaveOptions osztály rengeteg beállítást kínál a kimenet igényeinek megfelelő finomhangolásához. Ebben az oktatóanyagban megvizsgáljuk a különféle mentési lehetőségeket, és azt, hogy miként használhatók fel a folyamat optimalizálására.
@@ -119,3 +125,9 @@ A4: Használja a`setFileSystem(new DummyFileSystem())` módszer a`ObjSaveOptions
 ### 5. kérdés: Van mód a függőségek mentésére egy helyi könyvtárba OBJ-fájlban?
 
  V5: Igen, használja a`setFileSystem(new LocalFileSystem(MyDir))` módszer a`ObjSaveOptions` osztályba a függőségek helyi mentéséhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

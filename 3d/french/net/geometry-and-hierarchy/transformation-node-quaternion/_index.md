@@ -3,10 +3,16 @@ title: Transformation d'un nœud par quaternion
 linktitle: Transformation d'un nœud par quaternion
 second_title: API Aspose.3D .NET
 description: Apprenez à transformer des nœuds 3D avec des quaternions à l'aide d'Aspose.3D pour .NET. Guide étape par étape pour les débutants.
-type: docs
 weight: 20
 url: /fr/net/geometry-and-hierarchy/transformation-node-quaternion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformation d'un nœud par quaternion
+
 ## Introduction
 
 Bienvenue dans un guide étape par étape sur la transformation d'un nœud par quaternion dans des scènes 3D à l'aide d'Aspose.3D pour .NET. Dans ce didacticiel, nous explorerons les puissantes fonctionnalités d'Aspose.3D pour .NET et passerons en revue le processus d'ajout de transformations à un nœud 3D à l'aide de quaternions.
@@ -121,3 +127,10 @@ A1 : Les quaternions sont des entités mathématiques utilisées pour représent
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.3D ?
 
  A5 : Obtenez un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

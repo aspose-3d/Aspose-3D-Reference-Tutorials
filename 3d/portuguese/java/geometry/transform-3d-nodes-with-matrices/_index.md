@@ -3,10 +3,16 @@ title: Transforme nós 3D com matrizes de transformação usando Aspose.3D
 linktitle: Transforme nós 3D com matrizes de transformação em Java usando Aspose.3D
 second_title: API Java Aspose.3D
 description: Explore o mundo dos gráficos 3D em Java com Aspose.3D. Aprenda a transformar nós sem esforço usando matrizes de transformação.
-type: docs
 weight: 21
 url: /pt/java/geometry/transform-3d-nodes-with-matrices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transforme nós 3D com matrizes de transformação usando Aspose.3D
+
 ## Introdução
 
 Bem-vindo a este guia passo a passo sobre como transformar nós 3D com matrizes de transformação em Java usando Aspose.3D. Se você é um desenvolvedor Java e deseja aprimorar seus gráficos 3D e habilidades de modelagem, você está no lugar certo. Neste tutorial, mergulharemos no processo de aplicação de transformações a nós 3D dentro da estrutura Aspose.3D.
@@ -119,3 +125,9 @@ R3: O tamanho de suas cenas 3D pode ser limitado pelos recursos do sistema, mas 
 ### Q5: Como obtenho uma licença temporária para Aspose.3D?
 
  A5: Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

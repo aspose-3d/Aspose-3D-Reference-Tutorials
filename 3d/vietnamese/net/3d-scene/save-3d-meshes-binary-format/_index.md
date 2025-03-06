@@ -3,10 +3,16 @@ title: Lưu lưới 3D ở định dạng nhị phân tùy chỉnh
 linktitle: Lưu lưới 3D ở định dạng nhị phân tùy chỉnh
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới 3D với Aspose.3D cho .NET. Tìm hiểu cách lưu lưới ở định dạng nhị phân tùy chỉnh.
-type: docs
 weight: 13
 url: /vi/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu lưới 3D ở định dạng nhị phân tùy chỉnh
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.3D cho .NET, một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp 3D một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình lưu lưới 3D ở định dạng nhị phân tùy chỉnh bằng Aspose.3D cho .NET. Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về C# và quen thuộc với thư viện Aspose.3D.
@@ -142,3 +148,9 @@ Câu trả lời 1: Aspose.3D chủ yếu hỗ trợ các ngôn ngữ .NET, như
 ### Câu hỏi 5: Tôi có thể mua Aspose.3D cho .NET không?
 
  Câu trả lời 5: Có, bạn có thể mua Aspose.3D từ[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

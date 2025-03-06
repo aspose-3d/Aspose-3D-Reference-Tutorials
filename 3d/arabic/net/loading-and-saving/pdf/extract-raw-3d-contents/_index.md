@@ -3,10 +3,16 @@ title: استخراج محتويات ثلاثية الأبعاد من ملف PDF
 linktitle: استخراج محتويات ثلاثية الأبعاد من ملف PDF
 second_title: Aspose.3D.NET API
 description: تعلم كيفية استخراج محتوى ثلاثي الأبعاد من ملف PDF باستخدام Aspose.3D لـ .NET. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 14
 url: /ar/net/loading-and-saving/pdf/extract-raw-3d-contents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخراج محتويات ثلاثية الأبعاد من ملف PDF
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول استخراج المحتويات الأولية ثلاثية الأبعاد من ملف PDF باستخدام Aspose.3D لـ .NET. Aspose.3D عبارة عن واجهة برمجة تطبيقات قوية ومتعددة الاستخدامات تتيح للمطورين العمل مع الملفات ثلاثية الأبعاد دون عناء. في هذا البرنامج التعليمي، سنركز على عملية استخراج المحتويات الأولية ثلاثية الأبعاد من ملفات PDF، مما يوفر لك إرشادات خطوة بخطوة.
@@ -90,3 +96,9 @@ File.WriteAllBytes(fileName, content);
 ### س5: هل هناك أي وثائق متاحة لـ Aspose.3D؟
 
  ج5: نعم، يمكن العثور على الوثائق[هنا](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

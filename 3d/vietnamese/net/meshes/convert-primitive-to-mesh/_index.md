@@ -3,10 +3,16 @@ title: Chuyển đổi nguyên thủy tham số thành lưới
 linktitle: Chuyển đổi nguyên thủy tham số thành lưới
 second_title: API Aspose.3D .NET
 description: Khám phá sức mạnh của Aspose.3D cho .NET! Chuyển đổi các tham số nguyên thủy thành Lưới linh hoạt một cách dễ dàng. Hãy nâng tầm trò chơi đồ họa 3D của bạn ngay hôm nay.
-type: docs
 weight: 12
 url: /vi/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi nguyên thủy tham số thành lưới
+
 ## Giới thiệu
 
 Aspose.3D cung cấp một tập hợp phong phú các hình dạng nguyên thủy, bao gồm hộp, mặt phẳng, hình xuyến, hình cầu, hình trụ, kim tự tháp, v.v. Những nguyên hàm này được xác định bởi các tham số của chúng, làm cho chúng có tính linh hoạt cao cho mô hình thủ tục. Bằng cách điều chỉnh các tham số theo chương trình, bạn có thể tạo nhiều loại mô hình 3D với mã tối thiểu.
@@ -73,3 +79,9 @@ Có, Aspose.3D hỗ trợ nhiều khung .NET, đảm bảo khả năng tương t
  Có, hãy khám phá Aspose.3D với[dùng thử miễn phí](https://releases.aspose.com/) để trải nghiệm khả năng của nó trước khi đưa ra cam kết.
 ### Tôi có thể xin giấy phép tạm thời cho mục đích thử nghiệm không?
  Có, bảo đảm một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá Aspose.3D một cách toàn diện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

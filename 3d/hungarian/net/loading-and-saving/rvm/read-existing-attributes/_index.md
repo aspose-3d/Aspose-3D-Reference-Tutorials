@@ -3,10 +3,16 @@ title: Olvasási jelenet attribútumokkal
 linktitle: Olvasási jelenet attribútumokkal
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D modellezés erejét a .NET-ben az Aspose.3D segítségével. Könnyedén töltse be, mentse és kezelje a jeleneteket. Merüljön el a korlátlan lehetőségek világában.
-type: docs
 weight: 18
 url: /hu/net/loading-and-saving/rvm/read-existing-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Olvasási jelenet attribútumokkal
+
 ## Bevezetés
 
 A 3D-s grafika és modellezés folyamatosan fejlődő környezetében az Aspose.3D for .NET hatékony eszközként jelenik meg, amely zökkenőmentes integrációt és robusztus funkcionalitást biztosít a fejlesztők számára. Ez az oktatóanyag végigvezeti Önt egy RVM-fájl olvasásának folyamatán, különös tekintettel a külső attribútumok olvasására. Kapcsold be, amikor elindulunk az Aspose.3D képességeinek kiaknázására szolgáló utazásra!
@@ -79,3 +85,9 @@ A4: You can acquire a temporary license [here](https://buy.aspose.com/temporary-
 ### Q5: Where can I purchase Aspose.3D for .NET?
 
 A5: Visit the [purchase page](https://buy.aspose.com/buy) az Aspose.3D teljes verziójának beszerzéséhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

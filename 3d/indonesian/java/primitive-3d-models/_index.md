@@ -3,10 +3,16 @@ title: Membuat Model 3D Primitif di Aspose.3D untuk Java
 linktitle: Membuat Model 3D Primitif di Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Buat model 3D yang menakjubkan dengan mudah menggunakan Aspose.3D untuk tutorial Java. Bebaskan kreativitas Anda dengan panduan langkah demi langkah dalam membuat model 3D primitif.
-type: docs
 weight: 24
 url: /id/java/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Model 3D Primitif di Aspose.3D untuk Java
+
 
 
 ## Perkenalan
@@ -31,3 +37,9 @@ Mulailah membangun model 3D primitif Anda hari ini dengan Aspose.3D untuk Java â
 ## Membuat Model 3D Primitif di Aspose.3D untuk Tutorial Java
 ### [Membangun Model 3D Primitif dengan Aspose.3D untuk Java](./building-primitive-3d-models/)
 Temukan seni pemodelan 3D dengan Aspose.3D untuk Java. Belajar membuat model 3D primitif dengan mudah dan bebaskan kreativitas Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

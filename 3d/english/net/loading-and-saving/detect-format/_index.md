@@ -3,10 +3,16 @@ title: Detecting Format
 linktitle: Detecting Format
 second_title: Aspose.3D .NET API
 description: Master 3D file manipulation effortlessly with Aspose.3D for .NET. Load, save, and detect formats seamlessly.
-type: docs
 weight: 12
 url: /net/loading-and-saving/detect-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Detecting Format
+
 ## Introduction
 
 Welcome to the exciting world of 3D file manipulation using Aspose.3D for .NET! Whether you're a seasoned developer or just starting with 3D graphics, this tutorial will guide you through the process of loading, saving, and detecting formats with ease.
@@ -93,3 +99,10 @@ A4: Explore the [Aspose.3D forums](https://forum.aspose.com/c/3d/18) for communi
 ### Q5: Can I try Aspose.3D for free before purchasing?
 
 A5: Certainly! Download the free trial version from [Aspose.3D releases](https://releases.aspose.com/) to experience its capabilities firsthand.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

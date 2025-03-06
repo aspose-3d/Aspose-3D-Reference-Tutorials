@@ -3,10 +3,16 @@ title: Praca z danymi geometrii siatki
 linktitle: Praca z danymi geometrii siatki
 second_title: Aspose.3D API .NET
 description: Opanuj sztukę programowania grafiki 3D dzięki Aspose.3D dla .NET. Twórz, manipuluj i zapisuj wspaniałe sceny 3D bez wysiłku.
-type: docs
 weight: 15
 url: /pl/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Praca z danymi geometrii siatki
+
 ## Wstęp
 
 Witamy w ekscytującym świecie programowania grafiki 3D z Aspose.3D dla .NET! W tym samouczku zagłębimy się w zawiłości pracy z danymi geometrii siatki w scenach 3D przy użyciu Aspose.3D, potężnej i wszechstronnej biblioteki dla programistów .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz przygodę z grafiką 3D, ten przewodnik krok po kroku pomoże Ci bez wysiłku opanować sztukę obsługi danych geometrii siatki.
@@ -126,3 +132,9 @@ Odpowiedź 1: Aspose.3D jest przeznaczony głównie dla .NET, ale możesz eksplo
 ### P5: Jakie formaty plików są obsługiwane przy zapisywaniu scen 3D?
 
  O5: Aspose.3D obsługuje różne formaty plików, w tym FBX, STL i inne. Patrz[dokumentacja](https://reference.aspose.com/3d/net/) aby uzyskać pełną listę.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

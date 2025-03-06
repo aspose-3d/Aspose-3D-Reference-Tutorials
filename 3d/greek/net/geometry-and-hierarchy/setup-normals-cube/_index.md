@@ -3,10 +3,16 @@ title: Ρύθμιση Normals στο Cube
 linktitle: Ρύθμιση Normals στο Cube
 second_title: Aspose.3D .NET API
 description: Μάθετε να ρυθμίζετε κανονικά σε έναν κύβο 3D χρησιμοποιώντας το Aspose.3D για .NET. Βελτιώστε τις δεξιότητές σας στο τρισδιάστατο μοντέλο με αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 17
 url: /el/net/geometry-and-hierarchy/setup-normals-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση Normals στο Cube
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για τη ρύθμιση των κανονικών σε έναν κύβο σε σκηνές 3D χρησιμοποιώντας το Aspose.3D για .NET. Το Aspose.3D είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές .NET να εργάζονται με αρχεία 3D, παρέχοντας ένα ευρύ φάσμα λειτουργιών για τρισδιάστατη μοντελοποίηση και χειρισμό.
@@ -100,3 +106,9 @@ A1: Ναι, το Aspose.3D υποστηρίζει διάφορες μορφές 
 ### Ε5: Υπάρχουν πρόσθετοι πόροι για την εκμάθηση του Aspose.3D;
 
  A5: Εξερευνήστε το εκτενές[τεκμηρίωση](https://reference.aspose.com/3d/net/) για να ανακαλύψετε περισσότερες δυνατότητες και συμβουλές.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

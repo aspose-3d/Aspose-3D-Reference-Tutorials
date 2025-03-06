@@ -3,10 +3,16 @@ title: सामग्री
 linktitle: सामग्री
 second_title: Aspose.3D .NET API
 description: .NET ट्यूटोरियल के लिए Aspose.3D के साथ मनोरम 3D दृश्यों की दुनिया को अनलॉक करें। आश्चर्यजनक दृश्य बनाना सीखें और सहजता से एम्बेडेड बनावट का पता लगाएं।
-type: docs
 weight: 28
 url: /hi/net/materials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# सामग्री
+
 ## परिचय
 
 क्या आप 3डी डिज़ाइन और विज़ुअलाइज़ेशन के रोमांचक क्षेत्र में यात्रा शुरू करने के लिए तैयार हैं? .NET के लिए Aspose.3D एक ऐसी दुनिया का द्वार खोलता है जहां रचनात्मकता की कोई सीमा नहीं है। इस लेख में, हम आपको ट्यूटोरियल की एक श्रृंखला के माध्यम से मार्गदर्शन करेंगे, प्रत्येक इस शक्तिशाली .NET लाइब्रेरी के एक नए पहलू को उजागर करेगा।
@@ -31,3 +37,9 @@ url: /hi/net/materials/
 .NET के लिए Aspose.3D का उपयोग करके एम्बेडेड बनावट के साथ मंत्रमुग्ध कर देने वाले 3D दृश्य बनाएं। आश्चर्यजनक परिणामों के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [डंपिंग एंबेडेड बनावट](./dump-embedded-textures/)
 .NET के लिए Aspose.3D के साथ 3D मॉडल में एम्बेडेड बनावट के रहस्यों को अनलॉक करें। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका पढ़ें। अभी अपने मुफ़्त ट्रायल को डाउनलोड करें!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipuleren van 3D-objecten en scènes in Java
 linktitle: Manipuleren van 3D-objecten en scènes in Java
 second_title: Aspose.3D Java-API
 description: Ontgrendel de wereld van Java 3D-programmeren met Aspose.3D-tutorials. Leer hoe u de bolradius kunt wijzigen en moeiteloos XPath-achtige zoekopdrachten kunt toepassen voor een naadloze 3D-ontwikkeling.
-type: docs
 weight: 33
 url: /nl/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipuleren van 3D-objecten en scènes in Java
+
 ## Invoering
 
 3D-programmeren in Java wordt een boeiende reis met Aspose.3D-tutorials, waarbij de nadruk ligt op het manipuleren van 3D-objecten en -scènes. In dit artikel gaan we dieper in op twee essentiële tutorials die beloven je 3D-ontwikkelvaardigheden naar een hoger niveau te tillen.
@@ -27,3 +33,9 @@ Kortom, deze tutorials fungeren als uw toegangspoort tot het beheersen van Java 
 Verken Java 3D-programmering met Aspose.3D, waarbij u de bolradius moeiteloos wijzigt. Download nu voor een naadloze 3D-ontwikkelervaring.
 ### [Pas XPath-achtige zoekopdrachten toe op 3D-objecten in Java](./xpath-like-object-queries/)
 Beheers moeiteloos 3D-objectquery's in Java met Aspose.3D. Pas XPath-achtige query's toe, manipuleer scènes en breng uw 3D-ontwikkeling naar een hoger niveau.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

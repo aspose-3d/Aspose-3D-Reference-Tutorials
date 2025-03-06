@@ -3,10 +3,16 @@ title: Genereer gegevens voor 3D-mazen in Java (normalen, raaklijnen, binormalen
 linktitle: Genereer gegevens voor 3D-mazen in Java (normalen, raaklijnen, binormalen)
 second_title: Aspose.3D Java-API
 description: Verbeter uw Java-projecten met Aspose.3D. Volg onze tutorial om moeiteloos normale gegevens voor 3D-meshes te genereren. Duik met gemak in 3D-graphics.
-type: docs
 weight: 11
 url: /nl/java/3d-mesh-data/generate-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Genereer gegevens voor 3D-mazen in Java (normalen, raaklijnen, binormalen)
+
 ## Invoering
 
 Het creëren en manipuleren van 3D mesh-gegevens in Java kan een uitdagende maar opwindende taak zijn, vooral als het gaat om bestanden die essentiële normale gegevens missen. Aspose.3D voor Java komt te hulp en biedt een krachtige toolkit voor het efficiënt omgaan met 3D-graphics en meshes. In deze zelfstudie begeleiden we u bij het genereren van normale gegevens voor 3D-meshes met behulp van Aspose.3D in Java.
@@ -95,3 +101,9 @@ A1: Ja, Aspose.3D ondersteunt verschillende 3D-bestandsformaten, waardoor flexib
 ### Vraag 5: Heeft u hulp nodig of wilt u verbinding maken met de gemeenschap?
 
  A5: Bezoek het Aspose.3D-forum[hier](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

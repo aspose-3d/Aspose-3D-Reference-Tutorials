@@ -3,10 +3,16 @@ title: ใช้พิกัด UV กับวัตถุ 3 มิติใน
 linktitle: ใช้พิกัด UV กับวัตถุ 3 มิติใน Java ด้วย Aspose.3D
 second_title: Aspose.3D จาวา API
 description: เรียนรู้วิธีใช้พิกัด UV กับวัตถุ 3 มิติใน Java ด้วย Aspose.3D ยกระดับกราฟิกของคุณด้วยคำแนะนำทีละขั้นตอนนี้
-type: docs
 weight: 18
 url: /th/java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ใช้พิกัด UV กับวัตถุ 3 มิติใน Java ด้วย Aspose.3D
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมเกี่ยวกับการใช้พิกัด UV กับวัตถุ 3 มิติใน Java โดยใช้ Aspose.3D ในโลกของกราฟิก 3D พิกัด UV มีบทบาทสำคัญในการทำแผนที่พื้นผิวลงบนพื้นผิว ซึ่งช่วยเพิ่มรูปลักษณ์ที่น่าดึงดูดให้กับการสร้างสรรค์ของคุณ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการ โดยแจกแจงแต่ละขั้นตอนเพื่อให้แน่ใจว่าประสบการณ์การเรียนรู้จะราบรื่นและมีประสิทธิภาพ
@@ -104,3 +110,9 @@ A1: ใช่ กระบวนการยังคงคล้ายกัน
 ### คำถามที่ 5: ฉันจะซื้อ Aspose.3D ได้ที่ไหน
 
  A5: หากต้องการซื้อ Aspose.3D โปรดไปที่[หน้าซื้อ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

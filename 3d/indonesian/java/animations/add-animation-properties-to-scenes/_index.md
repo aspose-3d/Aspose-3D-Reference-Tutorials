@@ -3,10 +3,16 @@ title: Tambahkan Properti Animasi ke Adegan 3D di Java | Tutorial Aspose.3D
 linktitle: Tambahkan Properti Animasi ke Adegan 3D di Java | Tutorial Aspose.3D
 second_title: Asumsikan.3D Java API
 description: Tingkatkan proyek 3D berbasis Java Anda dengan Aspose.3D. Ikuti tutorial kami untuk menambahkan properti animasi dengan lancar.
-type: docs
 weight: 10
 url: /id/java/animations/add-animation-properties-to-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Properti Animasi ke Adegan 3D di Java | Tutorial Aspose.3D
+
 ## Perkenalan
 
 Selamat datang di tutorial langkah demi langkah tentang menambahkan properti animasi ke adegan 3D di Java menggunakan Aspose.3D. Jika Anda ingin menyempurnakan proyek 3D Anda dengan animasi dinamis, Anda berada di tempat yang tepat. Dalam panduan ini, kami akan memandu Anda melalui prosesnya, menguraikan setiap langkah untuk pengalaman yang lancar.
@@ -128,3 +134,9 @@ A3: Bergabunglah dengan komunitas di[Forum Asumsikan.3D](https://forum.aspose.co
 ### Q5: Apakah ada tutorial lain yang tersedia?
 
  A5: Jelajahi secara komprehensif[dokumentasi](https://reference.aspose.com/3d/java/) untuk tutorial tambahan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

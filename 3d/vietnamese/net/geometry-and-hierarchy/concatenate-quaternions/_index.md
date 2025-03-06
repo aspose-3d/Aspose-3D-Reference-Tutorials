@@ -3,10 +3,16 @@ title: Kết nối quaternions
 linktitle: Kết nối quaternions
 second_title: API Aspose.3D .NET
 description: Khám phá sức mạnh của thao tác quaternion trong cảnh 3D với Aspose.3D cho .NET. Tìm hiểu cách nối các quaternion từng bước để tạo ra các phép biến đổi sống động.
-type: docs
 weight: 11
 url: /vi/net/geometry-and-hierarchy/concatenate-quaternions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết nối quaternions
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách ghép nối các bậc bốn trong cảnh 3D bằng Aspose.3D cho .NET! Nếu bạn là nhà phát triển hoặc người đam mê 3D đang tìm cách nâng cao kỹ năng thao tác quaternion của mình thì bạn đã đến đúng nơi. Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo trải nghiệm học tập suôn sẻ.
@@ -105,3 +111,9 @@ Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn ph�
 ### Câu hỏi 5: Tôi có thể sử dụng giấy phép tạm thời cho Aspose.3D cho .NET không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

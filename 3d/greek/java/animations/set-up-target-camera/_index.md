@@ -3,10 +3,16 @@ title: Ρύθμιση της κάμερας στόχου για τρισδιάσ
 linktitle: Ρύθμιση της κάμερας στόχου για τρισδιάστατα κινούμενα σχέδια σε Java | Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 description: Εξερευνήστε τα κινούμενα σχέδια Java 3D χωρίς κόπο με το Aspose.3D. Ακολουθήστε το σεμινάριο μας για έναν οδηγό βήμα προς βήμα. Κάντε λήψη τώρα για ένα συναρπαστικό ταξίδι ανάπτυξης 3D.
-type: docs
 weight: 11
 url: /el/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση της κάμερας στόχου για τρισδιάστατα κινούμενα σχέδια σε Java | Aspose.3D Tutorial
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτόν τον αναλυτικό οδηγό για τη ρύθμιση μιας κάμερας στόχου για τρισδιάστατα κινούμενα σχέδια σε Java χρησιμοποιώντας το Aspose.3D. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε με τρισδιάστατα κινούμενα σχέδια στην Java, αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία με σαφείς και συνοπτικές οδηγίες.
@@ -98,3 +104,9 @@ scene.save(MyDir, FileFormat.DISCREET3DS);
 ### Ε5: Πώς μπορώ να αποκτήσω προσωρινή άδεια;
 
  A5: Μπορείτε να αποκτήσετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: العمل مع Point Clouds في Java
 linktitle: العمل مع Point Clouds في Java
 second_title: Aspose.3D جافا API
 description: قم بفك تشفير وتحميل وإنشاء وتصدير وتبسيط السحب النقطية في Java بسهولة باستخدام البرامج التعليمية Aspose.3D. عزز مهاراتك في التطوير ثلاثي الأبعاد خطوة بخطوة.
-type: docs
 weight: 34
 url: /ar/java/point-clouds/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع Point Clouds في Java
+
 
 ## مقدمة
 
@@ -49,3 +55,9 @@ url: /ar/java/point-clouds/
 تعرف على كيفية تصدير المشاهد ثلاثية الأبعاد كسحب نقطية في Java باستخدام Aspose.3D. قم بتحسين تطبيقاتك باستخدام الرسومات والتصورات ثلاثية الأبعاد القوية.
 ### [تبسيط التعامل مع السحابة النقطية من خلال تصدير PLY في Java](./ply-export-point-clouds-java/)
 اكتشف التعامل المبسط مع السحابة النقطية في Java باستخدام Aspose.3D. تعلم كيفية تصدير ملفات PLY دون عناء. عزز مشاريع الرسومات ثلاثية الأبعاد الخاصة بك من خلال دليلنا خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

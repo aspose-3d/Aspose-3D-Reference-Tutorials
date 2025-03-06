@@ -3,10 +3,16 @@ title: Sửa đổi Bán kính hình cầu 3D trong Java bằng Aspose.3D
 linktitle: Sửa đổi Bán kính hình cầu 3D trong Java bằng Aspose.3D
 second_title: API Java Aspose.3D
 description: Khám phá lập trình Java 3D với Aspose.3D, sửa đổi bán kính hình cầu một cách dễ dàng. Tải xuống ngay để có trải nghiệm phát triển 3D liền mạch.
-type: docs
 weight: 10
 url: /vi/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sửa đổi Bán kính hình cầu 3D trong Java bằng Aspose.3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách sửa đổi bán kính hình cầu 3D bằng Aspose.3D cho Java. Aspose.3D là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp 3D và thao tác chúng một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ tập trung vào việc thay đổi bán kính của hình cầu 3D bằng các ví dụ thực tế và giải thích chi tiết.
@@ -103,3 +109,9 @@ Chúc mừng! Bạn đã sửa đổi thành công bán kính hình cầu 3D b�
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.3D?
 
  Câu trả lời 5: Bạn có thể nhận được giấy phép tạm thời bằng cách truy cập[Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Creating Cylinders with Offset Top in Aspose.3D for Java
 linktitle: Creating Cylinders with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 description: Explore the wonders of 3D modeling in Java with Aspose.3D. Learn to create captivating cylinders with offset tops effortlessly.
-type: docs
 weight: 11
 url: /java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creating Cylinders with Offset Top in Aspose.3D for Java
+
 ## Introduction
 
 In the realm of Java-based 3D modeling, Aspose.3D stands out as a powerful tool, offering developers the capability to create intricate 3D scenes with ease. In this tutorial, we'll delve into the fascinating world of Aspose.3D for Java, focusing on a specific task – creating cylinders with offset tops. By the end of this guide, you'll have a firm grasp of the process, allowing you to integrate this feature seamlessly into your 3D projects.
@@ -127,3 +133,10 @@ A4: Join the Aspose.3D community forum [here](https://forum.aspose.com/c/3d/18) 
 ### Q5: Is there a temporary license option for testing purposes?
 
 A5: Yes, you can obtain a temporary license for testing and evaluation purposes [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

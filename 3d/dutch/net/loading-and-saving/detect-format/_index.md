@@ -3,10 +3,16 @@ title: Formaat detecteren
 linktitle: Formaat detecteren
 second_title: Aspose.3D .NET-API
 description: Beheers moeiteloos 3D-bestandsmanipulatie met Aspose.3D voor .NET. Laad, bewaar en detecteer formaten naadloos.
-type: docs
 weight: 12
 url: /nl/net/loading-and-saving/detect-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formaat detecteren
+
 ## Invoering
 
 Welkom in de opwindende wereld van 3D-bestandsmanipulatie met Aspose.3D voor .NET! Of u nu een doorgewinterde ontwikkelaar bent of net begint met 3D-graphics, deze tutorial leidt u gemakkelijk door het proces van het laden, opslaan en detecteren van formaten.
@@ -93,3 +99,9 @@ A1: Ja, Aspose.3D ondersteunt een breed scala aan 3D-bestandsformaten, wat flexi
 ### V5: Kan ik Aspose.3D gratis uitproberen voordat ik een aankoop doe?
 
  A5: Zeker! Download de gratis proefversie van[Aspose.3D-releases](https://releases.aspose.com/) om de mogelijkheden uit de eerste hand te ervaren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

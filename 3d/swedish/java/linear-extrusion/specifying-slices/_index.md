@@ -3,10 +3,16 @@ title: Specificering av segment i linjär extrudering med Aspose.3D för Java
 linktitle: Specificering av segment i linjär extrudering med Aspose.3D för Java
 second_title: Aspose.3D Java API
 description: Lär dig att specificera skivor i linjär extrudering med Aspose.3D för Java. Öka dina färdigheter i 3D-modellering med denna steg-för-steg-guide.
-type: docs
 weight: 13
 url: /sv/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specificering av segment i linjär extrudering med Aspose.3D för Java
+
 ## Introduktion
 
 Att skapa invecklade 3D-modeller kräver ofta mer än bara kreativitet; det kräver en grundlig förståelse för de verktyg som står till ditt förfogande. Aspose.3D för Java är en spelväxlare i detta avseende. I den här handledningen kommer vi att fokusera på en specifik aspekt - att specificera skivor i linjär extrudering.
@@ -93,3 +99,9 @@ Grattis! Du har framgångsrikt lärt dig hur du specificerar skivor i linjär ex
 ### F5: Kan jag köpa en tillfällig licens?
 
  A5: Ja, en tillfällig licens kan erhållas[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

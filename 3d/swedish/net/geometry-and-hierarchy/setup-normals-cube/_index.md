@@ -3,10 +3,16 @@ title: Ställa in normala på Cube
 linktitle: Ställa in normala på Cube
 second_title: Aspose.3D .NET API
 description: Lär dig att ställa in normaler på en 3D-kub med Aspose.3D för .NET. Förbättra dina färdigheter i 3D-modellering med denna steg-för-steg-guide.
-type: docs
 weight: 17
 url: /sv/net/geometry-and-hierarchy/setup-normals-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställa in normala på Cube
+
 ## Introduktion
 
 Välkommen till vår steg-för-steg-guide om hur du ställer in normaler på en kub i 3D-scener med Aspose.3D för .NET. Aspose.3D är ett kraftfullt bibliotek som gör det möjligt för .NET-utvecklare att arbeta med 3D-filer, vilket ger ett brett utbud av funktioner för 3D-modellering och manipulation.
@@ -100,3 +106,9 @@ A2: Absolut! Du kan ladda ner en gratis testversion från[här](https://releases
 ### F5: Finns det några ytterligare resurser för att lära sig Aspose.3D?
 
  A5: Utforska det omfattande[dokumentation](https://reference.aspose.com/3d/net/) för att upptäcka fler funktioner och tips.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

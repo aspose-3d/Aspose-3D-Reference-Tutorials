@@ -3,10 +3,16 @@ title: Szeletek megadása a Lineáris extrudálásban az Aspose.3D for Java seg�
 linktitle: Szeletek megadása a Lineáris extrudálásban az Aspose.3D for Java segítségével
 second_title: Aspose.3D Java API
 description: Tanuljon meg szeleteket megadni lineáris extrudálás során az Aspose.3D for Java használatával. Növelje 3D-s modellezési készségeit ezzel a lépésről lépésre bemutatott útmutatóval.
-type: docs
 weight: 13
 url: /hu/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szeletek megadása a Lineáris extrudálásban az Aspose.3D for Java segítségével
+
 ## Bevezetés
 
 A bonyolult 3D-s modellek létrehozása gyakran nem csupán kreativitást igényel; megköveteli a rendelkezésére álló eszközök alapos megértését. Az Aspose.3D for Java játékot változtat ebben a tekintetben. Ebben az oktatóanyagban egy konkrét szempontra összpontosítunk – a szeletek megadására a lineáris extrudálás során.
@@ -93,3 +99,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan adhat meg szeleteket a lineáris kih�
 ### 5. kérdés: Vásárolhatok ideiglenes licencet?
 
  V5: Igen, ideiglenes engedélyt lehet szerezni[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

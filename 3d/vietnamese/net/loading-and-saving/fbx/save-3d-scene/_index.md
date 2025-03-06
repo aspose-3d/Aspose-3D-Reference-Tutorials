@@ -3,10 +3,16 @@ title: Lưu Cảnh 3D vào tệp FBX
 linktitle: Lưu Cảnh 3D vào tệp FBX
 second_title: API Aspose.3D .NET
 description: Khám phá sức mạnh của Aspose.3D cho .NET. một thư viện linh hoạt để thao tác cảnh 3D liền mạch. Tải, lưu và nén dễ dàng.
-type: docs
 weight: 20
 url: /vi/net/loading-and-saving/fbx/save-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu Cảnh 3D vào tệp FBX
+
 ## Giới thiệu
 
 Chào mừng bạn đến với cuộc hành trình thú vị vào thế giới thao tác cảnh 3D bằng Aspose.3D cho .NET! Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người đam mê tò mò, hướng dẫn này sẽ hướng dẫn bạn qua quá trình tải, lưu và nén cảnh 3D một cách dễ dàng.
@@ -104,3 +110,9 @@ A2: Chắc chắn rồi! Aspose.3D tích hợp liền mạch với các thư vi�
 ### Câu hỏi 5: Aspose.3D có bản dùng thử miễn phí không?
 
  Câu trả lời 5: Có, hãy khám phá các tính năng của Aspose.3D bằng cách lấy[dùng thử miễn phí](https://releases.aspose.com/) Hôm nay!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

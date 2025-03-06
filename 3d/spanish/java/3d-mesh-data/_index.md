@@ -3,10 +3,16 @@ title: Optimización y trabajo con datos de malla 3D en Java
 linktitle: Optimización y trabajo con datos de malla 3D en Java
 second_title: API de Java Aspose.3D
 description: Optimice sus aplicaciones 3D con Aspose.3D para Java. Aprenda a comprimir mallas con Google Draco, generar datos de malla y procesar mallas 3D por material de manera eficiente.
-type: docs
 weight: 32
 url: /es/java/3d-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optimización y trabajo con datos de malla 3D en Java
+
 ## Introducción
 
 ¿Estás listo para mejorar tus habilidades de desarrollo 3D en Java? Sumérgete en el mundo de Aspose.3D, donde te ofrecemos tutoriales completos sobre cómo optimizar y trabajar con datos de malla 3D. Ya sea que sea un desarrollador experimentado o recién esté comenzando, estos tutoriales le permitirán mejorar sus proyectos Java sin esfuerzo.
@@ -31,3 +37,9 @@ Optimice sus aplicaciones 3D con Aspose.3D. Aprenda a comprimir mallas usando Go
 Mejore sus proyectos Java con Aspose.3D. Siga nuestro tutorial para generar sin esfuerzo datos normales para mallas 3D. Sumérgete en gráficos 3D con facilidad.
 ### [Divida mallas 3D por material para un procesamiento eficiente en Java](./split-meshes-by-material/)
 Explore el poder de Aspose.3D en Java con nuestra guía paso a paso sobre cómo dividir mallas 3D de manera eficiente por material. Mejore el rendimiento de su aplicación sin problemas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

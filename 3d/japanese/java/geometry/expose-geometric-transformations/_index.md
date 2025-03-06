@@ -3,10 +3,16 @@ title: Aspose.3D を使用して Java 3D で幾何学的変換を公開する
 linktitle: Aspose.3D を使用して Java 3D で幾何学的変換を公開する
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用すると、Java での 3D 幾何学的変換を簡単に習得できます。ノードの操作、変換の適用、グローバル変換の評価方法を学びます。
-type: docs
 weight: 13
 url: /ja/java/geometry/expose-geometric-transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D を使用して Java 3D で幾何学的変換を公開する
+
 ## 導入
 
 Java 3D プログラミングの動的な世界では、幾何学的変換を習得することが極めて重要なスキルです。 Aspose.3D for Java は、開発者が 3D モデリングの複雑さを簡単に調査できるようにする堅牢なライブラリです。このチュートリアルでは、Aspose.3D for Java を使用して幾何学的変換を公開および操作するための啓発的な旅に乗り出します。
@@ -86,3 +92,9 @@ A1: Aspose.3D は、JDK をサポートする Java 開発環境とシームレ�
 ### Q5: Aspose.3D をテストするには一時ライセンスが必要ですか?
 
  A5: を入手してください。[仮免許](https://purchase.aspose.com/temporary-license/)テスト目的のため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

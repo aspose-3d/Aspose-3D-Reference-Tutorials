@@ -3,10 +3,16 @@ title: Kompresuj siatki 3D za pomocą Google Draco w Javie
 linktitle: Kompresuj siatki 3D za pomocą Google Draco w Javie
 second_title: Aspose.3D API Java
 description: Optymalizuj swoje aplikacje 3D za pomocą Aspose.3D. Dowiedz się, jak kompresować siatki za pomocą Google Draco w Javie. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie tworzyć projekty 3D.
-type: docs
 weight: 10
 url: /pl/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompresuj siatki 3D za pomocą Google Draco w Javie
+
 ## Wstęp
 
 Witamy w tym obszernym przewodniku na temat kompresji siatek 3D za pomocą Google Draco w Javie przy użyciu Aspose.3D. W tym samouczku przeprowadzimy Cię przez proces wydajnej kompresji siatek 3D, wykorzystując możliwości Aspose.3D. Jeśli jesteś programistą i chcesz ulepszyć swoje aplikacje 3D poprzez zmniejszenie rozmiaru siatki bez utraty jakości, jesteś we właściwym miejscu.
@@ -100,3 +106,9 @@ O2: Chociaż ten samouczek skupia się na Javie, Google Draco jest dostępny do 
 ### P5: Czy istnieje forum społecznościowe dotyczące obsługi Aspose.3D?
 
  Odpowiedź 5: Tak, aby uzyskać wsparcie i dyskusje społeczności, odwiedź stronę[Forum Aspose.3D](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

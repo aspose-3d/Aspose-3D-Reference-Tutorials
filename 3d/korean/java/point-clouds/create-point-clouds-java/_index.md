@@ -3,10 +3,16 @@ title: Java의 메시에서 포인트 클라우드 생성
 linktitle: Java의 메시에서 포인트 클라우드 생성
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java로 3D 모델링의 세계를 탐험해 보세요. 메시에서 포인트 클라우드를 손쉽게 생성하는 방법을 알아보세요.
-type: docs
 weight: 12
 url: /ko/java/point-clouds/create-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java의 메시에서 포인트 클라우드 생성
+
 ## 소개
 
 Aspose.3D를 사용하여 Java의 메시에서 포인트 클라우드를 생성하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.3D는 3D 모델링 및 조작을 위한 광범위한 기능을 제공하는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 메시에서 포인트 클라우드를 생성하는 과정을 안내하고 원활한 경험을 위한 명확하고 자세한 단계를 제공합니다.
@@ -83,3 +89,9 @@ FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
 ### Q5: 문서는 어디서 찾을 수 있나요?
 
  A5: 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/3d/java/) 자세한 정보를 보려면.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nâng cấp Vật liệu 3D lên PBR để nâng cao tính hiện thực 
 linktitle: Nâng cấp Vật liệu 3D lên PBR để nâng cao tính hiện thực trong Java với Aspose.3D
 second_title: API Java Aspose.3D
 description: Nâng cấp vật liệu 3D lên PBR một cách dễ dàng trong Java với Aspose.3D. Đạt được độ chân thực nâng cao để có được hình ảnh quyến rũ.
-type: docs
 weight: 13
 url: /vi/java/load-and-save/upgrade-materials-to-pbr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nâng cấp Vật liệu 3D lên PBR để nâng cao tính hiện thực trong Java với Aspose.3D
+
 ## Giới thiệu
 
 Nâng cấp vật liệu 3D của bạn lên PBR là một bước biến đổi hướng tới việc đạt được hình ảnh sống động như thật trong các ứng dụng Java của bạn. Aspose.3D đơn giản hóa quy trình này, cho phép bạn chuyển đổi liền mạch từ vật liệu truyền thống sang vật liệu PBR. Trong hướng dẫn này, chúng ta sẽ khám phá các điều kiện tiên quyết cần thiết, nhập gói và chia nhỏ từng ví dụ thành các bước chi tiết.
@@ -102,3 +108,9 @@ Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn ph�
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.3D?
 
  A5: Thăm quan[liên kết này](https://purchase.aspose.com/temporary-license/) để biết thông tin giấy phép tạm thời.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

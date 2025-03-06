@@ -3,10 +3,16 @@ title: 3D Sahne
 linktitle: 3D Sahne
 second_title: Aspose.3D .NET API'si
 description: Düzlem yönünü değiştirme, sahneleri sıkıştırılmış AMF formatına aktarma, koordinat sistemlerini çevirme ve daha fazlası hakkında Aspose.3D for .NET eğitimlerini keşfedin.
-type: docs
 weight: 21
 url: /tr/net/3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D Sahne
+
 ## giriiş
 
 Yaratıcılığın hassasiyetle buluştuğu Aspose.3D for .NET dünyasına hoş geldiniz. Bu eğitim serisinde, geliştirme becerilerinizi geliştirmek için adım adım kılavuzlar sunarak 3B sahne manipülasyonunun inceliklerini araştırıyoruz.
@@ -37,3 +43,9 @@ Sahne varlıklarına bilgi çıkarma sürecinin tamamında size yol gösteren ka
 [Eğiticiyi okuyun: 3B Sahnelerde Üç Boyutlu Özellikleri Ayarlama](./set-3d-properties/)
 
 Sonuç olarak, Aspose.3D for .NET eğitim serisi birçok olasılıklara kapı açıyor. Her eğitim, 3D sahne manipülasyonunun karmaşıklıklarını güvenle aşmanıza olanak tanıyan pratik bilgiler sağlar. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuzlar projelerinizde Aspose.3D for .NET'in tüm potansiyelini açığa çıkarmanıza yardımcı olur. Dalış yapın ve yaratıcılığınızın üç boyutlu alanda yükselmesine izin verin!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

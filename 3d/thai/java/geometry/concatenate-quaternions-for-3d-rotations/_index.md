@@ -3,10 +3,16 @@ title: เชื่อมต่อ Quaternions สำหรับการหม
 linktitle: เชื่อมต่อ Quaternions สำหรับการหมุน 3 มิติใน Java ด้วย Aspose.3D
 second_title: Aspose.3D จาวา API
 description: เรียนรู้วิธีเชื่อมควอเทอร์เนียนสำหรับการหมุน 3 มิติใน Java โดยใช้ Aspose.3D ทำตามคำแนะนำทีละขั้นตอนของเราเพื่อการแปลงภาพเคลื่อนไหวที่ราบรื่น
-type: docs
 weight: 11
 url: /th/java/geometry/concatenate-quaternions-for-3d-rotations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เชื่อมต่อ Quaternions สำหรับการหมุน 3 มิติใน Java ด้วย Aspose.3D
+
 ## การแนะนำ
 
 การต่อข้อมูลแบบควอเทอร์เนียนเป็นแนวคิดพื้นฐานในกราฟิก 3 มิติ ซึ่งช่วยให้คุณสามารถรวมการแปลงแบบหมุนหลายๆ แบบได้อย่างราบรื่น Aspose.3D ทำให้กระบวนการนี้ง่ายขึ้นใน Java โดยนำเสนอวิธีที่มีประสิทธิภาพและใช้งานง่ายในการจัดการกับการดำเนินการควอเทอร์เนียน ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการต่อควอเทอร์เนียนและนำไปใช้กับวัตถุ 3 มิติโดยใช้ Aspose.3D
@@ -107,3 +113,9 @@ System.out.println("\nQuaternions concatenated successfully.\nFile saved at " + 
 ### คำถามที่ 5: ไฟล์ฟอร์แมตใดบ้างที่รองรับสำหรับการบันทึกฉาก 3D?
 
 A5: Aspose.3D รองรับรูปแบบต่างๆ และคุณสามารถบันทึกฉากในรูปแบบ FBX ดังที่แสดงในบทช่วยสอนนี้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Vytvoření scény s vloženou texturou
 linktitle: Vytvoření scény s vloženou texturou
 second_title: Aspose.3D .NET API
 description: Vytvářejte fascinující 3D scény s vloženými texturami pomocí Aspose.3D for .NET. Postupujte podle našeho podrobného průvodce pro ohromující výsledky.
-type: docs
 weight: 10
 url: /cs/net/materials/create-scene-embedded-texture/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvoření scény s vloženou texturou
+
 ## Úvod
 Vítejte ve vzrušujícím světě 3D grafiky s Aspose.3D pro .NET! V tomto komplexním tutoriálu vás provedeme procesem vytváření úžasných 3D scén s vloženými texturami pomocí Aspose.3D, výkonné a všestranné knihovny pro vývojáře .NET.
 ## Předpoklady
@@ -109,3 +115,9 @@ Odpověď: Aspose.3D poskytuje možnosti animace; podrobné pokyny naleznete v d
  A: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) za podporu komunity a diskuze.
 ### Otázka: Mohu použít Aspose.3D pro komerční projekty?
  Odpověď: Ano, můžete si zakoupit licenci[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

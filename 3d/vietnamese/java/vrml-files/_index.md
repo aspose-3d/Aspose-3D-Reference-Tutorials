@@ -3,10 +3,16 @@ title: Làm việc với các tệp VRML trong Java
 linktitle: Làm việc với các tệp VRML trong Java
 second_title: API Java Aspose.3D
 description: Khám phá sự kỳ diệu của mô hình 3D trong Java với Aspose.3D. Mở và thao tác các tệp VRML một cách liền mạch. Đi sâu vào một thế giới của những khả năng vô hạn!
-type: docs
 weight: 26
 url: /vi/java/vrml-files/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với các tệp VRML trong Java
+
 ## Giới thiệu
 
  Chào mừng bạn đến với thế giới mô hình 3D hấp dẫn trong Java! Loạt bài hướng dẫn này,[Làm việc với các tệp VRML trong Java](./open-vrml-files-java/)được hỗ trợ bởi Aspose.3D, là cửa ngõ để bạn phát huy toàn bộ tiềm năng của đồ họa 3D trong các ứng dụng Java.
@@ -30,3 +36,9 @@ Tóm lại, "[Làm việc với các tệp VRML trong Hướng dẫn Java](./ope
 ## Làm việc với các tệp VRML trong Hướng dẫn Java
 ### [Mở và thao tác các tệp VRML trong Java bằng Aspose.3D](./open-vrml-files-java/)
 Khám phá sự kỳ diệu của mô hình 3D trong Java với Aspose.3D. Mở và thao tác các tệp VRML một cách liền mạch. Đi sâu vào một thế giới của những khả năng vô hạn!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

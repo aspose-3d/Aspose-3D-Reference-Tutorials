@@ -3,10 +3,16 @@ title: Werken met meshgeometriegegevens
 linktitle: Werken met meshgeometriegegevens
 second_title: Aspose.3D .NET-API
 description: Beheers de kunst van het programmeren van grafische 3D-afbeeldingen met Aspose.3D voor .NET. Creëer, manipuleer en bewaar moeiteloos verbluffende 3D-scènes.
-type: docs
 weight: 15
 url: /nl/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Werken met meshgeometriegegevens
+
 ## Invoering
 
 Welkom in de opwindende wereld van grafische 3D-programmering met Aspose.3D voor .NET! In deze zelfstudie verdiepen we ons in de fijne kneepjes van het werken met Mesh Geometry Data in 3D-scènes met behulp van Aspose.3D, een krachtige en veelzijdige bibliotheek voor .NET-ontwikkelaars. Of u nu een doorgewinterde programmeur bent of net begint met 3D-graphics, deze stapsgewijze handleiding helpt u de kunst van het moeiteloos verwerken van mesh-geometriegegevens onder de knie te krijgen.
@@ -126,3 +132,9 @@ A1: Aspose.3D is voornamelijk ontworpen voor .NET, maar u kunt andere Aspose-pro
 ### Vraag 5: Welke bestandsformaten worden ondersteund voor het opslaan van 3D-scènes?
 
  A5: Aspose.3D ondersteunt verschillende bestandsformaten, waaronder FBX, STL en meer. Verwijs naar de[documentatie](https://reference.aspose.com/3d/net/) voor een volledige lijst.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 渲染
 linktitle: 渲染
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 提升您的 3D 渲染技巧！投射陰影、創造迷人的視覺化效果、應用魚眼鏡頭效果等等。
-type: docs
 weight: 30
 url: /zh-hant/net/rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 渲染
+
 ## 介紹
 
 您準備好踏上 3D 渲染領域的令人興奮的旅程了嗎？別再猶豫了！ Aspose.3D for .NET 打開了通往充滿可能性的世界的大門，讓您能夠釋放您的創造力並提高您的技能。在此綜合教學清單中，我們將指導您了解使用 Aspose.3D for .NET 進行渲染的一些最有趣的方面。
@@ -55,3 +61,9 @@ url: /zh-hant/net/rendering/
 了解如何使用 Aspose.3D for .NET 建立令人驚嘆的 3D 全景視圖。請按照我們的沉浸式場景渲染逐步指南進行操作。
 ### [將場景渲染為具有六個面的立方體貼圖](./render-scene-cubemap/)
 使用 Aspose.3D for .NET 建立令人驚嘆的立方體貼圖。按照我們的分步指南將 3D 場景渲染為迷人的六面立方體貼圖。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

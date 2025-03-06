@@ -3,10 +3,16 @@ title: Thiết lập UV trên Cube
 linktitle: Thiết lập UV trên Cube
 second_title: API Aspose.3D .NET
 description: Tìm hiểu cách thiết lập ánh xạ UV trên khối 3D bằng Aspose.3D cho .NET. Tạo cảnh trực quan ấn tượng với bản đồ kết cấu chính xác.
-type: docs
 weight: 18
 url: /vi/net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thiết lập UV trên Cube
+
 ## Giới thiệu
 
 Việc tạo cảnh 3D hấp dẫn và hấp dẫn về mặt hình ảnh thường liên quan đến quá trình tỉ mỉ trong việc thiết lập ánh xạ UV trên các hình dạng hình học. Trong hướng dẫn này, chúng ta sẽ khám phá cách thiết lập UV trên khối lập phương bằng Aspose.3D cho .NET. Aspose.3D là một thư viện .NET mạnh mẽ cung cấp một bộ tính năng toàn diện cho thao tác và tạo mô hình 3D.
@@ -119,3 +125,9 @@ Câu trả lời 1: Aspose.3D cho .NET là một thư viện mạnh mẽ để l
 ### Câu hỏi 5: Có giấy phép tạm thời không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

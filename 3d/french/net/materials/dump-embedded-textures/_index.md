@@ -3,10 +3,16 @@ title: Dumping des textures intégrées
 linktitle: Dumping des textures intégrées
 second_title: API Aspose.3D .NET
 description: Découvrez les secrets des textures intégrées dans les modèles 3D avec Aspose.3D pour .NET. Plongez dans notre guide étape par étape pour une intégration transparente. Téléchargez votre essai gratuit maintenant !
-type: docs
 weight: 11
 url: /fr/net/materials/dump-embedded-textures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dumping des textures intégrées
+
 ## Introduction
 Bienvenue dans le monde d'Aspose.3D pour .NET – une boîte à outils puissante qui permet aux développeurs de manipuler et de travailler avec des fichiers 3D de manière transparente. Dans ce didacticiel complet, nous plongerons dans le domaine fascinant du dumping de textures incorporées à l'aide d'Aspose.3D. Si vous souhaitez améliorer votre application 3D en libérant le potentiel des textures intégrées, vous êtes au bon endroit.
 ## Conditions préalables
@@ -71,3 +77,9 @@ Félicitations pour avoir découvert la magie d'Aspose.3D ! En suivant ce guide
  R : Oui, une licence temporaire est disponible[ici](https://purchase.aspose.com/temporary-license/).
 ### Q : Où puis-je trouver une documentation complète pour Aspose.3D ?
  R : La documentation est accessible[ici](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

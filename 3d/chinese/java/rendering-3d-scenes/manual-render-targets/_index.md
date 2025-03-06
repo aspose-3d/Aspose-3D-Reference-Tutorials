@@ -3,10 +3,16 @@ title: 手动控制 Java 3D 中自定义渲染的渲染目标
 linktitle: 手动控制 Java 3D 中自定义渲染的渲染目标
 second_title: Aspose.3D Java API
 description: 在本分步指南中探索 Aspose.3D for Java 的强大功能。手动控制渲染目标以获得令人惊叹的定制 Java 3D 图形。
-type: docs
 weight: 10
 url: /zh/java/rendering-3d-scenes/manual-render-targets/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 手动控制 Java 3D 中自定义渲染的渲染目标
+
 ## 介绍
 
 您准备好将您的 Java 3D 图形提升到新的水平了吗？ Aspose.3D for Java 是您释放定制渲染全部潜力的门户。在本教程中，我们将深入研究手动控制渲染目标的复杂性，为您提供根据您的规格定制的工具来创建视觉上迷人的场景。
@@ -117,3 +123,9 @@ A4：是的，您可以免费试用[这里](https://releases.aspose.com/).
 ### Q5：什么是 Java 3D 图形中的突发性？Aspose.3D 如何解决它？
 
 A5：突发性是指图形元素的突然强度或快速变化。 Aspose.3D 提供了平滑过渡和动态调整的工具，最大限度地减少场景中的突发性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

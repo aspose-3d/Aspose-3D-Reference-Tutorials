@@ -3,10 +3,16 @@ title: 3D メッシュをカスタム バイナリ形式で保存する
 linktitle: 3D メッシュをカスタム バイナリ形式で保存する
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D の世界を探索してください。メッシュをカスタム バイナリ形式で保存する方法を学びます。
-type: docs
 weight: 13
 url: /ja/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D メッシュをカスタム バイナリ形式で保存する
+
 ## 導入
 
 Aspose.3D for .NET の世界へようこそ。これは、開発者が 3D ファイルを簡単に操作できるようにする強力なライブラリです。このチュートリアルでは、Aspose.3D for .NET を使用して 3D メッシュをカスタム バイナリ形式で保存するプロセスを詳しく説明します。このガイドは、C# の基本を理解しており、Aspose.3D ライブラリに精通していることを前提としています。
@@ -142,3 +148,9 @@ A1: Aspose.3D は主に .NET 言語をサポートしていますが、他の言
 ### Q5: Aspose.3D for .NET を購入できますか?
 
  A5: はい、Aspose.3D は次のサイトから購入できます。[購入ページ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dela mesh efter material
 linktitle: Dela mesh efter material
 second_title: Aspose.3D .NET API
 description: Lär dig att dela 3D-maskor efter material med Aspose.3D för .NET. Förbättra scenens organisation och effektivitet. Steg-för-steg-guide för utvecklare.
-type: docs
 weight: 22
 url: /sv/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dela mesh efter material
+
 ## Introduktion
 Välkommen till denna omfattande handledning om att dela ett nät efter material med Aspose.3D för .NET! Om du är en utvecklare som arbetar med 3D-grafik och vill hantera och manipulera mesh effektivt, är du på rätt plats. I den här guiden kommer vi att utforska processen att dela upp ett nät baserat på material, en avgörande uppgift för att skapa olika och visuellt tilltalande 3D-scener.
 ## Förutsättningar
@@ -71,3 +77,9 @@ I allmänhet kan CloneData-policyn ha något bättre prestanda på grund av dela
 Ja, du kan rendera och visualisera de resulterande sub-maskorna med Aspose.3D-renderingsfunktioner.
 ### F: Är Aspose.3D lämplig för spelutveckling?
 Även om Aspose.3D främst används för modellering och rendering, kan den integreras i spelutvecklingspipelines för specifika uppgifter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thực hiện đùn tuyến tính
 linktitle: Thực hiện đùn tuyến tính
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới đồ họa 3D với Aspose.3D cho .NET. Thực hiện đùn tuyến tính trong hướng dẫn từng bước này.
-type: docs
 weight: 12
 url: /vi/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thực hiện đùn tuyến tính
+
 ## Giới thiệu:
 
 Bắt tay vào một cuộc hành trình ly kỳ vào thế giới đồ họa 3D với Aspose.3D cho .NET, một sức mạnh nâng tầm trò chơi phát triển của bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của Đùn tuyến tính - một kỹ thuật hấp dẫn thổi sức sống vào các cấu hình 2D tĩnh, đẩy chúng vào thế giới động của 3D. Hãy mở cánh cửa sáng tạo và đổi mới bằng Aspose.3D!
@@ -106,3 +112,9 @@ A1: Chắc chắn rồi! Aspose.3D cung cấp một môi trường thân thiện
 ### Câu 5: Có bản dùng thử miễn phí không?
 
  A5: Chắc chắn rồi! Tải về phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/) để trải nghiệm trực tiếp các khả năng của Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

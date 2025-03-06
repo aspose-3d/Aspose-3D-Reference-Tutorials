@@ -3,10 +3,16 @@ title: Working with Cylinders in Aspose.3D for Java
 linktitle: Working with Cylinders in Aspose.3D for Java
 second_title: Aspose.3D Java API
 description: Craft stunning 3D models effortlessly with Aspose.3D for Java! Learn to create fan cylinders, offset-top cylinders, and sheared-bottom cylinders with tutorials.
-type: docs
 weight: 25
 url: /java/cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Working with Cylinders in Aspose.3D for Java
+
 ## Introduction
 
 Are you ready to take your 3D modeling skills to the next level? Aspose.3D for Java opens up a world of possibilities, and in this tutorial, we'll guide you through the captivating realm of creating customized cylinders. Whether you're a seasoned developer or just stepping into the world of 3D modeling, these tutorials will elevate your skills and add a touch of uniqueness to your projects.
@@ -37,3 +43,9 @@ Learn to create customized fan cylinders in Java with Aspose.3D. Elevate your 3D
 Explore the wonders of 3D modeling in Java with Aspose.3D. Learn to create captivating cylinders with offset tops effortlessly.
 ### [Creating Cylinders with Sheared Bottom in Aspose.3D for Java](./creating-cylinders-with-sheared-bottom/)
 Learn to create customized cylinders with sheared bottoms using Aspose.3D for Java. Elevate your 3D modeling skills with this step-by-step guide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

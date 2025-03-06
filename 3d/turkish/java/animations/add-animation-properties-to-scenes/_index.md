@@ -3,10 +3,16 @@ title: Java'da 3B Sahnelere Animasyon Özellikleri Ekleme | Aspose.3D Eğitimi
 linktitle: Java'da 3B Sahnelere Animasyon Özellikleri Ekleme | Aspose.3D Eğitimi
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile Java tabanlı 3D projelerinizi geliştirin. Animasyon özelliklerini sorunsuz bir şekilde eklemek için eğitimimizi takip edin.
-type: docs
 weight: 10
 url: /tr/java/animations/add-animation-properties-to-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da 3B Sahnelere Animasyon Özellikleri Ekleme | Aspose.3D Eğitimi
+
 ## giriiş
 
 Aspose.3D kullanarak Java'daki 3D sahnelere animasyon özellikleri eklemeyi anlatan bu adım adım eğitime hoş geldiniz. 3D projelerinizi dinamik animasyonlarla geliştirmek istiyorsanız doğru yerdesiniz. Bu kılavuzda, kusursuz bir deneyim için her adımı parçalara ayırarak süreç boyunca size yol göstereceğiz.
@@ -128,3 +134,9 @@ A3: Şu adresteki topluluğa katılın:[Aspose.3D Forumu](https://forum.aspose.c
 ### S5: Daha fazla eğitim mevcut mu?
 
  A5: Kapsamlı olanı keşfedin[dokümantasyon](https://reference.aspose.com/3d/java/) ek dersler için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Provádění lineárního vytlačování v Aspose.3D pro Javu
 linktitle: Provádění lineárního vytlačování v Aspose.3D pro Javu
 second_title: Aspose.3D Java API
 description: Prozkoumejte svět 3D modelování s Aspose.3D pro Java. Naučte se provádět lineární vytlačování bez námahy.
-type: docs
 weight: 10
 url: /cs/java/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Provádění lineárního vytlačování v Aspose.3D pro Javu
+
 ## Úvod
 
 Vítejte v tomto komplexním tutoriálu o provádění lineárního vytlačování v Aspose.3D pro Java! Pokud chcete zlepšit své dovednosti v oblasti 3D modelování pomocí Javy, jste na správném místě. V tomto tutoriálu vás provedeme procesem provádění lineárního vytlačování pomocí Aspose.3D, výkonné Java knihovny pro 3D modelování.
@@ -104,3 +110,9 @@ A2: Ano, Aspose.3D lze použít pro osobní i komerční projekty. Zkontrolujte 
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.3D?
 
  A5: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

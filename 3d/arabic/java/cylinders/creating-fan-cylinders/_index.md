@@ -3,10 +3,16 @@ title: إنشاء أسطوانات مروحية مخصصة باستخدام Aspo
 linktitle: إنشاء أسطوانات مروحية مخصصة باستخدام Aspose.3D لـ Java
 second_title: Aspose.3D جافا API
 description: تعلم كيفية إنشاء أسطوانات مروحة مخصصة في Java باستخدام Aspose.3D. ارفع مستوى لعبة النمذجة ثلاثية الأبعاد الخاصة بك دون عناء.
-type: docs
 weight: 10
 url: /ar/java/cylinders/creating-fan-cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء أسطوانات مروحية مخصصة باستخدام Aspose.3D لـ Java
+
 ## مقدمة
 
 هل أنت مستعد للارتقاء بتجربة تصميم النماذج ثلاثية الأبعاد باستخدام Aspose.3D لـ Java؟ سيرشدك هذا البرنامج التعليمي خلال عملية إنشاء أسطوانات المروحة المخصصة باستخدام مكتبة Aspose.3D القوية. سواء كنت مطورًا متمرسًا أو مبتدئًا، سيساعدك هذا الدليل التفصيلي خطوة بخطوة على إطلاق العنان للإمكانات الكاملة لـ Aspose.3D في Java.
@@ -124,3 +130,9 @@ scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEF
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟
 
  ج5: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لاحتياجات الاختبار والتطوير الخاصة بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

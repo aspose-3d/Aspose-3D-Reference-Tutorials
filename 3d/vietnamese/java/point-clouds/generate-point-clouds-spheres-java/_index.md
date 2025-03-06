@@ -3,10 +3,16 @@ title: Tạo các đám mây điểm từ các quả cầu trong Java
 linktitle: Tạo các đám mây điểm từ các quả cầu trong Java
 second_title: API Java Aspose.3D
 description: Khám phá thế giới đồ họa 3D với Aspose.3D trong Java. Tìm hiểu cách tạo các đám mây điểm từ hình cầu bằng hướng dẫn dễ thực hiện này.
-type: docs
 weight: 14
 url: /vi/java/point-clouds/generate-point-clouds-spheres-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo các đám mây điểm từ các quả cầu trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách tạo các đám mây điểm từ hình cầu trong Java bằng Aspose.3D. Nếu bạn háo hức muốn đi sâu vào thế giới đồ họa 3D hấp dẫn và muốn tạo ra những hình ảnh trực quan tuyệt đẹp thì bạn đã đến đúng nơi. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, giúp ngay cả người mới bắt đầu cũng dễ dàng làm theo.
@@ -90,3 +96,10 @@ Chúc mừng! Bạn đã tạo thành công các đám mây điểm từ hình c
 ### Câu 5: Tôi có thể tìm tài liệu ở đâu?
 
  A5: Tham khảo chi tiết[Tài liệu Java Aspose.3D](https://reference.aspose.com/3d/java/) để biết thông tin toàn diện.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

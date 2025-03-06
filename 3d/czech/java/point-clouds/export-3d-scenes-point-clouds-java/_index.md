@@ -3,10 +3,16 @@ title: Exportujte 3D scény jako mračna bodů pomocí Aspose.3D pro Javu
 linktitle: Exportujte 3D scény jako mračna bodů pomocí Aspose.3D pro Javu
 second_title: Aspose.3D Java API
 description: Naučte se exportovat 3D scény jako mračna bodů v Javě pomocí Aspose.3D. Vylepšete své aplikace pomocí výkonné 3D grafiky a vizualizace.
-type: docs
 weight: 15
 url: /cs/java/point-clouds/export-3d-scenes-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exportujte 3D scény jako mračna bodů pomocí Aspose.3D pro Javu
+
 ## Úvod
 
 Aspose.3D for Java usnadňuje export 3D scén v různých formátech, včetně generování mračen bodů. Mračna bodů jsou klíčová v různých odvětvích, od hraní her až po simulace, které nabízejí reprezentaci fyzického prostoru prostřednictvím souboru bodů v 3D souřadnicovém systému.
@@ -94,3 +100,9 @@ Gratulujeme! Úspěšně jste exportovali 3D scénu jako mračno bodů pomocí A
 ### Q5: Chcete koupit Aspose.3D pro Java?
 
  A5: Prozkoumejte možnosti nákupu[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

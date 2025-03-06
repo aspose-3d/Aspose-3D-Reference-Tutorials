@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.3D के साथ 3D रेंडरिं
 linktitle: छाया डालना और प्राप्त करना
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D के साथ 3D रेंडरिंग की दुनिया का अन्वेषण करें। सहजता से छाया डालें और प्राप्त करें। अभी अपने मुफ़्त ट्रायल को डाउनलोड करें!
-type: docs
 weight: 10
 url: /hi/net/rendering/cast-receive-shadows/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.3D के साथ 3D रेंडरिंग में छाया में महारत हासिल करना
+
 ## परिचय
 .NET के लिए Aspose.3D के साथ 3D रेंडरिंग की दुनिया में आपका स्वागत है! इस ट्यूटोरियल में, हम छाया डालने और प्राप्त करने के आकर्षक क्षेत्र में गहराई से उतरेंगे, जो यथार्थवादी और दृष्टि से आश्चर्यजनक 3डी दृश्य बनाने का एक महत्वपूर्ण पहलू है। चाहे आप एक अनुभवी डेवलपर हों या 3डी ग्राफ़िक्स में अपनी यात्रा शुरू कर रहे हों, यह मार्गदर्शिका आपको Aspose.3D का उपयोग करके अपनी रेंडरिंग क्षमताओं को बढ़ाने के लिए ज्ञान और कौशल से लैस करेगी।
 ## आवश्यक शर्तें
@@ -69,3 +75,9 @@ scene.Render(camera, "Your Output Directory" + "CastAndReceiveShadow_out.png", n
  उत्तर: हां, आप समर्थन पा सकते हैं और समुदाय के साथ जुड़ सकते हैं[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18).
 ### प्रश्न: क्या मैं खरीदने से पहले Aspose.3D आज़मा सकता हूँ?
  उत्तर: बिल्कुल! निःशुल्क परीक्षण के साथ लाइब्रेरी का अन्वेषण करें[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

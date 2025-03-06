@@ -3,10 +3,16 @@ title: كيفية إنشاء مستند ثلاثي الأبعاد فارغ في 
 linktitle: كيفية إنشاء مستند ثلاثي الأبعاد فارغ في Java باستخدام Aspose.3D
 second_title: Aspose.3D جافا API
 description: استكشف عالم الرسومات ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. اتبع دليلنا خطوة بخطوة لإنشاء مستند ثلاثي الأبعاد فارغ دون عناء.
-type: docs
 weight: 10
 url: /ar/java/load-and-save/create-empty-3d-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# كيفية إنشاء مستند ثلاثي الأبعاد فارغ في Java باستخدام Aspose.3D
+
 ## مقدمة
 
 في عالم الرسومات والتصورات ثلاثية الأبعاد، يبرز Aspose.3D for Java كأداة قوية للمطورين. بفضل ميزاته المتنوعة ووظائفه القوية، فإنه يوفر منصة ممتازة لإنشاء المستندات ثلاثية الأبعاد ومعالجتها. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء مستند ثلاثي الأبعاد فارغ في Java باستخدام Aspose.3D.
@@ -93,3 +99,9 @@ A1: تم تصميم Aspose.3D ليكون متوافقًا مع بيئات تطو
 ### س5: أين يمكنني طلب الدعم أو مناقشة الاستفسارات ذات الصلة بـ Aspose.3D؟
 
  ج5: قم بزيارة منتدى المجتمع[هنا](https://forum.aspose.com/c/3d/18) للدعم والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

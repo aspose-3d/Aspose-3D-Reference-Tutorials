@@ -3,10 +3,16 @@ title: Thiết lập máy ảnh mục tiêu cho hoạt ảnh 3D trong Java | Hư
 linktitle: Thiết lập máy ảnh mục tiêu cho hoạt ảnh 3D trong Java | Hướng dẫn Aspose.3D
 second_title: API Java Aspose.3D
 description: Khám phá hoạt hình Java 3D một cách dễ dàng với Aspose.3D. Thực hiện theo hướng dẫn của chúng tôi để được hướng dẫn từng bước. Tải xuống ngay để có hành trình phát triển 3D hấp dẫn.
-type: docs
 weight: 11
 url: /vi/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thiết lập máy ảnh mục tiêu cho hoạt ảnh 3D trong Java | Hướng dẫn Aspose.3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách thiết lập máy ảnh mục tiêu cho hoạt ảnh 3D trong Java bằng Aspose.3D. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với hoạt hình 3D trong Java, hướng dẫn này sẽ hướng dẫn bạn qua quy trình với các hướng dẫn rõ ràng và ngắn gọn.
@@ -98,3 +104,9 @@ Chúc mừng! Bạn đã thiết lập thành công máy ảnh mục tiêu cho h
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời?
 
  Câu trả lời 5: Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Customize 3D File Loading in Java with Aspose.3D LoadOptions
 linktitle: Customize 3D File Loading in Java with Aspose.3D LoadOptions
 second_title: Aspose.3D Java API
 description: Enhance your 3D file loading in Java with Aspose.3D customizable LoadOptions. Learn step-by-step customization for 3DS, OBJ, STL, U3D, glTF, PLY, X, and optional FBX.
-type: docs
 weight: 12
 url: /java/load-and-save/customize-3d-file-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Customize 3D File Loading in Java with Aspose.3D LoadOptions
+
 ## Introduction
 
 In the ever-evolving landscape of 3D design and development, efficient handling of 3D file formats is crucial. Aspose.3D for Java provides a powerful solution to customize the loading of various 3D file formats. This tutorial will guide you through the process of customizing 3D file loading in Java using Aspose.3D's LoadOptions.
@@ -156,3 +162,10 @@ A4: Visit the support forum [here](https://forum.aspose.com/c/3d/18).
 ### Q5: Do I need a temporary license for testing?
 
 A5: Yes, obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

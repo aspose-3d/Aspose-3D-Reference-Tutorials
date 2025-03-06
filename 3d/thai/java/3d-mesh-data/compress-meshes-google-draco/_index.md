@@ -3,10 +3,16 @@ title: บีบอัด 3D Meshes ด้วย Google Draco ใน Java
 linktitle: บีบอัด 3D Meshes ด้วย Google Draco ใน Java
 second_title: Aspose.3D จาวา API
 description: เพิ่มประสิทธิภาพแอปพลิเคชัน 3D ของคุณด้วย Aspose.3D เรียนรู้วิธีการบีบอัด mesh โดยใช้ Google Draco ใน Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการพัฒนา 3D ที่มีประสิทธิภาพ
-type: docs
 weight: 10
 url: /th/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บีบอัด 3D Meshes ด้วย Google Draco ใน Java
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คำแนะนำที่ครอบคลุมเกี่ยวกับการบีบอัด 3D meshes ด้วย Google Draco ใน Java โดยใช้ Aspose.3D ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการบีบอัด 3D meshes อย่างมีประสิทธิภาพ โดยใช้พลังของ Aspose.3D หากคุณเป็นนักพัฒนาซอฟต์แวร์ที่ต้องการปรับปรุงแอปพลิเคชัน 3D ของคุณด้วยการลดขนาด Mesh โดยไม่กระทบต่อคุณภาพ แสดงว่าคุณมาถูกที่แล้ว
@@ -100,3 +106,9 @@ Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 ### คำถามที่ 5: มีฟอรัมชุมชนสำหรับการสนับสนุน Aspose.3D หรือไม่
 
  A5: ใช่ สำหรับการสนับสนุนและการอภิปรายของชุมชน โปรดไปที่[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

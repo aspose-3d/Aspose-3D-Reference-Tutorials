@@ -3,10 +3,16 @@ title: Travailler avec des scènes et des modèles 3D en Java
 linktitle: Travailler avec des scènes et des modèles 3D en Java
 second_title: API Java Aspose.3D
 description: Découvrez la puissance d'Aspose.3D pour Java à travers nos tutoriels. Améliorez la précision, l'efficacité du stockage et la manipulation des scènes 3D dans vos applications Java.
-type: docs
 weight: 29
 url: /fr/java/3d-scenes-and-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Travailler avec des scènes et des modèles 3D en Java
+
 ## Introduction
 
 Êtes-vous prêt à élever vos applications Java vers de nouveaux sommets en matière de graphisme et de modélisation 3D ? Bienvenue dans nos didacticiels complets Aspose.3D pour Java ! Libérez le potentiel du positionnement de scènes 3D, de la compression, de la récupération d’informations, de la sauvegarde du maillage et de la manipulation transparente des propriétés grâce à des conseils étape par étape.
@@ -43,3 +49,9 @@ Explorez le monde de la manipulation de scènes 3D en Java avec Aspose.3D. Ce tu
 Découvrez comment enregistrer des maillages 3D dans des formats binaires personnalisés à l'aide d'Aspose.3D pour Java. Améliorez la flexibilité des applications Java avec ce didacticiel étape par étape.
 ### [Travailler avec des propriétés 3D et des données personnalisées dans des scènes Java à l'aide d'Aspose.3D](./managing-3d-properties-scenes/)
 Améliorez vos applications Java avec Aspose.3D pour une manipulation transparente des propriétés 3D. Suivez notre tutoriel pour des conseils étape par étape.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

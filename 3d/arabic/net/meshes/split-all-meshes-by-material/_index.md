@@ -3,10 +3,16 @@ title: تقسيم جميع شبكات المشهد حسب المادة
 linktitle: تقسيم جميع شبكات المشهد حسب المادة
 second_title: Aspose.3D.NET API
 description: تعرف على كيفية تقسيم الشبكات ثلاثية الأبعاد حسب المادة باستخدام Aspose.3D لـ .NET. اتبع دليلنا خطوة بخطوة لتنظيم وإدارة النماذج ثلاثية الأبعاد بكفاءة.
-type: docs
 weight: 21
 url: /ar/net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقسيم جميع شبكات المشهد حسب المادة
+
 ## مقدمة
 مرحبًا بك في هذا الدليل التفصيلي خطوة بخطوة حول تقسيم جميع شبكات المشهد ثلاثي الأبعاد حسب المادة باستخدام Aspose.3D لـ .NET. إذا كنت تعمل باستخدام نماذج ثلاثية الأبعاد وترغب في تنظيم شبكاتك بكفاءة استنادًا إلى المواد، فهذا البرنامج التعليمي مناسب لك. Aspose.3D هي مكتبة .NET قوية توفر مجموعة من الميزات للعمل مع الملفات ثلاثية الأبعاد، مما يجعلها خيارًا ممتازًا للمطورين.
 ## المتطلبات الأساسية
@@ -66,3 +72,9 @@ Console.WriteLine("\nSplitting all meshes of a scene per material successfully.\
  قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لدعم المجتمع والمناقشات.
 ### 5. هل يمكنني الحصول على ترخيص مؤقت؟
  نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

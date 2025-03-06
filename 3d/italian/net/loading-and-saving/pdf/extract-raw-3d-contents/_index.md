@@ -3,10 +3,16 @@ title: Estrazione di contenuti 3D grezzi da PDF
 linktitle: Estrazione di contenuti 3D grezzi da PDF
 second_title: API Aspose.3D .NET
 description: Impara a estrarre contenuti 3D da PDF utilizzando Aspose.3D per .NET. Guida passo passo con esempi di codice.
-type: docs
 weight: 14
 url: /it/net/loading-and-saving/pdf/extract-raw-3d-contents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Estrazione di contenuti 3D grezzi da PDF
+
 ## introduzione
 
 Benvenuti in questa guida completa sull'estrazione di contenuti 3D grezzi da PDF utilizzando Aspose.3D per .NET. Aspose.3D è un'API potente e versatile che consente agli sviluppatori di lavorare con file 3D senza sforzo. In questo tutorial ci concentreremo sul processo di estrazione di contenuti 3D grezzi da file PDF, fornendoti una guida passo passo.
@@ -90,3 +96,9 @@ A1: Sì, Aspose.3D supporta un'ampia gamma di formati di file 3D, rendendolo ver
 ### Q5: È disponibile documentazione per Aspose.3D?
 
  R5: Sì, è possibile trovare la documentazione[Qui](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Niteliklerle okuma sahnesi
 linktitle: Niteliklerle okuma sahnesi
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D ile .NET'te 3D modellemenin gücünü ortaya çıkarın. Sahneleri zahmetsizce yükleyin, kaydedin ve değiştirin. Sınırsız olasılıklar dünyasına dalın.
-type: docs
 weight: 18
 url: /tr/net/loading-and-saving/rvm/read-existing-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Niteliklerle okuma sahnesi
+
 ## giriiş
 
 Aspose.3D for .NET, sürekli gelişen 3D grafik ve modelleme ortamında, geliştiriciler için kusursuz entegrasyon ve sağlam işlevsellik sağlayan güçlü bir araç olarak ortaya çıkıyor. Bu eğitim, özellikle harici niteliklerini okumaya odaklanarak bir RVM dosyasını okuma sürecinde size rehberlik edecektir. Aspose.3D'nin yeteneklerinden yararlanma yolculuğuna çıkarken kemerlerinizi bağlayın!
@@ -79,3 +85,9 @@ A4: You can acquire a temporary license [here](https://satın alma.aspose.com/te
 ### Q5: Where can I purchase Aspose.3D for .NET?
 
 A5: Visit the [purchase page](https://Aspose.3D'nin tam sürümünü edinmek için satın alma.aspose.com/buy) adresini ziyaret edin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

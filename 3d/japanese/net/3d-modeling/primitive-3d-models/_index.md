@@ -3,10 +3,16 @@ title: プリミティブ 3D モデルの作成
 linktitle: プリミティブ 3D モデルの作成
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D モデリングの世界を探索してください。魅力的なプリミティブ モデルを簡単に作成できます。
-type: docs
 weight: 10
 url: /ja/net/3d-modeling/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# プリミティブ 3D モデルの作成
+
 ## 導入
 
 Aspose.3D for .NET を使用したエキサイティングな 3D モデリングの世界へようこそ!この包括的なチュートリアルでは、Aspose.3D を使用してプリミティブ 3D モデルを作成するプロセスを段階的に説明します。経験豊富な開発者であっても、好奇心旺盛な初心者であっても、このガイドは、Aspose.3D の力を活用して、プロジェクト用に視覚的に素晴らしい 3D 要素を作成するのに役立ちます。
@@ -108,3 +114,9 @@ A1: Aspose.3D は主に .NET をサポートしていますが、Java やその�
 ### Q5: サンプルチュートリアルはありますか?
 
  A5: はい、次のチュートリアルと例をご覧ください。[ドキュメンテーション](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

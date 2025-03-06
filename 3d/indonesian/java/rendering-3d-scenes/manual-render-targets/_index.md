@@ -3,10 +3,16 @@ title: Kontrol Target Render Secara Manual untuk Rendering Khusus di Java 3D
 linktitle: Kontrol Target Render Secara Manual untuk Rendering Khusus di Java 3D
 second_title: Asumsikan.3D Java API
 description: Jelajahi kekuatan Aspose.3D untuk Java dalam panduan langkah demi langkah ini. Kontrol target render secara manual untuk grafis Java 3D kustom yang menakjubkan.
-type: docs
 weight: 10
 url: /id/java/rendering-3d-scenes/manual-render-targets/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kontrol Target Render Secara Manual untuk Rendering Khusus di Java 3D
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan grafis Java 3D Anda ke level berikutnya? Aspose.3D untuk Java adalah pintu gerbang Anda untuk membuka potensi penuh dari rendering yang disesuaikan. Dalam tutorial ini, kita akan mempelajari seluk-beluk pengontrolan target render secara manual, memberi Anda alat untuk membuat pemandangan visual menawan yang disesuaikan dengan spesifikasi Anda.
@@ -117,3 +123,9 @@ A1: Ya, Aspose.3D menyediakan antarmuka yang ramah pengguna, sehingga dapat diak
 ### Q5: Apa yang dimaksud dengan burstiness dalam grafis Java 3D, dan bagaimana cara Aspose.3D mengatasinya?
 
 A5: Burstiness mengacu pada intensitas tiba-tiba atau perubahan cepat pada elemen grafis. Aspose.3D menyediakan alat untuk transisi yang mulus dan penyesuaian dinamis, meminimalkan ledakan dalam adegan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

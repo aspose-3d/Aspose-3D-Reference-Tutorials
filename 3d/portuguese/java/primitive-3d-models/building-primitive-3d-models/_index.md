@@ -3,10 +3,16 @@ title: Construindo modelos 3D primitivos com Aspose.3D para Java
 linktitle: Construindo modelos 3D primitivos com Aspose.3D para Java
 second_title: API Java Aspose.3D
 description: Descubra a arte da modelagem 3D com Aspose.3D para Java. Aprenda a construir modelos 3D primitivos sem esforço e libere sua criatividade.
-type: docs
 weight: 10
 url: /pt/java/primitive-3d-models/building-primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Construindo modelos 3D primitivos com Aspose.3D para Java
+
 ## Introdução
 
 Criar modelos 3D programaticamente pode ser uma tarefa difícil, mas com Aspose.3D para Java, torna-se um processo simples e divertido. Este tutorial tem como objetivo ajudá-lo a começar a construir modelos 3D primitivos, focando na simplicidade e eficácia.
@@ -88,3 +94,9 @@ A2: Com certeza! Aspose.3D fornece um conjunto abrangente de recursos, tornando-
 ### Q5: Como obtenho uma licença temporária para Aspose.3D?
 
  A5: Você pode obter um[licença temporária](https://purchase.aspose.com/temporary-license/) para Aspose.3D através do site.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

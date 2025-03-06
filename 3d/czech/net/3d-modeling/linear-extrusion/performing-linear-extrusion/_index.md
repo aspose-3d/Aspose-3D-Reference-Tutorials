@@ -3,10 +3,16 @@ title: Provádění lineárního vytlačování
 linktitle: Provádění lineárního vytlačování
 second_title: Aspose.3D .NET API
 description: Prozkoumejte svět 3D grafiky s Aspose.3D pro .NET. Provádění lineárního vytlačování v tomto podrobném průvodci.
-type: docs
 weight: 12
 url: /cs/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Provádění lineárního vytlačování
+
 ## Úvod:
 
 Vydejte se na vzrušující cestu do říše 3D grafiky s Aspose.3D for .NET, silou, která pozvedne vaši vývojovou hru. V tomto tutoriálu se ponoříme do složitosti lineárního vytlačování – fascinující techniky, která vdechuje život statickým 2D profilům a pohání je do dynamického světa 3D. Odemkněte dveře kreativitě a inovacím pomocí Aspose.3D!
@@ -106,3 +112,9 @@ A1: Rozhodně! Aspose.3D nabízí uživatelsky přívětivé prostředí a náš
 ### Q5: Je k dispozici bezplatná zkušební verze?
 
  A5: Určitě! Stáhněte si bezplatnou zkušební verzi[tady](https://releases.aspose.com/) vyzkoušet schopnosti Aspose.3D na vlastní kůži.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

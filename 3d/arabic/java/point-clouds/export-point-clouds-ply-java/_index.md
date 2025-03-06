@@ -3,10 +3,16 @@ title: تصدير Point Clouds إلى تنسيق PLY باستخدام Aspose.3D 
 linktitle: تصدير Point Clouds إلى تنسيق PLY باستخدام Aspose.3D لـ Java
 second_title: Aspose.3D جافا API
 description: اكتشف قوة Aspose.3D لـ Java في تصدير السحب النقطية إلى تنسيق PLY. اتبع دليلنا خطوة بخطوة للتطوير ثلاثي الأبعاد بسلاسة.
-type: docs
 weight: 13
 url: /ar/java/point-clouds/export-point-clouds-ply-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير Point Clouds إلى تنسيق PLY باستخدام Aspose.3D لـ Java
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول تصدير السحب النقطية إلى تنسيق PLY باستخدام Aspose.3D لـ Java. Aspose.3D هي مكتبة Java قوية تتيح للمطورين العمل مع الملفات ثلاثية الأبعاد، مما يوفر تجربة سلسة في إدارة ومعالجة التنسيقات ثلاثية الأبعاد المختلفة. في هذا البرنامج التعليمي، سوف نركز على تصدير السحب النقطية إلى تنسيق PLY، وهو تنسيق ملف يستخدم على نطاق واسع لتمثيل البيانات ثلاثية الأبعاد.
@@ -81,3 +87,9 @@ FileFormat.PLY.encode(new Sphere(), "Your Document Directory" + "sphere.ply");
 ### س5: أين يمكنني شراء Aspose.3D لـ Java؟
 
  A5: شراء Aspose.3D لـ Java[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

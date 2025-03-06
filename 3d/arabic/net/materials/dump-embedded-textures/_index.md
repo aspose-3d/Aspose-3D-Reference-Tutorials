@@ -3,10 +3,16 @@ title: إلقاء القوام المضمنة
 linktitle: إلقاء القوام المضمنة
 second_title: Aspose.3D.NET API
 description: اكتشف أسرار الأنسجة المضمنة في النماذج ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. تعمق في دليلنا خطوة بخطوة لتحقيق التكامل السلس. تحميل النسخة التجريبية المجانية من الآن!
-type: docs
 weight: 11
 url: /ar/net/materials/dump-embedded-textures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إلقاء القوام المضمنة
+
 ## مقدمة
 مرحبًا بك في عالم Aspose.3D for .NET - مجموعة أدوات قوية تمكّن المطورين من التعامل مع الملفات ثلاثية الأبعاد والعمل معها بسلاسة. في هذا البرنامج التعليمي الشامل، سوف نتعمق في العالم الرائع المتمثل في التخلص من الأنسجة المضمنة باستخدام Aspose.3D. إذا كنت حريصًا على تحسين تطبيقك ثلاثي الأبعاد عن طريق إطلاق إمكانات الأنسجة المضمنة، فأنت في المكان الصحيح.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ if(tex.Content != null)
  ج: نعم، يوجد ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني العثور على وثائق شاملة لـ Aspose.3D؟
  ج: الوثائق يمكن الوصول إليها[هنا](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

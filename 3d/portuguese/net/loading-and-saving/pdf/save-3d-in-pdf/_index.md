@@ -3,10 +3,16 @@ title: Salvando 3D em PDF
 linktitle: Salvando 3D em PDF
 second_title: API Aspose.3D .NET
 description: Explore Aspose.3D para .NET. Sua biblioteca ideal para modelagem e renderização 3D perfeitas. Salve facilmente modelos 3D em PDF.
-type: docs
 weight: 19
 url: /pt/net/loading-and-saving/pdf/save-3d-in-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salvando 3D em PDF
+
 ## Introdução
 
 Bem-vindo ao nosso guia completo sobre como usar o Aspose.3D para .NET! Neste tutorial, orientaremos você no processo de carregamento e salvamento de modelos 3D, com foco na tarefa específica de salvar um modelo 3D em formato PDF. Aspose.3D for .NET é uma biblioteca poderosa que fornece ferramentas eficientes para trabalhar com arquivos 3D, tornando-se um recurso essencial para desenvolvedores e entusiastas da área.
@@ -98,3 +104,9 @@ A2: Com certeza! Conforme mostrado no tutorial, você pode ajustar modos de rend
 ### Q5: Como posso obter uma licença temporária do Aspose.3D for .NET?
 
  A5: Para obter uma licença temporária, visite[esse link](https://purchase.aspose.com/temporary-license/) e siga as instruções fornecidas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

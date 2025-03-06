@@ -3,10 +3,16 @@ title: Skapa en scen med inbäddad textur
 linktitle: Skapa en scen med inbäddad textur
 second_title: Aspose.3D .NET API
 description: Skapa fascinerande 3D-scener med inbäddade texturer med Aspose.3D för .NET. Följ vår steg-för-steg-guide för fantastiska resultat.
-type: docs
 weight: 10
 url: /sv/net/materials/create-scene-embedded-texture/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa en scen med inbäddad textur
+
 ## Introduktion
 Välkommen till den spännande världen av 3D-grafik med Aspose.3D för .NET! I den här omfattande handledningen guidar vi dig genom processen att skapa fantastiska 3D-scener med inbäddade texturer med Aspose.3D, ett kraftfullt och mångsidigt bibliotek för .NET-utvecklare.
 ## Förutsättningar
@@ -109,3 +115,9 @@ S: Aspose.3D tillhandahåller animeringsmöjligheter; se dokumentationen för de
  A: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) för samhällsstöd och diskussioner.
 ### F: Kan jag använda Aspose.3D för kommersiella projekt?
  S: Ja, du kan köpa en licens[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

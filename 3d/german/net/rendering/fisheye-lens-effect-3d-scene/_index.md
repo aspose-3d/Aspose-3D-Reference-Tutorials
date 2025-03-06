@@ -3,10 +3,16 @@ title: Anwenden des Fisheye-Linseneffekts mit Aspose.3D für .NET
 linktitle: Anwenden des Fischaugen-Linseneffekts auf eine 3D-Szene
 second_title: Aspose.3D .NET API
 description: Verbessern Sie Ihre 3D-Szenen mit Aspose.3D für .NET! Erfahren Sie Schritt für Schritt, wie Sie einen faszinierenden Fischaugen-Linseneffekt anwenden. Jetzt downloaden!
-type: docs
 weight: 12
 url: /de/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anwenden des Fisheye-Linseneffekts mit Aspose.3D für .NET
+
 ## Einführung
 Möchten Sie die visuelle Attraktivität Ihrer 3D-Szenen verbessern? Tauchen Sie mit Aspose.3D für .NET in die faszinierende Welt der Fischaugen-Linseneffekte ein. Dieses Tutorial führt Sie Schritt für Schritt durch die Anwendung eines Fischaugen-Linseneffekts auf Ihre 3D-Szenen, um ihnen eine einzigartige und faszinierende Perspektive zu verleihen.
 ## Voraussetzungen
@@ -77,3 +83,9 @@ Sie können die Eigenschaften der Lichter wie Position, Typ und Farbe anpassen, 
 Die Größe der 3D-Szene wird hauptsächlich durch die Systemressourcen begrenzt. Stellen Sie sicher, dass Ihre Hardware die Größe Ihrer Szene bewältigen kann.
 ### Kann ich für das Ergebnis des Fischaugeneffekts ein anderes Ausgabeformat anstelle von PNG verwenden?
 Ja, Sie können den Code ändern, um die Ausgabe entsprechend Ihren Anforderungen in verschiedenen Bildformaten zu speichern.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

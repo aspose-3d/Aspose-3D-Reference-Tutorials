@@ -3,10 +3,16 @@ title: Nắm vững các kỹ thuật kết xuất cơ bản cho cảnh 3D trong
 linktitle: Nắm vững các kỹ thuật kết xuất cơ bản cho cảnh 3D trong Java
 second_title: API Java Aspose.3D
 description: Khám phá kết xuất 3D trong Java với Aspose.3D. Nắm vững các kỹ thuật cơ bản, thiết lập cảnh và hiển thị hình dạng một cách liền mạch. Nâng cao kỹ năng lập trình Java của bạn trong đồ họa 3D.
-type: docs
 weight: 11
 url: /vi/java/rendering-3d-scenes/basic-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nắm vững các kỹ thuật kết xuất cơ bản cho cảnh 3D trong Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới thú vị của kết xuất 3D trong Java bằng Aspose.3D! Nếu bạn mong muốn nắm vững các kỹ thuật kết xuất cơ bản cho cảnh 3D thì bạn đã đến đúng nơi. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình thiết lập cảnh 3D, áp dụng vật liệu và hiển thị các hình dạng khác nhau. Cuối cùng, bạn sẽ có hiểu biết vững chắc về các khái niệm kết xuất cơ bản trong Java.
@@ -114,3 +120,9 @@ Trong hướng dẫn này, chúng tôi đã khám phá các bước thiết yế
 ### Câu hỏi 5: Tôi có thể mua Aspose.3D cho Java ở đâu?
 
  A5: Bạn có thể mua sản phẩm[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

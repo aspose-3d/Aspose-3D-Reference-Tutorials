@@ -3,10 +3,16 @@ title: Διαχωρισμός όλων των ματιών της σκηνής �
 linktitle: Διαχωρισμός όλων των ματιών της σκηνής ανά υλικό
 second_title: Aspose.3D .NET API
 description: Μάθετε πώς να χωρίζετε τρισδιάστατα πλέγματα ανά υλικό χρησιμοποιώντας το Aspose.3D για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική οργάνωση και διαχείριση τρισδιάστατων μοντέλων.
-type: docs
 weight: 21
 url: /el/net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχωρισμός όλων των ματιών της σκηνής ανά υλικό
+
 ## Εισαγωγή
 Καλώς ήρθατε σε αυτόν τον αναλυτικό οδηγό για τον διαχωρισμό όλων των ματιών μιας τρισδιάστατης σκηνής ανά υλικό χρησιμοποιώντας το Aspose.3D για .NET. Εάν εργάζεστε με τρισδιάστατα μοντέλα και θέλετε να οργανώσετε αποτελεσματικά τα πλέγματα σας με βάση τα υλικά, αυτό το σεμινάριο είναι για εσάς. Το Aspose.3D είναι μια ισχυρή βιβλιοθήκη .NET που παρέχει μια σειρά από δυνατότητες για εργασία με αρχεία 3D, καθιστώντας την εξαιρετική επιλογή για προγραμματιστές.
 ## Προαπαιτούμενα
@@ -66,3 +72,9 @@ Console.WriteLine("\nSplitting all meshes of a scene per material successfully.\
  Επισκέψου το[Aspose.3D φόρουμ](https://forum.aspose.com/c/3d/18) για κοινοτική υποστήριξη και συζητήσεις.
 ### 5. Μπορώ να αποκτήσω προσωρινή άδεια;
  Ναι, μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

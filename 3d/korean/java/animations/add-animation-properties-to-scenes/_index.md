@@ -3,10 +3,16 @@ title: Java의 3D 장면에 애니메이션 속성 추가 | Aspose.3D 튜토리�
 linktitle: Java의 3D 장면에 애니메이션 속성 추가 | Aspose.3D 튜토리얼
 second_title: Aspose.3D 자바 API
 description: Aspose.3D로 Java 기반 3D 프로젝트를 향상하세요. 튜토리얼을 따라 애니메이션 속성을 원활하게 추가하세요.
-type: docs
 weight: 10
 url: /ko/java/animations/add-animation-properties-to-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java의 3D 장면에 애니메이션 속성 추가 | Aspose.3D 튜토리얼
+
 ## 소개
 
 Aspose.3D를 사용하여 Java에서 3D 장면에 애니메이션 속성을 추가하는 방법에 대한 단계별 튜토리얼에 오신 것을 환영합니다. 역동적인 애니메이션으로 3D 프로젝트를 향상시키려는 경우 올바른 위치에 오셨습니다. 이 가이드에서는 원활한 경험을 위해 각 단계를 세분화하여 프로세스를 안내합니다.
@@ -128,3 +134,9 @@ A3: 다음 커뮤니티에 가입하세요.[Aspose.3D 포럼](https://forum.aspo
 ### Q5: 더 많은 튜토리얼이 있나요?
 
  A5: 포괄적인 탐색[선적 서류 비치](https://reference.aspose.com/3d/java/) 추가 튜토리얼을 보려면.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

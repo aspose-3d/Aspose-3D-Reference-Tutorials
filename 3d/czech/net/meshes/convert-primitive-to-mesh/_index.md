@@ -3,10 +3,16 @@ title: Převod parametrického primitivu na síť
 linktitle: Převod parametrického primitivu na síť
 second_title: Aspose.3D .NET API
 description: Prozkoumejte sílu Aspose.3D pro .NET! Bez námahy převeďte parametrická primitiva na všestrannou síť. Pozvedněte svou 3D grafickou hru ještě dnes.
-type: docs
 weight: 12
 url: /cs/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převod parametrického primitivu na síť
+
 ## Úvod
 
 Aspose.3D poskytuje bohatou sadu primitivních tvarů, včetně krabic, rovin, tori, koulí, válců, pyramid a dalších. Tato primitiva jsou definována svými parametry, díky čemuž jsou vysoce univerzální pro procedurální modelování. Programovou úpravou parametrů můžete vytvořit širokou škálu 3D modelů s minimálním kódem.
@@ -73,3 +79,9 @@ Ano, Aspose.3D podporuje širokou škálu .NET frameworků, což zajišťuje kom
  Ano, prozkoumejte Aspose.3D s[zkušební verze zdarma](https://releases.aspose.com/) vyzkoušet své schopnosti, než se zaváže.
 ### Mohu získat dočasnou licenci pro testovací účely?
  Ano, zabezpečit a[dočasná licence](https://purchase.aspose.com/temporary-license/) vyhodnotit Aspose.3D komplexně.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Generera data för 3D-nät i Java (Normaler, Tangenter, Binormaler)
 linktitle: Generera data för 3D-nät i Java (Normaler, Tangenter, Binormaler)
 second_title: Aspose.3D Java API
 description: Förbättra dina Java-projekt med Aspose.3D. Följ vår handledning för att enkelt generera normala data för 3D-nät. Dyk in i 3D-grafik med lätthet.
-type: docs
 weight: 11
 url: /sv/java/3d-mesh-data/generate-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generera data för 3D-nät i Java (Normaler, Tangenter, Binormaler)
+
 ## Introduktion
 
 Att skapa och manipulera 3D-mesh-data i Java kan vara en utmanande men spännande uppgift, särskilt när man hanterar filer som saknar väsentlig normal data. Aspose.3D för Java kommer till undsättning och ger en kraftfull verktygslåda för att effektivt hantera 3D-grafik och maskor. I den här handledningen kommer vi att guida dig genom processen att generera normala data för 3D-nät med Aspose.3D i Java.
@@ -95,3 +101,9 @@ S1: Ja, Aspose.3D stöder olika 3D-filformat, vilket säkerställer flexibilitet
 ### F5: Behöver du hjälp eller vill få kontakt med samhället?
 
  S5: Besök Aspose.3D-forumet[här](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

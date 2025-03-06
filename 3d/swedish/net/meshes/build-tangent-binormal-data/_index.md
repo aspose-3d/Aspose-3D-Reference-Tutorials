@@ -3,10 +3,16 @@ title: Bygga Tangent och Binormal Data
 linktitle: Bygga Tangent och Binormal Data
 second_title: Aspose.3D .NET API
 description: Släpp lös kraften hos tangent- och binormala data för att optimera dina 3D-modeller för smidigare rendering, snabbare laddningstider och högre prestanda.
-type: docs
 weight: 10
 url: /sv/net/meshes/build-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bygga Tangent och Binormal Data
+
 ## Introduktion
 Har du någonsin känt frustrationen av en trög 3D-modell som kör ner ditt projekt? Oroa dig inte, andra utvecklare, för hemligheten till smidig segling ligger i tangent- och binormala data. Dessa obesjungna hjältar optimerar mesh-rendering, vilket får dina modeller att sjunga som operativa divor på vilken scen som helst. Men hur utnyttjar vi deras kraft? Var inte rädd, för den här omfattande guiden kommer att utrusta dig med Aspose.3D för .NET-verktygslådan för att låsa upp magin med tangent- och binormaldata med bara några klick!
 
@@ -85,3 +91,9 @@ Aspose.3D stöder många format som OBJ, STL och glTF. Konvertera bara din model
  Aspose.3D har en omfattande dokumentationsportal på[här](https://docs.aspose.com/3d/net/) Dessutom, Aspose community forum på[här](https://forum.aspose.com/) vimlar alltid av hjälpsamma utvecklare.
 ### Kan jag använda Aspose.3D för kommersiella projekt? 
  Ja! Aspose.3D erbjuder olika licensalternativ för att passa dina behov. Kolla in deras prissida på[här](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

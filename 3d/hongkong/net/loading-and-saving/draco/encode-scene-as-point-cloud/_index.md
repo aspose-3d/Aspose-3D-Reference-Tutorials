@@ -3,10 +3,16 @@ title: 將場景編碼為點雲
 linktitle: 將場景編碼為點雲
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D 探索 .NET 中的 3D 建模世界。學習輕鬆地將球體編碼為點雲。現在就釋放你的創造力吧！
-type: docs
 weight: 14
 url: /zh-hant/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將場景編碼為點雲
+
 ## 介紹
 歡迎閱讀這份關於使用 Aspose.3D for .NET 將球體編碼為點雲的綜合指南。 Aspose.3D 是一個功能強大且多功能的程式庫，使開發人員能夠在其 .NET 應用程式中無縫地使用 3D 模型。在本教程中，我們將引導您完成使用 Aspose.3D 將球體編碼為點雲的過程。
 ## 先決條件
@@ -60,3 +66,9 @@ FileFormat.Draco.Encode(sphere, outputPath + outputFileName, saveOptions);
 請造訪 Aspose.3D 論壇[這裡](https://forum.aspose.com/c/3d/18)以獲得社區支持和討論。
 ### 我需要臨時許可證才能進行測試嗎？
 是的，如果您正在測試該庫，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

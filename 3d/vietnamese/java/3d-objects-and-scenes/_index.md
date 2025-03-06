@@ -3,10 +3,16 @@ title: Thao tác với các đối tượng và cảnh 3D trong Java
 linktitle: Thao tác với các đối tượng và cảnh 3D trong Java
 second_title: API Java Aspose.3D
 description: Mở khóa thế giới lập trình Java 3D với các hướng dẫn Aspose.3D. Tìm hiểu cách sửa đổi bán kính hình cầu và áp dụng các truy vấn giống XPath một cách dễ dàng để phát triển 3D liền mạch.
-type: docs
 weight: 33
 url: /vi/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác với các đối tượng và cảnh 3D trong Java
+
 ## Giới thiệu
 
 Lập trình Java 3D trở thành một hành trình hấp dẫn với các hướng dẫn Aspose.3D, tập trung vào thao tác với các đối tượng và cảnh 3D. Trong bài viết này, chúng tôi sẽ đi sâu vào hai hướng dẫn cần thiết hứa hẹn sẽ nâng cao kỹ năng phát triển 3D của bạn.
@@ -27,3 +33,9 @@ Tóm lại, những hướng dẫn này đóng vai trò là cửa ngõ giúp b�
 Khám phá lập trình Java 3D với Aspose.3D, sửa đổi bán kính hình cầu một cách dễ dàng. Tải xuống ngay để có trải nghiệm phát triển 3D liền mạch.
 ### [Áp dụng các truy vấn giống XPath cho các đối tượng 3D trong Java](./xpath-like-object-queries/)
 Làm chủ các truy vấn đối tượng 3D trong Java một cách dễ dàng với Aspose.3D. Áp dụng các truy vấn giống XPath, thao tác các cảnh và nâng cao quá trình phát triển 3D của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

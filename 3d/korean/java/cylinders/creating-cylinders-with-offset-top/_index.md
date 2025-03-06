@@ -3,10 +3,16 @@ title: Java용 Aspose.3D에서 상단 오프셋이 있는 원통 만들기
 linktitle: Java용 Aspose.3D에서 상단 오프셋이 있는 원통 만들기
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java에서 3D 모델링의 경이로움을 살펴보세요. 오프셋 상단이 있는 매혹적인 실린더를 쉽게 만드는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D에서 상단 오프셋이 있는 원통 만들기
+
 ## 소개
 
 Java 기반 3D 모델링 영역에서 Aspose.3D는 개발자에게 복잡한 3D 장면을 쉽게 만들 수 있는 기능을 제공하는 강력한 도구로 돋보입니다. 이 튜토리얼에서는 오프셋 상단이 있는 원통을 만드는 특정 작업에 중점을 두고 Java용 Aspose.3D의 매혹적인 세계를 탐구합니다. 이 가이드를 마치면 프로세스를 확실히 이해하게 되어 이 기능을 3D 프로젝트에 원활하게 통합할 수 있게 됩니다.
@@ -127,3 +133,9 @@ A3: 예, 필요에 맞는 라이선스 옵션을 탐색하고 선택할 수 있�
 ### Q5: 테스트 목적으로 사용할 수 있는 임시 라이센스 옵션이 있습니까?
 
  A5: 예, 테스트 및 평가 목적으로 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

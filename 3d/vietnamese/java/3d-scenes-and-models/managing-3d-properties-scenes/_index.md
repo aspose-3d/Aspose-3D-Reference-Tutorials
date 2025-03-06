@@ -3,10 +3,16 @@ title: Làm việc với Thuộc tính 3D và Dữ liệu tùy chỉnh trong C�
 linktitle: Làm việc với Thuộc tính 3D và Dữ liệu tùy chỉnh trong Cảnh Java bằng Aspose.3D
 second_title: API Java Aspose.3D
 description: Nâng cao các ứng dụng Java của bạn với Aspose.3D để thao tác thuộc tính 3D liền mạch. Thực hiện theo hướng dẫn của chúng tôi để được hướng dẫn từng bước.
-type: docs
 weight: 14
 url: /vi/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với Thuộc tính 3D và Dữ liệu tùy chỉnh trong Cảnh Java bằng Aspose.3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về cách làm việc với các thuộc tính 3D và dữ liệu tùy chỉnh trong các cảnh Java bằng Aspose.3D. Trong hướng dẫn này, chúng ta sẽ đi sâu vào các tính năng mạnh mẽ của Aspose.3D, cung cấp hướng dẫn từng bước về cách thao tác các thuộc tính 3D trong ứng dụng Java của bạn.
@@ -124,3 +130,9 @@ A4: Có, hãy truy cập[Diễn đàn hỗ trợ Aspose.3D](https://forum.aspose
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.3D?
 
  Câu trả lời 5: Bạn có thể lấy giấy phép tạm thời bằng cách truy cập[liên kết này](https://purchase.aspose.com/temporary-license/) trên trang web Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

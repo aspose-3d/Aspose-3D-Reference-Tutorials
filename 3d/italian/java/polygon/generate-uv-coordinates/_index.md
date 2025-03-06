@@ -3,10 +3,16 @@ title: Genera coordinate UV per la mappatura delle texture nei modelli 3D Java
 linktitle: Genera coordinate UV per la mappatura delle texture nei modelli 3D Java
 second_title: API Java Aspose.3D
 description: Impara a generare coordinate UV per modelli Java 3D utilizzando Aspose.3D. Migliora la mappatura delle texture nei tuoi progetti con questa guida passo passo.
-type: docs
 weight: 11
 url: /it/java/polygon/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Genera coordinate UV per la mappatura delle texture nei modelli 3D Java
+
 ## introduzione
 
 Benvenuti nella nostra guida passo passo sulla generazione di coordinate UV per la mappatura delle texture nei modelli Java 3D utilizzando Aspose.3D. In questo tutorial ti guideremo attraverso il processo di generazione manuale delle coordinate UV per una mesh in un modello 3D. Questo è un passaggio cruciale nella mappatura delle texture, che ti consente di migliorare l'attrattiva visiva dei tuoi modelli 3D.
@@ -120,3 +126,9 @@ A1: Aspose.3D è progettato principalmente per Java, ma Aspose offre versioni pe
 ### Q5: Posso acquistare una licenza temporanea per Aspose.3D?
 
  R5: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java에서 3D 메시에 대한 메모리 레이아웃 사용자 정의
 linktitle: Java에서 3D 메시에 대한 메모리 레이아웃 사용자 정의
 second_title: Aspose.3D 자바 API
 description: Aspose.3D로 Java 3D 모델링을 향상하세요. 최적의 성능을 위해 메모리 레이아웃을 사용자 정의하세요. 지금 단계별 가이드를 따르십시오!
-type: docs
 weight: 13
 url: /ko/java/transforming-3d-meshes/customize-mesh-memory-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 3D 메시에 대한 메모리 레이아웃 사용자 정의
+
 ## 소개
 Java의 역동적인 3D 모델링 및 렌더링 세계에서 Aspose.3D는 유연성과 사용자 정의를 원하는 개발자를 위한 강력한 도구로 돋보입니다. 이 튜토리얼에서는 Java용 Aspose.3D를 사용하여 3D 메시의 메모리 레이아웃을 사용자 정의하는 프로세스를 자세히 살펴보겠습니다. 이 가이드를 마치면 향상된 3D 모델링을 위해 메모리 사용을 최적화하는 방법을 확실하게 이해하게 될 것입니다.
 ## 전제 조건
@@ -71,3 +77,9 @@ System.out.println("\nConverted a Box mesh to triangle mesh with custom memory l
  방문하다[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역 사회 지원을 위해.
 ### Aspose.3D의 임시 라이선스를 구매할 수 있나요?
  예, 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

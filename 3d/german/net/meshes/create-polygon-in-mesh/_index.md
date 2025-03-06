@@ -3,10 +3,16 @@ title: Erstellen eines Polygons im Netz
 linktitle: Erstellen eines Polygons im Netz
 second_title: Aspose.3D .NET API
 description: Entdecken Sie die Welt der 3D-Modellierung mit Aspose.3D für .NET. Erstellen Sie mühelos atemberaubende Polygone in Netzen. Laden Sie es jetzt herunter und genießen Sie ein umfassendes Entwicklungserlebnis!
-type: docs
 weight: 18
 url: /de/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen eines Polygons im Netz
+
 ## Einführung
 Sind Sie bereit, mit Aspose.3D für .NET in die aufregende Welt der 3D-Modellierung einzutauchen? Wenn Sie ein Entwickler sind, der seine Fähigkeiten verbessern möchte, oder ein Neuling, der sich für die Erstellung atemberaubender 3D-Netze interessiert, sind Sie hier richtig. In diesem umfassenden Tutorial führen wir Sie durch den Prozess der Erstellung eines Polygons in einem Netz mit Aspose.3D.
 ## Voraussetzungen
@@ -59,3 +65,9 @@ A: Aspose.3D für .NET ist hauptsächlich für Windows-Umgebungen konzipiert. Si
  A: Erkunden Sie das Umfangreiche[Dokumentation](https://reference.aspose.com/3d/net/) für vertiefte Einblicke zur Verfügung.
 ### F: Wie kaufe ich Aspose.3D für .NET?
  A: Besuchen Sie die[Kaufseite](https://purchase.aspose.com/buy) um Ihre Lizenz zu erwerben und das volle Potenzial von Aspose.3D auszuschöpfen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Làm việc với Hình học 3D trong Java
 linktitle: Làm việc với Hình học 3D trong Java
 second_title: API Java Aspose.3D
 description: Khám phá các hướng dẫn Java về Aspose.3D về cách làm việc với hình học 3D. Làm chủ các vật liệu PBR, phép quay bậc bốn, cảnh khối, v.v. Nâng cao đồ họa Java 3D của bạn.
-type: docs
 weight: 21
 url: /vi/java/geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với Hình học 3D trong Java
+
 ## Giới thiệu
 Bạn đã sẵn sàng khám phá thế giới đồ họa 3D hấp dẫn với Aspose.3D cho Java chưa? Các hướng dẫn của chúng tôi bao gồm nhiều chủ đề khác nhau, giúp bạn nâng cao các ứng dụng Java của mình bằng các phần tử 3D mạnh mẽ và trực quan ấn tượng. Hãy bắt tay vào cuộc hành trình này từng bước một.
 
@@ -89,3 +95,9 @@ Nâng cao các ứng dụng Java của bạn với Aspose.3D để có các chuy
 Khám phá thế giới đồ họa 3D trong Java với Aspose.3D. Tìm hiểu cách chuyển đổi các nút một cách dễ dàng bằng cách sử dụng ma trận chuyển đổi.
 ### [Lưới tam giác để hiển thị được tối ưu hóa trong Java với Aspose.3D](./triangulate-meshes-for-optimized-rendering/)
 Tìm hiểu cách tăng hiệu quả kết xuất 3D trong Java bằng Aspose.3D. Lưới tam giác cho hiệu suất tối ưu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

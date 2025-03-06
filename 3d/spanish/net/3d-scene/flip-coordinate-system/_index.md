@@ -3,10 +3,16 @@ title: Invertir el sistema de coordenadas en escenas 3D
 linktitle: Invertir el sistema de coordenadas en escenas 3D
 second_title: Aspose.3D API .NET
 description: Domine el arte de invertir sistemas de coordenadas en escenas 3D utilizando Aspose.3D para .NET. Siga nuestra guía paso a paso para una implementación perfecta.
-type: docs
 weight: 12
 url: /es/net/3d-scene/flip-coordinate-system/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Invertir el sistema de coordenadas en escenas 3D
+
 ## Introducción
 
 Bienvenido a esta guía paso a paso sobre cómo invertir el sistema de coordenadas en escenas 3D usando Aspose.3D para .NET. Si eres desarrollador o entusiasta del 3D y buscas manipular sistemas de coordenadas en tus escenas, estás en el lugar correcto. En este tutorial, lo guiaremos a través del proceso, facilitándole la implementación de esta función sin problemas.
@@ -91,3 +97,9 @@ R1: Aspose.3D para .NET está diseñado principalmente para programación en C#.
 ### P5: ¿Dónde puedo buscar soporte o hacer preguntas relacionadas con Aspose.3D para .NET?
 
  A5: El foro de la comunidad Aspose[aquí](https://forum.aspose.com/c/3d/18) es el lugar ideal para apoyo y debates.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

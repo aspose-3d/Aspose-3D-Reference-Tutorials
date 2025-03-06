@@ -3,10 +3,16 @@ title: การสร้างโมเดล 3 มิติด้วย Linear
 linktitle: การสร้างโมเดล 3 มิติด้วย Linear Extrusion ใน Java
 second_title: Aspose.3D จาวา API
 description: สำรวจโลกแห่งการสร้างแบบจำลอง 3 มิติด้วย Aspose.3D สำหรับ Java ต้นแบบการอัดขึ้นรูปเชิงเส้นอย่างง่ายดาย ศูนย์ควบคุม กำหนดทิศทาง ระบุสไลซ์ ใช้การบิด และอื่นๆ อีกมากมาย!
-type: docs
 weight: 23
 url: /th/java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างโมเดล 3 มิติด้วย Linear Extrusion ใน Java
+
 ## การแนะนำ
 
 
@@ -62,3 +68,9 @@ url: /th/java/linear-extrusion/
 เรียนรู้วิธีเพิ่มความแปลกใหม่ให้กับโมเดล 3 มิติของคุณโดยใช้ Aspose.3D สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อเพิ่มเอฟเฟกต์การอัดขึ้นรูปเชิงเส้น
 ### [การใช้ Twist Offset ใน Linear Extrusion ด้วย Aspose.3D สำหรับ Java](./using-twist-offset/)
 เสริมทักษะการสร้างแบบจำลอง 3 มิติของคุณด้วย Aspose.3D สำหรับ Java เรียนรู้การใช้ Twist Offset ใน Linear Extrusion ในบทช่วยสอนที่ครอบคลุมนี้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

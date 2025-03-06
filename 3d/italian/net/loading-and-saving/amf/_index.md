@@ -3,10 +3,16 @@ title: Supporto avanzato del formato file di produzione
 linktitle: Il sostegno dell'AMF
 second_title: API Aspose.3D .NET
 description: Aspose.3D si integra perfettamente con il file di produzione avanzato per una compressione e decompressione efficiente dei modelli 3D, ottimizzando le dimensioni dei file e migliorando le prestazioni.
-type: docs
 weight: 27
 url: /it/net/loading-and-saving/amf
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Supporto avanzato del formato file di produzione
+
 ## introduzione
 
 In questa serie di tutorial, esploreremo le complessità del supporto del formato di file di produzione avanzato in Aspose.3D, sbloccando un mondo di possibilità creative.
@@ -24,3 +30,9 @@ Aspose.3D facilita l'esportazione di scene 3D nel formato file di produzione add
 Intraprendi un viaggio di possibilità illimitate con Aspose.3D per .NET. Che tu sia un principiante o uno sviluppatore esperto, i nostri tutorial si rivolgono a tutti i livelli di abilità. Trasforma la tua esperienza di modellazione 3D: esplora, crea e innova con Aspose.3D per .NET.
 
 Pronto a migliorare le tue capacità di modellazione 3D? Inizia a esplorare i tutorial. Scatena tutto il potenziale di Aspose.3D per .NET e scolpisci i tuoi capolavori 3D senza sforzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

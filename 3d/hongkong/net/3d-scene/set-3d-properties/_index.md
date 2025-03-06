@@ -3,10 +3,16 @@ title: 在 3D 場景中設定三維屬性
 linktitle: 在 3D 場景中設定三維屬性
 second_title: Aspose.3D .NET API
 description: 探索設定 3D 屬性的 Aspose.3D for .NET 教學。透過程式碼範例逐步學習。提升您的 3D 場景操作技能。
-type: docs
 weight: 14
 url: /zh-hant/net/3d-scene/set-3d-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 3D 場景中設定三維屬性
+
 ## 介紹
 
 創建迷人的三維場景通常需要能夠操縱各種屬性，為您的項目添加深度和真實感。 Aspose.3D for .NET 提供了強大的工具集來實現此目的，讓您可以輕鬆地在 3D 場景中設定和修改三維屬性。在本教程中，我們將逐步探索該過程，增強您對如何有效利用 Aspose.3D for .NET 的理解。
@@ -148,3 +154,10 @@ A1：是的，Aspose.3D 支援各種 3D 檔案格式，包括 FBX、STL 等等�
 ### Q5：我可以在購買前免費試用 Aspose.3D for .NET 嗎？
 
  A5：當然！下載[免費試用版](https://releases.aspose.com/)來探索它的特點。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

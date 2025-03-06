@@ -3,10 +3,16 @@ title: ضغط المشاهد ثلاثية الأبعاد للتخزين والم
 linktitle: ضغط المشاهد ثلاثية الأبعاد للتخزين والمشاركة بكفاءة باستخدام Aspose.3D لـ Java
 second_title: Aspose.3D جافا API
 description: تعرف على كيفية ضغط المشاهد ثلاثية الأبعاد بكفاءة باستخدام Aspose.3D لـ Java. اتبع دليلنا خطوة بخطوة للتخزين والمشاركة الأمثل.
-type: docs
 weight: 11
 url: /ar/java/3d-scenes-and-models/compress-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضغط المشاهد ثلاثية الأبعاد للتخزين والمشاركة بكفاءة باستخدام Aspose.3D لـ Java
+
 ## مقدمة
 
 Aspose.3D for Java هي مكتبة متعددة الاستخدامات تمكن المطورين من العمل مع المشاهد والكائنات والرسوم المتحركة ثلاثية الأبعاد في تطبيقات Java. إحدى ميزاته البارزة هي القدرة على ضغط المشاهد ثلاثية الأبعاد، مما يقلل أحجام الملفات دون المساس بالجودة. سيرشدك هذا البرنامج التعليمي عبر خطوات ضغط المشاهد ثلاثية الأبعاد بكفاءة للتخزين والمشاركة.
@@ -103,3 +109,10 @@ scene.save(MyDir + "test.amf", opt);
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D لـ Java؟
 
  ج5: اتبع الخطوات[هنا](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

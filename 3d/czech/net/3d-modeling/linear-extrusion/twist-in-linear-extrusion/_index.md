@@ -3,10 +3,16 @@ title: Twist v lineárním vytlačování
 linktitle: Twist v lineárním vytlačování
 second_title: Aspose.3D .NET API
 description: Prozkoumejte podmanivý svět 3D grafiky s Aspose.3D pro .NET. Naučte se krok za krokem lineární vytlačování kroucením.
-type: docs
 weight: 14
 url: /cs/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Twist v lineárním vytlačování
+
 ## Úvod
 
 V neustále se vyvíjejícím světě vývoje .NET je využití síly 3D grafiky vzrušující snahou. Aspose.3D for .NET se ukazuje jako cenná sada nástrojů, která umožňuje vývojářům bezproblémově vytvářet pohlcující a vizuálně ohromující aplikace. V tomto obsáhlém průvodci se ponoříme do jedné zajímavé funkce – lineárního vytlačování kroucením. Tento tutoriál vás provede procesem krok za krokem a odemkne potenciál Aspose.3D pro .NET.
@@ -118,3 +124,9 @@ A4: Určitě! Aspose.3D nabízí bohatou sadu funkcí. Neváhejte kombinovat lin
 ### Q5: Existuje komunita pro podporu a diskuse Aspose.3D?
 
  A5: Ano, připojte se ke komunitě Aspose.3D na adrese[Fórum Aspose](https://forum.aspose.com/c/3d/18) za podporu a poutavé diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

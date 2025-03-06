@@ -3,10 +3,16 @@ title: 큐브 장면 만들기
 linktitle: 큐브 장면 만들기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 멋진 3D 큐브 장면을 손쉽게 제작하세요. 라이브러리를 다운로드하고 단계별 가이드를 따라 실행해 보세요.
-type: docs
 weight: 12
 url: /ko/net/geometry-and-hierarchy/create-cube-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 큐브 장면 만들기
+
 ## 소개
 
 3D 디자인의 매혹적인 세계로 뛰어들 준비가 되셨나요? 이 튜토리얼에서는 .NET용 Aspose.3D를 사용하여 매혹적인 큐브 장면을 만드는 과정을 안내합니다. Aspose.3D는 개발자가 몰입형 3D 경험을 원활하게 제작할 수 있도록 지원하는 강력하고 다재다능한 라이브러리입니다.
@@ -126,3 +132,9 @@ A2: 물론이죠! 원하는 모양을 얻기 위해 재료, 색상, 질감을 �
 ### Q5: Aspose.3D에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

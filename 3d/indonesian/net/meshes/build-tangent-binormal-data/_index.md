@@ -3,10 +3,16 @@ title: Membangun Data Tangen dan Binormal
 linktitle: Membangun Data Tangen dan Binormal
 second_title: Aspose.3D .NET API
 description: Manfaatkan kekuatan data tangen dan binormal untuk mengoptimalkan model 3D Anda agar rendering lebih lancar, waktu pemuatan lebih cepat, dan peningkatan kinerja.
-type: docs
 weight: 10
 url: /id/net/meshes/build-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membangun Data Tangen dan Binormal
+
 ## Perkenalan
 Pernah merasa frustrasi karena model 3D yang lamban menghambat proyek Anda? Jangan khawatir rekan developer, karena rahasia kelancarannya terletak pada data tangen dan binormal. Pahlawan tanpa tanda jasa ini mengoptimalkan rendering mesh, membuat model Anda bernyanyi seperti diva opera di panggung mana pun. Namun bagaimana kita memanfaatkan kekuatan mereka? Jangan takut, karena panduan komprehensif ini akan membekali Anda dengan toolkit Aspose.3D untuk .NET untuk membuka keajaiban data tangen dan binormal hanya dalam beberapa klik!
 
@@ -85,3 +91,9 @@ Aspose.3D mendukung berbagai format seperti OBJ, STL, dan glTF. Cukup konversika
  Aspose.3D memiliki portal dokumentasi yang komprehensif di[Di Sini](https://docs.aspose.com/3d/net/) Selain itu, forum komunitas Aspose di[Di Sini](https://forum.aspose.com/) selalu penuh dengan pengembang yang membantu.
 ### Bisakah saya menggunakan Aspose.3D untuk proyek komersial? 
  Ya! Aspose.3D menawarkan berbagai pilihan lisensi sesuai dengan kebutuhan Anda. Lihat halaman harga mereka di[Di Sini](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

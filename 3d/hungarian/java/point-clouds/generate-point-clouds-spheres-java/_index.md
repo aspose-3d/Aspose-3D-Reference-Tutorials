@@ -3,10 +3,16 @@ title: Pontfelhők generálása gömbökből Java nyelven
 linktitle: Pontfelhők generálása gömbökből Java nyelven
 second_title: Aspose.3D Java API
 description: Fedezze fel a 3D grafika világát a Java Aspose.3D segítségével. Tanuljon meg pontfelhőket generálni gömbökből ezzel a könnyen követhető oktatóanyaggal.
-type: docs
 weight: 14
 url: /hu/java/point-clouds/generate-point-clouds-spheres-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pontfelhők generálása gömbökből Java nyelven
+
 ## Bevezetés
 
 Üdvözöljük ebben a lépésről lépésre bemutatott útmutatóban, amely a Java szférákból pontfelhők létrehozásáról szól az Aspose.3D használatával. Ha szeretne belemerülni a 3D grafika lenyűgöző világába, és lenyűgöző vizualizációkat szeretne készíteni, akkor jó helyen jár. Ez az oktatóanyag végigvezeti a folyamaton, így még a kezdők is könnyen követhetik.
@@ -90,3 +96,10 @@ Gratulálunk! Sikeresen generált pontfelhőket gömbökből a Java Aspose.3D ha
 ### 5. kérdés: Hol találom a dokumentációt?
 
  V5: Lásd a részleteket[Aspose.3D Java dokumentáció](https://reference.aspose.com/3d/java/) átfogó tájékoztatásért.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

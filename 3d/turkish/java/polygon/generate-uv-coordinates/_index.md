@@ -3,10 +3,16 @@ title: Java 3D Modellerinde Doku Eşleme için UV Koordinatları Oluşturun
 linktitle: Java 3D Modellerinde Doku Eşleme için UV Koordinatları Oluşturun
 second_title: Aspose.3D Java API'si
 description: Aspose.3D'yi kullanarak Java 3D modelleri için UV koordinatları oluşturmayı öğrenin. Bu adım adım kılavuzla projelerinizde doku haritalamayı geliştirin.
-type: docs
 weight: 11
 url: /tr/java/polygon/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 3D Modellerinde Doku Eşleme için UV Koordinatları Oluşturun
+
 ## giriiş
 
 Aspose.3D kullanarak Java 3D modellerinde doku eşleme için UV koordinatları oluşturmaya yönelik adım adım kılavuzumuza hoş geldiniz. Bu eğitimde, 3D modeldeki bir ağ için UV koordinatlarını manuel olarak oluşturma sürecinde size yol göstereceğiz. Bu, doku eşlemede çok önemli bir adımdır ve 3D modellerinizin görsel çekiciliğini geliştirmenize olanak tanır.
@@ -120,3 +126,9 @@ Cevap1: Aspose.3D öncelikle Java için tasarlanmıştır ancak Aspose, .NET gib
 ### S5: Aspose.3D için geçici bir lisans satın alabilir miyim?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

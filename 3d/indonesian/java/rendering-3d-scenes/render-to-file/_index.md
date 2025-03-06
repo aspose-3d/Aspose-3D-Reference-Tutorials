@@ -3,10 +3,16 @@ title: Simpan Adegan 3D yang Dirender ke File Gambar dengan Aspose.3D untuk Java
 linktitle: Simpan Adegan 3D yang Dirender ke File Gambar dengan Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Buka dunia grafis 3D dengan Aspose.3D untuk Java. Belajar menyimpan pemandangan menakjubkan ke gambar dengan mudah.
-type: docs
 weight: 13
 url: /id/java/rendering-3d-scenes/render-to-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Adegan 3D yang Dirender ke File Gambar dengan Aspose.3D untuk Java
+
 ## Perkenalan
 
 Membuat adegan 3D yang menakjubkan adalah sebuah usaha yang menarik, dan dengan Aspose.3D untuk Java, prosesnya menjadi lebih bermanfaat. Tutorial komprehensif ini akan memandu Anda melalui langkah-langkah menyimpan adegan 3D yang dirender ke file gambar menggunakan Aspose.3D untuk Java. Baik Anda seorang pengembang berpengalaman atau pendatang baru di dunia grafis 3D, panduan ini akan memberi Anda pengetahuan penting untuk menghidupkan kreasi Anda.
@@ -91,3 +97,9 @@ Selamat! Anda telah berhasil menyimpan adegan 3D yang dirender ke file gambar me
 ### Q5: Dapatkah saya mencoba Aspose.3D untuk Java sebelum membeli?
 
  A5: Tentu saja! Unduh versi uji coba gratis[Di Sini](https://releases.aspose.com/) untuk merasakan kemampuannya secara langsung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

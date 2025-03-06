@@ -3,10 +3,16 @@ title: Twist Offset σε Γραμμική Εξώθηση
 linktitle: Twist Offset σε Γραμμική Εξώθηση
 second_title: Aspose.3D .NET API
 description: Εξερευνήστε τη μαγεία του Aspose.3D για .NET με τον βήμα προς βήμα οδηγό μας για το Twist Offset στη Γραμμική Εξώθηση. Αναβαθμίστε τα τρισδιάστατα έργα σας χωρίς κόπο.
-type: docs
 weight: 15
 url: /el/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Twist Offset σε Γραμμική Εξώθηση
+
 ## Εισαγωγή
 
 Καλώς ήλθατε στον κόσμο του Aspose.3D for .NET, μιας ευέλικτης βιβλιοθήκης που δίνει τη δυνατότητα στους προγραμματιστές να χειρίζονται εύκολα την επεξεργασία 3D. Σε αυτό το σεμινάριο, θα εμβαθύνουμε σε ένα από τα ενδιαφέροντα χαρακτηριστικά - το "Twist Offset in Linear Extrusion". Εάν είστε έτοιμοι να βελτιώσετε τις δεξιότητές σας στον τρισδιάστατο προγραμματισμό, ας βουτήξουμε αμέσως!
@@ -112,3 +118,9 @@ A1: Το Aspose.3D υποστηρίζει κυρίως γλώσσες .NET, αλ
 ### Ε5: Πού μπορώ να αγοράσω το Aspose.3D για .NET;
 
  A5: Κατευθυνθείτε προς[αυτός ο σύνδεσμος](https://purchase.aspose.com/buy) για να πραγματοποιήσετε μια αγορά και να ξεκλειδώσετε πλήρως τις δυνατότητες του Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

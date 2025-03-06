@@ -3,10 +3,16 @@ title: Java'da İlkelleri Mesh'lere Dönüştürme
 linktitle: Java'da İlkelleri Mesh'lere Dönüştürme
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java ile 3D grafik ustalığına doğru bir yolculuğa çıkın; ilkelleri zahmetsizce büyüleyici ağlara dönüştürün. Kodlama deneyiminizi şimdi yükseltin!
-type: docs
 weight: 12
 url: /tr/java/transforming-3d-meshes/convert-primitives-to-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da İlkelleri Mesh'lere Dönüştürme
+
 ## giriiş
 Java'da 3 boyutlu grafikler dünyasına adım atmak heyecan verici olabilir, özellikle de ilkelleri karmaşık ağlara dönüştürerek sahnelerinizi yükseltmeyi hedeflediğinizde. Bu eğitimde, Aspose.3D for Java'yı kullanma süreci boyunca size rehberlik ederek kusursuz ve zenginleştirici bir deneyim sağlayacağız.
 ## Önkoşullar
@@ -73,3 +79,9 @@ Kesinlikle! Aspose.3D for Java, diğer Java 3D kitaplıklarıyla sorunsuz bir ş
  Aslında geçici lisanslar alınabilir[Burada](https://purchase.aspose.com/temporary-license/).
 ### S5: Aspose.3D for Java'nın ayrıntılı belgelerini nerede bulabilirim?
  Kapsamlı belgeler mevcut[Burada](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

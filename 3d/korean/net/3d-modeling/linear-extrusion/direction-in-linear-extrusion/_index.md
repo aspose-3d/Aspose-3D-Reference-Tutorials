@@ -3,10 +3,16 @@ title: 선형 돌출의 방향
 linktitle: 선형 돌출의 방향
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 모델링의 세계를 열어보세요. 선형 압출 방향을 배우고, 창의성을 높이고, 몰입형 애플리케이션을 손쉽게 제작해 보세요.
-type: docs
 weight: 11
 url: /ko/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 선형 돌출의 방향
+
 ## 소개
 
 역동적인 소프트웨어 개발 세계에서 몰입형 3D 모델을 만드는 것은 필수적인 기술입니다. .NET용 Aspose.3D는 개발자에게 애플리케이션에서 3D 모델링의 잠재력을 활용할 수 있는 강력한 도구 세트를 제공합니다. 이 튜토리얼에서는 선형 압출의 흥미로운 세계를 탐구하고 "선형 압출의 방향" 기능의 미묘한 차이를 살펴보겠습니다.
@@ -110,3 +116,9 @@ scene.Save("Your Output Directory" + "DirectionInLinearExtrusion.obj", FileForma
 ### Q5: .NET용 Aspose.3D에 대한 자세한 문서는 어디에서 찾을 수 있습니까?
 
  A5: 포괄적인 내용을 참조하세요.[Aspose.3D .NET 문서](https://reference.aspose.com/3d/net/) 자세한 정보를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Testreszabott nyíró alsó henger
 linktitle: Testreszabott nyíró alsó henger
 second_title: Aspose.3D .NET API
 description: Ismerje meg, hogyan hozhat létre testreszabott nyírófenékhengereket az Aspose.3D for .NET használatával a részletes, lépésenkénti útmutatónk segítségével. Növelje 3D modellezési készségeit még ma!
-type: docs
 weight: 12
 url: /hu/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Testreszabott nyíró alsó henger
+
 ## Bevezetés
 Üdvözöljük átfogó útmutatónkban a testreszabott hengerek Aspose.3D for .NET használatával történő létrehozásáról. Ha fejleszteni szeretné 3D modellezési készségeit, és egyedi funkciókat szeretne hozzáadni projektjeihez, akkor jó helyen jár. Ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton, világos magyarázatok és kódrészletek segítségével.
 ## Előfeltételek
@@ -83,3 +89,9 @@ Igen, minden hengerhez egyénileg testreszabhatja a nyírófenekét, így egyedi
  Meglátogatni a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) közösségi támogatásra és beszélgetésekre.
 ### Hogyan szerezhetek ideiglenes engedélyt?
  Szerezze meg ideiglenes engedélyét[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

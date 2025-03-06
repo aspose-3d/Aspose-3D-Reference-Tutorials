@@ -3,10 +3,16 @@ title: Membuat Adegan Kubus
 linktitle: Membuat Adegan Kubus
 second_title: Aspose.3D .NET API
 description: Buat adegan kubus 3D yang menakjubkan dengan mudah menggunakan Aspose.3D untuk .NET. Unduh perpustakaannya, ikuti panduan langkah demi langkah kami, dan lepaskan.
-type: docs
 weight: 12
 url: /id/net/geometry-and-hierarchy/create-cube-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Adegan Kubus
+
 ## Perkenalan
 
 Apakah Anda siap terjun ke dunia desain 3D yang menawan? Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan adegan kubus yang memukau menggunakan Aspose.3D untuk .NET. Aspose.3D adalah perpustakaan yang kuat dan serbaguna yang memberdayakan pengembang untuk menciptakan pengalaman 3D yang mendalam dengan mulus.
@@ -126,3 +132,9 @@ A2: Tentu saja! Bereksperimenlah dengan bahan, warna, dan tekstur untuk mendapat
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
 
  A5: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

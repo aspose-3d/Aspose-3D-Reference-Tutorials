@@ -3,10 +3,16 @@ title: Измените радиус 3D-сферы в Java с помощью Asp
 linktitle: Измените радиус 3D-сферы в Java с помощью Aspose.3D
 second_title: Aspose.3D Java API
 description: Изучите 3D-программирование на Java с помощью Aspose.3D, легко изменяя радиус сферы. Загрузите сейчас и получите беспрепятственный опыт разработки 3D-приложений.
-type: docs
 weight: 10
 url: /ru/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Измените радиус 3D-сферы в Java с помощью Aspose.3D
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по изменению радиуса трехмерной сферы с помощью Aspose.3D для Java. Aspose.3D — это мощная библиотека Java, которая позволяет разработчикам работать с 3D-файлами и легко манипулировать ими. В этом уроке мы сосредоточимся на изменении радиуса трехмерной сферы, используя практические примеры и подробные объяснения.
@@ -103,3 +109,9 @@ scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ### В5: Как я могу получить временную лицензию на Aspose.3D?
 
  A5: Вы можете получить временную лицензию, посетив[Временная лицензия](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

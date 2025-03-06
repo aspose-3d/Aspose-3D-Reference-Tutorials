@@ -3,10 +3,16 @@ title: Phát hiện định dạng
 linktitle: Phát hiện định dạng
 second_title: API Aspose.3D .NET
 description: Làm chủ thao tác tệp 3D một cách dễ dàng với Aspose.3D cho .NET. Tải, lưu và phát hiện các định dạng một cách liền mạch.
-type: docs
 weight: 12
 url: /vi/net/loading-and-saving/detect-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Phát hiện định dạng
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới thú vị của thao tác tệp 3D bằng Aspose.3D cho .NET! Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với đồ họa 3D, hướng dẫn này sẽ hướng dẫn bạn qua quá trình tải, lưu và phát hiện định dạng một cách dễ dàng.
@@ -93,3 +99,9 @@ Câu trả lời 1: Có, Aspose.3D hỗ trợ nhiều định dạng tệp 3D, m
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.3D miễn phí trước khi mua không?
 
  A5: Chắc chắn rồi! Tải xuống phiên bản dùng thử miễn phí từ[Bản phát hành Aspose.3D](https://releases.aspose.com/) để trải nghiệm trực tiếp khả năng của nó.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

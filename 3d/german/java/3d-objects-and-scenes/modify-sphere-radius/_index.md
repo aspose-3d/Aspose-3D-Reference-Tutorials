@@ -3,10 +3,16 @@ title: Ändern Sie den 3D-Kugelradius in Java mit Aspose.3D
 linktitle: Ändern Sie den 3D-Kugelradius in Java mit Aspose.3D
 second_title: Aspose.3D Java-API
 description: Entdecken Sie die Java-3D-Programmierung mit Aspose.3D und ändern Sie den Kugelradius mühelos. Laden Sie es jetzt herunter und genießen Sie ein nahtloses 3D-Entwicklungserlebnis.
-type: docs
 weight: 10
 url: /de/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ändern Sie den 3D-Kugelradius in Java mit Aspose.3D
+
 ## Einführung
 
 Willkommen zu unserer Schritt-für-Schritt-Anleitung zum Ändern des Radius einer 3D-Kugel mit Aspose.3D für Java. Aspose.3D ist eine leistungsstarke Java-Bibliothek, die es Entwicklern ermöglicht, mit 3D-Dateien zu arbeiten und diese nahtlos zu bearbeiten. In diesem Tutorial konzentrieren wir uns anhand praktischer Beispiele und ausführlicher Erklärungen auf die Änderung des Radius einer 3D-Kugel.
@@ -103,3 +109,9 @@ Glückwunsch! Sie haben den 3D-Kugelradius erfolgreich mit Aspose.3D für Java g
 ### F5: Wie kann ich eine temporäre Lizenz für Aspose.3D erhalten?
 
  A5: Sie können eine temporäre Lizenz erhalten, indem Sie hier vorbeischauen[Temporäre Lizenz](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

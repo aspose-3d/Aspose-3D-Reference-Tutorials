@@ -3,10 +3,16 @@ title: 在 Java 中使用 3D 幾何
 linktitle: 在 Java 中使用 3D 幾何
 second_title: Aspose.3D Java API
 description: 探索有關使用 3D 幾何的 Aspose.3D for Java 教學。掌握 PBR 材質、四元數旋轉、立方體場景等。提升您的 Java 3D 圖形等級。
-type: docs
 weight: 21
 url: /zh-hant/java/geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用 3D 幾何
+
 ## 介紹
 您準備好使用 Aspose.3D for Java 深入研究 3D 圖形的迷人領域了嗎？我們的教程涵蓋了一系列主題，使您能夠透過強大且令人驚嘆的 3D 元素來增強您的 Java 應用程式。讓我們一步步踏上這段旅程。
 
@@ -89,3 +95,9 @@ url: /zh-hant/java/geometry/
 使用 Aspose.3D 探索 Java 中的 3D 圖形世界。學習使用變換矩陣輕鬆變換節點。
 ### [使用 Aspose.3D 在 Java 中對網格進行三角測量以優化渲染](./triangulate-meshes-for-optimized-rendering/)
 了解如何使用 Aspose.3D 來提高 Java 中的 3D 渲染效率。對網格進行三角剖分以獲得最佳效能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

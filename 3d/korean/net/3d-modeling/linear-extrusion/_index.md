@@ -3,10 +3,16 @@ title: 선형 압출
 linktitle: 선형 압출
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D 튜토리얼을 통해 3D 창의성을 발휘해 보세요. 선형 압출 기술을 익히고, 디자인을 향상시키며, 손쉽게 프로젝트를 향상시키세요.
-type: docs
 weight: 31
 url: /ko/net/3d-modeling/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 선형 압출
+
 ## 소개
 | Explore the dynamic realm of [3D modeling](./center-in-linear-extrusion/) through Aspose.3D for .NET tutorials, focusing on various aspects of linear extrusion. Master the art of [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), and incorporating [twist offsets](./twist-offset-in-linear-extrusion/) in your designs. Each tutorial is a gateway to unlocking new dimensions of creativity in 3D graphics. Dive into the captivating world of Aspose.3D for .NET and unleash your imagination. |
 
@@ -42,3 +48,9 @@ url: /ko/net/3d-modeling/linear-extrusion/
 .NET용 Aspose.3D를 사용하여 매혹적인 3D 그래픽 세계를 탐험해보세요. 트위스트를 사용한 선형 압출을 단계별로 알아보세요.
 ### [선형 돌출의 비틀림 오프셋](./twist-offset-in-linear-extrusion/)
 선형 압출의 비틀기 오프셋에 대한 단계별 가이드를 통해 .NET용 Aspose.3D의 마법을 탐험해보세요. 3D 프로젝트를 손쉽게 향상시키세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

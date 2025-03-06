@@ -3,10 +3,16 @@ title: ज्यामिति और पदानुक्रम
 linktitle: ज्यामिति और पदानुक्रम
 second_title: Aspose.3D .NET API
 description: .NET ट्यूटोरियल के लिए Aspose.3D के साथ 3D ग्राफ़िक्स की दुनिया को अनलॉक करें। पीबीआर सामग्रियों को लागू करने से लेकर ज्यामितीय परिवर्तनों तक, हर पहलू में सहजता से महारत हासिल करें।
-type: docs
 weight: 25
 url: /hi/net/geometry-and-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ज्यामिति और पदानुक्रम
+
 ## परिचय
 
 .NET ट्यूटोरियल के लिए Aspose.3D के साथ 3D ग्राफ़िक्स के क्षेत्र में एक रोमांचक यात्रा शुरू करें। चाहे आप नौसिखिया हों या अनुभवी डेवलपर, ये चरण-दर-चरण मार्गदर्शिकाएँ आपके कौशल को बढ़ाने और निर्बाध 3डी ग्राफ़िक्स हेरफेर के रहस्यों को उजागर करने का वादा करती हैं।
@@ -72,3 +78,9 @@ url: /hi/net/geometry-and-hierarchy/
  3D मेश को आसानी से त्रिकोणित करने पर इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.3D की शक्ति का अन्वेषण करें। अधिक गहन अनुभव के लिए अपने मॉडलिंग कौशल को बढ़ाएं।[और पढ़ें](./triangulate-mesh/)
 
 .NET ट्यूटोरियल के लिए Aspose.3D की इस रोमांचक यात्रा पर निकलें और अपनी 3D ग्राफ़िक्स विशेषज्ञता को उन्नत करें। प्रत्येक ट्यूटोरियल में गहराई से जाएँ, चरणों का पालन करें और अपने कौशल को नई ऊँचाइयों पर चढ़ते हुए देखें। हैप्पी कोडिंग!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

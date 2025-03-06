@@ -3,10 +3,16 @@ title: XPath のようなオブジェクト クエリ
 linktitle: XPath のようなオブジェクト クエリ
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET のパワーを解放してください! XPath のようなクエリを使用して 3D グラフィックスをシームレスに操作します。今すぐダウンロードして、革新的な体験を体験してください。
-type: docs
 weight: 24
 url: /ja/net/geometry-and-hierarchy/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XPath のようなオブジェクト クエリ
+
 ## 導入
 Aspose.3D for .NET の可能性を最大限に引き出す旅に乗り出すと、3D グラフィックス操作の可能性の領域への扉が開きます。経験豊富な開発者であっても、初心者であっても、このガイドでは、Aspose.3D の機能を活用するための微妙なニュアンスについて説明します。
 ## 前提条件
@@ -94,3 +100,9 @@ Aspose.3D は .NET Framework 2.0 以降と互換性があります。
 訪問[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)コミュニティサポートのために。
 ### Aspose.3D は、.NET 用の他の 3D ライブラリに比べてどのような利点がありますか?
 Aspose.3D は、強力なオブジェクト クエリや堅牢なレンダリング機能など、包括的な機能セットを提供します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

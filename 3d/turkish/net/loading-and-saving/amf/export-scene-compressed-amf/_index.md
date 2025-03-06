@@ -3,10 +3,16 @@ title: 3D Sahneyi Sıkıştırılmış AMF Formatına Aktarma
 linktitle: Sahneyi Sıkıştırılmış AMF'ye Aktarma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET kullanarak 3D sahneleri sıkıştırılmış AMF formatına nasıl aktaracağınızı öğrenin. Bu adım adım kılavuzla geliştirme becerilerinizi geliştirin.
-type: docs
 weight: 11
 url: /tr/net/loading-and-saving/amf/export-scene-compressed-amf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D Sahneyi Sıkıştırılmış AMF Formatına Aktarma
+
 ## giriiş
 
 3D modelleme ve görüntülemenin dinamik dünyasında verimlilik ve esneklik çok önemlidir. Aspose.3D for .NET, geliştiricilerin 3D sahneleri sıkıştırılmış AMF (Katmanlı Üretim Dosyası) formatına sorunsuz bir şekilde aktarmalarına olanak tanır ve kaliteden ödün vermeden en uygun dosya boyutunu sağlar. Bu eğitim size süreç boyunca adım adım rehberlik edecek ve hem yeni başlayanların hem de deneyimli geliştiricilerin Aspose.3D for .NET'in özelliklerinden faydalanmasını kolaylaştıracak.
@@ -98,3 +104,9 @@ Cevap4: Aspose.3D, değişen karmaşıklıktaki sahneleri işlemek için tasarla
 ### S5: Ek desteği ve topluluk tartışmalarını nerede bulabilirim?
 
  A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) Destek ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

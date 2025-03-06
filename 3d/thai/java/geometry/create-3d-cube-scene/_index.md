@@ -3,10 +3,16 @@ title: สร้างฉาก 3D Cube ใน Java ด้วย Aspose.3D
 linktitle: สร้างฉาก 3D Cube ใน Java ด้วย Aspose.3D
 second_title: Aspose.3D จาวา API
 description: สำรวจความมหัศจรรย์ของกราฟิกฉากคิวบ์ 3 มิติด้วย Aspose.3D สำหรับ Java สร้างฉากที่น่าทึ่งได้อย่างง่ายดาย
-type: docs
 weight: 12
 url: /th/java/geometry/create-3d-cube-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# สร้างฉาก 3D Cube ใน Java ด้วย Aspose.3D
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกที่น่าหลงใหลของกราฟิก 3 มิติใน Java โดยใช้ Aspose.3D! ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการสร้างฉากคิวบ์ 3 มิติที่น่าทึ่งโดยใช้ Aspose.3D สำหรับ Java Aspose.3D เป็นไลบรารี Java ที่ทรงพลังซึ่งมีฟังก์ชันการทำงานที่ครอบคลุมสำหรับการทำงานกับโมเดลและฉาก 3D
@@ -105,3 +111,9 @@ System.out.println("\nCube Scene created successfully.\nFile saved at " + MyDir)
 ### คำถามที่ 5: จะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.3D ได้อย่างไร
 
  A5: คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

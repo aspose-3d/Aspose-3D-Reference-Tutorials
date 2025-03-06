@@ -3,10 +3,16 @@ title: تطبيق التأثيرات المرئية في إطارات العرض
 linktitle: تطبيق التأثيرات المرئية في إطارات العرض ثلاثية الأبعاد
 second_title: Aspose.3D.NET API
 description: استكشف عالم التصور ثلاثي الأبعاد باستخدام Aspose.3D لـ .NET. تعلم كيفية تطبيق تأثيرات بصرية جذابة على مشاهدك باستخدام البرامج التعليمية خطوة بخطوة. ارفع مستوى مشروعاتك من خلال تأثيرات البكسل والتدرج الرمادي واكتشاف الحواف والتأثيرات الضبابية.
-type: docs
 weight: 10
 url: /ar/net/rendering/apply-visual-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق التأثيرات المرئية في إطارات العرض ثلاثية الأبعاد
+
 ## مقدمة
 
 يعد تحسين المظهر المرئي للمشاهد ثلاثية الأبعاد جانبًا مهمًا لإنشاء تجارب غامرة. يوفر Aspose.3D for .NET مجموعة قوية من الأدوات لتطبيق التأثيرات المرئية على منافذ العرض ثلاثية الأبعاد. في هذا البرنامج التعليمي، سنتعرف على عملية تطبيق تأثيرات متنوعة على مشهد ثلاثي الأبعاد، بما في ذلك البكسل، والتدرج الرمادي، واكتشاف الحواف، والتمويه.
@@ -179,3 +185,9 @@ renderer.Render(rt);
 ### س5: هل يمكنني استخدام Aspose.3D للمشاريع التجارية؟
 
  ج5: نعم، يمكنك استخدام Aspose.3D لأغراض تجارية. الرجوع إلى[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على تفاصيل الترخيص.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

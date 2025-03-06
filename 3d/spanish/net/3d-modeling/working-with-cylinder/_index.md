@@ -3,10 +3,16 @@ title: Cilindro de fondo de corte personalizado
 linktitle: Cilindro de fondo de corte personalizado
 second_title: Aspose.3D API .NET
 description: Aprenda a crear cilindros de fondo cortante personalizados utilizando Aspose.3D para .NET con nuestra guía detallada paso a paso. ¡Mejora tus habilidades de modelado 3D hoy!
-type: docs
 weight: 12
 url: /es/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cilindro de fondo de corte personalizado
+
 ## Introducción
 Bienvenido a nuestra guía completa sobre cómo crear un cilindro personalizado usando Aspose.3D para .NET. Si buscas mejorar tus habilidades de modelado 3D y agregar características únicas a tus proyectos, estás en el lugar correcto. En este tutorial, lo guiaremos a través del proceso paso a paso, utilizando explicaciones claras y fragmentos de código.
 ## Requisitos previos
@@ -83,3 +89,9 @@ Sí, puede personalizar el fondo de corte para cada cilindro individualmente, lo
  Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para apoyo y debates de la comunidad.
 ### ¿Cómo puedo obtener una licencia temporal?
  Obtenga su licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

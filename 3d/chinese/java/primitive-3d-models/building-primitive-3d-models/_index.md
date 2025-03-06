@@ -3,10 +3,16 @@ title: 使用 Aspose.3D for Java 构建原始 3D 模型
 linktitle: 使用 Aspose.3D for Java 构建原始 3D 模型
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D for Java 探索 3D 建模的艺术。学习轻松构建原始 3D 模型并释放您的创造力。
-type: docs
 weight: 10
 url: /zh/java/primitive-3d-models/building-primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D for Java 构建原始 3D 模型
+
 ## 介绍
 
 以编程方式创建 3D 模型可能是一项艰巨的任务，但使用 Aspose.3D for Java，这将成为一个令人愉快且简单的过程。本教程旨在帮助您开始构建原始 3D 模型，重点关注简单性和有效性。
@@ -88,3 +94,9 @@ A2：当然！ Aspose.3D 提供了一套全面的功能，使其适用于简单�
 ### Q5：如何获得Aspose.3D的临时许可证？
 
 A5：您可以获得[临时执照](https://purchase.aspose.com/temporary-license/)通过网站获取 Aspose.3D。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hướng trong đùn tuyến tính
 linktitle: Hướng trong đùn tuyến tính
 second_title: API Aspose.3D .NET
 description: Mở khóa thế giới mô hình 3D với Aspose.3D cho .NET. Tìm hiểu hướng ép đùn tuyến tính, tăng khả năng sáng tạo và tạo ra các ứng dụng sống động một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng trong đùn tuyến tính
+
 ## Giới thiệu
 
 Trong thế giới phát triển phần mềm năng động, việc tạo ra các mô hình 3D sống động là một kỹ năng không thể thiếu. Aspose.3D for .NET cung cấp cho các nhà phát triển một bộ công cụ mạnh mẽ để khai thác tiềm năng của mô hình 3D trong các ứng dụng của họ. Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới hấp dẫn của ép đùn tuyến tính và khám phá các sắc thái của tính năng "Hướng trong ép đùn tuyến tính".
@@ -110,3 +116,9 @@ Trong hướng dẫn này, chúng ta đã tìm hiểu lĩnh vực mô hình 3D h
 ### Câu hỏi 5: Tôi có thể tìm tài liệu chi tiết về Aspose.3D cho .NET ở đâu?
 
  A5: Tham khảo toàn diện[Tài liệu Aspose.3D .NET](https://reference.aspose.com/3d/net/) để biết thông tin chuyên sâu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Guarde mallas 3D en formatos binarios personalizados para mayor flexibili
 linktitle: Guarde mallas 3D en formatos binarios personalizados para mayor flexibilidad en Java
 second_title: API de Java Aspose.3D
 description: Aprenda cómo guardar mallas 3D en formatos binarios personalizados usando Aspose.3D para Java. Mejore la flexibilidad en las aplicaciones Java con este tutorial paso a paso.
-type: docs
 weight: 13
 url: /es/java/3d-scenes-and-models/save-custom-mesh-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guarde mallas 3D en formatos binarios personalizados para mayor flexibilidad en Java
+
 ## Introducción
 
 Bienvenido a este tutorial paso a paso sobre cómo guardar mallas 3D en formatos binarios personalizados para mayor flexibilidad en Java usando Aspose.3D. En esta guía, lo guiaremos a través del proceso de convertir mallas 3D y guardarlas en un formato binario personalizado para mejorar la flexibilidad y la interoperabilidad en sus aplicaciones Java.
@@ -124,3 +130,9 @@ R4: La documentación de Aspose.3D puede incluir modelos de muestra, o puede enc
 ### P5: ¿Puedo personalizar aún más el formato binario para requisitos específicos?
 
 R5: Por supuesto, siéntase libre de adaptar el formato binario para adaptarlo a las necesidades específicas de su aplicación.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

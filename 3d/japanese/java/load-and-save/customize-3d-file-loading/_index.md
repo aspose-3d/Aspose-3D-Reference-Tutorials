@@ -3,10 +3,16 @@ title: Aspose.3D LoadOptions を使用して Java での 3D ファイルの読�
 linktitle: Aspose.3D LoadOptions を使用して Java での 3D ファイルの読み込みをカスタマイズする
 second_title: Aspose.3D Java API
 description: Aspose.3D のカスタマイズ可能な LoadOptions を使用して、Java での 3D ファイルの読み込みを強化します。 3DS、OBJ、STL、U3D、glTF、PLY、X、およびオプションの FBX のカスタマイズを段階的に学習します。
-type: docs
 weight: 12
 url: /ja/java/load-and-save/customize-3d-file-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D LoadOptions を使用して Java での 3D ファイルの読み込みをカスタマイズする
+
 ## 導入
 
 進化し続ける 3D 設計と開発の状況では、3D ファイル形式を効率的に処理することが非常に重要です。 Aspose.3D for Java は、さまざまな 3D ファイル形式の読み込みをカスタマイズするための強力なソリューションを提供します。このチュートリアルでは、Aspose.3D の LoadOptions を使用して Java で 3D ファイルの読み込みをカスタマイズするプロセスを説明します。
@@ -156,3 +162,9 @@ Aspose.3D の LoadOptions を使用して Java での 3D ファイルの読み�
 ### Q5: テストには一時ライセンスが必要ですか?
 
  A5: はい、一時ライセンスを取得します。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

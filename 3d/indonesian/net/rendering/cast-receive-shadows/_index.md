@@ -3,10 +3,16 @@ title: Menguasai Bayangan dalam Rendering 3D dengan Aspose.3D untuk .NET
 linktitle: Mentransmisikan dan Menerima Bayangan
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia rendering 3D dengan Aspose.3D untuk .NET. Keluarkan dan terima bayangan dengan mudah. Unduh uji coba gratis Anda sekarang!
-type: docs
 weight: 10
 url: /id/net/rendering/cast-receive-shadows/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Bayangan dalam Rendering 3D dengan Aspose.3D untuk .NET
+
 ## Perkenalan
 Selamat datang di dunia rendering 3D dengan Aspose.3D untuk .NET! Dalam tutorial ini, kita akan mempelajari dunia menakjubkan dalam menampilkan dan menerima bayangan, sebuah aspek penting dalam menciptakan pemandangan 3D yang realistis dan menakjubkan secara visual. Baik Anda seorang pengembang berpengalaman atau baru memulai perjalanan Anda ke grafik 3D, panduan ini akan membekali Anda dengan pengetahuan dan keterampilan untuk meningkatkan kemampuan rendering Anda menggunakan Aspose.3D.
 ## Prasyarat
@@ -69,3 +75,9 @@ J: Ya, Aspose.3D mendukung berbagai format file 3D, sehingga serbaguna untuk ber
  J: Ya, Anda dapat memperoleh dukungan dan terlibat dengan komunitas di[Forum Aspose.3D](https://forum.aspose.com/c/3d/18).
 ### T: Dapatkah saya mencoba Aspose.3D sebelum membeli?
  J: Tentu saja! Jelajahi perpustakaan dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

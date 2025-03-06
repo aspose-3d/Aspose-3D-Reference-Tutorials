@@ -3,10 +3,16 @@ title: Centre de contrôle en extrusion linéaire avec Aspose.3D pour Java
 linktitle: Centre de contrôle en extrusion linéaire avec Aspose.3D pour Java
 second_title: API Java Aspose.3D
 description: Explorez le monde des graphiques 3D en Java avec Aspose.3D. Contrôlez le centre en extrusion linéaire sans effort.
-type: docs
 weight: 11
 url: /fr/java/linear-extrusion/controlling-center/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Centre de contrôle en extrusion linéaire avec Aspose.3D pour Java
+
 ## Introduction
 
 Dans le monde du graphisme 3D et de la programmation Java, le contrôle du centre en extrusion linéaire joue un rôle crucial pour obtenir les effets souhaités dans vos projets. Aspose.3D pour Java fournit une boîte à outils puissante pour gérer ces tâches de manière transparente. Dans ce didacticiel, nous allons plonger dans le processus de contrôle du centre en extrusion linéaire à l'aide d'Aspose.3D pour Java, en décomposant chaque étape pour garantir une compréhension fluide et complète.
@@ -126,3 +132,9 @@ A4 : Oui, si vous avez besoin d'une licence temporaire à des fins de test, vo
 ### Q5 : Où puis-je trouver la documentation ?
 
  A5 : La documentation d'Aspose.3D pour Java est disponible[ici](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

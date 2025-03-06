@@ -3,10 +3,16 @@ title: Simpan Adegan 3D dalam Berbagai Format dengan Aspose.3D untuk Java
 linktitle: Simpan Adegan 3D dalam Berbagai Format dengan Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Jelajahi dunia manipulasi adegan 3D yang mulus di Java dengan Aspose.3D. Belajar menyimpan adegan dalam berbagai format dengan mudah.
-type: docs
 weight: 15
 url: /id/java/load-and-save/save-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Adegan 3D dalam Berbagai Format dengan Aspose.3D untuk Java
+
 ## Perkenalan
 
 Membuat dan memanipulasi adegan 3D adalah aspek pemrograman yang menarik, dan dengan pustaka Aspose.3D untuk Java yang kuat, tugas ini menjadi lebih menarik dan efisien. Dalam tutorial ini, kami akan memandu Anda melalui proses menyimpan adegan 3D dalam berbagai format menggunakan Aspose.3D untuk Java. Apakah Anda seorang pengembang berpengalaman atau baru memulai, panduan langkah demi langkah ini akan membantu Anda memanfaatkan kemampuan Aspose.3D untuk meningkatkan aplikasi Java Anda.
@@ -103,3 +109,9 @@ A3: Lihat dokumentasi[Di Sini](https://reference.aspose.com/3d/java/).
 ### Q5: Bisakah saya membeli lisensi sementara?
 
  A5: Ya, Anda dapat membeli lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

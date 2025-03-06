@@ -3,10 +3,16 @@ title: Animasyon
 linktitle: Animasyon
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET eğitimleriyle 3D animasyon dünyasının kilidini açın. Özellikleri canlandırmayı ve dinamik sahneler için hedefleri ve kameraları zahmetsizce ayarlamayı öğrenin.
-type: docs
 weight: 30
 url: /tr/net/animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Animasyon
+
 ## giriiş
 
 Aspose.3D for .NET ile büyüleyici 3D animasyon dünyasına hoş geldiniz! Bu kapsamlı kılavuzda, büyüleyici ve dinamik 3D sahneler oluşturmanıza yardımcı olacak iki temel öğreticiyi inceleyeceğiz. Bu heyecan verici yolculuğa birlikte çıkalım!
@@ -37,3 +43,9 @@ Sonuç olarak, Aspose.3D for .NET eğitimleriyle sadece öğrenmiyorsunuz; 3D an
 Aspose.3D for .NET ile 3D özellikleri canlandırmayı öğrenin. Dinamik sahneler oluşturmak için adım adım kılavuz.
 ### [3B Sahnelerde Animasyon için Hedefleri ve Kameraları Ayarlama](./setup-target-camera/)
 Aspose.3D for .NET ile 3D animasyonun büyüsünün kilidini açın. Bu kapsamlı eğitimi kullanarak hedefleri ve kameraları zahmetsizce kurun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

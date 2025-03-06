@@ -3,10 +3,16 @@ title: 使用 Aspose.3D 在 Java 中設定 3D 物件的法線
 linktitle: 使用 Aspose.3D 在 Java 中設定 3D 物件的法線
 second_title: Aspose.3D Java API
 description: 學習使用 Aspose.3D 在 Java 中設定 3D 物件的法線。透過這個綜合教學增強您的圖形效果。
-type: docs
 weight: 17
 url: /zh-hant/java/geometry/set-up-normals-on-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D 在 Java 中設定 3D 物件的法線
+
 ## 介紹
 
 歡迎閱讀我們關於使用 Aspose.3D 在 Java 中設定 3D 物件法線的逐步指南。無論您是經驗豐富的開發人員還是剛開始使用 3D 圖形，理解和操作法線對於在 3D 模型中實現逼真的光照效果至關重要。在本教程中，我們將引導您完成整個過程，並將其分解為易於遵循的步驟。
@@ -91,3 +97,9 @@ A1：是的，Aspose.3D 可以與其他 Java 3D 函式庫整合以獲得全面�
 ### Q5：需要協助或想與社群討論？
 
  A5：訪問[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)以尋求支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

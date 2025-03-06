@@ -3,10 +3,16 @@ title: Guardar mallas 3D en formato binario personalizado
 linktitle: Guardar mallas 3D en formato binario personalizado
 second_title: Aspose.3D API .NET
 description: Explora el mundo del 3D con Aspose.3D para .NET. Aprenda a guardar mallas en formato binario personalizado.
-type: docs
 weight: 13
 url: /es/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar mallas 3D en formato binario personalizado
+
 ## Introducción
 
 Bienvenido al mundo de Aspose.3D para .NET, una poderosa biblioteca que permite a los desarrolladores trabajar con archivos 3D sin esfuerzo. En este tutorial, profundizaremos en el proceso de guardar mallas 3D en un formato binario personalizado usando Aspose.3D para .NET. Esta guía asume que tiene conocimientos básicos de C# y está familiarizado con la biblioteca Aspose.3D.
@@ -142,3 +148,9 @@ R1: Aspose.3D admite principalmente lenguajes .NET, pero puede explorar opciones
 ### P5: ¿Puedo comprar Aspose.3D para .NET?
 
  R5: Sí, puedes comprar Aspose.3D desde[pagina de compra](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

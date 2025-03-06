@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.3D के साथ कुशल भ
 linktitle: जावा के लिए Aspose.3D के साथ कुशल भंडारण और साझाकरण के लिए 3D दृश्यों को संपीड़ित करें
 second_title: Aspose.3D जावा एपीआई
 description: जावा के लिए Aspose.3D के साथ 3D दृश्यों को कुशलतापूर्वक संपीड़ित करना सीखें। इष्टतम भंडारण और साझाकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 11
 url: /hi/java/3d-scenes-and-models/compress-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.3D के साथ कुशल भंडारण और साझाकरण के लिए 3D दृश्यों को संपीड़ित करें
+
 ## परिचय
 
 जावा के लिए Aspose.3D एक बहुमुखी लाइब्रेरी है जो डेवलपर्स को जावा अनुप्रयोगों में 3D दृश्यों, ऑब्जेक्ट और एनिमेशन के साथ काम करने में सक्षम बनाती है। इसकी असाधारण विशेषताओं में से एक 3डी दृश्यों को संपीड़ित करने की क्षमता है, जिससे गुणवत्ता से समझौता किए बिना फ़ाइल का आकार कम हो जाता है। यह ट्यूटोरियल आपको भंडारण और साझाकरण के लिए 3डी दृश्यों को कुशलतापूर्वक संपीड़ित करने के चरणों के बारे में बताएगा।
@@ -103,3 +109,10 @@ A1: हां, जावा के लिए Aspose.3D विभिन्न स
 ### Q5: मैं जावा के लिए Aspose.3D के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
 
  A5: चरणों का पालन करें[यहाँ](https://purchase.aspose.com/temporary-license/) अस्थायी लाइसेंस प्राप्त करने के लिए.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

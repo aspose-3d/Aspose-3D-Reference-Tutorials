@@ -3,10 +3,16 @@ title: Modelování
 linktitle: Modelování
 second_title: Aspose.3D .NET API
 description: Objevte umění 3D modelování s Aspose.3D pro .NET! V tomto komplexním tutoriálu snadno vytvářejte úchvatné primitivní modely. Popusťte uzdu své kreativitě ještě dnes.
-type: docs
 weight: 28
 url: /cs/net/3d-modeling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modelování
+
 
 ## Úvod
 
@@ -67,3 +73,9 @@ Krása 3D modelování spočívá ve svobodě popustit uzdu své kreativitě. As
 ## Výukové programy 3D modelování
 ### [Vytváření primitivních 3D modelů](./primitive-3d-models/)
 Prozkoumejte svět 3D modelování s Aspose.3D pro .NET. Vytvářejte úžasné primitivní modely bez námahy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

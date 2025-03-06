@@ -3,10 +3,16 @@ title: Maîtriser les techniques de rendu de base pour les scènes 3D en Java
 linktitle: Maîtriser les techniques de rendu de base pour les scènes 3D en Java
 second_title: API Java Aspose.3D
 description: Explorez le rendu 3D en Java avec Aspose.3D. Maîtrisez les techniques fondamentales, configurez des scènes et restituez des formes de manière transparente. Élevez vos compétences en programmation Java dans les graphiques 3D.
-type: docs
 weight: 11
 url: /fr/java/rendering-3d-scenes/basic-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser les techniques de rendu de base pour les scènes 3D en Java
+
 ## Introduction
 
 Bienvenue dans le monde passionnant du rendu 3D en Java avec Aspose.3D ! Si vous souhaitez maîtriser les techniques de rendu de base des scènes 3D, vous êtes au bon endroit. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de configuration d'une scène 3D, d'application de matériaux et de rendu de diverses formes. À la fin, vous aurez une solide compréhension des concepts fondamentaux de rendu en Java.
@@ -114,3 +120,9 @@ Dans ce didacticiel, nous avons exploré les étapes essentielles pour créer un
 ### Q5 : Où puis-je acheter Aspose.3D pour Java ?
 
  A5 : Vous pouvez acheter le produit[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

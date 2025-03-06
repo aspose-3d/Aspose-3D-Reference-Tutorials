@@ -3,10 +3,16 @@ title: التصدير إلى تنسيق PLY كـ Point Cloud
 linktitle: التصدير إلى تنسيق PLY كـ Point Cloud
 second_title: Aspose.3D.NET API
 description: استكشف عالم النمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. تعلم كيفية تصدير النماذج إلى تنسيق PLY دون عناء. ارفع مستوى مشاريعك بصور مذهلة.
-type: docs
 weight: 16
 url: /ar/net/loading-and-saving/ply/export-to-ply-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التصدير إلى تنسيق PLY كـ Point Cloud
+
 ## مقدمة
 في العالم الديناميكي للنمذجة والتطوير ثلاثي الأبعاد، يبرز Aspose.3D for .NET كمجموعة أدوات قوية. سيرشدك هذا البرنامج التعليمي خلال عملية تصدير النماذج ثلاثية الأبعاد إلى تنسيق PLY كسحابة نقطية باستخدام Aspose.3D لـ .NET. إذا كنت مستعدًا لتحسين مشاريعك باستخدام صور مذهلة، تابع معنا واطلق العنان للإمكانات الكاملة لهذه المكتبة متعددة الاستخدامات.
 ## المتطلبات الأساسية
@@ -59,3 +65,9 @@ FileFormat.PLY.Encode(sphere, exportPath, saveOptions);
  نعم، استكشف الميزات باستخدام أ[تجربة مجانية](https://releases.aspose.com/) قبل الالتزام.
 ### 5. كيف يمكنني الحصول على ترخيص مؤقت؟
  للحصول على خيارات الترخيص المؤقت، قم بزيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Génération de données normales pour les maillages
 linktitle: Génération de données normales pour les maillages
 second_title: API Aspose.3D .NET
 description: Améliorez les modèles 3D avec Aspose.3D pour .NET ! Apprenez à générer des données normales pour les maillages dans ce guide étape par étape. Le réalisme rencontre la simplicité.
-type: docs
 weight: 20
 url: /fr/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Génération de données normales pour les maillages
+
 ## Introduction
 Bienvenue dans ce guide étape par étape sur la génération de données normales pour les maillages à l'aide d'Aspose.3D pour .NET ! Si vous travaillez avec des modèles 3D et souhaitez améliorer l'attrait visuel en ajoutant des données normales, ce didacticiel est fait pour vous. Aspose.3D est une puissante bibliothèque .NET qui simplifie la programmation graphique 3D. Dans ce guide, nous vous guiderons tout au long du processus de génération de données normales pour les maillages.
 ## Conditions préalables
@@ -66,3 +72,9 @@ Oui, Aspose.3D prend en charge divers formats 3D, notamment FBX, STL, etc. Se r�
  La documentation complète est disponible[ici](https://reference.aspose.com/3d/net/).
 ### Que faire si je dois acheter une licence pour Aspose.3D ?
  Vous pouvez acheter une licence auprès du[page d'achat](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

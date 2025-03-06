@@ -3,10 +3,16 @@ title: Chuyển đổi các nút 3D bằng Quaternions trong Java bằng Aspose.
 linktitle: Chuyển đổi các nút 3D bằng Quaternions trong Java bằng Aspose.3D
 second_title: API Java Aspose.3D
 description: Nâng cao các ứng dụng Java của bạn với Aspose.3D để có các chuyển đổi 3D mạnh mẽ. Tìm hiểu cách chuyển đổi các nút bằng cách sử dụng quaternions trong hướng dẫn từng bước này.
-type: docs
 weight: 20
 url: /vi/java/geometry/transform-3d-nodes-with-quaternions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi các nút 3D bằng Quaternions trong Java bằng Aspose.3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách chuyển đổi các nút 3D bằng các quaternion trong Java bằng Aspose.3D. Nếu bạn đang tìm cách nâng cao ứng dụng Java của mình bằng các phép biến đổi 3D mạnh mẽ thì hướng dẫn này là dành cho bạn. Aspose.3D cho Java cung cấp một bộ tính năng mạnh mẽ để làm việc với đồ họa 3D và trong hướng dẫn này, chúng tôi sẽ tập trung vào việc chuyển đổi các nút 3D bằng cách sử dụng quaternions.
@@ -119,3 +125,9 @@ Câu trả lời 1: Aspose.3D dành cho Java cung cấp bản dùng thử miễn
 ### Câu hỏi 5: Tôi có thể mua Aspose.3D cho Java ở đâu?
 
  A5: Bạn có thể mua nó[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

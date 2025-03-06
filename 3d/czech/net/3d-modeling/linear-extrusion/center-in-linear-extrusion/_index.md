@@ -3,10 +3,16 @@ title: Střed v lineárním vytlačování
 linktitle: Střed v lineárním vytlačování
 second_title: Aspose.3D .NET API
 description: Prozkoumejte svět 3D modelování s Aspose.3D pro .NET. Vycentrujte techniky lineárního vytlačování, vytvářejte úžasné návrhy a popusťte uzdu své kreativitě.
-type: docs
 weight: 10
 url: /cs/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Střed v lineárním vytlačování
+
 ## Úvod
 
 Vítejte v tomto komplexním průvodci o zvládnutí lineárního vytlačování pomocí Aspose.3D pro .NET. Pokud chcete zlepšit své dovednosti v oblasti 3D modelování a vytvořit úžasné výlisky, jste na správném místě. V tomto tutoriálu se ponoříme do techniky lineárního vytlačování, konkrétně se zaměříme na centrování, abychom dostali vaše návrhy na zcela novou úroveň.
@@ -109,3 +115,10 @@ A1: Aspose.3D primárně podporuje .NET jazyky jako C# a VB.NET.
 ### Q5: Kde mohu zakoupit licenci Aspose.3D for .NET?
 
  A5: Kupte si licenci[tady](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

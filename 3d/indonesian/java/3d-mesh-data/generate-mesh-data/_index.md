@@ -3,10 +3,16 @@ title: Hasilkan Data untuk Jerat 3D di Java (Normal, Tangen, Binormal)
 linktitle: Hasilkan Data untuk Jerat 3D di Java (Normal, Tangen, Binormal)
 second_title: Asumsikan.3D Java API
 description: Tingkatkan proyek Java Anda dengan Aspose.3D. Ikuti tutorial kami untuk dengan mudah menghasilkan data normal untuk jerat 3D. Selami grafik 3D dengan mudah.
-type: docs
 weight: 11
 url: /id/java/3d-mesh-data/generate-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hasilkan Data untuk Jerat 3D di Java (Normal, Tangen, Binormal)
+
 ## Perkenalan
 
 Membuat dan memanipulasi data mesh 3D di Java bisa menjadi tugas yang menantang namun mengasyikkan, terutama ketika berhadapan dengan file yang tidak memiliki data normal yang penting. Aspose.3D untuk Java hadir untuk menyelamatkan, menyediakan toolkit yang kuat untuk menangani grafik dan jerat 3D secara efisien. Dalam tutorial ini, kami akan memandu Anda melalui proses menghasilkan data normal untuk mesh 3D menggunakan Aspose.3D di Java.
@@ -95,3 +101,9 @@ A1: Ya, Aspose.3D mendukung berbagai format file 3D, memastikan fleksibilitas da
 ### Q5: Butuh bantuan atau ingin terhubung dengan komunitas?
 
  A5: Kunjungi forum Aspose.3D[Di Sini](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

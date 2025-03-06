@@ -3,10 +3,16 @@ title: 使用自定义内存布局将球体网格转换为三角形网格
 linktitle: 使用自定义内存布局将球体网格转换为三角形网格
 second_title: Aspose.3D .NET API
 description: 探索 Aspose.3D for .NET，并通过自定义内存布局轻松将球体网格转换为三角形网格。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 15
 url: /zh/net/meshes/convert-sphere-mesh-triangle-memory-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用自定义内存布局将球体网格转换为三角形网格
+
 ## 介绍
 您是否希望利用 Aspose.3D for .NET 的强大功能将球体网格转换为具有自定义内存布局的三角形网格？本分步指南将引导您完成整个过程，即使是初学者也可以轻松遵循。学完本教程后，您将充分了解如何使用 Aspose.3D for .NET 实现此目的。
 ## 先决条件
@@ -74,3 +80,9 @@ using (MemoryStream ms = new MemoryStream())
 答：探索 Aspose.3D for .NET 文档并[GitHub 存储库](https://github.com/aspose-3d/Aspose.3D-for-.NET)对于示例项目。
 ### 问：是否有针对 .NET 支持的 Aspose.3D 的活跃社区？
 答：是的，加入[Aspose.3D for .NET 论坛](https://forum.aspose.com/c/3d/18)获得社区的帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Deslocamento de torção em extrusão linear
 linktitle: Deslocamento de torção em extrusão linear
 second_title: API Aspose.3D .NET
 description: Explore a magia do Aspose.3D para .NET com nosso guia passo a passo sobre Twist Offset em Extrusão Linear. Eleve seus projetos 3D sem esforço.
-type: docs
 weight: 15
 url: /pt/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Deslocamento de torção em extrusão linear
+
 ## Introdução
 
 Bem-vindo ao mundo do Aspose.3D for .NET, uma biblioteca versátil que permite aos desenvolvedores lidar com a manipulação 3D com facilidade. Neste tutorial, nos aprofundaremos em um dos recursos intrigantes - o "Deslocamento de torção na extrusão linear". Se você está pronto para aprimorar suas habilidades de programação 3D, vamos começar!
@@ -112,3 +118,9 @@ A1: Aspose.3D oferece suporte principalmente a linguagens .NET, mas Aspose forne
 ### Q5: Onde posso comprar o Aspose.3D para .NET?
 
  A5: Vá para[esse link](https://purchase.aspose.com/buy) para fazer uma compra e desbloquear todo o potencial do Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

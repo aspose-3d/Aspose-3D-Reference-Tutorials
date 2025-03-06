@@ -3,10 +3,16 @@ title: النتوء الخطي
 linktitle: النتوء الخطي
 second_title: Aspose.3D.NET API
 description: أطلق العنان للإبداع ثلاثي الأبعاد باستخدام Aspose.3D لبرامج .NET التعليمية. أتقن تقنيات البثق الخطي، وعزز التصميمات، وارتقي بمشاريعك دون عناء.
-type: docs
 weight: 31
 url: /ar/net/3d-modeling/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# النتوء الخطي
+
 ## مقدمة
 | Explore the dynamic realm of [3D modeling](./center-in-linear-extrusion/) through Aspose.3D for .NET tutorials, focusing on various aspects of linear extrusion. Master the art of [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), and incorporating [twist offsets](./twist-offset-in-linear-extrusion/) in your designs. Each tutorial is a gateway to unlocking new dimensions of creativity in 3D graphics. Dive into the captivating world of Aspose.3D for .NET and unleash your imagination. |
 
@@ -42,3 +48,9 @@ url: /ar/net/3d-modeling/linear-extrusion/
 استكشف العالم الساحر للرسومات ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. تعلم خطوة بخطوة النتوء الخطي مع الالتواء.
 ### [تويست أوفست في النتوء الخطي](./twist-offset-in-linear-extrusion/)
 اكتشف سحر Aspose.3D لـ .NET من خلال دليلنا خطوة بخطوة حول Twist Offset في Linear Extrusion. ارفع مستوى مشروعاتك ثلاثية الأبعاد دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

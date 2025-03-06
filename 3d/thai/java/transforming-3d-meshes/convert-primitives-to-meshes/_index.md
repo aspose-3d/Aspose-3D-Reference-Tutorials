@@ -3,10 +3,16 @@ title: แปลง Primitives เป็น Meshes ใน Java
 linktitle: แปลง Primitives เป็น Meshes ใน Java
 second_title: Aspose.3D จาวา API
 description: เริ่มต้นการเดินทางสู่ความเชี่ยวชาญด้านกราฟิก 3D ด้วย Aspose.3D สำหรับ Java - แปลงดั้งเดิมให้เป็น mesh ที่ชวนหลงใหลได้อย่างง่ายดาย ยกระดับประสบการณ์การเขียนโค้ดของคุณตอนนี้!
-type: docs
 weight: 12
 url: /th/java/transforming-3d-meshes/convert-primitives-to-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แปลง Primitives เป็น Meshes ใน Java
+
 ## การแนะนำ
 การผจญภัยเข้าสู่อาณาจักรของกราฟิก 3D ใน Java อาจทำให้ดีอกดีใจ โดยเฉพาะอย่างยิ่งเมื่อคุณตั้งเป้าที่จะยกระดับฉากของคุณด้วยการแปลงภาพดั้งเดิมให้เป็นเมชที่ซับซ้อน ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการโดยใช้ Aspose.3D สำหรับ Java เพื่อให้มั่นใจว่าจะได้รับประสบการณ์ที่ราบรื่นและสมบูรณ์
 ## ข้อกำหนดเบื้องต้น
@@ -73,3 +79,9 @@ System.out.println("\n Converted the primitive Box to a mesh successfully.\nFile
  แท้จริงแล้วสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### คำถามที่ 5: ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose.3D สำหรับ Java ได้ที่ไหน
  มีเอกสารประกอบครบถ้วน[ที่นี่](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

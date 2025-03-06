@@ -3,10 +3,16 @@ title: Le rendu
 linktitle: Le rendu
 second_title: API Aspose.3D .NET
 description: Élevez vos compétences en rendu 3D avec Aspose.3D pour .NET ! Projetez des ombres, créez des visualisations captivantes, appliquez des effets d'objectif fisheye, et bien plus encore.
-type: docs
 weight: 30
 url: /fr/net/rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Le rendu
+
 ## Introduction
 
 Êtes-vous prêt à vous lancer dans un voyage passionnant dans le domaine du rendu 3D ? Cherchez pas plus loin! Aspose.3D pour .NET ouvre la porte à un monde de possibilités, vous permettant de libérer votre créativité et d'améliorer vos compétences. Dans cette liste complète de didacticiels, nous vous guiderons à travers certains des aspects les plus intrigants du rendu à l'aide d'Aspose.3D pour .NET.
@@ -55,3 +61,9 @@ Améliorez vos scènes 3D avec Aspose.3D pour .NET ! Apprenez à appliquer un e
 Apprenez à créer de superbes vues panoramiques 3D à l'aide d'Aspose.3D pour .NET. Suivez notre guide étape par étape pour un rendu de scène immersif.
 ### [Rendu de la scène dans Cubemap avec six faces](./render-scene-cubemap/)
 Créez de superbes cubesmaps avec Aspose.3D pour .NET. Suivez notre guide étape par étape pour restituer des scènes 3D en captivantes cubesmaps à six faces.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

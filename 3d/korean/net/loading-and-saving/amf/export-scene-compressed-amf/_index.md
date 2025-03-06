@@ -3,10 +3,16 @@ title: 3D 장면을 압축된 AMF 형식으로 내보내기
 linktitle: 압축된 AMF로 장면 내보내기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 장면을 압축된 AMF 형식으로 내보내는 방법을 알아보세요. 이 단계별 가이드를 통해 개발 기술을 향상하세요.
-type: docs
 weight: 11
 url: /ko/net/loading-and-saving/amf/export-scene-compressed-amf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D 장면을 압축된 AMF 형식으로 내보내기
+
 ## 소개
 
 3D 모델링 및 렌더링의 역동적인 세계에서는 효율성과 유연성이 가장 중요합니다. .NET용 Aspose.3D를 사용하면 개발자는 3D 장면을 압축된 AMF(적층 가공 파일) 형식으로 원활하게 내보내어 품질 저하 없이 최적의 파일 크기를 보장할 수 있습니다. 이 튜토리얼은 프로세스를 단계별로 안내하므로 초보자와 숙련된 개발자 모두 .NET용 Aspose.3D의 기능을 쉽게 활용할 수 있습니다.
@@ -98,3 +104,9 @@ A4: Aspose.3D는 다양한 복잡성의 장면을 처리하도록 설계되었�
 ### Q5: 추가 지원 및 커뮤니티 토론은 어디에서 찾을 수 있습니까?
 
  A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지원과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

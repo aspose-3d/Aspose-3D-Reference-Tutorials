@@ -3,10 +3,16 @@ title: Render Adegan 3D ke Gambar Buffer untuk Diproses Lebih Lanjut di Java
 linktitle: Render Adegan 3D ke Gambar Buffer untuk Diproses Lebih Lanjut di Java
 second_title: Asumsikan.3D Java API
 description: Jelajahi kekuatan Aspose.3D untuk Java dalam merender adegan 3D ke gambar yang di-buffer. Panduan langkah demi langkah dengan prasyarat, paket impor, dan FAQ.
-type: docs
 weight: 12
 url: /id/java/rendering-3d-scenes/render-to-buffered-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Render Adegan 3D ke Gambar Buffer untuk Diproses Lebih Lanjut di Java
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah tentang merender adegan 3D ke gambar yang di-buffer menggunakan Aspose.3D untuk Java. Aspose.3D adalah perpustakaan Java yang kuat yang memungkinkan pengembang untuk bekerja dengan file dan adegan 3D, menyediakan fungsionalitas serbaguna untuk rendering dan pemrosesan. Dalam tutorial ini, kita akan fokus pada rendering adegan 3D ke gambar yang di-buffer, membuka kemungkinan untuk pemrosesan lebih lanjut di Java.
@@ -106,3 +112,9 @@ Selamat! Anda telah berhasil mempelajari cara menggunakan Aspose.3D untuk Java u
 ### Q5: Apakah ada opsi rendering tambahan yang tersedia?
 
  A5: Ya, jelajahi dokumentasi Aspose.3D[Di Sini](https://reference.aspose.com/3d/java/) untuk informasi komprehensif tentang opsi rendering.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

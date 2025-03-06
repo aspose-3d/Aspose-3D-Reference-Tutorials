@@ -3,10 +3,16 @@ title: Κατεύθυνση στη Γραμμική Εξώθηση
 linktitle: Κατεύθυνση στη Γραμμική Εξώθηση
 second_title: Aspose.3D .NET API
 description: Ξεκλειδώστε τον κόσμο της τρισδιάστατης μοντελοποίησης με το Aspose.3D για .NET. Μάθετε τη γραμμική εξώθηση κατεύθυνσης, ενισχύστε τη δημιουργικότητα και δημιουργήστε εμβυθιστικές εφαρμογές χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κατεύθυνση στη Γραμμική Εξώθηση
+
 ## Εισαγωγή
 
 Στον δυναμικό κόσμο της ανάπτυξης λογισμικού, η δημιουργία καθηλωτικών τρισδιάστατων μοντέλων είναι απαραίτητη δεξιότητα. Το Aspose.3D for .NET παρέχει στους προγραμματιστές ένα ισχυρό σύνολο εργαλείων για να αξιοποιήσουν τις δυνατότητες της τρισδιάστατης μοντελοποίησης στις εφαρμογές τους. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στον συναρπαστικό κόσμο της γραμμικής εξώθησης και θα εξερευνήσουμε τις αποχρώσεις της δυνατότητας "Direction in Linear Extrusion".
@@ -110,3 +116,9 @@ scene.Save("Your Output Directory" + "DirectionInLinearExtrusion.obj", FileForma
 ### Ε5: Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.3D για .NET;
 
  A5: Ανατρέξτε στην περιεκτική[Aspose.3D .NET Documentation](https://reference.aspose.com/3d/net/) για εις βάθος πληροφορίες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

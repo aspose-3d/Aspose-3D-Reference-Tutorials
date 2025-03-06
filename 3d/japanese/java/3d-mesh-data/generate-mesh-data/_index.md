@@ -3,10 +3,16 @@ title: Java で 3D メッシュのデータを生成する (法線、接線、�
 linktitle: Java で 3D メッシュのデータを生成する (法線、接線、従法線)
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して Java プロジェクトを強化します。チュートリアルに従って、3D メッシュの法線データを簡単に生成します。 3D グラフィックスを簡単に体験できます。
-type: docs
 weight: 11
 url: /ja/java/3d-mesh-data/generate-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で 3D メッシュのデータを生成する (法線、接線、従法線)
+
 ## 導入
 
 Java で 3D メッシュ データを作成および操作することは、特に重要な法線データが欠落しているファイルを扱う場合には、やりがいがありますが、刺激的な作業になる可能性があります。 Aspose.3D for Java が役に立ち、3D グラフィックスとメッシュを効率的に処理するための強力なツールキットを提供します。このチュートリアルでは、Java で Aspose.3D を使用して 3D メッシュの法線データを生成するプロセスを説明します。
@@ -95,3 +101,9 @@ A1: はい、Aspose.3D はさまざまな 3D ファイル形式をサポート�
 ### Q5: サポートが必要ですか、それともコミュニティとつながりたいですか?
 
  A5: Aspose.3D フォーラムにアクセスしてください。[ここ](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

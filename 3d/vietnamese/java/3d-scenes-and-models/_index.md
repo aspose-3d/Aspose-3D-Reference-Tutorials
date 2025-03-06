@@ -3,10 +3,16 @@ title: Làm việc với Cảnh và Mô hình 3D trong Java
 linktitle: Làm việc với Cảnh và Mô hình 3D trong Java
 second_title: API Java Aspose.3D
 description: Khám phá sức mạnh của Aspose.3D cho Java thông qua các hướng dẫn của chúng tôi. Nâng cao độ chính xác, hiệu quả lưu trữ và thao tác với cảnh 3D trong ứng dụng Java của bạn.
-type: docs
 weight: 29
 url: /vi/java/3d-scenes-and-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm việc với Cảnh và Mô hình 3D trong Java
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng ứng dụng Java của mình lên tầm cao mới về đồ họa và mô hình hóa 3D chưa? Chào mừng bạn đến với hướng dẫn toàn diện về Aspose.3D dành cho Java của chúng tôi! Giải phóng tiềm năng của việc định vị, nén, truy xuất thông tin, lưu lưới và thao tác thuộc tính liền mạch với hướng dẫn từng bước.
@@ -43,3 +49,9 @@ Khám phá thế giới thao tác cảnh 3D trong Java với Aspose.3D. Hướng
 Tìm hiểu cách lưu lưới 3D ở định dạng nhị phân tùy chỉnh bằng Aspose.3D cho Java. Nâng cao tính linh hoạt trong các ứng dụng Java với hướng dẫn từng bước này.
 ### [Làm việc với Thuộc tính 3D và Dữ liệu tùy chỉnh trong Cảnh Java bằng Aspose.3D](./managing-3d-properties-scenes/)
 Nâng cao các ứng dụng Java của bạn với Aspose.3D để thao tác thuộc tính 3D liền mạch. Thực hiện theo hướng dẫn của chúng tôi để được hướng dẫn từng bước.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

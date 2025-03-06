@@ -3,10 +3,16 @@ title: Java でメッシュから点群を作成する
 linktitle: Java でメッシュから点群を作成する
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して、Java での 3D モデリングの世界を探索してください。メッシュから点群を簡単に作成する方法を学びましょう。
-type: docs
 weight: 12
 url: /ja/java/point-clouds/create-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java でメッシュから点群を作成する
+
 ## 導入
 
 Aspose.3D を使用して Java でメッシュから点群を作成するためのこの包括的なチュートリアルへようこそ。 Aspose.3D は、3D モデリングと操作のための広範な機能を提供する強力な Java ライブラリです。このチュートリアルでは、メッシュから点群を生成するプロセスをガイドし、シームレスなエクスペリエンスを実現する明確で詳細な手順を提供します。
@@ -83,3 +89,9 @@ FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
 ### Q5: ドキュメントはどこで入手できますか?
 
  A5: を参照してください。[ドキュメンテーション](https://reference.aspose.com/3d/java/)詳細については。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

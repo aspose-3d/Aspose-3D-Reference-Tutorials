@@ -3,10 +3,16 @@ title: Phơi bày sự biến đổi hình học
 linktitle: Phơi bày sự biến đổi hình học
 second_title: API Aspose.3D .NET
 description: Khám phá khả năng vô hạn của đồ họa 3D trong .NET với Aspose.3D. Khám phá các phép biến đổi hình học một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/geometry-and-hierarchy/expose-geometric-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Phơi bày sự biến đổi hình học
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới thú vị của Aspose.3D dành cho .NET! Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc hiển thị các phép biến đổi hình học trong cảnh 3D bằng Aspose.3D. Nếu bạn là nhà phát triển .NET mong muốn nâng cao khả năng đồ họa 3D của mình thì bạn đã đến đúng nơi.
@@ -98,3 +104,9 @@ Câu trả lời 1: Aspose.3D tương thích với nhiều khung .NET, đảm b�
 ### Câu hỏi 5: Làm cách nào để mua Aspose.3D cho .NET?
 
  Câu trả lời 5: Để mua Aspose.3D cho .NET, hãy truy cập[trang mua hàng](https://purchase.aspose.com/buy) trên trang web Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

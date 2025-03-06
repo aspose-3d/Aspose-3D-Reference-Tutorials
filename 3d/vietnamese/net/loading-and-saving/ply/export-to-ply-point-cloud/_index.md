@@ -3,10 +3,16 @@ title: Xuất sang định dạng PLY dưới dạng Point Cloud
 linktitle: Xuất sang định dạng PLY dưới dạng Point Cloud
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới mô hình 3D với Aspose.3D cho .NET. Tìm hiểu cách xuất mô hình sang định dạng PLY một cách dễ dàng. Nâng tầm dự án của bạn bằng hình ảnh tuyệt đẹp.
-type: docs
 weight: 16
 url: /vi/net/loading-and-saving/ply/export-to-ply-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất sang định dạng PLY dưới dạng Point Cloud
+
 ## Giới thiệu
 Trong thế giới năng động của mô hình hóa và phát triển 3D, Aspose.3D cho .NET nổi bật như một bộ công cụ mạnh mẽ. Hướng dẫn này sẽ hướng dẫn bạn quy trình xuất mô hình 3D sang định dạng PLY dưới dạng đám mây điểm bằng Aspose.3D cho .NET. Nếu bạn đã sẵn sàng nâng cao dự án của mình bằng hình ảnh tuyệt đẹp, hãy làm theo và khám phá toàn bộ tiềm năng của thư viện đa năng này.
 ## Điều kiện tiên quyết
@@ -59,3 +65,9 @@ Aspose.3D hỗ trợ nhiều khung .NET khác nhau, đảm bảo khả năng tư
  Có, hãy khám phá các tính năng bằng[dùng thử miễn phí](https://releases.aspose.com/) trước khi đưa ra cam kết.
 ### 5. Làm cách nào để có được giấy phép tạm thời?
  Để biết các tùy chọn cấp phép tạm thời, hãy truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

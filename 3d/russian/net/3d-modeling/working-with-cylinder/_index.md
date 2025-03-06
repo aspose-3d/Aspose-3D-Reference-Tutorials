@@ -3,10 +3,16 @@ title: Индивидуальный нижний цилиндр сдвига
 linktitle: Индивидуальный нижний цилиндр сдвига
 second_title: Aspose.3D .NET API
 description: Научитесь создавать индивидуальные цилиндры со сдвиговым дном с помощью Aspose.3D для .NET с помощью нашего подробного пошагового руководства. Совершенствуйте свои навыки 3D-моделирования уже сегодня!
-type: docs
 weight: 12
 url: /ru/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Индивидуальный нижний цилиндр сдвига
+
 ## Введение
 Добро пожаловать в наше подробное руководство по созданию индивидуального цилиндра с помощью Aspose.3D для .NET. Если вы хотите улучшить свои навыки 3D-моделирования и добавить уникальные функции в свои проекты, вы попали по адресу. В этом уроке мы шаг за шагом проведем вас через этот процесс, используя четкие объяснения и фрагменты кода.
 ## Предварительные условия
@@ -83,3 +89,9 @@ scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
  Посетить[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) за поддержку сообщества и обсуждения.
 ### Как получить временную лицензию?
  Получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

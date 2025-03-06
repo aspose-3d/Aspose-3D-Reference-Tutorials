@@ -3,10 +3,16 @@ title: Exporte cenas 3D como nuvens de pontos com Aspose.3D para Java
 linktitle: Exporte cenas 3D como nuvens de pontos com Aspose.3D para Java
 second_title: API Java Aspose.3D
 description: Aprenda como exportar cenas 3D como nuvens de pontos em Java com Aspose.3D. Aprimore seus aplicativos com gráficos e visualização 3D poderosos.
-type: docs
 weight: 15
 url: /pt/java/point-clouds/export-3d-scenes-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporte cenas 3D como nuvens de pontos com Aspose.3D para Java
+
 ## Introdução
 
 Aspose.3D for Java facilita a exportação de cenas 3D em diversos formatos, incluindo a geração de nuvens de pontos. As nuvens de pontos são cruciais em vários setores, desde jogos até simulação, oferecendo uma representação de um espaço físico através de uma coleção de pontos em um sistema de coordenadas 3D.
@@ -94,3 +100,9 @@ Parabéns! Você exportou com sucesso uma cena 3D como uma nuvem de pontos usand
 ### Q5: Quer comprar Aspose.3D para Java?
 
  A5: Explore as opções de compra[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

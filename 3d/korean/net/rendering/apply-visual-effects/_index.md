@@ -3,10 +3,16 @@ title: 3D 뷰포트에 시각 효과 적용
 linktitle: 3D 뷰포트에 시각 효과 적용
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 시각화의 세계를 탐험해보세요. 단계별 튜토리얼을 통해 장면에 매혹적인 시각 효과를 적용하는 방법을 알아보세요. 픽셀화, 회색조, 가장자리 감지 및 흐림 효과로 프로젝트를 향상시키세요.
-type: docs
 weight: 10
 url: /ko/net/rendering/apply-visual-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D 뷰포트에 시각 효과 적용
+
 ## 소개
 
 3D 장면의 시각적 매력을 향상시키는 것은 몰입형 경험을 만드는 데 있어 중요한 측면입니다. .NET용 Aspose.3D는 3D 뷰포트에 시각 효과를 적용하는 강력한 도구 세트를 제공합니다. 이 튜토리얼에서는 픽셀화, 회색조, 가장자리 감지 및 흐림을 포함하여 3D 장면에 다양한 효과를 적용하는 과정을 살펴보겠습니다.
@@ -179,3 +185,9 @@ A4: Aspose.3D는 다양한 내장 후처리 효과를 제공하며, 라이브러
 ### Q5: Aspose.3D를 상업용 프로젝트에 사용할 수 있나요?
 
  A5: 예, Aspose.3D를 상업적 목적으로 사용할 수 있습니다. 다음을 참조하세요.[구매 페이지](https://purchase.aspose.com/buy) 라이선스 세부정보를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

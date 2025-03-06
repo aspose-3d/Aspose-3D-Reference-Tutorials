@@ -1,12 +1,17 @@
 ---
 title: Tutorial Komprehensif dan Contoh Aspose.3D untuk .NET
 linktitle: Aspose.3D untuk Tutorial .NET
-type: docs
 weight: 10
 url: /id/net/
 description: Buka dunia pemodelan dan animasi 3D dengan tutorial Aspose.3D untuk .NET. Tingkatkan proyek Anda dengan mudah – mulai dari rendering hingga ekstrusi linier.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Komprehensif dan Contoh Aspose.3D untuk .NET
+
 ## Perkenalan
 
 Apakah Anda siap untuk memulai perjalanan ke dunia pemodelan dan animasi 3D yang menarik? Tidak perlu mencari lagi – Aspose.3D untuk .NET menghadirkan koleksi tutorial dan contoh komprehensif, yang dirancang untuk melepaskan kreativitas Anda dan meningkatkan proyek Anda ke tingkat yang lebih tinggi.
@@ -60,3 +65,9 @@ Mulailah perjalanan ke dunia animasi 3D dengan tutorial Aspose.3D untuk .NET. Pe
 
 
 Buka potensi kreatif dalam diri Anda dan selami dunia tutorial Aspose.3D untuk .NET. Unduh uji coba Anda sekarang dan tingkatkan proyek 3D Anda ke tingkat yang luar biasa!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

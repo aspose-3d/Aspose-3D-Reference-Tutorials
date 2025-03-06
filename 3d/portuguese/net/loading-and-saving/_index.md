@@ -3,10 +3,16 @@ title: Carregando e salvando
 linktitle: Carregando e salvando
 second_title: API Aspose.3D .NET
 description: Eleve seu jogo de modelagem 3D com Aspose.3D para .NET! Domine técnicas eficientes de carregamento e salvamento usando CancellationToken. Explore agora!
-type: docs
 weight: 27
 url: /pt/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Carregando e salvando
+
 ## Introdução
 
 Mergulhe no fascinante reino da modelagem 3D com Aspose.3D for .NET, sua porta de entrada para a manipulação contínua e eficiente de documentos 3D. Nesta série de tutoriais, exploraremos as complexidades de carregar e salvar modelos 3D, desbloqueando um mundo de possibilidades criativas.
@@ -105,3 +111,9 @@ Exporte metadados, como propriedades da cena, atributos de objetos e outros dado
 ### Carregar texturas incorporadas do USDZ para a memória
 
 Acesso a dados de textura incorporados em arquivos USDZ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

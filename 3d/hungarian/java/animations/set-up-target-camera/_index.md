@@ -3,10 +3,16 @@ title: Célkamera beállítása 3D animációkhoz Java | Aspose.3D bemutató
 linktitle: Célkamera beállítása 3D animációkhoz Java | Aspose.3D bemutató
 second_title: Aspose.3D Java API
 description: Fedezze fel a Java 3D animációkat könnyedén az Aspose.3D segítségével. Kövesse oktatóanyagunkat a lépésenkénti útmutatóért. Töltse le most egy lenyűgöző 3D-s fejlesztési utazáshoz.
-type: docs
 weight: 11
 url: /hu/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Célkamera beállítása 3D animációkhoz Java | Aspose.3D bemutató
+
 ## Bevezetés
 
 Üdvözöljük ebben a lépésről lépésre szóló útmutatóban a célkamera beállításához Java nyelvű 3D-animációkhoz az Aspose.3D használatával. Akár tapasztalt fejlesztő, akár csak most kezdi a Java 3D-s animációit, ez az oktatóanyag világos és tömör utasításokkal végigvezeti a folyamaton.
@@ -98,3 +104,9 @@ Gratulálunk! Sikeresen beállított egy célkamerát a 3D animációkhoz Java n
 ### 5. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
 
  V5: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

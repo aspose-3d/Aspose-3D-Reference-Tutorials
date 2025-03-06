@@ -3,10 +3,16 @@ title: Renderice escenas 3D en imágenes almacenadas en búfer para su posterior
 linktitle: Renderice escenas 3D en imágenes almacenadas en búfer para su posterior procesamiento en Java
 second_title: API de Java Aspose.3D
 description: Explore el poder de Aspose.3D para Java al renderizar escenas 3D en imágenes almacenadas en búfer. Guía paso a paso con requisitos previos, paquetes de importación y preguntas frecuentes.
-type: docs
 weight: 12
 url: /es/java/rendering-3d-scenes/render-to-buffered-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Renderice escenas 3D en imágenes almacenadas en búfer para su posterior procesamiento en Java
+
 ## Introducción
 
 Bienvenido a esta guía paso a paso sobre cómo renderizar escenas 3D en imágenes almacenadas en búfer usando Aspose.3D para Java. Aspose.3D es una potente biblioteca Java que permite a los desarrolladores trabajar con archivos y escenas 3D, proporcionando una funcionalidad versátil para renderizado y procesamiento. En este tutorial, nos centraremos en renderizar escenas 3D en imágenes almacenadas en búfer, abriendo posibilidades para un procesamiento posterior en Java.
@@ -106,3 +112,9 @@ Repita estos pasos según sea necesario para su aplicación específica, ajustan
 ### P5: ¿Hay opciones de renderizado adicionales disponibles?
 
  R5: Sí, explore la documentación de Aspose.3D[aquí](https://reference.aspose.com/3d/java/) para obtener información completa sobre las opciones de renderizado.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

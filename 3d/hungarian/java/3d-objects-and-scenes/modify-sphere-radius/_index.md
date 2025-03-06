@@ -3,10 +3,16 @@ title: Módosítsa a 3D gömb sugarát Java nyelven az Aspose.3D segítségével
 linktitle: Módosítsa a 3D gömb sugarát Java nyelven az Aspose.3D segítségével
 second_title: Aspose.3D Java API
 description: Fedezze fel a Java 3D programozást az Aspose.3D segítségével, és könnyedén módosíthatja a gömb sugarát. Töltse le most a zökkenőmentes 3D-s fejlesztési élményért.
-type: docs
 weight: 10
 url: /hu/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Módosítsa a 3D gömb sugarát Java nyelven az Aspose.3D segítségével
+
 ## Bevezetés
 
 Üdvözöljük a 3D gömb sugarának módosításáról szóló, lépésről lépésre szóló útmutatónkban az Aspose.3D for Java használatával. Az Aspose.3D egy hatékony Java könyvtár, amely lehetővé teszi a fejlesztők számára, hogy 3D fájlokkal dolgozzanak és zökkenőmentesen kezeljék azokat. Ebben az oktatóanyagban a 3D-s gömb sugarának megváltoztatására összpontosítunk gyakorlati példák és részletes magyarázatok segítségével.
@@ -103,3 +109,9 @@ Gratulálunk! Sikeresen módosította a 3D gömb sugarát az Aspose.3D for Java 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?
 
  5. válasz: Ideiglenes engedélyt kaphat, ha ellátogat[Ideiglenes jogosítvány](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

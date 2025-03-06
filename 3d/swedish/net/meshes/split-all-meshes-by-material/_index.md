@@ -3,10 +3,16 @@ title: Dela upp alla nät av scen efter material
 linktitle: Dela upp alla nät av scen efter material
 second_title: Aspose.3D .NET API
 description: Lär dig hur du delar 3D-maskor efter material med Aspose.3D för .NET. Följ vår steg-för-steg-guide för effektiv organisation och hantering av 3D-modeller.
-type: docs
 weight: 21
 url: /sv/net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dela upp alla nät av scen efter material
+
 ## Introduktion
 Välkommen till den här steg-för-steg-guiden för att dela upp alla maskor i en 3D-scen efter material som använder Aspose.3D för .NET. Om du arbetar med 3D-modeller och vill organisera dina maskor effektivt baserat på material, är den här handledningen för dig. Aspose.3D är ett kraftfullt .NET-bibliotek som tillhandahåller en rad funktioner för att arbeta med 3D-filer, vilket gör det till ett utmärkt val för utvecklare.
 ## Förutsättningar
@@ -66,3 +72,9 @@ Aspose.3D är i första hand utformad för .NET, men det ger interoperabilitet m
  Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) för samhällsstöd och diskussioner.
 ### 5. Kan jag få en tillfällig licens?
  Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

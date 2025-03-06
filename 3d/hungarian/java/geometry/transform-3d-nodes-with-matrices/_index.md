@@ -3,10 +3,16 @@ title: A 3D csomópontok transzformációs mátrixokkal történő transzformál
 linktitle: 3D csomópontok átalakítása transzformációs mátrixokkal Java nyelven az Aspose.3D segítségével
 second_title: Aspose.3D Java API
 description: Fedezze fel a 3D grafika világát Java nyelven az Aspose.3D segítségével. Tanulja meg a csomópontok könnyed átalakítását transzformációs mátrixok segítségével.
-type: docs
 weight: 21
 url: /hu/java/geometry/transform-3d-nodes-with-matrices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A 3D csomópontok transzformációs mátrixokkal történő transzformálása az Aspose.3D segítségével
+
 ## Bevezetés
 
 Üdvözöljük ebben a lépésenkénti útmutatóban a 3D-s csomópontok transzformációs mátrixokkal történő átalakításáról Java nyelven az Aspose.3D használatával. Ha Ön Java-fejlesztő, aki 3D-s grafikai és modellezési készségeit szeretné fejleszteni, akkor jó helyen jár. Ebben az oktatóanyagban az Aspose.3D keretrendszeren belüli átalakítások 3D csomópontokra történő alkalmazásának folyamatát mutatjuk be.
@@ -119,3 +125,9 @@ V2: Használja a megfelelő forgatási mátrixot a transzformációs mátrixban 
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?
 
  V5: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

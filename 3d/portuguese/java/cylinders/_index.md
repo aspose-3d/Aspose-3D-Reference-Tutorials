@@ -3,10 +3,16 @@ title: Trabalhando com Cilindros em Aspose.3D para Java
 linktitle: Trabalhando com Cilindros em Aspose.3D para Java
 second_title: API Java Aspose.3D
 description: Crie modelos 3D impressionantes sem esforço com Aspose.3D para Java! Aprenda a criar cilindros de ventilador, cilindros com topo deslocado e cilindros com fundo cortado com tutoriais.
-type: docs
 weight: 25
 url: /pt/java/cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabalhando com Cilindros em Aspose.3D para Java
+
 ## Introdução
 
 Você está pronto para levar suas habilidades de modelagem 3D para o próximo nível? Aspose.3D para Java abre um mundo de possibilidades e, neste tutorial, iremos guiá-lo através do cativante reino da criação de cilindros personalizados. Quer você seja um desenvolvedor experiente ou esteja apenas começando no mundo da modelagem 3D, esses tutoriais irão aprimorar suas habilidades e adicionar um toque de exclusividade aos seus projetos.
@@ -37,3 +43,9 @@ Aprenda a criar cilindros de ventilador personalizados em Java com Aspose.3D. El
 Explore as maravilhas da modelagem 3D em Java com Aspose.3D. Aprenda a criar cilindros cativantes com topos deslocados sem esforço.
 ### [Criando Cilindros com Fundo Cortado em Aspose.3D para Java](./creating-cylinders-with-sheared-bottom/)
 Aprenda a criar cilindros personalizados com fundos cortados usando Aspose.3D para Java. Eleve suas habilidades de modelagem 3D com este guia passo a passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

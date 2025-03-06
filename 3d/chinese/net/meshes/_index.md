@@ -3,10 +3,16 @@ title: 网格
 linktitle: 网格
 second_title: Aspose.3D .NET API
 description: 通过我们全面的教程解锁 Aspose.3D for .NET 的秘密。轻松优化 3D 模型、将图元转换为网格并增强图形。
-type: docs
 weight: 26
 url: /zh/net/meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 网格
+
 ## 介绍
 
 Aspose.3D for .NET 为希望深入研究 3D 网格复杂性的开发人员打开了一个充满可能性的世界。在本文中，我们将引导您完成各种网格教程，每个教程都提供了如何充分利用 Aspose.3D for .NET 潜力的独特视角。
@@ -69,3 +75,9 @@ Aspose.3D 有助于生成网格的纹理坐标，增强其视觉真实感以及�
 [阅读教程：按材质分割网格](./split-mesh-by-material/)
 
 总之，我们的 Aspose.3D for .NET 教程提供了掌握 3D 建模各个方面的全面指南。潜心投入、增强您的技能并提升您的 3D 开发游戏水平！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

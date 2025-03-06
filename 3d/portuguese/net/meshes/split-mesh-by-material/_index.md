@@ -3,10 +3,16 @@ title: Dividindo malha por material
 linktitle: Dividindo malha por material
 second_title: API Aspose.3D .NET
 description: Aprenda a dividir malhas 3D por material com Aspose.3D para .NET. Melhore a organização e a eficiência da cena. Guia passo a passo para desenvolvedores.
-type: docs
 weight: 22
 url: /pt/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dividindo malha por material
+
 ## Introdução
 Bem-vindo a este tutorial abrangente sobre como dividir uma malha por material usando Aspose.3D for .NET! Se você é um desenvolvedor que trabalha com gráficos 3D e deseja gerenciar e manipular malhas de maneira eficiente, você está no lugar certo. Neste guia, exploraremos o processo de divisão de uma malha com base no material, uma tarefa crucial na criação de cenas 3D diversas e visualmente atraentes.
 ## Pré-requisitos
@@ -71,3 +77,9 @@ Geralmente, a política CloneData pode ter um desempenho ligeiramente melhor dev
 Sim, você pode renderizar e visualizar as submalhas resultantes usando os recursos de renderização Aspose.3D.
 ### P: O Aspose.3D é adequado para desenvolvimento de jogos?
 Embora seja usado principalmente para modelagem e renderização, o Aspose.3D pode ser integrado a pipelines de desenvolvimento de jogos para tarefas específicas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

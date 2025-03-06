@@ -3,10 +3,16 @@ title: Pengkodean adegan sebagai Point Cloud
 linktitle: Pengkodean adegan sebagai Point Cloud
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia pemodelan 3D di .NET dengan Aspose.3D. Pelajari cara menyandikan bola menjadi awan titik dengan mudah. Bebaskan kreativitas Anda sekarang!
-type: docs
 weight: 14
 url: /id/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengkodean adegan sebagai Point Cloud
+
 ## Perkenalan
 Selamat datang di panduan komprehensif tentang pengkodean bola sebagai titik cloud menggunakan Aspose.3D untuk .NET. Aspose.3D adalah perpustakaan yang kuat dan serbaguna yang memberdayakan pengembang untuk bekerja dengan model 3D secara lancar dalam aplikasi .NET mereka. Dalam tutorial ini, kami akan memandu Anda melalui proses pengkodean bola menjadi titik cloud menggunakan Aspose.3D.
 ## Prasyarat
@@ -60,3 +66,9 @@ Ya, Anda dapat menjelajahi Aspose.3D dengan uji coba gratis. Unduh itu[Di Sini](
  Kunjungi forum Aspose.3D[Di Sini](https://forum.aspose.com/c/3d/18) untuk dukungan dan diskusi komunitas.
 ### Apakah saya memerlukan lisensi sementara untuk pengujian?
  Ya, jika Anda menguji perpustakaan, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Eksportuj sceny 3D jako chmury punktów za pomocą Aspose.3D dla Java
 linktitle: Eksportuj sceny 3D jako chmury punktów za pomocą Aspose.3D dla Java
 second_title: Aspose.3D API Java
 description: Dowiedz się, jak eksportować sceny 3D jako chmury punktów w Javie za pomocą Aspose.3D. Ulepsz swoje aplikacje dzięki potężnej grafice 3D i wizualizacjom.
-type: docs
 weight: 15
 url: /pl/java/point-clouds/export-3d-scenes-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eksportuj sceny 3D jako chmury punktów za pomocą Aspose.3D dla Java
+
 ## Wstęp
 
 Aspose.3D for Java umożliwia eksport scen 3D w różnych formatach, w tym generowanie chmur punktów. Chmury punktów mają kluczowe znaczenie w różnych branżach, od gier po symulacje, oferując reprezentację przestrzeni fizycznej poprzez zbiór punktów w trójwymiarowym układzie współrzędnych.
@@ -94,3 +100,9 @@ Gratulacje! Pomyślnie wyeksportowałeś scenę 3D jako chmurę punktów przy u�
 ### P5: Chcesz kupić Aspose.3D dla Java?
 
  Odpowiedź 5: Zapoznaj się z możliwościami zakupu[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

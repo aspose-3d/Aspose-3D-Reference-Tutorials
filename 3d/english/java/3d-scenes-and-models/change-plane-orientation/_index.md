@@ -3,10 +3,16 @@ title: Modify Plane Orientation for Precise 3D Scene Positioning in Java
 linktitle: Modify Plane Orientation for Precise 3D Scene Positioning in Java
 second_title: Aspose.3D Java API
 description: Enhance 3D scene positioning in Java with Aspose.3D. Modify plane orientation for precision. Download now for a captivating visual experience.
-type: docs
 weight: 10
 url: /java/3d-scenes-and-models/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modify Plane Orientation for Precise 3D Scene Positioning in Java
+
 ## Introduction
 
 Welcome to our step-by-step guide on enhancing 3D scene positioning in Java using Aspose.3D. This tutorial will delve into modifying plane orientation for precise 3D scene positioning, empowering you to create visually stunning and accurately positioned scenes.
@@ -114,3 +120,10 @@ A4: To purchase Aspose.3D, visit our [buy page](https://purchase.aspose.com/buy)
 ### Q5: Is there a temporary license option?
 
 A5: Yes, if you need a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

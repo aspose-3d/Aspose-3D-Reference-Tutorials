@@ -3,10 +3,16 @@ title: Aspose.3D を使用した Java シーンの 3D プロパティとカス�
 linktitle: Aspose.3D を使用した Java シーンの 3D プロパティとカスタム データの操作
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して Java アプリケーションを強化し、シームレスな 3D プロパティ操作を実現します。ステップバイステップのガイダンスについては、チュートリアルに従ってください。
-type: docs
 weight: 14
 url: /ja/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D を使用した Java シーンの 3D プロパティとカスタム データの操作
+
 ## 導入
 
 Aspose.3D を使用して Java シーンで 3D プロパティとカスタム データを操作するための包括的なガイドへようこそ。このチュートリアルでは、Aspose.3D の強力な機能を詳しく説明し、Java アプリケーション内で 3D プロパティを操作するための段階的なガイダンスを提供します。
@@ -124,3 +130,9 @@ A4: はい、次のサイトにアクセスしてください。[Aspose.3D サ�
 ### Q5: Aspose.3D の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: にアクセスして仮ライセンスを取得できます。[このリンク](https://purchase.aspose.com/temporary-license/)Aspose Web サイトで。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

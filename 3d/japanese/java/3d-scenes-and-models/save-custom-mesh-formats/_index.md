@@ -3,10 +3,16 @@ title: Java での柔軟性を実現するカスタム バイナリ形式で 3D 
 linktitle: Java での柔軟性を実現するカスタム バイナリ形式で 3D メッシュを保存
 second_title: Aspose.3D Java API
 description: Aspose.3D for Java を使用して 3D メッシュをカスタム バイナリ形式で保存する方法を学びます。このステップバイステップのチュートリアルを使用して、Java アプリケーションの柔軟性を高めます。
-type: docs
 weight: 13
 url: /ja/java/3d-scenes-and-models/save-custom-mesh-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java での柔軟性を実現するカスタム バイナリ形式で 3D メッシュを保存
+
 ## 導入
 
 Aspose.3D を使用して Java での柔軟性を高めるためのカスタム バイナリ形式で 3D メッシュを保存するための、このステップバイステップのチュートリアルへようこそ。このガイドでは、Java アプリケーションの柔軟性と相互運用性を強化するために、3D メッシュを変換し、カスタム バイナリ形式で保存するプロセスについて説明します。
@@ -124,3 +130,9 @@ A4: Aspose.3D ドキュメントにはサンプル モデルが含まれてい�
 ### Q5: 特定の要件に合わせてバイナリ形式をさらにカスタマイズできますか?
 
 A5: もちろん、アプリケーションの特定のニーズに合わせてバイナリ形式を自由に調整してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Spara 3D i PDF
 linktitle: Spara 3D i PDF
 second_title: Aspose.3D .NET API
 description: Utforska Aspose.3D för .NET. Ditt favoritbibliotek för sömlös 3D-modellering och rendering. Spara enkelt 3D-modeller i PDF.
-type: docs
 weight: 19
 url: /sv/net/loading-and-saving/pdf/save-3d-in-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara 3D i PDF
+
 ## Introduktion
 
 Välkommen till vår omfattande guide om hur du använder Aspose.3D för .NET! I den här handledningen går vi igenom processen att ladda och spara 3D-modeller, med fokus på den specifika uppgiften att spara en 3D-modell i PDF-format. Aspose.3D för .NET är ett kraftfullt bibliotek som tillhandahåller effektiva verktyg för att arbeta med 3D-filer, vilket gör det till en viktig resurs för utvecklare och entusiaster på området.
@@ -98,3 +104,9 @@ A2: Absolut! Som visas i handledningen kan du justera renderingslägen, ljussche
 ### F5: Hur kan jag få en tillfällig licens för Aspose.3D för .NET?
 
  A5: För att få en tillfällig licens, besök[den här länken](https://purchase.aspose.com/temporary-license/) och följ instruktionerna.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

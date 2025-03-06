@@ -3,10 +3,16 @@ title: Ρύθμιση UV στο Cube
 linktitle: Ρύθμιση UV στο Cube
 second_title: Aspose.3D .NET API
 description: Μάθετε να ρυθμίζετε τη χαρτογράφηση UV σε έναν κύβο 3D χρησιμοποιώντας το Aspose.3D για .NET. Δημιουργήστε οπτικά εντυπωσιακές σκηνές με ακριβή χαρτογράφηση υφής.
-type: docs
 weight: 18
 url: /el/net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρύθμιση UV στο Cube
+
 ## Εισαγωγή
 
 Η δημιουργία συναρπαστικών και οπτικά ελκυστικών σκηνών 3D συχνά περιλαμβάνει τη σχολαστική διαδικασία δημιουργίας χαρτογράφησης UV σε γεωμετρικά σχήματα. Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να ρυθμίσετε το UV σε έναν κύβο χρησιμοποιώντας το Aspose.3D για .NET. Το Aspose.3D είναι μια ισχυρή βιβλιοθήκη .NET που παρέχει ένα ολοκληρωμένο σύνολο δυνατοτήτων για τρισδιάστατη μοντελοποίηση και χειρισμό.
@@ -119,3 +125,9 @@ A1: Το Aspose.3D for .NET είναι μια ισχυρή βιβλιοθήκη 
 ### Ε5: Είναι διαθέσιμες προσωρινές άδειες;
 
  A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

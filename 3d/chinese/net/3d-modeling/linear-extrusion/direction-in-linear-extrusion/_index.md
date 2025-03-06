@@ -3,10 +3,16 @@ title: 线性挤出方向
 linktitle: 线性挤出方向
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 开启 3D 建模世界。学习方向线性挤压、提高创造力并轻松制作沉浸式应用程序。
-type: docs
 weight: 11
 url: /zh/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 线性挤出方向
+
 ## 介绍
 
 在软件开发的动态世界中，创建沉浸式 3D 模型是一项不可或缺的技能。 Aspose.3D for .NET 为开发人员提供了一组强大的工具，以在其应用程序中发挥 3D 建模的潜力。在本教程中，我们将深入研究线性挤出的有趣世界，并探索“线性挤出方向”功能的细微差别。
@@ -110,3 +116,9 @@ A3：是的，通过免费试用探索这些功能[Aspose.3D 发布](https://rel
 ### Q5：在哪里可以找到 Aspose.3D for .NET 的详细文档？
 
  A5：参考综合[Aspose.3D .NET 文档](https://reference.aspose.com/3d/net/)以获得深入的信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Настройка нормалей для 3D-объектов в Java с
 linktitle: Настройка нормалей для 3D-объектов в Java с помощью Aspose.3D
 second_title: Aspose.3D Java API
 description: Научитесь настраивать нормали для 3D-объектов в Java с помощью Aspose.3D. Улучшите свою графику с помощью этого подробного руководства.
-type: docs
 weight: 17
 url: /ru/java/geometry/set-up-normals-on-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка нормалей для 3D-объектов в Java с помощью Aspose.3D
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по настройке нормалей для 3D-объектов в Java с использованием Aspose.3D. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете работать с 3D-графикой, понимание нормалей и управление ими имеет решающее значение для достижения реалистичных световых эффектов в ваших 3D-моделях. В этом уроке мы покажем вам весь процесс, разбив его на простые для выполнения шаги.
@@ -91,3 +97,9 @@ System.out.println("\nNormals have been set up successfully on the cube.");
 ### Вопрос 5: Нужна помощь или вы хотите обсудить это с сообществом?
 
  A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) за поддержку и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

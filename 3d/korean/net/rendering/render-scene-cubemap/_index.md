@@ -3,10 +3,16 @@ title: 6개의 면이 있는 큐브맵으로 장면 렌더링
 linktitle: 6개의 면이 있는 큐브맵으로 장면 렌더링
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 멋진 큐브맵을 만드세요. 3D 장면을 매혹적인 6면 큐브맵으로 렌더링하기 위한 단계별 가이드를 따르십시오.
-type: docs
 weight: 14
 url: /ko/net/rendering/render-scene-cubemap/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 6개의 면이 있는 큐브맵으로 장면 렌더링
+
 ## 소개
 .NET용 Aspose.3D를 사용하여 6개의 면이 있는 큐브맵으로 장면을 렌더링하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 3D 장면을 렌더링하여 놀라운 큐브맵을 만드는 과정을 안내합니다. Aspose.3D는 3D 그래픽 조작을 단순화하는 강력한 .NET API이며, 이 가이드를 통해 그 기능을 활용하여 매력적인 큐브맵을 만들 수 있습니다.
 ## 전제 조건
@@ -86,3 +92,9 @@ cubemap.Save(fileNames, ImageFormat.Png);
 전적으로! Aspose.3D는 애니메이션 3D 장면 렌더링을 지원합니다.
 ### Q: 자세한 문서는 어디서 찾을 수 있나요?
  다음을 참조하세요.[Aspose.3D 문서](https://reference.aspose.com/3d/net/) 자세한 정보를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

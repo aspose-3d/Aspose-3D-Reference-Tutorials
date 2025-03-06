@@ -3,10 +3,16 @@ title: Java'da Daha İleri İşleme için 3B Sahneleri Arabelleğe Alınmış G�
 linktitle: Java'da Daha İleri İşleme için 3B Sahneleri Arabelleğe Alınmış Görüntülere Dönüştürme
 second_title: Aspose.3D Java API'si
 description: 3D sahneleri ara belleğe alınmış görüntülere dönüştürme konusunda Aspose.3D for Java'nın gücünü keşfedin. Önkoşullar, içe aktarma paketleri ve SSS'ler içeren adım adım kılavuz.
-type: docs
 weight: 12
 url: /tr/java/rendering-3d-scenes/render-to-buffered-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Daha İleri İşleme için 3B Sahneleri Arabelleğe Alınmış Görüntülere Dönüştürme
+
 ## giriiş
 
 Aspose.3D for Java kullanarak 3D sahnelerin ara belleğe alınmış görüntülere dönüştürülmesine ilişkin bu adım adım kılavuza hoş geldiniz. Aspose.3D, geliştiricilerin 3D dosya ve sahnelerle çalışmasına olanak tanıyan, oluşturma ve işleme için çok yönlü işlevsellik sağlayan güçlü bir Java kitaplığıdır. Bu eğitimde, 3B sahneleri ara belleğe alınmış görüntülere dönüştürmeye odaklanacağız ve Java'da daha ileri işleme olanaklarını ön plana çıkaracağız.
@@ -106,3 +112,9 @@ Tebrikler! 3D sahneleri ara belleğe alınmış görüntülere dönüştürmek i
 ### S5: Ek görüntü oluşturma seçenekleri mevcut mu?
 
  Cevap5: Evet, Aspose.3D belgelerini inceleyin[Burada](https://reference.aspose.com/3d/java/) İşleme seçenekleri hakkında kapsamlı bilgi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

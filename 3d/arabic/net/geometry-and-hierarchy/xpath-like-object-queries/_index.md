@@ -3,10 +3,16 @@ title: استعلامات كائن تشبه XPath
 linktitle: استعلامات كائن تشبه XPath
 second_title: Aspose.3D.NET API
 description: أطلق العنان لقوة Aspose.3D لـ .NET! يمكنك التعامل بسلاسة مع الرسومات ثلاثية الأبعاد باستخدام الاستعلامات المشابهة لـ XPath. قم بالتنزيل الآن للحصول على تجربة تغير قواعد اللعبة.
-type: docs
 weight: 24
 url: /ar/net/geometry-and-hierarchy/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استعلامات كائن تشبه XPath
+
 ## مقدمة
 الشروع في رحلة لإطلاق العنان للإمكانات الكاملة لـ Aspose.3D for .NET يفتح الأبواب أمام عالم من الإمكانيات في معالجة الرسومات ثلاثية الأبعاد. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا، سيرشدك هذا الدليل عبر الفروق الدقيقة في تسخير إمكانات Aspose.3D.
 ## المتطلبات الأساسية
@@ -94,3 +100,9 @@ Aspose.3D متوافق مع .NET Framework 2.0 والإصدارات الأحدث
  قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لدعم المجتمع.
 ### ما هي المزايا التي يقدمها Aspose.3D مقارنة بالمكتبات ثلاثية الأبعاد الأخرى لـ .NET؟
 يوفر Aspose.3D مجموعة شاملة من الميزات، بما في ذلك استعلامات الكائنات القوية وقدرات العرض القوية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

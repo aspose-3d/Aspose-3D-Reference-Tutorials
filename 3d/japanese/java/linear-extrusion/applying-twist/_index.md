@@ -3,10 +3,16 @@ title: Aspose.3D for Java を使用した線形押し出しでのツイストの
 linktitle: Aspose.3D for Java を使用した線形押し出しでのツイストの適用
 second_title: Aspose.3D Java API
 description: Aspose.3D for Java を使用して 3D モデルにひねりを加える方法を学びます。線形押し出し効果を強化するには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 14
 url: /ja/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java を使用した線形押し出しでのツイストの適用
+
 ## 導入
 
 Aspose.3D for Java を使用して線形押し出しにツイストを適用するためのこのステップバイステップのチュートリアルへようこそ。 Aspose.3D は、開発者が 3D ファイル形式を操作できるようにする強力な Java ライブラリで、3D シーンの作成、操作、レンダリングのための堅牢な機能を提供します。このチュートリアルでは、線形押し出しプロセス中にツイスト効果を適用して 3D モデルを強化する方法を検討します。
@@ -119,3 +125,9 @@ A1: はい、Aspose.3D はさまざまな 3D ファイル形式をサポート�
 ### Q5: Aspose.3D for Java はどこで購入できますか?
 
 A5: Aspose.3D for Java を次のサイトから購入します。[購入ページ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 기본 3D 모델 만들기
 linktitle: 기본 3D 모델 만들기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 모델링의 세계를 탐험해보세요. 멋진 원시 모델을 손쉽게 만들어 보세요.
-type: docs
 weight: 10
 url: /ko/net/3d-modeling/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 기본 3D 모델 만들기
+
 ## 소개
 
 .NET용 Aspose.3D를 사용한 흥미진진한 3D 모델링 세계에 오신 것을 환영합니다! 이 포괄적인 튜토리얼에서는 Aspose.3D를 사용하여 기본 3D 모델을 만드는 과정을 단계별로 살펴보겠습니다. 숙련된 개발자이든 호기심이 많은 초보자이든 이 가이드는 Aspose.3D의 강력한 기능을 활용하여 프로젝트를 위한 시각적으로 놀라운 3D 요소를 만드는 데 도움이 될 것입니다.
@@ -108,3 +114,9 @@ A1: Aspose.3D는 주로 .NET을 지원하지만 Java 및 기타 플랫폼에서 
 ### Q5: 사용 가능한 샘플 튜토리얼이 있습니까?
 
  A5: 예.[선적 서류 비치](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

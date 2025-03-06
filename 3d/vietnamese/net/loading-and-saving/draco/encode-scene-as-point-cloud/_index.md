@@ -3,10 +3,16 @@ title: Cảnh mã hóa dưới dạng Point Cloud
 linktitle: Cảnh mã hóa dưới dạng Point Cloud
 second_title: API Aspose.3D .NET
 description: Khám phá thế giới mô hình 3D trong .NET với Aspose.3D. Tìm hiểu cách mã hóa các hình cầu thành các đám mây điểm một cách dễ dàng. Giải phóng sự sáng tạo của bạn bây giờ!
-type: docs
 weight: 14
 url: /vi/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cảnh mã hóa dưới dạng Point Cloud
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách mã hóa hình cầu dưới dạng đám mây điểm bằng Aspose.3D cho .NET. Aspose.3D là một thư viện mạnh mẽ và linh hoạt giúp các nhà phát triển có thể làm việc liền mạch với các mô hình 3D trong các ứng dụng .NET của họ. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình mã hóa một hình cầu thành đám mây điểm bằng Aspose.3D.
 ## Điều kiện tiên quyết
@@ -60,3 +66,9 @@ Có, bạn có thể khám phá Aspose.3D với bản dùng thử miễn phí. T
  Truy cập diễn đàn Aspose.3D[đây](https://forum.aspose.com/c/3d/18) để được cộng đồng hỗ trợ và thảo luận.
 ### Tôi có cần giấy phép tạm thời để thử nghiệm không?
  Có, nếu bạn đang thử nghiệm thư viện, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

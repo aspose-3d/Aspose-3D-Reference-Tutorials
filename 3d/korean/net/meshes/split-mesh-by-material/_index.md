@@ -3,10 +3,16 @@ title: 재료별로 메쉬 분할하기
 linktitle: 재료별로 메쉬 분할하기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 재료별로 3D 메시를 분할하는 방법을 알아보세요. 장면 구성 및 효율성을 향상시킵니다. 개발자를 위한 단계별 가이드.
-type: docs
 weight: 22
 url: /ko/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 재료별로 메쉬 분할하기
+
 ## 소개
 .NET용 Aspose.3D를 사용하여 메시를 재료별로 분할하는 포괄적인 튜토리얼에 오신 것을 환영합니다! 3D 그래픽 작업을 하는 개발자이고 메시를 효율적으로 관리하고 조작하려는 경우, 잘 찾아오셨습니다. 이 가이드에서는 다양하고 시각적으로 매력적인 3D 장면을 만드는 데 중요한 작업인 재료를 기반으로 메시를 분할하는 프로세스를 살펴보겠습니다.
 ## 전제 조건
@@ -71,3 +77,9 @@ CloneData 정책은 각 하위 메시가 동일한 제어 지점 정보를 공�
 예, Aspose.3D 렌더링 기능을 사용하여 결과 하위 메시를 렌더링하고 시각화할 수 있습니다.
 ### Q: Aspose.3D는 게임 개발에 적합한가요?
 Aspose.3D는 주로 모델링 및 렌더링에 사용되지만 특정 작업을 위한 게임 개발 파이프라인에 통합될 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

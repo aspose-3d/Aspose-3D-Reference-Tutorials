@@ -3,10 +3,16 @@ title: Java용 Aspose.3D를 사용하여 효율적인 저장 및 공유를 위�
 linktitle: Java용 Aspose.3D를 사용하여 효율적인 저장 및 공유를 위해 3D 장면을 압축합니다.
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 3D 장면을 효율적으로 압축하는 방법을 알아보세요. 최적의 저장 및 공유를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/java/3d-scenes-and-models/compress-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D를 사용하여 효율적인 저장 및 공유를 위해 3D 장면을 압축합니다.
+
 ## 소개
 
 Aspose.3D for Java는 개발자가 Java 애플리케이션에서 3D 장면, 개체 및 애니메이션 작업을 할 수 있도록 하는 다목적 라이브러리입니다. 뛰어난 기능 중 하나는 3D 장면을 압축하여 품질 저하 없이 파일 크기를 줄이는 기능입니다. 이 튜토리얼에서는 저장 및 공유를 위해 3D 장면을 효율적으로 압축하는 단계를 안내합니다.
@@ -103,3 +109,10 @@ A3: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://rele
 ### Q5: Java용 Aspose.3D의 임시 라이선스를 어떻게 얻나요?
 
  A5: 다음 단계를 따르세요.[여기](https://purchase.aspose.com/temporary-license/) 임시면허를 취득하기 위해
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

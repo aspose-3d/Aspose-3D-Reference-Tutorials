@@ -3,10 +3,16 @@ title: 선형 돌출의 비틀기
 linktitle: 선형 돌출의 비틀기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 매혹적인 3D 그래픽 세계를 탐험해보세요. 트위스트를 사용한 선형 압출을 단계별로 알아보세요.
-type: docs
 weight: 14
 url: /ko/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 선형 돌출의 비틀기
+
 ## 소개
 
 끊임없이 진화하는 .NET 개발 세계에서 3D 그래픽의 강력한 기능을 활용하는 것은 흥미로운 일입니다. .NET용 Aspose.3D는 개발자가 몰입감 있고 시각적으로 놀라운 애플리케이션을 원활하게 만들 수 있도록 지원하는 귀중한 툴킷으로 등장합니다. 이 포괄적인 가이드에서는 하나의 흥미로운 기능인 비틀림을 사용한 선형 돌출에 대해 자세히 살펴보겠습니다. 이 튜토리얼은 프로세스를 단계별로 안내하여 .NET용 Aspose.3D의 잠재력을 활용합니다.
@@ -118,3 +124,9 @@ A4: 물론이죠! Aspose.3D는 다양한 기능 세트를 제공합니다. 보�
 ### Q5: Aspose.3D 지원 및 토론을 위한 커뮤니티가 있습니까?
 
  A5: 예, Aspose.3D 커뮤니티에 가입하세요.[Aspose 포럼](https://forum.aspose.com/c/3d/18) 지원과 참여 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

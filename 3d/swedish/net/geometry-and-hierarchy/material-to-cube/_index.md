@@ -3,10 +3,16 @@ title: Applicera material på kuben
 linktitle: Applicera material på kuben
 second_title: Aspose.3D .NET API
 description: Utforska Aspose.3D för .NET, din inkörsport till sömlös 3D-grafikmanipulation. Applicera material utan ansträngning, förbättra realismen och lyfta dina projekt.
-type: docs
 weight: 14
 url: /sv/net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applicera material på kuben
+
 ## Introduktion
 
 Välkommen till den fascinerande världen av 3D-grafikmanipulation med Aspose.3D för .NET! I den här handledningen kommer vi att dyka ner i processen att applicera material på en kub i dina 3D-scener, vilket lägger till en helt ny nivå av realism och visuell tilltal till dina skapelser.
@@ -136,3 +142,9 @@ S3: Ja, Aspose.3D ger omfattande stöd för att skapa och manipulera animationer
 ### F5: Hur kan jag få support för eventuella problem eller frågor?
 
  A5: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) att få kontakt med samhället och söka hjälp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

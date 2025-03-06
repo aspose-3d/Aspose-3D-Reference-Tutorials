@@ -3,10 +3,16 @@ title: Polygon Manipulation in 3D Models with Java
 linktitle: Polygon Manipulation in 3D Models with Java
 second_title: Aspose.3D Java API
 description: Explore efficient 3D rendering in Java with Aspose.3D tutorials. Convert polygons to triangles and generate UV coordinates for optimal performance and enhanced texture mapping.
-type: docs
 weight: 27
 url: /java/polygon/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Polygon Manipulation in 3D Models with Java
+
 ## Introduction
 
 Welcome to the realm of Java 3D development, where Aspose.3D takes center stage to elevate your projects. In this tutorial series, we'll delve into the intricacies of polygon manipulation, focusing on two crucial aspects: converting polygons to triangles for efficient rendering and generating UV coordinates to enhance texture mapping.
@@ -49,3 +55,9 @@ In conclusion, Aspose.3D for Java opens doors to a world of possibilities. Embra
 Enhance Java 3D rendering with Aspose.3D. Learn to convert polygons to triangles for optimal performance. Download now for a seamless 3D development experience.
 ### [Generate UV Coordinates for Texture Mapping in Java 3D Models](./generate-uv-coordinates/)
 Learn to generate UV coordinates for Java 3D models using Aspose.3D. Enhance texture mapping in your projects with this step-by-step guide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

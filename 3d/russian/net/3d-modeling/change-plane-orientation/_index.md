@@ -3,10 +3,16 @@ title: Изменение ориентации плоскости в 3D-сцен
 linktitle: Изменение ориентации плоскости в 3D-сценах
 second_title: Aspose.3D .NET API
 description: Изучите Aspose.3D для .NET и освойте изменение ориентации плоскости в 3D-сценах. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 10
 url: /ru/net/3d-modeling/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Изменение ориентации плоскости в 3D-сценах
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по изменению ориентации плоскости в 3D-сценах с использованием Aspose.3D для .NET! Если вы разработчик или энтузиаст 3D и хотите улучшить свои навыки, вы попали по адресу. В этом уроке мы шаг за шагом углубимся в этот процесс, используя наглядные примеры и подробные объяснения. К концу вы получите четкое представление о том, как управлять ориентацией плоскости в ваших 3D-проектах.
@@ -95,3 +101,9 @@ scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
 ### В5: Где я могу найти подробную документацию?
 
  A5: обратитесь к документации[здесь](https://reference.aspose.com/3d/net/) для более подробной информации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

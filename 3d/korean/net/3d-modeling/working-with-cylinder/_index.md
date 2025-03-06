@@ -3,10 +3,16 @@ title: 맞춤형 전단 바닥 실린더
 linktitle: 맞춤형 전단 바닥 실린더
 second_title: Aspose.3D .NET API
 description: 자세한 단계별 가이드를 통해 .NET용 Aspose.3D를 사용하여 맞춤형 전단 바닥 실린더를 만드는 방법을 알아보세요. 지금 3D 모델링 기술을 향상해보세요!
-type: docs
 weight: 12
 url: /ko/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 맞춤형 전단 바닥 실린더
+
 ## 소개
 .NET용 Aspose.3D를 사용하여 맞춤형 실린더를 만드는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. 3D 모델링 기술을 향상시키고 프로젝트에 고유한 기능을 추가하려는 경우, 잘 찾아오셨습니다. 이 튜토리얼에서는 명확한 설명과 코드 조각을 사용하여 프로세스를 단계별로 안내합니다.
 ## 전제 조건
@@ -83,3 +89,9 @@ scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
  방문하다[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 커뮤니티 지원 및 토론을 위해.
 ### 임시 라이센스는 어떻게 얻을 수 있나요?
  임시 면허증을 받으세요[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

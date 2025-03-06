@@ -3,10 +3,16 @@ title: Kuasai Teknik Rendering Dasar untuk Adegan 3D di Java
 linktitle: Kuasai Teknik Rendering Dasar untuk Adegan 3D di Java
 second_title: Asumsikan.3D Java API
 description: Jelajahi rendering 3D di Java dengan Aspose.3D. Kuasai teknik dasar, atur adegan, dan render bentuk dengan mulus. Tingkatkan keterampilan pemrograman Java Anda dalam grafik 3D.
-type: docs
 weight: 11
 url: /id/java/rendering-3d-scenes/basic-rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kuasai Teknik Rendering Dasar untuk Adegan 3D di Java
+
 ## Perkenalan
 
 Selamat datang di dunia rendering 3D yang menarik di Java menggunakan Aspose.3D! Jika Anda ingin menguasai teknik rendering dasar untuk adegan 3D, Anda datang ke tempat yang tepat. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses menyiapkan adegan 3D, menerapkan material, dan merender berbagai bentuk. Pada akhirnya, Anda akan memiliki pemahaman yang kuat tentang konsep rendering dasar di Java.
@@ -114,3 +120,9 @@ Dalam tutorial ini, kita menjelajahi langkah-langkah penting untuk membuat adega
 ### Q5: Di mana saya bisa membeli Aspose.3D untuk Java?
 
  A5: Anda dapat membeli produknya[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

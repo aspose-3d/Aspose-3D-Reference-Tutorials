@@ -3,10 +3,16 @@ title: Doğrusal Ekstrüzyonda Merkez
 linktitle: Doğrusal Ekstrüzyonda Merkez
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile 3D modelleme dünyasını keşfedin. Doğrusal ekstrüzyon tekniklerini ortalayın, çarpıcı tasarımlar yaratın ve yaratıcılığınızı ortaya çıkarın.
-type: docs
 weight: 10
 url: /tr/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Doğrusal Ekstrüzyonda Merkez
+
 ## giriiş
 
 Aspose.3D for .NET kullanarak doğrusal ekstrüzyona hakim olmaya yönelik bu kapsamlı kılavuza hoş geldiniz. 3D modelleme becerilerinizi geliştirmek ve çarpıcı ekstrüzyonlar oluşturmak istiyorsanız doğru yerdesiniz. Bu derste, tasarımlarınızı tamamen yeni bir seviyeye taşımak için özellikle merkezleme yönüne odaklanarak doğrusal ekstrüzyon tekniğini inceleyeceğiz.
@@ -109,3 +115,10 @@ Cevap1: Aspose.3D öncelikli olarak C# ve VB.NET gibi .NET dillerini destekler.
 ### S5: Aspose.3D for .NET lisansını nereden satın alabilirim?
 
  Cevap5: Lisansınızı satın alın[Burada](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

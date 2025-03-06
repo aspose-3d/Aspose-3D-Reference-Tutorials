@@ -3,10 +3,16 @@ title: การสร้างและการแปลง 3D Meshes ใน J
 linktitle: การสร้างและการแปลง 3D Meshes ใน Java
 second_title: Aspose.3D จาวา API
 description: ปลดล็อกศักยภาพของกราฟิก 3D ด้วย Aspose.3D สำหรับ Java สร้าง แปลง และเพิ่มประสิทธิภาพ Mesh ได้อย่างง่ายดาย ยกระดับประสบการณ์การเขียนโค้ดของคุณด้วยบทช่วยสอนของเรา
-type: docs
 weight: 31
 url: /th/java/transforming-3d-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างและการแปลง 3D Meshes ใน Java
+
 
 ## การแนะนำ
 
@@ -42,3 +48,9 @@ url: /th/java/transforming-3d-meshes/
 เริ่มต้นการเดินทางสู่ความเชี่ยวชาญด้านกราฟิก 3D ด้วย Aspose.3D สำหรับ Java - แปลงดั้งเดิมให้เป็น mesh ที่ชวนหลงใหลได้อย่างง่ายดาย ยกระดับประสบการณ์การเขียนโค้ดของคุณตอนนี้!
 ### [ปรับแต่งเค้าโครงหน่วยความจำสำหรับ 3D Meshes ใน Java](./customize-mesh-memory-layout/)
 ปรับปรุงการสร้างแบบจำลอง Java 3D ของคุณด้วย Aspose.3D: ปรับแต่งเค้าโครงหน่วยความจำเพื่อประสิทธิภาพสูงสุด ทำตามคำแนะนำทีละขั้นตอนของเราทันที!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

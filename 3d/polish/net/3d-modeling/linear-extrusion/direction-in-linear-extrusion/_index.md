@@ -3,10 +3,16 @@ title: Kierunek w wytłaczaniu liniowym
 linktitle: Kierunek w wytłaczaniu liniowym
 second_title: Aspose.3D API .NET
 description: Odblokuj świat modelowania 3D dzięki Aspose.3D dla .NET. Naucz się kierunku wytłaczania liniowego, zwiększ kreatywność i bez wysiłku twórz wciągające aplikacje.
-type: docs
 weight: 11
 url: /pl/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kierunek w wytłaczaniu liniowym
+
 ## Wstęp
 
 W dynamicznym świecie tworzenia oprogramowania tworzenie wciągających modeli 3D jest umiejętnością niezbędną. Aspose.3D dla .NET zapewnia programistom solidny zestaw narzędzi pozwalających wykorzystać potencjał modelowania 3D w ich aplikacjach. W tym samouczku zagłębimy się w intrygujący świat wytłaczania liniowego i poznamy niuanse funkcji „Kierunek w wytłaczaniu liniowym”.
@@ -110,3 +116,9 @@ tym samouczku poruszaliśmy się po fascynującej dziedzinie modelowania 3D przy
 ### P5: Gdzie mogę znaleźć szczegółową dokumentację Aspose.3D dla .NET?
 
  A5: Zapoznaj się z kompleksowym[Dokumentacja Aspose.3D .NET](https://reference.aspose.com/3d/net/) w celu uzyskania szczegółowych informacji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

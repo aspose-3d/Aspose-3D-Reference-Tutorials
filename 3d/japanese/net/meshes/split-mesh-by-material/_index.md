@@ -3,10 +3,16 @@ title: マテリアルごとにメッシュを分割する
 linktitle: マテリアルごとにメッシュを分割する
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して、マテリアルごとに 3D メッシュを分割する方法を学びます。シーンの構成と効率が向上します。開発者向けのステップバイステップのガイド。
-type: docs
 weight: 22
 url: /ja/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# マテリアルごとにメッシュを分割する
+
 ## 導入
 Aspose.3D for .NET を使用してマテリアルごとにメッシュを分割するこの包括的なチュートリアルへようこそ! 3D グラフィックスを扱う開発者で、メッシュを効率的に管理および操作したい場合は、ここが最適な場所です。このガイドでは、多様で視覚的に魅力的な 3D シーンを作成する上で重要なタスクである、マテリアルに基づいてメッシュを分割するプロセスについて説明します。
 ## 前提条件
@@ -71,3 +77,9 @@ CloneData ポリシーは各サブメッシュが同じコントロール ポイ
 はい、Aspose.3D レンダリング機能を使用して、結果のサブメッシュをレンダリングして視覚化できます。
 ### Q: Aspose.3D はゲーム開発に適していますか?
 Aspose.3D は主にモデリングとレンダリングに使用されますが、特定のタスクのためにゲーム開発パイプラインに統合できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

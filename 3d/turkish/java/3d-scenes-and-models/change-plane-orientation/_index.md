@@ -3,10 +3,16 @@ title: Java'da Hassas 3B Sahne Konumlandırması için Düzlem Yönünü Değiş
 linktitle: Java'da Hassas 3B Sahne Konumlandırması için Düzlem Yönünü Değiştirme
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile Java'da 3D sahne konumlandırmasını geliştirin. Hassasiyet için düzlem yönünü değiştirin. Büyüleyici bir görsel deneyim için hemen indirin.
-type: docs
 weight: 10
 url: /tr/java/3d-scenes-and-models/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Hassas 3B Sahne Konumlandırması için Düzlem Yönünü Değiştirme
+
 ## giriiş
 
 Aspose.3D kullanarak Java'da 3D sahne konumlandırmayı geliştirmeye yönelik adım adım kılavuzumuza hoş geldiniz. Bu eğitim, hassas 3D sahne konumlandırması için düzlem yönünün değiştirilmesini ele alacak ve görsel olarak büyüleyici ve doğru konumlandırılmış sahneler oluşturmanıza olanak sağlayacaktır.
@@ -114,3 +120,9 @@ Cevap1: Evet, Aspose.3D, Java, .NET ve daha fazlası dahil olmak üzere çeşitl
 ### S5: Geçici lisans seçeneği var mı?
 
  Cevap5: Evet, geçici lisansa ihtiyacınız varsa alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dukungan Google Draco
 linktitle: Dukungan Google Draco
 second_title: Aspose.3D .NET API
 description: Aspose.3D terintegrasi secara mulus dengan Google Draco untuk kompresi dan dekompresi model 3D yang efisien, mengoptimalkan ukuran file, dan meningkatkan kinerja.
-type: docs
 weight: 27
 url: /id/net/loading-and-saving/draco
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dukungan Google Draco
+
 ## Perkenalan
 
 Dalam seri tutorial ini, kita akan menjelajahi seluk-beluk dukungan Google Draco di Aspose.3D, membuka dunia kemungkinan kreatif.
@@ -29,3 +35,9 @@ Aspose.3D memungkinkan Anda mengkodekan jerat 3D ke dalam format Draco sebagai t
 Mulailah perjalanan dengan kemungkinan tak terbatas dengan Aspose.3D untuk .NET. Baik Anda seorang pemula atau pengembang berpengalaman, tutorial kami melayani semua tingkat keahlian. Ubah pengalaman pemodelan 3D Anda - jelajahi, buat, dan berinovasi dengan Aspose.3D untuk .NET.
 
 Siap untuk meningkatkan keterampilan pemodelan 3D Anda? Mulailah menjelajahi tutorialnya. Keluarkan potensi penuh Aspose.3D untuk .NET dan ciptakan karya 3D Anda dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 转储嵌入纹理
 linktitle: 转储嵌入纹理
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 解开 3D 模型中嵌入纹理的秘密。深入了解我们的无缝集成分步指南。立即下载免费试用版！
-type: docs
 weight: 11
 url: /zh/net/materials/dump-embedded-textures/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 转储嵌入纹理
+
 ## 介绍
 欢迎来到 Aspose.3D for .NET 的世界——这是一个功能强大的工具包，使开发人员能够无缝地操作和使用 3D 文件。在这个综合教程中，我们将深入研究使用 Aspose.3D 转储嵌入纹理的迷人领域。如果您渴望通过释放嵌入纹理的潜力来增强您的 3D 应用程序，那么您来对地方了。
 ## 先决条件
@@ -71,3 +77,9 @@ if(tex.Content != null)
 答：是的，可以使用临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 问：在哪里可以找到 Aspose.3D 的综合文档？
 答：文档是可访问的[这里](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

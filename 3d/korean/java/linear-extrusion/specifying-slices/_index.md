@@ -3,10 +3,16 @@ title: Java용 Aspose.3D를 사용하여 선형 돌출에서 슬라이스 지정
 linktitle: Java용 Aspose.3D를 사용하여 선형 돌출에서 슬라이스 지정
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 선형 돌출에서 슬라이스를 지정하는 방법을 알아보세요. 이 단계별 가이드를 통해 3D 모델링 기술을 향상하세요.
-type: docs
 weight: 13
 url: /ko/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D를 사용하여 선형 돌출에서 슬라이스 지정
+
 ## 소개
 
 복잡한 3D 모델을 만들려면 창의성 그 이상이 필요한 경우가 많습니다. 이를 위해서는 귀하가 사용할 수 있는 도구에 대한 철저한 이해가 필요합니다. Java용 Aspose.3D는 이 점에서 획기적인 변화를 가져왔습니다. 이 튜토리얼에서는 선형 압출에서 슬라이스를 지정하는 특정 측면에 중점을 둘 것입니다.
@@ -93,3 +99,9 @@ scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### Q5: 임시 라이센스를 구매할 수 있나요?
 
  A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

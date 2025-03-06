@@ -3,10 +3,16 @@ title: Xi lanh đáy cắt tùy chỉnh
 linktitle: Xi lanh đáy cắt tùy chỉnh
 second_title: API Aspose.3D .NET
 description: Tìm hiểu cách tạo các trụ đáy cắt tùy chỉnh bằng Aspose.3D cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. Nâng cao kỹ năng lập mô hình 3D của bạn ngay hôm nay!
-type: docs
 weight: 12
 url: /vi/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xi lanh đáy cắt tùy chỉnh
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách tạo hình trụ tùy chỉnh bằng Aspose.3D cho .NET. Nếu bạn đang tìm cách nâng cao kỹ năng lập mô hình 3D và thêm các tính năng độc đáo cho dự án của mình thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình, sử dụng các giải thích và đoạn mã rõ ràng.
 ## Điều kiện tiên quyết
@@ -83,3 +89,9 @@ Có, bạn có thể tùy chỉnh đáy cắt cho từng xi lanh riêng lẻ, ch
  Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để được cộng đồng hỗ trợ và thảo luận.
 ### Làm thế nào tôi có thể có được giấy phép tạm thời?
  Nhận giấy phép tạm thời của bạn[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

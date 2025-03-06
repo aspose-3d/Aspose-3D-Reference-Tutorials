@@ -3,10 +3,16 @@ title: Βελτιστοποιήστε την αποθήκευση αρχείων
 linktitle: Βελτιστοποιήστε την αποθήκευση αρχείων 3D σε Java με το Aspose.3D SaveOptions
 second_title: Aspose.3D Java API
 description: Μάθετε πώς να βελτιστοποιείτε την αποθήκευση αρχείων 3D σε Java με το Aspose.3D SaveOptions. Βελτιώστε την απόδοση και προσαρμόστε τις εξόδους χωρίς κόπο.
-type: docs
 weight: 16
 url: /el/java/load-and-save/optimize-3d-file-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Βελτιστοποιήστε την αποθήκευση αρχείων 3D σε Java με το Aspose.3D SaveOptions
+
 ## Εισαγωγή
 
 Το Aspose.3D είναι μια πλούσια σε χαρακτηριστικά βιβλιοθήκη Java που δίνει τη δυνατότητα στους προγραμματιστές να εργάζονται με τρισδιάστατα μοντέλα απρόσκοπτα. Όσον αφορά την αποθήκευση αρχείων 3D, η κατηγορία SaveOptions προσφέρει μια πληθώρα ρυθμίσεων για να προσαρμόσετε με ακρίβεια την έξοδο σύμφωνα με τις απαιτήσεις σας. Σε αυτό το σεμινάριο, θα εξερευνήσουμε διάφορες επιλογές αποθήκευσης και πώς μπορούν να αξιοποιηθούν για τη βελτιστοποίηση της διαδικασίας.
@@ -119,3 +125,9 @@ A4: Χρησιμοποιήστε το`setFileSystem(new DummyFileSystem())` μέ
 ### Ε5: Υπάρχει τρόπος αποθήκευσης εξαρτήσεων σε έναν τοπικό κατάλογο σε ένα αρχείο OBJ;
 
  A5: Ναι, χρησιμοποιήστε το`setFileSystem(new LocalFileSystem(MyDir))` μέθοδος στο`ObjSaveOptions` κλάση για αποθήκευση εξαρτήσεων τοπικά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

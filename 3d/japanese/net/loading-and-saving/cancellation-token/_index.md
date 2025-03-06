@@ -3,10 +3,16 @@ title: CancelToken の使用
 linktitle: CancelToken の使用
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して、シームレスな 3D モデリングの世界を探索してください。 CancelToken を使用して 3D ドキュメントを効率的にロードおよび保存する方法を学びます。
-type: docs
 weight: 10
 url: /ja/net/loading-and-saving/cancellation-token/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# CancelToken の使用
+
 ## 導入
 
 Aspose.3D for .NET を利用して 3D モデリングおよびレンダリング プロジェクトを強化するための包括的なガイドへようこそ。 Aspose.3D は、.NET 開発者が 3D ファイルをシームレスに操作できるようにする強力なライブラリです。このチュートリアルでは、読み込みと保存の側面を詳しく掘り下げ、特に非同期タスクを効率的に管理するための CancelToken の使用法に焦点を当てます。
@@ -120,3 +126,9 @@ catch (ImportException e)
 ### Q5: Aspose.3D for .NET の最新バージョンは何ですか?
 
  A5: をチェックして最新の状態を維持してください。[ダウンロードページ](https://releases.aspose.com/3d/net/)最新リリース用。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

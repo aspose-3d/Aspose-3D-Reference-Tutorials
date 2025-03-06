@@ -3,10 +3,16 @@ title: Aspose.3D를 사용하여 Java의 3D 개체에 재료 적용
 linktitle: Aspose.3D를 사용하여 Java의 3D 개체에 재료 적용
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 3D 그래픽의 세계를 탐험해보세요. 3D 개체에 재료를 원활하게 적용하는 방법을 알아보세요. 사실적인 비주얼로 프로젝트의 수준을 높여보세요.
-type: docs
 weight: 14
 url: /ko/java/geometry/apply-materials-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D를 사용하여 Java의 3D 개체에 재료 적용
+
 ## 소개
 
 3D 그래픽의 역동적인 세계에서 Java용 Aspose.3D는 프로젝트에 생명을 불어넣는 강력한 도구로 돋보입니다. 3D 개체에 재료를 추가하면 시각적 매력이 향상되어 더욱 사실적으로 만들어집니다. 이 튜토리얼에서는 Java용 Aspose.3D를 사용하여 3D 큐브에 재료를 적용하는 과정을 안내합니다.
@@ -165,3 +171,9 @@ A1: 예, Aspose.3D를 사용하면 향상된 사용자 정의를 위해 3D 개�
 ### Q5: 특정 링크에서 Aspose.3D 라이브러리를 다운로드할 수 있나요?
 
  A5: 예,[다운로드 링크](https://releases.aspose.com/3d/java/) Java용 Aspose.3D의 최신 버전에 액세스합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

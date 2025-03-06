@@ -4,10 +4,16 @@ linktitle: Używanie przesunięcia skrętu w wytłaczaniu liniowym z Aspose.3D d
 second_title: Aspose.3D API Java
 description: Popraw swoje umiejętności modelowania 3D dzięki Aspose.3D dla Java. W tym obszernym samouczku nauczysz się korzystać z przesunięcia skrętu w wytłaczaniu liniowym.
 
-type: docs
 weight: 15
 url: /pl/java/linear-extrusion/using-twist-offset/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Używanie przesunięcia skrętu w wytłaczaniu liniowym z Aspose.3D dla Java
+
 ## Wstęp
 
 W dynamicznym świecie grafiki 3D opanowanie sztuki wytłaczania liniowego zmienia zasady gry. Dzięki Aspose.3D dla Java możesz podnieść swoje umiejętności modelowania 3D, włączając funkcję Twist Offset do procesu wytłaczania liniowego. Ten samouczek poprowadzi Cię przez etapy wykorzystania przesunięcia skrętu w wytłaczaniu liniowym przy użyciu Aspose.3D dla Java, zapewniając narzędzia do tworzenia wspaniałych scen 3D.
@@ -113,3 +119,9 @@ Gratulacje! Pomyślnie zaimplementowałeś przesunięcie skrętu w wytłaczaniu 
 ### P5: Czy dostępne są dodatkowe przykłady i samouczki?
 
  A5: Tak, patrz[dokumentacja](https://reference.aspose.com/3d/java/) aby uzyskać więcej przykładów i szczegółowych samouczków.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

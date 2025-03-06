@@ -3,10 +3,16 @@ title: Δημιουργήστε συντεταγμένες UV για χαρτο�
 linktitle: Δημιουργήστε συντεταγμένες UV για χαρτογράφηση υφής σε μοντέλα Java 3D
 second_title: Aspose.3D Java API
 description: Μάθετε να δημιουργείτε συντεταγμένες UV για μοντέλα Java 3D χρησιμοποιώντας το Aspose.3D. Βελτιώστε τη χαρτογράφηση υφής στα έργα σας με αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 11
 url: /el/java/polygon/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργήστε συντεταγμένες UV για χαρτογράφηση υφής σε μοντέλα Java 3D
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για τη δημιουργία συντεταγμένων UV για χαρτογράφηση υφής σε μοντέλα Java 3D χρησιμοποιώντας το Aspose.3D. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία της μη αυτόματης δημιουργίας συντεταγμένων UV για ένα πλέγμα σε ένα τρισδιάστατο μοντέλο. Αυτό είναι ένα κρίσιμο βήμα στη χαρτογράφηση υφής, επιτρέποντάς σας να βελτιώσετε την οπτική ελκυστικότητα των τρισδιάστατων μοντέλων σας.
@@ -120,3 +126,9 @@ A1: Το Aspose.3D έχει σχεδιαστεί κυρίως για Java, αλ�
 ### Ε5: Μπορώ να αγοράσω μια προσωρινή άδεια χρήσης για το Aspose.3D;
 
  A5: Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

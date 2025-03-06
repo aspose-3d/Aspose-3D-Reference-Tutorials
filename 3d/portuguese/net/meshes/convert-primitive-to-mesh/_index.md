@@ -3,10 +3,16 @@ title: Convertendo Primitivo Paramétrico em Malha
 linktitle: Convertendo Primitivo Paramétrico em Malha
 second_title: API Aspose.3D .NET
 description: Explore o poder do Aspose.3D para .NET! Converta primitivos paramétricos em Mesh versátil sem esforço. Eleve seu jogo gráfico 3D hoje.
-type: docs
 weight: 12
 url: /pt/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertendo Primitivo Paramétrico em Malha
+
 ## Introdução
 
 Aspose.3D oferece um rico conjunto de formas primitivas, incluindo caixas, planos, toros, esferas, cilindros, pirâmides e muito mais. Essas primitivas são definidas por seus parâmetros, tornando-as altamente versáteis para modelagem processual. Ao ajustar os parâmetros programaticamente, você pode criar uma ampla variedade de modelos 3D com o mínimo de código.
@@ -73,3 +79,9 @@ Sim, Aspose.3D suporta uma ampla gama de frameworks .NET, garantindo compatibili
  Sim, explore o Aspose.3D com o[teste grátis](https://releases.aspose.com/) experimentar suas capacidades antes de assumir um compromisso.
 ### Posso obter uma licença temporária para fins de teste?
  Sim, garanta um[licença temporária](https://purchase.aspose.com/temporary-license/) para avaliar Aspose.3D de forma abrangente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 将场景编码为点云
 linktitle: 将场景编码为点云
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D 探索 .NET 中的 3D 建模世界。学习轻松地将球体编码为点云。现在就释放你的创造力吧！
-type: docs
 weight: 14
 url: /zh/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将场景编码为点云
+
 ## 介绍
 欢迎阅读这份关于使用 Aspose.3D for .NET 将球体编码为点云的综合指南。 Aspose.3D 是一个功能强大且多功能的库，使开发人员能够在其 .NET 应用程序中无缝地使用 3D 模型。在本教程中，我们将引导您完成使用 Aspose.3D 将球体编码为点云的过程。
 ## 先决条件
@@ -60,3 +66,9 @@ FileFormat.Draco.Encode(sphere, outputPath + outputFileName, saveOptions);
 访问 Aspose.3D 论坛[这里](https://forum.aspose.com/c/3d/18)以获得社区支持和讨论。
 ### 我需要临时许可证才能进行测试吗？
 是的，如果您正在测试该库，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

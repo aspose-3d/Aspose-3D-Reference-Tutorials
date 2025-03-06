@@ -3,10 +3,16 @@ title: Создание многоугольника в сетке
 linktitle: Создание многоугольника в сетке
 second_title: Aspose.3D .NET API
 description: Исследуйте мир 3D-моделирования с помощью Aspose.3D для .NET. Создавайте потрясающие многоугольники в сетках без особых усилий. Загрузите сейчас и получите захватывающий опыт разработки!
-type: docs
 weight: 18
 url: /ru/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание многоугольника в сетке
+
 ## Введение
 Готовы ли вы погрузиться в захватывающий мир 3D-моделирования с помощью Aspose.3D для .NET? Если вы разработчик, желающий улучшить свои навыки, или новичок, заинтересованный в создании потрясающих 3D-сеток, вы попали по адресу. В этом подробном руководстве мы проведем вас через процесс создания многоугольника в сетке с помощью Aspose.3D.
 ## Предварительные условия
@@ -59,3 +65,9 @@ mesh.CreatePolygon(0, 1, 2, 3);
  A: Исследуйте обширные[документация](https://reference.aspose.com/3d/net/) доступны для более глубокого понимания.
 ### Вопрос: Как мне приобрести Aspose.3D для .NET?
  А: Посетите[страница покупки](https://purchase.aspose.com/buy) чтобы получить лицензию и раскрыть весь потенциал Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

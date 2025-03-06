@@ -3,10 +3,16 @@ title: Aspose.3D를 사용하여 Java에서 3D 구형 반경 수정
 linktitle: Aspose.3D를 사용하여 Java에서 3D 구형 반경 수정
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java 3D 프로그래밍을 탐색하고 구 반경을 쉽게 수정하세요. 원활한 3D 개발 경험을 위해 지금 다운로드하세요.
-type: docs
 weight: 10
 url: /ko/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D를 사용하여 Java에서 3D 구형 반경 수정
+
 ## 소개
 
 Java용 Aspose.3D를 사용하여 3D 구의 반경을 수정하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.3D는 개발자가 3D 파일로 작업하고 원활하게 조작할 수 있게 해주는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 실제 사례와 자세한 설명을 사용하여 3D 구의 반경을 변경하는 데 중점을 둘 것입니다.
@@ -103,3 +109,9 @@ scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ### Q5: Aspose.3D에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: 다음 사이트를 방문하시면 임시 면허증을 받으실 수 있습니다.[임시면허](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

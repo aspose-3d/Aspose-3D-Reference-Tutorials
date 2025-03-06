@@ -3,10 +3,16 @@ title: Tối ưu hóa và làm việc với dữ liệu lưới 3D trong Java
 linktitle: Tối ưu hóa và làm việc với dữ liệu lưới 3D trong Java
 second_title: API Java Aspose.3D
 description: Tối ưu hóa các ứng dụng 3D của bạn với Aspose.3D cho Java. Tìm hiểu cách nén lưới bằng Google Draco, tạo dữ liệu lưới và xử lý hiệu quả lưới 3D theo vật liệu.
-type: docs
 weight: 32
 url: /vi/java/3d-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tối ưu hóa và làm việc với dữ liệu lưới 3D trong Java
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng cao kỹ năng phát triển 3D của mình bằng Java chưa? Đi sâu vào thế giới của Aspose.3D, nơi chúng tôi mang đến cho bạn các hướng dẫn toàn diện về cách tối ưu hóa và làm việc với dữ liệu lưới 3D. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, những hướng dẫn này sẽ giúp bạn nâng cao các dự án Java của mình một cách dễ dàng.
@@ -31,3 +37,9 @@ Tối ưu hóa các ứng dụng 3D của bạn với Aspose.3D. Tìm hiểu cá
 Nâng cao các dự án Java của bạn với Aspose.3D. Hãy làm theo hướng dẫn của chúng tôi để dễ dàng tạo dữ liệu thông thường cho lưới 3D. Đi sâu vào đồ họa 3D một cách dễ dàng.
 ### [Chia lưới 3D theo vật liệu để xử lý hiệu quả trong Java](./split-meshes-by-material/)
 Khám phá sức mạnh của Aspose.3D trong Java với hướng dẫn từng bước của chúng tôi về cách chia lưới 3D một cách hiệu quả theo vật liệu. Nâng cao hiệu suất ứng dụng của bạn một cách liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

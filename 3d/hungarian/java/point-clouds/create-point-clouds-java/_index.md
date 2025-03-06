@@ -3,10 +3,16 @@ title: Hozzon létre pontfelhőket Java Meshes-ből
 linktitle: Hozzon létre pontfelhőket Java Meshes-ből
 second_title: Aspose.3D Java API
 description: Fedezze fel a 3D modellezés világát Java nyelven az Aspose.3D segítségével. Tanuljon meg könnyedén pontfelhőket létrehozni hálókból.
-type: docs
 weight: 12
 url: /hu/java/point-clouds/create-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre pontfelhőket Java Meshes-ből
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó oktatóanyagban a pontfelhők létrehozásáról Java hálókból az Aspose.3D használatával. Az Aspose.3D egy nagy teljesítményű Java könyvtár, amely kiterjedt funkciókat kínál a 3D modellezéshez és manipulációhoz. Ebben az oktatóanyagban végigvezetjük a pontfelhők hálókból történő létrehozásának folyamatán, világos és részletes lépéseket kínálva a zökkenőmentes élmény érdekében.
@@ -83,3 +89,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan hozhat létre pontfelhőket Java hál
 ### 5. kérdés: Hol találom a dokumentációt?
 
  A5: Lásd a[dokumentáció](https://reference.aspose.com/3d/java/) részletes információkért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

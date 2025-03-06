@@ -3,10 +3,16 @@ title: 使用 Aspose.3D for Java 压缩 3D 场景以实现高效存储和共享
 linktitle: 使用 Aspose.3D for Java 压缩 3D 场景以实现高效存储和共享
 second_title: Aspose.3D Java API
 description: 了解如何使用 Aspose.3D for Java 高效压缩 3D 场景。请遵循我们的分步指南以实现最佳存储和共享。
-type: docs
 weight: 11
 url: /zh/java/3d-scenes-and-models/compress-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D for Java 压缩 3D 场景以实现高效存储和共享
+
 ## 介绍
 
 Aspose.3D for Java 是一个多功能库，使开发人员能够在 Java 应用程序中处理 3D 场景、对象和动画。其突出功能之一是能够压缩 3D 场景，在不影响质量的情况下减小文件大小。本教程将引导您完成有效压缩 3D 场景以进行存储和共享的步骤。
@@ -103,3 +109,10 @@ A3：是的，您可以免费试用[这里](https://releases.aspose.com/).
 ### Q5：如何获得 Aspose.3D for Java 的临时许可证？
 
  A5：按照步骤操作[这里](https://purchase.aspose.com/temporary-license/)获得临时许可证。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

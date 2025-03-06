@@ -3,10 +3,16 @@ title: 3D Sahnelerde Koordinat Sistemini Çevirme
 linktitle: 3D Sahnelerde Koordinat Sistemini Çevirme
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'i kullanarak 3 boyutlu sahnelerde koordinat sistemlerini çevirme sanatında ustalaşın. Sorunsuz uygulama için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 12
 url: /tr/net/3d-scene/flip-coordinate-system/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D Sahnelerde Koordinat Sistemini Çevirme
+
 ## giriiş
 
 Aspose.3D for .NET kullanarak 3 boyutlu sahnelerde koordinat sistemini çevirmeyi anlatan bu adım adım kılavuza hoş geldiniz. Sahnelerinizdeki koordinat sistemlerini değiştirmek isteyen bir geliştirici veya 3D meraklısıysanız doğru yerdesiniz. Bu eğitimde, bu özelliği sorunsuz bir şekilde uygulamanızı kolaylaştıracak şekilde size süreç boyunca yol göstereceğiz.
@@ -91,3 +97,9 @@ Cevap1: Aspose.3D for .NET öncelikle C# programlama için tasarlanmıştır. An
 ### S5: Aspose.3D for .NET ile ilgili desteği nereden alabilirim veya soru sorabilirim?
 
  Cevap5: Aspose topluluk forumu[Burada](https://forum.aspose.com/c/3d/18) destek ve tartışmalar için ideal bir yerdir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

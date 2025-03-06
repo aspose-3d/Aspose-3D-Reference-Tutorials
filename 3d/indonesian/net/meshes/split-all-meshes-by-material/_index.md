@@ -3,10 +3,16 @@ title: Memisahkan Semua Jalinan Adegan berdasarkan Materi
 linktitle: Memisahkan Semua Jalinan Adegan berdasarkan Materi
 second_title: Aspose.3D .NET API
 description: Pelajari cara membagi jerat 3D berdasarkan materi menggunakan Aspose.3D untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengorganisasian dan pengelolaan model 3D yang efisien.
-type: docs
 weight: 21
 url: /id/net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memisahkan Semua Jalinan Adegan berdasarkan Materi
+
 ## Perkenalan
 Selamat datang di panduan langkah demi langkah tentang memisahkan semua jerat adegan 3D berdasarkan materi menggunakan Aspose.3D untuk .NET. Jika Anda bekerja dengan model 3D dan ingin mengatur jerat berdasarkan bahan secara efisien, tutorial ini cocok untuk Anda. Aspose.3D adalah perpustakaan .NET yang kuat yang menyediakan berbagai fitur untuk bekerja dengan file 3D, menjadikannya pilihan yang sangat baik bagi pengembang.
 ## Prasyarat
@@ -66,3 +72,9 @@ Aspose.3D terutama dirancang untuk .NET, tetapi menyediakan interoperabilitas de
  Mengunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan dan diskusi komunitas.
 ### 5. Bisakah saya memperoleh izin sementara?
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

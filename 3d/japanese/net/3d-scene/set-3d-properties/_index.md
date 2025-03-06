@@ -3,10 +3,16 @@ title: 3D シーンでの 3 次元プロパティの設定
 linktitle: 3D シーンでの 3 次元プロパティの設定
 second_title: Aspose.3D .NET API
 description: 3D プロパティの設定に関する Aspose.3D for .NET チュートリアルを参照してください。コード例を使って段階的に学習してください。 3D シーン操作スキルを向上させます。
-type: docs
 weight: 14
 url: /ja/net/3d-scene/set-3d-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D シーンでの 3 次元プロパティの設定
+
 ## 導入
 
 魅力的な 3D シーンを作成するには、多くの場合、さまざまなプロパティを操作して、プロジェクトに深みとリアリズムを加える能力が必要です。 Aspose.3D for .NET はこれを実現するための強力なツールセットを提供し、3D シーン内の 3 次元プロパティを簡単に設定および変更できるようにします。このチュートリアルでは、Aspose.3D for .NET を効果的に活用する方法について理解を深めながら、プロセスを段階的に説明します。
@@ -148,3 +154,10 @@ A1: はい、Aspose.3D は、FBX、STL などを含むさまざまな 3D ファ�
 ### Q5: 購入する前に、Aspose.3D for .NET を無料で試用できますか?
 
  A5：確かに！ダウンロード[無料試用版](https://releases.aspose.com/)その特徴を探るために。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

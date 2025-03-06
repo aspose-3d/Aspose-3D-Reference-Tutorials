@@ -3,10 +3,16 @@ title: Xây dựng hệ thống phân cấp nút trong Cảnh 3D bằng Java và
 linktitle: Xây dựng hệ thống phân cấp nút trong Cảnh 3D bằng Java và Aspose.3D
 second_title: API Java Aspose.3D
 description: Tìm hiểu cách xây dựng cảnh 3D động trong Java bằng Aspose.3D. Tạo hệ thống phân cấp nút dễ dàng và nâng cao trò chơi đồ họa 3D của bạn.
-type: docs
 weight: 16
 url: /vi/java/geometry/build-node-hierarchies/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xây dựng hệ thống phân cấp nút trong Cảnh 3D bằng Java và Aspose.3D
+
 ## Giới thiệu
 
 Trong thế giới động của đồ họa 3D và lập trình Java, việc tạo và quản lý hệ thống phân cấp nút trong cảnh 3D là một kỹ năng quan trọng. Aspose.3D dành cho Java trao quyền cho các nhà phát triển để đạt được điều này một cách liền mạch, cung cấp một bộ công cụ mạnh mẽ để tạo các cảnh 3D phức tạp một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xây dựng hệ thống phân cấp nút bằng Aspose.3D cho Java, đảm bảo rằng ngay cả những người mới bắt đầu cũng có thể làm theo.
@@ -97,3 +103,9 @@ A1: Chắc chắn rồi! Aspose.3D for Java cung cấp giao diện thân thiện
 ### Câu 5: Tôi có thể tìm tài liệu ở đâu?
 
  A5: Hãy tham khảo[tài liệu](https://reference.aspose.com/3d/java/) để biết thông tin chi tiết về Aspose.3D cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

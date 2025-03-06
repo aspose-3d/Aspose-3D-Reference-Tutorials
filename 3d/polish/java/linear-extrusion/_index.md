@@ -3,10 +3,16 @@ title: Tworzenie modeli 3D za pomocą wytłaczania liniowego w Javie
 linktitle: Tworzenie modeli 3D za pomocą wytłaczania liniowego w Javie
 second_title: Aspose.3D API Java
 description: Poznaj świat modelowania 3D z Aspose.3D dla Java. Opanuj wytłaczanie liniowe bez wysiłku. Centrum sterowania, ustaw kierunek, określ plasterki, zastosuj skręt i wiele więcej!
-type: docs
 weight: 23
 url: /pl/java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tworzenie modeli 3D za pomocą wytłaczania liniowego w Javie
+
 ## Wstęp
 
 
@@ -62,3 +68,9 @@ Naucz się określać plasterki w wyciskaniu liniowym przy użyciu Aspose.3D dla
 Dowiedz się, jak dodać zwrot akcji do swoich modeli 3D za pomocą Aspose.3D dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać ulepszone efekty wytłaczania liniowego.
 ### [Używanie przesunięcia skrętu w wytłaczaniu liniowym z Aspose.3D dla Java](./using-twist-offset/)
 Popraw swoje umiejętności modelowania 3D dzięki Aspose.3D dla Java. W tym obszernym samouczku nauczysz się korzystać z przesunięcia skrętu w wytłaczaniu liniowym.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

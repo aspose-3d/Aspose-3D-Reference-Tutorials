@@ -3,10 +3,16 @@ title: Viewports vastleggen in 3D-scènes
 linktitle: Viewports vastleggen in 3D-scènes
 second_title: Aspose.3D .NET-API
 description: Leer verbluffende 3D-viewports vast te leggen met Aspose.3D voor .NET. Stapsgewijze handleiding voor het flexibel renderen van scènes.
-type: docs
 weight: 11
 url: /nl/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Viewports vastleggen in 3D-scènes
+
 ## Invoering
 
 Op het gebied van 3D-graphics en visualisatie is het vastleggen van viewports een essentiële vaardigheid die de diepte en details van uw scènes verbetert. Aspose.3D voor .NET biedt een robuuste oplossing voor het renderen en manipuleren van 3D-scènes. Deze tutorial leidt u door het proces van het vastleggen van zichtvensters in 3D-scènes met behulp van Aspose.3D, zodat u eenvoudig verbluffende visualisaties kunt maken.
@@ -124,3 +130,9 @@ A2: Hoewel Aspose.3D in de eerste plaats is ontworpen voor graphics en visualisa
 ### Vraag 5: Hoe kan ik hulp zoeken of deelnemen aan de gemeenschap?
 
  A5: Sluit u aan bij de Aspose.3D-gemeenschap op de[Helpforum](https://forum.aspose.com/c/3d/18) voor hulp en samenwerking.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

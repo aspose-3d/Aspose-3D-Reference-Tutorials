@@ -3,10 +3,16 @@ title: Aspose.3D for Java'da Tabanı Kesilmiş Silindirler Oluşturma
 linktitle: Aspose.3D for Java'da Tabanı Kesilmiş Silindirler Oluşturma
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java'yı kullanarak tabanı kesilmiş özelleştirilmiş silindirler oluşturmayı öğrenin. Bu adım adım kılavuzla 3D modelleme becerilerinizi geliştirin.
-type: docs
 weight: 12
 url: /tr/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java'da Tabanı Kesilmiş Silindirler Oluşturma
+
 ## giriiş
 
 Aspose.3D for Java kullanarak tabanı kesilmiş silindirler oluşturmaya yönelik bu adım adım kılavuza hoş geldiniz. Aspose.3D, 3D dosyalarla zahmetsizce çalışmanıza olanak tanıyan güçlü bir Java kütüphanesidir. Bu eğitimde, 3D modelleme becerilerinizi geliştirmek için Aspose.3D'yi kullanma konusunda uygulamalı bir deneyim sunarak, altları kesilmiş özelleştirilmiş silindirler oluşturma konusunu ele alacağız.
@@ -100,3 +106,9 @@ Cevap2: Evet, Aspose.3D, kullanıcı dostu bir API sunarak 3D modellemede hem ye
 ### S5: Aspose.3D for Java'yı satın alabilir miyim?
 
  Cevap5: Evet, Aspose.3D for Java'yı satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

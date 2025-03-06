@@ -3,10 +3,16 @@ title: Aspose.3D for .NET ile Balıkgözü Lens Efekti Uygulama
 linktitle: 3D Sahneye Balıkgözü Lens Efekti Uygulama
 second_title: Aspose.3D .NET API'si
 description: 3D sahnelerinizi Aspose.3D for .NET ile geliştirin! Büyüleyici bir balıkgözü lens efektini adım adım nasıl uygulayacağınızı öğrenin. Şimdi İndirin!
-type: docs
 weight: 12
 url: /tr/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for .NET ile Balıkgözü Lens Efekti Uygulama
+
 ## giriiş
 3D sahnelerinizin görsel çekiciliğini arttırmak mı istiyorsunuz? Aspose.3D for .NET ile balık gözü lens efektlerinin büyüleyici dünyasına dalın. Bu eğitim, balıkgözü lens efektini 3D sahnelerinize nasıl uygulayacağınız konusunda size adım adım rehberlik edecek ve onlara benzersiz ve büyüleyici bir perspektif kazandıracaktır.
 ## Önkoşullar
@@ -77,3 +83,9 @@ Evet, balık gözü efektini herhangi bir 3D sahneye uygulayabilirsiniz. En iyi 
 3B sahnenin boyutu öncelikle sistem kaynaklarıyla sınırlıdır. Donanımınızın sahnenizin boyutunu karşılayabileceğinden emin olun.
 ### Balık gözü efekti sonucu için PNG yerine farklı bir çıktı formatı kullanabilir miyim?
 Evet, çıktıyı ihtiyaçlarınıza göre farklı görüntü formatlarında kaydetmek için kodu değiştirebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

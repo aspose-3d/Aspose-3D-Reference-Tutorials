@@ -3,10 +3,16 @@ title: Arbeta med Mesh Geometry Data
 linktitle: Arbeta med Mesh Geometry Data
 second_title: Aspose.3D .NET API
 description: Bemästra konsten att programmera 3D-grafik med Aspose.3D för .NET. Skapa, manipulera och spara fantastiska 3D-scener utan ansträngning.
-type: docs
 weight: 15
 url: /sv/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arbeta med Mesh Geometry Data
+
 ## Introduktion
 
 Välkommen till den spännande världen av 3D-grafikprogrammering med Aspose.3D för .NET! I den här handledningen kommer vi att fördjupa oss i krångligheterna med att arbeta med Mesh Geometry Data i 3D-scener med Aspose.3D, ett kraftfullt och mångsidigt bibliotek för .NET-utvecklare. Oavsett om du är en rutinerad programmerare eller bara har börjat med 3D-grafik, hjälper den här steg-för-steg-guiden dig att bemästra konsten att hantera mesh-geometridata utan ansträngning.
@@ -126,3 +132,9 @@ S1: Aspose.3D är främst designad för .NET, men du kan utforska andra Aspose-p
 ### F5: Vilka filformat stöds för att spara 3D-scener?
 
  S5: Aspose.3D stöder olika filformat, inklusive FBX, STL och mer. Referera till[dokumentation](https://reference.aspose.com/3d/net/) för en komplett lista.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

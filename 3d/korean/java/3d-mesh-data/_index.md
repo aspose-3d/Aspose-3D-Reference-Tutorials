@@ -3,10 +3,16 @@ title: Java에서 3D 메시 데이터 최적화 및 작업
 linktitle: Java에서 3D 메시 데이터 최적화 및 작업
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 3D 애플리케이션을 최적화하세요. Google Draco로 메시를 압축하고, 메시 데이터를 생성하고, 재료별로 3D 메시를 효율적으로 처리하는 방법을 알아보세요.
-type: docs
 weight: 32
 url: /ko/java/3d-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 3D 메시 데이터 최적화 및 작업
+
 ## 소개
 
 Java로 3D 개발 기술을 향상시킬 준비가 되셨습니까? 3D 메시 데이터 최적화 및 작업에 대한 포괄적인 튜토리얼을 제공하는 Aspose.3D의 세계에 빠져보세요. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 튜토리얼을 통해 Java 프로젝트를 손쉽게 향상할 수 있습니다.
@@ -31,3 +37,9 @@ Aspose.3D로 3D 애플리케이션을 최적화하세요. Java에서 Google Drac
 Aspose.3D로 Java 프로젝트를 강화하세요. 3D 메쉬에 대한 일반 데이터를 쉽게 생성하려면 튜토리얼을 따르십시오. 3D 그래픽을 쉽게 즐겨보세요.
 ### [Java에서 효율적인 처리를 위해 재료별로 3D 메시 분할](./split-meshes-by-material/)
 3D 메시를 재료별로 효율적으로 분할하는 방법에 대한 단계별 가이드를 통해 Java에서 Aspose.3D의 강력한 기능을 살펴보세요. 애플리케이션의 성능을 원활하게 향상시키세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

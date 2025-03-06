@@ -3,10 +3,16 @@ title: Especificando fatias em extrusão linear com Aspose.3D para Java
 linktitle: Especificando fatias em extrusão linear com Aspose.3D para Java
 second_title: API Java Aspose.3D
 description: Aprenda a especificar fatias em extrusão linear usando Aspose.3D para Java. Eleve suas habilidades de modelagem 3D com este guia passo a passo.
-type: docs
 weight: 13
 url: /pt/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Especificando fatias em extrusão linear com Aspose.3D para Java
+
 ## Introdução
 
 A criação de modelos 3D complexos geralmente requer mais do que apenas criatividade; exige um conhecimento profundo das ferramentas à sua disposição. Aspose.3D para Java é uma virada de jogo nesse aspecto. Neste tutorial, focaremos em um aspecto específico – a especificação de fatias em extrusão linear.
@@ -93,3 +99,9 @@ Parabéns! Você aprendeu com sucesso como especificar fatias em extrusão linea
 ### P5: Posso adquirir uma licença temporária?
 
  A5: Sim, uma licença temporária pode ser obtida[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

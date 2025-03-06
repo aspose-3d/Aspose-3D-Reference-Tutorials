@@ -3,10 +3,16 @@ title: ฉากการอ่านที่มีคุณสมบัติ
 linktitle: ฉากการอ่านที่มีคุณสมบัติ
 second_title: Aspose.3D .NET API
 description: ปลดล็อกพลังของการสร้างแบบจำลอง 3 มิติใน .NET ด้วย Aspose.3D โหลด บันทึก และจัดการฉากต่างๆ ได้อย่างง่ายดาย ดำดิ่งสู่โลกแห่งความเป็นไปได้ที่ไร้ขีดจำกัด
-type: docs
 weight: 18
 url: /th/net/loading-and-saving/rvm/read-existing-attributes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ฉากการอ่านที่มีคุณสมบัติ
+
 ## การแนะนำ
 
 ในภูมิทัศน์และการสร้างแบบจำลอง 3 มิติที่มีการพัฒนาตลอดเวลา Aspose.3D สำหรับ .NET กลายเป็นเครื่องมืออันทรงพลัง ที่ให้การบูรณาการที่ราบรื่นและฟังก์ชันการทำงานที่แข็งแกร่งสำหรับนักพัฒนา บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการอ่านไฟล์ RVM โดยเน้นไปที่การอ่านคุณลักษณะภายนอกของไฟล์โดยเฉพาะ รัดเข็มขัดในขณะที่เราเริ่มต้นการเดินทางเพื่อควบคุมความสามารถของ Aspose.3D!
@@ -79,3 +85,9 @@ A4: You can acquire a temporary license [here](https://buy.aspose.com/temporary-
 ### Q5: Where can I purchase Aspose.3D for .NET?
 
 A5: Visit the [purchase page](https://buy.aspose.com/buy) เพื่อรับ Aspose.3D เวอร์ชันเต็ม
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

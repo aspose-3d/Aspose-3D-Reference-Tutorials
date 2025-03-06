@@ -3,10 +3,16 @@ title: Java での 3D ジオメトリの操作
 linktitle: Java での 3D ジオメトリの操作
 second_title: Aspose.3D Java API
 description: 3D ジオメトリの操作については、Aspose.3D for Java チュートリアルを参照してください。 PBR マテリアル、クォータニオン回転、キューブ シーンなどをマスターします。 Java 3D グラフィックスを向上させます。
-type: docs
 weight: 21
 url: /ja/java/geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java での 3D ジオメトリの操作
+
 ## 導入
 Aspose.3D for Java を使用して、3D グラフィックスの魅力的な領域を掘り下げる準備はできていますか?私たちのチュートリアルは幅広いトピックをカバーしており、強力で視覚的に美しい 3D 要素を使用して Java アプリケーションを強化できるようにします。一歩ずつこの旅を始めましょう。
 
@@ -89,3 +95,9 @@ Aspose.3D を使用して Java アプリケーションを強化し、強力な 
 Aspose.3D を使用して Java の 3D グラフィックスの世界を探索してください。変換行列を使用してノードを簡単に変換する方法を学びます。
 ### [Aspose.3D を使用して Java で最適化されたレンダリングのためのメッシュの三角形化](./triangulate-meshes-for-optimized-rendering/)
 Aspose.3D を使用して Java で 3D レンダリングの効率を高める方法を学びます。最適なパフォーマンスを得るためにメッシュを三角形化します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

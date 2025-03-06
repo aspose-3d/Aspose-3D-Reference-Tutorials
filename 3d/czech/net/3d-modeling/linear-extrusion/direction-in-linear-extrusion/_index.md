@@ -3,10 +3,16 @@ title: Směr v lineárním vytlačování
 linktitle: Směr v lineárním vytlačování
 second_title: Aspose.3D .NET API
 description: Odemkněte svět 3D modelování s Aspose.3D pro .NET. Naučte se směr lineárního vytlačování, podpořte kreativitu a bez námahy vytvářejte pohlcující aplikace.
-type: docs
 weight: 11
 url: /cs/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Směr v lineárním vytlačování
+
 ## Úvod
 
 V dynamickém světě vývoje softwaru je tvorba pohlcujících 3D modelů nepostradatelnou dovedností. Aspose.3D for .NET poskytuje vývojářům robustní sadu nástrojů pro využití potenciálu 3D modelování v jejich aplikacích. V tomto tutoriálu se ponoříme do zajímavého světa lineárního vytlačování a prozkoumáme nuance funkce "Směr v lineárním vytlačování".
@@ -110,3 +116,9 @@ tomto tutoriálu jsme prošli fascinující oblastí 3D modelování pomocí Asp
 ### Q5: Kde najdu podrobnou dokumentaci k Aspose.3D pro .NET?
 
  A5: Viz komplexní[Aspose.3D .NET dokumentace](https://reference.aspose.com/3d/net/) pro podrobné informace.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

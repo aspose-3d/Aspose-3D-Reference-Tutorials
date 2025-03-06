@@ -3,10 +3,16 @@ title: Java 3D에서 효율적인 렌더링을 위해 다각형을 삼각형으�
 linktitle: Java 3D에서 효율적인 렌더링을 위해 다각형을 삼각형으로 변환
 second_title: Aspose.3D 자바 API
 description: Aspose.3D로 Java 3D 렌더링을 향상하세요. 최적의 성능을 위해 다각형을 삼각형으로 변환하는 방법을 알아보세요. 원활한 3D 개발 경험을 위해 지금 다운로드하세요.
-type: docs
 weight: 10
 url: /ko/java/polygon/convert-polygons-triangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 3D에서 효율적인 렌더링을 위해 다각형을 삼각형으로 변환
+
 ## 소개
 
 Aspose.3D for Java는 3D 파일 조작 및 최적화를 위한 강력한 기능 세트를 제공합니다. 이 튜토리얼에서는 렌더링 프로세스를 간소화하는 기본 단계인 다각형을 삼각형으로 변환하는 작업에 중점을 둘 것입니다.
@@ -92,3 +98,9 @@ A3: 무료 평가판에는 일부 기능 제한이 있습니다. 을 체크 해�
 ### Q5: Aspose.3D for Java에 사용할 수 있는 임시 라이선스 옵션이 있습니까?
 
  A5: 그렇습니다.[임시 면허증](https://purchase.aspose.com/temporary-license/) 단기 사용을 위한 옵션입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zapisywanie sceny 3D do pliku FBX
 linktitle: Zapisywanie sceny 3D do pliku FBX
 second_title: Aspose.3D API .NET
 description: Poznaj moc Aspose.3D dla .NET. wszechstronna biblioteka do płynnej manipulacji scenami 3D. Ładuj, zapisuj i kompresuj bez wysiłku.
-type: docs
 weight: 20
 url: /pl/net/loading-and-saving/fbx/save-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisywanie sceny 3D do pliku FBX
+
 ## Wstęp
 
 Witamy w ekscytującej podróży do krainy manipulacji scenami 3D przy użyciu Aspose.3D dla .NET! Niezależnie od tego, czy jesteś doświadczonym programistą, czy ciekawskim entuzjastą, ten samouczek poprowadzi Cię przez proces ładowania, zapisywania i kompresowania scen 3D bez wysiłku.
@@ -104,3 +110,9 @@ A2: Absolutnie! Aspose.3D bezproblemowo integruje się z innymi bibliotekami .NE
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.3D?
 
  O5: Tak, poznaj funkcje Aspose.3D, chwytając swój[bezpłatna wersja próbna](https://releases.aspose.com/) Dzisiaj!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

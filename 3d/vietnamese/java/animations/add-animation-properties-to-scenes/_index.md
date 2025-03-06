@@ -3,10 +3,16 @@ title: Thêm thuộc tính hoạt hình vào cảnh 3D trong Java | Hướng d�
 linktitle: Thêm thuộc tính hoạt hình vào cảnh 3D trong Java | Hướng dẫn Aspose.3D
 second_title: API Java Aspose.3D
 description: Nâng cao các dự án 3D dựa trên Java của bạn với Aspose.3D. Hãy làm theo hướng dẫn của chúng tôi để thêm các thuộc tính hoạt ảnh một cách liền mạch.
-type: docs
 weight: 10
 url: /vi/java/animations/add-animation-properties-to-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm thuộc tính hoạt hình vào cảnh 3D trong Java | Hướng dẫn Aspose.3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách thêm thuộc tính hoạt hình vào cảnh 3D trong Java bằng Aspose.3D. Nếu bạn đang tìm cách nâng cao các dự án 3D của mình bằng hoạt ảnh động thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, chia nhỏ từng bước để có trải nghiệm liền mạch.
@@ -128,3 +134,9 @@ A3: Tham gia cộng đồng tại[Diễn đàn Aspose.3D](https://forum.aspose.c
 ### Câu hỏi 5: Có thêm hướng dẫn nào không?
 
  A5: Khám phá toàn diện[tài liệu](https://reference.aspose.com/3d/java/) để biết thêm hướng dẫn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Centrum w wytłaczaniu liniowym
 linktitle: Centrum w wytłaczaniu liniowym
 second_title: Aspose.3D API .NET
 description: Poznaj świat modelowania 3D z Aspose.3D dla .NET. Wyśrodkuj techniki wytłaczania liniowego, twórz oszałamiające projekty i uwolnij swoją kreatywność.
-type: docs
 weight: 10
 url: /pl/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Centrum w wytłaczaniu liniowym
+
 ## Wstęp
 
 Witamy w tym kompleksowym przewodniku na temat opanowania wytłaczania liniowego przy użyciu Aspose.3D dla .NET. Jeśli chcesz udoskonalić swoje umiejętności modelowania 3D i tworzyć wspaniałe profile, jesteś we właściwym miejscu. W tym samouczku zagłębimy się w technikę wytłaczania liniowego, koncentrując się szczególnie na aspekcie centrowania, aby przenieść Twoje projekty na zupełnie nowy poziom.
@@ -109,3 +115,10 @@ O1: Aspose.3D obsługuje przede wszystkim języki .NET, takie jak C# i VB.NET.
 ### P5: Gdzie mogę kupić licencję Aspose.3D for .NET?
 
  A5: Kup licencję[Tutaj](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

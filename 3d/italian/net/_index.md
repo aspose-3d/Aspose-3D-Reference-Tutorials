@@ -1,12 +1,17 @@
 ---
 title: Tutorial completi ed esempi di Aspose.3D per .NET
 linktitle: Aspose.3D per .NET Tutorial
-type: docs
 weight: 10
 url: /it/net/
 description: Sblocca il mondo della modellazione e dell'animazione 3D con i tutorial Aspose.3D per .NET. Migliora i tuoi progetti senza sforzo, dal rendering all'estrusione lineare.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial completi ed esempi di Aspose.3D per .NET
+
 ## introduzione
 
 Sei pronto per intraprendere un viaggio nell'entusiasmante regno della modellazione e dell'animazione 3D? Non cercare oltre: Aspose.3D per .NET ti offre una raccolta completa di tutorial ed esempi, progettati per liberare la tua creatività ed elevare i tuoi progetti a nuovi livelli.
@@ -60,3 +65,9 @@ Intraprendi un viaggio nel mondo dell'animazione 3D con i tutorial Aspose.3D per
 
 
 Sblocca il potenziale creativo dentro di te e tuffati nel mondo dei tutorial Aspose.3D per .NET. Scarica subito la versione di prova ed eleva i tuoi progetti 3D a livelli straordinari!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

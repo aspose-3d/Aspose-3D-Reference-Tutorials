@@ -1,12 +1,17 @@
 ---
 title: دروس وأمثلة شاملة عن Aspose.3D لـ .NET
 linktitle: Aspose.3D لبرامج .NET التعليمية
-type: docs
 weight: 10
 url: /ar/net/
 description: افتح عالم النماذج ثلاثية الأبعاد والرسوم المتحركة باستخدام دروس Aspose.3D لـ .NET. ارفع مستوى مشروعاتك دون عناء - بدءًا من العرض وحتى البثق الخطي.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دروس وأمثلة شاملة عن Aspose.3D لـ .NET
+
 ## مقدمة
 
 هل أنت مستعد للشروع في رحلة إلى عالم مثير للنمذجة ثلاثية الأبعاد والرسوم المتحركة؟ لا مزيد من البحث - يقدم لك Aspose.3D for .NET مجموعة شاملة من البرامج التعليمية والأمثلة، المصممة لإطلاق العنان لإبداعك والارتقاء بمشاريعك إلى آفاق جديدة.
@@ -60,3 +65,9 @@ is_root: true
 
 
 أطلق العنان للإمكانات الإبداعية بداخلك وانغمس في عالم Aspose.3D لبرامج .NET التعليمية. قم بتنزيل نسختك التجريبية الآن وارفع مشاريعك ثلاثية الأبعاد إلى مستويات غير عادية!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

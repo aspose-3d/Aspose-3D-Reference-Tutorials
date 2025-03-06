@@ -3,10 +3,16 @@ title: Erstellen von 3D-Modellen mit linearer Extrusion in Java
 linktitle: Erstellen von 3D-Modellen mit linearer Extrusion in Java
 second_title: Aspose.3D Java-API
 description: Entdecken Sie die Welt der 3D-Modellierung mit Aspose.3D für Java. Meistern Sie die lineare Extrusion mühelos. Kontrollieren Sie das Zentrum, legen Sie die Richtung fest, geben Sie Slices an, wenden Sie Drehungen an und mehr!
-type: docs
 weight: 23
 url: /de/java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen von 3D-Modellen mit linearer Extrusion in Java
+
 ## Einführung
 
 
@@ -62,3 +68,9 @@ Erfahren Sie, wie Sie mit Aspose.3D für Java Slices in der linearen Extrusion a
 Erfahren Sie, wie Sie Ihren 3D-Modellen mit Aspose.3D für Java eine besondere Note verleihen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für verbesserte lineare Extrusionseffekte.
 ### [Verwenden von Twist Offset in der linearen Extrusion mit Aspose.3D für Java](./using-twist-offset/)
 Verbessern Sie Ihre 3D-Modellierungskenntnisse mit Aspose.3D für Java. Erfahren Sie in diesem umfassenden Tutorial, wie Sie den Verdrehungsversatz in der linearen Extrusion verwenden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

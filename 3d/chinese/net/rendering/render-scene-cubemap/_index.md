@@ -3,10 +3,16 @@ title: 将场景渲染为具有六个面的立方体贴图
 linktitle: 将场景渲染为具有六个面的立方体贴图
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 创建令人惊叹的立方体贴图。按照我们的分步指南将 3D 场景渲染为迷人的六面立方体贴图。
-type: docs
 weight: 14
 url: /zh/net/rendering/render-scene-cubemap/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将场景渲染为具有六个面的立方体贴图
+
 ## 介绍
 欢迎阅读本分步指南，了解如何使用 Aspose.3D for .NET 将场景渲染为具有六个面的立方体贴图。在本教程中，我们将引导您完成通过渲染 3D 场景来创建令人惊叹的立方体贴图的过程。 Aspose.3D 是一个功能强大的 .NET API，可简化 3D 图形操作，通过本指南，您将利用其功能来创建迷人的立方体贴图。
 ## 先决条件
@@ -86,3 +92,9 @@ cubemap.Save(fileNames, ImageFormat.Png);
 绝对地！ Aspose.3D支持渲染动画3D场景。
 ### 问：在哪里可以找到详细的文档？
 请参阅[Aspose.3D 文档](https://reference.aspose.com/3d/net/)以获得深入的信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

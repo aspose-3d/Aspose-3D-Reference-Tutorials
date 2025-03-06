@@ -3,10 +3,16 @@ title: تحويل العقدة بواسطة مصفوفة التحويل
 linktitle: تحويل العقدة بواسطة مصفوفة التحويل
 second_title: Aspose.3D.NET API
 description: قم بتحويل العقد بسهولة في مشاهد ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. تعلم تحويلات العقدة خطوة بخطوة مع البرنامج التعليمي.
-type: docs
 weight: 21
 url: /ar/net/geometry-and-hierarchy/transformation-node-matrix/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل العقدة بواسطة مصفوفة التحويل
+
 ## مقدمة
 
 في العالم الديناميكي للرسومات والمرئيات ثلاثية الأبعاد، تعد القدرة على التعامل مع الكائنات داخل المشهد جانبًا بالغ الأهمية. يعمل Aspose.3D for .NET على تمكين المطورين من تحويل العقد بسلاسة باستخدام مصفوفات التحويل، مما يضيف طبقة من الإبداع والتحكم إلى المشاهد ثلاثية الأبعاد. سيرشدك هذا البرنامج التعليمي خلال عملية تحويل العقدة إلى مشهد ثلاثي الأبعاد خطوة بخطوة.
@@ -112,3 +118,9 @@ A1: مصفوفة التحويل هي تمثيل رياضي يستخدم لتطب
 ### س5: أين يمكنني طلب المساعدة أو التواصل مع مجتمع Aspose.3D؟
 
  ج5: قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) لطرح الأسئلة ومشاركة الخبرات والتواصل مع المطورين الآخرين باستخدام Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

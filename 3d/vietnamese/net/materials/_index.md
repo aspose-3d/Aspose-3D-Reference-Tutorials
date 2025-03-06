@@ -3,10 +3,16 @@ title: Nguyên vật liệu
 linktitle: Nguyên vật liệu
 second_title: API Aspose.3D .NET
 description: Mở khóa thế giới cảnh 3D quyến rũ với hướng dẫn Aspose.3D cho .NET. Tìm hiểu cách tạo cảnh tuyệt đẹp và khám phá các kết cấu được nhúng một cách dễ dàng.
-type: docs
 weight: 28
 url: /vi/net/materials/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nguyên vật liệu
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng bắt đầu cuộc hành trình vào thế giới thú vị của thiết kế và trực quan hóa 3D chưa? Aspose.3D cho .NET mở ra cánh cửa đến một thế giới nơi sự sáng tạo không có giới hạn. Trong bài viết này, chúng tôi sẽ hướng dẫn bạn một loạt hướng dẫn, mỗi hướng dẫn sẽ mở khóa một khía cạnh mới của thư viện .NET mạnh mẽ này.
@@ -31,3 +37,9 @@ Mở khóa tiềm năng của Aspose.3D cho .NET ngay hôm nay. Tải xuống th
 Tạo cảnh 3D đầy mê hoặc với họa tiết được nhúng bằng Aspose.3D cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có kết quả tuyệt vời.
 ### [Kết cấu nhúng](./dump-embedded-textures/)
 Mở khóa bí mật của kết cấu nhúng trong mô hình 3D với Aspose.3D cho .NET. Đi sâu vào hướng dẫn từng bước của chúng tôi để tích hợp liền mạch. Tải về dùng thử ngay!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tạo và chuyển đổi lưới 3D trong Java
 linktitle: Tạo và chuyển đổi lưới 3D trong Java
 second_title: API Java Aspose.3D
 description: Khai phá tiềm năng của đồ họa 3D với Aspose.3D cho Java. Dễ dàng tạo, chuyển đổi và tối ưu hóa lưới. Nâng cao trải nghiệm viết mã của bạn với các hướng dẫn của chúng tôi.
-type: docs
 weight: 31
 url: /vi/java/transforming-3d-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo và chuyển đổi lưới 3D trong Java
+
 
 ## Giới thiệu
 
@@ -42,3 +48,9 @@ Nâng cao đồ họa 3D của bạn với Aspose.3D cho Java. Tạo dữ liệu
 Bắt tay vào cuộc hành trình làm chủ đồ họa 3D với Aspose.3D cho Java - dễ dàng chuyển đổi các nguyên thủy thành các mắt lưới đầy mê hoặc. Nâng cao trải nghiệm mã hóa của bạn ngay bây giờ!
 ### [Tùy chỉnh bố cục bộ nhớ cho lưới 3D trong Java](./customize-mesh-memory-layout/)
 Nâng cao mô hình Java 3D của bạn với Aspose.3D: tùy chỉnh bố cục bộ nhớ để có hiệu suất tối ưu. Hãy làm theo hướng dẫn từng bước của chúng tôi ngay bây giờ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konfigurowanie normalnych w kostce
 linktitle: Konfigurowanie normalnych w kostce
 second_title: Aspose.3D API .NET
 description: Naucz się konfigurować normalne na kostce 3D przy użyciu Aspose.3D dla .NET. Popraw swoje umiejętności modelowania 3D dzięki temu przewodnikowi krok po kroku.
-type: docs
 weight: 17
 url: /pl/net/geometry-and-hierarchy/setup-normals-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurowanie normalnych w kostce
+
 ## Wstęp
 
 Witamy w naszym przewodniku krok po kroku dotyczącym konfigurowania normalnych na kostce w scenach 3D przy użyciu Aspose.3D dla .NET. Aspose.3D to potężna biblioteka, która umożliwia programistom .NET pracę z plikami 3D, zapewniając szeroki zakres funkcjonalności do modelowania i manipulacji 3D.
@@ -100,3 +106,9 @@ A2: Absolutnie! Możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](ht
 ### P5: Czy są jakieś dodatkowe zasoby do nauki Aspose.3D?
 
  A5: Poznaj obszerne[dokumentacja](https://reference.aspose.com/3d/net/) aby odkryć więcej funkcji i wskazówek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Κέντρο στη Γραμμική Εξώθηση
 linktitle: Κέντρο στη Γραμμική Εξώθηση
 second_title: Aspose.3D .NET API
 description: Εξερευνήστε τον κόσμο της τρισδιάστατης μοντελοποίησης με το Aspose.3D για .NET. Επικεντρώστε τις τεχνικές γραμμικής εξώθησης, δημιουργήστε εντυπωσιακά σχέδια και απελευθερώστε τη δημιουργικότητά σας.
-type: docs
 weight: 10
 url: /el/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κέντρο στη Γραμμική Εξώθηση
+
 ## Εισαγωγή
 
 Καλώς ήλθατε σε αυτόν τον περιεκτικό οδηγό για τον έλεγχο της γραμμικής εξώθησης χρησιμοποιώντας το Aspose.3D για .NET. Αν θέλετε να βελτιώσετε τις δεξιότητές σας στην τρισδιάστατη μοντελοποίηση και να δημιουργήσετε εκπληκτικές εξωθήσεις, βρίσκεστε στο σωστό μέρος. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στην τεχνική της γραμμικής εξώθησης, εστιάζοντας συγκεκριμένα στην πτυχή κεντραρίσματος για να φέρουμε τα σχέδιά σας σε ένα εντελώς νέο επίπεδο.
@@ -109,3 +115,10 @@ A1: Το Aspose.3D υποστηρίζει κυρίως γλώσσες .NET όπ�
 ### Ε5: Πού μπορώ να αγοράσω την άδεια χρήσης Aspose.3D για .NET;
 
  A5: Αγοράστε την άδειά σας[εδώ](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

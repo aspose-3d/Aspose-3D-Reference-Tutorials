@@ -3,10 +3,16 @@ title: Aspose.3D for Java を使用した線形押し出しでのスライスの
 linktitle: Aspose.3D for Java を使用した線形押し出しでのスライスの指定
 second_title: Aspose.3D Java API
 description: Aspose.3D for Java を使用して線形押し出しでスライスを指定する方法を学びます。このステップバイステップのガイドで 3D モデリングのスキルを向上させましょう。
-type: docs
 weight: 13
 url: /ja/java/linear-extrusion/specifying-slices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java を使用した線形押し出しでのスライスの指定
+
 ## 導入
 
 複雑な 3D モデルの作成には、多くの場合、創造性以上のものが必要です。自由に使えるツールを完全に理解することが必要です。 Aspose.3D for Java は、この点で大きな変革をもたらします。このチュートリアルでは、線形押し出しでのスライスの指定という特定の側面に焦点を当てます。
@@ -93,3 +99,9 @@ scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### Q5: 一時ライセンスを購入できますか?
 
  A5: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

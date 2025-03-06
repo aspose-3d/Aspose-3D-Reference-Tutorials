@@ -3,10 +3,16 @@ title: วิธีสร้างเอกสาร 3D เปล่าใน Ja
 linktitle: วิธีสร้างเอกสาร 3D เปล่าใน Java โดยใช้ Aspose.3D
 second_title: Aspose.3D จาวา API
 description: สำรวจโลกของกราฟิก 3 มิติด้วย Aspose.3D สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสร้างเอกสาร 3D เปล่าได้อย่างง่ายดาย
-type: docs
 weight: 10
 url: /th/java/load-and-save/create-empty-3d-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# วิธีสร้างเอกสาร 3D เปล่าใน Java โดยใช้ Aspose.3D
+
 ## การแนะนำ
 
 ในขอบเขตของกราฟิก 3 มิติและการแสดงภาพ Aspose.3D สำหรับ Java มีความโดดเด่นในฐานะเครื่องมืออันทรงพลังสำหรับนักพัฒนา ด้วยคุณสมบัติที่หลากหลายและฟังก์ชันการทำงานที่แข็งแกร่ง ทำให้เป็นแพลตฟอร์มที่ยอดเยี่ยมสำหรับการสร้างและจัดการเอกสาร 3D ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการสร้างเอกสาร 3D เปล่าใน Java โดยใช้ Aspose.3D
@@ -93,3 +99,9 @@ System.out.println("\nAn empty 3D document created successfully.\nFile saved at 
 ### คำถามที่ 5: ฉันจะขอรับการสนับสนุนหรือหารือเกี่ยวกับคำถามที่เกี่ยวข้องกับ Aspose.3D ได้ที่ไหน
 
  A5: เยี่ยมชมฟอรั่มชุมชน[ที่นี่](https://forum.aspose.com/c/3d/18) สำหรับการสนับสนุนและการอภิปราย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

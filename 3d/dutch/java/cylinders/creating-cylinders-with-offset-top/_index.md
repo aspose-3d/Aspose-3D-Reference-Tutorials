@@ -3,10 +3,16 @@ title: Cilinders maken met Offset Top in Aspose.3D voor Java
 linktitle: Cilinders maken met Offset Top in Aspose.3D voor Java
 second_title: Aspose.3D Java-API
 description: Ontdek de wonderen van 3D-modellering in Java met Aspose.3D. Leer moeiteloos boeiende cilinders met offset-bovenkanten te maken.
-type: docs
 weight: 11
 url: /nl/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cilinders maken met Offset Top in Aspose.3D voor Java
+
 ## Invoering
 
 Op het gebied van op Java gebaseerde 3D-modellering onderscheidt Aspose.3D zich als een krachtig hulpmiddel, dat ontwikkelaars de mogelijkheid biedt om met gemak ingewikkelde 3D-scènes te creëren. In deze tutorial duiken we in de fascinerende wereld van Aspose.3D voor Java, waarbij we ons concentreren op een specifieke taak: het maken van cilinders met offset-bovenkanten. Aan het einde van deze handleiding heeft u het proces goed onder de knie, zodat u deze functie naadloos in uw 3D-projecten kunt integreren.
@@ -127,3 +133,9 @@ A3: Ja, u kunt de licentieoptie verkennen en kiezen die bij uw behoeften past[hi
 ### Vraag 5: Is er een tijdelijke licentieoptie voor testdoeleinden?
 
  A5: Ja, u kunt een tijdelijke licentie verkrijgen voor test- en evaluatiedoeleinden[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

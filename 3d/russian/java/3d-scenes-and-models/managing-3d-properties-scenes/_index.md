@@ -3,10 +3,16 @@ title: Работайте с 3D-свойствами и пользователь
 linktitle: Работайте с 3D-свойствами и пользовательскими данными в сценах Java с помощью Aspose.3D
 second_title: Aspose.3D Java API
 description: Усовершенствуйте свои Java-приложения с помощью Aspose.3D для беспрепятственного управления 3D-свойствами. Следуйте нашему руководству для получения пошаговых инструкций.
-type: docs
 weight: 14
 url: /ru/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работайте с 3D-свойствами и пользовательскими данными в сценах Java с помощью Aspose.3D
+
 ## Введение
 
 Добро пожаловать в подробное руководство по работе с 3D-свойствами и пользовательскими данными в сценах Java с использованием Aspose.3D. В этом руководстве мы углубимся в мощные функции Aspose.3D, предоставив пошаговые инструкции по управлению 3D-свойствами в ваших Java-приложениях.
@@ -124,3 +130,9 @@ A4: Да, посетите[Форум поддержки Aspose.3D](https://foru
 ### В5: Как я могу получить временную лицензию на Aspose.3D?
 
  О5: Вы можете приобрести временную лицензию, посетив[эта ссылка](https://purchase.aspose.com/temporary-license/) на сайте Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

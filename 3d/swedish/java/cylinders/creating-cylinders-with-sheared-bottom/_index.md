@@ -3,10 +3,16 @@ title: Skapa cylindrar med klippt botten i Aspose.3D för Java
 linktitle: Skapa cylindrar med klippt botten i Aspose.3D för Java
 second_title: Aspose.3D Java API
 description: Lär dig att skapa skräddarsydda cylindrar med klippta botten med Aspose.3D för Java. Öka dina färdigheter i 3D-modellering med denna steg-för-steg-guide.
-type: docs
 weight: 12
 url: /sv/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa cylindrar med klippt botten i Aspose.3D för Java
+
 ## Introduktion
 
 Välkommen till den här steg-för-steg-guiden för att skapa cylindrar med skuren botten med Aspose.3D för Java. Aspose.3D är ett kraftfullt Java-bibliotek som låter dig arbeta med 3D-filer utan ansträngning. I den här handledningen kommer vi att dyka ner i att skapa skräddarsydda cylindrar med klippta bottnar, vilket ger dig en praktisk erfarenhet av att använda Aspose.3D för att förbättra dina färdigheter i 3D-modellering.
@@ -100,3 +106,9 @@ S2: Ja, Aspose.3D tillhandahåller ett användarvänligt API, vilket gör det l�
 ### F5: Kan jag köpa Aspose.3D för Java?
 
  S5: Ja, du kan köpa Aspose.3D för Java[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

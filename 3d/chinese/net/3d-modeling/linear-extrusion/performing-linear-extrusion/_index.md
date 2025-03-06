@@ -3,10 +3,16 @@ title: 执行线性挤出
 linktitle: 执行线性挤出
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 图形世界。在本分步指南中执行线性挤出。
-type: docs
 weight: 12
 url: /zh/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 执行线性挤出
+
 ## 介绍：
 
 使用 Aspose.3D for .NET 开启 3D 图形领域的激动人心的旅程，Aspose.3D for .NET 是一个可提升您的开发游戏水平的强大工具。在本教程中，我们将深入研究线性挤压的复杂性，这是一项令人着迷的技术，它为静态 2D 轮廓注入生命，推动它们进入 3D 的动态世界。让我们使用 Aspose.3D 打开创造力和创新之门！
@@ -106,3 +112,9 @@ A1：当然！ Aspose.3D 提供了一个用户友好的环境，我们的教程�
 ### Q5: 有免费试用吗？
 
  A5：当然！下载免费试用版[这里](https://releases.aspose.com/)亲身体验 Aspose.3D 的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

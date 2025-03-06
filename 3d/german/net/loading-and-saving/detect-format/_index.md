@@ -3,10 +3,16 @@ title: Format erkennen
 linktitle: Format erkennen
 second_title: Aspose.3D .NET API
 description: Meistern Sie mühelos die Bearbeitung von 3D-Dateien mit Aspose.3D für .NET. Laden, speichern und erkennen Sie Formate nahtlos.
-type: docs
 weight: 12
 url: /de/net/loading-and-saving/detect-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Format erkennen
+
 ## Einführung
 
 Willkommen in der aufregenden Welt der 3D-Dateibearbeitung mit Aspose.3D für .NET! Unabhängig davon, ob Sie ein erfahrener Entwickler sind oder gerade erst mit 3D-Grafiken beginnen, führt Sie dieses Tutorial mit Leichtigkeit durch den Prozess des Ladens, Speicherns und Erkennens von Formaten.
@@ -93,3 +99,9 @@ A1: Ja, Aspose.3D unterstützt eine Vielzahl von 3D-Dateiformaten und bietet so 
 ### F5: Kann ich Aspose.3D vor dem Kauf kostenlos testen?
 
  A5: Auf jeden Fall! Laden Sie die kostenlose Testversion herunter von[Aspose.3D-Veröffentlichungen](https://releases.aspose.com/) um seine Fähigkeiten aus erster Hand zu erleben.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

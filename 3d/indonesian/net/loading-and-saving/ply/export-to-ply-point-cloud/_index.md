@@ -3,10 +3,16 @@ title: Mengekspor ke Format PLY sebagai Point Cloud
 linktitle: Mengekspor ke Format PLY sebagai Point Cloud
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia pemodelan 3D dengan Aspose.3D untuk .NET. Pelajari cara mengekspor model ke format PLY dengan mudah. Tingkatkan proyek Anda dengan visual yang menakjubkan.
-type: docs
 weight: 16
 url: /id/net/loading-and-saving/ply/export-to-ply-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekspor ke Format PLY sebagai Point Cloud
+
 ## Perkenalan
 Dalam dunia pemodelan dan pengembangan 3D yang dinamis, Aspose.3D untuk .NET menonjol sebagai perangkat yang canggih. Tutorial ini akan memandu Anda melalui proses mengekspor model 3D ke format PLY sebagai point cloud menggunakan Aspose.3D untuk .NET. Jika Anda siap untuk menyempurnakan proyek Anda dengan visual yang menakjubkan, ikuti dan buka potensi penuh dari perpustakaan serbaguna ini.
 ## Prasyarat
@@ -59,3 +65,9 @@ Aspose.3D mendukung berbagai kerangka .NET, memastikan kompatibilitas di berbaga
  Ya, jelajahi fitur-fiturnya dengan a[uji coba gratis](https://releases.aspose.com/) sebelum membuat komitmen.
 ### 5. Bagaimana cara mendapatkan izin sementara?
  Untuk opsi lisensi sementara, kunjungi[Link ini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

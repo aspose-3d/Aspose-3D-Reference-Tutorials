@@ -3,10 +3,16 @@ title: Εφαρμογή Twist σε Γραμμική Εξώθηση με Aspose.3
 linktitle: Εφαρμογή Twist σε Γραμμική Εξώθηση με Aspose.3D για Java
 second_title: Aspose.3D Java API
 description: Μάθετε πώς μπορείτε να προσθέσετε μια ανατροπή στα τρισδιάστατα μοντέλα σας χρησιμοποιώντας το Aspose.3D για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για βελτιωμένα εφέ γραμμικής εξώθησης.
-type: docs
 weight: 14
 url: /el/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή Twist σε Γραμμική Εξώθηση με Aspose.3D για Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτό το βήμα προς βήμα σεμινάριο σχετικά με την εφαρμογή περιστροφής στη γραμμική εξώθηση χρησιμοποιώντας το Aspose.3D για Java. Το Aspose.3D είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται με μορφές αρχείων 3D, προσφέροντας ισχυρή λειτουργικότητα για τη δημιουργία, το χειρισμό και την απόδοση σκηνών 3D. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να εφαρμόσετε ένα εφέ περιστροφής κατά τη διάρκεια της διαδικασίας γραμμικής εξώθησης για να βελτιώσετε τα τρισδιάστατα μοντέλα σας.
@@ -119,3 +125,9 @@ A1: Ναι, το Aspose.3D υποστηρίζει διάφορες μορφές 
 ### Ε5: Πού μπορώ να αγοράσω το Aspose.3D για Java;
 
  A5: Αγορά Aspose.3D για Java από το[σελίδα αγοράς](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

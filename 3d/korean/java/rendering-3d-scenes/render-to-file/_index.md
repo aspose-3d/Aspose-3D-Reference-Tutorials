@@ -3,10 +3,16 @@ title: Java용 Aspose.3D를 사용하여 렌더링된 3D 장면을 이미지 파
 linktitle: Java용 Aspose.3D를 사용하여 렌더링된 3D 장면을 이미지 파일로 저장
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D로 3D 그래픽의 세계를 열어보세요. 멋진 장면을 손쉽게 이미지로 저장하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/java/rendering-3d-scenes/render-to-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D를 사용하여 렌더링된 3D 장면을 이미지 파일로 저장
+
 ## 소개
 
 놀라운 3D 장면을 만드는 것은 흥미로운 모험이며, Java용 Aspose.3D를 사용하면 프로세스가 더욱 보람을 느끼게 됩니다. 이 포괄적인 튜토리얼은 Java용 Aspose.3D를 사용하여 렌더링된 3D 장면을 이미지 파일에 저장하는 단계를 안내합니다. 숙련된 개발자이든 3D 그래픽 세계를 처음 접하는 초보자이든 이 가이드는 여러분의 창작물에 생명을 불어넣는 데 필요한 필수 지식을 제공할 것입니다.
@@ -91,3 +97,9 @@ scene.render(camera, output, new Dimension(1024, 1024), "png");
 ### Q5: 구매하기 전에 Java용 Aspose.3D를 사용해 볼 수 있나요?
 
  A5: 물론이죠! 무료 평가판 다운로드[여기](https://releases.aspose.com/) 그 능력을 직접 경험해 보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

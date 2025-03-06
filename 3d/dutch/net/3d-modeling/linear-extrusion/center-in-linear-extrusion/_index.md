@@ -3,10 +3,16 @@ title: Centrum in lineaire extrusie
 linktitle: Centrum in lineaire extrusie
 second_title: Aspose.3D .NET-API
 description: Ontdek de wereld van 3D-modellering met Aspose.3D voor .NET. Centreer lineaire extrusietechnieken, creëer verbluffende ontwerpen en laat uw creativiteit de vrije loop.
-type: docs
 weight: 10
 url: /nl/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Centrum in lineaire extrusie
+
 ## Invoering
 
 Welkom bij deze uitgebreide handleiding over het beheersen van lineaire extrusie met Aspose.3D voor .NET. Als u uw vaardigheden op het gebied van 3D-modelleren wilt verbeteren en verbluffende extrusies wilt maken, bent u hier aan het juiste adres. In deze tutorial gaan we dieper in op de lineaire extrusietechniek, waarbij we ons specifiek concentreren op het centreeraspect om uw ontwerpen naar een geheel nieuw niveau te brengen.
@@ -109,3 +115,10 @@ A1: Aspose.3D ondersteunt voornamelijk .NET-talen zoals C# en VB.NET.
 ### V5: Waar kan ik de Aspose.3D voor .NET-licentie kopen?
 
  A5: Koop uw licentie[hier](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

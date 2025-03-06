@@ -3,10 +3,16 @@ title: Maglie
 linktitle: Maglie
 second_title: API Aspose.3D .NET
 description: Svela i segreti di Aspose.3D per .NET con i nostri tutorial completi. Ottimizza i modelli 3D, converti le primitive in mesh e migliora la grafica senza sforzo.
-type: docs
 weight: 26
 url: /it/net/meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maglie
+
 ## introduzione
 
 Aspose.3D per .NET apre un mondo di possibilità per gli sviluppatori che desiderano immergersi nella complessità delle mesh 3D. In questo articolo ti guideremo attraverso vari tutorial sulle mesh, ognuno dei quali offre una prospettiva unica su come sfruttare tutto il potenziale di Aspose.3D per .NET.
@@ -69,3 +75,9 @@ Padroneggia l'arte di dividere le mesh 3D per materiale con Aspose.3D per .NET. 
 [Leggi il tutorial: Dividi mesh per materiale](./split-mesh-by-material/)
 
 In conclusione, i nostri tutorial Aspose.3D per .NET offrono una guida completa per padroneggiare vari aspetti della modellazione 3D. Immergiti, migliora le tue abilità e migliora il tuo gioco di sviluppo 3D!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Optimalizujte ukládání 3D souborů v Javě pomocí Aspose.3D SaveOptio
 linktitle: Optimalizujte ukládání 3D souborů v Javě pomocí Aspose.3D SaveOptions
 second_title: Aspose.3D Java API
 description: Naučte se optimalizovat ukládání 3D souborů v Javě pomocí Aspose.3D SaveOptions. Zvyšte výkon a přizpůsobte výstupy bez námahy.
-type: docs
 weight: 16
 url: /cs/java/load-and-save/optimize-3d-file-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optimalizujte ukládání 3D souborů v Javě pomocí Aspose.3D SaveOptions
+
 ## Úvod
 
 Aspose.3D je knihovna Java s bohatými funkcemi, která umožňuje vývojářům bezproblémově pracovat s 3D modely. Pokud jde o ukládání 3D souborů, třída SaveOptions nabízí nepřeberné množství nastavení pro doladění výstupu podle vašich požadavků. V tomto tutoriálu prozkoumáme různé možnosti ukládání a jak je lze využít k optimalizaci procesu.
@@ -119,3 +125,9 @@ A4: Využijte`setFileSystem(new DummyFileSystem())` metoda v`ObjSaveOptions` tř
 ### Q5: Existuje způsob, jak uložit závislosti do místního adresáře v souboru OBJ?
 
  A5: Ano, použijte`setFileSystem(new LocalFileSystem(MyDir))` metoda v`ObjSaveOptions` třída pro místní uložení závislostí.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: XPath-szerű lekérdezések alkalmazása 3D objektumokra Java nyelven
 linktitle: XPath-szerű lekérdezések alkalmazása 3D objektumokra Java nyelven
 second_title: Aspose.3D Java API
 description: Az Aspose.3D segítségével könnyedén kezelheti a 3D objektumlekérdezéseket Java nyelven. Alkalmazzon XPath-szerű lekérdezéseket, kezelje a jeleneteket, és emelje fel a 3D-s fejlesztést.
-type: docs
 weight: 11
 url: /hu/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XPath-szerű lekérdezések alkalmazása 3D objektumokra Java nyelven
+
 ## Bevezetés
 
 Java 3D-s modellezése és jelenetmanipulációja ijesztő feladat lehet, de ne félj! Az Aspose.3D for Java robusztus megoldást kínál a 3D objektumok kezelésére, így a fejlesztők számára felbecsülhetetlen értékű eszköz. Ebben az oktatóanyagban végigvezetjük az XPath-szerű lekérdezések 3D objektumokra történő alkalmazásán Java nyelven az Aspose.3D használatával.
@@ -99,3 +105,9 @@ Ebben az oktatóanyagban tisztáztuk az XPath-szerű lekérdezések 3D objektumo
 ### 5. kérdés: Ideiglenes engedélyre van szüksége?
 
  V5: Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

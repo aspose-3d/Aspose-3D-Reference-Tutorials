@@ -3,10 +3,16 @@ title: 解码网
 linktitle: 解码网
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 轻松解码网格。无缝 3D 编程的门户。探索、定制和提升您的项目。
-type: docs
 weight: 10
 url: /zh/net/loading-and-saving/draco/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 解码网
+
 ## 介绍
 想象一下：您正处于 3D 开发领域，努力解码复杂的网格结构。挑战是真实的，但不要害怕！当我们踏上这一旅程时，我们将使用 Aspose.3D for .NET（您在 3D 编程领域值得信赖的伴侣）探索网格解码的迷宫。
 ## 先决条件
@@ -55,3 +61,9 @@ var pointCloud = (PointCloud)FileFormat.Draco.Decode("Your Document Directory" +
 当然！抓住你的[免费试用](https://releases.aspose.com/)在做出任何承诺之前体验 Aspose.3D 的强大功能。
 ### 短期项目需要临时许可证吗？
 前往[临时牌照](https://purchase.aspose.com/temporary-license/)并获取适合您项目需求的临时许可证。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

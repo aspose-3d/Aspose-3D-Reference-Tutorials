@@ -1,12 +1,17 @@
 ---
 title: Comprehensive Tutorials & Examples of Aspose.3D for Java
 linktitle: Aspose.3D for Java Tutorials
-type: docs
 weight: 10
 url: /java/
 description: Discover the power of Aspose.3D for Java through comprehensive tutorials. Elevate your Java 3D projects with tutorials on animations, geometry, licensing, and more!
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprehensive Tutorials & Examples of Aspose.3D for Java
+
 ## Introduction
 
 Are you ready to take your Java 3D projects to the next level? Dive into the world of Aspose.3D for Java with our comprehensive tutorials and examples. Whether you're a seasoned developer or just starting, our step-by-step guides will empower you to unleash the full potential of Aspose.3D.
@@ -74,3 +79,10 @@ Unlock the world of Java 3D programming with Aspose.3D tutorials. Learn to modif
 Effortlessly decode, load, create, export, and streamline point clouds in Java with Aspose.3D tutorials. Enhance your 3D development skills step by step with our guides on working with point clouds.
 
 Explore the rich world of Aspose.3D for Java through our tutorials. From animations and geometry to file manipulation and optimization, our guides cover it all. Elevate your Java 3D development skills and create stunning visual experiences!
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

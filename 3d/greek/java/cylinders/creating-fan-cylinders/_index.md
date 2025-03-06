@@ -3,10 +3,16 @@ title: Δημιουργία προσαρμοσμένων κυλίνδρων αν
 linktitle: Δημιουργία προσαρμοσμένων κυλίνδρων ανεμιστήρων με το Aspose.3D για Java
 second_title: Aspose.3D Java API
 description: Μάθετε να δημιουργείτε προσαρμοσμένους κυλίνδρους ανεμιστήρων σε Java με το Aspose.3D. Αναβαθμίστε το παιχνίδι 3D μοντελοποίησης χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/java/cylinders/creating-fan-cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία προσαρμοσμένων κυλίνδρων ανεμιστήρων με το Aspose.3D για Java
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να βελτιώσετε την εμπειρία 3D μοντελοποίησης με το Aspose.3D για Java; Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία δημιουργίας προσαρμοσμένων κυλίνδρων ανεμιστήρων χρησιμοποιώντας την ισχυρή βιβλιοθήκη Aspose.3D. Είτε είστε έμπειρος προγραμματιστής είτε αρχάριος, αυτός ο οδηγός βήμα προς βήμα θα σας βοηθήσει να απελευθερώσετε πλήρως τις δυνατότητες του Aspose.3D στην Java.
@@ -124,3 +130,9 @@ A1: Το Aspose.3D έχει σχεδιαστεί για να λειτουργε�
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.3D;
 
  A5: Αποκτήστε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/) για τις ανάγκες δοκιμών και ανάπτυξης σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การถอดรหัส Mesh จากรูปแบบ PLY
 linktitle: การถอดรหัส Mesh จากรูปแบบ PLY
 second_title: Aspose.3D .NET API
 description: ปลดล็อกความลับของเวทมนตร์ 3 มิติ! ถอดรหัส mesh จากรูปแบบ PLY ได้อย่างง่ายดายด้วย Aspose.3D สำหรับ .NET ยกระดับโครงการของคุณสู่มิติใหม่
-type: docs
 weight: 11
 url: /th/net/loading-and-saving/ply/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การถอดรหัส Mesh จากรูปแบบ PLY
+
 ## การแนะนำ
 ลองนึกภาพสิ่งนี้: คุณกำลังค้นหาชีวิตชีวาให้กับโปรเจ็กต์ 3D ของคุณ โดยเพิ่มความพิเศษอีกชั้นที่แยกสิ่งธรรมดาออกจากสิ่งพิเศษ แต่คุณจะเริ่มต้นที่ไหน? อย่ากลัวเลย นักพัฒนาผู้กล้าหาญ! ยินดีต้อนรับสู่อาณาจักรของ Aspose.3D สำหรับ .NET ที่ซึ่งความคิดสร้างสรรค์มาบรรจบกับฟังก์ชันการทำงานในการเต้นที่กลมกลืนกัน
 ในโลกแห่งการเขียนโปรแกรมที่มีการพัฒนาอยู่ตลอดเวลา Aspose.3D ถือเป็นสัญญาณที่นำเสนอชุดเครื่องมือที่มีประสิทธิภาพเพื่อขยายความสามารถ .NET ของคุณในขอบเขตของเวทมนตร์สามมิติ ในบทช่วยสอนนี้ เราจะเริ่มต้นการเดินทางเพื่อถอดรหัส Mesh จากรูปแบบ PLY โดยใช้ Aspose.3D เพื่อไขความลับของการผสานรวม 3D ที่ราบรื่น
@@ -57,3 +63,9 @@ Console.WriteLine($"Mesh Triangles: {mesh.Triangles.Count}");
 ตอบ: แน่นอน! คว้าของคุณ[ทดลองฟรี](https://releases.aspose.com/) และสัมผัสความมหัศจรรย์ของ Aspose.3D ได้โดยตรง
 ### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับการทดสอบแบบขยายเวลาได้อย่างไร
  ตอบ: เยี่ยมชม[ลิงค์นี้](https://purchase.aspose.com/temporary-license/) เพื่อรักษาใบอนุญาตชั่วคราวสำหรับประสบการณ์การทดลองใช้งานที่สมจริง
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Menyiapkan Normal pada Cube
 linktitle: Menyiapkan Normal pada Cube
 second_title: Aspose.3D .NET API
 description: Pelajari cara mengatur normal pada kubus 3D menggunakan Aspose.3D untuk .NET. Tingkatkan keterampilan pemodelan 3D Anda dengan panduan langkah demi langkah ini.
-type: docs
 weight: 17
 url: /id/net/geometry-and-hierarchy/setup-normals-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menyiapkan Normal pada Cube
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami tentang menyiapkan normal pada kubus dalam adegan 3D menggunakan Aspose.3D untuk .NET. Aspose.3D adalah perpustakaan canggih yang memungkinkan pengembang .NET bekerja dengan file 3D, menyediakan berbagai fungsi untuk pemodelan dan manipulasi 3D.
@@ -100,3 +106,9 @@ A2: Tentu saja! Anda dapat mengunduh uji coba gratis dari[Di Sini](https://relea
 ### Q5: Apakah ada sumber tambahan untuk mempelajari Aspose.3D?
 
  A5: Jelajahi yang luas[dokumentasi](https://reference.aspose.com/3d/net/) untuk menemukan lebih banyak fitur dan tip.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

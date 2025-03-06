@@ -3,10 +3,16 @@ title: Java 애플리케이션의 3D 장면에서 정보 검색
 linktitle: Java 애플리케이션의 3D 장면에서 정보 검색
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java에서 3D 장면 조작의 세계를 탐험해보세요. 이 튜토리얼에서는 정보를 검색하는 과정을 단계별로 안내합니다.
-type: docs
 weight: 12
 url: /ko/java/3d-scenes-and-models/get-scene-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 애플리케이션의 3D 장면에서 정보 검색
+
 ## 소개
 
 Aspose.3D를 사용하여 Java 애플리케이션의 3D 장면에서 정보를 검색하는 포괄적인 가이드에 오신 것을 환영합니다. 3D 장면 조작을 통해 애플리케이션의 기능을 향상시키려는 Java 개발자라면 잘 찾아오셨습니다. 이 튜토리얼에서는 각 개념을 철저하게 이해할 수 있도록 프로세스를 단계별로 안내합니다.
@@ -99,3 +105,9 @@ A2: 물론이죠. Aspose.3D는 개발자를 위한 상용 라이센스를 제공
 ### Q5: Aspose.3D에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: 테스트 목적으로 임시 라이선스 받기[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

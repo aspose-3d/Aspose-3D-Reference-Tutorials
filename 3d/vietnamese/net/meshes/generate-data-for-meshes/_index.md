@@ -3,10 +3,16 @@ title: Tạo dữ liệu bình thường cho lưới
 linktitle: Tạo dữ liệu bình thường cho lưới
 second_title: API Aspose.3D .NET
 description: Nâng cao mô hình 3D với Aspose.3D cho .NET! Tìm hiểu cách tạo dữ liệu thông thường cho mắt lưới trong hướng dẫn từng bước này. Chủ nghĩa hiện thực đáp ứng sự đơn giản.
-type: docs
 weight: 20
 url: /vi/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo dữ liệu bình thường cho lưới
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước này về cách tạo dữ liệu thông thường cho các mắt lưới bằng Aspose.3D cho .NET! Nếu bạn đang làm việc với mô hình 3D và muốn nâng cao tính hấp dẫn trực quan bằng cách thêm dữ liệu thông thường thì hướng dẫn này là dành cho bạn. Aspose.3D là một thư viện .NET mạnh mẽ giúp đơn giản hóa việc lập trình đồ họa 3D và trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo dữ liệu thông thường cho các mắt lưới.
 ## Điều kiện tiên quyết
@@ -66,3 +72,9 @@ Có, Aspose.3D hỗ trợ nhiều định dạng 3D khác nhau, bao gồm FBX, S
  Tài liệu đầy đủ có sẵn[đây](https://reference.aspose.com/3d/net/).
 ### Nếu tôi cần mua giấy phép cho Aspose.3D thì sao?
  Bạn có thể mua giấy phép từ[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

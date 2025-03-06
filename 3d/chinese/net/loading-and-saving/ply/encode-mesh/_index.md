@@ -3,10 +3,16 @@ title: 将网格编码为 PLY 格式
 linktitle: 将网格编码为 PLY 格式
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 编程世界。了解如何轻松地将网格编码为 PLY 格式。提升您的开发游戏！
-type: docs
 weight: 13
 url: /zh/net/loading-and-saving/ply/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将网格编码为 PLY 格式
+
 ## 介绍
 踏上 3D 编程领域的旅程既令人兴奋又令人生畏。作为开发人员，您可能会发现自己渴望探索 3D 图形提供的可能性。在本教程中，我们将深入研究使用 Aspose.3D for .NET 将网格编码为 PLY 格式的迷人过程。
 ## 先决条件
@@ -56,3 +62,9 @@ FileFormat.PLY.Encode(sphere, "sphere.ply");
 访问 Aspose.3D 论坛[这里](https://forum.aspose.com/c/3d/18)与社区联系并寻求帮助。
 ### 5. Aspose.3D 有免费试用版吗？
 当然！通过免费试用探索 Aspose.3D 的功能[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

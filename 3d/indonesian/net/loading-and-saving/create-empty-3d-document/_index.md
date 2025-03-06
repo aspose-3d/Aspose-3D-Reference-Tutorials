@@ -3,10 +3,16 @@ title: Membuat Dokumen 3D Kosong
 linktitle: Membuat Dokumen 3D Kosong
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia pembuatan dokumen 3D dengan Aspose.3D untuk .NET. Buat, edit, dan simpan pemandangan 3D yang menakjubkan dengan mudah.
-type: docs
 weight: 11
 url: /id/net/loading-and-saving/create-empty-3d-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Dokumen 3D Kosong
+
 ## Perkenalan
 
 Selamat datang di dunia pembuatan dokumen 3D menggunakan Aspose.3D untuk .NET! Dalam tutorial ini, kita akan mempelajari dasar-dasar memuat dan menyimpan dokumen 3D. Aspose.3D untuk .NET menyediakan seperangkat alat canggih untuk bekerja dengan adegan 3D, dan kami akan memandu Anda melalui setiap langkah untuk membantu Anda memulai dengan lancar.
@@ -84,3 +90,9 @@ A1: Ya, Aspose.3D untuk .NET menyediakan antarmuka yang ramah pengguna, sehingga
 ### Q5: Di mana saya dapat membeli Aspose.3D untuk .NET?
 
  A5: Anda dapat membeli perpustakaan[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

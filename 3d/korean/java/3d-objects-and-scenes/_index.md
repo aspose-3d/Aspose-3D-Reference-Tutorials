@@ -3,10 +3,16 @@ title: Java에서 3D 개체 및 장면 조작
 linktitle: Java에서 3D 개체 및 장면 조작
 second_title: Aspose.3D 자바 API
 description: Aspose.3D 튜토리얼을 통해 Java 3D 프로그래밍의 세계를 열어보세요. 원활한 3D 개발을 위해 구 반경을 수정하고 XPath와 유사한 쿼리를 쉽게 적용하는 방법을 알아보세요.
-type: docs
 weight: 33
 url: /ko/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 3D 개체 및 장면 조작
+
 ## 소개
 
 Java 3D 프로그래밍은 3D 객체와 장면 조작에 초점을 맞춘 Aspose.3D 튜토리얼을 통해 매력적인 여정이 됩니다. 이 기사에서는 3D 개발 기술을 향상시키는 데 도움이 되는 두 가지 필수 튜토리얼을 자세히 살펴보겠습니다.
@@ -27,3 +33,9 @@ Aspose.3D를 사용하여 Java 3D 프로그래밍에서 XPath와 유사한 쿼�
 Aspose.3D를 사용하여 Java 3D 프로그래밍을 탐색하고 구 반경을 쉽게 수정하세요. 원활한 3D 개발 경험을 위해 지금 다운로드하세요.
 ### [Java의 3D 개체에 XPath와 유사한 쿼리 적용](./xpath-like-object-queries/)
 Aspose.3D를 사용하면 Java에서 손쉽게 3D 객체 쿼리를 마스터할 수 있습니다. XPath와 같은 쿼리를 적용하고, 장면을 조작하고, 3D 개발 수준을 높이세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

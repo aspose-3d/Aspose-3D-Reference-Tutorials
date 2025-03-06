@@ -3,10 +3,16 @@ title: Licenc alkalmazása az Aspose.3D for Java-ban
 linktitle: Licenc alkalmazása az Aspose.3D for Java-ban
 second_title: Aspose.3D Java API
 description: Használja ki az Aspose.3D teljes potenciálját a Java-alkalmazásokban, ha követi a licencek alkalmazásáról szóló átfogó útmutatónkat.
-type: docs
 weight: 10
 url: /hu/java/licensing/applying-license-in-aspose-3d/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licenc alkalmazása az Aspose.3D for Java-ban
+
 ## Bevezetés
 
 Üdvözöljük ebben a lépésről-lépésre szóló útmutatóban az Aspose.3D for Java licenc alkalmazásáról. Az Aspose.3D egy hatékony Java könyvtár, amely lehetővé teszi a fejlesztők számára, hogy könnyedén dolgozzanak 3D fájlokkal. Ebben az oktatóanyagban a licencek különböző módszerekkel történő alkalmazásának folyamatát mutatjuk be, biztosítva, hogy az Aspose.3D teljes potenciálját kiaknázza Java-alkalmazásaiban.
@@ -111,3 +117,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan kell licencet alkalmazni az Aspose.3D
 ### 5. kérdés: Szükségem van ideiglenes licencre a teszteléshez?
 
  V5: Igen, szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

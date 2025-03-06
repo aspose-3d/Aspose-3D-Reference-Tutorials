@@ -3,10 +3,16 @@ title: Alterando a orientação do plano em cenas 3D
 linktitle: Alterando a orientação do plano em cenas 3D
 second_title: API Aspose.3D .NET
 description: Explore o Aspose.3D para .NET e domine a mudança de orientação do plano em cenas 3D. Siga nosso guia passo a passo para uma integração perfeita.
-type: docs
 weight: 10
 url: /pt/net/3d-modeling/change-plane-orientation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alterando a orientação do plano em cenas 3D
+
 ## Introdução
 
 Bem-vindo a este guia completo sobre como alterar a orientação do plano em cenas 3D usando Aspose.3D for .NET! Se você é um desenvolvedor ou entusiasta de 3D e deseja aprimorar suas habilidades, você está no lugar certo. Neste tutorial, aprofundaremos o processo passo a passo, usando exemplos claros e explicações detalhadas. Ao final, você terá um conhecimento sólido de como manipular a orientação do plano em seus projetos 3D.
@@ -95,3 +101,9 @@ A1: Aspose.3D pode funcionar perfeitamente com outras bibliotecas 3D populares, 
 ### P5: Onde posso encontrar documentação detalhada?
 
  A5: Consulte a documentação[aqui](https://reference.aspose.com/3d/net/) para obter informações detalhadas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

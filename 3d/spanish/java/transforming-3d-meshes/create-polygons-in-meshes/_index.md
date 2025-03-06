@@ -3,10 +3,16 @@ title: Tutorial de Java cree polígonos en mallas 3D con Aspose.3D
 linktitle: Tutorial de Java cree polígonos en mallas 3D con Aspose.3D
 second_title: API de Java Aspose.3D
 description: Libere el poder de los gráficos 3D con Aspose.3D para Java. Crea impresionantes polígonos sin esfuerzo. Descárguelo ahora para disfrutar de una experiencia de desarrollo perfecta.
-type: docs
 weight: 10
 url: /es/java/transforming-3d-meshes/create-polygons-in-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial de Java cree polígonos en mallas 3D con Aspose.3D
+
 ## Introducción
 En el dinámico mundo de los gráficos 3D, la capacidad de crear objetos complejos y visualmente impresionantes es una habilidad fundamental para los desarrolladores. Aspose.3D para Java proporciona un potente conjunto de herramientas que facilita la creación de mallas 3D con facilidad. En este tutorial, lo guiaremos a través del proceso de creación de polígonos dentro de mallas 3D usando Aspose.3D para Java.
 ## Requisitos previos
@@ -51,3 +57,9 @@ Sí, Aspose.3D ofrece una variedad de funcionalidades para crear modelos 3D intr
  Sí, puede explorar las capacidades de Aspose.3D accediendo al[prueba gratis](https://releases.aspose.com/).
 ### 5. ¿Dónde puedo buscar soporte para Aspose.3D?
  Para cualquier consulta o ayuda, visite el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

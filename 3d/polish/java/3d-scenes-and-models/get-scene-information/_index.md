@@ -3,10 +3,16 @@ title: Odzyskiwanie informacji ze scen 3D w aplikacjach Java
 linktitle: Odzyskiwanie informacji ze scen 3D w aplikacjach Java
 second_title: Aspose.3D API Java
 description: Poznaj świat manipulacji scenami 3D w Javie dzięki Aspose.3D. Ten samouczek przeprowadzi Cię krok po kroku przez proces odzyskiwania informacji.
-type: docs
 weight: 12
 url: /pl/java/3d-scenes-and-models/get-scene-information/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odzyskiwanie informacji ze scen 3D w aplikacjach Java
+
 ## Wstęp
 
 Witamy w tym obszernym przewodniku na temat odzyskiwania informacji ze scen 3D w aplikacjach Java przy użyciu Aspose.3D. Jeśli jesteś programistą Java i chcesz zwiększyć możliwości swojej aplikacji dzięki manipulacji scenami 3D, jesteś we właściwym miejscu. Ten samouczek przeprowadzi Cię przez proces krok po kroku, zapewniając dokładne zrozumienie każdej koncepcji.
@@ -99,3 +105,9 @@ A2: Absolutnie. Aspose.3D oferuje licencje komercyjne dla programistów, zapewni
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.3D?
 
  A5: Zdobądź tymczasową licencję do celów testowych[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

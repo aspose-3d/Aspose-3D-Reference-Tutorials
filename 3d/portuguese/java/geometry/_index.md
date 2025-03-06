@@ -3,10 +3,16 @@ title: Trabalhando com geometria 3D em Java
 linktitle: Trabalhando com geometria 3D em Java
 second_title: API Java Aspose.3D
 description: Explore os tutoriais do Aspose.3D para Java sobre como trabalhar com geometria 3D. Domine materiais PBR, rotações de quatérnios, cenas de cubo e muito mais. Eleve seus gráficos Java 3D.
-type: docs
 weight: 21
 url: /pt/java/geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabalhando com geometria 3D em Java
+
 ## Introdução
 Você está pronto para mergulhar no fascinante reino dos gráficos 3D com Aspose.3D para Java? Nossos tutoriais cobrem uma variedade de tópicos, permitindo que você aprimore seus aplicativos Java com elementos 3D poderosos e visualmente impressionantes. Vamos embarcar nesta jornada passo a passo.
 
@@ -89,3 +95,9 @@ Aprimore seus aplicativos Java com Aspose.3D para transformações 3D poderosas.
 Explore o mundo dos gráficos 3D em Java com Aspose.3D. Aprenda a transformar nós sem esforço usando matrizes de transformação.
 ### [Triangular malhas para renderização otimizada em Java com Aspose.3D](./triangulate-meshes-for-optimized-rendering/)
 Aprenda como aumentar a eficiência da renderização 3D em Java usando Aspose.3D. Triangule malhas para desempenho ideal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

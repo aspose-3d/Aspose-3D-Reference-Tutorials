@@ -3,10 +3,16 @@ title: A jelenet pontfelhőként kódolva
 linktitle: A jelenet pontfelhőként kódolva
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D modellezés világát a .NET-ben az Aspose.3D segítségével. Tanulja meg könnyedén kódolni a gömböket pontfelhőkké. Engedd szabadjára kreativitásodat most!
-type: docs
 weight: 14
 url: /hu/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A jelenet pontfelhőként kódolva
+
 ## Bevezetés
 Üdvözöljük ebben az átfogó útmutatóban a gömbök pontfelhőként történő kódolásához az Aspose.3D for .NET használatával. Az Aspose.3D egy hatékony és sokoldalú könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak 3D-s modellekkel .NET-alkalmazásaikban. Ebben az oktatóanyagban végigvezetjük a gömb pontfelhővé történő kódolásának folyamatán az Aspose.3D használatával.
 ## Előfeltételek
@@ -60,3 +66,9 @@ Igen, felfedezheti az Aspose.3D-t egy ingyenes próbaverzióval. Töltsd le[itt]
  Látogassa meg az Aspose.3D fórumot[itt](https://forum.aspose.com/c/3d/18) közösségi támogatásra és beszélgetésekre.
 ### Szükségem van ideiglenes engedélyre a teszteléshez?
  Igen, ha teszteli a könyvtárat, szerezhet ideiglenes licencet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

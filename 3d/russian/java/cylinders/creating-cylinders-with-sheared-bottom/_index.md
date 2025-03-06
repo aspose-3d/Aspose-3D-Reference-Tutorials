@@ -3,10 +3,16 @@ title: Создание цилиндров со скошенным днищем 
 linktitle: Создание цилиндров со скошенным днищем в Aspose.3D для Java
 second_title: Aspose.3D Java API
 description: Научитесь создавать индивидуальные цилиндры со срезанным днищем, используя Aspose.3D для Java. Совершенствуйте свои навыки 3D-моделирования с помощью этого пошагового руководства.
-type: docs
 weight: 12
 url: /ru/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание цилиндров со скошенным днищем в Aspose.3D для Java
+
 ## Введение
 
 Добро пожаловать в это пошаговое руководство по созданию цилиндров со срезанным днищем с помощью Aspose.3D для Java. Aspose.3D — это мощная библиотека Java, которая позволяет вам легко работать с 3D-файлами. В этом уроке мы углубимся в создание индивидуальных цилиндров со срезанным днищем, предоставив вам практический опыт использования Aspose.3D для улучшения ваших навыков 3D-моделирования.
@@ -100,3 +106,9 @@ A1: Aspose.3D для Java предназначен для независимой
 ### В5: Могу ли я купить Aspose.3D для Java?
 
  О5: Да, вы можете приобрести Aspose.3D для Java.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

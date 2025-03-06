@@ -3,10 +3,16 @@ title: Извлечение необработанного 3D-содержимо
 linktitle: Извлечение необработанного 3D-содержимого из PDF
 second_title: Aspose.3D .NET API
 description: Научитесь извлекать 3D-контент из PDF с помощью Aspose.3D для .NET. Пошаговое руководство с примерами кода.
-type: docs
 weight: 14
 url: /ru/net/loading-and-saving/pdf/extract-raw-3d-contents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Извлечение необработанного 3D-содержимого из PDF
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по извлечению необработанного 3D-содержимого из PDF с помощью Aspose.3D для .NET. Aspose.3D — это мощный и универсальный API, который позволяет разработчикам легко работать с 3D-файлами. В этом уроке мы сосредоточимся на процессе извлечения необработанного 3D-содержимого из файлов PDF, предоставив вам пошаговые инструкции.
@@ -90,3 +96,9 @@ File.WriteAllBytes(fileName, content);
 ### Вопрос 5: Есть ли какая-либо документация для Aspose.3D?
 
  A5: Да, документацию можно найти[здесь](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

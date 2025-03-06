@@ -3,10 +3,16 @@ title: العمل مع بيانات هندسة الشبكة
 linktitle: العمل مع بيانات هندسة الشبكة
 second_title: Aspose.3D.NET API
 description: أتقن فن برمجة الرسومات ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. قم بإنشاء مشاهد ثلاثية الأبعاد مذهلة ومعالجتها وحفظها دون عناء.
-type: docs
 weight: 15
 url: /ar/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع بيانات هندسة الشبكة
+
 ## مقدمة
 
 مرحبًا بك في عالم برمجة الرسومات ثلاثية الأبعاد المثير باستخدام Aspose.3D لـ .NET! في هذا البرنامج التعليمي، سوف نتعمق في تعقيدات العمل مع Mesh Geometry Data في المشاهد ثلاثية الأبعاد باستخدام Aspose.3D، وهي مكتبة قوية ومتعددة الاستخدامات لمطوري .NET. سواء كنت مبرمجًا متمرسًا أو بدأت للتو في استخدام الرسومات ثلاثية الأبعاد، سيساعدك هذا الدليل التفصيلي خطوة بخطوة على إتقان فن التعامل مع البيانات الهندسية الشبكية دون عناء.
@@ -126,3 +132,9 @@ scene.Save(output, FileFormat.FBX7400ASCII);
 ### س5: ما هي تنسيقات الملفات المدعومة لحفظ المشاهد ثلاثية الأبعاد؟
 
  ج5: يدعم Aspose.3D تنسيقات الملفات المختلفة، بما في ذلك FBX وSTL والمزيد. الرجوع إلى[توثيق](https://reference.aspose.com/3d/net/) للحصول على قائمة كاملة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

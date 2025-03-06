@@ -3,10 +3,16 @@ title: Java'da 3D Animasyonlar için Hedef Kamerayı Ayarlama | Aspose.3D Eğiti
 linktitle: Java'da 3D Animasyonlar için Hedef Kamerayı Ayarlama | Aspose.3D Eğitimi
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile Java 3D animasyonlarını zahmetsizce keşfedin. Adım adım kılavuz için eğitimimizi takip edin. Büyüleyici bir 3D geliştirme yolculuğu için hemen indirin.
-type: docs
 weight: 11
 url: /tr/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da 3D Animasyonlar için Hedef Kamerayı Ayarlama | Aspose.3D Eğitimi
+
 ## giriiş
 
 Aspose.3D kullanarak Java'da 3D animasyonlar için hedef kamera kurulumuna yönelik bu adım adım kılavuza hoş geldiniz. İster deneyimli bir geliştirici olun, ister Java'da 3D animasyonlarla yeni başlıyor olun, bu eğitim, açık ve kısa talimatlarla süreç boyunca size yol gösterecektir.
@@ -98,3 +104,9 @@ Tebrikler! Aspose.3D'yi kullanarak Java'da 3D animasyonlar için hedef kamerayı
 ### S5: Geçici lisansı nasıl alabilirim?
 
  Cevap5: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

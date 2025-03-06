@@ -3,10 +3,16 @@ title: 파라메트릭 프리미티브를 메시로 변환
 linktitle: 파라메트릭 프리미티브를 메시로 변환
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D의 강력한 기능을 살펴보세요! 파라메트릭 기본 요소를 다양한 메시로 쉽게 변환할 수 있습니다. 지금 귀하의 3D 그래픽 게임을 한 차원 높여보세요.
-type: docs
 weight: 12
 url: /ko/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 파라메트릭 프리미티브를 메시로 변환
+
 ## 소개
 
 Aspose.3D는 상자, 평면, 원환체, 구, 원통, 피라미드 등을 포함한 다양한 기본 모양 세트를 제공합니다. 이러한 기본 요소는 해당 매개변수로 정의되므로 절차적 모델링에 매우 다양한 용도로 사용할 수 있습니다. 프로그래밍 방식으로 매개변수를 조정하면 최소한의 코드로 다양한 3D 모델을 만들 수 있습니다.
@@ -73,3 +79,9 @@ Console.WriteLine("\nConverted the primitive Box to a mesh successfully.\nFile s
  예, Aspose.3D를 탐색해 보세요.[무료 시험판](https://releases.aspose.com/) 약속을 하기 전에 그 능력을 경험해 보세요.
 ### 테스트 목적으로 임시 라이센스를 얻을 수 있나요?
  예, 확보하세요[임시 면허증](https://purchase.aspose.com/temporary-license/) Aspose.3D를 종합적으로 평가합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

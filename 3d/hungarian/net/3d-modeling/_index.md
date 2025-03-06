@@ -3,10 +3,16 @@ title: Modellezés
 linktitle: Modellezés
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D modellezés művészetét az Aspose.3D for .NET segítségével! Ebben az átfogó oktatóanyagban könnyedén készíthet elragadó primitív modelleket. Engedje szabadjára kreativitását még ma.
-type: docs
 weight: 28
 url: /hu/net/3d-modeling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modellezés
+
 
 ## Bevezetés
 
@@ -67,3 +73,9 @@ A 3D-s modellezés szépsége a kreativitás kibontakoztatásának szabadságáb
 ## 3D modellezési oktatóanyagok
 ### [Primitív 3D-s modellek készítése](./primitive-3d-models/)
 Fedezze fel a 3D modellezés világát az Aspose.3D for .NET segítségével. Lenyűgöző primitív modelleket hozhat létre könnyedén.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

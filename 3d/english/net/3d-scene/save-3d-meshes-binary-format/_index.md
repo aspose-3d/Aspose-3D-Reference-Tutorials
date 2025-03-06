@@ -3,10 +3,16 @@ title: Saving 3D Meshes in Custom Binary Format
 linktitle: Saving 3D Meshes in Custom Binary Format
 second_title: Aspose.3D .NET API
 description: Explore the world of 3D with Aspose.3D for .NET. Learn to save meshes in custom binary format.
-type: docs
 weight: 13
 url: /net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Saving 3D Meshes in Custom Binary Format
+
 ## Introduction
 
 Welcome to the world of Aspose.3D for .NET, a powerful library that empowers developers to work with 3D files effortlessly. In this tutorial, we'll delve into the process of saving 3D meshes in a custom binary format using Aspose.3D for .NET. This guide assumes you have a basic understanding of C# and are familiar with the Aspose.3D library.
@@ -142,3 +148,10 @@ A4: Visit [this link](https://purchase.aspose.com/temporary-license/) to get a t
 ### Q5: Can I purchase Aspose.3D for .NET?
 
 A5: Yes, you can buy Aspose.3D from the [purchase page](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

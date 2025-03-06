@@ -3,10 +3,16 @@ title: La modélisation
 linktitle: La modélisation
 second_title: API Aspose.3D .NET
 description: Découvrez l'art de la modélisation 3D avec Aspose.3D pour .NET ! Créez facilement des modèles primitifs captivants dans ce didacticiel complet. Libérez votre créativité aujourd’hui.
-type: docs
 weight: 28
 url: /fr/net/3d-modeling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# La modélisation
+
 
 ## Introduction
 
@@ -67,3 +73,9 @@ La beauté de la modélisation 3D réside dans la liberté de libérer votre cr�
 ## Tutoriels de modélisation 3D
 ### [Création de modèles 3D primitifs](./primitive-3d-models/)
 Explorez le monde de la modélisation 3D avec Aspose.3D pour .NET. Créez de superbes modèles primitifs sans effort.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

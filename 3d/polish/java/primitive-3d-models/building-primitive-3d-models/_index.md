@@ -3,10 +3,16 @@ title: Budowanie prymitywnych modeli 3D za pomocą Aspose.3D dla Java
 linktitle: Budowanie prymitywnych modeli 3D za pomocą Aspose.3D dla Java
 second_title: Aspose.3D API Java
 description: Odkryj sztukę modelowania 3D z Aspose.3D dla Java. Naucz się bez wysiłku budować prymitywne modele 3D i uwolnij swoją kreatywność.
-type: docs
 weight: 10
 url: /pl/java/primitive-3d-models/building-primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Budowanie prymitywnych modeli 3D za pomocą Aspose.3D dla Java
+
 ## Wstęp
 
 Programowe tworzenie modeli 3D może być trudnym zadaniem, ale dzięki Aspose.3D dla Java staje się to przyjemnym i prostym procesem. Ten samouczek ma na celu pomóc Ci rozpocząć budowanie prymitywnych modeli 3D, koncentrując się na prostocie i efektywności.
@@ -88,3 +94,9 @@ A2: Absolutnie! Aspose.3D zapewnia kompleksowy zestaw funkcji, dzięki czemu nad
 ### P5: Jak uzyskać tymczasową licencję na Aspose.3D?
 
  A5: Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla Aspose.3D za pośrednictwem strony internetowej.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

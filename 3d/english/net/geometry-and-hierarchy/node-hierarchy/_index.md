@@ -3,10 +3,16 @@ title: Understanding Node Hierarchy
 linktitle: Understanding Node Hierarchy 
 second_title: Aspose.3D .NET API
 description: Unlock the power of Aspose.3D for .NET! Dive into node hierarchy manipulation with this step-by-step guide. Create stunning 3D scenes effortlessly.
-type: docs
 weight: 16
 url: /net/geometry-and-hierarchy/node-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Understanding Node Hierarchy
+
 ## Introduction
 
 Welcome to the world of Aspose.3D for .NET, a powerful library that empowers developers to work seamlessly with 3D scenes and models in their .NET applications. In this tutorial, we will delve into the intricacies of understanding node hierarchy in 3D scenes using Aspose.3D. By the end of this guide, you will have a solid grasp of how to manipulate the structure of 3D scenes through nodes, enabling you to create stunning visual experiences.
@@ -129,3 +135,10 @@ A4: Absolutely! Aspose.3D is versatile and can be integrated into game developme
 ### Q5: What's the difference between a temporary license and a full license?
 
 A5: A temporary license provides short-term access for evaluation purposes, while a full license offers unrestricted usage.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 載入和儲存
 linktitle: 載入和儲存
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 提升您的 3D 建模遊戲！掌握使用 CancellationToken 的高效能載入和保存技術。立即探索！
-type: docs
 weight: 27
 url: /zh-hant/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 載入和儲存
+
 ## 介紹
 
 使用 Aspose.3D for .NET 深入探索 3D 建模的迷人領域，這是無縫且高效的 3D 文件操作的入口網站。在本教學系列中，我們將探索載入和保存 3D 模型的複雜性，解鎖充滿創意的可能性的世界。
@@ -105,3 +111,9 @@ glTF 匯出期間的壓縮支持，優化檔案大小而不影響視覺品質。
 ### 將嵌入紋理從 USDZ 載入到內存
 
 存取 USDZ 檔案中嵌入的紋理資料。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

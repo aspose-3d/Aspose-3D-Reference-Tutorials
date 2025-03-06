@@ -3,10 +3,16 @@ title: 선형 돌출의 비틀림 오프셋
 linktitle: 선형 돌출의 비틀림 오프셋
 second_title: Aspose.3D .NET API
 description: 선형 압출의 비틀기 오프셋에 대한 단계별 가이드를 통해 .NET용 Aspose.3D의 마법을 탐험해보세요. 3D 프로젝트를 손쉽게 향상시키세요.
-type: docs
 weight: 15
 url: /ko/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 선형 돌출의 비틀림 오프셋
+
 ## 소개
 
 개발자가 3D 조작을 쉽게 처리할 수 있도록 지원하는 다목적 라이브러리인 .NET용 Aspose.3D의 세계에 오신 것을 환영합니다. 이 튜토리얼에서는 흥미로운 기능 중 하나인 "선형 돌출의 비틀림 오프셋"을 자세히 살펴보겠습니다. 3D 프로그래밍 기술을 향상시킬 준비가 되었다면 바로 시작해 보세요!
@@ -112,3 +118,9 @@ A1: Aspose.3D는 주로 .NET 언어를 지원하지만 Aspose는 Java 및 기타
 ### Q5: .NET용 Aspose.3D를 어디서 구입할 수 있나요?
 
  A5: 다음으로 향하세요[이 링크](https://purchase.aspose.com/buy) Aspose.3D를 구매하고 잠재력을 최대한 활용하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 保護された PDF からシーンを開く
 linktitle: 保護された PDF からシーンを開く
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D モデリングの可能性を探ってください。ステップバイステップのガイドで、保護された PDF からシーンを開く方法を学びます。
-type: docs
 weight: 17
 url: /ja/net/loading-and-saving/pdf/open-scene-protected/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 保護された PDF からシーンを開く
+
 ## 導入
 
 Aspose.3D for .NET の機能を活用して 3D モデリングと操作のタスクを強化するための包括的なガイドへようこそ。 Aspose.3D は、開発者が .NET アプリケーションで 3D ファイル形式をシームレスに操作できるようにする堅牢な API です。このチュートリアルでは、ロードと保存の重要な側面、特に Aspose.3D for .NET を使用して保護された PDF からシーンを開くことに焦点を当てます。
@@ -97,3 +103,9 @@ A1: はい、Aspose.3D は幅広い 3D ファイル形式をサポートして�
 ### Q5: テストには一時ライセンスが必要ですか?
 
  A5: はい、テスト目的で一時ライセンスが必要な場合は、取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

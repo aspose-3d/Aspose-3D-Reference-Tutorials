@@ -3,10 +3,16 @@ title: Modifique o raio da esfera 3D em Java com Aspose.3D
 linktitle: Modifique o raio da esfera 3D em Java com Aspose.3D
 second_title: API Java Aspose.3D
 description: Explore a programação Java 3D com Aspose.3D, modificando o raio da esfera sem esforço. Baixe agora para uma experiência de desenvolvimento 3D perfeita.
-type: docs
 weight: 10
 url: /pt/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifique o raio da esfera 3D em Java com Aspose.3D
+
 ## Introdução
 
 Bem-vindo ao nosso guia passo a passo sobre como modificar o raio de uma esfera 3D usando Aspose.3D para Java. Aspose.3D é uma biblioteca Java poderosa que permite aos desenvolvedores trabalhar com arquivos 3D e manipulá-los perfeitamente. Neste tutorial, focaremos na alteração do raio de uma esfera 3D usando exemplos práticos e explicações detalhadas.
@@ -103,3 +109,9 @@ Parabéns! Você modificou com sucesso o raio da esfera 3D usando Aspose.3D para
 ### Q5: Como posso obter uma licença temporária para Aspose.3D?
 
  A5: Você pode obter uma licença temporária visitando[Licença Temporária](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

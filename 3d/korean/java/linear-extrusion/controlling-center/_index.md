@@ -3,10 +3,16 @@ title: Java용 Aspose.3D를 사용하여 선형 압출의 중심 제어
 linktitle: Java용 Aspose.3D를 사용하여 선형 압출의 중심 제어
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java에서 3D 그래픽의 세계를 탐험해보세요. 선형 압출에서 중심을 쉽게 제어할 수 있습니다.
-type: docs
 weight: 11
 url: /ko/java/linear-extrusion/controlling-center/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D를 사용하여 선형 압출의 중심 제어
+
 ## 소개
 
 3D 그래픽 및 Java 프로그래밍 세계에서 선형 돌출의 중심을 제어하는 것은 프로젝트에서 원하는 효과를 얻는 데 중요한 역할을 합니다. Aspose.3D for Java는 이러한 작업을 원활하게 처리할 수 있는 강력한 툴킷을 제공합니다. 이 튜토리얼에서는 Java용 Aspose.3D를 사용하여 선형 압출에서 중심을 제어하는 과정을 자세히 살펴보고 원활하고 포괄적인 이해를 보장하기 위해 각 단계를 세분화합니다.
@@ -126,3 +132,9 @@ A4: 예, 테스트 목적으로 임시 라이센스가 필요한 경우 임시 �
 ### Q5: 문서는 어디서 찾을 수 있나요?
 
  A5: Java용 Aspose.3D 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

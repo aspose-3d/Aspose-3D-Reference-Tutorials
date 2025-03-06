@@ -3,10 +3,16 @@ title: Exporteren naar PLY-formaat als puntenwolk
 linktitle: Exporteren naar PLY-formaat als puntenwolk
 second_title: Aspose.3D .NET-API
 description: Ontdek de wereld van 3D-modellering met Aspose.3D voor .NET. Leer moeiteloos modellen naar PLY-formaat te exporteren. Breng uw projecten naar een hoger niveau met verbluffende beelden.
-type: docs
 weight: 16
 url: /nl/net/loading-and-saving/ply/export-to-ply-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporteren naar PLY-formaat als puntenwolk
+
 ## Invoering
 In de dynamische wereld van 3D-modellering en -ontwikkeling onderscheidt Aspose.3D voor .NET zich als een krachtige toolkit. Deze tutorial leidt u door het proces van het exporteren van 3D-modellen naar PLY-indeling als een puntenwolk met behulp van Aspose.3D voor .NET. Als u klaar bent om uw projecten te verbeteren met verbluffende beelden, volg dan mee en ontgrendel het volledige potentieel van deze veelzijdige bibliotheek.
 ## Vereisten
@@ -59,3 +65,9 @@ Aspose.3D ondersteunt verschillende .NET-frameworks, waardoor compatibiliteit bi
  Ja, verken de functies met een[gratis proefperiode](https://releases.aspose.com/) voordat u een toezegging doet.
 ### 5. Hoe verkrijg ik een tijdelijke licentie?
  Ga voor tijdelijke licentieopties naar[deze link](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

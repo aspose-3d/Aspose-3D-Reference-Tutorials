@@ -3,10 +3,16 @@ title: Java で Google Draco を使用して 3D メッシュを圧縮する
 linktitle: Java で Google Draco を使用して 3D メッシュを圧縮する
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して 3D アプリケーションを最適化します。 Java で Google Draco を使用してメッシュを圧縮する方法を学びます。効率的な 3D 開発のために、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 10
 url: /ja/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で Google Draco を使用して 3D メッシュを圧縮する
+
 ## 導入
 
 Aspose.3D を使用して Java で Google Draco を使用して 3D メッシュを圧縮するためのこの包括的なガイドへようこそ。このチュートリアルでは、Aspose.3D の機能を利用して 3D メッシュを効率的に圧縮するプロセスについて説明します。品質を損なうことなくメッシュ サイズを削減して 3D アプリケーションを強化したいと考えている開発者にとって、ここは正しい場所です。
@@ -100,3 +106,9 @@ A2: このチュートリアルは Java に焦点を当てていますが、Goog
 ### Q5: Aspose.3D サポートのためのコミュニティ フォーラムはありますか?
 
  A5: はい、コミュニティのサポートとディスカッションについては、次のサイトにアクセスしてください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

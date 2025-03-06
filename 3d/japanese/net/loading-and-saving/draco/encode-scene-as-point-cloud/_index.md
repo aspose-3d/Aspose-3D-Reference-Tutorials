@@ -3,10 +3,16 @@ title: シーンを点群としてエンコードする
 linktitle: シーンを点群としてエンコードする
 second_title: Aspose.3D .NET API
 description: Aspose.3D を使用して、.NET での 3D モデリングの世界を探索してください。球を点群に簡単にエンコードする方法を学びましょう。今すぐあなたの創造性を解き放ちましょう！
-type: docs
 weight: 14
 url: /ja/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# シーンを点群としてエンコードする
+
 ## 導入
 Aspose.3D for .NET を使用して球を点群としてエンコードするためのこの包括的なガイドへようこそ。 Aspose.3D は、開発者が .NET アプリケーションで 3D モデルをシームレスに操作できるようにする強力で多用途のライブラリです。このチュートリアルでは、Aspose.3D を使用して球を点群にエンコードするプロセスを説明します。
 ## 前提条件
@@ -60,3 +66,9 @@ Aspose.3D のこの側面をマスターしたので、創造性を発揮して�
 Aspose.3D フォーラムにアクセスしてください[ここ](https://forum.aspose.com/c/3d/18)コミュニティのサポートとディスカッションのために。
 ### テストには一時ライセンスが必要ですか?
 はい、ライブラリをテストしている場合は、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

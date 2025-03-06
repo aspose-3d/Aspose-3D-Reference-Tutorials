@@ -3,10 +3,16 @@ title: Сохраняйте визуализированные 3D-сцены в 
 linktitle: Сохраняйте визуализированные 3D-сцены в файлы изображений с помощью Aspose.3D для Java
 second_title: Aspose.3D Java API
 description: Откройте для себя мир 3D-графики с помощью Aspose.3D для Java. Научитесь легко сохранять потрясающие сцены в изображения.
-type: docs
 weight: 13
 url: /ru/java/rendering-3d-scenes/render-to-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохраняйте визуализированные 3D-сцены в файлы изображений с помощью Aspose.3D для Java
+
 ## Введение
 
 Создание потрясающих 3D-сцен — увлекательное занятие, а с Aspose.3D для Java этот процесс становится еще более полезным. Это подробное руководство проведет вас через этапы сохранения визуализированных 3D-сцен в файлы изображений с помощью Aspose.3D для Java. Независимо от того, являетесь ли вы опытным разработчиком или новичком в мире 3D-графики, это руководство предоставит вам необходимые знания для воплощения ваших творений в жизнь.
@@ -91,3 +97,9 @@ scene.render(camera, output, new Dimension(1024, 1024), "png");
 ### В5: Могу ли я попробовать Aspose.3D для Java перед покупкой?
 
  А5: Конечно! Скачать бесплатную пробную версию[здесь](https://releases.aspose.com/) чтобы испытать возможности на собственном опыте.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

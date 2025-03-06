@@ -3,10 +3,16 @@ title: Creación de cilindros con parte superior desplazada en Aspose.3D para Ja
 linktitle: Creación de cilindros con parte superior desplazada en Aspose.3D para Java
 second_title: API de Java Aspose.3D
 description: Explora las maravillas del modelado 3D en Java con Aspose.3D. Aprenda a crear cilindros cautivadores con tapas desplazadas sin esfuerzo.
-type: docs
 weight: 11
 url: /es/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creación de cilindros con parte superior desplazada en Aspose.3D para Java
+
 ## Introducción
 
 En el ámbito del modelado 3D basado en Java, Aspose.3D se destaca como una herramienta poderosa que ofrece a los desarrolladores la capacidad de crear escenas 3D complejas con facilidad. En este tutorial, profundizaremos en el fascinante mundo de Aspose.3D para Java, centrándonos en una tarea específica: crear cilindros con partes superiores desplazadas. Al final de esta guía, comprenderá firmemente el proceso, lo que le permitirá integrar esta función sin problemas en sus proyectos 3D.
@@ -127,3 +133,9 @@ R3: Sí, puede explorar y elegir la opción de licencia que se adapte a sus nece
 ### P5: ¿Existe una opción de licencia temporal para fines de prueba?
 
  R5: Sí, puede obtener una licencia temporal para fines de prueba y evaluación.[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

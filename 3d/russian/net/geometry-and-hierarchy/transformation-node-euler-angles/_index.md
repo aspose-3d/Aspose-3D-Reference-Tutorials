@@ -3,10 +3,16 @@ title: Преобразование узла углами Эйлера
 linktitle: Преобразование узла углами Эйлера
 second_title: Aspose.3D .NET API
 description: Научитесь легко преобразовывать 3D-узлы с помощью Aspose.3D для .NET. Следуйте нашему пошаговому руководству, чтобы добиться потрясающих результатов в ваших проектах.
-type: docs
 weight: 19
 url: /ru/net/geometry-and-hierarchy/transformation-node-euler-angles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование узла углами Эйлера
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по преобразованию узлов с помощью углов Эйлера в 3D-сценах с использованием Aspose.3D для .NET. В этом руководстве мы углубимся в захватывающий мир 3D-графики и исследуем процесс добавления преобразований к узлу с использованием углов Эйлера. Aspose.3D для .NET предоставляет мощные инструменты для работы с 3D-сценами и сетками, что делает его отличным выбором для разработчиков, которым нужны универсальность и эффективность в своих проектах.
@@ -113,3 +119,9 @@ A1: Aspose.3D поддерживает различные форматы 3D-фа
 ### В5: Нужна помощь или есть конкретные вопросы?
 
  A5: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) для поддержки сообщества.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

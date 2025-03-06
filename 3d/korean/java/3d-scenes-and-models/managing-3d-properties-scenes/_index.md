@@ -3,10 +3,16 @@ title: Aspose.3D를 사용하여 Java 장면에서 3D 속성 및 사용자 정�
 linktitle: Aspose.3D를 사용하여 Java 장면에서 3D 속성 및 사용자 정의 데이터 작업
 second_title: Aspose.3D 자바 API
 description: 원활한 3D 속성 조작을 위해 Aspose.3D로 Java 애플리케이션을 강화하세요. 단계별 안내를 보려면 튜토리얼을 따르세요.
-type: docs
 weight: 14
 url: /ko/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D를 사용하여 Java 장면에서 3D 속성 및 사용자 정의 데이터 작업
+
 ## 소개
 
 Aspose.3D를 사용하여 Java 장면에서 3D 속성 및 사용자 정의 데이터 작업에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 Aspose.3D의 강력한 기능을 탐구하여 Java 애플리케이션 내에서 3D 속성을 조작하는 방법에 대한 단계별 지침을 제공합니다.
@@ -124,3 +130,9 @@ A4: 그렇습니다.[Aspose.3D 지원 포럼](https://forum.aspose.com/c/3d/18) 
 ### Q5: Aspose.3D에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: 다음 사이트를 방문하시면 임시 면허를 취득하실 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/) Aspose 웹 사이트에서.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

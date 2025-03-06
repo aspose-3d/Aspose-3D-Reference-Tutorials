@@ -3,10 +3,16 @@ title: Поддержка OpenUSD
 linktitle: Поддержка OpenUSD
 second_title: Aspose.3D .NET API
 description: Aspose.3D легко интегрируется с OpenUSD, обеспечивая плавный импорт и экспорт файлов универсального описания сцены (USD) для упрощения создания и управления 3D-контентом.
-type: docs
 weight: 27
 url: /ru/net/loading-and-saving/usd
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Поддержка OpenUSD
+
 ## Введение
 
 В этой серии руководств мы рассмотрим тонкости поддержки OpenUSD в Aspose.3D, открывая мир творческих возможностей.
@@ -24,3 +30,9 @@ Aspose.3D обеспечивает беспрепятственный досту
 Отправьтесь в путешествие безграничных возможностей с Aspose.3D для .NET. Независимо от того, являетесь ли вы новичком или опытным разработчиком, наши руководства подходят для всех уровней навыков. Преобразуйте свой опыт 3D-моделирования — исследуйте, создавайте и внедряйте инновации с помощью Aspose.3D для .NET.
 
 Готовы улучшить свои навыки 3D-моделирования? Начните изучать обучающие материалы. Раскройте весь потенциал Aspose.3D для .NET и создавайте свои 3D-шедевры без особых усилий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

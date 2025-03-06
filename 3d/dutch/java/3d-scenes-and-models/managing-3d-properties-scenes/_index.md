@@ -3,10 +3,16 @@ title: Werk met 3D-eigenschappen en aangepaste gegevens in Java-scènes met behu
 linktitle: Werk met 3D-eigenschappen en aangepaste gegevens in Java-scènes met behulp van Aspose.3D
 second_title: Aspose.3D Java-API
 description: Verbeter uw Java-applicaties met Aspose.3D voor naadloze manipulatie van 3D-eigenschappen. Volg onze tutorial voor stapsgewijze begeleiding.
-type: docs
 weight: 14
 url: /nl/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Werk met 3D-eigenschappen en aangepaste gegevens in Java-scènes met behulp van Aspose.3D
+
 ## Invoering
 
 Welkom bij de uitgebreide handleiding over het werken met 3D-eigenschappen en aangepaste gegevens in Java-scènes met behulp van Aspose.3D. In deze zelfstudie verdiepen we ons in de krachtige functies van Aspose.3D en bieden we stapsgewijze begeleiding bij het manipuleren van 3D-eigenschappen binnen uw Java-toepassingen.
@@ -124,3 +130,9 @@ A4: Ja, bezoek de[Aspose.3D-ondersteuningsforum](https://forum.aspose.com/c/3d/1
 ### V5: Hoe kan ik een tijdelijke licentie voor Aspose.3D verkrijgen?
 
  A5: U kunt een tijdelijke licentie verkrijgen door te bezoeken[deze link](https://purchase.aspose.com/temporary-license/) op de Aspose-website.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

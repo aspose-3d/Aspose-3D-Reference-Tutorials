@@ -3,10 +3,16 @@ title: استخراج جميع المشاهد ثلاثية الأبعاد
 linktitle: استخراج جميع المشاهد ثلاثية الأبعاد
 second_title: Aspose.3D.NET API
 description: اكتشف الإمكانيات اللامحدودة للتطوير ثلاثي الأبعاد باستخدام Aspose.3D لـ .NET. قم بتحميل المشاهد وحفظها واستخراجها بسهولة.
-type: docs
 weight: 13
 url: /ar/net/loading-and-saving/pdf/extract-all-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخراج جميع المشاهد ثلاثية الأبعاد
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.3D for .NET المثير، وهي مكتبة متطورة تمكن المطورين من التعامل مع المشاهد ثلاثية الأبعاد ومعالجتها بسهولة في تطبيقاتهم. في هذا الدليل التفصيلي، سنتعمق في الجوانب الأساسية لتحميل المشاهد ثلاثية الأبعاد وحفظها واستخراجها باستخدام Aspose.3D لـ .NET. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا إلى عالم الرسومات ثلاثية الأبعاد، فقد تم تصميم هذا البرنامج التعليمي ليوفر لك تجربة تعليمية سلسة.
@@ -93,3 +99,9 @@ foreach (Scene scene in scenes)
 ### س5: هل تحتاج إلى مساعدة أو ترغب في التواصل مع مجتمع Aspose.3D؟
 
  ج5: تفضل بزيارة منتدى الدعم الخاص بنا[هنا](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

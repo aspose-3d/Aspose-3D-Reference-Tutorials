@@ -3,10 +3,16 @@ title: การสร้างแบบจำลอง Java 3D ด้วย Asp
 linktitle: เปิดและจัดการไฟล์ VRML ใน Java ด้วย Aspose.3D
 second_title: Aspose.3D จาวา API
 description: ปลดล็อกความมหัศจรรย์ของการสร้างแบบจำลอง 3 มิติใน Java ด้วย Aspose.3D เปิดและจัดการไฟล์ VRML ได้อย่างราบรื่น ดำดิ่งสู่โลกแห่งความเป็นไปได้ที่ไร้ขีดจำกัด!
-type: docs
 weight: 10
 url: /th/java/vrml-files/open-vrml-files-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างแบบจำลอง Java 3D ด้วย Aspose.3D - การสำรวจ VRML
+
 ## การแนะนำ
 ยินดีต้อนรับสู่โลกที่น่าตื่นเต้นของการสร้างแบบจำลอง 3 มิติใน Java! ในคู่มือที่ครอบคลุมนี้ เราจะเจาะลึกขอบเขตอันน่าทึ่งของ Virtual Reality Modeling Language (VRML) โดยใช้ Aspose.3D สำหรับ Java ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือผู้ที่กระตือรือร้น บทช่วยสอนทีละขั้นตอนนี้จะช่วยให้คุณเปิดและจัดการไฟล์ VRML ได้อย่างง่ายดาย
 ## ข้อกำหนดเบื้องต้น
@@ -61,3 +67,9 @@ scene.open(MyDir + "test.wrl");
  สำหรับตัวเลือกการออกใบอนุญาตชั่วคราว ให้ไปที่[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
 ### 5. ฉันจะซื้อ Aspose.3D สำหรับ Java ได้ที่ไหน
  เพื่อปลดล็อกศักยภาพสูงสุด คุณสามารถซื้อ Aspose.3D สำหรับ Java ได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

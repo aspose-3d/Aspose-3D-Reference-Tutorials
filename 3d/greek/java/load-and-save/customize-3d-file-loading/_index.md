@@ -3,10 +3,16 @@ title: Προσαρμόστε τη φόρτωση αρχείων 3D σε Java μ
 linktitle: Προσαρμόστε τη φόρτωση αρχείων 3D σε Java με το Aspose.3D LoadOptions
 second_title: Aspose.3D Java API
 description: Βελτιώστε τη φόρτωση των τρισδιάστατων αρχείων σας σε Java με τις προσαρμόσιμες επιλογές φόρτωσης Aspose.3D. Μάθετε βήμα προς βήμα προσαρμογή για 3DS, OBJ, STL, U3D, glTF, PLY, X και προαιρετικό FBX.
-type: docs
 weight: 12
 url: /el/java/load-and-save/customize-3d-file-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμόστε τη φόρτωση αρχείων 3D σε Java με το Aspose.3D LoadOptions
+
 ## Εισαγωγή
 
 Στο συνεχώς εξελισσόμενο τοπίο του τρισδιάστατου σχεδιασμού και ανάπτυξης, ο αποτελεσματικός χειρισμός των μορφών αρχείων 3D είναι ζωτικής σημασίας. Το Aspose.3D for Java παρέχει μια ισχυρή λύση για την προσαρμογή της φόρτωσης διαφόρων μορφών αρχείων 3D. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία προσαρμογής της φόρτωσης αρχείων 3D σε Java χρησιμοποιώντας τις Επιλογές LoadOptions του Aspose.3D.
@@ -156,3 +162,9 @@ private static void FBXLoadOptions() throws IOException {
 ### Ε5: Χρειάζομαι μια προσωρινή άδεια για δοκιμή;
 
  A5: Ναι, αποκτήστε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

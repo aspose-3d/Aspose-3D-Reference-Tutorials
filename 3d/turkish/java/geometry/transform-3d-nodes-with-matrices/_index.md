@@ -3,10 +3,16 @@ title: Aspose.3D kullanarak 3D Düğümleri Dönüşüm Matrisleriyle Dönüşt�
 linktitle: Aspose.3D'yi kullanarak Java'da Dönüşüm Matrisleriyle 3D Düğümleri Dönüştürün
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile Java'daki 3D grafik dünyasını keşfedin. Dönüşüm matrislerini kullanarak düğümleri zahmetsizce dönüştürmeyi öğrenin.
-type: docs
 weight: 21
 url: /tr/java/geometry/transform-3d-nodes-with-matrices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D kullanarak 3D Düğümleri Dönüşüm Matrisleriyle Dönüştürün
+
 ## giriiş
 
 Aspose.3D kullanarak Java'da 3D düğümleri dönüşüm matrisleriyle dönüştürmeye yönelik bu adım adım kılavuza hoş geldiniz. 3D grafiklerinizi ve modelleme becerilerinizi geliştirmek isteyen bir Java geliştiricisiyseniz doğru yerdesiniz. Bu eğitimde Aspose.3D çerçevesinde 3D düğümlere dönüşüm uygulama sürecini ele alacağız.
@@ -119,3 +125,9 @@ Cevap3: 3D sahnelerinizin boyutu sistem kaynaklarıyla sınırlı olabilir ancak
 ### S5: Aspose.3D için geçici lisansı nasıl edinebilirim?
 
  Cevap5: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

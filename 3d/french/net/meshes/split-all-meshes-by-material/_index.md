@@ -3,10 +3,16 @@ title: Diviser tous les maillages de la scène par matériau
 linktitle: Diviser tous les maillages de la scène par matériau
 second_title: API Aspose.3D .NET
 description: Découvrez comment diviser des maillages 3D par matériau à l'aide d'Aspose.3D pour .NET. Suivez notre guide étape par étape pour une organisation et une gestion efficaces des modèles 3D.
-type: docs
 weight: 21
 url: /fr/net/meshes/split-all-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Diviser tous les maillages de la scène par matériau
+
 ## Introduction
 Bienvenue dans ce guide étape par étape sur la division de tous les maillages d'une scène 3D par matériau à l'aide d'Aspose.3D pour .NET. Si vous travaillez avec des modèles 3D et souhaitez organiser efficacement vos maillages en fonction des matériaux, ce tutoriel est fait pour vous. Aspose.3D est une puissante bibliothèque .NET qui offre une gamme de fonctionnalités pour travailler avec des fichiers 3D, ce qui en fait un excellent choix pour les développeurs.
 ## Conditions préalables
@@ -66,3 +72,9 @@ Aspose.3D est principalement conçu pour .NET, mais il offre une interopérabili
  Visiter le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien et les discussions de la communauté.
 ### 5. Puis-je obtenir une licence temporaire ?
  Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

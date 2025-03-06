@@ -3,10 +3,16 @@ title: การอัดขึ้นรูปเชิงเส้น
 linktitle: การอัดขึ้นรูปเชิงเส้น
 second_title: Aspose.3D .NET API
 description: ปลดล็อกความคิดสร้างสรรค์ 3 มิติด้วย Aspose.3D สำหรับบทช่วยสอน .NET เชี่ยวชาญเทคนิคการอัดขึ้นรูปเชิงเส้น ปรับปรุงการออกแบบ และยกระดับโครงการของคุณได้อย่างง่ายดาย
-type: docs
 weight: 31
 url: /th/net/3d-modeling/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การอัดขึ้นรูปเชิงเส้น
+
 ## การแนะนำ
 | Explore the dynamic realm of [3D modeling](./center-in-linear-extrusion/) through Aspose.3D for .NET tutorials, focusing on various aspects of linear extrusion. Master the art of [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), and incorporating [twist offsets](./twist-offset-in-linear-extrusion/) in your designs. Each tutorial is a gateway to unlocking new dimensions of creativity in 3D graphics. Dive into the captivating world of Aspose.3D for .NET and unleash your imagination. |
 
@@ -42,3 +48,9 @@ url: /th/net/3d-modeling/linear-extrusion/
 สำรวจโลกอันน่าหลงใหลของกราฟิก 3 มิติด้วย Aspose.3D สำหรับ .NET เรียนรู้การอัดขึ้นรูปเชิงเส้นแบบทีละขั้นตอนด้วยการบิด
 ### [Twist Offset ในการอัดขึ้นรูปเชิงเส้น](./twist-offset-in-linear-extrusion/)
 สำรวจความมหัศจรรย์ของ Aspose.3D สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนเกี่ยวกับ Twist Offset ใน Linear Extrusion ยกระดับโครงการ 3D ของคุณได้อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

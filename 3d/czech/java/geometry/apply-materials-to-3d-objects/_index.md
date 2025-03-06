@@ -3,10 +3,16 @@ title: Aplikujte materiály na 3D objekty v Javě pomocí Aspose.3D
 linktitle: Aplikujte materiály na 3D objekty v Javě pomocí Aspose.3D
 second_title: Aspose.3D Java API
 description: Prozkoumejte svět 3D grafiky s Aspose.3D for Java. Naučte se, jak bezproblémově aplikovat materiály na 3D objekty. Pozvedněte své projekty pomocí realistických vizuálů.
-type: docs
 weight: 14
 url: /cs/java/geometry/apply-materials-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplikujte materiály na 3D objekty v Javě pomocí Aspose.3D
+
 ## Úvod
 
 V dynamickém světě 3D grafiky vyniká Aspose.3D for Java jako mocný nástroj pro oživení vašich projektů. Přidávání materiálů do 3D objektů zvyšuje vizuální přitažlivost a činí je realističtějšími. V tomto tutoriálu vás provedeme procesem nanášení materiálů na 3D krychli pomocí Aspose.3D for Java.
@@ -165,3 +171,9 @@ Odpověď 1: Ano, Aspose.3D vám umožňuje aplikovat více materiálů na různ
 ### Q5: Mohu si stáhnout knihovnu Aspose.3D z konkrétního odkazu?
 
  A5: Ano, použijte[odkaz ke stažení](https://releases.aspose.com/3d/java/) pro přístup k nejnovější verzi Aspose.3D pro Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

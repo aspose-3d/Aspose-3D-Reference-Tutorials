@@ -3,10 +3,16 @@ title: Aufteilen des Netzes nach Material
 linktitle: Aufteilen des Netzes nach Material
 second_title: Aspose.3D .NET API
 description: Erfahren Sie, wie Sie mit Aspose.3D für .NET 3D-Netze nach Material aufteilen. Verbessern Sie die Organisation und Effizienz der Szene. Schritt-für-Schritt-Anleitung für Entwickler.
-type: docs
 weight: 22
 url: /de/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aufteilen des Netzes nach Material
+
 ## Einführung
 Willkommen zu diesem umfassenden Tutorial zum Aufteilen eines Netzes nach Material mit Aspose.3D für .NET! Wenn Sie als Entwickler mit 3D-Grafiken arbeiten und Netze effizient verwalten und manipulieren möchten, sind Sie hier richtig. In diesem Leitfaden untersuchen wir den Prozess der Aufteilung eines Netzes nach Material, eine entscheidende Aufgabe bei der Erstellung vielfältiger und optisch ansprechender 3D-Szenen.
 ## Voraussetzungen
@@ -71,3 +77,9 @@ Im Allgemeinen weist die CloneData-Richtlinie aufgrund gemeinsamer Kontrollpunkt
 Ja, Sie können die resultierenden Teilnetze mit den Rendering-Funktionen von Aspose.3D rendern und visualisieren.
 ### F: Ist Aspose.3D für die Spieleentwicklung geeignet?
 Während Aspose.3D hauptsächlich zum Modellieren und Rendern verwendet wird, kann es für bestimmte Aufgaben in Spieleentwicklungspipelines integriert werden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

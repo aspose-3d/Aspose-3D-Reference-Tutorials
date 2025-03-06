@@ -3,10 +3,16 @@ title: Создание и преобразование 3D-сеток в Java
 linktitle: Создание и преобразование 3D-сеток в Java
 second_title: Aspose.3D Java API
 description: Раскройте потенциал 3D-графики с помощью Aspose.3D для Java. Легко создавайте, трансформируйте и оптимизируйте сетки. Повысьте свой опыт программирования с помощью наших руководств.
-type: docs
 weight: 31
 url: /ru/java/transforming-3d-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание и преобразование 3D-сеток в Java
+
 
 ## Введение
 
@@ -42,3 +48,9 @@ url: /ru/java/transforming-3d-meshes/
 Отправьтесь в путешествие к мастерству 3D-графики с Aspose.3D для Java — легко преобразуйте примитивы в завораживающие сетки. Повысьте свой опыт программирования прямо сейчас!
 ### [Настройка структуры памяти для 3D-сетей в Java](./customize-mesh-memory-layout/)
 Улучшите свое 3D-моделирование Java с помощью Aspose.3D: настройте структуру памяти для оптимальной производительности. Следуйте нашему пошаговому руководству прямо сейчас!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PDF에서 Raw 3D 컨텐츠 추출
 linktitle: PDF에서 Raw 3D 컨텐츠 추출
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 PDF에서 3D 콘텐츠를 추출하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 14
 url: /ko/net/loading-and-saving/pdf/extract-raw-3d-contents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PDF에서 Raw 3D 컨텐츠 추출
+
 ## 소개
 
 .NET용 Aspose.3D를 사용하여 PDF에서 원시 3D 콘텐츠를 추출하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. Aspose.3D는 개발자가 쉽게 3D 파일로 작업할 수 있도록 하는 강력하고 다재다능한 API입니다. 이 튜토리얼에서는 PDF 파일에서 원시 3D 컨텐츠를 추출하는 프로세스에 중점을 두고 단계별 지침을 제공합니다.
@@ -90,3 +96,9 @@ A1: 예, Aspose.3D는 광범위한 3D 파일 형식을 지원하므로 다양한
 ### Q5: Aspose.3D에 사용할 수 있는 문서가 있습니까?
 
  A5: 예, 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

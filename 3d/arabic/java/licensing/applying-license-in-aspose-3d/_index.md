@@ -3,10 +3,16 @@ title: تطبيق الترخيص في Aspose.3D لـ Java
 linktitle: تطبيق الترخيص في Aspose.3D لـ Java
 second_title: Aspose.3D جافا API
 description: أطلق العنان للإمكانات الكاملة لـ Aspose.3D في تطبيقات Java باتباع دليلنا الشامل حول تطبيق التراخيص.
-type: docs
 weight: 10
 url: /ar/java/licensing/applying-license-in-aspose-3d/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق الترخيص في Aspose.3D لـ Java
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل التفصيلي حول تطبيق الترخيص في Aspose.3D لـ Java. Aspose.3D هي مكتبة Java قوية تتيح للمطورين العمل مع الملفات ثلاثية الأبعاد دون عناء. في هذا البرنامج التعليمي، سوف نتعمق في عملية تطبيق الترخيص باستخدام طرق مختلفة، مما يضمن أنه يمكنك فتح الإمكانات الكاملة لـ Aspose.3D في تطبيقات Java الخاصة بك.
@@ -111,3 +117,9 @@ metered.setMeteredKey("your-public-key", "your-private-key");
 ### س5: هل أحتاج إلى ترخيص مؤقت للاختبار؟
 
  ج5: نعم، احصل على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: メッシュを PLY 形式にエンコードする
 linktitle: メッシュを PLY 形式にエンコードする
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D プログラミングの世界を探索してください。メッシュを PLY 形式に簡単にエンコードする方法を学びます。開発ゲームをレベルアップしましょう！
-type: docs
 weight: 13
 url: /ja/net/loading-and-saving/ply/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# メッシュを PLY 形式にエンコードする
+
 ## 導入
 3D プログラミングの領域への旅に乗り出すことは、スリリングであると同時に恐ろしいことでもあります。開発者として、3D グラフィックスが提供する可能性を探求したいと思うかもしれません。このチュートリアルでは、Aspose.3D for .NET を使用してメッシュを PLY 形式にエンコードする興味深いプロセスについて詳しく説明します。
 ## 前提条件
@@ -56,3 +62,9 @@ Aspose.3D for .NET を使用して 3D プログラミングに挑戦すると、
 Aspose.3D フォーラムにアクセスしてください[ここ](https://forum.aspose.com/c/3d/18)コミュニティとつながり、支援を求めます。
 ### 5. Aspose.3D に利用できる無料トライアルはありますか?
 確かに！無料トライアルで Aspose.3D の機能を試してください[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

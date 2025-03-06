@@ -3,10 +3,16 @@ title: كشف التنسيق
 linktitle: كشف التنسيق
 second_title: Aspose.3D.NET API
 description: أتقن معالجة الملفات ثلاثية الأبعاد دون عناء باستخدام Aspose.3D لـ .NET. قم بتحميل التنسيقات وحفظها واكتشافها بسلاسة.
-type: docs
 weight: 12
 url: /ar/net/loading-and-saving/detect-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# كشف التنسيق
+
 ## مقدمة
 
 مرحبًا بك في عالم معالجة الملفات ثلاثي الأبعاد المثير باستخدام Aspose.3D لـ .NET! سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام الرسومات ثلاثية الأبعاد، فسيرشدك هذا البرنامج التعليمي خلال عملية تحميل التنسيقات وحفظها واكتشافها بسهولة.
@@ -93,3 +99,9 @@ scene.Save("output.fbx", FileFormat.FBX7500ASCII);
 ### س5: هل يمكنني تجربة Aspose.3D مجانًا قبل الشراء؟
 
  ج5: بالتأكيد! قم بتنزيل النسخة التجريبية المجانية من[إصدارات Aspose.3D](https://releases.aspose.com/) لتجربة قدراته بشكل مباشر.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Pusatkan dalam Ekstrusi Linier
 linktitle: Pusatkan dalam Ekstrusi Linier
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia pemodelan 3D dengan Aspose.3D untuk .NET. Pusatkan teknik ekstrusi linier, ciptakan desain menakjubkan, dan bebaskan kreativitas Anda.
-type: docs
 weight: 10
 url: /id/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pusatkan dalam Ekstrusi Linier
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang menguasai ekstrusi linier menggunakan Aspose.3D untuk .NET. Jika Anda ingin meningkatkan keterampilan pemodelan 3D dan membuat ekstrusi yang menakjubkan, Anda berada di tempat yang tepat. Dalam tutorial ini, kita akan mempelajari teknik ekstrusi linier, khususnya berfokus pada aspek pemusatan untuk membawa desain Anda ke tingkat yang benar-benar baru.
@@ -109,3 +115,10 @@ A1: Aspose.3D terutama mendukung bahasa .NET seperti C# dan VB.NET.
 ### Q5: Di mana saya dapat membeli lisensi Aspose.3D untuk .NET?
 
  A5: Beli lisensi Anda[Di Sini](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

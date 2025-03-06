@@ -3,10 +3,16 @@ title: Generuj współrzędne UV do mapowania tekstur w modelach 3D Java
 linktitle: Generuj współrzędne UV do mapowania tekstur w modelach 3D Java
 second_title: Aspose.3D API Java
 description: Naucz się generować współrzędne UV dla modeli 3D Java przy użyciu Aspose.3D. Ulepsz mapowanie tekstur w swoich projektach, korzystając z tego przewodnika krok po kroku.
-type: docs
 weight: 11
 url: /pl/java/polygon/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generuj współrzędne UV do mapowania tekstur w modelach 3D Java
+
 ## Wstęp
 
 Witamy w naszym przewodniku krok po kroku dotyczącym generowania współrzędnych UV do mapowania tekstur w modelach 3D Java przy użyciu Aspose.3D. W tym samouczku przeprowadzimy Cię przez proces ręcznego generowania współrzędnych UV siatki w modelu 3D. Jest to kluczowy krok w mapowaniu tekstur, pozwalający poprawić atrakcyjność wizualną modeli 3D.
@@ -120,3 +126,9 @@ Odpowiedź 1: Aspose.3D jest przeznaczony głównie dla języka Java, ale Aspose
 ### P5: Czy mogę kupić tymczasową licencję na Aspose.3D?
 
  Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

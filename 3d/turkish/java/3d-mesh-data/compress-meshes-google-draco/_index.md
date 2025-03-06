@@ -3,10 +3,16 @@ title: 3D Mesh'leri Java'da Google Draco ile Sıkıştırın
 linktitle: 3D Mesh'leri Java'da Google Draco ile Sıkıştırın
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile 3D uygulamalarınızı optimize edin. Java'da Google Draco kullanarak ağları nasıl sıkıştıracağınızı öğrenin. Verimli 3D geliştirme için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D Mesh'leri Java'da Google Draco ile Sıkıştırın
+
 ## giriiş
 
 Aspose.3D kullanarak Java'da 3D ağları Google Draco ile sıkıştırmaya ilişkin bu kapsamlı kılavuza hoş geldiniz. Bu eğitimde, Aspose.3D'nin gücünü kullanarak 3D ağları verimli bir şekilde sıkıştırma sürecinde size yol göstereceğiz. Kaliteden ödün vermeden ağ boyutlarını azaltarak 3D uygulamalarınızı geliştirmek isteyen bir geliştiriciyseniz doğru yerdesiniz.
@@ -100,3 +106,9 @@ Cevap2: Bu eğitim Java'ya odaklanırken, Google Draco birden fazla programlama 
 ### S5: Aspose.3D desteği için bir topluluk forumu var mı?
 
  C5: Evet, topluluk desteği ve tartışmalar için şu adresi ziyaret edin:[Aspose.3D Forumu](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

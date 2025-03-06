@@ -3,10 +3,16 @@ title: Spara 3D-nät i anpassade binära format för flexibilitet i Java
 linktitle: Spara 3D-nät i anpassade binära format för flexibilitet i Java
 second_title: Aspose.3D Java API
 description: Lär dig hur du sparar 3D-nät i anpassade binära format med Aspose.3D för Java. Förbättra flexibiliteten i Java-applikationer med denna steg-för-steg handledning.
-type: docs
 weight: 13
 url: /sv/java/3d-scenes-and-models/save-custom-mesh-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara 3D-nät i anpassade binära format för flexibilitet i Java
+
 ## Introduktion
 
 Välkommen till denna steg-för-steg handledning om att spara 3D-nät i anpassade binära format för flexibilitet i Java med Aspose.3D. I den här guiden går vi igenom processen att konvertera 3D-nät och spara dem i ett anpassat binärt format för att förbättra flexibiliteten och interoperabiliteten i dina Java-applikationer.
@@ -124,3 +130,9 @@ S4: Aspose.3D-dokumentationen kan innehålla exempelmodeller, eller så kan du h
 ### F5: Kan jag anpassa det binära formatet ytterligare för specifika krav?
 
 S5: Absolut, anpassa gärna det binära formatet för att passa din applikations specifika behov.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

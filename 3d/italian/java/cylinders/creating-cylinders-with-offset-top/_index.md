@@ -3,10 +3,16 @@ title: Creazione di cilindri con parte superiore offset in Aspose.3D per Java
 linktitle: Creazione di cilindri con parte superiore offset in Aspose.3D per Java
 second_title: API Java Aspose.3D
 description: Esplora le meraviglie della modellazione 3D in Java con Aspose.3D. Impara a creare cilindri accattivanti con piani sfalsati senza sforzo.
-type: docs
 weight: 11
 url: /it/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creazione di cilindri con parte superiore offset in Aspose.3D per Java
+
 ## introduzione
 
 Nel regno della modellazione 3D basata su Java, Aspose.3D si distingue come un potente strumento, offrendo agli sviluppatori la possibilità di creare facilmente scene 3D complesse. In questo tutorial, approfondiremo l'affascinante mondo di Aspose.3D per Java, concentrandoci su un compito specifico: creare cilindri con parti superiori sfalsate. Al termine di questa guida, avrai una conoscenza approfondita del processo, che ti consentirà di integrare perfettamente questa funzionalità nei tuoi progetti 3D.
@@ -127,3 +133,9 @@ R3: Sì, puoi esplorare e scegliere l'opzione di licenza più adatta alle tue es
 ### Q5: Esiste un'opzione di licenza temporanea a scopo di test?
 
  R5: Sì, puoi ottenere una licenza temporanea a scopo di test e valutazione[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

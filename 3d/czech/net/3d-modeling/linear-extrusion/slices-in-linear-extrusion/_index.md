@@ -3,10 +3,16 @@ title: Řezy v lineárním vytlačování
 linktitle: Řezy v lineárním vytlačování
 second_title: Aspose.3D .NET API
 description: Prozkoumejte svět 3D designu s Aspose.3D pro .NET. Vytvářejte úžasné modely pomocí našeho výukového programu lineárního vytlačování.
-type: docs
 weight: 13
 url: /cs/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Řezy v lineárním vytlačování
+
 ## Úvod
 
 Vítejte ve světě 3D designu pomocí Aspose.3D pro .NET! Ať už jste zkušený vývojář nebo teprve začínáte, tento tutoriál vás provede procesem vytváření úžasných 3D vizualizací pomocí výkonné knihovny Aspose.3D.
@@ -116,3 +122,9 @@ Odpověď 1: Aspose.3D je primárně navržen pro .NET, ale můžete prozkoumat 
 ### Q5: Mohu použít dočasnou licenci pro Aspose.3D for .NET?
 
  A5: Ano, získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro účely hodnocení.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

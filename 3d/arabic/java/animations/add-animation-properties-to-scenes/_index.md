@@ -3,10 +3,16 @@ title: إضافة خصائص الرسوم المتحركة إلى المشاهد
 linktitle: إضافة خصائص الرسوم المتحركة إلى المشاهد ثلاثية الأبعاد في Java | Aspose.3D تعليمي
 second_title: Aspose.3D جافا API
 description: قم بتحسين مشاريعك ثلاثية الأبعاد المستندة إلى Java باستخدام Aspose.3D. اتبع البرنامج التعليمي الخاص بنا لإضافة خصائص الرسوم المتحركة بسلاسة.
-type: docs
 weight: 10
 url: /ar/java/animations/add-animation-properties-to-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة خصائص الرسوم المتحركة إلى المشاهد ثلاثية الأبعاد في Java | Aspose.3D تعليمي
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي خطوة بخطوة حول إضافة خصائص الرسوم المتحركة إلى المشاهد ثلاثية الأبعاد في Java باستخدام Aspose.3D. إذا كنت تتطلع إلى تحسين مشاريعك ثلاثية الأبعاد باستخدام الرسوم المتحركة الديناميكية، فأنت في المكان الصحيح. في هذا الدليل، سنرشدك خلال العملية، مع تفصيل كل خطوة للحصول على تجربة سلسة.
@@ -128,3 +134,9 @@ A3: انضم إلى المجتمع في[منتدى Aspose.3D](https://forum.aspo
 ### س5: هل هناك المزيد من الدروس المتاحة؟
 
  ج5: اكتشف الشامل[توثيق](https://reference.aspose.com/3d/java/) للحصول على دروس إضافية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

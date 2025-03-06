@@ -1,12 +1,17 @@
 ---
 title: .NET용 Aspose.3D의 종합 튜토리얼 및 예제
 linktitle: .NET 튜토리얼용 Aspose.3D
-type: docs
 weight: 10
 url: /ko/net/
 description: .NET용 Aspose.3D 튜토리얼을 통해 3D 모델링 및 애니메이션의 세계를 경험해보세요. 렌더링부터 선형 압출까지 프로젝트를 손쉽게 향상시키세요.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.3D의 종합 튜토리얼 및 예제
+
 ## 소개
 
 3D 모델링과 애니메이션이라는 흥미진진한 영역으로 여행을 떠날 준비가 되셨나요? 더 이상 볼 필요가 없습니다. .NET용 Aspose.3D는 창의력을 발휘하고 프로젝트를 새로운 차원으로 끌어올릴 수 있도록 설계된 포괄적인 튜토리얼 및 예제 컬렉션을 제공합니다.
@@ -60,3 +65,9 @@ PBR 재료 적용부터 기하학적 변환 마스터링까지 이 튜토리얼�
 
 
 당신 안에 있는 창의적인 잠재력을 발휘하고 .NET용 Aspose.3D 튜토리얼의 세계에 빠져보세요. 지금 평가판을 다운로드하여 3D 프로젝트를 놀라운 수준으로 끌어올리세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Benutzerdefinierte Speicheroptionen
 linktitle: Benutzerdefinierte Speicheroptionen
 second_title: Aspose.3D .NET API
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.3D für .NET. Erfahren Sie, wie Sie Ihre 3D-Szenenspeicherung mit Schritt-für-Schritt-Anleitungen zu den Formaten Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC und RVM anpassen.
-type: docs
 weight: 21
 url: /de/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Benutzerdefinierte Speicheroptionen
+
 ## Einführung
 
 Willkommen in der Welt von Aspose.3D für .NET! Wenn Sie Ihre 3D-Entwicklungsfähigkeiten erweitern möchten, sind Sie hier richtig. In diesem Tutorial befassen wir uns mit den Lade- und Speicherfunktionen und konzentrieren uns dabei insbesondere auf benutzerdefinierte Speicheroptionen. Aspose.3D für .NET ist eine leistungsstarke Bibliothek, die Entwicklern die effiziente Bearbeitung und Speicherung von 3D-Szenen ermöglicht.
@@ -131,3 +137,9 @@ A1: Ja, Aspose.3D ist mit verschiedenen .NET-Frameworks kompatibel und sorgt so 
 ### F5: Wie kann ich eine temporäre Lizenz für Aspose.3D erhalten?
 
  A5: Besorgen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

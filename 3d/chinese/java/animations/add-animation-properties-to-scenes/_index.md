@@ -3,10 +3,16 @@ title: 在 Java 中向 3D 场景添加动画属性 | Aspose.3D 教程
 linktitle: 在 Java 中向 3D 场景添加动画属性 | Aspose.3D 教程
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 增强基于 Java 的 3D 项目。按照我们的教程无缝添加动画属性。
-type: docs
 weight: 10
 url: /zh/java/animations/add-animation-properties-to-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中向 3D 场景添加动画属性 | Aspose.3D 教程
+
 ## 介绍
 
 欢迎阅读本分步教程，了解如何使用 Aspose.3D 将动画属性添加到 Java 中的 3D 场景。如果您希望通过动态动画增强您的 3D 项目，那么您来对地方了。在本指南中，我们将引导您完成整个过程，分解每个步骤以获得无缝体验。
@@ -128,3 +134,9 @@ A3：加入社区[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)寻求帮�
 ### Q5：还有更多教程吗？
 
  A5：探索综合[文档](https://reference.aspose.com/3d/java/)获取更多教程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

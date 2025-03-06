@@ -3,10 +3,16 @@ title: Zachycení výřezů ve 3D scénách
 linktitle: Zachycení výřezů ve 3D scénách
 second_title: Aspose.3D .NET API
 description: Naučte se zachytit úžasné 3D výřezy pomocí Aspose.3D for .NET. Podrobný průvodce pro flexibilní vykreslování scén.
-type: docs
 weight: 11
 url: /cs/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zachycení výřezů ve 3D scénách
+
 ## Úvod
 
 V oblasti 3D grafiky a vizualizace je zachycení výřezů základní dovedností, která zvyšuje hloubku a detaily vašich scén. Aspose.3D for .NET poskytuje robustní řešení pro vykreslování a manipulaci s 3D scénami. Tento tutoriál vás provede procesem zachycení výřezů ve 3D scénách pomocí Aspose.3D, což vám umožní snadno vytvářet úžasné vizualizace.
@@ -124,3 +130,9 @@ A2: Aspose.3D je sice primárně určen pro grafiku a vizualizaci, ale jeho funk
 ### Q5: Jak mohu vyhledat pomoc nebo se zapojit do komunity?
 
  A5: Připojte se ke komunitě Aspose.3D na[Fórum podpory](https://forum.aspose.com/c/3d/18) za pomoc a spolupráci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การตรวจจับรูปแบบ
 linktitle: การตรวจจับรูปแบบ
 second_title: Aspose.3D .NET API
 description: จัดการไฟล์ 3D ได้อย่างเชี่ยวชาญด้วย Aspose.3D สำหรับ .NET โหลด บันทึก และตรวจจับรูปแบบได้อย่างราบรื่น
-type: docs
 weight: 12
 url: /th/net/loading-and-saving/detect-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การตรวจจับรูปแบบ
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกที่น่าตื่นเต้นของการจัดการไฟล์ 3D โดยใช้ Aspose.3D สำหรับ .NET! ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นด้วยกราฟิก 3D บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการโหลด บันทึก และตรวจจับรูปแบบได้อย่างง่ายดาย
@@ -93,3 +99,9 @@ scene.Save("output.fbx", FileFormat.FBX7500ASCII);
 ### คำถามที่ 5: ฉันสามารถทดลองใช้ Aspose.3D ฟรีก่อนซื้อได้หรือไม่
 
  A5: แน่นอน! ดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้ที่[การเผยแพร่ Aspose.3D](https://releases.aspose.com/) เพื่อสัมผัสความสามารถโดยตรง
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

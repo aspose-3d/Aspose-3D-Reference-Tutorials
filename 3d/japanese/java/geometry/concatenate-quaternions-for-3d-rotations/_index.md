@@ -3,10 +3,16 @@ title: Aspose.3D を使用して Java で 3D 回転のクォータニオンを�
 linktitle: Aspose.3D を使用して Java で 3D 回転のクォータニオンを連結する
 second_title: Aspose.3D Java API
 description: Aspose.3D を使用して Java で 3D 回転の四元数を連結する方法を学びます。シームレスなアニメーション変換については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 11
 url: /ja/java/geometry/concatenate-quaternions-for-3d-rotations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D を使用して Java で 3D 回転のクォータニオンを連結する
+
 ## 導入
 
 クォータニオン連結は 3D グラフィックスの基本概念であり、複数の回転変換をシームレスに組み合わせることができます。 Aspose.3D は Java でのこのプロセスを簡素化し、クォータニオン操作を処理する効率的かつ直感的な方法を提供します。このチュートリアルでは、Aspose.3D を使用してクォータニオンを連結し、3D オブジェクトに適用するプロセスを説明します。
@@ -107,3 +113,9 @@ System.out.println("\nQuaternions concatenated successfully.\nFile saved at " + 
 ### Q5: 3D シーンの保存にはどのようなファイル形式がサポートされていますか?
 
 A5: Aspose.3D はさまざまな形式をサポートしており、このチュートリアルで説明されているように、シーンを FBX 形式で保存できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

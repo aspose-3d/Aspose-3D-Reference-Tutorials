@@ -3,10 +3,16 @@ title: توليد إحداثيات الأشعة فوق البنفسجية
 linktitle: توليد إحداثيات الأشعة فوق البنفسجية
 second_title: Aspose.3D.NET API
 description: استكشف عالم النمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. يقوم Master UV بتنسيق التوليد بسهولة. ارفع مشاريعك الآن!
-type: docs
 weight: 11
 url: /ar/net/meshes/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# توليد إحداثيات الأشعة فوق البنفسجية
+
 ## مقدمة
 أطلق العنان لقوة Aspose.3D لـ .NET وانغمس في عالم توليد إحداثيات الأشعة فوق البنفسجية. في هذا البرنامج التعليمي، سنرشدك خلال الخطوات الأساسية لإتقان هذا الجانب الأساسي للنمذجة ثلاثية الأبعاد باستخدام Aspose.3D. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا، سيزودك هذا الدليل بالمعرفة اللازمة لإنشاء إحداثيات الأشعة فوق البنفسجية لشبكاتك ومعالجتها بسهولة.
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ scene.Save("Your Output Directory" + "Aspose.obj", FileFormat.WavefrontOBJ);
  نعم يمكنك الحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) للاختبار والتقييم.
 ### س: أين يمكنني العثور على دروس وموارد إضافية؟
  اكتشف ال[Aspose.3D التوثيق](https://reference.aspose.com/3d/net/) للحصول على أدلة وأمثلة شاملة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

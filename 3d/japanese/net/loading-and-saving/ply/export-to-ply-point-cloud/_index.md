@@ -3,10 +3,16 @@ title: 点群として PLY 形式にエクスポート
 linktitle: 点群として PLY 形式にエクスポート
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D モデリングの世界を探索してください。モデルを PLY 形式に簡単にエクスポートする方法を学びましょう。素晴らしいビジュアルでプロジェクトを向上させます。
-type: docs
 weight: 16
 url: /ja/net/loading-and-saving/ply/export-to-ply-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 点群として PLY 形式にエクスポート
+
 ## 導入
 3D モデリングと開発の動的な世界では、Aspose.3D for .NET は強力なツールキットとして際立っています。このチュートリアルでは、Aspose.3D for .NET を使用して 3D モデルを点群として PLY 形式にエクスポートするプロセスを説明します。素晴らしいビジュアルでプロジェクトを強化する準備ができている場合は、この手順に従って、この多用途ライブラリの可能性を最大限に引き出してください。
 ## 前提条件
@@ -59,3 +65,9 @@ Aspose.3D はさまざまな .NET フレームワークをサポートし、幅�
 はい、機能を調べてください[無料トライアル](https://releases.aspose.com/)約束をする前に。
 ### 5. 一時ライセンスを取得するにはどうすればよいですか?
 一時ライセンスのオプションについては、次のサイトをご覧ください。[このリンク](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

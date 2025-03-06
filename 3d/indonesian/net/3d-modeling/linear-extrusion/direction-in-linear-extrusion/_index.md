@@ -3,10 +3,16 @@ title: Arah dalam Ekstrusi Linier
 linktitle: Arah dalam Ekstrusi Linier
 second_title: Aspose.3D .NET API
 description: Buka dunia pemodelan 3D dengan Aspose.3D untuk .NET. Pelajari arah ekstrusi linier, tingkatkan kreativitas, dan buat aplikasi imersif dengan mudah.
-type: docs
 weight: 11
 url: /id/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arah dalam Ekstrusi Linier
+
 ## Perkenalan
 
 Dalam dunia pengembangan perangkat lunak yang dinamis, membuat model 3D yang imersif adalah keterampilan yang sangat diperlukan. Aspose.3D untuk .NET memberi pengembang seperangkat alat canggih untuk memanfaatkan potensi pemodelan 3D dalam aplikasi mereka. Dalam tutorial ini, kita akan mempelajari dunia ekstrusi linier yang menarik dan menjelajahi nuansa fitur "Arah dalam Ekstrusi Linier".
@@ -110,3 +116,9 @@ Dalam tutorial ini, kita menavigasi dunia pemodelan 3D yang menakjubkan mengguna
 ### Q5: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.3D untuk .NET?
 
  A5: Lihat secara komprehensif[Dokumentasi Aspose.3D .NET](https://reference.aspose.com/3d/net/) untuk informasi mendalam.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.3D for Java'da Üstü Ofset ile Silindir Oluşturma
 linktitle: Aspose.3D for Java'da Üstü Ofset ile Silindir Oluşturma
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile Java'da 3D modellemenin harikalarını keşfedin. Üst kısmı ofset olan büyüleyici silindirleri zahmetsizce oluşturmayı öğrenin.
-type: docs
 weight: 11
 url: /tr/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java'da Üstü Ofset ile Silindir Oluşturma
+
 ## giriiş
 
 Java tabanlı 3D modelleme alanında Aspose.3D, geliştiricilere karmaşık 3D sahneleri kolaylıkla oluşturma olanağı sunan güçlü bir araç olarak öne çıkıyor. Bu derste Aspose.3D for Java'nın büyüleyici dünyasını derinlemesine inceleyeceğiz ve belirli bir göreve odaklanacağız: üst kısımları ofset olan silindirler oluşturma. Bu kılavuzun sonunda süreci iyice kavrayacak ve bu özelliği 3D projelerinize sorunsuz bir şekilde entegre etmenize olanak tanıyacaksınız.
@@ -127,3 +133,9 @@ Cevap3: Evet, ihtiyaçlarınıza uygun lisanslama seçeneğini araştırıp seç
 ### S5: Test amaçlı geçici bir lisans seçeneği var mı?
 
  Cevap5: Evet, test ve değerlendirme amacıyla geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

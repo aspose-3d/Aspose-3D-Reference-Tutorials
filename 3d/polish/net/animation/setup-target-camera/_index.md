@@ -3,10 +3,16 @@ title: Konfigurowanie celów i kamer do animacji w scenach 3D
 linktitle: Konfigurowanie celów i kamer do animacji w scenach 3D
 second_title: Aspose.3D API .NET
 description: Odblokuj magię animacji 3D dzięki Aspose.3D dla .NET. Dzięki temu obszernemu samouczkowi możesz łatwo konfigurować cele i kamery.
-type: docs
 weight: 11
 url: /pl/net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurowanie celów i kamer do animacji w scenach 3D
+
 ## Wstęp
 
 Konfiguracja celów i kamer stanowi podstawę każdego projektu animacji 3D. Aspose.3D dla .NET oferuje solidny zestaw narzędzi usprawniających ten proces, pozwalający programistom uwolnić swoją kreatywność. Ten samouczek poprowadzi Cię przez kolejne etapy, omówi złożoność i sprawi, że pozornie zniechęcające zadanie będzie łatwiejsze do wykonania.
@@ -103,3 +109,9 @@ Odpowiedź 4: Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](ht
 ### P5: Jak uzyskać licencję tymczasową?
 
  A5: Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

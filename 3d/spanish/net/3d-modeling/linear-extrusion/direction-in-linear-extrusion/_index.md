@@ -3,10 +3,16 @@ title: Dirección en extrusión lineal
 linktitle: Dirección en extrusión lineal
 second_title: Aspose.3D API .NET
 description: Desbloquee el mundo del modelado 3D con Aspose.3D para .NET. Aprenda a dirigir la extrusión lineal, impulse la creatividad y cree aplicaciones inmersivas sin esfuerzo.
-type: docs
 weight: 11
 url: /es/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dirección en extrusión lineal
+
 ## Introducción
 
 En el dinámico mundo del desarrollo de software, crear modelos 3D inmersivos es una habilidad indispensable. Aspose.3D para .NET proporciona a los desarrolladores un sólido conjunto de herramientas para aprovechar el potencial del modelado 3D en sus aplicaciones. En este tutorial, profundizaremos en el intrigante mundo de la extrusión lineal y exploraremos los matices de la función "Dirección en extrusión lineal".
@@ -110,3 +116,9 @@ En este tutorial, navegamos por el fascinante ámbito del modelado 3D utilizando
 ### P5: ¿Dónde puedo encontrar documentación detallada de Aspose.3D para .NET?
 
  A5: Consulte la información completa[Documentación de Aspose.3D .NET](https://reference.aspose.com/3d/net/) para obtener información detallada.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

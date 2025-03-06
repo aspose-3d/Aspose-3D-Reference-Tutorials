@@ -3,10 +3,16 @@ title: Application d'effets visuels dans les fenêtres 3D
 linktitle: Application d'effets visuels dans les fenêtres 3D
 second_title: API Aspose.3D .NET
 description: Explorez le monde de la visualisation 3D avec Aspose.3D pour .NET. Apprenez à appliquer des effets visuels captivants à vos scènes à l'aide de didacticiels étape par étape. Améliorez vos projets avec des effets de pixellisation, de niveaux de gris, de détection des contours et de flou.
-type: docs
 weight: 10
 url: /fr/net/rendering/apply-visual-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Application d'effets visuels dans les fenêtres 3D
+
 ## Introduction
 
 Améliorer l'attrait visuel des scènes 3D est un aspect crucial de la création d'expériences immersives. Aspose.3D pour .NET fournit un ensemble d'outils puissants pour appliquer des effets visuels aux fenêtres 3D. Dans ce didacticiel, nous expliquerons le processus d'application de divers effets à une scène 3D, notamment la pixellisation, les niveaux de gris, la détection des contours et le flou.
@@ -179,3 +185,9 @@ A4 : Aspose.3D fournit une variété d'effets de post-traitement intégrés et v
 ### Q5 : Puis-je utiliser Aspose.3D pour des projets commerciaux ?
 
  A5 : Oui, vous pouvez utiliser Aspose.3D à des fins commerciales. Se référer au[page d'achat](https://purchase.aspose.com/buy) pour les détails de la licence.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

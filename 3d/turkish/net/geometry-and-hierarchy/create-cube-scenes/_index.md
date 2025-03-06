@@ -3,10 +3,16 @@ title: Küp Sahneleri Oluşturma
 linktitle: Küp Sahneleri Oluşturma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET ile büyüleyici 3D küp sahnelerini zahmetsizce oluşturun. Kütüphaneyi indirin, adım adım kılavuzumuzu izleyin ve serbest bırakın.
-type: docs
 weight: 12
 url: /tr/net/geometry-and-hierarchy/create-cube-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Küp Sahneleri Oluşturma
+
 ## giriiş
 
 3D tasarımın büyüleyici dünyasına dalmaya hazır mısınız? Bu eğitimde, Aspose.3D for .NET'i kullanarak büyüleyici küp sahneleri oluşturma sürecinde size rehberlik edeceğiz. Aspose.3D, geliştiricilerin sürükleyici 3D deneyimlerini sorunsuz bir şekilde oluşturmasına olanak tanıyan güçlü ve çok yönlü bir kitaplıktır.
@@ -126,3 +132,9 @@ A2: Kesinlikle! İstediğiniz görünümü elde etmek için malzemeler, renkler 
 ### S5: Aspose.3D için nasıl geçici lisans alabilirim?
 
  Cevap5: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

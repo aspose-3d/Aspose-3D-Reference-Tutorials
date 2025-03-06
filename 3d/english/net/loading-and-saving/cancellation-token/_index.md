@@ -3,10 +3,16 @@ title: Using CancellationToken
 linktitle:  Using CancellationToken
 second_title: Aspose.3D .NET API
 description: Explore the seamless world of 3D modeling with Aspose.3D for .NET. Learn to load and save 3D documents efficiently using CancellationToken.
-type: docs
 weight: 10
 url: /net/loading-and-saving/cancellation-token/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Using CancellationToken
+
 ## Introduction
 
 Welcome to our comprehensive guide on utilizing Aspose.3D for .NET to enhance your 3D modeling and rendering projects. Aspose.3D is a powerful library that empowers .NET developers to seamlessly work with 3D files. In this tutorial, we will delve into the loading and saving aspects, specifically focusing on the usage of CancellationToken for efficient management of asynchronous tasks.
@@ -120,3 +126,10 @@ A4: Yes, explore the features with a free trial available [here](https://release
 ### Q5: What is the latest version of Aspose.3D for .NET?
 
 A5: Stay up-to-date by checking the [download page](https://releases.aspose.com/3d/net/) for the latest release.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

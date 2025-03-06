@@ -3,10 +3,16 @@ title: Ossza meg a hálógeometriai adatokat Java 3D-ben az Aspose.3D-vel
 linktitle: Ossza meg a hálógeometriai adatokat Java 3D-ben az Aspose.3D-vel
 second_title: Aspose.3D Java API
 description: Fedezze fel a Java 3D csodáit az Aspose.3D segítségével. Ebből az átfogó oktatóanyagból megtudhatja, hogyan oszthat meg könnyedén hálógeometriai adatokat a csomópontok között.
-type: docs
 weight: 15
 url: /hu/java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ossza meg a hálógeometriai adatokat Java 3D-ben az Aspose.3D-vel
+
 ## Bevezetés
 
 Az Aspose.3D segítségével a Java 3D birodalmába vezető utazás a lehetőségek világát nyitja meg lenyűgöző vizualizációk és magával ragadó élmények létrehozására. Ebben az oktatóanyagban végigvezetjük a hálógeometriai adatok Java 3D-ben való megosztásának folyamatán az Aspose.3D használatával. Gondosan kövesse az egyes lépéseket, és a végére zökkenőmentesen cserélheti ki a hálóadatokat több csomópont között.
@@ -117,3 +123,9 @@ Gratulálunk! Sikeresen megosztotta a hálógeometriai adatokat több csomópont
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?
 
  V5: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

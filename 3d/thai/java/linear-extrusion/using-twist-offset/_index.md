@@ -4,10 +4,16 @@ linktitle: การใช้ Twist Offset ใน Linear Extrusion ด้วย 
 second_title: Aspose.3D จาวา API
 description: เสริมทักษะการสร้างแบบจำลอง 3 มิติของคุณด้วย Aspose.3D สำหรับ Java เรียนรู้การใช้ Twist Offset ใน Linear Extrusion ในบทช่วยสอนที่ครอบคลุมนี้
 
-type: docs
 weight: 15
 url: /th/java/linear-extrusion/using-twist-offset/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การใช้ Twist Offset ใน Linear Extrusion ด้วย Aspose.3D สำหรับ Java
+
 ## การแนะนำ
 
 ในโลกแบบไดนามิกของกราฟิก 3D การเรียนรู้ศิลปะของการอัดขึ้นรูปเชิงเส้นเป็นตัวเปลี่ยนเกม ด้วย Aspose.3D สำหรับ Java คุณสามารถยกระดับทักษะการสร้างแบบจำลอง 3 มิติของคุณโดยผสมผสานคุณสมบัติ Twist Offset เข้ากับกระบวนการอัดขึ้นรูปเชิงเส้นของคุณ บทช่วยสอนนี้จะแนะนำคุณตลอดขั้นตอนการใช้ Twist Offset ใน Linear Extrusion โดยใช้ Aspose.3D สำหรับ Java ซึ่งมอบเครื่องมือในการสร้างฉาก 3D ที่น่าทึ่งให้กับคุณ
@@ -113,3 +119,9 @@ scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### คำถามที่ 5: มีตัวอย่างและบทช่วยสอนเพิ่มเติมหรือไม่
 
  A5: ใช่ โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/3d/java/) สำหรับตัวอย่างเพิ่มเติมและบทช่วยสอนเชิงลึก
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

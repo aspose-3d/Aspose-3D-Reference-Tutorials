@@ -3,10 +3,16 @@ title: Triangulating Mesh
 linktitle: Triangulating Mesh 
 second_title: Aspose.3D .NET API
 description: Explore the power of Aspose.3D for .NET in this step-by-step guide. Learn how to effortlessly triangulate 3D meshes for enhanced modeling.
-type: docs
 weight: 22
 url: /net/geometry-and-hierarchy/triangulate-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Triangulating Mesh
+
 ## Introduction
 
 Welcome to this comprehensive tutorial on triangulating meshes in 3D scenes using Aspose.3D for .NET. Aspose.3D is a powerful library that empowers .NET developers to work seamlessly with 3D files, offering a wide range of functionalities for creating, manipulating, and converting 3D models.
@@ -103,3 +109,10 @@ A4: Yes, you can get community support and share your queries at the [Aspose.3D 
 
 A5: Certainly! You can download a free trial version [here](https://releases.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

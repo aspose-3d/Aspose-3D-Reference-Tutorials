@@ -3,10 +3,16 @@ title: Optimaliseer het opslaan van 3D-bestanden in Java met Aspose.3D SaveOptio
 linktitle: Optimaliseer het opslaan van 3D-bestanden in Java met Aspose.3D SaveOptions
 second_title: Aspose.3D Java-API
 description: Leer hoe u het opslaan van 3D-bestanden in Java kunt optimaliseren met Aspose.3D SaveOptions. Verbeter de prestaties en pas de uitvoer moeiteloos aan.
-type: docs
 weight: 16
 url: /nl/java/load-and-save/optimize-3d-file-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optimaliseer het opslaan van 3D-bestanden in Java met Aspose.3D SaveOptions
+
 ## Invoering
 
 Aspose.3D is een Java-bibliotheek boordevol functies waarmee ontwikkelaars naadloos met 3D-modellen kunnen werken. Als het gaat om het opslaan van 3D-bestanden, biedt de klasse SaveOptions een overvloed aan instellingen om de uitvoer te verfijnen volgens uw vereisten. In deze zelfstudie onderzoeken we verschillende opslagopties en hoe deze kunnen worden gebruikt om het proces te optimaliseren.
@@ -119,3 +125,9 @@ A4: Gebruik de`setFileSystem(new DummyFileSystem())` methode in de`ObjSaveOption
 ### Vraag 5: Is er een manier om afhankelijkheden op te slaan in een lokale map in een OBJ-bestand?
 
  A5: Ja, gebruik de`setFileSystem(new LocalFileSystem(MyDir))` methode in de`ObjSaveOptions` klasse om afhankelijkheden lokaal op te slaan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

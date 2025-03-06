@@ -3,10 +3,16 @@ title: ضغط الشبكات ثلاثية الأبعاد باستخدام Google
 linktitle: ضغط الشبكات ثلاثية الأبعاد باستخدام Google Draco في Java
 second_title: Aspose.3D جافا API
 description: قم بتحسين تطبيقاتك ثلاثية الأبعاد باستخدام Aspose.3D. تعرف على كيفية ضغط الشبكات باستخدام Google Draco في Java. اتبع دليلنا خطوة بخطوة للتطوير ثلاثي الأبعاد بكفاءة.
-type: docs
 weight: 10
 url: /ar/java/3d-mesh-data/compress-meshes-google-draco/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضغط الشبكات ثلاثية الأبعاد باستخدام Google Draco في Java
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول ضغط الشبكات ثلاثية الأبعاد باستخدام Google Draco في Java باستخدام Aspose.3D. في هذا البرنامج التعليمي، سنرشدك خلال عملية ضغط الشبكات ثلاثية الأبعاد بكفاءة، باستخدام قوة Aspose.3D. إذا كنت مطورًا يتطلع إلى تحسين تطبيقاتك ثلاثية الأبعاد عن طريق تقليل أحجام الشبكات دون المساس بالجودة، فأنت في المكان الصحيح.
@@ -100,3 +106,9 @@ Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 ### س5: هل يوجد منتدى مجتمعي لدعم Aspose.3D؟
 
  ج5: نعم، للحصول على دعم المجتمع والمناقشات، قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Générer des données pour des maillages 3D en Java (normales, tangentes
 linktitle: Générer des données pour des maillages 3D en Java (normales, tangentes, binormales)
 second_title: API Java Aspose.3D
 description: Améliorez vos projets Java avec Aspose.3D. Suivez notre tutoriel pour générer sans effort des données normales pour les maillages 3D. Plongez facilement dans les graphiques 3D.
-type: docs
 weight: 11
 url: /fr/java/3d-mesh-data/generate-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Générer des données pour des maillages 3D en Java (normales, tangentes, binormales)
+
 ## Introduction
 
 Créer et manipuler des données de maillage 3D en Java peut être une tâche difficile mais passionnante, en particulier lorsqu'il s'agit de fichiers dépourvus de données normales essentielles. Aspose.3D pour Java vient à la rescousse, fournissant une boîte à outils puissante pour gérer efficacement les graphiques et les maillages 3D. Dans ce didacticiel, nous vous guiderons tout au long du processus de génération de données normales pour les maillages 3D à l'aide d'Aspose.3D en Java.
@@ -95,3 +101,9 @@ A1 : Oui, Aspose.3D prend en charge différents formats de fichiers 3D, garantis
 ### Q5 : Besoin d'aide ou souhaitez-vous vous connecter avec la communauté ?
 
  A5 : Visitez le forum Aspose.3D[ici](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

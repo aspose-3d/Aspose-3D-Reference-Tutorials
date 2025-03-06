@@ -3,10 +3,16 @@ title: 변환 매트릭스로 노드 변환
 linktitle: 변환 매트릭스로 노드 변환
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 장면에서 노드를 쉽게 변환할 수 있습니다. 튜토리얼을 통해 단계별 노드 변환을 알아보세요.
-type: docs
 weight: 21
 url: /ko/net/geometry-and-hierarchy/transformation-node-matrix/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 변환 매트릭스로 노드 변환
+
 ## 소개
 
 3D 그래픽 및 시각화의 동적 영역에서 장면 내의 개체를 조작하는 능력은 중요한 측면입니다. .NET용 Aspose.3D는 개발자가 변환 매트릭스를 사용하여 노드를 원활하게 변환하고 3D 장면에 창의성과 제어 계층을 추가할 수 있도록 지원합니다. 이 튜토리얼에서는 3D 장면에서 노드를 변환하는 과정을 단계별로 안내합니다.
@@ -112,3 +118,9 @@ A2: 예, 각 행렬을 곱하고 그 결과를 노드에 적용하여 여러 변
 ### Q5: 어디서 도움을 구하거나 Aspose.3D 커뮤니티에 연결할 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) Aspose.3D를 사용하여 질문하고, 경험을 공유하고, 다른 개발자와 연결하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Triangulerend gaas
 linktitle: Triangulerend gaas
 second_title: Aspose.3D .NET-API
 description: Ontdek de kracht van Aspose.3D voor .NET in deze stapsgewijze handleiding. Leer hoe u moeiteloos 3D-meshes kunt trianguleren voor verbeterde modellering.
-type: docs
 weight: 22
 url: /nl/net/geometry-and-hierarchy/triangulate-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Triangulerend gaas
+
 ## Invoering
 
 Welkom bij deze uitgebreide tutorial over het trianguleren van meshes in 3D-scènes met Aspose.3D voor .NET. Aspose.3D is een krachtige bibliotheek waarmee .NET-ontwikkelaars naadloos met 3D-bestanden kunnen werken en een breed scala aan functionaliteiten biedt voor het maken, manipuleren en converteren van 3D-modellen.
@@ -102,3 +108,10 @@ A2: Absoluut. Aspose.3D kan naadloos worden geïntegreerd in zowel desktop- als 
 ### V5: Kan ik Aspose.3D gratis uitproberen voordat ik een aankoop doe?
 
  A5: Zeker! U kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

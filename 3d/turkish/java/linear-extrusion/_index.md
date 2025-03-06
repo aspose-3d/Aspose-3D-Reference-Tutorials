@@ -3,10 +3,16 @@ title: Java'da Doğrusal Ekstrüzyon ile 3B Modeller Oluşturma
 linktitle: Java'da Doğrusal Ekstrüzyon ile 3B Modeller Oluşturma
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java ile 3D modelleme dünyasını keşfedin. Doğrusal ekstrüzyonda zahmetsizce ustalaşın. Kontrol merkezi, yönü ayarlayın, dilimleri belirtin, büküm uygulayın ve daha fazlasını yapın!
-type: docs
 weight: 23
 url: /tr/java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Doğrusal Ekstrüzyon ile 3B Modeller Oluşturma
+
 ## giriiş
 
 
@@ -62,3 +68,9 @@ Aspose.3D for Java'yı kullanarak doğrusal ekstrüzyonda dilimleri belirtmeyi �
 Aspose.3D for Java'yı kullanarak 3D modellerinize nasıl yenilik ekleyeceğinizi öğrenin. Gelişmiş doğrusal ekstrüzyon efektleri için adım adım kılavuzumuzu izleyin.
 ### [Aspose.3D for Java ile Doğrusal Ekstrüzyonda Büküm Ofsetini Kullanma](./using-twist-offset/)
 Aspose.3D for Java ile 3D modelleme becerilerinizi geliştirin. Bu kapsamlı eğitimde Doğrusal Ekstrüzyonda Büküm Ofsetini kullanmayı öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

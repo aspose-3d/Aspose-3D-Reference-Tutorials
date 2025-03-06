@@ -3,10 +3,16 @@ title: Egyéni mentési beállítások
 linktitle: Egyéni mentési beállítások
 second_title: Aspose.3D .NET API
 description: Fedezze fel az Aspose.3D for .NET erejét. A Collada, USD, 3DS, FBX, OBJ, STL, U3D, glTF, DRC és RVM formátumok lépésenkénti útmutatói segítségével megtudhatja, hogyan szabhatja testre 3D-s jelenetmentését.
-type: docs
 weight: 21
 url: /hu/net/loading-and-saving/custom-save-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyéni mentési beállítások
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.3D for .NET világában! Ha 3D-s fejlesztési képességeit szeretné továbbfejleszteni, akkor jó helyen jár. Ebben az oktatóanyagban a betöltési és mentési funkciókkal foglalkozunk, különös tekintettel az egyéni mentési beállításokra. Az Aspose.3D for .NET egy hatékony könyvtár, amely felhatalmazza a fejlesztőket a 3D jelenetek hatékony manipulálására és mentésére.
@@ -131,3 +137,9 @@ Gratulálunk! Sikeresen felfedezte az Aspose.3D for .NET egyéni mentési beáll
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?
 
  V5: Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

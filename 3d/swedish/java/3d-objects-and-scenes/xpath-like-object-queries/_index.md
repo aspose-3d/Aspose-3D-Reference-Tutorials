@@ -3,10 +3,16 @@ title: Tillämpa XPath-liknande frågor på 3D-objekt i Java
 linktitle: Tillämpa XPath-liknande frågor på 3D-objekt i Java
 second_title: Aspose.3D Java API
 description: Bemästra 3D-objektfrågor i Java utan ansträngning med Aspose.3D. Använd XPath-liknande frågor, manipulera scener och lyft din 3D-utveckling.
-type: docs
 weight: 11
 url: /sv/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tillämpa XPath-liknande frågor på 3D-objekt i Java
+
 ## Introduktion
 
 Att fördjupa sig i sfären av 3D-modellering och scenmanipulation i Java kan vara en skrämmande uppgift, men var inte rädd! Aspose.3D för Java tillhandahåller en robust lösning för hantering av 3D-objekt, vilket gör det till ett ovärderligt verktyg för utvecklare. I den här handledningen kommer vi att guida dig genom tillämpningen av XPath-liknande frågor på 3D-objekt i Java med Aspose.3D.
@@ -99,3 +105,9 @@ I den här handledningen har vi avmystifierat processen att tillämpa XPath-likn
 ### F5: Behöver du en tillfällig licens?
 
  A5: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

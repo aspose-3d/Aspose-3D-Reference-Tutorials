@@ -3,10 +3,16 @@ title: Verdrehungsversatz in der linearen Extrusion
 linktitle: Verdrehungsversatz in der linearen Extrusion
 second_title: Aspose.3D .NET API
 description: Entdecken Sie die Magie von Aspose.3D für .NET mit unserer Schritt-für-Schritt-Anleitung zum Twist Offset in der linearen Extrusion. Werten Sie Ihre 3D-Projekte mühelos auf.
-type: docs
 weight: 15
 url: /de/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verdrehungsversatz in der linearen Extrusion
+
 ## Einführung
 
 Willkommen in der Welt von Aspose.3D für .NET, einer vielseitigen Bibliothek, die Entwicklern die einfache Handhabung von 3D-Manipulationen ermöglicht. In diesem Tutorial befassen wir uns mit einer der faszinierenden Funktionen – dem „Twist Offset in Linear Extrusion“. Wenn Sie bereit sind, Ihre 3D-Programmierkenntnisse zu verbessern, können Sie gleich loslegen!
@@ -112,3 +118,9 @@ A1: Aspose.3D unterstützt hauptsächlich .NET-Sprachen, Aspose bietet jedoch ä
 ### F5: Wo kann ich Aspose.3D für .NET kaufen?
 
  A5: Gehen Sie zu[dieser Link](https://purchase.aspose.com/buy) um einen Kauf zu tätigen und das volle Potenzial von Aspose.3D auszuschöpfen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

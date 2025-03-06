@@ -3,10 +3,16 @@ title: Membuat Silinder dengan Sheared Bottom di Aspose.3D untuk Java
 linktitle: Membuat Silinder dengan Sheared Bottom di Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Pelajari cara membuat silinder khusus dengan bagian bawah yang dicukur menggunakan Aspose.3D untuk Java. Tingkatkan keterampilan pemodelan 3D Anda dengan panduan langkah demi langkah ini.
-type: docs
 weight: 12
 url: /id/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Silinder dengan Sheared Bottom di Aspose.3D untuk Java
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah dalam membuat silinder dengan bagian bawah yang dicukur menggunakan Aspose.3D untuk Java. Aspose.3D adalah perpustakaan Java yang kuat yang memungkinkan Anda bekerja dengan file 3D dengan mudah. Dalam tutorial ini, kita akan mempelajari cara membuat silinder khusus dengan bagian bawah yang dicukur, memberi Anda pengalaman langsung dalam menggunakan Aspose.3D untuk meningkatkan keterampilan pemodelan 3D Anda.
@@ -100,3 +106,9 @@ A2: Ya, Aspose.3D menyediakan API yang ramah pengguna, sehingga cocok untuk pemu
 ### Q5: Dapatkah saya membeli Aspose.3D untuk Java?
 
  A5: Ya, Anda dapat membeli Aspose.3D untuk Java[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

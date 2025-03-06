@@ -3,10 +3,16 @@ title: Mengatur Normals pada Objek 3D di Java dengan Aspose.3D
 linktitle: Mengatur Normals pada Objek 3D di Java dengan Aspose.3D
 second_title: Asumsikan.3D Java API
 description: Pelajari cara mengatur normal pada objek 3D di Java dengan Aspose.3D. Tingkatkan grafis Anda dengan tutorial komprehensif ini.
-type: docs
 weight: 17
 url: /id/java/geometry/set-up-normals-on-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengatur Normals pada Objek 3D di Java dengan Aspose.3D
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami tentang pengaturan normal pada objek 3D di Java menggunakan Aspose.3D. Baik Anda seorang pengembang berpengalaman atau baru memulai dengan grafik 3D, memahami dan memanipulasi kondisi normal sangat penting untuk mencapai efek pencahayaan realistis dalam model 3D Anda. Dalam tutorial ini, kami akan memandu Anda melalui prosesnya, membaginya menjadi langkah-langkah yang mudah diikuti.
@@ -91,3 +97,9 @@ A1: Ya, Aspose.3D dapat diintegrasikan dengan perpustakaan Java 3D lainnya untuk
 ### Q5: Butuh bantuan atau ingin berdiskusi dengan masyarakat?
 
  A5: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan dan diskusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

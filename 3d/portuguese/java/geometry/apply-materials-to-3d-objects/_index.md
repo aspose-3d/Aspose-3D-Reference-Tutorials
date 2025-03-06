@@ -3,10 +3,16 @@ title: Aplicar materiais a objetos 3D em Java com Aspose.3D
 linktitle: Aplicar materiais a objetos 3D em Java com Aspose.3D
 second_title: API Java Aspose.3D
 description: Explore o mundo dos gráficos 3D com Aspose.3D para Java. Aprenda como aplicar materiais a objetos 3D perfeitamente. Eleve seus projetos com visuais realistas.
-type: docs
 weight: 14
 url: /pt/java/geometry/apply-materials-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar materiais a objetos 3D em Java com Aspose.3D
+
 ## Introdução
 
 No mundo dinâmico dos gráficos 3D, Aspose.3D for Java se destaca como uma ferramenta poderosa para dar vida aos seus projetos. Adicionar materiais a objetos 3D aumenta o apelo visual, tornando-os mais realistas. Neste tutorial, orientaremos você no processo de aplicação de materiais a um cubo 3D usando Aspose.3D para Java.
@@ -165,3 +171,9 @@ R1: Sim, o Aspose.3D permite aplicar vários materiais a diferentes partes de um
 ### Q5: Posso baixar a biblioteca Aspose.3D de um link específico?
 
  A5: Sim, use o[Link para Download](https://releases.aspose.com/3d/java/) para acessar a versão mais recente do Aspose.3D para Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การสร้างข้อมูลปกติสำหรับ 
 linktitle: การสร้างข้อมูลปกติสำหรับ Meshes
 second_title: Aspose.3D .NET API
 description: ปรับปรุงโมเดล 3 มิติด้วย Aspose.3D สำหรับ .NET! เรียนรู้วิธีสร้างข้อมูลปกติสำหรับ Meshes ในคำแนะนำทีละขั้นตอนนี้ ความสมจริงพบกับความเรียบง่าย
-type: docs
 weight: 20
 url: /th/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างข้อมูลปกติสำหรับ Meshes
+
 ## การแนะนำ
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนเกี่ยวกับการสร้างข้อมูลปกติสำหรับ mesh โดยใช้ Aspose.3D สำหรับ .NET! หากคุณกำลังทำงานกับโมเดล 3 มิติและต้องการปรับปรุงรูปลักษณ์ที่สวยงามด้วยการเพิ่มข้อมูลปกติ บทช่วยสอนนี้เหมาะสำหรับคุณ Aspose.3D เป็นไลบรารี .NET อันทรงพลังที่ทำให้การเขียนโปรแกรมกราฟิก 3D ง่ายขึ้น และในคู่มือนี้ เราจะแนะนำคุณตลอดขั้นตอนการสร้างข้อมูลปกติสำหรับ Meshes
 ## ข้อกำหนดเบื้องต้น
@@ -66,3 +72,9 @@ Console.WriteLine("\nNormal data generated successfully for all meshes.");
  มีเอกสารประกอบครบถ้วน[ที่นี่](https://reference.aspose.com/3d/net/).
 ### จะต้องทำอย่างไรหากฉันต้องการซื้อใบอนุญาตสำหรับ Aspose.3D
  คุณสามารถซื้อใบอนุญาตได้จาก[หน้าซื้อ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

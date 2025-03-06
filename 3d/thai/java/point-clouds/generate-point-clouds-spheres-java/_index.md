@@ -3,10 +3,16 @@ title: การสร้าง Point Clouds จาก Spheres ใน Java
 linktitle: การสร้าง Point Clouds จาก Spheres ใน Java
 second_title: Aspose.3D จาวา API
 description: สำรวจโลกของกราฟิก 3 มิติด้วย Aspose.3D ใน Java เรียนรู้การสร้างพอยต์คลาวด์จากทรงกลมด้วยบทช่วยสอนที่ปฏิบัติตามง่ายนี้
-type: docs
 weight: 14
 url: /th/java/point-clouds/generate-point-clouds-spheres-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้าง Point Clouds จาก Spheres ใน Java
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนเกี่ยวกับการสร้างพอยต์คลาวด์จากสเฟียร์ใน Java โดยใช้ Aspose.3D หากคุณกระตือรือร้นที่จะดำดิ่งสู่โลกแห่งกราฟิก 3 มิติที่น่าหลงใหลและต้องการสร้างการแสดงภาพที่น่าทึ่ง แสดงว่าคุณมาถูกที่แล้ว บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการ ทำให้ง่ายแม้กระทั่งสำหรับผู้เริ่มต้นที่จะปฏิบัติตาม
@@ -90,3 +96,10 @@ FileFormat.DRACO.encode(sphere, "Your Document Directory" + "sphere.drc", opt);
 ### Q5: ฉันจะหาเอกสารได้จากที่ไหน?
 
  A5: อ้างถึงรายละเอียด[เอกสารประกอบ Java ของ Aspose.3D](https://reference.aspose.com/3d/java/) เพื่อข้อมูลที่ครบถ้วน
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -4,10 +4,16 @@ linktitle: Aspose.3D for Java ile Doğrusal Ekstrüzyonda Büküm Ofsetini Kulla
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java ile 3D modelleme becerilerinizi geliştirin. Bu kapsamlı eğitimde Doğrusal Ekstrüzyonda Büküm Ofsetini kullanmayı öğrenin.
 
-type: docs
 weight: 15
 url: /tr/java/linear-extrusion/using-twist-offset/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java ile Doğrusal Ekstrüzyonda Büküm Ofsetini Kullanma
+
 ## giriiş
 
 3D grafiklerin dinamik dünyasında, doğrusal ekstrüzyon sanatında ustalaşmak oyunun kurallarını değiştiriyor. Aspose.3D for Java ile Twist Offset özelliğini doğrusal ekstrüzyon prosesinize dahil ederek 3D modelleme becerilerinizi geliştirebilirsiniz. Bu eğitim, Aspose.3D for Java kullanarak Doğrusal Ekstrüzyonda Büküm Ofsetini kullanma adımlarında size rehberlik edecek ve çarpıcı 3D sahneler oluşturmanız için gerekli araçları sağlayacaktır.
@@ -113,3 +119,9 @@ Tebrikler! Aspose.3D for Java'yı kullanarak Doğrusal Ekstrüzyonda Twist Offse
 ### S5: Ek örnekler ve eğitimler mevcut mu?
 
  A5: Evet, bkz.[dokümantasyon](https://reference.aspose.com/3d/java/) Daha fazla örnek ve ayrıntılı eğitimler için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: メッシュ ジオメトリ データの操作
 linktitle: メッシュ ジオメトリ データの操作
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D グラフィックス プログラミングの技術をマスターしましょう。見事な 3D シーンを簡単に作成、操作、保存できます。
-type: docs
 weight: 15
 url: /ja/net/geometry-and-hierarchy/mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# メッシュ ジオメトリ データの操作
+
 ## 導入
 
 Aspose.3D for .NET を使用した 3D グラフィックス プログラミングのエキサイティングな世界へようこそ!このチュートリアルでは、.NET 開発者向けの強力で多用途なライブラリである Aspose.3D を使用して、3D シーンでメッシュ ジオメトリ データを操作する複雑な作業について詳しく説明します。経験豊富なプログラマであっても、3D グラフィックスを始めたばかりであっても、このステップバイステップのガイドは、メッシュ ジオメトリ データを簡単に処理する技術を習得するのに役立ちます。
@@ -126,3 +132,9 @@ A1: Aspose.3D は主に .NET 用に設計されていますが、さまざまな
 ### Q5: 3D シーンの保存にはどのようなファイル形式がサポートされていますか?
 
  A5: Aspose.3D は、FBX、STL などを含むさまざまなファイル形式をサポートしています。を参照してください。[ドキュメンテーション](https://reference.aspose.com/3d/net/)完全なリストについては、
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

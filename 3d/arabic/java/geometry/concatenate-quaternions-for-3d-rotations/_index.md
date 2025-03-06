@@ -3,10 +3,16 @@ title: تسلسل Quaternions للدورات ثلاثية الأبعاد في Ja
 linktitle: تسلسل Quaternions للدورات ثلاثية الأبعاد في Java باستخدام Aspose.3D
 second_title: Aspose.3D جافا API
 description: تعرف على كيفية تسلسل الكواترنيونات للدورات ثلاثية الأبعاد في Java باستخدام Aspose.3D. اتبع دليلنا خطوة بخطوة للحصول على تحويلات سلسة للرسوم المتحركة.
-type: docs
 weight: 11
 url: /ar/java/geometry/concatenate-quaternions-for-3d-rotations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تسلسل Quaternions للدورات ثلاثية الأبعاد في Java باستخدام Aspose.3D
+
 ## مقدمة
 
 يعد تسلسل Quaternion مفهومًا أساسيًا في الرسومات ثلاثية الأبعاد، مما يسمح لك بدمج التحولات الدورانية المتعددة بسلاسة. يعمل Aspose.3D على تبسيط هذه العملية في Java، مما يوفر طريقة فعالة وبديهية للتعامل مع عمليات الكواترنيون. في هذا البرنامج التعليمي، سنرشدك خلال عملية تسلسل الكواترنيونات وتطبيقها على كائنات ثلاثية الأبعاد باستخدام Aspose.3D.
@@ -107,3 +113,9 @@ System.out.println("\nQuaternions concatenated successfully.\nFile saved at " + 
 ### س5: ما هي تنسيقات الملفات المدعومة لحفظ المشاهد ثلاثية الأبعاد؟
 
 ج5: يدعم Aspose.3D العديد من التنسيقات، ويمكنك حفظ المشاهد بتنسيق FBX، كما هو موضح في هذا البرنامج التعليمي.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

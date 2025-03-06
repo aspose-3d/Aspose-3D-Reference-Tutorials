@@ -3,10 +3,16 @@ title: Application de torsion dans l'extrusion linéaire avec Aspose.3D pour Jav
 linktitle: Application de torsion dans l'extrusion linéaire avec Aspose.3D pour Java
 second_title: API Java Aspose.3D
 description: Apprenez à ajouter une touche à vos modèles 3D à l'aide d'Aspose.3D pour Java. Suivez notre guide étape par étape pour des effets d'extrusion linéaire améliorés.
-type: docs
 weight: 14
 url: /fr/java/linear-extrusion/applying-twist/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Application de torsion dans l'extrusion linéaire avec Aspose.3D pour Java
+
 ## Introduction
 
 Bienvenue dans ce didacticiel étape par étape sur l'application d'une torsion dans l'extrusion linéaire à l'aide d'Aspose.3D pour Java. Aspose.3D est une puissante bibliothèque Java qui permet aux développeurs de travailler avec des formats de fichiers 3D, offrant des fonctionnalités robustes pour créer, manipuler et restituer des scènes 3D. Dans ce didacticiel, nous explorerons comment appliquer un effet de torsion lors du processus d'extrusion linéaire pour améliorer vos modèles 3D.
@@ -119,3 +125,9 @@ A1 : Oui, Aspose.3D prend en charge différents formats de fichiers 3D, vous per
 ### Q5 : Où puis-je acheter Aspose.3D pour Java ?
 
  A5 : Achetez Aspose.3D pour Java sur le site[page d'achat](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

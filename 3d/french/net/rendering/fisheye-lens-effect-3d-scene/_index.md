@@ -3,10 +3,16 @@ title: Application de l'effet d'objectif Fisheye avec Aspose.3D pour .NET
 linktitle: Application de l'effet d'objectif Fisheye à une scène 3D
 second_title: API Aspose.3D .NET
 description: Améliorez vos scènes 3D avec Aspose.3D pour .NET ! Apprenez à appliquer un effet d'objectif fisheye captivant, étape par étape. Télécharger maintenant!
-type: docs
 weight: 12
 url: /fr/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Application de l'effet d'objectif Fisheye avec Aspose.3D pour .NET
+
 ## Introduction
 Cherchez-vous à améliorer l’attrait visuel de vos scènes 3D ? Plongez dans le monde fascinant des effets d'objectif fisheye avec Aspose.3D pour .NET. Ce tutoriel vous guidera étape par étape sur la façon d'appliquer un effet d'objectif fisheye à vos scènes 3D, leur donnant une perspective unique et captivante.
 ## Conditions préalables
@@ -77,3 +83,9 @@ Vous pouvez ajuster les propriétés des lumières, telles que la position, le t
 La taille de la scène 3D est principalement limitée par les ressources système. Assurez-vous que votre matériel peut gérer la taille de votre scène.
 ### Puis-je utiliser un format de sortie différent du format PNG pour le résultat de l'effet fisheye ?
 Oui, vous pouvez modifier le code pour enregistrer la sortie dans différents formats d'image en fonction de vos besoins.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

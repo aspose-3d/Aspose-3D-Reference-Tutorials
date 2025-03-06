@@ -3,10 +3,16 @@ title: Hasilkan Data Tangen dan Binormal untuk Jerat 3D di Java
 linktitle: Hasilkan Data Tangen dan Binormal untuk Jerat 3D di Java
 second_title: Asumsikan.3D Java API
 description: Sempurnakan grafis 3D Anda dengan Aspose.3D untuk Java. Hasilkan data tangen dan binormal dengan mudah. Coba uji coba gratis sekarang!
-type: docs
 weight: 11
 url: /id/java/transforming-3d-meshes/generate-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hasilkan Data Tangen dan Binormal untuk Jerat 3D di Java
+
 Dalam dunia grafik 3D yang dinamis, memahami dan memanipulasi data tangen dan binormal sangat penting untuk menciptakan model yang realistis dan menarik secara visual. Panduan langkah demi langkah ini akan memandu Anda melalui proses menghasilkan data tangen dan binormal untuk mesh 3D menggunakan Aspose.3D untuk Java. Sebagai penulis SEO yang mahir, saya akan memastikan bahwa tutorial ini tidak hanya informatif tetapi juga dioptimalkan untuk mesin pencari.
 ## Perkenalan
 Menciptakan pengalaman 3D yang mendalam seringkali membutuhkan lebih dari sekedar pemodelan. Data tangen dan binormal memainkan peran penting dalam bayangan dan pencahayaan, meningkatkan realisme adegan 3D Anda. Dengan Aspose.3D untuk Java, Anda dapat dengan mudah menghasilkan data ini dan membawa grafik 3D Anda ke level berikutnya.
@@ -56,3 +62,9 @@ Selamat! Anda telah berhasil membuat data tangen dan binormal untuk jerat 3D And
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Dimana saya bisa membeli Aspose.3D?
  Anda dapat membeli Aspose.3D[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

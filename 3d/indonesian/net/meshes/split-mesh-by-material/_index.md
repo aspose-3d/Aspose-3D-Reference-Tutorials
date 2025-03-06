@@ -3,10 +3,16 @@ title: Memisahkan Mesh berdasarkan Bahan
 linktitle: Memisahkan Mesh berdasarkan Bahan
 second_title: Aspose.3D .NET API
 description: Pelajari cara membagi jerat 3D berdasarkan materi dengan Aspose.3D untuk .NET. Meningkatkan organisasi dan efisiensi adegan. Panduan langkah demi langkah untuk pengembang.
-type: docs
 weight: 22
 url: /id/net/meshes/split-mesh-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memisahkan Mesh berdasarkan Bahan
+
 ## Perkenalan
 Selamat datang di tutorial komprehensif tentang pemisahan mesh berdasarkan material menggunakan Aspose.3D untuk .NET! Jika Anda seorang pengembang yang bekerja dengan grafik 3D dan ingin mengelola dan memanipulasi jerat secara efisien, Anda berada di tempat yang tepat. Dalam panduan ini, kita akan menjelajahi proses pemisahan mesh berdasarkan material, tugas penting dalam menciptakan pemandangan 3D yang beragam dan menarik secara visual.
 ## Prasyarat
@@ -71,3 +77,9 @@ Secara umum, kebijakan CloneData mungkin memiliki kinerja yang sedikit lebih bai
 Ya, Anda dapat merender dan memvisualisasikan sub-mesh yang dihasilkan menggunakan kemampuan rendering Aspose.3D.
 ### T: Apakah Aspose.3D cocok untuk pengembangan game?
 Meskipun terutama digunakan untuk pemodelan dan rendering, Aspose.3D dapat diintegrasikan ke dalam jalur pengembangan game untuk tugas tertentu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Χειρισμός τρισδιάστατων αντικειμένων κ
 linktitle: Χειρισμός τρισδιάστατων αντικειμένων και σκηνών σε Java
 second_title: Aspose.3D Java API
 description: Ξεκλειδώστε τον κόσμο του Java 3D προγραμματισμού με τα μαθήματα Aspose.3D. Μάθετε να τροποποιείτε την ακτίνα σφαίρας και να εφαρμόζετε εύκολα ερωτήματα τύπου XPath για απρόσκοπτη ανάπτυξη 3D.
-type: docs
 weight: 33
 url: /el/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός τρισδιάστατων αντικειμένων και σκηνών σε Java
+
 ## Εισαγωγή
 
 Ο προγραμματισμός Java 3D γίνεται ένα συναρπαστικό ταξίδι με τα μαθήματα Aspose.3D, που εστιάζουν στον χειρισμό τρισδιάστατων αντικειμένων και σκηνών. Σε αυτό το άρθρο, θα εμβαθύνουμε σε δύο βασικά σεμινάρια που υπόσχονται να βελτιώσουν τις δεξιότητές σας στην ανάπτυξη 3D.
@@ -27,3 +33,9 @@ url: /el/java/3d-objects-and-scenes/
 Εξερευνήστε τον προγραμματισμό Java 3D με το Aspose.3D, τροποποιώντας την ακτίνα σφαίρας χωρίς κόπο. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ανάπτυξης 3D.
 ### [Εφαρμόστε ερωτήματα τύπου XPath σε τρισδιάστατα αντικείμενα σε Java](./xpath-like-object-queries/)
 Κύρια ερωτήματα αντικειμένων 3D στην Java χωρίς κόπο με το Aspose.3D. Εφαρμόστε ερωτήματα τύπου XPath, χειριστείτε σκηνές και αναβαθμίστε την τρισδιάστατη ανάπτυξή σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

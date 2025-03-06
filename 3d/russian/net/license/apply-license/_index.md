@@ -3,10 +3,16 @@ title: Применение лицензии к Aspose.3D для .NET
 linktitle: Применение лицензии к Aspose.3D для .NET
 second_title: Aspose.3D .NET API
 description: Раскройте возможности Aspose.3D для .NET, легко применив лицензию. Следуйте нашему пошаговому руководству, чтобы интеграция прошла гладко.
-type: docs
 weight: 10
 url: /ru/net/license/apply-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Применение лицензии к Aspose.3D для .NET
+
 ## Введение
 
 Готовы ли вы раскрыть весь потенциал Aspose.3D для .NET? Применение лицензии — это ваш ключ к доступу к расширенным функциям и обеспечению плавной интеграции. В этом пошаговом руководстве мы познакомим вас с различными способами применения лицензии, обеспечивая плавный процесс установки вашего приложения Aspose.3D.
@@ -118,3 +124,9 @@ metered.SetMeteredKey("your-public-key", "your-private-key");
 ### В5: Как я могу приобрести лицензию?
 
  A5: Купите лицензию[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

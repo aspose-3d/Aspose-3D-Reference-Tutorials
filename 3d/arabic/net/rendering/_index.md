@@ -3,10 +3,16 @@ title: استدعاء
 linktitle: استدعاء
 second_title: Aspose.3D.NET API
 description: ارفع مهاراتك في العرض ثلاثي الأبعاد باستخدام Aspose.3D لـ .NET! قم بإلقاء الظلال وإنشاء تصورات آسرة وتطبيق تأثيرات عدسة عين السمكة والمزيد.
-type: docs
 weight: 30
 url: /ar/net/rendering/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استدعاء
+
 ## مقدمة
 
 هل أنت مستعد للشروع في رحلة مثيرة إلى عالم العرض ثلاثي الأبعاد؟ لا مزيد من البحث! يفتح Aspose.3D for .NET الباب أمام عالم من الإمكانيات، مما يسمح لك بإطلاق العنان لإبداعك وتعزيز مهاراتك. في هذه القائمة التعليمية الشاملة، سنرشدك خلال بعض الجوانب الأكثر إثارة للاهتمام في العرض باستخدام Aspose.3D لـ .NET.
@@ -55,3 +61,9 @@ url: /ar/net/rendering/
 تعرف على كيفية إنشاء عروض بانورامية ثلاثية الأبعاد مذهلة باستخدام Aspose.3D لـ .NET. اتبع دليلنا خطوة بخطوة لعرض مشهد غامر.
 ### [تقديم المشهد في Cubemap مع ستة وجوه](./render-scene-cubemap/)
 قم بإنشاء خرائط مكعبة مذهلة باستخدام Aspose.3D لـ .NET. اتبع دليلنا خطوة بخطوة لتحويل المشاهد ثلاثية الأبعاد إلى خرائط مكعبة جذابة ذات ستة وجوه.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

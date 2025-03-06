@@ -3,10 +3,16 @@ title: Aspose.3D를 사용하여 Java에서 3D 회전을 위한 쿼터니언 연
 linktitle: Aspose.3D를 사용하여 Java에서 3D 회전을 위한 쿼터니언 연결
 second_title: Aspose.3D 자바 API
 description: Aspose.3D를 사용하여 Java에서 3D 회전을 위해 쿼터니언을 연결하는 방법을 알아보세요. 원활한 애니메이션 변환을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/java/geometry/concatenate-quaternions-for-3d-rotations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D를 사용하여 Java에서 3D 회전을 위한 쿼터니언 연결
+
 ## 소개
 
 쿼터니언 연결은 3D 그래픽의 기본 개념으로, 여러 회전 변환을 원활하게 결합할 수 있습니다. Aspose.3D는 Java에서 이 프로세스를 단순화하여 쿼터니언 연산을 처리하는 효율적이고 직관적인 방법을 제공합니다. 이 튜토리얼에서는 Aspose.3D를 사용하여 쿼터니언을 연결하고 이를 3D 개체에 적용하는 과정을 안내합니다.
@@ -107,3 +113,9 @@ System.out.println("\nQuaternions concatenated successfully.\nFile saved at " + 
 ### Q5: 3D 장면 저장에 지원되는 파일 형식은 무엇입니까?
 
 A5: Aspose.3D는 다양한 형식을 지원하며 이 튜토리얼에서 설명한 것처럼 FBX 형식으로 장면을 저장할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

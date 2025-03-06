@@ -3,10 +3,16 @@ title: 기하학적 변환 노출
 linktitle: 기하학적 변환 노출
 second_title: Aspose.3D .NET API
 description: Aspose.3D를 사용하여 .NET에서 3D 그래픽의 무한한 가능성을 탐색해 보세요. 기하학적 변형을 손쉽게 찾아보세요.
-type: docs
 weight: 13
 url: /ko/net/geometry-and-hierarchy/expose-geometric-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 기하학적 변환 노출
+
 ## 소개
 
 .NET용 Aspose.3D의 흥미진진한 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 Aspose.3D를 사용하여 3D 장면에서 기하학적 변형을 노출하는 복잡한 과정을 살펴보겠습니다. 3D 그래픽 기능을 향상시키려는 .NET 개발자라면 잘 찾아오셨습니다.
@@ -98,3 +104,9 @@ A1: Aspose.3D는 광범위한 .NET 프레임워크와 호환되므로 다양한 
 ### Q5: .NET용 Aspose.3D를 어떻게 구입합니까?
 
  A5: .NET용 Aspose.3D를 구입하려면 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy) Aspose 웹 사이트에서.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إعداد المعايير على المكعب
 linktitle: إعداد المعايير على المكعب
 second_title: Aspose.3D.NET API
 description: تعلم كيفية إعداد القيم الطبيعية على مكعب ثلاثي الأبعاد باستخدام Aspose.3D لـ .NET. عزز مهاراتك في النمذجة ثلاثية الأبعاد باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 17
 url: /ar/net/geometry-and-hierarchy/setup-normals-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إعداد المعايير على المكعب
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول إعداد القيم الطبيعية على المكعب في المشاهد ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. Aspose.3D هي مكتبة قوية تمكن مطوري .NET من العمل مع الملفات ثلاثية الأبعاد، مما يوفر نطاقًا واسعًا من الوظائف للنمذجة والمعالجة ثلاثية الأبعاد.
@@ -100,3 +106,9 @@ Console.WriteLine("\nNormals have been set up successfully on the cube.");
 ### س5: هل هناك أي مصادر إضافية لتعلم Aspose.3D؟
 
  ج5: استكشاف واسعة النطاق[توثيق](https://reference.aspose.com/3d/net/) لاكتشاف المزيد من الميزات والنصائح.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.3D 在 Java 中创建 3D 立方体场景
 linktitle: 使用 Aspose.3D 在 Java 中创建 3D 立方体场景
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D for Java 探索 3D 立方体场景图形的奇迹。轻松创建令人惊叹的场景。
-type: docs
 weight: 12
 url: /zh/java/geometry/create-3d-cube-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D 在 Java 中创建 3D 立方体场景
+
 ## 介绍
 
 欢迎来到使用 Aspose.3D 的 Java 3D 图形的迷人世界！在本教程中，我们将指导您完成使用 Aspose.3D for Java 创建令人惊叹的 3D 立方体场景的过程。 Aspose.3D 是一个功能强大的 Java 库，提供用于处理 3D 模型和场景的全面功能。
@@ -105,3 +111,9 @@ A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
 ### Q5：如何获得Aspose.3D的临时许可证？
 
  A5：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

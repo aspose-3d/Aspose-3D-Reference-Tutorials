@@ -3,10 +3,16 @@ title: Riktning i linjär extrudering
 linktitle: Riktning i linjär extrudering
 second_title: Aspose.3D .NET API
 description: Lås upp en värld av 3D-modellering med Aspose.3D för .NET. Lär dig riktningslinjär extrudering, öka kreativiteten och skapa uppslukande applikationer utan ansträngning.
-type: docs
 weight: 11
 url: /sv/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Riktning i linjär extrudering
+
 ## Introduktion
 
 I den dynamiska världen av mjukvaruutveckling är att skapa uppslukande 3D-modeller en oumbärlig färdighet. Aspose.3D för .NET ger utvecklare en robust uppsättning verktyg för att utnyttja potentialen i 3D-modellering i sina applikationer. I den här handledningen kommer vi att fördjupa oss i den spännande världen av linjär extrudering och utforska nyanserna av funktionen "Riktning i linjär extrudering".
@@ -110,3 +116,9 @@ den här handledningen navigerade vi genom den fascinerande sfären av 3D-modell
 ### F5: Var kan jag hitta detaljerad dokumentation för Aspose.3D för .NET?
 
  A5: Se den omfattande[Aspose.3D .NET dokumentation](https://reference.aspose.com/3d/net/) för fördjupad information.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

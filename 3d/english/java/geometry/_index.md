@@ -3,10 +3,16 @@ title: Working with 3D Geometry in Java
 linktitle: Working with 3D Geometry in Java
 second_title: Aspose.3D Java API
 description: Explore Aspose.3D for Java tutorials on working with 3D geometry. Master PBR materials, quaternion rotations, cube scenes, and more. Elevate your Java 3D graphics.
-type: docs
 weight: 21
 url: /java/geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Working with 3D Geometry in Java
+
 ## Introduction
 Are you ready to delve into the fascinating realm of 3D graphics with Aspose.3D for Java? Our tutorials cover a spectrum of topics, empowering you to enhance your Java applications with powerful and visually stunning 3D elements. Let's embark on this journey step by step.
 
@@ -89,3 +95,9 @@ Enhance your Java applications with Aspose.3D for powerful 3D transformations. L
 Explore the world of 3D graphics in Java with Aspose.3D. Learn to transform nodes effortlessly using transformation matrices.
 ### [Triangulate Meshes for Optimized Rendering in Java with Aspose.3D](./triangulate-meshes-for-optimized-rendering/)
 Learn how to boost 3D rendering efficiency in Java using Aspose.3D. Triangulate meshes for optimal performance.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

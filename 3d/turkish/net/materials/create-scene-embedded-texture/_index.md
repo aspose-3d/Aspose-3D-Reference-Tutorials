@@ -3,10 +3,16 @@ title: Gömülü Dokuyla Sahne Oluşturma
 linktitle: Gömülü Dokuyla Sahne Oluşturma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'i kullanarak gömülü dokularla büyüleyici 3D sahneler oluşturun. Çarpıcı sonuçlar için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/net/materials/create-scene-embedded-texture/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gömülü Dokuyla Sahne Oluşturma
+
 ## giriiş
 Aspose.3D for .NET ile 3D grafiklerin heyecan verici dünyasına hoş geldiniz! Bu kapsamlı eğitimde, .NET geliştiricileri için güçlü ve çok yönlü bir kütüphane olan Aspose.3D'yi kullanarak, gömülü dokularla büyüleyici 3D sahneler oluşturma sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -109,3 +115,9 @@ C: Aspose.3D animasyon yetenekleri sağlar; ayrıntılı talimatlar için belgel
  C: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk desteği ve tartışmalar için.
 ### S: Aspose.3D'yi ticari projeler için kullanabilir miyim?
  C: Evet, lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

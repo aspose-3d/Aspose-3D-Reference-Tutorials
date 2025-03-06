@@ -3,10 +3,16 @@ title: Java 版 Aspose.3D 入门
 linktitle: Java 版 Aspose.3D 入门
 second_title: Aspose.3D Java API
 description: 通过我们的深入教程探索 Aspose.3D Java 的强大功能。了解如何应用许可证来释放这个强大的 Java 工具的全部功能。
-type: docs
 weight: 22
 url: /zh/java/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 版 Aspose.3D 入门
+
 ## 介绍
 
 您准备好利用 Aspose.3D 的卓越功能来提升您的 Java 应用程序了吗？深入了解我们的综合教程，它将指导您完成各个方面，从申请许可证的基本步骤开始。
@@ -37,3 +43,9 @@ url: /zh/java/licensing/
 ## Java 版 Aspose.3D 入门教程
 ### [在 Aspose.3D for Java 中应用许可证](./applying-license-in-aspose-3d/)
 遵循我们关于应用许可证的综合指南，释放 Aspose.3D 在 Java 应用程序中的全部潜力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

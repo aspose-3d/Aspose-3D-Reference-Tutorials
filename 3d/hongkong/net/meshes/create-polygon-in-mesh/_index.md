@@ -3,10 +3,16 @@ title: 在網格中建立多邊形
 linktitle: 在網格中建立多邊形
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 建模世界。毫不費力地在網格中創建令人驚嘆的多邊形。立即下載以獲得身臨其境的開發體驗！
-type: docs
 weight: 18
 url: /zh-hant/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在網格中建立多邊形
+
 ## 介紹
 您準備好使用 Aspose.3D for .NET 進入令人興奮的 3D 建模世界了嗎？如果您是希望提高技能的開發人員，或者是對創建令人驚嘆的 3D 網格感興趣的新手，那麼您來對地方了。在這個綜合教程中，我們將引導您完成使用 Aspose.3D 在網格中建立多邊形的過程。
 ## 先決條件
@@ -59,3 +65,9 @@ mesh.CreatePolygon(0, 1, 2, 3);
 答：廣泛探索[文件](https://reference.aspose.com/3d/net/)可用於深入見解。
 ### Q：如何購買 Aspose.3D for .NET？
 答：訪問[購買頁面](https://purchase.aspose.com/buy)取得您的許可證並釋放 Aspose.3D 的全部潛力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

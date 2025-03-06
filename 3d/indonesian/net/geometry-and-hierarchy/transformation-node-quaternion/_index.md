@@ -3,10 +3,16 @@ title: Mengubah Node demi Quaternion
 linktitle: Mengubah Node demi Quaternion
 second_title: Aspose.3D .NET API
 description: Pelajari cara mengubah node 3D dengan angka empat menggunakan Aspose.3D untuk .NET. Panduan langkah demi langkah untuk pemula.
-type: docs
 weight: 20
 url: /id/net/geometry-and-hierarchy/transformation-node-quaternion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengubah Node demi Quaternion
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah tentang mengubah simpul demi angka empat dalam adegan 3D menggunakan Aspose.3D untuk .NET. Dalam tutorial ini, kita akan menjelajahi kemampuan hebat Aspose.3D untuk .NET dan menelusuri proses penambahan transformasi ke node 3D menggunakan angka empat.
@@ -121,3 +127,10 @@ A1: Quaternion adalah entitas matematika yang digunakan untuk merepresentasikan 
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
 
  A5: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Extrahera information till scentillgångar
 linktitle: Extrahera information till scentillgångar
 second_title: Aspose.3D .NET API
 description: Förbättra dina 3D-scener utan ansträngning med Aspose.3D för .NET. Lär dig att lägga till värdefull tillgångsinformation steg för steg. Ladda ner nu för en dynamisk 3D-upplevelse.
-type: docs
 weight: 10
 url: /sv/net/3d-scene/information-to-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extrahera information till scentillgångar
+
 ## Introduktion
 
 Välkommen till denna omfattande handledning om hur du använder Aspose.3D för .NET för att extrahera värdefull information och förbättra dina 3D-scener. Aspose.3D är ett kraftfullt bibliotek som ger utvecklare möjlighet att manipulera 3D-scener sömlöst i .NET-applikationer. I den här handledningen kommer vi att fokusera på den avgörande uppgiften att lägga till tillgångsinformation till en scen.
@@ -96,3 +102,9 @@ S1: Aspose.3D stöder främst .NET-språk, men du kan utforska interoperabilitet
 ### F5: Var kan jag hitta detaljerad dokumentation för Aspose.3D för .NET?
 
  A5: Se[dokumentation](https://reference.aspose.com/3d/net/) för fördjupad information.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java용 Aspose.3D의 원통 작업
 linktitle: Java용 Aspose.3D의 원통 작업
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 멋진 3D 모델을 손쉽게 제작하세요! 튜토리얼을 통해 팬 실린더, 오프셋 상단 실린더 및 전단 바닥 실린더를 만드는 방법을 알아보세요.
-type: docs
 weight: 25
 url: /ko/java/cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.3D의 원통 작업
+
 ## 소개
 
 3D 모델링 기술을 한 단계 더 발전시킬 준비가 되셨나요? Java용 Aspose.3D는 가능성의 세계를 열어줍니다. 이 튜토리얼에서는 맞춤형 실린더를 만드는 매혹적인 영역을 안내해 드리겠습니다. 노련한 개발자이든, 이제 막 3D 모델링의 세계에 입문한 사람이든, 이 튜토리얼은 여러분의 기술을 향상시키고 프로젝트에 독특함을 더해 줄 것입니다.
@@ -37,3 +43,9 @@ Aspose.3D를 사용하여 Java에서 맞춤형 팬 실린더를 만드는 방법
 Aspose.3D를 사용하여 Java에서 3D 모델링의 경이로움을 살펴보세요. 오프셋 상단이 있는 매혹적인 실린더를 쉽게 만드는 방법을 알아보세요.
 ### [Java용 Aspose.3D에서 바닥이 전단된 원통 만들기](./creating-cylinders-with-sheared-bottom/)
 Java용 Aspose.3D를 사용하여 바닥이 잘린 맞춤형 실린더를 만드는 방법을 알아보세요. 이 단계별 가이드를 통해 3D 모델링 기술을 향상하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

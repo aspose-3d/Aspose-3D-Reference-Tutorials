@@ -3,10 +3,16 @@ title: ट्रांसफ़ॉर्मेशन मैट्रिक्स
 linktitle: ट्रांसफ़ॉर्मेशन मैट्रिक्स द्वारा ट्रांसफ़ॉर्मिंग नोड
 second_title: Aspose.3D .NET API
 description: .NET के लिए Aspose.3D का उपयोग करके नोड्स को 3D दृश्यों में आसानी से रूपांतरित करें। ट्यूटोरियल के साथ चरण-दर-चरण नोड परिवर्तन सीखें।
-type: docs
 weight: 21
 url: /hi/net/geometry-and-hierarchy/transformation-node-matrix/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ट्रांसफ़ॉर्मेशन मैट्रिक्स द्वारा ट्रांसफ़ॉर्मिंग नोड
+
 ## परिचय
 
 3डी ग्राफ़िक्स और विज़ुअलाइज़ेशन के गतिशील क्षेत्र में, किसी दृश्य के भीतर वस्तुओं में हेरफेर करने की क्षमता एक महत्वपूर्ण पहलू है। .NET के लिए Aspose.3D डेवलपर्स को 3D दृश्यों में रचनात्मकता और नियंत्रण की एक परत जोड़कर, ट्रांसफॉर्मेशन मैट्रिक्स का उपयोग करके नोड्स को निर्बाध रूप से बदलने का अधिकार देता है। यह ट्यूटोरियल चरण दर चरण एक नोड को 3डी दृश्य में बदलने की प्रक्रिया में आपका मार्गदर्शन करेगा।
@@ -112,3 +118,9 @@ Console.WriteLine("\nTransformation added successfully to node.\nFile saved at "
 ### Q5: मैं कहां से सहायता मांग सकता हूं या Aspose.3D समुदाय से जुड़ सकता हूं?
 
  A5: पर जाएँ[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) Aspose.3D का उपयोग करके प्रश्न पूछने, अनुभव साझा करने और अन्य डेवलपर्स से जुड़ने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

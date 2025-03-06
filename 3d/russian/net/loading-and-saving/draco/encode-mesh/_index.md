@@ -3,10 +3,16 @@ title: Кодирование 3D-сетки в формате Google Draco
 linktitle: Кодирование 3D-сетки в Draco
 second_title: Aspose.3D .NET API
 description: Изучите простое кодирование 3D-сетки в формате Google Draco с помощью Aspose.3D для .NET. Следуйте нашему пошаговому руководству. Эффективный, мощный и удобный для разработчиков!
-type: docs
 weight: 19
 url: /ru/net/loading-and-saving/draco/encode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Кодирование 3D-сетки в формате Google Draco
+
 ## Введение
 Если вы погружаетесь в мир 3D-графики и хотите эффективно сжимать данные 3D-сетки, не ищите дальше. В этом уроке мы проведем вас через процесс кодирования 3D-сетки в формат Google Draco с помощью Aspose.3D для .NET. Эта мощная библиотека позволяет разработчикам беспрепятственно работать с форматами 3D-файлов и выполнять различные операции, включая кодирование сетки.
 ## Предварительные условия
@@ -58,3 +64,9 @@ Aspose.3D в первую очередь разработан для .NET, но 
 Временная лицензия позволяет вам оценить полную версию Aspose.3D в течение ограниченного времени.
 ### Где я могу найти подробную документацию по Aspose.3D для .NET?
  Обратитесь к[документация](https://reference.aspose.com/3d/net/) для получения исчерпывающей информации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

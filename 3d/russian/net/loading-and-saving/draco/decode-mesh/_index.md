@@ -3,10 +3,16 @@ title: Декодирование сетки
 linktitle: Декодирование сетки
 second_title: Aspose.3D .NET API
 description: Декодируйте сетки без особых усилий с помощью Aspose.3D для .NET. Ваш путь к бесшовному 3D-программированию. Исследуйте, настраивайте и улучшайте свои проекты.
-type: docs
 weight: 10
 url: /ru/net/loading-and-saving/draco/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Декодирование сетки
+
 ## Введение
 Представьте себе: вы занимаетесь 3D-разработкой и пытаетесь расшифровать сложные сетчатые структуры. Задача реальна, но не бойтесь! Отправляясь в это путешествие, мы пройдемся по лабиринту декодирования сеток с помощью Aspose.3D для .NET — вашего надежного спутника в мире 3D-программирования.
 ## Предварительные условия
@@ -55,3 +61,9 @@ var pointCloud = (PointCloud)FileFormat.Draco.Decode("Your Document Directory" +
  Конечно! возьми свой[бесплатная пробная версия](https://releases.aspose.com/) чтобы ощутить возможности Aspose.3D, прежде чем брать на себя какие-либо обязательства.
 ### Нужна временная лицензия для краткосрочного проекта?
  Отправляйтесь в[Временная лицензия](https://purchase.aspose.com/temporary-license/) и приобретите временную лицензию, адаптированную к потребностям вашего проекта.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

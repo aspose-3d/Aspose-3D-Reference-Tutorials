@@ -3,10 +3,16 @@ title: Fisheye-lenseffect toepassen met Aspose.3D voor .NET
 linktitle: Fisheye-lenseffect toepassen op 3D-scène
 second_title: Aspose.3D .NET-API
 description: Verbeter uw 3D-scènes met Aspose.3D voor .NET! Leer stap voor stap hoe u een boeiend fisheye-lenseffect kunt toepassen. Download nu!
-type: docs
 weight: 12
 url: /nl/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fisheye-lenseffect toepassen met Aspose.3D voor .NET
+
 ## Invoering
 Wilt u de visuele aantrekkingskracht van uw 3D-scènes verbeteren? Duik in de fascinerende wereld van fisheye-lenseffecten met Aspose.3D voor .NET. Deze tutorial begeleidt u stap voor stap bij het toepassen van een fisheye-lenseffect op uw 3D-scènes, waardoor ze een uniek en boeiend perspectief krijgen.
 ## Vereisten
@@ -77,3 +83,9 @@ Je kunt de eigenschappen van de lampen, zoals positie, type en kleur, aanpassen 
 De grootte van de 3D-scène wordt voornamelijk beperkt door systeembronnen. Zorg ervoor dat uw hardware de grootte van uw scène aankan.
 ### Kan ik een ander uitvoerformaat gebruiken in plaats van PNG voor het resultaat van het fisheye-effect?
 Ja, u kunt de code wijzigen om de uitvoer in verschillende afbeeldingsformaten op te slaan, afhankelijk van uw vereisten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

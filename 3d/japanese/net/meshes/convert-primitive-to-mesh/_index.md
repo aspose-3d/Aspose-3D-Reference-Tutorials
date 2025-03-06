@@ -3,10 +3,16 @@ title: パラメトリック プリミティブをメッシュに変換する
 linktitle: パラメトリック プリミティブをメッシュに変換する
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET のパワーを試してください!パラメトリック プリミティブを汎用性の高いメッシュに簡単に変換します。今すぐ 3D グラフィックス ゲームをレベルアップしましょう。
-type: docs
 weight: 12
 url: /ja/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# パラメトリック プリミティブをメッシュに変換する
+
 ## 導入
 
 Aspose.3D は、ボックス、平面、トーラス、球、円柱、ピラミッドなどを含むプリミティブ形状の豊富なセットを提供します。これらのプリミティブはパラメータによって定義されるため、プロシージャル モデリングに非常に汎用性が高くなります。パラメーターをプログラムで調整することで、最小限のコードでさまざまな 3D モデルを作成できます。
@@ -73,3 +79,9 @@ Aspose.3D for .NET を使用すると、開発者はアプリケーション内�
 はい、Aspose.3D を探索してください。[無料トライアル](https://releases.aspose.com/)コミットする前にその機能を体験してください。
 ### テスト目的で一時ライセンスを取得できますか?
 はい、確保してください[仮免許](https://purchase.aspose.com/temporary-license/)Aspose.3D を総合的に評価します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

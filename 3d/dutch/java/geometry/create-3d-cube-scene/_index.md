@@ -3,10 +3,16 @@ title: Creëer een 3D-kubusscène in Java met Aspose.3D
 linktitle: Creëer een 3D-kubusscène in Java met Aspose.3D
 second_title: Aspose.3D Java-API
 description: Ontdek de wonderen van 3D-kubusscène-graphics met Aspose.3D voor Java. Creëer moeiteloos verbluffende scènes.
-type: docs
 weight: 12
 url: /nl/java/geometry/create-3d-cube-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creëer een 3D-kubusscène in Java met Aspose.3D
+
 ## Invoering
 
 Welkom in de fascinerende wereld van 3D-graphics in Java met behulp van Aspose.3D! In deze zelfstudie begeleiden we u bij het maken van een verbluffende 3D-kubusscène met Aspose.3D voor Java. Aspose.3D is een krachtige Java-bibliotheek die uitgebreide functionaliteiten biedt voor het werken met 3D-modellen en scènes.
@@ -105,3 +111,9 @@ Gefeliciteerd! U hebt met succes een 3D-kubusscène gemaakt met Aspose.3D voor J
 ### V5: Hoe verkrijg ik een tijdelijke licentie voor Aspose.3D?
 
  A5: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

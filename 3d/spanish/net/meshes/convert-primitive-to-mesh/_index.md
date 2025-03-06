@@ -3,10 +3,16 @@ title: Conversión de primitiva paramétrica en malla
 linktitle: Conversión de primitiva paramétrica en malla
 second_title: Aspose.3D API .NET
 description: ¡Explore el poder de Aspose.3D para .NET! Convierta primitivas paramétricas en malla versátil sin esfuerzo. Mejora tu juego de gráficos 3D hoy.
-type: docs
 weight: 12
 url: /es/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conversión de primitiva paramétrica en malla
+
 ## Introducción
 
 Aspose.3D proporciona un rico conjunto de formas primitivas, que incluyen cajas, planos, toros, esferas, cilindros, pirámides y más. Estas primitivas se definen por sus parámetros, lo que las hace muy versátiles para el modelado de procedimientos. Al ajustar los parámetros mediante programación, puede crear una amplia variedad de modelos 3D con un código mínimo.
@@ -73,3 +79,9 @@ Sí, Aspose.3D admite una amplia gama de marcos .NET, lo que garantiza la compat
  Sí, explora Aspose.3D con el[prueba gratis](https://releases.aspose.com/) experimentar sus capacidades antes de comprometerse.
 ### ¿Puedo obtener una licencia temporal para realizar pruebas?
  Sí, asegure un[licencia temporal](https://purchase.aspose.com/temporary-license/) para evaluar Aspose.3D de forma integral.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

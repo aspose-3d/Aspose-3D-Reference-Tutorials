@@ -3,10 +3,16 @@ title: Nastavení cílové kamery pro 3D animace v Javě | Aspose.3D výukový p
 linktitle: Nastavení cílové kamery pro 3D animace v Javě | Aspose.3D výukový program
 second_title: Aspose.3D Java API
 description: Prozkoumejte Java 3D animace bez námahy s Aspose.3D. Postupujte podle našeho výukového programu pro podrobného průvodce. Stáhněte si nyní a vydejte se na fascinující cestu vývoje 3D.
-type: docs
 weight: 11
 url: /cs/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení cílové kamery pro 3D animace v Javě | Aspose.3D výukový program
+
 ## Úvod
 
 Vítejte v tomto podrobném průvodci nastavením cílové kamery pro 3D animace v Javě pomocí Aspose.3D. Ať už jste zkušený vývojář nebo s 3D animacemi v Javě teprve začínáte, tento tutoriál vás provede celým procesem s jasnými a stručnými pokyny.
@@ -98,3 +104,9 @@ Gratulujeme! Úspěšně jste nastavili cílovou kameru pro 3D animace v Javě p
 ### Q5: Jak mohu získat dočasnou licenci?
 
  A5: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

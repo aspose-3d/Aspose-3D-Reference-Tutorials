@@ -3,10 +3,16 @@ title: キューブにマテリアルを適用する
 linktitle: キューブにマテリアルを適用する
 second_title: Aspose.3D .NET API
 description: シームレスな 3D グラフィックス操作へのゲートウェイである Aspose.3D for .NET を探索してください。マテリアルを簡単に適用し、リアリズムを高め、プロジェクトを向上させます。
-type: docs
 weight: 14
 url: /ja/net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# キューブにマテリアルを適用する
+
 ## 導入
 
 Aspose.3D for .NET を使用した 3D グラフィックス操作の魅力的な世界へようこそ!このチュートリアルでは、3D シーンの立方体にマテリアルを適用し、まったく新しいレベルのリアリズムと視覚的な魅力を作品に追加するプロセスについて詳しく説明します。
@@ -136,3 +142,9 @@ A4: を探索してください。[ドキュメンテーション](https://refer
 ### Q5: 問題や質問に対するサポートはどうすれば受けられますか?
 
  A5: にアクセスしてください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)コミュニティとつながり、支援を求めます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

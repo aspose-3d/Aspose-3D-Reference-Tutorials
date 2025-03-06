@@ -3,10 +3,16 @@ title: 使用 Aspose.3D 透過變換矩陣變換 3D 節點
 linktitle: 使用 Aspose.3D 在 Java 中透過變換矩陣變換 3D 節點
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 探索 Java 中的 3D 圖形世界。學習使用變換矩陣輕鬆變換節點。
-type: docs
 weight: 21
 url: /zh-hant/java/geometry/transform-3d-nodes-with-matrices/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D 透過變換矩陣變換 3D 節點
+
 ## 介紹
 
 歡迎閱讀本逐步指南，了解如何使用 Aspose.3D 在 Java 中透過變換矩陣變換 3D 節點。如果您是一位希望提高 3D 圖形和建模技能的 Java 開發人員，那麼您來對地方了。在本教程中，我們將深入探討在 Aspose.3D 框架內將轉換應用於 3D 節點的過程。
@@ -119,3 +125,9 @@ A3：3D 場景的大小可能會受到系統資源的限制，但 Aspose.3D 是�
 ### Q5：如何取得Aspose.3D的臨時授權？
 
  A5：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

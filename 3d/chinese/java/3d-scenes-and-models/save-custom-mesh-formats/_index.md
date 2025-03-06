@@ -3,10 +3,16 @@ title: 以自定义二进制格式保存 3D 网格以提高 Java 的灵活性
 linktitle: 以自定义二进制格式保存 3D 网格以提高 Java 的灵活性
 second_title: Aspose.3D Java API
 description: 了解如何使用 Aspose.3D for Java 以自定义二进制格式保存 3D 网格。通过此分步教程增强 Java 应用程序的灵活性。
-type: docs
 weight: 13
 url: /zh/java/3d-scenes-and-models/save-custom-mesh-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 以自定义二进制格式保存 3D 网格以提高 Java 的灵活性
+
 ## 介绍
 
 欢迎阅读本分步教程，了解如何使用 Aspose.3D 在 Java 中以自定义二进制格式保存 3D 网格以实现灵活性。在本指南中，我们将引导您完成转换 3D 网格并将其保存为自定义二进制格式的过程，以增强 Java 应用程序的灵活性和互操作性。
@@ -124,3 +130,9 @@ A4：Aspose.3D 文档可能包含示例模型，或者您可以在线查找 3D �
 ### Q5：我可以根据特定要求进一步定制二进制格式吗？
 
 A5：当然，您可以随意调整二进制格式以满足您应用程序的特定需求。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 메시에 다각형 만들기
 linktitle: 메시에 다각형 만들기
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D를 사용하여 3D 모델링의 세계를 탐험해보세요. 손쉽게 메시에 멋진 다각형을 만들어 보세요. 몰입형 개발 경험을 위해 지금 다운로드하세요!
-type: docs
 weight: 18
 url: /ko/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 메시에 다각형 만들기
+
 ## 소개
 .NET용 Aspose.3D를 사용하여 흥미로운 3D 모델링 세계로 뛰어들 준비가 되셨습니까? 기술을 향상시키려는 개발자이거나 멋진 3D 메시를 만드는 데 관심이 있는 초보자라면 잘 찾아오셨습니다. 이 포괄적인 튜토리얼에서는 Aspose.3D를 사용하여 메쉬에 다각형을 만드는 과정을 안내합니다.
 ## 전제 조건
@@ -59,3 +65,9 @@ A: Aspose.3D for .NET은 기본적으로 Windows 환경용으로 설계되었습
  A: 광범위한 탐색[선적 서류 비치](https://reference.aspose.com/3d/net/) 심층적인 통찰력을 얻을 수 있습니다.
 ### Q: .NET용 Aspose.3D를 어떻게 구입합니까?
  답: 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy) 라이센스를 취득하고 Aspose.3D의 잠재력을 최대한 활용하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

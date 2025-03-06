@@ -3,10 +3,16 @@ title: Simpan Jerat 3D dalam Format Biner Khusus untuk Fleksibilitas di Java
 linktitle: Simpan Jerat 3D dalam Format Biner Khusus untuk Fleksibilitas di Java
 second_title: Asumsikan.3D Java API
 description: Pelajari cara menyimpan jerat 3D dalam format biner khusus menggunakan Aspose.3D untuk Java. Tingkatkan fleksibilitas dalam aplikasi Java dengan tutorial langkah demi langkah ini.
-type: docs
 weight: 13
 url: /id/java/3d-scenes-and-models/save-custom-mesh-formats/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Jerat 3D dalam Format Biner Khusus untuk Fleksibilitas di Java
+
 ## Perkenalan
 
 Selamat datang di tutorial langkah demi langkah tentang menyimpan jerat 3D dalam format biner khusus untuk fleksibilitas di Java menggunakan Aspose.3D. Dalam panduan ini, kami akan memandu Anda melalui proses konversi mesh 3D dan menyimpannya dalam format biner khusus untuk meningkatkan fleksibilitas dan interoperabilitas dalam aplikasi Java Anda.
@@ -124,3 +130,9 @@ A4: Dokumentasi Aspose.3D mungkin menyertakan model sampel, atau Anda dapat mene
 ### Q5: Dapatkah saya menyesuaikan format biner lebih lanjut untuk kebutuhan spesifik?
 
 A5: Tentu saja, silakan mengadaptasi format biner agar sesuai dengan kebutuhan spesifik aplikasi Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

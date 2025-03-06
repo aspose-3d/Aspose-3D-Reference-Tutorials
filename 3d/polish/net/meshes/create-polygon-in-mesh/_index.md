@@ -3,10 +3,16 @@ title: Tworzenie wielokąta w siatce
 linktitle: Tworzenie wielokąta w siatce
 second_title: Aspose.3D API .NET
 description: Poznaj świat modelowania 3D z Aspose.3D dla .NET. Twórz wspaniałe wielokąty w siatkach bez wysiłku. Pobierz teraz i ciesz się wciągającym doświadczeniem programistycznym!
-type: docs
 weight: 18
 url: /pl/net/meshes/create-polygon-in-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tworzenie wielokąta w siatce
+
 ## Wstęp
 Czy jesteś gotowy, aby zanurzyć się w ekscytującym świecie modelowania 3D z Aspose.3D dla .NET? Jeśli jesteś programistą chcącym udoskonalić swoje umiejętności lub nowicjuszem zainteresowanym tworzeniem oszałamiających siatek 3D, jesteś we właściwym miejscu. W tym kompleksowym samouczku poprowadzimy Cię przez proces tworzenia wielokąta w siatce przy użyciu Aspose.3D.
 ## Warunki wstępne
@@ -59,3 +65,9 @@ Odp.: Aspose.3D dla .NET jest przeznaczony przede wszystkim dla środowisk Windo
  Odp.: Poznaj obszerne[dokumentacja](https://reference.aspose.com/3d/net/) dostępne w celu uzyskania szczegółowych informacji.
 ### P: Jak kupić Aspose.3D dla .NET?
  O: Odwiedź[strona zakupu](https://purchase.aspose.com/buy) aby zdobyć licencję i odblokować pełny potencjał Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

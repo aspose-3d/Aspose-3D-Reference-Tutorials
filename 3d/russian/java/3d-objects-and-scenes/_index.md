@@ -3,10 +3,16 @@ title: Манипулирование 3D-объектами и сценами в
 linktitle: Манипулирование 3D-объектами и сценами в Java
 second_title: Aspose.3D Java API
 description: Откройте для себя мир 3D-программирования на Java с помощью учебных пособий Aspose.3D. Научитесь изменять радиус сферы и легко применять XPath-подобные запросы для беспрепятственной разработки 3D-приложений.
-type: docs
 weight: 33
 url: /ru/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Манипулирование 3D-объектами и сценами в Java
+
 ## Введение
 
 Программирование на Java 3D становится увлекательным путешествием с обучающими материалами Aspose.3D, в которых основное внимание уделяется управлению трехмерными объектами и сценами. В этой статье мы рассмотрим два основных руководства, которые обещают улучшить ваши навыки 3D-разработки.
@@ -27,3 +33,9 @@ url: /ru/java/3d-objects-and-scenes/
 Изучите 3D-программирование на Java с помощью Aspose.3D, легко изменяя радиус сферы. Загрузите сейчас и получите беспрепятственный опыт разработки 3D-приложений.
 ### [Применение запросов типа XPath к 3D-объектам в Java](./xpath-like-object-queries/)
 С легкостью осваивайте запросы к 3D-объектам на Java с помощью Aspose.3D. Применяйте запросы, подобные XPath, манипулируйте сценами и повышайте уровень своей 3D-разработки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

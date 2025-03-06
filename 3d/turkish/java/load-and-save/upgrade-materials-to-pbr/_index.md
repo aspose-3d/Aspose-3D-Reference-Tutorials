@@ -3,10 +3,16 @@ title: Aspose.3D ile Java'da Gelişmiş Gerçeklik için 3D Malzemeleri PBR'ye y
 linktitle: Aspose.3D ile Java'da Gelişmiş Gerçeklik için 3D Malzemeleri PBR'ye yükseltin
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile 3D malzemeleri Java'da zahmetsizce PBR'ye yükseltin. Büyüleyici görseller için gelişmiş gerçekçiliğe ulaşın.
-type: docs
 weight: 13
 url: /tr/java/load-and-save/upgrade-materials-to-pbr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D ile Java'da Gelişmiş Gerçeklik için 3D Malzemeleri PBR'ye yükseltin
+
 ## giriiş
 
 3D malzemelerinizi PBR'ye yükseltmek, Java uygulamalarınızda gerçeğe yakın görseller elde etmeye yönelik dönüştürücü bir adımdır. Aspose.3D bu süreci basitleştirerek geleneksel malzemelerden PBR malzemelerine sorunsuz bir şekilde geçiş yapmanızı sağlar. Bu öğreticide gerekli ön koşulları inceleyeceğiz, paketleri içe aktaracağız ve her örneği ayrıntılı adımlara ayıracağız.
@@ -102,3 +108,9 @@ C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases
 ### S5: Aspose.3D için geçici lisansı nasıl edinebilirim?
 
  A5: Ziyaret edin[bu bağlantı](https://purchase.aspose.com/temporary-license/) Geçici lisans bilgileri için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

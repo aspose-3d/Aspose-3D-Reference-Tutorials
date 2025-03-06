@@ -3,10 +3,16 @@ title: Bekerja dengan Properti 3D dan Data Kustom dalam Adegan Java Menggunakan 
 linktitle: Bekerja dengan Properti 3D dan Data Kustom dalam Adegan Java Menggunakan Aspose.3D
 second_title: Asumsikan.3D Java API
 description: Sempurnakan aplikasi Java Anda dengan Aspose.3D untuk manipulasi properti 3D yang lancar. Ikuti tutorial kami untuk panduan langkah demi langkah.
-type: docs
 weight: 14
 url: /id/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Properti 3D dan Data Kustom dalam Adegan Java Menggunakan Aspose.3D
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang bekerja dengan properti 3D dan data khusus dalam adegan Java menggunakan Aspose.3D. Dalam tutorial ini, kita akan mempelajari fitur-fitur canggih Aspose.3D, memberikan panduan langkah demi langkah dalam memanipulasi properti 3D dalam aplikasi Java Anda.
@@ -124,3 +130,9 @@ A4: Ya, kunjungi[Forum dukungan Aspose.3D](https://forum.aspose.com/c/3d/18) unt
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
 
  A5: Anda dapat memperoleh lisensi sementara dengan mengunjungi[Link ini](https://purchase.aspose.com/temporary-license/) di situs web Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

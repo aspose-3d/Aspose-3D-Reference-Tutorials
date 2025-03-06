@@ -3,10 +3,16 @@ title: Захват видовых экранов в 3D-сценах
 linktitle: Захват видовых экранов в 3D-сценах
 second_title: Aspose.3D .NET API
 description: Научитесь захватывать потрясающие 3D-окна просмотра с помощью Aspose.3D для .NET. Пошаговое руководство по гибкому рендерингу сцен.
-type: docs
 weight: 11
 url: /ru/net/rendering/capture-viewport/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Захват видовых экранов в 3D-сценах
+
 ## Введение
 
 В сфере 3D-графики и визуализации захват видовых экранов является важным навыком, который повышает глубину и детализацию ваших сцен. Aspose.3D для .NET предоставляет надежное решение для рендеринга и управления 3D-сценами. Это руководство проведет вас через процесс захвата видовых экранов в 3D-сценах с помощью Aspose.3D, что позволит вам с легкостью создавать потрясающие визуализации.
@@ -124,3 +130,9 @@ renderer.Render(rt);
 ### Вопрос 5: Как я могу обратиться за помощью или принять участие в жизни сообщества?
 
  A5: Присоединяйтесь к сообществу Aspose.3D на[форум поддержки](https://forum.aspose.com/c/3d/18) за помощь и сотрудничество.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

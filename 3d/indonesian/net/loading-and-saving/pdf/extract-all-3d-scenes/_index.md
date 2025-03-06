@@ -3,10 +3,16 @@ title: Mengekstrak Semua Adegan 3D
 linktitle: Mengekstrak Semua Adegan 3D
 second_title: Aspose.3D .NET API
 description: Jelajahi kemungkinan pengembangan 3D tanpa batas dengan Aspose.3D untuk .NET. Muat, simpan, dan ekstrak adegan dengan mudah.
-type: docs
 weight: 13
 url: /id/net/loading-and-saving/pdf/extract-all-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengekstrak Semua Adegan 3D
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.3D untuk .NET yang menarik, perpustakaan mutakhir yang memberdayakan pengembang untuk dengan mudah memanipulasi dan memproses adegan 3D dalam aplikasi mereka. Dalam panduan langkah demi langkah ini, kita akan mempelajari aspek dasar memuat, menyimpan, dan mengekstrak adegan 3D menggunakan Aspose.3D untuk .NET. Baik Anda seorang pengembang berpengalaman atau pendatang baru di bidang grafis 3D, tutorial ini dibuat untuk memberi Anda pengalaman belajar yang lancar.
@@ -93,3 +99,9 @@ A2: Tentu saja! Aspose.3D melayani pengembang yang mengerjakan proyek dengan kom
 ### Q5: Butuh bantuan atau ingin terhubung dengan komunitas Aspose.3D?
 
  A5: Kunjungi forum dukungan kami[Di Sini](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

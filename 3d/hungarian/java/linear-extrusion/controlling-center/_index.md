@@ -3,10 +3,16 @@ title: Vezérlőközpont a Lineáris extrudálásban Aspose.3D for Java segíts�
 linktitle: Vezérlőközpont a Lineáris extrudálásban Aspose.3D for Java segítségével
 second_title: Aspose.3D Java API
 description: Fedezze fel a 3D grafika világát Java nyelven az Aspose.3D segítségével. Könnyedén irányíthatja a középpontot lineáris extrudálással.
-type: docs
 weight: 11
 url: /hu/java/linear-extrusion/controlling-center/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vezérlőközpont a Lineáris extrudálásban Aspose.3D for Java segítségével
+
 ## Bevezetés
 
 3D grafika és a Java programozás világában a lineáris extrudálás során a központ vezérlése döntő szerepet játszik a kívánt hatások elérésében a projektekben. Az Aspose.3D for Java hatékony eszközkészletet biztosít az ilyen feladatok zökkenőmentes kezelésére. Ebben az oktatóanyagban belemerülünk a központ vezérlésének folyamatába a lineáris kihúzás során az Aspose.3D for Java használatával, az egyes lépéseket lebontva a zökkenőmentes és átfogó megértés érdekében.
@@ -126,3 +132,9 @@ V4: Igen, ha tesztelési célból ideiglenes licencre van szüksége, beszerezhe
 ### 5. kérdés: Hol találom a dokumentációt?
 
  5. válasz: Az Aspose.3D for Java dokumentációja elérhető[itt](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

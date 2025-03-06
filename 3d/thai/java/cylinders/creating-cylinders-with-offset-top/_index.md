@@ -3,10 +3,16 @@ title: การสร้างกระบอกสูบด้วย Offset To
 linktitle: การสร้างกระบอกสูบด้วย Offset Top ใน Aspose.3D สำหรับ Java
 second_title: Aspose.3D จาวา API
 description: สำรวจความมหัศจรรย์ของการสร้างแบบจำลอง 3 มิติใน Java ด้วย Aspose.3D เรียนรู้วิธีสร้างกระบอกสูบที่น่าหลงใหลด้วยยอดออฟเซ็ตได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/java/cylinders/creating-cylinders-with-offset-top/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างกระบอกสูบด้วย Offset Top ใน Aspose.3D สำหรับ Java
+
 ## การแนะนำ
 
 ในขอบเขตของการสร้างแบบจำลอง 3 มิติบน Java นั้น Aspose.3D มีความโดดเด่นในฐานะเครื่องมืออันทรงพลัง ช่วยให้นักพัฒนาสามารถสร้างฉาก 3 มิติที่ซับซ้อนได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะเจาะลึกโลกอันน่าทึ่งของ Aspose.3D สำหรับ Java โดยเน้นไปที่งานเฉพาะ นั่นคือการสร้างกระบอกสูบที่มีส่วนยอดออฟเซ็ต ในตอนท้ายของคู่มือนี้ คุณจะเข้าใจกระบวนการนี้อย่างแน่ชัด ซึ่งช่วยให้คุณสามารถรวมคุณลักษณะนี้เข้ากับโปรเจ็กต์ 3D ของคุณได้อย่างราบรื่น
@@ -127,3 +133,9 @@ A3: ได้ คุณสามารถสำรวจและเลือก
 ### คำถามที่ 5: มีตัวเลือกใบอนุญาตชั่วคราวสำหรับการทดสอบหรือไม่
 
  A5: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์ในการทดสอบและประเมินผลได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

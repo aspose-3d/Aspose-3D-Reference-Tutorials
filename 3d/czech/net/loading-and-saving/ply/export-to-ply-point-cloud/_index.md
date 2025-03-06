@@ -3,10 +3,16 @@ title: Export do formátu PLY jako mrak bodů
 linktitle: Export do formátu PLY jako mrak bodů
 second_title: Aspose.3D .NET API
 description: Prozkoumejte svět 3D modelování s Aspose.3D pro .NET. Naučte se exportovat modely do formátu PLY bez námahy. Pozvedněte své projekty pomocí ohromujících vizuálů.
-type: docs
 weight: 16
 url: /cs/net/loading-and-saving/ply/export-to-ply-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Export do formátu PLY jako mrak bodů
+
 ## Úvod
 dynamickém světě 3D modelování a vývoje vyniká Aspose.3D for .NET jako výkonná sada nástrojů. Tento tutoriál vás provede procesem exportu 3D modelů do formátu PLY jako mračna bodů pomocí Aspose.3D for .NET. Pokud jste připraveni vylepšit své projekty ohromujícími vizuálními prvky, postupujte podle nich a odemkněte plný potenciál této všestranné knihovny.
 ## Předpoklady
@@ -59,3 +65,9 @@ Aspose.3D podporuje různé .NET frameworky, což zajišťuje kompatibilitu v ce
  Ano, prozkoumejte funkce pomocí a[zkušební verze zdarma](https://releases.aspose.com/) před přijetím závazku.
 ### 5. Jak získám dočasnou licenci?
  Pro dočasné licenční možnosti navštivte[tento odkaz](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

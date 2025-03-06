@@ -3,10 +3,16 @@ title: Cách tạo một tài liệu 3D trống trong Java bằng Aspose.3D
 linktitle: Cách tạo một tài liệu 3D trống trong Java bằng Aspose.3D
 second_title: API Java Aspose.3D
 description: Khám phá thế giới đồ họa 3D với Aspose.3D cho Java. Làm theo hướng dẫn từng bước của chúng tôi để tạo tài liệu 3D trống một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/load-and-save/create-empty-3d-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cách tạo một tài liệu 3D trống trong Java bằng Aspose.3D
+
 ## Giới thiệu
 
 Trong lĩnh vực đồ họa và trực quan hóa 3D, Aspose.3D cho Java nổi bật như một công cụ mạnh mẽ dành cho các nhà phát triển. Với các tính năng linh hoạt và chức năng mạnh mẽ, nó cung cấp một nền tảng tuyệt vời để tạo và thao tác các tài liệu 3D. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo tài liệu 3D trống trong Java bằng Aspose.3D.
@@ -93,3 +99,9 @@ Câu trả lời 1: Aspose.3D được thiết kế để tương thích với c
 ### Câu hỏi 5: Tôi có thể tìm kiếm hỗ trợ hoặc thảo luận về các truy vấn liên quan đến Aspose.3D ở đâu?
 
  A5: Truy cập diễn đàn cộng đồng[đây](https://forum.aspose.com/c/3d/18) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

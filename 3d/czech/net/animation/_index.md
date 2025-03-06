@@ -3,10 +3,16 @@ title: Animace
 linktitle: Animace
 second_title: Aspose.3D .NET API
 description: Odemkněte svět 3D animací pomocí výukových programů Aspose.3D for .NET. Naučte se animovat vlastnosti a bez námahy nastavovat cíle a kamery pro dynamické scény.
-type: docs
 weight: 30
 url: /cs/net/animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Animace
+
 ## Úvod
 
 Vítejte ve fascinující říši 3D animace s Aspose.3D pro .NET! V tomto komplexním průvodci prozkoumáme dva základní návody, které vám umožní vytvářet podmanivé a dynamické 3D scény. Vydejme se společně na tuto vzrušující cestu!
@@ -37,3 +43,9 @@ Závěrem lze říci, že s výukovými programy Aspose.3D for .NET se nejen uč
 Naučte se animovat 3D vlastnosti pomocí Aspose.3D pro .NET. Podrobný průvodce vytvářením dynamických scén.
 ### [Nastavení cílů a kamer pro animaci ve 3D scénách](./setup-target-camera/)
 Odemkněte kouzlo 3D animace s Aspose.3D pro .NET. Pomocí tohoto komplexního návodu snadno nastavte cíle a kamery.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

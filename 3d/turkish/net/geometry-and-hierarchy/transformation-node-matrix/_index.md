@@ -3,10 +3,16 @@ title: Düğümün Dönüşüm Matrisine Göre Dönüştürülmesi
 linktitle: Düğümün Dönüşüm Matrisine Göre Dönüştürülmesi
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'i kullanarak düğümleri 3D sahnelerde zahmetsizce dönüştürün. Öğreticiyle adım adım düğüm dönüşümlerini öğrenin.
-type: docs
 weight: 21
 url: /tr/net/geometry-and-hierarchy/transformation-node-matrix/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Düğümün Dönüşüm Matrisine Göre Dönüştürülmesi
+
 ## giriiş
 
 3D grafiklerin ve görselleştirmelerin dinamik alanında, bir sahnedeki nesneleri manipüle etme yeteneği çok önemli bir husustur. Aspose.3D for .NET, geliştiricilerin dönüşüm matrislerini kullanarak düğümleri sorunsuz bir şekilde dönüştürmesine olanak tanır ve 3D sahnelere bir yaratıcılık ve kontrol katmanı ekler. Bu eğitim, 3B sahnedeki bir düğümü adım adım dönüştürme sürecinde size rehberlik edecektir.
@@ -112,3 +118,9 @@ Cevap2: Evet, ilgili matrisleri çarparak ve sonucu düğüme uygulayarak birden
 ### S5: Nereden yardım alabilirim veya Aspose.3D topluluğuyla bağlantı kurabilirim?
 
  A5: ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) Aspose.3D'yi kullanarak sorular sormak, deneyimleri paylaşmak ve diğer geliştiricilerle bağlantı kurmak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

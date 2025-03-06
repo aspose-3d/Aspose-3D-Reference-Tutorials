@@ -3,10 +3,16 @@ title: Menganimasikan Properti untuk Mendokumentasikan dalam Adegan 3D
 linktitle: Menganimasikan Properti untuk Mendokumentasikan dalam Adegan 3D
 second_title: Aspose.3D .NET API
 description: Pelajari cara menganimasikan properti 3D dengan Aspose.3D untuk .NET. Panduan langkah demi langkah untuk membuat pemandangan dinamis.
-type: docs
 weight: 10
 url: /id/net/animation/property-to-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menganimasikan Properti untuk Mendokumentasikan dalam Adegan 3D
+
 ## Perkenalan
 
 Jika Anda terjun ke dunia pembuatan adegan 3D dan animasi di .NET, Aspose.3D adalah perangkat pilihan Anda. Dalam panduan langkah demi langkah ini, kita akan menjelajahi proses menganimasikan properti dalam adegan 3D menggunakan Aspose.3D untuk .NET. Pada akhirnya, Anda akan dibekali dengan pengetahuan untuk menghidupkan proyek 3D Anda.
@@ -128,3 +134,9 @@ Selamat! Anda baru saja menguasai seni menganimasikan properti dalam adegan 3D m
 ### Q5: Bisakah saya mendapatkan lisensi sementara?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

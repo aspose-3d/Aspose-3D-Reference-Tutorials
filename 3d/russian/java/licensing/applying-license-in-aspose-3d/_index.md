@@ -3,10 +3,16 @@ title: Применение лицензии в Aspose.3D для Java
 linktitle: Применение лицензии в Aspose.3D для Java
 second_title: Aspose.3D Java API
 description: Раскройте весь потенциал Aspose.3D в приложениях Java, следуя нашему подробному руководству по применению лицензий.
-type: docs
 weight: 10
 url: /ru/java/licensing/applying-license-in-aspose-3d/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Применение лицензии в Aspose.3D для Java
+
 ## Введение
 
 Добро пожаловать в это пошаговое руководство по применению лицензии в Aspose.3D для Java. Aspose.3D — это мощная библиотека Java, которая позволяет разработчикам легко работать с 3D-файлами. В этом руководстве мы углубимся в процесс применения лицензии различными методами, чтобы вы могли раскрыть весь потенциал Aspose.3D в своих Java-приложениях.
@@ -111,3 +117,9 @@ metered.setMeteredKey("your-public-key", "your-private-key");
 ### В5: Нужна ли мне временная лицензия для тестирования?
 
  A5: Да, получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

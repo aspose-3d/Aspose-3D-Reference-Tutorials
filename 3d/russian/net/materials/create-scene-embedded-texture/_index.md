@@ -3,10 +3,16 @@ title: Создание сцены со встроенной текстурой
 linktitle: Создание сцены со встроенной текстурой
 second_title: Aspose.3D .NET API
 description: Создавайте завораживающие 3D-сцены со встроенными текстурами, используя Aspose.3D для .NET. Следуйте нашему пошаговому руководству, чтобы получить потрясающие результаты.
-type: docs
 weight: 10
 url: /ru/net/materials/create-scene-embedded-texture/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание сцены со встроенной текстурой
+
 ## Введение
 Добро пожаловать в захватывающий мир 3D-графики с Aspose.3D для .NET! В этом подробном руководстве мы проведем вас через процесс создания потрясающих 3D-сцен со встроенными текстурами с помощью Aspose.3D, мощной и универсальной библиотеки для .NET-разработчиков.
 ## Предварительные условия
@@ -109,3 +115,9 @@ scene.Save(RunExamples.GetOutputFilePath(@"test.fbx"), FileFormat.FBX7500ASCII);
  А: Посетите[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) за поддержку сообщества и обсуждения.
 ### Вопрос: Могу ли я использовать Aspose.3D для коммерческих проектов?
  О: Да, вы можете приобрести лицензию.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Java 中自定义 3D 网格的内存布局
 linktitle: 在 Java 中自定义 3D 网格的内存布局
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 增强您的 Java 3D 建模 - 自定义内存布局以获得最佳性能。立即按照我们的分步指南进行操作！
-type: docs
 weight: 13
 url: /zh/java/transforming-3d-meshes/customize-mesh-memory-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中自定义 3D 网格的内存布局
+
 ## 介绍
 在 Java 3D 建模和渲染的动态世界中，Aspose.3D 对于寻求灵活性和定制的开发人员来说是一个强大的工具。在本教程中，我们将深入研究使用 Aspose.3D for Java 自定义 3D 网格内存布局的过程。读完本指南后，您将深入了解如何优化内存使用以增强 3D 建模。
 ## 先决条件
@@ -71,3 +77,9 @@ System.out.println("\nConverted a Box mesh to triangle mesh with custom memory l
 参观[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)以获得社区支持。
 ### 我可以购买 Aspose.3D 的临时许可证吗？
 是的，可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

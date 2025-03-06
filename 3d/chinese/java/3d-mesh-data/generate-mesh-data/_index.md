@@ -3,10 +3,16 @@ title: 在 Java 中生成 3D 网格数据（法线、切线、副法线）
 linktitle: 在 Java 中生成 3D 网格数据（法线、切线、副法线）
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 增强您的 Java 项目。按照我们的教程轻松生成 3D 网格的法线数据。轻松深入研究 3D 图形。
-type: docs
 weight: 11
 url: /zh/java/3d-mesh-data/generate-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中生成 3D 网格数据（法线、切线、副法线）
+
 ## 介绍
 
 在 Java 中创建和操作 3D 网格数据可能是一项具有挑战性但令人兴奋的任务，特别是在处理缺乏基本法线数据的文件时。 Aspose.3D for Java 可以解决这个问题，它提供了一个强大的工具包来有效地处理 3D 图形和网格。在本教程中，我们将指导您完成使用 Java 中的 Aspose.3D 生成 3D 网格法线数据的过程。
@@ -95,3 +101,9 @@ A1：是的，Aspose.3D 支持各种 3D 文件格式，确保项目的灵活性�
 ### Q5：需要帮助或想与社区建立联系？
 
  A5：访问Aspose.3D论坛[这里](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

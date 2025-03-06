@@ -3,10 +3,16 @@ title: Générer des nuages de points à partir de sphères en Java
 linktitle: Générer des nuages de points à partir de sphères en Java
 second_title: API Java Aspose.3D
 description: Explorez le monde des graphiques 3D avec Aspose.3D en Java. Apprenez à générer des nuages de points à partir de sphères avec ce didacticiel facile à suivre.
-type: docs
 weight: 14
 url: /fr/java/point-clouds/generate-point-clouds-spheres-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Générer des nuages de points à partir de sphères en Java
+
 ## Introduction
 
 Bienvenue dans ce guide étape par étape sur la génération de nuages de points à partir de sphères en Java à l'aide d'Aspose.3D. Si vous avez envie de plonger dans le monde fascinant des graphiques 3D et que vous souhaitez créer des visualisations époustouflantes, vous êtes au bon endroit. Ce didacticiel vous guidera tout au long du processus, le rendant ainsi facile à suivre, même pour les débutants.
@@ -90,3 +96,10 @@ Toutes nos félicitations! Vous avez généré avec succès des nuages de points
 ### Q5 : Où puis-je trouver la documentation ?
 
  A5 : reportez-vous aux détails[Documentation Java Aspose.3D](https://reference.aspose.com/3d/java/) pour des informations complètes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

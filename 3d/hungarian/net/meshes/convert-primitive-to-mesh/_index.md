@@ -3,10 +3,16 @@ title: Paraméteres primitív átalakítása hálóvá
 linktitle: Paraméteres primitív átalakítása hálóvá
 second_title: Aspose.3D .NET API
 description: Fedezze fel az Aspose.3D erejét .NET-hez! A parametrikus primitíveket könnyedén alakíthatja át sokoldalú hálóvá. Emelje fel 3D grafikus játékát még ma.
-type: docs
 weight: 12
 url: /hu/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Paraméteres primitív átalakítása hálóvá
+
 ## Bevezetés
 
 Az Aspose.3D primitív formák gazdag készletét kínálja, beleértve a dobozokat, síkokat, torokat, gömböket, hengereket, piramisokat és még sok mást. Ezeket a primitíveket a paramétereik határozzák meg, így rendkívül sokoldalúak az eljárási modellezéshez. A paraméterek programozott beállításával minimális kóddal sokféle 3D-s modell hozható létre.
@@ -73,3 +79,9 @@ Igen, az Aspose.3D a .NET-keretrendszerek széles skáláját támogatja, biztos
  Igen, fedezze fel az Aspose.3D-t a[ingyenes próbaverzió](https://releases.aspose.com/) hogy megtapasztalja képességeit, mielőtt kötelezettséget vállalna.
 ### Kaphatok ideiglenes licencet tesztelési célból?
  Igen, biztonságos a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) hogy átfogóan értékelje az Aspose.3D-t.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

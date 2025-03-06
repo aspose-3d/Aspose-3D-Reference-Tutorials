@@ -3,10 +3,16 @@ title: Konvertieren eines parametrischen Grundelements in ein Netz
 linktitle: Konvertieren eines parametrischen Grundelements in ein Netz
 second_title: Aspose.3D .NET API
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.3D für .NET! Konvertieren Sie parametrische Grundelemente mühelos in vielseitige Mesh-Elemente. Erweitern Sie noch heute Ihr 3D-Grafikspiel.
-type: docs
 weight: 12
 url: /de/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertieren eines parametrischen Grundelements in ein Netz
+
 ## Einführung
 
 Aspose.3D bietet einen umfangreichen Satz primitiver Formen, darunter Quader, Ebenen, Tori, Kugeln, Zylinder, Pyramiden und mehr. Diese Grundelemente werden durch ihre Parameter definiert, was sie für die prozedurale Modellierung äußerst vielseitig macht. Durch die programmgesteuerte Anpassung der Parameter können Sie mit minimalem Code eine große Vielfalt an 3D-Modellen erstellen.
@@ -73,3 +79,9 @@ Ja, Aspose.3D unterstützt eine Vielzahl von .NET-Frameworks und gewährleistet 
  Ja, erkunden Sie Aspose.3D mit dem[Kostenlose Testphase](https://releases.aspose.com/) um seine Fähigkeiten zu erleben, bevor Sie eine Verpflichtung eingehen.
 ### Kann ich zu Testzwecken eine temporäre Lizenz erhalten?
  Ja, sichern Sie sich ein[temporäre Lizenz](https://purchase.aspose.com/temporary-license/) Aspose.3D umfassend zu bewerten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

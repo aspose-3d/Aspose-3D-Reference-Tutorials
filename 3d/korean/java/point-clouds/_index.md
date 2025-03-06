@@ -3,10 +3,16 @@ title: Java에서 포인트 클라우드 작업
 linktitle: Java에서 포인트 클라우드 작업
 second_title: Aspose.3D 자바 API
 description: Aspose.3D 튜토리얼을 사용하여 Java에서 포인트 클라우드를 쉽게 디코딩, 로드, 생성, 내보내기 및 간소화할 수 있습니다. 단계별로 3D 개발 기술을 향상시켜 보세요.
-type: docs
 weight: 34
 url: /ko/java/point-clouds/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 포인트 클라우드 작업
+
 
 ## 소개
 
@@ -49,3 +55,9 @@ Java의 Aspose.3D를 사용하여 3D 그래픽의 세계를 탐험해보세요. 
 Aspose.3D를 사용하여 Java에서 3D 장면을 포인트 클라우드로 내보내는 방법을 알아보세요. 강력한 3D 그래픽과 시각화로 애플리케이션을 강화하세요.
 ### [Java의 PLY 내보내기를 통해 포인트 클라우드 처리 간소화](./ply-export-point-clouds-java/)
 Aspose.3D를 사용하여 Java에서 간소화된 포인트 클라우드 처리를 살펴보세요. PLY 파일을 손쉽게 내보내는 방법을 알아보세요. 단계별 가이드를 통해 귀하의 3D 그래픽 프로젝트를 향상시켜 보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

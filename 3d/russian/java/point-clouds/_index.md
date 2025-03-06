@@ -3,10 +3,16 @@ title: Работа с облаками точек в Java
 linktitle: Работа с облаками точек в Java
 second_title: Aspose.3D Java API
 description: Легко декодируйте, загружайте, создавайте, экспортируйте и оптимизируйте облака точек на Java с помощью учебных пособий Aspose.3D. Шаг за шагом совершенствуйте свои навыки 3D-разработки.
-type: docs
 weight: 34
 url: /ru/java/point-clouds/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Работа с облаками точек в Java
+
 
 ## Введение
 
@@ -49,3 +55,9 @@ url: /ru/java/point-clouds/
 Узнайте, как экспортировать 3D-сцены в виде облаков точек в Java с помощью Aspose.3D. Усовершенствуйте свои приложения с помощью мощной 3D-графики и визуализации.
 ### [Оптимизация обработки облаков точек с помощью экспорта PLY в Java](./ply-export-point-clouds-java/)
 Изучите оптимизированную обработку облаков точек на Java с помощью Aspose.3D. Научитесь легко экспортировать файлы PLY. Улучшите свои проекты 3D-графики с помощью нашего пошагового руководства.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: अनुकूलित शियर बॉटम सिलेंडर
 linktitle: अनुकूलित शियर बॉटम सिलेंडर
 second_title: Aspose.3D .NET API
 description: हमारे विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.3D का उपयोग करके अनुकूलित शियर बॉटम सिलेंडर बनाना सीखें। आज ही अपने 3डी मॉडलिंग कौशल को उन्नत करें!
-type: docs
 weight: 12
 url: /hi/net/3d-modeling/working-with-cylinder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# अनुकूलित शियर बॉटम सिलेंडर
+
 ## परिचय
 .NET के लिए Aspose.3D का उपयोग करके एक अनुकूलित सिलेंडर बनाने पर हमारी व्यापक मार्गदर्शिका में आपका स्वागत है। यदि आप अपने 3डी मॉडलिंग कौशल को बढ़ाना चाहते हैं और अपनी परियोजनाओं में अनूठी विशेषताएं जोड़ना चाहते हैं, तो आप सही जगह पर हैं। इस ट्यूटोरियल में, हम आपको स्पष्ट स्पष्टीकरण और कोड स्निपेट का उपयोग करके चरण दर चरण प्रक्रिया के बारे में बताएंगे।
 ## आवश्यक शर्तें
@@ -83,3 +89,9 @@ scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
  दौरा करना[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) सामुदायिक समर्थन और चर्चा के लिए।
 ### मैं अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
  अपना अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

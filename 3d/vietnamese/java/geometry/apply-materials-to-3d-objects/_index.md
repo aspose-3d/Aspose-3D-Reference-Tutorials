@@ -3,10 +3,16 @@ title: Áp dụng Vật liệu cho Đối tượng 3D trong Java với Aspose.3D
 linktitle: Áp dụng Vật liệu cho Đối tượng 3D trong Java với Aspose.3D
 second_title: API Java Aspose.3D
 description: Khám phá thế giới đồ họa 3D với Aspose.3D cho Java. Tìm hiểu cách áp dụng vật liệu vào đối tượng 3D một cách liền mạch. Nâng cao dự án của bạn bằng hình ảnh thực tế.
-type: docs
 weight: 14
 url: /vi/java/geometry/apply-materials-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Vật liệu cho Đối tượng 3D trong Java với Aspose.3D
+
 ## Giới thiệu
 
 Trong thế giới đồ họa 3D năng động, Aspose.3D cho Java nổi bật như một công cụ mạnh mẽ giúp mang lại sức sống cho các dự án của bạn. Việc thêm vật liệu vào các đối tượng 3D sẽ nâng cao sức hấp dẫn trực quan, khiến chúng trở nên chân thực hơn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình áp dụng vật liệu vào khối 3D bằng Aspose.3D cho Java.
@@ -165,3 +171,9 @@ Câu trả lời 1: Có, Aspose.3D cho phép bạn áp dụng nhiều vật li�
 ### Câu hỏi 5: Tôi có thể tải xuống thư viện Aspose.3D từ một liên kết cụ thể không?
 
  Câu trả lời 5: Có, hãy sử dụng[Liên kết tải xuống](https://releases.aspose.com/3d/java/) để truy cập phiên bản mới nhất của Aspose.3D cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

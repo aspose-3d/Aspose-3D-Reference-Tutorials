@@ -3,10 +3,16 @@ title: Ham 3D İçeriği PDF'den Çıkarma
 linktitle: Ham 3D İçeriği PDF'den Çıkarma
 second_title: Aspose.3D .NET API'si
 description: Aspose.3D for .NET'i kullanarak PDF'den 3D içerik çıkarmayı öğrenin. Kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 14
 url: /tr/net/loading-and-saving/pdf/extract-raw-3d-contents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ham 3D İçeriği PDF'den Çıkarma
+
 ## giriiş
 
 Aspose.3D for .NET kullanarak PDF'den ham 3D içeriklerin çıkarılmasıyla ilgili bu kapsamlı kılavuza hoş geldiniz. Aspose.3D, geliştiricilerin 3D dosyalarla zahmetsizce çalışmasına olanak tanıyan güçlü ve çok yönlü bir API'dir. Bu eğitimde, size adım adım rehberlik sağlayarak ham 3D içerikleri PDF dosyalarından çıkarma sürecine odaklanacağız.
@@ -90,3 +96,9 @@ Cevap1: Evet, Aspose.3D çok çeşitli 3D dosya formatlarını destekler, bu da 
 ### S5: Aspose.3D için herhangi bir belge mevcut mu?
 
  A5: Evet, belgeler bulunabilir[Burada](https://reference.aspose.com/3d/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

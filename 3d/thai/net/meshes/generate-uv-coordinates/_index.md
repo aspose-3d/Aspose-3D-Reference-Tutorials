@@ -3,10 +3,16 @@ title: การสร้างพิกัดรังสียูวี
 linktitle: การสร้างพิกัดรังสียูวี
 second_title: Aspose.3D .NET API
 description: สำรวจโลกแห่งการสร้างแบบจำลอง 3 มิติด้วย Aspose.3D สำหรับ .NET Master UV สร้างพิกัดได้อย่างง่ายดาย ยกระดับโครงการของคุณตอนนี้!
-type: docs
 weight: 11
 url: /th/net/meshes/generate-uv-coordinates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างพิกัดรังสียูวี
+
 ## การแนะนำ
 ปลดล็อกพลังของ Aspose.3D สำหรับ .NET และดำดิ่งสู่ขอบเขตของการสร้างพิกัด UV ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนที่จำเป็นเพื่อฝึกฝนแง่มุมพื้นฐานของการสร้างแบบจำลอง 3 มิติโดยใช้ Aspose.3D ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเป็นมือใหม่ คู่มือนี้จะช่วยให้คุณมีความรู้ในการสร้างและจัดการพิกัด UV สำหรับ Mesh ของคุณได้อย่างง่ายดาย
 ## ข้อกำหนดเบื้องต้น
@@ -74,3 +80,9 @@ Aspose.3D รองรับภาษา .NET เป็นหลัก แต่
  ใช่ คุณสามารถได้รับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการทดสอบและประเมินผล
 ### ถาม: ฉันจะหาบทช่วยสอนและแหล่งข้อมูลเพิ่มเติมได้จากที่ไหน
  สำรวจ[เอกสาร Aspose.3D](https://reference.aspose.com/3d/net/) สำหรับคำแนะนำและตัวอย่างที่ครอบคลุม
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

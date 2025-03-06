@@ -3,10 +3,16 @@ title: Простая загрузка облаков точек PLY в Java
 linktitle: Простая загрузка облаков точек PLY в Java
 second_title: Aspose.3D Java API
 description: Улучшите свое Java-приложение с помощью плавной загрузки облака точек PLY Aspose.3D. Пошаговое руководство, часто задаваемые вопросы и поддержка.
-type: docs
 weight: 11
 url: /ru/java/point-clouds/load-ply-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Простая загрузка облаков точек PLY в Java
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по плавной загрузке облаков точек PLY в Java с помощью Aspose.3D. Если вы хотите улучшить свое Java-приложение с помощью мощных возможностей обработки трехмерных облаков точек, вы попали по адресу. В этом уроке мы шаг за шагом проведем вас через весь процесс, гарантируя, что вы полностью усвоите каждую концепцию.
@@ -89,3 +95,10 @@ A3: обратитесь к документации[здесь](https://referen
 ### В5: Могу ли я получить временную лицензию для тестирования?
 
  A5: Конечно, получите временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

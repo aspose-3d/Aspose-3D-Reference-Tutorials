@@ -3,10 +3,16 @@ title: Parametrische primitief naar mesh converteren
 linktitle: Parametrische primitief naar mesh converteren
 second_title: Aspose.3D .NET-API
 description: Ontdek de kracht van Aspose.3D voor .NET! Converteer moeiteloos parametrische primitieven naar veelzijdige Mesh. Verbeter vandaag nog uw grafische 3D-game.
-type: docs
 weight: 12
 url: /nl/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Parametrische primitief naar mesh converteren
+
 ## Invoering
 
 Aspose.3D biedt een rijke reeks primitieve vormen, waaronder dozen, vlakken, tori, bollen, cilinders, piramides en meer. Deze primitieven worden gedefinieerd door hun parameters, waardoor ze zeer veelzijdig zijn voor procedurele modellering. Door de parameters programmatisch aan te passen, kunt u met minimale code een grote verscheidenheid aan 3D-modellen maken.
@@ -73,3 +79,9 @@ Ja, Aspose.3D ondersteunt een breed scala aan .NET-frameworks, waardoor compatib
  Ja, verken Aspose.3D met de[gratis proefperiode](https://releases.aspose.com/) om de mogelijkheden ervan te ervaren alvorens een verbintenis aan te gaan.
 ### Kan ik een tijdelijke licentie verkrijgen voor testdoeleinden?
  Ja, beveilig a[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) om Aspose.3D uitgebreid te evalueren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

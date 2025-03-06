@@ -3,10 +3,16 @@ title: Modelagem
 linktitle: Modelagem
 second_title: API Aspose.3D .NET
 description: Descubra a arte da modelagem 3D com Aspose.3D for .NET! Crie facilmente modelos primitivos cativantes neste tutorial abrangente. Liberte a sua criatividade hoje.
-type: docs
 weight: 28
 url: /pt/net/3d-modeling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modelagem
+
 
 ## Introdução
 
@@ -67,3 +73,9 @@ A beleza da modelagem 3D está na liberdade de liberar sua criatividade. Aspose.
 ## Tutoriais de modelagem 3D
 ### [Criação de modelos 3D primitivos](./primitive-3d-models/)
 Explore o mundo da modelagem 3D com Aspose.3D for .NET. Crie modelos primitivos impressionantes sem esforço.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

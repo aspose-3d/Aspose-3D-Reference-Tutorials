@@ -3,10 +3,16 @@ title: Начало работы с Aspose.3D для Java
 linktitle: Начало работы с Aspose.3D для Java
 second_title: Aspose.3D Java API
 description: Откройте для себя возможности Aspose.3D Java с помощью наших подробных руководств. Узнайте, как применять лицензии, чтобы раскрыть все возможности этого мощного инструмента Java.
-type: docs
 weight: 22
 url: /ru/java/licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Начало работы с Aspose.3D для Java
+
 ## Введение
 
 Готовы ли вы улучшить свои Java-приложения с помощью замечательных функций Aspose.3D? Погрузитесь в наши подробные руководства, которые помогут вам разобраться во всех аспектах, начиная с основного этапа применения лицензии.
@@ -37,3 +43,9 @@ url: /ru/java/licensing/
 ## Учебные пособия по началу работы с Aspose.3D для Java
 ### [Применение лицензии в Aspose.3D для Java](./applying-license-in-aspose-3d/)
 Раскройте весь потенциал Aspose.3D в приложениях Java, следуя нашему подробному руководству по применению лицензий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

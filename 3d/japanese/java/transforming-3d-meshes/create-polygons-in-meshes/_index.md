@@ -3,10 +3,16 @@ title: Java チュートリアル - Aspose.3D を使用して 3D メッシュに
 linktitle: Java チュートリアル - Aspose.3D を使用して 3D メッシュにポリゴンを作成する
 second_title: Aspose.3D Java API
 description: Aspose.3D for Java で 3D グラフィックスのパワーを解き放ちます。美しいポリゴンを簡単に作成できます。今すぐダウンロードして、シームレスな開発エクスペリエンスを手に入れましょう。
-type: docs
 weight: 10
 url: /ja/java/transforming-3d-meshes/create-polygons-in-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java チュートリアル - Aspose.3D を使用して 3D メッシュにポリゴンを作成する
+
 ## 導入
 3D グラフィックスの動的な世界では、複雑で視覚的に素晴らしいオブジェクトを作成する能力は、開発者にとって基本的なスキルです。 Aspose.3D for Java は、3D メッシュの作成を簡単にする強力なツールキットを提供します。このチュートリアルでは、Aspose.3D for Java を使用して 3D メッシュ内にポリゴンを作成するプロセスを説明します。
 ## 前提条件
@@ -51,3 +57,9 @@ mesh.createPolygon(0, 1, 2, 3);
 はい、Aspose.3D の機能を調べるには、[無料トライアル](https://releases.aspose.com/).
 ### 5. Aspose.3D のサポートはどこに問い合わせればよいですか?
 ご質問やサポートが必要な場合は、次のサイトにアクセスしてください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: قم بإعداد الكاميرا المستهدفة للرسوم الم
 linktitle: قم بإعداد الكاميرا المستهدفة للرسوم المتحركة ثلاثية الأبعاد في Java | Aspose.3D تعليمي
 second_title: Aspose.3D جافا API
 description: استكشف الرسوم المتحركة ثلاثية الأبعاد لـ Java بسهولة باستخدام Aspose.3D. اتبع البرنامج التعليمي لدينا للحصول على دليل خطوة بخطوة. قم بالتنزيل الآن للاستمتاع برحلة تطوير ثلاثية الأبعاد آسرة.
-type: docs
 weight: 11
 url: /ar/java/animations/set-up-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإعداد الكاميرا المستهدفة للرسوم المتحركة ثلاثية الأبعاد في Java | Aspose.3D تعليمي
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل التفصيلي خطوة بخطوة حول إعداد كاميرا مستهدفة للرسوم المتحركة ثلاثية الأبعاد في Java باستخدام Aspose.3D. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام الرسوم المتحركة ثلاثية الأبعاد في Java، فسيرشدك هذا البرنامج التعليمي خلال العملية بتعليمات واضحة وموجزة.
@@ -98,3 +104,9 @@ scene.save(MyDir, FileFormat.DISCREET3DS);
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت؟
 
  ج5: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

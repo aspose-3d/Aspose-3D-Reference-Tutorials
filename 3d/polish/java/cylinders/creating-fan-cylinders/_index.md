@@ -3,10 +3,16 @@ title: Tworzenie niestandardowych cylindrów wentylatorów za pomocą Aspose.3D 
 linktitle: Tworzenie niestandardowych cylindrów wentylatorów za pomocą Aspose.3D dla Java
 second_title: Aspose.3D API Java
 description: Naucz się tworzyć niestandardowe cylindry wentylatorów w Javie za pomocą Aspose.3D. Podnieś poziom swojej gry w modelowanie 3D bez wysiłku.
-type: docs
 weight: 10
 url: /pl/java/cylinders/creating-fan-cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tworzenie niestandardowych cylindrów wentylatorów za pomocą Aspose.3D dla Java
+
 ## Wstęp
 
 Czy jesteś gotowy, aby podnieść poziom swoich doświadczeń w modelowaniu 3D za pomocą Aspose.3D dla Java? Ten samouczek poprowadzi Cię przez proces tworzenia niestandardowych cylindrów wentylatorów przy użyciu potężnej biblioteki Aspose.3D. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, ten przewodnik krok po kroku pomoże Ci uwolnić pełny potencjał Aspose.3D w Javie.
@@ -124,3 +130,9 @@ A2: Absolutnie! Aspose.3D zapewnia szerokie możliwości dostosowywania, umożli
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.3D?
 
  A5: Zdobądź licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) dla potrzeb testowania i rozwoju.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

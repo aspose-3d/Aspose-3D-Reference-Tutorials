@@ -3,10 +3,16 @@ title: 3D hálók mentése egyéni bináris formátumban
 linktitle: 3D hálók mentése egyéni bináris formátumban
 second_title: Aspose.3D .NET API
 description: Fedezze fel a 3D világát az Aspose.3D for .NET segítségével. Tanulja meg a hálók egyéni bináris formátumban történő mentését.
-type: docs
 weight: 13
 url: /hu/net/3d-scene/save-3d-meshes-binary-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D hálók mentése egyéni bináris formátumban
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.3D for .NET világában, egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy könnyedén dolgozzanak 3D fájlokkal. Ebben az oktatóanyagban a 3D hálók egyéni bináris formátumban történő mentésének folyamatát mutatjuk be az Aspose.3D for .NET használatával. Ez az útmutató feltételezi, hogy rendelkezik a C# alapvető ismereteivel, és ismeri az Aspose.3D könyvtárat.
@@ -142,3 +148,9 @@ Ebben az oktatóanyagban a 3D hálók egyéni bináris formátumban történő m
 ### 5. kérdés: Megvásárolhatom az Aspose.3D-t .NET-hez?
 
  V5: Igen, megvásárolhatja az Aspose.3D-t a[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chia sẻ dữ liệu hình học lưới trong Java 3D với Aspose.3D
 linktitle: Chia sẻ dữ liệu hình học lưới trong Java 3D với Aspose.3D
 second_title: API Java Aspose.3D
 description: Khám phá những điều kỳ diệu của Java 3D với Aspose.3D. Tìm hiểu cách chia sẻ dữ liệu hình học lưới một cách dễ dàng giữa các nút trong hướng dẫn toàn diện này.
-type: docs
 weight: 15
 url: /vi/java/geometry/share-mesh-geometry-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chia sẻ dữ liệu hình học lưới trong Java 3D với Aspose.3D
+
 ## Giới thiệu
 
 Bắt tay vào cuộc hành trình vào thế giới Java 3D với Aspose.3D mở ra một thế giới khả năng tạo ra những hình ảnh trực quan tuyệt đẹp và trải nghiệm phong phú. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chia sẻ dữ liệu hình học lưới trong Java 3D bằng Aspose.3D. Hãy thực hiện cẩn thận từng bước và đến cuối, bạn sẽ trao đổi dữ liệu lưới một cách liền mạch giữa nhiều nút.
@@ -117,3 +123,9 @@ Câu trả lời 1: Có, Aspose.3D được thiết kế để hoạt động tr
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.3D?
 
  A5: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

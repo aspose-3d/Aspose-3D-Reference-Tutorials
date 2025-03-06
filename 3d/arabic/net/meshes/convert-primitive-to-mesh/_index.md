@@ -3,10 +3,16 @@ title: تحويل البدائية البارامترية إلى شبكة
 linktitle: تحويل البدائية البارامترية إلى شبكة
 second_title: Aspose.3D.NET API
 description: اكتشف قوة Aspose.3D لـ .NET! قم بتحويل البدائيات البارامترية إلى شبكة متعددة الاستخدامات دون عناء. ارفع مستوى لعبة الرسومات ثلاثية الأبعاد الخاصة بك اليوم.
-type: docs
 weight: 12
 url: /ar/net/meshes/convert-primitive-to-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل البدائية البارامترية إلى شبكة
+
 ## مقدمة
 
 يوفر Aspose.3D مجموعة غنية من الأشكال البدائية، بما في ذلك الصناديق والمستويات والتوري والمجالات والأسطوانات والأهرامات والمزيد. يتم تعريف هذه البدائيات من خلال معلماتها، مما يجعلها متعددة الاستخدامات للنمذجة الإجرائية. من خلال ضبط المعلمات برمجيًا، يمكنك إنشاء مجموعة واسعة من النماذج ثلاثية الأبعاد بأقل قدر من التعليمات البرمجية.
@@ -73,3 +79,9 @@ Console.WriteLine("\nConverted the primitive Box to a mesh successfully.\nFile s
  نعم، استكشف Aspose.3D باستخدام[تجربة مجانية](https://releases.aspose.com/) لتجربة قدراتها قبل الالتزام.
 ### هل يمكنني الحصول على ترخيص مؤقت لأغراض الاختبار؟
  نعم آمن أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لتقييم Aspose.3D بشكل شامل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

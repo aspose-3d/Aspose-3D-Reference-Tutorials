@@ -3,10 +3,16 @@ title: Geometrie en hiërarchie
 linktitle: Geometrie en hiërarchie
 second_title: Aspose.3D .NET-API
 description: Ontgrendel de wereld van 3D-graphics met Aspose.3D voor .NET-tutorials. Van het toepassen van PBR-materialen tot geometrische transformaties beheer elk aspect moeiteloos.
-type: docs
 weight: 25
 url: /nl/net/geometry-and-hierarchy/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geometrie en hiërarchie
+
 ## Invoering
 
 Ga op een spannende reis naar het rijk van 3D-graphics met Aspose.3D voor .NET-tutorials. Of u nu een beginneling of een doorgewinterde ontwikkelaar bent, deze stapsgewijze handleidingen beloven uw vaardigheden te verbeteren en de geheimen van naadloze manipulatie van 3D-afbeeldingen te onthullen.
@@ -72,3 +78,9 @@ Duik in de wereld van quaternion-transformaties met Aspose.3D voor .NET. Deze be
  Ontdek de kracht van Aspose.3D voor .NET met deze stapsgewijze handleiding voor het moeiteloos trianguleren van 3D-meshes. Verbeter uw modelleringsvaardigheden voor een meeslepende ervaring.[Lees verder](./triangulate-mesh/)
 
 Begin aan deze spannende reis van Aspose.3D voor .NET-tutorials en vergroot uw expertise op het gebied van 3D-graphics. Duik in elke tutorial, volg de stappen en zie hoe je vaardigheden naar nieuwe hoogten stijgen. Veel codeerplezier!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

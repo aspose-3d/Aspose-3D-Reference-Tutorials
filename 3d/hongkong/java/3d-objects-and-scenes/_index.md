@@ -3,10 +3,16 @@ title: 在 Java 中操作 3D 物件和場景
 linktitle: 在 Java 中操作 3D 物件和場景
 second_title: Aspose.3D Java API
 description: 透過 Aspose.3D 教學解鎖 Java 3D 程式設計的世界。了解如何修改球體半徑並輕鬆套用類似 XPath 的查詢以實現無縫 3D 開發。
-type: docs
 weight: 33
 url: /zh-hant/java/3d-objects-and-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中操作 3D 物件和場景
+
 ## 介紹
 
 透過 Aspose.3D 教程，Java 3D 程式設計成為一段迷人的旅程，專注於操作 3D 物件和場景。在本文中，我們將深入研究兩個有望提高您的 3D 開發技能的基本教程。
@@ -27,3 +33,9 @@ url: /zh-hant/java/3d-objects-and-scenes/
 使用 Aspose.3D 探索 Java 3D 編程，輕鬆修改球體半徑。立即下載以獲得無縫的 3D 開發體驗。
 ### [在 Java 中將類似 XPath 的查詢套用至 3D 對象](./xpath-like-object-queries/)
 使用 Aspose.3D 輕鬆掌握 Java 中的 3D 物件查詢。應用類似 XPath 的查詢、操作場景並提升您的 3D 開發。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

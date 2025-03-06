@@ -3,10 +3,16 @@ title: Impostazione delle proprietà tridimensionali nelle scene 3D
 linktitle: Impostazione delle proprietà tridimensionali nelle scene 3D
 second_title: API Aspose.3D .NET
 description: Esplora il tutorial Aspose.3D per .NET sull'impostazione delle proprietà 3D. Impara passo dopo passo con esempi di codice. Migliora le tue abilità di manipolazione delle scene 3D.
-type: docs
 weight: 14
 url: /it/net/3d-scene/set-3d-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Impostazione delle proprietà tridimensionali nelle scene 3D
+
 ## introduzione
 
 Creare accattivanti scene tridimensionali spesso richiede la capacità di manipolare varie proprietà, aggiungendo profondità e realismo ai tuoi progetti. Aspose.3D per .NET fornisce un potente set di strumenti per raggiungere questo obiettivo, consentendo di impostare e modificare le proprietà tridimensionali all'interno delle scene 3D senza sforzo. In questo tutorial, esploreremo il processo passo dopo passo, migliorando la tua comprensione di come sfruttare Aspose.3D per .NET in modo efficace.
@@ -148,3 +154,10 @@ A1: Sì, Aspose.3D supporta vari formati di file 3D, inclusi FBX, STL e molti al
 ### Q5: Posso provare Aspose.3D per .NET gratuitamente prima dell'acquisto?
 
  A5: Certamente! Scarica il[versione di prova gratuita](https://releases.aspose.com/) per esplorarne le caratteristiche.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hệ thống tọa độ lật trong cảnh 3D
 linktitle: Hệ thống tọa độ lật trong cảnh 3D
 second_title: API Aspose.3D .NET
 description: Nắm vững nghệ thuật lật hệ tọa độ trong cảnh 3D bằng cách sử dụng Aspose.3D cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để triển khai liền mạch.
-type: docs
 weight: 12
 url: /vi/net/3d-scene/flip-coordinate-system/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hệ thống tọa độ lật trong cảnh 3D
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách lật hệ tọa độ trong cảnh 3D bằng Aspose.3D cho .NET. Nếu bạn là nhà phát triển hoặc người đam mê 3D đang tìm cách thao tác các hệ tọa độ trong cảnh của mình thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, giúp bạn dễ dàng triển khai tính năng này một cách liền mạch.
@@ -91,3 +97,9 @@ Câu trả lời 1: Aspose.3D cho .NET được thiết kế chủ yếu cho l�
 ### Câu hỏi 5: Tôi có thể tìm kiếm hỗ trợ hoặc đặt câu hỏi liên quan đến Aspose.3D cho .NET ở đâu?
 
  A5: Diễn đàn cộng đồng Aspose[đây](https://forum.aspose.com/c/3d/18) là nơi lý tưởng để hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

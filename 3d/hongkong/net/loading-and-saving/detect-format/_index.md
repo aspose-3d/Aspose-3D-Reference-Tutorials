@@ -3,10 +3,16 @@ title: 檢測格式
 linktitle: 檢測格式
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 輕鬆掌握 3D 檔案操作。無縫載入、儲存和偵測格式。
-type: docs
 weight: 12
 url: /zh-hant/net/loading-and-saving/detect-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 檢測格式
+
 ## 介紹
 
 歡迎來到使用 Aspose.3D for .NET 進行 3D 檔案操作的令人興奮的世界！無論您是經驗豐富的開發人員還是剛開始使用 3D 圖形，本教學都將引導您輕鬆完成載入、儲存和偵測格式的過程。
@@ -93,3 +99,9 @@ A4：探索[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)以獲得社區�
 ### Q5：購買前可以免費試用Aspose.3D嗎？
 
 A5：當然！從以下位置下載免費試用版[Aspose.3D 發布](https://releases.aspose.com/)親身體驗其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Generate Data for 3D Meshes in Java (Normals, Tangents, Binormals)
 linktitle: Generate Data for 3D Meshes in Java (Normals, Tangents, Binormals)
 second_title: Aspose.3D Java API
 description: Enhance your Java projects with Aspose.3D. Follow our tutorial to effortlessly generate normal data for 3D meshes. Dive into 3D graphics with ease.
-type: docs
 weight: 11
 url: /java/3d-mesh-data/generate-mesh-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generate Data for 3D Meshes in Java (Normals, Tangents, Binormals)
+
 ## Introduction
 
 Creating and manipulating 3D mesh data in Java can be a challenging yet exciting task, especially when dealing with files that lack essential normal data. Aspose.3D for Java comes to the rescue, providing a powerful toolkit for handling 3D graphics and meshes efficiently. In this tutorial, we will guide you through the process of generating normal data for 3D meshes using Aspose.3D in Java.
@@ -95,3 +101,10 @@ A4: Refer to the documentation [here](https://reference.aspose.com/3d/java/).
 ### Q5: Need assistance or want to connect with the community?
 
 A5: Visit the Aspose.3D forum [here](https://forum.aspose.com/c/3d/18).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

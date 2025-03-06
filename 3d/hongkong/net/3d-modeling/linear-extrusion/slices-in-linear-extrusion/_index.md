@@ -3,10 +3,16 @@ title: 線性擠壓切片
 linktitle: 線性擠壓切片
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 設計世界。使用我們的線性擠出教學來創建令人驚嘆的模型。
-type: docs
 weight: 13
 url: /zh-hant/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 線性擠壓切片
+
 ## 介紹
 
 歡迎來到使用 Aspose.3D for .NET 的 3D 設計世界！無論您是經驗豐富的開發人員還是剛剛入門，本教學都將引導您完成使用強大的 Aspose.3D 庫創建令人驚嘆的 3D 視覺化的過程。
@@ -116,3 +122,9 @@ A1：Aspose.3D 主要是為 .NET 設計的，但您可以使用 .NET 綁定來�
 ### Q5：我可以使用 Aspose.3D for .NET 的臨時授權嗎？
 
  A5：是的，獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)出於評估目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

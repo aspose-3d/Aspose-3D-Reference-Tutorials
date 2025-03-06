@@ -3,10 +3,16 @@ title: XPath와 유사한 개체 쿼리
 linktitle: XPath와 유사한 개체 쿼리
 second_title: Aspose.3D .NET API
 description: .NET용 Aspose.3D의 성능을 최대한 활용해보세요! XPath와 유사한 쿼리를 사용하여 3D 그래픽을 원활하게 조작합니다. 지금 다운로드하여 획기적인 경험을 해보세요.
-type: docs
 weight: 24
 url: /ko/net/geometry-and-hierarchy/xpath-like-object-queries/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XPath와 유사한 개체 쿼리
+
 ## 소개
 .NET용 Aspose.3D의 잠재력을 최대한 활용하기 위한 여정을 시작하면 3D 그래픽 조작의 가능성 영역에 대한 문이 열립니다. 노련한 개발자이든 초보자이든 이 가이드는 Aspose.3D의 기능을 활용하는 방법에 대해 안내합니다.
 ## 전제 조건
@@ -94,3 +100,9 @@ Aspose.3D는 .NET Framework 2.0 이상과 호환됩니다.
  방문하다[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역 사회 지원을 위해.
 ### Aspose.3D는 다른 .NET용 3D 라이브러리에 비해 어떤 이점을 제공합니까?
 Aspose.3D는 강력한 개체 쿼리 및 강력한 렌더링 기능을 포함한 포괄적인 기능 세트를 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

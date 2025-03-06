@@ -3,10 +3,16 @@ title: Codifica della scena come nuvola di punti
 linktitle: Codifica della scena come nuvola di punti
 second_title: API Aspose.3D .NET
 description: Esplora il mondo della modellazione 3D in .NET con Aspose.3D. Impara a codificare facilmente le sfere in nuvole di punti. Scatena la tua creatività ora!
-type: docs
 weight: 14
 url: /it/net/loading-and-saving/draco/encode-scene-as-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Codifica della scena come nuvola di punti
+
 ## introduzione
 Benvenuti in questa guida completa sulla codifica di una sfera come nuvola di punti utilizzando Aspose.3D per .NET. Aspose.3D è una libreria potente e versatile che consente agli sviluppatori di lavorare senza problemi con modelli 3D nelle loro applicazioni .NET. In questo tutorial ti guideremo attraverso il processo di codifica di una sfera in una nuvola di punti utilizzando Aspose.3D.
 ## Prerequisiti
@@ -60,3 +66,9 @@ Sì, puoi esplorare Aspose.3D con una prova gratuita. Scaricalo[Qui](https://rel
  Visita il forum Aspose.3D[Qui](https://forum.aspose.com/c/3d/18) per il supporto e le discussioni della comunità.
 ### Ho bisogno di una licenza temporanea per i test?
  Sì, se stai testando la libreria, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

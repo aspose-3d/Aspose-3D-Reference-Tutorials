@@ -3,10 +3,16 @@ title: Aspose.3D for Java ile Özelleştirilmiş Fan Silindirleri Oluşturma
 linktitle: Aspose.3D for Java ile Özelleştirilmiş Fan Silindirleri Oluşturma
 second_title: Aspose.3D Java API'si
 description: Aspose.3D ile Java'da özelleştirilmiş fan silindirleri oluşturmayı öğrenin. 3D modelleme oyununuzu zahmetsizce yükseltin.
-type: docs
 weight: 10
 url: /tr/java/cylinders/creating-fan-cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java ile Özelleştirilmiş Fan Silindirleri Oluşturma
+
 ## giriiş
 
 Aspose.3D for Java ile 3D modelleme deneyiminizi yükseltmeye hazır mısınız? Bu eğitim, güçlü Aspose.3D kütüphanesini kullanarak özelleştirilmiş fan silindirleri oluşturma sürecinde size rehberlik edecektir. İster tecrübeli bir geliştirici ister yeni başlayan biri olun, bu adım adım kılavuz Java'da Aspose.3D'nin tüm potansiyelini ortaya çıkarmanıza yardımcı olacaktır.
@@ -124,3 +130,9 @@ A2: Kesinlikle! Aspose.3D, 3D modellerinizin görsel yönlerine ince ayar yapman
 ### S5: Aspose.3D için nasıl geçici lisans alabilirim?
 
  Cevap5: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/) Test ve geliştirme ihtiyaçlarınız için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Auftragen von Material auf den Würfel
 linktitle: Auftragen von Material auf den Würfel
 second_title: Aspose.3D .NET API
 description: Entdecken Sie Aspose.3D für .NET, Ihr Tor zur nahtlosen 3D-Grafikbearbeitung. Wenden Sie Materialien mühelos an, verbessern Sie den Realismus und werten Sie Ihre Projekte auf.
-type: docs
 weight: 14
 url: /de/net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Auftragen von Material auf den Würfel
+
 ## Einführung
 
 Willkommen in der faszinierenden Welt der 3D-Grafikbearbeitung mit Aspose.3D für .NET! In diesem Tutorial befassen wir uns mit dem Prozess des Anwendens von Materialien auf einen Würfel in Ihren 3D-Szenen und verleihen Ihren Kreationen ein völlig neues Maß an Realismus und visueller Attraktivität.
@@ -136,3 +142,9 @@ A3: Ja, Aspose.3D bietet umfassende Unterstützung für die Erstellung und Bearb
 ### F5: Wie kann ich bei Problemen oder Fragen Unterstützung erhalten?
 
  A5: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) um mit der Community in Kontakt zu treten und Hilfe zu suchen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

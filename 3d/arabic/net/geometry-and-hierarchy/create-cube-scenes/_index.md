@@ -3,10 +3,16 @@ title: خلق مشاهد مكعب
 linktitle: خلق مشاهد مكعب
 second_title: Aspose.3D.NET API
 description: صمم مشاهد مكعبات ثلاثية الأبعاد مذهلة دون عناء باستخدام Aspose.3D لـ .NET. قم بتنزيل المكتبة، واتبع دليلنا خطوة بخطوة، وأطلق العنان.
-type: docs
 weight: 12
 url: /ar/net/geometry-and-hierarchy/create-cube-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# خلق مشاهد مكعب
+
 ## مقدمة
 
 هل أنت مستعد للغوص في عالم التصميم ثلاثي الأبعاد الآسر؟ في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء مشاهد مكعبة ساحرة باستخدام Aspose.3D لـ .NET. Aspose.3D هي مكتبة قوية ومتعددة الاستخدامات تمكن المطورين من صياغة تجارب ثلاثية الأبعاد غامرة بسلاسة.
@@ -126,3 +132,9 @@ Console.WriteLine("\nCube Scene created successfully.\nFile saved at " + output)
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟
 
  ج5: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

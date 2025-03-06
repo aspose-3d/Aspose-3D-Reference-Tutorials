@@ -3,10 +3,16 @@ title: การทำงานกับกระบอกสูบใน Aspose
 linktitle: การทำงานกับกระบอกสูบใน Aspose.3D สำหรับ Java
 second_title: Aspose.3D จาวา API
 description: สร้างโมเดล 3 มิติที่น่าทึ่งได้อย่างง่ายดายด้วย Aspose.3D สำหรับ Java! เรียนรู้วิธีสร้างกระบอกสูบพัดลม กระบอกสูบออฟเซ็ตท็อป และกระบอกสูบด้านล่างแบบเฉือนพร้อมบทช่วยสอน
-type: docs
 weight: 25
 url: /th/java/cylinders/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การทำงานกับกระบอกสูบใน Aspose.3D สำหรับ Java
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับทักษะการสร้างแบบจำลอง 3 มิติของคุณไปอีกระดับแล้วหรือยัง? Aspose.3D สำหรับ Java เปิดโลกแห่งความเป็นไปได้ และในบทช่วยสอนนี้ เราจะแนะนำคุณผ่านขอบเขตอันน่าหลงใหลของการสร้างกระบอกสูบแบบกำหนดเอง ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพียงแค่ก้าวเข้าสู่โลกแห่งการสร้างแบบจำลอง 3 มิติ บทช่วยสอนเหล่านี้จะยกระดับทักษะของคุณและเพิ่มเอกลักษณ์ให้กับโครงการของคุณ
@@ -37,3 +43,9 @@ url: /th/java/cylinders/
 สำรวจความมหัศจรรย์ของการสร้างแบบจำลอง 3 มิติใน Java ด้วย Aspose.3D เรียนรู้วิธีสร้างกระบอกสูบที่น่าหลงใหลด้วยยอดออฟเซ็ตได้อย่างง่ายดาย
 ### [การสร้างกระบอกสูบที่มี Sheared Bottom ใน Aspose.3D สำหรับ Java](./creating-cylinders-with-sheared-bottom/)
 เรียนรู้วิธีสร้างกระบอกสูบแบบกำหนดเองพร้อมพื้นแบบเฉือนโดยใช้ Aspose.3D สำหรับ Java ยกระดับทักษะการสร้างแบบจำลอง 3 มิติของคุณด้วยคำแนะนำทีละขั้นตอนนี้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

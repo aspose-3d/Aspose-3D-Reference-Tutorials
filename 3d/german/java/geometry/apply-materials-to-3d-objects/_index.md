@@ -3,10 +3,16 @@ title: Wenden Sie mit Aspose.3D Materialien auf 3D-Objekte in Java an
 linktitle: Wenden Sie mit Aspose.3D Materialien auf 3D-Objekte in Java an
 second_title: Aspose.3D Java-API
 description: Entdecken Sie die Welt der 3D-Grafik mit Aspose.3D für Java. Erfahren Sie, wie Sie Materialien nahtlos auf 3D-Objekte anwenden. Werten Sie Ihre Projekte mit realistischen Bildern auf.
-type: docs
 weight: 14
 url: /de/java/geometry/apply-materials-to-3d-objects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wenden Sie mit Aspose.3D Materialien auf 3D-Objekte in Java an
+
 ## Einführung
 
 In der dynamischen Welt der 3D-Grafik sticht Aspose.3D für Java als leistungsstarkes Werkzeug hervor, das Ihren Projekten Leben einhaucht. Das Hinzufügen von Materialien zu 3D-Objekten erhöht die visuelle Attraktivität und macht sie realistischer. In diesem Tutorial führen wir Sie durch den Prozess der Anwendung von Materialien auf einen 3D-Würfel mit Aspose.3D für Java.
@@ -165,3 +171,9 @@ A1: Ja, mit Aspose.3D können Sie für eine verbesserte Anpassung mehrere Materi
 ### F5: Kann ich die Aspose.3D-Bibliothek über einen bestimmten Link herunterladen?
 
  A5: Ja, verwenden Sie das[Download-Link](https://releases.aspose.com/3d/java/) um auf die neueste Version von Aspose.3D für Java zuzugreifen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

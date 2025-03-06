@@ -3,10 +3,16 @@ title: Giro en extrusión lineal
 linktitle: Giro en extrusión lineal
 second_title: Aspose.3D API .NET
 description: Explore el cautivador mundo de los gráficos 3D con Aspose.3D para .NET. Aprenda paso a paso la extrusión lineal con un giro.
-type: docs
 weight: 14
 url: /es/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Giro en extrusión lineal
+
 ## Introducción
 
 En el mundo en constante evolución del desarrollo .NET, aprovechar el poder de los gráficos 3D es una tarea apasionante. Aspose.3D para .NET surge como un valioso conjunto de herramientas que permite a los desarrolladores crear aplicaciones inmersivas y visualmente impresionantes sin problemas. En esta guía completa, profundizaremos en una característica intrigante: la extrusión lineal con un toque. Este tutorial lo guiará a través del proceso paso a paso, desbloqueando el potencial de Aspose.3D para .NET.
@@ -118,3 +124,9 @@ R4: ¡Por supuesto! Aspose.3D ofrece un amplio conjunto de funciones. Siéntase 
 ### P5: ¿Existe una comunidad para el soporte y las discusiones sobre Aspose.3D?
 
  R5: Sí, únete a la comunidad Aspose.3D en[Foro Aspose](https://forum.aspose.com/c/3d/18) por apoyo y debates interesantes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

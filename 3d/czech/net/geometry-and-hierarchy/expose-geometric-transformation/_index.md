@@ -3,10 +3,16 @@ title: Odhalení geometrické transformace
 linktitle: Odhalení geometrické transformace
 second_title: Aspose.3D .NET API
 description: Prozkoumejte neomezené možnosti 3D grafiky v .NET s Aspose.3D. Odhalte geometrické transformace bez námahy.
-type: docs
 weight: 13
 url: /cs/net/geometry-and-hierarchy/expose-geometric-transformation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odhalení geometrické transformace
+
 ## Úvod
 
 Vítejte ve vzrušujícím světě Aspose.3D pro .NET! V tomto tutoriálu se ponoříme do složitosti exponování geometrických transformací ve 3D scénách pomocí Aspose.3D. Pokud jste vývojář .NET, který touží vylepšit své možnosti 3D grafiky, jste na správném místě.
@@ -98,3 +104,9 @@ Odpověď 1: Aspose.3D je kompatibilní s celou řadou .NET frameworků, což za
 ### Q5: Jak koupím Aspose.3D pro .NET?
 
  A5: Chcete-li zakoupit Aspose.3D pro .NET, navštivte[nákupní stránku](https://purchase.aspose.com/buy) na webu Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Materiaal op kubus aanbrengen
 linktitle: Materiaal op kubus aanbrengen
 second_title: Aspose.3D .NET-API
 description: Ontdek Aspose.3D voor .NET, uw toegangspoort tot naadloze manipulatie van 3D-afbeeldingen. Pas materialen moeiteloos toe, verbeter het realisme en breng uw projecten naar een hoger niveau.
-type: docs
 weight: 14
 url: /nl/net/geometry-and-hierarchy/material-to-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Materiaal op kubus aanbrengen
+
 ## Invoering
 
 Welkom in de fascinerende wereld van grafische 3D-manipulatie met Aspose.3D voor .NET! In deze zelfstudie duiken we in het proces van het toepassen van materialen op een kubus in uw 3D-scènes, waardoor een geheel nieuw niveau van realisme en visuele aantrekkingskracht aan uw creaties wordt toegevoegd.
@@ -136,3 +142,9 @@ A3: Ja, Aspose.3D biedt uitgebreide ondersteuning voor het maken en manipuleren 
 ### Vraag 5: Hoe kan ik ondersteuning krijgen voor eventuele problemen of vragen?
 
  A5: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) om verbinding te maken met de gemeenschap en hulp te zoeken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

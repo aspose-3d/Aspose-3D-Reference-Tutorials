@@ -3,10 +3,16 @@ title: Aspose.3D for Java でのプリミティブ 3D モデルの作成
 linktitle: Aspose.3D for Java でのプリミティブ 3D モデルの作成
 second_title: Aspose.3D Java API
 description: Aspose.3D for Java チュートリアルを使用して、見事な 3D モデルを簡単に作成できます。プリミティブ 3D モデルの構築に関するステップバイステップのガイドを使用して、創造性を解き放ちます。
-type: docs
 weight: 24
 url: /ja/java/primitive-3d-models/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.3D for Java でのプリミティブ 3D モデルの作成
+
 
 
 ## 導入
@@ -31,3 +37,9 @@ Aspose.3D for Java を使用して、今すぐプリミティブ 3D モデルの
 ## Aspose.3D for Java チュートリアルでのプリミティブ 3D モデルの作成
 ### [Aspose.3D for Java を使用したプリミティブ 3D モデルの構築](./building-primitive-3d-models/)
 Aspose.3D for Java を使用して 3D モデリングの技術を発見してください。プリミティブ 3D モデルを簡単に構築し、創造性を解き放つ方法を学びましょう。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

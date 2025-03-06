@@ -3,10 +3,16 @@ title: Java'da 3D Mesh'ler Oluşturma ve Dönüştürme
 linktitle: Java'da 3D Mesh'ler Oluşturma ve Dönüştürme
 second_title: Aspose.3D Java API'si
 description: Aspose.3D for Java ile 3D grafiklerin potansiyelini ortaya çıkarın. Ağları zahmetsizce oluşturun, dönüştürün ve optimize edin. Eğitimlerimizle kodlama deneyiminizi geliştirin.
-type: docs
 weight: 31
 url: /tr/java/transforming-3d-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da 3D Mesh'ler Oluşturma ve Dönüştürme
+
 
 ## giriiş
 
@@ -42,3 +48,9 @@ Aspose.3D for Java ile 3D grafiklerinizi geliştirin. Teğet ve iki normal veril
 Aspose.3D for Java ile 3D grafik ustalığına doğru bir yolculuğa çıkın; ilkelleri zahmetsizce büyüleyici ağlara dönüştürün. Kodlama deneyiminizi şimdi yükseltin!
 ### [Java'da 3B Kafesler için Bellek Düzenini Özelleştirme](./customize-mesh-memory-layout/)
 Aspose.3D ile Java 3D modellemenizi geliştirin: optimum performans için bellek düzenini özelleştirin. Şimdi adım adım kılavuzumuzu takip edin!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

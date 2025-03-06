@@ -3,10 +3,16 @@ title: Convertir des primitives en maillages en Java
 linktitle: Convertir des primitives en maillages en Java
 second_title: API Java Aspose.3D
 description: Embarquez pour un voyage dans la maîtrise des graphiques 3D avec Aspose.3D pour Java - convertissez sans effort les primitives en maillages fascinants. Améliorez votre expérience de codage maintenant !
-type: docs
 weight: 12
 url: /fr/java/transforming-3d-meshes/convert-primitives-to-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir des primitives en maillages en Java
+
 ## Introduction
 S'aventurer dans le domaine des graphiques 3D en Java peut être exaltant, surtout lorsque vous souhaitez élever vos scènes en convertissant des primitives en maillages complexes. Dans ce didacticiel, nous vous guiderons tout au long du processus d'utilisation d'Aspose.3D pour Java, garantissant une expérience transparente et enrichissante.
 ## Conditions préalables
@@ -73,3 +79,9 @@ Absolument! Aspose.3D pour Java s'intègre de manière transparente à d'autres 
  En effet, des licences temporaires peuvent être obtenues[ici](https://purchase.aspose.com/temporary-license/).
 ### Q5 : Où puis-je trouver une documentation détaillée pour Aspose.3D pour Java ?
  Une documentation complète est disponible[ici](https://reference.aspose.com/3d/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

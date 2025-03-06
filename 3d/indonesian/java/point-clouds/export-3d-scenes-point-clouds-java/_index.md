@@ -3,10 +3,16 @@ title: Ekspor Adegan 3D sebagai Point Clouds dengan Aspose.3D untuk Java
 linktitle: Ekspor Adegan 3D sebagai Point Clouds dengan Aspose.3D untuk Java
 second_title: Asumsikan.3D Java API
 description: Pelajari cara mengekspor adegan 3D sebagai point cloud di Java dengan Aspose.3D. Sempurnakan aplikasi Anda dengan grafis dan visualisasi 3D yang kuat.
-type: docs
 weight: 15
 url: /id/java/point-clouds/export-3d-scenes-point-clouds-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspor Adegan 3D sebagai Point Clouds dengan Aspose.3D untuk Java
+
 ## Perkenalan
 
 Aspose.3D untuk Java memfasilitasi ekspor adegan 3D dalam berbagai format, termasuk pembuatan point cloud. Point cloud sangat penting dalam berbagai industri, mulai dari game hingga simulasi, menawarkan representasi ruang fisik melalui kumpulan titik dalam sistem koordinat 3D.
@@ -94,3 +100,9 @@ Selamat! Anda telah berhasil mengekspor adegan 3D sebagai point cloud menggunaka
 ### Q5: Ingin membeli Aspose.3D untuk Java?
 
  A5: Jelajahi opsi pembelian[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

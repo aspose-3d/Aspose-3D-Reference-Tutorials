@@ -3,10 +3,16 @@ title: Transformando Nodo por Quaternion
 linktitle: Transformando Nodo por Quaternion
 second_title: Aspose.3D API .NET
 description: Aprenda a transformar nodos 3D con cuaterniones usando Aspose.3D para .NET. Guía paso a paso para principiantes.
-type: docs
 weight: 20
 url: /es/net/geometry-and-hierarchy/transformation-node-quaternion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformando Nodo por Quaternion
+
 ## Introducción
 
 Bienvenido a una guía paso a paso sobre cómo transformar un nodo por cuaternión en escenas 3D usando Aspose.3D para .NET. En este tutorial, exploraremos las poderosas capacidades de Aspose.3D para .NET y recorreremos el proceso de agregar transformaciones a un nodo 3D usando cuaterniones.
@@ -121,3 +127,10 @@ R1: Los cuaterniones son entidades matemáticas que se utilizan para representar
 ### P5: ¿Cómo obtengo una licencia temporal para Aspose.3D?
 
  R5: Obtenga una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

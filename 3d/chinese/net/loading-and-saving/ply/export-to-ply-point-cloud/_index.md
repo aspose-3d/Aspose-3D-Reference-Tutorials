@@ -3,10 +3,16 @@ title: 导出为 PLY 格式作为点云
 linktitle: 导出为 PLY 格式作为点云
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 建模世界。了解如何轻松地将模型导出为 PLY 格式。通过令人惊叹的视觉效果提升您的项目。
-type: docs
 weight: 16
 url: /zh/net/loading-and-saving/ply/export-to-ply-point-cloud/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 导出为 PLY 格式作为点云
+
 ## 介绍
 在 3D 建模和开发的动态世界中，Aspose.3D for .NET 作为一个强大的工具包脱颖而出。本教程将指导您完成使用 Aspose.3D for .NET 将 3D 模型导出为 PLY 格式作为点云的过程。如果您准备好用令人惊叹的视觉效果增强您的项目，请继续关注并释放这个多功能库的全部潜力。
 ## 先决条件
@@ -59,3 +65,9 @@ Aspose.3D支持各种.NET框架，确保跨各种开发环境的兼容性。
 是的，探索功能[免费试用](https://releases.aspose.com/)在做出承诺之前。
 ### 5. 如何获得临时驾照？
 有关临时许可选项，请访问[这个链接](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

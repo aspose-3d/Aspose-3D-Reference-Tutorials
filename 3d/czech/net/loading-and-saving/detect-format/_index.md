@@ -3,10 +3,16 @@ title: Detekce formátu
 linktitle: Detekce formátu
 second_title: Aspose.3D .NET API
 description: Ovládněte bez námahy manipulaci s 3D soubory s Aspose.3D pro .NET. Bezproblémové načítání, ukládání a detekce formátů.
-type: docs
 weight: 12
 url: /cs/net/loading-and-saving/detect-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Detekce formátu
+
 ## Úvod
 
 Vítejte ve vzrušujícím světě 3D manipulace se soubory pomocí Aspose.3D for .NET! Ať už jste zkušený vývojář nebo s 3D grafikou teprve začínáte, tento tutoriál vás snadno provede procesem načítání, ukládání a zjišťování formátů.
@@ -93,3 +99,9 @@ Odpověď 1: Ano, Aspose.3D podporuje širokou škálu formátů 3D souborů a p
 ### Q5: Mohu vyzkoušet Aspose.3D zdarma před nákupem?
 
  A5: Určitě! Stáhněte si bezplatnou zkušební verzi z[Vydání Aspose.3D](https://releases.aspose.com/) vyzkoušet jeho schopnosti na vlastní kůži.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

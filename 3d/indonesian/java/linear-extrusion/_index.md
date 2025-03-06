@@ -3,10 +3,16 @@ title: Membuat Model 3D dengan Ekstrusi Linier di Java
 linktitle: Membuat Model 3D dengan Ekstrusi Linier di Java
 second_title: Asumsikan.3D Java API
 description: Jelajahi dunia pemodelan 3D dengan Aspose.3D untuk Java. Kuasai ekstrusi linier dengan mudah. Pusat kendali, atur arah, tentukan irisan, terapkan putaran, dan banyak lagi!
-type: docs
 weight: 23
 url: /id/java/linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Membuat Model 3D dengan Ekstrusi Linier di Java
+
 ## Perkenalan
 
 
@@ -62,3 +68,9 @@ Pelajari cara menentukan irisan dalam ekstrusi linier menggunakan Aspose.3D untu
 Pelajari cara menambahkan sentuhan unik pada model 3D Anda menggunakan Aspose.3D untuk Java. Ikuti panduan langkah demi langkah kami untuk meningkatkan efek ekstrusi linier.
 ### [Menggunakan Twist Offset dalam Ekstrusi Linier dengan Aspose.3D untuk Java](./using-twist-offset/)
 Tingkatkan keterampilan pemodelan 3D Anda dengan Aspose.3D untuk Java. Pelajari cara menggunakan Twist Offset dalam Ekstrusi Linier dalam tutorial komprehensif ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

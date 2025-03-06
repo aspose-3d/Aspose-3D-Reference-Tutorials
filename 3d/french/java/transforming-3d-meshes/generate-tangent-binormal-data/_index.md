@@ -3,10 +3,16 @@ title: Générer des données tangentes et binormales pour les maillages 3D en J
 linktitle: Générer des données tangentes et binormales pour les maillages 3D en Java
 second_title: API Java Aspose.3D
 description: Améliorez vos graphiques 3D avec Aspose.3D pour Java. Générez des données tangentes et binormales sans effort. Essayez l'essai gratuit maintenant !
-type: docs
 weight: 11
 url: /fr/java/transforming-3d-meshes/generate-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Générer des données tangentes et binormales pour les maillages 3D en Java
+
 Dans le monde dynamique des graphiques 3D, la compréhension et la manipulation des données tangentes et binormales sont cruciales pour créer des modèles réalistes et visuellement attrayants. Ce guide étape par étape vous guidera tout au long du processus de génération de données tangentes et binormales pour les maillages 3D à l'aide d'Aspose.3D pour Java. En tant que rédacteur SEO compétent, je veillerai à ce que ce didacticiel soit non seulement informatif mais également optimisé pour les moteurs de recherche.
 ## Introduction
 La création d’expériences 3D immersives nécessite souvent plus qu’une simple modélisation. Les données tangentes et binormales jouent un rôle essentiel dans l'ombrage et l'éclairage, améliorant ainsi le réalisme de vos scènes 3D. Avec Aspose.3D pour Java, vous pouvez générer ces données sans effort et faire passer vos graphiques 3D au niveau supérieur.
@@ -56,3 +62,9 @@ Toutes nos félicitations! Vous avez généré avec succès des données tangent
  Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je acheter Aspose.3D ?
  Vous pouvez acheter Aspose.3D[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

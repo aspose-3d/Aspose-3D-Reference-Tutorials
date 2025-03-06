@@ -3,10 +3,16 @@ title: Divida malhas 3D por material para processamento eficiente em Java
 linktitle: Divida malhas 3D por material para processamento eficiente em Java
 second_title: API Java Aspose.3D
 description: Explore o poder do Aspose.3D em Java com nosso guia passo a passo sobre como dividir malhas 3D de forma eficiente por material. Melhore o desempenho do seu aplicativo perfeitamente.
-type: docs
 weight: 12
 url: /pt/java/3d-mesh-data/split-meshes-by-material/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Divida malhas 3D por material para processamento eficiente em Java
+
 ## Introdução
 
 Bem-vindo a este tutorial abrangente sobre divisão de malhas 3D por material para processamento eficiente em Java usando Aspose.3D. Se você está mergulhando no mundo dos gráficos 3D e precisa de uma biblioteca Java poderosa, Aspose.3D é a solução ideal. Neste tutorial, orientaremos você no processo de manipulação eficiente de malhas 3D por material, otimizando seu aplicativo Java para obter desempenho superior.
@@ -104,3 +110,10 @@ A2: Com certeza! Este método é bem dimensionado para modelos 3D complexos, oti
 ### P5: Como posso obter suporte para quaisquer problemas ou dúvidas?
 
  A5: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) pelo apoio dedicado da comunidade.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

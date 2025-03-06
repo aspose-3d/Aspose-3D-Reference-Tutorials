@@ -3,10 +3,16 @@ title: Torção em Extrusão Linear
 linktitle: Torção em Extrusão Linear
 second_title: API Aspose.3D .NET
 description: Explore o mundo cativante dos gráficos 3D com Aspose.3D para .NET. Aprenda passo a passo Extrusão Linear com Torção.
-type: docs
 weight: 14
 url: /pt/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Torção em Extrusão Linear
+
 ## Introdução
 
 No mundo em constante evolução do desenvolvimento .NET, aproveitar o poder dos gráficos 3D é uma tarefa emocionante. Aspose.3D for .NET surge como um kit de ferramentas valioso, capacitando os desenvolvedores a criar aplicativos imersivos e visualmente impressionantes de maneira integrada. Neste guia abrangente, nos aprofundaremos em um recurso intrigante - Extrusão Linear com Torção. Este tutorial irá guiá-lo passo a passo pelo processo, revelando o potencial do Aspose.3D para .NET.
@@ -118,3 +124,9 @@ A4: Certamente! Aspose.3D oferece um rico conjunto de recursos. Sinta-se à vont
 ### Q5: Existe uma comunidade para suporte e discussões do Aspose.3D?
 
  A5: Sim, junte-se à comunidade Aspose.3D em[Aspor Fórum](https://forum.aspose.com/c/3d/18) para suporte e discussões envolventes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dekódolás Mesh
 linktitle: Dekódolás Mesh
 second_title: Aspose.3D .NET API
 description: Könnyedén dekódolja a hálókat az Aspose.3D for .NET segítségével. Az Ön átjárója a zökkenőmentes 3D-s programozáshoz. Fedezze fel, szabja testre és emelje fel projektjeit.
-type: docs
 weight: 10
 url: /hu/net/loading-and-saving/draco/decode-mesh/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dekódolás Mesh
+
 ## Bevezetés
 Képzelje el ezt: Ön a 3D-s fejlesztés birodalmában tartózkodik, és bonyolult hálószerkezetek dekódolására törekszik. A kihívás valódi, de ne félj! Miközben elindulunk ezen az úton, a mesh-dekódolás útvesztőjében navigálunk az Aspose.3D for .NET használatával – az Ön megbízható társával a 3D-s programozás világában.
 ## Előfeltételek
@@ -55,3 +61,9 @@ Teljesen! Az Aspose.3D a mesh formátumok széles skáláját támogatja, biztos
  Biztosan! Fogd meg[ingyenes próbaverzió](https://releases.aspose.com/) hogy bármiféle kötelezettségvállalás előtt megtapasztalhassa az Aspose.3D képességeit.
 ### Ideiglenes licencre van szüksége egy rövid távú projekthez?
  Irány[Ideiglenes jogosítvány](https://purchase.aspose.com/temporary-license/) és szerezzen egy ideiglenes licencet a projekt igényeihez igazítva.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

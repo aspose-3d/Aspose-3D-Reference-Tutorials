@@ -3,10 +3,16 @@ title: Wijzig de 3D-bolradius in Java met Aspose.3D
 linktitle: Wijzig de 3D-bolradius in Java met Aspose.3D
 second_title: Aspose.3D Java-API
 description: Verken Java 3D-programmering met Aspose.3D, waarbij u de bolradius moeiteloos wijzigt. Download nu voor een naadloze 3D-ontwikkelervaring.
-type: docs
 weight: 10
 url: /nl/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wijzig de 3D-bolradius in Java met Aspose.3D
+
 ## Invoering
 
 Welkom bij onze stapsgewijze handleiding voor het wijzigen van de straal van een 3D-bol met Aspose.3D voor Java. Aspose.3D is een krachtige Java-bibliotheek waarmee ontwikkelaars met 3D-bestanden kunnen werken en deze naadloos kunnen manipuleren. In deze tutorial zullen we ons concentreren op het wijzigen van de straal van een 3D-bol met behulp van praktische voorbeelden en gedetailleerde uitleg.
@@ -103,3 +109,9 @@ Gefeliciteerd! U hebt de 3D-bolradius met succes aangepast met Aspose.3D voor Ja
 ### V5: Hoe kan ik een tijdelijke licentie voor Aspose.3D verkrijgen?
 
  A5: U kunt een tijdelijke licentie verkrijgen door te bezoeken[Tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Jerat
 linktitle: Jerat
 second_title: Aspose.3D .NET API
 description: Buka rahasia Aspose.3D untuk .NET dengan tutorial komprehensif kami. Optimalkan model 3D, ubah primitif menjadi jerat, dan tingkatkan grafis dengan mudah.
-type: docs
 weight: 26
 url: /id/net/meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jerat
+
 ## Perkenalan
 
 Aspose.3D untuk .NET membuka banyak kemungkinan bagi pengembang yang ingin mendalami seluk-beluk jerat 3D. Dalam artikel ini, kami akan memandu Anda melalui berbagai Tutorial mesh, masing-masing menawarkan perspektif unik dalam memanfaatkan potensi penuh Aspose.3D untuk .NET.
@@ -69,3 +75,9 @@ Kuasai seni memisahkan jerat 3D berdasarkan material dengan Aspose.3D untuk .NET
 [Baca tutorialnya: Split Mesh berdasarkan Material](./split-mesh-by-material/)
 
 Kesimpulannya, tutorial Aspose.3D untuk .NET kami menawarkan panduan komprehensif untuk menguasai berbagai aspek pemodelan 3D. Selami, tingkatkan keterampilan Anda, dan tingkatkan game pengembangan 3D Anda!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

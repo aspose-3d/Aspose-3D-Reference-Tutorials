@@ -1,12 +1,17 @@
 ---
 title: Ολοκληρωμένα σεμινάρια και παραδείγματα Aspose.3D για .NET
 linktitle: Aspose.3D for .NET Tutorials
-type: docs
 weight: 10
 url: /el/net/
 description: Ξεκλειδώστε τον κόσμο της τρισδιάστατης μοντελοποίησης και των κινούμενων σχεδίων με τα μαθήματα Aspose.3D για .NET. Αναβαθμίστε τα έργα σας χωρίς κόπο – από απόδοση έως γραμμική εξώθηση.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ολοκληρωμένα σεμινάρια και παραδείγματα Aspose.3D για .NET
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να ξεκινήσετε ένα ταξίδι στη συναρπαστική σφαίρα του 3D modeling και του animation; Μην ψάχνετε άλλο – Το Aspose.3D for .NET σάς προσφέρει μια ολοκληρωμένη συλλογή από σεμινάρια και παραδείγματα, σχεδιασμένα για να απελευθερώσουν τη δημιουργικότητά σας και να ανυψώσουν τα έργα σας σε νέα ύψη.
@@ -60,3 +65,9 @@ is_root: true
 
 
 Ξεκλειδώστε τις δημιουργικές δυνατότητες μέσα σας και βουτήξτε στον κόσμο του Aspose.3D για μαθήματα .NET. Κατεβάστε τη δοκιμή σας τώρα και ανεβάστε τα τρισδιάστατα έργα σας σε εξαιρετικά ύψη!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

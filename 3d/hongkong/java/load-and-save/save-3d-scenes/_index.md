@@ -3,10 +3,16 @@ title: 使用 Aspose.3D for Java 以各種格式儲存 3D 場景
 linktitle: 使用 Aspose.3D for Java 以各種格式儲存 3D 場景
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 探索 Java 中 3D 場景操作的無縫世界。學習輕鬆地以各種格式儲存場景。
-type: docs
 weight: 15
 url: /zh-hant/java/load-and-save/save-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D for Java 以各種格式儲存 3D 場景
+
 ## 介紹
 
 創建和操作 3D 場景是編程的一個令人著迷的方面，借助強大的 Aspose.3D for Java 庫，這項任務變得更加令人興奮和高效。在本教程中，我們將引導您完成使用 Aspose.3D for Java 以各種格式儲存 3D 場景的過程。無論您是經驗豐富的開發人員還是新手，本逐步指南都將幫助您利用 Aspose.3D 的功能來增強您的 Java 應用程式。
@@ -103,3 +109,9 @@ A4：造訪支援論壇[這裡](https://forum.aspose.com/c/3d/18).
 ### Q5：我可以購買臨時許可證嗎？
 
  A5：是的，您可以購買臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

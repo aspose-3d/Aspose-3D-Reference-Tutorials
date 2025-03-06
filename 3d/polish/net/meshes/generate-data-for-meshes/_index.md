@@ -3,10 +3,16 @@ title: Generowanie normalnych danych dla siatek
 linktitle: Generowanie normalnych danych dla siatek
 second_title: Aspose.3D API .NET
 description: Ulepsz modele 3D za pomocą Aspose.3D dla .NET! Z tego przewodnika krok po kroku dowiesz się, jak generować normalne dane dla siatek. Realizm spotyka się z prostotą.
-type: docs
 weight: 20
 url: /pl/net/meshes/generate-data-for-meshes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generowanie normalnych danych dla siatek
+
 ## Wstęp
 Witamy w tym przewodniku krok po kroku dotyczącym generowania normalnych danych dla siatek przy użyciu Aspose.3D dla .NET! Jeśli pracujesz z modelami 3D i chcesz poprawić atrakcyjność wizualną poprzez dodanie normalnych danych, ten samouczek jest dla Ciebie. Aspose.3D to potężna biblioteka .NET, która upraszcza programowanie grafiki 3D. W tym przewodniku przeprowadzimy Cię przez proces generowania normalnych danych dla siatek.
 ## Warunki wstępne
@@ -66,3 +72,9 @@ Tak, Aspose.3D obsługuje różne formaty 3D, w tym FBX, STL i inne. Patrz[dokum
  Dostępna jest obszerna dokumentacja[Tutaj](https://reference.aspose.com/3d/net/).
 ### Co się stanie, jeśli będę musiał kupić licencję na Aspose.3D?
  Licencję możesz kupić na stronie[strona zakupu](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

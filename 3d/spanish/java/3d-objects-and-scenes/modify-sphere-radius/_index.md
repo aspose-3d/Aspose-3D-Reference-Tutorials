@@ -3,10 +3,16 @@ title: Modifique el radio de la esfera 3D en Java con Aspose.3D
 linktitle: Modifique el radio de la esfera 3D en Java con Aspose.3D
 second_title: API de Java Aspose.3D
 description: Explore la programación Java 3D con Aspose.3D, modificando el radio de la esfera sin esfuerzo. Descárguelo ahora para disfrutar de una experiencia de desarrollo 3D perfecta.
-type: docs
 weight: 10
 url: /es/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifique el radio de la esfera 3D en Java con Aspose.3D
+
 ## Introducción
 
 Bienvenido a nuestra guía paso a paso sobre cómo modificar el radio de una esfera 3D usando Aspose.3D para Java. Aspose.3D es una potente biblioteca Java que permite a los desarrolladores trabajar con archivos 3D y manipularlos sin problemas. En este tutorial, nos centraremos en cambiar el radio de una esfera 3D utilizando ejemplos prácticos y explicaciones detalladas.
@@ -103,3 +109,9 @@ Guarde la escena modificada con la nueva esfera en un archivo 3D. En este caso l
 ### P5: ¿Cómo puedo obtener una licencia temporal para Aspose.3D?
 
  R5: Puede obtener una licencia temporal visitando[Licencia Temporal](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

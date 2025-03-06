@@ -3,10 +3,16 @@ title: الاتجاه في النتوء الخطي
 linktitle: الاتجاه في النتوء الخطي
 second_title: Aspose.3D.NET API
 description: أطلق العنان لعالم النمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. تعلم اتجاه البثق الخطي، وعزز الإبداع، واصنع تطبيقات غامرة دون عناء.
-type: docs
 weight: 11
 url: /ar/net/3d-modeling/linear-extrusion/direction-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الاتجاه في النتوء الخطي
+
 ## مقدمة
 
 في عالم تطوير البرمجيات الديناميكي، يعد إنشاء نماذج ثلاثية الأبعاد غامرة مهارة لا غنى عنها. يوفر Aspose.3D for .NET للمطورين مجموعة قوية من الأدوات لتسخير إمكانات النمذجة ثلاثية الأبعاد في تطبيقاتهم. في هذا البرنامج التعليمي، سوف نتعمق في عالم البثق الخطي المثير للاهتمام ونستكشف الفروق الدقيقة في ميزة "الاتجاه في البثق الخطي".
@@ -110,3 +116,9 @@ scene.Save("Your Output Directory" + "DirectionInLinearExtrusion.obj", FileForma
 ### س5: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.3D لـ .NET؟
 
  ج5: راجع الشامل[وثائق Aspose.3D .NET](https://reference.aspose.com/3d/net/) للحصول على معلومات متعمقة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

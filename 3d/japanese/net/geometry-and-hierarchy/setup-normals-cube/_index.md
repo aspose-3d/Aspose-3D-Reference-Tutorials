@@ -3,10 +3,16 @@ title: 立方体に法線を設定する
 linktitle: 立方体に法線を設定する
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D 立方体に法線を設定する方法を学びます。このステップバイステップのガイドで 3D モデリングのスキルを向上させましょう。
-type: docs
 weight: 17
 url: /ja/net/geometry-and-hierarchy/setup-normals-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 立方体に法線を設定する
+
 ## 導入
 
 Aspose.3D for .NET を使用して 3D シーンの立方体に法線を設定するためのステップバイステップ ガイドへようこそ。 Aspose.3D は、.NET 開発者が 3D ファイルを操作できるようにする強力なライブラリであり、3D モデリングと操作のための幅広い機能を提供します。
@@ -100,3 +106,9 @@ A2: もちろんです！無料試用版はからダウンロードできます[
 ### Q5: Aspose.3D を学習するための追加リソースはありますか?
 
  A5: 広大な世界を探索してください[ドキュメンテーション](https://reference.aspose.com/3d/net/)さらに多くの機能やヒントを見つけるには、
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

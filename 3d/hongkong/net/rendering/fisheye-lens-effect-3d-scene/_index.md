@@ -3,10 +3,16 @@ title: 使用 Aspose.3D for .NET 應用魚眼鏡頭效果
 linktitle: 將魚眼鏡頭效果應用於 3D 場景
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 增強您的 3D 場景！了解如何逐步應用迷人的魚眼鏡頭效果。現在下載！
-type: docs
 weight: 12
 url: /zh-hant/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D for .NET 應用魚眼鏡頭效果
+
 ## 介紹
 您是否希望增強 3D 場景的視覺吸引力？使用 Aspose.3D for .NET 深入探索魚眼鏡頭效果的迷人世界。本教學將逐步指導您如何將魚眼鏡頭效果應用到 3D 場景中，為它們提供獨特而迷人的視角。
 ## 先決條件
@@ -77,3 +83,9 @@ renderer.Execute(fisheye, final);
 3D 場景的大小主要受系統資源的限制。確保您的硬體可以處理場景的大小。
 ### 我可以使用不同的輸出格式而不是 PNG 來獲得魚眼效果結果嗎？
 是的，您可以根據您的要求修改程式碼以將輸出儲存為不同的影像格式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

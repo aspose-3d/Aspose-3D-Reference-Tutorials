@@ -3,10 +3,16 @@ title: Java에서 3D 메시에 대한 접선 및 종법선 데이터 생성
 linktitle: Java에서 3D 메시에 대한 접선 및 종법선 데이터 생성
 second_title: Aspose.3D 자바 API
 description: Java용 Aspose.3D를 사용하여 3D 그래픽을 향상하세요. 접선 및 종법선 데이터를 쉽게 생성할 수 있습니다. 지금 무료 평가판을 사용해 보세요!
-type: docs
 weight: 11
 url: /ko/java/transforming-3d-meshes/generate-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 3D 메시에 대한 접선 및 종법선 데이터 생성
+
 3D 그래픽의 역동적인 세계에서 접선 및 종법선 데이터를 이해하고 조작하는 것은 사실적이고 시각적으로 매력적인 모델을 만드는 데 중요합니다. 이 단계별 가이드는 Java용 Aspose.3D를 사용하여 3D 메시에 대한 접선 및 종법선 데이터를 생성하는 과정을 안내합니다. 숙련된 SEO 작가로서 저는 이 튜토리얼이 유익할 뿐만 아니라 검색 엔진에 최적화되도록 노력하겠습니다.
 ## 소개
 몰입형 3D 경험을 제작하려면 단순한 모델링 이상의 것이 필요한 경우가 많습니다. 접선 및 종법선 데이터는 음영 처리 및 조명에 중요한 역할을 하여 3D 장면의 사실성을 향상시킵니다. Java용 Aspose.3D를 사용하면 이 데이터를 쉽게 생성하고 3D 그래픽을 한 단계 더 발전시킬 수 있습니다.
@@ -56,3 +62,9 @@ scene.save("BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII);
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.3D는 어디서 구입할 수 있나요?
  Aspose.3D를 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.3D LoadOptions 在 Java 中自訂 3D 檔案加載
 linktitle: 使用 Aspose.3D LoadOptions 在 Java 中自訂 3D 檔案加載
 second_title: Aspose.3D Java API
 description: 使用 Aspose.3D 可自訂的 LoadOptions 增強 Java 中的 3D 檔案載入。了解 3DS、OBJ、STL、U3D、glTF、PLY、X 和可選 FBX 的逐步自訂。
-type: docs
 weight: 12
 url: /zh-hant/java/load-and-save/customize-3d-file-loading/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.3D LoadOptions 在 Java 中自訂 3D 檔案加載
+
 ## 介紹
 
 在不斷發展的 3D 設計和開發領域，高效處理 3D 檔案格式至關重要。 Aspose.3D for Java 提供了強大的解決方案來自訂載入各種 3D 檔案格式。本教學將引導您完成使用 Aspose.3D 的 LoadOptions 在 Java 中自訂 3D 檔案載入的過程。
@@ -156,3 +162,9 @@ A4：造訪支援論壇[這裡](https://forum.aspose.com/c/3d/18).
 ### Q5：測試需要臨時許可證嗎？
 
  A5：是的，獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

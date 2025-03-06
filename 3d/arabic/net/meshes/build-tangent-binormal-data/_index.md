@@ -3,10 +3,16 @@ title: بناء البيانات الظلية والثنائية
 linktitle: بناء البيانات الظلية والثنائية
 second_title: Aspose.3D.NET API
 description: أطلق العنان لقوة البيانات المماسية والثنائية الطبيعية لتحسين نماذجك ثلاثية الأبعاد للحصول على عرض أكثر سلاسة وأوقات تحميل أسرع وتعزيز الأداء.
-type: docs
 weight: 10
 url: /ar/net/meshes/build-tangent-binormal-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# بناء البيانات الظلية والثنائية
+
 ## مقدمة
 هل شعرت يومًا بالإحباط بسبب نموذج ثلاثي الأبعاد بطيء يعيق مشروعك؟ لا تقلق، أيها الزميل المطور، لأن سر الإبحار السلس يكمن في البيانات المماسية والثنائية. يقوم هؤلاء الأبطال المجهولون بتحسين العرض الشبكي، مما يجعل عارضاتك يغنين مثل مغنيات الأوبرا على أي مسرح. لكن كيف نستغل قوتهم؟ لا تخف، لأن هذا الدليل الشامل سيزودك بمجموعة أدوات Aspose.3D for .NET لفتح سحر البيانات المماسية والثنائية الطبيعية ببضع نقرات فقط!
 
@@ -85,3 +91,9 @@ scene.Save("Your Output Directory"+"BuildTangentAndBinormalData_out.fbx", FileFo
  لدى Aspose.3D بوابة توثيق شاملة على[هنا](https://docs.aspose.com/3d/net/) بالإضافة إلى ذلك، منتدى المجتمع Aspose في[هنا](https://forum.aspose.com/) يعج دائمًا بالمطورين المفيدين.
 ### هل يمكنني استخدام Aspose.3D للمشاريع التجارية؟ 
  نعم! يقدم Aspose.3D خيارات ترخيص متنوعة لتناسب احتياجاتك. تحقق من صفحة التسعير الخاصة بهم في[هنا](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

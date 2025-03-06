@@ -3,10 +3,16 @@ title: 為 3D 場景中的動畫設定目標和相機
 linktitle: 為 3D 場景中的動畫設定目標和相機
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 解鎖 3D 動畫的魔力。使用這個綜合教學輕鬆設定目標和相機。
-type: docs
 weight: 11
 url: /zh-hant/net/animation/setup-target-camera/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 為 3D 場景中的動畫設定目標和相機
+
 ## 介紹
 
 設定目標和攝影機是任何 3D 動畫專案的基礎。 Aspose.3D for .NET 提供了一套強大的工具來簡化此流程，使開發人員能夠釋放他們的創造力。本教程將指導您完成這些步驟，分解複雜性，並使看似艱鉅的任務更易於管理。
@@ -103,3 +109,9 @@ A4：是的，您可以探索免費試用[這裡](https://releases.aspose.com/).
 ### Q5：如何取得臨時駕照？
 
  A5：獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

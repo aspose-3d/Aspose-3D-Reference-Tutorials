@@ -3,10 +3,16 @@ title: Pracuj z właściwościami 3D i niestandardowymi danymi w scenach Java pr
 linktitle: Pracuj z właściwościami 3D i niestandardowymi danymi w scenach Java przy użyciu Aspose.3D
 second_title: Aspose.3D API Java
 description: Ulepsz swoje aplikacje Java za pomocą Aspose.3D, aby uzyskać płynną manipulację właściwościami 3D. Postępuj zgodnie z naszym samouczkiem, aby uzyskać wskazówki krok po kroku.
-type: docs
 weight: 14
 url: /pl/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pracuj z właściwościami 3D i niestandardowymi danymi w scenach Java przy użyciu Aspose.3D
+
 ## Wstęp
 
 Witamy w kompleksowym przewodniku na temat pracy z właściwościami 3D i niestandardowymi danymi w scenach Java przy użyciu Aspose.3D. W tym samouczku zagłębimy się w potężne funkcje Aspose.3D, dostarczając wskazówek krok po kroku dotyczących manipulowania właściwościami 3D w aplikacjach Java.
@@ -124,3 +130,9 @@ A4: Tak, odwiedź[Forum wsparcia Aspose.3D](https://forum.aspose.com/c/3d/18) ab
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.3D?
 
  Odpowiedź 5: Możesz uzyskać tymczasową licencję, odwiedzając witrynę[ten link](https://purchase.aspose.com/temporary-license/) na stronie internetowej Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

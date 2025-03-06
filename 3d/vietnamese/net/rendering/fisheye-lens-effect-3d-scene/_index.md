@@ -3,10 +3,16 @@ title: Áp dụng hiệu ứng ống kính mắt cá với Aspose.3D cho .NET
 linktitle: Áp dụng hiệu ứng ống kính mắt cá cho cảnh 3D
 second_title: API Aspose.3D .NET
 description: Nâng cao cảnh 3D của bạn với Aspose.3D cho .NET! Tìm hiểu cách áp dụng hiệu ứng thấu kính mắt cá quyến rũ từng bước. Tải ngay!
-type: docs
 weight: 12
 url: /vi/net/rendering/fisheye-lens-effect-3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng hiệu ứng ống kính mắt cá với Aspose.3D cho .NET
+
 ## Giới thiệu
 Bạn đang tìm cách nâng cao sức hấp dẫn trực quan của cảnh 3D của mình? Đắm mình vào thế giới hấp dẫn của các hiệu ứng thấu kính mắt cá với Aspose.3D cho .NET. Hướng dẫn này sẽ hướng dẫn bạn từng bước cách áp dụng hiệu ứng thấu kính mắt cá cho cảnh 3D của bạn, mang lại cho chúng một phối cảnh độc đáo và quyến rũ.
 ## Điều kiện tiên quyết
@@ -77,3 +83,9 @@ Bạn có thể điều chỉnh các thuộc tính của đèn, chẳng hạn nh
 Kích thước của cảnh 3D chủ yếu bị giới hạn bởi tài nguyên hệ thống. Đảm bảo rằng phần cứng của bạn có thể xử lý kích thước cảnh của bạn.
 ### Tôi có thể sử dụng định dạng đầu ra khác thay vì PNG cho kết quả hiệu ứng mắt cá không?
 Có, bạn có thể sửa đổi mã để lưu đầu ra ở các định dạng hình ảnh khác nhau dựa trên yêu cầu của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

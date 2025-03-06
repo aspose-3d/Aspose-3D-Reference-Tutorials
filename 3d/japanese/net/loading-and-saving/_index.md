@@ -3,10 +3,16 @@ title: ロードと保存
 linktitle: ロードと保存
 second_title: Aspose.3D .NET API
 description: Aspose.3D for .NET を使用して 3D モデリング ゲームを向上させましょう! CancelToken を使用して効率的な読み込みと保存のテクニックをマスターします。今すぐ探索してみよう！
-type: docs
 weight: 27
 url: /ja/net/loading-and-saving/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ロードと保存
+
 ## 導入
 
 シームレスかつ効率的な 3D ドキュメント操作へのゲートウェイである Aspose.3D for .NET を使用して、3D モデリングの魅力的な領域に飛び込みましょう。このチュートリアル シリーズでは、3D モデルの読み込みと保存の複雑さを探り、創造的な可能性の世界を解き放ちます。
@@ -105,3 +111,9 @@ FBX ファイルにテクスチャを直接埋め込みます。この機能は�
 ### 埋め込まれたテクスチャをUSDZからメモリにロードします
 
 USDZ ファイル内の埋め込みテクスチャ データへのアクセス。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

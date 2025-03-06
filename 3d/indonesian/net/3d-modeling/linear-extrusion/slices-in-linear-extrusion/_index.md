@@ -3,10 +3,16 @@ title: Irisan dalam Ekstrusi Linier
 linktitle: Irisan dalam Ekstrusi Linier
 second_title: Aspose.3D .NET API
 description: Jelajahi dunia desain 3D dengan Aspose.3D untuk .NET. Buat model menakjubkan menggunakan tutorial ekstrusi linier kami.
-type: docs
 weight: 13
 url: /id/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Irisan dalam Ekstrusi Linier
+
 ## Perkenalan
 
 Selamat datang di dunia desain 3D menggunakan Aspose.3D untuk .NET! Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini akan memandu Anda melalui proses pembuatan visualisasi 3D yang menakjubkan menggunakan pustaka Aspose.3D yang canggih.
@@ -116,3 +122,9 @@ A1: Aspose.3D terutama dirancang untuk .NET, namun Anda dapat menjelajahi opsi i
 ### Q5: Bisakah saya menggunakan lisensi sementara Aspose.3D untuk .NET?
 
  A5: Ya, dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 提取所有 3D 場景
 linktitle: 提取所有 3D 場景
 second_title: Aspose.3D .NET API
 description: 使用 Aspose.3D for .NET 探索 3D 開發的無限可能性。輕鬆載入、儲存和提取場景。
-type: docs
 weight: 13
 url: /zh-hant/net/loading-and-saving/pdf/extract-all-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 提取所有 3D 場景
+
 ## 介紹
 
 歡迎來到 Aspose.3D for .NET 的令人興奮的世界，這是一個尖端庫，使開發人員能夠在其應用程式中輕鬆操縱和處理 3D 場景。在本逐步指南中，我們將深入研究使用 Aspose.3D for .NET 載入、儲存和提取 3D 場景的基本面向。無論您是經驗豐富的開發人員還是 3D 圖形領域的新手，本教學都旨在為您提供無縫的學習體驗。
@@ -93,3 +99,9 @@ A2：當然！ Aspose.3D 適合從事任何複雜專案的開發人員，從基�
 ### Q5：需要協助或想要與 Aspose.3D 社群建立聯繫？
 
  A5：造訪我們的支援論壇[這裡](https://forum.aspose.com/c/3d/18).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

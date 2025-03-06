@@ -3,10 +3,16 @@ title: Installation av UV på Cube
 linktitle: Installation av UV på Cube
 second_title: Aspose.3D .NET API
 description: Lär dig att ställa in UV-kartläggning på en 3D-kub med Aspose.3D för .NET. Skapa visuellt fantastiska scener med exakt texturkartläggning.
-type: docs
 weight: 18
 url: /sv/net/geometry-and-hierarchy/setup-uv-cube/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Installation av UV på Cube
+
 ## Introduktion
 
 Att skapa fängslande och visuellt tilltalande 3D-scener innebär ofta den noggranna processen att ställa in UV-kartläggning på geometriska former. I den här handledningen kommer vi att utforska hur man ställer in UV på en kub med Aspose.3D för .NET. Aspose.3D är ett kraftfullt .NET-bibliotek som tillhandahåller en omfattande uppsättning funktioner för 3D-modellering och manipulation.
@@ -119,3 +125,9 @@ S1: Aspose.3D för .NET är ett kraftfullt bibliotek för 3D-modellering och man
 ### F5: Finns tillfälliga licenser tillgängliga?
 
  A5: Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

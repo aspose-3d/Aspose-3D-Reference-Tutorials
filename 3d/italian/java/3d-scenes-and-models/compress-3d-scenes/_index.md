@@ -3,10 +3,16 @@ title: Comprimi scene 3D per un'archiviazione e una condivisione efficienti con 
 linktitle: Comprimi scene 3D per un'archiviazione e una condivisione efficienti con Aspose.3D per Java
 second_title: API Java Aspose.3D
 description: Scopri come comprimere le scene 3D in modo efficiente con Aspose.3D per Java. Segui la nostra guida passo passo per un'archiviazione e una condivisione ottimali.
-type: docs
 weight: 11
 url: /it/java/3d-scenes-and-models/compress-3d-scenes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprimi scene 3D per un'archiviazione e una condivisione efficienti con Aspose.3D per Java
+
 ## introduzione
 
 Aspose.3D per Java è una libreria versatile che consente agli sviluppatori di lavorare con scene, oggetti e animazioni 3D nelle applicazioni Java. Una delle sue caratteristiche più straordinarie è la capacità di comprimere scene 3D, riducendo le dimensioni dei file senza compromettere la qualità. Questo tutorial ti guiderà attraverso i passaggi per comprimere in modo efficiente le scene 3D per l'archiviazione e la condivisione.
@@ -103,3 +109,10 @@ R3: Sì, puoi accedere a una prova gratuita[Qui](https://releases.aspose.com/).
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.3D per Java?
 
  A5: Segui i passaggi[Qui](https://purchase.aspose.com/temporary-license/) acquisire una licenza temporanea.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

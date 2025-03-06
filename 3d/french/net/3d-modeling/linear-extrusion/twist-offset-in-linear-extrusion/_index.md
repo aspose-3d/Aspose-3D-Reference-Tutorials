@@ -3,10 +3,16 @@ title: Décalage de torsion dans l'extrusion linéaire
 linktitle: Décalage de torsion dans l'extrusion linéaire
 second_title: API Aspose.3D .NET
 description: Explorez la magie d'Aspose.3D pour .NET avec notre guide étape par étape sur le décalage de torsion dans l'extrusion linéaire. Élevez vos projets 3D sans effort.
-type: docs
 weight: 15
 url: /fr/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Décalage de torsion dans l'extrusion linéaire
+
 ## Introduction
 
 Bienvenue dans le monde d'Aspose.3D pour .NET, une bibliothèque polyvalente permettant aux développeurs de gérer facilement la manipulation 3D. Dans ce didacticiel, nous aborderons l'une des fonctionnalités les plus intéressantes : le "décalage de torsion dans l'extrusion linéaire". Si vous êtes prêt à améliorer vos compétences en programmation 3D, allons-y !
@@ -112,3 +118,9 @@ A1 : Aspose.3D prend principalement en charge les langages .NET, mais Aspose fou
 ### Q5 : Où puis-je acheter Aspose.3D pour .NET ?
 
  A5 : Dirigez-vous vers[ce lien](https://purchase.aspose.com/buy) pour effectuer un achat et libérer tout le potentiel d’Aspose.3D.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

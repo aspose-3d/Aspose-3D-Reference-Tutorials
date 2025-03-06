@@ -3,10 +3,16 @@ title: Adegan 3D
 linktitle: Adegan 3D
 second_title: Aspose.3D .NET API
 description: Jelajahi tutorial Aspose.3D untuk .NET tentang mengubah orientasi bidang, mengekspor adegan ke format AMF terkompresi, membalik sistem koordinat, dan banyak lagi.
-type: docs
 weight: 21
 url: /id/net/3d-scene/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adegan 3D
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.3D untuk .NET, tempat kreativitas bertemu dengan presisi. Dalam seri tutorial ini, kami mempelajari seluk-beluk manipulasi pemandangan 3D, menawarkan panduan langkah demi langkah untuk meningkatkan kecakapan pengembangan Anda.
@@ -37,3 +43,9 @@ Benamkan diri Anda dalam tutorial Aspose.3D untuk .NET tentang pengaturan proper
 [Baca tutorialnya: Mengatur Properti Tiga Dimensi dalam Pemandangan 3D](./set-3d-properties/)
 
 Kesimpulannya, seri tutorial Aspose.3D untuk .NET membuka pintu ke berbagai kemungkinan. Setiap tutorial memberikan wawasan praktis, memungkinkan Anda menavigasi kompleksitas manipulasi pemandangan 3D dengan percaya diri. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini memberdayakan Anda untuk mengeluarkan potensi penuh Aspose.3D untuk .NET dalam proyek Anda. Selami dan biarkan kreativitas Anda melambung dalam ruang tiga dimensi!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
