@@ -87,18 +87,17 @@ These are links to some useful resources:
 - [Working with Point Clouds in Java](./java/point-clouds/)
 
 ### How to create animated 3D objects in Java?
-The **animated 3d objects** workflow mirrors .NET: load a scene, apply key‑frame transformations to nodes, and export using `scene.Save("animation.gltf")`. This is the core of **create 3d animation** on the Java side.
+The **animated 3d objects** workflow mirrors .NET: load a scene, apply key‑frame transformations to nodes, and export using `scene.save("animation.gltf")`. This is the core of **create 3d animation** on the Java side.
 
 ### How to load 3D assets in Java?
-Follow the same **how to load 3d** pattern: `Scene scene = new Scene("model.obj");`. Once loaded, you can manipulate geometry, apply materials, and start animating.
+Follow the same **how to load 3d** pattern: `Scene scene = Scene.fromFile("model.obj");`. Once loaded, you can manipulate geometry, apply materials, and start animating.
 
 ### Rendering and converting in Java
 Use `Renderer.render(scene, "output.png")` for **how to render 3d**, and `scene.save("model.fbx")` for **convert 3d file** operations. Finally, `scene.save("model.stl")` demonstrates **save 3d file** usage.
 
 ## Common Issues & Pro Tips
-- **Missing textures after conversion** – ensure textures are placed in the same folder as the source file before calling `Save`.  
-- **Performance drop on large meshes** – use `MeshSimplify` to reduce polygon count before rendering.  
-- **License not applied** – call `License.SetLicense("Aspose.3D.lic")` early in your code to avoid trial watermarks.  
+- **Missing textures after conversion** – ensure textures are placed in the same folder as the source file before calling `save`.  
+- **License not applied** – call `License.setLicense("Aspose.3D.lic")` early in your code to avoid trial watermarks.  
 
 ## Frequently Asked Questions
 
@@ -111,17 +110,9 @@ A: GLTF, FBX, and Collada (DAE) retain animation data when saved with Aspose.3D.
 **Q: Is it possible to render directly to a video file?**  
 A: While Aspose.3D does not output video, you can render a sequence of images and combine them with a video encoder.
 
-**Q: How do I handle large point‑cloud files?**  
-A: Load them using `Scene.Load`, then use `PointCloudSimplify` to reduce size before animation or rendering.
-
 **Q: Do I need a separate license for .NET and Java?**  
 A: A single Aspose.3D license covers all supported platforms, but you must reference the appropriate NuGet or Maven package.
 
----
-
-**Last Updated:** 2025-11-27  
-**Tested With:** Aspose.3D 24.11 for .NET & Java  
-**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

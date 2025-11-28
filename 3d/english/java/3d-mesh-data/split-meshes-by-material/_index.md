@@ -120,7 +120,6 @@ System.out.println("\nSplitting a mesh by specifying the material successfully."
 
 | Issue | Why It Happens | Fix |
 |-------|----------------|-----|
-| **`NullPointerException` on `mat.getIndices()`** | The material element was not created correctly. | Ensure `box.createElement` returns a non‑null `VertexElementMaterial` and that the mesh actually contains polygons. |
 | **Sub‑meshes contain duplicate vertices** | Using `CLONE_DATA` copies all vertex data for each sub‑mesh. | Switch to `COMPACT_DATA` when you want shared vertices to be deduplicated. |
 | **Incorrect material assignment** | Indices array length does not match polygon count. | Verify the number of polygons (e.g., a box has 6) and supply a matching indices array. |
 
@@ -151,11 +150,5 @@ You’ve now mastered **how to split mesh** by material using Aspose.3D in Java.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-27  
-**Tested With:** Aspose.3D for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
 
 ---

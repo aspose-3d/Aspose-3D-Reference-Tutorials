@@ -99,14 +99,6 @@ You can repeat these steps for any other 3D objects—cubes, custom models, or i
 - **Fast runtime decoding:** Most modern engines (e.g., Unity, three.js) support Draco decoding natively, leading to quicker load times.  
 - **Seamless Java integration:** Aspose.3D abstracts the native Draco library, so you stay within the Java ecosystem without dealing with native binaries.
 
-## Common Issues & Solutions
-
-| Issue | Reason | Fix |
-|-------|--------|-----|
-| **`NoClassDefFoundError` for Draco classes** | Missing native Draco binaries on the classpath. | Ensure the `aspose-3d-draco.jar` (or equivalent) is included with your project. |
-| **Compressed file is larger than expected** | Using `DEFAULT` compression level instead of `OPTIMAL`. | Set `opt.setCompressionLevel(DracoCompressionLevel.OPTIMAL);`. |
-| **File not found when writing** | `MyDir` points to a non‑existent folder. | Create the directory beforehand or use an absolute path. |
-
 ## Frequently Asked Questions
 
 **Q: Is Aspose.3D compatible with different 3D file formats?**  
@@ -127,12 +119,6 @@ A: Yes, for community support and discussions, visit the [Aspose.3D Forum](https
 ## Conclusion
 
 In this tutorial we showed you how to **create sphere mesh java** and then **compress 3D mesh** data using Google Draco through Aspose.3D. By following these steps you can dramatically reduce mesh file sizes, improve load times, and keep your Java‑based 3D applications responsive.
-
----
-
-**Last Updated:** 2025-11-27  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
