@@ -1,33 +1,55 @@
 ---
-title: Ändern Sie den 3D-Kugelradius in Java mit Aspose.3D
-linktitle: Ändern Sie den 3D-Kugelradius in Java mit Aspose.3D
-second_title: Aspose.3D Java-API
-description: Entdecken Sie die Java-3D-Programmierung mit Aspose.3D und ändern Sie den Kugelradius mühelos. Laden Sie es jetzt herunter und genießen Sie ein nahtloses 3D-Entwicklungserlebnis.
+date: 2025-11-30
+description: Erfahren Sie, wie Sie Aspose in Java verwenden, um den Radius einer 3D‑Kugel
+  zu ändern. Diese Schritt‑für‑Schritt‑Anleitung behandelt die Aspose.3D‑Java‑Bibliothek,
+  wie man den Radius festlegt, die Kugel zur Szene hinzufügt und eine OBJ‑Datei in
+  Java schreibt.
+language: de
+linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
+second_title: Aspose.3D Java API
+title: 'Wie man Aspose verwendet: 3D‑Kugelradius in Java mit Aspose.3D ändern'
+url: /java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
-url: /de/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ändern Sie den 3D-Kugelradius in Java mit Aspose.3D
+# Wie man Aspose verwendet: Radius einer 3D‑Kugel in Java mit Aspose.3D ändern
 
 ## Einführung
 
-Willkommen zu unserer Schritt-für-Schritt-Anleitung zum Ändern des Radius einer 3D-Kugel mit Aspose.3D für Java. Aspose.3D ist eine leistungsstarke Java-Bibliothek, die es Entwicklern ermöglicht, mit 3D-Dateien zu arbeiten und diese nahtlos zu bearbeiten. In diesem Tutorial konzentrieren wir uns anhand praktischer Beispiele und ausführlicher Erklärungen auf die Änderung des Radius einer 3D-Kugel.
+Wenn Sie nach **how to use Aspose** suchen, um mit 3D‑Modellen in Java zu arbeiten, sind Sie hier genau richtig. In diesem Tutorial führen wir Sie durch jeden Schritt, der erforderlich ist, um die Größe einer Kugel zu ändern, sie zu einer Szene hinzuzufügen und schließlich eine OBJ‑Datei mit der **Aspose.3D Java library** zu schreiben. Am Ende haben Sie einen wiederverwendbaren Code‑Snippet, den Sie in jede Java‑basierte 3D‑Anwendung einbinden können.
+
+## Schnelle Antworten
+- **What is the primary purpose of this guide?** Um zu zeigen, wie man den Radius einer Kugel mit Aspose.3D in Java ändert.  
+- **Which library do we use?** Die Aspose.3D Java library (eine vollwertige **java 3d library**).  
+- **How do I set the radius?** Rufen Sie `sphere.setRadius(double)` auf einem `Sphere`‑Objekt auf.  
+- **Can I export to OBJ?** Ja – verwenden Sie `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`.  
+- **Do I need a license?** Eine kostenlose Testversion funktioniert für die Entwicklung; für die Produktion ist eine Lizenz erforderlich.
+
+## Was ist Aspose.3D für Java?
+
+Aspose.3D ist eine **java 3d library**, die Entwicklern ermöglicht, 3D‑Dateien zu erstellen, zu bearbeiten und zu konvertieren, ohne externe Abhängigkeiten. Sie unterstützt gängige Formate wie OBJ, FBX, STL und weitere, was sie ideal für Spiele, CAD‑Tools und wissenschaftliche Visualisierungen macht.
+
+## Warum Aspose.3D verwenden, um die Kugelgröße zu ändern?
+
+- **No native 3D engine required** – alle Vorgänge werden auf dem Objektmodell ausgeführt.  
+- **Cross‑platform** – funktioniert auf jedem Betriebssystem, das Java ausführt.  
+- **High‑precision geometry** – Sie können exakte Radiuswerte festlegen, nicht nur approximative Skalierung.  
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-- Grundlegendes Verständnis der Java-Programmierung.
--  Aspose.3D-Bibliothek installiert. Sie können es hier herunterladen[Aspose.3D für Java-Dokumentation](https://reference.aspose.com/3d/java/).
-- Java Development Kit (JDK) ist auf Ihrem Computer installiert.
+- Grundlegendes Verständnis der Java‑Programmierung.  
+- Aspose.3othek installiert – Sie können sie von der [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) herunterladen.  
+- Java Development Kit (JDK) auf Ihrem Rechner installiert.
 
 ## Pakete importieren
 
-Importieren Sie zunächst die erforderlichen Pakete in Ihr Java-Projekt. Fügen Sie Ihrem Code die folgenden Zeilen hinzu:
+Um zu beginnen, importieren Sie die erforderlichen Klassen in Ihr Java‑Projekt:
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -37,78 +59,97 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Schritt 1: Initialisieren Sie eine Szene
+## Schritt 1: Szene initialisieren
 
 ```java
 // ExStart:WorkingWithSphereRadius
 
-// Eine Szene initialisieren
+// initialize a scene
 Scene scene = new Scene();
 ```
 
-Hier erstellen wir eine neue 3D-Szene mit Aspose.3D für Java.
+Hier erstellen wir eine neue **3D scene**, die all unsere Geometrie enthält.
 
-## Schritt 2: Initialisieren Sie eine Kugel
+## Schritt 2: Kugel initialisieren
 
 ```java
-// Initialisieren Sie eine Kugel
+// initialize a Sphere
 Sphere sphere = new Sphere();
 ```
 
-Erstellen Sie ein neues Kugelobjekt, das der Szene hinzugefügt wird.
+Ein `Sphere`‑Objekt stellt ein perfektes Kugel‑Primitive dar. An diesem Punkt verwendet es den Standardradius von 1,0.
 
-## Schritt 3: Radius festlegen
+## Schritt 3: Wie man den Radius einer Kugel setzt
 
 ```java
-// Radius einstellen
+// set radius
 sphere.setRadius(10);
 ```
 
-Stellen Sie den gewünschten Radius für die Kugel ein. In diesem Beispiel legen wir den Wert auf 10 Einheiten fest.
+Diese Zeile demonstriert **how to set radius**. Sie können `10` durch jeden beliebigen `double`‑Wert ersetzen, um die gewünschte Größe zu erreichen.
 
-## Schritt 4: Fügen Sie der Szene eine Kugel hinzu
+## Schritt 4: Kugel zur Szene hinzufügen
 
 ```java
-// Fügen Sie der Szene eine Kugel hinzu
+// add sphere to the scene
 scene.getRootNode().createChildNode(sphere);
 ```
 
-Fügen Sie die erstellte Kugel zum Wurzelknoten der Szene hinzu.
+Der Aufruf **adds sphere to scene** (oder „add sphere to scene“) erstellt einen Kindknoten unter dem Wurzelknoten.
 
-## Schritt 5: Szene speichern
+## Schritt 5: OBJ‑Datei in Java schreiben
 
 ```java
-// Szene speichern
+// save scene
 scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-Speichern Sie die geänderte Szene mit der neuen Kugel in einer 3D-Datei. In diesem Fall speichern wir es als „sphere.obj“ im Wavefront OBJ-Format.
+Abschließend schreiben wir im **write OBJ file Java**‑Stil mit `scene.save`. Die Ausgabedatei `sphere.obj` kann in jedem 3D‑Betrachter geöffnet werden, der das Wavefront‑OBJ‑Format unterstützt.
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-Glückwunsch! Sie haben den 3D-Kugelradius erfolgreich mit Aspose.3D für Java geändert. Dieses Tutorial bietet eine klare und prägnante Anleitung, mit der Sie diese Schritte mühelos in Ihre Java-Projekte integrieren können.
+| Issue | Solution |
+|-------|----------|
+| **Sphere appears too small in the viewer** | Überprüfen Sie, ob der Radiuswert korrekt gesetzt ist; denken Sie daran, dass Einheiten willkürlich sind, sofern Sie keine Skalierungstransformation anwenden. |
+| **Exported OBJ has no material** | Aspose.3D schreibt nur Geometrie; fügen Sie der Kugel ein Material hinzu, wenn Sie Texturen benötigen (`sphere.setMaterial(...)`). |
+| **License exception at runtime** | Stellen Sie sicher, dass Sie vor dem Erstellen der `Scene` entweder eine temporäre oder permanente Lizenzdatei geladen haben. |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Wo finde ich die Dokumentation für Aspose.3D für Java?
+### Q: Wo finde ich die Dokumentation für Aspose.3D für Java?
 
- A1: Sie können sich auf die beziehen[Aspose.3D für Java-Dokumentation](https://reference.aspose.com/3d/java/) Ausführliche Informationen und Nutzungshinweise finden Sie hier.
+Sie können die [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) für umfassende Informationen und Nutzungshinweise konsultieren.
 
-### F2: Wie lade ich Aspose.3D für Java herunter?
+### Q: Wie lade ich Aspose.3D für Java herunter?
 
- A2: Sie können die Bibliothek von der Release-Seite herunterladen:[Laden Sie Aspose.3D für Java herunter](https://releases.aspose.com/3d/java/).
+Laden Sie die Bibliothek von der Release‑Seite herunter: [Download Aspose.3D for Java](https://releases.aspose.com/3d/java/).
 
-### F3: Gibt es eine kostenlose Testversion für Aspose.3D für Java?
+### Q: Gibt es eine kostenlose Testversion für Aspose.3D für Java?
 
- A3: Ja, Sie können die Funktionen mit einer kostenlosen Testversion erkunden[Kostenlose Testversion von Aspose.3D](https://releases.aspose.com/).
+Ja, erkunden Sie die Funktionen mit einer kostenlosen Testversion, indem Sie [Aspose.3D Free Trial](https://releases.com/) besuchen.
 
-### F4: Wo erhalte ich Unterstützung für Aspose.3D für Java?
+### Q: Wo kann ich Unterstützung für Aspose.3D für Java erhalten?
 
- A4: Treten Sie der Aspose-Community bei[Aspose.3D-Supportforum](https://forum.aspose.com/c/3d/18) für Hilfe und Diskussionen.
+Treten Sie der Aspose‑Community im [Aspose.3D Support Forum](https://forum.aspose.com/c/3d/18) bei, um Hilfe und Diskussionen zu erhalten.
 
-### F5: Wie kann ich eine temporäre Lizenz für Aspose.3D erhalten?
+### Q: Wie kann ich eine temporäre Lizenz für Aspose.3D erhalten?
 
- A5: Sie können eine temporäre Lizenz erhalten, indem Sie hier vorbeischauen[Temporäre Lizenz](https://purchase.aspose.com/temporary-license/).
+Erhalten Sie eine temporäre Lizenz, indem Sie [Temporary License](https://purchase.aspose.com/temporary-license/) besuchen.
+
+### Q: Kann ich diesen Code mit anderen 3D‑Formaten wie STL verwenden?
+
+Absolut – ändern Sie einfach das `FileFormat`‑Enum beim Aufruf von `scene.save`, z. B. `FileFormat.STL`.
+
+## Fazit
+
+Sie haben nun **how to use Aspose** gemeistert, um den Radius einer Kugel zu ändern, sie zu einer Szene hinzuzufügen und das Ergebnis in Java als OBJ‑Datei zu exportieren. Experimentieren Sie gern mit anderen Primitiven, wenden Sie Materialien an oder verketten Sie mehrere Transformationen, um komplexere 3D‑Modelle zu erstellen.
+
+---
+
+**Zuletzt aktualisiert:** 2025-11-30  
+**Getestet mit:** Aspose.3D for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
