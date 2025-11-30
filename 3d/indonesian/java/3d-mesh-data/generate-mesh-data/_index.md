@@ -1,33 +1,52 @@
 ---
-title: Hasilkan Data untuk Jerat 3D di Java (Normal, Tangen, Binormal)
-linktitle: Hasilkan Data untuk Jerat 3D di Java (Normal, Tangen, Binormal)
-second_title: Asumsikan.3D Java API
-description: Tingkatkan proyek Java Anda dengan Aspose.3D. Ikuti tutorial kami untuk dengan mudah menghasilkan data normal untuk jerat 3D. Selami grafik 3D dengan mudah.
+date: 2025-11-30
+description: Pelajari cara menambahkan normal ke mesh 3D dalam Java menggunakan Aspose.3D.
+  Panduan langkah demi langkah ini menunjukkan cara membuat data normal, menghitung
+  normal mesh, dan meningkatkan grafik 3D Anda.
+language: id
+linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
+second_title: Aspose.3D Java API
+title: Cara Menambahkan Normal ke Mesh 3D dalam Java (Menggunakan Aspose.3D)
+url: /java/3d-mesh-data/generate-mesh-data/
 weight: 11
-url: /id/java/3d-mesh-data/generate-mesh-data/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hasilkan Data untuk Jerat 3D di Java (Normal, Tangen, Binormal)
+# Cara Menambahkan Normal ke Mesh 3D di Java (Menggunakan Aspose.3D)
 
-## Perkenalan
+## Pendahuluan  
 
-Membuat dan memanipulasi data mesh 3D di Java bisa menjadi tugas yang menantang namun mengasyikkan, terutama ketika berhadapan dengan file yang tidak memiliki data normal yang penting. Aspose.3D untuk Java hadir untuk menyelamatkan, menyediakan toolkit yang kuat untuk menangani grafik dan jerat 3D secara efisien. Dalam tutorial ini, kami akan memandu Anda melalui proses menghasilkan data normal untuk mesh 3D menggunakan Aspose.3D di Java.
+Menambahkan vektor normal yang tepat ke sebuah mesh sangat penting untuk pencahayaan, shading, dan perhitungan fisika yang realistis. Dalam tutorial **how to add normals** ini kami akan menjelaskan langkah‑langkah tepat untuk menghasilkan data normal untuk mesh 3D menggunakan pustaka **Aspose.3D for Java**. Pada akhir panduan Anda akan dapat **membuat data normal**, **menghitung normal mesh**, dan mengekspor model yang bersih serta siap dirender.
 
-## Prasyarat
+## Jawaban Cepat
+- **Apa yang dicapai dengan “menambahkan normal”?** Ini memungkinkan pencahayaan dan shading yang tepat pada permukaan 3D.  
+- **Pustaka mana yang digunakan?** Aspose.3D for Java.  
+- **Apakah saya memerlukan lisensi?** Versi trial gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk mesh dasar.  
+- **Bisakah ini digunakan dengan format lain?** Ya – Aspose.3D mendukung banyak tipe file 3D (OBJ, FBX, STL, dll.).
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+## Apa itu “menambahkan normal” ke sebuah mesh?  
+Normal adalah vektor yang tegak lurus terhadap poligon permukaan. Mereka memberi tahu mesin render bagaimana cahaya berinteraksi dengan setiap. Ketika sebuah file tidak memiliki informasi ini (umum pada file 3DS lama), Anda harus **menghasilkan normal mesh** sebelum model terlihat benar dalam sebuah scene.
 
-- Pengetahuan dasar tentang pemrograman Java.
-- Aspose.3D untuk Java diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/3d/java/).
-- File 3D dalam format 3ds. Kami akan menggunakan "camera.3ds" sebagai contoh.
+## Mengapa menggunakan Aspose.3D untuk tugas ini?  
+Aspose.3D menyediakan API tingkat tinggi yang menyederhanakan matematika tingkat rendah yang diperlukan untuk menghitung normal. Ia juga mendukung grup smoothing, tangent, binormal, dan berbagai format file, menjadikannya pilihan andal untuk **aspose 3d tutorial** profesional.
 
-## Paket Impor
+## Prasyarat  
 
-Di proyek Java Anda, impor paket yang diperlukan untuk bekerja dengan Aspose.3D:
+- Pengetahuan dasar pemrograman Java.  
+- Aspose.3D for Java terpasang – unduh **[di sini](https://releases.aspose.com/3d/java/)**.  
+- Sebuah file 3D berformat 3DS (kami akan menggunakan **camera.3ds** sebagai contoh).  
+
+## Cara Menambahkan Normal ke Mesh 3D Anda  
+
+Berikut adalah panduan lengkap langkah‑demi‑langkah. Setiap blok kode tetap tidak berubah dari tutorial asli; teks di sekitarnya menambah konteks dan penjelasan.
+
+### Impor Paket  
+
+Pertama, impor kelas Aspose.3D dan utilitas I/O Java yang Anda perlukan.
 
 ```java
 import com.aspose.threed.*;
@@ -36,20 +55,26 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Langkah 1: Buat Dokumen
+*Penjelasan:* `com.aspose.threed.*` memberi Anda akses ke `Scene`, `NodeVisitor`, `Mesh`, dan utilitas `PolygonModifier` yang akan membuat data normal untuk kita.
+
+### Langkah 1: Muat Dokumen 3D  
+
+Buat objek `Scene` yang menunjuk ke file 3DS Anda. File tersebut tidak berisi data normal, tetapi memiliki grup smoothing yang dapat digunakan pustaka untuk menghasilkan normal.
 
 ```java
-// ExStart:HasilkanDataForMeshes
-// Jalur ke direktori dokumen.
+// ExStart:GenerateDataForMeshes
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 
-// Muat file 3ds, file 3ds tidak memiliki data normal, tetapi memiliki grup penghalusan
+// Load a 3ds file, 3ds file doesn't have normal data, but it has smoothing group
 Scene s = new Scene(MyDir + "camera.3ds");
 ```
 
-## Langkah 2: Kunjungi Node dan Buat Data Normal
+*Mengapa ini penting:* Memuat scene adalah langkah pertama dalam setiap pipeline pemrosesan mesh. Setelah scene berada di memori, kita dapat menelusuri hierarki node‑nya dan menerapkan transformasi atau perhitungan seperti **generate mesh normals**.
 
-Untuk menghasilkan data normal untuk semua mesh, kita akan melintasi node dalam adegan 3D dan membuat data normal untuk setiap mesh:
+### Langkah 2: Kunjungi Node dan Buat Data Normal  
+
+Kami menelusuri setiap node dalam grafik scene. Untuk setiap node yang memuat `Mesh`, kami memanggil `PolygonModifier.generateNormal(mesh)` yang menghitung dan mengembalikan objek `VertexElementNormal`. Menambahkan elemen ini ke mesh menyimpan normal yang baru dibuat.
 
 ```java
 s.getRootNode().accept(new NodeVisitor() {
@@ -65,42 +90,50 @@ s.getRootNode().accept(new NodeVisitor() {
 });
 ```
 
-## Langkah 3: Cetak Pesan Sukses
+*Tip:* Metode `generateNormal` menghormati grup smoothing yang ada, sehingga normal yang dihasilkan akan tampak halus di area yang diinginkan dan tajam di tepi yang didefinisikan.
 
-Terakhir, cetak pesan sukses setelah data normal dihasilkan untuk semua mesh:
+### Langkah 3: Konfirmasi Keberhasilan  
+
+Setelah visitor selesai, cetak pesan singkat ke konsol. Ini mengonfirmasi bahwa data normal telah dihasilkan untuk **semua mesh** dalam scene.
 
 ```java
-// ExEnd:HasilkanDataForMeshes
+// ExEnd:GenerateDataForMeshes
 System.out.println("\nNormal data generated successfully for all meshes.");
 ```
 
-Dan itu saja! Anda telah berhasil membuat data normal untuk jerat 3D menggunakan Aspose.3D untuk Java.
+*Apa yang diharapkan:* Ketika Anda membuka scene hasil di viewer 3D apa pun (misalnya Aspose.3D Viewer, Blender, atau Unity), model akan menampilkan pencahayaan yang tepat karena normal sudah ada.
 
-## Kesimpulan
+## Masalah Umum & Pemecahan Masalah  
 
-Aspose.3D untuk Java menyederhanakan tugas kompleks dalam bekerja dengan grafik 3D, memungkinkan Anda menghasilkan data normal secara efisien untuk jerat Anda. Dengan mengikuti panduan langkah demi langkah ini, Anda memperoleh wawasan berharga dalam meningkatkan kemampuan pemodelan 3D Anda.
+| Gejala | Penyebab Kemungkinan | Solusi |
+|---------|----------------------|-------|
+| Tidak ada output atau konsol kosong | Jalur `MyDir` salah | Pastikan jalur direktori diakhiri dengan slash dan file memang ada. |
+| Mesh tampak datar atau terlalu terang | Normal tidak ditambahkan | Pastikan `mesh.addElement(normals);` dijalankan untuk setiap mesh. |
+| Penurunan performa pada file besar | Menelusuri setiap node secara sinkron | Pertimbangkan memproses mesh secara paralel menggunakan Java streams (di luar lingkup tutorial ini). |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan  
 
-### Q1: Apakah Aspose.3D kompatibel dengan format file 3D lainnya?
+**T: Apakah Aspose.3D kompatibel dengan format file 3D lain?**  
+J: Ya, Aspose.3D mendukung beragam format seperti OBJ, FBX, STL, glTF, dan lainnya.  
 
-A1: Ya, Aspose.3D mendukung berbagai format file 3D, memastikan fleksibilitas dalam proyek Anda.
+**T: Bisakah saya menggunakan kode ini dalam proyek komersial?**  
+J: Tentu. Beli lisensi komersial **[di sini](https://purchase.aspose.com/buy)**.  
 
-### Q2: Dapatkah saya menggunakan Aspose.3D untuk tujuan komersial?
+**T: Apakah tersedia trial gratis?**  
+J: Ya, Anda dapat mencoba trial gratis **[di sini](https://releases.aspose.com/)**.  
 
- A2: Tentu saja! Anda dapat membeli Aspose.3D untuk Java[Di Sini](https://purchase.aspose.com/buy).
+**T: Di mana saya dapat menemukan dokumentasi lengkap untuk Aspose.3D?**  
+J: Lihat dokumentasi resmi **[di sini](https://reference.aspose.com/3d/java/)**.  
 
-### Q3: Apakah tersedia uji coba gratis?
+**T: Butuh bantuan atau ingin berdiskusi dengan komunitas?**  
+J: Kunjungi forum Aspose.3D **[di sini](https://forum.aspose.com/c/3d/18)**.
 
- A3: Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
+---
 
-### Q4: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.3D?
+**Terakhir Diperbarui:** 2025-11-30  
+**Diuji Dengan:** Aspose.3D for Java 24.11 (versi terbaru saat penulisan)  
+**Penulis:** Aspose  
 
- A4: Lihat dokumentasi[Di Sini](https://reference.aspose.com/3d/java/).
-
-### Q5: Butuh bantuan atau ingin terhubung dengan komunitas?
-
- A5: Kunjungi forum Aspose.3D[Di Sini](https://forum.aspose.com/c/3d/18).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

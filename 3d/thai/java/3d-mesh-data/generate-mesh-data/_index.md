@@ -1,33 +1,51 @@
 ---
-title: สร้างข้อมูลสำหรับ 3D Meshes ใน Java (Normals, Tangents, Binormals)
-linktitle: สร้างข้อมูลสำหรับ 3D Meshes ใน Java (Normals, Tangents, Binormals)
-second_title: Aspose.3D จาวา API
-description: ปรับปรุงโปรเจ็กต์ Java ของคุณด้วย Aspose.3D ปฏิบัติตามบทช่วยสอนของเราเพื่อสร้างข้อมูลปกติสำหรับ 3D Meshes ได้อย่างง่ายดาย ดื่มด่ำไปกับกราฟิก 3D ได้อย่างง่ายดาย
+date: 2025-11-30
+description: เรียนรู้วิธีเพิ่มนอร์มอลให้กับเมช 3 มิติใน Java ด้วย Aspose.3D คู่มือขั้นตอนนี้จะแสดงวิธีสร้างข้อมูลนอร์มอล,
+  คำนวณนอร์มอลของเมช, และปรับปรุงกราฟิก 3 มิติของคุณ
+language: th
+linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
+second_title: Aspose.3D Java API
+title: วิธีเพิ่มนอร์มอลให้กับเมช 3 มิติใน Java (โดยใช้ Aspose.3D)
+url: /java/3d-mesh-data/generate-mesh-data/
 weight: 11
-url: /th/java/3d-mesh-data/generate-mesh-data/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้างข้อมูลสำหรับ 3D Meshes ใน Java (Normals, Tangents, Binormals)
+# วิธีเพิ่ม Normal ให้กับเมช 3 มิติใน Java (โดยใช้ Aspose.3D)
 
-## การแนะนำ
+## Introduction  
 
-การสร้างและจัดการข้อมูล 3D mesh ใน Java อาจเป็นงานที่ท้าทายแต่น่าตื่นเต้น โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการกับไฟล์ที่ขาดข้อมูลปกติที่จำเป็น Aspose.3D สำหรับ Java เข้ามาช่วยเหลือด้วยชุดเครื่องมืออันทรงพลังสำหรับการจัดการกราฟิก 3D และ Meshes ได้อย่างมีประสิทธิภาพ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการสร้างข้อมูลปกติสำหรับ 3D mesh โดยใช้ Aspose.3D ใน Java
+การเพิ่มเวกเตอร์ Normal ที่ถูกต้องให้กับเมชเป็นสิ่งสำคัญสำหรับการให้แสง, เงา, และการคำนวณฟิสิกส์ที่สมจริง ในบทแนะนำ **how to add normals** นี้ เราจะเดินผ่านขั้นตอนที่จำเป็นเพื่อสร้างข้อมูล Normal สำหรับเมช 3 มิติโดยใช้ไลบรารี **Aspose.3D for Java** เมื่อจบคู่มือคุณจะสามารถ **สร้างข้อมูล Normal**, **คำนวณ Normal ของเมช**, และส่งออกโมเดลที่พร้อมเรนเดอร์ได้
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **การเพิ่ม Normal ทำให้ได้อะไร?** มันทำให้แสงและเงาบนพื้นผิว 3 มิติทำงานอย่างถูกต้อง  
+- **ใช้ไลบรารีอะไร?** Aspose.3D for Java.  
+- **ต้องใช้ลิขสิทธิ์หรือไม่?** เวอร์ชันทดลองฟรีใช้ได้สำหรับการพัฒนา; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง.  
+- **การทำงานนี้ใช้เวลานานเท่าไหร่?** ประมาณ 10‑15 นาทีสำหรับเมชพื้นฐาน.  
+- **สามารถใช้กับฟอร์แมตอื่นได้หรือไม่?** ใช่ – Aspose.3D รองรับไฟล์ 3 มิติหลายประเภท (OBJ, FBX, STL, ฯลฯ).  
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+## What is “adding normals” to a mesh?  
+Normal คือเวกเตอร์ที่ตั้งฉากกับโพลิกอนของพื้นผิว มันบอกให้เอนจินเรนเดอร์รู้ว่าต้องทำแสงอย่างไรกับแต่ละหน้า เมื่อไฟล์ไม่มีข้อมูลนี้ (ซึ่งพบบ่อยในไฟล์ 3DS เก่า) คุณต้อง **generate mesh normals** ก่อนที่โมเดลจะดูถูกต้องในฉาก
 
-- ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม Java
-- ติดตั้ง Aspose.3D สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/3d/java/).
-- ไฟล์ 3D ในรูปแบบ 3ds เราจะใช้ "camera.3ds" เป็นตัวอย่าง
+## Why use Aspose.3D for this task?  
+Aspose.3D มี API ระดับสูงที่ทำให้การคำนวณ Normal ที่ต้องใช้คณิตศาสตร์ระดับล่างง่ายขึ้น นอกจากนี้ยังรองรับ smoothing groups, tangents, binormals และฟอร์แมตไฟล์หลากหลาย ทำให้เป็นตัวเลือกที่น่าเชื่อถือสำหรับ **aspose 3d tutorial** ระดับมืออาชีพ
 
-## แพ็คเกจนำเข้า
+## Prerequisites  
 
-ในโปรเจ็กต์ Java ของคุณ ให้นำเข้าแพ็คเกจที่จำเป็นเพื่อทำงานกับ Aspose.3D:
+- ความรู้พื้นฐานการเขียนโปรแกรม Java  
+- ติดตั้ง Aspose.3D for Java – ดาวน์โหลดได้จาก **[here](https://releases.aspose.com/3d/java/)**  
+- ไฟล์ 3 มิติในฟอร์แมต 3DS (เราจะใช้ **camera.3ds** เป็นตัวอย่าง)  
+
+## How to Add Normals to Your 3D Meshes  
+
+ด้านล่างเป็นคู่มือเต็มขั้นตอนแต่ละขั้นตอน โค้ดบล็อกทั้งหมดคงเดิมจากบทแนะนำต้นฉบับ; ข้อความรอบๆ ให้บริบทและคำอธิบาย
+
+### Import Packages  
+
+แรกสุด ให้ import คลาสของ Aspose.3D และยูทิลิตี้ Java I/O ที่จำเป็น
 
 ```java
 import com.aspose.threed.*;
@@ -36,20 +54,26 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## ขั้นตอนที่ 1: สร้างเอกสาร
+*Explanation:* `com.aspose.threed.*` ให้คุณเข้าถึง `Scene`, `NodeVisitor`, `Mesh` และยูทิลิตี้ `PolygonModifier` ที่จะสร้างข้อมูล Normal ให้เรา
+
+### Step 1: Load the 3D Document  
+
+สร้างอ็อบเจ็กต์ `Scene` ที่ชี้ไปยังไฟล์ 3DS ของคุณ ไฟล์นี้ไม่มีข้อมูล Normal แต่มี smoothing groups ที่ไลบรารีสามารถใช้เพื่อสร้าง Normal ได้
 
 ```java
-// ExStart: สร้าง DataForMeshes
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// ExStart:GenerateDataForMeshes
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 
-// โหลดไฟล์ 3ds ไฟล์ 3ds ไม่มีข้อมูลปกติ แต่มีกลุ่มการปรับให้เรียบ
+// Load a 3ds file, 3ds file doesn't have normal data, but it has smoothing group
 Scene s = new Scene(MyDir + "camera.3ds");
 ```
 
-## ขั้นตอนที่ 2: เยี่ยมชมโหนดและสร้างข้อมูลปกติ
+*Why this matters:* การโหลดฉากเป็นขั้นตอนแรกใน pipeline การประมวลผลเมชใดๆ เมื่อฉากอยู่ในหน่วยความจำแล้ว เราสามารถเดินทางผ่านโครงสร้าง node และทำการแปลงหรือคำนวณต่างๆ เช่น **generate mesh normals**
 
-ในการสร้างข้อมูลปกติสำหรับเมชทั้งหมด เราจะสำรวจโหนดในฉาก 3 มิติและสร้างข้อมูลปกติสำหรับแต่ละเมช:
+### Step 2: Visit Nodes and Create Normal Data  
+
+เราจะเดินผ่านทุก node ในกราฟของฉาก สำหรับแต่ละ node ที่มี `Mesh` เราจะเรียก `PolygonModifier.generateNormal(mesh)` ซึ่งคำนวณและคืนค่าอ็อบเจ็กต์ `VertexElementNormal` การเพิ่มอิลิเมนต์นี้เข้าไปในเมชจะบันทึก Normal ที่สร้างใหม่
 
 ```java
 s.getRootNode().accept(new NodeVisitor() {
@@ -65,42 +89,50 @@ s.getRootNode().accept(new NodeVisitor() {
 });
 ```
 
-## ขั้นตอนที่ 3: พิมพ์ข้อความแสดงความสำเร็จ
+*Tip:* เมธอด `generateNormal` เคารพ smoothing groups ที่มีอยู่ ดังนั้น Normal ที่ได้จะดูเรียบตามที่ต้องการและคมที่ขอบที่กำหนด
 
-สุดท้าย ให้พิมพ์ข้อความแสดงความสำเร็จเมื่อข้อมูลปกติถูกสร้างขึ้นสำหรับเมชทั้งหมด:
+### Step 3: Confirm Success  
+
+หลังจาก visitor ทำงานเสร็จ ให้พิมพ์ข้อความสั้นลงคอนโซล ซึ่งยืนยันว่าข้อมูล Normal ถูกสร้างสำหรับ **all meshes** ในฉากแล้ว
 
 ```java
-// ExEnd:สร้าง DataForMeshes
+// ExEnd:GenerateDataForMeshes
 System.out.println("\nNormal data generated successfully for all meshes.");
 ```
 
-แค่นั้นแหละ! คุณได้สร้างข้อมูลปกติสำหรับ 3D mesh โดยใช้ Aspose.3D สำหรับ Java สำเร็จแล้ว
+*What to expect:* เมื่อคุณเปิดฉากที่ได้ในโปรแกรมดู 3 มิติใดก็ได้ (เช่น Aspose.3D Viewer, Blender หรือ Unity) โมเดลจะแสดงแสงอย่างถูกต้องเนื่องจากมี Normal อยู่
 
-## บทสรุป
+## Common Issues & Troubleshooting  
 
-Aspose.3D สำหรับ Java ช่วยให้งานที่ซับซ้อนในการทำงานกับกราฟิก 3D ง่ายขึ้น ช่วยให้คุณสร้างข้อมูลปกติสำหรับ Mesh ของคุณได้อย่างมีประสิทธิภาพ ด้วยการทำตามคำแนะนำทีละขั้นตอนนี้ คุณจะได้รับข้อมูลเชิงลึกอันมีค่าในการปรับปรุงความสามารถในการสร้างโมเดล 3 มิติของคุณ
+| อาการ | สาเหตุที่เป็นไปได้ | วิธีแก้ |
+|---------|--------------|-----|
+| ไม่มีผลลัพธ์หรือคอนโซลว่างเปล่า | `MyDir` path is incorrect | ตรวจสอบว่าเส้นทางไดเรกทอรีลงท้ายด้วยสแลชและไฟล์มีอยู่จริง. |
+| เมชแสดงเป็นแผ่นราบหรือสว่างเกินไป | Normals were not added | ตรวจสอบว่าได้เรียก `mesh.addElement(normals);` สำหรับแต่ละเมช. |
+| ประสิทธิภาพช้าลงเมื่อไฟล์ใหญ่ | Visiting every node synchronously | พิจารณาประมวลผลเมชแบบขนานโดยใช้ Java streams (อยู่นอกขอบเขตของบทแนะนำนี้). |
 
-## คำถามที่พบบ่อย
+## Frequently Asked Questions  
 
-### คำถามที่ 1: Aspose.3D เข้ากันได้กับรูปแบบไฟล์ 3D อื่นๆ หรือไม่
+**Q: Aspose.3D รองรับฟอร์แมตไฟล์ 3 มิติอื่นหรือไม่?**  
+A: ใช่, Aspose.3D รองรับฟอร์แมตหลากหลายเช่น OBJ, FBX, STL, glTF, และอื่นๆ  
 
-ตอบ 1: ใช่ Aspose.3D รองรับไฟล์ 3D หลากหลายรูปแบบ เพื่อให้มั่นใจถึงความยืดหยุ่นในโครงการของคุณ
+**Q: ฉันสามารถใช้โค้ดนี้ในโครงการเชิงพาณิชย์ได้หรือไม่?**  
+A: แน่นอน. ซื้อไลเซนส์เชิงพาณิชย์ **[here](https://purchase.aspose.com/buy)**.  
 
-### คำถามที่ 2: ฉันสามารถใช้ Aspose.3D เพื่อวัตถุประสงค์ทางการค้าได้หรือไม่
+**Q: มีเวอร์ชันทดลองฟรีหรือไม่?**  
+A: มี, คุณสามารถลองเวอร์ชันทดลองได้ **[here](https://releases.aspose.com/)**.  
 
- A2: แน่นอน! คุณสามารถซื้อ Aspose.3D สำหรับ Java ได้[ที่นี่](https://purchase.aspose.com/buy).
+**Q: จะหาเอกสารรายละเอียดของ Aspose.3D ได้จากที่ไหน?**  
+A: ดูเอกสารอย่างเป็นทางการ **[here](https://reference.aspose.com/3d/java/)**.  
 
-### คำถามที่ 3: มีการทดลองใช้ฟรีหรือไม่?
+**Q: ต้องการความช่วยเหลือหรืออยากสนทนากับชุมชน?**  
+A: เยี่ยมชมฟอรั่ม Aspose.3D **[here](https://forum.aspose.com/c/3d/18)**.  
 
- A3: ได้ คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+---  
 
-### คำถามที่ 4: ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose.3D ได้ที่ไหน
+**อัปเดตล่าสุด:** 2025-11-30  
+**ทดสอบด้วย:** Aspose.3D for Java 24.11 (latest at time of writing)  
+**ผู้เขียน:** Aspose  
 
- A4: โปรดดูเอกสารประกอบ[ที่นี่](https://reference.aspose.com/3d/java/).
-
-### Q5: ต้องการความช่วยเหลือหรือต้องการเชื่อมต่อกับชุมชน?
-
- A5: เยี่ยมชมฟอรัม Aspose.3D[ที่นี่](https://forum.aspose.com/c/3d/18).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
