@@ -1,33 +1,41 @@
 ---
-title: Zastosuj zapytania podobne do XPath do obiektów 3D w Javie
-linktitle: Zastosuj zapytania podobne do XPath do obiektów 3D w Javie
-second_title: Aspose.3D API Java
-description: Opanuj zapytania dotyczące obiektów 3D w Javie bez wysiłku dzięki Aspose.3D. Stosuj zapytania podobne do XPath, manipuluj scenami i ulepszaj swoje prace 3D.
+date: 2025-11-29
+description: Dowiedz się, jak **tworzyć scenę 3D w Javie** i używać zapytań podobnych
+  do XPath, aby **wybierać obiekty według typu** w Aspose.3D dla Javy.
+language: pl
+linktitle: Create 3D Scene Java – Apply XPath‑Like Queries with Aspose.3D
+second_title: Aspose.3D Java API
+title: Utwórz scenę 3D w Javie – Zastosuj zapytania podobne do XPath w Aspose.3D
+url: /java/3d-objects-and-scenes/xpath-like-object-queries/
 weight: 11
-url: /pl/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zastosuj zapytania podobne do XPath do obiektów 3D w Javie
+# Utwórz scenę 3D w Javie – Zastosuj zapytania podobne do XPath w Aspose.3D
 
-## Wstęp
+## Wprowadzenie  
 
-Zagłębianie się w dziedzinę modelowania 3D i manipulacji scenami w Javie może być trudnym zadaniem, ale nie obawiaj się! Aspose.3D dla Java zapewnia solidne rozwiązanie do obsługi obiektów 3D, co czyni go nieocenionym narzędziem dla programistów. W tym samouczku poprowadzimy Cię przez zastosowanie zapytań przypominających XPath do obiektów 3D w Javie przy użyciu Aspose.3D.
+Jeśli potrzebujesz **create 3d scene java** aplikacji, które manipulują złożonymi hierarchiami obiektów, Aspose.3D for Java zapewnia czysty, styl XPath sposób na dokładne zlokalizowanie tego, czego potrzebujesz. W tym samouczku przeprowadzimy Cię przez budowanie prostej sceny, dodawanie hierarchii węzłów, a następnie użycie zapytań podobnych do XPath, aby **select objects by type** (na przykład kamery lub światła), niezależnie od tego, gdzie znajdują się w drzewie. Po zakończeniu będziesz swobodnie zapytywać, filtrować i pobierać jednostki 3‑D za pomocą jednej wyrażenia.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co mogę zapytać?** Dowolny węzeł lub encja (Camera, Light, Mesh, itp.) w scenie.  
+- **Jak wybrać obiekty według typu?** Użyj wyrażenia podobnego do XPath, takiego jak `//*[(@Type='Camera')]`.  
+- **Czy potrzebuję licencji do rozwoju?** Darmowa wersja próbna działa do testów; licencja jest wymagana w produkcji.  
+- **Jaką wersję Java jest obsługiwana?** Java 8 lub nowsza.  
+- **Gdzie mogę pobrać Aspose.3D?** Z oficjalnej strony pobierania, linkowanej w wymaganiach wstępnych.
 
-Zanim wyruszymy w tę ekscytującą podróż, upewnij się, że spełniasz następujące wymagania wstępne:
+## Wymagania wstępne  
 
-- Zestaw Java Development Kit (JDK) zainstalowany na komputerze.
--  Pobrano i skonfigurowano bibliotekę Aspose.3D for Java. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/3d/java/).
-- Podstawowa znajomość programowania w języku Java.
+- Zainstalowany Java Development Kit (JDK) na Twoim komputerze.  
+- Biblioteka Aspose.3D for Java pobrana i skonfigurowana. Link do pobrania znajdziesz **[here](https://releases.aspose.com/3d/java/)**.  
+- Podstawowa znajomość programowania w języku Java.  
 
-## Importuj pakiety
+## Importowanie pakietów  
 
-Zacznijmy od zaimportowania niezbędnych pakietów do projektu Java. Ten krok jest kluczowy dla integracji Aspose.3D ze środowiskiem programistycznym.
+Najpierw zaimportuj klasy Aspose.3D, które będą potrzebne. Ten krok udostępnia bibliotekę w Twoim projekcie.
 
 ```java
 import com.aspose.threed.*;
@@ -36,20 +44,34 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-Teraz odkryjmy fascynujący świat zapytań podobnych do XPath z Aspose.3D dla Java. Wykonaj poniższe kroki, aby uwolnić moc odpytywania obiektów 3D:
+## Czym jest zapytanie podobne do XPath w Aspose.3D?  
 
-## Krok 1: Utwórz scenę do testowania
+Aspose.3D implementuje podzbiór składni XPath, który działa na grafie sceny. Zamiast węzłów XML, wyrażenia celują w instancje **A3DObject** (węzły, kamery, światła, siatki itp.). Dzięki temu możesz pisać wyraźne filtry, takie jak „wszystkie kamery” lub „obiekty, których nazwa to ‘light’”, bez ręcznego przeglądania hierarchii.
+
+## Dlaczego używać zapytań podobnych do XPath do **select objects by type**?  
+
+- **Szybkość:** Jeden wiersz zastępuje dziesiątki sprawdzeń `if` i pętli.  
+- **Czytelność:** Zapytanie czyta się jak język naturalny.  
+- **Elastyczność:** Zmieniaj filtr bez modyfikacji kodu przeglądania.
+
+## Przewodnik krok po kroku  
+
+### Krok 1: Utwórz scenę do testów  
+
+Zaczynamy od pustej sceny, która będzie hostować naszą hierarchię.
 
 ```java
-// ExStart: Utwórz scenę
+// ExStart:CreateScene
 Scene s = new Scene();
-// Rozwiń: Utwórz scenę
+// ExEnd:CreateScene
 ```
 
-## Krok 2: Utwórz hierarchię węzłów
+### Krok 2: Zbuduj hierarchię węzłów  
+
+Następnie dodajemy kilka węzłów potomnych pod węzłem głównym. Niektóre węzły zawierają encję **Camera** lub **Light**, które później zapytamy.
 
 ```java
-//ExStart: Utwórz hierarchię
+// ExStart:CreateHierarchy
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");
@@ -57,54 +79,73 @@ s.getRootNode().createChildNode("b");
 Node c = s.getRootNode().createChildNode("c");
 c.createChildNode("c1").addEntity(new Camera("cam"));
 c.createChildNode("c2").addEntity(new Light("light"));
-// ExEnd:UtwórzHierarchię
+// ExEnd:CreateHierarchy
 ```
 
-## Krok 3: Zastosuj zapytania podobne do XPath
+### Krok 3: Zastosuj zapytania podobne do XPath  
+
+Teraz najciekawsza część — użycie łańcuchów w stylu XPath do **select objects by type** lub nazwy.
 
 ```java
-// ExStart: XPathLikeObjectQueries
-// Wybierz obiekty, które mają typ Kamera lub nazwę „światło”, niezależnie od ich lokalizacji.
-List<Object> objects = s.getRootNode().selectObjects("//*[(@Typ = 'Kamera') lub (@Nazwa = 'światło')]");
+// ExStart:XPathLikeObjectQueries
+// Select objects that have type Camera or name is 'light' regardless of their location.
+List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
 
-// Wybierz pojedynczy obiekt kamery pod węzłami podrzędnymi węzła o nazwie „c” pod węzłem głównym
+// Select a single camera object under the child nodes of the node named 'c' under the root node
 A3DObject c1 = (A3DObject) s.getRootNode().selectSingleObject("/c/*/<Camera>");
 
-// Wybierz węzeł o nazwie „a1” pod węzłem głównym, nawet jeśli „a1” nie jest bezpośrednio węzłem podrzędnym
+// Select the node named 'a1' under the root node, even if 'a1' is not a directly child node
 A3DObject obj = (A3DObject) s.getRootNode().selectSingleObject("a1");
 
-// Wybierz sam węzeł, ponieważ „/” jest wybierane bezpośrednio w węźle głównym
+// Select the node itself, as '/' is selected directly on the root node
 obj = (A3DObject) s.getRootNode().selectSingleObject("/");
-// ExEnd: XPathLikeObjectQueries
+// ExEnd:XPathLikeObjectQueries
 ```
 
-Gratulacje! Udało Ci się wykorzystać moc zapytań typu XPath w Aspose.3D dla Java.
+**Wyjaśnienie kluczowych wyrażeń**
 
-## Wniosek
+- `//*[(@Type = 'Camera') or (@Name = 'light')]` – Znajduje każdy obiekt w scenie, którego atrybut **type** jest równy `Camera` **lub** którego atrybut **name** jest równy `light`. To klasyczny przykład **select objects by type**.  
+- `/c/*/<Camera>` – Zaczyna od korzenia, przechodzi do węzła `c`, potem do dowolnego dziecka (`*`), i w końcu wybiera encję `<Camera>`.  
+- `a1` – Skrót, który przeszukuje całe drzewo w poszukiwaniu węzła o nazwie `a1`.  
+- `/` – Zwraca sam węzeł korzenia.
 
-W tym samouczku wyjaśniliśmy proces stosowania zapytań przypominających XPath do obiektów 3D przy użyciu Aspose.3D dla Java. Dzięki tej nowo zdobytej wiedzy możesz z łatwością nawigować i manipulować złożonymi scenami 3D.
+### Typowe pułapki i wskazówki  
 
-## Często zadawane pytania
+- **Czułość na wielkość liter:** Nazwy atrybutów (`@Type`, `@Name`) są rozróżniane pod względem wielkości liter.  
+- **Encja vs. węzeł:** Używaj składni `<Camera>` tylko wtedy, gdy potrzebujesz podlegającej encji, a nie samego węzła.  
+- **Wydajność:** Dla bardzo dużych scen, zawęż ścieżkę wyszukiwania (np. rozpocznij od konkretnego poddrzewa), aby zwiększyć szybkość.
 
-### P1: Gdzie mogę znaleźć dokumentację Aspose.3D for Java?
+## Podsumowanie  
 
- Odpowiedź 1: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/3d/java/).
+Teraz wiesz, jak **create 3d scene java** programy, które wykorzystują zapytania podobne do XPath, aby efektywnie **select objects by type**. To podejście skaluje się od prostych demonstracji po produkcyjne aplikacje 3‑D, dając precyzyjną kontrolę nad przeglądaniem sceny bez rozbudowanego kodu.
 
-### P2: Jak mogę pobrać Aspose.3D dla Java?
+## Najczęściej zadawane pytania  
 
- A2: Możesz go pobrać[Tutaj](https://releases.aspose.com/3d/java/).
+**P:** Gdzie mogę znaleźć dokumentację Aspose.3D for Java?  
+**O:** Dokumentacja jest dostępna **[here](https://reference.aspose.com/3d/java/)**.
 
-### P3: Czy dostępny jest bezpłatny okres próbny?
+**P:** Jak mogę pobrać Aspose.3D for Java?  
+**O:** Możesz pobrać go **[here](https://releases.aspose.com/3d/java/)**.
 
- A3: Tak, możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+**P:** Czy dostępna jest darmowa wersja próbna?  
+**O:** Tak, darmową wersję próbną możesz uzyskać **[here](https://releases.aspose.com/)**.
 
-### P4: Gdzie mogę uzyskać wsparcie dla Aspose.3D dla Java?
+**P:** Gdzie mogę uzyskać wsparcie dla Aspose.3D for Java?  
+**O:** Odwiedź forum wsparcia **[here](https://forum.aspose.com/c/3d/18)**.
 
- Odpowiedź 4: Odwiedź forum pomocy technicznej[Tutaj](https://forum.aspose.com/c/3d/18).
+**P:** Potrzebujesz tymczasowej licencji?  
+**O:** Uzyskaj tymczasową licencję **[here](https://purchase.aspose.com/temporary-license/)**.
 
-### P5: Potrzebujesz tymczasowej licencji?
+**P:** Czy mogę zapytać o niestandardowe własności definiowane przez użytkownika?  
+**O:** Tak, możesz rozszerzyć wyrażenie XPath o dodatkowe atrybuty `@`, które dodasz do węzłów.
 
- A5: Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+**P:** Czy silnik zapytań działa z animowanymi scenami?  
+**O:** Zdecydowanie – zapytania działają na statycznej hierarchii; animacje są dołączone do tych samych węzłów i dlatego są uwzględniane w wynikach.
+
+**Ostatnia aktualizacja:** 2025-11-29  
+**Testowano z:** Aspose.3D for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

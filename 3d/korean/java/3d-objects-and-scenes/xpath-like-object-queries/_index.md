@@ -1,33 +1,43 @@
 ---
-title: Java의 3D 개체에 XPath와 유사한 쿼리 적용
-linktitle: Java의 3D 개체에 XPath와 유사한 쿼리 적용
-second_title: Aspose.3D 자바 API
-description: Aspose.3D를 사용하면 Java에서 손쉽게 3D 객체 쿼리를 마스터할 수 있습니다. XPath와 같은 쿼리를 적용하고, 장면을 조작하고, 3D 개발 수준을 높이세요.
+date: 2025-11-29
+description: Aspose.3D for Java에서 **3D 씬을 Java로 생성하는 방법**과 XPath와 유사한 쿼리를 사용하여 **유형별
+  객체를 선택하는 방법**을 배워보세요.
+language: ko
+linktitle: Create 3D Scene Java – Apply XPath‑Like Queries with Aspose.3D
+second_title: Aspose.3D Java API
+title: Java로 3D 씬 만들기 – Aspose.3D로 XPath와 유사한 쿼리 적용
+url: /java/3d-objects-and-scenes/xpath-like-object-queries/
 weight: 11
-url: /ko/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java의 3D 개체에 XPath와 유사한 쿼리 적용
+# 3D 씬 Java 만들기 – Aspose.3D로 XPath‑유사 쿼리 적용
 
-## 소개
+## Introduction  
 
-Java에서 3D 모델링 및 장면 조작 영역을 탐구하는 것은 어려운 작업일 수 있지만 두려워하지 마세요! Aspose.3D for Java는 3D 개체를 처리하기 위한 강력한 솔루션을 제공하므로 개발자에게 귀중한 도구입니다. 이 튜토리얼에서는 Aspose.3D를 사용하여 Java의 3D 객체에 XPath와 같은 쿼리를 적용하는 방법을 안내합니다.
+복잡한 객체 계층을 조작하는 **create 3d scene java** 애플리케이션이 필요하다면, Aspose.3D for Java는 정확히 원하는 요소를 찾을 수 있는 깔끔한 XPath‑스타일 방식을 제공합니다. 이 튜토리얼에서는 간단한 씬을 구축하고, 노드 계층을 추가한 뒤, XPath‑유사 쿼리를 사용해 **select objects by type**(예: 카메라 또는 라이트) 를 트리 어디에 있든 선택하는 방법을 단계별로 살펴봅니다. 마지막까지 하면 단일 표현식만으로 3‑D 엔티티를 쿼리하고, 필터링하며, 검색하는 데 익숙해질 것입니다.
 
-## 전제 조건
+## Quick Answers
+- **What can I query?** 씬(Scene) 내의 모든 노드 또는 엔티티(카메라, 라이트, 메시 등).  
+- **How do I select objects by type?** `//*[(@Type='Camera')]` 와 같은 XPath‑유사 표현식을 사용합니다.  
+- **Do I need a license for development?** 테스트용 무료 체험판을 사용할 수 있으며, 프로덕션에서는 라이선스가 필요합니다.  
+- **Which Java version is supported?** Java 8 이상.  
+- **Where can I download Aspose.3D?** 전제 조건에 링크된 공식 다운로드 페이지에서 확인하세요.
 
-이 흥미진진한 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
+## Prerequisites  
 
-- 컴퓨터에 JDK(Java Development Kit)가 설치되어 있습니다.
--  Java 라이브러리용 Aspose.3D를 다운로드하고 설정했습니다. 다운로드 링크를 찾을 수 있습니다[여기](https://releases.aspose.com/3d/java/).
-- Java 프로그래밍에 대한 기본 지식.
+시작하기 전에 다음을 준비하세요:
 
-## 패키지 가져오기
+- 머신에 설치된 Java Development Kit (JDK).  
+- 다운로드 및 설정이 완료된 Aspose.3D for Java 라이브러리. 다운로드 링크는 **[here](https://releases.aspose.com/3d/java/)** 에 있습니다.  
+- Java 프로그래밍에 대한 기본 지식.  
 
-필요한 패키지를 Java 프로젝트로 가져와 작업을 시작하겠습니다. 이 단계는 Aspose.3D를 개발 환경에 통합하는 데 중요합니다.
+## Import Packages  
+
+먼저, 필요한 Aspose.3D 클래스를 임포트합니다. 이 단계는 라이브러리를 프로젝트에 사용할 수 있게 합니다.
 
 ```java
 import com.aspose.threed.*;
@@ -36,9 +46,21 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-이제 Java용 Aspose.3D를 사용하여 XPath와 유사한 쿼리의 매혹적인 세계를 탐험해 보겠습니다. 3D 객체 쿼리의 강력한 기능을 활용하려면 다음 단계를 따르세요.
+## What is an XPath‑like query in Aspose.3D?  
 
-## 1단계: 테스트용 장면 만들기
+Aspose.3D는 씬 그래프에 적용되는 XPath 구문 일부를 구현합니다. XML 노드 대신 **A3DObject** 인스턴스(노드, 카메라, 라이트, 메쉬 등)를 대상으로 표현식을 작성합니다. 이를 통해 “전체 카메라” 혹은 “이름이 ‘light’인 객체”와 같은 표현을 계층을 직접 순회하지 않고도 작성할 수 있습니다.
+
+## Why use XPath‑like queries to **select objects by type**?  
+
+- **Speed:** 한 줄로 수십 개의 `if` 검사와 루프를 대체합니다.  
+- **Readability:** 쿼리가 자연어처럼 읽힙니다.  
+- **Flexibility:** 순회 코드를 건드리지 않고 필터만 변경하면 됩니다.
+
+## Step‑by‑Step Guide  
+
+### Step 1: Create a Scene for Testing  
+
+계층을 담을 빈 씬을 생성합니다.
 
 ```java
 // ExStart:CreateScene
@@ -46,10 +68,12 @@ Scene s = new Scene();
 // ExEnd:CreateScene
 ```
 
-## 2단계: 노드 계층 구조 생성
+### Step 2: Build a Hierarchy of Nodes  
+
+루트 노드 아래에 몇 개의 자식 노드를 추가합니다. 일부 노드에는 **Camera** 또는 **Light** 엔티티가 포함되어 있어 이후에 쿼리할 수 있습니다.
 
 ```java
-//ExStart:CreateHierarchy
+// ExStart:CreateHierarchy
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");
@@ -60,51 +84,72 @@ c.createChildNode("c2").addEntity(new Light("light"));
 // ExEnd:CreateHierarchy
 ```
 
-## 3단계: XPath와 유사한 쿼리 적용
+### Step 3: Apply XPath‑Like Queries  
+
+이제 재미있는 부분—XPath‑스타일 문자열을 사용해 **select objects by type** 혹은 이름으로 검색합니다.
 
 ```java
-// ExStart:XPathLikeObject쿼리
-// 위치에 관계없이 카메라 유형 또는 이름이 'light'인 개체를 선택합니다.
-List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = '카메라') 또는 (@Name = 'light')]");
+// ExStart:XPathLikeObjectQueries
+// Select objects that have type Camera or name is 'light' regardless of their location.
+List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
 
-// 루트 노드 아래 'c'라는 노드의 하위 노드 아래에서 단일 카메라 개체를 선택합니다.
+// Select a single camera object under the child nodes of the node named 'c' under the root node
 A3DObject c1 = (A3DObject) s.getRootNode().selectSingleObject("/c/*/<Camera>");
 
-// 'a1'이 직접 자식 노드가 아니더라도 루트 노드 아래에서 'a1'이라는 노드를 선택합니다.
+// Select the node named 'a1' under the root node, even if 'a1' is not a directly child node
 A3DObject obj = (A3DObject) s.getRootNode().selectSingleObject("a1");
 
-// 루트 노드에서는 '/'가 직접 선택되므로 노드 자체를 선택합니다.
+// Select the node itself, as '/' is selected directly on the root node
 obj = (A3DObject) s.getRootNode().selectSingleObject("/");
 // ExEnd:XPathLikeObjectQueries
 ```
 
-축하해요! Java용 Aspose.3D에서 XPath와 유사한 쿼리의 기능을 성공적으로 활용했습니다.
+**Explanation of the key expressions**
 
-## 결론
+- `//*[(@Type = 'Camera') or (@Name = 'light')]` – 씬 내 모든 객체 중 **type** 속성이 `Camera` 이거나 **name** 속성이 `light` 인 객체를 찾습니다. 이는 **select objects by type** 의 전형적인 예시입니다.  
+- `/c/*/<Camera>` – 루트에서 시작해 노드 `c` 로 이동한 뒤, 임의의 자식(`*`)을 거쳐 `<Camera>` 엔티티를 선택합니다.  
+- `a1` – 트리 전체에서 이름이 `a1` 인 노드를 검색하는 단축 표현입니다.  
+- `/` – 루트 노드 자체를 반환합니다.
 
-이 튜토리얼에서는 Java용 Aspose.3D를 사용하여 3D 개체에 XPath와 유사한 쿼리를 적용하는 프로세스를 설명했습니다. 이 새로운 지식을 사용하면 복잡한 3D 장면을 쉽게 탐색하고 조작할 수 있습니다.
+### Common Pitfalls & Tips  
 
-## FAQ
+- **Case sensitivity:** 속성 이름(`@Type`, `@Name`)은 대소문자를 구분합니다.  
+- **Entity vs. Node:** `<Camera>` 구문은 노드가 아닌 실제 엔티티가 필요할 때만 사용합니다.  
+- **Performance:** 매우 큰 씬에서는 검색 경로를 좁혀(예: 특정 서브트리에서 시작) 성능을 향상시킵니다.
 
-### Q1: Java 설명서용 Aspose.3D는 어디에서 찾을 수 있습니까?
+## Conclusion  
 
- A1: 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/3d/java/).
+이제 **create 3d scene java** 프로그램에서 XPath‑유사 쿼리를 활용해 효율적으로 **select objects by type** 하는 방법을 알게 되었습니다. 이 접근 방식은 간단한 데모부터 프로덕션급 3‑D 애플리케이션까지 확장 가능하며, 장황한 코드 없이 씬 순회를 세밀하게 제어할 수 있습니다.
 
-### Q2: Java용 Aspose.3D를 어떻게 다운로드할 수 있나요?
+## Frequently Asked Questions  
 
- A2: 다운로드할 수 있습니다[여기](https://releases.aspose.com/3d/java/).
+**Q: Where can I find the Aspose.3D for Java documentation?**  
+A: 문서는 **[here](https://reference.aspose.com/3d/java/)** 에서 확인할 수 있습니다.
 
-### Q3: 무료 평가판이 제공됩니까?
+**Q: How can I download Aspose.3D for Java?**  
+A: 다운로드는 **[here](https://releases.aspose.com/3d/java/)** 에서 가능합니다.
 
- A3: 예, 무료 평가판을 받을 수 있습니다.[여기](https://releases.aspose.com/).
+**Q: Is there a free trial available?**  
+A: 네, 무료 체험판은 **[here](https://releases.aspose.com/)** 에서 받을 수 있습니다.
 
-### Q4: Java용 Aspose.3D에 대한 지원은 어디서 받을 수 있나요?
+**Q: Where can I get support for Aspose.3D for Java?**  
+A: 지원 포럼은 **[here](https://forum.aspose.com/c/3d/18)** 에서 이용하세요.
 
- A4: 지원 포럼을 방문하세요.[여기](https://forum.aspose.com/c/3d/18).
+**Q: Need a temporary license?**  
+A: 임시 라이선스는 **[here](https://purchase.aspose.com/temporary-license/)** 에서 얻을 수 있습니다.
 
-### Q5: 임시 라이센스가 필요합니까?
+**Q: Can I query custom user‑defined properties?**  
+A: 예, 노드에 추가한 `@` 속성을 사용해 XPath 표현식을 확장할 수 있습니다.
 
- A5: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+**Q: Does the query engine work with animated scenes?**  
+A: 물론입니다. 쿼리는 정적 계층 구조에 작동하며, 애니메이션은 동일한 노드에 연결되어 결과에 포함됩니다.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

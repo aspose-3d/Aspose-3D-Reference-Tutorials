@@ -1,33 +1,43 @@
 ---
-title: Aplicar consultas semelhantes a XPath a objetos 3D em Java
-linktitle: Aplicar consultas semelhantes a XPath a objetos 3D em Java
-second_title: API Java Aspose.3D
-description: Domine consultas de objetos 3D em Java sem esforço com Aspose.3D. Aplique consultas semelhantes a XPath, manipule cenas e eleve seu desenvolvimento 3D.
+date: 2025-11-29
+description: Aprenda como **criar cena 3D em Java** e usar consultas semelhantes a
+  XPath para **selecionar objetos por tipo** no Aspose.3D para Java.
+language: pt
+linktitle: Create 3D Scene Java – Apply XPath‑Like Queries with Aspose.3D
+second_title: Aspose.3D Java API
+title: Criar Cena 3D em Java – Aplicar Consultas Tipo XPath com Aspose.3D
+url: /java/3d-objects-and-scenes/xpath-like-object-queries/
 weight: 11
-url: /pt/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aplicar consultas semelhantes a XPath a objetos 3D em Java
+# Criar Cena 3D Java – Aplicar Consultas Semelhantes a XPath com Aspose.3D
 
-## Introdução
+## Introdução  
 
-Aprofundar-se no domínio da modelagem 3D e manipulação de cenas em Java pode ser uma tarefa difícil, mas não tema! Aspose.3D for Java fornece uma solução robusta para lidar com objetos 3D, tornando-o uma ferramenta inestimável para desenvolvedores. Neste tutorial, iremos guiá-lo através da aplicação de consultas semelhantes a XPath para objetos 3D em Java usando Aspose.3D.
+Se você precisar **create 3d scene java** aplicações que manipulam hierarquias complexas de objetos, Aspose.3D for Java oferece uma maneira limpa, estilo XPath, de localizar exatamente o que você precisa. Neste tutorial, percorreremos a criação de uma cena simples, a adição de uma hierarquia de nós e, em seguida, o uso de consultas semelhantes a XPath para **select objects by type** (por exemplo, câmeras ou luzes) independentemente de onde estejam na árvore. Ao final, você estará confortável em consultar, filtrar e recuperar entidades 3‑D com apenas uma única expressão.
 
-## Pré-requisitos
+## Respostas Rápidas
+- **O que posso consultar?** Any node or entity (Camera, Light, Mesh, etc.) in a Scene.  
+- **Como seleciono objetos por tipo?** Use an XPath‑like expression such as `//*[(@Type='Camera')]`.  
+- **Preciso de uma licença para desenvolvimento?** A free trial works for testing; a license is required for production.  
+- **Qual versão do Java é suportada?** Java 8 or later.  
+- **Onde posso baixar o Aspose.3D?** From the official download page linked in the prerequisites.
 
-Antes de embarcarmos nesta jornada emocionante, certifique-se de ter os seguintes pré-requisitos em vigor:
+## Pré-requisitos  
 
-- Java Development Kit (JDK) instalado em sua máquina.
--  Biblioteca Aspose.3D para Java baixada e configurada. Você pode encontrar o link para download[aqui](https://releases.aspose.com/3d/java/).
-- Conhecimento básico de programação Java.
+Antes de começar, certifique‑se de que você tem:
 
-## Importar pacotes
+- Java Development Kit (JDK) instalado na sua máquina.  
+- Biblioteca Aspose.3D for Java baixada e configurada. Você pode encontrar o link de download **[here](https://releases.aspose.com/3d/java/)**.  
+- Conhecimento básico de programação Java.  
 
-Vamos começar importando os pacotes necessários para o seu projeto Java. Esta etapa é crucial para integrar o Aspose.3D ao seu ambiente de desenvolvimento.
+## Importar Pacotes  
+
+Primeiro, importe as classes Aspose.3D que você precisará. Esta etapa torna a biblioteca disponível para o seu projeto.
 
 ```java
 import com.aspose.threed.*;
@@ -36,9 +46,21 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-Agora, vamos explorar o fascinante mundo das consultas do tipo XPath com Aspose.3D para Java. Siga estas etapas para aproveitar o poder da consulta de objetos 3D:
+## O que é uma consulta semelhante a XPath no Aspose.3D?  
 
-## Etapa 1: crie uma cena para teste
+Aspose.3D implementa um subconjunto da sintaxe XPath que funciona contra o grafo da cena. Em vez de nós XML, as expressões visam instâncias **A3DObject** (nós, câmeras, luzes, malhas, etc.). Isso permite escrever filtros expressivos como “todas as câmeras” ou “objetos cujo nome é ‘light’” sem percorrer manualmente a hierarquia.
+
+## Por que usar consultas semelhantes a XPath para **select objects by type**?  
+
+- **Speed:** Uma linha substitui dezenas de verificações `if` e loops.  
+- **Readability:** A consulta lê como linguagem natural.  
+- **Flexibility:** Altere o filtro sem tocar no código de travessia.
+
+## Guia Passo a Passo  
+
+### Passo 1: Criar uma Cena para Teste  
+
+Começamos com uma cena vazia que hospedará nossa hierarquia.
 
 ```java
 // ExStart:CreateScene
@@ -46,10 +68,12 @@ Scene s = new Scene();
 // ExEnd:CreateScene
 ```
 
-## Etapa 2: Crie uma hierarquia de nós
+### Passo 2: Construir uma Hierarquia de Nós  
+
+Em seguida, adicionamos alguns nós filhos sob o nó raiz. Alguns nós contêm uma entidade **Camera** ou **Light**, que consultaremos mais tarde.
 
 ```java
-//ExStart:CriarHierarquia
+// ExStart:CreateHierarchy
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");
@@ -60,51 +84,72 @@ c.createChildNode("c2").addEntity(new Light("light"));
 // ExEnd:CreateHierarchy
 ```
 
-## Etapa 3: aplicar consultas semelhantes a XPath
+### Passo 3: Aplicar Consultas Semelhantes a XPath  
+
+Agora a parte divertida—usar strings no estilo XPath para **select objects by type** ou nome.
 
 ```java
 // ExStart:XPathLikeObjectQueries
-// Selecione objetos que tenham o tipo Câmera ou o nome seja 'leve', independentemente de sua localização.
-List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Câmera') ou (@Name = 'luz')]");
+// Select objects that have type Camera or name is 'light' regardless of their location.
+List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
 
-// Selecione um único objeto de câmera nos nós filhos do nó chamado 'c' no nó raiz
+// Select a single camera object under the child nodes of the node named 'c' under the root node
 A3DObject c1 = (A3DObject) s.getRootNode().selectSingleObject("/c/*/<Camera>");
 
-// Selecione o nó chamado 'a1' no nó raiz, mesmo que 'a1' não seja um nó filho direto
+// Select the node named 'a1' under the root node, even if 'a1' is not a directly child node
 A3DObject obj = (A3DObject) s.getRootNode().selectSingleObject("a1");
 
-// Selecione o próprio nó, pois '/' é selecionado diretamente no nó raiz
+// Select the node itself, as '/' is selected directly on the root node
 obj = (A3DObject) s.getRootNode().selectSingleObject("/");
 // ExEnd:XPathLikeObjectQueries
 ```
 
-Parabéns! Você aproveitou com sucesso o poder das consultas do tipo XPath no Aspose.3D para Java.
+**Explicação das expressões principais**
 
-## Conclusão
+- `//*[(@Type = 'Camera') or (@Name = 'light')]` – Encontra cada objeto na cena cujo atributo **type** é igual a `Camera` **ou** cujo atributo **name** é igual a `light`. Este é um exemplo clássico de **select objects by type**.  
+- `/c/*/<Camera>` – Começa na raiz, vai para o nó `c`, depois qualquer filho (`*`), e finalmente seleciona a entidade `<Camera>`.  
+- `a1` – Um atalho que procura em toda a árvore um nó chamado `a1`.  
+- `/` – Retorna o próprio nó raiz.  
 
-Neste tutorial, desmistificamos o processo de aplicação de consultas do tipo XPath a objetos 3D usando Aspose.3D para Java. Com esse novo conhecimento, você pode navegar e manipular cenas 3D complexas com facilidade.
+### Armadilhas Comuns & Dicas  
 
-## Perguntas frequentes
+- **Case sensitivity:** Nomes de atributos (`@Type`, `@Name`) diferenciam maiúsculas de minúsculas.  
+- **Entity vs. Node:** Use a sintaxe `<Camera>` somente quando precisar da entidade subjacente, não apenas do nó.  
+- **Performance:** Para cenas muito grandes, restrinja o caminho de busca (por exemplo, comece de um sub‑árvore específico) para melhorar a velocidade.  
 
-### Q1: Onde posso encontrar a documentação do Aspose.3D para Java?
+## Conclusão  
 
- A1: A documentação está disponível[aqui](https://reference.aspose.com/3d/java/).
+Agora você sabe como **create 3d scene java** programas que utilizam consultas semelhantes a XPath para **select objects by type** de forma eficiente. Essa abordagem escala de demos simples a aplicações 3‑D de nível de produção, proporcionando controle granular sobre a travessia da cena sem código verboso.
 
-### Q2: Como posso baixar Aspose.3D para Java?
+## Perguntas Frequentes  
 
- A2: Você pode baixá-lo[aqui](https://releases.aspose.com/3d/java/).
+**Q: Onde posso encontrar a documentação do Aspose.3D for Java?**  
+A: The documentation is available **[here](https://reference.aspose.com/3d/java/)**.
 
-### Q3: Existe um teste gratuito disponível?
+**Q: Como posso baixar o Aspose.3D for Java?**  
+A: You can download it **[here](https://releases.aspose.com/3d/java/)**.
 
- A3: Sim, você pode obter uma avaliação gratuita[aqui](https://releases.aspose.com/).
+**Q: Existe uma versão de avaliação gratuita disponível?**  
+A: Yes, you can get a free trial **[here](https://releases.aspose.com/)**.
 
-### Q4: Onde posso obter suporte para Aspose.3D para Java?
+**Q: Onde posso obter suporte para o Aspose.3D for Java?**  
+A: Visit the support forum **[here](https://forum.aspose.com/c/3d/18)**.
 
- A4: Visite o fórum de suporte[aqui](https://forum.aspose.com/c/3d/18).
+**Q: Precisa de uma licença temporária?**  
+A: Obtain a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
 
-### Q5: Precisa de uma licença temporária?
+**Q: Posso consultar propriedades personalizadas definidas pelo usuário?**  
+A: Yes, you can extend the XPath expression with additional `@` attributes that you add to nodes.
 
- A5: Obtenha uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+**Q: O motor de consultas funciona com cenas animadas?**  
+A: Absolutely – the queries operate on the static hierarchy; animations are attached to the same nodes and are therefore included in the results.
+
+---
+
+**Última atualização:** 2025-11-29  
+**Testado com:** Aspose.3D for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

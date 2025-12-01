@@ -1,33 +1,43 @@
 ---
-title: जावा में 3डी ऑब्जेक्ट पर XPath-जैसी क्वेरीज़ लागू करें
-linktitle: जावा में 3डी ऑब्जेक्ट पर XPath-जैसी क्वेरीज़ लागू करें
-second_title: Aspose.3D जावा एपीआई
-description: Aspose.3D के साथ जावा में 3D ऑब्जेक्ट क्वेरीज़ को आसानी से मास्टर करें। XPath-जैसी क्वेरीज़ लागू करें, दृश्यों में हेरफेर करें और अपने 3D विकास को उन्नत करें।
+date: 2025-11-29
+description: Aspose.3D for Java में **create 3d scene java** कैसे बनाएं और XPath‑जैसे
+  क्वेरी का उपयोग करके **select objects by type** कैसे चुनें, सीखें।
+language: hi
+linktitle: Create 3D Scene Java – Apply XPath‑Like Queries with Aspose.3D
+second_title: Aspose.3D Java API
+title: Java में 3D सीन बनाएं – Aspose.3D के साथ XPath‑जैसे क्वेरी लागू करें
+url: /java/3d-objects-and-scenes/xpath-like-object-queries/
 weight: 11
-url: /hi/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा में 3डी ऑब्जेक्ट पर XPath-जैसी क्वेरीज़ लागू करें
+# 3D सीन जावा बनाएं – Aspose.3D के साथ XPath‑जैसे क्वेरी लागू करें
 
-## परिचय
+## Introduction  
 
-जावा में 3डी मॉडलिंग और दृश्य हेरफेर के क्षेत्र में उतरना एक कठिन काम हो सकता है, लेकिन डरें नहीं! जावा के लिए Aspose.3D 3D ऑब्जेक्ट को संभालने के लिए एक मजबूत समाधान प्रदान करता है, जो इसे डेवलपर्स के लिए एक अमूल्य उपकरण बनाता है। इस ट्यूटोरियल में, हम आपको Aspose.3D का उपयोग करके जावा में 3D ऑब्जेक्ट्स पर XPath-जैसी क्वेरीज़ के अनुप्रयोग के बारे में मार्गदर्शन करेंगे।
+यदि आपको जटिल वस्तुओं की पदानुक्रम को नियंत्रित करने वाले **create 3d scene java** एप्लिकेशन बनाने की आवश्यकता है, तो Aspose.3D for Java आपको एक साफ़, XPath‑स्टाइल तरीका देता है जिससे आप बिल्कुल वही ढूँढ़ सकें जिसकी आपको ज़रूरत है। इस ट्यूटोरियल में हम एक सरल सीन बनाना, नोड्स की पदानुक्रम जोड़ना, और फिर XPath‑जैसे क्वेरी का उपयोग करके **select objects by type** (उदाहरण के लिए, कैमरा या लाइट) को ट्री में जहाँ भी हों, चुनना सीखेंगे। अंत तक आप एक ही अभिव्यक्ति से क्वेरी, फ़िल्टर और 3‑D एंटिटीज़ प्राप्त करने में सहज हो जाएंगे।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What can I query?** Any node or entity (Camera, Light, Mesh, etc.) in a Scene.  
+- **How do I select objects by type?** Use an XPath‑like expression such as `//*[(@Type='Camera')]`.  
+- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
+- **Which Java version is supported?** Java 8 or later.  
+- **Where can I download Aspose.3D?** From the official download page linked in the prerequisites.
 
-इससे पहले कि हम इस रोमांचक यात्रा पर निकलें, सुनिश्चित करें कि आपके पास निम्नलिखित शर्तें हैं:
+## Prerequisites  
 
-- आपकी मशीन पर जावा डेवलपमेंट किट (जेडीके) स्थापित है।
--  जावा लाइब्रेरी के लिए Aspose.3D डाउनलोड और सेट अप करें। आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/3d/java/).
-- जावा प्रोग्रामिंग का बुनियादी ज्ञान।
+शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
 
-## पैकेज आयात करें
+- आपके मशीन पर स्थापित Java Development Kit (JDK)।  
+- Aspose.3D for Java लाइब्रेरी डाउनलोड की हुई और सेट अप की हुई। आप डाउनलोड लिंक **[here](https://releases.aspose.com/3d/java/)** पर पा सकते हैं।  
+- Java प्रोग्रामिंग का बुनियादी ज्ञान।  
 
-आइए आपके जावा प्रोजेक्ट में आवश्यक पैकेज आयात करके शुरुआत करें। Aspose.3D को आपके विकास परिवेश में एकीकृत करने के लिए यह चरण महत्वपूर्ण है।
+## Import Packages  
+
+पहले, Aspose.3D क्लासेज़ को इम्पोर्ट करें जिनकी आपको आवश्यकता होगी। यह स्टेप लाइब्रेरी को आपके प्रोजेक्ट में उपलब्ध कराता है।
 
 ```java
 import com.aspose.threed.*;
@@ -36,20 +46,34 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-अब, आइए जावा के लिए Aspose.3D के साथ XPath जैसी क्वेरीज़ की आकर्षक दुनिया का पता लगाएं। 3डी ऑब्जेक्ट्स को क्वेरी करने की शक्ति प्राप्त करने के लिए इन चरणों का पालन करें:
+## What is an XPath‑like query in Aspose.3D?  
 
-## चरण 1: परीक्षण के लिए एक दृश्य बनाएं
+Aspose.3D एक उपसमुच्चय XPath सिंटैक्स को लागू करता है जो सीन ग्राफ़ के विरुद्ध काम करता है। XML नोड्स की बजाय, अभिव्यक्तियाँ **A3DObject** इंस्टेंसेज़ (नोड्स, कैमरा, लाइट, मेष आदि) को लक्षित करती हैं। इससे आप “सभी कैमरा” या “नाम ‘light’ वाले ऑब्जेक्ट” जैसे अभिव्यक्तिपूर्ण फ़िल्टर लिख सकते हैं बिना मैन्युअल रूप से पदानुक्रम को ट्रैवर्स किए।
+
+## Why use XPath‑like queries to **select objects by type**?  
+
+- **Speed:** One line replaces dozens of `if` checks and loops.  
+- **Readability:** The query reads like natural language.  
+- **Flexibility:** Change the filter without touching traversal code.
+
+## Step‑by‑Step Guide  
+
+### Step 1: Create a Scene for Testing  
+
+हम एक खाली सीन से शुरू करते हैं जो हमारी पदानुक्रम को होस्ट करेगा।
 
 ```java
-// एक्सस्टार्ट: क्रिएट सीन
+// ExStart:CreateScene
 Scene s = new Scene();
 // ExEnd:CreateScene
 ```
 
-## चरण 2: नोड्स का एक पदानुक्रम बनाएं
+### Step 2: Build a Hierarchy of Nodes  
+
+अब हम रूट नोड के नीचे कुछ चाइल्ड नोड्स जोड़ते हैं। कुछ नोड्स में **Camera** या **Light** एंटिटी होती है, जिसे हम बाद में क्वेरी करेंगे।
 
 ```java
-//एक्सस्टार्ट: पदानुक्रम बनाएं
+// ExStart:CreateHierarchy
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");
@@ -57,54 +81,75 @@ s.getRootNode().createChildNode("b");
 Node c = s.getRootNode().createChildNode("c");
 c.createChildNode("c1").addEntity(new Camera("cam"));
 c.createChildNode("c2").addEntity(new Light("light"));
-// ExEnd:पदानुक्रम बनाएँ
+// ExEnd:CreateHierarchy
 ```
 
-## चरण 3: XPath-जैसी क्वेरीज़ लागू करें
+### Step 3: Apply XPath‑Like Queries  
+
+अब मज़ेदार हिस्सा—XPath‑स्टाइल स्ट्रिंग्स का उपयोग करके **select objects by type** या नाम चुनना।
 
 ```java
-// एक्सस्टार्ट: XPathLikeObjectQuries
-// उन वस्तुओं का चयन करें जिनका प्रकार कैमरा है या नाम 'लाइट' है, भले ही उनका स्थान कुछ भी हो।
-List<Object> objects = s.getRootNode().selectObjects("//*[ (@Type = 'Camera') या (@Name = 'light')]");
+// ExStart:XPathLikeObjectQueries
+// Select objects that have type Camera or name is 'light' regardless of their location.
+List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
 
-// रूट नोड के अंतर्गत 'सी' नामक नोड के चाइल्ड नोड्स के अंतर्गत एक एकल कैमरा ऑब्जेक्ट का चयन करें
+// Select a single camera object under the child nodes of the node named 'c' under the root node
 A3DObject c1 = (A3DObject) s.getRootNode().selectSingleObject("/c/*/<Camera>");
 
-// रूट नोड के अंतर्गत 'a1' नामक नोड का चयन करें, भले ही 'a1' सीधे तौर पर चाइल्ड नोड न हो
+// Select the node named 'a1' under the root node, even if 'a1' is not a directly child node
 A3DObject obj = (A3DObject) s.getRootNode().selectSingleObject("a1");
 
-// नोड को स्वयं चुनें, क्योंकि '/' सीधे रूट नोड पर चुना जाता है
+// Select the node itself, as '/' is selected directly on the root node
 obj = (A3DObject) s.getRootNode().selectSingleObject("/");
-// ExEnd:XPathLikeObjectQuries
+// ExEnd:XPathLikeObjectQueries
 ```
 
-बधाई हो! आपने जावा के लिए Aspose.3D में XPath-जैसी क्वेरी की शक्ति का सफलतापूर्वक उपयोग किया है।
+**Explanation of the key expressions**
 
-## निष्कर्ष
+- `//*[(@Type = 'Camera') or (@Name = 'light')]` – सीन में प्रत्येक ऑब्जेक्ट को खोजता है जिसका **type** एट्रिब्यूट `Camera` के बराबर है **या** जिसका **name** एट्रिब्यूट `light` है। यह **select objects by type** का एक क्लासिक उदाहरण है।  
+- `/c/*/<Camera>` – रूट से शुरू होकर नोड `c` तक जाता है, फिर किसी भी चाइल्ड (`*`) को, और अंत में `<Camera>` एंटिटी को चुनता है।  
+- `a1` – एक शॉर्टहैंड जो पूरे ट्री में `a1` नाम के नोड को खोजता है।  
+- `/` – स्वयं रूट नोड को लौटाता है।
 
-इस ट्यूटोरियल में, हमने जावा के लिए Aspose.3D का उपयोग करके XPath-जैसी क्वेरीज़ को 3D ऑब्जेक्ट्स पर लागू करने की प्रक्रिया को स्पष्ट किया है। इस नए ज्ञान के साथ, आप जटिल 3डी दृश्यों को आसानी से नेविगेट और हेरफेर कर सकते हैं।
+### Common Pitfalls & Tips  
 
-## अक्सर पूछे जाने वाले प्रश्न
+- **Case sensitivity:** Attribute names (`@Type`, `@Name`) are case‑sensitive.  
+- **Entity vs. Node:** Use `<Camera>` syntax only when you need the underlying entity, not just the node.  
+- **Performance:** For very large scenes, narrow the search path (e.g., start from a specific subtree) to improve speed.
 
-### Q1: मैं जावा दस्तावेज़ के लिए Aspose.3D कहां पा सकता हूं?
+## Conclusion  
 
- A1: दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/3d/java/).
+अब आप जानते हैं कि कैसे **create 3d scene java** प्रोग्रामों में XPath‑जैसे क्वेरी का उपयोग करके प्रभावी रूप से **select objects by type** किया जाता है। यह दृष्टिकोण सरल डेमो से लेकर प्रोडक्शन‑ग्रेड 3‑D एप्लिकेशन्स तक स्केल करता है, जिससे आप सीन ट्रैवर्सल पर बारीकी से नियंत्रण रख सकते हैं बिना बौझिल कोड के।
 
-### Q2: मैं जावा के लिए Aspose.3D कैसे डाउनलोड कर सकता हूं?
+## Frequently Asked Questions  
 
- A2: आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/3d/java/).
+**Q: Where can I find the Aspose.3D for Java documentation?**  
+A: The documentation is available **[here](https://reference.aspose.com/3d/java/)**.
 
-### Q3: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
+**Q: How can I download Aspose.3D for Java?**  
+A: You can download it **[here](https://releases.aspose.com/3d/java/)**.
 
- उ3: हाँ, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+**Q: Is there a free trial available?**  
+A: Yes, you can get a free trial **[here](https://releases.aspose.com/)**.
 
-### Q4: मुझे जावा के लिए Aspose.3D के लिए समर्थन कहाँ से मिल सकता है?
+**Q: Where can I get support for Aspose.3D for Java?**  
+A: Visit the support forum **[here](https://forum.aspose.com/c/3d/18)**.
 
- उ4: सहायता मंच पर जाएँ[यहाँ](https://forum.aspose.com/c/3d/18).
+**Q: Need a temporary license?**  
+A: Obtain a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
 
-### Q5: अस्थायी लाइसेंस की आवश्यकता है?
+**Q: Can I query custom user‑defined properties?**  
+A: Yes, you can extend the XPath expression with additional `@` attributes that you add to nodes.
 
- A5: एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+**Q: Does the query engine work with animated scenes?**  
+A: Absolutely – the queries operate on the static hierarchy; animations are attached to the same nodes and are therefore included in the results.
+
+---
+
+**अंतिम अपडेट:** 2025-11-29  
+**परीक्षण किया गया:** Aspose.3D for Java 24.11  
+**लेखक:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

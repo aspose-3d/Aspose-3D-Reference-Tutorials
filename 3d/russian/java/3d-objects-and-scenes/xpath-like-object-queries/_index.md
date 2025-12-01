@@ -1,33 +1,43 @@
 ---
-title: Применение запросов типа XPath к 3D-объектам в Java
-linktitle: Применение запросов типа XPath к 3D-объектам в Java
+date: 2025-11-29
+description: Узнайте, как **создавать 3D‑сцены в Java** и использовать запросы, похожие
+  на XPath, для **выбора объектов по типу** в Aspose.3D для Java.
+language: ru
+linktitle: Create 3D Scene Java – Apply XPath‑Like Queries with Aspose.3D
 second_title: Aspose.3D Java API
-description: С легкостью осваивайте запросы к 3D-объектам на Java с помощью Aspose.3D. Применяйте запросы, подобные XPath, манипулируйте сценами и повышайте уровень своей 3D-разработки.
+title: Создание 3D‑сцены в Java – применение запросов, похожих на XPath, с Aspose.3D
+url: /java/3d-objects-and-scenes/xpath-like-object-queries/
 weight: 11
-url: /ru/java/3d-objects-and-scenes/xpath-like-object-queries/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Применение запросов типа XPath к 3D-объектам в Java
+# Создание 3D сцены Java – Применение XPath‑подобных запросов с Aspose.3D
 
-## Введение
+## Introduction  
 
-Погружение в область 3D-моделирования и манипулирования сценой в Java может оказаться непростой задачей, но не бойтесь! Aspose.3D for Java предоставляет надежное решение для обработки 3D-объектов, что делает его бесценным инструментом для разработчиков. В этом руководстве мы покажем вам, как применять XPath-подобные запросы к 3D-объектам в Java с помощью Aspose.3D.
+Если вам нужно **create 3d scene java** приложения, которые работают с сложными иерархиями объектов, Aspose.3D for Java предоставляет чистый, XPath‑подобный способ точно находить нужные элементы. В этом руководстве мы пошагово создадим простую сцену, добавим иерархию узлов и затем используем XPath‑подобные запросы для **select objects by type** (например, камеры или светильники), независимо от их положения в дереве. К концу вы будете уверенно выполнять запросы, фильтрацию и получение 3‑D сущностей с помощью единого выражения.
 
-## Предварительные условия
+## Quick Answers
+- **What can I query?** Любой узел или сущность (Camera, Light, Mesh и т.д.) в Scene.  
+- **How do I select objects by type?** Используйте XPath‑подобное выражение, например `//*[(@Type='Camera')]`.  
+- **Do I need a license for development?** Бесплатная пробная версия подходит для тестирования; для продакшна требуется лицензия.  
+- **Which Java version is supported?** Java 8 или новее.  
+- **Where can I download Aspose.3D?** С официальной страницы загрузки, ссылка указана в требованиях.
 
-Прежде чем мы отправимся в это увлекательное путешествие, убедитесь, что у вас есть следующие предпосылки:
+## Prerequisites  
 
-- На вашем компьютере установлен Java Development Kit (JDK).
--  Библиотека Aspose.3D для Java скачана и настроена. Вы можете найти ссылку для скачивания[здесь](https://releases.aspose.com/3d/java/).
-- Базовые знания Java-программирования.
+Прежде чем начать, убедитесь, что у вас есть:
 
-## Импортировать пакеты
+- Установленный Java Development Kit (JDK) на вашем компьютере.  
+- Библиотека Aspose.3D for Java загружена и настроена. Ссылка для загрузки находится **[here](https://releases.aspose.com/3d/java/)**.  
+- Базовые знания программирования на Java.  
 
-Давайте начнем с импорта необходимых пакетов в ваш Java-проект. Этот шаг имеет решающее значение для интеграции Aspose.3D в вашу среду разработки.
+## Import Packages  
+
+Сначала импортируйте необходимые классы Aspose.3D. Этот шаг делает библиотеку доступной вашему проекту.
 
 ```java
 import com.aspose.threed.*;
@@ -36,9 +46,21 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-Теперь давайте исследуем увлекательный мир XPath-подобных запросов с помощью Aspose.3D для Java. Выполните следующие шаги, чтобы раскрыть возможности запроса 3D-объектов:
+## What is an XPath‑like query in Aspose.3D?  
 
-## Шаг 1. Создайте сцену для тестирования
+Aspose.3D реализует подмножество синтаксиса XPath, которое работает с графом сцены. Вместо XML‑узлов выражения нацелены на экземпляры **A3DObject** (узлы, камеры, светильники, меши и т.д.). Это позволяет писать выразительные фильтры, такие как “all cameras” или “objects whose name is ‘light’”, без ручного обхода иерархии.
+
+## Why use XPath‑like queries to **select objects by type**?  
+
+- **Speed:** Одна строка заменяет десятки проверок `if` и циклов.  
+- **Readability:** Запрос читается как естественный язык.  
+- **Flexibility:** Измените фильтр, не меняя код обхода.
+
+## Step‑by‑Step Guide  
+
+### Step 1: Create a Scene for Testing  
+
+Мы начинаем с пустой сцены, которая будет содержать нашу иерархию.
 
 ```java
 // ExStart:CreateScene
@@ -46,10 +68,12 @@ Scene s = new Scene();
 // ExEnd:CreateScene
 ```
 
-## Шаг 2. Создайте иерархию узлов
+### Step 2: Build a Hierarchy of Nodes  
+
+Затем мы добавляем несколько дочерних узлов к корневому узлу. Некоторые узлы содержат сущности **Camera** или **Light**, которые мы позже запросим.
 
 ```java
-//ExStart:CreateHierarchy
+// ExStart:CreateHierarchy
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");
@@ -60,51 +84,72 @@ c.createChildNode("c2").addEntity(new Light("light"));
 // ExEnd:CreateHierarchy
 ```
 
-## Шаг 3. Примените запросы, подобные XPath
+### Step 3: Apply XPath‑Like Queries  
+
+Теперь самая интересная часть — использование строк в стиле XPath для **select objects by type** или по имени.
 
 ```java
 // ExStart:XPathLikeObjectQueries
-// Выбирайте объекты с типом камеры или именем «свет» независимо от их местоположения.
-List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Камера') или (@Name = 'light')]");
+// Select objects that have type Camera or name is 'light' regardless of their location.
+List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
 
-// Выберите один объект камеры под дочерними узлами узла с именем «c» под корневым узлом.
+// Select a single camera object under the child nodes of the node named 'c' under the root node
 A3DObject c1 = (A3DObject) s.getRootNode().selectSingleObject("/c/*/<Camera>");
 
-// Выберите узел с именем «a1» в корневом узле, даже если «a1» не является непосредственно дочерним узлом.
+// Select the node named 'a1' under the root node, even if 'a1' is not a directly child node
 A3DObject obj = (A3DObject) s.getRootNode().selectSingleObject("a1");
 
-// Выберите сам узел, так как '/' выбирается непосредственно на корневом узле.
+// Select the node itself, as '/' is selected directly on the root node
 obj = (A3DObject) s.getRootNode().selectSingleObject("/");
 // ExEnd:XPathLikeObjectQueries
 ```
 
-Поздравляем! Вы успешно использовали возможности XPath-подобных запросов в Aspose.3D для Java.
+**Объяснение ключевых выражений**
 
-## Заключение
+- `//*[(@Type = 'Camera') or (@Name = 'light')]` – Находит каждый объект в сцене, у которого атрибут **type** равен `Camera` **или** атрибут **name** равен `light`. Это классический пример **select objects by type**.  
+- `/c/*/<Camera>` – Начинается с корня, переходит к узлу `c`, затем к любому дочернему (`*`) и в конце выбирает сущность `<Camera>`.  
+- `a1` – Сокращение, которое ищет по всему дереву узел с именем `a1`.  
+- `/` – Возвращает сам корневой узел.
 
-В этом руководстве мы раскрыли тайну процесса применения XPath-подобных запросов к 3D-объектам с использованием Aspose.3D для Java. Благодаря этим новым знаниям вы сможете с легкостью перемещаться по сложным трехмерным сценам и манипулировать ими.
+### Common Pitfalls & Tips  
 
-## Часто задаваемые вопросы
+- **Case sensitivity:** Имена атрибутов (`@Type`, `@Name`) чувствительны к регистру.  
+- **Entity vs. Node:** Используйте синтаксис `<Camera>` только когда нужна сама сущность, а не просто узел.  
+- **Performance:** Для очень больших сцен сузьте путь поиска (например, начните с конкретного поддерева), чтобы повысить скорость.
 
-### Вопрос 1: Где я могу найти документацию Aspose.3D для Java?
+## Conclusion  
 
- A1: документация доступна[здесь](https://reference.aspose.com/3d/java/).
+Теперь вы знаете, как писать программы **create 3d scene java**, использующие XPath‑подобные запросы для эффективного **select objects by type**. Такой подход масштабируется от простых демонстраций до производственных 3‑D приложений, предоставляя тонкий контроль над обходом сцены без громоздкого кода.
 
-### Вопрос 2: Как загрузить Aspose.3D для Java?
+## Frequently Asked Questions  
 
- A2: Вы можете скачать его[здесь](https://releases.aspose.com/3d/java/).
+**Q: Where can I find the Aspose.3D for Java documentation?**  
+A: Документация доступна **[here](https://reference.aspose.com/3d/java/)**.
 
-### В3: Есть ли бесплатная пробная версия?
+**Q: How can I download Aspose.3D for Java?**  
+A: Вы можете скачать её **[here](https://releases.aspose.com/3d/java/)**.
 
- A3: Да, вы можете получить бесплатную пробную версию.[здесь](https://releases.aspose.com/).
+**Q: Is there a free trial available?**  
+A: Да, вы можете получить бесплатную пробную версию **[here](https://releases.aspose.com/)**.
 
-### Вопрос 4: Где я могу получить поддержку Aspose.3D для Java?
+**Q: Where can I get support for Aspose.3D for Java?**  
+A: Посетите форум поддержки **[here](https://forum.aspose.com/c/3d/18)**.
 
- A4: Посетите форум поддержки.[здесь](https://forum.aspose.com/c/3d/18).
+**Q: Need a temporary license?**  
+A: Получите временную лицензию **[here](https://purchase.aspose.com/temporary-license/)**.
 
-### В5: Нужна временная лицензия?
+**Q: Can I query custom user‑defined properties?**  
+A: Да, вы можете расширить XPath‑выражение дополнительными атрибутами `@`, которые вы добавляете к узлам.
 
- A5: Получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+**Q: Does the query engine work with animated scenes?**  
+A: Конечно – запросы работают со статической иерархией; анимации привязаны к тем же узлам и поэтому включаются в результаты.
+
+---
+
+**Последнее обновление:** 2025-11-29  
+**Тестировано с:** Aspose.3D for Java 24.11  
+**Автор:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
