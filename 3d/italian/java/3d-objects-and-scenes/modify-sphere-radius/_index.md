@@ -1,33 +1,54 @@
 ---
-title: Modifica il raggio della sfera 3D in Java con Aspose.3D
-linktitle: Modifica il raggio della sfera 3D in Java con Aspose.3D
-second_title: API Java Aspose.3D
-description: Esplora la programmazione Java 3D con Aspose.3D, modificando il raggio della sfera senza sforzo. Scaricalo ora per un'esperienza di sviluppo 3D senza interruzioni.
+date: 2025-11-30
+description: Scopri come utilizzare Aspose in Java per modificare il raggio di una
+  sfera 3D. Questa guida passo‑passo copre la libreria Aspose.3D per Java, come impostare
+  il raggio, aggiungere la sfera alla scena e scrivere il file OBJ in Java.
+language: it
+linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
+second_title: Aspose.3D Java API
+title: 'Come usare Aspose: modificare il raggio di una sfera 3D in Java con Aspose.3D'
+url: /java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
-url: /it/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Modifica il raggio della sfera 3D in Java con Aspose.3D
+# Come usare Aspose: Modificare il raggio di una sfera 3D in Java con Aspose.3D
 
-## introduzione
+## Introduzione
 
-Benvenuti nella nostra guida passo passo sulla modifica del raggio di una sfera 3D utilizzando Aspose.3D per Java. Aspose.3D è una potente libreria Java che consente agli sviluppatori di lavorare con file 3D e manipolarli senza problemi. In questo tutorial ci concentreremo sulla modifica del raggio di una sfera 3D utilizzando esempi pratici e spiegazioni dettagliate.
+Se stai cercando **come usare Aspose** per lavorare con modelli 3D in Java, sei nel posto giusto. In questo tutorial percorreremo passo dopo passo tutto il necessario per cambiare le dimensioni di una sfera, aggiungerla a una scena e infine scrivere un file OBJ usando la **libreria Aspose.3D per Java**. Alla fine avrai uno snippet riutilizzabile da inserire in qualsiasi applicazione 3D basata su Java.
+
+## Risposte rapide
+- **Qual è lo scopo principale di questa guida?** Mostrare come modificare il raggio di una sfera con Aspose.3D in Java.  
+- **Quale libreria utilizziamo?** La libreria Aspose.3D per Java (una **java 3d library** completa).  
+- **Come imposto il raggio?** Chiama `sphere.setRadius(double)` su un oggetto `Sphere`.  
+- **Posso esportare in OBJ?** Sì – usa `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`.  
+- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per lo sviluppo; è richiesta una licenza per la produzione.
+
+## Cos'è Aspose.3D per Java?
+
+Aspose.3D è una **java 3d library** che consente agli sviluppatori di creare, modificare e convertire file 3D senza dipendenze esterne. Supporta formati popolari come OBJ, FBX, STL e molti altri, rendendola ideale per giochi, strumenti CAD e visualizzazioni scientifiche.
+
+## Perché usare Aspose.3D per cambiare le dimensioni di una sfera?
+
+- **Nessun motore 3D nativo richiesto** – tutte le operazioni vengono eseguite sul modello di oggetti.  
+- **Cross‑platform** – funziona su qualsiasi OS che esegue Java.  
+- **Geometria ad alta precisione** – puoi impostare valori di raggio esatti, non solo una scala approssimativa.  
 
 ## Prerequisiti
 
-Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
+Prima di iniziare, assicurati di avere:
 
-- Conoscenza di base della programmazione Java.
--  Libreria Aspose.3D installata. Puoi scaricarlo da[Aspose.3D per la documentazione Java](https://reference.aspose.com/3d/java/).
-- Java Development Kit (JDK) installato sul tuo computer.
+- Una conoscenza di base della programmazione Java.  
+- La libreria Aspose.3D installata – puoi scaricarla dalla [documentazione di Aspose.3D per Java](https://reference.aspose.com/3d/java/).  
+- Java Development Kit (JDK) installato sulla tua macchina.
 
-## Importa pacchetti
+## Importare i pacchetti
 
-Per iniziare, importa i pacchetti necessari nel tuo progetto Java. Aggiungi le seguenti righe al tuo codice:
+Per cominciare, importa le classi necessarie nel tuo progetto Java:
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -37,78 +58,97 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Passaggio 1: inizializzare una scena
+## Passo 1: Inizializzare una scena
 
 ```java
 // ExStart:WorkingWithSphereRadius
 
-// inizializzare una scena
+// initialize a scene
 Scene scene = new Scene();
 ```
 
-Qui creiamo una nuova scena 3D utilizzando Aspose.3D per Java.
+Qui creiamo una nuova **scena 3D** che conterrà tutta la nostra geometria.
 
-## Passaggio 2: inizializzare una sfera
+## Passo 2: Inizializzare una sfera
 
 ```java
-// inizializzare una sfera
+// initialize a Sphere
 Sphere sphere = new Sphere();
 ```
 
-Crea un nuovo oggetto Sfera che verrà aggiunto alla scena.
+Un oggetto `Sphere` rappresenta una primitiva sferica perfetta. In questo momento utilizza il raggio predefinito di 1.0.
 
-## Passaggio 3: imposta il raggio
+## Passo 3: Come impostare il raggio di una sfera
 
 ```java
-// impostare il raggio
+// set radius
 sphere.setRadius(10);
 ```
 
-Imposta il raggio desiderato per la sfera. In questo esempio lo impostiamo su 10 unità.
+Questa riga dimostra **come impostare il raggio**. Puoi sostituire `10` con qualsiasi valore `double` per ottenere la dimensione desiderata.
 
-## Passaggio 4: aggiungi la sfera alla scena
+## Passo 4: Aggiungere la sfera alla scena
 
 ```java
-// aggiungi una sfera alla scena
+// add sphere to the scene
 scene.getRootNode().createChildNode(sphere);
 ```
 
-Aggiungi la sfera creata al nodo radice della scena.
+La chiamata **aggiunge la sfera alla scena** creando un nodo figlio sotto il nodo radice.
 
-## Passaggio 5: salva la scena
+## Passo 5: Scrivere il file OBJ in Java
 
 ```java
-// salvare la scena
+// save scene
 scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-Salva la scena modificata con la nuova sfera in un file 3D. In questo caso, lo salviamo come "sphere.obj" nel formato Wavefront OBJ.
+Infine, **scriviamo il file OBJ** in stile Java usando `scene.save`. Il file di output `sphere.obj` può essere aperto in qualsiasi visualizzatore 3D che supporti il formato Wavefront OBJ.
 
-## Conclusione
+## Problemi comuni e soluzioni
 
-Congratulazioni! Hai modificato con successo il raggio della sfera 3D utilizzando Aspose.3D per Java. Questo tutorial fornisce una guida chiara e concisa, che ti consente di integrare questi passaggi nei tuoi progetti Java senza sforzo.
+| Problema | Soluzione |
+|----------|-----------|
+| **La sfera appare troppo piccola nel visualizzatore** | Verifica che il valore del raggio sia impostato correttamente; ricorda che le unità sono arbitrarie a meno che non applichi una trasformazione di scala. |
+| **L'OBJ esportato non contiene materiale** | Aspose.3D scrive solo la geometria; aggiungi un materiale alla sfera se ti servono texture (`sphere.setMaterial(...)`). |
+| **Eccezione di licenza a runtime** | Assicurati di aver caricato un file di licenza temporaneo o permanente prima di creare la `Scene`. |
 
 ## Domande frequenti
 
-### Q1: Dove posso trovare la documentazione per Aspose.3D per Java?
+### D: Dove posso trovare la documentazione per Aspose.3D per Java?
 
- A1: Puoi fare riferimento a[Aspose.3D per la documentazione Java](https://reference.aspose.com/3d/java/) per informazioni complete e linee guida per l'utilizzo.
+R: Puoi consultare la [documentazione di Aspose.3D per Java](https://reference.aspose.com/3d/java/) per informazioni complete e linee guida d'uso.
 
-### Q2: Come posso scaricare Aspose.3D per Java?
+### D: Come scarico Aspose.3D per Java?
 
- R2: Puoi scaricare la libreria dalla pagina delle versioni:[Scarica Aspose.3D per Java](https://releases.aspose.com/3d/java/).
+R: Scarica la libreria dalla pagina dei rilasci: [Download Aspose.3D per Java](https://releases.aspose.com/3d/java/).
 
-### Q3: È disponibile una prova gratuita per Aspose.3D per Java?
+### D: È disponibile una versione di prova gratuita per Aspose.3D per Java?
 
- R3: Sì, puoi esplorare le funzionalità con una prova gratuita visitando[Prova gratuita di Aspose.3D](https://releases.aspose.com/).
+R: Sì, esplora le funzionalità con una prova gratuita visitando [Aspose.3D Free Trial](https://releases.aspose.com/).
 
-### Q4: Dove posso ottenere supporto per Aspose.3D per Java?
+### D: Dove posso ottenere supporto per Aspose.3D per Java?
 
- A4: Unisciti alla comunità Aspose su[Forum di supporto Aspose.3D](https://forum.aspose.com/c/3d/18) per assistenza e discussioni.
+R: Unisciti alla community di Aspose su [Aspose.3D Support Forum](https://forum.aspose.com/c/3d/18) per assistenza e discussioni.
 
-### Q5: Come posso ottenere una licenza temporanea per Aspose.3D?
+### D: Come posso ottenere una licenza temporanea per Aspose.3D?
 
- R5: Puoi ottenere una licenza temporanea visitando[Licenza temporanea](https://purchase.aspose.com/temporary-license/).
+R: Ottieni una licenza temporanea visitando [Temporary License](https://purchase.aspose.com/temporary-license/).
+
+### D: Posso usare questo codice con altri formati 3D come STL?
+
+R: Assolutamente – basta cambiare l'enumerazione `FileFormat` nella chiamata a `scene.save`, ad esempio `FileFormat.STL`.
+
+## Conclusione
+
+Ora hai imparato **come usare Aspose** modificare il raggio di una sfera, aggiungerla a una scena e esportare il risultato come file OBJ in Java. Sentiti libero di sperimentare con altre primitive, applicare materiali o concatenare più trasformazioni per creare modelli 3D più ricchi.
+
+---
+
+**Ultimo aggiornamento:** 2025-11-30  
+**Testato con:** Aspose.3D per Java 24.11  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,54 @@
 ---
-title: Aspose.3D ile Java'da 3D Sphere Yarıçapını değiştirin
-linktitle: Aspose.3D ile Java'da 3D Sphere Yarıçapını değiştirin
-second_title: Aspose.3D Java API'si
-description: Aspose.3D ile Java 3D programlamayı keşfedin, küre yarıçapını zahmetsizce değiştirin. Sorunsuz bir 3D geliştirme deneyimi için hemen indirin.
+date: 2025-11-30
+description: Java'da Aspose kullanarak bir 3D küre yarıçapını nasıl değiştireceğinizi
+  öğrenin. Bu adım‑adım rehber, Aspose.3D Java kütüphanesini, yarıçapı nasıl ayarlayacağınızı,
+  küreyi sahneye eklemeyi ve OBJ dosyasını Java ile yazmayı kapsar.
+language: tr
+linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
+second_title: Aspose.3D Java API
+title: 'Aspose Nasıl Kullanılır: Aspose.3D ile Java''da 3D Küre Yarıçapını Değiştirme'
+url: /java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
-url: /tr/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D ile Java'da 3D Sphere Yarıçapını değiştirin
+# Aspose Kullanımı: Java’da Aspose.3D ile 3D Küre Yarıçapını Değiştirme
 
-## giriiş
+## Giriş
 
-Aspose.3D for Java kullanarak 3 boyutlu kürenin yarıçapını değiştirmeye yönelik adım adım kılavuzumuza hoş geldiniz. Aspose.3D, geliştiricilerin 3D dosyalarla çalışmasına ve bunları sorunsuz bir şekilde işlemesine olanak tanıyan güçlü bir Java kitaplığıdır. Bu derste pratik örnekler ve ayrıntılı açıklamalar kullanarak 3 boyutlu bir kürenin yarıçapını değiştirmeye odaklanacağız.
+Java’da 3D modellerle çalışmak için **Aspose’un nasıl kullanılacağını** arıyorsanız doğru yerdesiniz. Bu öğreticide bir kürenin boyutunu değiştirme, sahneye ekleme ve sonunda **Aspose.3D Java kütüphanesi** bir OBJ dosyası yazma adımlarını adım adım göstereceğiz. Sonunda, herhangi bir Java tabanlı 3D uygulamasına ekleyebileceğiniz yeniden kullanılabilir bir kod parçacığına sahip olacaksınız.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **Bu kılavuzun temel amacı nedir?** Aspose.3D ile Java’da bir kürenin yarıçapını nasıl değiştireceğinizi göstermek.  
+- **Hangi kütüphaneyi kullanıyoruz?** Aspose.3D Java kütüphanesi (tam özellikli bir **java 3d library**).  
+- **Yarıçapı nasıl ayarlarım?** `Sphere` nesnesi üzerinde `sphere.setRadius(double)` metodunu çağırın.  
+- **OBJ’ye dışa aktarabilir miyim?** Evet – `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)` kullanın.  
+- **Lisans gerekiyor mu?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için lisans gereklidir.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+## Aspose.3D for Java Nedir?
 
-- Java programlamanın temel anlayışı.
--  Aspose.3D kütüphanesi kuruldu. adresinden indirebilirsiniz.[Aspose.3D for Java belgeleri](https://reference.aspose.com/3d/java/).
-- Makinenizde Java Geliştirme Kiti (JDK) yüklü.
+Aspose.3D, geliştiricilerin dış bağımlılık olmadan 3D dosyaları oluşturmasını, düzenlemesini ve dönüştürmesini sağlayan bir **java 3d library**’dir. OBJ, FBX, STL gibi popüler formatları destekler ve oyunlar, CAD araçları ve bilimsel görselleştirmeler için idealdir.
 
-## Paketleri İçe Aktar
+## Neden Aspose.3D ile Küre Boyutunu Değiştirmelisiniz?
 
-Başlamak için gerekli paketleri Java projenize aktarın. Kodunuza aşağıdaki satırları ekleyin:
+- **Yerel 3D motoru gerekmez** – tüm işlemler nesne modeli üzerinde gerçekleşir.  
+- **Çapraz platform** – Java çalıştırabilen herhangi bir işletim sisteminde çalışır.  
+- **Yüksek hassasiyetli geometri** – sadece yaklaşık ölçekleme değil, tam yarıçap değerleri ayarlayabilirsiniz.  
+
+## Ön Koşullar
+
+Başlamadan önce şunların kurulu olduğundan emin olun:
+
+- Java programlamaya temel bir anlayış.  
+- Aspose.3D kütüphanesi yüklü – [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) adresinden indirebilirsiniz.  
+- Makinenizde Java Development Kit (JDK) kurulu.
+
+## Paketleri İçe Aktarma
+
+Projeye gerekli sınıfları eklemek için:
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -37,78 +58,97 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## 1. Adım: Bir Sahneyi Başlatın
+## Adım 1: Bir Sahne Başlatma
 
 ```java
-// ExStart:SphereRadius ile Çalışmak
+// ExStart:WorkingWithSphereRadius
 
-// bir sahneyi başlat
+// initialize a scene
 Scene scene = new Scene();
 ```
 
-Burada Aspose.3D for Java'yı kullanarak yeni bir 3D sahne oluşturuyoruz.
+Burada tüm geometrimizi tutacak yeni bir **3D sahne** oluşturuyoruz.
 
-## Adım 2: Bir Küreyi Başlatın
+## Adım 2: Bir Küre Başlatma
 
 ```java
-// bir Küreyi başlat
+// initialize a Sphere
 Sphere sphere = new Sphere();
 ```
 
-Sahneye eklenecek yeni bir Sphere nesnesi oluşturun.
+`Sphere` nesnesi mükemmel bir küre primitive’ini temsil eder. Şu anda varsayılan yarıçapı 1.0’dir.
 
-## 3. Adım: Yarıçapı Ayarlayın
+## Adım 3: Kürenin Yarıçapını Nasıl Ayarlarsınız
 
 ```java
-// yarıçapı ayarla
+// set radius
 sphere.setRadius(10);
 ```
 
-Küre için istediğiniz yarıçapı ayarlayın. Bu örnekte bunu 10 birime ayarladık.
+Bu satır **yarıçapı nasıl ayarlayacağınızı** gösterir. İstediğiniz boyutu elde etmek için `10` yerine herhangi bir `double` değer koyabilirsiniz.
 
-## Adım 4: Sahneye Küre Ekleyin
+## Adım 4: Küreyi Sahneye Ekleme
 
 ```java
-// sahneye küre ekle
+// add sphere to the scene
 scene.getRootNode().createChildNode(sphere);
 ```
 
-Oluşturulan küreyi sahnenin kök düğümüne ekleyin.
+Bu çağrı **küreyi sahneye ekler** (veya “add sphere to scene”) kök düğümün altında bir çocuk düğüm oluşturarak.
 
-## Adım 5: Sahneyi Kaydet
+## Adım 5: OBJ Dosyası Yazma (Java)
 
 ```java
-// sahneyi kaydet
+// save scene
 scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-Değiştirilen sahneyi yeni küreyle birlikte bir 3B dosyaya kaydedin. Bu durumda Wavefront OBJ formatında "sphere.obj" olarak kaydediyoruz.
+Son olarak, `scene.save` kullanarak **OBJ dosyasını Java tarzında** yazıyoruz. Çıktı dosyası `sphere.obj` herhangi bir Wavefront OBJ formatını destekleyen 3D görüntüleyicide açılabilir.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Tebrikler! Aspose.3D for Java'yı kullanarak 3B küre yarıçapını başarıyla değiştirdiniz. Bu eğitimde, bu adımları Java projelerinize zahmetsizce entegre etmenize olanak tanıyan açık ve kısa bir kılavuz sağlanmıştır.
+| Sorun | Çözüm |
+|-------|----------|
+| **Küre görüntüleyicide çok küçük görünüyor** | Yarıçap değerinin doğru ayarlandığını doğrulayın; bir ölçekleme dönüşümü uygulamadığınız sürece birimler keyfidir. |
+| **Dışa aktarılan OBJ’de materyal yok** | Aspose.3D yalnızca geometriyi yazar; doku gerekiyorsa küreye bir materyal ekleyin (`sphere.setMaterial(...)`). |
+| **Çalışma zamanında lisans istisnası** | `Scene` oluşturulmadan önce geçici ya da kalıcı bir lisans dosyasının yüklendiğinden emin olun. |
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Aspose.3D for Java belgelerini nerede bulabilirim?
+### S: Aspose.3D for Java dokümantasyonunu nereden bulabilirim?
 
- A1: başvurabilirsiniz[Aspose.3D for Java belgeleri](https://reference.aspose.com/3d/java/) Kapsamlı bilgi ve kullanım yönergeleri için.
+C: Kapsamlı bilgi ve kullanım kılavuzları için [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) adresine bakabilirsiniz.
 
-### S2: Aspose.3D for Java'yı nasıl indirebilirim?
+### S: Aspose.3D for Java’yı nasıl indirebilirim?
 
- Cevap2: Kitaplığı sürümler sayfasından indirebilirsiniz:[Java için Aspose.3D'yi indirin](https://releases.aspose.com/3d/java/).
+C: Kütüphaneyi sürüm sayfasından indirebilirsiniz: [Download Aspose.3D for Java](https://releases.aspose.com/3d/java/).
 
-### S3: Aspose.3D for Java'nın ücretsiz deneme sürümü mevcut mu?
+### S: Aspose.3D for Java için ücretsiz deneme sürümü var mı?
 
- C3: Evet, adresini ziyaret ederek ücretsiz deneme sürümünün özelliklerini keşfedebilirsiniz.[Aspose.3D Ücretsiz Deneme](https://releases.aspose.com/).
+C: Evet, ücretsiz deneme sürümüyle özellikleri keşfetmek için [Aspose.3D Free Trial](https://releases.aspose.com/) adresini ziyaret edin.
 
-### S4: Aspose.3D for Java desteğini nereden alabilirim?
+### S: Aspose.3D for Java için destek nereden alınır?
 
- Cevap4: Aspose topluluğuna şu adresten katılın:[Aspose.3D Destek Forumu](https://forum.aspose.com/c/3d/18) Yardım ve tartışmalar için.
+C: Yardım ve tartışmalar için Aspose topluluğuna katılın: [Aspose.3D Support Forum](https://forum.aspose.com/c/3d/18).
 
-### S5: Aspose.3D için nasıl geçici lisans alabilirim?
+### S: Aspose.3D için geçici bir lisans nasıl alınır?
 
- Cevap5: Ziyaret ederek geçici bir lisans alabilirsiniz.[Geçici Lisans](https://purchase.aspose.com/temporary-license/).
+C: [Temporary License](https://purchase.aspose.com/temporary-license/) sayfasını ziyaret ederek geçici lisans edinebilirsiniz.
+
+### S: Bu kodu STL gibi diğer 3D formatlarıyla kullanabilir miyim?
+
+C: Kesinlikle – `scene.save` çağrısında `FileFormat` enum’unu değiştirin, örneğin `FileFormat.STL`.
+
+## Sonuç
+
+Artık **Aspose’u nasıl kullanacağınızı** öğrenerek bir kürenin yarıçapını değiştirdiniz, sahneye eklediniz ve sonucu Java’da bir OBJ dosyası olarak dışa aktardınız. Diğer primitive’lerle deneler yapabilir, materyaller ekleyebilir veya daha zengin 3D modeller oluşturmak için birden fazla dönüşüm zinciri oluşturabilirsiniz.
+
+---
+
+**Son Güncelleme:** 2025-11-30  
+**Test Edilen Sürüm:** Aspose.3D for Java 24.11  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

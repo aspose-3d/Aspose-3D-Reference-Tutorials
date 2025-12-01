@@ -1,33 +1,54 @@
 ---
-title: Ubah Radius Sphere 3D di Java dengan Aspose.3D
-linktitle: Ubah Radius Sphere 3D di Java dengan Aspose.3D
-second_title: Asumsikan.3D Java API
-description: Jelajahi pemrograman Java 3D dengan Aspose.3D, memodifikasi radius bola dengan mudah. Unduh sekarang untuk pengalaman pengembangan 3D yang lancar.
+date: 2025-11-30
+description: Pelajari cara menggunakan Aspose di Java untuk mengubah radius bola 3D.
+  Panduan langkah demi langkah ini mencakup pustaka Aspose.3D Java, cara mengatur
+  radius, menambahkan bola ke scene, dan menulis file OBJ di Java.
+language: id
+linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
+second_title: Aspose.3D Java API
+title: 'Cara Menggunakan Aspose: Mengubah Radius Bola 3D di Java dengan Aspose.3D'
+url: /java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
-url: /id/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ubah Radius Sphere 3D di Java dengan Aspose.3D
+# Cara Menggunakan Aspose: Mengubah Radius Bola 3D di Java dengan Aspose.3D
 
-## Perkenalan
+## Pendahuluan
 
-Selamat datang di panduan langkah demi langkah kami tentang memodifikasi radius bola 3D menggunakan Aspose.3D untuk Java. Aspose.3D adalah perpustakaan Java yang kuat yang memungkinkan pengembang untuk bekerja dengan file 3D dan memanipulasinya dengan lancar. Dalam tutorial ini, kita akan fokus mengubah radius bola 3D menggunakan contoh praktis dan penjelasan detail.
+Jika Anda mencari **cara menggunakan Aspose** untuk bekerja dengan model 3D di Java, Anda berada di tempat yang tepat. Pada tutorial ini kami akan membahas setiap langkah yang diperlukan untuk mengubah ukuran bola, menambahkannya ke sebuah scene, dan akhirnya menulis file OBJ menggunakan **perpustakaan Aspose.3D Java**. Pada akhir tutorial Anda akan memiliki potongan kode yang dapat digunakan kembali dan dapat disisipkan ke aplikasi 3D berbasis Java mana pun.
+
+## Jawaban Cepat
+- **Apa tujuan utama panduan ini?** Menunjukkan cara mengubah radius bola dengan Aspose.3D di Java.  
+- **Perpustakaan mana yang kita gunakan?** Perpustakaan Aspose.3D Java (sebuah **java 3d library** lengkap).  
+- **Bagaimana cara mengatur radius?** Panggil `sphere.setRadius(double)` pada objek `Sphere`.  
+- **Apakah saya dapat mengekspor ke OBJ?** Ya – gunakan `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi diperlukan untuk produksi.
+
+## Apa Itu Aspose.3D untuk Java?
+
+Aspose.3D adalah **java 3d library** yang memungkinkan pengembang membuat, mengedit, dan mengonversi file 3D tanpa ketergantungan eksternal. Ia mendukung format populer seperti OBJ, FBX, STL, dan lainnya, menjadikannya ideal untuk game, alat CAD, dan visualisasi ilmiah.
+
+## Mengapa Menggunakan Aspose.3D untuk Mengubah Ukuran Bola?
+
+- **Tidak memerlukan mesin 3D native** – semua operasi dilakukan pada model objek.  
+- **Cross‑platform** – bekerja pada sistem operasi apa pun yang menjalankan Java.  
+- **Geometri presisi tinggi** – Anda dapat mengatur nilai radius yang tepat, bukan sekadar skala perkiraan.  
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+Sebelum memulai, pastikan Anda memiliki:
 
-- Pemahaman dasar pemrograman Java.
--  Pustaka Aspose.3D diinstal. Anda dapat mengunduhnya dari[Aspose.3D untuk dokumentasi Java](https://reference.aspose.com/3d/java/).
-- Java Development Kit (JDK) diinstal pada mesin Anda.
+- Pemahaman dasar tentang pemrograman Java.  
+- Perpustakaan Aspose.3D terpasang – Anda dapat mengunduhnya dari [dokumentasi Aspose.3D untuk Java](https://reference.aspose.com/3d/java/).  
+- Java Development Kit (JDK) terinstal di mesin Anda.
 
-## Paket Impor
+## Mengimpor Paket
 
-Untuk memulai, impor paket yang diperlukan ke proyek Java Anda. Tambahkan baris berikut ke kode Anda:
+Untuk memulai, impor kelas yang diperlukan ke dalam proyek Java Anda:
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -37,78 +58,97 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Langkah 1: Inisialisasi Adegan
+## Langkah 1: Menginisialisasi Scene
 
 ```java
-// ExStart:BekerjaDenganSphereRadius
+// ExStart:WorkingWithSphereRadius
 
-// menginisialisasi sebuah adegan
+// initialize a scene
 Scene scene = new Scene();
 ```
 
-Di sini, kami membuat adegan 3D baru menggunakan Aspose.3D untuk Java.
+Di sini kami membuat **scene 3D** baru yang akan menampung semua geometri kami.
 
-## Langkah 2: Inisialisasi Sphere
+## Langkah 2: Menginisialisasi Bola
 
 ```java
-// menginisialisasi Sphere
+// initialize a Sphere
 Sphere sphere = new Sphere();
 ```
 
-Buat objek Sphere baru yang akan ditambahkan ke scene.
+Objek `Sphere` mewakili primitif bola sempurna. Pada titik ini ia menggunakan radius default sebesar 1.0.
 
-## Langkah 3: Atur Radius
+## Langkah 3: Cara Mengatur Radius Bola
 
 ```java
-// atur radius
+// set radius
 sphere.setRadius(10);
 ```
 
-Tetapkan radius yang diinginkan untuk bola. Dalam contoh ini, kami menetapkannya menjadi 10 unit.
+Baris ini menunjukkan **cara mengatur radius**. Anda dapat mengganti `10` dengan nilai `double` apa pun untuk mencapai ukuran yang diinginkan.
 
-## Langkah 4: Tambahkan Sphere ke Adegan
+## Langkah 4: Menambahkan Bola ke Scene
 
 ```java
-// tambahkan bola ke tempat kejadian
+// add sphere to the scene
 scene.getRootNode().createChildNode(sphere);
 ```
 
-Tambahkan bola yang dibuat ke simpul akar adegan.
+Pemanggilan ini **menambahkan bola ke scene** (atau “add sphere to scene”) dengan membuat node anak di bawah node root.
 
-## Langkah 5: Simpan Adegan
+## Langkah 5: Menulis File OBJ di Java
 
 ```java
-// simpan adegan
+// save scene
 scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-Simpan adegan yang dimodifikasi dengan bola baru ke file 3D. Dalam hal ini, kami menyimpannya sebagai "sphere.obj" dalam format Wavefront OBJ.
+Akhirnya, kami **menulis file OBJ** gaya Java menggunakan `scene.save`. File output `sphere.obj` dapat dibuka di penampil 3D apa pun yang mendukung format Wavefront OBJ.
+
+## Masalah Umum dan Solusinya
+
+| Masalah | Solusi |
+|-------|----------|
+| **Bola terlihat terlalu kecil di penampil** | Pastikan nilai radius telah diatur dengan benar; ingat bahwa satuan bersifat arbitrer kecuali Anda menerapkan transformasi skala. |
+| **OBJ yang diekspor tidak memiliki material** | Aspose.3D hanya menulis geometri; tambahkan material ke bola jika Anda memerlukan tekstur (`sphere.setMaterial(...)`). |
+| **Pengecualian lisensi saat runtime** | Pastikan Anda telah memuat file lisensi sementara atau permanen sebelum membuat `Scene`. |
+
+## Pertanyaan yang Sering Diajukan
+
+### Q: Di mana saya dapat menemukan dokumentasi untuk Aspose.3D untuk Java?
+
+A: Anda dapat merujuk ke [dokumentasi Aspose.3D untuk Java](https://reference.aspose.com/3d/java/) untuk informasi lengkap dan panduan penggunaan.
+
+### Q: Bagaimana cara mengunduh Aspose.3D untuk Java?
+
+A: Unduh perpustakaan dari halaman rilis: [Download Aspose.3D untuk Java](https://releases.aspose.com/3d/java/).
+
+### Q: Apakah ada percobaan gratis untuk Aspose.3D untuk Java?
+
+A: Ya, jelajahi fitur dengan percobaan gratis dengan mengunjungi [Aspose.3D Free Trial](https://releases.aspose.com/).
+
+### Q: Di mana saya dapat mendapatkan dukungan untuk Aspose.3D untuk Java?
+
+A: Bergabunglah dengan komunitas Aspose di [Aspose.3D Support Forum](https://forum.aspose.com/c/3d/18) untuk bantuan dan diskusi.
+
+### Q: Bagaimana cara memperoleh lisensi sementara untuk Aspose.3D?
+
+: Dapatkan lisensi sementara dengan mengunjungi [Temporary License](https://purchase.aspose.com/temporary-license/).
+
+### Q: Bisakah saya menggunakan kode ini dengan format 3D lain seperti STL?
+
+A: Tentu – cukup ubah enum `FileFormat` saat memanggil `scene.save`, misalnya, `FileFormat.STL`.
 
 ## Kesimpulan
 
-Selamat! Anda telah berhasil memodifikasi radius bola 3D menggunakan Aspose.3D untuk Java. Tutorial ini memberikan panduan yang jelas dan ringkas, memungkinkan Anda mengintegrasikan langkah-langkah ini ke dalam proyek Java Anda dengan mudah.
+Anda kini telah menguasai **cara menggunakan Aspose** untuk mengubah radius bola, menambahkannya ke scene, dan mengekspor hasilnya sebagai file OBJ di Java. Silakan bereksperimen dengan primitif lain, menerapkan material, atau menggabungkan beberapa transformasi untuk membangun model 3D yang lebih kaya.
 
-## FAQ
+---
 
-### Q1: Di mana saya dapat menemukan dokumentasi Aspose.3D untuk Java?
+**Terakhir Diperbarui:** 2025-11-30  
+**Diuji Dengan:** Aspose.3D untuk Java 24.11  
+**Penulis:** Aspose  
 
- A1: Anda dapat merujuk ke[Aspose.3D untuk dokumentasi Java](https://reference.aspose.com/3d/java/) untuk informasi komprehensif dan pedoman penggunaan.
-
-### Q2: Bagaimana cara mengunduh Aspose.3D untuk Java?
-
- A2: Anda dapat mengunduh perpustakaan dari halaman rilis:[Unduh Aspose.3D untuk Java](https://releases.aspose.com/3d/java/).
-
-### Q3: Apakah tersedia uji coba gratis untuk Aspose.3D untuk Java?
-
- A3: Ya, Anda dapat menjelajahi fitur-fitur dengan uji coba gratis dengan mengunjungi[Uji Coba Gratis Aspose.3D](https://releases.aspose.com/).
-
-### Q4: Di mana saya bisa mendapatkan dukungan untuk Aspose.3D untuk Java?
-
- A4: Bergabunglah dengan komunitas Aspose di[Forum Dukungan Aspose.3D](https://forum.aspose.com/c/3d/18) untuk bantuan dan diskusi.
-
-### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
-
- A5: Anda bisa mendapatkan lisensi sementara dengan mengunjungi[Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

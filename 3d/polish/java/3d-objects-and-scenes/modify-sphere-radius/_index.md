@@ -1,33 +1,55 @@
 ---
-title: Zmodyfikuj promień kuli 3D w Javie za pomocą Aspose.3D
-linktitle: Zmodyfikuj promień kuli 3D w Javie za pomocą Aspose.3D
-second_title: Aspose.3D API Java
-description: Poznaj programowanie Java 3D za pomocą Aspose.3D, modyfikując promień kuli bez wysiłku. Pobierz teraz, aby móc płynnie programować w 3D.
+date: 2025-11-30
+description: Dowiedz się, jak używać Aspose w Javie do modyfikacji promienia sfery
+  3D. Ten przewodnik krok po kroku obejmuje bibliotekę Aspose.3D Java, jak ustawić
+  promień, dodać sferę do sceny oraz zapisać plik OBJ w Javie.
+language: pl
+linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
+second_title: Aspose.3D Java API
+title: 'Jak korzystać z Aspose: Modyfikacja promienia sfery 3D w Javie przy użyciu
+  Aspose.3D'
+url: /java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
-url: /pl/java/3d-objects-and-scenes/modify-sphere-radius/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zmodyfikuj promień kuli 3D w Javie za pomocą Aspose.3D
+# Jak używać Aspose: Zmiana promienia sfery 3D w Javie z Aspose.3D
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w naszym przewodniku krok po kroku dotyczącym modyfikowania promienia kuli 3D za pomocą Aspose.3D dla Java. Aspose.3D to potężna biblioteka Java, która umożliwia programistom pracę z plikami 3D i płynne manipulowanie nimi. W tym samouczku skupimy się na zmianie promienia kuli 3D, korzystając z praktycznych przykładów i szczegółowych wyjaśnień.
+Jeśli szukasz **jak używać Aspose** do pracy z modelami 3D w Javie, trafiłeś we właściwe miejsce. W tym samouczku przeprowadzimy Cię przez każdy krok potrzebny do zmiany rozmiaru sfery, dodania jej do sceny oraz zapisania pliku OBJ przy użyciu **biblioteki Aspose.3D Java**. Na koniec będziesz mieć gotowy fragment kodu, który możesz wstawić do dowolnej aplikacji 3D opartej na Javie.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaki jest główny cel tego przewodnika?** Pokazać, jak zmodyfikować promień sfery przy użyciu Aspose.3D w Javie.  
+- **Z której biblioteki korzystamy?** Z biblioteki Aspose.3D Java (pełnoprawna **java 3d library**).  
+- **Jak ustawić promień?** Wywołaj `sphere.setRadius(double)` na obiekcie `Sphere`.  
+- **Czy mogę wyeksportować do OBJ?** Tak – użyj `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarcza do rozwoju; licencja jest wymagana w produkcji.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest Aspose.3D dla Javy?
 
-- Podstawowa znajomość programowania w języku Java.
--  Zainstalowana biblioteka Aspose.3D. Można go pobrać z[Dokumentacja Aspose.3D dla Java](https://reference.aspose.com/3d/java/).
-- Zestaw Java Development Kit (JDK) zainstalowany na komputerze.
+Aspose.3D jest **java 3d library**, która pozwala programistom tworzyć, edytować i konwertować pliki 3D bez żadnych zewnętrznych zależności. Obsługuje popularne formaty, takie jak OBJ, FBX, STL i inne, co czyni ją idealną dla gier, narzędzi CAD oraz wizualizacji naukowych.
 
-## Importuj pakiety
+## Dlaczego warto używać Aspose.3D do zmiany rozmiaru sfery?
 
-Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java. Dodaj następujące linie do swojego kodu:
+- **Brak wymogu natywnego silnika 3D** – wszystkie operacje odbywają się na modelu obiektowym.  
+- **Cross‑platform** – działa na każdym systemie operacyjnym, na którym działa Java.  
+- **Wysoka precyzja geometrii** – możesz ustawiać dokładne wartości promienia, a nie tylko przybliżone skalowanie.  
+
+## Wymagania wstępne
+
+Zanim przejdziesz do kodu, upewnij się, że masz:
+
+- Podstawową znajomość programowania w Javie.  
+- Zainstalowaną bibliotekę Aspose.3D – możesz ją pobrać z [dokumentacji Aspose.3D dla Javy](https://reference.aspose.com/3d/java/).  
+- Zainstalowany Java Development Kit (JDK) na swoim komputerze.
+
+## Importowanie pakietów
+
+Aby rozpocząć, zaimportuj niezbędne klasy do swojego projektu Java:
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -37,78 +59,97 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Krok 1: Zainicjuj scenę
+## Krok 1: Inicjalizacja sceny
 
 ```java
-// ExStart:Praca z promieniem sfery
+// ExStart:WorkingWithSphereRadius
 
-// zainicjalizować scenę
+// initialize a scene
 Scene scene = new Scene();
 ```
 
-Tutaj tworzymy nową scenę 3D przy użyciu Aspose.3D dla Java.
+Tutaj tworzymy nową **scenę 3D**, która będzie zawierała całą naszą geometrię.
 
-## Krok 2: Zainicjuj kulę
+## Krok 2: Inicjalizacja sfery
 
 ```java
-// zainicjuj Sferę
+// initialize a Sphere
 Sphere sphere = new Sphere();
 ```
 
-Utwórz nowy obiekt Sphere, który zostanie dodany do sceny.
+Obiekt `Sphere` reprezentuje idealny prymityw sferyczny. Na tym etapie używa domyślnego promienia 1.0.
 
-## Krok 3: Ustaw promień
+## Krok 3: Jak ustawić promień sfery
 
 ```java
-// ustawić promień
+// set radius
 sphere.setRadius(10);
 ```
 
-Ustaw żądany promień kuli. W tym przykładzie ustawiliśmy go na 10 jednostek.
+Ten wiersz pokazuje **jak ustawić promień**. Możesz zamienić `10` na dowolną wartość typu `double`, aby uzyskać pożądany rozmiar.
 
-## Krok 4: Dodaj kulę do sceny
+## Krok 4: Dodanie sfery do sceny
 
 ```java
-// dodaj kulę do sceny
+// add sphere to the scene
 scene.getRootNode().createChildNode(sphere);
 ```
 
-Dodaj utworzoną kulę do węzła głównego sceny.
+Wywołanie **dodaje sferę do sceny** (lub „add sphere to scene”) poprzez utworzenie węz potomnego pod węzłem głównym.
 
-## Krok 5: Zapisz scenę
+## Krok 5: Zapis pliku OBJ w Javie
 
 ```java
-// zapisz scenę
+// save scene
 scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-Zapisz zmodyfikowaną scenę z nową kulą do pliku 3D. W tym przypadku zapisujemy go jako „sphere.obj” w formacie Wavefront OBJ.
+Na koniec **zapisujemy plik OBJ** w stylu Java przy użyciu `scene.save`. Plik wyjściowy `sphere.obj` można otworzyć w dowolnym przeglądarce 3D obsługującej format Wavefront OBJ.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Gratulacje! Pomyślnie zmodyfikowałeś promień kuli 3D przy użyciu Aspose.3D dla Java. Ten samouczek zawiera jasny i zwięzły przewodnik, dzięki któremu możesz bez wysiłku zintegrować te kroki z projektami Java.
+| Problem | Rozwiązanie |
+|-------|----------|
+| **Sfera wydaje się zbyt mała w przeglądarce** | Sprawdź, czy wartość promienia jest ustawiona poprawnie; pamiętaj, że jednostki są arbitralne, chyba że zastosujesz transformację skalowania. |
+| **Wyeksportowany OBJ nie ma materiału** | Aspose.3D zapisuje tylko geometrię; dodaj materiał do sfery, jeśli potrzebujesz tekstur (`sphere.setMaterial(...)`). |
+| **Wyjątek licencyjny w czasie wykonywania** | Upewnij się, że przed utworzeniem `Scene` załadowano tymczasowy lub stały plik licencyjny. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Gdzie mogę znaleźć dokumentację Aspose.3D dla Java?
+### Q: Gdzie mogę znaleźć dokumentację Aspose.3D dla Javy?
 
- Odpowiedź 1: Możesz odwołać się do[Dokumentacja Aspose.3D dla Java](https://reference.aspose.com/3d/java/) aby uzyskać wyczerpujące informacje i wskazówki dotyczące użytkowania.
+A: Możesz odwołać się do [dokumentacji Aspose.3D dla Javy](https://reference.aspose.com/3d/java/) po szczegółowe informacje i wytyczne dotyczące użycia.
 
-### P2: Jak pobrać Aspose.3D dla Java?
+### Q: Jak pobrać Aspose.3D dla Javy?
 
- O2: Możesz pobrać bibliotekę ze strony wydań:[Pobierz Aspose.3D dla Javy](https://releases.aspose.com/3d/java/).
+A: Pobierz bibliotekę ze strony wydań: [Download Aspose.3D for Java](https://releases.aspose.com/3d/java/).
 
-### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.3D dla Java?
+### Q: Czy dostępna jest darmowa wersja próbna Aspose.3D dla Javy?
 
- Odpowiedź 3: Tak, możesz zapoznać się z funkcjami w ramach bezpłatnego okresu próbnego, odwiedzając witrynę[Bezpłatna wersja próbna Aspose.3D](https://releases.aspose.com/).
+A: Tak, możesz wypróbować funkcje w wersji trial, odwiedzając [Aspose.3D Free Trial](https://releases.aspose.com/).
 
-### P4: Gdzie mogę uzyskać wsparcie dla Aspose.3D dla Java?
+### Q: Gdzie mogę uzyskać wsparcie dla Aspose.3D dla Javy?
 
- A4: Dołącz do społeczności Aspose pod adresem[Forum wsparcia Aspose.3D](https://forum.aspose.com/c/3d/18) za pomoc i dyskusję.
+A: Dołącz do społeczności Aspose na [Aspose.3D Support Forum](https://forum.aspose.com/c/3d/18), aby uzyskać pomoc i dyskusje.
 
-### P5: Jak mogę uzyskać tymczasową licencję na Aspose.3D?
+### Q: Jak mogę uzyskać tymczasową licencję dla Aspose.3D?
 
- A5: Możesz uzyskać tymczasową licencję, odwiedzając[Licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+A: Uzyskaj tymczasową licencję, odwiedzając [Temporary License](https://purchase.aspose.com/temporary-license/).
+
+### Q: Czy mogę używać tego kodu z innymi formatami 3D, takimi jak STL?
+
+A: Oczywiście – wystarczy zmienić wartość enum `FileFormat` przy wywołaniu `scene.save`, np. `FileFormat.STL`.
+
+## Zakończenie
+
+Teraz opanowałeś **jak używać Aspose** do modyfikacji promienia sfery, dodania jej do sceny oraz eksportu wyniku jakoiku OBJ w Javie. Śmiało eksperymentuj z innymi prymitywami, stosuj materiały lub łańcuchuj wiele transformacji, aby tworzyć bardziej złożone modele 3D.
+
+---
+
+**Ostatnia aktualizacja:** 2025-11-30  
+**Testowano z:** Aspose.3D for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
