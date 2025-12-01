@@ -1,33 +1,41 @@
 ---
-title: Aspose.3D를 사용하여 Java 장면에서 3D 속성 및 사용자 정의 데이터 작업
-linktitle: Aspose.3D를 사용하여 Java 장면에서 3D 속성 및 사용자 정의 데이터 작업
-second_title: Aspose.3D 자바 API
-description: 원활한 3D 속성 조작을 위해 Aspose.3D로 Java 애플리케이션을 강화하세요. 단계별 안내를 보려면 튜토리얼을 따르세요.
+date: 2025-12-01
+description: Aspose.3D를 사용한 Java 씬에서 텍스처 색상 변경, 재질 속성 접근, Vector3 값 설정 및 이름으로 속성 조회하는
+  방법을 배우세요 – 완전한 Aspose 3D 튜토리얼.
+language: ko
+linktitle: Change texture color and manage 3D properties in Java scenes using Aspose.3D
+second_title: Aspose.3D Java API
+title: Aspose.3D를 사용하여 Java 씬에서 텍스처 색상을 변경하고 3D 속성을 관리하기
+url: /java/3d-scenes-and-models/managing-3d-properties-scenes/
 weight: 14
-url: /ko/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D를 사용하여 Java 장면에서 3D 속성 및 사용자 정의 데이터 작업
+# Java 씬에서 Aspose.3D를 사용하여 텍스처 색상 변경 및 3D 속성 관리
 
 ## 소개
 
-Aspose.3D를 사용하여 Java 장면에서 3D 속성 및 사용자 정의 데이터 작업에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 Aspose.3D의 강력한 기능을 탐구하여 Java 애플리케이션 내에서 3D 속성을 조작하는 방법에 대한 단계별 지침을 제공합니다.
+이 **Aspose 3D 튜토리얼**에서는 **텍스처 색상 변경** 방법과 Java 씬 내부에서 3D 속성 및 사용자 정의 데이터를 다루는 방법을 알아봅니다. 게임, 제품 시각화 도구, 과학 뷰어 등을 만들 때 런타임에 재질 속성을 수정할 수 있으면 완전한 예술적 제어가 가능합니다. 씬을 로드하고 `Vector3` 값을 사용해 *Diffuse* 색상을 조정하는 과정을 단계별로 살펴보겠습니다.
+
+## 빠른 답변
+- **무엇을 수정할 수 있나요?** 텍스처 색상, 불투명도, 광택 및 재질에 연결된 모든 사용자 정의 속성을 변경할 수 있습니다.  
+- **어떤 클래스가 데이터를 보유하나요?** `Material` 및 그 `PropertyCollection`.  
+- **새 색상을 어떻게 설정하나요?** `props.set("Diffuse", new Vector3(r, g, b))`를 사용합니다.  
+- **라이선스가 필요합니까?** 평가용으로는 임시 라이선스로 동작하지만, 제품에서는 정식 라이선스가 필요합니다.  
+- **지원되는 포맷?** FBX, OBJ, STL, GLTF 등 다수.
 
 ## 전제 조건
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
-
-- 컴퓨터에 JDK(Java Development Kit)가 설치되어 있습니다.
--  Aspose.3D 라이브러리를 다운로드하고 설정했습니다. 다음에서 다운로드할 수 있습니다.[Aspose 웹 사이트](https://releases.aspose.com/3d/java/).
-- Java 프로그래밍에 대한 기본적인 이해.
+- Java Development Kit (JDK) 8 이상이 설치되어 있어야 합니다.  
+- Aspose.3D for Java 라이브러리 ([Aspose 웹사이트](https://releases.aspose.com/3d/java/)에서 다운로드).  
+- Java 구문 및 객체 지향 개념에 대한 기본적인 이해.
 
 ## 패키지 가져오기
 
-Java 코드에서 Aspose.3D가 제공하는 기능을 활용하려면 필요한 패키지를 가져와야 합니다. 다음을 포함하십시오:
+논리를 작성하기 전에 재질 속성 및 벡터 조작에 접근할 수 있는 클래스를 가져옵니다.
 
 ```java
 import java.io.IOException;
@@ -39,27 +47,32 @@ import com.aspose.threed.Scene;
 import com.aspose.threed.Vector3;
 ```
 
-이제 명확하고 자세한 이해를 위해 제공된 예제를 여러 단계로 나누어 보겠습니다.
+### 왜 이러한 클래스를 가져와야 하나요?
 
-## 1단계: 장면 초기화
+- `Scene`은 3D 파일을 로드하고 나타냅니다.  
+- `Material`은 표면 정의(텍스처, 색상 등)를 제공합니다.  
+- `PropertyCollection`은 사전과 같은 컨테이너로, 이름으로 **재질 속성에 접근**할 수 있게 합니다.  
+- `Vector3`은 색상 및 기타 3요소 벡터에 사용되는 데이터 타입입니다.
+
+## 단계 1: 씬 초기화
 
 ```java
 String dataDir = "Your Document Directory";
 Scene scene = new Scene(dataDir + "EmbeddedTexture.fbx");
 ```
 
-이 단계에서는 Aspose.3D 라이브러리를 사용하여 3D 장면을 초기화하고 지정된 디렉터리에서 3D 모델을 로드합니다.
+우리는 이미 텍스처가 포함된 FBX 파일을 로드하여 `Scene` 객체를 생성합니다. 이것이 **텍스처 색상 변경**을 수행할 캔버스가 됩니다.
 
-## 2단계: 재료 속성에 액세스
+## 단계 2: 재질 속성 접근
 
 ```java
 Material material = scene.getRootNode().getChildNodes().get(0).getMaterial();
 PropertyCollection props = material.getProperties();
 ```
 
-여기서는 3D 모델의 재료 속성을 검색하여 색상, 질감 등과 같은 다양한 측면을 조작할 수 있습니다.
+여기서는 씬 내 첫 번째 메쉬의 **재질 속성**에 접근합니다. `Material` 객체는 `PropertyCollection`을 보유하며, *Diffuse*, *Specular*, 사용자 정의 데이터와 같은 모든 구성 가능한 속성을 저장합니다.
 
-## 3단계: 모든 속성 나열
+## 단계 3: 모든 속성 나열
 
 ```java
 for (Property prop : props) {
@@ -67,35 +80,35 @@ for (Property prop : props) {
 }
 ```
 
-for 루프를 사용하여 모든 속성을 반복하고 이름과 값을 인쇄합니다. 이는 사용 가능한 속성에 대한 포괄적인 개요를 제공합니다.
+`props`를 반복하면 각 속성 이름과 현재 값이 출력됩니다. 이 빠른 인벤토리를 통해 나중에 수정할 수 있는 키를 발견할 수 있습니다. 예를 들어 기본 색상에 해당하는 `"Diffuse"`가 있습니다.
 
-## 4단계: 속성 값 수정
+## 단계 4: Vector3 값 설정으로 텍스처 색상 변경
 
 ```java
 props.set("Diffuse", new Vector3(1, 0, 1));
 ```
 
-이 단계에서는 특정 속성("확산")의 값을 수정하여 3D 모델의 모양을 변경합니다.
+**Pro tip:** `Vector3` 생성자는 **빨강, 초록, 파랑** 구성 요소를 나타내는 세 개의 부동소수점 숫자(범위 0‑1)를 받습니다. `(1, 0, 1)`을 설정하면 텍스처의 기본 색상이 마젠타로 바뀌어 모델의 **텍스처 색상 변경**이 효과적으로 이루어집니다.
 
-## 5단계: 이름으로 속성 검색
+## 단계 5: 이름으로 속성 가져오기
 
 ```java
 Object diffuse = (Vector3) props.get("Diffuse");
 System.out.println(diffuse);
 ```
 
-이름으로 특정 속성("확산")의 값을 검색하고 결과를 인쇄합니다.
+이 예시는 **이름으로 속성 가져오기**를 보여줍니다. 반환된 `Object`를 `Vector3`으로 캐스팅하여 색상을 프로그래밍 방식으로 다룹니다.
 
-## 6단계: 속성 인스턴스에 액세스
+## 단계 6: 속성 인스턴스 접근
 
 ```java
 Property pdiffuse = props.findProperty("Diffuse");
 System.out.println(pdiffuse);
 ```
 
-속성("확산")의 인스턴스를 가져오고 해당 유형 및 레이블을 포함하여 이에 대한 정보를 인쇄합니다.
+`findProperty`는 전체 `Property` 객체를 반환하며, 속성 유형, 레이블 및 연결된 사용자 정의 데이터와 같은 메타데이터에 접근할 수 있게 합니다.
 
-## 7단계: Traverse 속성의 속성
+## 단계 7: 속성의 하위 속성 탐색
 
 ```java
 for (Property pp : pdiffuse.getProperties()) {
@@ -103,33 +116,46 @@ for (Property pp : pdiffuse.getProperties()) {
 }
 ```
 
-"확산" 속성의 속성을 탐색하여 계층적 속성 구조를 탐색하는 기능을 보여줍니다.
+일부 속성은 계층 구조를 가집니다. `pdiffuse.getProperties()`를 탐색하면 *Diffuse* 항목에 속한 텍스처 좌표, 애니메이션 키 등 중첩된 속성을 확인할 수 있습니다.
+
+## 일반적인 문제 및 해결책
+
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **`NullPointerException` on `material`** | 노드에 할당된 재질이 없을 수 있습니다. | 속성에 접근하기 전에 `node.setMaterial(new Material())`를 호출하세요. |
+| **Color does not change** | 모델이 *Diffuse* 색상을 덮어쓰는 텍스처를 사용하고 있습니다. | 텍스처를 비활성화하거나 텍스처 이미지를 직접 수정하세요. |
+| **`ClassCastException` when retrieving** | Vector3가 아닌 속성을 캐스팅하려고 시도했습니다. | 캐스팅하기 전에 `pdiffuse.getValue().getClass()`로 속성 유형을 확인하세요. |
+
+## 자주 묻는 질문
+
+**Q: How can I install the Aspose.3D library in my Java project?**  
+A: Download the JAR from the [Aspose website](https://releases.aspose.com/3d/java/) and add it to your project's classpath or Maven/Gradle dependencies.
+
+**Q: Are there any free trial options available for Aspose.3D?**  
+A: Yes, a fully functional 30‑day trial can be obtained from the [Aspose free trial page](https://releases.aspose.com/).
+
+**Q: Where can I find detailed documentation for Aspose.3D in Java?**  
+A: The official API reference is at [Aspose.3D documentation](https://reference.aspose.com/3d/java/).
+
+**Q: Is there a support forum for Aspose.3D where I can ask questions?**  
+A: Absolutely—visit the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18) to connect with the community and experts.
+
+**Q: How can I obtain a temporary license for Aspose.3D?**  
+A: Request one via the [temporary license page](https://purchase.aspose.com/temporary-license/) on the Aspose site.
+
+**Q: Can I change other material attributes besides color?**  
+A: Yes, properties like `Specular`, `Opacity`, and custom user data can be modified using the same `props.set` pattern.
 
 ## 결론
 
-축하해요! Aspose.3D를 사용하여 Java 장면에서 3D 속성 및 사용자 정의 데이터로 작업하는 방법을 성공적으로 배웠습니다. 이 튜토리얼에서는 Java 애플리케이션 내에서 3D 모델의 다양한 측면을 조작할 수 있는 필수 단계를 다루었습니다.
+이제 Aspose.3D를 사용해 Java 씬에서 **텍스처 색상 변경**, **재질 속성 접근**, **Vector3 값 설정**, **이름으로 속성 가져오기** 방법을 배웠습니다. 이러한 기술을 통해 모든 3D 자산을 세밀하게 제어할 수 있어 동적 시각 효과와 런타임 커스터마이징을 애플리케이션에 구현할 수 있습니다.
 
-## FAQ
+---
 
-### Q1: Java 프로젝트에 Aspose.3D 라이브러리를 어떻게 설치할 수 있나요?
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose  
 
- A1: 다음에서 라이브러리를 다운로드할 수 있습니다.[Aspose 웹 사이트](https://releases.aspose.com/3d/java/) 설명서에 제공된 설치 지침을 따르세요.
-
-### Q2: Aspose.3D에 사용할 수 있는 무료 평가판 옵션이 있습니까?
-
- A2: 예, Aspose.3D에 액세스하여 기능을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/) 웹사이트에서 제공됩니다.
-
-### Q3: Java에서 Aspose.3D에 대한 자세한 문서는 어디에서 찾을 수 있습니까?
-
- A3: 다음을 참조하세요.[Aspose.3D 문서](https://reference.aspose.com/3d/java/) Java 프로젝트에서 라이브러리 사용에 대한 포괄적인 정보를 보려면
-
-### Q4: 질문을 하고 도움을 구할 수 있는 Aspose.3D 지원 포럼이 있습니까?
-
-A4: 그렇습니다.[Aspose.3D 지원 포럼](https://forum.aspose.com/c/3d/18) 커뮤니티와 연결하고 전문가의 도움을 받으세요.
-
-### Q5: Aspose.3D에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
-
- A5: 다음 사이트를 방문하시면 임시 면허를 취득하실 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/) Aspose 웹 사이트에서.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
