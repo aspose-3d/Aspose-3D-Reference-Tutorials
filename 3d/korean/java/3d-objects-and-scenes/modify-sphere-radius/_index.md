@@ -150,7 +150,7 @@ A: 물론입니다 – `scene.save` 호출 시 `FileFormat` 열거형을 `FileFo
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< //pf/main-container >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
