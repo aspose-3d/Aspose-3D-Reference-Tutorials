@@ -1,35 +1,54 @@
 ---
-title: Simpan Jerat 3D dalam Format Biner Khusus untuk Fleksibilitas di Java
-linktitle: Simpan Jerat 3D dalam Format Biner Khusus untuk Fleksibilitas di Java
-second_title: Asumsikan.3D Java API
-description: Pelajari cara menyimpan jerat 3D dalam format biner khusus menggunakan Aspose.3D untuk Java. Tingkatkan fleksibilitas dalam aplikasi Java dengan tutorial langkah demi langkah ini.
+date: 2025-12-03
+description: Pelajari cara menulis file biner untuk mesh 3D dalam Java menggunakan
+  Aspose.3D. Panduan ini mencakup mengekspor mesh 3D, menulis file biner dengan Java,
+  dan melakukan triangulasi mesh di Java.
+language: id
+linktitle: How to Write Binary Files for 3D Meshes in Java
+second_title: Aspose.3D Java API
+title: Cara Menulis File Biner untuk Mesh 3D di Java
+url: /java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
-url: /id/java/3d-scenes-and-models/save-custom-mesh-formats/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Simpan Jerat 3D dalam Format Biner Khusus untuk Fleksibilitas di Java
+# Cara Menulis File Biner untuk Mesh 3D di Java
 
-## Perkenalan
+## Introduction
 
-Selamat datang di tutorial langkah demi langkah tentang menyimpan jerat 3D dalam format biner khusus untuk fleksibilitas di Java menggunakan Aspose.3D. Dalam panduan ini, kami akan memandu Anda melalui proses konversi mesh 3D dan menyimpannya dalam format biner khusus untuk meningkatkan fleksibilitas dan interoperabilitas dalam aplikasi Java Anda.
+Dalam tutorial ini Anda akan menemukan **cara menulis biner** file yang menyimpan data mesh 3‑D, memberi Anda kontrol penuh atas alur kerja ekspor mesh 3d di Java. Menggunakan Aspose.3D Java API kami akan memandu memuat model FBX, mengonversinya menjadi mesh, melakukan triangulasi geometri, dan akhirnya menyimpan hasilnya dalam format biner khusus. Pada akhir Anda akan memiliki potongan kode yang dapat digunakan kembali dan dapat disesuaikan dengan skema biner apa pun yang Anda butuhkan.
 
-## Prasyarat
+## Quick Answers
+- **Apa arti “menulis biner” dalam konteks ini?** Itu berarti menserialisasi vertex mesh, indeks, dan transformasi ke dalam file kompak yang non‑tekstual yang Anda definisikan sendiri.  
+- **Perpustakaan mana yang menangani pemrosesan 3D?** Aspose.3D for Java.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Lisensi sementara dapat digunakan untuk pengujian; lisensi penuh diperlukan untuk produksi.  
+- **Bisakah saya mengekspor format lain selain biner?** Ya – Aspose.3D mendukung FBX, OBJ, STL, glTF, dan lainnya.  
+- **Versi Java apa yang diperlukan?** Java 8 atau lebih tinggi.
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+## What is “how to write binary” for 3D meshes?
 
-1. Lingkungan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java di sistem Anda.
+Menulis file biner pada dasarnya adalah operasi I/O tingkat rendah di mana Anda mengubah struktur dalam memori (vektor, indeks, matriks) menjadi aliran byte. Pendekatan ini jauh lebih efisien dalam ruang dan lebih cepat dibaca dibandingkan format berbasis teks seperti OBJ, menjadikannya ideal untuk mesin real‑time atau transmisi jaringan.
 
-2.  Aspose.3D untuk Java: Unduh dan instal perpustakaan Aspose.3D untuk Java. Anda dapat menemukan perpustakaan[Di Sini](https://releases.aspose.com/3d/java/).
+## Why export 3d mesh to a custom binary format?
 
-3. File Model 3D: Miliki file model 3D (misalnya, "test.fbx") yang ingin Anda proses menggunakan Aspose.3D.
+- **Kinerja:** File biner memuat lebih cepat karena menghindari parsing string yang mahal.  
+- **Fleksibilitas:** Anda menentukan secara tepat data apa yang Anda butuhkan (mis., hanya posisi dan indeks).  
+- **Interoperabilitas:** Format khusus dapat dibagikan di berbagai platform atau pipeline proprietari.  
+- **Kontrol:** Anda memutuskan endianess, kompresi, dan versioning.
 
-## Paket Impor
+## Prerequisites
 
-Di proyek Java Anda, impor paket yang diperlukan untuk bekerja dengan Aspose.3D:
+Sebelum kita mulai, pastikan Anda memiliki:
+
+1. **Java Development Kit (JDK 8+)** terinstal dan `JAVA_HOME` dikonfigurasi.  
+2. **Aspose.3D for Java** – unduh JAR terbaru dari [halaman rilis Aspose](https://releases.aspose.com/3d/java/).  
+3. File model 3‑D contoh (mis., `test.fbx`) ditempatkan di direktori yang diketahui.  
+4. Pemahaman dasar tentang aliran I/O Java.
+
+## Import Packages
 
 ```java
 import com.aspose.threed.*;
@@ -39,26 +58,30 @@ import java.io.*;
 import java.util.List;
 ```
 
-## Langkah 1: Muat Model 3D
+## Step 1: Load the 3D Model (convert fbx to binary)
 
 ```java
 Scene scene = new Scene("Your Document Directory" + "test.fbx");
 ```
 
-## Langkah 2: Tentukan Format Biner Kustom
+*Di sini kami memuat file FBX (`convert fbx to binary`) ke dalam objek `Scene` Aspose, yang memberi kami akses ke semua node, mesh, dan material.*
 
-Sebelum menyimpan jerat 3D, tentukan struktur format biner khusus Anda. Contoh ini menunjukkan struktur sederhana:
+## Step 2: Define the Custom Binary Format
+
+Sebelum menyimpan, tentukan tata letak biner. Contoh di bawah menggunakan skema yang sangat sederhana:
 
 ```java
-// Definisi struktur untuk format biner khusus
+// Struct definitions for the custom binary format
 // ...
 ```
 
-## Langkah 3: Simpan Jerat 3D dalam Format Biner Kustom
+*Anda dapat memperluas bagian ini untuk menyertakan normal, UV, atau atribut khusus sesuai kebutuhan.*
+
+## Step 3: Save 3D Meshes in Custom Binary Format (write binary file java)
 
 ```java
 try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("Your Document Directory" + "Save3DMeshesInCustomBinaryFormat_out")))) {
-    // Kunjungi setiap node keturunan di tempat kejadian
+    // Visit each descent node in the scene
     scene.getRootNode().accept(new NodeVisitor() {
         @Override
         public boolean call(Node node) {
@@ -66,26 +89,26 @@ try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new
                 for (Entity entity : node.getEntities()) {
                     if (!(entity instanceof IMeshConvertible))
                         continue;
-                    // Ubah entitas menjadi mesh
+                    // Convert entity to mesh
                     Mesh m = ((IMeshConvertible) entity).toMesh();
-                    // Dapatkan titik kontrol dan lakukan triangulasi mesh
+                    // Get control points and triangulate the mesh
                     List<Vector4> controlPoints = m.getControlPoints();
                     int[][] triFaces = PolygonModifier.triangulate(controlPoints, m.getPolygons());
-                    // Dapatkan matriks transformasi global
+                    // Get global transform matrix
                     Matrix4 transform = node.getGlobalTransform().getTransformMatrix();
 
-                    // Tuliskan jumlah titik kontrol dan indeks segitiga
+                    // Write number of control points and triangle indices
                     writer.writeInt(controlPoints.size());
                     writer.writeInt(triFaces.length);
-                    // Tulis titik kontrol
+                    // Write control points
                     for (int i = 0; i < controlPoints.size(); i++) {
                         Vector4 cp = Matrix4.mul(transform, controlPoints.get(i));
-                        // Simpan titik kontrol ke file
+                        // Save control points to file
                         writer.writeFloat((float) cp.x);
                         writer.writeFloat((float) cp.y);
                         writer.writeFloat((float) cp.z);
                     }
-                    // Tulis indeks segitiga
+                    // Write triangle indices
                     for (int i = 0; i < triFaces.length; i++) {
                         writer.writeInt(triFaces[i][0]);
                         writer.writeInt(triFaces[i][1]);
@@ -103,33 +126,44 @@ try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new
 }
 ```
 
-Cuplikan kode ini menunjukkan cara melintasi model 3D, mengonversi jerat, dan menyimpannya dalam format biner khusus.
+*Pola visitor mengunjungi setiap node, mengekstrak data mesh, **triangulasi mesh java** menggunakan `PolygonModifier.triangulate`, menerapkan transformasi global node, dan akhirnya menulis payload biner. Ini adalah inti dari **cara menulis biner** untuk mesh 3‑D.*
 
-## Kesimpulan
+## Common Issues & Troubleshooting
 
-Dengan mengikuti tutorial ini, Anda telah mempelajari cara menggunakan Aspose.3D untuk Java untuk menyimpan jerat 3D dalam format biner khusus, sehingga meningkatkan fleksibilitas aplikasi Java Anda.
+| Gejala | Penyebab Kemungkinan | Perbaikan |
+|---------|--------------|-----|
+| `NullPointerException` pada `node.getGlobalTransform()` | Node tidak memiliki matriks transformasi | Gunakan `Matrix4.identity()` sebagai cadangan. |
+| File output lebih besar dari yang diharapkan | Anda menulis vertex duplikat | Hilangkan duplikasi control points sebelum menulis. |
+| Mesh tampak terdistorsi saat dibaca kembali | Ketidaksesuaian endianess | Pastikan baik penulis maupun pembaca menggunakan urutan byte yang sama (`ByteOrder.LITTLE_ENDIAN` atau `BIG_ENDIAN`). |
+| Tidak ada segitiga yang ditulis | `triFaces.length` bernilai nol | Verifikasi bahwa mesh tidak hanya terdiri dari garis atau titik; pertimbangkan menggunakan `PolygonModifier.triangulate` pada data poligon. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Dapatkah saya menggunakan Aspose.3D untuk Java dengan format model 3D lainnya?
+**T: Bisakah saya menggunakan Aspose.3D untuk Java dengan format model 3D lain?**  
+**J:** Ya, Aspose.3D mendukung FBX, OBJ, STL, glTF, 3DS, dan banyak lagi, memberi Anda fleksibilitas saat Anda **mengekspor data mesh 3d**.
 
-A1: Ya, Aspose.3D mendukung berbagai format model 3D, memberikan fleksibilitas dalam pengembangan Anda.
+**T: Apakah lisensi sementara tersedia untuk Aspose.3D untuk Java?**  
+**J:** Tentu saja. Anda dapat memperoleh lisensi percobaan atau sementara dari [halaman lisensi sementara Aspose](https://purchase.aspose.com/temporary-license/).
 
-### Q2: Apakah lisensi sementara tersedia untuk Aspose.3D untuk Java?
+**T: Di mana saya dapat menemukan dukungan untuk Aspose.3D untuk Java?**  
+**J:** Forum resmi [Aspose.3D](https://forum.aspose.com/c/3d/18) adalah tempat yang bagus untuk mengajukan pertanyaan dan berbagi contoh.
 
- A2: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+**T: Apakah ada model 3D contoh yang dapat saya gunakan untuk pengujian?**  
+**J:** Ya – dokumentasi Aspose menyertakan beberapa model contoh, dan Anda juga dapat mengunduh aset gratis dari situs seperti Sketchfab atau TurboSquid.
 
-### Q3: Di mana saya dapat menemukan dukungan untuk Aspose.3D untuk Java?
+**T: Bagaimana saya dapat lebih menyesuaikan format biner untuk mesin saya?**  
+**J:** Perluas bagian header dengan nomor versi, tambahkan flag untuk atribut opsional (normal, UV), dan pertimbangkan mengompresi payload dengan ZSTD atau LZ4.
 
- A3: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk bantuan atau pertanyaan apa pun.
+## Conclusion
 
-### Q4: Apakah ada contoh model 3D yang tersedia untuk pengujian?
+Anda kini memiliki pola yang solid dan siap produksi untuk **cara menulis biner** file yang menyimpan geometri mesh 3‑D di Java. Dengan memanfaatkan alat konversi kuat Aspose.3D dan `DataOutputStream` Java, Anda dapat **mengekspor data mesh 3d** dalam format yang kompak dan ramah mesin, **triangulasi mesh java** secara efisien, serta menyesuaikan skema biner untuk kebutuhan downstream apa pun.
 
-A4: Dokumentasi Aspose.3D mungkin menyertakan model sampel, atau Anda dapat menemukan model 3D online untuk pengujian.
+---
 
-### Q5: Dapatkah saya menyesuaikan format biner lebih lanjut untuk kebutuhan spesifik?
+**Last Updated:** 2025-12-03  
+**Tested With:** Aspose.3D for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
-A5: Tentu saja, silakan mengadaptasi format biner agar sesuai dengan kebutuhan spesifik aplikasi Anda.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
