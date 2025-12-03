@@ -131,15 +131,15 @@ A: 아니요. 압축은 파일의 바이너리 크기만 줄이며, 애니메이
 ## 결론
 Aspose.3D의 `AmfSaveOptions`에 압축을 활성화하면 씬의 모든 디테일을 보존하면서 **3d 파일 크기를 크게** 줄일 수 있습니다. 이를 통해 배포, 저장 및 실시간 로딩이 훨씬 효율적이 됩니다. 다양한 객체 수와 텍스처 해상도로 실험하여 사용 사례에 맞는 최적의 균형점을 찾아보세요.
 
+---
+
+**마지막 업데이트:** 2025-12-01  
+**테스트 환경:** Aspose.3D for Java 24.12  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-01  
-**테스트 환경:** Aspose.3D for Java 24.12  
-**작성자:** Aspose

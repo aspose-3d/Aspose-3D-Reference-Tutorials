@@ -135,15 +135,15 @@ A: いいえ。圧縮はファイルのバイナリサイズのみを削減し�
 ## 結論
 `AmfSaveOptions` の圧縮機能を有効にすることで、**3D ファイルサイズを劇的に削減** しながらシーンのすべてのディテールを保持できます。これにより配布、保存、リアルタイムロードが格段に効率化されます。オブジェクト数やテクスチャ解像度を変えて、用途に最適なバランスを見つけてください。
 
+---
+
+**最終更新日:** 2025-12-01  
+**テスト環境:** Aspose.3D for Java 24.12  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-01  
-**テスト環境:** Aspose.3D for Java 24.12  
-**作者:** Aspose

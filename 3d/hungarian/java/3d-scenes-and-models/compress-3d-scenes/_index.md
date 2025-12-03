@@ -131,15 +131,15 @@ V: Nem. A tömörítés csak a fájl bináris méretét csökkenti; az animáci�
 ## Conclusion
 Az Aspose.3D `AmfSaveOptions`-ának tömörítéssel engedélyezett használatával **drámaian csökkentheted a 3D fájlméretet**, miközben megőrzöd a jelenet minden részletét. Ez sokkal hatékonyabbá teszi a terjesztést, tárolást és a valós‑idő betöltést. Kísérletezz különböző objektumszámokkal és textúrafelbontásokkal, hogy megtaláld az ideális egyensúlyt a konkrét felhasználási esethez.
 
+---
+
+**Utolsó frissítés:** 2025-12-01  
+**Tesztelt verzió:** Aspose.3D for Java 24.12  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-01  
-**Tesztelt verzió:** Aspose.3D for Java 24.12  
-**Szerző:** Aspose

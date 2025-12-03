@@ -131,15 +131,15 @@ A: Nej. Komprimering minskar bara den binära filstorleken; animationsnyckelrama
 ## Slutsats
 Genom att utnyttja Aspose.3D:s `AmfSaveOptions` med komprimering aktiverad kan du **dramatiskt minska 3d‑filstorlek** samtidigt som varje detalj i din scen bevaras. Detta gör distribution, lagring och real‑tidsladdning mycket mer effektivt. Experimentera med olika objektantal och texturupplösningar för att hitta den optimala balansen för ditt specifika användningsfall.
 
+---
+
+**Senast uppdaterad:** 2025-12-01  
+**Testad med:** Aspose.3D för Java 24.12  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-01  
-**Testad med:** Aspose.3D för Java 24.12  
-**Författare:** Aspose

@@ -133,15 +133,15 @@ A: Tidak. Kompresi hanya mengurangi ukuran biner file; keyframe animasi tetap ut
 ## Kesimpulan
 Dengan memanfaatkan `AmfSaveOptions` Aspose.3D dengan kompresi diaktifkan, Anda dapat **mengurangi ukuran file 3d** secara dramatis sambil mempertahankan setiap detail adegan Anda. Ini membuat distribusi, penyimpanan, dan pemuatan waktu‑nyata jauh lebih efisien. Bereksperimenlah dengan jumlah objek dan resolusi tekstur yang berbeda untuk menemukan titik optimal bagi kasus penggunaan spesifik Anda.
 
+---
+
+**Terakhir Diperbarui:** 2025-12-01  
+**Diuji Dengan:** Aspose.3D untuk Java 24.12  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-01  
-**Diuji Dengan:** Aspose.3D untuk Java 24.12  
-**Penulis:** Aspose

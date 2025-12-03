@@ -132,15 +132,15 @@ A: Nie. Kompresja zmniejsza jedynie rozmiar binarny pliku; klatki kluczowe anima
 ## Zakończenie
 Korzystając z `AmfSaveOptions` Aspose.3D z włączoną kompresją, możesz **zmniejszyć rozmiar pliku 3d** dramatycznie, zachowując każdy detal sceny. Dzięki temu dystrybucja, przechowywanie i ładowanie w czasie rzeczywistym stają się znacznie bardziej efektywne. Eksperymentuj z różną liczbą obiektów i rozdzielczościami tekstur, aby znaleźć optymalne ustawienia dla swojego konkretnego zastosowania.
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-01  
+**Testowano z:** Aspose.3D dla Javy 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-01  
-**Testowano z:** Aspose.3D dla Javy 24.12  
-**Autor:** Aspose

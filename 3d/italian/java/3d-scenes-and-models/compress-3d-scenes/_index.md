@@ -132,15 +132,15 @@ R: No. La compressione riduce solo la dimensione binaria del file; i fotogrammi 
 ## Conclusione
 Sfruttando `AmfSaveOptions` di Aspose.3D con la compressilitata, puoi **ridurre le dimensioni di un file 3d** in modo drammatico mantenendo ogni dettaglio della tua scena. Questo rende la distribuzione, l'archiviazione e il caricamento in tempo reale molto più efficienti. Sperimenta con diversi numeri di oggetti e risoluzioni delle texture per trovare il punto ottimale per il tuo caso d'uso specifico.
 
+---
+
+**Ultimo aggiornamento:** 2025-12-01  
+**Testato con:** Aspose.3D per Java 24.12  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-01  
-**Testato con:** Aspose.3D per Java 24.12  
-**Autore:** Aspose

@@ -132,15 +132,15 @@ C: Hayır. Sıkıştırma yalnızca dosyanın ikili boyutunu azaltır; animasyon
 ## Sonuç
 Aspose.3D’nin `AmfSaveOptions`’unu sıkıştırma etkinleştirilmiş şekilde kullanarak, **3d dosya boyutunu** sahnenizin her ayrıntısını korurken dramatik biçimde azaltabilirsiniz. Bu, dağıtım, depolama ve gerçek‑zaman yüklemeyi çok daha verimli hâle getirir. Farklı nesne sayıları ve doku çözünürlükleriyle denemeler yaparak kendi kullanım senaryonuza en uygun dengeyi bulun.
 
+---
+
+**Son Güncelleme:** 2025-12-01  
+**Test Edilen Versiyon:** Aspose.3D for Java 24.12  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-01  
-**Test Edilen Versiyon:** Aspose.3D for Java 24.12  
-**Yazar:** Aspose

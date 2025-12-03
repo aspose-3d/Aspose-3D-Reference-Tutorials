@@ -129,15 +129,15 @@ A: No. Compression only reduces the binary size of the file; animation keyframes
 ## Conclusion
 By leveraging Aspose.3D’s `AmfSaveOptions` with compression enabled, you can **reduce 3d file size** dramatically while preserving every detail of your scene. This makes distribution, storage, and real‑time loading far more efficient. Experiment with different object counts and texture resolutions to find the sweet spot for your specific use case.
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.3D for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.3D for Java 24.12  
-**Author:** Aspose

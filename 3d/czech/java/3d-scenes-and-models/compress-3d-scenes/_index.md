@@ -132,15 +132,15 @@ A: Ne. Komprese pouze snižuje binární velikost souboru; klíčové snímky an
 ## Závěr
 Využitím `AmfSaveOptions` s povolenou kompresí v Aspose.3D můžete **zmenšit velikost 3d souboru** dramaticky a přitom zachovat každý detail vaší scény. To usnadňuje distribuci, ukládání i načítání v reálném čase. Experimentujte s různým počtem objektů a rozlišením textur, abyste našli optimální nastavení pro váš konkrétní případ použití.
 
+---
+
+**Poslední aktualizace:** 2025-12-01  
+**Testováno s:** Aspose.3D pro Java 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-01  
-**Testováno s:** Aspose.3D pro Java 24.12  
-**Autor:** Aspose

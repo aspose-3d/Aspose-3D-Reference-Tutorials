@@ -132,15 +132,15 @@ scene.save(MyDir + "compressed_scene.amf", opt);
 ## निष्कर्ष
 Aspose.3D के `AmfSaveOptions` को संपीड़न सक्षम करके उपयोग करने से आप **3d फ़ाइल आकार** को नाटकीय रूप से घटा सकते हैं जबकि सीन के हर विवरण को संरक्षित रख सकते हैं। इससे वितरण, स्टोरेज, और रीयल‑टाइम लोडिंग अधिक कुशल बनती है। विभिन्न ऑब्जेक्ट काउंट और टेक्सचर रिज़ॉल्यूशन के साथ प्रयोग करें ताकि आपके विशेष उपयोग केस के लिए उपयुक्त संतुलन मिल सके।
 
+---
+
+**अंतिम अपडेट:** 2025-12-01  
+**परीक्षण किया गया:** Aspose.3D for Java 24.12  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-01  
-**परीक्षण किया गया:** Aspose.3D for Java 24.12  
-**लेखक:** Aspose

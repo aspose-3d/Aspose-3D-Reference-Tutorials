@@ -130,15 +130,15 @@ A: 不會。壓縮僅減少檔案的二進位大小，動畫關鍵幀保持完�
 ## 結論
 透過啟用 `AmfSaveOptions` 的壓縮功能，使用 Aspose.3D 你可以 **大幅縮減 3d 檔案大小**，同時保留場景的每一細節。這讓檔案的分發、儲存與即時載入都更加高效。建議依照實際需求調整物件數量與材質解析度，以找到最佳的平衡點。
 
+---
+
+**最後更新：** 2025-12-01  
+**測試環境：** Aspose.3D for Java 24.12  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-01  
-**測試環境：** Aspose.3D for Java 24.12  
-**作者：** Aspose

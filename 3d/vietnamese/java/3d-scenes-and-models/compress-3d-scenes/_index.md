@@ -133,15 +133,15 @@ A: Không. Nén chỉ giảm kích thước nhị phân của tệp; các keyfra
 ## Kết luận
 Bằng cách tận dụng `AmfSaveOptions` của Aspose.3D với nén được bật, bạn có thể **giảm kích thước tệp 3d** một cách đáng kể trong khi vẫn giữ nguyên mọi chi tiết của cảnh. Điều này làm cho việc phân phối, lưu trữ và tải thời gian thực trở nên hiệu quả hơn rất nhiều. Thử nghiệm với số lượng đối tượng và độ phân giải kết cấu khác nhau để tìm ra mức tối ưu cho trường hợp sử dụng cụ thể của bạn.
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.3D for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.3D for Java 24.12  
-**Author:** Aspose

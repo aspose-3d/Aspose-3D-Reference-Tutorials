@@ -131,15 +131,15 @@ scene.save(MyDir + "compressed_scene.amf", opt);
 ## Заключение
 Используя `AmfSaveOptions` из Aspose.3D с включённым сжатием, вы можете **значительно уменьшить размер 3d‑файла**, сохраняя каждую деталь вашей сцены. Это делает распространение, хранение и загрузку в реальном времени гораздо более эффективными. Экспериментируйте с разным количеством объектов и разрешениями текстур, чтобы найти оптимальный баланс для вашего конкретного случая.
 
+---
+
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.3D for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.3D for Java 24.12  
-**Author:** Aspose

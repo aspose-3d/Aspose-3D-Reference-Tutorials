@@ -130,15 +130,15 @@ scene.save(MyDir + "compressed_scene.amf", opt);
 ## 结论
 通过在 Aspose.3D 的 `AmfSaveOptions` 中启用压缩，您可以 **显著减小 3d 文件大小**，同时保留场景的所有细节。这使得分发、存储和实时加载更加高效。请尝试不同的对象数量和纹理分辨率，以找到适合您特定使用场景的最佳平衡点。
 
+---
+
+**最后更新：** 2025-12-01  
+**测试环境：** Aspose.3D for Java 24.12  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-01  
-**测试环境：** Aspose.3D for Java 24.12  
-**作者：** Aspose
