@@ -109,13 +109,6 @@ Bezproblemowo dekoduj, wczytuj, twórz, eksportuj i optymalizuj **point clouds j
 
 Poznaj bogaty świat Aspose.3D dla Java poprzez nasze samouczki. Od animacji i geometrii po manipulację plikami i optymalizację – nasze przewodniki obejmują wszystko. Podnieś swoje umiejętności programistyczne Java 3D i twórz oszałamiające doświadczenia wizualne!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę używać Aspose.3D w komercyjnych aplikacjach Java?**  
@@ -139,4 +132,9 @@ A: Tak. Samouczek „Working with Animations in Java” zawiera pełny przykład
 **Testowane z:** Aspose.3D for Java 24.12 (najnowsze wydanie)  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

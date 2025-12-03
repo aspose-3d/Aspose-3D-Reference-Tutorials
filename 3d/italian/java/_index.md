@@ -108,13 +108,6 @@ Decodifica, carica, crea, esporta e ottimizza **point clouds java** in Java con 
 
 Esplora il ricco mondo di Aspose.3D per Java attraverso i nostri tutorial. Da animazioni e geometria a manipolazione di file e ottimizzazione, le nostre guide coprono tutto. Eleva le tue competenze di sviluppo 3D Java e crea esperienze visive sorprendenti!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande frequenti
 
 **Q: Posso usare Aspose.3D per applicazioni Java commerciali?**  
@@ -138,4 +131,9 @@ A: Sì. Il tutorial “Working with Animations in Java” include un esempio com
 **Tested With:** Aspose.3D for Java 24.12 (latest release)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

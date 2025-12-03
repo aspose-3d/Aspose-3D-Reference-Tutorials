@@ -109,13 +109,6 @@ weight: 10
 
 استكشف العالم الغني لـ Aspose.3D for Java من خلال دروسنا. من الرسوم المتحركة والهندسة إلى معالجة الملفات والتحسين، تغطي أدلتنا كل شيء. ارتقِ بمهارات تطوير Java 3D الخاصة بك وأنشئ تجارب بصرية مذهلة!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.3D لتطبيقات Java التجارية؟**  
@@ -139,4 +132,9 @@ weight: 10
 **Tested With:** Aspose.3D for Java 24.12 (latest release)  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -109,13 +109,6 @@ weight: 10
 
 Исследуйте богатый мир Aspose.3D for Java через наши руководства. От анимаций и геометрии до работы с файлами и оптимизации — наши материалы покрывают всё. Поднимите свои навыки Java 3D разработки и создавайте потрясающие визуальные впечатления!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Можно ли использовать Aspose.3D в коммерческих Java‑приложениях?**  
@@ -139,4 +132,9 @@ A: Да. Руководство «Working with Animations in Java» включа
 **Тестировано с:** Aspose.3D for Java 24.12 (последний релиз)  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

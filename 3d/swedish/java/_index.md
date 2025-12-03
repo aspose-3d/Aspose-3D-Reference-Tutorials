@@ -108,13 +108,6 @@ Dekoda, ladda, skapa, exportera och strömlinjeforma **point clouds java** i Jav
 
 Utforska den rika världen av Aspose.3D för Java genom våra handledningar. Från animationer och geometri till filmanipulation och optimering, våra guider täcker allt. Höj dina Java‑3D‑utvecklingskunskaper och skapa fantastiska visuella upplevelser!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag använda Aspose.3D för kommersiella Java‑applikationer?**  
@@ -138,4 +131,9 @@ A: Ja. Handledningen “Working with Animations in Java” innehåller ett kompl
 **Testad med:** Aspose.3D for Java 24.12 (senaste release)  
 **Författare:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
