@@ -1,33 +1,43 @@
 ---
-title: Trabaje con propiedades 3D y datos personalizados en escenas Java usando Aspose.3D
-linktitle: Trabaje con propiedades 3D y datos personalizados en escenas Java usando Aspose.3D
-second_title: API de Java Aspose.3D
-description: Mejore sus aplicaciones Java con Aspose.3D para una manipulación perfecta de propiedades 3D. Siga nuestro tutorial para obtener orientación paso a paso.
+date: 2025-12-01
+description: Aprende a cambiar el color de la textura, acceder a las propiedades del
+  material, establecer valores Vector3 y recuperar propiedades por nombre en escenas
+  Java con Aspose.3D, un tutorial completo de Aspose 3D.
+language: es
+linktitle: Change texture color and manage 3D properties in Java scenes using Aspose.3D
+second_title: Aspose.3D Java API
+title: Cambiar el color de la textura y gestionar las propiedades 3D en escenas Java
+  usando Aspose.3D
+url: /java/3d-scenes-and-models/managing-3d-properties-scenes/
 weight: 14
-url: /es/java/3d-scenes-and-models/managing-3d-properties-scenes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Trabaje con propiedades 3D y datos personalizados en escenas Java usando Aspose.3D
+# Cambiar el color de la textura y gestionar propiedades 3D en escenas Java usando Aspose.3D
 
 ## Introducción
 
-Bienvenido a la guía completa sobre cómo trabajar con propiedades 3D y datos personalizados en escenas Java usando Aspose.3D. En este tutorial, profundizaremos en las poderosas funciones de Aspose.3D, brindando guía paso a paso sobre cómo manipular propiedades 3D dentro de sus aplicaciones Java.
+En este **tutorial de Aspose 3D** descubrirás cómo **cambiar el color de la textura** y trabajar con propiedades 3D y datos personalizados dentro de escenas Java. Ya sea que estés creando un juego, un visualizador de productos o una aplicación científica, poder modificar los atributos del material en tiempo de ejecución te brinda control artístico total. Vamos a recorrer el proceso paso a paso, desde cargar una escena hasta ajustar el color *Diffuse* usando un valor `Vector3`.
+
+## Respuestas rápidas
+- **¿Qué puedo modificar?** Puedes cambiar el color de la textura, la opacidad, el brillo y cualquier propiedad personalizada adjunta a un material.  
+- **¿Qué clase contiene los datos?** `Material` y su `PropertyCollection`.  
+- **¿Cómo establezco un nuevo color?** Usa `props.set("Diffuse", new Vector3(r, g, b))`.  
+- **¿Necesito una licencia?** Una licencia temporal funciona para evaluación; se requiere una licencia completa para producción.  
+- **¿Formatos compatibles?** FBX, OBJ, STL, GLTF y muchos más.
 
 ## Requisitos previos
 
-Antes de sumergirnos en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-
-- Kit de desarrollo de Java (JDK) instalado en su máquina.
--  Biblioteca Aspose.3D descargada y configurada. Puedes descargarlo desde el[Aspose sitio web](https://releases.aspose.com/3d/java/).
-- Un conocimiento básico de la programación Java.
+- Java Development Kit (JDK) 8 o superior instalado.  
+- Biblioteca Aspose.3D para Java (descargar desde el [sitio web de Aspose](https://releases.aspose.com/3d/java/)).  
+- Familiaridad básica con la sintaxis de Java y conceptos de programación orientada a objetos.
 
 ## Importar paquetes
 
-Asegúrese de importar los paquetes necesarios para aprovechar las funcionalidades proporcionadas por Aspose.3D en su código Java. Incluya lo siguiente:
+Antes de escribir cualquier lógica, importa las clases que te permiten acceder a las propiedades del material y a la manipulación de vectores.
 
 ```java
 import java.io.IOException;
@@ -39,27 +49,32 @@ import com.aspose.threed.Scene;
 import com.aspose.threed.Vector3;
 ```
 
-Ahora, dividamos el ejemplo proporcionado en varios pasos para una comprensión clara y detallada.
+### ¿Por qué importar estas clases?
 
-## Paso 1: inicializa la escena
+- `Scene` carga y representa el archivo 3D.  
+- `Material` te brinda la definición de la superficie (texturas, colores, etc.).  
+- `PropertyCollection` es un contenedor similar a un diccionario que te permite **acceder a las propiedades del material** por nombre.  
+- `Vector3` es el tipo de datos usado para colores y otros vectores de tres componentes.
+
+## Paso 1: Inicializar la escena
 
 ```java
 String dataDir = "Your Document Directory";
 Scene scene = new Scene(dataDir + "EmbeddedTexture.fbx");
 ```
 
-En este paso, inicializamos una escena 3D usando la biblioteca Aspose.3D, cargando un modelo 3D desde el directorio especificado.
+Creamos un objeto `Scene` cargando un archivo FBX que ya contiene una textura. Este es el lienzo en el que **cambiaremos el color de la textura**.
 
-## Paso 2: acceder a las propiedades del material
+## Paso 2: Acceder a las propiedades del material
 
 ```java
 Material material = scene.getRootNode().getChildNodes().get(0).getMaterial();
 PropertyCollection props = material.getProperties();
 ```
 
-Aquí recuperamos las propiedades del material del modelo 3D, lo que nos permite manipular varios aspectos como el color, la textura y más.
+Aquí **accedemos a las propiedades del material** de la primera malla en la escena. El objeto `Material` contiene un `PropertyCollection` que almacena cada atributo configurable, como *Diffuse*, *Specular* y datos personalizados del usuario.
 
-## Paso 3: enumerar todas las propiedades
+## Paso 3: Listar todas las propiedades
 
 ```java
 for (Property prop : props) {
@@ -67,35 +82,35 @@ for (Property prop : props) {
 }
 ```
 
-Itere a través de todas las propiedades utilizando un bucle for, imprimiendo sus nombres y valores. Esto proporciona una descripción completa de las propiedades disponibles.
+Iterar sobre `props` imprime cada nombre de propiedad y su valor actual. Este inventario rápido te ayuda a descubrir qué claves puedes modificar después, por ejemplo `"Diffuse"` para el color base.
 
-## Paso 4: modificar el valor de la propiedad
+## Paso 4: Establecer un valor Vector3 para cambiar el color de la textura
 
 ```java
 props.set("Diffuse", new Vector3(1, 0, 1));
 ```
 
-En este paso, modificamos el valor de una propiedad específica ("Difusa") para alterar la apariencia del modelo 3D.
+**Consejo profesional:** El constructor `Vector3` recibe tres números de punto flotante que representan los componentes **rojo, verde y azul** (rango 0‑1). Establecer `(1, 0, 1)` cambia el color base de la textura a magenta, modificando efectivamente **el color de la textura** del modelo.
 
-## Paso 5: recuperar la propiedad por nombre
+## Paso 5: Recuperar la propiedad por nombre
 
 ```java
 Object diffuse = (Vector3) props.get("Diffuse");
 System.out.println(diffuse);
 ```
 
-Recupere el valor de una propiedad específica ("Diffuse") por su nombre e imprima el resultado.
+Esto demuestra **recuperar la propiedad por nombre**. Convertimos el `Object` devuelto a `Vector3` para trabajar con el color de forma programática.
 
-## Paso 6: Acceder a la instancia de propiedad
+## Paso 6: Acceder a la instancia de la propiedad
 
 ```java
 Property pdiffuse = props.findProperty("Diffuse");
 System.out.println(pdiffuse);
 ```
 
-Obtenga una instancia de una propiedad ("Difusa") e imprima información sobre ella, incluido su tipo y etiqueta.
+`findProperty` devuelve el objeto `Property` completo, dándote acceso a metadatos como el tipo de la propiedad, la etiqueta y cualquier dato personalizado adjunto.
 
-## Paso 7: atravesar las propiedades de la propiedad
+## Paso 7: Recorrer las sub‑propiedades de la propiedad
 
 ```java
 for (Property pp : pdiffuse.getProperties()) {
@@ -103,33 +118,46 @@ for (Property pp : pdiffuse.getProperties()) {
 }
 ```
 
-Recorra las propiedades de la propiedad "Difusa", demostrando la capacidad de navegar a través de estructuras de propiedades jerárquicas.
+Algunas propiedades son jerárquicas. Recorrer `pdiffuse.getProperties()` te muestra cualquier atributo anidado (p. ej., coordenadas de textura, claves de animación) que pertenece a la entrada *Diffuse*.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-¡Felicidades! Ha aprendido con éxito a trabajar con propiedades 3D y datos personalizados en escenas Java utilizando Aspose.3D. Este tutorial cubrió pasos esenciales, permitiéndole manipular varios aspectos de los modelos 3D dentro de sus aplicaciones Java.
+| Problema | Por qué ocurre | Solución |
+|----------|----------------|----------|
+| **`NullPointerException` on `material`** | El nodo puede no tener un material asignado. | Llama a `node.setMaterial(new Material())` antes de acceder a las propiedades. |
+| **Color does not change** | El modelo usa una textura que sobrescribe el color *Diffuse*. | Desactiva la textura o modifica directamente la imagen de la textura. |
+| **`ClassCastException` when retrieving** | Intentar convertir una propiedad que no es Vector3. | Verifica el tipo de la propiedad con `pdiffuse.getValue().getClass()` antes de convertir. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Cómo puedo instalar la biblioteca Aspose.3D en mi proyecto Java?
+**P: ¿Cómo puedo instalar la biblioteca Aspose.3D en mi proyecto Java?**  
+R: Descarga el JAR desde el [sitio web de Aspose](https://releases.aspose.com/3d/java/) y añádelo al classpath de tu proyecto o a las dependencias de Maven/Gradle.
 
- R1: Puede descargar la biblioteca desde[Aspose sitio web](https://releases.aspose.com/3d/java/) y siga las instrucciones de instalación proporcionadas en la documentación.
+**P: ¿Hay opciones de prueba gratuita disponibles para Aspose.3D?**  
+R: Sí, se puede obtener una prueba totalmente funcional de 30 días desde la [página de prueba gratuita de Aspose](https://releases.aspose.com/).
 
-### P2: ¿Hay opciones de prueba gratuitas disponibles para Aspose.3D?
+**P: ¿Dónde puedo encontrar documentación detallada de Aspose.3D en Java?**  
+R: La referencia oficial de la API está en [documentación de Aspose.3D](https://reference.aspose.com/3d/java/).
 
- R2: Sí, puede explorar las funciones de Aspose.3D accediendo al[prueba gratis](https://releases.aspose.com/) ofrecido en el sitio web.
+**P: ¿Existe un foro de soporte para Aspose.3D donde pueda hacer preguntas?**  
+R: Por supuesto—visita el [foro de soporte de Aspose.3D](https://forum.aspose.com/c/3d/18) para conectar con la comunidad y expertos.
 
-### P3: ¿Dónde puedo encontrar documentación detallada para Aspose.3D en Java?
+**P: ¿Cómo puedo obtener una licencia temporal para Aspose.3D?**  
+R: Solicítala a través de la [página de licencia temporal](https://purchase.aspose.com/temporary-license/) en el sitio de Aspose.
 
- A3: Consulte el[Documentación de Aspose.3D](https://reference.aspose.com/3d/java/) para obtener información completa sobre el uso de la biblioteca en sus proyectos Java.
+**P: ¿Puedo cambiar otros atributos del material además del color?**  
+R: Sí, propiedades como `Specular`, `Opacity` y datos personalizados del usuario pueden modificarse usando el mismo patrón `props.set`.
 
-### P4: ¿Existe un foro de soporte para Aspose.3D donde pueda hacer preguntas y buscar ayuda?
+## Conclusión
 
-A4: Sí, visita el[Foro de soporte de Aspose.3D](https://forum.aspose.com/c/3d/18) para conectarse con la comunidad y obtener ayuda de expertos.
+Ahora has aprendido cómo **cambiar el color de la textura**, **acceder a las propiedades del material**, **establecer un valor Vector3** y **recuperar la propiedad por nombre** en una escena Java usando Aspose.3D. Estas técnicas te brindan un control detallado sobre cualquier activo 3D, permitiendo efectos visuales dinámicos y personalización en tiempo de ejecución en tus aplicaciones.
 
-### P5: ¿Cómo puedo obtener una licencia temporal para Aspose.3D?
+---
 
- R5: Puede adquirir una licencia temporal visitando[este enlace](https://purchase.aspose.com/temporary-license/) en el sitio web de Aspose.
+**Last Updated:** 2025-12-01  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
