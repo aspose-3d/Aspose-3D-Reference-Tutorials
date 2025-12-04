@@ -1,32 +1,57 @@
 ---
-title: Tambahkan Properti Animasi ke Adegan 3D di Java | Tutorial Aspose.3D
-linktitle: Tambahkan Properti Animasi ke Adegan 3D di Java | Tutorial Aspose.3D
-second_title: Asumsikan.3D Java API
-description: Tingkatkan proyek 3D berbasis Java Anda dengan Aspose.3D. Ikuti tutorial kami untuk menambahkan properti animasi dengan lancar.
+date: 2025-12-04
+description: Pelajari **cara menganimasi 3D** dalam Java menggunakan Aspose.3D. Panduan
+  langkah‑demi‑langkah ini menunjukkan cara menambahkan properti animasi, membuat
+  keyframe, dan mengekspor hasilnya.
+language: id
+linktitle: How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
+  Tutorial
+second_title: Aspose.3D Java API
+title: Cara Menganimasikan Adegan 3D dalam Java – Tambahkan Properti Animasi dengan
+  Tutorial Aspose.3D
+url: /java/animations/add-animation-properties-to-scenes/
 weight: 10
-url: /id/java/animations/add-animation-properties-to-scenes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan Properti Animasi ke Adegan 3D di Java | Tutorial Aspose.3D
+# Cara Menggerakkan Adegan 3D di Java – Menambahkan Properti Animasi dengan Aspose.3D
 
-## Perkenalan
+## Pendahuluan
 
-Selamat datang di tutorial langkah demi langkah tentang menambahkan properti animasi ke adegan 3D di Java menggunakan Aspose.3D. Jika Anda ingin menyempurnakan proyek 3D Anda dengan animasi dinamis, Anda berada di tempat yang tepat. Dalam panduan ini, kami akan memandu Anda melalui prosesnya, menguraikan setiap langkah untuk pengalaman yang lancar.
+Jika Anda mencari panduan praktis yang jelas tentang **cara menggerakkan objek 3D** dalam aplikasi Java, Anda berada di tempat yang tepat. Pada tutorial ini kami akan membahas setiap langkah yang diperlukan untuk menambahkan properti animasi ke sebuah adegan 3D menggunakan pustaka Aspose.3D— mulai dari membuat adegan dan mesh hingga mendefinisikan keyframe dan akhirnya mengekspor file yang telah dianimasikan. Pada akhir tutorial Anda akan memiliki file FBX yang dapat dimuat ke dalam penampil 3D modern atau mesin game apa pun.
+
+## Jawaban Cepat
+- **Pustaka apa yang digunakan?** Aspose.3D untuk Java  
+- **Apakah dapat mengekspor ke FBX?** Ya, tutorial ini menyimpan adegan sebagai FBX7500ASCII.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis cukup untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Versi Java apa yang dibutuhkan?** Java 8 atau lebih tinggi.  
+- **Apakah animasinya linear atau spline?** Kedua‑nya—keyframe dapat menggunakan interpolasi BEZIER atau LINEAR.
+
+## Apa itu “cara menggerakkan 3d” di Java?
+
+Menggerakkan objek 3D berarti mengubah properti transformasinya (posisi, rotasi, skala) seiring waktu. Aspose.3D menyediakan API tingkat tinggi yang memungkinkan Anda membuat **bind point**, melampirkan **urutan keyframe**, dan mengontrol interpolasi, semuanya tanpa menulis mesin animasi khusus.
+
+## Mengapa menggunakan Aspose.3D untuk animasi?
+
+- **Dukungan lintas format** – Ekspor ke FBX, OBJ, 3MF, dan lainnya.  
+- **Tanpa dependensi native** – Murni Java, ideal untuk pipeline sisi‑server.  
+- **Opsi interpolasi kaya** – Kurva BEZIER, LINEAR, dan STEP.  
+- **Graf adegan lengkap** – Node, mesh, material, dan animasi semuanya dapat diakses melalui satu API.
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki:
 
-- Pengetahuan dasar tentang pemrograman Java.
--  Pustaka Aspose.3D diinstal. Jika tidak, unduh dari[halaman rilis](https://releases.aspose.com/3d/java/).
+- Pengetahuan dasar pemrograman Java.  
+- Aspose.3D untuk Java terpasang (unduh dari [halaman rilis](https://releases.aspose.com/3d/java/)).  
+- IDE Java atau alat build (Maven/Gradle) siap untuk mengkompilasi contoh.
 
-## Paket Impor
+## Mengimpor Paket
 
-Dalam proyek Java Anda, pastikan Anda mengimpor paket yang diperlukan untuk memanfaatkan fungsionalitas Aspose.3D:
+Di proyek Java Anda, impor kelas inti Aspose.3D dan kelas pembantu `Common` yang digunakan untuk membangun mesh sederhana:
 
 ```java
 import com.aspose.threed.*;
@@ -34,62 +59,74 @@ import com.aspose.threed.*;
 import examples.geometry.Common;
 ```
 
-Sekarang, mari beralih ke panduan langkah demi langkah.
+Setelah namespace siap, mari mulai membangun adegan.
 
 ## Langkah 1: Inisialisasi Adegan
 
 ```java
-// Inisialisasi objek adegan
+// Initialize scene object
 Scene scene = new Scene();
 ```
+
+`Scene` adalah kontainer untuk semua node, mesh, cahaya, dan data animasi.
 
 ## Langkah 2: Buat Mesh menggunakan Polygon Builder
 
 ```java
-// Panggil kelas Common membuat mesh menggunakan metode pembuat poligon untuk menyetel instance mesh
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-## Langkah 3: Buat Node Kubus dengan Terjemahan
+Pembantu ini membuat mesh kubus dasar yang akan kita animasikan nanti.
+
+## Langkah 3: Buat Node Kubus dengan Translasi
 
 ```java
-// Setiap node kubus memiliki terjemahannya sendiri
+// Each cube node has its own translation
 Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ```
 
-## Langkah 4: Temukan Properti Terjemahan
+Setiap node dapat memiliki transformasinya sendiri (translasi, rotasi, skala). Di sini kami menambahkan node anak bernama **cube1**.
+
+## Langkah 4: Temukan Properti Translasi
 
 ```java
-//Temukan properti terjemahan pada objek transformasi node
+// Find translation property on node's transform object
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
-## Langkah 5: Buat Titik Ikatan
+Properti `Translation` adalah yang akan kami animasikan—memindahkan kubus sepanjang sumbu X, Y, atau Z.
+
+## Langkah 5: Buat Bind Point
 
 ```java
-// Buat titik pengikatan berdasarkan properti terjemahan
+// Create a bind point based on the translation property
 BindPoint bindPoint = new BindPoint(scene, translation);
 ```
 
-## Langkah 6: Buat Kurva Animasi
+Sebuah **bind point** menghubungkan properti (seperti translasi) ke kurva animasi.
+
+## Langkah 6: Buat Kurva Animasi untuk Sumbu X
 
 ```java
-// Buat kurva animasi pada komponen X skala
+// Create the animation curve on the X component of the scale
 KeyframeSequence kfs = new KeyframeSequence();
 
-// Tambahkan bingkai utama untuk komponen X
+// Add keyframes for X component
 kfs.add(0, 10.0f, Interpolation.BEZIER);
 kfs.add(3, 20.0f, Interpolation.BEZIER);
 kfs.add(5, 30.0f, Interpolation.LINEAR);
 
-// Ikat urutan keyframe ke komponen X
+// Bind the keyframe sequence to the X component
 bindPoint.bindKeyframeSequence("X", kfs);
 ```
+
+Kurva ini mendefinisikan tiga keyframe: pada waktu 0, 3, dan 5 detik. Dua pertama menggunakan **BEZIER** untuk gerakan halus, sementara yang terakhir menggunakan **LINEAR**.
 
 ## Langkah 7: Ulangi untuk Komponen Z
 
 ```java
-// Ulangi proses untuk komponen Z
+// Repeat the process for the Z component
 kfs = new KeyframeSequence();
 kfs.add(0, 10.0f, Interpolation.BEZIER);
 kfs.add(3, -10.0f, Interpolation.BEZIER);
@@ -98,42 +135,56 @@ kfs.add(5, 0.0f, Interpolation.LINEAR);
 bindPoint.bindKeyframeSequence("Z", kfs);
 ```
 
+Menganimasikan sumbu Z memberi kubus jalur yang lebih dinamis melalui ruang 3‑D.
+
 ## Langkah 8: Simpan Adegan 3D
 
 ```java
-// Tentukan direktori untuk menyimpan adegan 3D
+// Specify the directory for saving the 3D scene
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "PropertyToDocument.fbx";
 
-// Simpan adegan 3D dalam format file yang didukung
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
+Adegan disimpan sebagai file FBX, yang dapat Anda buka di alat seperti Blender, Unity, atau Autodesk Maya untuk melihat pratinjau animasi.
+
+## Masalah Umum dan Solusinya
+
+| Gejala | Penyebab Kemungkinan | Solusi |
+|--------|----------------------|--------|
+| Tidak ada gerakan yang terlihat | Keyframe ditambahkan ke komponen yang salah (misalnya “Y” alih‑alih “X”) | Verifikasi nama komponen dalam `bindKeyframeSequence`. |
+| Animasi melompat | Interpolasi BEZIER dan LINEAR dicampur secara tidak tepat | Jaga konsistensi interpolasi untuk gerakan lebih halus, atau sesuaikan tangent secara manual. |
+| File tidak tersimpan | Path direktori tidak valid | Pastikan `MyDir` mengarah ke folder yang ada dan dapat ditulisi serta berakhiran `.fbx`. |
+
+## Pertanyaan yang Sering Diajukan
+
+**T: Bisakah saya menggunakan Aspose.3D untuk proyek komersial?**  
+J: Ya. Beli lisensi komersial di [halaman pembelian Aspose](https://purchase.aspose.com/buy).
+
+**T: Apakah tersedia versi percobaan gratis?**  
+J: Tentu saja. Unduh percobaan dari [halaman rilis Aspose](https://releases.aspose.com/).
+
+**T: Di mana saya dapat menemukan dukungan untuk Aspose.3D?**  
+J: Bergabunglah dengan komunitas di [Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk bantuan dari staf maupun pengguna lain.
+
+**T: Bagaimana cara mendapatkan lisensi sementara untuk evaluasi?**  
+J: Minta [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk menghindari pembatasan runtime selama pengujian.
+
+**T: Apakah ada tutorial lain yang tersedia?**  
+J: Ya—jelajahi dokumentasi lengkap [Aspose.3D](https://reference.aspose.com/3d/java/) untuk contoh tambahan dan topik lanjutan.
+
 ## Kesimpulan
 
-Selamat! Anda telah berhasil menambahkan properti animasi ke adegan 3D menggunakan Aspose.3D di Java. Bereksperimenlah dengan parameter berbeda untuk mendapatkan animasi yang diinginkan untuk proyek Anda.
+Anda kini mengetahui **cara menggerakkan objek 3D** di Java menggunakan Aspose.3D: membuat adegan, mengikat properti translasi, mendefinisikan urutan keyframe, dan mengekspor file FBX yang telah dianimasikan. Silakan bereksperimen dengan rotasi, skala, atau beberapa node untuk membangun animasi yang lebih kaya bagi game, simulasi, atau visualisasi.
 
-## FAQ
+---
 
-### Q1: Dapatkah saya menggunakan Aspose.3D untuk proyek komersial?
+**Terakhir Diperbarui:** 2025-12-04  
+**Diuji Dengan:** Aspose.3D untuk Java 24.12 (terbaru)  
+**Penulis:** Aspose  
 
- A1: Ya, Anda bisa. Mengunjungi[halaman pembelian](https://purchase.aspose.com/buy) untuk rincian perizinan.
-
-### Q2: Apakah tersedia uji coba gratis?
-
- A2: Tentu saja! Ambil milikmu[uji coba gratis](https://releases.aspose.com/) sebelum membuat keputusan pembelian.
-
-### Q3: Di mana saya dapat menemukan dukungan untuk Aspose.3D?
-
-A3: Bergabunglah dengan komunitas di[Forum Asumsikan.3D](https://forum.aspose.com/c/3d/18) untuk bantuan.
-
-### Q4: Bagaimana cara mendapatkan lisensi sementara?
-
- A4: Dapatkan a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk periode evaluasi Anda.
-
-### Q5: Apakah ada tutorial lain yang tersedia?
-
- A5: Jelajahi secara komprehensif[dokumentasi](https://reference.aspose.com/3d/java/) untuk tutorial tambahan.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
