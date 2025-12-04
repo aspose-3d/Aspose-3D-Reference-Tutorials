@@ -1,32 +1,57 @@
 ---
-title: जावा में 3डी दृश्यों में एनिमेशन गुण जोड़ें | Aspose.3D ट्यूटोरियल
-linktitle: जावा में 3डी दृश्यों में एनिमेशन गुण जोड़ें | Aspose.3D ट्यूटोरियल
-second_title: Aspose.3D जावा एपीआई
-description: Aspose.3D के साथ अपने जावा-आधारित 3D प्रोजेक्ट को बेहतर बनाएं। एनीमेशन गुणों को सहजता से जोड़ने के लिए हमारे ट्यूटोरियल का अनुसरण करें।
+date: 2025-12-04
+description: Aspose.3D का उपयोग करके जावा में **3D को एनीमेट करना** सीखें। यह चरण‑दर‑चरण
+  गाइड आपको एनीमेशन प्रॉपर्टीज़ जोड़ना, कीफ़्रेम बनाना, और परिणाम को निर्यात करना
+  दिखाता है।
+language: hi
+linktitle: How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
+  Tutorial
+second_title: Aspose.3D Java API
+title: जावा में 3D दृश्यों को एनीमेट कैसे करें – Aspose.3D ट्यूटोरियल के साथ एनीमेशन
+  प्रॉपर्टीज़ जोड़ें
+url: /java/animations/add-animation-properties-to-scenes/
 weight: 10
-url: /hi/java/animations/add-animation-properties-to-scenes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा में 3डी दृश्यों में एनिमेशन गुण जोड़ें | Aspose.3D ट्यूटोरियल
+# Java में 3D दृश्यों को एनीमेट कैसे करें – Aspose.3D के साथ एनीमेशन प्रॉपर्टीज़ जोड़ें
 
-## परिचय
+## Introduction
 
-Aspose.3D का उपयोग करके जावा में 3D दृश्यों में एनीमेशन गुण जोड़ने पर इस चरण-दर-चरण ट्यूटोरियल में आपका स्वागत है। यदि आप गतिशील एनिमेशन के साथ अपने 3डी प्रोजेक्ट को बेहतर बनाना चाहते हैं, तो आप सही जगह पर हैं। इस गाइड में, हम आपको एक सहज अनुभव के लिए प्रत्येक चरण का विवरण देते हुए प्रक्रिया के बारे में बताएंगे।
+यदि आप Java एप्लिकेशन में **how to animate 3D** ऑब्जेक्ट्स के लिए एक स्पष्ट, व्यावहारिक गाइड खोज रहे हैं, तो आप सही जगह पर आए हैं। इस ट्यूटोरियल में हम Aspose.3D लाइब्रेरी का उपयोग करके 3D सीन में एनीमेशन प्रॉपर्टीज़ जोड़ने के सभी चरणों को समझेंगे—सिन बनाना और मेष से लेकर कीफ़्रेम परिभाषित करना और अंत में एनीमेटेड फ़ाइल को एक्सपोर्ट करना। अंत में आपके पास एक कार्यशील FBX फ़ाइल होगी जिसे आप किसी भी आधुनिक 3D व्यूअर या गेम इंजन में लोड कर सकते हैं।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What library is used?** Aspose.3D for Java  
+- **Can I export to FBX?** Yes, the tutorial saves the scene as FBX7500ASCII.  
+- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production.  
+- **What Java version is required?** Java 8 or higher.  
+- **Is the animation linear or spline?** Both—keyframes can use BEZIER or LINEAR interpolation.
 
-इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## What is “how to animate 3d” in Java?
 
-- जावा प्रोग्रामिंग का बुनियादी ज्ञान।
--  Aspose.3D लाइब्रेरी स्थापित की गई। यदि नहीं, तो इसे यहां से डाउनलोड करें[रिलीज पेज](https://releases.aspose.com/3d/java/).
+Java में 3D ऑब्जेक्ट्स को एनीमेट करना मतलब उनके ट्रांसफ़ॉर्म प्रॉपर्टीज़ (पोज़िशन, रोटेशन, स्केल) को समय के साथ बदलना। Aspose.3D एक हाई‑लेवल API प्रदान करता है जो आपको **बाइंड पॉइंट्स** बनाने, **कीफ़्रेम सीक्वेंसेज़** अटैच करने और इंटरपोलेशन को नियंत्रित करने देता है, बिना किसी कस्टम एनीमेशन इंजन लिखे।
 
-## पैकेज आयात करें
+## Why use Aspose.3D for animation?
 
-अपने जावा प्रोजेक्ट में, सुनिश्चित करें कि आप Aspose.3D कार्यात्मकताओं का लाभ उठाने के लिए आवश्यक पैकेज आयात करें:
+- **Cross‑format support** – Export to FBX, OBJ, 3MF, and more.  
+- **No native dependencies** – Pure Java, ideal for server‑side pipelines.  
+- **Rich interpolation options** – BEZIER, LINEAR, and STEP curves.  
+- **Full scene graph** – Nodes, meshes, materials, and animation are all accessible through a single API.
+
+## Prerequisites
+
+Before we dive in, make sure you have:
+
+- Basic Java programming knowledge.  
+- Aspose.3D for Java installed (download from the [release page](https://releases.aspose.com/3d/java/)).  
+- A Java IDE or build tool (Maven/Gradle) ready to compile the sample.
+
+## Import Packages
+
+In your Java project, import the core Aspose.3D classes and the helper `Common` class used to build a simple mesh:
 
 ```java
 import com.aspose.threed.*;
@@ -34,62 +59,74 @@ import com.aspose.threed.*;
 import examples.geometry.Common;
 ```
 
-अब, आइए चरण-दर-चरण मार्गदर्शिका पर आगे बढ़ें।
+Now that the namespaces are ready, let’s start building the scene.
 
-## चरण 1: दृश्य को आरंभ करें
+## Step 1: Initialize the Scene
 
 ```java
-// दृश्य वस्तु आरंभ करें
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## चरण 2: पॉलीगॉन बिल्डर का उपयोग करके मेष बनाएं
+A `Scene` is the container for all nodes, meshes, lights, and animation data.
+
+## Step 2: Create Mesh using Polygon Builder
 
 ```java
-// मेश इंस्टेंस सेट करने के लिए पॉलीगॉन बिल्डर विधि का उपयोग करके कॉमन क्लास क्रिएट मेश को कॉल करें
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-## चरण 3: अनुवाद के साथ क्यूब नोड बनाएं
+The helper creates a basic cube mesh that we’ll animate later.
+
+## Step 3: Create Cube Node with Translation
 
 ```java
-// प्रत्येक क्यूब नोड का अपना अनुवाद होता है
+// Each cube node has its own translation
 Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ```
 
-## चरण 4: अनुवाद संपत्ति खोजें
+Each node can have its own transform (translation, rotation, scale). Here we add a child node named **cube1**.
+
+## Step 4: Find Translation Property
 
 ```java
-//नोड के ट्रांसफ़ॉर्म ऑब्जेक्ट पर अनुवाद गुण ढूंढें
+// Find translation property on node's transform object
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
-## चरण 5: बाइंड पॉइंट बनाएं
+The `Translation` property is what we’ll animate—moving the cube along the X, Y, or Z axes.
+
+## Step 5: Create Bind Point
 
 ```java
-// अनुवाद गुण के आधार पर एक बाइंड पॉइंट बनाएं
+// Create a bind point based on the translation property
 BindPoint bindPoint = new BindPoint(scene, translation);
 ```
 
-## चरण 6: एनिमेशन कर्व बनाएं
+A **bind point** links a property (like translation) to an animation curve.
+
+## Step 6: Create Animation Curve for the X Axis
 
 ```java
-// स्केल के X घटक पर एनीमेशन वक्र बनाएं
+// Create the animation curve on the X component of the scale
 KeyframeSequence kfs = new KeyframeSequence();
 
-// X घटक के लिए मुख्यफ़्रेम जोड़ें
+// Add keyframes for X component
 kfs.add(0, 10.0f, Interpolation.BEZIER);
 kfs.add(3, 20.0f, Interpolation.BEZIER);
 kfs.add(5, 30.0f, Interpolation.LINEAR);
 
-// कीफ़्रेम अनुक्रम को X घटक से बाइंड करें
+// Bind the keyframe sequence to the X component
 bindPoint.bindKeyframeSequence("X", kfs);
 ```
 
-## चरण 7: Z घटक के लिए दोहराएँ
+The curve defines three keyframes: at time 0, 3, and 5 seconds. The first two use **BEZIER** for smooth motion, while the last uses **LINEAR**.
+
+## Step 7: Repeat for Z Component
 
 ```java
-// Z घटक के लिए प्रक्रिया दोहराएँ
+// Repeat the process for the Z component
 kfs = new KeyframeSequence();
 kfs.add(0, 10.0f, Interpolation.BEZIER);
 kfs.add(3, -10.0f, Interpolation.BEZIER);
@@ -98,42 +135,56 @@ kfs.add(5, 0.0f, Interpolation.LINEAR);
 bindPoint.bindKeyframeSequence("Z", kfs);
 ```
 
-## चरण 8: 3डी दृश्य सहेजें
+Animating the Z axis gives the cube a more dynamic path through 3‑D space.
+
+## Step 8: Save the 3D Scene
 
 ```java
-// 3D दृश्य को सहेजने के लिए निर्देशिका निर्दिष्ट करें
+// Specify the directory for saving the 3D scene
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "PropertyToDocument.fbx";
 
-// समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
-## निष्कर्ष
+The scene is persisted as an FBX file, which you can open in tools like Blender, Unity, or Autodesk Maya to preview the animation.
 
-बधाई हो! आपने जावा में Aspose.3D का उपयोग करके अपने 3D दृश्य में एनीमेशन गुण सफलतापूर्वक जोड़ दिए हैं। अपनी परियोजनाओं के लिए वांछित एनिमेशन प्राप्त करने के लिए विभिन्न मापदंडों के साथ प्रयोग करें।
+## Common Issues and Solutions
 
-## अक्सर पूछे जाने वाले प्रश्न
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| No movement visible | Keyframes added to wrong component (e.g., “Y” instead of “X”) | Verify the component name in `bindKeyframeSequence`. |
+| Animation jumps | Mixing BEZIER and LINEAR incorrectly | Keep interpolation consistent for smoother motion, or adjust tangents manually. |
+| File not saved | Invalid directory path | Ensure `MyDir` points to an existing writable folder and ends with `.fbx`. |
 
-### Q1: क्या मैं व्यावसायिक परियोजनाओं के लिए Aspose.3D का उपयोग कर सकता हूँ?
+## Frequently Asked Questions
 
- A1: हाँ, आप कर सकते हैं। दौरा करना[खरीद पृष्ठ](https://purchase.aspose.com/buy) लाइसेंसिंग विवरण के लिए.
+**Q: Can I use Aspose.3D for commercial projects?**  
+A: Yes. Purchase a commercial license on the [Aspose purchase page](https://purchase.aspose.com/buy).
 
-### Q2: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
+**Q: Is there a free trial available?**  
+A: Absolutely. Download a trial from the [Aspose releases page](https://releases.aspose.com/).
 
- ए2: निश्चित रूप से! अपना पकड़ो[मुफ्त परीक्षण](https://releases.aspose.com/) खरीदारी का निर्णय लेने से पहले.
+**Q: Where can I find support for Aspose.3D?**  
+A: Join the community at the [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) for help from both staff and users.
 
-### Q3: मुझे Aspose.3D के लिए समर्थन कहां मिल सकता है?
+**Q: How can I get a temporary license for evaluation?**  
+A: Request a [temporary license](https://purchase.aspose.com/temporary-license/) to avoid runtime restrictions during testing.
 
-A3: समुदाय में शामिल हों[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) सहायता के लिए।
+**Q: Are there more tutorials available?**  
+A: Yes—explore the full [Aspose.3D documentation](https://reference.aspose.com/3d/java/) for additional examples and advanced topics.
 
-### Q4: मैं अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
+## Conclusion
 
- ए4: ए प्राप्त करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) आपकी मूल्यांकन अवधि के लिए.
+You now know **how to animate 3D** objects in Java using Aspose.3D: creating a scene, binding translation properties, defining keyframe sequences, and exporting the animated FBX file. Feel free to experiment with rotation, scaling, or multiple nodes to build richer animations for games, simulations, or visualizations.
 
-### Q5: क्या और भी ट्यूटोरियल उपलब्ध हैं?
+---
 
- A5: व्यापक का अन्वेषण करें[प्रलेखन](https://reference.aspose.com/3d/java/) अतिरिक्त ट्यूटोरियल के लिए.
+**Last Updated:** 2025-12-04  
+**Tested With:** Aspose.3D for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

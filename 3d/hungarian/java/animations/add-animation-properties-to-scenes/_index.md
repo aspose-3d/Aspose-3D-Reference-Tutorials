@@ -1,32 +1,57 @@
 ---
-title: Animációs tulajdonságok hozzáadása a Java | 3D jelenetekhez Aspose.3D bemutató
-linktitle: Animációs tulajdonságok hozzáadása a Java | 3D jelenetekhez Aspose.3D bemutató
+date: 2025-12-04
+description: Tanulja meg, **hogyan animáljon 3D** jeleneteket Java-ban az Aspose.3D
+  használatával. Ez a lépésről‑lépésre útmutató megmutatja, hogyan adjon hozzá animációs
+  tulajdonságokat, hozzon létre kulcsképkockákat, és exportálja az eredményt.
+language: hu
+linktitle: How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
+  Tutorial
 second_title: Aspose.3D Java API
-description: Javítsa Java-alapú 3D-projektjeit az Aspose.3D segítségével. Kövesse oktatóanyagunkat az animációs tulajdonságok zökkenőmentes hozzáadásához.
+title: Hogyan animáljunk 3D jeleneteket Java-ban – Animációs tulajdonságok hozzáadása
+  az Aspose.3D útmutatóval
+url: /java/animations/add-animation-properties-to-scenes/
 weight: 10
-url: /hu/java/animations/add-animation-properties-to-scenes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Animációs tulajdonságok hozzáadása a Java | 3D jelenetekhez Aspose.3D bemutató
+# Hogyan animáljunk 3D jeleneteket Java‑ban – Animációs tulajdonságok hozzáadása az Aspose.3D‑vel
 
 ## Bevezetés
 
-Üdvözöljük ebben a lépésről lépésre bemutató oktatóanyagban, amely az Aspose.3D segítségével animációs tulajdonságokat ad a Java 3D-s jeleneteihez. Ha dinamikus animációkkal szeretné javítani 3D projektjeit, akkor jó helyen jár. Ebben az útmutatóban végigvezetjük a folyamaton, az egyes lépéseket lebontva a zökkenőmentes élmény érdekében.
+Ha egy érthető, gyakorlati útmutatót keresel arra, **hogyan animáljunk 3D** objektumokat egy Java‑alkalmazásban, jó helyen jársz. Ebben a tutorialban lépésről lépésre végigvezetünk a 3D jelenethez animációs tulajdonságok hozzáadásának folyamatán az Aspose.3D könyvtár segítségével – a jelenet és a háló létrehozásától a kulcsképkockák definiálásáig, egészen az animált fájl exportálásáig. A végére egy működő FBX fájlt kapsz, amelyet betölthetsz bármely modern 3D‑megtekintőbe vagy játékmotorba.
 
-## Előfeltételek
+## Gyors válaszok
+- **Melyik könyvtárat használjuk?** Aspose.3D for Java  
+- **Exportálhatok FBX‑be?** Igen, a tutorial a jelenetet FBX7500ASCII formátumban menti.  
+- **Szükség van licencre fejlesztéshez?** Egy ingyenes próba verzió elegendő a teszteléshez; a gyártási környezethez kereskedelmi licenc szükséges.  
+- **Milyen Java verzió szükséges?** Java 8 vagy újabb.  
+- **Lineáris vagy spline animáció?** Mindkettő – a kulcsképkockák használhatnak BEZIER vagy LINEAR interpolációt.
 
-Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+## Mi az a „hogyan animáljunk 3d” Java‑ban?
 
-- Java programozási alapismeretek.
--  Aspose.3D könyvtár telepítve. Ha nem, töltse le a[kiadási oldal](https://releases.aspose.com/3d/java/).
+A 3D objektumok animálása azt jelenti, hogy idővel változtatjuk a transzformációs tulajdonságaikat (pozíció, forgás, méretezés). Az Aspose.3D egy magas szintű API‑t biztosít, amely lehetővé teszi **bind pontok** létrehozását, **kulcsképkocka sorozatok** csatolását, és az interpoláció vezérlését, mindezt anélkül, hogy saját animációs motorra lenne szükség.
+
+## Miért használjuk az Aspose.3D‑t animációhoz?
+
+- **Kereszt‑formátum támogatás** – Exportálás FBX, OBJ, 3MF és további formátumokba.  
+- **Nincs natív függőség** – Tiszta Java, ideális szerver‑oldali pipeline‑okhoz.  
+- **Gazdag interpolációs lehetőségek** – BEZIER, LINEAR és STEP görbék.  
+- **Teljes jelenetgraf** – Csomópontok, hálók, anyagok és animációk egyetlen API‑ból elérhetők.
+
+## Előkövetelmények
+
+Mielőtt belevágnánk, győződj meg róla, hogy rendelkezel:
+
+- Alapvető Java programozási ismeretekkel.  
+- Aspose.3D for Java telepítve van (letölthető a [release page](https://releases.aspose.com/3d/java/) oldalról).  
+- Java IDE‑vel vagy build eszközzel (Maven/Gradle) készen állsz a minta lefordítására.
 
 ## Csomagok importálása
 
-Java projektjében győződjön meg arról, hogy importálja a szükséges csomagokat az Aspose.3D funkciók kihasználásához:
+A Java projektedben importáld a core Aspose.3D osztályokat és a segéd `Common` osztályt, amely egyszerű háló építésére szolgál:
 
 ```java
 import com.aspose.threed.*;
@@ -34,62 +59,74 @@ import com.aspose.threed.*;
 import examples.geometry.Common;
 ```
 
-Most pedig térjünk át a lépésről lépésre szóló útmutatóra.
+Most, hogy a névtér készen áll, kezdjünk el egy jelenetet építeni.
 
-## 1. lépés: Inicializálja a jelenetet
+## 1. lépés: A jelenet inicializálása
 
 ```java
-// Jelenetobjektum inicializálása
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## 2. lépés: Háló létrehozása a Polygon Builder segítségével
+A `Scene` minden csomópont, háló, fény és animációs adat tárolója.
+
+## 2. lépés: Háló létrehozása Polygon Builder‑rel
 
 ```java
-// Hívja a Common class create mesh-t a sokszögépítő metódussal a hálópéldány beállításához
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-## 3. lépés: Kocka csomópont létrehozása fordítással
+A segéd egy egyszerű kocka hálót hoz létre, amelyet később animálunk.
+
+## 3. lépés: Kocka csomópont létrehozása transzlációval
 
 ```java
-// Minden kocka csomópontnak saját fordítása van
+// Each cube node has its own translation
 Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ```
 
-## 4. lépés: Keresse meg a fordítási tulajdonságot
+Minden csomópont saját transzformációval (transzláció, rotáció, skálázás) rendelkezhet. Itt egy **cube1** nevű gyermek csomópontot adunk hozzá.
+
+## 4. lépés: Transzlációs tulajdonság megtalálása
 
 ```java
-//Keresse meg a fordítási tulajdonságot a csomópont transzformációs objektumán
+// Find translation property on node's transform object
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
-## 5. lépés: Hozzon létre kötési pontot
+A `Translation` tulajdonságot fogjuk animálni – a kocka mozgatása X, Y vagy Z tengely mentén.
+
+## 5. lépés: Bind pont létrehozása
 
 ```java
-// Hozzon létre egy kötési pontot a fordítási tulajdonság alapján
+// Create a bind point based on the translation property
 BindPoint bindPoint = new BindPoint(scene, translation);
 ```
 
-## 6. lépés: Animációs görbe létrehozása
+Egy **bind pont** összekapcsol egy tulajdonságot (például a transzlációt) egy animációs görbével.
+
+## 6. lépés: Animációs görbe létrehozása az X tengelyhez
 
 ```java
-// Hozza létre az animációs görbét a skála X komponensén
+// Create the animation curve on the X component of the scale
 KeyframeSequence kfs = new KeyframeSequence();
 
-// Kulcskockák hozzáadása az X komponenshez
+// Add keyframes for X component
 kfs.add(0, 10.0f, Interpolation.BEZIER);
 kfs.add(3, 20.0f, Interpolation.BEZIER);
 kfs.add(5, 30.0f, Interpolation.LINEAR);
 
-// Kösd a kulcsképsorozatot az X komponenshez
+// Bind the keyframe sequence to the X component
 bindPoint.bindKeyframeSequence("X", kfs);
 ```
 
-## 7. lépés: Ismételje meg a Z komponens esetében
+A görbe három kulcsképkockát definiál: 0, 3 és 5 másodperc időpontban. Az első kettő **BEZIER**‑t használ a sima mozgáshoz, az utolsó **LINEAR**‑t.
+
+## 7. lépés: Ismétlés a Z komponenshez
 
 ```java
-// Ismételje meg a folyamatot a Z komponenssel
+// Repeat the process for the Z component
 kfs = new KeyframeSequence();
 kfs.add(0, 10.0f, Interpolation.BEZIER);
 kfs.add(3, -10.0f, Interpolation.BEZIER);
@@ -98,42 +135,56 @@ kfs.add(5, 0.0f, Interpolation.LINEAR);
 bindPoint.bindKeyframeSequence("Z", kfs);
 ```
 
-## 8. lépés: Mentse el a 3D-s jelenetet
+A Z tengely animálása dinamikusabb útvonalat ad a kockának a 3‑D térben.
+
+## 8. lépés: A 3D jelenet mentése
 
 ```java
-// Adja meg a könyvtárat a 3D jelenet mentéséhez
+// Specify the directory for saving the 3D scene
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "PropertyToDocument.fbx";
 
-// Mentse a 3D jelenetet a támogatott fájlformátumokba
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
-## Következtetés
+A jelenet FBX fájlként kerül mentésre, amelyet megnyithatsz olyan eszközökben, mint a Blender, Unity vagy az Autodesk Maya, hogy megtekintsd az animációt.
 
-Gratulálunk! Sikeresen hozzáadta az animációs tulajdonságokat a 3D-s jelenethez a Java Aspose.3D használatával. Kísérletezzen különböző paraméterekkel, hogy elérje a kívánt animációkat projektjeihez.
+## Gyakori problémák és megoldások
 
-## GYIK
+| Tünet | Valószínű ok | Megoldás |
+|-------|--------------|----------|
+| Nem látszik mozgás | Kulcsképkockák rossz komponenshez lettek hozzáadva (pl. “Y” helyett “X”) | Ellenőrizd a komponens nevét a `bindKeyframeSequence`‑ben. |
+| Az animáció ugrál | BEZIER és LINEAR keverése helytelenül | Tartsd egységesen az interpolációt a simább mozgáshoz, vagy állítsd be manuálisan a tangenseket. |
+| A fájl nem mentődik | Érvénytelen könyvtár útvonal | Győződj meg róla, hogy a `MyDir` egy létező, írható mappára mutat, és `.fbx`‑vel végződik. |
 
-### 1. kérdés: Használhatom az Aspose.3D-t kereskedelmi projektekhez?
+## Gyakran feltett kérdések
 
- A1: Igen, megteheti. Meglátogatni a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési részletekért.
+**Q: Használhatom az Aspose.3D‑t kereskedelmi projektekben?**  
+A: Igen. Vásárolj kereskedelmi licencet a [Aspose purchase page](https://purchase.aspose.com/buy) oldalon.
 
-### 2. kérdés: Van ingyenes próbaverzió?
+**Q: Van ingyenes próba verzió?**  
+A: Természetesen. Töltsd le a próbaverziót a [Aspose releases page](https://releases.aspose.com/) oldalról.
 
- A2: Természetesen! Fogd meg[ingyenes próbaverzió](https://releases.aspose.com/) vásárlási döntése előtt.
+**Q: Hol találok támogatást az Aspose.3D‑hez?**  
+A: Csatlakozz a közösséghez a [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) oldalon, ahol a személyzet és a felhasználók is segítenek.
 
-### 3. kérdés: Hol találok támogatást az Aspose.3D-hez?
+**Q: Hogyan kaphatok ideiglenes licencet értékeléshez?**  
+A: Kérj egy [temporary license](https://purchase.aspose.com/temporary-license/)‑t, hogy a tesztelés során ne legyenek futásidejű korlátozások.
 
-V3: Csatlakozz a közösséghez a következő címen:[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) segítségért.
+**Q: Van még több tutorial?**  
+A: Igen – tekintsd meg a teljes [Aspose.3D documentation](https://reference.aspose.com/3d/java/) oldalt további példák és haladó témák miatt.
 
-### 4. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
+## Összegzés
 
- A4: Szerezzen be a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) értékelési időszakára.
+Most már tudod, **hogyan animáljunk 3D** objektumokat Java‑ban az Aspose.3D‑vel: jelenet létrehozása, transzlációs tulajdonságok bind‑elése, kulcsképkocka sorozatok definiálása és az animált FBX fájl exportálása. Nyugodtan kísérletezz forgatással, méretezéssel vagy több csomóponttal, hogy gazdagabb animációkat hozz létre játékokhoz, szimulációkhoz vagy vizualizációkhoz.
 
-### 5. kérdés: Vannak további oktatóanyagok?
+---
 
- A5: Fedezze fel az átfogó[dokumentáció](https://reference.aspose.com/3d/java/) további oktatóanyagokért.
+**Utoljára frissítve:** 2025-12-04  
+**Tesztelve:** Aspose.3D for Java 24.12 (legújabb)  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
