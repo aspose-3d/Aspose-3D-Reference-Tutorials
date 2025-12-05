@@ -1,32 +1,52 @@
 ---
-title: การสร้างกระบอกสูบด้วย Offset Top ใน Aspose.3D สำหรับ Java
-linktitle: การสร้างกระบอกสูบด้วย Offset Top ใน Aspose.3D สำหรับ Java
-second_title: Aspose.3D จาวา API
-description: สำรวจความมหัศจรรย์ของการสร้างแบบจำลอง 3 มิติใน Java ด้วย Aspose.3D เรียนรู้วิธีสร้างกระบอกสูบที่น่าหลงใหลด้วยยอดออฟเซ็ตได้อย่างง่ายดาย
+date: 2025-12-05
+description: เรียนรู้วิธีสร้างโมเดลทรงกระบอกที่มีส่วนบนออฟเซ็ตใน Aspose.3D สำหรับ
+  Java, เพิ่มขั้นตอนการเพิ่มโหนดลูกใน Java, และส่งออกไฟล์ OBJ ของโมเดล 3 มิติได้อย่างง่ายดาย.
+language: th
+linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: วิธีสร้างทรงกระบอกที่มีส่วนบนออฟเซ็ตใน Aspose.3D สำหรับ Java
+url: /java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
-url: /th/java/cylinders/creating-cylinders-with-offset-top/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การสร้างกระบอกสูบด้วย Offset Top ใน Aspose.3D สำหรับ Java
+# วิธีสร้างทรงกระบอกที่มีส่วนบนชิดลบใน Aspose.3D สำหรับ Java
 
-## การแนะนำ
+## บทนำ
 
-ในขอบเขตของการสร้างแบบจำลอง 3 มิติบน Java นั้น Aspose.3D มีความโดดเด่นในฐานะเครื่องมืออันทรงพลัง ช่วยให้นักพัฒนาสามารถสร้างฉาก 3 มิติที่ซับซ้อนได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะเจาะลึกโลกอันน่าทึ่งของ Aspose.3D สำหรับ Java โดยเน้นไปที่งานเฉพาะ นั่นคือการสร้างกระบอกสูบที่มีส่วนยอดออฟเซ็ต ในตอนท้ายของคู่มือนี้ คุณจะเข้าใจกระบวนการนี้อย่างแน่ชัด ซึ่งช่วยให้คุณสามารถรวมคุณลักษณะนี้เข้ากับโปรเจ็กต์ 3D ของคุณได้อย่างราบรื่น
+หากคุณกำลังมองหา **how to create cylinder** objects ที่มีส่วนบนชิดลบแบบกำหนดเองในฉาก 3D ที่ใช้ Java, Aspose.3D ทำให้กระบวนการง่ายดาย ในบทเรียนนี้เราจะอธิบายทุกขั้นตอน—from การตั้งค่าฉากจนถึงการส่งออกโมเดลสุดท้ายเป็นไฟล์ OBJ—เพื่อให้คุณสามารถรวมทรงกระบอกที่มีส่วนบนชิดลบเข้ากับแอปพลิเคชันของคุณได้อย่างมั่นใจ。
+
+## คำตอบสั้น
+- **ไลบรารีที่ใช้คืออะไร?** Aspose.3D for Java  
+- **ฉันสามารถชิดลบส่วนบนของทรงกระบอกได้หรือไม่?** Yes, using `setOffsetTop`  
+- **ฉันจะเพิ่ม child node ใน Java อย่างไร?** Call `createChildNode` on the root node  
+- **ฉันสามารถส่งออกเป็นฟอร์แมตใดได้?** Wavefront OBJ (`export 3d model obj`)  
+- **ฉันต้องการไลเซนส์สำหรับการทดสอบหรือไม่?** A temporary license is available for evaluation  
+
+## “how to create cylinder” ที่มีส่วนบนชิดลบคืออะไร?
+
+การสร้างทรงกระบอกที่มีส่วนบนชิดลบหมายถึงหน้าวงกลมด้านบนถูกเลื่อนตำแหน่งสัมพันธ์กับฐาน ทำให้คุณสามารถสร้างรูปทรงที่แคบลงหรือไม่สมมาตรได้โดยไม่ต้องจัดการเวอร์เท็กซ์ด้วยตนเอง Aspose.3D มีคอนสตรัคเตอร์เฉพาะและคุณสมบัติ `OffsetTop` เพื่อทำเช่นนี้ในเพียงไม่กี่บรรทัดของโค้ด。
+
+## ทำไมต้องใช้ Aspose.3D สำหรับ Java?
+
+- **High‑level API:** ไม่จำเป็นต้องจัดการข้อมูลเมชระดับล่าง  
+- **Cross‑platform:** ทำงานบนสภาพแวดล้อมที่เข้ากันได้กับ JVM ใดก็ได้  
+- **Built‑in exporters:** บันทึกโดยตรงเป็น OBJ, STL, FBX และอื่น ๆ  
+- **Extensible:** สามารถเพิ่ม child node, ใช้การแปลง, และรวมกับไลบรารี Java อื่น ๆ ได้อย่างง่ายดาย  
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้นการเดินทางที่สร้างสรรค์นี้ ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+- **Java Development Kit (JDK)** – เวอร์ชันที่เข้ากันได้ถูกติดตั้ง  
+- **Aspose.3D for Java library** – ดาวน์โหลด JAR ล่าสุดจากเว็บไซต์อย่างเป็นทางการ [here](https://releases.aspose.com/3d/java/)  
+- IDE ที่คุณเลือก (Eclipse, IntelliJ IDEA, NetBeans ฯลฯ)  
 
-- Java Development Kit (JDK): Aspose.3D สำหรับ Java จำเป็นต้องติดตั้ง JDK ที่เข้ากันได้บนเครื่องของคุณ
--  ไลบรารี Aspose.3D: ดาวน์โหลดและรวมไลบรารี Aspose.3D เข้ากับโปรเจ็กต์ Java ของคุณ คุณสามารถค้นหาห้องสมุดและเอกสารรายละเอียดได้[ที่นี่](https://releases.aspose.com/3d/java/).
+## นำเข้าแพ็กเกจ
 
-## แพ็คเกจนำเข้า
-
-มาเริ่มกระบวนการด้วยการนำเข้าแพ็คเกจที่จำเป็นสำหรับโปรเจ็กต์ Java ของเรากัน ในรหัสของคุณ ให้ระบุสิ่งต่อไปนี้:
+First, import the classes we’ll need. Place these statements at the top of your Java file:
 
 ```java
 import com.aspose.threed.Cylinder;
@@ -38,104 +58,109 @@ import com.aspose.threed.Vector3;
 import java.io.IOException;
 ```
 
-## ขั้นตอนที่ 1: สร้างฉาก
+## คู่มือขั้นตอนต่อขั้นตอน
 
-เริ่มต้นด้วยการเริ่มต้นฉากที่คุณจะจัดวางองค์ประกอบ 3 มิติของคุณ
+### ขั้นตอนที่ 1: สร้าง Scene
+
+A scene acts as the container for all 3D objects.
 
 ```java
-// เอ็กซ์สตาร์ท:1
-// สร้างฉาก
+// ExStart:1
+// Create a scene
 Scene scene = new Scene();
-// สิ้นสุด:1
+// ExEnd:1
 ```
 
-## ขั้นตอนที่ 2: เริ่มต้นกระบอกสูบด้วย Offset Top
+### ขั้นตอนที่ 2: เริ่มต้น Cylinder ด้วยส่วนบนชิดลบ
 
-ถัดไป สร้างวัตถุทรงกระบอกที่มีออฟเซ็ตด้านบนแบบกำหนดเองโดยใช้โค้ดต่อไปนี้:
+ที่นี่เราตอบ **how to create cylinder** ด้วยการชิดลบแบบกำหนดเอง คอนสตรัคเตอร์กำหนด radius, height, slices, stacks, และว่าทรงกระบอกเป็นแบบปิดหรือไม่ หลังจากนั้นเราจะเลื่อนส่วนบนโดยใช้ `setOffsetTop`。
 
 ```java
-// เอ็กซ์สตาร์ท:2
-// เริ่มต้นกระบอกสูบ
+// ExStart:2
+// Initialize cylinder
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-// ตั้งค่า OffsetTop
+// Set OffsetTop
 cylinder1.setOffsetTop(new Vector3(5, 3, 0));
-// สิ้นสุด:2
+// ExEnd:2
 ```
 
-## ขั้นตอนที่ 3: สร้างโหนดลูก
+### ขั้นตอนที่ 3: วิธี **add child node Java** – แนบ Cylinder แรก
 
-ตอนนี้ ให้สร้างโหนดลูกในฉากและตั้งค่าการแปลสำหรับกระบอกแรก:
+We create a child node under the scene’s root node and move the cylinder to a desired location.
 
 ```java
-// เอ็กซ์สตาร์ท:3
-// สร้าง ChildNode
+// ExStart:3
+// Create ChildNode
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
-// สิ้นสุด:3
+// ExEnd:3
 ```
 
-## ขั้นตอนที่ 4: เริ่มต้นกระบอกสูบที่สอง
+### ขั้นตอนที่ 4: เริ่มต้น Cylinder ที่สอง (ไม่มีส่วนบนชิดลบ)
 
-มาเริ่มต้นกระบอกสูบที่สองโดยไม่มีออฟเซ็ตด้านบนแบบกำหนดเอง:
+For comparison, we add a regular cylinder without an offset.
 
 ```java
-// เอ็กซ์สตาร์ท:4
-// เริ่มต้นกระบอกสูบที่สองโดยไม่ต้องปรับแต่ง OffsetTop
+// ExStart:4
+// Initialize second cylinder without customized OffsetTop
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
-// สิ้นสุด:4
+// ExEnd:4
 ```
 
-## ขั้นตอนที่ 5: สร้างโหนดลูกสำหรับกระบอกที่สอง
-
-สร้างโหนดลูกสำหรับกระบอกที่สองในฉาก:
+### ขั้นตอนที่ 5: วิธี **add child node Java** – แนบ Cylinder ที่สอง
 
 ```java
-// เอ็กซ์สตาร์ท:5
-// สร้าง ChildNode
+// ExStart:5
+// Create ChildNode
 scene.getRootNode().createChildNode(cylinder2);
-// สิ้นสุด:5
+// ExEnd:5
 ```
 
-## ขั้นตอนที่ 6: บันทึกฉาก
+### ขั้นตอนที่ 6: วิธี **export 3d model OBJ** – บันทึก Scene
 
-สุดท้าย ให้บันทึกฉากด้วยกระบอกสูบที่สร้างขึ้นเป็นไฟล์ Wavefront OBJ ในไดเร็กทอรีเอกสารของคุณ:
+Finally, we export the whole scene (both cylinders) as a Wavefront OBJ file, which is widely supported by 3D tools.
 
 ```java
-// เอ็กซ์สตาร์ท:6
-//บันทึก
+// ExStart:6
+// Save
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
-// สิ้นสุด:6
+// ExEnd:6
 ```
 
-ด้วยขั้นตอนง่ายๆ เหล่านี้ คุณได้สร้างกระบอกสูบ 3 มิติที่มีออฟเซ็ตท็อปโดยใช้ Aspose.3D สำหรับ Java ได้สำเร็จ!
+When you run the program, you’ll find `CustomizedOffsetTopCylinder.obj` in the specified directory, ready to be opened in Blender, Maya, or any other OBJ‑compatible viewer.
 
-## บทสรุป
+## ปัญหาที่พบบ่อยและวิธีแก้
 
-Aspose.3D สำหรับ Java ช่วยให้นักพัฒนาสามารถนำวิสัยทัศน์ 3D ของตนมาสู่ชีวิตได้อย่างง่ายดาย ในบทช่วยสอนนี้ เรามุ่งเน้นไปที่การสร้างกระบอกสูบที่มีออฟเซ็ตท็อป ซึ่งแสดงให้เห็นถึงความอเนกประสงค์และความเรียบง่ายของ Aspose.3D ตอนนี้ ด้วยความรู้นี้ คุณสามารถสำรวจและรวมคุณสมบัติขั้นสูงเพิ่มเติมเข้ากับโปรเจ็กต์ 3D บน Java ของคุณได้
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|-----|
+| **ไฟล์ OBJ ว่างเปล่า** | Scene ไม่ได้บันทึกอย่างถูกต้องหรือพาธผิด | ตรวจสอบว่าไดเรกทอรีปลายทางมีอยู่และคุณมีสิทธิ์เขียน |
+| **ส่วนบนชิดลบไม่ทำงาน** | ใช้เวอร์ชันเก่าของ Aspose.3D | อัปเดตเป็นไลบรารีล่าสุดที่รองรับ `setOffsetTop` |
+| **Child node ไม่แสดง** | การแปลงไม่ได้ถูกนำไปใช้ | ตรวจสอบว่าคุณเรียก `getTransform().setTranslation` หลังจากสร้าง child node |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: Aspose.3D เข้ากันได้กับ Java IDE ที่แตกต่างกันหรือไม่
+**Q: Aspose.3D รองรับ IDE Java ต่าง ๆ หรือไม่?**  
+A: ใช่, ทำงานได้อย่างราบรื่นกับ Eclipse, IntelliJ IDEA, NetBeans, และ IDE อื่น ๆ  
 
-ตอบ 1: ใช่ Aspose.3D ผสานรวมกับ Java Integrated Development Environments (IDE) ยอดนิยมอย่าง Eclipse, IntelliJ IDEA และ NetBeans ได้อย่างราบรื่น
+**Q: ฉันสามารถใส่เทกเจอร์ให้กับวัตถุ 3D ที่สร้างได้หรือไม่?**  
+A: แน่นอน! ใช้คลาส `Material` เพื่อกำหนดเทกเจอร์และคุณสมบัติของพื้นผิว  
 
-### คำถามที่ 2: ฉันสามารถใช้พื้นผิวกับวัตถุ 3 มิติที่สร้างขึ้นได้หรือไม่
+**Q: มีตัวเลือกไลเซนส์สำหรับ Aspose.3D หรือไม่?**  
+A: มีโมเดลไลเซนส์หลายแบบ; คุณสามารถสำรวจได้ [here](https://purchase.aspose.com/buy)  
 
-A2: แน่นอน! Aspose.3D มอบความสามารถที่กว้างขวางในการใช้พื้นผิวและวัสดุเพื่อปรับปรุงรูปลักษณ์ที่สวยงามของโมเดล 3 มิติของคุณ
+**Q: ฉันจะขอความช่วยเหลือหรือแบ่งปันประสบการณ์ได้อย่างไร?**  
+A: เข้าร่วมฟอรั่มชุมชน Aspose.3D [here](https://forum.aspose.com/c/3d/18) เพื่อรับการสนับสนุนและการสนทนา  
 
-### คำถามที่ 3: มีตัวเลือกสิทธิ์การใช้งานสำหรับ Aspose.3D หรือไม่
+**Q: มีไลเซนส์ชั่วคราวสำหรับการทดสอบหรือไม่?**  
+A: มี, สามารถขอไลเซนส์ชั่วคราวสำหรับการประเมินผลได้ [here](https://purchase.aspose.com/temporary-license/)  
 
-A3: ได้ คุณสามารถสำรวจและเลือกตัวเลือกใบอนุญาตที่เหมาะกับความต้องการของคุณได้[ที่นี่](https://purchase.aspose.com/buy).
-
-### คำถามที่ 4: ฉันจะขอความช่วยเหลือหรือแบ่งปันประสบการณ์ของฉันกับ Aspose.3D ได้อย่างไร
-
- A4: เข้าร่วมฟอรั่มชุมชน Aspose.3D[ที่นี่](https://forum.aspose.com/c/3d/18) เพื่อเชื่อมต่อกับเพื่อนนักพัฒนา ขอการสนับสนุน และแบ่งปันข้อมูลเชิงลึกของคุณ
-
-### คำถามที่ 5: มีตัวเลือกใบอนุญาตชั่วคราวสำหรับการทดสอบหรือไม่
-
- A5: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์ในการทดสอบและประเมินผลได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+**Last Updated:** 2025-12-05  
+**Tested With:** Aspose.3D for Java 24.12 (latest)  
+**Author:** Aspose

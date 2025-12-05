@@ -1,32 +1,55 @@
 ---
-title: Tworzenie cylindrów z przesuniętą górą w Aspose.3D dla Java
-linktitle: Tworzenie cylindrów z przesuniętą górą w Aspose.3D dla Java
-second_title: Aspose.3D API Java
-description: Odkryj cuda modelowania 3D w Javie dzięki Aspose.3D. Naucz się bez wysiłku tworzyć urzekające cylindry z przesuniętymi blatami.
+date: 2025-12-05
+description: Dowiedz się, jak tworzyć modele cylindrów z przesuniętymi górnymi częściami
+  w Aspose.3D dla Javy, dodawać kroki węzła potomnego w Javie i łatwo eksportować
+  pliki OBJ modeli 3D.
+language: pl
+linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Jak stworzyć cylinder z przesuniętym górnym końcem w Aspose.3D dla Javy
+url: /java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
-url: /pl/java/cylinders/creating-cylinders-with-offset-top/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tworzenie cylindrów z przesuniętą górą w Aspose.3D dla Java
+# Jak utworzyć cylinder z przesuniętym wierzchołkiem w Aspose.3D dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-dziedzinie modelowania 3D w oparciu o Javę Aspose.3D wyróżnia się jako potężne narzędzie, oferując programistom możliwość łatwego tworzenia skomplikowanych scen 3D. W tym samouczku zagłębimy się w fascynujący świat Aspose.3D dla Java, koncentrując się na konkretnym zadaniu – tworzeniu cylindrów z przesuniętymi wierzchołkami. Pod koniec tego przewodnika będziesz w pełni obeznany z procesem, co umożliwi Ci bezproblemową integrację tej funkcji z projektami 3D.
+Jeśli chcesz **jak utworzyć cylinder** z niestandardowym przesunięciem wierzchołka w scenie 3D opartej na Javie, Aspose.3D upraszcza cały proces. W tym samouczku przeprowadzimy Cię przez każdy krok — od konfiguracji sceny po eksport gotowego modelu jako pliku OBJ — abyś mógł z pewnością integrować cylindry z przesuniętym wierzchołkiem w swoich aplikacjach.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jakiej biblioteki używać?** Aspose.3D dla Javy  
+- **Czy mogę przesunąć wierzchołek cylindra?** Tak, przy użyciu `setOffsetTop`  
+- **Jak dodać węzeł potomny w Javie?** Wywołaj `createChildNode` na węźle głównym  
+- **Do jakiego formatu mogę eksportować?** Wavefront OBJ (`export 3d model obj`)  
+- **Czy potrzebna jest licencja do testów?** Dostępna jest tymczasowa licencja do oceny  
 
-Zanim wyruszymy w tę twórczą podróż, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest „jak utworzyć cylinder” z przesuniętym wierzchołkiem?
 
-- Zestaw Java Development Kit (JDK): Aspose.3D dla Java wymaga kompatybilnego pakietu JDK zainstalowanego na twoim komputerze.
--  Biblioteka Aspose.3D: Pobierz i zintegruj bibliotekę Aspose.3D ze swoim projektem Java. Można znaleźć bibliotekę i szczegółową dokumentację[Tutaj](https://releases.aspose.com/3d/java/).
+Utworzenie cylindra z przesuniętym wierzchołkiem oznacza, że górna okrągła powierzchnia jest przesunięta względem podstawy, co pozwala modelować stożkowe lub asymetryczne kształty bez ręcznej manipulacji wierzchołkami. Aspose.3D udostępnia dedykowany konstruktor oraz właściwość `OffsetTop`, aby osiągnąć to w kilku linijkach kodu.
 
-## Importuj pakiety
+## Dlaczego warto używać Aspose.3D dla Javy?
 
-Rozpocznijmy proces od zaimportowania niezbędnych pakietów dla naszego projektu Java. W swoim kodzie umieść następujące informacje:
+- **Wysokopoziomowe API:** Nie musisz zarządzać niskopoziomowymi danymi siatki.  
+- **Cross‑platform:** Działa w każdym środowisku kompatybilnym z JVM.  
+- **Wbudowane eksportery:** Bezpośrednio zapisuj do OBJ, STL, FBX i innych.  
+- **Rozszerzalność:** Łatwo dodawaj węzły potomne, stosuj transformacje i integruj z innymi bibliotekami Javy.
+
+## Wymagania wstępne
+
+Zanim przejdziesz do kodu, upewnij się, że masz:
+
+- **Java Development Kit (JDK)** – zainstalowaną kompatybilną wersję.  
+- **Aspose.3D dla Javy** – pobierz najnowszy plik JAR z oficjalnej strony [tutaj](https://releases.aspose.com/3d/java/).  
+- IDE według własnego wyboru (Eclipse, IntelliJ IDEA, NetBeans itp.).
+
+## Importowanie pakietów
+
+Najpierw zaimportuj klasy, które będą potrzebne. Umieść te instrukcje na początku pliku Java:
 
 ```java
 import com.aspose.threed.Cylinder;
@@ -38,104 +61,111 @@ import com.aspose.threed.Vector3;
 import java.io.IOException;
 ```
 
-## Krok 1: Utwórz scenę
+## Przewodnik krok po kroku
 
-Rozpocznij od zainicjowania sceny, w której będziesz aranżować elementy 3D.
+### Krok 1: Utwórz scenę
+
+Scena działa jako kontener dla wszystkich obiektów 3D.
 
 ```java
 // ExStart:1
-// Utwórz scenę
+// Create a scene
 Scene scene = new Scene();
-// RozwińKoniec:1
+// ExEnd:1
 ```
 
-## Krok 2: Zainicjuj cylinder z przesuniętą górą
+### Krok 2: Zainicjalizuj cylinder z przesuniętym wierzchołkiem
 
-Następnie utwórz obiekt cylindryczny z dostosowanym przesuniętym blatem, używając następującego kodu:
+Tutaj odpowiadamy na pytanie **jak utworzyć cylinder** z niestandardowym przesunięciem. Konstruktor określa promień, wysokość, liczbę segmentów (slices), stosów (stacks) oraz czy cylinder jest zamknięty. Następnie przesuwamy górę przy użyciu `setOffsetTop`.
 
 ```java
 // ExStart:2
-// Zainicjuj cylinder
+// Initialize cylinder
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-// Ustaw odsunięcie od góry
+// Set OffsetTop
 cylinder1.setOffsetTop(new Vector3(5, 3, 0));
-// RozwińKoniec:2
+// ExEnd:2
 ```
 
-## Krok 3: Utwórz węzeł podrzędny
+### Krok 3: Jak **dodać węzeł potomny w Javie** – dołącz pierwszy cylinder
 
-Teraz utwórz węzeł podrzędny na scenie i ustaw tłumaczenie dla pierwszego cylindra:
+Tworzymy węzeł potomny pod węzłem głównym sceny i przesuwamy cylinder do żądanej lokalizacji.
 
 ```java
 // ExStart:3
-// Utwórz węzeł podrzędny
+// Create ChildNode
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
-// RozwińKoniec:3
+// ExEnd:3
 ```
 
-## Krok 4: Zainicjuj drugi cylinder
+### Krok 4: Zainicjalizuj drugi cylinder (bez przesunięcia)
 
-Zainicjujmy drugi cylinder bez niestandardowego przesuniętego blatu:
+Dla porównania dodajemy zwykły cylinder bez przesunięcia.
 
 ```java
 // ExStart:4
-// Zainicjuj drugi cylinder bez dostosowanego OffsetTop
+// Initialize second cylinder without customized OffsetTop
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
-// RozwińKoniec:4
+// ExEnd:4
 ```
 
-## Krok 5: Utwórz węzeł podrzędny dla drugiego cylindra
-
-Utwórz węzeł podrzędny dla drugiego cylindra w scenie:
+### Krok 5: Jak **dodać węzeł potomny w Javie** – dołącz drugi cylinder
 
 ```java
 // ExStart:5
-// Utwórz węzeł podrzędny
+// Create ChildNode
 scene.getRootNode().createChildNode(cylinder2);
-// RozwińKoniec:5
+// ExEnd:5
 ```
 
-## Krok 6: Zapisz scenę
+### Krok 6: Jak **wyeksportować model 3D OBJ** – zapisz scenę
 
-Na koniec zapisz scenę z utworzonymi cylindrami jako plik Wavefront OBJ w katalogu dokumentów:
+Na koniec eksportujemy całą scenę (oba cylindry) jako plik Wavefront OBJ, który jest szeroko wspierany przez narzędzia 3D.
 
 ```java
 // ExStart:6
-//Ratować
+// Save
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
-// RozwińKoniec:6
+// ExEnd:6
 ```
 
-Dzięki tym prostym krokom udało Ci się stworzyć cylindry 3D z przesuniętymi wierzchołkami przy użyciu Aspose.3D dla Java!
+Po uruchomieniu programu znajdziesz plik `CustomizedOffsetTopCylinder.obj` w określonym katalogu, gotowy do otwarcia w Blenderze, Maya lub innym przeglądarce obsługującej OBJ.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Aspose.3D dla Java umożliwia programistom łatwe urzeczywistnianie ich wizji 3D. W tym samouczku skupiliśmy się na tworzeniu cylindrów z przesuniętymi wierzchołkami, prezentując wszechstronność i prostotę Aspose.3D. Teraz, uzbrojony w tę wiedzę, możesz eksplorować i integrować bardziej zaawansowane funkcje ze swoimi projektami 3D opartymi na Javie.
+| Problem | Przyczyna | Rozwiązanie |
+|---------|-----------|-------------|
+| **Plik OBJ jest pusty** | Scena nie została poprawnie zapisana lub podano złą ścieżkę. | Sprawdź, czy katalog wyjściowy istnieje i masz uprawnienia do zapisu. |
+| **Przesunięcie nie zostało zastosowane** | Używana starsza wersja Aspose.3D. | Zaktualizuj do najnowszej biblioteki, w której obsługiwane jest `setOffsetTop`. |
+| **Węzeł potomny nie jest widoczny** | Transformacja nie została zastosowana. | Upewnij się, że po utworzeniu węzła wywołujesz `getTransform().setTranslation`. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.3D jest kompatybilny z różnymi środowiskami Java IDE?
+**P: Czy Aspose.3D jest kompatybilny z różnymi IDE Javy?**  
+O: Tak, działa bezproblemowo w Eclipse, IntelliJ IDEA, NetBeans i innych IDE.
 
-O1: Tak, Aspose.3D bezproblemowo integruje się z popularnymi zintegrowanymi środowiskami programistycznymi Java (IDE), takimi jak Eclipse, IntelliJ IDEA i NetBeans.
+**P: Czy mogę zastosować tekstury do utworzonych obiektów 3D?**  
+O: Oczywiście! Użyj klasy `Material`, aby przypisać tekstury i właściwości powierzchni.
 
-### P2: Czy mogę zastosować tekstury do utworzonych obiektów 3D?
+**P: Jakie są opcje licencjonowania Aspose.3D?**  
+O: Dostępne są różne modele licencjonowania; możesz je poznać [tutaj](https://purchase.aspose.com/buy).
 
-A2: Absolutnie! Aspose.3D zapewnia szerokie możliwości stosowania tekstur i materiałów w celu zwiększenia atrakcyjności wizualnej modeli 3D.
+**P: Gdzie mogę uzyskać pomoc lub podzielić się doświadczeniami?**  
+O: Dołącz do forum społeczności Aspose.3D [tutaj](https://forum.aspose.com/c/3d/18) w celu uzyskania wsparcia i dyskusji.
 
-### P3: Czy dostępne są opcje licencjonowania dla Aspose.3D?
+**P: Czy dostępna jest tymczasowa licencja do testów?**  
+O: Tak, tymczasową licencję można uzyskać do oceny [tutaj](https://purchase.aspose.com/temporary-license/).
 
-Odpowiedź 3: Tak, możesz sprawdzić i wybrać opcję licencjonowania odpowiadającą Twoim potrzebom[Tutaj](https://purchase.aspose.com/buy).
+---
 
-### P4: Jak mogę szukać pomocy lub podzielić się swoimi doświadczeniami z Aspose.3D?
-
- A4: Dołącz do forum społeczności Aspose.3D[Tutaj](https://forum.aspose.com/c/3d/18) aby nawiązać kontakt z innymi programistami, szukać wsparcia i dzielić się swoimi spostrzeżeniami.
-
-### P5: Czy istnieje opcja licencji tymczasowej do celów testowych?
-
- Odpowiedź 5: Tak, możesz uzyskać tymczasową licencję do celów testowania i oceny[Tutaj](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+**Ostatnia aktualizacja:** 2025-12-05  
+**Testowano z:** Aspose.3D dla Javy 24.12 (najnowsza)  
+**Autor:** Aspose

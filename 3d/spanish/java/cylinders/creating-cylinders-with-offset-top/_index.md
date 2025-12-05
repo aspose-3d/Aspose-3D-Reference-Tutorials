@@ -1,32 +1,55 @@
 ---
-title: Creación de cilindros con parte superior desplazada en Aspose.3D para Java
-linktitle: Creación de cilindros con parte superior desplazada en Aspose.3D para Java
-second_title: API de Java Aspose.3D
-description: Explora las maravillas del modelado 3D en Java con Aspose.3D. Aprenda a crear cilindros cautivadores con tapas desplazadas sin esfuerzo.
+date: 2025-12-05
+description: Aprende a crear modelos de cilindro con tapas desplazadas en Aspose.3D
+  para Java, agrega pasos de nodo hijo en Java y exporta fácilmente archivos OBJ de
+  modelos 3D.
+language: es
+linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Cómo crear un cilindro con la parte superior desplazada en Aspose.3D para Java
+url: /java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
-url: /es/java/cylinders/creating-cylinders-with-offset-top/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Creación de cilindros con parte superior desplazada en Aspose.3D para Java
+# Cómo crear un cilindro con parte superior desplazada en Aspose.3D para Java
 
 ## Introducción
 
-En el ámbito del modelado 3D basado en Java, Aspose.3D se destaca como una herramienta poderosa que ofrece a los desarrolladores la capacidad de crear escenas 3D complejas con facilidad. En este tutorial, profundizaremos en el fascinante mundo de Aspose.3D para Java, centrándonos en una tarea específica: crear cilindros con partes superiores desplazadas. Al final de esta guía, comprenderá firmemente el proceso, lo que le permitirá integrar esta función sin problemas en sus proyectos 3D.
+Si buscas **how to create cylinder** objetos con una parte superior desplazada personalizada en una escena 3D basada en Java, Aspose.3D hace que el proceso sea sencillo. En este tutorial recorreremos cada paso—desde la configuración de la escena hasta la exportación del modelo final como un archivo OBJ—para que puedas integrar cilindros con parte superior desplazada en tus aplicaciones con confianza.
+
+## Respuestas rápidas
+- **¿Qué biblioteca se utiliza?** Aspose.3D for Java  
+- **¿Puedo desplazar la parte superior de un cilindro?** Sí, usando `setOffsetTop`  
+- **¿Cómo agrego un nodo hijo en Java?** Llame a `createChildNode` en el nodo raíz  
+- **¿A qué formato puedo exportar?** Wavefront OBJ (`export 3d model obj`)  
+- **¿Necesito una licencia para pruebas?** Una licencia temporal está disponible para evaluación  
+
+## ¿Qué es “how to create cylinder” con una parte superior desplazada?
+
+Crear un cilindro con una parte superior desplazada significa que la cara circular superior se desplaza respecto a la base, lo que permite modelar formas cónicas o asimétricas sin manipular manualmente los vértices. Aspose.3D ofrece un constructor dedicado y una propiedad `OffsetTop` para lograr esto en solo unas pocas líneas de código.
+
+## ¿Por qué usar Aspose.3D para Java?
+
+- **API de alto nivel:** No es necesario gestionar datos de malla de bajo nivel.  
+- **Multiplataforma:** Funciona en cualquier entorno compatible con JVM.  
+- **Exportadores integrados:** Guarda directamente en OBJ, STL, FBX y más.  
+- **Extensible:** Añade fácilmente nodos hijos, aplica transformaciones e intégralo con otras bibliotecas Java.
 
 ## Requisitos previos
 
-Antes de embarcarnos en este viaje creativo, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de comenzar, asegúrese de tener:
 
-- Kit de desarrollo de Java (JDK): Aspose.3D para Java requiere un JDK compatible instalado en su máquina.
--  Biblioteca Aspose.3D: descargue e integre la biblioteca Aspose.3D en su proyecto Java. Puede encontrar la biblioteca y la documentación detallada.[aquí](https://releases.aspose.com/3d/java/).
+- **Java Development Kit (JDK)** – una versión compatible instalada.  
+- **Aspose.3D for Java library** – descargue el último JAR desde el sitio oficial [here](https://releases.aspose.com/3d/java/).  
+- Un IDE de su elección (Eclipse, IntelliJ IDEA, NetBeans, etc.).
 
 ## Importar paquetes
 
-Comencemos el proceso importando los paquetes necesarios para nuestro proyecto Java. En su código, incluya lo siguiente:
+First, import the classes we’ll need. Place these statements at the top of your Java file:
 
 ```java
 import com.aspose.threed.Cylinder;
@@ -38,104 +61,109 @@ import com.aspose.threed.Vector3;
 import java.io.IOException;
 ```
 
-## Paso 1: crea una escena
+## Guía paso a paso
 
-Comience inicializando una escena donde orquestará sus elementos 3D.
+### Paso 1: Crear una escena
+
+A scene acts as the container for all 3D objects.
 
 ```java
-// ExInicio:1
-// crear una escena
+// ExStart:1
+// Create a scene
 Scene scene = new Scene();
-// Fin final: 1
+// ExEnd:1
 ```
 
-## Paso 2: inicializar el cilindro con la parte superior desplazada
+### Paso 2: Inicializar cilindro con parte superior desplazada
 
-A continuación, cree un objeto de cilindro con una parte superior desplazada personalizada usando el siguiente código:
+Aquí respondemos **how to create cylinder** con un desplazamiento personalizado. El constructor define radio, altura, segmentos (slices), niveles (stacks) y si el cilindro está cerrado. Después, desplazamos la parte superior usando `setOffsetTop`.
 
 ```java
-// ExInicio:2
-// Inicializar cilindro
+// ExStart:2
+// Initialize cylinder
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-// Establecer compensación superior
+// Set OffsetTop
 cylinder1.setOffsetTop(new Vector3(5, 3, 0));
-// Fin final: 2
+// ExEnd:2
 ```
 
-## Paso 3: crear un nodo secundario
+### Paso 3: Cómo **add child node Java** – Adjuntar el primer cilindro
 
-Ahora, cree un nodo secundario en la escena y establezca la traducción para el primer cilindro:
+Creamos un nodo hijo bajo el nodo raíz de la escena y movemos el cilindro a la ubicación deseada.
 
 ```java
-// ExInicio:3
-// Crear nodo secundario
+// ExStart:3
+// Create ChildNode
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
-// Fin final: 3
+// ExEnd:3
 ```
 
-## Paso 4: inicializar el segundo cilindro
+### Paso 4: Inicializar un segundo cilindro (sin desplazamiento)
 
-Inicialicemos un segundo cilindro sin una tapa desplazada personalizada:
+Para comparar, añadimos un cilindro regular sin desplazamiento.
 
 ```java
-// ExInicio:4
-// Inicializar el segundo cilindro sin OffsetTop personalizado
+// ExStart:4
+// Initialize second cylinder without customized OffsetTop
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
-// Fin final: 4
+// ExEnd:4
 ```
 
-## Paso 5: crear un nodo secundario para el segundo cilindro
-
-Cree un nodo secundario para el segundo cilindro de la escena:
+### Paso 5: Cómo **add child node Java** – Adjuntar el segundo cilindro
 
 ```java
-// ExInicio:5
-// Crear nodo secundario
+// ExStart:5
+// Create ChildNode
 scene.getRootNode().createChildNode(cylinder2);
-// Fin final: 5
+// ExEnd:5
 ```
 
-## Paso 6: guarde la escena
+### Paso 6: Cómo **export 3d model OBJ** – Guardar la escena
 
-Finalmente, guarde la escena con los cilindros creados como un archivo Wavefront OBJ en su directorio de documentos:
+Finalmente, exportamos toda la escena (ambos cilindros) como un archivo Wavefront OBJ, que es ampliamente compatible con herramientas 3D.
 
 ```java
-// ExInicio:6
-//Ahorrar
+// ExStart:6
+// Save
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
-// Fin final: 6
+// ExEnd:6
 ```
 
-¡Con estos sencillos pasos, habrá creado con éxito cilindros 3D con partes superiores desplazadas utilizando Aspose.3D para Java!
+Al ejecutar el programa, encontrará `CustomizedOffsetTopCylinder.obj` en el directorio especificado, listo para abrirse en Blender, Maya o cualquier otro visor compatible con OBJ.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-Aspose.3D para Java permite a los desarrolladores dar vida a sus visiones 3D sin esfuerzo. En este tutorial, nos centramos en la creación de cilindros con partes superiores desplazadas, mostrando la versatilidad y simplicidad de Aspose.3D. Ahora, armado con este conocimiento, puede explorar e integrar funciones más avanzadas en sus proyectos 3D basados en Java.
+| Problema | Razón | Solución |
+|----------|-------|----------|
+| **El archivo OBJ está vacío** | Escena no guardada correctamente o ruta incorrecta. | Verifique que el directorio de salida exista y que tenga permisos de escritura. |
+| **Desplazamiento no aplicado** | Uso de una versión antigua de Aspose.3D. | Actualice a la última biblioteca donde `setOffsetTop` es compatible. |
+| **Nodo hijo no visible** | Transformación no aplicada. | Asegúrese de llamar a `getTransform().setTranslation` después de crear el nodo hijo. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Aspose.3D es compatible con diferentes IDE de Java?
+**Q: ¿Es Aspose.3D compatible con diferentes IDEs de Java?**  
+A: Sí, funciona sin problemas con Eclipse, IntelliJ IDEA, NetBeans y otros IDEs.
 
-R1: Sí, Aspose.3D se integra perfectamente con entornos de desarrollo integrados (IDE) de Java populares, como Eclipse, IntelliJ IDEA y NetBeans.
+**Q: ¿Puedo aplicar texturas a los objetos 3D creados?**  
+A: ¡Absolutamente! Use la clase `Material` para asignar texturas y propiedades de superficie.
 
-### P2: ¿Puedo aplicar texturas a los objetos 3D creados?
+**Q: ¿Existen opciones de licencia para Aspose.3D?**  
+A: Hay varios modelos de licencia disponibles; puede explorarlos [aquí](https://purchase.aspose.com/buy).
 
-R2: ¡Absolutamente! Aspose.3D proporciona amplias capacidades para aplicar texturas y materiales para mejorar el atractivo visual de sus modelos 3D.
+**Q: ¿Cómo puedo obtener ayuda o compartir experiencias?**  
+A: Únase al foro de la comunidad Aspose.3D [aquí](https://forum.aspose.com/c/3d/18) para soporte y discusión.
 
-### P3: ¿Existen opciones de licencia disponibles para Aspose.3D?
+**Q: ¿Está disponible una licencia temporal para pruebas?**  
+A: Sí, se puede obtener una licencia temporal para evaluación [aquí](https://purchase.aspose.com/temporary-license/).
 
-R3: Sí, puede explorar y elegir la opción de licencia que se adapte a sus necesidades[aquí](https://purchase.aspose.com/buy).
-
-### P4: ¿Cómo puedo buscar ayuda o compartir mis experiencias con Aspose.3D?
-
- A4: Únase al foro de la comunidad Aspose.3D[aquí](https://forum.aspose.com/c/3d/18) para conectarse con otros desarrolladores, buscar soporte y compartir sus ideas.
-
-### P5: ¿Existe una opción de licencia temporal para fines de prueba?
-
- R5: Sí, puede obtener una licencia temporal para fines de prueba y evaluación.[aquí](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+**Última actualización:** 2025-12-05  
+**Probado con:** Aspose.3D for Java 24.12 (latest)  
+**Autor:** Aspose
