@@ -1,100 +1,147 @@
 ---
-title: Làm việc với Hình học 3D trong Java
-linktitle: Làm việc với Hình học 3D trong Java
-second_title: API Java Aspose.3D
-description: Khám phá các hướng dẫn Java về Aspose.3D về cách làm việc với hình học 3D. Làm chủ các vật liệu PBR, phép quay bậc bốn, cảnh khối, v.v. Nâng cao đồ họa Java 3D của bạn.
+date: 2025-12-06
+description: Tìm hiểu cách áp dụng vật liệu PBR và nối các quaternion trong Java bằng
+  Aspose.3D. Thành thạo hình học 3D, chia sẻ lưới và các phép biến đổi.
+language: vi
+linktitle: How to Apply PBR Materials in Java
+second_title: Aspose.3D Java API
+title: Cách áp dụng vật liệu PBR trong Java với Aspose.3D
+url: /java/geometry/
 weight: 21
-url: /vi/java/geometry/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Làm việc với Hình học 3D trong Java
+# Cách Áp Dụng Vật Liệu PBR trong Java với Aspose.3D
 
 ## Giới thiệu
-Bạn đã sẵn sàng khám phá thế giới đồ họa 3D hấp dẫn với Aspose.3D cho Java chưa? Các hướng dẫn của chúng tôi bao gồm nhiều chủ đề khác nhau, giúp bạn nâng cao các ứng dụng Java của mình bằng các phần tử 3D mạnh mẽ và trực quan ấn tượng. Hãy bắt tay vào cuộc hành trình này từng bước một.
+Nếu bạn đang tìm **cách áp dụng PBR** (Physically Based Rendering) cho các dự án Java 3D của mình, bạn đã đến đúng nơi. Trong hub này chúng tôi tập hợp các hướng dẫn Aspose.3D thực tiễn nhất, đưa bạn qua từng bước — từ tạo vật liệu thực tế đến quay quaternion nâng cao. Dù bạn đang xây dựng engine game, trình diễn sản phẩm, hay mô phỏng khoa học, những hướng dẫn này sẽ giúp bạn biến hình học thô thành các cảnh quay tuyệt đẹp, photorealistic.
 
-## Áp dụng Vật liệu PBR cho Đối tượng 3D trong Java với Aspose.3D
+## Câu trả lời nhanh
+- **What is PBR?** Một kỹ thuật render mô phỏng các tính chất vật liệu thực tế để có ánh sáng chân thực hơn.  
+- **Why use Aspose.3D for Java?** Nó cung cấp một API cấp cao trừu tượng hoá các phép toán phức tạp trong khi vẫn tập trung vào hiệu năng.  
+- **Do I need a license?** Bản dùng thử miễn phí đủ cho phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **What Java version is required?** Java 8 trở lên.  
+- **Can I combine PBR with quaternion rotations?** Chắc chắn—xem “cách nối các quaternion” bên dưới.  
 
-Đi sâu vào lĩnh vực Kết xuất dựa trên vật lý (PBR) với Aspose.3D. Hướng dẫn của chúng tôi hướng dẫn bạn quy trình áp dụng các vật liệu PBR thực tế cho các đối tượng 3D của bạn trong Java. Nâng cao chất lượng hình ảnh của các dự án của bạn một cách dễ dàng.[Đọc thêm](./apply-pbr-materials-to-objects/)
+## Áp Dụng Vật Liệu PBR cho Đối Tượng 3D trong Java với Aspose.3D
 
-## Ghép nối các bậc bốn cho phép quay 3D trong Java với Aspose.3D
+Khám phá lĩnh vực Physically Based Rendering (PBR) với Aspose.3D. Hướng dẫn của chúng tôi sẽ chỉ cho bạn quy trình áp dụng vật liệu PBR thực tế cho các đối tượng 3D trong Java. Nâng cao chất lượng hình ảnh của dự án một cách dễ dàng. [Đọc thêm](./apply-pbr-materials-to-objects/)
 
- Khám phá bí mật về phép quay 3D liền mạch trong Java bằng Aspose.3D. Hướng dẫn từng bước của chúng tôi sẽ hướng dẫn bạn cách ghép nối các quaternion, cho phép chuyển đổi hoạt ảnh mượt mà. Hãy cách mạng hóa các ứng dụng Java của bạn ngay bây giờ.[Đọc thêm](./concatenate-quaternions-for-3d-rotations/)
+## Nối Các Quaternion cho Quay 3D trong Java với Aspose.3D
 
-## Tạo cảnh khối 3D trong Java với Aspose.3D
+Mở khóa bí quyết quay 3D mượt mà trong Java bằng Aspose.3D. Hướng dẫn từng bước của chúng tôi sẽ chỉ cho bạn kỹ thuật **cách nối các quaternion** cho phép chuyển đổi hoạt ảnh mượt mà. Cách mạng hoá các ứng dụng Java của bạn ngay bây giờ. [Đọc thêm](./concatenate-quaternions-for-3d-rotations/)
 
- Khám phá sự kỳ diệu của đồ họa cảnh khối 3D với Aspose.3D cho Java. Hướng dẫn này cho phép bạn tạo các cảnh 3D tuyệt đẹp một cách dễ dàng. Giải phóng sự sáng tạo của bạn và khám phá những khả năng vô hạn.[Đọc thêm](./create-3d-cube-scene/)
+## Tạo Cảnh Hình Lập Phương 3D trong Java với Aspose.3D
 
-## Hiển thị các phép biến đổi hình học trong Java 3D với Aspose.3D
+Khám phá kỳ diệu của đồ họa cảnh hình lập phương 3D với Aspose.3D cho Java. Bài hướng dẫn này cho phép bạn tạo các cảnh 3D tuyệt đẹp một cách dễ dàng. Giải phóng sự sáng tạo và khám phá vô vàn khả năng. [Đọc thêm](./create-3d-cube-scene/)
 
-Việc thành thạo các phép biến đổi hình học 3D trong Java trở nên dễ dàng với Aspose.3D. Tìm hiểu cách thao tác các nút, áp dụng bản dịch và đánh giá các phép biến đổi toàn cầu. Nâng trò chơi đồ họa 3D của bạn lên tầm cao mới.[Đọc thêm](./expose-geometric-transformations/)
+## Tiết Lộ Các Biến Đổi Hình Học trong Java 3D với Aspose.3D
 
-## Áp dụng Vật liệu cho Đối tượng 3D trong Java với Aspose.3D
+Nắm vững các biến đổi hình học 3D trong Java trở nên dễ dàng với Aspose.3D. Học cách thao tác các node, áp dụng dịch chuyển và đánh giá các biến đổi toàn cục. Nâng cao trò chơi đồ họa 3D của bạn lên tầm cao mới. [Đọc thêm](./expose-geometric-transformations/)
 
- Bắt đầu cuộc hành trình vào thế giới đồ họa 3D với Aspose.3D cho Java. Hướng dẫn này hướng dẫn bạn cách áp dụng vật liệu vào các đối tượng 3D một cách liền mạch, mang lại tính chân thực cho các dự án của bạn.[Đọc thêm](./apply-materials-to-3d-objects/)
+## Áp Dụng Vật Liệu cho Đối Tượng 3D trong Java với Aspose.3D
 
-## Chia sẻ dữ liệu hình học lưới trong Java 3D với Aspose.3D
+Bắt đầu hành trình vào thế giới đồ họa 3D với Aspose.3D cho Java. Hướng dẫn này chỉ cho bạn cách áp dụng vật liệu cho các đối tượng 3D một cách liền mạch, mang lại tính thực tế cho dự án. [Đọc thêm](./apply-materials-to-3d-objects/)
 
- Khám phá những điều kỳ diệu của Java 3D với Aspose.3D và tìm hiểu cách chia sẻ dữ liệu hình học lưới giữa các nút một cách dễ dàng. Hướng dẫn toàn diện này là chìa khóa để bạn thành thạo kỹ năng thiết yếu này.[Đọc thêm](./share-mesh-geometry-data/)
+## Chia Sẻ Dữ Liệu Hình Học Lưới trong Java 3D với Aspose.3D
 
-## Xây dựng hệ thống phân cấp nút trong Cảnh 3D bằng Java và Aspose.3D
+Khám phá những điều tuyệt vời của Java 3D với Aspose.3D và học cách chia sẻ dữ liệu hình học lưới giữa các node một cách dễ dàng. Bài hướng dẫn toàn diện này là chìa khóa để thành thạo kỹ năng quan trọng này. [Đọc thêm](./share-mesh-geometry-data/)
 
- Giải phóng khả năng sáng tạo của bạn bằng cách học cách xây dựng cảnh 3D động trong Java bằng Aspose.3D. Tạo hệ thống phân cấp nút dễ dàng và nâng cao trò chơi đồ họa 3D của bạn.[Đọc thêm](./build-node-hierarchies/)
+## Xây Dựng Cây Node trong Cảnh 3D với Java và Aspose.3D
 
-## Thiết lập chuẩn trên các đối tượng 3D trong Java với Aspose.3D
+Giải phóng sự sáng tạo của bạn bằng cách học cách xây dựng các cảnh 3D động trong Java với Aspose.3D. Tạo cây node một cách dễ dàng và nâng cao trò chơi đồ họa 3D của bạn. [Đọc thêm](./build-node-hierarchies/)
 
-Nâng cao đồ họa của bạn bằng cách học cách thiết lập các quy tắc trên các đối tượng 3D trong Java với Aspose.3D. Hướng dẫn toàn diện này là hướng dẫn giúp bạn nắm vững khía cạnh quan trọng này của thiết kế 3D.[Đọc thêm](./set-up-normals-on-3d-objects/)
+## Thiết Lập Normals cho Đối Tượng 3D trong Java với Aspose.3D
 
-## Áp dụng tọa độ UV cho các đối tượng 3D trong Java với Aspose.3D
+Cải thiện đồ họa của bạn bằng cách học cách thiết lập normals cho các đối tượng 3D trong Java với Aspose.3D. Bài hướng dẫn toàn diện này là hướng dẫn của bạn để thành thạo khía cạnh quan trọng này của thiết kế 3D. [Đọc thêm](./set-up-normals-on-3d-objects/)
 
- Nâng cao đồ họa của bạn bằng cách học cách áp dụng tọa độ UV cho các đối tượng 3D trong Java với Aspose.3D. Hãy làm theo hướng dẫn từng bước của chúng tôi và thêm chiều hướng mới vào sáng tạo trực quan của bạn.[Đọc thêm](./apply-uv-coordinates-to-3d-objects/)
+## Áp Dụng Tọa Độ UV cho Đối Tượng 3D trong Java với Aspose.3D
 
-## Chuyển đổi các nút 3D với các góc Euler trong Java bằng Aspose.3D
+Nâng cao đồ họa của bạn bằng cách học cách áp dụng tọa độ UV cho các đối tượng 3D trong Java với Aspose.3D. Theo dõi hướng dẫn từng bước của chúng tôi và thêm một chiều mới cho các sáng tạo hình ảnh của bạn. [Đọc thêm](./apply-uv-coordinates-to-3d-objects/)
 
- Bước vào thế giới biến đổi 3D trong Java với Aspose.3D. Hướng dẫn của chúng tôi hướng dẫn bạn cách thêm các góc Euler động vào các nút 3D, mang lại mức độ tương tác mới cho các ứng dụng của bạn.[Đọc thêm](./transform-3d-nodes-with-euler-angles/)
+## Biến Đổi Node 3D với Góc Euler trong Java sử dụng Aspose.3D
 
-## Chuyển đổi các nút 3D bằng Quaternions trong Java bằng Aspose.3D
+Bước vào thế giới biến đổi 3D trong Java với Aspose.3D. Hướng dẫn của chúng tôi dạy bạn cách thêm góc Euler động vào các node 3D, mang lại mức độ tương tác mới cho ứng dụng của bạn. [Đọc thêm](./transform-3d-nodes-with-euler-angles/)
 
- Nâng cao các ứng dụng Java của bạn với Aspose.3D khi chúng tôi hướng dẫn bạn chuyển đổi các nút bằng cách sử dụng quaternions. Cách mạng hóa các dự án 3D của bạn với hướng dẫn từng bước này.[Đọc thêm](./transform-3d-nodes-with-quaternions/)
+## Biến Đổi Node 3D với Quaternion trong Java sử dụng Aspose.3D
 
-## Chuyển đổi các nút 3D bằng ma trận chuyển đổi trong Java bằng Aspose.3D
+Cải thiện các ứng dụng Java của bạn với Aspose.3D khi chúng tôi hướng dẫn bạn biến đổi các node bằng quaternion. Cách mạng hoá dự án 3D của bạn với hướng dẫn từng bước này. [Đọc thêm](./transform-3d-nodes-with-quaternions/)
 
-Khám phá thế giới đồ họa 3D trong Java với Aspose.3D. Tìm hiểu cách chuyển đổi các nút một cách dễ dàng bằng cách sử dụng ma trận chuyển đổi, mở ra thế giới khả năng sáng tạo.[Đọc thêm](./transform-3d-nodes-with-matrices/)
+## Biến Đổi Node 3D với Ma Trận Biến Đổi trong Java sử dụng Aspose.3D
 
-## Lưới tam giác để hiển thị được tối ưu hóa trong Java với Aspose.3D
+Khám phá thế giới đồ họa 3D trong Java với Aspose.3D. Học cách biến đổi các node một cách dễ dàng bằng ma trận biến đổi, mở ra vô vàn khả năng sáng tạo. [Đọc thêm](./transform-3d-nodes-with-matrices/)
 
- Tăng hiệu quả hiển thị 3D của bạn trong Java với Aspose.3D. Hướng dẫn của chúng tôi hướng dẫn bạn qua quá trình tam giác hóa các mắt lưới để có hiệu suất tối ưu. Nâng các dự án Java 3D của bạn lên tầm cao mới.[Đọc thêm](./triangulate-meshes-for-optimized-rendering/)
+## Tam Giác Hóa Lưới cho Render Tối Ưu trong Java với Aspose.3D
 
-## Làm việc với Hình học 3D trong Hướng dẫn Java
-### [Áp dụng Vật liệu PBR cho Đối tượng 3D trong Java với Aspose.3D](./apply-pbr-materials-to-objects/)
-Tìm hiểu cách áp dụng vật liệu PBR thực tế cho các đối tượng 3D trong Java bằng Aspose.3D. Nâng cao chất lượng hình ảnh với Kết xuất dựa trên vật lý.
-### [Ghép nối các bậc bốn cho phép quay 3D trong Java với Aspose.3D](./concatenate-quaternions-for-3d-rotations/)
-Tìm hiểu cách ghép nối các bậc bốn để xoay 3D trong Java bằng cách sử dụng Aspose.3D. Hãy làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi hoạt ảnh liền mạch.
-### [Tạo cảnh khối 3D trong Java với Aspose.3D](./create-3d-cube-scene/)
-Khám phá sự kỳ diệu của đồ họa cảnh khối 3D với Aspose.3D cho Java. Tạo cảnh tuyệt đẹp một cách dễ dàng.
-### [Hiển thị các phép biến đổi hình học trong Java 3D với Aspose.3D](./expose-geometric-transformations/)
-Làm chủ các phép biến đổi hình học 3D trong Java trở nên dễ dàng với Aspose.3D. Tìm hiểu cách thao tác các nút, áp dụng bản dịch và đánh giá các phép biến đổi toàn cầu.
-### [Áp dụng Vật liệu cho Đối tượng 3D trong Java với Aspose.3D](./apply-materials-to-3d-objects/)
-Khám phá thế giới đồ họa 3D với Aspose.3D cho Java. Tìm hiểu cách áp dụng vật liệu vào đối tượng 3D một cách liền mạch. Nâng cao dự án của bạn bằng hình ảnh thực tế.
-### [Chia sẻ dữ liệu hình học lưới trong Java 3D với Aspose.3D](./share-mesh-geometry-data/)
-Khám phá những điều kỳ diệu của Java 3D với Aspose.3D. Tìm hiểu cách chia sẻ dữ liệu hình học lưới một cách dễ dàng giữa các nút trong hướng dẫn toàn diện này.
-### [Xây dựng hệ thống phân cấp nút trong Cảnh 3D bằng Java và Aspose.3D](./build-node-hierarchies/)
-Tìm hiểu cách xây dựng cảnh 3D động trong Java bằng Aspose.3D. Tạo hệ thống phân cấp nút dễ dàng và nâng cao trò chơi đồ họa 3D của bạn.
-### [Thiết lập chuẩn trên các đối tượng 3D trong Java với Aspose.3D](./set-up-normals-on-3d-objects/)
-Tìm hiểu cách thiết lập quy tắc trên các đối tượng 3D trong Java với Aspose.3D. Nâng cao đồ họa của bạn với hướng dẫn toàn diện này.
-### [Áp dụng tọa độ UV cho các đối tượng 3D trong Java với Aspose.3D](./apply-uv-coordinates-to-3d-objects/)
-Tìm hiểu cách áp dụng tọa độ UV cho các đối tượng 3D trong Java với Aspose.3D. Nâng cao đồ họa của bạn với hướng dẫn từng bước này.
-### [Chuyển đổi các nút 3D với các góc Euler trong Java bằng Aspose.3D](./transform-3d-nodes-with-euler-angles/)
-Khám phá thế giới biến đổi 3D trong Java với Aspose.3D. Làm theo hướng dẫn từng bước của chúng tôi để thêm các góc Euler động vào các nút 3D của bạn.
-### [Chuyển đổi các nút 3D bằng Quaternions trong Java bằng Aspose.3D](./transform-3d-nodes-with-quaternions/)
-Nâng cao các ứng dụng Java của bạn với Aspose.3D để có các chuyển đổi 3D mạnh mẽ. Tìm hiểu cách chuyển đổi các nút bằng cách sử dụng quaternions trong hướng dẫn từng bước này.
-### [Chuyển đổi các nút 3D bằng ma trận chuyển đổi trong Java bằng Aspose.3D](./transform-3d-nodes-with-matrices/)
-Khám phá thế giới đồ họa 3D trong Java với Aspose.3D. Tìm hiểu cách chuyển đổi các nút một cách dễ dàng bằng cách sử dụng ma trận chuyển đổi.
-### [Lưới tam giác để hiển thị được tối ưu hóa trong Java với Aspose.3D](./triangulate-meshes-for-optimized-rendering/)
-Tìm hiểu cách tăng hiệu quả kết xuất 3D trong Java bằng Aspose.3D. Lưới tam giác cho hiệu suất tối ưu.
+Tăng cường hiệu suất render 3D trong Java với Aspose.3D. Hướng dẫn của chúng tôi chỉ cho bạn quy trình tam giác hoá lưới để đạt hiệu năng tối ưu. Nâng cao dự án Java 3D của bạn lên tầm cao mới. [Đọc thêm](./triangulate-meshes-for-optimized-rendering/)
+
+## Làm việc với Hình Học 3D trong Các Bài Hướng Dẫn Java
+
+### [Áp Dụng Vật Liệu PBR cho Đối Tượng 3D trong Java với Aspose.3D](./apply-pbr-materials-to-objects/)
+Học cách áp dụng vật liệu PBR thực tế cho các đối tượng 3D trong Java bằng Aspose.3D. Nâng cao chất lượng hình ảnh với Physically Based Rendering.
+
+### [Nối Quaternion cho Quay 3D trong Java với Aspose.3D](./concatenate-quaternions-for-3d-rotations/)
+Học cách **cách nối các quaternion** cho quay 3D trong Java bằng Aspose.3D. Theo dõi hướng dẫn từng bước của chúng tôi để có các chuyển đổi hoạt ảnh liền mạch.
+
+### [Tạo Cảnh Hình Lập Phương 3D trong Java với Aspose.3D](./create-3d-cube-scene/)
+Khám phá kỳ diệu của đồ họa cảnh hình lập phương 3D với Aspose.3D cho Java. Tạo các cảnh tuyệt đẹp một cách dễ dàng.
+
+### [Tiết Lộ Các Biến Đổi Hình Học trong Java 3D với Aspose.3D](./expose-geometric-transformations/)
+Nắm vững các biến đổi hình học 3D trong Java trở nên dễ dàng với Aspose.3D. Học cách thao tác node, áp dụng dịch chuyển và đánh giá các biến đổi toàn cục.
+
+### [Áp Dụng Vật Liệu cho Đối Tượng 3D trong Java với Aspose.3D](./apply-materials-to-3d-objects/)
+Khám phá thế giới đồ họa 3D với Aspose.3D cho Java. Học cách áp dụng vật liệu cho các đối tượng 3D một cách liền mạch. Nâng cao dự án của bạn với hình ảnh thực tế.
+
+### [Chia Sẻ Dữ Liệu Hình Học Lưới trong Java 3D với Aspose.3D](./share-mesh-geometry-data/)
+Khám phá những điều tuyệt vời của Java 3D với Aspose.3D. Học cách chia sẻ dữ liệu hình học lưới một cách dễ dàng giữa các node trong bài hướng dẫn toàn diện này.
+
+### [Xây Dựng Cây Node trong Cảnh 3D với Java và Aspose.3D](./build-node-hierarchies/)
+Học cách xây dựng các cảnh 3D động trong Java với Aspose.3D. Tạo cây node một cách dễ dàng và nâng cao trò chơi đồ họa 3D của bạn.
+
+### [Thiết Lập Normals cho Đối Tượng 3D trong Java với Aspose.3D](./set-up-normals-on-3d-objects/)
+Học cách thiết lập normals cho các đối tượng 3D trong Java với Aspose.3D. Cải thiện đồ họa của bạn với bài hướng dẫn toàn diện này.
+
+### [Áp Dụng Tọa Độ UV cho Đối Tượng 3D trong Java với Aspose.3D](./apply-uv-coordinates-to-3d-objects/)
+Học cách áp dụng tọa độ UV cho các đối tượng 3D trong Java với Aspose.3D. Nâng cao đồ họa của bạn với hướng dẫn từng bước.
+
+### [Biến Đổi Node 3D với Góc Euler trong Java sử dụng Aspose.3D](./transform-3d-nodes-with-euler-angles/)
+Khám phá thế giới biến đổi 3D trong Java với Aspose.3D. Theo dõi hướng dẫn từng bước của chúng tôi để thêm góc Euler động vào các node 3D của bạn.
+
+### [Biến Đổi Node 3D với Quaternion trong Java sử dụng Aspose.3D](./transform-3d-nodes-with-quaternions/)
+Cải thiện các ứng dụng Java của bạn với Aspose.3D cho các biến đổi 3D mạnh mẽ. Học cách biến đổi node bằng quaternion trong hướng dẫn từng bước này.
+
+### [Biến Đổi Node 3D với Ma Trận Biến Đổi trong Java sử dụng Aspose.3D](./transform-3d-nodes-with-matrices/)
+Khám phá thế giới đồ họa 3D trong Java với Aspose.3D. Học cách biến đổi node một cách dễ dàng bằng ma trận biến đổi.
+
+### [Tam Giác Hóa Lưới cho Render Tối trong Java với Aspose.3D](./triangulate-meshes-for-optimized-rendering/)
+Học cách tăng cường hiệu suất render 3D trong Java bằng Aspose.3D. Tam giác hoá lưới để đạt hiệu năng tối ưu.
+
+## Câu Hỏi Thường Gặp
+
+**Q: Tôi có cần card đồ họa để sử dụng Aspose.3D cho Java không?**  
+A: Không. Aspose.3D thực hiện mọi tính toán trên CPU, vì vậy nó hoạt động trên bất kỳ máy nào có thể chạy Java.
+
+**Q: Tôi có thể kết hợp vật liệu PBR với shader tùy chỉnh không?**  
+A: Có. Bạn có thể gắn các chương trình shader tùy chỉnh vào lưới trong khi vẫn sử dụng quy trình PBR của Aspose.3D.
+
+**Q: “cách nối các quaternion” cải thiện hoạt ảnh như thế nào?**  
+A: Nối các quaternion cho phép bạn kết hợp nhiều quay thành một biến đổi mượt mà, tránh hiện tượng gimbal lock.
+
+**Q: Có hỗ trợ xuất sang glTF hoặc OBJ không?**  
+A: Aspose.3D có thể xuất cảnh sang glTF, OBJ, FBX và một số định dạng 3D phổ biến khác.
+
+**Q: Tôi có thể tìm các dự án mẫu ở đâu?**  
+A: Kho lưu trữ GitHub của Aspose.3D và trang tài liệu chính thức cung cấp các ví dụ sẵn sàng chạy cho tất cả các hướng dẫn ở trên.
+
+---
+
+**Cập nhật lần cuối:** 2025-12-06  
+**Kiểm tra với:** Aspose.3D for Java 24.12  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
