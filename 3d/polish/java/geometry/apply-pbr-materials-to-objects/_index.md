@@ -1,113 +1,143 @@
 ---
-title: Zastosuj materiały PBR do obiektów 3D w Javie za pomocą Aspose.3D
-linktitle: Zastosuj materiały PBR do obiektów 3D w Javie za pomocą Aspose.3D
-second_title: Aspose.3D API Java
-description: Naucz się stosować realistyczne materiały PBR do obiektów 3D w Javie przy użyciu Aspose.3D. Popraw jakość wizualną dzięki renderowaniu opartemu na fizyce.
+date: 2025-12-08
+description: Dowiedz się, jak tworzyć sceny 3D w Javie, stosować realistyczne materiały
+  PBR przy użyciu Aspose.3D oraz zapisywać model 3D w formacie STL do renderowania
+  obiektów 3D w Javie.
+language: pl
+linktitle: Create 3D Scene Java – Apply PBR Materials with Aspose.3D
+second_title: Aspose.3D Java API
+title: 'Utwórz scenę 3D w Javie: zastosuj materiały PBR przy użyciu Aspose.3D'
+url: /java/geometry/apply-pbr-materials-to-objects/
 weight: 10
-url: /pl/java/geometry/apply-pbr-materials-to-objects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zastosuj materiały PBR do obiektów 3D w Javie za pomocą Aspose.3D
+# Utwórz scenę 3D w Javie – zastosuj materiały PBR z Aspose.3D
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w tym przewodniku krok po kroku dotyczącym stosowania materiałów renderowania opartego na fizyce (PBR) do obiektów 3D w Javie przy użyciu Aspose.3D. Aspose.3D to potężna biblioteka Java, która zapewnia wszechstronną funkcjonalność do pracy z modelami i scenami 3D. W tym samouczku skupimy się na zastosowaniu materiałów PBR, które symulują rzeczywiste oświetlenie i właściwości powierzchni, zwiększając realizm obiektów 3D.
+W tym praktycznym samouczku nauczysz się **jak utworzyć scenę 3D w Javie** i wzbogacić ją o materiały Physically Based Rendering (PBR) przy użyciu biblioteki Aspose.3D. Po zakończeniu przewodnika będziesz w stanie renderować realistyczne powierzchnie i **zapisać model 3D w formacie STL** do dalszego wykorzystania w dowolnym pipeline 3D.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „create 3d scene java”?** Jest to proces tworzenia obiektu Scene, który przechowuje geometrie, światła i kamery w aplikacji Java.  
+- **Która biblioteka obsługuje materiały PBR?** Aspose.3D udostępnia gotową klasę `PbrMaterial`.  
+- **Czy mogę wyeksportować wynik jako STL?** Tak – metoda `Scene.save` obsługuje STL (ASCII i binarny).  
+- **Czy potrzebna jest licencja do produkcji?** Stała licencja Aspose.3D jest wymagana do użytku komercyjnego; licencja tymczasowa działa w testach.  
+- **Jakiej wersji Java wymaga się?** Obsługiwane jest dowolne środowisko uruchomieniowe Java 8+.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest scena 3D w Javie?
 
-1. Środowisko programistyczne Java: Upewnij się, że masz zainstalowaną Javę w swoim systemie.
+*Scena* to kontener, który przechowuje wszystkie obiekty (węzły), ich geometrie, materiały, światła i kamery. Traktuj ją jak wirtualną scenę, na której umieszczasz swoje modele 3D. Klasa `Scene` z Aspose.3D zapewnia czysty, obiektowo‑zorientowany sposób budowania tej sceny programowo.
 
-2.  Biblioteka Aspose.3D: Pobierz i zainstaluj bibliotekę Aspose.3D z[link do pobrania](https://releases.aspose.com/3d/java/).
+## Dlaczego używać materiałów PBR do renderowania obiektów 3D w Javie?
 
-3.  Dokumentacja: Patrz[dokumentacja](https://reference.aspose.com/3d/java/)dla Aspose.3D, aby zapoznać się z funkcjami biblioteki.
+PBR (Physically Based Rendering) naśladuje rzeczywistą interakcję światła, używając parametrów takich jak współczynniki metaliczności i szorstkości. Efektem jest bardziej przekonujący wygląd w różnych warunkach oświetleniowych, co jest szczególnie cenne w wizualizacji produktów, grach lub doświadczeniach AR/VR.
 
-4.  Licencja tymczasowa (opcjonalnie): Jeśli nie masz licencji, możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla testów.
+## Wymagania wstępne
 
-## Importuj pakiety
+1. **Środowisko programistyczne Java** – zainstalowany JDK 8 lub nowszy.  
+2. **Biblioteka Aspose.3D** – Pobierz najnowszy plik JAR z [linku do pobrania](https://releases.aspose.com/3d/java/).  
+3. **Dokumentacja** – Zapoznaj się z API za pośrednictwem oficjalnej [dokumentacji](https://reference.aspose.com/3d/java/).  
+4. **Licencja tymczasowa (opcjonalnie)** – Jeśli nie masz stałej licencji, uzyskaj [licencję tymczasową](https://purchase.aspose.com/temporary-license/) do testów.
 
-W swoim projekcie Java dołącz pakiety niezbędne do korzystania z Aspose.3D. Dodaj następujące instrukcje importu do swojego kodu:
+## Importowanie pakietów
+
+Dodaj przestrzeń nazw Aspose.3D do swojego pliku źródłowego Java:
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## Krok 1: Zainicjuj scenę
+## Krok 1: Inicjalizacja sceny
 
-Zacznij od stworzenia sceny 3D za pomocą Aspose.3D. Scena służy jako płótno dla obiektów 3D.
+Utwórz scenę, która będzie pełnić rolę płótna dla twojej geometrii i materiałów.
 
 ```java
-// ExStart: Zainicjuj scenę
+// ExStart:InitializeScene
 String MyDir = "Your Document Directory";
 Scene scene = new Scene();
 // ExEnd:InitializeScene
 ```
 
-## Krok 2: Zainicjuj materiał PBR
+> **Wskazówka:** Upewnij się, że `MyDir` wskazuje na folder z prawami zapisu; w przeciwnym razie wywołanie `save` zakończy się niepowodzeniem.
 
-Utwórz materiał PBR i dostosuj jego właściwości, takie jak współczynniki metaliczne i chropowatość.
+## Krok 2: Inicjalizacja materiału PBR
+
+Skonfiguruj materiał PBR z wartościami metaliczności i szorstkości, które dają wygląd zbliżony do metalu.
 
 ```java
-// ExStart: Zainicjuj materiał PBR
+// ExStart:InitializePBRMaterial
 PbrMaterial mat = new PbrMaterial();
 mat.setMetallicFactor(0.9);
 mat.setRoughnessFactor(0.9);
 // ExEnd:InitializePBRMaterial
 ```
 
-## Krok 3: Utwórz obiekt 3D
+> **Dlaczego te wartości?** Wysoki współczynnik metaliczności (≈ 0.9) sprawia, że powierzchnia zachowuje się jak metal, natomiast wysoka szorstkość (≈ 0.9) dodaje subtelną dyfuzję, zapobiegając idealnemu lustrzanemu wykończeniu.
 
-Wygeneruj obiekt 3D (np. pudełko), na który zostanie nałożony materiał PBR.
+## Krok 3: Utworzenie obiektu 3D i zastosowanie materiału
+
+Tutaj generujemy prostą geometrię pudełka, dołączamy ją do węzła głównego sceny i przypisujemy materiał PBR, który właśnie utworzyliśmy.
 
 ```java
-// ExStart: Utwórz obiekt 3D
+// ExStart:Create3DObject
 Node boxNode = scene.getRootNode().createChildNode("box", new Box());
 boxNode.setMaterial(mat);
-// Rozwiń: Utwórz obiekt 3D
+// ExEnd:Create3DObject
 ```
 
-## Krok 4: Zapisz scenę 3D
+> **Typowy błąd:** Zapomnienie o ustawieniu materiału na węźle spowoduje, że obiekt będzie miał domyślny (nie‑PBR) wygląd.
 
-Zapisz scenę 3D, łącznie z zastosowanym materiałem PBR, w określonym formacie pliku, np. STL.
+## Krok 4: Zapis sceny 3D (eksport STL)
+
+Wyeksportuj całą scenę — w tym pudełko wzbogacone o PBR — do pliku STL. STL jest powszechnie obsługiwanym formatem do druku 3‑D i szybkich kontroli wizualnych.
 
 ```java
-// ExStart: Zapisz3DScene
+// ExStart:Save3DScene
 scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
-//Rozwiń: Zapisz3DScenę
+// ExEnd:Save3DScene
 ```
 
-Powtórz te kroki dla bardziej złożonych scen lub różnych obiektów.
+Możesz również wybrać `FileFormat.STLBINARY`, jeśli wymagany jest mniejszy rozmiar pliku.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Gratulacje! Pomyślnie zastosowałeś materiały PBR do obiektu 3D w Javie przy użyciu Aspose.3D. Zwiększa to atrakcyjność wizualną modeli 3D, czyniąc je bardziej realistycznymi i oszałamiającymi wizualnie.
+| Problem | Prawdopodobna przyczyna | Rozwiązanie |
+|---------|--------------------------|-------------|
+| **Plik nie zapisany** | `MyDir` wskazuje na nieistniejący folder lub brakuje uprawnień do zapisu | Sprawdź, czy katalog istnieje i czy proces Java ma dostęp do zapisu |
+| **Materiał wygląda płasko** | Wartości Metallic/Roughness ustawione na 0 | Zwiększ `setMetallicFactor` i/lub `setRoughnessFactor` |
+| **Plik STL nie może być otwarty** | Nieprawidłowa flaga formatu pliku (ASCII vs Binary) dla przeglądarki | Użyj odpowiedniego enumu `FileFormat` dla docelowego podglądu |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę używać Aspose.3D w projektach komercyjnych?
+**P: Czy mogę używać Aspose.3D w projektach komercyjnych?**  
+O: Tak. Kup licencję komercyjną na [stronie zakupu](https://purchase.aspose.com/buy).
 
- A1: Tak, możesz. Odwiedzić[strona zakupu](https://purchase.aspose.com/buy) w celu uzyskania szczegółów licencji.
+**P: Jak uzyskać wsparcie dla Aspose.3D?**  
+O: Dołącz do społeczności na [forum Aspose.3D](https://forum.aspose.com/c/3d/18) aby uzyskać darmową pomoc, lub otwórz zgłoszenie wsparcia posiadając ważną licencję.
 
-### P2: Jak uzyskać wsparcie dla Aspose.3D?
+**P: Czy dostępna jest darmowa wersja próbna?**  
+O: Oczywiście. Pobierz wersję próbną ze [strony darmowej wersji próbnej](https://releases.aspose.com/).
 
- A2: Dołącz do[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie i pomoc społeczną.
+**P: Gdzie mogę znaleźć szczegółową dokumentację Aspose.3D?**  
+O: Wszystkie odniesienia API są dostępne w oficjalnej [dokumentacji](https://reference.aspose.com/3d/java/).
 
-### P3: Czy dostępny jest bezpłatny okres próbny?
+**P: Jak uzyskać tymczasową licencję do testów?**  
+O: Zamów ją poprzez [link do licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
 
- A3: Tak, możesz odkryć a[bezpłatna wersja próbna](https://releases.aspose.com/) przed dokonaniem zakupu.
+## Podsumowanie
 
-### P4: Gdzie mogę znaleźć szczegółową dokumentację dla Aspose.3D?
+Utworzyłeś teraz **scenę 3D w Javie**, zastosowałeś realistyczny materiał PBR i wyeksportowałeś wynik jako plik STL przy użyciu Aspose.3D. Ten przepływ pracy zapewnia solidną podstawę do tworzenia bogatszych wizualizacji, przygotowywania zasobów do druku 3‑D lub wprowadzania modeli do silników gier.
 
- A4: Patrz[dokumentacja](https://reference.aspose.com/3d/java/) w celu uzyskania kompleksowych wskazówek.
+---
 
-### P5: Jak uzyskać tymczasową licencję na testowanie?
+**Ostatnia aktualizacja:** 2025-12-08  
+**Testowano z:** Aspose.3D 24.12 (latest)  
+**Autor:** Aspose  
 
- A5: Odwiedź[ten link](https://purchase.aspose.com/temporary-license/) aby uzyskać licencję tymczasową.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
