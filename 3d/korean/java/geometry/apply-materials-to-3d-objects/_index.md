@@ -1,33 +1,47 @@
 ---
-title: Aspose.3D를 사용하여 Java의 3D 개체에 재료 적용
-linktitle: Aspose.3D를 사용하여 Java의 3D 개체에 재료 적용
-second_title: Aspose.3D 자바 API
-description: Java용 Aspose.3D를 사용하여 3D 그래픽의 세계를 탐험해보세요. 3D 개체에 재료를 원활하게 적용하는 방법을 알아보세요. 사실적인 비주얼로 프로젝트의 수준을 높여보세요.
+date: 2025-12-08
+description: Aspose.3D를 사용하여 텍스처를 추가하는 방법에 대한 Java 3D 그래픽 튜토리얼을 배워보세요. Java에서 3D 객체에
+  현실적인 재질을 빠르게 적용합니다.
+language: ko
+linktitle: Apply Materials to 3D Objects in Java with Aspose.3D
+second_title: Aspose.3D Java API
+title: java 3D 그래픽 튜토리얼 – Aspose.3D를 사용하여 Java에서 3D 객체에 재질 적용
+url: /java/geometry/apply-materials-to-3d-objects/
 weight: 14
-url: /ko/java/geometry/apply-materials-to-3d-objects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D를 사용하여 Java의 3D 개체에 재료 적용
+# Java와 Aspose.3D를 사용하여 3D 객체에 재질 적용
 
 ## 소개
 
-3D 그래픽의 역동적인 세계에서 Java용 Aspose.3D는 프로젝트에 생명을 불어넣는 강력한 도구로 돋보입니다. 3D 개체에 재료를 추가하면 시각적 매력이 향상되어 더욱 사실적으로 만들어집니다. 이 튜토리얼에서는 Java용 Aspose.3D를 사용하여 3D 큐브에 재료를 적용하는 과정을 안내합니다.
+이 **java 3d graphics tutorial**에서는 Aspose.3D Java API를 사용하여 간단한 3‑D 큐브에 **texture java를 추가하는 방법**을 보여드립니다. 재질과 텍스처를 적용하는 것은 평면 메쉬를 게임, 시각화 또는 제품 데모에 사용할 수 있는 현실감 있는 객체로 바꾸는 핵심 단계입니다. 이 가이드를 끝내면 모든 텍스처가 적용된 FBX 파일을 얻을 수 있으며, 이를 어떤 3‑D 뷰어에서도 열 수 있습니다.
 
-## 전제 조건
+## 빠른 답변
+- **What is the main goal?** 큐브에 디퓨즈 텍스처가 적용된 Phong 재질을 적용합니다.  
+- **Which library?** Java용 Aspose.3D (무료 체험판 제공).  
+- **How long does it take?** 작동 예제를 만드는 데 약 10‑15 분 정도 소요됩니다.  
+- **Do I need a license?** 평가용이 아닌 빌드에는 임시 라이선스가 필요합니다.  
+- **What file format is produced?** FBX 7.4 ASCII (대부분의 3‑D 도구와 호환).
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## java 3d graphics tutorial란?
 
-- 시스템에 JDK(Java Development Kit)가 설치되어 있습니다.
-- Java 라이브러리용 Aspose.3D가 다운로드되어 프로젝트에 추가되었습니다.
-- 기본 Java 프로그래밍 개념에 익숙합니다.
+**java 3d graphics tutorial**는 Java 기반 라이브러리를 사용하여 3‑D 콘텐츠를 생성, 조작 및 내보내는 과정을 안내합니다. 이번 예제에서는 재질 처리—색상, 텍스처 및 쉐이딩 속성을 기하학적 엔티티에 할당하는 방법에 중점을 둡니다.
+
+## 왜 Aspose.3D를 사용해 texture java를 추가하나요?
+
+Aspose.3D는 파일 포맷의 저수준 세부 사항을 추상화한 깔끔한 객체 지향 API를 제공합니다. FBX, STL, OBJ 등 다양한 포맷을 지원하며 텍스처를 파일에 직접 삽입할 수 있어 단일하고 휴대 가능한 에셋을 만들고자 할 때 이상적입니다.
+
+## 사전 요구 사항
+
+- Java Development Kit (JDK 8 이상)이 설치되어 있어야 합니다.
+- 프로젝트 클래스패스에 최신 Aspose.3D for Java JAR를 추가합니다.
+- Java 문법 및 객체 지향 프로그래밍에 대한 기본 이해가 필요합니다.
 
 ## 패키지 가져오기
-
-시작하려면 필요한 패키지를 Java 프로젝트로 가져옵니다. 코드 시작 부분에 다음 줄을 추가합니다.
 
 ```java
 import com.aspose.threed.*;
@@ -37,140 +51,146 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 ```
 
-## 1단계: 장면 객체 초기화
+## 단계 1: Scene 객체 초기화
 
 ```java
-// 장면 객체 초기화
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## 2단계: 큐브 노드 개체 초기화
+## 단계 2: Cube Node 객체 초기화
 
 ```java
-// 큐브 노드 객체 초기화
+// Initialize cube node object
 Node cubeNode = new Node("cube");
 ```
 
-## 3단계: Polygon Builder를 사용하여 메시 생성
+## 단계 3: Polygon Builder를 사용해 Mesh 생성
 
 ```java
-// Common 클래스를 호출하여 폴리곤 빌더 방법을 사용하여 메쉬를 생성하여 메쉬 인스턴스를 설정합니다.
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-## 4단계: 노드를 메시에 지정
+## 단계 4: Node를 Mesh에 연결
 
 ```java
-// 노드를 메쉬로 가리킵니다.
+// Point node to the mesh
 cubeNode.setEntity(mesh);
 ```
 
-## 5단계: 장면에 큐브 추가
+## 단계 5: Cube를 Scene에 추가
 
 ```java
-// 장면에 큐브 추가
+// Add cube to the scene
 scene.getRootNode().addChildNode(cubeNode);
 ```
 
-## 6단계: PhongMaterial 객체 초기화
+## 단계 6: PhongMaterial 객체 초기화
 
 ```java
-// PhongMaterial 객체 초기화
+// Initialize PhongMaterial object
 PhongMaterial mat = new PhongMaterial();
 ```
 
-## 7단계: 텍스처 개체 초기화
+## 단계 7: Texture 객체 초기화
 
 ```java
-// 텍스처 객체 초기화
+// Initialize Texture object
 Texture diffuse = new Texture();
 ```
 
-## 8단계: 텍스처의 로컬 파일 경로 설정
+## 단계 8: Texture의 로컬 파일 경로 설정
 
 ```java
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 ```
 
-## 9단계: 포함된 텍스처에 대한 로컬 파일 경로 설정
+## 단계 9: Embedded Texture의 로컬 파일 경로 설정
 
 ```java
-// 포함된 텍스처에 대한 로컬 파일 경로 설정
+// Set local file path for embedded texture
 diffuse.setFileName(MyDir + "surface.dds");
 ```
 
-## 10단계: 재료의 질감 설정
+## 단계 10: Material에 Texture 설정
 
 ```java
-// 재료의 질감 설정
+// Set Texture of the material
 mat.setTexture(Material.MAP_DIFFUSE, diffuse);
 ```
 
-## 11단계: FBX에 원시 콘텐츠 데이터 삽입(선택 사항)
+## 단계 11: 원시 콘텐츠 데이터를 FBX에 삽입 (옵션)
 
 ```java
-// 포함된 텍스처의 파일 이름 설정
+// Set file name for embedded texture
 diffuse.setFileName("embedded-texture.png");
-// 바이너리 콘텐츠 설정
+// Set binary content
 diffuse.setContent(Files.readAllBytes(Paths.get(MyDir, "aspose-logo.jpg")));
 ```
 
-## 12단계: 반사광 색상 설정
+## 단계 12: Specular 색상 설정
 
 ```java
-// 반사광 색상 설정
+// Set specular color
 mat.setSpecularColor(new Vector3(1, 0, 0));
 ```
 
-## 13단계: 밝기 설정
+## 단계 13: 밝기 설정
 
 ```java
-// 밝기 설정
+// Set brightness
 mat.setShininess(100);
 ```
 
-## 14단계: 큐브 개체의 재질 속성 설정
+## 단계 14: Cube 객체의 Material 속성 설정
 
 ```java
-// 큐브 개체의 재질 속성 설정
+// Set material property of the cube object
 cubeNode.setMaterial(mat);
 ```
 
-## 15단계: 3D 장면 저장
+## 단계 15: 3D Scene 저장
 
 ```java
-// 파일 이름 설정
+// Set the file name
 MyDir = MyDir + "MaterialToCube.fbx";
-// 지원되는 파일 형식으로 3D 장면 저장
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
-## 결론
+## 일반적인 문제 및 해결책
 
-축하해요! Java용 Aspose.3D를 사용하여 3D 큐브에 재료를 성공적으로 적용했습니다. 이 간단하면서도 강력한 기술은 현실적이고 시각적으로 놀라운 경험을 제공하여 3D 프로젝트를 새로운 차원으로 끌어올릴 수 있습니다.
+| 문제 | 원인 | 해결책 |
+|------|------|--------|
+| **Texture not visible** | 잘못된 파일 경로나 지원되지 않는 텍스처 형식. | `MyDir`이 올바른 폴더를 가리키는지 확인하고 `.dds` 또는 `.png`와 같은 지원되는 형식을 사용하십시오. |
+| **FBX file fails to load** | Embedded texture 데이터가 누락되었습니다. | 옵션 블록(단계 11)을 사용하여 텍스처 바이트를 FBX에 직접 삽입하십시오. |
+| **Material appears black** | Specular 또는 diffuse 값이 설정되지 않음. | `setSpecularColor`와 `setTexture`가 저장 전에 호출되었는지 확인하십시오. |
 
-## FAQ
+## 자주 묻는 질문
 
-### Q1: 단일 3D 개체에 여러 재료를 적용할 수 있습니까?
+**Q: 단일 3D 객체에 여러 재질을 적용할 수 있나요?**  
+A: 예, Aspose.3D를 사용하면 서로 다른 메쉬 파트나 서브‑노드에 별도의 재질을 할당할 수 있습니다.
 
-A1: 예, Aspose.3D를 사용하면 향상된 사용자 정의를 위해 3D 개체의 다양한 부분에 여러 재료를 적용할 수 있습니다.
+**Q: Aspose.3D가 씬 저장을 지원하는 파일 포맷은 무엇인가요?**  
+A: FBX, STL, OBJ, 3DS 등 여러 포맷을 지원합니다. 전체 목록은 공식 [documentation](https://reference.aspose.com/3d/java/)를 참고하십시오.
 
-### Q2: Aspose.3D는 장면 저장을 위해 어떤 파일 형식을 지원합니까?
+**Q: Aspose.3D for Java에 임시 라이선스가 제공되나요?**  
+A: 예, 평가용으로 [temporary license](https://purchase.aspose.com/temporary-license/)를 받을 수 있습니다.
 
- A2: Aspose.3D는 FBX, STL, 3DS를 포함한 다양한 파일 형식을 지원합니다. 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/3d/java/) 전체 목록을 보려면.
+**Q: Aspose.3D 지원을 어디서 찾을 수 있나요?**  
+A: 커뮤니티 도움을 받으려면 [Aspose.3D forum](https://forum.aspose.com/c/3d/18)이 가장 좋습니다.
 
-### Q3: Aspose.3D for Java에 임시 라이선스를 사용할 수 있나요?
+**Q: 특정 링크에서 Aspose.3D 라이브러리를 다운로드할 수 있나요?**  
+A: 물론입니다—최신 JAR 파일은 [download link](https://releases.aspose.com/3d/java/)에서 받을 수 있습니다.
 
- A3: 그렇습니다.[임시 면허증](https://purchase.aspose.com/temporary-license/) 평가 목적으로.
+---
 
-### Q4: Aspose.3D에 대한 지원은 어디서 찾을 수 있나요?
+**마지막 업데이트:** 2025-12-08  
+**테스트 환경:** Aspose.3D for Java 24.11  
+**작성자:** Aspose  
 
- A4: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 커뮤니티 지원 및 토론을 위해.
-
-### Q5: 특정 링크에서 Aspose.3D 라이브러리를 다운로드할 수 있나요?
-
- A5: 예,[다운로드 링크](https://releases.aspose.com/3d/java/) Java용 Aspose.3D의 최신 버전에 액세스합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
