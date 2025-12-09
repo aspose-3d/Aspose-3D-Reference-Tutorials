@@ -1,33 +1,49 @@
 ---
-title: Creación de cilindros de ventilador personalizados con Aspose.3D para Java
-linktitle: Creación de cilindros de ventilador personalizados con Aspose.3D para Java
-second_title: API de Java Aspose.3D
-description: Aprenda a crear cilindros de ventilador personalizados en Java con Aspose.3D. Mejora tu juego de modelado 3D sin esfuerzo.
+date: 2025-12-09
+description: Aprende a agregar nodos hijos, posicionar objetos 3D y guardar la escena
+  como OBJ mientras creas cilindros de ventilador personalizados usando Aspose.3D
+  para Java.
+language: es
+linktitle: Adding Child Node for Fan Cylinders with Aspose.3D Java
+second_title: Aspose.3D Java API
+title: Añadir nodo hijo para crear cilindros de abanico con Aspose.3D para Java
+url: /java/cylinders/creating-fan-cylinders/
 weight: 10
-url: /es/java/cylinders/creating-fan-cylinders/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Creación de cilindros de ventilador personalizados con Aspose.3D para Java
+# Agregar Nodo Hijo para Construir Cilindros de Ventilador con Aspose.3D para Java
 
 ## Introducción
 
-¿Estás listo para mejorar tu experiencia de modelado 3D con Aspose.3D para Java? Este tutorial lo guiará a través del proceso de creación de cilindros de ventilador personalizados utilizando la potente biblioteca Aspose.3D. Ya seas un desarrollador experimentado o un principiante, esta guía paso a paso te ayudará a liberar todo el potencial de Aspose.3D en Java.
+¿Listo para **add child node** a una escena 3‑D y crear llamativos cilindros de ventilador? En este tutorial recorreremos cada paso—desde configurar la escena, posicionar objetos 3D, hasta finalmente **save scene as OBJ**—usando Aspose.3D para Java. Ya sea que estés puliendo un activo de juego o construyendo un prototipo rápido, los conceptos aquí te darán un control sólido sobre tus modelos 3‑D.
 
-## Requisitos previos
+## Respuestas Rápidas
+- **¿Qué hace “add child node”?** Inserta un nuevo objeto en el grafo de escena, heredando transformaciones de su padre.  
+- **¿Cómo puedo posicionar un objeto 3D?** Aplicando una traslación (o rotación/escala) a la transformación del nodo.  
+- **¿Qué formato de archivo se usa para la exportación?** El ejemplo guarda el modelo como un archivo Wavefront OBJ.  
+- **¿Necesito una licencia para ejecutar el código?** Una prueba gratuita funciona para evaluación; se requiere una licencia para producción.  
+- **¿Qué IDE funciona mejor?** Cualquier IDE de Java (IntelliJ IDEA, Eclipse, VS Code) que soporte JDK 8+.
 
-Antes de sumergirnos en el tutorial, asegúrese de tener implementados los siguientes requisitos previos:
+## ¿Qué es “add child node” en Aspose.3D?
+Agregar un nodo hijo significa crear un nuevo nodo bajo un padre existente en la jerarquía de la escena. El hijo hereda el sistema de coordenadas del padre, lo que facilita **position 3d object** instancias relativas entre sí.
 
-- Kit de desarrollo de Java (JDK): asegúrese de tener JDK instalado en su sistema. Puedes descargarlo[aquí](https://www.oracle.com/java/technologies/javase-downloads.html).
+## ¿Por qué agregar un nodo hijo al construir cilindros de ventilador?
+- **Diseño modular:** Cada cilindro (ventilador o no‑ventilador) vive en su propio nodo, simplificando ediciones posteriores.  
+- **Herencia de transformaciones:** Mueve, rota o escala el padre y todos los hijos siguen automáticamente.  
+- **Grafo de escena más limpio:** Mejora la legibilidad y depuración de modelos complejos.
 
--  Aspose.3D para Java: descargue e instale la biblioteca Aspose.3D para Java desde[enlace de descarga](https://releases.aspose.com/3d/java/).
+## Requisitos Previos
 
-## Importar paquetes
+- **Java Development Kit (JDK)** – descargar desde el [official site](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.3D for Java** – obtener la última biblioteca desde el [download link](https://releases.aspose.com/3d/java/).
 
-Comience importando los paquetes necesarios a su proyecto Java. Este paso es crucial para acceder a las funcionalidades proporcionadas por Aspose.3D.
+## Importar Paquetes
+
+Comienza importando los paquetes necesarios en tu proyecto Java. Este paso es crucial para acceder a las funcionalidades proporcionadas por Aspose.3D.
 
 ```java
 import com.aspose.threed.*;
@@ -36,100 +52,103 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Paso 1: crea una escena
+## Paso 1: Crear una Escena
 
-Comience inicializando una escena 3D usando el siguiente fragmento de código:
+Primero, creamos una escena 3‑D vacía que alojará todos nuestros objetos.
 
 ```java
-// ExInicio:2
-// Crear una escena
+// ExStart:2
+// Create a Scene
 Scene scene = new Scene();
-// Fin final: 2
+// ExEnd:2
 ```
 
-Esto prepara el escenario para su aventura de modelado 3D.
+## Paso 2: Crear un Cilindro de Ventilador
 
-## Paso 2: crea un cilindro de ventilador
-
-Ahora, creemos un cilindro de ventilador usando la biblioteca Aspose.3D:
+A continuación, construimos un cilindro que se renderizará como un ventilador (barrido parcial).
 
 ```java
-// ExInicio:3
-// Crear un cilindro con ventilador.
+// ExStart:3
+// Create a cylinder with fan
 Cylinder fan = new Cylinder(2, 2, 10, 20, 1, false);
 fan.setGenerateFanCylinder(true);
 fan.setThetaLength(MathUtils.toRadian(270.0));
-// Fin final: 3
+// ExEnd:3
 ```
 
-Este fragmento establece las dimensiones del cilindro, permite la generación de ventiladores y especifica la longitud theta.
+## Paso 3: Agregar Nodo Hijo y Posicionar Objeto 3D
 
-## Paso 3: coloque el cilindro del ventilador
-
-Coloque el cilindro del ventilador dentro de la escena 3D agregándolo como un nodo secundario y configurando su traducción:
+Ahora **add child node** a la escena y **position the 3d object** estableciendo su traslación. Aquí es donde el cilindro de ventilador se convierte en parte del grafo de escena.
 
 ```java
-// ExInicio:4
-// Crear ChildNode y configurar la traducción
+// ExStart:4
+// Create ChildNode and set translation
 scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0);
-// Fin final: 4
+// ExEnd:4
 ```
 
-Esto posiciona el cilindro del ventilador en las coordenadas (10, 0, 0) dentro de la escena.
+## Paso 4: Crear un Cilindro No Ventilador
 
-## Paso 4: cree un cilindro sin ventilador
-
-Creemos también un cilindro sin ventilador para mostrar la flexibilidad de Aspose.3D:
+Para mostrar la flexibilidad de Aspose.3D, también creamos un cilindro regular sin ventilador y lo añadimos como otro nodo hijo.
 
 ```java
-// ExInicio:5
-// Crea un cilindro sin ventilador.
+// ExStart:5
+// Create a cylinder without a fan
 Cylinder nonfan = new Cylinder(2, 2, 10, 20, 1, false);
-// Crear nodo secundario
+// Create ChildNode
 scene.getRootNode().createChildNode(nonfan);
-// Fin final: 5
+// ExEnd:5
 ```
 
-Este fragmento genera un cilindro sin ventilador y lo agrega a la escena.
+## Paso 5: Guardar la Escena como OBJ
 
-## Paso 5: guarde la escena
-
-Finalmente, guarde la escena como un archivo Wavefront OBJ en su directorio de documentos:
+Finalmente, **save scene as OBJ** para que puedas ver el resultado en cualquier visor 3‑D estándar.
 
 ```java
-// ExInicio:6
-// guardar escena
+// ExStart:6
+// Save scene
 scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEFRONTOBJ);
-// Fin final: 6
+// ExEnd:6
 ```
 
-¡Felicidades! Ha creado con éxito cilindros de ventilador personalizados utilizando Aspose.3D para Java.
+¡Felicidades! Has **added child node** con éxito, posicionado tus objetos y exportado el modelo.
+
+## Problemas Comunes y Consejos
+
+| Problema | Solución |
+|----------|----------|
+| **Archivo no encontrado** al guardar | Asegúrese de que el directorio de destino exista y tenga permisos de escritura. |
+| **El cilindro aparece plano** | Verifique los valores de radio y altura; Aspose.3D espera unidades en la misma escala. |
+| **La porción del ventilador parece incompleta** | Ajuste `ThetaLength` (en radianes) para cubrir el ángulo deseado. |
+| **La escena no es visible en el visor** | Confirme que el archivo OBJ se guardó con el archivo `.mtl` (material) adjunto si es necesario. |
+
+## Preguntas Frecuentes
+
+**Q:** *¿Es Aspose.3D compatible con otras bibliotecas Java para modelado 3D?*  
+**A:** Sí, Aspose.3D funciona junto a otras bibliotecas Java 3‑D, permitiéndote combinar funcionalidades según sea necesario.
+
+**Q:** *¿Puedo personalizar aún más la apariencia de los cilindros de ventilador generados?*  
+**A:** Absolutamente. Puedes aplicar materiales, texturas e iluminación usando las clases `Material` y `Light`.
+
+**Q:** *¿Dónde puedo encontrar soporte o asistencia adicional para Aspose.3D?*  
+**A:** Visita el [Aspose.3D forum](https://forum.aspose.com/c/3d/18) para ayuda de la comunidad y respuestas oficiales.
+
+**Q:** *¿Hay una prueba gratuita disponible para Aspose.3D?*  
+**A:** Sí, puedes explorar Aspose.3D con una [free trial](https://releases.aspose.com/) antes de comprar.
+
+**Q:** *¿Cómo puedo obtener una licencia temporal para Aspose.3D?*  
+**A:** Obtén una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/) para pruebas y desarrollo.
 
 ## Conclusión
 
-En este tutorial, exploramos el proceso de aprovechar Aspose.3D para Java para crear cilindros de ventilador personalizados en una escena 3D. La versatilidad de Aspose.3D permite a los desarrolladores mejorar sus proyectos de modelado 3D con facilidad.
+En esta guía demostramos cómo **add child node**, **position 3d object** y **save scene as OBJ** mientras creamos cilindros de ventilador personalizados con Aspose.3D para Java. Estos bloques de construcción te brindan la flexibilidad para construir jerarquías 3‑D complejas y exportarlas para cualquier flujo de trabajo posterior.
 
-## Preguntas frecuentes
+---
 
-### P1: ¿Aspose.3D es compatible con otras bibliotecas Java para modelado 3D?
+**Última actualización:** 2025-12-09  
+**Probado con:** Aspose.3D 24.12 para Java  
+**Autor:** Aspose  
 
-R1: Aspose.3D está diseñado para funcionar perfectamente con otras bibliotecas de Java, ofreciendo flexibilidad en la integración.
-
-### P2: ¿Puedo personalizar aún más la apariencia de los cilindros del ventilador generados?
-
-R2: ¡Absolutamente! Aspose.3D ofrece amplias opciones de personalización, lo que le permite ajustar los aspectos visuales de sus modelos 3D.
-
-### P3: ¿Dónde puedo encontrar soporte o asistencia adicional para Aspose.3D?
-
- A3: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para apoyo y debates de la comunidad.
-
-### P4: ¿Hay una prueba gratuita disponible para Aspose.3D?
-
- R4: Sí, puedes explorar Aspose.3D con un[prueba gratis](https://releases.aspose.com/) antes de tomar una decisión de compra.
-
-### P5: ¿Cómo puedo obtener una licencia temporal para Aspose.3D?
-
- A5: Adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) para sus necesidades de pruebas y desarrollo.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

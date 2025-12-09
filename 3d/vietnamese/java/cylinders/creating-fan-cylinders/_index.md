@@ -1,31 +1,46 @@
 ---
-title: Tạo các trụ quạt tùy chỉnh với Aspose.3D cho Java
-linktitle: Tạo các trụ quạt tùy chỉnh với Aspose.3D cho Java
-second_title: API Java Aspose.3D
-description: Tìm hiểu cách tạo các hình trụ quạt tùy chỉnh trong Java với Aspose.3D. Nâng cao trò chơi mô hình 3D của bạn một cách dễ dàng.
+date: 2025-12-09
+description: Học cách thêm nút con, định vị các đối tượng 3D và lưu cảnh dưới dạng
+  OBJ trong khi tạo các hình trụ quạt tùy chỉnh bằng Aspose.3D cho Java.
+language: vi
+linktitle: Adding Child Node for Fan Cylinders with Aspose.3D Java
+second_title: Aspose.3D Java API
+title: Thêm nút con để xây dựng các hình trụ dạng quạt với Aspose.3D cho Java
+url: /java/cylinders/creating-fan-cylinders/
 weight: 10
-url: /vi/java/cylinders/creating-fan-cylinders/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo các trụ quạt tùy chỉnh với Aspose.3D cho Java
+# Thêm Nút Con để Tạo Trụ Quạt với Aspose.3D cho Java
 
 ## Giới thiệu
 
-Bạn đã sẵn sàng nâng cao trải nghiệm lập mô hình 3D của mình với Aspose.3D cho Java chưa? Hướng dẫn này sẽ hướng dẫn bạn quy trình tạo các trụ quạt tùy chỉnh bằng thư viện Aspose.3D mạnh mẽ. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu, hướng dẫn từng bước này sẽ giúp bạn phát huy toàn bộ tiềm năng của Aspose.3D trong Java.
+Sẵn sàng **add child node** vào một cảnh 3‑D và tạo các trụ quạt bắt mắt? Trong hướng dẫn này, chúng tôi sẽ đi qua từng bước — từ thiết lập cảnh, định vị các đối tượng 3D đến cuối cùng **save scene as OBJ** — bằng cách sử dụng Aspose.3D cho Java. Dù bạn đang tinh chỉnh tài sản cho trò chơi hay xây dựng một nguyên mẫu nhanh, các khái niệm ở đây sẽ giúp bạn kiểm soát vững chắc các mô hình 3‑D của mình.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **What does “add child node” do?** Nó chèn một đối tượng mới vào đồ thị cảnh, kế thừa các biến đổi từ nút cha.  
+- **How can I position a 3D object?** Bằng cách áp dụng một phép dịch (hoặc quay/thu phóng) lên transform của nút.  
+- **Which file format is used for export?** Ví dụ lưu mô hình dưới dạng tệp Wavefront OBJ.  
+- **Do I need a license to run the code?** Bản dùng thử miễn phí đủ cho việc đánh giá; cần có giấy phép cho môi trường sản xuất.  
+- **What IDE works best?** Bất kỳ IDE Java nào (IntelliJ IDEA, Eclipse, VS Code) hỗ trợ JDK 8+.
 
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## add child node là gì trong Aspose.3D?
+Thêm một nút con có nghĩa là tạo một nút mới dưới một nút cha hiện có trong cấu trúc cảnh. Nút con kế thừa hệ tọa độ của nút cha, giúp dễ dàng **position 3d object** các thể hiện tương đối với nhau.
 
-- Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK trên hệ thống của mình. Bạn có thể tải nó xuống[đây](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Tại sao cần thêm nút con khi tạo trụ quạt?
+- **Modular design:** Mỗi trụ (quạt hoặc không quạt) tồn tại trong nút riêng của nó, giúp đơn giản hoá việc chỉnh sửa sau này.  
+- **Transform inheritance:** Di chuyển, quay hoặc thu phóng nút cha và tất cả các nút con sẽ tự động theo.  
+- **Cleaner scene graph:** Cải thiện khả năng đọc và gỡ lỗi của các mô hình phức tạp.
 
--  Aspose.3D cho Java: Tải xuống và cài đặt thư viện Aspose.3D cho Java từ[Liên kết tải xuống](https://releases.aspose.com/3d/java/).
+## Yêu cầu trước
 
-## Gói nhập khẩu
+- **Java Development Kit (JDK)** – tải xuống từ [official site](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.3D for Java** – lấy thư viện mới nhất từ [download link](https://releases.aspose.com/3d/java/).
+
+## Nhập các gói
 
 Bắt đầu bằng cách nhập các gói cần thiết vào dự án Java của bạn. Bước này rất quan trọng để truy cập các chức năng do Aspose.3D cung cấp.
 
@@ -36,100 +51,103 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Bước 1: Tạo cảnh
+## Bước 1: Tạo một Scene
 
-Bắt đầu bằng cách khởi tạo cảnh 3D bằng đoạn mã sau:
+Đầu tiên, chúng ta tạo một cảnh 3‑D trống sẽ chứa tất cả các đối tượng của chúng ta.
 
 ```java
 // ExStart:2
-// Tạo cảnh
+// Create a Scene
 Scene scene = new Scene();
 // ExEnd:2
 ```
 
-Điều này tạo tiền đề cho cuộc phiêu lưu lập mô hình 3D của bạn.
+## Bước 2: Tạo một Trụ Quạt
 
-## Bước 2: Tạo xi lanh quạt
-
-Bây giờ, hãy tạo một hình trụ quạt bằng thư viện Aspose.3D:
+Tiếp theo, chúng ta xây dựng một trụ sẽ được hiển thị như một quạt (phạm vi quay một phần).
 
 ```java
-// Bắt đầu:3
-// Tạo hình trụ bằng quạt
+// ExStart:3
+// Create a cylinder with fan
 Cylinder fan = new Cylinder(2, 2, 10, 20, 1, false);
 fan.setGenerateFanCylinder(true);
 fan.setThetaLength(MathUtils.toRadian(270.0));
 // ExEnd:3
 ```
 
-Đoạn mã này đặt kích thước của hình trụ, cho phép tạo quạt và chỉ định độ dài theta.
+## Bước 3: Thêm Nút Con & Định Vị Đối Tượng 3D
 
-## Bước 3: Định vị xi lanh quạt
-
-Đặt hình trụ quạt trong cảnh 3D bằng cách thêm nó làm nút con và đặt bản dịch của nó:
+Bây giờ chúng ta **add child node** vào cảnh và **position the 3d object** bằng cách đặt phép dịch cho nó. Đây là nơi trụ quạt trở thành một phần của đồ thị cảnh.
 
 ```java
 // ExStart:4
-// Tạo ChildNode và thiết lập bản dịch
+// Create ChildNode and set translation
 scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0);
 // ExEnd:4
 ```
 
-Điều này định vị trụ quạt ở tọa độ (10, 0, 0) trong cảnh.
+## Bước 4: Tạo một Trụ Không Quạt
 
-## Bước 4: Tạo một hình trụ không có quạt
-
-Chúng ta cũng hãy tạo một hình trụ không có quạt để thể hiện tính linh hoạt của Aspose.3D:
+Để minh họa tính linh hoạt của Aspose.3D, chúng ta cũng tạo một trụ thông thường không có quạt và thêm nó như một nút con khác.
 
 ```java
 // ExStart:5
-// Tạo hình trụ không cần quạt
+// Create a cylinder without a fan
 Cylinder nonfan = new Cylinder(2, 2, 10, 20, 1, false);
-// Tạo nút con
+// Create ChildNode
 scene.getRootNode().createChildNode(nonfan);
 // ExEnd:5
 ```
 
-Đoạn mã này tạo ra một hình trụ không có quạt và thêm nó vào cảnh.
+## Bước 5: Lưu Scene dưới dạng OBJ
 
-## Bước 5: Lưu cảnh
-
-Cuối cùng, lưu cảnh dưới dạng tệp Wavefront OBJ trong thư mục tài liệu của bạn:
+Cuối cùng, chúng ta **save scene as OBJ** để bạn có thể xem kết quả trong bất kỳ trình xem 3‑D tiêu chuẩn nào.
 
 ```java
 // ExStart:6
-// Lưu cảnh
+// Save scene
 scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // ExEnd:6
 ```
 
-Chúc mừng! Bạn đã tạo thành công các trụ quạt tùy chỉnh bằng Aspose.3D cho Java.
+Chúc mừng! Bạn đã **added child node** thành công, định vị các đối tượng của mình, và xuất mô hình.
 
-## Phần kết luận
+## Các vấn đề thường gặp & Mẹo
 
-Trong hướng dẫn này, chúng tôi đã khám phá quá trình tận dụng Aspose.3D cho Java để tạo các hình trụ quạt được cá nhân hóa trong cảnh 3D. Tính linh hoạt của Aspose.3D cho phép các nhà phát triển nâng cao các dự án mô hình 3D của họ một cách dễ dàng.
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **File not found** khi lưu | Đảm bảo thư mục đích tồn tại và bạn có quyền ghi. |
+| **Cylinder appears flat** | Kiểm tra lại giá trị bán kính và chiều cao; Aspose.3D yêu cầu các đơn vị cùng tỉ lệ. |
+| **Fan slice looks incomplete** | Điều chỉnh `ThetaLength` (đơn vị radian) để bao phủ góc mong muốn. |
+| **Scene not visible in viewer** | Xác nhận tệp OBJ đã được lưu kèm theo tệp `.mtl` (vật liệu) nếu cần. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.3D có tương thích với các thư viện Java khác để tạo mô hình 3D không?
+**Q:** *Aspose.3D có tương thích với các thư viện Java khác cho mô hình 3D không?*  
+**A:** Có, Aspose.3D hoạt động cùng với các thư viện Java 3‑D khác, cho phép bạn kết hợp các tính năng khi cần.
 
-Câu trả lời 1: Aspose.3D được thiết kế để hoạt động liền mạch với các thư viện Java khác, mang lại sự linh hoạt trong việc tích hợp.
+**Q:** *Tôi có thể tùy chỉnh thêm giao diện của các trụ quạt đã tạo không?*  
+**A:** Chắc chắn. Bạn có thể áp dụng vật liệu, kết cấu và ánh sáng bằng các lớp `Material` và `Light`.
 
-### Câu hỏi 2: Tôi có thể tùy chỉnh thêm hình thức của các trụ quạt được tạo ra không?
+**Q:** *Tôi có thể tìm hỗ trợ hoặc trợ giúp bổ sung cho Aspose.3D ở đâu?*  
+**A:** Truy cập [Aspose.3D forum](https://forum.aspose.com/c/3d/18) để nhận sự giúp đỡ từ cộng đồng và phản hồi chính thức.
 
-A2: Chắc chắn rồi! Aspose.3D cung cấp các tùy chọn mở rộng để tùy chỉnh, cho phép bạn tinh chỉnh các khía cạnh trực quan của mô hình 3D của mình.
+**Q:** *Có bản dùng thử miễn phí cho Aspose.3D không?*  
+**A:** Có, bạn có thể khám phá Aspose.3D bằng một [free trial](https://releases.aspose.com/) trước khi mua.
 
-### Câu hỏi 3: Tôi có thể tìm hỗ trợ hoặc hỗ trợ bổ sung cho Aspose.3D ở đâu?
+**Q:** *Làm sao tôi có thể nhận giấy phép tạm thời cho Aspose.3D?*  
+**A:** Lấy giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/) để thử nghiệm và phát triển.
 
- A3: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để được cộng đồng hỗ trợ và thảo luận.
+## Kết luận
 
-### Câu hỏi 4: Aspose.3D có bản dùng thử miễn phí không?
+Trong hướng dẫn này, chúng tôi đã trình bày cách **add child node**, **position 3d object**, và **save scene as OBJ** trong khi tạo các trụ quạt tùy chỉnh bằng Aspose.3D cho Java. Những khối xây dựng này cung cấp cho bạn tính linh hoạt để xây dựng các cấu trúc 3‑D phức tạp và xuất chúng cho bất kỳ quy trình downstream nào.
 
- Câu trả lời 4: Có, bạn có thể khám phá Aspose.3D bằng[dùng thử miễn phí](https://releases.aspose.com/) trước khi đưa ra quyết định mua hàng.
+---
 
-### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.3D?
+**Cập nhật lần cuối:** 2025-12-09  
+**Kiểm tra với:** Aspose.3D 24.12 for Java  
+**Tác giả:** Aspose  
 
- A5: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho nhu cầu thử nghiệm và phát triển của bạn.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

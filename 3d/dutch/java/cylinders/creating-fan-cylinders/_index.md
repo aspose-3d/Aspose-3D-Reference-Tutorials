@@ -1,33 +1,49 @@
 ---
-title: Aangepaste ventilatorcilinders maken met Aspose.3D voor Java
-linktitle: Aangepaste ventilatorcilinders maken met Aspose.3D voor Java
-second_title: Aspose.3D Java-API
-description: Leer hoe u aangepaste ventilatorcilinders kunt maken in Java met Aspose.3D. Verbeter uw 3D-modelleringsspel moeiteloos.
+date: 2025-12-09
+description: Leer hoe je een kindknooppunt toevoegt, 3D‑objecten positioneert en de
+  scène opslaat als OBJ terwijl je aangepaste ventilatorcilinders maakt met Aspose.3D
+  voor Java.
+language: nl
+linktitle: Adding Child Node for Fan Cylinders with Aspose.3D Java
+second_title: Aspose.3D Java API
+title: Voeg kindknooppunt toe om fancilinders te bouwen met Aspose.3D voor Java
+url: /java/cylinders/creating-fan-cylinders/
 weight: 10
-url: /nl/java/cylinders/creating-fan-cylinders/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aangepaste ventilatorcilinders maken met Aspose.3D voor Java
+# Kindknooppunt toevoegen om ventilatorkilinders te bouwen met Aspose.3D voor Java
 
-## Invoering
+## Inleiding
 
-Bent u klaar om uw 3D-modelleringservaring naar een hoger niveau te tillen met Aspose.3D voor Java? Deze tutorial begeleidt u bij het maken van aangepaste ventilatorcilinders met behulp van de krachtige Aspose.3D-bibliotheek. Of u nu een doorgewinterde ontwikkelaar of een beginner bent, deze stapsgewijze handleiding helpt u het volledige potentieel van Aspose.3D in Java te benutten.
+Klaar om **een kindknooppunt toe te voegen** aan een 3‑D‑scene en opvallende ventilatorkilinders te maken? In deze tutorial lopen we elke stap door — van het opzetten van de scene, het positioneren van 3D‑objecten, tot het uiteindelijk **opslaan van de scene als OBJ** — met behulp van Aspose.3D voor Java. Of je nu een game‑asset verfijnt of snel een prototype bouwt, de concepten hier geven je stevige controle over je 3‑D‑modellen.
+
+## Snelle antwoorden
+- **Wat doet “add child node”?** Het voegt een nieuw object toe aan de scene‑graph, waarbij het de transformaties van zijn ouder erft.  
+- **Hoe kan ik een 3D‑object positioneren?** Door een translatie (of rotatie/schaal) toe te passen op de transformatie van het knooppunt.  
+- **Welk bestandsformaat wordt gebruikt voor export?** Het voorbeeld slaat het model op als een Wavefront OBJ‑bestand.  
+- **Heb ik een licentie nodig om de code uit te voeren?** Een gratis proefversie werkt voor evaluatie; een licentie is vereist voor productie.  
+- **Welke IDE werkt het beste?** Elke Java‑IDE (IntelliJ IDEA, Eclipse, VS Code) die JDK 8+ ondersteunt.
+
+## Wat is “add child node” in Aspose.3D?
+Een kindknooppunt toevoegen betekent dat je een nieuw knooppunt onder een bestaand ouderknooppunt in de hiërarchie van de scene maakt. Het kind erft het coördinatensysteem van de ouder, waardoor het eenvoudig is om **3d‑object**‑instanties relatief ten opzichte van elkaar te **positioneren**.
+
+## Waarom een kindknooppunt toevoegen bij het bouwen van ventilatorkilinders?
+- **Modulair ontwerp:** Elke cilinder (ventilator of niet‑ventilator) bevindt zich in zijn eigen knooppunt, wat latere bewerkingen vereenvoudigt.  
+- **Transformatierfenning:** Verplaats, roteer of schaal de ouder en alle kinderen volgen automatisch.  
+- **Nettere scene‑graph:** Verbetert de leesbaarheid en het debuggen van complexe modellen.
 
 ## Vereisten
 
-Voordat we in de tutorial duiken, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
-
-- Java Development Kit (JDK): Zorg ervoor dat JDK op uw systeem is geïnstalleerd. Je kunt het downloaden[hier](https://www.oracle.com/java/technologies/javase-downloads.html).
-
--  Aspose.3D voor Java: Download en installeer de Aspose.3D-bibliotheek voor Java vanaf de[download link](https://releases.aspose.com/3d/java/).
+- **Java Development Kit (JDK)** – download van de [officiële site](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.3D for Java** – haal de nieuwste bibliotheek op via de [download‑link](https://releases.aspose.com/3d/java/).
 
 ## Pakketten importeren
 
-Begin met het importeren van de benodigde pakketten in uw Java-project. Deze stap is cruciaal voor toegang tot de functionaliteiten van Aspose.3D.
+Begin met het importeren van de benodigde pakketten in je Java‑project. Deze stap is cruciaal om toegang te krijgen tot de functionaliteit die Aspose.3D biedt.
 
 ```java
 import com.aspose.threed.*;
@@ -36,100 +52,103 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Stap 1: Maak een scène
+## Stap 1: Een scene maken
 
-Begin met het initialiseren van een 3D-scène met behulp van het volgende codefragment:
+Eerst maken we een lege 3‑D‑scene die al onze objecten zal bevatten.
 
 ```java
 // ExStart:2
-// Maak een scène
+// Create a Scene
 Scene scene = new Scene();
-// Verleng:2
+// ExEnd:2
 ```
 
-Dit vormt de basis voor uw 3D-modelleringsavontuur.
+## Stap 2: Een ventilatorkilinder maken
 
-## Stap 2: Maak een ventilatorcilinder
-
-Laten we nu een ventilatorcilinder maken met behulp van de Aspose.3D-bibliotheek:
+Vervolgens bouwen we een cilinder die wordt gerenderd als een ventilator (gedeeltelijke sweep).
 
 ```java
 // ExStart:3
-// Maak een cilinder met ventilator
+// Create a cylinder with fan
 Cylinder fan = new Cylinder(2, 2, 10, 20, 1, false);
 fan.setGenerateFanCylinder(true);
 fan.setThetaLength(MathUtils.toRadian(270.0));
-// Verleng:3
+// ExEnd:3
 ```
 
-Dit fragment stelt de afmetingen van de cilinder in, maakt het genereren van ventilatoren mogelijk en specificeert de thetalengte.
+## Stap 3: Kindknooppunt toevoegen & 3D‑object positioneren
 
-## Stap 3: Plaats de ventilatorcilinder
-
-Plaats de ventilatorcilinder in de 3D-scène door deze toe te voegen als een onderliggend knooppunt en de vertaling ervan in te stellen:
+Nu **voegen we een kindknooppunt toe** aan de scene en **positioneren we het 3d‑object** door de translatie in te stellen. Hier wordt de ventilatorkilinder onderdeel van de scene‑graph.
 
 ```java
 // ExStart:4
-// Maak ChildNode en stel de vertaling in
+// Create ChildNode and set translation
 scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0);
-// Verleng:4
+// ExEnd:4
 ```
 
-Hierdoor wordt de ventilatorcilinder op de coördinaten (10, 0, 0) binnen de scène gepositioneerd.
+## Stap 4: Een niet‑ventilatorcilinder maken
 
-## Stap 4: Maak een cilinder zonder ventilator
-
-Laten we ook een cilinder zonder ventilator maken om de flexibiliteit van Aspose.3D te demonstreren:
+Om de flexibiliteit van Aspose.3D te tonen, maken we ook een gewone cilinder zonder ventilator en voegen die toe als een ander kindknooppunt.
 
 ```java
 // ExStart:5
-// Maak een cilinder zonder ventilator
+// Create a cylinder without a fan
 Cylinder nonfan = new Cylinder(2, 2, 10, 20, 1, false);
-// Maak een ChildNode
+// Create ChildNode
 scene.getRootNode().createChildNode(nonfan);
-// Verleng: 5
+// ExEnd:5
 ```
 
-Dit fragment genereert een cilinder zonder ventilator en voegt deze toe aan de scène.
+## Stap 5: De scene opslaan als OBJ
 
-## Stap 5: Sla de scène op
-
-Sla de scène ten slotte op als een Wavefront OBJ-bestand in uw documentmap:
+Tot slot **slaan we de scene op als OBJ** zodat je het resultaat in elke standaard 3‑D‑viewer kunt bekijken.
 
 ```java
 // ExStart:6
-// Scène opslaan
+// Save scene
 scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEFRONTOBJ);
-// Verleng:6
+// ExEnd:6
 ```
 
-Gefeliciteerd! U hebt met succes aangepaste ventilatorcilinders gemaakt met Aspose.3D voor Java.
+Gefeliciteerd! Je hebt met succes **een kindknooppunt toegevoegd**, je objecten **gepositioneerd**, en het model **geëxporteerd**.
 
-## Conclusie
+## Veelvoorkomende problemen & tips
 
-In deze tutorial hebben we het proces onderzocht van het gebruik van Aspose.3D voor Java om gepersonaliseerde ventilatorcilinders in een 3D-scène te maken. De veelzijdigheid van Aspose.3D stelt ontwikkelaars in staat hun 3D-modelleringsprojecten met gemak te verbeteren.
+| Probleem | Oplossing |
+|----------|-----------|
+| **Bestand niet gevonden** bij het opslaan | Zorg ervoor dat de doelmap bestaat en dat je schrijfrechten hebt. |
+| **Cilinder lijkt plat** | Controleer de radius‑ en hoogte‑waarden; Aspose.3D verwacht eenheden in dezelfde schaal. |
+| **Ventilatorsegment ziet er onvolledig uit** | Pas `ThetaLength` (in radialen) aan om de gewenste hoek te dekken. |
+| **Scene niet zichtbaar in viewer** | Controleer of het OBJ‑bestand is opgeslagen met het bijbehorende `.mtl`‑bestand (materiaal) indien nodig. |
 
 ## Veelgestelde vragen
 
-### V1: Is Aspose.3D compatibel met andere Java-bibliotheken voor 3D-modellering?
+**V:** *Is Aspose.3D compatibel met andere Java‑bibliotheken voor 3D‑modellering?*  
+**A:** Ja, Aspose.3D werkt naast andere Java‑3D‑bibliotheken, zodat je functies kunt combineren waar nodig.
 
-A1: Aspose.3D is ontworpen om naadloos samen te werken met andere Java-bibliotheken en biedt flexibiliteit bij de integratie.
+**V:** *Kan ik het uiterlijk van de gegenereerde ventilatorkilinders verder aanpassen?*  
+**A:** Absoluut. Je kunt materialen, texturen en verlichting toepassen met de `Material`‑ en `Light`‑klassen.
 
-### Vraag 2: Kan ik het uiterlijk van de gegenereerde ventilatorcilinders verder aanpassen?
+**V:** *Waar vind ik extra ondersteuning of hulp voor Aspose.3D?*  
+**A:** Bezoek het [Aspose.3D‑forum](https://forum.aspose.com/c/3d/18) voor community‑hulp en officiële antwoorden.
 
-A2: Absoluut! Aspose.3D biedt uitgebreide aanpassingsmogelijkheden, waardoor u de visuele aspecten van uw 3D-modellen kunt verfijnen.
+**V:** *Is er een gratis proefversie beschikbaar voor Aspose.3D?*  
+**A:** Ja, je kunt Aspose.3D verkennen met een [gratis proefversie](https://releases.aspose.com/) voordat je koopt.
 
-### V3: Waar kan ik aanvullende ondersteuning of assistentie vinden voor Aspose.3D?
+**V:** *Hoe kan ik een tijdelijke licentie voor Aspose.3D verkrijgen?*  
+**A:** Haal een tijdelijke licentie [hier](https://purchase.aspose.com/temporary-license/) voor test‑ en ontwikkelingsdoeleinden.
 
- A3: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) voor gemeenschapsondersteuning en discussies.
+## Conclusie
 
-### V4: Is er een gratis proefversie beschikbaar voor Aspose.3D?
+In deze gids hebben we laten zien hoe je **een kindknooppunt toevoegt**, **een 3d‑object positioneert**, en **de scene opslaat als OBJ** terwijl je aangepaste ventilatorkilinders maakt met Aspose.3D voor Java. Deze bouwblokken geven je de flexibiliteit om complexe 3‑D‑hiërarchieën te construeren en ze te exporteren voor elke downstream‑workflow.
 
- A4: Ja, u kunt Aspose.3D verkennen met een[gratis proefperiode](https://releases.aspose.com/) voordat u een aankoopbeslissing neemt.
+---
 
-### V5: Hoe kan ik een tijdelijke licentie voor Aspose.3D verkrijgen?
+**Laatst bijgewerkt:** 2025-12-09  
+**Getest met:** Aspose.3D 24.12 voor Java  
+**Auteur:** Aspose  
 
- A5: Schaf een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/) voor uw test- en ontwikkelingsbehoeften.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

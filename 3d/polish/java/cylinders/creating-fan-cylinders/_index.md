@@ -1,33 +1,50 @@
 ---
-title: Tworzenie niestandardowych cylindrów wentylatorów za pomocą Aspose.3D dla Java
-linktitle: Tworzenie niestandardowych cylindrów wentylatorów za pomocą Aspose.3D dla Java
-second_title: Aspose.3D API Java
-description: Naucz się tworzyć niestandardowe cylindry wentylatorów w Javie za pomocą Aspose.3D. Podnieś poziom swojej gry w modelowanie 3D bez wysiłku.
+date: 2025-12-09
+description: Dowiedz się, jak dodać węzeł potomny, pozycjonować obiekty 3D i zapisać
+  scenę jako OBJ, tworząc własne cylindry wentylatorowe przy użyciu Aspose.3D dla
+  Javy.
+language: pl
+linktitle: Adding Child Node for Fan Cylinders with Aspose.3D Java
+second_title: Aspose.3D Java API
+title: Dodaj węzeł podrzędny, aby zbudować cylindry wachlarzowe przy użyciu Aspose.3D
+  dla Javy
+url: /java/cylinders/creating-fan-cylinders/
 weight: 10
-url: /pl/java/cylinders/creating-fan-cylinders/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tworzenie niestandardowych cylindrów wentylatorów za pomocą Aspose.3D dla Java
+# Dodaj węzeł potomny, aby zbudować cylindry wentylatora z Aspose.3D dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-Czy jesteś gotowy, aby podnieść poziom swoich doświadczeń w modelowaniu 3D za pomocą Aspose.3D dla Java? Ten samouczek poprowadzi Cię przez proces tworzenia niestandardowych cylindrów wentylatorów przy użyciu potężnej biblioteki Aspose.3D. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, ten przewodnik krok po kroku pomoże Ci uwolnić pełny potencjał Aspose.3D w Javie.
+Gotowy, aby **dodać węzeł potomny** do sceny 3‑D i stworzyć przyciągające uwagę cylindry wentylatora? W tym samouczku przeprowadzimy Cię przez każdy krok — od przygotowania sceny, po pozycjonowanie obiektów 3D, aż po **zapisanie sceny jako OBJ** — przy użyciu Aspose.3D dla Javy. Niezależnie od tego, czy dopracowujesz zasób gry, czy tworzysz szybki prototyp, przedstawione koncepcje zapewnią Ci solidną kontrolę nad modelami 3‑D.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co robi „add child node”?** Wstawia nowy obiekt do grafu sceny, dziedzicząc transformacje od swojego rodzica.  
+- **Jak mogę pozycjonować obiekt 3D?** Poprzez zastosowanie translacji (lub rotacji/skali) do transformacji węzła.  
+- **Jaki format pliku jest używany do eksportu?** Przykład zapisuje model jako plik Wavefront OBJ.  
+- **Czy potrzebna jest licencja do uruchomienia kodu?** Darmowa wersja próbna wystarcza do oceny; licencja jest wymagana w produkcji.  
+- **Jakie IDE jest najlepsze?** Dowolne IDE Java (IntelliJ IDEA, Eclipse, VS Code), które obsługuje JDK 8+.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest „add child node” w Aspose.3D?
+Dodanie węzła potomnego oznacza utworzenie nowego węzła pod istniejącym rodzicem w hierarchii sceny. Dziecko dziedziczy układ współrzędnych rodzica, co ułatwia **pozycjonowanie obiektów 3d** względem siebie.
 
-- Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK w swoim systemie. Możesz go pobrać[Tutaj](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Dlaczego dodawać węzeł potomny przy budowie cylindrów wentylatora?
+- **Projekt modularny:** Każdy cylinder (wentylatorowy lub nie‑wentylatorowy) znajduje się w własnym węźle, co upraszcza późniejsze edycje.  
+- **Dziedziczenie transformacji:** Przesuwanie, obracanie lub skalowanie rodzica powoduje automatyczne zastosowanie tych zmian do wszystkich dzieci.  
+- **Czystszy graf sceny:** Zwiększa czytelność i ułatwia debugowanie złożonych modeli.
 
--  Aspose.3D dla Java: Pobierz i zainstaluj bibliotekę Aspose.3D dla Java z[link do pobrania](https://releases.aspose.com/3d/java/).
+## Wymagania wstępne
 
-## Importuj pakiety
+- **Java Development Kit (JDK)** – pobierz ze [strony oficjalnej](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.3D for Java** – pobierz najnowszą bibliotekę z [linku do pobrania](https://releases.aspose.com/3d/java/).
 
-Rozpocznij od zaimportowania niezbędnych pakietów do projektu Java. Ten krok jest kluczowy dla uzyskania dostępu do funkcjonalności zapewnianych przez Aspose.3D.
+## Importowanie pakietów
+
+Rozpocznij od zaimportowania niezbędnych pakietów do swojego projektu Java. Ten krok jest kluczowy, aby uzyskać dostęp do funkcjonalności udostępnianych przez Aspose.3D.
 
 ```java
 import com.aspose.threed.*;
@@ -38,98 +55,101 @@ import java.io.IOException;
 
 ## Krok 1: Utwórz scenę
 
-Zacznij od zainicjowania sceny 3D przy użyciu następującego fragmentu kodu:
+Najpierw tworzymy pustą scenę 3‑D, która będzie hostować wszystkie nasze obiekty.
 
 ```java
 // ExStart:2
-// Utwórz scenę
+// Create a Scene
 Scene scene = new Scene();
-// RozwińKoniec:2
+// ExEnd:2
 ```
-
-To przygotowuje grunt pod Twoją przygodę z modelowaniem 3D.
 
 ## Krok 2: Utwórz cylinder wentylatora
 
-Teraz utwórzmy cylinder wentylatora, korzystając z biblioteki Aspose.3D:
+Następnie budujemy cylinder, który zostanie wyrenderowany jako wentylator (częściowy zakres).
 
 ```java
 // ExStart:3
-// Utwórz cylinder z wentylatorem
+// Create a cylinder with fan
 Cylinder fan = new Cylinder(2, 2, 10, 20, 1, false);
 fan.setGenerateFanCylinder(true);
 fan.setThetaLength(MathUtils.toRadian(270.0));
-// RozwińKoniec:3
+// ExEnd:3
 ```
 
-Ten fragment ustawia wymiary cylindra, umożliwia generowanie wentylatora i określa długość theta.
+## Krok 3: Dodaj węzeł potomny i pozycjonuj obiekt 3D
 
-## Krok 3: Ustaw cylinder wentylatora
-
-Umieść cylinder wentylatora w scenie 3D, dodając go jako węzeł podrzędny i ustawiając jego tłumaczenie:
+Teraz **dodajemy węzeł potomny** do sceny i **pozycjonujemy obiekt 3d**, ustawiając jego translację. To właśnie w tym miejscu cylinder wentylatora staje się częścią grafu sceny.
 
 ```java
 // ExStart:4
-// Utwórz ChildNode i ustaw tłumaczenie
+// Create ChildNode and set translation
 scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0);
-// RozwińKoniec:4
+// ExEnd:4
 ```
 
-Spowoduje to ustawienie cylindra wentylatora na współrzędnych (10, 0, 0) w scenie.
+## Krok 4: Utwórz cylinder nie‑wentylatorowy
 
-## Krok 4: Utwórz cylinder bez wentylatora
-
-Stwórzmy także cylinder bez wentylatora, aby zaprezentować elastyczność Aspose.3D:
+Aby pokazać elastyczność Aspose.3D, tworzymy również zwykły cylinder bez wentylatora i dodajemy go jako kolejny węzeł potomny.
 
 ```java
 // ExStart:5
-// Utwórz cylinder bez wentylatora
+// Create a cylinder without a fan
 Cylinder nonfan = new Cylinder(2, 2, 10, 20, 1, false);
-// Utwórz węzeł podrzędny
+// Create ChildNode
 scene.getRootNode().createChildNode(nonfan);
-// RozwińKoniec:5
+// ExEnd:5
 ```
 
-Ten fragment generuje cylinder bez wentylatora i dodaje go do sceny.
+## Krok 5: Zapisz scenę jako OBJ
 
-## Krok 5: Zapisz scenę
-
-Na koniec zapisz scenę jako plik Wavefront OBJ w katalogu dokumentów:
+Na koniec **zapisujemy scenę jako OBJ**, abyś mógł obejrzeć wynik w dowolnym standardowym przeglądarce 3‑D.
 
 ```java
 // ExStart:6
-// Zapisz scenę
+// Save scene
 scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEFRONTOBJ);
-// RozwińKoniec:6
+// ExEnd:6
 ```
 
-Gratulacje! Pomyślnie utworzyłeś niestandardowe cylindry wentylatorów przy użyciu Aspose.3D dla Java.
+Gratulacje! Pomyślnie **dodałeś węzeł potomny**, pozycjonowałeś swoje obiekty i wyeksportowałeś model.
 
-## Wniosek
+## Typowe problemy i wskazówki
 
-W tym samouczku zbadaliśmy proces wykorzystania Aspose.3D dla Java do tworzenia spersonalizowanych cylindrów wentylatorów w scenie 3D. Wszechstronność Aspose.3D umożliwia programistom łatwe ulepszanie projektów modelowania 3D.
+| Problem | Rozwiązanie |
+|-------|----------|
+| **Plik nie znaleziony** podczas zapisywania | Upewnij się, że docelowy katalog istnieje i masz uprawnienia do zapisu. |
+| **Cylinder wygląda na spłaszczony** | Sprawdź wartości promienia i wysokości; Aspose.3D oczekuje jednostek w tej samej skali. |
+| **Fragment wentylatora wygląda niekompletnie** | Dostosuj `ThetaLength` (w radianach), aby objąć żądany kąt. |
+| **Scena nie jest widoczna w przeglądarce** | Upewnij się, że plik OBJ został zapisany wraz z towarzyszącym plikiem `.mtl` (materiał), jeśli jest potrzebny. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.3D jest kompatybilny z innymi bibliotekami Java do modelowania 3D?
+**Q:** *Czy Aspose.3D jest kompatybilny z innymi bibliotekami Java do modelowania 3D?*  
+**A:** Tak, Aspose.3D działa obok innych bibliotek Java 3‑D, umożliwiając łączenie funkcji w razie potrzeby.
 
-O1: Aspose.3D został zaprojektowany do bezproblemowej współpracy z innymi bibliotekami Java, oferując elastyczność integracji.
+**Q:** *Czy mogę dalej dostosować wygląd wygenerowanych cylindrów wentylatora?*  
+**A:** Oczywiście. Możesz zastosować materiały, tekstury i oświetlenie przy użyciu klas `Material` i `Light`.
 
-### P2: Czy mogę jeszcze bardziej dostosować wygląd generowanych cylindrów wentylatorów?
+**Q:** *Gdzie mogę znaleźć dodatkowe wsparcie lub pomoc dla Aspose.3D?*  
+**A:** Odwiedź [forum Aspose.3D](https://forum.aspose.com/c/3d/18) po pomoc społeczności i oficjalne odpowiedzi.
 
-A2: Absolutnie! Aspose.3D zapewnia szerokie możliwości dostosowywania, umożliwiając dostrojenie wizualnych aspektów modeli 3D.
+**Q:** *Czy dostępna jest darmowa wersja próbna Aspose.3D?*  
+**A:** Tak, możesz wypróbować Aspose.3D za pomocą [darmowej wersji próbnej](https://releases.aspose.com/) przed zakupem.
 
-### P3: Gdzie mogę znaleźć dodatkowe wsparcie lub pomoc dla Aspose.3D?
+**Q:** *Jak mogę uzyskać tymczasową licencję dla Aspose.3D?*  
+**A:** Uzyskaj tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/) do testów i rozwoju.
 
- A3: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności i dyskusje.
+## Podsumowanie
 
-### P4: Czy dostępna jest bezpłatna wersja próbna Aspose.3D?
+W tym przewodniku pokazaliśmy, jak **dodać węzeł potomny**, **pozycjonować obiekt 3d** oraz **zapisać scenę jako OBJ**, tworząc jednocześnie spersonalizowane cylindry wentylatora przy użyciu Aspose.3D dla Javy. Te elementy budulcowe dają Ci elastyczność w konstruowaniu złożonych hierarchii 3‑D i ich eksportowaniu do dowolnego dalszego przepływu pracy.
 
- O4: Tak, możesz eksplorować Aspose.3D za pomocą[bezpłatna wersja próbna](https://releases.aspose.com/) przed podjęciem decyzji o zakupie.
+---
 
-### P5: Jak mogę uzyskać tymczasową licencję na Aspose.3D?
+**Ostatnia aktualizacja:** 2025-12-09  
+**Testowano z:** Aspose.3D 24.12 dla Javy  
+**Autor:** Aspose  
 
- A5: Zdobądź licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) dla potrzeb testowania i rozwoju.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
