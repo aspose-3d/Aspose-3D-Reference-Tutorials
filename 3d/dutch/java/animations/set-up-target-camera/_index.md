@@ -13,7 +13,7 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 # Instellen van Doelcamera voor 3D‑animaties in Java | Aspose.3D Handleiding
@@ -139,4 +139,4 @@ A: U kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
