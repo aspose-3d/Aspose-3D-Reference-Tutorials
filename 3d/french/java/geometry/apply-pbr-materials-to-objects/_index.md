@@ -1,113 +1,145 @@
 ---
-title: Appliquer des matériaux PBR à des objets 3D en Java avec Aspose.3D
-linktitle: Appliquer des matériaux PBR à des objets 3D en Java avec Aspose.3D
-second_title: API Java Aspose.3D
-description: Apprenez à appliquer des matériaux PBR réalistes à des objets 3D en Java à l'aide d'Aspose.3D. Améliorez la qualité visuelle avec le rendu physique.
+date: 2025-12-08
+description: Apprenez à créer une scène 3D en Java, à appliquer des matériaux PBR
+  réalistes à l'aide d'Aspose.3D, et à enregistrer le modèle 3D au format STL pour
+  le rendu d'objets 3D en Java.
+language: fr
+linktitle: Create 3D Scene Java – Apply PBR Materials with Aspose.3D
+second_title: Aspose.3D Java API
+title: 'Créer une scène 3D Java : appliquer des matériaux PBR avec Aspose.3D'
+url: /java/geometry/apply-pbr-materials-to-objects/
 weight: 10
-url: /fr/java/geometry/apply-pbr-materials-to-objects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Appliquer des matériaux PBR à des objets 3D en Java avec Aspose.3D
+# Créer une scène 3D Java – Appliquer des matériaux PBR avec Aspose.3D
 
 ## Introduction
 
-Bienvenue dans ce guide étape par étape sur l'application de matériaux de rendu physique (PBR) à des objets 3D en Java à l'aide d'Aspose.3D. Aspose.3D est une puissante bibliothèque Java qui fournit des fonctionnalités complètes pour travailler avec des modèles et des scènes 3D. Dans ce didacticiel, nous nous concentrerons sur l'application de matériaux PBR, qui simulent l'éclairage et les propriétés de surface du monde réel, améliorant ainsi le réalisme de vos objets 3D.
+Dans ce tutoriel pratique, vous apprendrez **comment créer une scène 3D en Java** et l’enrichir avec des matériaux Physically Based Rendering (PBR) à l’aide de la bibliothèque Aspose.3D. À la fin du guide, vous serez capable de rendre des surfaces réalistes et **d’enregistrer le modèle 3D au format STL** pour une utilisation ultérieure dans n’importe quel pipeline 3D.
 
-## Conditions préalables
+## Réponses rapides
+- **Que signifie « create 3d scene java » ?** C’est le processus de construction d’un objet `Scene` qui contient la géométrie, les lumières et les caméras dans une application Java.  
+- **Quelle bibliothèque gère les matériaux PBR ?** Aspose.3D fournit une classe prête à l’emploi `PbrMaterial`.  
+- **Puis‑je exporter le résultat au format STL ?** Oui – la méthode `Scene.save` prend en charge le STL (ASCII et binaire).  
+- **Ai‑je besoin d’une licence pour la production ?** Une licence permanente Aspose.3D est requise pour un usage commercial ; une licence temporaire suffit pour les tests.  
+- **Quelle version de Java est requise ?** Toute version Java 8+ est supportée.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Qu’est‑ce qu’une scène 3D en Java ?
 
-1. Environnement de développement Java : assurez-vous que Java est installé sur votre système.
+Une *scene* est le conteneur qui regroupe tous les objets (nœuds), leur géométrie, leurs matériaux, les lumières et les caméras. Pensez‑y comme à la scène virtuelle sur laquelle vous placez vos modèles 3D. La classe `Scene` d’Aspose.3D vous offre une façon propre et orientée objet de construire cette scène programmatiquement.
 
-2.  Bibliothèque Aspose.3D : téléchargez et installez la bibliothèque Aspose.3D à partir du[lien de téléchargement](https://releases.aspose.com/3d/java/).
+## Pourquoi utiliser des matériaux PBR pour le rendu d’objets 3D en Java ?
 
-3.  Documentation : reportez-vous au[Documentation](https://reference.aspose.com/3d/java/)pour Aspose.3D pour vous familiariser avec les fonctionnalités de la bibliothèque.
+Le PBR (Physically Based Rendering) imite l’interaction de la lumière du monde réel en utilisant des paramètres tels que les facteurs de métal et de rugosité. Le résultat est un rendu plus convaincant sous différentes conditions d’éclairage, ce qui est particulièrement précieux pour la visualisation de produits, les jeux ou les expériences AR/VR.
 
-4.  Licence temporaire (facultatif) : Si vous n'avez pas de licence, vous pouvez obtenir une[permis temporaire](https://purchase.aspose.com/temporary-license/) pour tester.
+## Prérequis
 
-## Importer des packages
+Avant de commencer, assurez‑vous d’avoir les éléments suivants :
 
-Dans votre projet Java, incluez les packages nécessaires pour utiliser Aspose.3D. Ajoutez les instructions d'importation suivantes à votre code :
+1. **Environnement de développement Java** – JDK 8 ou supérieur installé.  
+2. **Bibliothèque Aspose.3D** – Téléchargez le JAR le plus récent depuis le [lien de téléchargement](https://releases.aspose.com/3d/java/).  
+3. **Documentation** – Familiarisez‑vous avec l’API via la [documentation officielle](https://reference.aspose.com/3d/java/).  
+4. **Licence temporaire (facultatif)** – Si vous ne possédez pas de licence permanente, obtenez une [licence temporaire](https://purchase.aspose.com/temporary-license/) pour les tests.
+
+## Importer les packages
+
+Ajoutez l’espace de noms Aspose.3D à votre fichier source Java :
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## Étape 1 : initialiser une scène
+## Étape 1 : Initialiser une scène
 
-Commencez par créer une scène 3D à l'aide d'Aspose.3D. La scène sert de canevas pour vos objets 3D.
+Créez la scène qui servira de toile pour votre géométrie et vos matériaux.
 
 ```java
-// ExStart : Initialiser la scène
+// ExStart:InitializeScene
 String MyDir = "Your Document Directory";
 Scene scene = new Scene();
-// ExEnd : Initialiser la scène
+// ExEnd:InitializeScene
 ```
 
-## Étape 2 : initialiser le matériel PBR
+> **Astuce pro :** Gardez `MyDir` pointant vers un dossier accessible en écriture ; sinon l’appel `save` échouera.
 
-Créez un matériau PBR et personnalisez ses propriétés telles que les facteurs métalliques et de rugosité.
+## Étape 2 : Initialiser un matériau PBR
+
+Configurez un matériau PBR avec des valeurs de métal et de rugosité qui donnent un aspect quasi‑métallique.
 
 ```java
-// ExStart : Initialiser le matériau PBR
+// ExStart:InitializePBRMaterial
 PbrMaterial mat = new PbrMaterial();
 mat.setMetallicFactor(0.9);
 mat.setRoughnessFactor(0.9);
-// ExEnd : Initialiser le matériau PBR
+// ExEnd:InitializePBRMaterial
 ```
 
-## Étape 3 : Créer un objet 3D
+> **Pourquoi ces valeurs ?** Un facteur métallique élevé (≈ 0,9) fait que la surface se comporte comme du métal, tandis qu’une rugosité élevée (≈ 0,9) ajoute une diffusion subtile, évitant ainsi une finition miroir parfaite.
 
-Générez un objet 3D (par exemple, une boîte) auquel le matériau PBR sera appliqué.
+## Étape 3 : Créer un objet 3D et appliquer le matériau
+
+Nous générons ici une géométrie de boîte simple, l’attachons au nœud racine de la scène, puis lui assignons le matériau PBR que nous venons de créer.
 
 ```java
-// ExStart : Créer un objet 3D
+// ExStart:Create3DObject
 Node boxNode = scene.getRootNode().createChildNode("box", new Box());
 boxNode.setMaterial(mat);
-// ExEnd : Créer un objet 3D
+// ExEnd:Create3DObject
 ```
 
-## Étape 4 : Enregistrez la scène 3D
+> **Écueil courant :** Oublier d’appliquer le matériau sur le nœud laissera l’objet avec l’apparence par défaut (non‑PBR).
 
-Enregistrez la scène 3D, y compris le matériau PBR appliqué, dans un format de fichier spécifique, tel que STL.
+## Étape 4 : Enregistrer la scène 3D (export STL)
+
+Exportez la scène complète—y compris la boîte enrichie de PBR—vers un fichier STL. Le STL est un format largement supporté pour l’impression 3‑D et les vérifications visuelles rapides.
 
 ```java
-// ExDémarrer : Enregistrer la scène 3DS
+// ExStart:Save3DScene
 scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
-//ExEnd : Save3DScene
+// ExEnd:Save3DScene
 ```
 
-Répétez ces étapes pour des scènes plus complexes ou des objets différents.
+Vous pouvez également choisir `FileFormat.STLBINARY` si une taille de fichier plus petite est requise.
+
+## Problèmes courants et solutions
+
+| Problème | Cause probable | Solution |
+|----------|----------------|----------|
+| **Fichier non enregistré** | `MyDir` pointe vers un dossier inexistant ou sans permission d’écriture | Vérifiez que le répertoire existe et que votre processus Java possède les droits d’écriture |
+| **Le matériau apparaît plat** | Valeurs de Metallic/Roughness à 0 | Augmentez `setMetallicFactor` et/ou `setRoughnessFactor` |
+| **Le fichier STL ne peut pas être ouvert** | Drapeau de format de fichier incorrect (ASCII vs Binaire) pour le visualiseur | Utilisez l’énumération `FileFormat` correspondante à votre visualiseur cible |
+
+## Questions fréquemment posées
+
+**Q : Puis‑je utiliser Aspose.3D pour des projets commerciaux ?**  
+R : Oui. Achetez une licence commerciale sur la [page d’achat](https://purchase.aspose.com/buy).
+
+**Q : Comment obtenir du support pour Aspose.3D ?**  
+R : Rejoignez la communauté sur le [forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour une assistance gratuite, ou ouvrez un ticket de support avec une licence valide.
+
+**Q : Existe‑t‑il une version d’essai gratuite ?**  
+R : Absolument. Téléchargez une version d’essai depuis la [page d’essai gratuit](https://releases.aspose.com/).
+
+**Q : Où puis‑je trouver la documentation détaillée d’Aspose.3D ?**  
+R : Toutes les références API sont disponibles dans la [documentation officielle](https://reference.aspose.com/3d/java/).
+
+**Q : Comment obtenir une licence temporaire pour les tests ?**  
+R : Demandez‑en une via le [lien de licence temporaire](https://purchase.aspose.com/temporary-license/).
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appliqué avec succès des matériaux PBR à un objet 3D en Java à l'aide d'Aspose.3D. Cela améliore l’attrait visuel de vos modèles 3D, les rendant plus réalistes et visuellement époustouflants.
+Vous avez maintenant **créé une scène 3D en Java**, appliqué un matériau PBR réaliste, et exporté le résultat au format STL à l’aide d’Aspose.3D. Ce flux de travail vous fournit une base solide pour créer des visualisations plus riches, préparer des actifs pour l’impression 3‑D, ou alimenter des modèles dans des moteurs de jeu.
 
-## FAQ
+---
 
-### Q1 : Puis-je utiliser Aspose.3D pour des projets commerciaux ?
+**Dernière mise à jour :** 2025-12-08  
+**Testé avec :** Aspose.3D 24.12 (dernière version)  
+**Auteur :** Aspose  
 
- A1 : Oui, vous pouvez. Visiter le[page d'achat](https://purchase.aspose.com/buy) pour les détails de la licence.
-
-### Q2 : Comment puis-je obtenir de l'aide pour Aspose.3D ?
-
- A2 : Rejoignez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien et l’assistance de la communauté.
-
-### Q3 : Existe-t-il un essai gratuit disponible ?
-
- A3 : Oui, vous pouvez explorer un[essai gratuit](https://releases.aspose.com/) avant de faire un achat.
-
-### Q4 : Où puis-je trouver une documentation détaillée pour Aspose.3D ?
-
- A4 : Reportez-vous au[Documentation](https://reference.aspose.com/3d/java/) pour des conseils complets.
-
-### Q5 : Comment puis-je obtenir une licence temporaire pour tester ?
-
- A5 : Visite[ce lien](https://purchase.aspose.com/temporary-license/) pour obtenir un permis temporaire.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

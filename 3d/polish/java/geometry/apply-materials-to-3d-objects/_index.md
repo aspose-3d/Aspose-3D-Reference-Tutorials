@@ -1,33 +1,50 @@
 ---
-title: Zastosuj materiały do obiektów 3D w Javie za pomocą Aspose.3D
-linktitle: Zastosuj materiały do obiektów 3D w Javie za pomocą Aspose.3D
-second_title: Aspose.3D API Java
-description: Poznaj świat grafiki 3D dzięki Aspose.3D dla Java. Dowiedz się, jak płynnie nakładać materiały na obiekty 3D. Podnieś poziom swoich projektów dzięki realistycznym efektom wizualnym.
+date: 2025-12-08
+description: Poznaj samouczek grafiki 3D w Javie, jak dodać teksturę przy użyciu Aspose.3D.
+  Szybko zastosuj realistyczne materiały do obiektów 3D w Javie.
+language: pl
+linktitle: Apply Materials to 3D Objects in Java with Aspose.3D
+second_title: Aspose.3D Java API
+title: Samouczek grafiki 3D w Javie – Zastosuj materiały do obiektów 3D w Javie z
+  Aspose.3D
+url: /java/geometry/apply-materials-to-3d-objects/
 weight: 14
-url: /pl/java/geometry/apply-materials-to-3d-objects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zastosuj materiały do obiektów 3D w Javie za pomocą Aspose.3D
+# Zastosuj materiały do obiektów 3D w Javie z Aspose.3D
 
-## Wstęp
+## Wprowadzenie
 
-W dynamicznym świecie grafiki 3D Aspose.3D for Java wyróżnia się jako potężne narzędzie ożywiające Twoje projekty. Dodawanie materiałów do obiektów 3D zwiększa atrakcyjność wizualną, czyniąc je bardziej realistycznymi. W tym samouczku przeprowadzimy Cię przez proces nakładania materiałów na kostkę 3D przy użyciu Aspose.3D dla Java.
+W tym **samouczku grafiki 3D w Javie** pokażemy Ci **jak dodać teksturę w Javie** do prostego sześcianu 3‑D przy użyciu API Aspose.3D Java. Nakładanie materiałów i tekstur to kluczowy krok, który zamienia płaską siatkę w realistyczny obiekt, którego możesz używać w grach, wizualizacjach czy prezentacjach produktów. Po zakończeniu tego przewodnika będziesz mieć w pełni teksturowany plik FBX, który możesz otworzyć w dowolnym przeglądarce 3‑D.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaki jest główny cel?** Zastosować materiał Phonga z teksturą dyfuzyjną do sześcianu.  
+- **Która biblioteka?** Aspose.3D for Java (dostępna wersja próbna).  
+- **Jak długo to trwa?** Około 10‑15 minut dla działającego przykładu.  
+- **Czy potrzebna jest licencja?** Wymagana jest tymczasowa licencja dla wersji nie‑ewaluacyjnych.  
+- **Jaki format pliku jest generowany?** FBX 7.4 ASCII (kompatybilny z większością narzędzi 3‑D).
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest samouczek grafiki 3D w Javie?
 
-- Zestaw Java Development Kit (JDK) zainstalowany w systemie.
-- Biblioteka Aspose.3D for Java pobrana i dodana do Twojego projektu.
-- Znajomość podstawowych koncepcji programowania w języku Java.
+**Samouczek grafiki 3D w Javie** prowadzi Cię przez tworzenie, manipulowanie i eksportowanie treści 3‑D przy użyciu bibliotek opartych na Javie. W tym przypadku skupiamy się na obsłudze materiałów — przypisywaniu kolorów, tekstur i właściwości oświetlenia do elementów geometrycznych.
 
-## Importuj pakiety
+## Dlaczego używać Aspose.3D do dodawania tekstur w Javie?
 
-Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java. Dodaj następujące wiersze na początku kodu:
+Aspose.3D oferuje czyste, obiektowo‑zorientowane API, które ukrywa szczegóły niskopoziomowe formatów plików. Obsługuje szeroką gamę formatów (FBX, STL, OBJ, itp.) i pozwala osadzać tekstury bezpośrednio w pliku, co jest idealne, gdy potrzebujesz jednego, przenośnego zasobu.
+
+## Wymagania wstępne
+
+Przed rozpoczęciem upewnij się, że masz:
+
+- Zainstalowany Java Development Kit (JDK 8 lub nowszy).  
+- Najnowszy plik JAR Aspose.3D for Java dodany do classpath projektu.  
+- Podstawową znajomość składni Javy i programowania obiektowego.
+
+## Importowanie pakietów
 
 ```java
 import com.aspose.threed.*;
@@ -37,140 +54,146 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 ```
 
-## Krok 1: Zainicjuj obiekt sceny
+## Krok 1: Inicjalizacja obiektu sceny
 
 ```java
-// Zainicjuj obiekt sceny
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Krok 2: Zainicjuj obiekt węzła kostki
+## Krok 2: Inicjalizacja obiektu węzła sześcianu
 
 ```java
-// Zainicjuj obiekt węzła kostki
+// Initialize cube node object
 Node cubeNode = new Node("cube");
 ```
 
-## Krok 3: Utwórz siatkę za pomocą narzędzia Polygon Builder
+## Krok 3: Tworzenie siatki przy użyciu Polygon Builder
 
 ```java
-// Wywołaj klasę Common, aby utworzyć siatkę przy użyciu metody konstruktora wielokątów, aby ustawić instancję siatki
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-## Krok 4: Skieruj węzeł na siatkę
+## Krok 4: Powiązanie węzła z siatką
 
 ```java
-// Wskaż węzeł na siatkę
+// Point node to the mesh
 cubeNode.setEntity(mesh);
 ```
 
-## Krok 5: Dodaj kostkę do sceny
+## Krok 5: Dodanie sześcianu do sceny
 
 ```java
-// Dodaj kostkę do sceny
+// Add cube to the scene
 scene.getRootNode().addChildNode(cubeNode);
 ```
 
-## Krok 6: Zainicjuj obiekt PhongMaterial
+## Krok 6: Inicjalizacja obiektu PhongMaterial
 
 ```java
-// Zainicjuj obiekt PhongMaterial
+// Initialize PhongMaterial object
 PhongMaterial mat = new PhongMaterial();
 ```
 
-## Krok 7: Zainicjuj obiekt tekstury
+## Krok 7: Inicjalizacja obiektu tekstury
 
 ```java
-// Zainicjuj obiekt tekstury
+// Initialize Texture object
 Texture diffuse = new Texture();
 ```
 
-## Krok 8: Ustaw lokalną ścieżkę pliku tekstury
+## Krok 8: Ustawienie lokalnej ścieżki pliku dla tekstury
 
 ```java
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 ```
 
-## Krok 9: Ustaw lokalną ścieżkę pliku dla osadzonej tekstury
+## Krok 9: Ustawienie lokalnej ścieżki pliku dla osadzonej tekstury
 
 ```java
-// Ustaw lokalną ścieżkę pliku dla osadzonej tekstury
+// Set local file path for embedded texture
 diffuse.setFileName(MyDir + "surface.dds");
 ```
 
-## Krok 10: Ustaw teksturę materiału
+## Krok 10: Ustawienie tekstury materiału
 
 ```java
-// Ustaw teksturę materiału
+// Set Texture of the material
 mat.setTexture(Material.MAP_DIFFUSE, diffuse);
 ```
 
-## Krok 11: Osadź surowe dane treści w FBX (opcjonalnie)
+## Krok 11: Osadzenie surowych danych w FBX (opcjonalnie)
 
 ```java
-// Ustaw nazwę pliku dla osadzonej tekstury
+// Set file name for embedded texture
 diffuse.setFileName("embedded-texture.png");
-// Ustaw zawartość binarną
+// Set binary content
 diffuse.setContent(Files.readAllBytes(Paths.get(MyDir, "aspose-logo.jpg")));
 ```
 
-## Krok 12: Ustaw kolor lustrzany
+## Krok 12: Ustawienie koloru odbicia
 
 ```java
-// Ustaw kolor lustrzany
+// Set specular color
 mat.setSpecularColor(new Vector3(1, 0, 0));
 ```
 
-## Krok 13: Ustaw jasność
+## Krok 13: Ustawienie jasności
 
 ```java
-// Ustaw jasność
+// Set brightness
 mat.setShininess(100);
 ```
 
-## Krok 14: Ustaw właściwości materiału obiektu kostki
+## Krok 14: Ustawienie właściwości materiału obiektu sześcianu
 
 ```java
-// Ustaw właściwość materiału obiektu kostki
+// Set material property of the cube object
 cubeNode.setMaterial(mat);
 ```
 
-## Krok 15: Zapisz scenę 3D
+## Krok 15: Zapis sceny 3D
 
 ```java
-// Ustaw nazwę pliku
+// Set the file name
 MyDir = MyDir + "MaterialToCube.fbx";
-// Zapisz scenę 3D w obsługiwanych formatach plików
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Gratulacje! Pomyślnie zastosowałeś materiały do kostki 3D przy użyciu Aspose.3D dla Java. Ta prosta, ale potężna technika może wynieść Twoje projekty 3D na nowy poziom, zapewniając realistyczne i oszałamiające wizualnie wrażenia.
+| Problem | Przyczyna | Rozwiązanie |
+|-------|--------|-----|
+| **Tekstura niewidoczna** | Nieprawidłowa ścieżka pliku lub nieobsługiwany format tekstury. | Sprawdź, czy `MyDir` wskazuje prawidłowy folder i użyj obsługiwanego formatu, takiego jak `.dds` lub `.png`. |
+| **Plik FBX nie ładuje się** | Brak danych wbudowanej tekstury. | Użyj opcjonalnego bloku (Krok 11), aby osadzić bajty tekstury bezpośrednio w FBX. |
+| **Materiał jest czarny** | Nie ustawiono wartości specular lub diffuse. | Upewnij się, że `setSpecularColor` i `setTexture` są wywoływane przed zapisem. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę zastosować wiele materiałów do jednego obiektu 3D?
+**Q: Czy mogę zastosować wiele materiałów do jednego obiektu 3D?**  
+A: Tak, Aspose.3D pozwala przypisać różne materiały do oddzielnych części siatki lub pod‑węzłów.
 
-Odpowiedź 1: Tak, Aspose.3D pozwala na zastosowanie wielu materiałów do różnych części obiektu 3D w celu lepszego dostosowania.
+**Q: Jakie formaty plików Aspose.3D obsługuje przy zapisywaniu scen?**  
+A: FBX, STL, OBJ, 3DS i kilka innych. Zobacz pełną listę w oficjalnej [dokumentacji](https://reference.aspose.com/3d/java/).
 
-### P2: Jakie formaty plików obsługuje Aspose.3D do zapisywania scen?
+**Q: Czy dostępna jest tymczasowa licencja dla Aspose.3D for Java?**  
+A: Tak, możesz uzyskać [tymczasową licencję](https://purchase.aspose.com/temporary-license/) do oceny.
 
- O2: Aspose.3D obsługuje różne formaty plików, w tym FBX, STL i 3DS. Patrz[dokumentacja](https://reference.aspose.com/3d/java/) dla pełnej listy.
+**Q: Gdzie mogę znaleźć wsparcie dla Aspose.3D?**  
+A: Najlepszym miejscem jest [forum Aspose.3D](https://forum.aspose.com/c/3d/18), gdzie pomaga społeczność.
 
-### P3: Czy dostępna jest tymczasowa licencja na Aspose.3D dla Java?
+**Q: Czy mogę pobrać bibliotekę Aspose.3D z konkretnego linku?**  
+A: Oczywiście — użyj [linku do pobrania](https://releases.aspose.com/3d/java/), aby uzyskać najnowsze pliki JAR.
 
- A3: Tak, możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
+---
 
-### P4: Gdzie mogę znaleźć wsparcie dla Aspose.3D?
+**Ostatnia aktualizacja:** 2025-12-08  
+**Testowano z:** Aspose.3D for Java 24.11  
+**Autor:** Aspose  
 
- A4: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności i dyskusje.
-
-### P5: Czy mogę pobrać bibliotekę Aspose.3D z określonego łącza?
-
- O5: Tak, użyj[link do pobrania](https://releases.aspose.com/3d/java/) aby uzyskać dostęp do najnowszej wersji Aspose.3D dla Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
