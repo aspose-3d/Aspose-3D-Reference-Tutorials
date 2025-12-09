@@ -33,7 +33,7 @@ Nếu bạn đang tìm kiếm một hướng dẫn rõ ràng, thực hành trự
 Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
 - Kiến thức vững chắc về cú pháp Java cơ bản.  
-- **Aspose.3D for Java** đã tải về và thêm vào dự án của bạn (bạn có thể lấy từ trang [Aspose 3D download page](https://releases.aspose.com/3d/java/)).  
+- **Aspose.3D for Java** đã tải về và thêm vào dự án của bạn (bạn có thể lấy từ trang) [Aspose 3D download page](https://releases.aspose.com/3d/java/).  
 - IDE Java yêu thích của bạn (IntelliJ IDEA, Eclipse, NetBeans, v.v.) được cấu hình đúng cách.
 
 ## Import Packages
@@ -156,15 +156,15 @@ A: Aspose.3D for Java hỗ trợ Java 8 trở lên.
 **Q: Có thể tải một FBX hiện có, sửa thông tin tài sản và lưu lại không?**  
 A: Chắc chắn. Tải tệp bằng `new Scene("input.fbx")`, sửa `scene.getAssetInfo()`, rồi lưu lại.
 
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose

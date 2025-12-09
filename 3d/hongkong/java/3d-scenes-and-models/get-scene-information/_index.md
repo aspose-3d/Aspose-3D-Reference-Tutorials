@@ -155,15 +155,15 @@ A5：可於此處取得測試用的臨時授權 [here](https://purchase.aspose.c
 **問：能否載入現有的 FBX，修改其資產資訊後再儲存？**  
 答：當然可以。使用 `new Scene("input.fbx")` 載入檔案，修改 `scene.getAssetInfo()`，最後儲存。
 
+---
+
+**最後更新：** 2025-12-06  
+**測試環境：** Aspose.3D for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-06  
-**測試環境：** Aspose.3D for Java 24.11  
-**作者：** Aspose

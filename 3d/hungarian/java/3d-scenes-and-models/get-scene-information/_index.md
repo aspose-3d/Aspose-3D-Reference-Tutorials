@@ -34,7 +34,7 @@ Ha egy világos, gyakorlati útmutatót keres arra, **hogyan mentse el az fbx** 
 Mielőtt elkezdenénk, győződjön meg róla, hogy rendelkezik:
 
 - Alapos ismeretek a Java alap szintaxisáról.  
-- **Aspose.3D for Java** letöltve és a projektjéhez hozzáadva (letöltheti a hivatalos [Aspose 3D letöltési oldalról](https://releases.aspose.com/3d/java/)).  
+- **Aspose.3D for Java** letöltve és a projektjéhez hozzáadva (letöltheti a hivatalos) [Aspose 3D letöltési oldalról](https://releases.aspose.com/3d/java/).  
 - Kedvenc Java IDE-je (IntelliJ IDEA, Eclipse, NetBeans, stb.) megfelelően beállítva.
 
 ## Csomagok importálása
@@ -157,15 +157,15 @@ A: Az Aspose.3D for Java támogatja a Java 8‑at és az azt követő verziókat
 **Q: Lehetséges meglévő FBX‑t betölteni, módosítani az eszközinformációkat, majd újra menteni?**  
 A: Teljesen lehetséges. Töltse be a fájlt a `new Scene("input.fbx")`‑val, módosítsa a `scene.getAssetInfo()`‑t, majd mentse el.
 
+---
+
+**Legutóbb frissítve:** 2025-12-06  
+**Tesztelve ezzel:** Aspose.3D for Java 24.11  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2025-12-06  
-**Tesztelve ezzel:** Aspose.3D for Java 24.11  
-**Szerző:** Aspose

@@ -155,15 +155,15 @@ A5: 可在 [此处](https://purchase.aspose.com/temporary-license/) 获取用于
 **问：是否可以加载已有的 FBX，修改其资产信息后重新保存？**  
 答：完全可以。使用 `new Scene("input.fbx")` 加载文件，修改 `scene.getAssetInfo()`，然后保存。
 
+---
+
+**最后更新：** 2025-12-06  
+**测试环境：** Aspose.3D for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-06  
-**测试环境：** Aspose.3D for Java 24.11  
-**作者：** Aspose

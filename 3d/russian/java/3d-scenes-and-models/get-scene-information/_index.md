@@ -33,7 +33,7 @@ weight: 12
 Прежде чем начать, убедитесь, что у вас есть:
 
 - Твёрдое понимание базового синтаксиса Java.  
-- **Aspose.3D for Java** скачан и добавлен в ваш проект (можно получить со официальной [страницы загрузки Aspose 3D](https://releases.aspose.com/3d/java/)).  
+- **Aspose.3D for Java** скачан и добавлен в ваш проект (можно получить со официальной) [страницы загрузки Aspose 3D](https://releases.aspose.com/3d/java/).  
 - Ваш любимый Java‑IDE (IntelliJ IDEA, Eclipse, NetBeans и т.д.) правильно настроен.
 
 ## Импорт пакетов
@@ -156,15 +156,15 @@ A5: Получить временную лицензию для тестиров
 **В: Можно ли загрузить существующий FBX, изменить его информацию об объекте и сохранить заново?**  
 О: Да. Загрузите файл с помощью `new Scene("input.fbx")`, измените `scene.getAssetInfo()`, затем сохраните.
 
+---
+
+**Последнее обновление:** 2025-12-06  
+**Тестировано с:** Aspose.3D for Java 24.11  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-06  
-**Тестировано с:** Aspose.3D for Java 24.11  
-**Автор:** Aspose

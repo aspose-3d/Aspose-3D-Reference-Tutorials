@@ -35,7 +35,7 @@ Si vous cherchez un guide clair et pratique sur **comment enregistrer des fichie
 Avant de commencer, assurez‑vous d’avoir :
 
 - Une bonne maîtrise de la syntaxe de base de Java.  
-- **Aspose.3D pour Java** téléchargé et ajouté à votre projet (vous pouvez l’obtenir sur la [page de téléchargement Aspose 3D](https://releases.aspose.com/3d/java/)).  
+- **Aspose.3D pour Java** téléchargé et ajouté à votre projet (vous pouvez l’obtenir sur la) [page de téléchargement Aspose 3D](https://releases.aspose.com/3d/java/).  
 - Votre IDE Java préféré (IntelliJ IDEA, Eclipse, NetBeans, etc.) correctement configuré.
 
 ## Importer les packages
@@ -158,15 +158,15 @@ R : Aspose.3D pour Java prend en charge Java 8 et versions ultérieures.
 **Q : Est‑il possible de charger un FBX existant, modifier ses informations d’actif et le réenregistrer ?**  
 R : Bien sûr. Chargez le fichier avec `new Scene("input.fbx")`, modifiez `scene.getAssetInfo()`, puis enregistrez.
 
+---
+
+**Dernière mise à jour :** 2025-12-06  
+**Testé avec :** Aspose.3D pour Java 24.11  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-06  
-**Testé avec :** Aspose.3D pour Java 24.11  
-**Auteur :** Aspose

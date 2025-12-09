@@ -33,7 +33,7 @@ Pokud hledáte jasný, praktický návod, jak **uložit fbx** soubory a zárove�
 Před zahájením se ujistěte, že máte:
 
 - Pevné pochopení základní syntaxe Javy.  
-- **Aspose.3D for Java** stažený a přidaný do vašeho projektu (můžete jej získat na oficiální [Aspose 3D download page](https://releases.aspose.com/3d/java/)).  
+- **Aspose.3D for Java** stažený a přidaný do vašeho projektu (můžete jej získat na oficiální) [Aspose 3D download page](https://releases.aspose.com/3d/java/).  
 - Váš oblíbený Java IDE (IntelliJ IDEA, Eclipse, NetBeans atd.) správně nakonfigurovaný.
 
 ## Import Packages
@@ -156,15 +156,15 @@ A: Aspose.3D for Java podporuje Java 8 a novější.
 **Q: Je možné načíst existující FBX, upravit jeho informace o assetech a znovu uložit?**  
 A: Rozhodně. Načtěte soubor pomocí `new Scene("input.fbx")`, upravte `scene.getAssetInfo()`, a poté uložte.
 
+---
+
+**Poslední aktualizace:** 2025-12-06  
+**Testováno s:** Aspose.3D for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-06  
-**Testováno s:** Aspose.3D for Java 24.11  
-**Autor:** Aspose

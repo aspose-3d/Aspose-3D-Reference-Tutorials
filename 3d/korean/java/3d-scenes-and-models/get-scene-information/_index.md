@@ -153,15 +153,15 @@ A: Aspose.3D for Java는 Java 8 이상을 지원합니다.
 **Q: 기존 FBX를 로드하고 자산 정보를 수정한 뒤 다시 저장할 수 있나요?**  
 A: 가능합니다. `new Scene("input.fbx")`로 파일을 로드하고 `scene.getAssetInfo()`를 수정한 뒤 저장하면 됩니다.
 
+---
+
+**마지막 업데이트:** 2025-12-06  
+**테스트 환경:** Aspose.3D for Java 24.11  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-06  
-**테스트 환경:** Aspose.3D for Java 24.11  
-**작성자:** Aspose

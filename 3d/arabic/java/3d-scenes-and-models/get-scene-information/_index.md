@@ -33,7 +33,7 @@ weight: 12
 قبل أن نبدأ، تأكد من وجود ما يلي:
 
 - فهم قوي لأساسيات لغة Java.  
-- **Aspose.3D for Java** تم تحميله وإضافته إلى مشروعك (يمكنك الحصول عليه من صفحة [تحميل Aspose 3D الرسمية](https://releases.aspose.com/3d/java/)).  
+- **Aspose.3D for Java** تم تحميله وإضافته إلى مشروعك (يمكنك الحصول عليه من صفحة) [تحميل Aspose 3D الرسمية](https://releases.aspose.com/3d/java/).  
 - بيئة تطوير Java المفضلة لديك (IntelliJ IDEA، Eclipse، NetBeans، إلخ) مُعدّة بشكل صحيح.
 
 ## استيراد الحزم
@@ -156,15 +156,16 @@ System.out.println("\nAsset information added successfully to Scene.\nFile saved
 **س: هل يمكن تحميل ملف FBX موجود، تعديل معلومات الأصول، ثم إعادة حفظه؟**  
 ج: بالطبع. حمّل الملف باستخدام `new Scene("input.fbx")`، عدّل `scene.getAssetInfo()`، ثم احفظه.
 
+---
+
+**آخر تحديث:** 2025-12-06  
+**تم الاختبار مع:** Aspose.3D for Java 24.11  
+**المؤلف:** Aspose
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-06  
-**تم الاختبار مع:** Aspose.3D for Java 24.11  
-**المؤلف:** Aspose

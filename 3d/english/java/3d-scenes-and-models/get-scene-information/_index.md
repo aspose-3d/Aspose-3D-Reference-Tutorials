@@ -30,7 +30,7 @@ If you’re looking for a clear, hands‑on guide on **how to save fbx** files w
 Before we start, make sure you have:
 
 - A solid grasp of core Java syntax.  
-- **Aspose.3D for Java** downloaded and added to your project (you can get it from the official [Aspose 3D download page](https://releases.aspose.com/3d/java/)).  
+- **Aspose.3D for Java** downloaded and added to your project (you can get it from the official) [Aspose 3D download page](https://releases.aspose.com/3d/java/).  
 - Your favourite Java IDE (IntelliJ IDEA, Eclipse, NetBeans, etc.) properly configured.
 
 ## Import Packages
@@ -153,15 +153,15 @@ A: Aspose.3D for Java supports Java 8 and later.
 **Q: Is it possible to load an existing FBX, modify its asset info, and resave?**  
 A: Absolutely. Load the file with `new Scene("input.fbx")`, modify `scene.getAssetInfo()`, then save.
 
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose

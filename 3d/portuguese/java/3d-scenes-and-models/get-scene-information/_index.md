@@ -33,7 +33,7 @@ Se você está procurando um guia claro e prático sobre **como salvar arquivos 
 Antes de começar, certifique‑se de que você tem:
 
 - Um bom domínio da sintaxe básica de Java.  
-- **Aspose.3D para Java** baixado e adicionado ao seu projeto (você pode obtê‑lo na página oficial de download da [Aspose 3D](https://releases.aspose.com/3d/java/)).  
+- **Aspose.3D para Java** baixado e adicionado ao seu projeto (você pode obtê‑lo na página oficial de download da) [Aspose 3D](https://releases.aspose.com/3d/java/).  
 - Seu IDE Java favorito (IntelliJ IDEA, Eclipse, NetBeans, etc.) devidamente configurado.
 
 ## Importar Pacotes
@@ -156,15 +156,15 @@ A: O Aspose.3D para Java suporta Java 8 ou superior.
 **Q: É possível carregar um FBX existente, modificar suas informações de ativo e salvar novamente?**  
 A: Absolutamente. Carregue o arquivo com `new Scene("input.fbx")`, modifique `scene.getAssetInfo()`, então salve.
 
+---
+
+**Última atualização:** 2025-12-06  
+**Testado com:** Aspose.3D for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-06  
-**Testado com:** Aspose.3D for Java 24.11  
-**Autor:** Aspose

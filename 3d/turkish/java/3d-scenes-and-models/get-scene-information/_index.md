@@ -151,15 +151,15 @@ C: Aspose.3D for Java, Java 8 ve üzerini destekler.
 **S: Mevcut bir FBX dosyasını yükleyip varlık bilgilerini değiştirip tekrar kaydetmek mümkün mü?**  
 C: Kesinlikle. Dosyayı `new Scene("input.fbx")` ile yükleyin, `scene.getAssetInfo()`'ı değiştirin ve ardından kaydedin.
 
+---
+
+**Son Güncelleme:** 2025-12-06  
+**Test Edilen:** Aspose.3D for Java 24.11  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-06  
-**Test Edilen:** Aspose.3D for Java 24.11  
-**Yazar:** Aspose

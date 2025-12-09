@@ -34,7 +34,7 @@ weight: 12
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε:
 
 - Καλή κατανόηση της βασικής σύνταξης της Java.  
-- **Aspose.3D for Java** κατεβασμένο και προστιθέμενο στο έργο σας (μπορείτε να το αποκτήσετε από την επίσημη [Aspose 3D download page](https://releases.aspose.com/3d/java/)).  
+- **Aspose.3D for Java** κατεβασμένο και προστιθέμενο στο έργο σας (μπορείτε να το αποκτήσετε από την επίσημη) [Aspose 3D download page](https://releases.aspose.com/3d/java/).  
 - Το αγαπημένο σας IDE Java (IntelliJ IDEA, Eclipse, NetBeans κ.λπ.) σωστά διαμορφωμένο.
 
 ## Εισαγωγή Πακέτων
@@ -152,15 +152,15 @@ A: Το Aspose.3D for Java υποστηρίζει Java 8 και νεότερες
 **Q: Είναι δυνατόν να φορτώσετε ένα υπάρχον FBX, να τροποποιήσετε τις πληροφορίες του περιουσιακού στοιχείου και να το αποθηκεύσετε ξανά;**  
 A: Απόλυτα. Φορτώστε το αρχείο με `new Scene("input.fbx")`, τροποποιήστε το `scene.getAssetInfo()`, και στη συνέχεια αποθηκεύστε.
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-06  
+**Δοκιμή με:** Aspose.3D for Java 24.11  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-06  
-**Δοκιμή με:** Aspose.3D for Java 24.11  
-**Συγγραφέας:** Aspose

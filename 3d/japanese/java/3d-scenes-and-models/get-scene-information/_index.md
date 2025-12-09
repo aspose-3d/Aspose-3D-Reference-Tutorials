@@ -156,15 +156,15 @@ System.out.println("\nAsset information added successfully to Scene.\nFile saved
 **Q:** 既存のFBXをロードし、資産情報を変更して再保存することは可能ですか？  
 **A:** 可能です。`new Scene("input.fbx")` でファイルをロードし、`scene.getAssetInfo()` を変更した後に保存してください。
 
+---
+
+**最終更新日:** 2025-12-06  
+**テスト環境:** Aspose.3D for Java 24.11  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-06  
-**テスト環境:** Aspose.3D for Java 24.11  
-**作者:** Aspose

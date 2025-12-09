@@ -33,7 +33,7 @@ Als je op zoek bent naar een duidelijke, praktische gids over **hoe fbx**‑best
 Voordat we beginnen, zorg dat je het volgende hebt:
 
 - Een stevige kennis van de basis‑Java‑syntaxis.  
-- **Aspose.3D for Java** gedownload en toegevoegd aan je project (je kunt het verkrijgen via de officiële [Aspose 3D download page](https://releases.aspose.com/3d/java/)).  
+- **Aspose.3D for Java** gedownload en toegevoegd aan je project (je kunt het verkrijgen via de officiële) [Aspose 3D download page](https://releases.aspose.com/3d/java/).  
 - Je favoriete Java‑IDE (IntelliJ IDEA, Eclipse, NetBeans, enz.) correct geconfigureerd.
 
 ## Importpakketten
@@ -156,15 +156,15 @@ A: Aspose.3D for Java ondersteunt Java 8 en hoger.
 **Q: Is het mogelijk een bestaand FBX‑bestand te laden, de asset‑info te wijzigen en opnieuw op te slaan?**  
 A: Absoluut. Laad het bestand met `new Scene("input.fbx")`, wijzig `scene.getAssetInfo()`, en sla vervolgens op.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-06  
+**Getest met:** Aspose.3D for Java 24.11  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-06  
-**Getest met:** Aspose.3D for Java 24.11  
-**Auteur:** Aspose

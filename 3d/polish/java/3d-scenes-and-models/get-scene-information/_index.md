@@ -34,7 +34,7 @@ Jeśli szukasz jasnego, praktycznego przewodnika, **jak zapisać fbx** pliki jed
 Zanim zaczniemy, upewnij się, że masz:
 
 - Solidną znajomość podstawowej składni Javy.  
-- **Aspose.3D for Java** pobraną i dodaną do projektu (możesz ją pobrać z oficjalnej [strony pobierania Aspose 3D](https://releases.aspose.com/3d/java/)).  
+- **Aspose.3D for Java** pobraną i dodaną do projektu (możesz ją pobrać z oficjalnej) [strony pobierania Aspose 3D](https://releases.aspose.com/3d/java/).  
 - Twojego ulubionego IDE Javy (IntelliJ IDEA, Eclipse, NetBeans, itp.) poprawnie skonfigurowanego.
 
 ## Import Packages
@@ -157,15 +157,15 @@ A5: Uzyskaj tymczasową licencję do celów testowych [tutaj](https://purchase.a
 **P:** Czy można wczytać istniejący plik FBX, zmodyfikować jego informacje o zasobach i ponownie zapisać?  
 **O:** Absolutnie. Wczytaj plik przy pomocy `new Scene("input.fbx")`, zmodyfikuj `scene.getAssetInfo()`, a następnie zapisz.
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-06  
+**Testowano z:** Aspose.3D for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-06  
-**Testowano z:** Aspose.3D for Java 24.11  
-**Autor:** Aspose

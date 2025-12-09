@@ -156,15 +156,15 @@ A5: परीक्षण उद्देश्यों के लिए टे
 **प्रश्न: क्या मौजूदा FBX को लोड करके उसकी एसेट जानकारी बदलना और फिर पुनः सहेजना संभव है?**  
 उत्तर: बिल्कुल। `new Scene("input.fbx")` से फ़ाइल लोड करें, `scene.getAssetInfo()` को संशोधित करें, फिर सहेजें।
 
+---
+
+**अंतिम अपडेट:** 2025-12-06  
+**टेस्टेड विथ:** Aspose.3D for Java 24.11  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-06  
-**टेस्टेड विथ:** Aspose.3D for Java 24.11  
-**लेखक:** Aspose
