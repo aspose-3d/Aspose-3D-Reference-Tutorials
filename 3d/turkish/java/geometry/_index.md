@@ -1,100 +1,135 @@
 ---
-title: Java'da 3D Geometri ile Çalışmak
-linktitle: Java'da 3D Geometri ile Çalışmak
-second_title: Aspose.3D Java API'si
-description: 3D geometriyle çalışmaya ilişkin Aspose.3D for Java eğitimlerini keşfedin. PBR malzemeleri, kuaterniyon rotasyonları, küp sahneleri ve daha fazlasında uzmanlaşın. Java 3D grafiklerinizi yükseltin.
+date: 2025-12-06
+description: Aspose.3D kullanarak Java'da PBR malzemelerini nasıl uygulayacağınızı
+  ve kuaterniyonları nasıl birleştireceğinizi öğrenin. 3D geometri, ağ paylaşımı ve
+  dönüşümler konusunda uzmanlaşın.
+language: tr
+linktitle: How to Apply PBR Materials in Java
+second_title: Aspose.3D Java API
+title: Java'da Aspose.3D ile PBR Malzemeleri Nasıl Uygulanır
+url: /java/geometry/
 weight: 21
-url: /tr/java/geometry/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da 3D Geometri ile Çalışmak
+# Java'da Aspose.3D ile PBR Malzemeleri Nasıl Uygulanır
 
-## giriiş
-Aspose.3D for Java ile 3D grafiklerin büyüleyici dünyasına dalmaya hazır mısınız? Eğitimlerimiz, Java uygulamalarınızı güçlü ve görsel açıdan etkileyici 3D öğelerle geliştirmenize olanak tanıyan çeşitli konuları kapsar. Gelin bu yolculuğa adım adım çıkalım.
+## Giriş
+Eğer **how to apply PBR** (Physically Based Rendering) malzemelerini Java 3D projelerinize uygulamayı arıyorsanız, doğru yerdesiniz. Bu merkezde, gerçekçi malzeme oluşturulmasından gelişmiş quaternion dönüşlerine kadar her adımı size anlatan en pratik Aspose.3D eğitimlerini topladık. Bir oyun motoru, ürün görselleştiricisi ya da bilimsel bir simülasyon geliştiriyor olun, bu rehberler ham geometrileri çarpıcı, foto-gerçekçi sahnelere dönüştürmenize yardımcı olacak.
 
-## Aspose.3D ile PBR Materyallerini Java'daki 3D Nesnelere Uygulayın
+## Hızlı Yanıtlar
+- **PBR nedir?** Gerçek dünya malzeme özelliklerini taklit eden ve daha gerçekçi aydınlatma sağlayan bir render tekniğidir.  
+- **Java için Aspose.3D neden kullanılmalı?** Karmaşık matematiği soyutlayan, yüksek seviyeli bir API sunar ve performansa odaklıdır.  
+- **Lisans gerekir mi?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim ortamı için ticari lisans gereklidir.  
+- **Hangi Java sürümü gerekli?** Java 8 veya üzeri.  
+- **PBR'ı quaternion dönüşleriyle birleştirebilir miyim?** Kesinlikle—aşağıda “how to concatenate quaternions” bölümüne bakın.  
 
-Aspose.3D ile Fiziksel Tabanlı Rendering (PBR) dünyasına dalın. Eğitimimiz, Java'daki 3B nesnelerinize gerçekçi PBR malzemeleri uygulama sürecinde size rehberlik eder. Projelerinizin görsel kalitesini zahmetsizce yükseltin.[Devamını oku](./apply-pbr-materials-to-objects/)
+## Java'da Aspose.3D ile 3D Nesnelere PBR Malzemeleri Uygulama
 
-## Aspose.3D ile Java'da 3D Döndürmeler için Kuaterniyonları Birleştirin
+Physically Based Rendering (PBR) dünyasına Aspose.3D ile dalın. Eğitimimiz, Java'da 3D nesnelerinize gerçekçi PBR malzemeleri uygulama sürecini adım adım gösterir. Projelerinizin görsel kalitesini zahmetsizce yükseltin. [Read more](./apply-pbr-materials-to-objects/)
 
- Aspose.3D'yi kullanarak Java'da kesintisiz 3D döndürmelerin sırlarını açığa çıkarın. Adım adım kılavuzumuz, düzgün animasyon dönüşümleri sağlayarak kuaterniyonların birleştirilmesi konusunda size yol gösterir. Java uygulamalarınızda şimdi devrim yaratın.[Devamını oku](./concatenate-quaternions-for-3d-rotations/)
+## Java'da Aspose.3D ile 3D Dönüşler İçin Quaternion'ları Birleştirme
 
-## Aspose.3D ile Java'da 3D Küp Sahnesi Oluşturun
+Aspose.3D kullanarak Java'da sorunsuz 3D dönüşlerin sırlarını keşfedin. Adım‑adım rehberimiz, **how to concatenate quaternions** tekniğini size anlatır ve pürüzsüz animasyon dönüşümlerini mümkün kılar. Java uygulamalarınızı şimdi devrimleştirin. [Read more](./concatenate-quaternions-for-3d-rotations/)
 
- Aspose.3D for Java ile 3D küp sahne grafiklerinin harikalarını keşfedin. Bu eğitim, çarpıcı 3D sahneleri zahmetsizce oluşturmanıza olanak tanır. Yaratıcılığınızı serbest bırakın ve sınırsız olasılıkları keşfedin.[Devamını oku](./create-3d-cube-scene/)
+## Java'da Aspose.3D ile 3D Küp Sahnesi Oluşturma
 
-## Aspose.3D ile Java 3D'deki Geometrik Dönüşümleri Ortaya Çıkarın
+Aspose.3D for Java ile 3D küp sahne grafiğinin harikalarını keşfedin. Muhteşem 3D sahneleri zahmetsizce oluşturun. Yaratıcılığınızı serbest bırakın ve sınırsız olasılıkları keşfedin. [Read more](./create-3d-cube-scene/)
 
-Aspose.3D ile Java'da 3 boyutlu geometrik dönüşümlerde ustalaşmak çocuk oyuncağı haline geliyor. Düğümleri yönetmeyi, çevirileri uygulamayı ve küresel dönüşümleri değerlendirmeyi öğrenin. 3D grafik oyununuzu yeni boyutlara yükseltin.[Devamını oku](./expose-geometric-transformations/)
+## Java 3D'de Geometrik Dönüşümleri Açığa Çıkarma – Aspose.3D
 
-## Aspose.3D ile Malzemeleri Java'daki 3D Nesnelere Uygulayın
+Aspose.3D ile Java'da 3D geometrik dönüşümleri yönetmek artık çok kolay. Düğümleri manipüle etmeyi, çevirileri uygulamayı ve global dönüşümleri değerlendirmeyi öğrenin. 3D grafik oyununuza yeni bir boyut kazandırın. [Read more](./expose-geometric-transformations/)
 
- Aspose.3D for Java ile 3D grafik dünyasına bir yolculuğa çıkın. Bu eğitim, malzemeleri 3B nesnelere sorunsuz bir şekilde uygulamanız ve projelerinize gerçekçilik getirmeniz konusunda size rehberlik eder.[Devamını oku](./apply-materials-to-3d-objects/)
+## Java'da Aspose.3D ile 3D Nesnelere Malzeme Uygulama
 
-## Aspose.3D ile Java 3D'deki Mesh Geometri Verilerini Paylaşın
+Aspose.3D for Java ile 3D grafik dünyasına adım atın. Bu eğitim, malzemeleri 3D nesnelere sorunsuz bir şekilde uygulamanızı ve projelerinize gerçekçilik katmanızı sağlar. [Read more](./apply-materials-to-3d-objects/)
 
- Aspose.3D ile Java 3D'nin harikalarını keşfedin ve ağ geometrisi verilerini düğümler arasında zahmetsizce nasıl paylaşacağınızı öğrenin. Bu kapsamlı eğitim, bu temel beceride uzmanlaşmanın anahtarıdır.[Devamını oku](./share-mesh-geometry-data/)
+## Java 3D'de Mesh Geometri Verilerini Paylaşma – Aspose.3D
 
-## Java ve Aspose.3D ile 3D Sahnelerde Düğüm Hiyerarşileri Oluşturun
+Aspose.3D ile Java 3D'nin harikalarını keşfedin ve mesh geometri verilerini düğümler arasında zahmetsizce paylaşmayı öğrenin. Bu kapsamlı eğitim, bu temel beceriyi ustalaşmanız için anahtarınızdır. [Read more](./share-mesh-geometry-data/)
 
- Aspose.3D ile Java'da dinamik 3D sahneler oluşturmayı öğrenerek yaratıcılığınızı açığa çıkarın. Düğüm hiyerarşilerini zahmetsizce oluşturun ve 3D grafik oyununuzu yükseltin.[Devamını oku](./build-node-hierarchies/)
+## Java ve Aspose.3D ile 3D Sahnelere Düğüm Hiyerarşileri Oluşturma
 
-## Aspose.3D ile Java'da 3D Nesnelerde Normalleri Ayarlama
+Aspose.3D ile Java'da dinamik 3D sahneler oluşturmayı öğrenerek yaratıcılığınızı serbest bırakın. Düğüm hiyerarşilerini zahmetsizce oluşturun ve 3D grafik oyununuza yeni bir seviye kazandırın. [Read more](./build-node-hierarchies/)
 
-Aspose.3D ile Java'da 3 boyutlu nesneler üzerinde normaller ayarlamayı öğrenerek grafiklerinizi geliştirin. Bu kapsamlı eğitim, 3D tasarımın bu önemli yönüne hakim olmanız için rehberinizdir.[Devamını oku](./set-up-normals-on-3d-objects/)
+## Java'da Aspose.3D ile 3D Nesnelerde Normaller Ayarlama
 
-## Aspose.3D ile Java'da 3D Nesnelere UV Koordinatlarını Uygulama
+Aspose.3D ile Java'da 3D nesnelerde normallerin nasıl ayarlanacağını öğrenerek grafiklerinizi geliştirin. Bu kapsamlı eğitim, 3D tasarımın bu kritik yönünü ustalaşmanız için rehberinizdir. [Read more](./set-up-normals-on-3d-objects/)
 
- Aspose.3D ile Java'da UV koordinatlarını 3 boyutlu nesnelere uygulamayı öğrenerek grafiklerinizi geliştirin. Adım adım kılavuzumuzu takip edin ve görsel yaratımlarınıza yeni bir boyut katın.[Devamını oku](./apply-uv-coordinates-to-3d-objects/)
+## Java'da Aspose.3D ile 3D Nesnelere UV Koordinatları Uygulama
 
-## Aspose.3D'yi kullanarak Java'da Euler Açıları ile 3D Düğümleri dönüştürün
+Aspose.3D ile Java'da 3D nesnelere UV koordinatları uygulamayı öğrenerek grafiklerinizi bir üst seviyeye taşıyın. Adım‑adım rehberimizi izleyin ve görsel yaratımlarınıza yeni bir boyut ekleyin. [Read more](./apply-uv-coordinates-to-3d-objects/)
 
- Aspose.3D ile Java'da 3D dönüşümler dünyasına adım atın. Kılavuzumuz, uygulamalarınıza yeni bir etkileşim düzeyi getirerek 3B düğümlerinize dinamik Euler açıları eklemeyi öğretir.[Devamını oku](./transform-3d-nodes-with-euler-angles/)
+## Java'da Aspose.3D ile Euler Açılarla 3D Düğümleri Dönüştürme
 
-## Aspose.3D kullanarak Java'da 3D Düğümleri Kuaterniyonlarla Dönüştürün
+Aspose.3D ile Java'da 3D dönüşüm dünyasına adım atın. Rehberimiz, 3D düğümlerinize dinamik Euler açıları eklemeyi öğreterek uygulamalarınıza yeni bir etkileşim seviyesi kazandırır. [Read more](./transform-3d-nodes-with-euler-angles/)
 
- Dördeyleri kullanarak düğümleri dönüştürme konusunda size rehberlik ederken Java uygulamalarınızı Aspose.3D ile geliştirin. Bu adım adım kılavuzla 3D projelerinizde devrim yaratın.[Devamını oku](./transform-3d-nodes-with-quaternions/)
+## Java'da Aspose.3D ile Quaternion'larla 3D Düğümleri Dönüştürme
 
-## Aspose.3D'yi kullanarak Java'da Dönüşüm Matrisleriyle 3D Düğümleri Dönüştürün
+Aspose.3D ile Java uygulamalarınızı geliştirin; bu adım‑adım rehber, düğümleri quaternion kullanarak dönüştürmenizi sağlar. 3D projelerinizi devrimleştirin. [Read more](./transform-3d-nodes-with-quaternions/)
 
-Aspose.3D ile Java'daki 3D grafik dünyasını keşfedin. Yaratıcı olasılıklarla dolu bir dünyanın kilidini açarak, dönüşüm matrislerini kullanarak düğümleri zahmetsizce dönüştürmeyi öğrenin.[Devamını oku](./transform-3d-nodes-with-matrices/)
+## Java'da Aspose.3D ile Dönüşüm Matrisleriyle 3D Düğümleri Dönüştürme
 
-## Aspose.3D ile Java'da Optimize Edilmiş İşleme için Kafesleri Üçgenleştirme
+Aspose.3D ile Java'da 3D grafik dünyasını keşfedin. Dönüşüm matrislerini kullanarak düğümleri zahmetsizce dönüştürmeyi öğrenin ve yaratıcı olasılıkların kapılarını açın. [Read more](./transform-3d-nodes-with-matrices/)
 
- Aspose.3D ile Java'da 3D render verimliliğinizi artırın. Eğitimimiz, optimum performans için ağları üçgenleştirme sürecinde size rehberlik eder. Java 3D projelerinizi yeni boyutlara yükseltin.[Devamını oku](./triangulate-meshes-for-optimized-rendering/)
+## Java'da Aspose.3D ile Optimize Edilmiş Render İçin Mesh'leri Üçgenleme
 
-## Java Derslerinde 3D Geometri ile Çalışmak
-### [Aspose.3D ile PBR Materyallerini Java'daki 3D Nesnelere Uygulayın](./apply-pbr-materials-to-objects/)
-Aspose.3D'yi kullanarak Java'daki 3D nesnelere gerçekçi PBR malzemeleri uygulamayı öğrenin. Fiziksel Tabanlı İşleme ile görsel kaliteyi artırın.
-### [Aspose.3D ile Java'da 3D Döndürmeler için Kuaterniyonları Birleştirin](./concatenate-quaternions-for-3d-rotations/)
-Aspose.3D'yi kullanarak Java'da 3D döndürmeler için kuaterniyonları nasıl birleştireceğinizi öğrenin. Sorunsuz animasyon dönüşümleri için adım adım kılavuzumuzu izleyin.
-### [Aspose.3D ile Java'da 3D Küp Sahnesi Oluşturun](./create-3d-cube-scene/)
-Aspose.3D for Java ile 3D küp sahne grafiklerinin harikalarını keşfedin. Çarpıcı sahneleri zahmetsizce yaratın.
-### [Aspose.3D ile Java 3D'deki Geometrik Dönüşümleri Ortaya Çıkarın](./expose-geometric-transformations/)
-Aspose.3D ile Java'da 3 boyutlu geometrik dönüşümlere hakim olmak artık çok kolay. Düğümleri yönetmeyi, çevirileri uygulamayı ve küresel dönüşümleri değerlendirmeyi öğrenin.
-### [Aspose.3D ile Malzemeleri Java'daki 3D Nesnelere Uygulayın](./apply-materials-to-3d-objects/)
-Aspose.3D for Java ile 3D grafik dünyasını keşfedin. Malzemeleri 3B nesnelere sorunsuz bir şekilde nasıl uygulayacağınızı öğrenin. Gerçekçi görsellerle projelerinizi geliştirin.
-### [Aspose.3D ile Java 3D'deki Mesh Geometri Verilerini Paylaşın](./share-mesh-geometry-data/)
-Aspose.3D ile Java 3D'nin harikalarını keşfedin. Bu kapsamlı eğitimde mesh geometrisi verilerini düğümler arasında zahmetsizce nasıl paylaşacağınızı öğrenin.
-### [Java ve Aspose.3D ile 3D Sahnelerde Düğüm Hiyerarşileri Oluşturun](./build-node-hierarchies/)
-Aspose.3D ile Java'da dinamik 3D sahneler oluşturmayı öğrenin. Düğüm hiyerarşilerini zahmetsizce oluşturun ve 3D grafik oyununuzu yükseltin.
-### [Aspose.3D ile Java'da 3D Nesnelerde Normalleri Ayarlama](./set-up-normals-on-3d-objects/)
-Aspose.3D ile Java'da 3D nesnelerde normaller ayarlamayı öğrenin. Bu kapsamlı eğitimle grafiklerinizi geliştirin.
-### [Aspose.3D ile Java'da 3D Nesnelere UV Koordinatlarını Uygulama](./apply-uv-coordinates-to-3d-objects/)
-Aspose.3D ile Java'da UV koordinatlarını 3 boyutlu nesnelere uygulamayı öğrenin. Bu adım adım kılavuzla grafiklerinizi geliştirin.
-### [Aspose.3D'yi kullanarak Java'da Euler Açıları ile 3D Düğümleri dönüştürün](./transform-3d-nodes-with-euler-angles/)
-Aspose.3D ile Java'daki 3D dönüşüm dünyasını keşfedin. 3B düğümlerinize dinamik Euler açıları eklemek için adım adım kılavuzumuzu izleyin.
-### [Aspose.3D kullanarak Java'da 3D Düğümleri Kuaterniyonlarla Dönüştürün](./transform-3d-nodes-with-quaternions/)
-Güçlü 3D dönüşümler için Java uygulamalarınızı Aspose.3D ile geliştirin. Bu adım adım kılavuzda kuaterniyonları kullanarak düğümleri dönüştürmeyi öğrenin.
-### [Aspose.3D'yi kullanarak Java'da Dönüşüm Matrisleriyle 3D Düğümleri Dönüştürün](./transform-3d-nodes-with-matrices/)
-Aspose.3D ile Java'daki 3D grafik dünyasını keşfedin. Dönüşüm matrislerini kullanarak düğümleri zahmetsizce dönüştürmeyi öğrenin.
-### [Aspose.3D ile Java'da Optimize Edilmiş İşleme için Kafesleri Üçgenleştirme](./triangulate-meshes-for-optimized-rendering/)
-Aspose.3D'yi kullanarak Java'da 3D işleme verimliliğini nasıl artıracağınızı öğrenin. Optimum performans için ağları üçgenleştirin.
+Aspose.3D ile Java'da 3D render verimliliğinizi artırın. Eğitimimiz, optimal performans için mesh'leri üçgenleme sürecini adım adım anlatır. Java 3D projelerinizi yeni bir seviyeye taşıyın. [Read more](./triangulate-meshes-for-optimized-rendering/)
+
+## Java'da 3D Geometri ile Çalışma Eğitimleri
+### [Apply PBR Materials to 3D Objects in Java with Aspose.3D](./apply-pbr-materials-to-objects/)
+Aspose.3D kullanarak Java'da 3D nesnelere gerçekçi PBR malzemeleri uygulamayı öğrenin. Physically Based Rendering ile görsel kaliteyi artırın.
+### [Concatenate Quaternions for 3D Rotations in Java with Aspose.3D](./concatenate-quaternions-for-3d-rotations/)
+Aspose.3D ile Java'da 3D dönüşler için **how to concatenate quaternions** yöntemini öğrenin. Sorunsuz animasyon dönüşümleri için adım‑adım rehberimizi izleyin.
+### [Create a 3D Cube Scene in Java with Aspose.3D](./create-3d-cube-scene/)
+Aspose.3D for Java ile 3D küp sahne grafiğinin harikalarını keşfedin. Muhteşem sahneleri zahmetsizce oluşturun.
+### [Expose Geometric Transformations in Java 3D with Aspose.3D](./expose-geometric-transformations/)
+Aspose.3D ile Java'da 3D geometrik dönüşümleri yönetmek artık çok kolay. Düğümleri manipüle etmeyi, çevirileri uygulamayı ve global dönüşümleri değerlendirmeyi öğrenin.
+### [Apply Materials to 3D Objects in Java with Aspose.3D](./apply-materials-to-3d-objects/)
+Aspose.3D for Java ile 3D grafik dünyasını keşfedin. Malzemeleri 3D nesnelere sorunsuz bir şekilde uygulamayı öğrenin ve projelerinizi gerçekçi görsellerle yükseltin.
+### [Share Mesh Geometry Data in Java 3D with Aspose.3D](./share-mesh-geometry-data/)
+Aspose.3D ile Java 3D'nin harikalarını keşfedin ve mesh geometri verilerini düğümler arasında zahmetsizce paylaşmayı öğrenin. Bu kapsamlı eğitim, bu temel beceriyi ustalaşmanız için anahtarınızdır.
+### [Build Node Hierarchies in 3D Scenes with Java and Aspose.3D](./build-node-hierarchies/)
+Aspose.3D ile Java'da dinamik 3D sahneler oluşturmayı öğrenin. Düğüm hiyerarşilerini zahmetsizce oluşturun ve 3D grafik oyununuza yeni bir seviye kazandırın.
+### [Set Up Normals on 3D Objects in Java with Aspose.3D](./set-up-normals-on-3d-objects/)
+Aspose.3D ile Java'da 3D nesnelerde normallerin nasıl ayarlanacağını öğrenerek grafiklerinizi geliştirin. Bu kapsamlı eğitim, 3D tasarımın bu kritik yönünü ustalaşmanız için rehberinizdir.
+### [Apply UV Coordinates to 3D Objects in Java with Aspose.3D](./apply-uv-coordinates-to-3d-objects/)
+Aspose.3D ile Java'da 3D nesnelere UV koordinatları uygulamayı öğrenerek grafiklerinizi bir üst seviyeye taşıyın. Adım‑adım rehberimizi izleyin ve görsel yaratımlarınıza yeni bir boyut ekleyin.
+### [Transform 3D Nodes with Euler Angles in Java using Aspose.3D](./transform-3d-nodes-with-euler-angles/)
+Aspose.3D ile Java'da 3D dönüşüm dünyasına adım atın. Rehberimiz, 3D düğümlerinize dinamik Euler açıları eklemeyi öğreterek uygulamalarınıza yeni bir etkileşim seviyesi kazandırır.
+### [Transform 3D Nodes with Quaternions in Java using Aspose.3D](./transform-3d-nodes-with-quaternions/)
+Aspose.3D ile Java uygulamalarınızı geliştirin; bu adım‑adım rehber, düğümleri quaternion kullanarak dönüştürmenizi sağlar. 3D projelerinizi devrimleştirin.
+### [Transform 3D Nodes with Transformation Matrices in Java using Aspose.3D](./transform-3d-nodes-with-matrices/)
+Aspose.3D ile Java'da 3D grafik dünyasını keşfedin. Dönüşüm matrislerini kullanarak düğümleri zahmetsizce dönüştürmeyi öğrenin ve yaratıcı olasılıkların kapılarını açın.
+### [Triangulate Meshes for Optimized Rendering in Java with Aspose.3D](./triangulate-meshes-for-optimized-rendering/)
+Aspose.3D ile Java'da 3D render verimliliğinizi artırın. Mesh'leri optimal performans için üçgenleme sürecini adım adım öğrenin.
+
+## Sıkça Sorulan Sorular
+
+**S: Aspose.3D for Java kullanmak için bir grafik kartına ihtiyacım var mı?**  
+C: Hayır. Aspose.3D tüm hesaplamaları CPU üzerinde yapar, bu yüzden Java çalıştırabilen herhangi bir makinede çalışır.
+
+**S: PBR malzemelerini özel shader'larla birleştirebilir miyim?**  
+C: Evet. Mesh'lere özel shader programları ekleyebilir ve aynı zamanda Aspose.3D’nin PBR iş akışını kullanabilirsiniz.
+
+**S: “how to concatenate quaternions” animasyonu nasıl iyileştirir?**  
+C: Quaternion'ları birleştirerek birden fazla dönüşü tek bir pürüzsüz dönüşümde birleştirirsiniz, bu da gimbal kilitlenmesini önler.
+
+**S: glTF veya OBJ olarak dışa aktarma desteği var mı?**  
+C: Aspose.3D sahneleri glTF, OBJ, FBX ve diğer yaygın 3D formatlarına dışa aktarabilir.
+
+**S: Örnek projelere nereden ulaşabilirim?**  
+C: Aspose.3D GitHub deposu ve resmi dokümantasyon sitesi, yukarıda listelenen tüm eğitimler için çalıştırılabilir örnekler sunar.
+
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.3D for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
