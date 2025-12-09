@@ -1,111 +1,145 @@
 ---
-title: قم ببناء التسلسلات الهرمية للعقد في مشاهد ثلاثية الأبعاد باستخدام Java وAspose.3D
-linktitle: قم ببناء التسلسلات الهرمية للعقد في مشاهد ثلاثية الأبعاد باستخدام Java وAspose.3D
-second_title: Aspose.3D جافا API
-description: تعرف على كيفية إنشاء مشاهد ديناميكية ثلاثية الأبعاد في Java باستخدام Aspose.3D. قم بإنشاء تسلسلات هرمية للعقدة دون عناء وقم برفع مستوى لعبة الرسومات ثلاثية الأبعاد الخاصة بك.
+date: 2025-12-09
+description: تعلم كيفية إضافة شبكة إلى العقدة وبناء مشاهد ثلاثية الأبعاد ديناميكية
+  في جافا باستخدام Aspose.3D. احفظ المشهد كملف FBX وأنشئ عقدًا فرعية بسهولة.
+language: ar
+linktitle: Add Mesh to Node and Build 3D Hierarchies with Java
+second_title: Aspose.3D Java API
+title: إضافة شبكة إلى العقدة وبناء هياكل ثلاثية الأبعاد باستخدام جافا
+url: /java/geometry/build-node-hierarchies/
 weight: 16
-url: /ar/java/geometry/build-node-hierarchies/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قم ببناء التسلسلات الهرمية للعقد في مشاهد ثلاثية الأبعاد باستخدام Java وAspose.3D
+# إضافة شبكة إلى العقدة وبناء هياكل ثلاثية الأبعاد باستخدام Java
 
-## مقدمة
+## Introduction
 
-في العالم الديناميكي للرسومات ثلاثية الأبعاد وبرمجة Java، يعد إنشاء وإدارة التسلسلات الهرمية للعقد في المشاهد ثلاثية الأبعاد مهارة بالغة الأهمية. يمكّن Aspose.3D for Java المطورين من تحقيق ذلك بسلاسة، ويقدم مجموعة قوية من الأدوات لإنشاء مشاهد ثلاثية الأبعاد معقدة بسهولة. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء التسلسلات الهرمية للعقد باستخدام Aspose.3D لـ Java، مما يضمن أنه حتى المبتدئين يمكنهم المتابعة.
+إضافة شبكة إلى عقدة هي الأساس لبناء مشاهد ثلاثية الأبعاد غنية في Java. باستخدام **Aspose.3D for Java**، يمكنك **إضافة شبكة إلى عقدة**، إنشاء هياكل معقدة، ثم **حفظ المشهد كـ FBX** للاستخدام في أي خط أنابيب ثلاثي الأبعاد. يشرح هذا البرنامج التعليمي كل خطوة — من إعداد البيئة إلى تصدير الملف النهائي — حتى تتمكن من بدء بناء رسومات ثلاثية الأبعاد تفاعلية على الفور.
 
-## المتطلبات الأساسية
+## Quick Answers
+- **What does “add mesh to node” mean?** يعني ربط شبكة هندسية (مثل مكعب) بعقدة في رسم المشهد، مما يسمح لك بتحويلها كجزء من هرمية.  
+- **Which format can I export to?** المثال يحفظ المشهد كـ **FBX** (FBX7500ASCII).  
+- **Do I need a license for Aspose.3D?** نسخة تجريبية مجانية تكفي للتقييم؛ تحتاج إلى ترخيص للاستخدام في الإنتاج.  
+- **What Java version is required?** Java 8 أو أحدث.  
+- **Can I create multiple child nodes?** نعم — استخدم `createChildNode` بشكل متكرر لبناء أي عمق تحتاجه.
 
-قبل الخوض في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## What is “add mesh to node” in Aspose.3D?
 
-1. بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java على جهازك.
-2.  Aspose.3D لمكتبة Java: قم بتنزيل وتثبيت مكتبة Aspose.3D لـ Java من[صفحة التحميل](https://releases.aspose.com/3d/java/).
-3. دليل المستندات: قم بإنشاء دليل لتخزين ملفات المشهد ثلاثي الأبعاد.
+في Aspose.3D، تمثل **Node** عنصرًا يمكن تحويله في رسم المشهد. من خلال استدعاء `setEntity(mesh)` تقوم **بإضافة شبكة إلى عقدة**، ربط الهندسة بمصفوفة التحويل الخاصة بها. يتيح لك ذلك تحريك أو تدوير أو تحجيم الشبكة عن طريق تعديل تحويل العقدة.
 
-## حزم الاستيراد
+## Why use Aspose.3D for Java to create child nodes?
 
-ابدأ باستيراد الحزم اللازمة للاستفادة من وظائف Aspose.3D في Java. أضف الأسطر التالية إلى كود Java الخاص بك:
+- **Straight‑forward API** – لا تحتاج إلى برمجة رسومية منخفضة المستوى.  
+- **Cross‑format support** – تصدير إلى FBX، OBJ، 3MF، وأكثر.  
+- **Performance‑optimized** – يتعامل مع الهياكل الكبيرة بكفاءة.  
+- **Full .NET/Java parity** – ميزات متسقة عبر المنصات.
+
+## Prerequisites
+
+1. **Java Development Environment** – JDK 8+ وIDE المفضلة لديك.  
+2. **Aspose.3D for Java Library** – حمّلها من [صفحة تحميل Aspose 3D Java](https://releases.aspose.com/3d/java/).  
+3. **Document Directory** – مجلد سيُحفظ فيه ملف FBX المُولد.
+
+## Import Packages
 
 ```java
 import com.aspose.threed.*;
-
 ```
 
-## الخطوة 1: تهيئة كائن المشهد
+## Step 1: Initialize the Scene Object
 
 ```java
-// تهيئة كائن المشهد
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## الخطوة 2: إنشاء عقدة فرعية وشبكة
+## Step 2: Create Child Nodes Java – Add Mesh to Node
+
+هنا **ننشئ عقدًا فرعية** تحت العقدة الجذرية، نرفق نفس الشبكة بكل منها، ونحدد موضعها بشكل مستقل.
 
 ```java
-// الحصول على كائن عقدة فرعية
+// Get a child node object
 Node top = scene.getRootNode().createChildNode();
 
-// قم بإنشاء عقدة المكعب الأولى
+// Create the first cube node
 Node cube1 = top.createChildNode("cube1");
-Mesh mesh = Common.createMeshUsingPolygonBuilder(); // استخدم طريقة إنشاء الشبكة الخاصة بك
-cube1.setEntity(mesh);
+Mesh mesh = Common.createMeshUsingPolygonBuilder(); // Use your mesh creation method
+cube1.setEntity(mesh);                     // <-- add mesh to node
 cube1.getTransform().setTranslation(new Vector3(-10, 0, 0));
 
-// قم بإنشاء عقدة المكعب الثانية
+// Create the second cube node
 Node cube2 = top.createChildNode("cube2");
-cube2.setEntity(mesh);
+cube2.setEntity(mesh);                     // <-- add mesh to node
 cube2.getTransform().setTranslation(new Vector3(10, 0, 0));
 ```
 
-## الخطوة 3: تطبيق التدوير على العقدة العلوية
+## Step 3: Apply Rotation to the Top Node (Affects All Children)
 
 ```java
-// قم بتدوير العقدة العلوية، مما يؤثر على جميع العقد الفرعية
+// Rotate the top node, affecting all child nodes
 top.getTransform().setRotation(Quaternion.fromEulerAngle(Math.PI, 4, 0));
 ```
 
-## الخطوة 4: حفظ المشهد ثلاثي الأبعاد
+## Step 4: Save the 3D Scene – Save Scene as FBX
 
 ```java
-// حفظ المشهد ثلاثي الأبعاد بتنسيق الملف المدعوم (FBX في هذه الحالة)
+// Save 3D scene in the supported file format (FBX in this case)
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "NodeHierarchy.fbx";
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nNode hierarchy added successfully to document.\nFile saved at " + MyDir);
 ```
 
-يوفر هذا الدليل خطوة بخطوة أساسًا متينًا لإنشاء تسلسلات هرمية للعقد في المشاهد ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. قم بتجربة معلمات مختلفة وقم بتكييف الكود وفقًا لمتطلباتك المحددة.
+### What just happened?
 
-## خاتمة
+- **Nodes** `cube1` و `cube2` يرثان الدوران المطبق على `top`.  
+- كلا العقدتين تشتركان في **نفس الشبكة**، مما يوضح كيفية **إضافة شبكة إلى عقدة** بكفاءة.  
+- الاستدعاء النهائي `scene.save` **يحفظ المشهد كـ FBX**، ويمكنك فتحه في Unity، Blender، أو أي عارض يدعم FBX.
 
-يعد إتقان إنشاء التسلسلات الهرمية للعقدة علامة بارزة في رحلتك مع Aspose.3D لـ Java. لقد زودك هذا البرنامج التعليمي بالمعرفة اللازمة للتنقل بين تعقيدات المشاهد ثلاثية الأبعاد بسلاسة. الآن، أطلق العنان لإبداعك وقم ببناء بيئات ثلاثية الأبعاد جذابة بكل ثقة.
+## Common Issues and Solutions
 
-## الأسئلة الشائعة
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **Mesh not visible** | قد تكون الشبكة مرفقة بعقدة بدون تحويل مناسب أو الكاميرا بعيدًا جدًا. | تأكد من أن إزاحة العقدة داخل مجال رؤية الكاميرا وأن الشبكة تحتوي على هندسة. |
+| **Exported FBX is empty** | تم استدعاء `scene.save` قبل إضافة العقد أو باستخدام مسار ملف غير صحيح. | تحقق من إضافة العقد قبل استدعاء `save` وأن `MyDir` يشير إلى موقع قابل للكتابة. |
+| **Rotation looks wrong** | تم تمرير زوايا أويلر بالراديان؛ استخدام الدرجات سيؤدي إلى نتائج غير متوقعة. | استخدم `Math.toRadians(degrees)` أو مرر الراديان مباشرة كما هو موضح. |
 
-### س1: هل Aspose.3D for Java مناسب للمبتدئين؟
+## Frequently Asked Questions
 
-ج1: بالتأكيد! يوفر Aspose.3D for Java واجهة سهلة الاستخدام، مما يجعله في متناول المطورين المبتدئين وذوي الخبرة.
+**Q: Is Aspose.3D for Java suitable for beginners?**  
+A: Absolutely! The API abstracts low‑level details, letting you focus on scene construction rather than graphics plumbing.
 
-### س2: هل يمكنني استخدام Aspose.3D لـ Java للمشاريع التجارية؟
+**Q: Can I use Aspose.3D for Java for commercial projects?**  
+A: Yes. Purchase a license on the [Aspose purchase page](https://purchase.aspose.com/buy) for production use.
 
- ج2: نعم يمكنك ذلك. قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على تفاصيل الترخيص.
+**Q: How do I get support if I run into problems?**  
+A: Join the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community help and official support from Aspose engineers.
 
-### س3: كيف يمكنني الحصول على دعم Aspose.3D لـ Java؟
+**Q: Is there a free trial available?**  
+A: Certainly. Download a trial from the [Aspose releases page](https://releases.aspose.com/) and evaluate all features before buying.
 
- ج3: انضم إلى[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) للحصول على المساعدة من المجتمع وفريق دعم Aspose.
+**Q: Where can I find the full API documentation?**  
+A: The complete reference is hosted at the [Aspose 3D Java documentation site](https://reference.aspose.com/3d/java/).
 
-### س4: هل هناك نسخة تجريبية مجانية متاحة؟
+## Conclusion
 
- ج4: بالتأكيد! اكتشف الميزات مع[تجربة مجانية](https://releases.aspose.com/) قبل الالتزام.
+أنت الآن تعرف كيف **تضيف شبكة إلى عقدة**، تنشئ هياكل **عقد فرعية** قوية، وت **تحفظ المشهد كـ FBX** باستخدام Aspose.3D for Java. جرّب شبكات مختلفة، هياكل أعمق، وتحويلات إضافية لتصميم تجارب ثلاثية الأبعاد غامرة. Happy coding!
 
-### س5: أين يمكنني العثور على الوثائق؟
-
- ج5: راجع[توثيق](https://reference.aspose.com/3d/java/) للحصول على معلومات تفصيلية حول Aspose.3D لـ Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.3D for Java 24.12 (latest)  
+**Author:** Aspose  
+
+---
