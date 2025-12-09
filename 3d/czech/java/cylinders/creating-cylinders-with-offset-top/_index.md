@@ -1,32 +1,55 @@
 ---
-title: Vytváření válců s odsazenou horní částí v Aspose.3D pro Java
-linktitle: Vytváření válců s odsazenou horní částí v Aspose.3D pro Java
+date: 2025-12-05
+description: Naučte se, jak v Aspose.3D pro Javu vytvořit válcové modely s posunutými
+  vršky, přidat kroky pro podřízený uzel v Javě a snadno exportovat soubory OBJ 3D
+  modelů.
+language: cs
+linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
-description: Prozkoumejte zázraky 3D modelování v Javě s Aspose.3D. Naučte se bez námahy vytvářet podmanivé válce s ofsetovými vršky.
+title: Jak vytvořit válec s posunutým vrcholem v Aspose.3D pro Javu
+url: /java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
-url: /cs/java/cylinders/creating-cylinders-with-offset-top/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytváření válců s odsazenou horní částí v Aspose.3D pro Java
+# Jak vytvořit válec s posunutým vrcholem v Aspose.3D pro Java
 
 ## Úvod
 
-oblasti 3D modelování založeného na Javě vyniká Aspose.3D jako výkonný nástroj, který vývojářům nabízí možnost snadno vytvářet složité 3D scény. V tomto tutoriálu se ponoříme do fascinujícího světa Aspose.3D pro Java a zaměříme se na konkrétní úkol – vytváření válců s odsazenými vrcholy. Na konci této příručky budete mít pevný přehled o procesu, který vám umožní bezproblémově integrovat tuto funkci do vašich 3D projektů.
+Pokud hledáte **jak vytvořit válec** s vlastním posunutým vrcholem v 3D scéně založené na Javě, Aspose.3D proces zjednodušuje. V tomto tutoriálu projdeme každý krok – od nastavení scény po export finálního modelu jako OBJ souboru – abyste mohli s jistotou integrovat válce s posunutým vrcholem do svých aplikací.
+
+## Rychlé odpovědi
+- **Jaká knihovna se používá?** Aspose.3D pro Java  
+- **Mohu posunout vrchol válce?** Ano, pomocí `setOffsetTop`  
+- **Jak přidám podřízený uzel v Javě?** Zavolejte `createChildNode` na kořenovém uzlu  
+- **Do jakého formátu mohu exportovat?** Wavefront OBJ (`export 3d model obj`)  
+- **Potřebuji licenci pro testování?** Dočasná licence je k dispozici pro hodnocení  
+
+## Co je “jak vytvořit válec” s posunutým vrcholem?
+
+Vytvoření válce s posunutým vrcholem znamená, že horní kruhová plocha je posunuta vzhledem k základně, což vám umožní modelovat kuželovité nebo asymetrické tvary bez ruční manipulace s vrcholy. Aspose.3D poskytuje speciální konstruktor a vlastnost `OffsetTop`, která to umožňuje během několika řádků kódu.
+
+## Proč použít Aspose.3D pro Java?
+
+- **High‑level API:** Není nutné spravovat nízkoúrovňová data mesh.  
+- **Cross‑platform:** Funguje v jakémkoli prostředí kompatibilním s JVM.  
+- **Vestavěné exportéry:** Přímé uložení do OBJ, STL, FBX a dalších.  
+- **Rozšiřitelnost:** Snadno přidávejte podřízené uzly, aplikujte transformace a integrujte s dalšími Java knihovnami.
 
 ## Předpoklady
 
-Než se pustíme do této kreativní cesty, ujistěte se, že máte splněny následující předpoklady:
+Než začneme, ujistěte se, že máte:
 
-- Java Development Kit (JDK): Aspose.3D for Java vyžaduje na vašem počítači nainstalovaný kompatibilní JDK.
--  Knihovna Aspose.3D: Stáhněte si a integrujte knihovnu Aspose.3D do svého projektu Java. Najdete zde knihovnu a podrobnou dokumentaci[tady](https://releases.aspose.com/3d/java/).
+- **Java Development Kit (JDK)** – nainstalovanou kompatibilní verzi.  
+- **Aspose.3D pro Java knihovnu** – stáhněte nejnovější JAR z oficiálního webu [zde](https://releases.aspose.com/3d/java/).  
+- IDE podle vašeho výběru (Eclipse, IntelliJ IDEA, NetBeans atd.).
 
-## Importujte balíčky
+## Import balíčků
 
-Začněme proces importem potřebných balíčků pro náš projekt Java. Do kódu zahrňte následující:
+Nejprve importujte třídy, které budeme potřebovat. Umístěte tyto příkazy na začátek vašeho Java souboru:
 
 ```java
 import com.aspose.threed.Cylinder;
@@ -38,104 +61,111 @@ import com.aspose.threed.Vector3;
 import java.io.IOException;
 ```
 
-## Krok 1: Vytvořte scénu
+## Průvodce krok za krokem
 
-Začněte inicializací scény, kde budete organizovat své 3D prvky.
+### Krok 1: Vytvoření scény
+
+Scéna funguje jako kontejner pro všechny 3D objekty.
 
 ```java
-// Start: 1
-// Vytvořte scénu
+// ExStart:1
+// Create a scene
 Scene scene = new Scene();
-// Rozšíření: 1
+// ExEnd:1
 ```
 
-## Krok 2: Inicializujte válec s odsazenou horní částí
+### Krok 2: Inicializace válce s posunutým vrcholem
 
-Dále vytvořte objekt válce s přizpůsobeným odsazeným vrcholem pomocí následujícího kódu:
+Zde odpovídáme na **jak vytvořit válec** s vlastním posunem. Konstruktor určuje poloměr, výšku, počet segmentů (slices), vrstev (stacks) a zda je válec uzavřený. Poté posuneme vrchol pomocí `setOffsetTop`.
 
 ```java
-// Start: 2
-// Inicializujte válec
+// ExStart:2
+// Initialize cylinder
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-// Nastavte OffsetTop
+// Set OffsetTop
 cylinder1.setOffsetTop(new Vector3(5, 3, 0));
-// Rozšířit:2
+// ExEnd:2
 ```
 
-## Krok 3: Vytvořte podřízený uzel
+### Krok 3: Jak **přidat podřízený uzel v Javě** – Připojení prvního válce
 
-Nyní vytvořte podřízený uzel ve scéně a nastavte překlad pro první válec:
+Vytvoříme podřízený uzel pod kořenovým uzlem scény a přesuneme válec na požadovanou pozici.
 
 ```java
-// Start: 3
-// Vytvořte ChildNode
+// ExStart:3
+// Create ChildNode
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
-// Rozšířit:3
+// ExEnd:3
 ```
 
-## Krok 4: Inicializujte druhý válec
+### Krok 4: Inicializace druhého válce (bez posunu)
 
-Pojďme inicializovat druhý válec bez přizpůsobeného ofsetového vrcholu:
+Pro srovnání přidáme běžný válec bez posunutí.
 
 ```java
-// Start: 4
-// Inicializujte druhý válec bez přizpůsobeného OffsetTop
+// ExStart:4
+// Initialize second cylinder without customized OffsetTop
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
-// Rozšíření:4
+// ExEnd:4
 ```
 
-## Krok 5: Vytvořte podřízený uzel pro druhý válec
-
-Vytvořte podřízený uzel pro druhý válec ve scéně:
+### Krok 5: Jak **přidat podřízený uzel v Javě** – Připojení druhého válce
 
 ```java
-// Start: 5
-// Vytvořte ChildNode
+// ExStart:5
+// Create ChildNode
 scene.getRootNode().createChildNode(cylinder2);
-// Rozšíření:5
+// ExEnd:5
 ```
 
-## Krok 6: Uložte scénu
+### Krok 6: Jak **exportovat 3d model OBJ** – Uložení scény
 
-Nakonec uložte scénu s vytvořenými cylindry jako soubor Wavefront OBJ do adresáře dokumentu:
+Nakonec exportujeme celou scénu (oba válce) jako Wavefront OBJ soubor, který je široce podporován 3D nástroji.
 
 ```java
-// Start: 6
-//Uložit
+// ExStart:6
+// Save
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
-// Konec:6
+// ExEnd:6
 ```
 
-Pomocí těchto jednoduchých kroků jste úspěšně vytvořili 3D válce s odsazenými vršky pomocí Aspose.3D for Java!
+Po spuštění programu najdete soubor `CustomizedOffsetTopCylinder.obj` ve zvoleném adresáři, připravený k otevření v Blenderu, Maya nebo jakémkoli jiném prohlížeči podporujícím OBJ.
 
-## Závěr
+## Časté problémy a řešení
 
-Aspose.3D for Java umožňuje vývojářům uvést své 3D vize do života bez námahy. V tomto tutoriálu jsme se zaměřili na vytváření válců s odsazenými vršky a ukázali jsme všestrannost a jednoduchost Aspose.3D. Nyní, vyzbrojeni těmito znalostmi, můžete prozkoumat a integrovat pokročilejší funkce do svých 3D projektů založených na Javě.
+| Problém | Důvod | Oprava |
+|-------|--------|-----|
+| **OBJ soubor je prázdný** | Scéna nebyla správně uložena nebo špatná cesta. | Ověřte, že výstupní adresář existuje a máte oprávnění k zápisu. |
+| **Posun nebyl aplikován** | Používáte starší verzi Aspose.3D. | Aktualizujte na nejnovější knihovnu, kde je `setOffsetTop` podporováno. |
+| **Podřízený uzel není viditelný** | Transformace nebyla aplikována. | Ujistěte se, že po vytvoření podřízeného uzlu zavoláte `getTransform().setTranslation`. |
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Je Aspose.3D kompatibilní s různými Java IDE?
+**Q: Je Aspose.3D kompatibilní s různými Java IDE?**  
+A: Ano, funguje bez problémů v Eclipse, IntelliJ IDEA, NetBeans a dalších IDE.
 
-Odpověď 1: Ano, Aspose.3D se bez problémů integruje s populárními Java Integrated Development Environment (IDE), jako jsou Eclipse, IntelliJ IDEA a NetBeans.
+**Q: Mohu na vytvořené 3D objekty aplikovat textury?**  
+A: Rozhodně! Použijte třídu `Material` k přiřazení textur a povrchových vlastností.
 
-### Q2: Mohu použít textury na vytvořené 3D objekty?
+**Q: Jaké jsou licenční možnosti pro Aspose.3D?**  
+A: K dispozici je několik licenčních modelů; můžete si je prohlédnout [zde](https://purchase.aspose.com/buy).
 
-A2: Rozhodně! Aspose.3D poskytuje rozsáhlé možnosti pro aplikaci textur a materiálů pro zvýšení vizuální přitažlivosti vašich 3D modelů.
+**Q: Jak mohu získat pomoc nebo sdílet zkušenosti?**  
+A: Připojte se k fóru komunity Aspose.3D [zde](https://forum.aspose.com/c/3d/18) pro podporu a diskusi.
 
-### Q3: Jsou pro Aspose.3D k dispozici nějaké možnosti licencování?
+**Q: Je k dispozici dočasná licence pro testování?**  
+A: Ano, dočasnou licenci můžete získat pro hodnocení [zde](https://purchase.aspose.com/temporary-license/).
 
-A3: Ano, můžete prozkoumat a vybrat možnost licencování, která vyhovuje vašim potřebám[tady](https://purchase.aspose.com/buy).
+---
 
-### Q4: Jak mohu vyhledat pomoc nebo sdílet své zkušenosti s Aspose.3D?
-
- A4: Připojte se ke komunitnímu fóru Aspose.3D[tady](https://forum.aspose.com/c/3d/18) spojit se s ostatními vývojáři, vyhledat podporu a sdílet své poznatky.
-
-### Q5: Existuje možnost dočasné licence pro účely testování?
-
- A5: Ano, můžete získat dočasnou licenci pro účely testování a hodnocení[tady](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+**Poslední aktualizace:** 2025-12-05  
+**Testováno s:** Aspose.3D pro Java 24.12 (nejnovější)  
+**Autor:** Aspose

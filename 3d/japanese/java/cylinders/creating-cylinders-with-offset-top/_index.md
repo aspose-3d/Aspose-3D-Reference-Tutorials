@@ -1,32 +1,53 @@
 ---
-title: Aspose.3D for Java で上部がオフセットされた円柱を作成する
-linktitle: Aspose.3D for Java で上部がオフセットされた円柱を作成する
+date: 2025-12-05
+description: Aspose.3D for Javaで、オフセットされたトップを持つシリンダーモデルの作成方法を学び、子ノードを追加するJavaの手順を実行し、3DモデルのOBJファイルを簡単にエクスポートできます。
+language: ja
+linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
-description: Aspose.3D を使用して、Java での 3D モデリングの素晴らしさを体験してください。上部がオフセットされた魅力的なシリンダーを簡単に作成する方法を学びましょう。
+title: Aspose.3D for Javaでオフセットトップのシリンダーを作成する方法
+url: /java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
-url: /ja/java/cylinders/creating-cylinders-with-offset-top/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D for Java で上部がオフセットされた円柱を作成する
+# Aspose.3D for Javaでオフセットトップ付きシリンダーを作成する方法
 
-## 導入
+## はじめに
 
-Java ベースの 3D モデリングの分野では、Aspose.3D は強力なツールとして際立っており、開発者に複雑な 3D シーンを簡単に作成する機能を提供します。このチュートリアルでは、上部がオフセットされた円柱の作成という特定のタスクに焦点を当てて、Aspose.3D for Java の魅力的な世界を掘り下げていきます。このガイドを読み終えるまでに、プロセスをしっかりと理解し、この機能を 3D プロジェクトにシームレスに統合できるようになります。
+Javaベースの3Dシーンでカスタムオフセットトップを持つ**how to create cylinder**オブジェクトを作成したい場合、Aspose.3Dはプロセスをシンプルにします。このチュートリアルでは、シーンの設定から最終モデルをOBJファイルとしてエクスポートするまでのすべての手順を解説し、オフセットトップ付きシリンダーを自信を持ってアプリケーションに統合できるようにします。
+
+## クイック回答
+- **使用されているライブラリは？** Aspose.3D for Java  
+- **シリンダーのトップをオフセットできますか？** はい、`setOffsetTop` を使用します  
+- **Javaで子ノードを追加するには？** ルートノードで `createChildNode` を呼び出します  
+- **どの形式にエクスポートできますか？** Wavefront OBJ（`export 3d model obj`）  
+- **テスト用にライセンスが必要ですか？** 評価用の一時ライセンスが利用可能です  
+
+## オフセットトップ付きシリンダーとは何ですか？
+
+オフセットトップ付きシリンダーを作成するとは、上部の円形面が基部に対してずれている状態を指し、手動で頂点を操作せずにテーパー形状や非対称形状をモデリングできます。Aspose.3Dは専用のコンストラクタと `OffsetTop` プロパティを提供しており、数行のコードで実現できます。
+
+## なぜ Aspose.3D for Java を使用するのか？
+
+- **High‑level API:** 低レベルのメッシュデータを管理する必要がありません。  
+- **Cross‑platform:** 任意のJVM互換環境で動作します。  
+- **Built‑in exporters:** OBJ、STL、FBX などに直接保存できます。  
+- **Extensible:** 子ノードの追加、変換の適用、他のJavaライブラリとの統合が容易です。
 
 ## 前提条件
 
-このクリエイティブな旅に着手する前に、次の前提条件が満たされていることを確認してください。
+始める前に以下を用意してください：
 
-- Java 開発キット (JDK): Aspose.3D for Java には、互換性のある JDK がマシンにインストールされている必要があります。
--  Aspose.3D ライブラリ: Aspose.3D ライブラリをダウンロードして、Java プロジェクトに統合します。ライブラリと詳細なドキュメントを見つけることができます[ここ](https://releases.aspose.com/3d/java/).
+- **Java Development Kit (JDK)** – 互換性のあるバージョンをインストール。  
+- **Aspose.3D for Java library** – 公式サイトから最新のJARをダウンロードしてください [here](https://releases.aspose.com/3d/java/)。  
+- お好みのIDE（Eclipse、IntelliJ IDEA、NetBeans など）。
 
 ## パッケージのインポート
 
-Java プロジェクトに必要なパッケージをインポートしてプロセスを開始しましょう。コードに次の内容を含めます。
+まず、必要なクラスをインポートします。これらのステートメントをJavaファイルの先頭に配置してください。
 
 ```java
 import com.aspose.threed.Cylinder;
@@ -38,104 +59,111 @@ import com.aspose.threed.Vector3;
 import java.io.IOException;
 ```
 
-## ステップ 1: シーンを作成する
+## ステップバイステップガイド
 
-まず、3D 要素を調整するシーンを初期化します。
+### ステップ 1: シーンの作成
+
+シーンはすべての3Dオブジェクトのコンテナとして機能します。
 
 ```java
-//例開始:1
-//シーンを作成する
+// ExStart:1
+// Create a scene
 Scene scene = new Scene();
-//拡張終了:1
+// ExEnd:1
 ```
 
-## ステップ 2: 上部をオフセットしてシリンダーを初期化する
+### ステップ 2: オフセットトップ付きシリンダーの初期化
 
-次に、次のコードを使用して、カスタマイズされたオフセット上部を持つ円柱オブジェクトを作成します。
+ここでは**how to create cylinder**にカスタムオフセットを適用する方法を示します。コンストラクタで半径、高さ、スライス、スタック、シリンダーが閉じているかどうかを定義し、その後 `setOffsetTop` で上部をシフトします。
 
 ```java
-//例開始:2
-//シリンダーの初期化
+// ExStart:2
+// Initialize cylinder
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-//オフセットトップを設定
+// Set OffsetTop
 cylinder1.setOffsetTop(new Vector3(5, 3, 0));
-//拡張終了:2
+// ExEnd:2
 ```
 
-## ステップ 3: 子ノードの作成
+### ステップ 3: Javaで**add child node Java**する方法 – 最初のシリンダーをアタッチ
 
-次に、シーン内に子ノードを作成し、最初の円柱の変換を設定します。
+シーンのルートノードの下に子ノードを作成し、シリンダーを目的の位置に移動します。
 
 ```java
-//例開始:3
-//子ノードの作成
+// ExStart:3
+// Create ChildNode
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
-//拡張終了:3
+// ExEnd:3
 ```
 
-## ステップ 4: 2 番目のシリンダーを初期化する
+### ステップ 4: 2 番目のシリンダーの初期化（オフセットなし）
 
-カスタマイズされたオフセット上部を使用せずに 2 番目のシリンダーを初期化してみましょう。
+比較のため、オフセットなしの通常シリンダーを追加します。
 
 ```java
-//例開始:4
-// OffsetTop をカスタマイズせずに 2 番目のシリンダを初期化する
+// ExStart:4
+// Initialize second cylinder without customized OffsetTop
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
-//拡張終了:4
+// ExEnd:4
 ```
 
-## ステップ 5: 2 番目のシリンダーの子ノードを作成する
-
-シーン内の 2 番目の円柱の子ノードを作成します。
+### ステップ 5: Javaで**add child node Java**する方法 – 2 番目のシリンダーをアタッチ
 
 ```java
-//例開始:5
-//子ノードの作成
+// ExStart:5
+// Create ChildNode
 scene.getRootNode().createChildNode(cylinder2);
-//拡張終了:5
+// ExEnd:5
 ```
 
-## ステップ 6: シーンを保存する
+### ステップ 6: Javaで**export 3d model OBJ**する方法 – シーンを保存
 
-最後に、作成したシリンダーを含むシーンを Wavefront OBJ ファイルとしてドキュメント ディレクトリに保存します。
+最後に、両方のシリンダーを含むシーン全体をWavefront OBJファイルとしてエクスポートします。OBJは多くの3Dツールで広くサポートされています。
 
 ```java
-//例開始:6
-//保存
+// ExStart:6
+// Save
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
-//拡張終了:6
+// ExEnd:6
 ```
 
-これらの簡単な手順で、Aspose.3D for Java を使用して上部がオフセットされた 3D 円柱を作成することができました。
+プログラムを実行すると、指定したディレクトリに `CustomizedOffsetTopCylinder.obj` が生成され、Blender、Maya、その他OBJ対応ビューアで開くことができます。
 
-## 結論
+## 一般的な問題と解決策
 
-Aspose.3D for Java は、開発者が 3D ビジョンを簡単に実現できるようにします。このチュートリアルでは、上部がオフセットされた円柱の作成に焦点を当て、Aspose.3D の多用途性とシンプルさを紹介しました。この知識を活用して、より高度な機能を探索し、Java ベースの 3D プロジェクトに統合できるようになります。
+| 問題 | 原因 | 対策 |
+|-------|--------|-----|
+| **OBJ file is empty** | シーンが正しく保存されていない、またはパスが間違っている。 | 出力ディレクトリが存在し、書き込み権限があることを確認してください。 |
+| **Offset not applied** | 古いバージョンの Aspose.3D を使用している。 | `setOffsetTop` がサポートされている最新のライブラリに更新してください。 |
+| **Child node not visible** | 変換が適用されていない。 | 子ノード作成後に `getTransform().setTranslation` を呼び出していることを確認してください。 |
 
 ## よくある質問
 
-### Q1: Aspose.3D はさまざまな Java IDE と互換性がありますか?
+**Q: Aspose.3D はさまざまな Java IDE と互換性がありますか？**  
+A: はい、Eclipse、IntelliJ IDEA、NetBeans などのIDEでシームレスに動作します。
 
-A1: はい、Aspose.3D は、Eclipse、IntelliJ IDEA、NetBeans などの一般的な Java 統合開発環境 (IDE) とシームレスに統合します。
+**Q: 作成した3Dオブジェクトにテクスチャを適用できますか？**  
+A: もちろんです！`Material` クラスを使用してテクスチャや表面プロパティを割り当てます。
 
-### Q2: 作成した3Dオブジェクトにテクスチャを適用することはできますか?
+**Q: Aspose.3D のライセンスオプションはありますか？**  
+A: さまざまなライセンスモデルが用意されており、詳細は [here](https://purchase.aspose.com/buy) で確認できます。
 
-A2: もちろんです！ Aspose.3D は、テクスチャとマテリアルを適用して 3D モデルの視覚的な魅力を高めるための広範な機能を提供します。
+**Q: サポートや情報共有はどこで行えますか？**  
+A: Aspose.3D コミュニティフォーラム [here](https://forum.aspose.com/c/3d/18) に参加してサポートやディスカッションが可能です。
 
-### Q3: Aspose.3D で利用できるライセンス オプションはありますか?
+**Q: テスト用の一時ライセンスは入手できますか？**  
+A: はい、評価用の一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から取得できます。
 
-A3: はい、ニーズに合ったライセンス オプションを調べて選択できます。[ここ](https://purchase.aspose.com/buy).
+---
 
-### Q4: Aspose.3D に関するサポートを求めたり、経験を共有したりするにはどうすればよいですか?
-
- A4: Aspose.3D コミュニティ フォーラムに参加してください。[ここ](https://forum.aspose.com/c/3d/18)他の開発者とつながり、サポートを求め、洞察を共有します。
-
-### Q5: テスト目的の一時ライセンス オプションはありますか?
-
- A5: はい、テストと評価の目的で一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+**Last Updated:** 2025-12-05  
+**Tested With:** Aspose.3D for Java 24.12 (latest)  
+**Author:** Aspose

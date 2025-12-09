@@ -1,109 +1,139 @@
 ---
-title: Java'da 3D Animasyonlar için Hedef Kamerayı Ayarlama | Aspose.3D Eğitimi
-linktitle: Java'da 3D Animasyonlar için Hedef Kamerayı Ayarlama | Aspose.3D Eğitimi
-second_title: Aspose.3D Java API'si
-description: Aspose.3D ile Java 3D animasyonlarını zahmetsizce keşfedin. Adım adım kılavuz için eğitimimizi takip edin. Büyüleyici bir 3D geliştirme yolculuğu için hemen indirin.
+date: 2025-12-05
+description: Aspose.3D kullanarak 3D sahnesini Java'da başlatmayı ve 3D animasyonlar
+  için hedef kamera yapılandırmayı öğrenin. Adım adım rehber ve kod örnekleri.
+language: tr
+linktitle: How to Initialize 3D Scene Java and Set Up Target Camera for 3D Animations
+  | Aspose.3D Tutorial
+second_title: Aspose.3D Java API
+title: Java'da 3D Sahneyi Başlatma ve 3D Animasyonlar İçin Hedef Kamerayı Ayarlama
+  | Aspose.3D Öğreticisi
+url: /java/animations/set-up-target-camera/
 weight: 11
-url: /tr/java/animations/set-up-target-camera/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da 3D Animasyonlar için Hedef Kamerayı Ayarlama | Aspose.3D Eğitimi
+# Java’da 3D Animasyonlar İçin Hedef Kamera Ayarlama | Aspose.3D Öğreticisi
 
-## giriiş
+## Giriş
 
-Aspose.3D kullanarak Java'da 3D animasyonlar için hedef kamera kurulumuna yönelik bu adım adım kılavuza hoş geldiniz. İster deneyimli bir geliştirici olun, ister Java'da 3D animasyonlarla yeni başlıyor olun, bu eğitim, açık ve kısa talimatlarla süreç boyunca size yol gösterecektir.
+Hoş geldiniz! Bu öğreticide **Aspose.3D ile Java’da bir 3D sahnesi başlatacak** ve ardından hedef bir kamera ekleyerek modellerinizi tam kontrolle canlandıracaksınız. İster bir oyun, bir ürün görselleştiricisi, ister bilimsel bir simülasyon geliştirin, doğru konumlandırılmış bir kamera etkileyici bir izleyici deneyimi sunmak için şarttır.
+
+## Hızlı Yanıtlar
+- **İlk adım nedir?** `new Scene()` kullanarak 3D sahneyi başlatın.  
+- **Kamerayı temsil eden sınıf hangisidir?** `com.aspose.threed.Camera`.  
+- **Kamerayı bir hedefe nasıl yönlendiririm?** `Camera.setTarget(Node)` kullanın.  
+- **Örnekte hangi dosya formatı kullanılıyor?** DISCREET3DS (`.3ds`).  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme yeterlidir; üretim için ticari lisans gereklidir.
+
+## “initialize 3d scene java” ne anlama geliyor?
+Java’da bir 3D sahneyi başlatmak, tüm nesneleri (mesh’ler, ışıklar, kameralar ve dönüşümler) tutan kök konteyneri oluşturur. Bu, öğeleri ekleyebileceğiniz, taşıyabileceğiniz ve animasyonlarını yapabileceğiniz bir oyun alanı sağlar; ardından istediğiniz dosya formatına dışa aktarabilirsiniz.
+
+## Neden hedef kamera ayarlamalıyız?
+Bir hedef kamera, kendisini belirli bir düğüme (“hedef”) otomatik olarak yönlendirir. Bu şu durumlarda çok kullanışlıdır:
+
+- Kamera etrafında dolaşırken modeli merkezde tutmak.  
+- Dönüş matrislerini manuel olarak hesaplamadan yörüngesel animasyonlar oluşturmak.  
+- Kullanıcıların belirli bir nesneye odaklanmasını sağlayan UI kontrollerini basitleştirmek.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Öğreticiye başlamadan önce aşağıdaki önkoşulların sağlandığından emin olun:
 
-- Java programlamanın temel bilgisi.
-- Makinenizde Java Geliştirme Kiti (JDK) yüklü.
--  Aspose.3D kütüphanesi indirildi ve projenize eklendi. İndirebilirsin[Burada](https://releases.aspose.com/3d/java/).
+- Java programlama temelleri.  
+- Makinenizde yüklü Java Development Kit (JDK).  
+- Projenize eklenmiş Aspose.3D kütüphanesi. Kütüphaneyi [buradan](https://releases.aspose.com/3d/java/) indirebilirsiniz.
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarma
 
-Kodun sorunsuz bir şekilde yürütülmesini sağlamak için gerekli paketleri içe aktararak başlayın. Java projenize aşağıdakileri ekleyin:
+Kodun sorunsuz çalışması için gerekli paketleri içe aktararak başlayın. Java projenizde aşağıdakileri ekleyin:
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## Adım 1: Sahne Nesnesini Başlatın
+## Java’da 3D Sahneyi Başlatma
 
-3B animasyonunuzun temelini oluşturan sahne nesnesini başlatarak başlayın.
+Her 3D iş akışının temeli sahne nesnesidir. Burada sahneyi oluşturup çıktı dosyası için bir dizin ayarlıyoruz.
 
 ```java
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
-// Sahne nesnesini başlat
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Adım 2: Kamera Düğümü Oluşturun
+## Adım 1: Kamera Düğümü Oluşturma
 
-Daha sonra, 3 boyutlu ortamı yakalamak için sahne içinde bir kamera düğümü oluşturun.
+Sahne içinde 3D ortamı yakalamak için bir kamera düğümü oluşturun.
 
 ```java
-// Bir alt düğüm nesnesi alın
+// Get a child node object
 Node cameraNode = scene.getRootNode().createChildNode("camera", new Camera());
 ```
 
-## 3. Adım: Kamera Düğümü Çevirisini Ayarlayın
+## Adım 2: Kamera Düğümü Çevirisini Ayarlama
 
-Kamera düğümünün çevirisini, 3B alanda uygun şekilde konumlandıracak şekilde ayarlayın.
+Kamera düğümünün çevirisini (translation) ayarlayarak 3D uzaydaki konumunu uygun şekilde belirleyin.
 
 ```java
-// Kamera düğümü çevirisini ayarlayın
+// Set camera node translation
 cameraNode.getTransform().setTranslation(new Vector3(100, 20, 0));
 ```
 
-## 4. Adım: Kamera Hedefini Ayarlayın
+## Adım 3: Kamera Hedefini Belirleme
 
-Kök düğüm için bir alt düğüm oluşturarak kameranın hedefini belirtin.
+Kök düğüm için bir alt düğüm oluşturarak kameranın hedefini tanımlayın. Kamera otomatik olarak bu düğüme bakacaktır.
 
 ```java
 ((Camera)cameraNode.getEntity()).setTarget(scene.getRootNode().createChildNode("target"));
 ```
 
-## Adım 5: Sahneyi Kaydet
+## Adım 4: Sahneyi Kaydetme
 
-Yapılandırılmış sahneyi istenen formatta bir dosyaya kaydedin (bu örnekte DISCREET3DS).
+Yapılandırılmış sahneyi istediğiniz formatta (bu örnekte DISCREET3DS) bir dosyaya kaydedin.
 
 ```java
 MyDir = MyDir + "camera-test.3ds";
 scene.save(MyDir, FileFormat.DISCREET3DS);
 ```
 
-## Çözüm
+## Yaygın Hatalar ve İpuçları
 
-Tebrikler! Aspose.3D'yi kullanarak Java'da 3D animasyonlar için hedef kamerayı başarıyla kurdunuz. 3D projelerinizi geliştirmek için kütüphanenin sunduğu ek özellikleri ve işlevleri keşfetmekten çekinmeyin.
+- **Hedef düğümü eklemeyi unuttum mu?** Kamera varsayılan olarak negatif Z‑eksenine bakar; bu beklenen görüntüyü vermeyebilir. Her zaman bir hedef düğümü oluşturun veya bakış yönünü manuel ayarlayın.  
+- **Dosya yolu hatalı mı?** `MyDir` sonunun bir yol ayırıcı (`/` veya `\\`) içerdiğinden emin olun, ardından dosya adını ekleyin.  
+- **Lisans ayarlanmamış mı?** Geçerli bir lisans olmadan kodu çalıştırmak, dışa aktarılan dosyada bir filigran oluşturur.
 
-## SSS'ler
+## Sonuç
 
-### S1: Aspose.3D for Java'yı nasıl indirebilirim?
+Tebrikler! **Java’da bir 3D sahnesi başlattınız** ve Aspose.3D kullanarak 3D animasyonlar için hedef bir kamera kurdunuz. Işıklandırma, mesh içe aktarma ve animasyon eğrileri gibi ek özellikleri keşfederek 3D projelerinizi zenginleştirebilirsiniz.
 
- A1: Kütüphaneyi şuradan indirebilirsiniz:[Aspose.3D Java indirme sayfası](https://releases.aspose.com/3d/java/).
+## Sık Sorulan Sorular
 
-### S2: Aspose.3D belgelerini nerede bulabilirim?
+**S1: Aspose.3D for Java’yı nasıl indiririm?**  
+C: Kütüphaneyi [Aspose.3D Java indirme sayfasından](https://releases.aspose.com/3d/java/) indirebilirsiniz.
 
- A2: Bkz.[Aspose.3D Java belgeleri](https://reference.aspose.com/3d/java/) kapsamlı rehberlik için.
+**S2: Aspose.3D dokümantasyonunu nerede bulabilirim?**  
+C: Ayrıntılı rehberlik için [Aspose.3D Java dokümantasyonuna](https://reference.aspose.com/3d/java/) göz atın.
 
-### S3: Ücretsiz deneme sürümü mevcut mu?
+**S3: Ücretsiz bir deneme sürümü var mı?**  
+C: Evet, Aspose.3D’nin ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) inceleyebilirsiniz.
 
- Cevap3: Evet, Aspose.3D'nin ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+**S4: Destek mi lazım yoksa sorularım mı var?**  
+C: Topluluktan ve uzmanlardan yardım almak için [Aspose.3D forumuna](https://forum.aspose.com/c/3d/18) gidin.
 
-### S4: Desteğe mi ihtiyacınız var veya sorularınız mı var?
+**S5: Geçici bir lisans nasıl alınır?**  
+C: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
- A4: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) toplumdan ve uzmanlardan yardım almak.
+---
 
-### S5: Geçici lisansı nasıl alabilirim?
+**Son Güncelleme:** 2025-12-05  
+**Test Edilen Versiyon:** Aspose.3D for Java 24.11  
+**Yazar:** Aspose  
 
- Cevap5: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

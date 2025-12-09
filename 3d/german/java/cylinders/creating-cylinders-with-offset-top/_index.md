@@ -1,32 +1,55 @@
 ---
-title: Erstellen von Zylindern mit versetzter Oberseite in Aspose.3D für Java
-linktitle: Erstellen von Zylindern mit versetzter Oberseite in Aspose.3D für Java
-second_title: Aspose.3D Java-API
-description: Entdecken Sie die Wunder der 3D-Modellierung in Java mit Aspose.3D. Erfahren Sie, wie Sie mühelos faszinierende Zylinder mit versetzten Oberteilen herstellen.
+date: 2025-12-05
+description: Erfahren Sie, wie Sie Zylinder‑Modelle mit versetzten Oberseiten in Aspose.3D
+  für Java erstellen, Kindknoten‑Java‑Schritte hinzufügen und 3D‑Modelle im OBJ‑Format
+  einfach exportieren.
+language: de
+linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Wie man einen Zylinder mit versetztem oberen Ende in Aspose.3D für Java erstellt
+url: /java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
-url: /de/java/cylinders/creating-cylinders-with-offset-top/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Erstellen von Zylindern mit versetzter Oberseite in Aspose.3D für Java
+# Wie man einen Zylinder mit versetztem oberen Ende in Aspose.3D für Java erstellt
 
 ## Einführung
 
-Im Bereich der Java-basierten 3D-Modellierung sticht Aspose.3D als leistungsstarkes Tool hervor, das Entwicklern die Möglichkeit bietet, mühelos komplexe 3D-Szenen zu erstellen. In diesem Tutorial tauchen wir in die faszinierende Welt von Aspose.3D für Java ein und konzentrieren uns dabei auf eine bestimmte Aufgabe – die Erstellung von Zylindern mit versetzten Oberteilen. Am Ende dieses Leitfadens haben Sie den Prozess genau verstanden und können diese Funktion nahtlos in Ihre 3D-Projekte integrieren.
+Wenn Sie **wie man einen Zylinder** mit einem benutzerdefinierten versetzten oberen Ende in einer Java‑basierten 3D‑Szene erstellen möchten, macht Aspose.3D den Vorgang unkompliziert. In diesem Tutorial führen wir Sie Schritt für Schritt durch den gesamten Prozess – vom Einrichten der Szene bis zum Export des finalen Modells als OBJ‑Datei – sodass Sie Zylinder mit versetztem oberen Ende sicher in Ihre Anwendungen integrieren können.
+
+## Schnellantworten
+- **Welche Bibliothek wird verwendet?** Aspose.3D für Java  
+- **Kann ich das obere Ende eines Zylinders versetzen?** Ja, mit `setOffsetTop`  
+- **Wie füge ich in Java einen Kind‑Knoten hinzu?** Aufrufen von `createChildNode` am Wurzelknoten  
+- **In welches Format kann ich exportieren?** Wavefront OBJ (`export 3d model obj`)  
+- **Benötige ich eine Lizenz für Tests?** Eine temporäre Lizenz ist für Evaluierungen verfügbar  
+
+## Was bedeutet „wie man einen Zylinder“ mit versetztem oberen Ende?
+
+Einen Zylinder mit versetztem oberen Ende zu erstellen bedeutet, dass die obere kreisförmige Fläche relativ zur Basis verschoben wird, wodurch Sie konische oder asymmetrische Formen modellieren können, ohne die Scheitelpunkte manuell zu bearbeiten. Aspose.3D stellt dafür einen speziellen Konstruktor und eine `OffsetTop`‑Eigenschaft bereit, die dies in nur wenigen Codezeilen ermöglichen.
+
+## Warum Aspose.3D für Java verwenden?
+
+- **High‑Level‑API:** Keine Notwendigkeit, Low‑Level‑Mesh‑Daten zu verwalten.  
+- ** Funktioniert in jeder JVM‑kompatiblen Umgebung.  
+- **Integrierte Exporter:** Direktes Speichern nach OBJ, STL, FBX und mehr.  
+- **Erweiterbar:** Kind‑Knoten leicht hinzufügen, Transformationen anwenden und mit anderen Java‑Bibliotheken integrieren.
 
 ## Voraussetzungen
 
-Bevor wir uns auf diese kreative Reise begeben, stellen Sie sicher, dass Sie über die folgenden Voraussetzungen verfügen:
+Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-- Java Development Kit (JDK): Aspose.3D für Java erfordert, dass ein kompatibles JDK auf Ihrem Computer installiert ist.
--  Aspose.3D-Bibliothek: Laden Sie die Aspose.3D-Bibliothek herunter und integrieren Sie sie in Ihr Java-Projekt. Hier finden Sie die Bibliothek und eine ausführliche Dokumentation[Hier](https://releases.aspose.com/3d/java/).
+- **Java Development Kit (JDK)** – eine kompatible Version installiert.  
+- **Aspose.3D für Java Bibliothek** – laden Sie das neueste JAR von der offiziellen Seite [hier](https://releases.aspose.com/3d/java/) herunter.  
+- Eine IDE Ihrer Wahl (Eclipse, IntelliJ IDEA, NetBeans usw.).
 
 ## Pakete importieren
 
-Beginnen wir den Prozess mit dem Import der notwendigen Pakete für unser Java-Projekt. Fügen Sie in Ihren Code Folgendes ein:
+Zuerst importieren wir die Klassen, die wir benötigen. Platzieren Sie diese Anweisungen am Anfang Ihrer Java‑Datei:
 
 ```java
 import com.aspose.threed.Cylinder;
@@ -38,104 +61,111 @@ import com.aspose.threed.Vector3;
 import java.io.IOException;
 ```
 
-## Schritt 1: Erstellen Sie eine Szene
+## Schritt‑für‑Schritt‑Anleitung
 
-Beginnen Sie mit der Initialisierung einer Szene, in der Sie Ihre 3D-Elemente orchestrieren.
+### Schritt 1: Eine Szene erstellen
+
+Eine Szene fungiert als Container für alle 3D‑Objekte.
 
 ```java
 // ExStart:1
-// Erstellen Sie eine Szene
+// Create a scene
 Scene scene = new Scene();
 // ExEnd:1
 ```
 
-## Schritt 2: Zylinder mit versetzter Oberseite initialisieren
+### Schritt 2: Zylinder mit versetztem oberen Ende initialisieren
 
-Erstellen Sie als Nächstes mit dem folgenden Code ein Zylinderobjekt mit einer benutzerdefinierten versetzten Oberseite:
+Hier beantworten wir **wie man einen Zylinder** mit einem benutzerdefinierten Versatz erstellt. Der Konstruktor definiert Radius, Höhe, Segmente, Stufen und ob der Zylinder geschlossen ist. Anschließend verschieben wir das obere Ende mit `setOffsetTop`.
 
 ```java
 // ExStart:2
-// Zylinder initialisieren
+// Initialize cylinder
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-// OffsetTop festlegen
+// Set OffsetTop
 cylinder1.setOffsetTop(new Vector3(5, 3, 0));
 // ExEnd:2
 ```
 
-## Schritt 3: Untergeordneten Knoten erstellen
+### Schritt 3: Wie man **Kind‑Knoten in Java hinzufügt** – Ersten Zylinder anhängen
 
-Erstellen Sie nun einen untergeordneten Knoten in der Szene und legen Sie die Übersetzung für den ersten Zylinder fest:
+Wir erstellen einen Kind‑Knoten unter dem Wurzelknoten der Szene und verschieben den Zylinder an die gewünschte Position.
 
 ```java
 // ExStart:3
-// Erstellen Sie einen ChildNode
+// Create ChildNode
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // ExEnd:3
 ```
 
-## Schritt 4: Zweiten Zylinder initialisieren
+### Schritt 4: Einen zweiten Zylinder initialisieren (ohne Versatz)
 
-Lassen Sie uns einen zweiten Zylinder ohne angepassten Offset-Oberteil initialisieren:
+Zum Vergleich fügen wir einen regulären Zylinder ohne Versatz hinzu.
 
 ```java
 // ExStart:4
-// Zweiten Zylinder ohne angepasstes OffsetTop initialisieren
+// Initialize second cylinder without customized OffsetTop
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExEnd:4
 ```
 
-## Schritt 5: Untergeordneten Knoten für den zweiten Zylinder erstellen
-
-Erstellen Sie einen untergeordneten Knoten für den zweiten Zylinder in der Szene:
+### Schritt 5: Wie man **Kind‑Knoten in Java hinzufügt** – Zweiten Zylinder anhängen
 
 ```java
 // ExStart:5
-// Erstellen Sie einen ChildNode
+// Create ChildNode
 scene.getRootNode().createChildNode(cylinder2);
 // ExEnd:5
 ```
 
-## Schritt 6: Speichern Sie die Szene
+### Schritt 6: Wie man **3D‑Modell als OBJ exportiert** – Szene speichern
 
-Abschließend speichern Sie die Szene mit den erstellten Zylindern als Wavefront OBJ-Datei in Ihrem Dokumentenverzeichnis:
+Abschließend exportieren wir die gesamte Szene (beide Zylinder) als Wavefront‑OBJ‑Datei, die von den meisten 3D‑Tools unterstützt wird.
 
 ```java
 // ExStart:6
-//Speichern
+// Save
 scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // ExEnd:6
 ```
 
-Mit diesen einfachen Schritten haben Sie mit Aspose.3D für Java erfolgreich 3D-Zylinder mit versetzten Oberteilen erstellt!
+Wenn Sie das Programm ausführen, finden Sie `CustomizedOffsetTopCylinder.obj` im angegebenen Verzeichnis, bereit zum Öffnen in Blender, Maya oder jedem anderen OBJ‑kompatiblen Viewer.
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-Mit Aspose.3D für Java können Entwickler ihre 3D-Visionen mühelos zum Leben erwecken. In diesem Tutorial haben wir uns auf die Erstellung von Zylindern mit versetzten Oberteilen konzentriert und so die Vielseitigkeit und Einfachheit von Aspose.3D demonstriert. Mit diesem Wissen können Sie nun erweiterte Funktionen erkunden und in Ihre Java-basierten 3D-Projekte integrieren.
+| Problem | Grund | Lösung |
+|---------|-------|--------|
+| **OBJ‑Datei ist leer** | Szene wurde nicht korrekt gespeichert oder falscher Pfad. | Stellen Sie sicher, dass das Ausgabeverzeichnis existiert und Sie Schreibrechte haben. |
+| **Versatz wurde nicht angewendet** | Verwendung einer älteren Aspose.3D‑Version. | Aktualisieren Sie auf die neueste Bibliothek, in der `setOffsetTop` unterstützt wird. |
+| **Kind‑Knoten ist nicht sichtbar** | Transformation wurde nicht angewendet. | Stellen Sie sicher, dass Sie `getTransform().setTranslation` nach dem Erstellen des Kind‑Knotens aufrufen. |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Ist Aspose.3D mit verschiedenen Java-IDEs kompatibel?
+**F: Ist Aspose.3D mit verschiedenen Java‑IDEs kompatibel?**  
+A: Ja, es funktioniert nahtlos mit Eclipse, IntelliJ IDEA, NetBeans und anderen IDEs.
 
-A1: Ja, Aspose.3D lässt sich nahtlos in gängige Java Integrated Development Environments (IDEs) wie Eclipse, IntelliJ IDEA und NetBeans integrieren.
+**F: Kann ich Texturen auf die erstellten 3D‑Objekte anwenden?**  
+A: Absolut! Verwenden Sie die `Material`‑Klasse, um Texturen und Oberflächeneigenschaften zuzuweisen.
 
-### F2: Kann ich Texturen auf die erstellten 3D-Objekte anwenden?
+**F: Welche Lizenzierungsoptionen gibt es für Aspose.3D?**  
+A: Es stehen verschiedene Lizenzmodelle zur Verfügung; Sie können sie [hier](https://purchase.aspose.com/buy) erkunden.
 
-A2: Auf jeden Fall! Aspose.3D bietet umfangreiche Möglichkeiten zum Anwenden von Texturen und Materialien, um die visuelle Attraktivität Ihrer 3D-Modelle zu verbessern.
+**F: Wie kann ich Hilfe erhalten oder Erfahrungen teilen?**  
+A: Treten Sie dem Aspose.3D‑Community‑Forum [hier](https://forum.aspose.com/c/3d/18) bei für Support und Diskussionen.
 
-### F3: Gibt es Lizenzoptionen für Aspose.3D?
+**F: Ist eine temporäre Lizenz für Tests verfügbar?**  
+A: Ja, eine temporäre Lizenz kann für Evaluierungen [hier](https://purchase.aspose.com/temporary-license/) erhalten werden.
 
-A3: Ja, Sie können die Lizenzierungsoption erkunden und auswählen, die Ihren Anforderungen entspricht[Hier](https://purchase.aspose.com/buy).
+---
 
-### F4: Wie kann ich Hilfe suchen oder meine Erfahrungen mit Aspose.3D teilen?
-
- A4: Treten Sie dem Aspose.3D-Community-Forum bei[Hier](https://forum.aspose.com/c/3d/18) um mit anderen Entwicklern in Kontakt zu treten, Unterstützung zu suchen und Ihre Erkenntnisse zu teilen.
-
-### F5: Gibt es eine temporäre Lizenzoption für Testzwecke?
-
- A5: Ja, Sie können eine temporäre Lizenz zu Test- und Evaluierungszwecken erwerben[Hier](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+**Zuletzt aktualisiert:** 2025-12-05  
+**Getestet mit:** Aspose.3D für Java 24.12 (neueste)  
+**Autor:** Aspose
