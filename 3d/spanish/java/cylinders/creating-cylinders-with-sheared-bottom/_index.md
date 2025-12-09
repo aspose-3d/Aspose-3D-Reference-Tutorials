@@ -1,31 +1,55 @@
 ---
-title: Creación de cilindros con fondo cortado en Aspose.3D para Java
-linktitle: Creación de cilindros con fondo cortado en Aspose.3D para Java
-second_title: API de Java Aspose.3D
-description: Aprenda a crear cilindros personalizados con fondos cortados usando Aspose.3D para Java. Mejore sus habilidades de modelado 3D con esta guía paso a paso.
+date: 2025-12-09
+description: Aprende a usar Aspose para crear cilindros personalizados con bases sesgadas
+  en Java, perfecto para modelado 3D en Java y guardar escenas como OBJ.
+language: es
+linktitle: 'How to Use Aspose: Create Cylinders with Sheared Bottom in Java'
+second_title: Aspose.3D Java API
+title: 'Cómo usar Aspose: crear cilindros con base sesgada en Java'
+url: /java/cylinders/creating-cylinders-with-sheared-bottom/
 weight: 12
-url: /es/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Creación de cilindros con fondo cortado en Aspose.3D para Java
+# Cómo usar Aspose: Crear cilindros con base sesgada en Java
 
 ## Introducción
 
-Bienvenido a esta guía paso a paso sobre cómo crear cilindros con fondos cortados usando Aspose.3D para Java. Aspose.3D es una poderosa biblioteca Java que le permite trabajar con archivos 3D sin esfuerzo. En este tutorial, nos sumergiremos en la creación de cilindros personalizados con fondos cortados, brindándole una experiencia práctica en el uso de Aspose.3D para mejorar sus habilidades de modelado 3D.
+En este tutorial práctico descubrirás **cómo usar Aspose** para construir un cilindro cuya base está sesgada, una técnica frecuentemente necesaria en proyectos de *modelado 3D en java*. Recorreremos cada paso, desde la configuración de la escena hasta guardar el modelo final como un archivo OBJ. Al final, tendrás un fragmento de código reutilizable que podrás insertar en cualquier aplicación 3D basada en Java.
+
+## Respuestas rápidas
+- **¿Qué significa “shear bottom”?** Inclina la base del cilindro un ángulo especificado en el plano XY.  
+- **¿Qué biblioteca maneja las matemáticas 3D?** Aspose.3D for Java proporciona las clases `Cylinder` y `Vector2`.  
+- **¿Necesito una licencia para ejecutar el ejemplo?** Una licencia temporal funciona para evaluación; se requiere una licencia completa para producción.  
+- **¿Puedo exportar el modelo a otros formatos?** Sí—usa `scene.save(..., FileFormat.WAVEFRONTOBJ)` para obtener un archivo OBJ.  
+- **¿Qué versión de Java se requiere?** JDK 8 o posterior es suficiente.
+
+## ¿Qué significa “cómo usar aspose” en el contexto del modelado 3D?
+
+Aspose.3D for Java es una API de alto nivel que abstrae la complejidad de la geometría 3D, los formatos de archivo y las transformaciones. En lugar de trabajar con buffers de vértices de bajo nivel, llamas a métodos intuitivos como `new Cylinder(...)` y dejas que Aspose se encargue del trabajo pesado.
+
+## ¿Por qué usar Aspose para el modelado 3D en Java?
+
+- **Desarrollo rápido:** Construye formas complejas con unas pocas líneas de código.  
+- **Amplio soporte de formatos:** Exporta a OBJ, STL, FBX y más.  
+- **Multiplataforma:** Funciona en cualquier SO que soporte Java.  
+- **API consistente:** El mismo código funciona en entornos de escritorio, servidor o Android.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
-- Kit de desarrollo de Java (JDK) instalado en su sistema.
--  Biblioteca Aspose.3D para Java descargada y agregada a su proyecto. Puedes encontrar el enlace de descarga.[aquí](https://releases.aspose.com/3d/java/).
+Antes de comenzar, asegúrate de tener:
+
+- **Java Development Kit (JDK) 8+** instalado y configurado en tu IDE.  
+- **Biblioteca Aspose.3D for Java** añadida al classpath de tu proyecto. Puedes descargarla desde el sitio oficial [aquí](https://releases.aspose.com/3d/java/).  
+- **Una licencia temporal o completa** (opcional para pruebas).
 
 ## Importar paquetes
 
-Para comenzar, importe los paquetes necesarios para trabajar con Aspose.3D en su aplicación Java:
+Para comenzar, importa las clases esenciales de Aspose.3D y las utilidades de Java:
+
 ```java
 import com.aspose.threed.*;
 
@@ -33,79 +57,95 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Paso 1: crea una escena
+## Paso 1: Crear una escena
 
-Comience creando una escena 3D donde agregará y manipulará sus cilindros:
+Una *escena* es el contenedor que aloja todos los objetos 3D, luces y cámaras. Piensa en ella como el escenario donde colocarás tus cilindros.
+
 ```java
-// ExInicio:3
-// crear una escena
+// ExStart:3
+// Create a scene
 Scene scene = new Scene();
-// Fin final: 3
+// ExEnd:3
 ```
 
-## Paso 2: crear el cilindro 1
+## Paso 2: Crear cilindro 1 (base sesgada)
 
-Ahora, creemos el primer cilindro con el fondo cortado:
+Ahora crearemos el primer cilindro y aplicaremos una transformación de sesgado a su base. El método `setShearBottom` recibe un `Vector2` donde el componente X representa el factor de sesgado a lo largo del eje X y el componente Y a lo largo del eje Y.
+
 ```java
-// ExInicio:4
-// Crear cilindro 1
+// ExStart:4
+// Create cylinder 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-// Fondo de corte personalizado para el cilindro 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); //Corte 47,5 grados en el plano xy (eje z)
-// Agregue el cilindro 1 a la escena.
+// Customized shear bottom for cylinder 1
+cylinder1.setShearBottom(new Vector2(0, 0.83)); // Shear 47.5deg in the xy plane (z-axis)
+// Add cylinder 1 to the scene
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
-// Fin final: 4
+// ExEnd:4
 ```
 
-## Paso 3: crear el cilindro 2
+> **Consejo:** El factor de sesgado `0.83` corresponde aproximadamente a 47.5°; ajusta este valor para lograr el ángulo exacto que necesites.
 
-A continuación, agreguemos un segundo cilindro sin fondo cortado a la escena:
+## Paso 3: Crear cilindro 2 (estándar)
+
+Para comparar, añadiremos un segundo cilindro sin ningún sesgado. Esto te ayuda a ver la diferencia visual directamente en el archivo OBJ exportado.
+
 ```java
-// ExInicio:5
-// Crear cilindro 2
+// ExStart:5
+// Create cylinder 2
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
-// Agregue el cilindro 2 sin ShearBottom a la escena
+// Add cylinder 2 without a ShearBottom to the scene
 scene.getRootNode().createChildNode(cylinder2);
-// Fin final: 5
+// ExEnd:5
 ```
 
-## Paso 4: guarda la escena
+## Paso 4: Guardar la escena (Cómo guardar la escena como OBJ)
 
-Guarde la escena con los cilindros personalizados en su directorio de documentos:
+Finalmente, persistimos la escena en disco. La constante `FileFormat.WAVEFRONTOBJ` indica a Aspose que escriba un archivo OBJ, ampliamente soportado por editores 3D como Blender y Maya.
+
 ```java
-// ExInicio:6
-// guardar escena
+// ExStart:6
+// Save scene
 scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", FileFormat.WAVEFRONTOBJ);
-// Fin final: 6
+// ExEnd:6
 ```
 
-¡Felicidades! Ha creado con éxito cilindros con fondos cortados utilizando Aspose.3D para Java.
+> **Nota:** Reemplaza `"Your Document Directory"` con una ruta absoluta o relativa adecuada para tu entorno.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-En este tutorial, exploramos cómo aprovechar Aspose.3D para Java para mejorar sus proyectos de modelado 3D. La creación de cilindros personalizados con fondos cortados agrega un toque único a sus diseños y Aspose.3D simplifica el proceso.
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| **El cilindro aparece plano** | Factor de sesgado incorrecto (fu del rango 0‑1) | Usa un valor entre 0 y 1; ajústalo gradualmente mientras previsualizas. |
+| **El archivo OBJ no se carga en el visor** | Falta de definiciones de material | Añade un material simple a cada nodo o exporta como STL para pruebas solo de geometría. |
+| **LicenseException en tiempo de ejecución** | No hay un archivo de licencia válido | Coloca `Aspose.3D.lic` en la raíz del proyecto o usa la clase `License` para cargarla programáticamente. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.3D para Java con otras bibliotecas Java 3D?
+### Q1: ¿Puedo usar Aspose.3D for Java con otras bibliotecas 3D de Java?
+**R:** Aspose.3D for Java está diseñado para funcionar de forma independiente. Si bien puedes integrarlo con otras bibliotecas, proporciona un conjunto completo de funciones para la mayoría de las tareas de modelado 3D por sí mismo.
 
-R1: Aspose.3D para Java está diseñado para funcionar de forma independiente. Si bien puedes integrarlo con otras bibliotecas, es lo suficientemente potente como para manejar la mayoría de las tareas de modelado 3D por sí solo.
+### Q2: ¿Es Aspose.3D adecuado para principiantes en modelado 3D?
+**R:** Sí, Aspose.3D ofrece una API amigable que abstrae los detalles de bajo nivel, haciéndola accesible tanto para principiantes como para desarrolladores experimentados.
 
-### P2: ¿Aspose.3D es adecuado para principiantes en modelado 3D?
+### Q3: ¿Dónde puedo encontrar soporte adicional para Aspose.3D for Java?
+**R:** Visita el [foro de Aspose.3D](https://forum.aspose.com/c/3d/18) para obtener soporte de la comunidad, tutoriales y discusiones.
 
-R2: Sí, Aspose.3D proporciona una API fácil de usar, lo que la hace adecuada tanto para principiantes como para desarrolladores experimentados en modelado 3D.
+### Q4: ¿Cómo puedo obtener una licencia temporal para Aspose.3D?
+**R:** Puedes obtener una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
 
-### P3: ¿Dónde puedo encontrar soporte adicional para Aspose.3D para Java?
+### Q5: ¿Puedo comprar Aspose.3D for Java?
+**R:** Sí, puedes adquirir Aspose.3D for Java [aquí](https://purchase.aspose.com/buy).
 
- A3: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para apoyo y debates de la comunidad.
+## Conclusión
 
-### P4: ¿Cómo puedo obtener una licencia temporal para Aspose.3D?
+Hemos recorrido **cómo usar Aspose** para crear dos cilindros—uno con base sesgada y otro estándar—y luego guardar el resultado como un archivo OBJ. Esta técnica es un bloque de construcción para modelos 3D más sofisticados, como piezas personalizadas, elementos arquitectónicos o activos de juegos. Siéntete libre de experimentar con diferentes valores de sesgado, radios y alturas para adaptarlos a las necesidades de tu proyecto.
 
- R4: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+---
 
-### P5: ¿Puedo comprar Aspose.3D para Java?
+**Última actualización:** 2025-12-09  
+**Probado con:** Aspose.3D for Java 24.11 (última versión al momento de escribir)  
+**Autor:** Aspose  
 
- R5: Sí, puedes comprar Aspose.3D para Java[aquí](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

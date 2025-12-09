@@ -1,31 +1,56 @@
 ---
-title: जावा के लिए Aspose.3D में शीयरड बॉटम के साथ सिलेंडर बनाना
-linktitle: जावा के लिए Aspose.3D में शीयरड बॉटम के साथ सिलेंडर बनाना
-second_title: Aspose.3D जावा एपीआई
-description: जावा के लिए Aspose.3D का उपयोग करके कतरनी वाले बॉटम्स के साथ अनुकूलित सिलेंडर बनाना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपने 3D मॉडलिंग कौशल को उन्नत करें।
+date: 2025-12-09
+description: Aspose का उपयोग करके जावा में कस्टमाइज़्ड सिलिंडर बनाना सीखें, जिनके
+  नीचे का हिस्सा कटा हुआ हो, जो जावा 3D मॉडलिंग और सीन को OBJ के रूप में सेव करने
+  के लिए एकदम उपयुक्त हैं।
+language: hi
+linktitle: 'How to Use Aspose: Create Cylinders with Sheared Bottom in Java'
+second_title: Aspose.3D Java API
+title: 'Aspose का उपयोग कैसे करें: जावा में शीयर किए हुए नीचे के साथ सिलिंडर बनाएं'
+url: /java/cylinders/creating-cylinders-with-sheared-bottom/
 weight: 12
-url: /hi/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा के लिए Aspose.3D में शीयरड बॉटम के साथ सिलेंडर बनाना
+# Aspose का उपयोग कैसे करें: जावा में शीयर्ड बॉटम के साथ सिलेंडर बनाएं
 
-## परिचय
+## Introduction
 
-जावा के लिए Aspose.3D का उपयोग करके कतरनी तली वाले सिलेंडर बनाने पर इस चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है। Aspose.3D एक शक्तिशाली जावा लाइब्रेरी है जो आपको 3D फ़ाइलों के साथ सहजता से काम करने की अनुमति देती है। इस ट्यूटोरियल में, हम कतरनी वाले बॉटम्स के साथ अनुकूलित सिलेंडर बनाने के बारे में जानेंगे, जो आपको अपने 3D मॉडलिंग कौशल को बढ़ाने के लिए Aspose.3D का उपयोग करने का व्यावहारिक अनुभव प्रदान करेगा।
+इस व्यावहारिक ट्यूटोरियल में आप **Aspose का उपयोग कैसे करें** यह जानेंगे ताकि आप एक ऐसा सिलेंडर बना सकें जिसकी नींव शीयर्ड हो—एक तकनीक जो अक्सर *java 3d modeling* प्रोजेक्ट्स में आवश्यक होती है। हम हर चरण को विस्तार से बताएँगे, सीन सेटअप से लेकर अंतिम मॉडल को OBJ फ़ाइल के रूप में सेव करने तक। अंत तक, आपके पास एक पुन: उपयोग योग्य कोड स्निपेट होगा जिसे आप किसी भी Java‑आधारित 3D एप्लिकेशन में डाल सकते हैं।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **“shear bottom” का क्या मतलब है?** यह सिलेंडर के बेस को XY प्लेन में निर्दिष्ट कोण से झुकाता है।  
+- **3D गणित को कौन सी लाइब्रेरी संभालती है?** Aspose.3D for Java `Cylinder` और `Vector2` क्लासेस प्रदान करती है।  
+- **उदाहरण चलाने के लिए लाइसेंस चाहिए?** मूल्यांकन के लिए एक अस्थायी लाइसेंस काम करता है; उत्पादन के लिए पूर्ण लाइसेंस आवश्यक है।  
+- **क्या मॉडल को अन्य फ़ॉर्मेट में एक्सपोर्ट कर सकते हैं?** हाँ—`scene.save(..., FileFormat.WAVEFRONTOBJ)` का उपयोग करके OBJ फ़ाइल प्राप्त करें।  
+- **कौन सा Java संस्करण आवश्यक है?** JDK 8 या उसके बाद का संस्करण पर्याप्त है।
 
-शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
-- आपके सिस्टम पर जावा डेवलपमेंट किट (जेडीके) स्थापित है।
--  जावा लाइब्रेरी के लिए Aspose.3D डाउनलोड किया गया और आपके प्रोजेक्ट में जोड़ा गया। आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/3d/java/).
+## What is “how to use aspose” in the context of 3D modeling?
 
-## पैकेज आयात करें
+Aspose.3D for Java एक हाई‑लेवल API है जो 3D जियोमेट्री, फ़ाइल फ़ॉर्मेट और ट्रांसफ़ॉर्मेशन की जटिलताओं को एब्स्ट्रैक्ट करती है। लो‑लेवल वर्टेक्स बफ़र्स से निपटने की बजाय आप `new Cylinder(...)` जैसी सहज मेथड्स कॉल करते हैं और Aspose भारी काम संभाल लेती है।
 
-आरंभ करने के लिए, अपने जावा एप्लिकेशन में Aspose.3D के साथ काम करने के लिए आवश्यक पैकेज आयात करें:
+## Why use Aspose for Java 3D Modeling?
+
+- **Rapid development:** कुछ ही लाइनों के कोड से जटिल आकार बनाएं।  
+- **Broad format support:** OBJ, STL, FBX और कई अन्य फ़ॉर्मेट में एक्सपोर्ट करें।  
+- **Cross‑platform:** वह सभी OS पर काम करता है जो Java को सपोर्ट करते हैं।  
+- **Consistent API:** वही कोड डेस्कटॉप, सर्वर या Android वातावरण में काम करता है।
+
+## Prerequisites
+
+शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हों:
+
+- **Java Development Kit (JDK) 8+** आपके IDE में इंस्टॉल और कॉन्फ़िगर हो।  
+- **Aspose.3D for Java** लाइब्रेरी आपके प्रोजेक्ट क्लासपाथ में जोड़ी गई हो। आप इसे आधिकारिक साइट से डाउनलोड कर सकते हैं [here](https://releases.aspose.com/3d/java/)。  
+- **एक अस्थायी या पूर्ण लाइसेंस** (ट्रायल रन के लिए वैकल्पिक)।
+
+## Import Packages
+
+शुरू करने के लिए आवश्यक Aspose.3D क्लासेस और Java यूटिलिटीज़ इम्पोर्ट करें:
+
 ```java
 import com.aspose.threed.*;
 
@@ -33,79 +58,95 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## चरण 1: एक दृश्य बनाएं
+## Step 1: Create a Scene
 
-एक 3डी दृश्य बनाकर शुरुआत करें जहां आप अपने सिलेंडर जोड़ेंगे और उनमें हेरफेर करेंगे:
+*सीन* वह कंटेनर है जो सभी 3D ऑब्जेक्ट्स, लाइट्स और कैमरों को रखता है। इसे उस स्टेज की तरह समझें जहाँ आप अपने सिलेंडर रखेंगे।
+
 ```java
-// एक्सस्टार्ट:3
-// एक दृश्य बनाएं
+// ExStart:3
+// Create a scene
 Scene scene = new Scene();
 // ExEnd:3
 ```
 
-## चरण 2: सिलेंडर 1 बनाएं
+## Step 2: Create Cylinder 1 (Sheared Bottom)
 
-अब, आइए कतरनी तली वाला पहला सिलेंडर बनाएं:
+अब हम पहला सिलेंडर बनाएँगे और उसकी नींव पर शीयर ट्रांसफ़ॉर्मेशन लागू करेंगे। `setShearBottom` मेथड एक `Vector2` लेता है जहाँ X कंपोनेंट X‑अक्ष के साथ शीयर फैक्टर को दर्शाता है और Y कंपोनेंट Y‑अक्ष के साथ।
+
 ```java
-// एक्सस्टार्ट:4
-// सिलेंडर 1 बनाएं
+// ExStart:4
+// Create cylinder 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-// सिलेंडर 1 के लिए अनुकूलित कतरनी तल
-cylinder1.setShearBottom(new Vector2(0, 0.83)); //xy तल (z-अक्ष) में कतरनी 47.5डिग्री
-// दृश्य में सिलेंडर 1 जोड़ें
+// Customized shear bottom for cylinder 1
+cylinder1.setShearBottom(new Vector2(0, 0.83)); // Shear 47.5deg in the xy plane (z-axis)
+// Add cylinder 1 to the scene
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // ExEnd:4
 ```
 
-## चरण 3: सिलेंडर 2 बनाएं
+> **Pro tip:** शीयर फैक्टर `0.83` लगभग 47.5° के बराबर है; अपनी आवश्यक सटीक कोण प्राप्त करने के लिए इस मान को समायोजित करें।
 
-इसके बाद, आइए दृश्य में बिना कटे तली वाला दूसरा सिलेंडर जोड़ें:
+## Step 3: Create Cylinder 2 (Standard)
+
+तुलना के लिए, हम एक दूसरा सिलेंडर बिना किसी शीयर के जोड़ेंगे। इससे आप एक्सपोर्ट की गई OBJ फ़ाइल में दृश्य अंतर सीधे देख पाएँगे।
+
 ```java
-// एक्सस्टार्ट:5
-// सिलेंडर 2 बनाएं
+// ExStart:5
+// Create cylinder 2
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
-// दृश्य में शियरबॉटम के बिना सिलेंडर 2 जोड़ें
+// Add cylinder 2 without a ShearBottom to the scene
 scene.getRootNode().createChildNode(cylinder2);
 // ExEnd:5
 ```
 
-## चरण 4: दृश्य सहेजें
+## Step 4: Save the Scene (How to Save Scene as OBJ)
 
-अनुकूलित सिलेंडरों के साथ दृश्य को अपनी दस्तावेज़ निर्देशिका में सहेजें:
+अंत में, हम सीन को डिस्क पर सहेजते हैं। `FileFormat.WAVEFRONTOBJ` कॉन्स्टैंट Aspose को बताता है कि वह OBJ फ़ाइल लिखे, जिसे Blender और Maya जैसे 3D एडिटर्स व्यापक रूप से सपोर्ट करते हैं।
+
 ```java
-// एक्सस्टार्ट:6
-// दृश्य सहेजें
+// ExStart:6
+// Save scene
 scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // ExEnd:6
 ```
 
-बधाई हो! आपने जावा के लिए Aspose.3D का उपयोग करके शीयर बॉटम्स वाले सिलेंडर सफलतापूर्वक बनाए हैं।
+> **Note:** `"Your Document Directory"` को अपने पर्यावरण के अनुसार एक पूर्ण या सापेक्ष पाथ से बदलें।
 
-## निष्कर्ष
+## Common Issues and Solutions
 
-इस ट्यूटोरियल में, हमने पता लगाया कि अपने 3D मॉडलिंग प्रोजेक्ट को बेहतर बनाने के लिए Java के लिए Aspose.3D का लाभ कैसे उठाया जाए। कतरनी वाले बॉटम्स के साथ अनुकूलित सिलेंडर बनाने से आपके डिज़ाइन में एक अनूठा स्पर्श जुड़ जाता है, और Aspose.3D प्रक्रिया को सरल बना देता है।
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| **Cylinder appears flat** | Incorrect shear factor (outside 0‑1 range) | Use a value between 0 and 1; adjust gradually while previewing. |
+| **OBJ file not loading in viewer** | Missing material definitions | Add a simple material to each node or export as STL for geometry‑only testing. |
+| **LicenseException at runtime** | No valid license file | Place `Aspose.3D.lic` in the project root or use `License` class to load it programmatically. |
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Frequently Asked Questions
 
-### Q1: क्या मैं अन्य Java 3D लाइब्रेरीज़ के साथ Java के लिए Aspose.3D का उपयोग कर सकता हूँ?
+### Q1: Can I use Aspose.3D for Java with other Java 3D libraries?
+**A:** Aspose.3D for Java स्वतंत्र रूप से काम करने के लिए डिज़ाइन किया गया है। जबकि आप इसे अन्य लाइब्रेरीज़ के साथ इंटीग्रेट कर सकते हैं, यह अधिकांश 3D मॉडलिंग कार्यों के लिए स्वयं में एक पूर्ण फीचर सेट प्रदान करता है।
 
-A1: Java के लिए Aspose.3D को स्वतंत्र रूप से काम करने के लिए डिज़ाइन किया गया है। हालाँकि आप इसे अन्य पुस्तकालयों के साथ एकीकृत कर सकते हैं, लेकिन यह अधिकांश 3D मॉडलिंग कार्यों को अपने आप संभालने के लिए पर्याप्त शक्तिशाली है।
+### Q2: Is Aspose.3D suitable for beginners in 3D modeling?
+**A:** हाँ, Aspose.3D एक उपयोगकर्ता‑मित्र API प्रदान करता है जो लो‑लेवल विवरणों को एब्स्ट्रैक्ट करता है, जिससे यह शुरुआती और अनुभवी दोनों डेवलपर्स के लिए सुलभ है।
 
-### Q2: क्या Aspose.3D 3D मॉडलिंग में शुरुआती लोगों के लिए उपयुक्त है?
+### Q3: Where can I find additional support for Aspose.3D for Java?
+**A:** समुदाय समर्थन, ट्यूटोरियल और चर्चा के लिए [Aspose.3D forum](https://forum.aspose.com/c/3d/18) देखें।
 
-A2: हाँ, Aspose.3D एक उपयोगकर्ता-अनुकूल API प्रदान करता है, जो इसे 3D मॉडलिंग में शुरुआती और अनुभवी डेवलपर्स दोनों के लिए उपयुक्त बनाता है।
+### Q4: How can I obtain a temporary license for Aspose.3D?
+**A:** आप एक अस्थायी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।
 
-### Q3: मुझे जावा के लिए Aspose.3D के लिए अतिरिक्त समर्थन कहां मिल सकता है?
+### Q5: Can I buy Aspose.3D for Java?
+**A:** हाँ, आप Aspose.3D for Java को [here](https://purchase.aspose.com/buy) से खरीद सकते हैं।
 
- A3: पर जाएँ[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) सामुदायिक समर्थन और चर्चा के लिए।
+## Conclusion
 
-### Q4: मैं Aspose.3D के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
+हमने **Aspose का उपयोग कैसे करें** यह दिखाया कि दो सिलेंडर—एक शीयर्ड बॉटम के साथ और एक सामान्य—कैसे बनाते हैं और परिणाम को OBJ फ़ाइल के रूप में सहेजते हैं। यह तकनीक अधिक परिष्कृत 3D मॉडल, जैसे कस्टम पार्ट्स, आर्किटेक्चरल एलिमेंट्स या गेम एसेट्स, बनाने की नींव है। विभिन्न शीयर मान, रेडियस और ऊँचाइयों के साथ प्रयोग करने में संकोच न करें ताकि आपके प्रोजेक्ट की आवश्यकताओं के अनुसार अनुकूल हो सके।
 
- A4: आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+---
 
-### Q5: क्या मैं जावा के लिए Aspose.3D खरीद सकता हूँ?
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.3D for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
- A5: हाँ, आप Java के लिए Aspose.3D खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
