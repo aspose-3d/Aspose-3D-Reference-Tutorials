@@ -3,10 +3,9 @@ date: 2025-12-03
 description: Aspose.3D kullanarak 3D animasyon Java projeleri oluşturmayı öğrenin.
   Nokta bulutları Java, çokgenleri üçgenlere dönüştürme Java ve onlarca adım adım
   öğreticiyi keşfedin.
-language: tr
 linktitle: Aspose.3D for Java Tutorials
 title: Aspose.3D ile Java’da 3D Animasyon Oluşturma – Kapsamlı Öğreticiler
-url: /java/
+url: /tr/java/
 weight: 10
 ---
 

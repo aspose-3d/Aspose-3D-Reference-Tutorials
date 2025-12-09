@@ -1,12 +1,11 @@
 ---
 date: 2025-11-30
 description: 学习如何在 Aspose.3D for Java 中更改平面方向并生成 OBJ 文件。按照一步一步的说明创建具有精确定位的 3D 场景。
-language: zh
 linktitle: Generate OBJ File by Modifying Plane Orientation for Precise 3D Scene Positioning
   in Java
 second_title: Aspose.3D Java API
 title: 在 Java 中通过修改平面方向生成 OBJ 文件，实现精确的 3D 场景定位
-url: /java/3d-scenes-and-models/change-plane-orientation/
+url: /zh/java/3d-scenes-and-models/change-plane-orientation/
 weight: 10
 ---
 

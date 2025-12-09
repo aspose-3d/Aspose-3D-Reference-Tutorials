@@ -2,12 +2,11 @@
 date: 2025-12-05
 description: تعلم كيفية تعديل نصف قطر الكرة في Java باستخدام Aspose.3D. يغطي هذا الدرس
   تغييرات نصف قطر الكرة واستعلامات شبيهة بـ XPath لتطوير ثلاثي الأبعاد سلس.
-language: ar
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: تعديل نصف قطر الكرة في جافا – التعامل مع الكائنات والمشاهد ثلاثية الأبعاد في
   جافا
-url: /java/3d-objects-and-scenes/
+url: /ar/java/3d-objects-and-scenes/
 weight: 33
 ---
 

@@ -3,13 +3,12 @@ date: 2025-11-30
 description: Tanulja meg, hogyan generáljon OBJ fájlt a sík orientációjának módosítása
   közben az Aspose.3D for Java-ban. Kövesse a lépésről‑lépésre útmutatót egy pontos
   elhelyezésű 3D jelenet létrehozásához.
-language: hu
 linktitle: Generate OBJ File by Modifying Plane Orientation for Precise 3D Scene Positioning
   in Java
 second_title: Aspose.3D Java API
 title: OBJ fájl generálása a sík orientációjának módosításával a pontos 3D-s jelenet
   elhelyezéséhez Java-ban
-url: /java/3d-scenes-and-models/change-plane-orientation/
+url: /hu/java/3d-scenes-and-models/change-plane-orientation/
 weight: 10
 ---
 

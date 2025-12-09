@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Aspose.3D を使用して Java で 3D メッシュに法線を追加する方法を学びましょう。このステップバイステップガイドでは、法線データの作成、メッシュ法線の計算、そして
   3D グラフィックスの改善方法を示します。
-language: ja
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: Javaで3Dメッシュに法線を追加する方法（Aspose.3Dを使用）
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /ja/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Leer hoe je de straal van een bol in Java kunt aanpassen met Aspose.3D.
   Deze tutorial behandelt het wijzigen van de bolstraal en XPath‑achtige query’s voor
   naadloze 3D‑ontwikkeling.
-language: nl
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Booradius wijzigen in Java – 3D-objecten en scènes manipuleren in Java
-url: /java/3d-objects-and-scenes/
+url: /nl/java/3d-objects-and-scenes/
 weight: 33
 ---
 

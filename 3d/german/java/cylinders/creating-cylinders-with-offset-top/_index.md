@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Erfahren Sie, wie Sie Zylinder‑Modelle mit versetzten Oberseiten in Aspose.3D
   für Java erstellen, Kindknoten‑Java‑Schritte hinzufügen und 3D‑Modelle im OBJ‑Format
   einfach exportieren.
-language: de
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Wie man einen Zylinder mit versetztem oberen Ende in Aspose.3D für Java erstellt
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /de/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

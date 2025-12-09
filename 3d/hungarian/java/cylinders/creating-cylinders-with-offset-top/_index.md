@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tanulja meg, hogyan hozhat létre eltolódó tetejű henger modelleket az
   Aspose.3D for Java-ban, hogyan adjon hozzá gyermekcsomópont Java lépéseket, és hogyan
   exportálja egyszerűen a 3D modell OBJ fájljait.
-language: hu
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Hogyan készítsünk eltolásos tetejű hengert az Aspose.3D for Java-ban
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /hu/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

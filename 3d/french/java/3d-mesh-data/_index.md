@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Apprenez à créer des tangentes de maillage en Java tout en optimisant
   les données de maillage 3D avec Aspose.3D. Découvrez la compression, la génération
   de données et la division de maillage basée sur les matériaux.
-language: fr
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: Créer des tangentes de maillage Java – Optimisation et manipulation des données
   de maillage 3D
-url: /java/3d-mesh-data/
+url: /fr/java/3d-mesh-data/
 weight: 32
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Naučte se animovat 3D v Javě pomocí Aspose.3D. Tento průvodce ukazuje,
   jak přidat animaci a vytvořit animované 3D scény s cílovými kamerami.
-language: cs
 linktitle: How to Animate 3D in Java – Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 title: Jak animovat 3D v Javě – tutoriál Aspose.3D
-url: /java/animations/
+url: /cs/java/animations/
 weight: 20
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Học cách làm việc với Aspose 3D Java để tạo, nén và quản lý các cảnh
   và mô hình 3D. Thành thạo việc định vị cảnh, lưu lưới và thao tác các thuộc tính
   trong các ứng dụng Java của bạn.
-language: vi
 linktitle: 'Working with Aspose 3D Java: 3D Scenes and Models'
 second_title: Aspose.3D Java API
 title: 'Làm việc với Aspose 3D Java: Các cảnh và mô hình 3D'
-url: /java/3d-scenes-and-models/
+url: /vi/java/3d-scenes-and-models/
 weight: 29
 ---
 

@@ -2,13 +2,12 @@
 date: 2025-12-05
 description: تعلم كيفية تهيئة مشهد ثلاثي الأبعاد في جافا وتكوين كاميرا هدف للرسوم
   المتحركة ثلاثية الأبعاد باستخدام Aspose.3D. دليل خطوة بخطوة مع عينات من الشيفرة.
-language: ar
 linktitle: How to Initialize 3D Scene Java and Set Up Target Camera for 3D Animations
   | Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 title: كيفية تهيئة مشهد 3D في جافا وإعداد كاميرا الهدف للرسوم المتحركة ثلاثية الأبعاد
   | دليل Aspose.3D
-url: /java/animations/set-up-target-camera/
+url: /ar/java/animations/set-up-target-camera/
 weight: 11
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: Aspose.3D for Java를 사용하여 3D 씬을 압축함으로써 3D 파일 크기를 줄이는 방법을 배워보세요. 최적의 저장
   및 공유를 위한 단계별 가이드를 따라가세요.
-language: ko
 linktitle: Reduce 3D File Size – Compress Scenes with Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: 3D 파일 크기 줄이기 – Aspose.3D for Java로 장면 압축
-url: /java/3d-scenes-and-models/compress-3d-scenes/
+url: /ko/java/3d-scenes-and-models/compress-3d-scenes/
 weight: 11
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: Aprenda a reduzir o tamanho de arquivos 3D comprimindo cenas 3D com Aspose.3D
   para Java. Siga nosso guia passo a passo para armazenamento e compartilhamento ideais.
-language: pt
 linktitle: Reduce 3D File Size – Compress Scenes with Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Reduza o tamanho de arquivos 3D – compacte cenas com Aspose.3D para Java
-url: /java/3d-scenes-and-models/compress-3d-scenes/
+url: /pt/java/3d-scenes-and-models/compress-3d-scenes/
 weight: 11
 ---
 

@@ -4,11 +4,10 @@ description: Erfahren Sie, wie Sie Aspose in Java verwenden, um den Radius einer
   zu ändern. Diese Schritt‑für‑Schritt‑Anleitung behandelt die Aspose.3D‑Java‑Bibliothek,
   wie man den Radius festlegt, die Kugel zur Szene hinzufügt und eine OBJ‑Datei in
   Java schreibt.
-language: de
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 'Wie man Aspose verwendet: 3D‑Kugelradius in Java mit Aspose.3D ändern'
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /de/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

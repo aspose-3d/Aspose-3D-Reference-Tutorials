@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tanulja meg, hogyan módosíthatja a gömb sugarát Java-ban az Aspose.3D
   segítségével. Ez az útmutató a gömb sugárának változtatásáról és az XPath-szerű
   lekérdezésekről szól a zökkenőmentes 3D fejlesztéshez.
-language: hu
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Gömb sugár módosítása Java – 3D objektumok és jelenetek manipulálása Java-ban
-url: /java/3d-objects-and-scenes/
+url: /hu/java/3d-objects-and-scenes/
 weight: 33
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-03
 description: تعلم كيفية كتابة ملفات ثنائية للنماذج ثلاثية الأبعاد في Java باستخدام
   Aspose.3D. يغطي هذا الدليل تصدير النموذج ثلاثي الأبعاد، كتابة ملف ثنائي في Java،
   وتثليث النموذج في Java.
-language: ar
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: كيفية كتابة ملفات ثنائية لرسومات ثلاثية الأبعاد في جافا
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /ar/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

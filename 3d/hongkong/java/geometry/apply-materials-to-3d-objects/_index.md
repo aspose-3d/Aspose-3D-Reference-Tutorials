@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: 學習 Java 3D 圖形教學，了解如何使用 Aspose.3D 為 Java 加上紋理。快速為 Java 中的 3D 物件套用寫實材質。
-language: zh-hant
 linktitle: Apply Materials to 3D Objects in Java with Aspose.3D
 second_title: Aspose.3D Java API
 title: Java 3D 圖形教學 – 使用 Aspose.3D 在 Java 中為 3D 物件套用材質
-url: /java/geometry/apply-materials-to-3d-objects/
+url: /zh-hant/java/geometry/apply-materials-to-3d-objects/
 weight: 14
 ---
 

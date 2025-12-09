@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: เรียนรู้วิธีสร้างฉาก 3D ด้วย Java, ใช้วัสดุ PBR ที่สมจริงด้วย Aspose.3D,
   และบันทึกโมเดล 3D เป็นไฟล์ STL เพื่อเรนเดอร์วัตถุ 3D ใน Java.
-language: th
 linktitle: Create 3D Scene Java – Apply PBR Materials with Aspose.3D
 second_title: Aspose.3D Java API
 title: 'สร้างฉาก 3D ด้วย Java: ใช้วัสดุ PBR กับ Aspose.3D'
-url: /java/geometry/apply-pbr-materials-to-objects/
+url: /th/java/geometry/apply-pbr-materials-to-objects/
 weight: 10
 ---
 

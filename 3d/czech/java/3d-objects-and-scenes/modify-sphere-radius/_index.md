@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Naučte se, jak používat Aspose v Javě k úpravě poloměru 3D koule. Tento
   krok‑za‑krokem průvodce pokrývá knihovnu Aspose.3D pro Javu, jak nastavit poloměr,
   přidat kouli do scény a zapsat soubor OBJ v Javě.
-language: cs
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 'Jak používat Aspose: úprava poloměru 3D koule v Javě pomocí Aspose.3D'
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /cs/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

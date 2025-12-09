@@ -2,13 +2,12 @@
 date: 2025-12-05
 description: Aprenda como inicializar uma cena 3D em Java e configurar uma câmera
   alvo para animações 3D usando Aspose.3D. Guia passo a passo com exemplos de código.
-language: pt
 linktitle: How to Initialize 3D Scene Java and Set Up Target Camera for 3D Animations
   | Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 title: Como Inicializar Cena 3D em Java e Configurar Câmera de Destino para Animações
   3D | Tutorial Aspose.3D
-url: /java/animations/set-up-target-camera/
+url: /pt/java/animations/set-up-target-camera/
 weight: 11
 ---
 

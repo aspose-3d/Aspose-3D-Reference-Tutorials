@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Aprende cómo modificar el radio de una esfera en Java con Aspose.3D.
   Este tutorial cubre los cambios del radio de la esfera y consultas tipo XPath para
   un desarrollo 3D sin problemas.
-language: es
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Modificar el radio de la esfera en Java – Manipulación de objetos y escenas
   3D en Java
-url: /java/3d-objects-and-scenes/
+url: /es/java/3d-objects-and-scenes/
 weight: 33
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Pelajari cara bekerja dengan Aspose 3D Java untuk membuat, mengompres,
   dan mengelola adegan serta model 3D. Kuasai penempatan adegan, penyimpanan mesh,
   dan manipulasi properti dalam aplikasi Java Anda.
-language: id
 linktitle: 'Working with Aspose 3D Java: 3D Scenes and Models'
 second_title: Aspose.3D Java API
 title: 'Bekerja dengan Aspose 3D Java: Adegan dan Model 3D'
-url: /java/3d-scenes-and-models/
+url: /id/java/3d-scenes-and-models/
 weight: 29
 ---
 

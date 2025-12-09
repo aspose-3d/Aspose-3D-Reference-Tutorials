@@ -3,11 +3,10 @@ date: 2025-11-29
 description: تعلم كيفية إنشاء متجهات الميش في جافا أثناء تحسين بيانات الميش ثلاثية
   الأبعاد باستخدام Aspose.3D. اكتشف الضغط، توليد البيانات، وتقسيم الميش بناءً على
   المواد.
-language: ar
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: إنشاء متجهات الشبكة في جافا – تحسين والعمل مع بيانات الشبكة ثلاثية الأبعاد
-url: /java/3d-mesh-data/
+url: /ar/java/3d-mesh-data/
 weight: 32
 ---
 

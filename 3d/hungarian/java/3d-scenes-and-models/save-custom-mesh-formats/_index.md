@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Tanulja meg, hogyan írjon bináris fájlokat 3D hálókhoz Java-ban az Aspose.3D
   használatával. Ez az útmutató lefedi a 3D háló exportálását, a bináris fájl írását
   Java-ban, és a háló háromszögelését Java-ban.
-language: hu
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: Hogyan írjunk bináris fájlokat 3D hálókhoz Java-ban
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /hu/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

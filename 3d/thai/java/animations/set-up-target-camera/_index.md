@@ -2,13 +2,12 @@
 date: 2025-12-05
 description: เรียนรู้วิธีเริ่มต้นฉาก 3D ใน Java และกำหนดกล้องเป้าหมายสำหรับการสร้างแอนิเมชัน
   3D ด้วย Aspose.3D คู่มือแบบขั้นตอนพร้อมตัวอย่างโค้ด
-language: th
 linktitle: How to Initialize 3D Scene Java and Set Up Target Camera for 3D Animations
   | Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 title: วิธีเริ่มต้นฉาก 3 มิติใน Java และตั้งค่ากล้องเป้าหมายสำหรับการแอนิเมชัน 3 มิติ
   | บทเรียน Aspose.3D
-url: /java/animations/set-up-target-camera/
+url: /th/java/animations/set-up-target-camera/
 weight: 11
 ---
 

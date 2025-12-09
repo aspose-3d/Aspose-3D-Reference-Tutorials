@@ -1,11 +1,10 @@
 ---
 date: 2025-11-29
 description: 学习如何在 Java 中创建网格切线，同时使用 Aspose.3D 优化 3D 网格数据。了解压缩、数据生成以及基于材质的网格拆分。
-language: zh
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: 创建网格切线 Java – 优化与处理 3D 网格数据
-url: /java/3d-mesh-data/
+url: /zh/java/3d-mesh-data/
 weight: 32
 ---
 

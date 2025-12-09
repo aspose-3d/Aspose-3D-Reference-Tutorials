@@ -4,12 +4,11 @@ description: Ismerje meg, hogyan használja az Aspose-t Java-ban egy 3D gömb su
   módosításához. Ez a lépésről‑lépésre útmutató bemutatja az Aspose.3D Java könyvtárat,
   a sugár beállítását, a gömb hozzáadását a jelenethez, valamint az OBJ fájl Java‑ban
   történő írását.
-language: hu
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 'Hogyan használjuk az Aspose-t: 3D gömb sugarának módosítása Java-ban az Aspose.3D
   segítségével'
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /hu/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

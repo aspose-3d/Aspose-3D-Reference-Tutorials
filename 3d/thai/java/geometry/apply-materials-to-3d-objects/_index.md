@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: เรียนการสอนกราฟิก 3 มิติใน Java ว่าจะเพิ่มเทกเจอร์ใน Java อย่างไรโดยใช้
   Aspose.3D. ใช้วัสดุที่เหมือนจริงกับวัตถุ 3 มิติใน Java อย่างรวดเร็ว.
-language: th
 linktitle: Apply Materials to 3D Objects in Java with Aspose.3D
 second_title: Aspose.3D Java API
 title: บทเรียนกราฟิก 3 มิติใน Java – การใช้วัสดุกับวัตถุ 3 มิติใน Java ด้วย Aspose.3D
-url: /java/geometry/apply-materials-to-3d-objects/
+url: /th/java/geometry/apply-materials-to-3d-objects/
 weight: 14
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Pelajari cara menulis file biner untuk mesh 3D dalam Java menggunakan
   Aspose.3D. Panduan ini mencakup mengekspor mesh 3D, menulis file biner dengan Java,
   dan melakukan triangulasi mesh di Java.
-language: id
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: Cara Menulis File Biner untuk Mesh 3D di Java
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /id/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

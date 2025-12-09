@@ -2,12 +2,11 @@
 date: 2025-12-08
 description: تعلّم درسًا في رسومات Java ثلاثية الأبعاد حول كيفية إضافة القوام باستخدام
   Aspose.3D. طبّق مواد واقعية على الكائنات ثلاثية الأبعاد في Java بسرعة.
-language: ar
 linktitle: Apply Materials to 3D Objects in Java with Aspose.3D
 second_title: Aspose.3D Java API
 title: دروس رسومات جافا ثلاثية الأبعاد – تطبيق المواد على الكائنات ثلاثية الأبعاد
   في جافا باستخدام Aspose.3D
-url: /java/geometry/apply-materials-to-3d-objects/
+url: /ar/java/geometry/apply-materials-to-3d-objects/
 weight: 14
 ---
 

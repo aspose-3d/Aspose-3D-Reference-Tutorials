@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.3D for Java में ऑफ़सेट टॉप वाले सिलिंडर मॉडल बनाना सीखें, चाइल्ड
   नोड जावा स्टेप्स जोड़ें, और 3D मॉडल OBJ फ़ाइलें आसानी से निर्यात करें।
-language: hi
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Aspose.3D for Java में ऑफसेट टॉप के साथ सिलेंडर कैसे बनाएं
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /hi/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: Aspose.3D를 사용하여 Java에서 PBR 재질을 적용하고 사원수를 연결하는 방법을 배우세요. 3D 기하학, 메쉬 공유
   및 변환을 마스터하세요.
-language: ko
 linktitle: How to Apply PBR Materials in Java
 second_title: Aspose.3D Java API
 title: Aspose.3D를 사용한 Java에서 PBR 재질 적용 방법
-url: /java/geometry/
+url: /ko/java/geometry/
 weight: 21
 ---
 

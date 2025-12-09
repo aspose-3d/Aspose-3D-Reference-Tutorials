@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Узнайте, как изменить радиус сферы в Java с помощью Aspose.3D. Это руководство
   охватывает изменения радиуса сферы и запросы, похожие на XPath, для бесшовной 3D‑разработки.
-language: ru
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Изменение радиуса сферы в Java – Управление 3D‑объектами и сценами в Java
-url: /java/3d-objects-and-scenes/
+url: /ru/java/3d-objects-and-scenes/
 weight: 33
 ---
 

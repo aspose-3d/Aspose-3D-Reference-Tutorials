@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Aspose.3D ile Java sahnelerinde doku rengini değiştirmeyi, malzeme özelliklerine
   erişmeyi, Vector3 değerlerini ayarlamayı ve adla özellikleri almayı öğrenin – eksiksiz
   bir Aspose 3D öğreticisi.
-language: tr
 linktitle: Change texture color and manage 3D properties in Java scenes using Aspose.3D
 second_title: Aspose.3D Java API
 title: Aspose.3D kullanarak Java sahnelerinde doku rengini değiştirin ve 3B özellikleri
   yönetin
-url: /java/3d-scenes-and-models/managing-3d-properties-scenes/
+url: /tr/java/3d-scenes-and-models/managing-3d-properties-scenes/
 weight: 14
 ---
 

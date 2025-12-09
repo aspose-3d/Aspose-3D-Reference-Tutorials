@@ -2,10 +2,9 @@
 date: 2025-12-03
 description: Leer hoe je 3D‑animatie‑Java‑projecten maakt met Aspose.3D. Ontdek point
   clouds in Java, polygonen naar driehoeken in Java, en tientallen stapsgewijze tutorials.
-language: nl
 linktitle: Aspose.3D for Java Tutorials
 title: Maak 3D-animatie Java met Aspose.3D – Uitgebreide tutorials
-url: /java/
+url: /nl/java/
 weight: 10
 ---
 

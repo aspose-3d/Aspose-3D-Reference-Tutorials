@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Μάθετε πώς να εφαρμόζετε υλικά PBR και να συνενώνετε τετραδικά σε Java
   χρησιμοποιώντας το Aspose.3D. Κατακτήστε τη 3D γεωμετρία, την κοινή χρήση πλεγμάτων
   και τις μετασχηματίσεις.
-language: el
 linktitle: How to Apply PBR Materials in Java
 second_title: Aspose.3D Java API
 title: Πώς να εφαρμόσετε υλικά PBR στη Java με το Aspose.3D
-url: /java/geometry/
+url: /el/java/geometry/
 weight: 21
 ---
 

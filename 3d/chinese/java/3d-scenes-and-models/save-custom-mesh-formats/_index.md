@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: 学习如何使用 Aspose.3D 在 Java 中编写 3D 网格的二进制文件。本指南涵盖导出 3D 网格、在 Java 中写入二进制文件以及在
   Java 中对网格进行三角化。
-language: zh
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: 如何在 Java 中为 3D 网格编写二进制文件
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /zh/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

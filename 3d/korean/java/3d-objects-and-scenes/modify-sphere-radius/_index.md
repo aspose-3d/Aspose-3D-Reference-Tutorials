@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Aspose를 Java에서 사용하여 3D 구의 반지름을 수정하는 방법을 배워보세요. 이 단계별 가이드는 Aspose.3D Java
   라이브러리, 반지름 설정 방법, 구를 씬에 추가하는 방법, 그리고 OBJ 파일을 Java로 쓰는 방법을 다룹니다.
-language: ko
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 'Aspose 사용 방법: Aspose.3D를 이용한 Java에서 3D 구의 반경 수정'
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /ko/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

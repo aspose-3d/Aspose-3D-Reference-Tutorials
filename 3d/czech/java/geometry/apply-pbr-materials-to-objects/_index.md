@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Naučte se, jak vytvořit 3D scénu v Javě, aplikovat realistické PBR materiály
   pomocí Aspose.3D a uložit 3D model ve formátu STL pro renderování 3D objektů v Javě.
-language: cs
 linktitle: Create 3D Scene Java – Apply PBR Materials with Aspose.3D
 second_title: Aspose.3D Java API
 title: 'Vytvořte 3D scénu v Javě: aplikujte PBR materiály s Aspose.3D'
-url: /java/geometry/apply-pbr-materials-to-objects/
+url: /cs/java/geometry/apply-pbr-materials-to-objects/
 weight: 10
 ---
 

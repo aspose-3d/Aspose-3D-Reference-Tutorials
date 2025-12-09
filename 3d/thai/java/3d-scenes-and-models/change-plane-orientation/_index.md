@@ -2,13 +2,12 @@
 date: 2025-11-30
 description: เรียนรู้วิธีสร้างไฟล์ OBJ พร้อมเปลี่ยนการวางแนวของระนาบใน Aspose.3D สำหรับ
   Java. ทำตามคำแนะนำทีละขั้นตอนเพื่อสร้างฉาก 3 มิติด้วยตำแหน่งที่แม่นยำ.
-language: th
 linktitle: Generate OBJ File by Modifying Plane Orientation for Precise 3D Scene Positioning
   in Java
 second_title: Aspose.3D Java API
 title: สร้างไฟล์ OBJ ด้วยการปรับทิศทางของระนาบเพื่อการกำหนดตำแหน่งฉาก 3 มิติอย่างแม่นยำใน
   Java
-url: /java/3d-scenes-and-models/change-plane-orientation/
+url: /th/java/3d-scenes-and-models/change-plane-orientation/
 weight: 10
 ---
 

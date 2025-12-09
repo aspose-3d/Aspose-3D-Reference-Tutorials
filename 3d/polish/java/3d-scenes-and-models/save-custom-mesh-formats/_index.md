@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Dowiedz się, jak zapisywać pliki binarne dla siatek 3D w Javie przy użyciu
   Aspose.3D. Ten przewodnik obejmuje eksportowanie siatki 3D, zapisywanie pliku binarnego
   w Javie oraz triangulację siatki w Javie.
-language: pl
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: Jak zapisywać pliki binarne dla siatek 3D w Javie
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /pl/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

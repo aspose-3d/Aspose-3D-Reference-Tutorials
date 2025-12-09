@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tìm hiểu cách tạo mô hình hình trụ với đỉnh lệch trong Aspose.3D cho
   Java, thêm các bước Java cho nút con, và xuất tệp OBJ của mô hình 3D một cách dễ
   dàng.
-language: vi
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Cách tạo hình trụ với đỉnh lệch trong Aspose.3D cho Java
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /vi/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

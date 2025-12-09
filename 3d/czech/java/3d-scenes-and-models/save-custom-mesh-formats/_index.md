@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Naučte se, jak v Javě pomocí Aspose.3D zapisovat binární soubory pro
   3D sítě. Tento průvodce pokrývá export 3D sítě, zápis binárního souboru v Javě a
   triangulaci sítě v Javě.
-language: cs
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: Jak zapisovat binární soubory pro 3D sítě v Javě
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /cs/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

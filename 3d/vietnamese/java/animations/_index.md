@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Học cách tạo hoạt ảnh 3D trong Java bằng Aspose.3D. Hướng dẫn này cho
   thấy cách thêm hoạt ảnh và tạo các cảnh 3D động với các máy quay mục tiêu.
-language: vi
 linktitle: How to Animate 3D in Java – Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 title: Cách tạo hoạt ảnh 3D trong Java – Hướng dẫn Aspose.3D
-url: /java/animations/
+url: /vi/java/animations/
 weight: 20
 ---
 

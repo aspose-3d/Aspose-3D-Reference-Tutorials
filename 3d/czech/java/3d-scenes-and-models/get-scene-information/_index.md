@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Naučte se, jak ukládat soubory FBX a získávat informace o scéně pomocí
   Aspose.3D pro Javu. Tento krok‑za‑krokem průvodce zahrnuje nastavení názvu aplikace,
   definování měrných jednotek a export scény do formátu FBX.
-language: cs
 linktitle: How to Save FBX and Retrieve 3D Scene Info in Java
 second_title: Aspose.3D Java API
 title: Jak uložit FBX a získat informace o 3D scéně v Javě
-url: /java/3d-scenes-and-models/get-scene-information/
+url: /cs/java/3d-scenes-and-models/get-scene-information/
 weight: 12
 ---
 

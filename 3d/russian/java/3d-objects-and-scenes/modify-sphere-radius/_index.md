@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Узнайте, как использовать Aspose в Java для изменения радиуса 3‑D сферы.
   Это пошаговое руководство охватывает библиотеку Aspose.3D Java, как установить радиус,
   добавить сферу в сцену и записать файл OBJ на Java.
-language: ru
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 'Как использовать Aspose: изменить радиус 3D‑сферы в Java с помощью Aspose.3D'
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /ru/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Học cách tạo cảnh 3D trong Java, áp dụng vật liệu PBR thực tế bằng Aspose.3D,
   và lưu mô hình 3D dưới dạng STL để render các đối tượng 3D trong Java.
-language: vi
 linktitle: Create 3D Scene Java – Apply PBR Materials with Aspose.3D
 second_title: Aspose.3D Java API
 title: 'Tạo cảnh 3D Java: Áp dụng vật liệu PBR với Aspose.3D'
-url: /java/geometry/apply-pbr-materials-to-objects/
+url: /vi/java/geometry/apply-pbr-materials-to-objects/
 weight: 10
 ---
 

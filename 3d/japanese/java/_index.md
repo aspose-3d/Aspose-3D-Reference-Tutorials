@@ -2,10 +2,9 @@
 date: 2025-12-03
 description: Aspose.3D を使用して 3D アニメーション Java プロジェクトの作成方法を学びましょう。ポイントクラウド Java、ポリゴンから三角形への変換
   Java、そして数十本のステップバイステップチュートリアルを探求してください。
-language: ja
 linktitle: Aspose.3D for Java Tutorials
 title: Aspose.3D を使用した Java での 3D アニメーション作成 – 包括的チュートリアル
-url: /java/
+url: /ja/java/
 weight: 10
 ---
 

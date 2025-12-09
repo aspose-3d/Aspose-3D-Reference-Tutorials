@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.3D を使用して Java で球体の半径を変更する方法を学びましょう。このチュートリアルでは、球体の半径の変更と XPath
   のようなクエリを活用したシームレスな 3D 開発について解説します。
-language: ja
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Javaで球体の半径を変更 – Javaにおける3Dオブジェクトとシーンの操作
-url: /java/3d-objects-and-scenes/
+url: /ja/java/3d-objects-and-scenes/
 weight: 33
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-11-29
 description: Aspose.3D を使用して 3D メッシュ データを最適化しながら、Java でメッシュ接線を作成する方法を学びましょう。圧縮、データ生成、マテリアルベースのメッシュ分割についても探求してください。
-language: ja
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: Javaでメッシュタンジェントを作成 – 3Dメッシュデータの最適化と活用
-url: /java/3d-mesh-data/
+url: /ja/java/3d-mesh-data/
 weight: 32
 ---
 

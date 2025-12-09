@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Tanulja meg, hogyan hozhat létre 3D jelenetet Java-ban, valósághű PBR
   anyagokat alkalmazva az Aspose.3D segítségével, és hogyan mentheti el a 3D modellt
   STL formátumban a Java-ban történő 3D objektumok rendereléséhez.
-language: hu
 linktitle: Create 3D Scene Java – Apply PBR Materials with Aspose.3D
 second_title: Aspose.3D Java API
 title: '3D jelenet létrehozása Java-ban: PBR anyagok alkalmazása az Aspose.3D-vel'
-url: /java/geometry/apply-pbr-materials-to-objects/
+url: /hu/java/geometry/apply-pbr-materials-to-objects/
 weight: 10
 ---
 

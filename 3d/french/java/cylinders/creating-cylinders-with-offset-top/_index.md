@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Apprenez à créer des modèles de cylindre avec des sommets décalés dans
   Aspose.3D pour Java, ajoutez des étapes de nœud enfant en Java et exportez facilement
   des fichiers OBJ de modèles 3D.
-language: fr
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Comment créer un cylindre avec un haut décalé dans Aspose.3D pour Java
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /fr/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

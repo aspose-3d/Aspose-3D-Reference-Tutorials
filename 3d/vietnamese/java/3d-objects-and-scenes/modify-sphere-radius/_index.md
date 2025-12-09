@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Tìm hiểu cách sử dụng Aspose trong Java để chỉnh sửa bán kính của một
   hình cầu 3D. Hướng dẫn từng bước này bao gồm thư viện Aspose.3D Java, cách đặt bán
   kính, thêm hình cầu vào cảnh và ghi tệp OBJ bằng Java.
-language: vi
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 'Cách sử dụng Aspose: Thay đổi bán kính hình cầu 3D trong Java với Aspose.3D'
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /vi/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Naučte se pracovat s Aspose 3D Java pro vytváření, kompresi a správu
   3D scén a modelů. Ovládněte umisťování scén, ukládání sítí a manipulaci s vlastnostmi
   ve svých Java aplikacích.
-language: cs
 linktitle: 'Working with Aspose 3D Java: 3D Scenes and Models'
 second_title: Aspose.3D Java API
 title: 'Práce s Aspose 3D Java: 3D scény a modely'
-url: /java/3d-scenes-and-models/
+url: /cs/java/3d-scenes-and-models/
 weight: 29
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: Aspose.3D for Javaで、オフセットされたトップを持つシリンダーモデルの作成方法を学び、子ノードを追加するJavaの手順を実行し、3DモデルのOBJファイルを簡単にエクスポートできます。
-language: ja
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Aspose.3D for Javaでオフセットトップのシリンダーを作成する方法
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /ja/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

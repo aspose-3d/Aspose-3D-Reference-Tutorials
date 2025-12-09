@@ -3,12 +3,11 @@ date: 2025-11-30
 description: تعلم كيفية إضافة المتجهات العمودية إلى الشبكات ثلاثية الأبعاد في جافا
   باستخدام Aspose.3D. يوضح لك هذا الدليل خطوة بخطوة كيفية إنشاء بيانات المتجهات العمودية،
   حساب المتجهات العمودية للشبكة، وتحسين الرسومات ثلاثية الأبعاد الخاصة بك.
-language: ar
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: كيفية إضافة المتجهات العمودية إلى المجسمات ثلاثية الأبعاد في جافا (باستخدام
   Aspose.3D)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /ar/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

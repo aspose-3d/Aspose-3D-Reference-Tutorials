@@ -3,13 +3,12 @@ date: 2025-12-04
 description: تعلم **كيفية تحريك المشاهد ثلاثية الأبعاد** في Java باستخدام Aspose.3D.
   يوضح لك هذا الدليل خطوة بخطوة كيفية إضافة خصائص التحريك، وإنشاء الإطارات المفتاحية،
   وتصدير النتيجة.
-language: ar
 linktitle: How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
   Tutorial
 second_title: Aspose.3D Java API
 title: كيفية تحريك المشاهد ثلاثية الأبعاد في جافا – إضافة خصائص التحريك باستخدام دليل
   Aspose.3D
-url: /java/animations/add-animation-properties-to-scenes/
+url: /ar/java/animations/add-animation-properties-to-scenes/
 weight: 10
 ---
 

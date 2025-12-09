@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Leer hoe je binaire bestanden voor 3D-meshes schrijft in Java met Aspose.3D.
   Deze gids behandelt het exporteren van 3D-meshes, het schrijven van binaire bestanden
   in Java en het trianguleren van meshes in Java.
-language: nl
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: Hoe binaire bestanden voor 3D‑meshes in Java te schrijven
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /nl/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Pelajari cara mengurangi ukuran file 3D dengan mengompres adegan 3D menggunakan
   Aspose.3D untuk Java. Ikuti panduan langkah demi langkah kami untuk penyimpanan
   dan berbagi yang optimal.
-language: id
 linktitle: Reduce 3D File Size – Compress Scenes with Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Kurangi Ukuran File 3D – Kompres Adegan dengan Aspose.3D untuk Java
-url: /java/3d-scenes-and-models/compress-3d-scenes/
+url: /id/java/3d-scenes-and-models/compress-3d-scenes/
 weight: 11
 ---
 

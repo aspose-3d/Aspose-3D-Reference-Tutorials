@@ -3,11 +3,10 @@ date: 2025-11-30
 description: जावा में Aspose.3D का उपयोग करके 3D मेष में नॉर्मल्स जोड़ना सीखें। यह
   चरण-दर-चरण गाइड आपको नॉर्मल डेटा बनाना, मेष नॉर्मल्स की गणना करना, और अपनी 3D ग्राफ़िक्स
   को बेहतर बनाना दिखाता है।
-language: hi
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: जावा में 3D मेष में नॉर्मल्स कैसे जोड़ें (Aspose.3D का उपयोग करके)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /hi/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: เรียนรู้วิธีเปลี่ยนสีพื้นผิว, เข้าถึงคุณสมบัติของวัสดุ, ตั้งค่า Vector3,
   และดึงคุณสมบัติตามชื่อในฉาก Java ด้วย Aspose.3D – บทเรียน Aspose 3D ฉบับสมบูรณ์
-language: th
 linktitle: Change texture color and manage 3D properties in Java scenes using Aspose.3D
 second_title: Aspose.3D Java API
 title: เปลี่ยนสีพื้นผิวและจัดการคุณสมบัติ 3 มิติในฉาก Java ด้วย Aspose.3D
-url: /java/3d-scenes-and-models/managing-3d-properties-scenes/
+url: /th/java/3d-scenes-and-models/managing-3d-properties-scenes/
 weight: 14
 ---
 

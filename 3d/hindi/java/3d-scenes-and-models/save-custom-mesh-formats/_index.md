@@ -3,11 +3,10 @@ date: 2025-12-03
 description: जावा में Aspose.3D का उपयोग करके 3D मेष के लिए बाइनरी फ़ाइलें लिखना सीखें।
   यह गाइड 3D मेष को निर्यात करने, जावा में बाइनरी फ़ाइल लिखने, और जावा में मेष को
   त्रिकोणीय बनाने को कवर करता है।
-language: hi
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: जावा में 3D मेष के लिए बाइनरी फ़ाइलें कैसे लिखें
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /hi/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

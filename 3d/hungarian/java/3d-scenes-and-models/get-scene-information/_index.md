@@ -4,11 +4,10 @@ description: Ismerje meg, hogyan menthet FBX fájlokat és hogyan kérdezheti le
   információit az Aspose.3D for Java használatával. Ez a lépésről‑lépésre útmutató
   bemutatja az alkalmazás nevének beállítását, a mértékegységek meghatározását és
   a jelenet FBX‑be exportálását.
-language: hu
 linktitle: How to Save FBX and Retrieve 3D Scene Info in Java
 second_title: Aspose.3D Java API
 title: Hogyan menthetünk FBX-et és szerezhetünk vissza 3D-s jelenetinformációkat Java-ban
-url: /java/3d-scenes-and-models/get-scene-information/
+url: /hu/java/3d-scenes-and-models/get-scene-information/
 weight: 12
 ---
 

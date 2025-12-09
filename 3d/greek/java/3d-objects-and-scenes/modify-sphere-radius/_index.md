@@ -4,12 +4,11 @@ description: Μάθετε πώς να χρησιμοποιείτε το Aspose �
   ακτίνα μιας 3D σφαίρας. Αυτός ο οδηγός βήμα‑βήμα καλύπτει τη βιβλιοθήκη Aspose.3D
   Java, πώς να ορίσετε την ακτίνα, να προσθέσετε τη σφαίρα στη σκηνή και να γράψετε
   αρχείο OBJ σε Java.
-language: el
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 'Πώς να χρησιμοποιήσετε το Aspose: Τροποποίηση της ακτίνας 3Δ σφαίρας σε Java
   με το Aspose.3D'
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /el/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Scopri come creare le tangenti della mesh in Java ottimizzando i dati
   della mesh 3D con Aspose.3D. Scopri la compressione, la generazione dei dati e la
   suddivisione della mesh basata sui materiali.
-language: it
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: Creare tangenti della mesh in Java – Ottimizzare e lavorare con dati mesh 3D
-url: /java/3d-mesh-data/
+url: /it/java/3d-mesh-data/
 weight: 32
 ---
 

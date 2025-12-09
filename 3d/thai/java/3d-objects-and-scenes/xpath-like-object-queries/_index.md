@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: เรียนรู้วิธี **สร้างฉาก 3 มิติใน Java** และใช้การค้นหาแบบคล้าย XPath
   เพื่อ **เลือกวัตถุตามประเภท** ใน Aspose.3D สำหรับ Java.
-language: th
 linktitle: Create 3D Scene Java – Apply XPath‑Like Queries with Aspose.3D
 second_title: Aspose.3D Java API
 title: สร้างฉาก 3D ด้วย Java – ใช้การค้นคล้าย XPath กับ Aspose.3D
-url: /java/3d-objects-and-scenes/xpath-like-object-queries/
+url: /th/java/3d-objects-and-scenes/xpath-like-object-queries/
 weight: 11
 ---
 

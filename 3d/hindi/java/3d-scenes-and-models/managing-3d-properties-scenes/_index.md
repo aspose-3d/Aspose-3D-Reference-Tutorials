@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Aspose.3D के साथ जावा सीन में टेक्सचर रंग बदलना, मैटेरियल प्रॉपर्टीज़
   तक पहुंचना, Vector3 मान सेट करना, और नाम द्वारा प्रॉपर्टीज़ प्राप्त करना सीखें –
   एक पूर्ण Aspose 3D ट्यूटोरियल।
-language: hi
 linktitle: Change texture color and manage 3D properties in Java scenes using Aspose.3D
 second_title: Aspose.3D Java API
 title: Aspose.3D का उपयोग करके जावा दृश्यों में टेक्सचर रंग बदलें और 3D गुण प्रबंधित
   करें
-url: /java/3d-scenes-and-models/managing-3d-properties-scenes/
+url: /hi/java/3d-scenes-and-models/managing-3d-properties-scenes/
 weight: 14
 ---
 

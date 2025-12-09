@@ -3,13 +3,12 @@ date: 2025-12-04
 description: Tanulja meg, **hogyan animáljon 3D** jeleneteket Java-ban az Aspose.3D
   használatával. Ez a lépésről‑lépésre útmutató megmutatja, hogyan adjon hozzá animációs
   tulajdonságokat, hozzon létre kulcsképkockákat, és exportálja az eredményt.
-language: hu
 linktitle: How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
   Tutorial
 second_title: Aspose.3D Java API
 title: Hogyan animáljunk 3D jeleneteket Java-ban – Animációs tulajdonságok hozzáadása
   az Aspose.3D útmutatóval
-url: /java/animations/add-animation-properties-to-scenes/
+url: /hu/java/animations/add-animation-properties-to-scenes/
 weight: 10
 ---
 

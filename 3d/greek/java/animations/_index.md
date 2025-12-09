@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Μάθετε πώς να δημιουργείτε κίνηση 3D σε Java χρησιμοποιώντας το Aspose.3D.
   Αυτός ο οδηγός δείχνει πώς να προσθέτετε κίνηση και να δημιουργείτε κινούμενες 3D
   σκηνές με κάμερες‑στόχους.
-language: el
 linktitle: How to Animate 3D in Java – Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 title: Πώς να δημιουργήσετε κίνηση 3D σε Java – Εκπαιδευτικό σεμινάριο Aspose.3D
-url: /java/animations/
+url: /el/java/animations/
 weight: 20
 ---
 

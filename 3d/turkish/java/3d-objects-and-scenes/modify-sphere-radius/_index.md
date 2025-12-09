@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Java'da Aspose kullanarak bir 3D küre yarıçapını nasıl değiştireceğinizi
   öğrenin. Bu adım‑adım rehber, Aspose.3D Java kütüphanesini, yarıçapı nasıl ayarlayacağınızı,
   küreyi sahneye eklemeyi ve OBJ dosyasını Java ile yazmayı kapsar.
-language: tr
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 'Aspose Nasıl Kullanılır: Aspose.3D ile Java''da 3D Küre Yarıçapını Değiştirme'
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /tr/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

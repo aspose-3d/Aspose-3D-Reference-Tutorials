@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Aprende a agregar normales a mallas 3D en Java usando Aspose.3D. Esta
   guía paso a paso te muestra cómo crear datos de normales, calcular las normales
   de la malla y mejorar tus gráficos 3D.
-language: es
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: Cómo agregar normales a mallas 3D en Java (usando Aspose.3D)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /es/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

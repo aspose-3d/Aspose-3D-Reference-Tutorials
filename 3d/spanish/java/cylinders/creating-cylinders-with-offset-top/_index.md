@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aprende a crear modelos de cilindro con tapas desplazadas en Aspose.3D
   para Java, agrega pasos de nodo hijo en Java y exporta fácilmente archivos OBJ de
   modelos 3D.
-language: es
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Cómo crear un cilindro con la parte superior desplazada en Aspose.3D para Java
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /es/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

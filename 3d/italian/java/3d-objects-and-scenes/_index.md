@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Scopri come modificare il raggio della sfera in Java con Aspose.3D. Questo
   tutorial copre le modifiche al raggio della sfera e le query in stile XPath per
   uno sviluppo 3D senza interruzioni.
-language: it
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Modifica il raggio della sfera in Java – Manipolazione di oggetti e scene 3D
   in Java
-url: /java/3d-objects-and-scenes/
+url: /it/java/3d-objects-and-scenes/
 weight: 33
 ---
 

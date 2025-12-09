@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Μάθετε πώς να γράφετε δυαδικά αρχεία για 3D πλέγματα σε Java χρησιμοποιώντας
   το Aspose.3D. Αυτός ο οδηγός καλύπτει την εξαγωγή 3D πλέγματος, τη δημιουργία δυαδικού
   αρχείου σε Java και την τριγωνοποίηση του πλέγματος σε Java.
-language: el
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: Πώς να γράψετε δυαδικά αρχεία για 3D πλέγματα σε Java
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /el/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

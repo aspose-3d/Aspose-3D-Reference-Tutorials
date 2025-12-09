@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 學習如何在 Java 中使用 Aspose.3D 修改球體半徑。本教學涵蓋球體半徑的變更以及類 XPath 查詢，助您順暢開發 3D 應用。
-language: zh-hant
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: 修改球體半徑（Java） – 在 Java 中操控 3D 物件與場景
-url: /java/3d-objects-and-scenes/
+url: /zh-hant/java/3d-objects-and-scenes/
 weight: 33
 ---
 

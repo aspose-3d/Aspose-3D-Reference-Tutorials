@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Naučte se, jak upravit poloměr koule v Javě pomocí Aspose.3D. Tento tutoriál
   pokrývá změny poloměru koule a dotazy podobné XPath pro plynulý vývoj 3D.
-language: cs
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Upravit poloměr koule v Javě – Manipulace s 3D objekty a scénami v Javě
-url: /java/3d-objects-and-scenes/
+url: /cs/java/3d-objects-and-scenes/
 weight: 33
 ---
 

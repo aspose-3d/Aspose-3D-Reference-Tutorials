@@ -2,12 +2,11 @@
 date: 2025-11-30
 description: Aspose.3D for Java에서 평면 방향을 변경하면서 OBJ 파일을 생성하는 방법을 배워보세요. 정확한 위치 지정으로
   3D 씬을 만드는 단계별 지침을 따라보세요.
-language: ko
 linktitle: Generate OBJ File by Modifying Plane Orientation for Precise 3D Scene Positioning
   in Java
 second_title: Aspose.3D Java API
 title: Java에서 정밀한 3D 씬 배치를 위해 평면 방향을 수정하여 OBJ 파일 생성
-url: /java/3d-scenes-and-models/change-plane-orientation/
+url: /ko/java/3d-scenes-and-models/change-plane-orientation/
 weight: 10
 ---
 

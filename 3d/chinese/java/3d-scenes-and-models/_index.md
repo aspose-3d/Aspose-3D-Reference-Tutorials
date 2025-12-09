@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 学习如何使用 Aspose 3D Java 创建、压缩和管理 3D 场景与模型。掌握在 Java 应用中进行场景定位、网格保存和属性操作的技巧。
-language: zh
 linktitle: 'Working with Aspose 3D Java: 3D Scenes and Models'
 second_title: Aspose.3D Java API
 title: 使用 Aspose 3D Java：3D 场景和模型
-url: /java/3d-scenes-and-models/
+url: /zh/java/3d-scenes-and-models/
 weight: 29
 ---
 

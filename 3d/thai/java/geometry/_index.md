@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: เรียนรู้วิธีใช้วัสดุ PBR และต่อเชื่อมควอเทอร์เนียนใน Java ด้วย Aspose.3D.
   เชี่ยวชาญเรขาคณิต 3 มิติ การแชร์เมช และการแปลงรูป
-language: th
 linktitle: How to Apply PBR Materials in Java
 second_title: Aspose.3D Java API
 title: วิธีใช้วัสดุ PBR ใน Java ด้วย Aspose.3D
-url: /java/geometry/
+url: /th/java/geometry/
 weight: 21
 ---
 

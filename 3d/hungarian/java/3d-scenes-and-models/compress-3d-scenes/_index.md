@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Tanulja meg, hogyan csökkentheti a 3D fájlméretet a 3D jelenetek Aspose.3D
   for Java-val történő tömörítésével. Kövesse lépésről‑lépésre útmutatónkat az optimális
   tárolás és megosztás érdekében.
-language: hu
 linktitle: Reduce 3D File Size – Compress Scenes with Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Csökkentse a 3D fájlméretet – Tömörítse a jeleneteket az Aspose.3D for Java-val
-url: /java/3d-scenes-and-models/compress-3d-scenes/
+url: /hu/java/3d-scenes-and-models/compress-3d-scenes/
 weight: 11
 ---
 

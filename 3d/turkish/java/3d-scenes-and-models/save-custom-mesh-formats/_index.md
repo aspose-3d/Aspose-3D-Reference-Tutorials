@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Aspose.3D kullanarak Java’da 3D ağlar için ikili dosyaların nasıl yazılacağını
   öğrenin. Bu kılavuz, 3D ağın dışa aktarılmasını, Java’da ikili dosya yazımını ve
   Java’da ağın üçgenleştirilmesini kapsar.
-language: tr
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: Java'da 3D Mesh'ler İçin İkili Dosyalar Nasıl Yazılır
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /tr/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

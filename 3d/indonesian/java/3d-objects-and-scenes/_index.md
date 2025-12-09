@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Pelajari cara mengubah radius bola di Java dengan Aspose.3D. Tutorial
   ini mencakup perubahan radius bola dan kueri mirip XPath untuk pengembangan 3D yang
   mulus.
-language: id
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Ubah Radius Bola Java – Memanipulasi Objek 3D dan Adegan dalam Java
-url: /java/3d-objects-and-scenes/
+url: /id/java/3d-objects-and-scenes/
 weight: 33
 ---
 

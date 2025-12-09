@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.3D を使用してテクスチャを追加する方法の Java 3D グラフィックスチュートリアルを学びましょう。Java で 3D
   オブジェクトにリアルなマテリアルをすばやく適用できます。
-language: ja
 linktitle: Apply Materials to 3D Objects in Java with Aspose.3D
 second_title: Aspose.3D Java API
 title: Java 3Dグラフィックスチュートリアル – Aspose.3Dを使用してJavaで3Dオブジェクトにマテリアルを適用する
-url: /java/geometry/apply-materials-to-3d-objects/
+url: /ja/java/geometry/apply-materials-to-3d-objects/
 weight: 14
 ---
 

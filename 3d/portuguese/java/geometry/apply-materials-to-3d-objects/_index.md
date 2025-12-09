@@ -2,12 +2,11 @@
 date: 2025-12-08
 description: Aprenda um tutorial de gráficos 3D em Java sobre como adicionar textura
   usando Aspose.3D. Aplique materiais realistas em objetos 3D em Java rapidamente.
-language: pt
 linktitle: Apply Materials to 3D Objects in Java with Aspose.3D
 second_title: Aspose.3D Java API
 title: Tutorial de gráficos 3D em Java – Aplicar materiais a objetos 3D em Java com
   Aspose.3D
-url: /java/geometry/apply-materials-to-3d-objects/
+url: /pt/java/geometry/apply-materials-to-3d-objects/
 weight: 14
 ---
 

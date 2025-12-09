@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Tìm hiểu cách giảm kích thước tệp 3D bằng cách nén các cảnh 3D với Aspose.3D
   cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để lưu trữ và chia sẻ tối
   ưu.
-language: vi
 linktitle: Reduce 3D File Size – Compress Scenes with Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Giảm kích thước tệp 3D – Nén các cảnh với Aspose.3D cho Java
-url: /java/3d-scenes-and-models/compress-3d-scenes/
+url: /vi/java/3d-scenes-and-models/compress-3d-scenes/
 weight: 11
 ---
 

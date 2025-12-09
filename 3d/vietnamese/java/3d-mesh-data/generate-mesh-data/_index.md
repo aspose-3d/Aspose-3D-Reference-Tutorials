@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Tìm hiểu cách thêm vector pháp tuyến vào lưới 3D trong Java bằng Aspose.3D.
   Hướng dẫn từng bước này sẽ chỉ cho bạn cách tạo dữ liệu pháp tuyến, tính toán pháp
   tuyến cho lưới và cải thiện đồ họa 3D của bạn.
-language: vi
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: Cách Thêm Pháp Tuyến vào Lưới 3D trong Java (Sử dụng Aspose.3D)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /vi/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

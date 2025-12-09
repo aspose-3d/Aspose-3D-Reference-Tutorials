@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Изучите, как записывать бинарные файлы 3D‑сеток в Java с помощью Aspose.3D.
   В этом руководстве рассматривается экспорт 3D‑сеток, запись бинарного файла в Java
   и триангуляция сетки в Java.
-language: ru
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: Как записывать бинарные файлы для 3D‑сеток в Java
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /ru/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

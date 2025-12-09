@@ -3,11 +3,10 @@ date: 2025-12-04
 description: تعلم كيفية العمل مع Aspose 3D Java لإنشاء وضغط وإدارة المشاهد والنماذج
   ثلاثية الأبعاد. إتقان تموضع المشهد، حفظ الشبكة، ومعالجة الخصائص في تطبيقات Java
   الخاصة بك.
-language: ar
 linktitle: 'Working with Aspose 3D Java: 3D Scenes and Models'
 second_title: Aspose.3D Java API
 title: 'العمل مع Aspose 3D Java: المشاهد والنماذج ثلاثية الأبعاد'
-url: /java/3d-scenes-and-models/
+url: /ar/java/3d-scenes-and-models/
 weight: 29
 ---
 

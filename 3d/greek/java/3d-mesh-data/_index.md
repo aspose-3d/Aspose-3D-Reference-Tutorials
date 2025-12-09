@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Μάθετε πώς να δημιουργείτε εφαπτόμενα πλέγματος σε Java ενώ βελτιστοποιείτε
   τα 3D δεδομένα πλέγματος με το Aspose.3D. Ανακαλύψτε τη συμπίεση, τη δημιουργία
   δεδομένων και τη διαίρεση του πλέγματος βάσει υλικού.
-language: el
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: Δημιουργία Τανγεντών Πλέγματος σε Java – Βελτιστοποίηση και Εργασία με Δεδομένα
   3Δ Πλέγματος
-url: /java/3d-mesh-data/
+url: /el/java/3d-mesh-data/
 weight: 32
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Leer hoe je normaalvectoren toevoegt aan 3D‑meshes in Java met Aspose.3D.
   Deze stapsgewijze handleiding laat zien hoe je normaalgegevens maakt, mesh‑normaalvectoren
   berekent en je 3D‑graphics verbetert.
-language: nl
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: Hoe normaalvectoren toe te voegen aan 3D‑mesh‑modellen in Java (met Aspose.3D)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /nl/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

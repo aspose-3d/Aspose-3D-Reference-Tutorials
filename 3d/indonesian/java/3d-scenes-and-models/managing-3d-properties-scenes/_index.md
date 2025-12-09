@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Pelajari cara mengubah warna tekstur, mengakses properti material, mengatur
   nilai Vector3, dan mengambil properti berdasarkan nama dalam adegan Java dengan
   Aspose.3D – tutorial lengkap Aspose 3D.
-language: id
 linktitle: Change texture color and manage 3D properties in Java scenes using Aspose.3D
 second_title: Aspose.3D Java API
 title: Ubah warna tekstur dan kelola properti 3D dalam adegan Java menggunakan Aspose.3D
-url: /java/3d-scenes-and-models/managing-3d-properties-scenes/
+url: /id/java/3d-scenes-and-models/managing-3d-properties-scenes/
 weight: 14
 ---
 

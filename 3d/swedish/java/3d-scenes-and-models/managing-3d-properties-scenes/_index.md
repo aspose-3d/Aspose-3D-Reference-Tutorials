@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Lär dig hur du ändrar texturfärg, får åtkomst till materialegenskaper,
   sätter Vector3‑värden och hämtar egenskaper efter namn i Java‑scener med Aspose.3D
   – en komplett Aspose 3D‑handledning.
-language: sv
 linktitle: Change texture color and manage 3D properties in Java scenes using Aspose.3D
 second_title: Aspose.3D Java API
 title: Ändra texturfärg och hantera 3D‑egenskaper i Java‑scener med Aspose.3D
-url: /java/3d-scenes-and-models/managing-3d-properties-scenes/
+url: /sv/java/3d-scenes-and-models/managing-3d-properties-scenes/
 weight: 14
 ---
 

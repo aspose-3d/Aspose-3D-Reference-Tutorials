@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tanulja meg, hogyan animáljon 3D-t Java-ban az Aspose.3D segítségével.
   Ez az útmutató bemutatja, hogyan adjon hozzá animációt, és hogyan hozzon létre animált
   3D jeleneteket célkamerákkal.
-language: hu
 linktitle: How to Animate 3D in Java – Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 title: Hogyan animáljunk 3D-t Java-ban – Aspose.3D útmutató
-url: /java/animations/
+url: /hu/java/animations/
 weight: 20
 ---
 

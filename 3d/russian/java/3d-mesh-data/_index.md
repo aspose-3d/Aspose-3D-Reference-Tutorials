@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Изучите, как создавать тангенты сетки в Java, оптимизируя 3D‑данные сетки
   с помощью Aspose.3D. Узнайте о сжатии, генерации данных и разделении сетки по материалам.
-language: ru
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: Создание тангентов меша на Java – Оптимизация и работа с 3D‑данными меша
-url: /java/3d-mesh-data/
+url: /ru/java/3d-mesh-data/
 weight: 32
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Ismerje meg, hogyan adhat hozzá normálvektorokat 3D hálókhoz Java-ban
   az Aspose.3D használatával. Ez a lépésről‑lépésre útmutató megmutatja, hogyan hozhat
   létre normál adatokat, számíthatja ki a háló normáljait, és javíthatja 3D grafikáját.
-language: hu
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: Hogyan adjunk normálvektorokat 3D hálókhoz Java-ban (Aspose.3D használatával)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /hu/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Apprenez comment ajouter des normales aux maillages 3D en Java avec Aspose.3D.
   Ce guide étape par étape vous montre comment créer des données de normales, calculer
   les normales des maillages et améliorer vos graphiques 3D.
-language: fr
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: Comment ajouter des normales aux maillages 3D en Java (avec Aspose.3D)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /fr/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

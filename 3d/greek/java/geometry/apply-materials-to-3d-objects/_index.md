@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Μάθετε ένα σεμινάριο 3D γραφικών Java για το πώς να προσθέσετε υφή χρησιμοποιώντας
   το Aspose.3D. Εφαρμόστε ρεαλιστικά υλικά σε 3D αντικείμενα στην Java γρήγορα.
-language: el
 linktitle: Apply Materials to 3D Objects in Java with Aspose.3D
 second_title: Aspose.3D Java API
 title: java 3d graphics tutorial – Εφαρμογή υλικών σε 3Δ αντικείμενα σε Java με Aspose.3D
-url: /java/geometry/apply-materials-to-3d-objects/
+url: /el/java/geometry/apply-materials-to-3d-objects/
 weight: 14
 ---
 

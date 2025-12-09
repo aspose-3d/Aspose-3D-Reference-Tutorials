@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: 學習如何在 Java 中建立 3D 場景、使用 Aspose.3D 套用寫實的 PBR 材質，並將 3D 模型儲存為 STL，以在 Java
   中渲染 3D 物件。
-language: zh-hant
 linktitle: Create 3D Scene Java – Apply PBR Materials with Aspose.3D
 second_title: Aspose.3D Java API
 title: 在 Java 中建立 3D 場景：使用 Aspose.3D 套用 PBR 材質
-url: /java/geometry/apply-pbr-materials-to-objects/
+url: /zh-hant/java/geometry/apply-pbr-materials-to-objects/
 weight: 10
 ---
 

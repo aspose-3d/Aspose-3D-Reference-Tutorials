@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Aprenda como escrever arquivos binários para malhas 3D em Java usando
   Aspose.3D. Este guia aborda a exportação de malha 3D, a escrita de arquivos binários
   em Java e a triangulação de malha em Java.
-language: pt
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: Como escrever arquivos binários para malhas 3D em Java
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /pt/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

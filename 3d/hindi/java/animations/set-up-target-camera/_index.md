@@ -3,13 +3,12 @@ date: 2025-12-05
 description: Aspose.3D का उपयोग करके 3D एनीमेशन के लिए 3D सीन जावा को इनिशियलाइज़
   करने और टारगेट कैमरा को कॉन्फ़िगर करने का तरीका सीखें। चरण-दर-चरण मार्गदर्शिका कोड
   नमूनों के साथ।
-language: hi
 linktitle: How to Initialize 3D Scene Java and Set Up Target Camera for 3D Animations
   | Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 title: Java में 3D सीन को कैसे इनिशियलाइज़ करें और 3D एनीमेशन के लिए टार्गेट कैमरा
   सेट करें | Aspose.3D ट्यूटोरियल
-url: /java/animations/set-up-target-camera/
+url: /hi/java/animations/set-up-target-camera/
 weight: 11
 ---
 

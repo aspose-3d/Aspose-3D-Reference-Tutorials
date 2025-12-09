@@ -3,13 +3,12 @@ date: 2025-12-04
 description: Tìm hiểu **cách tạo hoạt ảnh 3D** cho các cảnh trong Java bằng Aspose.3D.
   Hướng dẫn chi tiết này chỉ cho bạn cách thêm các thuộc tính hoạt ảnh, tạo khung
   chính và xuất kết quả.
-language: vi
 linktitle: How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
   Tutorial
 second_title: Aspose.3D Java API
 title: Cách tạo hoạt ảnh cho các cảnh 3D trong Java – Thêm thuộc tính hoạt ảnh với
   hướng dẫn Aspose.3D
-url: /java/animations/add-animation-properties-to-scenes/
+url: /vi/java/animations/add-animation-properties-to-scenes/
 weight: 10
 ---
 

@@ -3,10 +3,9 @@ date: 2025-12-03
 description: Изучите, как создавать 3D‑анимацию в проектах Java с помощью Aspose.3D.
   Исследуйте облака точек в Java, преобразование полигонов в треугольники в Java и
   десятки пошаговых учебных материалов.
-language: ru
 linktitle: Aspose.3D for Java Tutorials
 title: Создайте 3D‑анимацию на Java с Aspose.3D – Полные руководства
-url: /java/
+url: /ru/java/
 weight: 10
 ---
 

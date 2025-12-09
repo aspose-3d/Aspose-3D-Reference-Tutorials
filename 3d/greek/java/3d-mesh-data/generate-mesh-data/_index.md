@@ -4,11 +4,10 @@ description: Μάθετε πώς να προσθέτετε κανονικές σ
   το Aspose.3D. Αυτός ο οδηγός βήμα‑βήμα σας δείχνει πώς να δημιουργείτε δεδομένα
   κανονικών, να υπολογίζετε τις κανονικές του πλέγματος και να βελτιώνετε τα 3D γραφικά
   σας.
-language: el
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: Πώς να προσθέσετε κανονικές σε 3D πλέγματα σε Java (χρησιμοποιώντας Aspose.3D)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /el/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

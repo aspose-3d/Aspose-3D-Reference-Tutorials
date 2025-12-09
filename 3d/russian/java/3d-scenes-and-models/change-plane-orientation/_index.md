@@ -2,13 +2,12 @@
 date: 2025-11-30
 description: Узнайте, как генерировать файл OBJ, изменяя ориентацию плоскости в Aspose.3D
   для Java. Следуйте пошаговым инструкциям, чтобы создать 3D‑сцену с точным позиционированием.
-language: ru
 linktitle: Generate OBJ File by Modifying Plane Orientation for Precise 3D Scene Positioning
   in Java
 second_title: Aspose.3D Java API
 title: Генерация OBJ‑файла путем изменения ориентации плоскости для точного позиционирования
   3D‑сцены в Java
-url: /java/3d-scenes-and-models/change-plane-orientation/
+url: /ru/java/3d-scenes-and-models/change-plane-orientation/
 weight: 10
 ---
 

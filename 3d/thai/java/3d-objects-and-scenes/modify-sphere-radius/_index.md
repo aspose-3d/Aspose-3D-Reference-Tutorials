@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: เรียนรู้วิธีใช้ Aspose ใน Java เพื่อแก้ไขรัศมีของทรงกลม 3 มิติ คู่มือขั้นตอนต่อขั้นตอนนี้ครอบคลุมไลบรารี
   Aspose.3D Java วิธีตั้งค่ารัศมี การเพิ่มทรงกลมลงในฉาก และการเขียนไฟล์ OBJ ด้วย Java.
-language: th
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 'วิธีใช้ Aspose: ปรับขนาดรัศมีของทรงกลม 3 มิติใน Java ด้วย Aspose.3D'
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /th/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

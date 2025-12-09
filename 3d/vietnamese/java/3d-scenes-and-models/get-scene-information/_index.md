@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Học cách lưu tệp FBX và truy xuất thông tin cảnh bằng Aspose.3D cho Java.
   Hướng dẫn từng bước này bao gồm việc đặt tên ứng dụng, xác định đơn vị đo lường
   và xuất cảnh ra định dạng FBX.
-language: vi
 linktitle: How to Save FBX and Retrieve 3D Scene Info in Java
 second_title: Aspose.3D Java API
 title: Cách lưu FBX và truy xuất thông tin cảnh 3D trong Java
-url: /java/3d-scenes-and-models/get-scene-information/
+url: /vi/java/3d-scenes-and-models/get-scene-information/
 weight: 12
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Dowiedz się, jak dodać wektory normalne do siatek 3D w Javie przy użyciu
   Aspose.3D. Ten przewodnik krok po kroku pokaże, jak tworzyć dane normalnych, obliczać
   wektory normalne siatek i ulepszać grafikę 3D.
-language: pl
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: Jak dodać wektory normalne do siatek 3D w Javie (z użyciem Aspose.3D)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /pl/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

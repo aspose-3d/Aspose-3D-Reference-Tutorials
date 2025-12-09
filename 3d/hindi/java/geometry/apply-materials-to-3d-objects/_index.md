@@ -2,12 +2,11 @@
 date: 2025-12-08
 description: Aspose.3D का उपयोग करके जावा में टेक्सचर जोड़ने के बारे में जावा 3D ग्राफिक्स
   ट्यूटोरियल सीखें। जावा में 3D वस्तुओं पर शीघ्रता से वास्तविक सामग्री लागू करें।
-language: hi
 linktitle: Apply Materials to 3D Objects in Java with Aspose.3D
 second_title: Aspose.3D Java API
 title: जावा 3D ग्राफिक्स ट्यूटोरियल – जावा में Aspose.3D के साथ 3D ऑब्जेक्ट्स पर मैटीरियल
   लागू करें
-url: /java/geometry/apply-materials-to-3d-objects/
+url: /hi/java/geometry/apply-materials-to-3d-objects/
 weight: 14
 ---
 

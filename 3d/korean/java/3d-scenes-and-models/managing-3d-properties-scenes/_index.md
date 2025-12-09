@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: Aspose.3D를 사용한 Java 씬에서 텍스처 색상 변경, 재질 속성 접근, Vector3 값 설정 및 이름으로 속성 조회하는
   방법을 배우세요 – 완전한 Aspose 3D 튜토리얼.
-language: ko
 linktitle: Change texture color and manage 3D properties in Java scenes using Aspose.3D
 second_title: Aspose.3D Java API
 title: Aspose.3D를 사용하여 Java 씬에서 텍스처 색상을 변경하고 3D 속성을 관리하기
-url: /java/3d-scenes-and-models/managing-3d-properties-scenes/
+url: /ko/java/3d-scenes-and-models/managing-3d-properties-scenes/
 weight: 14
 ---
 

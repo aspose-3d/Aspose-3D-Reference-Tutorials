@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Aprenda a criar tangentes de malha em Java enquanto otimiza dados de
   malha 3D com Aspose.3D. Descubra compressão, geração de dados e divisão de malha
   baseada em material.
-language: pt
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: Criar Tangentes de Malha em Java – Otimizando e Trabalhando com Dados de Malha
   3D
-url: /java/3d-mesh-data/
+url: /pt/java/3d-mesh-data/
 weight: 32
 ---
 

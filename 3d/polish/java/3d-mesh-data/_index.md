@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Dowiedz się, jak tworzyć tangenty siatek w Javie, optymalizując dane
   siatek 3D za pomocą Aspose.3D. Odkryj kompresję, generowanie danych oraz podział
   siatek na podstawie materiałów.
-language: pl
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: Tworzenie tangensów siatki w Javie – optymalizacja i praca z danymi siatek
   3D
-url: /java/3d-mesh-data/
+url: /pl/java/3d-mesh-data/
 weight: 32
 ---
 

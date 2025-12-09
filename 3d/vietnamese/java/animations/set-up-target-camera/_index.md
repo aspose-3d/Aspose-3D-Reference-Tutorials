@@ -2,13 +2,12 @@
 date: 2025-12-05
 description: Tìm hiểu cách khởi tạo cảnh 3D trong Java và cấu hình camera mục tiêu
   cho các hoạt ảnh 3D bằng Aspose.3D. Hướng dẫn từng bước kèm mẫu mã.
-language: vi
 linktitle: How to Initialize 3D Scene Java and Set Up Target Camera for 3D Animations
   | Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 title: Cách khởi tạo cảnh 3D trong Java và thiết lập camera mục tiêu cho các hoạt
   ảnh 3D | Hướng dẫn Aspose.3D
-url: /java/animations/set-up-target-camera/
+url: /vi/java/animations/set-up-target-camera/
 weight: 11
 ---
 

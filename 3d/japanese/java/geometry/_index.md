@@ -1,11 +1,10 @@
 ---
 date: 2025-12-06
 description: Aspose.3D を使用して Java で PBR マテリアルを適用し、クォータニオンを連結する方法を学びます。3D ジオメトリ、メッシュの共有、変換をマスターしましょう。
-language: ja
 linktitle: How to Apply PBR Materials in Java
 second_title: Aspose.3D Java API
 title: JavaでAspose.3Dを使用してPBRマテリアルを適用する方法
-url: /java/geometry/
+url: /ja/java/geometry/
 weight: 21
 ---
 

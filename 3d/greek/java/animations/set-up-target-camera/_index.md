@@ -3,13 +3,12 @@ date: 2025-12-05
 description: Μάθετε πώς να αρχικοποιήσετε μια 3D σκηνή σε Java και να ρυθμίσετε μια
   κάμερα-στόχο για 3D κινούμενα σχέδια χρησιμοποιώντας το Aspose.3D. Οδηγός βήμα‑βήμα
   με παραδείγματα κώδικα.
-language: el
 linktitle: How to Initialize 3D Scene Java and Set Up Target Camera for 3D Animations
   | Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 title: Πώς να αρχικοποιήσετε τη 3Δ σκηνή Java και να ρυθμίσετε την κάμερα-στόχο για
   3Δ κινούμενα σχέδια | Εκπαιδευτικό σεμινάριο Aspose.3D
-url: /java/animations/set-up-target-camera/
+url: /el/java/animations/set-up-target-camera/
 weight: 11
 ---
 

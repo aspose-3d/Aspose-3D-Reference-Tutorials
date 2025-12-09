@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Tanulja meg, hogyan hozhat létre hálózati tangenseket Java nyelven, miközben
   optimalizálja a 3D hálózati adatokat az Aspose.3D-vel. Fedezze fel a tömörítést,
   az adatgenerálást és az anyag alapú hálózati felosztást.
-language: hu
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: Mesh tangensek létrehozása Java‑ban – 3D háló adatainak optimalizálása és kezelése
-url: /java/3d-mesh-data/
+url: /hu/java/3d-mesh-data/
 weight: 32
 ---
 

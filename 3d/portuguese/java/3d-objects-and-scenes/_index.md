@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aprenda como modificar o raio da esfera em Java com Aspose.3D. Este tutorial
   aborda alterações no raio da esfera e consultas semelhantes a XPath para um desenvolvimento
   3D perfeito.
-language: pt
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Modificar o Raio da Esfera em Java – Manipulando Objetos e Cenas 3D em Java
-url: /java/3d-objects-and-scenes/
+url: /pt/java/3d-objects-and-scenes/
 weight: 33
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Tìm hiểu cách thay đổi màu kết cấu, truy cập các thuộc tính vật liệu,
   đặt giá trị Vector3 và lấy các thuộc tính theo tên trong các cảnh Java với Aspose.3D
   – một hướng dẫn đầy đủ về Aspose 3D.
-language: vi
 linktitle: Change texture color and manage 3D properties in Java scenes using Aspose.3D
 second_title: Aspose.3D Java API
 title: Thay đổi màu kết cấu và quản lý các thuộc tính 3D trong các cảnh Java bằng
   Aspose.3D
-url: /java/3d-scenes-and-models/managing-3d-properties-scenes/
+url: /vi/java/3d-scenes-and-models/managing-3d-properties-scenes/
 weight: 14
 ---
 

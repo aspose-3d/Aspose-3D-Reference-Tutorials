@@ -3,11 +3,10 @@ date: 2025-11-30
 description: تعلم كيفية استخدام Aspose في Java لتعديل نصف قطر كرة ثلاثية الأبعاد.
   يغطي هذا الدليل خطوة بخطوة مكتبة Aspose.3D للغة Java، كيفية ضبط نصف القطر، إضافة
   الكرة إلى المشهد، وكتابة ملف OBJ باستخدام Java.
-language: ar
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 'كيفية استخدام Aspose: تعديل نصف قطر كرة ثلاثية الأبعاد في Java باستخدام Aspose.3D'
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /ar/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

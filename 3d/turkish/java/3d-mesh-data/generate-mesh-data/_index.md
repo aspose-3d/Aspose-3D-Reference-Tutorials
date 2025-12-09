@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Aspose.3D kullanarak Java'da 3D ağlara normaller eklemeyi öğrenin. Bu
   adım adım kılavuz, normal verileri nasıl oluşturacağınızı, ağ normallerini nasıl
   hesaplayacağınızı ve 3D grafiklerinizi nasıl geliştireceğinizi gösterir.
-language: tr
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: Java'da 3B Mesh'lere Normal Ekleme (Aspose.3D Kullanarak)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /tr/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

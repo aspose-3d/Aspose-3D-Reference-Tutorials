@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Узнайте, как создавать модели цилиндров со смещёнными вершинами в Aspose.3D
   для Java, добавлять дочерние узлы в Java и легко экспортировать 3D‑модели в файлы
   OBJ.
-language: ru
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Как создать цилиндр со смещённым верхом в Aspose.3D для Java
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /ru/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

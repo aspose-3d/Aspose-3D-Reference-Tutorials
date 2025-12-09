@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: 了解如何使用 Aspose.3D for Java 保存 FBX 文件并获取场景信息。本分步指南涵盖设置应用程序名称、定义测量单位以及将场景导出为
   FBX。
-language: zh
 linktitle: How to Save FBX and Retrieve 3D Scene Info in Java
 second_title: Aspose.3D Java API
 title: 如何在 Java 中保存 FBX 并获取 3D 场景信息
-url: /java/3d-scenes-and-models/get-scene-information/
+url: /zh/java/3d-scenes-and-models/get-scene-information/
 weight: 12
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-08
 description: Tanulj meg egy Java 3D grafikai oktatót arról, hogyan adhatunk textúrát
   Java-ban az Aspose.3D használatával. Alkalmazz valósághű anyagokat 3D objektumokra
   Java-ban gyorsan.
-language: hu
 linktitle: Apply Materials to 3D Objects in Java with Aspose.3D
 second_title: Aspose.3D Java API
 title: java 3D grafika útmutató – Anyagok alkalmazása 3D objektumokra Java-ban az
   Aspose.3D segítségével
-url: /java/geometry/apply-materials-to-3d-objects/
+url: /hu/java/geometry/apply-materials-to-3d-objects/
 weight: 14
 ---
 

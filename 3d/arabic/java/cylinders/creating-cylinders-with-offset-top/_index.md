@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعلم كيفية إنشاء نماذج أسطوانية ذات قمم مائلة في Aspose.3D للغة Java،
   إضافة خطوات عقدة فرعية في Java، وتصدير ملفات OBJ لنماذج 3D بسهولة.
-language: ar
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: كيفية إنشاء أسطوانة ذات قمة مائلة في Aspose.3D للـ Java
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /ar/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

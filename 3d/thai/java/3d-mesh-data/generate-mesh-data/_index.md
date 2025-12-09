@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: เรียนรู้วิธีเพิ่มนอร์มอลให้กับเมช 3 มิติใน Java ด้วย Aspose.3D คู่มือขั้นตอนนี้จะแสดงวิธีสร้างข้อมูลนอร์มอล,
   คำนวณนอร์มอลของเมช, และปรับปรุงกราฟิก 3 มิติของคุณ
-language: th
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: วิธีเพิ่มนอร์มอลให้กับเมช 3 มิติใน Java (โดยใช้ Aspose.3D)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /th/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

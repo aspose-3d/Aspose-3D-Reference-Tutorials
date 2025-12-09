@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Tìm hiểu cách chỉnh sửa bán kính hình cầu trong Java với Aspose.3D. Hướng
   dẫn này bao gồm việc thay đổi bán kính hình cầu và các truy vấn kiểu XPath để phát
   triển 3D liền mạch.
-language: vi
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Thay Đổi Bán Kính Hình Cầu Java – Thao Tác Đối Tượng và Cảnh 3D trong Java
-url: /java/3d-objects-and-scenes/
+url: /vi/java/3d-objects-and-scenes/
 weight: 33
 ---
 

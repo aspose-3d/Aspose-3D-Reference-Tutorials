@@ -2,13 +2,12 @@
 date: 2025-11-30
 description: Aspose.3D for Java में प्लेन की अभिविन्यास बदलते हुए OBJ फ़ाइल कैसे बनाएं,
   सीखें। सटीक पोजिशनिंग के साथ 3D सीन बनाने के लिए चरण‑दर‑चरण निर्देशों का पालन करें।
-language: hi
 linktitle: Generate OBJ File by Modifying Plane Orientation for Precise 3D Scene Positioning
   in Java
 second_title: Aspose.3D Java API
 title: जावा में सटीक 3D सीन पोजिशनिंग के लिए प्लेन की अभिविन्यास बदलकर OBJ फ़ाइल जनरेट
   करें
-url: /java/3d-scenes-and-models/change-plane-orientation/
+url: /hi/java/3d-scenes-and-models/change-plane-orientation/
 weight: 10
 ---
 

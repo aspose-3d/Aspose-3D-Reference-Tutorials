@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.3D를 사용하여 Java에서 3D 메쉬용 바이너리 파일을 작성하는 방법을 배웁니다. 이 가이드는 3D 메쉬 내보내기,
   Java에서 바이너리 파일 작성, 그리고 Java에서 메쉬 삼각분할을 다룹니다.
-language: ko
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: Java에서 3D 메쉬용 바이너리 파일 쓰는 방법
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /ko/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

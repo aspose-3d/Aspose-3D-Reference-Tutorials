@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: Узнайте, как уменьшить размер 3D‑файла, сжимая 3D‑сцены с помощью Aspose.3D
   для Java. Следуйте нашему пошаговому руководству для оптимального хранения и обмена.
-language: ru
 linktitle: Reduce 3D File Size – Compress Scenes with Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Уменьшите размер 3D‑файла – сжимайте сцены с помощью Aspose.3D для Java
-url: /java/3d-scenes-and-models/compress-3d-scenes/
+url: /ru/java/3d-scenes-and-models/compress-3d-scenes/
 weight: 11
 ---
 

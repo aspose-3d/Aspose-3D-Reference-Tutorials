@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Dowiedz się, jak modyfikować promień sfery w Javie przy użyciu Aspose.3D.
   Ten samouczek obejmuje zmiany promienia sfery oraz zapytania podobne do XPath, umożliwiające
   płynny rozwój 3D.
-language: pl
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Modyfikacja promienia sfery w Javie – manipulowanie obiektami i scenami 3D
   w Javie
-url: /java/3d-objects-and-scenes/
+url: /pl/java/3d-objects-and-scenes/
 weight: 33
 ---
 

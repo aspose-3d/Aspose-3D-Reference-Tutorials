@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Aspose 3D Java ile 3D sahneler ve modeller oluşturmayı, sıkıştırmayı
   ve yönetmeyi öğrenin. Java uygulamalarınızda sahne konumlandırma, ağ kaydetme ve
   özellik manipülasyonunda uzmanlaşın.
-language: tr
 linktitle: 'Working with Aspose 3D Java: 3D Scenes and Models'
 second_title: Aspose.3D Java API
 title: 'Aspose 3D Java ile Çalışma: 3D Sahneler ve Modeller'
-url: /java/3d-scenes-and-models/
+url: /tr/java/3d-scenes-and-models/
 weight: 29
 ---
 

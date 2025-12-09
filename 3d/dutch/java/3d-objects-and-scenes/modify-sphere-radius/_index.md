@@ -4,12 +4,11 @@ description: Leer hoe je Aspose in Java kunt gebruiken om de straal van een 3D-s
   aan te passen. Deze stapsgewijze handleiding behandelt de Aspose.3D Java‑bibliotheek,
   hoe je de straal instelt, een sfeer aan de scène toevoegt en een OBJ‑bestand schrijft
   in Java.
-language: nl
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 'Hoe Aspose te gebruiken: de straal van een 3D-sfeer aanpassen in Java met
   Aspose.3D'
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /nl/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

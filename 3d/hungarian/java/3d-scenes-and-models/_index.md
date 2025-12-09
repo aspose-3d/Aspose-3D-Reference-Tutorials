@@ -3,11 +3,10 @@ date: 2025-12-04
 description: Tanulja meg, hogyan dolgozhat az Aspose 3D Java-val 3D jelenetek és modellek
   létrehozásához, tömörítéséhez és kezeléséhez. Sajátítsa el a jelenet elhelyezését,
   a háló mentését és a tulajdonságok manipulálását Java‑alkalmazásaiban.
-language: hu
 linktitle: 'Working with Aspose 3D Java: 3D Scenes and Models'
 second_title: Aspose.3D Java API
 title: 'Az Aspose 3D Java használata: 3D jelenetek és modellek'
-url: /java/3d-scenes-and-models/
+url: /hu/java/3d-scenes-and-models/
 weight: 29
 ---
 

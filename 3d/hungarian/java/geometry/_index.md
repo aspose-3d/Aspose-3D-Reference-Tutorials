@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Tanulja meg, hogyan alkalmazzon PBR anyagokat és hogyan fűzzön össze
   kvaterniókat Java-ban az Aspose.3D használatával. Sajátítsa el a 3D geometriát,
   a háló megosztását és a transzformációkat.
-language: hu
 linktitle: How to Apply PBR Materials in Java
 second_title: Aspose.3D Java API
 title: Hogyan alkalmazzunk PBR anyagokat Java-ban az Aspose.3D-vel
-url: /java/geometry/
+url: /hu/java/geometry/
 weight: 21
 ---
 

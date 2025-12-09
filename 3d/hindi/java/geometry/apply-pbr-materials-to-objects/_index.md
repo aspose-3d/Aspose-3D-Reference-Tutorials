@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: जावा में 3D सीन बनाना सीखें, Aspose.3D का उपयोग करके वास्तविक PBR सामग्री
   लागू करें, और 3D ऑब्जेक्ट्स को रेंडर करने के लिए STL में 3D मॉडल सहेजें।
-language: hi
 linktitle: Create 3D Scene Java – Apply PBR Materials with Aspose.3D
 second_title: Aspose.3D Java API
 title: '3D सीन जावा बनाएं: Aspose.3D के साथ PBR सामग्री लागू करें'
-url: /java/geometry/apply-pbr-materials-to-objects/
+url: /hi/java/geometry/apply-pbr-materials-to-objects/
 weight: 10
 ---
 

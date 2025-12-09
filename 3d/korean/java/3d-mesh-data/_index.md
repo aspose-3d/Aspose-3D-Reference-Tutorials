@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Aspose.3D를 사용하여 3D 메시 데이터를 최적화하면서 Java에서 메시 탄젠트를 생성하는 방법을 배우세요. 압축, 데이터
   생성 및 재질 기반 메시 분할을 확인해 보세요.
-language: ko
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: Java로 메쉬 탄젠트 생성 – 3D 메쉬 데이터 최적화 및 작업
-url: /java/3d-mesh-data/
+url: /ko/java/3d-mesh-data/
 weight: 32
 ---
 

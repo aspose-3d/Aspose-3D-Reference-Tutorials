@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: 學習如何在 Java 中使用 Aspose.3D 為 3D 網格添加法線。此逐步指南將向您展示如何建立法線資料、計算網格法線，並提升您的
   3D 圖形效果。
-language: zh-hant
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: 如何在 Java 中為 3D 網格添加法線（使用 Aspose.3D）
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /zh-hant/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

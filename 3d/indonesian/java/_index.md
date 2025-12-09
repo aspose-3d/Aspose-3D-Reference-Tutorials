@@ -2,10 +2,9 @@
 date: 2025-12-03
 description: Pelajari cara membuat proyek Java animasi 3D menggunakan Aspose.3D. Jelajahi
   awan titik Java, poligon ke segitiga Java, dan puluhan tutorial langkah demi langkah.
-language: id
 linktitle: Aspose.3D for Java Tutorials
 title: Buat Animasi 3D Java dengan Aspose.3D – Tutorial Komprehensif
-url: /java/
+url: /id/java/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: Tìm hiểu cách áp dụng vật liệu PBR và nối các quaternion trong Java bằng
   Aspose.3D. Thành thạo hình học 3D, chia sẻ lưới và các phép biến đổi.
-language: vi
 linktitle: How to Apply PBR Materials in Java
 second_title: Aspose.3D Java API
 title: Cách áp dụng vật liệu PBR trong Java với Aspose.3D
-url: /java/geometry/
+url: /vi/java/geometry/
 weight: 21
 ---
 

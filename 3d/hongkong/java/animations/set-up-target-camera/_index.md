@@ -1,12 +1,11 @@
 ---
 date: 2025-12-05
 description: 學習如何使用 Aspose.3D 初始化 3D 場景 Java，並配置目標相機以製作 3D 動畫。一步一步的指南，附有程式碼範例。
-language: zh-hant
 linktitle: How to Initialize 3D Scene Java and Set Up Target Camera for 3D Animations
   | Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 title: 如何在 Java 中初始化 3D 場景並設定目標相機以製作 3D 動畫 | Aspose.3D 教程
-url: /java/animations/set-up-target-camera/
+url: /zh-hant/java/animations/set-up-target-camera/
 weight: 11
 ---
 

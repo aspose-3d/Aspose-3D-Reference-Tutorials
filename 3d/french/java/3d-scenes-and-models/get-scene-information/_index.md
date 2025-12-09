@@ -4,12 +4,11 @@ description: Apprenez à enregistrer des fichiers FBX et à récupérer les info
   de la scène à l'aide d'Aspose.3D pour Java. Ce guide étape par étape couvre la définition
   du nom de l'application, la spécification des unités de mesure et l'exportation
   de la scène au format FBX.
-language: fr
 linktitle: How to Save FBX and Retrieve 3D Scene Info in Java
 second_title: Aspose.3D Java API
 title: Comment enregistrer un FBX et récupérer les informations de la scène 3D en
   Java
-url: /java/3d-scenes-and-models/get-scene-information/
+url: /fr/java/3d-scenes-and-models/get-scene-information/
 weight: 12
 ---
 

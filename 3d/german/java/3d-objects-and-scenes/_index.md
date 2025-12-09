@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Erfahren Sie, wie Sie den Kugelradius in Java mit Aspose.3D ändern. Dieses
   Tutorial behandelt Änderungen des Kugelradius und XPath‑ähnliche Abfragen für nahtlose
   3D‑Entwicklung.
-language: de
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Sphere-Radius in Java ändern – 3D-Objekte und Szenen in Java manipulieren
-url: /java/3d-objects-and-scenes/
+url: /de/java/3d-objects-and-scenes/
 weight: 33
 ---
 

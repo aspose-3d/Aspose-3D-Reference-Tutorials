@@ -3,13 +3,12 @@ date: 2025-11-30
 description: Aspose.3D for Java’da düzlem yönelimini değiştirirken OBJ dosyası oluşturmayı
   öğrenin. Tam konumlandırma ile bir 3D sahne oluşturmak için adım adım talimatları
   izleyin.
-language: tr
 linktitle: Generate OBJ File by Modifying Plane Orientation for Precise 3D Scene Positioning
   in Java
 second_title: Aspose.3D Java API
 title: Java'da Hassas 3D Sahne Konumlandırması için Düzlem Yönelimini Değiştirerek
   OBJ Dosyası Oluşturma
-url: /java/3d-scenes-and-models/change-plane-orientation/
+url: /tr/java/3d-scenes-and-models/change-plane-orientation/
 weight: 10
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Apprenez à modifier le rayon d’une sphère en Java avec Aspose.3D. Ce
   tutoriel couvre les changements de rayon de la sphère et les requêtes de type XPath
   pour un développement 3D fluide.
-language: fr
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Modifier le rayon de la sphère en Java – Manipulation d'objets et de scènes
   3D en Java
-url: /java/3d-objects-and-scenes/
+url: /fr/java/3d-objects-and-scenes/
 weight: 33
 ---
 

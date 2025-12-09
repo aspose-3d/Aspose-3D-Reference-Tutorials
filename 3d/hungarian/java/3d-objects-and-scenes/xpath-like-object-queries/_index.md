@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Tanulja meg, hogyan **hozzon létre 3D-s jelenetet Java-ban**, és használjon
   XPath‑szerű lekérdezéseket a **típus szerint történő objektumkiválasztáshoz** az
   Aspose.3D for Java-ban.
-language: hu
 linktitle: Create 3D Scene Java – Apply XPath‑Like Queries with Aspose.3D
 second_title: Aspose.3D Java API
 title: 3D jelenet létrehozása Java‑ban – XPath‑szerű lekérdezések alkalmazása az Aspose.3D‑vel
-url: /java/3d-objects-and-scenes/xpath-like-object-queries/
+url: /hu/java/3d-objects-and-scenes/xpath-like-object-queries/
 weight: 11
 ---
 

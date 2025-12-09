@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีสร้างโมเดลทรงกระบอกที่มีส่วนบนออฟเซ็ตใน Aspose.3D สำหรับ
   Java, เพิ่มขั้นตอนการเพิ่มโหนดลูกใน Java, และส่งออกไฟล์ OBJ ของโมเดล 3 มิติได้อย่างง่ายดาย.
-language: th
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: วิธีสร้างทรงกระบอกที่มีส่วนบนออฟเซ็ตใน Aspose.3D สำหรับ Java
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /th/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

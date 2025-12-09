@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Lär dig hur du ändrar sfärens radie i Java med Aspose.3D. Denna handledning
   täcker ändringar av sfärens radie och XPath‑liknande frågor för sömlös 3D‑utveckling.
-language: sv
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Ändra sfärens radie i Java – Manipulera 3D-objekt och scener i Java
-url: /java/3d-objects-and-scenes/
+url: /sv/java/3d-objects-and-scenes/
 weight: 33
 ---
 

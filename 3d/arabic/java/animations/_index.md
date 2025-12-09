@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: تعلم كيفية تحريك ثلاثي الأبعاد في جافا باستخدام Aspose.3D. يوضح هذا الدليل
   كيفية إضافة الرسوم المتحركة وإنشاء مشاهد ثلاثية الأبعاد متحركة مع الكاميرات المستهدفة.
-language: ar
 linktitle: How to Animate 3D in Java – Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 title: كيفية تحريك ثلاثي الأبعاد في جافا – دليل Aspose.3D
-url: /java/animations/
+url: /ar/java/animations/
 weight: 20
 ---
 

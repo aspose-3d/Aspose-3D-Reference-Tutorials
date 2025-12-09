@@ -1,10 +1,9 @@
 ---
 date: 2025-12-03
 description: 學習如何使用 Aspose.3D 建立 3D 動畫 Java 專案。探索點雲 Java、將多邊形轉換為三角形 Java，以及數十個一步一步的教學。
-language: zh-hant
 linktitle: Aspose.3D for Java Tutorials
 title: 使用 Aspose.3D 在 Java 中創建 3D 動畫 – 完整教程
-url: /java/
+url: /zh-hant/java/
 weight: 10
 ---
 

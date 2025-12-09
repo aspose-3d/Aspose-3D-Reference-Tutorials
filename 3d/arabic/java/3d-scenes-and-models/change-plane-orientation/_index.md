@@ -2,13 +2,12 @@
 date: 2025-11-30
 description: تعلم كيفية إنشاء ملف OBJ مع تغيير اتجاه المستوى في Aspose.3D للغة Java.
   اتبع التعليمات خطوة بخطوة لإنشاء مشهد ثلاثي الأبعاد مع تحديد موضع دقيق.
-language: ar
 linktitle: Generate OBJ File by Modifying Plane Orientation for Precise 3D Scene Positioning
   in Java
 second_title: Aspose.3D Java API
 title: إنشاء ملف OBJ بتعديل اتجاه المستوى لتحديد موضع المشهد ثلاثي الأبعاد بدقة في
   Java
-url: /java/3d-scenes-and-models/change-plane-orientation/
+url: /ar/java/3d-scenes-and-models/change-plane-orientation/
 weight: 10
 ---
 

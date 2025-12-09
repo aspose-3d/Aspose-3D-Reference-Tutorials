@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: Aprenda a aplicar materiais PBR e concatenar quaternions em Java usando
   Aspose.3D. Domine geometria 3D, compartilhamento de malhas e transformações.
-language: pt
 linktitle: How to Apply PBR Materials in Java
 second_title: Aspose.3D Java API
 title: Como aplicar materiais PBR em Java com Aspose.3D
-url: /java/geometry/
+url: /pt/java/geometry/
 weight: 21
 ---
 

@@ -2,10 +2,9 @@
 date: 2025-12-03
 description: เรียนรู้วิธีสร้างโครงการ Java แอนิเมชัน 3 มิติด้วย Aspose.3D สำรวจจุดเมฆใน
   Java, แปลงรูปหลายเหลี่ยมเป็นสามเหลี่ยมใน Java, และมีบทเรียนขั้นตอนโดยละเอียดหลายสิบบท
-language: th
 linktitle: Aspose.3D for Java Tutorials
 title: สร้างแอนิเมชัน 3 มิติด้วย Java และ Aspose.3D – คำแนะนำครบถ้วน
-url: /java/
+url: /th/java/
 weight: 10
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Naučte se, jak v Aspose.3D pro Javu vytvořit válcové modely s posunutými
   vršky, přidat kroky pro podřízený uzel v Javě a snadno exportovat soubory OBJ 3D
   modelů.
-language: cs
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Jak vytvořit válec s posunutým vrcholem v Aspose.3D pro Javu
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /cs/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

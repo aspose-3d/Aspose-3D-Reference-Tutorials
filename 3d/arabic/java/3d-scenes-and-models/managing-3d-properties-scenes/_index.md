@@ -3,11 +3,10 @@ date: 2025-12-01
 description: تعلم كيفية تغيير لون الملمس، والوصول إلى خصائص المادة، وتعيين قيم Vector3،
   واسترجاع الخصائص بالاسم في مشاهد Java باستخدام Aspose.3D – دليل شامل لتعليم Aspose
   3D.
-language: ar
 linktitle: Change texture color and manage 3D properties in Java scenes using Aspose.3D
 second_title: Aspose.3D Java API
 title: تغيير لون النسيج وإدارة خصائص 3D في مشاهد Java باستخدام Aspose.3D
-url: /java/3d-scenes-and-models/managing-3d-properties-scenes/
+url: /ar/java/3d-scenes-and-models/managing-3d-properties-scenes/
 weight: 14
 ---
 

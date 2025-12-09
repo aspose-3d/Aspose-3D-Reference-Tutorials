@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose 3D Java를 사용하여 3D 씬과 모델을 생성, 압축 및 관리하는 방법을 배우세요. Java 애플리케이션에서
   씬 위치 지정, 메쉬 저장 및 속성 조작을 마스터하세요.
-language: ko
 linktitle: 'Working with Aspose 3D Java: 3D Scenes and Models'
 second_title: Aspose.3D Java API
 title: 'Aspose 3D Java와 작업하기: 3D 씬 및 모델'
-url: /java/3d-scenes-and-models/
+url: /ko/java/3d-scenes-and-models/
 weight: 29
 ---
 

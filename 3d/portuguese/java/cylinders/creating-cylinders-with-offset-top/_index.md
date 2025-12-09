@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aprenda a criar modelos de cilindro com topos deslocados no Aspose.3D
   para Java, adicione etapas de nó filho em Java e exporte arquivos OBJ de modelos
   3D facilmente.
-language: pt
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Como criar um cilindro com topo deslocado no Aspose.3D para Java
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /pt/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

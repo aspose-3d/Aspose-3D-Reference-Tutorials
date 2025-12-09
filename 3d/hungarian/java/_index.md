@@ -3,10 +3,9 @@ date: 2025-12-03
 description: Tanulja meg, hogyan készítsen 3D animációs Java projekteket az Aspose.3D
   használatával. Fedezze fel a pontfelhőket Java-ban, a sokszögeket háromszögekké
   Java-ban, és tucatnyi lépésről‑lépésre útmutatót.
-language: hu
 linktitle: Aspose.3D for Java Tutorials
 title: 3D animáció készítése Java-val az Aspose.3D segítségével – Átfogó útmutatók
-url: /java/
+url: /hu/java/
 weight: 10
 ---
 

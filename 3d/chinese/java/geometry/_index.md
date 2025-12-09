@@ -1,11 +1,10 @@
 ---
 date: 2025-12-06
 description: 学习如何在 Java 中使用 Aspose.3D 应用 PBR 材质并串联四元数。掌握 3D 几何、网格共享和变换。
-language: zh
 linktitle: How to Apply PBR Materials in Java
 second_title: Aspose.3D Java API
 title: 如何在 Java 中使用 Aspose.3D 应用 PBR 材质
-url: /java/geometry/
+url: /zh/java/geometry/
 weight: 21
 ---
 

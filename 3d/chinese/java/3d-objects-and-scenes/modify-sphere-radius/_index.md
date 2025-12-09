@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: 学习如何在 Java 中使用 Aspose 修改 3D 球体的半径。本分步指南涵盖 Aspose.3D Java 库、如何设置半径、将球体添加到场景以及在
   Java 中写入 OBJ 文件。
-language: zh
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 如何使用 Aspose：在 Java 中使用 Aspose.3D 修改 3D 球体半径
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /zh/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

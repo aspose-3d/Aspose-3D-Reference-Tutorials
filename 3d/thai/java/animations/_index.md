@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: เรียนรู้วิธีทำแอนิเมชัน 3D ใน Java ด้วย Aspose.3D คู่มือนี้แสดงวิธีเพิ่มแอนิเมชันและสร้างฉาก
   3D ที่เคลื่อนไหวพร้อมกล้องเป้าหมาย.
-language: th
 linktitle: How to Animate 3D in Java – Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 title: วิธีทำแอนิเมชัน 3D ใน Java – บทเรียน Aspose.3D
-url: /java/animations/
+url: /th/java/animations/
 weight: 20
 ---
 

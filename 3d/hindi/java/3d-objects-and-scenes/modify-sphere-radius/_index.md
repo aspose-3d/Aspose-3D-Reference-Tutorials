@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Aspose को Java में उपयोग करके 3D गोले की त्रिज्या को संशोधित करना सीखें।
   यह चरण‑दर‑चरण गाइड Aspose.3D Java लाइब्रेरी, त्रिज्या सेट करने, गोले को सीन में
   जोड़ने और OBJ फ़ाइल लिखने को कवर करता है।
-language: hi
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 'Aspose का उपयोग कैसे करें: Aspose.3D के साथ जावा में 3D गोले की त्रिज्या संशोधित
   करें'
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /hi/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

@@ -3,10 +3,9 @@ date: 2025-12-03
 description: Μάθετε πώς να δημιουργείτε έργα Java 3D animation χρησιμοποιώντας το
   Aspose.3D. Εξερευνήστε point clouds Java, polygons to triangles Java και δεκάδες
   βήμα‑βήμα σεμινάρια.
-language: el
 linktitle: Aspose.3D for Java Tutorials
 title: Δημιουργία τρισδιάστατης κινούμενης εικόνας Java με Aspose.3D – Εκτενείς οδηγίες
-url: /java/
+url: /el/java/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Lär dig hur du skapar cylindermodeller med förskjutna toppar i Aspose.3D
   för Java, lägger till barnnod Java‑steg och exporterar 3D-modellens OBJ‑filer enkelt.
-language: sv
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Hur man skapar en cylinder med förskjuten topp i Aspose.3D för Java
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /sv/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

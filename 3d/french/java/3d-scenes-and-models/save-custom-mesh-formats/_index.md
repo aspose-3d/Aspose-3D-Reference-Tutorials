@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Apprenez à écrire des fichiers binaires pour des maillages 3D en Java
   avec Aspose.3D. Ce guide couvre l'exportation de maillages 3D, l'écriture de fichiers
   binaires en Java et la triangulation de maillages en Java.
-language: fr
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: Comment écrire des fichiers binaires pour les maillages 3D en Java
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /fr/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

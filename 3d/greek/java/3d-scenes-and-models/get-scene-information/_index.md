@@ -4,11 +4,10 @@ description: Μάθετε πώς να αποθηκεύετε αρχεία FBX κ
   χρησιμοποιώντας το Aspose.3D για Java. Αυτός ο οδηγός βήμα‑βήμα καλύπτει τη ρύθμιση
   του ονόματος της εφαρμογής, τον ορισμό μονάδων μέτρησης και την εξαγωγή της σκηνής
   σε FBX.
-language: el
 linktitle: How to Save FBX and Retrieve 3D Scene Info in Java
 second_title: Aspose.3D Java API
 title: Πώς να αποθηκεύσετε FBX και να ανακτήσετε πληροφορίες 3D σκηνής σε Java
-url: /java/3d-scenes-and-models/get-scene-information/
+url: /el/java/3d-scenes-and-models/get-scene-information/
 weight: 12
 ---
 

@@ -4,12 +4,11 @@ description: Tanulja meg, hogyan változtathatja meg a textúra színét, férhe
   az anyag tulajdonságaihoz, állíthat be Vector3 értékeket, és név szerint kérdezheti
   le a tulajdonságokat Java jelenetekben az Aspose.3D segítségével – egy teljes Aspose
   3D oktatóanyag.
-language: hu
 linktitle: Change texture color and manage 3D properties in Java scenes using Aspose.3D
 second_title: Aspose.3D Java API
 title: Textúra színének módosítása és 3D tulajdonságok kezelése Java jelenetekben
   az Aspose.3D használatával
-url: /java/3d-scenes-and-models/managing-3d-properties-scenes/
+url: /hu/java/3d-scenes-and-models/managing-3d-properties-scenes/
 weight: 14
 ---
 

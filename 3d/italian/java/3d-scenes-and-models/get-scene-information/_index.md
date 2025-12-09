@@ -4,11 +4,10 @@ description: Scopri come salvare file FBX e recuperare le informazioni della sce
   usando Aspose.3D per Java. Questa guida passo passo copre l'impostazione del nome
   dell'applicazione, la definizione delle unità di misura e l'esportazione della scena
   in FBX.
-language: it
 linktitle: How to Save FBX and Retrieve 3D Scene Info in Java
 second_title: Aspose.3D Java API
 title: Come salvare FBX e recuperare le informazioni della scena 3D in Java
-url: /java/3d-scenes-and-models/get-scene-information/
+url: /it/java/3d-scenes-and-models/get-scene-information/
 weight: 12
 ---
 

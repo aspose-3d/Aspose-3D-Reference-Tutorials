@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Tìm hiểu cách ghi tệp nhị phân cho lưới 3D trong Java bằng Aspose.3D.
   Hướng dẫn này bao gồm xuất lưới 3D, ghi tệp nhị phân trong Java và thực hiện tam
   giác hoá lưới trong Java.
-language: vi
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: Cách ghi tệp nhị phân cho lưới 3D trong Java
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /vi/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

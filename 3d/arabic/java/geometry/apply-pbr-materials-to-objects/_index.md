@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: تعلم كيفية إنشاء مشهد ثلاثي الأبعاد في جافا، وتطبيق مواد PBR واقعية باستخدام
   Aspose.3D، وحفظ نموذج STL ثلاثي الأبعاد لتصيير الكائنات ثلاثية الأبعاد في جافا.
-language: ar
 linktitle: Create 3D Scene Java – Apply PBR Materials with Aspose.3D
 second_title: Aspose.3D Java API
 title: 'إنشاء مشهد ثلاثي الأبعاد في جافا: تطبيق مواد PBR باستخدام Aspose.3D'
-url: /java/geometry/apply-pbr-materials-to-objects/
+url: /ar/java/geometry/apply-pbr-materials-to-objects/
 weight: 10
 ---
 

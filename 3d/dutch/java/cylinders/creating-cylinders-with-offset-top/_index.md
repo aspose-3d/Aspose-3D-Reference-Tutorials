@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Leer hoe je cilindermodels met offset‑toppen maakt in Aspose.3D voor
   Java, voeg kindknooppunt‑Java‑stappen toe en exporteer eenvoudig 3D‑model‑OBJ‑bestanden.
-language: nl
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Hoe een cilinder met offset‑bovenkant te maken in Aspose.3D voor Java
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /nl/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

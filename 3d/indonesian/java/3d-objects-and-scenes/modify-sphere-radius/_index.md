@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Pelajari cara menggunakan Aspose di Java untuk mengubah radius bola 3D.
   Panduan langkah demi langkah ini mencakup pustaka Aspose.3D Java, cara mengatur
   radius, menambahkan bola ke scene, dan menulis file OBJ di Java.
-language: id
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 'Cara Menggunakan Aspose: Mengubah Radius Bola 3D di Java dengan Aspose.3D'
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /id/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

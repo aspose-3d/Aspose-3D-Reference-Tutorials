@@ -3,13 +3,12 @@ date: 2025-11-30
 description: Tìm hiểu cách tạo tệp OBJ khi thay đổi hướng mặt phẳng trong Aspose.3D
   cho Java. Thực hiện các hướng dẫn từng bước để tạo một cảnh 3D với vị trí chính
   xác.
-language: vi
 linktitle: Generate OBJ File by Modifying Plane Orientation for Precise 3D Scene Positioning
   in Java
 second_title: Aspose.3D Java API
 title: Tạo tệp OBJ bằng cách chỉnh sửa hướng mặt phẳng để định vị chính xác cảnh 3D
   trong Java
-url: /java/3d-scenes-and-models/change-plane-orientation/
+url: /vi/java/3d-scenes-and-models/change-plane-orientation/
 weight: 10
 ---
 

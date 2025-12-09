@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.3D for Java'da üst kısmı kaydırılmış silindir modelleri oluşturmayı,
   çocuk düğüm ekleme adımlarını öğrenin ve 3D model OBJ dosyalarını kolayca dışa aktarın.
-language: tr
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Aspose.3D for Java'da Üstü Ofsetli Silindir Nasıl Oluşturulur
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /tr/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

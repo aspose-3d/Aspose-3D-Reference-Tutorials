@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Aprenda como **criar cena 3D em Java** e usar consultas semelhantes a
   XPath para **selecionar objetos por tipo** no Aspose.3D para Java.
-language: pt
 linktitle: Create 3D Scene Java – Apply XPath‑Like Queries with Aspose.3D
 second_title: Aspose.3D Java API
 title: Criar Cena 3D em Java – Aplicar Consultas Tipo XPath com Aspose.3D
-url: /java/3d-objects-and-scenes/xpath-like-object-queries/
+url: /pt/java/3d-objects-and-scenes/xpath-like-object-queries/
 weight: 11
 ---
 

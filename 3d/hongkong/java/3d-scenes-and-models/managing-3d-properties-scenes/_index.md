@@ -2,11 +2,10 @@
 date: 2025-12-01
 description: 學習如何在 Java 場景中使用 Aspose.3D 更改紋理顏色、存取材質屬性、設定 Vector3 值，並依名稱取得屬性——完整的 Aspose
   3D 教程。
-language: zh-hant
 linktitle: Change texture color and manage 3D properties in Java scenes using Aspose.3D
 second_title: Aspose.3D Java API
 title: 使用 Aspose.3D 在 Java 場景中更改紋理顏色及管理 3D 屬性
-url: /java/3d-scenes-and-models/managing-3d-properties-scenes/
+url: /zh-hant/java/3d-scenes-and-models/managing-3d-properties-scenes/
 weight: 14
 ---
 

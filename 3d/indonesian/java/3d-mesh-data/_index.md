@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Pelajari cara membuat mesh tangents Java sambil mengoptimalkan data mesh
   3D dengan Aspose.3D. Temukan kompresi, pembuatan data, dan pemisahan mesh berbasis
   material.
-language: id
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: Membuat Tangens Mesh Java – Mengoptimalkan dan Bekerja dengan Data Mesh 3D
-url: /java/3d-mesh-data/
+url: /id/java/3d-mesh-data/
 weight: 32
 ---
 

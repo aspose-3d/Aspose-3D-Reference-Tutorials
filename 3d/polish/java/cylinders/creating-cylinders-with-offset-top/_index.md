@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Dowiedz się, jak tworzyć modele cylindrów z przesuniętymi górnymi częściami
   w Aspose.3D dla Javy, dodawać kroki węzła potomnego w Javie i łatwo eksportować
   pliki OBJ modeli 3D.
-language: pl
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Jak stworzyć cylinder z przesuniętym górnym końcem w Aspose.3D dla Javy
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /pl/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

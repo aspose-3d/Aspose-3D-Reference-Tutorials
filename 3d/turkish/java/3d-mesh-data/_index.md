@@ -3,12 +3,11 @@ date: 2025-11-29
 description: Aspose.3D ile 3D ağ verilerini optimize ederken Java’da ağ teğetlerini
   nasıl oluşturacağınızı öğrenin. Sıkıştırma, veri üretimi ve malzeme tabanlı ağ bölmeyi
   keşfedin.
-language: tr
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: Java ile Mesh Tangent'ları Oluşturma – 3D Mesh Verilerini Optimize Etme ve
   Çalışma
-url: /java/3d-mesh-data/
+url: /tr/java/3d-mesh-data/
 weight: 32
 ---
 

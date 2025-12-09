@@ -3,13 +3,12 @@ date: 2025-11-30
 description: Pelajari cara menghasilkan file OBJ sambil mengubah orientasi bidang
   di Aspose.3D untuk Java. Ikuti petunjuk langkah demi langkah untuk membuat adegan
   3D dengan penempatan yang tepat.
-language: id
 linktitle: Generate OBJ File by Modifying Plane Orientation for Precise 3D Scene Positioning
   in Java
 second_title: Aspose.3D Java API
 title: Hasilkan File OBJ dengan Mengubah Orientasi Bidang untuk Penempatan Adegan
   3D yang Presisi di Java
-url: /java/3d-scenes-and-models/change-plane-orientation/
+url: /id/java/3d-scenes-and-models/change-plane-orientation/
 weight: 10
 ---
 

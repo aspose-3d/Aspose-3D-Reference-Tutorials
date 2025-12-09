@@ -3,11 +3,10 @@ date: 2025-12-06
 description: เรียนรู้วิธีบันทึกไฟล์ FBX และดึงข้อมูลฉากโดยใช้ Aspose.3D สำหรับ Java
   คู่มือขั้นตอนนี้ครอบคลุมการตั้งชื่อแอปพลิเคชัน การกำหนดหน่วยวัด และการส่งออกฉากเป็น
   FBX.
-language: th
 linktitle: How to Save FBX and Retrieve 3D Scene Info in Java
 second_title: Aspose.3D Java API
 title: วิธีบันทึก FBX และดึงข้อมูลฉาก 3 มิติใน Java
-url: /java/3d-scenes-and-models/get-scene-information/
+url: /th/java/3d-scenes-and-models/get-scene-information/
 weight: 12
 ---
 

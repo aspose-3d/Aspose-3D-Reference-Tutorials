@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.3D を使用して Java で 3D メッシュのバイナリファイルの書き方を学びましょう。このガイドでは、3D メッシュのエクスポート、Java
   でのバイナリファイルの書き込み、そして Java でのメッシュの三角形分割について解説します。
-language: ja
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: Javaで3Dメッシュのバイナリファイルを書き込む方法
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /ja/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

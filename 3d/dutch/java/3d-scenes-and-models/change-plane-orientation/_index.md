@@ -3,13 +3,12 @@ date: 2025-11-30
 description: Leer hoe je een OBJ‑bestand genereert terwijl je de oriëntatie van het
   vlak wijzigt in Aspose.3D voor Java. Volg stap‑voor‑stap instructies om een 3D‑scene
   te maken met exacte positionering.
-language: nl
 linktitle: Generate OBJ File by Modifying Plane Orientation for Precise 3D Scene Positioning
   in Java
 second_title: Aspose.3D Java API
 title: Genereer OBJ-bestand door vlakoriëntatie aan te passen voor nauwkeurige 3D‑scènepositionering
   in Java
-url: /java/3d-scenes-and-models/change-plane-orientation/
+url: /nl/java/3d-scenes-and-models/change-plane-orientation/
 weight: 10
 ---
 

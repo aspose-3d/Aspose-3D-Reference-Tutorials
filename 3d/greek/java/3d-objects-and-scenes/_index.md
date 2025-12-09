@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Μάθετε πώς να τροποποιήσετε την ακτίνα σφαίρας σε Java με το Aspose.3D.
   Αυτό το σεμινάριο καλύπτει τις αλλαγές της ακτίνας σφαίρας και ερωτήματα τύπου XPath
   για απρόσκοπτη ανάπτυξη 3D.
-language: el
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Τροποποίηση Ακτίνας Σφαίρας Java – Διαχείριση 3Δ Αντικειμένων και Σκηνών σε
   Java
-url: /java/3d-objects-and-scenes/
+url: /el/java/3d-objects-and-scenes/
 weight: 33
 ---
 

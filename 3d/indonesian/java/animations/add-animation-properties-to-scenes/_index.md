@@ -3,13 +3,12 @@ date: 2025-12-04
 description: Pelajari **cara menganimasi 3D** dalam Java menggunakan Aspose.3D. Panduan
   langkah‑demi‑langkah ini menunjukkan cara menambahkan properti animasi, membuat
   keyframe, dan mengekspor hasilnya.
-language: id
 linktitle: How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
   Tutorial
 second_title: Aspose.3D Java API
 title: Cara Menganimasikan Adegan 3D dalam Java – Tambahkan Properti Animasi dengan
   Tutorial Aspose.3D
-url: /java/animations/add-animation-properties-to-scenes/
+url: /id/java/animations/add-animation-properties-to-scenes/
 weight: 10
 ---
 

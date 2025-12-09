@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose.3D का उपयोग करके जावा में 3D को एनीमेट करना सीखें। यह गाइड दिखाता
   है कि एनीमेशन कैसे जोड़ें और लक्ष्य कैमरों के साथ एनीमेटेड 3D दृश्यों को कैसे बनाएं।
-language: hi
 linktitle: How to Animate 3D in Java – Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 title: जावा में 3D को एनीमेट कैसे करें – Aspose.3D ट्यूटोरियल
-url: /java/animations/
+url: /hi/java/animations/
 weight: 20
 ---
 

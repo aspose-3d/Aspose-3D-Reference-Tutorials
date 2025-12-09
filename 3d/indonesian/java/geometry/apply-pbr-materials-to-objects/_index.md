@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Pelajari cara membuat adegan 3D di Java, menerapkan material PBR realistis
   menggunakan Aspose.3D, dan menyimpan model 3D STL untuk merender objek 3D di Java.
-language: id
 linktitle: Create 3D Scene Java – Apply PBR Materials with Aspose.3D
 second_title: Aspose.3D Java API
 title: 'Buat Adegan 3D Java: Terapkan Material PBR dengan Aspose.3D'
-url: /java/geometry/apply-pbr-materials-to-objects/
+url: /id/java/geometry/apply-pbr-materials-to-objects/
 weight: 10
 ---
 

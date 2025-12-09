@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.3D for Java에서 오프셋된 상단을 가진 실린더 모델을 만드는 방법을 배우고, 자식 노드 Java 단계를
   추가하며, 3D 모델 OBJ 파일을 쉽게 내보내세요.
-language: ko
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Aspose.3D for Java에서 오프셋 상단이 있는 실린더 만드는 방법
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /ko/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

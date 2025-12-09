@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.3D kullanarak Java'da doku eklemeyi öğrenebileceğiniz bir Java
   3D grafik öğreticisi. Java'da 3D nesnelere hızlıca gerçekçi malzemeler uygulayın.
-language: tr
 linktitle: Apply Materials to 3D Objects in Java with Aspose.3D
 second_title: Aspose.3D Java API
 title: java 3d grafik öğreticisi – Aspose.3D ile Java'da 3D nesnelere malzeme uygulama
-url: /java/geometry/apply-materials-to-3d-objects/
+url: /tr/java/geometry/apply-materials-to-3d-objects/
 weight: 14
 ---
 

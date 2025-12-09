@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Aspose.3D를 사용하여 Java에서 3D 메시에 노멀을 추가하는 방법을 배워보세요. 이 단계별 가이드는 노멀 데이터를
   생성하고, 메쉬 노멀을 계산하며, 3D 그래픽을 향상시키는 방법을 보여줍니다.
-language: ko
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: Java에서 3D 메시에 노멀 추가하기 (Aspose.3D 사용)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /ko/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: เรียนรู้วิธีเขียนไฟล์ไบนารีสำหรับเมช 3 มิติใน Java ด้วย Aspose.3D คู่มือนี้ครอบคลุมการส่งออกเมช
   3 มิติ, การเขียนไฟล์ไบนารีใน Java, และการทำให้เมชเป็นรูปสามเหลี่ยมใน Java.
-language: th
 linktitle: How to Write Binary Files for 3D Meshes in Java
 second_title: Aspose.3D Java API
 title: วิธีเขียนไฟล์ไบนารีสำหรับเมช 3 มิติใน Java
-url: /java/3d-scenes-and-models/save-custom-mesh-formats/
+url: /th/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
 

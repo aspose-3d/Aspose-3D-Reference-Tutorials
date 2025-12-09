@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Leer hoe u FBX‑bestanden opslaat en scène‑informatie opvraagt met Aspose.3D
   voor Java. Deze stapsgewijze handleiding behandelt het instellen van de toepassingsnaam,
   het definiëren van meeteenheden en het exporteren van de scène naar FBX.
-language: nl
 linktitle: How to Save FBX and Retrieve 3D Scene Info in Java
 second_title: Aspose.3D Java API
 title: Hoe FBX op te slaan en 3D‑scène‑informatie op te halen in Java
-url: /java/3d-scenes-and-models/get-scene-information/
+url: /nl/java/3d-scenes-and-models/get-scene-information/
 weight: 12
 ---
 

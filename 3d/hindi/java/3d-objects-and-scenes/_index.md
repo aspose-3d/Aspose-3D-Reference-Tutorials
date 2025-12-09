@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Aspose.3D के साथ जावा में गोले की त्रिज्या को कैसे बदलें, सीखें। यह ट्यूटोरियल
   गोले की त्रिज्या में परिवर्तन और XPath‑समान क्वेरीज़ को कवर करता है, जिससे सहज 3D
   विकास संभव हो सके।
-language: hi
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: गोलक त्रिज्या जावा को संशोधित करें – जावा में 3D वस्तुओं और दृश्यों को नियंत्रित
   करना
-url: /java/3d-objects-and-scenes/
+url: /hi/java/3d-objects-and-scenes/
 weight: 33
 ---
 

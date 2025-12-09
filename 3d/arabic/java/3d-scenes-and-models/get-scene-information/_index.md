@@ -3,11 +3,10 @@ date: 2025-12-06
 description: تعلم كيفية حفظ ملفات FBX واسترجاع معلومات المشهد باستخدام Aspose.3D للغة
   Java. يغطي هذا الدليل خطوة بخطوة تعيين اسم التطبيق، وتحديد وحدات القياس، وتصدير
   المشهد إلى FBX.
-language: ar
 linktitle: How to Save FBX and Retrieve 3D Scene Info in Java
 second_title: Aspose.3D Java API
 title: كيفية حفظ FBX واسترجاع معلومات المشهد ثلاثي الأبعاد في جافا
-url: /java/3d-scenes-and-models/get-scene-information/
+url: /ar/java/3d-scenes-and-models/get-scene-information/
 weight: 12
 ---
 

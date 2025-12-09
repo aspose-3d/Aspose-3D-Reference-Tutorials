@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: 学习如何在 Aspose.3D for Java 中创建顶部偏移的圆柱模型，添加子节点的 Java 步骤，并轻松导出 3D 模型 OBJ
   文件。
-language: zh
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: 如何在 Aspose.3D for Java 中创建顶部偏移的圆柱体
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /zh/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

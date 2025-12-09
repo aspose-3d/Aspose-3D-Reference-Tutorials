@@ -2,12 +2,11 @@
 date: 2025-12-04
 description: เรียนรู้ **วิธีทำแอนิเมชัน 3D** ของฉากใน Java ด้วย Aspose.3D คู่มือแบบขั้นตอนนี้จะแสดงให้คุณเห็นวิธีเพิ่มคุณสมบัติแอนิเมชัน,
   สร้างคีย์เฟรม, และส่งออกผลลัพธ์.
-language: th
 linktitle: How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
   Tutorial
 second_title: Aspose.3D Java API
 title: วิธีทำแอนิเมชันฉาก 3 มิติใน Java – เพิ่มคุณสมบัติแอนิเมชันด้วยบทเรียน Aspose.3D
-url: /java/animations/add-animation-properties-to-scenes/
+url: /th/java/animations/add-animation-properties-to-scenes/
 weight: 10
 ---
 

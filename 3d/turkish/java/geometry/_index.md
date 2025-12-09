@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Aspose.3D kullanarak Java'da PBR malzemelerini nasıl uygulayacağınızı
   ve kuaterniyonları nasıl birleştireceğinizi öğrenin. 3D geometri, ağ paylaşımı ve
   dönüşümler konusunda uzmanlaşın.
-language: tr
 linktitle: How to Apply PBR Materials in Java
 second_title: Aspose.3D Java API
 title: Java'da Aspose.3D ile PBR Malzemeleri Nasıl Uygulanır
-url: /java/geometry/
+url: /tr/java/geometry/
 weight: 21
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-05
 description: Aspose.3D ile Java’da küre yarıçapını nasıl değiştireceğinizi öğrenin.
   Bu öğreticide, küre yarıçapı değişiklikleri ve sorunsuz 3D geliştirme için XPath
   benzeri sorgular ele alınmaktadır.
-language: tr
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Küre Yarıçapını Değiştir Java – Java’da 3B Nesneleri ve Sahneleri Manipüle
   Et
-url: /java/3d-objects-and-scenes/
+url: /tr/java/3d-objects-and-scenes/
 weight: 33
 ---
 

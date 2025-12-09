@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Pelajari cara menambahkan normal ke mesh 3D dalam Java menggunakan Aspose.3D.
   Panduan langkah demi langkah ini menunjukkan cara membuat data normal, menghitung
   normal mesh, dan meningkatkan grafik 3D Anda.
-language: id
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: Cara Menambahkan Normal ke Mesh 3D dalam Java (Menggunakan Aspose.3D)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /id/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

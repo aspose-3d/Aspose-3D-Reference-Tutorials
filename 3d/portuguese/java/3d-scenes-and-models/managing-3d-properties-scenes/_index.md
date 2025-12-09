@@ -3,11 +3,10 @@ date: 2025-12-01
 description: Aprenda como mudar a cor da textura, acessar propriedades de material,
   definir valores Vector3 e recuperar propriedades por nome em cenas Java com Aspose.3D
   – um tutorial completo de Aspose 3D.
-language: pt
 linktitle: Change texture color and manage 3D properties in Java scenes using Aspose.3D
 second_title: Aspose.3D Java API
 title: Altere a cor da textura e gerencie propriedades 3D em cenas Java usando Aspose.3D
-url: /java/3d-scenes-and-models/managing-3d-properties-scenes/
+url: /pt/java/3d-scenes-and-models/managing-3d-properties-scenes/
 weight: 14
 ---
 

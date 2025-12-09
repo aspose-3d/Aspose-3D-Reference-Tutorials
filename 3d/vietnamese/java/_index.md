@@ -2,10 +2,9 @@
 date: 2025-12-03
 description: Học cách tạo các dự án Java hoạt hình 3D bằng Aspose.3D. Khám phá đám
   mây điểm Java, đa giác thành tam giác Java, và hàng chục hướng dẫn từng bước.
-language: vi
 linktitle: Aspose.3D for Java Tutorials
 title: Tạo Hoạt Hình 3D Java với Aspose.3D – Hướng Dẫn Toàn Diện
-url: /java/
+url: /vi/java/
 weight: 10
 ---
 

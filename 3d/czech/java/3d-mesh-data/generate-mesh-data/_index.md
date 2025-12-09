@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Naučte se, jak přidat normály do 3D sítí v Javě pomocí Aspose.3D. Tento
   krok‑za‑krokem průvodce vám ukáže, jak vytvořit data normál, vypočítat normály sítě
   a vylepšit vaše 3D grafiky.
-language: cs
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: Jak přidat normály do 3D sítí v Javě (pomocí Aspose.3D)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /cs/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

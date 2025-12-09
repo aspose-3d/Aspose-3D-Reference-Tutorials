@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.3D를 사용하여 Java에서 구의 반지름을 수정하는 방법을 배우세요. 이 튜토리얼에서는 구의 반지름 변경과 XPath와
   유사한 쿼리를 다루어 원활한 3D 개발을 지원합니다.
-language: ko
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: Java에서 구 반경 수정 – Java로 3D 객체 및 장면 조작
-url: /java/3d-objects-and-scenes/
+url: /ko/java/3d-objects-and-scenes/
 weight: 33
 ---
 

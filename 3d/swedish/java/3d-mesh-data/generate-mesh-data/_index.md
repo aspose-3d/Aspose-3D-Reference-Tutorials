@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Lär dig hur du lägger till normaler i 3D‑meshar i Java med Aspose.3D.
   Denna steg‑för‑steg‑guide visar hur du skapar normaldata, beräknar mesh‑normaler
   och förbättrar dina 3D‑grafik.
-language: sv
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: Hur man lägger till normaler i 3D‑meshar i Java (med Aspose.3D)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /sv/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

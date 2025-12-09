@@ -1,11 +1,10 @@
 ---
 date: 2025-11-29
 description: 学习如何 **在 Java 中创建 3D 场景**，并使用类 XPath 查询在 Aspose.3D for Java 中 **按类型选择对象**。
-language: zh
 linktitle: Create 3D Scene Java – Apply XPath‑Like Queries with Aspose.3D
 second_title: Aspose.3D Java API
 title: 创建 3D 场景 Java – 使用 Aspose.3D 应用类似 XPath 的查询
-url: /java/3d-objects-and-scenes/xpath-like-object-queries/
+url: /zh/java/3d-objects-and-scenes/xpath-like-object-queries/
 weight: 11
 ---
 

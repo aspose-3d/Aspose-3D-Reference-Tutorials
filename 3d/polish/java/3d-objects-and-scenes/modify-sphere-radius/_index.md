@@ -3,12 +3,11 @@ date: 2025-11-30
 description: Dowiedz się, jak używać Aspose w Javie do modyfikacji promienia sfery
   3D. Ten przewodnik krok po kroku obejmuje bibliotekę Aspose.3D Java, jak ustawić
   promień, dodać sferę do sceny oraz zapisać plik OBJ w Javie.
-language: pl
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 'Jak korzystać z Aspose: Modyfikacja promienia sfery 3D w Javie przy użyciu
   Aspose.3D'
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /pl/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

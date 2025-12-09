@@ -2,10 +2,9 @@
 date: 2025-12-03
 description: Impara a creare progetti Java di animazione 3D con Aspose.3D. Esplora
   nuvole di punti Java, poligoni in triangoli Java e decine di tutorial passo‑passo.
-language: it
 linktitle: Aspose.3D for Java Tutorials
 title: Crea animazione 3D Java con Aspose.3D – Tutorial completi
-url: /java/
+url: /it/java/
 weight: 10
 ---
 

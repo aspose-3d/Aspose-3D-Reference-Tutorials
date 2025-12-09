@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Aprenda a usar o Aspose em Java para modificar o raio de uma esfera 3D.
   Este guia passo a passo aborda a biblioteca Aspose.3D Java, como definir o raio,
   adicionar a esfera à cena e gravar o arquivo OBJ em Java.
-language: pt
 linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
 second_title: Aspose.3D Java API
 title: 'Como usar Aspose: modificar o raio da esfera 3D em Java com Aspose.3D'
-url: /java/3d-objects-and-scenes/modify-sphere-radius/
+url: /pt/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
 

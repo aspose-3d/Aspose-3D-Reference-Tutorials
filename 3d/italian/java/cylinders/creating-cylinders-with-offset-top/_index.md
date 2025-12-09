@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Scopri come creare modelli di cilindri con teste offset in Aspose.3D
   per Java, aggiungi passaggi Java per i nodi figlio e esporta facilmente file OBJ
   di modelli 3D.
-language: it
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Come creare un cilindro con la parte superiore offset in Aspose.3D per Java
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /it/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

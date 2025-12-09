@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Pelajari cara membuat model silinder dengan bagian atas yang teroffset
   di Aspose.3D untuk Java, tambahkan langkah-langkah node anak Java, dan ekspor file
   model 3D OBJ dengan mudah.
-language: id
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Cara Membuat Silinder dengan Bagian Atas Teroffset di Aspose.3D untuk Java
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /id/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

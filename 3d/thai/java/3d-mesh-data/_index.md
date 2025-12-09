@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: เรียนรู้วิธีสร้างเมชแทนเจนท์ใน Java พร้อมการปรับแต่งข้อมูลเมช 3 มิติด้วย
   Aspose.3D ค้นพบการบีบอัด การสร้างข้อมูล และการแยกเมชตามวัสดุ
-language: th
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: สร้างแทนเจนท์เมชใน Java – การเพิ่มประสิทธิภาพและการทำงานกับข้อมูลเมช 3 มิติ
-url: /java/3d-mesh-data/
+url: /th/java/3d-mesh-data/
 weight: 32
 ---
 

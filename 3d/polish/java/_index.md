@@ -3,10 +3,9 @@ date: 2025-12-03
 description: Dowiedz się, jak tworzyć projekty animacji 3D w Javie przy użyciu Aspose.3D.
   Odkryj chmury punktów w Javie, przekształcanie wielokątów w trójkąty w Javie oraz
   dziesiątki szczegółowych samouczków krok po kroku.
-language: pl
 linktitle: Aspose.3D for Java Tutorials
 title: Tworzenie animacji 3D w Javie z Aspose.3D – Kompleksowe samouczki
-url: /java/
+url: /pl/java/
 weight: 10
 ---
 

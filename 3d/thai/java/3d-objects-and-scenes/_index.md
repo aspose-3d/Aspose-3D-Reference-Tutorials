@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีแก้ไขรัศมีของทรงกลมใน Java ด้วย Aspose.3D บทเรียนนี้ครอบคลุมการเปลี่ยนแปลงรัศมีของทรงกลมและการค้นหาแบบคล้าย
   XPath เพื่อการพัฒนา 3D อย่างราบรื่น
-language: th
 linktitle: Manipulating 3D Objects and Scenes in Java
 second_title: Aspose.3D Java API
 title: แก้ไขรัศมีของทรงกลมใน Java – การจัดการวัตถุและฉาก 3 มิติใน Java
-url: /java/3d-objects-and-scenes/
+url: /th/java/3d-objects-and-scenes/
 weight: 33
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να δημιουργείτε μοντέλα κυλίνδρων με μετατοπισμένα επάνω μέρη
   στο Aspose.3D για Java, προσθέστε βήματα παιδικού κόμβου Java και εξάγετε εύκολα
   αρχεία OBJ 3D μοντέλων.
-language: el
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Πώς να δημιουργήσετε κύλινδρο με μετατόπιση στην κορυφή στο Aspose.3D για Java
-url: /java/cylinders/creating-cylinders-with-offset-top/
+url: /el/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
 

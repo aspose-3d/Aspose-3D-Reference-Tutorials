@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Tìm hiểu cách tạo các tangent cho lưới trong Java đồng thời tối ưu hóa
   dữ liệu lưới 3D bằng Aspose.3D. Khám phá nén, tạo dữ liệu và phân tách lưới dựa
   trên vật liệu.
-language: vi
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: Tạo Tangent cho Lưới trong Java – Tối ưu hoá và Làm việc với Dữ liệu Lưới 3D
-url: /java/3d-mesh-data/
+url: /vi/java/3d-mesh-data/
 weight: 32
 ---
 

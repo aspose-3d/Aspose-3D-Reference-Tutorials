@@ -2,12 +2,11 @@
 date: 2025-12-08
 description: Poznaj samouczek grafiki 3D w Javie, jak dodać teksturę przy użyciu Aspose.3D.
   Szybko zastosuj realistyczne materiały do obiektów 3D w Javie.
-language: pl
 linktitle: Apply Materials to 3D Objects in Java with Aspose.3D
 second_title: Aspose.3D Java API
 title: Samouczek grafiki 3D w Javie – Zastosuj materiały do obiektów 3D w Javie z
   Aspose.3D
-url: /java/geometry/apply-materials-to-3d-objects/
+url: /pl/java/geometry/apply-materials-to-3d-objects/
 weight: 14
 ---
 

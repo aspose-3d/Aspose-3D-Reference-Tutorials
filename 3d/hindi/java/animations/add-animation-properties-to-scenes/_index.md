@@ -3,13 +3,12 @@ date: 2025-12-04
 description: Aspose.3D का उपयोग करके जावा में **3D को एनीमेट करना** सीखें। यह चरण‑दर‑चरण
   गाइड आपको एनीमेशन प्रॉपर्टीज़ जोड़ना, कीफ़्रेम बनाना, और परिणाम को निर्यात करना
   दिखाता है।
-language: hi
 linktitle: How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
   Tutorial
 second_title: Aspose.3D Java API
 title: जावा में 3D दृश्यों को एनीमेट कैसे करें – Aspose.3D ट्यूटोरियल के साथ एनीमेशन
   प्रॉपर्टीज़ जोड़ें
-url: /java/animations/add-animation-properties-to-scenes/
+url: /hi/java/animations/add-animation-properties-to-scenes/
 weight: 10
 ---
 

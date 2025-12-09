@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: تعلم كيفية تطبيق مواد PBR وربط الكواتيرنيونات في جافا باستخدام Aspose.3D.
   إتقان الهندسة ثلاثية الأبعاد، مشاركة الشبكات، والتحولات.
-language: ar
 linktitle: How to Apply PBR Materials in Java
 second_title: Aspose.3D Java API
 title: كيفية تطبيق مواد PBR في جافا باستخدام Aspose.3D
-url: /java/geometry/
+url: /ar/java/geometry/
 weight: 21
 ---
 

@@ -1,12 +1,11 @@
 ---
 date: 2025-12-04
 description: 学习如何在 Java 中使用 Aspose.3D 为 3D 场景添加动画。本分步指南将向您展示如何添加动画属性、创建关键帧以及导出结果。
-language: zh
 linktitle: How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
   Tutorial
 second_title: Aspose.3D Java API
 title: 如何在 Java 中为 3D 场景添加动画 – 使用 Aspose.3D 教程添加动画属性
-url: /java/animations/add-animation-properties-to-scenes/
+url: /zh/java/animations/add-animation-properties-to-scenes/
 weight: 10
 ---
 

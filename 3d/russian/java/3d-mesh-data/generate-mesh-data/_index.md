@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Узнайте, как добавить нормали к 3D‑мешам в Java с помощью Aspose.3D.
   Это пошаговое руководство покажет, как создать данные нормалей, вычислить нормали
   меша и улучшить вашу 3D‑графику.
-language: ru
 linktitle: How to Add Normals to 3D Meshes in Java (Using Aspose.3D)
 second_title: Aspose.3D Java API
 title: Как добавить нормали к 3D‑мешам в Java (используя Aspose.3D)
-url: /java/3d-mesh-data/generate-mesh-data/
+url: /ru/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
 

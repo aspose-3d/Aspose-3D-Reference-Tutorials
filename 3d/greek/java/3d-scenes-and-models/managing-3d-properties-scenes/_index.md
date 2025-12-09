@@ -3,12 +3,11 @@ date: 2025-12-01
 description: Μάθετε πώς να αλλάζετε το χρώμα της υφής, να προσπελάζετε τις ιδιότητες
   του υλικού, να ορίζετε τιμές Vector3 και να ανακτάτε ιδιότητες με όνομα σε σκηνές
   Java με το Aspose.3D – ένα πλήρες σεμινάριο Aspose 3D.
-language: el
 linktitle: Change texture color and manage 3D properties in Java scenes using Aspose.3D
 second_title: Aspose.3D Java API
 title: Αλλάξτε το χρώμα της υφής και διαχειριστείτε τις 3D ιδιότητες σε σκηνές Java
   χρησιμοποιώντας το Aspose.3D
-url: /java/3d-scenes-and-models/managing-3d-properties-scenes/
+url: /el/java/3d-scenes-and-models/managing-3d-properties-scenes/
 weight: 14
 ---
 

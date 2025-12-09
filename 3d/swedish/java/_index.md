@@ -2,10 +2,9 @@
 date: 2025-12-03
 description: Lär dig hur du skapar 3D‑animationsprojekt i Java med Aspose.3D. Utforska
   punktmoln i Java, polygoner till trianglar i Java och dussintals steg‑för‑steg‑handledningar.
-language: sv
 linktitle: Aspose.3D for Java Tutorials
 title: Skapa 3D-animation i Java med Aspose.3D – Omfattande handledningar
-url: /java/
+url: /sv/java/
 weight: 10
 ---
 

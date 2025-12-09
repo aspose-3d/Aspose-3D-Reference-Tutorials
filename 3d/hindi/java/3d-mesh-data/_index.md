@@ -3,12 +3,11 @@ date: 2025-11-29
 description: जानेँ कि Aspose.3D के साथ 3D मेष डेटा को अनुकूलित करते हुए जावा में मेष
   टैन्जेंट कैसे बनाएं। संपीड़न, डेटा उत्पन्न करना, और सामग्री-आधारित मेष विभाजन की
   खोज करें।
-language: hi
 linktitle: Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data
 second_title: Aspose.3D Java API
 title: जावा में मेष टैन्जेंट बनाएं – 3D मेष डेटा को अनुकूलित करना और उसके साथ काम
   करना
-url: /java/3d-mesh-data/
+url: /hi/java/3d-mesh-data/
 weight: 32
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 學習如何使用 Aspose.3D 在 Java 中製作 3D 動畫。本指南展示如何加入動畫以及使用目標相機建立動畫 3D 場景。
-language: zh-hant
 linktitle: How to Animate 3D in Java – Aspose.3D Tutorial
 second_title: Aspose.3D Java API
 title: 如何在 Java 中製作 3D 動畫 – Aspose.3D 教學
-url: /java/animations/
+url: /zh-hant/java/animations/
 weight: 20
 ---
 

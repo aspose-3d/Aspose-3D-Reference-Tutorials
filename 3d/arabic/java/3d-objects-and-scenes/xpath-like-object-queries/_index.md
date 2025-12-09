@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: تعلم كيفية **إنشاء مشهد ثلاثي الأبعاد في جافا** واستخدام استعلامات شبيهة
   بـ XPath **لاختيار الكائنات حسب النوع** في Aspose.3D للغة جافا.
-language: ar
 linktitle: Create 3D Scene Java – Apply XPath‑Like Queries with Aspose.3D
 second_title: Aspose.3D Java API
 title: إنشاء مشهد ثلاثي الأبعاد Java – تطبيق استعلامات شبيهة بـ XPath باستخدام Aspose.3D
-url: /java/3d-objects-and-scenes/xpath-like-object-queries/
+url: /ar/java/3d-objects-and-scenes/xpath-like-object-queries/
 weight: 11
 ---
 
