@@ -1,35 +1,57 @@
 ---
-title: Aspose.3D ile Java'da 3D Nesnelere UV Koordinatlarını Uygulama
-linktitle: Aspose.3D ile Java'da 3D Nesnelere UV Koordinatlarını Uygulama
-second_title: Aspose.3D Java API'si
-description: Aspose.3D ile Java'da UV koordinatlarını 3 boyutlu nesnelere uygulamayı öğrenin. Bu adım adım kılavuzla grafiklerinizi geliştirin.
+date: 2025-12-09
+description: Aspose.3D kullanarak Java'da mesh'e UV ekleyerek 3D modelleri UV haritalamayı
+  öğrenin ve dokuları haritalayın. 3D nesnelerinize doku eklemek için bu adım adım
+  kılavuzu izleyin.
+language: tr
+linktitle: 'UV Mapping 3D Models: UV Coordinates in Java with Aspose.3D'
+second_title: Aspose.3D Java API
+title: 'UV Haritalama 3D Modeller: Java''da Aspose.3D ile UV Koordinatları'
+url: /java/geometry/apply-uv-coordinates-to-3d-objects/
 weight: 18
-url: /tr/java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D ile Java'da 3D Nesnelere UV Koordinatlarını Uygulama
+# UV Mapping 3D Modelleri: Java ile Aspose.3D'de UV Koordinatları
 
-## giriiş
+## Introduction
 
-Aspose.3D kullanarak UV koordinatlarını Java'daki 3 boyutlu nesnelere uygulamaya yönelik bu kapsamlı eğitime hoş geldiniz. 3D grafik dünyasında, UV koordinatları dokuların yüzeylere eşlenmesinde önemli bir rol oynayarak eserlerinizin görsel çekiciliğini artırır. Bu eğitim, sorunsuz ve etkili bir öğrenme deneyimi sağlamak için her adımı parçalara ayırarak süreç boyunca size rehberlik edecektir.
+Hoş geldiniz! Bu kapsamlı öğreticide Java ve güçlü Aspose.3D kütüphanesini kullanarak **uv mapping 3d models** öğreneceksiniz. UV mapping, **add uvs to mesh** yapmanıza olanak tanıyan bir tekniktir; böylece dokular 3‑D nesnelerinizde mükemmel bir şekilde hizalanır. Bu rehberin sonunda dokuları java‑stilinde haritalayabilecek ve modellerinizin hayata geçtiğini görebileceksiniz.
 
-## Önkoşullar
+## Quick Answers
+- **UV mapping ne işe yarar?** 3‑D bir mesh'in her köşesine 2‑D doku koordinatları (U & V) atar.  
+- **Hangi kütüphane kullanılıyor?** Aspose.3D for Java.  
+- **Kaç satır kod?** Yaklaşık 30 satır, dört kod bloğu arasında dağıtılmıştır.  
+- **Lisans gerekiyor mu?** Geliştirme için ücretsiz deneme yeterlidir; üretim için ticari lisans gereklidir.  
+- **Bunu diğer şekillerde yeniden kullanabilir miyim?** Kesinlikle – aynı yaklaşım herhangi bir mesh için çalışır.
 
-UV koordinatlarının heyecan verici dünyasına dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## What is UV Mapping 3D Models?
 
-- Java Geliştirme Ortamı: Sisteminizde çalışan bir Java geliştirme ortamının kurulu olduğundan emin olun.
--  Aspose.3D Kütüphanesi: Aspose.3D kütüphanesini indirin ve yükleyin. Gerekli dosyaları bulabilirsiniz[Burada](https://releases.aspose.com/3d/java/).
-- 3D Kavramlarının Temel Anlaşılması: UV koordinatlarının önemini kavramak için temel 3D grafik kavramlarına aşina olun.
+UV mapping 3D modelleri, bir 2‑D görüntüyü (doku) bir 3‑D yüzeye projekte etme sürecidir. Her köşe, renderlayıcıya dokudan nereden örnek alacağını söyleyen bir koordinat çifti—U (yatay) ve V (dikey)—alır. Bu adım, gerçekçi renderlama, oyun varlıkları ve AR/VR deneyimleri için hayati öneme sahiptir.
 
-## Paketleri İçe Aktar
+## Why Use Aspose.3D for UV Mapping?
 
-Bu adımda UV haritalama yolculuğumuzu başlatmak için gerekli paketleri içe aktaracağız. Aspose.3D kütüphanesi, Java'da 3D nesnelerle çalışmak için gerekli araçları ve işlevleri sağlar.
+- **Cross‑platform Java API** – Windows, Linux ve macOS'ta çalışır.  
+- **High‑performance geometry engine** – büyük mesh'leri sorunsuz bir şekilde işler.  
+- **Built‑in texture handling** – diffuse, specular, normal haritaları vb. destekler.  
+- **Clear, fluent API** – düşük seviyeli dosya ayrıştırmaya gerek kalmadan **add uvs to mesh** işlemini basitçe yapmanızı sağlar.
 
-### Adım 1: Aspose.3D Paketlerini İçe Aktarın
+## Prerequisites
+
+Başlamadan önce şunların kurulu ve yapılandırılmış olduğundan emin olun:
+
+- **Java Development Kit (JDK 8 veya üzeri)**  
+- **Aspose.3D for Java** – resmi siteden en son JAR'ı indirin [here](https://releases.aspose.com/3d/java/).  
+- **Temel 3‑D bilgisi** – köşeler, çokgenler ve doku haritalama kavramlarını anlama.
+
+## Import Packages
+
+İlk olarak, geometri oluşturup UV verilerini atamamızı sağlayacak Aspose.3D sınıflarını içe aktarmamız gerekiyor.
+
+### Step 1: Import Aspose.3D Packages
 
 ```java
 import com.aspose.threed.*;
@@ -37,17 +59,17 @@ import com.aspose.threed.*;
 import java.util.Arrays;
 ```
 
-Artık paketlerimizi hazırladığımıza göre, 3 boyutlu bir nesne üzerinde UV koordinatlarını ayarlamaya geçelim.
+İçe aktarmalar hazır olduğuna göre, basit bir küp için UV verilerini oluşturmaya geçelim.
 
-## 3B Nesnede UV Koordinatlarını Ayarlama
+## Setup UV Coordinates on a 3D Object
 
-Bu bölümde Aspose.3D'yi kullanarak bir küp üzerinde UV koordinatlarını ayarlama sürecinde size rehberlik edeceğiz.
+Aşağıda UV koordinatlarını oluşturup bir mesh'e bağlamak için tam adımları bulacaksınız.
 
-### Adım 2: UV'ler ve İndeksler Oluşturun
+### Step 2: Create UVs and Indices
 
 ```java
-// ExStart:KurulumUVOnCube
-// UV'ler
+// ExStart:SetupUVOnCube
+// UVs
 Vector4[] uvs = new Vector4[]
 {
     new Vector4( 0.0, 1.0,0.0, 1.0),
@@ -56,60 +78,75 @@ Vector4[] uvs = new Vector4[]
     new Vector4( 1.0, 1.0,0.0, 1.0)
 };
 
-// Her poligon başına UV indeksleri
+// Indices of the uvs per each polygon
 int[] uvsId = new int[]
 {
     0,1,3,2,2,3,5,4,4,5,7,6,6,7,9,8,1,10,11,3,12,0,2,13
 };
-// ExEnd:KurulumUVOnCube
+// ExEnd:SetupUVOnCube
 ```
 
-### Adım 3: Mesh ve UVset oluşturun
+*Explanation*:  
+- **uvs** gerçek UV koordinat vektörlerini (U, V, W, Q) tutar.  
+- **uvsId**, her çokgen köşesini `uvs` dizisindeki bir girişe eşler; bu sayede daha sonra **add uvs to mesh** adımı gerçekleştirilebilir.
+
+### Step 3: Create Mesh and UVset
 
 ```java
-// Örgü örneğini ayarlamak için çokgen oluşturucu yöntemini kullanarak ortak sınıf oluşturma örgüsünü çağırın
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-// UVset oluştur
+// Create UVset
 VertexElementUV elementUV = mesh.createElementUV(TextureMapping.DIFFUSE, MappingMode.POLYGON_VERTEX, ReferenceMode.INDEX_TO_DIRECT);
-// Verileri UV köşe öğesine kopyalayın
+// Copy the data to the UV vertex element
 elementUV.setData(uvs);
 elementUV.setIndices(uvsId);
 ```
 
-### Adım 4: Onayı Yazdırın
+*Explanation*:  
+- `Common.createMeshUsingPolygonBuilder()` bir küp‑şeklinde mesh oluşturur.  
+- `createElementUV` **diffuse** doku kanalına bir UV öğesi yaratır.  
+- `setData` ve `setIndices` aslında **add uvs to mesh** işlemini yapar; UV vektörlerini küpün çokgenlerine bağlar.
+
+### Step 4: Print Confirmation
 
 ```java
 System.out.println("\nUVs have been set up successfully on the cube.");
 ```
 
-Tebrikler! Java'da Aspose.3D kullanarak UV koordinatlarını 3 boyutlu bir nesneye başarıyla uyguladınız.
+Programı çalıştırdığınızda, konsolda UV mapping adımının hatasız tamamlandığını gösteren bir onay mesajı görmelisiniz.
 
-## Çözüm
+## Common Issues and Solutions
 
-Bu eğitimde Java'da Aspose.3D kullanarak UV koordinatlarını 3 boyutlu nesnelere uygulamanın temel adımlarını inceledik. UV haritalamayı anlamak, 3D grafiklerinizin görsel çekiciliğini artırmak için çok önemlidir. Yaratıcılığınızı ortaya çıkarmak için farklı şekil ve dokuları denemekten çekinmeyin.
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **UVs appear stretched** | `uvsId` içinde yanlış sıralama veya çokgen yönlendirmesi uyumsuzluğu. | Dizin dizisinin mesh'in çokgen sırasına uygun olduğundan emin olun. |
+| **Texture not visible** | UV seti yanlış doku kanalına eklenmiş. | Ana doku için `TextureMapping.DIFFUSE` kullanın; diğer kanallar (NORMAL, SPECULAR) ayrı UV setleri gerektirir. |
+| **Runtime `NullPointerException`** | `Common.createMeshUsingPolygonBuilder()` `null` döndürdü. | Yardımcı sınıfın doğru içe aktarılmış ve metodun uygulanmış olduğundan emin olun. |
 
-## SSS'ler
+## Frequently Asked Questions
 
-### S1: UV koordinatlarını karmaşık 3D modellere uygulayabilir miyim?
+**Q: Karmaşık 3D modellere UV koordinatları uygulayabilir miyim?**  
+A: Evet. Aynı iş akışı herhangi bir mesh için çalışır—sadece daha büyük bir UV dizisi ve eşleşen indeks listesi sağlayın.
 
-Cevap1: Evet, karmaşık modeller için süreç benzerdir. Uygun UV verilerine ve endekslerine sahip olduğunuzdan emin olun.
+**Q: Aspose.3D için ek kaynaklar ve destek nereden bulunur?**  
+A: Ayrıntılı API referansları için [Aspose.3D documentation](https://reference.aspose.com/3d/java/) sayfasını, topluluk yardımı için ise [Aspose.3D forum](https://forum.aspose.com/c/3d/18) adresini ziyaret edin.
 
-### S2: Aspose.3D için ek kaynakları ve desteği nerede bulabilirim?
+**Q: Aspose.3D için ücretsiz bir deneme mevcut mu?**  
+A: Kesinlikle. Tam işlevsel deneme sürümünü [Aspose.3D releases page](https://releases.aspose.com/) üzerinden indirebilirsiniz.
 
- A2: Ziyaret edin[Aspose.3D belgeleri](https://reference.aspose.com/3d/java/) derinlemesine bilgi için. Destek için şunları kontrol edin:[Aspose.3D forumu](https://forum.aspose.com/c/3d/18).
+**Q: Aspose.3D için geçici bir lisans nasıl alınır?**  
+A: Geçici lisanslar [here](https://purchase.aspose.com/temporary-license/) adresinde sağlanmaktadır.
 
-### S3: Aspose.3D'nin ücretsiz deneme sürümü mevcut mu?
+**Q: Aspose.3D'yi nereden satın alabilirim?**  
+A: Resmi [Aspose.3D buying page](https://purchase.aspose.com/buy) sayfasında satın alma seçenekleri listelenmiştir.
 
- C3: Evet, Aspose.3D kütüphanesini bir[ücretsiz deneme](https://releases.aspose.com/).
+---
 
-### S4: Aspose.3D için nasıl geçici lisans alabilirim?
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.3D 24.12 for Java  
+**Author:** Aspose  
 
- Cevap4: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
-
-### S5: Aspose.3D'yi nereden satın alabilirim?
-
- Cevap5: Aspose.3D'yi satın almak için şu adresi ziyaret edin:[satın alma sayfası](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

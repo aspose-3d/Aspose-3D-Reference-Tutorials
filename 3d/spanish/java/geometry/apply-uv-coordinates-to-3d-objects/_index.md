@@ -1,35 +1,57 @@
 ---
-title: Aplicar coordenadas UV a objetos 3D en Java con Aspose.3D
-linktitle: Aplicar coordenadas UV a objetos 3D en Java con Aspose.3D
-second_title: API de Java Aspose.3D
-description: Aprenda a aplicar coordenadas UV a objetos 3D en Java con Aspose.3D. Mejore sus gráficos con esta guía paso a paso.
+date: 2025-12-09
+description: Aprende a crear mapas UV para modelos 3D añadiendo UVs a la malla y asignando
+  texturas en Java con Aspose.3D. Sigue esta guía paso a paso para texturizar tus
+  objetos 3D.
+language: es
+linktitle: 'UV Mapping 3D Models: UV Coordinates in Java with Aspose.3D'
+second_title: Aspose.3D Java API
+title: 'Mapeo UV de Modelos 3D: Coordenadas UV en Java con Aspose.3D'
+url: /java/geometry/apply-uv-coordinates-to-3d-objects/
 weight: 18
-url: /es/java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aplicar coordenadas UV a objetos 3D en Java con Aspose.3D
+# Mapeo UV de Modelos 3D: Coordenadas UV en Java con Aspose.3D
 
 ## Introducción
 
-Bienvenido a este tutorial completo sobre la aplicación de coordenadas UV a objetos 3D en Java usando Aspose.3D. En el mundo de los gráficos 3D, las coordenadas UV desempeñan un papel crucial a la hora de asignar texturas a las superficies, mejorando el atractivo visual de sus creaciones. Este tutorial lo guiará a través del proceso, desglosando cada paso para garantizar una experiencia de aprendizaje fluida y efectiva.
+¡Bienvenido! En este tutorial completo aprenderás **uv mapping 3d models** usando Java y la poderosa biblioteca Aspose.3D. El mapeo UV es la técnica que te permite **add uvs to mesh** para que las texturas se alineen perfectamente en tus objetos 3‑D. Al final de esta guía podrás mapear texturas al estilo java y ver tus modelos cobrar vida.
+
+## Respuestas rápidas
+- **¿Qué hace el mapeo UV?** Asigna coordenadas de textura 2‑D (U & V) a cada vértice de una malla 3‑D.  
+- **¿Qué biblioteca se utiliza?** Aspose.3D para Java.  
+- **¿Cuántas líneas de código?** Aproximadamente 30 líneas, repartidas en cuatro bloques de código.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
+- **¿Puedo reutilizar esto para otras formas?** Absolutamente – el mismo enfoque funciona para cualquier malla.
+
+## ¿Qué es el mapeo UV de modelos 3D?
+
+El mapeo UV de modelos 3D es el proceso de proyectar una imagen 2‑D (la textura) sobre una superficie 3‑D. Cada vértice recibe un par de coordenadas—U (horizontal) y V (vertical)—que indican al renderizador dónde muestrear la textura. Este paso es esencial para renderizado realista, activos de juegos y experiencias AR/VR.
+
+## ¿Por qué usar Aspose.3D para el mapeo UV?
+
+- **API Java multiplataforma** – funciona en Windows, Linux y macOS.  
+- **Motor de geometría de alto rendimiento** – maneja mallas grandes con facilidad.  
+- **Manejo de texturas incorporado** – soporta mapas difusos, especulares, normales, etc.  
+- **API clara y fluida** – facilita **add uvs to mesh** sin necesidad de analizar archivos a bajo nivel.
 
 ## Requisitos previos
 
-Antes de sumergirse en el apasionante mundo de las coordenadas UV, asegúrese de cumplir los siguientes requisitos previos:
+Antes de comenzar, asegúrate de tener:
 
-- Entorno de desarrollo Java: asegúrese de tener un entorno de desarrollo Java funcional instalado en su sistema.
--  Biblioteca Aspose.3D: descargue e instale la biblioteca Aspose.3D. Puedes encontrar los archivos necesarios.[aquí](https://releases.aspose.com/3d/java/).
-- Comprensión básica de conceptos 3D: familiarícese con conceptos fundamentales de gráficos 3D para comprender la importancia de las coordenadas UV.
+- **Java Development Kit (JDK 8 o superior)** instalado y configurado.  
+- **Aspose.3D para Java** – descarga el último JAR desde el sitio oficial [here](https://releases.aspose.com/3d/java/).  
+- **Conocimientos básicos de 3‑D** – comprensión de vértices, polígonos y conceptos de mapeo de texturas.  
 
 ## Importar paquetes
 
-En este paso, importaremos los paquetes necesarios para iniciar nuestro viaje de mapeo UV. La biblioteca Aspose.3D proporciona herramientas y funcionalidades esenciales para trabajar con objetos 3D en Java.
+Primero, necesitamos importar las clases de Aspose.3D que nos permitirán crear geometría y asignar datos UV.
 
-### Paso 1: Importar paquetes Aspose.3D
+### Paso 1: Importar paquetes de Aspose.3D
 
 ```java
 import com.aspose.threed.*;
@@ -37,17 +59,17 @@ import com.aspose.threed.*;
 import java.util.Arrays;
 ```
 
-Ahora que tenemos nuestros paquetes en su lugar, pasemos a configurar las coordenadas UV en un objeto 3D.
+Ahora que las importaciones están listas, pasemos a crear los datos UV para un cubo sencillo.
 
 ## Configurar coordenadas UV en un objeto 3D
 
-En esta sección, lo guiaremos a través del proceso de configuración de coordenadas UV en un cubo usando Aspose.3D.
+A continuación, recorreremos los pasos exactos para generar coordenadas UV y enlazarlas a una malla.
 
-### Paso 2: crear UV e índices
+### Paso 2: Crear UVs e índices
 
 ```java
-// ExInicio:ConfiguraciónUVOnCube
-// rayos ultravioleta
+// ExStart:SetupUVOnCube
+// UVs
 Vector4[] uvs = new Vector4[]
 {
     new Vector4( 0.0, 1.0,0.0, 1.0),
@@ -56,26 +78,35 @@ Vector4[] uvs = new Vector4[]
     new Vector4( 1.0, 1.0,0.0, 1.0)
 };
 
-// Índices de los uvs por cada polígono.
+// Indices of the uvs per each polygon
 int[] uvsId = new int[]
 {
     0,1,3,2,2,3,5,4,4,5,7,6,6,7,9,8,1,10,11,3,12,0,2,13
 };
-// ExEnd:ConfiguraciónUVOnCube
+// ExEnd:SetupUVOnCube
 ```
 
-### Paso 3: crear malla y UVset
+*Explicación*:  
+- **uvs** contiene los vectores reales de coordenadas UV (U, V, W, Q).  
+- **uvsId** asigna cada vértice del polígono a una entrada en el arreglo `uvs`, habilitando el paso **add uvs to mesh** más adelante.
+
+### Paso 3: Crear malla y conjunto UV
 
 ```java
-// Llame a la clase común para crear malla utilizando el método de creación de polígonos para establecer una instancia de malla
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-// Crear conjunto UV
+// Create UVset
 VertexElementUV elementUV = mesh.createElementUV(TextureMapping.DIFFUSE, MappingMode.POLYGON_VERTEX, ReferenceMode.INDEX_TO_DIRECT);
-// Copie los datos al elemento de vértice UV.
+// Copy the data to the UV vertex element
 elementUV.setData(uvs);
 elementUV.setIndices(uvsId);
 ```
+
+*Explicación*:  
+- `Common.createMeshUsingPolygonBuilder()` construye una malla con forma de cubo.  
+- `createElementUV` crea un elemento UV para el canal de textura **diffuse**.  
+- `setData` y `setIndices` realmente **add uvs to mesh**, vinculando los vectores UV a los polígonos del cubo.
 
 ### Paso 4: Imprimir confirmación
 
@@ -83,33 +114,39 @@ elementUV.setIndices(uvsId);
 System.out.println("\nUVs have been set up successfully on the cube.");
 ```
 
-¡Felicidades! Ha aplicado con éxito coordenadas UV a un objeto 3D usando Aspose.3D en Java.
+Si ejecutas el programa, deberías ver el mensaje de confirmación en la consola, indicando que el paso de mapeo UV se completó sin errores.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-En este tutorial, exploramos los pasos esenciales para aplicar coordenadas UV a objetos 3D usando Aspose.3D en Java. Comprender el mapeo UV es crucial para mejorar el atractivo visual de sus gráficos 3D. Siéntete libre de experimentar con diferentes formas y texturas para dar rienda suelta a tu creatividad.
+| Problema | Por qué ocurre | Solución |
+|----------|----------------|----------|
+| **Los UV aparecen estirados** | Orden incorrecto en `uvsId` o winding de polígonos no coincidente. | Verifica que el arreglo de índices coincida con el orden de los polígonos de la malla. |
+| **La textura no se ve** | Conjunto UV adjunto al canal de textura equivocado. | Usa `TextureMapping.DIFFUSE` para la textura principal; otros canales (NORMAL, SPECULAR) requieren conjuntos UV separados. |
+| **Excepción `NullPointerException` en tiempo de ejecución** | `Common.createMeshUsingPolygonBuilder()` devolvió `null`. | Asegúrate de que la clase auxiliar esté importada correctamente y que el método esté implementado. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo aplicar coordenadas UV a modelos 3D complejos?
+**P: ¿Puedo aplicar coordenadas UV a modelos 3D complejos?**  
+R: Sí. El mismo flujo de trabajo funciona para cualquier malla—solo proporciona un arreglo UV más grande y una lista de índices correspondiente.
 
-R1: Sí, el proceso sigue siendo similar para modelos complejos. Asegúrese de tener los datos e índices UV adecuados.
+**P: ¿Dónde puedo encontrar recursos adicionales y soporte para Aspose.3D?**  
+R: Visita la [documentación de Aspose.3D](https://reference.aspose.com/3d/java/) para referencias detalladas de la API, y el [foro de Aspose.3D](https://forum.aspose.com/c/3d/18) para ayuda de la comunidad.
 
-### P2: ¿Dónde puedo encontrar recursos adicionales y soporte para Aspose.3D?
+**P: ¿Existe una prueba gratuita disponible para Aspose.3D?**  
+R: Absolutamente. Puedes descargar una prueba totalmente funcional desde la [página de lanzamientos de Aspose.3D](https://releases.aspose.com/).
 
- A2: Visita el[Documentación de Aspose.3D](https://reference.aspose.com/3d/java/) para obtener información detallada. Para obtener soporte, consulte el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18).
+**P: ¿Cómo puedo obtener una licencia temporal para Aspose.3D?**  
+R: Las licencias temporales se proporcionan [aquí](https://purchase.aspose.com/temporary-license/).
 
-### P3: ¿Hay una prueba gratuita disponible para Aspose.3D?
+**P: ¿Dónde puedo comprar Aspose.3D?**  
+R: Las opciones de compra están listadas en la página oficial de [venta de Aspose.3D](https://purchase.aspose.com/buy).
 
- R3: Sí, puedes explorar la biblioteca Aspose.3D con un[prueba gratis](https://releases.aspose.com/).
+---
 
-### P4: ¿Cómo puedo obtener una licencia temporal para Aspose.3D?
+**Última actualización:** 2025-12-09  
+**Probado con:** Aspose.3D 24.12 para Java  
+**Autor:** Aspose  
 
- R4: Puedes adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
-
-### P5: ¿Dónde puedo comprar Aspose.3D?
-
- R5: Para comprar Aspose.3D, visite el[pagina de compra](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
