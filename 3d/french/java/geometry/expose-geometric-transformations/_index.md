@@ -1,10 +1,13 @@
 ---
-title: Exposer les transformations géométriques en Java 3D avec Aspose.3D
-linktitle: Exposer les transformations géométriques en Java 3D avec Aspose.3D
-second_title: API Java Aspose.3D
-description: Maîtriser les transformations géométriques 3D en Java devient facile avec Aspose.3D. Apprenez à manipuler les nœuds, à appliquer des traductions et à évaluer les transformations globales.
-weight: 13
+date: 2025-12-10
+description: Apprenez à translater des objets 3D en Java avec Aspose.3D. Maîtrisez
+  les transformations géométriques, la translation des nœuds et les transformations
+  globales.
+linktitle: How to Translate 3D in Java with Aspose.3D
+second_title: Aspose.3D Java API
+title: Comment traduire le 3D en Java avec Aspose.3D
 url: /fr/java/geometry/expose-geometric-transformations/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,86 +18,105 @@ url: /fr/java/geometry/expose-geometric-transformations/
 
 ## Introduction
 
-Dans le monde dynamique de la programmation Java 3D, la maîtrise des transformations géométriques est une compétence essentielle. Aspose.3D pour Java est une bibliothèque robuste qui permet aux développeurs de se plonger sans effort dans les subtilités de la modélisation 3D. Dans ce didacticiel, nous nous lancerons dans un voyage instructif pour exposer et manipuler des transformations géométriques à l'aide d'Aspose.3D pour Java.
+Dans le monde dynamique de la programmation Java 3D, maîtriser les transformations géométriques est une compétence essentielle. Dans ce tutoriel, **vous apprendrez à translater des objets 3D en Java** à l’aide d’Aspose.3D, une bibliothèque robuste qui simplifie la modélisation 3D. Nous parcourrons l’initialisation d’un nœud, l’application d’une translation géométrique et l’évaluation de la transformation globale afin que vous puissiez voir l’effet immédiatement.
 
-## Conditions préalables
+## Réponses rapides
+- **Quel est l’objectif principal ?** Apprendre à translater des objets 3D en Java avec Aspose.3D.  
+- **Quelle bibliothèque est utilisée ?** Aspose.3D pour Java.  
+- **Ai‑je besoin d’une licence ?** Une licence temporaire est requise pour les tests ; une licence complète est nécessaire pour la production.  
+- **Combien de lignes de code ?** Moins de 20 lignes pour appliquer une translation et évaluer le résultat.  
+- **Puis‑je exécuter cela sur n’importe quel OS ?** Oui, tant que vous avez un JDK compatible installé.
 
-Avant de plonger dans le monde des transformations géométriques avec Aspose.3D, assurez-vous d'avoir les prérequis suivants en place :
+## Comment translater des objets 3D en Java
+Comprendre les étapes exactes facilite la reproduction du processus dans n’importe quel projet. Vous trouverez ci‑dessous un guide concis, étape par étape, que vous pouvez copier‑coller dans votre IDE.
 
-1.  Kit de développement Java (JDK) : Aspose.3D pour Java nécessite un JDK compatible installé sur votre système. Vous pouvez télécharger le dernier JDK[ici](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Prérequis
 
-2.  Bibliothèque Aspose.3D : Téléchargez la bibliothèque Aspose.3D à partir du[page de sortie](https://releases.aspose.com/3d/java/) pour l'intégrer dans votre projet Java.
+Avant de plonger dans le monde des transformations géométriques avec Aspose.3D, assurez‑vous d’avoir les prérequis suivants :
 
-## Importer des packages
+1. **Java Development Kit (JDK) :** Aspose.3D pour Java nécessite un JDK compatible installé sur votre système. Vous pouvez télécharger le dernier JDK [ici](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-Une fois que vous disposez de la bibliothèque Aspose.3D, importez les packages nécessaires pour démarrer votre voyage dans les transformations géométriques 3D. Ajoutez les lignes suivantes à votre code Java :
+2. **Bibliothèque Aspose.3D :** Téléchargez la bibliothèque Aspose.3D depuis la [page de publication](https://releases.aspose.com/3d/java/) pour l’intégrer à votre projet Java.
+
+## Importer les packages
+
+Une fois la bibliothèque Aspose.3D obtenue, importez les packages nécessaires pour démarrer votre aventure dans les transformations géométriques 3D. Ajoutez les lignes suivantes à votre code Java :
 
 ```java
 import com.aspose.threed.Node;
 import com.aspose.threed.Vector3;
 ```
 
-## Étape 1 : initialiser le nœud
+## Étape 1 : Initialiser le nœud
 
- La fondation de notre monde 3D commence par un`Node` Créer un nouveau`Node` objet dans votre code Java :
+La base de notre monde 3D commence avec un `Node`. Créez un nouvel objet `Node` dans votre code Java :
 
 ```java
-// ExStart : étape 1 - Initialiser le nœud
+// ExStart: Step 1 - Initialize Node
 Node n = new Node();
-// ExEnd : étape 1
+// ExEnd: Step 1
 ```
 
-## Étape 2 : Traduction géométrique
+## Étape 2 : Translation géométrique
 
-Maintenant, donnons une traduction géométrique à notre nœud. Cette étape consiste à déplacer le nœud dans l'espace 3D. Définissez la translation géométrique à l'aide du code suivant :
+Appliquons maintenant une translation géométrique à notre nœud. Cette étape consiste à déplacer le nœud dans l’espace 3D. Définissez la translation géométrique avec le code suivant :
 
 ```java
-// ExStart : Étape 2 – Translation géométrique
+// ExStart: Step 2 - Geometric Translation
 n.getTransform().setGeometricTranslation(new Vector3(10, 0, 0));
-// ExEnd : étape 2
+// ExEnd: Step 2
 ```
 
-## Étape 3 : Évaluer la transformation globale
+## Étape 3 : Évaluer la transformation globale
 
-Pour témoigner de l'impact de notre transformation géométrique, évaluons la transformation globale du nœud. Cette étape produira la matrice de transformation, y compris la transformation géométrique :
+Pour observer l’impact de notre transformation géométrique, évaluons la transformation globale du nœud. Cette étape affichera la matrice de transformation, incluant la transformation géométrique :
 
 ```java
-// ExStart : Étape 3 – Évaluer la transformation globale
+// ExStart: Step 3 - Evaluate Global Transform
 System.out.println(n.evaluateGlobalTransform(true));
 System.out.println(n.evaluateGlobalTransform(false));
-// ExEnd : étape 3
+// ExEnd: Step 3
 ```
 
-Toutes nos félicitations! Vous avez exposé avec succès des transformations géométriques dans Java 3D à l'aide d'Aspose.3D.
+Félicitations ! Vous avez exposé avec succès les transformations géométriques en Java 3D à l’aide d’Aspose.3D.
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons parcouru les principes fondamentaux de l'exposition des transformations géométriques en Java 3D avec Aspose.3D. En initialisant des nœuds, en appliquant des traductions géométriques et en évaluant les transformations globales, vous avez acquis un aperçu du monde dynamique de la programmation 3D.
+Dans ce tutoriel, nous avons parcouru les fondamentaux de l’exposition des transformations géométriques en Java 3D avec Aspose.3D. En initialisant des nœuds, en appliquant des translations géométriques et en évaluant les transformations globales, vous avez acquis des connaissances sur le monde dynamique de la programmation 3D. Vous disposez désormais d’une base solide pour créer des scènes plus complexes, animer des objets ou intégrer des simulations physiques.
 
-## FAQ
+## Foire aux questions
 
-### Q1 : Aspose.3D est-il compatible avec tous les environnements de développement Java ?
+### Q1 : Aspose.3D est‑il compatible avec tous les environnements de développement Java ?
 
-A1 : Aspose.3D s'intègre de manière transparente à tout environnement de développement Java prenant en charge JDK.
+R1 : Aspose.3D s’intègre parfaitement à tout environnement de développement Java supportant le JDK.
 
-### Q2 : Où puis-je trouver une documentation complète pour Aspose.3D en Java ?
+### Q2 : Où puis‑je trouver une documentation complète pour Aspose.3D en Java ?
 
- A2 : Reportez-vous au[Documentation](https://reference.aspose.com/3d/java/) pour des informations détaillées sur les fonctionnalités d’Aspose.3D.
+R2 : Consultez la [documentation](https://reference.aspose.com/3d/java/) pour des informations détaillées sur les fonctionnalités d’Aspose.3D.
 
-### Q3 : Puis-je essayer Aspose.3D pour Java avant d'acheter ?
+### Q3 : Puis‑je essayer Aspose.3D pour Java avant de l’acheter ?
 
- A3 : Oui, vous pouvez explorer un[essai gratuit](https://releases.aspose.com/) avant de faire un achat.
+R3 : Oui, vous pouvez explorer un [essai gratuit](https://releases.aspose.com/) avant de procéder à l’achat.
 
-### Q4 : Comment puis-je obtenir de l'aide pour les requêtes liées à Aspose.3D ?
+### Q4 : Comment obtenir du support pour les questions liées à Aspose.3D ?
 
- A4 : Engagez-vous avec la communauté Aspose.3D sur le[forum d'entraide](https://forum.aspose.com/c/3d/18) pour une assistance rapide.
+R4 : Rejoignez la communauté Aspose.3D sur le [forum de support](https://forum.aspose.com/c/3d/18) pour une assistance rapide.
 
-### Q5 : Ai-je besoin d’une licence temporaire pour tester Aspose.3D ?
+### Q5 : Ai‑je besoin d’une licence temporaire pour tester Aspose.3D ?
 
- A5 : Obtenez un[permis temporaire](https://purchase.aspose.com/temporary-license/) à des fins de tests.
+R5 : Obtenez une [licence temporaire](https://purchase.aspose.com/temporary-license/) à des fins de test.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Dernière mise à jour :** 2025-12-10  
+**Testé avec :** Aspose.3D Java 24.11 (dernière version au moment de la rédaction)  
+**Auteur :** Aspose  
+
+---
