@@ -1,111 +1,144 @@
 ---
-title: 使用 Java 和 Aspose.3D 在 3D 场景中构建节点层次结构
-linktitle: 使用 Java 和 Aspose.3D 在 3D 场景中构建节点层次结构
+date: 2025-12-09
+description: 学习如何在 Java 中使用 Aspose.3D 将网格添加到节点并构建动态 3D 场景。轻松将场景保存为 FBX 并创建子节点。
+language: zh
+linktitle: Add Mesh to Node and Build 3D Hierarchies with Java
 second_title: Aspose.3D Java API
-description: 了解如何使用 Aspose.3D 在 Java 中构建动态 3D 场景。轻松创建节点层次结构并提升您的 3D 图形游戏。
+title: 在节点中添加网格并使用 Java 构建 3D 层次结构
+url: /java/geometry/build-node-hierarchies/
 weight: 16
-url: /zh/java/geometry/build-node-hierarchies/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Java 和 Aspose.3D 在 3D 场景中构建节点层次结构
+# 使用 Java 为节点添加网格并构建 3D 层级
 
 ## 介绍
 
-在 3D 图形和 Java 编程的动态世界中，在 3D 场景中创建和管理节点层次结构是一项至关重要的技能。 Aspose.3D for Java 使开发人员能够无缝实现这一目标，提供一组强大的工具来轻松创建复杂的 3D 场景。在本教程中，我们将指导您完成使用 Aspose.3D for Java 构建节点层次结构的过程，确保即使是初学者也能跟上。
+为节点添加网格是使用 Java 构建丰富 3D 场景的基石。借助 **Aspose.3D for Java**，您可以 **add mesh to node**、创建复杂层级，然后 **save scene as FBX**，以便在任何 3D 流程中使用。本教程将逐步演示从环境搭建到导出最终文件的每一步，让您立即开始构建交互式 3D 图形。
 
-## 先决条件
+## 快速答疑
+- **“add mesh to node” 是什么意思？** 它将几何网格（例如立方体）附加到场景图节点上，使您能够将其作为层级的一部分进行变换。  
+- **可以导出为哪种格式？** 示例将场景保存为 **FBX**（FBX7500ASCII）。  
+- **使用 Aspose.3D 是否需要许可证？** 免费试用可用于评估；生产环境需要许可证。  
+- **需要哪个 Java 版本？** Java 8 或更高。  
+- **可以创建多个子节点吗？** 可以——重复使用 `createChildNode` 即可构建任意深度的层级。
 
-在深入研究本教程之前，请确保您具备以下先决条件：
+## Aspose.3D 中的 “add mesh to node” 是什么？
 
-1. Java 开发环境：确保您的计算机上设置了 Java 开发环境。
-2.  Aspose.3D for Java 库：从以下位置下载并安装 Aspose.3D for Java 库：[下载页面](https://releases.aspose.com/3d/java/).
-3. 文档目录：创建一个目录来存储 3D 场景文件。
+在 Aspose.3D 中，**Node** 代表场景图中可变换的元素。通过调用 `setEntity(mesh)`，您 **add mesh to node**，将几何体与其变换矩阵关联。这样即可通过操作节点的变换来移动、旋转或缩放网格。
+
+## 为什么在 Java 中使用 Aspose.3D 创建子节点？
+
+- **简洁的 API** – 无需底层图形编程。  
+- **跨格式支持** – 可导出为 FBX、OBJ、3MF 等。  
+- **性能优化** – 高效处理大型层级结构。  
+- **完整的 .NET/Java 功能对等** – 跨平台特性保持一致。
+
+## 前置条件
+
+1. **Java 开发环境** – JDK 8+ 与您喜欢的 IDE。  
+2. **Aspose.3D for Java 库** – 从 [Aspose 3D Java download page](https://releases.aspose.com/3d/java/) 下载。  
+3. **文档目录** – 用于保存生成的 FBX 文件的文件夹。
 
 ## 导入包
 
-首先导入必要的包以利用 Aspose.3D for Java 功能。将以下行添加到您的 Java 代码中：
-
 ```java
 import com.aspose.threed.*;
-
 ```
 
-## 第 1 步：初始化场景对象
+## 步骤 1：初始化 Scene 对象
 
 ```java
-//初始化场景对象
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## 第2步：创建子节点和网格
+## 步骤 2：创建子节点 Java – Add Mesh to Node
+
+在这里我们 **create child nodes** 于根节点下，将相同的网格附加到每个子节点，并独立定位它们。
 
 ```java
-//获取子节点对象
+// Get a child node object
 Node top = scene.getRootNode().createChildNode();
 
-//创建第一个立方体节点
+// Create the first cube node
 Node cube1 = top.createChildNode("cube1");
-Mesh mesh = Common.createMeshUsingPolygonBuilder(); //使用您的网格创建方法
-cube1.setEntity(mesh);
+Mesh mesh = Common.createMeshUsingPolygonBuilder(); // Use your mesh creation method
+cube1.setEntity(mesh);                     // <-- add mesh to node
 cube1.getTransform().setTranslation(new Vector3(-10, 0, 0));
 
-//创建第二个立方体节点
+// Create the second cube node
 Node cube2 = top.createChildNode("cube2");
-cube2.setEntity(mesh);
+cube2.setEntity(mesh);                     // <-- add mesh to node
 cube2.getTransform().setTranslation(new Vector3(10, 0, 0));
 ```
 
-## 第 3 步：将旋转应用到顶部节点
+## 步骤 3：对顶层节点应用旋转（影响所有子节点）
 
 ```java
-//旋转顶部节点，影响所有子节点
+// Rotate the top node, affecting all child nodes
 top.getTransform().setRotation(Quaternion.fromEulerAngle(Math.PI, 4, 0));
 ```
 
-## 第 4 步：保存 3D 场景
+## 步骤 4：保存 3D 场景 – Save Scene as FBX
 
 ```java
-//以支持的文件格式保存 3D 场景（在本例中为 FBX）
+// Save 3D scene in the supported file format (FBX in this case)
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "NodeHierarchy.fbx";
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nNode hierarchy added successfully to document.\nFile saved at " + MyDir);
 ```
 
-本分步指南为使用 Aspose.3D for Java 在 3D 场景中构建节点层次结构奠定了坚实的基础。尝试不同的参数并根据您的具体要求调整代码。
+### 刚才发生了什么？
+
+- **Nodes** `cube1` 和 `cube2` 继承了对 `top` 所做的旋转。  
+- 两个节点共享 **同一个 mesh**，演示了如何高效 **add mesh to node**。  
+- 最后调用 `scene.save` **将场景保存为 FBX**，您可以在 Unity、Blender 或任何支持 FBX 的查看器中打开。
+
+## 常见问题及解决方案
+
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **Mesh not visible** | The mesh may be attached to a node without a proper transform or the camera is far away. | Ensure the node’s translation is within the camera’s view frustum and that the mesh has geometry. |
+| **Exported FBX is empty** | `scene.save` called before adding nodes or using an incorrect file path. | Verify that nodes are added before the `save` call and that `MyDir` points to a writable location. |
+| **Rotation looks wrong** | Euler angles are supplied in radians; using degrees will produce unexpected results. | Use `Math.toRadians(degrees)` or supply radians directly as shown. |
+
+## 常见问答
+
+**Q: Aspose.3D for Java 适合初学者吗？**  
+A: 绝对适合！API 抽象了底层细节，让您专注于场景构建，而不是图形管线。
+
+**Q: 可以将 Aspose.3D for Java 用于商业项目吗？**  
+A: 可以。请在 [Aspose purchase page](https://purchase.aspose.com/buy) 购买许可证用于生产环境。
+
+**Q: 遇到问题如何获取支持？**  
+A: 加入 [Aspose.3D forum](https://forum.aspose.com/c/3d/18) 获取社区帮助以及 Aspose 工程师的官方支持。
+
+**Q: 有免费试用吗？**  
+A: 有的。从 [Aspose releases page](https://releases.aspose.com/) 下载试用版，评估所有功能后再决定购买。
+
+**Q: 哪里可以找到完整的 API 文档？**  
+A: 完整参考位于 [Aspose 3D Java documentation site](https://reference.aspose.com/3d/java/)。
 
 ## 结论
 
-掌握节点层次结构的创建是您使用 Aspose.3D for Java 之旅的一个重要里程碑。本教程为您提供了无缝驾驭复杂的 3D 场景的知识。现在，释放您的创造力并充满信心地构建迷人的 3D 环境。
+现在您已经掌握了如何 **add mesh to node**、创建稳健的 **child node hierarchies**，以及使用 Aspose.3D for Java **save the scene as FBX**。尝试不同的网格、更深的层级和额外的变换，打造沉浸式 3D 体验。祝编码愉快！
 
-## 常见问题解答
-
-### Q1：Aspose.3D for Java适合初学者吗？
-
-A1：当然！ Aspose.3D for Java 提供了一个用户友好的界面，使初学者和经验丰富的开发人员都可以使用它。
-
-### Q2：我可以将Aspose.3D for Java用于商业项目吗？
-
- A2: 是的，可以。参观[购买页面](https://purchase.aspose.com/buy)了解许可详细信息。
-
-### Q3：如何获得 Aspose.3D for Java 支持？
-
- A3：加入[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)从社区和 Aspose 支持团队获得帮助。
-
-### Q4：有免费试用吗？
-
- A4：当然！探索功能[免费试用](https://releases.aspose.com/)在做出承诺之前。
-
-### Q5：在哪里可以找到文档？
-
- A5：请参阅[文档](https://reference.aspose.com/3d/java/)有关 Aspose.3D for Java 的详细信息。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.3D for Java 24.12 (latest)  
+**Author:** Aspose  
+
+---

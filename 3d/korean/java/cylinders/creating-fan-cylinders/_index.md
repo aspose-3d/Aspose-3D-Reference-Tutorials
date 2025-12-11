@@ -1,33 +1,48 @@
 ---
-title: Java용 Aspose.3D를 사용하여 맞춤형 팬 실린더 만들기
-linktitle: Java용 Aspose.3D를 사용하여 맞춤형 팬 실린더 만들기
-second_title: Aspose.3D 자바 API
-description: Aspose.3D를 사용하여 Java에서 맞춤형 팬 실린더를 만드는 방법을 알아보세요. 손쉽게 3D 모델링 게임을 향상시켜 보세요.
+date: 2025-12-09
+description: Aspose.3D for Java를 사용하여 맞춤형 팬 실린더를 만들면서 자식 노드를 추가하고, 3D 객체를 배치하며, 씬을
+  OBJ 형식으로 저장하는 방법을 배웁니다.
+language: ko
+linktitle: Adding Child Node for Fan Cylinders with Aspose.3D Java
+second_title: Aspose.3D Java API
+title: Aspose.3D for Java를 사용하여 팬 실린더를 만들기 위해 자식 노드 추가
+url: /java/cylinders/creating-fan-cylinders/
 weight: 10
-url: /ko/java/cylinders/creating-fan-cylinders/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.3D를 사용하여 맞춤형 팬 실린더 만들기
+# Aspose.3D for Java로 팬 실린더를 만들기 위해 자식 노드 추가
 
 ## 소개
 
-Java용 Aspose.3D를 사용하여 3D 모델링 경험을 향상시킬 준비가 되셨습니까? 이 튜토리얼은 강력한 Aspose.3D 라이브러리를 사용하여 맞춤형 팬 실린더를 만드는 과정을 안내합니다. 숙련된 개발자이든 초보자이든 이 단계별 가이드는 Java에서 Aspose.3D의 잠재력을 최대한 활용하는 데 도움이 될 것입니다.
+3‑D 씬에 **add child node**를 추가하고 눈에 띄는 팬 실린더를 만들 준비가 되셨나요? 이 튜토리얼에서는 Aspose.3D for Java를 사용하여 씬 설정, 3D 객체 위치 지정, 최종적으로 **save scene as OBJ**까지 모든 단계를 안내합니다. 게임 에셋을 다듬거나 빠른 프로토타입을 구축하든, 여기의 개념은 3‑D 모델을 확실히 제어할 수 있게 해줍니다.
 
-## 전제 조건
+## 빠른 답변
+- **add child node**는 무엇을 하나요? 새 객체를 씬 그래프에 삽입하고 부모로부터 변환을 상속받습니다.  
+- **3D 객체를 어떻게 위치시킬 수 있나요?** 노드의 변환에 평행이동(또는 회전/스케일)을 적용합니다.  
+- **내보내기에 사용되는 파일 형식은 무엇인가요?** 예제는 모델을 Wavefront OBJ 파일로 저장합니다.  
+- **코드를 실행하려면 라이선스가 필요합니까?** 평가용으로는 무료 체험판으로 가능하지만, 프로덕션에서는 라이선스가 필요합니다.  
+- **어떤 IDE가 가장 적합한가요?** JDK 8+를 지원하는 모든 Java IDE(IntelliJ IDEA, Eclipse, VS Code 등)에서 사용할 수 있습니다.
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## Aspose.3D에서 “add child node”란 무엇인가요?
+자식 노드를 추가한다는 것은 기존 부모 아래에 새로운 노드를 생성하는 것을 의미합니다. 자식은 부모의 좌표계를 상속받아 서로 상대적인 위치에 **3d object** 인스턴스를 쉽게 배치할 수 있습니다.
 
-- JDK(Java Development Kit): 시스템에 JDK가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://www.oracle.com/java/technologies/javase-downloads.html).
+## 팬 실린더를 만들 때 자식 노드를 추가하는 이유는?
+- **모듈식 설계:** 각 실린더(팬 또는 비팬)는 자체 노드에 존재하므로 이후 편집이 간단해집니다.  
+- **변환 상속:** 부모를 이동, 회전 또는 스케일하면 모든 자식이 자동으로 따라갑니다.  
+- **깨끗한 씬 그래프:** 복잡한 모델의 가독성과 디버깅을 향상시킵니다.
 
--  Java용 Aspose.3D: 다음 사이트에서 Java용 Aspose.3D 라이브러리를 다운로드하여 설치하세요.[다운로드 링크](https://releases.aspose.com/3d/java/).
+## 사전 요구 사항
+
+- **Java Development Kit (JDK)** – [공식 사이트](https://www.oracle.com/java/technologies/javase-downloads.html)에서 다운로드하세요.  
+- **Aspose.3D for Java** – 최신 라이브러리는 [다운로드 링크](https://releases.aspose.com/3d/java/)에서 받으세요.
 
 ## 패키지 가져오기
 
-필요한 패키지를 Java 프로젝트로 가져오는 것부터 시작하세요. 이 단계는 Aspose.3D에서 제공하는 기능에 액세스하는 데 중요합니다.
+먼저 Java 프로젝트에 필요한 패키지를 가져옵니다. 이 단계는 Aspose.3D가 제공하는 기능에 접근하기 위해 필수적입니다.
 
 ```java
 import com.aspose.threed.*;
@@ -36,100 +51,103 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 1단계: 장면 만들기
+## 단계 1: 씬 생성
 
-다음 코드 조각을 사용하여 3D 장면을 초기화하는 것부터 시작하세요.
+먼저, 모든 객체를 담을 빈 3‑D 씬을 생성합니다.
 
 ```java
 // ExStart:2
-// 장면 만들기
+// Create a Scene
 Scene scene = new Scene();
-// 연장:2
+// ExEnd:2
 ```
 
-이는 3D 모델링 모험을 위한 무대를 마련합니다.
+## 단계 2: 팬 실린더 생성
 
-## 2단계: 팬 실린더 생성
-
-이제 Aspose.3D 라이브러리를 사용하여 팬 실린더를 만들어 보겠습니다.
+다음으로, 팬(부분 회전)으로 렌더링될 실린더를 만듭니다.
 
 ```java
 // ExStart:3
-// 팬이 있는 원통 만들기
+// Create a cylinder with fan
 Cylinder fan = new Cylinder(2, 2, 10, 20, 1, false);
 fan.setGenerateFanCylinder(true);
 fan.setThetaLength(MathUtils.toRadian(270.0));
-// 연장:3
+// ExEnd:3
 ```
 
-이 조각은 원통의 크기를 설정하고 팬 생성을 활성화하며 세타 길이를 지정합니다.
+## 단계 3: 자식 노드 추가 및 3D 객체 위치 지정
 
-## 3단계: 팬 실린더 배치
-
-팬 실린더를 하위 노드로 추가하고 변환을 설정하여 3D 장면 내에 배치합니다.
+이제 씬에 **add child node**를 추가하고, 변환값을 설정하여 **3d object**를 **position**합니다. 여기서 팬 실린더가 씬 그래프의 일부가 됩니다.
 
 ```java
 // ExStart:4
-// ChildNode 생성 및 번역 설정
+// Create ChildNode and set translation
 scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0);
-// 연장:4
+// ExEnd:4
 ```
 
-이렇게 하면 팬 실린더가 장면 내 좌표(10, 0, 0)에 배치됩니다.
+## 단계 4: 비팬 실린더 생성
 
-## 4단계: 팬이 없는 실린더 생성
-
-Aspose.3D의 유연성을 보여주기 위해 팬이 없는 실린더도 만들어 보겠습니다.
+Aspose.3D의 유연성을 보여주기 위해, 팬이 없는 일반 실린더도 생성하고 또 다른 자식 노드로 추가합니다.
 
 ```java
 // ExStart:5
-// 팬 없이 원통 만들기
+// Create a cylinder without a fan
 Cylinder nonfan = new Cylinder(2, 2, 10, 20, 1, false);
-// 하위 노드 생성
+// Create ChildNode
 scene.getRootNode().createChildNode(nonfan);
-// 연장:5
+// ExEnd:5
 ```
 
-이 스니펫은 팬이 없는 원통을 생성하여 장면에 추가합니다.
+## 단계 5: 씬을 OBJ로 저장
 
-## 5단계: 장면 저장
-
-마지막으로 장면을 문서 디렉토리에 Wavefront OBJ 파일로 저장합니다.
+마지막으로 **save scene as OBJ**를 수행하여 표준 3‑D 뷰어에서 결과를 확인할 수 있습니다.
 
 ```java
 // ExStart:6
-// 장면 저장
+// Save scene
 scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEFRONTOBJ);
-// 연장:6
+// ExEnd:6
 ```
 
-축하해요! Java용 Aspose.3D를 사용하여 맞춤형 팬 실린더를 성공적으로 만들었습니다.
+축하합니다! **add child node**를 성공적으로 수행하고 객체를 배치했으며 모델을 내보냈습니다.
+
+## 일반적인 문제 및 팁
+
+| 문제 | 해결책 |
+|-------|----------|
+| **File not found** 저장 시 | 대상 디렉터리가 존재하고 쓰기 권한이 있는지 확인하세요. |
+| **Cylinder appears flat** | 반지름과 높이 값을 확인하세요; Aspose.3D는 동일한 스케일의 단위를 기대합니다. |
+| **Fan slice looks incomplete** | `ThetaLength`(라디안)를 조정하여 원하는 각도를 커버하도록 하세요. |
+| **Scene not visible in viewer** | 필요한 경우 `.mtl`(재질) 파일과 함께 OBJ 파일이 저장되었는지 확인하세요. |
+
+## 자주 묻는 질문
+
+**Q:** *Aspose.3D가 다른 Java 3D 모델링 라이브러리와 호환되나요?*  
+**A:** 예, Aspose.3D는 다른 Java 3‑D 라이브러리와 함께 작동하여 필요에 따라 기능을 결합할 수 있습니다.
+
+**Q:** *생성된 팬 실린더의 외관을 더 커스터마이즈할 수 있나요?*  
+**A:** 물론입니다. `Material` 및 `Light` 클래스를 사용하여 재질, 텍스처, 조명을 적용할 수 있습니다.
+
+**Q:** *Aspose.3D에 대한 추가 지원이나 도움을 어디서 찾을 수 있나요?*  
+**A:** 커뮤니티 도움과 공식 답변을 위해 [Aspose.3D 포럼](https://forum.aspose.com/c/3d/18)을 방문하세요.
+
+**Q:** *Aspose.3D의 무료 체험판이 있나요?*  
+**A:** 네, 구매 전에 [무료 체험판](https://releases.aspose.com/)으로 Aspose.3D를 체험할 수 있습니다.
+
+**Q:** *Aspose.3D의 임시 라이선스를 어떻게 얻을 수 있나요?*  
+**A:** 테스트 및 개발을 위해 [여기](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 획득하세요.
 
 ## 결론
 
-이 튜토리얼에서는 Java용 Aspose.3D를 활용하여 3D 장면에서 개인화된 팬 실린더를 만드는 프로세스를 살펴보았습니다. Aspose.3D의 다양성을 통해 개발자는 3D 모델링 프로젝트를 쉽게 향상할 수 있습니다.
+이 가이드에서는 Aspose.3D for Java를 사용해 맞춤형 팬 실린더를 만들면서 **add child node**, **position 3d object**, **save scene as OBJ**를 수행하는 방법을 보여주었습니다. 이러한 빌딩 블록을 통해 복잡한 3‑D 계층 구조를 자유롭게 구성하고 다양한 downstream 워크플로에 맞게 내보낼 수 있습니다.
 
-## FAQ
+---
 
-### Q1: Aspose.3D는 3D 모델링을 위한 다른 Java 라이브러리와 호환됩니까?
+**마지막 업데이트:** 2025-12-09  
+**테스트 환경:** Aspose.3D 24.12 for Java  
+**작성자:** Aspose  
 
-A1: Aspose.3D는 다른 Java 라이브러리와 원활하게 작동하도록 설계되어 통합 유연성을 제공합니다.
-
-### Q2: 생성된 팬 실린더의 모양을 추가로 사용자 정의할 수 있나요?
-
-A2: 물론이죠! Aspose.3D는 사용자 정의를 위한 광범위한 옵션을 제공하므로 3D 모델의 시각적 측면을 미세 조정할 수 있습니다.
-
-### Q3: Aspose.3D에 대한 추가 지원은 어디서 찾을 수 있나요?
-
- A3: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 커뮤니티 지원 및 토론을 위해.
-
-### Q4: Aspose.3D에 대한 무료 평가판이 있습니까?
-
- A4: 예, Aspose.3D를 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/) 구매 결정을 내리기 전에.
-
-### Q5: Aspose.3D에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
-
- A5: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/) 테스트 및 개발 요구 사항을 충족합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

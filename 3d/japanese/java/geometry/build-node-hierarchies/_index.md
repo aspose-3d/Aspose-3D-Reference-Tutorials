@@ -1,111 +1,143 @@
 ---
-title: Java と Aspose.3D を使用して 3D シーンでノード階層を構築する
-linktitle: Java と Aspose.3D を使用して 3D シーンでノード階層を構築する
+date: 2025-12-09
+description: Aspose.3D を使用して Java でノードにメッシュを追加し、動的な 3D シーンを構築する方法を学びましょう。シーンを FBX
+  として保存し、子ノードを簡単に作成できます。
+language: ja
+linktitle: Add Mesh to Node and Build 3D Hierarchies with Java
 second_title: Aspose.3D Java API
-description: Aspose.3D を使用して Java で動的 3D シーンを構築する方法を学びます。ノード階層を簡単に作成し、3D グラフィックス ゲームを向上させます。
+title: Javaでノードにメッシュを追加し、3D階層を構築する
+url: /java/geometry/build-node-hierarchies/
 weight: 16
-url: /ja/java/geometry/build-node-hierarchies/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java と Aspose.3D を使用して 3D シーンでノード階層を構築する
+# Node にメッシュを追加し、Javaで3D階層を構築する
 
-## 導入
+## はじめに
 
-3D グラフィックスと Java プログラミングの動的な世界では、3D シーンでのノード階層の作成と管理は重要なスキルです。 Aspose.3D for Java は、開発者がこれをシームレスに達成できるようにし、複雑な 3D シーンを簡単に作成するための堅牢なツール セットを提供します。このチュートリアルでは、初心者でも理解できるように、Aspose.3D for Java を使用してノード階層を構築するプロセスを説明します。
+ノードにメッシュを追加することは、Javaでリッチな3Dシーンを構築する上での基礎です。**Aspose.3D for Java** を使用すれば、**add mesh to node** を行い、複雑な階層を作成し、さらに **save scene as FBX** で任意の3Dパイプラインで使用できるようにシーンを保存できます。このチュートリアルでは、環境設定から最終ファイルのエクスポートまでの各ステップを順に解説するので、すぐにインタラクティブな3Dグラフィックスの構築を始められます。
+
+## クイック回答
+- **What does “add mesh to node” mean?** ジオメトリメッシュ（例：キューブ）をシーングラフのノードに添付し、階層の一部として変換できるようにします。  
+- **Which format can I export to?** この例ではシーンを **FBX** (FBX7500ASCII) として保存します。  
+- **Do I need a license for Aspose.3D?** 評価には無料トライアルが利用可能ですが、製品版ではライセンスが必要です。  
+- **What Java version is required?** Java 8 以降。  
+- **Can I create multiple child nodes?** はい。必要な深さになるまで `createChildNode` を繰り返し使用してください。
+
+## Aspose.3D における “add mesh to node” とは？
+
+Aspose.3D では、**Node** はシーングラフ内の変換可能な要素を表します。`setEntity(mesh)` を呼び出すことで **add mesh to node** が実行され、ジオメトリと変換行列が結び付けられます。これにより、ノードの変換を操作するだけでメッシュの移動、回転、スケールが可能になります。
+
+## 子ノード作成に Aspose.3D for Java を使用する理由
+
+- **Straight‑forward API** – ローレベルのグラフィックスプログラミングは不要です。  
+- **Cross‑format support** – FBX、OBJ、3MF などにエクスポートできます。  
+- **Performance‑optimized** – 大規模な階層も効率的に処理します。  
+- **Full .NET/Java parity** – プラットフォーム間で機能が一貫しています。
 
 ## 前提条件
 
-チュートリアルを詳しく進める前に、次の前提条件が満たされていることを確認してください。
+1. **Java Development Environment** – JDK 8+ とお好みの IDE。  
+2. **Aspose.3D for Java Library** – [Aspose 3D Java ダウンロードページ](https://releases.aspose.com/3d/java/) からダウンロードしてください。  
+3. **Document Directory** – 生成された FBX ファイルを保存するフォルダー。
 
-1. Java 開発環境: マシン上に Java 開発環境がセットアップされていることを確認します。
-2.  Aspose.3D for Java ライブラリ: Aspose.3D for Java ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードページ](https://releases.aspose.com/3d/java/).
-3. ドキュメント ディレクトリ: 3D シーン ファイルを保存するディレクトリを作成します。
-
-## パッケージのインポート
-
-まず、Aspose.3D for Java 機能を利用するために必要なパッケージをインポートします。 Java コードに次の行を追加します。
+## Import Packages
 
 ```java
 import com.aspose.threed.*;
-
 ```
 
-## ステップ 1: シーン オブジェクトを初期化する
+## 手順 1: シーンオブジェクトの初期化
 
 ```java
-//シーンオブジェクトを初期化する
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## ステップ 2: 子ノードとメッシュを作成する
+## 手順 2: 子ノードの作成 (Java) – メッシュをノードに追加
+
+ここでは、ルートノードの下に **子ノードを作成** し、同じメッシュを各ノードに添付し、個別に位置を設定します。
 
 ```java
-//子ノードオブジェクトを取得する
+// Get a child node object
 Node top = scene.getRootNode().createChildNode();
 
-//最初のキューブノードを作成する
+// Create the first cube node
 Node cube1 = top.createChildNode("cube1");
-Mesh mesh = Common.createMeshUsingPolygonBuilder(); //メッシュ作成方法を使用する
-cube1.setEntity(mesh);
+Mesh mesh = Common.createMeshUsingPolygonBuilder(); // Use your mesh creation method
+cube1.setEntity(mesh);                     // <-- add mesh to node
 cube1.getTransform().setTranslation(new Vector3(-10, 0, 0));
 
-// 番目のキューブ ノードを作成する
+// Create the second cube node
 Node cube2 = top.createChildNode("cube2");
-cube2.setEntity(mesh);
+cube2.setEntity(mesh);                     // <-- add mesh to node
 cube2.getTransform().setTranslation(new Vector3(10, 0, 0));
 ```
 
-## ステップ 3: 最上位ノードに回転を適用する
+## 手順 3: トップノードに回転を適用 (すべての子に影響)
 
 ```java
-//最上位ノードを回転して、すべての子ノードに影響を与える
+// Rotate the top node, affecting all child nodes
 top.getTransform().setRotation(Quaternion.fromEulerAngle(Math.PI, 4, 0));
 ```
 
-## ステップ 4: 3D シーンを保存する
+## 手順 4: 3Dシーンを保存 – シーンを FBX として保存
 
 ```java
-//3D シーンをサポートされているファイル形式 (この場合は FBX) で保存します。
+// Save 3D scene in the supported file format (FBX in this case)
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "NodeHierarchy.fbx";
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nNode hierarchy added successfully to document.\nFile saved at " + MyDir);
 ```
 
-このステップバイステップのガイドは、Aspose.3D for Java を使用して 3D シーンでノード階層を構築するための強固な基盤を提供します。さまざまなパラメーターを試して、コードを特定の要件に合わせて調整します。
+### 何が起こったのか？
 
-## 結論
+- **Nodes** `cube1` と `cube2` は `top` に適用された回転を継承します。  
+- 両ノードは **同じメッシュ** を共有しており、**add mesh to node** を効率的に行う方法を示しています。  
+- 最後の呼び出し `scene.save` はシーンを **FBX として保存** し、Unity、Blender、または任意の FBX 対応ビューアで開くことができます。
 
-ノード階層の作成をマスターすることは、Aspose.3D for Java の使用における重要なマイルストーンです。このチュートリアルでは、3D シーンの複雑さをシームレスにナビゲートするための知識を習得しました。さあ、創造力を発揮して、自信を持って魅力的な 3D 環境を構築しましょう。
+## よくある問題と解決策
+
+| 問題 | 発生理由 | 対策 |
+|-------|----------------|-----|
+| **メッシュが表示されない** | メッシュが適切な変換なしでノードに添付されているか、カメラが遠すぎる可能性があります。 | ノードの平行移動がカメラの視錐台内にあること、そしてメッシュにジオメトリがあることを確認してください。 |
+| **エクスポートされた FBX が空** | ノードを追加する前に `scene.save` が呼び出された、またはファイルパスが間違っているためです。 | `save` 呼び出し前にノードが追加されていること、`MyDir` が書き込み可能な場所を指していることを確認してください。 |
+| **回転が正しくない** | オイラー角がラジアンで指定されており、度数で指定すると予期しない結果になります。 | `Math.toRadians(degrees)` を使用するか、例のようにラジアンを直接指定してください。 |
 
 ## よくある質問
 
-### Q1: Aspose.3D for Java は初心者に適していますか?
+**Q: Aspose.3D for Java は初心者に適していますか？**  
+A: もちろんです！API が低レベルの詳細を抽象化してくれるので、グラフィックスの配管処理ではなくシーン構築に集中できます。
 
-A1: もちろんです！ Aspose.3D for Java はユーザーフレンドリーなインターフェイスを提供し、初心者と経験豊富な開発者の両方がアクセスできるようにしています。
+**Q: Aspose.3D for Java を商用プロジェクトで使用できますか？**  
+A: はい。製品版で使用する場合は、[Aspose 購入ページ](https://purchase.aspose.com/buy) でライセンスを購入してください。
 
-### Q2: Aspose.3D for Java を商用プロジェクトに使用できますか?
+**Q: 問題が発生した場合、どのようにサポートを受けられますか？**  
+A: コミュニティの支援と Aspose エンジニアからの公式サポートを受けるには、[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18) に参加してください。
 
- A2: はい、可能です。訪問[購入ページ](https://purchase.aspose.com/buy)ライセンスの詳細については、
+**Q: 無料トライアルはありますか？**  
+A: あります。[Aspose リリースページ](https://releases.aspose.com/) からトライアルをダウンロードし、購入前にすべての機能を評価してください。
 
-### Q3: Java 用 Aspose.3D のサポートを受けるにはどうすればよいですか?
+**Q: 完全な API ドキュメントはどこで見つけられますか？**  
+A: 完全なリファレンスは [Aspose 3D Java ドキュメントサイト](https://reference.aspose.com/3d/java/) に掲載されています。
 
- A3: に参加してください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)コミュニティと Aspose サポート チームから支援を受けることができます。
+## 結論
 
-### Q4: 無料トライアルはありますか?
+これで、Aspose.3D for Java を使用して **add mesh to node** を行い、堅牢な **子ノード階層** を作成し、**シーンを FBX として保存** する方法が分かりました。さまざまなメッシュやより深い階層、追加の変換を試して、没入感のある 3D 体験を作り出してください。コーディングを楽しんでください！
 
- A4：確かに！で機能を調べてください[無料トライアル](https://releases.aspose.com/)約束をする前に。
-
-### Q5: ドキュメントはどこで入手できますか?
-
- A5: を参照してください。[ドキュメンテーション](https://reference.aspose.com/3d/java/) Aspose.3D for Java の詳細については、「Aspose.3D for Java」を参照してください。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最終更新日:** 2025-12-09  
+**テスト環境:** Aspose.3D for Java 24.12 (latest)  
+**作者:** Aspose

@@ -1,33 +1,48 @@
 ---
-title: जावा के लिए Aspose.3D के साथ अनुकूलित फैन सिलेंडर बनाना
-linktitle: जावा के लिए Aspose.3D के साथ अनुकूलित फैन सिलेंडर बनाना
-second_title: Aspose.3D जावा एपीआई
-description: Aspose.3D के साथ जावा में अनुकूलित फैन सिलेंडर बनाना सीखें। अपने 3डी मॉडलिंग गेम को सहजता से उन्नत करें।
+date: 2025-12-09
+description: Aspose.3D for Java का उपयोग करके कस्टम फैन सिलिंडर बनाते समय चाइल्ड नोड
+  जोड़ना, 3D ऑब्जेक्ट्स को पोजिशन करना, और सीन को OBJ के रूप में सेव करना सीखें।
+language: hi
+linktitle: Adding Child Node for Fan Cylinders with Aspose.3D Java
+second_title: Aspose.3D Java API
+title: Aspose.3D for Java के साथ फैन सिलिंडर बनाने के लिए चाइल्ड नोड जोड़ें
+url: /java/cylinders/creating-fan-cylinders/
 weight: 10
-url: /hi/java/cylinders/creating-fan-cylinders/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा के लिए Aspose.3D के साथ अनुकूलित फैन सिलेंडर बनाना
+# Aspose.3D for Java के साथ फैन सिलेंडर बनाने के लिए चाइल्ड नोड जोड़ें
 
-## परिचय
+## Introduction
 
-क्या आप जावा के लिए Aspose.3D के साथ अपने 3D मॉडलिंग अनुभव को उन्नत करने के लिए तैयार हैं? यह ट्यूटोरियल आपको शक्तिशाली Aspose.3D लाइब्रेरी का उपयोग करके अनुकूलित फैन सिलेंडर बनाने की प्रक्रिया में मार्गदर्शन करेगा। चाहे आप एक अनुभवी डेवलपर हों या नौसिखिया, यह चरण-दर-चरण मार्गदर्शिका आपको जावा में Aspose.3D की पूरी क्षमता को उजागर करने में मदद करेगी।
+क्या आप एक 3‑D सीन में **add child node** जोड़कर आकर्षक फैन सिलेंडर बनाना चाहते हैं? इस ट्यूटोरियल में हम हर कदम को विस्तार से बताएँगे—सीन सेटअप करने से लेकर 3D ऑब्जेक्ट्स को पोजिशन करने तक, और अंत में **save scene as OBJ**—Aspose.3D for Java का उपयोग करके। चाहे आप गेम एसेट को पॉलिश कर रहे हों या जल्दी से प्रोटोटाइप बना रहे हों, यहाँ के कॉन्सेप्ट्स आपको आपके 3‑D मॉडल्स पर ठोस नियंत्रण देंगे।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What does “add child node” do?** यह एक नया ऑब्जेक्ट सीन ग्राफ में डालता है, जो अपने पैरेंट से ट्रांसफ़ॉर्मेशन विरासत में लेता है।  
+- **How can I position a 3D object?** नोड के ट्रांसफ़ॉर्म पर ट्रांसलेशन (या रोटेशन/स्केल) लागू करके।  
+- **Which file format is used for export?** उदाहरण मॉडल को Wavefront OBJ फ़ाइल के रूप में सेव करता है।  
+- **Do I need a license to run the code?** मूल्यांकन के लिए फ्री ट्रायल काम करता है; प्रोडक्शन के लिए लाइसेंस आवश्यक है।  
+- **What IDE works best?** कोई भी Java IDE (IntelliJ IDEA, Eclipse, VS Code) जो JDK 8+ को सपोर्ट करता है।
 
-इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## What is “add child node” in Aspose.3D?
+Aspose.3D में “add child node” का अर्थ है सीन हायरार्की में मौजूदा पैरेंट के तहत एक नया नोड बनाना। चाइल्ड पैरेंट के कोऑर्डिनेट सिस्टम को विरासत में लेता है, जिससे **position 3d object** इंस्टेंस को एक‑दूसरे के सापेक्ष आसानी से रख सकते हैं।
 
-- जावा डेवलपमेंट किट (जेडीके): सुनिश्चित करें कि आपके सिस्टम पर जेडीके स्थापित है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Why add a child node when building fan cylinders?
+- **Modular design:** प्रत्येक सिलेंडर (फैन या नॉन‑फैन) अपना अलग नोड रखता है, जिससे बाद में एडिट करना सरल हो जाता है।  
+- **Transform inheritance:** पैरेंट को मूव, रोटेट या स्केल करें, सभी चाइल्ड स्वचालित रूप से फॉलो करेंगे।  
+- **Cleaner scene graph:** जटिल मॉडलों की रीडेबिलिटी और डिबगिंग बेहतर होती है।
 
--  जावा के लिए Aspose.3D: जावा के लिए Aspose.3D लाइब्रेरी को डाउनलोड और इंस्टॉल करें[लिंक को डाउनलोड करें](https://releases.aspose.com/3d/java/).
+## Prerequisites
 
-## पैकेज आयात करें
+- **Java Development Kit (JDK)** – download from the [official site](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.3D for Java** – get the latest library from the [download link](https://releases.aspose.com/3d/java/).
 
-अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करके शुरुआत करें। Aspose.3D द्वारा प्रदान की गई कार्यक्षमताओं तक पहुँचने के लिए यह चरण महत्वपूर्ण है।
+## Import Packages
+
+अपने Java प्रोजेक्ट में आवश्यक पैकेज इम्पोर्ट करें। यह चरण Aspose.3D द्वारा प्रदान की गई कार्यक्षमताओं तक पहुँचने के लिए महत्वपूर्ण है।
 
 ```java
 import com.aspose.threed.*;
@@ -36,100 +51,103 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## चरण 1: एक दृश्य बनाएं
+## Step 1: Create a Scene
 
-निम्नलिखित कोड स्निपेट का उपयोग करके एक 3D दृश्य प्रारंभ करके प्रारंभ करें:
+पहले, हम एक खाली 3‑D सीन बनाते हैं जो हमारे सभी ऑब्जेक्ट्स को होस्ट करेगा।
 
 ```java
-// एक्सस्टार्ट:2
-// एक दृश्य बनाएं
+// ExStart:2
+// Create a Scene
 Scene scene = new Scene();
 // ExEnd:2
 ```
 
-यह आपके 3डी मॉडलिंग साहसिक कार्य के लिए मंच तैयार करता है।
+## Step 2: Create a Fan Cylinder
 
-## चरण 2: एक पंखा सिलेंडर बनाएं
-
-अब, आइए Aspose.3D लाइब्रेरी का उपयोग करके एक पंखा सिलेंडर बनाएं:
+अब हम एक सिलेंडर बनाते हैं जिसे फैन (आंशिक स्वेप) के रूप में रेंडर किया जाएगा।
 
 ```java
-// एक्सस्टार्ट:3
-// पंखे के साथ एक सिलेंडर बनाएं
+// ExStart:3
+// Create a cylinder with fan
 Cylinder fan = new Cylinder(2, 2, 10, 20, 1, false);
 fan.setGenerateFanCylinder(true);
 fan.setThetaLength(MathUtils.toRadian(270.0));
 // ExEnd:3
 ```
 
-यह स्निपेट सिलेंडर के आयाम निर्धारित करता है, पंखा निर्माण को सक्षम बनाता है, और थीटा लंबाई निर्दिष्ट करता है।
+## Step 3: Add Child Node & Position 3D Object
 
-## चरण 3: पंखे के सिलेंडर को स्थापित करें
-
-पंखे के सिलेंडर को चाइल्ड नोड के रूप में जोड़कर और उसका अनुवाद सेट करके 3डी दृश्य में रखें:
+अब हम **add child node** सीन में जोड़ते हैं और **position the 3d object** को उसकी ट्रांसलेशन सेट करके पोजिशन करते हैं। यही वह जगह है जहाँ फैन सिलेंडर सीन ग्राफ का हिस्सा बन जाता है।
 
 ```java
-// एक्सस्टार्ट:4
-// चाइल्डनोड बनाएं और अनुवाद सेट करें
+// ExStart:4
+// Create ChildNode and set translation
 scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0);
 // ExEnd:4
 ```
 
-यह दृश्य के भीतर पंखे के सिलेंडर को निर्देशांक (10, 0, 0) पर रखता है।
+## Step 4: Create a Non‑Fan Cylinder
 
-## चरण 4: एक गैर-पंखा सिलेंडर बनाएं
-
-आइए Aspose.3D के लचीलेपन को प्रदर्शित करने के लिए एक गैर-पंखा सिलेंडर भी बनाएं:
+Aspose.3D की लचीलापन दिखाने के लिए, हम एक सामान्य सिलेंडर (बिना फैन) भी बनाते हैं और उसे एक और चाइल्ड नोड के रूप में जोड़ते हैं।
 
 ```java
-// एक्सस्टार्ट:5
-// बिना पंखे वाला सिलेंडर बनाएं
+// ExStart:5
+// Create a cylinder without a fan
 Cylinder nonfan = new Cylinder(2, 2, 10, 20, 1, false);
-// चाइल्डनोड बनाएं
+// Create ChildNode
 scene.getRootNode().createChildNode(nonfan);
 // ExEnd:5
 ```
 
-यह स्निपेट बिना पंखे के एक सिलेंडर उत्पन्न करता है और इसे दृश्य में जोड़ता है।
+## Step 5: Save the Scene as OBJ
 
-## चरण 5: दृश्य सहेजें
-
-अंत में, दृश्य को अपनी दस्तावेज़ निर्देशिका में वेवफ़्रंट OBJ फ़ाइल के रूप में सहेजें:
+अंत में, हम **save scene as OBJ** करते हैं ताकि आप परिणाम को किसी भी स्टैंडर्ड 3‑D व्यूअर में देख सकें।
 
 ```java
-// एक्सस्टार्ट:6
-// दृश्य सहेजें
+// ExStart:6
+// Save scene
 scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // ExEnd:6
 ```
 
-बधाई हो! आपने जावा के लिए Aspose.3D का उपयोग करके सफलतापूर्वक अनुकूलित फैन सिलेंडर बना लिया है।
+Congratulations! You’ve successfully **added child node**, positioned your objects, and exported the model.
 
-## निष्कर्ष
+## Common Issues & Tips
 
-इस ट्यूटोरियल में, हमने 3डी दृश्य में वैयक्तिकृत फैन सिलेंडर बनाने के लिए जावा के लिए Aspose.3D का लाभ उठाने की प्रक्रिया का पता लगाया। Aspose.3D की बहुमुखी प्रतिभा डेवलपर्स को अपनी 3D मॉडलिंग परियोजनाओं को आसानी से बढ़ाने में सक्षम बनाती है।
+| Issue | Solution |
+|-------|----------|
+| **File not found** when saving | सुनिश्चित करें कि लक्ष्य डायरेक्टरी मौजूद है और आपके पास लिखने की अनुमति है। |
+| **Cylinder appears flat** | रेडियस और हाइट मानों की जाँच करें; Aspose.3D समान स्केल में यूनिट्स की अपेक्षा करता है। |
+| **Fan slice looks incomplete** | इच्छित एंगल को कवर करने के लिए `ThetaLength` (रेडियन में) को समायोजित करें। |
+| **Scene not visible in viewer** | पुष्टि करें कि OBJ फ़ाइल के साथ आवश्यक `.mtl` (मैटेरियल) फ़ाइल भी सेव हुई है। |
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Frequently Asked Questions
 
-### Q1: क्या Aspose.3D 3D मॉडलिंग के लिए अन्य जावा लाइब्रेरीज़ के साथ संगत है?
+**Q:** *Is Aspose.3D compatible with other Java libraries for 3D modeling?*  
+**A:** हाँ, Aspose.3D अन्य Java 3‑D लाइब्रेरीज़ के साथ साथ काम करता है, जिससे आप आवश्यकतानुसार फीचर्स को संयोजित कर सकते हैं।
 
-A1: Aspose.3D को अन्य जावा लाइब्रेरीज़ के साथ सहजता से काम करने के लिए डिज़ाइन किया गया है, जो एकीकरण में लचीलापन प्रदान करता है।
+**Q:** *Can I customize the appearance of the generated fan cylinders further?*  
+**A:** बिल्कुल। आप `Material` और `Light` क्लासेज़ का उपयोग करके मैटेरियल, टेक्सचर और लाइटिंग लागू कर सकते हैं।
 
-### Q2: क्या मैं जेनरेट किए गए पंखे सिलेंडर के स्वरूप को और अधिक अनुकूलित कर सकता हूं?
+**Q:** *Where can I find additional support or assistance for Aspose.3D?*  
+**A:** समुदाय सहायता और आधिकारिक उत्तरों के लिए [Aspose.3D forum](https://forum.aspose.com/c/3d/18) देखें।
 
-ए2: बिल्कुल! Aspose.3D अनुकूलन के लिए व्यापक विकल्प प्रदान करता है, जिससे आप अपने 3D मॉडल के दृश्य पहलुओं को ठीक कर सकते हैं।
+**Q:** *Is there a free trial available for Aspose.3D?*  
+**A:** हाँ, आप खरीदारी से पहले Aspose.3D को एक [free trial](https://releases.aspose.com/) के साथ एक्सप्लोर कर सकते हैं।
 
-### Q3: मुझे Aspose.3D के लिए अतिरिक्त समर्थन या सहायता कहां मिल सकती है?
+**Q:** *How can I obtain a temporary license for Aspose.3D?*  
+**A:** परीक्षण और विकास के लिए एक टेम्पररी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त करें।
 
- A3: पर जाएँ[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) सामुदायिक समर्थन और चर्चा के लिए।
+## Conclusion
 
-### Q4: क्या Aspose.3D के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
+इस गाइड में हमने दिखाया कि कैसे **add child node**, **position 3d object**, और **save scene as OBJ** करके Aspose.3D for Java के साथ कस्टम फैन सिलेंडर बनाए जा सकते हैं। ये बिल्डिंग ब्लॉक्स आपको जटिल 3‑D हायरार्की बनाने और उन्हें किसी भी डाउनस्ट्रीम वर्कफ़्लो के लिए एक्सपोर्ट करने की लचीलापन प्रदान करते हैं।
 
- A4: हाँ, आप Aspose.3D को a के साथ एक्सप्लोर कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) खरीदारी का निर्णय लेने से पहले.
+---
 
-### Q5: मैं Aspose.3D के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.3D 24.12 for Java  
+**Author:** Aspose  
 
- A5: एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/) आपके परीक्षण और विकास आवश्यकताओं के लिए।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
