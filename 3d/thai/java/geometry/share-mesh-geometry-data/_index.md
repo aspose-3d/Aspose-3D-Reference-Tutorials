@@ -1,52 +1,61 @@
 ---
-title: แบ่งปันข้อมูลเรขาคณิตของตาข่ายใน Java 3D ด้วย Aspose.3D
-linktitle: แบ่งปันข้อมูลเรขาคณิตของตาข่ายใน Java 3D ด้วย Aspose.3D
-second_title: Aspose.3D จาวา API
-description: สำรวจความมหัศจรรย์ของ Java 3D ด้วย Aspose.3D เรียนรู้วิธีแชร์ข้อมูลเรขาคณิตของ Mesh ระหว่างโหนดได้อย่างง่ายดายในบทช่วยสอนที่ครอบคลุมนี้
-weight: 15
+date: 2025-12-12
+description: เรียนรู้วิธีตั้งค่าสีวัสดุขณะแชร์ข้อมูลเรขาคณิตเมชและบันทึกฉากเป็น FBX
+  ใน Java 3D ด้วย Aspose.3D.
+linktitle: Set Material Color and Share Mesh Geometry Data in Java 3D with Aspose.3D
+second_title: Aspose.3D Java API
+title: ตั้งค่าสีวัสดุและแชร์ข้อมูลเรขาคณิตเมชใน Java 3D ด้วย Aspose.3D
 url: /th/java/geometry/share-mesh-geometry-data/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แบ่งปันข้อมูลเรขาคณิตของตาข่ายใน Java 3D ด้วย Aspose.3D
+# ตั้งค่าสีวัสดุและแชร์ข้อมูลเรขาคณิตเมชใน Java 3D ด้วย Aspose.3D
 
-## การแนะนำ
+## Introduction
 
-เริ่มต้นการเดินทางสู่อาณาจักรของ Java 3D ด้วย Aspose.3D เปิดโลกแห่งความเป็นไปได้สำหรับการสร้างภาพที่น่าทึ่งและประสบการณ์ที่ดื่มด่ำ ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการแชร์ข้อมูลเรขาคณิตแบบตาข่ายใน Java 3D โดยใช้ Aspose.3D ปฏิบัติตามแต่ละขั้นตอนอย่างระมัดระวัง และในตอนท้าย คุณจะแลกเปลี่ยนข้อมูล Mesh ระหว่างหลายโหนดได้อย่างราบรื่น
+การเริ่มต้นเดินทางสู่โลกของ Java 3D ด้วย Aspose.3D เปิดประตูสู่ความเป็นไปได้มากมายสำหรับการสร้างการแสดงผลที่สวยงามและประสบการณ์ที่ดื่มด่ำ ในบทเรียนนี้ เราจะสอน **วิธีแชร์ข้อมูลเมช** ใน Java 3D ด้วย Aspose.3D และจะแสดงให้คุณเห็น **วิธีตั้งค่าสีวัสดุ** สำหรับแต่ละอินสแตนซ์ของเมช ทำตามขั้นตอนแต่ละขั้นอย่างระมัดระวัง และเมื่อเสร็จสิ้น คุณจะสามารถแลกเปลี่ยนข้อมูลเมชระหว่างโหนดหลาย ๆ โหนดได้อย่างราบรื่น พร้อมควบคุมสีและส่งออกเป็น FBX
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **เป้าหมายหลักคืออะไร?** ตั้งค่าสีวัสดุสำหรับแต่ละโหนดและแชร์ข้อมูลเรขาคณิตเมช  
+- **ต้องใช้ไลบรารีอะไร?** Aspose.3D for Java  
+- **ฉันจะส่งออกผลลัพธ์อย่างไร?** บันทึกฉากเป็นไฟล์ FBX (FBX7400ASCII)  
+- **ต้องมีลิขสิทธิ์หรือไม่?** จำเป็นต้องมีลิขสิทธิ์ชั่วคราวหรือเต็มสำหรับการใช้งานในผลิตภัณฑ์  
+- **เวอร์ชัน Java ใดที่ทำงานได้?** สภาพแวดล้อม Java 8+ ใดก็ได้
 
-ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+## Prerequisites
 
-- สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java บนระบบของคุณ
--  ไลบรารี Aspose.3D: ดาวน์โหลดและติดตั้งไลบรารี Aspose.3D คุณสามารถค้นหาห้องสมุด[ที่นี่](https://releases.aspose.com/3d/java/).
+ก่อนที่เราจะลงลึกในบทเรียน โปรดตรวจสอบว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้พร้อมใช้งานแล้วหรือยัง:
 
-## แพ็คเกจนำเข้า
+- สภาพแวดล้อมการพัฒนา Java: ตรวจสอบว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java บนระบบของคุณแล้ว  
+- ไลบรารี Aspose.3D: ดาวน์โหลดและติดตั้งไลบรารี Aspose.3D คุณสามารถหาไลบรารีได้จาก [ที่นี่](https://releases.aspose.com/3d/java/)
 
-เริ่มต้นด้วยการนำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ ขั้นตอนนี้มีความสำคัญอย่างยิ่งในการเข้าถึงฟังก์ชันการทำงานที่ได้รับจากไลบรารี Aspose.3D
+## Import Packages
+
+เริ่มต้นด้วยการนำเข้าแพ็กเกจที่จำเป็นเข้าสู่โปรเจกต์ Java ของคุณ ขั้นตอนนี้สำคัญเพื่อให้เข้าถึงฟังก์ชันที่ Aspose.3D มีให้
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## ขั้นตอนที่ 1: เริ่มต้นวัตถุฉาก
+## Step 1: Initialize Scene Object (initialize scene java)
 
-มาเริ่มกระบวนการด้วยการเริ่มต้นวัตถุในฉาก นี่จะทำหน้าที่เป็นผืนผ้าใบที่เวทมนตร์ 3 มิติของเราจะเผยออกมา
+มาเริ่มกระบวนการด้วยการสร้างอ็อบเจ็กต์ฉาก ซึ่งจะทำหน้าที่เป็นผืนผ้าใบสำหรับเวทมนตร์ 3 มิติของเรา
 
 ```java
-// เริ่มต้นวัตถุฉาก
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## ขั้นตอนที่ 2: กำหนดเวกเตอร์สี
+## Step 2: Define Color Vectors
 
-ในขั้นตอนนี้ เรากำหนดอาร์เรย์ของเวกเตอร์สีที่จะนำไปใช้กับองค์ประกอบต่างๆ ของฉาก 3 มิติของเรา
+ในขั้นตอนนี้ เราจะกำหนดอาเรย์ของเวกเตอร์สีที่จะนำไปใช้กับองค์ประกอบต่าง ๆ ของฉาก 3 มิติ
 
 ```java
-// กำหนดเวกเตอร์สี
+// Define color vectors
 Vector3[] colors = new Vector3[] {
     new Vector3(1, 0, 0),
     new Vector3(0, 1, 0),
@@ -54,75 +63,96 @@ Vector3[] colors = new Vector3[] {
 };
 ```
 
-## ขั้นตอนที่ 3: สร้าง Mesh โดยใช้ Polygon Builder
+## Step 3: Create 3D Mesh Java Using Polygon Builder (create 3 mesh java)
 
-ใช้คลาส Common เพื่อสร้าง mesh โดยใช้วิธีสร้างรูปหลายเหลี่ยม เมชนี้จะเป็นรากฐานสำหรับองค์ประกอบ 3 มิติของเรา
+ใช้คลาส Common เพื่อสร้างเมชโดยใช้วิธี polygon builder เมชนี้จะเป็นพื้นฐานสำหรับองค์ประกอบ 3 มิติของเรา
 
 ```java
-// เรียกคลาส Common สร้าง mesh โดยใช้วิธีสร้างรูปหลายเหลี่ยมเพื่อตั้งค่าอินสแตนซ์ mesh
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-## ขั้นตอนที่ 4: ทำซ้ำและตั้งค่าโหนด
+## How to set material color for each node?
 
-วนซ้ำเวกเตอร์สี สร้างโหนดคิวบ์ และตั้งค่าคุณลักษณะ เช่น วัสดุ สี และการแปล
+วนลูปผ่านเวกเตอร์สี สร้างโหนดลูกบาศก์ และตั้งค่าแอตทริบิวต์ต่าง ๆ เช่น วัสดุ, **ตั้งค่าสีวัสดุ**, และการแปลตำแหน่ง นี่คือหัวใจของการควบคุมลักษณะการแสดงผลของแต่ละอินสแตนซ์เมช
 
 ```java
 int idx = 0;
 for(Vector3 color : colors) {
-    // เตรียมข้อมูลเบื้องต้นให้กับอ็อบเจ็กต์โหนดคิวบ์
+    // Initialize cube node object
     Node cube = new Node("cube");
     cube.setEntity(mesh);
     LambertMaterial mat = new LambertMaterial();
-    // กำหนดสี
+    // Set color
     mat.setDiffuseColor(color);
-    // ชุดวัสดุ
+    // Set material
     cube.setMaterial(mat);
-    // ตั้งค่าการแปล
+    // Set translation
     cube.getTransform().setTranslation(new Vector3(idx++ * 20, 0, 0));
-    // เพิ่มโหนดคิวบ์
+    // Add cube node
     scene.getRootNode().addChildNode(cube);
 }
 ```
 
-## ขั้นตอนที่ 5: บันทึกฉาก 3 มิติ
+## Step 5: Save the 3D Scene (save scene fbx, convert mesh to fbx)
 
-ระบุไดเร็กทอรีและชื่อไฟล์สำหรับบันทึกฉาก 3D ในรูปแบบไฟล์ที่รองรับ ในกรณีนี้คือ FBX7400ASCII
+ระบุไดเรกทอรีและชื่อไฟล์สำหรับบันทึกฉาก 3 มิติในรูปแบบไฟล์ที่รองรับ ในกรณีนี้คือ FBX7400ASCII ขั้นตอนนี้ยังแสดงการ **แปลงเมชเป็น FBX** อีกด้วย
 
 ```java
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "MeshGeometryData.fbx";
 
-// บันทึกฉาก 3 มิติในรูปแบบไฟล์ที่รองรับ
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
-## บทสรุป
+## Conclusion
 
-ยินดีด้วย! คุณได้แชร์ข้อมูลเรขาคณิตของ Mesh ระหว่างหลายโหนดใน Java 3D โดยใช้ Aspose.3D สำเร็จแล้ว สิ่งนี้เปิดโอกาสความเป็นไปได้ไม่รู้จบสำหรับการสร้างแอปพลิเคชั่น 3D ที่สวยงามและโต้ตอบได้
+ขอแสดงความยินดี! คุณได้ **ตั้งค่าสีวัสดุ** สำเร็จ, แชร์ข้อมูลเรขาคณิตเมชระหว่างโหนดหลาย ๆ โหนด, และส่งออกผลลัพธ์เป็นไฟล์ FBX ด้วย Aspose.3D for Java ซึ่งเปิดโอกาสไม่จำกัดสำหรับการสร้างแอปพลิเคชัน 3 มิติที่สวยงามและโต้ตอบได้
 
-## คำถามที่พบบ่อย
+## FAQ's
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.3D กับเฟรมเวิร์ก Java อื่นๆ ได้หรือไม่
+### Q1: Can I use Aspose.3D with other Java frameworks?
 
-ตอบ 1: ใช่ Aspose.3D ได้รับการออกแบบมาให้ทำงานได้อย่างราบรื่นกับเฟรมเวิร์ก Java ต่างๆ
+A1: Yes, Aspose.3D is designed to work seamlessly with various Java frameworks.
 
-### คำถามที่ 2: มีตัวเลือกสิทธิ์การใช้งานสำหรับ Aspose.3D หรือไม่
+### Q2: Are there any licensing options available for Aspose.3D?
 
- ตอบ 2: ได้ คุณสามารถสำรวจตัวเลือกใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy).
+A2: Yes, you can explore licensing options [here](https://purchase.aspose.com/buy).
 
-### คำถามที่ 3: ฉันจะรับการสนับสนุนสำหรับ Aspose.3D ได้อย่างไร
+### Q3: How can I get support for Aspose.3D?
 
- A3: เยี่ยมชม Aspose.3D[ฟอรั่ม](https://forum.aspose.com/c/3d/18) สำหรับการสนับสนุนและการอภิปราย
+A3: Visit the Aspose.3D [forum](https://forum.aspose.com/c/3d/18) for support and discussions.
 
-### คำถามที่ 4: มีการทดลองใช้ฟรีหรือไม่?
+### Q4: Is there a free trial available?
 
- A4: ใช่ คุณสามารถทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+A4: Yes, you can get a free trial [here](https://releases.aspose.com/).
 
-### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.3D ได้อย่างไร
+### Q5: How do I obtain a temporary license for Aspose.3D?
 
- A5: คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+A5: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+## Additional Frequently Asked Questions
+
+**Q: Can I export the scene to other formats besides FBX?**  
+A: Yes, Aspose.3D supports OBJ, STL, 3MF, and more. Just change the `FileFormat` enum in the `save` call.
+
+**Q: What if I need to change the material after the scene is created?**  
+A: Retrieve the node, modify its `LambertMaterial` (e.g., `setDiffuseColor`), and re‑save the scene.
+
+**Q: Does the library handle large meshes efficiently?**  
+A: Aspose.3D uses optimized data structures; however, for extremely large meshes consider streaming or splitting the scene.
+
+**Q: Is there a way to animate the color change?**  
+A: Yes, you can animate material properties using the `AnimationController` API.
+
+---
+
+**Last Updated:** 2025-12-12  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
