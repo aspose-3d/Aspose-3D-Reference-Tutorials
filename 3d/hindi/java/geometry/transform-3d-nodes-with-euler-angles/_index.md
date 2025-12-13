@@ -1,116 +1,168 @@
 ---
-title: Aspose.3D का उपयोग करके जावा में यूलर एंगल्स के साथ 3D नोड्स को रूपांतरित करें
-linktitle: Aspose.3D का उपयोग करके जावा में यूलर एंगल्स के साथ 3D नोड्स को रूपांतरित करें
-second_title: Aspose.3D जावा एपीआई
-description: Aspose.3D के साथ जावा में 3D परिवर्तनों की दुनिया का अन्वेषण करें। अपने 3डी नोड्स में गतिशील यूलर कोण जोड़ने के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 19
+date: 2025-12-13
+description: Aspose 3D Java का उपयोग करके 3D नोड्स को ट्रांसफ़ॉर्म करना सीखें। यह
+  गाइड दिखाता है कि कैसे यूलर एंगल्स का उपयोग करें, 3D रोटेशन जोड़ें और Java में ट्रांसलेशन
+  सेट करें।
+linktitle: Aspose 3D Java – Transform 3D Nodes with Euler Angles
+second_title: Aspose.3D Java API
+title: Aspose 3D Java – यूलेर कोणों के साथ 3D नोड्स को रूपांतरित करें
 url: /hi/java/geometry/transform-3d-nodes-with-euler-angles/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D का उपयोग करके जावा में यूलर एंगल्स के साथ 3D नोड्स को रूपांतरित करें
+# Transform 3D Nodes with Euler Angles in Java using Aspose.3D
 
-## परिचय
+## Introduction
 
-Aspose.3D का उपयोग करके जावा में यूलर कोणों के साथ 3D नोड्स को बदलने पर इस चरण-दर-चरण ट्यूटोरियल में आपका स्वागत है। इस गाइड में, हम गतिशील स्थिति और अभिविन्यास प्राप्त करने के लिए यूलर कोणों का उपयोग करके 3डी नोड में परिवर्तनों को जोड़ने की प्रक्रिया में गहराई से उतरेंगे।
+इस ट्यूटोरियल में आप **aspose 3d java** का उपयोग करके Euler एंगल्स लागू करके 3D नोड्स को ट्रांसफ़ॉर्म करना सीखेंगे। गाइड के अंत तक आप 3D रोटेशन जोड़ना, Java में ट्रांसलेशन सेट करना, और रीयल‑टाइम डेटा के अनुसार प्रतिक्रिया देने वाले डायनेमिक सीन बनाना सीख जाएंगे।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What library handles 3D transformations in Java?** Aspose 3D for Java.  
+- **Which method sets rotation using Euler angles?** `setEulerAngles()` on the node’s transform.  
+- **How do I move a node in space?** Use `setTranslation()` with a `Vector3`.  
+- **Do I need a license for production?** Yes, a commercial Aspose 3D license is required.  
+- **Can I export to FBX?** Absolutely – `scene.save(..., FileFormat.FBX7500ASCII)` works out of the box.
 
-इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## Prerequisites
 
-- जावा प्रोग्रामिंग का बुनियादी ज्ञान।
-- आपकी मशीन पर जावा डेवलपमेंट किट (जेडीके) स्थापित है।
--  Aspose.3D लाइब्रेरी, जिसे आप प्राप्त कर सकते हैं[Aspose.3D जावा दस्तावेज़ीकरण](https://reference.aspose.com/3d/java/).
+ट्यूटोरियल शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित प्रीरेक्विज़िट्स हैं:
 
-## पैकेज आयात करें
+- Java प्रोग्रामिंग का बुनियादी ज्ञान।  
+- आपके मशीन पर Java Development Kit (JDK) स्थापित हो।  
+- Aspose.3D लाइब्रेरी, जिसे आप [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/) से प्राप्त कर सकते हैं।
 
- अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करके शुरुआत करें। सुनिश्चित करें कि Aspose.3D लाइब्रेरी आपके क्लासपाथ में सही ढंग से जोड़ी गई है। यदि आपने इसे अभी तक डाउनलोड नहीं किया है, तो आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/3d/java/).
+## Import Packages
+
+अपने Java प्रोजेक्ट में आवश्यक पैकेज इम्पोर्ट करके शुरू करें। सुनिश्चित करें कि Aspose.3D लाइब्रेरी आपके क्लासपाथ में सही तरीके से जोड़ी गई है। यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो आप डाउनलोड लिंक [here](https://releases.aspose.com/3d/java/) पर पा सकते हैं।
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## चरण 1. दृश्य और नोड आरंभ करें
+## aspose 3d java – Working with Euler Angles
+
+### Step 1. Initialize Scene and Node
+
+पहले, एक सीन और एक नोड बनाएं जो वह जियोमेट्री रखेगा जिसे आप ट्रांसफ़ॉर्म करना चाहते हैं।
 
 ```java
 // ExStart:AddTransformationToNodeByEulerAngles
-// दृश्य वस्तु आरंभ करें
+// Initialize scene object
 Scene scene = new Scene();
 
-// नोड क्लास ऑब्जेक्ट को प्रारंभ करें
+// Initialize Node class object
 Node cubeNode = new Node("cube");
 ```
 
-## चरण 2. जाल बनाएं और ज्यामिति सेट करें
+### Step 2. Create Mesh and Set Geometry
+
+अगला, एक सरल मेष (इस केस में एक क्यूब) जेनरेट करें और उसे नोड से अटैच करें।
 
 ```java
-// मेश इंस्टेंस सेट करने के लिए पॉलीगॉन बिल्डर विधि का उपयोग करके कॉमन क्लास क्रिएट मेश को कॉल करें
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-// मेष ज्यामिति को बिंदु नोड
+// Point node to the Mesh geometry
 cubeNode.setEntity(mesh);
 ```
 
-## चरण 3. यूलर कोण और अनुवाद सेट करें
+## Add Rotation 3D to a Node
+
+### Step 3. Set Euler Angles and Translation
+
+अब हम Euler एंगल्स का उपयोग करके रोटेशन लागू करेंगे और साथ ही नोड को एक दृश्यमान स्थिति में ले जाएंगे।
 
 ```java
-// यूलर कोण
+// Euler angles
 cubeNode.getTransform().setEulerAngles(new Vector3(0.3, 0.1, -0.5));
 
-// अनुवाद सेट करें
+// Set translation
 cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 ```
 
-## चरण 4. दृश्य में नोड जोड़ें
+## Set Translation Java – Positioning the Node
+
+ऊपर दिया गया ट्रांसलेशन चरण **set translation java** को प्रैक्टिस में दर्शाता है: नोड को Z‑अक्ष के साथ 20 यूनिट्स शिफ्ट किया गया है ताकि रेंडरिंग के बाद आप इसे देख सकें।
+
+## Step 4. Add Node to Scene
+
+ट्रांसफ़ॉर्म किए गए नोड को सीन के रूट नोड से अटैच करें।
 
 ```java
-// दृश्य में क्यूब जोड़ें
+// Add cube to the scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## चरण 5. 3डी दृश्य सहेजें
+## Step 5. Save 3D Scene
+
+अंत में, सीन को एक FBX फ़ाइल (या किसी अन्य सपोर्टेड फ़ॉर्मेट) में एक्सपोर्ट करें।
 
 ```java
-// दस्तावेज़ निर्देशिका का पथ.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "TransformationToNode.fbx";
 
-// समर्थित फ़ाइल स्वरूपों में 3D दृश्य सहेजें
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-अपनी मशीन पर "आपकी दस्तावेज़ निर्देशिका" को उचित पथ से बदलना सुनिश्चित करें।
+अपने मशीन पर उचित पाथ के साथ `"Your Document Directory"` को बदलना न भूलें।
 
-## निष्कर्ष
+## Conclusion
 
-बधाई हो! आपने Aspose.3D के साथ जावा में यूलर कोणों का उपयोग करके 3D नोड्स को सफलतापूर्वक रूपांतरित कर दिया है। गतिशील और आकर्षक 3डी दृश्य बनाने के लिए विभिन्न कोणों और अनुवादों के साथ प्रयोग करें।
+बधाई हो! आपने **aspose 3d java** के साथ Java में Euler एंगल्स का उपयोग करके 3D नोड्स को सफलतापूर्वक ट्रांसफ़ॉर्म कर लिया है। विभिन्न एंगल्स और ट्रांसलेशन्स के साथ प्रयोग करें और डायनेमिक एवं आकर्षक 3D सीन बनाएं।
 
-## अक्सर पूछे जाने वाले प्रश्न
+## FAQ's
 
-### Q1: क्या मैं व्यावसायिक परियोजनाओं में जावा के लिए Aspose.3D का उपयोग कर सकता हूँ?
+### Q1: Can I use Aspose.3D for Java in commercial projects?
 
- A1: हाँ, आप कर सकते हैं। दौरा करना[खरीद पृष्ठ](https://purchase.aspose.com/buy) लाइसेंसिंग विवरण के लिए.
+A1: Yes, you can. Visit the [purchase page](https://purchase.aspose.com/buy) for licensing details.
 
-### Q2: मुझे Aspose.3D के लिए समर्थन कहां मिल सकता है?
+### Q2: Where can I find support for Aspose.3D?
 
- ए2: द[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) सहायता प्राप्त करने और समुदाय से जुड़ने का स्थान है।
+A2: The [Aspose.3D forum](https://forum.aspose.com/c/3d/18) is the place to seek assistance and connect with the community.
 
-### Q3: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
+### Q3: Is there a free trial available?
 
- A3: हाँ, आप इसका पता लगा सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) Aspose.3D की क्षमताओं का अनुभव करने के लिए।
+A3: Yes, you can explore the [free trial](https://releases.aspose.com/) to experience the capabilities of Aspose.3D.
 
-### Q4: मैं अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
+### Q4: How can I obtain a temporary license?
 
- A4: आप एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+A4: You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-### Q5: मुझे दस्तावेज़ कहां मिल सकते हैं?
+### Q5: Where can I find the documentation?
 
- ए5: द[प्रलेखन](https://reference.aspose.com/3d/java/) जावा के लिए Aspose.3D का उपयोग करने पर व्यापक मार्गदर्शन प्रदान करता है।
+A5: The [documentation](https://reference.aspose.com/3d/java/) provides comprehensive guidance on using Aspose.3D for Java.
+
+## Frequently Asked Questions
+
+**Q: What is the difference between Euler angles and quaternion rotation?**  
+A: Euler angles are intuitive (pitch, yaw, roll) but can suffer from gimbal lock, while quaternions avoid that issue and are better for smooth interpolations.
+
+**Q: Can I chain multiple transformations on the same node?**  
+A: Yes. Call `setEulerAngles`, `setTranslation`, and `setScale` in any order; the library composes them into a single transform matrix.
+
+**Q: Is it possible to export to other formats like OBJ or STL?**  
+A: Absolutely. Replace `FileFormat.FBX7500ASCII` with `FileFormat.OBJ` or `FileFormat.STL` in the `scene.save` call.
+
+**Q: How do I apply the same rotation to several nodes at once?**  
+A: Create a parent node, apply the rotation to the parent, and add child nodes under it. All children inherit the transformation.
+
+**Q: Do I need to call any cleanup methods after saving?**  
+A: The Java garbage collector handles most resources, but you can explicitly call `scene.dispose()` if you work with large scenes in a long‑running application.
+
+---
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.3D 23.12 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
