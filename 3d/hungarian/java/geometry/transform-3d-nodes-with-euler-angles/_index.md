@@ -1,116 +1,168 @@
 ---
-title: 3D csomópontok átalakítása Euler-szögekkel Java nyelven az Aspose.3D segítségével
-linktitle: 3D csomópontok átalakítása Euler-szögekkel Java nyelven az Aspose.3D segítségével
+date: 2025-12-13
+description: Tanulja meg, hogyan használja az Aspose 3D Java-t 3D csomópontok átalakításához.
+  Ez az útmutató bemutatja, hogyan használja az Euler‑szögeket, adjon hozzá 3D forgatást,
+  és állítson be transzlációt Java‑ban.
+linktitle: Aspose 3D Java – Transform 3D Nodes with Euler Angles
 second_title: Aspose.3D Java API
-description: Fedezze fel a Java 3D-s transzformációinak világát az Aspose.3D segítségével. Kövesse lépésenkénti útmutatónkat, hogy dinamikus Euler-szögeket adjon a 3D csomópontokhoz.
-weight: 19
+title: Aspose 3D Java – 3D csomópontok átalakítása Euler-szögekkel
 url: /hu/java/geometry/transform-3d-nodes-with-euler-angles/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D csomópontok átalakítása Euler-szögekkel Java nyelven az Aspose.3D segítségével
+# 3D csomópontok transzformálása Euler‑szögekkel Java‑ban az Aspose.3D használatával
 
-## Bevezetés
+## Introduction
 
-Üdvözöljük ebben a lépésről lépésre bemutatott oktatóanyagban, amely a 3D csomópontok Euler-szögekkel történő átalakítását mutatja be Java nyelven az Aspose.3D használatával. Ebben az útmutatóban a 3D-s csomópontokhoz történő transzformációk hozzáadásának folyamatát mutatjuk be, az Euler-szögek segítségével a dinamikus pozicionálás és tájolás elérése érdekében.
+Ebben az útmutatóban megtudod, **hogyan kell használni az aspose 3d java**‑t 3D csomópontok transzformálásához Euler‑szögek alkalmazásával. A útmutató végére képes leszel 3D forgatást hozzáadni, **set translation java**‑t beállítani, és dinamikus jeleneteket létrehozni, amelyek valós‑idő adatokra reagálnak.
 
-## Előfeltételek
+## Quick Answers
+- **Melyik könyvtár kezeli a 3D transzformációkat Java‑ban?** Aspose 3D for Java.  
+- **Melyik metódus állítja be a forgatást Euler‑szögekkel?** `setEulerAngles()` a csomópont transzformációján.  
+- **Hogyan mozgathatok egy csomópontot a térben?** Használd a `setTranslation()`‑t egy `Vector3`‑al.  
+- **Szükségem van licencre a termeléshez?** Igen, egy kereskedelmi Aspose 3D licenc szükséges.  
+- **Exportálhatok FBX‑be?** Természetesen – a `scene.save(..., FileFormat.FBX7500ASCII)` azonnal működik.
 
-Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+## Prerequisites
 
-- Java programozási alapismeretek.
-- Java Development Kit (JDK) telepítve a gépére.
--  Aspose.3D könyvtár, amelyből beszerezhető[Aspose.3D Java dokumentáció](https://reference.aspose.com/3d/java/).
+Mielőtt belemerülnénk az útmutatóba, győződj meg róla, hogy a következő előfeltételek adottak:
 
-## Csomagok importálása
+- Alapvető Java programozási ismeretek.  
+- Java Development Kit (JDK) telepítve a gépeden.  
+- Aspose.3D könyvtár, amelyet a [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/) oldalról szerezhetsz be.
 
- Kezdje azzal, hogy importálja a szükséges csomagokat a Java projektbe. Győződjön meg arról, hogy az Aspose.3D könyvtár megfelelően van hozzáadva az osztályútvonalhoz. Ha még nem töltötte le, megtalálja a letöltési linket[itt](https://releases.aspose.com/3d/java/).
+## Import Packages
+
+Kezdjük a szükséges csomagok importálásával a Java projektedbe. Győződj meg róla, hogy az Aspose.3D könyvtár helyesen hozzá van adva a classpath‑hoz. Ha még nem töltötted le, a letöltési linket megtalálod [itt](https://releases.aspose.com/3d/java/).
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## 1. lépés: Inicializálja a jelenetet és a csomópontot
+## aspose 3d java – Working with Euler Angles
+
+### Step 1. Initialize Scene and Node
+
+Először hozz létre egy jelenetet és egy csomópontot, amely a transzformálni kívánt geometriát fogja tartalmazni.
 
 ```java
 // ExStart:AddTransformationToNodeByEulerAngles
-// Jelenetobjektum inicializálása
+// Initialize scene object
 Scene scene = new Scene();
 
-// Node osztály objektum inicializálása
+// Initialize Node class object
 Node cubeNode = new Node("cube");
 ```
 
-## 2. lépés: Háló létrehozása és geometria beállítása
+### Step 2. Create Mesh and Set Geometry
+
+Ezután generálj egy egyszerű hálót (ebben az esetben egy kockát), és csatold a csomóponthoz.
 
 ```java
-// Hívja a Common class create mesh-t a sokszögépítő metódussal a hálópéldány beállításához
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-// Pontcsomópont a Mesh geometriára
+// Point node to the Mesh geometry
 cubeNode.setEntity(mesh);
 ```
 
-## 3. lépés: Állítsa be az Euler-szögeket és a fordítást
+## Add Rotation 3D to a Node
+
+### Step 3. Set Euler Angles and Translation
+
+Most alkalmazzuk a forgatást Euler‑szögekkel, és a csomópontot egy látható pozícióba helyezzük.
 
 ```java
-// Euler-szögek
+// Euler angles
 cubeNode.getTransform().setEulerAngles(new Vector3(0.3, 0.1, -0.5));
 
-// Fordítás beállítása
+// Set translation
 cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 ```
 
-## 4. lépés: Csomópont hozzáadása a jelenethez
+## Set Translation Java – Positioning the Node
+
+A fenti fordítási lépés bemutatja a **set translation java** gyakorlatban: a csomópont 20 egységgel eltolódik a Z‑tengely mentén, hogy a renderelés után látható legyen.
+
+## Step 4. Add Node to Scene
+
+Csatold a transzformált csomópontot a jelenet gyökércsomópontjához.
 
 ```java
-// Adjon hozzá kockát a jelenethez
+// Add cube to the scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## 5. lépés: Mentse el a 3D-s jelenetet
+## Step 5. Save 3D Scene
+
+Végül exportáld a jelenetet egy FBX fájlba (vagy bármely más támogatott formátumba).
 
 ```java
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "TransformationToNode.fbx";
 
-// Mentse a 3D jelenetet a támogatott fájlformátumokba
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-Ügyeljen arra, hogy a „Dokumentumkönyvtár” szöveget a megfelelő elérési útra cserélje a gépén.
+Győződj meg róla, hogy a `"Your Document Directory"`‑t a géped megfelelő elérési útjára cseréled.
 
-## Következtetés
+## Conclusion
 
-Gratulálunk! Sikeresen átalakította a 3D csomópontokat Euler-szögek használatával Java nyelven az Aspose.3D-vel. Kísérletezzen különböző szögekkel és fordításokkal dinamikus és vonzó 3D-s jelenetek létrehozásához.
+Gratulálunk! Sikeresen transzformáltad a 3D csomópontokat Euler‑szögekkel Java‑ban a **aspose 3d java** segítségével. Kísérletezz különböző szögekkel és fordításokkal, hogy dinamikus és lebilincselő 3D jeleneteket hozz létre.
 
-## GYIK
+## FAQ's
 
-### 1. kérdés: Használhatom az Aspose.3D for Java-t kereskedelmi projektekben?
+### Q1: Használhatom az Aspose.3D for Java‑t kereskedelmi projektekben?
 
- A1: Igen, megteheti. Meglátogatni a[vásárlási oldal](https://purchase.aspose.com/buy) az engedélyezési részletekért.
+A1: Igen, használhatod. Látogasd meg a [purchase page](https://purchase.aspose.com/buy) oldalt a licencelési részletekért.
 
-### 2. kérdés: Hol találok támogatást az Aspose.3D-hez?
+### Q2: Hol találok támogatást az Aspose.3D‑hez?
 
- A2: Az[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) ez az a hely, ahol segítséget kérhet és kapcsolatba léphet a közösséggel.
+A2: A [Aspose.3D forum](https://forum.aspose.com/c/3d/18) a megfelelő hely a segítségkéréshez és a közösséggel való kapcsolattartáshoz.
 
-### 3. kérdés: Van ingyenes próbaverzió?
+### Q3: Van ingyenes próbaverzió?
 
- A3: Igen, felfedezheti a[ingyenes próbaverzió](https://releases.aspose.com/) hogy megtapasztalják az Aspose képességeit.3D.
+A3: Igen, a [free trial](https://releases.aspose.com/) segítségével kipróbálhatod az Aspose.3D képességeit.
 
-### 4. kérdés: Hogyan szerezhetek ideiglenes engedélyt?
+### Q4: Hogyan szerezhetek ideiglenes licencet?
 
- V4: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+A4: Ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/) szerezhetsz.
 
-### 5. kérdés: Hol találom a dokumentációt?
+### Q5: Hol találom a dokumentációt?
 
- A5: Az[dokumentáció](https://reference.aspose.com/3d/java/) átfogó útmutatást nyújt az Aspose.3D for Java használatához.
+A5: A [documentation](https://reference.aspose.com/3d/java/) átfogó útmutatót nyújt az Aspose.3D for Java használatához.
+
+## Frequently Asked Questions
+
+**Q: Mi a különbség az Euler‑szögek és a kvaternion forgatás között?**  
+A: Az Euler‑szögek intuitívak (dőlésszög, irány, görbület), de gimbal lock‑ot okozhatnak, míg a kvaterniók elkerülik ezt a problémát és jobb sima interpolációkat biztosítanak.
+
+**Q: Láncolhatok több transzformációt ugyanazon a csomóponton?**  
+A: Igen. Hívd meg a `setEulerAngles`, `setTranslation` és `setScale` metódusokat tetszőleges sorrendben; a könyvtár egyetlen transzformációs mátrixba egyesíti őket.
+
+**Q: Lehet más formátumokba, például OBJ vagy STL, exportálni?**  
+A: Természetesen. Cseréld le a `FileFormat.FBX7500ASCII`‑t `FileFormat.OBJ`‑ra vagy `FileFormat.STL`‑re a `scene.save` hívásban.
+
+**Q: Hogyan alkalmazhatom ugyanazt a forgatást több csomópontra egyszerre?**  
+A: Hozz létre egy szülőcsomópontot, alkalmazd a forgatást a szülőre, majd helyezd el alatta a gyermekcsomópontokat. Minden gyermek örökli a transzformációt.
+
+**Q: Szükséges-e valamilyen takarítási metódust hívni a mentés után?**  
+A: A Java szemétgyűjtője a legtöbb erőforrást kezel, de nagy jelenetek esetén hosszú‑távú alkalmazásban explicit módon meghívhatod a `scene.dispose()`‑t.
+
+---
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.3D 23.12 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

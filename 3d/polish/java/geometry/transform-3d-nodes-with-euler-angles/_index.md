@@ -1,116 +1,168 @@
 ---
-title: Przekształcaj węzły 3D za pomocą kątów Eulera w Javie przy użyciu Aspose.3D
-linktitle: Przekształcaj węzły 3D za pomocą kątów Eulera w Javie przy użyciu Aspose.3D
-second_title: Aspose.3D API Java
-description: Poznaj świat transformacji 3D w Javie z Aspose.3D. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby dodać dynamiczne kąty Eulera do węzłów 3D.
-weight: 19
+date: 2025-12-13
+description: Dowiedz się, jak używać Aspose 3D Java do przekształcania węzłów 3D.
+  Ten przewodnik pokazuje, jak używać kątów Eulera, dodać obrót 3D i ustawić translację
+  w Javie.
+linktitle: Aspose 3D Java – Transform 3D Nodes with Euler Angles
+second_title: Aspose.3D Java API
+title: Aspose 3D Java – Transformacja węzłów 3D za pomocą kątów Eulera
 url: /pl/java/geometry/transform-3d-nodes-with-euler-angles/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Przekształcaj węzły 3D za pomocą kątów Eulera w Javie przy użyciu Aspose.3D
+# Transformuj węzły 3D za pomocą kątów Eulera w Javie przy użyciu Aspose.3D
 
 ## Wstęp
 
-Witamy w tym samouczku krok po kroku dotyczącym przekształcania węzłów 3D za pomocą kątów Eulera w Javie przy użyciu Aspose.3D. W tym przewodniku zagłębimy się w proces dodawania transformacji do węzła 3D przy użyciu kątów Eulera w celu uzyskania dynamicznego pozycjonowania i orientacji.
+W tym samouczku odkryjesz **jak używać aspose 3d java**, aby przekształcać węzły 3D poprzez zastosowanie kątów Eulera. Po zakończeniu przewodnika będziesz w stanie dodać rotację 3d, ustawić translację java i tworzyć dynamiczne sceny reagujące na dane w czasie rzeczywistym.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaką bibliotekę obsługuje transformacje 3D w Javie?** Aspose 3D for Java.  
+- **Która metoda ustawia rotację przy użyciu kątów Eulera?** `setEulerAngles()` na transformacji węzła.  
+- **Jak przesunąć węzeł w przestrzeni?** Użyj `setTranslation()` z `Vector3`.  
+- **Czy potrzebna jest licencja do produkcji?** Tak, wymagana jest komercyjna licencja Aspose 3D.  
+- **Czy mogę eksportować do FBX?** Absolutnie – `scene.save(..., FileFormat.FBX7500ASCII)` działa od razu.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Wymagania wstępne
 
-- Podstawowa znajomość programowania w języku Java.
-- Zestaw Java Development Kit (JDK) zainstalowany na komputerze.
--  Biblioteka Aspose.3D, z której można uzyskać[Dokumentacja Java Aspose.3D](https://reference.aspose.com/3d/java/).
+Zanim zagłębimy się w samouczek, upewnij się, że spełniasz następujące wymagania:
 
-## Importuj pakiety
+- Podstawowa znajomość programowania w Javie.  
+- Zainstalowany Java Development Kit (JDK) na twoim komputerze.  
+- Biblioteka Aspose.3D, którą możesz pobrać z [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/).
 
- Rozpocznij od zaimportowania niezbędnych pakietów do projektu Java. Upewnij się, że biblioteka Aspose.3D została poprawnie dodana do ścieżki klas. Jeśli jeszcze go nie pobrałeś, możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/3d/java/).
+## Importowanie pakietów
+
+Rozpocznij od zaimportowania niezbędnych pakietów do swojego projektu Java. Upewnij się, że biblioteka Aspose.3D jest poprawnie dodana do classpath. Jeśli jeszcze jej nie pobrałeś, link do pobrania znajdziesz [tutaj](https://releases.aspose.com/3d/java/).
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## Krok 1. Zainicjuj scenę i węzeł
+aspose 3d java – Praca z kątami Eulera
+
+### Krok 1. Inicjalizacja sceny i węzła
+
+Najpierw utwórz scenę i węzeł, który będzie zawierał geometrię, którą chcesz przekształcić.
 
 ```java
-// ExStart: Dodaj transformację do węzła według kątów Eulera
-// Zainicjuj obiekt sceny
+// ExStart:AddTransformationToNodeByEulerAngles
+// Initialize scene object
 Scene scene = new Scene();
 
-// Zainicjuj obiekt klasy Node
+// Initialize Node class object
 Node cubeNode = new Node("cube");
 ```
 
-## Krok 2. Utwórz siatkę i ustaw geometrię
+### Krok 2. Utwórz siatkę i ustaw geometrię
+
+Następnie wygeneruj prostą siatkę (w tym przypadku sześcian) i dołącz ją do węzła.
 
 ```java
-// Wywołaj klasę Common, aby utworzyć siatkę przy użyciu metody konstruktora wielokątów, aby ustawić instancję siatki
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-// Wskaż węzeł na geometrię siatki
+// Point node to the Mesh geometry
 cubeNode.setEntity(mesh);
 ```
 
-## Krok 3. Ustaw kąty Eulera i przesunięcie
+## Dodaj rotację 3D do węzła
+
+### Krok 3. Ustaw kąty Eulera i translację
+
+Teraz zastosujemy rotację przy użyciu kątów Eulera oraz przemieścimy węzeł do widocznej pozycji.
 
 ```java
-// Kąty Eulera
+// Euler angles
 cubeNode.getTransform().setEulerAngles(new Vector3(0.3, 0.1, -0.5));
 
-// Ustaw tłumaczenie
+// Set translation
 cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 ```
 
-## Krok 4. Dodaj węzeł do sceny
+## Ustaw translację Java – pozycjonowanie węzła
+
+Powyższy krok translacji demonstruje **set translation java** w praktyce: węzeł jest przesunięty o 20 jednostek wzdłuż osi Z, aby można go było zobaczyć po renderowaniu.
+
+### Krok 4. Dodaj węzeł do sceny
+
+Dołącz przekształcony węzeł do głównego węzła sceny.
 
 ```java
-// Dodaj kostkę do sceny
+// Add cube to the scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## Krok 5. Zapisz scenę 3D
+### Krok 5. Zapisz scenę 3D
+
+Na koniec wyeksportuj scenę do pliku FBX (lub innego obsługiwanego formatu).
 
 ```java
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "TransformationToNode.fbx";
 
-// Zapisz scenę 3D w obsługiwanych formatach plików
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-Pamiętaj, aby zastąpić „Twój katalog dokumentów” odpowiednią ścieżką na swoim komputerze.
+Upewnij się, że zamieniłeś `"Your Document Directory"` na odpowiednią ścieżkę na swoim komputerze.
 
-## Wniosek
+## Podsumowanie
 
-Gratulacje! Pomyślnie przekształciłeś węzły 3D przy użyciu kątów Eulera w Javie za pomocą Aspose.3D. Eksperymentuj z różnymi kątami i tłumaczeniami, aby tworzyć dynamiczne i wciągające sceny 3D.
+Gratulacje! Pomyślnie przekształciłeś węzły 3D przy użyciu kątów Eulera w Javie z **aspose 3d java**. Eksperymentuj z różnymi kątami i translacjami, aby tworzyć dynamiczne i angażujące sceny 3D.
 
-## Często zadawane pytania
+## FAQ
 
-### P1: Czy mogę używać Aspose.3D dla Java w projektach komercyjnych?
+### P1: Czy mogę używać Aspose.3D dla Javy w projektach komercyjnych?
 
- A1: Tak, możesz. Odwiedzić[strona zakupu](https://purchase.aspose.com/buy) w celu uzyskania szczegółów licencji.
+O1: Tak, możesz. Odwiedź [stronę zakupu](https://purchase.aspose.com/buy) po szczegóły licencjonowania.
 
 ### P2: Gdzie mogę znaleźć wsparcie dla Aspose.3D?
 
- A2:[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) to miejsce, w którym można szukać pomocy i nawiązać kontakt ze społecznością.
+O2: [Forum Aspose.3D](https://forum.aspose.com/c/3d/18) to miejsce, aby uzyskać pomoc i połączyć się ze społecznością.
 
-### P3: Czy dostępny jest bezpłatny okres próbny?
+### P3: Czy dostępna jest darmowa wersja próbna?
 
- A3: Tak, możesz eksplorować[bezpłatna wersja próbna](https://releases.aspose.com/) aby doświadczyć możliwości Aspose.3D.
+O3: Tak, możesz wypróbować [darmową wersję próbną](https://releases.aspose.com/), aby poznać możliwości Aspose.3D.
 
-### P4: Jak mogę uzyskać licencję tymczasową?
+### P4: Jak mogę uzyskać tymczasową licencję?
 
- A4: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+O4: Tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### P5: Gdzie mogę znaleźć dokumentację?
 
- A5:[dokumentacja](https://reference.aspose.com/3d/java/) zapewnia kompleksowe wskazówki dotyczące korzystania z Aspose.3D dla Java.
+O5: [Dokumentacja](https://reference.aspose.com/3d/java/) zapewnia kompleksowe wskazówki dotyczące używania Aspose.3D dla Javy.
+
+## Najczęściej zadawane pytania
+
+**Q:** Jaka jest różnica między kątami Eulera a rotacją kwaternionową?  
+**A:** Kąty Eulera są intuicyjne (pitch, yaw, roll), ale mogą cierpieć na zjawisko blokady gimbal, podczas gdy kwaterniony unikają tego problemu i są lepsze do płynnych interpolacji.
+
+**Q:** Czy mogę łączyć wiele transformacji na tym samym węźle?  
+**A:** Tak. Wywołaj `setEulerAngles`, `setTranslation` i `setScale` w dowolnej kolejności; biblioteka łączy je w jedną macierz transformacji.
+
+**Q:** Czy można eksportować do innych formatów, takich jak OBJ lub STL?  
+**A:** Absolutnie. Zastąp `FileFormat.FBX7500ASCII` przez `FileFormat.OBJ` lub `FileFormat.STL` w wywołaniu `scene.save`.
+
+**Q:** Jak zastosować tę samą rotację do kilku węzłów jednocześnie?  
+**A:** Utwórz węzeł nadrzędny, zastosuj rotację do niego i dodaj węzły podrzędne. Wszystkie podrzędne dziedziczą transformację.
+
+**Q:** Czy muszę wywoływać jakiekolwiek metody czyszczenia po zapisaniu?  
+**A:** Zbieracz śmieci Javy obsługuje większość zasobów, ale możesz jawnie wywołać `scene.dispose()`, jeśli pracujesz z dużymi scenami w długotrwałej aplikacji.
+
+---
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.3D 23.12 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

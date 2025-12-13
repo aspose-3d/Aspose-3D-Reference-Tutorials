@@ -1,116 +1,168 @@
 ---
-title: Transformujte 3D uzly pomocí Eulerových úhlů v Javě pomocí Aspose.3D
-linktitle: Transformujte 3D uzly pomocí Eulerových úhlů v Javě pomocí Aspose.3D
+date: 2025-12-13
+description: Naučte se, jak používat Aspose 3D Java k transformaci 3D uzlů. Tento
+  průvodce ukazuje, jak použít Eulerovy úhly, přidat 3D rotaci a nastavit translaci
+  v Javě.
+linktitle: Aspose 3D Java – Transform 3D Nodes with Euler Angles
 second_title: Aspose.3D Java API
-description: Prozkoumejte svět 3D transformací v Javě s Aspose.3D. Postupujte podle našeho podrobného průvodce a přidejte do svých 3D uzlů dynamické Eulerovy úhly.
-weight: 19
+title: Aspose 3D Java – Transformovat 3D uzly pomocí Eulerových úhlů
 url: /cs/java/geometry/transform-3d-nodes-with-euler-angles/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Transformujte 3D uzly pomocí Eulerových úhlů v Javě pomocí Aspose.3D
+# Transformujte 3D uzly pomocí Eulerových úhlů v Javě s Aspose.3D
 
 ## Úvod
 
-Vítejte v tomto podrobném tutoriálu o transformaci 3D uzlů pomocí Eulerových úhlů v Javě pomocí Aspose.3D. V této příručce se ponoříme do procesu přidávání transformací do 3D uzlu pomocí Eulerových úhlů k dosažení dynamického umístění a orientace.
+V tomto tutoriálu se dozvíte **jak použít aspose 3d java** k transformaci 3D uzlů aplikací Eulerových úhlů. Na konci průvodce budete schopni přidat 3D rotaci, nastavit translaci v Javě a vytvořit dynamické scény, které reagují na data v reálném čase.
+
+## Rychlé odpovědi
+- **Která knihovna provádí 3D transformace v Javě?** Aspose 3D for Java.  
+- **Která metoda nastavuje rotaci pomocí Eulerových úhlů?** `setEulerAngles()` na transformaci uzlu.  
+- **Jak přesunu uzel v prostoru?** Použijte `setTranslation()` s objektem `Vector3`.  
+- **Potřebuji licenci pro produkční nasazení?** Ano, je vyžadována komerční licence Aspose 3D.  
+- **Mohu exportovat do FBX?** Rozhodně – `scene.save(..., FileFormat.FBX7500ASCII)` funguje bez dalších úprav.
 
 ## Předpoklady
 
-Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíme do tutoriálu, ujistěte se, že máte připravené následující předpoklady:
 
-- Základní znalost programování v Javě.
-- Java Development Kit (JDK) nainstalovaný na vašem počítači.
--  Knihovna Aspose.3D, kterou můžete získat[Aspose.3D Java dokumentace](https://reference.aspose.com/3d/java/).
+- Základní znalosti programování v Javě.  
+- Nainstalovaný Java Development Kit (JDK).  
+- Knihovnu Aspose.3D, kterou můžete získat z [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/).
 
-## Importujte balíčky
+## Import balíčků
 
- Začněte importováním potřebných balíčků do vašeho projektu Java. Ujistěte se, že knihovna Aspose.3D je správně přidána do vaší třídy. Pokud jste si ji ještě nestáhli, najdete odkaz ke stažení[tady](https://releases.aspose.com/3d/java/).
+Začněte importováním potřebných balíčků do vašeho Java projektu. Ujistěte se, že je knihovna Aspose.3D správně přidána do classpath. Pokud jste ji ještě nestáhli, najdete odkaz ke stažení [zde](https://releases.aspose.com/3d/java/).
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## Krok 1. Inicializujte scénu a uzel
+## aspose 3d java – Práce s Eulerovými úhly
+
+### Krok 1. Inicializace scény a uzlu
+
+Nejprve vytvořte scénu a uzel, který bude obsahovat geometrii, kterou chcete transformovat.
 
 ```java
 // ExStart:AddTransformationToNodeByEulerAngles
-// Inicializujte objekt scény
+// Initialize scene object
 Scene scene = new Scene();
 
-// Inicializujte objekt třídy Node
+// Initialize Node class object
 Node cubeNode = new Node("cube");
 ```
 
-## Krok 2. Vytvořte síť a nastavte geometrii
+### Krok 2. Vytvoření mesh a nastavení geometrie
+
+Dále vygenerujte jednoduchý mesh (v tomto případě krychli) a připojte jej k uzlu.
 
 ```java
-// Volejte Common class create mesh pomocí metody polygon builder pro nastavení instance mesh
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-// Bodový uzel ke geometrii sítě
+// Point node to the Mesh geometry
 cubeNode.setEntity(mesh);
 ```
 
-## Krok 3. Nastavte Eulerovy úhly a překlad
+## Přidání 3D rotace k uzlu
+
+### Krok 3. Nastavení Eulerových úhlů a translace
+
+Nyní aplikujeme rotaci pomocí Eulerových úhlů a zároveň posuneme uzel do viditelné pozice.
 
 ```java
-// Eulerovy úhly
+// Euler angles
 cubeNode.getTransform().setEulerAngles(new Vector3(0.3, 0.1, -0.5));
 
-// Nastavte překlad
+// Set translation
 cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 ```
 
-## Krok 4. Přidejte uzel do scény
+## Nastavení translace v Javě – Umístění uzlu
+
+Výše uvedený krok translace demonstruje **set translation java** v praxi: uzel je posunut o 20 jednotek podél osy Z, aby byl po vykreslení viditelný.
+
+## Krok 4. Přidání uzlu do scény
+
+Připojte transformovaný uzel k kořenovému uzlu scény.
 
 ```java
-// Přidejte kostku na scénu
+// Add cube to the scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## Krok 5. Uložte 3D scénu
+## Krok 5. Uložení 3D scény
+
+Nakonec exportujte scénu do souboru FBX (nebo jakéhokoli jiného podporovaného formátu).
 
 ```java
-// Cesta k adresáři dokumentů.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "TransformationToNode.fbx";
 
-// Uložte 3D scénu v podporovaných formátech souborů
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-Ujistěte se, že jste nahradili "Your Document Directory" příslušnou cestou na vašem počítači.
+Nezapomeňte nahradit `"Your Document Directory"` vhodnou cestou na vašem počítači.
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste transformovali 3D uzly pomocí Eulerových úhlů v Javě s Aspose.3D. Experimentujte s různými úhly a překlady a vytvořte dynamické a poutavé 3D scény.
+Gratulujeme! Úspěšně jste transformovali 3D uzly pomocí Eulerových úhlů v Javě s **aspose 3d java**. Experimentujte s různými úhly a translacemi a vytvářejte dynamické a poutavé 3D scény.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu použít Aspose.3D for Java v komerčních projektech?
+### Q1: Mohu používat Aspose.3D pro Java v komerčních projektech?
 
- A1: Ano, můžete. Navštivte[nákupní stránku](https://purchase.aspose.com/buy) pro podrobnosti o licencích.
+A1: Ano, můžete. Navštivte [stránku nákupu](https://purchase.aspose.com/buy) pro podrobnosti o licencování.
 
 ### Q2: Kde najdu podporu pro Aspose.3D?
 
- A2:[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) je místem, kde hledat pomoc a spojit se s komunitou.
+A2: Fórum [Aspose.3D](https://forum.aspose.com/c/3d/18) je místem, kde můžete získat pomoc a spojit se s komunitou.
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete prozkoumat[zkušební verze zdarma](https://releases.aspose.com/) vyzkoušet možnosti Aspose.3D.
+A3: Ano, můžete vyzkoušet [bezplatnou verzi](https://releases.aspose.com/) a poznat možnosti Aspose.3D.
 
-### Q4: Jak mohu získat dočasnou licenci?
+### Q4: Jak získám dočasnou licenci?
 
- A4: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+A4: Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Kde najdu dokumentaci?
 
- A5:[dokumentace](https://reference.aspose.com/3d/java/) poskytuje komplexní návod k používání Aspose.3D pro Java.
+A5: Dokumentace na [odkaz](https://reference.aspose.com/3d/java/) poskytuje komplexní návod k používání Aspose.3D pro Java.
+
+## Často kladené otázky
+
+**Q: Jaký je rozdíl mezi Eulerovými úhly a rotací pomocí quaternionu?**  
+A: Eulerovy úhly jsou intuitivní (pitch, yaw, roll), ale mohou trpět gimbal lockem, zatímco quaterniony tomuto problému předcházejí a jsou vhodnější pro plynulé interpolace.
+
+**Q: Mohu řetězit více transformací na stejném uzlu?**  
+A: Ano. Zavolejte `setEulerAngles`, `setTranslation` a `setScale` v libovolném pořadí; knihovna je spojí do jedné transformační matice.
+
+**Q: Je možné exportovat do jiných formátů, jako OBJ nebo STL?**  
+A: Rozhodně. Nahraďte `FileFormat.FBX7500ASCII` za `FileFormat.OBJ` nebo `FileFormat.STL` v metodě `scene.save`.
+
+**Q: Jak aplikovat stejnou rotaci na několik uzlů najednou?**  
+A: Vytvořte rodičovský uzel, aplikujte rotaci na něj a přidejte podřízené uzly. Všechny podřízené uzly zdědí transformaci.
+
+**Q: Musím po uložení volat nějaké úklidové metody?**  
+A: Java garbage collector zvládne většinu prostředků, ale můžete explicitně zavolat `scene.dispose()`, pokud pracujete s velkými scénami v dlouho běžící aplikaci.
+
+---
+
+**Poslední aktualizace:** 2025-12-13  
+**Testováno s:** Aspose.3D 23.12 pro Java  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

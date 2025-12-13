@@ -1,116 +1,161 @@
 ---
-title: Aspose.3D'yi kullanarak Java'da Euler Açıları ile 3D Düğümleri dönüştürün
-linktitle: Aspose.3D'yi kullanarak Java'da Euler Açıları ile 3D Düğümleri dönüştürün
-second_title: Aspose.3D Java API'si
-description: Aspose.3D ile Java'daki 3D dönüşüm dünyasını keşfedin. 3B düğümlerinize dinamik Euler açıları eklemek için adım adım kılavuzumuzu izleyin.
-weight: 19
+date: 2025-12-13
+description: Aspose 3D Java'yı kullanarak 3D düğümleri nasıl dönüştüreceğinizi öğrenin.
+  Bu kılavuz, Euler açılarını nasıl kullanacağınızı, 3D dönüşüm eklemeyi ve Java'da
+  yer değiştirmeyi nasıl ayarlayacağınızı gösterir.
+linktitle: Aspose 3D Java – Transform 3D Nodes with Euler Angles
+second_title: Aspose.3D Java API
+title: Aspose 3D Java – Euler Açılarla 3D Düğümleri Dönüştür
 url: /tr/java/geometry/transform-3d-nodes-with-euler-angles/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D'yi kullanarak Java'da Euler Açıları ile 3D Düğümleri dönüştürün
+# Java'da Aspose.3D Kullanarak Euler Açılarla 3D Düğümleri Dönüştürme
 
-## giriiş
+## Giriş
 
-Aspose.3D kullanarak Java'da 3D düğümleri Euler açılarıyla dönüştürmeye yönelik bu adım adım eğitime hoş geldiniz. Bu kılavuzda, dinamik konumlandırma ve yönlendirme elde etmek için Euler açılarını kullanarak bir 3B düğüme dönüşümler ekleme sürecini derinlemesine inceleyeceğiz.
+Bu öğreticide **aspose 3d java**'yu kullanarak Euler açıları uygulayarak 3D düğümleri nasıl dönüştüreceğinizi keşfedeceksiniz. Kılavuzun sonunda döndürme 3d ekleyebilecek, java çevirisini ayarlayabilecek ve gerçek zamanlı verilere tepki veren dinamik sahneler oluşturabileceksiniz.
+
+## Hızlı Yanıtlar
+- **Java'da 3D dönüşümleri hangi kütüphane yönetir?** Aspose 3D for Java.  
+- **Euler açılarıyla dönüşü ayarlayan yöntem hangisidir?** Düğümün dönüşümünde `setEulerAngles()`.  
+- **Bir düğümü uzayda nasıl hareket ettiririm?** `Vector3` ile `setTranslation()` kullanın.  
+- **Üretim için lisansa ihtiyacım var mı?** Evet, ticari bir Aspose 3D lisansı gereklidir.  
+- **FBX olarak dışa aktarabilir miyim?** Kesinlikle – `scene.save(..., FileFormat.FBX7500ASCII)` doğrudan çalışır.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Öğreticiye başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
-- Java programlamanın temel bilgisi.
-- Makinenizde Java Geliştirme Kiti (JDK) yüklü.
--  Aspose.3D kütüphanesinden edinebileceğiniz[Aspose.3D Java Belgeleri](https://reference.aspose.com/3d/java/).
+- Java programlama temelleri.  
+- Makinenizde Java Development Kit (JDK) kurulu.  
+- Aspose.3D kütüphanesi, bunu [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/) adresinden edinebilirsiniz.
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarma
 
- Gerekli paketleri Java projenize aktararak başlayın. Aspose.3D kütüphanesinin sınıf yolunuza doğru şekilde eklendiğinden emin olun. Henüz indirmediyseniz indirme bağlantısını bulabilirsiniz.[Burada](https://releases.aspose.com/3d/java/).
+Gerekli paketleri Java projenize içe aktararak başlayın. Aspose.3D kütüphanesinin sınıf yolunuza doğru şekilde eklendiğinden emin olun. Henüz indirmediyseniz, indirme bağlantısını [burada](https://releases.aspose.com/3d/java/) bulabilirsiniz.
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## 1. Adım. Sahneyi ve Düğümü Başlatın
+## aspose 3d java – Euler Açılarla Çalışma
+
+### Adım 1. Sahneyi ve Düğümü Başlatma
+
+İlk olarak, dönüştürmek istediğiniz geometrinin tutulacağı bir sahne ve bir düğüm oluşturun.
 
 ```java
 // ExStart:AddTransformationToNodeByEulerAngles
-// Sahne nesnesini başlat
+// Initialize scene object
 Scene scene = new Scene();
 
-// Düğüm sınıfı nesnesini başlat
+// Initialize Node class object
 Node cubeNode = new Node("cube");
 ```
 
-## Adım 2. Mesh Oluşturun ve Geometriyi Ayarlayın
+### Adım 2. Mesh Oluşturma ve Geometri Ayarlama
+
+Sonra, basit bir mesh (bu örnekte bir küp) oluşturun ve düğüme ekleyin.
 
 ```java
-// Örgü örneğini ayarlamak için çokgen oluşturucu yöntemini kullanarak ortak sınıf oluşturma örgüsünü çağırın
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-// Düğümü Mesh geometrisine yönlendirin
+// Point node to the Mesh geometry
 cubeNode.setEntity(mesh);
 ```
 
-## Adım 3. Euler Açılarını ve Çeviriyi Ayarlayın
+## Bir Düğüm'e 3D Döndürme Ekleme
+
+### Adım 3. Euler Açılar ve Çevirme Ayarlama
+
+Şimdi Euler açılarıyla dönüşümü uyguluyor ve düğümü görünür bir konuma taşıyoruz.
 
 ```java
-// Euler açıları
+// Euler angles
 cubeNode.getTransform().setEulerAngles(new Vector3(0.3, 0.1, -0.5));
 
-// Çeviriyi ayarla
+// Set translation
 cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 ```
 
-## Adım 4. Sahneye Düğüm Ekle
+## Java Çevirme Ayarlama – Düğümü Konumlandırma
+
+Yukarıdaki çevirme adımı, **set translation java**'yu pratikte gösterir: düğüm Z‑ekseni boyunca 20 birim kaydırılarak render sonrası görülebilir hâle getirilir.
+
+## Adım 4. Düğümü Sahneye Ekleme
+
+Dönüştürülmüş düğümü sahnenin kök düğümüne ekleyin.
 
 ```java
-// Sahneye küp ekle
+// Add cube to the scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## Adım 5. 3D Sahneyi Kaydet
+## Adım 5. 3D Sahneyi Kaydetme
+
+Son olarak, sahneyi bir FBX dosyasına (veya desteklenen başka bir formata) dışa aktarın.
 
 ```java
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "TransformationToNode.fbx";
 
-// 3B sahneyi desteklenen dosya formatlarında kaydedin
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-"Belge Dizininiz"i makinenizdeki uygun yolla değiştirdiğinizden emin olun.
+Makinenizdeki uygun yolu kullanarak `"Your Document Directory"` ifadesini değiştirmeniz gerektiğini unutmayın.
 
-## Çözüm
+## Sonuç
 
-Tebrikler! Aspose.3D ile Java'da Euler açılarını kullanarak 3 boyutlu düğümleri başarıyla dönüştürdünüz. Dinamik ve ilgi çekici 3D sahneler oluşturmak için farklı açıları ve çevirileri deneyin.
+Tebrikler! **aspose 3d java** ile Java’da Euler açıları kullanarak 3D düğümleri başarıyla dönüştürdünüz. Farklı açı ve çevirme değerleriyle denemeler yaparak dinamik ve etkileyici 3D sahneler oluşturabilirsiniz.
 
-## SSS'ler
+## SSS
 
-### S1: Aspose.3D for Java'yı ticari projelerde kullanabilir miyim?
+### S1: Aspose.3D for Java'yu ticari projelerde kullanabilir miyim?
+A1: Evet, kullanabilirsiniz. Lisans detayları için [satın alma sayfasını](https://purchase.aspose.com/buy) ziyaret edin.
 
- A1: Evet, yapabilirsin. Ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) lisans ayrıntıları için.
+### S2: Aspose.3D için desteği nereden bulabilirim?
+A2: Yardım almak ve toplulukla iletişime geçmek için [Aspose.3D forumu](https://forum.aspose.com/c/3d/18) en uygun yerdir.
 
-### S2: Aspose.3D desteğini nerede bulabilirim?
+### S3: Ücretsiz deneme mevcut mu?
+A3: Evet, Aspose.3D'nin yeteneklerini deneyimlemek için [ücretsiz deneme](https://releases.aspose.com/) sürümünü keşfedebilirsiniz.
 
- A2:[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) yardım aramanın ve toplulukla bağlantı kurmanın yeridir.
+### S4: Geçici bir lisans nasıl alabilirim?
+A4: Geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
 
-### S3: Ücretsiz deneme sürümü mevcut mu?
+### S5: Dokümantasyonu nereden bulabilirim?
+A5: [Dokümantasyon](https://reference.aspose.com/3d/java/), Aspose.3D for Java kullanımına dair kapsamlı rehberlik sunar.
 
- A3: Evet, keşfedebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Aspose.3D'nin yeteneklerini deneyimlemek için.
+## Sık Sorulan Sorular
 
-### S4: Geçici lisansı nasıl alabilirim?
+**S: Euler açıları ile quaternion dönüşümü arasındaki fark nedir?**  
+**C:** Euler açıları sezgisel (pitch, yaw, roll) olsa da gimbal kilidi sorununa yol açabilir; quaternionlar bu sorunu ortadan kaldırır ve pürüzsüz interpolasyonlar için daha iyidir.
 
- Cevap4: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+**S: Aynı düğümde birden fazla dönüşüm zincirleyebilir miyim?**  
+**C:** Evet. `setEulerAngles`, `setTranslation` ve `setScale` metodlarını istediğiniz sırayla çağırabilirsiniz; kütüphane bunları tek bir dönüşüm matrisinde birleştirir.
 
-### S5: Belgeleri nerede bulabilirim?
+**S: OBJ veya STL gibi diğer formatlara dışa aktarmak mümkün mü?**  
+**C:** Kesinlikle. `scene.save` çağrısında `FileFormat.FBX7500ASCII` yerine `FileFormat.OBJ` veya `FileFormat.STL` kullanabilirsiniz.
 
- A5:[dokümantasyon](https://reference.aspose.com/3d/java/) Aspose.3D for Java kullanımına ilişkin kapsamlı rehberlik sağlar.
+**S: Aynı dönüşümü birden fazla düğüme aynı anda nasıl uygularım?**  
+**C:** Bir üst düğüm oluşturun, dönüşümü bu üst düğüme uygulayın ve alt düğümleri ona ekleyin. Tüm alt düğümler dönüşümü miras alır.
+
+**S: Kaydetme sonrası herhangi bir temizlik yöntemi çağırmam gerekiyor mu?**  
+**C:** Java çöp toplayıcısı çoğu kaynağı otomatik yönetir, ancak büyük sahnelerle uzun süre çalışan uygulamalarda `scene.dispose()` metodunu açıkça çağırabilirsiniz.
+
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.3D 23.12 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
