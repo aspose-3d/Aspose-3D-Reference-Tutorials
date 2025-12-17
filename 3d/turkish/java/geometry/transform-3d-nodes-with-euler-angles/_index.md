@@ -118,23 +118,6 @@ Makinenizdeki uygun yolu kullanarak `"Your Document Directory"` ifadesini deği�
 
 Tebrikler! **aspose 3d java** ile Java’da Euler açıları kullanarak 3D düğümleri başarıyla dönüştürdünüz. Farklı açı ve çevirme değerleriyle denemeler yaparak dinamik ve etkileyici 3D sahneler oluşturabilirsiniz.
 
-## SSS
-
-### S1: Aspose.3D for Java'yu ticari projelerde kullanabilir miyim?
-A1: Evet, kullanabilirsiniz. Lisans detayları için [satın alma sayfasını](https://purchase.aspose.com/buy) ziyaret edin.
-
-### S2: Aspose.3D için desteği nereden bulabilirim?
-A2: Yardım almak ve toplulukla iletişime geçmek için [Aspose.3D forumu](https://forum.aspose.com/c/3d/18) en uygun yerdir.
-
-### S3: Ücretsiz deneme mevcut mu?
-A3: Evet, Aspose.3D'nin yeteneklerini deneyimlemek için [ücretsiz deneme](https://releases.aspose.com/) sürümünü keşfedebilirsiniz.
-
-### S4: Geçici bir lisans nasıl alabilirim?
-A4: Geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
-
-### S5: Dokümantasyonu nereden bulabilirim?
-A5: [Dokümantasyon](https://reference.aspose.com/3d/java/), Aspose.3D for Java kullanımına dair kapsamlı rehberlik sunar.
-
 ## Sık Sorulan Sorular
 
 **S: Euler açıları ile quaternion dönüşümü arasındaki fark nedir?**  
@@ -151,6 +134,8 @@ A5: [Dokümantasyon](https://reference.aspose.com/3d/java/), Aspose.3D for Java 
 
 **S: Kaydetme sonrası herhangi bir temizlik yöntemi çağırmam gerekiyor mu?**  
 **C:** Java çöp toplayıcısı çoğu kaynağı otomatik yönetir, ancak büyük sahnelerle uzun süre çalışan uygulamalarda `scene.dispose()` metodunu açıkça çağırabilirsiniz.
+
+---
 
 **Last Updated:** 2025-12-13  
 **Tested With:** Aspose.3D 23.12 for Java  

@@ -118,28 +118,6 @@ Pastikan untuk mengganti `"Your Document Directory"` dengan jalur yang sesuai di
 
 Selamat! Anda telah berhasil mentransformasi node 3D menggunakan sudut Euler di Java dengan **aspose 3d java**. Bereksperimenlah dengan berbagai sudut dan translasi untuk membuat adegan 3D yang dinamis dan menarik.
 
-## FAQ
-
-### Q1: Can I use Aspose.3D for Java in commercial projects?
-
-A1: Ya, Anda dapat. Kunjungi [halaman pembelian](https://purchase.aspose.com/buy) untuk detail lisensi.
-
-### Q2: Where can I find support for Aspose.3D?
-
-A2: [Forum Aspose.3D](https://forum.aspose.com/c/3d/18) adalah tempat untuk mencari bantuan dan terhubung dengan komunitas.
-
-### Q3: Is there a free trial available?
-
-A3: Ya, Anda dapat menjelajahi [versi percobaan gratis](https://releases.aspose.com/) untuk merasakan kemampuan Aspose.3D.
-
-### Q4: How can I obtain a temporary license?
-
-A4: Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Where can I find the documentation?
-
-A5: [Dokumentasi](https://reference.aspose.com/3d/java/) menyediakan panduan komprehensif tentang penggunaan Aspose.3D untuk Java.
-
 ## Frequently Asked Questions
 
 **Q: Apa perbedaan antara sudut Euler dan rotasi kuaternion?**  

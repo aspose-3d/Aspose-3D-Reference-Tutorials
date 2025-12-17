@@ -116,28 +116,6 @@ Make sure to replace `"Your Document Directory"` with the appropriate path on yo
 
 Congratulations! You've successfully transformed 3D nodes using Euler angles in Java with **aspose 3d java**. Experiment with different angles and translations to create dynamic and engaging 3D scenes.
 
-## FAQ's
-
-### Q1: Can I use Aspose.3D for Java in commercial projects?
-
-A1: Yes, you can. Visit the [purchase page](https://purchase.aspose.com/buy) for licensing details.
-
-### Q2: Where can I find support for Aspose.3D?
-
-A2: The [Aspose.3D forum](https://forum.aspose.com/c/3d/18) is the place to seek assistance and connect with the community.
-
-### Q3: Is there a free trial available?
-
-A3: Yes, you can explore the [free trial](https://releases.aspose.com/) to experience the capabilities of Aspose.3D.
-
-### Q4: How can I obtain a temporary license?
-
-A4: You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Where can I find the documentation?
-
-A5: The [documentation](https://reference.aspose.com/3d/java/) provides comprehensive guidance on using Aspose.3D for Java.
-
 ## Frequently Asked Questions
 
 **Q: What is the difference between Euler angles and quaternion rotation?**  

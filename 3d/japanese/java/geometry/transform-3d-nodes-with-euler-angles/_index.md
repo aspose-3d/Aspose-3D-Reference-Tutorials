@@ -117,28 +117,6 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 
 おめでとうございます！**aspose 3d java** を使用して Java で Euler 角により 3D ノードを正常に変換できました。さまざまな角度や平行移動を試して、動的で魅力的な 3D シーンを作成してください。
 
-## FAQ's
-
-### Q1: Aspose.3D for Java を商用プロジェクトで使用できますか？
-
-A1: はい、使用できます。ライセンスの詳細は [purchase page](https://purchase.aspose.com/buy) をご覧ください。
-
-### Q2: Aspose.3D のサポートはどこで得られますか？
-
-A2: [Aspose.3D forum](https://forum.aspose.com/c/3d/18) が支援を求め、コミュニティとつながる場所です。
-
-### Q3: 無料トライアルはありますか？
-
-A3: はい、[free trial](https://releases.aspose.com/) で Aspose.3D の機能を体験できます。
-
-### Q4: 一時ライセンスはどのように取得できますか？
-
-A4: [here](https://purchase.aspose.com/temporary-license/) から一時ライセンスを取得できます。
-
-### Q5: ドキュメントはどこで見つけられますか？
-
-A5: [documentation](https://reference.aspose.com/3d/java/) に Aspose.3D for Java の包括的なガイドがあります。
-
 ## Frequently Asked Questions
 
 **Q: Euler角とクォータニオン回転の違いは何ですか？**  

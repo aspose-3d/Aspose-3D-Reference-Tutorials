@@ -120,28 +120,6 @@ Gratulujeme! Úspěšně jste transformovali 3D uzly pomocí Eulerových úhlů 
 
 ## Často kladené otázky
 
-### Q1: Mohu používat Aspose.3D pro Java v komerčních projektech?
-
-A1: Ano, můžete. Navštivte [stránku nákupu](https://purchase.aspose.com/buy) pro podrobnosti o licencování.
-
-### Q2: Kde najdu podporu pro Aspose.3D?
-
-A2: Fórum [Aspose.3D](https://forum.aspose.com/c/3d/18) je místem, kde můžete získat pomoc a spojit se s komunitou.
-
-### Q3: Je k dispozici bezplatná zkušební verze?
-
-A3: Ano, můžete vyzkoušet [bezplatnou verzi](https://releases.aspose.com/) a poznat možnosti Aspose.3D.
-
-### Q4: Jak získám dočasnou licenci?
-
-A4: Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Kde najdu dokumentaci?
-
-A5: Dokumentace na [odkaz](https://reference.aspose.com/3d/java/) poskytuje komplexní návod k používání Aspose.3D pro Java.
-
-## Často kladené otázky
-
 **Q: Jaký je rozdíl mezi Eulerovými úhly a rotací pomocí quaternionu?**  
 A: Eulerovy úhly jsou intuitivní (pitch, yaw, roll), ale mohou trpět gimbal lockem, zatímco quaterniony tomuto problému předcházejí a jsou vhodnější pro plynulé interpolace.
 

@@ -118,28 +118,6 @@ Stellen Sie sicher, dass Sie `"Your Document Directory"` durch den entsprechende
 
 Herzlichen Glückwunsch! Sie haben erfolgreich 3D‑Knoten mit Euler‑Winkeln in Java mittels **aspose 3d java** transformiert. Experimentieren Sie mit verschiedenen Winkeln und Translationen, um dynamische und ansprechende 3D‑Szenen zu erstellen.
 
-## FAQ's
-
-### Q1: Kann ich Aspose.3D für Java in kommerziellen Projekten verwenden?
-
-A1: Ja, das können Sie. Besuchen Sie die [Kaufseite](https://purchase.aspose.com/buy) für Lizenzdetails.
-
-### Q2: Wo finde ich Support für Aspose.3D?
-
-A2: Das [Aspose.3D‑Forum](https://forum.aspose.com/c/3d/18) ist der Ort, um Hilfe zu erhalten und sich mit der Community zu vernetzen.
-
-### Q3: Gibt es eine kostenlose Testversion?
-
-A3: Ja, Sie können die [kostenlose Testversion](https://releases.aspose.com/) ausprobieren, um die Möglichkeiten von Aspose.3D zu erleben.
-
-### Q4: Wie kann ich eine temporäre Lizenz erhalten?
-
-A4: Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erhalten.
-
-### Q5: Wo finde ich die Dokumentation?
-
-A5: Die [Dokumentation](https://reference.aspose.com/3d/java/) bietet umfassende Anleitungen zur Verwendung von Aspose.3D für Java.
-
 ## Häufig gestellte Fragen
 
 **Q: Was ist der Unterschied zwischen Euler‑Winkeln und Quaternion‑Rotation?**  

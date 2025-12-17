@@ -113,32 +113,6 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 
 Certifique‑se de substituir `"Your Document Directory"` pelo caminho apropriado na sua máquina.
 
-## Conclusão
-
-Parabéns! Você transformou nós 3D com sucesso usando ângulos de Euler em Java com **aspose 3d java**. Experimente diferentes ângulos e translações para criar cenas 3D dinâmicas e envolventes.
-
-## Perguntas Frequentes
-
-### Q1: Posso usar Aspose.3D para Java em projetos comerciais?
-
-A1: Sim, você pode. Visite a [página de compra](https://purchase.aspose.com/buy) para detalhes de licenciamento.
-
-### Q2: Onde posso encontrar suporte para Aspose.3D?
-
-A2: O [fórum Aspose.3D](https://forum.aspose.com/c/3d/18) é o local para buscar assistência e conectar‑se com a comunidade.
-
-### Q3: Existe uma versão de avaliação gratuita disponível?
-
-A3: Sim, você pode explorar o [teste gratuito](https://releases.aspose.com/) para experimentar as capacidades do Aspose.3D.
-
-### Q4: Como posso obter uma licença temporária?
-
-A4: Você pode obter uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Onde posso encontrar a documentação?
-
-A5: A [documentação](https://reference.aspose.com/3d/java/) fornece orientações abrangentes sobre o uso do Aspose.3D para Java.
-
 ## Perguntas Frequentes
 
 **Q: Qual é a diferença entre ângulos de Euler e rotação por quaternion?**  

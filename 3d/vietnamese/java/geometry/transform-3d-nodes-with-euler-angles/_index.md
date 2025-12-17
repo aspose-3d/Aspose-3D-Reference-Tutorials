@@ -119,28 +119,6 @@ Chúc mừng! Bạn đã thành công biến đổi các nút 3D bằng góc Eul
 
 ## Câu hỏi thường gặp
 
-### Q1: Tôi có thể sử dụng Aspose.3D cho Java trong các dự án thương mại không?
-
-A1: Có, bạn có thể. Tham khảo [purchase page](https://purchase.aspose.com/buy) để biết chi tiết giấy phép.
-
-### Q2: Tôi có thể tìm hỗ trợ cho Aspose.3D ở đâu?
-
-A2: [Aspose.3D forum](https://forum.aspose.com/c/3d/18) là nơi bạn có thể tìm trợ giúp và kết nối với cộng đồng.
-
-### Q3: Có bản dùng thử miễn phí không?
-
-A3: Có, bạn có thể khám phá [free trial](https://releases.aspose.com/) để trải nghiệm các tính năng của Aspose.3D.
-
-### Q4: Làm sao để tôi có được giấy phép tạm thời?
-
-A4: Bạn có thể nhận giấy phép tạm thời [here](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Tôi có thể tìm tài liệu ở đâu?
-
-A5: [documentation](https://reference.aspose.com/3d/java/) cung cấp hướng dẫn chi tiết về việc sử dụng Aspose.3D cho Java.
-
-## Câu hỏi thường gặp
-
 **Q: Sự khác biệt giữa góc Euler và quay quaternion là gì?**  
 A: Góc Euler trực quan (pitch, yaw, roll) nhưng có thể gặp hiện tượng gimbal lock, trong khi quaternion tránh được vấn đề này và phù hợp hơn cho các nội suy mượt mà.
 
@@ -155,6 +133,8 @@ A: Tạo một node cha, áp dụng quay cho node cha, sau đó thêm các node 
 
 **Q: Tôi có cần gọi bất kỳ phương thức dọn dẹp nào sau khi lưu không?**  
 A: Trình thu gom rác Java sẽ xử lý hầu hết tài nguyên, nhưng bạn có thể gọi rõ ràng `scene.dispose()` nếu làm việc với các scene lớn trong ứng dụng chạy lâu.
+
+---
 
 **Last Updated:** 2025-12-13  
 **Tested With:** Aspose.3D 23.12 for Java  

@@ -118,28 +118,6 @@ Upewnij się, że zamieniłeś `"Your Document Directory"` na odpowiednią ście
 
 Gratulacje! Pomyślnie przekształciłeś węzły 3D przy użyciu kątów Eulera w Javie z **aspose 3d java**. Eksperymentuj z różnymi kątami i translacjami, aby tworzyć dynamiczne i angażujące sceny 3D.
 
-## FAQ
-
-### P1: Czy mogę używać Aspose.3D dla Javy w projektach komercyjnych?
-
-O1: Tak, możesz. Odwiedź [stronę zakupu](https://purchase.aspose.com/buy) po szczegóły licencjonowania.
-
-### P2: Gdzie mogę znaleźć wsparcie dla Aspose.3D?
-
-O2: [Forum Aspose.3D](https://forum.aspose.com/c/3d/18) to miejsce, aby uzyskać pomoc i połączyć się ze społecznością.
-
-### P3: Czy dostępna jest darmowa wersja próbna?
-
-O3: Tak, możesz wypróbować [darmową wersję próbną](https://releases.aspose.com/), aby poznać możliwości Aspose.3D.
-
-### P4: Jak mogę uzyskać tymczasową licencję?
-
-O4: Tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
-
-### P5: Gdzie mogę znaleźć dokumentację?
-
-O5: [Dokumentacja](https://reference.aspose.com/3d/java/) zapewnia kompleksowe wskazówki dotyczące używania Aspose.3D dla Javy.
-
 ## Najczęściej zadawane pytania
 
 **Q:** Jaka jest różnica między kątami Eulera a rotacją kwaternionową?  

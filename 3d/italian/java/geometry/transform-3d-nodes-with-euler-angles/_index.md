@@ -118,23 +118,6 @@ Assicurati di sostituire `"Your Document Directory"` con il percorso appropriato
 
 Congratulazioni! Hai trasformato con successo i nodi 3D usando gli angoli di Eulero in Java con **aspose 3d java**. Sperimenta con angoli e traduzioni diversi per creare scene 3D dinamiche e coinvolgenti.
 
-## FAQ
-
-### Q1: Posso usare Aspose.3D per Java in progetti commerciali?
-A1: Sì, puoi. Visita la [pagina di acquisto](https://purchase.aspose.com/buy) per i dettagli sulla licenza.
-
-### Q2: Dove posso trovare supporto per Aspose.3D?
-A2: Il [forum Aspose.3D](https://forum.aspose.com/c/3d/18) è il luogo dove chiedere assistenza e connettersi con la community.
-
-### Q3: È disponibile una prova gratuita?
-A3: Sì, puoi provare la [versione di prova gratuita](https://releases.aspose.com/) per sperimentare le funzionalità di Aspose.3D.
-
-### Q4: Come posso ottenere una licenza temporanea?
-A4: Puoi ottenere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Dove posso trovare la documentazione?
-A5: La [documentazione](https://reference.aspose.com/3d/java/) fornisce una guida completa sull'uso di Aspose.3D per Java.
-
 ## Domande frequenti
 
 **Q: Qual è la differenza tra gli angoli di Eulero e la rotazione quaternion?**  

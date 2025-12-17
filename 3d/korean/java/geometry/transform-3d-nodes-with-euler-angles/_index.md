@@ -117,28 +117,6 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 
 축하합니다! **aspose 3d java**를 사용해 Java에서 Euler 각도로 3D 노드를 성공적으로 변환했습니다. 다양한 각도와 변환을 실험해 동적이고 매력적인 3D 씬을 만들어 보세요.
 
-## FAQ's
-
-### Q1: Aspose.3D for Java를 상업 프로젝트에 사용할 수 있나요?
-
-A1: 예, 사용할 수 있습니다. 라이선스 상세 정보는 [purchase page](https://purchase.aspose.com/buy)에서 확인하세요.
-
-### Q2: Aspose.3D에 대한 지원을 어디서 찾을 수 있나요?
-
-A2: 커뮤니티와 도움을 받을 수 있는 곳은 [Aspose.3D forum](https://forum.aspose.com/c/3d/18)입니다.
-
-### Q3: 무료 체험판이 있나요?
-
-A3: 예, [free trial](https://releases.aspose.com/)을 통해 Aspose.3D의 기능을 체험할 수 있습니다.
-
-### Q4: 임시 라이선스를 어떻게 얻나요?
-
-A4: 임시 라이선스는 [here](https://purchase.aspose.com/temporary-license/)에서 받을 수 있습니다.
-
-### Q5: 문서는 어디서 찾을 수 있나요?
-
-A5: 자세한 가이드는 [documentation](https://reference.aspose.com/3d/java/)을 참고하세요.
-
 ## Frequently Asked Questions
 
 **Q: Euler 각도와 quaternion 회전의 차이는 무엇인가요?**  

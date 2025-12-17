@@ -120,28 +120,6 @@ Grattis! Du har framgångsrikt transformerat 3D-noder med Euler-vinklar i Java m
 
 ## Vanliga frågor
 
-### Q1: Kan jag använda Aspose.3D för Java i kommersiella projekt?
-
-A1: Ja, det kan du. Besök [köpsidan](https://purchase.aspose.com/buy) för licensinformation.
-
-### Q2: Var kan jag hitta support för Aspose.3D?
-
-A2: [Aspose.3D-forumet](https://forum.aspose.com/c/3d/18) är platsen för att söka hjälp och ansluta till communityn.
-
-### Q3: Finns det en gratis provperiod tillgänglig?
-
-A3: Ja, du kan utforska [gratis provperiod](https://releases.aspose.com/) för att uppleva funktionerna i Aspose.3D.
-
-### Q4: Hur kan jag få en tillfällig licens?
-
-A4: Du kan få en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Var kan jag hitta dokumentationen?
-
-A5: [Dokumentationen](https://reference.aspose.com/3d/java/) ger omfattande vägledning för att använda Aspose.3D för Java.
-
-## Vanliga frågor
-
 **Q: Vad är skillnaden mellan Euler-vinklar och kvaternionrotation?**  
 A: Euler-vinklar är intuitiva (pitch, yaw, roll) men kan drabbas av gimbal lock, medan kvaternioner undviker detta problem och är bättre för jämna interpolationer.
 

@@ -118,28 +118,6 @@ Győződj meg róla, hogy a `"Your Document Directory"`‑t a géped megfelelő 
 
 Gratulálunk! Sikeresen transzformáltad a 3D csomópontokat Euler‑szögekkel Java‑ban a **aspose 3d java** segítségével. Kísérletezz különböző szögekkel és fordításokkal, hogy dinamikus és lebilincselő 3D jeleneteket hozz létre.
 
-## FAQ's
-
-### Q1: Használhatom az Aspose.3D for Java‑t kereskedelmi projektekben?
-
-A1: Igen, használhatod. Látogasd meg a [purchase page](https://purchase.aspose.com/buy) oldalt a licencelési részletekért.
-
-### Q2: Hol találok támogatást az Aspose.3D‑hez?
-
-A2: A [Aspose.3D forum](https://forum.aspose.com/c/3d/18) a megfelelő hely a segítségkéréshez és a közösséggel való kapcsolattartáshoz.
-
-### Q3: Van ingyenes próbaverzió?
-
-A3: Igen, a [free trial](https://releases.aspose.com/) segítségével kipróbálhatod az Aspose.3D képességeit.
-
-### Q4: Hogyan szerezhetek ideiglenes licencet?
-
-A4: Ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/) szerezhetsz.
-
-### Q5: Hol találom a dokumentációt?
-
-A5: A [documentation](https://reference.aspose.com/3d/java/) átfogó útmutatót nyújt az Aspose.3D for Java használatához.
-
 ## Frequently Asked Questions
 
 **Q: Mi a különbség az Euler‑szögek és a kvaternion forgatás között?**  

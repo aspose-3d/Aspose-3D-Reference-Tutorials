@@ -116,28 +116,6 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 
 恭喜！您已成功使用 **aspose 3d java** 在 Java 中通过欧拉角转换了 3D 节点。尝试不同的角度和平移，创建动态且引人入胜的 3D 场景。
 
-## 常见问题
-
-### Q1: 可以在商业项目中使用 Aspose.3D for Java 吗？
-
-A1: 可以。请访问 [purchase page](https://purchase.aspose.com/buy) 获取许可证详情。
-
-### Q2: 在哪里可以找到 Aspose.3D 的支持？
-
-A2: 请前往 [Aspose.3D forum](https://forum.aspose.com/c/3d/18) 寻求帮助并与社区交流。
-
-### Q3: 是否提供免费试用？
-
-A3: 是的，您可以探索 [free trial](https://releases.aspose.com/) 以体验 Aspose.3D 的功能。
-
-### Q4: 如何获取临时许可证？
-
-A4: 您可以在此处获取临时许可证 [here](https://purchase.aspose.com/temporary-license/)。
-
-### Q5: 文档在哪里可以找到？
-
-A5: 请查看 [documentation](https://reference.aspose.com/3d/java/) 获取关于 Aspose.3D for Java 的完整指南。
-
 ## Frequently Asked Questions
 
 **Q: 欧拉角和四元数旋转有什么区别？**  

@@ -120,28 +120,6 @@ Gefeliciteerd! Je hebt met succes 3D‑knooppunten getransformeerd met Euler‑h
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.3D voor Java gebruiken in commerciële projecten?
-
-A1: Ja, dat kan. Bezoek de [purchase page](https://purchase.aspose.com/buy) voor licentie‑details.
-
-### V2: Waar kan ik ondersteuning vinden voor Aspose.3D?
-
-A2: Het [Aspose.3D forum](https://forum.aspose.com/c/3d/18) is de plek om hulp te zoeken en contact te maken met de community.
-
-### V3: Is er een gratis proefversie beschikbaar?
-
-A3: Ja, je kunt de [free trial](https://releases.aspose.com/) verkennen om de mogelijkheden van Aspose.3D te ervaren.
-
-### V4: Hoe kan ik een tijdelijke licentie verkrijgen?
-
-A4: Je kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
-
-### V5: Waar kan ik de documentatie vinden?
-
-A5: De [documentation](https://reference.aspose.com/3d/java/) biedt uitgebreide begeleiding voor het gebruik van Aspose.3D voor Java.
-
-## Veelgestelde vragen
-
 **V: Wat is het verschil tussen Euler‑hoeken en quaternionrotatie?**  
 A: Euler‑hoeken zijn intuïtief (pitch, yaw, roll) maar kunnen lijden onder gimbal lock, terwijl quaternions dat probleem vermijden en beter zijn voor vloeiende interpolaties.
 
