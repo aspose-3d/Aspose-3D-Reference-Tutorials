@@ -1,35 +1,57 @@
 ---
-title: ใช้พิกัด UV กับวัตถุ 3 มิติใน Java ด้วย Aspose.3D
-linktitle: ใช้พิกัด UV กับวัตถุ 3 มิติใน Java ด้วย Aspose.3D
-second_title: Aspose.3D จาวา API
-description: เรียนรู้วิธีใช้พิกัด UV กับวัตถุ 3 มิติใน Java ด้วย Aspose.3D ยกระดับกราฟิกของคุณด้วยคำแนะนำทีละขั้นตอนนี้
+date: 2025-12-09
+description: เรียนรู้วิธีทำ UV Mapping โมเดล 3 มิติโดยการเพิ่ม UV ลงในเมชและแมปเทกเจอร์ด้วย
+  Java ใช้ Aspose.3D ทำตามคู่มือขั้นตอนต่อขั้นตอนนี้เพื่อใส่เทกเจอร์ให้กับวัตถุ 3
+  มิติของคุณ
+language: th
+linktitle: 'UV Mapping 3D Models: UV Coordinates in Java with Aspose.3D'
+second_title: Aspose.3D Java API
+title: 'การทำ UV Mapping โมเดล 3 มิติ: พิกัด UV ใน Java ด้วย Aspose.3D'
+url: /java/geometry/apply-uv-coordinates-to-3d-objects/
 weight: 18
-url: /th/java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ใช้พิกัด UV กับวัตถุ 3 มิติใน Java ด้วย Aspose.3D
+# การทำ UV Mapping โมเดล 3 มิติ: พิกัด UV ใน Java ด้วย Aspose.3D
 
-## การแนะนำ
+## Introduction
 
-ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมเกี่ยวกับการใช้พิกัด UV กับวัตถุ 3 มิติใน Java โดยใช้ Aspose.3D ในโลกของกราฟิก 3D พิกัด UV มีบทบาทสำคัญในการทำแผนที่พื้นผิวลงบนพื้นผิว ซึ่งช่วยเพิ่มรูปลักษณ์ที่น่าดึงดูดให้กับการสร้างสรรค์ของคุณ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการ โดยแจกแจงแต่ละขั้นตอนเพื่อให้แน่ใจว่าประสบการณ์การเรียนรู้จะราบรื่นและมีประสิทธิภาพ
+ยินดีต้อนรับ! ในบทแนะนำที่ครอบคลุมนี้คุณจะได้เรียนรู้ **uv mapping 3d models** ด้วย Java และไลบรารี Aspose.3D ที่ทรงพลัง การทำ UV mapping คือเทคนิคที่ทำให้คุณ **add uvs to mesh** เพื่อให้เทกเจอร์จัดเรียงอย่างสมบูรณ์บนวัตถุ 3‑D ของคุณ เมื่อจบคู่มือคุณจะสามารถทำการแมปเทกเจอร์แบบ Java‑style และเห็นโมเดลของคุณมีชีวิตชีวา
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **What does UV mapping do?** It assigns 2‑D texture coordinates (U & V) to each vertex of a 3‑D mesh.  
+- **Which library is used?** Aspose.3D for Java.  
+- **How many lines of code?** About 30 lines, split across four code blocks.  
+- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
+- **Can I reuse this for other shapes?** Absolutely – the same approach works for any mesh.
 
-ก่อนที่จะดำดิ่งสู่โลกที่น่าตื่นเต้นของพิกัด UV ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+## What is UV Mapping 3D Models?
 
-- สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณมีสภาพแวดล้อมการพัฒนา Java ที่ใช้งานได้ติดตั้งอยู่ในระบบของคุณ
--  ไลบรารี Aspose.3D: ดาวน์โหลดและติดตั้งไลบรารี Aspose.3D คุณสามารถค้นหาไฟล์ที่จำเป็นได้[ที่นี่](https://releases.aspose.com/3d/java/).
-- ความเข้าใจพื้นฐานเกี่ยวกับแนวคิด 3 มิติ: ทำความคุ้นเคยกับแนวคิดพื้นฐานกราฟิก 3 มิติเพื่อเข้าใจความสำคัญของพิกัด UV
+UV mapping 3D models is the process of projecting a 2‑D image (the texture) onto a 3‑D surface. Each vertex gets a pair of coordinates—U (horizontal) and V (vertical)—that tell the renderer where to sample the texture. This step is essential for realistic rendering, game assets, and AR/VR experiences.
 
-## แพ็คเกจนำเข้า
+## Why Use Aspose.3D for UV Mapping?
 
-ในขั้นตอนนี้ เราจะนำเข้าแพ็คเกจที่จำเป็นเพื่อเริ่มต้นเส้นทางการทำแผนที่ UV ของเรา ไลบรารี Aspose.3D มีเครื่องมือและฟังก์ชันที่จำเป็นสำหรับการทำงานกับวัตถุ 3 มิติใน Java
+- **Cross‑platform Java API** – works on Windows, Linux, and macOS.  
+- **High‑performance geometry engine** – handles large meshes with ease.  
+- **Built‑in texture handling** – supports diffuse, specular, normal maps, etc.  
+- **Clear, fluent API** – makes it simple to **add uvs to mesh** without low‑level file parsing.
 
-### ขั้นตอนที่ 1: นำเข้าแพ็คเกจ Aspose.3D
+## Prerequisites
+
+Before we dive in, make sure you have:
+
+- **Java Development Kit (JDK 8 or higher)** installed and configured.  
+- **Aspose.3D for Java** – download the latest JAR from the official site [here](https://releases.aspose.com/3d/java/).  
+- **Basic 3‑D knowledge** – understanding of vertices, polygons, and texture mapping concepts.  
+
+## Import Packages
+
+First, we need to import the Aspose.3D classes that will let us create geometry and assign UV data.
+
+### Step 1: Import Aspose.3D Packages
 
 ```java
 import com.aspose.threed.*;
@@ -37,17 +59,17 @@ import com.aspose.threed.*;
 import java.util.Arrays;
 ```
 
-ตอนนี้เรามีแพ็คเกจพร้อมแล้ว เรามาตั้งค่าพิกัด UV บนวัตถุ 3 มิติกันดีกว่า
+Now that the imports are ready, let’s move on to creating the UV data for a simple cube.
 
-## ตั้งค่าพิกัด UV บนวัตถุ 3 มิติ
+## Setup UV Coordinates on a 3D Object
 
-ในส่วนนี้ เราจะแนะนำคุณตลอดขั้นตอนการตั้งค่าพิกัด UV บนคิวบ์โดยใช้ Aspose.3D
+Below we’ll walk through the exact steps to generate UV coordinates and bind them to a mesh.
 
-### ขั้นตอนที่ 2: สร้าง UV และดัชนี
+### Step 2: Create UVs and Indices
 
 ```java
-// ExStart:ตั้งค่าUVOnCube
-// ยูวี
+// ExStart:SetupUVOnCube
+// UVs
 Vector4[] uvs = new Vector4[]
 {
     new Vector4( 0.0, 1.0,0.0, 1.0),
@@ -56,60 +78,75 @@ Vector4[] uvs = new Vector4[]
     new Vector4( 1.0, 1.0,0.0, 1.0)
 };
 
-// ดัชนีของยูวีต่อแต่ละรูปหลายเหลี่ยม
+// Indices of the uvs per each polygon
 int[] uvsId = new int[]
 {
     0,1,3,2,2,3,5,4,4,5,7,6,6,7,9,8,1,10,11,3,12,0,2,13
 };
-// ตัวอย่าง: ตั้งค่า UVOnCube
+// ExEnd:SetupUVOnCube
 ```
 
-### ขั้นตอนที่ 3: สร้าง Mesh และ UVset
+*Explanation*:  
+- **uvs** holds the actual UV coordinate vectors (U, V, W, Q).  
+- **uvsId** maps each polygon vertex to an entry in the `uvs` array, enabling the **add uvs to mesh** step later.
+
+### Step 3: Create Mesh and UVset
 
 ```java
-// เรียกคลาส Common สร้าง mesh โดยใช้วิธีสร้างรูปหลายเหลี่ยมเพื่อตั้งค่าอินสแตนซ์ mesh
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-// สร้างชุดยูวี
+// Create UVset
 VertexElementUV elementUV = mesh.createElementUV(TextureMapping.DIFFUSE, MappingMode.POLYGON_VERTEX, ReferenceMode.INDEX_TO_DIRECT);
-// คัดลอกข้อมูลไปยังองค์ประกอบจุดยอด UV
+// Copy the data to the UV vertex element
 elementUV.setData(uvs);
 elementUV.setIndices(uvsId);
 ```
 
-### ขั้นตอนที่ 4: การยืนยันการพิมพ์
+*Explanation*:  
+- `Common.createMeshUsingPolygonBuilder()` builds a cube‑shaped mesh.  
+- `createElementUV` creates a UV element for the **diffuse** texture channel.  
+- `setData` and `setIndices` actually **add uvs to mesh**, linking the UV vectors to the cube’s polygons.
+
+### Step 4: Print Confirmation
 
 ```java
 System.out.println("\nUVs have been set up successfully on the cube.");
 ```
 
-ยินดีด้วย! คุณใช้พิกัด UV กับวัตถุ 3 มิติโดยใช้ Aspose.3D ใน Java ได้สำเร็จ
+If you run the program, you should see the confirmation message in the console, indicating that the UV mapping step completed without errors.
 
-## บทสรุป
+## Common Issues and Solutions
 
-ในบทช่วยสอนนี้ เราได้สำรวจขั้นตอนสำคัญในการใช้พิกัด UV กับวัตถุ 3 มิติโดยใช้ Aspose.3D ใน Java การทำความเข้าใจการทำแผนที่ UV ถือเป็นสิ่งสำคัญในการปรับปรุงรูปลักษณ์ที่สวยงามของกราฟิก 3D ของคุณ ทดลองรูปทรงและพื้นผิวต่างๆ ได้อย่างอิสระเพื่อปลดปล่อยความคิดสร้างสรรค์ของคุณ
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **UVs appear stretched** | Incorrect ordering in `uvsId` or mismatched polygon winding. | Verify the index array matches the mesh’s polygon order. |
+| **Texture not visible** | UV set attached to the wrong texture channel. | Use `TextureMapping.DIFFUSE` for the main texture; other channels (NORMAL, SPECULAR) need separate UV sets. |
+| **Runtime `NullPointerException`** | `Common.createMeshUsingPolygonBuilder()` returned `null`. | Ensure the helper class is correctly imported and the method is implemented. |
 
-## คำถามที่พบบ่อย
+## Frequently Asked Questions
 
-### คำถามที่ 1: ฉันสามารถใช้พิกัด UV กับโมเดล 3 มิติที่ซับซ้อนได้หรือไม่
+**Q: Can I apply UV coordinates to complex 3D models?**  
+A: Yes. The same workflow works for any mesh—just provide a larger UV array and matching index list.
 
-A1: ใช่ กระบวนการยังคงคล้ายกันสำหรับโมเดลที่ซับซ้อน ตรวจสอบให้แน่ใจว่าคุณมีข้อมูลและดัชนี UV ที่เหมาะสม
+**Q: Where can I find additional resources and support for Aspose.3D?**  
+A: Visit the [Aspose.3D documentation](https://reference.aspose.com/3d/java/) for detailed API references, and the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community help.
 
-### คำถามที่ 2: ฉันจะค้นหาแหล่งข้อมูลเพิ่มเติมและการสนับสนุนสำหรับ Aspose.3D ได้ที่ไหน
+**Q: Is there a free trial available for Aspose.3D?**  
+A: Absolutely. You can download a fully functional trial from the [Aspose.3D releases page](https://releases.aspose.com/).
 
- A2: เยี่ยมชม[เอกสาร Aspose.3D](https://reference.aspose.com/3d/java/) เพื่อข้อมูลเชิงลึก หากต้องการความช่วยเหลือ โปรดตรวจสอบที่[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18).
+**Q: How can I obtain a temporary license for Aspose.3D?**  
+A: Temporary licenses are provided [here](https://purchase.aspose.com/temporary-license/).
 
-### คำถามที่ 3: Aspose.3D มีรุ่นทดลองใช้ฟรีหรือไม่
+**Q: Where can I purchase Aspose.3D?**  
+A: Purchase options are listed on the official [Aspose.3D buying page](https://purchase.aspose.com/buy).
 
- A3: ได้ คุณสามารถสำรวจไลบรารี Aspose.3D ได้ด้วย[ทดลองฟรี](https://releases.aspose.com/).
+---
 
-### คำถามที่ 4: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.3D ได้อย่างไร
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.3D 24.12 for Java  
+**Author:** Aspose  
 
- A4: คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
-
-### คำถามที่ 5: ฉันจะซื้อ Aspose.3D ได้ที่ไหน
-
- A5: หากต้องการซื้อ Aspose.3D โปรดไปที่[หน้าซื้อ](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

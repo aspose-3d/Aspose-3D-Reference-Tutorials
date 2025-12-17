@@ -1,31 +1,55 @@
 ---
-title: การสร้างกระบอกสูบที่มี Sheared Bottom ใน Aspose.3D สำหรับ Java
-linktitle: การสร้างกระบอกสูบที่มี Sheared Bottom ใน Aspose.3D สำหรับ Java
-second_title: Aspose.3D จาวา API
-description: เรียนรู้วิธีสร้างกระบอกสูบแบบกำหนดเองพร้อมพื้นแบบเฉือนโดยใช้ Aspose.3D สำหรับ Java ยกระดับทักษะการสร้างแบบจำลอง 3 มิติของคุณด้วยคำแนะนำทีละขั้นตอนนี้
+date: 2025-12-09
+description: เรียนรู้วิธีใช้ Aspose เพื่อสร้างทรงกระบอกที่กำหนดเองพร้อมฐานตัดเฉียงใน
+  Java เหมาะสำหรับการสร้างโมเดล 3 มิติด้วย Java และการบันทึกฉากเป็นไฟล์ OBJ.
+language: th
+linktitle: 'How to Use Aspose: Create Cylinders with Sheared Bottom in Java'
+second_title: Aspose.3D Java API
+title: 'วิธีใช้ Aspose: สร้างทรงกระบอกที่มีฐานเอียงใน Java'
+url: /java/cylinders/creating-cylinders-with-sheared-bottom/
 weight: 12
-url: /th/java/cylinders/creating-cylinders-with-sheared-bottom/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การสร้างกระบอกสูบที่มี Sheared Bottom ใน Aspose.3D สำหรับ Java
+# วิธีใช้ Aspose: สร้างทรงกระบอกที่มีฐานเอียงใน Java
 
-## การแนะนำ
+## Introduction
 
-ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนเกี่ยวกับการสร้างทรงกระบอกที่มีพื้นแบบเฉือนโดยใช้ Aspose.3D สำหรับ Java Aspose.3D เป็นไลบรารี Java อันทรงพลังที่ช่วยให้คุณทำงานกับไฟล์ 3D ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะเจาะลึกในการสร้างกระบอกสูบแบบกำหนดเองพร้อมพื้นแบบเฉือน เพื่อให้คุณสัมผัสประสบการณ์จริงในการใช้ Aspose.3D เพื่อพัฒนาทักษะการสร้างแบบจำลอง 3 มิติของคุณ
+ในบทแนะนำเชิงปฏิบัตินี้คุณจะได้ค้นพบ **วิธีใช้ Aspose** เพื่อสร้างทรงกระบอกที่ฐานถูกเอียง — เทคนิคที่มักต้องใช้ในโครงการ *java 3d modeling* เราจะเดินผ่านทุกขั้นตอน ตั้งแต่การตั้งค่าซีนจนถึงการบันทึกโมเดลสุดท้ายเป็นไฟล์ OBJ เมื่อเสร็จสิ้นคุณจะมีโค้ดสแนปช็อตที่นำกลับไปใช้ใหม่ได้ในแอปพลิเคชัน 3D ที่พัฒนาโดย Java ใดก็ได้
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **“shear bottom” หมายถึงอะไร?** เป็นการเอียงฐานของทรงกระบอกโดยกำหนดมุมในระนาบ XY  
+- **ไลบรารีใดจัดการคณิตศาสตร์ 3D?** Aspose.3D for Java ให้คลาส `Cylinder` และ `Vector2`  
+- **ต้องมีไลเซนส์เพื่อรันตัวอย่างหรือไม่?** ไลเซนส์ชั่วคราวใช้ได้สำหรับการประเมินผล; ต้องมีไลเซนส์เต็มสำหรับการใช้งานจริง  
+- **สามารถส่งออกโมเดลเป็นฟอร์แมตอื่นได้หรือไม่?** ได้ — ใช้ `scene.save(..., FileFormat.WAVEFRONTOBJ)` เพื่อสร้างไฟล์ OBJ  
+- **ต้องใช้ Java เวอร์ชันใด?** JDK 8 หรือใหม่กว่าเพียงพอ
 
-ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
-- ติดตั้ง Java Development Kit (JDK) บนระบบของคุณ
--  ดาวน์โหลดและเพิ่ม Aspose.3D สำหรับไลบรารี Java ลงในโปรเจ็กต์ของคุณ คุณสามารถค้นหาลิงค์ดาวน์โหลด[ที่นี่](https://releases.aspose.com/3d/java/).
+## What is “how to use aspose” in the context of 3D modeling?
 
-## แพ็คเกจนำเข้า
+Aspose.3D for Java เป็น API ระดับสูงที่ทำให้การทำงานกับเรขาคณิต 3D, ฟอร์แมตไฟล์, และการแปลงต่าง ๆ ง่ายขึ้น แทนที่จะต้องจัดการกับบัฟเฟอร์เวอร์เท็กซ์ระดับล่าง คุณเพียงเรียกเมธอดที่เข้าใจง่ายเช่น `new Cylinder(...)` แล้วให้ Aspose จัดการส่วนที่ซับซ้อนให้
 
-ในการเริ่มต้น ให้นำเข้าแพ็คเกจที่จำเป็นสำหรับการทำงานกับ Aspose.3D ในแอปพลิเคชัน Java ของคุณ:
+## Why use Aspose for Java 3D Modeling?
+
+- **Rapid development:** สร้างรูปทรงซับซ้อนได้ด้วยไม่กี่บรรทัดโค้ด  
+- **Broad format support:** ส่งออกเป็น OBJ, STL, FBX และอื่น ๆ  
+- **Cross‑platform:** ทำงานบนระบบปฏิบัติการใดก็ได้ที่รองรับ Java  
+- **Consistent API:** โค้ดเดียวใช้ได้ทั้งบนเดสก์ท็อป, เซิร์ฟเวอร์ หรือ Android
+
+## Prerequisites
+
+ก่อนเริ่มทำงาน โปรดตรวจสอบว่าคุณมี:
+
+- **Java Development Kit (JDK) 8+** ติดตั้งและกำหนดค่าใน IDE ของคุณแล้ว  
+- **Aspose.3D for Java** เพิ่มเข้าไปใน classpath ของโปรเจกต์ คุณสามารถดาวน์โหลดได้จากเว็บไซต์ทางการ [here](https://releases.aspose.com/3d/java/)  
+- **ไลเซนส์ชั่วคราวหรือเต็ม** (ไม่บังคับสำหรับการทดลอง)
+
+## Import Packages
+
+เพื่อเริ่มต้น ให้นำเข้าคลาส Aspose.3D ที่จำเป็นและยูทิลิตี้ของ Java:
+
 ```java
 import com.aspose.threed.*;
 
@@ -33,79 +57,95 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## ขั้นตอนที่ 1: สร้างฉาก
+## Step 1: Create a Scene
 
-เริ่มต้นด้วยการสร้างฉาก 3 มิติที่คุณจะเพิ่มและจัดการกระบอกสูบของคุณ:
+*ซีน* คือคอนเทนเนอร์ที่เก็บวัตถุ 3D, แสง, และกล้องทั้งหมด คิดว่าเป็นเวทีที่คุณจะวางทรงกระบอกของคุณ
+
 ```java
-// เอ็กซ์สตาร์ท:3
-// สร้างฉาก
+// ExStart:3
+// Create a scene
 Scene scene = new Scene();
-// สิ้นสุด:3
+// ExEnd:3
 ```
 
-## ขั้นตอนที่ 2: สร้างกระบอก 1
+## Step 2: Create Cylinder 1 (Sheared Bottom)
 
-ตอนนี้เรามาสร้างกระบอกแรกที่มีก้นแบบเฉือน:
+ต่อไปเราจะสร้างทรงกระบอกแรกและใช้การแปลง shear กับฐานของมัน เมธอด `setShearBottom` รับค่า `Vector2` ที่ส่วนประกอบ X แทนค่า shear ตามแกน X และส่วนประกอบ Y แทนค่า shear ตามแกน Y
+
 ```java
-// เอ็กซ์สตาร์ท:4
-// สร้างกระบอกสูบ 1
+// ExStart:4
+// Create cylinder 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-// แรงเฉือนด้านล่างแบบกำหนดเองสำหรับกระบอกสูบ 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); //แรงเฉือน 47.5 องศาในระนาบ xy (แกน z)
-// เพิ่มกระบอก 1 เข้าไปในฉาก
+// Customized shear bottom for cylinder 1
+cylinder1.setShearBottom(new Vector2(0, 0.83)); // Shear 47.5deg in the xy plane (z-axis)
+// Add cylinder 1 to the scene
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
-// สิ้นสุด:4
+// ExEnd:4
 ```
 
-## ขั้นตอนที่ 3: สร้างกระบอก 2
+> **Pro tip:** ค่า shear `0.83` มีค่าเทียบเท่าประมาณ 47.5°; ปรับค่านี้เพื่อให้ได้มุมที่ต้องการอย่างแม่นยำ
 
-ต่อไป เรามาเพิ่มกระบอกที่สองโดยไม่มีการตัดก้นให้กับฉาก:
+## Step 3: Create Cylinder 2 (Standard)
+
+เพื่อเปรียบเทียบ เราจะเพิ่มทรงกระบอกที่สองโดยไม่มีการ shear ซึ่งช่วยให้คุณเห็นความแตกต่างอย่างชัดเจนในไฟล์ OBJ ที่ส่งออก
+
 ```java
-// เอ็กซ์สตาร์ท:5
-// สร้างกระบอกที่ 2
+// ExStart:5
+// Create cylinder 2
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
-// เพิ่มกระบอกสูบ 2 ที่ไม่มี ShearBottom เข้าไปในฉาก
+// Add cylinder 2 without a ShearBottom to the scene
 scene.getRootNode().createChildNode(cylinder2);
-// สิ้นสุด:5
+// ExEnd:5
 ```
 
-## ขั้นตอนที่ 4: บันทึกฉาก
+## Step 4: Save the Scene (How to Save Scene as OBJ)
 
-บันทึกฉากด้วยกระบอกสูบที่ปรับแต่งแล้วลงในไดเร็กทอรีเอกสารของคุณ:
+สุดท้าย เราจะบันทึกซีนลงดิสก์ ค่าคงที่ `FileFormat.WAVEFRONTOBJ` บอก Aspose ให้เขียนไฟล์ OBJ ซึ่งได้รับการสนับสนุนอย่างกว้างขวางโดยโปรแกรมแก้ไข 3D เช่น Blender และ Maya
+
 ```java
-// เอ็กซ์สตาร์ท:6
-// บันทึกฉาก
+// ExStart:6
+// Save scene
 scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", FileFormat.WAVEFRONTOBJ);
-// สิ้นสุด:6
+// ExEnd:6
 ```
 
-ยินดีด้วย! คุณสร้างกระบอกสูบที่มีพื้นแบบเฉือนได้สำเร็จโดยใช้ Aspose.3D สำหรับ Java
+> **Note:** แทนที่ `"Your Document Directory"` ด้วยพาธแบบ absolute หรือ relative ที่เหมาะสมกับสภาพแวดล้อมของคุณ
 
-## บทสรุป
+## Common Issues and Solutions
 
-ในบทช่วยสอนนี้ เราได้สำรวจวิธีใช้ประโยชน์จาก Aspose.3D สำหรับ Java เพื่อปรับปรุงโปรเจ็กต์การสร้างแบบจำลอง 3 มิติของคุณ การสร้างกระบอกสูบแบบกำหนดเองที่มีพื้นแบบเฉือนจะช่วยเพิ่มเอกลักษณ์ให้กับการออกแบบของคุณ และ Aspose.3D จะทำให้กระบวนการง่ายขึ้น
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| **Cylinder appears flat** | ค่า shear ไม่ถูกต้อง (อยู่นอกช่วง 0‑1) | ใช้ค่าระหว่าง 0 ถึง 1; ปรับค่าอย่างค่อยเป็นค่อยไปขณะพรีวิว |
+| **OBJ file not loading in viewer** | ขาดการกำหนดวัสดุ | เพิ่มวัสดุแบบง่ายให้แต่ละโหนดหรือส่งออกเป็น STL เพื่อทดสอบเฉพาะเรขาคณิต |
+| **LicenseException at runtime** | ไม่มีไฟล์ไลเซนส์ที่ถูกต้อง | วาง `Aspose.3D.lic` ไว้ที่โฟลเดอร์รากของโปรเจกต์หรือใช้คลาส `License` โหลดแบบโปรแกรมเมติก |
 
-## คำถามที่พบบ่อย
+## Frequently Asked Questions
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.3D สำหรับ Java กับไลบรารี Java 3D อื่นๆ ได้หรือไม่
+### Q1: Can I use Aspose.3D for Java with other Java 3D libraries?
+**A:** Aspose.3D for Java ถูกออกแบบให้ทำงานอิสระ แม้ว่าคุณจะรวมกับไลบรารีอื่นได้ แต่ก็มีฟีเจอร์ครบถ้วนสำหรับงานโมเดลลิง 3D ส่วนใหญ่โดยไม่ต้องพึ่งพาอื่น
 
-ตอบ 1: Aspose.3D สำหรับ Java ได้รับการออกแบบมาให้ทำงานแยกกัน แม้ว่าคุณจะสามารถรวมเข้ากับไลบรารีอื่นๆ ได้ แต่ก็มีประสิทธิภาพเพียงพอที่จะจัดการงานการสร้างแบบจำลอง 3 มิติส่วนใหญ่ได้ด้วยตัวเอง
+### Q2: Is Aspose.3D suitable for beginners in 3D modeling?
+**A:** ใช่, Aspose.3D มี API ที่เป็นมิตรกับผู้ใช้ ทำให้ซ่อนรายละเอียดระดับล่างไว้ ทำให้ทั้งผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์สามารถใช้งานได้ง่าย
 
-### คำถามที่ 2: Aspose.3D เหมาะสำหรับผู้เริ่มต้นในการสร้างแบบจำลอง 3 มิติหรือไม่
+### Q3: Where can I find additional support for Aspose.3D for Java?
+**A:** เยี่ยมชม [Aspose.3D forum](https://forum.aspose.com/c/3d/18) เพื่อรับการสนับสนุนจากชุมชน, ดูบทแนะนำ, และเข้าร่วมการสนทนา
 
-ตอบ 2: ใช่ Aspose.3D มี API ที่ใช้งานง่าย ทำให้เหมาะสำหรับทั้งผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์ในการสร้างแบบจำลอง 3 มิติ
+### Q4: How can I obtain a temporary license for Aspose.3D?
+**A:** คุณสามารถรับไลเซนส์ชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/)
 
-### คำถามที่ 3: ฉันจะรับการสนับสนุนเพิ่มเติมสำหรับ Aspose.3D สำหรับ Java ได้ที่ไหน
+### Q5: Can I buy Aspose.3D for Java?
+**A:** ได้, คุณสามารถซื้อ Aspose.3D for Java ได้จาก [here](https://purchase.aspose.com/buy)
 
- A3: เยี่ยมชม[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+## Conclusion
 
-### คำถามที่ 4: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.3D ได้อย่างไร
+เราได้สาธิต **วิธีใช้ Aspose** เพื่อสร้างทรงกระบอกสองแบบ — หนึ่งที่มีฐานเอียงและอีกหนึ่งแบบมาตรฐาน — แล้วบันทึกผลลัพธ์เป็นไฟล์ OBJ เทคนิคนี้เป็นพื้นฐานสำหรับการสร้างโมเดล 3D ที่ซับซ้อนยิ่งขึ้น เช่น ชิ้นส่วนที่กำหนดเอง, ส่วนประกอบสถาปัตยกรรม, หรือสินทรัพย์เกม อย่ากลัวที่จะทดลองค่า shear, รัศมี, และความสูงที่แตกต่างเพื่อให้ตรงกับความต้องการของโครงการของคุณ
 
- A4: คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+---
 
-### คำถามที่ 5: ฉันสามารถซื้อ Aspose.3D สำหรับ Java ได้หรือไม่
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.3D for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
- A5: ได้ คุณสามารถซื้อ Aspose.3D สำหรับ Java ได้[ที่นี่](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

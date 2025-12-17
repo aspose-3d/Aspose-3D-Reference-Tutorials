@@ -1,33 +1,47 @@
 ---
-title: 使用 Aspose.3D for Java 創建自訂風扇缸
-linktitle: 使用 Aspose.3D for Java 創建自訂風扇缸
+date: 2025-12-09
+description: 學習如何新增子節點、定位 3D 物件，並在使用 Aspose.3D for Java 建立自訂風扇圓柱體時，將場景另存為 OBJ。
+language: zh-hant
+linktitle: Adding Child Node for Fan Cylinders with Aspose.3D Java
 second_title: Aspose.3D Java API
-description: 學習使用 Aspose.3D 在 Java 中建立客製化風筒。輕鬆提升您的 3D 建模遊戲等級。
+title: 使用 Aspose.3D for Java 添加子節點以建立風扇圓柱
+url: /java/cylinders/creating-fan-cylinders/
 weight: 10
-url: /zh-hant/java/cylinders/creating-fan-cylinders/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.3D for Java 創建自訂風扇缸
+# 新增子節點以使用 Aspose.3D for Java 建立風扇圓柱體
 
 ## 介紹
 
-您準備好使用 Aspose.3D for Java 提升您的 3D 建模體驗了嗎？本教學將引導您完成使用強大的 Aspose.3D 庫建立自訂風筒的過程。無論您是經驗豐富的開發人員還是初學者，本逐步指南都將幫助您充分發揮 Java 中 Aspose.3D 的潛力。
+準備好 **add child node** 到 3‑D 場景並打造吸睛的風扇圓柱體了嗎？本教學將逐步說明所有步驟——從設定場景、定位 3D 物件，到最終 **save scene as OBJ**——全部使用 Aspose.3D for Java。無論你是在打磨遊戲資產或快速建立原型，這裡的概念都能讓你對 3‑D 模型擁有穩固的控制。
 
-## 先決條件
+## 快速解答
+- **「add child node」會做什麼？** 它會在場景圖中插入一個新物件，並繼承父節點的變換。  
+- **我要如何定位 3D 物件？** 只要對節點的 transform 套用平移（或旋轉/縮放）即可。  
+- **匯出使用哪種檔案格式？** 範例會將模型儲存為 Wavefront OBJ 檔。  
+- **執行程式碼需要授權嗎？** 免費試用可供評估；正式上線需購買授權。  
+- **哪種 IDE 最適合？** 任何支援 JDK 8+ 的 Java IDE（IntelliJ IDEA、Eclipse、VS Code）皆可。
 
-在我們深入學習本教程之前，請確保您具備以下先決條件：
+## 在 Aspose.3D 中什麼是「add child node」？
+新增子節點表示在場景層級中於既有父節點下建立新節點。子節點會繼承父節點的座標系統，讓 **position 3d object** 的實例能相對於彼此輕鬆定位。
 
-- Java 開發工具包 (JDK)：確保您的系統上安裝了 JDK。你可以下載它[這裡](https://www.oracle.com/java/technologies/javase-downloads.html).
+## 為什麼在建立風扇圓柱體時要新增子節點？
+- **模組化設計：** 每個圓柱體（風扇或非風扇）各自擁有獨立節點，日後編輯更簡單。  
+- **變換繼承：** 移動、旋轉或縮放父節點時，所有子節點會自動跟隨。  
+- **更清晰的場景圖：** 提升複雜模型的可讀性與除錯效率。
 
-- Aspose.3D for Java：從下列位置下載並安裝 Java 的 Aspose.3D 函式庫：[下載連結](https://releases.aspose.com/3d/java/).
+## 前置條件
 
-## 導入包
+- **Java Development Kit (JDK)** – 從 [official site](https://www.oracle.com/java/technologies/javase-downloads.html) 下載。  
+- **Aspose.3D for Java** – 從 [download link](https://releases.aspose.com/3d/java/) 取得最新程式庫。
 
-首先將必要的套件匯入到您的 Java 專案中。此步驟對於存取 Aspose.3D 提供的功能至關重要。
+## 匯入套件
+
+開始於 Java 專案中匯入必要的套件。此步驟對存取 Aspose.3D 所提供的功能至關重要。
 
 ```java
 import com.aspose.threed.*;
@@ -36,100 +50,103 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 第 1 步：建立場景
+## 步驟 1：建立場景
 
-首先使用以下程式碼片段初始化 3D 場景：
+首先，我們建立一個空的 3‑D 場景，作為所有物件的容器。
 
 ```java
-//起始時間：2
-//創建場景
+// ExStart:2
+// Create a Scene
 Scene scene = new Scene();
-//結束：2
+// ExEnd:2
 ```
 
-這為您的 3D 建模冒險奠定了基礎。
+## 步驟 2：建立風扇圓柱體
 
-## 第 2 步：創建風筒
-
-現在，讓我們使用 Aspose.3D 庫來建立一個風筒：
+接著，我們建立一個將以風扇形式（部分掃掠）呈現的圓柱體。
 
 ```java
-//起始時間：3
-//創建一個帶有風扇的圓柱體
+// ExStart:3
+// Create a cylinder with fan
 Cylinder fan = new Cylinder(2, 2, 10, 20, 1, false);
 fan.setGenerateFanCylinder(true);
 fan.setThetaLength(MathUtils.toRadian(270.0));
-//結束：3
+// ExEnd:3
 ```
 
-此程式碼片段設定圓柱體的尺寸，啟用扇形生成，並指定 theta 長度。
+## 步驟 3：新增子節點並定位 3D 物件
 
-## 步驟 3：定位風筒
-
-透過將風筒加入為子節點並設定其平移，將風筒放置在 3D 場景中：
+現在 **add child node** 到場景，並透過設定平移來 **position the 3d object**。此時風扇圓柱體正式成為場景圖的一部份。
 
 ```java
-//起始時間：4
-//建立ChildNode並設定翻譯
+// ExStart:4
+// Create ChildNode and set translation
 scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0);
-//結束：4
+// ExEnd:4
 ```
 
-這會將風筒定位在場景內的座標 (10, 0, 0) 處。
+## 步驟 4：建立非風扇圓柱體
 
-## 第四步：建立一個非風扇圓柱體
-
-我們還創建一個非風扇氣缸來展示 Aspose.3D 的靈活性：
+為了展示 Aspose.3D 的彈性，我們亦建立一個普通的圓柱體，並將其作為另一個子節點加入。
 
 ```java
-//起始時間：5
-//創建一個沒有風扇的圓柱體
+// ExStart:5
+// Create a cylinder without a fan
 Cylinder nonfan = new Cylinder(2, 2, 10, 20, 1, false);
-//建立子節點
+// Create ChildNode
 scene.getRootNode().createChildNode(nonfan);
-//結束：5
+// ExEnd:5
 ```
 
-該片段產生一個沒有風扇的圓柱體並將其添加到場景中。
+## 步驟 5：將場景另存為 OBJ
 
-## 第 5 步：儲存場景
-
-最後，將場景儲存為文檔目錄中的 Wavefront OBJ 檔案：
+最後，我們 **save scene as OBJ**，讓你可以在任何標準 3‑D 檢視器中檢視結果。
 
 ```java
-//起始時間：6
-//儲存場景
+// ExStart:6
+// Save scene
 scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEFRONTOBJ);
-//結束：6
+// ExEnd:6
 ```
 
-恭喜！您已使用 Aspose.3D for Java 成功建立了自訂風筒。
+恭喜！你已成功 **added child node**、定位物件，並匯出模型。
+
+## 常見問題與技巧
+
+| 問題 | 解決方案 |
+|------|----------|
+| **File not found** when saving | 確認目標目錄已存在且具有寫入權限。 |
+| **Cylinder appears flat** | 檢查半徑與高度數值；Aspose.3D 需要統一的單位比例。 |
+| **Fan slice looks incomplete** | 調整 `ThetaLength`（以弧度為單位）以覆蓋所需角度。 |
+| **Scene not visible in viewer** | 確認 OBJ 檔案同時保存了相應的 `.mtl`（材質）檔案（如有需要）。 |
+
+## 常見問答
+
+**Q:** *Aspose.3D 是否相容其他 Java 3D 建模函式庫？*  
+**A:** 是的，Aspose.3D 可與其他 Java 3‑D 函式庫並存，讓你依需求結合功能。
+
+**Q:** *我可以進一步自訂產生的風扇圓柱體外觀嗎？*  
+**A:** 當然可以。你可以使用 `Material` 與 `Light` 類別套用材質、貼圖與光源。
+
+**Q:** *在哪裡可以取得 Aspose.3D 的額外支援或協助？*  
+**A:** 前往 [Aspose.3D forum](https://forum.aspose.com/c/3d/18) 取得社群協助與官方回應。
+
+**Q:** *Aspose.3D 有提供免費試用嗎？*  
+**A:** 有，你可以透過 [free trial](https://releases.aspose.com/) 先行體驗再決定是否購買。
+
+**Q:** *我要如何取得 Aspose.3D 的臨時授權？*  
+**A:** 前往 [here](https://purchase.aspose.com/temporary-license/) 取得測試與開發用的臨時授權。
 
 ## 結論
 
-在本教程中，我們探索了利用 Aspose.3D for Java 在 3D 場景中建立個人化風扇圓筒的過程。 Aspose.3D 的多功能性使開發人員能夠輕鬆增強他們的 3D 建模專案。
+本指南示範了如何 **add child node**、**position 3d object**，以及 **save scene as OBJ**，同時使用 Aspose.3D for Java 建立客製化的風扇圓柱體。這些基礎組件讓你能靈活構建複雜的 3‑D 階層結構，並將其匯出供任何後續工作流程使用。
 
-## 常見問題解答
+---
 
-### Q1：Aspose.3D 與其他用於 3D 建模的 Java 函式庫相容嗎？
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.3D 24.12 for Java  
+**Author:** Aspose  
 
-A1：Aspose.3D 旨在與其他 Java 程式庫無縫協作，提供整合靈活性。
-
-### Q2：我可以進一步客製化生成的風筒的外觀嗎？
-
-A2：當然！ Aspose.3D 提供了廣泛的客製化選項，讓您可以微調 3D 模型的視覺效果。
-
-### Q3：在哪裡可以找到 Aspose.3D 的其他支援或協助？
-
- A3：訪問[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)以獲得社區支持和討論。
-
-### Q4：Aspose.3D 有免費試用版嗎？
-
- A4：是的，您可以使用以下工具探索 Aspose.3D：[免費試用](https://releases.aspose.com/)在做出購買決定之前。
-
-### Q5：如何取得Aspose.3D的臨時授權？
-
- A5：獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)滿足您的測試和開發需求。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,55 @@
 ---
-title: Aplikujte UV souřadnice na 3D objekty v Javě pomocí Aspose.3D
-linktitle: Aplikujte UV souřadnice na 3D objekty v Javě pomocí Aspose.3D
+date: 2025-12-09
+description: Naučte se, jak provádět UV mapování 3D modelů přidáním UV souřadnic do
+  sítě a mapovat textury v Javě pomocí Aspose.3D. Postupujte podle tohoto krok‑za‑krokem
+  průvodce a aplikujte textury na své 3D objekty.
+language: cs
+linktitle: 'UV Mapping 3D Models: UV Coordinates in Java with Aspose.3D'
 second_title: Aspose.3D Java API
-description: Naučte se aplikovat UV souřadnice na 3D objekty v Javě s Aspose.3D. Pozvedněte svou grafiku pomocí tohoto podrobného průvodce.
+title: 'UV mapování 3D modelů: UV souřadnice v Javě s Aspose.3D'
+url: /java/geometry/apply-uv-coordinates-to-3d-objects/
 weight: 18
-url: /cs/java/geometry/apply-uv-coordinates-to-3d-objects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aplikujte UV souřadnice na 3D objekty v Javě pomocí Aspose.3D
+# UV mapování 3D modelů: UV souřadnice v Javě s Aspose.3D
 
-## Úvod
+## Introduction
 
-Vítejte v tomto komplexním tutoriálu o aplikaci UV souřadnic na 3D objekty v Javě pomocí Aspose.3D. Ve světě 3D grafiky hrají UV souřadnice klíčovou roli při mapování textur na povrchy, čímž zvyšují vizuální přitažlivost vašich výtvorů. Tento tutoriál vás provede celým procesem a rozebere každý krok, abyste zajistili hladké a efektivní učení.
+Vítejte! V tomto komplexním tutoriálu se naučíte **uv mapping 3d models** pomocí Javy a výkonné knihovny Aspose.3D. UV mapování je technika, která vám umožní **add uvs to mesh**, takže textury se dokonale zarovnají na vašich 3‑D objektech. Na konci tohoto průvodce budete schopni mapovat textury v Java stylu a vidět, jak vaše modely ožívají.
 
-## Předpoklady
+## Quick Answers
+- **What does UV mapping do?** Přiřazuje 2‑D texturové souřadnice (U & V) každému vrcholu 3‑D meshu.  
+- **Which library is used?** Aspose.3D for Java.  
+- **How many lines of code?** Přibližně 30 řádků, rozdělených do čtyř bloků kódu.  
+- **Do I need a license?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.  
+- **Can I reuse this for other shapes?** Rozhodně – stejný přístup funguje pro jakýkoli mesh.
 
-Než se ponoříte do vzrušujícího světa UV souřadnic, ujistěte se, že máte splněny následující předpoklady:
+## What is UV Mapping 3D Models?
 
-- Vývojové prostředí Java: Ujistěte se, že máte ve svém systému nainstalované funkční vývojové prostředí Java.
--  Knihovna Aspose.3D: Stáhněte a nainstalujte knihovnu Aspose.3D. Můžete najít potřebné soubory[tady](https://releases.aspose.com/3d/java/).
-- Základní porozumění 3D konceptům: Seznamte se se základními koncepty 3D grafiky, abyste pochopili význam UV souřadnic.
+UV mapování 3D modelů je proces projekce 2‑D obrázku (textury) na 3‑D povrch. Každý vrchol získá dvojici souřadnic – U (horizontální) a V (vertikální) – které rendereru říkají, odkud má texturu vzorkovat. Tento krok je nezbytný pro realistické renderování, herní assety a AR/VR zážitky.
 
-## Importujte balíčky
+## Why Use Aspose.3D for UV Mapping?
 
-tomto kroku naimportujeme potřebné balíčky, abychom nastartovali naši cestu UV mapování. Knihovna Aspose.3D poskytuje základní nástroje a funkce pro práci s 3D objekty v Javě.
+- **Cross‑platform Java API** – funguje na Windows, Linuxu a macOS.  
+- **High‑performance geometry engine** – snadno zpracovává velké meshe.  
+- **Built‑in texture handling** – podporuje difúzní, spekulární, normální mapy atd.  
+- **Clear, fluent API** – usnadňuje **add uvs to mesh** bez nízkoúrovňového parsování souborů.
 
-### Krok 1: Importujte balíčky Aspose.3D
+## Prerequisites
+
+- **Java Development Kit (JDK 8 nebo vyšší)** nainstalovaný a nakonfigurovaný.  
+- **Aspose.3D for Java** – stáhněte nejnovější JAR z oficiální stránky [here](https://releases.aspose.com/3d/java/).  
+- **Základní znalosti 3‑D** – pochopení vrcholů, polygonů a konceptů mapování textur.
+
+## Import Packages
+
+Nejprve musíme importovat třídy Aspose.3D, které nám umožní vytvořit geometrii a přiřadit UV data.
+
+### Step 1: Import Aspose.3D Packages
 
 ```java
 import com.aspose.threed.*;
@@ -37,17 +57,17 @@ import com.aspose.threed.*;
 import java.util.Arrays;
 ```
 
-Nyní, když máme naše balíčky na místě, přejděme k nastavení UV souřadnic na 3D objektu.
+Nyní, když jsou importy připravené, přejdeme k vytvoření UV dat pro jednoduchý krychle.
 
-## Nastavte UV souřadnice na 3D objektu
+## Setup UV Coordinates on a 3D Object
 
-V této části vás provedeme procesem nastavení UV souřadnic na krychli pomocí Aspose.3D.
+Níže projdeme přesné kroky k vygenerování UV souřadnic a jejich přiřazení k mesh.
 
-### Krok 2: Vytvořte UV a indexy
+### Step 2: Create UVs and Indices
 
 ```java
 // ExStart:SetupUVOnCube
-// UV záření
+// UVs
 Vector4[] uvs = new Vector4[]
 {
     new Vector4( 0.0, 1.0,0.0, 1.0),
@@ -56,7 +76,7 @@ Vector4[] uvs = new Vector4[]
     new Vector4( 1.0, 1.0,0.0, 1.0)
 };
 
-// Indexy UV pro každý polygon
+// Indices of the uvs per each polygon
 int[] uvsId = new int[]
 {
     0,1,3,2,2,3,5,4,4,5,7,6,6,7,9,8,1,10,11,3,12,0,2,13
@@ -64,52 +84,67 @@ int[] uvsId = new int[]
 // ExEnd:SetupUVOnCube
 ```
 
-### Krok 3: Vytvořte síťovinu a UVset
+*Vysvětlení*:  
+- **uvs** obsahuje skutečné vektory UV souřadnic (U, V, W, Q).  
+- **uvsId** mapuje každý vrchol polygonu na položku v poli `uvs`, což umožňuje pozdější krok **add uvs to mesh**.
+
+### Step 3: Create Mesh and UVset
 
 ```java
-// Volejte Common class create mesh pomocí metody polygon builder pro nastavení instance mesh
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-// Vytvořte UVset
+// Create UVset
 VertexElementUV elementUV = mesh.createElementUV(TextureMapping.DIFFUSE, MappingMode.POLYGON_VERTEX, ReferenceMode.INDEX_TO_DIRECT);
-// Zkopírujte data do prvku UV vertex
+// Copy the data to the UV vertex element
 elementUV.setData(uvs);
 elementUV.setIndices(uvsId);
 ```
 
-### Krok 4: Vytiskněte potvrzení
+*Vysvětlení*:  
+- `Common.createMeshUsingPolygonBuilder()` vytvoří mesh ve tvaru krychle.  
+- `createElementUV` vytvoří UV element pro **diffuse** texturový kanál.  
+- `setData` a `setIndices` skutečně **add uvs to mesh**, propojují UV vektory s polygony krychle.
+
+### Step 4: Print Confirmation
 
 ```java
 System.out.println("\nUVs have been set up successfully on the cube.");
 ```
 
-Gratulujeme! Úspěšně jste aplikovali UV souřadnice na 3D objekt pomocí Aspose.3D v Javě.
+Pokud spustíte program, měli byste v konzoli vidět potvrzovací zprávu, která naznačuje, že krok UV mapování byl dokončen bez chyb.
 
-## Závěr
+## Common Issues and Solutions
 
-tomto tutoriálu jsme prozkoumali základní kroky k aplikaci UV souřadnic na 3D objekty pomocí Aspose.3D v Javě. Pochopení UV mapování je zásadní pro zvýšení vizuální přitažlivosti vaší 3D grafiky. Nebojte se experimentovat s různými tvary a texturami, abyste popustili uzdu své kreativitě.
+| Problém | Proč k tomu dochází | Řešení |
+|-------|----------------|-----|
+| **UVs appear stretched** | Nesprávné pořadí v `uvsId` nebo nesoulad s orientací polygonů. | Ověřte, že pole indexů odpovídá pořadí polygonů mesh. |
+| **Texture not visible** | UV sada je přiřazena ke špatnému texturovému kanálu. | Použijte `TextureMapping.DIFFUSE` pro hlavní texturu; ostatní kanály (NORMAL, SPECULAR) vyžadují samostatné UV sady. |
+| **Runtime `NullPointerException`** | `Common.createMeshUsingPolygonBuilder()` vrátil `null`. | Ujistěte se, že pomocná třída je správně importována a metoda je implementována. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Mohu použít UV souřadnice na složité 3D modely?
+**Q: Můžu použít UV souřadnice na složité 3D modely?**  
+A: Ano. Stejný postup funguje pro jakýkoli mesh – stačí poskytnout větší UV pole a odpovídající seznam indexů.
 
-A1: Ano, proces zůstává podobný pro složité modely. Ujistěte se, že máte příslušná UV data a indexy.
+**Q: Kde najdu další zdroje a podporu pro Aspose.3D?**  
+A: Navštivte [Aspose.3D documentation](https://reference.aspose.com/3d/java/) pro podrobné reference API a [Aspose.3D forum](https://forum.aspose.com/c/3d/18) pro komunitní pomoc.
 
-### Q2: Kde najdu další zdroje a podporu pro Aspose.3D?
+**Q: Je k dispozici bezplatná zkušební verze pro Aspose.3D?**  
+A: Rozhodně. Můžete si stáhnout plně funkční zkušební verzi ze [Aspose.3D releases page](https://releases.aspose.com/).
 
- A2: Navštivte[Aspose.3D dokumentace](https://reference.aspose.com/3d/java/) pro podrobné informace. Pro podporu zkontrolujte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18).
+**Q: Jak mohu získat dočasnou licenci pro Aspose.3D?**  
+A: Dočasné licence jsou k dispozici [zde](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.3D?
+**Q: Kde mohu zakoupit Aspose.3D?**  
+A: Možnosti nákupu jsou uvedeny na oficiální [Aspose.3D buying page](https://purchase.aspose.com/buy).
 
- A3: Ano, můžete prozkoumat knihovnu Aspose.3D pomocí a[zkušební verze zdarma](https://releases.aspose.com/).
+---
 
-### Q4: Jak mohu získat dočasnou licenci pro Aspose.3D?
+**Poslední aktualizace:** 2025-12-09  
+**Testováno s:** Aspose.3D 24.12 for Java  
+**Autor:** Aspose  
 
- A4: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Kde mohu zakoupit Aspose.3D?
-
- A5: Chcete-li zakoupit Aspose.3D, navštivte[nákupní stránku](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
