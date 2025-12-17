@@ -1,33 +1,43 @@
 ---
-title: Twist toepassen in lineaire extrusie met Aspose.3D voor Java
-linktitle: Twist toepassen in lineaire extrusie met Aspose.3D voor Java
-second_title: Aspose.3D Java-API
-description: Leer hoe u een draai kunt geven aan uw 3D-modellen met Aspose.3D voor Java. Volg onze stapsgewijze handleiding voor verbeterde lineaire extrusie-effecten.
-weight: 14
+date: 2025-12-17
+description: Leer hoe u een gedraaid 3D‑model maakt met Aspose.3D voor Java, met lineaire
+  extrusie‑draai, en een OBJ‑bestand exporteert. Volg onze stapsgewijze handleiding.
+linktitle: Applying Twist in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Maak een gedraaid 3D‑model – Toepassen van draaiing in lineaire extrusie met
+  Aspose.3D voor Java
 url: /nl/java/linear-extrusion/applying-twist/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Twist toepassen in lineaire extrusie met Aspose.3D voor Java
+# Toepassen van draaiing bij lineaire extrusie met Aspose.3D voor Java
 
-## Invoering
+## Inleiding
 
-Welkom bij deze stapsgewijze zelfstudie over het toepassen van een twist in lineaire extrusie met Aspose.3D voor Java. Aspose.3D is een krachtige Java-bibliotheek waarmee ontwikkelaars met 3D-bestandsindelingen kunnen werken en robuuste functionaliteit biedt voor het maken, manipuleren en weergeven van 3D-scènes. In deze tutorial onderzoeken we hoe u een twist-effect kunt toepassen tijdens het lineaire extrusieproces om uw 3D-modellen te verbeteren.
+Welkom bij deze stap‑voor‑stap‑handleiding over **hoe je een gedraaid 3D‑model maakt** door een draaiing toe te passen tijdens lineaire extrusie met Aspose.3D voor Java. Of je nu architecturale visualisaties, game‑assets of engineering‑prototypes bouwt, een draaiing kan je geometrie een dynamisch, spiraalvormig uiterlijk geven met slechts een paar regels code.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat betekent “draaiing” bij extrusie?** Het roteert het profiel rond de extrusie‑as terwijl de vorm wordt uitgerekt.  
+- **Welke API‑klasse behandelt de draaiing?** `LinearExtrusion` biedt de `setTwist`‑methode.  
+- **Heb ik een licentie nodig om het voorbeeld uit te voeren?** Een gratis proefversie werkt voor evaluatie; een commerciële licentie is vereist voor productie.  
+- **Kan ik het resultaat exporteren als OBJ?** Ja, gebruik `scene.save(..., FileFormat.WAVEFRONTOBJ)`.  
+- **Welke Java‑versie is vereist?** Java 8 of hoger wordt volledig ondersteund.
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Voorvereisten
 
-- Java-ontwikkelomgeving: Zorg ervoor dat Java op uw systeem is geïnstalleerd.
--  Aspose.3D-bibliotheek: Download en installeer de Aspose.3D-bibliotheek voor Java vanaf de[download link](https://releases.aspose.com/3d/java/).
--  Documentatie: Raadpleeg de[Aspose.3D-documentatie](https://reference.aspose.com/3d/java/) voor uitgebreide begeleiding.
+Voordat je aan de tutorial begint, zorg dat je de volgende zaken hebt:
+
+- Java‑ontwikkelomgeving: Zorg dat Java op je systeem is geïnstalleerd.  
+- Aspose.3D‑bibliotheek: Download en installeer de Aspose.3D‑bibliotheek voor Java vanaf de [download‑link](https://releases.aspose.com/3d/java/).  
+- Documentatie: Raadpleeg de [Aspose.3D‑documentatie](https://reference.aspose.com/3d/java/) voor uitgebreide begeleiding.
 
 ## Pakketten importeren
 
-Voordat u met het codeerproces begint, importeert u de benodigde pakketten in uw Java-project. Hier is een voorbeeld van hoe u dit kunt doen:
+Voordat je begint met coderen, importeer je de benodigde pakketten in je Java‑project. Hieronder een voorbeeld hoe je dit doet:
 
 ```java
 import com.aspose.threed.*;
@@ -36,30 +46,30 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Stap 1: Documentmap instellen
+## Documentdirectory instellen
 
-Begin met het instellen van de documentmap waar uw 3D-scène zal worden opgeslagen.
+Definieer eerst waar het gegenereerde 3D‑bestand wordt opgeslagen.
 
 ```java
-// ExStart:Documentmap instellen
+// ExStart:SetDocumentDirectory
 String MyDir = "Your Document Directory";
-// ExEnd:Documentmap instellen
+// ExEnd:SetDocumentDirectory
 ```
 
-## Stap 2: Initialiseer het basisprofiel
+## Basisprofiel initialiseren
 
-Initialiseer het te extruderen basisprofiel. In dit voorbeeld gebruiken we een rechthoekige vorm met een afrondingsradius.
+Maak vervolgens de vorm die geëxtrudeerd zal worden. In dit voorbeeld gebruiken we een rechthoek met een kleine afrondingsstraal.
 
 ```java
-// ExStart: InitializeBaseProfile
+// ExStart:InitializeBaseProfile
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
-// ExEnd: InitializeBaseProfile
+// ExEnd:InitializeBaseProfile
 ```
 
-## Stap 3: Maak een scène
+## Een Scene maken
 
-Maak een 3D-scène om de geëxtrudeerde knooppunten te hosten.
+Een `Scene`‑object fungeert als de container voor alle 3D‑nodes.
 
 ```java
 // ExStart:CreateScene
@@ -67,67 +77,83 @@ Scene scene = new Scene();
 // ExEnd:CreateScene
 ```
 
-## Stap 4: Maak knooppunten
+## Nodes maken
 
-Creëer linker- en rechterknooppunten binnen de scène. Pas de vertaling van het linkerknooppunt aan.
+Voeg twee child‑nodes toe aan de scene – één blijft recht, de andere krijgt de draaiing.
 
 ```java
-// ExStart: CreateNodes
+// ExStart:CreateNodes
 Node left = scene.getRootNode().createChildNode();
 Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
-// ExEnd: CreateNodes
+// ExEnd:CreateNodes
 ```
 
-## Stap 5: Voer lineaire extrusie uit met Twist
+## Lineaire extrusie‑draaiing
 
-Voer lineaire extrusie uit op zowel de linker- als de rechterknooppunten, waarbij u twist- en slice-eigenschappen toepast.
+Nu voeren we **lineaire extrusie‑draaiing** uit op beide nodes. De linkse node krijgt een draaiing van 0° (recht), terwijl de rechtse node een draaiing van 90° krijgt, waardoor een spiraalvorm ontstaat. We stellen ook het aantal slices in om een gladde geometrie te garanderen.
 
 ```java
-// ExStart:LineaireExtrusieMetTwist
+// ExStart:LinearExtrusionWithTwist
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(0); setSlices(100); }});
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(90); setSlices(100); }});
-// ExEnd: Lineaire extrusie met twist
+// ExEnd:LinearExtrusionWithTwist
 ```
 
-## Stap 6: Bewaar 3D-scène
+## OBJ‑bestand exporteren Java
 
-Sla de 3D-scène op in het Wavefront OBJ-bestandsformaat.
+Sla tenslotte de scene op in het breed ondersteunde OBJ‑formaat. Dit demonstreert de **export OBJ‑bestand Java**‑functionaliteit van Aspose.3D.
 
 ```java
-// ExStart: Save3DSene
+// ExStart:Save3DScene
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-//Uitbreiden: 3DScene opslaan
+// ExEnd:Save3DScene
 ```
 
-## Conclusie
+## Waarom dit belangrijk is
 
-Gefeliciteerd! U hebt met succes een twist in lineaire extrusie toegepast met Aspose.3D voor Java. Deze zelfstudie biedt een gedetailleerde, stapsgewijze handleiding waarmee u uw mogelijkheden voor 3D-modellering kunt verbeteren.
+Het maken van een gedraaid 3D‑model geeft je een krachtig visueel effect zonder externe modellerings‑tools. Het is vooral nuttig voor:
+
+- **Mechanische onderdelen** die helicale kenmerken vereisen (bijv. veren, schroeven).  
+- **Artistieke ontwerpen** waarbij een subtiele spiraal visuele interesse toevoegt.  
+- **Game‑assets** die profiteren van low‑poly, procedureel gegenereerde geometrie.
+
+## Veelvoorkomende problemen & tips
+
+| Probleem | Oplossing |
+|----------|-----------|
+| Draaiing lijkt plat of ontbreekt | Zorg dat `setSlices` hoog genoeg is (bijv. 100) voor een soepele rotatie. |
+| OBJ‑bestand opent niet in viewer | Controleer of het uitvoerpad (`MyDir`) correct is en of het bestand schrijfrechten heeft. |
+| Onverwachte schaalverandering | Controleer het eenheidssysteem van je bronprofiel; Aspose.3D werkt standaard in meters. |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.3D voor Java gebruiken om met andere 3D-bestandsindelingen te werken?
+**V: Kan ik Aspose.3D voor Java gebruiken met andere 3D‑bestandsformaten?**  
+A: Ja, Aspose.3D ondersteunt een breed scala aan formaten zoals FBX, STL, 3MF en meer.
 
-A1: Ja, Aspose.3D ondersteunt verschillende 3D-bestandsindelingen, waardoor u diverse bestandstypen kunt importeren, exporteren en manipuleren.
+**V: Waar vind ik ondersteuning voor Aspose.3D voor Java?**  
+A: Bezoek het [Aspose.3D‑forum](https://forum.aspose.com/c/3d/18) voor community‑hulp en officiële assistentie.
 
-### Vraag 2: Waar kan ik ondersteuning vinden voor Aspose.3D voor Java?
+**V: Is er een gratis proefversie beschikbaar?**  
+A: Ja, je kunt een proefversie downloaden via [hier](https://releases.aspose.com/).
 
- A2: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) voor gemeenschapsondersteuning en discussies.
+**V: Hoe verkrijg ik een tijdelijke licentie voor testen?**  
+A: Haal een tijdelijke licentie op via de [pagina voor tijdelijke licenties](https://purchase.aspose.com/temporary-license/).
 
-### V3: Is er een gratis proefversie beschikbaar voor Aspose.3D voor Java?
+**V: Waar kan ik een volledige licentie aanschaffen?**  
+A: Koop Aspose.3D voor Java via de [aankoop‑pagina](https://purchase.aspose.com/buy).
 
- A3: Ja, u heeft toegang tot de gratis proefversie vanaf[hier](https://releases.aspose.com/).
-
-### V4: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.3D voor Java?
-
- A4: Vraag een tijdelijke licentie aan bij de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
-
-### V5: Waar kan ik Aspose.3D voor Java kopen?
-
- A5: Koop Aspose.3D voor Java bij de[pagina kopen](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Laatst bijgewerkt:** 2025-12-17  
+**Getest met:** Aspose.3D 24.11 for Java  
+**Auteur:** Aspose  
+
+---

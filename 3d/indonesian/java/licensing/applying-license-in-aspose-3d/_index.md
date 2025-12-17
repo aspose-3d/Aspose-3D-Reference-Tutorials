@@ -1,32 +1,42 @@
 ---
-title: Menerapkan Lisensi di Aspose.3D untuk Java
-linktitle: Menerapkan Lisensi di Aspose.3D untuk Java
-second_title: Asumsikan.3D Java API
-description: Buka potensi penuh Aspose.3D dalam aplikasi Java dengan mengikuti panduan komprehensif kami dalam menerapkan lisensi.
-weight: 10
+date: 2025-12-17
+description: Pelajari cara mengatur lisensi di Aspose.3D untuk Java dan cara menggunakan
+  kunci publik serta privat untuk lisensi berbasis meter.
+linktitle: Applying a License in Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Cara Mengatur Lisensi di Aspose.3D untuk Java – Panduan Lengkap
 url: /id/java/licensing/applying-license-in-aspose-3d/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menerapkan Lisensi di Aspose.3D untuk Java
+# Cara Menetapkan Lisensi di Aspose.3D untuk Java
 
-## Perkenalan
+## Pendahuluan
 
-Selamat datang di panduan langkah demi langkah tentang penerapan lisensi di Aspose.3D untuk Java. Aspose.3D adalah perpustakaan Java yang kuat yang memungkinkan pengembang untuk bekerja dengan file 3D dengan mudah. Dalam tutorial ini, kami akan mempelajari proses penerapan lisensi menggunakan berbagai metode, memastikan Anda dapat membuka potensi penuh Aspose.3D di aplikasi Java Anda.
+Selamat datang! Dalam tutorial langkah‑demi‑langkah ini Anda akan menemukan **cara menetapkan lisensi** untuk Aspose.3D dalam aplikasi Java dan juga belajar **cara menggunakan kunci publik dan privat** untuk lisensi bermeter. Aspose.3D adalah perpustakaan Java yang kuat yang menyederhanakan pekerjaan dengan format file 3D, dan lisensi yang valid membuka seluruh set fitur. Pada akhir panduan ini Anda akan dapat mengintegrasikan lisensi secara mulus ke dalam proyek Java apa pun.
+
+## Jawaban Cepat
+- **Apa cara utama untuk menetapkan lisensi?** Gunakan kelas `License` dan panggil `setLicense` dengan jalur file atau stream.  
+- **Apakah saya dapat memuat lisensi dari stream?** Ya – `FileInputStream` berfungsi dengan sempurna.  
+- **Untuk apa kunci publik/privat?** Mereka memungkinkan lisensi bermeter melalui kelas `Metered`.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Lisensi sementara atau percobaan sudah cukup untuk pengujian; lisensi penuh diperlukan untuk produksi.  
+- **Versi Java mana yang didukung?** Aspose.3D bekerja dengan Java 6 dan yang lebih baru.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki:
 
-- Pemahaman dasar pemrograman Java.
--  Pustaka Aspose.3D diinstal. Anda dapat mengunduhnya dari[halaman rilis](https://releases.aspose.com/3d/java/).
+- Pemahaman dasar tentang pemrograman Java.
+- Perpustakaan Aspose.3D yang ditambahkan ke proyek Anda. Unduh dari [halaman rilis](https://releases.aspose.com/3d/java/).
+- File `.lic` yang valid atau kunci metered publik dan privat Anda.
 
-## Paket Impor
+## Impor Paket
 
-Untuk memulai, impor paket yang diperlukan ke proyek Java Anda. Pastikan Aspose.3D ditambahkan ke classpath Anda. Berikut ini contohnya:
+Tambahkan impor yang diperlukan ke file sumber Java Anda. Pastikan JAR Aspose.3D berada di classpath.
 
 ```java
 import com.aspose.threed.License;
@@ -36,37 +46,39 @@ import java.io.FileInputStream;
 import java.io.IOException;
 ```
 
-## Menerapkan Lisensi Menggunakan File
+## Cara Menetapkan Lisensi Menggunakan File
 
-### Langkah 1: Buat Objek Lisensi
+### Langkah 1: Buat Objek License
 
- Pertama, buat a`License` objek dalam kode Java Anda.
+Instansiasi kelas `License` – objek ini akan menyimpan informasi lisensi.
 
 ```java
 License license = new License();
 ```
 
-### Langkah 2: Tetapkan Lisensi dari File
+### Langkah 2: Tetapkan Lisensi dari File
 
-Tentukan jalur ke file lisensi Anda dan atur lisensi menggunakan kode berikut:
+Berikan jalur relatif atau absolut ke file `.lic` Anda dan terapkan.
 
 ```java
 license.setLicense("Aspose._3D.lic");
 ```
 
-## Menerapkan Lisensi Menggunakan Objek Aliran
+> **Tip pro:** Simpan file lisensi di luar direktori kontrol sumber Anda untuk menghindari paparan tidak sengaja.
 
-### Langkah 1: Buat Objek Lisensi
+## Cara Menetapkan Lisensi Menggunakan Stream
 
- Demikian pula, buat a`License` objek dalam kode Java Anda.
+### Langkah 1: Buat Objek License
+
+Seperti sebelumnya, mulai dengan instance `License` yang baru.
 
 ```java
 License license = new License();
 ```
 
-### Langkah 2: Tetapkan Lisensi dari Objek Aliran
+### Langkah 2: Tetapkan Lisensi dari Stream
 
- Memanfaatkan a`FileInputStream` untuk membuat aliran dan mengatur lisensi:
+Baca file lisensi ke dalam `FileInputStream` dan berikan stream tersebut ke `setLicense`. Blok try‑with‑resources menjamin stream ditutup secara otomatis.
 
 ```java
 try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
@@ -74,52 +86,63 @@ try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
 }
 ```
 
-## Menggunakan Kunci Publik dan Pribadi
+## Cara Menggunakan Kunci Publik Privat untuk Lisensi Metered
 
-### Langkah 1: Inisialisasi Objek Lisensi Terukur
+### Langkah 1: Inisialisasi Objek Lisensi Metered
 
- Inisialisasi a`Metered` objek lisensi:
+Buat instance dari kelas `Metered`, yang menangani lisensi bermeter (bayar‑sesuai‑penggunaan).
 
 ```java
 Metered metered = new Metered();
 ```
 
-### Langkah 2: Tetapkan Kunci Publik dan Pribadi
+### Langkah 2: Tetapkan Kunci Publik dan Privat
 
-Setel kunci publik dan pribadi Anda untuk mengaktifkan pemberian lisensi terukur:
+Berikan kunci yang Anda terima dari Aspose. Kunci ini memungkinkan perpustakaan melaporkan penggunaan kembali ke server lisensi.
 
 ```java
 metered.setMeteredKey("your-public-key", "your-private-key");
 ```
 
+> **Peringatan:** Jangan pernah menuliskan secara keras (hard‑code) kunci privat Anda dalam JAR yang didistribusikan secara publik. Pertimbangkan memuatnya dari lokasi yang aman atau variabel lingkungan.
+
+## Kasus Penggunaan Umum
+
+- **Pipeline rendering 3D perusahaan** – buka kunci API berperforma tinggi setelah menetapkan lisensi.
+- **Lingkungan pengujian otomatis** – gunakan lisensi sementara (lihat FAQ) untuk memvalidasi fungsionalitas tanpa membeli lisensi penuh.
+- **Solusi SaaS bermeter** – integrasikan kunci publik/privat untuk menagih pelanggan berdasarkan penggunaan aktual.
+
 ## Kesimpulan
 
-Selamat! Anda telah berhasil mempelajari cara menerapkan lisensi di Aspose.3D untuk Java menggunakan berbagai metode. Sekarang, Anda dapat mengintegrasikan Aspose.3D dengan lancar ke dalam aplikasi Java Anda dan membuka potensi penuhnya.
+Selamat! Anda kini tahu **cara menetapkan lisensi** untuk Aspose.3D di Java menggunakan file, stream, dan **cara menggunakan kunci publik privat** untuk lisensi bermeter. Dengan langkah‑langkah ini Anda dapat dengan percaya diri mengintegrasikan Aspose.3D ke dalam aplikasi Java apa pun dan memanfaatkan sepenuhnya kemampuan pemrosesan 3D‑nya.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Apakah Aspose.3D kompatibel dengan semua versi Java?
+**Q1: Apakah Aspose.3D kompatibel dengan semua versi Java?**  
+A1: Ya, Aspose.3D bekerja dengan Java 6 dan versi yang lebih baru.
 
-A1: Ya, Aspose.3D kompatibel dengan Java 6 dan versi yang lebih baru.
+**Q2: Di mana saya dapat menemukan dokumentasi tambahan?**  
+A2: Anda dapat merujuk ke dokumentasi [di sini](https://reference.aspose.com/3d/java/).
 
-### Q2: Di mana saya dapat menemukan dokumentasi tambahan?
+**Q3: Bisakah saya mencoba Aspose.3D sebelum membeli?**  
+A3: Ya, Anda dapat menjelajahi percobaan gratis [di sini](https://releases.aspose.com/).
 
- A2: Anda dapat merujuk ke dokumentasi[Di Sini](https://reference.aspose.com/3d/java/).
+**Q4: Bagaimana saya dapat mendapatkan dukungan untuk Aspose.3D?**  
+A4: Kunjungi [Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan komunitas dan resmi.
 
-### Q3: Dapatkah saya mencoba Aspose.3D sebelum membeli?
+**Q5: Apakah saya memerlukan lisensi sementara untuk pengujian?**  
+A5: Ya, dapatkan lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
- A3: Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
-
-### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.3D?
-
- A4: Kunjungi[Forum Asumsikan.3D](https://forum.aspose.com/c/3d/18) untuk dukungan.
-
-### Q5: Apakah saya memerlukan lisensi sementara untuk pengujian?
-
- A5: Ya, dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Terakhir Diperbarui:** 2025-12-17  
+**Diuji Dengan:** Aspose.3D 24.11 for Java  
+**Penulis:** Aspose  
+
+---

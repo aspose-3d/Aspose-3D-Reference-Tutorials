@@ -1,32 +1,42 @@
 ---
-title: जावा के लिए Aspose.3D में लाइसेंस लागू करना
-linktitle: जावा के लिए Aspose.3D में लाइसेंस लागू करना
-second_title: Aspose.3D जावा एपीआई
-description: लाइसेंस लागू करने पर हमारी व्यापक मार्गदर्शिका का पालन करके जावा अनुप्रयोगों में Aspose.3D की पूरी क्षमता को अनलॉक करें।
-weight: 10
+date: 2025-12-17
+description: Aspose.3D for Java में लाइसेंस सेट करना और मीटरड लाइसेंसिंग के लिए पब्लिक‑प्राइवेट
+  कुंजियों का उपयोग कैसे करें, यह सीखें।
+linktitle: Applying a License in Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Aspose.3D for Java में लाइसेंस कैसे सेट करें – पूर्ण गाइड
 url: /hi/java/licensing/applying-license-in-aspose-3d/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा के लिए Aspose.3D में लाइसेंस लागू करना
+# Aspose.3D के लिए Java में लाइसेंस कैसे सेट करें
 
-## परिचय
+## Introduction
 
-जावा के लिए Aspose.3D में लाइसेंस लागू करने पर इस चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है। Aspose.3D एक शक्तिशाली जावा लाइब्रेरी है जो डेवलपर्स को 3D फ़ाइलों के साथ सहजता से काम करने की अनुमति देती है। इस ट्यूटोरियल में, हम विभिन्न तरीकों का उपयोग करके लाइसेंस लागू करने की प्रक्रिया में गहराई से उतरेंगे, यह सुनिश्चित करते हुए कि आप अपने जावा अनुप्रयोगों में Aspose.3D की पूरी क्षमता को अनलॉक कर सकते हैं।
+Welcome! In this step‑by‑step tutorial you’ll discover **how to set license** for Aspose.3D in a Java application and also learn **how to use public private keys** for metered licensing. Aspose.3D is a powerful Java library that simplifies working with 3D file formats, and a valid license unlocks its full feature set. By the end of this guide you’ll be able to integrate licensing seamlessly into any Java project.
 
-## आवश्यक शर्तें
+## Quick Answers
+- **लाइसेंस सेट करने का मुख्य तरीका क्या है?** Use the `License` class and call `setLicense` with a file path or stream.  
+- **क्या मैं लाइसेंस को स्ट्रीम से लोड कर सकता हूँ?** Yes – a `FileInputStream` works perfectly.  
+- **पब्लिक/प्राइवेट कीज़ का उपयोग किस लिए है?** They enable metered licensing through the `Metered` class.  
+- **क्या विकास के लिए लाइसेंस चाहिए?** A temporary or trial license is sufficient for testing; a full license is required for production.  
+- **कौन से Java संस्करण समर्थित हैं?** Aspose.3D works with Java 6 and later.
 
-शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## Prerequisites
 
-- जावा प्रोग्रामिंग की बुनियादी समझ.
--  Aspose.3D लाइब्रेरी स्थापित की गई। आप इसे यहां से डाउनलोड कर सकते हैं[रिलीज पेज](https://releases.aspose.com/3d/java/).
+Before we begin, ensure you have:
 
-## पैकेज आयात करें
+- Java प्रोग्रामिंग की बुनियादी समझ।
+- अपने प्रोजेक्ट में Aspose.3D लाइब्रेरी जोड़ें। इसे [release page](https://releases.aspose.com/3d/java/) से डाउनलोड करें।
+- एक वैध `.lic` फ़ाइल या आपके पब्लिक और प्राइवेट मीटरड कीज़।
 
-आरंभ करने के लिए, अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करें। सुनिश्चित करें कि Aspose.3D आपके क्लासपाथ में जोड़ा गया है। यहाँ एक उदाहरण है:
+## Import Packages
+
+Add the required imports to your Java source file. Make sure the Aspose.3D JAR is on the classpath.
 
 ```java
 import com.aspose.threed.License;
@@ -36,37 +46,39 @@ import java.io.FileInputStream;
 import java.io.IOException;
 ```
 
-## फ़ाइल का उपयोग करके लाइसेंस लागू करना
+## How to Set License Using a File
 
-### चरण 1: लाइसेंस ऑब्जेक्ट बनाएं
+### Step 1: Create a License Object
 
- सबसे पहले, एक बनाएं`License` आपके जावा कोड में ऑब्जेक्ट।
+Instantiate the `License` class – this object will hold the licensing information.
 
 ```java
 License license = new License();
 ```
 
-### चरण 2: फ़ाइल से लाइसेंस सेट करें
+### Step 2: Set License from File
 
-अपनी लाइसेंस फ़ाइल का पथ निर्दिष्ट करें और निम्नलिखित कोड का उपयोग करके लाइसेंस सेट करें:
+Provide the relative or absolute path to your `.lic` file and apply it.
 
 ```java
 license.setLicense("Aspose._3D.lic");
 ```
 
-## स्ट्रीम ऑब्जेक्ट का उपयोग करके लाइसेंस लागू करना
+> **Pro tip:** लाइसेंस फ़ाइल को अपने source‑control डायरेक्टरी के बाहर रखें ताकि अनजाने में उजागर न हो।
 
-### चरण 1: लाइसेंस ऑब्जेक्ट बनाएं
+## How to Set License Using a Stream
 
- इसी तरह, एक बनाएं`License` आपके जावा कोड में ऑब्जेक्ट।
+### Step 1: Create a License Object
+
+As before, start with a fresh `License` instance.
 
 ```java
 License license = new License();
 ```
 
-### चरण 2: स्ट्रीम ऑब्जेक्ट से लाइसेंस सेट करें
+### Step 2: Set License from a Stream
 
- ए का उपयोग करें`FileInputStream` स्ट्रीम बनाने और लाइसेंस सेट करने के लिए:
+Read the license file into a `FileInputStream` and pass the stream to `setLicense`. The try‑with‑resources block guarantees the stream is closed automatically.
 
 ```java
 try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
@@ -74,52 +86,63 @@ try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
 }
 ```
 
-## सार्वजनिक और निजी कुंजियों का उपयोग करना
+## How to Use Public Private Keys for Metered Licensing
 
-### चरण 1: मीटर्ड लाइसेंस ऑब्जेक्ट को आरंभ करें
+### Step 1: Initialize a Metered License Object
 
- आरंभ करें a`Metered` लाइसेंस वस्तु:
+Create an instance of the `Metered` class, which handles metered (pay‑as‑you‑go) licensing.
 
 ```java
 Metered metered = new Metered();
 ```
 
-### चरण 2: सार्वजनिक और निजी कुंजी सेट करें
+### Step 2: Set Public and Private Keys
 
-मीटर्ड लाइसेंसिंग सक्षम करने के लिए अपनी सार्वजनिक और निजी कुंजियाँ सेट करें:
+Supply the keys you received from Aspose. These keys enable the library to report usage back to the licensing server.
 
 ```java
 metered.setMeteredKey("your-public-key", "your-private-key");
 ```
 
-## निष्कर्ष
+> **Warning:** अपने प्राइवेट की को सार्वजनिक रूप से वितरित JAR में कभी हार्ड‑कोड न करें। इसे सुरक्षित स्थान या environment variable से लोड करने पर विचार करें।
 
-बधाई हो! आपने सफलतापूर्वक सीख लिया है कि विभिन्न तरीकों का उपयोग करके जावा के लिए Aspose.3D में लाइसेंस कैसे लागू किया जाता है। अब, आप Aspose.3D को अपने जावा अनुप्रयोगों में निर्बाध रूप से एकीकृत कर सकते हैं और इसकी पूरी क्षमता को अनलॉक कर सकते हैं।
+## Common Use Cases
 
-## अक्सर पूछे जाने वाले प्रश्न
+- **Enterprise 3D rendering pipelines** – लाइसेंस सेट करने के बाद हाई‑परफ़ॉर्मेंस API अनलॉक होते हैं।
+- **Automated testing environments** – फ़ंक्शनैलिटी वैलिडेट करने के लिए टेम्पररी लाइसेंस (FAQ देखें) का उपयोग करें, बिना पूर्ण लाइसेंस खरीदे।
+- **Metered SaaS solutions** – वास्तविक उपयोग के आधार पर ग्राहकों को बिल करने के लिए पब्लिक/प्राइवेट कीज़ को इंटीग्रेट करें।
 
-### Q1: क्या Aspose.3D सभी जावा संस्करणों के साथ संगत है?
+## Conclusion
 
-A1: हाँ, Aspose.3D Java 6 और बाद के संस्करणों के साथ संगत है।
+Congratulations! You now know **how to set license** for Aspose.3D in Java using a file, a stream, and how to **use public private keys** for metered licensing. With these steps you can confidently integrate Aspose.3D into any Java application and take full advantage of its 3D processing capabilities.
 
-### Q2: मुझे अतिरिक्त दस्तावेज़ कहां मिल सकते हैं?
+## Frequently Asked Questions
 
- A2: आप दस्तावेज़ का संदर्भ ले सकते हैं[यहाँ](https://reference.aspose.com/3d/java/).
+**Q1: क्या Aspose.3D सभी Java संस्करणों के साथ संगत है?**  
+A1: Yes, Aspose.3D works with Java 6 and later versions.
 
-### Q3: क्या मैं खरीदने से पहले Aspose.3D आज़मा सकता हूँ?
+**Q2: अतिरिक्त दस्तावेज़ीकरण कहाँ मिल सकता है?**  
+A2: You can refer to the documentation [here](https://reference.aspose.com/3d/java/).
 
- उ3: हां, आप नि:शुल्क परीक्षण का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
+**Q3: क्या मैं Aspose.3D को खरीदने से पहले आज़मा सकता हूँ?**  
+A3: Yes, you can explore a free trial [here](https://releases.aspose.com/).
 
-### Q4: मैं Aspose.3D के लिए समर्थन कैसे प्राप्त कर सकता हूं?
+**Q4: मैं Aspose.3D के लिए सपोर्ट कैसे प्राप्त कर सकता हूँ?**  
+A4: Visit the [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) for community and official support.
 
- A4: पर जाएँ[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) समर्थन के लिए।
+**Q5: क्या परीक्षण के लिए मुझे टेम्पररी लाइसेंस चाहिए?**  
+A5: Yes, obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-### Q5: क्या मुझे परीक्षण के लिए अस्थायी लाइसेंस की आवश्यकता है?
-
- A5: हाँ, एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**अंतिम अपडेट:** 2025-12-17  
+**परीक्षण किया गया:** Aspose.3D 24.11 for Java  
+**लेखक:** Aspose  
+
+---

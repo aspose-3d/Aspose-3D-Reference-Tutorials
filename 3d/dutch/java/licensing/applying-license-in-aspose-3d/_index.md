@@ -1,32 +1,42 @@
 ---
-title: Een licentie toepassen in Aspose.3D voor Java
-linktitle: Een licentie toepassen in Aspose.3D voor Java
-second_title: Aspose.3D Java-API
-description: Ontgrendel het volledige potentieel van Aspose.3D in Java-toepassingen door onze uitgebreide handleiding over het toepassen van licenties te volgen.
-weight: 10
+date: 2025-12-17
+description: Leer hoe u een licentie instelt in Aspose.3D voor Java en hoe u publieke
+  en private sleutels gebruikt voor metered licenties.
+linktitle: Applying a License in Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Hoe licentie instellen in Aspose.3D voor Java – Complete gids
 url: /nl/java/licensing/applying-license-in-aspose-3d/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Een licentie toepassen in Aspose.3D voor Java
+# Hoe een licentie instellen in Aspose.3D voor Java
 
-## Invoering
+## Introductie
 
-Welkom bij deze stapsgewijze handleiding voor het aanvragen van een licentie in Aspose.3D voor Java. Aspose.3D is een krachtige Java-bibliotheek waarmee ontwikkelaars moeiteloos met 3D-bestanden kunnen werken. In deze tutorial gaan we dieper in op het proces van het aanvragen van een licentie met behulp van verschillende methoden, zodat u het volledige potentieel van Aspose.3D in uw Java-toepassingen kunt ontsluiten.
+Welkom! In deze stapsgewijze tutorial ontdek je **hoe je een licentie instelt** voor Aspose.3D in een Java‑applicatie en leer je ook **hoe je openbare en privésleutels gebruikt** voor meter‑licenties. Aspose.3D is een krachtige Java‑bibliotheek die het werken met 3D‑bestandsformaten vereenvoudigt, en een geldige licentie ontgrendelt de volledige functionaliteit. Aan het einde van deze gids kun je licenties naadloos integreren in elk Java‑project.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat is de primaire manier om een licentie in te stellen?** Gebruik de `License`‑klasse en roep `setLicense` aan met een bestandspad of stream.  
+- **Kan ik de licentie vanuit een stream laden?** Ja – een `FileInputStream` werkt perfect.  
+- **Waar zijn openbare/privésleutels voor?** Ze maken meter‑licenties mogelijk via de `Metered`‑klasse.  
+- **Heb ik een licentie nodig voor ontwikkeling?** Een tijdelijke of proeflicentie is voldoende voor testen; een volledige licentie is vereist voor productie.  
+- **Welke Java‑versies worden ondersteund?** Aspose.3D werkt met Java 6 en hoger.
 
-Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
+## Voorvereisten
 
-- Basiskennis van Java-programmeren.
--  Aspose.3D-bibliotheek geïnstalleerd. Je kunt het downloaden van de[pagina vrijgeven](https://releases.aspose.com/3d/java/).
+Voordat we beginnen, zorg ervoor dat je het volgende hebt:
 
-## Pakketten importeren
+- Een basiskennis van Java‑programmeren.
+- De Aspose.3D‑bibliotheek toegevoegd aan je project. Download deze van de [release‑pagina](https://releases.aspose.com/3d/java/).
+- Een geldig `.lic`‑bestand of je openbare en privésleutels voor meter‑licenties.
 
-Importeer om te beginnen de benodigde pakketten in uw Java-project. Zorg ervoor dat Aspose.3D aan uw klassenpad is toegevoegd. Hier is een voorbeeld:
+## Importeer pakketten
+
+Voeg de benodigde imports toe aan je Java‑bronbestand. Zorg ervoor dat de Aspose.3D‑JAR op de classpath staat.
 
 ```java
 import com.aspose.threed.License;
@@ -36,37 +46,39 @@ import java.io.FileInputStream;
 import java.io.IOException;
 ```
 
-## Een licentie toepassen met behulp van een bestand
+## Hoe een licentie instellen met een bestand
 
-### Stap 1: Maak een licentieobject
+### Stap 1: Maak een licentie‑object
 
- Maak eerst een`License` object in uw Java-code.
+Instantieer de `License`‑klasse – dit object bevat de licentie‑informatie.
 
 ```java
 License license = new License();
 ```
 
-### Stap 2: Licentie instellen vanuit bestand
+### Stap 2: Licentie instellen vanuit een bestand
 
-Geef het pad naar uw licentiebestand op en stel de licentie in met behulp van de volgende code:
+Geef het relatieve of absolute pad naar je `.lic`‑bestand op en pas het toe.
 
 ```java
 license.setLicense("Aspose._3D.lic");
 ```
 
-## Een licentie toepassen met behulp van een Stream-object
+> **Pro tip:** Houd het licentiebestand buiten je source‑control‑map om onbedoelde blootstelling te voorkomen.
 
-### Stap 1: Maak een licentieobject
+## Hoe een licentie instellen met een stream
 
- Maak op dezelfde manier een`License` object in uw Java-code.
+### Stap 1: Maak een licentie‑object
+
+Zoals eerder, begin met een nieuwe `License`‑instantie.
 
 ```java
 License license = new License();
 ```
 
-### Stap 2: Stel de licentie in via Stream Object
+### Stap 2: Licentie instellen vanuit een stream
 
- Gebruik een`FileInputStream` een stream maken en de licentie instellen:
+Lees het licentiebestand in een `FileInputStream` en geef de stream door aan `setLicense`. Het try‑with‑resources‑blok zorgt ervoor dat de stream automatisch wordt gesloten.
 
 ```java
 try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
@@ -74,52 +86,63 @@ try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
 }
 ```
 
-## Openbare en privésleutels gebruiken
+## Hoe openbare en privésleutels te gebruiken voor meter‑licenties
 
-### Stap 1: Initialiseer het gemeten licentieobject
+### Stap 1: Initialiseert een Metered‑licentie‑object
 
- Initialiseer een`Metered` licentieobject:
+Maak een instantie van de `Metered`‑klasse, die meter‑licenties (pay‑as‑you‑go) afhandelt.
 
 ```java
 Metered metered = new Metered();
 ```
 
-### Stap 2: Stel openbare en privésleutels in
+### Stap 2: Stel openbare en privésleutels in
 
-Stel uw openbare en privésleutels in om gemeten licenties in te schakelen:
+Geef de sleutels die je van Aspose hebt ontvangen. Deze sleutels stellen de bibliotheek in staat om gebruik te rapporteren aan de licentieserver.
 
 ```java
 metered.setMeteredKey("your-public-key", "your-private-key");
 ```
 
+> **Waarschuwing:** Code je privésleutel nooit hard‑coded in een publiek verspreide JAR. Overweeg deze te laden vanuit een veilige locatie of een omgevingsvariabele.
+
+## Veelvoorkomende gebruikssituaties
+
+- **Enterprise 3D‑rendering‑pijplijnen** – ontgrendel high‑performance API's na het instellen van de licentie.
+- **Geautomatiseerde testomgevingen** – gebruik een tijdelijke licentie (zie de FAQ) om functionaliteit te valideren zonder een volledige licentie aan te schaffen.
+- **Metered SaaS‑oplossingen** – integreer openbare/privésleutels om klanten te factureren op basis van daadwerkelijk gebruik.
+
 ## Conclusie
 
-Gefeliciteerd! U hebt met succes geleerd hoe u op verschillende manieren een licentie in Aspose.3D voor Java kunt toepassen. Nu kunt u Aspose.3D naadloos integreren in uw Java-applicaties en het volledige potentieel ervan benutten.
+Gefeliciteerd! Je weet nu **hoe je een licentie instelt** voor Aspose.3D in Java met een bestand, een stream, en hoe je **openbare en privésleutels gebruikt** voor meter‑licenties. Met deze stappen kun je Aspose.3D vol vertrouwen integreren in elke Java‑applicatie en volledig profiteren van de 3D‑verwerkingsmogelijkheden.
 
 ## Veelgestelde vragen
 
-### Vraag 1: Is Aspose.3D compatibel met alle Java-versies?
+**Q1: Is Aspose.3D compatibel met alle Java‑versies?**  
+A1: Ja, Aspose.3D werkt met Java 6 en latere versies.
 
-A1: Ja, Aspose.3D is compatibel met Java 6 en latere versies.
+**Q2: Waar kan ik extra documentatie vinden?**  
+A2: Je kunt de documentatie raadplegen [hier](https://reference.aspose.com/3d/java/).
 
-### Vraag 2: Waar kan ik aanvullende documentatie vinden?
+**Q3: Kan ik Aspose.3D uitproberen voordat ik koop?**  
+A3: Ja, je kunt een gratis proefversie verkennen [hier](https://releases.aspose.com/).
 
- A2: U kunt de documentatie raadplegen[hier](https://reference.aspose.com/3d/java/).
+**Q4: Hoe kan ik ondersteuning krijgen voor Aspose.3D?**  
+A4: Bezoek het [Aspose.3D‑forum](https://forum.aspose.com/c/3d/18) voor community‑ en officiële ondersteuning.
 
-### Vraag 3: Kan ik Aspose.3D uitproberen voordat ik een aankoop doe?
+**Q5: Heb ik een tijdelijke licentie nodig voor testen?**  
+A5: Ja, verkrijg een tijdelijke licentie [hier](https://purchase.aspose.com/temporary-license/).
 
- A3: Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
-
-### V4: Hoe kan ik ondersteuning krijgen voor Aspose.3D?
-
- A4: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) Voor ondersteuning.
-
-### Vraag 5: Heb ik een tijdelijke licentie nodig om te testen?
-
- A5: Ja, verkrijg een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Laatst bijgewerkt:** 2025-12-17  
+**Getest met:** Aspose.3D 24.11 voor Java  
+**Auteur:** Aspose  
+
+---

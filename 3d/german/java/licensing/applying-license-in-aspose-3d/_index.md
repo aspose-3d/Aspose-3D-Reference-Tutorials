@@ -1,32 +1,43 @@
 ---
-title: Anwenden einer Lizenz in Aspose.3D für Java
-linktitle: Anwenden einer Lizenz in Aspose.3D für Java
-second_title: Aspose.3D Java-API
-description: Schöpfen Sie das volle Potenzial von Aspose.3D in Java-Anwendungen aus, indem Sie unserem umfassenden Leitfaden zum Anwenden von Lizenzen folgen.
-weight: 10
+date: 2025-12-17
+description: Erfahren Sie, wie Sie die Lizenz in Aspose.3D für Java festlegen und
+  wie Sie öffentliche und private Schlüssel für die nutzungsbasierte Lizenzierung
+  verwenden.
+linktitle: Applying a License in Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Wie man die Lizenz in Aspose.3D für Java festlegt – Vollständige Anleitung
 url: /de/java/licensing/applying-license-in-aspose-3d/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Anwenden einer Lizenz in Aspose.3D für Java
+# Wie man eine Lizenz in Aspose.3D für Java festlegt
 
 ## Einführung
 
-Willkommen zu dieser Schritt-für-Schritt-Anleitung zum Anwenden einer Lizenz in Aspose.3D für Java. Aspose.3D ist eine leistungsstarke Java-Bibliothek, die es Entwicklern ermöglicht, mühelos mit 3D-Dateien zu arbeiten. In diesem Tutorial befassen wir uns mit dem Prozess der Beantragung einer Lizenz mithilfe verschiedener Methoden, um sicherzustellen, dass Sie das volle Potenzial von Aspose.3D in Ihren Java-Anwendungen ausschöpfen können.
+Willkommen! In diesem Schritt‑für‑Schritt‑Tutorial erfahren Sie **wie man eine Lizenz** für Aspose.3D in einer Java‑Anwendung festlegt und lernen **wie man öffentliche und private Schlüssel** für die Metered‑Lizenzierung verwendet. Aspose.3D ist eine leistungsstarke Java‑Bibliothek, die die Arbeit mit 3D‑Dateiformaten vereinfacht, und eine gültige Lizenz schaltet den vollen Funktionsumfang frei. Am Ende dieses Leitfadens können Sie die Lizenzierung nahtlos in jedes Java‑Projekt integrieren.
+
+## Kurze Antworten
+- **Was ist der primäre Weg, eine Lizenz festzulegen?** Verwenden Sie die `License`‑Klasse und rufen Sie `setLicense` mit einem Dateipfad oder Stream auf.  
+- **Kann ich die Lizenz aus einem Stream laden?** Ja – ein `FileInputStream` funktioniert einwandfrei.  
+- **Wofür dienen öffentliche/ private Schlüssel?** Sie ermöglichen die Metered‑Lizenzierung über die `Metered`‑Klasse.  
+- **Brauche ich eine Lizenz für die Entwicklung?** Eine temporäre oder Testlizenz reicht für Tests aus; für die Produktion ist eine Voll‑Lizenz erforderlich.  
+- **Welche Java‑Versionen werden unterstützt?** Aspose.3D funktioniert mit Java 6 und höher.
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor wir beginnen, stellen Sie sicher, dass Sie:
 
-- Grundlegendes Verständnis der Java-Programmierung.
--  Aspose.3D-Bibliothek installiert. Sie können es hier herunterladen[Release-Seite](https://releases.aspose.com/3d/java/).
+- Ein grundlegendes Verständnis der Java‑Programmierung.
+- Die Aspose.3D‑Bibliothek zu Ihrem Projekt hinzugefügt. Laden Sie sie von der [Release‑Seite](https://releases.aspose.com/3d/java/) herunter.
+- Eine gültige `.lic`‑Datei oder Ihre öffentlichen und privaten Metered‑Schlüssel.
 
 ## Pakete importieren
 
-Importieren Sie zunächst die erforderlichen Pakete in Ihr Java-Projekt. Stellen Sie sicher, dass Aspose.3D zu Ihrem Klassenpfad hinzugefügt wird. Hier ist ein Beispiel:
+Fügen Sie die erforderlichen Importe zu Ihrer Java‑Quelldatei hinzu. Stellen Sie sicher, dass das Aspose.3D‑JAR im Klassenpfad liegt.
 
 ```java
 import com.aspose.threed.License;
@@ -36,37 +47,39 @@ import java.io.FileInputStream;
 import java.io.IOException;
 ```
 
-## Anwenden einer Lizenz mithilfe einer Datei
+## Wie man Lizenz mit einer Datei festlegt
 
-### Schritt 1: Lizenzobjekt erstellen
+### Schritt 1: Lizenzobjekt erstellen
 
- Erstellen Sie zunächst eine`License` Objekt in Ihrem Java-Code.
+Instanziieren Sie die `License`‑Klasse – dieses Objekt enthält die Lizenzinformationen.
 
 ```java
 License license = new License();
 ```
 
-### Schritt 2: Lizenz aus Datei festlegen
+### Schritt 2: Lizenz aus Datei setzen
 
-Geben Sie den Pfad zu Ihrer Lizenzdatei an und legen Sie die Lizenz mit dem folgenden Code fest:
+Geben Sie den relativen oder absoluten Pfad zu Ihrer `.lic`‑Datei an und wenden Sie sie an.
 
 ```java
 license.setLicense("Aspose._3D.lic");
 ```
 
-## Anwenden einer Lizenz mithilfe eines Stream-Objekts
+> **Pro Tipp:** Bewahren Sie die Lizenzdatei außerhalb Ihres Source‑Control‑Verzeichnisses auf, um ein versehentliches Offenlegen zu vermeiden.
 
-### Schritt 1: Lizenzobjekt erstellen
+## Wie man Lizenz mit einem Stream festlegt
 
- Erstellen Sie auf ähnliche Weise eine`License` Objekt in Ihrem Java-Code.
+### Schritt 1: Lizenzobjekt erstellen
+
+Wie zuvor starten Sie mit einer neuen `License`‑Instanz.
 
 ```java
 License license = new License();
 ```
 
-### Schritt 2: Legen Sie die Lizenz vom Stream-Objekt fest
+### Schritt 2: Lizenz aus einem Stream setzen
 
- Nutzen Sie a`FileInputStream` So erstellen Sie einen Stream und legen die Lizenz fest:
+Lesen Sie die Lizenzdatei in einen `FileInputStream` ein und übergeben Sie den Stream an `setLicense`. Der try‑with‑resources‑Block sorgt dafür, dass der Stream automatisch geschlossen wird.
 
 ```java
 try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
@@ -74,52 +87,63 @@ try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
 }
 ```
 
-## Verwendung öffentlicher und privater Schlüssel
+## Wie man öffentliche und private Schlüssel für Metered‑Lizenzierung verwendet
 
-### Schritt 1: Metered-License-Objekt initialisieren
+### Schritt 1: Metered‑Lizenzobjekt initialisieren
 
- Initialisieren Sie a`Metered` Lizenzobjekt:
+Erstellen Sie eine Instanz der `Metered`‑Klasse, die die Metered‑(Pay‑as‑you‑go‑)Lizenzierung verwaltet.
 
 ```java
 Metered metered = new Metered();
 ```
 
-### Schritt 2: Legen Sie öffentliche und private Schlüssel fest
+### Schritt 2: Öffentliche und private Schlüssel setzen
 
-Legen Sie Ihre öffentlichen und privaten Schlüssel fest, um eine getaktete Lizenzierung zu ermöglichen:
+Geben Sie die Schlüssel an, die Sie von Aspose erhalten haben. Diese Schlüssel ermöglichen es der Bibliothek, die Nutzung an den Lizenz‑Server zurückzumelden.
 
 ```java
 metered.setMeteredKey("your-public-key", "your-private-key");
 ```
 
-## Abschluss
+> **Warnung:** Kodieren Sie Ihren privaten Schlüssel niemals fest in ein öffentlich verteiltes JAR. Laden Sie ihn lieber aus einem sicheren Speicherort oder einer Umgebungsvariable.
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit verschiedenen Methoden eine Lizenz in Aspose.3D für Java anwenden. Jetzt können Sie Aspose.3D nahtlos in Ihre Java-Anwendungen integrieren und sein volles Potenzial ausschöpfen.
+## Gemeinsame Anwendungsfälle
 
-## FAQs
+- **Enterprise‑3D‑Rendering‑Pipelines** – schalten Sie Hochleistungs‑APIs frei, nachdem die Lizenz gesetzt wurde.
+- **Automatisierte Testumgebungen** – verwenden Sie eine temporäre Lizenz (siehe FAQ), um die Funktionalität zu prüfen, ohne eine Voll‑Lizenz zu kaufen.
+- **Metered‑SaaS‑Lösungen** – integrieren Sie öffentliche/ private Schlüssel, um Kunden basierend auf tatsächlicher Nutzung abzurechnen.
 
-### F1: Ist Aspose.3D mit allen Java-Versionen kompatibel?
+## Fazit
 
-A1: Ja, Aspose.3D ist mit Java 6 und späteren Versionen kompatibel.
+Herzlichen Glückwunsch! Sie wissen jetzt **wie man eine Lizenz** für Aspose.3D in Java mithilfe einer Datei, eines Streams festlegt und **wie man öffentliche private Schlüssel** für die Metered‑Lizenzierung verwendet. Mit diesen Schritten können Sie Aspose.3D sicher in jede Java‑Anwendung integrieren und die vollen Möglichkeiten der 3D‑Verarbeitung nutzen.
 
-### F2: Wo finde ich zusätzliche Dokumentation?
+## Häufig gestellte Fragen
 
- A2: Sie können sich auf die Dokumentation beziehen[Hier](https://reference.aspose.com/3d/java/).
+**F1: Ist Aspose.3D mit allen Java‑Versionen kompatibel?**  
+A1: Ja, Aspose.3D funktioniert mit Java 6 und späteren Versionen.
 
-### F3: Kann ich Aspose.3D vor dem Kauf testen?
+**F2: Wo finde ich zusätzliche Dokumentation?**  
+A2: Sie können die Dokumentation [hier](https://reference.aspose.com/3d/java/) einsehen.
 
- A3: Ja, Sie können eine kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/).
+**F3: Kann ich Aspose.3D vor dem Kauf testen?**  
+A3: Ja, Sie können eine kostenlose Testversion [hier](https://releases.aspose.com/) ausprobieren.
 
-### F4: Wie kann ich Unterstützung für Aspose.3D erhalten?
+**F4: Wie erhalte ich Support für Aspose.3D?**  
+A4: Besuchen Sie das [Aspose.3D‑Forum](https://forum.aspose.com/c/3d/18) für Community‑ und offiziellen Support.
 
- A4: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) zur Unterstützung.
+**F5: Benötige ich eine temporäre Lizenz für Tests?**  
+A5: Ja, erhalten Sie eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/).
 
-### F5: Benötige ich zum Testen eine temporäre Lizenz?
-
- A5: Ja, besorgen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose  
+
+---

@@ -1,32 +1,42 @@
 ---
-title: Applicera en licens i Aspose.3D för Java
-linktitle: Applicera en licens i Aspose.3D för Java
+date: 2025-12-17
+description: Lär dig hur du ställer in licens i Aspose.3D för Java och hur du använder
+  offentliga och privata nycklar för mätbaserad licensiering.
+linktitle: Applying a License in Aspose.3D for Java
 second_title: Aspose.3D Java API
-description: Lås upp den fulla potentialen hos Aspose.3D i Java-applikationer genom att följa vår omfattande guide om hur du ansöker om licenser.
-weight: 10
+title: Hur man ställer in licens i Aspose.3D för Java – Komplett guide
 url: /sv/java/licensing/applying-license-in-aspose-3d/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Applicera en licens i Aspose.3D för Java
+# Hur man anger licens i Aspose.3D för Java
 
 ## Introduktion
 
-Välkommen till den här steg-för-steg-guiden om hur du ansöker om en licens i Aspose.3D för Java. Aspose.3D är ett kraftfullt Java-bibliotek som låter utvecklare arbeta med 3D-filer utan ansträngning. I den här handledningen kommer vi att fördjupa oss i processen att ansöka om en licens med olika metoder, för att säkerställa att du kan låsa upp den fulla potentialen hos Aspose.3D i dina Java-applikationer.
+Välkommen! I den här steg‑för‑steg‑handledningen kommer du att upptäcka **hur man anger licens** för Aspose.3D i en Java‑applikation och även lära dig **hur man använder offentliga och privata nycklar** för mätbaserad licensiering. Aspose.3D är ett kraftfullt Java‑bibliotek som förenklar arbete med 3D‑filformat, och en giltig licens låser upp hela funktionaliteten. I slutet av den här guiden kommer du att kunna integrera licensiering sömlöst i vilket Java‑projekt som helst.
+
+## Snabba svar
+- **Vad är det primära sättet att ange en licens?** Använd `License`‑klassen och anropa `setLicense` med en filsökväg eller en ström.  
+- **Kan jag läsa in licensen från en ström?** Ja – en `FileInputStream` fungerar perfekt.  
+- **Vad är offentliga/privata nycklar för?** De möjliggör mätbaserad licensiering via `Metered`‑klassen.  
+- **Behöver jag en licens för utveckling?** En tillfällig eller provlicens räcker för testning; en fullständig licens krävs för produktion.  
+- **Vilka Java‑versioner stöds?** Aspose.3D fungerar med Java 6 och senare.
 
 ## Förutsättningar
 
-Innan vi börjar, se till att du har följande förutsättningar på plats:
+Innan vi börjar, se till att du har:
 
-- Grundläggande förståelse för Java-programmering.
--  Aspose.3D-biblioteket installerat. Du kan ladda ner den från[släpp sida](https://releases.aspose.com/3d/java/).
+- Grundläggande kunskaper i Java‑programmering.
+- Aspose.3D‑biblioteket tillagt i ditt projekt. Ladda ner det från [release‑sidan](https://releases.aspose.com/3d/java/).
+- En giltig `.lic`‑fil eller dina offentliga och privata mätnycklar.
 
 ## Importera paket
 
-För att komma igång, importera nödvändiga paket till ditt Java-projekt. Se till att Aspose.3D läggs till i din klassväg. Här är ett exempel:
+Lägg till de nödvändiga importerna i din Java‑källfil. Se till att Aspose.3D‑JAR‑filen finns på klassvägen.
 
 ```java
 import com.aspose.threed.License;
@@ -36,37 +46,39 @@ import java.io.FileInputStream;
 import java.io.IOException;
 ```
 
-## Använda en licens med en fil
+## Så här anger du licens med en fil
 
-### Steg 1: Skapa licensobjekt
+### Steg 1: Skapa ett licensobjekt
 
- Skapa först en`License` objekt i din Java-kod.
+Instansiera `License`‑klassen – detta objekt kommer att hålla licensinformationen.
 
 ```java
 License license = new License();
 ```
 
-### Steg 2: Ställ in licens från fil
+### Steg 2: Ange licens från fil
 
-Ange sökvägen till din licensfil och ställ in licensen med följande kod:
+Ange den relativa eller absoluta sökvägen till din `.lic`‑fil och tillämpa den.
 
 ```java
 license.setLicense("Aspose._3D.lic");
 ```
 
-## Tillämpa en licens med ett strömobjekt
+> **Proffstips:** Förvara licensfilen utanför din källkontrollsmapp för att undvika oavsiktlig exponering.
 
-### Steg 1: Skapa licensobjekt
+## Så här anger du licens med en ström
 
- Skapa på samma sätt en`License` objekt i din Java-kod.
+### Steg 1: Skapa ett licensobjekt
+
+Som tidigare, börja med en ny `License`‑instans.
 
 ```java
 License license = new License();
 ```
 
-### Steg 2: Ställ in licens från Stream Object
+### Steg 2: Ange licens från en ström
 
- Använd a`FileInputStream` för att skapa en stream och ställa in licensen:
+Läs licensfilen in i en `FileInputStream` och skicka strömmen till `setLicense`. `try‑with‑resources`‑blocket garanterar att strömmen stängs automatiskt.
 
 ```java
 try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
@@ -74,52 +86,63 @@ try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
 }
 ```
 
-## Använda offentliga och privata nycklar
+## Hur man använder offentliga och privata nycklar för mätbaserad licensiering
 
-### Steg 1: Initiera Metered License Object
+### Steg 1: Initiera ett Metered‑licensobjekt
 
- Initiera a`Metered` licensobjekt:
+Skapa en instans av `Metered`‑klassen, som hanterar mätbaserad (pay‑as‑you‑go) licensiering.
 
 ```java
 Metered metered = new Metered();
 ```
 
-### Steg 2: Ställ in offentliga och privata nycklar
+### Steg 2: Ange offentliga och privata nycklar
 
-Ställ in dina offentliga och privata nycklar för att aktivera mätlicens:
+Tillhandahåll de nycklar du fått från Aspose. Dessa nycklar gör det möjligt för biblioteket att rapportera användning tillbaka till licensservern.
 
 ```java
 metered.setMeteredKey("your-public-key", "your-private-key");
 ```
 
+> **Varning:** Koda aldrig din privata nyckel hårdkodat i en offentligt distribuerad JAR. Överväg att läsa in den från en säker plats eller miljövariabel.
+
+## Vanliga användningsområden
+
+- **Enterprise 3D‑renderingspipelines** – lås upp högpresterande API:er efter att licensen har angetts.
+- **Automatiserade testmiljöer** – använd en tillfällig licens (se FAQ) för att validera funktionalitet utan att köpa en full licens.
+- **Mätbaserade SaaS‑lösningar** – integrera offentliga/privata nycklar för att fakturera kunder baserat på faktisk användning.
+
 ## Slutsats
 
-Grattis! Du har framgångsrikt lärt dig hur man ansöker om en licens i Aspose.3D för Java med olika metoder. Nu kan du integrera Aspose.3D sömlöst i dina Java-applikationer och låsa upp dess fulla potential.
+Grattis! Du vet nu **hur man anger licens** för Aspose.3D i Java med en fil, en ström, och hur man **använder offentliga och privata nycklar** för mätbaserad licensiering. Med dessa steg kan du tryggt integrera Aspose.3D i vilken Java‑applikation som helst och utnyttja dess 3D‑bearbetningsmöjligheter fullt ut.
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Är Aspose.3D kompatibel med alla Java-versioner?
+**Q1: Är Aspose.3D kompatibel med alla Java‑versioner?**  
+A1: Ja, Aspose.3D fungerar med Java 6 och senare versioner.
 
-S1: Ja, Aspose.3D är kompatibel med Java 6 och senare versioner.
+**Q2: Var kan jag hitta ytterligare dokumentation?**  
+A2: Du kan hänvisa till dokumentationen [här](https://reference.aspose.com/3d/java/).
 
-### F2: Var kan jag hitta ytterligare dokumentation?
+**Q3: Kan jag prova Aspose.3D innan jag köper?**  
+A3: Ja, du kan utforska en gratis provversion [här](https://releases.aspose.com/).
 
- S2: Du kan hänvisa till dokumentationen[här](https://reference.aspose.com/3d/java/).
+**Q4: Hur kan jag få support för Aspose.3D?**  
+A4: Besök [Aspose.3D‑forumet](https://forum.aspose.com/c/3d/18) för gemenskap och officiell support.
 
-### F3: Kan jag prova Aspose.3D innan jag köper?
+**Q5: Behöver jag en tillfällig licens för testning?**  
+A5: Ja, skaffa en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
 
- A3: Ja, du kan utforska en gratis provperiod[här](https://releases.aspose.com/).
-
-### F4: Hur kan jag få support för Aspose.3D?
-
- A4: Besök[Aspose.3D Forum](https://forum.aspose.com/c/3d/18) för support.
-
-### F5: Behöver jag en tillfällig licens för att testa?
-
- A5: Ja, skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Senast uppdaterad:** 2025-12-17  
+**Testad med:** Aspose.3D 24.11 för Java  
+**Författare:** Aspose  
+
+---

@@ -1,33 +1,41 @@
 ---
-title: Aspose.3D for Java を使用した線形押し出しでのツイストの適用
-linktitle: Aspose.3D for Java を使用した線形押し出しでのツイストの適用
+date: 2025-12-17
+description: Aspose.3D for Java を使用して、線形押し出しツイストでねじれた 3D モデルを作成し、OBJ ファイルとしてエクスポートする方法を学びましょう。ステップバイステップのガイドに従ってください。
+linktitle: Applying Twist in Linear Extrusion with Aspose.3D for Java
 second_title: Aspose.3D Java API
-description: Aspose.3D for Java を使用して 3D モデルにひねりを加える方法を学びます。線形押し出し効果を強化するには、ステップバイステップのガイドに従ってください。
-weight: 14
+title: ねじれた3Dモデルの作成 – Aspose.3D for Java を使用した線形押し出しでのツイスト適用
 url: /ja/java/linear-extrusion/applying-twist/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D for Java を使用した線形押し出しでのツイストの適用
+# Aspose.3D for Java を使用した線形押し出しでのツイスト適用
 
-## 導入
+## はじめに
 
-Aspose.3D for Java を使用して線形押し出しにツイストを適用するためのこのステップバイステップのチュートリアルへようこそ。 Aspose.3D は、開発者が 3D ファイル形式を操作できるようにする強力な Java ライブラリで、3D シーンの作成、操作、レンダリングのための堅牢な機能を提供します。このチュートリアルでは、線形押し出しプロセス中にツイスト効果を適用して 3D モデルを強化する方法を検討します。
+Aspose.3D for Java を使用して線形押し出し中にツイストを適用し、**ねじれた 3D モデルの作成方法**をステップバイステップでご紹介します。建築ビジュアライゼーション、ゲームアセット、エンジニアリングプロトタイプのいずれを作成していても、ツイストを加えるだけで数行のコードでジオメトリに動的で螺旋状の外観を与えることができます。
+
+## クイック回答
+- **押し出しにおける「ツイスト」とは何ですか？** 形状が伸長される際に、プロファイルを押し出し軸の周りで回転させます。  
+- **どの API クラスがツイストを処理しますか？** `LinearExtrusion` が `setTwist` メソッドを提供します。  
+- **サンプルを実行するのにライセンスは必要ですか？** 無料トライアルで評価は可能ですが、商用利用には商用ライセンスが必要です。  
+- **結果を OBJ としてエクスポートできますか？** はい、`scene.save(..., FileFormat.WAVEFRONTOBJ)` を使用します。  
+- **必要な Java バージョンは何ですか？** Java 8 以降が完全にサポートされています。
 
 ## 前提条件
 
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
+チュートリアルに入る前に、以下の前提条件が整っていることを確認してください。
 
-- Java 開発環境: システムに Java がインストールされていることを確認してください。
--  Aspose.3D ライブラリ: Java 用の Aspose.3D ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードリンク](https://releases.aspose.com/3d/java/).
-- ドキュメント: を参照してください。[Aspose.3D ドキュメント](https://reference.aspose.com/3d/java/)総合的な指導を行います。
+- Java 開発環境: システムに Java がインストールされていることを確認してください。  
+- Aspose.3D ライブラリ: [download link](https://releases.aspose.com/3d/java/) から Java 用 Aspose.3D ライブラリをダウンロードしてインストールしてください。  
+- ドキュメント: 詳細なガイダンスは [Aspose.3D documentation](https://reference.aspose.com/3d/java/) を参照してください。
 
 ## パッケージのインポート
 
-コーディングプロセスを開始する前に、必要なパッケージを Java プロジェクトにインポートします。これを行う方法の例を次に示します。
+コーディングを開始する前に、必要なパッケージを Java プロジェクトにインポートします。以下はその例です。
 
 ```java
 import com.aspose.threed.*;
@@ -36,9 +44,9 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## ステップ 1: ドキュメント ディレクトリを設定する
+## ドキュメントディレクトリの設定
 
-まず、3D シーンを保存するドキュメント ディレクトリを設定します。
+まず、生成された 3D ファイルの保存先ディレクトリを定義します。
 
 ```java
 // ExStart:SetDocumentDirectory
@@ -46,9 +54,9 @@ String MyDir = "Your Document Directory";
 // ExEnd:SetDocumentDirectory
 ```
 
-## ステップ 2: 基本プロファイルを初期化する
+## 基本プロファイルの初期化
 
-押し出すベースプロファイルを初期化します。この例では、丸み半径のある長方形を使用します。
+次に、押し出す形状を作成します。この例では、角が小さく丸められた矩形を使用します。
 
 ```java
 // ExStart:InitializeBaseProfile
@@ -57,77 +65,93 @@ profile.setRoundingRadius(0.3);
 // ExEnd:InitializeBaseProfile
 ```
 
-## ステップ 3: シーンを作成する
+## シーンの作成
 
-押し出されたノードをホストする 3D シーンを作成します。
+`Scene` オブジェクトはすべての 3D ノードのコンテナとして機能します。
 
 ```java
-//ExStart:シーンの作成
+// ExStart:CreateScene
 Scene scene = new Scene();
-//ExEnd:CreateScene
+// ExEnd:CreateScene
 ```
 
-## ステップ 4: ノードの作成
+## ノードの作成
 
-シーン内に左右のノードを作成します。左側のノードの移動を調整します。
+シーンに 2 つの子ノードを追加します – 1 つはそのまま直線、もう 1 つはツイストが適用されます。
 
 ```java
-// ExStart:ノードの作成
+// ExStart:CreateNodes
 Node left = scene.getRootNode().createChildNode();
 Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
-//ExEnd:ノードの作成
+// ExEnd:CreateNodes
 ```
 
-## ステップ 5: ツイストを使用して線形押し出しを実行する
+## 線形押し出しツイスト
 
-ツイストとスライスのプロパティを適用して、左右のノードの両方で線形押し出しを実行します。
+ここで、両方のノードに対して **線形押し出しツイスト** を実行します。左側のノードは 0° のツイスト（直線）で、右側のノードは 90° のツイストを付与し、螺旋状の形状を作ります。また、スムーズなジオメトリになるようにスライス数も設定します。
 
 ```java
-// ExStart:ツイスト付き線形押し出し
+// ExStart:LinearExtrusionWithTwist
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(0); setSlices(100); }});
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(90); setSlices(100); }});
-//ExEnd:ツイスト付き線形押し出し
+// ExEnd:LinearExtrusionWithTwist
 ```
 
-## ステップ 6: 3D シーンを保存する
+## OBJ ファイルのエクスポート（Java）
 
-3D シーンを Wavefront OBJ ファイル形式で保存します。
+最後に、広くサポートされている OBJ 形式でシーンを保存します。これにより、Aspose.3D の **export OBJ file Java** 機能が実証されます。
 
 ```java
-// ExStart:3DScene の保存
+// ExStart:Save3DScene
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-//ExEnd:Save3DScene
+// ExEnd:Save3DScene
 ```
 
-## 結論
+## これが重要な理由
 
-おめでとう！ Aspose.3D for Java を使用して線形押し出しにツイストを適用することに成功しました。このチュートリアルでは、3D モデリング機能を強化するのに役立つ詳細なステップバイステップ ガイドを提供しました。
+ツイストされた 3D モデルを作成することで、外部のモデリングツールを使用せずに強力なビジュアル効果を得られます。特に以下の用途で有用です。
+
+- **機械部品** でねじ状の特徴が必要なもの（例: スプリング、ねじ）。  
+- **アーティスティックデザイン** で、微妙な螺旋が視覚的な興味を加える場合。  
+- **ゲームアセット** で、低ポリゴンかつ手続き的に生成されたジオメトリが有利な場合。
+
+## よくある問題とヒント
+
+| 問題 | 解決策 |
+|-------|----------|
+| ツイストが平坦に見える、または欠落している | `setSlices` を十分に高く設定してください（例: 100）で滑らかな回転を実現します。 |
+| OBJ ファイルがビューアで開かない | 出力パス（`MyDir`）が正しいか、ファイルの書き込み権限があるか確認してください。 |
+| 予期しないスケーリング | ソースプロファイルの単位系を確認してください。Aspose.3D はデフォルトでメートル単位で動作します。 |
 
 ## よくある質問
 
-### Q1: Aspose.3D for Java を使用して他の 3D ファイル形式を操作できますか?
+**Q: Aspose.3D for Java を使用して他の 3D ファイル形式とやり取りできますか？**  
+A: はい、Aspose.3D は FBX、STL、3MF など幅広い形式をサポートしています。
 
-A1: はい、Aspose.3D はさまざまな 3D ファイル形式をサポートしており、さまざまな種類のファイルをインポート、エクスポート、操作できます。
+**Q: Aspose.3D for Java のサポートはどこで受けられますか？**  
+A: コミュニティの助けや公式サポートは [Aspose.3D forum](https://forum.aspose.com/c/3d/18) をご覧ください。
 
-### Q2: Aspose.3D for Java のサポートはどこで見つけられますか?
+**Q: 無料トライアルは利用できますか？**  
+A: はい、[here](https://releases.aspose.com/) からトライアル版をダウンロードできます。
 
- A2: にアクセスしてください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)コミュニティのサポートとディスカッションのために。
+**Q: テスト用の一時ライセンスはどう取得しますか？**  
+A: [temporary license page](https://purchase.aspose.com/temporary-license/) から取得してください。
 
-### Q3: Aspose.3D for Java の無料トライアルはありますか?
+**Q: フルライセンスはどこで購入できますか？**  
+A: [buying page](https://purchase.aspose.com/buy) から Aspose.3D for Java を購入してください。
 
- A3: はい、以下から無料試用版にアクセスできます。[ここ](https://releases.aspose.com/).
-
-### Q4: Aspose.3D for Java の一時ライセンスを取得するにはどうすればよいですか?
-
- A4: から一時ライセンスを取得します。[一時ライセンスのページ](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Aspose.3D for Java はどこで購入できますか?
-
-A5: Aspose.3D for Java を次のサイトから購入します。[購入ページ](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose  
+
+---
