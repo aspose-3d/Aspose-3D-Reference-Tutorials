@@ -1,76 +1,100 @@
 ---
-title: Przekształcaj węzły 3D za pomocą macierzy transformacji przy użyciu Aspose.3D
-linktitle: Przekształcaj węzły 3D za pomocą macierzy transformacji w Javie przy użyciu Aspose.3D
-second_title: Aspose.3D API Java
-description: Poznaj świat grafiki 3D w Javie dzięki Aspose.3D. Naucz się bez wysiłku przekształcać węzły za pomocą macierzy transformacji.
-weight: 21
+date: 2025-12-14
+description: Dowiedz się, jak łączyć macierze przekształceń w samouczku grafiki 3D
+  w Javie przy użyciu Aspose.3D. Przekształcaj węzły, zapisuj sceny i poznawaj praktyczne
+  przykłady.
+linktitle: Concatenate Transformation Matrices in Java 3D Graphics Tutorial with Aspose.3D
+second_title: Aspose.3D Java API
+title: Jak łączyć macierze transformacji i przekształcać węzły 3D przy użyciu Aspose.3D
 url: /pl/java/geometry/transform-3d-nodes-with-matrices/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Przekształcaj węzły 3D za pomocą macierzy transformacji przy użyciu Aspose.3D
+# Transformuj węzły 3D przy użyciu macierzy transformacji z Aspose.3D
 
-## Wstęp
+## Introduction
 
-Witamy w tym przewodniku krok po kroku dotyczącym przekształcania węzłów 3D za pomocą macierzy transformacji w Javie przy użyciu Aspose.3D. Jeśli jesteś programistą Java i chcesz udoskonalić swoje umiejętności w zakresie grafiki 3D i modelowania, jesteś we właściwym miejscu. W tym samouczku zagłębimy się w proces stosowania transformacji do węzłów 3D w środowisku Aspose.3D.
+Witamy w tym krok‑po‑kroku **samouczku grafiki 3D w Javie**. W tym przewodniku nauczysz się, jak **łączyć macierze transformacji**, aby łatwo przekształcać węzły 3D przy użyciu Aspose.3D. Niezależnie od tego, czy tworzysz silnik gry, przeglądarkę CAD, czy wizualizator naukowy, opanowanie łączenia macierzy daje precyzyjną kontrolę nad translacją, rotacją i skalowaniem w jednej operacji.
 
-## Warunki wstępne
+## Quick Answers
+- **Jaka jest główna klasa sceny 3D?** `Scene` – przechowuje wszystkie węzły, siatki i światła.  
+- **Jak zastosować wiele transformacji?** Poprzez łączenie macierzy transformacji w obiekcie `Transform` węzła.  
+- **Jaki format pliku jest używany do zapisu?** Pokazany jest FBX (ASCII 7500), ale Aspose.3D obsługuje wiele innych.  
+- **Czy potrzebna jest licencja do rozwoju?** Tymczasowa licencja działa w trybie ewaluacji; pełna licencja jest wymagana w produkcji.  
+- **Jakie IDE jest najlepsze?** Dowolne IDE Javy (IntelliJ IDEA, Eclipse, NetBeans) obsługujące Maven/Gradle.
 
-Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
+## What is “concatenate transformation matrices”?
 
-- Podstawowa znajomość programowania w języku Java.
--  Zainstalowana biblioteka Aspose.3D. Można go pobrać z[Tutaj](https://releases.aspose.com/3d/java/).
-- Działające zintegrowane środowisko programistyczne (IDE) do programowania w języku Java.
+Co oznacza „łączenie macierzy transformacji”?
 
-## Importuj pakiety
+Łączenie macierzy transformacji oznacza mnożenie dwóch lub więcej macierzy, tak aby pojedyncza połączona macierz reprezentowała sekwencję transformacji (np. translacja → rotacja → skalowanie). W Aspose.3D stosujesz otrzymaną macierz do transformacji węzła, co pozwala na skomplikowane pozycjonowanie za pomocą jednego wywołania.
 
-W swoim projekcie Java zaimportuj niezbędne pakiety z Aspose.3D. Upewnij się, że Twój projekt jest poprawnie skonfigurowany do korzystania z biblioteki Aspose.3D. Oto przykładowa instrukcja importu:
+## Why use a Java 3D graphics tutorial with Aspose.3D?
+
+- **Wysokowydajne renderowanie** – Aspose.3D jest zoptymalizowane pod kątem dużych scen.  
+- **Obsługa wielu formatów** – Eksport do FBX, OBJ, STL, glTF i innych.  
+- **Proste API** – Biblioteka ukrywa niskopoziomową matematykę, jednocześnie udostępniając operacje na macierzach dla precyzyjnej kontroli.  
+
+## Prerequisites
+
+Wymagania wstępne:
+
+- Podstawowa znajomość programowania w Javie.  
+- Biblioteka Aspose.3D zainstalowana – pobierz ją [tutaj](https://releases.aspose.com/3d/java/).  
+- IDE Javy (IntelliJ, Eclipse lub NetBeans) z obsługą Maven/Gradle.
+
+## Import Packages
+
+W swoim projekcie Java zaimportuj niezbędne klasy Aspose.3D. Ten blok importu musi pozostać dokładnie taki, jak przedstawiono:
 
 ```java
 import com.aspose.threed.*;
 
 ```
 
-## Transformacja węzłów 3D
+## Transforming 3D Nodes
 
-### Krok 1: Zainicjuj obiekt sceny
+Poniżej znajduje się kompletny przepływ pracy. Każdy krok jest wyjaśniony prostym językiem, a następnie podany jest oryginalny blok kodu (bez zmian).
 
-Rozpocznij od zainicjowania obiektu sceny, który służy jako pojemnik na elementy 3D.
+### Step 1: Initialize the Scene Object
+
+Utwórz obiekt `Scene`, który pełni rolę głównego kontenera dla wszystkich elementów 3D.
 
 ```java
 Scene scene = new Scene();
 ```
 
-### Krok 2: Zainicjuj obiekt klasy węzła
+### Step 2: Initialize a Node (Cube)
 
-Utwórz obiekt klasy Node, taki jak kostka, który zostanie poddany transformacji.
+Zainicjalizuj `Node`, który będzie przechowywał geometrię sześcianu.
 
 ```java
 Node cubeNode = new Node("cube");
 ```
 
-### Krok 3: Utwórz siatkę za pomocą narzędzia Polygon Builder
+### Step 3: Create Mesh Using Polygon Builder
 
-Użyj klasy Common, aby utworzyć siatkę za pomocą metody konstruktora wielokątów. Spowoduje to ustawienie instancji siatki dla sześcianu.
+Wygeneruj siatkę dla sześcianu przy użyciu metody pomocniczej w `Common`.
 
 ```java
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-### Krok 4: Wskaż węzeł na geometrię siatki
+### Step 4: Attach Mesh to the Node
 
-Przypisz utworzoną siatkę do węzła sześcianu.
+Połącz geometrię z węzłem, aby scena wiedziała, co renderować.
 
 ```java
 cubeNode.setEntity(mesh);
 ```
 
-### Krok 5: Ustaw niestandardową macierz tłumaczeń
+### Step 5: Set a Custom Translation Matrix (Concatenation Example)
 
-Zastosuj niestandardową macierz translacji do węzła kostki. W tym przykładzie ustawiana jest macierz transformacji do translacji.
+Tutaj **łączymy macierze transformacji** podając bezpośrednio własną macierz `Matrix4`. Można najpierw utworzyć osobne macierze translacji, rotacji i skalowania i je pomnożyć, ale dla zwięzłości pokazujemy jedną połączoną macierz.
 
 ```java
 cubeNode.getTransform().setTransformMatrix(new Matrix4(
@@ -81,17 +105,19 @@ cubeNode.getTransform().setTransformMatrix(new Matrix4(
 ));
 ```
 
-### Krok 6: Dodaj kostkę do sceny
+> **Wskazówka:** Aby połączyć wiele macierzy, utwórz każdą `Matrix4` (np. `translation`, `rotation`, `scale`) i użyj `Matrix4.multiply()` przed przypisaniem wyniku do `setTransformMatrix`.
 
-Dołącz węzeł kostki do węzła głównego sceny.
+### Step 6: Add the Cube Node to the Scene
+
+Wstaw węzeł do hierarchii sceny pod węzłem głównym.
 
 ```java
 scene.getRootNode().addChildNode(cubeNode);
 ```
 
-### Krok 7: Zapisz scenę 3D
+### Step 7: Save the 3D Scene
 
-Określ katalog i nazwę pliku do zapisania sceny 3D w obsługiwanych formatach plików, takich jak FBX.
+Wybierz katalog i nazwę pliku, a następnie wyeksportuj scenę. Przykład zapisuje jako FBX ASCII, ale możesz przełączyć się na OBJ, STL itp., zmieniając `FileFormat`.
 
 ```java
 String MyDir = "Your Document Directory";
@@ -100,31 +126,46 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-## Wniosek
+## Common Issues and Solutions
 
-Gratulacje! Pomyślnie nauczyłeś się przekształcać węzły 3D przy użyciu Aspose.3D w Javie. Eksperymentuj z różnymi matrycami i odkrywaj nieskończone możliwości grafiki 3D.
+| Problem | Przyczyna | Rozwiązanie |
+|---------|-----------|-------------|
+| **Scena nie zapisuje się** | Nieprawidłowa ścieżka katalogu lub brak uprawnień do zapisu | Sprawdź, czy `MyDir` wskazuje istniejący folder i aplikacja ma prawa do systemu plików. |
+| **Macierz nie wywiera widocznego efektu** | Użycie macierzy jednostkowej lub zapomnienie o jej przypisaniu | Upewnij się, że wywołujesz `setTransformMatrix` po utworzeniu macierzy i podwójnie sprawdź jej wartości. |
+| **Nieprawidłowa orientacja** | Nieprawidłowa kolejność rotacji przy łączeniu macierzy | Mnoż macierze w kolejności *skalowanie → rotacja → translacja*, aby uzyskać oczekiwane rezultaty. |
 
-## Często zadawane pytania
+## Frequently Asked Questions
 
-### P1: Czy mogę zastosować wiele transformacji do pojedynczego węzła 3D?
+### Q1: Czy mogę zastosować wiele transformacji do jednego węzła 3D?
 
-O1: Tak, możesz łączyć wiele macierzy transformacji w celu uzyskania złożonych transformacji.
+A1: Tak. Utwórz osobne macierze dla każdej transformacji (translacja, rotacja, skalowanie) i **połącz macierze transformacji** przy pomocy mnożenia przed przypisaniem ostatecznej macierzy.
 
-### P2: Jak mogę obrócić obiekt 3D w Aspose.3D?
+### Q2: Jak mogę obrócić obiekt 3D w Aspose.3D?
 
-A2: Użyj odpowiedniej macierzy rotacji w macierzy transformacji dla pożądanej rotacji.
+A2: Utwórz macierz rotacji (np. wokół osi Y) za pomocą `Matrix4.createRotationY(angle)` i połącz ją z dowolną istniejącą macierzą.
 
-### P3: Czy istnieje ograniczenie rozmiaru scen 3D, które mogę utworzyć?
+### Q3: Czy istnieje limit rozmiaru scen 3D, które mogę tworzyć?
 
-O3: Rozmiar scen 3D może być ograniczony przez zasoby systemowe, ale Aspose.3D został zaprojektowany pod kątem wydajności.
+A3: Praktyczny limit zależy od pamięci i procesora twojego systemu. Aspose.3D jest zaprojektowane do efektywnego obsługiwania dużych scen, ale warto monitorować zużycie zasobów przy bardzo złożonych modelach.
 
-### P4: Gdzie mogę znaleźć dodatkowe przykłady i dokumentację?
+### Q4: Gdzie mogę znaleźć dodatkowe przykłady i dokumentację?
 
- A4: Odwiedź[Dokumentacja Aspose.3D](https://reference.aspose.com/3d/java/) aby uzyskać więcej przykładów i szczegółów.
+A4: Odwiedź [dokumentację Aspose.3D](https://reference.aspose.com/3d/java/), aby uzyskać pełną listę API, przykłady kodu i przewodniki najlepszych praktyk.
 
-### P5: Jak uzyskać tymczasową licencję na Aspose.3D?
+### Q5: Jak uzyskać tymczasową licencję dla Aspose.3D?
 
- Odpowiedź 5: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+A5: Tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
+
+## Conclusion
+
+Teraz opanowałeś, jak **łączyć macierze transformacji**, aby manipulować węzłami 3D w środowisku Java przy użyciu Aspose.3D. Eksperymentuj z różnymi kombinacjami macierzy — translacją, rotacją, skalowaniem — aby tworzyć zaawansowane animacje i modele. Gdy będziesz gotowy, poznaj inne funkcje Aspose.3D, takie jak oświetlenie, kontrola kamery oraz eksport do dodatkowych formatów.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-14  
+**Testowano z:** Aspose.3D 24.11 dla Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
