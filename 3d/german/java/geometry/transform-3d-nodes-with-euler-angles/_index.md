@@ -1,116 +1,146 @@
 ---
-title: Transformieren Sie 3D-Knoten mit Euler-Winkeln in Java mit Aspose.3D
-linktitle: Transformieren Sie 3D-Knoten mit Euler-Winkeln in Java mit Aspose.3D
-second_title: Aspose.3D Java-API
-description: Entdecken Sie die Welt der 3D-Transformationen in Java mit Aspose.3D. Befolgen Sie unsere Schritt-für-Schritt-Anleitung, um Ihren 3D-Knoten dynamische Euler-Winkel hinzuzufügen.
-weight: 19
+date: 2025-12-13
+description: Erfahren Sie, wie Sie Aspose 3D Java verwenden, um 3D‑Knoten zu transformieren.
+  Dieses Handbuch zeigt, wie man Euler‑Winkel nutzt, 3D‑Rotation hinzufügt und die
+  Translation in Java festlegt.
+linktitle: Aspose 3D Java – Transform 3D Nodes with Euler Angles
+second_title: Aspose.3D Java API
+title: Aspose 3D Java – 3D‑Knoten mit Euler‑Winkeln transformieren
 url: /de/java/geometry/transform-3d-nodes-with-euler-angles/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Transformieren Sie 3D-Knoten mit Euler-Winkeln in Java mit Aspose.3D
+# Transformieren von 3D‑Knoten mit Euler‑Winkeln in Java mittels Aspose.3D
 
-## Einführung
+## Einleitung
 
-Willkommen zu dieser Schritt-für-Schritt-Anleitung zum Transformieren von 3D-Knoten mit Euler-Winkeln in Java mit Aspose.3D. In diesem Leitfaden werden wir uns mit dem Prozess des Hinzufügens von Transformationen zu einem 3D-Knoten befassen und dabei Euler-Winkel verwenden, um eine dynamische Positionierung und Ausrichtung zu erreichen.
+In diesem Tutorial erfahren Sie **wie man aspose 3d java** verwendet, um 3D‑Knoten durch Anwendung von Euler‑Winkeln zu transformieren. Am Ende des Leitfadens können Sie 3D‑Rotation hinzufügen, Java‑Translation setzen und dynamische Szenen erstellen, die auf Echtzeitdaten reagieren.
+
+## Schnelle Antworten
+- **Welche Bibliothek übernimmt 3D‑Transformationen in Java?** Aspose 3D for Java.  
+- **Welche Methode setzt die Rotation mit Euler‑Winkeln?** `setEulerAngles()` am Transform des Knotens.  
+- **Wie bewege ich einen Knoten im Raum?** Verwenden Sie `setTranslation()` mit einem `Vector3`.  
+- **Benötige ich eine Lizenz für die Produktion?** Ja, eine kommerzielle Aspose 3D‑Lizenz ist erforderlich.  
+- **Kann ich nach FBX exportieren?** Absolut – `scene.save(..., FileFormat.FBX7500ASCII)` funktioniert sofort.
 
 ## Voraussetzungen
 
-Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor wir ins Tutorial einsteigen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-- Grundkenntnisse der Java-Programmierung.
-- Java Development Kit (JDK) ist auf Ihrem Computer installiert.
--  Aspose.3D-Bibliothek, die Sie erhalten können[Aspose.3D Java-Dokumentation](https://reference.aspose.com/3d/java/).
+- Grundlegende Kenntnisse in der Java‑Programmierung.  
+- Java Development Kit (JDK) auf Ihrem Rechner installiert.  
+- Aspose.3D‑Bibliothek, die Sie von [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/) erhalten können.
 
 ## Pakete importieren
 
- Beginnen Sie mit dem Importieren der erforderlichen Pakete in Ihr Java-Projekt. Stellen Sie sicher, dass die Aspose.3D-Bibliothek korrekt zu Ihrem Klassenpfad hinzugefügt wird. Wenn Sie es noch nicht heruntergeladen haben, finden Sie hier den Download-Link[Hier](https://releases.aspose.com/3d/java/).
+Beginnen Sie damit, die erforderlichen Pakete in Ihr Java‑Projekt zu importieren. Stellen Sie sicher, dass die Aspose.3D‑Bibliothek korrekt zu Ihrem Klassenpfad hinzugefügt wurde. Falls Sie sie noch nicht heruntergeladen haben, finden Sie den Download‑Link [hier](https://releases.aspose.com/3d/java/).
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## Schritt 1. Szene und Knoten initialisieren
+## aspose 3d java – Arbeiten mit Euler‑Winkeln
+
+### Schritt 1. Szene und Knoten initialisieren
+
+Zuerst erstellen Sie eine Szene und einen Knoten, der die Geometrie enthält, die Sie transformieren möchten.
 
 ```java
 // ExStart:AddTransformationToNodeByEulerAngles
-// Szenenobjekt initialisieren
+// Initialize scene object
 Scene scene = new Scene();
 
-// Node-Klassenobjekt initialisieren
+// Initialize Node class object
 Node cubeNode = new Node("cube");
 ```
 
-## Schritt 2. Netz erstellen und Geometrie festlegen
+### Schritt 2. Mesh erstellen und Geometrie setzen
+
+Als Nächstes erzeugen Sie ein einfaches Mesh (in diesem Fall einen Würfel) und hängen es an den Knoten an.
 
 ```java
-// Rufen Sie die allgemeine Klasse „Erstellen Sie ein Netz mithilfe der Polygon-Builder-Methode“ auf, um eine Netzinstanz festzulegen
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-// Punktknoten zur Mesh-Geometrie
+// Point node to the Mesh geometry
 cubeNode.setEntity(mesh);
 ```
 
-## Schritt 3. Legen Sie die Euler-Winkel und die Translation fest
+## 3D‑Rotation zu einem Knoten hinzufügen
+
+### Schritt 3. Euler‑Winkel und Translation setzen
+
+Jetzt wenden wir die Rotation mit Euler‑Winkeln an und verschieben den Knoten zudem in eine sichtbare Position.
 
 ```java
-// Euler-Winkel
+// Euler angles
 cubeNode.getTransform().setEulerAngles(new Vector3(0.3, 0.1, -0.5));
 
-// Übersetzung festlegen
+// Set translation
 cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 ```
 
-## Schritt 4: Knoten zur Szene hinzufügen
+## Translation in Java setzen – Positionierung des Knotens
+
+Der obige Translation‑Schritt demonstriert **set translation java** in der Praxis: Der Knoten wird um 20 Einheiten entlang der Z‑Achse verschoben, sodass er nach dem Rendern sichtbar ist.
+
+## Schritt 4. Knoten zur Szene hinzufügen
+
+Hängen Sie den transformierten Knoten an den Root‑Knoten der Szene.
 
 ```java
-// Fügen Sie der Szene einen Würfel hinzu
+// Add cube to the scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## Schritt 5. 3D-Szene speichern
+## Schritt 5. 3D‑Szene speichern
+
+Exportieren Sie schließlich die Szene in eine FBX‑Datei (oder ein anderes unterstütztes Format).
 
 ```java
-// Der Pfad zum Dokumentenverzeichnis.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "TransformationToNode.fbx";
 
-// Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-Stellen Sie sicher, dass Sie „Ihr Dokumentenverzeichnis“ durch den entsprechenden Pfad auf Ihrem Computer ersetzen.
+Stellen Sie sicher, dass Sie `"Your Document Directory"` durch den entsprechenden Pfad auf Ihrem Rechner ersetzen.
 
-## Abschluss
+## Fazit
 
-Glückwunsch! Sie haben mit Aspose.3D erfolgreich 3D-Knoten mithilfe von Euler-Winkeln in Java transformiert. Experimentieren Sie mit verschiedenen Blickwinkeln und Übersetzungen, um dynamische und ansprechende 3D-Szenen zu erstellen.
+Herzlichen Glückwunsch! Sie haben erfolgreich 3D‑Knoten mit Euler‑Winkeln in Java mittels **aspose 3d java** transformiert. Experimentieren Sie mit verschiedenen Winkeln und Translationen, um dynamische und ansprechende 3D‑Szenen zu erstellen.
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Kann ich Aspose.3D für Java in kommerziellen Projekten verwenden?
+**Q: Was ist der Unterschied zwischen Euler‑Winkeln und Quaternion‑Rotation?**  
+A: Euler‑Winkel sind intuitiv (Pitch, Yaw, Roll), können jedoch unter Gimbal‑Lock leiden, während Quaternionen dieses Problem vermeiden und besser für sanfte Interpolationen geeignet sind.
 
- A1: Ja, das können Sie. Besuche den[Kaufseite](https://purchase.aspose.com/buy) für Lizenzdetails.
+**Q: Kann ich mehrere Transformationen am selben Knoten verketten?**  
+A: Ja. Rufen Sie `setEulerAngles`, `setTranslation` und `setScale` in beliebiger Reihenfolge auf; die Bibliothek kombiniert sie zu einer einzigen Transformationsmatrix.
 
-### F2: Wo finde ich Unterstützung für Aspose.3D?
+**Q: Ist es möglich, in andere Formate wie OBJ oder STL zu exportieren?**  
+A: Absolut. Ersetzen Sie `FileFormat.FBX7500ASCII` durch `FileFormat.OBJ` oder `FileFormat.STL` im Aufruf von `scene.save`.
 
- A2: Die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) ist der Ort, um Hilfe zu suchen und mit der Gemeinschaft in Kontakt zu treten.
+**Q: Wie wende ich dieselbe Rotation auf mehrere Knoten gleichzeitig an?**  
+A: Erstellen Sie einen Eltern‑Knoten, wenden Sie die Rotation auf den Eltern‑Knoten an und fügen Sie darunter Kind‑Knoten hinzu. Alle Kinder erben die Transformation.
 
-### F3: Gibt es eine kostenlose Testversion?
+**Q: Muss ich nach dem Speichern Aufräum‑Methoden aufrufen?**  
+A: Der Java‑Garbage‑Collector kümmert sich um die meisten Ressourcen, aber Sie können explizit `scene.dispose()` aufrufen, wenn Sie mit großen Szenen in einer langfristig laufenden Anwendung arbeiten.
 
- A3: Ja, Sie können das erkunden[Kostenlose Testphase](https://releases.aspose.com/) um die Möglichkeiten von Aspose.3D zu erleben.
+---
 
-### F4: Wie kann ich eine temporäre Lizenz erhalten?
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.3D 23.12 for Java  
+**Author:** Aspose  
 
- A4: Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
-
-### F5: Wo finde ich die Dokumentation?
-
- A5: Die[Dokumentation](https://reference.aspose.com/3d/java/) bietet umfassende Anleitungen zur Verwendung von Aspose.3D für Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

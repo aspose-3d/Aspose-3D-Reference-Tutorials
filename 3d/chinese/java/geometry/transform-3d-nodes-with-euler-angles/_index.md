@@ -1,116 +1,144 @@
 ---
-title: 使用 Aspose.3D 在 Java 中使用欧拉角变换 3D 节点
-linktitle: 使用 Aspose.3D 在 Java 中使用欧拉角变换 3D 节点
+date: 2025-12-13
+description: 学习如何使用 Aspose 3D Java 来变换 3D 节点。本指南展示了如何使用欧拉角、添加 3D 旋转以及设置平移。
+linktitle: Aspose 3D Java – Transform 3D Nodes with Euler Angles
 second_title: Aspose.3D Java API
-description: 使用 Aspose.3D 探索 Java 中的 3D 转换世界。按照我们的分步指南将动态欧拉角添加到您的 3D 节点。
-weight: 19
+title: Aspose 3D Java – 使用欧拉角转换 3D 节点
 url: /zh/java/geometry/transform-3d-nodes-with-euler-angles/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.3D 在 Java 中使用欧拉角变换 3D 节点
+# 使用 Aspose.3D 在 Java 中通过欧拉角转换 3D 节点
 
 ## 介绍
 
-欢迎来到这个关于使用 Aspose.3D 在 Java 中通过欧拉角变换 3D 节点的分步教程。在本指南中，我们将深入研究向 3D 节点添加变换的过程，使用欧拉角实现动态定位和定向。
+在本教程中，您将了解 **如何使用 aspose 3d java** 通过欧拉角对 3D 节点进行变换。阅读完本指南后，您将能够添加 3D 旋转、设置 Java 平移，并创建能够响应实时数据的动态场景。
 
-## 先决条件
+## 快速答疑
+- **哪个库在 Java 中处理 3D 变换？** Aspose 3D for Java。  
+- **哪个方法使用欧拉角设置旋转？** 节点的 `setEulerAngles()` 方法。  
+- **如何在空间中移动节点？** 使用带有 `Vector3` 参数的 `setTranslation()`。  
+- **生产环境是否需要许可证？** 是的，需要商业 Aspose 3D 许可证。  
+- **可以导出为 FBX 吗？** 完全可以——`scene.save(..., FileFormat.FBX7500ASCII)` 开箱即用。
 
-在我们深入学习本教程之前，请确保您具备以下先决条件：
+## 前置条件
 
-- Java 编程的基础知识。
-- 您的计算机上安装了 Java 开发工具包 (JDK)。
--  Aspose.3D 库，您可以从中获取[Aspose.3D Java 文档](https://reference.aspose.com/3d/java/).
+在开始教程之前，请确保已具备以下前置条件：
+
+- 基本的 Java 编程知识。  
+- 已在机器上安装 Java Development Kit (JDK)。  
+- Aspose.3D 库，可从 [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/) 获取。
 
 ## 导入包
 
-首先将必要的包导入到您的 Java 项目中。确保 Aspose.3D 库已正确添加到您的类路径中。如果您还没有下载，可以找到下载链接[这里](https://releases.aspose.com/3d/java/).
+在 Java 项目中导入必要的包。确保已将 Aspose.3D 库正确添加到类路径中。如果尚未下载，可在此处找到下载链接 [here](https://releases.aspose.com/3d/java/)。
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## 步骤1.初始化场景和节点
+## aspose 3d java – 使用欧拉角
+
+### 步骤 1. 初始化场景和节点
+
+首先，创建一个场景和一个用于保存要变换几何体的节点。
 
 ```java
-//ExStart:AddTransformationToNodeByEulerAngles
-//初始化场景对象
+// ExStart:AddTransformationToNodeByEulerAngles
+// Initialize scene object
 Scene scene = new Scene();
 
-//初始化Node类对象
+// Initialize Node class object
 Node cubeNode = new Node("cube");
 ```
 
-## 步骤 2. 创建网格并设置几何体
+### 步骤 2. 创建网格并设置几何体
+
+接下来，生成一个简单的网格（本例中为立方体），并将其附加到节点上。
 
 ```java
-//调用 Common 类使用多边形生成器方法创建网格来设置网格实例
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-//将节点指向网格几何体
+// Point node to the Mesh geometry
 cubeNode.setEntity(mesh);
 ```
 
-## 步骤 3. 设置欧拉角和平移
+## 为节点添加 3D 旋转
+
+### 步骤 3. 设置欧拉角和位移
+
+现在使用欧拉角应用旋转，并将节点移动到可见位置。
 
 ```java
-//欧拉角
+// Euler angles
 cubeNode.getTransform().setEulerAngles(new Vector3(0.3, 0.1, -0.5));
 
-//设置翻译
+// Set translation
 cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 ```
 
+## 设置 Java 平移 – 定位节点
+
+上面的平移步骤演示了 **set translation java** 的实际用法：节点沿 Z 轴平移了 20 个单位，以便在渲染后能够看到它。
+
 ## 步骤 4. 将节点添加到场景
 
+将已变换的节点附加到场景的根节点。
+
 ```java
-//将立方体添加到场景中
+// Add cube to the scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
 ## 步骤 5. 保存 3D 场景
 
+最后，将场景导出为 FBX 文件（或其他受支持的格式）。
+
 ```java
-//文档目录的路径。
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "TransformationToNode.fbx";
 
-//以支持的文件格式保存 3D 场景
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7500ASCII);
-//ExEnd:AddTransformationToNodeByEulerAngles
+// ExEnd:AddTransformationToNodeByEulerAngles
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-确保将“您的文档目录”替换为计算机上的适当路径。
+请将 `"Your Document Directory"` 替换为您机器上的相应路径。
 
 ## 结论
 
-恭喜！您已通过 Aspose.3D 在 Java 中使用欧拉角成功转换了 3D 节点。尝试不同的角度和平移来创建动态且引人入胜的 3D 场景。
+恭喜！您已成功使用 **aspose 3d java** 在 Java 中通过欧拉角转换了 3D 节点。尝试不同的角度和平移，创建动态且引人入胜的 3D 场景。
 
-## 常见问题解答
+## Frequently Asked Questions
 
-### Q1：我可以在商业项目中使用Aspose.3D for Java吗？
+**Q: 欧拉角和四元数旋转有什么区别？**  
+A: 欧拉角直观（俯仰、偏航、滚转），但可能出现万向锁；四元数避免此问题，且更适合平滑插值。
 
- A1: 是的，可以。参观[购买页面](https://purchase.aspose.com/buy)了解许可详细信息。
+**Q: 能否在同一节点上链式调用多个变换？**  
+A: 可以。按任意顺序调用 `setEulerAngles`、`setTranslation`、`setScale`，库会将它们组合成单一的变换矩阵。
 
-### Q2：在哪里可以找到对 Aspose.3D 的支持？
+**Q: 能导出为 OBJ 或 STL 等其他格式吗？**  
+A: 完全可以。将 `FileFormat.FBX7500ASCII` 替换为 `FileFormat.OBJ` 或 `FileFormat.STL` 即可。
 
- A2: 的[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)是寻求帮助和与社区联系的地方。
+**Q: 如何一次性对多个节点应用相同的旋转？**  
+A: 创建一个父节点，将旋转应用到父节点，然后将子节点添加到其下。所有子节点都会继承该变换。
 
-### Q3：有免费试用吗？
+**Q: 保存后需要调用清理方法吗？**  
+A: Java 垃圾回收器会处理大多数资源，但在长时间运行的应用中处理大型场景时，可显式调用 `scene.dispose()`。
 
- A3：是的，您可以探索[免费试用](https://releases.aspose.com/)体验Aspose.3D的功能。
+---
 
-### Q4：如何获得临时驾照？
+**最后更新：** 2025-12-13  
+**测试环境：** Aspose.3D 23.12 for Java  
+**作者：** Aspose  
 
- A4：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
-
-### Q5：在哪里可以找到文档？
-
-A5: 的[文档](https://reference.aspose.com/3d/java/)提供有关使用 Aspose.3D for Java 的全面指南。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
