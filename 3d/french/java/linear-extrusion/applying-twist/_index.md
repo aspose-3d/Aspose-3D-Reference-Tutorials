@@ -1,33 +1,43 @@
 ---
-title: Application de torsion dans l'extrusion linéaire avec Aspose.3D pour Java
-linktitle: Application de torsion dans l'extrusion linéaire avec Aspose.3D pour Java
-second_title: API Java Aspose.3D
-description: Apprenez à ajouter une touche à vos modèles 3D à l'aide d'Aspose.3D pour Java. Suivez notre guide étape par étape pour des effets d'extrusion linéaire améliorés.
-weight: 14
+date: 2025-12-17
+description: Learn how to create twisted 3D model using Aspose.3D for Java with linear
+  extrusion twist and export OBJ file Java. Follow our step‑by‑step guide.
+linktitle: Applying Twist in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Créer un modèle 3D torsadé – Appliquer la torsion dans l'extrusion linéaire
+  avec Aspose.3D pour Java
 url: /fr/java/linear-extrusion/applying-twist/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Application de torsion dans l'extrusion linéaire avec Aspose.3D pour Java
+# Appliquer une torsion lors de l'extrusion linéaire avec Aspose.3D pour Java
 
 ## Introduction
 
-Bienvenue dans ce didacticiel étape par étape sur l'application d'une torsion dans l'extrusion linéaire à l'aide d'Aspose.3D pour Java. Aspose.3D est une puissante bibliothèque Java qui permet aux développeurs de travailler avec des formats de fichiers 3D, offrant des fonctionnalités robustes pour créer, manipuler et restituer des scènes 3D. Dans ce didacticiel, nous explorerons comment appliquer un effet de torsion lors du processus d'extrusion linéaire pour améliorer vos modèles 3D.
+Bienvenue dans ce tutoriel pas à pas sur **comment créer un modèle 3D tordu** en appliquant une torsion lors de l'extrusion linéaire à l'aide d'Aspose.3D pour Java. Que vous réalisiez des visualisations architecturales, des actifs de jeu ou des prototypes d'ingénierie, ajouter une torsion peut donner à votre géométrie un aspect dynamique et en spirale avec seulement quelques lignes de code.
 
-## Conditions préalables
+## Réponses rapides
+- **Que signifie « torsion » dans l'extrusion ?** Elle fait pivoter le profil autour de l'axe d'extrusion pendant que la forme est allongée.  
+- **Quelle classe API gère la torsion ?** `LinearExtrusion` fournit la méthode `setTwist`.  
+- **Ai-je besoin d'une licence pour exécuter l'exemple ?** Un essai gratuit suffit pour l'évaluation ; une licence commerciale est requise pour la production.  
+- **Puis-je exporter le résultat au format OBJ ?** Oui, utilisez `scene.save(..., FileFormat.WAVEFRONTOBJ)`.  
+- **Quelle version de Java est requise ?** Java 8 ou ultérieure est entièrement prise en charge.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Prérequis
 
-- Environnement de développement Java : assurez-vous que Java est installé sur votre système.
--  Bibliothèque Aspose.3D : téléchargez et installez la bibliothèque Aspose.3D pour Java à partir du[lien de téléchargement](https://releases.aspose.com/3d/java/).
--  Documentation : reportez-vous au[Documentation Aspose.3D](https://reference.aspose.com/3d/java/) pour des conseils complets.
+Avant de plonger dans le tutoriel, assurez‑vous d'avoir les prérequis suivants :
 
-## Importer des packages
+- Environnement de développement Java : assurez‑vous que Java est installé sur votre système.  
+- Bibliothèque Aspose.3D : téléchargez et installez la bibliothèque Aspose.3D pour Java depuis le [lien de téléchargement](https://releases.aspose.com/3d/java/).  
+- Documentation : consultez la [documentation Aspose.3D](https://reference.aspose.com/3d/java/) pour des instructions complètes.
 
-Avant de commencer le processus de codage, importez les packages nécessaires dans votre projet Java. Voici un exemple de la façon de procéder :
+## Importer les packages
+
+Avant de commencer le processus de codage, importez les packages nécessaires dans votre projet Java. Voici un exemple :
 
 ```java
 import com.aspose.threed.*;
@@ -36,98 +46,114 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Étape 1 : Définir le répertoire des documents
+## Définir le répertoire du document
 
-Commencez par définir le répertoire de documents dans lequel votre scène 3D sera enregistrée.
+Tout d'abord, définissez où le fichier 3D généré sera enregistré.
 
 ```java
-// ExStart : SetDocumentDirectory
+// ExStart:SetDocumentDirectory
 String MyDir = "Your Document Directory";
-// ExEnd : SetDocumentDirectory
+// ExEnd:SetDocumentDirectory
 ```
 
-## Étape 2 : initialiser le profil de base
+## Initialiser le profil de base
 
-Initialisez le profil de base à extruder. Dans cet exemple, nous utilisons une forme rectangulaire avec un rayon d'arrondi.
+Ensuite, créez la forme qui sera extrudée. Dans cet exemple, nous utilisons un rectangle avec un petit rayon d'arrondi.
 
 ```java
-// ExStart : Initialiser le profil de base
+// ExStart:InitializeBaseProfile
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
-// ExEnd : Initialiser le profil de base
+// ExEnd:InitializeBaseProfile
 ```
 
-## Étape 3 : Créer une scène
+## Créer une scène
 
-Créez une scène 3D pour héberger les nœuds extrudés.
+Un objet `Scene` agit comme conteneur pour tous les nœuds 3D.
 
 ```java
-// ExStart : Créer une scène
+// ExStart:CreateScene
 Scene scene = new Scene();
-// ExEnd : Créer une scène
+// ExEnd:CreateScene
 ```
 
-## Étape 4 : Créer des nœuds
+## Créer des nœuds
 
-Créez des nœuds gauche et droit dans la scène. Ajustez la translation du nœud gauche.
+Ajoutez deux nœuds enfants à la scène – l'un restera droit, l'autre recevra la torsion.
 
 ```java
-// ExStart : Créer des nœuds
+// ExStart:CreateNodes
 Node left = scene.getRootNode().createChildNode();
 Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
-// ExEnd : Créer des nœuds
+// ExEnd:CreateNodes
 ```
 
-## Étape 5 : Effectuer une extrusion linéaire avec Twist
+## Torsion d'extrusion linéaire
 
-Effectuez une extrusion linéaire sur les nœuds gauche et droit, en appliquant les propriétés de torsion et de tranches.
+Nous effectuons maintenant la **torsion d'extrusion linéaire** sur les deux nœuds. Le nœud de gauche reçoit une torsion de 0° (droit), tandis que le nœud de droite reçoit une torsion de 90°, créant une forme en spirale. Nous définissons également le nombre de tranches pour garantir une géométrie lisse.
 
 ```java
-// ExStart :ExtrusionLinéaireAvecTorsion
+// ExStart:LinearExtrusionWithTwist
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(0); setSlices(100); }});
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(90); setSlices(100); }});
-// ExEnd :ExtrusionLinéaireAvecTorsion
+// ExEnd:LinearExtrusionWithTwist
 ```
 
-## Étape 6 : Enregistrer la scène 3D
+## Exporter le fichier OBJ en Java
 
-Enregistrez la scène 3D au format de fichier Wavefront OBJ.
+Enfin, enregistrez la scène au format OBJ largement supporté. Cela démontre la capacité **export OBJ file Java** d'Aspose.3D.
 
 ```java
-// ExDémarrer : Enregistrer la scène 3DS
+// ExStart:Save3DScene
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-//ExEnd : Save3DScene
+// ExEnd:Save3DScene
 ```
 
-## Conclusion
+## Pourquoi c'est important
 
-Toutes nos félicitations! Vous avez appliqué avec succès une torsion dans une extrusion linéaire à l'aide d'Aspose.3D pour Java. Ce didacticiel fournit un guide détaillé, étape par étape, pour vous aider à améliorer vos capacités de modélisation 3D.
+Créer un modèle 3D tordu vous offre un effet visuel puissant sans nécessiter d'outils de modélisation externes. C’est particulièrement utile pour :
 
-## FAQ
+- **Pièces mécaniques** nécessitant des caractéristiques hélicoïdales (par ex., ressorts, vis).  
+- **Designs artistiques** où une spirale subtile ajoute de l'intérêt visuel.  
+- **Actifs de jeu** qui bénéficient d'une géométrie low‑poly générée procéduralement.
 
-### Q1 : Puis-je utiliser Aspose.3D pour Java pour travailler avec d’autres formats de fichiers 3D ?
+## Problèmes courants & astuces
 
-A1 : Oui, Aspose.3D prend en charge différents formats de fichiers 3D, vous permettant d'importer, d'exporter et de manipuler divers types de fichiers.
+| Problème | Solution |
+|----------|----------|
+| La torsion apparaît plate ou manquante | Assurez‑vous que `setSlices` est suffisamment élevé (par ex., 100) pour une rotation fluide. |
+| Le fichier OBJ ne s'ouvre pas dans le visualiseur | Vérifiez que le chemin de sortie (`MyDir`) est correct et que le fichier possède les permissions d'écriture. |
+| Mise à l'échelle inattendue | Vérifiez le système d'unités de votre profil source ; Aspose.3D fonctionne en mètres par défaut. |
 
-### Q2 : Où puis-je trouver du support pour Aspose.3D pour Java ?
+## Questions fréquemment posées
 
- A2 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien et les discussions de la communauté.
+**Q : Puis‑je utiliser Aspose.3D pour Java avec d'autres formats de fichiers 3D ?**  
+R : Oui, Aspose.3D prend en charge un large éventail de formats tels que FBX, STL, 3MF, et plus encore.
 
-### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.3D pour Java ?
+**Q : Où puis‑je trouver du support pour Aspose.3D pour Java ?**  
+R : Consultez le [forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour l'aide de la communauté et l'assistance officielle.
 
- A3 : Oui, vous pouvez accéder à la version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
+**Q : Une version d'essai gratuite est‑elle disponible ?**  
+R : Oui, vous pouvez télécharger une version d'essai depuis [ici](https://releases.aspose.com/).
 
-### Q4 : Comment puis-je obtenir une licence temporaire pour Aspose.3D pour Java ?
+**Q : Comment obtenir une licence temporaire pour les tests ?**  
+R : Obtenez une licence temporaire sur la [page de licence temporaire](https://purchase.aspose.com/temporary-license/).
 
- A4 : Obtenez une licence temporaire auprès du[page de licence temporaire](https://purchase.aspose.com/temporary-license/).
+**Q : Où puis‑je acheter une licence complète ?**  
+R : Achetez Aspose.3D pour Java depuis la [page d'achat](https://purchase.aspose.com/buy).
 
-### Q5 : Où puis-je acheter Aspose.3D pour Java ?
-
- A5 : Achetez Aspose.3D pour Java sur le site[page d'achat](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Dernière mise à jour :** 2025-12-17  
+**Testé avec :** Aspose.3D 24.11 pour Java  
+**Auteur :** Aspose  
+
+---

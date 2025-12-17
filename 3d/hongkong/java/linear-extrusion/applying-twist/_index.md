@@ -1,33 +1,41 @@
 ---
-title: 使用 Aspose.3D for Java 在線性拉伸中應用扭曲
-linktitle: 使用 Aspose.3D for Java 在線性拉伸中應用扭曲
+date: 2025-12-17
+description: 學習如何使用 Aspose.3D for Java 以線性擠出扭轉方式建立扭曲的 3D 模型，並匯出 OBJ 檔案。請參考我們的逐步教學。
+linktitle: Applying Twist in Linear Extrusion with Aspose.3D for Java
 second_title: Aspose.3D Java API
-description: 了解如何使用 Aspose.3D for Java 為 3D 模型新增扭曲。請依照我們的逐步指南來增強線性擠壓效果。
-weight: 14
+title: 建立扭曲的 3D 模型 – 使用 Aspose.3D for Java 在線性擠出中套用扭轉
 url: /zh-hant/java/linear-extrusion/applying-twist/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.3D for Java 在線性拉伸中應用扭曲
+# 在 Java 中使用 Aspose.3D 進行線性擠出扭轉
 
 ## 介紹
 
-歡迎閱讀本分步教程，了解如何使用 Aspose.3D for Java 在線性拉伸中應用扭曲。 Aspose.3D 是一個功能強大的 Java 函式庫，使開發人員能夠使用 3D 檔案格式，為建立、操作和渲染 3D 場景提供強大的功能。在本教程中，我們將探索如何在線性擠出過程中應用扭曲效果來增強 3D 模型。
+歡迎閱讀本步驟教學，說明如何透過 Aspose.3D for Java 在進行線性擠出時加入扭轉，以 **建立扭曲的 3D 模型**。無論您是製作建築視覺化、遊戲資產或工程原型，僅需幾行程式碼即可為幾何體增添動態的螺旋效果。
 
-## 先決條件
+## 快速解答
+- **「扭轉」在擠出時是什麼意思？** 它會在形狀延伸的同時，使輪廓繞擠出軸旋轉。  
+- **哪個 API 類別負責扭轉？** `LinearExtrusion` 提供 `setTwist` 方法。  
+- **執行範例是否需要授權？** 評估可使用免費試用版；正式上線需購買商業授權。  
+- **可以將結果匯出為 OBJ 嗎？** 可以，使用 `scene.save(..., FileFormat.WAVEFRONTOBJ)`。  
+- **需要哪個 Java 版本？** 完全支援 Java 8 及以上版本。
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+## 前置條件
 
-- Java 開發環境：確保您的系統上安裝了 Java。
--  Aspose.3D 函式庫：從下列位置下載並安裝 Java 的 Aspose.3D 函式庫：[下載連結](https://releases.aspose.com/3d/java/).
-- 文件：請參閱[Aspose.3D 文檔](https://reference.aspose.com/3d/java/)進行全面指導。
+在開始教學之前，請確保已具備以下條件：
 
-## 導入包
+- Java 開發環境：請確認系統已安裝 Java。  
+- Aspose.3D 套件：從 [download link](https://releases.aspose.com/3d/java/) 下載並安裝 Aspose.3D for Java。  
+- 文件說明：參考 [Aspose.3D documentation](https://reference.aspose.com/3d/java/) 取得完整指引。
 
-在開始編碼過程之前，將必要的套件匯入到您的 Java 專案中。以下是如何執行此操作的範例：
+## 匯入套件
+
+在開始編寫程式碼之前，先將必要的套件匯入您的 Java 專案。以下為範例：
 
 ```java
 import com.aspose.threed.*;
@@ -36,98 +44,114 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 步驟1：設定文檔目錄
+## 設定文件目錄
 
-首先設定將保存 3D 場景的文檔目錄。
+首先，定義產生的 3D 檔案要儲存的位置。
 
 ```java
-// ExStart:設定文檔目錄
+// ExStart:SetDocumentDirectory
 String MyDir = "Your Document Directory";
-//ExEnd:設定文檔目錄
+// ExEnd:SetDocumentDirectory
 ```
 
-## 第 2 步：初始化基本設定檔
+## 初始化基礎輪廓
 
-初始化要拉伸的基礎輪廓。在此範例中，我們使用具有圓角半徑的矩形形狀。
+接著，建立將要被擠出的形狀。本例使用帶有小圓角半徑的矩形。
 
 ```java
-// ExStart:初始化BaseProfile
+// ExStart:InitializeBaseProfile
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
-//結束：初始化BaseProfile
+// ExEnd:InitializeBaseProfile
 ```
 
-## 第 3 步：建立場景
+## 建立場景
 
-建立一個 3D 場景來託管拉伸節點。
+`Scene` 物件充當所有 3D 節點的容器。
 
 ```java
-//ExStart:建立場景
+// ExStart:CreateScene
 Scene scene = new Scene();
-//ExEnd:建立場景
+// ExEnd:CreateScene
 ```
 
-## 第四步：建立節點
+## 建立節點
 
-在場景中建立左右節點。調整左節點的平移。
+向場景中加入兩個子節點——一個保持直線，另一個將接受扭轉。
 
 ```java
-// ExStart:建立節點
+// ExStart:CreateNodes
 Node left = scene.getRootNode().createChildNode();
 Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
-//ExEnd:建立節點
+// ExEnd:CreateNodes
 ```
 
-## 第 5 步：執行扭轉線性擠壓
+## 線性擠出扭轉
 
-在左右節點上執行線性擠出，應用扭曲和切片屬性。
+現在對兩個節點執行 **linear extrusion twist**。左側節點使用 0° 扭轉（保持直線），右側節點使用 90° 扭轉，產生螺旋形狀。我們同時設定切片數量，以確保幾何體平滑。
 
 ```java
-// ExStart：帶扭轉的線性擠壓
+// ExStart:LinearExtrusionWithTwist
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(0); setSlices(100); }});
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(90); setSlices(100); }});
-//ExEnd:帶扭轉的線性擠壓
+// ExEnd:LinearExtrusionWithTwist
 ```
 
-## 第 6 步：儲存 3D 場景
+## 匯出 OBJ 檔案（Java）
 
-以 Wavefront OBJ 檔案格式儲存 3D 場景。
+最後，將場景儲存為廣受支援的 OBJ 格式。此步驟示範了 Aspose.3D 的 **export OBJ file Java** 功能。
 
 ```java
-// ExStart:儲存3D場景
+// ExStart:Save3DScene
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-//ExEnd：儲存3D場景
+// ExEnd:Save3DScene
 ```
 
-## 結論
+## 為何重要
 
-恭喜！您已使用 Aspose.3D for Java 成功地在線性擠出中應用了扭曲。本教學提供了詳細的逐步指南，可協助您增強 3D 建模能力。
+建立扭曲的 3D 模型可在不依賴外部建模工具的情況下，產生強大的視覺效果。特別適用於：
 
-## 常見問題解答
+- **機械零件** 需要螺旋特徵（例如彈簧、螺絲）。  
+- **藝術設計** 中，細微的螺旋可增添視覺趣味。  
+- **遊戲資產** 受惠於低多邊形、程序化產生的幾何體。
 
-### Q1：我可以使用 Aspose.3D for Java 來處理其他 3D 檔案格式嗎？
+## 常見問題與技巧
 
-A1：是的，Aspose.3D 支援各種 3D 檔案格式，讓您可以匯入、匯出和操作不同的檔案類型。
+| 問題 | 解決方案 |
+|------|----------|
+| 扭轉顯示平坦或缺失 | 確認 `setSlices` 設定足夠高（例如 100），以取得平滑旋轉。 |
+| OBJ 檔案無法在檢視器開啟 | 檢查輸出路徑 (`MyDir`) 是否正確，且檔案具有寫入權限。 |
+| 出現意外的縮放 | 檢查來源輪廓的單位系統；Aspose.3D 預設使用公尺。 |
 
-### 問題 2：在哪裡可以找到 Aspose.3D for Java 的支援？
+## 常見問答
 
- A2：訪問[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)以獲得社區支持和討論。
+**Q: 我可以使用 Aspose.3D for Java 處理其他 3D 檔案格式嗎？**  
+A: 可以，Aspose.3D 支援多種格式，如 FBX、STL、3MF 等。
 
-### 問題 3：Aspose.3D for Java 是否有免費試用版？
+**Q: 在哪裡可以取得 Aspose.3D for Java 的支援？**  
+A: 前往 [Aspose.3D forum](https://forum.aspose.com/c/3d/18) 取得社群協助與官方支援。
 
- A3：是的，您可以從以下位置存取免費試用版：[這裡](https://releases.aspose.com/).
+**Q: 有免費試用版嗎？**  
+A: 有，您可從 [here](https://releases.aspose.com/) 下載試用版本。
 
-### Q4：如何取得 Aspose.3D for Java 的臨時授權？
+**Q: 如何取得測試用的臨時授權？**  
+A: 前往 [temporary license page](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
- A4：從以下機構取得臨時許可證[臨時許可證頁面](https://purchase.aspose.com/temporary-license/).
+**Q: 哪裡可以購買完整授權？**  
+A: 請至 [buying page](https://purchase.aspose.com/buy) 購買 Aspose.3D for Java。
 
-### Q5：哪裡可以購買Aspose.3D for Java？
-
-A5：從 Aspose.3D for Java 購買[購買頁面](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最後更新：** 2025-12-17  
+**測試環境：** Aspose.3D 24.11 for Java  
+**作者：** Aspose  
+
+---

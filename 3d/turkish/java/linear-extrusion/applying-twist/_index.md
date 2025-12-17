@@ -1,33 +1,44 @@
 ---
-title: Aspose.3D for Java ile Doğrusal Ekstrüzyonda Twist Uygulamak
-linktitle: Aspose.3D for Java ile Doğrusal Ekstrüzyonda Twist Uygulamak
-second_title: Aspose.3D Java API'si
-description: Aspose.3D for Java'yı kullanarak 3D modellerinize nasıl yenilik ekleyeceğinizi öğrenin. Gelişmiş doğrusal ekstrüzyon efektleri için adım adım kılavuzumuzu izleyin.
-weight: 14
+date: 2025-12-17
+description: Aspose.3D for Java kullanarak lineer ekstrüzyon bükülmesiyle bükülmüş
+  3D model oluşturmayı ve OBJ dosyasını Java’da dışa aktarmayı öğrenin. Adım adım
+  rehberimizi izleyin.
+linktitle: Applying Twist in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Bükülmüş 3D Model Oluşturma – Aspose.3D for Java ile Doğrusal Ekstrüzyonda
+  Bükülme Uygulama
 url: /tr/java/linear-extrusion/applying-twist/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D for Java ile Doğrusal Ekstrüzyonda Twist Uygulamak
+# Aspose.3D for Java ile Lineer Ekstrüzyonda Twist Uygulama
 
-## giriiş
+## Giriş
 
-Aspose.3D for Java kullanarak doğrusal ekstrüzyonda bir değişiklik uygulamaya yönelik bu adım adım eğitime hoş geldiniz. Aspose.3D, geliştiricilerin 3D dosya formatlarıyla çalışmasına olanak tanıyan, 3D sahneleri oluşturmak, değiştirmek ve işlemek için güçlü işlevsellik sunan güçlü bir Java kütüphanesidir. Bu eğitimde, 3D modellerinizi geliştirmek için doğrusal ekstrüzyon işlemi sırasında büküm efektinin nasıl uygulanacağını keşfedeceğiz.
+Bu adım‑adım öğreticide **twistli bir 3D model** oluşturmayı, Aspose.3D for Java kullanarak lineer ekstrüzyon sırasında bir twist uygulamayı öğreneceksiniz. Mimari görselleştirmeler, oyun varlıkları veya mühendislik prototipleri oluşturuyor olun, sadece birkaç satır kodla geometrinize dinamik, spiral bir görünüm kazandırabilirsiniz.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **Ekstrüzyonda “twist” ne anlama gelir?** Şekil uzatılırken profil ekstrüzyon ekseni etrafında döner.  
+- **Hangi API sınıfı twist'i yönetir?** `LinearExtrusion` sınıfı `setTwist` metodunu sağlar.  
+- **Örneği çalıştırmak için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **Sonucu OBJ olarak dışa aktarabilir miyim?** Evet, `scene.save(..., FileFormat.WAVEFRONTOBJ)` kullanın.  
+- **Hangi Java sürümü gerekiyor?** Java 8 veya üzeri tam olarak desteklenir.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## Ön Koşullar
 
-- Java Geliştirme Ortamı: Sisteminizde Java'nın kurulu olduğundan emin olun.
--  Aspose.3D Library: Java için Aspose.3D kütüphanesini şuradan indirip yükleyin:[İndirme: {link](https://releases.aspose.com/3d/java/).
--  Dokümantasyon: Bkz.[Aspose.3D belgeleri](https://reference.aspose.com/3d/java/) kapsamlı rehberlik için.
+Öğreticiye başlamadan önce aşağıdaki ön koşulların karşılandığından emin olun:
 
-## Paketleri İçe Aktar
+- Java Geliştirme Ortamı: Sisteminizde Java yüklü olduğundan emin olun.  
+- Aspose.3D Kütüphanesi: Aspose.3D Java kütüphanesini [indirme bağlantısından](https://releases.aspose.com/3d/java/) indirin ve kurun.  
+- Dokümantasyon: Kapsamlı rehberlik için [Aspose.3D dokümantasyonuna](https://reference.aspose.com/3d/java/) bakın.
 
-Kodlama işlemine başlamadan önce gerekli paketleri Java projenize aktarın. İşte bunun nasıl yapılacağına dair bir örnek:
+## Paketleri İçe Aktarma
+
+Kodlama sürecine başlamadan önce gerekli paketleri Java projenize içe aktarın. İşte bunun bir örneği:
 
 ```java
 import com.aspose.threed.*;
@@ -36,9 +47,9 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 1. Adım: Belge Dizinini Ayarlayın
+## Belge Dizini Ayarla
 
-3B sahnenizin kaydedileceği belge dizinini ayarlayarak başlayın.
+İlk olarak, oluşturulan 3D dosyasının nereye kaydedileceğini tanımlayın.
 
 ```java
 // ExStart:SetDocumentDirectory
@@ -46,20 +57,20 @@ String MyDir = "Your Document Directory";
 // ExEnd:SetDocumentDirectory
 ```
 
-## Adım 2: Temel Profili Başlatın
+## Temel Profili Başlat
 
-Ekstrüzyona tabi tutulacak taban profilini başlatın. Bu örnekte yuvarlama yarıçapına sahip bir dikdörtgen şekli kullanıyoruz.
+Sonra, ekstrüde edilecek şekli oluşturun. Bu örnekte küçük bir yuvarlama yarıçapına sahip bir dikdörtgen kullanıyoruz.
 
 ```java
-// ExStart:BaseProfile'ı Başlat
+// ExStart:InitializeBaseProfile
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
-// ExEnd:BaseProfile'ı Başlat
+// ExEnd:InitializeBaseProfile
 ```
 
-## 3. Adım: Bir Sahne Oluşturun
+## Bir Sahne Oluştur
 
-Ekstrüzyona tabi tutulan düğümleri barındırmak için bir 3B sahne oluşturun.
+`Scene` nesnesi tüm 3D düğümler için bir kapsayıcı görevi görür.
 
 ```java
 // ExStart:CreateScene
@@ -67,9 +78,9 @@ Scene scene = new Scene();
 // ExEnd:CreateScene
 ```
 
-## 4. Adım: Düğümler Oluşturun
+## Düğümler Oluştur
 
-Sahne içinde sol ve sağ düğümler oluşturun. Sol düğümün çevirisini ayarlayın.
+Sahneye iki alt düğüm ekleyin – biri düz kalacak, diğeri twist alacak.
 
 ```java
 // ExStart:CreateNodes
@@ -79,55 +90,71 @@ left.getTransform().setTranslation(new Vector3(5, 0, 0));
 // ExEnd:CreateNodes
 ```
 
-## Adım 5: Twist ile Doğrusal Ekstrüzyon Gerçekleştirin
+## Lineer Ekstrüzyon Twist'i
 
-Bükme ve dilimleme özelliklerini uygulayarak hem sol hem de sağ düğümlerde doğrusal ekstrüzyon gerçekleştirin.
+Şimdi her iki düğümde **lineer ekstrüzyon twist'i** gerçekleştiriyoruz. Sol düğüm 0° twist alır (düz), sağ düğüm ise 90° twist alarak spiral bir şekil oluşturur. Ayrıca pürüzsüz geometri sağlamak için dilim sayısını ayarlıyoruz.
 
 ```java
-// ExStart:Twist ile Doğrusal Ekstrüzyon
+// ExStart:LinearExtrusionWithTwist
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(0); setSlices(100); }});
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(90); setSlices(100); }});
-// ExEnd:Bükümlü Doğrusal Ekstrüzyon
+// ExEnd:LinearExtrusionWithTwist
 ```
 
-## Adım 6: 3D Sahneyi Kaydet
+## OBJ Dosyasını Java ile Dışa Aktar
 
-3B sahneyi Wavefront OBJ dosya formatında kaydedin.
+Son olarak, sahneyi yaygın olarak desteklenen OBJ formatında kaydedin. Bu, Aspose.3D'nin **OBJ dosyasını Java ile dışa aktarma** yeteneğini gösterir.
 
 ```java
-// ExStart:3DScene'i Kaydet
+// ExStart:Save3DScene
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-//ExEnd:3DScene'i Kaydet
+// ExEnd:Save3DScene
 ```
 
-## Çözüm
+## Neden Önemli
 
-Tebrikler! Aspose.3D for Java'yı kullanarak doğrusal ekstrüzyonda başarılı bir şekilde büküm uyguladınız. Bu eğitimde, 3D modelleme yeteneklerinizi geliştirmenize yardımcı olacak ayrıntılı, adım adım bir kılavuz sağlanmıştır.
+Twistli bir 3D model oluşturmak, harici modelleme araçlarına ihtiyaç duymadan güçlü bir görsel etki sağlar. Özellikle şunlar için faydalıdır:
 
-## SSS'ler
+- **Mekanik parçalar** helisel özellikler gerektiren (ör. yaylar, vidalar).  
+- **Sanatsal tasarımlar** ince bir spiralin görsel ilgi kattığı durumlar.  
+- **Oyun varlıkları** düşük poligonlu, prosedürel olarak oluşturulmuş geometriye fayda sağlayan.
 
-### S1: Aspose.3D for Java'yı diğer 3D dosya formatlarıyla çalışmak için kullanabilir miyim?
+## Yaygın Sorunlar ve İpuçları
 
-Cevap1: Evet, Aspose.3D çeşitli 3D dosya formatlarını destekleyerek farklı dosya türlerini içe aktarmanıza, dışa aktarmanıza ve değiştirmenize olanak tanır.
+| Sorun | Çözüm |
+|-------|----------|
+| Twist düz veya eksik görünüyor | Pürüzsüz dönüş için `setSlices` değerinin yeterince yüksek (ör. 100) olduğundan emin olun. |
+| OBJ dosyası görüntüleyicide açılmıyor | Çıktı yolunun (`MyDir`) doğru olduğundan ve dosyanın yazma izinlerine sahip olduğundan emin olun. |
+| Beklenmeyen ölçekleme | Kaynak profilinizin birim sistemini kontrol edin; Aspose.3D varsayılan olarak metre biriminde çalışır. |
 
-### S2: Aspose.3D for Java desteğini nerede bulabilirim?
+## Sıkça Sorulan Sorular
 
- A2: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk desteği ve tartışmalar için.
+**S: Aspose.3D for Java'ı diğer 3D dosya formatlarıyla çalışmak için kullanabilir miyim?**  
+C: Evet, Aspose.3D FBX, STL, 3MF gibi geniş bir format yelpazesini destekler.
 
-### S3: Aspose.3D for Java'nın ücretsiz deneme sürümü mevcut mu?
+**S: Aspose.3D for Java için desteği nereden bulabilirim?**  
+C: Topluluk yardımı ve resmi destek için [Aspose.3D forumunu](https://forum.aspose.com/c/3d/18) ziyaret edin.
 
- C3: Evet, ücretsiz deneme sürümüne şuradan erişebilirsiniz:[Burada](https://releases.aspose.com/).
+**S: Ücretsiz deneme sürümü mevcut mu?**  
+C: Evet, [buradan](https://releases.aspose.com/) bir deneme sürümü indirebilirsiniz.
 
-### S4: Aspose.3D for Java için nasıl geçici lisans alabilirim?
+**S: Test için geçici bir lisans nasıl alabilirim?**  
+C: [Geçici lisans sayfasından](https://purchase.aspose.com/temporary-license/) geçici bir lisans edinin.
 
- Cevap4: Geçici bir lisans alın[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+**S: Tam lisansı nereden satın alabilirim?**  
+C: Aspose.3D for Java'ı [satın alma sayfasından](https://purchase.aspose.com/buy) satın alın.
 
-### S5: Aspose.3D for Java'yı nereden satın alabilirim?
-
- Cevap5: Java için Aspose.3D'yi şu adresten satın alın:[satın alma sayfası](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose  
+
+---

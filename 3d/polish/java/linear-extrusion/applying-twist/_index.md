@@ -1,33 +1,44 @@
 ---
-title: Stosowanie skrętu w wytłaczaniu liniowym za pomocą Aspose.3D dla Java
-linktitle: Stosowanie skrętu w wytłaczaniu liniowym za pomocą Aspose.3D dla Java
-second_title: Aspose.3D API Java
-description: Dowiedz się, jak dodać zwrot akcji do swoich modeli 3D za pomocą Aspose.3D dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać ulepszone efekty wytłaczania liniowego.
-weight: 14
+date: 2025-12-17
+description: Dowiedz się, jak stworzyć skręcony model 3D przy użyciu Aspose.3D dla
+  Javy z liniową ekstruzją skrętu i wyeksportować plik OBJ w Javie. Postępuj zgodnie
+  z naszym przewodnikiem krok po kroku.
+linktitle: Applying Twist in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Tworzenie skręconego modelu 3D – zastosowanie skrętu w liniowej ekstruzji przy
+  użyciu Aspose.3D dla Javy
 url: /pl/java/linear-extrusion/applying-twist/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Stosowanie skrętu w wytłaczaniu liniowym za pomocą Aspose.3D dla Java
+# Zastosowanie skrętu w ekstruzji liniowej z Aspose.3D dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w tym samouczku krok po kroku dotyczącym zastosowania skrętu w wytłaczaniu liniowym przy użyciu Aspose.3D dla Java. Aspose.3D to potężna biblioteka Java, która umożliwia programistom pracę z formatami plików 3D, oferując solidną funkcjonalność do tworzenia, manipulowania i renderowania scen 3D. W tym samouczku dowiemy się, jak zastosować efekt skrętu podczas procesu wytłaczania liniowego, aby ulepszyć modele 3D.
+Witamy w tym samouczku krok po kroku, jak **utworzyć skręcony model 3D** poprzez zastosowanie skrętu podczas ekstruzji liniowej przy użyciu Aspose.3D dla Javy. Niezależnie od tego, czy tworzysz wizualizacje architektoniczne, zasoby do gier, czy prototypy inżynieryjne, dodanie skrętu może nadać Twojej geometrii dynamiczny, spiralny wygląd przy zaledwie kilku linijkach kodu.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „skręt” w ekstruzji?** Obraca profil wokół osi ekstruzji w miarę wydłużania kształtu.  
+- **Która klasa API obsługuje skręt?** `LinearExtrusion` udostępnia metodę `setTwist`.  
+- **Czy potrzebna jest licencja do uruchomienia przykładu?** Darmowa wersja próbna działa w celach ewaluacyjnych; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę wyeksportować wynik jako OBJ?** Tak, użyj `scene.save(..., FileFormat.WAVEFRONTOBJ)`.  
+- **Jaka wersja Javy jest wymagana?** Java 8 lub nowsza jest w pełni wspierana.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Wymagania wstępne
 
-- Środowisko programistyczne Java: Upewnij się, że masz zainstalowaną Javę w swoim systemie.
--  Biblioteka Aspose.3D: Pobierz i zainstaluj bibliotekę Aspose.3D dla Java z[link do pobrania](https://releases.aspose.com/3d/java/).
--  Dokumentacja: Patrz[Dokumentacja Aspose.3D](https://reference.aspose.com/3d/java/) w celu uzyskania kompleksowych wskazówek.
+Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania:
 
-## Importuj pakiety
+- Środowisko programistyczne Java: Upewnij się, że Java jest zainstalowana w Twoim systemie.  
+- Biblioteka Aspose.3D: Pobierz i zainstaluj bibliotekę Aspose.3D dla Javy z [linku do pobrania](https://releases.aspose.com/3d/java/).  
+- Dokumentacja: Odwołaj się do [dokumentacji Aspose.3D](https://reference.aspose.com/3d/java/) w celu uzyskania szczegółowych wskazówek.
 
-Przed rozpoczęciem procesu kodowania zaimportuj niezbędne pakiety do swojego projektu Java. Oto przykład, jak to zrobić:
+## Importowanie pakietów
+
+Zanim rozpoczniesz proces kodowania, zaimportuj niezbędne pakiety do swojego projektu Java. Oto przykład, jak to zrobić:
 
 ```java
 import com.aspose.threed.*;
@@ -36,19 +47,19 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Krok 1: Ustaw katalog dokumentów
+## Ustawienie katalogu dokumentu
 
-Rozpocznij od ustawienia katalogu dokumentów, w którym zostanie zapisana scena 3D.
+Najpierw określ, gdzie zostanie zapisany wygenerowany plik 3D.
 
 ```java
-// ExStart:Ustaw katalog dokumentów
+// ExStart:SetDocumentDirectory
 String MyDir = "Your Document Directory";
 // ExEnd:SetDocumentDirectory
 ```
 
-## Krok 2: Zainicjuj profil podstawowy
+## Inicjalizacja podstawowego profilu
 
-Zainicjuj profil bazowy, który ma zostać wyciągnięty. W tym przykładzie używamy kształtu prostokąta z promieniem zaokrąglenia.
+Następnie utwórz kształt, który zostanie wyekstruzowany. W tym przykładzie używamy prostokąta z małym promieniem zaokrąglenia.
 
 ```java
 // ExStart:InitializeBaseProfile
@@ -57,77 +68,93 @@ profile.setRoundingRadius(0.3);
 // ExEnd:InitializeBaseProfile
 ```
 
-## Krok 3: Utwórz scenę
+## Tworzenie sceny
 
-Utwórz scenę 3D, w której będą znajdować się wyciągnięte węzły.
+Obiekt `Scene` działa jako kontener dla wszystkich węzłów 3D.
 
 ```java
-// ExStart: Utwórz scenę
+// ExStart:CreateScene
 Scene scene = new Scene();
-// Rozwiń: Utwórz scenę
+// ExEnd:CreateScene
 ```
 
-## Krok 4: Utwórz węzły
+## Tworzenie węzłów
 
-Utwórz lewy i prawy węzeł w scenie. Dostosuj tłumaczenie lewego węzła.
+Dodaj dwa węzły potomne do sceny – jeden pozostanie prosty, drugi otrzyma skręt.
 
 ```java
-// ExStart: Utwórz węzły
+// ExStart:CreateNodes
 Node left = scene.getRootNode().createChildNode();
 Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
-// ExEnd:Utwórz węzły
+// ExEnd:CreateNodes
 ```
 
-## Krok 5: Wykonaj wytłaczanie liniowe za pomocą skrętu
+## Skręt w ekstruzji liniowej
 
-Wykonaj wytłaczanie liniowe zarówno w lewym, jak i prawym węźle, stosując właściwości skrętu i plasterków.
+Teraz wykonujemy **skręt w ekstruzji liniowej** na obu węzłach. Lewy węzeł otrzymuje skręt 0° (prosty), natomiast prawy węzeł otrzymuje skręt 90°, tworząc spiralny kształt. Ustawiamy także liczbę przekrojów, aby zapewnić płynną geometrię.
 
 ```java
-// ExStart: Wyciągnięcie liniowe ze skrętem
+// ExStart:LinearExtrusionWithTwist
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(0); setSlices(100); }});
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(90); setSlices(100); }});
-// Zakończenie: Wyciągnięcie liniowe ze skrętem
+// ExEnd:LinearExtrusionWithTwist
 ```
 
-## Krok 6: Zapisz scenę 3D
+## Eksport pliku OBJ w Javie
 
-Zapisz scenę 3D w formacie pliku Wavefront OBJ.
+Na koniec zapisz scenę w szeroko wspieranym formacie OBJ. Demonstracja **eksportu pliku OBJ w Javie** pokazuje możliwości Aspose.3D.
 
 ```java
-// ExStart: Zapisz3DScene
+// ExStart:Save3DScene
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-//Rozwiń: Zapisz3DScenę
+// ExEnd:Save3DScene
 ```
 
-## Wniosek
+## Dlaczego to ma znaczenie
 
-Gratulacje! Pomyślnie zastosowałeś skręt w wytłaczaniu liniowym przy użyciu Aspose.3D dla Java. Ten samouczek zawiera szczegółowy przewodnik krok po kroku, który pomoże Ci ulepszyć możliwości modelowania 3D.
+Utworzenie skręconego modelu 3D daje potężny efekt wizualny bez konieczności korzystania z zewnętrznych narzędzi modelujących. Jest to szczególnie przydatne dla:
 
-## Często zadawane pytania
+- **Części mechanicznych**, które wymagają cech spiralnych (np. sprężyny, śruby).  
+- **Projektów artystycznych**, gdzie subtelna spirala dodaje waloru wizualnego.  
+- **Zasobów do gier**, które korzystają z niskopoligonowej, proceduralnie generowanej geometrii.
 
-### P1: Czy mogę używać Aspose.3D dla Java do pracy z innymi formatami plików 3D?
+## Typowe problemy i wskazówki
 
-Odpowiedź 1: Tak, Aspose.3D obsługuje różne formaty plików 3D, umożliwiając importowanie, eksportowanie i manipulowanie różnymi typami plików.
+| Problem | Rozwiązanie |
+|-------|----------|
+| Skręt wygląda płasko lub nie występuje | Upewnij się, że `setSlices` jest ustawione na wystarczająco wysoką wartość (np. 100), aby zapewnić płynną rotację. |
+| Plik OBJ nie otwiera się w przeglądarce | Zweryfikuj, czy ścieżka wyjściowa (`MyDir`) jest prawidłowa i czy plik ma odpowiednie uprawnienia do zapisu. |
+| Nieoczekiwane skalowanie | Sprawdź system jednostek swojego profilu źródłowego; Aspose.3D domyślnie pracuje w metrach. |
 
-### P2: Gdzie mogę znaleźć wsparcie dla Aspose.3D dla Java?
+## Najczęściej zadawane pytania
 
- A2: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności i dyskusje.
+**Q: Czy mogę używać Aspose.3D dla Javy do pracy z innymi formatami plików 3D?**  
+A: Tak, Aspose.3D obsługuje szeroką gamę formatów, takich jak FBX, STL, 3MF i inne.
 
-### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.3D dla Java?
+**Q: Gdzie mogę znaleźć wsparcie dla Aspose.3D dla Javy?**  
+A: Odwiedź [forum Aspose.3D](https://forum.aspose.com/c/3d/18) w celu uzyskania pomocy społeczności i oficjalnego wsparcia.
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej z[Tutaj](https://releases.aspose.com/).
+**Q: Czy dostępna jest darmowa wersja próbna?**  
+A: Tak, wersję próbną można pobrać [tutaj](https://releases.aspose.com/).
 
-### P4: Jak mogę uzyskać tymczasową licencję na Aspose.3D dla Java?
+**Q: Jak uzyskać tymczasową licencję do testów?**  
+A: Tymczasową licencję można pobrać ze [strony tymczasowej licencji](https://purchase.aspose.com/temporary-license/).
 
- A4: Zdobądź tymczasową licencję od[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
+**Q: Gdzie mogę kupić pełną licencję?**  
+A: Pełną licencję Aspose.3D dla Javy można nabyć na [stronie zakupu](https://purchase.aspose.com/buy).
 
-### P5: Gdzie mogę kupić Aspose.3D dla Java?
-
- A5: Kup Aspose.3D dla Java w sklepie[strona zakupowa](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-17  
+**Testowano z:** Aspose.3D 24.11 for Java  
+**Autor:** Aspose  
+
+---

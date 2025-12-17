@@ -1,33 +1,44 @@
 ---
-title: Applicazione di Twist nell'estrusione lineare con Aspose.3D per Java
-linktitle: Applicazione di Twist nell'estrusione lineare con Aspose.3D per Java
-second_title: API Java Aspose.3D
-description: Scopri come aggiungere una svolta ai tuoi modelli 3D utilizzando Aspose.3D per Java. Segui la nostra guida passo passo per effetti di estrusione lineare migliorati.
-weight: 14
+date: 2025-12-17
+description: Scopri come creare un modello 3D attorcigliato usando Aspose.3D per Java
+  con estrusione lineare torcente ed esportare il file OBJ in Java. Segui la nostra
+  guida passo passo.
+linktitle: Applying Twist in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Crea modello 3D attorcigliato – Applicare la torsione nell'estrusione lineare
+  con Aspose.3D per Java
 url: /it/java/linear-extrusion/applying-twist/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Applicazione di Twist nell'estrusione lineare con Aspose.3D per Java
+# Applicare la torsione nell'estrusione lineare con Aspose.3D per Java
 
-## introduzione
+## Introduzione
 
-Benvenuti in questo tutorial passo passo sull'applicazione di una svolta nell'estrusione lineare utilizzando Aspose.3D per Java. Aspose.3D è una potente libreria Java che consente agli sviluppatori di lavorare con formati di file 3D, offrendo robuste funzionalità per la creazione, la manipolazione e il rendering di scene 3D. In questo tutorial esploreremo come applicare un effetto di torsione durante il processo di estrusione lineare per migliorare i tuoi modelli 3D.
+Benvenuti a questo tutorial passo‑paso su **come creare un modello 3D torcente** applicando una torsione durante l'estrusione lineare con Aspose.3D per Java. Che stiate realizzando visualizzazioni architettoniche, asset per giochi o prototipi ingegneristici, aggiungere una torsione può conferire alla vostra geometria un aspetto dinamico e a spirale con poche righe di codice.
+
+## Risposte rapide
+- **Che cosa significa “twist” (torsione) nell'estrusione?** Ruota il profilo attorno all'asse di estrusione man mano che la forma viene allungata.  
+- **Quale classe API gestisce la torsione?** `LinearExtrusion` fornisce il metodo `setTwist`.  
+- **È necessaria una licenza per eseguire l'esempio?** Una versione di prova gratuita è sufficiente per la valutazione; per la produzione è richiesta una licenza commerciale.  
+- **Posso esportare il risultato come OBJ?** Sì, usa `scene.save(..., FileFormat.WAVEFRONTOBJ)`.  
+- **Quale versione di Java è richiesta?** Java 8 o successive sono pienamente supportate.
 
 ## Prerequisiti
 
-Prima di immergerti nel tutorial, assicurati di disporre dei seguenti prerequisiti:
+Prima di immergervi nel tutorial, assicuratevi di avere i seguenti prerequisiti:
 
-- Ambiente di sviluppo Java: assicurati di avere Java installato sul tuo sistema.
--  Libreria Aspose.3D: scarica e installa la libreria Aspose.3D per Java da[Link per scaricare](https://releases.aspose.com/3d/java/).
--  Documentazione: fare riferimento a[Documentazione Aspose.3D](https://reference.aspose.com/3d/java/) per una guida completa.
+- **Ambiente di sviluppo Java:** assicuratevi di avere Java installato sul vostro sistema.  
+- **Libreria Aspose.3D:** scaricate e installate la libreria Aspose.3D per Java dal [download link](https://releases.aspose.com/3d/java/).  
+- **Documentazione:** consultate la [documentazione Aspose.3D](https://reference.aspose.com/3d/java/) per una guida completa.
 
-## Importa pacchetti
+## Importare i pacchetti
 
-Prima di iniziare il processo di codifica, importa i pacchetti necessari nel tuo progetto Java. Ecco un esempio di come eseguire questa operazione:
+Prima di iniziare a scrivere il codice, importate i pacchetti necessari nel vostro progetto Java. Ecco un esempio di come farlo:
 
 ```java
 import com.aspose.threed.*;
@@ -36,9 +47,9 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Passaggio 1: imposta la directory dei documenti
+## Impostare la directory del documento
 
-Inizia impostando la directory del documento in cui verrà salvata la scena 3D.
+Definite innanzitutto dove verrà salvato il file 3D generato.
 
 ```java
 // ExStart:SetDocumentDirectory
@@ -46,30 +57,30 @@ String MyDir = "Your Document Directory";
 // ExEnd:SetDocumentDirectory
 ```
 
-## Passaggio 2: inizializza il profilo di base
+## Inizializzare il profilo di base
 
-Inizializzare il profilo di base da estrudere. In questo esempio utilizziamo una forma rettangolare con raggio arrotondato.
+Successivamente, create la forma che verrà estrusa. In questo esempio utilizziamo un rettangolo con un piccolo raggio di arrotondamento.
 
 ```java
-// ExStart:InizializzaProfiloBase
+// ExStart:InitializeBaseProfile
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
-// ExEnd:InizializzaBaseProfile
+// ExEnd:InitializeBaseProfile
 ```
 
-## Passaggio 3: crea una scena
+## Creare una scena
 
-Crea una scena 3D per ospitare i nodi estrusi.
+Un oggetto `Scene` funge da contenitore per tutti i nodi 3D.
 
 ```java
-// ExStart:Crea scena
+// ExStart:CreateScene
 Scene scene = new Scene();
-// ExEnd:Crea scena
+// ExEnd:CreateScene
 ```
 
-## Passaggio 4: crea nodi
+## Creare i nodi
 
-Crea nodi sinistro e destro all'interno della scena. Regola la traslazione del nodo sinistro.
+Aggiungete due nodi figlio alla scena – uno rimarrà dritto, l'altro riceverà la torsione.
 
 ```java
 // ExStart:CreateNodes
@@ -79,55 +90,69 @@ left.getTransform().setTranslation(new Vector3(5, 0, 0));
 // ExEnd:CreateNodes
 ```
 
-## Passaggio 5: eseguire l'estrusione lineare con Twist
+## Torsione nell'estrusione lineare
 
-Esegui l'estrusione lineare su entrambi i nodi sinistro e destro, applicando le proprietà di torsione e fette.
+Ora eseguiamo la **torsione nell'estrusione lineare** su entrambi i nodi. Il nodo sinistro ottiene una torsione di 0° (dritto), mentre il nodo destro ottiene una torsione di 90°, creando una forma a spirale. Impostiamo anche il numero di slice per garantire una geometria fluida.
 
 ```java
-// ExStart:EstrusioneLineareConTwist
+// ExStart:LinearExtrusionWithTwist
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(0); setSlices(100); }});
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(90); setSlices(100); }});
-// ExEnd:Estrusione lineare con torsione
+// ExEnd:LinearExtrusionWithTwist
 ```
 
-## Passaggio 6: salva la scena 3D
+## Esportare file OBJ Java
 
-Salva la scena 3D nel formato file Wavefront OBJ.
+Infine, salvate la scena nel formato OBJ, ampiamente supportato. Questo dimostra la capacità di **esportare file OBJ Java** di Aspose.3D.
 
 ```java
-// ExStart:Salva scena 3DS
+// ExStart:Save3DScene
 scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
-//ExEnd:Salva scena 3DS
+// ExEnd:Save3DScene
 ```
 
-## Conclusione
+## Perché è importante
 
-Congratulazioni! Hai applicato con successo una svolta nell'estrusione lineare utilizzando Aspose.3D per Java. Questo tutorial fornisce una guida dettagliata passo dopo passo per aiutarti a migliorare le tue capacità di modellazione 3D.
+Creare un modello 3D torcente vi offre un effetto visivo potente senza la necessità di strumenti di modellazione esterni. È particolarmente utile per:
+
+- **Componenti meccanici** che richiedono caratteristiche elicoidali (ad es., molle, viti).  
+- **Design artistici** dove una leggera spirale aggiunge interesse visivo.  
+- **Asset di gioco** che beneficiano di geometria low‑poly generata proceduralmente.
+
+## Problemi comuni e suggerimenti
+
+| Problema | Soluzione |
+|----------|-----------|
+| La torsione appare piatta o assente | Assicuratevi che `setSlices` sia sufficientemente alto (es., 100) per una rotazione fluida. |
+| Il file OBJ non si apre nel visualizzatore | Verificate che il percorso di output (`MyDir`) sia corretto e che il file abbia i permessi di scrittura. |
+| Scala inattesa | Controllate il sistema di unità del profilo di origine; Aspose.3D utilizza i metri per impostazione predefinita. |
 
 ## Domande frequenti
 
-### Q1: Posso utilizzare Aspose.3D per Java per lavorare con altri formati di file 3D?
+**D: Posso usare Aspose.3D per Java per lavorare con altri formati di file 3D?**  
+R: Sì, Aspose.3D supporta una vasta gamma di formati come FBX, STL, 3MF e molti altri.
 
-A1: Sì, Aspose.3D supporta vari formati di file 3D, consentendo di importare, esportare e manipolare diversi tipi di file.
+**D: Dove posso trovare supporto per Aspose.3D per Java?**  
+R: Visitate il [forum Aspose.3D](https://forum.aspose.com/c/3d/18) per assistenza della community e supporto ufficiale.
 
-### Q2: Dove posso trovare supporto per Aspose.3D per Java?
+**D: È disponibile una versione di prova gratuita?**  
+R: Sì, potete scaricare una versione di prova da [qui](https://releases.aspose.com/).
 
- A2: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per il supporto e le discussioni della comunità.
+**D: Come ottengo una licenza temporanea per i test?**  
+R: Ottenete una licenza temporanea dalla [pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).
 
-### Q3: È disponibile una prova gratuita per Aspose.3D per Java?
+**D: Dove posso acquistare una licenza completa?**  
+R: Acquistate Aspose.3D per Java dalla [pagina di acquisto](https://purchase.aspose.com/buy).
 
- R3: Sì, puoi accedere alla versione di prova gratuita da[Qui](https://releases.aspose.com/).
-
-### Q4: Come posso ottenere una licenza temporanea per Aspose.3D per Java?
-
- A4: Ottieni una licenza temporanea da[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Dove posso acquistare Aspose.3D per Java?
-
- A5: Acquista Aspose.3D per Java da[pagina di acquisto](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose
