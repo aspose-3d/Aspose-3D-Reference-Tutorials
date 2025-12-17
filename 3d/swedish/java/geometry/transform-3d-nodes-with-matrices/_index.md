@@ -158,15 +158,15 @@ A5: Du kan få en tillfällig licens [here](https://purchase.aspose.com/temporar
 
 Du har nu lärt dig hur du **konkatenerar transformationsmatriser** för att manipulera 3D‑noder i en Java‑miljö med Aspose.3D. Experimentera med olika matris­kombinationer—translation, rotation, scaling—för att skapa avancerade animationer och modeller. När du är redo, utforska andra Aspose.3D‑funktioner såsom belysning, kamerakontroll och export till ytterligare format.
 
+---
+
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.3D 24.11 for Java  
-**Author:** Aspose

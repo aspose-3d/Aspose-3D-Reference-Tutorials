@@ -159,15 +159,15 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 
 Vous avez maintenant maîtrisé la **concaténation de matrices de transformation** pour manipuler les nœuds 3D dans un environnement Java avec Aspose.3D. Expérimentez avec différentes combinaisons de matrices — translation, rotation, mise à l’échelle — pour créer des animations et des modèles sophistiqués. Lorsque vous serez prêt, explorez d’autres fonctionnalités d’Aspose.3D telles que l’éclairage, le contrôle de la caméra et l’exportation vers des formats supplémentaires.
 
+---
+
+**Dernière mise à jour :** 2025-12-14  
+**Testé avec :** Aspose.3D 24.11 for Java  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-14  
-**Testé avec :** Aspose.3D 24.11 for Java  
-**Auteur :** Aspose

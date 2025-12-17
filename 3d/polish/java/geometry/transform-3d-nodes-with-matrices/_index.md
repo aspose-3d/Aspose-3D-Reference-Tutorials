@@ -160,15 +160,15 @@ A5: Tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/t
 
 Teraz opanowałeś, jak **łączyć macierze transformacji**, aby manipulować węzłami 3D w środowisku Java przy użyciu Aspose.3D. Eksperymentuj z różnymi kombinacjami macierzy — translacją, rotacją, skalowaniem — aby tworzyć zaawansowane animacje i modele. Gdy będziesz gotowy, poznaj inne funkcje Aspose.3D, takie jak oświetlenie, kontrola kamery oraz eksport do dodatkowych formatów.
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-14  
+**Testowano z:** Aspose.3D 24.11 dla Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-14  
-**Testowano z:** Aspose.3D 24.11 dla Java  
-**Autor:** Aspose

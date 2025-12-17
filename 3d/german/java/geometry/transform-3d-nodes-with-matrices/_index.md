@@ -158,15 +158,15 @@ A5: Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/tempor
 
 Sie haben nun gelernt, wie Sie **Transformationsmatrizen verketten** können, um 3D‑Knoten in einer Java‑Umgebung mit Aspose.3D zu manipulieren. Experimentieren Sie mit verschiedenen Matrix‑Kombinationen – Translation, Rotation, Skalierung – um anspruchsvolle Animationen und Modelle zu erstellen. Wenn Sie bereit sind, erkunden Sie weitere Aspose.3D‑Funktionen wie Beleuchtung, Kamerasteuerung und das Exportieren in zusätzliche Formate.
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-14  
+**Getestet mit:** Aspose.3D 24.11 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-14  
-**Getestet mit:** Aspose.3D 24.11 for Java  
-**Autor:** Aspose

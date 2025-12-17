@@ -157,15 +157,15 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 
 لقد أتقنت الآن كيفية **دمج مصفوفات التحويل** للتلاعب بالعقد ثلاثية الأبعاد في بيئة جافا باستخدام Aspose.3D. جرّب تركيبات مختلفة من المصفوفات—ترجمة، دوران، تحجيم—لإنشاء رسومات متحركة ونماذج متقدمة. عندما تكون جاهزًا، استكشف ميزات أخرى في Aspose.3D مثل الإضاءة، التحكم بالكاميرا، وتصدير صيغ إضافية.
 
+---
+
+**آخر تحديث:** 2025-12-14  
+**تم الاختبار مع:** Aspose.3D 24.11 for Java  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-14  
-**تم الاختبار مع:** Aspose.3D 24.11 for Java  
-**المؤلف:** Aspose

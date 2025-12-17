@@ -159,15 +159,15 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 
 Most már elsajátította, hogyan **konkatenálja a transzformációs mátrixokat** a 3D csomópontok manipulálásához Java környezetben az Aspose.3D használatával. Kísérletezzen különböző mátrix kombinációkkal – transzláció, rotáció, skálázás – hogy kifinomult animációkat és modelleket hozzon létre. Amikor készen áll, fedezze fel az Aspose.3D további funkcióit, mint a megvilágítás, kamera vezérlés és a további formátumokba való exportálás.
 
+---
+
+**Utolsó frissítés:** 2025-12-14  
+**Tesztelt verzió:** Aspose.3D 24.11 for Java  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-14  
-**Tesztelt verzió:** Aspose.3D 24.11 for Java  
-**Szerző:** Aspose

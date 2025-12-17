@@ -157,15 +157,15 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 
 Bạn đã nắm vững cách **nối các ma trận biến đổi** để thao tác các nút 3D trong môi trường Java bằng Aspose.3D. Hãy thử nghiệm với các tổ hợp ma trận khác nhau — dịch, quay, thu phóng — để tạo ra các hoạt ảnh và mô hình tinh vi. Khi đã sẵn sàng, khám phá các tính năng khác của Aspose.3D như ánh sáng, điều khiển camera và xuất sang các định dạng bổ sung.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-14  
+**Kiểm tra với:** Aspose.3D 24.11 for Java  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-14  
-**Kiểm tra với:** Aspose.3D 24.11 for Java  
-**Tác giả:** Aspose

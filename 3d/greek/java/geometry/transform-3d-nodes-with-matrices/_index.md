@@ -159,15 +159,15 @@ A5: Μπορείτε να αποκτήσετε προσωρινή άδεια [ε
 
 Τώρα έχετε κατακτήσει πώς να **concatenate transformation matrices** για να χειρίζεστε 3D κόμβους σε περιβάλλον Java χρησιμοποιώντας το Aspose.3D. Πειραματιστείτε με διαφορετικούς συνδυασμούς πινάκων—translate, rotate, scale—για να δημιουργήσετε εξελιγμένες κινήσεις και μοντέλα. Όταν είστε έτοιμοι, εξερευνήστε άλλες δυνατότητες του Aspose.3D όπως φωτισμός, έλεγχο κάμερας και εξαγωγή σε επιπλέον μορφές.
 
+---
+
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.3D 24.11 for Java  
-**Author:** Aspose

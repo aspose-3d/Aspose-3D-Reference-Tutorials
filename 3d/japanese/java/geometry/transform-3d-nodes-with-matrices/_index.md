@@ -156,15 +156,15 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 
 これで Aspose.3D を使用した Java 環境における **concatenate transformation matrices** の操作方法を習得しました。平行移動、回転、スケーリングのさまざまな組み合わせを試して、洗練されたアニメーションやモデルを作成してください。準備ができたら、照明、カメラ制御、他フォーマットへのエクスポートなど、Aspose.3D の他機能もぜひ探求してみてください。
 
+---
+
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.3D 24.11 for Java  
-**Author:** Aspose

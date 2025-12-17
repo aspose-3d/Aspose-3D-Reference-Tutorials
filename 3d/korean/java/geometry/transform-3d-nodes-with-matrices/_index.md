@@ -157,15 +157,15 @@ A5: [여기](https://purchase.aspose.com/temporary-license/)에서 임시 라이
 
 이제 Aspose.3D와 Java 환경에서 **변환 행렬을 연결**하여 3D 노드를 조작하는 방법을 마스터했습니다. 다양한 행렬 조합(번역, 회전, 스케일)을 실험해 복잡한 애니메이션과 모델을 만들어 보세요. 준비가 되면 조명, 카메라 제어, 추가 포맷 내보내기 등 Aspose.3D의 다른 기능도 탐색해 보시기 바랍니다.
 
+---
+
+**마지막 업데이트:** 2025-12-14  
+**테스트 환경:** Aspose.3D 24.11 for Java  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-14  
-**테스트 환경:** Aspose.3D 24.11 for Java  
-**작성자:** Aspose

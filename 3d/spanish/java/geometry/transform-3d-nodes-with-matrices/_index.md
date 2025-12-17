@@ -158,15 +158,15 @@ A5: Puede obtener una licencia temporal [here](https://purchase.aspose.com/tempo
 
 Ahora ha dominado cómo **concatenar matrices de transformación** para manipular nodos 3D en un entorno Java usando Aspose.3D. Experimente con diferentes combinaciones de matrices —trasladar, rotar, escalar— para crear animaciones y modelos sofisticados. Cuando esté listo, explore otras funciones de Aspose.3D como iluminación, control de cámara y exportación a formatos adicionales.
 
+---
+
+**Última actualización:** 2025-12-14  
+**Probado con:** Aspose.3D 24.11 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-14  
-**Probado con:** Aspose.3D 24.11 for Java  
-**Autor:** Aspose

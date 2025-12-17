@@ -158,15 +158,15 @@ A5: Dočasnou licenci získáte [zde](https://purchase.aspose.com/temporary-lice
 
 Nyní ovládáte, jak **spojovat transformační matice** pro manipulaci s 3D uzly v prostředí Java pomocí Aspose.3D. Experimentujte s různými kombinacemi matic – translace, rotace, škálování – a vytvářejte sofistikované animace a modely. Až budete připraveni, prozkoumejte další funkce Aspose.3D, jako jsou osvětlení, řízení kamery a export do dalších formátů.
 
+---
+
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.3D 24.11 for Java  
-**Author:** Aspose

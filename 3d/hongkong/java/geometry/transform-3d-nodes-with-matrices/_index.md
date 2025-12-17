@@ -156,15 +156,15 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 
 您現在已掌握如何 **concatenate transformation matrices**，在 Java 環境中使用 Aspose.3D 操控 3D 節點。嘗試不同的矩陣組合──平移、旋轉、縮放──即可創建精緻的動畫與模型。準備好後，進一步探索 Aspose.3D 的其他功能，如光照、相機控制以及匯出至更多格式。
 
+---
+
+**最後更新：** 2025-12-14  
+**測試環境：** Aspose.3D 24.11 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-14  
-**測試環境：** Aspose.3D 24.11 for Java  
-**作者：** Aspose

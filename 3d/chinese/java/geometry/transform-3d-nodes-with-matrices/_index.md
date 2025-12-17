@@ -156,15 +156,15 @@ A5：您可以在 [here](https://purchase.aspose.com/temporary-license/) 获取�
 
 您已经掌握了如何在 Java 环境下使用 Aspose.3D **连接变换矩阵** 来操作 3D 节点。尝试不同的矩阵组合——平移、旋转、缩放——以创建复杂的动画和模型。当您准备好后，可进一步探索 Aspose.3D 的灯光、相机控制以及导出到其他格式等功能。
 
+---
+
+**最后更新：** 2025-12-14  
+**测试环境：** Aspose.3D 24.11 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-14  
-**测试环境：** Aspose.3D 24.11 for Java  
-**作者：** Aspose

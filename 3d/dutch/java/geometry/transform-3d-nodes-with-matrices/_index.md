@@ -157,15 +157,15 @@ A5: Je kunt een tijdelijke licentie krijgen [here](https://purchase.aspose.com/t
 
 Je hebt nu geleerd hoe je **transformation matrices kunt concatenaten** om 3D‑knooppunten te manipuleren in een Java‑omgeving met Aspose.3D. Experimenteer met verschillende matrix‑combinaties — translatie, rotatie, schaal — om geavanceerde animaties en modellen te maken. Wanneer je klaar bent, verken dan andere Aspose.3D‑functies zoals verlichting, camerabediening en exporteren naar extra formaten.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-14  
+**Getest met:** Aspose.3D 24.11 for Java  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-14  
-**Getest met:** Aspose.3D 24.11 for Java  
-**Auteur:** Aspose

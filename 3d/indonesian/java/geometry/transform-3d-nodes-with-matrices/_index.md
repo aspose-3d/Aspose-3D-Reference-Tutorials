@@ -158,15 +158,15 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 
 Anda kini telah menguasai cara **menggabungkan matriks transformasi** untuk memanipulasi node 3D dalam lingkungan Java menggunakan Aspose.3D. Bereksperimenlah dengan kombinasi matriks yang berbeda—translasi, rotasi, skala—untuk menciptakan animasi dan model yang canggih. Saat sudah siap, jelajahi fitur Aspose.3D lainnya seperti pencahayaan, kontrol kamera, dan ekspor ke format tambahan.
 
+---
+
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.3D 24.11 for Java  
-**Author:** Aspose

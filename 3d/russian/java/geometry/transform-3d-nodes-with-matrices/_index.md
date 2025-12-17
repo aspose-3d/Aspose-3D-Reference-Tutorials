@@ -159,15 +159,15 @@ A5: Вы можете получить временную лицензию [here
 
 Теперь вы освоили, как **concatenate transformation matrices** для управления 3D‑узлами в среде Java с использованием Aspose.3D. Экспериментируйте с различными комбинациями матриц — translate, rotate, scale — чтобы создавать сложные анимации и модели. Когда будете готовы, изучайте другие возможности Aspose.3D, такие как освещение, управление камерой и экспорт в дополнительные форматы.
 
+---
+
+**Последнее обновление:** 2025-12-14  
+**Тестировано с:** Aspose.3D 24.11 for Java  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-14  
-**Тестировано с:** Aspose.3D 24.11 for Java  
-**Автор:** Aspose
