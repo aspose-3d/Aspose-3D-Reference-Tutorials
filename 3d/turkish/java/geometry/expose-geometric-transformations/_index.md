@@ -1,100 +1,116 @@
 ---
-title: Aspose.3D ile Java 3D'deki Geometrik Dönüşümleri Ortaya Çıkarın
-linktitle: Aspose.3D ile Java 3D'deki Geometrik Dönüşümleri Ortaya Çıkarın
-second_title: Aspose.3D Java API'si
-description: Aspose.3D ile Java'da 3 boyutlu geometrik dönüşümlere hakim olmak artık çok kolay. Düğümleri yönetmeyi, çevirileri uygulamayı ve küresel dönüşümleri değerlendirmeyi öğrenin.
-weight: 13
+date: 2025-12-10
+description: Aspose.3D kullanarak Java’da 3D nesneleri nasıl çevireceğinizi öğrenin.
+  Geometrik dönüşümleri, düğüm çevirisini ve global dönüşümleri ustalaşın.
+linktitle: How to Translate 3D in Java with Aspose.3D
+second_title: Aspose.3D Java API
+title: Java'da Aspose.3D ile 3D'yi Nasıl Çeviririz
 url: /tr/java/geometry/expose-geometric-transformations/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D ile Java 3D'deki Geometrik Dönüşümleri Ortaya Çıkarın
+# Java 3D'de Geometrik Dönüşümleri Aspose.3D ile Açığa Çıkarma
 
-## giriiş
+## Giriş
 
-Java 3D programlamanın dinamik dünyasında geometrik dönüşümlerde uzmanlaşmak çok önemli bir beceridir. Aspose.3D for Java, geliştiricilerin 3D modellemenin inceliklerini zahmetsizce keşfetmesine olanak tanıyan güçlü bir kütüphanedir. Bu eğitimde Aspose.3D for Java'yı kullanarak geometrik dönüşümleri ortaya çıkarmak ve değiştirmek için aydınlatıcı bir yolculuğa çıkacağız.
+Java 3D programlamanın dinamik dünyasında, geometrik dönüşümleri ustalaşmak hayati bir beceridir. Bu öğreticide, **Java'da 3D nesneleri nasıl çevireceğinizi** Aspose.3D kullanarak öğreneceksiniz, bu güçlü kütüphane 3D modellemeyi basitleştirir. Bir düğüm başlatmayı, geometrik bir çeviri uygulamayı ve küresel dönüşümü değerlendirerek etkisini anında görebileceksiniz.
+
+## Hızlı Cevaplar
+- **Ana hedef nedir?** Aspose.3D ile Java'da 3D nesneleri nasıl çevireceğinizi öğrenin.  
+- **Hangi kütüphane kullanılıyor?** Java için Aspose.3D.  
+- **Lisans gerekiyor mu?** Test için geçici bir lisans gereklidir; üretim için tam lisans gereklidir.  
+- **Kaç satır kod?** Çeviriyi uygulamak ve sonucu değerlendirmek için 20'den az satır.  
+- **Bunu herhangi bir işletim sisteminde çalıştırabilir miyim?** Evet, uyumlu bir JDK yüklü olduğu sürece.
+
+## Java'da 3D Nesneleri Nasıl Çevirirsiniz
+Tam adımları anlamak, süreci herhangi bir projede tekrarlamayı kolaylaştırır. Aşağıda IDE'nize kopyalayıp yapıştırabileceğiniz özlü, adım‑adım bir kılavuz bulunmaktadır.
 
 ## Önkoşullar
 
-Aspose.3D ile geometrik dönüşümler dünyasına dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Aspose.3D ile geometrik dönüşümlere dalmadan önce, aşağıdaki önkoşulların karşılandığından emin olun:
 
-1.  Java Geliştirme Kiti (JDK): Aspose.3D for Java, sisteminizde uyumlu bir JDK'nın kurulu olmasını gerektirir. En son JDK'yı indirebilirsiniz[Burada](https://www.oracle.com/java/technologies/javase-downloads.html).
+1. **Java Development Kit (JDK):** Aspose.3D for Java, sisteminizde uyumlu bir JDK yüklü olmasını gerektirir. En son JDK'yi [buradan](https://www.oracle.com/java/technologies/javase-downloads.html) indirebilirsiniz.
 
-2.  Aspose.3D Kütüphanesi: Aspose.3D kütüphanesini şuradan indirin:[yayın sayfası](https://releases.aspose.com/3d/java/) Java projenize entegre etmek için.
+2. **Aspose.3D Kütüphanesi:** Aspose.3D kütüphanesini Java projenize entegre etmek için [sürüm sayfasından](https://releases.aspose.com/3d/java/) indirin.
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarın
 
-Aspose.3D kütüphanesine sahip olduğunuzda, 3D geometrik dönüşüm yolculuğunuzu başlatmak için gerekli paketleri içe aktarın. Java kodunuza aşağıdaki satırları ekleyin:
+Aspose.3D kütüphanesini edindikten sonra, 3D geometrik dönüşümlere başlamak için gerekli paketleri içe aktarın. Java kodunuza aşağıdaki satırları ekleyin:
 
 ```java
 import com.aspose.threed.Node;
 import com.aspose.threed.Vector3;
 ```
 
-## 1. Adım: Düğümü Başlatın
+## Adım 1: Düğüm Başlatma
 
- 3D dünyamızın temeli bir`Node` Yeni bir tane oluştur`Node` Java kodunuzdaki nesne:
+3D dünyamızın temeli bir `Node` ile başlar. Java kodunuzda yeni bir `Node` nesnesi oluşturun:
 
 ```java
-// ExStart: Adım 1 – Düğümü Başlatın
+// ExStart: Step 1 - Initialize Node
 Node n = new Node();
-// ExEnd: Adım 1
+// ExEnd: Step 1
 ```
 
 ## Adım 2: Geometrik Çeviri
 
-Şimdi düğümümüze geometrik bir öteleme uygulayalım. Bu adım, düğümün 3B alanda hareket ettirilmesini içerir. Aşağıdaki kodu kullanarak geometrik ötelemeyi ayarlayın:
+Şimdi, düğümümüze geometrik bir çeviri ekleyelim. Bu adım, düğümü 3D uzayda hareket ettirmeyi içerir. Aşağıdaki kodu kullanarak geometrik çeviriyi ayarlayın:
 
 ```java
-// ExStart: Adım 2 - Geometrik Çeviri
+// ExStart: Step 2 - Geometric Translation
 n.getTransform().setGeometricTranslation(new Vector3(10, 0, 0));
-// ExEnd: Adım 2
+// ExEnd: Step 2
 ```
 
-## 3. Adım: Küresel Dönüşümü Değerlendirin
+## Adım 3: Küresel Dönüşümü Değerlendirme
 
-Geometrik dönüşümümüzün etkisine tanık olmak için düğümün global dönüşümünü değerlendirelim. Bu adım, geometrik dönüşüm de dahil olmak üzere dönüşüm matrisinin çıktısını verecektir:
+Geometrik dönüşümün etkisini görmek için, düğümün küresel dönüşümünü değerlendirelim. Bu adım, geometrik dönüşümü içeren dönüşüm matrisini çıktılar:
 
 ```java
-// ExStart: Adım 3 - Küresel Dönüşümü Değerlendirin
+// ExStart: Step 3 - Evaluate Global Transform
 System.out.println(n.evaluateGlobalTransform(true));
 System.out.println(n.evaluateGlobalTransform(false));
-// ExEnd: Adım 3
+// ExEnd: Step 3
 ```
 
-Tebrikler! Aspose.3D'yi kullanarak Java 3D'de geometrik dönüşümleri başarıyla ortaya çıkardınız.
+Tebrikler! Aspose.3D kullanarak Java 3D'de geometrik dönüşümleri başarıyla açığa çıkardınız.
 
-## Çözüm
+## Sonuç
 
-Bu eğitimde Aspose.3D ile Java 3D'de geometrik dönüşümleri ortaya çıkarmanın temellerini inceledik. Düğümleri başlatarak, geometrik çeviriler uygulayarak ve küresel dönüşümleri değerlendirerek 3D programlamanın dinamik dünyasına dair içgörüler kazandınız.
+Bu öğreticide, Aspose.3D ile Java 3D'de geometrik dönüşümleri açığa çıkarmanın temellerini ele aldık. Düğümleri başlatarak, geometrik çeviriler uygulayarak ve küresel dönüşümleri değerlendirerek, 3D programlamanın dinamik dünyasına dair içgörüler kazandınız. Artık daha karmaşık sahneler oluşturmak, nesneleri canlandırmak veya fizik simülasyonları entegre etmek için sağlam bir temele sahipsiniz.
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.3D tüm Java geliştirme ortamlarıyla uyumlu mudur?
+### S1: Aspose.3D tüm Java geliştirme ortamlarıyla uyumlu mu?
+A1: Aspose.3D, JDK'yı destekleyen herhangi bir Java geliştirme ortamıyla sorunsuz bir şekilde entegre olur.
 
-Cevap1: Aspose.3D, JDK'yı destekleyen tüm Java geliştirme ortamlarıyla sorunsuz bir şekilde bütünleşir.
+### S2: Java için Aspose.3D kapsamlı belgelerini nereden bulabilirim?
+A2: Aspose.3D işlevselliği hakkında ayrıntılı bilgiler için [belgelere](https://reference.aspose.com/3d/java/) bakın.
 
-### S2: Java'da Aspose.3D için kapsamlı belgeleri nerede bulabilirim?
+### S3: Satın almadan önce Java için Aspose.3D'yi deneyebilir miyim?
+A3: Evet, satın almadan önce bir [ücretsiz deneme](https://releases.aspose.com/) keşfedebilirsiniz.
 
- A2: Bkz.[dokümantasyon](https://reference.aspose.com/3d/java/) Aspose.3D işlevlerine ilişkin ayrıntılı bilgiler için.
-
-### S3: Satın almadan önce Aspose.3D for Java'yı deneyebilir miyim?
-
- A3: Evet, keşfedebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) bir satın alma işlemi yapmadan önce.
-
-### S4: Aspose.3D ile ilgili sorgular için nasıl destek alabilirim?
-
- Cevap4: Aspose.3D topluluğuyla etkileşime geçin[destek Forumu](https://forum.aspose.com/c/3d/18) hızlı yardım için.
+### S4: Aspose.3D‑ile ilgili sorular için nasıl destek alabilirim?
+A4: Hızlı yardım için Aspose.3D topluluğuyla [destek forumunda](https://forum.aspose.com/c/3d/18) iletişime geçin.
 
 ### S5: Aspose.3D'yi test etmek için geçici bir lisansa ihtiyacım var mı?
+A5: Test amaçları için bir [geçici lisans](https://purchase.aspose.com/temporary-license/) edinin.
 
- A5: Bir tane edinin[geçici lisans](https://purchase.aspose.com/temporary-license/) test amaçlı.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2025-12-10  
+**Test Edilen:** Aspose.3D Java 24.11 (yazım anındaki en son sürüm)  
+**Yazar:** Aspose  
+
+---

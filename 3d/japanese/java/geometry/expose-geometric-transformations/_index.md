@@ -1,100 +1,120 @@
 ---
-title: Aspose.3D を使用して Java 3D で幾何学的変換を公開する
-linktitle: Aspose.3D を使用して Java 3D で幾何学的変換を公開する
+date: 2025-12-10
+description: Aspose.3D を使って Java で 3D オブジェクトの平行移動方法を学び、幾何変換、ノード平行移動、グローバルトランスフォームをマスターしましょう。
+linktitle: How to Translate 3D in Java with Aspose.3D
 second_title: Aspose.3D Java API
-description: Aspose.3D を使用すると、Java での 3D 幾何学的変換を簡単に習得できます。ノードの操作、変換の適用、グローバル変換の評価方法を学びます。
-weight: 13
+title: Aspose.3D を使用した Java での 3D の変換方法
 url: /ja/java/geometry/expose-geometric-transformations/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D を使用して Java 3D で幾何学的変換を公開する
+# Aspose.3Dを使用したJava 3Dでの幾何変換の公開
 
-## 導入
+## はじめに
 
-Java 3D プログラミングの動的な世界では、幾何学的変換を習得することが極めて重要なスキルです。 Aspose.3D for Java は、開発者が 3D モデリングの複雑さを簡単に調査できるようにする堅牢なライブラリです。このチュートリアルでは、Aspose.3D for Java を使用して幾何学的変換を公開および操作するための啓発的な旅に乗り出します。
+動的なJava 3Dプログラミングの世界では、幾何変換をマスターすることが重要なスキルです。このチュートリアルでは、**Javaで3Dオブジェクトを平行移動する方法**をAspose.3Dという堅牢なライブラリを使用して学びます。ノードの初期化、幾何平行移動の適用、グローバルトランスフォームの評価を順に解説し、効果をすぐに確認できるようにします。
+
+## クイック回答
+- **主な目的は何ですか？** Aspose.3Dを使用してJavaで3Dオブジェクトを平行移動する方法を学ぶことです。  
+- **使用されているライブラリは？** Java用Aspose.3Dです。  
+- **ライセンスは必要ですか？** テストには一時ライセンスが必要で、製品版にはフルライセンスが必要です。  
+- **コード行数は？** 平行移動を適用し結果を評価するまでに20行未満です。  
+- **任意のOSで実行できますか？** 互換性のあるJDKがインストールされていれば実行可能です。  
+
+## Javaで3Dオブジェクトを平行移動する方法
+正確な手順を把握すれば、どのプロジェクトでも簡単に再現できます。以下はIDEにコピー＆ペーストできる簡潔なステップバイステップガイドです。
 
 ## 前提条件
 
-Aspose.3D を使用した幾何学的変換の世界に入る前に、次の前提条件が満たされていることを確認してください。
+Aspose.3Dで幾何変換の世界に入る前に、以下の前提条件が整っていることを確認してください。
 
-1.  Java 開発キット (JDK): Aspose.3D for Java には、互換性のある JDK がシステムにインストールされている必要があります。最新のJDKをダウンロードできます[ここ](https://www.oracle.com/java/technologies/javase-downloads.html).
+1. **Java Development Kit (JDK):** Aspose.3D for Java は、システムに互換性のあるJDKがインストールされていることが必要です。最新のJDKは[こちら](https://www.oracle.com/java/technologies/javase-downloads.html)からダウンロードできます。
 
-2. Aspose.3D ライブラリ: Aspose.3D ライブラリを次の場所からダウンロードします。[リリースページ](https://releases.aspose.com/3d/java/)それを Java プロジェクトに統合します。
+2. **Aspose.3D ライブラリ:** Aspose.3D ライブラリは[リリースページ](https://releases.aspose.com/3d/java/)からダウンロードし、Javaプロジェクトに組み込んでください。
 
 ## パッケージのインポート
 
-Aspose.3D ライブラリを入手したら、必要なパッケージをインポートして、3D 幾何学的変換への取り組みを開始します。 Java コードに次の行を追加します。
+Aspose.3D ライブラリを入手したら、3D 幾何変換への第一歩として必要なパッケージをインポートします。Javaコードに以下の行を追加してください。
 
 ```java
 import com.aspose.threed.Node;
 import com.aspose.threed.Vector3;
 ```
 
-## ステップ 1: ノードを初期化する
+## 手順 1: ノードの初期化
 
-私たちの 3D 世界の基礎は、`Node`。新しいを作成します`Node`Java コード内のオブジェクト:
+3D 世界の基盤は `Node` から始まります。Javaコードで新しい `Node` オブジェクトを作成します。
 
 ```java
-// ExStart: ステップ 1 - ノードの初期化
+// ExStart: Step 1 - Initialize Node
 Node n = new Node();
-//拡張終了: ステップ 1
+// ExEnd: Step 1
 ```
 
-## ステップ 2: 幾何学的変換
+## 手順 2: 幾何平行移動
 
-次に、ノードに幾何学的変換を加えてみましょう。このステップには、3D 空間内でのノードの移動が含まれます。次のコードを使用して幾何学的変換を設定します。
+次に、ノードに幾何平行移動を適用します。この手順ではノードを3D空間内で移動させます。以下のコードで幾何平行移動を設定してください。
 
 ```java
-// ExStart: ステップ 2 - 幾何学的変換
+// ExStart: Step 2 - Geometric Translation
 n.getTransform().setGeometricTranslation(new Vector3(10, 0, 0));
-//拡張終了: ステップ 2
+// ExEnd: Step 2
 ```
 
-## ステップ 3: グローバル変換を評価する
+## 手順 3: グローバルトランスフォームの評価
 
-幾何学的変換の影響を確認するために、ノードのグローバル変換を評価してみましょう。このステップでは、幾何学的変換を含む変換行列が出力されます。
+幾何変換の効果を確認するために、ノードのグローバルトランスフォームを評価します。この手順では幾何変換を含む変換行列が出力されます。
 
 ```java
-// ExStart: ステップ 3 - グローバル変換の評価
+// ExStart: Step 3 - Evaluate Global Transform
 System.out.println(n.evaluateGlobalTransform(true));
 System.out.println(n.evaluateGlobalTransform(false));
-//拡張終了: ステップ 3
+// ExEnd: Step 3
 ```
 
-おめでとう！ Aspose.3D を使用して Java 3D で幾何学的変換を公開することに成功しました。
+おめでとうございます！Aspose.3D を使用して Java 3D で幾何変換を正常に公開できました。
 
 ## 結論
 
-このチュートリアルでは、Aspose.3D を使用して Java 3D で幾何学的変換を公開するための基礎を学習しました。ノードの初期化、幾何学的変換の適用、およびグローバル変換の評価により、3D プログラミングの動的な世界についての洞察が得られました。
+このチュートリアルでは、Aspose.3D を使用した Java 3D における幾何変換の公開の基本を解説しました。ノードの初期化、幾何平行移動の適用、グローバルトランスフォームの評価を通じて、3D プログラミングの動的な世界への理解が深まりました。これにより、より複雑なシーンの構築、オブジェクトのアニメーション、物理シミュレーションの統合などに取り組むための堅固な基盤が得られました。
 
 ## よくある質問
 
-### Q1: Aspose.3D はすべての Java 開発環境と互換性がありますか?
+### Q1: Aspose.3D はすべての Java 開発環境と互換性がありますか？
 
-A1: Aspose.3D は、JDK をサポートする Java 開発環境とシームレスに統合します。
+A1: Aspose.3D は JDK をサポートする任意の Java 開発環境とシームレスに統合できます。
 
-### Q2: Java の Aspose.3D に関する包括的なドキュメントはどこで見つけられますか?
+### Q2: Java 用 Aspose.3D の包括的なドキュメントはどこで見つけられますか？
 
- A2: を参照してください。[ドキュメンテーション](https://reference.aspose.com/3d/java/) Aspose.3D 機能の詳細については、こちらをご覧ください。
+A2: Aspose.3D の機能に関する詳細な情報は、[ドキュメント](https://reference.aspose.com/3d/java/)をご参照ください。
 
-### Q3: 購入する前に、Aspose.3D for Java を試してみることはできますか?
+### Q3: 購入前に Aspose.3D for Java を試すことはできますか？
 
- A3: はい、探索できます。[無料トライアル](https://releases.aspose.com/)購入する前に。
+A3: はい、購入前に[無料トライアル](https://releases.aspose.com/)をご利用いただけます。
 
-### Q4: Aspose.3D 関連のクエリのサポートを受けるにはどうすればよいですか?
+### Q4: Aspose.3D に関する質問へのサポートはどのように受けられますか？
 
- A4: Aspose.3D コミュニティに参加してください。[サポートフォーラム](https://forum.aspose.com/c/3d/18)迅速な支援のために。
+A4: 迅速なサポートが必要な場合は、[サポートフォーラム](https://forum.aspose.com/c/3d/18)の Aspose.3D コミュニティに参加してください。
 
-### Q5: Aspose.3D をテストするには一時ライセンスが必要ですか?
+### Q5: Aspose.3D のテストに一時ライセンスは必要ですか？
 
- A5: を入手してください。[仮免許](https://purchase.aspose.com/temporary-license/)テスト目的のため。
+A5: テスト目的で[一時ライセンス](https://purchase.aspose.com/temporary-license/)を取得してください。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最終更新日:** 2025-12-10  
+**テスト環境:** Aspose.3D Java 24.11（執筆時点での最新）  
+**著者:** Aspose  
+
+---
