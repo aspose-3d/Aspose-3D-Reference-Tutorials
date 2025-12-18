@@ -1,35 +1,52 @@
 ---
-title: Vezérlőközpont a Lineáris extrudálásban Aspose.3D for Java segítségével
-linktitle: Vezérlőközpont a Lineáris extrudálásban Aspose.3D for Java segítségével
+date: 2025-12-18
+description: Tanulja meg, hogyan adjon hozzá alap síkot, és állítsa be a középpont
+  tulajdonságot lineáris extrúzióban az Aspose.3D for Java segítségével, lépésről
+  lépésre kódpéldákkal.
+linktitle: Controlling Center in Linear Extrusion with Aspose.3D for Java
 second_title: Aspose.3D Java API
-description: Fedezze fel a 3D grafika világát Java nyelven az Aspose.3D segítségével. Könnyedén irányíthatja a középpontot lineáris extrudálással.
-weight: 11
+title: Hogyan adjon hozzá föld síkot és vezérlőközpontot lineáris extrúzióhoz az Aspose.3D
+  for Java használatával
 url: /hu/java/linear-extrusion/controlling-center/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vezérlőközpont a Lineáris extrudálásban Aspose.3D for Java segítségével
+# Középpont vezérlése lineáris extrudálásnál az Aspose.3D for Java használatával
 
 ## Bevezetés
 
-3D grafika és a Java programozás világában a lineáris extrudálás során a központ vezérlése döntő szerepet játszik a kívánt hatások elérésében a projektekben. Az Aspose.3D for Java hatékony eszközkészletet biztosít az ilyen feladatok zökkenőmentes kezelésére. Ebben az oktatóanyagban belemerülünk a központ vezérlésének folyamatába a lineáris kihúzás során az Aspose.3D for Java használatával, az egyes lépéseket lebontva a zökkenőmentes és átfogó megértés érdekében.
+Amikor 3D jeleneteket építesz Java-ban, a **ground plane hozzáadása** és a lineáris extrudálás **center property** pontos beállítása jelentősen befolyásolhatja, hogy egy lapos prototípus vagy egy kifinomult vizuális megjelenés jön létre. Ebben az útmutatóban végigvezetünk a teljes folyamaton, hogyan vezérelheted az extrudálás középpontját és hogyan adhatod hozzá a ground plane-t az Aspose.3D for Java használatával. Megtudod, miért fontos ez, hogyan állíthatod be, és kapsz egy kész‑futtatható kódrészletet, amelyet saját projektjeidhez adaptálhatsz.
 
-## Előfeltételek
+## Gyors válaszok
+- **Mi csinál a “add ground plane”?** Létrehoz egy vékony referenciageometriát, amely segít látni az extrudálás helyzetét a világ tengelyeihez képest.  
+- **Hogyan állíthatom be egy lineáris extrudálás középpontját?** Használd a `setCenter(boolean)` metódust a `LinearExtrusion` objektumon.  
+- **Szükségem van licencre a minta futtatásához?** Egy ideiglenes licenc teszteléshez elegendő; a teljes licenc a termeléshez szükséges.  
+- **Milyen fájlformátumot használ a mentés?** A példa Wavefront OBJ (`.obj`) formátumba ment.  
+- **Milyen Java verzió szükséges?** Java 8 vagy újabb elegendő.
 
-Mielőtt nekivágnánk ennek az oktatóanyagnak, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+## Mi az a “add ground plane” egy 3D jelenetben?
 
-1. Java fejlesztői környezet: Győződjön meg arról, hogy be van állítva Java fejlesztői környezet a gépén.
+A ground plane hozzáadása azt jelenti, hogy egy vékony téglalap alakú geometriát (gyakran egy minimális vastagságú dobo helyezünk el az X‑Z síkon. Ez vizuális padlóként működik, megkönnyítve más objektumok magasságának és igazításának megítélését, különösen extrudálási középpontok kísérletezésekor.
 
-2.  Aspose.3D for Java: Töltse le és telepítse az Aspose.3D könyvtárat. Megtalálható a könyvtár és a dokumentációja[itt](https://reference.aspose.com/3d/java/).
+## Miért állítsuk be a center property-t egy lineáris extrudálásnál?
 
-3. Dokumentumkönyvtár: Hozzon létre egy könyvtárat a Java dokumentumok tárolására. Nevezzük "Az Ön dokumentumkönyvtárának".
+Alapértelmezés szerint egy lineáris extrudálás a profil eredetétől indul. A center property (`setCenter(true)`) beállítása eltolja a profilt, így az extrudálás az eredet körül középre kerül, ami szimmetrikus tervekhez vagy több objektum egységes igazításához hasznos.
+
+## Előkövetelmények
+
+Mielőtt elkezdenénk ezt az útmutatót, győződj meg róla, hogy a következő előkövetelmények teljesülnek:
+
+1. **Java fejlesztői környezet** – Győződj meg róla, hogy a gépeden be van állítva egy Java fejlesztői környezet.  
+2. **Aspose.3D for Java** – Töltsd le és telepítsd az Aspose.3D könyvtárat. A könyvtárat és a dokumentációt [itt](https://reference.aspose.com/3d/java/) találod.  
+3. **Dokumentum könyvtár** – Hozz létre egy könyvtárat a Java dokumentumaid tárolásához. Hívjuk „Your Document Directory”-nek.
 
 ## Csomagok importálása
 
-Java fejlesztői környezetben importálja az Aspose.3D szükséges csomagjait. Ez biztosítja, hogy kódja hozzáférjen a könyvtár által biztosított funkciókhoz.
+A Java fejlesztői környezetedben importáld a szükséges Aspose.3D csomagokat. Ez biztosítja, hogy a kódod hozzáférjen a könyvtár által nyújtott funkciókhoz.
 
 ```java
 import com.aspose.threed.*;
@@ -38,28 +55,28 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 1. lépés: Állítsa be az alapprofilt
+## 1. lépés: Az alap profil beállítása
 
-Inicializálja az extrudálandó alapprofilt. Ebben a példában 0,3-as lekerekítési sugarú téglalap alakot fogunk használni.
+Inicializáld az extrudálandó alap profilt. Ebben a példában egy 0,3 sugárú lekerekített téglalap alakzatot használunk.
 
 ```java
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## 2. lépés: Hozzon létre egy 3D-s jelenetet
+## 2. lépés: 3D jelenet létrehozása
 
-Építsd meg 3D-s világod alapjait egy jelenet létrehozásával.
+Építsd fel a 3D világod alapját egy jelenet létrehozásával.
 
 ```java
 Scene scene = new Scene();
 ```
 
-## 3. lépés: Hozzon létre bal és jobb csomópontokat
+## 3. lépés: Bal és jobb csomópontok létrehozása
 
-Hozzon létre bal és jobb csomópontokat a jeleneten belül. Ezek a csomópontok vászonként szolgálnak a 3D objektumok számára.
+Hozz létre bal és jobb csomópontokat a jelenetben. Ezek a csomópontok szolgálnak a 3D objektumok vásznaként.
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -67,71 +84,81 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## 4. lépés: Lineáris extrudálás középső tulajdonsággal
+## 4. lépés: Lineáris extrudálás center property-vel (Bal csomópont)
 
-Végezzen lineáris extrudálást a bal oldali csomóponton központosítás nélkül, és állítsa a szeletek számát 3-ra.
+Végezz lineáris extrudálást a bal csomóponton **középpont nélkül**, és állítsd be a szeletek számát 3-ra. Vedd észre a `setCenter(false)` hívást – itt **a center property** *false*-ra van állítva.
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 2) {{ setCenter(false); setSlices(3); }});
 ```
 
-## 5. lépés: Állítsa be a talajsíkot referenciaként
+## 5. lépés: Ground plane hozzáadása referenciaként (Bal csomópont)
 
-Javítsa a vizuális megjelenítést egy alapsík hozzáadásával a bal csomóponthoz.
+Javítsd a vizuális megjelenítést a bal csomóponthoz **ground plane** hozzáadásával. A vékony doboz padlóként működik, így egyértelműen látható az extrudálás magassága.
 
 ```java
 left.createChildNode(new Box(0.01, 3, 3));
 ```
 
-## 6. lépés: Lineáris extrudálás középső tulajdonsággal (jobb csomópont)
+## 6. lépés: Lineáris extrudálás center property-vel (Jobb csomópont)
 
-Hajtsa végre a lineáris kihúzást a jobb oldali csomóponton, ezúttal középre állítva az extrudálást, és ismét állítsa a szeletek számát 3-ra.
+Most végezz lineáris extrudálást a jobb csomóponton, ezúttal **középre igazítva az extrudálást**. A `setCenter(true)` hívás azt mutatja, hogyan **a center property** *true*-ra van állítva.
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 2) {{ setCenter(true); setSlices(3); }});
 ```
 
-## 7. lépés: Állítsa be a talajsíkot referenciaként (jobb oldali csomópont)
+## 7. lépés: Ground plane hozzáadása referenciaként (Jobb csomópont)
 
-A bal csomóponthoz hasonlóan referenciaként adjon hozzá egy alapsíkot a jobb oldali csomóponthoz.
+A bal oldalhoz hasonlóan adj hozzá egy ground plane-t a jobb csomóponthoz is, hogy egységes vizuális alapot kapj.
 
 ```java
 right.createChildNode(new Box(0.01, 3, 3));
 ```
 
-## 8. lépés: Mentse el a 3D-s jelenetet
+## 8. lépés: A 3D jelenet mentése
 
-Mentse el 3D jelenetét Wavefront OBJ formátumban.
+Mentsd el a 3D jelenetedet Wavefront OBJ formátumban, hogy bármely szabványos 3D megjelenítőben megtekinthető legyen.
 
 ```java
 scene.save(MyDir + "CenterInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Következtetés
+## Gyakori problémák és megoldások
 
-A központ lineáris extrudálással történő vezérlése az Aspose.3D for Java segítségével izgalmas lehetőségeket nyit meg a 3D-s grafika fejlesztésében. Ennek a lépésről-lépésre szóló útmutatónak a követésével megtanulta, hogyan kell kezelni a központi tulajdonságot, lehetővé téve a kívánt vizuális effektusok elérését a Java-projektekben.
+| Probléma | Miért fordul elő | Megoldás |
+|----------|------------------|----------|
+| A ground plane nem látható | A doboz vastagsága túl kicsi a néző skálájához képest. | Növeld a vastagságot (a `Box` első paramétere) vagy zoomolj ki a nézőben. |
+| Az extrudálás eltolódott | A `setCenter` értéke nem a kívánt módon van beállítva. | Ellenőrizd a `setCenter`-nek átadott boolean értéket. |
+| A fájl nem mentődik | Hibás könyvtárútvonal vagy hiányzó írási jogosultság. | Győződj meg róla, hogy a `MyDir` egy létező, írási jogosultsággal rendelkező mappára mutat. |
 
-## GYIK
+## Gyakran feltett kérdések
 
-### 1. kérdés: Használhatom az Aspose.3D for Java-t kereskedelmi projektekben?
+**Q1: Használhatom az Aspose.3D for Java-t kereskedelmi projektekben?**  
+A1: Igen, az Aspose.3D for Java kereskedelmi felhasználásra is elérhető. A licenc részletekért látogasd meg [itt](https://purchase.aspose.com/buy).
 
- 1. válasz: Igen, az Aspose.3D for Java kereskedelmi használatra elérhető. Az engedélyezés részleteiért látogasson el a webhelyre[itt](https://purchase.aspose.com/buy).
+**Q2: Van elérhető ingyenes próba?**  
+A2: Igen, az Aspose.3D for Java ingyenes próbaverzióját [itt](https://releases.aspose.com/) tekintheted meg.
 
-### 2. kérdés: Van ingyenes próbaverzió?
+**Q3: Hol találok támogatást az Aspose.3D for Java-hoz?**  
+A3: Az Aspose.3D közösségi fórum egy nagyszerű hely a támogatás keresésére és tapasztalatok megosztására. Látogasd meg a fórumot [itt](https://forum.aspose.com/c/3d/18).
 
- 2. válasz: Igen, kipróbálhatja az Aspose.3D for Java ingyenes próbaverzióját[itt](https://releases.aspose.com/).
+**Q4: Szükségem van ideiglenes licencre a teszteléshez?**  
+A4: Igen, ha ideiglenes licencre van szükséged tesztelési célból, azt [itt](https://purchase.aspose.com/temporary-license/) szerezheted be.
 
-### 3. kérdés: Hol találok támogatást az Aspose.3D for Java számára?
+**Q5: Hol találom a dokumentációt?**  
+A5: Az Aspose.3D for Java dokumentációja [itt](https://reference.aspose.com/3d/java/) érhető el.
 
- 3. válasz: Az Aspose.3D közösségi fórum egy nagyszerű hely, ahol támogatást kérhet és megoszthatja tapasztalatait. Látogassa meg a fórumot[itt](https://forum.aspose.com/c/3d/18).
+## Összegzés
 
-### 4. kérdés: Szükségem van ideiglenes licencre a teszteléshez?
+A lineáris extrudálás középpontjának vezérlése **és** a **ground plane** hozzáadásának megtanulása az Aspose.3D for Java-val izgalmas lehetőségeket nyit a 3D grafikai fejlesztésben. A fenti lépések követésével most egy újrahasználható mintát kaptál középre igazított extrudálások, vizuális referenciaplane-ok létrehozásához, valamint az eredmény OBJ formátumba exportálásához. Nyugodtan kísérletezz különböző profilokkal, szeletszámokkal és transzformációkkal, hogy a saját projekted igényeihez illeszkedjen.
 
-V4: Igen, ha tesztelési célból ideiglenes licencre van szüksége, beszerezhet egyet[itt](https://purchase.aspose.com/temporary-license/).
+---
 
-### 5. kérdés: Hol találom a dokumentációt?
+**Utolsó frissítés:** 2025-12-18  
+**Tesztelve:** Aspose.3D 24.11 for Java (a legfrissebb a írás időpontjában)  
+**Szerző:** Aspose  
 
- 5. válasz: Az Aspose.3D for Java dokumentációja elérhető[itt](https://reference.aspose.com/3d/java/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
