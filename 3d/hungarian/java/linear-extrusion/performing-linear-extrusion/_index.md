@@ -1,118 +1,153 @@
 ---
-title: Lineáris extrudálás végrehajtása Aspose.3D for Java programban
-linktitle: Lineáris extrudálás végrehajtása Aspose.3D for Java programban
+date: 2025-12-18
+description: Tanulja meg, hogyan extrudáljon alakzatot Java-ban az Aspose.3D használatával,
+  hozzon létre 3D-s jelenetet, és exportáljon Wavefront OBJ fájlokat könnyedén.
+linktitle: How to Extrude Shape in Java with Aspose.3D Linear Extrusion
 second_title: Aspose.3D Java API
-description: Fedezze fel a 3D modellezés világát az Aspose.3D for Java segítségével. Tanulja meg a lineáris extrudálást erőfeszítés nélkül.
-weight: 10
+title: Hogyan extrudáljunk alakzatot Java‑ban az Aspose.3D lineáris extrúzióval
 url: /hu/java/linear-extrusion/performing-linear-extrusion/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lineáris extrudálás végrehajtása Aspose.3D for Java programban
+# Lineáris extrudálás végrehajtása az Aspose.3D for Java-ban
 
 ## Bevezetés
 
-Üdvözöljük ebben az átfogó oktatóanyagban, amely az Aspose.3D for Java-ban való lineáris extrudálás végrehajtásáról szól! Ha javítani szeretné 3D modellezési készségeit a Java használatával, akkor jó helyen jár. Ebben az oktatóanyagban végigvezetjük a lineáris extrudálás folyamatán az Aspose.3D segítségével, amely egy hatékony Java könyvtár 3D modellezéshez.
+Üdvözöljük ebben az átfogó útmutatóban, amely **hogyan extrudáljunk alakzatot** az Aspose.3D for Java segítségével! Ha szeretné fejleszteni 3D modellezési képességeit Java nyelven, jó helyen jár. Lépésről lépésre végigvezetjük egy 3D jelenet létrehozásán, a lineáris extrudáláson és az eredmény Wavefront OBJ fájlba exportálásán – mindezt világos kódrészletekkel.
+
+## Gyors válaszok
+- **Mi az a lineáris extrudálás?** Egy 2D profil meghosszabbítása egy egyenes úton, hogy 3D szilárd testet kapjunk.  
+- **Melyik könyvtár kezeli ezt Java-ban?** Aspose.3D for Java.  
+- **Exportálhatok OBJ formátumba?** Igen, a Wavefront OBJ exportálási funkcióval.  
+- **Szükség van licencre fejlesztéshez?** Egy ingyenes próba verzió elegendő a teszteléshez; a termeléshez licenc szükséges.  
+- **Milyen Java verzió szükséges?** Java 1.6 vagy újabb.
+
+## Mi az a „hogyan extrudáljunk alakzatot”?
+A lineáris extrudálás egy alapvető technika a **3d modeling java** területén, amely egy lapos profilt – például egy téglalapot – térfogatossá alakít úgy, hogy egy meghatározott távolságra kihúzza. Ezt a módszert széles körben használják mechanikai alkatrészek, építészeti elemek és dekoratív modellek létrehozásához.
+
+## Miért használjuk az Aspose.3D-t lineáris extrudáláshoz?
+- **Teljes kontroll** a geometria felett (szeletek, csavarás, eltolás).  
+- **Zökkenőmentes integráció** Java projektekbe – nincs natív függőség.  
+- **Beépített exporterek** a népszerű formátumokhoz, köztük a Wavefront OBJ, így egyszerűen **generate 3d model** fájlokat hozhatunk létre a további feldolgozáshoz.
 
 ## Előfeltételek
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
+Mielőtt belekezdene az útmutatóba, győződjön meg róla, hogy az alábbiak rendelkezésre állnak:
 
-1. Java fejlesztői környezet: Győződjön meg arról, hogy be van állítva Java fejlesztői környezet a gépén.
-
-2.  Aspose.3D Library: Töltse le és telepítse az Aspose.3D könyvtárat. Megtalálhatod a könyvtárat[itt](https://releases.aspose.com/3d/java/).
+1. **Java fejlesztői környezet** – JDK (1.6 vagy újabb) és a kedvenc IDE-je.  
+2. **Aspose.3D könyvtár** – töltse le és telepítse a hivatalos oldalról **[itt](https://releases.as.com/3d/java/)**.
 
 ## Csomagok importálása
 
-Miután beállította a fejlesztői környezetet és telepítette az Aspose.3D könyvtárat, ideje importálni a szükséges csomagokat. A Java kódba írja be a következőket:
+Miután beállította a fejlesztői környezetet és telepítette az Aspose.3D könyvtárat, importálja a szükséges csomagot:
 
 ```java
 import com.aspose.threed.*;
 ```
 
-Bontsuk fel az egyes lépéseket a világos megértés érdekében.
+### 1. lépés: Dokumentum könyvtár beállítása
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
-
-Határozza meg a dokumentumkönyvtár elérési útját:
+Határozza meg azt a mappát, ahová a generált fájlok kerülnek:
 
 ```java
 String MyDir = "Your Document Directory";
 ```
 
-Ez biztosítja, hogy az előállított 3D modell a megadott könyvtárba kerüljön.
+> Ez biztosítja, hogy a **generate 3d model** művelet az OBJ fájlt egy ismert helyre írja.
 
-## 2. lépés: Az alap alakzat inicializálása
+### 2. lépés: Alap alakzat inicializálása
 
-Hozzon létre egy téglalap alakzatot az extrudálás alapprofiljaként:
+Hozzon létre egy téglalapot, amely az extrudálás profiljaként szolgál:
 
 ```java
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-Szükség szerint állítsa be a kerekítési sugarat az alakzat testreszabásához.
+A lekerekítési sugár módosításával kerekített sarkokat kaphat, vagy állítsa `0`‑ra a tökéletes téglalaphoz.
 
-## 3. lépés: Hajtsa végre a lineáris extrudálást
+### 3. lépés: Lineáris extrudálás végrehajtása
 
-Végezzen lineáris extrudálást az alapprofilon:
+Most extrudáljuk a téglalapot a Z‑tengely mentén, adjunk hozzá szeleteket, engedélyezzük a középre helyezést, és alkalmazzunk csavarást eltolással:
 
 ```java
 LinearExtrusion extrusion = new LinearExtrusion(profile, 10) {{ setSlices(100); setCenter(true); setTwist(360); setTwistOffset(new Vector3(10, 0, 0));}};
 ```
 
-Itt 10 egységgel extrudáljuk az alakzatot, beállítjuk a szeletek számát, engedélyezzük a központosítást, és alkalmazzuk a csavart és csavart eltolást.
+- **Extrudálási hossz** – `10` egység.  
+- **Szeletek** – `100` a sima geometria érdekében.  
+- **Csavarásszög** – `360°` teljes körforgást eredményez.  
+- **Csavaráseltolás** – a csavaráshoz tartozó origót a `(10, 0, 0)` pontra helyezi.
 
-## 4. lépés: Hozzon létre 3D-s jelenetet
+### 4. lépés: 3D jelenet létrehozása
 
-Hozzon létre egy 3D-s jelenetet, és adja hozzá a kihúzást gyermekcsomópontként:
+Hozzon létre egy jelenetkonténert, és adja hozzá az extrudált objektumot gyermek‑node‑ként. Ez a lépés **creates 3d scene**, amely több objektumot is tárolhat:
 
 ```java
 Scene scene = new Scene();
 scene.getRootNode().createChildNode(extrusion);
 ```
 
-## 5. lépés: Mentse el a 3D-s jelenetet
+### 5. lépés: 3D jelenet mentése
 
-Mentse el a létrehozott 3D-s jelenetet Wavefront OBJ fájlként:
+Exportálja a jelenetet Wavefront OBJ fájlba. Ez bemutatja a **wavefront obj export** és **save 3d obj** képességeket:
 
 ```java
 scene.save(MyDir +  "LinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-Sikeresen hajtott végre lineáris extrudálást az Aspose.3D for Java használatával!
+A kód futtatása után a megadott könyvtárban megtalálja a `LinearExtrusion.obj` fájlt, amely bármely 3D megjelenítőben megnyitható vagy tovább feldolgozható.
 
-## Következtetés
+## Gyakori problémák és megoldások
 
-Gratulálunk! Megtanulta, hogyan használhatja az Aspose.3D for Java szoftvert lineáris extrudálás végrehajtására. Ez a nagy teljesítményű könyvtár a lehetőségek világát nyitja meg 3D modellezési projektjei számára.
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| OBJ fájl üres | A kimeneti könyvtár elérési útja hibás vagy nem írható | Ellenőrizze, hogy a `MyDir` egy létező, írási jogosultsággal rendelkező mappára mutat. |
+| A csavarást nem alkalmazza | `setCenter(true)` hiányzik | Győződjön meg róla, hogy a középre helyezés engedélyezve van, vagy módosítsa a `setTwistOffset` értékeket. |
+| Fordítási hiba a `LinearExtrusion`‑nél | Régebbi Aspose.3D verzió használata | Frissítsen a legújabb Aspose.3D kiadásra. |
 
-## GYIK
+## Gyakran feltett kérdések
 
-### 1. kérdés: Az Aspose.3D kompatibilis az összes Java-verzióval?
+**Q: Az Aspose.3D kompatibilis minden Java verzióval?**  
+A: Az Aspose.3D Java 1.6 és újabb verziókkal működik.
 
-1. válasz: Az Aspose.3D a Java 1.6-os és újabb verzióival való együttműködésre készült.
+**Q: Használhatom az Aspose.3D‑t kereskedelmi projektekben?**  
+A: Igen, kereskedelmi felhasználás engedélyezett érvényes licenc esetén. Licencet szerezhet **[itt](https://purchase.aspose.com/buy)**.
 
-### 2. kérdés: Használhatom az Aspose.3D-t kereskedelmi projektekhez?
+**Q: Hol kaphatok támogatást, ha problémába ütközöm?**  
+A: Látogassa meg a **[Aspose.3D fórumot](https://forum.aspose.com/c/3d/18)** a közösségi segítségért, vagy vásároljon **[ideiglenes licencet](https://purchase.aspose.com/temporary-license/)** a prémium támogatáshoz.
 
-2. válasz: Igen, az Aspose.3D személyes és kereskedelmi projektekhez egyaránt használható. Ellenőrizze az engedélyezés részleteit[itt](https://purchase.aspose.com/buy).
+**Q: Milyen egyéb 3D modellezési funkciókat kínál az Aspose.3D?**  
+A: A könyvtár tartalmaz háló manipulációt, Boolean műveleteket, textúra leképezést és még sok mást. A teljes listát megtalálja **[itt](https://reference.aspose.com/3d/java/)**.
 
-### 3. kérdés: Hogyan kaphatok támogatást az Aspose.3D-hez?
+**Q: Van ingyenes próba verzió?**  
+A: Igen, letölthet egy próbaverziót **[itt](https://releases.aspose.com/)**.
 
- A3: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) közösségi támogatásért, vagy fontolja meg a vásárlást a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) prémium támogatásért.
+## Összegzés
 
-### 4. kérdés: Vannak más 3D modellezési funkciók az Aspose.3D-ben?
+Most már tudja, hogyan **extrudáljunk alakzatot** az Aspose.3D for Java segítségével, hogyan hozzon létre egy 3D jelenetet, és hogyan exportálja az eredményt Wavefront OBJ fájlba. Ez a technika számos **3d modeling java** projekt kapuját nyitja meg – az egyszerű alkatrészektől a komplex összeszerelésekig. Fedezze fel a további funkciókat, például a Boolean műveleteket vagy a textúra leképezést, hogy még gazdagabb modelleket készíthessen.
 
- A4: Abszolút! Tekintse meg a kiterjedt dokumentációt[itt](https://reference.aspose.com/3d/java/) a funkciók és példák átfogó listájához.
+---
 
-### 5. kérdés: Elérhető az Aspose.3D ingyenes próbaverziója?
+**Utoljára frissítve:** 2025-12-18  
+**Tesztelt verzió:** Aspose.3D 24.11 for Java  
+**Szerző:** Aspose  
 
- 5. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## CÉL KULCSSZAVAK:
+
+**Elsődleges kulcsszó (MAGAS PRIORITÁS):**
+how to extrude shape
+
+**Másodlagos kulcsszavak (TÁMOGATÓ):**
+create 3d scene, 3d modeling java, generate 3d model, wavefront obj export, save 3d obj

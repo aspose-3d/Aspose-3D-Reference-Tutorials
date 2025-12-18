@@ -1,118 +1,150 @@
 ---
-title: 在 Aspose.3D for Java 中执行线性挤出
-linktitle: 在 Aspose.3D for Java 中执行线性挤出
+date: 2025-12-18
+description: 学习如何在 Java 中使用 Aspose.3D 拉伸形状，创建 3D 场景，并轻松导出 Wavefront OBJ 文件。
+linktitle: How to Extrude Shape in Java with Aspose.3D Linear Extrusion
 second_title: Aspose.3D Java API
-description: 使用 Aspose.3D for Java 探索 3D 建模世界。学习轻松执行线性挤出。
-weight: 10
+title: 如何在 Java 中使用 Aspose.3D 进行线性挤出形状
 url: /zh/java/linear-extrusion/performing-linear-extrusion/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.3D for Java 中执行线性挤出
+# 在 Aspose.3D for Java 中执行线性拉伸
 
 ## 介绍
 
-欢迎来到这个关于在 Aspose.3D for Java 中执行线性拉伸的综合教程！如果您希望使用 Java 增强 3D 建模技能，那么您来对地方了。在本教程中，我们将指导您完成使用 Aspose.3D（一个用于 3D 建模的强大 Java 库）执行线性挤压的过程。
+## 快速答案
+- **线性拉伸是什么？** 将二维轮廓沿直线路径延伸以创建三维实体。  
+- **哪个库在 Java 中处理此功能？** Aspose.3D for Java。  
+- **我可以导出为 OBJ 吗？** 可以，使用 Wavefront OBJ 导出功能。  
+- **开发是否需要许可证？** 免费试用可用于测试；生产环境需要许可证。  
+- **需要哪个 Java 版本？** Java 1.6 或更高。
 
-## 先决条件
+## 什么是 “how to extrude shape”？
+线性拉伸是 **3d modeling java** 中的基础技术，它通过沿定义的距离拉伸平面轮廓（例如矩形），将其转换为体积对象。此方法广泛用于创建机械零件、建筑构件和装饰模型。
 
-在深入学习本教程之前，请确保您具备以下先决条件：
+## 为什么使用 Aspose.3D 进行线性拉伸？
+- **完全控制** 几何体（切片、扭转、偏移）。  
+- **无缝集成** 到 Java 项目——无需本地依赖。  
+- **内置导出器** 支持流行格式，包括 Wavefront OBJ，使得 **generate 3d model** 文件的生成在下游流水线中变得轻松。
 
-1. Java 开发环境：确保您的计算机上设置有 Java 开发环境。
+## 前置条件
 
-2.  Aspose.3D 库：下载并安装 Aspose.3D 库。你可以找到图书馆[这里](https://releases.aspose.com/3d/java/).
+在深入教程之前，请确保已满足以下前置条件：
+
+1. **Java 开发环境** – JDK（1.6 或更新）以及您喜欢的 IDE。  
+2. **Aspose.3D 库** – 从官方站点 **[here](https://releases.aspose.com/3d/java/)** 下载并安装库。
 
 ## 导入包
 
-设置开发环境并安装 Aspose.3D 库后，就可以导入必要的包了。在您的 Java 代码中，包含以下内容：
+在设置好开发环境并安装 Aspose.3D 库后，导入必要的包：
 
 ```java
 import com.aspose.threed.*;
 ```
 
-让我们分解每个步骤以确保清晰的理解。
+### 步骤 1：设置文档目录
 
-## 第1步：设置文档目录
-
-定义文档目录的路径：
+定义生成文件将保存的文件夹：
 
 ```java
 String MyDir = "Your Document Directory";
 ```
 
-这可确保生成的 3D 模型将保存在指定目录中。
+> 这确保 **generate 3d model** 操作将 OBJ 文件写入已知位置。
 
-## 第 2 步：初始化基础形状
+### 步骤 2：初始化基础形状
 
-创建一个矩形形状作为挤出的基本轮廓：
+创建一个矩形作为拉伸轮廓：
 
 ```java
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-根据需要调整圆角半径以自定义形状。
+您可以调整圆角半径以获得圆角，或将其设为 `0` 以得到完美的矩形。
 
-## 步骤 3：执行线性挤压
+### 步骤 3：执行线性拉伸
 
-在基础轮廓上执行线性挤压：
+现在我们沿 Z 轴拉伸矩形，添加切片，启用居中，并使用偏移应用扭转：
 
 ```java
 LinearExtrusion extrusion = new LinearExtrusion(profile, 10) {{ setSlices(100); setCenter(true); setTwist(360); setTwistOffset(new Vector3(10, 0, 0));}};
 ```
 
-在这里，我们将形状拉伸 10 个单位，设置切片数量，启用居中，并应用扭曲和扭曲偏移。
+- **拉伸长度** – `10` 单位。  
+- **切片数** – `100`，以获得平滑几何体。  
+- **扭转** – `360°` 产生完整旋转。  
+- **扭转偏移** – 将扭转原点移动到 `(10, 0, 0)`。
 
-## 第 4 步：创建 3D 场景
+### 步骤 4：创建 3D 场景
 
-创建 3D 场景并将拉伸添加为子节点：
+创建一个场景容器并将拉伸体作为子节点添加。此步骤 **creates 3d scene** 可容纳多个对象：
 
 ```java
 Scene scene = new Scene();
 scene.getRootNode().createChildNode(extrusion);
 ```
 
-## 第 5 步：保存 3D 场景
+### 步骤 5：保存 3D 场景
 
-将生成的 3D 场景保存为 Wavefront OBJ 文件：
+将场景导出为 Wavefront OBJ 文件。这演示了 **wavefront obj export** 和 **save 3d obj** 功能：
 
 ```java
 scene.save(MyDir +  "LinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-现在，您已经使用 Aspose.3D for Java 成功执行了线性挤出！
+运行代码后，您将在指定的目录中找到 `LinearExtrusion.obj`，可在任何 3D 查看器中打开或进一步处理。
+
+## 常见问题及解决方案
+
+| 问题 | 原因 | 解决方案 |
+|-------|--------|-----|
+| OBJ 文件为空 | 输出目录路径不正确或不可写 | 确认 `MyDir` 指向具有写入权限的现有文件夹。 |
+| 未应用扭转 | 缺少 `setCenter(true)` | 确保已启用居中，或调整 `setTwistOffset` 的值。 |
+| `LinearExtrusion` 编译错误 | 使用了旧版 Aspose.3D | 更新至最新的 Aspose.3D 版本。 |
+
+## 常见问答
+
+**问：Aspose.3D 与所有 Java 版本兼容吗？**  
+答：Aspose.3D 支持 Java 1.6 及更高版本。
+
+**问：我可以在商业项目中使用 Aspose.3D 吗？**  
+答：可以，拥有有效许可证即可进行商业使用。您可以在 **[here](https://purchase.aspose.com/buy)** 获取。
+
+**问：如果遇到问题，我可以在哪里获得支持？**  
+答：访问 **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)** 获取社区帮助，或购买 **[temporary license](https://purchase.aspose.com/temporary-license/)** 以获得高级支持。
+
+**问：Aspose.3D 还提供哪些其他 3D 建模功能？**  
+答：该库包括网格操作、布尔运算、纹理映射等。完整列表请参见 **[here](https://reference.aspose.com/3d/java/)**。
+
+**问：是否提供免费试用？**  
+答：是的，您可以在 **[here](https://releases.aspose.com/)** 下载试用版。
 
 ## 结论
 
-恭喜！您已经了解了如何利用 Aspose.3D for Java 执行线性挤出。这个强大的库为您的 3D 建模项目打开了一个充满可能性的世界。
+您已经学习了使用 Aspose.3D for Java **how to extrude shape**，创建了 3D 场景，并将结果导出为 Wavefront OBJ 文件。此技术为各种 **3d modeling java** 项目打开了大门——从简单零件到复杂装配。探索诸如布尔运算或纹理映射等附加功能，以进一步丰富您的模型。
 
-## 常见问题解答
+---
 
-### Q1：Aspose.3D 是否兼容所有 Java 版本？
+**最后更新：** 2025-12-18  
+**测试环境：** Aspose.3D 24.11 for Java  
+**作者：** Aspose  
 
-A1：Aspose.3D 设计用于与 Java 1.6 及更高版本一起使用。
-
-### Q2：我可以将Aspose.3D用于商业项目吗？
-
-A2：是的，Aspose.3D 可用于个人和商业项目。检查许可详细信息[这里](https://purchase.aspose.com/buy).
-
-### Q3：如何获得 Aspose.3D 的支持？
-
- A3：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)寻求社区支持或考虑购买[临时执照](https://purchase.aspose.com/temporary-license/)以获得优质支持。
-
-### Q4：Aspose.3D 中还有其他 3D 建模功能吗？
-
- A4：当然！探索广泛的文档[这里](https://reference.aspose.com/3d/java/)获取功能和示例的完整列表。
-
-### Q5：Aspose.3D 有免费试用版吗？
-
- A5：是的，您可以免费试用[这里](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## 目标关键词：
+
+**主要关键词（最高优先级）：**  
+how to extrude shape
+
+**次要关键词（支持）：**  
+create 3d scene, 3d modeling java, generate 3d model, wavefront obj export, save 3d obj

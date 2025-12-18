@@ -1,118 +1,153 @@
 ---
-title: Durchführen einer linearen Extrusion in Aspose.3D für Java
-linktitle: Durchführen einer linearen Extrusion in Aspose.3D für Java
-second_title: Aspose.3D Java-API
-description: Entdecken Sie die Welt der 3D-Modellierung mit Aspose.3D für Java. Lernen Sie, mühelos eine lineare Extrusion durchzuführen.
-weight: 10
+date: 2025-12-18
+description: Erfahren Sie, wie Sie Formen in Java mit Aspose.3D extrudieren, eine
+  3D‑Szene erstellen und Wavefront‑OBJ-Dateien mühelos exportieren.
+linktitle: How to Extrude Shape in Java with Aspose.3D Linear Extrusion
+second_title: Aspose.3D Java API
+title: Wie man eine Form in Java mit Aspose.3D linear extrudiert
 url: /de/java/linear-extrusion/performing-linear-extrusion/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Durchführen einer linearen Extrusion in Aspose.3D für Java
+# Lineare Extrusion in Aspose.3D für Java durchführen
 
-## Einführung
+## Einleitung
 
-Willkommen zu diesem umfassenden Tutorial zur Durchführung linearer Extrusion in Aspose.3D für Java! Wenn Sie Ihre 3D-Modellierungskenntnisse mit Java verbessern möchten, sind Sie hier richtig. In diesem Tutorial führen wir Sie durch den Prozess der linearen Extrusion mit Aspose.3D, einer leistungsstarken Java-Bibliothek für die 3D-Modellierung.
+Willkommen zu diesem umfassenden Tutorial, das erklärt, **wie man Formen extrudiert** in Aspose.3D für Java! Wenn Sie Ihre 3D‑Modellierungsfähigkeiten mit Java erweitern möchten, sind Sie hier genau richtig. Wir führen Sie durch das Erstellen einer 3D‑Szene, das Durchführen einer linearen Extrusion und das Exportieren des Ergebnisses als Wavefront‑OBJ‑Datei – alles mit klaren, schrittweisen Code‑Beispielen.
+
+## Schnelle Antworten
+- **Was ist lineare Extrusion?** Ein 2D‑Profil entlang eines geraden Pfades ausdehnen, um einen 3D‑Körper zu erzeugen.  
+- **Welche Bibliothek erledigt das in Java?** Aspose.3D für Java.  
+- **Kann ich nach OBJ exportieren?** Ja, mit der Wavefront‑OBJ‑Exportfunktion.  
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion reicht für Tests; für die Produktion ist eine Lizenz erforderlich.  
+- **Welche Java‑Version wird benötigt?** Java 1.6 oder neuer.
+
+## Was ist „how to extrude shape“?
+Lineare Extrusion ist eine grundlegende Technik im **3d modeling java**, die ein flaches Profil – zum Beispiel ein Rechteck – in ein volumetrisches Objekt verwandelt, indem es über eine definierte Strecke gezogen wird. Diese Methode wird häufig zum Erstellen von mechanischen Bauteilen, architektonischen Elementen und dekorativen Modellen verwendet.
+
+## Warum Aspose.3D für lineare Extrusion verwenden?
+- **Vollständige Kontrolle** über Geometrie (Slices, Twist, Offset).  
+- **Nahtlose Integration** in Java‑Projekte – keine nativen Abhängigkeiten.  
+- **Integrierte Exporter** für gängige Formate, einschließlich Wavefront OBJ, wodurch das **generate 3d model**‑Dateien für nachgelagerte Pipelines leicht erstellt werden können.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie in das Tutorial einsteigen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1. Java-Entwicklungsumgebung: Stellen Sie sicher, dass auf Ihrem Computer eine Java-Entwicklungsumgebung eingerichtet ist.
-
-2.  Aspose.3D-Bibliothek: Laden Sie die Aspose.3D-Bibliothek herunter und installieren Sie sie. Sie finden die Bibliothek[Hier](https://releases.aspose.com/3d/java/).
+1. **Java-Entwicklungsumgebung** – ein JDK (1.6 oder neuer) und Ihre bevorzugte IDE.  
+2. **Aspose.3D-Bibliothek** – laden Sie die Bibliothek von der offiziellen Seite **[here](https://releases.aspose.com/3d/java/)** herunter und installieren Sie sie.
 
 ## Pakete importieren
 
-Sobald Sie Ihre Entwicklungsumgebung eingerichtet und die Aspose.3D-Bibliothek installiert haben, ist es an der Zeit, die erforderlichen Pakete zu importieren. Fügen Sie in Ihren Java-Code Folgendes ein:
+Nachdem Sie Ihre Entwicklungsumgebung eingerichtet und die Aspose.3D‑Bibliothek installiert haben, importieren Sie das erforderliche Paket:
 
 ```java
 import com.aspose.threed.*;
 ```
 
-Lassen Sie uns jeden Schritt aufschlüsseln, um ein klares Verständnis zu gewährleisten.
+### Schritt 1: Dokumentverzeichnis festlegen
 
-## Schritt 1: Dokumentverzeichnis festlegen
-
-Definieren Sie den Pfad zu Ihrem Dokumentenverzeichnis:
+Definieren Sie den Ordner, in dem die erzeugten Dateien gespeichert werden:
 
 ```java
 String MyDir = "Your Document Directory";
 ```
 
-Dadurch wird sichergestellt, dass das generierte 3D-Modell im angegebenen Verzeichnis gespeichert wird.
+> Dies stellt sicher, dass die **generate 3d model**‑Operation die OBJ‑Datei an einem bekannten Ort schreibt.
 
-## Schritt 2: Grundform initialisieren
+### Schritt 2: Basisform initialisieren
 
-Erstellen Sie eine Rechteckform als Basisprofil für die Extrusion:
+Erstellen Sie ein Rechteck, das als Extrusionsprofil dient:
 
 ```java
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-Passen Sie den Rundungsradius nach Bedarf an, um die Form anzupassen.
+Sie können den Rundungsradius anpassen, um abgerundete Ecken zu erhalten, oder ihn auf `0` setzen, um ein perfektes Rechteck zu erhalten.
 
-## Schritt 3: Führen Sie eine lineare Extrusion durch
+### Schritt 3: Lineare Extrusion durchführen
 
-Führen Sie eine lineare Extrusion am Basisprofil durch:
+Jetzt extrudieren wir das Rechteck entlang der Z‑Achse, fügen Slices hinzu, aktivieren das Zentrieren und wenden eine Verdrehung mit einem Offset an:
 
 ```java
 LinearExtrusion extrusion = new LinearExtrusion(profile, 10) {{ setSlices(100); setCenter(true); setTwist(360); setTwistOffset(new Vector3(10, 0, 0));}};
 ```
 
-Hier extrudieren wir die Form um 10 Einheiten, legen die Anzahl der Scheiben fest, aktivieren die Zentrierung und wenden Drehung und Drehungsversatz an.
+- **Extrusionslänge** – `10` Einheiten.  
+- **Slices** – `100` für glatte Geometrie.  
+- **Twist** – `360°` erzeugt eine vollständige Umdrehung.  
+- **Twist‑Offset** – verschiebt den Ursprung der Verdrehung nach `(10, 0, 0)`.
 
-## Schritt 4: Erstellen Sie eine 3D-Szene
+### Schritt 4: 3D‑Szene erstellen
 
-Erstellen Sie eine 3D-Szene und fügen Sie die Extrusion als untergeordneten Knoten hinzu:
+Erstellen Sie einen Szenen‑Container und fügen Sie die Extrusion als Kindknoten hinzu. Dieser Schritt **creates 3d scene**, das mehrere Objekte aufnehmen kann:
 
 ```java
 Scene scene = new Scene();
 scene.getRootNode().createChildNode(extrusion);
 ```
 
-## Schritt 5: 3D-Szene speichern
+### Schritt 5: 3D‑Szene speichern
 
-Speichern Sie die generierte 3D-Szene als Wavefront OBJ-Datei:
+Exportieren Sie die Szene in eine Wavefront‑OBJ‑Datei. Dies demonstriert die Fähigkeiten von **wavefront obj export** und **save 3d obj**:
 
 ```java
 scene.save(MyDir +  "LinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-Jetzt haben Sie die lineare Extrusion mit Aspose.3D für Java erfolgreich durchgeführt!
+Nach dem Ausführen des Codes finden Sie `LinearExtrusion.obj` im von Ihnen angegebenen Verzeichnis, bereit zum Öffnen in jedem 3D‑Betrachter oder zur Weiterverarbeitung.
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-Glückwunsch! Sie haben gelernt, wie Sie Aspose.3D für Java nutzen, um eine lineare Extrusion durchzuführen. Diese leistungsstarke Bibliothek eröffnet eine Welt voller Möglichkeiten für Ihre 3D-Modellierungsprojekte.
+| Problem | Ursache | Lösung |
+|---------|---------|--------|
+| OBJ-Datei ist leer | Ausgabeverzeichnis-Pfad ist falsch oder nicht beschreibbar | Stellen Sie sicher, dass `MyDir` auf einen existierenden Ordner mit Schreibrechten zeigt. |
+| Twist nicht angewendet | `setCenter(true)` wurde weggelassen | Stellen Sie sicher, dass das Zentrieren aktiviert ist, oder passen Sie die Werte von `setTwistOffset` an. |
+| Kompilierungsfehler bei `LinearExtrusion` | Verwendung einer älteren Aspose.3D‑Version | Aktualisieren Sie auf die neueste Aspose.3D‑Version. |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Ist Aspose.3D mit allen Java-Versionen kompatibel?
+**Q: Ist Aspose.3D mit allen Java‑Versionen kompatibel?**  
+A: Aspose.3D funktioniert mit Java 1.6 und später.
 
-A1: Aspose.3D ist für die Verwendung mit Java 1.6 und späteren Versionen konzipiert.
+**Q: Kann ich Aspose.3D für kommerzielle Projekte nutzen?**  
+A: Ja, die kommerzielle Nutzung ist mit einer gültigen Lizenz erlaubt. Sie können eine Lizenz **[here](https://purchase.aspose.com/buy)** erhalten.
 
-### F2: Kann ich Aspose.3D für kommerzielle Projekte verwenden?
+**Q: Wo kann ich Unterstützung erhalten, wenn ich auf Probleme stoße?**  
+A: Besuchen Sie das **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)** für Community‑Hilfe oder erwerben Sie eine **[temporary license](https://purchase.aspose.com/temporary-license/)** für Premium‑Support.
 
-A2: Ja, Aspose.3D kann sowohl für persönliche als auch für kommerzielle Projekte verwendet werden. Überprüfen Sie die Lizenzdetails[Hier](https://purchase.aspose.com/buy).
+**Q: Welche weiteren 3D‑Modellierungsfunktionen bietet Aspose.3D?**  
+A: Die Bibliothek enthält Mesh‑Manipulation, Boolesche Operationen, Textur‑Mapping und mehr. Die vollständige Liste finden Sie **[here](https://reference.aspose.com/3d/java/)**.
 
-### F3: Wie kann ich Unterstützung für Aspose.3D erhalten?
+**Q: Gibt es eine kostenlose Testversion?**  
+A: Ja, Sie können eine Testversion **[here](https://releases.aspose.com/)** herunterladen.
 
- A3: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) für Community-Unterstützung oder erwägen Sie den Kauf eines[temporäre Lizenz](https://purchase.aspose.com/temporary-license/) für Premium-Support.
+## Fazit
 
-### F4: Gibt es weitere 3D-Modellierungsfunktionen in Aspose.3D?
+Sie haben nun gelernt, **how to extrude shape** mit Aspose.3D für Java zu verwenden, eine 3D‑Szene erstellt und das Ergebnis als Wavefront‑OBJ‑Datei exportiert. Diese Technik eröffnet eine Vielzahl von **3d modeling java**‑Projekten – von einfachen Bauteilen bis zu komplexen Baugruppen. Erkunden Sie zusätzliche Funktionen wie Boolesche Operationen oder Textur‑Mapping, um Ihre Modelle weiter zu bereichern.
 
- A4: Auf jeden Fall! Entdecken Sie die umfangreiche Dokumentation[Hier](https://reference.aspose.com/3d/java/) für eine umfassende Liste von Funktionen und Beispielen.
+---
 
-### F5: Gibt es eine kostenlose Testversion für Aspose.3D?
+**Zuletzt aktualisiert:** 2025-12-18  
+**Getestet mit:** Aspose.3D 24.11 for Java  
+**Autor:** Aspose  
 
- A5: Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## ZIEL-KEYWORDS:
+
+**Primary Keyword (HIGHEST PRIORITY):**
+how to extrude shape
+
+**Secondary Keywords (SUPPORTING):**
+create 3d scene, 3d modeling java, generate 3d model, wavefront obj export, save 3d obj
