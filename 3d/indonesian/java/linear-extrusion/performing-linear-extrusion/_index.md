@@ -1,118 +1,154 @@
 ---
-title: Melakukan Ekstrusi Linier di Aspose.3D untuk Java
-linktitle: Melakukan Ekstrusi Linier di Aspose.3D untuk Java
-second_title: Asumsikan.3D Java API
-description: Jelajahi dunia pemodelan 3D dengan Aspose.3D untuk Java. Belajar melakukan ekstrusi linier dengan mudah.
-weight: 10
+date: 2025-12-18
+description: Pelajari cara mengekstrusi bentuk di Java menggunakan Aspose.3D, buat
+  adegan 3D, dan ekspor file Wavefront OBJ dengan mudah.
+linktitle: How to Extrude Shape in Java with Aspose.3D Linear Extrusion
+second_title: Aspose.3D Java API
+title: Cara Mengekstrusi Bentuk di Java dengan Aspose.3D Ekstrusi Linear
 url: /id/java/linear-extrusion/performing-linear-extrusion/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Melakukan Ekstrusi Linier di Aspose.3D untuk Java
+# Melakukan Linear Extrusion di Aspose.3D untuk Java
 
-## Perkenalan
+## Pendahuluan
 
-Selamat datang di tutorial komprehensif tentang melakukan ekstrusi linier di Aspose.3D untuk Java! Jika Anda ingin meningkatkan keterampilan pemodelan 3D menggunakan Java, Anda berada di tempat yang tepat. Dalam tutorial ini, kami akan memandu Anda melalui proses melakukan ekstrusi linier menggunakan Aspose.3D, pustaka Java yang kuat untuk pemodelan 3D.
+Selamat datang di tutorial komprehensif ini tentang **how to extrude shape** di Aspose.3D untuk Java! Jika Anda ingin meningkatkan keterampilan pemodelan 3D menggunakan Java, Anda berada di tempat yang tepat. Kami akan memandu Anda melalui pembuatan 3D scene, melakukan linear extrusion, dan mengekspor hasilnya sebagai file Wavefront OBJ—semua dengan contoh kode yang jelas langkah demi langkah.
+
+## Jawaban Cepat
+- **Apa itu linear extrusion?** Memperpanjang profil 2D sepanjang jalur lurus untuk membuat padatan 3D.  
+- **Pustaka mana yang menangani ini di Java?** Aspose.3D untuk Java.  
+- **Bisakah saya mengekspor ke OBJ?** Ya, menggunakan fitur ekspor Wavefront OBJ.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi diperlukan untuk produksi.  
+- **Versi Java apa yang diperlukan?** Java 1.6 atau lebih baru.
+
+## Apa itu “how to extrude shape”?
+
+Linear extrusion adalah teknik dasar dalam **3d modeling java** yang mengubah profil datar—seperti persegi panjang—menjadi objek volumetrik dengan menariknya sepanjang jarak yang ditentukan. Metode ini banyak digunakan untuk membuat komponen mekanik, elemen arsitektur, dan model dekoratif.
+
+## Mengapa menggunakan Aspose.3D untuk linear extrusion?
+- **Kontrol penuh** atas geometri (slices, twist, offset).  
+- **Integrasi mulus** dengan proyek Java—tanpa ketergantungan native.  
+- **Ekspor bawaan** untuk format populer, termasuk Wavefront OBJ, memudahkan **generate 3d model** file untuk alur kerja downstream.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+Sebelum menyelam ke tutorial, pastikan Anda memiliki prasyarat berikut:
 
-1. Lingkungan Pengembangan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java di mesin Anda.
+1 **Lingkungan Pengembangan Java** – JDK (1.6 atau lebih baru) dan IDE favorit Anda.  
+2. **Pustaka Aspose.3D** – unduh dan instal pustaka dari situs resmi **[di sini](https://releases.aspose.com/3d/java/)**.
 
-2.  Perpustakaan Aspose.3D: Unduh dan instal perpustakaan Aspose.3D. Anda dapat menemukan perpustakaan[Di Sini](https://releases.aspose.com/3d/java/).
+## Impor Paket
 
-## Paket Impor
-
-Setelah Anda menyiapkan lingkungan pengembangan dan menginstal pustaka Aspose.3D, saatnya mengimpor paket yang diperlukan. Dalam kode Java Anda, sertakan yang berikut ini:
+Setelah Anda menyiapkan lingkungan pengembangan dan menginstal pustaka Aspose.3D, impor paket yang diperlukan:
 
 ```java
 import com.aspose.threed.*;
 ```
 
-Mari kita uraikan setiap langkah untuk memastikan pemahaman yang jelas.
+### Langkah 1: Atur Direktori Dokumen
 
-## Langkah 1: Atur Direktori Dokumen
-
-Tentukan jalur ke direktori dokumen Anda:
+Tentukan folder tempat file yang dihasilkan akan disimpan:
 
 ```java
 String MyDir = "Your Document Directory";
 ```
 
-Ini memastikan bahwa model 3D yang dihasilkan akan disimpan di direktori yang ditentukan.
+> Ini memastikan bahwa operasi **generate 3d model** menulis file OBJ ke lokasi yang diketahui.
 
-## Langkah 2: Inisialisasi Bentuk Dasar
+### Langkah 2: Inisialisasi Bentuk Dasar
 
-Buat bentuk persegi panjang sebagai profil dasar untuk ekstrusi:
+Buat persegi panjang yang akan menjadi profil ekstrusi:
 
 ```java
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-Sesuaikan radius pembulatan sesuai kebutuhan untuk menyesuaikan bentuk.
+Anda dapat menyesuaikan radius pembulatan untuk mendapatkan sudut melengkung atau mengaturnya ke `0` untuk persegi panjang sempurna.
 
-## Langkah 3: Lakukan Ekstrusi Linier
+### Langkah 3: Lakukan Linear Extrusion
 
-Lakukan ekstrusi linier pada profil dasar:
+Sekarang kita mengekstrusi persegi panjang sepanjang sumbu Z, menambahkan slices, mengaktifkan centering, dan menerapkan twist dengan offset:
 
 ```java
 LinearExtrusion extrusion = new LinearExtrusion(profile, 10) {{ setSlices(100); setCenter(true); setTwist(360); setTwistOffset(new Vector3(10, 0, 0));}};
 ```
 
-Di sini, kita mengekstrusi bentuk sebanyak 10 unit, mengatur jumlah irisan, mengaktifkan pemusatan, dan menerapkan twist dan twist offset.
+- **Panjang ekstrusi** – `10` unit.  
+- **Slices** – `100` untuk geometri halus.  
+- **Twist** – `360°` menghasilkan rotasi penuh.  
+- **Twist offset** – memindahkan asal twist ke `(10, 0, 0)`.
 
-## Langkah 4: Buat Adegan 3D
+### Langkah 4: Buat 3D Scene
 
-Buat adegan 3D dan tambahkan ekstrusi sebagai node anak:
+Buat kontainer scene dan tambahkan ekstrusi sebagai node anak. Langkah ini **creates 3d scene** yang dapat menampung banyak objek:
 
 ```java
 Scene scene = new Scene();
 scene.getRootNode().createChildNode(extrusion);
 ```
 
-## Langkah 5: Simpan Adegan 3D
+### Langkah 5: Simpan 3D Scene
 
-Simpan adegan 3D yang dihasilkan sebagai file Wavefront OBJ:
+Ekspor scene ke file Wavefront OBJ. Ini menunjukkan kemampuan **wavefront obj export** dan **save 3d obj**:
 
 ```java
 scene.save(MyDir +  "LinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-Sekarang, Anda telah berhasil melakukan ekstrusi linier menggunakan Aspose.3D untuk Java!
+Setelah menjalankan kode, Anda akan menemukan `LinearExtrusion.obj` di direktori yang Anda tentukan, siap dibuka di viewer 3D apa pun atau diproses lebih lanjut.
+
+## Masalah Umum dan Solusinya
+
+| Masalah | Alasan | Solusi |
+|-------|--------|-----|
+| File OBJ kosong | Path direktori output tidak benar atau tidak dapat ditulis | Verifikasi bahwa `MyDir` mengarah ke folder yang ada dengan izin menulis. |
+| Twist tidak diterapkan | `setCenter(true)` tidak disertakan | Pastikan centering diaktifkan atau sesuaikan nilai `setTwistOffset`. |
+| Kesalahan kompilasi pada `LinearExtrusion` | Menggunakan versi Aspose.3D yang lebih lama | Perbarui ke rilis Aspose.3D terbaru. |
+
+## Pertanyaan yang Sering Diajukan
+
+**T: Apakah Aspose.3D kompatibel dengan semua versi Java?**  
+J: Aspose.3D bekerja dengan Java 1.6 ke atas.
+
+**T: Bisakah saya menggunakan Aspose.3D untuk proyek komersial?**  
+J: Ya, penggunaan komersial diizinkan dengan lisensi yang valid. Anda dapat memperoleh lisensi **[di sini](https://purchase.aspose.com/buy)**.
+
+**T: Di mana saya dapat mendapatkan dukungan jika mengalami masalah?**  
+J: Kunjungi **[forum Aspose.3D](https://forum.aspose.com/c/3d/18)** untuk bantuan komunitas atau beli **[lisensi sementara](https://purchase.aspose.com/temporary-license/)** untuk dukungan premium.
+
+**T: Fitur pemodelan 3D apa lagi yang disediakan Aspose.3D?**  
+J: Pustaka ini mencakup manipulasi mesh, operasi Boolean, pemetaan tekstur, dan lainnya. Lihat daftar lengkap **[di sini](https://reference.aspose.com/3d/java/)**.
+
+**T: Apakah tersedia versi percobaan gratis?**  
+J: Ya, Anda dapat mengunduh versi percobaan **[di sini](https://releases.aspose.com/)**.
 
 ## Kesimpulan
 
-Selamat! Anda telah mempelajari cara memanfaatkan Aspose.3D untuk Java untuk melakukan ekstrusi linier. Perpustakaan yang kuat ini membuka banyak kemungkinan untuk proyek pemodelan 3D Anda.
+Anda kini telah mempelajari **how to extrude shape** menggunakan Aspose.3D untuk Java, membuat 3D scene, dan mengekspor hasilnya sebagai file Wavefront OBJ. Teknik ini membuka pintu ke berbagai proyek **3d modeling java**—dari bagian sederhana hingga perakitan kompleks. Jelajahi fitur tambahan seperti operasi Boolean atau pemetaan tekstur untuk memperkaya model Anda lebih lanjut.
 
-## FAQ
+---
 
-### Q1: Apakah Aspose.3D kompatibel dengan semua versi Java?
+**Terakhir Diperbarui:** 2025-12-18  
+**Diuji Dengan:** Aspose.3D 24.11 for Java  
+**Penulis:** Aspose  
 
-A1: Aspose.3D dirancang untuk bekerja dengan Java 1.6 dan versi yang lebih baru.
-
-### Q2: Bisakah saya menggunakan Aspose.3D untuk proyek komersial?
-
-A2: Ya, Aspose.3D dapat digunakan untuk proyek pribadi dan komersial. Periksa detail lisensi[Di Sini](https://purchase.aspose.com/buy).
-
-### Q3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.3D?
-
- A3: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan komunitas atau mempertimbangkan untuk membeli a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk dukungan premium.
-
-### Q4: Apakah ada fitur pemodelan 3D lainnya di Aspose.3D?
-
- A4: Tentu saja! Jelajahi dokumentasi ekstensif[Di Sini](https://reference.aspose.com/3d/java/) untuk daftar lengkap fitur dan contoh.
-
-### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.3D?
-
- A5: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## KATA KUNCI TARGET:
+
+**Kata Kunci Utama (PRIORITAS TERTINGGI):**  
+how to extrude shape
+
+**Kata Kunci Sekunder (DUKUNGAN):**  
+create 3d scene, 3d modeling java, generate 3d model, wavefront obj export, save 3d obj

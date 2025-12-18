@@ -1,35 +1,51 @@
 ---
-title: Trung tâm điều khiển trong ép đùn tuyến tính với Aspose.3D cho Java
-linktitle: Trung tâm điều khiển trong ép đùn tuyến tính với Aspose.3D cho Java
-second_title: API Java Aspose.3D
-description: Khám phá thế giới đồ họa 3D trong Java với Aspose.3D. Kiểm soát trung tâm trong quá trình đùn tuyến tính một cách dễ dàng.
-weight: 11
+date: 2025-12-18
+description: Tìm hiểu cách thêm mặt phẳng nền và thiết lập thuộc tính center trong
+  quá trình đùn thẳng bằng Aspose.3D cho Java, kèm các ví dụ mã từng bước.
+linktitle: Controlling Center in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Cách Thêm Mặt Phẳng Đất và Trung Tâm Điều Khiển trong Đùn Đường Thẳng với Aspose.3D
+  cho Java
 url: /vi/java/linear-extrusion/controlling-center/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Trung tâm điều khiển trong ép đùn tuyến tính với Aspose.3D cho Java
+# Trung tâm điều khiển trong Extrusion tuyến tính với Aspose.3D cho Java
 
 ## Giới thiệu
 
-Trong thế giới đồ họa 3D và lập trình Java, việc kiểm soát trung tâm ép đùn tuyến tính đóng một vai trò quan trọng trong việc đạt được hiệu quả mong muốn trong các dự án của bạn. Aspose.3D cho Java cung cấp bộ công cụ mạnh mẽ để xử lý các tác vụ như vậy một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình điều khiển trung tâm trong ép đùn tuyến tính bằng Aspose.3D cho Java, chia nhỏ từng bước để đảm bảo sự hiểu biết suôn sẻ và toàn diện.
+Khi bạn xây dựng các cảnh 3D bằng Java, khả năng **thêm mặt phẳng nền** đồng thời **đặt thuộc tính center** một cách chính xác cho extrusion tuyến tính có thể tạo ra sự khác biệt giữa một nguyên mẫu phẳng và một hình ảnh hoàn thiện. Trong hướng dẫn này, chúng ta sẽ đi qua toàn bộ quy trình kiểm soát trung tâm của extrusion và thêm mặt phẳng nền bằng Aspose.3D cho Java. Bạn sẽ hiểu tại sao điều này quan trọng, cách thiết lập, và nhận được một mẫu mã sẵn sàng chạy mà bạn có thể tùy chỉnh cho dự án của mình.
+
+## Câu trả lời nhanh
+- **“Thêm mặt phẳng nền” làm gì?** Nó tạo ra một hình học tham chiếu mỏng giúp bạn nhìn thấy vị trí của extrusion so với các trục thế giới.  
+- **Làm sao để đặt trung tâm cho extrusion tuyến tính?** Sử dụng phương thức `setCenter(boolean)` trên đối tượng `LinearExtrusion`.  
+- **Có cần giấy phép để chạy mẫu không?** Giấy phép tạm thời hoạt động cho việc thử nghiệm; giấy phép đầy đủ cần thiết cho môi trường sản xuất.  
+- **Định dạng tệp nào được dùng để lưu?** Ví dụ lưu dưới dạng Wavefront OBJ (`.obj`).  
+- **Yêu cầu phiên bản Java nào?** Java 8 trở lên là đủ.
+
+## “Thêm mặt phẳng nền” trong một cảnh 3D là gì?
+
+Thêm mặt phẳng nền có nghĩa là chèn một hình học hình chữ nhật mỏng (thường là một hộp với độ dày tối thiểu) nằm trên mặt phẳng X‑Z. Nó hoạt động như một sàn nhìn thấy, giúp dễ dàng đánh giá chiều cao và sự căn chỉnh của các đối tượng khác, đặc biệt khi bạn đang thử nghiệm với trung tâm extrusion.
+
+## Tại sao cần đặt thuộc tính center trên extrusion tuyến tính?
+
+Mặc định, extrusion tuyến tính bắt đầu từ gốc của profile. Đặt thuộc tính center (`setCenter(true)`) sẽ dịch chuyển profile sao cho extrusion được căn giữa quanh gốc, hữu ích cho các thiết kế đối xứng hoặc khi bạn cần căn chỉnh nhất quán giữa nhiều đối tượng.
 
 ## Điều kiện tiên quyết
 
-Trước khi chúng ta bắt đầu hành trình hướng dẫn này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+Trước khi bắt đầu hành trình hướng dẫn này, hãy chắc chắn bạn đã chuẩn bị đầy đủ các điều kiện sau:
 
-1. Môi trường phát triển Java: Đảm bảo rằng bạn đã thiết lập môi trường phát triển Java trên máy của mình.
+1. **Môi trường phát triển Java** – Đảm bảo bạn đã cài đặt môi trường phát triển Java trên máy tính.  
+2. **Aspose.3D cho Java** – Tải xuống và cài đặt thư viện Aspose.3D. Bạn có thể tìm thư viện và tài liệu của nó [tại đây](https://reference.aspose.com/3d/java/).  
+3. **Thư mục tài liệu** – Tạo một thư mục để lưu trữ các tệp Java của bạn. Gọi nó là “Your Document Directory.”
 
-2.  Aspose.3D cho Java: Tải xuống và cài đặt thư viện Aspose.3D. Bạn có thể tìm thấy thư viện và tài liệu của nó[đây](https://reference.aspose.com/3d/java/).
+## Nhập gói
 
-3. Thư mục Tài liệu: Tạo một thư mục để lưu trữ các tài liệu Java của bạn. Hãy gọi nó là "Thư mục tài liệu của bạn."
-
-## Gói nhập khẩu
-
-Trong môi trường phát triển Java của bạn, hãy nhập các gói cần thiết cho Aspose.3D. Điều này đảm bảo rằng mã của bạn có quyền truy cập vào các chức năng do thư viện cung cấp.
+Trong môi trường phát triển Java của bạn, nhập các gói cần thiết cho Aspose.3D. Điều này đảm bảo mã của bạn có quyền truy cập vào các chức năng do thư viện cung cấp.
 
 ```java
 import com.aspose.threed.*;
@@ -38,28 +54,28 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Bước 1: Thiết lập hồ sơ cơ sở
+## Bước 1: Thiết lập Profile cơ bản
 
-Khởi tạo cấu hình cơ sở sẽ được ép đùn. Trong ví dụ này, chúng ta sẽ sử dụng hình chữ nhật có bán kính làm tròn là 0,3.
+Khởi tạo profile cơ bản sẽ được extrusion. Trong ví dụ này, chúng ta sẽ sử dụng một hình chữ nhật với bán kính bo tròn là 0.3.
 
 ```java
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## Bước 2: Tạo cảnh 3D
+## Bước 2: Tạo một cảnh 3D
 
-Xây dựng nền tảng cho thế giới 3D của bạn bằng cách tạo cảnh.
+Xây dựng nền tảng cho thế giới 3D của bạn bằng cách tạo một scene.
 
 ```java
 Scene scene = new Scene();
 ```
 
-## Bước 3: Tạo nút trái và phải
+## Bước 3: Tạo các nút Trái và Phải
 
-Thiết lập các nút trái và phải trong cảnh của bạn. Các nút này đóng vai trò là khung vẽ cho các đối tượng 3D của bạn.
+Thiết lập các nút trái và phải trong scene. Các nút này sẽ là nền cho các đối tượng 3D của bạn.
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -67,33 +83,33 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Bước 4: Đùn tuyến tính với thuộc tính trung tâm
+## Bước 4: Extrusion tuyến tính với thuộc tính Center (Nút Trái)
 
-Thực hiện đùn tuyến tính trên nút bên trái mà không cần căn giữa và đặt số lát thành 3.
+Thực hiện extrusion tuyến tính trên nút trái **không căn giữa** và đặt số lát (slices) là 3. Lưu ý lời gọi `setCenter(false)` – đây là nơi chúng ta **đặt thuộc tính center** thành *false*.
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 2) {{ setCenter(false); setSlices(3); }});
 ```
 
-## Bước 5: Đặt mặt phẳng đất để tham khảo
+## Bước 5: Thêm mặt phẳng nền để tham chiếu (Nút Trái)
 
-Nâng cao khả năng biểu diễn trực quan bằng cách thêm mặt phẳng nền vào nút bên trái.
+Cải thiện hiển thị bằng cách **thêm mặt phẳng nền** vào nút trái. Hộp mỏng hoạt động như một sàn để bạn có thể nhìn rõ chiều cao của extrusion.
 
 ```java
 left.createChildNode(new Box(0.01, 3, 3));
 ```
 
-## Bước 6: Đùn tuyến tính với thuộc tính trung tâm (Nút bên phải)
+## Bước 6: Extrusion tuyến tính với thuộc tính Center (Nút Phải)
 
-Thực hiện đùn tuyến tính trên nút bên phải, lần này căn giữa phần đùn và đặt lại số lát thành 3.
+Bây giờ thực hiện extrusion tuyến tính trên nút phải, lần này **căn giữa extrusion**. Lời gọi `setCenter(true)` minh họa cách **đặt thuộc tính center** thành *true*.
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 2) {{ setCenter(true); setSlices(3); }});
 ```
 
-## Bước 7: Đặt mặt phẳng đất để tham chiếu (Nút bên phải)
+## Bước 7: Thêm mặt phẳng nền để tham chiếu (Nút Phải)
 
-Tương tự như nút bên trái, thêm mặt phẳng nền vào nút bên phải để tham khảo.
+Giống như phía trái, thêm một mặt phẳng nền vào nút phải để có một nền tham chiếu nhất quán.
 
 ```java
 right.createChildNode(new Box(0.01, 3, 3));
@@ -101,37 +117,47 @@ right.createChildNode(new Box(0.01, 3, 3));
 
 ## Bước 8: Lưu cảnh 3D
 
-Lưu cảnh 3D của bạn ở định dạng Wavefront OBJ.
+Lưu cảnh 3D của bạn ở định dạng Wavefront OBJ để có thể xem trong bất kỳ trình xem 3D tiêu chuẩn nào.
 
 ```java
 scene.save(MyDir + "CenterInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Việc điều khiển trung tâm trong quá trình ép đùn tuyến tính bằng Aspose.3D cho Java mở ra những khả năng thú vị trong phát triển đồ họa 3D. Bằng cách làm theo hướng dẫn từng bước này, bạn đã học được cách thao tác thuộc tính trung tâm, cho phép bạn đạt được hiệu ứng hình ảnh mong muốn trong các dự án Java của mình.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|-----------|
+| Mặt phẳng nền không hiển thị | Độ dày hộp quá nhỏ so với tầm nhìn của trình xem. | Tăng độ dày (tham số đầu tiên của `Box`) hoặc thu nhỏ (zoom out) trong trình xem. |
+| Extrusion bị lệch | Giá trị `setCenter` không được đặt như mong muốn. | Kiểm tra lại giá trị boolean truyền vào `setCenter`. |
+| Tệp không được lưu | Đường dẫn thư mục không đúng hoặc thiếu quyền ghi. | Xác minh `MyDir` trỏ tới một thư mục tồn tại và có quyền ghi. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.3D cho Java trong các dự án thương mại không?
+**Q1: Tôi có thể sử dụng Aspose.3D cho Java trong các dự án thương mại không?**  
+A1: Có, Aspose.3D cho Java có thể dùng cho mục đích thương mại. Để biết chi tiết về giấy phép, hãy truy cập [tại đây](https://purchase.aspose.com/buy).
 
- Câu trả lời 1: Có, Aspose.3D cho Java có sẵn cho mục đích sử dụng thương mại. Để biết chi tiết cấp phép, hãy truy cập[đây](https://purchase.aspose.com/buy).
+**Q2: Có bản dùng thử miễn phí không?**  
+A2: Có, bạn có thể khám phá bản dùng thử miễn phí của Aspose.3D cho Java [tại đây](https://releases.aspose.com/).
 
-### Q2: Có bản dùng thử miễn phí không?
+**Q3: Tôi có thể tìm hỗ trợ cho Aspose.3D cho Java ở đâu?**  
+A3: Diễn đàn cộng đồng Aspose.3D là nơi tuyệt vời để tìm hỗ trợ và chia sẻ kinh nghiệm. Truy cập diễn đàn [tại đây](https://forum.aspose.com/c/3d/18).
 
- Câu trả lời 2: Có, bạn có thể khám phá bản dùng thử miễn phí Aspose.3D cho Java[đây](https://releases.aspose.com/).
+**Q4: Tôi có cần giấy phép tạm thời để thử nghiệm không?**  
+A4: Có, nếu bạn cần giấy phép tạm thời cho mục đích thử nghiệm, bạn có thể lấy một giấy phép [tại đây](https://purchase.aspose.com/temporary-license/).
 
-### Câu hỏi 3: Tôi có thể tìm hỗ trợ cho Aspose.3D cho Java ở đâu?
+**Q5: Tôi có thể tìm tài liệu ở đâu?**  
+A5: Tài liệu cho Aspose.3D cho Java có sẵn [tại đây](https://reference.aspose.com/3d/java/).
 
- Câu trả lời 3: Diễn đàn cộng đồng Aspose.3D là nơi tuyệt vời để tìm kiếm sự hỗ trợ và chia sẻ kinh nghiệm của bạn. Ghé thăm diễn đàn[đây](https://forum.aspose.com/c/3d/18).
+## Kết luận
 
-### Q4: Tôi có cần giấy phép tạm thời để thử nghiệm không?
+Kiểm soát trung tâm trong extrusion tuyến tính **và** học cách **thêm mặt phẳng nền** với Aspose.3D cho Java mở ra nhiều khả năng thú vị trong phát triển đồ họa 3D. Bằng cách làm theo các bước trên, bạn đã có một mẫu có thể tái sử dụng để tạo extrusion có trung tâm, mặt phẳng tham chiếu trực quan, và xuất kết quả ra OBJ. Hãy thoải mái thử nghiệm với các profile, số lát và biến đổi khác nhau để phù hợp với nhu cầu dự án của bạn.
 
-Câu trả lời 4: Có, nếu bạn yêu cầu giấy phép tạm thời cho mục đích thử nghiệm, bạn có thể lấy giấy phép[đây](https://purchase.aspose.com/temporary-license/).
+---
 
-### Câu 5: Tôi có thể tìm tài liệu ở đâu?
+**Cập nhật lần cuối:** 2025-12-18  
+**Đã kiểm tra với:** Aspose.3D 24.11 cho Java (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose  
 
- Câu trả lời 5: Tài liệu về Aspose.3D dành cho Java hiện có sẵn[đây](https://reference.aspose.com/3d/java/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

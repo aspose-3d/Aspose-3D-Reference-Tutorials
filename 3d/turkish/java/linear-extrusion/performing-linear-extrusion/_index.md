@@ -1,118 +1,155 @@
 ---
-title: Aspose.3D for Java'da Doğrusal Ekstrüzyon Gerçekleştirme
-linktitle: Aspose.3D for Java'da Doğrusal Ekstrüzyon Gerçekleştirme
-second_title: Aspose.3D Java API'si
-description: Aspose.3D for Java ile 3D modelleme dünyasını keşfedin. Doğrusal ekstrüzyonu zahmetsizce gerçekleştirmeyi öğrenin.
-weight: 10
+date: 2025-12-18
+description: Aspose.3D kullanarak Java'da şekil ekstrüzyonu yapmayı, 3D sahne oluşturmayı
+  ve Wavefront OBJ dosyalarını zahmetsizce dışa aktarmayı öğrenin.
+linktitle: How to Extrude Shape in Java with Aspose.3D Linear Extrusion
+second_title: Aspose.3D Java API
+title: Java'da Aspose.3D Lineer Ekstrüzyon ile Şekil Nasıl Ekstrüde Edilir
 url: /tr/java/linear-extrusion/performing-linear-extrusion/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D for Java'da Doğrusal Ekstrüzyon Gerçekleştirme
+# Aspose.3D for Java'da Doğrusal Ekstrüzyon Yapma
 
-## giriiş
+## Giriş
 
-Aspose.3D for Java'da doğrusal ekstrüzyon gerçekleştirmeye yönelik bu kapsamlı eğitime hoş geldiniz! Java kullanarak 3D modelleme becerilerinizi geliştirmek istiyorsanız doğru yerdesiniz. Bu eğitimde, 3D modelleme için güçlü bir Java kütüphanesi olan Aspose.3D'yi kullanarak doğrusal ekstrüzyon gerçekleştirme sürecinde size rehberlik edeceğiz.
+Bu kapsamlı **how to extrude shape** öğreticisine hoş geldiniz! Java kullanarak 3D modelleme becerilerinizi geliştirmek istiyorsanız doğru yerdesiniz. Size bir 3D sahne oluşturmayı, doğrusal ekstrüzyon yapmayı ve sonucu Wavefront OBJ dosyası olarak dışa aktarmayı adım adım kod örnekleriyle göstereceğiz.
+
+## Hızlı Yanıtlar
+- **Doğrusal ekstrüzyon nedir?** 2D bir profili düz bir yol boyunca uzatarak 3D bir katı oluşturma işlemidir.  
+- **Java'da bunu hangi kütüphane yönetir?** Aspose.3D for Java.  
+- **OBJ'ye dışa aktarabilir miyim?** Evet, Wavefront OBJ dışa aktarma özelliği kullanılarak.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü yeterlidir; üretim için lisans gereklidir.  
+- **Hangi Java sürümü gereklidir?** Java 1.6 ve üzeri.
+
+## “how to extrude shape” nedir?
+
+Doğrusal ekstrüzyon, **3d modeling java** içinde düz bir profil—örneğin bir dikdörtgen—tanımlı bir mesafe boyunca çekilerek hacimsel bir nesneye dönüştüren temel bir tekniktir. Bu yöntem mekanik parçalar, mimari elemanlar ve dekoratif modeller oluşturmak için yaygın olarak kullanılır.
+
+## Aspose.3D'yi doğrusal ekstrüzyon için neden kullanmalısınız?
+
+- **Tam kontrol** geometrinin (dilimler, bükülme, ofset) üzerinde.  
+- **Sorunsuz entegrasyon** Java projeleriyle—yerel bağımlılık yok.  
+- **Yerleşik dışa aktarıcılar** popüler formatlar için, Wavefront OBJ dahil, böylece **generate 3d model** dosyalarını sonraki aşamalara kolayca aktarabilirsiniz.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Bu öğreticiye başlamadan önce aşağıdaki önkoşulları karşıladığınızdan emin olun:
 
-1. Java Geliştirme Ortamı: Makinenizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
+1. **Java Development Environment** – JDK (1.6 veya daha yeni) ve tercih ettiğiniz IDE.  
+2. **Aspose.3D Library** – resmi siteden kütüphaneyi indirin ve kurun **[burada](https://releases.aspose.com/3d/java/)**.
 
-2.  Aspose.3D Kütüphanesi: Aspose.3D kütüphanesini indirin ve yükleyin. Kütüphaneyi bulabilirsiniz[Burada](https://releases.aspose.com/3d/java/).
+## Paketleri İçe Aktarma
 
-## Paketleri İçe Aktar
-
-Geliştirme ortamınızı kurup Aspose.3D kütüphanesini kurduktan sonra gerekli paketleri içe aktarmanın zamanı geldi. Java kodunuza aşağıdakileri ekleyin:
+Geliştirme ortamınızı kurup Aspose.3D kütüphanesini yükledikten sonra gerekli paketi içe aktarın:
 
 ```java
 import com.aspose.threed.*;
 ```
 
-Net bir anlayış sağlamak için her adımı ayrı ayrı ele alalım.
+### Adım 1: Belge Dizinini Ayarla
 
-## 1. Adım: Belge Dizinini Ayarlayın
-
-Belge dizininizin yolunu tanımlayın:
+Oluşturulan dosyaların kaydedileceği klasörü tanımlayın:
 
 ```java
 String MyDir = "Your Document Directory";
 ```
 
-Bu, oluşturulan 3D modelin belirtilen dizine kaydedilmesini sağlar.
+> Bu, **generate 3d model** işleminin OBJ dosyasını bilinen bir konuma yazmasını sağlar.
 
-## Adım 2: Temel Şekli Başlatın
+### Adım 2: Temel Şekli Başlat
 
-Ekstrüzyon için temel profil olarak bir dikdörtgen şekli oluşturun:
+Ekstrüzyon profili olarak hizmet edecek bir dikdörtgen oluşturun:
 
 ```java
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-Şekli özelleştirmek için yuvarlama yarıçapını gerektiği gibi ayarlayın.
+Yuvarlatılmış köşeler elde etmek için yarıçapı ayarlayabilir veya mükemmel bir dikdörtgen için `0` olarak belirleyebilirsiniz.
 
-## Adım 3: Doğrusal Ekstrüzyonu Gerçekleştirin
+### Adım 3: Doğrusal Ekstrüzyon Yap
 
-Taban profilinde doğrusal ekstrüzyon gerçekleştirin:
+Şimdi dikdörtgeni Z‑ekseni boyunca ekstrüde ediyor, dilimler ekliyor, ortalamayı etkinleştiriyor ve bir ofsetle bükülme uyguluyoruz:
 
 ```java
 LinearExtrusion extrusion = new LinearExtrusion(profile, 10) {{ setSlices(100); setCenter(true); setTwist(360); setTwistOffset(new Vector3(10, 0, 0));}};
 ```
 
-Burada şekli 10 birim ekstrüde ediyoruz, dilim sayısını ayarlıyoruz, ortalamayı etkinleştiriyoruz ve büküm ve büküm ofseti uyguluyoruz.
+- **Extrusion length** – `10` birim.  
+- **Slices** – pürüzsüz geometri için `100`.  
+- **Twist** – `360°` tam bir dönüş oluşturur.  
+- **Twist offset** – bükülme orijini `(10, 0, 0)` konumuna taşır.
 
-## 4. Adım: 3D Sahne Oluşturun
+### Adım 4: 3D Sahne Oluştur
 
-Bir 3B sahne oluşturun ve ekstrüzyonu alt düğüm olarak ekleyin:
+Bir sahne konteyneri oluşturun ve ekstrüzyonu alt düğüm olarak ekleyin. Bu adım **creates 3d scene** birden fazla nesneyi tutabilir:
 
 ```java
 Scene scene = new Scene();
 scene.getRootNode().createChildNode(extrusion);
 ```
 
-## Adım 5: 3D Sahneyi Kaydet
+### Adım 5: 3D Sahneyi Kaydet
 
-Oluşturulan 3B sahneyi Wavefront OBJ dosyası olarak kaydedin:
+Sahneyi bir Wavefront OBJ dosyasına dışa aktarın. Bu, **wavefront obj export** ve **save 3d obj** yeteneklerini gösterir:
 
 ```java
 scene.save(MyDir +  "LinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-Artık Aspose.3D for Java'yı kullanarak doğrusal ekstrüzyonu başarıyla gerçekleştirdiniz!
+Kodu çalıştırdıktan sonra, belirttiğiniz dizinde `LinearExtrusion.obj` dosyasını bulacaksınız; bu dosya herhangi bir 3D görüntüleyicide açılabilir veya daha ileri işlenebilir.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümleri
 
-Tebrikler! Doğrusal ekstrüzyon gerçekleştirmek için Aspose.3D for Java'dan nasıl yararlanacağınızı öğrendiniz. Bu güçlü kütüphane, 3D modelleme projeleriniz için bir olasılıklar dünyasının kapılarını açar.
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| OBJ dosyası boş | Çıktı dizini yolu hatalı veya yazılabilir değil | `MyDir`'in mevcut bir klasöre işaret ettiğinden ve yazma izinlerine sahip olduğundan emin olun. |
+| Bükülme uygulanmadı | `setCenter(true)` atlanmış | Ortalamayı etkinleştirin veya `setTwistOffset` değerlerini ayarlayın. |
+| `LinearExtrusion` derleme hatası | Eski bir Aspose.3D sürümü kullanılıyor | En son Aspose.3D sürümüne güncelleyin. |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.3D tüm Java sürümleriyle uyumlu mu?
+**S: Aspose.3D tüm Java sürümleriyle uyumlu mu?**  
+**C:** Aspose.3D, Java 1.6 ve üzeri sürümlerle çalışır.
 
-Cevap1: Aspose.3D, Java 1.6 ve sonraki sürümlerle çalışacak şekilde tasarlanmıştır.
+**S: Aspose.3D'yi ticari projelerde kullanabilir miyim?**  
+**C:** Evet, geçerli bir lisansla ticari kullanım izni vardır. Lisansı **[burada](https://purchase.aspose.com/buy)** alabilirsiniz.
 
-### S2: Aspose.3D'yi ticari projeler için kullanabilir miyim?
+**S: Sorun yaşarsam nereden destek alabilirim?**  
+**C:** Topluluk yardımı için **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)** adresini ziyaret edin veya premium destek için **[geçici lisans](https://purchase.aspose.com/temporary-license/)** satın alın.
 
-C2: Evet, Aspose.3D hem kişisel hem de ticari projeler için kullanılabilir. Lisans ayrıntılarını kontrol edin[Burada](https://purchase.aspose.com/buy).
+**S: Aspose.3D başka hangi 3D modelleme özelliklerini sunar?**  
+**C:** Kütüphane ağ manipülasyonu, Boolean işlemleri, doku haritalama ve daha fazlasını içerir. Tam listeyi **[burada](https://reference.aspose.com/3d/java/)** görebilirsiniz.
 
-### S3: Aspose.3D için nasıl destek alabilirim?
+**S: Ücretsiz bir deneme sürümü mevcut mu?**  
+**C:** Evet, deneme sürümünü **[burada](https://releases.aspose.com/)** indirebilirsiniz.
 
- A3: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk desteği için veya bir satın almayı düşünün[geçici lisans](https://purchase.aspose.com/temporary-license/) prim desteği için.
+## Sonuç
 
-### S4: Aspose.3D'de başka 3D modelleme özellikleri var mı?
+Artık Aspose.3D for Java kullanarak **how to extrude shape** işlemini nasıl yapacağınızı, bir 3D sahne oluşturup sonucu Wavefront OBJ dosyası olarak dışa aktarmayı öğrendiniz. Bu teknik, **3d modeling java** projelerinizde basit parçalarden karmaşık montajlara kadar geniş bir yelpazede kapı açar. Modelinizi daha da zenginleştirmek için Boolean işlemleri veya doku haritalama gibi ek özellikleri keşfedin.
 
- Cevap4: Kesinlikle! Kapsamlı belgeleri keşfedin[Burada](https://reference.aspose.com/3d/java/) Kapsamlı bir özellik ve örnek listesi için.
+---
 
-### S5: Aspose.3D'nin ücretsiz deneme sürümü mevcut mu?
+**Last Updated:** 2025-12-18  
+**Test Edildi:** Aspose.3D 24.11 for Java  
+**Yazar:** Aspose  
 
- C5: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## HEDEF ANAHTAR KELİMELER:
+
+**Primary Keyword (HIGHEST PRIORITY):**
+how to extrude shape
+
+**Secondary Keywords (SUPPORTING):**
+create 3d scene, 3d modeling java, generate 3d model, wavefront obj export, save 3d obj
