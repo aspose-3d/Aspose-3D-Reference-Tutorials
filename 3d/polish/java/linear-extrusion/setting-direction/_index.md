@@ -1,33 +1,55 @@
 ---
-title: Ustawianie kierunku w wytłaczaniu liniowym za pomocą Aspose.3D dla Java
-linktitle: Ustawianie kierunku w wytłaczaniu liniowym za pomocą Aspose.3D dla Java
-second_title: Aspose.3D API Java
-description: Opanuj wytłaczanie liniowe z Aspose.3D dla Java! Postępuj zgodnie z naszym przewodnikiem, aby uzyskać płynne programowanie 3D. Pobierz teraz i ciesz się wciągającymi wrażeniami.
-weight: 12
+date: 2025-12-18
+description: Dowiedz się, jak stworzyć scenę 3D i zapisać plik OBJ przy użyciu Aspose.3D
+  dla Javy. Postępuj zgodnie z naszym przewodnikiem krok po kroku dotyczącym kierunku
+  ekstruzji liniowej.
+linktitle: Setting Direction in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Utwórz scenę 3D – Ustaw kierunek ekstruzji Aspose.3D Java
 url: /pl/java/linear-extrusion/setting-direction/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustawianie kierunku w wytłaczaniu liniowym za pomocą Aspose.3D dla Java
+# Utwórz scenę 3D – Ustaw kierunek ekstruzji Aspose.3D Java
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w naszym przewodniku krok po kroku dotyczącym ustawiania kierunku wytłaczania liniowego przy użyciu Aspose.3D dla Java. Aspose.3D to potężna biblioteka Java, która umożliwia programistom bezproblemową pracę z plikami i scenami 3D. W tym samouczku skupimy się na konkretnym zadaniu, jakim jest ustawienie kierunku wytłaczania liniowego, zwiększając Twoją biegłość w programowaniu 3D.
+W tym samouczku nauczysz się **tworzyć obiekty sceny 3d** i kontrolować kierunek ekstruzji przy użyciu Aspose.3D dla Javy. Niezależnie od tego, czy tworzysz wizualizacje architektoniczne, prototypy produktów, czy zasoby do gier, opanowanie liniowej ekstruzji daje elastyczność w szybkim modelowaniu złożonych kształtów. Przejdziemy krok po kroku, od dodawania węzłów w Javie po **eksportowanie modelu 3d do pliku obj**, abyś mógł od razu zobaczyć rezultat.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „create 3d scene”?** To inicjalizacja obiektu `Scene` Aspose.3D, który będzie przechowywał całą geometrię, światła i kamery.  
+- **Jak ustawić kierunek ekstruzji?** Użyj metody `setDirection(Vector3)` na instancji `LinearExtrusion`.  
+- **Jaki format wybrać do eksportu?** Format OBJ (`FileFormat.WAVEFRONTOBJ`) jest szeroko wspierany w przepływach pracy 3‑D.  
+- **Czy potrzebna jest licencja na Aspose.3D?** Darmowa wersja próbna wystarcza do rozwoju; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę dodać więcej węzłów w Javie?** Tak — użyj `scene.getRootNode().createChildNode()`, aby dodać dowolną liczbę obiektów.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest przepływ pracy „create 3d scene”?
 
-- Podstawowa znajomość języka programowania Java.
--  Zainstalowana biblioteka Aspose.3D. Można go pobrać z[Tutaj](https://releases.aspose.com/3d/java/).
-- Zintegrowane środowisko programistyczne (IDE) dla języka Java, takie jak Eclipse lub IntelliJ.
+Przepływ pracy **create 3d scene** zaczyna się od pustego obiektu `Scene`, dodaje geometrię (np. ekstruzowane profile), pozycjonuje ją przy pomocy transformacji i na końcu zapisuje scenę do formatu pliku, takiego jak OBJ. Ten schemat jest podstawą większości aplikacji 3‑D tworzonych przy użyciu Aspose.3D.
 
-## Importuj pakiety
+## Dlaczego ustawiać kierunek ekstruzji?
 
-Upewnij się, że zaimportowałeś niezbędne pakiety, aby rozpocząć projekt:
+Ustawienie kierunku ekstruzji pozwala przechylić, obrócić lub pochylić kształt w trakcie ekstruzji, dając kontrolę nad ostateczną geometrią bez dodatkowego post‑processingu. Jest to szczególnie przydatne przy:
+
+- Tworzeniu zwężających się kolumn lub rur o niestandardowych kształtach.  
+- Dopasowywaniu ekstruzji do nietypowych osi w częściach mechanicznych.  
+- Generowaniu artystycznych kształtów do efektów wizualnych.
+
+## Wymagania wstępne
+
+Zanim zaczniemy, upewnij się, że masz:
+
+- Podstawową znajomość Javy.  
+- Zainstalowaną bibliotekę Aspose.3D – pobierz ją [tutaj](https://releases.aspose.com/3d/java/).  
+- IDE, takie jak Eclipse lub IntelliJ IDEA.
+
+## Importowanie pakietów
+
+Najpierw zaimportuj wymagane klasy Aspose.3D:
 
 ```java
 import com.aspose.threed.*;
@@ -36,28 +58,30 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Krok 1: Zainicjuj profil podstawowy
+## Krok 1: Inicjalizacja profilu bazowego
 
- Rozpocznij od zainicjowania profilu bazowego, który ma zostać wyciągnięty. W tym przykładzie używamy a`RectangleShape` z promieniem zaokrąglenia 0,3:
+Utwórz profil 2‑D, który zostanie ekstruzowany. W tym przykładzie używamy zaokrąglonego prostokąta:
 
 ```java
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## Krok 2: Utwórz scenę
+> **Porada:** Dostosuj promień zaokrąglenia, aby kontrolować, jak ostre lub gładkie będą rogi prostokąta przed ekstruzją.
 
-Następnie utwórz scenę 3D zawierającą wyciągnięte obiekty:
+## Krok 2: Utworzenie sceny
+
+Teraz **create 3d scene**, która będzie hostować nasze obiekty:
 
 ```java
 Scene scene = new Scene();
 ```
 
-## Krok 3: Utwórz węzły
+## Krok 3: Dodawanie węzłów w Javie – Pozycjonowanie obiektów
 
-Utwórz lewy i prawy węzeł w scenie:
+Dodamy dwa węzły potomne (lewy i prawy) do węzła głównego sceny i przesuniemy lewy nieco na bok:
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -65,55 +89,63 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Krok 4: Wykonaj wytłaczanie liniowe na lewym węźle
+## Krok 4: Jak ekstruzować – Węzeł lewy (domyślny kierunek)
 
- Wykonaj wytłaczanie liniowe w lewym węźle za pomocą`LinearExtrusion`klasa z określonymi parametrami, takimi jak skręt i plasterki:
+Ekstruzujemy profil w lewym węźle używając domyślnego kierunku osi Z. Ustawiamy także pełny obrót 360° i zwiększamy liczbę przekrojów dla płynności:
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 ```
 
-## Krok 5: Wykonaj wytłaczanie liniowe na prawym węźle z kierunkiem
+## Krok 5: Jak ustawić kierunek – Węzeł prawy
 
- Wykonaj wytłaczanie liniowe na prawym węźle, wprowadzając`setDirection` właściwość określająca kierunek wytłoczenia:
+Tutaj **how to set direction** poprzez podanie własnego `Vector3`. Przechylamy ekstruzję w kierunku wektora (0.3, 0.2, 1):
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setDirection(new Vector3(0.3, 0.2, 1));}});
 ```
 
-## Krok 6: Zapisz scenę 3D
+## Krok 6: Zapis pliku OBJ – Eksport modelu 3D
 
-Zapisz scenę 3D w żądanym formacie pliku. W tym przykładzie zapisujemy go jako plik Wavefront OBJ:
+Na koniec **save obj file**, aby zobaczyć rezultat w dowolnym przeglądarce 3‑D:
 
 ```java
 scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Wniosek
+Po otwarciu wygenerowanego pliku OBJ zobaczysz dwa wyekstruzowane prostokąty: jeden z domyślnym kierunkiem, a drugi przechylony zgodnie z ustawionym wektorem.
 
-Gratulacje! Pomyślnie nauczyłeś się wyznaczać kierunek w wyciskaniu liniowym przy użyciu Aspose.3D dla Java. Ten samouczek rozwinie Twoje umiejętności programowania 3D i otworzy nowe możliwości dla kreatywnych projektów.
+## Typowe problemy i rozwiązania
 
-## Często zadawane pytania
+| Problem | Przyczyna | Rozwiązanie |
+|-------|--------|-----|
+| Plik OBJ jest pusty | Scena nie została zapisana lub ścieżka jest nieprawidłowa | Sprawdź, czy `MyDir` wskazuje na folder z prawami zapisu i czy nazwa pliku kończy się na `.obj`. |
+| Ekstruzja wygląda płasko | `setSlices` jest za niskie | Zwiększ `setSlices` (np. do 200) dla płynniejszej geometrii. |
+| Kierunek nie zmienia się | Wektor nie jest znormalizowany | Użyj znormalizowanego `Vector3` lub dostosuj wartości, aby odzwierciedlały pożądany przechył. |
 
-### P1: Czy mogę używać Aspose.3D z innymi językami programowania?
+## Najczęściej zadawane pytania
 
-O1: Aspose.3D obsługuje różne języki programowania, w tym .NET i Java.
+### Q1: Czy mogę używać Aspose.3D w innych językach programowania?
+A1: Aspose.3D obsługuje różne języki, w tym .NET i Javę.
 
-### Pytanie 2. Czy dostępna jest bezpłatna wersja próbna Aspose.3D?
+### Q2: Czy dostępna jest darmowa wersja próbna Aspose.3D?
+A2: Tak, możesz wypróbować funkcje Aspose.3D w darmowej wersji próbnej [tutaj](https://releases.aspose.com/).
 
- Odpowiedź 2: Tak, możesz poznać funkcje Aspose.3D w ramach bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+### Q3: Gdzie znajdę szczegółową dokumentację Aspose.3D dla Javy?
+A3: Kompleksowa dokumentacja jest dostępna [tutaj](https://reference.aspose.com/3d/java/).
 
-### P3: Gdzie mogę znaleźć szczegółową dokumentację Aspose.3D dla Java?
+### Q4: Jak mogę uzyskać wsparcie dla Aspose.3D?
+A4: Odwiedź [forum Aspose.3D](https://forum.aspose.com/c/3d/18) w celu uzyskania pomocy lub zadania pytań.
 
- A3: Dostępna jest obszerna dokumentacja[Tutaj](https://reference.aspose.com/3d/java/).
+### Q5: Czy dostępne są tymczasowe licencje na Aspose.3D?
+A5: Tak, tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
-### P4: Jak mogę uzyskać wsparcie dla Aspose.3D?
+---
 
- A4: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) w celu uzyskania pomocy lub pytań.
+**Ostatnia aktualizacja:** 2025-12-18  
+**Testowano z:** Aspose.3D 24.11 dla Javy  
+**Autor:** Aspose  
 
-### P5: Czy dostępne są tymczasowe licencje dla Aspose.3D?
-
- Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

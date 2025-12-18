@@ -1,33 +1,54 @@
 ---
-title: Nastavení směru v lineárním vytlačování s Aspose.3D pro Java
-linktitle: Nastavení směru v lineárním vytlačování s Aspose.3D pro Java
+date: 2025-12-18
+description: Naučte se, jak vytvořit 3D scénu a uložit soubor OBJ pomocí Aspose.3D
+  pro Javu. Postupujte podle našeho krok‑za‑krokem průvodce pro směr lineární extruze.
+linktitle: Setting Direction in Linear Extrusion with Aspose.3D for Java
 second_title: Aspose.3D Java API
-description: Zvládněte lineární vytlačování s Aspose.3D pro Java! Postupujte podle našeho průvodce pro bezproblémové 3D programování. Stáhněte si nyní a zažijte strhující zážitek.
-weight: 12
+title: Vytvořte 3D scénu – nastavte směr extruze Aspose.3D Java
 url: /cs/java/linear-extrusion/setting-direction/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavení směru v lineárním vytlačování s Aspose.3D pro Java
+# Vytvoření 3D scény – nastavení směru extruze Aspose.3D Java
 
 ## Úvod
 
-Vítejte v našem podrobném průvodci nastavením směru při lineárním vytlačování pomocí Aspose.3D pro Java. Aspose.3D je výkonná Java knihovna, která umožňuje vývojářům bezproblémově pracovat s 3D soubory a scénami. V tomto tutoriálu se zaměříme na konkrétní úkol, kterým je nastavení směru při lineárním vytlačování, čímž zvýšíme vaši odbornost v 3D programování.
+V tomto tutoriálu se naučíte **jak vytvořit 3D scénu** objektů a ovládat směr extruze pomocí Aspose.3D pro Java. Ať už vytváříte architektonické vizualizace, prototypy produktů nebo herní assety, zvládnutí lineární extruze vám poskytne flexibilitu rychle modelovat složité tvary. Provedeme vás každým krokem, od přidání uzlů v Javě až po **export 3D modelu obj** souborů, abyste výsledek viděli okamžitě.
+
+## Rychlé odpovědi
+- **Co znamená “create 3d scene”?** Jedná se o inicializaci objektu Aspose.3D `Scene`, který bude obsahovat veškerou geometrii, světla a kamery.  
+- **Jak nastavit směr extruze?** Použijte metodu `setDirection(Vector3)` na instanci `LinearExtrusion`.  
+- **Jaký formát použít pro export?** Formát OBJ (`FileFormat.WAVEFRONTOBJ`) je široce podporován pro 3‑D pracovní postupy.  
+- **Potřebuji licenci pro Aspose.3D?** Pro vývoj stačí bezplatná zkušební verze; pro produkci je vyžadována komerční licence.  
+- **Mohu v Javě přidat více uzlů?** Ano – použijte `scene.getRootNode().createChildNode()` a přidejte tolik objektů, kolik potřebujete.
+
+## Co je workflow “create 3d scene”?
+
+Workflow **create 3d scene** začíná prázdným objektem `Scene`, přidává geometrii (např. extrudované profily), umisťuje ji pomocí transformací a nakonec ukládá scénu do souborového formátu, jako je OBJ. Tento vzor je základem většiny 3‑D aplikací postavených na Aspose.3D.
+
+## Proč nastavit směr extruze?
+
+Nastavení směru extruze vám umožní naklonit, otočit nebo zkosit tvar během samotné extruze, čímž získáte kontrolu nad konečnou geometrií bez dalšího post‑processingu. Je to zvláště užitečné pro:
+
+- Vytváření kuželovitých sloupů nebo potrubí na míru.  
+- Zarovnání extruzí s nestmi osami v mechanických součástech.  
+- Generování uměleckých tvarů pro vizuální efekty.
 
 ## Předpoklady
 
-Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíme dál, ujistěte se, že máte:
 
-- Základní znalost programovacího jazyka Java.
--  Nainstalovaná knihovna Aspose.3D. Můžete si jej stáhnout z[tady](https://releases.aspose.com/3d/java/).
-- Integrované vývojové prostředí (IDE) pro Javu, jako je Eclipse nebo IntelliJ.
+- Základní znalosti Javy.  
+- Nainstalovanou knihovnu Aspose.3D – stáhněte ji [zde](https://releases.aspose.com/3d/java/).  
+- IDE, jako je Eclipse nebo IntelliJ IDEA.
 
-## Importujte balíčky
+## Import balíčků
 
-Ujistěte se, že importujete potřebné balíčky pro nastartování vašeho projektu:
+Nejprve importujte požadované třídy Aspose.3D:
 
 ```java
 import com.aspose.threed.*;
@@ -36,28 +57,30 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Krok 1: Inicializujte základní profil
+## Krok 1: Inicializace základního profilu
 
- Začněte inicializací základního profilu, který má být vytlačen. V tomto příkladu používáme a`RectangleShape` s poloměrem zaoblení 0,3:
+Vytvořte 2‑D profil, který bude extrudován. V tomto příkladu použijeme zaoblený obdélník:
 
 ```java
-// Cesta k adresáři dokumentů.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## Krok 2: Vytvořte scénu
+> **Pro tip:** Upravením poloměru zaoblení ovlivníte, jak ostré nebo hladké budou rohy obdélníku před extruzí.
 
-Dále vytvořte 3D scénu, která bude obsahovat vysunuté objekty:
+## Krok 2: Vytvoření scény
+
+Nyní **create 3d scene**, která bude hostovat naše objekty:
 
 ```java
 Scene scene = new Scene();
 ```
 
-## Krok 3: Vytvořte uzly
+## Krok 3: Přidání uzlů v Javě – umístění objektů
 
-Vytvořte levý a pravý uzel ve scéně:
+Přidáme dva podřízené uzly (levý a pravý) k kořenovému uzlu scény a posuneme levý trochu do strany:
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -65,55 +88,63 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Krok 4: Proveďte lineární vysunutí na levém uzlu
+## Krok 4: Jak extrudovat – levý uzel (výchozí směr)
 
- Proveďte lineární vysunutí na levém uzlu pomocí`LinearExtrusion`třída se zadanými parametry, jako je twist and slices:
+Extrudujte profil na levém uzlu pomocí výchozího směru podél osy Z. Také nastavíme úplný 360° otáčení a zvýšíme počet řezů pro hladkost:
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 ```
 
-## Krok 5: Proveďte lineární vysunutí na pravém uzlu se směrem
+## Krok 5: Jak nastavit směr – pravý uzel
 
- Proveďte lineární extruzi na pravém uzlu a zaveďte`setDirection` vlastnost pro definování směru vytlačování:
+Zde **how to set direction** pomocí vlastního `Vector3`. Tento vektor nakloní extruzi směrem k vektoru (0.3, 0.2, 1):
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setDirection(new Vector3(0.3, 0.2, 1));}});
 ```
 
-## Krok 6: Uložte 3D scénu
+## Krok 6: Uložení OBJ souboru – export 3D modelu
 
-Uložte 3D scénu do požadovaného formátu souboru. V tomto příkladu jej uložíme jako soubor Wavefront OBJ:
+Nakonec **save obj file**, abyste výsledek viděli v libovolném 3‑D prohlížeči:
 
 ```java
 scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Závěr
+Po otevření vygenerovaného OBJ souboru uvidíte dva extrudované obdélníky: jeden s výchozím směrem a druhý nakloněný podle nastaveného vektoru.
 
-Gratulujeme! Úspěšně jste se naučili, jak nastavit směr v lineárním vytlačování pomocí Aspose.3D pro Java. Tento tutoriál zlepší vaše dovednosti v 3D programování a otevře nové možnosti pro kreativní projekty.
+## Časté problémy a řešení
 
-## FAQ
+| Problém | Důvod | Řešení |
+|---------|-------|--------|
+| OBJ soubor je prázdný | Scéna nebyla uložena nebo je špatná cesta | Ověřte, že `MyDir` ukazuje na zapisovatelnou složku a název souboru končí na `.obj`. |
+| Extruze vypadá plochá | `setSlices` nastaveno příliš nízko | Zvyšte `setSlices` (např. na 200) pro hladší geometrii. |
+| Směr se nezdá změněn | Vektor není normalizován | Použijte normalizovaný `Vector3` nebo upravte hodnoty tak, aby odrážely požadovaný náklon. |
 
-### Q1: Mohu používat Aspose.3D s jinými programovacími jazyky?
+## Často kladené otázky
 
-A1: Aspose.3D podporuje různé programovací jazyky, včetně .NET a Java.
+### Q1: Mohu používat Aspose.3D i v jiných programovacích jazycích?
+A1: Aspose.3D podporuje různé jazyky, včetně .NET a Javy.
 
-### Q2. Je k dispozici bezplatná zkušební verze pro Aspose.3D?
+### Q2: Je k dispozici bezplatná zkušební verze Aspose.3D?
+A2: Ano, funkce Aspose.3D můžete vyzkoušet zdarma [zde](https://releases.aspose.com/).
 
- Odpověď 2: Ano, funkce Aspose.3D můžete prozkoumat pomocí bezplatné zkušební verze[tady](https://releases.aspose.com/).
+### Q3: Kde najdu podrobnou dokumentaci k Aspose.3D pro Javu?
+A3: Kompletní dokumentace je k dispozici [zde](https://reference.aspose.com/3d/java/).
 
-### Q3: Kde najdu podrobnou dokumentaci k Aspose.3D for Java?
+### Q4: Jak získám podporu pro Aspose.3D?
+A4: Navštivte [Aspose.3D fórum](https://forum.aspose.com/c/3d/18) pro jakoukoli pomoc nebo dotazy.
 
- A3: K dispozici je komplexní dokumentace[tady](https://reference.aspose.com/3d/java/).
+### Q5: Existují dočasné licence pro Aspose.3D?
+A5: Ano, dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
-### Q4: Jak mohu získat podporu pro Aspose.3D?
+---
 
- A4: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) pro jakoukoli pomoc nebo dotazy.
+**Poslední aktualizace:** 2025-12-18  
+**Testováno s:** Aspose.3D 24.11 pro Javu  
+**Autor:** Aspose  
 
-### Q5: Jsou k dispozici dočasné licence pro Aspose.3D?
-
- A5: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

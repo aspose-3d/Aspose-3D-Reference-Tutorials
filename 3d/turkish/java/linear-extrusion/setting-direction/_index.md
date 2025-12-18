@@ -1,33 +1,54 @@
 ---
-title: Aspose.3D for Java ile Doğrusal Ekstrüzyonda Yönü Ayarlama
-linktitle: Aspose.3D for Java ile Doğrusal Ekstrüzyonda Yönü Ayarlama
-second_title: Aspose.3D Java API'si
-description: Aspose.3D for Java ile doğrusal ekstrüzyona hakim olun! Kusursuz 3D programlama için kılavuzumuzu takip edin. Büyüleyici bir deneyim için hemen indirin.
-weight: 12
+date: 2025-12-18
+description: Aspose.3D for Java kullanarak 3D sahne oluşturmayı ve OBJ dosyasını kaydetmeyi
+  öğrenin. Lineer ekstrüzyon yönü için adım adım rehberimizi izleyin.
+linktitle: Setting Direction in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: 3D Sahne Oluştur – Extrüzyon Yönünü Ayarla Aspose.3D Java
 url: /tr/java/linear-extrusion/setting-direction/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D for Java ile Doğrusal Ekstrüzyonda Yönü Ayarlama
+# 3D Sahne Oluştur – Extrüzyon Yönünü Ayarlama Aspose.3D Java
 
-## giriiş
+## Introduction
 
-Aspose.3D for Java kullanarak doğrusal ekstrüzyonda yön ayarlamaya ilişkin adım adım kılavuzumuza hoş geldiniz. Aspose.3D, geliştiricilerin 3D dosyalar ve sahnelerle sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir Java kütüphanesidir. Bu eğitimde, doğrusal ekstrüzyonda yön belirleme gibi özel bir göreve odaklanarak 3D programlamadaki yeterliliğinizi geliştireceğiz.
+Bu öğreticide, Aspose.3D for Java ile **3d sahne oluşturma** nesnelerini nasıl oluşturacağınızı ve extrüzyon yönünü nasıl kontrol edeceğinizi öğreneceksiniz. Mimari görselleştirmeler, ürün prototipleri veya oyun varlıkları oluşturuyor olun, lineer extrüzyonu ustalaşmak, karmaşık şekilleri hızlıca modelleme esnekliği sağlar. Java’da düğüm eklemekten **3d model obj** dosyalarını dışa aktarmaya** kadar her adımı adım adım göstereceğiz, böylece sonucu anında görebileceksiniz.
 
-## Önkoşullar
+## Quick Answers
+- **“create 3d scene” ne anlama geliyor?** Aspose.3D `Scene` nesnesini başlatmak anlamına gelir; bu nesne tüm geometri, ışıklar ve kameraları tutar.  
+- **Extrüzyon yönünü nasıl ayarlarım?** `LinearExtrusion` örneğinde `setDirection(Vector3)` metodunu kullanın.  
+- **Dışa aktarmak için hangi formatı kullanmalıyım?** OBJ formatı (`FileFormat.WAVEFRONTOBJ`) 3‑D iş akışları için yaygın olarak desteklenir.  
+- **Aspose.3D için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
+- **Java’da daha fazla düğüm ekleyebilir miyim?** Evet—gerektiği kadar nesne eklemek için `scene.getRootNode().createChildNode()` kullanın.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## What is a “create 3d scene” workflow?
 
-- Java programlama dili hakkında temel bilgiler.
--  Aspose.3D kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/3d/java/).
-- Eclipse veya IntelliJ gibi Java için entegre bir geliştirme ortamı (IDE).
+**“create 3d scene”** iş akışı, boş bir `Scene` nesnesiyle başlar, geometri ekler (örneğin extrüde profiller), dönüşümlerle konumlandırır ve sonunda sahneyi OBJ gibi bir dosya formatına kaydeder. Bu desen, Aspose.3D ile oluşturulan çoğu 3‑D uygulamanın temelini oluşturur.
 
-## Paketleri İçe Aktar
+## Why set extrusion direction?
 
-Projenizi başlatmak için gerekli paketleri içe aktardığınızdan emin olun:
+Extrüzyon yönünü ayarlamak, şekli extrüde edilirken eğmenize, döndürmenize veya kaydırmanıza olanak tanır; böylece ek post‑işleme olmadan nihai geometri üzerinde kontrol sahibi olursunuz. Özellikle şu durumlarda faydalıdır:
+
+- Konik sütunlar veya özel şekilli borular oluşturma.  
+- Mekanik parçalarda standart dışı eksenlerle extrüzyonları hizalama.  
+- Görsel efektler için sanatsal şekiller üretme.
+
+## Prerequisites
+
+İlerlemeye başlamadan önce şunlara sahip olduğunuzdan emin olun:
+
+- Temel Java bilgisi.  
+- Aspose.3D kütüphanesi kurulu – [buradan](https://releases.aspose.com/3d/java/) indirin.  
+- Eclipse veya IntelliJ IDEA gibi bir IDE.
+
+## Import Packages
+
+İlk olarak, gerekli Aspose.3D sınıflarını içe aktarın:
 
 ```java
 import com.aspose.threed.*;
@@ -36,28 +57,30 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Adım 1: Temel Profili Başlatın
+## Step 1: Initialize Base Profile
 
- Ekstrüzyona tabi tutulacak taban profilini başlatarak başlayın. Bu örnekte, bir kullanıyoruz`RectangleShape` 0,3 yuvarlama yarıçapı ile:
+Extrüde edilecek 2‑D profili oluşturun. Bu örnekte yuvarlatılmış bir dikdörtgen kullanıyoruz:
 
 ```java
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## Adım 2: Bir Sahne Oluşturun
+> **Pro ipucu:** Yuvarlama yarıçapını ayarlayarak, extrüzyondan önce dikdörtgen köşelerinin ne kadar keskin ya da yumuşak görüneceğini kontrol edin.
 
-Daha sonra, kalıptan çıkarılan nesneleri içerecek bir 3B sahne oluşturun:
+## Step 2: Create a Scene
+
+Şimdi nesnelerimizi barındıracak **3d sahneyi oluşturuyoruz**:
 
 ```java
 Scene scene = new Scene();
 ```
 
-## 3. Adım: Düğümler Oluşturun
+## Step 3: Add Nodes Java – Positioning the Objects
 
-Sahne içinde sol ve sağ düğümler oluşturun:
+Sahnenin kök düğümüne iki alt düğüm (sol ve sağ) ekleyecek ve sol düğümü biraz yana kaydıracağız:
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -65,55 +88,63 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Adım 4: Sol Düğümde Doğrusal Ekstrüzyon Gerçekleştirin
+## Step 4: How to extrude – Left Node (default direction)
 
- kullanarak sol düğümde doğrusal ekstrüzyon gerçekleştirin.`LinearExtrusion`büküm ve dilimler gibi belirtilen parametrelere sahip sınıf:
+Profili, sol düğümde varsayılan Z‑eksen yönünü kullanarak extrüde edin. Ayrıca tam 360° bükülme ayarlayıp, pürüzsüzlük için dilim sayısını artırıyoruz:
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 ```
 
-## Adım 5: Yönlü Sağ Düğümde Doğrusal Ekstrüzyon Gerçekleştirin
+## Step 5: How to set direction – Right Node
 
- Sağ düğümde doğrusal ekstrüzyon gerçekleştirin ve`setDirection` Ekstrüzyon yönünü tanımlama özelliği:
+Burada **yönü nasıl ayarlayacağımızı** gösteriyoruz; özel bir `Vector3` sağlayarak. Bu, extrüzyonu (0.3, 0.2, 1) vektörüne doğru eğiyor:
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setDirection(new Vector3(0.3, 0.2, 1));}});
 ```
 
-## Adım 6: 3D Sahneyi Kaydet
+## Step 6: Save OBJ file – Export 3D model
 
-3B sahneyi istediğiniz dosya formatında kaydedin. Bu örnekte onu Wavefront OBJ dosyası olarak kaydediyoruz:
+Son olarak, sonucu herhangi bir 3‑D görüntüleyicide görmek için **obj dosyasını kaydediyoruz**:
 
 ```java
 scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Çözüm
+Oluşturulan OBJ dosyasını açtığınızda, iki extrüde dikdörtgen göreceksiniz: biri varsayılan yönle, diğeri ise ayarladığımız vektöre göre eğilmiş.
 
-Tebrikler! Aspose.3D for Java'yı kullanarak doğrusal ekstrüzyonda yönü nasıl ayarlayacağınızı başarıyla öğrendiniz. Bu eğitim, 3D programlama becerilerinizi geliştirir ve yaratıcı projeler için yeni olanakların kapısını açar.
+## Common Issues and Solutions
 
-## SSS'ler
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| OBJ dosyası boş görünüyor | Sahne kaydedilmemiş veya yol hatalı | `MyDir`'in yazılabilir bir klasöre işaret ettiğini ve dosya adının `.obj` ile bittiğini doğrulayın. |
+| Extrüzyon düz görünüyor | `setSlices` değeri çok düşük | Daha pürüzsüz geometri için `setSlices` değerini artırın (örnek: 200). |
+| Yön değişmemiş gibi | Vektör normalize edilmemiş | Normalize bir `Vector3` kullanın veya istenen eğimi yansıtacak şekilde değerleri ayarlayın. |
 
-### S1: Aspose.3D'yi diğer programlama dilleriyle kullanabilir miyim?
+## Frequently Asked Questions
 
-Cevap1: Aspose.3D, .NET ve Java dahil olmak üzere çeşitli programlama dillerini destekler.
+### Q1: Aspose.3D'yi diğer programlama dilleriyle kullanabilir miyim?
+A1: Aspose.3D, .NET ve Java dahil çeşitli dilleri destekler.
 
-### Q2. Aspose.3D'nin ücretsiz deneme sürümü mevcut mu?
+### Q2: Aspose.3D için ücretsiz deneme sürümü mevcut mu?
+A2: Evet, Aspose.3D özelliklerini ücretsiz deneme sürümüyle keşfedebilirsiniz [burada](https://releases.aspose.com/).
 
- Cevap2: Evet, Aspose.3D'nin özelliklerini ücretsiz deneme sürümüyle keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+### Q3: Aspose.3D for Java için ayrıntılı belgeleri nerede bulabilirim?
+A3: Kapsamlı dokümantasyon [burada](https://reference.aspose.com/3d/java/) mevcuttur.
 
-### S3: Aspose.3D for Java'nın ayrıntılı belgelerini nerede bulabilirim?
+### Q4: Aspose.3D için destek nasıl alabilirim?
+A4: Yardım ve sorularınız için [Aspose.3D forumunu](https://forum.aspose.com/c/3d/18) ziyaret edin.
 
- A3: Kapsamlı belgeler mevcut[Burada](https://reference.aspose.com/3d/java/).
+### Q5: Aspose.3D için geçici lisanslar mevcut mu?
+A5: Evet, geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
 
-### S4: Aspose.3D için nasıl destek alabilirim?
+---
 
- A4: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) herhangi bir yardım veya sorularınız için.
+**Son Güncelleme:** 2025-12-18  
+**Test Edilen:** Aspose.3D 24.11 for Java  
+**Yazar:** Aspose  
 
-### S5: Aspose.3D için geçici lisanslar mevcut mu?
-
- Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

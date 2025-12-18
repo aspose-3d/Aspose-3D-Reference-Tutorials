@@ -1,33 +1,53 @@
 ---
-title: Irány beállítása a Lineáris extrudálásban az Aspose.3D for Java segítségével
-linktitle: Irány beállítása a Lineáris extrudálásban az Aspose.3D for Java segítségével
+date: 2025-12-18
+description: Tanulja meg, hogyan hozhat létre 3D-s jelenetet és menthet OBJ fájlt
+  az Aspose.3D for Java segítségével. Kövesse lépésről‑lépésre útmutatónkat a lineáris
+  extrudálási irányhoz.
+linktitle: Setting Direction in Linear Extrusion with Aspose.3D for Java
 second_title: Aspose.3D Java API
-description: Master lineáris extrudálás Aspose.3D for Java! Kövesse útmutatónkat a zökkenőmentes 3D programozáshoz. Töltse le most a magával ragadó élményért.
-weight: 12
+title: 3D-színter létrehozása – Extrudálás irányának beállítása Aspose.3D Java
 url: /hu/java/linear-extrusion/setting-direction/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Irány beállítása a Lineáris extrudálásban az Aspose.3D for Java segítségével
+# 3D jelenet létrehozása – Extrudálási irány beállítása Aspose.3D Java
 
-## Bevezetés
+## Introduction
 
-Üdvözöljük lépésről lépésre szóló útmutatónkban a lineáris extrudálás irányának beállításához az Aspose.3D for Java használatával. Az Aspose.3D egy hatékony Java könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak 3D fájlokkal és jelenetekkel. Ebben az oktatóanyagban a lineáris extrudálás irányának meghatározásának konkrét feladatára fogunk összpontosítani, ezzel fejlesztve a 3D programozásban való jártasságot.
+Ebben az útmutatóban megtanulja, hogyan **hozzon létre 3D jelenetet** objektumokat, és hogyan szabályozza az extrudálás irányát az Aspose.3D for Java segítségével. Akár építészeti vizualizációkat, termékprototípusokat vagy játékeszközöket készít, a lineáris extrudálás elsajátítása rugalmasságot biztosít a bonyolult formák gyors modellezéséhez. Lépésről lépésre végigvezetjük a folyamaton, a Java-ban történő csomópontok hozzáadásától a **3D modell OBJ exportálásáig**, hogy azonnal láthassa az eredményt.
 
-## Előfeltételek
+## Quick Answers
+- **Mi a jelentése a „create 3d scene” kifejezésnek?** Ez azt jelenti, hogy inicializál egy Aspose.3D `Scene` objektumot, amely az összes geometriai adatot, fényt és kamerát tartalmazza.  
+- **Hogyan állíthatom be az extrudálás irányát?** Használja a `setDirection(Vector3)` metódust egy `LinearExtrusion` példányon.  
+- **Melyik formátumot használjam az exportáláshoz?** Az OBJ formátum (`FileFormat.WAVEFRONTOBJ`) széles körben támogatott a ‑D munkafolyamatokban.  
+- **Szükségem van licencre az Aspose.3D-hez?** A ingyenes próba verzió fejlesztéshez megfelelő; a gyártási környezethez kereskedelmi licenc szükséges.  
+- **Hozzáadhatok további csomópontokat Java-ban?** Igen – használja a `scene.getRootNode().createChildNode()` metódust, hogy a szükséges számú objektumot hozzáadja.
 
-Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+## What is a “create 3d scene” workflow?
 
-- Java programozási nyelv alapismerete.
--  Aspose.3D könyvtár telepítve. Letöltheti innen[itt](https://releases.aspose.com/3d/java/).
-- Integrált fejlesztői környezet (IDE) Java-hoz, például Eclipse vagy IntelliJ.
+A **create 3d scene** munkafolyamat egy üres `Scene` objektummal kezdődik, hozzáadja a geometriát (például extrudált profilokat), átalakításokkal pozícionálja, majd végül elmenti a jelenetet egy, például OBJ formátumú fájlba. Ez a minta az Aspose.3D-vel épített legtöbb 3‑D alkalmazás gerince.
 
-## Csomagok importálása
+## Why set extrusion direction?
 
-Győződjön meg arról, hogy importálja a szükséges csomagokat a projekt elindításához:
+Az extrudálás irányának beállítása lehetővé teszi, hogy a forma extrudálás közben dőljön, forgasson vagy ferde legyen, így a végső geometria felett extra utófeldolgozás nélkül isányítható. Különösen hasznos:
+- Tölcséres oszlopok vagy egyedi alakú csövek létrehozása.  
+- Extrudálások igazítása nem szabványos tengelyekhez mechanikai alkatrészekben.  
+- Művészi formák generálása vizuális effektekhez.
+
+## Prerequisites
+
+Mielőtt elkezdenénk, győződjön meg róla, hogy rendelkezik:
+- Alapvető Java ismeretekkel.  
+- Telepített Aspose.3D könyvtárral – töltse le [innen](https://releases.aspose.com/3d/java/).  
+- Egy IDE-vel, például Eclipse vagy IntelliJ IDEA.
+
+## Import Packages
+
+Először importálja a szükséges Aspose.3D osztályokat:
 
 ```java
 import com.aspose.threed.*;
@@ -36,28 +56,30 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 1. lépés: Inicializálja az alapprofilt
+## Step 1: Initialize Base Profile
 
- Kezdje az extrudálandó alapprofil inicializálásával. Ebben a példában az a`RectangleShape` 0,3 kerekítési sugárral:
+Hozza létre a 2‑D profilt, amelyet extrudálni fog. Ebben a példában egy lekerekített téglalapot használunk:
 
 ```java
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## 2. lépés: Hozzon létre egy jelenetet
+> **Pro tip:** Állítsa be a lekerekítési sugárértéket, hogy szabályozza, mennyire éles vagy sima lesz a téglalap sarkai az extrudálás előtt.
 
-Ezután hozzon létre egy 3D-s jelenetet, amely tartalmazza az extrudált objektumokat:
+## Step 2: Create a Scene
+
+Most **létrehozzuk a 3d jelenetet**, amely a objektumainkat fogja tartalmazni:
 
 ```java
 Scene scene = new Scene();
 ```
 
-## 3. lépés: Hozzon létre csomópontokat
+## Step 3: Add Nodes Java – Positioning the Objects
 
-Hozzon létre bal és jobb csomópontokat a jeleneten belül:
+Két gyermekcsomópontot (bal és jobb) adunk a jelenet gyökércsomópontjához, és a balikát egy kicsit oldalra helyezzük:
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -65,55 +87,63 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## 4. lépés: Hajtsa végre a lineáris extrudálást a bal csomóponton
+## Step 4: How to extrude – Left Node (default direction)
 
- Végezzen lineáris extrudálást a bal oldali csomóponton a`LinearExtrusion`osztály meghatározott paraméterekkel, például csavarással és szeletekkel:
+Extrudálja a profilt a bal csomóponton az alapértelmezett Z‑tengely irányában. Emellett beállítunk egy teljes 360°-os csavart, és növeljük a szeletek számát a simaság érdekében:
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 ```
 
-## 5. lépés: Végezze el a Lineáris extrudálást a jobb oldali csomóponton az iránnyal
+## Step 5: How to set direction – Right Node
 
- Végezzen lineáris extrudálást a jobb oldali csomóponton, bevezetve a`setDirection` tulajdonság az extrudálás irányának meghatározásához:
+Itt **beállítjuk az irányt** egy egyedi `Vector3` megadásával. Ez a extrudálást a (0.3, 0.2, 1) vektor felé dönti:
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setDirection(new Vector3(0.3, 0.2, 1));}});
 ```
 
-## 6. lépés: 3D-s jelenet mentése
+## Step 6: Save OBJ file – Export 3D model
 
-Mentse a 3D jelenetet a kívánt fájlformátumba. Ebben a példában Wavefront OBJ fájlként mentjük:
+Végül **elmentjük az OBJ fájlt**, hogy az eredményt bármely 3‑D megjelenítőben láthassa:
 
 ```java
 scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Következtetés
+Amikor megnyitja a generált OBJ fájlt, két extrudált téglalapot fog látni: egyet az alapértelmezett irányban, a másikat a beállított vektor szerint döntve.
 
-Gratulálunk! Sikeresen megtanulta, hogyan állítson be irányt a lineáris extrudálás során az Aspose.3D for Java segítségével. Ez az oktatóanyag fejleszti 3D programozási készségeit, és új lehetőségeket nyit a kreatív projektek számára.
+## Common Issues and Solutions
 
-## GYIK
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| Az OBJ fájl üresnek tűnik | A jelenet nincs mentve vagy az útvonal helytelen | Ellenőrizze, hogy a `MyDir` írható mappára mutat, és a fájlnév `.obj`-re végződik. |
+| Az extrudálás laposnak tűnik | `setSlices` túl alacsony | Növelje a `setSlices` értékét (pl. 200) a simább geometria érdekében. |
+| Az irány változatlan marad | A vektor nincs normalizálva | Használjon normalizált `Vector3`-at, vagy állítsa be az értékeket a kívánt dőlésszög eléréséhez. |
 
-### 1. kérdés: Használhatom az Aspose.3D-t más programozási nyelvekkel?
+## Frequently Asked Questions
 
-1. válasz: Az Aspose.3D különféle programozási nyelveket támogat, beleértve a .NET-et és a Java-t.
+### Q1: Használhatom az Aspose.3D-t más programozási nyelvekkel?
+A1: Az Aspose3D számos nyelvet támogat, többek között a .NET-et és a Java-t.
 
-### Q2. Létezik ingyenes próbaverzió az Aspose.3D számára?
+### Q2: Elérhető ingyenes próba verzió az Aspose.3D-hez?
+A2: Igen, az Aspose.3D funkcióit ingyenes próba verzióval [itt](https://releases.aspose.com/) tekintheti meg.
 
- 2. válasz: Igen, egy ingyenes próbaverzióval felfedezheti az Aspose.3D szolgáltatásait[itt](https://releases.aspose.com/).
+### Q3: Hol találhatók részletes dokumentációk az Aspose.3D Java-hoz?
+A3: A teljes körű dokumentáció [itt](https://reference.aspose.com/3d/java/) érhető el.
 
-### 3. kérdés: Hol találom az Aspose.3D for Java részletes dokumentációját?
+### Q4: Hogyan kaphatok támogatást az Aspose.3D-hez?
+A4: Látogassa meg az [Aspose.3D fórumot](https://forum.aspose.com/c/3d/18) bármilyen segítség vagy kérdés esetén.
 
- A3: Az átfogó dokumentáció elérhető[itt](https://reference.aspose.com/3d/java/).
+### Q5: Elérhetők ideiglenes licencek az Aspose.3D-hez?
+A5: Igen, ideiglenes licencet szerezhet [itt](https://purchase.aspose.com/temporary-license/).
 
-### 4. kérdés: Hogyan kaphatok támogatást az Aspose.3D-hez?
+---
 
- A4: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) bármilyen segítségért vagy kérdésért.
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose  
 
-### 5. kérdés: Rendelkezésre állnak ideiglenes licencek az Aspose.3D számára?
-
- V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

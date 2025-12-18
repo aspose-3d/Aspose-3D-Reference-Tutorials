@@ -1,33 +1,54 @@
 ---
-title: Java용 Aspose.3D를 사용하여 선형 돌출의 방향 설정
-linktitle: Java용 Aspose.3D를 사용하여 선형 돌출의 방향 설정
-second_title: Aspose.3D 자바 API
-description: Java용 Aspose.3D를 사용하여 선형 압출을 마스터하세요! 원활한 3D 프로그래밍을 위한 가이드를 따르세요. 지금 다운로드하여 매혹적인 경험을 즐겨보세요.
-weight: 12
+date: 2025-12-18
+description: Aspose.3D for Java를 사용하여 3D 씬을 만들고 OBJ 파일을 저장하는 방법을 배워보세요. 선형 압출 방향에
+  대한 단계별 가이드를 따라가세요.
+linktitle: Setting Direction in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: 3D 씬 만들기 – 압출 방향 설정 Aspose.3D Java
 url: /ko/java/linear-extrusion/setting-direction/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.3D를 사용하여 선형 돌출의 방향 설정
+# 3D 씬 만들기 – Extrusion 방향 설정 Aspose.3D Java
 
-## 소개
+## Introduction
 
-Java용 Aspose.3D를 사용하여 선형 압출 방향 설정에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.3D는 개발자가 3D 파일 및 장면을 원활하게 작업할 수 있게 해주는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 선형 압출의 방향을 설정하는 특정 작업에 중점을 두고 3D 프로그래밍 능력을 향상시킵니다.
+이 튜토리얼에서는 Aspose.3D for Java를 사용하여 **3D 씬을 만드는 방법**과 extrusion 방향을 제어하는 방법을 배웁니다. 건축 시각화, 제품 프로토타입, 게임 에셋 등을 제작하든, 선형 extrusion을 마스터하면 복잡한 형태를 빠르게 모델링할 수 있는 유연성을 얻을 수 있습니다. Java에서 노드를 추가하는 단계부터 **3D 모델 obj 파일 내보내기**까지 모든 과정을 차근차근 안내하므로 결과를 즉시 확인할 수 있습니다.
 
-## 전제 조건
+## Quick Answers
+- **“create 3d scene”이란 무엇인가요?** Aspose.3D `Scene` 객체를 초기화하여 모든 기하학, 조명 및 카메라를 담는 것을 의미합니다.  
+- **Extrusion 방향은 어떻게 설정하나요?** `LinearExtrusion` 인스턴스의 `setDirection(Vector3)` 메서드를 사용합니다.  
+- **어떤 포맷으로 내보내야 하나요?** OBJ 포맷(`FileFormat.WAVEFRONTOBJ`)은 3‑D 워크플로우에서 널리 지원됩니다.  
+- **Aspose.3D에 라이선스가 필요하나요?** 개발 단계에서는 무료 체험판을 사용할 수 있으며, 실제 서비스에서는 상용 라이선스가 필요합니다.  
+- **Java에서 노드를 더 추가할 수 있나요?** 네—`scene.getRootNode().createChildNode()`를 사용해 원하는 만큼 객체를 추가할 수 있습니다.
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## What is a “create 3d scene” workflow?
 
-- Java 프로그래밍 언어에 대한 기본 지식.
--  Aspose.3D 라이브러리가 설치되었습니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/3d/java/).
-- Eclipse 또는 IntelliJ와 같은 Java용 통합 개발 환경(IDE)입니다.
+**create 3d scene** 워크플로우는 빈 `Scene` 객체를 시작점으로 삼아, geometry(예: extrusion된 프로파일)를 추가하고, 변환을 적용한 뒤 최종적으로 OBJ와 같은 파일 포맷으로 저장하는 일련의 과정을 말합니다. 이 패턴은 Aspose.3D 기반 대부분의 3‑D 애플리케이션의 핵심 구조입니다.
 
-## 패키지 가져오기
+## Why set extrusion direction?
 
-프로젝트를 시작하려면 필요한 패키지를 가져와야 합니다.
+Extrusion 방향을 설정하면 extrusion 과정에서 형태를 기울이거나 회전, 왜곡시킬 수 있어 후처리 없이도 최종 기하학을 정확히 제어할 수 있습니다. 특히 다음과 같은 경우에 유용합니다.
+
+- 테이퍼드 컬럼이나 맞춤형 파이프 제작.  
+- 기계 부품에서 비표준 축에 맞춘 extrusion.  
+- 시각 효과를 위한 예술적 형태 생성.
+
+## Prerequisites
+
+시작하기 전에 다음이 준비되어 있어야 합니다.
+
+- 기본 Java 지식.  
+- Aspose.3D 라이브러리 설치 – [여기](https://releases.aspose.com/3d/java/)에서 다운로드.  
+- Eclipse 또는 IntelliJ IDEA와 같은 IDE.
+
+## Import Packages
+
+먼저 필요한 Aspose.3D 클래스를 임포트합니다:
 
 ```java
 import com.aspose.threed.*;
@@ -36,28 +57,30 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 1단계: 기본 프로필 초기화
+## Step 1: Initialize Base Profile
 
- 돌출할 기본 프로파일을 초기화하는 것부터 시작합니다. 이 예에서는`RectangleShape` 반올림 반경이 0.3인 경우:
+Extrusion에 사용할 2‑D 프로파일을 생성합니다. 여기서는 둥근 사각형을 예시로 사용합니다:
 
 ```java
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## 2단계: 장면 만들기
+> **Pro tip:** 라운딩 반경을 조정하면 extrusion 전 사각형 모서리의 날카로움이나 부드러움을 제어할 수 있습니다.
 
-다음으로 돌출된 개체를 포함하는 3D 장면을 만듭니다.
+## Step 2: Create a Scene
+
+이제 우리 객체들을 담을 **3D 씬**을 생성합니다:
 
 ```java
 Scene scene = new Scene();
 ```
 
-## 3단계: 노드 생성
+## Step 3: Add Nodes Java – Positioning the Objects
 
-장면 내에서 왼쪽 및 오른쪽 노드를 만듭니다.
+씬의 루트 노드에 두 개의 자식 노드(왼쪽, 오른쪽)를 추가하고, 왼쪽 노드를 약간 옆으로 이동시킵니다:
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -65,55 +88,63 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## 4단계: 왼쪽 노드에서 선형 돌출 수행
+## Step 4: How to extrude – Left Node (default direction)
 
- 다음을 사용하여 왼쪽 노드에서 선형 압출을 수행합니다.`LinearExtrusion`트위스트 및 슬라이스와 같은 지정된 매개변수가 있는 클래스:
+왼쪽 노드에서 기본 Z‑축 방향으로 프로파일을 extrusion합니다. 전체 360° 트위스트와 슬라이스 수를 늘려 부드럽게 만듭니다:
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 ```
 
-## 5단계: 방향을 사용하여 오른쪽 노드에서 선형 돌출 수행
+## Step 5: How to set direction – Right Node
 
- 오른쪽 노드에서 선형 압출을 수행하여`setDirection` 돌출 방향을 정의하는 속성:
+여기서는 **direction 설정 방법**을 보여줍니다. 커스텀 `Vector3`를 제공하여 extrusion을 (0.3, 0.2, 1) 방향으로 기울입니다:
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setDirection(new Vector3(0.3, 0.2, 1));}});
 ```
 
-## 6단계: 3D 장면 저장
+## Step 6: Save OBJ file – Export 3D model
 
-3D 장면을 원하는 파일 형식으로 저장합니다. 이 예에서는 이를 Wavefront OBJ 파일로 저장합니다.
+마지막으로 **OBJ 파일을 저장**하여 어떤 3‑D 뷰어에서도 결과를 확인할 수 있게 합니다:
 
 ```java
 scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## 결론
+생성된 OBJ 파일을 열면 두 개의 extrusion된 사각형을 볼 수 있습니다: 하나는 기본 방향, 다른 하나는 지정한 벡터에 따라 기울어져 있습니다.
 
-축하해요! Java용 Aspose.3D를 사용하여 선형 돌출에서 방향을 설정하는 방법을 성공적으로 배웠습니다. 이 튜토리얼은 3D 프로그래밍 기술을 향상시키고 창의적인 프로젝트의 새로운 가능성을 열어줍니다.
+## Common Issues and Solutions
 
-## FAQ
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| OBJ 파일이 비어 있음 | 씬이 저장되지 않았거나 경로가 잘못됨 | `MyDir`이 쓰기 가능한 폴더를 가리키는지, 파일 이름이 `.obj`로 끝나는지 확인 |
+| Extrusion이 평평해 보임 | `setSlices` 값이 너무 낮음 | 슬라이스 수를 늘림(예: 200)으로 부드러운 기하학 확보 |
+| Direction이 적용되지 않음 | Vector가 정규화되지 않음 | 정규화된 `Vector3`를 사용하거나 원하는 기울기에 맞게 값 조정 |
 
-### Q1: Aspose.3D를 다른 프로그래밍 언어와 함께 사용할 수 있습니까?
+## Frequently Asked Questions
 
-A1: Aspose.3D는 .NET 및 Java를 포함한 다양한 프로그래밍 언어를 지원합니다.
+### Q1: Can I use Aspose.3D with other programming languages?
+A1: Aspose.3D supports various languages, including .NET and Java.
 
-### Q2. Aspose.3D에 대한 무료 평가판이 있습니까?
+### Q2: Is there a free trial available for Aspose.3D?
+A2: Yes, you can explore the features of Aspose.3D with a free trial [here](https://releases.aspose.com/).
 
- A2: 예, 무료 평가판을 통해 Aspose.3D의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+### Q3: Where can I find detailed documentation for Aspose.3D for Java?
+A3: The comprehensive documentation is available [here](https://reference.aspose.com/3d/java/).
 
-### Q3: Java용 Aspose.3D에 대한 자세한 문서는 어디서 찾을 수 있나요?
+### Q4: How can I get support for Aspose.3D?
+A4: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for any assistance or queries.
 
- A3: 포괄적인 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/3d/java/).
+### Q5: Are temporary licenses available for Aspose.3D?
+A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-### Q4: Aspose.3D에 대한 지원은 어떻게 받을 수 있나요?
+---
 
- A4: 다음을 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 도움이나 문의사항이 있으면
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose  
 
-### Q5: Aspose.3D에 임시 라이선스를 사용할 수 있나요?
-
- A5: 예, 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
