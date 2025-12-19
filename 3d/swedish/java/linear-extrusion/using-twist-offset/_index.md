@@ -1,34 +1,42 @@
 ---
-title: Använda Twist Offset i linjär extrudering med Aspose.3D för Java
-linktitle: Använda Twist Offset i linjär extrudering med Aspose.3D för Java
+date: 2025-12-19
+description: Lär dig hur du skapar en 3D‑scen och exporterar en 3D OBJ‑fil med Twist
+  Offset i linjär extrudering med Aspose.3D för Java.
+linktitle: Create 3d scene with Twist Offset – Aspose.3D Java
 second_title: Aspose.3D Java API
-description: Förbättra dina färdigheter i 3D-modellering med Aspose.3D för Java. Lär dig att använda Twist Offset i linjär extrudering i denna omfattande handledning.
-
-weight: 15
+title: Skapa 3D-scen med Twist Offset – Aspose.3D Java
 url: /sv/java/linear-extrusion/using-twist-offset/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Använda Twist Offset i linjär extrudering med Aspose.3D för Java
+# Skapa 3d-scen med Twist Offset – Aspose.3D för Java
 
-## Introduktion
+## Introduction
 
-I den dynamiska världen av 3D-grafik är det en spelomvandlare att bemästra konsten att linjär extrudering. Med Aspose.3D för Java kan du höja dina färdigheter i 3D-modellering genom att införliva Twist Offset-funktionen i din linjära extruderingsprocess. Denna handledning guidar dig genom stegen för att använda Twist Offset i linjär extrudering med Aspose.3D för Java, vilket ger dig verktygen för att skapa fantastiska 3D-scener.
+I den dynamiska världen av 3D-grafik är det en spelväxlare att lära sig att **create 3d scene** med linjär extrudering. Med Aspose.3D för Java kan du höja dina 3D-modelleringskunskaper genom att införliva Twist Offset‑funktionen i din linjära extruderingsprocess. Denna handledning guidar dig genom stegen för att använda Twist Offset i Linear Extrusion med Aspose.3D för Java, och ger dig verktygen för att skapa imponerande 3D‑scener.
 
-## Förutsättningar
+## Quick Answers
+- **What does Twist Offset do?** Det flyttar startpunkten för vridningen längs extruderingsbanan, vilket ger dig mer kontroll över geometrin.  
+- **Which file format is used for export?** Exemplet sparar modellen som en Wavefront OBJ (`.obj`).  
+- **Do I need a license for development?** En gratis provversion fungerar för testning; en kommersiell licens krävs för produktion.  
+- **What Java version is required?** Java 8 eller senare.  
+- **Can I change the number of slices?** Ja – metoden `setSlices` definierar hur mjuk vridningen blir.
 
-Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
+## Prerequisites
 
-- Java-miljö: Se till att du har en Java-utvecklingsmiljö inställd på ditt system.
--  Aspose.3D för Java: Ladda ner och installera Aspose.3D-biblioteket från[nedladdningslänk](https://releases.aspose.com/3d/java/).
--  Dokumentation: Bekanta dig med[Aspose.3D för Java-dokumentation](https://reference.aspose.com/3d/java/).
+Innan du dyker ner i handledningen, se till att du har följande förutsättningar på plats:
 
-## Importera paket
+- Java‑miljö: Säkerställ att du har en Java‑utvecklingsmiljö installerad på ditt system.  
+- Aspose.3D för Java: Ladda ner och installera Aspose.3D‑biblioteket från [download link](https://releases.aspose.com/3d/java/).  
+- Dokumentation: Bekanta dig med [Aspose.3D för Java documentation](https://reference.aspose.com/3d/java/).  
 
-I ditt Java-projekt, importera de nödvändiga paketen för att börja använda Aspose.3D för Java. Se till att du inkluderar de nödvändiga biblioteken för sömlös integration.
+## Import Packages
+
+I ditt Java‑projekt importerar du de nödvändiga paketen för att börja använda Aspose.3D för Java. Se till att du inkluderar de erforderliga biblioteken för en sömlös integration.
 
 ```java
 import com.aspose.threed.*;
@@ -36,92 +44,128 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Steg 1: Ställ in miljön
+## Step 1: Set Up the Environment
 
-Börja med att ställa in din Java-utvecklingsmiljö och se till att Aspose.3D för Java är korrekt installerat.
+Börja med att konfigurera din Java‑utvecklingsmiljö och säkerställ att Aspose.3D för Java är korrekt installerat.
 
-## Steg 2: Initiera basprofilen
+## Step 2: Initialize the Base Profile
 
-Skapa en basprofil för extrudering, i detta fall en RectangleShape med en avrundningsradie på 0,3.
+Skapa en basprofil för extrudering, i detta fall en `RectangleShape` med en avrundningsradie på 0.3.
 
 ```java
-// Sökvägen till dokumentkatalogen.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
-// Initiera basprofilen som ska extruderas
+// Initialize the base profile to be extruded
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## Steg 3: Skapa en 3D-scen
+## Step 3: Create a 3D Scene
 
-Bygg en 3D-scen för att hysa dina extruderade föremål.
+Bygg en 3D‑scen för att hysa dina extruderade objekt.
 
 ```java
-// Skapa en scen
+// Create a scene
 Scene scene = new Scene();
 ```
 
-## Steg 4: Skapa noder
+## Step 4: Create Nodes
 
-Generera noder inom scenen för att representera olika enheter.
+Generera noder i scenen för att representera olika enheter.
 
 ```java
-// Skapa vänsternod
+// Create left node
 Node left = scene.getRootNode().createChildNode();
-// Skapa höger nod
+// Create right node
 Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Steg 5: Utför linjär extrudering
+## Step 5: Perform Linear Extrusion
 
-Använd linjär extrudering på både vänster och höger noder med olika egenskaper.
+Använd linjär extrudering på både vänstra och högra noder med olika egenskaper.
 
 ```java
-// Utför linjär extrudering på vänster nod med hjälp av egenskapen twist and slices
+// Perform linear extrusion on left node using twist and slices property
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 
-// Utför linjär extrudering på höger nod med twist, twist offset och skivegenskaper
+// Perform linear extrusion on right node using twist, twist offset, and slices property
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setTwistOffset(new Vector3(3, 0, 0)); }});
 ```
 
-## Steg 6: Spara 3D-scenen
+## Step 6: Save the 3D Scene
 
-Spara din nyskapade 3D-scen med det angivna filformatet.
+Spara din nyskapade 3D‑scen med det angivna filformatet.
 
 ```java
-// Spara 3D-scen
+// Save 3D scene
 scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Slutsats
+## How to save 3d model and export 3d obj
 
-Grattis! Du har framgångsrikt implementerat Twist Offset i linjär extrudering med Aspose.3D för Java. Denna kraftfulla funktion öppnar upp en värld av möjligheter för dina 3D-modelleringssträvanden, så att du kan skapa intrikata och fängslande scener.
+Anropet `scene.save` i föregående steg **saves the 3d model** som en OBJ‑fil, vilket är ett allmänt stödjande **export 3d obj**‑format. Du kan ändra filnamnet eller välja ett annat stödjande format (t.ex. STL, FBX) genom att justera `FileFormat`‑enum.
+
+## Conclusion
+
+Grattis! Du har framgångsrikt implementerat Twist Offset i Linear Extrusion med Aspose.3D för Java. Denna kraftfulla funktion öppnar en värld av möjligheter för dina 3D‑modelleringsprojekt, så att du kan **create 3d scene** med intrikata vridningar och förskjutningar, och sedan **save 3d model** i ett format som är redo för efterföljande pipelines.
 
 ## FAQ's
 
-### F1: Kan jag använda Aspose.3D för Java i icke-kommersiella projekt?
+### Q1: Can I use Aspose.3D for Java in non-commercial projects?
 
- S1: Ja, Aspose.3D för Java kan användas i både kommersiella och icke-kommersiella projekt. Kolla[licensalternativ](https://purchase.aspose.com/buy) för mer detaljer.
+A1: Ja, Aspose.3D för Java kan användas i både kommersiella och icke‑kommersiella projekt. Se [licensing options](https://purchase.aspose.com/buy) för mer information.
 
-### F2: Var kan jag hitta stöd för Aspose.3D för Java?
+### Q2: Where can I find support for Aspose.3D for Java?
 
- A2: Besök[Aspose.3D för Java-forum](https://forum.aspose.com/c/3d/18) för att få hjälp och få kontakt med samhället.
+A2: Besök [Aspose.3D for Java forum](https://forum.aspose.com/c/3d/18) för att få hjälp och ansluta till communityn.
 
-### F3: Finns det en gratis testversion tillgänglig för Aspose.3D för Java?
+### Q3: Is there a free trial available for Aspose.3D for Java?
 
- S3: Ja, du kan utforska en gratis testversion från[släpper sida](https://releases.aspose.com/).
+A3: Ja, du kan utforska en gratis provversion från [releases page](https://releases.aspose.com/).
 
-### F4: Hur får jag en tillfällig licens för Aspose.3D för Java?
+### Q4: How do I obtain a temporary license for Aspose.3D for Java?
 
- S4: Skaffa en tillfällig licens för ditt projekt genom att besöka[den här länken](https://purchase.aspose.com/temporary-license/).
+A4: Skaffa en tillfällig licens för ditt projekt genom att besöka [this link](https://purchase.aspose.com/temporary-license/).
 
-### F5: Finns det ytterligare exempel och handledning tillgängliga?
+### Q5: Are there additional examples and tutorials available?
 
- A5: Ja, se[dokumentation](https://reference.aspose.com/3d/java/) för fler exempel och djupgående handledningar.
+A5: Ja, se [documentation](https://reference.aspose.com/3d/java/) för fler exempel och djupgående handledningar.
+
+## Frequently Asked Questions
+
+**Q: Is this tutorial part of an Aspose 3d tutorial series?**  
+A: Ja – det är en officiell **aspose 3d tutorial** som demonstrerar en specifik funktion i biblioteket.
+
+**Q: Can I use a different shape instead of a rectangle?**  
+A: Absolut. Vilken `IProfile`‑implementation som helst (t.ex. `CircleShape`, anpassad `PolygonShape`) kan extruderas.
+
+**Q: What happens if I omit `setTwistOffset`?**  
+A: Extruderingen kommer att börja vrida från profilens ursprung, vilket resulterar i en symmetrisk vridning.
+
+**Q: How do I increase the smoothness of the twist?**  
+A: Öka värdet som skickas till `setSlices`; högre slice‑antal ger en mjukare geometri.
+
+**Q: Which other file formats can I export besides OBJ?**  
+A: Aspose.3D stödjer STL, FBX, GLTF, 3MF och flera andra via `FileFormat`‑enum.
+
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## MÅLNYCKELORD:
+
+**Primary Keyword (HIGHEST PRIORITY):**  
+create 3d scene  
+
+**Secondary Keywords (SUPPORTING):**  
+save 3d model, export 3d obj, aspose 3d tutorial

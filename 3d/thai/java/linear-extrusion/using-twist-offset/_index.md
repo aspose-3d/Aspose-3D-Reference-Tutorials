@@ -1,34 +1,42 @@
 ---
-title: การใช้ Twist Offset ใน Linear Extrusion ด้วย Aspose.3D สำหรับ Java
-linktitle: การใช้ Twist Offset ใน Linear Extrusion ด้วย Aspose.3D สำหรับ Java
-second_title: Aspose.3D จาวา API
-description: เสริมทักษะการสร้างแบบจำลอง 3 มิติของคุณด้วย Aspose.3D สำหรับ Java เรียนรู้การใช้ Twist Offset ใน Linear Extrusion ในบทช่วยสอนที่ครอบคลุมนี้
-
-weight: 15
+date: 2025-12-19
+description: เรียนรู้วิธีสร้างฉาก 3 มิติและส่งออกไฟล์ 3D OBJ ด้วย Twist Offset ใน
+  Linear Extrusion ด้วย Aspose.3D สำหรับ Java.
+linktitle: Create 3d scene with Twist Offset – Aspose.3D Java
+second_title: Aspose.3D Java API
+title: สร้างฉาก 3 มิติด้วย Twist Offset – Aspose.3D Java
 url: /th/java/linear-extrusion/using-twist-offset/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การใช้ Twist Offset ใน Linear Extrusion ด้วย Aspose.3D สำหรับ Java
+# สร้าง 3d scene ด้วย Twist Offset – Aspose.3D for Java
 
-## การแนะนำ
+## Introduction
 
-ในโลกแบบไดนามิกของกราฟิก 3D การเรียนรู้ศิลปะของการอัดขึ้นรูปเชิงเส้นเป็นตัวเปลี่ยนเกม ด้วย Aspose.3D สำหรับ Java คุณสามารถยกระดับทักษะการสร้างแบบจำลอง 3 มิติของคุณโดยผสมผสานคุณสมบัติ Twist Offset เข้ากับกระบวนการอัดขึ้นรูปเชิงเส้นของคุณ บทช่วยสอนนี้จะแนะนำคุณตลอดขั้นตอนการใช้ Twist Offset ใน Linear Extrusion โดยใช้ Aspose.3D สำหรับ Java ซึ่งมอบเครื่องมือในการสร้างฉาก 3D ที่น่าทึ่งให้กับคุณ
+ในโลกที่เปลี่ยนแปลงอย่างรวดเร็วของกราฟิก 3D การเรียนรู้วิธี **create 3d scene** ด้วยการดึงเส้นตรงเป็นการเปลี่ยนเกมอย่างมาก ด้วย Aspose.3D for Java คุณสามารถยกระดับทักษะการสร้างโมเดล 3D ของคุณโดยการรวมฟีเจอร์ Twist Offset เข้าไปในกระบวนการดึงเส้นตรง การสอนนี้จะนำคุณผ่านขั้นตอนการใช้ Twist Offset ใน Linear Extrusion ด้วย Aspose.3D for Java เพื่อให้คุณมีเครื่องมือสร้างฉาก 3D ที่น่าตื่นตาตื่นใจ
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **What does Twist Offset do?** มันจะเลื่อนจุดเริ่มต้นของการบิดตามเส้นทางการดึงเส้น ทำให้คุณควบคุมรูปทรงได้มากขึ้น  
+- **Which file format is used for export?** ตัวอย่างนี้บันทึกโมเดลเป็นไฟล์ Wavefront OBJ (`.obj`)  
+- **Do I need a license for development?** สามารถใช้เวอร์ชันทดลองฟรีเพื่อทดสอบได้; ต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการใช้งานจริง  
+- **What Java version is required?** Java 8 หรือใหม่กว่า  
+- **Can I change the number of slices?** ได้ – วิธี `setSlices` กำหนดความเรียบของการบิด
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+## Prerequisites
 
-- สภาพแวดล้อม Java: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java บนระบบของคุณ
--  Aspose.3D สำหรับ Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.3D จาก[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/3d/java/).
--  เอกสารประกอบ: ทำความคุ้นเคยกับ[Aspose.3D สำหรับเอกสาร Java](https://reference.aspose.com/3d/java/).
+ก่อนเริ่มการสอน โปรดตรวจสอบว่าคุณมีข้อกำหนดต่อไปนี้พร้อมใช้งาน:
 
-## แพ็คเกจนำเข้า
+- Java Environment: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java บนระบบของคุณแล้ว  
+- Aspose.3D for Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.3D จาก [download link](https://releases.aspose.com/3d/java/)  
+- Documentation: ทำความคุ้นเคยกับ [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/)  
 
-ในโปรเจ็กต์ Java ของคุณ ให้นำเข้าแพ็คเกจที่จำเป็นเพื่อเริ่มใช้ Aspose.3D สำหรับ Java ตรวจสอบให้แน่ใจว่าคุณได้รวมไลบรารีที่จำเป็นสำหรับการผสานรวมที่ราบรื่น
+## Import Packages
+
+ในโครงการ Java ของคุณ ให้นำเข้าแพ็กเกจที่จำเป็นเพื่อเริ่มใช้ Aspose.3D for Java อย่าลืมรวมไลบรารีที่ต้องการเพื่อการผสานรวมที่ราบรื่น
 
 ```java
 import com.aspose.threed.*;
@@ -36,92 +44,128 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## ขั้นตอนที่ 1: ตั้งค่าสภาพแวดล้อม
+## Step 1: Set Up the Environment
 
-เริ่มต้นด้วยการตั้งค่าสภาพแวดล้อมการพัฒนา Java ของคุณและตรวจสอบให้แน่ใจว่ามีการติดตั้ง Aspose.3D สำหรับ Java อย่างถูกต้อง
+เริ่มต้นด้วยการตั้งค่าสภาพแวดล้อมการพัฒนา Java ของคุณและตรวจสอบว่า Aspose.3D for Java ได้รับการติดตั้งอย่างถูกต้อง
 
-## ขั้นตอนที่ 2: เริ่มต้นโปรไฟล์ฐาน
+## Step 2: Initialize the Base Profile
 
-สร้างโปรไฟล์ฐานสำหรับการอัดขึ้นรูป ในกรณีนี้คือ รูปทรงสี่เหลี่ยมผืนผ้า ที่มีรัศมีการปัดเศษ 0.3
+สร้างโปรไฟล์ฐานสำหรับการดึงเส้น ในกรณีนี้คือ `RectangleShape` ที่มีรัศมีการโค้ง 0.3
 
 ```java
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
-// เริ่มต้นโปรไฟล์ฐานที่จะทำการอัดขึ้นรูป
+// Initialize the base profile to be extruded
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## ขั้นตอนที่ 3: สร้างฉาก 3 มิติ
+## Step 3: Create a 3D Scene
 
-สร้างฉาก 3 มิติเพื่อจัดเก็บวัตถุที่อัดขึ้นรูปของคุณ
+สร้างฉาก 3D เพื่อเป็นที่เก็บวัตถุที่ดึงเส้นของคุณ
 
 ```java
-// สร้างฉาก
+// Create a scene
 Scene scene = new Scene();
 ```
 
-## ขั้นตอนที่ 4: สร้างโหนด
+## Step 4: Create Nodes
 
-สร้างโหนดภายในฉากเพื่อแสดงถึงเอนทิตีต่างๆ
+สร้างโหนดภายในฉากเพื่อแทนเอนทิตีต่าง ๆ
 
 ```java
-// สร้างโหนดด้านซ้าย
+// Create left node
 Node left = scene.getRootNode().createChildNode();
-// สร้างโหนดที่ถูกต้อง
+// Create right node
 Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## ขั้นตอนที่ 5: ดำเนินการอัดขึ้นรูปเชิงเส้น
+## Step 5: Perform Linear Extrusion
 
-ใช้การอัดขึ้นรูปเชิงเส้นบนโหนดทั้งซ้ายและขวาด้วยคุณสมบัติที่หลากหลาย
+ใช้การดึงเส้นแบบเชิงเส้นบนโหนดซ้ายและขวาพร้อมคุณสมบัติต่าง ๆ
 
 ```java
-// ดำเนินการอัดขึ้นรูปเชิงเส้นบนโหนดด้านซ้ายโดยใช้คุณสมบัติการบิดและสไลซ์
+// Perform linear extrusion on left node using twist and slices property
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 
-// ดำเนินการอัดขึ้นรูปเชิงเส้นบนโหนดด้านขวาโดยใช้คุณสมบัติการบิด การบิดออฟเซ็ต และการแบ่งส่วน
+// Perform linear extrusion on right node using twist, twist offset, and slices property
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setTwistOffset(new Vector3(3, 0, 0)); }});
 ```
 
-## ขั้นตอนที่ 6: บันทึกฉาก 3 มิติ
+## Step 6: Save the 3D Scene
 
-บันทึกฉาก 3D ที่สร้างขึ้นใหม่ของคุณด้วยรูปแบบไฟล์ที่ระบุ
+บันทึกฉาก 3D ที่คุณสร้างใหม่ด้วยรูปแบบไฟล์ที่ระบุ
 
 ```java
-// บันทึกฉาก 3D
+// Save 3D scene
 scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## บทสรุป
+## How to save 3d model and export 3d obj
 
-ยินดีด้วย! คุณใช้งาน Twist Offset ใน Linear Extrusion โดยใช้ Aspose.3D สำหรับ Java สำเร็จแล้ว ฟีเจอร์อันทรงพลังนี้เปิดโลกแห่งความเป็นไปได้สำหรับความพยายามในการสร้างแบบจำลอง 3 มิติของคุณ ทำให้คุณสามารถสร้างฉากที่ซับซ้อนและน่าหลงใหลได้
+คำสั่ง `scene.save` ในขั้นตอนก่อนหน้านี้ **saves the 3d model** เป็นไฟล์ OBJ ซึ่งเป็นรูปแบบ **export 3d obj** ที่ได้รับการสนับสนุนอย่างกว้างขวาง คุณสามารถเปลี่ยนชื่อไฟล์หรือเลือกรูปแบบที่สนับสนุนอื่น (เช่น STL, FBX) โดยปรับค่าใน enum `FileFormat`
 
-## คำถามที่พบบ่อย
+## Conclusion
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.3D สำหรับ Java ในโปรเจ็กต์ที่ไม่ใช่เชิงพาณิชย์ได้หรือไม่
+ขอแสดงความยินดี! คุณได้ทำการนำ Twist Offset ไปใช้ใน Linear Extrusion ด้วย Aspose.3D for Java อย่างสำเร็จ ฟีเจอร์ที่ทรงพลังนี้เปิดโลกของความเป็นไปได้ใหม่สำหรับการสร้างโมเดล 3D ของคุณ ให้คุณ **create 3d scene** ด้วยการบิดและออฟเซ็ตที่ซับซ้อน และจากนั้น **save 3d model** ในรูปแบบที่พร้อมสำหรับกระบวนการต่อไป
 
- ตอบ 1: ได้ Aspose.3D สำหรับ Java สามารถใช้ได้ทั้งในโครงการเชิงพาณิชย์และไม่ใช่เชิงพาณิชย์ ตรวจสอบ[ตัวเลือกใบอนุญาต](https://purchase.aspose.com/buy) สำหรับรายละเอียดเพิ่มเติม
+## FAQ's
 
-### คำถามที่ 2: ฉันจะรับการสนับสนุนสำหรับ Aspose.3D สำหรับ Java ได้ที่ไหน
+### Q1: Can I use Aspose.3D for Java in non-commercial projects?
 
- A2: เยี่ยมชม[Aspose.3D สำหรับฟอรัม Java](https://forum.aspose.com/c/3d/18) เพื่อรับความช่วยเหลือและเชื่อมต่อกับชุมชน
+A1: ใช่, Aspose.3D for Java สามารถใช้ได้ทั้งในโครงการเชิงพาณิชย์และไม่เชิงพาณิชย์ ตรวจสอบ [licensing options](https://purchase.aspose.com/buy) สำหรับรายละเอียดเพิ่มเติม
 
-### คำถามที่ 3: Aspose.3D สำหรับ Java มีรุ่นทดลองใช้ฟรีหรือไม่
+### Q2: Where can I find support for Aspose.3D for Java?
 
- A3: ได้ คุณสามารถสำรวจเวอร์ชันทดลองใช้ฟรีได้จาก[หน้าเผยแพร่](https://releases.aspose.com/).
+A2: เยี่ยมชม [Aspose.3D for Java forum](https://forum.aspose.com/c/3d/18) เพื่อขอความช่วยเหลือและเชื่อมต่อกับชุมชน
 
-### คำถามที่ 4: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.3D สำหรับ Java ได้อย่างไร
+### Q3: Is there a free trial available for Aspose.3D for Java?
 
- A4: รับใบอนุญาตชั่วคราวสำหรับโครงการของคุณโดยไปที่[ลิงค์นี้](https://purchase.aspose.com/temporary-license/).
+A3: มี คุณสามารถสำรวจเวอร์ชันทดลองฟรีจาก [releases page](https://releases.aspose.com/)
 
-### คำถามที่ 5: มีตัวอย่างและบทช่วยสอนเพิ่มเติมหรือไม่
+### Q4: How do I obtain a temporary license for Aspose.3D for Java?
 
- A5: ใช่ โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/3d/java/) สำหรับตัวอย่างเพิ่มเติมและบทช่วยสอนเชิงลึก
+A4: รับใบอนุญาตชั่วคราวสำหรับโครงการของคุณโดยไปที่ [this link](https://purchase.aspose.com/temporary-license/)
+
+### Q5: Are there additional examples and tutorials available?
+
+A5: มี โปรดอ้างอิงที่ [documentation](https://reference.aspose.com/3d/java/) สำหรับตัวอย่างและการสอนเชิงลึกเพิ่มเติม
+
+## Frequently Asked Questions
+
+**Q: Is this tutorial part of an Aspose 3d tutorial series?**  
+A: ใช่ – นี่คือ **aspose 3d tutorial** อย่างเป็นทางการที่แสดงฟีเจอร์เฉพาะของไลบรารี
+
+**Q: Can I use a different shape instead of a rectangle?**  
+A: แน่นอน ทุกการทำงานของ `IProfile` (เช่น `CircleShape`, `PolygonShape` ที่กำหนดเอง) สามารถดึงเส้นได้
+
+**Q: What happens if I omit `setTwistOffset`?**  
+A: การดึงเส้นจะเริ่มบิดจากจุดกำเนิดของโปรไฟล์ ทำให้เกิดการบิดที่สมมาตร
+
+**Q: How do I increase the smoothness of the twist?**  
+A: เพิ่มค่าที่ส่งให้ `setSlices`; จำนวน slice ที่มากขึ้นจะทำให้รูปทรงบิดเรียบขึ้น
+
+**Q: Which other file formats can I export besides OBJ?**  
+A: Aspose.3D รองรับ STL, FBX, GLTF, 3MF และหลายรูปแบบอื่น ๆ ผ่าน enum `FileFormat`
+
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## TARGET KEYWORDS:
+
+**Primary Keyword (HIGHEST PRIORITY):**  
+create 3d scene  
+
+**Secondary Keywords (SUPPORTING):**  
+save 3d model, export 3d obj, aspose 3d tutorial
