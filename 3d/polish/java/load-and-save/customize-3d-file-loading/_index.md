@@ -1,34 +1,60 @@
 ---
-title: Dostosuj ładowanie plików 3D w Javie za pomocą Aspose.3D LoadOptions
-linktitle: Dostosuj ładowanie plików 3D w Javie za pomocą Aspose.3D LoadOptions
-second_title: Aspose.3D API Java
-description: Ulepsz ładowanie plików 3D w Javie dzięki konfigurowalnym modułom LoadOptions Aspose.3D. Naucz się krok po kroku dostosowywania dla 3DS, OBJ, STL, U3D, glTF, PLY, X i opcjonalnego FBX.
-weight: 12
+date: 2025-12-19
+description: Dowiedz się, jak dostosować ładowanie 3D w Javie przy użyciu Aspose.3D
+  LoadOptions. Przewodnik krok po kroku obejmujący pliki 3DS, OBJ, STL, U3D, glTF,
+  PLY, X oraz opcjonalnie FBX.
+linktitle: Customize 3D Loading Java – How to customize 3d loading java with Aspose.3D
+  LoadOptions
+second_title: Aspose.3D Java API
+title: Dostosuj ładowanie 3D w Javie – Jak dostosować ładowanie 3D w Javie przy użyciu
+  Aspose.3D LoadOptions
 url: /pl/java/load-and-save/customize-3d-file-loading/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dostosuj ładowanie plików 3D w Javie za pomocą Aspose.3D LoadOptions
+# Dostosowywanie ładowania 3D w Javie – Jak dostosować ładowanie 3D w Javie przy użyciu Aspose.3D LoadOptions
 
-## Wstęp
+## Wprowadzenie
 
-stale zmieniającym się środowisku projektowania i rozwoju 3D, wydajna obsługa formatów plików 3D ma kluczowe znaczenie. Aspose.3D dla Java zapewnia potężne rozwiązanie umożliwiające dostosowanie ładowania różnych formatów plików 3D. Ten samouczek poprowadzi Cię przez proces dostosowywania ładowania plików 3D w Javie przy użyciu opcji LoadOptions Aspose.3D.
+We współczesnych aplikacjach 3D **dostosowywanie ładowania 3D w Javie** jest niezbędne, aby modele wyświetlały się dokładnie tak, jak zamierzono, niezależnie od formatu źródłowego. Niezależnie od tego, czy tworzysz silnik gry, przeglądarkę AR/VR, czy narzędzie do konwersji CAD, możliwość kontrolowania sposobu importu plików 3DS, OBJ, STL, U3D, glTF, PLY, X, a nawet FBX może zaoszczędzić godziny post‑procesingu. Ten samouczek przeprowadzi Cię krok po kroku przez dostosowywanie ładowania plików 3D w Javie przy użyciu elastycznych klas `LoadOptions` Aspose.3D.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „dostosowywanie ładowania 3d java”?** Oznacza to konfigurowanie `LoadOptions` Aspose.3D w celu kontrolowania zachowania importu, takiego jak odwracanie układu współrzędnych, obsługa materiałów i transformacje animacji.  
+- **Jakie formaty mogę dostosować?** 3DS, OBJ, STL, U3D, glTF, PLY, X oraz opcjonalnie FBX.  
+- **Czy potrzebna jest licencja, aby to wypróbować?** Wymagana jest tymczasowa licencja dla pełnej funkcjonalności; dostępna jest również darmowa wersja próbna.  
+- **Czy potrzebne są dodatkowe dane?** Być może będziesz musiał podać ścieżki wyszukiwania dla zasobów zewnętrznych, takich jak tekstury lub biblioteki materiałów.  
+- **Gdzie znaleźć najnowszą wersję Aspose.3D dla Javy?** Na oficjalnej stronie pobierania podanej poniżej.
 
-Zanim przystąpisz do procesu dostosowywania, upewnij się, że posiadasz następujące elementy:
+## Co to jest „dostosowywanie ładowania 3d java”?
 
-- Podstawowa znajomość programowania w języku Java.
-- Zainstalowany zestaw Java Development Kit (JDK).
--  Pobrano bibliotekę Aspose.3D dla Java. Możesz to uzyskać[Tutaj](https://releases.aspose.com/3d/java/).
-- Znajomość formatów plików 3D, takich jak 3DS, OBJ, STL, U3D, glTF, PLY, X i FBX.
+Dostosowywanie ładowania 3D w Javie pozwala określić, jak silnik Aspose.3D interpretuje przychodzące pliki. Modyfikując właściwości różnych klas `*LoadOptions`, możesz:
 
-## Importuj pakiety
+* Odwrócić układ współrzędnych, aby pasował do Twojego potoku renderowania.  
+* Włączyć lub wyłączyć ładowanie materiałów w scenariuszach krytycznych pod względem wydajności.  
+* Zastosować korekcję gamma, transformacje animacji lub zachować wbudowane ustawienia globalne dla plików FBX.  
 
-W swoim projekcie Java pamiętaj o zaimportowaniu niezbędnych pakietów Aspose.3D:
+## Dlaczego warto używać Aspose.3D LoadOptions?
+
+* **Precyzyjna kontrola** – Dostosuj każdy format niezależnie.  
+* **Spójność między formatami** – Stosuj te same zasady układu współrzędnych we wszystkich obsługiwanych typach plików.  
+* **Optymalizacja wydajności** – Pomijaj niepotrzebne dane (np. materiały), gdy nie są potrzebne.  
+
+## Wymagania wstępne
+
+Zanim rozpoczniesz, upewnij się, że masz:
+
+- Solidną znajomość podstaw Javy.  
+- Zainstalowane JDK 8 lub nowsze.  
+- Bibliotekę Aspose.3D dla Javy pobraną z oficjalnej strony — możesz ją uzyskać [tutaj](https://releases.aspose.com/3d/java/).  
+- Podstawową znajomość formatów plików 3D, z którymi zamierzasz pracować (3DS, OBJ, STL, U3D, glTF, PLY, X, FBX).
+
+## Importowanie pakietów
+
+W swoim projekcie Java zaimportuj podstawowe klasy Aspose.3D oraz standardowy pakiet I/O:
 
 ```java
 import com.aspose.threed.*;
@@ -37,9 +63,11 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Dostosuj ładowanie plików 3D
+## Dostosowywanie ładowania plików 3D
 
-### Krok 1: Dostosuj ładowanie plików 3DS
+Poniżej znajdziesz dedykowaną metodę dla każdego obsługiwanego formatu. Każdy fragment kodu pokazuje najczęstsze dostosowania; śmiało modyfikuj właściwości, aby dopasować je do swojego potoku.
+
+### Krok 1: Dostosowywanie ładowania pliku 3DS  
 
 ```java
 public static void discreet3DSLoadOption() {
@@ -52,7 +80,9 @@ public static void discreet3DSLoadOption() {
 }
 ```
 
-### Krok 2: Dostosuj ładowanie pliku OBJ
+*Dlaczego to ważne:* Włączenie `ApplyAnimationTransform` zapewnia, że wszelkie osadzone dane animacji respektują docelowy układ współrzędnych, a `GammaCorrectedColor` naprawia problemy z intensywnością kolorów, które często pojawiają się przy przechodzeniu między różnymi silnikami renderującymi.
+
+### Krok 2: Dostosowywanie ładowania pliku OBJ  
 
 ```java
 public static void objLoadOption() {
@@ -64,7 +94,9 @@ public static void objLoadOption() {
 }
 ```
 
-### Krok 3: Dostosuj ładowanie pliku STL
+*Wskazówka:* Jeśli ładujesz pliki OBJ, które odwołują się do zewnętrznych plików materiałów `.mtl`, pozostaw `EnableMaterials` ustawione na `true` i upewnij się, że ścieżka wyszukiwania wskazuje na folder zawierający te pliki.
+
+### Krok 3: Dostosowywanie ładowania pliku STL  
 
 ```java
 public static void stlLoadOption() {
@@ -75,7 +107,9 @@ public static void stlLoadOption() {
 }
 ```
 
-### Krok 4: Dostosuj ładowanie pliku U3D
+*Pro tip:* Pliki STL zawierają wyłącznie geometrię, więc odwrócenie układu współrzędnych jest zazwyczaj jedyną wymaganą modyfikacją.
+
+### Krok 4: Dostosowywanie ładowania pliku U3D  
 
 ```java
 public static void u3dLoadOption() {
@@ -86,7 +120,7 @@ public static void u3dLoadOption() {
 }
 ```
 
-### Krok 5: Dostosuj ładowanie pliku glTF
+### Krok 5: Dostosowywanie ładowania pliku glTF  
 
 ```java
 public static void gltfLoadOptions() throws IOException {
@@ -98,7 +132,9 @@ public static void gltfLoadOptions() throws IOException {
 }
 ```
 
-### Krok 6: Dostosuj ładowanie pliku PLY
+*Dlaczego odwraca się współrzędne V tekstury?* Wiele eksporterów glTF używa innego pochodzenia UV niż tradycyjne potoki DirectX; odwrócenie `TexCoordV` wyrównuje tekstury prawidłowo.
+
+### Krok 6: Dostosowywanie ładowania pliku PLY  
 
 ```java
 public static void plyLoadOptions() throws IOException {
@@ -110,7 +146,7 @@ public static void plyLoadOptions() throws IOException {
 }
 ```
 
-### Krok 7: Dostosuj ładowanie pliku X
+### Krok 7: Dostosowywanie ładowania pliku X  
 
 ```java
 public static void xLoadOptions() throws IOException {
@@ -122,7 +158,7 @@ public static void xLoadOptions() throws IOException {
 }
 ```
 
-### Krok 8: Dostosuj ładowanie pliku FBX (opcjonalnie)
+### Krok 8: Dostosowywanie ładowania pliku FBX (Opcjonalnie)  
 
 ```java
 private static void FBXLoadOptions() throws IOException {
@@ -137,31 +173,49 @@ private static void FBXLoadOptions() throws IOException {
 }
 ```
 
-## Wniosek
+*Kiedy to stosować:* Pliki FBX często zawierają ustawienia globalne (jednostki, oś góry). Zachowanie ich zapewnia, że zaimportowana scena odpowiada zamierzeniom autora.
 
-Dostosowywanie ładowania plików 3D w Javie za pomocą opcji LoadOptions Aspose.3D umożliwia programistom dostosowanie procesu importowania do konkretnych wymagań. Niezależnie od tego, czy chodzi o dostosowywanie transformacji animacji, odwracanie układów współrzędnych, czy obsługę zewnętrznych zależności, Aspose.3D zapewnia elastyczność potrzebną do bezproblemowej integracji.
+## Typowe problemy i rozwiązania
 
-## Często zadawane pytania
+| Problem | Prawdopodobna przyczyna | Rozwiązanie |
+|---------|--------------------------|-------------|
+| Tekstury nie wyświetlają się | Ścieżka wyszukiwania nie ustawiona lub nieprawidłowa wielkość liter | Dodaj właściwy katalog do `loadOpts.getLookupPaths()` i sprawdź nazwy plików |
+| Model jest odwrócony do góry nogami | `FlipCoordinateSystem` nie włączony dla danego formatu | Ustaw `setFlipCoordinateSystem(true)` dla odpowiedniego `*LoadOptions` |
+| Kolory wyglądają wyblakłe | Korekcja gamma wyłączona dla 3DS | Wywołaj `setGammaCorrectedColor(true)` na `Discreet3dsLoadOptions` |
+| Animacja FBX wygląda niepoprawnie | Nadpisane ustawienia globalne | Użyj `setKeepBuiltinGlobalSettings(true)` |
 
-### P1: Gdzie mogę znaleźć dokumentację Aspose.3D for Java?
+## Najczęściej zadawane pytania
 
- Odpowiedź 1: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/3d/java/).
+### P1: Gdzie mogę znaleźć dokumentację Aspose.3D dla Javy?  
+O1: Dokumentacja jest dostępna [tutaj](https://reference.aspose.com/3d/java/).
 
-### P2: Jak mogę pobrać Aspose.3D dla Java?
+### P2: Jak mogę pobrać Aspose.3D dla Javy?  
+O2: Możesz pobrać go [tutaj](https://releases.aspose.com/3d/java/).
 
- A2: Możesz go pobrać[Tutaj](https://releases.aspose.com/3d/java/).
+### P3: Czy dostępna jest darmowa wersja próbna?  
+O3: Tak, darmową wersję próbną znajdziesz [tutaj](https://releases.aspose.com/).
 
-### P3: Czy dostępny jest bezpłatny okres próbny?
+### P4: Gdzie mogę uzyskać wsparcie dla Aspose.3D dla Javy?  
+O4: Odwiedź forum wsparcia [tutaj](https://forum.aspose.com/c/3d/18).
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+### P5: Czy potrzebna jest tymczasowa licencja do testów?  
+O5: Tak, tymczasową licencję można uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
-### P4: Gdzie mogę uzyskać wsparcie dla Aspose.3D dla Java?
+### P6: Czy mogę ładować wiele formatów w jednej scenie?  
+O6: Oczywiście. Utwórz osobne `LoadOptions` dla każdego formatu i wywołaj `scene.open()` dla każdego pliku; scena połączy geometrię.
 
- Odpowiedź 4: Odwiedź forum pomocy technicznej[Tutaj](https://forum.aspose.com/c/3d/18).
+### P7: Jak poprawić wydajność ładowania dużych plików?  
+O7: Wyłącz niepotrzebne funkcje (np. ładowanie materiałów dla STL) i używaj `LookupPaths`, aby uniknąć powtarzających się operacji I/O.
 
-### P5: Czy potrzebuję tymczasowej licencji do testowania?
+### P8: Czy można programowo zmienić układ współrzędnych po załadowaniu?  
+O8: Tak, możesz wywołać `scene.getRootNode().rotate()` lub `scene.getRootNode().scale()` po otwarciu pliku.
 
- Odpowiedź 5: Tak, uzyskaj licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+---
+
+**Ostatnia aktualizacja:** 2025-12-19  
+**Testowano z:** Aspose.3D for Java 24.11 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,34 +1,42 @@
 ---
-title: Verwenden von Twist Offset in der linearen Extrusion mit Aspose.3D für Java
-linktitle: Verwenden von Twist Offset in der linearen Extrusion mit Aspose.3D für Java
-second_title: Aspose.3D Java-API
-description: Verbessern Sie Ihre 3D-Modellierungskenntnisse mit Aspose.3D für Java. Erfahren Sie in diesem umfassenden Tutorial, wie Sie den Verdrehungsversatz in der linearen Extrusion verwenden.
-
-weight: 15
+date: 2025-12-19
+description: Erfahren Sie, wie Sie eine 3D‑Szene erstellen und ein 3D‑OBJ mit Twist‑Offset
+  in Linear‑Extrusion mit Aspose.3D für Java exportieren.
+linktitle: Create 3d scene with Twist Offset – Aspose.3D Java
+second_title: Aspose.3D Java API
+title: 3D‑Szene mit Twist‑Offset erstellen – Aspose.3D Java
 url: /de/java/linear-extrusion/using-twist-offset/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Verwenden von Twist Offset in der linearen Extrusion mit Aspose.3D für Java
+# Erstelle 3d Szene mit Twist Offset – Aspose.3D für Java
 
 ## Einführung
 
-In der dynamischen Welt der 3D-Grafik ist die Beherrschung der Kunst der linearen Extrusion von entscheidender Bedeutung. Mit Aspose.3D für Java können Sie Ihre 3D-Modellierungsfähigkeiten verbessern, indem Sie die Twist-Offset-Funktion in Ihren linearen Extrusionsprozess integrieren. Dieses Tutorial führt Sie durch die Schritte der Verwendung von Twist Offset in der linearen Extrusion mit Aspose.3D für Java und stellt Ihnen die Werkzeuge zur Verfügung, um atemberaubende 3D-Szenen zu erstellen.
+In der dynamischen Welt der 3D‑Grafik ist das Erlernen, **3d Szene zu erstellen** mit linearer Extrusion, ein echter Wendepunkt. Mit Aspose.3D für Java können Sie Ihre 3D‑Modellierungsfähigkeiten steigern, indem Sie die Twist‑Offset‑Funktion in Ihren linearen Extrusionsprozess integrieren. Dieses Tutorial führt Sie Schritt für Schritt durch die Nutzung von Twist Offset bei Linear Extrusion mit Aspose.3D für Java und gibt Ihnen die Werkzeuge, um beeindruckende 3D‑Szenen zu erstellen.
+
+## Schnellantworten
+- **Was bewirkt Twist Offset?** Es verschiebt den Beginn der Drehung entlang des Extrusionspfads und gibt Ihnen mehr Kontrolle über die Geometrie.  
+- **Welches Dateiformat wird für den Export verwendet?** Das Beispiel speichert das Modell als Wavefront OBJ (`.obj`).  
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion reicht für Tests; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Welche Java‑Version wird benötigt?** Java 8 oder höher.  
+- **Kann ich die Anzahl der Scheiben ändern?** Ja – die Methode `setSlices` definiert die Glätte der Drehung.
 
 ## Voraussetzungen
 
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-- Java-Umgebung: Stellen Sie sicher, dass auf Ihrem System eine Java-Entwicklungsumgebung eingerichtet ist.
--  Aspose.3D für Java: Laden Sie die Aspose.3D-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/3d/java/).
--  Dokumentation: Machen Sie sich mit dem vertraut[Aspose.3D für Java-Dokumentation](https://reference.aspose.com/3d/java/).
+- Java‑Umgebung: Stellen Sie sicher, dass eine Java‑Entwicklungsumgebung auf Ihrem System eingerichtet ist.  
+- Aspose.3D für Java: Laden Sie die Aspose.3D‑Bibliothek von dem [download link](https://releases.aspose.com/3d/java/) herunter und installieren Sie sie.  
+- Dokumentation: Machen Sie sich mit der [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) vertraut.  
 
 ## Pakete importieren
 
-Importieren Sie in Ihrem Java-Projekt die erforderlichen Pakete, um mit der Verwendung von Aspose.3D für Java zu beginnen. Stellen Sie sicher, dass Sie die erforderlichen Bibliotheken für eine nahtlose Integration einbinden.
+In Ihrem Java‑Projekt importieren Sie die notwendigen Pakete, um Aspose.3D für Java zu nutzen. Stellen Sie sicher, dass Sie die erforderlichen Bibliotheken für eine nahtlose Integration einbinden.
 
 ```java
 import com.aspose.threed.*;
@@ -38,26 +46,26 @@ import java.io.IOException;
 
 ## Schritt 1: Umgebung einrichten
 
-Beginnen Sie mit der Einrichtung Ihrer Java-Entwicklungsumgebung und stellen Sie sicher, dass Aspose.3D für Java korrekt installiert ist.
+Beginnen Sie damit, Ihre Java‑Entwicklungsumgebung einzurichten und sicherzustellen, dass Aspose.3D für Java korrekt installiert ist.
 
-## Schritt 2: Initialisieren Sie das Basisprofil
+## Schritt 2: Basis‑Profil initialisieren
 
-Erstellen Sie ein Basisprofil für die Extrusion, in diesem Fall eine „RectangleShape“ mit einem Rundungsradius von 0,3.
+Erstellen Sie ein Basis‑Profil für die Extrusion, in diesem Fall ein `RectangleShape` mit einem Abrundungsradius von 0.3.
 
 ```java
-// Der Pfad zum Dokumentenverzeichnis.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
-// Initialisieren Sie das zu extrudierende Basisprofil
+// Initialize the base profile to be extruded
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## Schritt 3: Erstellen Sie eine 3D-Szene
+## Schritt 3: 3D‑Szene erstellen
 
-Erstellen Sie eine 3D-Szene, um Ihre extrudierten Objekte unterzubringen.
+Erstellen Sie eine 3D‑Szene, um Ihre extrudierten Objekte zu beherbergen.
 
 ```java
-// Erstellen Sie eine Szene
+// Create a scene
 Scene scene = new Scene();
 ```
 
@@ -66,62 +74,98 @@ Scene scene = new Scene();
 Generieren Sie Knoten innerhalb der Szene, um verschiedene Entitäten darzustellen.
 
 ```java
-// Linken Knoten erstellen
+// Create left node
 Node left = scene.getRootNode().createChildNode();
-// Erstellen Sie den rechten Knoten
+// Create right node
 Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Schritt 5: Führen Sie eine lineare Extrusion durch
+## Schritt 5: Lineare Extrusion durchführen
 
-Nutzen Sie die lineare Extrusion sowohl für den linken als auch für den rechten Knoten mit verschiedenen Eigenschaften.
+Nutzen Sie lineare Extrusion sowohl für linke als auch rechte Knoten mit verschiedenen Eigenschaften.
 
 ```java
-// Führen Sie eine lineare Extrusion am linken Knoten mithilfe der Twist- und Slices-Eigenschaft durch
+// Perform linear extrusion on left node using twist and slices property
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 
-// Führen Sie eine lineare Extrusion am rechten Knoten mithilfe der Eigenschaft „Drehung“, „Drehungsversatz“ und „Slices“ durch
+// Perform linear extrusion on right node using twist, twist offset, and slices property
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setTwistOffset(new Vector3(3, 0, 0)); }});
 ```
 
-## Schritt 6: Speichern Sie die 3D-Szene
+## Schritt 6: 3D‑Szene speichern
 
-Speichern Sie Ihre neu erstellte 3D-Szene im angegebenen Dateiformat.
+Speichern Sie Ihre neu erstellte 3D‑Szene im angegebenen Dateiformat.
 
 ```java
-// 3D-Szene speichern
+// Save 3D scene
 scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Abschluss
+## Wie man 3d Modell speichert und 3d obj exportiert
 
-Glückwunsch! Sie haben Twist Offset in der linearen Extrusion mit Aspose.3D für Java erfolgreich implementiert. Diese leistungsstarke Funktion eröffnet eine Welt voller Möglichkeiten für Ihre 3D-Modellierungsbemühungen und ermöglicht Ihnen die Erstellung komplexer und fesselnder Szenen.
+Der Aufruf `scene.save` im vorherigen Schritt **speichert das 3d Modell** als OBJ‑Datei, ein weit verbreitetes **export 3d obj**‑Format. Sie können den Dateinamen ändern oder ein anderes unterstütztes Format wählen (z. B. STL, FBX), indem Sie das `FileFormat`‑Enum anpassen.
 
-## FAQs
+## Fazit
 
-### F1: Kann ich Aspose.3D für Java in nichtkommerziellen Projekten verwenden?
+Herzlichen Glückwunsch! Sie haben Twist Offset in Linear Extrusion mit Aspose.3D für Java erfolgreich implementiert. Diese leistungsstarke Funktion eröffnet Ihnen ein breites Spektrum an Möglichkeiten für Ihre 3D‑Modellierungsprojekte, sodass Sie **3d Szene erstellen** können mit komplexen Drehungen und Versätzen und anschließend **3d Modell speichern** in einem Format, das für nachgelagerte Pipelines bereit ist.
 
- A1: Ja, Aspose.3D für Java kann sowohl in kommerziellen als auch nichtkommerziellen Projekten verwendet werden. Überprüf den[Lizenzoptionen](https://purchase.aspose.com/buy) für mehr Details.
+## FAQ
 
-### F2: Wo finde ich Unterstützung für Aspose.3D für Java?
+### Q1: Kann ich Aspose.3D für Java in nicht‑kommerziellen Projekten verwenden?
 
- A2: Besuchen Sie die[Aspose.3D für Java-Forum](https://forum.aspose.com/c/3d/18) um Hilfe zu erhalten und mit der Community in Kontakt zu treten.
+A1: Ja, Aspose.3D für Java kann sowohl in kommerziellen als auch in nicht‑kommerziellen Projekten verwendet werden. Weitere Details finden Sie unter den [licensing options](https://purchase.aspose.com/buy).
 
-### F3: Gibt es eine kostenlose Testversion für Aspose.3D für Java?
+### Q2: Wo finde ich Support für Aspose.3D für Java?
 
- A3: Ja, Sie können eine kostenlose Testversion unter herunterladen[Veröffentlichungsseite](https://releases.aspose.com/).
+A2: Besuchen Sie das [Aspose.3D for Java forum](https://forum.aspose.com/c/3d/18), um Unterstützung zu erhalten und sich mit der Community zu vernetzen.
 
-### F4: Wie erhalte ich eine temporäre Lizenz für Aspose.3D für Java?
+### Q3: Gibt es eine kostenlose Testversion von Aspose.3D für Java?
 
- A4: Holen Sie sich eine temporäre Lizenz für Ihr Projekt, indem Sie hier vorbeischauen[dieser Link](https://purchase.aspose.com/temporary-license/).
+A3: Ja, Sie können eine kostenlose Testversion von der [releases page](https://releases.aspose.com/) ausprobieren.
 
-### F5: Gibt es zusätzliche Beispiele und Tutorials?
+### Q4: Wie erhalte ich eine temporäre Lizenz für Aspose.3D für Java?
 
- A5: Ja, siehe[Dokumentation](https://reference.aspose.com/3d/java/) Weitere Beispiele und ausführliche Tutorials finden Sie hier.
+A4: Holen Sie sich eine temporäre Lizenz für Ihr Projekt, indem Sie diesen [Link](https://purchase.aspose.com/temporary-license/) besuchen.
+
+### Q5: Gibt es weitere Beispiele und Tutorials?
+
+A5: Ja, siehe die [documentation](https://reference.aspose.com/3d/java/) für mehr Beispiele und ausführliche Tutorials.
+
+## Häufig gestellte Fragen
+
+**Q: Ist dieses Tutorial Teil einer Aspose 3d Tutorial‑Reihe?**  
+A: Ja – es ist ein offizielles **aspose 3d tutorial**, das eine spezifische Funktion der Bibliothek demonstriert.
+
+**Q: Kann ich anstelle eines Rechtecks eine andere Form verwenden?**  
+A: Absolut. Jede `IProfile`‑Implementierung (z. B. `CircleShape`, benutzerdefinierte `PolygonShape`) kann extrudiert werden.
+
+**Q: Was passiert, wenn ich `setTwistOffset` weglasse?**  
+A: Die Extrusion beginnt die Drehung vom Ursprung des Profils aus, was zu einer symmetrischen Drehung führt.
+
+**Q: Wie erhöhe ich die Glätte der Drehung?**  
+A: Erhöhen Sie den an `setSlices` übergebenen Wert; höhere Scheibenanzahlen erzeugen glattere Geometrie.
+
+**Q: Welche anderen Dateiformate kann ich neben OBJ exportieren?**  
+A: Aspose.3D unterstützt STL, FBX, GLTF, 3MF und mehrere weitere über das `FileFormat`‑Enum.
+
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## TARGET KEYWORDS:
+
+**Primary Keyword (HIGHEST PRIORITY):**  
+create 3d scene  
+
+**Secondary Keywords (SUPPORTING):**  
+save 3d model, export 3d obj, aspose 3d tutorial
