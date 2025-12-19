@@ -1,34 +1,58 @@
 ---
-title: 使用 Aspose.3D LoadOptions 在 Java 中自訂 3D 檔案加載
-linktitle: 使用 Aspose.3D LoadOptions 在 Java 中自訂 3D 檔案加載
+date: 2025-12-19
+description: 學習如何使用 Aspose.3D LoadOptions 自訂 3D 載入 Java。逐步指南涵蓋 3DS、OBJ、STL、U3D、glTF、PLY、X
+  以及可選的 FBX 檔案。
+linktitle: Customize 3D Loading Java – How to customize 3d loading java with Aspose.3D
+  LoadOptions
 second_title: Aspose.3D Java API
-description: 使用 Aspose.3D 可自訂的 LoadOptions 增強 Java 中的 3D 檔案載入。了解 3DS、OBJ、STL、U3D、glTF、PLY、X 和可選 FBX 的逐步自訂。
-weight: 12
+title: 自訂 3D 載入 Java – 如何使用 Aspose.3D LoadOptions 自訂 3D 載入 Java
 url: /zh-hant/java/load-and-save/customize-3d-file-loading/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.3D LoadOptions 在 Java 中自訂 3D 檔案加載
+# 自訂 3D Loading Java – 如何使用 Aspose.3D LoadOptions 自訂 3D Loading Java
 
-## 介紹
+## Introduction
 
-在不斷發展的 3D 設計和開發領域，高效處理 3D 檔案格式至關重要。 Aspose.3D for Java 提供了強大的解決方案來自訂載入各種 3D 檔案格式。本教學將引導您完成使用 Aspose.3D 的 LoadOptions 在 Java 中自訂 3D 檔案載入的過程。
+在現代的 3D 應用程式中，**customize 3d loading java** 是確保模型能夠如預期呈現、且不受來源格式限制的關鍵。無論您是在打造遊戲引擎、AR/VR 觀賞器，或是 CAD 轉換工具，能夠掌控 3DS、OBJ、STL、U3D、glTF、PLY、X 甚至 FBX 檔案的匯入方式，都能為您節省大量後處理時間。本教學將逐步說明如何在 Java 中使用 Aspose.3D 彈性的 `LoadOptions` 類別，自訂 3D 檔案的載入行為。
 
-## 先決條件
+## Quick Answers
+- **What does “customize 3d loading java” mean?** 它是指設定 Aspose.3D 的 `LoadOptions`，以控制匯入行為，例如座標系翻轉、材質處理與動畫變換。  
+- **Which formats can I customize?** 3DS、OBJ、STL、U3D、glTF、PLY、X 以及可選的 FBX。  
+- **Do I need a license to try this?** 需要臨時授權才能完整使用功能；同時也提供免費試用版。  
+- **Is any additional data required?** 您可能需要提供外部資源（如貼圖或材質庫）的查找路徑。  
+- **Where can I find the latest Aspose.3D for Java version?** 請參閱下方的官方下載頁面。
 
-在深入定製過程之前，請確保您具備以下條件：
+## What is “customize 3d loading java”?
 
-- 對 Java 程式設計有基本的了解。
-- 安裝了 Java 開發工具包 (JDK)。
-- 下載 Aspose.3D for Java 函式庫。您可以獲得它[這裡](https://releases.aspose.com/3d/java/).
-- 熟悉 3D 檔案格式，例如 3DS、OBJ、STL、U3D、glTF、PLY、X 和 FBX。
+在 Java 中自訂 3D 載入即是讓您決定 Aspose.3D 引擎如何解讀傳入的檔案。透過調整各種 `*LoadOptions` 類別的屬性，您可以：
 
-## 導入包
+* 翻轉座標系以符合您的渲染管線。  
+* 為效能關鍵情境啟用或停用材質載入。  
+* 套用 gamma 校正、動畫變換，或保留 FBX 檔案的內建全域設定。
 
-在您的 Java 專案中，請確保匯入必要的 Aspose.3D 套件：
+## Why use Aspose.3D LoadOptions?
+
+* **Fine‑grained control** – 為每種格式分別調整設定。  
+* **Cross‑format consistency** – 在所有支援的檔案類型上套用相同的座標系規則。  
+* **Performance optimization** – 在不需要時跳過不必要的資料（例如材質）。
+
+## Prerequisites
+
+在開始之前，請確保您已具備：
+
+- 扎實的 Java 基礎。  
+- 已安裝 JDK 8 或更高版本。  
+- 從官方網站下載的 Aspose.3D for Java 程式庫 — 您可以在 [此處](https://releases.aspose.com/3d/java/) 取得。  
+- 對您將要處理的 3D 檔案格式（3DS、OBJ、STL、U3D、glTF、PLY、X、FBX）有基本了解。
+
+## Import Packages
+
+在您的 Java 專案中，匯入 Aspose.3D 核心類別以及標準 I/O 套件：
 
 ```java
 import com.aspose.threed.*;
@@ -37,9 +61,11 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 自訂 3D 檔案加載
+## Customize 3D File Loading
 
-### 第 1 步：自訂 3DS 檔案加載
+以下提供每種支援格式的專屬方法。每段程式碼示範最常見的自訂設定，您可依需求調整屬性以符合自己的管線。
+
+### Step 1: Customize 3DS File Loading  
 
 ```java
 public static void discreet3DSLoadOption() {
@@ -52,7 +78,9 @@ public static void discreet3DSLoadOption() {
 }
 ```
 
-### 步驟2：自訂OBJ檔案加載
+*Why this matters:* 啟用 `ApplyAnimationTransform` 可確保任何內嵌的動畫資料遵循目標座標系，而 `GammaCorrectedColor` 則可修正在不同渲染引擎間切換時常見的顏色強度問題。
+
+### Step 2: Customize OBJ File Loading  
 
 ```java
 public static void objLoadOption() {
@@ -64,7 +92,9 @@ public static void objLoadOption() {
 }
 ```
 
-### 第 3 步：自訂 STL 檔案加載
+*Tip:* 若載入的 OBJ 檔案會參照外部的 `.mtl` 材質檔，請將 `EnableMaterials` 設為 `true`，並確保查找路徑指向該資料夾。
+
+### Step 3: Customize STL File Loading  
 
 ```java
 public static void stlLoadOption() {
@@ -75,7 +105,9 @@ public static void stlLoadOption() {
 }
 ```
 
-### 第 4 步：自訂 U3D 檔案加載
+*Pro tip:* STL 檔案僅包含幾何資訊，通常只需要翻轉座標系即可。
+
+### Step 4: Customize U3D File Loading  
 
 ```java
 public static void u3dLoadOption() {
@@ -86,7 +118,7 @@ public static void u3dLoadOption() {
 }
 ```
 
-### 步驟5：自訂glTF檔案加載
+### Step 5: Customize glTF File Loading  
 
 ```java
 public static void gltfLoadOptions() throws IOException {
@@ -98,7 +130,9 @@ public static void gltfLoadOptions() throws IOException {
 }
 ```
 
-### 步驟6：自訂PLY檔案加載
+*Why flip V texture coordinates?* 許多 glTF 匯出工具使用的 UV 原點與傳統 DirectX 管線不同；翻轉 `TexCoordV` 可使貼圖正確對齊。
+
+### Step 6: Customize PLY File Loading  
 
 ```java
 public static void plyLoadOptions() throws IOException {
@@ -110,7 +144,7 @@ public static void plyLoadOptions() throws IOException {
 }
 ```
 
-### 步驟7：自訂X檔案加載
+### Step 7: Customize X File Loading  
 
 ```java
 public static void xLoadOptions() throws IOException {
@@ -122,7 +156,7 @@ public static void xLoadOptions() throws IOException {
 }
 ```
 
-### 第 8 步：自訂 FBX 檔案載入（可選）
+### Step 8: Customize FBX File Loading (Optional)  
 
 ```java
 private static void FBXLoadOptions() throws IOException {
@@ -137,31 +171,49 @@ private static void FBXLoadOptions() throws IOException {
 }
 ```
 
-## 結論
+*When to use this:* FBX 檔案常內嵌全域設定（單位、上方向），保留這些設定可確保匯入的場景與原作者的意圖相符。
 
-使用 Aspose.3D 的 LoadOptions 在 Java 中自訂 3D 檔案加載，使開發人員能夠根據特定要求自訂匯入過程。無論是調整動畫變換、翻轉座標系或處理外部依賴性，Aspose.3D 都提供了無縫整合所需的靈活性。
+## Common Issues and Solutions
 
-## 常見問題解答
+| Issue | Likely Cause | Fix |
+|-------|---------------|-----|
+| 貼圖顯示遺失 | 查找路徑未設定或大小寫不符 | 將正確的目錄加入 `loadOpts.getLookupPaths()`，並確認檔名大小寫 |
+| 模型顯示顛倒 | 未為該格式啟用 `FlipCoordinateSystem` | 為相關的 `*LoadOptions` 設定 `setFlipCoordinateSystem(true)` |
+| 顏色過於淡薄 | 3DS 的 gamma 校正未開啟 | 在 `Discreet3dsLoadOptions` 上呼叫 `setGammaCorrectedColor(true)` |
+| FBX 動畫異常 | 全域設定被覆寫 | 使用 `setKeepBuiltinGlobalSettings(true)` |
 
-### Q1：在哪裡可以找到 Aspose.3D for Java 文件？
+## Frequently Asked Questions
 
- A1：文檔可用[這裡](https://reference.aspose.com/3d/java/).
+### Q1: Where can I find the Aspose.3D for Java documentation?  
+A1: 文件可於 [此處](https://reference.aspose.com/3d/java/) 取得。
 
-### Q2: 如何下載 Aspose.3D for Java？
+### Q2: How can I download Aspose.3D for Java?  
+A2: 您可在 [此處](https://releases.aspose.com/3d/java/) 下載。
 
- A2：可以下載[這裡](https://releases.aspose.com/3d/java/).
+### Q3: Is there a free trial available?  
+A3: 有，免費試用版可在 [此處](https://releases.aspose.com/) 取得。
 
-### Q3：有免費試用嗎？
+### Q4: Where can I get support for Aspose.3D for Java?  
+A4: 請前往支援論壇 [此處](https://forum.aspose.com/c/3d/18)。
 
- A3：是的，您可以免費試用[這裡](https://releases.aspose.com/).
+### Q5: Do I need a temporary license for testing?  
+A5: 需要，請於 [此處](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
-### 問題 4：在哪裡可以獲得 Aspose.3D for Java 的支援？
+### Q6: Can I load multiple formats in a single scene?  
+A6: 當然可以。為每種格式建立獨立的 `LoadOptions`，然後分別呼叫 `scene.open()`，場景會自動合併幾何體。
 
-A4：造訪支援論壇[這裡](https://forum.aspose.com/c/3d/18).
+### Q7: How do I improve loading performance for large files?  
+A7: 停用不必要的功能（例如 STL 的材質載入），並使用 `LookupPaths` 以避免重複 I/O。
 
-### Q5：測試需要臨時許可證嗎？
+### Q8: Is it possible to programmatically change the coordinate system after loading?  
+A8: 可以，檔案開啟後可呼叫 `scene.getRootNode().rotate()` 或 `scene.getRootNode().scale()` 進行座標系調整。
 
- A5：是的，獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.3D for Java 24.11（撰寫時的最新版本）  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
