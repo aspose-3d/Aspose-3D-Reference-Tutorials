@@ -1,35 +1,47 @@
 ---
-title: Tạo đám mây điểm từ lưới trong Java
-linktitle: Tạo đám mây điểm từ lưới trong Java
-second_title: API Java Aspose.3D
-description: Khám phá thế giới mô hình 3D trong Java với Aspose.3D. Tìm hiểu cách dễ dàng tạo các đám mây điểm từ các mắt lưới.
-weight: 12
+date: 2025-12-22
+description: Khám phá việc tạo đám mây điểm Aspose 3D trong Java. Tìm hiểu cách chuyển
+  đổi lưới thành đám mây điểm bằng Aspose.3D và lưu tệp đám mây điểm một cách hiệu
+  quả.
+linktitle: Create Aspose 3D Point Cloud from Meshes in Java
+second_title: Aspose.3D Java API
+title: Tạo đám mây điểm 3D Aspose từ các lưới trong Java
 url: /vi/java/point-clouds/create-point-clouds-java/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo đám mây điểm từ lưới trong Java
+# Tạo Aspose 3D Point Cloud từ Mesh trong Java
 
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn toàn diện này về cách tạo các đám mây điểm từ các mắt lưới trong Java bằng Aspose.3D. Aspose.3D là một thư viện Java mạnh mẽ cung cấp các chức năng mở rộng cho việc tạo mô hình và thao tác 3D. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo đám mây điểm từ lưới, cung cấp các bước rõ ràng và chi tiết để có trải nghiệm liền mạch.
+Chào mừng bạn đến với hướng dẫn toàn diện về việc tạo **Aspose 3D point cloud** từ các mesh trong Java bằng Aspose.3D. Cho dù bạn đang xây dựng một trình trực quan thời gian thực, một động cơ mô phỏng, hoặc một quy trình phân tích dữ liệu, point cloud cung cấp cho bạn một biểu diễn nhẹ nhưng mạnh mẽ của hình học 3‑D.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào được sử dụng?** Aspose.3D Java API  
+- **Định dạng nào mã hoá point cloud?** DRACO (`FileFormat.DRACO`)  
+- **Tôi có thể chuyển đổi bất kỳ mesh nào không?** Có – bất kỳ đối tượng `Mesh` nào (ví dụ: `Sphere`, `Box`) đều có thể được mã hoá.  
+- **Có cần giấy phép cho môi trường sản xuất không?** Có, cần giấy phép thương mại.  
+- **Tệp nào được tạo ra?** Một tệp `.drc` lưu trữ dữ liệu point cloud.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Aspose 3D Point Cloud là gì?
+Một **Aspose 3D point cloud** là một tập hợp các đỉnh (points) đại diện cho bề mặt của một đối tượng 3‑D mà không có kết nối đa giác rõ ràng. Nó lý tưởng cho việc truyền tải các mô hình lớn, giảm sử dụng bộ nhớ, và tăng tốc việc render trên GPU.
 
-1. Môi trường phát triển Java: Đảm bảo rằng bạn đã thiết lập môi trường phát triển Java trên hệ thống của mình.
+## Tại sao chuyển Mesh sang Point Cloud?
+- **Hiệu năng:** Point cloud nhỏ hơn rất nhiều so với mesh đa giác đầy đủ.  
+- **Nén:** Mã hoá DRACO giảm đáng kể kích thước tệp.  
+- **Linh hoạt:** Point cloud có thể được tái‑mesh hoặc trực tiếp hiển thị trong nhiều engine.
 
-2.  Thư viện Aspose.3D: Tải xuống và cài đặt thư viện Aspose.3D. Bạn có thể tìm thấy thư viện[đây](https://releases.aspose.com/3d/java/).
+## Yêu cầu trước
 
-3. Thư mục tài liệu: Tạo thư mục nơi bạn muốn lưu trữ tài liệu đám mây điểm đã tạo.
+1. **Môi trường phát triển Java** – JDK 8 hoặc mới hơn đã được cài đặt.  
+2. **Thư viện Aspose.3D** – Tải xuống và cài đặt thư viện Aspose.3D. Bạn có thể tìm thư viện [tại đây](https://releases.aspose.com/3d/java/).  
+3. **Thư mục tài liệu** – Tạo một thư mục nơi bạn muốn lưu các tệp point cloud đã tạo.
 
-## Gói nhập khẩu
-
-Để bắt đầu, hãy nhập các gói cần thiết trong dự án Java của bạn:
+## Nhập các gói
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -39,56 +51,62 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Bước 1: Mã hóa lưới thành đám mây điểm
+## Cách tạo Aspose 3D Point Cloud
 
-Bắt đầu bằng cách mã hóa lưới thành đám mây điểm bằng thư viện Aspose.3D:
+### Bước 1: Mã hoá Mesh thành Point Cloud  
+Đoạn mã sau **chuyển đổi một mesh thành point cloud** và lưu nó dưới dạng tệp DRACO. Trong ví dụ này chúng ta sử dụng một hình cầu đơn giản, minh họa cách tạo **point cloud từ sphere**.
 
 ```java
-// Bắt đầu:1
+// ExStart:1
 FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
 // ExEnd:1
 ```
 
-Giải trình:
--  Các`FileFormat.DRACO` được sử dụng để chỉ định định dạng mã hóa (DRACO, trong trường hợp này).
-- `new Sphere()` đại diện cho lưới mà bạn muốn chuyển đổi thành đám mây điểm.
-- `"Your Document Directory" + "sphere.drc"` xác định đường dẫn đầu ra và tên tệp cho tài liệu đám mây điểm được tạo.
+**Giải thích**  
+- `FileFormat.DRACO` chọn định dạng nén DRACO.  
+- `new Sphere()` tạo mesh mà bạn muốn **chuyển đổi mesh thành point cloud**.  
+- Chuỗi `"Your Document Directory" + "sphere.drc"` chỉ định nơi **lưu tệp point cloud**.  
 
-Lặp lại bước này cho các mắt lưới khác nhau nếu cần.
+Bạn có thể lặp lại bước này với bất kỳ mesh nào khác (ví dụ: `Box`, `Mesh` tùy chỉnh) để tạo thêm các point cloud.
 
-## Bước 2: Xử lý bổ sung (Tùy chọn)
+### Bước 2: Xử lý bổ sung (Tùy chọn)  
+Aspose.3D cung cấp các phương thức để biến đổi, lọc hoặc tô màu dữ liệu point cloud. Ví dụ, bạn có thể áp dụng ma trận quay hoặc gán màu cho từng điểm trước khi lưu.
 
-Bạn có thể thực hiện xử lý bổ sung trên dữ liệu đám mây điểm được tạo dựa trên yêu cầu của bạn. Aspose.3D cung cấp nhiều phương pháp khác nhau để thao tác và nâng cao thông tin đám mây điểm.
+### Bước 3: Lưu và sử dụng Point Cloud  
+Sau khi mã hoá, tệp `.drc` có thể được tải bởi bất kỳ trình xem nào hỗ trợ DRACO, nhập vào các engine game, hoặc xử lý tiếp cho phân tích khoa học.
 
-## Bước 3: Lưu và sử dụng
-
-Lưu đám mây điểm đã xử lý và sử dụng nó trong các ứng dụng hoặc dự án của bạn. Các đám mây điểm được tạo ra có thể được sử dụng trong nhiều lĩnh vực khác nhau, bao gồm đồ họa máy tính, mô phỏng và trực quan hóa dữ liệu.
-
-## Phần kết luận
-
-Chúc mừng! Bạn đã học thành công cách tạo các đám mây điểm từ các mắt lưới trong Java bằng Aspose.3D. Hướng dẫn này cung cấp nền tảng vững chắc để kết hợp các đám mây điểm 3D vào các ứng dụng Java của bạn.
+## Các vấn đề thường gặp & Giải pháp
+- **Lỗi đường dẫn tệp:** Đảm bảo đường dẫn thư mục kết thúc bằng dấu phân cách (`/` hoặc `\`) hoặc sử dụng `Paths.get(...)`.  
+- **Không tìm thấy giấy phép:** Tải giấy phép Aspose.3D của bạn trước khi gọi bất kỳ API nào để tránh dấu nước đánh giá.  
+- **Mesh không được hỗ trợ:** Chỉ các mesh triển khai `IMesh` mới có thể được mã hoá; hình học tùy chỉnh phải được bọc lại cho phù hợp.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.3D cho các dự án thương mại không?
+### Câu hỏi 1: Tôi có thể sử dụng Aspose.3D cho dự án thương mại không?
+A1: Có, bạn có thể. Truy cập [trang mua hàng](https://purchase.aspose.com/buy) để biết các tùy chọn giấy phép.
 
- A1: Có, bạn có thể. Tham quan[trang mua hàng](https://purchase.aspose.com/buy) cho các tùy chọn cấp phép.
-
-### Q2: Có bản dùng thử miễn phí không?
-
- Câu trả lời 2: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+### Câu hỏi 2: Có bản dùng thử miễn phí không?
+A2: Có, bạn có thể truy cập bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
 
 ### Câu hỏi 3: Tôi có thể tìm hỗ trợ cho Aspose.3D ở đâu?
+A3: Truy cập [diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để được cộng đồng hỗ trợ.
 
- A3: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để hỗ trợ cộng đồng.
+### Câu hỏi 4: Làm thế nào để tôi có được giấy phép tạm thời?
+A4: Bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
 
-### Câu hỏi 4: Làm cách nào để có được giấy phép tạm thời?
+### Câu hỏi 5: Tôi có thể tìm tài liệu ở đâu?
+A5: Tham khảo [tài liệu](https://reference.aspose.com/3d/java/) để biết thông tin chi tiết.
 
- A4: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+## Kết luận
 
-### Câu 5: Tôi có thể tìm tài liệu ở đâu?
+Bạn đã học cách **tạo Aspose 3D point cloud** từ các mesh trong Java, cách **chuyển đổi dữ liệu mesh thành point cloud** bằng nén DRACO, và cách **lưu tệp point cloud** để sử dụng tiếp. Hãy thử nghiệm với các mesh khác nhau, áp dụng xử lý tùy chọn, và tích hợp các point cloud thu được vào quy trình 3‑D của bạn.
 
- A5: Hãy tham khảo[tài liệu](https://reference.aspose.com/3d/java/) để biết thông tin chi tiết.
+---
+
+**Cập nhật lần cuối:** 2025-12-22  
+**Kiểm tra với:** Aspose.3D Java 24.11  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

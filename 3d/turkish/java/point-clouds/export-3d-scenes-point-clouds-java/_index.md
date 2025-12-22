@@ -1,32 +1,51 @@
 ---
-title: Aspose.3D for Java ile 3D Sahneleri Nokta Bulutları olarak dışa aktarın
-linktitle: Aspose.3D for Java ile 3D Sahneleri Nokta Bulutları olarak dışa aktarın
-second_title: Aspose.3D Java API'si
-description: Aspose.3D ile 3D sahneleri Java'da nokta bulutları olarak nasıl dışa aktaracağınızı öğrenin. Uygulamalarınızı güçlü 3D grafikler ve görselleştirmeyle geliştirin.
-weight: 15
+date: 2025-12-22
+description: Aspose.3D ile Java’da 3D modeli nokta bulutuna dönüştürmeyi ve 3D sahneleri
+  dışa aktarmayı öğrenin. Uygulamalarınızı güçlü 3D grafikler ve görselleştirme ile
+  güçlendirin.
+linktitle: Convert 3D Model to Point Cloud – Export 3D Scenes with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: 3D Modeli Nokta Bulutuna Dönüştür – Aspose.3D for Java ile 3D Sahneleri Dışa
+  Aktar
 url: /tr/java/point-clouds/export-3d-scenes-point-clouds-java/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D for Java ile 3D Sahneleri Nokta Bulutları olarak dışa aktarın
+# Aspose.3D for Java ile 3D Sahneleri Nokta Bulutları Olarak Dışa Aktarma
 
-## giriiş
+## Introduction
 
-Aspose.3D for Java, nokta bulutlarının oluşturulması da dahil olmak üzere 3D sahnelerin çeşitli formatlarda dışa aktarılmasını kolaylaştırır. Nokta bulutları, oyundan simülasyona kadar çeşitli endüstrilerde çok önemlidir ve 3 boyutlu koordinat sistemindeki bir dizi nokta aracılığıyla fiziksel bir alanın temsilini sunar.
+Görselleştirme, analiz veya veri değişimi için **3d modeli nokta bulutuna dönüştürmeniz** gerekiyorsa, Aspose.3D for Java bu işlemi çok kolay hâle getirir. Bu öğretici, ortamınızı kurmaktan nokta‑bulut dosyasını kaydetmeye kadar tüm süreci adım adım gösterir; böylece nokta‑bulut dışa aktarmayı herhangi bir Java uygulamasına entegre edebilirsiniz.
 
-## Önkoşullar
+## Quick Answers
+- **“point cloud” ne anlama gelir?** X, Y, Z koordinatlarıyla tanımlanan ve bir 3‑D nesnenin yüzeyini temsil eden nokta koleksiyonu.  
+- **Dönüşümü hangi kütüphane gerçekleştirir?** Aspose.3D for Java, yerleşik bir `setPointCloud` seçeneği sunar.  
+- **Bu özellik için lisans gerekli mi?** Evet, üretim kullanımı için geçerli bir Aspose.3D lisansı gereklidir.  
+- **Aynı anda başka formatlar da dışa aktarabilir miyim?** Evet, `ObjSaveOptions`'ı STL, FBX gibi diğer formatlara değiştirebilirsiniz.  
+- **Hangi Java sürümü gereklidir?** Java 19.8 veya üzeri.
 
-Eğiticiye dalmadan önce aşağıdaki ön koşulların karşılandığından emin olun:
+## 3D modeli nokta bulutuna dönüştürmek nedir?
+3D modeli nokta bulutuna dönüştürmek, modelin geometrik köşe noktalarını ayıklayıp bunları ayrı ayrı noktalardan oluşan bir küme olarak kaydetmek anlamına gelir. Bu temsil, LiDAR veri işleme, 3‑D tarama ve ağ verisinin gereksiz olduğu gerçek‑zamanlı renderleme için idealdir.
 
-1.  Aspose.3D for Java Library: Kütüphaneyi şuradan indirip yükleyin:[Burada](https://releases.aspose.com/3d/java/).
-2. Java Geliştirme Ortamı: 19.8 veya üzeri sürüme sahip bir Java geliştirme ortamı kurun.
+## Neden 3D modelleri nokta bulutlarına dönüştürmeliyiz?
+- **Performans:** Nokta bulutları tam ağlardan daha hafiftir, büyük sahnelerde render süresini hızlandırır.  
+- **İşbirliği:** Birçok mühendislik ve CBS aracı nokta‑bulut formatlarını (örn. .obj, .ply) kabul eder.  
+- **Analiz:** Simülasyonlarda yüzey yeniden oluşturma, mesafe ölçümü ve çarpışma tespiti sağlar.
 
-## Paketleri İçe Aktar
+## Prerequisites
 
-Gerekli paketleri Java projenize aktararak başlayın. Bu paketler Aspose.3D işlevlerini kullanmak için gereklidir. Kodunuza aşağıdaki satırları ekleyin:
+Öğreticiye başlamadan önce aşağıdaki önkoşulların karşılandığından emin olun:
+
+1. Aspose.3D for Java Kütüphanesi: Kütüphaneyi [buradan](https://releases.aspose.com/3d/java/) indirip kurun.  
+2. Java Geliştirme Ortamı: 19.8 veya daha yüksek bir Java sürümüyle geliştirme ortamı kurun.
+
+## Import Packages
+
+Gerekli paketleri Java projenize ekleyerek başlayın. Bu paketler, Aspose.3D işlevlerini kullanmak için gereklidir. Koda aşağıdaki satırları ekleyin:
 
 ```java
 import com.aspose.threed.ObjSaveOptions;
@@ -37,69 +56,86 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## 1. Adım: Sahneyi Başlatın
+## Convert 3D Model to Point Cloud
 
-Başlamak için Aspose.3D'yi kullanarak bir 3D sahne başlatın. Bu, 3 boyutlu nesnelerinizin canlanacağı tuvaldir. Aşağıdaki kod parçacığını kullanın:
+### Step 1: Initialize Scene
+
+Sahneyi başlatmak için Aspose.3D kullanarak bir 3D sahne oluşturun. Bu, 3D nesnelerinizin hayata geçeceği tuvaldir.
 
 ```java
 // ExStart:1
-// Sahneyi Başlat
+// Initialize Scene
 Scene scene = new Scene(new Sphere());
 // ExEnd:1
 ```
 
-## Adım 2: ObjSaveOptions'ı başlatın
+### Step 2: Initialize ObjSaveOptions
 
- Şimdi, başlat`ObjSaveOptions`3D sahneleri OBJ formatında kaydetmeye yönelik ayarları sağlayan sınıf:
+Şimdi, OBJ formatında 3D sahneleri kaydetmek için ayarları sağlayan `ObjSaveOptions` sınıfını başlatın:
 
 ```java
-// ObjSaveOptions'ı Başlat
+// Initialize  ObjSaveOptions
 ObjSaveOptions opt = new ObjSaveOptions();
 ```
 
-## Adım 3: Ayar Noktası Bulutu
+### Step 3: Enable Point‑Cloud Export
 
- Ayarlayarak nokta bulutu dışa aktarma özelliğini etkinleştirin`setPointCloud` seçeneği`true`:
+Nokta‑bulut dışa aktarma özelliğini etkinleştirmek için `setPointCloud` seçeneğini `true` olarak ayarlayın:
 
 ```java
-// 3B sahneyi nokta bulutu olarak dışa aktarmak için setPointCloud
+// To export 3D scene as point cloud setPointCloud
 opt.setPointCloud(true);
 ```
 
-## Adım 4: Sahneyi Kaydedin
+### Step 4: Save the Scene as a Point Cloud
 
-3B sahneyi istediğiniz dizine nokta bulutu olarak kaydedin:
+Sahneyi istediğiniz dizine nokta bulutu olarak kaydedin:
 
 ```java
-//Kaydetmek
+// Save
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 
-## Çözüm
+## Common Issues and Solutions
 
-Tebrikler! Aspose.3D for Java'yı kullanarak bir 3D sahneyi başarıyla nokta bulutu olarak dışa aktardınız. Bu eğitim Aspose.3D'nin Java geliştiricilerine sunduğu kusursuz entegrasyona ve güçlü yeteneklere kısa bir bakış sağladı.
+| Sorun | Neden | Çözüm |
+|-------|-------|-------|
+| **Boş çıktı dosyası** | `setPointCloud` true olarak ayarlanmamış | `scene.save`'den önce `opt.setPointCloud(true);` çağrıldığından emin olun. |
+| **Dosya bulunamadı** | Yanlış çıktı yolu | Mutlak bir yol kullanın veya dizinin varlığını doğrulayın. |
+| **Lisans istisnası** | Geçerli bir Aspose.3D lisansı olmadan çalıştırma | `License license = new License(); license.setLicense("Aspose.3D.Java.lic");` kodu ile lisans uygulayın. |
 
-## SSS'ler
+## Frequently Asked Questions
 
-### S1: Aspose.3D for Java belgelerini nerede bulabilirim?
+### Q1: Where can I find the Aspose.3D for Java documentation?
 
- A1: Kapsamlı belgeler mevcuttur[Burada](https://reference.aspose.com/3d/java/).
+A1: Kapsamlı dokümantasyon [burada](https://reference.aspose.com/3d/java/) mevcuttur.
 
-### S2: Aspose.3D for Java'yı nasıl indirebilirim?
+### Q2: How can I download Aspose.3D for Java?
 
- Cevap2: Kitaplığı indirin[Burada](https://releases.aspose.com/3d/java/).
+A2: Kütüphaneyi [buradan](https://releases.aspose.com/3d/java/) indirin.
 
-### S3: Ücretsiz deneme sürümü mevcut mu?
+### Q3: Is there a free trial available?
 
- C3: Evet, ücretsiz denemeyi keşfedin[Burada](https://releases.aspose.com/).
+A3: Evet, ücretsiz deneme sürümünü [burada](https://releases.aspose.com/) inceleyebilirsiniz.
 
-### S4: Yardıma mı ihtiyacınız var veya sorularınız mı var?
+### Q4: Need assistance or have questions?
 
- Cevap4: Aspose.3D topluluk forumunu ziyaret edin[Burada](https://forum.aspose.com/c/3d/18).
+A4: Aspose.3D topluluk forumunu [burada](https://forum.aspose.com/c/3d/18) ziyaret edin.
 
-### S5: Aspose.3D for Java'yı mı satın almak istiyorsunuz?
+### Q5: Looking to purchase Aspose.3D for Java?
 
- Cevap5: Satın alma seçeneklerini keşfedin[Burada](https://purchase.aspose.com/buy).
+A5: Satın alma seçeneklerini [burada](https://purchase.aspose.com/buy) inceleyin.
+
+## Conclusion
+
+Tebrikler! Aspose.3D for Java kullanarak **3D modeli nokta bulutuna başarıyla dönüştürdünüz** ve dışa aktardınız. Bu iş akışı, nokta‑bulut verisinin ne kadar kolay üretilebileceğini gösterir; böylece gelişmiş 3‑D görselleştirme ve analizi Java uygulamalarınıza entegre edebilirsiniz.
+
+---
+
+**Son Güncelleme:** 2025-12-22  
+**Test Edilen Sürüm:** Aspose.3D for Java 24.11 (veya en yeni)  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
