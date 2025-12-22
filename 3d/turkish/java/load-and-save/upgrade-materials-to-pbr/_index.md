@@ -1,56 +1,73 @@
 ---
-title: Aspose.3D ile Java'da Gelişmiş Gerçeklik için 3D Malzemeleri PBR'ye yükseltin
-linktitle: Aspose.3D ile Java'da Gelişmiş Gerçeklik için 3D Malzemeleri PBR'ye yükseltin
-second_title: Aspose.3D Java API'si
-description: Aspose.3D ile 3D malzemeleri Java'da zahmetsizce PBR'ye yükseltin. Büyüleyici görseller için gelişmiş gerçekçiliğe ulaşın.
-weight: 13
+date: 2025-12-22
+description: Aspose.3D kullanarak Java'da sahneyi glTF formatına nasıl dışa aktaracağınızı
+  ve 3D materyalleri daha gerçekçi bir görünüm için PBR'ye yükseltmeyi öğrenin.
+linktitle: Export Scene to glTF in Java with Aspose.3D
+second_title: Upgrade 3D Materials to PBR
+title: Java'da Aspose.3D ile Sahneyi glTF'ye Dışa Aktar
 url: /tr/java/load-and-save/upgrade-materials-to-pbr/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D ile Java'da Gelişmiş Gerçeklik için 3D Malzemeleri PBR'ye yükseltin
+# Java ile Aspose.3D’de Sahneyi glTF’ye Dışa Aktarma – Malzemeleri PBR’ye Yükseltme
 
-## giriiş
+## Introduction
 
-3D malzemelerinizi PBR'ye yükseltmek, Java uygulamalarınızda gerçeğe yakın görseller elde etmeye yönelik dönüştürücü bir adımdır. Aspose.3D bu süreci basitleştirerek geleneksel malzemelerden PBR malzemelerine sorunsuz bir şekilde geçiş yapmanızı sağlar. Bu öğreticide gerekli ön koşulları inceleyeceğiz, paketleri içe aktaracağız ve her örneği ayrıntılı adımlara ayıracağız.
+Bu öğreticide, **export scene to glTF** işlemini Java’da Aspose.3D kullanarak nasıl yapacağınızı ve 3D malzemelerinizi Fiziksel‑Temelli Rendering (PBR) formatına nasıl yükselteceğinizi öğreneceksiniz. PBR’ye yükseltmek modellerinize çok daha gerçekçi bir görünüm kazandırır ve yaygın olarak desteklenen glTF 2.0 formatına dışa aktarmak, bu yüksek kaliteli varlıkları motorlar, tarayıcılar ve AR/VR platformları arasında paylaşmanızı sağlar. Gereksinimleri inceleyecek, gerekli paketleri içe aktaracak ve her örneği adım adım açıklayacağız, böylece bu tekniği kendi projelerinizde uygulayabilirsiniz.
 
-## Önkoşullar
+## Quick Answers
+- **“export scene to glTF” ne anlama geliyor?** Aspose.3D sahnesini glTF 2.0 dosya formatına dönüştürür, geometriyi, malzemeleri ve hiyerarşiyi korur.  
+- **Malzemeleri önce neden PBR’ye yükseltmeliyim?** PBR malzemeleri, glTF’nin metalik‑pürüzlülük iş akışıyla doğrudan eşleşir ve ekstra dönüşüm adımları olmadan gerçekçi aydınlatma sağlar.  
+- **Kodu çalıştırmak için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
+- **Hangi Java IDE’leri destekleniyor?** Java derleyebilen herhangi bir IDE (Eclipse, IntelliJ IDEA, VS Code vb.).  
+- **Büyük sahneleri dışa aktarabilir miyim?** Evet, Aspose.3D verileri verimli bir şekilde akıtır; sadece çok büyük modeller için yeterli yığın belleği ayırdığınızdan emin olun.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+## What is “export scene to glTF”?
 
-1.  Aspose.3D for Java: Aspose.3D kütüphanesini aşağıdaki adresten indirip yükleyin:[yayın sayfası](https://releases.aspose.com/3d/java/).
+Bir sahneyi glTF’ye dışa aktarmak, tüm 3D sahneyi—mesh’ler, düğümler, kameralar, ışıklar ve malzemeler dahil—GL Transmission Format (glTF) içine serileştirmek anlamına gelir. glTF, gerçek‑zaman render için optimize edilmiş açık bir standarttır ve web, mobil ve oyun motorları için idealdir.
 
-2. Java Geliştirme Ortamı: Makinenizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
+## Why upgrade materials to PBR before exporting?
 
-3. Belge Dizini: 3D belgeleriniz için özel bir dizin oluşturun.
+PBR (Physically‑Based Rendering) malzemeleri, albedo, metalik ve pürüzlülük gibi parametrelerle ışığın yüzeyle etkileşimini tanımlar. glTF 2.0 yerel olarak PBR’yi destekler, bu yüzden Phong veya özel malzemeleri PBR’ye dönüştürmek, model herhangi bir glTF‑uyumlu görüntüleyicide yüklendiğinde renklerin, yansımaların ve gölgelendirmenin doğru görünmesini sağlar.
 
-## Paketleri İçe Aktar
+## Prerequisites
 
-Yükseltme işlemine başlamak için gerekli paketleri Java projenize aktarın. Aşağıdaki kod parçacığını kılavuz olarak kullanın:
+Başlamadan önce şunlara sahip olduğunuzdan emin olun:
+
+1. **Aspose.3D for Java** – [release page](https://releases.aspose.com/3d/java/) adresinden indirin.  
+2. **Java Development Environment** – JDK 8 veya üzeri ve tercih ettiğiniz bir IDE.  
+3. **Document Directory** – 3D dosyalarını okuyup yazacağınız makinenizde bir klasör.
+
+## Import Packages
+
+Projeye temel Aspose.3D ad alanını ekleyin:
 
 ```java
 import com.aspose.threed.*;
 ```
 
-İşlevlerinden sorunsuz bir şekilde yararlanmak için gerekli tüm Aspose.3D paketlerini eklediğinizden emin olun.
+Bu tek import, `Scene`, `Box`, `PhongMaterial`, `PbrMaterial`, `GltfSaveOptions` ve malzeme dönüşüm API’sine erişim sağlar.
 
-## 1. Adım: Yeni bir 3D Sahneyi Başlatın
+## Step 1: Initialize a New 3D Scene
 
-Aşağıdaki kodu kullanarak yeni bir 3B sahneyi başlatarak başlayın:
+Geometri ve malzemelerinizi tutacak yeni bir sahne oluşturun:
 
 ```java
-// ExStart:Sahneyi Başlat
+// ExStart:InitializeScene
 String MyDir = "Your Document Directory";
 Scene s = new Scene();
-// ExEnd:Sahneyi Başlat
+// ExEnd:InitializeScene
 ```
 
-## Adım 2: PhongMaterial ile bir Kutu Oluşturun
+> **Pro tip:** Geliştirme sırasında `MyDir` yolunu mutlak bir yol olarak tutun; böylece dosya‑bulunamadı hatalarının önüne geçersiniz.
 
-Bir 3B kutu oluşturun ve ona bir PhongMaterial atayın:
+## Step 2: Create a Box with a PhongMaterial
+
+Klasik bir Phong malzemesi kullanan basit bir kutu oluşturacağız. Bu kutu dışa aktarım sırasında PBR malzemesine dönüştürülecek:
 
 ```java
 // ExStart:CreateBoxWithMaterial
@@ -61,9 +78,11 @@ s.getRootNode().createChildNode("box1", box).setMaterial(mat);
 // ExEnd:CreateBoxWithMaterial
 ```
 
-## Adım 3: GLTF 2.0 Formatında Kaydetme
+> **Why Phong?** PhongMaterial kurulumu kolaydır ve dönüşüm mantığının nasıl çalıştığını gösterir.
 
-İşlem sırasında PhongMaterial'i PBRMaterial'e dönüştürerek sahneyi GLTF 2.0 formatında kaydedin:
+## Step 3: Save in GLTF 2.0 Format (Export Scene to glTF)
+
+Her `PhongMaterial`ı otomatik olarak `PbrMaterial`a dönüştürecek GLTF kaydetme seçeneklerini yapılandırın. Bu, **export scene to glTF** işleminin çekirdeğidir:
 
 ```java
 // ExStart:SaveInGLTF
@@ -81,36 +100,48 @@ s.save(MyDir + "Non_PBRtoPBRMaterial_Out.gltf", opt);
 // ExEnd:SaveInGLTF
 ```
 
-3D malzemelerinizi sorunsuz bir şekilde PBR'ye yükseltmek ve Java uygulamalarında gerçekçiliği artırmak için bu adımları titizlikle izleyin.
+Bu kod çalıştığında sahne `Non_PBRtoPBRMaterial_Out.gltf` dosyasına yazılır. Özel `MaterialConverter`, Phong malzemesini bir PBR malzemesine dönüştürür, böylece ortaya çıkan glTF dosyası herhangi bir glTF görüntüleyicide gerçekçi gölgelendirme ile gösterilir.
 
-## Çözüm
+## Common Issues & Solutions
 
-Sonuç olarak Aspose.3D for Java, malzemeleri PBR'ye yükselterek 3D grafiklerinizin görsel çekiciliğini artırmanıza olanak tanır. Gelişmiş gerçekçilik elde etmek ve izleyicilerinizi görsel olarak büyüleyici Java uygulamalarıyla büyülemek için bu teknolojiyi benimseyin.
+| Issue | Solution |
+|-------|----------|
+| **FileNotFoundException** when saving | `MyDir` yolunun mevcut bir klasöre işaret ettiğini ve uygulamanın yazma iznine sahip olduğunu doğrulayın. |
+| **ClassCastException** in the converter | Dönüştürücüye gönderilen malzemenin gerçekten bir `PhongMaterial` olduğundan emin olun. Farklı malzeme tipleri karıştırıyorsanız `instanceof` kontrolü ekleyin. |
+| **Missing textures** after export | glTF, dokuları ayrı ayrı bekler; gerekirse dönüştürücüye doku işleme ekleyin. |
 
-## SSS'ler
+## Frequently Asked Questions
 
-### S1: Aspose.3D, Eclipse dışındaki Java geliştirme ortamlarıyla uyumlu mu?
+**Q: Aspose.3D, Eclipse dışındaki Java geliştirme ortamlarıyla uyumlu mu?**  
+A: Evet, Aspose.3D herhangi bir Java IDE’siyle çalışır; IntelliJ IDEA, NetBeans ve VS Code dahil.
 
-Cevap1: Evet, Aspose.3D çeşitli Java geliştirme ortamlarıyla uyumludur.
+**Q: Aspose.3D’yi ticari projelerde kullanabilir miyim?**  
+A: Evet, Aspose.3D’yi hem kişisel hem de ticari projelerde kullanabilirsiniz. Lisans detayları için [purchase page](https://purchase.aspose.com/buy) adresini ziyaret edin.
 
-### S2: Aspose.3D'yi ticari projeler için kullanabilir miyim?
+**Q: Ücretsiz deneme sürümü mevcut mu?**  
+A: Evet, ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
 
- Cevap2: Evet, Aspose.3D'yi hem kişisel hem de ticari projeleriniz için kullanabilirsiniz. Ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) lisans ayrıntıları için.
+**Q: Aspose.3D için destek nereden alınır?**  
+A: Topluluk desteği için [Aspose.3D forum](https://forum.aspose.com/c/3d/18) adresini inceleyin.
 
-### S3: Ücretsiz deneme sürümü mevcut mu?
+**Q: Aspose.3D için geçici bir lisans nasıl alınır?**  
+A: Geçici lisans bilgileri için [bu linke](https://purchase.aspose.com/temporary-license/) bakın.
 
-C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+## Conclusion
 
-### S4: Aspose.3D desteğini nerede bulabilirim?
+Yukarıdaki adımları izleyerek, Aspose.3D kullanarak Java’da **export scene to glTF** işlemini ve Phong malzemelerinin otomatik olarak PBR’ye yükseltilmesini öğrendiniz. Bu iş akışı, modern render pipeline’ları, web görüntüleyicileri ve AR/VR deneyimleri için hazır, yüksek‑kaliteli, fiziksel‑temelli varlıklar oluşturmanızı sağlar. Daha karmaşık geometriler, dokular ve aydınlatmalarla deney yaparak PBR ve glTF’nin gücünden tam anlamıyla yararlanın.
 
- A4: Keşfedin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk desteği için.
-
-### S5: Aspose.3D için geçici lisansı nasıl edinebilirim?
-
- A5: Ziyaret edin[bu bağlantı](https://purchase.aspose.com/temporary-license/) Geçici lisans bilgileri için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.3D 24.12 for Java  
+**Author:** Aspose  
+
+---

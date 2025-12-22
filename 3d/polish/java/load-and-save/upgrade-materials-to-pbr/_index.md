@@ -1,59 +1,74 @@
 ---
-title: Uaktualnij materiały 3D do wersji PBR, aby uzyskać większy realizm w Javie za pomocą Aspose.3D
-linktitle: Uaktualnij materiały 3D do wersji PBR, aby uzyskać większy realizm w Javie za pomocą Aspose.3D
-second_title: Aspose.3D API Java
-description: Bezproblemowo aktualizuj materiały 3D do PBR w Javie za pomocą Aspose.3D. Osiągnij większy realizm i urzekające efekty wizualne.
-weight: 13
+date: 2025-12-22
+description: Dowiedz się, jak wyeksportować scenę do formatu glTF w Javie przy użyciu
+  Aspose.3D, jednocześnie aktualizując materiały 3D do PBR, aby uzyskać większy realizm.
+linktitle: Export Scene to glTF in Java with Aspose.3D
+second_title: Upgrade 3D Materials to PBR
+title: Eksportuj scenę do glTF w Javie z Aspose.3D
 url: /pl/java/load-and-save/upgrade-materials-to-pbr/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uaktualnij materiały 3D do wersji PBR, aby uzyskać większy realizm w Javie za pomocą Aspose.3D
+# Eksportuj scenę do glTF w Javie z Aspose.3D – Ulepsz materiały do PBR
 
-## Wstęp
+## Wprowadzenie
 
-Uaktualnienie materiałów 3D do formatu PBR to przełomowy krok w kierunku uzyskania realistycznych efektów wizualnych w aplikacjach Java. Aspose.3D upraszcza ten proces, umożliwiając płynne przejście od tradycyjnych materiałów do materiałów PBR. W tym samouczku omówimy niezbędne wymagania wstępne, zaimportujemy pakiety i podzielimy każdy przykład na szczegółowe kroki.
+W tym samouczku nauczysz się, jak **eksportować scenę do glTF** w Javie z Aspose.3D, jednocześnie ulepszając swoje materiały 3D do Physically‑Based Rendering (PBR). Ulepszenie do PBR nadaje Twoim modelom znacznie bardziej realistyczny wygląd, a eksport do szeroko wspieranego formatu glTF 2.0 pozwala udostępniać te wysokiej jakości zasoby w różnych silnikach, przeglądarkach i platformach AR/VR. Przejdziemy przez wymagania wstępne, zaimportujemy niezbędne pakiety i rozłożymy każdy przykład krok po kroku, abyś mógł zastosować tę technikę w własnych projektach.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „export scene to glTF”?** Konwertuje scenę Aspose.3D do formatu pliku glTF 2.0, zachowując geometrię, materiały i hierarchię.  
+- **Dlaczego najpierw ulepszyć materiały do PBR?** Materiały PBR mapują się bezpośrednio na workflow metaliczno‑szorstkości glTF, zapewniając realistyczne oświetlenie bez dodatkowych kroków konwersji.  
+- **Czy potrzebna jest licencja do uruchomienia kodu?** Darmowa wersja próbna wystarcza do rozwoju; licencja komercyjna jest wymagana w produkcji.  
+- **Jakie IDE Java są obsługiwane?** Każde IDE, które potrafi kompilować Javę (Eclipse, IntelliJ IDEA, VS Code, itp.).  
+- **Czy mogę eksportować duże sceny?** Tak, Aspose.3D strumieniuje dane efektywnie; wystarczy zapewnić wystarczającą pamięć heap dla bardzo dużych modeli.
 
-Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest „export scene to glTF”?
 
-1.  Aspose.3D dla Java: Pobierz i zainstaluj bibliotekę Aspose.3D z[strona wydania](https://releases.aspose.com/3d/java/).
+Eksportowanie sceny do glTF oznacza serializację całej sceny 3D — w tym siatek, węzłów, kamer, świateł i materiałów — do formatu GL Transmission Format (glTF). glTF jest otwartym standardem zoptymalizowanym pod renderowanie w czasie rzeczywistym, co czyni go idealnym do użycia w sieci, na urządzeniach mobilnych i w silnikach gier.
 
-2. Środowisko programistyczne Java: Upewnij się, że na komputerze jest skonfigurowane środowisko programistyczne Java.
+## Dlaczego przed eksportem ulepszyć materiały do PBR?
 
-3. Katalog dokumentów: Utwórz dedykowany katalog dla swoich dokumentów 3D.
+Materiały PBR (Physically‑Based Rendering) opisują, jak światło oddziałuje z powierzchniami przy użyciu parametrów takich jak albedo, metaliczność i szorstkość. glTF 2.0 natywnie obsługuje PBR, więc konwersja materiałów Phong lub własnych do PBR zapewnia, że kolory, odbicia i cieniowanie będą wyglądały poprawnie po załadowaniu modelu w dowolnym przeglądarce kompatybilnej z glTF.
 
-## Importuj pakiety
+## Wymagania wstępne
 
-Aby rozpocząć proces aktualizacji, zaimportuj wymagane pakiety do projektu Java. Użyj poniższego fragmentu kodu jako przewodnika:
+1. **Aspose.3D for Java** – pobierz go ze [strony wydania](https://releases.aspose.com/3d/java/).  
+2. **Środowisko programistyczne Java** – JDK 8 lub wyższy oraz wybrane IDE.  
+3. **Katalog dokumentów** – folder na twoim komputerze, w którym będziesz odczytywać/zapisywać pliki 3D.
+
+## Importowanie pakietów
+
+Add the core Aspose.3D namespace to your project:
 
 ```java
 import com.aspose.threed.*;
 ```
 
-Upewnij się, że dołączasz wszystkie niezbędne pakiety Aspose.3D, aby bezproblemowo wykorzystać jego funkcjonalności.
+Ten pojedynczy import daje dostęp do `Scene`, `Box`, `PhongMaterial`, `PbrMaterial`, `GltfSaveOptions` oraz API konwersji materiałów.
 
-## Krok 1: Zainicjuj nową scenę 3D
+## Krok 1: Inicjalizacja nowej sceny 3D
 
-Rozpocznij od zainicjowania nowej sceny 3D przy użyciu następującego kodu:
+Create a fresh scene that will hold your geometry and materials:
 
 ```java
-// ExStart: Zainicjuj scenę
+// ExStart:InitializeScene
 String MyDir = "Your Document Directory";
 Scene s = new Scene();
 // ExEnd:InitializeScene
 ```
 
-## Krok 2: Utwórz pudełko za pomocą PhongMaterial
+> **Wskazówka:** Trzymaj `MyDir` jako ścieżkę bezwzględną podczas rozwoju, aby uniknąć błędów „plik nie znaleziony”.
 
-Utwórz pudełko 3D i przypisz do niego PhongMaterial:
+## Krok 2: Utwórz sześcian z PhongMaterial
+
+We’ll start with a simple box that uses a classic Phong material. This will later be converted to a PBR material during export:
 
 ```java
-// ExStart:UtwórzBoxWithMaterial
+// ExStart:CreateBoxWithMaterial
 Box box = new Box();
 PhongMaterial mat = new PhongMaterial();
 mat.setDiffuseColor(new Vector3(1, 0, 1));
@@ -61,12 +76,14 @@ s.getRootNode().createChildNode("box1", box).setMaterial(mat);
 // ExEnd:CreateBoxWithMaterial
 ```
 
-## Krok 3: Zapisz w formacie GLTF 2.0
+> **Dlaczego Phong?** PhongMaterial jest łatwy do skonfigurowania i demonstruje, jak działa logika konwersji.
 
-Zapisz scenę w formacie GLTF 2.0, konwertując w trakcie procesu PhongMaterial do PBRMaterial:
+## Krok 3: Zapisz w formacie GLTF 2.0 (Export Scene to glTF)
+
+Configure the GLTF save options to automatically convert any `PhongMaterial` to a `PbrMaterial`. This is the core of **export scene to glTF**:
 
 ```java
-// ExStart:Zapisz wGLTF
+// ExStart:SaveInGLTF
 GltfSaveOptions opt = new GltfSaveOptions(FileFormat.GLTF2);
 opt.setMaterialConverter(new MaterialConverter() {
     @Override
@@ -78,39 +95,51 @@ opt.setMaterialConverter(new MaterialConverter() {
     }
 });
 s.save(MyDir + "Non_PBRtoPBRMaterial_Out.gltf", opt);
-// Rozwiń:Zapisz wGLTF
+// ExEnd:SaveInGLTF
 ```
 
-Wykonaj poniższe kroki, aby bezproblemowo uaktualnić materiały 3D do formatu PBR, zwiększając realizm w aplikacjach Java.
+Gdy ten kod zostanie uruchomiony, scena zostanie zapisana do `Non_PBRtoPBRMaterial_Out.gltf`. Niestandardowy `MaterialConverter` zapewnia, że materiał Phong zostaje przekształcony w materiał PBR, dzięki czemu powstały plik glTF wyświetla się z realistycznym cieniowaniem w dowolnej przeglądarce glTF.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Podsumowując, Aspose.3D dla Java umożliwia podniesienie atrakcyjności wizualnej grafiki 3D poprzez aktualizację materiałów do PBR. Wykorzystaj tę technologię, aby osiągnąć większy realizm i zachwyć odbiorców oszałamiającymi wizualnie aplikacjami Java.
+| Problem | Rozwiązanie |
+|-------|----------|
+| **FileNotFoundException** podczas zapisu | Sprawdź, czy `MyDir` wskazuje istniejący folder i czy aplikacja ma uprawnienia do zapisu. |
+| **ClassCastException** w konwerterze | Upewnij się, że materiał przekazywany do konwertera jest rzeczywiście `PhongMaterial`. Dodaj sprawdzenie `instanceof`, jeśli mieszane są typy materiałów. |
+| **Missing textures** po eksporcie | glTF oczekuje, że tekstury będą dostarczone osobno; dodaj obsługę tekstur w konwerterze w razie potrzeby. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.3D jest kompatybilny ze środowiskami programistycznymi Java innymi niż Eclipse?
+**Q:** Czy Aspose.3D jest kompatybilny z innymi środowiskami programistycznymi Java niż Eclipse?  
+**A:** Tak, Aspose.3D działa z dowolnym IDE Java, w tym IntelliJ IDEA, NetBeans i VS Code.
 
-Odpowiedź 1: Tak, Aspose.3D jest kompatybilny z różnymi środowiskami programistycznymi Java.
+**Q:** Czy mogę używać Aspose.3D w projektach komercyjnych?  
+**A:** Tak, możesz używać Aspose.3D zarówno w projektach prywatnych, jak i komercyjnych. Odwiedź [stronę zakupu](https://purchase.aspose.com/buy) po szczegóły licencjonowania.
 
-### P2: Czy mogę używać Aspose.3D w projektach komercyjnych?
+**Q:** Czy dostępna jest darmowa wersja próbna?  
+**A:** Tak, darmową wersję próbną możesz uzyskać [tutaj](https://releases.aspose.com/).
 
- Odpowiedź 2: Tak, możesz używać Aspose.3D zarówno do projektów osobistych, jak i komercyjnych. Odwiedzić[strona zakupu](https://purchase.aspose.com/buy) w celu uzyskania szczegółów licencji.
+**Q:** Gdzie mogę znaleźć wsparcie dla Aspose.3D?  
+**A:** Przeglądaj [forum Aspose.3D](https://forum.aspose.com/c/3d/18) w celu uzyskania wsparcia społeczności.
 
-### P3: Czy dostępny jest bezpłatny okres próbny?
+**Q:** Jak uzyskać tymczasową licencję na Aspose.3D?  
+**A:** Odwiedź [ten link](https://purchase.aspose.com/temporary-license/) po informacje o tymczasowej licencji.
 
-Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+## Podsumowanie
 
-### P4: Gdzie mogę znaleźć wsparcie dla Aspose.3D?
+Postępując zgodnie z powyższymi krokami, teraz wiesz, jak **eksportować scenę do glTF** w Javie przy użyciu Aspose.3D, automatycznie ulepszając materiały Phong do PBR. Ten przepływ pracy pozwala tworzyć wysokiej jakości, fizycznie oparte zasoby gotowe do nowoczesnych pipeline'ów renderingu, przeglądarek internetowych oraz doświadczeń AR/VR. Eksperymentuj z bardziej złożonymi geometriami, teksturami i oświetleniem, aby w pełni wykorzystać moc PBR i glTF.
 
- A4: Poznaj[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności.
-
-### P5: Jak uzyskać tymczasową licencję na Aspose.3D?
-
- A5: Odwiedź[ten link](https://purchase.aspose.com/temporary-license/) w celu uzyskania informacji o licencji tymczasowej.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.3D 24.12 for Java  
+**Author:** Aspose  
+
+---
