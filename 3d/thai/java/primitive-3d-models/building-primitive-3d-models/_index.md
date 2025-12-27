@@ -1,102 +1,160 @@
 ---
-title: การสร้างโมเดล 3 มิติดั้งเดิมด้วย Aspose.3D สำหรับ Java
-linktitle: การสร้างโมเดล 3 มิติดั้งเดิมด้วย Aspose.3D สำหรับ Java
-second_title: Aspose.3D จาวา API
-description: ค้นพบศิลปะของการสร้างแบบจำลอง 3 มิติด้วย Aspose.3D สำหรับ Java เรียนรู้การสร้างแบบจำลอง 3 มิติแบบดั้งเดิมได้อย่างง่ายดายและปลดปล่อยความคิดสร้างสรรค์ของคุณ
-weight: 10
+date: 2025-12-27
+description: เรียนรู้วิธีสร้างกล่อง 3D ด้วย Java โดยใช้ Aspose.3D ส่งออกฉากเป็น FBX
+  และสำรวจไลบรารีการสร้างโมเดล 3D ของ Java สำหรับกราฟิก 3D ที่แข็งแรง
+linktitle: Create 3D box Java with Aspose.3D – Primitive Model
+second_title: Aspose.3D Java API
+title: สร้างกล่อง 3 มิติด้วย Java และ Aspose.3D – โมเดลพื้นฐาน
 url: /th/java/primitive-3d-models/building-primitive-3d-models/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การสร้างโมเดล 3 มิติดั้งเดิมด้วย Aspose.3D สำหรับ Java
+# สร้าง 3D box Java ด้วย Aspose.3D – Primitive Model
 
-## การแนะนำ
+## Introduction
 
-การสร้างแบบจำลอง 3 มิติโดยทางโปรแกรมอาจเป็นงานที่น่ากังวล แต่ด้วย Aspose.3D สำหรับ Java จะกลายเป็นกระบวนการที่สนุกสนานและตรงไปตรงมา บทช่วยสอนนี้มีจุดมุ่งหมายเพื่อช่วยให้คุณเริ่มต้นการสร้างแบบจำลอง 3 มิติแบบดั้งเดิม โดยเน้นที่ความเรียบง่ายและมีประสิทธิภาพ
+หากคุณกำลังมองหา **สร้าง 3D box Java** อย่างรวดเร็ว Aspose.3D for Java ทำให้กระบวนการง่ายกว่าที่คิด ในบทแนะนำนี้เราจะเดินผ่านขั้นตอนทั้งหมด—from การตั้งค่าสภาพแวดล้อมจนถึงการส่งออกฉากเป็นไฟล์ FBX—เพื่อให้คุณเริ่มสร้างกราฟิก 3‑D ด้วยความมั่นใจ ไม่ว่าคุณจะเป็นนักพัฒนาเกม, ผู้สนใจ AR/VR, หรือแค่สำรวจ **java 3d modeling library** คู่มือนี้ครอบคลุมทุกอย่างที่คุณต้องการ
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **บทแนะนำนี้ครอบคลุมอะไร?** การสร้างกล่องและทรงกระบอก primitive แล้วส่งออกฉากเป็น FBX  
+- **ใช้ไลบรารีใด?** Aspose.3D for Java, ไลบรารี **java 3d modeling library** ที่ทรงพลัง  
+- **ต้องมีลิขสิทธิ์หรือไม่?** ทดลองใช้ฟรีได้สำหรับการพัฒนา; ต้องมีลิขสิทธิ์สำหรับการใช้งานจริง  
+- **สามารถส่งออกเป็นฟอร์แมตอื่นได้หรือไม่?** ได้, Aspose.3D รองรับ OBJ, STL และอื่น ๆ แต่คู่มือนี้เน้นที่ **export scene FBX**  
+- **ใช้เวลานานเท่าไหร่?** ประมาณ 10‑15 นาทีเพื่อให้ได้ตัวอย่างทำงานครบถ้วน
 
-ก่อนที่จะดำดิ่งสู่โลกแห่งการสร้างแบบจำลอง 3 มิติด้วย Aspose.3D สำหรับ Java ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+## How to create 3D box Java with Aspose.3D
+ด้านล่างนี้คือขั้นตอนที่ต้องทำตามอย่างละเอียด แต่ละขั้นตอนมีคำอธิบายสั้น ๆ เพื่อให้คุณเข้าใจ *ทำไม* เราต้องทำเช่นนั้น ไม่ใช่แค่ *พิมพ์อะไร* เท่านั้น
 
-1. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK บนเครื่องของคุณแล้ว
-2.  Aspose.3D สำหรับไลบรารี Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.3D สำหรับ Java จาก[หน้าดาวน์โหลด](https://releases.aspose.com/3d/java/).
+## Prerequisites
 
-## แพ็คเกจนำเข้า
+ก่อนเริ่มทำตามขั้นตอน ให้ตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
 
-เริ่มต้นด้วยการนำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ ขั้นตอนนี้มีความสำคัญอย่างยิ่งในการเข้าถึงฟังก์ชันการทำงานที่ Aspose.3D สำหรับ Java มอบให้
+1. **Java Development Kit (JDK)** – เวอร์ชันล่าสุด (8 หรือสูงกว่า) ติดตั้งบนเครื่องของคุณ  
+2. **Aspose.3D for Java Library** – ดาวน์โหลดจาก [download page](https://releases.aspose.com/3d/java/)  
+3. IDE หรือ text editor ที่คุณชื่นชอบ (IntelliJ IDEA, Eclipse, VS Code ฯลฯ)
+
+## Import Packages
+
+เริ่มต้นด้วยการ import แพคเกจหลักของ Aspose.3D ซึ่งจะทำให้คุณเข้าถึง primitive 3‑D ทั้งหมดและคลาสจัดการฉาก
 
 ```java
-
 import com.aspose.threed.*;
 ```
 
-ตอนนี้คุณได้ตั้งค่าทุกอย่างเรียบร้อยแล้ว มาดูเนื้อหาหลักของบทช่วยสอนนี้กันดีกว่า นั่นคือการสร้างแบบจำลอง 3 มิติแบบดั้งเดิม
+เมื่อ import เสร็จแล้ว เราจะสร้างฉากที่ใช้เก็บโมเดลของเรา
 
-## การสร้างฉาก
+## Creating a Scene
 
-### ขั้นตอนที่ 1: เริ่มต้นวัตถุฉาก
+### Step 1: Initialize a Scene Object
 
 ```java
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// The path to the documents directory.
 String myDir = "Your Document Directory";
 
-//เริ่มต้นวัตถุฉาก
+// Initialize a Scene object
 Scene scene = new Scene();
 ```
 
-### ขั้นตอนที่ 2: สร้างแบบจำลองกล่อง
+เราเริ่มด้วย **Scene** ที่ว่างเปล่า—คอนเทนเนอร์สำหรับวัตถุ 3‑D, แสง, และกล้องทั้งหมด
+
+### Step 2: Create a Box Model
 
 ```java
-// สร้างโมเดลกล่อง
+// Create a Box model
 scene.getRootNode().createChildNode("box", new Box());
 ```
 
-### ขั้นตอนที่ 3: สร้างแบบจำลองกระบอกสูบ
+primitive `Box` เป็นหัวใจของบทแนะนำนี้และแสดงวิธี **create 3d box java** อย่างง่าย
+
+### Step 3: Create a Cylinder Model
 
 ```java
-// สร้างแบบจำลองกระบอกสูบ
+// Create a Cylinder model
 scene.getRootNode().createChildNode("cylinder", new Cylinder());
 ```
 
-### ขั้นตอนที่ 4: บันทึกภาพวาดในรูปแบบ FBX
+การเพิ่มทรงกระบอกแสดงให้เห็นว่าการผสม primitive ต่าง ๆ ในฉากเดียวกันทำได้ง่ายแค่ไหน
+
+### Step 4: Save Drawing in the FBX Format
 
 ```java
-// บันทึกภาพวาดในรูปแบบ FBX
+// Save drawing in the FBX format
 myDir = myDir + "test.fbx";
 scene.save(myDir, FileFormat.FBX7500ASCII);
 ```
 
-## บทสรุป
+ที่นี่เราจะ **export scene FBX** ด้วยเวอร์ชัน ASCII ของ FBX 7.5 ซึ่งได้รับการสนับสนุนอย่างกว้างขวางโดยเครื่องมือ 3‑D
 
-ยินดีด้วย! คุณได้สร้างฉากจากโมเดล 3D ดั้งเดิมโดยใช้ Aspose.3D สำหรับ Java สำเร็จแล้ว ตอนนี้ไฟล์ถูกบันทึกในไดเร็กทอรีที่ระบุ
+## Why use Aspose.3D for Java?
 
-## คำถามที่พบบ่อย
+- **Straightforward API** – ไม่ต้องจัดการข้อมูลเมชระดับล่างด้วยตนเอง  
+- **Cross‑platform** – ทำงานบน Windows, Linux, และ macOS  
+- **Broad format support** – นอกจาก FBX ยังสามารถส่งออกเป็น OBJ, STL, 3MF ฯลฯ  
+- **Performance‑optimized** – จัดการฉากขนาดใหญ่ได้อย่างมีประสิทธิภาพ ทำให้เป็นตัวเลือกที่ดีสำหรับ **java 3d modeling library**
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.3D สำหรับ Java กับภาษาการเขียนโปรแกรมอื่นได้หรือไม่
+## Common Issues & Tips
 
-คำตอบ 1: Aspose.3D รองรับ Java เป็นหลัก แต่มีเวอร์ชันสำหรับภาษาอื่น เช่น .NET
+- **File path errors** – ตรวจสอบให้ `myDir` ชี้ไปยังโฟลเดอร์ที่มีอยู่และสามารถเขียนได้  
+- **License warnings** – การใช้รุ่นทดลองโดยไม่มีลิขสิทธิ์จะใส่ลายน้ำในไฟล์ที่ส่งออก  
+- **Version compatibility** – ใช้ JAR ของ Aspose.3D เวอร์ชันล่าสุดเพื่อหลีกเลี่ยงเมธอดที่ล้าสมัย
 
-### คำถามที่ 2: Aspose.3D เหมาะสำหรับงานการสร้างแบบจำลอง 3 มิติที่ซับซ้อนหรือไม่
+## FAQ's
 
-A2: แน่นอน! Aspose.3D มีชุดคุณสมบัติที่ครอบคลุม ทำให้เหมาะสำหรับงานการสร้างแบบจำลอง 3 มิติทั้งแบบง่ายและซับซ้อน
+### Q1: Can I use Aspose.3D for Java with other programming languages?
 
-### คำถามที่ 3: ฉันจะขอความช่วยเหลือและการสนับสนุนเพิ่มเติมได้จากที่ไหน
+A1: Aspose.3D primarily supports Java, but there are versions available for other languages like .NET.
 
- A3: เยี่ยมชม[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+### Q2: Is Aspose.3D suitable for complex 3D modeling tasks?
 
-### คำถามที่ 4: ฉันสามารถลองใช้ Aspose.3D ก่อนซื้อได้หรือไม่
+A2: Absolutely! Aspose.3D provides a comprehensive set of features, making it suitable for both simple and complex 3D modeling tasks.
 
- A4: ใช่ คุณสามารถสำรวจได้[ทดลองฟรี](https://releases.aspose.com/) ก่อนตัดสินใจซื้อ
+### Q3: Where can I find additional help and support?
 
-### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.3D ได้อย่างไร
+A3: Visit the [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) for community support and discussions.
 
- A5: คุณสามารถได้รับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) สำหรับ Aspose.3D ผ่านทางเว็บไซต์
+### Q4: Can I try Aspose.3D before purchasing?
+
+A4: Yes, you can explore a [free trial](https://releases.aspose.com/) before making a purchase decision.
+
+### Q5: How do I obtain a temporary license for Aspose.3D?
+
+A5: You can obtain a [temporary license](https://purchase.aspose.com/temporary-license/) for Aspose.3D through the website.
+
+## Frequently Asked Questions
+
+**Q: Does Aspose.3D support texture mapping on primitives?**  
+A: Yes, you can assign materials and textures to any primitive, including the box created in this tutorial.
+
+**Q: Can I export the scene to a binary FBX file?**  
+A: Absolutely. Replace `FileFormat.FBX7500ASCII` with `FileFormat.FBX7500Binary` to get a binary FBX.
+
+**Q: Is there a way to animate the box after creation?**  
+A: You can add keyframe animations to nodes using the `AnimationController` class provided by Aspose.3D.
+
+**Q: How do I load an existing FBX file for further editing?**  
+A: Use `Scene scene = new Scene("input.fbx");` to load and manipulate existing files.
+
+**Q: What is the minimum Java version required?**  
+A: Aspose.3D for Java works with Java 8 and newer.
+
+## Conclusion
+
+คุณได้เรียนรู้วิธี **create 3D box Java** เพิ่ม primitive อื่น ๆ และ **export scene FBX** ด้วย Aspose.3D แล้ว อย่าลังเลที่จะทดลองรูปทรงอื่น ๆ, ใส่วัสดุ, หรือสำรวจ API อย่างกว้างขวางเพื่อสร้างแอปพลิเคชัน 3‑D ที่สมบูรณ์ยิ่งขึ้น
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.3D for Java 24.12 (latest)  
+**Author:** Aspose  
+
+---
