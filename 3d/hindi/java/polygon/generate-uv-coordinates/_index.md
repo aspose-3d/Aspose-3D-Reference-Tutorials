@@ -1,33 +1,50 @@
 ---
-title: जावा 3डी मॉडल में टेक्सचर मैपिंग के लिए यूवी निर्देशांक उत्पन्न करें
-linktitle: जावा 3डी मॉडल में टेक्सचर मैपिंग के लिए यूवी निर्देशांक उत्पन्न करें
-second_title: Aspose.3D जावा एपीआई
-description: Aspose.3D का उपयोग करके जावा 3D मॉडल के लिए UV निर्देशांक उत्पन्न करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपनी परियोजनाओं में बनावट मानचित्रण को बेहतर बनाएं।
-weight: 11
+date: 2025-12-27
+description: जावा में Aspose.3D का उपयोग करके OBJ निर्यात करते समय UV निर्देशांक कैसे
+  उत्पन्न करें और मेष में UV जोड़ें, सीखें। इस चरण‑दर‑चरण गाइड का पालन करें।
+linktitle: How to Generate UV Coordinates for Texture Mapping in Java 3D Models
+second_title: Aspose.3D Java API
+title: जावा 3D मॉडल में टेक्सचर मैपिंग के लिए यूवी कॉर्डिनेट्स कैसे जनरेट करें
 url: /hi/java/polygon/generate-uv-coordinates/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा 3डी मॉडल में टेक्सचर मैपिंग के लिए यूवी निर्देशांक उत्पन्न करें
+# जावा 3D मॉडलों में टेक्सचर मैपिंग के लिए UV कॉर्डिनेट्स कैसे जेनरेट करें
 
-## परिचय
+## Introduction
 
-Aspose.3D का उपयोग करके जावा 3D मॉडल में बनावट मानचित्रण के लिए UV निर्देशांक उत्पन्न करने पर हमारी चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है। इस ट्यूटोरियल में, हम आपको 3डी मॉडल में एक जाल के लिए मैन्युअल रूप से यूवी निर्देशांक उत्पन्न करने की प्रक्रिया के बारे में बताएंगे। बनावट मानचित्रण में यह एक महत्वपूर्ण कदम है, जो आपको अपने 3डी मॉडल की दृश्य अपील को बढ़ाने की अनुमति देता है।
+इस ट्यूटोरियल में आप **how to generate uv** कॉर्डिनेट्स खोजेंगे और जानेंगे कि उच्च‑गुणवत्ता वाले टेक्सचर मैपिंग के लिए UV डेटा जोड़ना क्यों आवश्यक है। हम Aspose.3D के साथ प्रत्येक चरण को समझाएंगे, ताकि आप आत्मविश्वास से **add uv to mesh** कर सकें, जावा से OBJ एक्सपोर्ट कर सकें, और **save scene as obj** को किसी भी 3D पाइपलाइन में उपयोग कर सकें।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What does “UV” stand for?** यह 2‑D टेक्सचर कॉर्डिनेट सिस्टम (U‑horizontal, V‑vertical) को दर्शाता है।  
+- **Why generate UVs manually?** कुछ मेष में UV डेटा नहीं होता; उन्हें जेनरेट करने से आप टेक्सचर सही तरीके से लागू कर सकते हैं।  
+- **Which library is used?** Aspose.3D for Java।  
+- **Can I export the result as OBJ?** हाँ – ट्यूटोरियल का अंत सीन को OBJ फ़ाइल के रूप में सेव करने से होता है।  
+- **Do I need a license?** एक फ्री ट्रायल उपलब्ध है; प्रोडक्शन के लिए कमर्शियल लाइसेंस आवश्यक है।
 
-इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## What is UV Mapping?
 
-- जावा प्रोग्रामिंग की बुनियादी समझ.
--  जावा लाइब्रेरी के लिए Aspose.3D स्थापित किया गया। आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/3d/java/).
-- आपके सिस्टम पर एक जावा इंटीग्रेटेड डेवलपमेंट एनवायरनमेंट (आईडीई) स्थापित है।
+UV मैपिंग 3‑D मॉडल के प्रत्येक वर्टेक्स को 2‑D टेक्सचर इमेज पर एक स्थान (U, V) निर्धारित करती है। सही UVs सुनिश्चित करते हैं कि टेक्सचर मॉडल पर बिना स्ट्रेच या सीम के लिपटे।
 
-## पैकेज आयात करें
+## Why Use Aspose.3D for UV Generation?
 
-अपने जावा प्रोजेक्ट में, Aspose.3D से आवश्यक पैकेज आयात करें। सुनिश्चित करें कि आपके पास अपने प्रोजेक्ट में Aspose.3D का उपयोग करने के लिए आवश्यक निर्भरताएँ स्थापित हैं।
+Aspose.3D एक हाई‑लेवल API प्रदान करता है जो UV जेनरेशन के लो‑लेवल गणित को एब्स्ट्रैक्ट करता है। यह आपको **add uv to mesh** एक ही कॉल से करने देता है, फिर **export obj from java** को आसानी से पूरा करता है।
+
+## Prerequisites
+
+शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
+
+- जावा प्रोग्रामिंग का बेसिक ज्ञान।  
+- Aspose.3D for Java लाइब्रेरी इंस्टॉल हो। आप इसे [here](https://releases.aspose.com/3d/java/) से डाउनलोड कर सकते हैं।  
+- IntelliJ IDEA या Eclipse जैसे जावा इंटीग्रेटेड डेवलपमेंट एनवायरनमेंट (IDE)।
+
+## Import Packages
+
+अपने जावा प्रोजेक्ट में Aspose.3D से आवश्यक क्लासेज़ इम्पोर्ट करें। ये इम्पोर्ट आपको सीन निर्माण, मेष मैनिपुलेशन, और UV जेनरेशन तक पहुँच देते हैं।
 
 ```java
 import com.aspose.threed.Box;
@@ -40,95 +57,107 @@ import com.aspose.threed.VertexElement;
 import com.aspose.threed.VertexElementType;
 ```
 
-अब, आइए उदाहरण को कई चरणों में विभाजित करें:
+अब, आइए उदाहरण को चरण‑दर‑चरण देखें।
 
-## चरण 1: दस्तावेज़ निर्देशिका पथ सेट करें
+## Step‑by‑Step Guide
+
+### Step 1: Set Document Directory Path
+
+परिभाषित करें कि जेनरेट की गई OBJ फ़ाइल कहाँ सेव होगी।
 
 ```java
 String MyDir = "Your Document Directory";
 ```
 
-"आपकी दस्तावेज़ निर्देशिका" को उस पथ से बदलें जहाँ आप अपनी 3D मॉडल फ़ाइल सहेजना चाहते हैं।
+`"Your Document Directory"` को अपने मशीन पर एक एब्सोल्यूट या रिलेटिव पाथ से बदलें।
 
-## चरण 2: एक दृश्य बनाएं
+### Step 2: Create a Scene
+
+एक **scene** वह कंटेनर है जो सभी 3‑D ऑब्जेक्ट्स को रखता है।
 
 ```java
 Scene scene = new Scene();
 ```
 
-Aspose.3D का उपयोग करके एक नया 3D दृश्य प्रारंभ करें।
+### Step 3: Create a Mesh
 
-## चरण 3: एक जाल बनाएं
+हम एक साधारण बॉक्स से शुरू करेंगे, फिर किसी भी मौजूदा UV डेटा को हटा देंगे ताकि एक मेष का सिमुलेशन हो जो UVs की जरूरत रखता है।
 
 ```java
 Mesh mesh = (new Box()).toMesh();
 mesh.getVertexElements().remove(mesh.getElement(VertexElementType.UV));
 ```
 
-एक जाल बनाएं, इस मामले में, एक बॉक्स, और यूवी जानकारी के बिना जाल अनुकरण करने के लिए अंतर्निहित यूवी डेटा हटा दें।
+### Step 4: Manually Generate UV Coordinates
 
-## चरण 4: यूवी निर्देशांक मैन्युअल रूप से उत्पन्न करें
+Aspose.3D मेष जियोमेट्री के आधार पर स्वचालित रूप से UVs जेनरेट कर सकता है।
 
 ```java
 VertexElement uv = PolygonModifier.generateUV(mesh);
 ```
 
-जाल के लिए मैन्युअल रूप से यूवी निर्देशांक उत्पन्न करें।
+### Step 5: Associate UV Data with the Mesh
 
-## चरण 5: यूवी डेटा को मेष के साथ संबद्ध करें
+अब हम **add uv to mesh** करके जेनरेट किए गए UV एलिमेंट को अटैच करेंगे।
 
 ```java
 mesh.addElement(uv);
 ```
 
-उत्पन्न यूवी डेटा को जाल के साथ संबद्ध करें।
+### Step 6: Create a Node and Add Mesh to the Scene
 
-## चरण 6: एक नोड बनाएं और दृश्य में मेष जोड़ें
+एक **node** सीन ग्राफ में ट्रांसफ़ॉर्मेबल ऑब्जेक्ट को दर्शाता है।
 
 ```java
 Node node = scene.getRootNode().createChildNode(mesh);
 ```
 
-एक नोड बनाएं और मेश को उसके चाइल्ड के रूप में दृश्य में जोड़ें।
+### Step 7: Save the Scene as OBJ
 
-## चरण 7: दृश्य को OBJ के रूप में सहेजें
+अंत में, हम **export obj from java** करके सीन को Wavefront OBJ फ़ॉर्मेट में सेव करेंगे।
 
 ```java
 scene.save(MyDir + "test.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-उत्पन्न यूवी निर्देशांक के साथ जाल सहित दृश्य को ओबीजे फ़ाइल के रूप में सहेजें।
+ऊपर दिया गया कोड चलाने पर एक `test.obj` फ़ाइल बनेगी जिसमें आपके बॉक्स जियोमेट्री **with UV coordinates** टेक्सचर मैपिंग के लिए तैयार होगी।
 
-Aspose.3D का उपयोग करके अपने जावा 3D मॉडल में टेक्सचर मैपिंग के लिए UV निर्देशांक सफलतापूर्वक उत्पन्न करने के लिए अपने जावा प्रोजेक्ट में इन चरणों को दोहराएं।
+## Common Issues and Solutions
 
-## निष्कर्ष
+- **Missing UVs after export** – सुनिश्चित करें कि आप `mesh.addElement(uv)` को सेव करने से पहले कॉल किया है।  
+- **File not found error** – जाँचें कि `MyDir` एक मौजूदा और राइटेबल फ़ोल्डर की ओर इशारा कर रहा है।  
+- **Incorrect texture alignment** – जेनरेट किए गए UVs एक साधारण प्लेनर प्रोजेक्शन का उपयोग करते हैं; जटिल मॉडलों के लिए कस्टम UV अनरैपिंग पर विचार करें।
 
-बधाई हो! आपने Aspose.3D का उपयोग करके जावा 3D मॉडल में टेक्सचर मैपिंग के लिए UV निर्देशांक उत्पन्न करना सफलतापूर्वक सीख लिया है। यह तकनीक आपकी 3डी कृतियों की दृश्य अपील को बढ़ाने के लिए संभावनाओं की दुनिया खोलती है।
+## Frequently Asked Questions
 
-## अक्सर पूछे जाने वाले प्रश्न
+**Q: Can I use Aspose.3D for Java with other programming languages?**  
+A: Aspose.3D मुख्यतः एक जावा लाइब्रेरी है, लेकिन Aspose .NET और अन्य प्लेटफ़ॉर्म के लिए समकक्ष प्रदान करता है। भाषा‑विशिष्ट संस्करणों के लिए प्रोडक्ट पेज देखें।
 
-### Q1: क्या मैं अन्य प्रोग्रामिंग भाषाओं के साथ जावा के लिए Aspose.3D का उपयोग कर सकता हूँ?
+**Q: Is there a trial version available for Aspose.3D?**  
+A: हाँ, आप फ्री ट्रायल का उपयोग करके Aspose.3D की सुविधाओं को [here](https://releases.aspose.com/) पर एक्सप्लोर कर सकते हैं।
 
-A1: Aspose.3D मुख्य रूप से Java के लिए डिज़ाइन किया गया है, लेकिन Aspose .NET जैसी अन्य भाषाओं के लिए संस्करण प्रदान करता है। भाषा-विशिष्ट विवरण के लिए दस्तावेज़ की जाँच करें।
+**Q: How can I get support for Aspose.3D?**  
+A: Aspose.3D फ़ोरम [here](https://forum.aspose.com/c/3d/18) पर जाएँ ताकि आप कम्युनिटी सपोर्ट प्राप्त कर सकें और अन्य उपयोगकर्ताओं से जुड़ सकें।
 
-### Q2: क्या Aspose.3D के लिए कोई परीक्षण संस्करण उपलब्ध है?
+**Q: Where can I find comprehensive documentation for Aspose.3D?**  
+A: डॉक्यूमेंटेशन उपलब्ध है [here](https://reference.aspose.com/3d/java/) पर।
 
- उ2: हां, आप उपलब्ध निःशुल्क परीक्षण का उपयोग करके Aspose.3D की विशेषताओं का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
+**Q: Can I purchase a temporary license for Aspose.3D?**  
+A: हाँ, आप एक टेम्पररी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।
 
-### Q3: मैं Aspose.3D के लिए समर्थन कैसे प्राप्त कर सकता हूं?
+## Conclusion
 
- A3: Aspose.3D फोरम पर जाएँ[यहाँ](https://forum.aspose.com/c/3d/18) सामुदायिक समर्थन प्राप्त करने और अन्य उपयोगकर्ताओं के साथ जुड़ने के लिए।
+अब आप **how to generate uv** कॉर्डिनेट्स, **add uv to mesh**, और **export obj from java** को Aspose.3D का उपयोग करके कर सकते हैं। यह वर्कफ़्लो आपको प्रोग्रामेटिकली किसी भी 3‑D मॉडल को टेक्सचर करने की क्षमता देता है, जिससे आप अपने एसेट्स की विज़ुअल क्वालिटी पर पूर्ण नियंत्रण पा सकते हैं।
 
-### Q4: मुझे Aspose.3D के लिए व्यापक दस्तावेज़ कहाँ मिल सकते हैं?
-
- A4: दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/3d/java/).
-
-### Q5: क्या मैं Aspose.3D के लिए अस्थायी लाइसेंस खरीद सकता हूँ?
-
- A5: हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose

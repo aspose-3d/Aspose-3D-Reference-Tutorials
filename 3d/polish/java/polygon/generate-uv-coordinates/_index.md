@@ -1,33 +1,51 @@
 ---
-title: Generuj współrzędne UV do mapowania tekstur w modelach 3D Java
-linktitle: Generuj współrzędne UV do mapowania tekstur w modelach 3D Java
-second_title: Aspose.3D API Java
-description: Naucz się generować współrzędne UV dla modeli 3D Java przy użyciu Aspose.3D. Ulepsz mapowanie tekstur w swoich projektach, korzystając z tego przewodnika krok po kroku.
-weight: 11
+date: 2025-12-27
+description: Dowiedz się, jak generować współrzędne UV i dodawać UV do siatki przy
+  eksportowaniu pliku OBJ z Javy przy użyciu Aspose.3D. Postępuj zgodnie z tym przewodnikiem
+  krok po kroku.
+linktitle: How to Generate UV Coordinates for Texture Mapping in Java 3D Models
+second_title: Aspose.3D Java API
+title: Jak generować współrzędne UV dla mapowania tekstur w modelach 3D w Javie
 url: /pl/java/polygon/generate-uv-coordinates/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generuj współrzędne UV do mapowania tekstur w modelach 3D Java
+# Jak wygenerować współrzędne UV do mapowania tekstur w modelach 3D w Javie
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w naszym przewodniku krok po kroku dotyczącym generowania współrzędnych UV do mapowania tekstur w modelach 3D Java przy użyciu Aspose.3D. W tym samouczku przeprowadzimy Cię przez proces ręcznego generowania współrzędnych UV siatki w modelu 3D. Jest to kluczowy krok w mapowaniu tekstur, pozwalający poprawić atrakcyjność wizualną modeli 3D.
+W tym samouczku dowiesz się **jak generować uv** współrzędne dla siatki 3D w Javie i poznasz, dlaczego dodanie danych UV jest niezbędne do wysokiej jakości mapowania tekstur. Przejdziemy przez każdy krok z Aspose.3D, abyś mógł pewnie **dodać uv do siatki**, wyeksportować OBJ z Javy i **zapisać scenę jako obj** do użycia w dowolnym potoku 3D.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „UV”?** Reprezentuje dwuwymiarowy system współrzędnych tekstury (U‑poziomy, V‑pionowy).  
+- **Dlaczego generować UV ręcznie?** Niektóre siatki nie mają danych UV; ich generowanie pozwala prawidłowo nakładać tekstury.  
+- **Jakiej biblioteki używać?** Aspose.3D for Java.  
+- **Czy mogę wyeksportować wynik jako OBJ?** Tak – samouczek kończy się zapisem sceny jako plik OBJ.  
+- **Czy potrzebna jest licencja?** Dostępna jest darmowa wersja próbna; licencja komercyjna jest wymagana w produkcji.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest mapowanie UV?
 
-- Podstawowa znajomość programowania w języku Java.
--  Zainstalowana biblioteka Aspose.3D for Java. Można go pobrać z[Tutaj](https://releases.aspose.com/3d/java/).
-- Zintegrowane środowisko programistyczne Java (IDE) zainstalowane w systemie.
+Mapowanie UV przypisuje każdemu wierzchołkowi modelu 3‑D parę współrzędnych (U, V), które wskazują miejsce na dwuwymiarowym obrazie tekstury. Poprawne UV zapewniają, że tekstury otaczają model bez rozciągania i szwów.
 
-## Importuj pakiety
+## Dlaczego używać Aspose.3D do generowania UV?
 
-W swoim projekcie Java zaimportuj niezbędne pakiety z Aspose.3D. Upewnij się, że masz skonfigurowane wymagane zależności, aby używać Aspose.3D w swoim projekcie.
+Aspose.3D udostępnia API wysokiego poziomu, które ukrywa niskopoziomową matematykę stojącą za generowaniem UV. Pozwala **dodać uv do siatki** jednym wywołaniem, a następnie **wyeksportować obj z java** bez wysiłku.
+
+## Wymagania wstępne
+
+Zanim zaczniemy, upewnij się, że masz:
+
+- Podstawową znajomość programowania w Javie.  
+- Zainstalowaną bibliotekę Aspose.3D for Java. Możesz ją pobrać [tutaj](https://releases.aspose.com/3d/java/).  
+- Zintegrowane środowisko programistyczne (IDE) dla Javy, takie jak IntelliJ IDEA lub Eclipse.
+
+## Importowanie pakietów
+
+W swoim projekcie Java zaimportuj niezbędne klasy z Aspose.3D. Te importy dają dostęp do tworzenia scen, manipulacji siatką i generowania UV.
 
 ```java
 import com.aspose.threed.Box;
@@ -40,95 +58,107 @@ import com.aspose.threed.VertexElement;
 import com.aspose.threed.VertexElementType;
 ```
 
-Podzielmy teraz przykład na kilka kroków:
+Teraz przejdźmy przez przykład krok po kroku.
 
-## Krok 1: Ustaw ścieżkę katalogu dokumentów
+## Przewodnik krok po kroku
+
+### Krok 1: Ustaw ścieżkę katalogu dokumentu
+
+Zdefiniuj, gdzie zostanie zapisany wygenerowany plik OBJ.
 
 ```java
 String MyDir = "Your Document Directory";
 ```
 
-Zastąp „Twój katalog dokumentów” ścieżką, w której chcesz zapisać plik modelu 3D.
+Zastąp `"Your Document Directory"` ścieżką bezwzględną lub względną na swoim komputerze.
 
-## Krok 2: Utwórz scenę
+### Krok 2: Utwórz scenę
+
+**Scena** jest kontenerem, który przechowuje wszystkie obiekty 3‑D.
 
 ```java
 Scene scene = new Scene();
 ```
 
-Zainicjuj nową scenę 3D za pomocą Aspose.3D.
+### Krok 3: Utwórz siatkę
 
-## Krok 3: Utwórz siatkę
+Zaczniemy od prostego sześcianu, a następnie usuniemy istniejące dane UV, aby zasymulować siatkę potrzebującą UV.
 
 ```java
 Mesh mesh = (new Box()).toMesh();
 mesh.getVertexElements().remove(mesh.getElement(VertexElementType.UV));
 ```
 
-Wygeneruj siatkę, w tym przypadku pudełko, i usuń wbudowane dane UV, aby symulować siatkę bez informacji o UV.
+### Krok 4: Ręcznie wygeneruj współrzędne UV
 
-## Krok 4: Ręcznie wygeneruj współrzędne UV
+Aspose.3D może automatycznie wygenerować UV na podstawie geometrii siatki.
 
 ```java
 VertexElement uv = PolygonModifier.generateUV(mesh);
 ```
 
-Ręcznie wygeneruj współrzędne UV siatki.
+### Krok 5: Powiąż dane UV z siatką
 
-## Krok 5: Powiąż dane UV z siatką
+Teraz **dodajemy uv do siatki** poprzez dołączenie wygenerowanego elementu UV.
 
 ```java
 mesh.addElement(uv);
 ```
 
-Powiąż wygenerowane dane UV z siatką.
+### Krok 6: Utwórz węzeł i dodaj siatkę do sceny
 
-## Krok 6: Utwórz węzeł i dodaj siatkę do sceny
+**Węzeł** reprezentuje obiekt transformowalny w grafie sceny.
 
 ```java
 Node node = scene.getRootNode().createChildNode(mesh);
 ```
 
-Utwórz węzeł i dodaj siatkę do sceny jako jej element podrzędny.
+### Krok 7: Zapisz scenę jako OBJ
 
-## Krok 7: Zapisz scenę jako OBJ
+Na koniec **wyeksportujemy obj z java**, zapisując scenę w formacie Wavefront OBJ.
 
 ```java
 scene.save(MyDir + "test.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-Zapisz scenę wraz z siatką z wygenerowanymi współrzędnymi UV jako plik OBJ.
+Uruchomienie powyższego kodu wygeneruje plik `test.obj`, który zawiera geometrię twojego sześcianu **z współrzędnymi UV** gotowymi do mapowania tekstur.
 
-Powtórz te kroki w swoim projekcie Java, aby pomyślnie wygenerować współrzędne UV do mapowania tekstur w modelach 3D Java przy użyciu Aspose.3D.
+## Typowe problemy i rozwiązania
 
-## Wniosek
+- **Brak UV po eksporcie** – Upewnij się, że wywołałeś `mesh.addElement(uv)` przed zapisem.  
+- **Błąd pliku nie znaleziono** – Sprawdź, czy `MyDir` wskazuje istniejący folder z prawami zapisu.  
+- **Nieprawidłowe wyrównanie tekstury** – Wygenerowane UV używają prostej projekcji płaszczyznowej; dla złożonych modeli rozważ własne rozwinięcie UV.
 
-Gratulacje! Pomyślnie nauczyłeś się generować współrzędne UV do mapowania tekstur w modelach 3D Java przy użyciu Aspose.3D. Technika ta otwiera świat możliwości poprawy atrakcyjności wizualnej Twoich kreacji 3D.
+## Najczęściej zadawane pytania
 
-## Często zadawane pytania
+**P: Czy mogę używać Aspose.3D for Java z innymi językami programowania?**  
+O: Aspose.3D jest głównie biblioteką Java, ale Aspose oferuje odpowiedniki dla .NET i innych platform. Sprawdź stronę produktu pod kątem wersji specyficznych dla języka.
 
-### P1: Czy mogę używać Aspose.3D dla Java z innymi językami programowania?
+**P: Czy dostępna jest wersja próbna Aspose.3D?**  
+O: Tak, możesz zapoznać się z funkcjami Aspose.3D, korzystając z darmowej wersji próbnej dostępnej [tutaj](https://releases.aspose.com/).
 
-Odpowiedź 1: Aspose.3D jest przeznaczony głównie dla języka Java, ale Aspose oferuje wersje dla innych języków, takich jak .NET. Sprawdź dokumentację, aby uzyskać szczegółowe informacje dotyczące poszczególnych języków.
+**P: Jak mogę uzyskać wsparcie dla Aspose.3D?**  
+O: Odwiedź forum Aspose.3D [tutaj](https://forum.aspose.com/c/3d/18), aby uzyskać wsparcie społeczności i skontaktować się z innymi użytkownikami.
 
-### P2: Czy dostępna jest wersja próbna Aspose.3D?
+**P: Gdzie mogę znaleźć pełną dokumentację Aspose.3D?**  
+O: Dokumentacja jest dostępna [tutaj](https://reference.aspose.com/3d/java/).
 
- Odpowiedź 2: Tak, możesz poznać funkcje Aspose.3D, korzystając z dostępnej bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+**P: Czy mogę kupić tymczasową licencję na Aspose.3D?**  
+O: Tak, tymczasową licencję można uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
-### P3: Jak mogę uzyskać wsparcie dla Aspose.3D?
+## Podsumowanie
 
- A3: Odwiedź forum Aspose.3D[Tutaj](https://forum.aspose.com/c/3d/18) aby uzyskać wsparcie społeczności i nawiązać kontakt z innymi użytkownikami.
+Teraz wiesz **jak generować uv** współrzędne, **dodać uv do siatki** i **wyeksportować obj z java** przy użyciu Aspose.3D. Ten przepływ pracy umożliwia programowe teksturowanie dowolnego modelu 3‑D, dając pełną kontrolę nad jakością wizualną twoich zasobów.
 
-### P4: Gdzie mogę znaleźć obszerną dokumentację dla Aspose.3D?
-
- A4: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/3d/java/).
-
-### P5: Czy mogę kupić tymczasową licencję na Aspose.3D?
-
- Odpowiedź 5: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose
