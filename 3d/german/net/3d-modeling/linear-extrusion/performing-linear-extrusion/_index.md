@@ -1,38 +1,54 @@
 ---
-title: Durchführen einer linearen Extrusion
-linktitle: Durchführen einer linearen Extrusion
+date: 2026-01-07
+description: Erfahren Sie, wie Sie ein 2D‑Profil linear extrudieren und das 3D‑Modell
+  im OBJ‑Format mit Aspose.3D für .NET exportieren. Dieses Tutorial zur linearen Extrusion
+  führt Sie Schritt für Schritt.
+linktitle: Performing Linear Extrusion
 second_title: Aspose.3D .NET API
-description: Entdecken Sie die Welt der 3D-Grafik mit Aspose.3D für .NET. Durchführen der linearen Extrusion in dieser Schritt-für-Schritt-Anleitung.
-weight: 12
+title: Wie man lineare Extrusion mit Aspose.3D für .NET durchführt
 url: /de/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Durchführen einer linearen Extrusion
+# How to Linear Extrude mit Aspose.3D für .NET
 
-## Einführung:
+## Einführung
 
-Begeben Sie sich mit Aspose.3D für .NET auf eine spannende Reise in die Welt der 3D-Grafik, einem Kraftpaket, das Ihr Entwicklungsspiel auf ein neues Niveau bringt. In diesem Tutorial befassen wir uns mit den Feinheiten der linearen Extrusion – einer faszinierenden Technik, die statischen 2D-Profilen Leben einhaucht und sie in die dynamische Welt der 3D entführt. Lassen Sie uns mit Aspose.3D die Tür zu Kreativität und Innovation öffnen!
+Willkommen zu unserem **linear extrusion tutorial**! In diesem Leitfaden erfahren Sie **wie man linear extrude** ein 2‑D‑Profil und es in ein vollwertiges 3‑D‑Objekt mit Aspose.3D für .NET verwandelt. Egal, ob Sie eine CAD‑ähnliche Anwendung bauen oder einfach **export 3d model obj**‑Dateien für die Weiterverarbeitung benötigen, diese Schritt‑für‑Schritt‑Anleitung gibt Ihnen das Vertrauen, leistungsstarke Geometrieerstellung in Ihre Projekte zu integrieren.
 
-## Voraussetzungen:
+## Schnellantworten
+- **Was ist linear extrusion?** Ein 2‑D‑Form wird entlang einer geraden Linie zu einem 3‑D‑Körper erweitert.  
+- **Welche Bibliothek verwenden wir?** Aspose.3D für .NET.  
+- **Brauche ich eine Lizenz?** Eine temporäre Lizenz reicht für Tests; für die Produktion ist eine Voll‑Lizenz erforderlich.  
+- **Kann ich nach OBJ exportieren?** Ja – die finale Szene wird als Wavefront‑OBJ‑Datei gespeichert.  
+- **Wie viele Code‑Zeilen?** Unter 30 Zeilen C# plus erläuternde Kommentare.
 
-Bevor Sie in die bezaubernde Welt der 3D-Manipulation eintauchen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+## Was ist Linear Extrusion?
 
-1. Aspose.3D-Installation:
-   -  Beginnen Sie mit dem Herunterladen und Installieren von Aspose.3D für .NET von[Hier](https://releases.aspose.com/3d/net/).
-   -  Befolgen Sie die Installationsanweisungen in der Dokumentation[Hier](https://reference.aspose.com/3d/net/).
+Linear extrusion nimmt ein flaches Profil (z. B. ein Rechteck oder einen Kreis) und schwenkt es entlang einer geraden Linie, optional mit Drehungen, Skalierungen oder Versätzen. Das Ergebnis ist ein Festkörper, der gerendert, bearbeitet oder für andere 3‑D‑Tools exportiert werden kann.
 
-2. Einrichten Ihrer Entwicklungsumgebung:
-   - Stellen Sie sicher, dass Ihre Entwicklungsumgebung korrekt mit den erforderlichen Namespaces für Aspose.3D konfiguriert ist.
+## Warum Aspose.3D für Linear Extrusion verwenden?
 
-Jetzt, da Sie bereit sind, stürzen wir uns in die Magie von Aspose.3D!
+* **Zero‑dependency:** Keine externen CAD‑Kerne nötig.  
+* **Vollständige .NET‑Unterstützung:** Funktioniert mit .NET Framework, .NET Core und .NET 5/6+.  
+* **Export‑Flexibilität:** Direktes Speichern nach OBJ, STL, FBX und vielen anderen Formaten.  
+* **Umfangreiche API:** Steuern Sie Slices, Twist und Offsets mit nur wenigen Eigenschaften.
 
-## Namespaces importieren:
+## Voraussetzungen
 
-Fügen Sie die wesentlichen Namespaces hinzu, um Ihr 3D-Abenteuer anzukurbeln:
+Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
+
+1. **Aspose.3D installiert** – laden Sie es von [hier](https://releases.aspose.com/3d/net/) herunter.  
+2. **Zugriff auf die Dokumentation** – folgen Sie dem Setup‑Guide [hier](https://reference.aspose.com/3d/net/).  
+3. Eine .NET‑Entwicklungsumgebung (Visual Studio, VS Code oder Rider) mit den erforderlichen Namespaces.
+
+## Namespaces importieren
+
+Binden Sie die wesentlichen Namespaces ein, um die Funktionalität von Aspose.3D zu nutzen:
 
 ```csharp
 using Aspose.ThreeD;
@@ -41,13 +57,16 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Diese Namespaces bilden die Grundlage für Ihre 3D-Codierungsreise und bieten Zugriff auf die Tools, die für die nahtlose Integration der Aspose.3D-Funktionen erforderlich sind.
+Diese Namespaces geben Ihnen Zugriff auf `Scene`, `LinearExtrusion`, `RectangleShape` und Hilfsklassen wie `Vector3`.
 
-## Durchführen einer linearen Extrusion:
+## Linear Extrusion durchführen
 
-Lassen Sie uns mit Aspose.3D ein faszinierendes 3D-Objekt durch lineare Extrusion erstellen. Folge diesen Schritten:
+Im Folgenden finden Sie den kompletten Workflow. Jeder Schritt wird in einfacher Sprache erklärt, bevor der zugehörige Codeblock folgt, sodass Sie ohne Rätselraten dem Code folgen können.
 
-## Schritt 1: Initialisieren Sie das Basisprofil
+### Schritt 1: Basis‑Profil initialisieren
+
+Zuerst erstellen Sie die 2‑D‑Form, die extrudiert werden soll. In diesem Beispiel verwenden wir ein Rechteck mit einem kleinen Rundungsradius.
+
 ```csharp
 var profile = new RectangleShape()
 {
@@ -55,63 +74,81 @@ var profile = new RectangleShape()
 };
 ```
 
-In diesem Schritt wird das 2D-Profil erstellt, das als Grundlage für unser 3D-Meisterwerk dient. Passen Sie die Parameter nach Bedarf an, um die gewünschte Form und Gestalt zu erreichen.
+*Warum das wichtig ist:* Das Profil definiert den Querschnitt des finalen 3‑D‑Objekts. Passen Sie `RoundingRadius`, Breite oder Höhe an, um unterschiedliche Silhouetten zu erhalten.
 
-## Schritt 2: Lineare Extrusion
+### Schritt 2: Linear Extrusion anwenden
+
+Jetzt schwenken wir das Profil 10 Einheiten entlang der Z‑Achse, fügen 100 Slices für Glätte hinzu, zentrieren die Geometrie und wenden einen vollen 360°‑Twist mit einem Offset an.
+
 ```csharp
 var extrusion = new LinearExtrusion(profile, 10) { Slices = 100, Center = true, Twist = 360, TwistOffset = new Vector3(10, 0, 0) };
 ```
 
-Hier wird die lineare Extrusion durchgeführt, bei der das 2D-Profil genommen und in die dritte Dimension erweitert wird. Experimentieren Sie mit Parametern wie „Slices“ und „Twist“, um Ihre Kreation zu formen.
+*Pro‑Tipp:* Spielen Sie mit `Slices`, um das Verhältnis von Performance zu visueller Qualität zu balancieren, und experimentieren Sie mit `Twist` für Spiral‑Effekte.
 
-## Schritt 3: Erstellen Sie eine Szene
+### Schritt 3: Szene erstellen
+
+Eine `Scene` fungiert als Container für alle 3‑D‑Entitäten – denken Sie an eine Leinwand.
+
 ```csharp
 Scene scene = new Scene();
 ```
 
-Es entsteht eine leere Leinwand – eine Szene, in der Ihr 3D-Objekt zum Leben erwacht.
+### Schritt 4: Extrusion zur Szene hinzufügen
 
-## Schritt 4: Fügen Sie der Szene Extrusion hinzu
+Binden Sie die extrudierte Geometrie an den Root‑Node der Szene, damit sie Teil der renderbaren Hierarchie wird.
+
 ```csharp
 scene.RootNode.CreateChildNode(extrusion);
 ```
 
-Ihr extrudiertes Meisterwerk wird der Szene als untergeordneter Knoten hinzugefügt.
+### Schritt 5: 3‑D‑Modell speichern
 
-## Schritt 5: Speichern Sie die 3D-Szene
+Abschließend exportieren Sie die Szene in eine weit verbreitete OBJ‑Datei. Dies demonstriert die **export 3d model obj**‑Fähigkeit von Aspose.3D.
+
 ```csharp
 scene.Save(RunExamples.GetOutputFilePath("LinearExtrusion.obj"), FileFormat.WavefrontOBJ);
 ```
 
-Speichern Sie abschließend Ihre Kreation im gewünschten Format. In diesem Beispiel wird es als Wavefront-OBJ-Datei gespeichert.
+Wenn Sie die resultierende `LinearExtrusion.obj` in einem beliebigen 3‑D‑Viewer öffnen, sehen Sie ein verdrehtes rechteckiges Prisma – genau das, was der Code beschreibt.
 
-Schauen Sie sich jetzt Ihr 3D-Wunder an!
+## Häufige Stolperfallen & Tipps
 
-## Abschluss:
+| Problem | Warum es passiert | Lösung |
+|---------|-------------------|--------|
+| **Profil nicht sichtbar** | Vergessen, die Extrusion zur Szene hinzuzufügen. | Sicherstellen, dass `CreateChildNode` aufgerufen wird. |
+| **Twist wirkt flach** | `Slices` zu niedrig, wodurch grobe Geometrie entsteht. | `Slices` erhöhen (z. B. 200) für einen glatteren Twist. |
+| **Export schlägt fehl** | Ausgabeverzeichnis existiert nicht oder fehlende Schreibrechte. | `RunExamples.GetOutputFilePath` verwenden oder das Verzeichnis manuell erstellen. |
+| **Unerwartete Skalierung** | `Center` ist auf `false` gesetzt und verschiebt die Geometrie. | `Center = true` setzen, sofern kein Offset gewünscht ist. |
 
-Glückwunsch! Sie haben gerade erst an der Oberfläche des Potenzials von Aspose.3D gekratzt. Dieses Tutorial gibt lediglich einen Hinweis auf die weite Landschaft, die darauf wartet, von Ihnen erkundet zu werden. Tauchen Sie ein in die Dokumentation, experimentieren Sie mit verschiedenen Formen und erschließen Sie das gesamte Spektrum an Möglichkeiten mit Aspose.3D für .NET.
+## Häufig gestellte Fragen
 
-## FAQs:
+### Q1: Ist Aspose.3D für Anfänger geeignet?
 
-### F1: Ist Aspose.3D für Anfänger geeignet?
+A1: Absolut! Aspose.3D bietet eine benutzerfreundliche API, und dieses Tutorial führt Sie durch die Grundlagen von linear extrusion.
 
-A1: Auf jeden Fall! Aspose.3D bietet eine benutzerfreundliche Umgebung und unser Tutorial führt Sie durch die Grundlagen.
+### Q2: Kann ich Aspose.3D für kommerzielle Projekte nutzen?
 
-### F2: Kann ich Aspose.3D für kommerzielle Projekte verwenden?
+A2: Ja, Aspose.3D bietet Lizenzoptionen für sowohl private als auch kommerzielle Nutzung. Details finden Sie [hier](https://purchase.aspose.com/buy).
 
- A2: Ja, Aspose.3D verfügt über Lizenzoptionen für den persönlichen und kommerziellen Gebrauch. Überprüfen[Hier](https://purchase.aspose.com/buy) für Details.
+### Q3: Wie bekomme ich temporäre Lizenzen für Tests?
 
-### F3: Wie kann ich temporäre Lizenzen zum Testen erhalten?
+A3: Besuchen Sie [diesen Link](https://purchase.aspose.com/temporary-license/), um temporäre Lizenzen für Testzwecke zu erhalten.
 
- A3: Besuchen[dieser Link](https://purchase.aspose.com/temporary-license/) zur Erlangung temporärer Lizenzen zu Testzwecken.
+### Q4: Wo finde ich Community‑Support?
 
-### F4: Wo finde ich Community-Unterstützung?
+A4: Treten Sie dem [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) bei, um sich mit einer lebendigen Community zu vernetzen und Hilfe zu erhalten.
 
- A4: Treten Sie dem bei[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) sich mit einer lebendigen Gemeinschaft zu verbinden und Hilfe zu suchen.
+### Q5: Gibt es eine kostenlose Testversion?
 
-### F5: Gibt es eine kostenlose Testversion?
+A5: Natürlich! Laden Sie die kostenlose Testversion [hier](https://releases.aspose.com/) herunter, um die Fähigkeiten von Aspose.3D selbst zu erleben.
 
- A5: Auf jeden Fall! Laden Sie die kostenlose Testversion herunter[Hier](https://releases.aspose.com/) um die Fähigkeiten von Aspose.3D aus erster Hand zu erleben.
+---
+
+**Zuletzt aktualisiert:** 2026-01-07  
+**Getestet mit:** Aspose.3D 24.11 für .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

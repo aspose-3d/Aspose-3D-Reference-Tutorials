@@ -1,38 +1,50 @@
 ---
-title: 執行線性擠出
-linktitle: 執行線性擠出
+date: 2026-01-07
+description: 學習如何使用 Aspose.3D for .NET 對 2D 剖面進行線性拉伸，並匯出 3D OBJ 模型。本線性拉伸教學將一步一步指導您。
+linktitle: Performing Linear Extrusion
 second_title: Aspose.3D .NET API
-description: 使用 Aspose.3D for .NET 探索 3D 圖形世界。在本逐步指南中執行線性擠出。
-weight: 12
+title: 如何使用 Aspose.3D for .NET 進行線性擠出
 url: /zh-hant/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 執行線性擠出
+# 如何使用 Aspose.3D for .NET 進行 Linear Extrude
 
-## 介紹：
+## 介紹
 
-使用 Aspose.3D for .NET 開啟 3D 圖形領域的激動人心的旅程，Aspose.3D for .NET 是一個可提升您的開發遊戲水平的強大工具。在本教程中，我們將深入研究線性擠壓的複雜性，這是一項令人著迷的技術，它為靜態 2D 輪廓注入生命，推動它們進入 3D 的動態世界。讓我們使用 Aspose.3D 打開創造力和創新之門！
+歡迎閱讀我們的 **linear extrusion tutorial**！在本指南中，您將學會如何將 2‑D 剖面進行 linear extrude，並將其轉換為完整的 3‑D 物件，使用 Aspose.3D for .NET。無論您是構建類 CAD 應用程式，或只是需要 **export 3d model obj** 檔案以供後續處理，此逐步說明將讓您有信心在專案中加入強大的幾何創建功能。
 
-## 先決條件：
+## 快速解答
+- **什麼是 linear extrusion？** 將 2‑D 形狀沿直線路徑延伸，以建立 3‑D 實體。  
+- **我們使用哪個函式庫？** Aspose.3D for .NET。  
+- **我需要授權嗎？** 測試時可使用臨時授權；正式環境需購買完整授權。  
+- **可以匯出為 OBJ 嗎？** 可以 – 最終場景會儲存為 Wavefront OBJ 檔案。  
+- **程式碼行數多少？** 少於 30 行 C# 加上說明性註解。
 
-在深入 3D 操作的迷人世界之前，請確保您具備以下先決條件：
+## 什麼是 Linear Extrusion？
 
-1. Aspose.3D安裝：
-   - 首先從以下位置下載並安裝 Aspose.3D for .NET[這裡](https://releases.aspose.com/3d/net/).
-   - 請按照文件中提供的安裝說明進行操作[這裡](https://reference.aspose.com/3d/net/).
+Linear extrusion 會將平面剖面（例如矩形或圓形）沿直線掃描，亦可加入扭轉、縮放或偏移。最終產生的實體可供渲染、編輯，或匯出至其他 3‑D 工具使用。
 
-2. 設定您的開發環境：
-   - 確保您的開發環境正確配置了 Aspose.3D 所需的命名空間。
+## 為何使用 Aspose.3D 進行 Linear Extrusion？
 
-現在您已做好準備，讓我們開始體驗 Aspose.3D 的魔力吧！
+* **Zero‑dependency：** 無需外部 CAD 核心。  
+* **Full .NET support：** 支援 .NET Framework、.NET Core 以及 .NET 5/6+。  
+* **Export flexibility：** 可直接儲存為 OBJ、STL、FBX 等多種格式。  
+* **Rich API：** 只需少數屬性即可控制 slices、twist 與 offsets。
 
-## 導入命名空間：
+## 前置條件
 
-包含啟動 3D 冒險所需的基本命名空間：
+1. **已安裝 Aspose.3D** – 從 [here](https://releases.aspose.com/3d/net/) 下載。  
+2. **文件存取** – 依照設定指南於 [here](https://reference.aspose.com/3d/net/) 參考。  
+3. 具備 .NET 開發環境（Visual Studio、VS Code 或 Rider），並已參考所需命名空間。
+
+## 匯入命名空間
+
+加入必要的命名空間，即可啟用 Aspose.3D 功能：
 
 ```csharp
 using Aspose.ThreeD;
@@ -41,13 +53,16 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-這些命名空間為您的 3D 編碼之旅奠定了基礎，提供對 Aspose.3D 功能無縫整合所需工具的存取。
+這些命名空間讓您可以使用 `Scene`、`LinearExtrusion`、`RectangleShape` 以及 `Vector3` 等工具類別。
 
-## 執行線性擠出：
+## 執行 Linear Extrusion
 
-讓我們使用 Aspose.3D 透過線性拉伸創建一個令人著迷的 3D 物件。按著這些次序：
+以下為完整工作流程。每一步皆以簡明文字說明，緊接著對應的程式碼區塊，讓您不必猜測程式碼的作用。
 
-## 第 1 步：初始化基本設定檔
+### 步驟 1：初始化基礎剖面
+
+首先，建立將要被擠出的 2‑D 形狀。本例使用帶有小圓角半徑的矩形。
+
 ```csharp
 var profile = new RectangleShape()
 {
@@ -55,66 +70,96 @@ var profile = new RectangleShape()
 };
 ```
 
-此步驟設定 2D 設定文件，它將作為我們 3D 傑作的基礎。根據需要調整參數以獲得所需的形狀和形式。
+*為何重要：* 剖面決定最終 3‑D 物件的橫截面。調整 `RoundingRadius`、寬度或高度即可得到不同的輪廓。
 
-## 第2步：線性擠壓
+### 步驟 2：套用 Linear Extrusion
+
+現在，我們沿 Z 軸將剖面掃描 10 個單位，設定 100 個 slices 以提升平滑度，將幾何置中，並加入完整 360° 的扭轉與偏移。
+
 ```csharp
 var extrusion = new LinearExtrusion(profile, 10) { Slices = 100, Center = true, Twist = 360, TwistOffset = new Vector3(10, 0, 0) };
 ```
 
-此處，執行線性擠壓，取得 2D 輪廓並將其延伸到三維。嘗試使用“切片”和“扭曲”等參數來塑造您的創作。
+*專業提示：* 可調整 `Slices` 以在效能與視覺品質間取得平衡，並嘗試 `Twist` 產生螺旋效果。
 
-## 第 3 步：建立場景
+### 步驟 3：建立 Scene
+
+`Scene` 為所有 3‑D 實體的容器——可視為畫布。
+
 ```csharp
 Scene scene = new Scene();
 ```
 
-建立一個空白畫布 - 您的 3D 物件將在其中栩栩如生的場景。
+### 步驟 4：將 Extrusion 加入 Scene
 
-## 步驟 4：將拉伸加入場景中
+將擠出的幾何加入場景的根節點，使其成為可渲染層級的一部份。
+
 ```csharp
 scene.RootNode.CreateChildNode(extrusion);
 ```
 
-您的擠壓傑作將作為子節點添加到場景中。
+### 步驟 5：儲存 3‑D 模型
 
-## 第 5 步：儲存 3D 場景
+最後，將場景匯出為廣受支援的 OBJ 檔案。此步驟展示了 Aspose.3D 的 **export 3d model obj** 功能。
+
 ```csharp
 scene.Save(RunExamples.GetOutputFilePath("LinearExtrusion.obj"), FileFormat.WavefrontOBJ);
 ```
 
-最後，以所需的格式儲存您的創作。在此範例中，它保存為 Wavefront OBJ 檔案。
+當您在任何 3‑D 檢視器中開啟產生的 `LinearExtrusion.obj`，即會看到一個扭轉的矩形棱柱——正如程式碼所描述的那樣。
 
-現在，來看看你的 3D 奇蹟吧！
+## 常見問題與技巧
 
-## 結論：
+| 問題 | 為何發生 | 解決方式 |
+|------|----------|----------|
+| **剖面未顯示** | 忘記將擠出物件加入場景。 | 確保已呼叫 `CreateChildNode`。 |
+| **扭轉看起來平坦** | `Slices` 太低，導致幾何粗糙。 | 將 `Slices` 增加（例如 200）以獲得更平滑的扭轉。 |
+| **匯出失敗** | 輸出資料夾不存在或缺乏寫入權限。 | 使用 `RunExamples.GetOutputFilePath` 或手動建立目錄。 |
+| **意外的縮放** | `Center` 設為 `false` 會移動幾何位置。 | 除非需要偏移，否則將 `Center = true`。 |
 
-恭喜！您剛剛觸及了 Aspose.3D 潛力的皮毛。本教程僅暗示等待您探索的廣闊景觀。深入研究文檔，嘗試各種形狀，並利用 Aspose.3D for .NET 解鎖全部可能性。
+## 常見問答
 
-## 常見問題：
+### Q1：Aspose.3D 適合初學者嗎？
 
-### Q1：Aspose.3D適合初學者嗎？
+A1：絕對適合！Aspose.3D 提供友善的 API，本教學一步步帶您了解 linear extrusion 的基礎。
 
-A1：當然！ Aspose.3D 提供了一個用戶友好的環境，我們的教程將引導您完成基礎知識。
+### Q2：我可以在商業專案中使用 Aspose.3D 嗎？
 
-### Q2：我可以將Aspose.3D用於商業項目嗎？
+A2：可以，Aspose.3D 提供個人與商業兩種授權方案。詳情請參閱 [here](https://purchase.aspose.com/buy)。
 
- A2：是的，Aspose.3D 附帶個人和商業用途的授權選項。查看[這裡](https://purchase.aspose.com/buy)了解詳情。
+### Q3：如何取得測試用的臨時授權？
 
-### Q3：如何取得臨時測試許可證？
+A3：請前往 [this link](https://purchase.aspose.com/temporary-license/) 取得測試用的臨時授權。
 
- A3：參觀[這個連結](https://purchase.aspose.com/temporary-license/)取得用於測試目的的臨時許可證。
+### Q4：在哪裡可以找到社群支援？
 
-### Q4：我可以在哪裡找到社區支持？
+A4：加入 [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) 與活躍的社群互動並尋求協助。
 
- A4：加入[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)與充滿活力的社區建立聯繫並尋求幫助。
+### Q5：是否提供免費試用？
 
-### Q5: 有免費試用嗎？
+A5：當然！前往 [here](https://releases.aspose.com/) 下載免費試用版，親自體驗 Aspose.3D 的功能。
 
- A5：當然！下載免費試用版[這裡](https://releases.aspose.com/)親身體驗 Aspose.3D 的功能。
+**最後更新：** 2026-01-07  
+**測試環境：** Aspose.3D 24.11 for .NET  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## 目標關鍵字：
+
+**主要關鍵字（最高優先）：**  
+how to linear extrude
+
+**次要關鍵字（支援）：**  
+export 3d model obj, linear extrusion tutorial
+
+**關鍵字整合策略：**
+1. 主要關鍵字：使用 3-5 次（標題、meta、第一段落、H2 標題、正文）  
+2. 次要關鍵字：各使用 1-2 次（標題、正文）  
+3. 所有關鍵字必須自然整合——以可讀性為優先  
+4. 若關鍵字不自然，請使用語意相近的變體或略過

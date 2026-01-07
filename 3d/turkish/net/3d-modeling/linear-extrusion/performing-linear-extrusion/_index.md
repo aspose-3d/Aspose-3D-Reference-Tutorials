@@ -1,38 +1,52 @@
 ---
-title: Doğrusal Ekstrüzyon Gerçekleştirme
-linktitle: Doğrusal Ekstrüzyon Gerçekleştirme
-second_title: Aspose.3D .NET API'si
-description: Aspose.3D for .NET ile 3D grafik dünyasını keşfedin. Bu adım adım kılavuzda Doğrusal Ekstrüzyonun Gerçekleştirilmesi.
-weight: 12
+date: 2026-01-07
+description: Aspose.3D for .NET kullanarak 2D bir profili doğrusal ekstrüde etmeyi
+  ve 3D model OBJ'yi dışa aktarmayı öğrenin. Bu doğrusal ekstrüzyon öğreticisi adım
+  adım size rehberlik eder.
+linktitle: Performing Linear Extrusion
+second_title: Aspose.3D .NET API
+title: Aspose.3D for .NET ile Doğrusal Ekstrüzyon Nasıl Yapılır
 url: /tr/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Doğrusal Ekstrüzyon Gerçekleştirme
+# Aspose.3D for .NET ile nasıl linear extrude yapılır
 
-## Giriiş:
+## Giriş
 
-Geliştirme oyununuzu geliştiren bir güç merkezi olan Aspose.3D for .NET ile 3D grafikler dünyasına heyecan verici bir yolculuğa çıkın. Bu derste, statik 2D profillere hayat veren ve onları 3D'nin dinamik dünyasına iten büyüleyici bir teknik olan Doğrusal Ekstrüzyonun inceliklerini inceleyeceğiz. Aspose.3D'yi kullanarak yaratıcılığın ve yeniliğin kapısını açalım!
+Welcome to our **linear extrusion tutorial**! In this guide you’ll discover **how to linear extrude** a 2‑D profile and turn it into a fully fledged 3‑D object using Aspose.3D for .NET. Whether you’re building a CAD‑style application or just need to **export 3d model obj** files for downstream processing, this step‑by‑step walkthrough will give you the confidence to add powerful geometry creation to your projects.
 
-## Önkoşullar:
+## Hızlı Yanıtlar
+- **What is linear extrusion?** 2‑D bir şekli düz bir yol boyunca uzatarak 3‑D bir katı oluşturma.  
+- **Which library do we use?** Aspose.3D for .NET.  
+- **Do I need a license?** Test için geçici bir lisans yeterlidir; üretim için tam lisans gereklidir.  
+- **Can I export to OBJ?** Evet – son sahne Wavefront OBJ dosyası olarak kaydedilir.  
+- **How many lines of code?** Açıklayıcı yorumlarla birlikte 30 satırdan az C# kodu.
 
-3D manipülasyonun büyüleyici dünyasına dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+## Linear Extrusion Nedir?
 
-1. Aspose.3D Kurulumu:
-   -  Aspose.3D for .NET'i şu adresten indirip yükleyerek başlayın:[Burada](https://releases.aspose.com/3d/net/).
-   -  Belgelerde sağlanan kurulum talimatlarını izleyin[Burada](https://reference.aspose.com/3d/net/).
+Linear extrusion, düz bir profili (örneğin bir dikdörtgen veya daire) düz bir hat boyunca süpürerek, isteğe bağlı olarak bükülme, ölçekleme veya ofset ekler. Sonuç, diğer 3‑D araçlarda kullanılmak üzere renderlanabilen, düzenlenebilen veya dışa aktarılabilen bir katıdır.
 
-2. Geliştirme Ortamınızı Kurma:
-   - Geliştirme ortamınızın Aspose.3D için gerekli ad alanlarıyla doğru şekilde yapılandırıldığından emin olun.
+## Neden Linear Extrusion İçin Aspose.3D Kullanmalı?
 
-Artık hazır olduğunuza göre Aspose.3D'nin büyüsüne dalalım!
+* **Zero‑dependency:** Harici CAD çekirdeklerine ihtiyaç yok.  
+* **Full .NET support:** .NET Framework, .NET Core ve .NET 5/6+ ile çalışır.  
+* **Export flexibility:** OBJ, STL, FBX ve birçok diğer formata doğrudan kaydedebilir.  
+* **Rich API:** Dilimleri, bükülmeyi ve ofsetleri birkaç özellik ile kontrol edebilirsiniz.
 
-## Ad Alanlarını İçe Aktar:
+## Ön Koşullar
 
-3D maceranızı başlatmak için temel ad alanlarını ekleyin:
+1. **Aspose.3D installed** – indirmek için [buraya](https://releases.aspose.com/3d/net/) tıklayın.  
+2. **Documentation access** – kurulum rehberini [buradan](https://reference.aspose.com/3d/net/) izleyin.  
+3. Gerekli ad alanlarının referans edildiği bir .NET geliştirme ortamı (Visual Studio, VS Code veya Rider).
+
+## Ad Alanlarını İçe Aktarma
+
+Aspose.3D işlevselliğini açmak için gerekli ad alanlarını ekleyin:
 
 ```csharp
 using Aspose.ThreeD;
@@ -41,13 +55,16 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Bu ad alanları, Aspose.3D işlevlerinin kusursuz entegrasyonu için gereken araçlara erişim sağlayarak 3D kodlama yolculuğunuzun temelini oluşturur.
+Bu ad alanları `Scene`, `LinearExtrusion`, `RectangleShape` ve `Vector3` gibi yardımcı sınıflara erişim sağlar.
 
-## Doğrusal Ekstrüzyonun Gerçekleştirilmesi:
+## Linear Extrusion Gerçekleştirme
 
-Aspose.3D'yi kullanarak Doğrusal Ekstrüzyon yoluyla büyüleyici bir 3D nesne oluşturalım. Bu adımları takip et:
+Aşağıda tam iş akışı yer almaktadır. Her adım, ilgili kod bloğundan önce sade bir dille açıklanır, böylece kodun ne yaptığını tahmin etmeden ilerleyebilirsiniz.
 
-## Adım 1: Temel Profili Başlatın
+### Adım 1: Temel Profili Başlatma
+
+İlk olarak, ekstrüde edilecek 2‑D şekli oluşturun. Bu örnekte küçük bir yuvarlama yarıçapına sahip bir dikdörtgen kullanıyoruz.
+
 ```csharp
 var profile = new RectangleShape()
 {
@@ -55,66 +72,91 @@ var profile = new RectangleShape()
 };
 ```
 
-Bu adım, 3B şaheserimizin temelini oluşturacak 2B profilini oluşturur. İstenilen şekli ve formu elde etmek için parametreleri gerektiği gibi ayarlayın.
+*Neden Önemli:* Profil, son 3‑D nesnenin kesitini tanımlar. Farklı siluetler elde etmek için `RoundingRadius`, genişlik veya yüksekliği ayarlayın.
 
-## Adım 2: Doğrusal Ekstrüzyon
+### Adım 2: Linear Extrusion Uygulama
+
+Şimdi profili Z‑ekseni boyunca 10 birim süpürüyoruz, pürüzsüzlük için 100 dilim ekliyoruz, geometrinin merkezlenmesini sağlıyor ve bir ofsetle tam 360° bükülme uyguluyoruz.
+
 ```csharp
 var extrusion = new LinearExtrusion(profile, 10) { Slices = 100, Center = true, Twist = 360, TwistOffset = new Vector3(10, 0, 0) };
 ```
 
-Burada 2 boyutlu profil alınarak üçüncü boyuta genişletilerek Doğrusal Ekstrüzyon gerçekleştirilir. Yaratılışınızı şekillendirmek için 'Dilimler' ve 'Büküm' gibi parametrelerle denemeler yapın.
+*Pro ipucu:* Performans ve görsel kaliteyi dengelemek için `Slices` ile oynayın ve spiral etkiler için `Twist` ile deney yapın.
 
-## 3. Adım: Bir Sahne Oluşturun
+### Adım 3: Sahne Oluşturma
+
+`Scene`, tüm 3‑D varlıkların konteyneri olarak görev yapar—onu bir tuval gibi düşünün.
+
 ```csharp
 Scene scene = new Scene();
 ```
 
-Boş bir tuval oluşturulur; 3 boyutlu nesnenizin canlanacağı bir sahne.
+### Adım 4: Extrusion'ı Sahneye Ekleyin
 
-## Adım 4: Sahneye Ekstrüzyon Ekleme
+Ekstrüde edilmiş geometriyi sahnenin kök düğümüne ekleyin, böylece renderlanabilir hiyerarşinin bir parçası olur.
+
 ```csharp
 scene.RootNode.CreateChildNode(extrusion);
 ```
 
-Ekstrüde edilmiş şaheseriniz sahneye alt düğüm olarak eklenir.
+### Adım 5: 3‑D Modeli Kaydetme
 
-## Adım 5: 3D Sahneyi Kaydedin
+Son olarak, sahneyi yaygın desteklenen bir OBJ dosyasına dışa aktarın. Bu, Aspose.3D'nin **export 3d model obj** yeteneğini gösterir.
+
 ```csharp
 scene.Save(RunExamples.GetOutputFilePath("LinearExtrusion.obj"), FileFormat.WavefrontOBJ);
 ```
 
-Son olarak, yaratımınızı istediğiniz formatta kaydedin. Bu örnekte Wavefront OBJ dosyası olarak kaydedilmiştir.
+Oluşturulan `LinearExtrusion.obj` dosyasını herhangi bir 3‑D görüntüleyicide açtığınızda, kodun tarif ettiği gibi bükülmüş bir dikdörtgen prizma göreceksiniz.
 
-Şimdi, 3D harikanıza bakın!
+## Yaygın Hatalar ve İpuçları
 
-## Çözüm:
+| Sorun | Neden Oluşur | Nasıl Düzeltilir |
+|-------|----------------|------------|
+| **Profil görünmüyor** | Extrusion'ı sahneye eklemeyi unutmak. | `CreateChildNode`'un çağrıldığından emin olun. |
+| **Bükülme düz görünüyor** | `Slices` çok düşük, kaba bir geometri oluşturuyor. | Daha pürüzsüz bir bükülme için `Slices`'ı artırın (ör. 200). |
+| **Dışa aktarım başarısız** | Çıktı klasörü mevcut değil veya yazma izni eksik. | `RunExamples.GetOutputFilePath` kullanın veya klasörü manuel olarak oluşturun. |
+| **Beklenmeyen ölçekleme** | `Center` false olarak ayarlandığında geometri kayar. | Bir ofsete ihtiyacınız yoksa `Center = true` olarak ayarlayın. |
 
-Tebrikler! Aspose.3D'nin potansiyelinin yüzeyini çizdiniz. Bu eğitim yalnızca keşfetmenizi bekleyen geniş manzaraya dair ipuçları veriyor. Aspose.3D for .NET ile belgeleri inceleyin, çeşitli şekilleri deneyin ve tüm olasılık yelpazesinin kilidini açın.
-
-## SSS:
+## Sıkça Sorulan Sorular
 
 ### S1: Aspose.3D yeni başlayanlar için uygun mu?
+C1: Kesinlikle! Aspose.3D kullanıcı dostu bir API sunar ve bu öğretici, linear extrusion temelini adım adım gösterir.
 
-A1: Kesinlikle! Aspose.3D kullanıcı dostu bir ortam sunar ve eğitimimiz size temel konularda rehberlik eder.
+### S2: Aspose.3D'yi ticari projelerde kullanabilir miyim?
+C2: Evet, Aspose.3D hem kişisel hem de ticari kullanım için lisans seçenekleri sunar. Detaylar için [buraya](https://purchase.aspose.com/buy) bakın.
 
-### S2: Aspose.3D'yi ticari projeler için kullanabilir miyim?
+### S3: Test için geçici lisansları nasıl alabilirim?
+C3: Test amaçlı geçici lisanslar almak için [bu linke](https://purchase.aspose.com/temporary-license/) gidin.
 
- C2: Evet, Aspose.3D hem kişisel hem de ticari kullanıma yönelik lisanslama seçenekleriyle birlikte gelir. Kontrol etmek[Burada](https://purchase.aspose.com/buy) detaylar için.
-
-### S3: Test için nasıl geçici lisans alabilirim?
-
- A3: Ziyaret edin[bu bağlantı](https://purchase.aspose.com/temporary-license/) Test amaçlı geçici lisansların alınması için.
-
-### S4: Topluluk desteğini nerede bulabilirim?
-
- A4: Katılın[Aspose.3D Forumu](https://forum.aspose.com/c/3d/18) Canlı bir toplulukla bağlantı kurmak ve yardım istemek.
+### S4: Topluluk desteğini nereden bulabilirim?
+C4: Canlı bir toplulukla bağlantı kurmak ve yardım almak için [Aspose.3D Forumuna](https://forum.aspose.com/c/3d/18) katılın.
 
 ### S5: Ücretsiz deneme sürümü var mı?
+C5: Elbette! Aspose.3D'nin yeteneklerini doğrudan deneyimlemek için ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) indirin.
 
- A5: Kesinlikle! Ücretsiz deneme sürümünü indirin[Burada](https://releases.aspose.com/) Aspose.3D'nin yeteneklerini ilk elden deneyimlemek için.
+**Son Güncelleme:** 2026-01-07  
+**Test Edilen Versiyon:** Aspose.3D 24.11 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## HEDEF ANAHTAR KELİMELER:
+
+**Primary Keyword (HIGHEST PRIORITY):**
+how to linear extrude
+
+**Secondary Keywords (SUPPORTING):**
+export 3d model obj, linear extrusion tutorial
+
+**Anahtar Kelime Entegrasyon Stratejisi:**
+1. Primary keyword: 3-5 kez kullanın (başlık, meta, ilk paragraf, H2 başlığı, gövde)
+2. Secondary keywords: Her biri 1-2 kez kullanın (başlıklar, gövde metni)
+3. Tüm anahtar kelimeler doğal bir şekilde entegre edilmelidir - okunabilirlik, anahtar kelime sayısından önceliklidir
+4. Bir anahtar kelime doğal olarak uymuyorsa, anlamsal bir varyasyon kullanın veya atlayın

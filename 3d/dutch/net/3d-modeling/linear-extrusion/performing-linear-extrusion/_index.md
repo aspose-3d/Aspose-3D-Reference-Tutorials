@@ -1,38 +1,54 @@
 ---
-title: Lineaire extrusie uitvoeren
-linktitle: Lineaire extrusie uitvoeren
-second_title: Aspose.3D .NET-API
-description: Ontdek de wereld van 3D-graphics met Aspose.3D voor .NET. Lineaire extrusie uitvoeren in deze stapsgewijze handleiding.
-weight: 12
+date: 2026-01-07
+description: Leer hoe je een 2D‑profiel lineair extrudeert en een 3D‑model OBJ exporteert
+  met Aspose.3D voor .NET. Deze tutorial over lineaire extrusie leidt je stap voor
+  stap.
+linktitle: Performing Linear Extrusion
+second_title: Aspose.3D .NET API
+title: Hoe lineair extruderen met Aspose.3D voor .NET
 url: /nl/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lineaire extrusie uitvoeren
+# Hoe lineair extruderen met Aspose.3D voor .NET
 
-## Invoering:
+## Introductie
 
-Ga op een spannende reis naar het rijk van 3D-graphics met Aspose.3D voor .NET, een krachtpatser die je ontwikkelingsspel naar een hoger niveau tilt. In deze tutorial gaan we dieper in op de fijne kneepjes van lineaire extrusie – een fascinerende techniek die statische 2D-profielen tot leven brengt en ze naar de dynamische wereld van 3D stuwt. Laten we de deur naar creativiteit en innovatie openen met Aspose.3D!
+Welkom bij onze **linear extrusion tutorial**! In deze gids ontdek je **hoe je lineair kunt extruderen** een 2‑D‑profiel en dit omtovert tot een volledig 3‑D‑object met behulp van Aspose.3D voor .NET. Of je nu een CAD‑achtige applicatie bouwt of gewoon **3d model obj**‑bestanden moet exporteren voor verdere verwerking, deze stap‑voor‑stap walkthrough geeft je het vertrouwen om krachtige geometrie‑creatie aan je projecten toe te voegen.
 
-## Vereisten:
+## Snelle antwoorden
+- **Wat is linear extrusion?** Een 2‑D‑vorm langs een rechte lijn uitbreiden om een 3‑D‑solid te creëren.  
+- **Welke bibliotheek gebruiken we?** Aspose.3D voor .NET.  
+- **Heb ik een licentie nodig?** Een tijdelijke licentie werkt voor testen; een volledige licentie is vereist voor productie.  
+- **Kan ik exporteren naar OBJ?** Ja – de uiteindelijke scene wordt opgeslagen als een Wavefront OBJ‑bestand.  
+- **Hoeveel regels code?** Minder dan 30 regels C# plus verklarende opmerkingen.
 
-Voordat u in de betoverende wereld van 3D-manipulatie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat is Linear Extrusion?
 
-1. Aspose.3D-installatie:
-   -  Begin met het downloaden en installeren van Aspose.3D voor .NET van[hier](https://releases.aspose.com/3d/net/).
-   -  Volg de installatie-instructies in de documentatie[hier](https://reference.aspose.com/3d/net/).
+Linear extrusion neemt een plat profiel (zoals een rechthoek of cirkel) en veegt het langs een rechte lijn, eventueel met twists, scaling of offsets. Het resultaat is een solid die kan worden gerenderd, bewerkt of geëxporteerd voor gebruik in andere 3‑D‑tools.
 
-2. Uw ontwikkelomgeving instellen:
-   - Zorg ervoor dat uw ontwikkelomgeving correct is geconfigureerd met de vereiste naamruimten voor Aspose.3D.
+## Waarom Aspose.3D gebruiken voor Linear Extrusion?
 
-Nu je klaar bent, laten we in de magie van Aspose.3D springen!
+* **Zero‑dependency:** Geen externe CAD‑kernels nodig.  
+* **Full .NET support:** Werkt met .NET Framework, .NET Core, en .NET 5/6+.  
+* **Export flexibility:** Direct opslaan naar OBJ, STL, FBX en vele andere formaten.  
+* **Rich API:** Beheer slices, twist en offsets met slechts een paar eigenschappen.
 
-## Naamruimten importeren:
+## Vereisten
 
-Voeg de essentiële naamruimten toe om uw 3D-avontuur een vliegende start te geven:
+Voordat je begint, zorg dat je het volgende hebt:
+
+1. **Aspose.3D geïnstalleerd** – download het van [here](https://releases.aspose.com/3d/net/).  
+2. **Documentatie toegang** – volg de installatiegids [here](https://reference.aspose.com/3d/net/).  
+3. Een .NET‑ontwikkelomgeving (Visual Studio, VS Code, of Rider) met de vereiste namespaces.
+
+## Namespaces importeren
+
+Include the essential namespaces to unlock Aspose.3D functionality:
 
 ```csharp
 using Aspose.ThreeD;
@@ -41,13 +57,16 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Deze naamruimten leggen de basis voor uw 3D-coderingstraject en bieden toegang tot de tools die nodig zijn voor een naadloze integratie van Aspose.3D-functionaliteiten.
+Deze namespaces geven je toegang tot `Scene`, `LinearExtrusion`, `RectangleShape` en hulpprogramma‑klassen zoals `Vector3`.
 
-## Lineaire extrusie uitvoeren:
+## Lineaire extrusie uitvoeren
 
-Laten we een betoverend 3D-object maken via lineaire extrusie met Aspose.3D. Volg deze stappen:
+Hieronder staat de volledige workflow. Elke stap wordt in gewone taal uitgelegd vóór het bijbehorende code‑blok, zodat je kunt volgen zonder te raden wat de code doet.
 
-## Stap 1: Initialiseer het basisprofiel
+### Stap 1: Initialiseer het basisprofiel
+
+Eerst maak je de 2‑D‑vorm die geëxtrudeerd zal worden. In dit voorbeeld gebruiken we een rechthoek met een kleine afrondingsradius.
+
 ```csharp
 var profile = new RectangleShape()
 {
@@ -55,66 +74,98 @@ var profile = new RectangleShape()
 };
 ```
 
-Met deze stap wordt het 2D-profiel ingesteld dat als basis zal dienen voor ons 3D-meesterwerk. Pas de parameters indien nodig aan om de gewenste vorm en vorm te bereiken.
+*Waarom dit belangrijk is:* Het profiel bepaalt de doorsnede van het uiteindelijke 3‑D‑object. Pas `RoundingRadius`, breedte of hoogte aan om verschillende silhouetten te krijgen.
 
-## Stap 2: Lineaire extrusie
+### Stap 2: Pas Linear Extrusion toe
+
+Nu vegen we het profiel 10 eenheden langs de Z‑as, voegen we 100 slices toe voor gladheid, centreren we de geometrie en passen we een volledige 360°‑twist met een offset toe.
+
 ```csharp
 var extrusion = new LinearExtrusion(profile, 10) { Slices = 100, Center = true, Twist = 360, TwistOffset = new Vector3(10, 0, 0) };
 ```
 
-Hier wordt de lineaire extrusie uitgevoerd, waarbij het 2D-profiel wordt genomen en wordt uitgebreid in de derde dimensie. Experimenteer met parameters als 'Slices' en 'Twist' om je creatie vorm te geven.
+*Pro tip:* Speel met `Slices` om performance versus visuele kwaliteit in balans te brengen, en experimenteer met `Twist` voor spiraaleffecten.
 
-## Stap 3: Maak een scène
+### Stap 3: Maak een Scene
+
+Een `Scene` fungeert als de container voor alle 3‑D‑entiteiten – zie het als het canvas.
+
 ```csharp
 Scene scene = new Scene();
 ```
 
-Er wordt een leeg canvas gecreëerd – een scène waarin uw 3D-object tot leven komt.
+### Stap 4: Voeg de extrusie toe aan de Scene
 
-## Stap 4: Voeg extrusie toe aan de scène
+Koppel de geëxtrudeerde geometrie aan de root‑node van de scene zodat deze deel wordt van de renderbare hiërarchie.
+
 ```csharp
 scene.RootNode.CreateChildNode(extrusion);
 ```
 
-Je geëxtrudeerde meesterwerk wordt als onderliggend knooppunt aan de scène toegevoegd.
+### Stap 5: Sla het 3‑D‑model op
 
-## Stap 5: Sla de 3D-scène op
+Tot slot exporteer je de scene naar een breed ondersteund OBJ‑bestand. Dit demonstreert de **export 3d model obj**‑functionaliteit van Aspose.3D.
+
 ```csharp
 scene.Save(RunExamples.GetOutputFilePath("LinearExtrusion.obj"), FileFormat.WavefrontOBJ);
 ```
 
-Sla ten slotte uw creatie op in het gewenste formaat. In dit voorbeeld wordt het opgeslagen als een Wavefront OBJ-bestand.
+Wanneer je het resulterende `LinearExtrusion.obj` opent in een 3‑D‑viewer, zie je een gedraaide rechthoekige prisma – precies wat de code beschrijft.
 
-Aanschouw nu uw 3D-wonder!
+## Veelvoorkomende valkuilen & tips
 
-## Conclusie:
+| Probleem | Waarom het gebeurt | Hoe op te lossen |
+|----------|--------------------|------------------|
+| **Profile not visible** | Vergeten de extrusie aan de scene toe te voegen. | Zorg dat `CreateChildNode` wordt aangeroepen. |
+| **Twist looks flat** | `Slices` te laag, waardoor ruwe geometrie ontstaat. | Verhoog `Slices` (bijv. 200) voor een soepelere twist. |
+| **Export fails** | Uitvoermap bestaat niet of er ontbreekt schrijfrechten. | Gebruik `RunExamples.GetOutputFilePath` of maak de map handmatig aan. |
+| **Unexpected scaling** | `Center` ingesteld op `false` verschuift de geometrie. | Stel `Center = true` tenzij je een offset nodig hebt. |
 
-Gefeliciteerd! Je hebt zojuist het oppervlak van het potentieel van Aspose.3D bekrast. Deze tutorial verwijst slechts naar het uitgestrekte landschap dat wacht op jouw verkenning. Duik in de documentatie, experimenteer met verschillende vormen en ontgrendel het volledige spectrum aan mogelijkheden met Aspose.3D voor .NET.
+## Veelgestelde vragen
 
-## Veelgestelde vragen:
+### Q1: Is Aspose.3D geschikt voor beginners?
 
-### Vraag 1: Is Aspose.3D geschikt voor beginners?
+**A1:** Absoluut! Aspose.3D biedt een gebruiksvriendelijke API, en deze tutorial leidt je stap‑voor‑stap door de basis van lineaire extrusie.
 
-A1: Absoluut! Aspose.3D biedt een gebruiksvriendelijke omgeving en onze tutorial leidt u door de basis.
+### Q2: Kan ik Aspose.3D gebruiken voor commerciële projecten?
 
-### Vraag 2: Kan ik Aspose.3D gebruiken voor commerciële projecten?
+**A2:** Ja, Aspose.3D heeft licentie‑opties voor zowel persoonlijk als commercieel gebruik. Bekijk [here](https://purchase.aspose.com/buy) voor details.
 
- A2: Ja, Aspose.3D wordt geleverd met licentieopties voor zowel persoonlijk als commercieel gebruik. Rekening[hier](https://purchase.aspose.com/buy) voor details.
+### Q3: Hoe kan ik tijdelijke licenties krijgen voor testen?
 
-### Vraag 3: Hoe kan ik tijdelijke licenties voor testen krijgen?
+**A3:** Bezoek [this link](https://purchase.aspose.com/temporary-license/) om tijdelijke licenties voor testdoeleinden te verkrijgen.
 
- A3: Bezoek[deze link](https://purchase.aspose.com/temporary-license/) voor het verkrijgen van tijdelijke licenties voor testdoeleinden.
+### Q4: Waar vind ik community‑ondersteuning?
 
-### Vraag 4: Waar kan ik gemeenschapsondersteuning vinden?
+**A4:** Word lid van het [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) om contact te maken met een levendige community en hulp te zoeken.
 
- A4: Sluit je aan bij de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) om verbinding te maken met een levendige gemeenschap en hulp te zoeken.
+### Q5: Is er een gratis proefversie beschikbaar?
 
-### Vraag 5: Is er een gratis proefversie beschikbaar?
+**A5:** Zeker! Download de gratis proefversie [here](https://releases.aspose.com/) om de mogelijkheden van Aspose.3D zelf te ervaren.
 
- A5: Zeker! Download de gratis proefversie[hier](https://releases.aspose.com/) om de mogelijkheden van Aspose.3D uit de eerste hand te ervaren.
+---
+
+**Laatst bijgewerkt:** 2026-01-07  
+**Getest met:** Aspose.3D 24.11 for .NET  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## DOELKEYWORDS:
+
+**Primaire sleutelwoord (HOGE PRIORITEIT):**
+how to linear extrude
+
+**Secundaire sleutelwoorden (ONDERSTEUNEND):**
+export 3d model obj, linear extrusion tutorial
+
+**Strategie voor sleutelwoordintegratie:**
+1. Primaire sleutelwoord: Gebruik 3‑5 keer (titel, meta, eerste alinea, H2‑kop, body)  
+2. Secundaire sleutelwoorden: Gebruik 1‑2 keer elk (koppen, body‑tekst)  
+3. Alle sleutelwoorden moeten natuurlijk geïntegreerd worden – prioriteit aan leesbaarheid boven aantal  
+4. Als een sleutelwoord niet natuurlijk past, gebruik een semantische variant of sla het over

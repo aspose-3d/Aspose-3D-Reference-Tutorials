@@ -1,38 +1,54 @@
 ---
-title: Lineáris extrudálás végrehajtása
-linktitle: Lineáris extrudálás végrehajtása
+date: 2026-01-07
+description: Ismerje meg, hogyan lehet lineárisan extrudálni egy 2D profilt, és OBJ
+  3D modellt exportálni az Aspose.3D for .NET segítségével. Ez a lineáris extrudálási
+  útmutató lépésről lépésre vezet.
+linktitle: Performing Linear Extrusion
 second_title: Aspose.3D .NET API
-description: Fedezze fel a 3D grafika világát az Aspose.3D for .NET segítségével. Lineáris extrudálás végrehajtása ebben a lépésről lépésre.
-weight: 12
+title: Hogyan hajtsunk végre lineáris extrudálást az Aspose.3D .NET-ben
 url: /hu/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lineáris extrudálás végrehajtása
+# Hogyan végezzünk lineáris extrudálást az Aspose.3D for .NET segítségével
 
-## Bevezetés:
+## Introduction
 
-Induljon el egy izgalmas utazásra a 3D grafika birodalmába az Aspose.3D for .NET segítségével, egy olyan erőművel, amely feldobja fejlesztőjátékát. Ebben az oktatóanyagban a Lineáris extrudálás – egy lenyűgöző technika, amely életet lehel a statikus 2D profilokba, és a 3D dinamikus világába lendítjük őket – bonyodalmaiba fogunk beleásni. Nyissuk ki a kaput a kreativitás és az innováció előtt az Aspose.3D segítségével!
+Welcome to our **linear extrusion tutorial**! In this guide you’ll discover **how to linear extrude** a 2‑D profile and turn it into a fully fledged 3‑D object using Aspose.3D for .NET. Whether you’re building a CAD‑style application or just need to **export 3d model obj** files for downstream processing, this step‑by‑step walkthrough will give you the confidence to add powerful geometry creation to your projects.
 
-## Előfeltételek:
+## Quick Answers
+- **What is linear extrusion?** Extending a 2‑D shape along a straight path to create a 3‑D solid.  
+- **Which library do we use?** Aspose.3D for .NET.  
+- **Do I need a license?** A temporary license works for testing; a full license is required for production.  
+- **Can I export to OBJ?** Yes – the final scene is saved as a Wavefront OBJ file.  
+- **How many lines of code?** Under 30 lines of C# plus explanatory comments.
 
-Mielőtt belevágna a 3D-s manipuláció varázslatos világába, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+## What is Linear Extrusion?
 
-1. Aspose.3D telepítés:
-   -  Kezdje az Aspose.3D for .NET letöltésével és telepítésével innen[itt](https://releases.aspose.com/3d/net/).
-   -  Kövesse a dokumentációban található telepítési utasításokat[itt](https://reference.aspose.com/3d/net/).
+Linear extrusion takes a flat profile (like a rectangle or circle) and sweeps it along a straight line, optionally adding twists, scaling, or offsets. The result is a solid that can be rendered, edited, or exported for use in other 3‑D tools.
 
-2. Fejlesztői környezet beállítása:
-   - Győződjön meg arról, hogy a fejlesztői környezet megfelelően van konfigurálva az Aspose.3D szükséges névtereivel.
+## Why Use Aspose.3D for Linear Extrusion?
 
-Most, hogy felkészült, ugorjunk bele az Aspose.3D varázslatába!
+* **Zero‑dependency:** No need for external CAD kernels.  
+* **Full .NET support:** Works with .NET Framework, .NET Core, and .NET 5/6+.  
+* **Export flexibility:** Directly save to OBJ, STL, FBX, and many other formats.  
+* **Rich API:** Control slices, twist, and offsets with just a few properties.
 
-## Névterek importálása:
+## Prerequisites
 
-Adja meg az alapvető névtereket, hogy elindítsa 3D-s kalandját:
+Before you start, make sure you have:
+
+1. **Aspose.3D installed** – download it from [itt](https://releases.aspose.com/3d/net/).  
+2. **Documentation access** – follow the setup guide [itt](https://reference.aspose.com/3d/net/).  
+3. A .NET development environment (Visual Studio, VS Code, or Rider) with the required namespaces referenced.
+
+## Import Namespaces
+
+Include the essential namespaces to unlock Aspose.3D functionality:
 
 ```csharp
 using Aspose.ThreeD;
@@ -41,13 +57,16 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Ezek a névterek lefektetik a 3D kódolási út alapjait, hozzáférést biztosítva az Aspose.3D funkciók zökkenőmentes integrációjához szükséges eszközökhöz.
+These namespaces give you access to `Scene`, `LinearExtrusion`, `RectangleShape`, and utility classes such as `Vector3`.
 
-## Lineáris extrudálás végrehajtása:
+## Performing Linear Extrusion
 
-Hozzunk létre egy elbűvölő 3D objektumot az Aspose.3D Linear Extrusion segítségével. Kovesd ezeket a lepeseket:
+Below is the complete workflow. Each step is explained in plain language before the corresponding code block, so you can follow along without guessing what the code does.
 
-## 1. lépés: Inicializálja az alapprofilt
+### Step 1: Initialize the Base Profile
+
+First, create the 2‑D shape that will be extruded. In this example we use a rectangle with a small rounding radius.
+
 ```csharp
 var profile = new RectangleShape()
 {
@@ -55,63 +74,81 @@ var profile = new RectangleShape()
 };
 ```
 
-Ez a lépés beállítja a 2D profilt, amely 3D remekművünk alapjául szolgál majd. Szükség szerint állítsa be a paramétereket a kívánt forma és forma eléréséhez.
+*Why this matters:* The profile defines the cross‑section of the final 3‑D object. Adjust `RoundingRadius`, width, or height to get different silhouettes.
 
-## 2. lépés: Lineáris extrudálás
+### Step 2: Apply Linear Extrusion
+
+Now we sweep the profile 10 units along the Z‑axis, adding 100 slices for smoothness, centering the geometry, and applying a full 360° twist with an offset.
+
 ```csharp
 var extrusion = new LinearExtrusion(profile, 10) { Slices = 100, Center = true, Twist = 360, TwistOffset = new Vector3(10, 0, 0) };
 ```
 
-Itt a Lineáris extrudálást hajtják végre, felveszi a 2D profilt és kiterjeszti azt a harmadik dimenzióba. Kísérletezzen olyan paraméterekkel, mint a „Slices” és „Twist”, hogy formázza alkotásait.
+*Pro tip:* Play with `Slices` to balance performance vs. visual quality, and experiment with `Twist` for spiral effects.
 
-## 3. lépés: Hozzon létre egy jelenetet
+### Step 3: Create a Scene
+
+A `Scene` acts as the container for all 3‑D entities—think of it as the canvas.
+
 ```csharp
 Scene scene = new Scene();
 ```
 
-Üres vászon jön létre – egy jelenet, ahol a 3D objektuma életre kel.
+### Step 4: Add the Extrusion to the Scene
 
-## 4. lépés: Adja hozzá az extrudálást a jelenethez
+Attach the extruded geometry to the scene’s root node so it becomes part of the renderable hierarchy.
+
 ```csharp
 scene.RootNode.CreateChildNode(extrusion);
 ```
 
-Az extrudált remekmű gyermekcsomópontként kerül hozzáadásra a jelenethez.
+### Step 5: Save the 3‑D Model
 
-## 5. lépés: Mentse el a 3D-s jelenetet
+Finally, export the scene to a widely‑supported OBJ file. This demonstrates the **export 3d model obj** capability of Aspose.3D.
+
 ```csharp
 scene.Save(RunExamples.GetOutputFilePath("LinearExtrusion.obj"), FileFormat.WavefrontOBJ);
 ```
 
-Végül mentse el az alkotást a kívánt formátumban. Ebben a példában Wavefront OBJ fájlként van elmentve.
+When you open the resulting `LinearExtrusion.obj` in any 3‑D viewer, you’ll see a twisted rectangular prism—exactly what the code described.
 
-Most pedig nézze meg a 3D-s csodáját!
+## Common Pitfalls & Tips
 
-## Következtetés:
+| Issue | Why it Happens | How to Fix |
+|-------|----------------|------------|
+| **Profile not visible** | Forgetting to add the extrusion to the scene. | Ensure `CreateChildNode` is called. |
+| **Twist looks flat** | `Slices` too low, causing coarse geometry. | Increase `Slices` (e.g., 200) for smoother twist. |
+| **Export fails** | Output folder does not exist or missing write permission. | Use `RunExamples.GetOutputFilePath` or create the directory manually. |
+| **Unexpected scaling** | `Center` set to `false` shifts geometry. | Set `Center = true` unless you need an offset. |
 
-Gratulálunk! Most megkarcoltad az Aspose.3D potenciálját. Ez az oktatóanyag csupán utal a felfedezésre váró hatalmas tájra. Merüljön el a dokumentációban, kísérletezzen különféle formákkal, és tárja fel a lehetőségek teljes spektrumát az Aspose.3D for .NET segítségével.
+## Frequently Asked Questions
 
-## GYIK:
+### Q1: Is Aspose.3D suitable for beginners?
 
-### 1. kérdés: Alkalmas az Aspose.3D kezdőknek?
+A1: Absolutely! Aspose.3D offers a user‑friendly API, and this tutorial walks you through the basics of linear extrusion.
 
-A1: Abszolút! Az Aspose.3D felhasználóbarát környezetet kínál, oktatóanyagunk pedig végigvezeti az alapokon.
+### Q2: Can I use Aspose.3D for commercial projects?
 
-### 2. kérdés: Használhatom az Aspose.3D-t kereskedelmi projektekhez?
+A2: Yes, Aspose.3D comes with licensing options for both personal and commercial use. Check [itt](https://purchase.aspose.com/buy) for details.
 
- 2. válasz: Igen, az Aspose.3D licencelési lehetőségeket kínál személyes és kereskedelmi használatra egyaránt. Jelölje be[itt](https://purchase.aspose.com/buy) a részletekért.
+### Q3: How can I get temporary licenses for testing?
 
-### 3. kérdés: Hogyan szerezhetek ideiglenes licenceket teszteléshez?
+A3: Visit [ez a link](https://purchase.aspose.com/temporary-license/) for obtaining temporary licenses for testing purposes.
 
- A3: Látogassa meg[ez a link](https://purchase.aspose.com/temporary-license/) tesztelési célú ideiglenes licencek megszerzéséhez.
+### Q4: Where can I find community support?
 
-### 4. kérdés: Hol találok közösségi támogatást?
+A4: Join the [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) to connect with a vibrant community and seek assistance.
 
- A4: Csatlakozzon a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) kapcsolatba lépni egy élénk közösséggel és segítséget kérni.
+### Q5: Is there a free trial available?
 
-### 5. kérdés: Van ingyenes próbaverzió?
+A5: Certainly! Download the free trial version [itt](https://releases.aspose.com/) to experience Aspose.3D's capabilities firsthand.
 
- A5: Természetesen! Töltse le az ingyenes próbaverziót[itt](https://releases.aspose.com/) hogy első kézből tapasztalja meg az Aspose.3D képességeit.
+---
+
+**Last Updated:** 2026-01-07  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

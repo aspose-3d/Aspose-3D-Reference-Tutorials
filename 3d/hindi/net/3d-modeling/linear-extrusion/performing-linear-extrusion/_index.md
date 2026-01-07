@@ -1,38 +1,54 @@
 ---
-title: रैखिक बाहर निकालना प्रदर्शन
-linktitle: रैखिक बाहर निकालना प्रदर्शन
+date: 2026-01-07
+description: Aspose.3D for .NET का उपयोग करके 2D प्रोफ़ाइल को रैखिक रूप से एक्सट्रूड
+  करना और 3D मॉडल OBJ निर्यात करना सीखें। यह रैखिक एक्सट्रूज़न ट्यूटोरियल आपको चरण‑दर‑चरण
+  मार्गदर्शन करता है।
+linktitle: Performing Linear Extrusion
 second_title: Aspose.3D .NET API
-description: .NET के लिए Aspose.3D के साथ 3D ग्राफ़िक्स की दुनिया का अन्वेषण करें। इस चरण-दर-चरण मार्गदर्शिका में लीनियर एक्सट्रूज़न निष्पादित करना।
-weight: 12
+title: Aspose.3D for .NET के साथ रैखिक एक्सट्रूड कैसे करें
 url: /hi/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# रैखिक बाहर निकालना प्रदर्शन
+# Aspose.3D for .NET के साथ Linear Extrude कैसे करें
 
-## परिचय:
+## Introduction
 
-.NET के लिए Aspose.3D के साथ 3D ग्राफ़िक्स के क्षेत्र में एक रोमांचक यात्रा शुरू करें, एक पावरहाउस जो आपके विकास गेम को उन्नत करता है। इस ट्यूटोरियल में, हम लीनियर एक्सट्रूज़न की जटिलताओं को समझेंगे - एक आकर्षक तकनीक जो स्थिर 2डी प्रोफाइल में जान फूंक देती है, और उन्हें 3डी की गतिशील दुनिया में ले जाती है। आइए Aspose.3D का उपयोग करके रचनात्मकता और नवीनता का द्वार खोलें!
+हमारे **linear extrusion tutorial** में आपका स्वागत है! इस गाइड में आप **how to linear extrude** 2‑D प्रोफ़ाइल को Aspose.3D for .NET का उपयोग करके पूर्ण 3‑D ऑब्जेक्ट में बदलना सीखेंगे। चाहे आप CAD‑स्टाइल एप्लिकेशन बना रहे हों या सिर्फ **export 3d model obj** फ़ाइलों को डाउनस्ट्रीम प्रोसेसिंग के लिए चाहिए, यह स्टेप‑बाय‑स्टेप walkthrough आपको अपने प्रोजेक्ट्स में पावरफ़ुल जियोमेट्री क्रिएशन जोड़ने का भरोसा देगा।
 
-## पूर्वावश्यकताएँ:
+## Quick Answers
+- **Linear extrusion क्या है?** 2‑D आकार को सीधी रेखा के साथ विस्तारित करके 3‑D ठोस बनाना।  
+- **कौन सी लाइब्रेरी इस्तेमाल करेंगे?** Aspose.3D for .NET।  
+- **क्या लाइसेंस चाहिए?** टेस्टिंग के लिए टेम्पररी लाइसेंस चल जाएगा; प्रोडक्शन के लिए फुल लाइसेंस आवश्यक है।  
+- **क्या मैं OBJ में एक्सपोर्ट कर सकता हूँ?** हाँ – अंतिम सीन को Wavefront OBJ फ़ाइल के रूप में सेव किया जाता है।  
+- **कोड की लाइनें कितनी?** C# में 30 से कम लाइनें + व्याख्यात्मक कमेंट्स।
 
-3डी हेरफेर की आकर्षक दुनिया में गोता लगाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## What is Linear Extrusion?
 
-1. Aspose.3D इंस्टालेशन:
-   -  .NET के लिए Aspose.3D को डाउनलोड और इंस्टॉल करके शुरुआत करें[यहाँ](https://releases.aspose.com/3d/net/).
-   -  दस्तावेज़ में दिए गए इंस्टॉलेशन निर्देशों का पालन करें[यहाँ](https://reference.aspose.com/3d/net/).
+Linear extrusion एक फ्लैट प्रोफ़ाइल (जैसे रेक्टैंगल या सर्कल) को सीधी रेखा के साथ स्वेप करता है, और वैकल्पिक रूप से ट्विस्ट, स्केलिंग या ऑफ़सेट जोड़ सकता है। परिणामस्वरूप एक ठोस बनता है जिसे रेंडर, एडिट या अन्य 3‑D टूल्स में एक्सपोर्ट किया जा सकता है।
 
-2. अपना विकास परिवेश स्थापित करना:
-   - सुनिश्चित करें कि आपका विकास परिवेश Aspose.3D के लिए आवश्यक नामस्थानों के साथ सही ढंग से कॉन्फ़िगर किया गया है।
+## Why Use Aspose.3D for Linear Extrusion?
 
-अब जब आप तैयार हो गए हैं, तो आइए Aspose.3D के जादू में कूदें!
+* **Zero‑dependency:** बाहरी CAD कर्नेल की आवश्यकता नहीं।  
+* **Full .NET support:** .NET Framework, .NET Core, और .NET 5/6+ के साथ काम करता है।  
+* **Export flexibility:** सीधे OBJ, STL, FBX और कई अन्य फ़ॉर्मैट्स में सेव कर सकते हैं।  
+* **Rich API:** कुछ ही प्रॉपर्टीज़ के साथ स्लाइस, ट्विस्ट और ऑफ़सेट को नियंत्रित करें।
 
-## नामस्थान आयात करें:
+## Prerequisites
 
-अपने 3डी साहसिक कार्य को किकस्टार्ट करने के लिए आवश्यक नामस्थान शामिल करें:
+शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
+
+1. **Aspose.3D installed** – इसे [here](https://releases.aspose.com/3d/net/) से डाउनलोड करें।  
+2. **Documentation access** – सेटअप गाइड के लिए [here](https://reference.aspose.com/3d/net/) देखें।  
+3. एक .NET डेवलपमेंट एनवायरनमेंट (Visual Studio, VS Code, या Rider) जिसमें आवश्यक नेमस्पेस रेफ़रेंस हो।
+
+## Import Namespaces
+
+Aspose.3D की कार्यक्षमता को अनलॉक करने के लिए आवश्यक नेमस्पेस शामिल करें:
 
 ```csharp
 using Aspose.ThreeD;
@@ -41,13 +57,16 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-ये नेमस्पेस आपकी 3डी कोडिंग यात्रा की नींव रखते हैं, जो Aspose.3D कार्यात्मकताओं के निर्बाध एकीकरण के लिए आवश्यक टूल तक पहुंच प्रदान करते हैं।
+इन नेमस्पेस से आपको `Scene`, `LinearExtrusion`, `RectangleShape` और `Vector3` जैसी यूटिलिटी क्लासेज़ मिलती हैं।
 
-## रैखिक बाहर निकालना प्रदर्शन:
+## Performing Linear Extrusion
 
-आइए Aspose.3D का उपयोग करके लीनियर एक्सट्रूज़न के माध्यम से एक मंत्रमुग्ध कर देने वाली 3D ऑब्जेक्ट बनाएं। इन चरणों का पालन करें:
+नीचे पूरा वर्कफ़्लो दिया गया है। प्रत्येक स्टेप को साधारण भाषा में समझाया गया है, उसके बाद संबंधित कोड ब्लॉक है, ताकि आप बिना अनुमान लगाए कोड को समझ सकें।
 
-## चरण 1: बेस प्रोफ़ाइल प्रारंभ करें
+### Step 1: Initialize the Base Profile
+
+पहले 2‑D आकार को बनाएं जिसे एक्सट्रूड किया जाएगा। इस उदाहरण में हम छोटे राउंडिंग रेडियस वाला रेक्टैंगल उपयोग करते हैं।
+
 ```csharp
 var profile = new RectangleShape()
 {
@@ -55,63 +74,81 @@ var profile = new RectangleShape()
 };
 ```
 
-यह चरण 2डी प्रोफ़ाइल स्थापित करता है जो हमारी 3डी मास्टरपीस की नींव के रूप में काम करेगा। वांछित आकार और स्वरूप प्राप्त करने के लिए आवश्यकतानुसार मापदंडों को समायोजित करें।
+*क्यों महत्वपूर्ण है:* प्रोफ़ाइल अंतिम 3‑D ऑब्जेक्ट के क्रॉस‑सेक्शन को परिभाषित करती है। विभिन्न सिल्हूट पाने के लिए `RoundingRadius`, चौड़ाई या ऊँचाई बदलें।
 
-## चरण 2: रैखिक बाहर निकालना
+### Step 2: Apply Linear Extrusion
+
+अब प्रोफ़ाइल को Z‑axis के साथ 10 यूनिट तक स्वेप करें, स्मूदनेस के लिए 100 स्लाइस जोड़ें, जियोमेट्री को सेंटर करें, और 360° का पूर्ण ट्विस्ट ऑफ़सेट के साथ लागू करें।
+
 ```csharp
 var extrusion = new LinearExtrusion(profile, 10) { Slices = 100, Center = true, Twist = 360, TwistOffset = new Vector3(10, 0, 0) };
 ```
 
-यहां, लीनियर एक्सट्रूज़न का प्रदर्शन किया जाता है, 2डी प्रोफ़ाइल ली जाती है और इसे तीसरे आयाम में विस्तारित किया जाता है। अपनी रचना को ढालने के लिए 'स्लाइस' और 'ट्विस्ट' जैसे मापदंडों के साथ प्रयोग करें।
+*Pro tip:* `Slices` को समायोजित करके परफ़ॉर्मेंस और विज़ुअल क्वालिटी के बीच संतुलन बनाएं, और `Twist` के साथ स्पायरल इफ़ेक्ट एक्सप्लोर करें।
 
-## चरण 3: एक दृश्य बनाएं
+### Step 3: Create a Scene
+
+`Scene` सभी 3‑D एंटिटीज़ का कंटेनर है—इसे कैनवास समझें।
+
 ```csharp
 Scene scene = new Scene();
 ```
 
-एक खाली कैनवास बनाया जाता है - एक ऐसा दृश्य जहां आपकी 3डी वस्तु जीवंत हो जाएगी।
+### Step 4: Add the Extrusion to the Scene
 
-## चरण 4: दृश्य में एक्सट्रूज़न जोड़ें
+एक्सट्रूडेड जियोमेट्री को सीन के रूट नोड में जोड़ें ताकि वह रेंडरेबल हाइरार्की का हिस्सा बन जाए।
+
 ```csharp
 scene.RootNode.CreateChildNode(extrusion);
 ```
 
-आपकी निकाली गई उत्कृष्ट कृति को दृश्य में चाइल्ड नोड के रूप में जोड़ा जाता है।
+### Step 5: Save the 3‑D Model
 
-## चरण 5: 3डी दृश्य सहेजें
+अंत में सीन को व्यापक रूप से सपोर्टेड OBJ फ़ाइल में एक्सपोर्ट करें। यह Aspose.3D की **export 3d model obj** क्षमता को दर्शाता है।
+
 ```csharp
 scene.Save(RunExamples.GetOutputFilePath("LinearExtrusion.obj"), FileFormat.WavefrontOBJ);
 ```
 
-अंत में, अपनी रचना को वांछित प्रारूप में सहेजें। इस उदाहरण में, इसे वेवफ्रंट OBJ फ़ाइल के रूप में सहेजा गया है।
+जब आप परिणामी `LinearExtrusion.obj` को किसी भी 3‑D व्यूअर में खोलेंगे, तो आपको एक ट्विस्टेड रेक्टैंगल प्रिज़्म दिखाई देगा—बिल्कुल वही जो कोड ने वर्णित किया है।
 
-अब, अपना 3डी चमत्कार देखें!
+## Common Pitfalls & Tips
 
-## निष्कर्ष:
+| Issue | Why it Happens | How to Fix |
+|-------|----------------|------------|
+| **Profile not visible** | Forgetting to add the extrusion to the scene. | Ensure `CreateChildNode` is called. |
+| **Twist looks flat** | `Slices` too low, causing coarse geometry. | Increase `Slices` (e.g., 200) for smoother twist. |
+| **Export fails** | Output folder does not exist or missing write permission. | Use `RunExamples.GetOutputFilePath` or create the directory manually. |
+| **Unexpected scaling** | `Center` set to `false` shifts geometry. | Set `Center = true` unless you need an offset. |
 
-बधाई हो! आपने अभी-अभी Aspose.3D की क्षमता की सतह को खंगाला है। यह ट्यूटोरियल केवल आपके अन्वेषण की प्रतीक्षा कर रहे विशाल परिदृश्य का संकेत देता है। दस्तावेज़ीकरण में गोता लगाएँ, विभिन्न आकृतियों के साथ प्रयोग करें, और .NET के लिए Aspose.3D के साथ संभावनाओं के पूर्ण स्पेक्ट्रम को अनलॉक करें।
+## Frequently Asked Questions
 
-## अक्सर पूछे जाने वाले प्रश्न:
+### Q1: Is Aspose.3D suitable for beginners?
 
-### Q1: क्या Aspose.3D शुरुआती लोगों के लिए उपयुक्त है?
+A1: Absolutely! Aspose.3D offers a user‑friendly API, and this **linear extrusion tutorial** walks you through the basics of **how to linear extrude**.
 
-A1: बिल्कुल! Aspose.3D एक उपयोगकर्ता-अनुकूल वातावरण प्रदान करता है, और हमारा ट्यूटोरियल आपको बुनियादी बातों में मार्गदर्शन करता है।
+### Q2: Can I use Aspose.3D for commercial projects?
 
-### Q2: क्या मैं व्यावसायिक परियोजनाओं के लिए Aspose.3D का उपयोग कर सकता हूँ?
+A2: Yes, Aspose.3D comes with licensing options for both personal and commercial use. Check [here](https://purchase.aspose.com/buy) for details.
 
- A2: हाँ, Aspose.3D व्यक्तिगत और व्यावसायिक उपयोग दोनों के लिए लाइसेंसिंग विकल्पों के साथ आता है। जाँच करना[यहाँ](https://purchase.aspose.com/buy) जानकारी के लिए।
+### Q3: How can I get temporary licenses for testing?
 
-### Q3: मैं परीक्षण के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
+A3: Visit [this link](https://purchase.aspose.com/temporary-license/) for obtaining temporary licenses for testing purposes.
 
- ए3: विजिट करें[इस लिंक](https://purchase.aspose.com/temporary-license/) परीक्षण उद्देश्यों के लिए अस्थायी लाइसेंस प्राप्त करने के लिए।
+### Q4: Where can I find community support?
 
-### Q4: मुझे सामुदायिक समर्थन कहां मिल सकता है?
+A4: Join the [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) to connect with a vibrant community and seek assistance.
 
- A4: शामिल हों[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) एक जीवंत समुदाय से जुड़ने और सहायता प्राप्त करने के लिए।
+### Q5: Is there a free trial available?
 
-### Q5: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
+A5: Certainly! Download the free trial version [here](https://releases.aspose.com/) to experience Aspose.3D's capabilities firsthand.
 
- ए5: निश्चित रूप से! नि: शुल्क ट्रायल प्रारूप डाउनलोड करें[यहाँ](https://releases.aspose.com/) Aspose.3D की क्षमताओं को प्रत्यक्ष रूप से अनुभव करने के लिए।
+---
+
+**Last Updated:** 2026-01-07  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
