@@ -1,34 +1,44 @@
 ---
-title: Zentrum in der linearen Extrusion
-linktitle: Zentrum in der linearen Extrusion
+date: 2026-01-07
+description: Erfahren Sie, wie Sie eine Grundfläche hinzufügen, während Sie lineare
+  Extrusion mit Aspose.3D für .NET durchführen und Wavefront‑OBJ‑Dateien exportieren.
+  Beherrschen Sie Zentrierungs‑ und Bodentechniken im 3‑D‑Modellieren.
+linktitle: Add Ground Plane and Center in Linear Extrusion
 second_title: Aspose.3D .NET API
-description: Entdecken Sie die Welt der 3D-Modellierung mit Aspose.3D für .NET. Zentrieren Sie lineare Extrusionstechniken, erstellen Sie atemberaubende Designs und lassen Sie Ihrer Kreativität freien Lauf.
-weight: 10
+title: Grundebene und Zentrum in linearer Extrusion hinzufügen
 url: /de/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zentrum in der linearen Extrusion
+# Grundfläche hinzufügen und zentrieren bei linearer Extrusion
 
 ## Einführung
 
-Willkommen zu diesem umfassenden Leitfaden zur Beherrschung der linearen Extrusion mit Aspose.3D für .NET. Wenn Sie Ihre 3D-Modellierungsfähigkeiten verbessern und atemberaubende Extrusionen erstellen möchten, sind Sie hier richtig. In diesem Tutorial befassen wir uns mit der linearen Extrusionstechnik und konzentrieren uns dabei insbesondere auf den Zentrieraspekt, um Ihre Designs auf ein völlig neues Niveau zu bringen.
+Willkommen zu diesem umfassenden Leitfaden, der Ihnen die lineare Extrusion mit Aspose.3D für .NET näherbringt. Wenn Sie **eine Grundfläche** zu Ihren Modellen hinzufügen und **Wavefront‑OBJ**‑Dateien exportieren möchten, während die Extrusion zentriert bleibt, sind Sie hier genau richtig. In diesem Tutorial gehen wir auf die Technik der linearen Extrusion ein, wobei wir besonders den Aspekt der Zentrierung beleuchten und zeigen, wie eine Grundfläche das Ergebnis klarer visualisiert.
+
+## Schnellantworten
+- **Was bewirkt das „Grundfläche hinzufügen“?** Sie liefert eine visuelle Referenz, die das Erkennen erleichtert, wo die Extrusion in der X‑Z‑Ebene liegt.  
+- **Welches Format wird zum Exportieren des Modells verwendet?** Die Szene wird als Wavefront‑OBJ‑Datei gespeichert (`FileFormat.WavefrontOBJ`).  
+- **Benötige ich eine Lizenz, um den Code auszuführen?** Eine kostenlose Testversion reicht für die Entwicklung; für den Produktionseinsatz ist eine permanente Lizenz erforderlich.  
+- **Kann ich die Extrusionslänge ändern?** Ja – ändern Sie den zweiten Parameter von `LinearExtrusion`.  
+- **Ist die Zentrierung optional?** Durch Setzen von `Center = true` wird die Extrusion um das Profil zentriert; `false` richtet sie an einer Seite aus.
 
 ## Voraussetzungen
 
-Bevor wir uns auf diese spannende Reise begeben, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
+Bevor wir diese spannende Reise beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllt haben:
 
-- Grundlegendes Verständnis der Programmiersprache C#.
-- Visual Studio ist auf Ihrem Computer installiert.
--  Aspose.3D für .NET-Bibliothek, die Sie von der herunterladen können[Aspose.3D .NET-Dokumentation](https://reference.aspose.com/3d/net/).
--  Stellen Sie sicher, dass Sie Zugriff darauf haben[Aspose.3D .NET-Dokumentation](https://reference.aspose.com/3d/net/) als Referenz im gesamten Tutorial.
+- Grundlegendes Verständnis der Programmiersprache C#.  
+- Visual Studio auf Ihrem Rechner installiert.  
+- Aspose.3D für .NET‑Bibliothek, die Sie von der [Aspose.3D .NET Documentation](https://reference.aspose.com/3d/net/) herunterladen können.  
+- Stellen Sie sicher, dass Sie Zugriff auf die [Aspose.3D .NET Documentation](https://reference.aspose.com/3d/net/) für Referenzzwecke während des Tutorials haben.
 
 ## Namespaces importieren
 
-Zum Auftakt importieren wir die erforderlichen Namespaces. Diese werden den Grundstein für unser Meisterwerk der 3D-Modellierung legen.
+Um loszulegen, importieren wir die notwendigen Namespaces. Diese bilden das Fundament für unser 3‑D‑Modellierungs‑Meisterwerk.
 
 ```csharp
 using Aspose.ThreeD;
@@ -37,7 +47,9 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Schritt 1: Initialisieren Sie das Basisprofil
+## Schritt 1: Basisprofil initialisieren
+
+Wir beginnen mit der Definition eines rechteckigen Profils, das extrudiert wird. Der `RoundingRadius` fügt den Ecken eine dezente Rundung hinzu.
 
 ```csharp
 var profile = new RectangleShape()
@@ -46,13 +58,17 @@ var profile = new RectangleShape()
 };
 ```
 
-## Schritt 2: Erstellen Sie eine 3D-Szene
+## Schritt 2: 3‑D‑Szene erstellen
+
+Ein `Scene`‑Objekt fungiert als Container für alle Geometrien, Lichter und Kameras.
 
 ```csharp
 Scene scene = new Scene();
 ```
 
-## Schritt 3: Erstellen Sie linke und rechte Knoten
+## Schritt 3: Linke und rechte Knoten erstellen
+
+Zwei Geschwister‑Knoten werden unter dem Root‑Knoten erzeugt. Einer demonstriert die Extrusion **ohne** Zentrierung, der andere **mit** Zentrierung. Wir verschieben den linken Knoten, damit sich die beiden Beispiele nicht überlappen.
 
 ```csharp
 var left = scene.RootNode.CreateChildNode();
@@ -60,61 +76,91 @@ var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(5, 0, 0);
 ```
 
-## Schritt 4: Führen Sie eine lineare Extrusion am linken Knoten durch
+## Schritt 4: Lineare Extrusion am linken Knoten durchführen (Keine Zentrierung)
+
+Hier extrudieren wir das Profil ohne Zentrierung. Beachten Sie das Flag `Center = false`.
 
 ```csharp
 left.CreateChildNode(new LinearExtrusion(profile, 2) { Center = false, Slices = 3 });
 ```
 
-## Schritt 5: Grundebene als Referenz festlegen
+## Schritt 5: Grundfläche zur Referenz hinzufügen (Linker Knoten)
+
+Das Hinzufügen einer dünnen Box dient als **Grundfläche**, sodass Sie klar erkennen können, wie die Extrusion auf der Basis liegt.
 
 ```csharp
 left.CreateChildNode(new Box(0.01, 3, 3));
 ```
 
-## Schritt 6: Führen Sie eine lineare Extrusion am rechten Knoten durch
+## Schritt 6: Lineare Extrusion am rechten Knoten durchführen (Mit Zentrierung)
+
+Jetzt extrudieren wir dasselbe Profil, jedoch mit aktivierter Zentrierung. Die Geometrie wird symmetrisch um den Ursprung des Profils platziert.
 
 ```csharp
 right.CreateChildNode(new LinearExtrusion(profile, 2) { Center = true, Slices = 3 });
 ```
 
-## Schritt 7: Grundebene als Referenz festlegen (rechter Knoten)
+## Schritt 7: Grundfläche zur Referenz hinzufügen (Rechter Knoten)
+
+Eine zweite Grundfläche wird dem rechten Knoten hinzugefügt, um den visuellen Vergleich konsistent zu halten.
 
 ```csharp
 right.CreateChildNode(new Box(0.01, 3, 3));
 ```
 
-## Schritt 8: 3D-Szene speichern
+## Schritt 8: Wavefront‑OBJ‑Datei exportieren
+
+Abschließend **exportieren wir das Wavefront‑OBJ**, sodass das Ergebnis in jedem gängigen 3‑D‑Viewer geöffnet werden kann.
 
 ```csharp
 scene.Save("Your Output Directory" + "CenterInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-## Abschluss
+## Warum eine Grundfläche hinzufügen?
 
-Glückwunsch! Sie haben die Kunst der linearen Extrusion mit Zentrierung mit Aspose.3D für .NET erfolgreich gemeistert. Experimentieren Sie ruhig mit verschiedenen Parametern und erkunden Sie die enormen Möglichkeiten, die diese Technik bietet.
+Eine Grundfläche liefert sofortige visuelle Hinweise zur Höhe und Ausrichtung der Extrusion. Sie ist besonders hilfreich, wenn Sie zentrierte und nicht‑zentrierte Ergebnisse vergleichen möchten, wie in diesem Tutorial demonstriert.
 
-## FAQs
+## Häufige Probleme & Tipps
 
-### F1: Kann ich Aspose.3D für .NET mit anderen Programmiersprachen verwenden?
+- **Grundfläche nicht sichtbar:** Stellen Sie sicher, dass die Dicke der Ebene (`0.01` im `Box`‑Konstruktor) klein genug ist, um die Extrusion nicht zu verdecken, aber groß genug, um gerendert zu werden.  
+- **Export schlägt fehl:** Prüfen Sie, ob das Ausgabeverzeichnis existiert und Sie Schreibrechte besitzen.  
+- **Zentrierte Extrusion erscheint versetzt:** Überprüfen Sie die Eigenschaft `Center`; `true` zentriert das Profil, `false` richtet es an einer Seite aus.
 
-A1: Aspose.3D unterstützt hauptsächlich .NET-Sprachen wie C# und VB.NET.
+## Häufig gestellte Fragen
 
-### F2: Wo finde ich Unterstützung für Aspose.3D-bezogene Abfragen?
+### Q1: Kann ich Aspose.3D für .NET mit anderen Programmiersprachen verwenden?
 
- A2: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) für engagierte Unterstützung und Diskussionen.
+A1: Aspose.3D unterstützt hauptsächlich .NET‑Sprachen wie C# und VB.NET.
 
-### F3: Gibt es eine kostenlose Testversion für Aspose.3D für .NET?
+### Q2: Wo finde ich Support für Fragen zu Aspose.3D?
 
- A3: Ja, Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+A2: Besuchen Sie das [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) für dedizierten Support und Diskussionen.
 
-### F4: Wie kann ich eine temporäre Lizenz für Aspose.3D für .NET erhalten?
+### Q3: Gibt es eine kostenlose Testversion von Aspose.3D für .NET?
 
- A4: Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+A3: Ja, Sie können die kostenlose Testversion [hier](https://releases.aspose.com/) erhalten.
 
-### F5: Wo kann ich die Aspose.3D für .NET-Lizenz erwerben?
+### Q4: Wie kann ich eine temporäre Lizenz für Aspose.3D für .NET erhalten?
 
- A5: Kaufen Sie Ihre Lizenz[Hier](https://purchase.aspose.com/buy).
+A4: Eine temporäre Lizenz erhalten Sie [hier](https://purchase.aspose.com/temporary-license/).
+
+### Q5: Wo kann ich die Aspose.3D für .NET‑Lizenz kaufen?
+
+A5: Kaufen Sie Ihre Lizenz [hier](https://purchase.aspose.com/buy).
+
+### Q6: Kann ich die Szene in andere Formate als OBJ exportieren?
+
+A6: Ja, Aspose.3D unterstützt viele Formate wie STL, FBX und GLTF. Ändern Sie einfach den `FileFormat`‑Enum‑Wert in der `Save`‑Methode.
+
+### Q7: Wie ändere ich die Anzahl der Scheiben bei der Extrusion?
+
+A7: Passen Sie die Eigenschaft `Slices` im `LinearExtrusion`‑Konstruktor an, um die Mesh‑Dichte zu steuern.
+
+---
+
+**Zuletzt aktualisiert:** 2026-01-07  
+**Getestet mit:** Aspose.3D für .NET neueste Version  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,34 +1,44 @@
 ---
-title: Centrum w wytłaczaniu liniowym
-linktitle: Centrum w wytłaczaniu liniowym
-second_title: Aspose.3D API .NET
-description: Poznaj świat modelowania 3D z Aspose.3D dla .NET. Wyśrodkuj techniki wytłaczania liniowego, twórz oszałamiające projekty i uwolnij swoją kreatywność.
-weight: 10
+date: 2026-01-07
+description: Dowiedz się, jak dodać płaszczyznę podłoża podczas wykonywania ekstruzji
+  liniowej przy użyciu Aspose.3D dla .NET i eksportować pliki Wavefront OBJ. Opanuj
+  techniki centrowania i umieszczania w podłożu w modelowaniu 3‑D.
+linktitle: Add Ground Plane and Center in Linear Extrusion
+second_title: Aspose.3D .NET API
+title: Dodaj płaszczyznę podłoża i środek w ekstruzji liniowej
 url: /pl/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Centrum w wytłaczaniu liniowym
+# Dodaj płaszczyznę podłoża i wyśrodkuj w ekstruzji liniowej
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w tym kompleksowym przewodniku na temat opanowania wytłaczania liniowego przy użyciu Aspose.3D dla .NET. Jeśli chcesz udoskonalić swoje umiejętności modelowania 3D i tworzyć wspaniałe profile, jesteś we właściwym miejscu. W tym samouczku zagłębimy się w technikę wytłaczania liniowego, koncentrując się szczególnie na aspekcie centrowania, aby przenieść Twoje projekty na zupełnie nowy poziom.
+Witamy w tym kompleksowym przewodniku po opanowaniu ekstruzji liniowej przy użyciu Aspose.3D dla .NET. Jeśli chcesz **dodać płaszczyznę podłoża** do swoich modeli i **eksportować pliki Wavefront OBJ**, jednocześnie utrzymując ekstruzję wyśrodkowaną, jesteś we właściwym miejscu. W tym samouczku zagłębimy się w technikę ekstruzji liniowej, ze szczególnym uwzględnieniem aspektu wyśrodkowania oraz tego, jak płaszczyzna podłoża pomaga lepiej zwizualizować wynik.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co osiąga „dodanie płaszczyzny podłoża”?** Zapewnia wizualne odniesienie, które ułatwia zobaczenie, gdzie ekstruzja znajduje się na płaszczyźnie X‑Z.  
+- **Jakiego formatu użyto do eksportu modelu?** Scena jest zapisywana jako plik Wavefront OBJ (`FileFormat.WavefrontOBJ`).  
+- **Czy potrzebna jest licencja do uruchomienia kodu?** Darmowa wersja próbna wystarcza do rozwoju; stała licencja jest wymagana w produkcji.  
+- **Czy mogę zmienić długość ekstruzji?** Tak – zmodyfikuj drugi parametr `LinearExtrusion`.  
+- **Czy wyśrodkowanie jest opcjonalne?** Ustawienie `Center = true` wyśrodkowuje ekstruzję wokół profilu; `false` ustawia ją po jednej stronie.
 
-Zanim wyruszymy w tę ekscytującą podróż, upewnij się, że spełniasz następujące wymagania wstępne:
+## Wymagania wstępne
 
-- Podstawowa znajomość języka programowania C#.
-- Program Visual Studio zainstalowany na Twoim komputerze.
--  Biblioteka Aspose.3D dla .NET, którą można pobrać z witryny[Dokumentacja Aspose.3D .NET](https://reference.aspose.com/3d/net/).
--  Upewnij się, że masz dostęp do[Dokumentacja Aspose.3D .NET](https://reference.aspose.com/3d/net/) w celach informacyjnych w całym samouczku.
+Zanim wyruszymy w tę ekscytującą podróż, upewnij się, że masz spełnione następujące wymagania:
 
-## Importuj przestrzenie nazw
+- Podstawowa znajomość języka programowania C#.  
+- Zainstalowane Visual Studio na Twoim komputerze.  
+- Biblioteka Aspose.3D dla .NET, którą możesz pobrać z [Aspose.3D .NET Documentation](https://reference.aspose.com/3d/net/).  
+- Zapewnij dostęp do [Aspose.3D .NET Documentation](https://reference.aspose.com/3d/net/) jako odniesienia podczas całego samouczka.
 
-Na początek zaimportujmy niezbędne przestrzenie nazw. Położą one podwaliny pod nasze arcydzieło modelowania 3D.
+## Importowanie przestrzeni nazw
+
+Na początek zaimportujmy niezbędne przestrzenie nazw. Utworzą one fundament naszej mistrzowskiej pracy modelowania 3D.
 
 ```csharp
 using Aspose.ThreeD;
@@ -37,7 +47,9 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Krok 1: Zainicjuj profil podstawowy
+## Krok 1: Inicjalizacja profilu bazowego
+
+Zaczynamy od zdefiniowania prostokątnego profilu, który zostanie wyekstruzowany. `RoundingRadius` dodaje subtelną zaokrąglenie narożników.
 
 ```csharp
 var profile = new RectangleShape()
@@ -46,13 +58,17 @@ var profile = new RectangleShape()
 };
 ```
 
-## Krok 2: Utwórz scenę 3D
+## Krok 2: Utworzenie sceny 3D
+
+Obiekt `Scene` pełni rolę kontenera dla całej geometrii, świateł i kamer.
 
 ```csharp
 Scene scene = new Scene();
 ```
 
-## Krok 3: Utwórz lewy i prawy węzeł
+## Krok 3: Utworzenie węzłów lewego i prawego
+
+Dwa węzły rodzeństwa są tworzone pod korzeniem. Jeden pokaże ekstruzję **bez** wyśrodkowania, drugi **z** wyśrodkowaniem. Przesuwamy także lewy węzeł, aby dwa przykłady się nie nakładały.
 
 ```csharp
 var left = scene.RootNode.CreateChildNode();
@@ -60,61 +76,91 @@ var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(5, 0, 0);
 ```
 
-## Krok 4: Wykonaj wytłaczanie liniowe na lewym węźle
+## Krok 4: Wykonanie ekstruzji liniowej na lewym węźle (bez wyśrodkowania)
+
+Tutaj ekstruzujemy profil bez wyśrodkowania. Zwróć uwagę na flagę `Center = false`.
 
 ```csharp
 left.CreateChildNode(new LinearExtrusion(profile, 2) { Center = false, Slices = 3 });
 ```
 
-## Krok 5: Ustaw płaszczyznę podłoża jako odniesienie
+## Krok 5: Dodanie płaszczyzny podłoża jako odniesienia (lewy węzeł)
+
+Dodanie cienkiego pudełka pełni rolę **płaszczyzny podłoża**, dzięki czemu wyraźnie widać, jak ekstruzja leży na podstawie.
 
 ```csharp
 left.CreateChildNode(new Box(0.01, 3, 3));
 ```
 
-## Krok 6: Wykonaj wytłaczanie liniowe na prawym węźle
+## Krok 6: Wykonanie ekstruzji liniowej na prawym węźle (z wyśrodkowaniem)
+
+Teraz ekstruzujemy ten sam profil, ale włączamy wyśrodkowanie. Geometria zostanie symetrycznie rozmieszczona wokół początku profilu.
 
 ```csharp
 right.CreateChildNode(new LinearExtrusion(profile, 2) { Center = true, Slices = 3 });
 ```
 
-## Krok 7: Ustaw płaszczyznę podłoża jako odniesienie (prawy węzeł)
+## Krok 7: Dodanie płaszczyzny podłoża jako odniesienia (prawy węzeł)
+
+Druga płaszczyzna podłoża jest dodawana do prawego węzła, aby zachować spójność wizualnego porównania.
 
 ```csharp
 right.CreateChildNode(new Box(0.01, 3, 3));
 ```
 
-## Krok 8: Zapisz scenę 3D
+## Krok 8: Eksport pliku Wavefront OBJ
+
+Na koniec **eksportujemy Wavefront OBJ**, aby wynik mógł być otwarty w dowolnym standardowym przeglądarce 3‑D.
 
 ```csharp
 scene.Save("Your Output Directory" + "CenterInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-## Wniosek
+## Dlaczego dodawać płaszczyznę podłoża?
 
-Gratulacje! Udało Ci się opanować sztukę wytłaczania liniowego z centrowaniem przy użyciu Aspose.3D dla .NET. Możesz eksperymentować z różnymi parametrami i odkrywać ogromne możliwości, jakie oferuje ta technika.
+Dodanie płaszczyzny podłoża daje natychmiastową wskazówkę wizualną o wysokości i wyrównaniu ekstruzji. Jest to szczególnie pomocne, gdy trzeba porównać wyniki wyśrodkowane i nie‑wyśrodkowane, jak pokazano w tym samouczku.
 
-## Często zadawane pytania
+## Typowe problemy i wskazówki
 
-### P1: Czy mogę używać Aspose.3D dla .NET z innymi językami programowania?
+- **Płaszczyzna podłoża niewidoczna:** Upewnij się, że grubość płaszczyzny (`0.01` w konstruktorze `Box`) jest wystarczająco mała, aby nie zasłaniać ekstruzji, ale jednocześnie na tyle duża, aby była renderowana.  
+- **Eksport nie powiódł się:** Sprawdź, czy katalog wyjściowy istnieje i masz uprawnienia do zapisu.  
+- **Wyśrodkowana ekstruzja wydaje się przesunięta:** Ponownie sprawdź właściwość `Center`; `true` wyśrodkowuje profil, `false` ustawia go po jednej stronie.
 
-O1: Aspose.3D obsługuje przede wszystkim języki .NET, takie jak C# i VB.NET.
+## Najczęściej zadawane pytania
 
-### P2: Gdzie mogę znaleźć pomoc dotyczącą zapytań związanych z Aspose.3D?
+### Q1: Czy mogę używać Aspose.3D dla .NET w innych językach programowania?
 
- A2: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za dedykowane wsparcie i dyskusje.
+A1: Aspose.3D głównie obsługuje języki .NET, takie jak C# i VB.NET.
 
-### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.3D dla .NET?
+### Q2: Gdzie mogę znaleźć wsparcie w sprawach związanych z Aspose.3D?
 
- Odpowiedź 3: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+A2: Odwiedź [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) w celu uzyskania dedykowanego wsparcia i dyskusji.
 
-### P4: Jak mogę uzyskać tymczasową licencję na Aspose.3D dla .NET?
+### Q3: Czy dostępna jest darmowa wersja próbna Aspose.3D dla .NET?
 
- Odpowiedź 4: Możesz nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+A3: Tak, darmową wersję próbną znajdziesz [tutaj](https://releases.aspose.com/).
 
-### P5: Gdzie mogę kupić licencję Aspose.3D for .NET?
+### Q4: Jak mogę uzyskać tymczasową licencję dla Aspose.3D dla .NET?
 
- A5: Kup licencję[Tutaj](https://purchase.aspose.com/buy).
+A4: Tymczasową licencję możesz nabyć [tutaj](https://purchase.aspose.com/temporary-license/).
+
+### Q5: Gdzie mogę kupić licencję Aspose.3D dla .NET?
+
+A5: Licencję możesz zakupić [tutaj](https://purchase.aspose.com/buy).
+
+### Q6: Czy mogę eksportować scenę do innych formatów niż OBJ?
+
+A6: Tak, Aspose.3D obsługuje wiele formatów, takich jak STL, FBX i GLTF. Wystarczy zmienić wartość enum `FileFormat` w metodzie `Save`.
+
+### Q7: Jak zmienić liczbę przekrojów (slices) ekstruzji?
+
+A7: Dostosuj właściwość `Slices` w konstruktorze `LinearExtrusion`, aby kontrolować gęstość siatki.
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-07  
+**Testowane z:** najnowsza wersja Aspose.3D dla .NET  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

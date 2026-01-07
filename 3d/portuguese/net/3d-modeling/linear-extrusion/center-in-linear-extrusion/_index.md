@@ -1,34 +1,44 @@
 ---
-title: Centro em Extrusão Linear
-linktitle: Centro em Extrusão Linear
-second_title: API Aspose.3D .NET
-description: Explore o mundo da modelagem 3D com Aspose.3D for .NET. Centralize técnicas de extrusão linear, crie designs impressionantes e libere sua criatividade.
-weight: 10
+date: 2026-01-07
+description: Aprenda a adicionar um plano de base ao realizar extrusão linear com
+  Aspose.3D para .NET e exportar arquivos Wavefront OBJ. Domine técnicas de centralização
+  e posicionamento da base em modelagem 3‑D.
+linktitle: Add Ground Plane and Center in Linear Extrusion
+second_title: Aspose.3D .NET API
+title: Adicionar Plano de Base e Centro na Extrusão Linear
 url: /pt/net/3d-modeling/linear-extrusion/center-in-linear-extrusion/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Centro em Extrusão Linear
+# Adicionar Plano de Base e Centralizar na Extrusão Linear
 
 ## Introdução
 
-Bem-vindo a este guia completo sobre como dominar a extrusão linear usando Aspose.3D para .NET. Se você deseja aprimorar suas habilidades de modelagem 3D e criar extrusões impressionantes, você está no lugar certo. Neste tutorial, nos aprofundaremos na técnica de extrusão linear, focando especificamente no aspecto de centralização para levar seus designs a um nível totalmente novo.
+Bem‑vindo a este guia completo sobre como dominar a extrusão linear usando Aspose.3D para .NET. Se você deseja **adicionar um plano de base** aos seus modelos e **exportar arquivos Wavefront OBJ** mantendo a extrusão centralizada, está no lugar certo. Neste tutorial, vamos explorar a técnica de extrusão linear, focando especificamente no aspecto de centralização e em como um plano de base ajuda a visualizar o resultado de forma mais clara.
 
-## Pré-requisitos
+## Respostas Rápidas
+- **O que “adicionar plano de base” realiza?** Ele fornece uma referência visual que facilita ver onde a extrusão se posiciona no plano X‑Z.  
+- **Qual formato é usado para exportar o modelo?** A cena é salva como um arquivo Wavefront OBJ (`FileFormat.WavefrontOBJ`).  
+- **Preciso de licença para executar o código?** Uma avaliação gratuita funciona para desenvolvimento; uma licença permanente é necessária para produção.  
+- **Posso alterar o comprimento da extrusão?** Sim – modifique o segundo parâmetro de `LinearExtrusion`.  
+- **A centralização é opcional?** Definir `Center = true` centraliza a extrusão em torno do perfil; `false` alinha-a a um lado.
 
-Antes de embarcarmos nesta jornada emocionante, certifique-se de ter os seguintes pré-requisitos em vigor:
+## Pré‑requisitos
 
-- Compreensão básica da linguagem de programação C#.
-- Visual Studio instalado em sua máquina.
--  Biblioteca Aspose.3D para .NET, que você pode baixar do[Documentação Aspose.3D .NET](https://reference.aspose.com/3d/net/).
--  Certifique-se de ter acesso ao[Documentação Aspose.3D .NET](https://reference.aspose.com/3d/net/) para referência ao longo do tutorial.
+Antes de embarcarmos nesta jornada empolgante, certifique‑se de que você possui os seguintes pré‑requisitos:
 
-## Importar namespaces
+- Compreensão básica da linguagem de programação C#.  
+- Visual Studio instalado em sua máquina.  
+- Biblioteca Aspose.3D para .NET, que pode ser baixada na [Aspose.3D .NET Documentation](https://reference.aspose.com/3d/net/).  
+- Garanta acesso à [Aspose.3D .NET Documentation](https://reference.aspose.com/3d/net/) para consulta ao longo do tutorial.
 
-Para começar, vamos importar os namespaces necessários. Eles estabelecerão a base para nossa obra-prima de modelagem 3D.
+## Importar Namespaces
+
+Para começar, vamos importar os namespaces necessários. Eles servirão de base para nossa obra‑prima de modelagem 3D.
 
 ```csharp
 using Aspose.ThreeD;
@@ -37,7 +47,9 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Etapa 1: inicializar o perfil base
+## Etapa 1: Inicializar o Perfil Base
+
+Começamos definindo um perfil retangular que será extrudado. O `RoundingRadius` adiciona um leve arredondamento aos cantos.
 
 ```csharp
 var profile = new RectangleShape()
@@ -46,13 +58,17 @@ var profile = new RectangleShape()
 };
 ```
 
-## Passo 2: Crie uma cena 3D
+## Etapa 2: Criar uma Cena 3D
+
+Um objeto `Scene` atua como contêiner para toda a geometria, luzes e câmeras.
 
 ```csharp
 Scene scene = new Scene();
 ```
 
-## Etapa 3: criar nós esquerdo e direito
+## Etapa 3: Criar Nós Esquerdo e Direito
+
+Dois nós irmãos são criados sob a raiz. Um demonstrará a extrusão **sem** centralização, o outro **com** centralização. Também translacionamos o nó esquerdo para que os dois exemplos não se sobreponham.
 
 ```csharp
 var left = scene.RootNode.CreateChildNode();
@@ -60,61 +76,91 @@ var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(5, 0, 0);
 ```
 
-## Etapa 4: Execute a extrusão linear no nó esquerdo
+## Etapa 4: Executar Extrusão Linear no Nó Esquerdo (Sem Central)
+
+Aqui extrudamos o perfil sem centralização. Observe a flag `Center = false`.
 
 ```csharp
 left.CreateChildNode(new LinearExtrusion(profile, 2) { Center = false, Slices = 3 });
 ```
 
-## Etapa 5: definir plano de solo para referência
+## Etapa 5: Adicionar Plano de Base para Referência (Nó Esquerdo)
+
+Adicionar uma caixa fina funciona como um **plano de base** para que você possa ver claramente como a extrusão se posiciona na base.
 
 ```csharp
 left.CreateChildNode(new Box(0.01, 3, 3));
 ```
 
-## Etapa 6: Execute a extrusão linear no nó direito
+## Etapa 6: Executar Extrusão Linear no Nó Direito (Com Central)
+
+Agora extrudamos o mesmo perfil, mas habilitando a centralização. A geometria será posicionada de forma simétrica ao redor da origem do perfil.
 
 ```csharp
 right.CreateChildNode(new LinearExtrusion(profile, 2) { Center = true, Slices = 3 });
 ```
 
-## Etapa 7: definir plano de solo para referência (nó direito)
+## Etapa 7: Adicionar Plano de Base para Referência (Nó Direito)
+
+Um segundo plano de base é adicionado ao nó direito para manter a comparação visual consistente.
 
 ```csharp
 right.CreateChildNode(new Box(0.01, 3, 3));
 ```
 
-## Etapa 8: Salvar cena 3D
+## Etapa 8: Exportar Arquivo Wavefront OBJ
+
+Por fim, **exportamos o Wavefront OBJ** para que o resultado possa ser aberto em qualquer visualizador 3‑D padrão.
 
 ```csharp
 scene.Save("Your Output Directory" + "CenterInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-## Conclusão
+## Por que Adicionar um Plano de Base?
 
-Parabéns! Você dominou com sucesso a arte da extrusão linear com centralização usando Aspose.3D para .NET. Sinta-se à vontade para experimentar diferentes parâmetros e explorar as vastas possibilidades que esta técnica oferece.
+Adicionar um plano de base fornece uma pista visual imediata sobre a altura e o alinhamento da extrusão. Isso é especialmente útil quando você precisa comparar resultados centralizados versus não centralizados, como demonstrado neste tutorial.
 
-## Perguntas frequentes
+## Problemas Comuns & Dicas
 
-### Q1: Posso usar Aspose.3D for .NET com outras linguagens de programação?
+- **Plano de base não visível:** Certifique‑se de que a espessura do plano (`0.01` no construtor `Box`) seja pequena o suficiente para não obscurecer a extrusão, mas grande o bastante para ser renderizada.  
+- **Falha na exportação:** Verifique se o diretório de saída existe e se você tem permissões de gravação.  
+- **Extrusão centralizada aparece deslocada:** Verifique a propriedade `Center`; `true` centraliza o perfil, `false` alinha‑o a um lado.
 
-A1: Aspose.3D oferece suporte principalmente a linguagens .NET, como C# e VB.NET.
+## Perguntas Frequentes
 
-### P2: Onde posso encontrar suporte para consultas relacionadas ao Aspose.3D?
+### Q1: Posso usar Aspose.3D para .NET com outras linguagens de programação?
 
- A2: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para suporte e discussões dedicados.
+A1: Aspose.3D suporta principalmente linguagens .NET como C# e VB.NET.
 
-### Q3: Existe uma avaliação gratuita disponível para Aspose.3D for .NET?
+### Q2: Onde posso encontrar suporte para dúvidas relacionadas ao Aspose.3D?
 
- A3: Sim, você pode acessar a avaliação gratuita[aqui](https://releases.aspose.com/).
+A2: Visite o [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) para suporte dedicado e discussões.
 
-### Q4: Como posso obter uma licença temporária para Aspose.3D for .NET?
+### Q3: Existe uma avaliação gratuita disponível para Aspose.3D para .NET?
 
- A4: Você pode adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+A3: Sim, você pode acessar a avaliação gratuita [aqui](https://releases.aspose.com/).
 
-### P5: Onde posso adquirir a licença Aspose.3D for .NET?
+### Q4: Como posso obter uma licença temporária para Aspose.3D para .NET?
 
- A5: Compre sua licença[aqui](https://purchase.aspose.com/buy).
+A4: Você pode adquirir uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
+
+### Q5: Onde posso comprar a licença do Aspose.3D para .NET?
+
+A5: Adquira sua licença [aqui](https://purchase.aspose.com/buy).
+
+### Q6: Posso exportar a cena para outros formatos além de OBJ?
+
+A6: Sim, Aspose.3D suporta vários formatos como STL, FBX e GLTF. Basta alterar o valor do enum `FileFormat` no método `Save`.
+
+### Q7: Como altero o número de fatias da extrusão?
+
+A7: Ajuste a propriedade `Slices` no construtor `LinearExtrusion` para controlar a densidade da malha.
+
+---
+
+**Última atualização:** 2026-01-07  
+**Testado com:** Aspose.3D para .NET versão mais recente  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
