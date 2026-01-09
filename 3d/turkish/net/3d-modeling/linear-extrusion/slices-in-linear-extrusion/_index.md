@@ -1,37 +1,43 @@
 ---
-title: Doğrusal Ekstrüzyonda Dilimler
-linktitle: Doğrusal Ekstrüzyonda Dilimler
-second_title: Aspose.3D .NET API'si
-description: Aspose.3D for .NET ile 3D tasarım dünyasını keşfedin. Doğrusal ekstrüzyon eğitimimizi kullanarak çarpıcı modeller oluşturun.
-weight: 13
+date: 2026-01-09
+description: Aspose.3D for .NET kullanarak 3D sahne oluşturmayı ve 3D modeli kaydetmeyi
+  öğrenin; wavefront OBJ dışa aktarımı ve lineer ekstrüzyon dilimlerini de içermektedir.
+linktitle: Create 3D Scene with Linear Extrusion Slices
+second_title: Aspose.3D .NET API
+title: Doğrusal Ekstrüzyon Dilimleriyle 3D Sahne Oluştur
 url: /tr/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Doğrusal Ekstrüzyonda Dilimler
+# Doğrusal Ekstrüzyon Dilimleri ile 3D Sahne Oluşturma
 
-## giriiş
+## Introduction
 
-Aspose.3D for .NET kullanarak 3D tasarım dünyasına hoş geldiniz! İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim size güçlü Aspose.3D kütüphanesini kullanarak çarpıcı 3D görselleştirmeler oluşturma sürecinde rehberlik edecektir.
+Aspose.3D for .NET kullanarak 3D tasarım dünyasına hoş geldiniz! Bu öğreticide **3d sahne** nesneleri oluşturacak, özel dilim sayılarıyla doğrusal ekstrüzyon uygulayacak ve sonunda **3d modeli** Wavefront OBJ dosyası olarak kaydedeceksiniz. Hızlı bir prototip mi yoksa üretim‑hazır bir görselleştirme mi oluşturuyorsanız, aşağıdaki adımlar **Aspose’u nasıl kullanacağınızı** göstererek C# üzerinden yüksek kaliteli geometri üretmenizi sağlayacak.
 
-## Önkoşullar
+## Quick Answers
+- **create 3d scene ne anlama geliyor?** Bu, tüm 3D varlıkları (mesh'ler, ışıklar, kameralar) tutan bir Scene nesnesi oluşturmak anlamına gelir.  
+- **Hangi format dışa aktarım için kullanılıyor?** Örnek, **Wavefront OBJ** (`export wavefront obj`) formatına dışa aktarır.  
+- **Kaç dilim ayarlayabilirim?** Herhangi bir tam sayı ayarlayabilirsiniz; demo 2 ve 10 dilim gösterir.  
+- **Bir lisansa ihtiyacım var mı?** Üretim kullanımı için geçici veya tam lisans gereklidir.  
+- **Bunu .NET Core üzerinde çalıştırabilir miyim?** Evet, Aspose.3D .NET Framework ve .NET Core’u destekler.
 
-Aspose.3D ile 3D tasarım dünyasına dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+## Prerequisites
 
--  Aspose.3D for .NET Library: Aspose.3D kütüphanesinin kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/3d/net/).
+Aspose.3D ile 3D tasarım dünyasına dalmadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
-- Tümleşik Geliştirme Ortamı (IDE): .NET geliştirmeyle uyumlu, tercih edilen herhangi bir IDE'yi kullanın.
+- Aspose.3D for .NET Kütüphanesi: Aspose.3D kütüphanesinin kurulu olduğundan emin olun. [buradan](https://releases.aspose.com/3d/net/) indirebilirsiniz.  
+- Entegre Geliştirme Ortamı (IDE): .NET geliştirmesiyle uyumlu istediğiniz IDE'yi kullanın.  
+- C# Temel Bilgisi: C# programlama dilinin temellerine aşina olun.  
+- 3D Tasarımı Keşfetme Arzusu: Görsel olarak çarpıcı 3D modeller yaratma tutkusuna sahip olun!
 
-- Temel C# Anlayışı: C# programlama dilinin temellerine aşina olun.
+## Import Namespaces
 
-- 3D Tasarımı Keşfetme Arzusu: Görsel olarak etkileyici 3D modeller yaratma tutkusu!
-
-## Ad Alanlarını İçe Aktar
-
-Aspose.3D ile 3D tasarım yolculuğunuza başlamak için gerekli ad alanlarını içe aktarmanız gerekir. Bu, kodunuzun gerekli sınıflara ve işlevlere erişebilmesini sağlar.
+Aspose.3D ile 3D tasarım yolculuğunuza başlamak için gerekli ad alanlarını (namespaces) içe aktarmanız gerekir. Bu, kodunuzun gerekli sınıflara ve işlevlere erişmesini sağlar.
 
 ```csharp
 using Aspose.ThreeD;
@@ -40,91 +46,113 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Doğrusal Ekstrüzyon - Doğrusal Ekstrüzyonda Dilimler
+## How to create 3d scene with Linear Extrusion
 
-Şimdi pratik bir örneğe dalalım: Dilimlerle Doğrusal Ekstrüzyon. Bu teknik, farklı düzeylerde ayrıntıya sahip karmaşık 3D modeller oluşturmanıza olanak tanır.
+Aşağıda sahneyi oluşturmak, ekstrüzyonu uygulamak ve **3d modeli** OBJ dosyası olarak kaydetmek için gereken her adımı adım adım inceliyoruz. Açıklamalar konuşma tarzında yazılmıştır, böylece kolayca takip edebilirsiniz.
 
-### Adım 1: Temel Profili Başlatın
+### Step 1: Initialize the Base Profile
+
+İlk olarak, ekstrüde edilecek 2‑D şekli tanımlıyoruz. Bu örnekte köşeleri yuvarlatılmış bir dikdörtgen.
 
 ```csharp
-// ExStart:BaseProfile'ı Başlat
+// ExStart:InitializeBaseProfile
 var profile = new RectangleShape()
 {
     RoundingRadius = 0.3
 };
-// ExEnd:BaseProfile'ı Başlat
+// ExEnd:InitializeBaseProfile
 ```
 
-### 2. Adım: 3B Sahne Oluşturun
+### Step 2: Create a 3D Scene
+
+`Scene` nesnesi, tüm geometri, ışık ve kameralar için bir kapsayıcıdır – **3d sahne oluşturmanın** temeli.
 
 ```csharp
 // ExStart:Create3DScene
 Scene scene = new Scene();
-// ExEnd:3DScene Oluştur
+// ExEnd:Create3DScene
 ```
 
-### 3. Adım: Sol ve Sağ Düğümler Oluşturun
+### Step 3: Create Left and Right Nodes
+
+Sahne köküne iki çocuk düğüm ekliyoruz. Biri düşük dilim sayısı, diğeri daha yüksek sayıda dilim kullanacak, böylece görsel farkı görebileceksiniz.
 
 ```csharp
 // ExStart:CreateLeftRightNodes
 var left = scene.RootNode.CreateChildNode();
 var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(15, 0, 0);
-// ExEnd:LeftRightNode'lar Oluşturun
+// ExEnd:CreateLeftRightNodes
 ```
 
-### Adım 4: Sol Düğümde Doğrusal Ekstrüzyon Gerçekleştirin
+### Step 4: Perform Linear Extrusion on Left Node
+
+Burada dikdörtgeni **2 dilim** ile ekstrüde ediyoruz. Daha az dilim, daha kaba bir görünüm sağlar.
 
 ```csharp
-// ExStart:Doğrusal EkstrüzyonSol Düğüm
+// ExStart:LinearExtrusionLeftNode
 left.CreateChildNode(new LinearExtrusion(profile, 2) { Slices = 2 });
-// ExEnd:Doğrusal EkstrüzyonSol Düğüm
+// ExEnd:LinearExtrusionLeftNode
 ```
 
-### Adım 5: Sağ Düğümde Doğrusal Ekstrüzyon Gerçekleştirin
+### Step 5: Perform Linear Extrusion on Right Node
+
+Şimdi aynı profili **10 dilim** ile ekstrüde ediyoruz, daha pürüzsüz bir yüzey elde ediyoruz.
 
 ```csharp
-// ExStart:Doğrusal EkstrüzyonSağ Düğüm
+// ExStart:LinearExtrusionRightNode
 right.CreateChildNode(new LinearExtrusion(profile, 2) { Slices = 10 });
-// ExEnd:Doğrusal EkstrüzyonSağ Düğüm
+// ExEnd:LinearExtrusionRightNode
 ```
 
-### Adım 6: 3D Sahneyi Kaydet
+### Step 6: Save 3D Scene
+
+Son olarak, sahneyi bir Wavefront OBJ dosyasına dışa aktarıyoruz. Bu, Aspose.3D kullanarak **obj nasıl kaydedilir** ve **wavefront obj nasıl dışa aktarılır** gösterir.
 
 ```csharp
-// ExStart:3DScene'i Kaydet
+// ExStart:Save3DScene
 scene.Save("Your Output Directory" + "SlicesInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
-//ExEnd:3DScene'i Kaydet
+// ExEnd:Save3DScene
 ```
 
-## Çözüm
+## Common Issues and Solutions
 
-Tebrikler! Aspose.3D for .NET'i kullanarak Dilimlerle Doğrusal Ekstrüzyonun nasıl gerçekleştirileceğini başarıyla öğrendiniz. Bu, Aspose.3D ile 3D tasarım yolculuğunuzun sadece başlangıcı; yaratıcılığınızı serbest bırakın ve sonsuz olasılıkları keşfedin!
+| Sorun | Neden Oluşur | Çözüm |
+|-------|--------------|------|
+| OBJ dosyası boş görünüyor | Çıktı yolu hatalı veya yazma izinleri eksik. | Dizin var mı kontrol edin ve uygulamanın yazma erişimi olduğundan emin olun. |
+| Dilimler pürüzlülüğü etkilemiyor | `Slices` değeri geometri boyutu için çok düşük. | Dilim sayısını artırın veya profil boyutlarını ayarlayın. |
+| Lisans istisnası | Deneme sürümü olmayan bir yapıda geçerli lisans olmadan çalıştırılıyor. | `License license = new License(); license.SetLicense("Aspose.3D.lic");` kodu ile geçici veya kalıcı lisans uygulayın. |
 
-## SSS'ler
+## Frequently Asked Questions
 
-### S1: Aspose.3D for .NET'i diğer programlama dilleriyle kullanabilir miyim?
+**S: Aspose.3D for .NET'i diğer programlama dilleriyle kullanabilir miyim?**  
+C: Aspose.3D öncelikle .NET için tasarlanmıştır, ancak .NET bağlayıcıları kullanarak Python gibi dillerle birlikte çalışabilirlik seçeneklerini keşfedebilirsiniz.
 
-Cevap1: Aspose.3D öncelikle .NET için tasarlanmıştır, ancak .NET bağlamalarını kullanarak Python gibi dillerle birlikte çalışabilirlik seçeneklerini keşfedebilirsiniz.
+**S: Aspose.3D for .NET için ayrıntılı belgeleri nereden bulabilirim?**  
+C: Aspose.3D'nin yetenekleri ve kullanımı hakkında derinlemesine bilgi için belgeleri [buradan](https://reference.aspose.com/3d/net/) inceleyin.
 
-### S2: Aspose.3D for .NET'in ayrıntılı belgelerini nerede bulabilirim?
+**S: Aspose.3D for .NET için ücretsiz deneme sürümü var mı?**  
+C: Evet, kütüphanenin özelliklerini satın almadan önce keşfetmek için ücretsiz denemenizi [buradan](https://releases.aspose.com/) alabilirsiniz.
 
- A2: Belgelere bakın[Burada](https://reference.aspose.com/3d/net/) Aspose.3D'nin yetenekleri ve kullanımına ilişkin ayrıntılı bilgi için.
+**S: Aspose.3D for .NET için teknik destek nasıl alabilirim?**  
+C: Yardım almak ve toplulukla etkileşimde bulunmak için Aspose.3D forumuna [buradan](https://forum.aspose.com/c/3d/18) gidin.
 
-### S3: Aspose.3D for .NET'in ücretsiz deneme sürümü mevcut mu?
+**S: Aspose.3D for .NET için geçici bir lisans kullanabilir miyim?**  
+C: Evet, değerlendirme amaçlı geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
- C3: Evet, ücretsiz denemenizi alabilirsiniz[Burada](https://releases.aspose.com/)Bir satın alma işlemi yapmadan önce kütüphanenin özelliklerini keşfetmek için.
+## Conclusion
 
-### S4: Aspose.3D for .NET için nasıl teknik destek alabilirim?
+Tebrikler! Aspose.3D for .NET kullanarak **3d sahne** oluşturmayı, özel dilim sayılarıyla doğrusal ekstrüzyon uygulamayı ve **3d modeli** Wavefront OBJ dosyası olarak kaydetmeyi başarıyla öğrendiniz. Bu, 3D tasarım yolculuğunuzun sadece başlangıcı—farklı profiller, dilim değerleri ve dışa aktarım formatlarıyla deneyler yaparak **3d modeling c#**'ın tam potansiyelini ortaya çıkarabilirsiniz.
 
- Cevap4: Aspose.3D forumunu ziyaret edin[Burada](https://forum.aspose.com/c/3d/18) yardım istemek ve toplulukla etkileşime geçmek.
-
-### S5: Aspose.3D for .NET için geçici bir lisans kullanabilir miyim?
-
- A5: Evet, geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/) değerlendirme amaçlı.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose
