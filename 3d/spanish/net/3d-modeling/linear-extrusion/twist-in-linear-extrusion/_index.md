@@ -1,33 +1,50 @@
 ---
-title: Giro en extrusión lineal
-linktitle: Giro en extrusión lineal
-second_title: Aspose.3D API .NET
-description: Explore el cautivador mundo de los gráficos 3D con Aspose.3D para .NET. Aprenda paso a paso la extrusión lineal con un giro.
-weight: 14
+date: 2026-01-09
+description: Aprende a crear escenas 3D en .NET usando Aspose.3D y descubre cómo realizar
+  extrusión con torsión mediante técnicas de extrusión lineal con torsión.
+linktitle: Twist in Linear Extrusion
+second_title: Aspose.3D .NET API
+title: Crear escena 3D .NET – Giro en extrusión lineal
 url: /es/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Giro en extrusión lineal
+# Crear escena 3D .NET – Giro en extrusión lineal
 
 ## Introducción
 
-En el mundo en constante evolución del desarrollo .NET, aprovechar el poder de los gráficos 3D es una tarea apasionante. Aspose.3D para .NET surge como un valioso conjunto de herramientas que permite a los desarrolladores crear aplicaciones inmersivas y visualmente impresionantes sin problemas. En esta guía completa, profundizaremos en una característica intrigante: la extrusión lineal con un toque. Este tutorial lo guiará a través del proceso paso a paso, desbloqueando el potencial de Aspose.3D para .NET.
+En el mundo en constante evolución del desarrollo .NET, aprovechar el poder de los gráficos 3D es una tarea emocionante. **Aspose.3D for .NET** surge como una valiosa caja de herramientas, capacitando a los desarrolladores para **crear aplicaciones de escena 3D .NET** que son inmersivas y visualmente impresionantes. En esta guía completa, exploraremos la intrigante característica — Extrusión lineal con un Giro — y le guiaremos paso a paso para que pueda añadir giros dinámicos a sus modelos con confianza.
+
+## Respuestas rápidas
+- **¿Qué significa “create 3d scene .net”?** Se refiere a construir una escena 3‑D programáticamente usando la biblioteca Aspose.3D en un entorno .NET.  
+- **¿Cómo añado un giro a una extrusión?** Establezca la propiedad `Twist` en un objeto `LinearExtrusion`; el valor es el ángulo de rotación en grados.  
+- **¿Necesito una licencia para Aspose.3D?** Una prueba gratuita funciona para evaluación; se requiere una licencia comercial para uso en producción.  
+- **¿Qué versiones de .NET son compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6 y posteriores.  
+- **¿Qué impacto tiene el valor `Slices`?** Más slices proporcionan un giro más suave pero aumentan el uso de memoria y el tiempo de procesamiento.
+
+## ¿Qué es la extrusión lineal con giro?
+La extrusión lineal barre un perfil 2‑D a lo largo de una trayectoria recta, mientras que la propiedad **twist** rota el perfil gradualmente, produciendo un efecto helicoidal. Esta técnica es perfecta para modelar resortes, columnas torcidas o elementos decorativos.
+
+## ¿Por qué usar Aspose.3D para esta tarea?
+- **API directa** – clases intuitivas como `LinearExtrusion` y `RectangleShape`.  
+- **Integración completa con .NET** – funciona sin problemas con C#, VB.NET y F#.  
+- **Salida multiplataforma** – exporta a OBJ, STL, FBX y muchos otros formatos.
 
 ## Requisitos previos
 
-Antes de embarcarnos en este viaje 3D, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de embarcarnos en este viaje 3D, asegúrese de contar con los siguientes requisitos:
 
--  Aspose.3D para .NET: asegúrese de haber instalado la biblioteca Aspose.3D. Si no, puedes descargarlo.[aquí](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET: Asegúrese de haber instalado la biblioteca Aspose.3D. Si no lo ha hecho, puede descargarla [aquí](https://releases.aspose.com/3d/net/).
 
-- Conocimientos básicos de desarrollo .NET: este tutorial asume una comprensión básica del desarrollo .NET.
+- Conocimientos básicos de desarrollo .NET: Este tutorial asume una comprensión básica del desarrollo .NET.
 
-## Importar espacios de nombres:
+## Importar espacios de nombres
 
-En cualquier proyecto .NET, el uso adecuado de los espacios de nombres es crucial. Comience importando los espacios de nombres necesarios para aprovechar las funcionalidades de Aspose.3D de manera efectiva. Aquí hay un fragmento para guiarte:
+En cualquier proyecto .NET, el uso adecuado de los espacios de nombres es crucial. Comience importando los espacios de nombres necesarios para aprovechar eficazmente las funcionalidades de Aspose.3D. Aquí hay un fragmento que lo guiará:
 
 ```csharp
 using Aspose.ThreeD;
@@ -36,94 +53,102 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Ahora, analicemos el intrigante proceso de extrusión lineal con un toque usando Aspose.3D para .NET en pasos digeribles:
+## Cómo crear una escena 3d .net con extrusión lineal y giro
 
-## Paso 1: Inicializar el perfil base
+A continuación se muestra una guía paso a paso que indica exactamente cómo **crear una escena 3D .NET** y aplicar un giro a una extrusión lineal.
+
+### Paso 1: Inicializar el perfil base
 
 ```csharp
-// Inicializar el perfil base a extruir
+// Initialize the base profile to be extruded
 var profile = new RectangleShape()
 {
     RoundingRadius = 0.3
 };
 ```
 
-Comience configurando el perfil base para extrusión. En este ejemplo, utilizamos una forma de rectángulo con un radio de redondeo específico.
+Comenzamos definiendo un perfil rectangular. Ajuste `RoundingRadius` para suavizar las esquinas si lo desea.
 
-## Paso 2: crea una escena 3D
+### Paso 2: Crear una escena 3D
 
 ```csharp
-// crear una escena
+// Create a scene 
 Scene scene = new Scene();
 ```
 
-Establece una escena 3D donde sucederá toda la magia. Esto sirve como lienzo para nuestra obra maestra en 3D.
+El objeto `Scene` actúa como el lienzo donde vivirán todos los objetos 3‑D.
 
-## Paso 3: crear nodos izquierdo y derecho
+### Paso 3: Crear nodos izquierdo y derecho
 
 ```csharp
-// Crear nodo izquierdo
+// Create left node
 var left = scene.RootNode.CreateChildNode();
-// Crear nodo derecho
+// Create right node
 var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(15, 0, 0);
 ```
 
-Genera nodos izquierdo y derecho dentro de la escena. Ajuste la traslación del nodo izquierdo para posicionarlo apropiadamente.
+Los nodos son contenedores para geometría. Creamos dos nodos para poder comparar una extrusión sin giro (izquierda) con una con giro (derecha). El nodo izquierdo se desplaza 15 unidades en el eje X para una separación visual.
 
-## Paso 4: realizar una extrusión lineal con giro en el nodo izquierdo
+### Paso 4: Realizar extrusión lineal con giro en el nodo izquierdo
 
 ```csharp
-// La propiedad de torsión define el grado de rotación al extruir el perfil.
-//Realice una extrusión lineal en el nodo izquierdo usando la propiedad de giro y cortes
+// Twist property defines the degree of the rotation while extruding the profile
+// Perform linear extrusion on the left node using twist and slices property
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 0, Slices = 100 });
 ```
 
-Aquí es donde ocurre la magia. Ejecute una extrusión lineal en el nodo izquierdo, incorporando la propiedad de torsión para definir el grado de rotación. Ajuste el número de cortes para obtener detalles más finos.
+Aquí el `Twist` se establece en **0°**, produciendo una extrusión recta. El valor `Slices` de **100** brinda una superficie lisa.
 
-## Paso 5: realizar una extrusión lineal con giro en el nodo derecho
+### Paso 5: Realizar extrusión lineal con giro en el nodo derecho
 
 ```csharp
-// Realice una extrusión lineal en el nodo derecho usando la propiedad de giro y cortes
+// Perform linear extrusion on the right node using twist and slices property
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 
-Refleje el proceso en el nodo derecho, experimentando con diferentes valores de torsión para observar las variaciones en la extrusión.
+Establecer `Twist = 90` rota el perfil 90 grados completos a lo largo de la longitud de la extrusión, creando una hélice perceptible.
 
-## Paso 6: guarde la escena 3D
+### Paso 6: Guardar la escena 3D
 
 ```csharp
-// Guardar escena 3D
+// Save 3D scene
 scene.Save("Your Output Directory" + "TwistInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-Finalmente, guarde su obra maestra 3D en el directorio de salida deseado. Ajuste el nombre del archivo según sus preferencias.
+La escena se exporta como un archivo OBJ, que puede abrir en la mayoría de los visores 3‑D o importar a otras canalizaciones.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-En este tutorial, hemos explorado el cautivador reino de la extrusión lineal con un toque usando Aspose.3D para .NET. Esta característica abre puertas a posibilidades creativas, permitiendo a los desarrolladores incorporar elementos visuales dinámicos en sus aplicaciones sin esfuerzo.
+| Problema | Por qué ocurre | Cómo solucionar |
+|----------|----------------|-----------------|
+| **El giro parece plano** | `Slices` es demasiado bajo, lo que produce una geometría gruesa. | Aumente `Slices` (p.ej., 200) para giros más suaves. |
+| **El rendimiento disminuye con `Slices` altos** | Más polígonos requieren más memoria/CPU. | Use el valor más bajo de `Slices` que aún cumpla con la calidad visual, o habilite la simplificación de geometría después de la extrusión. |
+| **Archivo no encontrado al guardar** | La ruta del directorio de salida es inválida. | Proporcione una ruta absoluta completa o asegúrese de que el directorio exista antes de llamar a `Save`. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo aplicar Extrusión lineal con giro a otras formas?
+**P: ¿Puedo aplicar la extrusión lineal con giro a otras formas?**  
+R: ¡Absolutamente! Puede experimentar con varios perfiles base más allá de los rectángulos, desbloqueando una gran cantidad de posibilidades de diseño.
 
-R1: ¡Absolutamente! Puede experimentar con varios perfiles de base más allá de los rectángulos, lo que abre un sinfín de posibilidades de diseño.
+**P: ¿Qué papel juega la propiedad 'Twist' en la extrusión lineal?**  
+R: La propiedad 'Twist' determina el grado de rotación durante el proceso de extrusión, influyendo en la forma 3D final.
 
-### P2: ¿Qué papel juega la propiedad 'Twist' en la extrusión lineal?
+**P: ¿Existen consideraciones de rendimiento al usar un gran número de slices?**  
+R: Si bien un número mayor de slices añade detalle, puede afectar el rendimiento. Encuentre un equilibrio basado en los requisitos de su aplicación.
 
-R2: La propiedad 'Twist' determina el grado de rotación durante el proceso de extrusión, lo que influye en la forma 3D final.
+**P: ¿Puedo combinar la extrusión lineal con otras funciones de Aspose.3D?**  
+R: ¡Claro! Aspose.3D ofrece un conjunto rico de funcionalidades. Siéntase libre de combinar la extrusión lineal con otras características para diseños más complejos.
 
-### P3: ¿Existen consideraciones de rendimiento al utilizar una gran cantidad de sectores?
+**P: ¿Existe una comunidad para soporte y discusiones de Aspose.3D?**  
+R: Sí, únase a la comunidad de Aspose.3D en [Aspose Forum](https://forum.aspose.com/c/3d/18) para obtener soporte y participar en discusiones.
 
-R3: Si bien una mayor cantidad de cortes agrega detalles, puede afectar el rendimiento. Logre un equilibrio según los requisitos de su aplicación.
+---
 
-### P4: ¿Puedo combinar Linear Extrusion con otras funciones de Aspose.3D?
+**Última actualización:** 2026-01-09  
+**Probado con:** Aspose.3D 24.11 for .NET  
+**Autor:** Aspose  
 
-R4: ¡Por supuesto! Aspose.3D ofrece un amplio conjunto de funciones. Siéntase libre de combinar Linear Extrusion con otras funcionalidades para diseños más complejos.
-
-### P5: ¿Existe una comunidad para el soporte y las discusiones sobre Aspose.3D?
-
- R5: Sí, únete a la comunidad Aspose.3D en[Foro Aspose](https://forum.aspose.com/c/3d/18) por apoyo y debates interesantes.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

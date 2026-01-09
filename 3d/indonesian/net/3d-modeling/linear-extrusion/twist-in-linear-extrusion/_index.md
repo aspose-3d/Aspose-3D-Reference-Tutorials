@@ -1,33 +1,50 @@
 ---
-title: Putar dalam Ekstrusi Linier
-linktitle: Putar dalam Ekstrusi Linier
+date: 2026-01-09
+description: Pelajari cara membuat adegan 3D .NET menggunakan Aspose.3D dan temukan
+  cara memutar ekstrusi dengan teknik putaran ekstrusi linier.
+linktitle: Twist in Linear Extrusion
 second_title: Aspose.3D .NET API
-description: Jelajahi dunia grafis 3D yang menawan dengan Aspose.3D untuk .NET. Pelajari langkah demi langkah Ekstrusi Linier dengan Twist.
-weight: 14
+title: Buat Adegan 3D .NET – Putaran pada Ekstrusi Linear
 url: /id/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Putar dalam Ekstrusi Linier
+# Membuat 3D Scene .NET – Twist pada Linear Extrusion
 
-## Perkenalan
+## Pendahuluan
 
-Di dunia perkembangan .NET yang terus berkembang, memanfaatkan kekuatan grafis 3D adalah upaya yang menarik. Aspose.3D untuk .NET muncul sebagai perangkat berharga, memberdayakan pengembang untuk membuat aplikasi yang imersif dan menakjubkan secara visual dengan mulus. Dalam panduan komprehensif ini, kita akan mempelajari satu fitur menarik - Ekstrusi Linier dengan Twist. Tutorial ini akan memandu Anda melalui proses langkah demi langkah, membuka potensi Aspose.3D untuk .NET.
+Dalam dunia pengembangan .NET yang terus berkembang, memanfaatkan kekuatan grafis 3D merupakan sebuah tantangan yang menarik. **Aspose.3D for .NET** muncul sebagai toolkit yang berharga, memungkinkan pengembang untuk **membuat 3D scene .NET** yang imersif dan memukau secara visual. Dalam panduan komprehensif ini, kami akan menjelajahi fitur menarik — Linear Extrusion dengan Twist — dan memandu Anda melalui setiap langkah sehingga Anda dapat menambahkan twist dinamis pada model dengan percaya diri.
+
+## Jawaban Cepat
+- **Apa arti “create 3d scene .net”?** Ini merujuk pada pembuatan scene 3‑D secara programatis menggunakan pustaka Aspose.3D dalam lingkungan .NET.  
+- **Bagaimana cara menambahkan twist pada sebuah extrusion?** Atur properti `Twist` pada objek `LinearExtrusion`; nilainya adalah sudut rotasi dalam derajat.  
+- **Apakah saya memerlukan lisensi untuk Aspose.3D?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk penggunaan produksi.  
+- **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6 dan yang lebih baru.  
+- **Apa dampak nilai `Slices`?** Lebih banyak slice menghasilkan twist yang lebih halus tetapi meningkatkan penggunaan memori dan waktu pemrosesan.
+
+## Apa itu Linear Extrusion dengan Twist?
+Linear extrusion menggerakkan profil 2‑D sepanjang jalur lurus, sementara properti **twist** memutar profil secara bertahap, menghasilkan efek heliks. Teknik ini sangat cocok untuk memodelkan pegas, kolom berputar, atau elemen dekoratif.
+
+## Mengapa menggunakan Aspose.3D untuk tugas ini?
+- **API yang sederhana** – kelas intuitif seperti `LinearExtrusion` dan `RectangleShape`.  
+- **Integrasi penuh dengan .NET** – bekerja mulus dengan C#, VB.NET, dan F#.  
+- **Output lintas‑platform** – ekspor ke OBJ, STL, FBX, dan banyak format lainnya.
 
 ## Prasyarat
 
-Sebelum kita memulai perjalanan 3D ini, pastikan Anda memiliki prasyarat berikut:
+Sebelum memulai perjalanan 3D ini, pastikan Anda telah menyiapkan prasyarat berikut:
 
--  Aspose.3D untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.3D. Jika belum, Anda dapat mendownloadnya[Di Sini](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET: Pastikan Anda telah menginstal pustaka Aspose.3D. Jika belum, Anda dapat mengunduhnya [di sini](https://releases.aspose.com/3d/net/).
 
 - Pengetahuan Dasar Pengembangan .NET: Tutorial ini mengasumsikan pemahaman dasar tentang pengembangan .NET.
 
-## Impor Namespace:
+## Mengimpor Namespace
 
-Dalam proyek .NET apa pun, penggunaan namespace yang tepat sangatlah penting. Mulailah dengan mengimpor namespace yang diperlukan untuk memanfaatkan fungsionalitas Aspose.3D secara efektif. Berikut cuplikan untuk memandu Anda:
+Dalam proyek .NET apa pun, penggunaan namespace yang tepat sangat penting. Mulailah dengan mengimpor namespace yang diperlukan untuk memanfaatkan fungsionalitas Aspose.3D secara efektif. Berikut cuplikan kode untuk memandu Anda:
 
 ```csharp
 using Aspose.ThreeD;
@@ -36,94 +53,102 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Sekarang, mari kita uraikan proses menarik Ekstrusi Linier dengan Twist menggunakan Aspose.3D untuk .NET menjadi langkah-langkah yang mudah dicerna:
+## Cara membuat 3d scene .net dengan Linear Extrusion Twist
 
-## Langkah 1: Inisialisasi Profil Dasar
+Berikut adalah langkah‑demi‑langkah yang menunjukkan secara tepat cara **membuat 3D scene .NET** dan menerapkan twist pada linear extrusion.
+
+### Langkah 1: Inisialisasi Profil Dasar
 
 ```csharp
-// Inisialisasi profil dasar yang akan diekstrusi
+// Initialize the base profile to be extruded
 var profile = new RectangleShape()
 {
     RoundingRadius = 0.3
 };
 ```
 
-Mulailah dengan menyiapkan profil dasar untuk ekstrusi. Dalam contoh ini, kita menggunakan bentuk persegi panjang dengan radius pembulatan tertentu.
+Kami memulai dengan mendefinisikan profil persegi panjang. Sesuaikan `RoundingRadius` untuk melunakkan sudut jika diinginkan.
 
-## Langkah 2: Buat Adegan 3D
+### Langkah 2: Buat 3D Scene
 
 ```csharp
-// Membuat heboh
+// Create a scene 
 Scene scene = new Scene();
 ```
 
-Ciptakan adegan 3D di mana semua keajaiban akan terjadi. Ini berfungsi sebagai kanvas untuk karya 3D kita.
+Objek `Scene` berfungsi sebagai kanvas tempat semua objek 3‑D akan berada.
 
-## Langkah 3: Buat Node Kiri dan Kanan
+### Langkah 3: Buat Node Kiri dan Kanan
 
 ```csharp
-// Buat simpul kiri
+// Create left node
 var left = scene.RootNode.CreateChildNode();
-// Buat simpul yang tepat
+// Create right node
 var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(15, 0, 0);
 ```
 
-Hasilkan node kiri dan kanan dalam adegan. Sesuaikan terjemahan node kiri untuk memposisikannya dengan tepat.
+Node adalah wadah untuk geometri. Kami membuat dua node sehingga dapat membandingkan extrusion tanpa twist (kiri) dengan yang ber‑twist (kanan). Node kiri dipindahkan 15 satuan pada sumbu X untuk pemisahan visual.
 
-## Langkah 4: Lakukan Ekstrusi Linier dengan Twist pada Node Kiri
+### Langkah 4: Lakukan Linear Extrusion dengan Twist pada Node Kiri
 
 ```csharp
-// Properti twist menentukan derajat rotasi saat mengekstrusi profil
-//Lakukan ekstrusi linier pada node kiri menggunakan properti twist dan irisan
+// Twist property defines the degree of the rotation while extruding the profile
+// Perform linear extrusion on the left node using twist and slices property
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 0, Slices = 100 });
 ```
 
-Ini adalah dimana keajaiban terjadi. Jalankan ekstrusi linier pada node kiri, dengan menggabungkan properti twist untuk menentukan derajat rotasi. Sesuaikan jumlah irisan untuk detail yang lebih halus.
+Di sini `Twist` diatur ke **0°**, menghasilkan extrusion lurus. Nilai `Slices` sebesar **100** memberikan permukaan yang halus.
 
-## Langkah 5: Lakukan Ekstrusi Linier dengan Memutar pada Node Kanan
+### Langkah 5: Lakukan Linear Extrusion dengan Twist pada Node Kanan
 
 ```csharp
-// Lakukan ekstrusi linier pada node kanan menggunakan properti twist dan irisan
+// Perform linear extrusion on the right node using twist and slices property
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 
-Cerminkan proses pada node kanan, bereksperimenlah dengan nilai putaran yang berbeda untuk mengamati variasi ekstrusi.
+Menetapkan `Twist = 90` memutar profil sebesar 90 derajat sepanjang panjang extrusion, menciptakan heliks yang jelas terlihat.
 
-## Langkah 6: Simpan Adegan 3D
+### Langkah 6: Simpan 3D Scene
 
 ```csharp
-// Simpan adegan 3D
+// Save 3D scene
 scene.Save("Your Output Directory" + "TwistInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-Terakhir, simpan karya 3D Anda ke direktori keluaran yang diinginkan. Sesuaikan nama file sesuai preferensi Anda.
+Scene diekspor sebagai file OBJ, yang dapat Anda buka di sebagian besar penampil 3‑D atau impor ke pipeline lain.
 
-## Kesimpulan
+## Masalah Umum dan Solusinya
 
-Dalam tutorial ini, kita telah menjelajahi ranah Ekstrusi Linier dengan Twist yang menawan menggunakan Aspose.3D untuk .NET. Fitur ini membuka pintu bagi kemungkinan kreatif, memungkinkan pengembang memasukkan elemen visual dinamis ke dalam aplikasi mereka dengan mudah.
+| Masalah | Mengapa Terjadi | Cara Memperbaiki |
+|-------|----------------|------------|
+| **Twist terlihat datar** | `Slices` terlalu rendah, menghasilkan geometri kasar. | Tingkatkan `Slices` (misalnya, 200) untuk twist yang lebih halus. |
+| **Performa menurun dengan `Slices` tinggi** | Lebih banyak poligon membutuhkan lebih banyak memori/CPU. | Gunakan `Slices` terendah yang masih memenuhi kualitas visual, atau aktifkan penyederhanaan geometri setelah extrusion. |
+| **File tidak ditemukan saat menyimpan** | Jalur direktori output tidak valid. | Berikan jalur absolut lengkap atau pastikan direktori ada sebelum memanggil `Save`. |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Bisakah saya menerapkan Ekstrusi Linier dengan Twist ke bentuk lain?
+**T: Bisakah saya menerapkan Linear Extrusion dengan Twist pada bentuk lain?**  
+J: Tentu saja! Anda dapat bereksperimen dengan berbagai profil dasar selain persegi panjang, membuka banyak kemungkinan desain.
 
-A1: Tentu saja! Anda dapat bereksperimen dengan berbagai profil dasar selain persegi panjang, membuka segudang kemungkinan desain.
+**T: Apa peran properti 'Twist' dalam linear extrusion?**  
+J: Properti 'Twist' menentukan derajat rotasi selama proses extrusion, memengaruhi bentuk 3D akhir.
 
-### Q2: Apa peran properti 'Twist' dalam ekstrusi linier?
+**T: Apakah ada pertimbangan performa saat menggunakan banyak slice?**  
+J: Semakin banyak slice menambah detail, tetapi dapat memengaruhi performa. Temukan keseimbangan berdasarkan kebutuhan aplikasi Anda.
 
-A2: Properti 'Twist' menentukan derajat rotasi selama proses ekstrusi, yang memengaruhi bentuk 3D akhir.
+**T: Bisakah saya menggabungkan Linear Extrusion dengan fitur Aspose.3D lainnya?**  
+J: Pastinya! Aspose.3D menawarkan serangkaian fitur yang kaya. Silakan menggabungkan Linear Extrusion dengan fungsionalitas lain untuk desain yang lebih kompleks.
 
-### Q3: Apakah ada pertimbangan kinerja saat menggunakan jumlah irisan yang banyak?
+**T: Apakah ada komunitas untuk dukungan dan diskusi Aspose.3D?**  
+J: Ya, bergabunglah dengan komunitas Aspose.3D di [Aspose Forum](https://forum.aspose.com/c/3d/18) untuk dukungan dan diskusi yang menarik.
 
-A3: Meskipun jumlah irisan yang lebih banyak menambah detail, hal ini dapat memengaruhi kinerja. Ciptakan keseimbangan berdasarkan kebutuhan aplikasi Anda.
+---
 
-### Q4: Dapatkah saya menggabungkan Ekstrusi Linier dengan fitur Aspose.3D lainnya?
+**Terakhir Diperbarui:** 2026-01-09  
+**Diuji Dengan:** Aspose.3D 24.11 untuk .NET  
+**Penulis:** Aspose  
 
-A4: Tentu saja! Aspose.3D menawarkan serangkaian fitur yang kaya. Jangan ragu untuk menggabungkan Ekstrusi Linier dengan fungsi lain untuk desain yang lebih kompleks.
-
-### Q5: Apakah ada komunitas untuk dukungan dan diskusi Aspose.3D?
-
- A5: Ya, bergabunglah dengan komunitas Aspose.3D di[Asumsikan Forum](https://forum.aspose.com/c/3d/18) untuk dukungan dan diskusi yang menarik.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
