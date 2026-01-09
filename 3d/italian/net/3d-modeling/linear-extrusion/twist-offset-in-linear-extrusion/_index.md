@@ -1,33 +1,49 @@
 ---
-title: Offset torsione nell'estrusione lineare
-linktitle: Offset torsione nell'estrusione lineare
-second_title: API Aspose.3D .NET
-description: Esplora la magia di Aspose.3D per .NET con la nostra guida passo passo su Twist Offset nell'estrusione lineare. Migliora i tuoi progetti 3D senza sforzo.
-weight: 15
+date: 2026-01-09
+description: Impara a creare scene 3D usando Aspose.3D per .NET, inclusa l'esportazione
+  in Wavefront OBJ e come ruotare l'offset nell'estrusione lineare.
+linktitle: Twist Offset in Linear Extrusion
+second_title: Aspose.3D .NET API
+title: Come creare una scena 3D con offset di torsione nell'estrusione lineare
 url: /it/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Offset torsione nell'estrusione lineare
+# Crea una scena 3D: Twist Offset in estrusione lineare
 
-## introduzione
+## Introduzione
 
-Benvenuti nel mondo di Aspose.3D per .NET, una libreria versatile che consente agli sviluppatori di gestire facilmente la manipolazione 3D. In questo tutorial, approfondiremo una delle funzionalità più interessanti: il "Twist Offset nell'estrusione lineare". Se sei pronto per migliorare le tue capacità di programmazione 3D, tuffiamoci subito!
+Se devi **creare scene 3d** rapidamente e aggiungere geometria dinamica, Aspose.3D per .NET ti offre esattamente gli strumenti necessari. In questo **tutorial Aspose 3D** vedremo la tecnica del *how to twist offset* durante un'**estrusione lineare con twist** e infine **esporteremo file Wavefront OBJ**. Alla fine avrai un modello 3‑D completo, pronto per il rendering o per ulteriori elaborazioni.
+
+## Risposte rapide
+- **Cosa fa il “twist offset”?** Sposta il punto di inizio del twist lungo l’asse di estrusione.  
+- **Quale metodo esporta Wavefront OBJ?** `scene.Save(..., FileFormat.WavefrontOBJ)`.  
+- **È necessaria una licenza per eseguire il campione?** Una licenza temporanea è sufficiente per i test; per la produzione è richiesta una licenza completa.  
+- **Quali versioni di .NET sono supportate?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Quante sezioni (slices) sono consigliate per twist fluidi?** Circa 100 sezioni offrono un buon equilibrio tra qualità e prestazioni.
+
+## Che cosa è **create 3d scene**?
+
+Creare una scena 3‑D significa costruire una struttura gerarchica che contiene geometria, luci, telecamere e trasformazioni. Aspose.3D fornisce la classe `Scene` che funge da contenitore radice per tutti i nodi aggiunti.
+
+## Perché usare **linear extrusion twist**?
+
+Un'estrusione lineare con twist consente di trasformare un profilo 2‑D in un oggetto 3‑D a spirale—perfetto per viti, molle o colonne decorative. Aggiungere un twist offset ti dà ancora più controllo sull’inizio della rotazione, permettendo design asimmetrici.
 
 ## Prerequisiti
 
-Prima di intraprendere questo entusiasmante viaggio, assicurati di possedere i seguenti prerequisiti:
+Prima di iniziare, assicurati di avere:
 
--  Aspose.3D per .NET Library: scarica e installa la libreria da[pagina di rilascio](https://releases.aspose.com/3d/net/).
+- Libreria Aspose.3D per .NET: scarica e installa la libreria dalla [pagina di rilascio](https://releases.aspose.com/3d/net/).  
+- Ambiente di sviluppo: Visual Studio 2022 (o qualsiasi IDE C#) pronto per lo sviluppo .NET.
 
-- Il tuo ambiente di sviluppo: assicurati che il tuo ambiente di sviluppo sia configurato e pronto per essere utilizzato.
+## Importa gli spazi dei nomi
 
-## Importa spazi dei nomi
-
-Inizia importando gli spazi dei nomi necessari per accedere alle funzionalità fornite da Aspose.3D per .NET. Nel tuo codice, questo potrebbe essere simile a:
+Inizia importando gli spazi dei nomi necessari per accedere alle funzionalità di Aspose.3D.
 
 ```csharp
 using Aspose.ThreeD;
@@ -36,11 +52,11 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Ora, suddividiamo l'esempio in passaggi gestibili per padroneggiare l'offset di torsione nell'estrusione lineare:
+## Guida passo‑passo
 
-## Passaggio 1: inizializzare il profilo di base
+### Passo 1: Inizializza il profilo di base  
 
-Inizia creando un profilo di base, qui esemplificato da una forma rettangolare con un raggio di arrotondamento specificato.
+Useremo un rettangolo con un piccolo raggio di arrotondamento come profilo da estrudere.
 
 ```csharp
 var profile = new RectangleShape()
@@ -49,17 +65,17 @@ var profile = new RectangleShape()
 };
 ```
 
-## Passaggio 2: crea una scena
+### Passo 2: Crea una scena  
 
-Genera una scena 3D per ospitare i tuoi nodi e le tue forme.
+Questo è il contenitore dove **creeremo scene 3d** nodi.
 
 ```csharp
 Scene scene = new Scene();
 ```
 
-## Passaggio 3: crea nodi
+### Passo 3: Crea i nodi  
 
-Costruisci nodi all'interno della scena, sia a sinistra che a destra.
+Due nodi fratelli vengono aggiunti alla radice – uno per l’estrusione normale e uno per la versione con offset.
 
 ```csharp
 var left = scene.RootNode.CreateChildNode();
@@ -67,57 +83,63 @@ var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(18, 0, 0);
 ```
 
-## Passaggio 4: estrusione lineare sul nodo sinistro
+### Passo 4: Estrusione lineare sul nodo sinistro (twist base)  
 
-Esegui l'estrusione lineare sul nodo sinistro utilizzando la proprietà twist e slice.
+Qui dimostriamo un classico **linear extrusion twist** senza alcun offset.
 
 ```csharp
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 360, Slices = 100 });
 ```
 
-## Passaggio 5: estrusione lineare sul nodo destro con offset di torsione
+### Passo 5: Estrusione lineare sul nodo destro con **Twist Offset**  
 
-Sul nodo destro, esegui l'estrusione lineare utilizzando le proprietà torsione, offset torsione e fette.
+Ora applichiamo la tecnica del **how to twist offset** fornendo un vettore `TwistOffset`.
 
 ```csharp
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 360, Slices = 100, TwistOffset = new Vector3(3, 0, 0) });
 ```
 
-## Passaggio 6: salva la scena 3D
+### Passo 6: **Export Wavefront OBJ**  
 
-Salva la scena 3D nella directory di output desiderata, specificando il formato file come WavefrontOBJ.
+Infine, salva la scena assemblata in un file OBJ così da poterla visualizzare in qualsiasi visualizzatore 3‑D standard.
 
 ```csharp
 scene.Save("Your Output Directory" + "TwistOffsetInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-Congratulazioni! Hai implementato con successo Twist Offset nell'estrusione lineare utilizzando Aspose.3D per .NET.
+## Problemi comuni e consigli
 
-## Conclusione
-
-In questo tutorial, abbiamo esplorato le potenti funzionalità di Aspose.3D per .NET, concentrandoci in particolare su Twist Offset nell'estrusione lineare. Con queste nuove competenze, sei ben attrezzato per infondere dinamismo nei tuoi progetti 3D.
+- **Il twist appare piatto?** Aumenta il valore di `Slices` per una geometria più fluida.  
+- **Offset non visibile?** Verifica che il vettore `TwistOffset` sia diverso da zero e allineato con la direzione di estrusione.  
+- **Il file OBJ manca delle texture?** OBJ salva solo la geometria; usa file MTL per le definizioni dei materiali, se necessario.
 
 ## Domande frequenti
 
-### Q1: posso utilizzare Aspose.3D per .NET con altri linguaggi di programmazione?
+**D: Posso usare Aspose.3D per .NET con altri linguaggi di programmazione?**  
+R: Aspose.3D è principalmente destinato ai linguaggi .NET, ma esistono librerie equivalenti per Java e altre piattaforme.
 
-A1: Aspose.3D supporta principalmente i linguaggi .NET, ma Aspose fornisce librerie simili per Java e altre piattaforme.
+**D: Come ottengo una licenza temporanea per Aspose.3D per .NET?**  
+R: Visita [questo link](https://purchase.aspose.com/temporary-license/) per acquisire una licenza temporanea a scopo di test.
 
-### Q2: Come posso ottenere una licenza temporanea per Aspose.3D per .NET?
+**D: Esiste un forum della community per Aspose.3D per .NET?**  
+R: Certamente! Unisciti alla community su [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) per interagire con altri sviluppatori e chiedere assistenza.
 
- A2: Visita[questo link](https://purchase.aspose.com/temporary-license/)acquisire una licenza temporanea a scopo di test.
+**D: Sono disponibili esempi e documentazione aggiuntivi?**  
+R: Esplora la [documentazione](https://reference.aspose.com/3d/net/) per guide approfondite ed esempi.
 
-### Q3: Esiste un forum della community per Aspose.3D per .NET?
+**D: Dove posso acquistare Aspose.3D per .NET?**  
+R: Vai a [questo link](https://purchase.aspose.com/buy) per effettuare l’acquisto e sbloccare tutto il potenziale di Aspose.3D.
 
- A3: Assolutamente! Unisciti alla comunità su[Aspose.3D Forum](https://forum.aspose.com/c/3d/18) per interagire con altri sviluppatori e chiedere assistenza.
+## Conclusione
 
-### Q4: Sono disponibili ulteriori esempi e documentazione?
+In questo **tutorial aspose 3d** hai imparato a **creare scene 3d**, applicare un **linear extrusion twist**, controllare il **twist offset** e **esportare file Wavefront OBJ**. Queste tecniche ti consentono di aggiungere geometrie torcenti sofisticate a qualsiasi progetto 3‑D con poche righe di codice.
 
- A4: Esplora il[documentazione](https://reference.aspose.com/3d/net/) per guide ed esempi esaustivi.
+---
 
-### Q5: Dove posso acquistare Aspose.3D per .NET?
+**Ultimo aggiornamento:** 2026-01-09  
+**Testato con:** Aspose.3D 24.11 per .NET  
+**Autore:** Aspose  
 
- A5: Vai a[questo link](https://purchase.aspose.com/buy) per effettuare un acquisto e sbloccare tutto il potenziale di Aspose.3D.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

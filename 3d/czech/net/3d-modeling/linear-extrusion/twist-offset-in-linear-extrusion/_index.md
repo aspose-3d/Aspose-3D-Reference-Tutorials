@@ -1,33 +1,49 @@
 ---
-title: Twist Offset u lineárního vytlačování
-linktitle: Twist Offset u lineárního vytlačování
+date: 2026-01-09
+description: Naučte se, jak vytvořit 3D scénu pomocí Aspose.3D pro .NET, včetně exportu
+  do formátu Wavefront OBJ a jak zkroucení offsetu v lineární extruzi.
+linktitle: Twist Offset in Linear Extrusion
 second_title: Aspose.3D .NET API
-description: Prozkoumejte kouzlo Aspose.3D pro .NET pomocí našeho podrobného průvodce o Twist Offsetu v lineárním vytlačování. Zvyšte své 3D projekty bez námahy.
-weight: 15
+title: Jak vytvořit 3D scénu s otočným posunem při lineárním extrudování
 url: /cs/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Twist Offset u lineárního vytlačování
+# Vytvoření 3D scény: Twist Offset v lineárním extruzi
 
 ## Úvod
 
-Vítejte ve světě Aspose.3D for .NET, všestranné knihovny, která umožňuje vývojářům snadno zvládnout 3D manipulaci. V tomto tutoriálu se ponoříme do jedné ze zajímavých funkcí - "Twist Offset in Linear Extrusion." Pokud jste připraveni zlepšit své 3D programovací dovednosti, pojďme se ponořit přímo do toho!
+Pokud potřebujete **rychle vytvořit 3d scénu** objektů a přidat dynamickou geometrii, Aspose.3D pro .NET vám poskytne přesně ty nástroje, které potřebujete. V tomto **Aspose 3D tutoriálu** projdeme techniku *jak otočit offset* při provádění **lineárního extruze twistu** a nakonec **exportujeme soubory Wavefront OBJ**. Na konci budete mít plně vybavený 3‑D model připravený k renderování nebo dalšímu zpracování.
+
+## Rychlé odpovědi
+- **Co dělá “twist offset”?** Posouvá počáteční bod twistu podél osy extruze.  
+- **Která metoda exportuje Wavefront OBJ?** `scene.Save(..., FileFormat.WavefrontOBJ)`.  
+- **Potřebuji licenci pro spuštění ukázky?** Dočasná licence stačí pro testování; pro produkci je vyžadována plná licence.  
+- **Jaké verze .NET jsou podporovány?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Kolik řezů se doporučuje pro plynulé twisty?** Přibližně 100 řezů poskytuje dobrý poměr mezi kvalitou a výkonem.
+
+## Co je **create 3d scene**?
+
+Vytvoření 3‑D scény znamená postavit hierarchickou strukturu, která obsahuje geometrii, světla, kamery a transformace. Aspose.3D poskytuje třídu `Scene`, která funguje jako kořenový kontejner pro všechny uzly, které přidáte.
+
+## Proč použít **linear extrusion twist**?
+
+Lineární extruze s twistem vám umožní převést 2‑D profil na spirálový 3‑D objekt — ideální pro šrouby, pružiny nebo dekorativní sloupy. Přidání twist offsetu vám dává ještě větší kontrolu nad začátkem rotace, což umožňuje asymetrické návrhy.
 
 ## Předpoklady
 
-Než se vydáme na tuto vzrušující cestu, ujistěte se, že máte splněny následující předpoklady:
+Než se pustíme do práce, ujistěte se, že máte:
 
--  Aspose.3D for .NET Library: Stáhněte a nainstalujte knihovnu z[stránka vydání](https://releases.aspose.com/3d/net/).
+- Aspose.3D pro .NET knihovnu: Stáhněte a nainstalujte knihovnu ze [stránky vydání](https://releases.aspose.com/3d/net/).  
+- Vývojové prostředí: Visual Studio 2022 (nebo jakékoli C# IDE) připravené pro .NET vývoj.
 
-- Vaše vývojové prostředí: Ujistěte se, že je vaše vývojové prostředí nastaveno a připraveno k provozu.
+## Importujte jmenné prostory
 
-## Importovat jmenné prostory
-
-Začněte importem potřebných jmenných prostorů pro přístup k funkcím poskytovaným Aspose.3D pro .NET. Ve vašem kódu to může vypadat takto:
+Začněte importováním potřebných jmenných prostorů pro přístup k funkcím Aspose.3D.
 
 ```csharp
 using Aspose.ThreeD;
@@ -36,11 +52,11 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Nyní rozeberme příklad do zvládnutelných kroků pro zvládnutí kroucení offsetu v lineárním vytlačování:
+## Průvodce krok za krokem
 
-## Krok 1: Inicializujte základní profil
+### Krok 1: Inicializace základního profilu  
 
-Začněte vytvořením základního profilu, jehož příkladem je obdélníkový tvar se zadaným poloměrem zaoblení.
+Použijeme obdélník s malým poloměrem zaoblení jako profil, který bude extrudován.
 
 ```csharp
 var profile = new RectangleShape()
@@ -49,17 +65,17 @@ var profile = new RectangleShape()
 };
 ```
 
-## Krok 2: Vytvořte scénu
+### Krok 2: Vytvoření scény  
 
-Vygenerujte 3D scénu pro umístění uzlů a tvarů.
+Toto je kontejner, kde **vytvoříme 3d scénu** uzly.
 
 ```csharp
 Scene scene = new Scene();
 ```
 
-## Krok 3: Vytvořte uzly
+### Krok 3: Vytvoření uzlů  
 
-Vytvořte uzly ve scéně, levé i pravé.
+Do kořene jsou přidány dva sourozenecké uzly — jeden pro běžnou extruzi a jeden pro verzi s offsetem.
 
 ```csharp
 var left = scene.RootNode.CreateChildNode();
@@ -67,57 +83,63 @@ var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(18, 0, 0);
 ```
 
-## Krok 4: Lineární vytlačování na levém uzlu
+### Krok 4: Lineární extruze na levém uzlu (základní twist)  
 
-Proveďte lineární vysunutí na levém uzlu pomocí vlastnosti twist and slices.
+Zde demonstrujeme klasický **linear extrusion twist** bez jakéhokoli offsetu.
 
 ```csharp
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 360, Slices = 100 });
 ```
 
-## Krok 5: Lineární vytlačování na pravém uzlu s Twist Offsetem
+### Krok 5: Lineární extruze na pravém uzlu s **Twist Offset**  
 
-V pravém uzlu proveďte lineární vysunutí pomocí vlastností kroucení, kroucení offsetu a řezů.
+Nyní aplikujeme techniku **jak otočit offset** poskytnutím vektoru `TwistOffset`.
 
 ```csharp
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 360, Slices = 100, TwistOffset = new Vector3(3, 0, 0) });
 ```
 
-## Krok 6: Uložte 3D scénu
+### Krok 6: **Export Wavefront OBJ**  
 
-Uložte 3D scénu do požadovaného výstupního adresáře a určete formát souboru jako WavefrontOBJ.
+Nakonec uložíme sestavenou scénu do OBJ souboru, abyste ji mohli zobrazit v libovolném standardním 3‑D prohlížeči.
 
 ```csharp
 scene.Save("Your Output Directory" + "TwistOffsetInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-Gratulujeme! Úspěšně jste implementovali Twist Offset v Linear Extrusion pomocí Aspose.3D for .NET.
+## Časté problémy a tipy
+
+- **Twist vypadá plochě?** Zvyšte hodnotu `Slices` pro hladší geometrii.  
+- **Offset není viditelný?** Ujistěte se, že vektor `TwistOffset` není nulový a je zarovnán se směrem extruze.  
+- **OBJ soubor postrádá textury?** OBJ ukládá jen geometrii; pro definice materiálů použijte soubory MTL, pokud jsou potřeba.
+
+## Často kladené otázky
+
+**Q: Můžu použít Aspose.3D pro .NET s jinými programovacími jazyky?**  
+A: Aspose.3D primárně cílí na .NET jazyky, ale ekvivalentní knihovny existují pro Javu a další platformy.
+
+**Q: Jak získám dočasnou licenci pro Aspose.3D pro .NET?**  
+A: Navštivte [tento odkaz](https://purchase.aspose.com/temporary-license/) a získejte dočasnou licenci pro testovací účely.
+
+**Q: Existuje komunitní fórum pro Aspose.3D pro .NET?**  
+A: Rozhodně! Připojte se ke komunitě na [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) a komunikujte s ostatními vývojáři a hledejte pomoc.
+
+**Q: Jsou k dispozici další příklady a dokumentace?**  
+A: Prozkoumejte [dokumentaci](https://reference.aspose.com/3d/net/) pro rozsáhlé návody a příklady.
+
+**Q: Kde si mohu zakoupit Aspose.3D pro .NET?**  
+A: Přejděte na [tento odkaz](https://purchase.aspose.com/buy) a proveďte nákup, čímž odemknete plný potenciál Aspose.3D.
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali výkonné možnosti Aspose.3D pro .NET, konkrétně se zaměřením na Twist Offset v Linear Extrusion. S těmito nově nalezenými dovednostmi jste dobře vybaveni k tomu, abyste do svých 3D projektů vlili dynamiku.
+V tomto **aspose 3d tutoriálu** jste se naučili, jak **vytvořit 3d scénu**, aplikovat **linear extrusion twist**, ovládat **twist offset** a **exportovat Wavefront OBJ** soubory. Tyto techniky vám umožní přidat sofistikovanou, zkroucenou geometrii do jakéhokoli 3‑D projektu pomocí několika řádků kódu.
 
-## FAQ
+---
 
-### Q1: Mohu používat Aspose.3D pro .NET s jinými programovacími jazyky?
+**Poslední aktualizace:** 2026-01-09  
+**Testováno s:** Aspose.3D 24.11 pro .NET  
+**Autor:** Aspose  
 
-A1: Aspose.3D primárně podporuje jazyky .NET, ale Aspose poskytuje podobné knihovny pro Java a další platformy.
-
-### Q2: Jak získám dočasnou licenci pro Aspose.3D for .NET?
-
- A2: Návštěva[tento odkaz](https://purchase.aspose.com/temporary-license/)získat dočasnou licenci pro testovací účely.
-
-### Q3: Existuje komunitní fórum pro Aspose.3D pro .NET?
-
- A3: Rozhodně! Připojte se ke komunitě na[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) spojit se s ostatními vývojáři a vyhledat pomoc.
-
-### Q4: Jsou k dispozici další příklady a dokumentace?
-
- A4: Prozkoumejte[dokumentace](https://reference.aspose.com/3d/net/) pro rozsáhlé návody a příklady.
-
-### Q5: Kde mohu zakoupit Aspose.3D pro .NET?
-
- A5: Zamiřte[tento odkaz](https://purchase.aspose.com/buy) provést nákup a odemknout plný potenciál Aspose.3D.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,49 @@
 ---
-title: Doğrusal Ekstrüzyonda Büküm Ofseti
-linktitle: Doğrusal Ekstrüzyonda Büküm Ofseti
-second_title: Aspose.3D .NET API'si
-description: Doğrusal Ekstrüzyonda Büküm Ofseti hakkındaki adım adım kılavuzumuzla Aspose.3D for .NET'in büyüsünü keşfedin. 3D projelerinizi zahmetsizce yükseltin.
-weight: 15
+date: 2026-01-09
+description: Aspose.3D for .NET kullanarak 3D sahne oluşturmayı, wavefront OBJ ihracatını
+  ve lineer ekstrüzyonda bükme ofsetini nasıl yapacağınızı öğrenin.
+linktitle: Twist Offset in Linear Extrusion
+second_title: Aspose.3D .NET API
+title: Doğrusal Ekstrüzyonda Burulma Ofseti ile 3D Sahne Nasıl Oluşturulur
 url: /tr/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Doğrusal Ekstrüzyonda Büküm Ofseti
+# 3D Sahne Oluşturma: Doğrusal Ekstrüzyonda Burulma Ofseti
 
-## giriiş
+## Giriş
 
-Geliştiricilerin 3D manipülasyonu kolaylıkla gerçekleştirmesini sağlayan çok yönlü bir kütüphane olan Aspose.3D for .NET dünyasına hoş geldiniz. Bu eğitimde ilgi çekici özelliklerden biri olan "Doğrusal Ekstrüzyonda Büküm Ofseti"ni inceleyeceğiz. 3D programlama becerilerinizi geliştirmeye hazırsanız, hemen konuya dalalım!
+**3d sahne** nesnelerini hızlıca oluşturmak ve dinamik geometri eklemek istiyorsanız, Aspose.3D for .NET tam da ihtiyacınız olan araçları sunar. Bu **Aspose 3D öğreticisinde** *burulma ofseti* tekniğini **doğrusal ekstrüzyon burulması** yaparken nasıl uygulayacağınızı adım adım gösterecek ve sonunda **Wavefront OBJ** dosyalarını dışa aktaracağız. Sonunda, renderlama ya da daha ileri işleme için hazır, tam özellikli bir 3‑D modeliniz olacak.
+
+## Hızlı Yanıtlar
+- **“burulma ofseti” ne işe yarar?** Burulmanın başlangıç noktasını ekstrüzyon ekseni boyunca kaydırır.  
+- **Wavefront OBJ dosyasını dışa aktaran yöntem hangisidir?** `scene.Save(..., FileFormat.WavefrontOBJ)`.  
+- **Örneği çalıştırmak için lisansa ihtiyacım var mı?** Test için geçici bir lisans yeterlidir; üretim ortamı için tam lisans gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Pürüzsüz burulmalar için kaç dilim önerilir?** Kalite ve performans arasında iyi bir denge sağlamak için yaklaşık 100 dilim yeterlidir.
+
+## **create 3d scene** nedir?
+
+3‑D sahne oluşturmak, geometri, ışıklar, kameralar ve dönüşümler içeren hiyerarşik bir yapı kurmak anlamına gelir. Aspose.3D, eklediğiniz tüm düğümleri tutan kök konteyner görevi gören bir `Scene` sınıfı sağlar.
+
+## Neden **linear extrusion twist** kullanmalı?
+
+Burulmalı doğrusal ekstrüzyon, 2‑D bir profili spiral bir 3‑D nesneye dönüştürmenizi sağlar—vida, yay veya dekoratif sütunlar için mükemmeldir. Burulma ofseti eklemek, dönüşün başlangıcını daha fazla kontrol etmenizi sağlar ve asimetrik tasarımlara imkan tanır.
 
 ## Önkoşullar
 
-Bu heyecan verici yolculuğa çıkmadan önce aşağıdaki ön koşulların yerine getirildiğinden emin olun:
+Başlamadan önce şunların kurulu olduğundan emin olun:
 
--  Aspose.3D for .NET Kütüphanesi: Kütüphaneyi şuradan indirip yükleyin:[yayın sayfası](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET Kütüphanesi: Kütüphaneyi [release sayfasından](https://releases.aspose.com/3d/net/) indirin ve kurun.  
+- Geliştirme Ortamınız: .NET geliştirme için Visual Studio 2022 (veya herhangi bir C# IDE) hazır olmalı.
 
-- Geliştirme Ortamınız: Geliştirme ortamınızın kurulduğundan ve kullanıma hazır olduğundan emin olun.
+## Ad Alanlarını İçe Aktarın
 
-## Ad Alanlarını İçe Aktar
-
-Aspose.3D for .NET tarafından sağlanan işlevselliğe erişmek için gerekli ad alanlarını içe aktararak başlayın. Kodunuzda bu şöyle görünebilir:
+Aspose.3D işlevselliğine erişmek için gerekli ad alanlarını içe aktararak başlayın.
 
 ```csharp
 using Aspose.ThreeD;
@@ -36,11 +52,11 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Şimdi, Doğrusal Ekstrüzyonda Büküm Ofsetinde ustalaşmak için örneği yönetilebilir adımlara ayıralım:
+## Adım‑Adım Kılavuz
 
-## Adım 1: Temel Profili Başlatın
+### Adım 1: Temel Profili Başlat  
 
-Burada belirli bir yuvarlama yarıçapına sahip bir dikdörtgen şekliyle örneklenen bir taban profili oluşturarak başlayın.
+Ekstrüzyon yapılacak profil olarak küçük bir yuvarlama yarıçapına sahip bir dikdörtgen kullanacağız.
 
 ```csharp
 var profile = new RectangleShape()
@@ -49,17 +65,17 @@ var profile = new RectangleShape()
 };
 ```
 
-## Adım 2: Bir Sahne Oluşturun
+### Adım 2: Bir Sahne Oluştur  
 
-Düğümlerinizi ve şekillerinizi barındırmak için bir 3B sahne oluşturun.
+Bu, **create 3d scene** düğümlerini ekleyeceğimiz konteynerdir.
 
 ```csharp
 Scene scene = new Scene();
 ```
 
-## 3. Adım: Düğümler Oluşturun
+### Adım 3: Düğümler Oluştur  
 
-Sahnenin içinde hem sol hem de sağda düğümler oluşturun.
+Kök düğüme iki kardeş düğüm eklenir – biri normal ekstrüzyon, diğeri ofsetli versiyon için.
 
 ```csharp
 var left = scene.RootNode.CreateChildNode();
@@ -67,57 +83,63 @@ var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(18, 0, 0);
 ```
 
-## Adım 4: Sol Düğümde Doğrusal Ekstrüzyon
+### Adım 4: Sol Düğümde Doğrusal Ekstrüzyon (temel burulma)  
 
-Bükme ve dilimleme özelliğini kullanarak sol düğümde doğrusal ekstrüzyon gerçekleştirin.
+Burada, herhangi bir ofset olmadan klasik bir **linear extrusion twist** gösteriyoruz.
 
 ```csharp
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 360, Slices = 100 });
 ```
 
-## Adım 5: Büküm Ofsetiyle Sağ Düğümde Doğrusal Ekstrüzyon
+### Adım 5: Sağ Düğümde **Burulma Ofseti** ile Doğrusal Ekstrüzyon  
 
-Sağ düğümde büküm, büküm ofseti ve dilimler özelliğini kullanarak doğrusal ekstrüzyon gerçekleştirin.
+Şimdi `TwistOffset` vektörünü sağlayarak **how to twist offset** tekniğini uyguluyoruz.
 
 ```csharp
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 360, Slices = 100, TwistOffset = new Vector3(3, 0, 0) });
 ```
 
-## Adım 6: 3D Sahneyi Kaydet
+### Adım 6: **Wavefront OBJ** Dışa Aktar  
 
-Dosya formatını WavefrontOBJ olarak belirterek 3D sahneyi istediğiniz çıktı dizinine kaydedin.
+Son olarak, oluşturulan sahneyi bir OBJ dosyasına kaydediyoruz; böylece herhangi bir standart 3‑D görüntüleyicide açabilirsiniz.
 
 ```csharp
 scene.Save("Your Output Directory" + "TwistOffsetInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-Tebrikler! Aspose.3D for .NET'i kullanarak Doğrusal Ekstrüzyonda Büküm Ofsetini başarıyla uyguladınız.
+## Yaygın Sorunlar ve İpuçları
 
-## Çözüm
+- **Burulma düz görünüyor mu?** Daha pürüzsüz geometri için `Slices` değerini artırın.  
+- **Ofset görünmüyor mu?** `TwistOffset` vektörünün sıfır olmadığından ve ekstrüzyon yönüyle hizalandığından emin olun.  
+- **OBJ dosyasında dokular eksik mi?** OBJ yalnızca geometriyi saklar; gerekiyorsa malzeme tanımları için MTL dosyalarını kullanın.
 
-Bu eğitimde Aspose.3D for .NET'in güçlü yeteneklerini araştırdık, özellikle Doğrusal Ekstrüzyonda Büküm Ofsetine odaklandık. Bu yeni keşfedilen becerilerle, 3D projelerinize dinamizm katmak için iyi bir donanıma sahipsiniz.
+## Sıkça Sorulan Sorular
 
-## SSS'ler
+**S: Aspose.3D for .NET'i başka programlama dilleriyle kullanabilir miyim?**  
+C: Aspose.3D öncelikle .NET dillerine yöneliktir, ancak Java ve diğer platformlar için eşdeğer kütüphaneler mevcuttur.
 
-### S1: Aspose.3D for .NET'i diğer programlama dilleriyle kullanabilir miyim?
+**S: Aspose.3D for .NET için geçici bir lisans nasıl alınır?**  
+C: Test amaçlı geçici lisans almak için [bu bağlantıyı](https://purchase.aspose.com/temporary-license/) ziyaret edin.
 
-Cevap1: Aspose.3D öncelikle .NET dillerini destekler ancak Aspose, Java ve diğer platformlar için benzer kütüphaneler sağlar.
+**S: Aspose.3D for .NET için bir topluluk forumu var mı?**  
+C: Kesinlikle! Diğer geliştiricilerle etkileşimde bulunmak ve yardım almak için [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) adresine katılın.
 
-### S2: Aspose.3D for .NET için geçici lisansı nasıl edinebilirim?
+**S: Ek örnekler ve dokümantasyon bulunuyor mu?**  
+C: Kapsamlı kılavuzlar ve örnekler için [dokümantasyonu](https://reference.aspose.com/3d/net/) inceleyin.
 
- A2: Ziyaret edin[bu bağlantı](https://purchase.aspose.com/temporary-license/)Test amacıyla geçici bir lisans almak için.
+**S: Aspose.3D for .NET'i nereden satın alabilirim?**  
+C: Tam potansiyelini açmak için [bu bağlantıyı](https://purchase.aspose.com/buy) kullanarak satın alın.
 
-### S3: Aspose.3D for .NET için bir topluluk forumu var mı?
+## Sonuç
 
- A3: Kesinlikle! Şu adresteki topluluğa katılın:[Aspose.3D Forumu](https://forum.aspose.com/c/3d/18) diğer geliştiricilerle iletişim kurmak ve yardım istemek.
+Bu **aspose 3d tutorial** içinde **create 3d scene** oluşturmayı, **linear extrusion twist** uygulamayı, **twist offset** kontrol etmeyi ve **Wavefront OBJ** dosyalarını dışa aktarmayı öğrendiniz. Bu teknikler, birkaç satır kodla herhangi bir 3‑D projeye sofistike, burulmuş geometri eklemenizi sağlar.
 
-### S4: Ek örnekler ve belgeler mevcut mu?
+---
 
- A4: Keşfedin[dokümantasyon](https://reference.aspose.com/3d/net/) Kapsamlı kılavuzlar ve örnekler için.
+**Son Güncelleme:** 2026-01-09  
+**Test Edilen Versiyon:** Aspose.3D 24.11 for .NET  
+**Yazar:** Aspose  
 
-### S5: Aspose.3D for .NET'i nereden satın alabilirim?
-
- A5: Başa dön[bu bağlantı](https://purchase.aspose.com/buy) satın alma işlemi gerçekleştirin ve Aspose.3D'nin tüm potansiyelini ortaya çıkarın.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

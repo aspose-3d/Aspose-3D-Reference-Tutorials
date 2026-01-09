@@ -1,33 +1,47 @@
 ---
-title: Twist Offset ในการอัดขึ้นรูปเชิงเส้น
-linktitle: Twist Offset ในการอัดขึ้นรูปเชิงเส้น
+date: 2026-01-09
+description: เรียนรู้วิธีสร้างฉาก 3 มิติด้วย Aspose.3D สำหรับ .NET รวมถึงการส่งออกไฟล์
+  Wavefront OBJ และวิธีบิดออฟเซ็ตในการดึงเส้นตรง.
+linktitle: Twist Offset in Linear Extrusion
 second_title: Aspose.3D .NET API
-description: สำรวจความมหัศจรรย์ของ Aspose.3D สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนเกี่ยวกับ Twist Offset ใน Linear Extrusion ยกระดับโครงการ 3D ของคุณได้อย่างง่ายดาย
-weight: 15
+title: วิธีสร้างฉาก 3 มิติด้วยการบิดออฟเซ็ตในการดึงเชิงเส้น
 url: /th/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Twist Offset ในการอัดขึ้นรูปเชิงเส้น
+# สร้าง 3D Scene: Twist Offset ใน Linear Extrusion
 
-## การแนะนำ
+## บทนำ
 
-ยินดีต้อนรับสู่โลกของ Aspose.3D สำหรับ .NET ไลบรารีอเนกประสงค์ที่ช่วยให้นักพัฒนาสามารถจัดการกับการปรับแต่ง 3D ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะเจาะลึกถึงหนึ่งในคุณสมบัติที่น่าสนใจ นั่นก็คือ "Twist Offset ในการอัดขึ้นรูปเชิงเส้น" หากคุณพร้อมที่จะยกระดับทักษะการเขียนโปรแกรม 3D มาเริ่มกันเลย!
+หากคุณต้องการ **create 3d scene** อย่างรวดเร็วและเพิ่มเรขาคณิตแบบไดนามิก Aspose.3D for .NET จะมอบเครื่องมือที่คุณต้องการให้ครบถ้วน ใน **Aspose 3D tutorial** นี้เราจะอธิบายเทคนิค *how to twist offset* ขณะทำ **linear extrusion twist** และสุดท้าย **export Wavefront OBJ** ไฟล์ต่าง ๆ เมื่อเสร็จแล้วคุณจะได้โมเดล 3‑D ที่เต็มรูปแบบพร้อมใช้สำหรับการเรนเดอร์หรือการประมวลผลต่อไป
+
+## คำตอบอย่างรวดเร็ว
+- **What does “twist offset” do?** มันจะเลื่อนจุดเริ่มต้นของการบิดตามแกน extrusion.  
+- **Which method exports Wavefront OBJ?** `scene.Save(..., FileFormat.WavefrontOBJ)`.  
+- **Do I need a license to run the sample?** ใบอนุญาตชั่วคราวใช้ได้สำหรับการทดสอบ; ต้องมีใบอนุญาตเต็มสำหรับการใช้งานจริง.  
+- **What .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **How many slices are recommended for smooth twists?** ประมาณ 100 slices ให้สมดุลที่ดีระหว่างคุณภาพและประสิทธิภาพ.
+
+## **create 3d scene** คืออะไร?
+
+การสร้าง 3‑D scene หมายถึงการสร้างโครงสร้างแบบลำดับชั้นที่บรรจุเรขาคณิต, แสง, กล้อง, และการแปลงต่าง ๆ Aspose.3D มีคลาส `Scene` ทำหน้าที่เป็นคอนเทนเนอร์รากสำหรับโหนดทั้งหมดที่คุณเพิ่มเข้าไป
+
+## ทำไมต้องใช้ **linear extrusion twist**?
+
+Linear extrusion พร้อมการบิดทำให้คุณเปลี่ยนโปรไฟล์ 2‑D ให้กลายเป็นวัตถุ 3‑D ที่เป็นสปิรัล—เหมาะสำหรับสกรู, สปริง, หรือคอลัมน์ตกแต่ง การเพิ่ม twist offset จะให้การควบคุมจุดเริ่มต้นของการหมุนมากขึ้น ทำให้สามารถออกแบบแบบไม่สมมาตรได้
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้นการเดินทางที่น่าตื่นเต้นนี้ ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+- Aspose.3D for .NET Library: ดาวน์โหลดและติดตั้งไลบรารีจาก [release page](https://releases.aspose.com/3d/net/).  
+- สภาพแวดล้อมการพัฒนา: Visual Studio 2022 (หรือ IDE C# ใด ๆ) พร้อมพร้อมสำหรับการพัฒนา .NET
 
--  Aspose.3D สำหรับ .NET Library: ดาวน์โหลดและติดตั้งไลบรารีจาก[หน้าปล่อย](https://releases.aspose.com/3d/net/).
+## นำเข้า Namespaces
 
-- สภาพแวดล้อมการพัฒนาของคุณ: ตรวจสอบให้แน่ใจว่าสภาพแวดล้อมการพัฒนาของคุณได้รับการตั้งค่าและพร้อมที่จะใช้งาน
-
-## นำเข้าเนมสเปซ
-
-เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นเพื่อเข้าถึงฟังก์ชันการทำงานที่ Aspose.3D สำหรับ .NET มอบให้ ในโค้ดของคุณ สิ่งนี้อาจมีลักษณะดังนี้:
+เริ่มต้นด้วยการนำเข้า namespaces ที่จำเป็นเพื่อเข้าถึงฟังก์ชันของ Aspose.3D
 
 ```csharp
 using Aspose.ThreeD;
@@ -36,11 +50,11 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-ตอนนี้ เรามาแบ่งตัวอย่างออกเป็นขั้นตอนที่สามารถจัดการได้เพื่อฝึกฝน Twist Offset ใน Linear Extrusion:
+## คู่มือแบบขั้นตอน
 
-## ขั้นตอนที่ 1: เริ่มต้นโปรไฟล์ฐาน
+### ขั้นตอนที่ 1: เริ่มต้น Base Profile  
 
-เริ่มต้นด้วยการสร้างโปรไฟล์ฐาน ซึ่งแสดงตัวอย่างด้วยรูปทรงสี่เหลี่ยมผืนผ้าที่มีรัศมีการปัดเศษที่ระบุ
+เราจะใช้สี่เหลี่ยมที่มีรัศมีโค้งเล็ก ๆ เป็นโปรไฟล์ที่จะทำการ extrusion
 
 ```csharp
 var profile = new RectangleShape()
@@ -49,17 +63,17 @@ var profile = new RectangleShape()
 };
 ```
 
-## ขั้นตอนที่ 2: สร้างฉาก
+### ขั้นตอนที่ 2: สร้าง Scene  
 
-สร้างฉาก 3 มิติเพื่อโฮสต์โหนดและรูปร่างของคุณ
+นี่คือคอนเทนเนอร์ที่เราจะ **create 3d scene** โหนดต่าง ๆ
 
 ```csharp
 Scene scene = new Scene();
 ```
 
-## ขั้นตอนที่ 3: สร้างโหนด
+### ขั้นตอนที่ 3: สร้าง Nodes  
 
-สร้างโหนดภายในฉากทั้งซ้ายและขวา
+โหนดสองโหนดที่เป็นพี่น้องจะถูกเพิ่มเข้าไปในราก – หนึ่งสำหรับ extrusion ปกติและอีกหนึ่งสำหรับเวอร์ชันที่มี offset
 
 ```csharp
 var left = scene.RootNode.CreateChildNode();
@@ -67,57 +81,63 @@ var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(18, 0, 0);
 ```
 
-## ขั้นตอนที่ 4: การอัดขึ้นรูปเชิงเส้นบนโหนดด้านซ้าย
+### ขั้นตอนที่ 4: Linear Extrusion บน Node ซ้าย (twist พื้นฐาน)  
 
-ดำเนินการอัดขึ้นรูปเชิงเส้นบนโหนดด้านซ้ายโดยใช้คุณสมบัติการบิดและสไลซ์
+ที่นี่เราจะแสดงตัวอย่าง **linear extrusion twist** แบบคลาสสิกโดยไม่มี offset
 
 ```csharp
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 360, Slices = 100 });
 ```
 
-## ขั้นตอนที่ 5: การอัดขึ้นรูปเชิงเส้นบนโหนดด้านขวาพร้อม Twist Offset
+### ขั้นตอนที่ 5: Linear Extrusion บน Node ขวาพร้อม **Twist Offset**  
 
-บนโหนดด้านขวา ดำเนินการอัดขึ้นรูปเชิงเส้นโดยใช้คุณสมบัติการบิด การบิดการบิด และการแบ่งส่วน
+ตอนนี้เราจะใช้เทคนิค **how to twist offset** โดยการระบุเวกเตอร์ `TwistOffset`
 
 ```csharp
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 360, Slices = 100, TwistOffset = new Vector3(3, 0, 0) });
 ```
 
-## ขั้นตอนที่ 6: บันทึกฉาก 3 มิติ
+### ขั้นตอนที่ 6: **Export Wavefront OBJ**  
 
-บันทึกฉาก 3D ไปยังไดเร็กทอรีเอาท์พุตที่คุณต้องการ โดยระบุรูปแบบไฟล์เป็น WavefrontOBJ
+สุดท้ายให้บันทึก scene ที่ประกอบเสร็จเป็นไฟล์ OBJ เพื่อให้คุณสามารถดูได้ในโปรแกรมดู 3‑D มาตรฐานใด ๆ
 
 ```csharp
 scene.Save("Your Output Directory" + "TwistOffsetInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-ยินดีด้วย! คุณใช้งาน Twist Offset ใน Linear Extrusion โดยใช้ Aspose.3D สำหรับ .NET สำเร็จแล้ว
+## ปัญหาทั่วไป & เคล็ดลับ
 
-## บทสรุป
-
-ในบทช่วยสอนนี้ เราได้สำรวจความสามารถอันทรงพลังของ Aspose.3D สำหรับ .NET โดยเน้นไปที่ Twist Offset ใน Linear Extrusion โดยเฉพาะ ด้วยทักษะที่เพิ่งค้นพบเหล่านี้ คุณจะมีความพร้อมที่จะใส่ไดนามิกลงในโปรเจ็กต์ 3 มิติของคุณ
+- **Twist looks flat?** เพิ่มค่า `Slices` เพื่อให้เรขาคณิตเรียบเนียนขึ้น.  
+- **Offset not visible?** ตรวจสอบให้แน่ใจว่าเวกเตอร์ `TwistOffset` ไม่เป็นศูนย์และสอดคล้องกับทิศทางของ extrusion.  
+- **OBJ file missing textures?** OBJ เก็บเฉพาะเรขาคณิต; ใช้ไฟล์ MTL สำหรับกำหนดวัสดุหากต้องการ.
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.3D สำหรับ .NET กับภาษาการเขียนโปรแกรมอื่นๆ ได้หรือไม่
+**Q: Can I use Aspose.3D for .NET with other programming languages?**  
+A: Aspose.3D มุ่งเน้นที่ภาษา .NET เป็นหลัก แต่ก็มีไลบรารีที่เทียบเท่าสำหรับ Java และแพลตฟอร์มอื่น ๆ
 
-ตอบ 1: Aspose.3D รองรับภาษา .NET เป็นหลัก แต่ Aspose มีไลบรารีที่คล้ายกันสำหรับ Java และแพลตฟอร์มอื่นๆ
+**Q: How do I obtain a temporary license for Aspose.3D for .NET?**  
+A: เยี่ยมชม [this link](https://purchase.aspose.com/temporary-license/) เพื่อรับใบอนุญาตชั่วคราวสำหรับการทดสอบ
 
-### คำถามที่ 2: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.3D สำหรับ .NET ได้อย่างไร
+**Q: Is there a community forum for Aspose.3D for .NET?**  
+A: แน่นอน! เข้าร่วมชุมชนที่ [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) เพื่อสนทนากับนักพัฒนาคนอื่นและขอความช่วยเหลือ
 
- A2: เยี่ยมเลย[ลิงค์นี้](https://purchase.aspose.com/temporary-license/)เพื่อรับใบอนุญาตชั่วคราวเพื่อการทดสอบ
+**Q: Are there additional examples and documentation available?**  
+A: สำรวจ [documentation](https://reference.aspose.com/3d/net/) เพื่อดูคู่มือและตัวอย่างอย่างละเอียด
 
-### คำถามที่ 3: มีฟอรัมชุมชนสำหรับ Aspose.3D สำหรับ .NET หรือไม่
+**Q: Where can I purchase Aspose.3D for .NET?**  
+A: ไปที่ [this link](https://purchase.aspose.com/buy) เพื่อทำการซื้อและเปิดใช้งานศักยภาพเต็มของ Aspose.3D
 
- A3: แน่นอน! เข้าร่วมชุมชนได้ที่[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) เพื่อมีส่วนร่วมกับเพื่อนนักพัฒนาและขอความช่วยเหลือ
+## สรุป
 
-### คำถามที่ 4: มีตัวอย่างและเอกสารประกอบเพิ่มเติมหรือไม่
+ใน **aspose 3d tutorial** นี้คุณได้เรียนรู้วิธี **create 3d scene**, ใช้ **linear extrusion twist**, ควบคุม **twist offset**, และ **export Wavefront OBJ** ไฟล์ เทคนิคเหล่านี้ช่วยให้คุณเพิ่มเรขาคณิตบิดซับซ้อนไปยังโครงการ 3‑D ใด ๆ เพียงไม่กี่บรรทัดของโค้ด
 
- A4: สำรวจ[เอกสารประกอบ](https://reference.aspose.com/3d/net/) สำหรับคำแนะนำและตัวอย่างที่ครอบคลุม
+---
 
-### คำถามที่ 5: ฉันจะซื้อ Aspose.3D สำหรับ .NET ได้ที่ไหน
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose  
 
- A5: มุ่งหน้าสู่[ลิงค์นี้](https://purchase.aspose.com/buy) เพื่อซื้อและปลดล็อคศักยภาพเต็มรูปแบบของ Aspose.3D
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

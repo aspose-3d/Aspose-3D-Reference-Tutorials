@@ -1,33 +1,47 @@
 ---
-title: Смещение скручивания при линейной экструзии
-linktitle: Смещение скручивания при линейной экструзии
+date: 2026-01-09
+description: Узнайте, как создавать 3D‑сцену с помощью Aspose.3D для .NET, включая
+  экспорт в формат Wavefront OBJ и как скручивать смещение в линейной экструзии.
+linktitle: Twist Offset in Linear Extrusion
 second_title: Aspose.3D .NET API
-description: Откройте для себя магию Aspose.3D для .NET с помощью нашего пошагового руководства по смещению скручивания в линейной экструзии. Усовершенствуйте свои 3D-проекты без особых усилий.
-weight: 15
+title: Как создать 3D‑сцену с крутильным смещением при линейной экструзии
 url: /ru/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Смещение скручивания при линейной экструзии
+# Создание 3D‑сцены: Смещение скручивания в линейной экструзии
 
-## Введение
+## Introduction
 
-Добро пожаловать в мир Aspose.3D для .NET, универсальной библиотеки, позволяющей разработчикам с легкостью выполнять 3D-манипуляции. В этом уроке мы углубимся в одну из интригующих функций — «Смещение поворота в линейной экструзии». Если вы готовы улучшить свои навыки 3D-программирования, давайте приступим!
+Если вам нужно **create 3d scene** объекты быстро создавать и добавлять динамическую геометрию, Aspose.3D for .NET предоставляет именно те инструменты, которые вам нужны. В этом **Aspose 3D tutorial** мы пройдем технику *how to twist offset* при выполнении **linear extrusion twist** и в конце **export Wavefront OBJ** файлы. К концу у вас будет полностью укомплектованная 3‑D модель, готовая к рендерингу или дальнейшей обработке.
 
-## Предварительные условия
+## Quick Answers
+- **Что делает «twist offset»?** Он смещает начальную точку скручивания вдоль оси экструзии.  
+- **Какой метод экспортирует Wavefront OBJ?** `scene.Save(..., FileFormat.WavefrontOBJ)`.  
+- **Нужна ли лицензия для запуска примера?** Временная лицензия подходит для тестирования; полная лицензия требуется для продакшна.  
+- **Какие версии .NET поддерживаются?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Сколько срезов рекомендуется для плавных скручиваний?** Около 100 срезов обеспечивают хороший баланс между качеством и производительностью.
 
-Прежде чем мы отправимся в это увлекательное путешествие, убедитесь, что у вас есть следующие предпосылки:
+## What is **create 3d scene**?
 
--  Библиотека Aspose.3D для .NET: загрузите и установите библиотеку из[страница выпуска](https://releases.aspose.com/3d/net/).
+Создание 3‑D‑сцены означает построение иерархической структуры, содержащей геометрию, источники света, камеры и трансформации. Aspose.3D предоставляет класс `Scene`, который выступает в качестве корневого контейнера для всех добавляемых узлов.
 
-- Ваша среда разработки: убедитесь, что ваша среда разработки настроена и готова к работе.
+## Why use **linear extrusion twist**?
 
-## Импортировать пространства имен
+Линейная экструзия со скручиванием позволяет превратить 2‑D профиль в спиральный 3‑D объект — идеально подходит для винтов, пружин или декоративных колонн. Добавление смещения скручивания дает еще больший контроль над началом вращения, позволяя создавать асимметричные дизайны.
 
-Начните с импорта необходимых пространств имен для доступа к функциям, предоставляемым Aspose.3D для .NET. В вашем коде это может выглядеть так:
+## Prerequisites
+
+- Aspose.3D for .NET Library: Скачайте и установите библиотеку со [release page](https://releases.aspose.com/3d/net/).  
+- Ваша среда разработки: Visual Studio 2022 (или любой C# IDE), готовая к разработке на .NET.
+
+## Import Namespaces
+
+Start by importing the necessary namespaces to access Aspose.3D functionality.
 
 ```csharp
 using Aspose.ThreeD;
@@ -36,11 +50,11 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Теперь давайте разобьем пример на выполнимые шаги, чтобы освоить смещение поворота в линейной экструзии:
+## Step‑by‑Step Guide
 
-## Шаг 1. Инициализируйте базовый профиль
+### Step 1: Initialize the Base Profile  
 
-Начните с создания базового профиля, примером которого является прямоугольник с заданным радиусом скругления.
+We’ll use a rectangle with a small rounding radius as the profile that will be extruded.
 
 ```csharp
 var profile = new RectangleShape()
@@ -49,17 +63,17 @@ var profile = new RectangleShape()
 };
 ```
 
-## Шаг 2: Создайте сцену
+### Step 2: Create a Scene  
 
-Создайте 3D-сцену для размещения узлов и фигур.
+This is the container where we’ll **create 3d scene** nodes.
 
 ```csharp
 Scene scene = new Scene();
 ```
 
-## Шаг 3: Создайте узлы
+### Step 3: Create Nodes  
 
-Постройте узлы внутри сцены, как слева, так и справа.
+Two sibling nodes are added to the root – one for the regular extrusion and one for the offset version.
 
 ```csharp
 var left = scene.RootNode.CreateChildNode();
@@ -67,57 +81,63 @@ var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(18, 0, 0);
 ```
 
-## Шаг 4: Линейное выдавливание на левом узле
+### Step 4: Linear Extrusion on Left Node (basic twist)  
 
-Выполните линейное вытягивание левого узла, используя свойство скручивания и срезов.
+Here we demonstrate a classic **linear extrusion twist** without any offset.
 
 ```csharp
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 360, Slices = 100 });
 ```
 
-## Шаг 5: Линейное выдавливание на правом узле со смещением поворота
+### Step 5: Linear Extrusion on Right Node with **Twist Offset**  
 
-На правом узле выполните линейное выдавливание, используя свойства скручивания, смещения скручивания и срезов.
+Now we apply the **how to twist offset** technique by providing a `TwistOffset` vector.
 
 ```csharp
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 360, Slices = 100, TwistOffset = new Vector3(3, 0, 0) });
 ```
 
-## Шаг 6: Сохраните 3D-сцену
+### Step 6: **Export Wavefront OBJ**  
 
-Сохраните 3D-сцену в желаемый выходной каталог, указав формат файла WavefrontOBJ.
+Finally, save the assembled scene to an OBJ file so you can view it in any standard 3‑D viewer.
 
 ```csharp
 scene.Save("Your Output Directory" + "TwistOffsetInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-Поздравляем! Вы успешно реализовали смещение поворота в линейной экструзии, используя Aspose.3D для .NET.
+## Common Issues & Tips
 
-## Заключение
+- **Twist выглядит плоско?** Увеличьте значение `Slices` для более гладкой геометрии.  
+- **Offset не виден?** Убедитесь, что вектор `TwistOffset` не нулевой и выровнен по направлению экструзии.  
+- **В OBJ‑файле отсутствуют текстуры?** OBJ хранит только геометрию; при необходимости используйте MTL‑файлы для определения материалов.
 
-В этом уроке мы рассмотрели мощные возможности Aspose.3D для .NET, уделив особое внимание смещению поворота в линейной экструзии. Благодаря этим новообретенным навыкам вы хорошо подготовлены к тому, чтобы придать динамизм своим 3D-проектам.
+## Frequently Asked Questions
 
-## Часто задаваемые вопросы
+**Q: Can I use Aspose.3D for .NET with other programming languages?**  
+A: Aspose.3D primarily targets .NET languages, but equivalent libraries exist for Java and other platforms.
 
-### Вопрос 1: Могу ли я использовать Aspose.3D для .NET с другими языками программирования?
+**Q: How do I obtain a temporary license for Aspose.3D for .NET?**  
+A: Visit [this link](https://purchase.aspose.com/temporary-license/) to acquire a temporary license for testing purposes.
 
-A1: Aspose.3D в основном поддерживает языки .NET, но Aspose предоставляет аналогичные библиотеки для Java и других платформ.
+**Q: Is there a community forum for Aspose.3D for .NET?**  
+A: Absolutely! Join the community at [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) to engage with fellow developers and seek assistance.
 
-### Вопрос 2: Как получить временную лицензию на Aspose.3D для .NET?
+**Q: Are there additional examples and documentation available?**  
+A: Explore the [documentation](https://reference.aspose.com/3d/net/) for extensive guides and examples.
 
- А2: Посетите[эта ссылка](https://purchase.aspose.com/temporary-license/)приобрести временную лицензию для целей тестирования.
+**Q: Where can I purchase Aspose.3D for .NET?**  
+A: Head to [this link](https://purchase.aspose.com/buy) to make a purchase and unlock the full potential of Aspose.3D.
 
-### Вопрос 3. Существует ли форум сообщества Aspose.3D для .NET?
+## Conclusion
 
- А3: Абсолютно! Присоединяйтесь к сообществу по адресу[Форум Aspose.3D](https://forum.aspose.com/c/3d/18) взаимодействовать с другими разработчиками и обращаться за помощью.
+В этом **aspose 3d tutorial** вы узнали, как **create 3d scene**, применить **linear extrusion twist**, управлять **twist offset** и **export Wavefront OBJ** файлы. Эти техники позволяют добавить сложную скрученную геометрию в любой 3‑D проект всего несколькими строками кода.
 
-### Вопрос 4: Доступны ли дополнительные примеры и документация?
+---
 
- А4: Исследуйте[документация](https://reference.aspose.com/3d/net/) для обширных руководств и примеров.
+**Последнее обновление:** 2026-01-09  
+**Тестировано с:** Aspose.3D 24.11 for .NET  
+**Автор:** Aspose  
 
-### Вопрос 5: Где я могу приобрести Aspose.3D для .NET?
-
- A5: Отправляйтесь в[эта ссылка](https://purchase.aspose.com/buy) совершить покупку и раскрыть весь потенциал Aspose.3D.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

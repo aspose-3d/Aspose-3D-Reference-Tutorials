@@ -1,33 +1,48 @@
 ---
-title: 線性擠壓中的扭轉偏移
-linktitle: 線性擠壓中的扭轉偏移
+date: 2026-01-09
+description: 學習如何使用 Aspose.3D for .NET 建立 3D 場景，包括匯出 Wavefront OBJ 以及在直線擠出時如何扭曲偏移。
+linktitle: Twist Offset in Linear Extrusion
 second_title: Aspose.3D .NET API
-description: 透過我們有關線性拉伸中扭曲偏移的分步指南，探索 Aspose.3D for .NET 的魔力。輕鬆提升您的 3D 專案。
-weight: 15
+title: 如何在直線擠出中使用扭轉偏移建立 3D 場景
 url: /zh-hant/net/3d-modeling/linear-extrusion/twist-offset-in-linear-extrusion/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 線性擠壓中的扭轉偏移
+# 建立 3D 場景：線性拉伸中的扭轉偏移
 
-## 介紹
+## 簡介
 
-歡迎來到 Aspose.3D for .NET 的世界，這是一個多功能函式庫，讓開發人員能夠輕鬆處理 3D 操作。在本教程中，我們將深入研究其中一個有趣的功能 - “線性擠出中的扭曲偏移”。如果您已準備好提升 3D 程式設計技能，那就讓我們開始吧！
+如果您需要快速建立 **create 3d scene** 物件並加入動態幾何，Aspose.3D for .NET 正好提供您所需的工具。  
+在本 **Aspose 3D tutorial** 中，我們將示範 *how to twist offset* 技術，執行 **linear extrusion twist**，最後 **export Wavefront OBJ** 檔案。  
+完成後，您將擁有一個功能完整的 3‑D 模型，可直接用於渲染或進一步處理。
+
+## 快速解答
+- **What does “twist offset” do?** 它會將扭轉的起始點沿拉伸軸線移動。  
+- **Which method exports Wavefront OBJ?** `scene.Save(..., FileFormat.WavefrontOBJ)`。  
+- **Do I need a license to run the sample?** 臨時授權可用於測試；正式環境需要完整授權。  
+- **What .NET versions are supported?** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6+。  
+- **How many slices are recommended for smooth twists?** 約 100 個切片可在品質與效能之間取得良好平衡。
+
+## 什麼是 **create 3d scene**？
+
+建立 3‑D 場景即是構建一個層級結構，用於保存幾何、光源、相機與變換。Aspose.3D 提供 `Scene` 類別，作為您加入的所有節點的根容器。
+
+## 為什麼使用 **linear extrusion twist**？
+
+帶有扭轉的線性拉伸可將 2‑D 剖面轉換為螺旋形的 3‑D 物件——非常適合螺絲、彈簧或裝飾性柱子。加入扭轉偏移可進一步控制旋轉的起始位置，實現非對稱設計。
 
 ## 先決條件
 
-在我們踏上這趟令人興奮的旅程之前，請確保您具備以下先決條件：
+- Aspose.3D for .NET Library: 從 [release page](https://releases.aspose.com/3d/net/) 下載並安裝函式庫。  
+- Your Development Environment: 已安裝 Visual Studio 2022（或任何 C# IDE）以進行 .NET 開發。
 
--  Aspose.3D for .NET 函式庫：從下列位置下載並安裝該函式庫：[發布頁面](https://releases.aspose.com/3d/net/).
+## 匯入命名空間
 
-- 您的開發環境：確保您的開發環境已設定並準備就緒。
-
-## 導入命名空間
-
-首先導入必要的命名空間以存取 Aspose.3D for .NET 提供的功能。在您的程式碼中，這可能如下所示：
+首先匯入必要的命名空間，以使用 Aspose.3D 功能。
 
 ```csharp
 using Aspose.ThreeD;
@@ -36,11 +51,11 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-現在，讓我們將範例分解為可管理的步驟，以掌握線性拉伸中的扭曲偏移：
+## 逐步指南
 
-## 第 1 步：初始化基本設定檔
+### 步驟 1：初始化基礎輪廓  
 
-首先建立基本輪廓，此處以指定圓角半徑的矩形形狀為例。
+我們將使用帶有小圓角半徑的矩形作為待拉伸的輪廓。
 
 ```csharp
 var profile = new RectangleShape()
@@ -49,17 +64,17 @@ var profile = new RectangleShape()
 };
 ```
 
-## 第 2 步：建立場景
+### 步驟 2：建立場景  
 
-產生 3D 場景來託管節點和形狀。
+這是我們將 **create 3d scene** 節點加入的容器。
 
 ```csharp
 Scene scene = new Scene();
 ```
 
-## 第三步：建立節點
+### 步驟 3：建立節點  
 
-在場景中建構左側和右側節點。
+在根節點下加入兩個同層節點——一個用於普通拉伸，另一個用於偏移版本。
 
 ```csharp
 var left = scene.RootNode.CreateChildNode();
@@ -67,57 +82,63 @@ var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(18, 0, 0);
 ```
 
-## 第4步：左節點線性拉伸
+### 步驟 4：左側節點的線性拉伸（基本扭轉）  
 
-使用扭曲和切片屬性對左側節點執行線性擠壓。
+此處示範不帶任何偏移的經典 **linear extrusion twist**。
 
 ```csharp
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 360, Slices = 100 });
 ```
 
-## 第 5 步：在右側節點上使用扭曲偏移進行線性擠壓
+### 步驟 5：右側節點的線性拉伸，使用 **Twist Offset**  
 
-在右側節點上，使用扭曲、扭曲偏移和切片屬性執行線性擠出。
+現在我們透過提供 `TwistOffset` 向量套用 **how to twist offset** 技術。
 
 ```csharp
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 360, Slices = 100, TwistOffset = new Vector3(3, 0, 0) });
 ```
 
-## 第 6 步：儲存 3D 場景
+### 步驟 6：**Export Wavefront OBJ**  
 
-將 3D 場景儲存到所需的輸出目錄，並將檔案格式指定為 WavefrontOBJ。
+最後，將組合好的場景儲存為 OBJ 檔案，以便在任何標準 3‑D 檢視器中檢視。
 
 ```csharp
 scene.Save("Your Output Directory" + "TwistOffsetInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-恭喜！您已使用 Aspose.3D for .NET 成功實現了線性拉伸中的扭曲偏移。
+## 常見問題與技巧
+
+- **Twist looks flat?** 增加 `Slices` 值以獲得更平滑的幾何形狀。  
+- **Offset not visible?** 確認 `TwistOffset` 向量非零且與拉伸方向對齊。  
+- **OBJ file missing textures?** OBJ 只儲存幾何資訊；如有需要，請使用 MTL 檔案定義材質。
+
+## 常見問答
+
+**Q: Can I use Aspose.3D for .NET with other programming languages?**  
+A: Aspose.3D 主要針對 .NET 語言，但也有相對應的 Java 及其他平台的函式庫。
+
+**Q: How do I obtain a temporary license for Aspose.3D for .NET?**  
+A: 前往 [this link](https://purchase.aspose.com/temporary-license/) 取得測試用的臨時授權。
+
+**Q: Is there a community forum for Aspose.3D for .NET?**  
+A: 當然！請加入 [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) 社群，與其他開發者交流並尋求協助。
+
+**Q: Are there additional examples and documentation available?**  
+A: 請參考 [documentation](https://reference.aspose.com/3d/net/) 以取得完整的指南與範例。
+
+**Q: Where can I purchase Aspose.3D for .NET?**  
+A: 前往 [this link](https://purchase.aspose.com/buy) 購買，發揮 Aspose.3D 的完整功能。
 
 ## 結論
 
-在本教程中，我們探索了 Aspose.3D for .NET 的強大功能，特別關注線性拉伸中的扭曲偏移。有了這些新發現的技能，您就可以為 3D 專案注入活力。
+在本 **aspose 3d tutorial** 中，您學會了如何 **create 3d scene**、套用 **linear extrusion twist**、控制 **twist offset**，以及 **export Wavefront OBJ** 檔案。這些技巧讓您只需幾行程式碼，即可在任何 3‑D 專案中加入複雜的扭轉幾何。
 
-## 常見問題解答
+---
 
-### Q1：我可以將 Aspose.3D for .NET 與其他程式語言一起使用嗎？
+**最後更新：** 2026-01-09  
+**測試環境：** Aspose.3D 24.11 for .NET  
+**作者：** Aspose  
 
-A1：Aspose.3D 主要支援.NET 語言，但Aspose 為Java 和其他平台提供了類似的函式庫。
-
-### 問題 2：如何取得 Aspose.3D for .NET 的臨時授權？
-
- A2：參觀[這個連結](https://purchase.aspose.com/temporary-license/)取得用於測試目的的臨時許可證。
-
-### Q3：是否有 Aspose.3D for .NET 社群論壇？
-
- A3：當然！加入社群：[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)與其他開發人員接觸並尋求協助。
-
-### Q4：是否有其他可用的範例和文件？
-
-A4：探索[文件](https://reference.aspose.com/3d/net/)取得廣泛的指南和範例。
-
-### Q5：哪裡可以購買 Aspose.3D for .NET？
-
- A5：前往[這個連結](https://purchase.aspose.com/buy)進行購買並釋放 Aspose.3D 的全部潛力。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
