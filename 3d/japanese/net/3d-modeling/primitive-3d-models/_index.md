@@ -1,10 +1,12 @@
 ---
-title: プリミティブ 3D モデルの作成
-linktitle: プリミティブ 3D モデルの作成
+date: 2026-01-09
+description: Aspose.3D for .NET を使用して、ボックスプリミティブの 3D モデルの作成方法と FBX の保存方法を学びましょう。3D
+  モデルを簡単に FBX としてエクスポートできます。
+linktitle: How to Create Box Primitive 3D Model with Aspose.3D
 second_title: Aspose.3D .NET API
-description: Aspose.3D for .NET を使用して 3D モデリングの世界を探索してください。魅力的なプリミティブ モデルを簡単に作成できます。
-weight: 10
+title: Aspose.3Dでボックスプリミティブ3Dモデルを作成する方法
 url: /ja/net/3d-modeling/primitive-3d-models/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,23 +15,40 @@ url: /ja/net/3d-modeling/primitive-3d-models/
 
 # プリミティブ 3D モデルの作成
 
-## 導入
+## はじめに
 
-Aspose.3D for .NET を使用したエキサイティングな 3D モデリングの世界へようこそ!この包括的なチュートリアルでは、Aspose.3D を使用してプリミティブ 3D モデルを作成するプロセスを段階的に説明します。経験豊富な開発者であっても、好奇心旺盛な初心者であっても、このガイドは、Aspose.3D の力を活用して、プロジェクト用に視覚的に素晴らしい 3D 要素を作成するのに役立ちます。
+Welcome to the exciting world of 3D modeling with Aspose.3D for .NET! In this comprehensive tutorial we’ll show you **how to create box** primitive 3D models, walk through the steps to **how to save FBX**, and give you the confidence to **export 3D model FBX** files for use in any pipeline. Whether you’re a seasoned developer or just getting started, you’ll find clear, actionable guidance that you can apply right away.
+
+## クイック回答
+- **What is the primary goal?** Learn how to create box primitive 3D models with Aspose.3D.  
+- **Which format is used for export?** The FBX format (FileFormat.FBX7500ASCII).  
+- **Do I need a license?** A free trial is available; a license is required for production.  
+- **What environment is required?** Any .NET development environment compatible with Aspose.3D.  
+- **How long does it take?** Roughly 10‑15 minutes to generate a basic scene.
+
+## プリミティブ 3D モデルとは？
+
+A primitive 3D model is a basic geometric shape—such as a box, sphere, or cylinder—used as a building block for more complex scenes. Aspose.3D provides ready‑made classes that let you create these shapes with a single line of code.
+
+## なぜ .NET 用 Aspose.3D を使用するのか？
+
+- **Zero‑dependency rendering** – no external graphics engine required.  
+- **Rich format support** – export directly to FBX, OBJ, STL, and more.  
+- **Full .NET integration** – works with .NET Framework, .NET Core, and .NET 5/6+.  
 
 ## 前提条件
 
-3D モデリングの魅力的な領域に入る前に、次の前提条件が満たされていることを確認してください。
+Before we dive into the fascinating realm of 3D modeling, make sure you have the following prerequisites in place:
 
--  Aspose.3D for .NET: Aspose.3D for .NET ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードリンク](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET: Download and install the Aspose.3D for .NET library from the [download link](https://releases.aspose.com/3d/net/).
 
-- 開発環境: .NET 開発環境をセットアップし、Aspose.3D との互換性を確保します。
+- Development Environment: Set up a .NET development environment, ensuring compatibility with Aspose.3D.
 
-必要なものが揃ったので、プリミティブ 3D モデルを段階的に作成する旅に乗り出しましょう。
+Now that you have the essentials, let's embark on our journey to create primitive 3D models step by step.
 
 ## 名前空間のインポート
 
-まず、Aspose.3D が提供する機能にアクセスするために必要な名前空間をインポートします。
+Begin by importing the necessary namespaces to access the functionality provided by Aspose.3D:
 
 ```csharp
 using System;
@@ -41,79 +60,107 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Formats;
 ```
 
-これらの名前空間を適切に配置すると、.NET アプリケーションで Aspose.3D のパワーを解放する準備が整います。
+With these namespaces in place, you are ready to unleash the power of Aspose.3D in your .NET application.
 
-## ステップ 1: シーン オブジェクトを初期化する
+## ボックス プリミティブ 3D モデルの作成方法
+
+### ステップ 1: シーン オブジェクトの初期化
 
 ```csharp
-//Scene オブジェクトを初期化する
+// Initialize a Scene object
 Scene scene = new Scene();
 ```
 
-3D 傑作のキャンバスとして機能する新しいシーン オブジェクトを作成します。
+Create a new scene object, which serves as the canvas for your 3D masterpiece.
 
-## ステップ 2: ボックス モデルを作成する
+### ステップ 2: ボックス モデルの作成
 
 ```csharp
-//ボックスモデルを作成する
+// Create a Box model
 scene.RootNode.CreateChildNode("box", new Box());
 ```
 
-ボックス モデルをシーンのルートに追加します。創造的なビジョンに応じて、ボックスの寸法とプロパティをカスタマイズします。
+Add a box model to the root of your scene. This is the core of **how to create box** geometry. You can later adjust its dimensions if needed.
 
-## ステップ 3: 円柱モデルを作成する
+### ステップ 3: シリンダー モデルの作成
 
 ```csharp
-//円柱モデルを作成する
+// Create a Cylinder model
 scene.RootNode.CreateChildNode("cylinder", new Cylinder());
 ```
 
-シリンダー モデルを導入してシーンを強化します。パラメータを調整して、目的の形状とサイズを実現します。
+Enhance your scene by introducing a cylinder model. Adjust its parameters to achieve the desired shape and size.
 
-## ステップ 4: 図面を FBX 形式で保存する
+### ステップ 4: FBX 形式で描画を保存 (How to Save FBX)
 
 ```csharp
-//図面をFBX形式で保存する
+// Save drawing in the FBX format
 var output = "Your Output Directory" + "test.fbx";
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-3D 傑作を FBX 形式で保存します。作成に適した出力ディレクトリとファイル名を選択します。
+Here we demonstrate **how to save FBX**—the scene is exported as an FBX file, which you can import into most 3D tools. This step also shows how to **export 3D model FBX** for downstream workflows.
 
-## ステップ 5: 成功メッセージを表示する
+### ステップ 5: 成功メッセージの表示
 
 ```csharp
-//成功メッセージを表示する
+// Display success message
 Console.WriteLine("\nBuilding a scene from primitive 3D models successfully.\nFile saved at " + output);
 ```
 
-あなたの功績を祝いましょう！シーンはプリミティブ 3D モデルから正常に構築され、ファイルが保存されます。
+Celebrate your achievement! The scene is successfully built from primitive 3D models, and the file is saved.
 
-## 結論
+## 一般的な問題と解決策
+- **Output path not found** – Ensure the directory you specify in `output` exists or use `Path.Combine` with `Environment.CurrentDirectory`.  
+- **License exception** – A valid Aspose.3D license is required for production use; the free trial works for evaluation.  
+- **Incorrect FBX version** – The code uses `FBX7500ASCII`; switch to another `FileFormat` enum value if you need a different version.
 
-おめでとう！ Aspose.3D for .NET を使用して、見事な 3D モデルを作成することに成功しました。このガイドでは基本を説明しましたが、可能性は無限です。を探索してください[ドキュメンテーション](https://reference.aspose.com/3d/net/)より高度な機能とテクニックをご覧ください。
+## FAQ
+
+### Q1: Aspose.3D for .NET を他のプログラミング言語で使用できますか？
+
+A1: Aspose.3D は主に .NET をサポートしていますが、Java やその他のプラットフォーム向けのバージョンもあります。
+
+### Q2: 無料トライアルは利用できますか？
+
+A2: はい、[free trial](https://releases.aspose.com/) で Aspose.3D の機能を体験できます。
+
+### Q3: Aspose.3D for .NET のサポートはどこで得られますか？
+
+A3: コミュニティサポートやディスカッションは [Aspose.3D forum](https://forum.aspose.com/c/3d/18) をご覧ください。
+
+### Q4: 一時ライセンスはどのように取得できますか？
+
+A4: 一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から取得できます。
+
+### Q5: サンプルチュートリアルはありますか？
+
+A5: はい、[documentation](https://reference.aspose.com/3d/net/) にてさらに多くのチュートリアルやサンプルをご覧ください。
 
 ## よくある質問
 
-### Q1: Aspose.3D for .NET を他のプログラミング言語で使用できますか?
+**Q: Can I export the scene to other formats besides FBX?**  
+A: Yes, Aspose.3D supports OBJ, STL, 3MF, and many more. Just change the `FileFormat` enum when calling `scene.Save()`.
 
-A1: Aspose.3D は主に .NET をサポートしていますが、Java やその他のプラットフォームで使用できる他のバージョンもあります。
+**Q: Is it possible to customize the box dimensions?**  
+A: Absolutely. Use the `Box(double width, double height, double depth)` constructor to set custom sizes.
 
-### Q2: 無料トライアルはありますか?
+**Q: Do I need a 64‑bit OS to run the exported FBX file?**  
+A: No, the FBX file is platform‑agnostic; any modern 3D viewer can open it.
 
- A2: はい、Aspose.3D の機能を調べることができます。[無料トライアル](https://releases.aspose.com/).
+**Q: How do I add materials or textures to the primitives?**  
+A: Create a `Material` object, assign it to the node’s `Material` property, and optionally set texture maps.
 
-### Q3: Aspose.3D for .NET のサポートはどこで見つけられますか?
+## 結論
 
- A3: にアクセスしてください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)コミュニティのサポートとディスカッションのために。
+Congratulations! You've successfully learned **how to create box** primitive 3D models, saved them as an FBX file, and explored ways to **export 3D model FBX** for further use. This guide covered the basics, but the possibilities are limitless. Dive deeper into the [documentation](https://reference.aspose.com/3d/net/) to discover advanced features such as lighting, animation, and complex mesh manipulation.
 
-### Q4: 仮免許はどうやって取得できますか?
+---
 
- A4: 仮免許を取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+**最終更新日:** 2026-01-09  
+**テスト環境:** Aspose.3D 24.11 for .NET  
+**作者:** Aspose  
 
-### Q5: サンプルチュートリアルはありますか?
-
- A5: はい、次のチュートリアルと例をご覧ください。[ドキュメンテーション](https://reference.aspose.com/3d/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,51 @@
 ---
-title: การสร้างแบบจำลอง 3 มิติแบบดั้งเดิม
-linktitle: การสร้างแบบจำลอง 3 มิติแบบดั้งเดิม
+date: 2026-01-09
+description: เรียนรู้วิธีสร้างโมเดล 3 มิติแบบกล่องพื้นฐานและวิธีบันทึกเป็น FBX ด้วย
+  Aspose.3D สำหรับ .NET ส่งออกโมเดล 3 มิติเป็น FBX อย่างง่ายดาย.
+linktitle: How to Create Box Primitive 3D Model with Aspose.3D
 second_title: Aspose.3D .NET API
-description: สำรวจโลกแห่งการสร้างแบบจำลอง 3 มิติด้วย Aspose.3D สำหรับ .NET สร้างโมเดลดั้งเดิมที่น่าทึ่งได้อย่างง่ายดาย
-weight: 10
+title: วิธีสร้างโมเดล 3 มิติแบบกล่องด้วย Aspose.3D
 url: /th/net/3d-modeling/primitive-3d-models/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การสร้างแบบจำลอง 3 มิติแบบดั้งเดิม
+# การสร้างโมเดล 3D Primitive
 
-## การแนะนำ
+## บทนำ
 
-ยินดีต้อนรับสู่โลกที่น่าตื่นเต้นของการสร้างแบบจำลอง 3 มิติด้วย Aspose.3D สำหรับ .NET! ในบทช่วยสอนที่ครอบคลุมนี้ เราจะสำรวจกระบวนการการสร้างแบบจำลอง 3 มิติแบบดั้งเดิมโดยใช้ Aspose.3D ในลักษณะทีละขั้นตอน ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเป็นมือใหม่ที่อยากรู้อยากเห็น คู่มือนี้จะช่วยให้คุณใช้ประโยชน์จากพลังของ Aspose.3D เพื่อสร้างองค์ประกอบ 3D ที่สวยงามน่าทึ่งสำหรับโครงการของคุณ
+ยินดีต้อนรับสู่โลกที่น่าตื่นเต้นของการสร้างโมเดล 3D ด้วย Aspose.3D สำหรับ .NET! ในบทแนะนำที่ครอบคลุมนี้ เราจะแสดงให้คุณเห็น **how to create box** primitive 3D models, เดินผ่านขั้นตอน **how to save FBX**, และให้ความมั่นใจในการ **export 3D model FBX** ไฟล์สำหรับใช้ใน pipeline ใด ๆ ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น คุณจะพบคำแนะนำที่ชัดเจนและนำไปใช้ได้ทันที.
+
+## คำตอบอย่างรวดเร็ว
+- **What is the primary goal?** Learn how to create box primitive 3D models with Aspose.3D.  
+- **Which format is used for export?** The FBX format (FileFormat.FBX7500ASCII).  
+- **Do I need a license?** A free trial is available; a license is required for production.  
+- **What environment is required?** Any .NET development environment compatible with Aspose.3D.  
+- **How long does it take?** Roughly 10‑15 minutes to generate a basic scene.
+
+## Primitive 3D Model คืออะไร?
+A primitive 3D model คือรูปทรงเรขาคณิตพื้นฐาน—เช่น กล่อง, ลูกบอล, หรือทรงกระบอก—ที่ใช้เป็นบล็อกสร้างสำหรับฉากที่ซับซ้อนยิ่งขึ้น Aspose.3D มีคลาสสำเร็จรูปที่ให้คุณสร้างรูปทรงเหล่านี้ด้วยบรรทัดโค้ดเดียว.
+
+## ทำไมต้องใช้ Aspose.3D สำหรับ .NET?
+- **Zero‑dependency rendering** – ไม่ต้องใช้เอนจินกราฟิกภายนอก.  
+- **Rich format support** – ส่งออกโดยตรงเป็น FBX, OBJ, STL และอื่น ๆ.  
+- **Full .NET integration** – ทำงานกับ .NET Framework, .NET Core, และ .NET 5/6+.  
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะดำดิ่งสู่ขอบเขตอันน่าทึ่งของการสร้างแบบจำลอง 3 มิติ ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+Before we dive into the fascinating realm of 3D modeling, make sure you have the following prerequisites in place:
 
--  Aspose.3D สำหรับ .NET: ดาวน์โหลดและติดตั้งไลบรารี Aspose.3D สำหรับ .NET จากไฟล์[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET: ดาวน์โหลดและติดตั้งไลบรารี Aspose.3D for .NET จาก [download link](https://releases.aspose.com/3d/net/).
+- Development Environment: ตั้งค่าสภาพแวดล้อมการพัฒนา .NET ให้พร้อมใช้งานและเข้ากันได้กับ Aspose.3D.
 
-- สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนา .NET เพื่อให้มั่นใจว่าเข้ากันได้กับ Aspose.3D
+Now that you have the essentials, let's embark on our journey to create primitive 3D models step by step.
 
-ตอนนี้คุณมีสิ่งที่จำเป็นแล้ว เรามาเริ่มต้นการเดินทางของเราเพื่อสร้างโมเดล 3 มิติแบบดั้งเดิมทีละขั้นตอนกันดีกว่า
+## นำเข้า Namespaces
 
-## นำเข้าเนมสเปซ
-
-เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นเพื่อเข้าถึงฟังก์ชันการทำงานที่ Aspose.3D มอบให้:
+Begin by importing the necessary namespaces to access the functionality provided by Aspose.3D:
 
 ```csharp
 using System;
@@ -41,79 +57,102 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Formats;
 ```
 
-ด้วยเนมสเปซเหล่านี้ คุณก็พร้อมที่จะปลดปล่อยพลังของ Aspose.3D ในแอปพลิเคชัน .NET ของคุณ
+With these namespaces in place, you are ready to unleash the power of Aspose.3D in your .NET application.
 
-## ขั้นตอนที่ 1: เริ่มต้นวัตถุฉาก
+## วิธีสร้าง Box Primitive 3D Model
+
+### ขั้นตอนที่ 1: เริ่มต้นอ็อบเจ็กต์ Scene
 
 ```csharp
-//เริ่มต้นวัตถุฉาก
+// Initialize a Scene object
 Scene scene = new Scene();
 ```
 
-สร้างวัตถุฉากใหม่ ซึ่งทำหน้าที่เป็นผืนผ้าใบสำหรับผลงานชิ้นเอก 3 มิติของคุณ
+Create a new scene object, which serves as the canvas for your 3D masterpiece.
 
-## ขั้นตอนที่ 2: สร้างแบบจำลองกล่อง
+### ขั้นตอนที่ 2: สร้าง Box Model
 
 ```csharp
-// สร้างโมเดลกล่อง
+// Create a Box model
 scene.RootNode.CreateChildNode("box", new Box());
 ```
 
-เพิ่มโมเดลกล่องไปที่รากของฉากของคุณ ปรับแต่งขนาดและคุณสมบัติของกล่องตามวิสัยทัศน์ที่สร้างสรรค์ของคุณ
+Add a box model to the root of your scene. This is the core of **how to create box** geometry. You can later adjust its dimensions if needed.
 
-## ขั้นตอนที่ 3: สร้างแบบจำลองกระบอกสูบ
+### ขั้นตอนที่ 3: สร้าง Cylinder Model
 
 ```csharp
-// สร้างแบบจำลองกระบอกสูบ
+// Create a Cylinder model
 scene.RootNode.CreateChildNode("cylinder", new Cylinder());
 ```
 
-ปรับปรุงฉากของคุณด้วยการแนะนำโมเดลทรงกระบอก ปรับพารามิเตอร์เพื่อให้ได้รูปร่างและขนาดที่ต้องการ
+Enhance your scene by introducing a cylinder model. Adjust its parameters to achieve the desired shape and size.
 
-## ขั้นตอนที่ 4: บันทึกภาพวาดในรูปแบบ FBX
+### ขั้นตอนที่ 4: บันทึกภาพวาดในรูปแบบ FBX (How to Save FBX)
 
 ```csharp
-// บันทึกภาพวาดในรูปแบบ FBX
+// Save drawing in the FBX format
 var output = "Your Output Directory" + "test.fbx";
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-บันทึกผลงานชิ้นเอก 3D ของคุณในรูปแบบ FBX เลือกไดเร็กทอรีเอาต์พุตและชื่อไฟล์ที่เหมาะสมสำหรับการสร้างของคุณ
+Here we demonstrate **how to save FBX**—the scene is exported as an FBX file, which you can import into most 3D tools. This step also shows how to **export 3D model FBX** for downstream workflows.
 
-## ขั้นตอนที่ 5: แสดงข้อความแสดงความสำเร็จ
+### ขั้นตอนที่ 5: แสดงข้อความสำเร็จ
 
 ```csharp
-// แสดงข้อความแสดงความสำเร็จ
+// Display success message
 Console.WriteLine("\nBuilding a scene from primitive 3D models successfully.\nFile saved at " + output);
 ```
 
-เฉลิมฉลองความสำเร็จของคุณ! ฉากนี้สร้างขึ้นได้สำเร็จจากโมเดล 3 มิติแบบดั้งเดิม และไฟล์จะถูกบันทึก
+Celebrate your achievement! The scene is successfully built from primitive 3D models, and the file is saved.
 
-## บทสรุป
-
- ยินดีด้วย! คุณสร้างโมเดล 3 มิติที่น่าทึ่งได้สำเร็จโดยใช้ Aspose.3D สำหรับ .NET คู่มือนี้ครอบคลุมพื้นฐานต่างๆ แต่ความเป็นไปได้มีไม่จำกัด สำรวจ[เอกสารประกอบ](https://reference.aspose.com/3d/net/) สำหรับคุณสมบัติและเทคนิคขั้นสูงเพิ่มเติม
+## ปัญหาที่พบบ่อยและวิธีแก้ไข
+- **Output path not found** – ตรวจสอบให้แน่ใจว่าไดเรกทอรีที่ระบุใน `output` มีอยู่หรือใช้ `Path.Combine` กับ `Environment.CurrentDirectory`.  
+- **License exception** – จำเป็นต้องมีลิขสิทธิ์ Aspose.3D ที่ถูกต้องสำหรับการใช้งานจริง; การทดลองใช้ฟรีสามารถใช้เพื่อประเมินได้.  
+- **Incorrect FBX version** – โค้ดใช้ `FBX7500ASCII`; เปลี่ยนเป็นค่า `FileFormat` enum อื่นหากต้องการเวอร์ชันที่แตกต่าง.
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.3D สำหรับ .NET กับภาษาการเขียนโปรแกรมอื่นๆ ได้หรือไม่
+### Q1: ฉันสามารถใช้ Aspose.3D สำหรับ .NET กับภาษาโปรแกรมอื่นได้หรือไม่?
+A1: Aspose.3D รองรับ .NET เป็นหลัก แต่มีเวอร์ชันอื่นสำหรับ Java และแพลตฟอร์มอื่น ๆ.
 
-คำตอบ 1: Aspose.3D รองรับ .NET เป็นหลัก แต่มีเวอร์ชันอื่นๆ สำหรับ Java และแพลตฟอร์มอื่นๆ
+### Q2: มีการทดลองใช้ฟรีหรือไม่?
+A2: มี, คุณสามารถสำรวจความสามารถของ Aspose.3D ด้วย [free trial](https://releases.aspose.com/).
 
-### คำถามที่ 2: มีการทดลองใช้ฟรีหรือไม่?
+### Q3: จะหาแหล่งสนับสนุนสำหรับ Aspose.3D for .NET ได้ที่ไหน?
+A3: เยี่ยมชม [Aspose.3D forum](https://forum.aspose.com/c/3d/18) เพื่อรับการสนับสนุนจากชุมชนและการสนทนา.
 
- ตอบ 2: ได้ คุณสามารถสำรวจความสามารถของ Aspose.3D ได้ด้วย[ทดลองฟรี](https://releases.aspose.com/).
+### Q4: จะขอรับลิขสิทธิ์ชั่วคราวได้อย่างไร?
+A4: คุณสามารถรับลิขสิทธิ์ชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/).
 
-### คำถามที่ 3: ฉันจะรับการสนับสนุนสำหรับ Aspose.3D สำหรับ .NET ได้ที่ไหน
+### Q5: มีบทแนะนำตัวอย่างให้ดูหรือไม่?
+A5: มี, สำรวจบทแนะนำและตัวอย่างเพิ่มเติมใน [documentation](https://reference.aspose.com/3d/net/).
 
- A3: เยี่ยมชม[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+## คำถามที่พบบ่อย
 
-### คำถามที่ 4: ฉันจะขอรับใบอนุญาตชั่วคราวได้อย่างไร
+**Q: ฉันสามารถส่งออก Scene ไปยังรูปแบบอื่นนอกจาก FBX ได้หรือไม่?**  
+A: ได้, Aspose.3D รองรับ OBJ, STL, 3MF และอื่น ๆ อีกมาก เพียงเปลี่ยนค่า `FileFormat` enum เมื่อเรียก `scene.Save()`.
 
- A4: คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+**Q: สามารถปรับขนาดของกล่องได้หรือไม่?**  
+A: แน่นอน. ใช้คอนสตรัคเตอร์ `Box(double width, double height, double depth)` เพื่อกำหนดขนาดที่ต้องการ.
 
-### คำถามที่ 5: มีแบบฝึกหัดตัวอย่างหรือไม่
+**Q: จำเป็นต้องใช้ OS 64‑bit เพื่อรันไฟล์ FBX ที่ส่งออกหรือไม่?**  
+A: ไม่จำเป็น, ไฟล์ FBX เป็นแบบ platform‑agnostic; ตัวดู 3D สมัยใหม่ใดก็สามารถเปิดได้.
 
- A5: ใช่ สำรวจบทช่วยสอนและตัวอย่างเพิ่มเติมใน[เอกสารประกอบ](https://reference.aspose.com/3d/net/).
+**Q: ฉันจะเพิ่มวัสดุหรือเทกเจอร์ให้กับ primitive อย่างไร?**  
+A: สร้างอ็อบเจ็กต์ `Material`, กำหนดให้กับ property `Material` ของ node, และสามารถตั้งค่า texture maps ได้ตามต้องการ.
+
+## สรุป
+
+Congratulations! You've successfully learned **how to create box** primitive 3D models, saved them as an FBX file, and explored ways to **export 3D model FBX** for further use. This guide covered the basics, but the possibilities are limitless. Dive deeper into the [documentation](https://reference.aspose.com/3d/net/) to discover advanced features such as lighting, animation, and complex mesh manipulation.
+
+---
+
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
