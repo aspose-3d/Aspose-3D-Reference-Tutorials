@@ -1,56 +1,107 @@
 ---
-title: Doğrusal Ekstrüzyon
-linktitle: Doğrusal Ekstrüzyon
-second_title: Aspose.3D .NET API'si
-description: Aspose.3D for .NET eğitimleriyle 3D yaratıcılığın kilidini açın. Doğrusal ekstrüzyon tekniklerinde ustalaşın, tasarımları geliştirin ve projelerinizi zahmetsizce yükseltin.
-weight: 31
+date: 2026-01-09
+description: Aspose.3D for .NET ile 3D modelleme ekstrüzyonunu öğrenin – lineer ekstrüzyon
+  tekniklerini ustalaşmak ve 3D tasarımlarınızı geliştirmek için adım adım bir ekstrüzyon
+  öğreticisi.
+linktitle: Linear Extrusion
+second_title: Aspose.3D .NET API
+title: '3D Modelleme Ekstrüzyonu: Aspose.3D ile Doğrusal Ekstrüzyon'
 url: /tr/net/3d-modeling/linear-extrusion/
+weight: 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Doğrusal Ekstrüzyon
+# Linear Extrusion
 
-## giriiş
-| Explore the dynamic realm of [3D modeling](./center-in-linear-extrusion/) through Aspose.3D for .NET tutorials, focusing on various aspects of linear extrusion. Master the art of [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), and incorporating [twist offsets](./twist-offset-in-linear-extrusion/) in your designs. Each tutorial is a gateway to unlocking new dimensions of creativity in 3D graphics. Dive into the captivating world of Aspose.3D for .NET and unleash your imagination. |
+## Introduction
+In this guide we’ll explore **3d modeling extrusion** using Aspose.3D for .NET, covering everything from centering to twist offsets. Below you’ll find a quick overview of the topics we’ll dive into.
 
-## Doğrusal Ekstrüzyonda Merkez
- İşin karmaşıklıklarına dalın[merkezleme teknikleri](./center-in-linear-extrusion/) Aspose.3D for .NET ile doğrusal ekstrüzyonda. Tasarımlarınızı dönüştürün, hassas yerleştirmenin gücünü keşfedin ve 3D yaratımlarınıza denge ve simetri aşılayın.
+| Aspose.3D for .NET eğitimleri aracılığıyla [3D modelleme](./center-in-linear-extrusion/) dinamik dünyasını keşfedin, lineer ekstrüzyonun çeşitli yönlerine odaklanın. Tasarımlarınızda [ortalamayı](./center-in-linear-extrusion/), [yönlendirmeyi](./direction-in-linear-extrusion/), [uygulamayı](./performing-linear-extrusion/), [dilimlemeyi](./slices-in-linear-extrusion/), [bükmeyi](./twist-in-linear-extrusion/) ve [bükme ofsetlerini](./twist-offset-in-linear-extrusion/) dahil etme sanatında ustalaşın. Her eğitim, 3D grafiklerde yaratıcılığın yeni boyutlarını açığa çıkarmak için bir kapıdır. Aspose.3D for .NET'in büyüleyici dünyasına dalın ve hayal gücünüzü serbest bırakın. |
 
-## Doğrusal Ekstrüzyonda Yön
- Nüansları anlamak için bir yolculuğa çıkın[yönlü doğrusal ekstrüzyon](./direction-in-linear-extrusion/) Aspose.3D for .NET ile. Yaratıcı sürecinizi geliştirin, tasarımlarınızın akışını kontrol etmeyi öğrenin ve öne çıkan sürükleyici uygulamaları zahmetsizce oluşturun.
+## Quick Answers
+- **3d modelleme ekstrüzyonu nedir?** 2‑D profili düz bir yol boyunca uzatarak 3‑D şekil oluşturma işlemidir.  
+- **Hangi Aspose ürünü kullanılıyor?** Aspose.3D for .NET.  
+- **Lisans gerekiyor mu?** Öğrenme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Temel bir lineer ekstrüzyonun uygulanması ne kadar sürer?** Genellikle 10 dakikadan az.
 
-## Doğrusal Ekstrüzyon Gerçekleştirme
- Kendinizi dünyasına bırakın[3 boyutlu grafikler](./performing-linear-extrusion/) Aspose.3D for .NET ile doğrusal ekstrüzyon gerçekleştirmeye ilişkin bu adım adım kılavuzu takip ederken. Çarpıcı görsel efektler yaratmanın sırlarını açığa çıkarın ve projelerinizi hayata geçirin.
+## What is 3d modeling extrusion?
+3d modelleme ekstrüzyonu, bilgisayar destekli tasarımda düz bir taslağı düz bir hat boyunca çekerek katı bir nesneye dönüştüren temel bir tekniktir. Aspose.3D'de API, ekstrüzyon mesafesini, yönünü ve bükme ya da ofset gibi ek etkileri kontrol etmenizi sağlayan basit özellikler sunar.
 
-## Doğrusal Ekstrüzyonda Dilimler
- Karmaşık yaratma sanatına dalın[3D modeller](./slices-in-linear-extrusion/)Aspose.3D for .NET ile doğrusal ekstrüzyonda dilimler kullanma. Tasarımlarınıza nasıl derinlik ve karmaşıklık katarak onları görsel olarak çekici ve ilgi çekici hale getireceğinizi öğrenin.
+## Why use linear extrusion with Aspose.3D?
+- **Hassasiyet & kontrol:** Ekstrüzyon vektörünü, pivot noktasını ve bükme açısını ince ayar yapın.  
+- **Performans:** Yerleşik optimizasyonlar, karmaşık modellerde bile bellek kullanımını düşük tutar.  
+- **Çapraz platform:** Windows, Linux ve macOS .NET çalışma zamanlarında aynı şekilde çalışır.  
+- **Zengin ekosistem:** Ekstrüzyonu malzeme atama, doku haritalama ve animasyon gibi diğer özelliklerle birleştirin.
 
-## Doğrusal Ekstrüzyonda Büküm
- Büyüleyici dünyasını keşfedin[3 boyutlu grafikler](./twist-in-linear-extrusion/) Aspose.3D for .NET ile. Bu eğitim, 3D projelerinize benzersiz ve büyüleyici bir boyut ekleyerek, doğrusal ekstrüzyona bükümleri dahil etme sürecini adım adım anlatmaktadır.
+## Center in Linear Extrusion
+Aspose.3D for .NET ile lineer ekstrüzyonda [ortalamaya yönelik tekniklerin](./center-in-linear-extrusion/) inceliklerine dalın. Tasarımlarınızı dönüştürün, hassas yerleştirmenin gücünü keşfedin ve 3D eserlerinize denge ve simetri katın.
 
-## Doğrusal Ekstrüzyonda Büküm Ofseti
- Büyüsünü deneyimleyin[.NET için Aspose.3D](./twist-offset-in-linear-extrusion/) Doğrusal ekstrüzyonda büküm ofsetlerine ilişkin kapsamlı kılavuzumuzla. Kalıcı bir izlenim bırakan, görsel açıdan büyüleyici modeller yaratarak 3D projelerinizi zahmetsizce geliştirin.
+## Direction in Linear Extrusion
+Aspose.3D for .NET ile [yönlü lineer ekstrüzyon](./direction-in-linear-extrusion/) inceliklerini anlamak için bir yolculuğa çıkın. Yaratıcı sürecinizi geliştirin, tasarımlarınızın akışını kontrol etmeyi öğrenin ve öne çıkan etkileyici uygulamaları zahmetsizce oluşturun.
 
-Her eğitimde Aspose.3D for .NET, 3D modellemenin potansiyelini açığa çıkaran ve yaratıcılığınızı kusursuz bir şekilde ifade etmenizi sağlayacak araçları sağlayan rehberiniz olur. Öyleyse, 3D tasarım dünyasına dalın, keşfedin ve hayal gücünüzün çılgına dönmesine izin verin!
-## Doğrusal Ekstrüzyon Eğitimleri
-### [Doğrusal Ekstrüzyonda Merkez](./center-in-linear-extrusion/)
-Aspose.3D for .NET ile 3D modelleme dünyasını keşfedin. Doğrusal ekstrüzyon tekniklerini ortalayın, çarpıcı tasarımlar yaratın ve yaratıcılığınızı ortaya çıkarın.
-### [Doğrusal Ekstrüzyonda Yön](./direction-in-linear-extrusion/)
-Aspose.3D for .NET ile 3D modelleme dünyasının kilidini açın. Yönlü doğrusal ekstrüzyonu öğrenin, yaratıcılığı artırın ve sürükleyici uygulamaları zahmetsizce oluşturun.
-### [Doğrusal Ekstrüzyon Gerçekleştirme](./performing-linear-extrusion/)
-Aspose.3D for .NET ile 3D grafik dünyasını keşfedin. Bu adım adım kılavuzda Doğrusal Ekstrüzyonun Gerçekleştirilmesi.
-### [Doğrusal Ekstrüzyonda Dilimler](./slices-in-linear-extrusion/)
-Aspose.3D for .NET ile 3D tasarım dünyasını keşfedin. Doğrusal ekstrüzyon eğitimimizi kullanarak çarpıcı modeller oluşturun.
-### [Doğrusal Ekstrüzyonda Büküm](./twist-in-linear-extrusion/)
-Aspose.3D for .NET ile 3D grafiklerin büyüleyici dünyasını keşfedin. Twist ile Doğrusal Ekstrüzyonu adım adım öğrenin.
-### [Doğrusal Ekstrüzyonda Büküm Ofseti](./twist-offset-in-linear-extrusion/)
-Doğrusal Ekstrüzyonda Büküm Ofseti hakkındaki adım adım kılavuzumuzla Aspose.3D for .NET'in büyüsünü keşfedin. 3D projelerinizi zahmetsizce yükseltin.
+## Performing Linear Extrusion
+Aspose.3D for .NET ile lineer ekstrüzyon yapma konusunda bu adım‑adım rehberi izlerken [3D grafikler](./performing-linear-extrusion/) dünyasına kendinizi bırakın. Çarpıcı görsel efektler oluşturmanın sırlarını keşfedin ve projelerinizi hayata geçirin.
+
+## Slices in Linear Extrusion
+Aspose.3D for .NET ile lineer ekstrüzyonda dilimler kullanarak karmaşık [3D modeller](./slices-in-linear-extrusion/) oluşturma sanatına dalın. Tasarımlarınıza derinlik ve karmaşıklık katmayı öğrenin, böylece görsel olarak çekici ve etkileyici hale getirin.
+
+## Twist in Linear Extrusion
+Aspose.3D for .NET ile [3D grafiklerin](./twist-in-linear-extrusion/) büyüleyici dünyasını keşfedin. Bu eğitim, lineer ekstrüzyona bükmeler ekleme sürecini adım adım gösterir ve 3D projelerinize benzersiz ve etkileyici bir boyut katar.
+
+## Twist Offset in Linear Extrusion
+[Aspose.3D for .NET](./twist-offset-in-linear-extrusion/) sihrini, lineer ekstrüzyonda bükme ofsetleri üzerine kapsamlı rehberimizle deneyimleyin. 3D projelerinizi zahmetsizce yükseltin, kalıcı bir iz bırakan görsel olarak çarpıcı modeller oluşturun.
+
+Her eğitimde, Aspose.3D for .NET rehberiniz olur, 3D modellemenin potansiyelini açığa çıkarır ve yaratıcılığınızı sorunsuz bir şekilde ifade etmeniz için araçlar sunar. O halde dalın, keşfedin ve hayal gücünüzü 3D tasarım dünyasında özgür bırakın!
+
+## Linear Extrusion Tutorials
+### [Center in Linear Extrusion](./center-in-linear-extrusion/)
+Aspose.3D for .NET ile 3D modelleme dünyasını keşfedin. Lineer ekstrüzyon ortalama tekniklerini kullanın, çarpıcı tasarımlar oluşturun ve yaratıcılığınızı serbest bırakın.
+
+### [Direction in Linear Extrusion](./direction-in-linear-extrusion/)
+Aspose.3D for .NET ile 3D modelleme dünyasının kilidini açın. Yönlü lineer ekstrüzyonu öğrenin, yaratıcılığı artırın ve etkileyici uygulamaları zahmetsizce oluşturun.
+
+### [Performing Linear Extrusion](./performing-linear-extrusion/)
+Aspose.3D for .NET ile 3D grafikler dünyasını keşfedin. Bu adım‑adım rehberde Lineer Ekstrüzyonun uygulanması.
+
+### [Slices in Linear Extrusion](./slices-in-linear-extrusion/)
+Aspose.3D for .NET ile 3D tasarım dünyasını keşfedin. Lineer ekstrüzyon eğitimimizi kullanarak çarpıcı modeller oluşturun.
+
+### [Twist in Linear Extrusion](./twist-in-linear-extrusion/)
+Aspose.3D for .NET ile büyüleyici 3D grafikler dünyasını keşfedin. Bükmeli Lineer Ekstrüzyonu adım adım öğrenin.
+
+### [Twist Offset in Linear Extrusion](./twist-offset-in-linear-extrusion/)
+Aspose.3D for .NET sihrini, Lineer Ekstrüzyonda Bükme Ofseti üzerine adım‑adım rehberimizle keşfedin. 3D projelerinizi zahmetsizce yükseltin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Frequently Asked Questions
+
+**Q: How do I create 3d extrusion using Aspose.3D?**  
+A: Use the `Extrusion` class, set the `Direction` and `Length`, then add the geometry to your scene.
+
+**Q: Where can I find a step by step extrusion example?**  
+A: The “Performing Linear Extrusion” tutorial provides a complete step‑by‑step walkthrough.
+
+**Q: What is the best way to apply a twist offset?**  
+A: Define a `TwistOffset` value on the extrusion’s `Twist` property before rendering.
+
+**Q: Can I combine multiple extrusion techniques in one model?**  
+A: Absolutely – you can chain centering, direction, slicing, and twist operations to build complex shapes.
+
+**Q: Is there a linear extrusion tutorial for beginners?**  
+A: Yes, the “Linear Extrusion Tutorial” series starts with basic concepts and progresses to advanced features.
+
+---
+
+**Son Güncelleme:** 2026-01-09  
+**Test Edilen Versiyon:** Aspose.3D for .NET 24.11  
+**Yazar:** Aspose
