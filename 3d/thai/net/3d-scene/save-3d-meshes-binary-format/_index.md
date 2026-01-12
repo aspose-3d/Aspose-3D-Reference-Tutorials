@@ -1,35 +1,50 @@
 ---
-title: บันทึก 3D Meshes ในรูปแบบไบนารีที่กำหนดเอง
-linktitle: บันทึก 3D Meshes ในรูปแบบไบนารีที่กำหนดเอง
+date: 2026-01-12
+description: เรียนรู้วิธีกำหนดเมชและส่งออกเมช 3 มิติเป็นรูปแบบไบนารีแบบกำหนดเองโดยใช้
+  Aspose.3D สำหรับ .NET บันทึกเมช 3 มิติอย่างมีประสิทธิภาพ
+linktitle: How to Define Mesh and Save 3D Meshes in Binary Format
 second_title: Aspose.3D .NET API
-description: สำรวจโลกแห่ง 3D ด้วย Aspose.3D สำหรับ .NET เรียนรู้วิธีบันทึก Meshes ในรูปแบบไบนารีที่กำหนดเอง
-weight: 13
+title: วิธีกำหนดเมชและบันทึกเมช 3 มิติในรูปแบบไบนารี
 url: /th/net/3d-scene/save-3d-meshes-binary-format/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# บันทึก 3D Meshes ในรูปแบบไบนารีที่กำหนดเอง
+# วิธีกำหนด Mesh และบันทึก Mesh 3 มิติในรูปแบบไบนารี
 
-## การแนะนำ
+## Introduction
 
-ยินดีต้อนรับสู่โลกของ Aspose.3D สำหรับ .NET ไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ 3D ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะเจาะลึกกระบวนการบันทึก 3D mesh ในรูปแบบไบนารีแบบกำหนดเองโดยใช้ Aspose.3D สำหรับ .NET คู่มือนี้ถือว่าคุณมีความเข้าใจพื้นฐานเกี่ยวกับ C# และคุ้นเคยกับไลบรารี Aspose.3D
+ยินดีต้อนรับสู่โลกของ Aspose.3D สำหรับ .NET! ในบทเรียนนี้คุณจะได้เรียนรู้ **วิธีกำหนด mesh** และจากนั้น **บันทึกข้อมูล 3D mesh** ไปยังรูปแบบไบนารีแบบกำหนดเอง ไม่ว่าคุณจะต้องการ **ส่งออก 3D mesh** ไปยังเอนจิ้นเกม, การจำลอง, หรือไพป์ไลน์ที่เป็นกรรมสิทธิ์ ขั้นตอนด้านล่างจะพาคุณผ่านกระบวนการทั้งหมดโดยใช้ C# โดยสมมติว่าคุณมีความรู้พื้นฐานเกี่ยวกับ C# และไลบรารี Aspose.3D
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **เป้าหมายหลักคืออะไร?** กำหนด mesh และส่งออกเป็นไฟล์ไบนารีแบบกำหนดเอง  
+- **ใช้ไลบรารีใด?** Aspose.3D สำหรับ .NET  
+- **ต้องมีลิขสิทธิ์หรือไม่?** เวอร์ชันทดลองทำงานสำหรับการพัฒนา; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง  
+- **รูปแบบอินพุตที่รองรับ?** รูปแบบใดก็ได้ที่ Aspose.3D สามารถอ่านได้ เช่น FBX, OBJ, 3MF  
+- **กรณีการใช้งานทั่วไป?** แปลงโมเดล FBX ให้เป็นตัวแทนไบนารีที่มีน้ำหนักเบาสำหรับการเรนเดอร์แบบเรียลไทม์  
 
-ก่อนที่เราจะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+## What is “defining a mesh” in Aspose.3D?
 
--  Aspose.3D สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.3D แล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/3d/net/).
+การกำหนด mesh หมายถึงการอธิบายโครงสร้างเวอร์เท็กซ์ (ตำแหน่ง, ปกติ, UV) และวิธีที่เวอร์เท็กซ์เหล่านั้นเชื่อมต่อกันเป็นสามเหลี่ยม Aspose.3D ให้คุณสร้าง **VertexDeclaration** ที่บอกเอนจิ้นว่าข้อมูลแต่ละเวอร์เท็กซ์มีอะไรบ้าง ซึ่งเป็นขั้นตอนแรกก่อนที่คุณจะ **แปลง FBX เป็นไบนารี**  
 
-- สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนา C# ที่คุณต้องการ เช่น Visual Studio
+## Why export 3D mesh to a custom binary format?
 
-- อินพุตไฟล์ 3D: มีไฟล์ 3D (เช่น test.fbx) ที่คุณต้องการแปลงเป็นรูปแบบไบนารีแบบกำหนดเอง
+- **ประสิทธิภาพ:** ไฟล์ไบนารีอ่านได้เร็วกว่าและใช้พื้นที่จัดเก็บน้อยกว่ารูปแบบแบบข้อความ  
+- **การควบคุม:** คุณกำหนดได้ว่าคุณลักษณะใด (ปกติ, UV, ข้อมูลกำหนดเอง) จะถูกบันทึก  
+- **ความพกพา:** โครงสร้างไบนารีแบบง่ายสามารถใช้ได้บนทุกแพลตฟอร์มโดยไม่ต้องใช้ไลบรารีการพาร์เซเพิ่มเติม  
 
-## นำเข้าเนมสเปซ
+## Prerequisites
 
-ในโค้ด C# ของคุณ ให้รวมเนมสเปซที่จำเป็นเพื่อเข้าถึงฟังก์ชัน Aspose.3D:
+- **Aspose.3D สำหรับ .NET** – ดาวน์โหลดได้จาก [here](https://releases.aspose.com/3d/net/)  
+- **สภาพแวดล้อมการพัฒนา** – Visual Studio (เวอร์ชันล่าสุดใดก็ได้) หรือ IDE C# อื่น  
+- **ไฟล์ 3D อินพุต** – FBX, OBJ หรือรูปแบบใดก็ได้ที่ Aspose.3D รองรับ (เช่น `test.fbx`)  
+
+## Import Namespaces
+
+Include the required namespaces so you can work with scenes, meshes, and binary streams:
 
 ```csharp
 using Aspose.ThreeD;
@@ -42,41 +57,40 @@ using System.Linq;
 using System.Text;
 ```
 
-## ขั้นตอนที่ 1: โหลดไฟล์ 3D
+## Step 1: Load a 3D File
 
-โหลดไฟล์ 3D ของคุณโดยใช้ Aspose.3D ในตัวอย่างนี้ เราโหลดไฟล์ชื่อ "test.fbx":
+First, load the source model. In this example we use an FBX file called `test.fbx`:
 
 ```csharp
 Scene scene = Scene.FromFile("test.fbx");
 ```
 
-## ขั้นตอนที่ 2: กำหนดรูปแบบไบนารีแบบกำหนดเอง
+## Step 2: Define the Custom Binary Format (How to define mesh)
 
-กำหนดโครงสร้างของรูปแบบไบนารีแบบกำหนดเองที่คุณต้องการบันทึก 3D Meshes ของคุณ ตัวอย่างนี้ใช้โครงสร้างที่มี MeshBlock, Vertex และ Triangle เป็นส่วนประกอบ
+Create a **VertexDeclaration** that matches the data you want to store. The example below defines position, normal, and UV coordinates for each vertex:
 
 ```csharp
-// รูปแบบหน่วยความจำของจุดยอดคือ
-// ตำแหน่งลอย [3];
-// ลอย [3] ปกติ;
-// ลอย[3]ยูวี;
+//The memory layout of a vertex is 
+// float[3] position;
+// float[3] normal;
+// float[3] uv;
 var vertexDeclaration = new VertexDeclaration();
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
-
 ```
 
-## ขั้นตอนที่ 3: เปิดไฟล์เพื่อเขียน
+## Step 3: Open a Binary File for Writing (save 3d mesh)
 
-เปิดไฟล์ไบนารี่เพื่อเขียน โดยที่ 3D meshes ที่แปลงแล้วจะถูกบันทึก:
+Open a `BinaryWriter` that will receive the converted mesh data. Adjust the path to where you want the output file to live:
 
 ```csharp
 using (var writer = new BinaryWriter(new FileStream("Your Output Directory" + "Save3DMeshesInCustomBinaryFormat_out", FileMode.Create, FileAccess.Write)))
 ```
 
-## ขั้นตอนที่ 4: วนซ้ำผ่านโหนดและเอนทิตี
+## Step 4: Iterate Through Nodes and Entities (convert fbx to binary)
 
-เยี่ยมชมแต่ละโหนดในฉาก 3 มิติและแปลงเอนทิตีแบบตาข่ายเป็นรูปแบบไบนารีที่กำหนดเอง ละเว้นไฟ กล้อง และเอนทิตีอื่นๆ ที่ไม่ใช่ตาข่าย:
+Walk the scene graph, pick only mesh entities, and ignore lights, cameras, etc.:
 
 ```csharp
 scene.RootNode.Accept(delegate(Node node)
@@ -85,15 +99,15 @@ scene.RootNode.Accept(delegate(Node node)
     {
         if (!(entity is IMeshConvertible))
             continue;
-        // ... (ดำเนินการประมวลผลต่อ)
+        // ... (continue processing)
     }
     return true;
 });
 ```
 
-## ขั้นตอนที่ 5: แปลงและเขียนจุดควบคุมและสามเหลี่ยม
+## Step 5: Convert Control Points and Triangles, Then Write Them
 
-สำหรับแต่ละเอนทิตีแบบตาข่าย ให้แปลงจุดควบคุมเป็นพื้นที่โลกและเขียนลงในไฟล์ไบนารีพร้อมกับดัชนีสามเหลี่ยม:
+For each mesh, transform vertices to world space, write the transform matrix, vertex count, index count, then the raw vertex and index buffers:
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
@@ -101,53 +115,63 @@ Mesh m = ((IMeshConvertible)entity).ToMesh();
 var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
 
 
-//เค้าโครงหน่วยความจำของ mesh คือ:
-// ลอย [16] แปลง_เมทริกซ์;
+//The mesh's memory layout is:
+// float[16] transform_matrix;
 // int vertices_count;
-// ดัชนี int_count;
-// จุดยอด [vertices_count] จุดยอด;
-// ushort[indices_count] ดัชนี;
+// int indices_count;
+// vertex[vertices_count] vertices;
+// ushort[indices_count] indices;
 
 
-//เขียนการแปลง
+//write transform
 var transform = node.GlobalTransform.TransformMatrix.ToArray();
 for(int i = 0; i < transform.Length; i++)
     writer.Write((float)transform[i]);
-//เขียนจำนวนจุดยอด/ดัชนี
+//write number of vertices/indices
 writer.Write(triMesh.VerticesCount);
 writer.Write(triMesh.IndicesCount);
-//เขียนจุดยอดและดัชนี
+//write vertices and indices
 writer.Flush();
 triMesh.WriteVerticesTo(writer.BaseStream);
 triMesh.Write16bIndicesTo(writer.BaseStream);
-
 ```
 
-## บทสรุป
+## Common Issues and Solutions
 
-ในบทช่วยสอนนี้ เราได้กล่าวถึงกระบวนการบันทึก 3D mesh ในรูปแบบไบนารีแบบกำหนดเองโดยใช้ Aspose.3D สำหรับ .NET ไลบรารีอันทรงพลังนี้มอบเครื่องมือที่จำเป็นสำหรับนักพัฒนาในการจัดการไฟล์ 3D ได้อย่างราบรื่น ทดลองใช้รูปแบบและการตั้งค่าต่างๆ เพื่อปลดล็อกศักยภาพสูงสุดของ Aspose.3D ในโปรเจ็กต์ของคุณ
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| ไฟล์ผลลัพธ์ว่างเปล่า | Writer ไม่ได้ถูก `dispose` | ตรวจสอบให้แน่ใจว่า block `using` ทำงานจนจบหรือเรียก `writer.Close()` |
+| Mesh บิดเบี้ยว | ลืมใช้การแปลงแบบ global ของ node | เขียนเมทริกซ์การแปลงก่อนเวอร์เท็กซ์ (ตามที่แสดง) |
+| ขาด UV | Mesh ต้นฉบับไม่มีช่อง UV | ตรวจสอบว่าไฟล์ต้นฉบับมี UV หรือปรับ `VertexDeclaration` ให้สอดคล้อง |
 
-## คำถามที่พบบ่อย
+## Frequently Asked Questions
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.3D สำหรับ .NET กับภาษาการเขียนโปรแกรมอื่นๆ ได้หรือไม่
+### Q1: Can I use Aspose.3D for .NET with other programming languages?
 
-คำตอบ 1: Aspose.3D รองรับภาษา .NET เป็นหลัก แต่คุณสามารถสำรวจตัวเลือกความเข้ากันได้สำหรับภาษาอื่นได้
+A1: Aspose.3D primarily supports .NET languages, but you can explore compatibility options for other languages.
 
-### คำถามที่ 2: ฉันจะหาตัวอย่างและแหล่งข้อมูลเพิ่มเติมได้จากที่ไหน
+### Q2: Where can I find additional examples and resources?
 
- A2: เดอะ[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18)เป็นสถานที่ที่ดีในการค้นหาการสนับสนุน ตัวอย่าง และการมีส่วนร่วมกับชุมชน
+A2: The [Aspose.3D forum](https://forum.aspose.com/c/3d/18) is a great place to find support, examples, and engage with the community.
 
-### คำถามที่ 3: Aspose.3D มีเวอร์ชันทดลองใช้งานหรือไม่
+### Q3: Is there a trial version available for Aspose.3D?
 
- A3: ได้ คุณสามารถทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+A3: Yes, you can get a free trial from [here](https://releases.aspose.com/).
 
-### คำถามที่ 4: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.3D ได้อย่างไร
+### Q4: How do I obtain a temporary license for Aspose.3D?
 
- A4: เยี่ยมเลย[ลิงค์นี้](https://purchase.aspose.com/temporary-license/) เพื่อรับใบอนุญาตชั่วคราวเพื่อการทดสอบ
+A4: Visit [this link](https://purchase.aspose.com/temporary-license/) to get a temporary license for testing purposes.
 
-### คำถามที่ 5: ฉันสามารถซื้อ Aspose.3D สำหรับ .NET ได้หรือไม่
+### Q5: Can I purchase Aspose.3D for .NET?
 
- A5: ได้ คุณสามารถซื้อ Aspose.3D ได้จาก[หน้าซื้อ](https://purchase.aspose.com/buy).
+A5: Yes, you can buy Aspose.3D from the [purchase page](https://purchase.aspose.com/buy).
+
+---
+
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.3D for .NET (latest stable release)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

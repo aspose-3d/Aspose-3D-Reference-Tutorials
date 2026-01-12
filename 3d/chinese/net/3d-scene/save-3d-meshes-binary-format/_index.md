@@ -1,35 +1,49 @@
 ---
-title: 以自定义二进制格式保存 3D 网格
-linktitle: 以自定义二进制格式保存 3D 网格
+date: 2026-01-12
+description: 学习如何使用 Aspose.3D for .NET 定义网格并将 3D 网格导出为自定义二进制格式。高效保存 3D 网格。
+linktitle: How to Define Mesh and Save 3D Meshes in Binary Format
 second_title: Aspose.3D .NET API
-description: 使用 Aspose.3D for .NET 探索 3D 世界。了解以自定义二进制格式保存网格。
-weight: 13
+title: 如何定义网格并以二进制格式保存 3D 网格
 url: /zh/net/3d-scene/save-3d-meshes-binary-format/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 以自定义二进制格式保存 3D 网格
+# 如何定义网格并以二进制格式保存 3D 网格
 
 ## 介绍
 
-欢迎来到 Aspose.3D for .NET 的世界，这是一个功能强大的库，使开发人员能够轻松处理 3D 文件。在本教程中，我们将深入研究使用 Aspose.3D for .NET 以自定义二进制格式保存 3D 网格的过程。本指南假设您对 C# 有基本了解并熟悉 Aspose.3D 库。
+欢迎来到 Aspose.3D for .NET 的世界！在本教程中，您将学习**如何定义网格**以及随后**以自定义二进制格式保存 3D 网格**数据。无论您是需要为游戏引擎、仿真系统或专有流水线**导出 3D 网格**，下面的步骤都将使用 C# 带您完整完成整个过程。假设您具备 C# 基础以及 Aspose.3D 库的基本使用经验。
 
-## 先决条件
+## 快速回答
+- **主要目标是什么？** 定义网格并将其导出为自定义二进制文件。  
+- **使用哪个库？** Aspose.3D for .NET。  
+- **需要许可证吗？** 开发阶段可使用试用版；生产环境需要商业许可证。  
+- **支持的输入格式？** 任意 Aspose.3D 能读取的格式，例如 FBX、OBJ、3MF。  
+- **典型使用场景？** 将 FBX 模型转换为轻量级二进制表示，以用于实时渲染。
 
-在我们开始学习本教程之前，请确保您已准备好以下内容：
+## 在 Aspose.3D 中“定义网格”是什么意思？
 
--  Aspose.3D for .NET：确保您已安装 Aspose.3D 库。您可以从以下位置下载：[这里](https://releases.aspose.com/3d/net/).
+定义网格是指描述顶点布局（位置、法线、UV 等）以及这些顶点如何连接成三角形。Aspose.3D 允许您创建一个 **VertexDeclaration**，告诉引擎每个顶点包含哪些数据，这是在**将 FBX 转换为二进制**之前的第一步。
 
-- 开发环境：设置您首选的 C# 开发环境，例如 Visual Studio。
+## 为什么要将 3D 网格导出为自定义二进制格式？
 
-- 输入 3D 文件：有一个要转换为自定义二进制格式的 3D 文件（例如 test.fbx）。
+- **性能：** 二进制文件读取更快，且相较于基于文本的格式占用更少的存储空间。  
+- **可控性：** 您可以自行决定保存哪些属性（法线、UV、自定义数据）。  
+- **可移植性：** 简单的二进制布局可被任何平台直接使用，无需额外的解析库。
 
-## 导入命名空间
+## 前置条件
 
-在您的 C# 代码中，包含访问 Aspose.3D 功能所需的命名空间：
+- **Aspose.3D for .NET** – 从 [here](https://releases.aspose.com/3d/net/) 下载。  
+- **开发环境** – Visual Studio（任意近期版本）或其他 C# IDE。  
+- **输入 3D 文件** – FBX、OBJ 或任何 Aspose.3D 支持的格式（例如 `test.fbx`）。  
+
+## 引入命名空间
+
+引入所需的命名空间，以便操作场景、网格和二进制流：
 
 ```csharp
 using Aspose.ThreeD;
@@ -42,41 +56,40 @@ using System.Linq;
 using System.Text;
 ```
 
-## 第 1 步：加载 3D 文件
+## 步骤 1：加载 3D 文件
 
-使用 Aspose.3D 加载 3D 文件。在此示例中，我们加载一个名为“test.fbx”的文件：
+首先加载源模型。本例使用名为 `test.fbx` 的 FBX 文件：
 
 ```csharp
 Scene scene = Scene.FromFile("test.fbx");
 ```
 
-## 第 2 步：定义自定义二进制格式
+## 步骤 2：定义自定义二进制格式（如何定义网格）
 
-定义要保存 3D 网格的自定义二进制格式的结构。该示例使用以 MeshBlock、Vertex 和 Triangle 作为组件的结构。
+创建一个与您想要存储的数据相匹配的 **VertexDeclaration**。下面的示例为每个顶点定义位置、法线和 UV 坐标：
 
 ```csharp
-//顶点的内存布局是
-//浮动[3]位置；
-//浮动[3]正常；
-//浮动[3]紫外线；
+//The memory layout of a vertex is 
+// float[3] position;
+// float[3] normal;
+// float[3] uv;
 var vertexDeclaration = new VertexDeclaration();
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
-
 ```
 
-## 第三步：打开文件进行写入
+## 步骤 3：打开二进制文件进行写入（保存 3D 网格）
 
-打开一个用于写入的二进制文件，其中将保存转换后的 3D 网格：
+打开一个 `BinaryWriter`，用于接收转换后的网格数据。请将路径修改为您希望输出文件所在的位置：
 
 ```csharp
 using (var writer = new BinaryWriter(new FileStream("Your Output Directory" + "Save3DMeshesInCustomBinaryFormat_out", FileMode.Create, FileAccess.Write)))
 ```
 
-## 第 4 步：迭代节点和实体
+## 步骤 4：遍历节点和实体（将 FBX 转换为二进制）
 
-访问 3D 场景中的每个节点并将网格实体转换为自定义二进制格式。忽略灯光、摄像机和其他非网格实体：
+遍历场景图，仅挑选网格实体，忽略灯光、相机等：
 
 ```csharp
 scene.RootNode.Accept(delegate(Node node)
@@ -85,15 +98,15 @@ scene.RootNode.Accept(delegate(Node node)
     {
         if (!(entity is IMeshConvertible))
             continue;
-        // ...（继续处理）
+        // ... (continue processing)
     }
     return true;
 });
 ```
 
-## 第 5 步：转换并写入控制点和三角形
+## 步骤 5：转换控制点和三角形，然后写入
 
-对于每个网格实体，将控制点转换为世界空间并将它们与三角形索引一起写入二进制文件：
+对于每个网格，将顶点转换到世界空间，写入变换矩阵、顶点计数、索引计数，随后写入原始顶点和索引缓冲区：
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
@@ -101,53 +114,63 @@ Mesh m = ((IMeshConvertible)entity).ToMesh();
 var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
 
 
-//网格的内存布局是：
-//浮动[16]变换矩阵；
-// int vertices_count；
-// int 索引计数；
-//顶点[vertices_count]个顶点；
-// ushort[indices_count] 索引；
+//The mesh's memory layout is:
+// float[16] transform_matrix;
+// int vertices_count;
+// int indices_count;
+// vertex[vertices_count] vertices;
+// ushort[indices_count] indices;
 
 
-//写变换
+//write transform
 var transform = node.GlobalTransform.TransformMatrix.ToArray();
 for(int i = 0; i < transform.Length; i++)
     writer.Write((float)transform[i]);
-//写入顶点/索引的数量
+//write number of vertices/indices
 writer.Write(triMesh.VerticesCount);
 writer.Write(triMesh.IndicesCount);
-//写入顶点和索引
+//write vertices and indices
 writer.Flush();
 triMesh.WriteVerticesTo(writer.BaseStream);
 triMesh.Write16bIndicesTo(writer.BaseStream);
-
 ```
 
-## 结论
+## 常见问题及解决方案
 
-在本教程中，我们介绍了使用 Aspose.3D for .NET 以自定义二进制格式保存 3D 网格的过程。这个强大的库为开发人员提供了无缝操作 3D 文件所需的工具。尝试不同的格式和设置，以释放 Aspose.3D 在您的项目中的全部潜力。
+| 问题 | 原因 | 解决方案 |
+|------|------|----------|
+| 输出文件为空 | Writer 未释放 | 确保 `using` 块结束或调用 `writer.Close()` |
+| 网格出现畸形 | 未应用节点的全局变换 | 如示例所示，在写入顶点前先写入变换矩阵 |
+| 缺少 UV | 源网格没有 UV 通道 | 检查源文件是否包含 UV，或相应修改 `VertexDeclaration` |
 
-## 常见问题解答
+## 常见问答
 
-### Q1：我可以将 Aspose.3D for .NET 与其他编程语言一起使用吗？
+### Q1: 我可以在其他编程语言中使用 Aspose.3D for .NET 吗？
 
-A1：Aspose.3D 主要支持 .NET 语言，但您可以探索其他语言的兼容性选项。
+A1: Aspose.3D 主要支持 .NET 语言，但您可以探索与其他语言的兼容方案。
 
-### Q2：在哪里可以找到更多示例和资源？
+### Q2: 我在哪里可以找到更多示例和资源？
 
- A2: 的[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)是寻找支持、示例以及与社区互动的好地方。
+A2: 访问 [Aspose.3D 论坛](https://forum.aspose.com/c/3d/18) 可获取支持、示例并与社区交流。
 
-### Q3：Aspose.3D 有试用版吗？
+### Q3: Aspose.3D 有试用版吗？
 
- A3：是的，您可以从以下位置获得免费试用[这里](https://releases.aspose.com/).
+A3: 有，您可以从 [here](https://releases.aspose.com/) 获取免费试用。
 
-### Q4：如何获得Aspose.3D的临时许可证？
+### Q4: 如何获取 Aspose.3D 的临时许可证？
 
- A4：参观[这个链接](https://purchase.aspose.com/temporary-license/)获得用于测试目的的临时许可证。
+A4: 前往 [this link](https://purchase.aspose.com/temporary-license/) 获取用于测试的临时许可证。
 
-### Q5：我可以购买 Aspose.3D for .NET 吗？
+### Q5: 我可以购买 Aspose.3D for .NET 吗？
 
- A5：是的，您可以从[购买页面](https://purchase.aspose.com/buy).
+A5: 可以，您可以在 [purchase page](https://purchase.aspose.com/buy) 进行购买。
+
+---
+
+**最后更新：** 2026-01-12  
+**测试环境：** Aspose.3D for .NET（最新稳定版）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

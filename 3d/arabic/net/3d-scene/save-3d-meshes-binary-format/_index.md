@@ -1,35 +1,50 @@
 ---
-title: حفظ الشبكات ثلاثية الأبعاد بتنسيق ثنائي مخصص
-linktitle: حفظ الشبكات ثلاثية الأبعاد بتنسيق ثنائي مخصص
-second_title: Aspose.3D.NET API
-description: استكشف عالم الأبعاد الثلاثية باستخدام Aspose.3D لـ .NET. تعلم كيفية حفظ الشبكات بتنسيق ثنائي مخصص.
-weight: 13
+date: 2026-01-12
+description: تعلم كيفية تعريف الشبكة وتصدير الشبكة ثلاثية الأبعاد إلى تنسيق ثنائي
+  مخصص باستخدام Aspose.3D لـ .NET. احفظ الشبكة ثلاثية الأبعاد بكفاءة.
+linktitle: How to Define Mesh and Save 3D Meshes in Binary Format
+second_title: Aspose.3D .NET API
+title: كيفية تعريف الشبكة وحفظ الشبكات ثلاثية الأبعاد بصيغة ثنائية
 url: /ar/net/3d-scene/save-3d-meshes-binary-format/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# حفظ الشبكات ثلاثية الأبعاد بتنسيق ثنائي مخصص
+# كيفية تعريف Mesh وحفظ Mesh ثلاثي الأبعاد بصيغة ثنائية
 
 ## مقدمة
 
-مرحبًا بك في عالم Aspose.3D for .NET، وهي مكتبة قوية تمكّن المطورين من العمل مع الملفات ثلاثية الأبعاد دون عناء. في هذا البرنامج التعليمي، سنتعمق في عملية حفظ الشبكات ثلاثية الأبعاد بتنسيق ثنائي مخصص باستخدام Aspose.3D لـ .NET. يفترض هذا الدليل أن لديك فهمًا أساسيًا لـ C# وأنك على دراية بمكتبة Aspose.3D.
+مرحبًا بك في عالم Aspose.3D for .NET! في هذا الدرس ستتعلم **كيفية تعريف mesh** ثم **حفظ بيانات Mesh ثلاثي الأبعاد** إلى صيغة ثنائية مخصصة. سواء كنت بحاجة إلى **تصدير Mesh ثلاثي الأبعاد** لمحرك ألعاب، أو محاكاة، أو خط أنابيب مملوك، فإن الخطوات أدناه ستقودك خلال العملية بالكامل باستخدام C#. يُفترض أن لديك معرفة أساسية بـ C# ومكتبة Aspose.3D.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما هو الهدف الأساسي؟** تعريف mesh وتصديره إلى ملف ثنائي مخصص.  
+- **أي مكتبة تُستخدم؟** Aspose.3D for .NET.  
+- **هل أحتاج إلى رخصة؟** النسخة التجريبية تكفي للتطوير؛ تحتاج إلى رخصة تجارية للإنتاج.  
+- **صيغة الإدخال المدعومة؟** أي صيغة يمكن لـ Aspose.3D قراءتها، مثل FBX، OBJ، 3MF.  
+- **حالة الاستخدام النموذجية؟** تحويل نموذج FBX إلى تمثيل ثنائي خفيف الوزن للتصيير في الوقت الحقيقي.
 
-قبل أن ننتقل إلى البرنامج التعليمي، تأكد من أن لديك ما يلي:
+## ما هو “defining a mesh” في Aspose.3D؟
 
--  Aspose.3D لـ .NET: تأكد من تثبيت مكتبة Aspose.3D. يمكنك تنزيله من[هنا](https://releases.aspose.com/3d/net/).
+تعني عملية تعريف mesh وصف تخطيط الرؤوس (المواقع، الاتجاهات، إحداثيات UV) وكيفية ربط هذه الرؤوس لتكوين مثلثات. يتيح لك Aspose.3D إنشاء **VertexDeclaration** يحدد للـ engine ما هي البيانات التي يحتويها كل رأس، وهذه هي الخطوة الأولى قبل أن تتمكن من **تحويل FBX إلى ثنائي**.
 
-- بيئة التطوير: قم بإعداد بيئة تطوير C# المفضلة لديك، مثل Visual Studio.
+## لماذا تصدر Mesh ثلاثي الأبعاد إلى صيغة ثنائية مخصصة؟
 
-- ملف الإدخال ثلاثي الأبعاد: لديك ملف ثلاثي الأبعاد (على سبيل المثال، test.fbx) تريد تحويله إلى تنسيق ثنائي مخصص.
+- **الأداء:** الملفات الثنائية أسرع في القراءة وتحتاج مساحة تخزين أقل مقارنةً بالصيغ النصية.  
+- **التحكم:** يمكنك تحديد بالضبط أي الخصائص (الاتجاهات، إحداثيات UV، بيانات مخصصة) تُحفظ.  
+- **القابلية للنقل:** يمكن لأي منصة استهلاك تخطيط ثنائي بسيط دون الحاجة إلى مكتبات تحليل إضافية.
 
-## استيراد مساحات الأسماء
+## المتطلبات المسبقة
 
-في كود C# الخاص بك، قم بتضمين مساحات الأسماء الضرورية للوصول إلى وظائف Aspose.3D:
+- **Aspose.3D for .NET** – قم بتنزيله من [here](https://releases.aspose.com/3d/net/).  
+- **بيئة التطوير** – Visual Studio (أي نسخة حديثة) أو أي IDE آخر يدعم C#.  
+- **ملف 3D الإدخالي** – ملف FBX أو OBJ أو أي صيغة يدعمها Aspose.3D (مثلًا `test.fbx`).  
+
+## استيراد المساحات الاسمية
+
+قم بتضمين المساحات الاسمية المطلوبة لتتمكن من العمل مع المشاهد، الـ meshes، وتدفقات البيانات الثنائية:
 
 ```csharp
 using Aspose.ThreeD;
@@ -42,41 +57,40 @@ using System.Linq;
 using System.Text;
 ```
 
-## الخطوة 1: قم بتحميل ملف ثلاثي الأبعاد
+## الخطوة 1: تحميل ملف 3D
 
-قم بتحميل ملفك ثلاثي الأبعاد باستخدام Aspose.3D. في هذا المثال، نقوم بتحميل ملف باسم "test.fbx":
+أولًا، قم بتحميل النموذج المصدر. في هذا المثال نستخدم ملف FBX يُدعى `test.fbx`:
 
 ```csharp
 Scene scene = Scene.FromFile("test.fbx");
 ```
 
-## الخطوة 2: تحديد التنسيق الثنائي المخصص
+## الخطوة 2: تعريف الصيغة الثنائية المخصصة (How to define mesh)
 
-حدد بنية التنسيق الثنائي المخصص الذي تريد حفظ شبكاتك ثلاثية الأبعاد فيه. يستخدم المثال بنية تحتوي على MeshBlock وVertex وTriangle كمكونات.
+أنشئ **VertexDeclaration** يتطابق مع البيانات التي تريد تخزينها. المثال أدناه يعرّف الموقع، الاتجاه، وإحداثيات UV لكل رأس:
 
 ```csharp
-// تخطيط الذاكرة للقمة هو
-// موقف تعويم[3]؛
-// تعويم[3] عادي؛
-// تعويم [3] الأشعة فوق البنفسجية؛
+//The memory layout of a vertex is 
+// float[3] position;
+// float[3] normal;
+// float[3] uv;
 var vertexDeclaration = new VertexDeclaration();
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
-
 ```
 
-## الخطوة 3: افتح الملف للكتابة
+## الخطوة 3: فتح ملف ثنائي للكتابة (save 3d mesh)
 
-افتح ملفًا ثنائيًا للكتابة، حيث سيتم حفظ الشبكات ثلاثية الأبعاد المحولة:
+افتح كائن `BinaryWriter` سيستقبل بيانات الـ mesh المحوّلة. عدّل المسار إلى المكان الذي تريد حفظ الملف الناتج فيه:
 
 ```csharp
 using (var writer = new BinaryWriter(new FileStream("Your Output Directory" + "Save3DMeshesInCustomBinaryFormat_out", FileMode.Create, FileAccess.Write)))
 ```
 
-## الخطوة 4: التكرار عبر العقد والكيانات
+## الخطوة 4: التجول عبر العقد والكيانات (convert fbx to binary)
 
-قم بزيارة كل عقدة في المشهد ثلاثي الأبعاد وقم بتحويل كيانات الشبكة إلى التنسيق الثنائي المخصص. تجاهل الأضواء والكاميرات والكيانات الأخرى غير الشبكية:
+تجول في رسم المشهد، اختر فقط الكيانات من نوع mesh، وتجاهل الأضواء، الكاميرات، إلخ:
 
 ```csharp
 scene.RootNode.Accept(delegate(Node node)
@@ -85,15 +99,15 @@ scene.RootNode.Accept(delegate(Node node)
     {
         if (!(entity is IMeshConvertible))
             continue;
-        // ... (متابعة المعالجة)
+        // ... (continue processing)
     }
     return true;
 });
 ```
 
-## الخطوة 5: تحويل وكتابة نقاط التحكم والمثلثات
+## الخطوة 5: تحويل نقاط التحكم والمثلثات، ثم كتابتها
 
-لكل كيان شبكي، قم بتحويل نقاط التحكم إلى مساحة عالمية واكتبها في الملف الثنائي مع فهارس المثلث:
+لكل mesh، حوّل الرؤوس إلى الفضاء العالمي، اكتب مصفوفة التحويل، عدد الرؤوس، عدد الفهارس، ثم مخازن الرؤوس والفهارس الخام:
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
@@ -101,53 +115,63 @@ Mesh m = ((IMeshConvertible)entity).ToMesh();
 var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
 
 
-//تخطيط ذاكرة الشبكة هو:
-// تعويم[16] Transform_matrix؛
+//The mesh's memory layout is:
+// float[16] transform_matrix;
 // int vertices_count;
-// indices_count;
-// قمة [vertices_count] القمم؛
-// مؤشرات ushort[indices_count]؛
+// int indices_count;
+// vertex[vertices_count] vertices;
+// ushort[indices_count] indices;
 
 
-//تحويل الكتابة
+//write transform
 var transform = node.GlobalTransform.TransformMatrix.ToArray();
 for(int i = 0; i < transform.Length; i++)
     writer.Write((float)transform[i]);
-//اكتب عدد القمم/المؤشرات
+//write number of vertices/indices
 writer.Write(triMesh.VerticesCount);
 writer.Write(triMesh.IndicesCount);
-//كتابة القمم والمؤشرات
+//write vertices and indices
 writer.Flush();
 triMesh.WriteVerticesTo(writer.BaseStream);
 triMesh.Write16bIndicesTo(writer.BaseStream);
-
 ```
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا البرنامج التعليمي، قمنا بتغطية عملية حفظ الشبكات ثلاثية الأبعاد بتنسيق ثنائي مخصص باستخدام Aspose.3D لـ .NET. توفر هذه المكتبة القوية للمطورين الأدوات اللازمة لمعالجة الملفات ثلاثية الأبعاد بسلاسة. قم بتجربة تنسيقات وإعدادات مختلفة لفتح الإمكانات الكاملة لـ Aspose.3D في مشاريعك.
+| المشكلة | السبب | الحل |
+|-------|--------|-----|
+| ملف الإخراج فارغ | عدم إغلاق الـ Writer | تأكد من إكمال كتلة `using` أو استدعِ `writer.Close()` |
+| ظهور الـ Mesh مشوهًا | نسيان تطبيق التحويل العالمي للعقدة | اكتب مصفوفة التحويل قبل الرؤوس (كما هو موضح) |
+| فقدان إحداثيات UV | النموذج المصدر يفتقر إلى قناة UV | تحقق من أن الملف المصدر يحتوي على UVs أو عدّل `VertexDeclaration` وفقًا لذلك |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني استخدام Aspose.3D لـ .NET مع لغات البرمجة الأخرى؟
+### س1: هل يمكنني استخدام Aspose.3D for .NET مع لغات برمجة أخرى؟
 
-ج1: يدعم Aspose.3D بشكل أساسي لغات .NET، ولكن يمكنك استكشاف خيارات التوافق للغات الأخرى.
+ج1: يدعم Aspose.3D أساسًا لغات .NET، لكن يمكنك استكشاف خيارات التوافق مع لغات أخرى.
 
 ### س2: أين يمكنني العثور على أمثلة وموارد إضافية؟
 
- ج2: ال[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18)يعد مكانًا رائعًا للعثور على الدعم والأمثلة والتفاعل مع المجتمع.
+ج2: منتدى [Aspose.3D](https://forum.aspose.com/c/3d/18) مكان رائع للحصول على الدعم، أمثلة، والتفاعل مع المجتمع.
 
-### س3: هل هناك نسخة تجريبية متاحة لـ Aspose.3D؟
+### س3: هل تتوفر نسخة تجريبية من Aspose.3D؟
 
- ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية من [here](https://releases.aspose.com/).
 
-### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟
+### س4: كيف أحصل على رخصة مؤقتة لـ Aspose.3D؟
 
- ج4: زيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت لأغراض الاختبار.
+ج4: زر [this link](https://purchase.aspose.com/temporary-license/) للحصول على رخصة مؤقتة لأغراض الاختبار.
 
-### س5: هل يمكنني شراء Aspose.3D لـ .NET؟
+### س5: هل يمكنني شراء Aspose.3D for .NET؟
 
- ج5: نعم، يمكنك شراء Aspose.3D من[صفحة الشراء](https://purchase.aspose.com/buy).
+ج5: نعم، يمكنك شراء Aspose.3D من [صفحة الشراء](https://purchase.aspose.com/buy).
+
+---
+
+**آخر تحديث:** 2026-01-12  
+**تم الاختبار مع:** Aspose.3D for .NET (أحدث إصدار ثابت)  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

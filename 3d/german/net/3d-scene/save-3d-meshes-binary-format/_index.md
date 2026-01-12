@@ -1,35 +1,51 @@
 ---
-title: Speichern von 3D-Netzen im benutzerdefinierten Binärformat
-linktitle: Speichern von 3D-Netzen im benutzerdefinierten Binärformat
+date: 2026-01-12
+description: Erfahren Sie, wie Sie ein Mesh definieren und ein 3D‑Mesh mithilfe von
+  Aspose.3D für .NET in ein benutzerdefiniertes Binärformat exportieren. Speichern
+  Sie 3D‑Meshes effizient.
+linktitle: How to Define Mesh and Save 3D Meshes in Binary Format
 second_title: Aspose.3D .NET API
-description: Entdecken Sie die Welt von 3D mit Aspose.3D für .NET. Erfahren Sie, wie Sie Netze im benutzerdefinierten Binärformat speichern.
-weight: 13
+title: Wie man ein Mesh definiert und 3D‑Meshes im Binärformat speichert
 url: /de/net/3d-scene/save-3d-meshes-binary-format/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Speichern von 3D-Netzen im benutzerdefinierten Binärformat
+# Wie man ein Mesh definiert und 3D‑Meshes im Binärformat speichert
 
 ## Einführung
 
-Willkommen in der Welt von Aspose.3D für .NET, einer leistungsstarken Bibliothek, die Entwicklern die mühelose Arbeit mit 3D-Dateien ermöglicht. In diesem Tutorial befassen wir uns mit dem Prozess des Speicherns von 3D-Netzen in einem benutzerdefinierten Binärformat mit Aspose.3D für .NET. In diesem Handbuch wird davon ausgegangen, dass Sie über grundlegende Kenntnisse von C# verfügen und mit der Aspose.3D-Bibliothek vertraut sind.
+Willkommen in der Welt von Aspose.3D für .NET! In diesem Tutorial lernen Sie **wie man ein Mesh definiert** und anschließend **3D‑Mesh‑Daten** in ein benutzerdefiniertes Binärformat speichert. Egal, ob Sie ein **3D‑Mesh exportieren** möchten für eine Spiel‑Engine, eine Simulation oder eine proprietäre Pipeline – die nachfolgenden Schritte führen Sie durch den gesamten Prozess mit C#. Grundkenntnisse in C# und der Aspose.3D‑Bibliothek werden vorausgesetzt.
+
+## Schnelle Antworten
+- **Was ist das Hauptziel?** Ein Mesh definieren und in eine benutzerdefinierte Binärdatei exportieren.  
+- **Welche Bibliothek wird verwendet?** Aspose.3D für .NET.  
+- **Benötige ich eine Lizenz?** Eine Testversion reicht für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Unterstütztes Eingabeformat?** Jedes Format, das Aspose.3D lesen kann, z. B. FBX, OBJ, 3MF.  
+- **Typischer Anwendungsfall?** Konvertierung eines FBX‑Modells in eine leichte Binärdarstellung für Echtzeit‑Rendering.
+
+## Was bedeutet „ein Mesh definieren“ in Aspose.3D?
+
+Ein Mesh zu definieren bedeutet, das Vertex‑Layout (Positionen, Normalen, UVs) und die Verbindung dieser Vertices zu Dreiecken zu beschreiben. Aspose.3D ermöglicht das Erstellen einer **VertexDeclaration**, die der Engine mitteilt, welche Daten jeder Vertex enthält – der erste Schritt, bevor Sie **FBX in Binär** konvertieren können.
+
+## Warum ein 3D‑Mesh in ein benutzerdefiniertes Binärformat exportieren?
+
+- **Performance:** Binärdateien lassen sich schneller lesen und benötigen weniger Speicher als textbasierte Formate.  
+- **Kontrolle:** Sie entscheiden exakt, welche Attribute (Normalen, UVs, benutzerdefinierte Daten) gespeichert werden.  
+- **Portabilität:** Ein einfaches Binärlayout kann von jeder Plattform ohne zusätzliche Parsing‑Bibliotheken verwendet werden.
 
 ## Voraussetzungen
 
-Bevor wir mit dem Tutorial beginnen, stellen Sie sicher, dass Sie Folgendes eingerichtet haben:
-
--  Aspose.3D für .NET: Stellen Sie sicher, dass die Aspose.3D-Bibliothek installiert ist. Sie können es herunterladen unter[Hier](https://releases.aspose.com/3d/net/).
-
-- Entwicklungsumgebung: Richten Sie Ihre bevorzugte C#-Entwicklungsumgebung ein, z. B. Visual Studio.
-
-- Eingabe-3D-Datei: Sie verfügen über eine 3D-Datei (z. B. test.fbx), die Sie in ein benutzerdefiniertes Binärformat konvertieren möchten.
+- **Aspose.3D für .NET** – laden Sie es von [hier](https://releases.aspose.com/3d/net/) herunter.  
+- **Entwicklungsumgebung** – Visual Studio (beliebige aktuelle Version) oder eine andere C#‑IDE.  
+- **Eingabedatei** – eine FBX-, OBJ‑ oder ein anderes von Aspose.3D unterstütztes Format (z. B. `test.fbx`).  
 
 ## Namespaces importieren
 
-Fügen Sie in Ihren C#-Code die erforderlichen Namespaces ein, um auf die Aspose.3D-Funktionen zuzugreifen:
+Fügen Sie die erforderlichen Namespaces hinzu, damit Sie mit Szenen, Meshes und Binär‑Streams arbeiten können:
 
 ```csharp
 using Aspose.ThreeD;
@@ -42,41 +58,40 @@ using System.Linq;
 using System.Text;
 ```
 
-## Schritt 1: Laden Sie eine 3D-Datei
+## Schritt 1: Eine 3D-Datei laden
 
-Laden Sie Ihre 3D-Datei mit Aspose.3D. In diesem Beispiel laden wir eine Datei namens „test.fbx“:
+Laden Sie zunächst das Quellmodell. In diesem Beispiel verwenden wir eine FBX‑Datei namens `test.fbx`:
 
 ```csharp
 Scene scene = Scene.FromFile("test.fbx");
 ```
 
-## Schritt 2: Definieren Sie ein benutzerdefiniertes Binärformat
+## Schritt 2: Das benutzerdefinierte Binärformat definieren (Wie man ein Mesh definiert)
 
-Definieren Sie die Struktur des benutzerdefinierten Binärformats, in dem Sie Ihre 3D-Netze speichern möchten. Das Beispiel verwendet eine Struktur mit MeshBlock, Vertex und Triangle als Komponenten.
+Erstellen Sie eine **VertexDeclaration**, die den Daten entspricht, die Sie speichern möchten. Das folgende Beispiel definiert Position, Normalen und UV‑Koordinaten für jeden Vertex:
 
 ```csharp
-// Das Speicherlayout eines Scheitelpunkts ist
-// float[3] Position;
+//The memory layout of a vertex is 
+// float[3] position;
 // float[3] normal;
 // float[3] uv;
 var vertexDeclaration = new VertexDeclaration();
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
-
 ```
 
-## Schritt 3: Datei zum Schreiben öffnen
+## Schritt 3: Eine Binärdatei zum Schreiben öffnen (3D‑Mesh speichern)
 
-Öffnen Sie eine Binärdatei zum Schreiben, in der die konvertierten 3D-Netze gespeichert werden:
+Öffnen Sie einen `BinaryWriter`, der die konvertierten Mesh‑Daten empfängt. Passen Sie den Pfad an, wo die Ausgabedatei abgelegt werden soll:
 
 ```csharp
 using (var writer = new BinaryWriter(new FileStream("Your Output Directory" + "Save3DMeshesInCustomBinaryFormat_out", FileMode.Create, FileAccess.Write)))
 ```
 
-## Schritt 4: Durchlaufen Sie Knoten und Entitäten
+## Schritt 4: Durch Knoten und Entitäten iterieren (FBX in Binär konvertieren)
 
-Besuchen Sie jeden Knoten in der 3D-Szene und konvertieren Sie Netzelemente in das benutzerdefinierte Binärformat. Ignorieren Sie Lichter, Kameras und andere Nicht-Mesh-Elemente:
+Durchlaufen Sie den Szenen‑Graph, wählen Sie nur Mesh‑Entitäten aus und ignorieren Sie Lichter, Kameras usw.:
 
 ```csharp
 scene.RootNode.Accept(delegate(Node node)
@@ -85,15 +100,15 @@ scene.RootNode.Accept(delegate(Node node)
     {
         if (!(entity is IMeshConvertible))
             continue;
-        // ... (Verarbeitung fortsetzen)
+        // ... (continue processing)
     }
     return true;
 });
 ```
 
-## Schritt 5: Konvertieren und schreiben Sie Kontrollpunkte und Dreiecke
+## Schritt 5: Kontrollpunkte und Dreiecke konvertieren und dann schreiben
 
-Konvertieren Sie für jedes Netzelement Kontrollpunkte in den Weltraum und schreiben Sie sie zusammen mit den Dreiecksindizes in die Binärdatei:
+Für jedes Mesh transformieren Sie die Vertices in den Welt‑Raum, schreiben die Transformationsmatrix, die Vertex‑Anzahl, die Index‑Anzahl und anschließend die rohen Vertex‑ und Index‑Puffer:
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
@@ -101,53 +116,63 @@ Mesh m = ((IMeshConvertible)entity).ToMesh();
 var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
 
 
-//Das Speicherlayout des Netzes ist:
+//The mesh's memory layout is:
 // float[16] transform_matrix;
 // int vertices_count;
 // int indices_count;
 // vertex[vertices_count] vertices;
-// ushort[indices_count] Indizes;
+// ushort[indices_count] indices;
 
 
-//Transformation schreiben
+//write transform
 var transform = node.GlobalTransform.TransformMatrix.ToArray();
 for(int i = 0; i < transform.Length; i++)
     writer.Write((float)transform[i]);
-//Anzahl der Eckpunkte/Indizes schreiben
+//write number of vertices/indices
 writer.Write(triMesh.VerticesCount);
 writer.Write(triMesh.IndicesCount);
-//Schreiben Sie Scheitelpunkte und Indizes
+//write vertices and indices
 writer.Flush();
 triMesh.WriteVerticesTo(writer.BaseStream);
 triMesh.Write16bIndicesTo(writer.BaseStream);
-
 ```
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-In diesem Tutorial haben wir den Prozess des Speicherns von 3D-Netzen in einem benutzerdefinierten Binärformat mit Aspose.3D für .NET behandelt. Diese leistungsstarke Bibliothek stellt Entwicklern die Werkzeuge zur Verfügung, die sie zur nahtlosen Bearbeitung von 3D-Dateien benötigen. Experimentieren Sie mit verschiedenen Formaten und Einstellungen, um das volle Potenzial von Aspose.3D in Ihren Projekten auszuschöpfen.
+| Problem | Grund | Lösung |
+|---------|-------|--------|
+| Ausgabedatei ist leer | Writer nicht freigegeben | Stellen Sie sicher, dass der `using`‑Block abgeschlossen wird oder rufen Sie `writer.Close()` auf |
+| Mesh erscheint verzerrt | Vergessen, die globale Transformationsmatrix des Knotens anzuwenden | Schreiben Sie die Transformationsmatrix vor den Vertices (wie gezeigt) |
+| UVs fehlen | Quell‑Mesh hat keinen UV‑Kanal | Prüfen Sie, ob die Quelldatei UVs enthält oder passen Sie die `VertexDeclaration` entsprechend an |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Kann ich Aspose.3D für .NET mit anderen Programmiersprachen verwenden?
+### Q1: Kann ich Aspose.3D für .NET mit anderen Programmiersprachen verwenden?
 
-A1: Aspose.3D unterstützt hauptsächlich .NET-Sprachen, Sie können jedoch Kompatibilitätsoptionen für andere Sprachen erkunden.
+A1: Aspose.3D unterstützt hauptsächlich .NET‑Sprachen, Sie können jedoch Kompatibilitätsoptionen für andere Sprachen prüfen.
 
-### F2: Wo finde ich zusätzliche Beispiele und Ressourcen?
+### Q2: Wo finde ich zusätzliche Beispiele und Ressourcen?
 
- A2: Die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18)ist ein großartiger Ort, um Unterstützung und Beispiele zu finden und mit der Community in Kontakt zu treten.
+A2: Das [Aspose.3D‑Forum](https://forum.aspose.com/c/3d/18) ist ein guter Ort, um Unterstützung, Beispiele zu finden und sich mit der Community auszutauschen.
 
-### F3: Gibt es eine Testversion für Aspose.3D?
+### Q3: Gibt es eine Testversion von Aspose.3D?
 
- A3: Ja, Sie können eine kostenlose Testversion von erhalten[Hier](https://releases.aspose.com/).
+A3: Ja, Sie können eine kostenlose Testversion von [hier](https://releases.aspose.com/) erhalten.
 
-### F4: Wie erhalte ich eine temporäre Lizenz für Aspose.3D?
+### Q4: Wie erhalte ich eine temporäre Lizenz für Aspose.3D?
 
- A4: Besuchen[dieser Link](https://purchase.aspose.com/temporary-license/) um eine temporäre Lizenz zu Testzwecken zu erhalten.
+A4: Besuchen Sie [diesen Link](https://purchase.aspose.com/temporary-license/), um eine temporäre Lizenz für Testzwecke zu erhalten.
 
-### F5: Kann ich Aspose.3D für .NET kaufen?
+### Q5: Kann ich Aspose.3D für .NET kaufen?
 
- A5: Ja, Sie können Aspose.3D bei kaufen[Kaufseite](https://purchase.aspose.com/buy).
+A5: Ja, Sie können Aspose.3D über die [Kaufseite](https://purchase.aspose.com/buy) erwerben.
+
+---
+
+**Zuletzt aktualisiert:** 2026-01-12  
+**Getestet mit:** Aspose.3D für .NET (neueste stabile Version)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,50 @@
 ---
-title: 3B Meshleri Özel İkili Formatta Kaydetme
-linktitle: 3B Meshleri Özel İkili Formatta Kaydetme
-second_title: Aspose.3D .NET API'si
-description: Aspose.3D for .NET ile 3D dünyasını keşfedin. Kafesleri özel ikili formatta kaydetmeyi öğrenin.
-weight: 13
+date: 2026-01-12
+description: Aspose.3D for .NET kullanarak ağ tanımlamayı ve 3D ağı özel bir ikili
+  formata dışa aktarmayı öğrenin. 3D ağı verimli bir şekilde kaydedin.
+linktitle: How to Define Mesh and Save 3D Meshes in Binary Format
+second_title: Aspose.3D .NET API
+title: Ağları Tanımlama ve 3D Ağları İkili Formatta Kaydetme
 url: /tr/net/3d-scene/save-3d-meshes-binary-format/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3B Meshleri Özel İkili Formatta Kaydetme
+# Mesh Nasıl Tanımlanır ve 3D Mesh'ler İkili Formatta Kaydedilir
 
-## giriiş
+## Giriş
 
-Geliştiricilerin 3D dosyalarla zahmetsizce çalışmasını sağlayan güçlü bir kütüphane olan Aspose.3D for .NET dünyasına hoş geldiniz. Bu eğitimde, Aspose.3D for .NET kullanarak 3D mesh'leri özel bir ikili formatta kaydetme sürecini inceleyeceğiz. Bu kılavuz, temel C# bilgisine sahip olduğunuzu ve Aspose.3D kütüphanesine aşina olduğunuzu varsaymaktadır.
+Aspose.3D for .NET dünyasına hoş geldiniz! Bu öğreticide **mesh nasıl tanımlanır** ve ardından **3D mesh** verileri özel bir ikili formata nasıl kaydedilir** öğreneceksiniz. İster bir oyun motoru, bir simülasyon ya da özel bir pipeline için **3D mesh dışa aktarmanız** gerekse, aşağıdaki adımlar C# kullanarak tüm süreci size gösterecek. C# ve Aspose.3D kütüphanesi hakkında temel bir bilgiye sahip olduğunuz varsayılmaktadır.
+
+## Hızlı Yanıtlar
+- **Ana hedef nedir?** Mesh'i tanımlamak ve özel bir ikili dosyaya dışa aktarmak.  
+- **Hangi kütüphane kullanılıyor?** Aspose.3D for .NET.  
+- **Lisans gerekli mi?** Geliştirme için deneme sürümü çalışır; üretim için ticari lisans gereklidir.  
+- **Desteklenen giriş formatı?** Aspose.3D'nin okuyabildiği herhangi bir format, ör. FBX, OBJ, 3MF.  
+- **Tipik kullanım senaryosu?** Gerçek zamanlı render için bir FBX modelini hafif bir ikili temsile dönüştürmek.
+
+## Aspose.3D'de “mesh tanımlama” nedir?
+
+Mesh tanımlamak, vertex düzenini (konumlar, normaller, UV'ler) ve bu vertex'lerin üçgenlere nasıl bağlandığını tanımlamak anlamına gelir. Aspose.3D, motorun her bir vertex'in hangi verileri içerdiğini belirten bir **VertexDeclaration** oluşturmanıza olanak tanır; bu, **FBX'i ikiliye dönüştürmeden** önceki ilk adımdır.
+
+## Neden 3D mesh'i özel bir ikili formata dışa aktaralım?
+
+- **Performans:** İkili dosyalar, metin tabanlı formatlara göre daha hızlı okunur ve daha az depolama alanı gerektirir.  
+- **Kontrol:** Hangi özniteliklerin (normaller, UV'ler, özel veri) kaydedileceğine siz karar verirsiniz.  
+- **Taşınabilirlik:** Basit bir ikili düzen, ek ayrıştırma kütüphanelerine ihtiyaç duymadan herhangi bir platformda kullanılabilir.
 
 ## Önkoşullar
 
-Eğiticiye geçmeden önce aşağıdakilerin mevcut olduğundan emin olun:
+- **Aspose.3D for .NET** – indirmek için [buraya](https://releases.aspose.com/3d/net/) tıklayın.  
+- **Geliştirme Ortamı** – Visual Studio (herhangi bir yeni sürüm) veya başka bir C# IDE.  
+- **Giriş 3D Dosyası** – bir FBX, OBJ veya Aspose.3D tarafından desteklenen herhangi bir format (ör. `test.fbx`).  
 
--  Aspose.3D for .NET: Aspose.3D kütüphanesinin kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/3d/net/).
+## Ad Alanlarını İçe Aktarma
 
-- Geliştirme Ortamı: Visual Studio gibi tercih ettiğiniz C# geliştirme ortamını kurun.
-
-- 3D Dosya Girin: Özel bir ikili formata dönüştürmek istediğiniz bir 3D dosyanız (örn. test.fbx) olsun.
-
-## Ad Alanlarını İçe Aktar
-
-Aspose.3D işlevlerine erişmek için C# kodunuza gerekli ad alanlarını ekleyin:
+Sahneler, mesh'ler ve ikili akışlarla çalışabilmek için gerekli ad alanlarını ekleyin:
 
 ```csharp
 using Aspose.ThreeD;
@@ -42,41 +57,40 @@ using System.Linq;
 using System.Text;
 ```
 
-## 1. Adım: 3D Dosya Yükleyin
+## Adım 1: 3D Dosyasını Yükleme
 
-Aspose.3D'yi kullanarak 3D dosyanızı yükleyin. Bu örnekte "test.fbx" adlı bir dosya yüklüyoruz:
+İlk olarak, kaynak modeli yükleyin. Bu örnekte `test.fbx` adlı bir FBX dosyası kullanıyoruz:
 
 ```csharp
 Scene scene = Scene.FromFile("test.fbx");
 ```
 
-## Adım 2: Özel İkili Formatı Tanımlayın
+## Adım 2: Özel İkili Formatı Tanımlama (Mesh Nasıl Tanımlanır)
 
-3B kafeslerinizi kaydetmek istediğiniz özel ikili formatın yapısını tanımlayın. Örnekte, bileşenler olarak MeshBlock, Vertex ve Triangle içeren bir yapı kullanılıyor.
+Depolamak istediğiniz verilere uygun bir **VertexDeclaration** oluşturun. Aşağıdaki örnek, her vertex için konum, normal ve UV koordinatlarını tanımlar:
 
 ```csharp
-// Bir köşenin hafıza düzeni
-// kayan nokta[3] konumu;
-// kayan nokta[3] normal;
-// kayan nokta[3] uv;
+//The memory layout of a vertex is 
+// float[3] position;
+// float[3] normal;
+// float[3] uv;
 var vertexDeclaration = new VertexDeclaration();
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
-
 ```
 
-## Adım 3: Dosyayı Yazmak İçin Açın
+## Adım 3: Yazma İçin Bir İkili Dosya Açma (3D Mesh'i Kaydetme)
 
-Dönüştürülen 3B ağların kaydedileceği yazma için bir ikili dosya açın:
+Çevrilen mesh verilerini alacak bir `BinaryWriter` açın. Çıktı dosyasının kaydedileceği yolu ihtiyacınıza göre ayarlayın:
 
 ```csharp
 using (var writer = new BinaryWriter(new FileStream("Your Output Directory" + "Save3DMeshesInCustomBinaryFormat_out", FileMode.Create, FileAccess.Write)))
 ```
 
-## Adım 4: Düğümler ve Varlıklar Üzerinden Yineleme Yapın
+## Adım 4: Düğümler ve Varlıklar Üzerinde Döngü (FBX'i İkiliye Dönüştürme)
 
-3B sahnedeki her düğümü ziyaret edin ve ağ varlıklarını özel ikili formata dönüştürün. Işıkları, kameraları ve diğer ağ dışı varlıkları göz ardı edin:
+Sahne grafiğini dolaşın, yalnızca mesh varlıklarını seçin ve ışıkları, kameraları vb. yok sayın:
 
 ```csharp
 scene.RootNode.Accept(delegate(Node node)
@@ -85,15 +99,15 @@ scene.RootNode.Accept(delegate(Node node)
     {
         if (!(entity is IMeshConvertible))
             continue;
-        // ... (işlemeye devam et)
+        // ... (continue processing)
     }
     return true;
 });
 ```
 
-## Adım 5: Kontrol Noktalarını ve Üçgenleri Dönüştürün ve Yazın
+## Adım 5: Kontrol Noktalarını ve Üçgenleri Dönüştürme, Ardından Yazma
 
-Her mesh varlığı için, kontrol noktalarını dünya uzayına dönüştürün ve bunları üçgen indeksleriyle birlikte ikili dosyaya yazın:
+Her mesh için vertex'leri dünya uzayına dönüştürün, dönüşüm matrisini, vertex sayısını, indeks sayısını yazın, ardından ham vertex ve indeks tamponlarını yazın:
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
@@ -101,53 +115,61 @@ Mesh m = ((IMeshConvertible)entity).ToMesh();
 var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
 
 
-//Ağın bellek düzeni şöyledir:
+//The mesh's memory layout is:
 // float[16] transform_matrix;
 // int vertices_count;
-// int indeks_sayısı;
-// vertex[vertices_count] köşe noktaları;
-// ushort[indices_count] endeksleri;
+// int indices_count;
+// vertex[vertices_count] vertices;
+// ushort[indices_count] indices;
 
 
-//dönüşümü yaz
+//write transform
 var transform = node.GlobalTransform.TransformMatrix.ToArray();
 for(int i = 0; i < transform.Length; i++)
     writer.Write((float)transform[i]);
-//köşe/indeks sayısını yaz
+//write number of vertices/indices
 writer.Write(triMesh.VerticesCount);
 writer.Write(triMesh.IndicesCount);
-//köşeleri ve indeksleri yaz
+//write vertices and indices
 writer.Flush();
 triMesh.WriteVerticesTo(writer.BaseStream);
 triMesh.Write16bIndicesTo(writer.BaseStream);
-
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümleri
 
-Bu eğitimde Aspose.3D for .NET kullanarak 3D mesh'leri özel bir ikili formatta kaydetme sürecini ele aldık. Bu güçlü kitaplık, geliştiricilere 3D dosyaları sorunsuz bir şekilde işlemek için gereken araçları sağlar. Projelerinizde Aspose.3D'nin tüm potansiyelini açığa çıkarmak için farklı format ve ayarlarla denemeler yapın.
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| Çıktı dosyası boş | Writer serbest bırakılmadı | `using` bloğunun tamamlandığından emin olun veya `writer.Close()` çağırın |
+| Mesh bozulmuş görünüyor | Düğümün global dönüşümünün uygulanmayı unutması | Vertex'lerden önce dönüşüm matrisini yazın (gösterildiği gibi) |
+| UV'ler eksik | Kaynak mesh UV kanalına sahip değil | Kaynak dosyanın UV içerdiğini doğrulayın veya `VertexDeclaration`'ı buna göre değiştirin |
 
-## SSS
+## Sıkça Sorulan Sorular
 
 ### S1: Aspose.3D for .NET'i diğer programlama dilleriyle kullanabilir miyim?
 
-Cevap1: Aspose.3D öncelikli olarak .NET dillerini destekler ancak diğer diller için uyumluluk seçeneklerini de inceleyebilirsiniz.
+C1: Aspose.3D öncelikle .NET dillerini destekler, ancak diğer diller için uyumluluk seçeneklerini araştırabilirsiniz.
 
 ### S2: Ek örnekleri ve kaynakları nerede bulabilirim?
 
- A2:[Aspose.3D forumu](https://forum.aspose.com/c/3d/18)destek, örnekler bulmak ve toplulukla etkileşim kurmak için harika bir yerdir.
+C2: [Aspose.3D forumu](https://forum.aspose.com/c/3d/18), destek, örnekler bulmak ve toplulukla etkileşimde bulunmak için harika bir yerdir.
 
-### S3: Aspose.3D'nin deneme sürümü mevcut mu?
+### S3: Aspose.3D için bir deneme sürümü mevcut mu?
 
- C3: Evet, şu adresten ücretsiz deneme alabilirsiniz:[Burada](https://releases.aspose.com/).
+C3: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) alabilirsiniz.
 
-### S4: Aspose.3D için geçici lisansı nasıl edinebilirim?
+### S4: Aspose.3D için geçici bir lisans nasıl alabilirim?
 
- A4: Ziyaret edin[bu bağlantı](https://purchase.aspose.com/temporary-license/) Test amaçlı geçici lisans almak için.
+C4: Test amaçlı geçici lisans almak için [bu bağlantıyı](https://purchase.aspose.com/temporary-license/) ziyaret edin.
 
 ### S5: Aspose.3D for .NET'i satın alabilir miyim?
 
- Cevap5: Evet, Aspose.3D'yi şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+C5: Evet, Aspose.3D'yi [satın alma sayfasından](https://purchase.aspose.com/buy) satın alabilirsiniz.
+
+**Son Güncelleme:** 2026-01-12  
+**Test Edilen Versiyon:** Aspose.3D for .NET (en son stabil sürüm)  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

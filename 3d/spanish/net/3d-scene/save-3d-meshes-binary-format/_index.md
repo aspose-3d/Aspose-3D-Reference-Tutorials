@@ -1,35 +1,50 @@
 ---
-title: Guardar mallas 3D en formato binario personalizado
-linktitle: Guardar mallas 3D en formato binario personalizado
-second_title: Aspose.3D API .NET
-description: Explora el mundo del 3D con Aspose.3D para .NET. Aprenda a guardar mallas en formato binario personalizado.
-weight: 13
+date: 2026-01-12
+description: Aprende cómo definir mallas y exportar una malla 3D a un formato binario
+  personalizado usando Aspose.3D para .NET. Guarda la malla 3D de manera eficiente.
+linktitle: How to Define Mesh and Save 3D Meshes in Binary Format
+second_title: Aspose.3D .NET API
+title: Cómo definir malla y guardar mallas 3D en formato binario
 url: /es/net/3d-scene/save-3d-meshes-binary-format/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Guardar mallas 3D en formato binario personalizado
+# Cómo definir mallas y guardar mallas 3D en formato binario
 
 ## Introducción
 
-Bienvenido al mundo de Aspose.3D para .NET, una poderosa biblioteca que permite a los desarrolladores trabajar con archivos 3D sin esfuerzo. En este tutorial, profundizaremos en el proceso de guardar mallas 3D en un formato binario personalizado usando Aspose.3D para .NET. Esta guía asume que tiene conocimientos básicos de C# y está familiarizado con la biblioteca Aspose.3D.
+¡Bienvenido al mundo de Aspose.3D para .NET! En este tutorial aprenderá **cómo definir una malla** y luego **guardar datos de malla 3D** en un formato binario personalizado. Ya sea que necesite **exportar una malla 3D** para un motor de juego, una simulación o una canalización propietaria, los pasos a continuación le guiarán a través de todo el proceso usando C#. Se asume un conocimiento básico de C# y de la biblioteca Aspose.3D.
+
+## Respuestas rápidas
+- **¿Cuál es el objetivo principal?** Definir una malla y exportarla a un archivo binario personalizado.  
+- **¿Qué biblioteca se utiliza?** Aspose.3D para .NET.  
+- **¿Necesito una licencia?** Una versión de prueba funciona para desarrollo; se requiere una licencia comercial para producción.  
+- **¿Formato de entrada compatible?** Cualquier formato que Aspose.3D pueda leer, p. ej., FBX, OBJ, 3MF.  
+- **¿Caso de uso típico?** Convertir un modelo FBX a una representación binaria ligera para renderizado en tiempo real.
+
+## ¿Qué significa “definir una malla” en Aspose.3D?
+
+Definir una malla implica describir la disposición de los vértices (posiciones, normales, UVs) y cómo esos vértices se conectan en triángulos. Aspose.3D le permite crear una **VertexDeclaration** que indica al motor qué datos contiene cada vértice, que es el primer paso antes de poder **convertir FBX a binario**.
+
+## ¿Por qué exportar una malla 3D a un formato binario personalizado?
+
+- **Rendimiento:** Los archivos binarios se leen más rápido y requieren menos espacio de almacenamiento que los formatos basados en texto.  
+- **Control:** Usted decide exactamente qué atributos (normales, UVs, datos personalizados) se guardan.  
+- **Portabilidad:** Un diseño binario sencillo puede ser consumido por cualquier plataforma sin bibliotecas de análisis adicionales.
 
 ## Requisitos previos
 
-Antes de pasar al tutorial, asegúrese de tener lo siguiente en su lugar:
-
--  Aspose.3D para .NET: asegúrese de tener instalada la biblioteca Aspose.3D. Puedes descargarlo desde[aquí](https://releases.aspose.com/3d/net/).
-
-- Entorno de desarrollo: configure su entorno de desarrollo de C# preferido, como Visual Studio.
-
-- Archivo 3D de entrada: tenga un archivo 3D (por ejemplo, test.fbx) que desee convertir a un formato binario personalizado.
+- **Aspose.3D para .NET** – descárguelo desde [aquí](https://releases.aspose.com/3d/net/).  
+- **Entorno de desarrollo** – Visual Studio (cualquier versión reciente) u otro IDE de C#.  
+- **Archivo 3D de entrada** – un FBX, OBJ o cualquier formato compatible con Aspose.3D (p. ej., `test.fbx`).  
 
 ## Importar espacios de nombres
 
-En su código C#, incluya los espacios de nombres necesarios para acceder a las funcionalidades de Aspose.3D:
+Incluya los espacios de nombres necesarios para trabajar con escenas, mallas y flujos binarios:
 
 ```csharp
 using Aspose.ThreeD;
@@ -42,41 +57,40 @@ using System.Linq;
 using System.Text;
 ```
 
-## Paso 1: cargue un archivo 3D
+## Paso 1: Cargar un archivo 3D
 
-Cargue su archivo 3D usando Aspose.3D. En este ejemplo, cargamos un archivo llamado "test.fbx":
+Primero, cargue el modelo de origen. En este ejemplo usamos un archivo FBX llamado `test.fbx`:
 
 ```csharp
 Scene scene = Scene.FromFile("test.fbx");
 ```
 
-## Paso 2: definir el formato binario personalizado
+## Paso 2: Definir el formato binario personalizado (Cómo definir una malla)
 
-Defina la estructura del formato binario personalizado en el que desea guardar sus mallas 3D. El ejemplo utiliza una estructura con MeshBlock, Vertex y Triangle como componentes.
+Cree una **VertexDeclaration** que coincida con los datos que desea almacenar. El ejemplo a continuación define posición, normal y coordenadas UV para cada vértice:
 
 ```csharp
-// El diseño de la memoria de un vértice es
-// posición flotante [3];
-// flotador[3] normal;
-// flotador [3] uv;
+//The memory layout of a vertex is 
+// float[3] position;
+// float[3] normal;
+// float[3] uv;
 var vertexDeclaration = new VertexDeclaration();
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
-
 ```
 
-## Paso 3: abra el archivo para escribir
+## Paso 3: Abrir un archivo binario para escritura (guardar malla 3D)
 
-Abra un archivo binario para escribir, donde se guardarán las mallas 3D convertidas:
+Abra un `BinaryWriter` que recibirá los datos de la malla convertida. Ajuste la ruta a donde desea que se guarde el archivo de salida:
 
 ```csharp
 using (var writer = new BinaryWriter(new FileStream("Your Output Directory" + "Save3DMeshesInCustomBinaryFormat_out", FileMode.Create, FileAccess.Write)))
 ```
 
-## Paso 4: iterar a través de nodos y entidades
+## Paso 4: Recorrer nodos y entidades (convertir fbx a binario)
 
-Visite cada nodo en la escena 3D y convierta entidades de malla al formato binario personalizado. Ignore luces, cámaras y otras entidades que no sean malla:
+Recorra el grafo de la escena, seleccione solo las entidades de malla y omita luces, cámaras, etc.:
 
 ```csharp
 scene.RootNode.Accept(delegate(Node node)
@@ -85,15 +99,15 @@ scene.RootNode.Accept(delegate(Node node)
     {
         if (!(entity is IMeshConvertible))
             continue;
-        // ... (continuar procesando)
+        // ... (continue processing)
     }
     return true;
 });
 ```
 
-## Paso 5: convertir y escribir puntos de control y triángulos
+## Paso 5: Convertir puntos de control y triángulos, luego escribirlos
 
-Para cada entidad de malla, convierta los puntos de control al espacio mundial y escríbalos en el archivo binario junto con los índices de los triángulos:
+Para cada malla, transforme los vértices al espacio mundial, escriba la matriz de transformación, el recuento de vértices, el recuento de índices y luego los buffers crudos de vértices e índices:
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
@@ -101,53 +115,63 @@ Mesh m = ((IMeshConvertible)entity).ToMesh();
 var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
 
 
-//El diseño de la memoria de la malla es:
-// flotador [16] transformar_matriz;
-// int vértices_count;
-// int índices_count;
-// vértice[vértices_count] vértices;
-// índices ushort[indices_count];
+//The mesh's memory layout is:
+// float[16] transform_matrix;
+// int vertices_count;
+// int indices_count;
+// vertex[vertices_count] vertices;
+// ushort[indices_count] indices;
 
 
-//escribe transformar
+//write transform
 var transform = node.GlobalTransform.TransformMatrix.ToArray();
 for(int i = 0; i < transform.Length; i++)
     writer.Write((float)transform[i]);
-//escribir el número de vértices/índices
+//write number of vertices/indices
 writer.Write(triMesh.VerticesCount);
 writer.Write(triMesh.IndicesCount);
-//escribir vértices e índices
+//write vertices and indices
 writer.Flush();
 triMesh.WriteVerticesTo(writer.BaseStream);
 triMesh.Write16bIndicesTo(writer.BaseStream);
-
 ```
 
-## Conclusión
+## Problemas comunes y soluciones
 
-En este tutorial, cubrimos el proceso de guardar mallas 3D en un formato binario personalizado usando Aspose.3D para .NET. Esta poderosa biblioteca proporciona a los desarrolladores las herramientas necesarias para manipular archivos 3D sin problemas. Experimente con diferentes formatos y configuraciones para desbloquear todo el potencial de Aspose.3D en sus proyectos.
+| Problema | Razón | Solución |
+|----------|-------|----------|
+| El archivo de salida está vacío | El escritor no se dispone | Asegúrese de que el bloque `using` finalice o llame a `writer.Close()` |
+| La malla aparece distorsionada | Olvidó aplicar la transformación global del nodo | Escriba la matriz de transformación antes de los vértices (como se muestra) |
+| Faltan UVs | La malla de origen no tiene canal UV | Verifique que el archivo de origen contenga UVs o modifique `VertexDeclaration` en consecuencia |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.3D para .NET con otros lenguajes de programación?
+### Q1: ¿Puedo usar Aspose.3D para .NET con otros lenguajes de programación?
 
 R1: Aspose.3D admite principalmente lenguajes .NET, pero puede explorar opciones de compatibilidad para otros lenguajes.
 
-### P2: ¿Dónde puedo encontrar ejemplos y recursos adicionales?
+### Q2: ¿Dónde puedo encontrar ejemplos y recursos adicionales?
 
- A2: El[Foro Aspose.3D](https://forum.aspose.com/c/3d/18)es un gran lugar para encontrar apoyo, ejemplos e interactuar con la comunidad.
+R2: El [foro de Aspose.3D](https://forum.aspose.com/c/3d/18) es un excelente lugar para encontrar soporte, ejemplos y participar con la comunidad.
 
-### P3: ¿Existe una versión de prueba disponible para Aspose.3D?
+### Q3: ¿Existe una versión de prueba disponible para Aspose.3D?
 
- R3: Sí, puedes obtener una prueba gratuita desde[aquí](https://releases.aspose.com/).
+R3: Sí, puede obtener una prueba gratuita desde [aquí](https://releases.aspose.com/).
 
-### P4: ¿Cómo obtengo una licencia temporal para Aspose.3D?
+### Q4: ¿Cómo obtengo una licencia temporal para Aspose.3D?
 
- A4: Visita[este enlace](https://purchase.aspose.com/temporary-license/) para obtener una licencia temporal con fines de prueba.
+R4: Visite [este enlace](https://purchase.aspose.com/temporary-license/) para obtener una licencia temporal para propósitos de prueba.
 
-### P5: ¿Puedo comprar Aspose.3D para .NET?
+### Q5: ¿Puedo comprar Aspose.3D para .NET?
 
- R5: Sí, puedes comprar Aspose.3D desde[pagina de compra](https://purchase.aspose.com/buy).
+R5: Sí, puede adquirir Aspose.3D en la [página de compra](https://purchase.aspose.com/buy).
+
+---
+
+**Última actualización:** 2026-01-12  
+**Probado con:** Aspose.3D para .NET (última versión estable)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,50 @@
 ---
-title: Zapisywanie siatek 3D w niestandardowym formacie binarnym
-linktitle: Zapisywanie siatek 3D w niestandardowym formacie binarnym
-second_title: Aspose.3D API .NET
-description: Poznaj świat 3D z Aspose.3D dla .NET. Dowiedz się, jak zapisywać siatki w niestandardowym formacie binarnym.
-weight: 13
+date: 2026-01-12
+description: Dowiedz się, jak definiować siatkę i eksportować siatkę 3D do własnego
+  formatu binarnego przy użyciu Aspose.3D dla .NET. Efektywnie zapisuj siatkę 3D.
+linktitle: How to Define Mesh and Save 3D Meshes in Binary Format
+second_title: Aspose.3D .NET API
+title: Jak zdefiniować siatkę i zapisać siatki 3D w formacie binarnym
 url: /pl/net/3d-scene/save-3d-meshes-binary-format/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zapisywanie siatek 3D w niestandardowym formacie binarnym
+# Jak zdefiniować siatkę i zapisać siatki 3D w formacie binarnym
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w świecie Aspose.3D dla .NET, potężnej biblioteki, która umożliwia programistom bezproblemową pracę z plikami 3D. W tym samouczku zagłębimy się w proces zapisywania siatek 3D w niestandardowym formacie binarnym przy użyciu Aspose.3D dla .NET. W tym przewodniku założono, że masz podstawową wiedzę na temat języka C# i znasz bibliotekę Aspose.3D.
+Witamy w świecie Aspose.3D dla .NET! W tym samouczku nauczysz się **jak zdefiniować siatkę** i następnie **zapisać dane siatki 3D** w niestandardowym formacie binarnym. Niezależnie od tego, czy potrzebujesz **wyeksportować siatkę 3D** do silnika gry, symulacji czy własnego pipeline'u, poniższe kroki przeprowadzą Cię przez cały proces przy użyciu C#. Zakłada się podstawową znajomość C# oraz biblioteki Aspose.3D.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaki jest główny cel?** Zdefiniować siatkę i wyeksportować ją do niestandardowego pliku binarnego.  
+- **Która biblioteka jest używana?** Aspose.3D dla .NET.  
+- **Czy potrzebna jest licencja?** Wersja próbna działa w fazie rozwoju; licencja komercyjna jest wymagana w produkcji.  
+- **Obsługiwany format wejściowy?** Każdy format, który Aspose.3D potrafi odczytać, np. FBX, OBJ, 3MF.  
+- **Typowy przypadek użycia?** Konwersja modelu FBX do lekkiej reprezentacji binarnej dla renderowania w czasie rzeczywistym.
 
-Zanim przejdziemy do samouczka, upewnij się, że masz następujące elementy:
+## Czym jest „definiowanie siatki” w Aspose.3D?
 
--  Aspose.3D dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.3D. Można go pobrać z[Tutaj](https://releases.aspose.com/3d/net/).
+Definiowanie siatki oznacza opisanie układu wierzchołków (pozycje, normalne, UV) oraz sposobu, w jaki te wierzchołki są połączone w trójkąty. Aspose.3D pozwala utworzyć **VertexDeclaration**, które informuje silnik, jakie dane zawiera każdy wierzchołek, co jest pierwszym krokiem przed **konwersją FBX do binarnego**.
 
-- Środowisko programistyczne: skonfiguruj preferowane środowisko programistyczne języka C#, takie jak Visual Studio.
+## Dlaczego eksportować siatkę 3D do niestandardowego formatu binarnego?
 
-- Wejściowy plik 3D: Przygotuj plik 3D (np. test.fbx), który chcesz przekonwertować na niestandardowy format binarny.
+- **Wydajność:** Pliki binarne są szybsze w odczycie i wymagają mniej miejsca niż formaty tekstowe.  
+- **Kontrola:** Decydujesz dokładnie, które atrybuty (normalne, UV, dane niestandardowe) są zapisywane.  
+- **Przenośność:** Prosty układ binarny może być używany na dowolnej platformie bez dodatkowych bibliotek parsujących.
 
-## Importuj przestrzenie nazw
+## Wymagania wstępne
 
-W kodzie C# uwzględnij niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności Aspose.3D:
+- **Aspose.3D for .NET** – pobierz go z [here](https://releases.aspose.com/3d/net/).  
+- **Środowisko programistyczne** – Visual Studio (dowolna aktualna wersja) lub inne IDE C#.  
+- **Plik 3D wejściowy** – plik FBX, OBJ lub dowolny format obsługiwany przez Aspose.3D (np. `test.fbx`).  
+
+## Importowanie przestrzeni nazw
+
+Dołącz wymagane przestrzenie nazw, aby móc pracować ze scenami, siatkami i strumieniami binarnymi:
 
 ```csharp
 using Aspose.ThreeD;
@@ -44,39 +59,38 @@ using System.Text;
 
 ## Krok 1: Załaduj plik 3D
 
-Załaduj swój plik 3D za pomocą Aspose.3D. W tym przykładzie ładujemy plik o nazwie „test.fbx”:
+Najpierw załaduj model źródłowy. W tym przykładzie używamy pliku FBX o nazwie `test.fbx`:
 
 ```csharp
 Scene scene = Scene.FromFile("test.fbx");
 ```
 
-## Krok 2: Zdefiniuj niestandardowy format binarny
+## Krok 2: Zdefiniuj niestandardowy format binarny (Jak zdefiniować siatkę)
 
-Zdefiniuj strukturę niestandardowego formatu binarnego, w którym chcesz zapisać siatki 3D. W przykładzie zastosowano strukturę z komponentami MeshBlock, Vertex i Triangle.
+Utwórz **VertexDeclaration**, które odpowiada danym, które chcesz przechowywać. Poniższy przykład definiuje pozycję, normalną i współrzędne UV dla każdego wierzchołka:
 
 ```csharp
-// Układ pamięci wierzchołka jest
-// pozycja pływająca[3];
-// pływak[3] normalny;
-// pływak[3] UV;
+//The memory layout of a vertex is 
+// float[3] position;
+// float[3] normal;
+// float[3] uv;
 var vertexDeclaration = new VertexDeclaration();
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
-
 ```
 
-## Krok 3: Otwórz plik do zapisu
+## Krok 3: Otwórz plik binarny do zapisu (zapisz siatkę 3D)
 
-Otwórz plik binarny do zapisu, w którym zostaną zapisane przekonwertowane siatki 3D:
+Otwórz `BinaryWriter`, który otrzyma skonwertowane dane siatki. Dostosuj ścieżkę do miejsca, w którym ma znajdować się plik wyjściowy:
 
 ```csharp
 using (var writer = new BinaryWriter(new FileStream("Your Output Directory" + "Save3DMeshesInCustomBinaryFormat_out", FileMode.Create, FileAccess.Write)))
 ```
 
-## Krok 4: Iteruj po węzłach i jednostkach
+## Krok 4: Iteruj przez węzły i jednostki (konwertuj fbx do binarnego)
 
-Odwiedź każdy węzeł na scenie 3D i przekonwertuj elementy siatki na niestandardowy format binarny. Ignoruj światła, kamery i inne elementy niebędące siatką:
+Przejdź przez graf sceny, wybierz tylko jednostki siatki i zignoruj światła, kamery itp.:
 
 ```csharp
 scene.RootNode.Accept(delegate(Node node)
@@ -85,15 +99,15 @@ scene.RootNode.Accept(delegate(Node node)
     {
         if (!(entity is IMeshConvertible))
             continue;
-        // ... (kontynuuj przetwarzanie)
+        // ... (continue processing)
     }
     return true;
 });
 ```
 
-## Krok 5: Konwertuj i zapisuj punkty kontrolne i trójkąty
+## Krok 5: Konwertuj punkty kontrolne i trójkąty, a następnie zapisz je
 
-Dla każdego elementu siatki przekonwertuj punkty kontrolne na przestrzeń świata i zapisz je w pliku binarnym wraz z indeksami trójkątów:
+Dla każdej siatki przekształć wierzchołki do przestrzeni świata, zapisz macierz transformacji, liczbę wierzchołków, liczbę indeksów, a następnie surowe bufory wierzchołków i indeksów:
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
@@ -101,53 +115,63 @@ Mesh m = ((IMeshConvertible)entity).ToMesh();
 var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
 
 
-//Układ pamięci siatki jest następujący:
+//The mesh's memory layout is:
 // float[16] transform_matrix;
-// int liczba_wierzchołków;
-// int liczba_indeksów;
-// wierzchołek[liczba_wierzchołków] wierzchołki;
-// ushort[indices_count] indeksy;
+// int vertices_count;
+// int indices_count;
+// vertex[vertices_count] vertices;
+// ushort[indices_count] indices;
 
 
-//napisz transformację
+//write transform
 var transform = node.GlobalTransform.TransformMatrix.ToArray();
 for(int i = 0; i < transform.Length; i++)
     writer.Write((float)transform[i]);
-//wpisz liczbę wierzchołków/indeksów
+//write number of vertices/indices
 writer.Write(triMesh.VerticesCount);
 writer.Write(triMesh.IndicesCount);
-//zapisz wierzchołki i indeksy
+//write vertices and indices
 writer.Flush();
 triMesh.WriteVerticesTo(writer.BaseStream);
 triMesh.Write16bIndicesTo(writer.BaseStream);
-
 ```
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-W tym samouczku omówiliśmy proces zapisywania siatek 3D w niestandardowym formacie binarnym przy użyciu Aspose.3D dla .NET. Ta potężna biblioteka zapewnia programistom narzędzia potrzebne do płynnego manipulowania plikami 3D. Eksperymentuj z różnymi formatami i ustawieniami, aby odblokować pełny potencjał Aspose.3D w swoich projektach.
+| Problem | Przyczyna | Rozwiązanie |
+|-------|--------|-----|
+| Plik wyjściowy jest pusty | Writer nie został zwolniony | Upewnij się, że blok `using` zostaje zakończony lub wywołaj `writer.Close()` |
+| Siatka wygląda na zniekształconą | Zapomniano zastosować globalną transformację węzła | Zapisz macierz transformacji przed wierzchołkami (jak pokazano) |
+| Brak UV | Źródłowa siatka nie posiada kanału UV | Sprawdź, czy plik źródłowy zawiera UV lub odpowiednio zmodyfikuj `VertexDeclaration` |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę używać Aspose.3D dla .NET z innymi językami programowania?
+### Q1: Czy mogę używać Aspose.3D dla .NET z innymi językami programowania?
 
-O1: Aspose.3D obsługuje przede wszystkim języki .NET, ale możesz sprawdzić opcje kompatybilności dla innych języków.
+Aspose.3D głównie obsługuje języki .NET, ale możesz zbadać opcje kompatybilności z innymi językami.
 
-### P2: Gdzie mogę znaleźć dodatkowe przykłady i zasoby?
+### Q2: Gdzie mogę znaleźć dodatkowe przykłady i zasoby?
 
- A2:[Forum Aspose.3D](https://forum.aspose.com/c/3d/18)to świetne miejsce, aby znaleźć wsparcie, przykłady i nawiązać kontakt ze społecznością.
+Forum [Aspose.3D](https://forum.aspose.com/c/3d/18) jest świetnym miejscem, aby znaleźć wsparcie, przykłady i zaangażować się w społeczność.
 
-### P3: Czy dostępna jest wersja próbna Aspose.3D?
+### Q3: Czy dostępna jest wersja próbna Aspose.3D?
 
- A3: Tak, możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Tak, możesz uzyskać darmową wersję próbną z [here](https://releases.aspose.com/).
 
-### P4: Jak uzyskać tymczasową licencję na Aspose.3D?
+### Q4: Jak uzyskać tymczasową licencję dla Aspose.3D?
 
- A4: Odwiedź[ten link](https://purchase.aspose.com/temporary-license/) aby uzyskać tymczasową licencję do celów testowych.
+Odwiedź [this link](https://purchase.aspose.com/temporary-license/), aby uzyskać tymczasową licencję do celów testowych.
 
-### P5: Czy mogę kupić Aspose.3D dla .NET?
+### Q5: Czy mogę kupić Aspose.3D dla .NET?
 
- O5: Tak, możesz kupić Aspose.3D w sklepie[strona zakupu](https://purchase.aspose.com/buy).
+Tak, możesz kupić Aspose.3D na [purchase page](https://purchase.aspose.com/buy).
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-12  
+**Testowano z:** Aspose.3D for .NET (latest stable release)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

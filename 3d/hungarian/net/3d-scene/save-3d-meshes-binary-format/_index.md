@@ -1,35 +1,51 @@
 ---
-title: 3D hálók mentése egyéni bináris formátumban
-linktitle: 3D hálók mentése egyéni bináris formátumban
+date: 2026-01-12
+description: Tanulja meg, hogyan definiálja a hálót, és exportálja a 3D hálót egy
+  egyedi bináris formátumba az Aspose.3D for .NET használatával. Mentse a 3D hálót
+  hatékonyan.
+linktitle: How to Define Mesh and Save 3D Meshes in Binary Format
 second_title: Aspose.3D .NET API
-description: Fedezze fel a 3D világát az Aspose.3D for .NET segítségével. Tanulja meg a hálók egyéni bináris formátumban történő mentését.
-weight: 13
+title: Hogyan definiáljunk hálót és mentjük a 3D hálókat bináris formátumban
 url: /hu/net/3d-scene/save-3d-meshes-binary-format/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D hálók mentése egyéni bináris formátumban
+# Hogyan definiáljunk hálót és mentsünk 3D hálókat bináris formátumban
 
-## Bevezetés
+## Introduction
 
-Üdvözöljük az Aspose.3D for .NET világában, egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy könnyedén dolgozzanak 3D fájlokkal. Ebben az oktatóanyagban a 3D hálók egyéni bináris formátumban történő mentésének folyamatát mutatjuk be az Aspose.3D for .NET használatával. Ez az útmutató feltételezi, hogy rendelkezik a C# alapvető ismereteivel, és ismeri az Aspose.3D könyvtárat.
+Üdvözöljük az Aspose.3D for .NET világában! Ebben az útmutatóban megtanulja, **hogyan definiáljon hálót**, majd **mentse el a 3D háló** adatokat egy egyedi bináris formátumba. Akár **3D hálót kell exportálnia** egy játék motorhoz, szimulációhoz vagy saját pipeline-hoz, az alábbi lépések végigvezetik a teljes folyamaton C# használatával. Alapvető C# és az Aspose.3D könyvtár ismerete feltételezett.
 
-## Előfeltételek
+## Quick Answers
+- **Mi a fő cél?** Háló definiálása és exportálása egy egyedi bináris fájlba.  
+- **Melyik könyvtárat használják?** Aspose.3D for .NET.  
+- **Szükségem van licencre?** A próbaverzió fejlesztéshez működik; a gyártási környezethez kereskedelmi licenc szükséges.  
+- **Támogatott bemeneti formátum?** Bármely, az Aspose.3D által olvasható formátum, pl. FBX, OBJ, 3MF.  
+- **Tipikus felhasználási eset?** Egy FBX modell átalakítása egy könnyű bináris reprezentációvá valós idejű rendereléshez.
 
-Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a helyén van a következők:
+## What is “defining a mesh” in Aspose.3D?
 
--  Aspose.3D for .NET: Győződjön meg arról, hogy telepítve van az Aspose.3D könyvtár. Letöltheti innen[itt](https://releases.aspose.com/3d/net/).
+A háló definiálása azt jelenti, hogy leírjuk a csúcsok elrendezését (pozíciók, normálok, UV-k) és azt, hogyan kapcsolódnak ezek a csúcsok háromszögekké. Az Aspose.3D lehetővé teszi, hogy létrehozzunk egy **VertexDeclaration**-t, amely megmondja a motornak, milyen adatokat tartalmaz minden csúcs, ez az első lépés, mielőtt **FBX-et binárisra konvertálnánk**.
 
-- Fejlesztési környezet: Állítsa be a kívánt C# fejlesztői környezetet, például a Visual Studio-t.
+## Why export 3D mesh to a custom binary format?
 
-- Input 3D fájl: rendelkezzen egy 3D fájllal (pl. test.fbx), amelyet egyéni bináris formátumba szeretne konvertálni.
+- **Teljesítmény:** A bináris fájlok gyorsabban olvashatók és kevesebb tárhelyet igényelnek, mint a szöveges formátumok.  
+- **Kontroll:** Ön döntheti el pontosan, mely attribútumok (normálok, UV-k, egyedi adatok) kerülnek mentésre.  
+- **Hordozhatóság:** Egy egyszerű bináris elrendezés bármely platformon felhasználható további elemző könyvtárak nélkül.
 
-## Névterek importálása
+## Prerequisites
 
-A C# kódban adja meg az Aspose.3D funkciók eléréséhez szükséges névtereket:
+- **Aspose.3D for .NET** – töltse le [innen](https://releases.aspose.com/3d/net/).  
+- **Fejlesztői környezet** – Visual Studio (bármely friss verzió) vagy más C# IDE.  
+- **Bemeneti 3D fájl** – egy FBX, OBJ vagy bármely, az Aspose.3D által támogatott formátum (pl. `test.fbx`).  
+
+## Import Namespaces
+
+Importálja a szükséges névtereket, hogy dolgozhasson jelenetekkel, hálókkal és bináris adatfolyamokkal:
 
 ```csharp
 using Aspose.ThreeD;
@@ -42,41 +58,40 @@ using System.Linq;
 using System.Text;
 ```
 
-## 1. lépés: Töltsön be egy 3D fájlt
+## Step 1: Load a 3D File
 
-Töltse be a 3D fájlt az Aspose.3D segítségével. Ebben a példában egy "test.fbx" nevű fájlt töltünk be:
+Először töltse be a forrásmodellt. Ebben a példában egy `test.fbx` nevű FBX fájlt használunk:
 
 ```csharp
 Scene scene = Scene.FromFile("test.fbx");
 ```
 
-## 2. lépés: Adja meg az egyéni bináris formátumot
+## Step 2: Define the Custom Binary Format (How to define mesh)
 
-Határozza meg annak az egyéni bináris formátumnak a szerkezetét, amelyben el szeretné menteni a 3D hálókat. A példa olyan struktúrát használ, amelyben a MeshBlock, a Vertex és a Triangle összetevők.
+Hozzon létre egy **VertexDeclaration**-t, amely megfelel a tárolni kívánt adatoknak. Az alábbi példa meghatározza a pozíciót, a normált és az UV koordinátákat minden csúcs számára:
 
 ```csharp
-// Egy csúcs memóriaelrendezése az
-// float[3] pozíció;
-// float[3] normál;
+//The memory layout of a vertex is 
+// float[3] position;
+// float[3] normal;
 // float[3] uv;
 var vertexDeclaration = new VertexDeclaration();
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
-
 ```
 
-## 3. lépés: Nyissa meg a fájlt íráshoz
+## Step 3: Open a Binary File for Writing (save 3d mesh)
 
-Nyisson meg egy bináris fájlt íráshoz, ahol a konvertált 3D hálók mentésre kerülnek:
+Nyisson meg egy `BinaryWriter`-t, amely a konvertált háló adatokat fogadja. Állítsa be az elérési utat arra a helyre, ahol a kimeneti fájlt tárolni szeretné:
 
 ```csharp
 using (var writer = new BinaryWriter(new FileStream("Your Output Directory" + "Save3DMeshesInCustomBinaryFormat_out", FileMode.Create, FileAccess.Write)))
 ```
 
-## 4. lépés: Iteráljon csomópontokon és entitásokon keresztül
+## Step 4: Iterate Through Nodes and Entities (convert fbx to binary)
 
-Látogassa meg a 3D jelenet minden csomópontját, és alakítsa át a háló entitásokat az egyéni bináris formátumba. Figyelmen kívül hagyja a fényeket, kamerákat és más nem hálós entitásokat:
+Járja be a jelenet gráfját, válassza ki csak a háló entitásokat, és hagyja figyelmen kívül a fényeket, kamerákat stb.:
 
 ```csharp
 scene.RootNode.Accept(delegate(Node node)
@@ -85,15 +100,15 @@ scene.RootNode.Accept(delegate(Node node)
     {
         if (!(entity is IMeshConvertible))
             continue;
-        // ... (a feldolgozás folytatása)
+        // ... (continue processing)
     }
     return true;
 });
 ```
 
-## 5. lépés: Konvertálja és írjon vezérlőpontokat és háromszögeket
+## Step 5: Convert Control Points and Triangles, Then Write Them
 
-Minden egyes háló entitásnál konvertálja a vezérlőpontokat világtérré, és írja be őket a bináris fájlba a háromszög indexekkel együtt:
+Minden háló esetén alakítsa át a csúcsokat világkoordinátába, írja ki a transzformációs mátrixot, a csúcsszámot, az indexszámot, majd a nyers csúcs- és indexpuffereket:
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
@@ -101,53 +116,63 @@ Mesh m = ((IMeshConvertible)entity).ToMesh();
 var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
 
 
-//A háló memória elrendezése a következő:
-// float[16] transzformációs_mátrix;
-// int csúcsok_száma;
-// int indexek_száma;
-// vertex[vertices_count] csúcsok;
-// ushort[indexek_száma] indexek;
+//The mesh's memory layout is:
+// float[16] transform_matrix;
+// int vertices_count;
+// int indices_count;
+// vertex[vertices_count] vertices;
+// ushort[indices_count] indices;
 
 
-//írási átalakítás
+//write transform
 var transform = node.GlobalTransform.TransformMatrix.ToArray();
 for(int i = 0; i < transform.Length; i++)
     writer.Write((float)transform[i]);
-//írja be a csúcsok/indexek számát
+//write number of vertices/indices
 writer.Write(triMesh.VerticesCount);
 writer.Write(triMesh.IndicesCount);
-//csúcsokat és indexeket írjon
+//write vertices and indices
 writer.Flush();
 triMesh.WriteVerticesTo(writer.BaseStream);
 triMesh.Write16bIndicesTo(writer.BaseStream);
-
 ```
 
-## Következtetés
+## Common Issues and Solutions
 
-Ebben az oktatóanyagban a 3D hálók egyéni bináris formátumban történő mentésének folyamatát ismertettük az Aspose.3D for .NET használatával. Ez a hatékony könyvtár biztosítja a fejlesztők számára a 3D-s fájlok zökkenőmentes kezeléséhez szükséges eszközöket. Kísérletezzen különböző formátumokkal és beállításokkal, hogy kiaknázza az Aspose.3D teljes potenciálját projektjeiben.
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| A kimeneti fájl üres | A writer nincs lezárva | Győződjön meg arról, hogy a `using` blokk befejeződik, vagy hívja meg a `writer.Close()`-t |
+| A háló torzultnak tűnik | Elfelejtettük alkalmazni a csomópont globális transzformációját | Írja ki a transzformációs mátrixot a csúcsok előtt (ahogy látható) |
+| Hiányzó UV-k | A forrás hálónak nincs UV csatornája | Ellenőrizze, hogy a forrásfájl tartalmaz-e UV-kat, vagy módosítsa ennek megfelelően a `VertexDeclaration`-t |
 
-## GYIK
+## Frequently Asked Questions
 
-### 1. kérdés: Használhatom az Aspose.3D for .NET fájlt más programozási nyelvekkel?
+### Q1: Használhatom az Aspose.3D for .NET-et más programozási nyelvekkel?
 
-1. válasz: Az Aspose.3D elsősorban a .NET nyelveket támogatja, de felfedezhet más nyelvek kompatibilitási lehetőségeit is.
+A1: Az Aspose.3D elsősorban .NET nyelveket támogat, de felfedezheti a kompatibilitási lehetőségeket más nyelvekhez.
 
-### 2. kérdés: Hol találhatok további példákat és forrásokat?
+### Q2: Hol találok további példákat és forrásokat?
 
- A2: Az[Aspose.3D fórum](https://forum.aspose.com/c/3d/18)nagyszerű hely a támogatásra, a példákra és a közösséggel való kapcsolatra.
+A2: Az [Aspose.3D fórum](https://forum.aspose.com/c/3d/18) nagyszerű hely támogatás, példák megtalálásához és a közösséggel való kapcsolattartáshoz.
 
-### 3. kérdés: Elérhető az Aspose.3D próbaverziója?
+### Q3: Elérhető próba verzió az Aspose.3D-hez?
 
- 3. válasz: Igen, ingyenes próbaverziót kaphat a webhelyről[itt](https://releases.aspose.com/).
+A3: Igen, ingyenes próbaverziót kaphat [innen](https://releases.aspose.com/).
 
-### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?
+### Q4: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?
 
- A4: Látogassa meg[ez a link](https://purchase.aspose.com/temporary-license/) ideiglenes engedélyt szerezni tesztelési célból.
+A4: Látogassa meg [ezt a linket](https://purchase.aspose.com/temporary-license/) az ideiglenes licencért tesztelési célokra.
 
-### 5. kérdés: Megvásárolhatom az Aspose.3D-t .NET-hez?
+### Q5: Megvásárolhatom az Aspose.3D for .NET-et?
 
- V5: Igen, megvásárolhatja az Aspose.3D-t a[vásárlási oldal](https://purchase.aspose.com/buy).
+A5: Igen, megvásárolhatja az Aspose.3D-t a [vásárlási oldalon](https://purchase.aspose.com/buy).
+
+---
+
+**Utolsó frissítés:** 2026-01-12  
+**Tesztelve:** Aspose.3D for .NET (legújabb stabil kiadás)  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

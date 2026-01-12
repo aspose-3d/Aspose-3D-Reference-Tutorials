@@ -1,35 +1,50 @@
 ---
-title: Salvataggio di mesh 3D in formato binario personalizzato
-linktitle: Salvataggio di mesh 3D in formato binario personalizzato
-second_title: API Aspose.3D .NET
-description: Esplora il mondo del 3D con Aspose.3D per .NET. Impara a salvare le mesh in formato binario personalizzato.
-weight: 13
+date: 2026-01-12
+description: Scopri come definire una mesh ed esportare una mesh 3D in un formato
+  binario personalizzato usando Aspose.3D per .NET. Salva la mesh 3D in modo efficiente.
+linktitle: How to Define Mesh and Save 3D Meshes in Binary Format
+second_title: Aspose.3D .NET API
+title: Come definire la mesh e salvare le mesh 3D in formato binario
 url: /it/net/3d-scene/save-3d-meshes-binary-format/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Salvataggio di mesh 3D in formato binario personalizzato
+# Come definire una mesh e salvare mesh 3D in formato binario
 
-## introduzione
+## Introduzione
 
-Benvenuti nel mondo di Aspose.3D per .NET, una potente libreria che consente agli sviluppatori di lavorare con file 3D senza sforzo. In questo tutorial, approfondiremo il processo di salvataggio delle mesh 3D in un formato binario personalizzato utilizzando Aspose.3D per .NET. Questa guida presuppone che tu abbia una conoscenza di base di C# e che tu abbia familiarità con la libreria Aspose.3D.
+Benvenuti nel mondo di Aspose.3D per .NET! In questo tutorial imparerete **come definire una mesh** e poi **salvare i dati della mesh 3D** in un formato binario personalizzato. Che abbiate bisogno di **esportare una mesh 3D** per un motore di gioco, una simulazione o una pipeline proprietaria, i passaggi seguenti vi guideranno attraverso l'intero processo usando C#. Si presume una conoscenza di base di C# e della libreria Aspose.3D.
+
+## Risposte rapide
+- **Qual è l'obiettivo principale?** Definire la mesh ed esportarla in un file binario personalizzato.  
+- **Quale libreria viene utilizzata?** Aspose.3D per .NET.  
+- **È necessaria una licenza?** Una versione di prova funziona per lo sviluppo; è necessaria una licenza commerciale per la produzione.  
+- **Formato di input supportato?** Qualsiasi formato che Aspose.3D può leggere, ad es. FBX, OBJ, 3MF.  
+- **Caso d'uso tipico?** Convertire un modello FBX in una rappresentazione binaria leggera per il rendering in tempo reale.
+
+## Che cosa significa “definire una mesh” in Aspose.3D?
+
+Definire una mesh significa descrivere la disposizione dei vertici (posizioni, normali, UV) e come questi vertici sono collegati in triangoli. Aspose.3D consente di creare una **VertexDeclaration** che indica al motore quali dati contiene ogni vertice, il primo passo prima di poter **convertire FBX in binario**.
+
+## Perché esportare una mesh 3D in un formato binario personalizzato?
+
+- **Prestazioni:** I file binari sono più veloci da leggere e richiedono meno spazio di archiviazione rispetto ai formati basati su testo.  
+- **Controllo:** Decidete esattamente quali attributi (normali, UV, dati personalizzati) vengono salvati.  
+- **Portabilità:** Un layout binario semplice può essere utilizzato da qualsiasi piattaforma senza librerie di parsing aggiuntive.
 
 ## Prerequisiti
 
-Prima di passare al tutorial, assicurati di avere quanto segue:
+- **Aspose.3D per .NET** – scaricatela da [qui](https://releases.aspose.com/3d/net/).  
+- **Ambiente di sviluppo** – Visual Studio (qualsiasi versione recente) o un altro IDE C#.  
+- **File 3D di input** – un FBX, OBJ o qualsiasi formato supportato da Aspose.3D (ad es., `test.fbx`).  
 
--  Aspose.3D per .NET: assicurati di avere la libreria Aspose.3D installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/3d/net/).
+## Importare gli spazi dei nomi
 
-- Ambiente di sviluppo: configura il tuo ambiente di sviluppo C# preferito, come Visual Studio.
-
-- File di input 3D: disponi di un file 3D (ad esempio, test.fbx) che desideri convertire in un formato binario personalizzato.
-
-## Importa spazi dei nomi
-
-Nel tuo codice C#, includi gli spazi dei nomi necessari per accedere alle funzionalità Aspose.3D:
+Include gli spazi dei nomi necessari per lavorare con scene, mesh e flussi binari:
 
 ```csharp
 using Aspose.ThreeD;
@@ -42,41 +57,40 @@ using System.Linq;
 using System.Text;
 ```
 
-## Passaggio 1: caricare un file 3D
+## Passo 1: Caricare un file 3D
 
-Carica il tuo file 3D utilizzando Aspose.3D. In questo esempio, carichiamo un file chiamato "test.fbx":
+Per prima cosa, caricate il modello sorgente. In questo esempio usiamo un file FBX chiamato `test.fbx`:
 
 ```csharp
 Scene scene = Scene.FromFile("test.fbx");
 ```
 
-## Passaggio 2: definire il formato binario personalizzato
+## Passo 2: Definire il formato binario personalizzato (Come definire una mesh)
 
-Definisci la struttura del formato binario personalizzato in cui desideri salvare le mesh 3D. L'esempio utilizza una struttura con MeshBlock, Vertex e Triangle come componenti.
+Create una **VertexDeclaration** che corrisponda ai dati che volete memorizzare. L'esempio sotto definisce posizione, normale e coordinate UV per ogni vertice:
 
 ```csharp
-// Il layout della memoria di un vertice è
-// posizione float[3];
-// float[3] normale;
+//The memory layout of a vertex is 
+// float[3] position;
+// float[3] normal;
 // float[3] uv;
 var vertexDeclaration = new VertexDeclaration();
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
-
 ```
 
-## Passaggio 3: aprire il file per la scrittura
+## Passo 3: Aprire un file binario per la scrittura (salvare mesh 3D)
 
-Apri un file binario per la scrittura, dove verranno salvate le mesh 3D convertite:
+Aprite un `BinaryWriter` che riceverà i dati della mesh convertita. Regolate il percorso dove desiderate che il file di output venga salvato:
 
 ```csharp
 using (var writer = new BinaryWriter(new FileStream("Your Output Directory" + "Save3DMeshesInCustomBinaryFormat_out", FileMode.Create, FileAccess.Write)))
 ```
 
-## Passaggio 4: scorrere i nodi e le entità
+## Passo 4: Iterare attraverso nodi ed entità (convertire FBX in binario)
 
-Visita ciascun nodo nella scena 3D e converti le entità mesh nel formato binario personalizzato. Ignora luci, telecamere e altre entità non mesh:
+Percorrete il grafo della scena, selezionate solo le entità mesh e ignorate luci, telecamere, ecc.:
 
 ```csharp
 scene.RootNode.Accept(delegate(Node node)
@@ -85,15 +99,15 @@ scene.RootNode.Accept(delegate(Node node)
     {
         if (!(entity is IMeshConvertible))
             continue;
-        // ...(continua l'elaborazione)
+        // ... (continue processing)
     }
     return true;
 });
 ```
 
-## Passaggio 5: converti e scrivi punti di controllo e triangoli
+## Passo 5: Convertire i punti di controllo e i triangoli, quindi scriverli
 
-Per ogni entità mesh, converti i punti di controllo nello spazio mondiale e scrivili nel file binario insieme agli indici dei triangoli:
+Per ogni mesh, trasformate i vertici nello spazio mondiale, scrivete la matrice di trasformazione, il conteggio dei vertici, il conteggio degli indici, quindi i buffer grezzi di vertici e indici:
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
@@ -101,53 +115,63 @@ Mesh m = ((IMeshConvertible)entity).ToMesh();
 var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
 
 
-//Il layout della memoria della mesh è:
-// float[16] trasformazione_matrice;
-// int conteggio_vertici;
-// int conteggio_indici;
-// vertice[conta_vertici] vertici;
-// ushort[conteggio_indici] indici;
+//The mesh's memory layout is:
+// float[16] transform_matrix;
+// int vertices_count;
+// int indices_count;
+// vertex[vertices_count] vertices;
+// ushort[indices_count] indices;
 
 
-//scrivere trasformare
+//write transform
 var transform = node.GlobalTransform.TransformMatrix.ToArray();
 for(int i = 0; i < transform.Length; i++)
     writer.Write((float)transform[i]);
-//scrivere il numero di vertici/indici
+//write number of vertices/indices
 writer.Write(triMesh.VerticesCount);
 writer.Write(triMesh.IndicesCount);
-//scrivere vertici e indici
+//write vertices and indices
 writer.Flush();
 triMesh.WriteVerticesTo(writer.BaseStream);
 triMesh.Write16bIndicesTo(writer.BaseStream);
-
 ```
 
-## Conclusione
+## Problemi comuni e soluzioni
 
-In questo tutorial, abbiamo trattato il processo di salvataggio delle mesh 3D in un formato binario personalizzato utilizzando Aspose.3D per .NET. Questa potente libreria fornisce agli sviluppatori gli strumenti necessari per manipolare i file 3D senza problemi. Sperimenta diversi formati e impostazioni per sbloccare tutto il potenziale di Aspose.3D nei tuoi progetti.
+| Problema | Motivo | Soluzione |
+|----------|--------|-----------|
+| Il file di output è vuoto | Writer non chiuso | Assicurarsi che il blocco `using` termini o chiamare `writer.Close()` |
+| La mesh appare distorta | Dimenticato di applicare la trasformazione globale del nodo | Scrivere la matrice di trasformazione prima dei vertici (come mostrato) |
+| UV mancanti | La mesh di origine non ha canale UV | Verificare che il file di origine contenga UV o modificare `VertexDeclaration` di conseguenza |
 
 ## Domande frequenti
 
-### Q1: posso utilizzare Aspose.3D per .NET con altri linguaggi di programmazione?
+### Q1: Posso usare Aspose.3D per .NET con altri linguaggi di programmazione?
 
-A1: Aspose.3D supporta principalmente i linguaggi .NET, ma puoi esplorare le opzioni di compatibilità per altri linguaggi.
+A1: Aspose.3D supporta principalmente i linguaggi .NET, ma è possibile esplorare opzioni di compatibilità per altri linguaggi.
 
-### Q2: Dove posso trovare ulteriori esempi e risorse?
+### Q2: Dove posso trovare esempi e risorse aggiuntive?
 
- A2: Il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18)è un ottimo posto per trovare supporto, esempi e interagire con la comunità.
+A2: Il [forum Aspose.3D](https://forum.aspose.com/c/3d/18) è un ottimo posto per trovare supporto, esempi e interagire con la community.
 
 ### Q3: È disponibile una versione di prova per Aspose.3D?
 
- R3: Sì, puoi ottenere una prova gratuita da[Qui](https://releases.aspose.com/).
+A3: Sì, è possibile ottenere una prova gratuita da [qui](https://releases.aspose.com/).
 
 ### Q4: Come posso ottenere una licenza temporanea per Aspose.3D?
 
- A4: Visita[questo link](https://purchase.aspose.com/temporary-license/) per ottenere una licenza temporanea a scopo di test.
+A4: Visitate [questo link](https://purchase.aspose.com/temporary-license/) per ottenere una licenza temporanea a scopo di test.
 
 ### Q5: Posso acquistare Aspose.3D per .NET?
 
- A5: Sì, puoi acquistare Aspose.3D da[pagina di acquisto](https://purchase.aspose.com/buy).
+A5: Sì, potete acquistare Aspose.3D dalla [pagina di acquisto](https://purchase.aspose.com/buy).
+
+---
+
+**Ultimo aggiornamento:** 2026-01-12  
+**Testato con:** Aspose.3D per .NET (ultima versione stabile)  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
