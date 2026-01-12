@@ -1,27 +1,48 @@
 ---
-title: カスタマイズされたシャーボトムシリンダー
-linktitle: カスタマイズされたシャーボトムシリンダー
+date: 2026-01-12
+description: Aspose.3D for .NET を使用して、シアーボトムシリンダーの作成方法と 3D モデル OBJ のエクスポート方法を学びましょう。このステップバイステップガイドに従って、3D
+  モデリングをマスターしてください。
+linktitle: Customized Shear Bottom Cylinder
 second_title: Aspose.3D .NET API
-description: 詳細なステップバイステップ ガイドで、Aspose.3D for .NET を使用してカスタマイズされたシア ボトム シリンダーを作成する方法を学びます。今すぐ 3D モデリングのスキルを向上させましょう!
-weight: 12
+title: Aspose.3D for .NET を使用してシアボトムシリンダーを作成する方法
 url: /ja/net/3d-modeling/working-with-cylinder/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# カスタマイズされたシャーボトムシリンダー
+# カスタマイズされたシアーボトムシリンダー
 
-## 導入
-Aspose.3D for .NET を使用してカスタマイズされたシリンダーを作成するための包括的なガイドへようこそ。 3D モデリングのスキルを向上させ、プロジェクトに独自の機能を追加したい場合は、ここが最適な場所です。このチュートリアルでは、明確な説明とコード スニペットを使用して、プロセスを段階的に説明します。
+## はじめに
+Aspose.3D for .NET を使用して **シアーボトムシリンダー** モデルの作成方法を学べる包括的なガイドへようこそ。ゲームアセット、機械部品、ビジュアルデモのいずれを作成する場合でも、本チュートリアルではシリンダーの底部を形作り、シアーを適用し、最終的に **3Dモデル OBJ** ファイルをエクスポートして任意のパイプラインで使用できる手順を正確に示します。各ステップを一緒に確認し、数分でカスタムジオメトリの作成を始めましょう。
+
+## クイック回答
+- **シアーボトムシリンダーとは？** 底面が平らではなく斜め（シアー）になっているシリンダーです。  
+- **使用するライブラリは？** Aspose.3D for .NET。  
+- **モデルのエクスポート方法は？** `scene.Save(..., FileFormat.WavefrontOBJ)` を使用します。  
+- **ライセンスは必要ですか？** 試用版は利用可能ですが、商用利用には商用ライセンスが必要です。  
+- **前提条件は？** .NET 開発環境と Aspose.3D NuGet パッケージが必要です。
+
+## シアーボトムシリンダーとは？
+シアーボトムシリンダーは、底面がシアー操作によって変形された標準的な円柱メッシュです。これにより、頂点を手動で編集することなく、傾斜したベースやランプ、カスタムコネクタを簡単に作成できます。
+
+## なぜ Aspose.3D をこのタスクに使うのか？
+- **ジオメトリパラメータ（半径、高さ、セグメント）をフルコントロール** できる。  
+- **`ShearBottom` プロパティによる組み込みシアーサポート** があり、低レベルのメッシュ操作が不要。  
+- **OBJ、FBX、STL などの一般的なフォーマットへのワンクリックエクスポート** が可能で、他ツールとの連携がシームレス。
+
 ## 前提条件
-チュートリアルに入る前に、次のものが揃っていることを確認してください。
-- C# および .NET プログラミングの基本的な理解。
--  Aspose.3D for .NET ライブラリがインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/3d/net/).
-- .NET プログラミング用にセットアップされた開発環境。
+作業を始める前に以下を確認してください。
+
+- C# と .NET の基本知識。  
+- Aspose.3D for .NET がインストール済み。**[こちら](https://releases.aspose.com/3d/net/)** からダウンロードできます。  
+- .NET 対応の IDE（Visual Studio、Rider、または VS Code）。
+
 ## 名前空間のインポート
-C# コードで、必要な名前空間をインポートすることから始めます。
+C# ファイルの先頭で必要な名前空間をインポートします。
+
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
@@ -32,63 +53,107 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 ```
-## ステップ 1: シーンを作成する
-まず、Aspose.3D を使用して 3D シーンを作成します。
+
+## 手順 1: シーンの作成
+まず、すべてのオブジェクトを保持する新しい 3‑D シーンをインスタンス化します。
+
 ```csharp
 Scene scene = new Scene();
 ```
-## ステップ 2: シリンダー 1 を作成する
-最初のシリンダーを生成し、そのプロパティを設定します。
+
+## 手順 2: Cylinder 1 の作成
+シアー底部でカスタマイズするメインのシリンダーを作成します。
+
 ```csharp
 var cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 ```
-## ステップ 3: シリンダー 1 のシアボトムをカスタマイズする
-カスタマイズしたシアーボトムを最初のシリンダーに適用します。
+
+## 手順 3: Cylinder 1 のシアーボトムをカスタマイズ
+シアーを適用し、ファン生成を有効にし、その他のプロパティを調整して目的の形状を実現します。
+
 ```csharp
-//xy 平面 (z 軸) で 47.5 度のせん断
+// Shear 47.5deg in the xy plane (z‑axis)
 cylinder1.ShearBottom = new Vector2(0, 0.83); 
 
-// GenerateFanCylinder を true に設定します
+// Set GenerateFanCylinder to true
 cylinder1.GenerateFanCylinder = true;
-//ThetaLength を設定する
+// Set ThetaLength
 cylinder1.ThetaLength = MathUtils.ToRadian(270);
 
-//オフセットトップを設定
+// Set OffsetTop
 cylinder1.OffsetTop = new Vector3(5, 3, 0);
 ```
-## ステップ 4: シリンダー 1 をシーンに追加する
-最初の円柱をシーンに追加し、その変換を設定します。
+
+## 手順 4: Cylinder 1 をシーンに追加
+カスタマイズしたシリンダーをシーンに配置し、右方向に少し移動させて両方のオブジェクトを横に並べて表示できるようにします。
+
 ```csharp
 scene.RootNode.CreateChildNode(cylinder1).Transform.Translation = new Vector3(10, 0, 0);
 ```
-## ステップ 5: シリンダー 2 を作成する
-同様のプロパティを持つ 2 番目の円柱を生成します。
+
+## 手順 5: Cylinder 2 の作成
+比較用にシンプルなシリンダーをもう一つ作成します。
+
 ```csharp
 var cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 ```
-## ステップ 6: シリンダー 2 をシーンに追加する
-パラメータをカスタマイズせずに 2 番目の円柱をシーンに追加します。
+
+## 手順 6: Cylinder 2 をシーンに追加
+シアーをカスタマイズしないシリンダーを追加します。これにより、前ステップの効果が視覚的に分かりやすくなります。
+
 ```csharp
 scene.RootNode.CreateChildNode(cylinder2);
 ```
-## ステップ 7: シーンを保存する
-シーンを Wavefront OBJ ファイルとしてドキュメント ディレクトリに保存します。
+
+## 手順 7: シーンの保存
+最後に、シーン全体を OBJ ファイルとしてエクスポートし、Blender、Maya、その他の 3‑D ビューアで開けるようにします。
+
 ```csharp
 scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", FileFormat.WavefrontOBJ);
 ```
+
+## よくある問題とヒント
+- **シアー値**: `Vector2` は X と Y のシアー係数を受け取ります。`0.83` の値は約 47.5° に相当しますが、角度に応じて調整可能です。  
+- **エクスポート先パス**: 指定したフォルダーが存在し、書き込み権限があることを確認してください。権限がないと `scene.Save` が例外をスローします。  
+- **パフォーマンス**: セグメント数が非常に多いシリンダーの場合、例の `20` から減らすことで OBJ ファイルサイズを抑えられます。
+
+## FAQ
+
+### Aspose.3D for .NET は初心者に適していますか？
+はい！Aspose.3D for .NET はユーザーフレンドリーな API を提供しており、初心者から経験豊富な開発者まで幅広く利用できます。
+
+### シリンダーごとに異なるシアー角度を適用できますか？
+可能です。各シリンダーの `ShearBottom` を個別に設定すれば、ユニークな効果を実現できます。
+
+### 試用版はありますか？
+あります。**[こちら](https://releases.aspose.com/)** から無料トライアルをご利用ください。
+
+### 追加のサポートはどこで得られますか？
+**[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)** でコミュニティサポートやディスカッションが行われています。
+
+### 一時ライセンスはどこで取得できますか？
+**[こちら](https://purchase.aspose.com/temporary-license/)** から一時ライセンスを取得できます。
+
+**追加 Q&A**
+
+**Q: エクスポート形式を FBX に変更するには？**  
+A: `scene.Save` 呼び出しで `FileFormat.WavefrontOBJ` を `FileFormat.FBX` に置き換えます。
+
+**Q: エクスポート後にシリンダーをアニメーション化できますか？**  
+A: OBJ はアニメーションをサポートしません。アニメーションが必要な場合は FBX または GLTF を使用してください。
+
+**Q: シリンダーの半径を大きくしたい場合は？**  
+A: `Cylinder` コンストラクタの最初の 2 つのパラメータを変更します（例: `new Cylinder(4, 4, …)`）。
+
 ## 結論
-おめでとう！ Aspose.3D for .NET を使用して、カスタマイズされたせん断底部シリンダーが正常に作成されました。このチュートリアルは、3D モデリングとプログラミングにおけるさまざまなレベルの専門知識を持つユーザーに段階的なガイドを提供することを目的としています。
-## よくある質問
-### Aspose.3D for .NET は初心者に適していますか?
-絶対に！ Aspose.3D for .NET はユーザーフレンドリーなインターフェイスを提供しており、初心者と経験豊富な開発者の両方がアクセスできます。
-### シリンダーに異なるせん断角度を適用できますか?
-はい、各シリンダーのシアボトムを個別にカスタマイズして、独自の効果を実現できます。
-### 試用版はありますか?
-はい、無料試用版を試すことができます[ここ](https://releases.aspose.com/).
-### 追加のサポートはどこで見つけられますか?
-訪問[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)コミュニティのサポートとディスカッションのために。
-### 仮免許はどうやって取得できますか?
-仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
+これで **シアーボトムシリンダー** モデルを作成し、Aspose.3D for .NET を使用して OBJ ファイルとしてエクスポートする方法を習得しました。プロジェクトの要件に合わせてシアー値、セグメント数、エクスポート形式を自由に試してみてください。モデリングを楽しんでください！
+
+---
+
+**最終更新日:** 2026-01-12  
+**テスト環境:** Aspose.3D for .NET 24.11（執筆時点での最新バージョン）  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

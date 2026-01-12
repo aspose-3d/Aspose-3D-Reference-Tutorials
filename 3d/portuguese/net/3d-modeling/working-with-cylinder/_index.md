@@ -1,27 +1,49 @@
 ---
-title: Cilindro inferior de cisalhamento personalizado
-linktitle: Cilindro inferior de cisalhamento personalizado
-second_title: API Aspose.3D .NET
-description: Aprenda a criar cilindros de fundo de cisalhamento personalizados usando Aspose.3D for .NET com nosso guia passo a passo detalhado. Eleve suas habilidades de modelagem 3D hoje!
-weight: 12
+date: 2026-01-12
+description: Aprenda como criar um cilindro de base de cisalhamento e como exportar
+  o modelo 3D em OBJ usando Aspose.3D para .NET. Siga este guia passo a passo para
+  dominar a modelagem 3D.
+linktitle: Customized Shear Bottom Cylinder
+second_title: Aspose.3D .NET API
+title: Como criar um cilindro de base cônica com Aspose.3D para .NET
 url: /pt/net/3d-modeling/working-with-cylinder/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cilindro inferior de cisalhamento personalizado
+# Cilindro com Base Cisalhada Personalizada
 
 ## Introdução
-Bem-vindo ao nosso guia completo sobre como criar um cilindro personalizado usando Aspose.3D para .NET. Se você deseja aprimorar suas habilidades de modelagem 3D e adicionar recursos exclusivos aos seus projetos, você está no lugar certo. Neste tutorial, orientaremos você no processo passo a passo, usando explicações claras e trechos de código.
-## Pré-requisitos
-Antes de mergulharmos no tutorial, certifique-se de ter o seguinte:
-- Compreensão básica de programação C# e .NET.
--  Biblioteca Aspose.3D para .NET instalada. Você pode baixá-lo[aqui](https://releases.aspose.com/3d/net/).
-- Um ambiente de desenvolvimento configurado para programação .NET.
-## Importar namespaces
-No seu código C#, comece importando os namespaces necessários:
+Bem‑vindo ao nosso guia abrangente onde **você aprenderá a criar modelos de cilindro com base cisalhada** com Aspose.3D for .NET. Seja construindo um ativo de jogo, uma peça mecânica ou uma demonstração visual, este tutorial mostra exatamente como modelar a base de um cilindro, aplicar um cisalhamento e, finalmente, **exportar o arquivo OBJ do modelo 3D** para uso em qualquer pipeline subsequente. Vamos percorrer cada passo juntos, para que você possa começar a produzir geometria personalizada em minutos.
+
+## Respostas Rápidas
+- **O que é um cilindro com base cisalhada?** Um cilindro cuja face inferior está inclinada (cisalhada) ao invés de plana.  
+- **Qual biblioteca é usada?** Aspose.3D for .NET.  
+- **Como exportar o modelo?** Use `scene.Save(..., FileFormat.WavefrontOBJ)`.  
+- **Preciso de uma licença?** Uma versão de avaliação está disponível; uma licença comercial é necessária para produção.  
+- **Quais pré‑requisitos são necessários?** Ambiente de desenvolvimento .NET e o pacote NuGet Aspose.3D.
+
+## O que é um cilindro com base cisalhada?
+Um cilindro com base cisalhada é uma malha cilíndrica padrão cuja face inferior foi transformada por uma operação de cisalhamento. Isso permite criar bases anguladas, rampas ou conectores personalizados sem editar manualmente os vértices.
+
+## Por que usar Aspose.3D para esta tarefa?
+- **Full control** sobre os parâmetros de geometria (raio, altura, segmentos).  
+- **Built‑in shear support** via a propriedade `ShearBottom`, economizando a manipulação de malha de baixo nível.  
+- **One‑click export** para formatos populares como OBJ, FBX e STL, facilitando a integração com outras ferramentas.
+
+## Pré‑requisitos
+Antes de começarmos, certifique‑se de que você tem:
+
+- Conhecimento básico de C# e .NET.  
+- Aspose.3D for .NET instalado. Você pode baixá‑lo **[aqui](https://releases.aspose.com/3d/net/)**.  
+- Uma IDE compatível com .NET (Visual Studio, Rider ou VS Code).
+
+## Importar Namespaces
+No seu arquivo C#, comece importando os namespaces necessários:
+
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
@@ -32,63 +54,107 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 ```
-## Etapa 1: crie uma cena
-Comece criando uma cena 3D usando Aspose.3D:
+
+## Etapa 1: Criar uma Cena
+Primeiro, instancie uma nova cena 3‑D que conterá todos os nossos objetos.
+
 ```csharp
 Scene scene = new Scene();
 ```
-## Etapa 2: Criar o Cilindro 1
-Gere o primeiro cilindro e defina suas propriedades:
+
+## Etapa 2: Criar o Cilindro 1
+Crie o cilindro principal que personalizaremos com uma base cisalhada.
+
 ```csharp
 var cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
 ```
-## Etapa 3: Personalizar o fundo de cisalhamento para o cilindro 1
-Aplique um fundo de cisalhamento personalizado ao primeiro cilindro:
+
+## Etapa 3: Personalizar a Base Cisalhada para o Cilindro 1
+Aplique o cisalhamento, habilite a geração de fan e ajuste outras propriedades para alcançar a forma desejada.
+
 ```csharp
-//Cisalhamento 47,5 graus no plano xy (eixo z)
+// Shear 47.5deg in the xy plane (z‑axis)
 cylinder1.ShearBottom = new Vector2(0, 0.83); 
 
-// Defina GenerateFanCylinder como verdadeiro
+// Set GenerateFanCylinder to true
 cylinder1.GenerateFanCylinder = true;
-// Definir comprimento Theta
+// Set ThetaLength
 cylinder1.ThetaLength = MathUtils.ToRadian(270);
 
-// Definir deslocamento superior
+// Set OffsetTop
 cylinder1.OffsetTop = new Vector3(5, 3, 0);
 ```
-## Etapa 4: adicionar o cilindro 1 à cena
-Adicione o primeiro cilindro à cena e defina sua translação:
+
+## Etapa 4: Adicionar o Cilindro 1 à Cena
+Coloque o cilindro personalizado na cena e mova‑lo um pouco para a direita para que possamos ver ambos os objetos lado a lado.
+
 ```csharp
 scene.RootNode.CreateChildNode(cylinder1).Transform.Translation = new Vector3(10, 0, 0);
 ```
-## Etapa 5: Crie o Cilindro 2
-Gere um segundo cilindro com propriedades semelhantes:
+
+## Etapa 5: Criar o Cilindro 2
+Crie um segundo cilindro simples para comparação.
+
 ```csharp
 var cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 ```
-## Etapa 6: adicionar o cilindro 2 à cena
-Adicione o segundo cilindro à cena sem parâmetros personalizados:
+
+## Etapa 6: Adicionar o Cilindro 2 à Cena
+Adicione o segundo cilindro sem nenhum cisalhamento personalizado — isso ajuda a ilustrar o efeito das etapas anteriores.
+
 ```csharp
 scene.RootNode.CreateChildNode(cylinder2);
 ```
-## Etapa 7: salve a cena
-Salve a cena como um arquivo Wavefront OBJ em seu diretório de documentos:
+
+## Etapa 7: Salvar a Cena
+Finalmente, exporte toda a cena como um arquivo OBJ para que você possa abri‑lo no Blender, Maya ou qualquer outro visualizador 3‑D.
+
 ```csharp
 scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", FileFormat.WavefrontOBJ);
 ```
-## Conclusão
-Parabéns! Você criou com sucesso um cilindro de fundo de cisalhamento personalizado usando Aspose.3D para .NET. Este tutorial teve como objetivo fornecer um guia passo a passo para usuários com diversos níveis de conhecimento em modelagem e programação 3D.
-## perguntas frequentes
+
+## Problemas Comuns & Dicas
+- **Shear values**: O `Vector2` recebe fatores de cisalhamento X e Y. Um valor de `0.83` corresponde a aproximadamente 47,5°, mas você pode ajustá‑lo para diferentes ângulos.  
+- **Export path**: Certifique‑se de que a pasta especificada exista e que você tenha permissões de gravação; caso contrário, `scene.Save` lançará uma exceção.  
+- **Performance**: Para cilindros com muitos segmentos, considere reduzir a contagem de segmentos (`20` no exemplo) para manter o tamanho do arquivo OBJ manejável.
+
+## Perguntas Frequentes
+
 ### O Aspose.3D for .NET é adequado para iniciantes?
-Absolutamente! Aspose.3D for .NET oferece uma interface amigável, tornando-o acessível tanto para iniciantes quanto para desenvolvedores experientes.
+Absolutamente! Aspose.3D for .NET oferece uma API amigável, tornando‑a acessível tanto para iniciantes quanto para desenvolvedores experientes.
+
 ### Posso aplicar diferentes ângulos de cisalhamento aos cilindros?
-Sim, você pode personalizar o fundo de cisalhamento para cada cilindro individualmente, permitindo obter efeitos únicos.
-### Existe uma versão de teste disponível?
- Sim, você pode explorar a versão de avaliação gratuita[aqui](https://releases.aspose.com/).
+Sim, você pode personalizar o `ShearBottom` de cada cilindro individualmente, permitindo alcançar efeitos únicos.
+
+### Existe uma versão de avaliação disponível?
+Sim, você pode explorar a versão de avaliação gratuita **[aqui](https://releases.aspose.com/)**.
+
 ### Onde posso encontrar suporte adicional?
- Visite a[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para apoio e discussões da comunidade.
+Visite o **[forum Aspose.3D](https://forum.aspose.com/c/3d/18)** para suporte da comunidade e discussões.
+
 ### Como posso obter uma licença temporária?
- Obtenha sua licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+Obtenha sua licença temporária **[aqui](https://purchase.aspose.com/temporary-license/)**.
+
+**Additional Q&A**
+
+**Q: Como mudar o formato de exportação para FBX?**  
+A: Substitua `FileFormat.WavefrontOBJ` por `FileFormat.FBX` na chamada `scene.Save`.
+
+**Q: Posso animar o cilindro após a exportação?**  
+A: OBJ não suporta animação; use FBX ou GLTF se precisar de dados animados.
+
+**Q: E se eu precisar de um raio de cilindro maior?**  
+A: Ajuste os dois primeiros parâmetros do construtor `Cylinder` (por exemplo, `new Cylinder(4, 4, …)`).
+
+## Conclusão
+Agora você dominou como **criar cilindros com base cisalhada** e exportá‑los como arquivos OBJ usando Aspose.3D for .NET. Experimente diferentes valores de cisalhamento, contagens de segmentos e formatos de exportação para atender às necessidades do seu projeto. Boa modelagem!
+
+---
+
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.3D for .NET 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
