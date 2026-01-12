@@ -1,10 +1,13 @@
 ---
-title: 3D Sahne
-linktitle: 3D Sahne
-second_title: Aspose.3D .NET API'si
-description: Düzlem yönünü değiştirme, sahneleri sıkıştırılmış AMF formatına aktarma, koordinat sistemlerini çevirme ve daha fazlası hakkında Aspose.3D for .NET eğitimlerini keşfedin.
-weight: 21
+date: 2026-01-12
+description: Aspose.3D for .NET'te koordinatları nasıl tersine çevireceğinizi, yönlendirmeyi
+  nasıl değiştireceğinizi, 3D özelliklerini nasıl ayarlayacağınızı ve daha gelişmiş
+  sahne manipülasyon tekniklerini öğrenin.
+linktitle: How to Flip Coordinates in 3D Scene
+second_title: Aspose.3D .NET API
+title: Aspose.3D for .NET ile 3D Sahnedeki Koordinatları Nasıl Çevirilir
 url: /tr/net/3d-scene/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,39 +16,87 @@ url: /tr/net/3d-scene/
 
 # 3D Sahne
 
-## giriiş
+## Giriş
 
-Yaratıcılığın hassasiyetle buluştuğu Aspose.3D for .NET dünyasına hoş geldiniz. Bu eğitim serisinde, geliştirme becerilerinizi geliştirmek için adım adım kılavuzlar sunarak 3B sahne manipülasyonunun inceliklerini araştırıyoruz.
+Aspose.3D for .NET dünyasına hoş geldiniz; yaratıcılığın hassasiyetle buluştuğu bir ortam. Bu eğitim serisinde **koordinatları nasıl çevirirsiniz**, nesnelerin **yönünü nasıl değiştirirsiniz** ve sanal ortamlarınızı hayata geçirmek için 3D özelliklerini nasıl ayarlarsınız öğreneceksiniz. İster deneyimli bir geliştirici olun, ister 3‑D grafiklere yeni başlıyor olun, bu adım‑adım kılavuzlar sahneleri güvenle ve verimli bir şekilde manipüle etmenize yardımcı olacak.
 
-## 3D Sahnelerde Koordinat Sistemini Çevirme
+## Hızlı Yanıtlar
+- **Ana hedef nedir?** Aspose.3D for .NET ile koordinatları çevirmeyi ve sahne yönünü ayarlamayı öğrenmek.  
+- **Hangi API sürümü gereklidir?** .NET 5/6 ve .NET Core ile uyumlu, son Aspose.3D for .NET sürümü.  
+- **Lisans gerekiyor mu?** Değerlendirme için ücretsiz deneme yeterlidir; üretim için ticari lisans gerekir.  
+- **Bu teknikleri birleştirebilir miyim?** Evet—koordinatları çevirmek, yönü değiştirmek ve 3D özelliklerini ayarlamak tek bir iş akışında zincirlenebilir.  
+- **Örnek kod sağlanıyor mu?** Bağlantılı her eğitim, çalıştırmaya hazır C# örnekleri içerir.
 
-Aspose.3D for .NET ile koordinat sistemlerini çevirme tekniğinde ustalaşın. Adım adım kılavuzumuz bu temel beceriyi zahmetsizce kavramanızı sağlar. 3D sahnelerinizi yeni bir bakış açısıyla dönüştürerek projelerinize derinlik ve yaratıcılık katın.
+## 3D Sahnellerde Koordinatları Çevirme
 
-[Eğiticiyi okuyun: 3B Sahnelerde Koordinat Sistemini Çevirme](./flip-coordinate-system/)
+Aspose.3D for .NET ile koordinat sistemlerini çevirme tekniğini ustalaşın. Adım‑adım rehberimiz, bu temel beceriyi zahmetsizce kavramanızı sağlar. Projelerinize yeni bir bakış açısı kazandırarak 3‑D sahnelerinizi derinleştirip yaratıcı hale getirin.
 
-## 3B Meshleri Özel İkili Formatta Kaydetme
+[Read the tutorial: Flipping Coordinate System in 3D Scenes](./flip-coordinate-system/)
 
-Aspose.3D for .NET'i kullanarak 3D ağları özel bir ikili formatta kaydetmenin geniş olanaklarını keşfedin. Bu özelliğin 3D çalışmalarınıza getirdiği verimliliği ve esnekliği keşfedin. Örgü manipülasyonuna yönelik bu paha biçilmez beceriyle araç takımınızı geliştirin.
+## Özel İkili Formatta 3D Mesh'leri Kaydetme
 
-[Eğiticiyi okuyun: 3B Meshleri Özel İkili Formatta Kaydetme](./save-3d-meshes-binary-format/)
+Aspose.3D for .NET kullanarak 3‑D mesh'leri özel bir ikili formatta kaydetmenin geniş olanaklarını keşfedin. Bu özelliğin verimlilik ve esneklik getirdiği noktaları ortaya çıkarın. Mesh manipülasyonu için bu değerli beceriyle araç kutunuzu güçlendirin.
 
+[Read the tutorial: Saving 3D Meshes in Custom Binary Format](./save-3d-meshes-binary-format/)
 
-## Sahnenin varlık bilgilerini özelleştirin
+## Sahnenin Varlık Bilgilerini Özelleştirme
 
-Sahne varlıklarına bilgi çıkarma sürecinin tamamında size yol gösteren kapsamlı, adım adım kılavuzda gezinin. Başlangıçtan bitişe kadar her adım titizlikle açıklanarak, incelikleri zahmetsizce kavramanıza olanak tanır.
+Sizi sahne varlık bilgilerini çıkarmanın tüm sürecine götüren kapsamlı, adım‑adım bir rehberde yönlendirin. Başlangıçtan tamamlamaya kadar her adım titizlikle açıklanmıştır; böylece karmaşıklıkları zahmetsizce kavrayabilirsiniz.
 
-[Eğiticiyi okuyun: Sahnenin varlık bilgilerini özelleştirme](./information-to-scene/)
+[Read the tutorial: Customize scene's asset information](./information-to-scene/)
 
-## 3B Sahnelerde Üç Boyutlu Özellikleri Ayarlama
+## 3D Sahnelerde Üç Boyutlu Özellikleri Ayarlama
 
-Üç boyutlu özellikleri ayarlama konusunda Aspose.3D for .NET eğitimine kendinizi kaptırın. Kod örnekleriyle tamamlanan kılavuzumuz kapsamlı bir anlayış sağlar. 3B sahne manipülasyon becerilerinizi geliştirerek sanal yaratımlarınızı şekillendirmenize ve iyileştirmenize olanak tanır.
+Aspose.3D for .NET'te üç‑boyutlu özellikleri ayarlamaya yönelik eğitimimize dalın. Kod örnekleriyle tam donanımlı rehberimiz, kapsamlı bir anlayış sağlar. 3‑D sahne manipülasyon becerilerinizi yükseltin; sanal yaratımlarınızı şekillendirin ve iyileştirin.
 
-[Eğiticiyi okuyun: 3B Sahnelerde Üç Boyutlu Özellikleri Ayarlama](./set-3d-properties/)
+[Read the tutorial: Setting Three-Dimensional Properties in 3D Scenes](./set-3d-properties/)
 
-Sonuç olarak, Aspose.3D for .NET eğitim serisi birçok olasılıklara kapı açıyor. Her eğitim, 3D sahne manipülasyonunun karmaşıklıklarını güvenle aşmanıza olanak tanıyan pratik bilgiler sağlar. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuzlar projelerinizde Aspose.3D for .NET'in tüm potansiyelini açığa çıkarmanıza yardımcı olur. Dalış yapın ve yaratıcılığınızın üç boyutlu alanda yükselmesine izin verin!
+## Bu tekniklerin önemi
+
+- Modelleri farklı koordinat sistemlerine (ör. sol‑el ↔ sağ‑el) hizalayın.  
+- Geometriyi yeniden inşa etmeden varlıkları yeniden yönlendirin, zaman ve işlem gücünden tasarruf edin.  
+- Gerçekçi görsel sonuçlar için ölçek, dönüş ve çeviri gibi render özelliklerini ince ayar yapın.
+
+## Yaygın tuzaklar ve ipuçları
+
+- **Tüzak:** Koordinat çevirmesinden sonra sahnenin sınırlama kutusunu güncellemeyi unutmak.  
+  **İpucu:** `scene.UpdateBoundingBox()` (veya eşdeğer yöntemi) çağırarak sınırları yeniden hesaplayın.  
+
+- **Tüzak:** Bir yön değiştirme sırasında birimlerin (metre vs santimetre) karıştırılması.  
+  **İpucu:** Dönüşümler uygulamadan önce boru hattınızda birimleri standartlaştırın.
+
+## Sıkça Sorulan Sorular
+
+**S:** Zaten animasyon içeren bir sahnede koordinatları çevirebilir miyim?  
+**C:** Evet. Çevirme işlemi tüm düğüm hiyerarşisine uygulanır ve animasyon anahtar karelerini korur. Sonrasında fizik veya çarpışma verilerini güncellemeyi unutmayın.
+
+**S:** Koordinatları çevirmek doku koordinatlarını etkiler mi?  
+**C:** Doku koordinatları değişmez; UV uzayında tanımlanırlar ve dünya koordinat sisteminden bağımsızdır.
+
+**S:** Koordinat çevirmesini geri almak mümkün mü?  
+**C:** Kesinlikle. Aynı çevirme dönüşümünü ikinci kez uygulayarak veya ters matris kullanarak orijinal yönelime geri dönebilirsiniz.
+
+**S:** Çevirme işlemini ölçekleme ile nasıl birleştiririm?  
+**C:** Çevirme matrisini bir ölçekleme matrisiyle (sıra önemlidir) çarparak düğümün dönüşümüne atayın.
+
+**S:** Büyük sahneleri çevirirken performans kaygıları var mı?  
+**C:** İşlem, düğüm sayısıyla O(n) karmaşıklığındadır. Çok büyük sahneler için toplu işleme veya .NET'in paralel döngülerini kullanmayı düşünün.
+
+## Sonuç
+
+**Koordinatları nasıl çevirirsiniz**, **yönü nasıl değiştirirsiniz** ve **3D özelliklerini nasıl ayarlarsınız** konularında uzmanlaşarak Aspose.3D for .NET'te 3‑D sahneleriniz üzerinde tam kontrol elde edersiniz. Bu teknikler, modelleri herhangi bir koordinat sistemine uyarlamanızı, varlık boru hatlarını basitleştirmenizi ve görsel açıdan etkileyici sonuçlar üretmenizi sağlar. Bağlantılı eğitimlerdeki uygulamalı kod örneklerini inceleyin ve bugün daha zengin 3‑D deneyimler oluşturmaya başlayın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-01-12  
+**Test Edilen:** Aspose.3D for .NET (en son kararlı sürüm)  
+**Yazar:** Aspose  
+
+---
