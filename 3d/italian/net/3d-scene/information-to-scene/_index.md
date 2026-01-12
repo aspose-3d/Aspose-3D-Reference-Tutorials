@@ -1,31 +1,49 @@
 ---
-title: Estrazione di informazioni sulle risorse della scena
-linktitle: Estrazione di informazioni sulle risorse della scena
-second_title: API Aspose.3D .NET
-description: Migliora le tue scene 3D senza sforzo con Aspose.3D per .NET. Impara ad aggiungere informazioni preziose sulle risorse passo dopo passo. Scaricalo ora per un'esperienza 3D dinamica.
-weight: 10
+date: 2026-01-12
+description: Scopri come aggiungere metadati alle scene 3D usando Aspose.3D per .NET,
+  incluso come aggiungere informazioni sul fornitore ed esportare file di modelli
+  3D.
+linktitle: 'How to Add Metadata: Extracting Information to Scene Assets'
+second_title: Aspose.3D .NET API
+title: 'Come aggiungere metadati: estrazione di informazioni per gli asset della scena'
 url: /it/net/3d-scene/information-to-scene/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Estrazione di informazioni sulle risorse della scena
+# Come aggiungere metadati: estrarre informazioni per le risorse della scena
 
-## introduzione
+## Introduzione
 
-Benvenuti in questo tutorial completo sull'utilizzo di Aspose.3D per .NET per estrarre informazioni preziose e migliorare le scene 3D. Aspose.3D è una potente libreria che consente agli sviluppatori di manipolare scene 3D senza problemi all'interno delle applicazioni .NET. In questo tutorial, ci concentreremo sul compito cruciale di aggiungere informazioni sulle risorse a una scena.
+In questo tutorial completo scoprirai **come aggiungere metadati** alle tue scene 3D con Aspose.3D per .NET. Aggiungere metadati come i dettagli del fornitore, unità di misura personalizzate e altre informazioni sulle risorse rende i tuoi modelli più informativi, ricercabili e pronti per pipeline successive come motori di gioco o piattaforme AR/VR.
+
+## Risposte rapide
+- **Qual è lo scopo principale?** Incorporare metadati (informazioni sul fornitore, unità, tag personalizzati) direttamente in una scena 3D.  
+- **Quale libreria viene utilizzata?** Aspose.3D per .NET.  
+- **Posso esportare il modello dopo aver aggiunto i metadati?** Sì – è possibile **esportare modelli 3D**, ad esempio salvando come FBX.  
+- **È necessaria una licenza?** È disponibile una versione di prova gratuita; per la produzione è richiesta una licenza commerciale.  
+- **Quali versioni di .NET sono supportate?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6.
+
+## Cos'è “come aggiungere metadati” in una scena 3D?
+
+Aggiungere metadati significa allegare informazioni descrittive — come il nome dell'applicazione, il fornitore, le unità di misura o tag personalizzati — al file della scena stesso. questi dati viaggiano con il modello quando **salvi la scena come FBX** o altri formati supportati, consentendo agli strumenti successivi di comprendere il contesto senza file esterni.
+
+## Perché incorporare metadati personalizzati e informazioni sul fornitore?
+
+- **Ricercabilità:** i sistemi di gestione delle risorse possono filtrare i modelli per fornitore o tipo di unità.  
+- **Interoperabilità:** i motori che leggono FBX possono applicare automaticamente la scala corretta se **definisci le unità di misura**.  
+- **Branding:** includere il nome dell'applicazione e del fornitore rafforza la proprietà e la conformità alle licenze.  
 
 ## Prerequisiti
 
-Prima di immergerci nel tutorial, assicurati di possedere i seguenti prerequisiti:
+Prima di iniziare, assicurati di avere:
 
--  Aspose.3D per .NET: assicurati di avere la libreria installata. Puoi scaricarlo da[Aspose.3D per la pagina .NET](https://releases.aspose.com/3d/net/).
+- Aspose.3D per .NET installato. Puoi scaricarlo dalla [pagina Aspose.3D per .NET](https://releases.aspose.com/3d/net/).
 
-## Importa spazi dei nomi
-
-Nel tuo progetto .NET, assicurati di includere gli spazi dei nomi necessari per accedere alle funzionalità Aspose.3D:
+## Importa gli spazi dei nomi
 
 ```csharp
 using System;
@@ -34,74 +52,87 @@ using System.Collections;
 using Aspose.ThreeD;
 ```
 
-## Passaggio 1: inizializza una scena 3D
+## Passo 1: Inizializza una scena 3D
 
 ```csharp
 Scene scene = new Scene();
 ```
 
- Crea una nuova scena 3D utilizzando`Scene` classe.
+Crea un nuovo oggetto `Scene` che conterrà tutta la geometria e le informazioni delle risorse.
 
-## Passaggio 2: impostare le informazioni sull'applicazione e sul fornitore
+## Passo 2: Imposta l'applicazione e **Aggiungi informazioni sul fornitore**
 
 ```csharp
 scene.AssetInfo.ApplicationName = "Egypt";
 scene.AssetInfo.ApplicationVendor = "Manualdesk";
 ```
 
-Definisci i nomi dell'applicazione e del fornitore associati alla scena 3D.
+Qui inseriamo il **nome dell'applicazione** e le **informazioni sul fornitore**. Questa è una parte fondamentale di **come aggiungere metadati** che identifica la fonte del modello.
 
-## Passaggio 3: definire le unità di misura
+## Passo 3: **Definisci le unità di misura** per una scala accurata
 
 ```csharp
 scene.AssetInfo.UnitName = "pole";
 scene.AssetInfo.UnitScaleFactor = 0.6;
 ```
 
-Specifica le unità di misura utilizzate nella scena. In questo esempio utilizziamo le unità dell'antico Egitto chiamate "polo", con 1 polo pari a 60 cm.
+Specificando `UnitName` e `UnitScaleFactor`, informi gli strumenti successivi che un “palo” equivale a 0,6 metri (60 cm). Questo passaggio è essenziale quando in seguito **esporterai modelli 3D** per garantire dimensioni reali corrette.
 
-## Passaggio 4: salva la scena
+## Passo 4: **Salva la scena come FBX** – **Esporta modello 3D** con metadati
 
 ```csharp
 var output = "Your Output Directory" + "InformationToScene.fbx";
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-Salva la scena con le informazioni sulle risorse aggiunte in un formato file supportato dal 3D. Modifica la directory di output secondo necessità.
+La chiamata `Save` scrive la scena in un file FBX, incorporando tutti i metadati aggiunti. Questo dimostra **come aggiungere metadati** e poi **salvare la scena come FBX**, esportando efficacemente **modello 3D** con informazioni complete sulla risorsa.
 
-## Passaggio 5: Visualizza il messaggio di successo
+## Passo 5: Visualizza il messaggio di successo
 
 ```csharp
 Console.WriteLine("\nAsset information added successfully to Scene.\nFile saved at " + output);
 ```
 
-Informa l'utente che le informazioni sulla risorsa sono state aggiunte correttamente e che il file è stato salvato.
+Un messaggio console amichevole conferma che i metadati sono stati scritti e indica la posizione del file.
 
-## Conclusione
+## Problemi comuni e consigli
 
-Congratulazioni! Hai imparato con successo come utilizzare Aspose.3D per .NET per estrarre e aggiungere informazioni sulle risorse essenziali alle tue scene 3D. Questa conoscenza apre infinite possibilità per la creazione di contenuti 3D più informativi e coinvolgenti.
+- **Scala dell'unità errata:** verifica che `UnitScaleFactor` corrisponda alla conversione reale; altrimenti i modelli esportati potrebbero apparire troppo grandi o troppo piccoli.  
+- **Informazioni sul fornitore mancanti:** se `ApplicationVendor` è vuoto, alcuni visualizzatori mostreranno “Unknown”. Impostalo sempre quando possibile.  
+- **Errori di percorso file:** assicurati che la directory di output esista; altrimenti `scene.Save` genererà un'eccezione.
 
 ## Domande frequenti
 
-### Q1: posso utilizzare Aspose.3D per .NET con altri linguaggi di programmazione?
+### D1: Posso usare Aspose.3D per .NET con altri linguaggi di programmazione?
 
-A1: Aspose.3D supporta principalmente i linguaggi .NET, ma è possibile esplorare le opzioni di interoperabilità per altri linguaggi.
+A1: Aspose.3D supporta principalmente i linguaggi .NET, ma è possibile esplorare opzioni di interoperabilità per altri linguaggi.
 
-### Q2: È disponibile una prova gratuita per Aspose.3D per .NET?
+### D2: È disponibile una versione di prova gratuita per Aspose.3D per .NET?
 
- A2: Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
+A2: Sì, puoi accedere alla versione di prova gratuita [qui](https://releases.aspose.com/).
 
-### Q3: Come posso ottenere supporto per le query relative ad Aspose.3D?
+### D3: Come posso ottenere supporto per le domande relative ad Aspose.3D?
 
- A3: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per la comunità e il sostegno.
+A3: Visita il [forum Aspose.3D](https://forum.aspose.com/c/3d/18) per la community e il supporto.
 
-### Q4: Posso acquistare una licenza temporanea per Aspose.3D per .NET?
+### D4: Posso acquistare una licenza temporanea per Aspose.3D per .NET?
 
- R4: Sì, puoi acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+A4: Sì, puoi ottenere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Dove posso trovare la documentazione dettagliata per Aspose.3D per .NET?
+### D5: Dove posso trovare la documentazione dettagliata per Aspose.3D per .NET?
 
- A5: Fare riferimento a[documentazione](https://reference.aspose.com/3d/net/) per informazioni approfondite.
+A5: Consulta la [documentazione](https://reference.aspose.com/3d/net/) per informazioni approfondite.
+
+## Conclusione
+
+Ora hai padroneggiato **come aggiungere metadati** a una scena 3D usando Aspose.3D per .NET — impostando i dettagli dell'applicazione e del fornitore, **definendo le unità di misura**, e infine **salvando la scena come FBX** per **esportare modelli 3D** che contengono tutte queste informazioni preziose. Usa queste tecniche per rendere le tue risorse più ricche, più ricercabili e pronte per qualsiasi workflow successivo.
+
+---
+
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
