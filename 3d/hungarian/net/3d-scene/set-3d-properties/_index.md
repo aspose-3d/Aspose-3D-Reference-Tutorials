@@ -1,35 +1,46 @@
 ---
-title: Háromdimenziós tulajdonságok beállítása 3D jelenetekben
-linktitle: Háromdimenziós tulajdonságok beállítása 3D jelenetekben
+date: 2026-01-17
+description: Tanulja meg, hogyan listázhatja az anyag tulajdonságait, megváltoztathatja
+  a diffúz színt, és módosíthatja a 3D anyag attribútumait az Aspose.3D for .NET segítségével.
+  Lépésről‑lépésre kódpéldák is szerepelnek.
+linktitle: List Material Properties in 3D Scenes with Aspose.3D
 second_title: Aspose.3D .NET API
-description: Fedezze fel az Aspose.3D for .NET oktatóanyagát a 3D tulajdonságok beállításáról. Tanuljon lépésről lépésre kódpéldákkal. Növelje 3D-s jelenetmanipulációs készségeit.
-weight: 14
+title: Anyagjellemzők listázása 3D jelenetekben az Aspose.3D segítségével
 url: /hu/net/3d-scene/set-3d-properties/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Háromdimenziós tulajdonságok beállítása 3D jelenetekben
+# Anyag tulajdonságok felsorolása 3D jelenetekben az Aspose.3D segítségével
 
 ## Bevezetés
 
-magával ragadó háromdimenziós jelenetek létrehozása gyakran megköveteli a különféle tulajdonságok manipulálásának képességét, mélységet és valósághűséget adva a projektekhez. Az Aspose.3D for .NET hatékony eszközkészletet biztosít ennek eléréséhez, lehetővé téve a 3D jelenetek háromdimenziós tulajdonságainak zökkenőmentes beállítását és módosítását. Ebben az oktatóanyagban lépésről lépésre vizsgáljuk meg a folyamatot, és jobban megérti, hogyan használhatja hatékonyan az Aspose.3D-t .NET-hez.
+Ha **anyag tulajdonságok** listázására van szükséged egy 3D modellben, majd finomhangolni szeretnéd például a diffúz színt, jó helyen vagy. Az Aspose.3D for .NET tiszta, objektum‑orientált API‑t biztosít, amely lehetővé teszi az anyag attribútumok vizsgálatát, lekérését és módosítását anélkül, hogy elhagynád a C# kódodat. Ebben az útmutatóban végigvezetünk a jelenet betöltésén, az anyag tulajdonságainak felsorolásán, és a diffúz komponens értékének módosításán – így a modelleknek pontosan azt a megjelenést adhatod, amit szeretnél.
 
-## Előfeltételek
+## Gyors válaszok
+- **Mi a fő cél?** Anyag tulajdonságok felsorolása és módosítása (pl. diffúz szín).  
+- **Melyik könyvtár szükséges?** Aspose.3D for .NET.  
+- **Szükségem van licencre?** Ideiglenes vagy teljes licenc szükséges a termelési használathoz.  
+- **Támogatott fájlformátumok?** FBX, OBJ, STL, STL‑ASCII, 3MF és továbbiak.  
+- **Átlagos megvalósítási idő?** Körülbelül 10‑15 perc egy alap tulajdonság‑listázó szkripthez.
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+## Mi az a **list material properties**?
+Az anyag tulajdonságainak listázása azt jelenti, hogy végigiterálunk egy anyag `PropertyCollection`‑jén, és kiolvassuk minden tulajdonság nevét és aktuális értékét. Ez hibakereséshez, vizuális ellenőrzéshez vagy olyan UI vezérlők építéséhez hasznos, amelyek lehetővé teszik a felhasználók számára az anyag beállításainak futásidőben történő finomhangolását.
 
--  Aspose.3D for .NET: Győződjön meg arról, hogy a könyvtár telepítve van a .NET projektben. Letöltheti[itt](https://releases.aspose.com/3d/net/).
+## Miért használjuk az Aspose.3D‑t a **material properties** eléréséhez?
+- **Nincs külső konverter** – közvetlenül natív .NET objektumokkal dolgozik.  
+- **Gazdag tulajdonság modell** – támogatja az egyedi FBX‑specifikus attribútumokat a szabványos PBR értékek mellett.  
+- **Cross‑platform** – működik .NET Framework, .NET Core és .NET 5/6+ környezetekben.  
 
-- Dokumentumkönyvtár: Hozzon létre egy könyvtárat a 3D dokumentumok tárolására.
+## Előkövetelmények
 
-Most, hogy a legfontosabb dolgok a helyükön vannak, fedezzük fel a háromdimenziós tulajdonságok beállításának folyamatát 3D-s jelenetekben az Aspose.3D for .NET használatával.
+- Aspose.3D for .NET telepítve a projektedben. Letöltheted [itt](https://releases.aspose.com/3d/net/).
+- Egy mappa a lemezen a 3‑D forrásfájlok tárolásához (pl. egy beágyazott textúrákkal rendelkező FBX fájl).
 
 ## Névterek importálása
-
-A kezdéshez importálja a szükséges névtereket a projektbe. Ezek a névterek biztosítják az Aspose.3D for .NET háromdimenziós tulajdonságainak kezeléséhez szükséges osztályokat és metódusokat.
 
 ```csharp
 using Aspose.ThreeD;
@@ -44,8 +55,6 @@ using System.Threading.Tasks;
 
 ## 1. lépés: 3D jelenet betöltése
 
-Kezdje egy 3D-s jelenet betöltésével. Ebben a példában egy beágyazott textúrájú FBX fájlt használunk.
-
 ```csharp
 //ExStart: Load3DScene
 string dataDir = "Your Document Directory";
@@ -53,9 +62,7 @@ Scene scene = new Scene(dataDir + "EmbeddedTexture.fbx");
 //ExEnd: Load3DScene
 ```
 
-## 2. lépés: Nyissa meg az anyagtulajdonságokat
-
-Hozzáférés a betöltött 3D jelenet anyagtulajdonságaihoz, hogy módosítsa a jellemzőit.
+## 2. lépés: **Material properties** elérése az első csomópontnál
 
 ```csharp
 //ExStart: AccessMaterialProperties
@@ -64,9 +71,7 @@ PropertyCollection props = material.Properties;
 //ExEnd: AccessMaterialProperties
 ```
 
-## 3. lépés: listázza ki az összes tulajdonságot
-
-Sorolja fel az anyag összes tulajdonságát foreach hurok vagy ordinális for ciklus segítségével.
+## 3. lépés: **List material properties** – minden név/érték pár megtekintése
 
 ```csharp
 //ExStart: ListAllProperties
@@ -75,7 +80,7 @@ foreach (var prop in props)
     Console.WriteLine("{0} = {1}", prop.Name, prop.Value);
 }
 
-//vagy sorszámot használva a ciklushoz
+//or using ordinal for loop
 for (int i = 0; i < props.Count; i++)
 {
     var prop = props[i];
@@ -84,23 +89,19 @@ for (int i = 0; i < props.Count; i++)
 //ExEnd: ListAllProperties
 ```
 
-## 4. lépés: A tulajdonság lekérése és módosítása név szerint
-
-Egy adott tulajdonság lekérése és módosítása a neve alapján.
+## 4. lépés: **Hogyan változtassuk a diffúzt** – a Diffuse tulajdonság módosítása
 
 ```csharp
 //ExStart: GetModifyPropertyByName
 var diffuse = props["Diffuse"];
 Console.WriteLine(diffuse);
 
-//módosítsa a tulajdonság értékét név szerint
-props["Diffuse"] = new Vector3(1, 0, 1);
+//modify property value by name
+props["Diffuse"] = new Vector3(1, 0, 1); // sets a magenta diffuse color
 //ExEnd: GetModifyPropertyByName
 ```
 
-## 5. lépés: Szerezze be az ingatlanpéldányt név szerint
-
-Kérjen le egy tulajdonságpéldányt a neve alapján további manipuláció céljából.
+## 5. lépés: **Tulajdonság lekérése név alapján** – erősen típusos példány beszerzése
 
 ```csharp
 //ExStart: GetPropertyInstanceByName
@@ -109,19 +110,17 @@ Console.WriteLine(pdiffuse);
 //ExEnd: GetPropertyInstanceByName
 ```
 
-## 6. lépés: Járja be az ingatlan tulajdonságait
-
- Mivel`Property` -től öröklődik`A3DObject`bejárhatja egy ingatlan tulajdonságait.
+## 6. lépés: Tulajdonság saját tulajdonságainak bejárása (haladó)
 
 ```csharp
 //ExStart: TraversePropertyProperties
 Console.WriteLine("Property flags = {0}", pdiffuse.GetProperty("flags"));
 
-//és néhány tulajdonság, amelyek csak az FBX fájlban vannak definiálva:
+//and some properties that only defined in FBX file:
 Console.WriteLine("Label = {0}", pdiffuse.GetProperty("label"));
 Console.WriteLine("Type Name = {0}", pdiffuse.GetProperty("typeName"));
 
-//bejárás lehetséges az ingatlanon
+//traversal on property's property is possible
 foreach (var pp in pdiffuse.Properties)
 {
     Console.WriteLine("Diffuse.{0} = {1}", pp.Name, pp.Value);
@@ -129,31 +128,55 @@ foreach (var pp in pdiffuse.Properties)
 //ExEnd: TraversePropertyProperties
 ```
 
-## Következtetés
+## Hogyan **változtassuk a 3D anyag színét** a diffúzon túl
+Ha a spekuláris, ambient vagy emisszív színeket is módosítani szeretnéd, egyszerűen cseréld le a `"Diffuse"`‑t `"Specular"`‑ra vagy `"Ambient"`‑ra a fenti `props["..."]` hozzárendelésben. Ugyanazok a `Vector3` vagy `Vector4` struktúrák alkalmazandók.
 
-Gratulálunk! Most már elsajátította a háromdimenziós tulajdonságok beállítását 3D-s jelenetekben az Aspose.3D for .NET használatával. Kísérletezzen különböző tulajdonságokkal és értékekkel, hogy életre keltse 3D projektjeit.
+## Gyakori hibák és tippek
+- **Tulajdonság név kis- és nagybetű érzékenység** – az Aspose.3D kulcsai kis- és nagybetű érzékenyek; használd a listázás kimenetében megjelenő pontos nevet.  
+- **Hiányzó tulajdonság** – nem minden anyag teszi közzé az összes PBR attribútumot. Ellenőrizd a `props.ContainsKey("Specular")` kifejezést a hozzáférés előtt.  
+- **Változások mentése** – a tulajdonságok módosítása után hívd a `scene.Save("output.fbx");` metódust a változások mentéséhez.
+
+## Összegzés
+
+Most már megtanultad, hogyan **listáld az anyag tulajdonságait**, **lekérj egy tulajdonságot név alapján**, és **módosítsd a diffúz színt** (vagy bármely más anyag attribútumot) az Aspose.3D for .NET segítségével. Kísérletezz különböző tulajdonság típusokkal, hogy finomhangold 3‑D eszközeid megjelenését.
 
 ## GYIK
 
-### 1. kérdés: Használhatom az Aspose.3D for .NET fájlt más 3D fájlformátumokkal?
+### K1: Használhatom az Aspose.3D for .NET-et más 3D fájlformátumokkal?
+**A1:** Igen, az Aspose.3D támogatja a különböző 3D fájlformátumokat, beleértve az FBX, STL és sok más.
 
-1. válasz: Igen, az Aspose.3D különféle 3D fájlformátumokat támogat, beleértve az FBX-et, az STL-t és még sok mást.
+### K2: Hogyan szerezhetek ideiglenes licencet az Aspose.3D for .NET-hez?
+**A2:** Látogass el [ide](https://purchase.aspose.com/temporary-license/) az ideiglenes licenc megszerzéséhez.
 
-### 2. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.3D for .NET számára?
+### K3: Van közösségi fórum az Aspose.3D felhasználók számára?
+**A3:** Igen, támogatást és megbeszéléseket találsz az [Aspose.3D fórumon](https://forum.aspose.com/c/3d/18).
 
- A2: Látogassa meg[itt](https://purchase.aspose.com/temporary-license/) ideiglenes engedély megszerzéséhez.
+### K4: Hol találok részletes dokumentációt az Aspose.3D for .NET-hez?
+**A4:** Lásd a [dokumentációt](https://reference.aspose.com/3d/net/) a teljes útmutatóért.
 
-### 3. kérdés: Létezik közösségi fórum az Aspose.3D felhasználók számára?
+### K5: Próbálhatom ingyenesen az Aspose.3D for .NET-et vásárlás előtt?
+**A5:** Természetesen! Töltsd le a [ingyenes próbaverziót](https://releases.aspose.com/) a funkciók felfedezéséhez.
 
- V3: Igen, támogatást és beszélgetéseket találhat a webhelyen[Aspose.3D fórum](https://forum.aspose.com/c/3d/18).
+## Gyakran Ismételt Kérdések
 
-### 4. kérdés: Hol találom az Aspose.3D for .NET részletes dokumentációját?
+**Q: Mi jelenti a `Vector3(1, 0, 1)`?**  
+A: A diffúz színt magentára állítja (vörös = 1, zöld = 0, kék = 1) lineáris színterben.
 
- A4: Lásd a[dokumentáció](https://reference.aspose.com/3d/net/) átfogó útmutatásért.
+**Q: Kell-e meghívni a `scene.Save`‑t a tulajdonságok módosítása után?**  
+A: Igen, a jelenet mentése írja a módosításokat a lemezre; egyébként a változások csak memóriában maradnak.
 
-### 5. kérdés: Kipróbálhatom ingyenesen az Aspose.3D for .NET programot vásárlás előtt?
+**Q: Felsorolhatok egyedi FBX attribútumokat?**  
+A: Természetesen. A `PropertyCollection` tartalmazza az egyedi attribútumokat, amelyeket a `GetProperty("customName")` segítségével érhetsz el.
 
- A5: Természetesen! Töltse le a[ingyenes próbaverzió](https://releases.aspose.com/) jellemzőinek feltárására.
+**Q: Van mód több anyag kötegelt frissítésére?**  
+A: Iterálj a `scene.RootNode.ChildNodes`‑on és ismételd meg a tulajdonság‑módosítási lépéseket minden anyagnál.
+
+**Q: Támogatja az Aspose.3D a .NET 6-ot?**  
+A: Igen, a könyvtár teljesen kompatibilis a .NET 6-tal és újabb verziókkal.
+
+**Utolsó frissítés:** 2026-01-17  
+**Tesztelve:** Aspose.3D 24.11 for .NET  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

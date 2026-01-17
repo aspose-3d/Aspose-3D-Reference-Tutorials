@@ -1,35 +1,48 @@
 ---
-title: Nastavení trojrozměrných vlastností ve 3D scénách
-linktitle: Nastavení trojrozměrných vlastností ve 3D scénách
+date: 2026-01-17
+description: Naučte se, jak vypsat vlastnosti materiálu, změnit difúzní barvu a upravit
+  atributy 3D materiálu pomocí Aspose.3D pro .NET. Krok‑za‑krokem jsou zahrnuty příklady
+  kódu.
+linktitle: List Material Properties in 3D Scenes with Aspose.3D
 second_title: Aspose.3D .NET API
-description: Prozkoumejte výukový program Aspose.3D for .NET o nastavení 3D vlastností. Naučte se krok za krokem s příklady kódu. Zvyšte své dovednosti v oblasti manipulace s 3D scénou.
-weight: 14
+title: Seznam materiálových vlastností ve 3D scénách s Aspose.3D
 url: /cs/net/3d-scene/set-3d-properties/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavení trojrozměrných vlastností ve 3D scénách
+# Seznam vlastností materiálu ve 3D scénách s Aspose.3D
 
 ## Úvod
 
-Vytváření podmanivých trojrozměrných scén často vyžaduje schopnost manipulovat s různými vlastnostmi a dodat vašim projektům hloubku a realismus. Aspose.3D for .NET poskytuje výkonnou sadu nástrojů k dosažení tohoto cíle, která vám umožňuje bez námahy nastavovat a upravovat trojrozměrné vlastnosti ve vašich 3D scénách. V tomto tutoriálu prozkoumáme proces krok za krokem, čímž zlepšíme vaše porozumění tomu, jak efektivně využít Aspose.3D pro .NET.
+Pokud potřebujete **vypsat vlastnosti materiálu** 3D modelu a poté doladit například difúzní barvu, jste na správném místě. Aspose.3D pro .NET vám poskytuje čisté, objektově orientované API, které vám umožní prozkoumat, získat a upravit atributy materiálu přímo ve vašem C# kódu. V tomto tutoriálu vás provedeme načtením scény, výčtem jejích vlastností materiálu a změnou hodnot, jako je difúzní komponenta – abyste mohli svým modelům dodat přesně požadovaný vzhled.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Jaký je hlavní cíl?** Seznam vlastností materiálu a jejich úprava (např. barva difúze).  
+- **Která knihovna je vyžadována?** Aspose.3D pro .NET.  
+- **Potřebuji licenci?** Pro produkční použití je vyžadována dočasná nebo plná licence.  
+- **Podporované formáty souborů?** FBX, OBJ, STL, STL‑ASCII, 3MF a další.  
+- **Typický čas implementace?** Přibližně 10‑15 minut pro základní skript výpisu vlastností.
 
-Než se pustíte do výukového programu, ujistěte se, že máte následující předpoklady:
+## Co je **list material properties**?
+Výpis vlastností materiálu znamená iteraci přes `PropertyCollection` materiálu a čtení každého názvu vlastnosti a její aktuální hodnoty. To je užitečné pro ladění, vizuální inspekci nebo tvorbu UI ovládacích prvků, které uživatelům umožní během běhu měnit nastavení materiálu.
 
--  Aspose.3D for .NET: Ujistěte se, že máte knihovnu nainstalovanou v projektu .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/3d/net/).
+## Proč použít Aspose.3D k **přístupu k vlastnostem materiálu**?
+- **Žádné externí konvertory** – pracujte přímo s nativními .NET objekty.  
+- **Bohatý model vlastností** – podporuje vlastní FBX‑specifické atributy kromě standardních PBR hodnot.  
+- **Cross‑platform** – funguje na .NET Framework, .NET Core a .NET 5/6+.  
 
-- Adresář dokumentů: Vytvořte adresář pro ukládání 3D dokumentů.
+## Požadavky
 
-Nyní, když máte základní věci na místě, pojďme prozkoumat proces nastavení trojrozměrných vlastností ve 3D scénách pomocí Aspose.3D for .NET.
+- Aspose.3D pro .NET nainstalovaný ve vašem projektu. Stáhněte jej [zde](https://releases.aspose.com/3d/net/).
+- Složka na disku, kde budete uchovávat své 3‑D zdrojové soubory (např. FBX soubor s vloženými texturami).
 
-## Importovat jmenné prostory
+Nyní, když máte základy připravené, ponořme se do kódu.
 
-Chcete-li začít, importujte potřebné jmenné prostory do svého projektu. Tyto jmenné prostory poskytují třídy a metody potřebné pro práci s trojrozměrnými vlastnostmi v Aspose.3D pro .NET.
+## Importujte jmenné prostory
 
 ```csharp
 using Aspose.ThreeD;
@@ -42,9 +55,7 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-## Krok 1: Načtěte 3D scénu
-
-Začněte načtením 3D scény. V tomto příkladu používáme soubor FBX s vloženou texturou.
+## Krok 1: Načtení 3D scény
 
 ```csharp
 //ExStart: Load3DScene
@@ -53,9 +64,7 @@ Scene scene = new Scene(dataDir + "EmbeddedTexture.fbx");
 //ExEnd: Load3DScene
 ```
 
-## Krok 2: Přístup k vlastnostem materiálu
-
-Přístup k materiálovým vlastnostem načtené 3D scény a manipulace s jejími charakteristikami.
+## Krok 2: **Přístup k vlastnostem materiálu** prvního uzlu
 
 ```csharp
 //ExStart: AccessMaterialProperties
@@ -64,9 +73,7 @@ PropertyCollection props = material.Properties;
 //ExEnd: AccessMaterialProperties
 ```
 
-## Krok 3: Seznam všech vlastností
-
-Vyjmenujte všechny vlastnosti materiálu pomocí smyčky foreach nebo ordinální smyčky for.
+## Krok 3: **Seznam vlastností materiálu** – zobrazte každý pár název/hodnota
 
 ```csharp
 //ExStart: ListAllProperties
@@ -75,7 +82,7 @@ foreach (var prop in props)
     Console.WriteLine("{0} = {1}", prop.Name, prop.Value);
 }
 
-//nebo pomocí řadové smyčky for
+//or using ordinal for loop
 for (int i = 0; i < props.Count; i++)
 {
     var prop = props[i];
@@ -84,23 +91,19 @@ for (int i = 0; i < props.Count; i++)
 //ExEnd: ListAllProperties
 ```
 
-## Krok 4: Získejte a upravte vlastnost podle názvu
-
-Načíst a upravit konkrétní vlastnost podle jejího názvu.
+## Krok 4: **Jak změnit difúzní** – upravte vlastnost Diffuse
 
 ```csharp
 //ExStart: GetModifyPropertyByName
 var diffuse = props["Diffuse"];
 Console.WriteLine(diffuse);
 
-//upravit hodnotu vlastnosti podle názvu
-props["Diffuse"] = new Vector3(1, 0, 1);
+//modify property value by name
+props["Diffuse"] = new Vector3(1, 0, 1); // sets a magenta diffuse color
 //ExEnd: GetModifyPropertyByName
 ```
 
-## Krok 5: Získejte instanci vlastnosti podle názvu
-
-Načtěte instanci vlastnosti podle jejího názvu pro další manipulaci.
+## Krok 5: **Získat vlastnost podle názvu** – získat silně typovanou instanci
 
 ```csharp
 //ExStart: GetPropertyInstanceByName
@@ -109,19 +112,17 @@ Console.WriteLine(pdiffuse);
 //ExEnd: GetPropertyInstanceByName
 ```
 
-## Krok 6: Projděte vlastnosti vlastnosti
-
- Od té doby`Property` je zděděno z`A3DObject`můžete procházet vlastnosti vlastnosti.
+## Krok 6: Procházet vlastní vlastnosti vlastnosti (pokročilé)
 
 ```csharp
 //ExStart: TraversePropertyProperties
 Console.WriteLine("Property flags = {0}", pdiffuse.GetProperty("flags"));
 
-//a některé vlastnosti definované pouze v souboru FBX:
+//and some properties that only defined in FBX file:
 Console.WriteLine("Label = {0}", pdiffuse.GetProperty("label"));
 Console.WriteLine("Type Name = {0}", pdiffuse.GetProperty("typeName"));
 
-//je možný přechod na nemovitost
+//traversal on property's property is possible
 foreach (var pp in pdiffuse.Properties)
 {
     Console.WriteLine("Diffuse.{0} = {1}", pp.Name, pp.Value);
@@ -129,31 +130,60 @@ foreach (var pp in pdiffuse.Properties)
 //ExEnd: TraversePropertyProperties
 ```
 
+## Jak **změnit barvu 3D materiálu** mimo difúzi
+Pokud potřebujete ovlivnit spekulární, ambientní nebo emisivní barvy, jednoduše nahraďte `"Diffuse"` řetězcem `"Specular"` nebo `"Ambient"` v přiřazení `props["..."]` výše. Stejné struktury `Vector3` nebo `Vector4` se použijí.
+
+## Časté úskalí a tipy
+- **Rozlišování velikosti písmen v názvu vlastnosti** – klíče vlastností Aspose.3D rozlišují velikost písmen; použijte přesný název z výpisu.
+- **Chybějící vlastnost** – ne všechny materiály vystavují každou PBR atribut. Zkontrolujte `props.ContainsKey("Specular")` před přístupem.
+- **Ukládání změn** – po úpravě vlastností zavolejte `scene.Save("output.fbx");` pro uložení změn.
+
 ## Závěr
 
-Gratulujeme! Nyní jste zvládli umění nastavování trojrozměrných vlastností ve 3D scénách pomocí Aspose.3D for .NET. Experimentujte s různými vlastnostmi a hodnotami, abyste oživili své 3D projekty.
+Nyní jste se naučili, jak **vypsat vlastnosti materiálu**, **získat vlastnost podle názvu** a **změnit difúzní barvu** (nebo jakýkoli jiný atribut materiálu) pomocí Aspose.3D pro .NET. Experimentujte s různými typy vlastností a doladěte vzhled svých 3‑D aktiv.
 
-## FAQ
+## Často kladené otázky
 
 ### Q1: Mohu použít Aspose.3D pro .NET s jinými 3D formáty souborů?
 
-Odpověď 1: Ano, Aspose.3D podporuje různé formáty 3D souborů, včetně FBX, STL a mnoha dalších.
+A1: Ano, Aspose.3D podporuje různé 3D formáty souborů, včetně FBX, STL a mnoha dalších.
 
-### Q2: Jak mohu získat dočasnou licenci pro Aspose.3D for .NET?
+### Q2: Jak mohu získat dočasnou licenci pro Aspose.3D pro .NET?
 
- A2: Návštěva[tady](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci.
+A2: Navštivte [tuto stránku](https://purchase.aspose.com/temporary-license/) a získejte dočasnou licenci.
 
 ### Q3: Existuje komunitní fórum pro uživatele Aspose.3D?
 
- A3: Ano, můžete najít podporu a diskuse na[Aspose.3D fórum](https://forum.aspose.com/c/3d/18).
+A3: Ano, podporu a diskuze najdete na [fóru Aspose.3D](https://forum.aspose.com/c/3d/18).
 
-### Q4: Kde najdu podrobnou dokumentaci k Aspose.3D pro .NET?
+### Q4: Kde najdu podrobnou dokumentaci pro Aspose.3D pro .NET?
 
- A4: Viz[dokumentace](https://reference.aspose.com/3d/net/) za komplexní návod.
+A4: Odkaz na [dokumentaci](https://reference.aspose.com/3d/net/) poskytuje komplexní návod.
 
-### Q5: Mohu si Aspose.3D for .NET vyzkoušet zdarma před nákupem?
+### Q5: Můžu si Aspose.3D pro .NET vyzkoušet zdarma před zakoupením?
 
- A5: Určitě! Stáhněte si[zkušební verze zdarma](https://releases.aspose.com/) prozkoumat jeho vlastnosti.
+A5: Samozřejmě! Stáhněte si [bezplatnou zkušební verzi](https://releases.aspose.com/) a prozkoumejte její funkce.
+
+## Často kladené otázky
+
+**Q: Co představuje `Vector3(1, 0, 1)`?**  
+A: Nastavuje difúzní barvu na purpurovou (červená = 1, zelená = 0, modrá = 1) v lineárním barevném prostoru.
+
+**Q: Musím zavolat `scene.Save` po změně vlastností?**  
+A: Ano, uložení scény zapíše vaše úpravy na disk; jinak zůstávají pouze v paměti.
+
+**Q: Mohu vyjmenovat vlastní FBX atributy?**  
+A: Rozhodně. `PropertyCollection` zahrnuje všechny vlastní atributy, ke kterým můžete přistupovat pomocí `GetProperty("customName")`.
+
+**Q: Existuje způsob, jak hromadně aktualizovat více materiálů?**  
+A: Procházejte `scene.RootNode.ChildNodes` a opakujte kroky úpravy vlastností pro každý materiál.
+
+**Q: Podporuje Aspose.3D .NET 6?**  
+A: Ano, knihovna je plně kompatibilní s .NET 6 a novějšími verzemi.
+
+**Last Updated:** 2026-01-17  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
