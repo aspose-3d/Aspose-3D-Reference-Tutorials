@@ -1,86 +1,116 @@
 ---
-title: Hình học và thứ bậc
-linktitle: Hình học và thứ bậc
-second_title: API Aspose.3D .NET
-description: Mở khóa thế giới đồ họa 3D với hướng dẫn Aspose.3D for .NET. Từ việc áp dụng vật liệu PBR đến các phép biến đổi hình học, bạn có thể làm chủ mọi khía cạnh một cách dễ dàng.
-weight: 25
+date: 2026-01-17
+description: Học các kỹ thuật biến đổi hình học 3D với Aspose.3D cho .NET. Áp dụng
+  vật liệu PBR, biến đổi ma trận nút và làm chủ cấu trúc cây trong các hướng dẫn nhập
+  vai.
+linktitle: Geometry and Hierarchy
+second_title: Aspose.3D .NET API
+title: Biến đổi hình học 3D – Hình học và Phân cấp
 url: /vi/net/geometry-and-hierarchy/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hình học và thứ bậc
+# Geometry and Hierarchy
 
-## Giới thiệu
+## Introduction
 
-Bắt tay vào một cuộc hành trình ly kỳ vào thế giới đồ họa 3D với các hướng dẫn Aspose.3D cho .NET. Cho dù bạn là người mới hay nhà phát triển dày dạn kinh nghiệm, những hướng dẫn từng bước này hứa hẹn sẽ nâng cao kỹ năng của bạn và tiết lộ bí mật về thao tác đồ họa 3D liền mạch.
+Chào mừng bạn đến với hướng dẫn toàn diện về **geometric transformation 3d** sử dụng Aspose.3D cho .NET. Dù bạn mới bắt đầu hay đã xây dựng các ứng dụng 3D trong nhiều năm, bộ sưu tập các bài hướng dẫn thực hành này sẽ giúp bạn thành thạo mọi thứ từ việc áp dụng vật liệu PBR đến việc thao tác các node bằng ma trận biến đổi. Hãy cùng khám phá và xem cách bạn có thể biến các khái niệm thành các cảnh 3D thực tế.
 
-## Áp dụng vật liệu PBR vào hộp trong cảnh 3D
+## Geometric Transformation 3D Overview
 
- Đắm mình vào thế giới đầy mê hoặc của các vật liệu Kết xuất dựa trên vật lý (PBR) với Aspose.3D cho .NET. Trong hướng dẫn này, chúng tôi hướng dẫn bạn quy trình áp dụng vật liệu PBR vào hộp, cho phép bạn tạo các cảnh sống động một cách dễ dàng.[Đọc thêm](./apply-pbr-material-to-box/)
+Trong phần này, chúng tôi cung cấp cho bạn một cái nhìn nhanh về các chủ đề chính được đề cập dưới đây. Bạn sẽ học cách:
+
+* Áp dụng vật liệu physically‑based rendering (PBR) lên các đối tượng để có ánh sáng thực tế.  
+* Duyệt và truy vấn cây phân cấp cảnh bằng cú pháp kiểu XPath.  
+* Nối và áp dụng quaternion, góc Euler, và ma trận biến đổi lên các node.  
+
+Mỗi bài hướng dẫn đều độc lập, bao gồm mã mẫu và hiển thị kết quả hình ảnh mong đợi, giúp bạn theo dõi từng bước.
+
+## Applying PBR Material to Box in 3D Scenes
+
+Khám phá sức mạnh của physically based rendering bằng cách học cách **apply PBR material** cho một hộp đơn giản. Bài hướng dẫn này sẽ dẫn bạn qua việc tạo vật liệu, gán nó cho hình học và render cảnh với các phản chiếu thực tế.  
+[Read more](./apply-pbr-material-to-box/)
 
 
-## Truy vấn đối tượng giống XPath
+## XPath-Like Object Queries
 
-[Hướng dẫn truy vấn đối tượng giống XPath](./xpath-like-object-queries/)
+Dễ dàng duyệt các đồ thị cảnh phức tạp bằng các truy vấn kiểu XPath. Hướng dẫn này minh họa cách tìm node, lọc theo loại và thao tác đối tượng mà không cần viết mã duyệt dài dòng.  
+[XPath-Like Object Queries Tutorial](./xpath-like-object-queries/)
 
-Khai phá tiềm năng của Aspose.3D cho .NET! Khai thác tính linh hoạt của các truy vấn giống XPath để dễ dàng điều hướng và thao tác với các đối tượng trong hệ thống phân cấp cảnh. Hãy tải xuống ngay để có trải nghiệm mang tính cách mạng, đơn giản hóa thao tác đồ họa 3D hơn bao giờ hết.
+Khám phá tiềm năng của Aspose.3D cho .NET! Tận dụng tính đa năng của các truy vấn kiểu XPath để dễ dàng duyệt và thao tác các đối tượng trong cây phân cấp cảnh. Tải ngay để có trải nghiệm cách mạng, đơn giản hoá việc thao tác đồ họa 3D như chưa từng có.
 
 
-## Ghép nối các Quaternion trong cảnh 3D
+## Concatenating Quaternions in 3D Scenes
 
- Mở khóa sức mạnh của thao tác quaternion trong cảnh 3D với Aspose.3D cho .NET. Tìm hiểu cách nối các quaternion từng bước một, giải phóng tiềm năng của chúng để tạo ra những biến đổi sâu sắc.[Đọc thêm](./concatenate-quaternions/)
+Học cách kết hợp nhiều phép quay quaternion thành một phép biến đổi mượt mà duy nhất. Ví dụ từng bước sẽ chỉ cho bạn cách xây dựng các hướng phức tạp cho nhân vật hoặc camera hoạt hình.  
+[Read more](./concatenate-quaternions/)
 
-## Tạo cảnh khối trong 3D
+## Creating Cube Scenes in 3D
 
-Tạo các cảnh khối 3D trực quan tuyệt đẹp một cách dễ dàng với Aspose.3D cho .NET. Tải xuống thư viện và làm theo hướng dẫn toàn diện của chúng tôi để phát huy khả năng sáng tạo của bạn.[Đọc thêm](./create-cube-scenes/)
+Tạo một cảnh khối lập phương 3D hoàn chỉnh từ đầu, bao gồm việc tạo mesh, gán vật liệu và xuất cảnh. Bài hướng dẫn này phù hợp cho những người học bằng hình ảnh muốn thấy mọi giai đoạn của quy trình.  
+[Read more](./create-cube-scenes/)
 
-## Phơi bày sự biến đổi hình học trong cảnh 3D
+## Exposing Geometric Transformation in 3D Scenes
 
- Khám phá khả năng vô hạn của đồ họa 3D trong .NET với Aspose.3D. Hướng dẫn này tiết lộ nghệ thuật biến đổi hình học, cung cấp cho bạn các kỹ năng để thao tác các cảnh một cách dễ dàng.[Đọc thêm](./expose-geometric-transformation)
+Tìm hiểu sâu về các nguyên tắc cơ bản của **geometric transformation 3d**—dịch chuyển, quay và thu phóng—được áp dụng lên các node. Bạn sẽ có được hiểu biết vững chắc về cách thao tác bất kỳ đối tượng nào trong cảnh của mình.  
+[Read more](./expose-geometric-transformation)
 
-## Áp dụng vật liệu cho khối trong cảnh 3D
+## Applying Material to Cube in 3D Scenes
 
- Cổng vào thao tác đồ họa 3D liền mạch của bạn bắt đầu từ đây! Khám phá Aspose.3D cho .NET và tìm hiểu cách áp dụng các tài liệu một cách dễ dàng, nâng cao tính chân thực trong các dự án của bạn.[Đọc thêm](./material-to-cube/)
+Khám phá cách tăng tính thực tế cho khối lập phương bằng việc áp dụng texture và shader. Hướng dẫn này sẽ dẫn bạn qua việc thiết lập các thuộc tính vật liệu, ánh xạ UV và render kết quả cuối cùng.  
+[Read more](./material-to-cube/)
 
-## Làm việc với dữ liệu hình học lưới trong cảnh 3D
+## Working with Mesh Geometry Data in 3D Scenes
 
- Nắm vững nghệ thuật lập trình đồ họa 3D với Aspose.3D cho .NET. Tạo, thao tác và lưu các cảnh 3D tuyệt đẹp một cách dễ dàng bằng cách sử dụng dữ liệu hình học dạng lưới.[Đọc thêm](./mesh-geometry-data/)
+Thành thạo việc tạo, chỉnh sửa và tuần tự hoá dữ liệu hình học mesh. Bạn sẽ học cách tạo các đỉnh, pháp tuyến và mặt một cách lập trình, sau đó lưu mesh sang các định dạng 3D phổ biến.  
+[Read more](./mesh-geometry-data/)
 
-## Tìm hiểu hệ thống phân cấp nút trong cảnh 3D
+## Understanding Node Hierarchy in 3D Scenes
 
-Khai phá sức mạnh của Aspose.3D cho .NET! Đi sâu vào thao tác phân cấp nút với hướng dẫn toàn diện này, cho phép bạn tạo các cảnh 3D tuyệt đẹp một cách dễ dàng.[Đọc thêm](./node-hierarchy/)
+Có được cái nhìn rõ ràng về cách các node được tổ chức trong Aspose.3D, và học các kỹ thuật duyệt, thay đổi cha mẹ và tối ưu cấu trúc phân cấp để nâng cao hiệu năng.  
+[Read more](./node-hierarchy/)
 
-## Thiết lập chuẩn trên khối trong cảnh 3D
+## Setting Up Normals on Cube in 3D Scenes
 
- Nâng cao kỹ năng tạo mô hình 3D của bạn với Aspose.3D cho .NET. Tìm hiểu cách thiết lập các chuẩn mực trên khối 3D thông qua hướng dẫn từng bước này, thêm chiều sâu và tính chân thực cho tác phẩm của bạn.[Đọc thêm](./setup-normals-cube/)
+Cải thiện độ chính xác của ánh sáng bằng cách tính và gán normals cho các mặt của khối lập phương. Bài hướng dẫn này giải thích tại sao normals quan trọng và chỉ cho bạn các lời gọi API cần thiết.  
+[Read more](./setup-normals-cube/)
 
-## Thiết lập UV trên khối lập phương trong cảnh 3D
+## Setting Up UV on Cube in 3D Scenes
 
- Khám phá nghệ thuật ánh xạ kết cấu chính xác với Aspose.3D cho .NET. Làm theo hướng dẫn của chúng tôi để thiết lập ánh xạ UV trên khối 3D, tạo ra những cảnh trực quan ấn tượng.[Đọc thêm](./setup-uv-cube/)
+Học các kỹ thuật ánh xạ UV chính xác để bọc texture đúng cách quanh khối lập phương. Hướng dẫn bao gồm các mẹo tránh các lỗi nối dải thường gặp.  
+[Read more](./setup-uv-cube/)
 
-## Chuyển đổi nút bằng góc Euler trong cảnh 3D
+## Transforming Node by Euler Angles in 3D Scenes
 
- Tìm hiểu nghệ thuật chuyển đổi nút 3D dễ dàng với Aspose.3D cho .NET. Hướng dẫn từng bước của chúng tôi đảm bảo mang lại kết quả tuyệt vời cho dự án của bạn khi bạn chuyển đổi các nút bằng góc Euler.[Đọc thêm](./transformation-node-euler-angles/)
+Áp dụng các phép quay góc Euler một cách trực quan lên các node, kèm hướng dẫn xử lý gimbal lock và thứ tự quay để có kết quả dự đoán được.  
+[Read more](./transformation-node-euler-angles/)
 
-## Chuyển đổi nút bằng Quaternion trong cảnh 3D
+## Transforming Node by Quaternion in 3D Scenes
 
-Đi sâu vào thế giới của các phép biến đổi quaternion với Aspose.3D cho .NET. Hướng dẫn thân thiện với người mới bắt đầu này cung cấp hướng dẫn từng bước để chuyển đổi các nút 3D bằng quaternion.[Đọc thêm](./transformation-node-quaternion/)
+Tìm hiểu về các phép quay dựa trên quaternion, cung cấp nội suy mượt mà và tránh gimbal lock. Bài hướng dẫn thân thiện cho người mới này sẽ dẫn bạn qua việc tạo và áp dụng quaternion.  
+[Read more](./transformation-node-quaternion/)
 
-## Chuyển đổi nút bằng ma trận chuyển đổi trong cảnh 3D
+## Transforming Node by Transformation Matrix in 3D Scenes
 
- Dễ dàng chuyển đổi các nút trong cảnh 3D bằng Aspose.3D cho .NET. Hướng dẫn của chúng tôi cung cấp hướng dẫn chi tiết về các phép biến đổi nút bằng cách sử dụng ma trận biến đổi.[Đọc thêm](./transformation-node-matrix/)
+Khám phá cách **transform node matrix** trực tiếp để kiểm soát toàn bộ dịch chuyển, quay và thu phóng trong một thao tác duy nhất. Ví dụ minh họa cách xây dựng ma trận từ đầu và áp dụng nó lên một node.  
+[Read more](./transformation-node-matrix/)
 
-## Lưới tam giác trong cảnh 3D
+## Triangulating Mesh in 3D Scenes
 
- Khám phá sức mạnh của Aspose.3D cho .NET với hướng dẫn từng bước này về cách tạo lưới tam giác 3D một cách dễ dàng. Nâng cao kỹ năng lập mô hình của bạn để có trải nghiệm phong phú hơn.[Đọc thêm](./triangulate-mesh/)
+Chuyển đổi các mesh đa giác phức tạp thành tam giác, một yêu cầu trước cho nhiều engine render. Hướng dẫn này chỉ cho bạn cách sử dụng các công cụ tam giác hoá của Aspose.3D và kiểm tra kết quả.  
+[Read more](./triangulate-mesh/)
 
-Bắt tay vào hành trình thú vị này của hướng dẫn Aspose.3D cho .NET và nâng cao chuyên môn đồ họa 3D của bạn. Đi sâu vào từng hướng dẫn, làm theo các bước và xem kỹ năng của bạn nâng lên tầm cao mới. Chúc mừng mã hóa!
+Bắt đầu hành trình thú vị này với các bài hướng dẫn Aspose.3D cho .NET và nâng cao chuyên môn đồ họa 3D của bạn. Khám phá từng bài hướng dẫn, làm theo các bước, và chứng kiến kỹ năng của bạn vươn lên tầm cao mới. Chúc lập trình vui vẻ!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---

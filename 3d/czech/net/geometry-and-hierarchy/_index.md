@@ -1,10 +1,13 @@
 ---
-title: Geometrie a hierarchie
-linktitle: Geometrie a hierarchie
+date: 2026-01-17
+description: Naučte se techniky geometrických transformací 3D s Aspose.3D pro .NET.
+  Aplikujte PBR materiál, transformujte matici uzlu a ovládejte hierarchii v poutavých
+  tutoriálech.
+linktitle: Geometry and Hierarchy
 second_title: Aspose.3D .NET API
-description: Odemkněte svět 3D grafiky pomocí výukových programů Aspose.3D for .NET. Od aplikace materiálů PBR po geometrické transformace, zvládnete každý aspekt bez námahy.
-weight: 25
+title: Geometrická transformace 3D – Geometrie a hierarchie
 url: /cs/net/geometry-and-hierarchy/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,72 +18,98 @@ url: /cs/net/geometry-and-hierarchy/
 
 ## Úvod
 
-Vydejte se na vzrušující cestu do říše 3D grafiky s návody Aspose.3D for .NET. Ať už jste začátečník nebo ostřílený vývojář, tyto podrobné příručky slibují, že zvýší vaše dovednosti a odhalí tajemství bezproblémové manipulace s 3D grafikou.
+Vítejte v dokonalém průvodci pro **geometric transformation 3d** pomocí Aspose.3D pro .NET. Ať už teprve začínáte, nebo již roky vytváříte 3D aplikace, tato sbírka praktických tutoriálů vám pomůže zvládnout vše od aplikace PBR materiálu po manipulaci s uzly pomocí transformační matice. Ponořme se a podívejme se, jak můžete převést koncepty na reálné 3D scény.
 
-## Aplikace materiálu PBR na box ve 3D scénách
+## Přehled geometrické transformace 3D
 
- Ponořte se do fascinujícího světa materiálů pro fyzikálně založené vykreslování (PBR) s Aspose.3D pro .NET. V tomto tutoriálu vás provedeme procesem aplikace materiálů PBR na krabici, což vám umožní bez námahy vytvářet pohlcující scény.[Přečtěte si více](./apply-pbr-material-to-box/)
+V této sekci vám poskytneme rychlý přehled hlavních témat uvedených níže. Naučíte se, jak:
+
+* Aplikovat materiály založené na fyzikálně založeném renderování (PBR) na objekty pro realistické osvětlení.  
+* Navigovat a dotazovat se na hierarchii scény pomocí syntaxe podobné XPath.  
+* Konkatenovat a aplikovat kvaterniony, Eulerovy úhly a transformační matice na uzly.  
+
+Každý tutoriál je samostatný, obsahuje ukázkový kód a ukazuje očekávaný vizuální výsledek, takže můžete postupovat krok za krokem.
+
+## Aplikace PBR materiálu na krabici ve 3D scénách
+
+Prozkoumejte sílu fyzikálně založeného renderování tím, že se naučíte **aplikovat PBR materiál** na jednoduchou krabici. Tento tutoriál vás provede vytvořením materiálu, přiřazením k geometrii a renderováním scény s realistickými odrazy.  
+[Read more](./apply-pbr-material-to-box/)
 
 
-## Objektové dotazy podobné XPath
+## Objektové dotazy ve stylu XPath
 
-[Výukový program pro objektové dotazy podobné XPath](./xpath-like-object-queries/)
+Navigujte složité grafy scén snadno pomocí dotazů podobných XPath. Tento průvodce ukazuje, jak najít uzly, filtrovat podle typu a manipulovat s objekty bez psaní rozsáhlého kódu pro procházení.  
+[XPath-Like Object Queries Tutorial](./xpath-like-object-queries/)
 
-Odemkněte potenciál Aspose.3D pro .NET! Využijte všestrannost dotazů podobných XPath k snadné navigaci a manipulaci s objekty v hierarchii scény. Stáhněte si nyní a získejte revoluční zážitek, zjednodušující manipulaci s 3D grafikou jako nikdy předtím.
+Odemkněte potenciál Aspose.3D pro .NET! Využijte všestrannost dotazů podobných XPath k snadnému procházení a manipulaci s objekty v hierarchii scény. Stáhněte si nyní a zažijte revoluční přístup, který zjednodušuje manipulaci s 3D grafikou jako nikdy předtím.
 
+## Konkatenace kvaternionů ve 3D scénách
 
-## Zřetězení kvaternionů ve 3D scénách
+Naučte se, jak spojit více rotací kvaternionů do jedné plynulé transformace. Příkladem krok za krokem vám ukážeme, jak vytvořit složité orientace pro animované postavy nebo kamery.  
+[Read more](./concatenate-quaternions/)
 
- Odemkněte sílu quaternionové manipulace ve 3D scénách s Aspose.3D pro .NET. Naučte se zřetězit čtveřice krok za krokem a uvolněte jejich potenciál pro pohlcující transformace.[Přečtěte si více](./concatenate-quaternions/)
+## Vytváření scén s krychlí ve 3D
 
-## Vytváření krychlových scén ve 3D
+Vytvořte kompletní 3D scénu s krychlí od nuly, zahrnující tvorbu mesh, přiřazení materiálu a export scény. Tento tutoriál je ideální pro vizuální studenty, kteří chtějí vidět každý krok pipeline.  
+[Read more](./create-cube-scenes/)
 
-Vytvářejte vizuálně ohromující 3D krychlové scény bez námahy s Aspose.3D pro .NET. Stáhněte si knihovnu a postupujte podle našeho komplexního průvodce, abyste popustili uzdu své kreativitě.[Přečtěte si více](./create-cube-scenes/)
+## Zviditelnění geometrické transformace ve 3D scénách
 
-## Odhalení geometrické transformace ve 3D scénách
+Ponořte se do základů **geometric transformation 3d** — translace, rotace a škálování — aplikovaných na uzly. Získáte pevné pochopení toho, jak manipulovat s jakýmkoli objektem ve vaší scéně.  
+[Read more](./expose-geometric-transformation)
 
- Prozkoumejte neomezené možnosti 3D grafiky v .NET s Aspose.3D. Tento tutoriál odhaluje umění geometrických transformací a poskytuje vám dovednosti snadno manipulovat se scénami.[Přečtěte si více](./expose-geometric-transformation)
+## Aplikace materiálu na krychli ve 3D scénách
 
-## Aplikace materiálu na kostku ve 3D scénách
+Objevte, jak zvýšit realističnost krychle aplikací textur a shaderů. Tento průvodce vás provede nastavením vlastností materiálu, UV mapováním a renderováním finálního výsledku.  
+[Read more](./material-to-cube/)
 
- Vaše brána k bezproblémové manipulaci s 3D grafikou začíná zde! Prozkoumejte Aspose.3D for .NET a naučte se používat materiály bez námahy, čímž zvýšíte realističnost svých projektů.[Přečtěte si více](./material-to-cube/)
+## Práce s daty mesh geometrie ve 3D scénách
 
-## Práce s daty geometrie sítě ve 3D scénách
+Ovládněte tvorbu, úpravy a serializaci dat mesh geometrie. Naučíte se programově generovat vrcholy, normály a plochy a poté uložit mesh do populárních 3D formátů.  
+[Read more](./mesh-geometry-data/)
 
- Ovládněte umění programování 3D grafiky s Aspose.3D pro .NET. Vytvářejte, manipulujte a ukládejte úžasné 3D scény bez námahy pomocí dat geometrie sítě.[Přečtěte si více](./mesh-geometry-data/)
+## Porozumění hierarchii uzlů ve 3D scénách
 
-## Pochopení hierarchie uzlů ve 3D scénách
+Získejte jasný obrázek o tom, jak jsou uzly organizovány v Aspose.3D, a naučte se techniky pro procházení, změnu rodičovství a optimalizaci hierarchických struktur pro výkon.  
+[Read more](./node-hierarchy/)
 
-Odemkněte sílu Aspose.3D pro .NET! Ponořte se do manipulace s hierarchií uzlů pomocí tohoto komplexního průvodce, který vám umožní bez námahy vytvářet úžasné 3D scény.[Přečtěte si více](./node-hierarchy/)
+## Nastavení normál na krychli ve 3D scénách
 
-## Nastavení normálů na krychli ve 3D scénách
+Zlepšete přesnost osvětlení výpočtem a přiřazením normál k plochám krychle. Tento tutoriál vysvětluje, proč jsou normály důležité, a ukazuje přesné API volání, která jsou potřeba.  
+[Read more](./setup-normals-cube/)
 
- Vylepšete své dovednosti v oblasti 3D modelování s Aspose.3D pro .NET. Naučte se nastavit normály na 3D krychli pomocí tohoto podrobného průvodce, který vašim výtvorům přidá hloubku a realismus.[Přečtěte si více](./setup-normals-cube/)
+## Nastavení UV na krychli ve 3D scénách
 
-## Nastavení UV na kostce ve 3D scénách
+Naučte se přesné techniky UV mapování pro správné obalení textur kolem krychle. Průvodce obsahuje tipy, jak se vyhnout běžným artefaktům při šití.  
+[Read more](./setup-uv-cube/)
 
- Objevte umění přesného mapování textur s Aspose.3D pro .NET. Podle našeho návodu nastavte UV mapování na 3D krychli a vytvořte vizuálně úžasné scény.[Přečtěte si více](./setup-uv-cube/)
+## Transformace uzlu pomocí Eulerových úhlů ve 3D scénách
 
-## Transforming Node od Euler Angles ve 3D scénách
+Aplikujte intuitivní rotace pomocí Eulerových úhlů na uzly, s návodem na řešení gimbal lock a pořadí rotací pro předvídatelné výsledky.  
+[Read more](./transformation-node-euler-angles/)
 
- Naučte se umění snadné transformace 3D uzlů s Aspose.3D pro .NET. Náš podrobný průvodce zajišťuje úžasné výsledky ve vašich projektech při transformaci uzlů pomocí Eulerových úhlů.[Přečtěte si více](./transformation-node-euler-angles/)
+## Transformace uzlu pomocí kvaternionu ve 3D scénách
 
-## Transforming Node by Quaternion ve 3D scénách
+Ponořte se do rotací založených na kvaternionu, které poskytují plynulou interpolaci a vyhýbají se gimbal lock. Tento přívětivý tutoriál pro začátečníky vás provede tvorbou a aplikací kvaternionů.  
+[Read more](./transformation-node-quaternion/)
 
-Ponořte se do světa quaternionových transformací s Aspose.3D pro .NET. Tato příručka pro začátečníky poskytuje návod krok za krokem pro transformaci 3D uzlů pomocí čtveřice.[Přečtěte si více](./transformation-node-quaternion/)
+## Transformace uzlu pomocí transformační matice ve 3D scénách
 
-## Transforming Node pomocí Transformation Matrix ve 3D scénách
+Objevte, jak **transform node matrix** přímo pro plnou kontrolu nad translací, rotací a škálováním v jedné operaci. Příklad ukazuje, jak vytvořit matici od nuly a aplikovat ji na uzel.  
+[Read more](./transformation-node-matrix/)
 
- Bez námahy transformujte uzly ve 3D scénách pomocí Aspose.3D for .NET. Náš tutoriál poskytuje podrobný návod na transformace uzlů pomocí transformačních matic.[Přečtěte si více](./transformation-node-matrix/)
+## Triangulace mesh ve 3D scénách
 
-## Triangulační síť ve 3D scénách
+Převádějte složité polygonové meshe na trojúhelníky, což je předpoklad pro mnoho renderovacích enginů. Tento průvodce vám ukáže, jak použít triangulační utility Aspose.3D a ověřit výstup.  
+[Read more](./triangulate-mesh/)
 
- Prozkoumejte sílu Aspose.3D pro .NET pomocí tohoto podrobného průvodce jednoduchým triangulací 3D sítí. Vylepšete své modelovací dovednosti a získáte pohlcující zážitek.[Přečtěte si více](./triangulate-mesh/)
+Vydejte se na tuto vzrušující cestu tutoriály Aspose.3D pro .NET a posuňte své znalosti 3D grafiky na vyšší úroveň. Ponořte se do každého tutoriálu, postupujte podle kroků a sledujte, jak vaše dovednosti stoupají do nových výšin. Šťastné kódování!
 
-Vydejte se na tuto vzrušující cestu výukových programů Aspose.3D for .NET a pozvedněte své znalosti 3D grafiky. Ponořte se do každého tutoriálu, postupujte podle kroků a sledujte, jak vaše dovednosti stoupají do nových výšin. Šťastné kódování!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
