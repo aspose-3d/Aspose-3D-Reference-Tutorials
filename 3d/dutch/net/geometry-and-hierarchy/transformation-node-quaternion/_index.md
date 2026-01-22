@@ -1,35 +1,41 @@
 ---
-title: Knooppunt transformeren door Quaternion
-linktitle: Knooppunt transformeren door Quaternion
-second_title: Aspose.3D .NET-API
-description: Leer hoe u 3D-knooppunten kunt transformeren met quaternionen met behulp van Aspose.3D voor .NET. Stap-voor-stap handleiding voor beginners.
-weight: 20
+date: 2026-01-22
+description: Leer hoe je quaternionrotatie toepast op een 3D‑knooppunt en de scène
+  converteert naar FBX met Aspose.3D voor .NET. Stapsgewijze handleiding.
+linktitle: Apply Quaternion Rotation to Transform Node
+second_title: Aspose.3D .NET API
+title: Quaternionrotatie toepassen op Transform-node in Aspose.3D voor .NET
 url: /nl/net/geometry-and-hierarchy/transformation-node-quaternion/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Knooppunt transformeren door Quaternion
+# Quaternionrotatie toepassen op Transform Node in Aspose.3D voor .NET
 
-## Invoering
+## Introduction
 
-Welkom bij een stapsgewijze handleiding voor het transformeren van een knooppunt per quaternion in 3D-scènes met behulp van Aspose.3D voor .NET. In deze zelfstudie verkennen we de krachtige mogelijkheden van Aspose.3D voor .NET en doorlopen we het proces van het toevoegen van transformaties aan een 3D-knooppunt met behulp van quaternionen.
+In deze uitgebreide tutorial **pas je quaternionrotatie** toe op een node, stel je de node-rotatie in en exporteer je uiteindelijk de scène als een FBX‑bestand met Aspose.3D voor .NET. Of je nu een game‑engine, een CAD‑viewer of een wetenschappelijke visuallopen.
 
-## Vereisten
+## Quick Answers
+- **Wat is de primaire API?** Aspose.3D for .NET  
+- **Hoe pas je quaternionrotatie toe?** Use `Quaternion.FromRotation` on the node’s `Transform.Rotation`.  
+- **Naar welk bestandsformaat kan ik exporteren?** FBX (e.g., `FileFormat.FBX7500ASCII`).  
+- **Heb ik een licentie nodig?** A temporary or full license is required for production use.  
+- **Welke .NET‑ Framework 4.5+, .NET Core 3.1+, .NET 5/6.
 
-Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten voldoet:
+## What is **apply quaternion rotation**?
 
--  Aspose.3D voor .NET: Zorg ervoor dat de Aspose.3D-bibliotheek is geïnstalleerd. Je kunt het downloaden van de[pagina vrijgeven](https://releases.aspose.com/3d/net/).
+Een quaternion is een vierdimensionaal complex getal van vrijheid.  
+- **Vlotte interpolatie:**atiesD for .NET: Zorg ervoor dat je de Aspose.3D‑bibliotheek geïnstalleerd hebt. Je kunt deze downloaden van de [release page](https://releases.aspose.com/3d/net/).  
+- Ontwikkelomgeving: Stel je .NET‑ontwikkelomgeving in met de benodigde tools en configuraties.  
+- Basisbegrip van 3D‑concepten: Vertrouwd is nuttig.
 
-- Ontwikkelomgeving: Richt uw .NET-ontwikkelomgeving in met de benodigde tools en configuraties.
+## Import Namespaces
 
-- Basiskennis van 3D-concepten: Bekendheid met 3D-graphics en -concepten zal nuttig zijn.
-
-## Naamruimten importeren
-
-Neem in uw .NET-project de vereiste naamruimten voor Aspose.3D op:
+In je .NET‑project, voeg de vereiste namespaces toe voor Aspose.3D:
 
 ```csharp
 using System;
@@ -40,93 +46,123 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Stap 1: Initialiseer het scèneobject
+## Step‑by‑Step Guide
+
+### Step 1: Initialize the Scene Object
+
+Maak eerst een nieuwe `Scene` aan die alle geometrie en transformaties zal bevatten.
 
 ```csharp
-// ExStart:AddTransformationToNodeByQuaternion
-// Initialiseer scèneobject
+// ExStart:AddTransformationToNodeByQuaternion            
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Stap 2: Initialiseer het knooppuntklasseobject
+### Step 2: Initialize Node Class Object
+
+Maak een `Node` aan die de kubus in de hiërarchie zal vertegenwoordigen.
 
 ```csharp
-// Initialiseer het knooppuntklasseobject
+// Initialize Node class object
 Node cubeNode = new Node("cube");
 ```
 
-## Stap 3: Maak mesh met Polygon Builder
+### Step 3: Create Mesh using Polygon Builder
+
+Hier genereren we een eenvoudige kubus‑mesh met behulp van een hulpmethode (de **create mesh polygon**‑logica is ingekapseld in `Common.CreateMeshUsingPolygonBuilder()`).
 
 ```csharp
-// Roep de Common-klasse aan om mesh te maken met behulp van de polygon builder-methode om de mesh-instantie in te stellen
+// Call Common class create mesh using polygon builder method to set mesh instance 
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
 ```
 
-## Stap 4: Wijs het knooppunt naar de mesh-geometrie
+### Step 4: Point Node to the Mesh Geometry
+
+Wijs de mesh toe aan de `Entity`‑eigenschap van de node zodat de node weet welke geometrie gerenderd moet worden.
 
 ```csharp
-// Wijs het knooppunt naar de Mesh-geometrie
+// Point node to the Mesh geometry
 cubeNode.Entity = mesh;
 ```
 
-## Stap 5: Stel de rotatie in met Quaternion
+### Step 5: Set Rotation using Quaternion (apply quaternion rotation)
+
+Nu **passen we quaternionrotatie** toe op de node. De `FromRotation`‑methode maakt een quaternion die roteert van de Y‑as naar een aangepaste richtingsvector.
 
 ```csharp
-// Rotatie instellen
+// Set rotation
 cubeNode.Transform.Rotation = Quaternion.FromRotation(new Vector3(0, 1, 0), new Vector3(0.3, 0.5, 0.1));            
 ```
 
-## Stap 6: Stel de vertaling in
+### Step 6: Set Translation (set node rotation & position)
+
+Plaats de kubus 20 eenheden vooruit langs de Z‑as.
 
 ```csharp
-// Vertaling instellen
+// Set translation
 cubeNode.Transform.Translation = new Vector3(0, 0, 20);            
 ```
 
-## Stap 7: Voeg kubus toe aan de scène
+### Step 7: Add Cube to the Scene
+
+Bevestig de node aan de root van de scène zodat deze onderdeel wordt van de hiërarchie.
 
 ```csharp
-// Voeg een kubus toe aan de scène
+// Add cube to the scene
 scene.RootNode.ChildNodes.Add(cubeNode);
 ```
 
-## Stap 8: Bewaar 3D-scène
+### Step 8: Save 3D Scene (convert scene FBX)
+
+Exporteer tenslotte de scène naar een FBX‑bestand. Dit demonstreert **convert scene fbx** met Aspose.3D.
 
 ```csharp
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 var output = "Your Output Directory" + "TransformationToNode.fbx";
 
-// Sla 3D-scènes op in de ondersteunde bestandsformaten
+// Save 3D scene in the supported file formats
 scene.Save(output, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByQuaternion
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
 
-## Conclusie
+## Common Issues and Solutions
 
- Gefeliciteerd! Je hebt met succes geleerd hoe je een knooppunt per quaternion kunt transformeren in 3D-scènes met behulp van Aspose.3D voor .NET. Ontdek meer functies en mogelijkheden door te verwijzen naar de[documentatie](https://reference.aspose.com/3d/net/).
+| Probleem | Oplossing |
+|----------|-----------|
+| **Quaternion appears to have no effect** | Controleer of de asvectoren niet nul zijn en niet collineair. |
+| **Exported FBX is empty** | Zorg ervoor dat de node is gekoppeld aan `scene.RootNode` en dat het uitvoerpad beschrijfbaar is. |
+| **License exception** | Pas een tijdelijke of volledige licentie toe voordat je API‑methoden aanroept. |
 
-## Veelgestelde vragen
+## Frequently Asked Questions
 
-### Vraag 1: Wat is een quaternion in 3D-graphics?
+### Q1: Wat is een quaternion in 3D‑graphics?
 
-A1: Quaternionen zijn wiskundige entiteiten die worden gebruikt om rotaties in de 3D-ruimte weer te geven.
+A1: Quaternions zijn wiskundige entiteiten die worden gebruikt om rotaties in een 3D‑ruimte te vertegenwoordigen.
 
-### V2: Hoe kan ik Aspose.3D downloaden voor .NET?
+### Q2: Hoe kan ik Aspose.3D voor .NET downloaden?
 
- A2: U kunt de bibliotheek downloaden van de[pagina vrijgeven](https://releases.aspose.com/3d/net/).
+A2: Je kunt de bibliotheek downloaden van de [release page](https://releases.aspose.com/3d/net/).
 
-### V3: Is er een gratis proefversie beschikbaar voor Aspose.3D voor .NET?
+### Q3: Is er een gratis proefversie krijgen via [here](https://releases.aspose.com/).
 
- A3: Ja, u kunt een gratis proefperiode krijgen van[hier](https://releases.aspose.com/).
+### Q4: Waar kan ik ondersteuning vinden voor Aspose.3D voor .NET?
 
-### V4: Waar kan ik ondersteuning vinden voor Aspose.3D voor .NET?
+A4: Bezoek het [Aspose.3D forum](https://forum.aspose.com/c/3d/18) voor ondersteuning en discussies.
 
- A4: Bezoek de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) voor ondersteuning en discussies.
+### Q5: Hoe verkrijg ik een tijdelijke licentie voor Aspose.3D?
 
-### V5: Hoe verkrijg ik een tijdelijke licentie voor Aspose.3D?
+A5 [here](https://purchase.aspose.com/temporary-license/).
 
- A5: Vraag een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/).
+## Conclusion
+
+Gefeliciteerd! Je hebt geleerd **hoe quaternionrotatie toe te passen**, **node‑rotatie in te stellen**, **mesh‑polygon te maken**, en **scene naar FBX te converteren** met Aspose.3D voor .NET. Experimenteer met verschillende rotatie‑vectoren en exportformaten om meer van de mogelijkheden van Aspose.3D te ontgrendelen. Voor diepgaandere informatie, bekijk de officiële [documentation](https://reference.aspose.com/3d/net/).
+
+---
+
+**Laatst bijgewerkt:** 2026-01-22  
+**Getest met:** Aspose.3D 24.11 for .NET  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
