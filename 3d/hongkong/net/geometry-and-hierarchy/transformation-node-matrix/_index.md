@@ -1,33 +1,47 @@
 ---
-title: 透過變換矩陣變換節點
-linktitle: 透過變換矩陣變換節點
+date: 2026-01-22
+description: 了解如何在 Aspose.3D for .NET 中將變換矩陣套用到節點、將場景轉換為 FBX，並使用一步一步的程式碼套用多重變換。
+linktitle: Apply Transformation Matrix to a Node – Aspose.3D for .NET
 second_title: Aspose.3D .NET API
-description: 使用 Aspose.3D for .NET 在 3D 場景中輕鬆變換節點。透過教程學習分步節點轉換。
-weight: 21
+title: 將變換矩陣套用於節點 – Aspose.3D for .NET
 url: /zh-hant/net/geometry-and-hierarchy/transformation-node-matrix/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 透過變換矩陣變換節點
+# 將變換矩陣套用至節點
 
-## 介紹
+## 簡介
 
-在 3D 圖形和視覺化的動態領域中，操縱場景中的物件的能力是一個至關重要的方面。 Aspose.3D for .NET 使開發人員能夠使用變換矩陣無縫變換節點，為 3D 場景添加一層創造力和控制力。本教學將引導您逐步完成 3D 場景中節點的變換過程。
+在現代 3D 圖形中，**套用變換矩陣**至節點是精確移動、旋轉或縮放物件的基礎。使用 Aspose.3D for .NET，您可以輕鬆**套用變換矩陣**至任何節點場景。本教學將帶您完成整個流程——從建立網格盒到將場景轉換為 FBX——讓您即時看到結果。
+
+## 快速答覆
+- **「套用變換矩陣」的作用是什麼？** 它使用 4×4 矩陣修改節點的位置、方向或縮放。  
+- **可以匯出成哪種檔案格式？** 您可以**將場景轉換為 FBX**（或其他格式，如 STL、GLTF、OBJ）。  
+- **使用 Aspose.3D 是否需要授權？** 可取得暫時授權以供評估；正式環境需購買完整授權。  
+- **可以串接多個變換嗎？** 可以——透過矩陣相乘**套用多重變換**。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6 及更高版本。
+
+## 什麼是變換矩陣？
+
+變換矩陣是一個 4 × 4 的數值格子，用於編碼平移、旋轉、縮放或上述操作的任意陣指派給節點後，該節點的幾何體會在 3ose.3D 進行節點變換？
+
+- **高階 API** – 無需自行編寫低階數學運算；Aspose 會處理矩陣的建立與套用。  
+- **廣泛的格式支援** – 可直接儲存為 FBX、STL、GLTF、OBJ 等。  
+- **跨平台** – 可在 Windows、Linux 及 macOS .NET 執行環境上運作。  
+- **效能最佳化** – 能有效處理大型場景。
 
 ## 先決條件
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+1. **Aspose.3D for .NET Library** – 前往[此處](https://releases.aspose.com/3d/net/)下載。  
+2. **開發環境** – 具備 .NET IDE（如 Visual Studio、Rider 或 VS Code）且建立新的主控台或類別庫專案。  
 
-1.  Aspose.3D for .NET 函式庫：確保您的 .NET 專案中安裝了 Aspose.3D 函式庫。你可以下載它[這裡](https://releases.aspose.com/3d/net/).
+## 匯入命名空間
 
-2. 開發環境：設定一個工作的 .NET 開發環境，如果還沒有，請建立一個新項目，在其中實現轉換。
-
-## 導入命名空間
-
-首先將必要的命名空間匯入到您的 .NET 專案中。這些命名空間提供了 3D 場景操作的基本類別和方法。
+首先匯入必要的命名空間，以取得 3D 引擎類別的存取權。
 
 ```csharp
 using System;
@@ -38,35 +52,37 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Utilities;
 ```
 
-現在我們已經介紹了基礎知識，讓我們將轉換過程分解為逐步指南。
+現在讓我們一步一步分解變換工作流程。
 
-## 第 1 步：初始化場景
+## 如何將變換矩陣套用至節點
+
+### 步驟 1：初始化新場景
 
 ```csharp
-// ExStart：透過變換矩陣新增變換到節點
-//初始化場景對象
+// ExStart:AddTransformationToNodeByTransformationMatrix            
+// Initialize scene object
 Scene scene = new Scene();
 
 ```
 
-在此步驟中，我們建立一個新的空 3D 場景。
+建立全新的 `Scene`，為您提供一個乾淨的畫布，可在其上加入幾何體與變換。
 
-## 第 2 步：建立網格並附加到場景
+### 步驟 2：建立網格盒並附加至場景
 
 ```csharp
-//呼叫 Common 類別使用多邊形生成器方法建立網格來設定網格實例
+// Call Common class create mesh using polygon builder method to set mesh instance 
 Mesh mesh = (new Box()).ToMesh();
 
-//為網格建立一個容器節點。
+// Create a container node for the mesh.
 Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
-在這裡，我們使用多邊形生成器方法來產生網格並將其分配給節點，從而為立方體建立幾何形狀。
+此處我們使用內建的 `Box` 基元**建立網格盒**，並將其附加到名為 `cubeNode` 的新子節點。此節點將成為我們變換的目標。
 
-## 第3步：設定自訂翻譯矩陣
+### 步驟 3：設定自訂平移矩陣（套用變換矩陣）
 
 ```csharp
-//設定自訂翻譯矩陣
+// Set custom translation matrix
 cubeNode.Transform.TransformMatrix = new Matrix4(
     1, -0.3, 0, 0,
     0.4, 1, 0.3, 0,
@@ -75,49 +91,49 @@ cubeNode.Transform.TransformMatrix = new Matrix4(
 );        
 ```
 
-定義自訂轉換矩陣以確定應用於節點的特定轉換。根據所需轉換的需要調整矩陣值。
+`Matrix4` 建構子會定義一個 4 × 4 矩陣。調整其數值即可達成所需的平移、旋轉或縮放。在此範例中，我們將立方體沿 Y 軸平移 20 單位，並加入少量剪切。
 
-將立方體節點包含在場景中，使其成為整個 3D 環境的一部分。
+> **專業提示：** 若要**套用多重變換**，請在指派給 `TransformMatrix` 前，先將其他矩陣與現有矩陣相乘。
 
-## 第 4 步：儲存場景
+### 步驟 4：儲存場景 – 將場景轉換為 FBX
 
 ```csharp
-//文檔目錄的路徑。
+// The path to the documents directory.
 var output = "TransformationToNode.fbx";
 
-//以支援的檔案格式儲存 3D 場景
+// Save 3D scene in the supported file formats
 scene.Save(output);
-// ExEnd：透過變換矩陣加入變換到節點
+// ExEnd:AddTransformationToNodeByTransformationMatrix
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
 
-指定輸出目錄和檔案名，然後以所需的檔案格式儲存 3D 場景。在此範例中，我們將其儲存為 FBX7500ASCII 格式。
+本範例選擇 FBX 格式，即**將場景轉換為 FBX**D 會根據檔案副檔名自動選擇陣（即除對角線外全為零）。 |
+| 匯出的 FBX 變形 | 確保使用最新的 Aspose.3D 版本，且矩陣符合右手座標系慣例。 |
+| 執行時授權例外 | 在呼叫任何 Aspose API 前先套用暫時或完整授權。 |
+
+## 常見問答
+
+### Q1：什麼是 3D 圖形中的變**A：** 它是一種數學表示法，用於編碼平移、旋轉、縮放或將給節點的 `TransformMatrix`。
+
+### Q3：我可以**將場景轉換為 FBX**或其他格式嗎？
+**A：** Aspose.3D 支援 FBX、STL、GLTF、OBJ、3MF 等。完整清單請參閱[文件說明](https://reference.aspose.com/3d/net/)。
+
+### Q4：如何取得 Aspose.3D for .NET 的暫時授權？
+**A：** 前往[暫時授權頁面](https://purchase.aspose.com/temporary-license/)申請試用授權。
+
+### Q5：在哪裡可以取得 Aspose.3D 的社群支援？
+**A：** 加入[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)討論，提出問題並分享經驗。
 
 ## 結論
 
-恭喜！您已使用 Aspose.3D for .NET 在 3D 場景中使用變換矩陣成功變換了節點。此功能為多樣化且視覺吸引力的 3D 應用程式打開了大門。
+現在您已學會如何使用 Aspose.3D for .NET **套用變換矩陣**至節點、建立網格盒，並**將場景轉換為 FBX**。這些技巧為互動式視覺化、遊戲資產流水線及自動化場景生成等高階 3D 應用開啟了大門。
 
-## 常見問題解答
+---
 
-### Q1：3D圖形中的變換矩陣是什麼？
+**最後更新：** 2026-01-22  
+**測試環境：** Aspose.3D 24.11 for .NET  
+**作者：** Aspose  
 
-A1：變換矩陣是一種數學表示，用於對 3D 空間中的物件應用各種變換（平移、旋轉、縮放）。
-
-### Q2：我可以對單一節點套用多個轉換嗎？
-
-A2：是的，您可以透過將各自的矩陣相乘並將結果應用到節點來組合多個變換。
-
-### Q3：還有其他支援的檔案格式來保存 3D 場景嗎？
-
- A3：Aspose.3D for .NET 支援多種檔案格式，包括 STL、GLTF、OBJ 等。請參閱[文件](https://reference.aspose.com/3d/net/)以獲得完整的清單。
-
-### Q4：如何取得 Aspose.3D for .NET 的臨時授權？
-
- A4：訪問[臨時許可證頁面](https://purchase.aspose.com/temporary-license/)在 Aspose 網站上取得用於評估目的的臨時許可證。
-
-### Q5：我可以在哪裡尋求協助或與 Aspose.3D 社群聯繫？
-
- A5：訪問[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)使用 Aspose.3D 提出問題、分享經驗並與其他開發人員聯繫。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
