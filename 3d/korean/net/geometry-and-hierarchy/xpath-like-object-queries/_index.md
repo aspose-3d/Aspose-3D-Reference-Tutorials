@@ -1,32 +1,40 @@
 ---
-title: XPath와 유사한 개체 쿼리
-linktitle: XPath와 유사한 개체 쿼리
+date: 2026-01-25
+description: Aspose.3D for .NET를 사용하여 장면에 카메라를 추가하고 3D 객체를 조작하는 방법을 배우세요. XPath와 유사한
+  쿼리를 탐색하고, 이름으로 노드를 선택하는 등 다양한 기능을 확인해 보세요.
+linktitle: XPath-Like Object Queries
 second_title: Aspose.3D .NET API
-description: .NET용 Aspose.3D의 성능을 최대한 활용해보세요! XPath와 유사한 쿼리를 사용하여 3D 그래픽을 원활하게 조작합니다. 지금 다운로드하여 획기적인 경험을 해보세요.
-weight: 24
+title: Aspose.3D를 사용하여 장면에 카메라 추가 – XPath 쿼리
 url: /ko/net/geometry-and-hierarchy/xpath-like-object-queries/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# XPath와 유사한 개체 쿼리
+# Aspose.3D로 씬에 카메라 추가 – XPath 쿼리
 
 ## 소개
-.NET용 Aspose.3D의 잠재력을 최대한 활용하기 위한 여정을 시작하면 3D 그래픽 조작의 가능성 영역에 대한 문이 열립니다. 노련한 개발자이든 초보자이든 이 가이드는 Aspose.3D의 기능을 활용하는 방법에 대해 안내합니다.
-## 전제 조건
-Aspose.3D의 마법 같은 세계에 뛰어들기 전에 다음 전제 조건이 갖추어져 있는지 확인하세요.
+이 튜토리얼에서는 **씬에 카메라를 추가**하고 Aspose.3D for .NET에서 강력한 XPath‑유사 객체 쿼리를 사용하는 방법을 알아봅니다. **이름으로 노드 선택**, **단일 객체 선택**, 혹은 **씬에 조명 추가**가 필요하든, 아래 단계는 3D 객체를 생성, 쿼리 및 조작하는 방법을 명확하고 실제 예제로 안내합니다.
+
+## 빠른 답변
+- **씬에 카메라를 어떻게 추가하나요?** `c.CreateChildNode("c1").AddEntity(new Camera("cam"));` 사용
+- **XPath 구문으로 객체를 쿼리할 수 있나요?** 예 – `SelectObjects`와 `SelectSingleObject`가 XPath")` 또는 `"//a1"` 스타일 경로를 사용합니다.
+- **씬에 조명을 어떻게 추가하나요?** 자식 노드에서 `AddEntity(new Light("light"))`를 호출합니다.
+- **지원되는 .NET 버전은?** Aspose.3D는 .NET Framework 2.0 호환됩니다.
+
+## Aspose.3D에서 “씬에 카메라 추가”란 무엇인가요?
+카메라를 추가하면 씬을 렌더링하거나 검사할 수 있는 시점(viewpoint)이 생성됩니다 기준으로층수가 용이하게 만들며, 특히 복잡한 씬에서 유용합니다.
+
+## 사전 요구 사항
 - .NET 프레임워크에 대한 기본 지식
-- 시스템에 설치된 Visual Studio
-- 프로젝트에서 Aspose.3D 라이브러리를 다운로드하고 참조했습니다.
-이제 프로세스를 안내하는 필수 단계를 살펴보겠습니다.
+- Visual Studio 설치
+- 프로젝트에 Aspose.3D 라이브러리(최신 버전) 참조
+
 ## 네임스페이스 가져오기
-Aspose.3D 모험을 시작하려면 먼저 필요한 네임스페이스를 프로젝트로 가져옵니다. 이를 통해 원활한 통합에 필요한 모든 도구에 액세스할 수 있습니다.
-## 1단계: Visual Studio 열기
-Visual Studio를 열고 새 프로젝트를 만들거나 기존 프로젝트를 엽니다.
-## 2단계: Aspose.3D 네임스페이스 추가
-프로젝트에서 코드 파일 시작 부분에 다음 using 문을 추가합니다.
+먼저 필요한 네임스페이스를 가져와 Aspose.3D 클래스에 접근할 수 있도록 합니다.
+
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
@@ -36,15 +44,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 ```
-## XPath와 유사한 개체 쿼리
-Aspose.3D를 사용하면 3D 장면에서 XPath와 유사한 개체 쿼리를 수행하여 개체를 정밀하게 조작할 수 있습니다. 예제를 여러 단계로 나누어 보겠습니다.
-## 1단계: 장면 생성
-테스트용 캔버스 역할을 할 새로운 3D 장면을 만듭니다.
+
+## 단계별 가이드
+
+### 단계 1: Visual Studio 열기
+새 C# 프로젝트를 만들거나 3D 씬 작업을 할 기존 프로젝트를 엽니다.
+
+### 단계 2: 새 씬 만들기 (씬에 카메라 추가)
+향후 모든 객체의 캔버스로 사용할 새로운 `Scene` 객체를 인스턴스화합니다.
+
 ```csharp
 Scene s = new Scene();
 ```
-## 2단계: 장면 채우기
-장면 계층 구조에 노드와 개체를 추가합니다.
+
+### 단계 3: 씬 채우기 – 노드, 카메라 및 조명 추가
+간단한 계층 구조를 만든 뒤 **카메라를 추가**하고 **씬에 조명을 추가**하여 이후 쿼리 예시를 보여줍니다.
+
 ```csharp
 var a = s.RootNode.CreateChildNode("a");
 a.CreateChildNode("a1");
@@ -54,7 +69,9 @@ var c = s.RootNode.CreateChildNode("c");
 c.CreateChildNode("c1").AddEntity(new Camera("cam"));
 c.CreateChildNode("c2").AddEntity(new Light("light"));
 ```
-이제 계층 구조는 다음과 유사합니다.
+
+결과 계층 구조는 다음과 같습니다:
+
 ```
 - Root
     - a
@@ -67,42 +84,73 @@ c.CreateChildNode("c2").AddEntity(new Light("light"));
         - c2
             - light
 ```
-## 3단계: 개체 선택
-장면에서 특정 기준에 따라 개체를 선택합니다.
+
+### 단계 4: 객체 선택 – 3D 객체 쿼리 방법
+XPath‑유사 표현식을 사용하여 모든 카메라 **또는** 이름이 “light”인 노드를 가져옵니다.
+
 ```csharp
-var objects = s.RootNode.SelectObjects("//*[(@Type = '카메라') 또는 (@Name = 'light')]");
+var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
 ```
-## 4단계: 단일 개체 선택
-특정 경로를 사용하여 단일 개체를 선택합니다.
+
+### 단계 5: 단일 객체 선택 – 경로로 단일 객체 선택
+간결한 경로를 사용해 첫 번째 카메라 노드를 직접 가져옵니다.
+
 ```csharp
 var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
 ```
-## 5단계: 이름으로 노드 선택
-계층 구조에 관계없이 이름으로 직접 노드를 선택합니다.
+
+### 단계 6: 이름으로 노드 선택 – 노드 찾는 빠른 방법
+노드 이름을 알고 있다면 계층 구조 내 위치에 관계없이 해당 노드를 가져올 수 있습니다.
+
 ```csharp
 var obj = s.RootNode.SelectSingleObject("a1");
 ```
-## 6단계: 루트 노드 선택
-루트 노드 자체를 선택합니다.
+
+### 단계 7: 루트 노드 선택 – 전역 작업에 유용
+때때로 대규모 변환을 위해 씬의 루트에 대한 참조가 필요합니다.
+
 ```csharp
 obj = s.RootNode.SelectSingleObject("/");
 ```
-## 결론
-축하해요! .NET용 Aspose.3D 사용의 복잡성을 성공적으로 탐색했습니다. 이제 3D 그래픽 조작의 힘을 손쉽게 활용할 수 있습니다.
+
+## 일반적인 문제와 해결책
+
+| 문제 | 해결책 |
+|-------|----------|
+| **쿼리 결과에 카메라가 나타나지 않음** | 노드의 `Entity`가 `Camera`인지, 이름이 쿼리와 대소문자를 구분하여 일치하는지 확인하십시오. |
+| **SelectSingleObject가 null을 반환** | XPath 표현식 구문을 확인하고 절대 경로의 경우 앞에 `/`를 사용하십시오. |
+| **조명이 Light 엔티티만으로는 아무것도 렌더링되지 않음을 기억하십시오. |
+| 저하** | 쿼리를 서브트리(`RootNode.SelectObjects("//c/*")`)로 제한하거나 가능하면 결과를 캐시하십시오. |
+
 ## 자주 묻는 질문
-### Aspose.3D는 모든 .NET 버전과 호환됩니까?
-Aspose.3D는 .NET Framework 2.0 이상과 호환됩니다.
-### 3D 모델링과 렌더링 모두에 Aspose.3D를 사용할 수 있습니까?
-전적으로! Aspose.3D는 모델링과 렌더링을 위한 다양한 도구 세트를 제공합니다.
-### 무료 평가판에 라이선스 제약이 있나요?
-무료 평가판 버전에는 제한된 기능이 제공됩니다. 자세한 내용은 설명서를 확인하세요.
-### Aspose.3D에 대한 커뮤니티 지원은 어떻게 받을 수 있나요?
- 방문하다[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18) 지역 사회 지원을 위해.
-### Aspose.3D는 다른 .NET용 3D 라이브러리에 비해 어떤 이점을 제공합니까?
-Aspose.3D는 강력한 개체 쿼리 및 강력한 렌더링 기능을 포함한 포괄적인 기능 세트를 제공합니다.
+
+**Q: Aspose.3D가 모든 .NET 버전과 호환되나요?**  
+A: Aspose.3D는 .NET Framework 2.0 이상과 .NET Core, .NET 5, .NET 6을 지원합니다.
+
+**Q: Aspose.3D를 3D 모델링과 렌더링 모두에 사용할 수 있나요?**  
+A: 물론입니다. 이 라이브러리는 3D 모델을 생성, 편집 및 렌더링하는 도구를 제공합니다.
+
+**?**  
+A: 체험 버전은 기능이 제한되어 있으며, 실제 운영에서는 정식 라이선스가 필요합니다.
+
+**Q: Aspose.3D에 대한 커뮤니티 지원은 어떻게 받을 수 있나요?**  
+A: 팁, 예제 및 다른 개발자들의 도움을 받으려면 [Aspose.3D 포럼](https://forum.aspose.com/c/3d/18)을 방문하십시오.
+
+**Q: .NET용 다른 3D 라이브러리 대비 Aspose.3D의 장점은 무엇인가요?**  
+A: 객체 쿼리를 위한 풍부한 API, 견고한 씬 관리, 외부 종속성 없이 크로스‑플랫폼 호환성을 결합합니다.
+
+## 결론
+이제 Aspose.3D for .NET에서 XPath‑유사 구문을 사용해 **씬에 카메라를 추가**, **씬에 조명을 추가**, 그리고 **3D 객체를 쿼리**하는 방법을 배웠습니다. 이러한 기술을 통해 복잡한 계층 구조를 효율적으로 조작하고, 이름으로 노드를 선택하며, 단일 객체를 가져올 수 있어 현대 3D 애플리케이션에 필수적입니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**마지막 업데이트:** 2026-01-25  
+**테스트 환경:** Aspose.3D 24.11 for .NET  
+**작성자:** Aspose

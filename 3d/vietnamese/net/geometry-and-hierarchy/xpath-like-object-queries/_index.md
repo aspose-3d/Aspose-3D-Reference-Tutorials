@@ -1,32 +1,40 @@
 ---
-title: Truy vấn đối tượng giống XPath
-linktitle: Truy vấn đối tượng giống XPath
-second_title: API Aspose.3D .NET
-description: Giải phóng sức mạnh của Aspose.3D cho .NET! Thao tác liền mạch đồ họa 3D với các truy vấn giống XPath. Tải xuống ngay để có trải nghiệm thay đổi trò chơi.
-weight: 24
+date: 2026-01-25
+description: Tìm hiểu cách thêm camera vào cảnh và thao tác các đối tượng 3D bằng
+  Aspose.3D cho .NET. Khám phá các truy vấn kiểu XPath, chọn nút theo tên và nhiều
+  hơn nữa.
+linktitle: XPath-Like Object Queries
+second_title: Aspose.3D .NET API
+title: Thêm Camera vào Cảnh với Aspose.3D – Truy vấn XPath
 url: /vi/net/geometry-and-hierarchy/xpath-like-object-queries/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Truy vấn đối tượng giống XPath
+# Thêm Camera vào Cảnh với Aspose.3D – Truy vấn XPath
 
 ## Giới thiệu
-Bắt tay vào hành trình giải phóng toàn bộ tiềm năng của Aspose.3D cho .NET sẽ mở ra cánh cửa dẫn đến nhiều khả năng trong thao tác đồ họa 3D. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, hướng dẫn này sẽ hướng dẫn bạn các sắc thái của việc khai thác các khả năng của Aspose.3D.
-## Điều kiện tiên quyết
-Trước khi đi sâu vào thế giới kỳ diệu của Aspose.3D, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+Trong hướng dẫn này, bạn sẽ khám phá cách **thêm một camera vào cảnh** và làm việc với các truy vấn đối tượng kiểu XPath mạnh mẽ trong Aspose.3D cho .NET. Dù bạn cần **chọn nút theo tên**, **chọn một đối tượng duy nhất**, hay chỉ đơn giản **thêm ánh sáng vào cảnh**, các bước dưới đây sẽ hướng dẫn bạn tạo pháp XPath cần?** Sử dụng `SelectSingleObject("a1")` hoặc các đường dẫn kiểu `"//a1"`.
+- **Làm sao để thêm ánh sáng vào cảnh?** Gọi `AddEntity(new Light("light"))` trên một nút con.
+- **Các phiên bản .NET nào được hỗ trợ?** Aspose.3D hoạt động với .NET Framework 2.0+ và .NET Core/5/6.
+
+## “Thêm camera vào cảnh” trong Aspose.3D là gì?
+Thêm một camera tạo ra một góc nhìn từ đó cảnh có thể được render hoặc kiểm tra. Camera hoạt động giống như bất kỳ thực thể 3D nào khác, vì vậy bạn có thể định vị, xoay và truy vấn nó giống như mesh hoặc light.
+
+## Tại sao nên sử dụng truy vấn đối tượng kiểu XPath?
+Các truy vấn kiểu XPath cho phép bạn định vị đối tượng dựa trên loại, tên hoặc thuộc tính tùy chỉnh mà không cần duyệt thủ công qua cấu trúc cây nút. Điều này làm cho **việc thao tác các đối tượng 3D** trở nên nhanh chóng, dễ đọc và dễ bảo trì—đặc biệt trong các cảnh phức tạp.
+
+## Yêu cầu trước
 - Kiến thức cơ bản về .NET framework
-- Visual Studio được cài đặt trên hệ thống của bạn
-- Thư viện Aspose.3D được tải xuống và tham chiếu trong dự án của bạn
-Bây giờ, hãy đi sâu vào các bước thiết yếu sẽ hướng dẫn bạn thực hiện quy trình.
-## Nhập không gian tên
-Để bắt đầu cuộc phiêu lưu Aspose.3D của bạn, hãy bắt đầu bằng cách nhập các không gian tên cần thiết vào dự án của bạn. Điều này sẽ đảm bảo rằng bạn có quyền truy cập vào tất cả các công cụ cần thiết để tích hợp liền mạch.
-## Bước 1: Mở Visual Studio
-Mở Visual Studio và tạo một dự án mới hoặc mở một dự án hiện có.
-## Bước 2: Thêm không gian tên Aspose.3D
-Trong dự án của bạn, hãy thêm câu lệnh sử dụng sau vào đầu tệp mã của bạn:
+- Đã cài đặt Visual Studio
+- Thư viện Aspose.3D đã được tham chiếu trong dự án của bạn (phiên bản mới nhất)
+
+## Nhập các Namespace
+Bắt đầu bằng cách nhập các namespace cần thiết để bạn có quyền truy cập vào tất cả các lớp của Aspose.3D.
+
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
@@ -36,15 +44,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 ```
-## Truy vấn đối tượng giống XPath
-Aspose.3D cho phép bạn thực hiện các truy vấn đối tượng giống XPath trên các cảnh 3D của mình, cho phép thao tác chính xác với các đối tượng. Hãy chia nhỏ ví dụ thành nhiều bước.
-## Bước 1: Tạo cảnh
-Tạo cảnh 3D mới làm khung vẽ để thử nghiệm:
+
+## Hướng dẫn từng bước
+
+### Bước 1: Mở Visual Studio
+Tạo một dự án C# mới hoặc mở dự án hiện có nơi bạn muốn làm việc với các cảnh 3D.
+
+### Bước 2: Tạo một Cảnh Mới (Thêm Camera vào Cảnh)
+Khởi tạo một đối tượng `Scene` mới sẽ làm nền cho tất cả các đối tượng tiếp theo.
+
 ```csharp
 Scene s = new Scene();
 ```
-## Bước 2: Điền vào cảnh
-Thêm các nút và thực thể vào hệ thống phân cấp cảnh:
+
+### Bước 3: Điền nội dung vào Cảnh – Thêm Nodes, Camera và Light
+Xây dựng một cấu trúc đơn giản, sau đó **thêm một camera** và **thêm ánh sáng vào cảnh** để minh họa việc truy vấn sau này.
+
 ```csharp
 var a = s.RootNode.CreateChildNode("a");
 a.CreateChildNode("a1");
@@ -54,7 +69,9 @@ var c = s.RootNode.CreateChildNode("c");
 c.CreateChildNode("c1").AddEntity(new Camera("cam"));
 c.CreateChildNode("c2").AddEntity(new Light("light"));
 ```
-Hệ thống phân cấp bây giờ giống như:
+
+Cấu trúc cây kết quả trông như sau:
+
 ```
 - Root
     - a
@@ -67,42 +84,68 @@ Hệ thống phân cấp bây giờ giống như:
         - c2
             - light
 ```
-## Bước 3: Chọn đối tượng
-Chọn các đối tượng có tiêu chí cụ thể từ hiện trường:
+
+### Bước 4: Chọn Đối tượng – Cách truy vấn các đối tượng 3D
+Sử dụng một biểu thức kiểu XPath để lấy tất cả các camera **hoặc** bất kỳ nút nào có tên “light”.
+
 ```csharp
-var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') hoặc (@Name = 'light')]");
+var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
 ```
-## Bước 4: Chọn đối tượng đơn
-Chọn một đối tượng bằng một đường dẫn cụ thể:
+
+### Bước 5: Chọn Một Đối tượng Đơn – Chọn đối tượng duy nhất bằng đường dẫn
+Lấy nút camera đầu tiên trực tiếp bằng một đường dẫn ngắn gọn.
+
 ```csharp
 var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
 ```
-## Bước 5: Chọn nút theo tên
-Chọn một nút trực tiếp theo tên của nó, không phân biệt thứ bậc:
+
+### Bước 6: Chọn Nút Theo Tên – Cách nhanh để định vị một nút
+Nếu bạn biết tên của nút, bạn có thể lấy nó mà không cần quan tâm đến vị trí trong cây.
+
 ```csharp
 var obj = s.RootNode.SelectSingleObject("a1");
 ```
-## Bước 6: Chọn nút gốc
-Chọn chính nút gốc:
+
+### Bước 7: Chọn Nút Gốc – Hữu ích cho các thao tác toàn cục
+Đôi khi bạn cần một tham chiếu tới nút gốc của cảnh để thực hiện các biến đổi hàng loạt.
+
 ```csharp
 obj = s.RootNode.SelectSingleObject("/");
 ```
-## Phần kết luận
-Chúc mừng! Bạn đã điều hướng thành công những vấn đề phức tạp khi sử dụng Aspose.3D cho .NET. Sức mạnh của thao tác đồ họa 3D giờ đây nằm trong tầm tay bạn.
+
+## Các vấn đề thường gặp và giải pháp
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **Camera không xuất hiện trong kết quả truy vấn** | Đảm bảo `Entity` của nút là `Camera` và tên khớp với truy vấn, phân biệt chữ hoa/thường. |
+| **SelectSingleObject trả về null** | Kiểm tra cú pháp biểu thức XPath; sử dụng dấu `/` đầu cho các đường dẫn tuyệt đối. |
+| **Light không ảnh hưởng tới việc render** | Nhớ rằng tính toán ánh sáng yêu cầu một engine render; thực thể Light đơn lẻ không tự render gì. |
+| **Hiệu năng chậm khi cảnh lớn** | Hạn chế truy vấn vào các subtree (`RootNode.SelectObjects("//c/*")`) hoặc lưu cache kết quả khi có thể. |
+
 ## Câu hỏi thường gặp
-### Aspose.3D có tương thích với tất cả các phiên bản .NET không?
-Aspose.3D tương thích với .NET Framework 2.0 trở lên.
-### Tôi có thể sử dụng Aspose.3D cho cả mô hình hóa và kết xuất 3D không?
-Tuyệt đối! Aspose.3D cung cấp một bộ công cụ linh hoạt cho cả mô hình hóa và kết xuất.
-### Có bất kỳ hạn chế cấp phép nào đối với bản dùng thử miễn phí không?
-Phiên bản dùng thử miễn phí đi kèm với các tính năng hạn chế. Kiểm tra tài liệu để biết chi tiết.
-### Làm cách nào tôi có thể nhận được sự hỗ trợ của cộng đồng cho Aspose.3D?
- Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để hỗ trợ cộng đồng.
-### Aspose.3D mang lại những lợi thế gì so với các thư viện 3D khác cho .NET?
-Aspose.3D cung cấp một bộ tính năng toàn diện, bao gồm các truy vấn đối tượng mạnh mẽ và khả năng hiển thị mạnh mẽ.
+
+**H: Aspose.3D có tương thích với mọi phiên bản .NET không?**  
+Đ: Aspose.3D hỗ trợ .NET Framework 2.0 trở lên, cũng như .NET Core, .NET 5 và .NET 6.
+
+**H: Tôi có thể dùng Aspose.3D cho cả mô hình 3D và render không?**  
+Đ: Chắc chắn. Thư viện cung cấp công cụ để tạo, chỉnh sửa và render mô hình 3D.
+
+**H: Có hạn chế nào về giấy phép cho phiên bản dùng thử không?**  
+Đ: Phiên bản dùng thử chỉ bao gồm một tập hợp tính năng giới hạn; cần giấy phép đầy đủ cho môi trường sản xuất.
+
+**H: Làm sao tôi có thể nhận hỗ trợ cộng đồng cho Aspose.3D?**  
+Đ: Truy cập [diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để nhận mẹo, ví dụ và sự giúp đỡ từ các nhà phát triển khác.
+
+**H: Ưu điểm của Aspose.3D so với các thư viện 3D khác cho .NET là gì?**  
+Đ: Nó kết hợp API phong phú cho truy vấn đối tượng, quản lý cách **th đều là dụng 3D hiện đại.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lầnNET  
+**Tác giả:** Aspose
