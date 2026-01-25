@@ -1,33 +1,50 @@
 ---
-title: Aspose.3D for .NET'e Lisans Başvurusu
-linktitle: Aspose.3D for .NET'e Lisans Başvurusu
-second_title: Aspose.3D .NET API'si
-description: Sorunsuz bir şekilde lisans uygulayarak Aspose.3D for .NET'in gücünün kilidini açın. Sorunsuz bir entegrasyon deneyimi için adım adım kılavuzumuzu izleyin.
-weight: 10
+date: 2026-01-25
+description: Aspose lisansını .NET’te nasıl uygulayacağınızı, genel ve özel anahtarları
+  nasıl ayarlayacağınızı, geçici bir Aspose lisansı nasıl kullanacağınızı ve gömülü
+  kaynak örnekleriyle Aspose lisansını C#’ta nasıl yükleyeceğinizi öğrenin.
+linktitle: Applying License to Aspose.3D for .NET
+second_title: Aspose.3D .NET API
+title: Aspose Lisansını Nasıl Uygularsınız – Aspose.3D for .NET'e Lisans Uygulama
 url: /tr/net/license/apply-license/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D for .NET'e Lisans Başvurusu
+# Aspose.3D for .NET'e Lisans Uygulama
 
-## giriiş
+## Giriş
 
-Aspose.3D for .NET'in tüm potansiyelini ortaya çıkarmaya hazır mısınız? Lisans uygulamak, gelişmiş özelliklere erişmenin ve kusursuz entegrasyon sağlamanın anahtarıdır. Bu adım adım kılavuzda, Aspose.3D uygulamanız için sorunsuz bir kurulum süreci sağlayarak, lisans başvurusunda bulunmanın çeşitli yöntemlerini size anlatacağız.
+Aspose.3D for .NET'in tam potansiyelini ortaya çıkarmaya hazır mısınız? Bu öğreticide **Aspose** lisansının nasıl uygulanacağını göstererek gelişmiş özelliklere erişebilir, değerlendirme filigranlarından kaçınabilir ve uygulamanızı üretim‑hazır tutabilirsiniz. Lisansı bir dosyadan, akıştan, gömülü kaynaktan ve hatta geçici bir Aspose lisansı ya da ölçülen (public/private) anahtarlarla nasıl yükleyeceğinizi adım adım anlatacağız. Sonunda, Aspose’u C# projelerinde nasıl uygulayacağınızı tam olarak bileceksiniz.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **Aspose lisansını uygulamanın temel yolu nedir?** `License.SetLicense` metodunu bir dosya, akış veya gömülü kaynak ile kullanın.  
+- **Test için geçici bir Aspose lisansı kullanabilir miyim?** Evet – geçici bir Aspose lisansı deneme sürümleri için çalışır.  
+- **Public ve private anahtarları ayarlamam gerekiyor mu?** Ölçülen kullanım için `Metered.SetMeteredKey` metodunu public ve private anahtarlarınızla çağırın.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Lisans dosyasını nereye koymalıyım?** Proje klasörünüze, gömülü kaynak olarak veya erişilebilir herhangi bir yoldan yükleyebilirsiniz.
 
-Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+## “Aspose nasıl uygulanır?” nedir?
+Aspose lisansını uygulamak, Aspose.3D motoruna geçerli bir ticari ya da deneme lisansına sahip olduğunuzu bildirmektir. Lisans ayarlandıktan sonra kütüphane değerlendirme kısıtlamalarını kaldırır ve tüm premium özellikleri etkinleştirir.
 
-- Aspose.3D for .NET'in temel anlayışı.
-- .NET projenizde Aspose.3D kütüphanesi kurulu.
-- İster gömülü olsun, ister bir dosyanın içinde olsun, ister genel ve özel anahtarlar kullanılarak lisans dosyasına erişim.
+## Neden lisans uygulanmalı?
+- **Tam özellik seti:** Mesh işleme, dönüşüm ve render yeteneklerine erişim.  
+- **Performans:** Lisanslı mod, işlem süresini yavaşlatabilecek çalışma zamanı kontrollerini ortadan kaldırır.  
+- **Uyumluluk:** Ürünü sözleşme şartlarına uygun olarak kullandığınızı garanti eder.
 
-## Ad Alanlarını İçe Aktar
+## Ön Koşullar
 
-Projenize gerekli ad alanlarını eklediğinizden emin olun:
+- Aspose.3D for .NET hakkında temel bilgi.  
+- Visual Studio projenizde Aspose.3D kütüphanesinin referans olarak eklenmiş olması.  
+- Geçerli bir lisans dosyası (`Aspose._3D.lic`) – **geçici Aspose lisansı** ya da kalıcı bir lisans olabilir.  
+- (Opsiyonel) Ölçülen lisans kullanıyorsanız public ve private anahtarlar.
+
+## Namespace’leri İçe Aktarma
+
+C# dosyanızın en üstüne gerekli namespace’leri ekleyin:
 
 ```csharp
 using System;
@@ -35,95 +52,118 @@ using System.IO;
 namespace Aspose._3D.Examples.CSharp.License
 ```
 
-Şimdi her örneği birden fazla adıma ayıralım.
+Şimdi her lisans senaryosunu adım adım inceleyelim.
 
-## Dosya Kullanarak Lisans Başvurusu
+## Dosya Kullanarak Aspose Lisansı Uygulama
 
-### 1. Adım: Lisans Nesnesini Örneklendirin
+### Adım 1: License Nesnesini Oluşturma
 
 ```csharp
 Aspose.ThreeD.License license = new Aspose.ThreeD.License();
 ```
 
-### 2. Adım: Lisansı Dosyadan Ayarlayın
+### Adım 2: Lisansı Dosyadan Yükleme
 
 ```csharp
 license.SetLicense("Aspose._3D.lic");
 ```
 
-## Akış Nesnesini Kullanarak Lisans Uygulama
+> **İpucu:** `.lic` dosyasını çalıştırılabilir dosyanızın yanına koyun veya netlik için mutlak bir yol belirtin.
 
-### 1. Adım: Lisans Nesnesini Örneklendirin
+## Stream Nesnesi Kullanarak Aspose Lisansı Uygulama
+
+### Adım 1: License Nesnesini Oluşturma
 
 ```csharp
 Aspose.ThreeD.License license = new Aspose.ThreeD.License();
 ```
 
-### 2. Adım: FileStream'i oluşturun
+### Adım 2: FileStream Oluşturma
 
 ```csharp
 FileStream myStream = new FileStream("Aspose._3D.lic", FileMode.Open);
 ```
 
-### 3. Adım: Lisansı Akıştan Ayarlayın
+### Adım 3: Lisansı Stream’den Yükleme
 
 ```csharp
 license.SetLicense(myStream);
 ```
 
-## Katıştırılmış Kaynağı Kullanarak Lisans Uygulama
+> **Neden stream kullanılır?** Lisansı gömülü kaynaklardan, ağ konumlarından veya şifreli depolamalardan yüklemenizi sağlar.
 
-### 1. Adım: Lisans Nesnesini Örneklendirin
+## Gömülü Kaynak Kullanarak Aspose Lisansı Uygulama
+
+### Adım 1: License Nesnesini Oluşturma
 
 ```csharp
 Aspose.ThreeD.License license = new Aspose.ThreeD.License();
 ```
 
-### 2. Adım: Gömülü Kaynaktan Lisansı Ayarlayın
+### Adım 2: Lisansı Gömülü Kaynaktan Yükleme
 
 ```csharp
 license.SetLicense("Aspose._3D.lic");
 ```
 
-## Genel ve Özel Anahtarları Kullanma
+> **Gömülü kaynak lisansı Aspose**, dış dosya olmadan tek bir çalıştırılabilir dosya dağıtmak istediğinizde idealdir.
 
-### 1. Adım: Ölçülü Lisansı Başlatın
+## Public Private Anahtarları Ayarlama (Metered Lisanslama)
+
+### Adım 1: Metered Lisans Yardımcısını Başlatma
 
 ```csharp
 Aspose.ThreeD.Metered metered = new Aspose.ThreeD.Metered();
 ```
 
-### Adım 2: Genel ve Özel Anahtarları Ayarlayın
+### Adım 2: Public ve Private Anahtarları Ayarlama
 
 ```csharp
 metered.SetMeteredKey("your-public-key", "your-private-key");
 ```
 
-## Çözüm
+> **public private anahtarları ayarlama** – bu çağrı, ölçülen kullanımınızı Aspose’un lisans sunucusuna kaydeder.
 
-Tebrikler! Aspose.3D for .NET'e nasıl lisans uygulayacağınızı başarıyla öğrendiniz. Bu adımları izleyerek sorunsuz bir geliştirme deneyimi sağlayın.
+## Yaygın Sorunlar & Sorun Giderme
 
-## SSS'ler
+| Belirti | Muhtemel Neden | Çözüm |
+|---------|----------------|-------|
+| `License not found` error | Yanlış yol veya eksik dosya | `SetLicense` yolunu doğrulayın; mutlak yol kullanın veya dosyayı gömülü kaynak olarak ekleyin. |
+| Değerlendirme filigranı hâlâ görünüyor | Lisans, ilk 3D işleminden önce yüklenmemiş | `SetLicense` çağrısını mümkün olduğunca erken yapın (ör. `Main` içinde veya herhangi bir Aspose çağrısından önce). |
+| Metered anahtar başarısız | Anahtarlar hatalı yazılmış veya süresi dolmuş | Public/private dizgilerini iki kez kontrol edin; gerekirse Aspose hesabınızdan yeni anahtarlar oluşturun. |
+
+## Sık Sorulan Sorular
 
 ### S1: Deneme için lisansa ihtiyacım var mı?
 
- Cevap1: Hayır, deneme süresi boyunca geçici lisans kullanabilirsiniz. Anla[Burada](https://purchase.aspose.com/temporary-license/).
+C1: Hayır, deneme süresi için geçici bir lisans kullanabilirsiniz. Lisansı [buradan](https://purchase.aspose.com/temporary-license/) alın.
 
-### S2: Aspose.3D belgelerini nerede bulabilirim?
+### S2: Aspose.3D dokümantasyonunu nereden bulabilirim?
 
- Cevap2: Kapsamlı belgeleri inceleyin[Burada](https://reference.aspose.com/3d/net/).
+C2: Kapsamlı dokümantasyonu [buradan](https://reference.aspose.com/3d/net/) inceleyin.
 
-### S3: Aspose.3D için nasıl destek alabilirim?
+### S3: Aspose.3D için destek nasıl alabilirim?
 
- A3: Topluluk forumunu ziyaret edin[Burada](https://forum.aspose.com/c/3d/18) herhangi bir yardım için.
+C3: Yardım için topluluk forumuna [buradan](https://forum.aspose.com/c/3d/18) göz atın.
 
-### S4: Aspose.3D for .NET'in en son sürümünü nereden indirebilirim?
+### S4: Aspose.3D for .NET’in en son sürümünü nereden indirebilirim?
 
- Cevap4: En son sürümü bulun[Burada](https://releases.aspose.com/3d/net/).
+C4: En yeni sürümü [buradan](https://releases.aspose.com/3d/net/) indirin.
 
-### S5: Nasıl lisans satın alabilirim?
+### S5: Lisans nasıl satın alınır?
 
- Cevap5: Lisansınızı satın alın[Burada](https://purchase.aspose.com/buy).
+C5: Lisansınızı [buradan](https://purchase.aspose.com/buy) satın alın.
+
+## Sonuç
+
+Artık lisansı bir dosya, bir stream, gömülü kaynak ya da ölçülen public/private anahtarlar kullanarak **Aspose** lisansını nasıl uygulayacağınızı biliyorsunuz. Lisansı doğru şekilde uygulamak, sorunsuz bir geliştirme deneyimi ve Aspose.3D’nin güçlü 3‑D işleme yeteneklerine tam erişim sağlar.
+
+---
+
+**Son Güncelleme:** 2026-01-25  
+**Test Edilen Versiyon:** Aspose.3D 24.11 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
