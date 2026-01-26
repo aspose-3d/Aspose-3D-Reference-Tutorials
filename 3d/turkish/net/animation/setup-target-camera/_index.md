@@ -1,33 +1,51 @@
 ---
-title: 3B Sahnelerde Animasyon için Hedefleri ve Kameraları Ayarlama
-linktitle: 3B Sahnelerde Animasyon için Hedefleri ve Kameraları Ayarlama
-second_title: Aspose.3D .NET API'si
-description: Aspose.3D for .NET ile 3D animasyonun büyüsünün kilidini açın. Bu kapsamlı eğitimi kullanarak hedefleri ve kameraları zahmetsizce kurun.
-weight: 11
+date: 2026-01-14
+description: Aspose.3D for .NET kullanarak sahneye kamera eklemeyi ve sahneyi FBX
+  olarak dışa aktarmayı öğrenin – kamera hedeflerini ayarlamak ve 3D animasyonlar
+  oluşturmak için adım adım bir rehber.
+linktitle: Add Camera to Scene and Set Up Targets for 3D Animation
+second_title: Aspose.3D .NET API
+title: Sahneye Kamera Ekle ve 3D Animasyon İçin Hedefleri Ayarla
 url: /tr/net/animation/setup-target-camera/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3B Sahnelerde Animasyon için Hedefleri ve Kameraları Ayarlama
+# Sahneye Kamera Ekleme ve 3D Animasyon İçin Hedefleri Ayarlama
 
-## giriiş
+## Giriş
 
-Hedeflerin ve kameraların ayarlanması herhangi bir 3D animasyon projesinin temelini oluşturur. Aspose.3D for .NET, bu süreci kolaylaştırmak için güçlü bir araç seti sunarak geliştiricilerin yaratıcılıklarını ortaya çıkarmalarına olanak tanır. Bu eğitim size adım adım rehberlik edecek, karmaşıklıkları ortadan kaldıracak ve göz korkutucu görünen görevi daha kolay yönetilebilir hale getirecek.
+3D animasyon oluşturuyorsanız, ilk ihtiyacınız iyi konumlandırılmış bir kameradır. Bu öğreticide **sahneye kamera ekleme** yöntemini, hedefini tanımlamayı ve sonunda Aspose.3D for .NET kullanarak **sahneyi FBX olarak dışa aktarmayı** öğreneceksiniz. Her adımı adım adım inceleyecek, neden önemli olduğunu açıklayacak ve güvenle etkileyici 3D animasyonlar oluşturmanız için pratik ipuçları vereceğiz.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **Kamera eklemek için ilk adım nedir?** Kamera düğümünü barındıracak bir `Scene` nesnesi başlatın.  
+- **Bu kılavuzda dışa aktarım için hangi dosya formatı kullanılıyor?** FBX (`.fbx`).  
+- **Örnek kodu çalıştırmak için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Kamera konumunu oluşturduktan sonra değiştirebilir miyim?** Evet – istediğiniz zaman `cameraNode.Transform.Translation` değerini değiştirin.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+## “Sahneye kamera ekleme” nedir?
+Bir sahneye kamera eklemek, bir `Camera` varlığı oluşturmak, bunu sahne grafiğindeki bir düğüme bağlamak ve hedef bir noktaya “bakacak” şekilde konumlandırmak anlamına gelir. Bu, sahne render edildiğinde veya dışa aktarıldığında izleyicinin bakış açısını belirler.
 
-- Temel C# ve .NET framework bilgisi.
--  Aspose.3D for .NET kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/3d/net/).
-- 3D programlamaya hazır bir geliştirme ortamı.
+## Neden kamera hedefleri ayarlanmalı ve FBX olarak dışa aktarılmalı?
+- **Görüş noktasını kontrol edin** – hassas kamera konumlandırması, animasyonunuzu tam olarak hayal ettiğiniz gibi çerçevelemenizi sağlar.  
+- **Birliktelik** – FBX, oyun motorları, Maya, Blender ve diğer 3D araçlar tarafından yaygın olarak desteklenir, varlıkları paylaşmayı kolaylaştırır.  
+- **Yeniden kullanılabilir varlıklar** – kamera ve hedefi kaydettikten sonra sahneyi birden fazla projede yeniden kullanabilirsiniz.
 
-## Ad Alanlarını İçe Aktar
+## Ön Koşullar
 
-Süreci başlatmak için gerekli ad alanlarını projenize aktarın. Bu ad alanları Aspose.3D for .NET'in gücünden yararlanmak için gereklidir:
+Öğreticiye başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
+
+- C# ve .NET framework'ünün temel bilgisi.  
+- Aspose.3D for .NET kütüphanesi yüklü. Bunu [buradan](https://releases.aspose.com/3d/net/) indirebilirsiniz.  
+- 3D programlama için hazır bir geliştirme ortamı.
+
+## Ad Alanlarını İçe Aktarma
+
+İşleme başlamak için gerekli ad alanlarını projenize içe aktarın. Bu ad alanları, Aspose.3D for .NET'in gücünden yararlanmak için gereklidir:
 
 ```csharp
 using System;
@@ -39,76 +57,88 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Adım 1: Sahne Nesnesini Başlatın
+## Adım‑Adım Kılavuz
 
-Sahne nesnesini başlatarak başlayın. Bu, 3D animasyonunuzun hayata geçeceği tuval görevi görür.
+### Adım 1: Scene Nesnesini Başlatma
+
+İlk olarak sahne nesnesini başlatın. Bu, 3D animasyonunuzun hayata geçeceği tuval görevi görür.
 
 ```csharp
-// ExStart:KurulumHedefVeKamera
-// Sahne nesnesini başlat
+// ExStart:SetupTargetAndCamera
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Adım 2: Bir Alt Düğüm Nesnesi Alın
+### Adım 2: Kamera Düğümü Oluşturma
 
-Daha sonra kamerayı temsil eden bir alt düğüm nesnesi oluşturun. Bu adım, kameranın sahne içindeki niteliklerinin tanımlanmasını içerir.
+Sonra, kamerayı tutacak bir alt düğüm oluşturun. Düğüne anlamlı bir ad vermek, sahne hiyerarşisini düzenli tutmaya yardımcı olur.
 
 ```csharp
-// Bir alt düğüm nesnesi alın
+// Get a child node object
 Node cameraNode = scene.RootNode.CreateChildNode("camera", new Camera());
 ```
 
-## 3. Adım: Kamera Düğümü Çevirisini Ayarlayın
+### Adım 3: Kamerayı Konumlandırma
 
-Kamera düğümü için çeviriyi belirtin. Bu, kameranın 3 boyutlu alandaki başlangıç konumunu belirler.
+Kamera düğümünün çevirisini (translation) belirtin. Bu, kameranın 3D uzaydaki başlangıç konumunu belirler.
 
 ```csharp
-// Kamera düğümü çevirisini ayarlayın
+// Set camera node translation
 cameraNode.Transform.Translation = new Vector3(100, 20, 0);
 ```
 
-## 4. Adım: Kamera Hedefini Ayarlayın
+### Adım 4: Kamera Hedefini Tanımlama
 
-Odak noktasını temsil eden başka bir alt düğüm oluşturarak kameranın hedefini tanımlayın.
+Kameranın bakması için bir hedef noktası gerekir. Odak noktası olarak işlev gören başka bir alt düğüm oluşturur ve bunu kameranın `Target` özelliğine atarız.
 
 ```csharp
 cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target");
 ```
 
-## Adım 5: Sahneyi Kaydedin
+### Adım 5: Yapılandırılmış Sahneyi Kaydetme
 
-Yapılandırılmış sahneyi, .fbx gibi istenen dosya biçiminde belirtilen bir çıktı dizinine kaydedin.
+Son olarak, sahneyi bir FBX dosyasına (veya desteklenen başka bir formata) dışa aktarın. `"Your Output Directory"` ifadesini dosyanın kaydedilmesini istediğiniz gerçek yol ile değiştirin.
 
 ```csharp
 var output = "Your Output Directory" + "camera-test.fbx";
 scene.Save(output);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Tebrikler! Aspose.3D for .NET'i kullanarak 3D animasyonunuz için hedefleri ve kameraları başarıyla kurdunuz. Bu eğitim, büyüleyici 3D sahneler oluşturmak için net bir yol haritası sunarak sürecin gizemini aydınlatmayı amaçladı.
+| Sorun | Çözüm |
+|-------|----------|
+| **Kamera yanlış açıda görünüyor** | Hedef düğümünün beklediğiniz konumda olduğundan emin olun. Ayrıca yönelimi kontrol etmek için `cameraNode.GetEntity<Camera>().UpVector` değerini ayarlayabilirsiniz. |
+| **Dışa aktarılan FBX diğer araçlarda açılmıyor** | Aspose.3D'nin güncel bir sürümünü kullandığınızdan emin olun (kütüphane otomatik olarak uyumlu bir FBX sürümü yazar). |
+| **`scene.Save` sırasında yol bulunamadı hatası** | Mutlak bir yol kullanın veya `Save` çağrısı öncesinde çıkış dizininin var olduğundan emin olun. |
 
 ## SSS'ler
 
 ### S1: Aspose.3D diğer 3D modelleme araçlarıyla uyumlu mu?
-
-Cevap1: Aspose.3D çeşitli dosya formatlarını destekleyerek popüler 3D modelleme araçlarıyla uyumluluk sağlar.
+**C1:** Aspose.3D çeşitli dosya formatlarını destekler, popüler 3D modelleme araçlarıyla uyumluluğu sağlar.
 
 ### S2: Aspose.3D'yi oyun geliştirme için kullanabilir miyim?
+**C2:** Kesinlikle! Aspose.3D, geliştiricilerin oyunlar için 3D varlıkları kolayca oluşturmasını sağlar.
 
-A2: Kesinlikle! Aspose.3D, geliştiricilerin oyunlar için kolaylıkla 3D varlıklar oluşturmasına olanak tanır.
+### S3: Aspose.3D için ek destek nereden bulunabilir?
+**C3:** Topluluk desteği ve tartışmalar için [Aspose.3D forumunu](https://forum.aspose.com/c/3d/18) ziyaret edin.
 
-### S3: Aspose.3D için ek desteği nerede bulabilirim?
+### S4: Ücretsiz deneme mevcut mu?
+**C4:** Evet, ücretsiz denemeyi [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
 
- A3: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk desteği ve tartışmalar için.
+### S5: Geçici lisansı nasıl alabilirim?
+**C5:** Geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
-### S4: Ücretsiz deneme sürümü mevcut mu?
+## Sonuç
 
-Cevap4: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+Artık **sahneye kamera ekleme**, hedefini ayarlama ve sonucu Aspose.3D for .NET kullanarak bir FBX dosyası olarak dışa aktarma konusunda bilgi sahibisiniz. Bu temellerle daha zengin animasyonlar oluşturabilir, birden fazla kamera ile deneyler yapabilir ve dışa aktarılan sahneleri oyun motorlarına ya da görsel efekt akışlarına entegre edebilirsiniz.
 
-### S5: Geçici lisansı nasıl edinebilirim?
+---
 
- Cevap5: Geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+**Last Updated:** 2026-01-14  
+**Tested With:** Aspose.3D 24.11 for .NET (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

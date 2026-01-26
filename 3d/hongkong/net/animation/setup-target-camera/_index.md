@@ -1,33 +1,49 @@
 ---
-title: 為 3D 場景中的動畫設定目標和相機
-linktitle: 為 3D 場景中的動畫設定目標和相機
+date: 2026-01-14
+description: 學習如何使用 Aspose.3D for .NET 為場景新增相機並匯出為 FBX——一步一步的指南，教您設定相機目標及建立 3D 動畫。
+linktitle: Add Camera to Scene and Set Up Targets for 3D Animation
 second_title: Aspose.3D .NET API
-description: 使用 Aspose.3D for .NET 解鎖 3D 動畫的魔力。使用這個綜合教學輕鬆設定目標和相機。
-weight: 11
+title: 將相機加入場景並設定 3D 動畫的目標
 url: /zh-hant/net/animation/setup-target-camera/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 為 3D 場景中的動畫設定目標和相機
+# 將相機加入場景並設定 3D 動畫的目標
 
 ## 介紹
 
-設定目標和攝影機是任何 3D 動畫專案的基礎。 Aspose.3D for .NET 提供了一套強大的工具來簡化此流程，使開發人員能夠釋放他們的創造力。本教程將指導您完成這些步驟，分解複雜性，並使看似艱鉅的任務更易於管理。
+如果你正在製作 3D 動畫，第一件事就是需要一個定位良好的相機。在本教學中，你將學會 **如何將相機加入場景**、定義其目標，最後使用 Aspose.3D for .NET **將場景匯出為 FBX**。我們會一步步說明每個步驟、解釋其重要性，並提供實用技巧，讓你能自信地打造引人入勝的 3D 動畫。
 
-## 先決條件
+## 快速回答
+- **加入相機的第一步是什麼？** 初始化一個將容納相機節點的 `Scene` 物件。  
+- **本指南使用哪種檔案格式匯出？** FBX（`.fbx`）。  
+- **執行範例程式碼需要授權嗎？** 免費試用版可供評估；正式上線需購買商業授權。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6 以上。  
+- **可以在建立後變更相機位置嗎？** 可以——隨時修改 `cameraNode.Transform.Translation`。
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+## 什麼是 **將相機加入場景**？
+將相機加入場景是指建立一個 `Camera` 實體，將其附加到場景圖的節點上，並定位使其「看向」目標點。這決定了場景在渲染或匯出時的觀察者視角。
 
-- C# 和 .NET 架構的基礎知識。
-- 安裝了 Aspose.3D for .NET 函式庫。你可以下載它[這裡](https://releases.aspose.com/3d/net/).
-- 適合 3D 程式設計的開發環境。
+## 為什麼要設定相機目標並匯出為 FBX？
+- **控制視角** – 精確的相機位置讓你能如願以償地構圖動畫。  
+- **相容性** – FBX 被遊戲引擎、Maya、Blender 等多種 3D 工具廣泛支援，方便資產共享。  
+- **可重複使用的資產** – 相機與目標儲存後，可在多個專案中重複使用同一場景。
 
-## 導入命名空間
+## 前置條件
 
-若要啟動流程，請將必要的命名空間匯入到您的專案中。這些命名空間對於利用 Aspose.3D for .NET 的強大功能至關重要：
+在開始教學之前，請確保具備以下條件：
+
+- 具備 C# 與 .NET 框架的基礎知識。  
+- 已安裝 Aspose.3D for .NET 套件。可於 [此處](https://releases.aspose.com/3d/net/) 下載。  
+- 已備妥可用於 3D 程式開發的開發環境。
+
+## 匯入命名空間
+
+要啟動流程，先在專案中匯入必要的命名空間。這些命名空間是使用 Aspose.3D for .NET 的關鍵：
 
 ```csharp
 using System;
@@ -39,76 +55,93 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Utilities;
 ```
 
-## 第 1 步：初始化場景對象
+## 步驟說明
 
-首先初始化場景物件。這將作為您的 3D 動畫栩栩如生的畫布。
+### 步驟 1：初始化 Scene 物件
+
+先建立場景物件，作為你的 3D 動畫的畫布。
 
 ```csharp
-// ExStart:設定目標和相機
-//初始化場景對象
+// ExStart:SetupTargetAndCamera
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## 步驟2：取得子節點對象
+### 步驟 2：建立相機節點
 
-接下來，建立一個代表相機的子節點物件。此步驟涉及定義場景內相機的屬性。
+接著建立一個子節點來容納相機。為節點取一個具意義的名稱，有助於維持場景層級的組織性。
 
 ```csharp
-//取得子節點對象
+// Get a child node object
 Node cameraNode = scene.RootNode.CreateChildNode("camera", new Camera());
 ```
 
-## 步驟3：設定相機節點平移
+### 步驟 3：定位相機
 
-指定相機節點的平移。這決定了相機在 3D 空間中的初始位置。
+為相機節點設定平移向量，決定相機在 3D 空間中的初始位置。
 
 ```csharp
-//設定相機節點平移
+// Set camera node translation
 cameraNode.Transform.Translation = new Vector3(100, 20, 0);
 ```
 
-## 第 4 步：設定相機目標
+### 步驟 4：定義相機目標
 
-透過建立另一個代表焦點的子節點來定義相機的目標。
+相機需要一個目標點來「看向」。我們再建立一個子節點作為焦點，並將其指派給相機的 `Target` 屬性。
 
 ```csharp
 cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target");
 ```
 
-## 第 5 步：儲存場景
+### 步驟 5：儲存已設定的場景
 
-將配置的場景以所需的檔案格式（例如 .fbx）儲存到指定的輸出目錄。
+最後，將場景匯出為 FBX（或其他支援格式）。將 `"Your Output Directory"` 替換為實際想要儲存檔案的路徑。
 
 ```csharp
 var output = "Your Output Directory" + "camera-test.fbx";
 scene.Save(output);
 ```
 
+## 常見問題與解決方案
+
+| 問題 | 解決方案 |
+|------|----------|
+| **相機出現錯誤角度** | 確認目標節點的位置是否正確。也可以設定 `cameraNode.GetEntity<Camera>().UpVector` 來調整方向。 |
+| **匯出的 FBX 在其他工具中無法開啟** | 確認使用的是最新版的 Aspose.3D（函式庫會自動寫入相容的 FBX 版本）。 |
+| **`scene.Save` 發生路徑找不到錯誤** | 使用絕對路徑，或在呼叫 `Save` 前確保輸出目錄已存在。 |
+
+## 常見問答
+
+### Q1：Aspose.3D 是否與其他 3D 建模工具相容？
+
+A1：Aspose.3D 支援多種檔案格式，確保與主流 3D 建模工具的相容性。
+
+### Q2：我可以將 Aspose.3D 用於遊戲開發嗎？
+
+A2：當然可以！Aspose.3D 讓開發者輕鬆建立遊戲所需的 3D 資產。
+
+### Q3：在哪裡可以取得 Aspose.3D 的其他支援資訊？
+
+A3：請前往 [Aspose.3D 論壇](https://forum.aspose.com/c/3d/18) 取得社群支援與討論。
+
+### Q4：是否提供免費試用？
+
+A4：有的，你可以在 [此處](https://releases.aspose.com/) 取得免費試用版。
+
+### Q5：如何取得臨時授權？
+
+A5：請至 [此處](https://purchase.aspose.com/temporary-license/) 申請臨時授權。
+
 ## 結論
 
-恭喜！您已使用 Aspose.3D for .NET 成功為 3D 動畫設定了目標和攝影機。本教學旨在揭開這一過程的神秘面紗，為創建迷人的 3D 場景提供清晰的路線圖。
+現在你已學會 **將相機加入場景**、設定目標，並使用 Aspose.3D for .NET 將結果匯出為 FBX 檔案。掌握這些基礎後，你可以開始打造更豐富的動畫、嘗試多相機設定，並將匯出的場景整合至遊戲引擎或視覺特效管線中。
 
-## 常見問題解答
+---
 
-### Q1：Aspose.3D 與其他 3D 建模工具相容嗎？
+**最後更新：** 2026-01-14  
+**測試環境：** Aspose.3D 24.11 for .NET（撰寫時的最新版本）  
+**作者：** Aspose  
 
-A1：Aspose.3D支援各種檔案格式，確保與流行的3D建模工具相容。
-
-### Q2：我可以使用Aspose.3D進行遊戲開發嗎？
-
-A2：當然！ Aspose.3D 使開發人員能夠輕鬆為遊戲創建 3D 資產。
-
-### Q3：在哪裡可以找到 Aspose.3D 的額外支援？
-
- A3：訪問[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)以獲得社區支持和討論。
-
-### Q4：有免費試用嗎？
-
-A4：是的，您可以探索免費試用[這裡](https://releases.aspose.com/).
-
-### Q5：如何取得臨時駕照？
-
- A5：獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
