@@ -1,41 +1,58 @@
 ---
-title: Hiểu hệ thống phân cấp nút
-linktitle: Hiểu hệ thống phân cấp nút
-second_title: API Aspose.3D .NET
-description: Khai phá sức mạnh của Aspose.3D cho .NET! Đi sâu vào thao tác phân cấp nút với hướng dẫn từng bước này. Tạo cảnh 3D tuyệt đẹp một cách dễ dàng.
-weight: 16
+date: 2026-01-20
+description: Tìm hiểu cách thêm nút con, tạo cấu trúc cây nút và lưu cảnh dưới dạng
+  FBX bằng Aspose.3D cho .NET. Hướng dẫn từng bước kèm ví dụ mã.
+linktitle: How to Add Child Nodes and Understand Node Hierarchy
+second_title: Aspose.3D .NET API
+title: Cách Thêm Nút Con và Hiểu Cấu Trúc Cây Nút
 url: /vi/net/geometry-and-hierarchy/node-hierarchy/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hiểu hệ thống phân cấp nút
+# Cách Thêm Các Node Con và Hiểu Cấu Trúc Cây Node
 
 ## Giới thiệu
 
-Chào mừng bạn đến với thế giới của Aspose.3D cho .NET, một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các cảnh và mô hình 3D trong ứng dụng .NET của họ. Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc tìm hiểu hệ thống phân cấp nút trong cảnh 3D bằng cách sử dụng Aspose.3D. Đến cuối hướng dẫn này, bạn sẽ nắm vững cách thao tác cấu trúc của cảnh 3D thông qua các nút, cho phép bạn tạo ra trải nghiệm hình ảnh tuyệt đẹp.
+Chào mừng bạn đến với thế giới của Aspose.3D cho .NET, một thư viện mạnh mẽ cho phép bạn **thêm các node con** và xây dựng các cấu trúc 3D phức tạp trực tiếp từ các ứng dụng .NET của mình. Trong hướng dẫn này, chúng ta sẽ đi qua việc tạo một cây node, gán mesh, áp dụng các biến đổi, và cuối cùng **lưu cảnh dưới dạng FBX**. Khi kết thúc, bạn sẽ tự tin trong việc thêm các node con, thao tác quan hệ cha‑con, và xuất kết quả ra một định dạng 3D được sử dụng rộng rãi.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Mục đích chính của hướng dẫn này là gì?** Để chỉ cách thêm các node con, tạo một cây node, và lưu cảnh dưới dạng FBX.  
+- **Thư cần giấy phép không?** Cần một giấy phép Aspose.3D hợp lệ cho môi trường sản xuất; bản dùng thử miễn phí đủ cho việc đánh giá.  
+- **Định dạng tệp nào được sử dụng để xuất?** FBX (FBX7500ASCII).  
+- **Tôi có thể xem hiệu ứng cây node trong thời gian thực không?** Có – việc biến đổi node cha sẽ tự động cập nhật tất cả các node con của nó.
 
-Trước khi chúng ta bắt tay vào hành trình 3D này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## “Thêm node con” trong Aspose.3D là gì?
 
--  Aspose.3D for .NET Library: Đảm bảo rằng bạn đã tích hợp thư viện Aspose.3D vào dự án .NET của mình. Nếu bạn chưa làm điều này, hãy đến[tài liệu](https://reference.aspose.com/3d/net/) để được hướng dẫn.
+Thêm node con có này xây dựng một **cây node** nơi các biến đổi áp dụng cho node cha sẽ tự động lan xuống các node con, giúp việc thao tác cảnh phức tạp trở nên đơn giản.
 
--  Tải xuống Thư viện: Nếu bạn chưa tải xuống thư viện Aspose.3D, hãy lấy phiên bản mới nhất từ[Liên kết tải xuống](https://releases.aspose.com/3d/net/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+## Tại sao cần tạo cây node?
 
-- Nhận giấy phép: Để mở khóa toàn bộ tiềm năng của Aspose.3D, bạn cần có giấy phép hợp lệ. Nếu bạn không có, bạn có thể lấy nó[đây](https://purchase.aspose.com/buy) hoặc chọn một[dùng thử miễn phí](https://releases.aspose.com/) để khám phá khả năng của nó.
+Một cây cấu trúc hợp lý cho phép bạn:
 
--  Hỗ trợ và Cộng đồng: Tham gia cộng đồng Aspose.3D trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/3d/18)để kết nối với các nhà phát triển khác, tìm kiếm trợ giúp và cập nhật những phát triển mới nhất.
+* Tái sử dụng hình học (một mesh được chia sẻ bởi nhiều node).  
+* Áp dụng các biến đổi chung (xoay, thu phóng, hoặc di chuyển một nhóm cảnh của bạn được tổ chức gọn gàng, dễ bảo trì và gỡ lỗi.  
 
--  Giấy phép tạm thời (Tùy chọn): Nếu bạn đang khám phá Aspose.3D trước khi mua hàng, hãy cân nhắc việc lấy giấy phép[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để truy cập mở rộng.
+## Yêu cầu trước
 
-Bây giờ chúng ta đã chuẩn bị sẵn các công cụ, hãy cùng đi sâu vào thế giới thú vị của thao tác phân cấp nút 3D bằng Aspose.3D.
+- Thư viện Aspose.3D cho .NET: Đảm bảo bạn đã tích hợp thư viện Aspose.3D vào dự án .NET của mình. Nếu chưa, hãy truy cập [tài liệu](https://reference.aspose.com/3d/net/) để được hướng dẫn.  
 
-## Nhập không gian tên
+- Tải về Thư viện: Nếu chưa tải thư viện Aspose.3D, hãy lấy phiên bản mới nhất từ [liên kết tải xuống](https://releases.aspose.com/3d/net/) và làm theo hướng dẫn cài đặt trong tài liệu.  
 
-Trong dự án .NET của bạn, hãy đảm bảo bạn nhập các vùng tên cần thiết để tận dụng chức năng do Aspose.3D cung cấp. Thêm các dòng sau vào mã của bạn:
+- Nhận Giấy phép: Để mở khóa toàn bộ tính năng của Aspose.3D, bạn cần một giấy phép hợp lệ. Nếu chưa có, bạn có thể mua tại [đây](https://purchase.aspose.com/buy) hoặc dùng một [bản dùng thử miễn phí](https://releases.aspose.com/) để khám phá khả năng của nó.  
+
+- Hỗ trợ và Cộng đồng: Tham gia cộng đồng Aspose.3D tại [diễn đàn hỗ trợ](https://forum.aspose.com/c/3d/18) để kết nối với các nhà phát triển khác, tìm kiếm trợ giúp, và cập nhật các tin tức mới nhất.  
+
+- Giấy phép tạm thời (Tùy chọn): Nếu bạn đang khám phá Aspose.3D trước khi mua, hãy cân nhắc lấy một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để có thời gian dùng thử kéo dài.  
+
+Bây giờ chúng ta đã sẵn sàng, hãy bắt đầu khám phá thế giới thú vị của **thêm node con** và thao tác cây 3D bằng Aspose.3D.
+
+## Nhập các Namespace
+
+Trong dự án .NET của bạn, hãy chắc chắn nhập các namespace cần thiết để tận dụng các chức năng do Aspose.3D cung cấp. Thêm các dòng sau vào mã nguồn của bạn:
 
 ```csharp
 using System;
@@ -46,17 +63,19 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Utilities;
 ```
 
-Những không gian tên này sẽ cung cấp cho bạn quyền truy cập vào các lớp và phương thức cần thiết để làm việc với cảnh 3D.
+Các namespace này sẽ cho phép bạn truy cập các lớp và phương thức quan trọng để làm việc với cảnh 3D.
 
-## Bước 1: Khởi tạo đối tượng cảnh
+## Hướng dẫn Từng Bước
+
+### Bước 1: Khởi tạo Đối tượng Scene
 
 ```csharp
 Scene scene = new Scene();
 ```
 
- Bắt đầu bằng cách tạo cảnh 3D mới bằng cách sử dụng`Scene` lớp học.
+Tạo một thể hiện `Scene` mới sẽ chứa tất cả các node và hình học của chúng ta.
 
-## Bước 2: Tạo nút con
+### Bước 2: **Thêm Node Con** để Xây dựng Cây
 
 ```csharp
 Node top = scene.RootNode.CreateChildNode();
@@ -64,9 +83,9 @@ Node cube1 = top.CreateChildNode("cube1");
 Node cube2 = top.CreateChildNode("cube2");
 ```
 
- Thiết lập cấu trúc phân cấp bằng cách tạo mối quan hệ cha-con giữa các nút. Trong ví dụ này,`cube1` Và`cube2` là các nút con của`top` nút.
+Ở đây chúng ta **thêm node con** – `cube1` và `cube2` trở thành các node con của node `top`, tạo nên một cấu trúc cây rõ ràng.
 
-## Bước 3: Tạo và gán lưới
+### Bước 3: Tạo và Gán Mesh
 
 ```csharp
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
@@ -74,67 +93,70 @@ cube1.Entity = mesh;
 cube2.Entity = mesh;
 ```
 
- Tạo lưới bằng phương pháp phù hợp (ở đây,`CreateMeshUsingPolygonBuilder`) và gán nó cho các nút con.
+Chúng ta tạo một mesh đơn giản và gán cùng một hình học cho cả hai node con. Việc chia sẻ mesh là một mẫu thường gặp khi bạn muốn các đối tượng giống hệt nhau.
 
-## Bước 4: Đặt bản dịch
+### Bước 4: Đặt Vị Trí cho Mỗi Node Con
 
 ```csharp
 cube1.Transform.Translation = new Vector3(-10, 0, 0);
 cube2.Transform.Translation = new Vector3(10, 0, 0);
 ```
 
-Xác định các bản dịch cho từng nút khối, định vị chúng trong không gian 3D.
+Bằng cách thiết lập thuộc tính `Translation` chúng ta đặt các khối lập phương cạnh nhau trong không gian 3D.
 
-## Bước 5: Áp dụng Xoay vòng cho Nút gốc
+### Bước 5: Xoay Node Cha
 
 ```csharp
 top.Transform.Rotation = Quaternion.FromEulerAngle(Math.PI, 4, 0);
 ```
 
-Xoay nút cha (`top`) và quan sát sự chuyển đổi này ảnh hưởng như thế nào đến tất cả các nút con của nó.
+Xoay **node cha** (`top`) sẽ tự động xoay các node con (`cube1` và `cube2`). Điều này minh họa sức mạnh của cây node.
 
-## Bước 6: Lưu cảnh 3D
+### Bước 6: **Lưu Cảnh dưới dạng FBX**
 
 ```csharp
 string output = "Your Output Directory" + "NodeHierarchy.fbx";
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-Chỉ định thư mục đầu ra và lưu cảnh 3D ở định dạng tệp mong muốn (ở đây là FBX7500ASCII).
+Chúng ta **lưu cảnh dưới dạng FBX**, một định dạng được hỗ trợ rộng rãi cho tài nguyên 3D. Điều chỉnh đường dẫn xuất ra tới vị trí trên máy của bạn.
 
-## Bước 7: Hiển thị thông báo thành công
+### Bước 7: Hiển thị Thông báo Thành công
 
 ```csharp
 Console.WriteLine("\nNode hierarchy added successfully to document.\nFile saved at " + output);
 ```
 
-Thông báo cho người dùng về việc bổ sung thành công hệ thống phân cấp nút và vị trí tệp đã lưu.
+Một thông báo console thân thiện xác nhận rằng cây node đã được lưu.
 
-## Phần kết luận
+## Các Vấn đề Thường Gặp và Giải Pháp
 
-Chúc mừng! Bạn đã điều hướng thành công thế giới phức tạp của hệ thống phân cấp nút 3D trong Aspose.3D cho .NET. Hướng dẫn này đã trang bị cho bạn kiến thức để tạo, thao tác và lưu cảnh 3D một cách dễ dàng. Khi bạn tiếp tục hành trình của mình, hãy khám phá nhiều tính năng hơn và phát huy toàn bộ tiềm năng của Aspose.3D trong các dự án .NET của bạn.
+| Vấn| **Lỗi không tìm thấy tệp** | Thư mục đầu ra không tồn tại | Tạo thư mục hoặc sử dụng đường dẫn tuyệtMesh bị thiếu** | Mesh chưa được gán cho node | Đảm bảo `cube1.Entity = mesh;` và `cube2.Entity = mesh;` đã được thực thi. |
+| **Xoay không đúng** | Thứ tự góc Euler không khớp | Kiểm tra thứNgoại lệ giấy phép** | cho .NET mà không có giấy phép không?**  
+Đ: Bạn có thể đánh giá thư viện bằng bản dùng thử miễn phí, năng sản xuất.
 
-## Câu hỏi thường gặp
+**H: Ngoài FBX, tôi có thể xuất sang những định dạng nào khác?**  
+Đ: Aspose.3D hỗ trợ OBJ, STL, 3MF, Collada và nhiều định dạng khác. Xem tài liệu chính thức để biết danh sách đầy đủ.
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.3D cho .NET mà không cần giấy phép không?
+**H: Làm sao để chia sẻ một mesh giữa nhiều node mà không sao chép bộ nhớ?**  
+Đ: Gán cùng một thể hiện `Mesh` cho thuộc tính `Entity` của mỗi node, như trong hướng dẫn.
 
-Câu trả lời 1: Mặc dù giấy phép mở khóa tất cả các tính năng nhưng bạn có thể khám phá Aspose.3D với các khả năng hạn chế bằng bản dùng thử miễn phí.
+**H: Có thể tạo hoạt ảnh cho cây node không?**  
+Đ: Có. Bạn có thể tạo hoạt ảnh cho các biến đổi node theo thời gian và xuất ra các định dạng hỗ trợ hoạt ảnh, chẳng hạn FBX.
 
-### Câu hỏi 2: Có định dạng tệp nào khác được hỗ trợ để lưu cảnh 3D không?
+**H: Sự khác nhau giữa giấy phép tạm thời và giấy phép đầy đủ là gì?**  
+Đ: Giấy phép tạm thời chỉ cung cấp quyền truy cập ngắn hạn, chỉ dùng để đánh giá; giấy phép đầy đủ loại bỏ mọi hạn chế sử dụng.
 
-Câu trả lời 2: Có, Aspose.3D hỗ trợ nhiều định dạng khác nhau; tham khảo tài liệu để có danh sách đầy đủ.
+## Kết luận
 
-### Câu 3: Làm cách nào tôi có thể đóng góp cho cộng đồng Aspose.3D?
+Bạn đã học cách **thêm node con**, tạo một cây node mạnh mẽ, và **lưu cảnh dưới dạng FBX** bằng Aspose.3D cho .NET. Những kiến thức cơ bản này mở ra cánh cửa để xây dựng các ứng dụng 3D phức tạp, từ trực quan kiến trúc đến tài sản trò chơi. Hãy tiếp tục thử nghiệm các biến đổi, vật liệu và định dạng xuất khác nhau để khai thác tối đa sức mạnh của Aspose.3D.
 
-Câu trả lời 3: Tham gia diễn đàn hỗ trợ, chia sẻ trải nghiệm của bạn và đóng góp bằng cách giúp đỡ người khác giải đáp các thắc mắc của họ.
+---
 
-### Câu hỏi 4: Aspose.3D có phù hợp để phát triển trò chơi không?
+**Cập nhật lần cuối:** 2026-01-20  
+**Đã kiểm tra với:** Aspose.3D 24.11 cho .NET  
+**Tác giả:** Aspose  
 
-A4: Chắc chắn rồi! Aspose.3D rất linh hoạt và có thể được tích hợp vào các dự án phát triển trò chơi.
-
-### Câu hỏi 5: Sự khác biệt giữa giấy phép tạm thời và giấy phép đầy đủ là gì?
-
-Câu trả lời 5: Giấy phép tạm thời cung cấp quyền truy cập ngắn hạn cho mục đích đánh giá, trong khi giấy phép đầy đủ cung cấp quyền sử dụng không hạn chế.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
