@@ -58,7 +58,7 @@ scene.RootNode.Accept(delegate(Node node)
         //メッシュを三角形化する
         Mesh newMesh = PolygonModifier.Triangulate(mesh);
         //古いメッシュを交換します
-        node.Entity = mesh;
+        node.Entity = newMesh;
     }
     return true;
 });

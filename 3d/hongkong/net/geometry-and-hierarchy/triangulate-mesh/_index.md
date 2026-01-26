@@ -58,7 +58,7 @@ scene.RootNode.Accept(delegate(Node node)
         //對網格進行三角剖分
         Mesh newMesh = PolygonModifier.Triangulate(mesh);
         //更換舊網
-        node.Entity = mesh;
+        node.Entity = newMesh;
     }
     return true;
 });

@@ -1,32 +1,37 @@
 ---
-title: Consultas de objetos tipo XPath
-linktitle: Consultas de objetos tipo XPath
-second_title: Aspose.3D API .NET
-description: ¡Libera el poder de Aspose.3D para .NET! Manipule sin problemas gráficos 3D con consultas similares a XPath. Descárguelo ahora para disfrutar de una experiencia revolucionaria.
-weight: 24
+date: 2026-01-25
+description: Aprende a agregar una cámara a la escena y manipular objetos 3D usando
+  Aspose.3D para .NET. Explora consultas tipo XPath, selecciona nodos por nombre y
+  más.
+linktitle: XPath-Like Object Queries
+second_title: Aspose.3D .NET API
+title: Agregar cámara a la escena con Aspose.3D – Consultas XPath
 url: /es/net/geometry-and-hierarchy/xpath-like-object-queries/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Consultas de objetos tipo XPath
+# Agregar cámara a la escena con Aspose.3D – Consultas XPath
 
 ## Introducción
-Embarcarse en un viaje para liberar todo el potencial de Aspose.3D para .NET abre las puertas a un reino de posibilidades en la manipulación de gráficos 3D. Ya sea que sea un desarrollador experimentado o un recién llegado, esta guía lo guiará a través de los matices del aprovechamiento de las capacidades de Aspose.3D.
+En este tutorial descubrirá cómo **agregar una cámara a una escena** y trabajar con potentes consultas de objetos al estilo XPath en Aspose.3D para .NET. Ya sea que necesite **seleccionar un nodo por nombre**, **seleccionar un solo objeto**, o simplemente **agregar luz a la escena**, los pasos a continuación le guiarán en la creación, consulta y manipulación de objetos 3D con ejemplos claros y del mundo real.
+
+## Respuestas rápidas
+- **¿Cómo agrego una cámara a una escena?** Use `c.CreateChildNode("c1").AddEntity(new Camera("cam"));`
+- **¿Puedo consultar objetos con sintaxis XPath?** Sí – `SelectObjects por nombre?** Use `SelectSingleObject("- vista desde el cual la escena puede renderizarse o inspeccionarse alPor qué usar consultas de objetos al estilo XPath?
+Las consultas al estilo XPath le permiten localizar objetos según su tipo, nombre o atributos personalizados sin recorrer manualmente la jerarquía de nodos. Esto hace que **manipular objetos 3D** sea rápido, legible y mantenible, especialmente en escenas complejas.
+
 ## Requisitos previos
-Antes de sumergirse en el mundo mágico de Aspose.3D, asegúrese de cumplir con los siguientes requisitos previos:
-- Conocimientos básicos de .NET framework.
-- Visual Studio instalado en su sistema
-- Biblioteca Aspose.3D descargada y referenciada en su proyecto
-Ahora, profundicemos en los pasos esenciales que lo guiarán a través del proceso.
+- Conocimientos básicos del framework .NET
+- Visual Studio instalado
+- Biblioteca Aspose.3D referenciada en su proyecto (última versión)
+
 ## Importar espacios de nombres
-Para iniciar su aventura Aspose.3D, comience importando los espacios de nombres necesarios a su proyecto. Esto garantizará que tenga acceso a todas las herramientas necesarias para una integración perfecta.
-## Paso 1: abra Visual Studio
-Abra Visual Studio y cree un nuevo proyecto o abra uno existente.
-## Paso 2: agregue el espacio de nombres Aspose.3D
-En su proyecto, agregue la siguiente declaración de uso al comienzo de su archivo de código:
+Comience importando los espacios de nombres requeridos para tener acceso a todas las clases de Aspose.3D.
+
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
@@ -36,15 +41,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 ```
-## Consultas de objetos tipo XPath
-Aspose.3D le permite realizar consultas de objetos similares a XPath en sus escenas 3D, lo que permite una manipulación precisa de los objetos. Dividamos el ejemplo en varios pasos.
-## Paso 1: creación de escena
-Cree una nueva escena 3D que sirva como lienzo para la prueba:
+
+## Guía paso a paso
+
+### Paso 1: Abrir Visual Studio
+Cree un nuevo proyecto C# o abra uno existente donde desee trabajar con escenas 3D.
+
+### Paso 2: Crear una nueva escena (Agregar cámara a la escena)
+Instancie un objeto `Scene` nuevo que servirá como lienzo para todos los objetos posteriores.
+
 ```csharp
 Scene s = new Scene();
 ```
-## Paso 2: poblar la escena
-Agregue nodos y entidades a la jerarquía de escenas:
+
+### Paso 3: Poblar la escena – Agregar nodos, cámara y luz
+Construya una jerarquía simple y luego **agregue una cámara** y **agregue luz a la escena** para ilustrar consultas posteriores.
+
 ```csharp
 var a = s.RootNode.CreateChildNode("a");
 a.CreateChildNode("a1");
@@ -54,7 +66,9 @@ var c = s.RootNode.CreateChildNode("c");
 c.CreateChildNode("c1").AddEntity(new Camera("cam"));
 c.CreateChildNode("c2").AddEntity(new Light("light"));
 ```
-La jerarquía ahora se parece a:
+
+La jerarquía resultante se ve así:
+
 ```
 - Root
     - a
@@ -67,42 +81,72 @@ La jerarquía ahora se parece a:
         - c2
             - light
 ```
-## Paso 3: seleccionar objetos
-Elija objetos con criterios específicos de la escena:
+
+### Paso 4: Seleccionar objetos – Cómo consultar objetos 3D
+Utilice una expresión al estilo XPath para obtener todas las cámaras **o** cualquier nodo llamado “light”.
+
 ```csharp
-var objects = s.RootNode.SelectObjects("//*[(@Type = 'Cámara') o (@Name = 'luz')]");
+var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
 ```
-## Paso 4: seleccione un solo objeto
-Elija un solo objeto usando una ruta específica:
+
+### Paso 5: Seleccionar un solo objeto – Seleccionar objeto único por ruta
+Recupere directamente el primer nodo de cámara con una ruta concisa.
+
 ```csharp
 var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
 ```
-## Paso 5: seleccione el nodo por nombre
-Seleccione un nodo directamente por su nombre, independientemente de la jerarquía:
+
+### Paso 6: Seleccionar nodo por nombre – Forma rápida de localizar un nodo
+Si conoce el nombre del nodo, puede obtenerlo sin preocuparse por su posición en la jerarquía.
+
 ```csharp
 var obj = s.RootNode.SelectSingleObject("a1");
 ```
-## Paso 6: seleccione el nodo raíz
-Seleccione el nodo raíz en sí:
+
+### Paso 7: Seleccionar el nodo raíz – Útil para operaciones globales
+A veces necesita una referencia a la raíz de la escena para transformaciones masivas.
+
 ```csharp
 obj = s.RootNode.SelectSingleObject("/");
 ```
-## Conclusión
-¡Felicidades! Ha navegado con éxito por las complejidades del uso de Aspose.3D para .NET. El poder de la manipulación de gráficos 3D está ahora a tu alcance.
+
+## Problemas comunes y soluciones
+| Problema | Solución |
+|----------|----------|
+| **La cámara no aparece en los resultados de la consulta** | Asegúrese de que la `Entity` del nodo sea una `Camera` y queando mayúsculas y minúsculas. |
+| **SelectSingleObject devuelve null** | Verifique la sintaxis de la expresión XPath; use `/` inicial para rutas absolutas. |
+| **La luz no afecta el renderizado** | Recuerde que los cálculos de iluminación requieren un motor de renderizado; la entidad Light por sí sola no genera nada visual. |
+| **Ralentización del rendimiento en escenas grandes** | Limite las consultas a sub‑árboles (`RootNode.SelectObjects("//c/*")`) o almacene en caché los resultados cuando sea posible. |
+
 ## Preguntas frecuentes
-### ¿Aspose.3D es compatible con todas las versiones de .NET?
-Aspose.3D es compatible con .NET Framework 2.0 y superior.
-### ¿Puedo usar Aspose.3D tanto para modelado como para renderizado 3D?
-¡Absolutamente! Aspose.3D proporciona un conjunto versátil de herramientas tanto para modelado como para renderizado.
-### ¿Existen restricciones de licencia para la prueba gratuita?
-La versión de prueba gratuita viene con funciones limitadas. Consulte la documentación para obtener más detalles.
-### ¿Cómo puedo obtener apoyo de la comunidad para Aspose.3D?
- Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para el apoyo de la comunidad.
-### ¿Qué ventajas ofrece Aspose.3D sobre otras bibliotecas 3D para .NET?
-Aspose.3D proporciona un conjunto completo de funciones, que incluyen potentes consultas de objetos y sólidas capacidades de renderizado.
+
+**P: ¿Aspose.3D es compatible con todas las versiones de .NET?**  
+R: Aspose.3D admite .NET Framework 2.0 y superiores, así como .NET Core, .NET 5 y .NET 6.
+
+**P: ¿Puedo usar Aspose.3D tanto para modelado 3D como para renderizado?**  
+R: Absolutamente. La biblioteca ofrece herramientas para crear, editar y renderizar modelos 3D.
+
+**P: ¿Existen restricciones de licencia para la versión de prueba gratuita?**  
+R: La versión de prueba incluye un conjunto limitado de funciones; se requiere una licencia completa para uso en producción.
+
+**P: ¿Cómo puedo obtener soporte de la comunidad para Aspose.3D?**  
+R: Visite el [foro de Aspose.3D](https://forum.aspose.com/c/3d/18) para obtener consejos, ejemplos y ayuda de otros desarrolladores.
+
+**P: ¿Qué ventajas ofrece Aspose.3D frente a otras bibliotecas 3D para .NET?**  
+R: Combina una API rica para consultas de objetos, gestión robusta de escenas y compatibilidad multiplataforma sin depender de componentes externos.
+
+## Conclusión
+Ahora ha aprendido cómo **agregar una cámara a una escena**, **agregar luz a la escena** y **consultar objetos 3D** usando sintaxis al estilo XPath en Aspose.3D para .NET. Estas técnicas le permiten manipular jerarquías complejas de manera eficiente, seleccionar nodos por nombre y recuperar objetos únicos, todo esencial para aplicaciones 3D modernas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Última actualización:** 2026-01-25  
+**Probado con:** Aspose.3D 24.11 para .NET  
+**Autor:** Aspose

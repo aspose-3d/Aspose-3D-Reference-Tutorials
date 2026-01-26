@@ -58,7 +58,7 @@ scene.RootNode.Accept(delegate(Node node)
         // Trianguleer het gaas
         Mesh newMesh = PolygonModifier.Triangulate(mesh);
         // Vervang het oude gaas
-        node.Entity = mesh;
+        node.Entity = newMesh;
     }
     return true;
 });

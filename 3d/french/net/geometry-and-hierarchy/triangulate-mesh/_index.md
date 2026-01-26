@@ -58,7 +58,7 @@ scene.RootNode.Accept(delegate(Node node)
         // Trianguler le maillage
         Mesh newMesh = PolygonModifier.Triangulate(mesh);
         // Remplacer l'ancien maillage
-        node.Entity = mesh;
+        node.Entity = newMesh;
     }
     return true;
 });

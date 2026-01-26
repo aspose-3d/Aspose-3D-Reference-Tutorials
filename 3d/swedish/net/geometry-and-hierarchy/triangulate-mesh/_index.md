@@ -58,7 +58,7 @@ scene.RootNode.Accept(delegate(Node node)
         // Triangulera nätet
         Mesh newMesh = PolygonModifier.Triangulate(mesh);
         // Byt ut det gamla nätet
-        node.Entity = mesh;
+        node.Entity = newMesh;
     }
     return true;
 });

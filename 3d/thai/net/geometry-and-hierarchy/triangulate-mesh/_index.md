@@ -58,7 +58,7 @@ scene.RootNode.Accept(delegate(Node node)
         // สามเหลี่ยมตาข่าย
         Mesh newMesh = PolygonModifier.Triangulate(mesh);
         // เปลี่ยนตาข่ายเก่า
-        node.Entity = mesh;
+        node.Entity = newMesh;
     }
     return true;
 });
