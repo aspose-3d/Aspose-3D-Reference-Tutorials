@@ -58,7 +58,7 @@ scene.RootNode.Accept(delegate(Node node)
         // Триангуляция сетки
         Mesh newMesh = PolygonModifier.Triangulate(mesh);
         // Заменить старую сетку
-        node.Entity = mesh;
+        node.Entity = newMesh;
     }
     return true;
 });

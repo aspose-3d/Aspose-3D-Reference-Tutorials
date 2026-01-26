@@ -58,7 +58,7 @@ scene.RootNode.Accept(delegate(Node node)
         // 메시를 삼각측량합니다.
         Mesh newMesh = PolygonModifier.Triangulate(mesh);
         // 기존 메쉬 교체
-        node.Entity = mesh;
+        node.Entity = newMesh;
     }
     return true;
 });

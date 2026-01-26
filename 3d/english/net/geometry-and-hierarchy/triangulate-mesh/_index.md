@@ -77,7 +77,7 @@ scene.RootNode.Accept(delegate(Node node)
         // Triangulate the mesh
         Mesh newMesh = PolygonModifier.Triangulate(mesh);
         // Replace the old mesh
-        node.Entity = mesh;
+        node.Entity = newMesh;
     }
     return true;
 });

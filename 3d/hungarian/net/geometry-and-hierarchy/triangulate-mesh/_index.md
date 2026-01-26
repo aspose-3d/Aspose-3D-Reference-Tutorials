@@ -58,7 +58,7 @@ scene.RootNode.Accept(delegate(Node node)
         // Háromszögelje a hálót
         Mesh newMesh = PolygonModifier.Triangulate(mesh);
         // Cserélje ki a régi hálót
-        node.Entity = mesh;
+        node.Entity = newMesh;
     }
     return true;
 });

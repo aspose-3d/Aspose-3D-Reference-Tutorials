@@ -58,7 +58,7 @@ scene.RootNode.Accept(delegate(Node node)
         // Tam giác lưới
         Mesh newMesh = PolygonModifier.Triangulate(mesh);
         // Thay lưới cũ
-        node.Entity = mesh;
+        node.Entity = newMesh;
     }
     return true;
 });
