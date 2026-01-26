@@ -1,33 +1,47 @@
 ---
-title: Menyiapkan Normal pada Cube
-linktitle: Menyiapkan Normal pada Cube
+date: 2026-01-22
+description: Pelajari cara membuat mesh kubus dan mengatur normal vertex pada kubus
+  3D menggunakan Aspose.3D untuk .NET. Tingkatkan keterampilan pemodelan 3D Anda dengan
+  panduan langkah demi langkah ini.
+linktitle: Setting Up Normals on Cube
 second_title: Aspose.3D .NET API
-description: Pelajari cara mengatur normal pada kubus 3D menggunakan Aspose.3D untuk .NET. Tingkatkan keterampilan pemodelan 3D Anda dengan panduan langkah demi langkah ini.
-weight: 17
+title: Cara Membuat Mesh Kubus dan Menyiapkan Normal pada Kubus
 url: /id/net/geometry-and-hierarchy/setup-normals-cube/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menyiapkan Normal pada Cube
+# Menyiapkan Normal pada Kubus
 
-## Perkenalan
+## Pendahuluan
 
-Selamat datang di panduan langkah demi langkah kami tentang menyiapkan normal pada kubus dalam adegan 3D menggunakan Aspose.3D untuk .NET. Aspose.3D adalah perpustakaan canggih yang memungkinkan pengembang .NET bekerja dengan file 3D, menyediakan berbagai fungsi untuk pemodelan dan manipulasi 3D.
+Dalam tutorial ini Anda akan **create cube mesh** dan kemudian **set vertex normals** sehingga kubus dirender dengan pencahayaan dan bayangan yang benar. Aspose.3D for .NET memberikan API yang bersih dan berorientasi objek yang memudahkan pembuatan dan penyesuaian geometri 3‑D. Baik Anda menyiapkan aset untuk mesin game atau visualisasi ilmiah, menguasai normal pada kubus adalah keterampilan dasar.
 
-Dalam tutorial ini, kami akan memandu Anda melalui proses pengaturan normal pada kubus dalam adegan 3D menggunakan Aspose.3D. Normal sangat penting untuk pencahayaan dan bayangan yang tepat dalam grafik 3D, dan memahami cara mengaturnya adalah hal mendasar untuk menciptakan model 3D yang realistis dan menarik secara visual.
+## Jawaban Cepat
+- **What does “create cube mesh” mean?** Itu berarti menghasilkan objek Mesh yang mendefinisikan vertex, face, dan topologi kubus.  
+- **Why are vertex normals important?** Mereka memberi tahu renderer bagaimana cahaya berinteraksi dengan setiap permukaan, menghasilkan bayangan yang realistis.  
+- **Do I need a license to run this code?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Which .NET versions are supported?** Aspose.3D bekerja dengan .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **How long does the implementation take?** Sekitar 5‑10 menit setelah pustaka direferensikan.
+
+## Apa itu Mesh Kubus dan Mengapa Menetapkan Vertex Normal?
+
+Sebuah **cube mesh** adalah kumpulan delapan vertex dan enam face yang mendefinisikan kubus sempurna dalam ruang 3‑D. Secara default, Aspose.3D dapat menghasilkan mesh tanpa vektor normal eksplisit, yang dapat menyebabkan pencahayaan datar atau tidak tepat. Menambahkan **vertex normals** (arah yang “menghadap” setiap vertex) memastikan bayangan halus dan iluminasi yang realistis.
 
 ## Prasyarat
 
-Sebelum kita masuk ke tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki:
 
--  Aspose.3D untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.3D. Anda dapat mengunduhnya dari[Aspose.3D untuk dokumentasi .NET](https://reference.aspose.com/3d/net/).
+- **Aspose.3D for .NET** terpasang. Anda dapat mengunduhnya dari [dokumentasi Aspose.3D for .NET](https://reference.aspose.com/3d/net/).
+- Lingkungan pengembangan .NET (Visual Studio, VS Code, atau IDE apa pun yang Anda sukai).
+- Familiaritas dasar dengan sintaks C# dan konsep 3‑D.
 
 ## Impor Namespace
 
-Untuk memulai, mari impor namespace yang diperlukan ke dalam proyek Anda:
+Pertama, bawa namespace yang diperlukan ke dalam ruang lingkup:
 
 ```csharp
 using System;
@@ -38,33 +52,37 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Langkah 1: Data Normal Mentah
+## Panduan Langkah‑per‑Langkah
 
-Langkah pertama melibatkan pendefinisian data normal mentah untuk kubus kita. Normal direpresentasikan sebagai objek Vector4, dan berikut ini contohnya:
+### Langkah 1: Definisikan Data Normal Mentah
+
+Normal disimpan sebagai objek `Vector4` (X, Y, Z, W). Untuk sebuah kubus kita membutuhkan normal untuk setiap vertex. Di bawah ini adalah array mentah – Anda akan menyalinnya ke dalam mesh nanti.
 
 ```csharp
-// ExStart: Data Normal Mentah
+// ExStart:RawNormalData
 Vector4[] normals = new Vector4[]
 {
     new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
-    //... (ulangi untuk 7 simpul lainnya)
+    // ... (repeat for the other 7 vertices)
 };
-// ExEnd: Data Normal Mentah
+// ExEnd:RawNormalData
 ```
 
-## Langkah 2: Buat Mesh Menggunakan Polygon Builder
+> **Pro tip:** Nilai di atas sesuai dengan vektor satuan yang mengarah keluar dari setiap vertex dari kubus satuan.
 
-Selanjutnya, kita akan membuat mesh menggunakan metode pembuat poligon. Hal ini dilakukan dengan memanggil kelas umum untuk membuat instance mesh:
+### Langkah 2: Buat Mesh Kubus Menggunakan Polygon Builder
+
+Aspose.3D menyediakan kelas pembantu (`Common`) yang membangun mesh kubus dasar untuk kami. Ini membuat contoh tetap singkat sambil tetap menunjukkan cara **create cube mesh**.
 
 ```csharp
 // ExStart:CreateMesh
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
-// ExEnd:BuatMesh
+// ExEnd:CreateMesh
 ```
 
-## Langkah 3: Atur Normals di Cube
+### Langkah 3: Tetapkan Vertex Normal pada Kubus
 
-Sekarang, mari kita atur normal pada kubus dengan membuat VertexElementNormal dan menyalin data normal ke elemen vertex:
+Sekarang kami melampirkan data normal ke mesh. Kami membuat `VertexElementNormal` dengan `MappingMode.ControlPoint` dan `ReferenceMode.Direct`, kemudian memasukkan array `normals` ke dalamnya.
 
 ```csharp
 // ExStart:SetupNormalsOnCube
@@ -73,39 +91,54 @@ elementNormal.Data.AddRange(normals);
 // ExEnd:SetupNormalsOnCube
 ```
 
-## Langkah 4: Cetak Pesan Sukses
+Dengan melakukan ini, setiap vertex kubus kini membawa vektor arah yang dapat digunakan mesin rendering untuk perhitungan pencahayaan.
 
-Terakhir, kami akan mencetak pesan sukses untuk mengonfirmasi bahwa pengaturan normal telah berhasil:
+### Langkah 4: Verifikasi Operasi
+
+Output konsol singkat memberi tahu Anda bahwa proses selesai tanpa error.
 
 ```csharp
 Console.WriteLine("\nNormals have been set up successfully on the cube.");
 ```
 
-## Kesimpulan
+Saat Anda menjalankan program, Anda akan melihat pesan konfirmasi, dan setiap viewer yang memuat file 3‑D hasil akan menampilkan face dengan bayangan yang benar.
 
-Selamat! Anda telah berhasil mempelajari cara menyiapkan normal pada kubus dalam adegan 3D menggunakan Aspose.3D untuk .NET. Pengetahuan ini penting untuk mencapai efek pencahayaan dan bayangan yang realistis dalam model 3D Anda.
+## Masalah Umum & Solusi
 
-## FAQ
+| Masalah | Penyebab | Solusi |
+|-------|-------|-----|
+| **Normal tampak datar atau terbalik** | Urutan winding yang salah atau arah normal yang tidak cocok | Pastikan array normal cocok dengan urutan vertex yang digunakan oleh `Common.CreateMeshUsingPolygonBuilder`. |
+| **Exception runtime pada `CreateElement`** | Menggunakan versi Aspose.3D yang lebih lama yang tidak memiliki metode tersebut | Perbarui ke rilis Aspose.3D terbaru. |
+| **Tidak ada shading yang terlihat di viewer** | Viewer mengabaikan normal jika mesh tidak memiliki material | Tetapkan material sederhana (mis., `mesh.Material = new Material();`). |
 
-### Q1: Apakah Aspose.3D kompatibel dengan format file 3D lainnya?
+## Pertanyaan yang Sering Diajukan
 
-A1: Ya, Aspose.3D mendukung berbagai format file 3D, memungkinkan integrasi tanpa batas dengan proyek Anda yang sudah ada.
+### Q1: Apakah Aspose.3D kompatibel dengan format file 3‑D lainnya?
 
-### Q2: Dapatkah saya mencoba Aspose.3D sebelum membeli?
+A1: Ya, Aspose.3D mendukung berbagai format file 3‑D, memungkinkan integrasi mulus dengan proyek Anda yang ada.
 
-A2: Tentu saja! Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+### Q2: Apakah saya dapat mencoba Aspose.3D sebelum membeli?
+
+A2: Tentu saja! Anda dapat mengunduh percobaan gratis dari [di sini](https://releases.aspose.com/).
 
 ### Q3: Di mana saya dapat menemukan lisensi sementara untuk Aspose.3D?
 
- A3: Lisensi sementara tersedia untuk dibeli[Di Sini](https://purchase.aspose.com/temporary-license/).
+A3: Lisensi sementara tersedia untuk dibeli [di sini](https://purchase.aspose.com/temporary-license/).
 
-### Q4: Apa tanggapan komunitas terhadap Aspose.3D?
+### Q4: Apa umpan balik komunitas tentang Aspose.3D?
 
- A4: Bergabunglah dengan komunitas Aspose.3D di[forum](https://forum.aspose.com/c/3d/18) untuk terhubung dengan pengembang lain dan berbagi pengalaman.
+A4: Bergabunglah dengan komunitas Aspose.3D di [forum](https://forum.aspose.com/c/3d/18) untuk terhubung dengan pengembang lain dan berbagi pengalaman.
 
-### Q5: Apakah ada sumber tambahan untuk mempelajari Aspose.3D?
+### Q5: Apakah ada sumber tambahan untuk belajar Aspose.3D?
 
- A5: Jelajahi yang luas[dokumentasi](https://reference.aspose.com/3d/net/) untuk menemukan lebih banyak fitur dan tip.
+A5: Jelajahi [dokumentasi](https://reference.aspose.com/3d/net/) yang luas untuk menemukan lebih banyak fitur dan tip.
+
+---
+
+**Terakhir Diperbarui:** 2026-01-22  
+**Diuji Dengan:** Aspose.3D for .NET (latest stable release)  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,48 @@
 ---
-title: UV beállítása a Cube-on
-linktitle: UV beállítása a Cube-on
+date: 2026-01-22
+description: Tanulja meg, hogyan állíthat be UV-t egy kockán az Aspose.3D for .NET
+  használatával. Ez az útmutató bemutatja, hogyan lehet textúrákat leképezni, UV-koordinátákat
+  létrehozni, és UV-adatokat másolni a pontos textúra leképezéshez.
+linktitle: How to Set UV on Cube
 second_title: Aspose.3D .NET API
-description: Ismerje meg az UV-leképezés beállítását 3D-kockán az Aspose.3D for .NET használatával. Hozzon létre vizuálisan lenyűgöző jeleneteket precíz textúra-leképezéssel.
-weight: 18
+title: Hogyan állítsuk be az UV-t a kockán
 url: /hu/net/geometry-and-hierarchy/setup-uv-cube/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# UV beállítása a Cube-on
+# Hogyan állítsuk be az UV-t egy kockán
 
 ## Bevezetés
 
-Lebilincselő és tetszetős 3D-s jelenetek létrehozása gyakran magában foglalja a geometriai formák UV-leképezésének aprólékos beállítását. Ebben az oktatóanyagban megvizsgáljuk, hogyan állíthat be UV-sugárzást egy kockán az Aspose.3D for .NET használatával. Az Aspose.3D egy hatékony .NET-könyvtár, amely a 3D-modellezés és -manipuláció átfogó szolgáltatáskészletét kínálja.
+Lenyűgöző és vizuálisan vonzó 3D jelenetek létrehozása gyakraniai alakzatokon. Ebbenvtár, amely átfogó biztosít 3D modellezéshez, textúra leképezéshez és manipulációhoz.
+
+## Gyors válaszok
+- **What is UV mapping?** Egy technika, amely 2 koordinátákat (U és V) rendel a 3‑D csúcsokhoz.  
+- **Which library is used?** Aspose.3D for .NET.  
+- **Do I need a license?** Ingyenes próba elérhető; licenc szükséges a termeléshez.  
+  
+- .NET 6?őbbi verziókat.
+
+## Mi az a “how to set uv” egy kockán?
+
+Az UV beállítása egy kockán azt jelenti, hogy **UV koordinátákat** definiálunk, ezeket a koordinátákat minden felülethez kapcsoljuk, és a leképezést a hálóban tároljuk, hogy jelenjenek meg a 3‑D objekt faület vagy egyedi grafikák – anélkül, hogy növelnénk a geometria összetettségét. A megfelelő UV leképezés biztosítja, hogy a textúrák ne legyenek nyújtottak vagy elcsúszottak.
 
 ## Előfeltételek
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
+Mielőtt belemerülnél az útmutatóba, győződj meg róla, hogy rendelkezel a következő előfeltételekkel:
 
-1. Aspose.3D for .NET Library: Győződjön meg arról, hogy telepítve van az Aspose.3D könyvtár. Letöltheti[itt](https://releases.aspose.com/3d/net/).
+1. **Aspose.3D for .NET Library** – Győződj meg róla, hogy az Aspose.3D könyvtár telepítve van. Letöltheted [itt](https://releases.aspose.com/3d/net/).  
+2. **Development Environment** – Állíts be egy .NET fejlesztői környezetet a szükséges eszközökkel.
 
-2. Fejlesztői környezet: .NET fejlesztői környezet létrehozása a szükséges eszközökkel.
+Most lépjünk a lépésről‑lépésre útmutatóhoz.
 
-Most pedig folytassuk az oktatóanyaggal.
+## Namespace-ek importálása
 
-## Névterek importálása
-
-Először is importálja a szükséges névtereket az Aspose.3D funkciók eléréséhez a .NET-alkalmazásban.
+Először importáld a szükséges namespace-eket, hogy hozzáférj az Aspose.3D funkciókhoz a .NET alkalmazásodban.
 
 ```csharp
 using System;
@@ -40,9 +53,9 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Utilities;
 ```
 
-## 1. lépés: Határozza meg a kocka UV-értékeit
+## 1. lépés: UV koordináták létrehozása
 
-Határozza meg az UV koordinátákat a kocka minden csúcsához. Ez magában foglalja az U és V értékek megadását a kocka minden sarkához.
+Definiáld a UV koordinátákat a kocka minden csúcsához. Ez a lépés bemutatja, hogyan **how to create uv coordinates** a textúra leképezéshez.
 
 ```csharp
 // ExStart:DefineUVs
@@ -56,22 +69,22 @@ Vector4[] uvs = new Vector4[]
 // ExEnd:DefineUVs
 ```
 
-## 2. lépés: Határozza meg az UV-indexeket
+## 2. lépés: UV indexek meghatározása (How to Define UV Indices)
 
-Adja meg az UV-koordináták indexeit a kocka minden sokszögéhez. Ez határozza meg, hogy az UV-k hogyan vannak leképezve a kocka felületére.
+Add meg a UV koordináták indexeit a kocka minden poligonjához. Ez meghatározza a **define uv indices** és megmondja a motornak, hogyan térképezze a UV-ket minden felületre.
 
 ```csharp
-// ExStart:DefineUVIndexes
+// ExStart:DefineUVIndices
 int[] uvsId = new int[]
 {
     0, 1, 3, 2, 2, 3, 5, 4, 4, 5, 7, 6, 6, 7, 9, 8, 1, 10, 11, 3, 12, 0, 2, 13
 };
-// ExEnd:DefineUVIndexes
+// ExEnd:DefineUVIndices
 ```
 
-## 3. lépés: Hozzon létre egy hálót
+## 3. lépés: Háló poligon építése
 
-Használja az Aspose.3D könyvtárat háló létrehozásához poligonépítő módszerrel. Ez szolgál majd a 3D kockánk alapjául.
+Használd az Aspose.3D könyvtárat a **build mesh polygon** létrehozásához egy polygon építő metódussal. Ez szolgál majd a 3D kockánk alapjául.
 
 ```csharp
 // ExStart:CreateMesh
@@ -79,9 +92,9 @@ Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
 // ExEnd:CreateMesh
 ```
 
-## 4. lépés: Hozzon létre UV elemet
+## 4. lépés: UV elem létrehozása
 
-Hozzon létre egy UV-elemet a hálóban az UV-leképezési adatok tárolására.
+Hozz létre egy UV elemet a hálóban az UV leképezési adatok tárolásához. Ez a lépés elengedhetetlen a **how to map textures** a kockára.
 
 ```csharp
 // ExStart:CreateUVElement
@@ -89,45 +102,59 @@ VertexElementUV elementUV = mesh.CreateElementUV(TextureMapping.Diffuse, Mapping
 // ExEnd:CreateUVElement
 ```
 
-## 5. lépés: Másolja az UV-adatokat a Mesh-be
+## 5. lépés: UV adatok másolása a hálóba (Copy UV Data)
 
-Másolja a korábban meghatározott UV koordinátákat és indexeket a háló UV csúcselemére.
+Másold a korábban meghatározott UV koordinátákat és indexeket a háló UV csúcs elemébe. Ez hatékonyan bemutatja a **copy uv data**.
 
 ```csharp
-// ExStart: CopyUVData
+// ExStart:CopyUVData
 elementUV.Data.AddRange(uvs);
 elementUV.Indices.AddRange(uvsId);
-// ExEnd: CopyUVData
+// ExEnd:CopyUVData
 ```
+
+## Gyakori Ellenőrizd, hogy háló topológiájával. |
+| Nincs látható textúra | UV elem nincs csatolva a hálóhoz | Győződj meg róla, hogy a `CreateElementUV` **előtt** van meghívva az adatok másolása előtt. |
+| Futásidejű hiba a `CreateMeshUsingPolygonBuilder`-nél | Hiányzó hédosztályra | Add hozzá a `Common` segédosztályt az Aspose példákból, vagy cseréld manuális poligon létrehozásranát?**  
+A: Igen, a `TextureMapping.D a `TextureMapping.Specular`, `TextureMapping.Normal` stb. értékeket, a anyagbeállításodtól függőenhozása után?**  
+A: Teljesen. Módosíthatod vagy `elementUV.Indices` értékeket, majd újra exportálhatod a hálót.
+
+**Q: Újra kell generálni a hálót, ha megváltoztatom az UV-ket?**  
+A: Nem, az UV elem frissítése elegendő; a geometria változatlan marad.
 
 ## Következtetés
 
-Gratulálunk! Sikeresen beállította az UV-leképezést egy kockán az Aspose.3D for .NET használatával. Ez lehetőséget ad bonyolult és vizuálisan lenyűgöző 3D-s jelenetek létrehozására precíz textúra-leképezéssel.
+Gratulálunkultad, hogyan **how to set uv** egy kockán az Aspose.3D for .NET segítségével. Ez lehetős3D jelenetek létrehozására pontos textúra leképezéssel.
 
-## GYIK
+## GyIK
 
-### 1. kérdés: Mi az Aspose.3D for .NET?
+### Q1: Mi az Aspose.3D for .NET?
 
-1. válasz: Az Aspose.3D for .NET egy hatékony könyvtár a .NET-alkalmazások 3D modellezéséhez és manipulálásához.
+?
 
-### 2. kérdés: Hol találom az Aspose.3D dokumentációt?
+ elérhető [itt](https://reference.aspose.com/3d/net/).
 
- V2: A dokumentáció elérhető[itt](https://reference.aspose.com/3d/net/).
+### Q3: Van ingyenes próba elérhető?
 
-### 3. kérdés: Van ingyenes próbaverzió?
+A3: Igen, az ingyenes próbát [itt](https://releases.aspose.com/) érheted el.
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+### Q4: Hogyan kaphatok támogatást az Aspose.3D-hez?
 
-### 4. kérdés: Hogyan kaphatok támogatást az Aspose.3D-hez?
+A4: Látogasd meg a támogatási fórumot [itt](https://forum.aspose.com/c/3d/18).
 
- 4. válasz: Látogassa meg a támogatási fórumot[itt](https://forum.aspose.com/c/3d/18).
+### Q5: Elérhetők ideiglenes licence-ek?
 
-### 5. kérdés: Rendelkezésre állnak ideiglenes licencek?
+A5: Igen, ideiglenes licence-t szerezhetsz [itt](https://purchase.aspose.com/temporary-license/).
 
- V5: Igen, beszerezhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Utoljára frissítve:** 2026-01-22  
+**Tesztelve ezzel:** Aspose.3D for .NET (legújabb stabil kiadás)  
+**Szerző:** Aspose

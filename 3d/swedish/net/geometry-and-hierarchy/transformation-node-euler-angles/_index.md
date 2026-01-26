@@ -1,33 +1,42 @@
 ---
-title: Transforming Node av Euler Angles
-linktitle: Transforming Node av Euler Angles
+date: 2026-01-22
+description: Lär dig hur du skapar ett barnnod och lägger till en transformationsnod
+  med hjälp av Eulervinklar i Aspose.3D för .NET. Följ vår steg‑för‑steg‑guide för
+  fantastiska resultat.
+linktitle: Create Child Node and Transform by Euler Angles
 second_title: Aspose.3D .NET API
-description: Lär dig att transformera 3D-noder utan ansträngning med Aspose.3D för .NET. Följ vår steg-för-steg-guide för fantastiska resultat i dina projekt.
-weight: 19
+title: Skapa barnnod och transformera med Eulervinklar
 url: /sv/net/geometry-and-hierarchy/transformation-node-euler-angles/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Transforming Node av Euler Angles
+# Transformera nod med Euler-vinklar
 
-## Introduktion
+## Introduction
 
-Välkommen till denna omfattande handledning om att transformera noder med Euler-vinklar i 3D-scener med Aspose.3D för .NET. I den här guiden kommer vi att fördjupa oss i den spännande världen av 3D-grafik och utforska processen att lägga till transformationer till en nod med hjälp av Euler-vinklar. Aspose.3D för .NET tillhandahåller kraftfulla verktyg för att arbeta med 3D-scener och mesh, vilket gör det till ett utmärkt val för utvecklare som söker mångsidighet och effektivitet i sina projekt.
+Välkommen till denna omfattande handledning om **how to create child node** och hur man transformerar noder med Euler-vinklar i 3D‑scener med Aspose.3D för .NET. I den här guiden kommer vi att utforska varför det är viktigt att lägga till en transformationsnod, gå igenom varje steg och visa dig hur du **save scene as FBX** för användning i andra verktyg.
 
-## Förutsättningar
+## Quick Answers
+- **What does “create child node” mean?** Det skapar en ny nod under en befintlig förälder i scen- **Which format can I export to?** Använd `scene.Save` för att **save scene as FBX** (eller andra stödjade format).  
+- **Do I need a license?** Ja, en giltig Aspose.3D‑licens krävs för produktion.  
+- **Can I combine multiple transformations?**.  
+- **What .NET versions are supported?**`‑objekt iintlig scen. Detta barn ärver transformationer från som robotarmar, fordonsmonteringar eller UI‑överlägg.
 
-Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
+## Why add a transformation node?
+Att applicera Euler‑vinklar eller andra transformationer direkt på en nod ger dig exakt kontroll över skala. Det är det enklaste sättet att animera eller flytta objekt utan att ändra den underliggande mesh‑datan.
 
--  Aspose.3D for .NET Library: Se till att du har Aspose.3D-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/3d/net/).
+## Prerequisites
 
-- Utvecklingsmiljö: Konfigurera din föredragna .NET-utvecklingsmiljö, som Visual Studio.
+- Aspose.3D for .NET Library: Se till att du har Aspose.3D‑biblioteket installerat. Du kan ladda ner det [here](https://releases.aspose.com/3d/net/).
+- Development Environment: Ställ in din föredragna .NET‑utvecklingsmiljö, till exempel Visual Studio.
 
-## Importera namnområden
+## Import Namespaces
 
-Börja med att importera de nödvändiga namnområdena för att komma åt funktionerna som tillhandahålls av Aspose.3D för .NET:
+Börja med att importera de nödvändiga namnutrymmena för att få åtkomst till funktionaliteten som tillhandahålls av Aspose.3D för .NET:
 
 ```csharp
 using System;
@@ -40,88 +49,89 @@ using Aspose.ThreeD.Utilities;
 
 Låt oss nu dela upp exemplet i flera steg för en tydlig förståelse.
 
-## Steg 1: Initiera scenobjekt
+## How to create child node
+
+### Step 1: Initialize Scene Object
+
+Börja med att skapa en ny 3D‑scen med hjälp av `Scene`‑klassen.
 
 ```csharp
-// ExStart: AddTransformationToNodeByEulerAngles
-// Initiera scenobjekt
+// ExStart:AddTransformationToNodeByEulerAngles
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
- Börja med att skapa en ny 3D-scen med hjälp av`Scene` klass.
+### Step 2: Create Mesh Using primitive Box
 
-
-## Steg 2: Skapa nät med primitiv box
+Anropa en metod (i detta fall `CreateMeshUsingPolygonBuilder` från en anpassad `Common`‑klass) för att generera en mesh för 3D‑objektet.
 
 ```csharp
-// Anrop Common class skapa mesh med polygonbyggarmetoden för att ställa in mesh-instans
+// Call Common class create mesh using polygon builder method to set mesh instance 
 Mesh mesh = (new Box()).ToMesh();
 ```
 
- Anropa en metod (i det här fallet,`CreateMeshUsingPolygonBuilder` från en sed`Common`klass) för att generera ett nät för 3D-objektet.
+### Step 3: Create a container node for the mesh
 
-## Steg 3: Skapa en containernod för nätet
+Skapa en nod i scenen med hjälp av `Node`‑klassen. Denna nod kommer att fungera som behållare för vårt 3D‑objekt.
 
 ```csharp
-// Peka noden på Mesh-geometrin
+// Point node to the Mesh geometry
 Node cubeNode = scene.RootNode.CreateChildNode(mesh);
 ```
 
- Skapa en nod i scenen med hjälp av`Node` klass. Denna nod kommer att fungera som behållare för vårt 3D-objekt.
+### Step 4: Set Euler Angles and Translation (add transformation node)
 
-## Steg 4: Ställ in Euler-vinklar och översättning
+Definiera Euler‑vinklarna och translationen för noden för att placera den i 3D‑rymden. Detta är platsen där vi **add transformation node**‑data.
 
 ```csharp
-// Euler vinklar
+// Euler angles
 cubeNode.Transform.EulerAngles = new Vector3(0.3, 0.1, -0.5);            
-// Ställ in översättning
+// Set translation
 cubeNode.Transform.Translation = new Vector3(0, 0, 20);
 ```
 
-Definiera Euler-vinklarna och översättningen för noden för att placera den i 3D-utrymmet.
+### Step 5: Save the 3D Scene (save scene as FBX)
 
-## Steg 5: Spara 3D-scenen
+Ange output‑katalogen och **save scene as FBX** (eller något annat stödjat format) med `scene.Save`.
 
 ```csharp
-// Sökvägen till dokumentkatalogen.
+// The path to the documents directory.
 var output = "TransformationToNode.fbx";
 
-// Spara 3D-scen i de filformat som stöds
+// Save 3D scene in the supported file formats
 scene.Save(output);
-// ExEnd: AddTransformationToNodeByEulerAngles
+// ExEnd:AddTransformationToNodeByEulerAngles
 Console.WriteLine("\nTransformation added successfully to node.\nFile saved at " + output);
 ```
 
-Ange utdatakatalogen och spara 3D-scenen, inklusive den transformerade noden, i önskat filformat (FBX7500ASCII i detta fall).
+## Common Issues and Solutions
+- **Incorrect rotation order:** Euler‑vinklar appliceras i Z‑Y‑X‑ordning. Om objektet ser vr ord20)` flyttar den framåt).
+- **File not saving:** Verifier för mål‑mappen
 
-## Slutsats
+**Q: Är Aspose.3D kompatibel med andra 3D‑modellverktyg?**  
+A: Aspose.3D stöder olika 3D‑filformat, vilket förbättrar kompatibiliteten med populära modellverktyg.
 
-Grattis! Du har framgångsrikt lärt dig hur man transformerar en nod med Euler-vinklar i 3D-scener med Aspose.3D för .NET. Detta kraftfulla bibliotek öppnar dörren till oändliga möjligheter inom 3D-grafikutveckling.
+**Q: Kan jag applicera flera transformation nod?**  
+A: Ja, du kan kombinera och applicera flera transformationer för att upp‑dokumentation?**  
+A: Se [documentation](https://reference.aspose.com/3d/net/) för detaljerad information och exempel.
 
-## FAQ's
+**Q: Behöver jag en licens för att använda Aspose.3D för .NET?**  
+A: Ja, du kan skaffa en licens [here](https://purchase.aspose.com/buy) eller prova en [free trial](https://releases.aspose.com/).
 
-### F1: Är Aspose.3D kompatibel med andra 3D-modelleringsverktyg?
+**Q: Behöver du hjälp eller har specifika frågor?**  
+A: Besök [Aspose.3D forum](https://forum.aspose.com/c/3d/18) för community‑support.
 
-S1: Aspose.3D stöder olika 3D-filformat, vilket förbättrar kompatibiliteten med populära modelleringsverktyg.
+## Conclusion
 
-### F2: Kan jag tillämpa flera transformationer på en enda nod?
+Grattis! Du har nu framgångsrikt lärt dig hur man **create child node** och **add transformation node** med Euler‑vinklar, och sedan **save scene as FBX** med Aspose.3D för .NET. Detta kraftfulla bibliotek öppnar dörren till oändliga möjligheter inom 3D‑grafikutveckling.
 
-S2: Ja, du kan kombinera och tillämpa flera transformationer för att uppnå komplexa effekter.
-
-### F3: Var kan jag hitta ytterligare Aspose.3D-dokumentation?
-
- A3: Se[dokumentation](https://reference.aspose.com/3d/net/) för detaljerad information och exempel.
-
-### F4: Behöver jag en licens för att använda Aspose.3D för .NET?
-
- A4: Ja, du kan få en licens[här](https://purchase.aspose.com/buy) eller utforska en[gratis provperiod](https://releases.aspose.com/).
-
-### F5: Behöver du hjälp eller har specifika frågor?
-
- A5: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) för samhällsstöd.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026**Tested With:** Aspose.3---

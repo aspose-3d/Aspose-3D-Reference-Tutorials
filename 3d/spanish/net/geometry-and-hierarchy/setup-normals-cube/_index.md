@@ -1,33 +1,47 @@
 ---
-title: Configurar normales en Cube
-linktitle: Configurar normales en Cube
-second_title: Aspose.3D API .NET
-description: Aprenda a configurar normales en un cubo 3D usando Aspose.3D para .NET. Mejore sus habilidades de modelado 3D con esta guía paso a paso.
-weight: 17
+date: 2026-01-22
+description: Aprende a crear una malla de cubo y establecer las normales de los vértices
+  en un cubo 3D usando Aspose.3D para .NET. Mejora tus habilidades de modelado 3D
+  con esta guía paso a paso.
+linktitle: Setting Up Normals on Cube
+second_title: Aspose.3D .NET API
+title: Cómo crear una malla de cubo y configurar las normales en un cubo
 url: /es/net/geometry-and-hierarchy/setup-normals-cube/
+weight: 17
 ---
 
+{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Configurar normales en Cube
+# Configurando Normales en un Cubo
 
 ## Introducción
 
-Bienvenido a nuestra guía paso a paso sobre cómo configurar normales en un cubo en escenas 3D usando Aspose.3D para .NET. Aspose.3D es una potente biblioteca que permite a los desarrolladores .NET trabajar con archivos 3D, proporcionando una amplia gama de funcionalidades para el modelado y la manipulación 3D.
+En este tutorial **creará una malla de cubo** y luego **establecerá normales de vértice** para que el cubo se renderos. Aspose.3D para .NET sencilla. Ya sea que esté preparando recursos para un motor de juego o una visualización científica, dominar las normales en un cubo es una habilidad fundamental.
 
-En este tutorial, lo guiaremos a través del proceso de configurar normales en un cubo en una escena 3D usando Aspose.3D. Las normales son cruciales para una iluminación y sombras adecuadas en gráficos 3D, y comprender cómo configurarlas es fundamental para crear modelos 3D realistas y visualmente atractivos.
+##ápidas
+- **¿Qué significa “create cube mesh”?** Significa generar un objeto Mesh que define los vértices, caras y topología del cubo.  
+- **¿Por qué son importantes las normales de vértice?** Indican al renderizador cómo la luz interactúa con cada superficie, produciendo sombreado realista.  
+- **¿Necesito una licencia para ejecutar este código?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
+- **¿Qué versiones de .NET son compatibles?** Aspose.3D funciona con .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **¿Cuánto tiempo lleva la implementación?** Aproximadamente 5‑10 minutos una vez que la biblioteca está referenciada.
 
-## Requisitos previos
+## ¿Qué es una Malla de Cubo y Por Qué Establecer Normales de Vértice?
 
-Antes de sumergirnos en el tutorial, asegúrese de tener los siguientes requisitos previos:
+Una **malla de cubo** es una colección de ocho vértices y seis caras que definen un cubo perfecto en el espacio 3‑D. Por defecto, Aspose.3D puede generar una malla sin vectores normales explícitos, lo que puede producir una iluminación plana o incorrecta. Añadir **normales de vértice** (la dirección a la que “mirará” cada vértice) garantiza un sombreado suave e iluminación realista.
 
--  Aspose.3D para .NET: asegúrese de tener instalada la biblioteca Aspose.3D. Puedes descargarlo desde el[Aspose.3D para documentación .NET](https://reference.aspose.com/3d/net/).
+## Requisitos Previos
 
-## Importar espacios de nombres
+Antes de comenzar, asegúrese de tener:
 
-Para comenzar, importemos los espacios de nombres necesarios a su proyecto:
+- **Aspose.3D para .NET** instalado. Puede descargarlo desde la [documentación de Aspose.3D para .NET](https://reference.aspose.com/3d/net/).
+- Un entorno de desarrollo .NET (Visual Studio, VS Code, o cualquier IDE que prefiera).
+- Familiaridad básica con la sintaxis de C# y conceptos 3‑D.
+
+## Importar Espacios de Nombres
+
+Primero, traiga los espacios de nombres requeridos al alcance:
 
 ```csharp
 using System;
@@ -38,77 +52,90 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Paso 1: datos normales sin procesar
+## Guía Paso a Paso
 
-El primer paso consiste en definir datos normales sin procesar para nuestro cubo. Las normales se representan como objetos Vector4 y aquí hay un ejemplo:
+### Paso 1: Definir Datos Brutos de Normales
+
+Las normales se almacenan como objetos `Vector4` (X, Y, Z, W). Para un cubo necesitamos una normal para cada vértice. A continuación se muestra la matriz cruda; la copiará en la malla más adelante.
 
 ```csharp
-// ExInicio:RawNormalData
+// ExStart:RawNormalData
 Vector4[] normals = new Vector4[]
 {
     new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
-    //... (repetir para los otros 7 vértices)
+    // ... (repeat for the other 7 vertices)
 };
 // ExEnd:RawNormalData
 ```
 
-## Paso 2: crear malla usando Polygon Builder
+> **Consejo:** Los valores anteriores corresponden a los vectores unitarios que apuntan hacia afuera desde cada vértice de un cubo unitario.
 
-A continuación, crearemos una malla utilizando el método de creación de polígonos. Esto se hace llamando a una clase común para crear una instancia de malla:
+### Paso 2: Crear la Malla de Cubo Usando el Polygon Builder
+
+Aspose.3D proporciona una clase auxiliar (`Common`) que construye una malla de cubo básica por nosotros. Esto mantiene el ejemplo conciso mientras muestra cómo **create cube mesh**.
 
 ```csharp
-// ExInicio:CrearMalla
+// ExStart:CreateMesh
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
-// ExEnd:CrearMalla
+// ExEnd:CreateMesh
 ```
 
-## Paso 3: configurar normales en Cube
+### Paso 3: Establecer Normales de Vértice en el Cubo
 
-Ahora, configuremos las normales en el cubo creando un VertexElementNormal y copiando los datos normales al elemento de vértice:
+Ahora adjuntamos los datos de normales a la malla. Creamos un `VertexElementNormal` con `MappingMode.ControlPoint` y `ReferenceMode.Direct`, luego insertamos la matriz `normals` en él.
 
 ```csharp
-// ExInicio:ConfiguraciónNormalsOnCube
+// ExStart:SetupNormalsOnCube
 VertexElementNormal elementNormal = mesh.CreateElement(VertexElementType.Normal, MappingMode.ControlPoint, ReferenceMode.Direct) as VertexElementNormal;
 elementNormal.Data.AddRange(normals);
-// ExEnd:ConfiguraciónNormalsOnCube
+// ExEnd:SetupNormalsOnCube
 ```
 
-## Paso 4: Imprimir mensaje de éxito
+Al hacer esto, cada vértice del cubo ahora lleva un vector de dirección que el motor de renderizado puede usar para los cálculos de iluminación.
 
-Finalmente, imprimiremos un mensaje de éxito para confirmar que las normales se han configurado correctamente:
+### Paso 4: Verificar la Operación
+
+Una salida rápida en consola le indica que el proceso se completó sin errores.
 
 ```csharp
 Console.WriteLine("\nNormals have been set up successfully on the cube.");
 ```
 
-## Conclusión
+Al ejecutar el programa, debería ver el mensaje de confirmación, y cualquier visor que cargue el archivo 3‑D resultante mostrará caras correctamente sombreadas.
 
-¡Felicidades! Ha aprendido con éxito cómo configurar normales en un cubo en escenas 3D usando Aspose.3D para .NET. Este conocimiento es esencial para lograr efectos realistas de iluminación y sombras en sus modelos 3D.
+## Problemas Comunes y Soluciones
 
-## Preguntas frecuentes
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| **Las normales aparecen planas o invertidas** | Orden de winding incorrecto o dirección de normal no coincidente | Asegúrese de que la matriz de normales coincida con el orden de vértices usado por `Common.CreateMeshUsingPolygonBuilderEx tiempo llamar a `CreateElement`** | Uso de una versión antigua de Aspose.3D que no incluye el método | Actualice a la última versión de Aspose.3D. |
+| **No se ve sombreado en el visor** | El visor ignora las normales si la malla no tiene un material | Asigne un material simple (p. ej., `mesh.Material = new Material();`). |
 
-### P1: ¿Aspose.3D es compatible con otros formatos de archivos 3D?
+## Preguntas Frecuentes
 
-R1: Sí, Aspose.3D admite varios formatos de archivos 3D, lo que permite una integración perfecta con sus proyectos existentes.
+### P1: ¿Es Aspose.3D compatible con otros formatos de archivo 3‑D?
+**R1:** Sí, Aspose.3D admite varios formatos de archivo 3‑D, lo que permite una integración fluida con sus proyectos existentes.
 
-### P2: ¿Puedo probar Aspose.3D antes de comprarlo?
-
-R2: ¡Absolutamente! Puede descargar una prueba gratuita desde[aquí](https://releases.aspose.com/).
+### P2: ¿Puedo probar Aspose.3D antes de comprar?
+**R2:** ¡Claro! Puede descargar una prueba gratuita [aquí](https://releases.aspose.com/).
 
 ### P3: ¿Dónde puedo encontrar licencias temporales para Aspose.3D?
+**R3:** Las licencias temporales están disponibles para su compra [aquí](https://purchase.aspose.com/temporary-license/).
 
- R3: Las licencias temporales están disponibles para su compra[aquí](https://purchase.aspose.com/temporary-license/).
+### P4: ¿Cuál es la opinión de la comunidad sobre Aspose.3D?
+**R4:** Únase a la comunidad de Aspose.3D en el [foro](https://forum.aspose.com/c/3d/18) para conectar con otros desarrolladores y compartir experiencias.
 
-### P4: ¿Cuáles son los comentarios de la comunidad sobre Aspose.3D?
+### P5: ¿Hay recursos adicionales para aprender Aspose.3D?
+**R5:** Explore la extensa [documentación](https://reference.aspose.com/3d/net/) para descubrir más funciones y consejos.
 
- A4: Únase a la comunidad Aspose.3D en el[foro](https://forum.aspose.com/c/3d/18) para conectarse con otros desarrolladores y compartir experiencias.
+---
 
-### P5: ¿Existen recursos adicionales para aprender Aspose.3D?
+**Última actualización:** 2026-01-22  
+**Probado con:** Aspose.3D para .NET (última versión estable)  
+**Autor:** Aspose  
 
- A5: Explora la extensa[documentación](https://reference.aspose.com/3d/net/) para descubrir más funciones y consejos.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-container >}}
