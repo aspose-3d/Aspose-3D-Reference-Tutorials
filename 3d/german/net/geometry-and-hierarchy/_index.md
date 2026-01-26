@@ -1,10 +1,13 @@
 ---
-title: Geometrie und Hierarchie
-linktitle: Geometrie und Hierarchie
+date: 2026-01-17
+description: Lernen Sie geometrische Transformations‑3D‑Techniken mit Aspose.3D für
+  .NET. Wenden Sie PBR‑Material an, transformieren Sie die Knotenmatrix und beherrschen
+  Sie die Hierarchie in immersiven Tutorials.
+linktitle: Geometry and Hierarchy
 second_title: Aspose.3D .NET API
-description: Entdecken Sie die Welt der 3D-Grafik mit Aspose.3D für .NET-Tutorials. Von der Anwendung von PBR-Materialien bis hin zu geometrischen Transformationen meistern Sie jeden Aspekt mühelos.
-weight: 25
+title: Geometrische Transformation 3D – Geometrie und Hierarchie
 url: /de/net/geometry-and-hierarchy/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,72 +18,97 @@ url: /de/net/geometry-and-hierarchy/
 
 ## Einführung
 
-Begeben Sie sich mit Aspose.3D für .NET-Tutorials auf eine spannende Reise in die Welt der 3D-Grafik. Egal, ob Sie ein Anfänger oder ein erfahrener Entwickler sind, diese Schritt-für-Schritt-Anleitungen versprechen, Ihre Fähigkeiten zu verbessern und die Geheimnisse der nahtlosen 3D-Grafikmanipulation zu enthüllen.
+Willkommen zum ultimativen Leitfaden für **geometric transformation 3d** mit Aspose.3D für .NET. Egal, ob Sie gerade erst anfangen oder bereits seit Jahren 3D‑Anwendungen entwickeln, diese Sammlung praxisnaher Tutorials hilft Ihnen, alles zu beherrschen – vom Anwenden von PBR‑Materialien bis hin zur Manipulation von Nodes mit einer Transformationsmatrix. Tauchen wir ein und sehen, wie Sie Konzepte in reale 3D‑Szenen verwandeln können.
 
-## Anwenden von PBR-Material auf Box in 3D-Szenen
+## Überblick über Geometric Transformation 3D
 
- Tauchen Sie mit Aspose.3D für .NET in die faszinierende Welt der Physically Based Rendering (PBR)-Materialien ein. In diesem Tutorial führen wir Sie durch den Prozess des Aufbringens von PBR-Materialien auf eine Box, sodass Sie mühelos immersive Szenen erstellen können.[Mehr lesen](./apply-pbr-material-to-box/)
+In diesem Abschnitt geben wir Ihnen einen kurzen Überblick über die unten behandelten Kernthemen. Sie lernen, wie man:
 
+* Physically‑based Rendering (PBR) Materialien auf Objekte anwendet, um realistische Beleuchtung zu erzielen.  
+* Die Szenenhierarchie mit XPath‑ähnlicher Syntax navigiert und abfragt.  
+* Quaternionen, Euler‑Winkel und Transformationsmatrizen zu Nodes verkettet und anwendet.  
 
-## XPath-ähnliche Objektabfragen
+Jedes Tutorial ist eigenständig, enthält Beispielcode und zeigt das erwartete visuelle Ergebnis, sodass Sie Schritt für Schritt folgen können.
 
-[Tutorial zu XPath-ähnlichen Objektabfragen](./xpath-like-object-queries/)
+## Anwenden von PBR‑Material auf Box in 3D‑Szenen
 
-Nutzen Sie das Potenzial von Aspose.3D für .NET! Nutzen Sie die Vielseitigkeit XPath-ähnlicher Abfragen, um mühelos durch Objekte innerhalb der Szenenhierarchie zu navigieren und diese zu bearbeiten. Laden Sie es jetzt herunter und erleben Sie ein revolutionäres Erlebnis, das die Bearbeitung von 3D-Grafiken wie nie zuvor vereinfacht.
+Entdecken Sie die Leistungsfähigkeit von physically based rendering, indem Sie lernen, **PBR‑Material** auf eine einfache Box anzuwenden. Dieses Tutorial führt Sie durch das Erstellen eines Materials, das Zuweisen zur Geometrie und das Rendern der Szene mit realistischen Reflexionen.  
+[Mehr erfahren](./apply-pbr-material-to-box/)
 
+## XPath‑ähnliche Objektabfragen
 
-## Verketten von Quaternionen in 3D-Szenen
+Navigieren Sie mühelos durch komplexe Szenengraphen mit XPath‑ähnlichen Abfragen. Dieser Leitfaden zeigt, wie Sie Nodes finden, nach Typ filtern und Objekte manipulieren, ohne umfangreichen Traversierungscode zu schreiben.  
+[XPath‑ähnliche Objektabfragen Tutorial](./xpath-like-object-queries/)
 
- Nutzen Sie die Möglichkeiten der Quaternion-Manipulation in 3D-Szenen mit Aspose.3D für .NET. Lernen Sie Schritt für Schritt, Quaternionen zu verketten und so ihr Potenzial für immersive Transformationen freizusetzen.[Mehr lesen](./concatenate-quaternions/)
+Entfesseln Sie das Potenzial von Aspose.3D für .NET! Nutzen Sie die Vielseitigkeit von XPath‑ähnlichen Abfragen, um Objekte innerhalb der Szenenhierarchie mühelos zu navigieren und zu manipulieren. Jetzt herunterladen für ein revolutionäres Erlebnis, das die 3D‑Grafikmanipulation wie nie zuvor vereinfacht.
 
-## Würfelszenen in 3D erstellen
+## Verkettung von Quaternionen in 3D‑Szenen
 
-Erstellen Sie mit Aspose.3D für .NET mühelos visuell beeindruckende 3D-Würfelszenen. Laden Sie die Bibliothek herunter und folgen Sie unserem umfassenden Leitfaden, um Ihrer Kreativität freien Lauf zu lassen.[Mehr lesen](./create-cube-scenes/)
+Lernen Sie, wie Sie mehrere Quaternion‑Rotationen zu einer einzigen, glatten Transformation kombinieren. Das Schritt‑für‑Schritt‑Beispiel zeigt, wie Sie komplexe Orientierungen für animierte Charaktere oder Kameras erstellen.  
+[Mehr erfahren](./concatenate-quaternions/)
 
-## Aufdecken geometrischer Transformationen in 3D-Szenen
+## Erstellen von Würfel‑Szenen in 3D
 
- Entdecken Sie mit Aspose.3D die grenzenlosen Möglichkeiten von 3D-Grafiken in .NET. Dieses Tutorial stellt die Kunst der geometrischen Transformationen vor und vermittelt Ihnen die Fähigkeiten, Szenen mühelos zu manipulieren.[Mehr lesen](./expose-geometric-transformation)
+Erstellen Sie eine vollständige 3D‑Würfelszene von Grund auf, inklusive Mesh‑Erstellung, Materialzuweisung und Szenen‑Export. Dieses Tutorial ist ideal für visuelle Lernende, die jeden Schritt der Pipeline sehen möchten.  
+[Mehr erfahren](./create-cube-scenes/)
 
-## Anwenden von Material auf Würfel in 3D-Szenen
+## Offenlegen von Geometric Transformation in 3D‑Szenen
 
- Ihr Einstieg in die nahtlose 3D-Grafikbearbeitung beginnt hier! Entdecken Sie Aspose.3D für .NET und lernen Sie, Materialien mühelos anzuwenden und so den Realismus Ihrer Projekte zu verbessern.[Mehr lesen](./material-to-cube/)
+Tauchen Sie ein in die Grundlagen von **geometric transformation 3d** – Translation, Rotation und Skalierung – angewendet auf Nodes. Sie erhalten ein solides Verständnis dafür, wie Sie jedes Objekt in Ihrer Szene manipulieren können.  
+[Mehr erfahren](./expose-geometric-transformation)
 
-## Arbeiten mit Netzgeometriedaten in 3D-Szenen
+## Anwenden von Material auf Würfel in 3D‑Szenen
 
- Meistern Sie die Kunst der 3D-Grafikprogrammierung mit Aspose.3D für .NET. Erstellen, bearbeiten und speichern Sie mühelos atemberaubende 3D-Szenen mithilfe von Netzgeometriedaten.[Mehr lesen](./mesh-geometry-data/)
+Entdecken Sie, wie Sie die Realistik eines Würfels steigern, indem Sie Texturen und Shader anwenden. Dieser Leitfaden führt Sie durch das Einstellen von Materialeigenschaften, UV‑Mapping und das Rendern des Endergebnisses.  
+[Mehr erfahren](./material-to-cube/)
 
-## Knotenhierarchie in 3D-Szenen verstehen
+## Arbeiten mit Mesh‑Geometriedaten in 3D‑Szenen
 
-Nutzen Sie die Leistungsfähigkeit von Aspose.3D für .NET! Tauchen Sie mit diesem umfassenden Leitfaden in die Manipulation der Knotenhierarchie ein und befähigen Sie Sie, mühelos atemberaubende 3D-Szenen zu erstellen.[Mehr lesen](./node-hierarchy/)
+Meistern Sie die Erstellung, Bearbeitung und Serialisierung von Mesh‑Geometriedaten. Sie lernen, wie Sie programmgesteuert Vertices, Normalen und Faces generieren und das Mesh dann in gängige 3D‑Formate speichern.  
+[Mehr erfahren](./mesh-geometry-data/)
 
-## Einrichten von Normalen auf Würfeln in 3D-Szenen
+## Verständnis der Node‑Hierarchie in 3D‑Szenen
 
- Verbessern Sie Ihre 3D-Modellierungsfähigkeiten mit Aspose.3D für .NET. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Normalen auf einem 3D-Würfel einrichten und so Ihren Kreationen Tiefe und Realismus verleihen.[Mehr lesen](./setup-normals-cube/)
+Verschaffen Sie sich einen klaren Überblick darüber, wie Nodes in Aspose.3D organisiert sind, und lernen Sie Techniken zum Traversieren, Re‑Parenting und Optimieren hierarchischer Strukturen für bessere Performance.  
+[Mehr erfahren](./node-hierarchy/)
 
-## Einrichten von UV auf Cube in 3D-Szenen
+## Einrichten von Normalen auf Würfel in 3D‑Szenen
 
- Entdecken Sie die Kunst der präzisen Texturzuordnung mit Aspose.3D für .NET. Folgen Sie unserem Tutorial, um UV-Mapping auf einem 3D-Würfel einzurichten und visuell beeindruckende Szenen zu erstellen.[Mehr lesen](./setup-uv-cube/)
+Verbessern Sie die Lichtgenauigkeit, indem Sie Normalen für die Flächen eines Würfels berechnen und zuweisen. Dieses Tutorial erklärt, warum Normalen wichtig sind, und zeigt die genauen API‑Aufrufe.  
+[Mehr erfahren](./setup-normals-cube/)
 
-## Transformieren von Knoten durch Euler-Winkel in 3D-Szenen
+## Einrichten von UV auf Würfel in 3D‑Szenen
 
- Erlernen Sie die Kunst der mühelosen 3D-Knotentransformation mit Aspose.3D für .NET. Unsere Schritt-für-Schritt-Anleitung sorgt für beeindruckende Ergebnisse in Ihren Projekten, wenn Sie Knoten mithilfe von Euler-Winkeln transformieren.[Mehr lesen](./transformation-node-euler-angles/)
+Lernen Sie präzise UV‑Mapping‑Techniken, um Texturen korrekt um einen Würfel zu wickeln. Der Leitfaden enthält Tipps zur Vermeidung häufiger Nahtartefakte.  
+[Mehr erfahren](./setup-uv-cube/)
 
-## Transformieren von Knoten durch Quaternion in 3D-Szenen
+## Transformieren von Nodes mit Euler‑Winkeln in 3D‑Szenen
 
-Tauchen Sie mit Aspose.3D für .NET in die Welt der Quaternion-Transformationen ein. Diese einsteigerfreundliche Anleitung bietet eine Schritt-für-Schritt-Anleitung zum Transformieren von 3D-Knoten mit Quaternionen.[Mehr lesen](./transformation-node-quaternion/)
+Wenden Sie intuitive Euler‑Winkel‑Rotationen auf Nodes an, mit Anleitungen zum Umgang mit Gimbal‑Lock und der Reihenfolge der Rotationen für vorhersehbare Ergebnisse.  
+[Mehr erfahren](./transformation-node-euler-angles/)
 
-## Knoten durch Transformationsmatrix in 3D-Szenen transformieren
+## Transformieren von Nodes mit Quaternion in 3D‑Szenen
 
- Transformieren Sie Knoten in 3D-Szenen mühelos mit Aspose.3D für .NET. Unser Tutorial bietet eine detaillierte Anleitung zu Knotentransformationen mithilfe von Transformationsmatrizen.[Mehr lesen](./transformation-node-matrix/)
+Tauchen Sie ein in quaternion‑basierte Rotationen, die eine glatte Interpolation ermöglichen und Gimbal‑Lock vermeiden. Dieses einsteigerfreundliche Tutorial führt Sie durch das Erstellen und Anwenden von Quaternionen.  
+[Mehr erfahren](./transformation-node-quaternion/)
 
-## Triangulierendes Netz in 3D-Szenen
+## Transformieren von Nodes mit Transformationsmatrix in 3D‑Szenen
 
- Entdecken Sie die Leistungsfähigkeit von Aspose.3D für .NET mit dieser Schritt-für-Schritt-Anleitung zum mühelosen Triangulieren von 3D-Netzen. Verbessern Sie Ihre Modellierungsfähigkeiten für ein noch intensiveres Erlebnis.[Mehr lesen](./triangulate-mesh/)
+Entdecken Sie, wie Sie **transform node matrix** direkt für volle Kontrolle über Translation, Rotation und Skalierung in einem einzigen Vorgang nutzen können. Das Beispiel zeigt, wie man eine Matrix von Grund auf erstellt und auf einen Node anwendet.  
+[Mehr erfahren](./transformation-node-matrix/)
 
-Begeben Sie sich auf diese spannende Reise mit Aspose.3D für .NET-Tutorials und erweitern Sie Ihre 3D-Grafikkenntnisse. Tauchen Sie in jedes Tutorial ein, folgen Sie den Schritten und beobachten Sie, wie Ihre Fähigkeiten neue Höhen erreichen. Viel Spaß beim Codieren!
+## Triangulieren von Mesh in 3D‑Szenen
+
+Konvertieren Sie komplexe Polygon‑Meshes in Dreiecke, eine Voraussetzung für viele Rendering‑Engines. Dieser Leitfaden zeigt, wie Sie die Triangulations‑Utilities von Aspose.3D verwenden und das Ergebnis überprüfen.  
+[Mehr erfahren](./triangulate-mesh/)
+
+Beginnen Sie diese spannende Reise durch die Aspose.3D für .NET Tutorials und steigern Sie Ihre Expertise in 3D‑Grafiken. Tauchen Sie in jedes Tutorial ein, folgen Sie den Schritten und sehen Sie, wie Ihre Fähigkeiten zu neuen Höhen aufsteigen. Viel Spaß beim Coden!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---

@@ -1,10 +1,13 @@
 ---
-title: Geometri och hierarki
-linktitle: Geometri och hierarki
+date: 2026-01-17
+description: Lär dig geometriska transformations‑3D‑tekniker med Aspose.3D för .NET.
+  Applicera PBR‑material, transformera nodmatrisen och bemästra hierarkin i immersiva
+  handledningar.
+linktitle: Geometry and Hierarchy
 second_title: Aspose.3D .NET API
-description: Lås upp en värld av 3D-grafik med Aspose.3D för .NET tutorials. Från att applicera PBR-material till geometriska transformationer, bemästra alla aspekter utan ansträngning.
-weight: 25
+title: Geometrisk transformation 3D – Geometri och hierarki
 url: /sv/net/geometry-and-hierarchy/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,72 +18,97 @@ url: /sv/net/geometry-and-hierarchy/
 
 ## Introduktion
 
-Ge dig ut på en spännande resa in i 3D-grafikens rike med Aspose.3D för .NET-tutorials. Oavsett om du är en nybörjare eller en erfaren utvecklare, lovar dessa steg-för-steg-guider att höja dina färdigheter och avslöja hemligheterna bakom sömlös 3D-grafikmanipulation.
+Välkommen till den ultimata guiden för **geometric transformation 3d** med Aspose.3D för .NET. Oavsett om du precis har börjat eller har byggt 3D‑applikationer i åratal, kommer denna samling praktiska handledningar att hjälpa dig bemästra allt från att applicera PBR‑material till att manipulera noder med en transformationsmatris. Låt oss dyka ner och se hur du kan omvandla koncept till verkliga 3D‑scener.
 
-## Applicera PBR-material på box i 3D-scener
+## Geometric Transformation 3D‑översikt
 
- Dyk in i den fascinerande världen av Physically Based Rendering (PBR) material med Aspose.3D för .NET. I den här handledningen guidar vi dig genom processen att applicera PBR-material på en låda, så att du kan skapa uppslukande scener utan ansträngning.[Läs mer](./apply-pbr-material-to-box/)
+I det här avsnittet ger vi dig en snabb översikt av de centrala ämnena som behandlas nedan. Du kommer att lära dig hur du:
 
+* Applicerar fysiskt baserad rendering (PBR)‑material på objekt för realistisk belysning.  
+* Navigerar och frågar scenhierarkin med XPath‑liknande syntax.  
+* Konkatenar och applicerar kvaternioner, Euler‑vinklar och transformationsmatriser på noder.  
 
-## XPath-liknande objektfrågor
+Varje handledning är fristående, innehåller exempel­kod och visar det förväntade visuella resultatet, så att du kan följa med steg för steg.
 
-[Handledning för XPath-liknande objektfrågor](./xpath-like-object-queries/)
+## Applicera PBR‑material på låda i 3D‑scener
 
-Lås upp potentialen hos Aspose.3D för .NET! Utnyttja mångsidigheten hos XPath-liknande frågor för att enkelt navigera och manipulera objekt inom scenhierarkin. Ladda ner nu för en revolutionerande upplevelse som förenklar manipulation av 3D-grafik som aldrig förr.
+Utforska kraften i fysiskt baserad rendering genom att lära dig hur du **applicar PBR‑material** på en enkel låda. Denna handledning guidar dig genom att skapa ett material, tilldela det till geometri och rendera scenen med realistiska reflektioner.  
+[Read more](./apply-pbr-material-to-box/)
 
+## XPath‑liknande objektfrågor
 
-## Sammanfoga Quaternions i 3D-scener
+Navigera komplexa scen‑grafer utan ansträngning med XPath‑liknande frågor. Denna guide visar hur du hittar noder, filtrerar efter typ och manipulerar objekt utan att skriva omfattande traversalkod.  
+[XPath-Like Object Queries Tutorial](./xpath-like-object-queries/)
 
- Lås upp kraften i quaternion-manipulation i 3D-scener med Aspose.3D för .NET. Lär dig att sammanfoga quaternions steg för steg och frigöra deras potential för uppslukande transformationer.[Läs mer](./concatenate-quaternions/)
+Lås upp potentialen i Aspose.3D för .NET! Utnyttja mångsidigheten i XPath‑liknande frågor för att enkelt navigera och manipulera objekt inom scenhierarkin. Ladda ner nu för en revolutionerande upplevelse som förenklar 3D‑grafikmanipulation som aldrig förr.
+
+## Konkatenera kvaternioner i 3D‑scener
+
+Lär dig hur du kombinerar flera kvaternionrotationer till en enda, jämn transformation. Exemplet steg för steg visar hur du bygger komplexa orienteringar för animerade karaktärer eller kameror.  
+[Read more](./concatenate-quaternions/)
 
 ## Skapa kubscener i 3D
 
-Skapa visuellt fantastiska 3D-kubscener utan ansträngning med Aspose.3D för .NET. Ladda ner biblioteket och följ vår omfattande guide för att släppa loss din kreativitet.[Läs mer](./create-cube-scenes/)
+Skapa en komplett 3D‑kubscen från grunden, inklusive mesh‑skapande, materialtilldelning och export av scenen. Denna handledning är perfekt för visuella inlärare som vill se varje steg i pipeline‑processen.  
+[Read more](./create-cube-scenes/)
 
-## Exponera geometrisk transformation i 3D-scener
+## Exponera geometrisk transformation i 3D‑scener
 
- Utforska de obegränsade möjligheterna med 3D-grafik i .NET med Aspose.3D. Denna handledning avslöjar konsten att geometriska transformationer, vilket ger dig färdigheter att manipulera scener utan ansträngning.[Läs mer](./expose-geometric-transformation)
+Fördjupa dig i grunderna för **geometric transformation 3d**—translation, rotation och skalning—tillämpade på noder. Du får en solid förståelse för hur du manipulerar vilket objekt som helst i din scen.  
+[Read more](./expose-geometric-transformation)
 
-## Applicera material på kuben i 3D-scener
+## Applicera material på kub i 3D‑scener
 
- Din inkörsport till sömlös 3D-grafikmanipulation börjar här! Utforska Aspose.3D för .NET och lär dig att använda material utan ansträngning, vilket förbättrar realismen i dina projekt.[Läs mer](./material-to-cube/)
+Upptäck hur du förbättrar en kubs realism genom att applicera texturer och shaders. Denna guide guidar dig genom att ställa in materialegenskaper, UV‑mappning och rendera det slutliga resultatet.  
+[Read more](./material-to-cube/)
 
-## Arbeta med Mesh Geometry Data i 3D-scener
+## Arbeta med mesh‑geometri data i 3D‑scener
 
- Bemästra konsten att programmera 3D-grafik med Aspose.3D för .NET. Skapa, manipulera och spara fantastiska 3D-scener utan ansträngning med hjälp av meshgeometridata.[Läs mer](./mesh-geometry-data/)
+Mästra skapandet, redigeringen och serialiseringen av mesh‑geometri data. Du lär dig hur du programatiskt genererar vertexar, normaler och ytor, och sedan sparar meshen till populära 3D‑format.  
+[Read more](./mesh-geometry-data/)
 
-## Förstå nodhierarki i 3D-scener
+## Förstå nodhierarki i 3D‑scener
 
-Lås upp kraften i Aspose.3D för .NET! Dyk in i nodhierarkimanipulation med denna omfattande guide, som ger dig möjlighet att skapa fantastiska 3D-scener utan ansträngning.[Läs mer](./node-hierarchy/)
+Få en tydlig bild av hur noder är organiserade i Aspose.3D, och lär dig tekniker för traversering, om‑parenting och optimering av hierarkiska strukturer för prestanda.  
+[Read more](./node-hierarchy/)
 
-## Ställa in normaler på kub i 3D-scener
+## Ställa in normaler på kub i 3D‑scener
 
- Förbättra dina färdigheter i 3D-modellering med Aspose.3D för .NET. Lär dig att ställa in normala på en 3D-kub genom den här steg-för-steg-guiden, vilket ger djup och realism till dina skapelser.[Läs mer](./setup-normals-cube/)
+Förbättra ljusnoggrannheten genom att beräkna och tilldela normaler till en kubs ytor. Denna handledning förklarar varför normaler är viktiga och visar de exakta API‑anropen som behövs.  
+[Read more](./setup-normals-cube/)
 
-## Ställa in UV på kub i 3D-scener
+## Ställa in UV på kub i 3D‑scener
 
- Upptäck konsten med exakt texturkartläggning med Aspose.3D för .NET. Följ vår handledning för att ställa in UV-kartläggning på en 3D-kub och skapa visuellt fantastiska scener.[Läs mer](./setup-uv-cube/)
+Lär dig precisa UV‑mappningstekniker för att korrekt linda texturer runt en kub. Guiden innehåller tips för att undvika vanliga sömnadsartefakter.  
+[Read more](./setup-uv-cube/)
 
-## Transforming Node av Euler Angles i 3D-scener
+## Transformera nod med Euler‑vinklar i 3D‑scener
 
- Lär dig konsten att enkelt transformera 3D-nod med Aspose.3D för .NET. Vår steg-för-steg-guide säkerställer fantastiska resultat i dina projekt när du transformerar noder med Euler-vinklar.[Läs mer](./transformation-node-euler-angles/)
+Applicera intuitiva Euler‑vinkelrotationer på noder, med vägledning om hur du hanterar gimbal‑lock och rotationsordning för förutsägbara resultat.  
+[Read more](./transformation-node-euler-angles/)
 
-## Transforming Node av Quaternion i 3D-scener
+## Transformera nod med kvaternion i 3D‑scener
 
-Fördjupa dig i en värld av quaternion-transformationer med Aspose.3D för .NET. Denna nybörjarvänliga guide ger en steg-för-steg handledning för att transformera 3D-noder med quaternions.[Läs mer](./transformation-node-quaternion/)
+Fördjupa dig i kvaternion‑baserade rotationer, som ger smidig interpolering och undviker gimbal‑lock. Denna nybörjarvänliga handledning guidar dig genom att skapa och applicera kvaternioner.  
+[Read more](./transformation-node-quaternion/)
 
-## Transformera nod med transformationsmatris i 3D-scener
+## Transformera nod med transformationsmatris i 3D‑scener
 
- Transforma noder enkelt i 3D-scener med Aspose.3D för .NET. Vår handledning ger en detaljerad guide om nodtransformationer med hjälp av transformationsmatriser.[Läs mer](./transformation-node-matrix/)
+Upptäck hur du **transform node matrix** direkt för full kontroll över translation, rotation och skalning i en enda operation. Exemplet demonstrerar hur du bygger en matris från grunden och applicerar den på en nod.  
+[Read more](./transformation-node-matrix/)
 
-## Triangulerande nät i 3D-scener
+## Triangulera mesh i 3D‑scener
 
- Utforska kraften i Aspose.3D för .NET med denna steg-för-steg-guide om enkel triangulering av 3D-nät. Förbättra dina modelleringsfärdigheter för en mer uppslukande upplevelse.[Läs mer](./triangulate-mesh/)
+Konvertera komplexa polygon‑meshar till trianglar, ett förutsättningskrav för många renderingsmotorer. Denna guide visar hur du använder Aspose.3D:s trianguleringsverktyg och verifierar resultatet.  
+[Read more](./triangulate-mesh/)
 
-Ge dig ut på den här spännande resan med Aspose.3D för .NET-handledningar och höj din expertis inom 3D-grafik. Dyk in i varje handledning, följ stegen och se dina färdigheter sväva till nya höjder. Glad kodning!
+Ge dig ut på denna spännande resa med Aspose.3D för .NET‑handledningar och höj din kompetens inom 3D‑grafik. Dyka ner i varje handledning, följ stegen och se dina färdigheter nå nya höjder. Lycka till med kodningen!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---

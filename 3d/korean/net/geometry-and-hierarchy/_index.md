@@ -1,83 +1,109 @@
 ---
-title: 기하학과 계층
-linktitle: 기하학과 계층
+date: 2026-01-17
+description: Aspose.3D for .NET와 함께 기하학적 변환 3D 기술을 배우세요. PBR 재질을 적용하고, 노드 매트릭스를 변환하며,
+  몰입형 튜토리얼에서 계층 구조를 마스터하세요.
+linktitle: Geometry and Hierarchy
 second_title: Aspose.3D .NET API
-description: .NET용 Aspose.3D 튜토리얼을 통해 3D 그래픽의 세계를 경험해보세요. PBR 재질 적용부터 기하학적 변형까지 모든 측면을 손쉽게 마스터하세요.
-weight: 25
+title: 3D 기하학 변환 – 기하와 계층
 url: /ko/net/geometry-and-hierarchy/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 기하학과 계층
+# Geometry and Hierarchy
 
-## 소개
+## Introduction
 
-.NET용 Aspose.3D 튜토리얼을 통해 3D 그래픽 영역으로 스릴 넘치는 여행을 떠나보세요. 귀하가 초보자이든 노련한 개발자이든 이 단계별 가이드는 귀하의 기술을 향상시키고 원활한 3D 그래픽 조작의 비밀을 밝힐 것을 약속합니다.
+Aspose.3D for .NET를 사용한 **geometric transformation 3d**에 대한 궁극적인 가이드에 오신 것을 환영합니다. 처음 시작하든 수년간 3D 애플리케이션을 개발해 오든, 이 실습 튜토리얼 모음은 PBR 재질 적용부터 변환 행렬을 이용한 노드 조작까지 모든 것을 마스터하도록 도와줄 것입니다. 이제 개념을 실제 3D 씬으로 전환하는 방법을 살펴보세요.
 
-## 3D 장면의 상자에 PBR 재질 적용
+## Geometric Transformation 3D Overview
 
- .NET용 Aspose.3D를 사용하여 PBR(물리 기반 렌더링) 자료의 매혹적인 세계에 빠져보세요. 이 튜토리얼에서는 PBR 재질을 상자에 적용하는 과정을 안내하여 몰입형 장면을 쉽게 만들 수 있습니다.[더 읽어보세요](./apply-pbr-material-to-box/)
+이 섹션에서는 아래에서 다룰 핵심 주제들을 간략히 소개합니다. 다음을 배울 수 있습니다:
+
+* 현실적인 조명을 위한 물리 기반 렌더링(PBR) 재질을 객체에 적용하기.  
+* XPath와 유사한 구문을 사용해 씬 계층을 탐색하고 질의하기.  
+* 쿼터니언, 오일러 각, 변환 행렬을 노드에 연결하고 적용하기.  
+
+각 튜토리얼은 독립형이며 샘플 코드와 예상 시각 결과를 포함하고 있어 단계별로 따라 할 수 있습니다.
+
+## Applying PBR Material to Box in 3D Scenes
+
+물리 기반 렌더링의 힘을 체험하며 **apply PBR material**을 간단한 박스에 적용하는 방법을 배워보세요. 이 튜토리얼은 재질을 생성하고, 기하에 할당하며, 현실적인 반사를 포함한 씬을 렌더링하는 과정을 안내합니다.  
+[Read more](./apply-pbr-material-to-box/)
 
 
-## XPath와 유사한 개체 쿼리
+## XPath-Like Object Queries
 
-[XPath 유사 객체 쿼리 튜토리얼](./xpath-like-object-queries/)
+XPath와 유사한 쿼리를 사용해 복잡한 씬 그래프를 손쉽게 탐색하세요. 이 가이드는 노드를 찾고, 유형별로 필터링하며, 장황한 순회 코드를 작성하지 않고 객체를 조작하는 방법을 보여줍니다.  
+[XPath-Like Object Queries Tutorial](./xpath-like-object-queries/)
 
-.NET용 Aspose.3D의 잠재력을 활용해 보세요! XPath와 같은 쿼리의 다양성을 활용하여 장면 계층 구조 내의 개체를 쉽게 탐색하고 조작할 수 있습니다. 지금 다운로드하여 이전과는 전혀 다른 방식으로 3D 그래픽 조작을 단순화하는 혁신적인 경험을 즐겨보세요.
+Aspose.3D for .NET의 잠재력을 최대한 활용하세요! XPath와 유사한 쿼리의 다재다능함을 이용해 씬 계층 내 객체를 손쉽게 탐색하고 조작할 수 있습니다. 지금 다운로드하여 3D 그래픽 조작을 그 어느 때보다 간단하게 경험해 보세요.
 
+## Concatenating Quaternions in 3D Scenes
 
-## 3D 장면에서 쿼터니언 연결
+여러 쿼터니언 회전을 하나의 부드러운 변환으로 결합하는 방법을 배웁니다. 단계별 예제는 애니메이션 캐릭터나 카메라를 위한 복잡한 방향을 만드는 과정을 보여줍니다.  
+[Read more](./concatenate-quaternions/)
 
- .NET용 Aspose.3D를 사용하여 3D 장면에서 쿼터니언 조작의 힘을 활용하세요. 쿼터니언을 단계별로 연결하여 몰입형 변환의 잠재력을 발휘하는 방법을 알아보세요.[더 읽어보세요](./concatenate-quaternions/)
+## Creating Cube Scenes in 3D
 
-## 3D로 큐브 장면 만들기
+메시 생성, 재질 할당, 씬 내보내기를 포함한 완전한 3D 큐브 씬을 처음부터 제작합니다. 파이프라인의 모든 단계를 시각적으로 보고 싶은 학습자에게 적합한 튜토리얼입니다.  
+[Read more](./create-cube-scenes/)
 
-.NET용 Aspose.3D를 사용하여 시각적으로 놀라운 3D 큐브 장면을 손쉽게 제작하세요. 라이브러리를 다운로드하고 포괄적인 가이드를 따라 창의력을 발휘해보세요.[더 읽어보세요](./create-cube-scenes/)
+## Exposing Geometric Transformation in 3D Scenes
 
-## 3D 장면에서 기하학적 변환 노출
+**geometric transformation 3d**의 기본인 이동, 회전, 스케일링을 노드에 적용하는 방법을 깊이 있게 다룹니다. 씬 내 어떤 객체든 조작할 수 있는 확고한 이해를 얻을 수 있습니다.  
+[Read more](./expose-geometric-transformation)
 
- Aspose.3D를 사용하여 .NET에서 3D 그래픽의 무한한 가능성을 탐색해 보세요. 이 튜토리얼에서는 기하학적 변환 기술을 공개하여 장면을 쉽게 조작할 수 있는 기술을 제공합니다.[더 읽어보세요](./expose-geometric-transformation)
+## Applying Material to Cube in 3D Scenes
 
-## 3D 장면의 큐브에 재질 적용
+텍스처와 셰이더를 적용해 큐브의 현실감을 높이는 방법을 알아보세요. 이 가이드는 재질 속성 설정, UV 매핑, 최종 렌더링 과정을 단계별로 안내합니다.  
+[Read more](./material-to-cube/)
 
- 원활한 3D 그래픽 조작을 위한 관문이 여기서 시작됩니다! .NET용 Aspose.3D를 탐색하고 재료를 쉽게 적용하는 방법을 배워 프로젝트의 현실감을 향상시키세요.[더 읽어보세요](./material-to-cube/)
+## Working with Mesh Geometry Data in 3D Scenes
 
-## 3D 장면에서 메시 형상 데이터 작업
+메시 기하 데이터의 생성, 편집, 직렬화를 마스터합니다. 정점, 노멀, 면을 프로그래밍 방식으로 생성하고, 일반적인 3D 포맷으로 저장하는 방법을 배웁니다.  
+[Read more](./mesh-geometry-data/)
 
- .NET용 Aspose.3D를 사용하여 3D 그래픽 프로그래밍 기술을 마스터하세요. 메시 지오메트리 데이터를 사용하여 멋진 3D 장면을 손쉽게 생성, 조작 및 저장하세요.[더 읽어보세요](./mesh-geometry-data/)
+## Understanding Node Hierarchy in 3D Scenes
 
-## 3D 장면의 노드 계층 이해
+Aspose.3D에서 노드가 어떻게 조직되는지 명확히 파악하고, 트래버스, 재부모 지정, 성능을 위한 계층 구조 최적화 기법을 학습합니다.  
+[Read more](./node-hierarchy/)
 
-.NET용 Aspose.3D의 강력한 기능을 활용해 보세요! 이 포괄적인 가이드를 통해 노드 계층 구조 조작에 대해 자세히 알아보고 멋진 3D 장면을 쉽게 만들 수 있도록 지원합니다.[더 읽어보세요](./node-hierarchy/)
+## Setting Up Normals on Cube in 3D Scenes
 
-## 3D 장면의 큐브에 법선 설정
+큐브 면에 노멀을 계산하고 할당해 조명 정확도를 높입니다. 이 튜토리얼은 노멀의 중요성을 설명하고 필요한 정확한 API 호출을 보여줍니다.  
+[Read more](./setup-normals-cube/)
 
- .NET용 Aspose.3D를 사용하여 3D 모델링 기술을 향상하세요. 이 단계별 가이드를 통해 3D 큐브에 법선을 설정하여 창작물에 깊이와 현실감을 더하는 방법을 알아보세요.[더 읽어보세요](./setup-normals-cube/)
+## Setting Up UV on Cube in 3D Scenes
 
-## 3D 장면의 큐브에 UV 설정
+텍스처를 큐브에 올바르게 감싸기 위한 정밀한 UV 매핑 기법을 배웁니다. 일반적인 스티칭 아티팩트를 피하는 팁도 포함되어 있습니다.  
+[Read more](./setup-uv-cube/)
 
- .NET용 Aspose.3D를 사용하여 정밀한 텍스처 매핑 기술을 알아보세요. 튜토리얼을 따라 3D 큐브에 UV 매핑을 설정하고 시각적으로 놀라운 장면을 만들어보세요.[더 읽어보세요](./setup-uv-cube/)
+## Transforming Node by Euler Angles in 3D Scenes
 
-## 3D 장면에서 오일러 각도로 노드 변환
+노드에 직관적인 오일러 각 회전을 적용하고, 짐벌 락 처리와 회전 순서에 대한 가이드를 통해 예측 가능한 결과를 얻는 방법을 안내합니다.  
+[Read more](./transformation-node-euler-angles/)
 
- .NET용 Aspose.3D를 사용하여 손쉬운 3D 노드 변환 기술을 알아보세요. 당사의 단계별 가이드는 오일러 각도를 사용하여 노드를 변환할 때 프로젝트에서 놀라운 결과를 보장합니다.[더 읽어보세요](./transformation-node-euler-angles/)
+## Transforming Node by Quaternion in 3D Scenes
 
-## 3D 장면에서 쿼터니언으로 노드 변환
+부드러운 보간과 짐벌 락 회피를 제공하는 쿼터니언 기반 회전을 깊이 있게 다룹니다. 초보자도 쉽게 따라 할 수 있도록 쿼터니언 생성 및 적용 과정을 단계별로 설명합니다.  
+[Read more](./transformation-node-quaternion/)
 
-.NET용 Aspose.3D를 사용하여 쿼터니언 변환의 세계를 탐험해보세요. 초보자에게 친숙한 이 가이드는 쿼터니언을 사용하여 3D 노드를 변환하는 단계별 튜토리얼을 제공합니다.[더 읽어보세요](./transformation-node-quaternion/)
+## Transforming Node by Transformation Matrix in 3D Scenes
 
-## 3D 장면에서 변환 매트릭스로 노드 변환
+**transform node matrix**를 직접 사용해 이동, 회전, 스케일링을 한 번에 제어하는 방법을 알아봅니다. 예제에서는 행렬을 처음부터 구축하고 노드에 적용하는 과정을 보여줍니다.  
+[Read more](./transformation-node-matrix/)
 
- .NET용 Aspose.3D를 사용하여 3D 장면의 노드를 쉽게 변환합니다. 우리의 튜토리얼은 변환 행렬을 사용한 노드 변환에 대한 자세한 가이드를 제공합니다.[더 읽어보세요](./transformation-node-matrix/)
+## Triangulating Mesh in 3D Scenes
 
-## 3D 장면에서 메시 삼각측량
+복잡한 폴리곤 메시를 삼각형으로 변환하는 방법을 배웁니다. 이는 많은 렌더링 엔진의 전제 조건이며, Aspose.3D의 삼각화 유틸리티 사용법과 결과 검증 방법을 안내합니다.  
+[Read more](./triangulate-mesh/)
 
- 3D 메쉬를 손쉽게 삼각측량하는 방법에 대한 단계별 가이드를 통해 .NET용 Aspose.3D의 강력한 기능을 살펴보세요. 보다 몰입감 넘치는 경험을 위해 모델링 기술을 향상하세요.[더 읽어보세요](./triangulate-mesh/)
+Aspose.3D for .NET 튜토리얼을 통해 3D 그래픽 전문성을 한 단계 끌어올리세요. 각 튜토리얼을 진행하며 단계별로 따라가면 여러분의 실력이 새로운 높이로 도약할 것입니다. 즐거운 코딩 되세요!
 
-.NET용 Aspose.3D 튜토리얼의 흥미진진한 여정을 시작하고 3D 그래픽 전문 지식을 향상시키세요. 각 튜토리얼을 자세히 살펴보고, 단계를 따르고, 기술이 새로운 차원으로 치솟는 것을 지켜보세요. 즐거운 코딩하세요!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

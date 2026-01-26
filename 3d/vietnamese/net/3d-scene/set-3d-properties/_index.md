@@ -1,35 +1,48 @@
 ---
-title: Đặt thuộc tính ba chiều trong cảnh 3D
-linktitle: Đặt thuộc tính ba chiều trong cảnh 3D
-second_title: API Aspose.3D .NET
-description: Khám phá hướng dẫn Aspose.3D for .NET về cách thiết lập thuộc tính 3D. Tìm hiểu từng bước với các ví dụ về mã. Nâng cao kỹ năng xử lý cảnh 3D của bạn.
-weight: 14
+date: 2026-01-17
+description: Tìm hiểu cách liệt kê các thuộc tính vật liệu, thay đổi màu khuếch tán
+  và chỉnh sửa các thuộc tính vật liệu 3D bằng Aspose.3D cho .NET. Bao gồm các ví
+  dụ mã từng bước.
+linktitle: List Material Properties in 3D Scenes with Aspose.3D
+second_title: Aspose.3D .NET API
+title: Liệt kê các thuộc tính vật liệu trong các cảnh 3D với Aspose.3D
 url: /vi/net/3d-scene/set-3d-properties/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đặt thuộc tính ba chiều trong cảnh 3D
+# Liệt kê các thuộc tính vật liệu trong cảnh 3D với Aspose.3D
 
 ## Giới thiệu
 
-Tạo cảnh ba chiều quyến rũ thường đòi hỏi khả năng thao tác các thuộc tính khác nhau, thêm chiều sâu và tính chân thực cho dự án của bạn. Aspose.3D for .NET cung cấp một bộ công cụ mạnh mẽ để đạt được điều này, cho phép bạn thiết lập và sửa đổi các thuộc tính ba chiều trong cảnh 3D của mình một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình từng bước một, nâng cao hiểu biết của bạn về cách tận dụng Aspose.3D cho .NET một cách hiệu quả.
+Nếu bạn cần **liệt kê các thuộc tính vật liệu** của một mô hình 3D và sau đó điều chỉnh các yếu tố như màu diffuse, bạn đang ở đúng nơi. Aspose.3D for .NET cung cấp cho bạn một API sạch sẽ, hướng đối tượng, cho phép bạn kiểm tra, truy xuất và sửa đổi các thuộc tính vật liệu mà không rời khỏi mã C# của mình. Trong hướng dẫn này, chúng ta sẽ đi qua việc tải một cảnh, liệt kê các thuộc tính vật liệu của nó, và thay đổi các giá trị như thành phần diffuse — để bạn có thể tạo ra ngoại hình chính xác cho mô hình của mình.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Mục tiêu chính là gì?** Liệt kê các thuộc tính vật liệu và sửa đổi chúng (ví dụ: màu diffuse).  
+- **Thư viện nào cần thiết?** Aspose.3D for .NET.  
+- **Có cần giấy phép không?** Cần một giấy phép tạm thời hoặc đầy đủ cho việc sử dụng trong môi trường sản xuất.  
+- **Các định dạng tệp được hỗ trợ?** FBX, OBJ, STL, STL‑ASCII, 3MF và nhiều hơn nữa.  
+- **Thời gian triển khai điển hình?** Khoảng 10‑15 phút cho một script liệt kê thuộc tính cơ bản.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+## **Liệt kê các thuộc tính vật liệu** là gì?
+Liệt kê các thuộc tính vật liệu có nghĩa là duyệt qua `PropertyCollection` của một vật liệu để đọc mỗi tên thuộc tính và giá trị hiện tại của nó. Điều này hữu ích cho việc gỡ lỗi, kiểm tra trực quan, hoặc xây dựng các điều khiển UI cho phép người dùng tinh chỉnh cài đặt vật liệu tại thời gian chạy.
 
--  Aspose.3D for .NET: Đảm bảo bạn đã cài đặt thư viện trong dự án .NET của mình. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/3d/net/).
+## Tại sao nên dùng Aspose.3D để **truy cập các thuộc tính vật liệu**?
+- **Không cần bộ chuyển đổi bên ngoài** – làm việc trực tiếp với các đối tượng .NET gốc.  
+- **Mô hình thuộc tính phong phú** – hỗ trợ các thuộc tính tùy chỉnh đặc thù của FBX bên cạnh các giá trị PBR tiêu chuẩn.  
+- **Đa nền tảng** – hoạt động trên .NET Framework, .NET Core và .NET 5/6+.  
 
-- Thư mục Tài liệu: Tạo thư mục để lưu trữ tài liệu 3D của bạn.
+## Yêu cầu trước
 
-Bây giờ bạn đã có sẵn những yếu tố cần thiết, hãy khám phá quy trình thiết lập các thuộc tính ba chiều trong cảnh 3D bằng Aspose.3D cho .NET.
+- Aspose.3D for .NET đã được cài đặt trong dự án của bạn. Tải xuống [tại đây](https://releases.aspose.com/3d/net/).  
+- Một thư mục trên đĩa để lưu các tệp nguồn 3‑D của bạn (ví dụ: một tệp FBX có kết hợp texture).
 
-## Nhập không gian tên
+Bây giờ bạn đã có những kiến thức cơ bản, hãy bắt đầu với mã.
 
-Để bắt đầu, hãy nhập các không gian tên cần thiết vào dự án của bạn. Các không gian tên này cung cấp các lớp và phương thức cần thiết để làm việc với các thuộc tính ba chiều trong Aspose.3D cho .NET.
+## Import Namespaces
 
 ```csharp
 using Aspose.ThreeD;
@@ -44,8 +57,6 @@ using System.Threading.Tasks;
 
 ## Bước 1: Tải cảnh 3D
 
-Bắt đầu bằng cách tải cảnh 3D. Trong ví dụ này, chúng tôi sử dụng tệp FBX có kết cấu được nhúng.
-
 ```csharp
 //ExStart: Load3DScene
 string dataDir = "Your Document Directory";
@@ -53,9 +64,7 @@ Scene scene = new Scene(dataDir + "EmbeddedTexture.fbx");
 //ExEnd: Load3DScene
 ```
 
-## Bước 2: Truy cập thuộc tính vật liệu
-
-Truy cập các thuộc tính vật liệu của cảnh 3D đã tải để thao tác các đặc điểm của nó.
+## Bước 2: **Truy cập các thuộc tính vật liệu** của nút đầu tiên
 
 ```csharp
 //ExStart: AccessMaterialProperties
@@ -64,9 +73,7 @@ PropertyCollection props = material.Properties;
 //ExEnd: AccessMaterialProperties
 ```
 
-## Bước 3: Liệt kê tất cả thuộc tính
-
-Liệt kê tất cả các thuộc tính của vật liệu bằng vòng lặp foreach hoặc vòng lặp for thứ tự.
+## Bước 3: **Liệt kê các thuộc tính vật liệu** – xem mọi cặp tên/giá trị
 
 ```csharp
 //ExStart: ListAllProperties
@@ -75,7 +82,7 @@ foreach (var prop in props)
     Console.WriteLine("{0} = {1}", prop.Name, prop.Value);
 }
 
-//hoặc sử dụng vòng lặp for thứ tự
+//or using ordinal for loop
 for (int i = 0; i < props.Count; i++)
 {
     var prop = props[i];
@@ -84,23 +91,19 @@ for (int i = 0; i < props.Count; i++)
 //ExEnd: ListAllProperties
 ```
 
-## Bước 4: Nhận và sửa đổi thuộc tính theo tên
-
-Truy xuất và sửa đổi một thuộc tính cụ thể theo tên của nó.
+## Bước 4: **Cách thay đổi diffuse** – sửa thuộc tính Diffuse
 
 ```csharp
 //ExStart: GetModifyPropertyByName
 var diffuse = props["Diffuse"];
 Console.WriteLine(diffuse);
 
-//sửa đổi giá trị thuộc tính theo tên
-props["Diffuse"] = new Vector3(1, 0, 1);
+//modify property value by name
+props["Diffuse"] = new Vector3(1, 0, 1); // sets a magenta diffuse color
 //ExEnd: GetModifyPropertyByName
 ```
 
-## Bước 5: Lấy phiên bản thuộc tính theo tên
-
-Truy xuất một thể hiện thuộc tính theo tên của nó để thao tác thêm.
+## Bước 5: **Truy xuất thuộc tính theo tên** – nhận một thể hiện kiểu mạnh
 
 ```csharp
 //ExStart: GetPropertyInstanceByName
@@ -109,19 +112,17 @@ Console.WriteLine(pdiffuse);
 //ExEnd: GetPropertyInstanceByName
 ```
 
-## Bước 6: Duyệt thuộc tính của thuộc tính
-
- Từ`Property` được kế thừa từ`A3DObject`bạn có thể duyệt qua các thuộc tính của một thuộc tính.
+## Bước 6: Duyệt các thuộc tính con của một thuộc tính (nâng cao)
 
 ```csharp
 //ExStart: TraversePropertyProperties
 Console.WriteLine("Property flags = {0}", pdiffuse.GetProperty("flags"));
 
-//và một số thuộc tính chỉ được xác định trong tệp FBX:
+//and some properties that only defined in FBX file:
 Console.WriteLine("Label = {0}", pdiffuse.GetProperty("label"));
 Console.WriteLine("Type Name = {0}", pdiffuse.GetProperty("typeName"));
 
-//có thể di chuyển trên tài sản của tài sản
+//traversal on property's property is possible
 foreach (var pp in pdiffuse.Properties)
 {
     Console.WriteLine("Diffuse.{0} = {1}", pp.Name, pp.Value);
@@ -129,31 +130,62 @@ foreach (var pp in pdiffuse.Properties)
 //ExEnd: TraversePropertyProperties
 ```
 
-## Phần kết luận
+## Cách **thay đổi màu vật liệu 3d** ngoài diffuse
+Nếu bạn cần ảnh hưởng đến màu specular, ambient, hoặc emissive, chỉ cần thay `"Diffuse"` bằng `"Specular"` hoặc `"Ambient"` trong phép gán `props["..."]` ở trên. Các cấu trúc `Vector3` hoặc `Vector4` vẫn được áp dụng.
 
-Chúc mừng! Bây giờ bạn đã thành thạo nghệ thuật thiết lập các thuộc tính ba chiều trong cảnh 3D bằng cách sử dụng Aspose.3D cho .NET. Thử nghiệm với các thuộc tính và giá trị khác nhau để biến các dự án 3D của bạn thành hiện thực.
+## Những lỗi thường gặp & Mẹo
+- **Phân biệt chữ hoa‑thường của tên thuộc tính** – các khóa thuộc tính của Aspose.3D phân biệt chữ hoa‑thường; hãy sử dụng đúng tên hiển thị trong kết quả liệt kê.  
+- **Thuộc tính thiếu** – Không phải tất cả vật liệu đều cung cấp mọi thuộc tính PBR. Kiểm tra `props.ContainsKey("Specular")` trước khi truy cập.  
+- **Lưu thay đổi** – Sau khi sửa đổi các thuộc tính, gọi `scene.Save("output.fbx");` để lưu lại các thay đổi.
+
+## Kết luận
+
+Bạn đã học cách **liệt kê các thuộc tính vật liệu**, **truy xuất một thuộc tính theo tên**, và **thay đổi màu diffuse** (hoặc bất kỳ thuộc tính vật liệu nào khác) bằng Aspose.3D for .NET. Hãy thử nghiệm với các loại thuộc tính khác nhau để tinh chỉnh ngoại hình của tài sản 3‑D của bạn.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.3D cho .NET với các định dạng tệp 3D khác không?
+### Q1: Tôi có thể sử dụng Aspose.3D for .NET với các định dạng tệp 3D khác không?
 
-Câu trả lời 1: Có, Aspose.3D hỗ trợ nhiều định dạng tệp 3D khác nhau, bao gồm FBX, STL, v.v.
+A1: Có, Aspose.3D hỗ trợ nhiều định dạng tệp 3D, bao gồm FBX, STL và nhiều hơn nữa.
 
-### Câu hỏi 2: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.3D cho .NET?
+### Q2: Làm sao tôi có thể lấy giấy phép tạm thời cho Aspose.3D for .NET?
 
- A2: Tham quan[đây](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời.
+A2: Truy cập [tại đây](https://purchase.aspose.com/temporary-license/) để nhận giấy phép tạm thời.
 
-### Câu hỏi 3: Có diễn đàn cộng đồng nào dành cho người dùng Aspose.3D không?
+### Q3: Có diễn đàn cộng đồng cho người dùng Aspose.3D không?
 
- Câu trả lời 3: Có, bạn có thể tìm thấy sự hỗ trợ và thảo luận tại[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18).
+A3: Có, bạn có thể tìm hỗ trợ và thảo luận tại [diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18).
 
-### Câu hỏi 4: Tôi có thể tìm tài liệu chi tiết về Aspose.3D cho .NET ở đâu?
+### Q4: Tôi có thể tìm tài liệu chi tiết cho Aspose.3D for .NET ở đâu?
 
- A4: Hãy tham khảo[tài liệu](https://reference.aspose.com/3d/net/) để được hướng dẫn toàn diện.
+A4: Tham khảo [tài liệu](https://reference.aspose.com/3d/net/) để có hướng dẫn toàn diện.
 
-### Câu hỏi 5: Tôi có thể dùng thử Aspose.3D miễn phí cho .NET trước khi mua không?
+### Q5: Tôi có thể dùng thử Aspose.3D for .NET miễn phí trước khi mua không?
 
- A5: Chắc chắn rồi! Tải về[phiên bản dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng của nó.
+A5: Chắc chắn! Tải xuống [phiên bản dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng.
+
+## Frequently Asked Questions
+
+**Q: `Vector3(1, 0, 1)` đại diện cho gì?**  
+A: Nó đặt màu diffuse thành màu hồng tím (đỏ = 1, xanh lá = 0, xanh dương = 1) trong không gian màu tuyến tính.
+
+**Q: Tôi có cần gọi `scene.Save` sau khi thay đổi thuộc tính không?**  
+A: Có, việc lưu cảnh sẽ ghi các sửa đổi của bạn ra đĩa; nếu không, các thay đổi sẽ chỉ tồn tại trong bộ nhớ.
+
+**Q: Tôi có thể liệt kê các thuộc tính FBX tùy chỉnh không?**  
+A: Chắc chắn. `PropertyCollection` sẽ bao gồm bất kỳ thuộc tính tùy chỉnh nào, bạn có thể truy cập chúng qua `GetProperty("customName")`.
+
+**Q: Có cách nào để cập nhật hàng loạt nhiều vật liệu không?**  
+A: Lặp qua `scene.RootNode.ChildNodes` và lặp lại các bước sửa đổi thuộc tính cho mỗi vật liệu.
+
+**Q: Aspose.3D có hỗ trợ .NET 6 không?**  
+A: Có, thư viện hoàn toàn tương thích với .NET 6 và các phiên bản sau.
+
+---
+
+**Last Updated:** 2026-01-17  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

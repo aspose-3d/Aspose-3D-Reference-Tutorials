@@ -1,10 +1,13 @@
 ---
-title: Geometri dan Hierarki
-linktitle: Geometri dan Hierarki
+date: 2026-01-17
+description: Pelajari teknik transformasi geometris 3D dengan Aspose.3D untuk .NET.
+  Terapkan material PBR, transformasikan matriks node, dan kuasai hierarki dalam tutorial
+  imersif.
+linktitle: Geometry and Hierarchy
 second_title: Aspose.3D .NET API
-description: Buka dunia grafis 3D dengan tutorial Aspose.3D untuk .NET. Dari penerapan material PBR hingga transformasi geometris, kuasai setiap aspek dengan mudah.
-weight: 25
+title: Transformasi Geometrik 3D – Geometri dan Hierarki
 url: /id/net/geometry-and-hierarchy/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,74 +16,99 @@ url: /id/net/geometry-and-hierarchy/
 
 # Geometri dan Hierarki
 
-## Perkenalan
+## Pendahuluan
 
-Mulailah perjalanan mendebarkan ke dunia grafis 3D dengan tutorial Aspose.3D untuk .NET. Baik Anda seorang pemula atau pengembang berpengalaman, panduan langkah demi langkah ini menjanjikan untuk meningkatkan keterampilan Anda dan mengungkap rahasia manipulasi grafis 3D yang mulus.
+Selamat datang di panduan utama untuk **geometric transformation 3d** menggunakan Aspose.3D untuk .NET. Baik Anda baru memulai maupun telah membangun aplikasi 3D selama bertahun‑tahun, kumpulan tutorial praktis ini akan membantu Anda menguasai segala hal mulai dari menerapkan material PBR hingga memanipulasi node dengan matriks transformasi. Mari kita mulai dan lihat bagaimana Anda dapat mengubah konsep menjadi adegan 3D dunia nyata.
+
+## Gambaran Umum Geometric Transformation 3D
+
+In bagian ini kami memberikan gambaran singkat tentang topik inti yang dibahas di bawah. Anda akan belajar cara:
+
+* Menerapkan material physically‑based rendering (PBR) ke objek untuk pencahayaan realistis.  
+* Menavigasi dan mengkueri hierarki scene dengan sintaks mirip XPath.  
+* Menggabungkan dan menerapkan quaternion, sudut Euler, serta matriks transformasi ke node.  
+
+Setiap tutorial berdiri sendiri, menyertakan contoh kode, dan menampilkan hasil visual yang diharapkan, sehingga Anda dapat mengikuti langkah demi langkah.
 
 ## Menerapkan Material PBR ke Kotak dalam Adegan 3D
 
- Selami dunia material Rendering Berbasis Fisik (PBR) yang memukau dengan Aspose.3D untuk .NET. Dalam tutorial ini, kami memandu Anda melalui proses penerapan materi PBR ke kotak, memungkinkan Anda membuat pemandangan yang imersif dengan mudah.[Baca selengkapnya](./apply-pbr-material-to-box/)
+Jelajahi kekuatan physically based rendering dengan mempelajari cara **apply PBR material** ke kotak sederhana. Tutorial ini memandu Anda membuat material, menetapkannya ke geometri, dan merender adegan dengan refleksi realistis.  
+[Baca selengkapnya](./apply-pbr-material-to-box/)
 
+## Kueri Objek Mirip XPath
 
-## Kueri Objek Seperti XPath
+Navigasikan grafik scene yang kompleks dengan mudah menggunakan kueri mirip XPath. Panduan ini menunjukkan cara menemukan node, menyaring berdasarkan tipe, dan memanipulasi objek tanpa menulis kode traversal yang panjang.  
+[Tutorial Kueri Objek Mirip XPath](./xpath-like-object-queries/)
 
-[Tutorial Kueri Objek Seperti XPath](./xpath-like-object-queries/)
-
-Buka potensi Aspose.3D untuk .NET! Manfaatkan keserbagunaan kueri mirip XPath untuk menavigasi dan memanipulasi objek dalam hierarki pemandangan dengan mudah. Unduh sekarang untuk pengalaman revolusioner, menyederhanakan manipulasi grafis 3D yang belum pernah ada sebelumnya.
-
+Buka potensi Aspose.3D untuk .NET! Manfaatkan fleksibilitas kueri mirip XPath untuk dengan mudah menavigasi dan memanipulasi objek dalam hierarki scene. Unduh sekarang untuk pengalaman revolusioner, menyederhanakan manipulasi grafik 3D seperti belum pernah ada sebelumnya.
 
 ## Menggabungkan Quaternion dalam Adegan 3D
 
- Buka kekuatan manipulasi angka empat dalam adegan 3D dengan Aspose.3D untuk .NET. Belajar menggabungkan angka empat selangkah demi selangkah, mengeluarkan potensinya untuk transformasi yang mendalam.[Baca selengkapnya](./concatenate-quaternions/)
+Pelajari cara menggabungkan beberapa rotasi quaternion menjadi satu transformasi yang halus. Contoh langkah demi langkah menunjukkan cara membangun orientasi kompleks untuk karakter atau kamera yang dianimasikan.  
+[Baca selengkapnya](./concatenate-quaternions/)
 
 ## Membuat Adegan Kubus dalam 3D
 
-Buat adegan kubus 3D yang menakjubkan secara visual dengan mudah menggunakan Aspose.3D untuk .NET. Unduh perpustakaannya dan ikuti panduan komprehensif kami untuk melepaskan kreativitas Anda.[Baca selengkapnya](./create-cube-scenes/)
+Buat adegan kubus 3D lengkap dari awal, mencakup pembuatan mesh, penetapan material, dan ekspor scene. Tutorial ini sempurna untuk pembelajar visual yang ingin melihat setiap tahap pipeline.  
+[Baca selengkapnya](./create-cube-scenes/)
 
-## Mengekspos Transformasi Geometris dalam Pemandangan 3D
+## Mengekspos Geometric Transformation dalam Adegan 3D
 
- Jelajahi kemungkinan tak terbatas dari grafik 3D di .NET dengan Aspose.3D. Tutorial ini mengungkap seni transformasi geometris, memberi Anda keterampilan untuk memanipulasi pemandangan dengan mudah.[Baca selengkapnya](./expose-geometric-transformation)
+Menyelami dasar‑dasar **geometric transformation 3d**—translasi, rotasi, dan skala—yang diterapkan pada node. Anda akan memperoleh pemahaman yang kuat tentang cara memanipulasi objek apa pun dalam scene Anda.  
+[Baca selengkapnya](./expose-geometric-transformation)
 
 ## Menerapkan Material ke Kubus dalam Adegan 3D
 
- Gerbang Anda menuju manipulasi grafis 3D yang mulus dimulai di sini! Jelajahi Aspose.3D untuk .NET dan pelajari cara menerapkan materi dengan mudah, meningkatkan realisme dalam proyek Anda.[Baca selengkapnya](./material-to-cube/)
+Temukan cara meningkatkan realisme kubus dengan menerapkan tekstur dan shader. Panduan ini memandu Anda mengatur properti material, pemetaan UV, dan merender hasil akhir.  
+[Baca selengkapnya](./material-to-cube/)
 
-## Bekerja dengan Data Geometri Mesh dalam Pemandangan 3D
+## Bekerja dengan Data Geometri Mesh dalam Adegan 3D
 
- Kuasai seni pemrograman grafis 3D dengan Aspose.3D untuk .NET. Buat, manipulasi, dan simpan pemandangan 3D yang menakjubkan dengan mudah menggunakan data geometri mesh.[Baca selengkapnya](./mesh-geometry-data/)
+Kuasai pembuatan, penyuntingan, dan serialisasi data geometri mesh. Anda akan belajar cara menghasilkan vertex, normal, dan face secara programatik, lalu menyimpan mesh ke format 3D populer.  
+[Baca selengkapnya](./mesh-geometry-data/)
 
 ## Memahami Hierarki Node dalam Adegan 3D
 
-Buka kekuatan Aspose.3D untuk .NET! Selami manipulasi hierarki node dengan panduan komprehensif ini, yang memberdayakan Anda untuk membuat pemandangan 3D yang menakjubkan dengan mudah.[Baca selengkapnya](./node-hierarchy/)
+Dapatkan gambaran jelas tentang bagaimana node diatur dalam Aspose.3D, dan pelajari teknik untuk traversing, re‑parenting, serta mengoptimalkan struktur hierarki untuk kinerja.  
+[Baca selengkapnya](./node-hierarchy/)
 
-## Menyiapkan Normals pada Cube dalam Adegan 3D
+## Menyiapkan Normal pada Kubus dalam Adegan 3D
 
- Tingkatkan keterampilan pemodelan 3D Anda dengan Aspose.3D untuk .NET. Pelajari cara mengatur normal pada kubus 3D melalui panduan langkah demi langkah ini, menambahkan kedalaman dan realisme pada kreasi Anda.[Baca selengkapnya](./setup-normals-cube/)
+Tingkatkan akurasi pencahayaan dengan menghitung dan menetapkan normal pada wajah kubus. Tutorial ini menjelaskan mengapa normal penting dan menunjukkan panggilan API yang tepat diperlukan.  
+[Baca selengkapnya](./setup-normals-cube/)
 
-## Menyiapkan UV pada Kubus dalam Pemandangan 3D
+## Menyiapkan UV pada Kubus dalam Adegan 3D
 
- Temukan seni pemetaan tekstur yang presisi dengan Aspose.3D untuk .NET. Ikuti tutorial kami untuk mengatur pemetaan UV pada kubus 3D, menciptakan pemandangan visual yang menakjubkan.[Baca selengkapnya](./setup-uv-cube/)
+Pelajari teknik pemetaan UV yang tepat untuk membungkus tekstur secara benar di sekitar kubus. Panduan ini mencakup tips untuk menghindari artefak stitching yang umum.  
+[Baca selengkapnya](./setup-uv-cube/)
 
-## Mengubah Node dengan Sudut Euler dalam Pemandangan 3D
+## Mentransformasi Node dengan Sudut Euler dalam Adegan 3D
 
- Pelajari seni transformasi simpul 3D yang mudah dengan Aspose.3D untuk .NET. Panduan langkah demi langkah kami memastikan hasil yang menakjubkan dalam proyek Anda saat Anda mengubah node menggunakan sudut Euler.[Baca selengkapnya](./transformation-node-euler-angles/)
+Terapkan rotasi sudut Euler yang intuitif pada node, dengan panduan menangani gimbal lock dan urutan rotasi untuk hasil yang dapat diprediksi.  
+[Baca selengkapnya](./transformation-node-euler-angles/)
 
-## Mengubah Node demi Quaternion dalam Adegan 3D
+## Mentransformasi Node dengan Quaternion dalam Adegan 3D
 
-Selidiki dunia transformasi angka empat dengan Aspose.3D untuk .NET. Panduan ramah pemula ini memberikan tutorial langkah demi langkah untuk mengubah node 3D dengan angka empat.[Baca selengkapnya](./transformation-node-quaternion/)
+Menyelami rotasi berbasis quaternion, yang memberikan interpolasi halus dan menghindari gimbal lock. Tutorial ramah pemula ini memandu Anda membuat dan menerapkan quaternion.  
+[Baca selengkapnya](./transformation-node-quaternion/)
 
-## Mengubah Node dengan Matriks Transformasi dalam Adegan 3D
+## Mentransformasi Node dengan Matriks Transformasi dalam Adegan 3D
 
- Transformasi node dalam adegan 3D dengan mudah menggunakan Aspose.3D untuk .NET. Tutorial kami memberikan panduan mendetail tentang transformasi node menggunakan matriks transformasi.[Baca selengkapnya](./transformation-node-matrix/)
+Temukan cara **transform node matrix** secara langsung untuk kontrol penuh atas translasi, rotasi, dan skala dalam satu operasi. Contoh ini menunjukkan cara membangun matriks dari awal dan menerapkannya ke node.  
+[Baca selengkapnya](./transformation-node-matrix/)
 
-## Melakukan Triangulasi Mesh dalam Adegan 3D
+## Mentrikulisasi Mesh dalam Adegan 3D
 
- Jelajahi kekuatan Aspose.3D untuk .NET dengan panduan langkah demi langkah tentang triangulasi jerat 3D dengan mudah. Tingkatkan keterampilan modeling Anda untuk pengalaman yang lebih mendalam.[Baca selengkapnya](./triangulate-mesh/)
+Ubah mesh poligon kompleks menjadi segitiga, prasyarat bagi banyak mesin rendering. Panduan ini menunjukkan cara menggunakan utilitas triangulasi Aspose.3D dan memverifikasi outputnya.  
+[Baca selengkapnya](./triangulate-mesh/)
 
-Mulailah perjalanan menarik tutorial Aspose.3D untuk .NET ini dan tingkatkan keahlian grafis 3D Anda. Selami setiap tutorial, ikuti langkah-langkahnya, dan saksikan keterampilan Anda melambung ke tingkat yang lebih tinggi. Selamat membuat kode!
+Mulailah perjalanan menarik ini dengan tutorial Aspose.3D untuk .NET dan tingkatkan keahlian grafik 3D Anda. Selami setiap tutorial, ikuti langkah‑langkahnya, dan saksikan kemampuan Anda melambung ke tingkat baru. Selamat coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---

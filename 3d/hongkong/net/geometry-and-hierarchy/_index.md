@@ -1,83 +1,108 @@
 ---
-title: 幾何和層次結構
-linktitle: 幾何和層次結構
+date: 2026-01-17
+description: 使用 Aspose.3D for .NET 學習幾何變換 3D 技術。套用 PBR 材質、變換節點矩陣，並在沉浸式教學中精通層級結構。
+linktitle: Geometry and Hierarchy
 second_title: Aspose.3D .NET API
-description: 使用 Aspose.3D for .NET 教學解鎖 3D 圖形世界。從應用 PBR 材質到幾何變換，輕鬆掌握各個面向。
-weight: 25
+title: 幾何變換 3D – 幾何與層級
 url: /zh-hant/net/geometry-and-hierarchy/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 幾何和層次結構
+# 幾何與層級
 
 ## 介紹
 
-透過 Aspose.3D for .NET 教學踏上 3D 圖形領域的令人興奮的旅程。無論您是新手還是經驗豐富的開發人員，這些逐步指南都有望提高您的技能並揭開無縫 3D 圖形操作的秘密。
+歡迎閱讀使用 Aspose.3D for .NET 的 **geometric transformation 3d** 完整指南。無論您是剛起步，還是已經開發 3D 應用多年，本系列實作教學都能協助您從套用 PBR 材質到使用變換矩陣操作節點，全面掌握相關技巧。讓我們一起深入，看看如何將概念轉化為真實的 3D 場景。
 
-## 將 PBR 材質應用於 3D 場景中的盒子
+## Geometric Transformation 3D 概覽
 
-使用 Aspose.3D for .NET 深入探索基於物理的渲染 (PBR) 材質的迷人世界。在本教程中，我們將引導您完成將 PBR 材質應用到盒子的過程，使您能夠輕鬆創建身臨其境的場景。[閱讀更多](./apply-pbr-material-to-box/)
+在本節中，我們將為您快速概覽以下核心主題。您將學會：
+
+* 為物件套用基於物理的渲染 (PBR) 材質，以獲得寫實的光照效果。  
+* 使用類 XPath 語法導覽與查詢場景層級。  
+* 串接並套用四元數、Euler 角度與變換矩陣至節點。  
+
+每篇教學皆為獨立完整，包含範例程式碼，並示範預期的視覺結果，讓您一步一步跟隨操作。
+
+## 在 3D 場景中為 Box 套用 PBR 材質
+
+探索基於物理渲染的威力，學習如何 **apply PBR material** 到簡單的盒子。本教學將帶您建立材質、將其指派給幾何體，並以寫實的反射效果渲染場景。  
+[Read more](./apply-pbr-material-to-box/)
 
 
-## 類似 XPath 的物件查詢
+## 類 XPath 物件查詢
 
-[類別 XPath 物件查詢教學課程](./xpath-like-object-queries/)
+使用類 XPath 查詢輕鬆導覽複雜的場景圖。本指南示範如何定位節點、依類型過濾，並在不撰寫冗長遍歷程式碼的情況下操作物件。  
+[XPath-Like Object Queries Tutorial](./xpath-like-object-queries/)
 
-釋放 Aspose.3D for .NET 的潛力！利用類似 XPath 查詢的多功能性，輕鬆導覽和操作場景層次結構中的物件。立即下載以獲得革命性的體驗，以前所未有的方式簡化 3D 圖形操作。
+釋放 Aspose.3D for .NET 的潛能！善用類 XPath 查詢的彈性，輕鬆在場景層級中導覽與操作物件。立即下載，體驗前所未有的 3D 圖形操作革命，讓開發變得前所未有的簡單。
 
+## 在 3D 場景中串接四元數
 
-## 在 3D 場景中連接四元數
-
-使用 Aspose.3D for .NET 釋放 3D 場景中四元數操作的強大功能。學習逐步連結四元數，釋放其沉浸式轉換的潛力。[閱讀更多](./concatenate-quaternions/)
+學習如何將多個四元數旋轉合併為單一平滑的變換。步驟式範例示範如何為動畫角色或相機建立複雜的方向。  
+[Read more](./concatenate-quaternions/)
 
 ## 建立 3D 立方體場景
 
-使用 Aspose.3D for .NET 輕鬆製作視覺上令人驚嘆的 3D 立方體場景。下載該庫並遵循我們的綜合指南來釋放您的創造力。[閱讀更多](./create-cube-scenes/)
+從頭打造完整的 3D 立方體場景，涵蓋網格建立、材質指派與場景匯出。本教學適合喜歡視覺化學習的您，讓您看到流程的每一個階段。  
+[Read more](./create-cube-scenes/)
 
-## 揭示 3D 場景中的幾何變換
+## 在 3D 場景中展示 Geometric Transformation
 
-使用 Aspose.3D 探索 .NET 中 3D 圖形的無限可能性。本教程揭示了幾何變換的藝術，為您提供輕鬆操縱場景的技能。[閱讀更多](./expose-geometric-transformation)
+深入探討 **geometric transformation 3d** 的基礎——平移、旋轉與縮放——在節點上的應用。您將獲得操作任何場景物件的堅實概念。  
+[Read more](./expose-geometric-transformation)
 
-## 將材質應用到 3D 場景中的立方體
+## 在 3D 場景中為立方體套用材質
 
-您通往無縫 3D 圖形操作的大門從這裡開始！探索 Aspose.3D for .NET 並學習輕鬆應用材料，增強專案的真實感。[閱讀更多](./material-to-cube/)
+了解如何透過套用貼圖與著色器提升立方體的真實感。本指南帶您設定材質屬性、UV 映射，並渲染最終結果。  
+[Read more](./material-to-cube/)
 
-## 在 3D 場景中使用網格幾何數據
+## 在 3D 場景中處理 Mesh 幾何資料
 
-使用 Aspose.3D for .NET 掌握 3D 圖形程式設計的藝術。使用網格幾何資料輕鬆建立、操作和保存令人驚嘆的 3D 場景。[閱讀更多](./mesh-geometry-data/)
+精通 Mesh 幾何資料的建立、編輯與序列化。您將學會程式化產生頂點、法線與面，並將 Mesh 儲存為常見的 3D 格式。  
+[Read more](./mesh-geometry-data/)
 
-## 了解 3D 場景中的節點層次結構
+## 了解 3D 場景中的節點層級
 
-釋放 Aspose.3D for .NET 的強大功能！透過此綜合指南深入了解節點層次結構操作，讓您輕鬆建立令人驚嘆的 3D 場景。[閱讀更多](./node-hierarchy/)
+清晰掌握 Aspose.3D 中節點的組織方式，並學習遍歷、重新父層化與優化層級結構以提升效能的技巧。  
+[Read more](./node-hierarchy/)
 
-## 在 3D 場景中的立方體上設定法線
+## 在 3D 場景中為立方體設定法線
 
-使用 Aspose.3D for .NET 增強您的 3D 建模技能。透過本逐步指南，學習如何在 3D 立方體上設定法線，為您的創作增添深度和真實感。[閱讀更多](./setup-normals-cube/)
+透過計算與指派法線提升光照精確度。本教學說明法線的重要性，並展示所需的 API 呼叫。  
+[Read more](./setup-normals-cube/)
 
-## 在 3D 場景中的立方體上設定 UV
+## 在 3D 場景中為立方體設定 UV
 
-使用 Aspose.3D for .NET 探索精確紋理映射的藝術。按照我們的教學在 3D 立方體上設定 UV 映射，創造視覺上令人驚嘆的場景。[閱讀更多](./setup-uv-cube/)
+學習精確的 UV 映射技巧，正確將貼圖環繞於立方體。指南亦提供避免常見接縫問題的建議。  
+[Read more](./setup-uv-cube/)
 
-## 在 3D 場景中透過歐拉角變換節點
+## 使用 Euler 角度變換節點於 3D 場景
 
-使用 Aspose.3D for .NET 學習輕鬆 3D 節點轉換的藝術。當您使用歐拉角變換節點時，我們的逐步指南可確保您的專案獲得令人驚嘆的結果。[閱讀更多](./transformation-node-euler-angles/)
+以直觀的 Euler 角度對節點進行旋轉，並說明如何處理萬向鎖與旋轉順序，以取得可預測的結果。  
+[Read more](./transformation-node-euler-angles/)
 
-## 在 3D 場景中透過四元數變換節點
+## 使用四元數變換節點於 3D 場景
 
-使用 Aspose.3D for .NET 深入研究四元數轉換的世界。這個適合初學者的指南提供了使用四元數轉換 3D 節點的逐步教程。[閱讀更多](./transformation-node-quaternion/)
+深入四元數旋轉，提供平滑插值且避免萬向鎖。本入門教學將手把手帶您建立與套用四元數。  
+[Read more](./transformation-node-quaternion/)
 
-## 在 3D 場景中透過變換矩陣變換節點
+## 使用變換矩陣變換節點於 3D 場景
 
-使用 Aspose.3D for .NET 輕鬆變換 3D 場景中的節點。我們的教程提供了有關使用變換矩陣進行節點變換的詳細指南。[閱讀更多](./transformation-node-matrix/)
+了解如何直接 **transform node matrix**，一次性完整控制平移、旋轉與縮放。範例示範從零開始構建矩陣並套用至節點。  
+[Read more](./transformation-node-matrix/)
 
-## 3D 場景中的三角網格
+## 在 3D 場景中對 Mesh 進行三角化
 
-透過此關於輕鬆三角化 3D 網格的分步指南，探索 Aspose.3D for .NET 的強大功能。提高您的建模技能以獲得更身臨其境的體驗。[閱讀更多](./triangulate-mesh/)
+將複雜多邊形 Mesh 轉換為三角形，這是多數渲染引擎的前置條件。指南說明如何使用 Aspose.3D 的三角化工具並驗證輸出。  
+[Read more](./triangulate-mesh/)
 
-踏上 Aspose.3D for .NET 教學的令人興奮之旅，提升您的 3D 圖形專業知識。深入研究每個教程，按照步驟操作，然後觀察您的技能飆升到新的高度。快樂編碼！
+踏上 Aspose.3D for .NET 教學的精彩旅程，提升您的 3D 圖形專業能力。深入每篇教學，依循步驟，見證您的技能飛躍新高。祝開發愉快！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,48 @@
 ---
-title: Driedimensionale eigenschappen instellen in 3D-scènes
-linktitle: Driedimensionale eigenschappen instellen in 3D-scènes
-second_title: Aspose.3D .NET-API
-description: Verken de Aspose.3D voor .NET-tutorial over het instellen van 3D-eigenschappen. Leer stap voor stap met codevoorbeelden. Verbeter uw vaardigheden op het gebied van 3D-scènemanipulatie.
-weight: 14
+date: 2026-01-17
+description: Leer hoe u materiaaleigenschappen kunt opsommen, de diffuse kleur kunt
+  wijzigen en 3D-materiaaleigenschappen kunt aanpassen met Aspose.3D voor .NET. Stapsgewijze
+  codevoorbeelden inbegrepen.
+linktitle: List Material Properties in 3D Scenes with Aspose.3D
+second_title: Aspose.3D .NET API
+title: Materialeigenschappen opsommen in 3D‑scènes met Aspose.3D
 url: /nl/net/3d-scene/set-3d-properties/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Driedimensionale eigenschappen instellen in 3D-scènes
+# Materialeigenschappen opsommen in 3D‑scènes met Aspose.3D
 
-## Invoering
+## Introductie
 
-Het creëren van boeiende driedimensionale scènes vereist vaak de mogelijkheid om verschillende eigenschappen te manipuleren, waardoor diepte en realisme aan uw projecten wordt toegevoegd. Aspose.3D voor .NET biedt een krachtige toolset om dit te bereiken, waardoor u moeiteloos driedimensionale eigenschappen binnen uw 3D-scènes kunt instellen en wijzigen. In deze zelfstudie verkennen we het proces stap voor stap, waardoor u beter begrijpt hoe u Aspose.3D voor .NET effectief kunt gebruiken.
+Als je **materialeigenschappen** van een 3D‑model wilt **opsommen** en vervolgens zaken zoals de diffuse kleur wilt aanpassen, ben je hier op het juiste adres. Aspose.3D voor .NET biedt een nette, object‑georiënteerde API waarmee je materiaal‑attributen kunt inspecteren, ophalen en wijzigen zonder je C#‑code te verlaten. In deze tutorial lopen we door het laden van een scène, het enumereren van de materialeigenschappen en het wijzigen van waarden zoals de diffuse component—zodat je je modellen precies het gewenste uiterlijk kunt geven.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat is het primaire doel?** Materialeigenschappen opsommen en wijzigen (bijv. diffuse kleur).  
+- **Welke bibliotheek is vereist?** Aspose.3D voor .NET.  
+- **Heb ik een licentie nodig?** Een tijdelijke of volledige licentie is vereist voor productiegebruik.  
+- **Ondersteunde bestandsformaten?** FBX, OBJ, STL, STL‑ASCII, 3MF en meer.  
+- **Typische implementatietijd?** Ongeveer 10‑15 minuten voor een basis‑script dat eigenschappen opsomt.
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat betekent **materialeigenschappen opsommen**?
+Materialeigenschappen opsommen houdt in dat je over de `PropertyCollection` van een materiaal itereert om elke eigenschapsnaam en de huidige waarde te lezen. Dit is nuttig voor debugging, visuele inspectie of het bouwen van UI‑besturingselementen waarmee gebruikers materiaalinstellingen tijdens runtime kunnen aanpassen.
 
--  Aspose.3D voor .NET: Zorg ervoor dat de bibliotheek in uw .NET-project is geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/3d/net/).
+## Waarom Aspose.3D gebruiken om **materialeigenschappen te benaderen**?
+- **Geen externe converters** – werk direct met native .NET‑objecten.  
+- **Rijk eigenschapsmodel** – ondersteunt aangepaste FBX‑specifieke attributen naast standaard PBR‑waarden.  
+- **Cross‑platform** – werkt op .NET Framework, .NET Core en .NET 5/6+.  
 
-- Documentmap: maak een map om uw 3D-documenten op te slaan.
+## Voorvereisten
 
-Nu u de essentiële zaken op orde heeft, gaan we het proces verkennen van het instellen van driedimensionale eigenschappen in 3D-scènes met behulp van Aspose.3D voor .NET.
+- Aspose.3D voor .NET geïnstalleerd in je project. Download het [hier](https://releases.aspose.com/3d/net/).
+- Een map op schijf om je 3‑D‑bronbestanden te bewaren (bijv. een FBX‑bestand met ingebedde textures).
 
-## Naamruimten importeren
+Nu je de basis op orde hebt, duiken we in de code.
 
-Importeer om te beginnen de benodigde naamruimten in uw project. Deze naamruimten bieden de klassen en methoden die nodig zijn voor het werken met driedimensionale eigenschappen in Aspose.3D voor .NET.
+## Namespaces importeren
 
 ```csharp
 using Aspose.ThreeD;
@@ -42,20 +55,16 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-## Stap 1: Laad 3D-scène
-
-Begin met het laden van een 3D-scène. In dit voorbeeld gebruiken we een FBX-bestand met een ingesloten textuur.
+## Stap 1: 3D‑scène laden
 
 ```csharp
-//ExStart: Load3DSene
+//ExStart: Load3DScene
 string dataDir = "Your Document Directory";
 Scene scene = new Scene(dataDir + "EmbeddedTexture.fbx");
-//Uitbreiden: Load3DScene
+//ExEnd: Load3DScene
 ```
 
-## Stap 2: Toegang tot materiaaleigenschappen
-
-Krijg toegang tot de materiaaleigenschappen van de geladen 3D-scène om de kenmerken ervan te manipuleren.
+## Stap 2: **Materialeigenschappen benaderen** van de eerste node
 
 ```csharp
 //ExStart: AccessMaterialProperties
@@ -64,43 +73,37 @@ PropertyCollection props = material.Properties;
 //ExEnd: AccessMaterialProperties
 ```
 
-## Stap 3: Maak een lijst van alle eigenschappen
-
-Maak een lijst van alle eigenschappen van het materiaal met behulp van een foreach-lus of een ordinale for-lus.
+## Stap 3: **Materialeigenschappen opsommen** – zie elk naam/waarde‑paar
 
 ```csharp
-//ExStart: LijstAlleProperties
+//ExStart: ListAllProperties
 foreach (var prop in props)
 {
     Console.WriteLine("{0} = {1}", prop.Name, prop.Value);
 }
 
-//of ordinaal voor lus gebruiken
+//or using ordinal for loop
 for (int i = 0; i < props.Count; i++)
 {
     var prop = props[i];
     Console.WriteLine("{0} = {1}", prop.Name, prop.Value);
 }
-//ExEnd: LijstAlleProperties
+//ExEnd: ListAllProperties
 ```
 
-## Stap 4: Eigendom op naam ophalen en wijzigen
-
-Haal een specifieke eigenschap op en wijzig deze op basis van de naam.
+## Stap 4: **Hoe diffuse aanpassen** – wijzig de Diffuse‑eigenschap
 
 ```csharp
 //ExStart: GetModifyPropertyByName
 var diffuse = props["Diffuse"];
 Console.WriteLine(diffuse);
 
-//wijzig de eigenschapswaarde op naam
-props["Diffuse"] = new Vector3(1, 0, 1);
+//modify property value by name
+props["Diffuse"] = new Vector3(1, 0, 1); // sets a magenta diffuse color
 //ExEnd: GetModifyPropertyByName
 ```
 
-## Stap 5: Haal de eigendomsinstantie op naam op
-
-Haal een eigenschapsinstantie op basis van de naam op voor verdere manipulatie.
+## Stap 5: **Eigenschap ophalen op naam** – krijg een sterk getypeerd exemplaar
 
 ```csharp
 //ExStart: GetPropertyInstanceByName
@@ -109,19 +112,17 @@ Console.WriteLine(pdiffuse);
 //ExEnd: GetPropertyInstanceByName
 ```
 
-## Stap 6: Doorloop de eigendommen van onroerend goed
-
- Sinds`Property` is geërfd van`A3DObject`kunt u de eigenschappen van een eigenschap doorlopen.
+## Stap 6: Een eigenschap’s eigen eigenschappen doorlopen (geavanceerd)
 
 ```csharp
 //ExStart: TraversePropertyProperties
 Console.WriteLine("Property flags = {0}", pdiffuse.GetProperty("flags"));
 
-//en enkele eigenschappen die alleen in het FBX-bestand zijn gedefinieerd:
+//and some properties that only defined in FBX file:
 Console.WriteLine("Label = {0}", pdiffuse.GetProperty("label"));
 Console.WriteLine("Type Name = {0}", pdiffuse.GetProperty("typeName"));
 
-//doorkruisen van het eigendom van onroerend goed is mogelijk
+//traversal on property's property is possible
 foreach (var pp in pdiffuse.Properties)
 {
     Console.WriteLine("Diffuse.{0} = {1}", pp.Name, pp.Value);
@@ -129,31 +130,62 @@ foreach (var pp in pdiffuse.Properties)
 //ExEnd: TraversePropertyProperties
 ```
 
+## Hoe **3D‑materiaalkleur wijzigen** voorbij diffuse
+Als je speculaire, ambient‑ of emissieve kleuren wilt beïnvloeden, vervang je simpelweg `"Diffuse"` door `"Specular"` of `"Ambient"` in de `props["..."]`‑toewijzing hierboven. Dezelfde `Vector3`‑ of `Vector4`‑structuren zijn van toepassing.
+
+## Veelvoorkomende valkuilen & tips
+- **Hoofdlettergevoeligheid van eigenschapsnamen** – Aspose.3D‑eigenschapssleutels zijn hoofdlettergevoelig; gebruik exact de naam die in de opsomming wordt getoond.  
+- **Ontbrekende eigenschap** – Niet alle materialen exposen elke PBR‑attribuut. Controleer `props.ContainsKey("Specular")` voordat je er toegang toe krijgt.  
+- **Wijzigingen opslaan** – Na het aanpassen van eigenschappen, roep `scene.Save("output.fbx");` aan om de wijzigingen te bewaren.
+
 ## Conclusie
 
-Gefeliciteerd! U beheerst nu de kunst van het instellen van driedimensionale eigenschappen in 3D-scènes met Aspose.3D voor .NET. Experimenteer met verschillende eigenschappen en waarden om uw 3D-projecten tot leven te brengen.
+Je hebt nu geleerd hoe je **materialeigenschappen kunt opsommen**, **een eigenschap op naam kunt ophalen** en **de diffuse kleur kunt wijzigen** (of een andere materiaaleigenschap) met Aspose.3D voor .NET. Experimenteer met verschillende eigenschapstypen om het uiterlijk van je 3‑D‑assets fijn af te stemmen.
+
+## FAQ's
+
+### Q1: Kan ik Aspose.3D voor .NET gebruiken met andere 3D‑bestandsformaten?
+
+A1: Ja, Aspose.3D ondersteunt diverse 3D‑bestandsformaten, waaronder FBX, STL en nog veel meer.
+
+### Q2: Hoe kan ik een tijdelijke licentie voor Aspose.3D voor .NET verkrijgen?
+
+A2: Bezoek [hier](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie te verkrijgen.
+
+### Q3: Is er een community‑forum voor Aspose.3D‑gebruikers?
+
+A3: Ja, je kunt ondersteuning en discussies vinden op het [Aspose.3D‑forum](https://forum.aspose.com/c/3d/18).
+
+### Q4: Waar vind ik uitgebreide documentatie voor Aspose.3D voor .NET?
+
+A4: Raadpleeg de [documentatie](https://reference.aspose.com/3d/net/) voor uitgebreide richtlijnen.
+
+### Q5: Kan ik Aspose.3D voor .NET gratis uitproberen vóór aankoop?
+
+A5: Zeker! Download de [gratis proefversie](https://releases.aspose.com/) om de functionaliteit te verkennen.
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.3D voor .NET gebruiken met andere 3D-bestandsindelingen?
+**Q: Wat stelt `Vector3(1, 0, 1)` voor?**  
+A: Het zet de diffuse kleur op magenta (rood = 1, groen = 0, blauw = 1) in lineaire kleurruimte.
 
-A1: Ja, Aspose.3D ondersteunt verschillende 3D-bestandsindelingen, waaronder FBX, STL en nog veel meer.
+**Q: Moet ik `scene.Save` aanroepen na het wijzigen van eigenschappen?**  
+A: Ja, het opslaan van de scène schrijft je aanpassingen naar schijf; anders blijven de wijzigingen alleen in het geheugen.
 
-### V2: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.3D voor .NET?
+**Q: Kan ik aangepaste FBX‑attributen enumereren?**  
+A: Absoluut. De `PropertyCollection` bevat alle aangepaste attributen, die je kunt benaderen via `GetProperty("customName")`.
 
- A2: Bezoek[hier](https://purchase.aspose.com/temporary-license/) om een tijdelijke vergunning te verkrijgen.
+**Q: Is er een manier om meerdere materialen in één keer bij te werken?**  
+A: Loop door `scene.RootNode.ChildNodes` en herhaal de stappen voor eigenschapsaanpassing voor elk materiaal.
 
-### Vraag 3: Is er een communityforum voor Aspose.3D-gebruikers?
+**Q: Ondersteunt Aspose.3D .NET 6?**  
+A: Ja, de bibliotheek is volledig compatibel met .NET 6 en later.
 
- A3: Ja, u kunt ondersteuning en discussies vinden op de[Aspose.3D-forum](https://forum.aspose.com/c/3d/18).
+---
 
-### V4: Waar kan ik gedetailleerde documentatie vinden voor Aspose.3D voor .NET?
-
- A4: Raadpleeg de[documentatie](https://reference.aspose.com/3d/net/) voor uitgebreide begeleiding.
-
-### V5: Kan ik Aspose.3D voor .NET gratis uitproberen voordat ik een aankoop doe?
-
- A5: Zeker! Download de[gratis proefversie](https://releases.aspose.com/) om de kenmerken ervan te verkennen.
+**Laatst bijgewerkt:** 2026-01-17  
+**Getest met:** Aspose.3D 24.11 voor .NET  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
