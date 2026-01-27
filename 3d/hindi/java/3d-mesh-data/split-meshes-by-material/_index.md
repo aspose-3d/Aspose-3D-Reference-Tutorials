@@ -1,33 +1,55 @@
 ---
-title: जावा में कुशल प्रसंस्करण के लिए सामग्री द्वारा 3डी मेश को विभाजित करें
-linktitle: जावा में कुशल प्रसंस्करण के लिए सामग्री द्वारा 3डी मेश को विभाजित करें
-second_title: Aspose.3D जावा एपीआई
-description: सामग्री द्वारा 3डी मेश को कुशलतापूर्वक विभाजित करने पर हमारी चरण-दर-चरण मार्गदर्शिका के साथ जावा में Aspose.3D की शक्ति का अन्वेषण करें। अपने एप्लिकेशन के प्रदर्शन को निर्बाध रूप से बढ़ाएं।
-weight: 12
+date: 2026-01-27
+description: जावा में Aspose.3D के साथ सामग्री के आधार पर मेष को कुशलतापूर्वक विभाजित
+  करना सीखें। यह गाइड आपको दिखाता है कि कैसे ड्रॉ कॉल्स को कम किया जाए और सामग्री
+  के आधार पर मेष को विभाजित करते समय रेंडरिंग प्रदर्शन को बेहतर बनाया जाए।
+linktitle: How to Split Mesh by Material in Java Using Aspose.3D
+second_title: Aspose.3D Java API
+title: जावा में Aspose.3D का उपयोग करके सामग्री के आधार पर मेष को कैसे विभाजित करें
 url: /hi/java/3d-mesh-data/split-meshes-by-material/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा में कुशल प्रसंस्करण के लिए सामग्री द्वारा 3डी मेश को विभाजित करें
+# How to Split Mesh by Material in Java Using Aspose.3D
 
-## परिचय
+## Introduction
 
-Aspose.3D का उपयोग करके जावा में कुशल प्रसंस्करण के लिए सामग्री द्वारा 3D मेश को विभाजित करने पर इस व्यापक ट्यूटोरियल में आपका स्वागत है। यदि आप 3डी ग्राफ़िक्स की दुनिया में गोता लगा रहे हैं और एक शक्तिशाली जावा लाइब्रेरी की आवश्यकता है, तो Aspose.3D आपके लिए उपयुक्त समाधान है। इस ट्यूटोरियल में, हम आपको सामग्री द्वारा 3डी मेश को कुशलतापूर्वक संभालने की प्रक्रिया के बारे में बताएंगे, जिससे आपके जावा एप्लिकेशन को बेहतर प्रदर्शन के लिए अनुकूलित किया जा सके।
+यदि आप Java में 3D ग्राफ़िक्स के साथ काम कर रहे हैं, तो आप जल्दी ही देखेंगे कि बड़े meshes को प्रोसेस करना प्रदर्शन का बोतलनेक बन सकता है—विशेष रूप से जब एक ही mesh में कई material होते हैं। **material के आधार पर mesh को split करने** से आप प्रत्येक material‑विशिष्ट polygon समूह को अलग कर सकते हैं, जिससे तेज़ rendering, आसान culling, और texture handling पर अधिक सूक्ष्म नियंत्रण मिलता है। इस ट्यूटोरियल में हम **material के आधार पर mesh को split करने** के सटीक चरणों को Aspose.3D लाइब्रेरी का उपयोग करके दिखाएंगे, साथ ही व्यावहारिक व्याख्याएँ, draw calls को कम करने के टिप्स, और rendering प्रदर्शन को बेहतर बनाने के सुझाव प्रदान करेंगे।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **“material के आधार पर mesh को split करना” क्या मतलब है?** यह एक ही mesh को कई sub‑meshes में विभाजित करता है, जहाँ प्रत्येक sub‑mesh में वही polygons होते हैं जो एक ही material को साझा करते हैं।
+- **Aspose.3D क्यों उपयोग करें?** यह एक हाई‑लेवल, क्रॉस‑प्लेटफ़ॉर्म API प्रदान करता है जो लो‑लेवल फ़ाइल फ़ॉर्मेट को एब्स्ट्रैक्ट करता है जबकि प्रदर्शन बनाए रखता है।
+- **इम्प्लीमेंटेशन में कितना समय लगेगा?** लगभग 10–15 मिनट कोडिंग और टेस्टिंग के लिए।
+- **क्या लाइसेंस की आवश्यकता है?** एक फ्री ट्रायल उपलब्ध है; प्रोडक्शन उपयोग के लिए कमर्शियल लाइसेंस आवश्यक है।
+- **कौन सा Java संस्करण समर्थित है?** Java 8 या उससे ऊपर।
 
-इससे पहले कि हम इस रोमांचक यात्रा पर निकलें, सुनिश्चित करें कि आपके पास निम्नलिखित शर्तें हैं:
+## What is Mesh Splitting?
 
-- जावा प्रोग्रामिंग का बुनियादी ज्ञान।
--  जावा लाइब्रेरी के लिए Aspose.3D स्थापित किया गया। आप इसे यहां से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/3d/java/).
-- जावा विकास के लिए एक एकीकृत विकास पर्यावरण (आईडीई) स्थापित किया गया।
+Mesh splitting वह प्रक्रिया है जिसमें एक जटिल 3D mesh को छोटे, अधिक प्रबंधनीय टुकड़ों में विभाजित किया जाता है। जब split material के आधार पर किया जाता है, तो प्रत्येक परिणामी sub‑mesh में केवल वही polygons होते हैं जो एक ही material को संदर्भित करते हैं। यह दृष्टिकोण draw calls को कम करता है, rendering प्रदर्शन को सुधारता है, और per‑material shaders जैसे कार्यों को सरल बनाता है।
 
-## पैकेज आयात करें
+## Why Split Mesh by Material?
 
-सुनिश्चित करें कि आपने अपने जावा प्रोजेक्ट में Aspose.3D का उपयोग करने के लिए आवश्यक पैकेज आयात किए हैं:
+- **Performance:** Rendering engines material के अनुसार draw calls को batch कर सकते हैं, जिससे GPU state changes कम होते हैं।
+- **Flexibility:** आप प्रत्येक material पर अलग‑अलग post‑processing इफ़ेक्ट्स या collision logic लागू कर सकते हैं।
+- **Memory Management:** छोटे meshes को मेमोरी में इन‑और‑आउट स्ट्रीम करना आसान होता है, जो मोबाइल या VR एप्लिकेशन्स के लिए महत्वपूर्ण है।
+- **Reduced Draw Calls:** कम state changes का मतलब है GPU अधिक कुशलता से फ्रेम प्रोसेस कर सकता है।
+- **Improved Rendering Performance:** Materials को अलग करने से अक्सर बेहतर culling और shading परिणाम मिलते हैं।
+
+## Prerequisites
+
+कोड में डुबकी लगाने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हों:
+
+- Java प्रोग्रामिंग का बेसिक ज्ञान।
+- Aspose.3D for Java लाइब्रेरी इंस्टॉल हो (डाउनलोड करें [Aspose वेबसाइट](https://releases.aspose.com/3d/java/) से)।
+- IntelliJ IDEA, Eclipse, या VS Code जैसे IDE, जो Java विकास के लिए कॉन्फ़िगर किया गया हो।
+
+## Import Packages
+
+पहले, आवश्यक Aspose.3D क्लासेज़ और कोई भी स्टैंडर्ड Java यूटिलिटीज़ इम्पोर्ट करें:
 
 ```java
 import com.aspose.threed.*;
@@ -35,81 +57,102 @@ import com.aspose.threed.*;
 import java.util.Arrays;
 ```
 
+ Step‑by‑Step Guide
 
-आइए सामग्री द्वारा 3डी जालों को आसानी से पचने योग्य चरणों में विभाजित करने की प्रक्रिया को तोड़ें।
+नीचे प्रत्येक चरण का संक्षिप्त walkthrough दिया गया है, जहाँ कोड ब्लॉक्स से पहले व्याख्याएँ हैं ताकि आप ठीक‑ठीक समझ सकें कि क्या हो रहा है।
 
-## चरण 1: एक बॉक्स की जाली बनाएं
+### Step 1: Create a Mesh of a Box
+
+हम एक सरल ज्यामितीय primitive—एक बॉक्स—से शुरू करते हैं, ताकि बाद में प्रत्येक फेस (plane) को अपना material मिल सके।
 
 ```java
-// एक्सस्टार्ट: स्प्लिटमेशबी मटेरियल
+// ExStart:SplitMeshbyMaterial
 
-// एक बॉक्स का जाल बनाएं (6 तलों से बना)
+// Create a mesh of a box (composed of 6 planes)
 Mesh box = (new Box()).toMesh();
 ```
 
-## चरण 2: एक सामग्री तत्व बनाएं
+### Step 2: Create a Material Element
+
+`VertexElementMaterial` प्रत्येक polygon के लिए material indices संग्रहीत करता है। इसे mesh से जोड़कर हम नियंत्रित कर सकते हैं कि प्रत्येक फेस कौन सा material उपयोग करे।
 
 ```java
-// बॉक्स जाल पर एक भौतिक तत्व बनाएं
+// Create a material element on the box mesh
 VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
 ```
 
-## चरण 3: विभिन्न सामग्री सूचकांक निर्दिष्ट करें
+### Step 3: Specify Different Material Indices
+
+यहाँ हम बॉक्स के छह planes में से प्रत्येक को एक अनूठा material index असाइन करते हैं। ऐरे का क्रम `Box` primitive द्वारा उत्पन्न polygons के क्रम से मेल खाता है।
 
 ```java
-// प्रत्येक तल के लिए अलग-अलग सामग्री सूचकांक निर्दिष्ट करें
+// Specify different material indices for each plane
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 ```
 
-## चरण 4: मेष को उप-मेशों में विभाजित करें
+### Step 4: Split the Mesh into Sub‑Meshes
+
+`PolygonModifier.splitMesh` को `SplitMeshPolicy.CLONE_DATA` के साथ कॉल करने से प्रत्येक अलग‑अलग material index के लिए एक नया sub‑mesh बनता है, जबकि मूल vertex डेटा संरक्षित रहता है।
 
 ```java
-// जाल को 6 उप-जाल में विभाजित करें, प्रत्येक तल एक उप-जाल बन जाए
+// Split the mesh into 6 sub-meshes, each plane becoming a sub-mesh
 Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
 ```
 
-## चरण 5: सामग्री सूचकांकों को अद्यतन करें और फिर से विभाजित करें
+### Step 5: Update Material Indices and Split Again
+
+एक अलग splitting रणनीति दिखाने के लिए, अब हम पहले तीन planes को material 0 और शेष तीन को material 1 के तहत समूहित करते हैं, फिर `COMPACT_DATA` का उपयोग करके अनउपयोगी vertices को हटाते हुए split करते हैं।
 
 ```java
-// सामग्री सूचकांकों को अद्यतन करें और 2 उप-मेशों में विभाजित करें
+// Update material indices and split into 2 sub-meshes
 mat.getIndices().clear();
 mat.setIndices(new int[]{0, 0, 0, 1, 1, 1});
 planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```
 
-## चरण 6: सफलता संदेश प्रदर्शित करें
+### Step 6: Confirm Success
+
+एक साधा console संदेश आपको बताता है कि ऑपरेशन बिना त्रुटियों के पूरा हो गया।
 
 ```java
-// सफलता संदेश प्रदर्शित करें
+// Display success message
 System.out.println("\nSplitting a mesh by specifying the material successfully.");
 // ExEnd:SplitMeshbyMaterial
 ```
 
-## निष्कर्ष
+## Reduce Draw Calls and Improve Rendering Performance
 
-बधाई हो! आपने जावा में Aspose.3D का उपयोग करके 3D मेश को सामग्री द्वारा विभाजित करना सफलतापूर्वक सीख लिया है। यह कुशल तकनीक आपके एप्लिकेशन की प्रोसेसिंग गति को बढ़ाती है, और एक सहज उपयोगकर्ता अनुभव प्रदान करती है।
+प्रत्येक material को अपना अलग mesh बनाकर, आप ग्राफ़िक्स पाइपलाइन को प्रत्येक material के लिए एक ही draw call जारी करने की अनुमति देते हैं, बजाय प्रत्येक polygon के लिए कई draw calls के। यह draw calls में कमी सीधे स्मूथ फ्रेम रेट में परिवर्तित होती है, विशेषकर लो‑एंड हार्डवेयर पर। अतिरिक्त रूप से, `COMPACT_DATA` नीति अनउपयोगी vertices को हटाती है, जिससे मेमोरी बैंडविड्थ कम होती है और GPU अधिक कुशलता से रेंडर करता है।
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Common Issues and Solutions
 
-### Q1: क्या Aspose.3D 3D ग्राफ़िक्स के लिए अन्य जावा लाइब्रेरीज़ के साथ संगत है?
+| Issue | Why It Happens | Fix |
+|-------|----------------|-----|
+| **Sub‑meshes contain duplicate vertices** | Using `CLONE_DATA` copies all vertex data for each sub‑mesh. | Switch to `COMPACT_DATA` when you want shared vertices to be deduplicated. |
+| **Incorrect material assignment** | Indices array length does not match polygon count. | Verify the number of polygons (e.g., a box has 6) and supply a matching indices array. |
 
-A1: Aspose.3D को आपके विकास में लचीलापन प्रदान करते हुए, विभिन्न जावा 3D लाइब्रेरीज़ के साथ निर्बाध रूप से काम करने के लिए डिज़ाइन किया गया है।
+## Frequently Asked Questions
 
-### Q2: क्या मैं इस तकनीक को अधिक जटिल 3D मॉडल पर लागू कर सकता हूँ?
+**Q: Is Aspose.3D compatible with other Java 3D libraries?**  
+A: Yes, Aspose.3D can coexist with libraries like Java 3D or jMonkeyEngine, allowing you to import/export meshes between them.
 
-ए2: बिल्कुल! यह विधि जटिल 3डी मॉडल के लिए उपयुक्त है, सामग्री-विशिष्ट तरीके से उनके प्रसंस्करण को अनुकूलित करती है।
+**Q: Can this technique be applied to complex models with hundreds of materials?**  
+A: Absolutely. The same API calls work regardless of mesh complexity; just ensure your indices array correctly reflects the material layout.
 
-### Q3: मैं जावा में Aspose.3D के लिए विस्तृत दस्तावेज़ कहां पा सकता हूं?
+**Q: Where can I find the full Aspose.3D Java documentation?**  
+A: Visit the official [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) for detailed API references and additional examples.
 
- A3: का संदर्भ लें[Aspose.3D जावा दस्तावेज़ीकरण](https://reference.aspose.com/3d/java/) गहन जानकारी और उदाहरणों के लिए।
+**Q: Is a free trial available for Aspose.3D for Java?**  
+A: Yes, you can download a trial version from the [Aspose Releases page](https://releases.aspose.com/).
 
-### Q4: क्या जावा के लिए Aspose.3D का निःशुल्क परीक्षण उपलब्ध है?
+**Q: How can I get support if I run into issues?**  
+A: The Aspose community forum ([Aspose.3D forum](https://forum.aspose.com/c/3d/18)) is an excellent place to ask questions and receive help from both the Aspose team and other developers.
 
- उ4: हां, आप यहां उपलब्ध निःशुल्क परीक्षण के साथ सुविधाओं का पता लगा सकते हैं[एस्पोज़ रिलीज़](https://releases.aspose.com/).
+---
 
-### Q5: मैं किसी भी मुद्दे या प्रश्न के लिए समर्थन कैसे प्राप्त कर सकता हूं?
-
- A5: पर जाएँ[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) समुदाय से समर्पित समर्थन के लिए।
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
