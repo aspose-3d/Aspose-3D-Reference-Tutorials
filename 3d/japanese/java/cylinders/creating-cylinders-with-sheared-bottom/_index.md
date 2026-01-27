@@ -1,31 +1,41 @@
 ---
-title: Aspose.3D for Java で底部をせん断した円柱を作成する
-linktitle: Aspose.3D for Java で底部をせん断した円柱を作成する
+date: 2026-01-27
+description: Aspose.3D for Java を使用して、底部がシアーされたシリンダーを作成しながら Java の 3D モデリングを学びましょう。この初心者向け
+  3D チュートリアルでは、Aspose 3D のインストール方法、シアー変換の適用方法、そして OBJ ファイルのエクスポート方法を Java で示します。
+linktitle: Java 3D Modeling – Sheared Bottom Cylinders with Aspose.3D
 second_title: Aspose.3D Java API
-description: Aspose.3D for Java を使用して、底部をせん断したカスタマイズされた円柱を作成する方法を学びます。このステップバイステップのガイドで 3D モデリングのスキルを向上させましょう。
-weight: 12
+title: Java 3Dモデリング – Aspose.3Dでシアされた底シリンダー
 url: /ja/java/cylinders/creating-cylinders-with-sheared-bottom/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D for Java で底部をせん断した円柱を作成する
+# Java 3D モデリング – 斜めにカットされた底部シリンダー（Aspose.3D 使用）
 
-## 導入
+## はじめに
 
-Aspose.3D for Java を使用して底部がせん断された円柱を作成するためのこのステップバイステップ ガイドへようこそ。 Aspose.3D は、3D ファイルを簡単に操作できる強力な Java ライブラリです。このチュートリアルでは、底部をせん断したカスタマイズされた円柱の作成について詳しく説明し、Aspose.3D を使用して 3D モデリング スキルを向上させる実践的な経験を提供します。
+この **java 3d modeling** チュートリアルへようこそ！このステップバイステップガイドでは、Aspose.3D ライブラリ for Java を使用して、底部がシアー（せん断）されたシリンダーの作成方法を解説します。**beginner 3d tutorial** に従っている場合でも、既存のモデルにカスタムせん断変換を追加したい場合でも、シーンの設定方法、せん断の適用方法、そして最終的に **export OBJ file java** を他のツールで使用できるようにエクスポートする方法が正確に分かります。
+
+## クイック回答
+- **What library is used?** Aspose.3D for Java  
+- **Can I install Aspose 3D via Maven?** Yes – add the Aspose.3D dependency to your `pom.xml`  
+- **Is a license required for development?** A temporary license is sufficient for testing; a full license is needed for production  
+- **Which file format is demonstrated?** Wavefront OBJ (`.obj`)  
+- **How long does the example take to run?** Under a second on a typical workstation  
 
 ## 前提条件
 
-始める前に、次の前提条件が満たされていることを確認してください。
-- Java Development Kit (JDK) がシステムにインストールされています。
--  Aspose.3D for Java ライブラリがダウンロードされ、プロジェクトに追加されました。ダウンロードリンクが見つかります[ここ](https://releases.aspose.com/3d/java/).
+- Java Development Kit (JDK) がシステムにインストールされていること。  
+- **Install Aspose 3D** – 公式サイトからライブラリをダウンロードしてください [here](https://releases.aspose.com/3d/java/)。  
+- Aspose.3D の依存関係を管理できる IDE またはビルドツール（Maven/Gradle）。
 
 ## パッケージのインポート
 
-まず、Java アプリケーションで Aspose.3D を操作するために必要なパッケージをインポートします。
+まず、シーン、ジオメトリ、ファイル処理に必要なクラスをインポートします。
+
 ```java
 import com.aspose.threed.*;
 
@@ -33,82 +43,98 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## ステップ 1: シーンを作成する
+## ステップ 1: シーンの作成
 
-まず、円柱を追加して操作する 3D シーンを作成します。
+シーンはすべての 3‑D オブジェクトを格納するコンテナです。空のシーンを作成することから始めます。
+
 ```java
-//例開始:3
-//シーンを作成する
+// ExStart:3
+// Create a scene
 Scene scene = new Scene();
-//拡張終了:3
+// ExEnd:3
 ```
 
-## ステップ 2: シリンダー 1 を作成する
+## ステップ 2: Cylinder 1 の作成 – シリンダーのせん断方法
 
-次に、底部がせん断された最初の円柱を作成しましょう。
+次に、最初のシリンダーを作成し、底部に **apply shear transformation** を適用します。これにより、API を介して **how to shear cylinder** ジオメトリを直接操作する方法が示されます。
+
 ```java
-//例開始:4
-//シリンダー 1 を作成する
+// ExStart:4
+// Create cylinder 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-//シリンダー 1 のカスタマイズされたシャーボトム
-cylinder1.setShearBottom(new Vector2(0, 0.83)); //xy 平面 (z 軸) で 47.5 度のせん断
-//シリンダー 1 をシーンに追加
+// Customized shear bottom for cylinder 1
+cylinder1.setShearBottom(new Vector2(0, 0.83)); // Shear 47.5deg in the xy plane (z-axis)
+// Add cylinder 1 to the scene
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
-//拡張終了:4
+// ExEnd:4
 ```
 
-## ステップ 3: シリンダー 2 を作成する
+## ステップ 3: Cylinder 2 の作成 – 標準シリンダー（せん断なし）
 
-次に、底部がせん断されていない 2 番目の円柱をシーンに追加しましょう。
+比較のため、底部が **not** せん断されていない第2のシリンダーを追加します。
+
 ```java
-//例開始:5
-//シリンダー 2 を作成する
+// ExStart:5
+// Create cylinder 2
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
-//ShearBottom のないシリンダー 2 をシーンに追加します。
+// Add cylinder 2 without a ShearBottom to the scene
 scene.getRootNode().createChildNode(cylinder2);
-//拡張終了:5
+// ExEnd:5
 ```
 
-## ステップ 4: シーンを保存する
+## ステップ 4: シーンの保存 – Export OBJ File Java
 
-カスタマイズしたシリンダーを含むシーンをドキュメント ディレクトリに保存します。
+最後に、シーンを Wavefront OBJ ファイルにエクスポートし、**export obj file java** の使用例を示します。
+
 ```java
-//例開始:6
-//シーンを保存する
+// ExStart:6
+// Save scene
 scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", FileFormat.WAVEFRONTOBJ);
-//拡張終了:6
+// ExEnd:6
 ```
 
-おめでとう！ Aspose.3D for Java を使用して、底部がせん断された円柱を正常に作成できました。
+## Java 3D モデリングにおける重要性
 
-## 結論
+プリミティブにせん断を加えることで、外部のモデリングツールを使用せずにより有機的な形状を作成できます。この手法は以下のような場面で便利です：
 
-このチュートリアルでは、Aspose.3D for Java を活用して 3D モデリング プロジェクトを強化する方法を検討しました。底部をせん断したカスタマイズされた円柱を作成すると、デザインに独特のタッチが加わり、Aspose.3D によってプロセスが簡素化されます。
+- 傾斜した基部が必要な建築ビジュアライゼーション。  
+- ジオメトリを軽量に保ちつつカスタムフットプリントが必要なゲームアセット。  
+- 次元をプログラムで微調整したい高速プロトタイピング。
+
+## よくある問題と解決策
+
+| Issue | Solution |
+|-------|----------|
+| **Shear appears too extreme** | `Vector2` の値を調整してください。これらはせん断係数（0‑1 の範囲）を表します。 |
+| **OBJ file not opening in viewer** | 対象ディレクトリが存在し、書き込み権限があることを確認してください。 |
+| **License exception at runtime** | シーン作成前に一時または永続ライセンスを適用してください (`License license = new License(); license.setLicense("Aspose.3D.lic");`)。 |
 
 ## よくある質問
 
-### Q1: Aspose.3D for Java を他の Java 3D ライブラリと一緒に使用できますか?
+**Q: Can I use Aspose.3D for Java with other Java 3D libraries?**  
+A: Aspose.3D は単独で動作するよう設計されています。他のライブラリと統合することは可能ですが、ほとんどの 3‑D タスクに対してフル機能の API を既に提供しています。
 
-A1: Aspose.3D for Java は独立して動作するように設計されています。他のライブラリと統合することもできますが、ほとんどの 3D モデリング タスクを単独で処理できるほど強力です。
+**Q: Is Aspose.3D suitable for beginners in 3D modeling?**  
+A: Absolutely. The API is straightforward, and this **beginner 3d tutorial** demonstrates core concepts with minimal code.
 
-### Q2: Aspose.3D は 3D モデリングの初心者に適していますか?
+**Q: Where can I find additional support for Aspose.3D for Java?**  
+A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community help and official answers.
 
-A2: はい、Aspose.3D はユーザーフレンドリーな API を提供するため、3D モデリングの初心者と経験豊富な開発者の両方に適しています。
+**Q: How can I obtain a temporary license for Aspose.3D?**  
+A: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Aspose.3D for Java の追加サポートはどこで見つけられますか?
+**Q: Where do I purchase a full Aspose.3D for Java license?**  
+A: Purchase options are available [here](https://purchase.aspose.com/buy).
 
- A3: にアクセスしてください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)コミュニティのサポートとディスカッションのために。
-
-### Q4: Aspose.3D の一時ライセンスを取得するにはどうすればよいですか?
-
- A4: 仮免許は取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Aspose.3D for Java を購入できますか?
-
- A5: はい、Aspose.3D for Java を購入できます。[ここ](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最終更新日：** 2026-01-27  
+**テスト環境：** Aspose.3D 24.11 for Java  
+**作者：** Aspose

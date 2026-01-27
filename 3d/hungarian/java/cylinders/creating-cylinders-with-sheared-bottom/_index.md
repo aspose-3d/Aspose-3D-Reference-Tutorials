@@ -1,31 +1,45 @@
 ---
-title: Nyírt aljú hengerek létrehozása Aspose.3D for Java programban
-linktitle: Nyírt aljú hengerek létrehozása Aspose.3D for Java programban
+date: 2026-01-27
+description: Tanulja meg a Java 3D modellezést, úgy, hogy elnyírt aljú hengereket
+  hoz létre az Aspose.3D for Java segítségével. Ez a kezdő 3D oktatóbemutató megmutatja,
+  hogyan telepítsük az Aspose 3D-et, alkalmazzuk a nyírási transzformációt, és exportáljuk
+  az OBJ fájlt Java‑ban.
+linktitle: Java 3D Modeling – Sheared Bottom Cylinders with Aspose.3D
 second_title: Aspose.3D Java API
-description: Tanuljon meg testreszabott, nyírt fenékű hengereket létrehozni az Aspose.3D for Java segítségével. Növelje 3D-s modellezési készségeit ezzel a lépésről lépésre bemutatott útmutatóval.
-weight: 12
+title: Java 3D modellezés – Ferdeségű alsó hengerek az Aspose.3D-vel
 url: /hu/java/cylinders/creating-cylinders-with-sheared-bottom/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nyírt aljú hengerek létrehozása Aspose.3D for Java programban
+# Java 3D modellezés – Ferde aljú hengerek az Aspose.3D-val
 
 ## Bevezetés
 
-Üdvözöljük ebben a lépésről lépésre szóló útmutatóban a nyírt fenekű hengerek létrehozásáról az Aspose.3D for Java használatával. Az Aspose.3D egy hatékony Java-könyvtár, amely lehetővé teszi a 3D-s fájlokkal való erőfeszítés nélküli munkát. Ebben az oktatóanyagban elmerülünk a testreszabott, nyírt fenékű hengerek létrehozásában, amelyek gyakorlati tapasztalatot nyújtanak az Aspose.3D használatában a 3D-s modellezési képességek fejlesztése érdekében.
+Üdvözöljük ebben a **java 3d modeling** oktatóanyagban! Ebben a lépésről‑lépésre útmutatóban végigvezetjük, hogyan hozhatunk létre egy hengert, amelynek alja ferde, az Aspose.3D Java könyvtár segítségével. Akár egy **beginner 3d tutorial**-t követ, akár egy egyedi ferde transzformációt szeretne hozzáadni egy meglévő modellhez, pontosan láthatja, hogyan állítsa be a jelenetet, alkalmazza a ferde hatást, és végül **export OBJ file java**-t használjon más eszközökben.
+
+## Gyors válaszok
+- **Milyen könyvtárat használnak?** Aspose.3D for Java  
+- **Telepíthetem az Aspose 3D-t Maven-en keresztül?** Yes – add the Aspose.3D dependency to your `pom.xml`  
+- **Szükséges licenc a fejlesztéshez?** A temporary license is sufficient for testing; a full license is needed for production  
+- **Melyik fájlformátumot mutatják be?** Wavefront OBJ (`.obj`)  
+- **Mennyi ideig tart a példa futtatása?** Under a second on a typical workstation  
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
-- Java Development Kit (JDK) telepítve a rendszerére.
--  Az Aspose.3D for Java könyvtár letöltve és hozzáadva a projekthez. A letöltési linket megtalálod[itt](https://releases.aspose.com/3d/java/).
+Before we begin, ensure you have the following:
+
+- Java Development Kit (JDK) telepítve legyen a rendszerén.  
+- **Install Aspose 3D** – töltse le a könyvtárat a hivatalos oldalról [here](https://releases.aspose.com/3d/java/).  
+- IDE vagy build eszköz (Maven/Gradle) az Aspose.3D függőség kezeléséhez.  
 
 ## Csomagok importálása
 
-Kezdésként importálja a szükséges csomagokat az Aspose.3D használatához a Java alkalmazásban:
+Először importálja a jelenethez, geometriához és fájlkezeléshez szükséges osztályokat.
+
 ```java
 import com.aspose.threed.*;
 
@@ -33,82 +47,98 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 1. lépés: Hozzon létre egy jelenetet
+## 1. lépés: Jelenet létrehozása
 
-Kezdje egy 3D-s jelenet létrehozásával, ahol hozzáadhatja és kezelheti a hengereit:
+A jelenet az összes 3‑D objektum tárolója. Kezdésként hozzunk létre egy üres jelenetet.
+
 ```java
 // ExStart:3
-// Hozzon létre egy jelenetet
+// Create a scene
 Scene scene = new Scene();
 // ExEnd:3
 ```
 
-## 2. lépés: Hozzon létre 1. hengert
+## 2. lépés: Cylinder 1 létrehozása – Hogyan ferdezzük a hengert
 
-Most készítsük el az első nyírt aljú hengert:
+Most elkészítjük az első hengert, és **alkalmazzuk a ferde transzformációt** az aljára. Ez bemutatja, hogyan **ferdezzük a hengert** közvetlenül az API-n keresztül.
+
 ```java
 // ExStart:4
-// Hozzon létre 1 hengert
+// Create cylinder 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-// Testreszabott nyírófenék az 1. hengerhez
-cylinder1.setShearBottom(new Vector2(0, 0.83)); //Nyírás 47,5 fok az xy síkban (z tengely)
-// Adja hozzá az 1. hengert a jelenethez
+// Customized shear bottom for cylinder 1
+cylinder1.setShearBottom(new Vector2(0, 0.83)); // Shear 47.5deg in the xy plane (z-axis)
+// Add cylinder 1 to the scene
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
 // ExEnd:4
 ```
 
-## 3. lépés: Hozza létre a 2. hengert
+## 3. lépés: Cylinder 2 létrehozása – Standard henger (ferde nélkül)
 
-Ezután adjunk hozzá egy második, nyírt fenék nélküli hengert a jelenethez:
+Összehasonlításként hozzáadunk egy második hengert, amelynek **nincs** ferde alja.
+
 ```java
 // ExStart:5
-// Hozza létre a 2-es hengert
+// Create cylinder 2
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
-// Adja hozzá a jelenethez a ShearBottom nélküli 2. hengert
+// Add cylinder 2 without a ShearBottom to the scene
 scene.getRootNode().createChildNode(cylinder2);
-// Vége:5
+// ExEnd:5
 ```
 
-## 4. lépés: Mentse el a jelenetet
+## 4. lépés: Jelenet mentése – OBJ fájl exportálása Java-val
 
-Mentse el a jelenetet a testreszabott hengerekkel a dokumentumkönyvtárába:
+Végül exportáljuk a jelenetet egy Wavefront OBJ fájlba, bemutatva a **export obj file java** használatát.
+
 ```java
 // ExStart:6
-// Jelenet mentése
+// Save scene
 scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // ExEnd:6
 ```
 
-Gratulálunk! Sikeresen hozott létre nyírt fenékű hengereket az Aspose.3D for Java segítségével.
+## Miért fontos ez a Java 3D modellezésben
 
-## Következtetés
+Egy primitív ferde eltolása lehetővé teszi, hogy organikusabb formákat hozzunk létre külső modellező eszközök használata nélkül. Ez a technika hasznos a következőkben:
 
-Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan lehet kihasználni az Aspose.3D for Java-t a 3D modellezési projektek javítására. A testreszabott, nyírt fenékű hengerek létrehozása egyedi megjelenést kölcsönöz a terveknek, az Aspose.3D pedig leegyszerűsíti a folyamatot.
+- Építészeti vizualizációk, ahol ferde alapokra van szükség.  
+- Játékelemek, amelyeknek egyedi lábnyomra van szükségük, miközben a geometria könnyű marad.  
+- Gyors prototípus készítés, ahol programozottan szeretné módosítani a méreteket.  
 
-## GYIK
+## Gyakori problémák és megoldások
 
-### 1. kérdés: Használhatom az Aspose.3D for Java programot más Java 3D könyvtárakkal?
+| Probléma | Megoldás |
+|----------|----------|
+| **A ferde túl erősnek tűnik** | Állítsa a `Vector2` értékeket; ezek a ferde tényezőt (0‑1 tartomány) képviselik. |
+| **Az OBJ fájl nem nyílik meg a megjelenítőben** | Ellenőrizze, hogy a célkönyvtár létezik-e, és hogy van-e írási jogosultsága. |
+| **Licenc kivétel futás közben** | Alkalmazzon ideiglenes vagy állandó licencet a jelenet létrehozása előtt (`License license = new License(); license.setLicense("Aspose.3D.lic");`). |
 
-1. válasz: Az Aspose.3D for Java független működésre készült. Bár integrálható más könyvtárakkal, elég nagy teljesítményű ahhoz, hogy a legtöbb 3D modellezési feladatot önmagában is elvégezze.
+## Gyakran Ismételt Kérdések
 
-### 2. kérdés: Alkalmas-e az Aspose.3D a 3D modellezésben kezdők számára?
+**K: Használhatom az Aspose.3D for Java-t más Java 3D könyvtárakkal?**  
+V: Az Aspose.3D úgy van tervezve, hogy önállóan működjön. Bár integrálható más könyvtárakkal, már eleve teljes körű API-t biztosít a legtöbb 3‑D feladathoz.
 
-2. válasz: Igen, az Aspose.3D felhasználóbarát API-t biztosít, így kezdők és tapasztalt fejlesztők számára egyaránt alkalmas 3D modellezésben.
+**K: Alkalmas-e az Aspose.3D kezdőknek a 3D modellezésben?**  
+V: Teljesen alkalmas. Az API egyszerű, és ez a **beginner 3d tutorial** a fő koncepciókat mutatja be minimális kóddal.
 
-### 3. kérdés: Hol találok további támogatást az Aspose.3D for Java számára?
+**K: Hol találok további támogatást az Aspose.3D for Java-hoz?**  
+V: Látogassa meg a [Aspose.3D fórumot](https://forum.aspose.com/c/3d/18) a közösségi segítségért és hivatalos válaszokért.
 
- A3: Látogassa meg a[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) közösségi támogatásra és beszélgetésekre.
+**K: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?**  
+V: Ideiglenes licencet szerezhet [itt](https://purchase.aspose.com/temporary-license/).
 
-### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?
+**K: Hol vásárolhatok teljes Aspose.3D for Java licencet?**  
+V: A vásárlási lehetőségek [itt](https://purchase.aspose.com/buy) érhetők el.
 
- V4: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
-
-### 5. kérdés: Megvásárolhatom az Aspose.3D-t Java-hoz?
-
- 5. válasz: Igen, megvásárolhatja az Aspose.3D-t Java-hoz[itt](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Utolsó frissítés:** 2026-01-27  
+**Tesztelve:** Aspose.3D 24.11 for Java  
+**Szerző:** Aspose

@@ -1,31 +1,43 @@
 ---
-title: 在 Aspose.3D for Java 中建立具有剪切底部的圓柱體
-linktitle: 在 Aspose.3D for Java 中建立具有剪切底部的圓柱體
+date: 2026-01-27
+description: 學習 Java 3D 建模，透過使用 Aspose.3D for Java 來建立底部剪切的圓柱體。本初學者 3D 教學示範如何安裝 Aspose
+  3D、套用剪切變換，並匯出 OBJ 檔案（Java）。
+linktitle: Java 3D Modeling – Sheared Bottom Cylinders with Aspose.3D
 second_title: Aspose.3D Java API
-description: 學習使用 Aspose.3D for Java 建立具有剪切底部的客製化圓柱體。透過本逐步指南提升您的 3D 建模技能。
-weight: 12
+title: Java 3D 建模 – 使用 Aspose.3D 的斜切底部圓柱體
 url: /zh-hant/java/cylinders/creating-cylinders-with-sheared-bottom/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.3D for Java 中建立具有剪切底部的圓柱體
+# Java 3D 建模 – 斜切底部圓柱與 Aspose.3D
 
-## 介紹
+## 簡介
 
-歡迎閱讀本逐步指南，了解如何使用 Aspose.3D for Java 建立具有剪切底部的圓柱體。 Aspose.3D 是一個功能強大的 Java 程式庫，可讓您輕鬆處理 3D 檔案。在本教程中，我們將深入建立具有剪切底部的客製化圓柱體，為您提供使用 Aspose.3D 的實務經驗，以增強您的 3D 建模技能。
+歡迎閱讀本 **java 3d modeling** 教學！在本步驟說明中，我們將示範如何使用 Aspose.3D for Java 建立一個底部被斜切的圓柱。無論您是跟隨 **beginner 3d tutorial**，或是想為現有模型加入自訂的斜切變換，都能清楚看到如何設定場景、套用斜切，最後 **export OBJ file java** 以供其他工具使用。
+
+## 快速答覆
+- **使用的函式庫是什麼？** Aspose.3D for Java  
+- **我可以透過 Maven 安裝 Aspose 3D 嗎？** 是 – 將 Aspose.3D 相依性加入 `pom.xml`  
+- **開發是否需要授權？** 測試時使用臨時授權即可；正式環境則需完整授權  
+- **示範使用哪種檔案格式？** Wavefront OBJ（`.obj`）  
+- **範例執行需要多久？** 在一般工作站上不到一秒  
 
 ## 先決條件
 
-在我們開始之前，請確保您具備以下先決條件：
-- 您的系統上安裝了 Java 開發工具包 (JDK)。
-- 下載 Aspose.3D for Java 程式庫並將其新增至您的專案。你可以找到下載鏈接[這裡](https://releases.aspose.com/3d/java/).
+在開始之前，請確保您已具備以下項目：
 
-## 導入包
+- 已在系統上安裝 Java Development Kit（JDK）。  
+- **安裝 Aspose 3D** – 從官方網站[此處](https://releases.aspose.com/3d/java/)下載函式庫。  
+- 具備 IDE 或建置工具（Maven/Gradle）以管理 Aspose.3D 相依性。  
 
-首先，匯入在 Java 應用程式中使用 Aspose.3D 所需的套件：
+## 匯入套件
+
+首先，匯入我們在場景、幾何與檔案處理上需要的類別。
+
 ```java
 import com.aspose.threed.*;
 
@@ -33,82 +45,98 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 第 1 步：建立場景
+## 步驟 1：建立場景
 
-首先建立一個 3D 場景，您將在其中新增和操作圓柱體：
+場景是所有 3‑D 物件的容器。我們將先建立一個空的場景。
+
 ```java
-//起始時間：3
-//創建場景
+// ExStart:3
+// Create a scene
 Scene scene = new Scene();
-//結束：3
+// ExEnd:3
 ```
 
-## 步驟 2：建立圓柱體 1
+## 步驟 2：建立 Cylinder 1 – 如何斜切圓柱
 
-現在，讓我們建立第一個帶有剪切底部的圓柱體：
+現在我們建立第一個圓柱，並對其底部 **套用 shear transformation**。此範例示範如何直接透過 API **how to shear cylinder** 幾何。
+
 ```java
-//起始時間：4
-//創建圓柱體 1
+// ExStart:4
+// Create cylinder 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-//汽缸1客製剪底
-cylinder1.setShearBottom(new Vector2(0, 0.83)); //xy 平面（z 軸）剪 47.5 度
-//將圓柱體 1 加入場景中
+// Customized shear bottom for cylinder 1
+cylinder1.setShearBottom(new Vector2(0, 0.83)); // Shear 47.5deg in the xy plane (z-axis)
+// Add cylinder 1 to the scene
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
-//結束：4
+// ExEnd:4
 ```
 
-## 第 3 步：建立圓柱體 2
+## 步驟 3：建立 Cylinder 2 – 標準圓柱（無斜切）
 
-接下來，讓我們在場景中加入第二個沒有剪切底部的圓柱體：
+為了作比較，我們會加入第二個 **未** 斜切底部的圓柱。
+
 ```java
-//起始時間：5
-//創建圓柱體 2
+// ExStart:5
+// Create cylinder 2
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
-//將沒有 ShearBottom 的圓柱體 2 加入到場景中
+// Add cylinder 2 without a ShearBottom to the scene
 scene.getRootNode().createChildNode(cylinder2);
-//結束：5
+// ExEnd:5
 ```
 
-## 第 4 步：儲存場景
+## 步驟 4：儲存場景 – Export OBJ File Java
 
-將帶有自訂圓柱體的場景儲存到文件目錄中：
+最後，我們將場景匯出為 Wavefront OBJ 檔案，示範 **export obj file java** 的使用方式。
+
 ```java
-//起始時間：6
-//儲存場景
+// ExStart:6
+// Save scene
 scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", FileFormat.WAVEFRONTOBJ);
-//結束：6
+// ExEnd:6
 ```
 
-恭喜！您已使用 Aspose.3D for Java 成功建立了底部被剪切的圓柱體。
+## 為何此技巧對 Java 3D 建模重要
 
-## 結論
+對基元加入斜切可讓您在不使用外部建模工具的情況下，創造更具有機感的形狀。此技巧適用於：
 
-在本教程中，我們探討如何利用 Aspose.3D for Java 來增強您的 3D 建模專案。創建具有剪切底部的客製化圓柱體可為您的設計增添獨特的觸感，而 Aspose.3D 則簡化了流程。
+- 需要斜坡底座的建築視覺化。  
+- 在保持幾何輕量的前提下，需要自訂外形的遊戲資產。  
+- 需要以程式方式微調尺寸的快速原型製作。  
 
-## 常見問題解答
+## 常見問題與解決方案
 
-### Q1：我可以將 Aspose.3D for Java 與其他 Java 3D 函式庫一起使用嗎？
+| 問題 | 解決方案 |
+|------|----------|
+| **斜切過於極端** | 調整 `Vector2` 的數值；它代表斜切係數（0‑1 範圍）。 |
+| **OBJ 檔案無法在檢視器中開啟** | 確認目標目錄是否存在且您具有寫入權限。 |
+| **執行時授權例外** | 在建立場景前套用臨時或永久授權 (`License license = new License(); license.setLicense("Aspose.3D.lic");`)。 |
 
-A1：Aspose.3D for Java 被設計為獨立工作。雖然您可以將其與其他庫集成，但它的功能足夠強大，可以自行處理大多數 3D 建模任務。
+## 常見問答
 
-### Q2：Aspose.3D適合3D建模初學者嗎？
+**Q: 我可以將 Aspose.3D for Java 與其他 Java 3D 函式庫一起使用嗎？**  
+A: Aspose.3D 設計為獨立運作。雖然您可以與其他函式庫整合，但它已提供大多數 3‑D 任務所需的完整 API。
 
-A2：是的，Aspose.3D提供了用戶友好的API，使其適合3D建模的初學者和經驗豐富的開發人員。
+**Q: Aspose.3D 適合 3D 建模初學者嗎？**  
+A: 絕對適合。API 簡潔易懂，且本 **beginner 3d tutorial** 以最少的程式碼示範核心概念。
 
-### 問題 3：在哪裡可以找到 Aspose.3D for Java 的其他支援？
+**Q: 我可以在哪裡取得 Aspose.3D for Java 的其他支援？**  
+A: 前往 [Aspose.3D 論壇](https://forum.aspose.com/c/3d/18) 獲得社群協助與官方回覆。
 
- A3：訪問[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)以獲得社區支持和討論。
+**Q: 我要如何取得 Aspose.3D 的臨時授權？**  
+A: 您可在[此處](https://purchase.aspose.com/temporary-license/)取得臨時授權。
 
-### Q4：如何取得Aspose.3D的臨時授權？
+**Q: 我該從哪裡購買完整的 Aspose.3D for Java 授權？**  
+A: 購買選項請參考[此處](https://purchase.aspose.com/buy)。
 
- A4：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
-
-### Q5: 我可以購買 Aspose.3D for Java 嗎？
-
- A5：是的，您可以購買Aspose.3D for Java[這裡](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最後更新：** 2026-01-27  
+**測試環境：** Aspose.3D 24.11 for Java  
+**作者：** Aspose
