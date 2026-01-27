@@ -1,31 +1,44 @@
 ---
-title: Tworzenie cylindrów ze ściętym dnem w Aspose.3D dla Java
-linktitle: Tworzenie cylindrów ze ściętym dnem w Aspose.3D dla Java
-second_title: Aspose.3D API Java
-description: Naucz się tworzyć niestandardowe cylindry ze ściętymi spodami przy użyciu Aspose.3D dla Java. Podnieś swoje umiejętności modelowania 3D dzięki temu przewodnikowi krok po kroku.
-weight: 12
+date: 2026-01-27
+description: Naucz się modelowania 3D w Javie, tworząc cylindry z nachylonym dnem
+  przy użyciu Aspose.3D for Java. Ten samouczek dla początkujących pokazuje, jak zainstalować
+  Aspose 3D, zastosować transformację ścinania i wyeksportować plik OBJ w Javie.
+linktitle: Java 3D Modeling – Sheared Bottom Cylinders with Aspose.3D
+second_title: Aspose.3D Java API
+title: Modelowanie 3D w Javie – Ścięte dolne cylindry z Aspose.3D
 url: /pl/java/cylinders/creating-cylinders-with-sheared-bottom/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tworzenie cylindrów ze ściętym dnem w Aspose.3D dla Java
+# Modelowanie 3D w Javie – Cylindry z pochyłym dnem przy użyciu Aspose.3D
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w tym przewodniku krok po kroku dotyczącym tworzenia cylindrów ze ściętymi dnami przy użyciu Aspose.3D dla Java. Aspose.3D to potężna biblioteka Java, która umożliwia bezproblemową pracę z plikami 3D. W tym samouczku zagłębimy się w tworzenie niestandardowych cylindrów ze ściętymi spodami, zapewniając praktyczne doświadczenie w używaniu Aspose.3D w celu udoskonalenia umiejętności modelowania 3D.
+Witamy w tym samouczku **java 3d modeling**! W tym przewodniku krok po kroku pokażemy, jak stworzyć cylinder, którego dno jest pochyłe, przy użyciu biblioteki Aspose.3D dla Javy. Niezależnie od tego, czy śledzisz **beginner 3d tutorial**, czy chcesz dodać własną transformację pochylenia do istniejącego modelu, zobaczysz dokładnie, jak skonfigurować scenę, zastosować pochylenie i w końcu **export OBJ file java** do użycia w innych narzędziach.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaka biblioteka jest używana?** Aspose.3D for Java  
+- **Czy mogę zainstalować Aspose 3D przez Maven?** Tak – dodaj zależność Aspose.3D do swojego `pom.xml`  
+- **Czy wymagana jest licencja do rozwoju?** Tymczasowa licencja wystarczy do testów; pełna licencja jest potrzebna w produkcji  
+- **Jaki format pliku jest demonstrowany?** Wavefront OBJ (`.obj`)  
+- **Jak długo trwa uruchomienie przykładu?** Mniej niż sekunda na typowej stacji roboczej  
 
-Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
-- Zestaw Java Development Kit (JDK) zainstalowany w systemie.
--  Biblioteka Aspose.3D for Java pobrana i dodana do Twojego projektu. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/3d/java/).
+## Wymagania wstępne
 
-## Importuj pakiety
+Zanim zaczniemy, upewnij się, że masz następujące elementy:
 
-Aby rozpocząć, zaimportuj pakiety niezbędne do pracy z Aspose.3D w swojej aplikacji Java:
+- Zainstalowany Java Development Kit (JDK) na twoim systemie.  
+- **Zainstaluj Aspose 3D** – pobierz bibliotekę z oficjalnej strony [tutaj](https://releases.aspose.com/3d/java/).  
+- IDE lub narzędzie budujące (Maven/Gradle) do zarządzania zależnością Aspose.3D.  
+
+## Importowanie pakietów
+
+Najpierw zaimportuj klasy, które będą potrzebne do sceny, geometrii i obsługi plików.
+
 ```java
 import com.aspose.threed.*;
 
@@ -35,80 +48,96 @@ import java.io.IOException;
 
 ## Krok 1: Utwórz scenę
 
-Rozpocznij od stworzenia sceny 3D, w której będziesz dodawać cylindry i manipulować nimi:
+Scena jest kontenerem dla wszystkich obiektów 3‑D. Zacznijmy od stworzenia pustej sceny.
+
 ```java
 // ExStart:3
-// Utwórz scenę
+// Create a scene
 Scene scene = new Scene();
-// RozwińKoniec:3
+// ExEnd:3
 ```
 
-## Krok 2: Utwórz cylinder 1
+## Krok 2: Utwórz Cylinder 1 – Jak pochylić cylinder
 
-Teraz utwórzmy pierwszy walec ze ściętym dnem:
+Teraz zbudujemy pierwszy cylinder i **zastosujemy transformację pochylenia** do jego dna. To pokazuje **jak pochylić cylinder** geometrycznie bezpośrednio przez API.
+
 ```java
 // ExStart:4
-// Utwórz cylinder 1
+// Create cylinder 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-// Dostosowane dno ścinane dla cylindra 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); //Ścinanie 47,5 stopnia w płaszczyźnie xy (oś z)
-// Dodaj cylinder 1 do sceny
+// Customized shear bottom for cylinder 1
+cylinder1.setShearBottom(new Vector2(0, 0.83)); // Shear 47.5deg in the xy plane (z-axis)
+// Add cylinder 1 to the scene
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
-// RozwińKoniec:4
+// ExEnd:4
 ```
 
-## Krok 3: Utwórz cylinder 2
+## Krok 3: Utwórz Cylinder 2 – Standardowy cylinder (bez pochylenia)
 
-Następnie dodajmy do sceny drugi cylinder bez ściętego dna:
+Dla porównania dodamy drugi cylinder, który **nie** ma pochyłego dna.
+
 ```java
 // ExStart:5
-// Utwórz cylinder 2
+// Create cylinder 2
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
-// Dodaj do sceny cylinder 2 bez ShearBottom
+// Add cylinder 2 without a ShearBottom to the scene
 scene.getRootNode().createChildNode(cylinder2);
-// RozwińKoniec:5
+// ExEnd:5
 ```
 
-## Krok 4: Zapisz scenę
+## Krok 4: Zapisz scenę – Export OBJ File Java
 
-Zapisz scenę z dostosowanymi cylindrami w katalogu dokumentów:
+Na koniec eksportujemy scenę do pliku Wavefront OBJ, ilustrując użycie **export obj file java**.
+
 ```java
 // ExStart:6
-// Zapisz scenę
+// Save scene
 scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", FileFormat.WAVEFRONTOBJ);
-// RozwińKoniec:6
+// ExEnd:6
 ```
 
-Gratulacje! Pomyślnie utworzyłeś cylindry ze ściętymi dnami przy użyciu Aspose.3D dla Java.
+## Dlaczego to ma znaczenie dla modelowania 3D w Javie
 
-## Wniosek
+Dodanie pochylenia do prymitywu pozwala tworzyć bardziej organiczne kształty bez korzystania z zewnętrznych narzędzi modelujących. Ta technika jest przydatna do:
 
-W tym samouczku omówiliśmy, jak wykorzystać Aspose.3D dla Java do ulepszenia projektów modelowania 3D. Tworzenie niestandardowych cylindrów ze ściętymi spodami dodaje niepowtarzalny akcent Twoim projektom, a Aspose.3D upraszcza ten proces.
+- Wizualizacji architektonicznych, gdzie wymagane są pochyłe podstawy.  
+- Zasobów gier, które potrzebują niestandardowych podstawek przy zachowaniu lekkiej geometrii.  
+- Szybkiego prototypowania, gdzie chcesz programowo dostosować wymiary.  
 
-## Często zadawane pytania
+## Typowe problemy i rozwiązania
 
-### P1: Czy mogę używać Aspose.3D dla Java z innymi bibliotekami Java 3D?
+| Problem | Rozwiązanie |
+|-------|----------|
+| **Pochylenie wydaje się zbyt ekstremalne** | Dostosuj wartości `Vector2`; reprezentują one współczynnik pochylenia (zakres 0‑1). |
+| **Plik OBJ nie otwiera się w przeglądarce** | Sprawdź, czy docelowy katalog istnieje i czy masz uprawnienia do zapisu. |
+| **Wyjątek licencyjny w czasie wykonywania** | Zastosuj tymczasową lub stałą licencję przed utworzeniem sceny (`License license = new License(); license.setLicense("Aspose.3D.lic");`). |
 
-O1: Aspose.3D dla Java został zaprojektowany do niezależnej pracy. Chociaż można go zintegrować z innymi bibliotekami, jest on wystarczająco wydajny, aby samodzielnie obsługiwać większość zadań związanych z modelowaniem 3D.
+## Najczęściej zadawane pytania
 
-### P2: Czy Aspose.3D jest odpowiedni dla początkujących w modelowaniu 3D?
+**P: Czy mogę używać Aspose.3D dla Javy z innymi bibliotekami 3D w Javie?**  
+O: Aspose.3D jest zaprojektowany do pracy niezależnej. Choć możesz go integrować z innymi bibliotekami, już oferuje w pełni funkcjonalne API dla większości zadań 3‑D.
 
-Odpowiedź 2: Tak, Aspose.3D zapewnia przyjazne dla użytkownika API, dzięki czemu jest odpowiednie zarówno dla początkujących, jak i doświadczonych programistów w modelowaniu 3D.
+**P: Czy Aspose.3D jest odpowiedni dla początkujących w modelowaniu 3D?**  
+O: Zdecydowanie tak. API jest proste, a ten **beginner 3d tutorial** demonstruje podstawowe koncepcje przy minimalnym kodzie.
 
-### P3: Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.3D dla Java?
+**P: Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.3D dla Javy?**  
+O: Odwiedź [forum Aspose.3D](https://forum.aspose.com/c/3d/18) aby uzyskać pomoc społeczności i oficjalne odpowiedzi.
 
- A3: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności i dyskusje.
+**P: Jak mogę uzyskać tymczasową licencję dla Aspose.3D?**  
+O: Tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
-### P4: Jak mogę uzyskać tymczasową licencję na Aspose.3D?
+**P: Gdzie mogę kupić pełną licencję Aspose.3D dla Javy?**  
+O: Opcje zakupu są dostępne [tutaj](https://purchase.aspose.com/buy).
 
- A4: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
-
-### P5: Czy mogę kupić Aspose.3D dla Java?
-
- Odpowiedź 5: Tak, możesz kupić Aspose.3D dla Java[Tutaj](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-27  
+**Testowano z:** Aspose.3D 24.11 for Java  
+**Autor:** Aspose

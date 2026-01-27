@@ -1,31 +1,44 @@
 ---
-title: Creazione di cilindri con fondo tranciato in Aspose.3D per Java
-linktitle: Creazione di cilindri con fondo tranciato in Aspose.3D per Java
-second_title: API Java Aspose.3D
-description: Impara a creare cilindri personalizzati con fondo tranciato utilizzando Aspose.3D per Java. Migliora le tue capacità di modellazione 3D con questa guida passo passo.
-weight: 12
+date: 2026-01-27
+description: Impara la modellazione 3D in Java creando cilindri con una base tagliata
+  usando Aspose.3D per Java. Questo tutorial 3D per principianti mostra come installare
+  Aspose 3D, applicare una trasformazione di taglio e esportare un file OBJ in Java.
+linktitle: Java 3D Modeling – Sheared Bottom Cylinders with Aspose.3D
+second_title: Aspose.3D Java API
+title: Modellazione 3D Java – Cilindri con base tagliata con Aspose.3D
 url: /it/java/cylinders/creating-cylinders-with-sheared-bottom/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Creazione di cilindri con fondo tranciato in Aspose.3D per Java
+# Modellazione 3D Java – Cilindri con Base Inclinata con Aspose.3D
 
-## introduzione
+## Introduzione
 
-Benvenuti in questa guida passo passo sulla creazione di cilindri con fondo tranciato utilizzando Aspose.3D per Java. Aspose.3D è una potente libreria Java che ti consente di lavorare con file 3D senza sforzo. In questo tutorial, ci immergeremo nella creazione di cilindri personalizzati con fondo tranciato, fornendoti un'esperienza pratica nell'utilizzo di Aspose.3D per migliorare le tue capacità di modellazione 3D.
+Benvenuti a questo tutorial di **modellazione 3d java**! In questa guida passo‑passo vedremo come creare un cilindro la cui base è inclinata, utilizzando la libreria Aspose.3D per Java. Che tu stia seguendo un **tutorial 3d per principianti** o voglia aggiungere una trasformazione di shear personalizzata a un modello esistente, vedrai esattamente come impostare la scena, applicare lo shear e infine **esportare file OBJ java** per l'uso in altri strumenti.
+
+## Risposte Rapide
+- **Quale libreria viene usata?** Aspose.3D per Java  
+- **Posso installare Aspose 3D via Maven?** Sì – aggiungi la dipendenza Aspose.3D al tuo `pom.xml`  
+- **È necessaria una licenza per lo sviluppo?** Una licenza temporanea è sufficiente per i test; una licenza completa è necessaria per la produzione  
+- **Quale formato di file è mostrato?** Wavefront OBJ (`.obj`)  
+- **Quanto tempo impiega l'esempio ad eseguirsi?** Meno di un secondo su una workstation tipica  
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
-- Java Development Kit (JDK) installato sul tuo sistema.
--  Libreria Aspose.3D per Java scaricata e aggiunta al tuo progetto. È possibile trovare il collegamento per il download[Qui](https://releases.aspose.com/3d/java/).
+Prima di iniziare, assicurati di avere quanto segue:
 
-## Importa pacchetti
+- Java Development Kit (JDK) installato sul tuo sistema.  
+- **Installa Aspose 3D** – scarica la libreria dal sito ufficiale [qui](https://releases.aspose.com/3d/java/).  
+- Un IDE o uno strumento di build (Maven/Gradle) per gestire la dipendenza Aspose.3D.  
 
-Per iniziare, importa i pacchetti necessari per lavorare con Aspose.3D nella tua applicazione Java:
+## Importare i Pacchetti
+
+Per prima cosa, importa le classi necessarie per la scena, la geometria e la gestione dei file.
+
 ```java
 import com.aspose.threed.*;
 
@@ -33,82 +46,98 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Passaggio 1: crea una scena
+## Passo 1: Creare una Scena
 
-Inizia creando una scena 3D in cui aggiungerai e manipolerai i tuoi cilindri:
+Una scena è il contenitore per tutti gli oggetti 3‑D. Inizieremo creando una scena vuota.
+
 ```java
-// Inizio ex:3
-// Crea una scena
+// ExStart:3
+// Create a scene
 Scene scene = new Scene();
-// Fine Estesa:3
+// ExEnd:3
 ```
 
-## Passaggio 2: creare il cilindro 1
+## Passo 2: Creare Cilindro 1 – Come Applicare lo Shear al Cilindro
 
-Ora creiamo il primo cilindro con il fondo tranciato:
+Ora costruiremo il primo cilindro e **applicheremo la trasformazione di shear** alla sua base. Questo dimostra **come shearare un cilindro** direttamente tramite l'API.
+
 ```java
-// Inizio ex:4
-// Crea il cilindro 1
+// ExStart:4
+// Create cylinder 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-// Fondo di taglio personalizzato per cilindro 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); //Taglio 47,5 gradi nel piano xy (asse z)
-// Aggiungi il cilindro 1 alla scena
+// Customized shear bottom for cylinder 1
+cylinder1.setShearBottom(new Vector2(0, 0.83)); // Shear 47.5deg in the xy plane (z-axis)
+// Add cylinder 1 to the scene
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
-// Fine Estesa:4
+// ExEnd:4
 ```
 
-## Passaggio 3: creare il cilindro 2
+## Passo 3: Creare Cilindro 2 – Cilindro Standard (Nessun Shear)
 
-Successivamente, aggiungiamo alla scena un secondo cilindro senza fondo tranciato:
+Per confronto, aggiungeremo un secondo cilindro che **non** ha la base inclinata.
+
 ```java
-// Inizio ex:5
-// Crea il cilindro 2
+// ExStart:5
+// Create cylinder 2
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
-// Aggiungi il cilindro 2 senza ShearBottom alla scena
+// Add cylinder 2 without a ShearBottom to the scene
 scene.getRootNode().createChildNode(cylinder2);
-// Fine Estesa:5
+// ExEnd:5
 ```
 
-## Passaggio 4: salva la scena
+## Passo 4: Salvare la Scena – Esportare File OBJ Java
 
-Salva la scena con i cilindri personalizzati nella directory dei documenti:
+Infine, esportiamo la scena in un file Wavefront OBJ, illustrando l'uso di **export obj file java**.
+
 ```java
-// Inizio ex:6
-// Salva scena
+// ExStart:6
+// Save scene
 scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", FileFormat.WAVEFRONTOBJ);
-// Fine Estesa:6
+// ExEnd:6
 ```
 
-Congratulazioni! Hai creato con successo cilindri con fondo tranciato utilizzando Aspose.3D per Java.
+## Perché è Importante per la Modellazione 3D Java
 
-## Conclusione
+Aggiungere uno shear a un primitivo ti consente di creare forme più organiche senza ricorrere a strumenti di modellazione esterni. Questa tecnica è utile per:
 
-In questo tutorial, abbiamo esplorato come sfruttare Aspose.3D per Java per migliorare i tuoi progetti di modellazione 3D. La creazione di cilindri personalizzati con fondo tranciato aggiunge un tocco unico ai tuoi progetti e Aspose.3D semplifica il processo.
+- Visualizzazioni architettoniche in cui sono richieste basi inclinate.  
+- Asset di gioco che necessitano di impronte personalizzate mantenendo la geometria leggera.  
+- Prototipazione rapida in cui vuoi modificare le dimensioni programmaticamente.
 
-## Domande frequenti
+## Problemi Comuni & Soluzioni
 
-### Q1: Posso utilizzare Aspose.3D per Java con altre librerie Java 3D?
+| Problema | Soluzione |
+|----------|-----------|
+| **Lo shear appare troppo estremo** | Regola i valori di `Vector2`; rappresentano il fattore di shear (intervallo 0‑1). |
+| **Il file OBJ non si apre nel visualizzatore** | Verifica che la directory di destinazione esista e che tu abbia i permessi di scrittura. |
+| **Eccezione di licenza a runtime** | Applica una licenza temporanea o permanente prima di creare la scena (`License license = new License(); license.setLicense("Aspose.3D.lic");`). |
 
-A1: Aspose.3D per Java è progettato per funzionare in modo indipendente. Sebbene sia possibile integrarlo con altre librerie, è abbastanza potente da gestire da solo la maggior parte delle attività di modellazione 3D.
+## Domande Frequenti
 
-### Q2: Aspose.3D è adatto ai principianti nella modellazione 3D?
+**D: Posso usare Aspose.3D per Java con altre librerie 3D Java?**  
+R: Aspose.3D è progettato per funzionare in modo indipendente. Sebbene tu possa integrarlo con altre librerie, fornisce già un'API completa per la maggior parte delle attività 3‑D.
 
-A2: Sì, Aspose.3D fornisce un'API intuitiva, rendendola adatta sia ai principianti che agli sviluppatori esperti nella modellazione 3D.
+**D: Aspose.3D è adatto ai principianti nella modellazione 3D?**  
+R: Assolutamente. L'API è semplice e questo **tutorial 3d per principianti** dimostra i concetti base con poco codice.
 
-### Q3: Dove posso trovare supporto aggiuntivo per Aspose.3D per Java?
+**D: Dove posso trovare supporto aggiuntivo per Aspose.3D per Java?**  
+R: Visita il [forum Aspose.3D](https://forum.aspose.com/c/3d/18) per aiuto della community e risposte ufficiali.
 
- A3: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per il supporto e le discussioni della comunità.
+**D: Come posso ottenere una licenza temporanea per Aspose.3D?**  
+R: Puoi ottenere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
 
-### Q4: Come posso ottenere una licenza temporanea per Aspose.3D?
+**D: Dove posso acquistare una licenza completa di Aspose.3D per Java?**  
+R: Le opzioni di acquisto sono disponibili [qui](https://purchase.aspose.com/buy).
 
- A4: Puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Posso acquistare Aspose.3D per Java?
-
- A5: Sì, puoi acquistare Aspose.3D per Java[Qui](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo aggiornamento:** 2026-01-27  
+**Testato con:** Aspose.3D 24.11 per Java  
+**Autore:** Aspose

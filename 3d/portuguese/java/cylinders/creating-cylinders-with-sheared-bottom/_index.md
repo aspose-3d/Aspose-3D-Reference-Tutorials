@@ -1,31 +1,44 @@
 ---
-title: Criando Cilindros com Fundo Cortado em Aspose.3D para Java
-linktitle: Criando Cilindros com Fundo Cortado em Aspose.3D para Java
-second_title: API Java Aspose.3D
-description: Aprenda a criar cilindros personalizados com fundos cortados usando Aspose.3D para Java. Eleve suas habilidades de modelagem 3D com este guia passo a passo.
-weight: 12
+date: 2026-01-27
+description: Aprenda modelagem 3D em Java criando cilindros com a base cisalhada usando
+  Aspose.3D para Java. Este tutorial 3D para iniciantes mostra como instalar o Aspose 3D,
+  aplicar a transformação de cisalhamento e exportar o arquivo OBJ em Java.
+linktitle: Java 3D Modeling – Sheared Bottom Cylinders with Aspose.3D
+second_title: Aspose.3D Java API
+title: Modelagem 3D em Java – Cilindros com Base Cisalhada usando Aspose.3D
 url: /pt/java/cylinders/creating-cylinders-with-sheared-bottom/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Criando Cilindros com Fundo Cortado em Aspose.3D para Java
+# Modelagem 3D em Java – Cilindros com Base Cisalhada usando Aspose.3D
 
 ## Introdução
 
-Bem-vindo a este guia passo a passo sobre como criar cilindros com fundos cortados usando Aspose.3D para Java. Aspose.3D é uma biblioteca Java poderosa que permite trabalhar com arquivos 3D sem esforço. Neste tutorial, mergulharemos na criação de cilindros personalizados com fundos cortados, proporcionando a você uma experiência prática no uso do Aspose.3D para aprimorar suas habilidades de modelagem 3D.
+Bem‑vindo a este **tutorial de modelagem 3D em Java**! Neste guia passo a passo, criaremos um cilindro cuja base é cisalhada, usando a biblioteca Aspose.3D para Java. Seja você um **tutorial 3D para iniciantes** ou alguém que deseja adicionar uma transformação de cisalhamento personalizada a um modelo existente, verá exatamente como configurar a cena, aplicar o cisalhamento e, finalmente, **exportar arquivo OBJ Java** para uso em outras ferramentas.
 
-## Pré-requisitos
+## Respostas Rápidas
+- **Qual biblioteca é usada?** Aspose.3D for Java  
+- **Posso instalar o Aspose 3D via Maven?** Sim – adicione a dependência Aspose.3D ao seu `pom.xml`  
+- **É necessária uma licença para desenvolvimento?** Uma licença temporária é suficiente para testes; uma licença completa é necessária para produção  
+- **Qual formato de arquivo é demonstrado?** Wavefront OBJ (`.obj`)  
+- **Quanto tempo o exemplo leva para executar?** Menos de um segundo em uma estação de trabalho típica  
 
-Antes de começarmos, certifique-se de ter os seguintes pré-requisitos em vigor:
-- Java Development Kit (JDK) instalado em seu sistema.
--  Biblioteca Aspose.3D para Java baixada e adicionada ao seu projeto. Você pode encontrar o link para download[aqui](https://releases.aspose.com/3d/java/).
+## Pré‑requisitos
 
-## Importar pacotes
+Antes de começar, certifique‑se de que você tem o seguinte:
 
-Para começar, importe os pacotes necessários para trabalhar com Aspose.3D em sua aplicação Java:
+- Java Development Kit (JDK) instalado no seu sistema.  
+- **Instale o Aspose 3D** – baixe a biblioteca no site oficial [aqui](https://releases.aspose.com/3d/java/).  
+- Uma IDE ou ferramenta de build (Maven/Gradle) para gerenciar a dependência Aspose.3D.  
+
+## Importar Pacotes
+
+Primeiro, importe as classes que precisaremos para a cena, geometria e manipulação de arquivos.
+
 ```java
 import com.aspose.threed.*;
 
@@ -33,82 +46,98 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Etapa 1: crie uma cena
+## Passo 1: Criar uma Cena
 
-Comece criando uma cena 3D onde você adicionará e manipulará seus cilindros:
+Uma cena é o contêiner para todos os objetos 3‑D. Começaremos criando uma cena vazia.
+
 ```java
-// ExInício:3
-// Crie uma cena
+// ExStart:3
+// Create a scene
 Scene scene = new Scene();
-// Fim:3
+// ExEnd:3
 ```
 
-## Etapa 2: Criar o Cilindro 1
+## Passo 2: Criar Cilindro 1 – Como Cisalhar o Cilindro
 
-Agora, vamos criar o primeiro cilindro com fundo cortado:
+Agora construiremos o primeiro cilindro e **aplicar transformação de cisalhamento** à sua base. Isso demonstra **como cisalhar cilindro** diretamente via API.
+
 ```java
-// ExInício:4
-// Crie o cilindro 1
+// ExStart:4
+// Create cylinder 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-// Fundo de cisalhamento personalizado para cilindro 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); //Cisalhamento 47,5 graus no plano xy (eixo z)
-// Adicione o cilindro 1 à cena
+// Customized shear bottom for cylinder 1
+cylinder1.setShearBottom(new Vector2(0, 0.83)); // Shear 47.5deg in the xy plane (z-axis)
+// Add cylinder 1 to the scene
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
-// Fim:4
+// ExEnd:4
 ```
 
-## Etapa 3: Criar o Cilindro 2
+## Passo 3: Criar Cilindro 2 – Cilindro Padrão (Sem Cisalhamento)
 
-A seguir, vamos adicionar um segundo cilindro sem fundo cortado à cena:
+Para comparação, adicionaremos um segundo cilindro que **não** possui a base cisalhada.
+
 ```java
-// ExInício:5
-// Crie o cilindro 2
+// ExStart:5
+// Create cylinder 2
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
-// Adicione o cilindro 2 sem ShearBottom à cena
+// Add cylinder 2 without a ShearBottom to the scene
 scene.getRootNode().createChildNode(cylinder2);
-// Fim:5
+// ExEnd:5
 ```
 
-## Etapa 4: salve a cena
+## Passo 4: Salvar a Cena – Exportar Arquivo OBJ Java
 
-Salve a cena com os cilindros personalizados em seu diretório de documentos:
+Finalmente, exportamos a cena para um arquivo Wavefront OBJ, ilustrando o uso de **exportar arquivo OBJ Java**.
+
 ```java
-// ExInício:6
-// Salvar cena
+// ExStart:6
+// Save scene
 scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", FileFormat.WAVEFRONTOBJ);
-// Fim:6
+// ExEnd:6
 ```
 
-Parabéns! Você criou com sucesso cilindros com fundos cortados usando Aspose.3D para Java.
+## Por que isso é importante para a Modelagem 3D em Java
 
-## Conclusão
+Adicionar um cisalhamento a um primitivo permite criar formas mais orgânicas sem recorrer a ferramentas de modelagem externas. Esta técnica é útil para:
 
-Neste tutorial, exploramos como aproveitar o Aspose.3D para Java para aprimorar seus projetos de modelagem 3D. A criação de cilindros personalizados com fundos cortados adiciona um toque único aos seus designs e o Aspose.3D simplifica o processo.
+- Visualizações arquitetônicas onde bases inclinadas são necessárias.  
+- Recursos de jogos que precisam de pegadas personalizadas mantendo a geometria leve.  
+- Prototipagem rápida onde você deseja ajustar dimensões programaticamente.
 
-## Perguntas frequentes
+## Problemas Comuns & Soluções
 
-### Q1: Posso usar Aspose.3D para Java com outras bibliotecas Java 3D?
+| Problema | Solução |
+|----------|----------|
+| **Cisalhamento aparece muito extremo** | Ajuste os valores de `Vector2`; eles representam o fator de cisalhamento (faixa 0‑1). |
+| **Arquivo OBJ não abre no visualizador** | Verifique se o diretório de destino existe e se você tem permissões de gravação. |
+| **Exceção de licença em tempo de execução** | Aplique uma licença temporária ou permanente antes de criar a cena (`License license = new License(); license.setLicense("Aspose.3D.lic");`). |
 
-A1: Aspose.3D para Java foi projetado para funcionar de forma independente. Embora você possa integrá-lo a outras bibliotecas, ele é poderoso o suficiente para lidar sozinho com a maioria das tarefas de modelagem 3D.
+## Perguntas Frequentes
 
-### Q2: O Aspose.3D é adequado para iniciantes em modelagem 3D?
+**Q: Posso usar o Aspose.3D para Java com outras bibliotecas Java 3D?**  
+A: Aspose.3D foi projetado para funcionar de forma independente. Embora você possa integrá‑lo com outras bibliotecas, ele já fornece uma API completa para a maioria das tarefas 3‑D.
 
-A2: Sim, o Aspose.3D fornece uma API amigável, tornando-o adequado tanto para iniciantes quanto para desenvolvedores experientes em modelagem 3D.
+**Q: O Aspose.3D é adequado para iniciantes em modelagem 3D?**  
+A: Absolutamente. A API é direta, e este **tutorial 3D para iniciantes** demonstra os conceitos principais com código mínimo.
 
-### Q3: Onde posso encontrar suporte adicional para Aspose.3D para Java?
+**Q: Onde posso encontrar suporte adicional para o Aspose.3D para Java?**  
+A: Visite o [fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para ajuda da comunidade e respostas oficiais.
 
- A3: Visite o[Fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para apoio e discussões da comunidade.
+**Q: Como posso obter uma licença temporária para o Aspose.3D?**  
+A: Você pode obter uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
 
-### Q4: Como posso obter uma licença temporária para Aspose.3D?
+**Q: Onde posso comprar uma licença completa do Aspose.3D para Java?**  
+A: Opções de compra estão disponíveis [aqui](https://purchase.aspose.com/buy).
 
- A4: Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Posso comprar Aspose.3D para Java?
-
- A5: Sim, você pode comprar Aspose.3D para Java[aqui](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose

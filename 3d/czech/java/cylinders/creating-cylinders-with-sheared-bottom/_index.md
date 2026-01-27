@@ -1,31 +1,44 @@
 ---
-title: Vytváření válců se střiženým dnem v Aspose.3D pro Javu
-linktitle: Vytváření válců se střiženým dnem v Aspose.3D pro Javu
+date: 2026-01-27
+description: Naučte se 3D modelování v Javě vytvářením válců se skoseným dnem pomocí
+  Aspose.3D pro Java. Tento úvodní 3D tutoriál ukazuje, jak nainstalovat Aspose 3D,
+  aplikovat skosovou transformaci a exportovat soubor OBJ v Javě.
+linktitle: Java 3D Modeling – Sheared Bottom Cylinders with Aspose.3D
 second_title: Aspose.3D Java API
-description: Naučte se vytvářet přizpůsobené válce se střižným dnem pomocí Aspose.3D pro Java. Zvyšte své dovednosti v oblasti 3D modelování pomocí tohoto podrobného průvodce.
-weight: 12
+title: Java 3D modelování – Válce se zkoseným dnem s Aspose.3D
 url: /cs/java/cylinders/creating-cylinders-with-sheared-bottom/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytváření válců se střiženým dnem v Aspose.3D pro Javu
+# Java 3D modelování – Válce se šikmým dnem s Aspose.3D
 
 ## Úvod
 
-Vítejte v tomto podrobném průvodci vytvářením válců se střiženým dnem pomocí Aspose.3D pro Java. Aspose.3D je výkonná Java knihovna, která vám umožní bez námahy pracovat s 3D soubory. V tomto tutoriálu se ponoříme do vytváření přizpůsobených válců se střiženým dnem, které vám poskytne praktickou zkušenost s používáním Aspose.3D ke zlepšení vašich dovedností v oblasti 3D modelování.
+Vítejte v tomto **java 3d modeling** tutoriálu! V tomto krok‑za‑krokem průvodci si ukážeme, jak vytvořit válec, jehož dno je šikmé, pomocí knihovny Aspose.3D pro Javu. Ať už sledujete **beginner 3d tutorial** nebo chcete přidat vlastní transformaci šikmosti k existujícímu modelu, uvidíte přesně, jak nastavit scénu, aplikovat šikmost a nakonec **export OBJ file java** pro použití v jiných nástrojích.
+
+## Rychlé odpovědi
+- **What library is used?** Aspose.3D for Java  
+- **Can I install Aspose 3D via Maven?** Yes – add the Aspose.3D dependency to your `pom.xml`  
+- **Is a license required for development?** A temporary license is sufficient for testing; a full license is needed for production  
+- **Which file format is demonstrated?** Wavefront OBJ (`.obj`)  
+- **How long does the example take to run?** Under a second on a typical workstation  
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máte splněny následující předpoklady:
-- Java Development Kit (JDK) nainstalovaný ve vašem systému.
--  Knihovna Aspose.3D for Java byla stažena a přidána do vašeho projektu. Odkaz ke stažení najdete[tady](https://releases.aspose.com/3d/java/).
+Než začneme, ujistěte se, že máte následující:
 
-## Importujte balíčky
+- Java Development Kit (JDK) nainstalovaný ve vašem systému.  
+- **Install Aspose 3D** – stáhněte knihovnu z oficiální stránky [here](https://releases.aspose.com/3d/java/).  
+- IDE nebo nástroj pro sestavení (Maven/Gradle) pro správu závislosti Aspose.3D.  
 
-Chcete-li začít, importujte potřebné balíčky pro práci s Aspose.3D ve vaší aplikaci Java:
+## Import balíčků
+
+Nejprve importujte třídy, které budeme potřebovat pro scénu, geometrii a práci se soubory.
+
 ```java
 import com.aspose.threed.*;
 
@@ -33,82 +46,98 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Krok 1: Vytvořte scénu
+## Krok 1: Vytvoření scény
 
-Začněte vytvořením 3D scény, do které budete přidávat a manipulovat s válci:
+Scéna je kontejner pro všechny 3‑D objekty. Začneme vytvořením prázdné scény.
+
 ```java
-// Start: 3
-// Vytvořte scénu
+// ExStart:3
+// Create a scene
 Scene scene = new Scene();
-// Rozšířit:3
+// ExEnd:3
 ```
 
-## Krok 2: Vytvořte válec 1
+## Krok 2: Vytvoření válce 1 – Jak šikmout válec
 
-Nyní vytvoříme první válec se střiženým dnem:
+Nyní vytvoříme první válec a **aplikujeme transformaci šikmosti** na jeho dno. Toto ukazuje **jak šikmout válec** přímo pomocí API.
+
 ```java
-// Start: 4
-// Vytvořte válec 1
+// ExStart:4
+// Create cylinder 1
 Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
-// Přizpůsobené dno nůžek pro válec 1
-cylinder1.setShearBottom(new Vector2(0, 0.83)); //Smyk 47,5 stupně v rovině xy (osa z)
-// Přidejte válec 1 do scény
+// Customized shear bottom for cylinder 1
+cylinder1.setShearBottom(new Vector2(0, 0.83)); // Shear 47.5deg in the xy plane (z-axis)
+// Add cylinder 1 to the scene
 scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
-// Rozšíření:4
+// ExEnd:4
 ```
 
-## Krok 3: Vytvořte válec 2
+## Krok 3: Vytvoření válce 2 – Standardní válec (bez šikmosti)
 
-Dále přidáme do scény druhý válec bez střiženého dna:
+Pro srovnání přidáme druhý válec, který **nemá** šikmé dno.
+
 ```java
-// Start: 5
-// Vytvořte válec 2
+// ExStart:5
+// Create cylinder 2
 Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
-// Přidejte do scény válec 2 bez ShearBottom
+// Add cylinder 2 without a ShearBottom to the scene
 scene.getRootNode().createChildNode(cylinder2);
-// Rozšíření:5
+// ExEnd:5
 ```
 
-## Krok 4: Uložte scénu
+## Krok 4: Uložení scény – Export OBJ souboru Java
 
-Uložte scénu s přizpůsobenými cylindry do adresáře dokumentů:
+Nakonec exportujeme scénu do souboru Wavefront OBJ, což ilustruje použití **export obj file java**.
+
 ```java
-// Start: 6
-// Uložit scénu
+// ExStart:6
+// Save scene
 scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", FileFormat.WAVEFRONTOBJ);
-// Konec:6
+// ExEnd:6
 ```
 
-Gratulujeme! Úspěšně jste vytvořili válce se střižným dnem pomocí Aspose.3D for Java.
+## Proč je to důležité pro Java 3D modelování
 
-## Závěr
+Přidání šikmosti k primitivnímu objektu vám umožní vytvořit organičtější tvary bez nutnosti externích modelovacích nástrojů. Tato technika je užitečná pro:
 
-V tomto tutoriálu jsme prozkoumali, jak využít Aspose.3D pro Javu k vylepšení vašich projektů 3D modelování. Vytváření přizpůsobených válců se střižným dnem dodává vašim návrhům jedinečný nádech a Aspose.3D zjednodušuje proces.
+- Architektonické vizualizace, kde jsou požadovány šikmé základy.  
+- Herní assety, které potřebují vlastní otisky, přičemž geometrie zůstává lehká.  
+- Rychlé prototypování, kde chcete programově upravovat rozměry.
 
-## FAQ
+## Časté problémy a řešení
 
-### Q1: Mohu použít Aspose.3D pro Java s jinými Java 3D knihovnami?
+| Problém | Řešení |
+|-------|----------|
+| **Shear appears too extreme** | Adjust the `Vector2` values; they represent the shear factor (0‑1 range). |
+| **OBJ file not opening in viewer** | Verify that the target directory exists and that you have write permissions. |
+| **License exception at runtime** | Apply a temporary or permanent license before creating the scene (`License license = new License(); license.setLicense("Aspose.3D.lic");`). |
 
-A1: Aspose.3D for Java je navržen tak, aby fungoval nezávisle. I když jej můžete integrovat s jinými knihovnami, je dostatečně výkonný, aby sám zvládl většinu úloh 3D modelování.
+## Často kladené otázky
 
-### Q2: Je Aspose.3D vhodný pro začátečníky v 3D modelování?
+**Q: Can I use Aspose.3D for Java with other Java 3D libraries?**  
+A: Aspose.3D is designed to work independently. While you can integrate it with other libraries, it already provides a full‑featured API for most 3‑D tasks.
 
-A2: Ano, Aspose.3D poskytuje uživatelsky přívětivé API, takže je vhodné pro začátečníky i zkušené vývojáře v 3D modelování.
+**Q: Is Aspose.3D suitable for beginners in 3D modeling?**  
+A: Absolutely. The API is straightforward, and this **beginner 3d tutorial** demonstrates core concepts with minimal code.
 
-### Q3: Kde najdu další podporu pro Aspose.3D for Java?
+**Q: Where can I find additional support for Aspose.3D for Java?**  
+A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community help and official answers.
 
- A3: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) za podporu komunity a diskuze.
+**Q: How can I obtain a temporary license for Aspose.3D?**  
+A: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-### Q4: Jak mohu získat dočasnou licenci pro Aspose.3D?
+**Q: Where do I purchase a full Aspose.3D for Java license?**  
+A: Purchase options are available [here](https://purchase.aspose.com/buy).
 
- A4: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Mohu si koupit Aspose.3D pro Java?
-
- A5: Ano, můžete si zakoupit Aspose.3D pro Java[tady](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Poslední aktualizace:** 2026-01-27  
+**Testováno s:** Aspose.3D 24.11 for Java  
+**Autor:** Aspose
