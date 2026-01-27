@@ -1,33 +1,52 @@
 ---
-title: Java에서 Google Draco를 사용하여 3D 메시 압축
-linktitle: Java에서 Google Draco를 사용하여 3D 메시 압축
-second_title: Aspose.3D 자바 API
-description: Aspose.3D로 3D 애플리케이션을 최적화하세요. Java에서 Google Draco를 사용하여 메시를 압축하는 방법을 알아보세요. 효율적인 3D 개발을 위한 단계별 가이드를 따르십시오.
-weight: 10
+date: 2026-01-27
+description: Java에서 구형 메쉬를 만드는 방법과 Aspose.3D를 사용해 Google Draco로 3D 메쉬 파일을 압축하는 방법을
+  배웁니다. 효율적인 3D 개발을 위한 단계별 가이드.
+linktitle: How to Create Sphere Mesh in Java – Compress 3D Meshes with Google Draco
+second_title: Aspose.3D Java API
+title: Java에서 구형 메쉬 만들기 – Google Draco로 3D 메쉬 압축
 url: /ko/java/3d-mesh-data/compress-meshes-google-draco/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java에서 Google Draco를 사용하여 3D 메시 압축
+# Java에서 구체 메쉬 만들기 – Google Draco로 3D 메쉬 압축
 
-## 소개
+## Introduction
 
-Aspose.3D를 사용하여 Java에서 Google Draco로 3D 메시를 압축하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 Aspose.3D의 기능을 활용하여 3D 메시를 효율적으로 압축하는 과정을 안내합니다. 품질 저하 없이 메쉬 크기를 줄여 3D 애플리케이션을 향상시키려는 개발자라면 잘 찾아오셨습니다.
+Java에서 **구체를 만드는 방법**을 찾고 계시면서 파일 크기를 작게 유지하고 싶다면, 바로 여기가 맞습니다. 이 튜토리얼에서는 **Aspose.3D**와 **Google Draco**를 함께 사용하여 **3D 메쉬** 데이터를 효율적으로 **압축**하는 과정을 안내합니다. 마지막에는 Draco‑압축된 `.drc` 파일로 저장된 바로 사용할 수 있는 구체 메쉬를 얻게 되며, 이는 Java 기반 3D 애플리케이션에서 로드 속도가 빨라지고 대역폭 사용량이 크게 감소합니다.
 
-## 전제 조건
+## Quick Answers
+- **What does this tutorial cover?** Java에서 구체 메쉬를 생성하고 Aspose.3D를 통해 Google Draco로 압축하는 방법.  
+- **Primary library?** Java용 Aspose.3D.  
+- **Typical implementation time?** 기본 구체를 만드는 데 약 10‑15 분.  
+- **Key prerequisite?** Java 개발 환경 및 클래스패스에 Aspose.3D JAR가 포함되어 있어야 합니다.  
+- **Result?** 압축된 구체 메쉬가 들어있는 `.drc` 파일.
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## What is “how to create sphere” in the context of 3D development?
 
-- Java 개발 환경: 컴퓨터에 Java 개발 환경이 설정되어 있는지 확인하십시오.
--  Aspose.3D 라이브러리: Aspose.3D 라이브러리를 다운로드하여 설치합니다. 필요한 패키지를 찾을 수 있습니다[여기](https://releases.aspose.com/3d/java/).
-- Google Draco: 최적의 압축을 위해 Google Draco의 기능을 활용할 예정이므로 Google Draco에 대해 알아보세요.
+구체 메쉬를 만든다는 것은 완벽한 구를 근사하는 정점, 엣지, 면 집합을 생성하는 것을 의미합니다. Aspose.3D의 `Sphere` 클래스가 이 작업을 대신 수행해 주며, 추가 처리나 압축이 가능한 깔끔한 삼각형 메쉬를 제공합니다.
 
-## 패키지 가져오기
+## Why use Google Draco mesh compression with Aspose.3D?
 
-Java 프로젝트에서 Aspose.3D 및 Google Draco에 필요한 패키지를 가져옵니다. 코드를 성공적으로 실행하는 데 필요한 종속성이 있는지 확인하세요.
+- **Massive size reduction:** Draco는 비압축 형식에 비해 메쉬 데이터를 최대 90 %까지 축소할 수 있습니다.  
+- **Fast runtime decoding:** Unity, three.js와 같은 최신 엔진이 Draco를 네이티브로 디코딩하므로 로드 시간이 크게 단축됩니다.  
+- **Seamless Java integration:** Aspose.3D가 네이티브 Draco 라이브러리를 추상화하므로, 별도의 네이티브 바이너리를 다루지 않고도 Java 생태계 내에서 작업할 수 있습니다.  
+
+## Prerequisites
+
+시작하기 전에 다음이 준비되어 있는지 확인하세요.
+
+- **Java Development Kit (JDK)** – 8 이상이 설치되고 환경 변수가 설정되어 있어야 합니다.  
+- **Aspose.3D for Java** – 공식 페이지에서 최신 JAR를 다운로드하세요. [here](https://releases.aspose.com/3d/java/)  
+- **Google Draco knowledge** – Draco가 기하학 압축 라이브러리라는 점을 이해하고 있어야 합니다. 압축 작업은 Aspose.3D 래퍼가 담당합니다.
+
+## Import Packages
+
+Java 소스 파일에서 메쉬 생성 및 Draco 압축에 필요한 클래스를 임포트합니다.
 
 ```java
 import com.aspose.threed.DracoCompressionLevel;
@@ -41,74 +60,88 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 ```
 
-## 1단계: 프로젝트 설정
+## Step‑by‑Step Guide
 
-시작하기 전에 새 Java 프로젝트를 생성하고 Aspose.3D 라이브러리를 클래스 경로에 추가하세요. 프로젝트 구조가 체계적으로 구성되어 파일을 쉽게 관리할 수 있는지 확인하세요.
+### Step 1: Set Up the Project
 
-## 2단계: 구 만들기
+선호하는 IDE에서 새 Java 프로젝트를 만들고 Aspose.3D JAR를 프로젝트 클래스패스에 추가합니다. 아래 코드는 `com.example.draco`와 같은 깔끔한 패키지에 위치하도록 소스 폴더를 정리하세요.
 
-이제 Aspose.3D를 사용하여 3D 구형을 만들어 보겠습니다. 이는 압축을 위한 샘플 메시 역할을 합니다.
+### Step 2: How to Create Sphere Mesh in Java
+
+이제 압축하려는 메쉬가 될 간단한 구 모델을 생성합니다.
 
 ```java
 // ExStart:Encode3DMeshinGoogleDraco
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 
-// 구 만들기
+// Create a sphere
 Sphere sphere = new Sphere();
 ```
 
-## 3단계: 메시 인코딩
+> **Pro tip:** `Sphere` 클래스는 기본 반경 1.0인 삼각형 메쉬를 자동으로 생성합니다. 필요에 따라 반경, 세분화 정도, 재질을 맞춤 설정할 수 있습니다.
 
-Google Draco를 활용하여 구의 메시 데이터를 최적의 압축 수준으로 인코딩합니다.
+### Step 3: How to Compress Mesh with Google Draco
+
+구체가 준비되면 Aspose.3D의 `DracoSaveOptions`를 사용해 Draco 압축을 호출합니다. 압축 레벨을 `OPTIMAL`로 설정하면 품질을 유지하면서 최적의 크기 감소를 얻을 수 있습니다.
 
 ```java
-// 최적의 압축 수준을 사용하여 구를 Google Draco 원시 데이터로 인코딩합니다.
+// Encode the sphere to Google Draco raw data using optimal compression level.
 DracoSaveOptions opt = new DracoSaveOptions();
 opt.setCompressionLevel(DracoCompressionLevel.OPTIMAL);
 byte[] b = FileFormat.DRACO.encode(sphere.toMesh(), opt);
 ```
 
-## 4단계: 압축된 메시 저장
+### Step 4: Save the Compressed Mesh
 
-나중에 사용할 수 있도록 압축된 메시 데이터를 파일에 저장합니다.
+압축된 바이트 배열을 `.drc` 파일에 기록합니다. 이 파일은 클라이언트에 스트리밍하거나 나중에 저장해 두기에 적합합니다.
 
 ```java
-// 원시 바이트를 파일에 저장
+// Save the raw bytes to file
 Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 // ExEnd:Encode3DMeshinGoogleDraco
 ```
 
-프로젝트의 다른 3D 개체에 대해 이 단계를 반복합니다. 이제 Aspose.3D를 사용하여 Java에서 Google Draco를 사용하여 3D 메시를 성공적으로 압축했습니다!
+다른 3D 객체—큐브, 사용자 정의 모델, 가져온 씬 등—에 대해서도 동일한 절차를 반복하고, 단지 기하 생성 호출만 교체하면 됩니다.
 
-## 결론
+## Common Issues and Solutions
 
-이 튜토리얼에서는 Aspose.3D의 도움으로 Java에서 Google Draco를 사용하여 3D 메시를 압축하는 프로세스를 살펴보았습니다. 이 기술을 사용하면 시각적 품질을 손상시키지 않고 메쉬 크기를 줄여 3D 응용 프로그램의 성능을 향상시킬 수 있습니다.
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **`NoClassDefFoundError` for Draco classes** | Aspose.3D JAR가 클래스패스에 없음 | 모든 Aspose.3D JAR 파일이 포함되어 있는지, 버전이 문서와 일치하는지 확인하세요. |
+| **Output file is empty** | `MyDir`가 존재하지 않는 폴더를 가리킴 | 디렉터리가 존재하는지 확인하거나 파일을 쓰기 전에 프로그래밍으로 생성하세요. |
+| **Compressed mesh looks distorted** | 압축 레벨이 낮음 | `DracoCompressionLevel.OPTIMAL`로 전환하거나 압축 전에 메쉬 세분화를 조정하세요. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Aspose.3D는 다른 3D 파일 형식과 호환됩니까?
+**Q: Aspose.3D가 다양한 3D 파일 형식을 지원하나요?**  
+A: 네, Aspose.3D는 OBJ, FBX, STL, GLTF 등 광범위한 포맷을 지원하므로 다양한 파이프라인에 활용할 수 있습니다.
 
-A1: 예, Aspose.3D는 광범위한 3D 파일 형식을 지원하므로 다양한 응용 프로그램에 다용도로 사용할 수 있습니다.
+**Q: 다른 프로그래밍 언어에서도 Google Draco 압축을 사용할 수 있나요?**  
+A: 물론입니다. Draco는 C++, Python, JavaScript용 네이티브 라이브러리를 제공하며, 이 튜토리얼은 Java에 초점을 맞추지만 개념은 다른 언어에도 적용됩니다.
 
-### Q2: 다른 프로그래밍 언어의 압축에 Google Draco를 사용할 수 있습니까?
+**Q: 추가 Aspose.3D 문서는 어디서 찾을 수 있나요?**  
+A: 자세한 API 레퍼런스와 예제는 [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/)을 참고하세요.
 
-답변 2: 이 튜토리얼은 Java에 중점을 두고 있지만 Google Draco는 여러 프로그래밍 언어로 사용할 수 있습니다.
+**Q: Aspose.3D 임시 라이선스를 어떻게 받을 수 있나요?**  
+A: 임시 라이선스 옵션은 [here](https://purchase.aspose.com/temporary-license/)에서 확인할 수 있습니다.
 
-### Q3: 추가 Aspose.3D 문서는 어디서 찾을 수 있나요?
+**Q: Aspose.3D 지원을 위한 커뮤니티 포럼이 있나요?**  
+A: 네, 커뮤니티 지원 및 토론을 위해 [Aspose.3D Forum](https://forum.aspose.com/c/3d/18)을 방문하세요.
 
- A3: 다음을 방문하세요.[Aspose.3D 자바 문서](https://reference.aspose.com/3d/java/) 자세한 정보와 예시를 확인하세요.
+## Conclusion
 
-### Q4: Aspose.3D에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
+이 튜토리얼에서는 Java에서 **구체를 만드는 방법**을 보여준 뒤, Aspose.3D를 통해 Google Draco로 **3D 메쉬** 데이터를 압축하는 과정을 설명했습니다. 이 단계를 따라 하면 메쉬 파일 크기를 크게 줄이고 로드 시간을 개선하여 Java 기반 3D 애플리케이션을 더욱 반응성 있게 유지할 수 있습니다.
 
- A4: 임시 라이선스 옵션 살펴보기[여기](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Aspose.3D 지원을 위한 커뮤니티 포럼이 있습니까?
-
- 답변 5: 예. 커뮤니티 지원 및 토론을 원하시면 다음 사이트를 방문하세요.[Aspose.3D 포럼](https://forum.aspose.com/c/3d/18).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.3D for Java 24.12 (latest)  
+**Author:** Aspose

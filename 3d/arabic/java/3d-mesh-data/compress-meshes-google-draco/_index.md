@@ -1,33 +1,52 @@
 ---
-title: ضغط الشبكات ثلاثية الأبعاد باستخدام Google Draco في Java
-linktitle: ضغط الشبكات ثلاثية الأبعاد باستخدام Google Draco في Java
-second_title: Aspose.3D جافا API
-description: قم بتحسين تطبيقاتك ثلاثية الأبعاد باستخدام Aspose.3D. تعرف على كيفية ضغط الشبكات باستخدام Google Draco في Java. اتبع دليلنا خطوة بخطوة للتطوير ثلاثي الأبعاد بكفاءة.
-weight: 10
+date: 2026-01-27
+description: تعلم كيفية إنشاء شبكة كروية في Java وضغط ملفات الشبكة ثلاثية الأبعاد
+  باستخدام Google Draco مع Aspose.3D. دليل خطوة بخطوة لتطوير ثلاثي الأبعاد فعال.
+linktitle: How to Create Sphere Mesh in Java – Compress 3D Meshes with Google Draco
+second_title: Aspose.3D Java API
+title: كيفية إنشاء شبكة كرة في جافا – ضغط الشبكات ثلاثية الأبعاد باستخدام جوجل دراكو
 url: /ar/java/3d-mesh-data/compress-meshes-google-draco/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ضغط الشبكات ثلاثية الأبعاد باستخدام Google Draco في Java
+# كيفية إنشاء شبكة كروية في Java – ضغط نماذج 3D باستخدام Google Draco
 
-## مقدمة
+## المقدمة
 
-مرحبًا بك في هذا الدليل الشامل حول ضغط الشبكات ثلاثية الأبعاد باستخدام Google Draco في Java باستخدام Aspose.3D. في هذا البرنامج التعليمي، سنرشدك خلال عملية ضغط الشبكات ثلاثية الأبعاد بكفاءة، باستخدام قوة Aspose.3D. إذا كنت مطورًا يتطلع إلى تحسين تطبيقاتك ثلاثية الأبعاد عن طريق تقليل أحجام الشبكات دون المساس بالجودة، فأنت في المكان الصحيح.
+إذا كنت تبحث عن **how to create sphere** mesh في Java مع الحفاظ على حجم الملف صغيرًا، فقد وصلت إلى المكان الصحيح. في هذا الدرس سنستعرض كيفية استخدام **Aspose.3D** مع **Google Draco** لـ **compress 3D mesh** بفعالية. في النهاية ستحصل على شبكة كروية جاهزة للاستخدام محفوظة كملف `.drc` مضغوط بـ Draco، والذي يتم تحميله أسرع ويستهلك نطاقًا أقل بكثير في أي تطبيق 3D مبني على Java.
 
-## المتطلبات الأساسية
+## الإجابات السريعة
+- **What does this tutorial cover?** إنشاء شبكة كروية في Java وضغطها باستخدام Google Draco عبر Aspose.3D.  
+- **Primary library?** Aspose.3D for Java.  
+- **Typical implementation time?** حوالي 10‑15 دقيقة لإنشاء كرة أساسية.  
+- **Key prerequisite?** بيئة تطوير Java وملفات Aspose.3D JARs على مسار الفئة الخاص بك.  
+- **Result?** ملف `.drc` يحتوي على شبكة الكروية المضغوطة.
 
-قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو “how to create sphere” في سياق تطوير 3D؟
 
-- بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java على جهازك.
--  مكتبة Aspose.3D: قم بتنزيل وتثبيت مكتبة Aspose.3D. يمكنك العثور على الحزم اللازمة[هنا](https://releases.aspose.com/3d/java/).
-- Google Draco: تعرف على Google Draco، حيث سنعمل على الاستفادة من إمكانياته لتحقيق الضغط الأمثل.
+إنشاء شبكة كروية يعني توليد مجموعة من الرؤوس والحواف والوجوه التي تقرب شكل كرة مثالية. تقوم فئة `Sphere` في Aspose.3D بالعمل الشاق، وتوفر لك شبكة مثلثة نظيفة يمكن معالجتها أو ضغطها لاحقًا.
 
-## حزم الاستيراد
+## لماذا نستخدم ضغط شبكة Google Draco مع Aspose.3D؟
 
-في مشروع Java الخاص بك، قم باستيراد الحزم المطلوبة لـ Aspose.3D وGoogle Draco. تأكد من أن لديك التبعيات اللازمة لتنفيذ التعليمات البرمجية بنجاح.
+- **Massive size reduction:** يمكن لـ Draco تقليل حجم بيانات الشبكة بنسبة تصل إلى 90 % مقارنةً بالتنسيقات غير المضغوطة.  
+- **Fast runtime decoding:** تقوم المحركات الحديثة مثل Unity و three.js بفك ضغط Draco بشكل أصلي، مما يؤدي إلى أوقات تحميل أسرع.  
+- **Seamless Java integration:** تقوم Aspose.3D بتجريد مكتبة Draco الأصلية، لذا تبقى داخل بيئة Java دون الحاجة للتعامل مع الثنائيات الأصلية.
+
+## المتطلبات المسبقة
+
+قبل أن نبدأ، تأكد من أن لديك:
+
+- **Java Development Kit (JDK)** – الإصدار 8 أو أحدث مثبتًا ومُكوَّنًا.  
+- **Aspose.3D for Java** – قم بتنزيل أحدث ملفات JAR من الصفحة الرسمية [here](https://releases.aspose.com/3d/java/).  
+- **Google Draco knowledge** – فهم أن Draco هي مكتبة ضغط هندسية؛ سنستخدم الغلاف الخاص بـ Aspose.3D للتعامل مع العملية.
+
+## استيراد الحزم
+
+في ملف Java المصدر الخاصك، استورد الفئات المطلوبة لإنشاء الشبكة وضغط Draco.
 
 ```java
 import com.aspose.threed.DracoCompressionLevel;
@@ -41,74 +60,88 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 ```
 
-## الخطوة 1: إعداد المشروع
+## دليل خطوة بخطوة
 
-قبل أن تبدأ، قم بإنشاء مشروع Java جديد وأضف مكتبة Aspose.3D إلى مسار الفصل الدراسي الخاص بك. تأكد من أن هيكل المشروع منظم، مما يسهل إدارة ملفاتك.
+### الخطوة 1: إعداد المشروع
 
-## الخطوة 2: إنشاء المجال
+أنشئ مشروع Java جديد (IDE حسب اختيارك) وأضف ملفات Aspose.3D JAR إلى مسار الفئة للمشروع. نظم مجلد المصدر بحيث يكون الكود أدناه في حزمة نظيفة، مثل `com.example.draco`.
 
-الآن، لنقم بإنشاء كرة ثلاثية الأبعاد باستخدام Aspose.3D. سيكون هذا بمثابة شبكة عينة للضغط.
+### الخطوة 2: كيفية إنشاء شبكة كروية في Java
+
+الآن سنولد نموذج كرة بسيط سيعمل كشبكة نرغب في ضغطها.
 
 ```java
 // ExStart:Encode3DMeshinGoogleDraco
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 
-// إنشاء المجال
+// Create a sphere
 Sphere sphere = new Sphere();
 ```
 
-## الخطوة 3: تشفير الشبكة
+> **Pro tip:** تقوم فئة `Sphere` تلقائيًا بإنشاء شبكة مثلثة بنصف قطر افتراضي قدره 1.0. يمكنك تخصيص نصف القطر، والتقسيم، والمواد إذا كان سيناريوك يتطلب ذلك.
 
-استخدم Google Draco لتشفير بيانات الشبكة الكروية بمستوى ضغط مثالي.
+### الخطوة 3: كيفية ضغط الشبكة باستخدام Google Draco
+
+مع جاهزية الكرة، نستدعي ضغط Draco عبر `DracoSaveOptions` في Aspose.3D. ضبط مستوى الضغط إلى `OPTIMAL` يوفر أفضل تقليل للحجم مع الحفاظ على الجودة.
 
 ```java
-// قم بتشفير المجال إلى بيانات Google Draco الأولية باستخدام مستوى الضغط الأمثل.
+// Encode the sphere to Google Draco raw data using optimal compression level.
 DracoSaveOptions opt = new DracoSaveOptions();
 opt.setCompressionLevel(DracoCompressionLevel.OPTIMAL);
 byte[] b = FileFormat.DRACO.encode(sphere.toMesh(), opt);
 ```
 
-## الخطوة 4: احفظ الشبكة المضغوطة
+### الخطوة 4: حفظ الشبكة المضغوطة
 
-احفظ بيانات الشبكة المضغوطة في ملف لاستخدامها في المستقبل.
+أخيرًا، اكتب مصفوفة البايتات المضغوطة إلى ملف `.drc`. يمكن بث هذا الملف إلى العملاء أو تخزينه للاستخدام لاحقًا.
 
 ```java
-// احفظ البايتات الأولية في الملف
+// Save the raw bytes to file
 Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 // ExEnd:Encode3DMeshinGoogleDraco
 ```
 
-كرر هذه الخطوات مع الكائنات ثلاثية الأبعاد الأخرى في مشروعك. لقد نجحت الآن في ضغط شبكة ثلاثية الأبعاد باستخدام Google Draco في Java باستخدام Aspose.3D!
+يمكنك تكرار هذه الخطوات لأي كائنات 3D أخرى—مكعبات، نماذج مخصصة، أو مشاهد مستوردة—ببساطة عن طريق استبدال استدعاء إنشاء الهندسة.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا البرنامج التعليمي، اكتشفنا عملية ضغط الشبكات ثلاثية الأبعاد باستخدام Google Draco في Java بمساعدة Aspose.3D. تسمح لك هذه التقنية بتحسين أداء تطبيقاتك ثلاثية الأبعاد عن طريق تقليل أحجام الشبكات دون المساس بالجودة المرئية.
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **`NoClassDefFoundError` for Draco classes** | ملفات Aspose.3D JAR غير موجودة في مسار الفئة | تحقق من تضمين جميع ملفات Aspose.3D JAR وأن الإصدار يتطابق مع الوثائق. |
+| **Output file is empty** | `MyDir` يشير إلى مجلد غير موجود | تأكد من وجود الدليل أو أنشئه برمجيًا قبل كتابة الملف. |
+| **Compressed mesh looks distorted** | استخدام مستوى ضغط منخفض | انتقل إلى `DracoCompressionLevel.OPTIMAL` أو عدل تقسيم الشبكة قبل الضغط. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل Aspose.3D متوافق مع تنسيقات الملفات ثلاثية الأبعاد المختلفة؟
+**س: هل Aspose.3D متوافق مع صيغ ملفات 3D المختلفة؟**  
+ج: نعم، يدعم Aspose.3D مجموعة واسعة من الصيغ بما في ذلك OBJ و FBX و STL و GLTF، مما يجعله متعدد الاستخدامات للعديد من خطوط الأنابيب.
 
-ج1: نعم، يدعم Aspose.3D نطاقًا واسعًا من تنسيقات الملفات ثلاثية الأبعاد، مما يجعله متعدد الاستخدامات لمختلف التطبيقات.
+**س: هل يمكنني استخدام Google Draco للضغط في لغات برمجة أخرى؟**  
+ج: بالتأكيد. توفر Draco مكتبات أصلية لـ C++ و Python و JavaScript. يركز هذا الدرس على Java، لكن المفاهيم قابلة للنقل عبر اللغات.
 
-### س2: هل يمكنني استخدام Google Draco للضغط في لغات البرمجة الأخرى؟
+**س: أين يمكنني العثور على وثائق Aspose.3D إضافية؟**  
+ج: زر [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) للحصول على مراجع API مفصلة والمزيد من الأمثلة.
 
-ج2: بينما يركز هذا البرنامج التعليمي على Java، فإن Google Draco متاح للاستخدام بلغات برمجة متعددة.
+**س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟**  
+ج: استكشف خيارات الترخيص المؤقت [here](https://purchase.aspose.com/temporary-license/).
 
-### س3: أين يمكنني العثور على وثائق Aspose.3D إضافية؟
+**س: هل هناك منتدى مجتمع لدعم Aspose.3D؟**  
+ج: نعم، للحصول على دعم المجتمع والنقاشات، زر [Aspose.3D Forum](https://forum.aspose.com/c/3d/18).
 
- ج3: قم بزيارة[Aspose.3D وثائق جافا](https://reference.aspose.com/3d/java/) للحصول على معلومات وأمثلة مفصلة.
+## الخلاصة
 
-### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟
+في هذا الدرس أظهرنا لك **how to create sphere** mesh في Java ثم **compress 3D mesh** باستخدام Google Draco عبر Aspose.3D. باتباع هذه الخطوات يمكنك تقليل أحجام ملفات الشبكة بشكل كبير، تحسين أوقات التحميل، والحفاظ على استجابة تطبيقات 3D المبنية على Java.
 
- ج٤: استكشف خيارات الترخيص المؤقت[هنا](https://purchase.aspose.com/temporary-license/).
-
-### س5: هل يوجد منتدى مجتمعي لدعم Aspose.3D؟
-
- ج5: نعم، للحصول على دعم المجتمع والمناقشات، قم بزيارة[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث:** 2026-01-27  
+**تم الاختبار مع:** Aspose.3D for Java 24.12 (latest)  
+**المؤلف:** Aspose
