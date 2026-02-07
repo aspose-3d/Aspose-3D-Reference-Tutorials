@@ -5,7 +5,7 @@ second_title: Aspose.3D Java API
 description: Learn how to create cylinder models with offset tops in Aspose.3D for Java, add child node Java steps, and export 3D model OBJ files easily.
 weight: 11
 url: /java/cylinders/creating-cylinders-with-offset-top/
-date: 2025-12-05
+date: 2026-02-07
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ date: 2025-12-05
 
 ## Introduction
 
-If you’re looking to **how to create cylinder** objects with a custom offset top in a Java‑based 3D scene, Aspose.3D makes the process straightforward. In this tutorial we’ll walk through every step—from setting up the scene to exporting the final model as an OBJ file—so you can integrate offset‑top cylinders into your applications with confidence.
+If you’re looking to **how to create cylinder** objects with a custom offset top in a Java‑based 3D scene, Aspose.3D makes the process straightforward. In this tutorial we’ll walk through every step—from setting up the scene to exporting the final model as an OBJ file—so you can integrate offset‑top cylinders into your applications with confidence. By the end of the guide you’ll master how to create cylinder shapes with custom offsets in just a few lines of code.
 
 ## Quick Answers
 - **What library is used?** Aspose.3D for Java  
@@ -29,7 +29,7 @@ If you’re looking to **how to create cylinder** objects with a custom offset t
 
 Creating a cylinder with an offset top means the top circular face is shifted relative to the base, allowing you to model tapered or asymmetrical shapes without manual vertex manipulation. Aspose.3D provides a dedicated constructor and an `OffsetTop` property to achieve this in just a few lines of code.
 
-## Why use Aspose.3D for Java?
+## Why Use Aspose.3D for Java?
 
 - **High‑level API:** No need to manage low‑level mesh data.  
 - **Cross‑platform:** Works on any JVM‑compatible environment.  
@@ -115,7 +115,7 @@ scene.getRootNode().createChildNode(cylinder2);
 // ExEnd:5
 ```
 
-### Step 6: How to **export 3d model OBJ** – Save the Scene
+### Step 6: How to **export OBJ** – Save the Scene as OBJ
 
 Finally, we export the whole scene (both cylinders) as a Wavefront OBJ file, which is widely supported by 3D tools.
 
@@ -127,6 +127,24 @@ scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFo
 ```
 
 When you run the program, you’ll find `CustomizedOffsetTopCylinder.obj` in the specified directory, ready to be opened in Blender, Maya, or any other OBJ‑compatible viewer.
+
+## Why This Matters – Real‑World Use Cases
+
+- **Architectural visualisation:** Offset‑top cylinders are perfect for modelling columns that taper towards the ceiling.  
+- **Mechanical parts:** Create pistons or gear housings where the top surface is intentionally shifted.  
+- **Game assets:** Quickly generate varied pillar shapes without hand‑crafting meshes.
+
+## How to Export OBJ – Save Scene as OBJ
+
+The Aspose 3D export OBJ capability lets you share your models with virtually any 3D pipeline. By using the `scene.save(..., FileFormat.WAVEFRONTOBJ)` method you are **how to export obj** files directly from Java, eliminating the need for third‑party converters.
+
+## How to Add Child Node Java – Attaching Geometry
+
+Adding child nodes is the standard way to organise a scene graph. Each call to `createChildNode` returns a node that can be transformed independently, which is why the **add child node java** pattern appears twice in this tutorial.
+
+## Export 3D Model OBJ – Using Aspose 3D Export OBJ
+
+If you need to distribute your models to designers, the **export 3d model obj** feature provides a lightweight, text‑based representation that works across all major 3D applications. The same API call used in Step 6 demonstrates the **aspose 3d export obj** workflow.
 
 ## Common Issues and Solutions
 
@@ -155,6 +173,10 @@ A: Yes, a temporary license can be obtained for evaluation [here](https://purcha
 
 ---
 
+**Last Updated:** 2026-02-07  
+**Tested With:** Aspose.3D for Java 24.12 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -163,6 +185,3 @@ A: Yes, a temporary license can be obtained for evaluation [here](https://purcha
 {{< blocks/products/products-backtop-button >}}
 
 ---
-**Last Updated:** 2025-12-05  
-**Tested With:** Aspose.3D for Java 24.12 (latest)  
-**Author:** Aspose

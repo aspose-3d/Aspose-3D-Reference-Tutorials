@@ -1,10 +1,10 @@
 ---
-date: 2025-12-05
-description: เรียนรู้วิธีสร้างโมเดลทรงกระบอกที่มีส่วนบนออฟเซ็ตใน Aspose.3D สำหรับ
-  Java, เพิ่มขั้นตอนการเพิ่มโหนดลูกใน Java, และส่งออกไฟล์ OBJ ของโมเดล 3 มิติได้อย่างง่ายดาย.
+date: 2026-02-07
+description: เรียนรู้วิธีสร้างโมเดลทรงกระบอกที่มีส่วนบนเลื่อนใน Aspose.3D สำหรับ Java,
+  เพิ่มโหนดลูกด้วยขั้นตอน Java, และส่งออกไฟล์ OBJ ของโมเดล 3D ได้อย่างง่ายดาย.
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
-title: วิธีสร้างทรงกระบอกที่มีส่วนบนออฟเซ็ตใน Aspose.3D สำหรับ Java
+title: วิธีสร้างทรงกระบอกที่มีส่วนบนเลื่อนใน Aspose.3D สำหรับ Java
 url: /th/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
@@ -13,39 +13,41 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีสร้างทรงกระบอกที่มีส่วนบนชิดลบใน Aspose.3D สำหรับ Java
+# วิธีสร้างทรงกระบอกที่มีส่วนบนชิดเบี่ยงใน Aspose.3D สำหรับ Java
 
 ## บทนำ
 
-หากคุณกำลังมองหา **how to create cylinder** objects ที่มีส่วนบนชิดลบแบบกำหนดเองในฉาก 3D ที่ใช้ Java, Aspose.3D ทำให้กระบวนการง่ายดาย ในบทเรียนนี้เราจะอธิบายทุกขั้นตอน—from การตั้งค่าฉากจนถึงการส่งออกโมเดลสุดท้ายเป็นไฟล์ OBJ—เพื่อให้คุณสามารถรวมทรงกระบอกที่มีส่วนบนชิดลบเข้ากับแอปพลิเคชันของคุณได้อย่างมั่นใจ。
+หากคุณกำลังมองหา **how to create cylinder** ที่มีส่วนบนชิดเบี่ยงแบบกำหนดเองในฉาก 3D ที่ใช้ Java, Aspose.3D ทำให้กระบวนการนี้ง่ายดาย ในบทแนะนำนี้เราจะพาคุณผ่านทุกขั้นตอน—from การตั้งค่าฉากจนถึงการส่งออกโมเดลสุดท้ายเป็นไฟล์ OBJ—เพื่อให้คุณสามารถผสานทรงกระบอกที่มีส่วนบนชิดเบี่ยงเข้ากับแอปพลิเคชันของคุณได้อย่างมั่นใจ เมื่อจบคู่มือคุณจะเชี่ยวชาญวิธีสร้างรูปทรงทรงกระบอกพร้อมส่วนบนชิดเบี่ยงด้วยเพียงไม่กี่บรรทัดของโค้ด
 
-## คำตอบสั้น
+## คำตอบอย่างรวดเร็ว
 - **ไลบรารีที่ใช้คืออะไร?** Aspose.3D for Java  
-- **ฉันสามารถชิดลบส่วนบนของทรงกระบอกได้หรือไม่?** Yes, using `setOffsetTop`  
-- **ฉันจะเพิ่ม child node ใน Java อย่างไร?** Call `createChildNode` on the root node  
-- **ฉันสามารถส่งออกเป็นฟอร์แมตใดได้?** Wavefront OBJ (`export 3d model obj`)  
+- **ฉันสามารถชิดเบี่ยงส่วนบนของทรงกระบอกได้หรือไม่?** Yes, using `setOffsetTop`  
+- **ฉันจะเพิ่มโหนดลูกใน Java อย่างไร?** Call `createChildNode` on the root node  
+- **ฉันสามารถส่งออกเป็นฟอร์แมตอะไรได้บ้าง?** Wavefront OBJ (`export 3d model obj`)  
 - **ฉันต้องการไลเซนส์สำหรับการทดสอบหรือไม่?** A temporary license is available for evaluation  
 
-## “how to create cylinder” ที่มีส่วนบนชิดลบคืออะไร?
+## “how to create cylinder” กับส่วนบนชิดเบี่ยงคืออะไร?
 
-การสร้างทรงกระบอกที่มีส่วนบนชิดลบหมายถึงหน้าวงกลมด้านบนถูกเลื่อนตำแหน่งสัมพันธ์กับฐาน ทำให้คุณสามารถสร้างรูปทรงที่แคบลงหรือไม่สมมาตรได้โดยไม่ต้องจัดการเวอร์เท็กซ์ด้วยตนเอง Aspose.3D มีคอนสตรัคเตอร์เฉพาะและคุณสมบัติ `OffsetTop` เพื่อทำเช่นนี้ในเพียงไม่กี่บรรทัดของโค้ด。
+การสร้างทรงกระบอกที่มีส่วนบนชิดเบี่ยงหมายถึงการย้ายหน้าวงกลมด้านบนให้เลื่อนตำแหน่งจากฐาน ทำให้คุณสามารถสร้างรูปทรงที่แคบลงหรือไม่สมมาตรได้โดยไม่ต้องจัดการเวอร์เท็กซ์ด้วยตนเอง Aspose.3D มีคอนสตรัคเตอร์เฉพาะและคุณสมบัติ `OffsetTop` เพื่อทำเช่นนี้ในไม่กี่บรรทัดของโค้ด
 
 ## ทำไมต้องใช้ Aspose.3D สำหรับ Java?
 
-- **High‑level API:** ไม่จำเป็นต้องจัดการข้อมูลเมชระดับล่าง  
-- **Cross‑platform:** ทำงานบนสภาพแวดล้อมที่เข้ากันได้กับ JVM ใดก็ได้  
+- **High‑level API:** ไม่ต้องจัดการข้อมูลเมชระดับต่ำ  
+- **Cross‑platform:** ทำงานได้บนสภาพแวดล้อมที่รองรับ JVM ทุกประเภท  
 - **Built‑in exporters:** บันทึกโดยตรงเป็น OBJ, STL, FBX และอื่น ๆ  
-- **Extensible:** สามารถเพิ่ม child node, ใช้การแปลง, และรวมกับไลบรารี Java อื่น ๆ ได้อย่างง่ายดาย  
+- **Extensible:** เพิ่มโหนดลูกได้ง่าย, ใช้การแปลง, และผสานรวมกับไลบรารี Java อื่น ๆ  
 
 ## ข้อกำหนดเบื้องต้น
 
-- **Java Development Kit (JDK)** – เวอร์ชันที่เข้ากันได้ถูกติดตั้ง  
+ก่อนที่เราจะเริ่ม, โปรดตรวจสอบว่าคุณมี:
+
+- **Java Development Kit (JDK)** – เวอร์ชันที่เข้ากันได้ถูกติดตั้งไว้แล้ว  
 - **Aspose.3D for Java library** – ดาวน์โหลด JAR ล่าสุดจากเว็บไซต์อย่างเป็นทางการ [here](https://releases.aspose.com/3d/java/)  
-- IDE ที่คุณเลือก (Eclipse, IntelliJ IDEA, NetBeans ฯลฯ)  
+- IDE ที่คุณชื่นชอบ (Eclipse, IntelliJ IDEA, NetBeans, ฯลฯ)  
 
-## นำเข้าแพ็กเกจ
+## นำเข้าแพ็คเกจ
 
-First, import the classes we’ll need. Place these statements at the top of your Java file:
+ก่อนอื่นให้ import คลาสที่เราต้องการ ใช้คำสั่งเหล่านี้ที่ส่วนบนของไฟล์ Java ของคุณ:
 
 ```java
 import com.aspose.threed.Cylinder;
@@ -59,9 +61,9 @@ import java.io.IOException;
 
 ## คู่มือขั้นตอนต่อขั้นตอน
 
-### ขั้นตอนที่ 1: สร้าง Scene
+### ขั้นตอนที่ 1: สร้างฉาก
 
-A scene acts as the container for all 3D objects.
+ฉากทำหน้าที่เป็นคอนเทนเนอร์สำหรับวัตถุ 3D ทั้งหมด
 
 ```java
 // ExStart:1
@@ -70,9 +72,9 @@ Scene scene = new Scene();
 // ExEnd:1
 ```
 
-### ขั้นตอนที่ 2: เริ่มต้น Cylinder ด้วยส่วนบนชิดลบ
+### ขั้นตอนที่ 2: เริ่มต้นทรงกระบอกด้วยส่วนบนชิดเบี่ยง
 
-ที่นี่เราตอบ **how to create cylinder** ด้วยการชิดลบแบบกำหนดเอง คอนสตรัคเตอร์กำหนด radius, height, slices, stacks, และว่าทรงกระบอกเป็นแบบปิดหรือไม่ หลังจากนั้นเราจะเลื่อนส่วนบนโดยใช้ `setOffsetTop`。
+ที่นี่เราตอบ **how to create cylinder** ด้วยส่วนบนที่กำหนดเอง คอนสตรัคเตอร์กำหนดรัศมี, ความสูง, slices, stacks, และว่าทรงกระบอกปิดหรือไม่ หลังจากนั้นเราจะเลื่อนส่วนบนโดยใช้ `setOffsetTop`
 
 ```java
 // ExStart:2
@@ -83,9 +85,9 @@ cylinder1.setOffsetTop(new Vector3(5, 3, 0));
 // ExEnd:2
 ```
 
-### ขั้นตอนที่ 3: วิธี **add child node Java** – แนบ Cylinder แรก
+### ขั้นตอนที่ 3: วิธี **add child node Java** – แนบทรงกระบอกแรก
 
-We create a child node under the scene’s root node and move the cylinder to a desired location.
+เราสร้างโหนดลูกใต้โหนดรากของฉากและย้ายทรงกระบอกไปยังตำแหน่งที่ต้องการ
 
 ```java
 // ExStart:3
@@ -94,9 +96,7 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 // ExEnd:3
 ```
 
-### ขั้นตอนที่ 4: เริ่มต้น Cylinder ที่สอง (ไม่มีส่วนบนชิดลบ)
-
-For comparison, we add a regular cylinder without an offset.
+### ขั้นตอนที่ 4: เริ่มต้นทรงกระบอกที่สอง (ไม่มีส่วนบนชิดเบี่ยง)
 
 ```java
 // ExStart:4
@@ -105,7 +105,7 @@ Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExEnd:4
 ```
 
-### ขั้นตอนที่ 5: วิธี **add child node Java** – แนบ Cylinder ที่สอง
+### ขั้นตอนที่ 5: วิธี **add child node Java** – แนบทรงกระบอกที่สอง
 
 ```java
 // ExStart:5
@@ -114,9 +114,9 @@ scene.getRootNode().createChildNode(cylinder2);
 // ExEnd:5
 ```
 
-### ขั้นตอนที่ 6: วิธี **export 3d model OBJ** – บันทึก Scene
+### ขั้นตอนที่ 6: วิธี **export OBJ** – บันทึกฉากเป็น OBJ
 
-Finally, we export the whole scene (both cylinders) as a Wavefront OBJ file, which is widely supported by 3D tools.
+สุดท้ายเราจะส่งออกฉากทั้งหมด (ทั้งสองทรงกระบอก) เป็นไฟล์ Wavefront OBJ ซึ่งได้รับการสนับสนุนอย่างกว้างขวางโดยเครื่องมือ 3D
 
 ```java
 // ExStart:6
@@ -125,26 +125,44 @@ scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFo
 // ExEnd:6
 ```
 
-When you run the program, you’ll find `CustomizedOffsetTopCylinder.obj` in the specified directory, ready to be opened in Blender, Maya, or any other OBJ‑compatible viewer.
+เมื่อคุณรันโปรแกรม, คุณจะพบไฟล์ `CustomizedOffsetTopCylinder.obj` ในไดเรกทอรีที่ระบุ, พร้อมเปิดใน Blender, Maya หรือโปรแกรมดู OBJ ใด ๆ ที่รองรับ
 
-## ปัญหาที่พบบ่อยและวิธีแก้
+## ทำไมเรื่องนี้สำคัญ – กรณีใช้งานจริง
+
+- **การสร้างภาพสถาปัตยกรรม:** ทรงกระบอกที่มีส่วนบนชิดเบี่ยงเหมาะสำหรับการจำลองคอลัมน์ที่แคบลงเมื่อถึงเพดาน  
+- **ชิ้นส่วนเครื่องกล:** สร้างลูกสูบหรือเคสเกียร์ที่ส่วนบนถูกเลื่อนตำแหน่งโดยเจตนา  
+- **ทรัพยากรเกม:** สร้างรูปแบบเสาแบบหลากหลายได้อย่างรวดเร็วโดยไม่ต้องสร้างเมชด้วยมือ  
+
+## วิธีส่งออก OBJ – บันทึกฉากเป็น OBJ
+
+ความสามารถของ Aspose 3D ในการส่งออก OBJ ช่วยให้คุณแบ่งปันโมเดลกับกระบวนการทำงาน 3D ใด ๆ ก็ตาม โดยใช้เมธอด `scene.save(..., FileFormat.WAVEFRONTOBJ)` คุณสามารถ **how to export obj** ไฟล์โดยตรงจาก Java, ไม่ต้องพึ่งพาตัวแปลงของบุคคลที่สาม
+
+## วิธีเพิ่ม Child Node Java – แนบเรขาคณิต
+
+การเพิ่มโหนดลูกเป็นวิธีมาตรฐานในการจัดระเบียบกราฟฉาก แต่ละการเรียก `createChildNode` จะคืนค่าโหนดที่สามารถแปลงได้อย่างอิสระ ซึ่งเป็นเหตุผลที่รูปแบบ **add child node java** ปรากฏสองครั้งในบทแนะนำนี้
+
+## ส่งออกโมเดล 3D OBJ – ใช้ Aspose 3D Export OBJ
+
+หากคุณต้องการแจกจ่ายโมเดลให้กับนักออกแบบ, ฟีเจอร์ **export 3d model obj** ให้การแสดงผลแบบข้อความที่มีน้ำหนักเบาและทำงานได้กับแอปพลิเคชัน 3D หลักทั้งหมด การเรียก API เดียวกันในขั้นตอน 6 แสดงให้เห็นเวิร์กโฟลว์ **aspose 3d export obj**
+
+## ปัญหาทั่วไปและวิธีแก้
 
 | ปัญหา | สาเหตุ | วิธีแก้ |
 |-------|--------|-----|
-| **ไฟล์ OBJ ว่างเปล่า** | Scene ไม่ได้บันทึกอย่างถูกต้องหรือพาธผิด | ตรวจสอบว่าไดเรกทอรีปลายทางมีอยู่และคุณมีสิทธิ์เขียน |
-| **ส่วนบนชิดลบไม่ทำงาน** | ใช้เวอร์ชันเก่าของ Aspose.3D | อัปเดตเป็นไลบรารีล่าสุดที่รองรับ `setOffsetTop` |
-| **Child node ไม่แสดง** | การแปลงไม่ได้ถูกนำไปใช้ | ตรวจสอบว่าคุณเรียก `getTransform().setTranslation` หลังจากสร้าง child node |
+| **ไฟล์ OBJ ว่าง** | ฉากไม่ได้บันทึกอย่างถูกต้องหรือเส้นทางผิด | ตรวจสอบว่าไดเรกทอรีปลายทางมีอยู่และคุณมีสิทธิ์เขียน |
+| **ส่วนบนชิดเบี่ยงไม่ทำงาน** | ใช้เวอร์ชันเก่าของ Aspose.3D | อัปเดตเป็นไลบรารีล่าสุดที่รองรับ `setOffsetTop` |
+| **โหนดลูกไม่แสดง** | การแปลงไม่ได้ถูกนำไปใช้ | ตรวจสอบว่าคุณเรียก `getTransform().setTranslation` หลังจากสร้างโหนดลูก |
 
 ## คำถามที่พบบ่อย
 
-**Q: Aspose.3D รองรับ IDE Java ต่าง ๆ หรือไม่?**  
+**Q: Aspose.3D รองรับ IDE ของ Java ต่าง ๆ หรือไม่?**  
 A: ใช่, ทำงานได้อย่างราบรื่นกับ Eclipse, IntelliJ IDEA, NetBeans, และ IDE อื่น ๆ  
 
 **Q: ฉันสามารถใส่เทกเจอร์ให้กับวัตถุ 3D ที่สร้างได้หรือไม่?**  
-A: แน่นอน! ใช้คลาส `Material` เพื่อกำหนดเทกเจอร์และคุณสมบัติของพื้นผิว  
+A: แน่นอน! ใช้คลาส `Material` เพื่อกำหนดเทกเจอร์และคุณสมบัติวัตผิว  
 
 **Q: มีตัวเลือกไลเซนส์สำหรับ Aspose.3D หรือไม่?**  
-A: มีโมเดลไลเซนส์หลายแบบ; คุณสามารถสำรวจได้ [here](https://purchase.aspose.com/buy)  
+A: มีโมเดลไลเซนส์หลายแบบให้เลือก; คุณสามารถสำรวจได้ [here](https://purchase.aspose.com/buy)  
 
 **Q: ฉันจะขอความช่วยเหลือหรือแบ่งปันประสบการณ์ได้อย่างไร?**  
 A: เข้าร่วมฟอรั่มชุมชน Aspose.3D [here](https://forum.aspose.com/c/3d/18) เพื่อรับการสนับสนุนและการสนทนา  
@@ -152,14 +170,13 @@ A: เข้าร่วมฟอรั่มชุมชน Aspose.3D [here](ht
 **Q: มีไลเซนส์ชั่วคราวสำหรับการทดสอบหรือไม่?**  
 A: มี, สามารถขอไลเซนส์ชั่วคราวสำหรับการประเมินผลได้ [here](https://purchase.aspose.com/temporary-license/)  
 
+**Last Updated:** 2026-02-07  
+**Tested With:** Aspose.3D for Java 24.12 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-**Last Updated:** 2025-12-05  
-**Tested With:** Aspose.3D for Java 24.12 (latest)  
-**Author:** Aspose

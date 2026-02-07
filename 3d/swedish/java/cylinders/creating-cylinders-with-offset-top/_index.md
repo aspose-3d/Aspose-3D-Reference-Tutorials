@@ -1,7 +1,7 @@
 ---
-date: 2025-12-05
+date: 2026-02-07
 description: Lär dig hur du skapar cylindermodeller med förskjutna toppar i Aspose.3D
-  för Java, lägger till barnnod Java‑steg och exporterar 3D-modellens OBJ‑filer enkelt.
+  för Java, lägger till barnnod Java‑steg och enkelt exporterar OBJ‑filer för 3D‑modeller.
 linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
 second_title: Aspose.3D Java API
 title: Hur man skapar en cylinder med förskjuten topp i Aspose.3D för Java
@@ -13,41 +13,41 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Så skapar du cylinder med förskjuten topp i Aspose.3D för Java
+# Hur man skapar cylinder med förskjuten topp i Aspose.3D för Java
 
 ## Introduktion
 
-Om du vill **how to create cylinder** objekt med en anpassad förskjuten topp i en Java‑baserad 3D‑scen, gör Aspose.3D processen enkel. I den här handledningen går vi igenom varje steg—från att sätta upp scenen till att exportera den slutliga modellen som en OBJ‑fil—så att du kan integrera cylinder med förskjuten topp i dina applikationer med förtroende.
+Om du letar efter **how to create cylinder**‑objekt med en anpassad förskjuten topp i en Java‑baserad 3D‑scen, gör Aspose.3D processen enkel. I den här handledningen går vi igenom varje steg — från att sätta upp scenen till att exportera den färdiga modellen som en OBJ‑fil — så att du kan integrera cylinder med förskjuten topp i dina applikationer med förtroende. I slutet av guiden kommer du att behärska hur man skapar cylinderformer med anpassade förskjutningar på bara några rader kod.
 
 ## Snabba svar
-- **Vilket bibliotek används?** Aspose.3D for Java  
+- **Vilket bibliotek används?** Aspose.3D för Java  
 - **Kan jag förskjuta toppen på en cylinder?** Ja, med `setOffsetTop`  
-- **Hur lägger jag till en child node i Java?** Anropa `createChildNode` på rot‑noden  
+- **Hur lägger jag till ett barn‑nod i Java?** Anropa `createChildNode` på rot‑noden  
 - **Vilket format kan jag exportera till?** Wavefront OBJ (`export 3d model obj`)  
-- **Behöver jag en licens för testning?** En tillfällig licens finns tillgänglig för utvärdering  
+- **Behöver jag en licens för testning?** En temporär licens finns tillgänglig för utvärdering  
 
 ## Vad är “how to create cylinder” med en förskjuten topp?
 
-Att skapa en cylinder med en förskjuten topp betyder att den övre cirkulära ytan förskjuts i förhållande till basen, vilket gör att du kan modellera avsmalnande eller asymmetriska former utan manuell vertex‑manipulation. Aspose.3D tillhandahåller en dedikerad konstruktor och en `OffsetTop`‑egenskap för att uppnå detta på bara några kodrader.
+Att skapa en cylinder med en förskjuten topp betyder att den övre cirkulära ytan flyttas i förhållande till basen, vilket gör att du kan modellera avsmalnande eller asymmetriska former utan manuell vertex‑manipulation. Aspose.3D tillhandahåller en dedikerad konstruktor och en `OffsetTop`‑egenskap för att uppnå detta på bara några rader kod.
 
 ## Varför använda Aspose.3D för Java?
 
 - **High‑level API:** Ingen behov av att hantera låg‑nivå mesh‑data.  
 - **Cross‑platform:** Fungerar i alla JVM‑kompatibla miljöer.  
-- **Built‑in exporters:** Spara direkt till OBJ, STL, FBX och mer.  
-- **Extensible:** Lägg enkelt till child nodes, applicera transformationer och integrera med andra Java‑bibliotek.
+- **Inbyggda exporters:** Spara direkt till OBJ, STL, FBX och mer.  
+- **Extensible:** Lägg enkelt till barn‑noder, applicera transformationer och integrera med andra Java‑bibliotek.
 
 ## Förutsättningar
 
-Innan vi börjar, se till att du har:
+Innan vi dyker ner, se till att du har:
 
 - **Java Development Kit (JDK)** – en kompatibel version installerad.  
-- **Aspose.3D for Java library** – ladda ner den senaste JAR‑filen från den officiella sidan [here](https://releases.aspose.com/3d/java/).  
-- En IDE efter ditt val (Eclipse, IntelliJ IDEA, NetBeans, etc.).
+- **Aspose.3D för Java‑bibliotek** – ladda ner den senaste JAR‑filen från den officiella sidan [här](https://releases.aspose.com/3d/java/).  
+- En IDE du föredrar (Eclipse, IntelliJ IDEA, NetBeans, etc.).
 
 ## Importera paket
 
-Först, importera de klasser vi behöver. Placera dessa satser högst upp i din Java‑fil:
+Först, importera de klasser vi kommer att behöva. Placera dessa satser högst upp i din Java‑fil:
 
 ```java
 import com.aspose.threed.Cylinder;
@@ -74,7 +74,7 @@ Scene scene = new Scene();
 
 ### Steg 2: Initiera cylinder med förskjuten topp
 
-Här svarar vi på **how to create cylinder** med en anpassad förskjutning. Konstruktorn definierar radie, höjd, slices, stacks och om cylindern är sluten. Därefter förskjuter vi toppen med `setOffsetTop`.
+Här svarar vi på **how to create cylinder** med en anpassad förskjutning. Konstruktorn definierar radie, höjd, segment, staplar och om cylindern är sluten. Därefter förskjuter vi toppen med `setOffsetTop`.
 
 ```java
 // ExStart:2
@@ -87,7 +87,7 @@ cylinder1.setOffsetTop(new Vector3(5, 3, 0));
 
 ### Steg 3: Hur man **add child node Java** – Fäst den första cylindern
 
-Vi skapar en child node under scenens rot‑node och flyttar cylindern till önskad plats.
+Vi skapar ett barn‑nod under scenens rot‑nod och flyttar cylindern till önskad plats.
 
 ```java
 // ExStart:3
@@ -116,7 +116,7 @@ scene.getRootNode().createChildNode(cylinder2);
 // ExEnd:5
 ```
 
-### Steg 6: Hur man **export 3d model OBJ** – Spara scenen
+### Steg 6: Hur man **export OBJ** – Spara scenen som OBJ
 
 Till sist exporterar vi hela scenen (båda cylindrarna) som en Wavefront OBJ‑fil, som är brett stöd av 3D‑verktyg.
 
@@ -129,32 +129,54 @@ scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFo
 
 När du kör programmet hittar du `CustomizedOffsetTopCylinder.obj` i den angivna katalogen, redo att öppnas i Blender, Maya eller någon annan OBJ‑kompatibel visare.
 
+## Varför detta är viktigt – Verkliga användningsfall
+
+- **Arkitektonisk visualisering:** Cylinder med förskjuten topp är perfekta för att modellera kolonner som avsmalnar mot taket.  
+- **Mekaniska delar:** Skapa kolvar eller kugghus där den övre ytan medvetet är förskjuten.  
+- **Spel‑tillgångar:** Generera snabbt varierade pelarformer utan att manuellt skapa mesh‑ar.
+
+## Hur man exporterar OBJ – Spara scen som OBJ
+
+Aspose 3D‑exporten till OBJ låter dig dela dina modeller med praktiskt taget alla 3D‑pipeline. Genom att använda `scene.save(..., FileFormat.WAVEFRONTOBJ)`‑metoden kan du **how to export obj**‑filer direkt från Java, vilket eliminerar behovet av tredjeparts‑konverterare.
+
+## Hur man lägger till barn‑nod Java – Fästa geometri
+
+Att lägga till barn‑noder är det vanliga sättet att organisera ett scen‑graf. Varje anrop till `createChildNode` returnerar ett nod som kan transformeras oberoende, vilket är anledningen till att **add child node java**‑mönstret visas två gånger i den här handledningen.
+
+## Exportera 3D‑modell OBJ – Använda Aspose 3D Export OBJ
+
+Om du behöver distribuera dina modeller till designers, erbjuder **export 3d model obj**‑funktionen en lättviktig, text‑baserad representation som fungerar i alla större 3D‑applikationer. Samma API‑anrop som används i Steg 6 demonstrerar **aspose 3d export obj**‑arbetsflödet.
+
 ## Vanliga problem och lösningar
 
 | Problem | Orsak | Lösning |
 |-------|--------|-----|
-| **OBJ‑filen är tom** | Scenen sparades inte korrekt eller fel sökväg. | Verifiera att mål‑katalogen finns och att du har skrivrättigheter. |
-| **Förskjutning tillämpas inte** | Använder en äldre version av Aspose.3D. | Uppdatera till den senaste versionen där `setOffsetTop` stöds. |
-| **Child node syns inte** | Transformationen har inte tillämpats. | Se till att du anropar `getTransform().setTranslation` efter att ha skapat child node. |
+| **OBJ‑fil är tom** | Scenen sparades inte korrekt eller fel sökväg. | Verifiera att mål‑katalogen finns och att du har skrivbehörighet. |
+| **Förskjutning har inte tillämpats** | En äldre version av Aspose.3D används. | Uppdatera till den senaste versionen där `setOffsetTop` stöds. |
+| **Barn‑nod syns inte** | Transformation har inte tillämpats. | Se till att du anropar `getTransform().setTranslation` efter att ha skapat barn‑noden. |
 
 ## Vanliga frågor
 
-**Q: Är Aspose.3D kompatibel med olika Java‑IDEer?**  
-A: Ja, det fungerar sömlöst med Eclipse, IntelliJ IDEA, NetBeans och andra IDEer.
+**Q: Är Aspose.3D kompatibel med olika Java‑IDE:n?**  
+A: Ja, det fungerar sömlöst med Eclipse, IntelliJ IDEA, NetBeans och andra IDE:n.
 
 **Q: Kan jag applicera texturer på de skapade 3D‑objekten?**  
 A: Absolut! Använd `Material`‑klassen för att tilldela texturer och ytegenskaper.
 
 **Q: Finns det licensalternativ för Aspose.3D?**  
-A: Olika licensmodeller finns tillgängliga; du kan utforska dem [here](https://purchase.aspose.com/buy).
+A: Olika licensmodeller finns tillgängliga; du kan utforska dem [här](https://purchase.aspose.com/buy).
 
 **Q: Hur kan jag få hjälp eller dela erfarenheter?**  
-A: Gå med i Aspose.3D‑community‑forumet [here](https://forum.aspose.com/c/3d/18) för support och diskussion.
+A: Gå med i Aspose.3D‑community‑forumet [här](https://forum.aspose.com/c/3d/18) för support och diskussion.
 
-**Q: Finns en tillfällig licens tillgänglig för testning?**  
-A: Ja, en tillfällig licens kan erhållas för utvärdering [here](https://purchase.aspose.com/temporary-license/).
+**Q: Är en temporär licens tillgänglig för testning?**  
+A: Ja, en temporär licens kan erhållas för utvärdering [här](https://purchase.aspose.com/temporary-license/).
 
 ---
+
+**Senast uppdaterad:** 2026-02-07  
+**Testad med:** Aspose.3D för Java 24.12 (senaste)  
+**Författare:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -162,8 +184,3 @@ A: Ja, en tillfällig licens kan erhållas för utvärdering [here](https://purc
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-**Last Updated:** 2025-12-05  
-**Tested With:** Aspose.3D for Java 24.12 (latest)  
-**Author:** Aspose
