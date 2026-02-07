@@ -1,10 +1,11 @@
 ---
-date: 2025-12-08
-description: Pelajari tutorial grafis 3D Java tentang cara menambahkan tekstur menggunakan
-  Aspose.3D. Terapkan material realistis pada objek 3D di Java dengan cepat.
+date: 2026-02-07
+description: Pelajari cara menyematkan tekstur FBX dalam tutorial grafis Java 3D menggunakan
+  Aspose.3D. Perbaiki masalah tekstur yang hilang, tetapkan material mesh, dan ekspor
+  scene FBX dengan cepat.
 linktitle: Apply Materials to 3D Objects in Java with Aspose.3D
 second_title: Aspose.3D Java API
-title: tutorial grafis 3D java – Terapkan Material pada Objek 3D di Java dengan Aspose.3D
+title: Menyematkan Tekstur FBX di Java – Terapkan Material pada Objek 3D dengan Aspose.3D
 url: /id/java/geometry/apply-materials-to-3d-objects/
 weight: 14
 ---
@@ -13,38 +14,35 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Terapkan Material ke Objek 3D dalam Java dengan Aspose.3D
+# Menyematkan Tekstur FBX di Java – Terapkan Material ke Objek 3D dengan Aspose.3D
 
-## Introduction
+## Pendahuluan
 
-Dalam **java 3d graphics tutorial** ini, kami akan menunjukkan **cara menambahkan tekstur java** ke sebuah kubus 3‑D sederhana menggunakan Aspose.3D Java API. Menerapkan material dan tekstur adalah langkah kunci yang mengubah mesh datar menjadi objek realistis yang dapat Anda gunakan dalam game, visualisasi, atau demo produk. Pada akhir panduan ini Anda akan memiliki file FBX yang sepenuhnya bertekstur yang dapat dibuka di viewer 3‑D apa pun.
+Dalam **java 3d graphics tutorial** ini, kami akan menunjukkan **cara menyematkan tekstur fbx** ke dalam kubus 3‑D sederhana menggunakan Aspose.3D Java API. Menerapkan material dan tekstur adalah langkah kunci yang mengubah mesh datar menjadi objek realistis yang dapat Anda gunakan dalam game, visualisasi, atau demo produk. Pada akhir panduan ini Anda akan memiliki file FBX bertekstur penuh yang dapat Anda buka di viewer 3‑D apa pun.
 
-## Quick Answers
+## Jawaban Cepat
 - **Apa tujuan utama?** Terapkan material Phong dengan tekstur difus ke sebuah kubus.  
-- **Library mana?** Aspose.3D for Java (tersedia trial gratis).  
+- **Perpustakaan mana?** Aspose.3D for Java (versi percobaan gratis tersedia).  
 - **Berapa lama waktu yang dibutuhkan?** Sekitar 10‑15 menit untuk contoh yang berfungsi.  
 - **Apakah saya memerlukan lisensi?** Lisensi sementara diperlukan untuk build non‑evaluasi.  
 - **Format file apa yang dihasilkan?** FBX 7.4 ASCII (kompatibel dengan sebagian besar alat 3‑D).
 
-## What is a java 3d graphics tutorial?
+## Apa itu embed texture fbx?
 
-Apa itu tutorial **java 3d graphics**?
+Menyematkan tekstur langsung ke dalam file FBX berarti data tekstur ikut bersama geometri, menghilangkan masalah tekstur hilang ketika model dibuka di mesin lain. Teknik ini sangat berguna untuk alur kerja **export scene fbx** di mana Anda menginginkan satu aset yang dapat dipindahkan.
 
-Sebuah **java 3d graphics tutorial** memandu Anda melalui pembuatan, manipulasi, dan ekspor konten 3‑D menggunakan pustaka berbasis Java. Dalam kasus ini kami fokus pada penanganan material—menetapkan warna, tekstur, dan properti shading ke entitas geometris.
+## Mengapa menggunakan Aspose.3D untuk embed texture fbx?
 
-## Why use Aspose.3D to add texture java?
+Aspose.3D menawarkan API berorientasi objek yang bersih yang menyembunyikan detail tingkat rendah dari format file. Ia mendukung berbagai format (FBX, STL, OBJ, dll.) dan memungkinkan Anda **assign material mesh** properti serta menyematkan tekstur dalam satu panggilan yang lancar. Hal itu membuat lebih mudah **fix missing texture** dibandingkan dengan penyuntingan FBX manual.
 
-Mengapa menggunakan Aspose.3D untuk menambahkan tekstur java?
-
-Aspose.3D menawarkan API yang bersih dan berorientasi objek yang menyembunyikan detail tingkat rendah dari format file. Ia mendukung berbagai format (FBX, STL, OBJ, dll.) dan memungkinkan Anda menyematkan tekstur langsung ke dalam file, yang sempurna ketika Anda menginginkan satu aset yang dapat dipindahkan.
-
-## Prerequisites
+## Prasyarat
 
 - Java Development Kit (JDK 8 atau lebih tinggi) terpasang.
 - JAR Aspose.3D for Java terbaru ditambahkan ke classpath proyek Anda.
 - Pemahaman dasar tentang sintaks Java dan pemrograman berorientasi objek.
+- File tekstur (misalnya `surface.dds` atau `embedded-texture.png`) siap di disk.
 
-## Import Packages
+## Impor Paket
 
 ```java
 import com.aspose.threed.*;
@@ -103,21 +101,21 @@ PhongMaterial mat = new PhongMaterial();
 Texture diffuse = new Texture();
 ```
 
-## Langkah 8: Atur Jalur File Lokal untuk Tekstur
+## Langkah 8: Atur Jalur File Lokal untuk Texture
 
 ```java
 // The path to the documents directory.
 String MyDir = "Your Document Directory";
 ```
 
-## Langkah 9: Atur Jalur File Lokal untuk Tekstur Tersemat
+## Langkah 9: Atur Jalur File Lokal untuk Embedded Texture
 
 ```java
 // Set local file path for embedded texture
 diffuse.setFileName(MyDir + "surface.dds");
 ```
 
-## Langkah 10: Atur Tekstur pada Material
+## Langkah 10: Atur Texture pada Material
 
 ```java
 // Set Texture of the material
@@ -133,7 +131,7 @@ diffuse.setFileName("embedded-texture.png");
 diffuse.setContent(Files.readAllBytes(Paths.get(MyDir, "aspose-logo.jpg")));
 ```
 
-## Langkah 12: Atur Warna Spekular
+## Langkah 12: Atur Warna Specular
 
 ```java
 // Set specular color
@@ -167,31 +165,41 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 
 | Masalah | Alasan | Solusi |
 |---------|--------|--------|
-| **Tekstur tidak terlihat** | Jalur file salah atau format tekstur tidak didukung. | Verifikasi `MyDir` mengarah ke folder yang benar dan gunakan format yang didukung seperti `.dds` atau `.png`. |
-| **File FBX gagal dimuat** | Data tekstur tersemat hilang. | Gunakan blok opsional (Langkah 11) untuk menyematkan byte tekstur langsung ke FBX. |
-| **Material muncul hitam** | Nilai spekular atau difus tidak diatur. | Pastikan `setSpecularColor` dan `setTexture` dipanggil sebelum menyimpan. |
+| **Tekstur tidak terlihat** | Jalur file salah atau format tekstur tidak didukung. | Pastikan `MyDir` mengarah ke folder yang benar dan gunakan format yang didukung seperti `.dds` atau `.png`. |
+| **File FBX gagal dimuat** | Data tekstur yang disematkan hilang. | Gunakan blok opsional (Langkah 11) untuk menyematkan byte tekstur langsung ke dalam FBX. |
+| **Material muncul hitam** | Nilai specular atau diffuse tidak diatur. | Pastikan `setSpecularColor` dan `setTexture` dipanggil sebelum menyimpan. |
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Bisakah saya menerapkan beberapa material pada satu objek 3D?**  
-J: Ya, Aspose.3D memungkinkan Anda menetapkan material yang berbeda ke bagian mesh terpisah atau sub‑node.
+**Q: Bisakah saya menerapkan beberapa material pada satu objek 3D?**  
+A: Ya, Aspose.3D memungkinkan Anda menetapkan material yang berbeda ke bagian mesh terpisah atau sub‑node.
 
-**T: Format file apa yang didukung Aspose.3D untuk menyimpan scene?**  
-J: FBX, STL, OBJ, 3DS, dan beberapa lainnya. Lihat [dokumentasi](https://reference.aspose.com/3d/java/) resmi untuk daftar lengkap.
+**Q: Format file apa yang didukung Aspose.3D untuk menyimpan scene?**  
+A: FBX, STL, OBJ, 3DS, dan beberapa lainnya. Lihat [documentation](https://reference.aspose.com/3d/java/) resmi untuk daftar lengkap.
 
-**T: Apakah lisensi sementara tersedia untuk Aspose.3D for Java?**  
-J: Ya, Anda dapat memperoleh [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
+**Q: Apakah lisensi sementara tersedia untuk Aspose.3D for Java?**  
+A: Ya, Anda dapat memperoleh [temporary license](https://purchase.aspose.com/temporary-license/) untuk evaluasi.
 
-**T: Di mana saya dapat menemukan dukungan untuk Aspose.3D?**  
-J: [Forum Aspose.3D](https://forum.aspose.com/c/3d/18) adalah tempat terbaik untuk bantuan komunitas.
+**Q: Di mana saya dapat menemukan dukungan untuk Aspose.3D?**  
+A: [Aspose.3D forum](https://forum.aspose.com/c/3d/18) adalah tempat terbaik untuk bantuan komunitas.
 
-**T: Bisakah saya mengunduh pustaka Aspose.3D dari tautan tertentu?**  
-J: Tentu—gunakan [tautan unduhan](https://releases.aspose.com/3d/java/) untuk mendapatkan file JAR terbaru.
+**Q: Bisakah saya mengunduh library Aspose.3D dari tautan tertentu?**  
+A: Tentu—gunakan [download link](https://releases.aspose.com/3d/java/) untuk mendapatkan file JAR terbaru.
+
+**Q: Bagaimana cara memperbaiki tekstur yang hilang setelah mengekspor scene fbx?**  
+A: Pastikan tekstur baik disematkan (Langkah 11) atau jalur relatif yang digunakan dalam `setFileName` mengarah ke lokasi yang akan ikut bersama file FBX.
+
+**Q: Apakah Aspose.3D memungkinkan saya **assign material mesh** ke wajah individu?**  
+A: Ya, Anda dapat membuat beberapa instance `Material` dan menetapkannya ke bagian mesh tertentu melalui API `MeshPart`.
+
+## Kesimpulan
+
+Anda kini telah belajar cara **embed texture fbx** dalam aplikasi Java menggunakan Aspose.3D, cara **assign material mesh** properti, dan cara menghindari jebakan umum “missing texture”. Silakan bereksperimen dengan format tekstur yang berbeda, sesuaikan pengaturan specular, atau gabungkan beberapa material untuk model yang lebih kompleks. Saat Anda siap, jelajahi opsi ekspor lain seperti OBJ atau STL untuk memperluas alur kerja Anda.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-08  
-**Diuji Dengan:** Aspose.3D for Java 24.11  
+**Terakhir Diperbarui:** 2026-02-07  
+**Diuji Dengan:** Aspose.3D for Java latest release  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
