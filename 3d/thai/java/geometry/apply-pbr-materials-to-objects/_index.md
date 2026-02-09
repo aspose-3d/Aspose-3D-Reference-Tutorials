@@ -1,7 +1,7 @@
 ---
-date: 2025-12-08
+date: 2026-02-09
 description: เรียนรู้วิธีสร้างฉาก 3D ด้วย Java, ใช้วัสดุ PBR ที่สมจริงด้วย Aspose.3D,
-  และบันทึกโมเดล 3D เป็นไฟล์ STL เพื่อเรนเดอร์วัตถุ 3D ใน Java.
+  และบันทึกโมเดล 3D เป็น STL เพื่อเรนเดอร์วัตถุ 3D ใน Java.
 linktitle: Create 3D Scene Java – Apply PBR Materials with Aspose.3D
 second_title: Aspose.3D Java API
 title: 'สร้างฉาก 3D ด้วย Java: ใช้วัสดุ PBR กับ Aspose.3D'
@@ -15,45 +15,63 @@ weight: 10
 
 # สร้างฉาก 3D ด้วย Java – ใช้วัสดุ PBR กับ Aspose.3D
 
-## บทนำ
+## Introduction
 
-ในบทเรียนเชิงปฏิบัตินี้ คุณจะได้เรียนรู้ **วิธีสร้างฉาก 3D ด้วย Java** และเพิ่มวัสดุ Physically Based Rendering (PBR) ด้วยไลบรารี Aspose.3D เมื่อจบคู่มือแล้ว คุณจะสามารถเรนเดอร์พื้นผิวที่สมจริงและ **บันทึกโมเดล 3D เป็น STL** เพื่อใช้งานต่อในสายงาน 3D ใด ๆ
+ในบทแนะนำเชิงปฏิบัตินี้ คุณจะได้เรียนรู้ **วิธีสร้างฉาก 3D ด้วย Java** และเพิ่มวัสดุ Physically Based Rendering (PBR) ด้วยไลบรารี Aspose.3D โดยเมื่อจบคู่มือคุณจะสามารถเรนเดอร์พื้นผิวที่สมจริงและ **บันทึกโมเดล 3D เป็น STL** เพื่อใช้ต่อใน pipeline 3D ใด ๆ
 
-## คำตอบสั้น
-- **“create 3d scene java” หมายถึงอะไร?** เป็นกระบวนการสร้างอ็อบเจ็กต์ Scene ที่เก็บเรขาคณิต, แสง, และกล้องในแอปพลิเคชัน Java  
-- **ไลบรารีใดจัดการวัสดุ PBR?** Aspose.3D มีคลาส `PbrMaterial` พร้อมใช้  
-- **สามารถส่งออกผลลัพธ์เป็น STL ได้หรือไม่?** ได้ – เมธอด `Scene.save` รองรับ STL (ASCII และ binary)  
-- **ต้องมีไลเซนส์สำหรับการใช้งานเชิงพาณิชย์หรือไม่?** ต้องมีไลเซนส์ Aspose.3D แบบถาวรสำหรับการใช้งานเชิงพาณิชย์; ไลเซนส์ชั่วคราวใช้สำหรับการทดสอบได้  
-- **ต้องใช้ Java เวอร์ชันใด?** รองรับ Java 8+ ทุกเวอร์ชัน
+## Quick Answers
+- **What does “create 3d scene java” mean?** เป็นกระบวนการสร้างอ็อบเจ็กต์ Scene ที่เก็บเรขาคณิต, แสงสว่าง, และกล้องในแอปพลิเคชัน Java.  
+- **Which library handles PBR materials?** Aspose.3D มีคลาส `PbrMaterial` ที่พร้อมใช้.  
+- **Can I export the result as STL?** ได้ – เมธอด `Scene.save` รองรับ STL (ASCII และ binary).  
+- **Do I need a license for production?** ต้องมีไลเซนส์ Aspose.3D แบบถาวรสำหรับการใช้งานเชิงพาณิชย์; ไลเซนส์ชั่วคราวใช้ได้สำหรับการทดสอบ.  
+- **What Java version is required?** รองรับ Java 8+ ใด ๆ
 
-## 3D scene ใน Java คืออะไร?
+## How to create 3d scene java with Aspose.3D
 
-*scene* คือคอนเทนเนอร์ที่เก็บอ็อบเจ็กต์ทั้งหมด (nodes) รวมถึงเรขาคณิต, วัสดุ, แสง, และกล้อง คิดว่าเป็นเวทีเสมือนที่คุณวางโมเดล 3D ของคุณ Aspose.3D มีคลาส `Scene` ที่ให้คุณสร้างเวทีนี้แบบอ็อบเจ็กต์‑ออเรียนเทดได้อย่างเป็นระบบ
+ก่อนที่เราจะลงลึกในโค้ด ให้ทำความเข้าใจกันว่าการสร้างฉาก 3D ด้วยโปรแกรมมีคุณค่าอย่างไร ไม่ว่าคุณจะเตรียม assets สำหรับเกมเอนจิ้น, สร้างโมเดลสำหรับการพิมพ์ 3‑D, หรือทำการแสดงผลผลิตภัณฑ์สำหรับเว็บไซต์ e‑commerce การควบคุม geometry, materials, และรูปแบบการส่งออกอย่างเต็มที่ทำให้คุณสามารถอัตโนมัติกระบวนการที่ทำซ้ำได้และรักษาการควบคุมเวอร์ชันของทุกอย่าง
 
-## ทำไมต้องใช้วัสดุ PBR สำหรับการเรนเดอร์วัตถุ 3D ใน Java?
+### Why this matters
 
-PBR (Physically Based Rendering) จำลองการโต้ตอบของแสงกับวัสดุในโลกจริงโดยใช้พารามิเตอร์เช่น metallic และ roughness ผลลัพธ์คือการแสดงผลที่ดูสมจริงมากขึ้นในสภาพแสงต่าง ๆ ซึ่งมีประโยชน์อย่างยิ่งสำหรับการแสดงผลสินค้า, เกม, หรือประสบการณ์ AR/VR
+* **Consistency** – พารามิเตอร์วัสดุเดียวกันจะถูกนำไปใช้ทุกครั้ง ลดการปรับแต่งด้วยมือใน 3D editor.  
+* **Automation** – คุณสามารถสร้างหลายสิบแบบแปรต่าง ๆ (สีต่าง ๆ, ระดับความหยาบ, หรือขนาด) ด้วยลูปง่าย ๆ.  
+* **Cross‑platform** – ไฟล์ STL สามารถนำไปใช้กับเครื่องมือ downstream ใดก็ได้ ตั้งแต่ Blender จนถึง slicer สำหรับเครื่องพิมพ์ 3‑D.
 
-## ข้อกำหนดเบื้องต้น
+## What is a 3D scene in Java?
 
-ก่อนเริ่มทำตามขั้นตอน ให้ตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
+*scene* คือคอนเทนเนอร์ที่เก็บอ็อบเจ็กต์ทั้งหมด (nodes) พร้อม geometry, materials, lights, และ cameras คิดว่าเป็นเวทีเสมือนที่คุณวางโมเดล 3D ของคุณ Aspose.3D’s `Scene` class ให้วิธีการเชิงวัตถุที่สะอาดเพื่อสร้างเวทีนี้โดยโปรแกรม
 
-1. **สภาพแวดล้อมการพัฒนา Java** – ติดตั้ง JDK 8 หรือใหม่กว่า  
-2. **ไลบรารี Aspose.3D** – ดาวน์โหลด JAR ล่าสุดจาก [ลิงก์ดาวน์โหลด](https://releases.aspose.com/3d/java/)  
-3. **เอกสารอ้างอิง** – ทำความคุ้นเคยกับ API ผ่าน [เอกสารอย่างเป็นทางการ](https://reference.aspose.com/3d/java/)  
-4. **ไลเซนส์ชั่วคราว (ไม่บังคับ)** – หากยังไม่มีไลเซนส์ถาวร สามารถรับ [ไลเซนส์ชั่วคราว](https://purchase.aspose.com/temporary-license/) สำหรับการทดสอบ
+## Why use PBR materials for rendering 3D objects in Java?
 
-## นำเข้าแพ็กเกจ
+PBR (Physically Based Rendering) จำลองการโต้ตอบของแสงในโลกจริงโดยใช้พารามิเตอร์เช่น metallic และ roughness factor ผลลัพธ์คือรูปลักษณ์ที่น่าเชื่อถือยิ่งขึ้นในสภาพแสงต่าง ๆ ซึ่งมีคุณค่าสำหรับการแสดงผลผลิตภัณฑ์, เกม, หรือประสบการณ์ AR/VR
 
-เพิ่มเนมสเปซ Aspose.3D ลงในไฟล์ซอร์ส Java ของคุณ:
+## Prerequisites
+
+ก่อนที่เราจะเริ่ม โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
+
+1. **Java Development Environment** – ติดตั้ง JDK 8 หรือใหม่กว่า.  
+2. **Aspose.3D Library** – ดาวน์โหลด JAR ล่าสุดจาก [download link](https://releases.aspose.com/3d/java/).  
+3. **Documentation** – ทำความคุ้นเคยกับ API ผ่าน [documentation](https://reference.aspose.com/3d/java/).  
+4. **Temporary License (Optional)** – หากคุณไม่มีไลเซนส์ถาวร ให้รับ [temporary license](https://purchase.aspose.com/temporary-license/) สำหรับการทดสอบ.
+
+## Common use cases
+
+| Use case | How the tutorial helps |
+|----------|------------------------|
+| **3‑D printing** | การส่งออกเป็น STL ทำให้คุณส่งโมเดลตรงไปยัง slicer ได้. |
+| **Game asset pipeline** | พารามิเตอร์วัสดุ PBR ตรงกับความคาดหวังของเอนจิ้นเกมสมัยใหม่. |
+| **Product configurator** | อัตโนมัติการเปลี่ยนสี/พื้นผิวโดยปรับค่า metallic/roughness. |
+
+## Import Packages
+
+เพิ่ม namespace ของ Aspose.3D ลงในไฟล์ซอร์ส Java ของคุณ:
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## ขั้นตอนที่ 1: เริ่มต้น Scene
+## Step 1: Initialize a Scene
 
-สร้างฉากที่จะทำหน้าที่เป็นผ้าใบสำหรับเรขาคณิตและวัสดุของคุณ
+สร้างฉากที่จะทำหน้าที่เป็นแคนวาสสำหรับ geometry และ materials ของคุณ
 
 ```java
 // ExStart:InitializeScene
@@ -62,11 +80,13 @@ Scene scene = new Scene();
 // ExEnd:InitializeScene
 ```
 
-> **เคล็ดลับ:** ให้ `MyDir` ชี้ไปยังโฟลเดอร์ที่สามารถเขียนได้; มิฉะนั้นคำสั่ง `save` จะล้มเหลว
+> **Pro tip:** Keep `MyDir` pointing to a write‑able folder; otherwise the `save` call will fail.
 
-## ขั้นตอนที่ 2: เริ่มต้นวัสดุ PBR
+> **เคล็ดลับ:** ให้ `MyDir` ชี้ไปยังโฟลเดอร์ที่สามารถเขียนได้; มิฉะนั้นคำสั่ง `save` จะล้มเหลว.
 
-กำหนดค่าวัสดุ PBR ด้วยค่า metallic และ roughness ที่ให้ลักษณะเหมือนโลหะ
+## Step 2: Initialize a PBR Material
+
+กำหนดค่า PBR material ด้วยค่าทางโลหะและความหยาบที่ให้ลักษณะเหมือนโลหะ
 
 ```java
 // ExStart:InitializePBRMaterial
@@ -76,11 +96,13 @@ mat.setRoughnessFactor(0.9);
 // ExEnd:InitializePBRMaterial
 ```
 
-> **ทำไมต้องใช้ค่าดังกล่าว?** ปัจจัย metallic สูง (≈ 0.9) ทำให้พื้นผิวทำหน้าที่เหมือนโลหะ, ส่วน roughness สูง (≈ 0.9) เพิ่มการกระจายแสงเล็กน้อย ป้องกันไม่ให้เป็นกระจกเงาแบบสมบูรณ์
+> **Why these values?** A high metallic factor (≈ 0.9) makes the surface behave like metal, while a high roughness (≈ 0.9) adds subtle diffusion, preventing a perfect mirror finish.
 
-## ขั้นตอนที่ 3: สร้างวัตถุ 3D และใช้วัสดุ
+> **ทำไมต้องใช้ค่าดังกล่าว?** ค่า metallic สูง (≈ 0.9) ทำให้พื้นผิวทำงานเหมือนโลหะ, ส่วนค่า roughness สูง (≈ 0.9) เพิ่มการกระจายแสงเล็กน้อย ป้องกันไม่ให้ได้ผิวเงาแบบกระจกสมบูรณ์.
 
-ที่นี่เราจะสร้างเรขาคณิตกล่องง่าย ๆ, แนบเข้ากับโหนดรากของฉาก, และกำหนดวัสดุ PBR ที่สร้างขึ้น
+## Step 3: Create a 3D Object and Apply the Material
+
+ที่นี่เราจะสร้าง geometry กล่องง่าย ๆ, เชื่อมต่อกับโหนดรากของฉาก, และกำหนด PBR material ที่เราสร้างไว้
 
 ```java
 // ExStart:Create3DObject
@@ -89,11 +111,13 @@ boxNode.setMaterial(mat);
 // ExEnd:Create3DObject
 ```
 
-> **ข้อผิดพลาดทั่วไป:** ลืมตั้งค่าวัสดุให้กับโหนดจะทำให้วัตถุแสดงผลด้วยลักษณะเริ่มต้น (ไม่ใช่ PBR)
+> **Common pitfall:** Forgetting to set the material on the node will leave the object with the default (non‑PBR) appearance.
 
-## ขั้นตอนที่ 4: บันทึกฉาก 3D (ส่งออกเป็น STL)
+> **ข้อผิดพลาดทั่วไป:** ลืมกำหนดวัสดุให้กับโหนด จะทำให้วัตถุแสดงผลด้วยลักษณะเริ่มต้น (non‑PBR).
 
-ส่งออกฉากทั้งหมดรวมถึงกล่องที่ได้รับการปรับปรุงด้วย PBR ไปเป็นไฟล์ STL STL เป็นฟอร์แมตที่รองรับอย่างกว้างขวางสำหรับการพิมพ์ 3‑D และการตรวจสอบภาพอย่างรวดเร็ว
+## Step 4: Save the 3D Scene (STL Export)
+
+ส่งออกฉากทั้งหมด—รวมถึงกล่องที่เพิ่ม PBR—เป็นไฟล์ STL. STL เป็นฟอร์แมตที่ได้รับการสนับสนุนอย่างกว้างขวางสำหรับการพิมพ์ 3‑D และการตรวจสอบภาพอย่างรวดเร็ว
 
 ```java
 // ExStart:Save3DScene
@@ -101,42 +125,48 @@ scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
 // ExEnd:Save3DScene
 ```
 
-คุณยังสามารถเลือก `FileFormat.STLBINARY` หากต้องการไฟล์ขนาดเล็กกว่า
+คุณสามารถเลือก `FileFormat.STLBINARY` หากต้องการขนาดไฟล์ที่เล็กลง
 
-## ปัญหาที่พบบ่อยและวิธีแก้
+### Troubleshooting tips
+
+| Issue | Likely cause | Fix |
+|-------|--------------|-----|
+| **File not saved** | `MyDir` points to a non‑existent folder or lacks write permission | Verify the directory exists and your Java process has write access |
+| **Material appears flat** | Metallic/Roughness values set to 0 | Increase `setMetallicFactor` and/or `setRoughnessFactor` |
+| **STL file cannot be opened** | Wrong file format flag (ASCII vs Binary) for the viewer | Use the matching `FileFormat` enum for your target viewer |
 
 | ปัญหา | สาเหตุที่เป็นไปได้ | วิธีแก้ |
 |-------|-------------------|--------|
-| **ไฟล์ไม่ถูกบันทึก** | `MyDir` ชี้ไปยังโฟลเดอร์ที่ไม่มีอยู่หรือไม่มีสิทธิ์เขียน | ตรวจสอบว่าโฟลเดอร์มีอยู่และกระบวนการ Java มีสิทธิ์เขียน |
-| **วัสดุดูแบน** | ค่า Metallic/Roughness ตั้งเป็น 0 | เพิ่มค่า `setMetallicFactor` และ/หรือ `setRoughnessFactor` |
-| **ไม่สามารถเปิดไฟล์ STL** | ใช้ flag ฟอร์แมตไฟล์ไม่ตรง (ASCII vs Binary) กับโปรแกรมดู | ใช้ค่า `FileFormat` ที่ตรงกับโปรแกรมดูของคุณ |
+| **File not saved** | `MyDir` ชี้ไปยังโฟลเดอร์ที่ไม่มีอยู่หรือไม่มีสิทธิ์เขียน | ตรวจสอบว่าโฟลเดอร์มีอยู่และกระบวนการ Java ของคุณมีสิทธิ์เขียน |
+| **Material appears flat** | ค่า Metallic/Roughness ตั้งเป็น 0 | เพิ่มค่า `setMetallicFactor` และ/หรือ `setRoughnessFactor` |
+| **STL file cannot be opened** | ใช้แฟล็กรูปแบบไฟล์ผิด (ASCII vs Binary) สำหรับโปรแกรมดู | ใช้ enum `FileFormat` ที่ตรงกับโปรแกรมดูของคุณ |
 
-## คำถามที่พบบ่อย
+## Frequently Asked Questions
 
-**ถาม: สามารถใช้ Aspose.3D ในโครงการเชิงพาณิชย์ได้หรือไม่?**  
-ตอบ: ใช่. สามารถซื้อไลเซนส์เชิงพาณิชย์ได้จาก [หน้าซื้อสินค้า](https://purchase.aspose.com/buy)
+**Q: Can I use Aspose.3D for commercial projects?**  
+A: Yes. Purchase a commercial license on the [purchase page](https://purchase.aspose.com/buy).
 
-**ถาม: จะขอรับการสนับสนุนสำหรับ Aspose.3D ได้อย่างไร?**  
-ตอบ: เข้าร่วมชุมชนใน [ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) เพื่อรับความช่วยเหลือฟรี หรือเปิดทิกเก็ตสนับสนุนพร้อมไลเซนส์ที่ใช้งานได้
+**Q: How do I get support for Aspose.3D?**  
+A: Join the community on the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for free assistance, or open a support ticket with a valid license.
 
-**ถาม: มีรุ่นทดลองฟรีหรือไม่?**  
-ตอบ: มีแน่นอน. ดาวน์โหลดรุ่นทดลองจาก [หน้ารุ่นทดลองฟรี](https://releases.aspose.com/)
+**Q: Is there a free trial available?**  
+A: Absolutely. Download a trial version from the [free trial page](https://releases.aspose.com/).
 
-**ถาม: จะหาเอกสารรายละเอียดของ Aspose.3D ได้จากที่ไหน?**  
-ตอบ: เอกสาร API ทั้งหมดพร้อมใช้งานที่ [เอกสารอย่างเป็นทางการ](https://reference.aspose.com/3d/java/)
+**Q: Where can I find detailed documentation for Aspose.3D?**  
+A: All API references are available at the official [documentation](https://reference.aspose.com/3d/java/).
 
-**ถาม: จะขอรับไลเซนส์ชั่วคราวสำหรับการทดสอบได้อย่างไร?**  
-ตอบ: ขอได้ผ่าน [ลิงก์ไลเซนส์ชั่วคราว](https://purchase.aspose.com/temporary-license/)
+**Q: How do I obtain a temporary license for testing?**  
+A: Request one via the [temporary license link](https://purchase.aspose.com/temporary-license/).
 
-## สรุป
+## Conclusion
 
-คุณได้ **สร้างฉาก 3D ด้วย Java**, ใช้วัสดุ PBR ที่สมจริง, และส่งออกผลลัพธ์เป็นไฟล์ STL ด้วย Aspose.3D แล้ว กระบวนการนี้ให้พื้นฐานที่มั่นคงสำหรับการสร้างการแสดงผลที่ลึกซึ้งขึ้น, เตรียมทรัพยากรสำหรับการพิมพ์ 3‑D, หรือส่งโมเดลเข้าสู่เอนจินเกมต่าง ๆ
+คุณได้ **สร้างฉาก 3D ด้วย Java**, ใช้วัสดุ PBR ที่สมจริง, และส่งออกผลลัพธ์เป็นไฟล์ STL ด้วย Aspose.3D แล้ว Workflow นี้ให้พื้นฐานที่แข็งแกร่งสำหรับการสร้างการแสดงผลที่ลึกซึ้งขึ้น, เตรียม assets สำหรับการพิมพ์ 3‑D, หรือส่งโมเดลเข้าสู่เอนจิ้นเกม
 
 ---
 
-**อัปเดตล่าสุด:** 2025-12-08  
-**ทดสอบด้วย:** Aspose.3D 24.12 (ล่าสุด)  
-**ผู้เขียน:** Aspose  
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.3D 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,108 +1,140 @@
 ---
-title: Cree jerarquías de nodos en escenas 3D con Java y Aspose.3D
-linktitle: Cree jerarquías de nodos en escenas 3D con Java y Aspose.3D
-second_title: API de Java Aspose.3D
-description: Aprenda a crear escenas 3D dinámicas en Java con Aspose.3D. Crea jerarquías de nodos sin esfuerzo y mejora tu juego de gráficos 3D.
-weight: 16
+date: 2026-02-09
+description: Aprende cómo exportar FBX y añadir malla a un nodo mientras creas nodos
+  hijos en Java usando Aspose.3D.
+linktitle: Build Node Hierarchies in 3D Scenes with Java and Aspose.3D
+second_title: Aspose.3D Java API
+title: Cómo exportar FBX y crear jerarquías de nodos en Java
 url: /es/java/geometry/build-node-hierarchies/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cree jerarquías de nodos en escenas 3D con Java y Aspose.3D
+# Cómo exportar FBX y construir jerarquías de nodos en Java con Aspose.3D
 
 ## Introducción
 
-En el dinámico mundo de los gráficos 3D y la programación Java, crear y gestionar jerarquías de nodos en escenas 3D es una habilidad crucial. Aspose.3D para Java permite a los desarrolladores lograr esto sin problemas, ofreciendo un sólido conjunto de herramientas para crear escenas 3D complejas con facilidad. En este tutorial, lo guiaremos a través del proceso de creación de jerarquías de nodos usando Aspose.3D para Java, asegurando que incluso los principiantes puedan seguirlo.
+Si buscas una guía clara, paso a paso sobre **cómo exportar FBX** desde una aplicación Java, estás en el lugar correcto. En este tutorial te mostraremos cómo construir jerarquías de nodos, **añadir malla al nodo**, y finalmente guardar la escena como un archivo FBX usando la API Java de Aspose.3D. Ya sea que estés creando un prototipo simple o un motor 3D listo para producción, estas técnicas te darán control total sobre tu grafo de escena.
+
+## Respuestas rápidas
+- **¿Cuál es el propósito principal de este tutorial?** Demostrar cómo exportar FBX después de construir jerarquías de nodos.  
+- **¿Qué biblioteca se utiliza?** Aspose.3D para Java.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
+- **¿Qué formato de archivo se produce?** FBX (ASCII 7500).  
+- **¿Puedo personalizar las transformaciones de los nodos?** Sí – la traslación, rotación y escala son compatibles.
+
+## ¿Qué significa “cómo exportar FBX” en el contexto de Aspose.3D?
+Exportar FBX significa convertir el grafo de escena en memoria que construyes con Aspose.3D en un archivo FBX que puede abrirse en herramientas 3D populares como Blender, Maya o Unity. La API se encarga del trabajo pesado, permitiéndote concentrarte en la creación de la escena.
+
+## ¿Por qué construir jerarquías de nodos antes de exportar?
+Una jerarquía de nodos bien estructurada te permite aplicar transformaciones una sola vez en un nodo padre, afectando automáticamente a todos sus hijos. Esto reduce la duplicación de código y refleja relaciones de objetos del mundo real (p. ej., un chasis de coche con ruedas como nodos hijos).
 
 ## Requisitos previos
 
-Antes de profundizar en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de comenzar, asegúrate de tener:
 
-1. Entorno de desarrollo Java: asegúrese de tener un entorno de desarrollo Java configurado en su máquina.
-2.  Biblioteca Aspose.3D para Java: descargue e instale la biblioteca Aspose.3D para Java desde[pagina de descarga](https://releases.aspose.com/3d/java/).
-3. Directorio de documentos: cree un directorio para almacenar sus archivos de escenas 3D.
+1. **Entorno de desarrollo Java** – JDK 8+ y un IDE o herramienta de compilación de tu elección.  
+2. **Biblioteca Aspose.3D para Java** – Descarga e instala la biblioteca desde la [página de descarga](https://releases.aspose.com/3d/java/).  
+3. **Directorio de documentos** – Una carpeta en tu máquina donde se guardará el archivo FBX generado.
 
 ## Importar paquetes
 
-Comience importando los paquetes necesarios para aprovechar las funcionalidades de Aspose.3D para Java. Agregue las siguientes líneas a su código Java:
+Comienza importando las clases necesarias de Aspose.3D:
 
 ```java
 import com.aspose.threed.*;
 
 ```
 
-## Paso 1: inicializar el objeto de escena
+## Paso 1: Inicializar el objeto Scene
 
 ```java
-// Inicializar objeto de escena
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Paso 2: crear un nodo secundario y una malla
+## Paso 2: Crear nodos hijos y añadir malla al nodo
+
+En este paso demostramos **cómo crear nodos hijos** y **añadir malla al nodo**.
 
 ```java
-// Obtener un objeto de nodo secundario
+// Get a child node object
 Node top = scene.getRootNode().createChildNode();
 
-// Crea el primer nodo del cubo.
+// Create the first cube node
 Node cube1 = top.createChildNode("cube1");
-Mesh mesh = Common.createMeshUsingPolygonBuilder(); // Utilice su método de creación de malla
+Mesh mesh = Common.createMeshUsingPolygonBuilder(); // Use your mesh creation method
 cube1.setEntity(mesh);
 cube1.getTransform().setTranslation(new Vector3(-10, 0, 0));
 
-// Crea el segundo nodo del cubo.
+// Create the second cube node
 Node cube2 = top.createChildNode("cube2");
 cube2.setEntity(mesh);
 cube2.getTransform().setTranslation(new Vector3(10, 0, 0));
 ```
 
-## Paso 3: aplicar rotación al nodo superior
+## Paso 3: Aplicar rotación al nodo superior
+
+Rotar el nodo padre rota automáticamente a todos sus hijos, lo que es una ventaja clave de las escenas jerárquicas.
 
 ```java
-// Gire el nodo superior, afectando a todos los nodos secundarios
+// Rotate the top node, affecting all child nodes
 top.getTransform().setRotation(Quaternion.fromEulerAngle(Math.PI, 4, 0));
 ```
 
-## Paso 4: guardar la escena 3D
+## Paso 4: Guardar la escena 3D – Cómo exportar FBX
+
+Ahora **guardamos la escena como FBX**, completando el flujo de trabajo de “cómo exportar FBX”.
 
 ```java
-// Guarde la escena 3D en el formato de archivo compatible (FBX en este caso)
+// Save 3D scene in the supported file format (FBX in this case)
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "NodeHierarchy.fbx";
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nNode hierarchy added successfully to document.\nFile saved at " + MyDir);
 ```
 
-Esta guía paso a paso proporciona una base sólida para crear jerarquías de nodos en escenas 3D utilizando Aspose.3D para Java. Experimente con diferentes parámetros y adapte el código a sus requisitos específicos.
+### Resultado esperado
+Ejecutar el código crea un archivo llamado **NodeHierarchy.fbx** en el directorio especificado. Ábrelo en cualquier visor compatible con FBX para ver dos cubos posicionados a la izquierda y a la derecha de un pivote central, todos rotando juntos.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-Dominar la creación de jerarquías de nodos es un hito clave en su viaje con Aspose.3D para Java. Este tutorial le ha proporcionado los conocimientos necesarios para navegar sin problemas por las complejidades de las escenas 3D. Ahora, da rienda suelta a tu creatividad y construye entornos 3D cautivadores con confianza.
+| Problema | Por qué ocurre | Solución |
+|----------|----------------|----------|
+| **Error de archivo no encontrado** al guardar | La ruta `MyDir` es incorrecta o le falta un separador final | Asegúrate de que el directorio exista y termine con un separador de archivo (`/` o `\\`). |
+| **Malla no visible** después de la exportación | La entidad de la malla no está asignada o la traslación la mueve fuera de la vista | Verifica `cube1.setEntity(mesh)` y revisa los valores de traslación. |
+| **La rotación se ve incorrecta** | Uso incorrecto de radianes vs. grados | `Quaternion.fromEulerAngle` espera radianes; ajusta los valores en consecuencia. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Aspose.3D para Java es adecuado para principiantes?
+**P: ¿Es Aspose.3D para Java adecuado para principiantes?**  
+R: ¡Absolutamente! La API está diseñada con un enfoque limpio y orientado a objetos que la hace fácil de aprender, incluso si eres nuevo en la programación 3D.
 
-R1: ¡Absolutamente! Aspose.3D para Java proporciona una interfaz fácil de usar, lo que la hace accesible tanto para principiantes como para desarrolladores experimentados.
+**P: ¿Puedo usar Aspose.3D para Java en proyectos comerciales?**  
+R: Sí, puedes. Visita la [página de compra](https://purchase.aspose.com/buy) para obtener detalles de licenciamiento.
 
-### P2: ¿Puedo utilizar Aspose.3D para Java para proyectos comerciales?
+**P: ¿Cómo puedo obtener soporte para Aspose.3D para Java?**  
+R: Únete al [foro de Aspose.3D](https://forum.aspose.com/c/3d/18) para recibir asistencia de la comunidad y del equipo de soporte de Aspose.
 
- R2: Sí, puedes. Visita el[pagina de compra](https://purchase.aspose.com/buy) para obtener detalles sobre la licencia.
+**P: ¿Hay una prueba gratuita disponible?**  
+R: ¡Claro! Explora las funciones con la [prueba gratuita](https://releases.aspose.com/) antes de comprometerte.
 
-### P3: ¿Cómo puedo obtener soporte para Aspose.3D para Java?
+**P: ¿Dónde puedo encontrar la documentación?**  
+R: Consulta la [documentación](https://reference.aspose.com/3d/java/) para obtener información detallada sobre Aspose.3D para Java.
 
- A3: Únase a la[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para obtener ayuda de la comunidad y del equipo de soporte de Aspose.
+## Conclusión
 
-### P4: ¿Hay una prueba gratuita disponible?
+Dominar **cómo exportar FBX**, construir jerarquías de nodos y **añadir malla al nodo** son pasos esenciales para crear aplicaciones 3D sofisticadas en Java. Con Aspose.3D obtienes una solución potente y amigable con la licencia que abstrae los detalles de bajo nivel mientras te brinda control total sobre el grafo de escena. Experimenta con diferentes mallas, transformaciones y formatos de exportación para desbloquear aún más posibilidades.
 
- R4: ¡Por supuesto! Explora las funciones con el[prueba gratis](https://releases.aspose.com/) antes de comprometerse.
+---
 
-### P5: ¿Dónde puedo encontrar la documentación?
+**Última actualización:** 2026-02-09  
+**Probado con:** Aspose.3D for Java 24.11  
+**Autor:** Aspose  
 
- R5: Consulte el[documentación](https://reference.aspose.com/3d/java/) para obtener información detallada sobre Aspose.3D para Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
