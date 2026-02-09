@@ -1,11 +1,11 @@
 ---
-date: 2025-12-04
-description: Pelajari cara menganimasikan 3D di Java menggunakan Aspose.3D. Panduan
-  ini menunjukkan cara menambahkan animasi dan membuat adegan 3D animasi dengan kamera
-  target.
-linktitle: How to Animate 3D in Java – Aspose.3D Tutorial
+date: 2026-02-09
+description: Pelajari cara membuat adegan 3D animasi di Java dengan Aspose.3D, mencakup
+  animasi keyframe, mengatur durasi animasi, animasi beberapa objek, dan mengekspor
+  file FBX animasi.
+linktitle: Create an Animated 3D Scene in Java – Aspose.3D Tutorial
 second_title: Aspose.3D Java API
-title: Cara Menganimasi 3D di Java – Tutorial Aspose.3D
+title: Buat Adegan 3D Animasi dalam Java – Tutorial Aspose.3D
 url: /id/java/animations/
 weight: 20
 ---
@@ -14,77 +14,95 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Menganimasikan 3D di Java
+# Cara Membuat Adegan 3D Animasi di Java
 
-## Pendahuluan
+## Introduction
 
-Jika Anda mencari **cara menganimasikan 3d** dalam aplikasi Java, Anda berada di tempat yang tepat. Dalam seri tutorial Aspose.3D untuk Java ini kami akan memandu Anda melalui semua yang diperlukan untuk memberikan gerakan, kehidupan, dan sentuhan sinematik pada adegan 3‑D Anda. Baik Anda sedang membangun sebuah game, visualizer produk, atau simulasi interaktif, menguasai animasi adalah kunci untuk pengalaman pengguna yang menarik.
+Jika Anda mencari **cara menganimasikan 3d** dalam aplikasi Java, Anda berada di tempat yang tepat. Dalam seri tutorial Aspose.3D untuk Java ini, kami akan memandu Anda melalui semua yang diperlukan untuk membangun **adegan 3D animasi**, menambahkan gerakan, kehidupan, dan sentuhan sinematik ke proyek 3‑D Anda. Baik Anda mengembangkan game, visualizer produk, atau simulasi interaktif, menguasai animasi—dan mengetahui cara **mengekspor FBX animasi**—memberikan keunggulan untuk menyajikan pengalaman pengguna yang menarik.
 
-## Jawaban Cepat
-- **Apa langkah pertama untuk menganimasikan 3D di Java?** Impor library Aspose.3D dan buat objek `Scene`.  
-- **Kelas mana yang menyimpan data animasi?** Kelas `Animation` dan `AnimationTrack` menyimpan informasi key‑frame.  
-- **Apakah saya memerlukan kamera terpisah untuk animasi?** Kamera target bersifat opsional tetapi memberikan kontrol yang tepat atas transisi sudut pandang.  
-- **Apakah lisensi diperlukan untuk produksi?** Ya, lisensi komersial Aspose.3D diperlukan untuk build non‑evaluasi.  
-- **Bisakah saya menggabungkan beberapa animasi?** Tentu – Anda dapat menumpuk track posisi, rotasi, dan skala pada node yang sama.
+## Quick Answers
+- **What is the first step to animate 3D in Java?** Import the Aspose.3D library and create a `Scene` object.  
+- **Which class holds animation data?** `Animation` and `AnimationTrack` classes store key‑frame information.  
+- **Do I need a separate camera for animations?** A target camera is optional but gives you precise control over viewpoint transitions.  
+- **Is a license required for production?** Yes, a commercial Aspose.3D license is needed for non‑evaluation builds.  
+- **Can I combine multiple animations?** Absolutely – you can layer position, rotation, and scaling tracks on the same node.
 
-## Apa itu “cara menganimasikan 3d” dalam konteks Aspose.3D?
-Menganimasikan objek 3D berarti mendefinisikan bagaimana properti mereka (posisi, rotasi, skala, material, dll.) berubah seiring waktu. Aspose.3D menyediakan API yang fluida yang memungkinkan Anda membuat key‑frame, menetapkannya ke node, dan memutarnya selama runtime.
+## What is “how to animate 3d” in the context of Aspose.3D?
+Menganimasikan objek 3D berarti mendefinisikan bagaimana properti mereka (posisi, rotasi, skala, material, dll.) berubah seiring waktu. Aspose.3D menyediakan API yang fluida yang memungkinkan Anda membuat urutan **keyframe animation Java**, menetapkannya ke node, dan memutarnya selama runtime.
 
-## Mengapa menggunakan Aspose.3D untuk animasi Java?
-- **API sederhana dan fluida** – Tidak perlu menyelam ke dalam pipeline grafis tingkat rendah.  
-- **Lintas‑platform** – Berfungsi di Windows, Linux, dan macOS.  
-- **Set fitur lengkap** – Mendukung animasi skeletal, morph target, dan jalur kamera secara bawaan.  
-- **Kontrol penuh** – Gabungkan beberapa track animasi untuk membuat urutan gerakan yang kompleks.
+## Why use Aspose.3D for Java animations?
+- **Simple, fluent API** – No need to dive into low‑level graphics pipelines.  
+- **Cross‑platform** – Works on Windows, Linux, and macOS.  
+- **Rich feature set** – Supports skeletal animation, morph targets, and camera paths out of the box.  
+- **Full control** – Combine multiple animation tracks for complex motion, set animation duration, and **export animated FBX** files for downstream pipelines.  
 
-## Prasyarat
+## Prerequisites
 - Java 8 atau yang lebih baru terpasang.  
-- Library Aspose.3D untuk Java (unduh dari situs web Aspose).  
-- Lisensi Aspose.3D yang valid untuk penggunaan produksi (tersedia trial gratis).  
+- Aspose.3D for Java library (download from the Aspose website).  
+- A valid Aspose.3D license for production use (free trial available).  
 
-## Menambahkan Properti Animasi ke Adegan 3D di Java
+## Adding Animation Properties to 3D Scenes in Java
 
 ### [Aspose.3D Tutorial - Add Animation Properties to Scenes](./add-animation-properties-to-scenes/)
 
-Pada tahap pertama perjalanan kami, kami akan mengeksplorasi cara **menambahkan animasi** ke adegan 3D Anda. Bayangkan proyek berbasis Java Anda menjadi hidup dengan gerakan halus dan efek dinamis. Tutorial langkah‑demi‑langkah kami memastikan integrasi properti animasi yang mulus, memungkinkan Anda menghidupkan kreasi dengan mudah. Temukan keajaiban [di sini](./add-animation-properties-to-scenes/) dan saksikan transformasi adegan statis menjadi karya animasi yang menakjubkan.
+Pada tahap pertama perjalanan kami, kami akan mengeksplorasi cara **menambahkan animasi** ke adegan 3D Anda. Bayangkan proyek berbasis Java Anda menjadi hidup dengan gerakan halus dan efek dinamis. Tutorial langkah‑demi‑langkah kami memastikan integrasi properti animasi yang mulus, memungkinkan Anda memberi napas kehidupan pada kreasi Anda dengan mudah. Temukan keajaibannya [di sini](./add-animation-properties-to-scenes/) dan saksikan transformasi adegan statis menjadi karya animasi yang menakjubkan.
 
-## Menyiapkan Kamera Target untuk Animasi 3D di Java
+## Setting Up Target Camera for 3D Animations in Java
 
 ### [Aspose.3D Tutorial - Set Up Target Camera](./set-up-target-camera/)
 
-Selanjutnya dalam petualangan kami, kami menyelami seluk‑beluk menyiapkan kamera target untuk animasi 3D Java. Elemen penting untuk mencapai efek sinematik, kamera target membuka dunia kemungkinan. Tutorial kami memandu Anda melalui proses tersebut, menawarkan peta jalan yang jelas untuk eksplorasi animasi 3D Java yang mudah. Unduh sekarang, dan biarkan perjalanan pengembangan 3D yang memukau dimulai! Jelajahi tutorial [di sini](./set-up-target-camera/) untuk melepaskan kekuatan storytelling visual dalam proyek Anda.
+Selanjutnya dalam petualangan kami, kami menyelami seluk‑beluk penyiapan kamera target untuk animasi 3D Java. Elemen penting untuk mencapai efek sinematik, kamera target membuka dunia kemungkinan. Tutorial kami membimbing Anda melalui proses, menawarkan peta jalan yang jelas untuk eksplorasi animasi 3D Java yang mudah. Unduh sekarang, dan biarkan perjalanan pengembangan 3D yang memukau dimulai! Jelajahi tutorial [di sini](./set-up-target-camera/) untuk melepaskan kekuatan storytelling visual dalam proyek Anda.
 
-## Cara Membuat Adegan 3D Animasi di Java
-Membuat **adegan 3D animasi** melibatkan tiga langkah utama:
+## How to Build an Animated 3D Scene in Java
+Creating an **animated 3D scene** involves three main steps:
 
-1. **Mendefinisikan geometri** – memuat atau membangun mesh, cahaya, dan kamera.  
-2. **Membuat track animasi** – menentukan key‑frame untuk translasi, rotasi, atau skala.  
-3. **Melampirkan track ke node adegan** – mesin akan menginterpolasi nilai selama pemutaran.
+1. **Define the geometry** – load or construct meshes, lights, and cameras.  
+2. **Create animation tracks** – specify key‑frames for translation, rotation, or scaling.  
+3. **Attach tracks to scene nodes** – the engine will interpolate values during playback.
 
-Dengan mengikuti dua tutorial di atas, Anda akan memiliki alur lengkap untuk **membuat adegan 3D animasi** yang dapat diekspor ke format populer seperti FBX atau OBJ.
+By following the two tutorials above, you’ll have a complete pipeline to **create animated 3D scenes** that can be exported to popular formats like FBX or OBJ. Remember to **set animation duration** with `animation.setDuration(seconds)` so your playback runs exactly as expected.
 
-## Kesalahan Umum & Tips
-- **Kesalahan:** Lupa mengatur durasi animasi. *Tips:* Selalu panggil `animation.setDuration(seconds)` untuk menentukan panjang pemutaran.  
-- **Kesalahan:** Mengabaikan kebutuhan memperbarui graph adegan setelah menambahkan animasi. *Tips:* Panggil `scene.update()` sebelum merender.  
-- **Kesalahan:** Menggunakan waktu key‑frame yang tidak kompatibel. *Tips:* Simpan semua timestamp key‑frame dalam satu satuan waktu (detik).  
+## Common Pitfalls & Tips
+- **Pitfall:** Forgetting to set the animation duration. *Tip:* Always call `animation.setDuration(seconds)` to define playback length.  
+- **Pitfall:** Overlooking the need to update the scene graph after adding animations. *Tip:* Invoke `scene.update()` before rendering.  
+- **Pitfall:** Using incompatible key‑frame times. *Tip:* Keep all key‑frame timestamps in the same time unit (seconds).  
+- **Pitfall:** Assuming a single track can animate multiple objects. *Tip:* Use **multiple object animation** – each node gets its own `AnimationTrack`.  
 
-## Pertanyaan yang Sering Diajukan
+## Frequently Asked Questions
 
-**Q:** *Bisakah saya menganimasikan beberapa objek secara bersamaan?*  
-**A:** Ya. Setiap objek dapat memiliki `AnimationTrack` masing‑masing. Aspose.3D akan menginterpolasi semua track bersama selama pemutaran.
+**Q:** *Can I animate multiple objects simultaneously?*  
+**A:** Yes. Each object can have its own `AnimationTrack`. Aspose.3D will interpolate all tracks together during playback.
 
-**Q:** *Apakah saya perlu menulis loop render sendiri?*  
-**A:** Tidak. Aspose.3D menyediakan renderer bawaan. Anda hanya perlu memanggil `scene.render()` di dalam loop aplikasi Anda.
+**Q:** *Do I need to write my own render loop?*  
+**A:** No. Aspose.3D provides a built‑in renderer. You only need to call `scene.render()` inside your application loop.
 
-**Q:** *Apakah memungkinkan mengekspor adegan animasi ke mesin game?*  
-**A:** Tentu. Ekspor ke FBX atau glTF, keduanya mempertahankan data animasi untuk digunakan di Unity, Unreal, atau engine kustom.
+**Q:** *Is it possible to export the animated scene to a game engine?*  
+**A:** Absolutely. Export to **FBX** or glTF, both of which preserve animation data for use in Unity, Unreal, or custom engines.
 
-**Q:** *Bagaimana cara mengontrol kecepatan animasi?*  
-**A:** Sesuaikan metode `animation.setSpeedFactor(float)` atau ubah timestamp key‑frame.
+**Q:** *How do I control animation speed?*  
+**A:** Adjust the `animation.setSpeedFactor(float)` method or modify the key‑frame timestamps.
 
-**Q:** *Bagaimana jika animasi saya terlihat patah-patah?*  
-**A:** Tingkatkan jumlah key‑frame atau aktifkan smoothing interpolasi melalui `animation.setInterpolationMode(InterpolationMode.Spline)`.
+**Q:** *What if my animation looks choppy?*  
+**A:** Increase the number of key‑frames or enable interpolation smoothing via `animation.setInterpolationMode(InterpolationMode.Spline)`.
 
-## Bekerja dengan Animasi dalam Tutorial Java
+## FAQ
+
+**Q: How do I set animation duration for a clip?**  
+A: Call `animation.setDuration(double seconds)` right after creating the `Animation` object.
+
+**Q: Can I export an animated FBX directly from Aspose.3D?**  
+A: Yes, use `scene.save("output.fbx", SaveFormat.FBX)`; the animation data is preserved.
+
+**Q: What is the best way to manage keyframe animation Java code?**  
+A: Group related key‑frames into separate `AnimationTrack` objects and attach them to the corresponding node for clean organization.
+
+**Q: Does Aspose.3D support skeletal animation for character rigs?**  
+A: It does; you can import skeletal data and animate bones using `AnimationTrack` on the skeleton hierarchy.
+
+**Q: Are there performance considerations for large animated scenes?**  
+A: Keep the number of key‑frames reasonable, reuse shared animation tracks when possible, and call `scene.optimize()` before rendering.
+
+## Working with Animations in Java Tutorials
 ### [Add Animation Properties to 3D Scenes in Java | Aspose.3D Tutorial](./add-animation-properties-to-scenes/)
 Tingkatkan proyek 3D berbasis Java Anda dengan Aspose.3D. Ikuti tutorial kami untuk menambahkan properti animasi secara mulus.
 
@@ -100,6 +118,6 @@ Jelajahi animasi 3D Java dengan mudah menggunakan Aspose.3D. Ikuti tutorial kami
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-04  
-**Diuji Dengan:** Aspose.3D for Java 24.11  
-**Penulis:** Aspose
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose
