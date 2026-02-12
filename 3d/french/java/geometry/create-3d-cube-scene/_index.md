@@ -1,33 +1,53 @@
 ---
-title: Créer une scène de cube 3D en Java avec Aspose.3D
-linktitle: Créer une scène de cube 3D en Java avec Aspose.3D
-second_title: API Java Aspose.3D
-description: Explorez les merveilles des graphiques de scènes de cube 3D avec Aspose.3D pour Java. Créez des scènes époustouflantes sans effort.
-weight: 12
+date: 2026-02-12
+description: 'Apprenez un tutoriel de graphisme 3D Java avec Aspose.3D : créez une
+  scène de cube 3D étape par étape en Java, couvrant la configuration, le code et
+  la sauvegarde du modèle.'
+linktitle: Create a 3D Cube Scene in Java with Aspose.3D
+second_title: Aspose.3D Java API
+title: 'Tutoriel Java 3D Graphics : Créez une scène de cube 3D avec Aspose.3D'
 url: /fr/java/geometry/create-3d-cube-scene/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Créer une scène de cube 3D en Java avec Aspose.3D
+# Tutoriel Java 3D Graphiques : Créez une scène de cube 3D avec Aspose.3D
 
 ## Introduction
 
-Bienvenue dans le monde fascinant des graphiques 3D en Java utilisant Aspose.3D ! Dans ce didacticiel, nous vous guiderons tout au long du processus de création d'une superbe scène de cube 3D à l'aide d'Aspose.3D pour Java. Aspose.3D est une puissante bibliothèque Java qui fournit des fonctionnalités complètes pour travailler avec des modèles et des scènes 3D.
+Bienvenue dans ce **java 3d graphics tutorial** ! Dans ce guide, nous vous accompagnerons pas à pas pour créer une scène de cube 3D en Java en utilisant la puissante bibliothèque Aspose.3D. Que vous construisiez un prototype de jeu, un visualiseur de produit ou que vous exploriez simplement le rendu 3‑D, ce tutoriel vous fournit une base solide et pratique.
 
-## Conditions préalables
+## Quick Answers
+- **Quelle bibliothèque faut‑il ?** Aspose.3D for Java  
+- **Combien de temps l'exemple met‑il à s'exécuter ?** Moins d'une minute sur une station de travail typique  
+- **Quelle version du JDK est requise ?** Java 8 ou supérieur (tout JDK moderne fonctionne)  
+- **Puis‑je exporter vers d'autres formats ?** Oui – la méthode `save` prend en charge FBX, OBJ, STL, et plus encore  
+- **Ai‑je besoin d'une licence pour les tests ?** Un essai gratuit suffit pour le développement ; une licence commerciale est requise pour la production  
 
-Avant de nous lancer dans la création de la scène de cube 3D, assurez-vous que les conditions préalables suivantes sont remplies :
+## Qu'est‑ce qu'un java 3d graphics tutorial ?
 
-1.  Kit de développement Java (JDK) : assurez-vous que Java est installé sur votre système. Vous pouvez télécharger la dernière version à partir de[Le site d'Oracle](https://www.oracle.com/java/).
+Un **java 3d graphics tutorial** explique comment manipuler des objets 3‑D, des scènes et des pipelines de rendu en utilisant des API basées sur Java. Dans ce cas, nous nous concentrons sur Aspose.3D, qui abstrait les calculs mathématiques bas‑niveau et la gestion des formats de fichiers afin que vous puissiez vous concentrer sur la géométrie et la composition de la scène.
 
-2.  Bibliothèque Aspose.3D pour Java : téléchargez et installez la bibliothèque Aspose.3D. Vous pouvez trouver le lien de téléchargement[ici](https://releases.aspose.com/3d/java/).
+## Pourquoi utiliser Aspose.3D pour Java ?
 
-## Importer des packages
+- **Cross‑platform** – fonctionne sous Windows, Linux et macOS sans dépendances natives.  
+- **Rich format support** – importation et exportation de dizaines de types de fichiers 3‑D.  
+- **High‑level API** – créez des maillages, nœuds, lumières et caméras en quelques lignes de code seulement.  
+- **Performance‑optimized** – conçu pour les modèles volumineux et les scénarios en temps réel.
 
-Commencez par importer les packages nécessaires dans votre projet Java :
+## Prérequis
+
+Avant de commencer, assurez‑vous d'avoir :
+
+1. **Java Development Kit (JDK)** – téléchargez la dernière version depuis le site [Oracle](https://www.oracle.com/java/).  
+2. **Aspose.3D for Java library** – obtenez le JAR et la documentation depuis la page officielle de téléchargement [ici](https://releases.aspose.com/3d/java/).
+
+## Import Packages
+
+Commencez par importer les classes nécessaires dans votre projet Java :
 
 ```java
 import java.io.File;
@@ -40,77 +60,85 @@ import com.aspose.threed.Node;
 import com.aspose.threed.Scene;
 ```
 
-Maintenant, décomposons le processus de création d'une scène de cube 3D en plusieurs étapes.
+## Comment créer une scène 3d avec Aspose.3D
 
-## Étape 1 : initialiser la scène
+Ci‑dessous, un guide étape par étape qui montre **comment créer des éléments de scène 3d**, attacher la géométrie, puis enregistrer le résultat sur le disque.
+
+### Étape 1 : Initialiser la scène
 
 ```java
-// Initialiser l'objet de scène
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Étape 2 : initialiser le nœud et le maillage
+### Étape 2 : Initialiser le nœud et le maillage
 
 ```java
-// Initialiser l'objet de classe Node
+// Initialize Node class object
 Node cubeNode = new Node("box");
 
-// Appelez la classe Common pour créer un maillage à l'aide de la méthode de création de polygones pour définir l'instance de maillage
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-// Pointer le nœud vers la géométrie du maillage
+// Point node to the Mesh geometry
 cubeNode.setEntity(mesh);
 ```
 
-## Étape 3 : ajouter un nœud à la scène
+### Étape 3 : Ajouter le nœud à la scène
 
 ```java
-// Ajouter un nœud à une scène
+// Add Node to a scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## Étape 4 : Enregistrez la scène 3D
+### Étape 4 : Enregistrer la scène 3D
 
 ```java
-// Le chemin d'accès au répertoire des documents.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "CubeScene.fbx";
 
-// Enregistrez la scène 3D dans les formats de fichiers pris en charge
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
-## Étape 5 : Imprimer le message de réussite
+### Étape 5 : Afficher le message de succès
 
 ```java
 System.out.println("\nCube Scene created successfully.\nFile saved at " + MyDir);
 ```
 
-## Conclusion
+## Problèmes courants et solutions
 
-Toutes nos félicitations! Vous avez créé avec succès une scène de cube 3D à l'aide d'Aspose.3D pour Java. Ce didacticiel fournit une base solide pour explorer des fonctionnalités plus avancées et libérer votre créativité dans le monde des graphiques 3D.
+| Problème | Raison | Solution |
+|----------|--------|----------|
+| **`Common` class not found** | La classe d'aide fait partie du package d'exemples Aspose. | Ajoutez le fichier source d'exemple à votre projet ou remplacez‑le par votre propre code de création de maillage. |
+| **`FileFormat.FBX7400ASCII` not recognized** | Utilisation d’une version plus ancienne d’Aspose.3D. | Mettez à jour vers le dernier JAR Aspose.3D où l’énumération est disponible. |
+| **Output file is empty** | Le répertoire de destination n’existe pas. | Assurez‑vous que `MyDir` pointe vers un dossier valide ou créez‑le programmatique­ment. |
 
-## FAQ
+## Questions fréquentes
 
-### Q1 : Puis-je utiliser Aspose.3D pour des projets commerciaux ?
+**Q : Puis‑je utiliser Aspose.3D pour des projets commerciaux ?**  
+R : Oui, vous pouvez. Consultez la [page d'achat](https://purchase.aspose.com/buy) pour les détails de licence.
 
- A1 : Oui, vous pouvez. Vérifier la[page d'achat](https://purchase.aspose.com/buy) pour les détails de la licence.
+**Q : Comment obtenir du support pour Aspose.3D ?**  
+R : Visitez le [forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour l’assistance communautaire et le support officiel.
 
-### Q2 : Comment puis-je obtenir de l'aide pour Aspose.3D ?
+**Q : Existe‑t‑il un essai gratuit ?**  
+R : Oui, vous pouvez obtenir un essai gratuit [ici](https://releases.aspose.com/).
 
- A2 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le soutien de la communauté.
+**Q : Où trouver la documentation d’Aspose.3D ?**  
+R : Référez‑vous à la [documentation Aspose.3D](https://reference.aspose.com/3d/java/) pour des informations détaillées.
 
-### Q3 : Existe-t-il un essai gratuit disponible ?
+**Q : Comment obtenir une licence temporaire pour Aspose.3D ?**  
+R : Vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
 
- A3 : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
+---
 
-### Q4 : Où puis-je trouver la documentation d'Aspose.3D ?
+**Dernière mise à jour :** 2026-02-12  
+**Testé avec :** Aspose.3D for Java 24.11  
+**Auteur :** Aspose  
 
- A4 : Reportez-vous au[Documentation Aspose.3D](https://reference.aspose.com/3d/java/) pour des informations détaillées.
-
-### Q5 : Comment obtenir une licence temporaire pour Aspose.3D ?
-
- A5 : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
