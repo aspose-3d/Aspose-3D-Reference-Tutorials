@@ -1,33 +1,52 @@
 ---
-title: Buat Adegan Kubus 3D di Java dengan Aspose.3D
-linktitle: Buat Adegan Kubus 3D di Java dengan Aspose.3D
-second_title: Asumsikan.3D Java API
-description: Jelajahi keajaiban grafik adegan kubus 3D dengan Aspose.3D untuk Java. Ciptakan pemandangan menakjubkan dengan mudah.
-weight: 12
+date: 2026-02-12
+description: 'Pelajari tutorial grafis 3D Java dengan Aspose.3D: buat adegan kubus
+  3D langkah demi langkah di Java, mencakup pengaturan, kode, dan penyimpanan model.'
+linktitle: Create a 3D Cube Scene in Java with Aspose.3D
+second_title: Aspose.3D Java API
+title: 'Tutorial Grafik 3D Java: Membuat Adegan Kubus 3D dengan Aspose.3D'
 url: /id/java/geometry/create-3d-cube-scene/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat Adegan Kubus 3D di Java dengan Aspose.3D
+# Tutorial Grafik 3D Java: Membuat Adegan Kubus 3D dengan Aspose.3D
 
-## Perkenalan
+## Pendahuluan
 
-Selamat datang di dunia grafis 3D yang menakjubkan di Java menggunakan Aspose.3D! Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan adegan kubus 3D yang menakjubkan menggunakan Aspose.3D untuk Java. Aspose.3D adalah perpustakaan Java yang kuat yang menyediakan fungsionalitas komprehensif untuk bekerja dengan model dan pemandangan 3D.
+Selamat datang di **tutorial grafik 3D Java** ini! Dalam panduan ini kami akan memandu Anda cara membuat adegan kubus 3D di Java menggunakan pustaka Aspose.3D yang kuat. Baik Anda sedang membuat prototipe game, visualisasi produk, atau sekadar menjelajahi rendering 3‑D, tutorial ini memberikan dasar yang solid dan praktis.
+
+## Jawaban Cepat
+- **Library apa yang saya butuhkan?** Aspose.3D for Java  
+- **Berapa lama contoh ini dijalankan?** Kurang dari satu menit pada workstation tipikal  
+- **Versi JDK mana yang diperlukan?** Java 8 atau lebih tinggi (semua JDK modern bekerja)  
+- **Bisakah saya mengekspor ke format lain?** Ya – metode `save` mendukung FBX, OBJ, STL, dan lainnya  
+- **Apakah saya memerlukan lisensi untuk pengujian?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi  
+
+## Apa itu tutorial grafik 3D Java?
+
+Sebuah **tutorial grafik 3D Java** menjelaskan cara memanipulasi objek 3‑D, adegan, dan pipeline rendering menggunakan API berbasis Java. Dalam kasus ini, kami fokus pada Aspose.3D, yang mengabstraksi matematika tingkat rendah dan penanganan format file sehingga Anda dapat fokus pada geometri dan komposisi adegan.
+
+## Mengapa menggunakan Aspose.3D untuk Java?
+
+- **Cross‑platform** – berfungsi di Windows, Linux, dan macOS tanpa ketergantungan native.  
+- **Rich format support** – mengimpor dan mengekspor puluhan jenis file 3‑D.  
+- **High‑level API** – membuat mesh, node, lampu, dan kamera hanya dengan beberapa baris kode.  
+- **Performance‑optimized** – dibangun untuk model besar dan skenario waktu‑nyata.
 
 ## Prasyarat
 
-Sebelum kita mendalami pembuatan adegan kubus 3D, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki:
 
-1.  Java Development Kit (JDK): Pastikan Anda telah menginstal Java di sistem Anda. Anda dapat mengunduh versi terbaru dari[situs web Oracle](https://www.oracle.com/java/).
+1. **Java Development Kit (JDK)** – unduh versi terbaru dari [situs web Oracle](https://www.oracle.com/java/).  
+2. **Pustaka Aspose.3D untuk Java** – dapatkan JAR dan dokumentasi dari halaman unduhan resmi [di sini](https://releases.aspose.com/3d/java/).
 
-2.  Aspose.3D untuk Perpustakaan Java: Unduh dan instal perpustakaan Aspose.3D. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/3d/java/).
+## Mengimpor Paket
 
-## Paket Impor
-
-Mulailah dengan mengimpor paket yang diperlukan ke proyek Java Anda:
+Mulailah dengan mengimpor kelas yang diperlukan ke dalam proyek Java Anda:
 
 ```java
 import java.io.File;
@@ -40,77 +59,85 @@ import com.aspose.threed.Node;
 import com.aspose.threed.Scene;
 ```
 
-Sekarang, mari kita uraikan proses pembuatan adegan kubus 3D menjadi beberapa langkah.
+## Cara membuat adegan 3D dengan Aspose.3D
 
-## Langkah 1: Inisialisasi Adegan
+Berikut adalah panduan langkah demi langkah yang menunjukkan **cara membuat adegan 3D** elemen, melampirkan geometri, dan akhirnya menulis hasilnya ke disk.
+
+### Langkah 1: Inisialisasi Adegan
 
 ```java
-// Inisialisasi objek adegan
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Langkah 2: Inisialisasi Node dan Mesh
+### Langkah 2: Inisialisasi Node dan Mesh
 
 ```java
-// Inisialisasi objek kelas Node
+// Initialize Node class object
 Node cubeNode = new Node("box");
 
-// Panggil kelas Common membuat mesh menggunakan metode pembuat poligon untuk menyetel instance mesh
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-// Arahkan simpul ke geometri Mesh
+// Point node to the Mesh geometry
 cubeNode.setEntity(mesh);
 ```
 
-## Langkah 3: Tambahkan Node ke Adegan
+### Langkah 3: Tambahkan Node ke Adegan
 
 ```java
-// Tambahkan Node ke sebuah adegan
+// Add Node to a scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## Langkah 4: Simpan Adegan 3D
+### Langkah 4: Simpan Adegan 3D
 
 ```java
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "CubeScene.fbx";
 
-// Simpan adegan 3D dalam format file yang didukung
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
-## Langkah 5: Cetak Pesan Sukses
+### Langkah 5: Cetak Pesan Sukses
 
 ```java
 System.out.println("\nCube Scene created successfully.\nFile saved at " + MyDir);
 ```
 
-## Kesimpulan
+## Masalah Umum dan Solusinya
 
-Selamat! Anda telah berhasil membuat adegan kubus 3D menggunakan Aspose.3D untuk Java. Tutorial ini memberikan dasar yang kuat untuk menjelajahi fitur-fitur lebih lanjut dan melepaskan kreativitas Anda dalam dunia grafis 3D.
+| Masalah | Alasan | Solusi |
+|-------|--------|-----|
+| **`Common` class not found** | Kelas pembantu merupakan bagian dari paket contoh Aspose. | Tambahkan file sumber contoh ke proyek Anda atau ganti dengan kode pembuatan mesh Anda sendiri. |
+| **`FileFormat.FBX7400ASCII` not recognized** | Menggunakan versi Aspose.3D yang lebih lama. | Perbarui ke JAR Aspose.3D terbaru di mana enum tersebut tersedia. |
+| **Output file is empty** | Direktori tujuan tidak ada. | Pastikan `MyDir` mengarah ke folder yang valid atau buat secara programatik. |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Dapatkah saya menggunakan Aspose.3D untuk proyek komersial?
+**Q: Bisakah saya menggunakan Aspose.3D untuk proyek komersial?**  
+A: Ya, Anda dapat. Periksa [halaman pembelian](https://purchase.aspose.com/buy) untuk detail lisensi.
 
- A1: Ya, Anda bisa. Periksalah[halaman pembelian](https://purchase.aspose.com/buy) untuk rincian perizinan.
+**Q: Bagaimana saya dapat dukungan untuk Aspose.3D?**  
+A: Kunjungi [forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk bantuan komunitas dan dukungan resmi.
 
-### Q2: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.3D?
+**Q: Apakah tersedia percobaan gratis?**  
+A: Ya, Anda dapat mendapatkan percobaan gratis [di sini](https://releases.aspose.com/).
 
- A2: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan masyarakat.
+**Q: Di mana saya dapat menemukan dokumentasi untuk Aspose.3D?**  
+A: Lihat [dokumentasi Aspose.3D](https://reference.aspose.com/3d/java/) untuk informasi detail.
 
-### Q3: Apakah tersedia uji coba gratis?
+**Q: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?**  
+A: Anda dapat mendapatkan lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
- A3: Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+---
 
-### Q4: Di mana saya dapat menemukan dokumentasi untuk Aspose.3D?
+**Terakhir Diperbarui:** 2026-02-12  
+**Diuji Dengan:** Aspose.3D for Java 24.11  
+**Penulis:** Aspose  
 
- A4: Lihat[Dokumentasi Aspose.3D](https://reference.aspose.com/3d/java/) untuk informasi rinci.
-
-### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
-
- A5: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

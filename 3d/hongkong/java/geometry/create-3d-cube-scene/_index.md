@@ -1,33 +1,51 @@
 ---
-title: 使用 Aspose.3D 在 Java 中建立 3D 立方體場景
-linktitle: 使用 Aspose.3D 在 Java 中建立 3D 立方體場景
+date: 2026-02-12
+description: 學習 Java 3D 圖形教學與 Aspose.3D：在 Java 中一步一步建立 3D 立方體場景，涵蓋環境設定、程式碼以及模型儲存。
+linktitle: Create a 3D Cube Scene in Java with Aspose.3D
 second_title: Aspose.3D Java API
-description: 使用 Aspose.3D for Java 探索 3D 立方體場景圖形的奇蹟。輕鬆創建令人驚嘆的場景。
-weight: 12
+title: Java 3D 圖形教學：使用 Aspose.3D 創建 3D 立方體場景
 url: /zh-hant/java/geometry/create-3d-cube-scene/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.3D 在 Java 中建立 3D 立方體場景
+# Java 3D 圖形教學：使用 Aspose.3D 建立 3D 立方體場景
 
-## 介紹
+## 簡介
 
-歡迎來到使用 Aspose.3D 的 Java 3D 圖形的迷人世界！在本教程中，我們將引導您完成使用 Aspose.3D for Java 建立令人驚嘆的 3D 立方體場景的過程。 Aspose.3D 是一個功能強大的 Java 程式庫，提供用於處理 3D 模型和場景的全面功能。
+Welcome to this **java 3d graphics tutorial**! In this guide we’ll walk you through how to create a 3D cube scene in Java using the powerful Aspose.3D library. Whether you’re building a game prototype, a product visualizer, or just exploring 3‑D rendering, this tutorial gives you a solid, hands‑on foundation.
+
+## 快速解答
+- **我需要哪個函式庫？** Aspose.3D for Java  
+- **範例執行需要多久？** 在一般工作站上少於一分鐘  
+- **需要哪個 JDK 版本？** Java 8 或更高（任何現代 JDK 都可）  
+- **我可以匯出成其他格式嗎？** 是 – `save` 方法支援 FBX、OBJ、STL 等  
+- **測試需要授權嗎？** 開發可使用免費試用版；正式上線需購買商業授權  
+
+## 什麼是 Java 3D 圖形教學？
+
+**Java 3D 圖形教學** 會說明如何使用基於 Java 的 API 操作 3‑D 物件、場景與渲染管線。本教學聚焦於 Aspose.3D，它將低階數學與檔案格式處理抽象化，讓您能專注於幾何與場景組合。
+
+## 為什麼要在 Java 中使用 Aspose.3D？
+
+- **跨平台** – 可在 Windows、Linux 與 macOS 上運行，且不需原生相依性。  
+- **豐富的格式支援** – 可匯入與匯出數十種 3‑D 檔案類型。  
+- **高階 API** – 只需幾行程式碼即可建立網格、節點、光源與相機。  
+- **效能最佳化** – 為大型模型與即時情境而設計。
 
 ## 先決條件
 
-在我們深入建立 3D 立方體場景之前，請確保您具備以下先決條件：
+Before we dive in, make sure you have:
 
-1.  Java 開發工具包 (JDK)：確保您的系統上安裝了 Java。您可以從以下位置下載最新版本[甲骨文網站](https://www.oracle.com/java/).
+1. **Java Development Kit (JDK)** – 從 [Oracle 的網站](https://www.oracle.com/java/) 下載最新版本。  
+2. **Aspose.3D for Java 函式庫** – 從官方下載頁面 [此處](https://releases.aspose.com/3d/java/) 取得 JAR 與文件。  
 
-2. Aspose.3D for Java 函式庫：下載並安裝 Aspose.3D 函式庫。你可以找到下載鏈接[這裡](https://releases.aspose.com/3d/java/).
+## 匯入套件
 
-## 導入包
-
-首先將必要的套件匯入到您的 Java 專案中：
+Begin by importing the necessary classes into your Java project:
 
 ```java
 import java.io.File;
@@ -40,77 +58,87 @@ import com.aspose.threed.Node;
 import com.aspose.threed.Scene;
 ```
 
-現在，讓我們將建立 3D 立方體場景的過程分解為多個步驟。
+## 如何使用 Aspose.3D 建立 3D 場景
 
-## 第 1 步：初始化場景
+Below is a step‑by‑step walk‑through that shows **how to create 3d scene** elements, attach geometry, and finally write the result to disk.
+
+以下是逐步說明，展示 **如何建立 3D 場景** 元素、附加幾何，最後寫入磁碟。
+
+### 步驟 1：初始化場景
 
 ```java
-//初始化場景對象
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## 第2步：初始化節點與網格
+### 步驟 2：初始化節點與網格
 
 ```java
-//初始化Node類別物件
+// Initialize Node class object
 Node cubeNode = new Node("box");
 
-//呼叫 Common 類別使用多邊形生成器方法建立網格來設定網格實例
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-//將節點指向網格幾何體
+// Point node to the Mesh geometry
 cubeNode.setEntity(mesh);
 ```
 
-## 第 3 步：將節點加入場景中
+### 步驟 3：將節點加入場景
 
 ```java
-//將節點加入場景
+// Add Node to a scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## 第 4 步：儲存 3D 場景
+### 步驟 4：儲存 3D 場景
 
 ```java
-//文檔目錄的路徑。
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "CubeScene.fbx";
 
-//以支援的檔案格式儲存 3D 場景
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
-## 步驟5：列印成功訊息
+### 步驟 5：印出成功訊息
 
 ```java
 System.out.println("\nCube Scene created successfully.\nFile saved at " + MyDir);
 ```
 
-## 結論
+## 常見問題與解決方案
 
-恭喜！您已使用 Aspose.3D for Java 成功建立了 3D 立方體場景。本教程為探索更高級的功能並在 3D 圖形世界中釋放您的創造力奠定了堅實的基礎。
+| 問題 | 原因 | 解決方式 |
+|-------|--------|-----|
+| **`Common` 類別未找到** | 此輔助類別屬於 Aspose 範例套件的一部份。 | 將範例原始碼檔案加入專案，或自行撰寫網格建立程式碼取代。 |
+| **`FileFormat.FBX7400ASCII` 無法辨識** | 使用較舊的 Aspose.3D 版本。 | 升級至最新的 Aspose.3D JAR，以取得此列舉值。 |
+| **輸出檔案為空** | 目標目錄不存在。 | 確保 `MyDir` 指向有效資料夾，或以程式方式建立該資料夾。 |
 
-## 常見問題解答
+## 常見問與答
 
-### Q1：我可以將Aspose.3D用於商業項目嗎？
+**Q: 我可以在商業專案中使用 Aspose.3D 嗎？**  
+A: 可以，請參閱 [購買頁面](https://purchase.aspose.com/buy) 了解授權細節。
 
- A1: 是的，可以。檢查[購買頁面](https://purchase.aspose.com/buy)了解許可詳細資訊。
+**Q: 我該如何取得 Aspose.3D 的支援？**  
+A: 前往 [Aspose.3D 論壇](https://forum.aspose.com/c/3d/18) 獲得社群協助與官方支援。
 
-### Q2：如何獲得 Aspose.3D 的支援？
+**Q: 有提供免費試用嗎？**  
+A: 有，您可在 [此處](https://releases.aspose.com/) 取得免費試用。
 
- A2：訪問[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)以獲得社區支持。
+**Q: 我在哪裡可以找到 Aspose.3D 的文件？**  
+A: 請參考 [Aspose.3D 文件](https://reference.aspose.com/3d/java/) 以取得詳細資訊。
 
-### Q3：有免費試用嗎？
+**Q: 如何取得 Aspose.3D 的臨時授權？**  
+A: 您可在 [此處](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
-A3：是的，您可以獲得免費試用[這裡](https://releases.aspose.com/).
+---
 
-### Q4：哪裡可以找到Aspose.3D的文件？
+**最後更新：** 2026-02-12  
+**測試環境：** Aspose.3D for Java 24.11  
+**作者：** Aspose  
 
- A4：請參閱[Aspose.3D 文檔](https://reference.aspose.com/3d/java/)獲取詳細資訊。
-
-### Q5：如何取得Aspose.3D的臨時授權？
-
- A5：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

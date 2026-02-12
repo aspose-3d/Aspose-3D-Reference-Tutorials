@@ -1,32 +1,50 @@
 ---
-title: Mengatur Normals pada Objek 3D di Java dengan Aspose.3D
-linktitle: Mengatur Normals pada Objek 3D di Java dengan Aspose.3D
-second_title: Asumsikan.3D Java API
-description: Pelajari cara mengatur normal pada objek 3D di Java dengan Aspose.3D. Tingkatkan grafis Anda dengan tutorial komprehensif ini.
-weight: 17
+date: 2026-02-12
+description: Pelajari cara mengatur normal grafik 3D di Java menggunakan Aspose.3D.
+  Tutorial ini menunjukkan cara mengatur normal, bekerja dengan vektor normal 3D,
+  dan meningkatkan pencahayaan.
+linktitle: Set Up Normals on 3D Objects in Java with Aspose.3D
+second_title: Aspose.3D Java API
+title: Menyiapkan Normal Grafik 3D pada Objek di Java dengan Aspose.3D
 url: /id/java/geometry/set-up-normals-on-3d-objects/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengatur Normals pada Objek 3D di Java dengan Aspose.3D
+# Menyiapkan Normal Grafik 3D pada Objek di Java dengan Aspose.3D
 
-## Perkenalan
+## Pendahuluan
 
-Selamat datang di panduan langkah demi langkah kami tentang pengaturan normal pada objek 3D di Java menggunakan Aspose.3D. Baik Anda seorang pengembang berpengalaman atau baru memulai dengan grafik 3D, memahami dan memanipulasi kondisi normal sangat penting untuk mencapai efek pencahayaan realistis dalam model 3D Anda. Dalam tutorial ini, kami akan memandu Anda melalui prosesnya, membaginya menjadi langkah-langkah yang mudah diikuti.
+Selamat datang di panduan langkah‑demi‑langkah kami tentang **normal grafik 3d** untuk pengembang Java yang menggunakan Aspose.3D. Baik Anda sedang memoles mesin game maupun membangun visualizer ilmiah, normal yang dikonfigurasi dengan benar sangat penting untuk pencahayaan dan shading yang realistis. Dalam tutorial ini Anda akan mempelajari *cara mengatur normal*, memahami *vektor normal 3d*, dan melihat kode tepat yang Anda perlukan agar model Anda tampak benar.
+
+## Jawaban Cepat
+- **Apa tujuan utama normal?** Normal menentukan orientasi permukaan untuk perhitungan pencahayaan.  
+- **Perpustakaan mana yang menyediakan API?** Aspose.3D Java SDK.  
+- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Versi Java apa yang didukung?** Java 8 atau lebih tinggi.  
+- **Bisakah saya menggunakan kembali kode ini untuk mesh lain?** Ya—cukup ganti langkah pembuatan mesh.
+
+## Apa Itu Normal Grafik 3D?
+Normal adalah vektor satuan yang tegak lurus terhadap sebuah vertex atau face permukaan. Normal memberi tahu mesin rendering bagaimana cahaya harus dipantulkan, yang secara langsung memengaruhi kualitas visual grafik 3‑D Anda.
+
+## Mengapa Menyiapkan Normal Grafik 3D?
+- **Pencahayaan akurat:** Normal yang tepat mencegah shading yang datar atau terbalik.  
+- **Kinerja lebih baik:** Normal yang disimpan secara langsung menghindari perhitungan pada waktu jalan.  
+- **Kompatibilitas:** Banyak shader dan efek pasca‑pemrosesan mengharapkan data normal yang eksplisit.
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita melanjutkan, pastikan Anda memiliki:
 
-- Pengetahuan dasar tentang pemrograman Java.
--  Pustaka Aspose.3D diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/3d/java/).
+- Pengetahuan dasar pemrograman Java.  
+- Perpustakaan Aspose.3D terpasang. Anda dapat mengunduhnya [di sini](https://releases.aspose.com/3d/java/).  
 
-## Paket Impor
+## Mengimpor Paket
 
-Di proyek Java Anda, pastikan untuk mengimpor paket yang diperlukan untuk Aspose.3D. Berikut ini contohnya:
+Di proyek Java Anda, impor kelas Aspose.3D yang diperlukan:
 
 ```java
 import com.aspose.threed.*;
@@ -34,69 +52,78 @@ import com.aspose.threed.*;
 import java.util.Arrays;
 ```
 
-## Langkah 1: Data Normal Mentah
+## Langkah 1: Siapkan Data Normal Mentah
 
-Pertama, inisialisasi data normal mentah untuk objek 3D Anda. Dalam contoh ini, kita menggunakan kubus.
+Pertama, buat array objek `Vector4` yang mewakili vektor normal untuk setiap vertex mesh Anda. Pada contoh ini kami menggunakan sebuah kubus, tetapi pola yang sama berlaku untuk geometri apa pun.
 
 ```java
 Vector4[] normals = new Vector4[]
 {
     new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
-    // ... (Ulangi untuk simpul lainnya)
+    // ... (Repeat for other vertices)
 };
-
 ```
 
-## Langkah 2: Buat Jaring
+## Langkah 2: Buat Mesh
 
-Gunakan Aspose.3D untuk membuat mesh menggunakan metode pembuat poligon.
+Gunakan metode bantuan Aspose.3D untuk menghasilkan mesh kubus sederhana. Pemanggilan `Common.createMeshUsingPolygonBuilder()` membangun geometri untuk kita.
 
 ```java
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-## Langkah 3: Tetapkan Normal
+## Langkah 3: Lampirkan Vektor Normal
 
-Buat elemen simpul untuk normal dan salin data normal mentah ke dalamnya.
+Buat elemen vertex bertipe `NORMAL`, petakan ke control points, dan salin data normal mentah ke dalam mesh.
 
 ```java
 VertexElementNormal elementNormal = (VertexElementNormal)mesh.createElement(VertexElementType.NORMAL, MappingMode.CONTROL_POINT, ReferenceMode.DIRECT);
 elementNormal.setData(normals);
 ```
 
-## Langkah 4: Cetak Konfirmasi
+## Langkah 4: Verifikasi Pengaturan
 
-Terakhir, cetak pesan untuk mengonfirmasi bahwa pengaturan normal telah berhasil.
+Cetak pesan konfirmasi agar Anda tahu operasi berhasil. Pada aplikasi nyata Anda akan merender mesh atau mengekspornya.
 
 ```java
 System.out.println("\nNormals have been set up successfully on the cube.");
 ```
 
-## Kesimpulan
+## Masalah Umum dan Solusinya
 
-Selamat! Anda telah berhasil menyiapkan normal pada objek 3D di Java menggunakan Aspose.3D. Langkah mendasar ini membuka kemungkinan rendering dan bayangan realistis dalam proyek 3D Anda.
+| Masalah | Mengapa Terjadi | Solusi |
+|-------|----------------|-----|
+| **Normal tampak terbalik** | Urutan vertex atau arah normal salah | Balikkan tanda vektor atau urutkan ulang vertex |
+| **Pencahayaan terlihat datar** | Normal tidak ternormalisasi | Pastikan setiap `Vector4` adalah vektor satuan (panjang = 1) |
+| **Exception pada runtime pada `setData`** | Ketidaksesuaian antara tipe elemen dan panjang array data | Verifikasi panjang array sesuai dengan jumlah vertex |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Dapatkah saya menggunakan Aspose.3D dengan perpustakaan Java 3D lainnya?
-
-A1: Ya, Aspose.3D dapat diintegrasikan dengan perpustakaan Java 3D lainnya untuk solusi komprehensif.
+### Q1: Bisakah saya menggunakan Aspose.3D dengan perpustakaan Java 3D lain?
+A1: Ya, Aspose.3D dapat diintegrasikan dengan perpustakaan Java 3D lain untuk solusi yang komprehensif.
 
 ### Q2: Di mana saya dapat menemukan dokumentasi terperinci?
+A2: Lihat dokumentasi [di sini](https://reference.aspose.com/3d/java/) untuk informasi mendalam.
 
- A2: Lihat dokumentasi[Di Sini](https://reference.aspose.com/3d/java/) untuk informasi mendalam.
-
-### Q3: Apakah tersedia uji coba gratis?
-
- A3: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+### Q3: Apakah ada versi percobaan gratis?
+A3: Ya, Anda dapat mengakses versi percobaan gratis [di sini](https://releases.aspose.com/).
 
 ### Q4: Bagaimana cara mendapatkan lisensi sementara?
+A4: Lisensi sementara dapat diperoleh [di sini](https://purchase.aspose.com/temporary-license/).
 
- A4: Lisensi sementara dapat diperoleh[Di Sini](https://purchase.aspose.com/temporary-license/).
+### Q5: Membutuhkan bantuan atau ingin berdiskusi dengan komunitas?
+A5: Kunjungi [forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan dan diskusi.
 
-### Q5: Butuh bantuan atau ingin berdiskusi dengan masyarakat?
+## Kesimpulan
 
- A5: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan dan diskusi.
+Anda kini telah mempelajari cara menyiapkan **normal grafik 3d** pada mesh Java menggunakan Aspose.3D. Dengan vektor normal yang didefinisikan dengan benar, adegan 3‑D Anda akan dirender dengan pencahayaan realistis, memberikan fidelitas visual yang dibutuhkan untuk game, simulasi, atau aplikasi grafis intensif apa pun.
+
+---
+
+**Terakhir Diperbarui:** 2026-02-12  
+**Diuji Dengan:** Aspose.3D 24.11 untuk Java  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
