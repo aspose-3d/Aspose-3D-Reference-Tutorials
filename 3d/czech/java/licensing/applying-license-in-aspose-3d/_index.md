@@ -1,32 +1,41 @@
 ---
-title: Použití licence v Aspose.3D pro Java
-linktitle: Použití licence v Aspose.3D pro Java
+date: 2026-02-14
+description: Naučte se, jak nastavit licenci Aspose v Aspose.3D pro Javu, včetně toho,
+  jak použít licenci ze souboru a nastavit veřejné a soukromé klíče.
+linktitle: How to Set Aspose License in Aspose.3D for Java
 second_title: Aspose.3D Java API
-description: Odemkněte plný potenciál Aspose.3D v aplikacích Java podle našeho komplexního průvodce aplikací licencí.
-weight: 10
+title: Jak nastavit licenci Aspose v Aspose.3D pro Javu
 url: /cs/java/licensing/applying-license-in-aspose-3d/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použití licence v Aspose.3D pro Java
+# Jak nastavit licenci Aspose v Aspose.3D pro Java
 
 ## Úvod
 
-Vítejte v tomto podrobném průvodci aplikací licence v Aspose.3D pro Javu. Aspose.3D je výkonná Java knihovna, která umožňuje vývojářům pracovat s 3D soubory bez námahy. V tomto tutoriálu se ponoříme do procesu aplikace licence pomocí různých metod, abychom zajistili, že můžete naplno využít potenciál Aspose.3D ve svých aplikacích Java.
+V tomto komplexním tutoriálu se dozvíte **jak nastavit licenci Aspose** pro Aspose.3D v prostředí Java. Ať už dáváte přednost načtení licenčního souboru, jeho streamování nebo použití měřené licence s veřejnými a soukromými klíči, projdeme každou metodu krok za krokem, abyste mohli rychle a sebejistě odemknout plnou sadu funkcí Aspose.3D.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Jaký je hlavní způsob nastavení licence Aspose.3D?** Použijte třídu `License` a zavolejte `setLicense` s cestou k souboru nebo streamem.  
+- **Mohu načíst licenci ze streamu?** Ano – zabalte soubor `.lic` do `FileInputStream` a předáte jej metodě `setLicense`.  
+- **Co když potřebuji měřenou licenci?** Inicializujte objekt `Metered` a zavolejte `setMeteredKey` s vašimi veřejným a soukromým klíčem.  
+- **Potřebuji licenci pro vývojové sestavy?** Pro jakýkoli scénář mimo hodnocení je vyžadována zkušební nebo dočasná licence.  
+- **Které verze Javy jsou podporovány?** Aspose.3D funguje s Javou 6 a novějšími.
 
-Než začneme, ujistěte se, že máte splněny následující předpoklady:
+## Požadavky
 
-- Základní znalost programování v Javě.
--  Nainstalovaná knihovna Aspose.3D. Můžete si jej stáhnout z[stránka vydání](https://releases.aspose.com/3d/java/).
+Než začneme, ujistěte se, že máte připravené následující:
 
-## Importujte balíčky
+- Základní znalosti programování v Javě.  
+- Knihovnu Aspose.3D nainstalovanou. Můžete si ji stáhnout ze [stránky vydání](https://releases.aspose.com/3d/java/).  
 
-Chcete-li začít, importujte potřebné balíčky do svého projektu Java. Ujistěte se, že Aspose.3D je přidán do vaší třídy. Zde je příklad:
+## Import balíčků
+
+Pro zahájení importujte potřebné balíčky do svého Java projektu. Ujistěte se, že je Aspose.3D přidáno do classpath. Zde je příklad:
 
 ```java
 import com.aspose.threed.License;
@@ -36,37 +45,37 @@ import java.io.FileInputStream;
 import java.io.IOException;
 ```
 
-## Uplatnění licence pomocí souboru
+## Použití licence ze souboru
 
-### Krok 1: Vytvořte objekt licence
+### Krok 1: Vytvořte objekt License
 
- Nejprve vytvořte a`License` objekt ve vašem kódu Java.
+Nejprve vytvořte objekt `License` ve vašem Java kódu.
 
 ```java
 License license = new License();
 ```
 
-### Krok 2: Nastavte licenci ze souboru
+### Krok 2: Použijte licenci ze souboru
 
-Zadejte cestu k vašemu licenčnímu souboru a nastavte licenci pomocí následujícího kódu:
+Zadejte cestu k vašemu licenčnímu souboru a nastavte licenci pomocí následujícího kódu. Tento příklad demonstruje techniku **aplikace licence ze souboru**.
 
 ```java
 license.setLicense("Aspose._3D.lic");
 ```
 
-## Použití licence pomocí objektu Stream
+## Použití licence pomocí streamu
 
-### Krok 1: Vytvořte objekt licence
+### Krok 1: Vytvořte objekt License
 
- Podobně vytvořte a`License` objekt ve vašem kódu Java.
+Stejně jako předtím vytvořte objekt `License` ve vašem Java kódu.
 
 ```java
 License license = new License();
 ```
 
-### Krok 2: Nastavte licenci z objektu Stream
+### Krok 2: Nastavte licenci ze streamu
 
- Využijte a`FileInputStream` pro vytvoření streamu a nastavení licence:
+Využijte `FileInputStream` k vytvoření streamu a nastavte licenci:
 
 ```java
 try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
@@ -74,11 +83,11 @@ try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
 }
 ```
 
-## Použití veřejného a soukromého klíče
+## Použití veřejných a soukromých klíčů pro měřenou licenci
 
-### Krok 1: Inicializujte objekt Metered License Object
+### Krok 1: Inicializujte objekt Metered licence
 
- Inicializovat a`Metered` licenční objekt:
+Inicializujte objekt licence `Metered`:
 
 ```java
 Metered metered = new Metered();
@@ -86,37 +95,56 @@ Metered metered = new Metered();
 
 ### Krok 2: Nastavte veřejný a soukromý klíč
 
-Nastavte svůj veřejný a soukromý klíč, abyste povolili měřené licencování:
+Nastavte své veřejné a soukromé klíče pro povolení měřené licence. Toto pokrývá scénář **nastavení veřejných a soukromých klíčů**.
 
 ```java
 metered.setMeteredKey("your-public-key", "your-private-key");
 ```
 
+## Proč nastavení licence má význam
+
+Správné nastavení licence odstraňuje vodotisky hodnocení, odemyká prémiové formáty souborů a zajišťuje soulad s licenčním modelem Aspose. Použití vhodné metody (soubor, stream nebo měřená licence) vám umožní hladce integrovat licencování do CI/CD pipeline, cloudových nasazení nebo desktopových aplikací.
+
+## Časté problémy a tipy
+
+- **Soubor nenalezen** – Ověřte, že cesta k souboru `.lic` je správná vzhledem k pracovnímu adresáři nebo použijte absolutní cestu.  
+- **Stream byl předčasně uzavřen** – Při použití streamu udržujte objekt `License` živý po celou dobu běhu aplikace; licence je po úspěšném volání uložena do cache.  
+- **Neshoda měřených klíčů** – Zkontrolujte, že veřejný a soukromý klíč patří ke stejné měřené licenci; překlep způsobí výjimku za běhu.  
+- **Pro tip:** Uložte licenční soubor na bezpečné místo mimo zdrojový strom a načtěte jej pomocí proměnné prostředí, abyste se vyhnuli jeho zařazení do verzovacího systému.
+
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak použít licenci v Aspose.3D for Java pomocí různých metod. Nyní můžete Aspose.3D bez problémů integrovat do svých aplikací Java a odemknout jeho plný potenciál.
+Gratulujeme! Úspěšně jste se naučili **jak nastavit licenci Aspose** v Aspose.3D pro Java pomocí různých metod, včetně aplikace licence ze souboru, streamování a konfigurace měřené licence s veřejnými a soukromými klíči. Nyní můžete Aspose.3D bez problémů integrovat do svých Java aplikací a plně využívat jeho 3D zpracovatelské schopnosti.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Je Aspose.3D kompatibilní se všemi verzemi Java?
+**Q: Je Aspose.3D kompatibilní se všemi verzemi Javy?**  
+A: Ano, Aspose.3D je kompatibilní s Javou 6 a novějšími verzemi.
 
-Odpověď 1: Ano, Aspose.3D je kompatibilní s Java 6 a novějšími verzemi.
+**Q: Kde mohu najít další dokumentaci?**  
+A: Dokumentaci najdete [zde](https://reference.aspose.com/3d/java/).
 
-### Q2: Kde najdu další dokumentaci?
+**Q: Mohu vyzkoušet Aspose.3D před zakoupením?**  
+A: Ano, můžete si vyzkoušet bezplatnou verzi [zde](https://releases.aspose.com/).
 
- A2: Můžete nahlédnout do dokumentace[tady](https://reference.aspose.com/3d/java/).
+**Q: Jak získat podporu pro Aspose.3D?**  
+A: Navštivte [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) pro podporu.
 
-### Q3: Mohu vyzkoušet Aspose.3D před nákupem?
+**Q: Potřebuji dočasnou licenci pro testování?**  
+A: Ano, dočasnou licenci získáte [zde](https://purchase.aspose.com/temporary-license/).
 
- A3: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+**Q: Jaký je rozdíl mezi licencí ze souboru a měřenou licencí?**  
+A: Licence ze souboru je statický `.lic` soubor vázaný na konkrétní verzi produktu, zatímco měřená licence ověřuje využití pomocí cloudové služby měření Aspose pomocí veřejných/soukromých klíčů.
 
-### Q4: Jak mohu získat podporu pro Aspose.3D?
+**Q: Mohu vložit kód načítání licence do statického inicializátoru?**  
+A: Rozhodně – umístění inicializace `License` do statického bloku zajistí, že licence bude aplikována jednou při prvním načtení třídy.
 
- A4: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) pro podporu.
+---
 
-### Q5: Potřebuji pro testování dočasnou licenci?
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose  
 
- A5: Ano, získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

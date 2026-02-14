@@ -1,32 +1,40 @@
 ---
-title: Aspose.3D for Java でのライセンスの適用
-linktitle: Aspose.3D for Java でのライセンスの適用
+date: 2026-02-14
+description: Aspose.3D for JavaでAsposeライセンスを設定する方法を学びます。ファイルからライセンスを適用する方法や、公開鍵・秘密鍵を設定する方法も含まれます。
+linktitle: How to Set Aspose License in Aspose.3D for Java
 second_title: Aspose.3D Java API
-description: ライセンスの適用に関する包括的なガイドに従って、Java アプリケーションにおける Aspose.3D の可能性を最大限に引き出します。
-weight: 10
+title: Aspose.3D for JavaでAsposeライセンスを設定する方法
 url: /ja/java/licensing/applying-license-in-aspose-3d/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D for Java でのライセンスの適用
+# Aspose.3D for Java の Aspose ライセンス設定方法
 
-## 導入
+## Introduction
 
-Aspose.3D for Java でのライセンスの適用に関するこのステップバイステップ ガイドへようこそ。 Aspose.3D は、開発者が 3D ファイルを簡単に操作できるようにする強力な Java ライブラリです。このチュートリアルでは、Java アプリケーションで Aspose.3D の可能性を最大限に引き出すことができるように、さまざまな方法を使用してライセンスを適用するプロセスを詳しく説明します。
+この包括的なチュートリアルでは、Java 環境で Aspose.3D の **Aspose ライセンスの設定方法** をご紹介します。ライセンスファイルからの読み込み、ストリームからの読み込み、またはパブリックキーとプライベートキーを使用したメータリング ライセンスのいずれかを選択できるように、各アプローチをステップバイステップで解説し、Aspose.3D のすべての機能を迅速かつ自信を持って利用できるようにします。
 
-## 前提条件
+## Quick Answers
+- **Aspose.3D のライセンスを設定する主な方法は何ですか？** `License` クラスを使用し、ファイルパスまたはストリームを渡して `setLicense` を呼び出します。  
+- **ストリームからライセンスを読み込むことはできますか？** はい – `.lic` ファイルを `FileInputStream` でラップし、`setLicense` に渡します。  
+- **メータリング ライセンスが必要な場合は？** `Metered` オブジェクトを初期化し、パブリックキーとプライベートキーを使用して `setMeteredKey` を呼び出します。  
+- **開発ビルドでもライセンスが必要ですか？** 評価以外のシナリオでは、トライアルまたは一時ライセンスが必要です。  
+- **対応している Java バージョンはどれですか？** Aspose.3D は Java 6 以降で動作します。
 
-始める前に、次の前提条件が満たされていることを確認してください。
+## Prerequisites
 
-- Java プログラミングの基本的な理解。
--  Aspose.3D ライブラリがインストールされています。からダウンロードできます。[リリースページ](https://releases.aspose.com/3d/java/).
+開始する前に、以下の前提条件が整っていることをご確認ください。
 
-## パッケージのインポート
+- Java プログラミングの基本的な理解。  
+- Aspose.3D ライブラリがインストール済み。ダウンロードは [release page](https://releases.aspose.com/3d/java/) から行えます。
 
-まず、必要なパッケージを Java プロジェクトにインポートします。 Aspose.3D がクラスパスに追加されていることを確認します。以下に例を示します。
+## Import Packages
+
+まず、Java プロジェクトに必要なパッケージをインポートします。Aspose.3D がクラスパスに追加されていることを確認してください。例は以下の通りです。
 
 ```java
 import com.aspose.threed.License;
@@ -36,37 +44,37 @@ import java.io.FileInputStream;
 import java.io.IOException;
 ```
 
-## ファイルを使用してライセンスを適用する
+## Applying a License Using a File
 
-### ステップ 1: ライセンス オブジェクトの作成
+### Step 1: Create a License Object
 
-まず、`License` Java コード内のオブジェクト。
+まず、Java コード内で `License` オブジェクトを作成します。
 
 ```java
 License license = new License();
 ```
 
-### ステップ 2: ファイルからライセンスを設定する
+### Step 2: Apply License from File
 
-ライセンス ファイルへのパスを指定し、次のコードを使用してライセンスを設定します。
+ライセンスファイルへのパスを指定し、以下のコードでライセンスを設定します。これは **apply license from file** 手法を示しています。
 
 ```java
 license.setLicense("Aspose._3D.lic");
 ```
 
-## ストリームオブジェクトを使用したライセンスの適用
+## Applying a License Using a Stream Object
 
-### ステップ 1: ライセンス オブジェクトの作成
+### Step 1: Create a License Object
 
-同様に、`License` Java コード内のオブジェクト。
+同様に、Java コード内で `License` オブジェクトを作成します。
 
 ```java
 License license = new License();
 ```
 
-### ステップ 2: ストリーム オブジェクトからライセンスを設定する
+### Step 2: Set License from Stream Object
 
-を利用する`FileInputStream`ストリームを作成してライセンスを設定するには、次のようにします。
+`FileInputStream` を使用してストリームを作成し、ライセンスを設定します。
 
 ```java
 try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
@@ -74,49 +82,68 @@ try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
 }
 ```
 
-## 公開キーと秘密キーの使用
+## Using Public and Private Keys for Metered Licensing
 
-### ステップ 1: 従量制ライセンス オブジェクトを初期化する
+### Step 1: Initialize Metered License Object
 
-を初期化します`Metered`ライセンスオブジェクト:
+`Metered` ライセンスオブジェクトを初期化します。
 
 ```java
 Metered metered = new Metered();
 ```
 
-### ステップ 2: 公開キーと秘密キーを設定する
+### Step 2: Set Public and Private Keys
 
-公開キーと秘密キーを設定して、従量制ライセンスを有効にします。
+パブリックキーとプライベートキーを設定してメータリング ライセンスを有効化します。これは **set public private keys** シナリオをカバーしています。
 
 ```java
 metered.setMeteredKey("your-public-key", "your-private-key");
 ```
 
-## 結論
+## Why Setting the License Matters
 
-おめでとう！さまざまな方法を使用して Aspose.3D for Java にライセンスを適用する方法を学習しました。 Aspose.3D を Java アプリケーションにシームレスに統合し、その可能性を最大限に引き出すことができるようになりました。
+正しいライセンスを適用すると、評価用ウォーターマークが除去され、プレミアムファイル形式が使用可能になり、Aspose のライセンスモデルに準拠できます。ファイル、ストリーム、またはメータリングのいずれかの適切な方法を使用することで、CI/CD パイプライン、クラウド デプロイ、デスクトップ アプリケーションへのライセンス統合がシームレスに行えます。
 
-## よくある質問
+## Common Issues & Tips
 
-### Q1: Aspose.3D はすべての Java バージョンと互換性がありますか?
+- **File not found** – `.lic` ファイルのパスが作業ディレクトリに対して正しいか、または絶対パスを使用しているか確認してください。  
+- **Stream closed prematurely** – ストリームを使用する場合、`License` オブジェクトをアプリケーションの実行期間中保持してください。最初の呼び出しが成功するとライセンスはキャッシュされます。  
+- **Metered key mismatch** – パブリックキーとプライベートキーが同一のメータリング ライセンスに対応しているか再確認してください。タイプミスは実行時例外の原因となります。  
+- **Pro tip:** ライセンスファイルはソースツリー外の安全な場所に保存し、環境変数経由でロードすることでバージョン管理システムへのコミットを防止します。
 
-A1: はい、Aspose.3D は Java 6 以降のバージョンと互換性があります。
+## Conclusion
 
-### Q2: 追加のドキュメントはどこで入手できますか?
+おめでとうございます！ ファイルからのライセンス適用、ストリームからの適用、パブリック/プライベートキーによるメータリング ライセンス設定など、さまざまな方法で Aspose.3D for Java の **Aspose ライセンスの設定方法** を習得しました。これで Aspose.3D を Java アプリケーションにシームレスに統合し、3D 処理機能をフルに活用できます。
 
- A2: ドキュメントを参照してください。[ここ](https://reference.aspose.com/3d/java/).
+## Frequently Asked Questions
 
-### Q3: 購入する前に Aspose.3D を試すことはできますか?
+**Q: Aspose.3D はすべての Java バージョンと互換性がありますか？**  
+A: はい、Aspose.3D は Java 6 以降のバージョンと互換性があります。
 
- A3: はい、無料トライアルを試すことができます[ここ](https://releases.aspose.com/).
+**Q: 追加のドキュメントはどこで確認できますか？**  
+A: ドキュメントは [here](https://reference.aspose.com/3d/java/) を参照してください。
 
-### Q4: Aspose.3D のサポートを受けるにはどうすればよいですか?
+**Q: 購入前に Aspose.3D を試すことはできますか？**  
+A: はい、無料トライアルは [here](https://releases.aspose.com/) から利用できます。
 
- A4: にアクセスしてください。[Aspose.3D フォーラム](https://forum.aspose.com/c/3d/18)サポートのための。
+**Q: Aspose.3D のサポートはどこで受けられますか？**  
+A: サポートは [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) で受けられます。
 
-### Q5: テストには一時ライセンスが必要ですか?
+**Q: テスト用に一時ライセンスは必要ですか？**  
+A: はい、一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から取得してください。
 
- A5: はい、一時ライセンスを取得します。[ここ](https://purchase.aspose.com/temporary-license/).
+**Q: ファイル ライセンスとメータリング ライセンスの違いは何ですか？**  
+A: ファイル ライセンスは特定の製品バージョンに紐付く静的な `.lic` ファイルで、メータリング ライセンスはパブリック/プライベートキーを使用して Aspose のクラウドベース メータリング サービスと使用量を照合します。
+
+**Q: ライセンス読み込みコードを static イニシャライザに埋め込めますか？**  
+A: もちろんです。`License` の初期化を static ブロックに配置すれば、クラスが最初にロードされたときに一度だけライセンスが適用されます。
+
+---
+
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
