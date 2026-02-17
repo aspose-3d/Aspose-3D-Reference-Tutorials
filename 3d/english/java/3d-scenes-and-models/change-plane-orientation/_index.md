@@ -1,5 +1,5 @@
 ---
-title: "How to Export OBJ: Modifying Plane Orientation for Precise 3D Scene Positioning in Java"
+title: "How to Export OBJ - Modifying Plane Orientation for Precise 3D Scene Positioning in Java"
 linktitle: "How to Export OBJ: Modifying Plane Orientation for Precise 3D Scene Positioning in Java"
 second_title: "Aspose.3D Java API"
 description: "Learn how to export OBJ files while adjusting plane orientation using Aspose.3D for Java. Step‑by‑step guide to export 3D model OBJ and save scene as OBJ."
@@ -136,13 +136,6 @@ A: Absolutely. The `Scene.save` method supports FBX, STL, and several other form
 
 By following the steps above you’ve learned **how to export OBJ** while **changing plane orientation** in Aspose.3D for Java. Experiment with different up‑vectors to create custom slopes, ramps, or camera reference planes, and integrate the exported OBJ files into your downstream pipelines—whether that’s a game engine, a CAD tool, or a web‑based 3‑D viewer.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-30  
@@ -150,3 +143,10 @@ By following the steps above you’ve learned **how to export OBJ** while **chan
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

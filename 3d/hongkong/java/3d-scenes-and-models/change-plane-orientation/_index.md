@@ -5,7 +5,7 @@ description: 學習如何使用 Aspose.3D for Java 匯出 OBJ 檔案，同時調
 linktitle: 'How to Export OBJ: Modifying Plane Orientation for Precise 3D Scene Positioning
   in Java'
 second_title: Aspose.3D Java API
-title: 如何匯出 OBJ：調整平面方向以在 Java 中精確定位 3D 場景
+title: 如何匯出 OBJ - 調整平面方向以在 Java 中精確定位 3D 場景
 url: /zh-hant/java/3d-scenes-and-models/change-plane-orientation/
 weight: 10
 ---
@@ -138,13 +138,6 @@ A: 完全可以。`Scene.save` 方法支援 FBX、STL 以及多種其他格式�
 
 透過上述步驟，您已學會在 Aspose.3D for Java 中 **匯出 OBJ** 並 **變更平面方向**。可嘗試不同的 up‑vector，打造自訂斜坡、坡道或相機參考平面，並將匯出的 OBJ 檔案整合至後續流程——無論是遊戲引擎、CAD 工具或網頁 3‑D 檢視器皆適用。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2026-01-30  
@@ -152,3 +145,10 @@ A: 完全可以。`Scene.save` 方法支援 FBX、STL 以及多種其他格式�
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
