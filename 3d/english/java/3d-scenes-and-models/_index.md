@@ -78,18 +78,6 @@ Explore the world of 3D scene manipulation in Java with Aspose 3D Java. This
 Learn how to save 3D meshes in custom binary formats using Aspose 3D Java. Enhance flexibility in Java applications with this step‑by‑step tutorial.
 ### [Work with 3D Properties and Custom Data in Java Scenes Using Aspose 3D](./managing-3d-properties-scenes/)
 Enhance your Java applications with Aspose 3D Java for seamless 3D property manipulation. Follow our tutorial for step‑by‑step guidance.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-04  
-**Tested With:** Aspose.3D for Java (latest release)  
-**Author:** Aspose
 
 ## Frequently Asked Questions
 
@@ -109,3 +97,16 @@ Enhance your Java applications with Aspose 3D Java for seamless 3D property 
 **A:** Yes. The library is compatible with Android SDKs that support Java 8 or higher.
 
 ---
+
+**Last Updated:** 2026-02-04  
+**Tested With:** Aspose.3D for Java (latest release)  
+**Author:** Aspose
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

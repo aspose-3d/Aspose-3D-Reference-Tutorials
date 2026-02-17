@@ -72,15 +72,15 @@ A: Ναι. Το Aspose.3D μπορεί να αποθηκεύσει σε OBJ, FBX
 ### [Εφαρμογή XPath‑Like Ερωτημάτων σε 3D Αντικείμενα σε Java](./xpath-like-object-queries/)
 Κατακτήστε τα ερωτήματα 3D αντικειμένων σε Java εύκολα με Aspose.3D. Εφαρμόστε ερωτήματα XPath‑like, διαχειριστείτε σκηνές και ανεβάστε την 3D ανάπτυξή σας.
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-02-04  
+**Δοκιμάστηκε Με:** Aspose.3D for Java 24.11 (2025)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-02-04  
-**Δοκιμάστηκε Με:** Aspose.3D for Java 24.11 (2025)  
-**Συγγραφέας:** Aspose

@@ -80,13 +80,6 @@ weight: 33
 ### [Apply XPath‑Like Queries to 3D Objects in Java](./xpath-like-object-queries/)
 Освойте запросы к 3D‑объектам в Java без труда с Aspose.3D. Применяйте запросы, похожие на XPath, манипулируйте сценами и повышайте уровень 3D‑разработки.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-04  
@@ -94,3 +87,10 @@ weight: 33
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -18,7 +18,9 @@ weight: 11
 
 # Configurar cámara objetivo para animaciones 3D en Java | Tutorial de Aspose.3D
 
-## Introdu mientras **inicializas una escena 3D en Java** con Aspose.3D y luego adjuntas una cámara control total. Ya sea que estés creando un juego, un visualizador de productos o una simulación científica, dominar la colocación de la cámara es la clave para ofrecer una experiencia visual atractiva.
+## Introducción
+
+¡Bienvenido! En este tutorial aprenderás **a posicionar la cámara** mientras **inicializas una escena 3D en Java** con Aspose.3D y luego conectarás una cámara objetivo para animar tus modelos con total control. Ya sea que estés desarrollando un juego, un visualizador de productos o una simulación científica, dominar la colocación de la cámara es clave para ofrecer una experiencia de visualización atractiva.
 
 ## Respuestas rápidas
 - **¿Cuál es el primer paso?** Initialize the 3D scene using `new Scene()`.  

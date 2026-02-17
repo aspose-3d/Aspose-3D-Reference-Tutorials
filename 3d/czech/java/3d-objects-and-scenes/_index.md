@@ -68,13 +68,6 @@ Pro.3D, snadno upravujte poloměr koule. Stáhněte nyní pro plynD aplikací.
 ### [Použití dotazů podobných XPath na 3D objekty v Javě](./xpath-like-object-queries/)
 Ovládněte dotazy na 3D objekty v Javě bezujte 3D vývoj na vyšší úroveň.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2026-02-04  
@@ -82,3 +75,10 @@ Ovládněte dotazy na 3D objekty v Javě bezujte 3D vývoj na vyšší úroveň.
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

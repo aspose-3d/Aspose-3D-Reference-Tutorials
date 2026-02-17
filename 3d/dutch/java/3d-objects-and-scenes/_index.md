@@ -85,15 +85,15 @@ Ontdek Java 3D‑programmeren met Aspose.3D, waarbij u de sphere‑radius moeite
 ### [Pas XPath‑Like Queries toe op 3D‑objecten in Java](./xpath-like-object-queries/)
 Beheers 3D‑objectqueries in Java moeiteloos met Aspose.3D. Pas XPath‑like queries toe, manipuleer scènes, en til uw 3D‑ontwikkeling naar een hoger niveau.
 
+---
+
+**Last Updated:** 2025-12-05  
+**Tested With:** Aspose.3D for Java 24.11 (2025)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-05  
-**Tested With:** Aspose.3D for Java 24.11 (2025)  
-**Author:** Aspose
