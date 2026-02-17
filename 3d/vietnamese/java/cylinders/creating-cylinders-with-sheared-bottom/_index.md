@@ -129,15 +129,15 @@ A: Bạn có thể nhận giấy phép tạm thời [tại đây](https://purcha
 **Q: Tôi mua giấy phép Aspose.3D cho Java đầy đủ ở đâu?**  
 A: Các tùy chọn mua hàng có sẵn [tại đây](https://purchase.aspose.com/buy).
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.3D 24.11 for Java  
-**Author:** Aspose

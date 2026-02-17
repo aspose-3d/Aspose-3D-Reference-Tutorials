@@ -130,15 +130,15 @@ A: Μπορείτε να λάβετε μια προσωρινή άδεια [here
 **Q: Πού μπορώ να αγοράσω πλήρη άδεια Aspose.3D for Java;**  
 A: Οι επιλογές αγοράς είναι διαθέσιμες [here](https://purchase.aspose.com/buy).
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-27  
+**Δοκιμή με:** Aspose.3D 24.11 for Java  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-01-27  
-**Δοκιμή με:** Aspose.3D 24.11 for Java  
-**Συγγραφέας:** Aspose

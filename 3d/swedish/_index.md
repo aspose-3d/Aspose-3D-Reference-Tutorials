@@ -118,15 +118,15 @@ A: En enda Aspose.3D‑licens täcker alla stödjade plattformar, men du måste 
 **Q: Hur felsöker jag saknade texturer efter konvertering?**  
 A: Behåll alla texturfiler bredvid källmodellen och använd absoluta sökvägar när du anropar `scene.Save`, kontrollera sedan att utmatningsmappen innehåller texturerna.
 
+---
+
+**Senast uppdaterad:** 2026-01-27  
+**Testad med:** Aspose.3D 24.11 (senaste stabila)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-01-27  
-**Testad med:** Aspose.3D 24.11 (senaste stabila)  
-**Författare:** Aspose

@@ -67,13 +67,6 @@ Esplora le meraviglie della modellazione 3D in Java con Aspose.3D. Impara a crea
 ### [Creare cilindri con parte inferiore inclinata in Aspose.3D per Java](./creating-cylinders-with-sheared-bottom/)
 Impara a creare cilindri personalizzati con parti inferiori inclinate usando Aspose.3D per Java. Eleva le tue competenze di modellazione 3D con questa guida passo‑passo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande frequenti
 
 **Q: Posso utilizzare questi tutorial sui cilindri in un progetto commerciale?**  
@@ -93,3 +86,10 @@ A: Assolutamente. Puoi modificare il raggio, l'altezza o la matrice di trasforma
 **Ultimo aggiornamento:** 2026-01-27  
 **Testato con:** Aspose.3D for Java 24.9  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

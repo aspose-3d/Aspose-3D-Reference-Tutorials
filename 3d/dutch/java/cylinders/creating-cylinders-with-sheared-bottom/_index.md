@@ -130,15 +130,15 @@ A: Je kunt een tijdelijke licentie krijgen [hier](https://purchase.aspose.com/te
 **V: Waar kan ik een volledige Aspose.3D voor Java licentie kopen?**  
 A: Aankoopopties zijn beschikbaar [hier](https://purchase.aspose.com/buy).
 
+---
+
+**Laatst bijgewerkt:** 2026-01-27  
+**Getest met:** Aspose.3D 24.11 for Java  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-01-27  
-**Getest met:** Aspose.3D 24.11 for Java  
-**Auteur:** Aspose

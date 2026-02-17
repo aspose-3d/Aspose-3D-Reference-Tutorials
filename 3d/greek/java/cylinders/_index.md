@@ -67,13 +67,6 @@ weight: 25
 ### [Δημιουργία Κύλινδρων με Sheared Bottom στο Aspose.3D για Java](./creating-cylinders-with-sheared-bottom/)
 Μάθετε να δημιουργείτε προσαρμοσμένους κύλινδρους με sheared bottom χρησιμοποιώντας το Aspose.3D για Java. Αναβαθμίστε τις ικανότητές σας στη 3D μοντελοποίηση με αυτόν τον οδηγό βήμα‑βήμα.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q:** Μπορώ να χρησιμοποιήσω αυτά τα μαθήματα κύλινδρων σε εμπορικό έργο;  
@@ -93,3 +86,10 @@ weight: 25
 **Τελευταία Ενημέρωση:** 2026-01-27  
 **Δοκιμάστηκε Με:** Aspose.3D for Java 24.9  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

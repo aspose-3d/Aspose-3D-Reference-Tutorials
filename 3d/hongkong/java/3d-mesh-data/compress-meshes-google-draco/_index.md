@@ -133,13 +133,6 @@ A: 有，請至 [Aspose.3D 論壇](https://forum.aspose.com/c/3d/18) 參與討�
 
 本教學示範了 **如何在 Java 中建立球體** 網格，並透過 Aspose.3D 使用 Google Draco **壓縮 3D 網格** 資料。依循這些步驟，你可以大幅減少網格檔案大小、提升載入速度，讓 Java 為基礎的 3D 應用程式保持流暢。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2026-01-27  
@@ -147,3 +140,10 @@ A: 有，請至 [Aspose.3D 論壇](https://forum.aspose.com/c/3d/18) 參與討�
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

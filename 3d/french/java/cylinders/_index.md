@@ -67,13 +67,6 @@ Explorez les merveilles de la modélisation 3D en Java avec Aspose.3D. Apprenez 
 ### [Créer des cylindres avec base inclinée dans Aspose.3D pour Java](./creating-cylinders-with-sheared-bottom/)
 Apprenez à créer des cylindres personnalisés avec des bases inclinées en utilisant Aspose.3D pour Java. Élevez vos compétences en modélisation 3D grâce à ce guide étape par étape.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Questions fréquentes
 
 **Q : Puis-je utiliser ces tutoriels de cylindres dans un projet commercial ?**  
@@ -93,3 +86,10 @@ R : Absolument. Vous pouvez modifier le rayon, la hauteur ou la matrice de tra
 **Dernière mise à jour :** 2026-01-27  
 **Testé avec :** Aspose.3D for Java 24.9  
 **Auteur :** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

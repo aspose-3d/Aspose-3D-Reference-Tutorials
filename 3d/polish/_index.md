@@ -119,15 +119,15 @@ A: Jedna licencja Aspose.3D obejmuje wszystkie obsługiwane platformy, ale musis
 **Q: Jak rozwiązać problem brakujących tekstur po konwersji?**  
 A: Trzymaj wszystkie pliki tekstur razem z modelem źródłowym i używaj ścieżek bezwzględnych przy wywoływaniu `scene.Save`, a następnie sprawdź, czy folder wyjściowy zawiera tekstury.
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.3D 24.11 (latest stable)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.3D 24.11 (latest stable)  
-**Author:** Aspose

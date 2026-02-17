@@ -65,13 +65,6 @@ weight: 25
 ### [使用 Aspose.3D for Java 建立剪切底部圓柱體](./creating-cylinders-with-sheared-bottom/)
 學習如何使用 Aspose.3D for Java 建立具剪切底部的自訂圓柱體，透過本步驟教學提升您的 3D 建模能力。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 我可以在商業專案中使用這些圓柱體教學嗎？**  
@@ -91,3 +84,10 @@ A: 完全可以。您可以在每一幀修改圓柱體的半徑、高度或變�
 **最後更新：** 2026-01-27  
 **測試環境：** Aspose.3D for Java 24.9  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

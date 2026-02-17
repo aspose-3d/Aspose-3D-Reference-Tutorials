@@ -67,13 +67,6 @@ Ontdek de wonderen van 3D‑modellering in Java met Aspose.3D. Leer moeiteloos b
 ### [Cilinders met sheared‑bottom maken in Aspose.3D voor Java](./creating-cylinders-with-sheared-bottom/)
 Leer aangepaste cilinders met sheared‑bottoms te maken met Aspose.3D voor Java. Verhoog je 3D‑modelleervaardigheden met deze stap‑voor‑stap‑gids.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde vragen
 
 **V: Kan ik deze cilinder‑tutorials gebruiken in een commercieel project?**  
@@ -93,3 +86,10 @@ A: Absoluut. Je kunt de straal, hoogte of transformatie‑matrix van de cilinder
 **Laatst bijgewerkt:** 2026-01-27  
 **Getest met:** Aspose.3D for Java 24.9  
 **Auteur:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

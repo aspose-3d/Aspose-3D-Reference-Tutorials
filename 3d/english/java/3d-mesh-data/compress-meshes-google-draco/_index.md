@@ -132,13 +132,6 @@ A: Yes, for community support and discussions, visit the [Aspose.3D Forum](https
 
 In this tutorial we showed you **how to create sphere** mesh in Java and then **compress 3D mesh** data using Google Draco through Aspose.3D. By following these steps you can dramatically reduce mesh file sizes, improve load times, and keep your Java‑based 3D applications responsive.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-27  
@@ -146,3 +139,10 @@ In this tutorial we showed you **how to create sphere** mesh in Java and then **
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

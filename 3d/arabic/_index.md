@@ -118,15 +118,15 @@ weight: 11
 **س: كيف أحل مشكلة فقدان القوام بعد التحويل؟**  
 ج: احتفظ بجميع ملفات القوام بجوار نموذج المصدر واستخدم مسارات مطلقة عند استدعاء `scene.Save`، ثم تأكد من أن المجلد الناتج يحتوي على القوام.
 
+---
+
+**آخر تحديث:** 2026-01-27  
+**تم الاختبار مع:** Aspose.3D 24.11 (latest stable)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-27  
-**تم الاختبار مع:** Aspose.3D 24.11 (latest stable)  
-**المؤلف:** Aspose

@@ -15,11 +15,11 @@ weight: 25
 
 # Aspose.3D for Javaでシリンダーを扱う
 
-## Introduction
+## はじめに
 
 Javaベースの3D環境で**シリンダーの作成方法**を探しているなら、ここが最適です。Aspose.3D for Javaは、開発者に強力で使いやすいAPIを提供し、洗練された3次元オブジェクトの構築を可能にします。このガイドでは、ファンシリンダー、オフセットトップシリンダー、シアードボトムシリンダーという3つの人気バリエーションを順に解説し、**シリンダーの作り方**を具体的に示します。
 
-## Quick Answers
+## クイックアンサー
 - **3Dジオメトリの主要クラスは何ですか？** `Scene` と `Node` クラスがエントリーポイントです。  
 - **シーンにシリンダーを追加するメソッドはどれですか？** `scene.getRootNode().addChild(new Cylinder(...))`。  
 - **開発にライセンスは必要ですか？** 無料トライアルで学習は可能ですが、製品版には商用ライセンスが必要です。  
@@ -66,13 +66,6 @@ Aspose.3DでJavaの3Dモデリングの魅力を探求し、オフセットト�
 ### [Aspose.3Dでシアードボトムシリンダーを作成する](./creating-cylinders-with-sheared-bottom/)
 Aspose.3D for Javaを使用してシアードボトムシリンダーを作成する方法を学び、このステップバイステップガイドで3Dモデリングスキルを高めましょう。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## よくある質問
 
 **Q: これらのシリンダーチュートリアルを商用プロジェクトで使用できますか？**  
@@ -92,3 +85,10 @@ A: もちろん可能です。各フレームでシリンダーの半径、高�
 **Last Updated:** 2026-01-27  
 **Tested With:** Aspose.3D for Java 24.9  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -67,13 +67,6 @@ Jelajahi keajaiban pemodelan 3D di Java dengan Aspose.3D. Pelajari cara membuat 
 ### [Membuat Silinder dengan Dasar Terpotong di Aspose.3D untuk Java](./creating-cylinders-with-sheared-bottom/)
 Pelajari cara membuat silinder kustom dengan dasar terpotong menggunakan Aspose.3D untuk Java. Tingkatkan keterampilan pemodelan 3D Anda dengan panduan langkah‑demi‑langkah ini.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan tutorial silinder ini dalam proyek komersial?**  
@@ -93,3 +86,10 @@ A: Tentu saja. Anda dapat mengubah radius, tinggi, atau matriks transformasi sil
 **Terakhir Diperbarui:** 2026-01-27  
 **Diuji Dengan:** Aspose.3D for Java 24.9  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

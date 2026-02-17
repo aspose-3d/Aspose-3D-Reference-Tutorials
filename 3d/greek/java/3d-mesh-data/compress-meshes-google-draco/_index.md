@@ -135,15 +135,15 @@ Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 
 Σε αυτό το tutorial σας δείξαμε **how to create sphere** mesh σε Java και στη συνέχεια **compress 3D mesh** δεδομένα χρησιμοποιώντας το Google Draco μέσω Aspose.3D. Ακολουθώντας αυτά τα βήματα μπορείτε να μειώσετε δραστικά τα μεγέθη των αρχείων mesh, να βελτιώσετε τους χρόνους φόρτωσης και να διατηρήσετε τις Java‑based 3D εφαρμογές σας αποκριτικές.
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-27  
+**Δοκιμή Με:** Aspose.3D for Java 24.12 (latest)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-01-27  
-**Δοκιμή Με:** Aspose.3D for Java 24.12 (latest)  
-**Συγγραφέας:** Aspose

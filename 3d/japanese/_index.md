@@ -114,15 +114,15 @@ A: 1 つの Aspose.3D ライセンスでサポートされているすべての�
 **Q: 変換後にテクスチャが欠落した場合のトラブルシューティング方法は？**  
 A: すべてのテクスチャファイルをソースモデルと同じ場所に配置し、`scene.Save` 呼び出し時に絶対パスを使用してください。その後、出力フォルダーにテクスチャが含まれていることを確認します。
 
+---
+
+**最終更新日:** 2026-01-27  
+**テスト環境:** Aspose.3D 24.11（最新の安定版）  
+**作成者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-01-27  
-**テスト環境:** Aspose.3D 24.11（最新の安定版）  
-**作成者:** Aspose

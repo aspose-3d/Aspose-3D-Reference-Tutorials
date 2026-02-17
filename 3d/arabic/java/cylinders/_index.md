@@ -66,13 +66,6 @@ weight: 25
 ### [Creating Cylinders with Sheared Bottom in Aspose.3D for Java](./creating-cylinders-with-sheared-bottom/)
 تعلم إنشاء أسطوانات مخصصة ذات قاعدة مائلة باستخدام Aspose.3D for Java. ارتقِ بمهاراتك في النمذجة ثلاثية الأبعاد من خلال هذا الدليل خطوة‑بـ‑خطوة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام هذه الدروس الخاصة بالأسطوانات في مشروع تجاري؟**  
@@ -92,3 +85,10 @@ weight: 25
 **آخر تحديث:** 2026-01-27  
 **تم الاختبار مع:** Aspose.3D for Java 24.9  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

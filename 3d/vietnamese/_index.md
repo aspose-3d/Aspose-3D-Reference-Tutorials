@@ -116,15 +116,15 @@ A: Một giấy phép Aspose.3D duy nhất bao phủ tất cả các nền tản
 **Q: Làm thế nào để khắc phục vấn đề texture thiếu sau khi chuyển đổi?**  
 A: Giữ tất cả các tệp texture bên cạnh mô hình nguồn và sử dụng đường dẫn tuyệt đối khi gọi `scene.Save`, sau đó kiểm tra thư mục đầu ra có chứa các texture.
 
+---
+
+**Cập nhật lần cuối:** 2026-01-27  
+**Đã kiểm tra với:** Aspose.3D 24.11 (latest stable)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-01-27  
-**Đã kiểm tra với:** Aspose.3D 24.11 (latest stable)  
-**Tác giả:** Aspose

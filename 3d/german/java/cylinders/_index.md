@@ -67,13 +67,6 @@ Entdecken Sie die Wunder der 3D‑Modellierung in Java mit Aspose.3D. Lernen Sie
 ### [Erstellen von Zylindern mit schrägem Boden in Aspose.3D für Java](./creating-cylinders-with-sheared-bottom/)
 Erfahren Sie, wie Sie benutzerdefinierte Zylinder mit schrägem Boden mithilfe von Aspose.3D für Java erstellen. Verbessern Sie Ihre 3D‑Modellierungsfähigkeiten mit diesem Schritt‑für‑Schritt‑Leitfaden.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Kann ich diese Zylinder‑Tutorials in einem kommerziellen Projekt verwenden?**  
@@ -93,3 +86,10 @@ A: Absolut. Sie können den Radius, die Höhe oder die Transformationsmatrix des
 **Zuletzt aktualisiert:** 2026-01-27  
 **Getestet mit:** Aspose.3D for Java 24.9  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

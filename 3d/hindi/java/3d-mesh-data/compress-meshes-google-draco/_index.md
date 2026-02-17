@@ -133,13 +133,6 @@ Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 
 इस ट्यूटोरियल में हमने आपको **जावा में स्फीयर** मेष बनाने और फिर **Google Draco** के माध्यम से Aspose.3D का उपयोग करके **3D मेष** डेटा को कंप्रेस करने का तरीका दिखाया। इन चरणों का पालन करके आप मेष फ़ाइल आकार में उल्लेखनीय कमी, लोड टाइम में सुधार, और अपनी जावा‑आधारित 3D एप्लिकेशन को अधिक प्रतिक्रियाशील बना सकते हैं।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2026-01-27  
@@ -147,3 +140,10 @@ Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 **लेखक:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

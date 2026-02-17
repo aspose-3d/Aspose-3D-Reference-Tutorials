@@ -134,13 +134,6 @@ V: Igen, a közösségi támogatásért és megbeszélésekért látogasd meg a 
 
 Ebben az útmutatóban bemutattuk, hogyan **hozzunk létre gömb** hálót Java‑ban, majd hogyan **tömörítsük a 3D hálót** a Google Draco‑val az Aspose.3D segítségével. A lépések követésével drámai módon csökkentheted a háló fájlméretét, javíthatod a betöltési időket, és Java‑alapú3D alkalmazásaid responsívak maradnak.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2026-01-27  
@@ -148,3 +141,10 @@ Ebben az útmutatóban bemutattuk, hogyan **hozzunk létre gömb** hálót Java�
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

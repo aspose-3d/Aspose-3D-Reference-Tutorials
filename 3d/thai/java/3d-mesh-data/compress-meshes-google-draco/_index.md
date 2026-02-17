@@ -133,13 +133,6 @@ A: มี, สำหรับการสนับสนุนและการ
 
 ในบทเรียนนี้เราได้แสดง **วิธีสร้าง sphere** mesh ใน Java แล้ว **บีบอัด 3D mesh** ด้วย Google Draco ผ่าน Aspose.3D ด้วยการทำตามขั้นตอนเหล่านี้ คุณจะสามารถลดขนาดไฟล์ mesh อย่างมหาศาล, ปรับปรุงเวลาโหลด, และทำให้แอปพลิเคชัน 3D ที่พัฒนาโดย Java มีความตอบสนองที่ดีขึ้น  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **อัปเดตล่าสุด:** 2026-01-27  
@@ -147,3 +140,10 @@ A: มี, สำหรับการสนับสนุนและการ
 **ผู้เขียน:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

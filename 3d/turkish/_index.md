@@ -119,15 +119,15 @@ C: Tek bir Aspose.3D lisansı tüm desteklenen platformları kapsar, ancak uygun
 **S: Dönüştürme sonrası eksik dokuları nasıl gideririm?**  
 C: Tüm doku dosyalarını kaynak modelin yanında tutun ve `scene.Save` çağırırken mutlak yollar kullanın, ardından çıktı klasörünün dokuları içerdiğini doğrulayın.
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.3D 24.11 (latest stable)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.3D 24.11 (latest stable)  
-**Author:** Aspose

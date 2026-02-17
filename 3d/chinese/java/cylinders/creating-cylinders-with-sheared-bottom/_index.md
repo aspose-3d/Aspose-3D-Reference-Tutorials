@@ -128,15 +128,15 @@ A: 你可以在此处获取临时许可证 [here](https://purchase.aspose.com/te
 **Q: 哪里可以购买 Aspose.3D for Java 的正式许可证？**  
 A: 购买选项请参见 [here](https://purchase.aspose.com/buy)。  
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.3D 24.11 for Java  
-**Author:** Aspose

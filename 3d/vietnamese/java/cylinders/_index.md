@@ -67,13 +67,6 @@ Khám phá những điều kỳ diệu của mô hình 3D trong Java với Aspos
 ### [Tạo Trụ với Đáy Nghiêng trong Aspose.3D cho Java](./creating-cylinders-with-sheared-bottom/)
 Học cách tạo trụ tùy chỉnh với đáy nghiêng bằng Aspose.3D cho Java. Nâng cao kỹ năng mô hình 3D của bạn với hướng dẫn chi tiết từng bước này.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng các hướng dẫn trụ này trong dự án thương mại không?**  
@@ -93,3 +86,10 @@ A: Chắc chắn. Bạn có thể thay đổi bán kính, chiều cao hoặc ma 
 **Cập nhật lần cuối:** 2026-01-27  
 **Kiểm tra với:** Aspose.3D for Java 24.9  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

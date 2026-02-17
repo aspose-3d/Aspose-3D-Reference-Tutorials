@@ -67,13 +67,6 @@ Fedezd fel a 3D modellezés csodáit Java‑ban az Aspose.3D‑val. Tanulj meg l
 ### [Ferde aljú hengerek létrehozása az Aspose.3D for Java-ban](./creating-cylinders-with-sheared-bottom/)
 Tanulj meg egyedi, ferde aljú hengereket készíteni az Aspose.3D for Java segítségével. Emeld 3D modellezési képességeidet ezzel a lépésről‑lépésre útmutatóval.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom ezeket a henger oktatóanyagokat kereskedelmi projektben?**  
@@ -93,3 +86,10 @@ A: Teljesen. Módosíthatod a henger sugárát, magasságát vagy transzformáci
 **Last Updated:** 2026-01-27  
 **Tested With:** Aspose.3D for Java 24.9  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

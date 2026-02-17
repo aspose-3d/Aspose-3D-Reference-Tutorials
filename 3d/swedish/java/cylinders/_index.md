@@ -66,13 +66,6 @@ Utforska underverk av 3D‑modellering i Java med Aspose.3D. Lär dig skapa fän
 ### [Skapa cylindrar med sheared‑bottom i Aspose.3D för Java](./creating-cylinders-with-sheared-bottom/)
 Lär dig skapa anpassade cylindrar med sheared‑bottom med Aspose.3D för Java. Höj dina 3D‑modellering färdigheter med denna steg‑för‑steg‑guide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag använda dessa cylinder‑handledningar i ett kommersiellt projekt?**  
@@ -92,3 +85,10 @@ A: Absolut. Du kan modifiera cylinder‑radien, höjden eller transformationsmat
 **Senast uppdaterad:** 2026-01-27  
 **Testad med:** Aspose.3D för Java 24.9  
 **Författare:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

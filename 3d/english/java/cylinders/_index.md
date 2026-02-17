@@ -65,13 +65,6 @@ Explore the wonders of 3D modeling in Java with Aspose.3D. Learn to create capti
 ### [Creating Cylinders with Sheared Bottom in Aspose.3D for Java](./creating-cylinders-with-sheared-bottom/)
 Learn to create customized cylinders with sheared bottoms using Aspose.3D for Java. Elevate your 3D modeling skills with this step‑by‑step guide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I use these cylinder tutorials in a commercial project?**  
@@ -91,3 +84,10 @@ A: Absolutely. You can modify the cylinder’s radius, height, or transformation
 **Last Updated:** 2026-01-27  
 **Tested With:** Aspose.3D for Java 24.9  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

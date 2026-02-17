@@ -16,22 +16,22 @@ weight: 25
 
 # Aspose.3D for Java'da Silindirlerle Çalışma
 
-## Introduction
+## Giriiş
 
-Java tabanlı bir 3D ortamda **silindir nasıl oluşturulur** şeklini arıyorsanız, doğru yerdesiniz. Aspose.3D for Java, geliştiricilere gelişmiş üç boyutlu nesneler oluşturmak için güçlü ve kullanımı kolay bir API sunar. Bu rehberde, fan silindirleri, offset‑üst silindirleri ve shear‑alt silindirleri gibi üç popüler silindir varyasyonunu inceleyeceğiz; böylece **silindir nasıl yapılır** konusunda tam olarak görebileceksiniz ve uygulamanızda öne çıkan modeller oluşturabileceksiniz.
+Java tabanlı bir 3D modelleme **silindir nasıl oluşturulur** biçimlendirilir, doğru yerdesiniz. Aspose.3D for Java, geliştiricilere göre geliştirilmiş üç boyutlu nesneleri oluşturmak için güçlü ve kullanımı kolay bir API sunar. Bu kılavuzda, fan silindirleri, ofset‑üst silindirleri ve kesme‑alt silindirleri gibi üç popüler silindir çeşitlemesini inceleyerek başlayın; böylece **silindir nasıl yapılır** konusunda tam olarak görebileceksiniz ve uygulamanızda öne çıkan modelleri oluşturabileceksiniz.
 
-## Quick Answers
-- **3D geometri için birincil sınıf nedir?** `Scene` ve `Node` sınıfları giriş noktalarıdır.  
-- **Bir silindiri sahneye ekleyen yöntem hangisidir?** `scene.getRootNode().addChild(new Cylinder(...))`.  
-- **Geliştirme için lisansa ihtiyacım var mı?** Ücretsiz deneme öğrenme için yeterlidir; üretim için ticari lisans gereklidir.  
-- **Hangi Java sürümü gereklidir?** Java 8 ve üzeri tam olarak desteklenir.  
-- **OBJ/FBX formatına dışa aktarabilir miyim?** Evet—`scene.save("model.obj", FileFormat.OBJ)` veya `FileFormat.FBX` kullanın.
+## Hızlı Yanıtlar
+- **3D geometri için birincil sınıf nedir?** `Scene` ve `Node` sınıflarına giriş noktalarıdır.
+- **Bir silindiri sahneye ekleyen yöntem hangisidir?** `scene.getRootNode().addChild(new Cylinder(...))`.
+- **Geliştirme için lisansa ihtiyacım var mı?** Ücretsiz deneme öğrenme için yeterlidir; üretim için ticari lisans gereklidir.
+- **Hangi Java sürümü gereklidir?** Java8ve üzeri tam olarak desteklenir.
+- **OBJ/FBX formatına aktarılabilir mi?** Evet—`scene.save("model.obj", FileFormat.OBJ)` veya `FileFormat.FBX` kullanın.
 
 ## Aspose.3D for Java'da silindir nasıl oluşturulur
 
-Silindir oluşturmanın temellerini anlamak, her şekli belirli ihtiyaçlarınıza göre özelleştirmenize yardımcı olur. Aşağıda, her biri ayrıntılı adım‑adım kılavuzlara bağlanan üç öğretici yolunu özetliyoruz.
+Silindir oluşturmanın temellerini yapabilmesi, her şeklin özelliklerine göre kişiselleştirmenize yardımcı olur. Aşağıda, her ayrıntılı adım‑adım yönlendirilerek üç öğretici yol özetlenmektedir.
 
-### Aspose.3D for Java ile Özelleştirilmiş Fan Silindirleri Oluşturma
+### Aspose.3D for Java ile saklanan Fan Silindirleri Oluşturma
 
 #### [Creating Customized Fan Cylinders with Aspose.3D for Java](./creating-fan-cylinders/)
 
@@ -67,13 +67,6 @@ Aspose.3D ile Java'da 3D modellemenin harikalarını keşfedin. Offset üstlü e
 ### [Creating Cylinders with Sheared Bottom in Aspose.3D for Java](./creating-cylinders-with-sheared-bottom/)
 Aspose.3D for Java kullanarak shear altlı özelleştirilmiş silindirler oluşturmayı öğrenin. Bu adım‑adım kılavuzla 3D modelleme becerilerinizi yükseltin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sık Sorulan Sorular
 
 **Q: Bu silindir öğreticilerini ticari bir projede kullanabilir miyim?**  
@@ -93,3 +86,10 @@ A: Kesinlikle. Silindirin yarıçapını, yüksekliğini veya dönüşüm matris
 **Last Updated:** 2026-01-27  
 **Tested With:** Aspose.3D for Java 24.9  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

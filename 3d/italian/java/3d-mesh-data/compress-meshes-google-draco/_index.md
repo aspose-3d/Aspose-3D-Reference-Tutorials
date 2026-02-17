@@ -131,13 +131,6 @@ R: Sì, per supporto della community e discussioni, visita il [Forum Aspose.3D](
 
 In questo tutorial ti abbiamo mostrato **come creare una mesh sferica** in Java e poi **comprimere i dati di una mesh 3D** usando Google Draco tramite Aspose.3D. Seguendo questi passaggi potrai ridurre drasticamente le dimensioni dei file mesh, migliorare i tempi di caricamento e mantenere le tue applicazioni 3D basate su Java reattive.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ultimo aggiornamento:** 2026-01-27  
@@ -145,3 +138,10 @@ In questo tutorial ti abbiamo mostrato **come creare una mesh sferica** in Java 
 **Autore:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -117,15 +117,15 @@ A: 單一 Aspose.3D 授權即可涵蓋所有支援平台，但您必須引用相
 **Q: 如何排除轉換後缺少紋理的問題？**  
 A: 請將所有紋理檔案與來源模型放在同一資料夾，並在呼叫 `scene.Save` 時使用絕對路徑，最後確認輸出資料夾內包含紋理檔案。
 
+---
+
+**最後更新：** 2026-01-27  
+**測試環境：** Aspose.3D 24.11 (latest stable)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-01-27  
-**測試環境：** Aspose.3D 24.11 (latest stable)  
-**作者：** Aspose

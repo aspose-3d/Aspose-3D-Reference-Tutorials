@@ -135,13 +135,6 @@ O: Tak, aby uzyskać wsparcie społeczności i dyskusje, odwiedź [forum Aspose.
 
 W tym samouczku pokazaliśmy, **jak stworzyć siatkę sfery** w Javie oraz **skompresować dane siatki 3D** przy użyciu Google Draco poprzez Aspose.3D. Postępując zgodnie z tymi krokami, możesz znacząco zmniejszyć rozmiary plików siatek, przyspieszyć czasy ładowania i utrzymać responsywność swoich aplikacji 3D opartych na Javie.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2026-01-27  
@@ -149,3 +142,10 @@ W tym samouczku pokazaliśmy, **jak stworzyć siatkę sfery** w Javie oraz **sko
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

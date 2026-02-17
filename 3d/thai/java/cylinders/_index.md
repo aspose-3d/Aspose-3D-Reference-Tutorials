@@ -69,13 +69,6 @@ weight: 25
 
 เรียนรู้การสร้างทรงกระบอกที่กำหนดเองด้วยด้านล่างตัดโดยใช้ Aspose.3D for Java ยกระดับทักษะการสร้างโมเดล 3D ของคุณด้วยคู่มือขั้นตอนต่อขั้นตอนนี้.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## คำถามที่พบบ่อย
 
 **ถาม: ฉันสามารถใช้บทแนะนำทรงกระบอกเหล่านี้ในโครงการเชิงพาณิชย์ได้หรือไม่?**  
@@ -95,3 +88,10 @@ weight: 25
 **อัปเดตล่าสุด:** 2026-01-27  
 **ทดสอบกับ:** Aspose.3D for Java 24.9  
 **ผู้เขียน:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

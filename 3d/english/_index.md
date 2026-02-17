@@ -117,13 +117,6 @@ A: A single Aspose.3D license covers all supported platforms, but you must refer
 **Q: How do I troubleshoot missing textures after conversion?**  
 A: Keep all texture files alongside the source model and use absolute paths when calling `scene.Save`, then verify the output folder contains the textures.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-27  
@@ -131,3 +124,10 @@ A: Keep all texture files alongside the source model and use absolute paths when
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

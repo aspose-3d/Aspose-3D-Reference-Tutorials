@@ -128,15 +128,15 @@ A: आप टेम्पररी लाइसेंस [यहाँ](https://
 **Q: पूर्ण Aspose.3D for Java लाइसेंस कहाँ खरीदें?**  
 A: खरीद विकल्प [यहाँ](https://purchase.aspose.com/buy) उपलब्ध हैं।
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.3D 24.11 for Java  
-**Author:** Aspose

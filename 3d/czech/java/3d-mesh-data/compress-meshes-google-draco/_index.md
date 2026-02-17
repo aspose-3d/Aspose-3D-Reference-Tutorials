@@ -131,15 +131,15 @@ A: Ano, pro komunitní podporu a diskuze navštivte [Aspose.3D Forum](https://fo
 
 V tomto tutoriálu jsme vám ukázali **jak vytvořit kouli** mesh v Javě a poté **komprimovat 3D mesh** data pomocí Google Draco přes Aspose.3D. Dodržením těchto kroků můžete výrazně snížit velikost souborů mesh, zlepšit časy načítání a udržet vaše 3D aplikace založené na Javě responzivní.
 
+---
+
+**Poslední aktualizace:** 2026-01-27  
+**Testováno s:** Aspose.3D for Java 24.12 (latest)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-27  
-**Testováno s:** Aspose.3D for Java 24.12 (latest)  
-**Autor:** Aspose

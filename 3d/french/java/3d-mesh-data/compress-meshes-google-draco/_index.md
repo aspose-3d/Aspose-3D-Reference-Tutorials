@@ -135,13 +135,6 @@ R : Oui, pour le support communautaire et les discussions, rendez‑vous sur l
 
 Dans ce tutoriel, nous vous avons montré **comment créer une sphère** en Java puis **compresser des données de maillage 3D** à l’aide de Google Draco via Aspose.3D. En suivant ces étapes, vous pouvez réduire drastiquement la taille des fichiers de maillage, améliorer les temps de chargement et garder vos applications 3D basées sur Java réactives.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2026-01-27  
@@ -149,3 +142,10 @@ Dans ce tutoriel, nous vous avons montré **comment créer une sphère** en Java
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

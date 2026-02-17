@@ -119,15 +119,15 @@ A: Eine einzige Aspose.3D‑Lizenz deckt alle unterstützten Plattformen ab, jed
 **Q: Wie behebe ich fehlende Texturen nach der Konvertierung?**  
 A: Bewahren Sie alle Texturdateien neben dem Quellmodell auf und verwenden Sie absolute Pfade beim Aufruf von `scene.Save`, dann prüfen Sie, ob der Ausgabordner die Texturen enthält.
 
+---
+
+**Zuletzt aktualisiert:** 2026-01-27  
+**Getestet mit:** Aspose.3D 24.11 (latest stable)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-01-27  
-**Getestet mit:** Aspose.3D 24.11 (latest stable)  
-**Autor:** Aspose

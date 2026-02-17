@@ -134,13 +134,6 @@ R: Sim, para suporte comunitário e discussões, visite o [Fórum Aspose.3D](htt
 
 Neste tutorial mostramos **como criar esfera** em Java e depois **compactar dados de malha 3D** usando Google Draco através do Aspose.3D. Seguindo estes passos, você pode reduzir drasticamente o tamanho dos arquivos de malha, melhorar os tempos de carregamento e manter suas aplicações 3D baseadas em Java responsivas.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2026-01-27  
@@ -148,3 +141,10 @@ Neste tutorial mostramos **como criar esfera** em Java e depois **compactar dado
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
