@@ -87,13 +87,6 @@ A: No. Draco preserves vertex attributes, including tangents, if they were gener
 **Q: Is a commercial license required for production use?**  
 A: Yes. While a free trial lets you explore the features, a valid Aspose.3D license is needed for production deployments.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-30  
@@ -101,3 +94,10 @@ A: Yes. While a free trial lets you explore the features, a valid Aspose.3D lice
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
