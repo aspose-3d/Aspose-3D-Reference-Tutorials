@@ -3,8 +3,7 @@ date: 2026-01-30
 description: Μάθετε πώς να εξάγετε αρχεία OBJ ενώ προσαρμόζετε τον προσανατολισμό
   του επιπέδου χρησιμοποιώντας το Aspose.3D για Java. Οδηγός βήμα‑προς‑βήμα για την
   εξαγωγή μοντέλου 3D σε OBJ και την αποθήκευση της σκηνής ως OBJ.
-linktitle: 'How to Export OBJ - Modifying Plane Orientation for Precise 3D Scene Positioning
-  in Java'
+linktitle: 'How to Export OBJ - Modifying Plane Orientation for Precise 3D Scene Positioning in Java'
 second_title: Aspose.3D Java API
 title: 'Πώς να εξάγετε OBJ: Τροποποίηση του προσανατολισμού του επιπέδου για ακριβή
   τοποθέτηση 3D σκηνής σε Java'

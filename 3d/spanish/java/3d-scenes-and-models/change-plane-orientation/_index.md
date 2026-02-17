@@ -6,8 +6,7 @@ description: Aprende a exportar archivos OBJ mientras ajustas la orientación de
 linktitle: 'How to Export OBJ: Modifying Plane Orientation for Precise 3D Scene Positioning
   in Java'
 second_title: Aspose.3D Java API
-title: 'Cómo exportar OBJ - Modificar la orientación del plano para un posicionamiento
-  preciso de la escena 3D en Java'
+title: 'Cómo exportar OBJ - Modificar la orientación del plano para un posicionamiento preciso de la escena 3D en Java'
 url: /es/java/3d-scenes-and-models/change-plane-orientation/
 weight: 10
 ---
