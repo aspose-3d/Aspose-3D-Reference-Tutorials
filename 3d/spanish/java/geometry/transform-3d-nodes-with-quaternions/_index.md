@@ -10,12 +10,6 @@ url: /es/java/geometry/transform-3d-nodes-with-quaternions/
 weight: 20
 ---
 
- with Quaternions in Java using Aspere.3D" etc.
-
-Make sure to keep markdown formatting.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -10,20 +10,6 @@ url: /id/java/geometry/transform-3d-nodes-with-quaternions/
 weight: 20
 ---
 
-? The instruction: translate all text content naturally to Indonesian, but keep technical terms in English. Table headers are generic, can translate. But to be safe, translate them. However they are part of table content; they are text. So translate.
-
-Also need to translate "Last Updated", "Tested With", "Author". Keep as is? Probably translate.
-
-Make sure to keep code block placeholders unchanged.
-
-Also preserve markdown links.
-
-Let's produce final content.
-
-Check shortcodes at top and bottom.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

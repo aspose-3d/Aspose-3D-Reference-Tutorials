@@ -16,29 +16,29 @@ weight: 22
 
 メッシュの三角形化は、複雑な多角形ジオメトリをシンプルな三角形に変換する基礎技術であり、ブラウザやレンダリングエンジンが最も効率的に処理できます。このチュートリアルでは、Aspose.3D for Java を使用して **メッシュを三角形化する方法** を学び、**レンダリング性能を向上させ**、さらに **シーンを FBX として保存** できるようになります。
 
-## Quick Answers
+## クイックアンサー
 - **メッシュの三角形化とは？** 多角形を三角形に変換し、GPU の処理を高速化します。  
 - **なぜ Aspose.3D を使うのか？** 1 回の呼び出しで三角形化と 3D シーンの再エクスポートが可能な API を提供します。  
 - **例で使用しているファイル形式は？** FBX 7400 ASCII。  
 - **ライセンスは必要ですか？** 開発用には無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
 - **三角形化後にメッシュを変更できますか？** はい、返されたメッシュはさらに編集可能です。
 
-## What is “how to triangulate mesh”?
+## 「メッシュを三角化する方法」とは？
 三角形化は、メッシュ内のすべての多角形を重ならない三角形の集合に分割します。この単純化により GPU が処理する頂点数が減少し、フレームレートが滑らかになりメモリ消費も低減します。
 
-## Why triangulate meshes to improve rendering performance?
+## レンダリングパフォーマンスを向上させるためにメッシュを三角化する理由
 - **GPU フレンドリー:** 現代のグラフィックパイプラインは三角形に最適化されています。  
 - **予測可能なシェーディング:** 三角形は平面を保証し、レンダリングアーティファクトを回避します。  
 - **互換性:** 多くのゲームエンジンやビューアは三角形化されたジオメトリしか受け付けません。  
 
-## Prerequisites
+## 前提条件
 
 始める前に以下を用意してください。
 
 - Java の基礎知識がしっかりしていること。  
 - Aspose.3D for Java ライブラリがインストール済みであること。ダウンロードは [here](https://releases.aspose.com/3d/java/) から可能です。
 
-## Import Packages
+## パッケージのインポート
 
 まず、Aspose.3D の名前空間をインポートして、シーン、メッシュ、ユーティリティを使用できるようにします。
 
@@ -46,7 +46,7 @@ weight: 22
 import com.aspose.threed.*;
 ```
 
-## Step 1: Set Your Document Directory
+## ステップ 1: ドキュメントディレクトリの設定
 
 ソース 3D ファイルが格納されているフォルダーを定義します。環境に合わせてパスを調整してください。
 
@@ -54,7 +54,7 @@ import com.aspose.threed.*;
 String MyDir = "Your Document Directory";
 ```
 
-## Step 2: Initialize the Scene
+## ステップ 2: シーンの初期化
 
 `Scene` オブジェクトを作成し、ソースファイル（この例では FBX）を開きます。`open` メソッドはすべてのノード、マテリアル、ジオメトリを読み込みます。
 
@@ -63,7 +63,7 @@ Scene scene = new Scene();
 scene.open(MyDir + "document.fbx");
 ```
 
-## Step 3: Iterate Through Nodes
+## ステップ 3: ノードの反復処理
 
 シーン グラフを走査してすべてのメッシュ ノードを見つける必要があります。`NodeVisitor` を使用すれば、独自の再帰ロジックを書かずに階層をたどれます。
 
@@ -73,7 +73,7 @@ scene.getRootNode().accept(new NodeVisitor() {
 });
 ```
 
-## Step 4: Triangulate the Mesh
+## ステップ 4: メッシュの三角化
 
 ビジター内で各ノードのエンティティを `Mesh` にキャストします。メッシュが存在すれば、`PolygonModifier.triangulate` を呼び出して新しい完全に三角形化されたメッシュを取得し、元のエンティティと置き換えます。
 
@@ -86,7 +86,7 @@ if (mesh != null)
 }
 ```
 
-## Step 5: Save the Modified Scene
+## ステップ 5: 変更したシーンの保存
 
 すべてのメッシュが処理されたら、更新されたシーンをディスクに書き出します。この例では、検査しやすい ASCII 形式で **シーンを FBX として保存** する方法を示しています。
 
@@ -95,11 +95,11 @@ MyDir = MyDir + "document.fbx";
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
-## Conclusion
+## まとめ
 
 上記の手順に従うことで、Java と Aspose.3D を使用した **メッシュの三角形化方法** を習得し、**レンダリング性能を向上させ**、さらに **シーンを FBX として保存** できるようになりました。これにより、ゲームエンジン、AR/VR パイプライン、またはアセットストアでの利用が容易になります。
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q1: Aspose.3D はさまざまな 3D ファイル形式に対応していますか？**  
 A1: はい、Aspose.3D は幅広い 3D ファイル形式をサポートしており、プロジェクトの柔軟性を確保します。
@@ -118,9 +118,9 @@ A5: Aspose.3D コミュニティフォーラム [here](https://forum.aspose.com/
 
 ---
 
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
+**最終更新日:** 2026年2月14日
+**テスト環境:** Aspose.3D for Java 24.11
+**作成者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -10,22 +10,6 @@ url: /es/java/licensing/applying-license-in-aspose-3d/
 weight: 10
 ---
 
- backtop button shortcode.
-
-Now produce the translation.
-
-Let's craft Spanish translation.
-
-Headers: "# Cómo establecer la licencia Aspose en Aspose.3D para Java"
-
-But keep "Aspose.3D" unchanged.
-
-Now produce.
-
-Be careful to preserve markdown formatting.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

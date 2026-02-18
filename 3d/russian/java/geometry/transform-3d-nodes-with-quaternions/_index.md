@@ -10,53 +10,46 @@ url: /ru/java/geometry/transform-3d-nodes-with-quaternions/
 weight: 20
 ---
 
-.3D 24.11 for Java  
-**Author:** Aspose  
-
-Then closing shortcodes.
-
-Also include backtop button shortcode.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Конвертировать модель в FBX с кватернионами в Java с использованием Aspose.3D
 
-## Introduction
+## Введение
 
-Если вам нужно **convert model to FBX**, применяя плавные вращения, вы попали по адресу. В этом руководстве мы пройдем полный пример на Java, использующий Aspose.3D для создания куба, его вращения с помощью кватернионов и, наконец, **save scene as FBX**. К концу вы получите переиспользуемый шаблон для любого 3‑D объекта, который хотите экспортировать в формат FBX, и поймете, как кватернионы помогают **avoid gimbal lock**.
+Если вам нужно **конвертировать модель в FBX**, примените плавные телефоны и вы получите их по адресу. В этом руководстве мы продем пример на Java, используя Aspose.3D для создания полного куба, его аккаунт с помощью кватернионов и, наконец, **сохраните сцену как FBX**. В конце концов вы получите переиспользуемый шаблон для любого трехмерного объекта, который хотите экспортировать в формат FBX, и поймете, как кватернионы помогают **избежать блокировки подвеса**.
 
-## Quick Answers
-- **What library handles FBX export?** Aspose.3D for Java  
-- **Which transformation type is used?** Quaternion‑based rotation for smooth interpolation  
-- **Do I need a license for production?** Yes, a commercial license is required (free trial available)  
-- **Can I export other formats?** Yes, Aspose.3D supports OBJ, STL, GLTF, and more  
-- **Is the code cross‑platform?** Absolutely – Java runs on Windows, Linux, and macOS  
+## Быстрые ответы
+- **Какая библиотека поддерживает экспорт FBX?** Aspose.3D для Java
+- **Какой тип преобразования используется?** Вращение на основе кватернионов для плавной интерполяции.
+- **Нужна ли мне лицензия для производства?** Да, требуется коммерческая лицензия (доступна бесплатная пробная версия)
+- **Могу ли я экспортировать другие форматы?** Да, Aspose.3D поддерживает OBJ, STL, GLTF и другие форматы.
+- **Является ли код кроссплатформенным?** Абсолютно – Java работает на Windows, Linux и macOS.
 
-## What is “convert model to FBX” with quaternions?
+## Что такое «конвертировать модель в FBX» с помощью кватернионов?
 
-Использование кватернионов для вращения позволяет вращать 3‑D узел без известной проблемы gimbal lock, присущей углам Эйлера. Когда вы **convert model to FBX**, данные о вращении сохраняются непосредственно в файле FBX, сохраняя плавную ориентацию, применённую в коде.
+Использование кватернионов для микрофона позволяет вращать 3-D узел без проблем с замком карданного подвеса, присущей углу Эйлера. Когда вы **конвертируете модель в FBX**, данные о вращении находятся непосредственно в файле FBX, сохраняя плавную ориентацию, примененную в коде.
 
-## Why Use Quaternions for FBX Export?
+## Зачем использовать кватернионы для экспорта в FBX?
 
-Кватернионы дают вам:
+Кватернионы предоставляют вам:
 
-- **Smooth interpolation** между ориентациями, что необходимо для анимаций.  
-- **No gimbal lock**, который может испортить вращения при использовании углов Эйлера.  
-- **Compact representation**, экономя память в больших сценах.  
+- **Плавная интерполяция** между ориентациями, что необходимо для анимаций.
+- **Без блокировки подвеса**, который может испортить индикатор при использовании углового Эйлера.
+- **Компактное представление**, экономия памяти на больших сценах.
 
-Эти преимущества делают трансформации на основе кватернионов предпочтительным выбором, когда нужно **convert model to FBX** для игровых движков или визуализационных конвейеров.
+Эти преимущества осуществляют преобразования на основе кватернионов с постоянным выбором, когда необходимо **конвертировать модель в FBX** для игровых движков или визуализационных конвейеров.
 
-## Prerequisites
+## Предварительные условия
 
-Перед тем как приступить к руководству, убедитесь, что у вас есть следующее:
+Прежде чем приступить к решению, убедитесь, что у вас есть следующее:
 
-- Базовые знания программирования на Java.  
-- Aspose.3D for Java установлен. Вы можете скачать его [here](https://releases.aspose.com/3d/java/).  
-- Создана директория документов для сохранения ваших 3D сцен.
+- Базовые знания по программирования на Java.
+- Установлен Aspose.3D для Java. Вы можете скачать его [здесь](https://releases.aspose.com/3d/java/).
+- Создана директория документов для сохранения вашей 3D-сцены.
 
-## Import Packages
+## Импорт пакетов
 
 В этом разделе мы импортируем необходимые пакеты для работы с 3D‑трансформациями в Aspose.3D.
 
@@ -64,7 +57,7 @@ Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 import com.aspose.threed.*;
 ```
 
-## Step 1: Initialize Scene Object
+## Шаг 1: Инициализация объекта сцены
 
 Для начала создайте объект сцены, который будет контейнером для ваших 3D элементов.
 
@@ -72,7 +65,7 @@ import com.aspose.threed.*;
 Scene scene = new Scene();
 ```
 
-## Step 2: Initialize Node Class Object
+## Шаг 2: Инициализация объекта класса узла
 
 Теперь создайте объект класса узла, в данном случае представляющий куб.
 
@@ -80,7 +73,7 @@ Scene scene = new Scene();
 Node cubeNode = new Node("cube");
 ```
 
-## Step 3: Create Mesh using Polygon Builder
+## Шаг 3: Создание сетки с помощью Polygon Builder
 
 Используйте общий класс для создания сетки с помощью метода polygon builder.
 
@@ -88,7 +81,7 @@ Node cubeNode = new Node("cube");
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-## Step 4: Set Mesh Geometry
+## Шаг 4: Настройка геометрии сетки
 
 Назначьте созданную сетку узлу куба.
 
@@ -96,7 +89,7 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 cubeNode.setEntity(mesh);
 ```
 
-## Step 5: Set Rotation with Quaternion
+## Шаг 5: Настройка вращения с помощью кватерниона
 
 Примените вращение к узлу куба с помощью кватернионов. Кватернионы избегают gimbal lock и обеспечивают плавное, непрерывное вращение.
 
@@ -104,7 +97,7 @@ cubeNode.setEntity(mesh);
 cubeNode.getTransform().setRotation(Quaternion.fromRotation(new Vector3(0, 1, 0), new Vector3(0.3, 0.5, 0.1)));
 ```
 
-## Step 6: Set Translation
+## Шаг 6: Настройка перемещения
 
 Укажите трансляцию для узла куба, чтобы он появился в нужном положении в сцене.
 
@@ -112,7 +105,7 @@ cubeNode.getTransform().setRotation(Quaternion.fromRotation(new Vector3(0, 1, 0)
 cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 ```
 
-## Step 7: Add Cube to the Scene
+## Шаг 7: Добавление куба в сцену
 
 Добавьте узел куба в иерархию сцены.
 
@@ -120,7 +113,7 @@ cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## Step 8: Save 3D Scene – Convert Model to FBX
+## Шаг 8: Сохранение 3D-сцены – преобразование модели в формат FBX
 
 Теперь мы действительно **convert model to FBX**, сохранив сцену в формате FBX. Это также демонстрирует процесс **save scene as FBX**.
 
@@ -131,49 +124,50 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-## Common Issues & Solutions
+## Распространенные проблемы и решения
 
 | Проблема | Причина | Решение |
+
 |----------|---------|---------|
-| FBX file appears with wrong orientation | Rotation applied around wrong axis | Verify the axis vectors passed to `Quaternion.fromRotation` |
-| File not saved | Invalid directory path | Ensure `MyDir` points to an existing writable folder |
-| License exception | Missing or expired license | Apply a temporary license from the Aspose portal (see FAQ) |
+| Файл FBX отображается с неправильной ориентацией | Вращение применяется вокруг неправильной оси | Проверьте векторы осей, переданные в `Quaternion.fromRotation` |
+| Файл не сохранен | Неверный путь к каталогу | Убедитесь, что `MyDir` указывает на существующую папку с правами записи |
+| Исключение лицензии | Отсутствует или истек срок действия лицензии | Примените временную лицензию на портале Aspose (см. FAQ) |
 
-## Frequently Asked Questions
+## Часто задаваемые вопросы
 
-### Q1: Can I use Aspose.3D for Java for free?
+### Q1: Могу ли я использовать Aspose.3D для Java бесплатно?
 
-A1: Aspose.3D for Java offers a free trial. You can find it [here](https://releases.aspose.com/).
+A1: Aspose.3D для Java предлагает бесплатную пробную версию. Вы можете найти ее [здесь](https://releases.aspose.com/).
 
-### Q2: Where can I find the documentation for Aspose.3D for Java?
+### Q2: Где я могу найти документацию по Aspose.3D для Java?
 
-A2: The documentation is available [here](https://reference.aspose.com/3d/java/).
+A2: Документация доступна [здесь](https://reference.aspose.com/3d/java/).
 
-### Q3: How do I get support for Aspose.3D for Java?
+### Q3: Как получить поддержку для Aspose.3D для Java?
 
-A3: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for support.
+A3: Обратитесь за поддержкой на [форум Aspose.3D](https://forum.aspose.com/c/3d/18).
 
-### Q4: Are temporary licenses available?
+### Q4: Доступны ли временные лицензии?
 
-A4: Yes, you can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A4: Да, вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Where can I purchase Aspose.3D for Java?
+### Q5: Где я могу приобрести Aspose.3D для Java?
 
-A5: You can buy it [here](https://purchase.aspose.com/buy).
+A5: Вы можете купить его [здесь](https://purchase.aspose.com/buy).
 
-### Q6: Can I export to other formats besides FBX?
+### Q6: Могу ли я экспортировать в другие форматы, помимо FBX?
 
-A6: Yes, Aspose.3D supports OBJ, STL, GLTF, and more. Just change the `FileFormat` enum in the `save` call.
+A6: Да, Aspose.3D поддерживает OBJ, STL, GLTF и другие форматы. Просто измените перечисление `FileFormat` в вызове `save`.
 
-### Q7: Is it possible to animate the cube before exporting?
+### Q7: Можно ли анимировать куб перед экспортом?
 
-A7: Absolutely. You can create an `Animation` object, add keyframes to the node’s transform, and then export the animated scene to FBX.
+A7: Конечно. Вы можете создать объект `Animation`, добавить ключевые кадры к преобразованию узла, а затем экспортировать анимированную сцену в формат FBX.
 
 ---
 
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.3D 24.11 for Java  
-**Author:** Aspose  
+**Последнее обновление:** 2026-02-14
+**Протестировано с:** Aspose.3D 24.11 для Java
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -14,25 +14,25 @@ weight: 10
 
 # Aspose.3D for Java の Aspose ライセンス設定方法
 
-## Introduction
+## はじめに
 
 この包括的なチュートリアルでは、Java 環境で Aspose.3D の **Aspose ライセンスの設定方法** をご紹介します。ライセンスファイルからの読み込み、ストリームからの読み込み、またはパブリックキーとプライベートキーを使用したメータリング ライセンスのいずれかを選択できるように、各アプローチをステップバイステップで解説し、Aspose.3D のすべての機能を迅速かつ自信を持って利用できるようにします。
 
-## Quick Answers
+## クイックアンサー
 - **Aspose.3D のライセンスを設定する主な方法は何ですか？** `License` クラスを使用し、ファイルパスまたはストリームを渡して `setLicense` を呼び出します。  
 - **ストリームからライセンスを読み込むことはできますか？** はい – `.lic` ファイルを `FileInputStream` でラップし、`setLicense` に渡します。  
 - **メータリング ライセンスが必要な場合は？** `Metered` オブジェクトを初期化し、パブリックキーとプライベートキーを使用して `setMeteredKey` を呼び出します。  
 - **開発ビルドでもライセンスが必要ですか？** 評価以外のシナリオでは、トライアルまたは一時ライセンスが必要です。  
 - **対応している Java バージョンはどれですか？** Aspose.3D は Java 6 以降で動作します。
 
-## Prerequisites
+## 前提条件
 
 開始する前に、以下の前提条件が整っていることをご確認ください。
 
 - Java プログラミングの基本的な理解。  
 - Aspose.3D ライブラリがインストール済み。ダウンロードは [release page](https://releases.aspose.com/3d/java/) から行えます。
 
-## Import Packages
+## パッケージのインポート
 
 まず、Java プロジェクトに必要なパッケージをインポートします。Aspose.3D がクラスパスに追加されていることを確認してください。例は以下の通りです。
 
@@ -44,9 +44,9 @@ import java.io.FileInputStream;
 import java.io.IOException;
 ```
 
-## Applying a License Using a File
+## ファイルを使用したライセンスの適用
 
-### Step 1: Create a License Object
+### ステップ 1: ライセンスオブジェクトの作成
 
 まず、Java コード内で `License` オブジェクトを作成します。
 
@@ -54,7 +54,7 @@ import java.io.IOException;
 License license = new License();
 ```
 
-### Step 2: Apply License from File
+### ステップ 2: ファイルからのライセンスの適用
 
 ライセンスファイルへのパスを指定し、以下のコードでライセンスを設定します。これは **apply license from file** 手法を示しています。
 
@@ -62,9 +62,9 @@ License license = new License();
 license.setLicense("Aspose._3D.lic");
 ```
 
-## Applying a License Using a Stream Object
+## ストリームオブジェクトを使用したライセンスの適用
 
-### Step 1: Create a License Object
+### ステップ 1: ライセンスオブジェクトの作成
 
 同様に、Java コード内で `License` オブジェクトを作成します。
 
@@ -72,7 +72,7 @@ license.setLicense("Aspose._3D.lic");
 License license = new License();
 ```
 
-### Step 2: Set License from Stream Object
+### ステップ 2: ストリームオブジェクトからライセンスを設定する
 
 `FileInputStream` を使用してストリームを作成し、ライセンスを設定します。
 
@@ -82,9 +82,9 @@ try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
 }
 ```
 
-## Using Public and Private Keys for Metered Licensing
+## 従量制ライセンスに公開鍵と秘密鍵を使用する
 
-### Step 1: Initialize Metered License Object
+### ステップ 1: 従量制ライセンスオブジェクトを初期化する
 
 `Metered` ライセンスオブジェクトを初期化します。
 
@@ -92,7 +92,7 @@ try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
 Metered metered = new Metered();
 ```
 
-### Step 2: Set Public and Private Keys
+### ステップ 2: 公開鍵と秘密鍵を設定する
 
 パブリックキーとプライベートキーを設定してメータリング ライセンスを有効化します。これは **set public private keys** シナリオをカバーしています。
 
@@ -100,22 +100,22 @@ Metered metered = new Metered();
 metered.setMeteredKey("your-public-key", "your-private-key");
 ```
 
-## Why Setting the License Matters
+## ライセンス設定が重要な理由
 
 正しいライセンスを適用すると、評価用ウォーターマークが除去され、プレミアムファイル形式が使用可能になり、Aspose のライセンスモデルに準拠できます。ファイル、ストリーム、またはメータリングのいずれかの適切な方法を使用することで、CI/CD パイプライン、クラウド デプロイ、デスクトップ アプリケーションへのライセンス統合がシームレスに行えます。
 
-## Common Issues & Tips
+## よくある問題とヒント
 
 - **File not found** – `.lic` ファイルのパスが作業ディレクトリに対して正しいか、または絶対パスを使用しているか確認してください。  
 - **Stream closed prematurely** – ストリームを使用する場合、`License` オブジェクトをアプリケーションの実行期間中保持してください。最初の呼び出しが成功するとライセンスはキャッシュされます。  
 - **Metered key mismatch** – パブリックキーとプライベートキーが同一のメータリング ライセンスに対応しているか再確認してください。タイプミスは実行時例外の原因となります。  
 - **Pro tip:** ライセンスファイルはソースツリー外の安全な場所に保存し、環境変数経由でロードすることでバージョン管理システムへのコミットを防止します。
 
-## Conclusion
+## 結論
 
 おめでとうございます！ ファイルからのライセンス適用、ストリームからの適用、パブリック/プライベートキーによるメータリング ライセンス設定など、さまざまな方法で Aspose.3D for Java の **Aspose ライセンスの設定方法** を習得しました。これで Aspose.3D を Java アプリケーションにシームレスに統合し、3D 処理機能をフルに活用できます。
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: Aspose.3D はすべての Java バージョンと互換性がありますか？**  
 A: はい、Aspose.3D は Java 6 以降のバージョンと互換性があります。
@@ -140,9 +140,9 @@ A: もちろんです。`License` の初期化を static ブロックに配置�
 
 ---
 
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.3D 24.11 for Java  
-**Author:** Aspose  
+**最終更新日:** 2026年2月14日
+**テスト環境:** Aspose.3D 24.11 for Java
+**作成者:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

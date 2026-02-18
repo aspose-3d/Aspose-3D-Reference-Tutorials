@@ -9,9 +9,7 @@ url: /es/java/geometry/triangulate-meshes-for-optimized-rendering/
 weight: 22
 ---
 
- Asked Questions" -> "## Preguntas frecuentes". "## Quick Answers" -> "## Respuestas rápidas". "## What is “how to triangulate mesh”?" -> "## Qué es “cómo triangular una malla”?" maybe better "## Qué es “cómo triangular una malla”?" Keep as is.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
