@@ -121,20 +121,6 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 - **Material Overwrites** – Re‑using the same `LambertMaterial` instance for multiple nodes will cause all nodes to share the same color. Always create a fresh material per iteration, as shown above.  
 - **Large Meshes** – For meshes with millions of vertices, consider using `MeshBuilder` with indexed polygons to keep the FBX file size manageable.
 
-## Frequently Asked Questions
-
-**Q: Can I export the scene to other formats besides FBX?**  
-A: Yes, Aspose.3D supports OBJ, STL, 3MF, GLTF, and more. Just replace the `FileFormat` enum in the `save` call.
-
-**Q: What if I need to change the material after the scene is created?**  
-A: Retrieve the node, modify its `LambertMaterial` (e.g., `setDiffuseColor`), and re‑save the scene.
-
-**Q: Does the library handle large meshes efficiently?**  
-A: Aspose.3D uses optimized data structures; however, for extremely large meshes consider streaming or splitting the scene.
-
-**Q: Is there a way to animate the color change?**  
-A: Yes, you can animate material properties using the `AnimationController` API.
-
 ## Additional Frequently Asked Questions
 
 **Q1: Can I use Aspose.3D with other Java frameworks?**  

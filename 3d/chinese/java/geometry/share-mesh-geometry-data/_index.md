@@ -121,20 +121,6 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 - **材质覆盖** – 为多个节点重复使用同一个 `LambertMaterial` 实例会导致所有节点共享相同颜色。始终在每次迭代中创建新的材质，如上所示。  
 - **大型网格** – 对于拥有数百万顶点的网格，考虑使用带索引多边形的 `MeshBuilder`，以保持 FBX 文件大小在可控范围。
 
-## 常见问题
-
-**Q: 我可以将场景导出为除 FBX 之外的其他格式吗？**  
-A: 可以，Aspose.3D 支持 OBJ、STL、3MF、GLTF 等。只需在 `save` 调用中更换 `FileFormat` 枚举即可。
-
-**Q: 如果需要在场景创建后更改材质怎么办？**  
-A: 获取节点，修改其 `LambertMaterial`（例如 `setDiffuseColor`），然后重新保存场景。
-
-**Q: 该库能高效处理大型网格吗？**  
-A: Aspose.3D 使用了优化的数据结构；但对于极大的网格，建议使用流式处理或拆分场景。
-
-**Q: 有办法对颜色变化进行动画化吗？**  
-A: 有，您可以使用 `AnimationController` API 对材质属性进行动画。
-
 ## 其他常见问题
 
 **Q1: 我可以将 Aspose.3D 与其他 Java 框架一起使用吗？**  

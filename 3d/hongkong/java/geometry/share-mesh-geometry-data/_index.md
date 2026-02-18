@@ -121,20 +121,6 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 - **材質覆寫** – 多個節點重複使用相同的 `LambertMaterial` 實例會導致所有節點共用同一顏色。請如上例在每次迭代時建立全新的材質。  
 - **大型 Mesh** – 若 Mesh 含有數百萬個頂點，建議使用帶索引多邊形的 `MeshBuilder`，以控制 FBX 檔案大小。
 
-## 常見問答
-
-**Q: 我可以將場景匯出為除 FBX 之外的其他格式嗎？**  
-A: 可以，Aspose.3D 支援 OBJ、STL、3MF、GLTF 等格式，只需在 `save` 呼叫中更換 `FileFormat` 列舉即可。
-
-**Q: 若需要在場景建立後變更材質該怎麼做？**  
-A: 取得目標節點，修改其 `LambertMaterial`（例如 `setDiffuseColor`），然後重新儲存場景。
-
-**Q: 函式庫對大型 Mesh 的處理效能如何？**  
-A: Aspose.3D 使用優化的資料結構；但對於極大型的 Mesh，建議採用串流或將場景切分以降低記憶體佔用。
-
-**Q: 有辦法為顏色變化加入動畫嗎？**  
-A: 有，您可以使用 `AnimationController` API 為材質屬性加入動畫。
-
 ## 其他常見問答
 
 **Q1: 我可以在其他 Java 框架中使用 Aspose.3D 嗎？**  

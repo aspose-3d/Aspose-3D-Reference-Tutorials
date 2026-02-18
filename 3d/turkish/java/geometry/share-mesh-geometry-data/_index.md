@@ -9,31 +9,7 @@ url: /tr/java/geometry/share-mesh-geometry-data/
 weight: 15
 ---
 
- Create 3D Mesh Java Using Polygon Builder (create 3d mesh java)"
-
-Translate "How to set material color for each node?" etc.
-
-Translate "Step 5: Save the 3D Scene (save scene fbx, convert mesh to fbx)"
-
-Translate "Common Pitfalls & Tips" etc.
-
-Translate FAQs.
-
-Translate Additional FAQs.
-
-Translate Conclusion.
-
-Translate "Last Updated", "Tested With", "Author".
-
-All other placeholders remain.
-
-Let's craft translation.
-
-Be careful with bold formatting: keep **.
-
-Also keep parentheses.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -145,20 +121,6 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 - **Lisans Başlatma** – `scene.save` çağrısından önce Aspose.3D lisansını ayarlamazsanız, kütüphane deneme modunda çalışır ve bir filigran ekleyebilir.  
 - **Malzeme Üzerine Yazma** – Aynı `LambertMaterial` örneğini birden fazla düğümde yeniden kullanmak, tüm düğümlerin aynı rengi paylaşmasına neden olur. Yukarıda gösterildiği gibi her yineleme için yeni bir malzeme oluşturun.  
 - **Büyük Mesh'ler** – Milyonlarca verteks içeren mesh'ler için FBX dosya boyutunu kontrol altında tutmak amacıyla indeksli poligonlarla `MeshBuilder` kullanmayı düşünün.
-
-## Sıkça Sorulan Sorular
-
-**S: Sahneyi FBX dışındaki formatlara da dışa aktarabilir miyim?**  
-C: Evet, Aspose.3D OBJ, STL, 3MF, GLTF ve daha fazlasını destekler. `save` çağrısındaki `FileFormat` enum değerini değiştirmeniz yeterlidir.
-
-**S: Sahne oluşturulduktan sonra malzemeyi değiştirmem gerekirse ne yapmalıyım?**  
-C: Düğümü alın, `LambertMaterial`'ini (ör. `setDiffuseColor`) değiştirin ve sahneyi yeniden kaydedin.
-
-**S: Kütüphane büyük mesh'leri verimli bir şekilde işliyor mu?**  
-C: Aspose.3D optimize edilmiş veri yapıları kullanır; ancak çok büyük mesh'ler için akış (streaming) veya sahneyi bölme yöntemlerini değerlendirin.
-
-**S: Renk değişimini animasyon haline getirebilir miyim?**  
-C: Evet, `AnimationController` API'si ile malzeme özelliklerini animasyonlayabilirsiniz.
 
 ## Ek Sıkça Sorulan Sorular
 

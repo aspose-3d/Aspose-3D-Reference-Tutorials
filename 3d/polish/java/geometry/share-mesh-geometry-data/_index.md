@@ -122,20 +122,6 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 - **Nadpisywanie materiału** – Ponowne użycie tej samej instancji `LambertMaterial` dla wielu węzłów spowoduje, że wszystkie węzły będą dzielić ten sam kolor. Zawsze twórz nowy materiał w każdej iteracji, jak pokazano powyżej.  
 - **Duże siatki** – Dla siatek z milionami wierzchołków rozważ użycie `MeshBuilder` z indeksowanymi wielokątami, aby utrzymać rozmiar pliku FBX w rozsądnych granicach.
 
-## Najczęściej zadawane pytania
-
-**Q: Czy mogę wyeksportować scenę do innych formatów niż FBX?**  
-A: Tak, Aspose.3D obsługuje OBJ, STL, 3MF, GLTF i inne. Wystarczy zamienić enum `FileFormat` w wywołaniu `save`.
-
-**Q: Co zrobić, jeśli muszę zmienić materiał po utworzeniu sceny?**  
-A: Pobierz węzeł, zmodyfikuj jego `LambertMaterial` (np. `setDiffuseColor`) i ponownie zapisz scenę.
-
-**Q: Czy biblioteka radzi sobie efektywnie z dużymi siatkami?**  
-A: Aspose.3D używa zoptymalizowanych struktur danych; jednak przy ekstremalnie dużych siatkach rozważ strumieniowanie lub podział sceny.
-
-**Q: Czy istnieje sposób na animację zmiany koloru?**  
-A: Tak, możesz animować właściwości materiału przy użyciu API `AnimationController`.
-
 ## Dodatkowe najczęściej zadawane pytania
 
 **Q1: Czy mogę używać Aspose.3D z innymi frameworkami Java?**  

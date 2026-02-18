@@ -122,20 +122,6 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 - **Ghi đè vật liệu** – Việc tái sử dụng cùng một instance `LambertMaterial` cho nhiều node sẽ khiến tất cả các node chia sẻ cùng một màu. Luôn tạo một vật liệu mới cho mỗi vòng lặp, như đã minh họa ở trên.  
 - **Mesh lớn** – Đối với mesh có hàng triệu đỉnh, hãy cân nhắc sử dụng `MeshBuilder` với polygon được lập chỉ mục để giữ kích thước file FBX ở mức hợp lý.
 
-## Câu hỏi thường gặp
-
-**Q: Tôi có thể xuất scene sang các định dạng khác ngoài FBX không?**  
-A: Có, Aspose.3D hỗ trợ OBJ, STL, 3MF, GLTF và hơn nữa. Chỉ cần thay thế enum `FileFormat` trong lời gọi `save`.
-
-**Q: Nếu tôi cần thay đổi material sau khi scene đã được tạo thì sao?**  
-A: Lấy node, sửa đổi `LambertMaterial` của nó (ví dụ, `setDiffuseColor`), và lưu lại scene.
-
-**Q: Thư viện có xử lý mesh lớn một cách hiệu quả không?**  
-A: Aspose.3D sử dụng các cấu trúc dữ liệu được tối ưu; tuy nhiên, đối với các mesh cực lớn, hãy cân nhắc streaming hoặc chia nhỏ scene.
-
-**Q: Có cách nào để animate việc thay đổi màu không?**  
-A: Có, bạn có thể animate các thuộc tính material bằng API `AnimationController`.
-
 ## Các câu hỏi thường gặp bổ sung
 
 **Q1: Tôi có thể sử dụng Aspose.3D với các framework Java khác không?**  

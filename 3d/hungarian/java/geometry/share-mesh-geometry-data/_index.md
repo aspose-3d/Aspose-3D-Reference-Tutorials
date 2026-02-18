@@ -123,20 +123,6 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 - **Anyag felülírások** – Ugyanazon `LambertMaterial` példány újrahasználata több csomóponthoz azt eredményezi, hogy minden csomópont ugyanazt a színt kapja. Mindig hozz létre egy friss anyagot minden iterációban, ahogy fent is látható.  
 - **Nagy mesh‑ek** – Millió vertex‑számú mesh‑ek esetén fontold meg a `MeshBuilder` használatát indexelt poligonokkal, hogy az FBX fájl mérete kezelhető maradjon.
 
-## Gyakran Ismételt Kérdések
-
-**Q: Exportálhatom a jelenetet más formátumokba is az FBX‑en kívül?**  
-A: Igen, az Aspose.3D támogatja az OBJ, STL, 3MF, GLTF és további formátumokat. Csak cseréld le a `FileFormat` enum értékét a `save` hívásban.
-
-**Q: Mi a teendő, ha a jelenet létrehozása után kell módosítanom az anyagot?**  
-A: Szerezd meg a csomópontot, módosítsd a `LambertMaterial`‑ját (pl. `setDiffuseColor`), majd mentsd újra a jelenetet.
-
-**Q: Kezeli a könyvtár hatékonyan a nagy mesh‑eket?**  
-A: Az Aspose.3D optimalizált adatstruktúrákat használ; azonban extrém nagy mesh‑ek esetén érdemes streaminget vagy a jelenet felosztását alkalmazni.
-
-**Q: Van lehetőség a színváltozás animálására?**  
-A: Igen, anyag tulajdonságokat animálhatsz a `AnimationController` API‑val.
-
 ## További Gyakran Ismételt Kérdések
 
 **Q1: Használhatom az Aspose.3D‑t más Java keretrendszerekkel?**  

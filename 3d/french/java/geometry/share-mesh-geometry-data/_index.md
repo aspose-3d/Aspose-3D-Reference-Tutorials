@@ -20,31 +20,31 @@ weight: 15
 
 Si vous développez une application 3D basée sur Java, vous aurez souvent besoin de réutiliser la même géométrie sur plusieurs objets tout en donnant à chaque instance un aspect unique. Dans ce tutoriel, vous apprendrez **comment convertir un maillage en FBX**, partager la géométrie du maillage sous‑jacent entre plusieurs nœuds, et **définir une couleur de matériau différente pour chaque nœud**. À la fin, vous disposerez d’une scène FBX prête à être exportée que vous pourrez intégrer dans n’importe quel moteur ou visualiseur.
 
-## Quick Answers
-- **Quel est l'objectif principal ?** Convertir le maillage en FBX, partager la géométrie du maillage et définir une couleur de matériau distincte pour chaque nœud.  
-- **Quelle bibliothèque est requise ?** Aspose.3D for Java.  
-- **Comment exporter le résultat ?** Enregistrer la scène sous forme de fichier FBX en utilisant `FileFormat.FBX7400ASCII`.  
-- **Ai‑je besoin d’une licence ?** Une licence temporaire ou complète est requise pour une utilisation en production.  
-- **Quelle version de Java fonctionne ?** Tout environnement Java 8+.
+## Réponses rapides
+- **Quel est l'objectif principal ?** Convertir le maillage en FBX, partager la géométrie du maillage et définir une couleur de matériau distincte pour chaque nœud.
+- **Quelle bibliothèque est requise?** Aspose.3D pour Java.
+- **Comment exporter le résultat?** Enregistrer la scène sous forme de fichier FBX en utilisant `FileFormat.FBX7400ASCII`.
+- **Ai‑je besoin d’une licence?** Une licence temporaire ou complète est requise pour une utilisation en production.
+- **Quelle version de Java fonctionne ?** Tout environnement Java8+.
 
-## What is **convert mesh to FBX**?
+## Qu'est-ce que **convertir le maillage en FBX** ?
 
-`convert mesh to fbx` est le processus consistant à prendre un objet maillage créé ou manipulé en mémoire et à l’écrire au format de fichier FBX, largement supporté par les outils 3D tels que Maya, Blender et Unity. Aspose.3D se charge du travail lourd, vous n’avez donc qu’à appeler `scene.save(...)` avec le `FileFormat` approprié.
+`convert mesh to fbx` est le processus consistant à prendre un objet maillage créé ou manipulé en mémoire et à l'écrire au format de fichier FBX, largement supporté par les outils 3D tels que Maya, Blender et Unity. Aspose.3D se charge du travail lourd, vous n’avez donc qu’à appeler `scene.save(...)` avec le `FileFormat` approprié.
 
-## Why share mesh geometry data?
+## Pourquoi partager des données de géométrie de maillage ?
 
-Partager la géométrie réduit la consommation de mémoire et accélère le rendu car les tampons de sommets sous‑jacents ne sont stockés qu’une seule fois. Cette technique est idéale pour les scènes contenant de nombreux objets dupliqués — pensez aux forêts, aux foules ou à l’architecture modulaire—où chaque instance ne diffère que par sa transformation ou son matériau.
+Partager la géométrie réduit la consommation de mémoire et accélère le rendu car les tampons de sommets sous‑jacents ne sont stockés qu’une seule fois. Cette technique est idéale pour les scènes contenant de nombreux objets dupliqués — pensez aux forêts, aux foules ou à l’architecture modulaire — où chaque instance ne diffère que par sa transformation ou son matériau.
 
-## Prerequisites
+## Prérequis
 
-Avant de plonger dans le tutoriel, assurez‑vous d’avoir les prérequis suivants en place :
+Avant de Sous-marin dans le tutoriel, assurez-vous d’avoir les prérequis suivants en place :
 
-- **Environnement de développement Java** – tout IDE ou configuration en ligne de commande avec Java 8 ou supérieur.  
-- **Bibliothèque Aspose.3D** – téléchargez le dernier JAR depuis le site officiel : [ici](https://releases.aspose.com/3d/java/).
+- **Environnement de développement Java** – tout IDE ou configuration en ligne de commande avec Java8 ou supérieur.
+- **Bibliothèque Aspose.3D** – téléchargez le dernier JAR depuis le site officiel : [ici](https://releases.aspose.com/3d/java/).
 
-## Import Packages
+## Importer des packages
 
-Commencez par importer les packages nécessaires dans votre projet Java. Cette étape est cruciale pour accéder aux fonctionnalités fournies par la bibliothèque Aspose.3D.
+Commencez par importer les packages nécessaires dans votre projet Java. Cette étape est cruciale pour les fonctionnalités fournies par la bibliothèque Aspose.3D.
 
 ```java
 import com.aspose.threed.*;
@@ -122,20 +122,6 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 - **Initialisation de la licence** – Si vous oubliez de définir la licence Aspose.3D avant d’appeler `scene.save`, la bibliothèque fonctionnera en mode d’essai et pourra intégrer un filigrane.  
 - **Écrasement de matériau** – Réutiliser la même instance `LambertMaterial` pour plusieurs nœuds entraînera le partage de la même couleur par tous les nœuds. Créez toujours un nouveau matériau à chaque itération, comme montré ci‑dessus.  
 - **Grands maillages** – Pour les maillages contenant des millions de sommets, envisagez d’utiliser `MeshBuilder` avec des polygones indexés afin de garder la taille du fichier FBX gérable.
-
-## Questions fréquemment posées
-
-**Q : Puis‑je exporter la scène vers d’autres formats que le FBX ?**  
-R : Oui, Aspose.3D prend en charge OBJ, STL, 3MF, GLTF, et plus encore. Il suffit de remplacer l’énumération `FileFormat` dans l’appel `save`.
-
-**Q : Que faire si je dois changer le matériau après la création de la scène ?**  
-R : Récupérez le nœud, modifiez son `LambertMaterial` (par ex., `setDiffuseColor`), puis réenregistrez la scène.
-
-**Q : La bibliothèque gère‑t‑elle efficacement les grands maillages ?**  
-R : Aspose.3D utilise des structures de données optimisées ; cependant, pour des maillages extrêmement volumineux, envisagez le streaming ou la division de la scène.
-
-**Q : Existe‑t‑il un moyen d’animer le changement de couleur ?**  
-R : Oui, vous pouvez animer les propriétés du matériau en utilisant l’API `AnimationController`.
 
 ## Questions supplémentaires fréquemment posées
 

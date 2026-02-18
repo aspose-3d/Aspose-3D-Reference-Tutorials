@@ -122,20 +122,6 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 - **Přepis materiálu** – Opakované používání stejné instance `LambertMaterial` pro více uzlů způsobí, že všechny uzly budou sdílet stejnou barvu. Vždy vytvořte nový materiál pro každou iteraci, jak je ukázáno výše.  
 - **Velké sítě** – Pro sítě s miliony vrcholů zvažte použití `MeshBuilder` s indexovanými polygonami, aby velikost souboru FBX zůstala zvládnutelná.
 
-## Často kladené otázky
-
-**Q: Můžu exportovat scénu do jiných formátů než FBX?**  
-A: Ano, Aspose.3D podporuje OBJ, STL, 3MF, GLTF a další. Stačí nahradit výčtový typ `FileFormat` v volání `save`.
-
-**Q: Co když potřebuji změnit materiál po vytvoření scény?**  
-A: Získejte uzel, upravte jeho `LambertMaterial` (např. `setDiffuseColor`) a scénu znovu uložte.
-
-**Q: Zvládá knihovna velké sítě efektivně?**  
-A: Aspose.3D používá optimalizované datové struktury; pro extrémně velké sítě však zvažte streamování nebo rozdělení scény.
-
-**Q: Existuje způsob, jak animovat změnu barvy?**  
-A: Ano, můžete animovat vlastnosti materiálu pomocí API `AnimationController`.
-
 ## Další často kladené otázky
 
 **Q1: Můžu použít Aspose.3D s jinými Java frameworky?**  
