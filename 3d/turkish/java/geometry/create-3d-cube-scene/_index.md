@@ -1,33 +1,52 @@
 ---
-title: Aspose.3D ile Java'da 3D Küp Sahnesi Oluşturun
-linktitle: Aspose.3D ile Java'da 3D Küp Sahnesi Oluşturun
-second_title: Aspose.3D Java API'si
-description: Aspose.3D for Java ile 3D küp sahne grafiklerinin harikalarını keşfedin. Çarpıcı sahneleri zahmetsizce yaratın.
-weight: 12
+date: 2026-02-12
+description: 'Aspose.3D ile bir Java 3D grafik öğreticisini öğrenin: Java’da adım
+  adım bir 3D küp sahnesi oluşturun, kurulum, kod ve modeli kaydetme konularını kapsar.'
+linktitle: Create a 3D Cube Scene in Java with Aspose.3D
+second_title: Aspose.3D Java API
+title: 'Java 3D Grafik Öğreticisi - Aspose.3D ile 3D Küp Sahnesi Oluşturma'
 url: /tr/java/geometry/create-3d-cube-scene/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D ile Java'da 3D Küp Sahnesi Oluşturun
+# Java 3D Grafik Öğreticisi: Aspose.3D ile 3D Küp Sahnesi Oluşturma
 
-## giriiş
+## Giriş
 
-Aspose.3D kullanarak Java'daki 3D grafiklerin büyüleyici dünyasına hoş geldiniz! Bu eğitimde, Aspose.3D for Java'yı kullanarak etkileyici bir 3D küp sahnesi oluşturma sürecinde size rehberlik edeceğiz. Aspose.3D, 3D modeller ve sahnelerle çalışmak için kapsamlı işlevler sağlayan güçlü bir Java kütüphanesidir.
+Bu **java 3d graphics tutorial**'a hoş geldiniz! Bu rehberde, güçlü Aspose.3D kütüphanesini kullanarak Java'da bir 3D küp sahnesi oluşturmayı adım adım göstereceğiz. İster bir oyun prototipi, bir ürün görselleştirici oluşturuyor olun, ister sadece 3‑D renderlamayı keşfediyor olun, bu öğretici size sağlam, uygulamalı bir temel sunar.
+
+## Hızlı Yanıtlar
+- **Hangi kütüphane gerekiyor?** Aspose.3D for Java  
+- **Örnek ne kadar sürede çalışır?** Tipik bir iş istasyonunda bir dakikadan az  
+- **Hangi JDK sürümü gereklidir?** Java 8 veya üzeri (herhangi bir modern JDK çalışır)  
+- **Diğer formatlara dışa aktarabilir miyim?** Evet – `save` metodu FBX, OBJ, STL ve daha fazlasını destekler  
+- **Test için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme yeterlidir; üretim için ticari lisans gereklidir  
+
+## Java 3D grafik öğreticisi nedir?
+
+Bir **java 3d graphics tutorial**, Java tabanlı API'ler kullanarak 3‑D nesneleri, sahneleri ve renderleme hatlarını nasıl manipüle edeceğinizi açıklar. Bu durumda, düşük seviyeli matematik ve dosya formatı işlemlerini soyutlayan Aspose.3D'ye odaklanıyoruz, böylece geometri ve sahne kompozisyonuna yoğunlaşabilirsiniz.
+
+## Java için Aspose.3D neden kullanılmalı?
+
+- **Çapraz platform** – yerel bağımlılıklar olmadan Windows, Linux ve macOS'ta çalışır.  
+- **Zengin format desteği** – onlarca 3‑D dosya türünü içe ve dışa aktarır.  
+- **Yüksek seviyeli API** – sadece birkaç satır kodla mesh'ler, düğümler, ışıklar ve kameralar oluşturun.  
+- **Performans odaklı** – büyük modeller ve gerçek zamanlı senaryolar için tasarlanmıştır.
 
 ## Önkoşullar
 
-3B küp sahnesinin oluşturulmasına geçmeden önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Derinlemesine başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun. En son sürümü şuradan indirebilirsiniz:[Oracle'ın web sitesi](https://www.oracle.com/java/).
+1. **Java Development Kit (JDK)** – en son sürümü [Oracle'ın web sitesinden](https://www.oracle.com/java/) indirin.  
+2. **Aspose.3D for Java library** – JAR dosyasını ve dokümantasyonu resmi indirme sayfasından [buradan](https://releases.aspose.com/3d/java/) edinin.
 
-2.  Aspose.3D for Java Library: Aspose.3D kütüphanesini indirin ve yükleyin. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/3d/java/).
+## Paketleri İçe Aktarma
 
-## Paketleri İçe Aktar
-
-Gerekli paketleri Java projenize aktararak başlayın:
+Gerekli sınıfları Java projenize içe aktararak başlayın:
 
 ```java
 import java.io.File;
@@ -40,77 +59,85 @@ import com.aspose.threed.Node;
 import com.aspose.threed.Scene;
 ```
 
-Şimdi 3 boyutlu küp sahnesi oluşturma sürecini birden fazla adıma ayıralım.
+## Aspose.3D ile 3D sahne nasıl oluşturulur
 
-## 1. Adım: Sahneyi Başlatın
+Aşağıda, **3D sahne nasıl oluşturulur** öğelerini gösteren, geometri ekleyen ve sonunda sonucu diske yazan adım adım bir rehber bulunmaktadır.
+
+### Adım 1: Sahneyi Başlatma
 
 ```java
-// Sahne nesnesini başlat
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Adım 2: Düğümü ve Mesh'i Başlatın
+### Adım 2: Düğüm ve Mesh'i Başlatma
 
 ```java
-// Düğüm sınıfı nesnesini başlat
+// Initialize Node class object
 Node cubeNode = new Node("box");
 
-// Örgü örneğini ayarlamak için çokgen oluşturucu yöntemini kullanarak ortak sınıf oluşturma örgüsünü çağırın
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-// Düğümü Mesh geometrisine yönlendirin
+// Point node to the Mesh geometry
 cubeNode.setEntity(mesh);
 ```
 
-## 3. Adım: Sahneye Düğüm Ekleyin
+### Adım 3: Düğümü Sahneye Ekleme
 
 ```java
-// Bir sahneye Düğüm ekleme
+// Add Node to a scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## 4. Adım: 3D Sahneyi Kaydedin
+### Adım 4: 3D Sahneyi Kaydetme
 
 ```java
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "CubeScene.fbx";
 
-// 3B sahneyi desteklenen dosya formatlarında kaydedin
+// Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
-## Adım 5: Başarı Mesajını Yazdırın
+### Adım 5: Başarı Mesajını Yazdırma
 
 ```java
 System.out.println("\nCube Scene created successfully.\nFile saved at " + MyDir);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümleri
 
-Tebrikler! Aspose.3D for Java'yı kullanarak başarılı bir şekilde 3D küp sahnesi oluşturdunuz. Bu eğitim, daha gelişmiş özellikleri keşfetmeniz ve 3D grafik dünyasında yaratıcılığınızı ortaya çıkarmanız için sağlam bir temel sağlar.
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| **`Common` sınıfı bulunamadı** | Yardımcı sınıf Aspose örnek paketinin bir parçasıdır. | Örnek kaynak dosyasını projenize ekleyin veya kendi mesh oluşturma kodunuzla değiştirin. |
+| **`FileFormat.FBX7400ASCII` tanınmıyor** | Eski bir Aspose.3D sürümü kullanılıyor. | Enum'un mevcut olduğu en son Aspose.3D JAR'ına yükseltin. |
+| **Çıktı dosyası boş** | Hedef dizin mevcut değil. | `MyDir`'in geçerli bir klasöre işaret ettiğinden emin olun veya programatik olarak oluşturun. |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.3D'yi ticari projeler için kullanabilir miyim?
+**S: Aspose.3D'yi ticari projelerde kullanabilir miyim?**  
+C: Evet, kullanabilirsiniz. Lisans detayları için [satın alma sayfasını](https://purchase.aspose.com/buy) kontrol edin.
 
- A1: Evet, yapabilirsin. Kontrol edin[satın alma sayfası](https://purchase.aspose.com/buy) lisans ayrıntıları için.
+**S: Aspose.3D için nasıl destek alabilirim?**  
+C: Topluluk yardımı ve resmi destek için [Aspose.3D forumunu](https://forum.aspose.com/c/3d/18) ziyaret edin.
 
-### S2: Aspose.3D için nasıl destek alabilirim?
+**S: Ücretsiz deneme mevcut mu?**  
+C: Evet, ücretsiz denemeyi [buradan](https://releases.aspose.com/) alabilirsiniz.
 
- A2: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk desteği için.
+**S: Aspose.3D dokümantasyonunu nerede bulabilirim?**  
+C: Ayrıntılı bilgi için [Aspose.3D dokümantasyonuna](https://reference.aspose.com/3d/java/) bakın.
 
-### S3: Ücretsiz deneme sürümü mevcut mu?
+**S: Aspose.3D için geçici lisans nasıl alınır?**  
+C: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
 
- A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
+---
 
-### S4: Aspose.3D belgelerini nerede bulabilirim?
+**Son Güncelleme:** 2026-02-12  
+**Test Edilen Versiyon:** Aspose.3D for Java 24.11  
+**Yazar:** Aspose  
 
- A4: Bkz.[Aspose.3D belgeleri](https://reference.aspose.com/3d/java/) detaylı bilgi için.
-
-### S5: Aspose.3D için geçici lisans nasıl alınır?
-
- Cevap5: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

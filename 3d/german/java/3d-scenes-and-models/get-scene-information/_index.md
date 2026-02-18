@@ -1,12 +1,12 @@
 ---
-date: 2025-12-06
-description: Erfahren Sie, wie Sie FBX‑Dateien speichern und Szeneninformationen mit
-  Aspose.3D für Java abrufen. Diese Schritt‑für‑Schritt‑Anleitung behandelt das Festlegen
-  des Anwendungsnamens, das Definieren von Maßeinheiten und das Exportieren der Szene
-  nach FBX.
+date: 2026-02-12
+description: Lernen Sie, wie Sie eine Szene in FBX exportieren und 3D‑Szeneninformationen
+  mit Aspose.3D für Java abrufen. Diese Schritt‑für‑Schritt‑Anleitung behandelt das
+  Festlegen des Anwendungsnamens, die Definition von Maßeinheiten und den Export der
+  Szene nach FBX.
 linktitle: How to Save FBX and Retrieve 3D Scene Info in Java
 second_title: Aspose.3D Java API
-title: Wie man FBX speichert und 3D‑Szeneninformationen in Java abruft
+title: Wie man eine Szene nach FBX exportiert und 3D‑Szeneninformationen in Java abruft
 url: /de/java/3d-scenes-and-models/get-scene-information/
 weight: 12
 ---
@@ -15,25 +15,25 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wie man FBX speichert und 3D‑Szeneninformationen in Java abruft
+# Wie man eine Szene nach FBX exportiert und 3D‑Szeneninformationen in Java abruft
 
-## Einführung
+## Einleitung
 
-Wenn Sie nach einer klaren, praxisnahen Anleitung suchen, **wie man FBX**‑Dateien speichert und dabei nützliche Metadaten aus Ihren 3D‑Szenen extrahiert, sind Sie hier genau richtig. In diesem Tutorial führen wir Sie Schritt für Schritt mit der **Aspose.3D Java**‑Bibliothek durch: vom Erstellen einer Szene, **Festlegen des Anwendungsnamens**, **Definieren der Maßeinheiten** bis hin zum **Exportieren der Szene nach FBX**. Am Ende haben Sie eine einsatzbereite FBX‑Datei, die die Asset‑Informationen enthält, die Sie für nachgelagerte Pipelines benötigen.
+Wenn Sie nach einer klaren, praxisorientierten Anleitung suchen, **wie man eine Szene nach FBX exportiert**, während Sie nützliche Metadaten aus Ihren 3D‑Szenen extrahieren, sind Sie hier genau richtig. In diesem Tutorial führen wir Sie Schritt für Schritt mit der **Aspose.3D Java**‑Bibliothek durch: vom Erstellen einer Szene, **Festlegen des Anwendungsnamens**, **Definieren von Maßeinheiten**, bis zum finalen **Export der Szene nach FBX**. Am Ende haben Sie eine einsatzbereite FBX‑Datei, die die Asset‑Informationen enthält, die Sie für nachgelagerte Pipelines benötigen.
 
 ## Schnelle Antworten
-- **Was ist das Hauptziel?** Eine FBX‑Datei speichern, die benutzerdefinierte Asset‑Informationen enthält.  
+- **Was ist das Hauptziel?** Eine Szene nach FBX exportieren, die benutzerdefinierte Asset‑Informationen enthält.  
 - **Welche Bibliothek wird verwendet?** Aspose.3D für Java.  
-- **Brauche ich eine Lizenz?** Eine kostenlose Testversion reicht für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion reicht für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
 - **Kann ich die Maßeinheiten ändern?** Ja – verwenden Sie `setUnitName` und `setUnitScaleFactor`.  
-- **Wo wird die Ausgabe gespeichert?** An dem Pfad, den Sie in `scene.save(...)` angeben.
+- **Wo wird die Ausgabe gespeichert?** Im Pfad, den Sie in `scene.save(...)` angeben.
 
 ## Voraussetzungen
 
 Bevor wir beginnen, stellen Sie sicher, dass Sie folgendes haben:
 
-- Ein solides Verständnis der grundlegenden Java‑Syntax.  
-- **Aspose.3D für Java** heruntergeladen und Ihrem Projekt hinzugefügt (Sie erhalten es von der offiziellen) [Aspose 3D download page](https://releases.aspose.com/3d/java/).  
+- Ein fundiertes Verständnis der grundlegenden Java‑Syntax.  
+- **Aspose.3D für Java** heruntergeladen und zu Ihrem Projekt hinzugefügt (Sie können es von der offiziellen) [Aspose 3D download page](https://releases.aspose.com/3d/java/) erhalten.  
 - Ihre bevorzugte Java‑IDE (IntelliJ IDEA, Eclipse, NetBeans usw.) korrekt konfiguriert.
 
 ## Pakete importieren
@@ -45,46 +45,46 @@ import com.aspose.threed.FileFormat;
 import com.aspose.threed.Scene;
 ```
 
-> **Pro‑Tipp:** Halten Sie die Importliste minimal, um unnötige Abhängigkeiten zu vermeiden und die Kompilierzeit zu verkürzen.
+> **Pro‑Tipp:** Halten Sie die Importliste minimal, um unnötige Abhängigkeiten zu vermeiden und die Kompilierzeiten zu verbessern.
 
 ## Wie ist der Prozess zum Speichern einer FBX‑Datei?
 
-Im Folgenden finden Sie einen knappen, schrittweisen Leitfaden, der zeigt, **wie man Asset‑Informationen** zu einer Szene hinzufügt und dann **die Szene nach FBX exportiert**.
+Im Folgenden finden Sie eine kompakte, schrittweise Anleitung, die zeigt, **wie man Asset‑Informationen** zu einer Szene hinzufügt und dann **die Szene nach FBX exportiert**.
 
-### Schritt 1: Eine 3D‑Szene initialisieren
+### Schritt 1: Eine 3D‑Szene initialisieren
 
-Erzeugen Sie zunächst ein leeres `Scene`‑Objekt. Dieses dient als Container für alle Geometrien, Lichter, Kameras und Asset‑Metadaten.
+Zuerst erstellen Sie ein leeres `Scene`‑Objekt. Dieses dient als Container für alle Geometrien, Lichter, Kameras und Asset‑Metadaten.
 
 ```java
 // ExStart:AddAssetInformationToScene
 Scene scene = new Scene();
 ```
 
-### Schritt 2: Anwendungs‑ und Herstellerinformationen festlegen
+### Schritt 2: Anwendungs‑ und Herstellerinformationen festlegen
 
-Das Hinzufügen benutzerdefinierter Metadaten hilft nachgelagerten Tools, die Quelle der Datei zu identifizieren. Hier **setzen wir den Anwendungsnamen** und den Hersteller über das `AssetInfo`‑Objekt.
+Das Hinzufügen benutzerdefinierter Metadaten hilft nachgelagerten Tools, die Quelle der Datei zu identifizieren. Hier **setzen wir den Anwendungsnamen** und den Hersteller mithilfe des `AssetInfo`‑Objekts.
 
 ```java
 scene.getAssetInfo().setApplicationName("Egypt");
 scene.getAssetInfo().setApplicationVendor("Manualdesk");
 ```
 
-> **Warum das wichtig ist:** Viele Pipelines filtern oder taggen Assets basierend auf der erzeugenden Anwendung, sodass dieser Schritt für große Projekte unverzichtbar ist.
+> **Warum das wichtig ist:** Viele Pipelines filtern oder markieren Assets basierend auf der Ursprung‑Anwendung, wodurch dieser Schritt für große Projekte unverzichtbar wird.
 
-### Schritt 3: Maßeinheiten definieren
+### Schritt 3: Maßeinheiten definieren
 
-Aspose.3D ermöglicht es Ihnen, das Einheitensystem Ihrer Szene festzulegen. In diesem Beispiel verwenden wir eine altägyptische Einheit namens „pole“ mit einem benutzerdefinierten Skalierungsfaktor.
+Aspose.3D ermöglicht es Ihnen, das Einheitensystem festzulegen, das Ihre Szene verwendet. In diesem Beispiel nutzen wir eine antike ägyptische Einheit namens „pole“ mit einem benutzerdefinierten Skalierungsfaktor.
 
 ```java
 scene.getAssetInfo().setUnitName("pole");
 scene.getAssetInfo().setUnitScaleFactor(0.6);
 ```
 
-> **Tipp:** Passen Sie `unitScaleFactor` an die reale Größe Ihrer Modelle an; 1,0 entspricht einer 1‑zu‑1‑Abbildung der gewählten Einheit.
+> **Tipp:** Passen Sie `unitScaleFactor` an die reale Größe Ihrer Modelle an; 1,0 steht für eine 1‑zu‑1‑Abbildung mit der gewählten Einheit.
 
-### Schritt 4: Szene nach FBX exportieren
+### Schritt 4: Szene nach FBX exportieren
 
-Jetzt, wo die Asset‑Informationen angehängt sind, speichern wir die Szene als FBX‑Datei. Die Option `FileFormat.FBX7500ASCII` erzeugt ein menschenlesbares ASCII‑FBX, was für Debugging praktisch ist.
+Da die Asset‑Informationen nun angehängt sind, speichern wir die Szene als FBX‑Datei. Die Option `FileFormat.FBX7500ASCII` erzeugt ein menschenlesbares ASCII‑FBX, das für das Debuggen praktisch ist.
 
 ```java
 String MyDir = "Your Document Directory";
@@ -95,7 +95,7 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 
 > **Denken Sie daran:** Ersetzen Sie `"Your Document Directory"` durch einen absoluten Pfad oder einen Pfad relativ zum Arbeitsverzeichnis Ihres Projekts.
 
-### Schritt 5: Erfolgsmeldung ausgeben
+### Schritt 5: Erfolgsnachricht ausgeben
 
 Eine einfache Konsolenausgabe bestätigt, dass der Vorgang erfolgreich war, und gibt an, wo die Datei geschrieben wurde.
 
@@ -103,62 +103,51 @@ Eine einfache Konsolenausgabe bestätigt, dass der Vorgang erfolgreich war, und 
 System.out.println("\nAsset information added successfully to Scene.\nFile saved at " + MyDir);
 ```
 
-## Häufige Anwendungsfälle
+## Warum Szene mit Aspose.3D nach FBX exportieren?
 
-- **Game‑Asset‑Pipelines** – Erstellerinformationen direkt in FBX‑Dateien einbetten für Versionsnachverfolgung.  
-- **Architekturvisualisierung** – Projektspezifische Einheiten speichern, um Skalierungsfehler beim Import in Rendering‑Engines zu vermeiden.  
-- **Automatisierte Berichterstellung** – FBX‑Dateien on‑the‑fly generieren mit Metadaten, die nachgelagerte Analyse‑Tools auslesen können.
+Der Export nach FBX ist eine häufige Anforderung, da FBX von Spiel‑Engines, DCC‑Tools und AR/VR‑Pipelines breit unterstützt wird. Aspose.3D bietet Ihnen volle Kontrolle über die exportierte Datei – Metadaten, Einheiten und Geometrie – ohne dass eine umfangreiche 3D‑Authoring‑Anwendung nötig ist. Das macht die automatisierte Asset‑Generierung, Batch‑Verarbeitung und serverseitige Konvertierungen schnell und zuverlässig.
 
-## Fehlersuche & Tipps
+## Typische Anwendungsfälle
+
+- **Game‑Asset‑Pipelines** – Erstellerinformationen direkt in FBX‑Dateien einbetten für die Versionsverfolgung.  
+- **Architektur‑Visualisierung** – projektspezifische Einheiten speichern, um Skalierungsfehler beim Import in Rendering‑Engines zu vermeiden.  
+- **Automatisiertes Reporting** – FBX‑Dateien on‑the‑fly mit Metadaten erzeugen, die nachgelagerte Analyse‑Tools lesen können.  
+- **Cloud‑basierte 3D‑Dienste** – Szenen programmgesteuert ohne GUI erstellen und exportieren, ideal für SaaS‑Plattformen.
+
+## Fehlerbehebung & Tipps
 
 | Problem | Lösung |
-|---------|--------|
-| **Datei nach dem Speichern nicht gefunden** | Prüfen Sie, ob `MyDir` auf einen existierenden Ordner zeigt und ob Ihre Anwendung Schreibrechte hat. |
-| **Einheiten erscheinen in externen Viewern falsch** | Überprüfen Sie `unitScaleFactor`; einige Viewer erwarten Meter als Basiseinheit. |
-| **Asset‑Metadaten fehlen** | Stellen Sie sicher, dass Sie `scene.getAssetInfo()` **vor** dem Aufruf von `save()` ausführen; Änderungen nach `save()` werden nicht gespeichert. |
-
-## FAQ's
-
-### Q1: Ist Aspose.3D mit allen Java‑IDEs kompatibel?
-
-A1: Ja, Aspose.3D ist so konzipiert, dass es nahtlos mit allen gängigen Java‑IDEs funktioniert.
-
-### Q2: Kann ich Aspose.3D für kommerzielle Projekte nutzen?
-
-A2: Absolut. Aspose.3D bietet kommerzielle Lizenzen für Entwickler, sodass Sie die Lizenzanforderungen einhalten können.
-
-### Q3: Wo finde ich zusätzlichen Support für Aspose.3D?
-
-A3: Für Fragen oder Unterstützung besuchen Sie das [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
-
-### Q4: Gibt es eine kostenlose Testversion von Aspose.3D?
-
-A4: Ja, Sie können die Funktionen mit einer kostenlosen Testversion ausprobieren, die Sie [hier](https://releases.aspose.com/) finden.
-
-### Q5: Wie erhalte ich eine temporäre Lizenz für Aspose.3D?
-
-A5: Eine temporäre Lizenz für Testzwecke erhalten Sie [hier](https://purchase.aspose.com/temporary-license/).
+|-------|----------|
+| **Datei nach dem Speichern nicht gefunden** | Stellen Sie sicher, dass `MyDir` auf einen vorhandenen Ordner verweist und dass Ihre Anwendung Schreibrechte hat. |
+| **Einheiten erscheinen im externen Viewer falsch** | Überprüfen Sie `unitScaleFactor` erneut; einige Viewer erwarten Meter als Basiseinheit. |
+| **Asset‑Metadaten fehlen** | Stellen Sie sicher, dass Sie `scene.getAssetInfo()` **vor** dem Speichern aufrufen; Änderungen nach `save()` werden nicht übernommen. |
+| **Leistungsengpass bei großen Szenen** | Verwenden Sie `scene.optimize()` vor dem Speichern, um den Speicherverbrauch zu reduzieren. |
+| **ASCII‑FBX ist zu groß** | Wechseln Sie zu binärem FBX, indem Sie `FileFormat.FBX7500` verwenden (siehe FAQ). |
 
 ## Häufig gestellte Fragen
 
-**F: Wie ändere ich das Ausgabeformat zu binärem FBX?**  
-A: Ersetzen Sie `FileFormat.FBX7500ASCII` durch `FileFormat.FBX7500`, wenn Sie `scene.save(...)` aufrufen.
+**Q: Wie ändere ich das Ausgabeformat zu binärem FBX?**  
+A: Ersetzen Sie `FileFormat.FBX7500ASCII` durch `FileFormat.FBX7500` beim Aufruf von `scene.save(...)`.
 
-**F: Kann ich benutzerdefinierte, vom Nutzer definierte Metadaten hinzufügen, die über die integrierten Asset‑Felder hinausgehen?**  
+**Q: Kann ich benutzerdefinierte, vom Nutzer definierte Metadaten über die integrierten Asset‑Felder hinaus hinzufügen?**  
 A: Ja, verwenden Sie `scene.getUserData().add("Key", "Value")`, um zusätzliche Schlüssel‑Wert‑Paare einzubetten.
 
-**F: Unterstützt Aspose.3D andere Exportformate wie OBJ oder GLTF?**  
+**Q: Unterstützt Aspose.3D andere Exportformate wie OBJ oder GLTF?**  
 A: Ja. Ändern Sie einfach das `FileFormat`‑Enum zu `OBJ` oder `GLTF2`, je nach Bedarf.
 
-**F: Welche Java‑Version wird benötigt?**  
+**Q: Welche Java‑Version wird benötigt?**  
 A: Aspose.3D für Java unterstützt Java 8 und höher.
 
-**F: Ist es möglich, ein vorhandenes FBX zu laden, dessen Asset‑Info zu ändern und erneut zu speichern?**  
+**Q: Ist es möglich, ein vorhandenes FBX zu laden, dessen Asset‑Info zu ändern und erneut zu speichern?**  
 A: Absolut. Laden Sie die Datei mit `new Scene("input.fbx")`, ändern Sie `scene.getAssetInfo()`, und speichern Sie anschließend.
+
+## Fazit
+
+Sie haben nun einen vollständigen, produktionsbereiten Workflow zum **Exportieren einer Szene nach FBX**, bei dem wertvolle Asset‑Informationen wie Anwendungsname, Hersteller und benutzerdefinierte Maßeinheiten eingebettet werden. Dieser Ansatz optimiert das Asset‑Management, reduziert manuelle Buchführung und stellt sicher, dass nachgelagerte Tools alle benötigten Kontextinformationen erhalten. Sie können gerne weitere Exportformate erkunden, benutzerdefinierte Benutzerdaten hinzufügen oder diesen Code in größere Automatisierungspipelines integrieren.
 
 ---
 
-**Zuletzt aktualisiert:** 2025-12-06  
+**Zuletzt aktualisiert:** 2026-02-12  
 **Getestet mit:** Aspose.3D for Java 24.11  
 **Autor:** Aspose
 

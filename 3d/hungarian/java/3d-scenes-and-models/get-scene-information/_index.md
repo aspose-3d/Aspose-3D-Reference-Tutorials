@@ -1,12 +1,13 @@
 ---
-date: 2025-12-06
-description: Ismerje meg, hogyan menthet FBX fájlokat és hogyan kérdezheti le a jelenet
-  információit az Aspose.3D for Java használatával. Ez a lépésről‑lépésre útmutató
-  bemutatja az alkalmazás nevének beállítását, a mértékegységek meghatározását és
-  a jelenet FBX‑be exportálását.
+date: 2026-02-12
+description: Tanulja meg, hogyan exportálhatja a jelenetet FBX formátumba, és hogyan
+  szerezhet be 3D jelenetinformációkat az Aspose.3D for Java segítségével. Ez a lépésről‑lépésre
+  útmutató bemutatja az alkalmazás nevének beállítását, a mértékegységek meghatározását
+  és a jelenet FBX‑be exportálását.
 linktitle: How to Save FBX and Retrieve 3D Scene Info in Java
 second_title: Aspose.3D Java API
-title: Hogyan menthetünk FBX-et és szerezhetünk vissza 3D-s jelenetinformációkat Java-ban
+title: Hogyan exportáljunk egy jelenetet FBX-be, és hogyan nyerjünk ki 3D-s jelenetinformációkat
+  Java-ban
 url: /hu/java/3d-scenes-and-models/get-scene-information/
 weight: 12
 ---
@@ -15,76 +16,76 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan mentse el az FBX-et és szerezze meg a 3D jelenet információit Java-ban
+# Hogyan exportáljunk jelenetet FBX-be, és nyerjünk ki 3D jelenet információkat Java-ban
 
 ## Bevezetés
 
-Ha egy világos, gyakorlati útmutatót keres arra, **hogyan mentse el az fbx** fájlokat, miközben hasznos metaadatokat nyer ki a 3D jeleneteiből, jó helyen jár. Ebben a bemutatóban lépésről‑lépésre végigvezetjük a **Aspose.3D Java** könyvtár használatával: a jelenet létrehozásától, **az alkalmazás nevének beállításán**, **a mértékegységek meghatározásán**, egészen a **jelenet FBX‑be exportálásáig**. A végére egy használatra kész FBX fájlt kap, amely tartalmazza a downstream csővezetékekhez szükséges eszközinformációkat.
+Ha egy világos, gyakorlati útmutatót keresel arra, **hogyan exportáljunk jelenetet FBX-be**, miközben hasznos metaadatokat nyersz ki a 3D jeleneteidből, jó helyen jársz. Ebben az útmutatóban lépésről‑lépésre végigvezetünk a **Aspose.3D Java** könyvtár használatával: a jelenet létrehozásától, **az alkalmazás nevének beállításáig**, **a mértékegységek meghatározásáig**, egészen a **jelenet FBX‑be exportálásáig**. A végére egy használatra kész FBX‑fájlt kapsz, amely tartalmazza a szükséges eszközinformációkat a további feldolgozási csővezetékekhez.
 
 ## Gyors válaszok
-- **Mi a fő cél?** Egy FBX fájl mentése, amely egyedi eszközinformációkat tartalmaz.  
-- **Melyik könyvtárat használja?** Aspose.3D for Java.  
-- **Szükségem van licencre?** Egy ingyenes próba a fejlesztéshez elegendő; a termeléshez kereskedelmi licenc szükséges.  
-- **Módosíthatom a mértékegységeket?** Igen – használja a `setUnitName` és `setUnitScaleFactor` metódusokat.  
+- **Mi a fő cél?** Egy olyan jelenet exportálása FBX‑be, amely egyedi eszközinformációkat tartalmaz.  
+- **Melyik könyvtárat használjuk?** Aspose.3D for Java.  
+- **Szükségem van licencre?** Fejlesztéshez egy ingyenes próba elegendő; termeléshez kereskedelmi licenc szükséges.  
+- **Módosíthatom a mértékegységeket?** Igen – használd a `setUnitName` és `setUnitScaleFactor` metódusokat.  
 - **Hol kerül mentésre a kimenet?** A `scene.save(...)`‑ben megadott útvonalra.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződjön meg róla, hogy rendelkezik:
+Mielőtt elkezdenénk, győződj meg róla, hogy rendelkezel:
 
-- Alapos ismeretek a Java alap szintaxisáról.  
-- **Aspose.3D for Java** letöltve és a projektjéhez hozzáadva (letöltheti a hivatalos) [Aspose 3D letöltési oldalról](https://releases.aspose.com/3d/java/).  
-- Kedvenc Java IDE-je (IntelliJ IDEA, Eclipse, NetBeans, stb.) megfelelően beállítva.
+- Alapos ismeretekkel a Java alap szintaxisáról.  
+- **Aspose.3D for Java** letöltve és a projektedhez hozzáadva (letöltheted a hivatalos) [Aspose 3D letöltési oldalról](https://releases.aspose.com/3d/java/).  
+- Kedvenc Java IDE‑ddel (IntelliJ IDEA, Eclipse, NetBeans, stb.) megfelelően konfigurálva.
 
 ## Csomagok importálása
 
-A Java forrásfájlban importálja az Aspose.3D osztályokat, amelyek a jelenetkezelést és a fájlformátum‑támogatást biztosítják.
+A Java forrásfájlodban importáld az Aspose.3D osztályokat, amelyek a jelenetkezelést és a fájlformátum‑támogatást biztosítják.
 
 ```java
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.Scene;
 ```
 
-> **Pro tipp:** Tartsa a importlistát minimálisra, hogy elkerülje a felesleges függőségeket és javítsa a fordítási időket.
+> **Pro tipp:** Tartsd a importlistát minimálisra, hogy elkerüld a felesleges függőségeket és javítsd a fordítási időt.
 
-## Mi a folyamat az FBX fájl mentéséhez?
+## Mi a folyamat egy FBX‑fájl mentéséhez?
 
-Az alábbi tömör, lépésről‑lépésre bemutatott útmutató megmutatja, **hogyan adjon hozzá eszközinformációkat** egy jelenethez, majd **exportálja a jelenetet FBX‑be**.
+Az alábbiakban egy tömör, lépésről‑lépésre útmutatót találsz, amely megmutatja, **hogyan adjunk hozzá eszközinformációkat** egy jelenethez, majd **exportáljuk a jelenetet FBX‑be**.
 
 ### 1. lépés: 3D jelenet inicializálása
 
-Először hozzon létre egy üres `Scene` objektumot. Ez lesz a tároló minden geometria, fény, kamera és eszközmetaadat számára.
+Először hozz létre egy üres `Scene` objektumot. Ez lesz a tároló minden geometria, fény, kamera és eszközmetaadat számára.
 
 ```java
 // ExStart:AddAssetInformationToScene
 Scene scene = new Scene();
 ```
 
-### 2. lépés: Alkalmazás és gyártó információ beállítása
+### 2. lépés: Alkalmazás‑ és gyártói információk beállítása
 
-Az egyedi metaadatok hozzáadása segíti a downstream eszközöket a fájl forrásának azonosításában. Itt **beállítjuk az alkalmazás nevét** és a gyártót az `AssetInfo` objektummal.
+Egyedi metaadatok hozzáadása segíti a downstream eszközöket a fájl forrásának azonosításában. Itt **beállítjuk az alkalmazás nevét** és a gyártót az `AssetInfo` objektummal.
 
 ```java
 scene.getAssetInfo().setApplicationName("Egypt");
 scene.getAssetInfo().setApplicationVendor("Manualdesk");
 ```
 
-> **Miért fontos:** Sok pipeline szűri vagy címkézi az eszközöket a származási alkalmazás alapján, ezért ez a lépés elengedhetetlen nagy projektek esetén.
+> **Miért fontos:** Sok csővezeték szűri vagy címkézi az eszközöket a származó alkalmazás alapján, így ez a lépés elengedhetetlen nagy projektek esetén.
 
 ### 3. lépés: Mértékegységek meghatározása
 
-Az Aspose.3D lehetővé teszi a jelenet által használt egységrendszer megadását. Ebben a példában egy ókori egyiptomi „pole” egységet használunk egy egyedi skálafaktorral.
+Az Aspose.3D lehetővé teszi, hogy megadd a jeleneted által használt egységrendszert. Ebben a példában egy ókori egyiptomi „pole” egységet használunk egy egyedi skálafaktorral.
 
 ```java
 scene.getAssetInfo().setUnitName("pole");
 scene.getAssetInfo().setUnitScaleFactor(0.6);
 ```
 
-> **Tipp:** Állítsa be a `unitScaleFactor`‑t úgy, hogy megfeleljen modelljei valós méretének; az 1.0 egy 1‑to‑1 leképezést jelent a választott egységgel.
+> **Tipp:** Állítsd a `unitScaleFactor`‑t a modellek valós méretéhez; az 1.0 egy 1‑to‑1 leképezést jelent a választott egységgel.
 
-### 4. lépés: Jelenet exportálása FBX-be
+### 4. lépés: Jelenet exportálása FBX‑be
 
-Miután az eszközinformációk csatolva lettek, mentjük a jelenetet FBX fájlként. A `FileFormat.FBX7500ASCII` opció ember‑olvasható ASCII FBX‑et hoz létre, ami hibakereséskor hasznos.
+Miután az eszközinformációk csatolva lettek, mentjük a jelenetet FBX‑fájlként. A `FileFormat.FBX7500ASCII` opció ember‑olvasható ASCII FBX‑et hoz létre, ami hibakereséskor hasznos.
 
 ```java
 String MyDir = "Your Document Directory";
@@ -93,73 +94,62 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:AddAssetInformationToScene
 ```
 
-> **Ne feledje:** Cserélje le a `"Your Document Directory"`‑t egy abszolút útvonalra vagy a projekt munkakönyvtárához relatív útvonalra.
+> **Ne feledd:** Cseréld le a `"Your Document Directory"`‑t egy abszolút útvonalra vagy a projekt munkakönyvtárához relatív útvonalra.
 
 ### 5. lépés: Sikerüzenet kiírása
 
-Egy egyszerű konzolkimenet megerősíti, hogy a művelet sikeres volt, és megmutatja, hová íródott a fájl.
+Egy egyszerű konzolüzenet megerősíti, hogy a művelet sikeres volt, és megadja, hová íródott a fájl.
 
 ```java
 System.out.println("\nAsset information added successfully to Scene.\nFile saved at " + MyDir);
 ```
 
+## Miért exportáljunk jelenetet FBX‑be az Aspose.3D‑val?
+
+Az FBX‑be exportálás gyakori követelmény, mivel az FBX széles körben támogatott játékmotorok, DCC‑eszközök és AR/VR csővezetékek által. Az Aspose.3D teljes kontrollt ad az exportált fájl felett – metaadatok, egységek és geometria – anélkül, hogy nehéz 3D‑szerkesztő alkalmazásra lenne szükség. Ez gyors és megbízható automatizált eszközgenerálást, kötegelt feldolgozást és szerver‑oldali konverziókat tesz lehetővé.
+
 ## Gyakori felhasználási esetek
 
-- **Játék eszköz pipeline‑ok** – a készítő információ beágyazása közvetlenül az FBX fájlokba a verziókövetéshez.  
-- **Építészeti vizualizáció** – projekt‑specifikus egységek tárolása a méretezési hibák elkerülése érdekében a renderelő motorokba importáláskor.  
-- **Automatizált jelentés** – FBX fájlok valós időben generálása metaadatokkal, amelyeket a downstream analitikai eszközök olvashatnak.
+- **Játékeszköz‑csővezetékek** – a készítő információinak beágyazása közvetlenül az FBX‑fájlokba a verziókövetéshez.  
+- **Építészeti vizualizáció** – projektspecifikus egységek tárolása a méretezési hibák elkerülése érdekében a renderelő motorokba való importáláskor.  
+- **Automatizált jelentéskészítés** – FBX‑fájlok generálása futás közben metaadatokkal, amelyeket a downstream analitikai eszközök olvasni tudnak.  
+- **Felhőalapú 3D szolgáltatások** – programozottan jelenetek létrehozása és exportálása GUI nélkül, tökéletes SaaS platformokhoz.
 
 ## Hibaelhárítás és tippek
 
 | Probléma | Megoldás |
 |----------|----------|
-| **Fájl nem található a mentés után** | Ellenőrizze, hogy a `MyDir` egy létező mappára mutat, és hogy az alkalmazásnak van írási joga. |
-| **Az egységek helytelenül jelennek meg külső megjelenítőben** | Ellenőrizze újra a `unitScaleFactor`‑t; egyes megjelenítők alapegységként a métert várják. |
-| **Az eszközmetaadat hiányzik** | Győződjön meg róla, hogy a `scene.getAssetInfo()`‑t **a mentés előtt** hívja; a `save()` után végzett módosítások nem kerülnek mentésre. |
+| **A fájl nem található a mentés után** | Ellenőrizd, hogy a `MyDir` egy létező mappára mutat-e, és hogy az alkalmazásnak van‑e írási joga. |
+| **Az egységek helytelenül jelennek meg külső nézőben** | Ellenőrizd a `unitScaleFactor`‑t; egyes nézők az alapegységként a métert várják. |
+| **Az eszközmetaadat hiányzik** | Győződj meg róla, hogy a `scene.getAssetInfo()`‑t **a mentés előtt** hívod; a `save()` után végzett módosítások nem kerülnek mentésre. |
+| **Teljesítménybottleneck nagy jeleneteknél** | Használd a `scene.optimize()`‑t a mentés előtt a memóriahasználat csökkentéséhez. |
+| **Az ASCII FBX túl nagy** | Válts bináris FBX‑re a `FileFormat.FBX7500` használatával (lásd a GYIK‑ot). |
 
-## GyIK
+## Gyakran feltett kérdések
 
-### Q1: Az Aspose.3D kompatibilis minden Java IDE-vel?
+**K: Hogyan változtathatom meg a kimeneti formátumot bináris FBX‑re?**  
+V: Cseréld le a `FileFormat.FBX7500ASCII`‑t `FileFormat.FBX7500`‑ra a `scene.save(...)` hívásakor.
 
-A1: Igen, az Aspose.3D úgy lett tervezve, hogy zökkenőmentesen működjön minden nagyobb Java IDE-vel.
+**K: Hozzáadhatok egyedi felhasználó‑definiált metaadatokat a beépített eszközmezőkön kívül?**  
+V: Igen, használhatod a `scene.getUserData().add("Key", "Value")`‑t további kulcs‑érték párok beágyazásához.
 
-### Q2: Használhatom az Aspose.3D‑t kereskedelmi projektekhez?
+**K: Támogatja az Aspose.3D más exportformátumokat, például OBJ vagy GLTF?**  
+V: Igen. Egyszerűen változtasd meg a `FileFormat` enumot `OBJ`‑ra vagy `GLTF2`‑re, ahogy szükséges.
 
-A2: Természetesen. Az Aspose.3D kereskedelmi licenceket kínál fejlesztőknek, biztosítva, hogy megfeleljen a licencelési követelményeknek.
+**K: Milyen Java verzió szükséges?**  
+V: Az Aspose.3D for Java támogatja a Java 8‑at és az azt követő verziókat.
 
-### Q3: Hol találok további támogatást az Aspose.3D-hez?
+**K: Lehetséges meglévő FBX‑et betölteni, módosítani az eszközinformációkat, majd újra menteni?**  
+V: Természetesen. Töltsd be a fájlt a `new Scene("input.fbx")`‑val, módosítsd a `scene.getAssetInfo()`‑t, majd mentsd el.
 
-A3: Bármilyen kérdés vagy segítség esetén látogassa meg a [Aspose.3D fórumot](https://forum.aspose.com/c/3d/18).
+## Összegzés
 
-### Q4: Van ingyenes próba az Aspose.3D-hez?
-
-A4: Igen, a funkciókat egy ingyenes próba segítségével is felfedezheti, amely [itt](https://releases.aspose.com/) érhető el.
-
-### Q5: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?
-
-A5: Ideiglenes, tesztelési célú licencet [itt](https://purchase.aspose.com/temporary-license/) kaphat.
-
-## Gyakran Ismételt Kérdések
-
-**Q: Hogyan változtathatom meg a kimeneti formátumot bináris FBX‑re?**  
-A: Cserélje le a `FileFormat.FBX7500ASCII`‑t `FileFormat.FBX7500`‑ra a `scene.save(...)` hívásakor.
-
-**Q: Hozzáadhatok egyedi, felhasználó‑definiált metaadatokat a beépített eszközmezőkön kívül?**  
-A: Igen, használja a `scene.getUserData().add("Key", "Value")`‑t további kulcs‑érték párok beágyazásához.
-
-**Q: Támogatja az Aspose.3D más exportformátumokat, például OBJ vagy GLTF?**  
-A: Igen. Egyszerűen változtassa meg a `FileFormat` enum értékét `OBJ` vagy `GLTF2`‑re, ahogy szükséges.
-
-**Q: Milyen Java verzió szükséges?**  
-A: Az Aspose.3D for Java támogatja a Java 8‑at és az azt követő verziókat.
-
-**Q: Lehetséges meglévő FBX‑t betölteni, módosítani az eszközinformációkat, majd újra menteni?**  
-A: Teljesen lehetséges. Töltse be a fájlt a `new Scene("input.fbx")`‑val, módosítsa a `scene.getAssetInfo()`‑t, majd mentse el.
+Most már egy komplett, termelés‑kész munkafolyamatod van a **jelenet FBX‑be exportálásához**, miközben értékes eszközinformációkat ágyazol be, mint például az alkalmazás neve, a gyártó és egyedi mértékegységek. Ez a megközelítés egyszerűsíti az eszközkezelést, csökkenti a kézi adminisztrációt, és biztosítja, hogy a downstream eszközök megkapják a szükséges kontextust. Nyugodtan fedezz fel más exportformátumokat, adj hozzá egyedi felhasználói adatokat, vagy integráld ezt a kódot nagyobb automatizálási csővezetékekbe.
 
 ---
 
-**Legutóbb frissítve:** 2025-12-06  
-**Tesztelve ezzel:** Aspose.3D for Java 24.11  
+**Utoljára frissítve:** 2026-02-12  
+**Tesztelve:** Aspose.3D for Java 24.11  
 **Szerző:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
