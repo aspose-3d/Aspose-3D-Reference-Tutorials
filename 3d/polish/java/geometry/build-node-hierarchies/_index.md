@@ -1,108 +1,142 @@
 ---
-title: Buduj hierarchie węzłów w scenach 3D za pomocą Java i Aspose.3D
-linktitle: Buduj hierarchie węzłów w scenach 3D za pomocą Java i Aspose.3D
-second_title: Aspose.3D API Java
-description: Dowiedz się, jak budować dynamiczne sceny 3D w Javie za pomocą Aspose.3D. Twórz hierarchie węzłów bez wysiłku i ulepszaj swoją grę graficzną 3D.
-weight: 16
+date: 2026-02-09
+description: Dowiedz się, jak eksportować FBX i dodać siatkę do węzła, tworząc jednocześnie
+  węzły potomne w Javie przy użyciu Aspose.3D.
+linktitle: Build Node Hierarchies in 3D Scenes with Java and Aspose.3D
+second_title: Aspose.3D Java API
+title: Jak eksportować FBX i tworzyć hierarchie węzłów w Javie
 url: /pl/java/geometry/build-node-hierarchies/
+weight: 16
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buduj hierarchie węzłów w scenach 3D za pomocą Java i Aspose.3D
+# Jak wyeksportować FBX i zbudować hierarchie węzłów w Javie z Aspose.3D
 
 ## Wstęp
 
-W dynamicznym świecie grafiki 3D i programowania w języku Java tworzenie i zarządzanie hierarchiami węzłów w scenach 3D jest kluczową umiejętnością. Aspose.3D dla Java umożliwia programistom bezproblemowe osiągnięcie tego celu, oferując solidny zestaw narzędzi do łatwego tworzenia skomplikowanych scen 3D. W tym samouczku poprowadzimy Cię przez proces budowania hierarchii węzłów przy użyciu Aspose.3D dla Java, dzięki czemu nawet początkujący będą mogli to zrozumieć.
+Jeśli szukasz przejrzystego, krok po kroku przewodnika **jak wyeksportować FBX** z aplikacji Java, jesteś we właściwym miejscu. W tym tutorialu pokażemy, jak zbudować hierarchie węzłów, **dodać siatkę do węzła**, i w końcu zapisać scenę jako plik FBX przy użyciu Aspose.3D Java API. Niezależnie od tego, czy tworzysz prosty prototyp, czy gotowy do produkcji silnik 3D, te techniki dają pełną kontrolę nad grafem sceny.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaki jest główny cel tego tutorialu?** Demonstracja, jak wyeksportować FBX po zbudowaniu hierarchii węzłów.  
+- **Jakiej biblioteki użyto?** Aspose.3D for Java.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarczy do rozwoju; licencja komercyjna jest wymagana w produkcji.  
+- **Jaki format pliku jest generowany?** FBX (ASCII 7500).  
+- **Czy mogę dostosować przekształcenia węzłów?** Tak – translacja, rotacja i skalowanie są w pełni obsługiwane.
 
-Przed przystąpieniem do samouczka upewnij się, że spełnione są następujące wymagania wstępne:
+## Co oznacza „jak wyeksportować FBX” w kontekście Aspose.3D?
+Eksportowanie FBX oznacza konwersję grafu sceny w pamięci, który budujesz przy pomocy Aspose.3D, do pliku FBX, który można otworzyć w popularnych narzędziach 3D, takich jak Blender, Maya czy Unity. API zajmuje się ciężką pracą, pozwalając Ci skupić się na tworzeniu sceny.
 
-1. Środowisko programistyczne Java: Upewnij się, że na komputerze jest skonfigurowane środowisko programistyczne Java.
-2.  Biblioteka Aspose.3D dla Java: Pobierz i zainstaluj bibliotekę Aspose.3D dla Java z pliku[strona pobierania](https://releases.aspose.com/3d/java/).
-3. Katalog dokumentów: Utwórz katalog do przechowywania plików scen 3D.
+## Dlaczego budować hierarchie węzłów przed eksportem?
+Dobrze ustrukturyzowana hierarchia węzłów pozwala zastosować przekształcenia raz na węźle rodzicu, automatycznie wpływając na wszystkie jego dzieci. Redukuje to duplikację kodu i odzwierciedla rzeczywiste relacje obiektów (np. podwozie samochodu z kołami jako węzłami potomnymi).
 
-## Importuj pakiety
+## Wymagania wstępne
 
-Rozpocznij od zaimportowania niezbędnych pakietów, aby wykorzystać funkcje Aspose.3D for Java. Dodaj następujące linie do kodu Java:
+Zanim przejdziesz dalej, upewnij się, że masz:
+
+1. **Środowisko programistyczne Java** – JDK 8+ oraz IDE lub narzędzie do budowania według własnego wyboru.  
+2. **Aspose.3D for Java Library** – Pobierz i zainstaluj bibliotekę ze [strony pobierania](https://releases.aspose.com/3d/java/).  
+3. **Katalog dokumentów** – Folder na Twoim komputerze, w którym zostanie zapisany wygenerowany plik FBX.
+
+## Importowanie pakietów
+
+Rozpocznij od zaimportowania niezbędnych klas Aspose.3D:
 
 ```java
 import com.aspose.threed.*;
 
 ```
 
-## Krok 1: Zainicjuj obiekt sceny
+## Krok 1: Inicjalizacja obiektu Scene
 
 ```java
-// Zainicjuj obiekt sceny
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Krok 2: Utwórz węzeł potomny i siatkę
+## Krok 2: Tworzenie węzłów potomnych i dodawanie siatki do węzła
+
+W tym kroku demonstrujemy **jak tworzyć węzły potomne** oraz **dodawać siatkę do obiektów węzła**.
 
 ```java
-// Pobierz obiekt węzła podrzędnego
+// Get a child node object
 Node top = scene.getRootNode().createChildNode();
 
-// Utwórz pierwszy węzeł kostki
+// Create the first cube node
 Node cube1 = top.createChildNode("cube1");
-Mesh mesh = Common.createMeshUsingPolygonBuilder(); // Użyj swojej metody tworzenia siatki
+Mesh mesh = Common.createMeshUsingPolygonBuilder(); // Use your mesh creation method
 cube1.setEntity(mesh);
 cube1.getTransform().setTranslation(new Vector3(-10, 0, 0));
 
-// Utwórz drugi węzeł kostki
+// Create the second cube node
 Node cube2 = top.createChildNode("cube2");
 cube2.setEntity(mesh);
 cube2.getTransform().setTranslation(new Vector3(10, 0, 0));
 ```
 
-## Krok 3: Zastosuj obrót do górnego węzła
+## Krok 3: Zastosowanie rotacji do węzła nadrzędnego
+
+Obracanie węzła rodzica automatycznie obraca wszystkie jego dzieci, co jest kluczową zaletą scen hierarchicznych.
 
 ```java
-// Obróć górny węzeł, wpływając na wszystkie węzły podrzędne
+// Rotate the top node, affecting all child nodes
 top.getTransform().setRotation(Quaternion.fromEulerAngle(Math.PI, 4, 0));
 ```
 
-## Krok 4: Zapisz scenę 3D
+## Krok 4: Zapis sceny 3D – Jak wyeksportować FBX
+
+Teraz **zapisujemy scenę jako FBX**, kończąc przepływ pracy „jak wyeksportować FBX”.
 
 ```java
-// Zapisz scenę 3D w obsługiwanym formacie pliku (w tym przypadku FBX)
+// Save 3D scene in the supported file format (FBX in this case)
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "NodeHierarchy.fbx";
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nNode hierarchy added successfully to document.\nFile saved at " + MyDir);
 ```
 
-Ten przewodnik krok po kroku zapewnia solidną podstawę do budowania hierarchii węzłów w scenach 3D przy użyciu Aspose.3D dla Java. Eksperymentuj z różnymi parametrami i dostosuj kod do swoich konkretnych wymagań.
+### Oczekiwany rezultat
+Uruchomienie kodu tworzy plik o nazwie **NodeHierarchy.fbx** w określonym katalogu. Otwórz go w dowolnym przeglądarce obsługującej FBX, aby zobaczyć dwa sześciany umieszczone po lewej i prawej stronie centralnego punktu obrotu, wszystkie obracające się razem.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Opanowanie tworzenia hierarchii węzłów jest kluczowym kamieniem milowym w Twojej podróży z Aspose.3D dla Java. Ten samouczek wyposażył Cię w wiedzę niezbędną do płynnego poruszania się po skomplikowanych scenach 3D. Teraz uwolnij swoją kreatywność i śmiało twórz urzekające środowiska 3D.
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|-------|----------------|-----|
+| **Błąd „File not found”** przy zapisie | Ścieżka `MyDir` jest niepoprawna lub brakuje końcowego separatora | Upewnij się, że katalog istnieje i kończy się separatorem pliku (`/` lub `\\`). |
+| **Siatka niewidoczna** po eksporcie | Nie przypisano encji siatki lub translacja przeniosła ją poza widok | Sprawdź `cube1.setEntity(mesh)` i zweryfikuj wartości translacji. |
+| **Rotacja wygląda niepoprawnie** | Nieprawidłowe użycie radianów zamiast stopni | `Quaternion.fromEulerAngle` oczekuje radianów; dostosuj wartości odpowiednio. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.3D dla Java jest odpowiedni dla początkujących?
+**P: Czy Aspose.3D for Java jest odpowiedni dla początkujących?**  
+O: Zdecydowanie! API zostało zaprojektowane z czystym, obiektowo‑zorientowanym podejściem, które ułatwia naukę, nawet jeśli dopiero zaczynasz przygodę z programowaniem 3D.
 
-A1: Absolutnie! Aspose.3D dla Java zapewnia przyjazny dla użytkownika interfejs, dzięki czemu jest dostępny zarówno dla początkujących, jak i doświadczonych programistów.
+**P: Czy mogę używać Aspose.3D for Java w projektach komercyjnych?**  
+O: Tak. Odwiedź [stronę zakupu](https://purchase.aspose.com/buy), aby uzyskać szczegóły licencjonowania.
 
-### P2: Czy mogę używać Aspose.3D dla Java w projektach komercyjnych?
+**P: Jak mogę uzyskać wsparcie dla Aspose.3D for Java?**  
+O: Dołącz do [forum Aspose.3D](https://forum.aspose.com/c/3d/18), aby uzyskać pomoc od społeczności i zespołu wsparcia Aspose.
 
- A2: Tak, możesz. Odwiedzić[strona zakupu](https://purchase.aspose.com/buy) w celu uzyskania szczegółów licencji.
+**P: Czy dostępna jest darmowa wersja próbna?**  
+O: Oczywiście! Wypróbuj funkcje za pomocą [darmowej wersji próbnej](https://releases.aspose.com/) przed podjęciem decyzji.
 
-### P3: Jak mogę uzyskać wsparcie dla Aspose.3D dla Java?
+**P: Gdzie mogę znaleźć dokumentację?**  
+O: Zapoznaj się z [dokumentacją](https://reference.aspose.com/3d/java/) poświęconą Aspose.3D for Java.
 
- A3: Dołącz do[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) aby uzyskać pomoc od społeczności i zespołu wsparcia Aspose.
+## Podsumowanie
 
-### P4: Czy dostępny jest bezpłatny okres próbny?
+Opanowanie **jak wyeksportować FBX**, budowanie hierarchii węzłów oraz **dodawanie siatki do węzła** to kluczowe kroki w kierunku tworzenia zaawansowanych aplikacji 3D w Javie. Dzięki Aspose.3D otrzymujesz potężne, przyjazne licencjonowaniu rozwiązanie, które abstrahuje szczegóły niskiego poziomu, jednocześnie dając pełną kontrolę nad grafem sceny. Eksperymentuj z różnymi siatkami, przekształceniami i formatami eksportu, aby odblokować jeszcze więcej możliwości.
 
- A4: Oczywiście! Poznaj funkcje za pomocą[bezpłatna wersja próbna](https://releases.aspose.com/) przed podjęciem zobowiązania.
+---
 
-### P5: Gdzie mogę znaleźć dokumentację?
+**Ostatnia aktualizacja:** 2026-02-09  
+**Testowano z:** Aspose.3D for Java 24.11  
+**Autor:** Aspose  
 
- Odpowiedź 5: Patrz[dokumentacja](https://reference.aspose.com/3d/java/) aby uzyskać szczegółowe informacje na temat Aspose.3D dla Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

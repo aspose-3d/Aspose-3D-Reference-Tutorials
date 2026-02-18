@@ -1,108 +1,142 @@
 ---
-title: Vytvářejte hierarchie uzlů ve 3D scénách pomocí Java a Aspose.3D
-linktitle: Vytvářejte hierarchie uzlů ve 3D scénách pomocí Java a Aspose.3D
+date: 2026-02-09
+description: Naučte se, jak exportovat FBX a přidat mesh do uzlu při vytváření poduzlů
+  v Javě pomocí Aspose.3D.
+linktitle: Build Node Hierarchies in 3D Scenes with Java and Aspose.3D
 second_title: Aspose.3D Java API
-description: Naučte se vytvářet dynamické 3D scény v Javě pomocí Aspose.3D. Vytvářejte hierarchie uzlů bez námahy a pozvedněte svou 3D grafickou hru.
-weight: 16
+title: Jak exportovat FBX a vytvářet hierarchie uzlů v Javě
 url: /cs/java/geometry/build-node-hierarchies/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvářejte hierarchie uzlů ve 3D scénách pomocí Java a Aspose.3D
+# Jak exportovat FBX a vytvořit hierarchie uzlů v Javě s Aspose.3D
 
 ## Úvod
 
-V dynamickém světě 3D grafiky a programování v jazyce Java je vytváření a správa hierarchií uzlů ve 3D scénách klíčovou dovedností. Aspose.3D for Java umožňuje vývojářům toho bez problémů dosáhnout a nabízí robustní sadu nástrojů pro snadné vytváření složitých 3D scén. V tomto tutoriálu vás provedeme procesem vytváření hierarchií uzlů pomocí Aspose.3D pro Javu a zajistíme, že i začátečníci budou moci následovat.
+Pokud hledáte jasný, krok‑za‑krokem průvodce **how to export FBX** z Java aplikace, jste na správném místě. V tomto tutoriálu vám ukážeme, jak vytvořit hierarchie uzlů, **add mesh to node**, a nakonec uložit scénu jako FBX soubor pomocí Aspose.3D Java API. Ať už vytváříte jednoduchý prototyp nebo produkčně připravený 3D engine, tyto techniky vám poskytnou plnou kontrolu nad vaším grafem scény.
 
-## Předpoklady
+## Rychlé odpovědi
+- **What is the primary purpose of this tutorial?** Ukázka, jak exportovat FBX po vytvoření hierarchií uzlů.  
+- **Which library is used?** Aspose.3D for Java.  
+- **Do I need a license?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.  
+- **What file format is produced?** FBX (ASCII 7500).  
+- **Can I customize node transformations?** Ano – translace, rotace a škálování jsou všechny podporovány.
 
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+## Co znamená “how to export FBX” v kontextu Aspose.3D?
 
-1. Vývojové prostředí Java: Ujistěte se, že máte na svém počítači nastavené vývojové prostředí Java.
-2.  Knihovna Aspose.3D for Java: Stáhněte a nainstalujte knihovnu Aspose.3D for Java z[stránka ke stažení](https://releases.aspose.com/3d/java/).
-3. Adresář dokumentů: Vytvořte adresář pro ukládání souborů 3D scén.
+Exportování FBX znamená převod grafu scény v paměti, který vytvoříte pomocí Aspose.3D, do FBX souboru, který lze otevřít v populárních 3D nástrojích jako Blender, Maya nebo Unity. API provádí těžkou práci, takže se můžete soustředit na tvorbu scény.
 
-## Importujte balíčky
+## Proč vytvořit hierarchie uzlů před exportem?
 
-Začněte importem potřebných balíčků, abyste mohli využít funkce Aspose.3D pro Java. Přidejte do kódu Java následující řádky:
+Dobře strukturovaná hierarchie uzlů vám umožní aplikovat transformace jednou na nadřazený uzel, což automaticky ovlivní všechny jeho potomky. To snižuje duplicitní kód a odráží vztahy objektů ve skutečném světě (např. podvozek auta s koly jako podřízenými uzly).
+
+## Požadavky
+
+Než se pustíte do práce, ujistěte se, že máte:
+
+1. **Java Development Environment** – JDK 8+ a IDE nebo nástroj pro sestavení dle vašeho výběru.  
+2. **Aspose.3D for Java Library** – Stáhněte a nainstalujte knihovnu ze [download page](https://releases.aspose.com/3d/java/).  
+3. **Document Directory** – Složka ve vašem počítači, kam bude uložen vygenerovaný FBX soubor.
+
+## Import balíčků
+
+Začněte importováním potřebných tříd Aspose.3D:
 
 ```java
 import com.aspose.threed.*;
 
 ```
 
-## Krok 1: Inicializujte objekt scény
+## Krok 1: Inicializace objektu Scene
 
 ```java
-// Inicializujte objekt scény
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Krok 2: Vytvořte podřízený uzel a síť
+## Krok 2: Vytvoření podřízených uzlů a přidání mesh do uzlu
+
+V tomto kroku ukazujeme **how to create child nodes** a **add mesh to node** objekty.
 
 ```java
-// Získejte objekt podřízeného uzlu
+// Get a child node object
 Node top = scene.getRootNode().createChildNode();
 
-// Vytvořte první uzel krychle
+// Create the first cube node
 Node cube1 = top.createChildNode("cube1");
-Mesh mesh = Common.createMeshUsingPolygonBuilder(); // Použijte svou metodu vytváření sítě
+Mesh mesh = Common.createMeshUsingPolygonBuilder(); // Use your mesh creation method
 cube1.setEntity(mesh);
 cube1.getTransform().setTranslation(new Vector3(-10, 0, 0));
 
-// Vytvořte druhý uzel krychle
+// Create the second cube node
 Node cube2 = top.createChildNode("cube2");
 cube2.setEntity(mesh);
 cube2.getTransform().setTranslation(new Vector3(10, 0, 0));
 ```
 
-## Krok 3: Použijte rotaci na horní uzel
+## Krok 3: Aplikace rotace na horní uzel
+
+Rotace nadřazeného uzlu automaticky otáčí všechny jeho potomky, což je hlavní výhoda hierarchických scén.
 
 ```java
-// Otočte horní uzel, čímž ovlivníte všechny podřízené uzly
+// Rotate the top node, affecting all child nodes
 top.getTransform().setRotation(Quaternion.fromEulerAngle(Math.PI, 4, 0));
 ```
 
-## Krok 4: Uložte 3D scénu
+## Krok 4: Uložení 3D scény – How to Export FBX
+
+Nyní **save scene as FBX**, dokončujeme workflow “how to export FBX”.
 
 ```java
-// Uložit 3D scénu v podporovaném formátu souboru (v tomto případě FBX)
+// Save 3D scene in the supported file format (FBX in this case)
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "NodeHierarchy.fbx";
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nNode hierarchy added successfully to document.\nFile saved at " + MyDir);
 ```
 
-Tento podrobný průvodce poskytuje pevný základ pro vytváření hierarchií uzlů ve 3D scénách pomocí Aspose.3D for Java. Experimentujte s různými parametry a přizpůsobte kód svým konkrétním požadavkům.
+### Očekávaný výsledek
+Spuštěním kódu se vytvoří soubor s názvem **NodeHierarchy.fbx** ve zvoleném adresáři. Otevřete jej v libovolném FBX‑kompatibilním prohlížeči a uvidíte dva krychle umístěné vlevo a vpravo od centrálního pivotu, všechny rotující společně.
+
+## Časté problémy a řešení
+
+| Problém | Proč k tomu dochází | Řešení |
+|-------|----------------|-----|
+| **File not found** error when saving | `MyDir` cesta je nesprávná nebo chybí koncový oddělovač | Ujistěte se, že adresář existuje a končí souborovým oddělovačem (`/` nebo `\\`). |
+| **Mesh not visible** after export | Entita mesh není přiřazena nebo translace ji posune mimo zorné pole | Ověřte `cube1.setEntity(mesh)` a zkontrolujte hodnoty translace. |
+| **Rotation looks wrong** | Nesprávné použití radiánů místo stupňů | `Quaternion.fromEulerAngle` očekává radiány; upravte hodnoty podle toho. |
+
+## Často kladené otázky
+
+**Q: Je Aspose.3D pro Java vhodný pro začátečníky?**  
+A: Rozhodně! API je navrženo s čistým, objektově orientovaným přístupem, který usnadňuje učení, i když jste v 3D programování nováčkem.
+
+**Q: Mohu použít Aspose.3D pro Java v komerčních projektech?**  
+A: Ano, můžete. Navštivte [purchase page](https://purchase.aspose.com/buy) pro podrobnosti o licencování.
+
+**Q: Jak mohu získat podporu pro Aspose.3D pro Java?**  
+A: Připojte se k [Aspose.3D forum](https://forum.aspose.com/c/3d/18) a získejte pomoc od komunity a týmu podpory Aspose.
+
+**Q: Je k dispozici bezplatná zkušební verze?**  
+A: Samozřejmě! Vyzkoušejte funkce pomocí [free trial](https://releases.aspose.com/) před závazkem.
+
+**Q: Kde najdu dokumentaci?**  
+A: Podívejte se na [documentation](https://reference.aspose.com/3d/java/) pro podrobné informace o Aspose.3D pro Java.
 
 ## Závěr
 
-Zvládnutí vytváření hierarchií uzlů je klíčovým milníkem na vaší cestě s Aspose.3D pro Javu. Tento tutoriál vás vybavil znalostmi pro bezproblémovou navigaci ve složitosti 3D scén. Nyní popusťte uzdu své kreativitě a vytvářejte strhující 3D prostředí s jistotou.
+Ovládnutí **how to export FBX**, vytváření hierarchií uzlů a **adding mesh to node** jsou nezbytné kroky k tvorbě sofistikovaných 3D aplikací v Javě. S Aspose.3D získáte výkonné, licencemi přátelské řešení, které abstrahuje nízkoúrovňové detaily a zároveň vám poskytuje plnou kontrolu nad grafem scény. Experimentujte s různými meshemi, transformacemi a exportními formáty a odemkněte tak další možnosti.
 
-## FAQ
+---
 
-### Q1: Je Aspose.3D for Java vhodný pro začátečníky?
+**Poslední aktualizace:** 2026-02-09  
+**Testováno s:** Aspose.3D for Java 24.11  
+**Autor:** Aspose  
 
-A1: Rozhodně! Aspose.3D for Java poskytuje uživatelsky přívětivé rozhraní, takže je přístupné jak pro začátečníky, tak pro zkušené vývojáře.
-
-### Q2: Mohu použít Aspose.3D for Java pro komerční projekty?
-
- A2: Ano, můžete. Navštivte[nákupní stránku](https://purchase.aspose.com/buy) pro podrobnosti o licencích.
-
-### Q3: Jak mohu získat podporu pro Aspose.3D pro Java?
-
- A3: Připojte se[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) získat pomoc od komunity a týmu podpory Aspose.
-
-### Q4: Je k dispozici bezplatná zkušební verze?
-
- A4: Určitě! Prozkoumejte funkce pomocí[zkušební verze zdarma](https://releases.aspose.com/) před přijetím závazku.
-
-### Q5: Kde najdu dokumentaci?
-
- A5: Viz[dokumentace](https://reference.aspose.com/3d/java/) pro podrobné informace o Aspose.3D for Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

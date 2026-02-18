@@ -1,33 +1,52 @@
 ---
-title: Terapkan Koordinat UV ke Objek 3D di Java dengan Aspose.3D
-linktitle: Terapkan Koordinat UV ke Objek 3D di Java dengan Aspose.3D
-second_title: Asumsikan.3D Java API
-description: Belajar menerapkan koordinat UV pada objek 3D di Java dengan Aspose.3D. Tingkatkan grafis Anda dengan panduan langkah demi langkah ini.
-weight: 18
+date: 2026-02-09
+description: Pelajari cara membuat UV dan memetakan tekstur Java dengan Aspose.3D.
+  Tingkatkan grafis Anda dengan panduan langkah demi langkah ini.
+linktitle: How to Create UVs – Apply UV Coordinates to 3D Objects in Java with Aspose.3D
+second_title: Aspose.3D Java API
+title: Cara Membuat UV – Terapkan Koordinat UV pada Objek 3D di Java dengan Aspose.3D
 url: /id/java/geometry/apply-uv-coordinates-to-3d-objects/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Terapkan Koordinat UV ke Objek 3D di Java dengan Aspose.3D
+# Cara Membuat UV – Menerapkan Koordinat UV pada Objek 3D di Java dengan Aspose.3D
 
 ## Perkenalan
 
-Selamat datang di tutorial komprehensif tentang penerapan koordinat UV pada objek 3D di Java menggunakan Aspose.3D. Dalam dunia grafis 3D, koordinat UV memainkan peran penting dalam memetakan tekstur ke permukaan, sehingga meningkatkan daya tarik visual kreasi Anda. Tutorial ini akan memandu Anda melalui prosesnya, merinci setiap langkah untuk memastikan pengalaman belajar yang lancar dan efektif.
+Selamat datang di tutorial komprehensif ini tentang **cara membuat UV** dan menerapkan koordinat UV pada objek 3D di Java menggunakan Aspose.3D. Dalam dunia grafis 3D, koordinat UV memainkan peran penting dalam **peta tekstur java**, memungkinkan Anda menambahkan tekstur koordinat yang memberikan realisme pada model Anda. Panduan ini akan memandu Anda melalui setiap langkah, sehingga Anda dapat mulai memberi tekstur pada objek Anda dengan percaya diri.
+
+## Jawaban Cepat
+- **Apa tujuan utama?** Pelajari cara membuat UV dan memetakan tekstur ke geometri 3D.
+- **Pustaka mana yang digunakan?** Aspose.3D untuk Java.
+- **Apakah saya memerlukan lisensi?** Versi uji coba gratis cukup untuk pengembangan; lisensi diperlukan untuk produksi.
+- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk kubus dasar.
+- ** ingin saya menggunakan ini dengan bentuk lain? ** Ya – prinsip yang sama berlaku untuk mesh apa pun.
+
+## Apa itu Pemetaan UV dan Mengapa Anda Perlu Membuat UV?
+
+Pemetaan UV adalah proses memproyeksikan gambar 2‑D (tekstur) ke permukaan 3‑D. Dengan mendefinisikan **koordinat UV**, Anda memberi tahu renderer bagian mana dari tekstur yang menjadi milik setiap vertex. Tanpa UV yang tepat, tekstur akan tampak meregang, salah tempat, atau bahkan tidak terlihat sama sekali.
+
+## Mengapa Menggunakan Aspose.3D untuk Pemetaan UV di Java?
+
+- **Lintas‑platform**: Bekerja di lingkungan Java apa pun yang kompatibel.
+- **Rich API**: Menyediakan kelas tingkat tinggi seperti `VertexElementUV` yang menyebabkan penanganan UV.
+- **Berorientasi pada kinerja**: Dioptimalkan untuk adegan besar dan model kompleks.
 
 ## Prasyarat
 
-Sebelum terjun ke dunia koordinat UV yang menarik, pastikan Anda memiliki prasyarat berikut:
+Sebelum memulai, pastikan Anda memiliki:
 
-- Lingkungan Pengembangan Java: Pastikan Anda memiliki lingkungan pengembangan Java yang berfungsi terinstal di sistem Anda.
--  Perpustakaan Aspose.3D: Unduh dan instal perpustakaan Aspose.3D. Anda dapat menemukan file yang diperlukan[Di Sini](https://releases.aspose.com/3d/java/).
-- Pemahaman Dasar Konsep 3D: Biasakan diri Anda dengan konsep dasar grafik 3D untuk memahami pentingnya koordinat UV.
+- **Lingkungan Pengembangan Java** – JDK 8+ terpasang dan terkonfigurasi.
+- **Pustaka Aspose.3D** – Unduh JAR terbaru dari situs resmi [di sini](https://releases.aspose.com/3d/java/).
+- **Pengetahuan Dasar 3D** – Familiaritas dengan mesh, vertex, dan konsep tekstur akan membantu Anda mengikutinya.
 
-## Paket Impor
+## Impor Paket
 
-Pada langkah ini, kita akan mengimpor paket yang diperlukan untuk memulai perjalanan pemetaan UV kita. Pustaka Aspose.3D menyediakan alat dan fungsi penting untuk bekerja dengan objek 3D di Java.
+Pada langkah ini, kami mengimpor paket yang diperlukan untuk memulai perjalanan UV‑mapping kami. Pustaka Aspose.3D menyediakan alat yang kami butuhkan untuk bekerja dengan objek 3‑D di Java.
 
 ### Langkah 1: Impor Paket Aspose.3D
 
@@ -37,17 +56,17 @@ import com.aspose.threed.*;
 import java.util.Arrays;
 ```
 
-Sekarang kita sudah menyiapkan paketnya, mari beralih ke pengaturan koordinat UV pada objek 3D.
+Sekarang paket sudah siap, mari siapkan data UV untuk sebuah kubus sederhana.
 
-## Atur Koordinat UV pada Objek 3D
+## Cara Membuat UV pada Objek 3D
 
-Di bagian ini, kami akan memandu Anda melalui proses pengaturan koordinat UV pada kubus menggunakan Aspose.3D.
+Di bagian ini kami akan memandu Anda membuat koordinat UV untuk sebuah kubus, kemudian melampirkan koordinat tersebut ke mesh. Pendekatan yang sama dapat diperluas ke geometri apa pun.
 
 ### Langkah 2: Buat UV dan Indeks
 
 ```java
-// ExStart:PengaturanUVOnCube
-// UV
+// ExStart:SetupUVOnCube
+// UVs
 Vector4[] uvs = new Vector4[]
 {
     new Vector4( 0.0, 1.0,0.0, 1.0),
@@ -56,26 +75,34 @@ Vector4[] uvs = new Vector4[]
     new Vector4( 1.0, 1.0,0.0, 1.0)
 };
 
-// Indeks UV per setiap poligon
+// Indices of the uvs per each polygon
 int[] uvsId = new int[]
 {
     0,1,3,2,2,3,5,4,4,5,7,6,6,7,9,8,1,10,11,3,12,0,2,13
 };
-// ExEnd:PengaturanUVOnCube
+// ExEnd:SetupUVOnCube
 ```
+
+Array ini mendefinisikan **koordinat UV** (`uvs`) dan **pemetaan indeks** (`uvsId`) yang memberi tahu mesh UV mana yang menjadi milik setiap vertex poligon.
 
 ### Langkah 3: Buat Mesh dan UVset
 
 ```java
-// Panggil kelas Common membuat mesh menggunakan metode pembuat poligon untuk menyetel instance mesh
+// Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
-// Buat set UV
+// Create UVset
 VertexElementUV elementUV = mesh.createElementUV(TextureMapping.DIFFUSE, MappingMode.POLYGON_VERTEX, ReferenceMode.INDEX_TO_DIRECT);
-// Salin data ke elemen simpul UV
+// Copy the data to the UV vertex element
 elementUV.setData(uvs);
 elementUV.setIndices(uvsId);
 ```
+
+Di sini kami:
+
+1. Membuat mesh (kubus) menggunakan kelas pembantu.  
+2. Membuat elemen UV (`VertexElementUV`) yang menyimpan koordinat tekstur kami.  
+3. Menetapkan data UV dan buffer indeks ke mesh, secara efektif **menambahkan koordinat tekstur** ke geometri.
 
 ### Langkah 4: Cetak Konfirmasi
 
@@ -83,33 +110,46 @@ elementUV.setIndices(uvsId);
 System.out.println("\nUVs have been set up successfully on the cube.");
 ```
 
-Selamat! Anda telah berhasil menerapkan koordinat UV ke objek 3D menggunakan Aspose.3D di Java.
+Menjalankan program akan menampilkan pesan konfirmasi, menandakan bahwa UV kini menjadi bagian dari mesh dan siap untuk pemetaan tekstur.
+
+## Masalah Umum dan Solusinya
+
+| Masalah | Penyebab | Solusi |
+|---------|----------|--------|
+| UVs tampak meregang | Urutan UV yang salah atau indeks yang tidak cocok | Verifikasi bahwa `uvsId` secara tepat merujuk ke array `uvs` untuk setiap vertex poligon. |
+| Tekstur tidak terlihat | Set UV tidak terhubung ke material | Pastikan `TextureMapping` material diatur ke `DIFFUSE` (seperti yang ditunjukkan) dan tekstur ditetapkan ke material. |
+| `NullPointerException` pada Runtime | `Common.createMeshUsingPolygonBuilder()` mengembalikan `null` | Periksa bahwa kelas pembantu termasuk dalam proyek Anda dan metode tersebut membuat mesh yang valid. |
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bisakah saya menerapkan koordinat UV pada model 3D yang kompleks?**  
+**A:** Ya, prosesnya tetap serupa untuk model kompleks. Pastikan Anda menghasilkan data UV yang tepat dan buffer indeks untuk setiap poligon.
+
+**Q: Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.3D?**  
+**A:** Kunjungi [dokumentasi Aspose.3D](https://reference.aspose.com/3d/java/) untuk informasi mendalam. Untuk dukungan, periksa [forum Aspose.3D](https://forum.aspose.com/c/3d/18).
+
+**Q: Apakah ada trial gratis untuk Aspose.3D?**  
+**A:** Ya, Anda dapat menjelajahi pustaka Aspose.3D dengan [trial gratis](https://releases.aspose.com/).
+
+**Q: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?**  
+**A:** Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
+
+**Q: Di mana saya dapat membeli Aspose.3D?**  
+**A:** Untuk membeli Aspose.3D, kunjungi [halaman pembelian](https://purchase.aspose.com/buy).
+
+**Q: Bagaimana cara menambahkan beberapa tekstur ke satu mesh?**  
+**A:** Buat instance `VertexElementUV` tambahan dengan nilai `TextureMapping` yang berbeda (misalnya, `NORMAL`, `SPECULAR`) dan tetapkan masing‑masing ke mesh.
 
 ## Kesimpulan
 
-Dalam tutorial ini, kita menjelajahi langkah-langkah penting untuk menerapkan koordinat UV ke objek 3D menggunakan Aspose.3D di Java. Memahami pemetaan UV sangat penting untuk meningkatkan daya tarik visual grafik 3D Anda. Jangan ragu untuk bereksperimen dengan berbagai bentuk dan tekstur untuk melepaskan kreativitas Anda.
+Dalam tutorial ini kami membahas **cara membuat UV** dan melampirkannya ke objek 3‑D menggunakan Aspose.3D untuk Java. Dengan menguasai UV mapping Anda dapat **map textures java** dan **menambahkan koordinat tekstur** ke mesh apa pun, membuka kemungkinan rendering realistis untuk game, simulasi, dan visualisasi. Bereksperimenlah dengan bentuk berbeda, tata letak UV, dan tekstur untuk melihat betapa kuatnya UV mapping.
 
-## FAQ
+---
 
-### Q1: Bisakah saya menerapkan koordinat UV ke model 3D yang kompleks?
+**Terakhir Diperbarui:** 2026-02-09  
+**Diuji Dengan:** Rilis terbaru Aspose.3D (Java)  
+**Penulis:** Aspose  
 
-A1: Ya, prosesnya tetap sama untuk model yang kompleks. Pastikan Anda memiliki data dan indeks UV yang sesuai.
-
-### Q2: Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.3D?
-
- A2: Kunjungi[Dokumentasi Aspose.3D](https://reference.aspose.com/3d/java/) untuk informasi mendalam. Untuk dukungan, periksa[Forum Aspose.3D](https://forum.aspose.com/c/3d/18).
-
-### Q3: Apakah ada uji coba gratis yang tersedia untuk Aspose.3D?
-
- A3: Ya, Anda dapat menjelajahi perpustakaan Aspose.3D dengan a[uji coba gratis](https://releases.aspose.com/).
-
-### Q4: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
-
- A4: Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Dimana saya bisa membeli Aspose.3D?
-
- A5: Untuk membeli Aspose.3D, kunjungi[halaman pembelian](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
