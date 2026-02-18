@@ -121,28 +121,6 @@ Exporting to FBX is a common requirement because FBX is widely supported by game
 | **Performance bottleneck on large scenes** | Use `scene.optimize()` before saving to reduce memory usage. |
 | **ASCII FBX is too large** | Switch to binary FBX by using `FileFormat.FBX7500` (see FAQ). |
 
-## FAQ's
-
-### Q1: Is Aspose.3D compatible with all Java IDEs?
-
-A1: Yes, Aspose.3D is designed to work seamlessly with all major Java IDEs.
-
-### Q2: Can I use Aspose.3D for commercial projects?
-
-A2: Absolutely. Aspose.3D offers commercial licenses for developers, ensuring you comply with licensing requirements.
-
-### Q3: Where can I find additional support for Aspose.3D?
-
-A3: For any queries or assistance, visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
-
-### Q4: Is there a free trial available for Aspose.3D?
-
-A4: Yes, you can explore the features with a free trial available [here](https://releases.aspose.com/).
-
-### Q5: How can I obtain a temporary license for Aspose.3D?
-
-A5: Get a temporary license for testing purposes [here](https://purchase.aspose.com/temporary-license/).
-
 ## Frequently Asked Questions
 
 **Q: How do I change the output format to binary FBX?**  

@@ -4,7 +4,7 @@ description: 'Aspose.3D ile bir Java 3D grafik öğreticisini öğrenin: Java’
   adım bir 3D küp sahnesi oluşturun, kurulum, kod ve modeli kaydetme konularını kapsar.'
 linktitle: Create a 3D Cube Scene in Java with Aspose.3D
 second_title: Aspose.3D Java API
-title: 'Java 3D Grafik Öğreticisi: Aspose.3D ile 3D Küp Sahnesi Oluşturma'
+title: 'Java 3D Grafik Öğreticisi - Aspose.3D ile 3D Küp Sahnesi Oluşturma'
 url: /tr/java/geometry/create-3d-cube-scene/
 weight: 12
 ---

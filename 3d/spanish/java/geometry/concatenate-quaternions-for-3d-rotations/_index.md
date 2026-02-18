@@ -9,12 +9,7 @@ title: Establecer cuaternión de rotación en Java usando Aspose.3D
 url: /es/java/geometry/concatenate-quaternions-for-3d-rotations/
 weight: 11
 ---
-
- formatting (**). Keep them.
-
-Also keep code names like `Quaternion.fromEulerAngle` unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

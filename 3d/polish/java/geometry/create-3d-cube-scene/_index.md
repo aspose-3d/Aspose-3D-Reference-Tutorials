@@ -4,7 +4,7 @@ description: 'Poznaj samouczek grafiki 3D w Javie z Aspose.3D: stwórz scenę z 
   3D krok po kroku w Javie, obejmującą konfigurację, kod i zapisywanie modelu.'
 linktitle: Create a 3D Cube Scene in Java with Aspose.3D
 second_title: Aspose.3D Java API
-title: 'Poradnik grafiki 3D w Javie: Stwórz scenę z sześcianem 3D przy użyciu Aspose.3D'
+title: 'Poradnik grafiki 3D w Javie - Stwórz scenę z sześcianem 3D przy użyciu Aspose.3D'
 url: /pl/java/geometry/create-3d-cube-scene/
 weight: 12
 ---

@@ -5,32 +5,11 @@ description: 'Μάθετε ένα σεμινάριο 3D γραφικών Java μ
   την αποθήκευση του μοντέλου.'
 linktitle: Create a 3D Cube Scene in Java with Aspose.3D
 second_title: Aspose.3D Java API
-title: 'Εκμάθηση Γραφικών 3D με Java: Δημιουργία σκηνής κύβου 3D με το Aspose.3D'
+title: 'Εκμάθηση Γραφικών 3D με Java - Δημιουργία σκηνής κύβου 3D με το Aspose.3D'
 url: /el/java/geometry/create-3d-cube-scene/
 weight: 12
 ---
-
-)."
-
-After that:
-
----
-
-**Last Updated:** 2026-02-12  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
-
-Translate labels: "Last Updated:" -> "Τελευταία Ενημέρωση:" ; "Tested With:" -> "Δοκιμάστηκε Με:" ; "Author:" -> "Συγγραφέας:". Keep dates unchanged.
-
-Then closing shortcodes.
-
-Also the backtop button shortcode remains unchanged.
-
-Now produce final content with all translations.
-
-Be careful to keep markdown formatting exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

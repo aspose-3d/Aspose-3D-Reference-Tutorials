@@ -4,7 +4,7 @@ description: 'Naučte se tutoriál 3D grafiky v Javě s Aspose.3D: vytvořte 3D 
   s kostkou krok za krokem v Javě, zahrnující nastavení, kód a uložení modelu.'
 linktitle: Create a 3D Cube Scene in Java with Aspose.3D
 second_title: Aspose.3D Java API
-title: 'Java 3D grafický tutoriál: Vytvořte 3D scénu s kostkou pomocí Aspose.3D'
+title: 'Java 3D grafický tutoriál - Vytvořte 3D scénu s kostkou pomocí Aspose.3D'
 url: /cs/java/geometry/create-3d-cube-scene/
 weight: 12
 ---

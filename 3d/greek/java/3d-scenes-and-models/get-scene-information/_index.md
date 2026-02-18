@@ -11,29 +11,6 @@ url: /el/java/3d-scenes-and-models/get-scene-information/
 weight: 12
 ---
 
- modify its asset info, and resave?**  
-A: Absolutely. Load the file with `new Scene("input.fbx")`, modify `scene.getAssetInfo()`, then save.
-
-Translate.
-
-## Conclusion -> "Συμπέρασμα"
-
-Paragraph translate.
-
----
-
-**Last Updated:** 2026-02-12 -> keep date.
-
-**Tested With:** Aspose.3D for Java 24.11 -> keep.
-
-**Author:** Aspose -> keep.
-
-Then closing shortcodes.
-
-Now produce final content with same markdown.
-
-Let's construct.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -146,28 +123,6 @@ System.out.println("\nAsset information added successfully to Scene.\nFile saved
 | **Λείπουν μεταδεδομένα περιουσιακού στοιχείου** | Βεβαιωθείτε ότι καλείτε το `scene.getAssetInfo()` **πριν** την αποθήκευση· οι αλλαγές μετά το `save()` δεν θα διατηρηθούν. |
 | **Σημείο συμφόρησης απόδοσης σε μεγάλες σκηνές** | Χρησιμοποιήστε το `scene.optimize()` πριν την αποθήκευση για μείωση της χρήσης μνήμης. |
 | **Το ASCII FBX είναι πολύ μεγάλο** | Μεταβείτε σε δυαδικό FBX χρησιμοποιώντας το `FileFormat.FBX7500` (δείτε FAQ). |
-
-## Συχνές Ερωτήσεις
-
-### Ε1: Είναι το Aspose.3D συμβατό με όλα τα IDE Java;
-
-A1: Ναι, το Aspose.3D έχει σχεδιαστεί ώστε να λειτουργεί απρόσκοπτα με όλα τα κύρια IDE Java.
-
-### Ε2: Μπορώ να χρησιμοποιήσω το Aspose.3D για εμπορικά έργα;
-
-A2: Απόλυτα. Το Aspose.3D προσφέρει εμπορικές άδειες για προγραμματιστές, εξασφαλίζοντας τη συμμόρφωση με τις απαιτήσεις αδειοδότησης.
-
-### Ε3: Πού μπορώ να βρω πρόσθετη υποστήριξη για το Aspose.3D;
-
-A3: Για οποιεσδήποτε ερωτήσεις ή βοήθεια, επισκεφθείτε το [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
-
-### Ε4: Υπάρχει δωρεάν δοκιμή διαθέσιμη για το Aspose.3D;
-
-A4: Ναι, μπορείτε να εξερευνήσετε τις δυνατότητες με μια δωρεάν δοκιμή διαθέσιμη [εδώ](https://releases.aspose.com/).
-
-### Ε5: Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.3D;
-
-A5: Αποκτήστε μια προσωρινή άδεια για δοκιμαστικούς σκοπούς [εδώ](https://purchase.aspose.com/temporary-license/).
 
 ## Συχνές Ερωτήσεις
 

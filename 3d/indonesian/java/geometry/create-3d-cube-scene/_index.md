@@ -4,7 +4,7 @@ description: 'Pelajari tutorial grafis 3D Java dengan Aspose.3D: buat adegan kub
   3D langkah demi langkah di Java, mencakup pengaturan, kode, dan penyimpanan model.'
 linktitle: Create a 3D Cube Scene in Java with Aspose.3D
 second_title: Aspose.3D Java API
-title: 'Tutorial Grafik 3D Java: Membuat Adegan Kubus 3D dengan Aspose.3D'
+title: 'Tutorial Grafik 3D Java - Membuat Adegan Kubus 3D dengan Aspose.3D'
 url: /id/java/geometry/create-3d-cube-scene/
 weight: 12
 ---

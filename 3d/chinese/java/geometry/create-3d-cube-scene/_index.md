@@ -3,7 +3,7 @@ date: 2026-02-12
 description: 学习使用 Aspose.3D 的 Java 3D 图形教程：在 Java 中一步步创建 3D 立方体场景，涵盖环境搭建、代码实现以及模型保存。
 linktitle: Create a 3D Cube Scene in Java with Aspose.3D
 second_title: Aspose.3D Java API
-title: Java 3D 图形教程：使用 Aspose.3D 创建 3D 立方体场景
+title: Java 3D 图形教程 - 使用 Aspose.3D 创建 3D 立方体场景
 url: /zh/java/geometry/create-3d-cube-scene/
 weight: 12
 ---

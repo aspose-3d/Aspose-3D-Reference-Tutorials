@@ -123,28 +123,6 @@ System.out.println("\nAsset information added successfully to Scene.\nFile saved
 | **Performance bottleneck on large scenes** | ใช้ `scene.optimize()` ก่อนบันทึกเพื่อลดการใช้หน่วยความจำ |
 | **ASCII FBX is too large** | สลับเป็น binary FBX โดยใช้ `FileFormat.FBX7500` (ดู FAQ) |
 
-## คำถามที่พบบ่อย
-
-### Q1: Aspose.3D รองรับ IDE Java ทุกตัวหรือไม่?
-
-A1: ใช่, Aspose.3D ถูกออกแบบให้ทำงานได้อย่างราบรื่นกับ IDE Java หลัก ๆ ทุกตัว
-
-### Q2: สามารถใช้ Aspose.3D ในโครงการเชิงพาณิชย์ได้หรือไม่?
-
-A2: แน่นอน. Aspose.3D มีลิขสิทธิ์เชิงพาณิชย์สำหรับนักพัฒนา เพื่อให้คุณปฏิบัติตามข้อกำหนดการใช้ได้อย่างเต็มที่
-
-### Q3: จะหาแหล่งสนับสนุนเพิ่มเติมสำหรับ Aspose.3D ได้จากที่ไหน?
-
-A3: สำหรับคำถามหรือความช่วยเหลือใด ๆ ให้เยี่ยมชม [Aspose.3D forum](https://forum.aspose.com/c/3d/18)
-
-### Q4: มีรุ่นทดลองฟรีสำหรับ Aspose.3D หรือไม่?
-
-A4: มี, คุณสามารถสำรวจคุณสมบัติต่าง ๆ ด้วยรุ่นทดลองฟรีได้ [ที่นี่](https://releases.aspose.com/)
-
-### Q5: จะขอรับลิขสิทธิ์ชั่วคราวสำหรับ Aspose.3D ได้อย่างไร?
-
-A5: รับลิขสิทธิ์ชั่วคราวเพื่อการทดสอบได้ [ที่นี่](https://purchase.aspose.com/temporary-license/)
-
 ## คำถามที่พบบ่อยเพิ่มเติม
 
 **Q: จะเปลี่ยนรูปแบบผลลัพธ์เป็น binary FBX ได้อย่างไร?**  

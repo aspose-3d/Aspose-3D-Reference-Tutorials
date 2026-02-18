@@ -50,7 +50,7 @@ import com.aspose.threed.*;
 
 現在讓我們將範例程式碼拆解為清晰的步驟說明。
 
-## Step 1: Set Up the Scene
+## 步驟 1：設定場景
 
 首先，建立一個空的場景，用來容納所有物件。
 
@@ -58,7 +58,7 @@ import com.aspose.threed.*;
 Scene scene = new Scene();
 ```
 
-## Step 2: Define Quaternions
+## 步驟 2：定義四元數
 
 我們將建立兩個基礎旋轉：
 
@@ -71,7 +71,7 @@ Vector3.X_AXIS.x = 3;
 Quaternion q2 = Quaternion.fromAngleAxis(-Math.PI * 0.5, Vector3.X_AXIS);
 ```
 
-## Step 3: Concatenate Quaternions
+## 步驟 3：連線四元數
 
 使用 `concat` 將兩個旋轉合併為單一方向，產生 **q3**，即 **set rotation quaternion** 後的合併變換結果。
 
@@ -79,7 +79,7 @@ Quaternion q2 = Quaternion.fromAngleAxis(-Math.PI * 0.5, Vector3.X_AXIS);
 Quaternion q3 = q1.concat(q2);
 ```
 
-## Step 4: Create 3 Cylinders
+## 步驟 4：建立 3 個圓柱體
 
 我們會將每個四元數分別套用到三個圓柱體上，以便可視化。請注意在每個節點的變換上 **set rotation quaternion**。
 
@@ -101,7 +101,7 @@ cylinder.getTransform().setRotation(q3);
 cylinder.getTransform().setTranslation(new Vector3(5, 2, 0));
 ```
 
-## Step 5: Save to File
+## 步驟 5：儲存到文件
 
 將場景匯出，讓你能在任何支援 FBX 的檢視器中查看結果。
 
@@ -111,7 +111,7 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 // ExEnd:ConcatenateQuaternions
 ```
 
-## Step 6: Print Success Message
+## 步驟 6：列印成功訊息
 
 在主控台印出友善訊息，以確認操作已順利完成且未發生錯誤。
 
@@ -121,7 +121,7 @@ System.out.println("\nQuaternions concatenated successfully.\nFile saved at " + 
 
 ## 常見問題與解決方案
 
-| Issue | Why it Happens | Fix |
+| 問題 | 發生原因 | 解決方法 |
 |-------|----------------|-----|
 | **`Vector3.X_AXIS.x = 3;` throws an error** | 靜態軸向向量在較新版本的 Aspose 中為不可變。 | 移除該行或在修改前先複製向量。 |
 | **Scene appears empty** | 根節點未加入任何幾何體。 | 確認每個 `createChildNode` 呼叫在儲存前已執行。 |

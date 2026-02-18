@@ -4,7 +4,7 @@ description: 'Học hướng dẫn đồ họa 3D Java với Aspose.3D: tạo m�
   3D từng bước trong Java, bao gồm cài đặt, mã nguồn và lưu mô hình.'
 linktitle: Create a 3D Cube Scene in Java with Aspose.3D
 second_title: Aspose.3D Java API
-title: 'Hướng dẫn Đồ họa 3D Java: Tạo cảnh khối lập phương 3D với Aspose.3D'
+title: 'Hướng dẫn Đồ họa 3D Java - Tạo cảnh khối lập phương 3D với Aspose.3D'
 url: /vi/java/geometry/create-3d-cube-scene/
 weight: 12
 ---

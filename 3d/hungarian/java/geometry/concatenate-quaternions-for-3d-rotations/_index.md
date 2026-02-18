@@ -10,19 +10,7 @@ url: /hu/java/geometry/concatenate-quaternions-for-3d-rotations/
 weight: 11
 ---
 
-.
-
-**Tested With:** Aspose.3D for Java 24.11 (latest at time of writing) -> same.
-
-**Author:** Aspose -> same.
-
-Then closing shortcodes.
-
-Also there is a backtop button shortcode after.
-
-All good.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

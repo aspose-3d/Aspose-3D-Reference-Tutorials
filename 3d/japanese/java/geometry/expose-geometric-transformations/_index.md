@@ -8,14 +8,6 @@ url: /ja/java/geometry/expose-geometric-transformations/
 weight: 13
 ---
 
-:** Aspose.3D for Java (最新リリース)"
-
-**Author:** Aspose => "**作者:** Aspose"
-
-Now ensure all markdown formatting preserved.
-
-Now produce final output with all sections.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -60,7 +52,7 @@ import com.aspose.threed.Vector3;
 
 以下に、実行すべき主要な操作を示すステップバイステップのガイドを示します。
 
-### Step 1: Initialize Node
+### ステップ 1: ノードの初期化
 
 3D ワールドの基盤は `Node` から始まります。Java コードで新しい `Node` オブジェクトを作成してください：
 
@@ -70,7 +62,7 @@ Node n = new Node();
 // ExEnd: Step 1
 ```
 
-### Step 2: Geometric Translation
+### ステップ 2: ジオメトリ変換
 
 次に、ノードに幾何平行移動を付与します。このステップではノードを 3D 空間内で移動させます。以下のコードで幾何平行移動を設定してください：
 
@@ -80,7 +72,7 @@ n.getTransform().setGeometricTranslation(new Vector3(10, 0, 0));
 // ExEnd: Step 2
 ```
 
-### Step 3: Evaluate Global Transform
+### ステップ 3: グローバル変換の評価
 
 幾何変換の影響を確認するために、ノードのグローバル変換を評価しましょう。このステップでは、幾何変換を含む変換行列が出力されます：
 

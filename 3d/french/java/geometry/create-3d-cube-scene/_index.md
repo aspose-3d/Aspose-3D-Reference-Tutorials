@@ -5,7 +5,7 @@ description: 'Apprenez un tutoriel de graphisme 3D Java avec Aspose.3D : crée
   la sauvegarde du modèle.'
 linktitle: Create a 3D Cube Scene in Java with Aspose.3D
 second_title: Aspose.3D Java API
-title: 'Tutoriel Java 3D Graphics : Créez une scène de cube 3D avec Aspose.3D'
+title: 'Tutoriel Java 3D Graphics - Créez une scène de cube 3D avec Aspose.3D'
 url: /fr/java/geometry/create-3d-cube-scene/
 weight: 12
 ---

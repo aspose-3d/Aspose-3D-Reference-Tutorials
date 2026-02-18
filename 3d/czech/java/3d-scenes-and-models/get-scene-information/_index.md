@@ -125,23 +125,6 @@ Export do FBX je běžná požadavek, protože FBX je široce podporován herní
 
 ## Často kladené otázky
 
-### Q1: Je Aspose.3D kompatibilní se všemi Java IDE?
-A1: Ano, Aspose.3D je navrženo tak, aby fungovalo bez problémů se všemi hlavními Java IDE.
-
-### Q2: Mohu používat Aspose.3D pro komerční projekty?
-A2: Rozhodně. Aspose.3D nabízí komerční licence pro vývojáře, což zajišťuje, že splňujete licenční požadavky.
-
-### Q3: Kde mohu najít další podporu pro Aspose.3D?
-A3: Pro jakékoli dotazy nebo pomoc navštivte [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
-
-### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.3D?
-A4: Ano, můžete si vyzkoušet funkce pomocí bezplatné zkušební verze dostupné [zde](https://releases.aspose.com/).
-
-### Q5: Jak mohu získat dočasnou licenci pro Aspose.3D?
-A5: Získejte dočasnou licenci pro testovací účely [zde](https://purchase.aspose.com/temporary-license/).
-
-## Často kladené otázky
-
 **Q: Jak změním výstupní formát na binární FBX?**  
 A: Nahraďte `FileFormat.FBX7500ASCII` za `FileFormat.FBX7500` při volání `scene.save(...)`.
 

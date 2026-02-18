@@ -12,12 +12,6 @@ url: /hu/java/3d-scenes-and-models/get-scene-information/
 weight: 12
 ---
 
-, code block placeholders remain.
-
-Also note: "For Hungarian, ensure proper RTL formatting if needed" - Hungarian is LTR, ignore.
-
-Let's construct translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -130,28 +124,6 @@ Az FBX‑be exportálás gyakori követelmény, mivel az FBX széles körben tá
 | **Az eszközmetaadat hiányzik** | Győződj meg róla, hogy a `scene.getAssetInfo()`‑t **a mentés előtt** hívod; a `save()` után végzett módosítások nem kerülnek mentésre. |
 | **Teljesítménybottleneck nagy jeleneteknél** | Használd a `scene.optimize()`‑t a mentés előtt a memóriahasználat csökkentéséhez. |
 | **Az ASCII FBX túl nagy** | Válts bináris FBX‑re a `FileFormat.FBX7500` használatával (lásd a GYIK‑ot). |
-
-## GYIK
-
-### Q1: Az Aspose.3D kompatibilis minden Java IDE‑val?
-
-A1: Igen, az Aspose.3D úgy lett tervezve, hogy zökkenőmentesen működjön minden nagyobb Java IDE‑val.
-
-### Q2: Használhatom az Aspose.3D‑t kereskedelmi projektekben?
-
-A2: Természetesen. Az Aspose.3D kereskedelmi licenceket kínál fejlesztőknek, biztosítva, hogy megfelelj a licencelési követelményeknek.
-
-### Q3: Hol találok további támogatást az Aspose.3D‑hez?
-
-A3: Bármilyen kérdés vagy segítség esetén látogasd meg a [Aspose.3D fórumot](https://forum.aspose.com/c/3d/18).
-
-### Q4: Van ingyenes próba a Aspose.3D‑hez?
-
-A4: Igen, a funkciókat ingyenes próba verzióval is kipróbálhatod [itt](https://releases.aspose.com/).
-
-### Q5: Hogyan szerezhetek ideiglenes licencet az Aspose.3D‑hez?
-
-A5: Ideiglenes, tesztelési célú licencet itt kaphatsz [ide](https://purchase.aspose.com/temporary-license/).
 
 ## Gyakran feltett kérdések
 

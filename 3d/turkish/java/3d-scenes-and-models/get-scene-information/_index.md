@@ -125,28 +125,6 @@ FBX dışa aktarma yaygın bir gereksinimdir çünkü FBX, oyun motorları, DCC 
 | **Büyük sahnelerde performans darboğazı** | Kaydetmeden önce `scene.optimize()` kullanarak bellek kullanımını azaltın. |
 | **ASCII FBX çok büyük** | `FileFormat.FBX7500` kullanarak ikili FBX’e geçin (SSS’ye bakın). |
 
-## SSS
-
-### S1: Aspose.3D tüm Java IDE’leriyle uyumlu mu?
-
-C1: Evet, Aspose.3D tüm büyük Java IDE’leriyle sorunsuz çalışacak şekilde tasarlanmıştır.
-
-### S2: Aspose.3D’yi ticari projelerde kullanabilir miyim?
-
-C2: Kesinlikle. Aspose.3D, geliştiriciler için ticari lisanslar sunar ve lisans gereksinimlerine uyum sağlamanızı garanti eder.
-
-### S3: Aspose.3D için ek destek nereden bulunur?
-
-C3: Her türlü soru ve yardım için [Aspose.3D forumunu](https://forum.aspose.com/c/3d/18) ziyaret edin.
-
-### S4: Aspose.3D için ücretsiz deneme mevcut mu?
-
-C4: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
-
-### S5: Aspose.3D için geçici bir lisans nasıl alınır?
-
-C5: Test amaçlı geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
-
 ## Sık Sorulan Sorular
 
 **S: Çıktı formatını ikili FBX’e nasıl değiştiririm?**  

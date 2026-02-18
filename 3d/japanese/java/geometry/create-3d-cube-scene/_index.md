@@ -3,24 +3,12 @@ date: 2026-02-12
 description: Aspose.3D を使用した Java 3D グラフィックスチュートリアルを学ぶ：Java で 3D キューブシーンをステップバイステップで作成し、セットアップ、コード、モデルの保存をカバーします。
 linktitle: Create a 3D Cube Scene in Java with Aspose.3D
 second_title: Aspose.3D Java API
-title: Java 3D グラフィックスチュートリアル：Aspose.3Dで3Dキューブシーンを作成する
+title: Java 3D グラフィックスチュートリアル - Aspose.3Dで3Dキューブシーンを作成する
 url: /ja/java/geometry/create-3d-cube-scene/
 weight: 12
 ---
 
-ose.3D for Java 24.11 -> "**テスト環境:** Aspose.3D for Java 24.11"
-
-**Author:** Aspose -> "**作者:** Aspose"
-
-Then closing shortcodes.
-
-Finally backtop button shortcode unchanged.
-
-Now produce final content with same markdown.
-
-Make sure not to alter any code block placeholders.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

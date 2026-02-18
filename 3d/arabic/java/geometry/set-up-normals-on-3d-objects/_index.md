@@ -11,14 +11,6 @@ url: /ar/java/geometry/set-up-normals-on-3d-objects/
 weight: 17
 ---
 
-.
-
-Last Updated etc.
-
-Make sure to keep bold, italics, code formatting.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

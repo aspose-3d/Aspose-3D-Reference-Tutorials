@@ -16,32 +16,32 @@ weight: 13
 
 # Exponera geometriska transformationer i Java 3D med Aspose.3D
 
-## Introduction
+## Introduktion
 
-I modern Java 3D‑utveckling är **creating a node with Aspose 3D** det första steget mot att bygga rika, interaktiva modeller. Denna handledning guidar dig genom att exponera geometriska transformationer—translation, rotation och scaling—med hjälp av Aspose.3D Java‑API:et. I slutet kommer du att veta hur du skapar en nod, applicerar en geometrisk translation och utvärderar nodens globala transformmatris.
+I modern Java 3D-utveckling är **creating a node with Aspose3D** det första steget mot att bygga rika, interaktiva modeller. Denna handledning guidar dig genom att exponera geometriska transformationer—translation, rotation och scaling—med hjälp av Aspose.3D Java‑API:et. I slutet kommer du att veta hur du skapar en nod, applicerar en geometrisk översättning och utvärderar nodens globala transformmatris.
 
-## Quick Answers
-- **Vad betyder “create node aspose 3d”?** Det refererar till att instansiera ett `Node`‑objekt med hjälp av Aspose.3D Java‑biblioteket.  
-- **Vilken biblioteksversion krävs?** Vilken som helst ny Aspose.3D för Java‑release (API:et är bakåtkompatibelt).  
-- **Behöver jag en licens för att köra exemplet?** En tillfällig eller full licens krävs för produktion; en gratis provversion fungerar för testning.  
-- **Kan jag se transformationsmatrisen?** Ja—använd `evaluateGlobalTransform()` för att skriva ut matrisen till konsolen.  
+## Snabba svar
+- **Vad betyder "create node aspose 3d"?** Det refererar till att instansiera ett `Node`‑objekt med hjälp av Aspose.3D Java‑biblioteket.
+- **Vilken biblioteksversion krävs?** Vilken som helst ny Aspose.3D för Java‑release (API:et är bakåtkompatibelt).
+- **Behöver jag en licens för att köra exemplet?** En tillfällig eller full licens krävs för produktion; en gratis provversion fungerar för testning.
+- **Kan jag se transformationsmatrisen?** Ja—använd `evaluateGlobalTransform()` för att skriva ut matrisen till konsolen.
 - **Är detta tillvägagångssätt lämpligt för stora scener?** Absolut; nodnivå‑transformeringar utvärderas effektivt även i komplexa hierarkier.
 
 ## Vad är “create node aspose 3d”?
 
-Att skapa en nod i Aspose 3D innebär att allokera ett scen‑graf‑element som kan innehålla geometri, kameror, ljus eller andra barnnoder. Noden fungerar som en behållare vars transform‑egenskaper (translation, rotation, scaling) bestämmer dess position och orientering i 3D‑rummet.
+Att skapa en nod i Aspose3D innebär att allokera ett scen‑graf‑element som kan innehålla geometri, kameror, ljus eller andra barnnoder. Noden fungerar som en behållare vars transform‑egenskaper (översättning, rotation, skalning) bestämmer dess position och orientering i 3D‑rummet.
 
 ## Varför använda Aspose.3D för geometriska transformationer?
 
-- **Full control** över enskilda nodtransformeringar utan att påverka hela scenen.  
-- **Chainable API** som låter dig kombinera geometriska och lokala transformationer sömlöst.  
-- **Cross‑platform** Java‑stöd, vilket gör det idealiskt för skrivbord, server‑sida eller Android‑applikationer.
+- **Full kontroll** över enskilda nodtransformeringar utan att påverka hela scenen.
+- **Chainable API** som låter dig kombinera geometriska och lokala transformationer sömlöst.
+- **Cross‑platform** Java‑stöd, vilket gör det idealiskt för skrivbord, serversida eller Android‑applikationer.
 
 ## Förutsättningar
 
 Innan vi dyker ner i världen av geometriska transformationer med Aspose.3D, se till att du har följande förutsättningar på plats:
 
-1. Java Development Kit (JDK): Aspose.3D för Java kräver en kompatibel JDK installerad på ditt system. Du kan ladda ner den senaste JDK:n [here](https://www.oracle.com/java/technologies/javase-downloads.html).
+1. Java Development Kit (JDK): Aspose.3D för Java kräver en kompatibel JDK installerad på ditt system. Du kan ladda ner den senaste JDK:n [här](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 2. Aspose.3D Library: Ladda ner Aspose.3D‑biblioteket från [release page](https://releases.aspose.com/3d/java/) för att integrera det i ditt Java‑projekt.
 

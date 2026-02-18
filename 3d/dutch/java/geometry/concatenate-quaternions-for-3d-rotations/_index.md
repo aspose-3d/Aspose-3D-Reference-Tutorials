@@ -15,36 +15,36 @@ weight: 11
 
 # Rotatiequaternion instellen in Java met Aspose.3D
 
-## Introduction
+## Introductie
 
-Als je een **java 3d animation** of een interactieve 3D‑scène bouwt, zul je al snel ontdekken dat het roteren van objecten met Euler‑hoeken kan leiden tot gimbal lock. De nette oplossing is om **rotatiequaternion instellen**‑waarden te gebruiken en ze te concatenaten wanneer je gecombineerde rotaties nodig hebt. In deze **java 3d tutorial** lopen we de exacte stappen door om quaternions te maken, te concatenaten en toe te passen met Aspose.3D, zodat je objecten soepel en voorspelbaar kunt animeren.
+Als je een **java 3d animatie** van een interactieve 3D‑scène bouwt, zul je al snel ontdekken dat het roteren van objecten met Euler‑hoeken tot een gimbal lock kan leiden.De nette oplossing is om **rotatiequaternion instellen**‑waarden te gebruiken en ze te concatenaten wanneer je gecombineerde rotaties nodig hebt. In deze **java 3d tutorial** lopen we de exacte stappen door om quaternions te maken, aaneen te schakelen en te passen met Aspose.3D, zodat je objecten soepel en voorspelbaar kunt animeren.
 
-## Quick Answers
-- **Wat betekent “set rotation quaternion”?** Het wijst een quaternion toe aan de transformatie van een object, waardoor de oriëntatie in de 3D‑ruimte wordt gedefinieerd.  
-- **Welke Aspose‑klasse maakt een quaternion van Euler‑hoeken?** `Quaternion.fromEulerAngle`.  
-- **Kan ik een volledige 3‑D‑animatie bouwen met deze quaternions?** Ja – concateneer meerdere quaternions om complexe bewegingen samen te stellen.  
-- **Heb ik een licentie nodig om de code uit te voeren?** Een gratis proefversie werkt voor testen; een betaalde licentie is vereist voor productie.  
+## Snelle antwoorden
+- **Wat betekent “set rotatie quaternion”?** Het wijst een quaternion toe aan de transformatie van een object, waardoor de oriëntatie in de 3D-ruimte wordt bedoeld.
+- **Welke Aspose‑klasse maakt een quaternion van Euler‑hoeken?** `Quaternion.fromEulerAngle`.
+- **Kan ik een volledige 3‑D‑animatie bouwen met deze quaternions?** Ja – concateneer meerdere quaternions om complexe bewegingen samen te stellen.
+- **Heb ik een licentie nodig om de code uit te voeren?** Een gratis proefversie werkt voor testen; een betaalde licentie is vereist voor productie.
 - **Welk bestandsformaat wordt in het voorbeeld gebruikt?** FBX (ASCII) via `FileFormat.FBX7400ASCII`.
 
-## What is set rotation quaternion?
-Wat is rotatiequaternion instellen?  
-Een rotatiequaternion is een vier‑component getal (x, y, z, w) dat een rotatie weergeeft zonder de valkuilen van Euler‑hoeken. Door **rotatiequaternion instellen** op de transformatie van een node, handelt Aspose.3D intern de wiskunde af, waardoor je soepele, interpoleerbare rotaties krijgt.
+## Wat is een ingesteld rotatiequaternion?
+Wat is rotatiequaternion instellen?
+Een rotatiequaternion is een viercomponent getal (x, y, z, w) dat een rotatie weergeeft zonder de valkuilen van Eulerhoeken. Door **rotatiequaternion in te stellen** op de transformatie van een knooppunt, handelt Aspose.3D intern de wiskunde af, waardoor je soepele, interpoleerbare rotaties krijgt.
 
-## Why use quaternion from euler and quaternion from axis?
-* **`Quaternion.fromEulerAngle`** (quaternion from euler) stelt je in staat om bekende pitch‑yaw‑roll‑waarden om te zetten naar een quaternion.  
-* **`Quaternion.fromAngleAxis`** (quaternion from axis) maakt een rotatie rond een willekeurige as, perfect voor spin‑around‑X of aangepaste assen.  
-Door beide te combineren kun je geavanceerde **java 3d animation**‑reeksen bouwen terwijl de code leesbaar blijft.
+## Waarom quaternion van euler en quaternion van as gebruiken?
+* **`Quaternion.fromEulerAngle`** (quaternion van euler) stelt je in staat om bekende pitch‑yaw‑roll‑waarden om te zetten naar een quaternion.
+* **`Quaternion.fromAngleAxis`** (quaternion van as) maakt een rotatie rond een willekeurige as, perfect voor spin-around-X of aangepaste assen.
+Door beide te combineren kun je uitgebreide **java 3d animatie**‑reeksen bouwen terwijl de code willekeurig blijft.
 
-## Prerequisites
+## Vereisten
 
 Voordat je aan de tutorial begint, zorg ervoor dat je de volgende vereisten hebt:
 
-- Basiskennis van Java‑programmeren.  
+- Basiskennis van Java-programmeurs.
 - Aspose.3D voor Java geïnstalleerd. Je kunt het downloaden [hier](https://releases.aspose.com/3d/java/).
 
-## Import Packages
+## Pakketten importeren
 
-Zorg ervoor dat je de benodigde pakketten importeert om de functionaliteiten van Aspose.3D te benutten. Voeg de volgende regel toe aan je Java‑code:
+Zorg ervoor dat je de gecombineerde pakketten importeert om de functionaliteiten van Aspose.3D te benutten. Voeg de volgende regel toe aan je Java-code:
 
 ```java
 import com.aspose.threed.*;
@@ -52,7 +52,7 @@ import com.aspose.threed.*;
 
 Laten we nu de voorbeeldcode opsplitsen in duidelijke, genummerde stappen.
 
-## Step 1: Set Up the Scene
+## Stap 1: De scène instellen
 
 Maak eerst een lege scene die al onze objecten zal bevatten.
 
@@ -60,7 +60,7 @@ Maak eerst een lege scene die al onze objecten zal bevatten.
 Scene scene = new Scene();
 ```
 
-## Step 2: Define Quaternions
+## Stap 2: Quaternionen definiëren
 
 We zullen twee basisrotaties maken:
 
@@ -73,7 +73,7 @@ Vector3.X_AXIS.x = 3;
 Quaternion q2 = Quaternion.fromAngleAxis(-Math.PI * 0.5, Vector3.X_AXIS);
 ```
 
-## Step 3: Concatenate Quaternions
+## Stap 3: Quaternionen samenvoegen
 
 Om de twee rotaties te combineren tot één oriëntatie, gebruik je `concat`. Dit produceert **q3**, het resultaat van **rotatiequaternion instellen** op de gecombineerde transformatie.
 
@@ -81,7 +81,7 @@ Om de twee rotaties te combineren tot één oriëntatie, gebruik je `concat`. Di
 Quaternion q3 = q1.concat(q2);
 ```
 
-## Step 4: Create 3 Cylinders
+## Stap 4: Drie cilinders maken
 
 We visualiseren elke quaternion door deze aan een afzonderlijke cilinder te koppelen. Let op hoe we **rotatiequaternion instellen** op de transformatie van elke node.
 
@@ -103,7 +103,7 @@ cylinder.getTransform().setRotation(q3);
 cylinder.getTransform().setTranslation(new Vector3(5, 2, 0));
 ```
 
-## Step 5: Save to File
+## Stap 5: Opslaan in bestand
 
 Exporteer de scene zodat je het resultaat kunt bekijken in elke FBX‑compatibele viewer.
 
@@ -113,7 +113,7 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 // ExEnd:ConcatenateQuaternions
 ```
 
-## Step 6: Print Success Message
+## Stap 6: Succesbericht afdrukken
 
 Een vriendelijke console‑melding bevestigt dat de bewerking zonder fouten is voltooid.
 
@@ -121,15 +121,15 @@ Een vriendelijke console‑melding bevestigt dat de bewerking zonder fouten is v
 System.out.println("\nQuaternions concatenated successfully.\nFile saved at " + MyDir);
 ```
 
-## Common Issues and Solutions
+## Veelvoorkomende problemen en oplossingen
 
 | Probleem | Waarom het gebeurt | Oplossing |
-|----------|--------------------|-----------|
-| **`Vector3.X_AXIS.x = 3;` geeft een fout** | De statische asvector is onveranderlijk in nieuwere Aspose‑versies. | Verwijder de regel of kloon de vector voordat je deze wijzigt. |
-| **Scene lijkt leeg** | Er is geen geometrie toegevoegd aan de root‑node. | Zorg ervoor dat elke `createChildNode`‑aanroep wordt uitgevoerd vóór het opslaan. |
+|----------|-------------------|----------|
+| **`Vector3.X_AXIS.x = 3;` geeft een fout** | De statische asvector is onveranderlijk in nieuwere Aspose‑versies. | Verwijder de regel van de kloon van de vector voordat je deze storing veroorzaakt. |
+| **Scène lijkt leeg** | Er is geen geometrie toegevoegd aan de root-node. | Zorg ervoor dat elke `createChildNode`‑aanroep wordt uitgevoerd vóór het opslaan. |
 | **Bestand niet gevonden bij opslaan** | `MyDir` bevat mogelijk geen afsluitende scheidingsteken. | Gebruik `Paths.get(MyDir, "test_out.fbx").toString()` of controleer de pad‑string. |
 
-## Frequently Asked Questions
+## Veelgestelde vragen
 
 ### Q1: Kan ik Aspose.3D voor Java gratis gebruiken?
 
@@ -149,16 +149,16 @@ A4: Ja, je kunt een [tijdelijke licentie](https://purchase.aspose.com/temporary-
 
 ### Q5: Welke bestandsformaten worden ondersteund voor het opslaan van 3D‑scènes?
 
-A5: Aspose.3D ondersteunt verschillende formaten, en je kunt scènes opslaan in FBX‑formaat, zoals in deze tutorial wordt getoond.
+A5: Aspose.3D ondersteunt verschillende formaten, en je kunt scènes opslaan in FBX-formaat, zoals in deze tutorial wordt getoond.
 
-### Q6: Werkt deze aanpak voor real‑time **java 3d animation**?
+### Q6: Werkt deze aanpak voor real‑time **java 3d animatie**?
 
-A6: Absoluut. Door de quaternion elke frame bij te werken en opnieuw toe te passen met `setRotation`, kun je soepele animaties aansturen.
+A6: Absoluut. Door de quaternion elk frame bij te werken en opnieuw te passen met `setRotation`, kun je soepele animaties aansturen.
 
 ---
 
-**Laatst bijgewerkt:** 2026-02-12  
-**Getest met:** Aspose.3D for Java 24.11 (latest at time of writing)  
+**Laatst bijgewerkt:** 2026-02-12
+**Getest voldaan:** Aspose.3D voor Java 24.11 (laatste op het moment van schrijven)
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

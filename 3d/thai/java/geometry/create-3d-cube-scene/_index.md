@@ -4,7 +4,7 @@ description: 'เรียนบทเรียนกราฟิก 3 มิต
   มิติแบบขั้นตอนต่อขั้นตอนใน Java ครอบคลุมการตั้งค่า โค้ด และการบันทึกโมเดล.'
 linktitle: Create a 3D Cube Scene in Java with Aspose.3D
 second_title: Aspose.3D Java API
-title: 'บทเรียนกราฟิก 3 มิติด้วย Java: สร้างฉากลูกบาศก์ 3 มิติด้วย Aspose.3D'
+title: 'บทเรียนกราฟิก 3 มิติด้วย Java - สร้างฉากลูกบาศก์ 3 มิติด้วย Aspose.3D'
 url: /th/java/geometry/create-3d-cube-scene/
 weight: 12
 ---

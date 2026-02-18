@@ -122,28 +122,6 @@ System.out.println("\nAsset information added successfully to Scene.\nFile saved
 | **大型場景的效能瓶頸** | 在儲存前使用 `scene.optimize()` 以降低記憶體使用量。 |
 | **ASCII FBX 檔案過大** | 改用 `FileFormat.FBX7500` 以切換為二進位 FBX（參見 FAQ）。 |
 
-## 常見問答
-
-### Q1：Aspose.3D 是否相容所有 Java IDE？
-
-A1：是的，Aspose.3D 設計上能與所有主流 Java IDE 無縫相容。
-
-### Q2：我可以在商業專案中使用 Aspose.3D 嗎？
-
-A2：當然可以。Aspose.3D 為開發者提供商業授權，確保符合授權需求。
-
-### Q3：在哪裡可以取得 Aspose.3D 的其他支援？
-
-A3：如有任何問題或需要協助，請前往 [Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)。
-
-### Q4：Aspose.3D 是否提供免費試用？
-
-A4：是的，你可以在此處取得免費試用版以探索功能 [here](https://releases.aspose.com/)。
-
-### Q5：如何取得 Aspose.3D 的臨時授權？
-
-A5：可於此處取得測試用的臨時授權 [here](https://purchase.aspose.com/temporary-license/)。
-
 ## 常見問題
 
 **Q: 如何將輸出格式改為二進位 FBX？**  

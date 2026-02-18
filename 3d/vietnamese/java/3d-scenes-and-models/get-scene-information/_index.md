@@ -125,28 +125,6 @@ Xuất sang FBX là yêu cầu phổ biến vì FBX được hỗ trợ rộng r
 | **Nút thắt hiệu năng với cảnh lớn** | Dùng `scene.optimize()` trước khi lưu để giảm tiêu thụ bộ nhớ. |
 | **FBX ASCII quá lớn** | Chuyển sang FBX nhị phân bằng cách dùng `FileFormat.FBX7500` (xem FAQ). |
 
-## Câu hỏi thường gặp
-
-### Q1: Aspose.3D có tương thích với mọi IDE Java không?
-
-A1: Có, Aspose.3D được thiết kế để hoạt động liền mạch với tất cả các IDE Java chính.
-
-### Q2: Tôi có thể dùng Aspose.3D cho dự án thương mại không?
-
-A2: Chắc chắn. Aspose.3D cung cấp giấy phép thương mại cho các nhà phát triển, giúp bạn tuân thủ yêu cầu cấp phép.
-
-### Q3: Tôi có thể tìm hỗ trợ bổ sung cho Aspose.3D ở đâu?
-
-A3: Đối với bất kỳ câu hỏi hay hỗ trợ nào, hãy truy cập [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
-
-### Q4: Có bản dùng thử miễn phí cho Aspose.3D không?
-
-A4: Có, bạn có thể khám phá các tính năng với bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
-
-### Q5: Làm sao để lấy giấy phép tạm thời cho Aspose.3D?
-
-A5: Nhận giấy phép tạm thời để thử nghiệm [tại đây](https://purchase.aspose.com/temporary-license/).
-
 ## Các câu hỏi thường gặp khác
 
 **Hỏi: Làm sao đổi định dạng đầu ra sang FBX nhị phân?**  

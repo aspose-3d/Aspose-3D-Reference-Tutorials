@@ -8,16 +8,6 @@ url: /zh/java/geometry/set-up-normals-on-3d-objects/
 weight: 17
 ---
 
- The placeholders are not that format, but they are double braces. Should keep them unchanged. So we keep them as is.
-
-Translate text content.
-
-Let's produce final content.
-
-We need to translate the Chinese text, ensure proper punctuation.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

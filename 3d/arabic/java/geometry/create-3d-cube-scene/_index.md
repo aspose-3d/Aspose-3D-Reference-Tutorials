@@ -4,7 +4,7 @@ description: 'تعلم درسًا في رسومات 3D بجافا مع Aspose.3D
   خطوة بخطوة في جافا، مع تغطية الإعداد، الكود، وحفظ النموذج.'
 linktitle: Create a 3D Cube Scene in Java with Aspose.3D
 second_title: Aspose.3D Java API
-title: 'دورة تعليمية في رسومات Java ثلاثية الأبعاد: إنشاء مشهد مكعب ثلاثي الأبعاد
+title: 'دورة تعليمية في رسومات Java ثلاثية الأبعاد - إنشاء مشهد مكعب ثلاثي الأبعاد
   باستخدام Aspose.3D'
 url: /ar/java/geometry/create-3d-cube-scene/
 weight: 12

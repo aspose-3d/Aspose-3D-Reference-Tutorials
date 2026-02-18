@@ -5,7 +5,7 @@ description: 'Tanulj meg egy Java 3D grafikai oktatót az Aspose.3D-vel: lépés
   modell mentését.'
 linktitle: Create a 3D Cube Scene in Java with Aspose.3D
 second_title: Aspose.3D Java API
-title: 'Java 3D grafikai útmutató: 3D kocka jelenet létrehozása az Aspose.3D‑vel'
+title: 'Java 3D grafikai útmutató - 3D kocka jelenet létrehozása az Aspose.3D‑vel'
 url: /hu/java/geometry/create-3d-cube-scene/
 weight: 12
 ---
