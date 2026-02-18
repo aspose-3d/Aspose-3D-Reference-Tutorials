@@ -68,23 +68,6 @@ Door de twee bovenstaande tutorials te volgen, heb je een volledige pipeline om 
 - **Pitfall:** Incompatibele key‑frame‑tijden gebruiken. *Tip:* Houd alle key‑frame‑timestamps in dezelfde tijdseenheid (seconden).  
 - **Pitfall:** Aannemen dat één track meerdere objecten kan animeren. *Tip:* Gebruik **multiple object animation** – elke node krijgt zijn eigen `AnimationTrack`.  
 
-## Veelgestelde vragen
-
-**Q:** *Kan ik meerdere objecten gelijktijdig animeren?*  
-**A:** Ja. Elk object kan zijn eigen `AnimationTrack` hebben. Aspose.3D zal alle tracks samen interpoleren tijdens het afspelen.
-
-**Q:** *Moet ik mijn eigen render‑loop schrijven?*  
-**A:** Nee. Aspose.3D biedt een ingebouwde renderer. Je hoeft alleen `scene.render()` aan te roepen binnen je applicatieloop.
-
-**Q:** *Is het mogelijk om de geanimeerde scène te exporteren naar een game‑engine?*  
-**A:** Absoluut. Exporteer naar **FBX** of glTF, beide behouden animatiedata voor gebruik in Unity, Unreal of aangepaste engines.
-
-**Q:** *Hoe regel ik de animatiesnelheid?*  
-**A:** Pas de methode `animation.setSpeedFactor(float)` aan of wijzig de key‑frame‑timestamps.
-
-**Q:** *Wat als mijn animatie schokkerig uitziet?*  
-**A:** Verhoog het aantal key‑frames of schakel interpolatie‑gladstrijken in via `animation.setInterpolationMode(InterpolationMode.Spline)`.
-
 ## FAQ
 
 **Q: Hoe stel ik de animatieduur in voor een clip?**  
@@ -109,15 +92,15 @@ Verbeter je Java‑gebaseerde 3D‑projecten met Aspose.3D. Volg onze tutorial o
 ### [Set Up Target Camera for 3D Animations in Java | Aspose.3D Tutorial](./set-up-target-camera/)
 Verken Java 3D‑animaties moeiteloos met Aspose.3D. Volg onze tutorial voor een stap‑voor‑stap‑gids. Download nu voor een boeiende 3D‑ontwikkelingsreis.
 
+---
+
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose

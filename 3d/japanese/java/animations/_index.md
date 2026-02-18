@@ -69,23 +69,6 @@ Javaアプリケーションで **how to animate 3d** を探しているなら�
 - **Pitfall:** キーフレームの時間単位が一致していないこと。*Tip:* すべてのキーフレーム タイムスタンプを同じ時間単位（秒）で管理してください。  
 - **Pitfall:** 単一のトラックで複数オブジェクトをアニメーションできると誤解すること。*Tip:* **multiple object animation** を使用し、各ノードに固有の `AnimationTrack` を割り当てましょう。  
 
-## よくある質問
-
-**Q:** *Can I animate multiple objects simultaneously?*  
-**A:** はい。各オブジェクトは独自の `AnimationTrack` を持つことができ、Aspose.3D は再生中にすべてのトラックを同時に補間します。
-
-**Q:** *Do I need to write my own render loop?*  
-**A:** いいえ。Aspose.3D は組み込みのレンダラを提供します。アプリケーション ループ内で `scene.render()` を呼び出すだけで構いません。
-
-**Q:** *Is it possible to export the animated scene to a game engine?*  
-**A:** もちろんです。**FBX** または glTF へエクスポートすれば、Unity、Unreal、またはカスタムエンジンで使用できるアニメーション データが保持されます。
-
-**Q:** *How do I control animation speed?*  
-**A:** `animation.setSpeedFactor(float)` メソッドで調整するか、キー フレームのタイムスタンプを変更してください。
-
-**Q:** *What if my animation looks choppy?*  
-**A:** キーフレーム数を増やすか、`animation.setInterpolationMode(InterpolationMode.Spline)` で補間のスムージングを有効にしてください。
-
 ## FAQ
 
 **Q: How do I set animation duration for a clip?**  
@@ -110,15 +93,15 @@ Aspose.3D を使用して Java ベースの 3D プロジェクトを強化しま
 ### [Set Up Target Camera for 3D Animations in Java | Aspose.3D Tutorial](./set-up-target-camera/)
 Aspose.3D で Java の 3D アニメーションを手軽に体験してください。ステップバイステップのガイドが用意されたチュートリアルを参照し、魅力的な 3D 開発の旅を今すぐ始めましょう。
 
+---
+
+**最終更新日:** 2026-02-09  
+**テスト対象:** Aspose.3D for Java 24.11  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-02-09  
-**テスト対象:** Aspose.3D for Java 24.11  
-**作者:** Aspose

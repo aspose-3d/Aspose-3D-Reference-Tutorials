@@ -82,23 +82,6 @@ Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 
 ## الأسئلة المتكررة
 
-**س:** *هل يمكنني تحريك عدة كائنات في وقت واحد؟*  
-**ج:** نعم. يمكن لكل كائن أن يمتلك `AnimationTrack` خاصًا به. ستقوم Aspose.3D بعملية الاستيفاء لجميع المسارات معًا أثناء التشغيل.  
-
-**س:** *هل أحتاج إلى كتابة حلقة التصيير الخاصة بي؟*  
-**ج:** لا. توفر Aspose.3D مصممًا مدمجًا. كل ما عليك هو استدعاء `scene.render()` داخل حلقة التطبيق.  
-
-**س:** *هل يمكن تصدير المشهد المتحرك إلى محرك ألعاب؟*  
-**ج:** بالتأكيد. يمكنك التصدير إلى **FBX** أو glTF، وكلاهما يحافظ على بيانات الرسوم المتحركة للاستخدام في Unity أو Unreal أو محركات مخصصة.  
-
-**س:** *كيف يمكنني التحكم في سرعة الرسوم المتحركة؟*  
-**ج:** عدل طريقة `animation.setSpeedFactor(float)` أو غيّر طوابع الوقت للإطارات المفتاحية.  
-
-**س:** *ماذا إذا بدت الرسوم المتحركة متقطعة؟*  
-**ج:** زد عدد الإطارات المفتاحية أو فعّل تنعيم الاستيفاء عبر `animation.setInterpolationMode(InterpolationMode.Spline)`.  
-
-## الأسئلة المتكررة
-
 **س:** كيف أضبط مدة الرسوم المتحركة لمقاطع؟  
 **ج:** استدعِ `animation.setDuration(double seconds)` مباشرةً بعد إنشاء كائن `Animation`.  
 
@@ -121,15 +104,15 @@ Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 ### [إعداد كاميرا مستهدفة للرسوم المتحركة ثلاثية الأبعاد في جافا | درس Aspose.3D](./set-up-target-camera/)
 استكشف رسوم جافا ثلاثية الأبعاد بسهولة مع Aspose.3D. اتبع دليلنا خطوة بخطوة. قم بالتنزيل الآن لرحلة تطوير ثلاثية الأبعاد جذابة.
 
+---
+
+**آخر تحديث:** 2026-02-09  
+**تم الاختبار مع:** Aspose.3D for Java 24.11  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-02-09  
-**تم الاختبار مع:** Aspose.3D for Java 24.11  
-**المؤلف:** Aspose

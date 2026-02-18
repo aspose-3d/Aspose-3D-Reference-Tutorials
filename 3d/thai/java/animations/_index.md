@@ -15,77 +15,61 @@ weight: 20
 
 # วิธีสร้างฉาก 3D แอนิเมชันใน Java
 
-## Introduction
+## บทนำ
 
-If you’re looking to **how to animate 3d** in a Java application, you’ve come to the right place. In this Aspose.3D for Java tutorial series we’ll walk you through everything you need to build an **animated 3D scene**, add motion, life, and cinematic flair to your 3‑D projects. Whether you’re developing a game, a product visualizer, or an interactive simulation, mastering animation—and knowing how to **export animated FBX** files—gives you the edge to deliver compelling user experiences.
+หากคุณกำลังมองหา **วิธีการสร้างแอนิเมชั่น 3 มิติ** ในแอปพลิเคชัน Java คุณมาถูกที่แล้ว ในชุดบทเรียน Aspose.3D สำหรับ Java นี้ เราจะแนะนำทุกสิ่งที่คุณต้องการเพื่อสร้าง **ฉาก 3 มิติแบบเคลื่อนไหว** เพิ่มการเคลื่อนไหว ความมีชีวิตชีวา และความสวยงามแบบภาพยนตร์ให้กับโปรเจ็กต์ 3 มิติของคุณ ไม่ว่าคุณจะกำลังพัฒนาเกม โปรแกรมแสดงภาพผลิตภัณฑ์ หรือการจำลองแบบโต้ตอบ การเชี่ยวชาญด้านแอนิเมชั่น—และรู้วิธี **ส่งออกไฟล์ FBX แบบเคลื่อนไหว**—จะช่วยให้คุณได้เปรียบในการมอบประสบการณ์การใช้งานที่น่าประทับใจ
 
-## Quick Answers
-- **What is the first step to animate 3D in Java?** นำเข้าไลบรารี Aspose.3D และสร้างอ็อบเจ็กต์ `Scene`  
-- **Which class holds animation data?** `Animation` และ `AnimationTrack` คลาสเก็บข้อมูลคีย์เฟรม  
-- **Do I need a separate camera for animations?** กล้องเป้าหมายเป็นตัวเลือก แต่ให้การควบคุมที่แม่นยำต่อการเปลี่ยนมุมมอง  
-- **Is a license required for production?** ใช่, จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์ของ Aspose.3D สำหรับการสร้างที่ไม่ใช่การประเมินผล  
-- **Can I combine multiple animations?** ได้แน่นอน – คุณสามารถวางแทร็กตำแหน่ง, การหมุน, และการสเกลบนโหนดเดียวกัน  
+## คำตอบด่วน
+- **ขั้นตอนแรกในการสร้างแอนิเมชัน 3D ใน Java คืออะไร** นำเข้าไลบรารี Aspose.3D นอกจากนี้อ็อบเจ็กต์ `Scene`
+- **คลาสไหนเก็บข้อมูลแอนิเมชัน** `Animation` และ `AnimationTrack` คลาสที่นี่คีย์คลาส
+- **ฉันจำเป็นต้องมีกล้องแยกต่างหากสำหรับแอนิเมชั่นหรือไม่** กล้องกลุ่มเป้าหมายส่วนใหญ่ให้การควบคุมการตัดสินใจในมุมมอง
+- **จำเป็นต้องมีใบอนุญาตสำหรับการผลิตหรือไม่** สามารถตรวจสอบได้โดยตรงของ Aspose.3D สำหรับการดำเนินการของคุณ
+- **ฉันสามารถรวมหลายแอนิเมชั่นได้หรือไม่** ได้อย่างแน่นอน – ไม่จำเป็นต้องวางตำแหน่ง, ยึด, ส่วนสเกลบนคอนโซลเดียวกัน
 
-## What is “how to animate 3d” in the context of Aspose.3D?
+## “วิธีการสร้างภาพเคลื่อนไหว 3 มิติ” ในบริบทของ Aspose.3D คืออะไร
 
-Animating 3D objects means defining how their properties (position, rotation, scale, material, etc.) change over time. Aspose.3D provides a fluent API that lets you create **keyframe animation Java** sequences, assign them to nodes, and play them back during runtime.
+การสร้างภาพเคลื่อนไหวให้กับวัตถุ 3 มิติหมายถึงการกำหนดว่าคุณสมบัติของวัตถุ (ตำแหน่ง การหมุน ขนาด วัสดุ ฯลฯ) เปลี่ยนแปลงอย่างไรเมื่อเวลาผ่านไป Aspose.3D มี API ที่ใช้งานง่าย ช่วยให้คุณสร้างลำดับภาพเคลื่อนไหวคีย์เฟรมในภาษา Java กำหนดให้กับโหนด และเล่นภาพเคลื่อนไหวเหล่านั้นได้ในระหว่างการทำงาน
 
-## Why use Aspose.3D for Java animations?
-- **Simple, fluent API** – ไม่จำเป็นต้องดำดิ่งเข้าสู่ pipeline กราฟิกระดับต่ำ  
-- **Cross‑platform** – ทำงานบน Windows, Linux, และ macOS  
-- **Rich feature set** – รองรับการแอนิเมตโครงกระดูก, morph targets, และเส้นทางกล้องโดยอัตโนมัติ  
-- **Full control** – รวมหลายแทร็กแอนิเมชันสำหรับการเคลื่อนไหวซับซ้อน, ตั้งระยะเวลาแอนิเมชัน, และ **export animated FBX** ไฟล์สำหรับ pipeline ต่อไป  
+## เหตุใดจึงควรใช้ Aspose.3D สำหรับภาพเคลื่อนไหวในภาษา Java?
 
-## Prerequisites
-- ติดตั้ง Java 8 หรือใหม่กว่า  
-- ไลบรารี Aspose.3D for Java (ดาวน์โหลดจากเว็บไซต์ Aspose)  
-- ใบอนุญาต Aspose.3D ที่ถูกต้องสำหรับการใช้งานในผลิตภัณฑ์ (มีรุ่นทดลองฟรี)  
+- **Simple, fluent API** – ไม่จำเป็นต้องดำดิ่งไปป์ไลน์ที่สีระดับต่ำ
+- **ข้ามแพลตฟอร์ม** – ทำงานบน Windows, Linux, และ macOS
+- **ชุดฟีเจอร์มากมาย** – รองรับการแอนิเมต, morph targets, และเส้นทางกล้องตรวจจับ
+- **การควบคุมเต็มรูปแบบ** – รวมหลาย ๆ ส่วนสำหรับแอนิเมชันสำหรับการติดตาม, และระยะเวลาแอนิเมชัน, และ **ส่งออก FBX แบบเคลื่อนไหว** สำหรับไปป์ไลน์ ถัดไป
 
-## Adding Animation Properties to 3D Scenes in Java
+## ข้อกำหนดเบื้องต้น
+- ติดตั้ง Java8 หรือใหม่กว่า
+- ไลบรารี Aspose.3D สำหรับ Java (ดาวน์โหลดจากเว็บไซต์ Aspose)
+- แล้ว Aspose.3D จำเป็นต้องมีในผลิตภัณฑ์ (มีรุ่นทดลองฟรี)
 
-### [บทแนะนำ Aspose.3D - เพิ่มคุณสมบัติแอนิเมชันให้กับฉาก](./add-animation-properties-to-scenes/)
+## การเพิ่มคุณสมบัติแอนิเมชั่นให้กับฉาก 3 มิติใน Java
 
-In the first leg of our journey, we'll explore how to **how to add animation** to your 3D scenes. Imagine your Java‑based projects coming to life with fluid motions and dynamic effects. Our step‑by‑step tutorial ensures a seamless integration of animation properties, allowing you to breathe vitality into your creations effortlessly. Uncover the magic [ที่นี่](./add-animation-properties-to-scenes/) and witness the transformation of static scenes into animated masterpieces.
+### [บทแนะนำ Aspose.3D - คุณสมบัติแอนิเมชันให้กับฉาก](./add-animation-properties-to-scenes/)
 
-## Setting Up Target Camera for 3D Animations in Java
+ในการเดินทางช่วงแรก เราจะสำรวจวิธี **วิธีเพิ่มแอนิเมชัน** เพิ่มลูกเล่นให้กับฉาก 3 มิติของคุณ ลองจินตนาการถึงโปรเจ็กต์ Java ของคุณที่เคลื่อนไหวได้อย่างลื่นไหลและมีเอฟเฟกต์ไดนามิก คู่มือทีละขั้นตอนของเราจะช่วยให้คุณผสานรวมคุณสมบัติแอนิเมชันได้อย่างราบรื่น ช่วยให้คุณเติมชีวิตชีวาให้กับผลงานสร้างสรรค์ของคุณได้อย่างง่ายดาย ค้นพบเวทมนตร์ [เพิ่ม](./add-animation-properties-to-scenes/) และเป็นพยานในการเปลี่ยนแปลงจากฉากนิ่งๆ ให้กลายเป็นผลงานชิ้นเอกแอนิเมชัน
 
-### [บทแนะนำ Aspose.3D - ตั้งค่ากล้องเป้าหมาย](./set-up-target-camera/)
+## การตั้งค่า Target Camera สำหรับแอนิเมชัน 3 มิติใน Java
 
-Next on our adventure, we dive into the intricacies of setting up a target camera for Java 3D animations. A crucial element in achieving cinematic effects, the target camera opens up a world of possibilities. Our tutorial guides you through the process, offering a clear roadmap for effortless exploration of Java 3D animations. Download now, and let the captivating 3D development journey begin! Explore the tutorial [ที่นี่](./set-up-target-camera/) to unleash the power of visual storytelling in your projects.
+### [บทแนะนำ Aspose.3D - การตั้งค่ากล้องเป้าหมาย](./set-up-target-camera/)
 
-## How to Build an Animated 3D Scene in Java
-Creating an **animated 3D scene** involves three main steps:
+ต่อไปในการผจญภัยของเรา เราจะเจาะลึกรายละเอียดของการตั้งค่า Target Camera สำหรับแอนิเมชัน 3 มิติใน Java ซึ่งเป็นองค์ประกอบสำคัญในการสร้างเอฟเฟกต์แบบภาพยนตร์ Target Camera เปิดโลกแห่งความเป็นไปได้ คู่มือของเราจะแนะนำคุณตลอดกระบวนการ โดยนำเสนอแผนที่เส้นทางที่ชัดเจนสำหรับการสำรวจแอนิเมชัน 3 มิติใน Java อย่างง่ายดาย ดาวน์โหลดเลย และเริ่มต้นการเดินทางการพัฒนา 3 มิติที่น่าหลงใหล! สำรวจบทแนะนำ [ที่นี่](./set-up-target-cam/) เพื่อปลดปล่อยพลังของการเล่าเรื่องด้วยภาพในโครงการของคุณ
 
-1. **Define the geometry** – โหลดหรือสร้างเมช, ไฟ, และกล้อง  
-2. **Create animation tracks** – ระบุคีย์เฟรมสำหรับการแปล, การหมุน, หรือการสเกล  
-3. **Attach tracks to scene nodes** – เอนจินจะทำการอินเทอร์โพเลตค่าระหว่างการเล่น  
+## วิธีสร้างฉาก 3 มิติแบบเคลื่อนไหวใน Java
+การสร้าง **ฉาก 3 มิติแบบเคลื่อนไหว** ประกอบด้วย 3 ขั้นตอนหลัก:
 
-By following the two tutorials above, you’ll have a complete pipeline to **create animated 3D scenes** that can be exported to popular formats like FBX or OBJ. Remember to **set animation duration** with `animation.setDuration(seconds)` so your playback runs exactly as expected.
+1. **Define the Geometry** – ดาวน์โหลดหรือสร้างเมช, ไฟ, และกล้อง
+2. **สร้างแทร็กแอนิเมชั่น** – ระบุคีย์เฟรมสำหรับการแปล, เอกสาร, รับรองสเกล
+3. **แนบแทร็กเข้ากับโหนดฉาก** – เอนจินจะทำอินเทอร์โพเบลล์ค่าระหว่างการเล่น
 
-## Common Pitfalls & Tips
-- **Pitfall:** ลืมตั้งระยะเวลาแอนิเมชัน. *Tip:* เรียก `animation.setDuration(seconds)` เสมอเพื่อกำหนดความยาวการเล่น  
-- **Pitfall:** มองข้ามความจำเป็นในการอัปเดตกราฟฉากหลังจากเพิ่มแอนิเมชัน. *Tip:* เรียก `scene.update()` ก่อนการเรนเดอร์  
-- **Pitfall:** ใช้เวลาคีย์เฟรมที่ไม่เข้ากัน. *Tip:* รักษา timestamp ของคีย์เฟรมทั้งหมดในหน่วยเวลาเดียวกัน (วินาที)  
-- **Pitfall:** สมมติว่าแทร็กเดียวสามารถแอนิเมตหลายวัตถุ. *Tip:* ใช้ **multiple object animation** – แต่ละโหนดจะได้รับ `AnimationTrack` ของตนเอง  
+เมื่อทำตามบทช่วยสอนทั้งสองข้างต้น คุณจะมีขั้นตอนที่สมบูรณ์ในการ **สร้างฉาก 3 มิติแบบเคลื่อนไหว** ที่สามารถส่งออกเป็นรูปแบบยอดนิยม เช่น FBX หรือ OBJ อย่าลืม **กำหนดระยะเวลาของภาพเคลื่อนไหว** ด้วย `animation.setDuration(seconds)` เพื่อให้การเล่นของคุณทำงานได้ตรงตามที่คาดไว้
 
-## Frequently Asked Questions
+## ข้อผิดพลาดและเคล็ดลับทั่วไป
+- **หลุมพราง:** ลืมตั้งระยะเวลาแอนิเมชัน. *เคล็ดลับ:* เรียก `animation.setDuration(seconds)` เสมอเพื่อกำหนดโปรแกรมการเล่นระยะไกล
+- **หลุมพราง:** อ้างถึงเหตุผลในกราฟิคจากเพิ่มแอนิเมชัน *เคล็ดลับ:* เรียก `scene.update()` ก่อนการเรนเดอร์
+- **Pitfall:** เชิญคีย์ทัวร์ที่ไม่เข้ากัน *เคล็ดลับ:* รักษาการประทับเวลาของคีย์การขนส่งหน่วยเวลาเดียวกัน (วินาที)
+- **หลุมพราง:** เพียวเพียวๆ ก็สามารถแอนิเมตหลายวัตถุได้ *เคล็ดลับ:* ใช้ **ภาพเคลื่อนไหวหลายวัตถุ** – เพื่อให้เป็นไปตาม `AnimationTrack` ของเรา
 
-**Q:** *ฉันสามารถแอนิเมตหลายวัตถุพร้อมกันได้หรือไม่?*  
-**A:** ใช่. แต่ละวัตถุสามารถมี `AnimationTrack` ของตนเอง. Aspose.3D จะทำการอินเทอร์โพเลตทุกแทร็กพร้อมกันระหว่างการเล่น  
-
-**Q:** *ฉันต้องเขียนลูปการเรนเดอร์ของตนเองหรือไม่?*  
-**A:** ไม่. Aspose.3D มีเรนเดอร์ในตัว. คุณเพียงแค่เรียก `scene.render()` ภายในลูปแอปพลิเคชันของคุณ  
-
-**Q:** *สามารถส่งออกฉากแอนิเมตไปยังเกมเอนจินได้หรือไม่?*  
-**A:** แน่นอน. ส่งออกเป็น **FBX** หรือ glTF, ทั้งสองรูปแบบเก็บข้อมูลแอนิเมชันสำหรับใช้ใน Unity, Unreal, หรือเอนจินที่กำหนดเอง  
-
-**Q:** *ฉันจะควบคุมความเร็วของแอนิเมชันได้อย่างไร?*  
-**A:** ปรับเมธอด `animation.setSpeedFactor(float)` หรือแก้ไข timestamp ของคีย์เฟรม  
-
-**Q:** *ถ้าแอนิเมชันของฉันดูกระตุกล่ะ?*  
-**A:** เพิ่มจำนวนคีย์เฟรมหรือเปิดใช้งานการทำให้เรียบของอินเทอร์โพเลชันด้วย `animation.setInterpolationMode(InterpolationMode.Spline)`  
-
-## FAQ
+## คำถามที่พบบ่อย
 
 **Q:** วิธีตั้งระยะเวลาแอนิเมชันสำหรับคลิป?  
 **A:** เรียก `animation.setDuration(double seconds)` ทันทีหลังจากสร้างอ็อบเจ็กต์ `Animation`  
@@ -102,12 +86,18 @@ By following the two tutorials above, you’ll have a complete pipeline to **cre
 **Q:** มีข้อควรพิจารณาด้านประสิทธิภาพสำหรับฉากแอนิเมตขนาดใหญ่หรือไม่?  
 **A:** ควรรักษาจำนวนคีย์เฟรมให้เหมาะสม, ใช้แทร็กแอนิเมชันที่แชร์ได้เมื่อเป็นไปได้, และเรียก `scene.optimize()` ก่อนการเรนเดอร์  
 
-## Working with Animations in Java Tutorials
+## บทเรียนการทำงานกับแอนิเมชันใน Java
 ### [เพิ่มคุณสมบัติแอนิเมชันให้กับฉาก 3D ใน Java | บทแนะนำ Aspose.3D](./add-animation-properties-to-scenes/)
 เพิ่มพลังให้กับโครงการ 3D ที่ใช้ Java ของคุณด้วย Aspose.3D. ทำตามบทแนะนำของเราเพื่อเพิ่มคุณสมบัติแอนิเมชันอย่างไร้รอยต่อ
 
 ### [ตั้งค่ากล้องเป้าหมายสำหรับแอนิเมชัน 3D ใน Java | บทแนะนำ Aspose.3D](./set-up-target-camera/)
 สำรวจแอนิเมชัน 3D ใน Java อย่างง่ายดายด้วย Aspose.3D. ทำตามบทแนะนำของเราเพื่อรับคู่มือขั้นตอนต่อขั้นตอน. ดาวน์โหลดตอนนี้เพื่อเริ่มการเดินทางพัฒนาการ 3D ที่น่าตื่นเต้น
+
+---
+
+**อัปเดตล่าสุด:** 2026-02-09  
+**ทดสอบด้วย:** Aspose.3D for Java 24.11  
+**ผู้เขียน:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -115,9 +105,3 @@ By following the two tutorials above, you’ll have a complete pipeline to **cre
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-02-09  
-**ทดสอบด้วย:** Aspose.3D for Java 24.11  
-**ผู้เขียน:** Aspose

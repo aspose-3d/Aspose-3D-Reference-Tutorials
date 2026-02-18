@@ -10,28 +10,6 @@ url: /hi/java/geometry/apply-pbr-materials-to-objects/
 weight: 10
 ---
 
- start constructing.
-
-First three shortcodes lines remain unchanged.
-
-Then heading "# Create 3D Scene Java – Apply PBR Materials with Aspose.3D" translate to Hindi but keep numbers and Aspose.3D unchanged. So "# जावा में 3D सीन बनाएं – Aspose.3D के साथ PBR मैटेरियल लागू करें"
-
-Similarly subheadings.
-
-Proceed.
-
-We need to translate tables: left column "Use case", "How the tutorial helps". Keep them English? Should translate to Hindi but keep technical terms. Probably translate to Hindi: "उपयोग केस", "ट्यूटोरियल कैसे मदद करता है". But keep table formatting.
-
-Similarly FAQ.
-
-Let's produce final content.
-
-Be careful with markdown tables: need to keep pipe separators.
-
-Also need to translate bullet lists.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

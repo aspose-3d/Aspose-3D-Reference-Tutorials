@@ -48,14 +48,14 @@ import com.aspose.threed.*;
 
 ```
 
-## Step 1: Initialize the Scene Object
+## 1단계: 씬 오브젝트 초기화
 
 ```java
 // Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Step 2: Create Child Nodes and Add Mesh to Node
+## 2단계: 자식 노드 생성 및 노드에 메시 추가
 
 이 단계에서는 **how to create child nodes**와 **add mesh to node** 객체를 만드는 방법을 보여줍니다.
 
@@ -75,7 +75,7 @@ cube2.setEntity(mesh);
 cube2.getTransform().setTranslation(new Vector3(10, 0, 0));
 ```
 
-## Step 3: Apply Rotation to the Top Node
+## 3단계: 최상위 노드에 회전 적용
 
 부모 노드를 회전하면 모든 자식 노드가 자동으로 회전합니다. 이는 계층형 씬의 핵심 장점입니다.
 
@@ -84,7 +84,7 @@ cube2.getTransform().setTranslation(new Vector3(10, 0, 0));
 top.getTransform().setRotation(Quaternion.fromEulerAngle(Math.PI, 4, 0));
 ```
 
-## Step 4: Save the 3D Scene – How to Export FBX
+## 4단계: 3D 씬 저장 - FBX 내보내기 방법
 
 이제 **save scene as FBX**를 수행하여 “how to export FBX” 워크플로우를 완성합니다.
 
@@ -96,18 +96,18 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nNode hierarchy added successfully to document.\nFile saved at " + MyDir);
 ```
 
-### Expected Result
+### 예상 결과
 코드를 실행하면 지정된 디렉터리에 **NodeHierarchy.fbx** 파일이 생성됩니다. FBX‑호환 뷰어에서 열면 중앙 피벗을 기준으로 좌우에 배치된 두 개의 큐브가 모두 함께 회전하는 모습을 확인할 수 있습니다.
 
-## Common Issues and Solutions
+## 일반적인 문제 및 해결 방법
 
-| Issue | Why it Happens | Fix |
+| 문제 | 발생 원인 | 해결 방법 |
 |-------|----------------|-----|
 | **File not found** error when saving | `MyDir` 경로가 잘못되었거나 끝에 구분자가 누락됨 | 디렉터리가 존재하고 파일 구분자(`/` 또는 `\\`)로 끝나는지 확인하세요. |
 | **Mesh not visible** after export | 메시 엔티티가 할당되지 않았거나 변환값이 화면 밖으로 이동 | `cube1.setEntity(mesh)`를 확인하고 변환 값을 점검하세요. |
 | **Rotation looks wrong** | 라디안과 디그리 사용을 혼동 | `Quaternion.fromEulerAngle`은 라디안을 기대하므로 값을 적절히 조정하세요. |
 
-## Frequently Asked Questions
+## 자주 묻는 질문
 
 **Q: Aspose.3D for Java가 초보자에게 적합한가요?**  
 A: 물론입니다! API는 깔끔하고 객체 지향적인 설계로 되어 있어 3D 프로그래밍을 처음 접하는 분들도 쉽게 배울 수 있습니다.

@@ -15,36 +15,36 @@ weight: 18
 
 # Cara Membuat UV – Menerapkan Koordinat UV pada Objek 3D di Java dengan Aspose.3D
 
-## Introduction
+## Perkenalan
 
-Selamat datang di tutorial komprehensif ini tentang **cara membuat UV** dan menerapkan koordinat UV pada objek 3D di Java menggunakan Aspose.3D. Dalam dunia grafis 3D, koordinat UV memainkan peran penting dalam **map textures java**, memungkinkan Anda menambahkan koordinat tekstur yang memberikan realisme pada model Anda. Panduan ini akan memandu Anda melalui setiap langkah, sehingga Anda dapat mulai memberi tekstur pada objek Anda dengan percaya diri.
+Selamat datang di tutorial komprehensif ini tentang **cara membuat UV** dan menerapkan koordinat UV pada objek 3D di Java menggunakan Aspose.3D. Dalam dunia grafis 3D, koordinat UV memainkan peran penting dalam **peta tekstur java**, memungkinkan Anda menambahkan tekstur koordinat yang memberikan realisme pada model Anda. Panduan ini akan memandu Anda melalui setiap langkah, sehingga Anda dapat mulai memberi tekstur pada objek Anda dengan percaya diri.
 
-## Quick Answers
-- **Apa tujuan utama?** Pelajari cara membuat UV dan memetakan tekstur ke geometri 3D.  
-- **Pustaka mana yang digunakan?** Aspose.3D untuk Java.  
-- **Apakah saya memerlukan lisensi?** Versi trial gratis cukup untuk pengembangan; lisensi diperlukan untuk produksi.  
-- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk kubus dasar.  
-- **Bisakah saya menggunakan ini dengan bentuk lain?** Ya – prinsip yang sama berlaku untuk mesh apa pun.
+## Jawaban Cepat
+- **Apa tujuan utama?** Pelajari cara membuat UV dan memetakan tekstur ke geometri 3D.
+- **Pustaka mana yang digunakan?** Aspose.3D untuk Java.
+- **Apakah saya memerlukan lisensi?** Versi uji coba gratis cukup untuk pengembangan; lisensi diperlukan untuk produksi.
+- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk kubus dasar.
+- ** ingin saya menggunakan ini dengan bentuk lain? ** Ya – prinsip yang sama berlaku untuk mesh apa pun.
 
-## Apa itu UV Mapping dan Mengapa Anda Perlu Membuat UV?
+## Apa itu Pemetaan UV dan Mengapa Anda Perlu Membuat UV?
 
-UV mapping adalah proses memproyeksikan gambar 2‑D (tekstur) ke permukaan 3‑D. Dengan mendefinisikan **koordinat UV**, Anda memberi tahu renderer bagian mana dari tekstur yang menjadi milik setiap vertex. Tanpa UV yang tepat, tekstur akan tampak meregang, salah tempat, atau bahkan tidak terlihat sama sekali.
+Pemetaan UV adalah proses memproyeksikan gambar 2‑D (tekstur) ke permukaan 3‑D. Dengan mendefinisikan **koordinat UV**, Anda memberi tahu renderer bagian mana dari tekstur yang menjadi milik setiap vertex. Tanpa UV yang tepat, tekstur akan tampak meregang, salah tempat, atau bahkan tidak terlihat sama sekali.
 
-## Mengapa Menggunakan Aspose.3D untuk UV Mapping di Java?
+## Mengapa Menggunakan Aspose.3D untuk Pemetaan UV di Java?
 
-- **Cross‑platform**: Bekerja pada lingkungan Java apa pun yang kompatibel.  
-- **Rich API**: Menyediakan kelas tingkat tinggi seperti `VertexElementUV` yang menyederhanakan penanganan UV.  
-- **Performance‑oriented**: Dioptimalkan untuk adegan besar dan model kompleks.  
+- **Lintas‑platform**: Bekerja di lingkungan Java apa pun yang kompatibel.
+- **Rich API**: Menyediakan kelas tingkat tinggi seperti `VertexElementUV` yang menyebabkan penanganan UV.
+- **Berorientasi pada kinerja**: Dioptimalkan untuk adegan besar dan model kompleks.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki:
 
-- **Lingkungan Pengembangan Java** – JDK 8+ terpasang dan terkonfigurasi.  
-- **Pustaka Aspose.3D** – Unduh JAR terbaru dari situs resmi [di sini](https://releases.aspose.com/3d/java/).  
-- **Pengetahuan Dasar 3D** – Familiaritas dengan mesh, vertex, dan konsep tekstur akan membantu Anda mengikuti.
+- **Lingkungan Pengembangan Java** – JDK 8+ terpasang dan terkonfigurasi.
+- **Pustaka Aspose.3D** – Unduh JAR terbaru dari situs resmi [di sini](https://releases.aspose.com/3d/java/).
+- **Pengetahuan Dasar 3D** – Familiaritas dengan mesh, vertex, dan konsep tekstur akan membantu Anda mengikutinya.
 
-## Import Packages
+## Impor Paket
 
 Pada langkah ini, kami mengimpor paket yang diperlukan untuk memulai perjalanan UV‑mapping kami. Pustaka Aspose.3D menyediakan alat yang kami butuhkan untuk bekerja dengan objek 3‑D di Java.
 

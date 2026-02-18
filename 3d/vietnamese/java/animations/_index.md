@@ -68,23 +68,6 @@ Bằng cách làm theo hai tutorial ở trên, bạn sẽ có một pipeline ho�
 - **Sai lầm:** Sử dụng thời gian key‑frame không tương thích. *Mẹo:* Giữ tất cả timestamp key‑frame ở cùng một đơn vị thời gian (giây).  
 - **Sai lầm:** Giả định một track duy nhất có thể animate nhiều đối tượng. *Mẹo:* Sử dụng **multiple object animation** – mỗi node có `AnimationTrack` riêng.
 
-## Câu Hỏi Thường Gặp
-
-**Hỏi:** *Tôi có thể animate nhiều đối tượng đồng thời không?*  
-**Đáp:** Có. Mỗi đối tượng có thể có `AnimationTrack` riêng. Aspose.3D sẽ nội suy tất cả các track cùng nhau trong quá trình phát lại.
-
-**Hỏi:** *Tôi có cần viết vòng lặp render của riêng mình không?*  
-**Đáp:** Không. Aspose.3D cung cấp một renderer tích hợp. Bạn chỉ cần gọi `scene.render()` trong vòng lặp ứng dụng của mình.
-
-**Hỏi:** *Có thể xuất cảnh animation sang một engine game không?*  
-**Đáp:** Chắc chắn. Xuất ra **FBX** hoặc glTF, cả hai đều giữ lại dữ liệu animation để sử dụng trong Unity, Unreal hoặc các engine tùy chỉnh.
-
-**Hỏi:** *Làm sao kiểm soát tốc độ animation?*  
-**Đáp:** Điều chỉnh phương thức `animation.setSpeedFactor(float)` hoặc sửa đổi các timestamp key‑frame.
-
-**Hỏi:** *Nếu animation của tôi trông giật lag thì sao?*  
-**Đáp:** Tăng số lượng key‑frame hoặc bật smoothing nội suy bằng `animation.setInterpolationMode(InterpolationMode.Spline)`.
-
 ## FAQ
 
 **Hỏi:** *Làm sao đặt thời lượng cho một clip animation?*  
@@ -109,15 +92,15 @@ Nâng cao các dự án 3D dựa trên Java của bạn với Aspose.3D. Thực 
 ### [Cài Đặt Camera Mục Tiêu cho Animation 3D trong Java | Aspose.3D Tutorial](./set-up-target-camera/)
 Khám phá các animation 3D Java một cách dễ dàng với Aspose.3D. Thực hiện tutorial của chúng tôi để có hướng dẫn từng bước. Tải ngay để có một hành trình phát triển 3D đầy cuốn hút.
 
+---
+
+**Cập nhật lần cuối:** 2026-02-09  
+**Đã kiểm tra với:** Aspose.3D for Java 24.11  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-02-09  
-**Đã kiểm tra với:** Aspose.3D for Java 24.11  
-**Tác giả:** Aspose

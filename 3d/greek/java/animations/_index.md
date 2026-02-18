@@ -68,23 +68,6 @@ Creating an **animated 3D scene** involves three main steps:
 - **Pitfall:** Χρήση ασυμβίβαστων χρόνων key‑frame. *Tip:* Διατηρήστε όλα τα timestamps των key‑frame στην ίδια μονάδα χρόνου (δευτερόλεπτα).  
 - **Pitfall:** Υποθέτετε ότι ένα μόνο track μπορεί να animate πολλαπλά objects. *Tip:* Χρησιμοποιήστε **multiple object animation** – κάθε node λαμβάνει το δικό του `AnimationTrack`.  
 
-## Συχνές Ερωτήσεις
-
-**Q:** *Μπορώ να animate πολλαπλά objects ταυτόχρονα;*  
-**A:** Ναι. Κάθε object μπορεί να έχει το δικό του `AnimationTrack`. Το Aspose.3D θα παρεμβάλει όλα τα tracks μαζί κατά την αναπαραγωγή.
-
-**Q:** *Χρειάζεται να γράψω το δικό μου render loop;*  
-**A:** Όχι. Το Aspose.3D παρέχει ενσωματωμένο renderer. Χρειάζεται μόνο να καλέσετε `scene.render()` μέσα στον βρόχο της εφαρμογής σας.
-
-**Q:** *Μπορεί να εξαχθεί η animated σκηνή σε game engine;*  
-**A:** Απόλυτα. Εξάγετε σε **FBX** ή glTF, και τα δύο διατηρούν τα δεδομένα animation για χρήση σε Unity, Unreal ή προσαρμοσμένες μηχανές.
-
-**Q:** *Πώς ελέγχω την ταχύτητα της animation;*  
-**A:** Προσαρμόστε τη μέθοδο `animation.setSpeedFactor(float)` ή τροποποιήστε τα timestamps των key‑frame.
-
-**Q:** *Τι κάνω αν η animation φαίνεται ακανόνιστη;*  
-**A:** Αυξήστε τον αριθμό των key‑frames ή ενεργοποιήστε το interpolation smoothing μέσω `animation.setInterpolationMode(InterpolationMode.Spline)`.
-
 ## FAQ
 
 **Q: Πώς ορίζω τη διάρκεια της animation για ένα clip;**  
@@ -109,15 +92,15 @@ A: Διατηρήστε λογικό αριθμό key‑frames, επαναχρη
 ### [Set Up Target Camera για 3D Animations σε Java | Aspose.3D Tutorial](./set-up-target-camera/)
 Εξερευνήστε τις Java 3D animations χωρίς κόπο με το Aspose.3D. Ακολουθήστε το tutorial μας για έναν βήμα‑βήμα οδηγό. Κατεβάστε το τώρα για ένα συναρπαστικό ταξίδι ανάπτυξης 3D.
 
+---
+
+**Τελευταία ενημέρωση:** 2026-02-09  
+**Δοκιμή με:** Aspose.3D for Java 24.11  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2026-02-09  
-**Δοκιμή με:** Aspose.3D for Java 24.11  
-**Συγγραφέας:** Aspose

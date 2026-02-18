@@ -71,23 +71,6 @@ weight: 20
 
 ## 常見問答
 
-**Q:** *我可以同時動畫多個物件嗎？*  
-**A:** 可以。每個物件都可以擁有自己的 `AnimationTrack`。Aspose.3D 會在播放時一起內插所有軌跡。
-
-**Q:** *我需要自行撰寫渲染迴圈嗎？*  
-**A:** 不需要。Aspose.3D 提供內建的渲染器。你只需在應用程式迴圈中呼叫 `scene.render()`。
-
-**Q:** *可以將動畫場景匯出至遊戲引擎嗎？*  
-**A:** 當然可以。匯出為 **FBX** 或 glTF，兩者皆保留動畫資料，可用於 Unity、Unreal 或自訂引擎。
-
-**Q:** *如何控制動畫速度？*  
-**A:** 調整 `animation.setSpeedFactor(float)` 方法或修改關鍵影格時間戳記。
-
-**Q:** *如果動畫看起來卡頓怎麼辦？*  
-**A:** 增加關鍵影格數量，或透過 `animation.setInterpolationMode(InterpolationMode.Spline)` 啟用內插平滑。
-
-## 常見問答
-
 **Q:** 如何為剪輯設定動畫持續時間？  
 A: 在建立 `Animation` 物件後立即呼叫 `animation.setDuration(double seconds)`。
 
@@ -111,15 +94,15 @@ A: 保持關鍵影格數量適中，盡可能重用共享動畫軌跡，並在�
 ### [在 Java 中為 3D 動畫設定目標相機 | Aspose.3D 教學](./set-up-target-camera/)
 使用 Aspose.3D 輕鬆探索 Java 3D 動畫。依循我們的教學，獲得逐步指引。立即下載，開啟引人入勝的 3D 開發之旅。
 
+---
+
+**最後更新：** 2026-02-09  
+**測試環境：** Aspose.3D for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-02-09  
-**測試環境：** Aspose.3D for Java 24.11  
-**作者：** Aspose

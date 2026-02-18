@@ -9,18 +9,7 @@ title: Crear una escena 3D animada en Java – Tutorial de Aspose.3D
 url: /es/java/animations/
 weight: 20
 ---
-
- 2026-02-09" keep same.
-
-"**Tested With:** Aspose.3D for Java 24.11" keep.
-
-"**Author:** Aspose" keep.
-
-All good.
-
-Now produce final content with translations. Ensure we preserve markdown formatting, shortcodes, links, code blocks (none). No extra explanations.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -81,23 +70,6 @@ Siguiendo los dos tutoriales anteriores, tendrás una canalización completa par
 
 ## Preguntas frecuentes
 
-**P:** *¿Puedo animar varios objetos simultáneamente?*  
-**R:** Sí. Cada objeto puede tener su propio `AnimationTrack`. Aspose.3D interpolará todas las pistas juntas durante la reproducción.
-
-**P:** *¿Necesito escribir mi propio bucle de renderizado?*  
-**R:** No. Aspose.3D proporciona un renderizador incorporado. Sólo necesitas llamar a `scene.render()` dentro del bucle de tu aplicación.
-
-**P:** *¿Es posible exportar la escena animada a un motor de juego?*  
-**R:** Absolutamente. Exporta a **FBX** o glTF, ambos preservan los datos de animación para su uso en Unity, Unreal o motores personalizados.
-
-**P:** *¿Cómo controlo la velocidad de la animación?*  
-**R:** Ajusta el método `animation.setSpeedFactor(float)` o modifica las marcas de tiempo de los fotogramas clave.
-
-**P:** *¿Qué pasa si mi animación se ve entrecortada?*  
-**R:** Incrementa el número de fotogramas clave o habilita el suavizado de interpolación mediante `animation.setInterpolationMode(InterpolationMode.Spline)`.
-
-## Preguntas frecuentes
-
 **P: ¿Cómo establezco la duración de la animación para un clip?**  
 R: Llama a `animation.setDuration(double seconds)` justo después de crear el objeto `Animation`.
 
@@ -121,15 +93,15 @@ Mejora tus proyectos 3D basados en Java con Aspose.3D. Sigue nuestro tutorial pa
 ### [Configurar cámara objetivo para animaciones 3D en Java | Tutorial Aspose.3D](./set-up-target-camera/)
 Explora las animaciones 3D en Java sin esfuerzo con Aspose.3D. Sigue nuestro tutorial paso a paso. Descarga ahora para un cautivador viaje de desarrollo 3D.
 
+---
+
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose

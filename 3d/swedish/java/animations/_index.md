@@ -68,23 +68,6 @@ Genom att följa de två handledningarna ovan får du en komplett pipeline för 
 - **Pitfall:** Använder inkompatibla nyckelramstider. *Tip:* Håll alla nyckelramstidsstämplar i samma tidsenhet (sekunder).  
 - **Pitfall:** Antar att ett enda spår kan animera flera objekt. *Tip:* Använd **multiple object animation** – varje nod får sitt eget `AnimationTrack`.  
 
-## Vanliga frågor
-
-**Q:** *Kan jag animera flera objekt samtidigt?*  
-**A:** Ja. Varje objekt kan ha sitt eget `AnimationTrack`. Aspose.3D interpolerar alla spår tillsammans under uppspelning.
-
-**Q:** *Behöver jag skriva min egen render‑loop?*  
-**A:** Nej. Aspose.3D tillhandahåller en inbyggd renderare. Du behöver bara anropa `scene.render()` i din applikationsloop.
-
-**Q:** *Är det möjligt att exportera den animerade scenen till en spelmotor?*  
-**A:** Absolut. Exportera till **FBX** eller glTF, båda bevarar animationsdata för användning i Unity, Unreal eller anpassade motorer.
-
-**Q:** *Hur kontrollerar jag animationshastigheten?*  
-**A:** Justera metoden `animation.setSpeedFactor(float)` eller ändra nyckelramstidsstämplarna.
-
-**Q:** *Vad gör jag om min animation ser hackig ut?*  
-**A:** Öka antalet nyckelramar eller aktivera interpolationsutjämning via `animation.setInterpolationMode(InterpolationMode.Spline)`.
-
 ## FAQ
 
 **Q: Hur sätter jag animationslängd för ett klipp?**  
@@ -109,15 +92,15 @@ Förbättra dina Java‑baserade 3D‑projekt med Aspose.3D. Följ vår handledn
 ### [Set Up Target Camera for 3D Animations in Java | Aspose.3D Tutorial](./set-up-target-camera/)
 Utforska Java 3D‑animationer enkelt med Aspose.3D. Följ vår handledning för en steg‑för‑steg‑guide. Ladda ner nu för en fängslande 3D‑utvecklingsresa.
 
+---
+
+**Senast uppdaterad:** 2026-02-09  
+**Testat med:** Aspose.3D for Java 24.11  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-02-09  
-**Testat med:** Aspose.3D for Java 24.11  
-**Författare:** Aspose

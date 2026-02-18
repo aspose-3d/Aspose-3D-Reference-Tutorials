@@ -1,5 +1,5 @@
 ---
-title: "Create 3D Scene Java: Apply PBR Materials with Aspose.3D"
+title: "Create 3D Scene Java - Apply PBR Materials with Aspose.3D"
 linktitle: "Create 3D Scene Java – Apply PBR Materials with Aspose.3D"
 second_title: "Aspose.3D Java API"
 description: "Learn how to create 3D scene java, apply realistic PBR materials using Aspose.3D, and save the 3D model STL for rendering 3D objects in Java."

@@ -15,52 +15,52 @@ weight: 16
 
 # FBX Nasıl Dışa Aktarılır ve Java’da Aspose.3D ile Düğüm Hiyerarşileri Nasıl Oluşturulur
 
-## Introduction
+## Giriiş
 
-Eğer bir Java uygulamasından **FBX nasıl dışa aktarılır** konusunda net, adım‑adım bir kılavuz arıyorsanız doğru yerdesiniz. Bu öğreticide, düğüm hiyerarşileri oluşturmayı, **düğüme mesh eklemeyi** ve son olarak sahneyi Aspose.3D Java API’si kullanarak bir FBX dosyası olarak kaydetmeyi göstereceğiz. İster basit bir prototip, ister üretim‑hazır bir 3D motoru oluşturuyor olun, bu teknikler sahne grafiğiniz üzerinde tam kontrol sağlar.
+Eğer bir Java aktarılırsa **FBX nasıl aktarılır** konusunda net, adım‑adım bir gezinme doğru yerdesiniz. Bu öğreticide, düğüm yöntemleri oluşturmayı, **düğüme mesh eklemeyi** ve son olarak sahneyi Aspose.3D Java API’si kullanarak bir FBX dosyasını olarak kaydetmeyi gösteririz. İster basit bir prototip, ister üretim‑hazır bir 3D motoru oluşturulsun, bu teknikler sahne grafiğiniz üzerinde tam kontrol sağlar.
 
-## Quick Answers
-- **Bu öğreticinin temel amacı nedir?** Düğüm hiyerarşileri oluşturduktan sonra FBX dışa aktarmayı göstermek.  
-- **Hangi kütüphane kullanılıyor?** Aspose.3D for Java.  
-- **Bir lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
-- **Hangi dosya formatı üretilir?** FBX (ASCII 7500).  
-- **Düğüm dönüşümlerini özelleştirebilir miyim?** Evet – çeviri, döndürme ve ölçekleme tümü desteklenir.
+## Hızlı Yanıtlar
+- **Bu öğretmenin temel amacı nedir?** Düğüm gösterileri oluşturulduktan sonra FBX'in genişletilmesini göstermek.
+- **Hangi kütüphanesi kullanılıyor?** Aspose.3D for Java.
+- **Bir lisansa ihtiyacı var mı?** Geliştirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.
+- **Hangi dosya formatı üretildi mi?** FBX (ASCII 7500).
+- **Düğüm dönüşümlerini özelleştirebilir miyim?** Evet – çeviri, döndürme ve ölçekleme toplamı desteklenir.
 
-## What is “how to export FBX” in the context of Aspose.3D?
+## Aspose.3D bağlamında "FBX nasıl dışa aktarılır" nedir?
 
-FBX dışa aktarmak, Aspose.3D ile oluşturduğunuz bellek içi sahne grafiğini, Blender, Maya veya Unity gibi popüler 3D araçlarında açılabilen bir FBX dosyasına dönüştürmek anlamına gelir. API ağır işleri halleder, böylece sahne oluşturma üzerine odaklanabilirsiniz.
+FBX aktarma aktarımı, Aspose.3D ile oluşturulabilen bellek içi sahne grafiği, Blender, Maya veya Unity gibi popüler 3D araçlarında açılabilir bir FBX dosyasına dönüştürülebilir gelir. API ağır işleri halleder, böylece sahne oluşturma üzerine odaklanabilirsiniz.
 
-## Why build node hierarchies before exporting?
+## Dışa aktarmadan önce neden düğüm hiyerarşileri oluşturmalısınız?
 
-İyi yapılandırılmış bir düğüm hiyerarşisi, dönüşümleri bir üst düğümde bir kez uygulamanıza olanak tanır ve tüm alt düğümleri otomatik olarak etkiler. Bu, kod tekrarını azaltır ve gerçek dünyadaki nesne ilişkilerini (ör. bir araba şasisi ve tekerlekleri alt düğüm olarak) yansıtır.
+İyi düğümleme bir düğüm değiştirmesi, dönüşümleri bir üst düğümde bir kez uygulamanıza olanak tanır ve tüm alt düğümleri otomatik olarak etkiler. Bu, kodun tekrarını parçalara ayırır ve gerçek anlamda nesnel olarak (ör. bir araba şasisi ve tekerlekleri alt düğüm olarak) yansıtır.
 
-## Prerequisites
+## Önkoşullar
 
-Başlamadan önce şunlara sahip olduğunuzdan emin olun:
+Başlamadan önce yaşamış olduğunuzdan emin olun:
 
-1. **Java Geliştirme Ortamı** – JDK 8+ ve tercih ettiğiniz bir IDE veya derleme aracı.  
-2. **Aspose.3D for Java Kütüphanesi** – Kütüphaneyi [download page](https://releases.aspose.com/3d/java/) adresinden indirin ve kurun.  
-3. **Belge Dizini** – Oluşturulan FBX dosyasının kaydedileceği bilgisayarınızdaki bir klasör.
+1. **Java Geliştirme Ortamı** – JDK8+ ve bir IDE veya derleme aracı tercih ettiniz.
+2. **Aspose.3D for Java Kütüphanesi** – Kütüphaneyi [indirme sayfası](https://releases.aspose.com/3d/java/) adresinden indirip kurun.
+3. **Belge Dizini** – Oluşturulan FBX dosyalarının bilgisayarda kaydedileceği bir dizüstü bilgisayar.
 
-## Import Packages
+## Paketleri İçe Aktar
 
-Begin by importing the necessary Aspose.3D classes:
+Gerekli Aspose.3D sınıflarını içe aktararak başlayın:
 
 ```java
 import com.aspose.threed.*;
 
 ```
 
-## Step 1: Initialize the Scene Object
+## Adım 1: Sahne Nesnesini Başlatma
 
 ```java
 // Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Step 2: Create Child Nodes and Add Mesh to Node
+## Adım 2: Alt Düğümler Oluşturma ve Düğüme Mesh Ekleme
 
-In this step we demonstrate **how to create child nodes** and **add mesh to node** objects.
+Bu adımda, **alt düğümlerin nasıl oluşturulacağını** ve **düğüme mesh eklemenin** nasıl yapılacağını gösteriyoruz.
 
 ```java
 // Get a child node object
@@ -78,18 +78,18 @@ cube2.setEntity(mesh);
 cube2.getTransform().setTranslation(new Vector3(10, 0, 0));
 ```
 
-## Step 3: Apply Rotation to the Top Node
+## Adım 3: Üst Düğüme Döndürme Uygulama
 
-Rotating the parent node automatically rotates all its children, which is a core advantage of hierarchical scenes.
+Üst düğümü döndürmek, hiyerarşik sahnelerin temel avantajlarından biri olan tüm alt düğümlerini otomatik olarak döndürür.
 
 ```java
 // Rotate the top node, affecting all child nodes
 top.getTransform().setRotation(Quaternion.fromEulerAngle(Math.PI, 4, 0));
 ```
 
-## Step 4: Save the 3D Scene – How to Export FBX
+## Adım 4: 3B Sahneyi Kaydetme – FBX Olarak Dışa Aktarma
 
-Now we **save scene as FBX**, completing the “how to export FBX” workflow.
+Şimdi **sahneyi FBX olarak kaydediyoruz**, böylece “FBX olarak dışa aktarma” iş akışını tamamlıyoruz.
 
 ```java
 // Save 3D scene in the supported file format (FBX in this case)
@@ -99,43 +99,47 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nNode hierarchy added successfully to document.\nFile saved at " + MyDir);
 ```
 
-### Expected Result
-Running the code creates a file named **NodeHierarchy.fbx** in the specified directory. Open it in any FBX‑compatible viewer to see two cubes positioned left and right of a central pivot, all rotating together.
+### Beklenen Sonuç
+Kodun çalıştırılması, belirtilen dizinde **NodeHierarchy.fbx** adlı bir dosya oluşturur. Bu dosyayı herhangi bir FBX uyumlu görüntüleyicide açarak, merkezi bir pivotun solunda ve sağında konumlandırılmış, birlikte dönen iki küpü görebilirsiniz.
 
-## Common Issues and Solutions
+## Sık Karşılaşılan Sorunlar ve Çözümler
 
 | Sorun | Neden Oluşur | Çözüm |
+
 |-------|----------------|-----|
-| **File not found** error when saving | `MyDir` path is incorrect or missing a trailing separator | Ensure the directory exists and ends with a file separator (`/` or `\\`). |
-| **Mesh not visible** after export | Mesh entity not assigned or translation moves it out of view | Verify `cube1.setEntity(mesh)` and check translation values. |
-| **Rotation looks wrong** | Using radians vs. degrees incorrectly | `Quaternion.fromEulerAngle` expects radians; adjust values accordingly. |
 
-## Frequently Asked Questions
+| Kaydederken **Dosya bulunamadı** hatası | `MyDir` yolu yanlış veya sondaki ayırıcı eksik | Dizinin mevcut olduğundan ve dosya ayırıcıyla (`/` veya `\\`) bittiğinden emin olun. |
 
-**Q: Aspose.3D for Java yeni başlayanlar için uygun mu?**  
-A: Kesinlikle! API, temiz ve nesne‑yönelimli bir yaklaşımla tasarlanmıştır; 3D programlamaya yeni olsanız bile öğrenmesi kolaydır.
+| Dışa aktardıktan sonra **Ağ görünmüyor** | Ağ varlığı atanmamış veya çeviri onu görünümden çıkarıyor | `cube1.setEntity(mesh)`'i doğrulayın ve çeviri değerlerini kontrol edin. |
 
-**Q: Aspose.3D for Java’yı ticari projelerde kullanabilir miyim?**  
-A: Evet, kullanabilirsiniz. Lisans detayları için [purchase page](https://purchase.aspose.com/buy) adresini ziyaret edin.
+| **Döndürme yanlış görünüyor** | Radyan ve derece yanlış kullanılıyor | `Quaternion.fromEulerAngle` radyan bekliyor; değerleri buna göre ayarlayın. |
 
-**Q: Aspose.3D for Java için destek nasıl alınır?**  
-A: Topluluk ve Aspose destek ekibinden yardım almak için [Aspose.3D forum](https://forum.aspose.com/c/3d/18) adresine katılın.
+## Sıkça Sorulan Sorular
 
-**Q: Ücretsiz bir deneme sürümü mevcut mu?**  
-A: Elbette! Bağlı kalmadan önce özellikleri keşfetmek için [free trial](https://releases.aspose.com/) adresini kullanın.
+**S: Aspose.3D for Java'yı yeni tutmak için uygun mu?**
+C: elbette! API, temiz ve nesnel bir yönetim planıyla tasarlanmıştır; 3D programlamaya yeni olsanız bile öğrenmesi kolaydır.
 
-**Q: Dokümantasyona nereden ulaşabilirim?**  
-A: Aspose.3D for Java hakkında detaylı bilgi için [documentation](https://reference.aspose.com/3d/java/) adresine bakın.
+**S: Aspose.3D for Java’yı ticari projelerde kullanabilir miyim?**
+C: Evet, kullanabilirsiniz. Lisans ayrıntıları için [satın alma sayfası](https://purchase.aspose.com/buy) adresini ziyaret edin.
 
-## Conclusion
+**S: Aspose.3D for Java için nasıl destek alınır?**
+A: Topluluk ve Aspose destek ekibinden yardım almak için [Aspose.3D forumu](https://forum.aspose.com/c/3d/18) katılın.
 
-**FBX nasıl dışa aktarılır**, düğüm hiyerarşileri oluşturma ve **düğüme mesh ekleme** konularında uzmanlaşmak, Java’da gelişmiş 3D uygulamalar geliştirmek için temel adımlardır. Aspose.3D, düşük seviyeli detayları soyutlayan ve sahne grafiği üzerinde tam kontrol sağlayan güçlü, lisans‑dostu bir çözümdür. Farklı mesh’ler, dönüşümler ve dışa aktarma formatlarıyla deneyler yaparak daha fazla olasılığı keşfedin.
+**S: Ücretsiz bir deneme sürümü mevcut mu?**
+C: Elbette! İçeriden bağlanmadan önce özelliklerin ayrılması için [ücretsiz deneme](https://releases.aspose.com/) adresini kullanın.
+
+**S: Belgelendirmeye Nereden ulaşabilirim?**
+C: Aspose.3D for Java hakkında ayrıntılı bilgi için [dokümantasyon](https://reference.aspose.com/3d/java/) talimatlara bakın.
+
+## Çözüm
+
+**FBX nasıl aktarılır**, düğüm bakımları oluşturma ve **düğüme mesh ekleme** bileşenlerin uzmanlaşması, Java’da gelişmiş 3D uygulamalar için temel adımlardır. Aspose.3D, düşük seviyeli ayrıntıları soyutlayan ve sahne grafiği üzerinde tam kontrol sağlayan güçlü, lisans‑dostu bir çözümdür. Farklı mesh'ler, dönüşümler ve ayrıştırılan formatlarla deneyleri yaparak daha fazla çözüm çözümü.
 
 ---
 
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-02-09
+**Şunlarla Test Edildi:** Java 24.11 için Aspose.3D
+**Yazar:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

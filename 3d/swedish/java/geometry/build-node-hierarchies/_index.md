@@ -23,18 +23,18 @@ Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 
 ## Introduktion
 
-Om du letar efter en tydlig, steg‑för‑steg‑guide om **hur man exporterar FBX** från en Java‑applikation, har du kommit till rätt ställe. I den här handledningen visar vi hur du bygger nodhierarkier, **lägger till mesh i nod**, och slutligen sparar scenen som en FBX‑fil med hjälp av Aspose.3D Java‑API. Oavsett om du skapar en enkel prototyp eller en produktionsklar 3D‑motor, ger dessa tekniker dig full kontroll över ditt scen‑graf.
+Om du letar efter en tydlig, steg‑för‑steg‑guide om **hur man exporterar FBX** från en Java‑applikation, har du kommit till rätt ställe. I den här handledningen visar vi hur du bygger nodhierarkier, **lägger till mesh i nod**, och slutligen sparar scenen som en FBX-fil med hjälp av Aspose.3D Java‑API. Oavsett om du skapar en enkel prototyp eller en produktionsklar 3D-motor, ger dessa tekniker full kontroll över ditt scen-graf.
 
 ## Snabba svar
-- **Vad är huvudsyftet med den här handledningen?** Demonstrera hur man exporterar FBX efter att ha byggt nodhierarkier.  
-- **Vilket bibliotek används?** Aspose.3D för Java.  
-- **Behöver jag en licens?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.  
-- **Vilket filformat genereras?** FBX (ASCII 7500).  
+- **Vad är huvudsyftet med den här handledningen?** Demonstrera hur man exporterar FBX efter att ha byggt nodhierarkier.
+- **Vilket bibliotek används?** Aspose.3D för Java.
+- **Behöver jag en licens?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.
+- **Vilket filformat genereras?** FBX (ASCII 7500).
 - **Kan jag anpassa nodtransformationer?** Ja – translation, rotation och skalning stöds alla.
 
-## Vad betyder “hur man exporterar FBX” i samband med Aspose.3D?
+## Vad betyder "hur man exporterar FBX" i samband med Aspose.3D?
 
-Att exportera FBX innebär att konvertera den minnes‑baserade scen‑grafen som du bygger med Aspose.3D till en FBX‑fil som kan öppnas i populära 3D‑verktyg som Blender, Maya eller Unity. API‑et sköter det tunga arbetet, så att du kan fokusera på att skapa scenen.
+Att exportera FBX innebär att konvertera den minnesbaserade scen‑grafen som du bygger med Aspose.3D till en FBX‑fil som kan öppnas i populära 3D‑verktyg som Blender, Maya eller Unity. API‑et sköter det tunga arbetet, så att du kan fokusera på att skapa scenen.
 
 ## Varför bygga nodhierarkier innan export?
 
@@ -42,9 +42,9 @@ En välstrukturerad nodhierarki låter dig applicera transformationer en gång p
 
 ## Förutsättningar
 
-1. **Java‑utvecklingsmiljö** – JDK 8+ och en IDE eller byggverktyg du föredrar.  
-2. **Aspose.3D för Java‑bibliotek** – Ladda ner och installera biblioteket från [nedladdningssidan](https://releases.aspose.com/3d/java/).  
-3. **Dokumentkatalog** – En mapp på din maskin där den genererade FBX‑filen sparas.
+1. **Java‑utvecklingsmiljö** – JDK8+ och en IDE eller byggverktyg du föredrar.
+2. **Aspose.3D för Java‑bibliotek** – Ladda ner och installera biblioteket från [nedladdningssidan](https://releases.aspose.com/3d/java/).
+3. **Dokumentkatalog** – En mapp på din maskin där den genererade FBX-filen sparas.
 
 ## Importera paket
 

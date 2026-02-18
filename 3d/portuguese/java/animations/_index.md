@@ -80,23 +80,6 @@ Seguindo os dois tutoriais acima, você terá um pipeline completo para **criar 
 
 ## Perguntas Frequentes
 
-**Q:** *Posso animar vários objetos simultaneamente?*  
-**A:** Sim. Cada objeto pode ter seu próprio `AnimationTrack`. O Aspose.3D interpolará todas as trilhas juntas durante a reprodução.
-
-**Q:** *Preciso escrever meu próprio loop de renderização?*  
-**A:** Não. O Aspose.3D fornece um renderizador embutido. Você só precisa chamar `scene.render()` dentro do loop da sua aplicação.
-
-**Q:** *É possível exportar a cena animada para um motor de jogo?*  
-**A:** Absolutamente. Exporte para **FBX** ou glTF, ambos preservam os dados de animação para uso no Unity, Unreal ou motores personalizados.
-
-**Q:** *Como controlo a velocidade da animação?*  
-**A:** Ajuste o método `animation.setSpeedFactor(float)` ou modifique os timestamps dos key‑frames.
-
-**Q:** *E se minha animação parecer irregular?*  
-**A:** Aumente o número de key‑frames ou habilite o suavização da interpolação via `animation.setInterpolationMode(InterpolationMode.Spline)`.
-
-## Perguntas Frequentes
-
 **Q:** Como defino a duração da animação para um clipe?  
 **A:** Chame `animation.setDuration(double seconds)` logo após criar o objeto `Animation`.
 
@@ -119,15 +102,15 @@ Aprimore seus projetos 3D baseados em Java com Aspose.3D. Siga nosso tutorial pa
 ### [Configurar Câmera Alvo para Animações 3D em Java | Tutorial Aspose.3D](./set-up-target-camera/)
 Explore animações 3D em Java sem esforço com Aspose.3D. Siga nosso tutorial para um guia passo a passo. Baixe agora para uma jornada de desenvolvimento 3D cativante.
 
+---
+
+**Última atualização:** 2026-02-09  
+**Testado com:** Aspose.3D for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2026-02-09  
-**Testado com:** Aspose.3D for Java 24.11  
-**Autor:** Aspose

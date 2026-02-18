@@ -10,26 +10,6 @@ url: /fr/java/animations/
 weight: 20
 ---
 
- Keep dates unchanged.
-
-Thus:
-
-**Dernière mise à jour:** 2026-02-09  
-**Testé avec:** Aspose.3D for Java 24.11  
-**Auteur:** Aspose
-
-Now ensure we kept all shortcodes and markdown formatting.
-
-Check code blocks: none present.
-
-Check images: none.
-
-Check lists: we used dash lists.
-
-Check headings: correct.
-
-Now produce final output with all content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -90,23 +70,6 @@ En suivant les deux tutoriels ci‑dessus, vous disposerez d'un pipeline complet
 - **Piège :** Utiliser des temps d'images clés incompatibles. *Conseil :* Conservez tous les horodatages des images clés dans la même unité de temps (secondes).  
 - **Piège :** Supposer qu'une seule piste peut animer plusieurs objets. *Conseil :* Utilisez **multiple object animation** – chaque nœud obtient son propre `AnimationTrack`.  
 
-## Questions fréquemment posées
-
-**Q:** *Puis‑je animer plusieurs objets simultanément ?*  
-**A:** Oui. Chaque objet peut avoir son propre `AnimationTrack`. Aspose.3D interpolera toutes les pistes ensemble pendant la lecture.
-
-**Q:** *Dois‑je écrire ma propre boucle de rendu ?*  
-**A:** Non. Aspose.3D fournit un moteur de rendu intégré. Vous n'avez qu'à appeler `scene.render()` dans la boucle de votre application.
-
-**Q:** *Est‑il possible d'exporter la scène animée vers un moteur de jeu ?*  
-**A:** Absolument. Exportez vers **FBX** ou glTF, qui conservent les données d'animation pour une utilisation dans Unity, Unreal ou des moteurs personnalisés.
-
-**Q:** *Comment contrôler la vitesse de l'animation ?*  
-**A:** Ajustez la méthode `animation.setSpeedFactor(float)` ou modifiez les horodatages des images clés.
-
-**Q:** *Que faire si mon animation semble saccadée ?*  
-**A:** Augmentez le nombre d'images clés ou activez le lissage d'interpolation via `animation.setInterpolationMode(InterpolationMode.Spline)`.
-
 ## FAQ
 
 **Q :** *Comment définir la durée d'une animation pour un clip ?*  
@@ -131,15 +94,15 @@ Améliorez vos projets 3D basés sur Java avec Aspose.3D. Suivez notre tutoriel 
 ### [Configurer la caméra cible pour les animations 3D en Java | Tutoriel Aspose.3D](./set-up-target-camera/)
 Explorez les animations 3D Java sans effort avec Aspose.3D. Suivez notre tutoriel pour un guide étape par étape. Téléchargez dès maintenant pour un captivant voyage de développement 3D.
 
+---
+
+**Dernière mise à jour:** 2026-02-09  
+**Testé avec:** Aspose.3D for Java 24.11  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour:** 2026-02-09  
-**Testé avec:** Aspose.3D for Java 24.11  
-**Auteur:** Aspose

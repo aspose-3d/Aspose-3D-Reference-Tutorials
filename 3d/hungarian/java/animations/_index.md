@@ -9,30 +9,7 @@ title: Animált 3D jelenet létrehozása Java-ban – Aspose.3D útmutató
 url: /hu/java/animations/
 weight: 20
 ---
-
- naturally to Hungarian. So we should translate these lines as well.
-
-Translate:
-
-**Last Updated:** 2026-02-09 -> "**Utolsó frissítés:** 2026-02-09"
-
-**Tested With:** Aspose.3D for Java 24.11 -> "**Tesztelve ezzel:** Aspose.3D for Java 24.11"
-
-**Author:** Aspose -> "**Szerző:** Aspose"
-
-Now ensure we didn't miss any markdown formatting.
-
-Check code blocks: none.
-
-Check lists: bullet points with hyphens.
-
-Check bold formatting: preserve.
-
-Check shortcodes: unchanged.
-
-Check link URLs unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -90,23 +67,6 @@ A fenti két oktató követésével teljes csővezetékkel rendelkezik a **creat
 - **Pitfall:** Nem kompatibilis kulcskocka időpontok használata. *Tip:* Tartsa az összes kulcskocka időbélyeget ugyanabban az időegységben (másodperc).  
 - **Pitfall:** Feltételezni, hogy egyetlen sáv több objektumot animálhat. *Tip:* Használja a **multiple object animation**-t – minden csomópont saját `AnimationTrack`-et kap.  
 
-## Gyakran Ismételt Kérdések
-
-**Q:** *Animálhatok több objektumot egyszerre?*  
-**A:** Igen. Minden objektum rendelkezhet saját `AnimationTrack`-kel. Az Aspose.3D minden sávot együtt interpolál a lejátszás során.
-
-**Q:** *Szükséges saját render ciklust írnom?*  
-**A:** Nem. Az Aspose.3D beépített renderert biztosít. Csak a `scene.render()`-t kell meghívnia az alkalmazás ciklusában.
-
-**Q:** *Lehet exportálni az animált jelenetet egy játékmotorba?*  
-**A:** Teljesen. Exportáljon **FBX** vagy glTF formátumba, amelyek mind megőrzik az animációs adatokat a Unity, Unreal vagy egyedi motorok használatához.
-
-**Q:** *Hogyan szabályozhatom az animáció sebességét?*  
-**A:** Állítsa a `animation.setSpeedFactor(float)` metódust, vagy módosítsa a kulcskocka időbélyegeket.
-
-**Q:** *Mi van, ha az animációom akadozik?*  
-**A:** Növelje a kulcskockák számát, vagy engedélyezze az interpoláció simítását a `animation.setInterpolationMode(InterpolationMode.Spline)` segítségével.
-
 ## GyIK
 
 **Q:** Hogyan állíthatom be az animáció időtartamát egy kliphez?  
@@ -131,15 +91,15 @@ Fejlessze Java‑alapú 3D projektjeit az Aspose.3D-vel. Kövesse oktatónkat az
 ### [Célkamera beállítása 3D animációkhoz Java-ban | Aspose.3D oktató](./set-up-target-camera/)
 Fedezze fel a Java 3D animációkat könnyedén az Aspose.3D-vel. Kövesse oktatónkat egy lépésről‑lépésre útmutatóért. Töltse le most, hogy egy lenyűgöző 3D fejlesztési utazásban vegyen részt.
 
+---
+
+**Utolsó frissítés:** 2026-02-09  
+**Tesztelve ezzel:** Aspose.3D for Java 24.11  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-02-09  
-**Tesztelve ezzel:** Aspose.3D for Java 24.11  
-**Szerző:** Aspose

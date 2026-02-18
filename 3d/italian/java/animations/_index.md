@@ -76,23 +76,6 @@ Seguendo i due tutorial sopra, avrai una pipeline completa per **creare scene 3D
 - **Problema:** Utilizzare tempi di fotogrammi chiave incompatibili. *Consiglio:* Mantieni tutti i timestamp dei fotogrammi chiave nella stessa unità di tempo (secondi).  
 - **Problema:** Supporre che una singola traccia possa animare più oggetti. *Consiglio:* Usa **multiple object animation** – ogni nodo ottiene il proprio `AnimationTrack`.  
 
-## Domande frequenti
-
-**D:** *Posso animare più oggetti simultaneamente?*  
-**R:** Sì. Ogni oggetto può avere il proprio `AnimationTrack`. Aspose.3D interpolerà tutte le tracce insieme durante la riproduzione.
-
-**D:** *Devo scrivere il mio ciclo di rendering?*  
-**R:** No. Aspose.3D fornisce un renderer integrato. Devi solo chiamare `scene.render()` all'interno del ciclo della tua applicazione.
-
-**D:** *È possibile esportare la scena animata in un motore di gioco?*  
-**R:** Assolutamente. Esporta in **FBX** o glTF, entrambi preservano i dati di animazione per l'uso in Unity, Unreal o motori personalizzati.
-
-**D:** *Come controllo la velocità dell'animazione?*  
-**R:** Regola il metodo `animation.setSpeedFactor(float)` o modifica i timestamp dei fotogrammi chiave.
-
-**D:** *Cosa succede se la mia animazione appare scattosa?*  
-**R:** Aumenta il numero di fotogrammi chiave o abilita l'ammorbidimento dell'interpolazione tramite `animation.setInterpolationMode(InterpolationMode.Spline)`.
-
 ## FAQ
 
 **D:** Come imposto la durata dell'animazione per una clip?  
@@ -117,15 +100,15 @@ Migliora i tuoi progetti 3D basati su Java con Aspose.3D. Segui il nostro tutori
 ### [Configura fotocamera target per animazioni 3D in Java | Tutorial Aspose.3D](./set-up-target-camera/)
 Esplora le animazioni 3D Java senza sforzo con Aspose.3D. Segui il nostro tutorial per una guida passo‑passo. Scarica ora per un coinvolgente viaggio nello sviluppo 3D.
 
+---
+
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose
