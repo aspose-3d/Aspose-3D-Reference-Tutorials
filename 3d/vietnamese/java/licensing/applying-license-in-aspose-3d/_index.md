@@ -1,32 +1,41 @@
 ---
-title: Áp dụng Giấy phép trong Aspose.3D cho Java
-linktitle: Áp dụng Giấy phép trong Aspose.3D cho Java
-second_title: API Java Aspose.3D
-description: Khai thác toàn bộ tiềm năng của Aspose.3D trong các ứng dụng Java bằng cách làm theo hướng dẫn toàn diện của chúng tôi về việc áp dụng giấy phép.
-weight: 10
+date: 2026-02-14
+description: Tìm hiểu cách thiết lập giấy phép Aspose trong Aspose.3D cho Java, bao
+  gồm cách áp dụng giấy phép từ tệp và thiết lập các khóa công khai và riêng tư.
+linktitle: How to Set Aspose License in Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Cách thiết lập giấy phép Aspose trong Aspose.3D cho Java
 url: /vi/java/licensing/applying-license-in-aspose-3d/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Áp dụng Giấy phép trong Aspose.3D cho Java
+# Cách Đặt Giấy Phép Aspose trong Aspose.3D cho Java
 
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn từng bước về cách đăng ký giấy phép trong Aspose.3D cho Java. Aspose.3D là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các tệp 3D một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào quy trình áp dụng giấy phép bằng nhiều phương pháp khác nhau, đảm bảo bạn có thể khai thác toàn bộ tiềm năng của Aspose.3D trong các ứng dụng Java của mình.
+Trong hướng dẫn này, bạn sẽ khám phá **cách đặt giấy phép Aspose** cho Aspose.3D trong môi trường Java. Cho dù bạn muốn tải xuống giấy phép, phát trực tuyến hoặc sử dụng giấy phép được đo với khóa công khai và khóa riêng, chúng tôi sẽ hướng dẫn từng cách chi tiết để bạn có thể nhanh chóng và tự động mở khóa toàn bộ tính năng của Aspose.3D.
+
+## Trả lời nhanh
+- **Cách chính xác để đặt giấy phép Aspose.3D là gì?** Sử dụng lớp `Giấy phép` và gọi `setLince` với tệp hoặc luồng đường dẫn.
+- **Tôi có thể tải giấy phép từ một luồng không?** Có – bọc file `.lic` trong một `FileInputStream` và truyền nó cho `setLicen`.
+- **Nếu tôi cần giấy phép đo thì sao?** Khởi tạo một đối tượng `Metered` và gọi `setMeteredKey` với khóa khai và khóa riêng của bạn.
+- **Tôi có cần giấy phép cho các bản phát triển xây dựng không?** Cần một giấy phép dùng thử hoặc tạm thời cho bất kỳ kịch bản nào không phải đánh giá.
+- **Phiên bản Java nào được hỗ trợ?** Aspose.3D hoạt động với Java6 trở lên.
 
 ## Điều kiện tiên quyết
 
-Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã chuẩn bị các yêu cầu sau:
 
-- Hiểu biết cơ bản về lập trình Java.
--  Đã cài đặt thư viện Aspose.3D. Bạn có thể tải nó xuống từ[trang phát hành](https://releases.aspose.com/3d/java/).
+- Cơ sở kiến ​​thức về lập trình Java.
+- Aspose.3D Library đã được cài đặt. Bạn có thể tải xuống từ [trang phát hành](https://releases.aspose.com/3d/java/).
 
-## Gói nhập khẩu
+## Nhập gói
 
-Để bắt đầu, hãy nhập các gói cần thiết vào dự án Java của bạn. Đảm bảo rằng Aspose.3D được thêm vào đường dẫn lớp của bạn. Đây là một ví dụ:
+Để bắt đầu, nhập các gói cần thiết vào dự án Java của bạn. Đảm bảo rằng Aspose.3D đã được thêm vào classpath. Dưới đây là một ví dụ:
 
 ```java
 import com.aspose.threed.License;
@@ -36,19 +45,19 @@ import java.io.FileInputStream;
 import java.io.IOException;
 ```
 
-## Áp dụng giấy phép bằng cách sử dụng tệp
+## Áp dụng giấy phép bằng cách sử dụng tập tin
 
-### Bước 1: Tạo đối tượng giấy phép
+### Bước 1: Tạo một Đối tượng License
 
- Đầu tiên, tạo một`License` đối tượng trong mã Java của bạn.
+Đầu tiên, tạo một đối tượng `License` trong mã Java của bạn.
 
 ```java
 License license = new License();
 ```
 
-### Bước 2: Đặt giấy phép từ tệp
+### Bước 2: Áp dụng giấy phép từ file
 
-Chỉ định đường dẫn đến tệp giấy phép của bạn và đặt giấy phép bằng mã sau:
+Xác định đường dẫn tới file giấy phép của bạn và đặt giấy phép bằng đoạn mã sau. Điều này minh họa kỹ thuật **áp dụng giấy phép từ file**.
 
 ```java
 license.setLicense("Aspose._3D.lic");
@@ -58,15 +67,15 @@ license.setLicense("Aspose._3D.lic");
 
 ### Bước 1: Tạo đối tượng giấy phép
 
- Tương tự, tạo một`License` đối tượng trong mã Java của bạn.
+Tương tự, tạo một đối tượng `License` trong mã Java của bạn.
 
 ```java
 License license = new License();
 ```
 
-### Bước 2: Đặt giấy phép từ đối tượng luồng
+### Bước 2: Đặt giấy phép từ đối tượng Stream
 
- Sử dụng một`FileInputStream` để tạo luồng và đặt giấy phép:
+Sử dụng `FileInputStream` để tạo một stream và đặt giấy phép:
 
 ```java
 try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
@@ -74,49 +83,70 @@ try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
 }
 ```
 
-## Sử dụng khóa công khai và khóa riêng
+## Sử dụng khóa công khai và khóa riêng tư cho giấy phép sử dụng theo định mức
 
-### Bước 1: Khởi tạo đối tượng giấy phép Metered
+### Bước 1: Khởi tạo Đối tượng Giấy phép Metered
 
- Khởi tạo một`Metered` đối tượng cấp phép:
+Khởi tạo một đối tượng giấy phép `Metered`:
 
 ```java
 Metered metered = new Metered();
 ```
 
-### Bước 2: Đặt khóa công khai và khóa riêng
+### Bước 2: Đặt Khóa Công khai và Khóa Riêng
 
-Đặt khóa chung và khóa riêng của bạn để bật cấp phép theo đồng hồ đo:
+Đặt khóa công khai và khóa riêng của bạn để kích hoạt giấy phép metered. Điều này bao quát kịch bản **đặt khóa công khai và riêng**.
 
 ```java
 metered.setMeteredKey("your-public-key", "your-private-key");
 ```
 
+## Tại sao việc đặt giấy phép lại quan trọng
+
+Tại sao thiết lập lại quan trọng giấy phép
+
+Áp dụng đúng giấy phép sẽ loại bỏ hình mờ đánh giá, mở khóa cấp cao của các định dạng tệp và đảm bảo góp thủ thuật mô hình cấp phép của Aspose. Sử dụng các phương pháp phù hợp (tệp, luồng hoặc đồng hồ đo) để cho phép bạn tích hợp giấy phép một cách tiếp cận các CI/CD đường ống, phát triển khai đám mây hoặc ứng dụng máy tính để bàn.
+
+## Các vấn đề thường gặp & Mẹo
+
+- **Không tìm thấy tệp** – Kiểm tra lại đường dẫn tệp `.lic` đúng với công việc thư mục hoặc sử dụng đường dẫn tuyệt đối.
+- **Luồng được đóng sớm** – Khi sử dụng luồng, giữ đối tượng `Giấy phép` tồn tại trong suốt thời gian chạy ứng dụng; giấy phép sẽ được lưu vào bộ nhớ đệm sau lần gọi thành công đầu tiên.
+- **Khóa mét không khớp** – Kiểm tra kỹ thuật rằng khóa công khai và khóa riêng tương ứng với cùng một giấy phép được đo; lỗi máy sẽ gây ra ngoại lệ trong thời gian chạy.
+- **Mẹo chuyên nghiệp:** Lưu tập tin giấy phép ở vị trí toàn bên ngoài nguồn cây và tải nó qua môi trường biến thể để tránh cam kết vào phiên bản hệ thống kiểm soát.
+
 ## Phần kết luận
 
-Chúc mừng! Bạn đã học thành công cách áp dụng giấy phép trong Aspose.3D cho Java bằng nhiều phương pháp khác nhau. Giờ đây, bạn có thể tích hợp Aspose.3D một cách liền mạch vào các ứng dụng Java của mình và phát huy hết tiềm năng của nó.
+Chúc mừng! Bạn đã học thành công **cách đặt giấy phép Aspose** trong Aspose.3D cho Java bằng các phương pháp khác nhau, bao gồm các ứng dụng giấy phép từ tệp, luồng và cấu hình giấy phép đo lường với khóa công khai và riêng tư. Bây giờ bạn có thể tích hợp Aspose.3D một cách tiếp cận các ứng dụng Java và tận dụng đầy đủ khả năng xử lý 3D.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.3D có tương thích với tất cả các phiên bản Java không?
+**Q: Aspose.3D có tương thích với mọi phiên bản Java không?**
+A: Có, Aspose.3D tương thích với Java6 và các phiên bản sau.
 
-Câu trả lời 1: Có, Aspose.3D tương thích với Java 6 và các phiên bản mới hơn.
+**Q: Tôi có thể tìm tài liệu bổ sung ở đâu?**
+A: Bạn có thể tham khảo tài liệu [tại đây](https://reference.aspose.com/3d/java/).
 
-### Câu hỏi 2: Tôi có thể tìm tài liệu bổ sung ở đâu?
+**Q: Tôi có thể thử Aspose.3D trước khi mua không?**
+A: Có, bạn có thể khám phá bản thử miễn phí [tại đây](https://releases.aspose.com/).
 
- A2: Bạn có thể tham khảo tài liệu[đây](https://reference.aspose.com/3d/java/).
+**Q: Làm sao tôi có thể nhận được hỗ trợ cho Aspose.3D?**
+A: Truy cập [Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để được hỗ trợ.
 
-### Câu hỏi 3: Tôi có thể dùng thử Aspose.3D trước khi mua không?
+**Q: Tôi cần giấy phép tạm thời để thử nghiệm không?**
+A: Có, bạn có thể lấy giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
 
- Câu trả lời 3: Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+**Q: Sự khác nhau giữa giấy phép file và giấy phép đo là gì?**
+A: Tệp giấy phép là một tệp `.lic` tĩnh gắn với một phiên bản sản phẩm cụ thể, trong khi giấy phép đo xác thực việc sử dụng thông qua dịch vụ đo lường dựa trên đám mây của Aspose bằng các khóa công khai/riêng.
 
-### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.3D?
+**Q: Tôi có thể nhúng mã tải giấy phép vào một trình khởi tạo tĩnh không?**
+A: Chắc chắn – cài đặt việc khởi tạo `Giấy phép` trong một khối tĩnh sẽ đảm bảo giấy được phép áp dụng một lần khi lớp được tải xuống lần đầu.
 
- A4: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để hỗ trợ.
+---
 
-### Câu hỏi 5: Tôi có cần giấy phép tạm thời để thử nghiệm không?
+**Cập nhật lần cuối:** 2026-02-14
+**Đã thử nghiệm với:** Aspose.3D 24.11 cho Java
+**Tác giả:** Giả định  
 
- A5: Có, xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

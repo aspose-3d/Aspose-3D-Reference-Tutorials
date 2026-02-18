@@ -1,32 +1,42 @@
 ---
-title: Aspose.3D for Java'da Lisans Başvurusu
-linktitle: Aspose.3D for Java'da Lisans Başvurusu
-second_title: Aspose.3D Java API'si
-description: Lisans başvurusuna ilişkin kapsamlı rehberimizi takip ederek Aspose.3D'nin Java uygulamalarındaki tüm potansiyelini ortaya çıkarın.
-weight: 10
+date: 2026-02-14
+description: Aspose.3D for Java'da Aspose lisansını nasıl ayarlayacağınızı, lisansı
+  dosyadan nasıl uygulayacağınızı ve genel/özel anahtarları nasıl belirleyeceğinizi
+  öğrenin.
+linktitle: How to Set Aspose License in Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Aspose.3D for Java'da Aspose Lisansını Nasıl Ayarlarsınız
 url: /tr/java/licensing/applying-license-in-aspose-3d/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D for Java'da Lisans Başvurusu
+# Aspose.3D for Java’da Aspose Lisansını Nasıl Ayarlarsınız
 
-## giriiş
+## Giriş
 
-Aspose.3D for Java'da lisans başvurusuna yönelik bu adım adım kılavuza hoş geldiniz. Aspose.3D, geliştiricilerin 3D dosyalarla zahmetsizce çalışmasına olanak tanıyan güçlü bir Java kütüphanesidir. Bu eğitimde, Java uygulamalarınızda Aspose.3D'nin tüm potansiyelini açığa çıkarabilmenizi sağlamak için çeşitli yöntemler kullanarak lisans başvuru sürecini ayrıntılı olarak ele alacağız.
+Bu kapsamlı öğreticide, Java ortamında Aspose.3D için **Aspose lisansını nasıl ayarlayacağınızı** keşfedeceksiniz. Lisans dosyasını yüklemeyi, akış olarak kullanmayı veya genel ve özel anahtarlarla ölçülen lisanslamayı tercih edip etmediğinize bakılmaksızın, her yaklaşımı adım adım inceleyeceğiz, böylece Aspose.3D’nin tam özellik setini hızlı ve güvenle açabilirsiniz.
+
+## Hızlı Yanıtlar
+- **Aspose.3D lisansını ayarlamanın temel yolu nedir?** `License` sınıfını kullanın ve dosya yolu ya da akış ile `setLicense` metodunu çağırın.  
+- **Lisansı bir akıştan yükleyebilir miyim?** Evet – `.lic` dosyasını bir `FileInputStream` içinde sarın ve `setLicense` metoduna geçirin.  
+- **Ölçülen bir lisansa ihtiyacım olursa ne yapmalıyım?** Bir `Metered` nesnesi başlatın ve genel ve özel anahtarlarınızı kullanarak `setMeteredKey` metodunu çağırın.  
+- **Geliştirme sürümleri için lisansa ihtiyacım var mı?** Değerlendirme dışı herhangi bir senaryo için bir deneme ya da geçici lisans gereklidir.  
+- **Hangi Java sürümleri destekleniyor?** Aspose.3D, Java 6 ve üzeri sürümlerle çalışır.
 
 ## Önkoşullar
 
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce, aşağıdaki önkoşulların karşılandığından emin olun:
 
-- Java programlamanın temel anlayışı.
--  Aspose.3D kütüphanesi kuruldu. adresinden indirebilirsiniz.[yayın sayfası](https://releases.aspose.com/3d/java/).
+- Java programlamasına temel bir anlayış.  
+- Aspose.3D kütüphanesi yüklü. Bunu [release page](https://releases.aspose.com/3d/java/) adresinden indirebilirsiniz.
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarma
 
-Başlamak için gerekli paketleri Java projenize aktarın. Aspose.3D'nin sınıf yolunuza eklendiğinden emin olun. İşte bir örnek:
+Başlamak için, Java projenize gerekli paketleri içe aktarın. Aspose.3D'nin sınıf yolunuza (classpath) eklendiğinden emin olun. İşte bir örnek:
 
 ```java
 import com.aspose.threed.License;
@@ -36,37 +46,37 @@ import java.io.FileInputStream;
 import java.io.IOException;
 ```
 
-## Dosya Kullanarak Lisans Uygulama
+## Bir Dosya Kullanarak Lisans Uygulama
 
-### 1. Adım: Lisans Nesnesini Oluşturun
+### Adım 1: Bir License Nesnesi Oluşturun
 
- İlk olarak, bir`License` Java kodunuzdaki nesne.
+İlk olarak, Java kodunuzda bir `License` nesnesi oluşturun.
 
 ```java
 License license = new License();
 ```
 
-### 2. Adım: Lisansı Dosyadan Ayarlayın
+### Adım 2: Lisansı Dosyadan Uygulayın
 
-Lisans dosyanızın yolunu belirtin ve aşağıdaki kodu kullanarak lisansı ayarlayın:
+Lisans dosyanızın yolunu belirtin ve aşağıdaki kodu kullanarak lisansı ayarlayın. Bu, **dosyadan lisans uygulama** tekniğini gösterir.
 
 ```java
 license.setLicense("Aspose._3D.lic");
 ```
 
-## Akış Nesnesi Kullanarak Lisans Uygulama
+## Bir Akış Nesnesi Kullanarak Lisans Uygulama
 
-### 1. Adım: Lisans Nesnesini Oluşturun
+### Adım 1: Bir License Nesnesi Oluşturun
 
- Benzer şekilde, bir`License` Java kodunuzdaki nesne.
+Benzer şekilde, Java kodunuzda bir `License` nesnesi oluşturun.
 
 ```java
 License license = new License();
 ```
 
-### 2. Adım: Akış Nesnesinden Lisansı Ayarlayın
+### Adım 2: Lisansı Akış Nesnesinden Ayarlayın
 
- Bir tane kullan`FileInputStream` bir akış oluşturmak ve lisansı ayarlamak için:
+Bir `FileInputStream` kullanarak bir akış oluşturun ve lisansı ayarlayın:
 
 ```java
 try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
@@ -74,11 +84,11 @@ try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
 }
 ```
 
-## Genel ve Özel Anahtarları Kullanma
+## Ölçülen Lisanslama için Genel ve Özel Anahtarların Kullanımı
 
-### 1. Adım: Ölçülü Lisans Nesnesini Başlatın
+### Adım 1: Metered Lisans Nesnesini Başlatın
 
- Bir başlat`Metered` lisans nesnesi:
+Bir `Metered` lisans nesnesi başlatın:
 
 ```java
 Metered metered = new Metered();
@@ -86,37 +96,56 @@ Metered metered = new Metered();
 
 ### Adım 2: Genel ve Özel Anahtarları Ayarlayın
 
-Ölçülü lisanslamayı etkinleştirmek için genel ve özel anahtarlarınızı ayarlayın:
+Ölçülen lisanslamayı etkinleştirmek için genel ve özel anahtarlarınızı ayarlayın. Bu, **genel ve özel anahtarları ayarlama** senaryosunu kapsar.
 
 ```java
 metered.setMeteredKey("your-public-key", "your-private-key");
 ```
 
-## Çözüm
+## Lisansı Ayarlamanın Önemi
 
-Tebrikler! Aspose.3D for Java'da çeşitli yöntemler kullanarak nasıl lisans uygulayacağınızı başarıyla öğrendiniz. Artık Aspose.3D'yi Java uygulamalarınıza sorunsuz bir şekilde entegre edebilir ve tüm potansiyelini açığa çıkarabilirsiniz.
+Doğru lisansı uygulamak, değerlendirme filigranlarını kaldırır, premium dosya formatlarının kilidini açar ve Aspose’un lisans modeline uyumu sağlar. Uygun yöntemi (dosya, akış veya ölçülen) kullanmak, lisanslamayı CI/CD boru hatlarına, bulut dağıtımlarına veya masaüstü uygulamalara sorunsuz bir şekilde entegre etmenizi sağlar.
 
-## SSS'ler
+## Yaygın Sorunlar ve İpuçları
 
-### S1: Aspose.3D tüm Java sürümleriyle uyumlu mu?
+- **Dosya bulunamadı** – `.lic` dosyasının yolunun çalışma dizinine göre doğru olduğundan emin olun veya mutlak bir yol kullanın.  
+- **Akış erken kapandı** – Akış kullanırken, `License` nesnesini uygulama süresi boyunca aktif tutun; lisans ilk başarılı çağrının ardından önbelleğe alınır.  
+- **Ölçülen anahtar uyumsuzluğu** – Genel ve özel anahtarların aynı ölçülen lisansa ait olduğundan iki kez kontrol edin; bir yazım hatası çalışma zamanı istisnasına neden olur.  
+- **Pro ipucu:** Lisans dosyasını kaynak ağacının dışındaki güvenli bir konumda saklayın ve sürüm kontrolüne eklenmesini önlemek için bir ortam değişkeni aracılığıyla yükleyin.
 
-Cevap1: Evet, Aspose.3D, Java 6 ve sonraki sürümlerle uyumludur.
+## Sonuç
 
-### S2: Ek belgeleri nerede bulabilirim?
+Tebrikler! Aspose.3D for Java’da lisansı dosyadan uygulama, akış olarak yükleme ve genel/özel anahtarlarla ölçülen lisanslamayı yapılandırma gibi çeşitli yöntemlerle **Aspose lisansını nasıl ayarlayacağınızı** başarıyla öğrendiniz. Artık Aspose.3D’yi Java uygulamalarınıza sorunsuz bir şekilde entegre edebilir ve 3D işleme yeteneklerinden tam olarak yararlanabilirsiniz.
 
- A2: Belgelere başvurabilirsiniz[Burada](https://reference.aspose.com/3d/java/).
+## Sıkça Sorulan Sorular
 
-### S3: Satın almadan önce Aspose.3D'yi deneyebilir miyim?
+**S: Aspose.3D tüm Java sürümleriyle uyumlu mu?**  
+C: Evet, Aspose.3D Java 6 ve sonraki sürümlerle uyumludur.
 
- C3: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+**S: Ek belgeleri nerede bulabilirim?**  
+C: Belgeleri [buradan](https://reference.aspose.com/3d/java/) inceleyebilirsiniz.
 
-### S4: Aspose.3D için nasıl destek alabilirim?
+**S: Aspose.3D’yi satın almadan deneyebilir miyim?**  
+C: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
 
- A4: Ziyaret edin[Aspose.3D Forumu](https://forum.aspose.com/c/3d/18) destek için.
+**S: Aspose.3D için nasıl destek alabilirim?**  
+C: Destek için [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) adresini ziyaret edin.
 
-### S5: Test için geçici bir lisansa ihtiyacım var mı?
+**S: Test için geçici bir lisansa ihtiyacım var mı?**  
+C: Evet, geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
- A5: Evet, geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
+**S: Dosya lisansı ile ölçülen lisans arasındaki fark nedir?**  
+C: Dosya lisansı, belirli bir ürün sürümüne bağlı statik bir `.lic` dosyasıdır; ölçülen lisans ise kullanımını Aspose’un bulut tabanlı ölçüm hizmetine genel/özel anahtarlarla doğrular.
+
+**S: Lisans yükleme kodunu statik bir başlatıcıya gömebilir miyim?**  
+C: Kesinlikle – `License` başlatmasını bir static blok içinde yerleştirmek, sınıf ilk yüklendiğinde lisansın bir kez uygulanmasını sağlar.
+
+---
+
+**Son Güncelleme:** 2026-02-14  
+**Test Edilen Sürüm:** Aspose.3D 24.11 for Java  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
