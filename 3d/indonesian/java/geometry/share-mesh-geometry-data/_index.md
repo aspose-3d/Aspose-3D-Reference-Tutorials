@@ -1,10 +1,10 @@
 ---
-date: 2025-12-12
-description: Pelajari cara mengatur warna material sambil berbagi data geometri mesh
-  dan menyimpan adegan sebagai FBX di Java 3D menggunakan Aspose.3D.
-linktitle: Set Material Color and Share Mesh Geometry Data in Java 3D with Aspose.3D
+date: 2026-02-17
+description: Pelajari cara mengonversi mesh ke FBX sambil mengatur warna material
+  dan berbagi data geometri mesh di Java 3D menggunakan Aspose.3D.
+linktitle: Convert Mesh to FBX and Set Material Color in Java 3D
 second_title: Aspose.3D Java API
-title: Atur Warna Material dan Bagikan Data Geometri Mesh di Java 3D dengan Aspose.3D
+title: Konversi Mesh ke FBX dan Atur Warna Material di Java 3D
 url: /id/java/geometry/share-mesh-geometry-data/
 weight: 15
 ---
@@ -13,46 +13,54 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Atur Warna Material dan Bagikan Data Geometri Mesh di Java 3D dengan Aspose.3D
+# Konversi Mesh ke FBX dan Atur Warna Material di Java 3D
 
-## Introduction
+## Perkenalan
 
-Memulai perjalanan ke dunia Java 3D dengan Aspose.3D membuka banyak kemungkinan untuk membuat visualisasi menakjubkan dan pengalaman imersif. Pada tutorial ini, kami akan memandu Anda **cara berbagi data geometri mesh** di Java 3D menggunakan Aspose.3D, dan kami akan menunjukkan secara tepat **cara mengatur warna material** untuk setiap instance mesh. Ikuti setiap langkah dengan cermat, dan pada akhir tutorial, Anda akan dapat menukar data mesh antar beberapa node sambil mengontrol warna dan mengekspor ke FBX.
+Jika Anda membangun aplikasi 3D berbasis Java, Anda sering perlu menggunakan kembali geometri yang sama pada beberapa objek sambil memberikan setiap contoh tampilan yang unik. Dalam tutorial ini Anda akan belajar **cara mengonversi mesh ke FBX**, berbagi geometri mesh yang mendasarinya di antara beberapa node, dan **mengatur warna material yang berbeda untuk setiap node**. Pada akhir tutorial Anda akan memiliki scene FBX siap‑ekspor yang dapat Anda masukkan ke dalam mesin atau penaampil apa pun.
 
-## Quick Answers
-- **What is the main goal?** Atur warna material untuk setiap node dan bagikan data geometri mesh.  
-- **Which library is required?** Aspose.3D for Java.  
-- **How do I export the result?** Simpan adegan sebagai file FBX (FBX7400ASCII).  
-- **Do I need a license?** Lisensi sementara atau penuh diperlukan untuk penggunaan produksi.  
-- **What Java version works?** Lingkungan Java 8+ apa pun.
+## Jawaban Cepat
+- **Apa tujuan utama?** Mengonversi mesh ke FBX, berbagi geometri mesh, dan mengatur warna material yang berbeda untuk setiap node.
+- **Perpustakaan apa yang diperlukan?** Aspose.3D untuk Java.
+- **Bagaimana cara mengekspor hasilnya?** Simpan adegan sebagai file FBX menggunakan `FileFormat.FBX7400ASCII`.
+- **Apakah saya memerlukan lisensi?** Lisensi sementara atau penuh diperlukan untuk penggunaan produksi.
+- **Versi Java apa yang cocok?** Lingkungan Java8+ apa pun.
 
-## Prerequisites
+## Apa itu **konversi mesh ke FBX**?
 
-Sebelum kita masuk ke tutorial, pastikan Anda telah menyiapkan hal‑hal berikut:
+`convert mesh to fbx` adalah proses pengambilan objek mesh yang dibuat atau dimanipulasi dalam memori dan menuliskannya ke format file FBX, yang didukung secara luas oleh alat 3D seperti Maya, Blender, dan Unity. Aspose.3D menangani pekerjaan berat, sehingga Anda hanya perlu memanggil `scene.save(...)` dengan `FileFormat` yang sesuai.
 
-- Lingkungan Pengembangan Java: Pastikan Anda memiliki lingkungan pengembangan Java yang terpasang di sistem Anda.  
-- Library Aspose.3D: Unduh dan instal library Aspose.3D. Anda dapat menemukan library tersebut [di sini](https://releases.aspose.com/3d/java/).
+## Mengapa berbagi data geometri mesh?
 
-## Import Packages
+Berbagi geometri mengurangi konsumsi memori dan mempercepat rendering karena buffer vertex yang mendasarinya disimpan hanya sekali. Teknik ini sempurna untuk pemandangan dengan banyak duplikat objek—misalnya hutan, kepadatan, atau arsitektur modular—di mana setiap instance hanya berbeda pada transformasi atau material.
 
-Mulailah dengan mengimpor paket‑paket yang diperlukan ke dalam proyek Java Anda. Langkah ini penting untuk mengakses fungsionalitas yang disediakan oleh library Aspose.3D.
+## Prasyarat
+
+Sebelum kita memulai tutorial, pastikan Anda memiliki prasyarat berikut:
+
+- **Lingkungan Pengembangan Java** – IDE apa pun atau pengaturan command‑line dengan Java8 atau yang lebih baru.
+- **Perpustakaan Aspose.3D** – unduh JAR terbaru dari situs resmi: [here](https://releases.aspose.com/3d/java/).
+
+## Impor Paket
+
+Mulailah dengan mengimpor paket yang diperlukan ke dalam proyek Java Anda. Langkah ini penting untuk mengakses fungsionalitas yang disediakan oleh perpustakaan Aspose.3D.
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## Step 1: Initialize Scene Object (initialize scene java)
+## Langkah 1: Inisialisasi Objek Scene (inisialisasi scene java)
 
-Mari kita mulai proses dengan menginisialisasi objek scene. Objek ini akan menjadi kanvas tempat keajaiban 3D kita akan terwujud.
+Mari kita memulai proses dengan menginisialisasi objek scene. Ini akan berfungsi sebagai kanvas tempat keajaiban 3D kami akan terungkap.
 
 ```java
 // Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Step 2: Define Color Vectors
+## Langkah 2: Definisikan Vektor Warna
 
-Pada langkah ini, kita mendefinisikan sebuah array vektor warna yang akan diterapkan pada elemen‑elemen berbeda dalam adegan 3D kita.
+Pada langkah ini, kami mendefinisikan sebuah array vektor warna yang akan diterapkan pada elemen berbeda dalam scene 3D kami.
 
 ```java
 // Define color vectors
@@ -63,18 +71,18 @@ Vector3[] colors = new Vector3[] {
 };
 ```
 
-## Step 3: Create 3D Mesh Java Using Polygon Builder (create 3d mesh java)
+## Langkah 3: Buat Mesh 3D Java Menggunakan Polygon Builder (buat mesh 3d java)
 
-Gunakan kelas Common untuk membuat mesh menggunakan metode polygon builder. Mesh ini akan menjadi dasar bagi elemen‑elemen 3D kita.
+Manfaatkan kelas Common untuk membuat mesh menggunakan metode polygon builder. Mesh ini akan menjadi dasar bagi elemen 3D kami.
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-## How to set material color for each node?
+## Bagaimana cara mengatur warna material untuk setiap node?
 
-Iterasi melalui vektor warna, buat node kubus, dan atur atribut seperti material, **set material color**, serta translasi. Inilah inti pengendalian tampilan visual setiap instance mesh.
+Iterasi melalui vektor warna, buat node kubus, dan atur atribut seperti material, **set material color**, dan translasi. Ini adalah inti dari mengontrol tampilan visual setiap instance mesh.
 
 ```java
 int idx = 0;
@@ -94,9 +102,9 @@ for(Vector3 color : colors) {
 }
 ```
 
-## Step 5: Save the 3D Scene (save scene fbx, convert mesh to fbx)
+## Langkah 5: Simpan Scene 3D (simpan scene fbx, konversi mesh ke fbx)
 
-Tentukan direktori dan nama file untuk menyimpan adegan 3D dalam format file yang didukung, dalam hal ini FBX7400ASCII. Langkah ini juga memperlihatkan **convert mesh to FBX**.
+Tentukan direktori dan nama file untuk menyimpan scene 3D dalam format file yang didukung, dalam kasus ini, FBX7400ASCII. Langkah ini juga memperlihatkan **convert mesh to FBX**.
 
 ```java
 // The path to the documents directory.
@@ -107,51 +115,39 @@ MyDir = MyDir + "MeshGeometryData.fbx";
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
-## Conclusion
+## Kesalahan Umum & Tips
 
-Selamat! Anda telah berhasil **mengatur warna material**, berbagi data geometri mesh antar beberapa node, dan mengekspor hasilnya sebagai file FBX menggunakan Aspose.3D untuk Java. Ini membuka peluang tak terbatas untuk membuat aplikasi 3D yang visualnya memukau dan interaktif.
+- **Masalah Path** – Pastikan jalur direktori diakhiri dengan pemisah file (`/` atau `\\`) sebelum menambahkan nama file.  
+- **Inisialisasi Lisensi** – Jika Anda lupa mengatur lisensi Aspose.3D sebelum memanggil `scene.save`, perpustakaan akan berjalan dalam mode percobaan dan mungkin menyisipkan watermark.  
+- **Penimpaan Material** – Menggunakan kembali instance `LambertMaterial` yang sama untuk beberapa node akan menyebabkan semua node berbagi warna yang sama. Selalu buat material baru per iterasi, seperti yang ditunjukkan di atas.  
+- **Mesh Besar** – Untuk mesh dengan jutaan vertex, pertimbangkan menggunakan `MeshBuilder` dengan polygon terindeks untuk menjaga ukuran file FBX tetap dapat dikelola.
 
-## FAQ's
+## Pertanyaan yang Sering Diajukan Tambahan
 
-### Q1: Can I use Aspose.3D with other Java frameworks?
+**T1: Dapatkah saya menggunakan Aspose.3D dengan framework Java lainnya?**
+J1: Ya, Aspose.3D dirancang untuk bekerja dengan lancar dengan berbagai framework Java.
 
-A1: Ya, Aspose.3D dirancang untuk bekerja mulus dengan berbagai framework Java.
+**T2: Apakah ada opsi lisensi yang tersedia untuk Aspose.3D?**
+J2: Ya, Anda dapat menjelajahi opsi lisensi [di sini](https://purchase.aspose.com/buy).
 
-### Q2: Are there any licensing options available for Aspose.3D?
+**T3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.3D?**
+J3: Kunjungi [forum](https://forum.aspose.com/c/3d/18) Aspose.3D untuk mendapatkan dukungan dan diskusi.
 
-A2: Ya, Anda dapat menjelajahi opsi lisensi [di sini](https://purchase.aspose.com/buy).
+**T4: Apakah ada uji coba gratis yang tersedia?**
+J4: Ya, Anda bisa mendapatkan uji coba gratis [di sini](https://releases.aspose.com/).
 
-### Q3: How can I get support for Aspose.3D?
+**T5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?**
+J5: Anda bisa mendapatkan lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
-A3: Kunjungi forum Aspose.3D [di sini](https://forum.aspose.com/c/3d/18) untuk dukungan dan diskusi.
+## Kesimpulan
 
-### Q4: Is there a free trial available?
-
-A4: Ya, Anda dapat mendapatkan trial gratis [di sini](https://releases.aspose.com/).
-
-### Q5: How do I obtain a temporary license for Aspose.3D?
-
-A5: Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
-
-## Additional Frequently Asked Questions
-
-**Q: Can I export the scene to other formats besides FBX?**  
-A: Ya, Aspose.3D mendukung OBJ, STL, 3MF, dan lainnya. Cukup ubah enum `FileFormat` pada pemanggilan `save`.
-
-**Q: What if I need to change the material after the scene is created?**  
-A: Ambil node tersebut, modifikasi `LambertMaterial`‑nya (misalnya, `setDiffuseColor`), dan simpan kembali adegan.
-
-**Q: Does the library handle large meshes efficiently?**  
-A: Aspose.3D menggunakan struktur data yang dioptimalkan; namun, untuk mesh yang sangat besar pertimbangkan streaming atau membagi adegan.
-
-**Q: Is there a way to animate the color change?**  
-A: Ya, Anda dapat menganimasikan properti material menggunakan API `AnimationController`.
+Selamat! Anda telah berhasil **mengonversi mesh ke FBX**, membagikan data geometri mesh antar beberapa node, dan mengatur warna material individual menggunakan Aspose.3D untuk Java. Alur kerja ini memberi Anda arsitektur mesh yang ringan dan dapat digunakan kembali yang dapat diekspor ke pipeline yang kompatibel dengan FBX.
 
 ---
 
-**Last Updated:** 2025-12-12  
-**Tested With:** Aspose.3D 24.11 for Java  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-02-17
+**Diuji Dengan:** Aspose.3D 24.11 untuk Java
+**Penulis:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
