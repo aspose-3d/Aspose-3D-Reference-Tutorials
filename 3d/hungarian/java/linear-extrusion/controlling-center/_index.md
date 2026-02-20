@@ -1,35 +1,54 @@
 ---
-title: Vezérlőközpont a Lineáris extrudálásban Aspose.3D for Java segítségével
-linktitle: Vezérlőközpont a Lineáris extrudálásban Aspose.3D for Java segítségével
+date: 2026-02-20
+description: Tanulj egy Java 3D grafikai oktatót a középpont vezérléséről lineáris
+  extrudálásnál az Aspose.3D-vel, beleértve, hogyan állítsd be a lekerekítési sugár
+  értékét és hogyan mentsd el az OBJ fájlt Java-ban.
+linktitle: Controlling Center in Linear Extrusion with Aspose.3D for Java
 second_title: Aspose.3D Java API
-description: Fedezze fel a 3D grafika világát Java nyelven az Aspose.3D segítségével. Könnyedén irányíthatja a középpontot lineáris extrudálással.
-weight: 11
+title: Java 3D grafika útmutató – Középpont a lineáris extrúzióban
 url: /hu/java/linear-extrusion/controlling-center/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vezérlőközpont a Lineáris extrudálásban Aspose.3D for Java segítségével
+# Java 3D grafikai útmutató – Középpont a lineáris extrúzióban
 
 ## Bevezetés
 
-3D grafika és a Java programozás világában a lineáris extrudálás során a központ vezérlése döntő szerepet játszik a kívánt hatások elérésében a projektekben. Az Aspose.3D for Java hatékony eszközkészletet biztosít az ilyen feladatok zökkenőmentes kezelésére. Ebben az oktatóanyagban belemerülünk a központ vezérlésének folyamatába a lineáris kihúzás során az Aspose.3D for Java használatával, az egyes lépéseket lebontva a zökkenőmentes és átfogó megértés érdekében.
+Ha Java‑ban 3D vizualizációkat építesz, az extrúzió technikák elsajátítása elengedhetetlen. Ez a **java 3d graphics tutorial** végigvezet a lineáris extrúzió középpontjának vezérlésén az Aspose.3D for Java segítségével, így pontos, szimmetrikus modelleket hozhatsz létre extra számítások nélkül. A útmutató végére megérted, miért fontos a `center` tulajdonság, hogyan **állítsd be a lekerekítési sugár** értékét, és hogyan **mentsd el az OBJ fájlt java**‑kompatibilis formátumban.
+
+## Gyors válaszok
+- **Mit csinál a center tulajdonság?** Meghatározza, hogy az extrúzió szimmetrikus‑e a profil eredeténél.  
+- **Szükségem van licencre a kód futtatásához?** Ideiglenes licenc teszteléshez elegendő; teljes licenc a termeléshez kötelező.  
+- **Milyen fájlformátumot használ a végeredmény?** A jelenet Wavefront OBJ fájlként kerül mentésre.  
+- **Megváltoztathatom a szeletek számát?** Igen, használd a `setSlices(int)` metódust a `LinearExtrusion` objektumon.  
+- **Az Aspose.3D kompatibilis a Java 8+ verziókkal?** Teljesen – támogatja az összes modern Java verziót.
+
+## Mi az a java 3d graphics tutorial?
+
+Egy **java 3d graphics tutorial** lépésről‑lépésre bemutatja, hogyan használj Java könyvtárakat háromdimenziós objektumok létrehozásához, manipulálásához és rendereléséhez. Ebben az esetben az Aspose.3D extrúzió API‑ra fókuszálunk, amely a 2‑D profilokat teljes értékű 3‑D hálózatokká alakítja.
+
+## Miért használjuk az Aspose.3D for Java‑t?
+
+- **Magas szintű API** – Nem kell alacsony szintű hálózatszámításokat írni.  
+- **Kereszt‑formátum támogatás** – Exportálás OBJ, FBX, STL és további formátumokba.  
+- **Teljesítmény‑optimalizált** – Nagy jeleneteket hatékonyan kezel.  
+- **Gazdag dokumentáció** – Példákat tartalmaz, mint az alább látható.
 
 ## Előfeltételek
 
-Mielőtt nekivágnánk ennek az oktatóanyagnak, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt belevágnál, győződj meg róla, hogy a következők rendelkezésre állnak:
 
-1. Java fejlesztői környezet: Győződjön meg arról, hogy be van állítva Java fejlesztői környezet a gépén.
-
-2.  Aspose.3D for Java: Töltse le és telepítse az Aspose.3D könyvtárat. Megtalálható a könyvtár és a dokumentációja[itt](https://reference.aspose.com/3d/java/).
-
-3. Dokumentumkönyvtár: Hozzon létre egy könyvtárat a Java dokumentumok tárolására. Nevezzük "Az Ön dokumentumkönyvtárának".
+1. **Java fejlesztői környezet** – Telepített JDK 8 vagy újabb.  
+2. **Aspose.3D for Java** – Töltsd le a könyvtárat és a dokumentációt [itt](https://reference.aspose.com/3d/java/).  
+3. **Dokumentum könyvtár** – Hozz létre egy mappát a gépeden a generált fájlok tárolására; ezt **„Your Document Directory”**‑nek nevezzük.
 
 ## Csomagok importálása
 
-Java fejlesztői környezetben importálja az Aspose.3D szükséges csomagjait. Ez biztosítja, hogy kódja hozzáférjen a könyvtár által biztosított funkciókhoz.
+A Java IDE‑dben importáld az Aspose.3D osztályokat, amikre szükséged lesz. Ez hozzáférést biztosít a fordítónak az extrúzió és a jelenet‑építés funkciókhoz.
 
 ```java
 import com.aspose.threed.*;
@@ -38,28 +57,30 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 1. lépés: Állítsa be az alapprofilt
+## Lépés‑ről‑lépésre útmutató
 
-Inicializálja az extrudálandó alapprofilt. Ebben a példában 0,3-as lekerekítési sugarú téglalap alakot fogunk használni.
+### 1. lépés: Alap profil beállítása
+
+Először hozd létre a 2‑D alakzatot, amelyet extrudálni szeretnél. Itt egy téglalapot használunk, és **beállítjuk a lekerekítési sugár** értékét 0,3‑ra, ami kisimítja a sarkokat.
 
 ```java
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## 2. lépés: Hozzon létre egy 3D-s jelenetet
+### 2. lépés: 3D jelenet létrehozása
 
-Építsd meg 3D-s világod alapjait egy jelenet létrehozásával.
+A `Scene` objektum a konténer minden 3‑D csomópont, fény és kamera számára.
 
 ```java
 Scene scene = new Scene();
 ```
 
-## 3. lépés: Hozzon létre bal és jobb csomópontokat
+### 3. lépés: Bal és jobb csomópontok hozzáadása
 
-Hozzon létre bal és jobb csomópontokat a jeleneten belül. Ezek a csomópontok vászonként szolgálnak a 3D objektumok számára.
+Két különálló csomópontot helyezünk el egymás mellett, hogy össze tudd hasonlítani az extrúziót középpont nélkül és középponttal.
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -67,71 +88,86 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## 4. lépés: Lineáris extrudálás középső tulajdonsággal
+### 4. lépés: Lineáris extrúzió – Nincs középpont (Bal csomópont)
 
-Végezzen lineáris extrudálást a bal oldali csomóponton központosítás nélkül, és állítsa a szeletek számát 3-ra.
+Hozd létre az extrúziót a bal csomóponton, tiltsd le a középpontot, és korlátozd a hálót három szeletre egy alacsony poligonszámú előnézethez.
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 2) {{ setCenter(false); setSlices(3); }});
 ```
 
-## 5. lépés: Állítsa be a talajsíkot referenciaként
+### 5. lépés: Referenciapontként föld sík hozzáadása (Bal csomópont)
 
-Javítsa a vizuális megjelenítést egy alapsík hozzáadásával a bal csomóponthoz.
+Egy vékony doboz szolgál vizuális padlóként, segítve az extrúzió tájolásának megértését.
 
 ```java
 left.createChildNode(new Box(0.01, 3, 3));
 ```
 
-## 6. lépés: Lineáris extrudálás középső tulajdonsággal (jobb csomópont)
+### 6. lépés: Lineáris extrúzió – Középponttal (Jobb csomópont)
 
-Hajtsa végre a lineáris kihúzást a jobb oldali csomóponton, ezúttal középre állítva az extrudálást, és ismét állítsa a szeletek számát 3-ra.
+Most ismételd meg az extrúziót, de ezúttal engedélyezd a `center` beállítást. A geometria szimmetrikus lesz a profil eredeténél.
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 2) {{ setCenter(true); setSlices(3); }});
 ```
 
-## 7. lépés: Állítsa be a talajsíkot referenciaként (jobb oldali csomópont)
+### 7. lépés: Referenciapontként föld sík hozzáadása (Jobb csomópont)
 
-A bal csomóponthoz hasonlóan referenciaként adjon hozzá egy alapsíkot a jobb oldali csomóponthoz.
+Ugyanaz a föld sík a jobb oldalra, így a összehasonlítás egyértelmű.
 
 ```java
 right.createChildNode(new Box(0.01, 3, 3));
 ```
 
-## 8. lépés: Mentse el a 3D-s jelenetet
+### 8. lépés: 3D jelenet mentése
 
-Mentse el 3D jelenetét Wavefront OBJ formátumban.
+Végül exportáld a teljes jelenetet Wavefront OBJ fájlba – egy formátumba, amely szinte minden 3‑D szerkesztőben használható.
 
 ```java
 scene.save(MyDir + "CenterInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Következtetés
+## Gyakori problémák és megoldások
 
-A központ lineáris extrudálással történő vezérlése az Aspose.3D for Java segítségével izgalmas lehetőségeket nyit meg a 3D-s grafika fejlesztésében. Ennek a lépésről-lépésre szóló útmutatónak a követésével megtanulta, hogyan kell kezelni a központi tulajdonságot, lehetővé téve a kívánt vizuális effektusok elérését a Java-projektekben.
+| Probléma | Miért fordul elő | Megoldás |
+|----------|------------------|----------|
+| **Az extrúzió el van tolva** | `setCenter(false)` a profilt a sarkán rögzíti. | Használd a `setCenter(true)`‑t a szimmetrikus eredményhez. |
+| **Az OBJ fájl üres** | A kimeneti könyvtár útvonala hibás vagy nincs írási jogosultság. | Ellenőrizd, hogy a `MyDir` egy létező mappára mutat, és az alkalmazásnak van írási joga. |
+| **A lekerekített sarkok élesek** | A lekerekítési sugár túl kicsi a téglalap méretéhez képest. | Növeld a sugár értékét (pl. `setRoundingRadius(0.5)`). |
 
-## GYIK
+## Gyakran feltett kérdések
 
-### 1. kérdés: Használhatom az Aspose.3D for Java-t kereskedelmi projektekben?
+### Q1: Használhatom az Aspose.3D for Java‑t kereskedelmi projektekben?
 
- 1. válasz: Igen, az Aspose.3D for Java kereskedelmi használatra elérhető. Az engedélyezés részleteiért látogasson el a webhelyre[itt](https://purchase.aspose.com/buy).
+A1: Igen, az Aspose.3D for Java kereskedelmi felhasználásra is elérhető. A licencelési részletekért látogass el [ide](https://purchase.aspose.com/buy).
 
-### 2. kérdés: Van ingyenes próbaverzió?
+### Q2: Van ingyenes próba verzió?
 
- 2. válasz: Igen, kipróbálhatja az Aspose.3D for Java ingyenes próbaverzióját[itt](https://releases.aspose.com/).
+A2: Igen, az Aspose.3D for Java ingyenes próbaverzióját [itt](https://releases.aspose.com/) töltheted le.
 
-### 3. kérdés: Hol találok támogatást az Aspose.3D for Java számára?
+### Q3: Hol találok támogatást az Aspose.3D for Java‑hoz?
 
- 3. válasz: Az Aspose.3D közösségi fórum egy nagyszerű hely, ahol támogatást kérhet és megoszthatja tapasztalatait. Látogassa meg a fórumot[itt](https://forum.aspose.com/c/3d/18).
+A3: Az Aspose.3D közösségi fórum kiváló hely a támogatás keresésére és tapasztalatok megosztására. Látogasd meg a fórumot [ide](https://forum.aspose.com/c/3d/18).
 
-### 4. kérdés: Szükségem van ideiglenes licencre a teszteléshez?
+### Q4: Szükségem van ideiglenes licencre a teszteléshez?
 
-V4: Igen, ha tesztelési célból ideiglenes licencre van szüksége, beszerezhet egyet[itt](https://purchase.aspose.com/temporary-license/).
+A4: Igen, ha ideiglenes licencre van szükséged teszteléshez, azt [itt](https://purchase.aspose.com/temporary-license/) szerezheted be.
 
-### 5. kérdés: Hol találom a dokumentációt?
+### Q5: Hol találom a dokumentációt?
 
- 5. válasz: Az Aspose.3D for Java dokumentációja elérhető[itt](https://reference.aspose.com/3d/java/).
+A5: Az Aspose.3D for Java dokumentációja elérhető [itt](https://reference.aspose.com/3d/java/).
+
+## Összegzés
+
+A **java 3d graphics tutorial** elvégzésével most már tudod, hogyan szabályozd a lineáris extrúzió középpontját, állítsd be a lekerekítési sugár értékét, és **mentsd el az OBJ fájlt java**‑kompatibilis formátumban az Aspose.3D segítségével. Ezek a technikák finomhangolt kontrollt biztosítanak a háló szimmetriája felett, ami kulcsfontosságú játékeszközök, CAD prototípusok és tudományos vizualizációk esetén. Nyugodtan kísérletezz különböző profilokkal, szeletszámokkal és export formátumokkal, hogy bővítsd 3‑D eszköztáradat.
+
+---
+
+**Utolsó frissítés:** 2026-02-20  
+**Tesztelt verzió:** Aspose.3D for Java 24.11  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
