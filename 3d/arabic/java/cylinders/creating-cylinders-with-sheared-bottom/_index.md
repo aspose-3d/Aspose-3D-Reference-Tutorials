@@ -129,6 +129,12 @@ scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
 **س: أين يمكنني شراء ترخيص كامل لـ Aspose.3D للغة Java؟**  
 ج: خيارات الشراء متاحة [here](https://purchase.aspose.com/buy).
 
+---
+
+**آخر تحديث:** 2026-01-27  
+**تم الاختبار مع:** Aspose.3D 24.11 for Java  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

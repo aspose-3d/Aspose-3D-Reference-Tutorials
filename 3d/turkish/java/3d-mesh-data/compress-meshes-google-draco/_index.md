@@ -132,6 +132,12 @@ C: Evet, topluluk desteği ve tartışmalar için [Aspose.3D Forum](https://foru
 
 Bu öğreticide Java’da **küre nasıl oluşturulur** mesh'i ve ardından Aspose.3D aracılığıyla Google Draco kullanarak **3D mesh'i sıkıştır**mayı gösterdik. Bu adımları izleyerek mesh dosya boyutlarını büyük ölçüde azaltabilir, yükleme sürelerini iyileştirebilir ve Java tabanlı 3D uygulamalarınızın yanıt verme süresini koruyabilirsiniz.
 
+---
+
+**Son Güncelleme:** 2026-01-27  
+**Test Edildiği Versiyon:** Aspose.3D for Java 24.12 (latest)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

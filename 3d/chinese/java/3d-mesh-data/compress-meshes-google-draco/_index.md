@@ -133,6 +133,14 @@ Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 
 在本教程中，我们演示了 **如何在 Java 中创建球体** 网格，并通过 Aspose.3D 使用 Google Draco **压缩 3D 网格** 数据。遵循这些步骤，您可以显著降低网格文件体积、提升加载速度，并保持 Java‑基 3D 应用的响应性。
 
+---
+
+**最后更新：** 2026-01-27  
+**测试环境：** Aspose.3D for Java 24.12（最新）  
+**作者：** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

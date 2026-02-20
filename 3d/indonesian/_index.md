@@ -118,6 +118,14 @@ A: Satu lisensi Aspose.3D mencakup semua platform yang didukung, namun Anda haru
 **Q: Bagaimana cara mengatasi tekstur yang hilang setelah konversi?**  
 A: Simpan semua file tekstur bersamaan dengan model sumber dan gunakan jalur absolut saat memanggil `scene.Save`, kemudian pastikan folder output berisi tekstur tersebut.
 
+---
+
+**Terakhir Diperbarui:** 2026-01-27  
+**Diuji Dengan:** Aspose.3D 24.11 (latest stable)  
+**Penulis:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

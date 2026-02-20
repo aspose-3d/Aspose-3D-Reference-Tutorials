@@ -100,6 +100,9 @@ Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
 ```
 
 ### Paso 5: Actualizar los índices de material y dividir nuevamente demostrar una estrategia de división diferente, ahora agrupamos los primeros tres planos bajo el material 0 y los tres restantes bajo el material 1, y luego dividimos usando `COMPACT_DATA` para eliminar los vértices no utilizados.
+### Paso 5: Actualizar los índices de material y volver a dividir
+
+Para demostrar una estrategia de división diferente, agrupamos los tres primeros planos en material0 y los tres restantes en material1. Luego, dividimos usando `COMPACT_DATA` para eliminar los vértices no utilizados.
 
 ```java
 // Update material indices and split into 2 sub-meshes

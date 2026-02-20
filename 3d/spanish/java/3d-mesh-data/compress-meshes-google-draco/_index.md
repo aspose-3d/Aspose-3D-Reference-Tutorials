@@ -133,6 +133,14 @@ R: Sí, para soporte comunitario y discusiones, visita el [Foro de Aspose.3D](ht
 
 En este tutorial te mostramos **cómo crear una esfera** en Java y luego **comprimir datos de malla 3D** usando Google Draco a través de Aspose.3D. Siguiendo estos pasos puedes reducir drásticamente el tamaño de los archivos de malla, mejorar los tiempos de carga y mantener tus aplicaciones 3D basadas en Java responsivas.
 
+---
+
+**Última actualización:** 2026-01-27  
+**Probado con:** Aspose.3D for Java 24.12 (latest)  
+**Autor:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

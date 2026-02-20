@@ -130,6 +130,12 @@ V: Ideiglenes licencet szerezhet [itt](https://purchase.aspose.com/temporary-lic
 **K: Hol vásárolhatok teljes Aspose.3D for Java licencet?**  
 V: A vásárlási lehetőségek [itt](https://purchase.aspose.com/buy) érhetők el.
 
+---
+
+**Utolsó frissítés:** 2026-01-27  
+**Tesztelve:** Aspose.3D 24.11 for Java  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -67,6 +67,26 @@ Odkryj wspaniałości modelowania 3D w Javie z Aspose.3D. Naucz się tworzyć za
 ### [Tworzenie cylindrów z pochyłym dnem w Aspose.3D dla Javy](./creating-cylinders-with-sheared-bottom/)
 Naucz się tworzyć spersonalizowane cylindry z pochyłymi dnom przy użyciu Aspose.3D dla Javy. Podnieś swoje umiejętności modelowania 3D dzięki temu przewodnikowi krok po kroku.
 
+## Najczęściej zadawane pytania
+
+**P: Czy mogę używać tych tutoriali cylindrów w projekcie komercyjnym?**  
+O: Tak. Po uzyskaniu ważnej licencji Aspose.3D możesz zintegrować kod z dowolną aplikacją komercyjną.
+
+**P: Do jakich formatów plików mogę eksportować modele cylindrów?**  
+O: Aspose.3D obsługuje OBJ, STL, FBX, 3MF i kilka innych, dając Ci elastyczność w dalszych procesach.
+
+**P: Czy muszę ręcznie zarządzać pamięcią przy tworzeniu wielu cylindrów?**  
+O: Biblioteka obsługuje większość zarządzania pamięcią, ale wywołanie `scene.dispose()` po zakończeniu zwalnia natywne zasoby natychmiast.
+
+**P: Czy można animować parametry cylindra w czasie rzeczywistym?**  
+O: Zdecydowanie. Możesz modyfikować promień, wysokość lub macierz transformacji cylindra w każdej klatce i ponownie renderować scenę.
+
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.3D for Java 24.9  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

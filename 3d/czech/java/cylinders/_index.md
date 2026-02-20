@@ -67,6 +67,26 @@ Objevte zázraky 3D modelování v Javě s Aspose.3D. Naučte se snadno vytvář
 ### [Vytváření válců se zkoseným spodkem v Aspose.3D pro Java](./creating-cylinders-with-sheared-bottom/)
 Naučte se vytvářet přizpůsobené válce se zkoseným spodkem pomocí Aspose.3D pro Java. Posuňte své dovednosti v 3D modelování s tímto krok‑za‑krokem průvodcem.
 
+## Často kladené otázky
+
+**Q: Mohu tyto tutoriály o válcích použít v komerčním projektu?**  
+A: Ano. Jakmile budete mít platnou licenci Aspose.3D, můžete kód integrovat do jakékoli komerční aplikace.
+
+**Q: Do jakých souborových formátů mohu exportovat své modely válců?**  
+A: Aspose.3D podporuje OBJ, STL, FBX, 3MF a několik dalších, což vám poskytuje flexibilitu pro následné zpracování.
+
+**Q: Musím při vytváření mnoha válců spravovat paměť ručně?**  
+A: Knihovna se stará o většinu správy paměti, ale volání `scene.dispose()` po dokončení uvolní nativní zdroje okamžitě.
+
+**Q: Je možné animovat parametry válce za běhu?**  
+A: Rozhodně. Můžete měnit poloměr, výšku nebo transformační matici válce v každém snímku a znovu vykreslit scénu.
+
+---
+
+**Poslední aktualizace:** 2026-01-27  
+**Testováno s:** Aspose.3D for Java 24.9  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

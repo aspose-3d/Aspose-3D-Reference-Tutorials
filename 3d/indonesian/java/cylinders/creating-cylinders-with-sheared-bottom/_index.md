@@ -129,6 +129,12 @@ A: Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com
 **Q: Di mana saya dapat membeli lisensi penuh Aspose.3D untuk Java?**  
 A: Opsi pembelian tersedia [di sini](https://purchase.aspose.com/buy).
 
+---
+
+**Terakhir Diperbarui:** 2026-01-27  
+**Diuji Dengan:** Aspose.3D 24.11 for Java  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -28,6 +28,24 @@ Välkommen till denna **java 3d modeling**‑handledning! I den här steg‑för
 - **How long does the example take to run?** Under a second on a typical workstation  
 
 ## Prerequisites
+Välkommen till denna **java 3d-modellering**‑handledning! I den här steg‑för‑steg‑guiden går vi igenom hur man skapar en cylinder vars botten är snedställd, med hjälp av Aspose.3D‑biblioteket för Java. Oavsett om du följer en **beginner 3d tutorial** eller vill lägga till en anpassad snedställningstransformation på en befintlig modell, kommer du att se exakt hur du sätter upp scenen, applicerar snedställningen och slutligen **export OBJ file java** för användning i andra verktyg.
+
+## Snabba svar
+- **Vilket bibliotek används?** Aspose.3D för Java
+- **Kan jag installera Aspose 3D via Maven?** Ja – lägg till Aspose.3D-beroendet till din `pom.xml`
+- **Krävs en licens för utveckling?** En tillfällig licens räcker för testning; en fullständig licens behövs för produktion
+- **Vilket filformat demonstreras?** Wavefront OBJ (`.obj`)
+- **Hur lång tid tar exemplet att köra?** Under en sekund på en typisk arbetsstation
+
+## Förkunskaper
+
+Innan vi börjar, se till att du har följande:
+
+- Java Development Kit (JDK) installerat på ditt system.
+
+- **Installera Aspose 3D** – ladda ner biblioteket från den officiella webbplatsen [här](https://releases.aspose.com/3d/java/).
+
+- En IDE eller byggverktyg (Maven/Gradle) för att hantera Aspose.3D‑beroendet.
 
 Innan vi börjar, se till att du har följande:
 
@@ -38,6 +56,8 @@ Innan vi börjar, se till att du har följande:
 ## Import Packages
 
 Först importerar vi de klasser vi behöver för scenen, geometri och filhantering.
+
+Först importerar vi de klasser vi behöver för scen, geometri och filhantering.
 
 ```java
 import com.aspose.threed.*;
@@ -50,6 +70,8 @@ import java.io.IOException;
 
 En scen är behållaren för alla 3‑D‑objekt. Vi börjar med att skapa en tom scen.
 
+En scen är behållaren för alla 3‑D‑objekt. Vi börjar med att skapa en tom scen.
+
 ```java
 // ExStart:3
 // Create a scene
@@ -58,6 +80,7 @@ Scene scene = new Scene();
 ```
 
 ## Step 2: Create Cylinder 1 – How to Shear Cylinder
+## Steg 2: Skapa Cylinder1 – Hur man skär cylindern
 
 Nu bygger vi den första cylindern och **applicerar en snedställningstransformation** på dess botten. Detta demonstrerar **hur man snedställer cylinder**‑geometri direkt via API‑et.
 
@@ -73,6 +96,7 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 ```
 
 ## Step 3: Create Cylinder 2 – Standard Cylinder (No Shear)
+## Steg 3: Skapa Cylinder2 – Standardcylinder (ingen skärning)
 
 För jämförelse lägger vi till en andra cylinder som **inte** har en snedställd botten.
 
@@ -86,6 +110,7 @@ scene.getRootNode().createChildNode(cylinder2);
 ```
 
 ## Step 4: Save the Scene – Export OBJ File Java
+## Steg 4: Spara scenen – Exportera OBJ-fil till Java
 
 Till sist exporterar vi scenen till en Wavefront OBJ‑fil, vilket illustrerar användning av **export obj file java**.
 
@@ -97,6 +122,7 @@ scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
 ```
 
 ## Why This Matters for Java 3D Modeling
+## Varför detta är viktigt för 3D-modellering i Java
 
 Att lägga till en snedställning på ett primitivt objekt låter dig skapa mer organiska former utan att behöva externa modelleringsverktyg. Denna teknik är praktisk för:
 
@@ -107,12 +133,16 @@ Att lägga till en snedställning på ett primitivt objekt låter dig skapa mer 
 ## Common Issues & Solutions
 
 | Issue | Solution |
+## Vanliga problem och lösningar
+
+| Problem | Lösning |
 |-------|----------|
 | **Shear appears too extreme** | Justera `Vector2`‑värdena; de representerar snedställningsfaktorn (0‑1‑intervall). |
 | **OBJ file not opening in viewer** | Verifiera att mål katalogen finns och att du har skrivbehörighet. |
 | **License exception at runtime** | Applicera en temporär eller permanent licens innan scenen skapas (`License license = new License(); license.setLicense("Aspose.3D.lic");`). |
 
 ## Frequently Asked Questions
+## Vanliga frågor
 
 **Q: Kan jag använda Aspose.3D för Java med andra Java 3D‑bibliotek?**  
 A: Aspose.3D är designat för att fungera självständigt. Även om du kan integrera det med andra bibliotek, erbjuder det redan ett komplett API för de flesta 3‑D‑uppgifter.
@@ -128,6 +158,12 @@ A: Du kan få en temporär licens [here](https://purchase.aspose.com/temporary-l
 
 **Q: Var kan jag köpa en fullständig Aspose.3D‑licens för Java?**  
 A: Köpalternativ finns tillgängliga [here](https://purchase.aspose.com/buy).
+
+---
+
+**Senast uppdaterad:** 2026-01-27  
+**Testad med:** Aspose.3D 24.11 for Java  
+**Författare:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

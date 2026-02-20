@@ -67,6 +67,26 @@ Explore as maravilhas da modelagem 3D em Java com Aspose.3D. Aprenda a criar cil
 ### [Criando Cilindros com Base Cisalhada no Aspose.3D para Java](./creating-cylinders-with-sheared-bottom/)
 Aprenda a criar cilindros personalizados com bases cisalhadas usando Aspose.3D para Java. Eleve suas habilidades de modelagem 3D com este guia passo a passo.
 
+## Perguntas Frequentes
+
+**Q: Posso usar esses tutoriais de cilindro em um projeto comercial?**  
+A: Sim. Depois de obter uma licença válida do Aspose.3D, você pode integrar o código em qualquer aplicação comercial.
+
+**Q: Em quais formatos de arquivo posso exportar meus modelos de cilindro?**  
+A: Aspose.3D suporta OBJ, STL, FBX, 3MF e vários outros, oferecendo flexibilidade para pipelines posteriores.
+
+**Q: Preciso gerenciar a memória manualmente ao criar muitos cilindros?**  
+A: A biblioteca cuida da maior parte da gestão de memória, mas chamar `scene.dispose()` após terminar libera os recursos nativos prontamente.
+
+**Q: É possível animar os parâmetros de um cilindro em tempo de execução?**  
+A: Absolutamente. Você pode modificar o raio, a altura ou a matriz de transformação do cilindro a cada quadro e re‑renderizar a cena.
+
+---
+
+**Última atualização:** 2026-01-27  
+**Testado com:** Aspose.3D para Java 24.9  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

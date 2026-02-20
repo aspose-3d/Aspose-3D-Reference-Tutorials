@@ -134,6 +134,14 @@ A: Ja, für Community‑Support und Diskussionen besuchen Sie das [Aspose.3D For
 
 In diesem Tutorial haben wir Ihnen gezeigt, **wie man ein Kugel‑Mesh in Java erstellt** und anschließend **3D‑Mesh‑Daten** mit Google Draco über Aspose.3D **komprimiert**. Durch Befolgen dieser Schritte können Sie Mesh‑Dateigrößen drastisch reduzieren, Ladezeiten verbessern und Ihre Java‑basierten 3D‑Anwendungen reaktionsschnell halten.
 
+---
+
+**Zuletzt aktualisiert:** 2026-01-27  
+**Getestet mit:** Aspose.3D für Java 24.12 (neueste)  
+**Autor:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

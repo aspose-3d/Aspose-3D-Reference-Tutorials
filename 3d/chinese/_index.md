@@ -117,6 +117,12 @@ Use `Renderer.render(scene, "output.png")` for **how to render 3d**, and `scene.
 **问：转换后纹理缺失该如何排查？**  
 答：确保所有纹理文件与源模型放在同一目录，并在调用 `scene.Save` 时使用绝对路径，然后检查输出文件夹是否包含纹理。
 
+---
+
+**最后更新：** 2026-01-27  
+**测试环境：** Aspose.3D 24.11（最新稳定版）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

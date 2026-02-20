@@ -67,6 +67,26 @@ Ontdek de wonderen van 3D‑modellering in Java met Aspose.3D. Leer moeiteloos b
 ### [Cilinders met sheared‑bottom maken in Aspose.3D voor Java](./creating-cylinders-with-sheared-bottom/)
 Leer aangepaste cilinders met sheared‑bottoms te maken met Aspose.3D voor Java. Verhoog je 3D‑modelleervaardigheden met deze stap‑voor‑stap‑gids.
 
+## Veelgestelde vragen
+
+**V: Kan ik deze cilinder‑tutorials gebruiken in een commercieel project?**  
+A: Ja. Zodra je een geldige Aspose.3D‑licentie hebt, kun je de code integreren in elke commerciële applicatie.
+
+**V: Naar welke bestandsformaten kan ik mijn cilindermodellen exporteren?**  
+A: Aspose.3D ondersteunt OBJ, STL, FBX, 3MF en diverse andere, waardoor je flexibiliteit krijgt voor downstream‑pijplijnen.
+
+**V: Moet ik het geheugen handmatig beheren bij het maken van veel cilinders?**  
+A: De bibliotheek regelt het grootste deel van het geheugenbeheer, maar het aanroepen van `scene.dispose()` nadat je klaar bent, maakt native resources direct vrij.
+
+**V: Is het mogelijk om de parameters van een cilinder tijdens runtime te animeren?**  
+A: Absoluut. Je kunt de straal, hoogte of transformatie‑matrix van de cilinder per frame aanpassen en de scène opnieuw renderen.
+
+---
+
+**Laatst bijgewerkt:** 2026-01-27  
+**Getest met:** Aspose.3D for Java 24.9  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

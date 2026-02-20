@@ -67,6 +67,26 @@ Khám phá những điều kỳ diệu của mô hình 3D trong Java với Aspos
 ### [Tạo Trụ với Đáy Nghiêng trong Aspose.3D cho Java](./creating-cylinders-with-sheared-bottom/)
 Học cách tạo trụ tùy chỉnh với đáy nghiêng bằng Aspose.3D cho Java. Nâng cao kỹ năng mô hình 3D của bạn với hướng dẫn chi tiết từng bước này.
 
+## Câu hỏi thường gặp
+
+**Q: Tôi có thể sử dụng các hướng dẫn trụ này trong dự án thương mại không?**  
+A: Có. Khi bạn có giấy phép Aspose.3D hợp lệ, bạn có thể tích hợp mã vào bất kỳ ứng dụng thương mại nào.
+
+**Q: Tôi có thể xuất mô hình trụ của mình sang định dạng file nào?**  
+A: Aspose.3D hỗ trợ OBJ, STL, FBX, 3MF và một số định dạng khác, cung cấp cho bạn sự linh hoạt cho các quy trình tiếp theo.
+
+**Q: Tôi có cần quản lý bộ nhớ thủ công khi tạo nhiều trụ không?**  
+A: Thư viện xử lý hầu hết việc quản lý bộ nhớ, nhưng gọi `scene.dispose()` sau khi hoàn thành sẽ giải phóng tài nguyên gốc kịp thời.
+
+**Q: Có thể animating các tham số của trụ trong thời gian chạy không?**  
+A: Chắc chắn. Bạn có thể thay đổi bán kính, chiều cao hoặc ma trận biến đổi của trụ mỗi khung hình và render lại cảnh.
+
+---
+
+**Cập nhật lần cuối:** 2026-01-27  
+**Kiểm tra với:** Aspose.3D for Java 24.9  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

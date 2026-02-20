@@ -119,6 +119,12 @@ R : Une licence unique Aspose.3D couvre toutes les plateformes prises en charg
 **Q : Comment dépanner les textures manquantes après conversion ?**  
 R : Conservez tous les fichiers de texture à côté du modèle source et utilisez des chemins absolus lors de l’appel à `scene.Save`, puis vérifiez que le dossier de sortie contient les textures.
 
+---
+
+**Dernière mise à jour :** 2026-01-27  
+**Testé avec :** Aspose.3D 24.11 (dernière version stable)  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

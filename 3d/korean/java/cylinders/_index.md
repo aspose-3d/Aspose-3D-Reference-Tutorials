@@ -66,6 +66,26 @@ Java와 Aspose.3D로 3D 모델링의 매력을 탐험하고, 오프셋 상단 �
 ### [Aspose.3D for Java에서 전단 하단 실린더 만들기](./creating-cylinders-with-sheared-bottom/)
 Aspose.3D for Java를 사용해 전단 하단 실린더를 만드는 방법을 배우고, 단계별 가이드를 통해 3D 모델링 기술을 한층 끌어올리세요.
 
+## 자주 묻는 질문
+
+**Q: 이 실린더 튜토리얼을 상업 프로젝트에 사용할 수 있나요?**  
+A: 예. 유효한 Aspose.3D 라이선스를 보유하고 있다면 코드를 어떤 상업용 애플리케이션에도 통합할 수 있습니다.
+
+**Q: 실린더 모델을 어떤 파일 포맷으로 내보낼 수 있나요?**  
+A: Aspose.3D는 OBJ, STL, FBX, 3MF 등 여러 포맷을 지원하여 후속 파이프라인에 유연성을 제공합니다.
+
+**Q: 많은 실린더를 만들 때 메모리를 직접 관리해야 하나요?**  
+A: 라이브러리가 대부분의 메모리 관리를 처리하지만, 작업이 끝난 후 `scene.dispose()`를 호출하면 네이티브 리소스를 즉시 해제할 수 있습니다.
+
+**Q: 런타임에 실린더 파라미터를 애니메이션화할 수 있나요?**  
+A: 물론 가능합니다. 매 프레임마다 실린더의 반지름, 높이 또는 변환 행렬을 수정하고 씬을 다시 렌더링하면 됩니다.
+
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.3D for Java 24.9  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

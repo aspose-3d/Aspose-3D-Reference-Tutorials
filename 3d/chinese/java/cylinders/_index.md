@@ -65,6 +65,26 @@ weight: 25
 ### [使用 Aspose.3D for Java 创建剪切底部圆柱体](./creating-cylinders-with-sheared-bottom/)
 学习使用 Aspose.3D for Java 创建剪切底部的自定义圆柱体，通过本分步指南提升你的 3D 建模技能。
 
+## 常见问题
+
+**Q: 我可以在商业项目中使用这些 cylinder 教程吗？**  
+A: 可以。只要拥有有效的 Aspose.3D 许可证，即可将代码集成到任何商业应用中。
+
+**Q: 我可以将 cylinder 模型导出为哪些文件格式？**  
+A: Aspose.3D 支持 OBJ、STL、FBX、3MF 等多种格式，为后续工作流提供灵活性。
+
+**Q: 创建大量 cylinder 时需要手动管理内存吗？**  
+A: 库会自动处理大部分内存管理，但在完成后调用 `scene.dispose()` 可及时释放本地资源。
+
+**Q: 能否在运行时动画化 cylinder 的参数？**  
+A: 完全可以。你可以在每帧修改 cylinder 的半径、高度或变换矩阵，然后重新渲染场景。
+
+---
+
+**最后更新：** 2026-01-27  
+**测试环境：** Aspose.3D for Java 24.9  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

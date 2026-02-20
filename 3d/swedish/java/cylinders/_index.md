@@ -66,6 +66,26 @@ Utforska underverk av 3D‑modellering i Java med Aspose.3D. Lär dig skapa fän
 ### [Skapa cylindrar med sheared‑bottom i Aspose.3D för Java](./creating-cylinders-with-sheared-bottom/)
 Lär dig skapa anpassade cylindrar med sheared‑bottom med Aspose.3D för Java. Höj dina 3D‑modellering färdigheter med denna steg‑för‑steg‑guide.
 
+## Vanliga frågor
+
+**Q: Kan jag använda dessa cylinder‑handledningar i ett kommersiellt projekt?**  
+A: Ja. När du har en giltig Aspose.3D‑licens kan du integrera koden i vilken kommersiell applikation som helst.
+
+**Q: Vilka filformat kan jag exportera mina cylinder‑modeller till?**  
+A: Aspose.3D stödjer OBJ, STL, FBX, 3MF och flera andra, vilket ger dig flexibilitet för efterföljande pipelines.
+
+**Q: Måste jag hantera minnet manuellt när jag skapar många cylindrar?**  
+A: Biblioteket hanterar det mesta av minneshanteringen, men att anropa `scene.dispose()` efter att du är klar frigör inhemska resurser omedelbart.
+
+**Q: Är det möjligt att animera en cylinders parametrar vid körning?**  
+A: Absolut. Du kan modifiera cylinder‑radien, höjden eller transformationsmatrisen varje bildruta och återrendera scenen.
+
+---
+
+**Senast uppdaterad:** 2026-01-27  
+**Testad med:** Aspose.3D för Java 24.9  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

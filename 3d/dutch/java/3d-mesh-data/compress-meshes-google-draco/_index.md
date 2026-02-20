@@ -133,6 +133,14 @@ A: Ja, voor community‑ondersteuning en discussies, bezoek het [Aspose.3D Forum
 
 In deze tutorial hebben we je laten zien **hoe een bol** mesh in Java te maken en vervolgens **3D‑mesh**‑data te **comprimeren** met Google Draco via Aspose.3D. Door deze stappen te volgen kun je de bestandsgrootte van meshes drastisch verkleinen, laadtijden verbeteren en je Java‑gebaseerde 3D‑applicaties responsief houden.
 
+---
+
+**Laatst bijgewerkt:** 2026-01-27  
+**Getest met:** Aspose.3D for Java 24.12 (latest)  
+**Auteur:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

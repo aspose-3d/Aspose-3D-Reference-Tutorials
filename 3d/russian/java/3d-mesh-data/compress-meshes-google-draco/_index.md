@@ -133,6 +133,14 @@ Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 
 В этом руководстве мы показали, **как создать сферическую** сетку в Java и затем **сжать 3D‑сетку** с помощью Google Draco через Aspose.3D. Следуя этим шагам, вы сможете значительно уменьшить размер файлов сетки, ускорить загрузку и сохранить отзывчивость ваших Java‑основанных 3D‑приложений.
 
+---
+
+**Последнее обновление:** 2026-01-27  
+**Тестировано с:** Aspose.3D for Java 24.12 (latest)  
+**Автор:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

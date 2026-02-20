@@ -118,6 +118,12 @@ A: ลิขสิทธิ์ Aspose.3D ตัวเดียวครอบค
 **Q: How do I troubleshoot missing textures after conversion?**  
 A: เก็บไฟล์เทกเจอร์ทั้งหมดไว้เคียงกับโมเดลต้นฉบับและใช้เส้นทางแบบ absolute เมื่อเรียก `scene.Save`, จากนั้นตรวจสอบว่าโฟลเดอร์ผลลัพธ์มีเทกเจอร์อยู่.
 
+---
+
+**อัปเดตล่าสุด:** 2026-01-27  
+**ทดสอบด้วย:** Aspose.3D 24.11 (latest stable)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

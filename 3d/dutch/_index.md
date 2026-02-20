@@ -118,6 +118,14 @@ A: Eén Aspose.3D‑licentie dekt alle ondersteunde platformen, maar je moet wel
 **Q: Hoe los ik ontbrekende texturen op na conversie?**  
 A: Houd alle texture‑bestanden naast het bronmodel en gebruik absolute paden bij het aanroepen van `scene.Save`, controleer vervolgens of de output‑map de texturen bevat.
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.3D 24.11 (latest stable)  
+**Author:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

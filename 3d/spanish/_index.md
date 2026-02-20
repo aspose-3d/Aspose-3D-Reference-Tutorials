@@ -118,6 +118,12 @@ R: Una única licencia de Aspose.3D cubre todas las plataformas compatibles, per
 **P: ¿Cómo soluciono las texturas faltantes después de la conversión?**  
 R: Mantén todos los archivos de textura junto al modelo fuente y usa rutas absolutas al llamar a `scene.Save`, luego verifica que la carpeta de salida contenga las texturas.
 
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.3D 24.11 (latest stable)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

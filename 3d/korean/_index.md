@@ -118,6 +118,12 @@ A: 단일 Aspose.3D 라이선스로 모든 지원 플랫폼을 커버하지만, 
 **Q: 변환 후 텍스처가 누락되는 문제를 어떻게 해결하나요?**  
 A: 모든 텍스처 파일을 원본 모델과 같은 폴더에 두고 `scene.Save` 호출 시 절대 경로를 사용한 뒤, 출력 폴더에 텍스처가 포함되어 있는지 확인하십시오.
 
+---
+
+**마지막 업데이트:** 2026-01-27  
+**테스트 환경:** Aspose.3D 24.11 (최신 안정 버전)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
