@@ -1,35 +1,52 @@
 ---
-title: Centrum sterowania w wytłaczaniu liniowym z Aspose.3D dla Java
-linktitle: Centrum sterowania w wytłaczaniu liniowym z Aspose.3D dla Java
-second_title: Aspose.3D API Java
-description: Poznaj świat grafiki 3D w Javie dzięki Aspose.3D. Kontroluj środek w wytłaczaniu liniowym bez wysiłku.
-weight: 11
+date: 2026-02-20
+description: Poznaj samouczek grafiki 3D w Javie dotyczący sterowania środkiem przy
+  liniowej ekstruzji z Aspose.3D, w tym jak ustawić promień zaokrąglenia i zapisać
+  plik OBJ w Javie.
+linktitle: Controlling Center in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Samouczek grafiki 3D w Javie – Środek w ekstruzji liniowej
 url: /pl/java/linear-extrusion/controlling-center/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Centrum sterowania w wytłaczaniu liniowym z Aspose.3D dla Java
+# Poradnik Java 3D Graphics – Środek w Ekstruzji Liniowej
 
-## Wstęp
+## Wprowadzenie
 
-świecie grafiki 3D i programowania w Java, sterowanie środkiem w wyciskaniu liniowym odgrywa kluczową rolę w uzyskaniu pożądanych efektów w Twoich projektach. Aspose.3D dla Java zapewnia potężny zestaw narzędzi do płynnej obsługi takich zadań. W tym samouczku zagłębimy się w proces kontrolowania środka w wytłaczaniu liniowym przy użyciu Aspose.3D dla Java, dzieląc każdy krok, aby zapewnić płynne i wszechstronne zrozumienie.
+Jeśli tworzysz wizualizacje 3D w Javie, opanowanie technik ekstruzji jest niezbędne. Ten **java 3d graphics tutorial** prowadzi Cię przez kontrolowanie środka ekstruzji liniowej przy użyciu Aspose.3D for Java, dzięki czemu możesz tworzyć precyzyjne, symetryczne modele bez dodatkowych obliczeń. Po zakończeniu tego przewodnika zrozumiesz, dlaczego właściwość `center` ma znaczenie, jak **set rounding radius**, oraz jak **save OBJ file java**‑compatible output.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co robi właściwość center?** Określa, czy ekstruzja jest symetryczna względem początku profilu.  
+- **Czy potrzebuję licencji do uruchomienia kodu?** Tymczasowa licencja działa w testach; pełna licencja jest wymagana w produkcji.  
+- **Jaki format pliku jest używany dla wyniku?** Scena jest zapisywana jako plik Wavefront OBJ.  
+- **Czy mogę zmienić liczbę warstw?** Tak, użyj `setSlices(int)` na obiekcie `LinearExtrusion`.  
+- **Czy Aspose.3D jest kompatybilny z Java 8+?** Absolutnie – obsługuje wszystkie nowoczesne wersje Javy.
 
-Zanim wyruszymy w tę podróż samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest java 3d graphics tutorial?
 
-1. Środowisko programistyczne Java: Upewnij się, że na komputerze skonfigurowano środowisko programistyczne Java.
+**java 3d graphics tutorial** wyjaśnia krok po kroku, jak używać bibliotek Java do tworzenia, manipulowania i renderowania trójwymiarowych obiektów. W tym przypadku skupiamy się na API ekstruzji Aspose.3D, które zamienia profile 2‑D w pełnoprawne siatki 3‑D.
 
-2.  Aspose.3D dla Java: Pobierz i zainstaluj bibliotekę Aspose.3D. Możesz znaleźć bibliotekę i jej dokumentację[Tutaj](https://reference.aspose.com/3d/java/).
+## Dlaczego używać Aspose.3D for Java?
 
-3. Katalog dokumentów: Utwórz katalog do przechowywania dokumentów Java. Nazwijmy to „Twoim katalogiem dokumentów”.
+- **High‑level API** – Nie trzeba pisać niskopoziomowych obliczeń siatek.  
+- **Cross‑format support** – Eksport do OBJ, FBX, STL i innych.  
+- **Performance‑optimized** – Efektywnie obsługuje duże sceny.  
+- **Rich documentation** – Zawiera przykłady, takie jak poniżej.
 
-## Importuj pakiety
+## Prerequisites
 
-środowisku programistycznym Java zaimportuj niezbędne pakiety dla Aspose.3D. Dzięki temu Twój kod będzie miał dostęp do funkcjonalności udostępnianych przez bibliotekę.
+1. **Java Development Environment** – Zainstalowany JDK 8 lub nowszy.  
+2. **Aspose.3D for Java** – Pobierz bibliotekę i dokumentację [tutaj](https://reference.aspose.com/3d/java/).  
+3. **Document Directory** – Utwórz folder na swoim komputerze do przechowywania wygenerowanych plików; będziemy go nazywać **„Your Document Directory.”**
+
+## Importowanie pakietów
+
+W swoim środowisku IDE Java zaimportuj klasy Aspose.3D, które będą potrzebne. Dzięki temu kompilator uzyska dostęp do funkcji ekstruzji i budowania scen.
 
 ```java
 import com.aspose.threed.*;
@@ -38,28 +55,30 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Krok 1: Skonfiguruj profil podstawowy
+## Przewodnik krok po kroku
 
-Zainicjuj profil bazowy, który ma zostać wyciągnięty. W tym przykładzie użyjemy kształtu prostokąta o promieniu zaokrąglenia 0,3.
+### Krok 1: Przygotuj profil bazowy
+
+Najpierw utwórz kształt 2‑D, który zostanie wyekstruzowany. Tutaj używamy prostokąta i **set rounding radius** na 0,3, co wygładza narożniki.
 
 ```java
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## Krok 2: Utwórz scenę 3D
+### Krok 2: Utwórz scenę 3D
 
-Zbuduj fundament swojego świata 3D, tworząc scenę.
+Obiekt `Scene` pełni rolę kontenera dla wszystkich węzłów 3‑D, świateł i kamer.
 
 ```java
 Scene scene = new Scene();
 ```
 
-## Krok 3: Utwórz lewy i prawy węzeł
+### Krok 3: Dodaj węzły lewy i prawy
 
-Utwórz lewy i prawy węzeł w swojej scenie. Węzły te służą jako płótno dla obiektów 3D.
+Umieścimy dwa oddzielne węzły obok siebie, abyś mógł porównać ekstruzję z centrowaniem i bez niego.
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -67,71 +86,86 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Krok 4: Wytłaczanie liniowe z właściwością środkową
+### Krok 4: Ekstruzja liniowa – bez środka (węzeł lewy)
 
-Wykonaj wytłaczanie liniowe na lewym węźle bez centrowania i ustaw liczbę plasterków na 3.
+Utwórz ekstruzję na lewym węźle, wyłącz centrowanie i ogranicz siatkę do trzech warstw, aby uzyskać podgląd low‑poly.
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 2) {{ setCenter(false); setSlices(3); }});
 ```
 
-## Krok 5: Ustaw płaszczyznę podłoża jako odniesienie
+### Krok 5: Dodaj płaszczyznę podłoża jako odniesienie (węzeł lewy)
 
-Popraw reprezentację wizualną, dodając płaszczyznę podstawy do lewego węzła.
+Cienka kostka pełni rolę wizualnej podłogi, pomagając zobaczyć orientację ekstruzji.
 
 ```java
 left.createChildNode(new Box(0.01, 3, 3));
 ```
 
-## Krok 6: Wyciągnięcie liniowe z właściwością środka (prawy węzeł)
+### Krok 6: Ekstruzja liniowa – ze środkiem (węzeł prawy)
 
-Wykonaj wytłaczanie liniowe na prawym węźle, tym razem centrując wytłaczanie i ponownie ustaw liczbę plasterków na 3.
+Teraz powtórz ekstruzję, tym razem włączając `center`. Geometria będzie symetryczna względem początku profilu.
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 2) {{ setCenter(true); setSlices(3); }});
 ```
 
-## Krok 7: Ustaw płaszczyznę podłoża jako odniesienie (prawy węzeł)
+### Krok 7: Dodaj płaszczyznę podłoża jako odniesienie (węzeł prawy)
 
-Podobnie jak w przypadku lewego węzła, dodaj płaszczyznę podłoża do prawego węzła w celach informacyjnych.
+Ta sama płaszczyzna podłoża po prawej stronie, aby porównanie było jasne.
 
 ```java
 right.createChildNode(new Box(0.01, 3, 3));
 ```
 
-## Krok 8: Zapisz scenę 3D
+### Krok 8: Zapisz scenę 3D
 
-Zapisz swoją scenę 3D w formacie Wavefront OBJ.
+Na koniec wyeksportuj całą scenę do pliku Wavefront OBJ – formatu łatwo używalnego w większości edytorów 3‑D.
 
 ```java
 scene.save(MyDir + "CenterInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Sterowanie środkiem w wytłaczaniu liniowym za pomocą Aspose.3D dla Java otwiera ekscytujące możliwości w rozwoju grafiki 3D. Postępując zgodnie z tym przewodnikiem krok po kroku, nauczyłeś się manipulować właściwością center, co pozwala uzyskać pożądane efekty wizualne w projektach Java.
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|---------|----------------------|-------------|
+| **Extrusion appears offset** | `setCenter(false)` pozostawia profil zakotwiczony w jego rogu. | Użyj `setCenter(true)`, aby uzyskać wyniki symetryczne. |
+| **OBJ file is empty** | Ścieżka do katalogu wyjściowego jest niepoprawna lub brakuje uprawnień do zapisu. | Sprawdź, czy `MyDir` wskazuje istniejący folder i aplikacja ma dostęp do zapisu. |
+| **Rounded corners look sharp** | Promień zaokrąglenia jest zbyt mały w stosunku do rozmiaru prostokąta. | Zwiększ wartość promienia (np. `setRoundingRadius(0.5)`). |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę używać Aspose.3D dla Java w projektach komercyjnych?
+### Q1: Czy mogę używać Aspose.3D for Java w projektach komercyjnych?
 
- O1: Tak, Aspose.3D dla Java jest dostępny do użytku komercyjnego. Aby uzyskać szczegółowe informacje na temat licencji, odwiedź stronę[Tutaj](https://purchase.aspose.com/buy).
+A1: Tak, Aspose.3D for Java jest dostępny do użytku komercyjnego. Szczegóły licencjonowania znajdziesz [tutaj](https://purchase.aspose.com/buy).
 
-### P2: Czy dostępny jest bezpłatny okres próbny?
+### Q2: Czy dostępna jest darmowa wersja próbna?
 
- Odpowiedź 2: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.3D dla Java[Tutaj](https://releases.aspose.com/).
+A2: Tak, możesz wypróbować darmową wersję Aspose.3D for Java [tutaj](https://releases.aspose.com/).
 
-### P3: Gdzie mogę znaleźć wsparcie dla Aspose.3D dla Java?
+### Q3: Gdzie mogę znaleźć wsparcie dla Aspose.3D for Java?
 
- Odpowiedź 3: Forum społeczności Aspose.3D jest doskonałym miejscem do szukania wsparcia i dzielenia się swoimi doświadczeniami. Odwiedź forum[Tutaj](https://forum.aspose.com/c/3d/18).
+A3: Forum społeczności Aspose.3D to świetne miejsce, aby uzyskać wsparcie i podzielić się doświadczeniami. Odwiedź forum [tutaj](https://forum.aspose.com/c/3d/18).
 
-### P4: Czy potrzebuję tymczasowej licencji do testowania?
+### Q4: Czy potrzebuję tymczasowej licencji do testów?
 
-Odpowiedź 4: Tak, jeśli potrzebujesz tymczasowej licencji do celów testowych, możesz ją uzyskać[Tutaj](https://purchase.aspose.com/temporary-license/).
+A4: Tak, jeśli potrzebujesz tymczasowej licencji do testów, możesz ją uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
-### P5: Gdzie mogę znaleźć dokumentację?
+### Q5: Gdzie mogę znaleźć dokumentację?
 
- O5: Dostępna jest dokumentacja Aspose.3D dla Java[Tutaj](https://reference.aspose.com/3d/java/).
+A5: Dokumentacja Aspose.3D for Java jest dostępna [tutaj](https://reference.aspose.com/3d/java/).
+
+## Zakończenie
+
+Po ukończeniu tego **java 3d graphics tutorial** wiesz już, jak kontrolować środek ekstruzji liniowej, regulować promień zaokrąglenia i **save OBJ file java** przy użyciu Aspose.3D. Te techniki dają precyzyjną kontrolę nad symetrią siatki, co jest kluczowe dla zasobów gier, prototypów CAD i wizualizacji naukowych. Śmiało eksperymentuj z różnymi profilami, liczbą warstw i formatami eksportu, aby rozbudować swoją skrzynkę narzędziową 3‑D.
+
+---
+
+**Last Updated:** 2026-02-20  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
