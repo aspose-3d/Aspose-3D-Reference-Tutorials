@@ -1,32 +1,51 @@
 ---
-title: Menentukan Irisan dalam Ekstrusi Linier dengan Aspose.3D untuk Java
-linktitle: Menentukan Irisan dalam Ekstrusi Linier dengan Aspose.3D untuk Java
-second_title: Asumsikan.3D Java API
-description: Pelajari cara menentukan irisan dalam ekstrusi linier menggunakan Aspose.3D untuk Java. Tingkatkan keterampilan pemodelan 3D Anda dengan panduan langkah demi langkah ini.
-weight: 13
+date: 2026-02-22
+description: Pelajari cara membuat ekstrusi 3D dengan irisan menggunakan Aspose.3D
+  untuk Java. Panduan langkah demi langkah ini mencakup ekstrusi linier, mengatur
+  radius pembulatan, dan mengekspor OBJ.
+linktitle: Create 3D Extrusion with Slices – Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Buat Ekstrusi 3D dengan Irisan – Aspose.3D untuk Java
 url: /id/java/linear-extrusion/specifying-slices/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menentukan Irisan dalam Ekstrusi Linier dengan Aspose.3D untuk Java
+# Buat Ekstrusi 3D dengan Irisan – Aspose.3D untuk Java
 
-## Perkenalan
+## Pendahuluan
 
-Membuat model 3D yang rumit seringkali membutuhkan lebih dari sekedar kreativitas; itu menuntut pemahaman menyeluruh tentang alat yang Anda miliki. Aspose.3D untuk Java adalah pengubah permainan dalam hal ini. Dalam tutorial ini, kita akan fokus pada aspek tertentu - menentukan irisan dalam ekstrusi linier.
+Jika Anda perlu **membuat ekstrusi 3d** objek yang tampak halus dan presisi, mengontrol jumlah irisan adalah kuncinya. Dalam tutorial ini kami akan menjelaskan cara menentukan irisan saat melakukan ekstrusi linier dengan Aspose.3D untuk Java. Anda akan melihat mengapa jumlah irisan penting, cara mengatur radius pembulatan, dan cara mengekspor hasilnya sebagai file OBJ yang dapat digunakan dalam pipeline 3D apa pun.
+
+## Jawaban Cepat
+- **Apa yang dikontrol oleh “slices”?** Jumlah penampang menengah yang digunakan untuk memperkirakan permukaan ekstrusi.  
+- **Metode mana yang mengatur jumlah irisan?** `LinearExtrusion.setSlices(int)`  
+- **Bisakah saya mengubah radius pembulatan profil?** Ya, melalui `RectangleShape.setRoundingRadius(double)`  
+- **Format file apa yang digunakan dalam contoh ini?** Wavefront OBJ (`FileFormat.WAVEFRONTOBJ`)  
+- **Apakah saya memerlukan lisensi untuk menjalankan kode?** Versi percobaan gratis cukup untuk evaluasi; lisensi komersial diperlukan untuk produksi.
+
+## Apa itu ekstrusi linier dengan irisan?
+
+Ekstrusi linier mengambil profil 2‑D (seperti persegi panjang) dan memanjang‑nya sepanjang garis lurus untuk membentuk padatan 3‑D. Dengan menentukan **irisan**, Anda memberi tahu Aspose.3D berapa banyak langkah menengah yang harus dihasilkan, yang secara langsung memengaruhi kelancaran tepi melengkung seperti persegi panjang dengan sudut bulat.
+
+## Mengapa menggunakan Aspose.3D untuk Java untuk membuat ekstrusi 3d?
+
+* **Kontrol penuh** – Anda dapat menyesuaikan jumlah irisan, radius pembulatan, dan format ekspor secara programatik.  
+* **Lintas platform** – Berfungsi di lingkungan Java apa pun tanpa ketergantungan native.  
+* **Fleksibilitas ekspor** – Langsung menyimpan ke OBJ, FBX, STL, dan banyak format lainnya.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+1. **Java Development Kit** – JDK 8 atau lebih tinggi terpasang.  
+2. **Aspose.3D untuk Java** – Unduh perpustakaan dari situs resmi [di sini](https://releases.aspose.com/3d/java/).  
+3. IDE atau editor teks pilihan Anda.
 
-1. Lingkungan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java di sistem Anda.
-2.  Aspose.3D untuk Java: Unduh dan instal perpustakaan Aspose.3D. Anda dapat menemukan paket yang diperlukan[Di Sini](https://releases.aspose.com/3d/java/).
+## Impor Paket
 
-## Paket Impor
-
-Di proyek Java Anda, impor perpustakaan Aspose.3D. Ini penting untuk mengakses fungsi yang akan kami kerjakan. Tambahkan pernyataan import berikut ke kode Anda:
+Tambahkan namespace Aspose.3D ke proyek Anda sehingga dapat mengakses kelas pemodelan 3‑D.
 
 ```java
 import com.aspose.threed.*;
@@ -34,11 +53,11 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-Sekarang, mari kita bagi contoh ini menjadi beberapa langkah.
+## Panduan Langkah‑per‑Langkah
 
-## Langkah 1: Siapkan Adegan
+### Langkah 1: Siapkan scene dan definisikan profil
 
-Inisialisasi profil dasar yang akan diekstrusi, dalam hal ini, a`RectangleShape` dengan radius pembulatan tertentu. Buat adegan 3D untuk dikerjakan.
+Pertama kami membuat `RectangleShape` dan memberikan **radius pembulatan** agar sudutnya halus. Kemudian kami menginisialisasi `Scene` baru yang akan menampung semua geometri.
 
 ```java
 String MyDir = "Your Document Directory";
@@ -47,9 +66,9 @@ profile.setRoundingRadius(0.3);
 Scene scene = new Scene();
 ```
 
-## Langkah 2: Buat Node
+### Langkah 2: **Buat objek child node** untuk setiap ekstrusi
 
-Hasilkan node kiri dan kanan dalam adegan. Sesuaikan terjemahan node kiri untuk variasi spasial.
+Setiap potongan geometri berada di bawah sebuah `Node`. Di sini kami menghasilkan dua node saudara – satu untuk ekstrusi irisan rendah dan satu lagi untuk ekstrusi irisan tinggi – serta memindahkan node kiri sedikit ke samping agar hasilnya mudah dibandingkan.
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -57,48 +76,54 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Langkah 3: Ekstrusi Linier dengan Irisan
+### Langkah 3: Lakukan ekstrusi linier dan **atur irisan**
 
-Lakukan ekstrusi linier pada kedua node, tentukan jumlah irisan untuk masing-masing node. Ini adalah dimana keajaiban terjadi.
+Sekarang kami benar‑benar **membuat objek ekstrusi 3d**. Konstruktor `LinearExtrusion` menerima profil dan kedalaman ekstrusi. Menggunakan **kelas anonim dalam** kami memanggil `setSlices` untuk mengontrol kelancaran. Node kiri hanya mendapat 2 irisan (kasar), sementara node kanan mendapat 10 irisan (halus).
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 2) {{setSlices(2);}});
 right.createChildNode(new LinearExtrusion(profile, 2) {{setSlices(10);}});
 ```
 
-## Langkah 4: Simpan Adegan
+### Langkah 4: **Ekspor OBJ** – simpan scene
 
-Simpan adegan 3D dalam format yang diinginkan, dalam hal ini, file Wavefront OBJ.
+Akhirnya kami menulis scene ke file Wavefront OBJ, format yang banyak didukung oleh editor 3‑D dan mesin game. Ini menunjukkan kemampuan **export obj java** dari Aspose.3D.
 
 ```java
 scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Kesimpulan
+## Masalah Umum dan Solusinya
 
-Selamat! Anda telah berhasil mempelajari cara menentukan irisan dalam ekstrusi linier menggunakan Aspose.3D untuk Java. Keterampilan ini membuka kemungkinan baru dalam perjalanan pemodelan 3D Anda.
+| Masalah | Mengapa Terjadi | Solusi |
+|---------|----------------|--------|
+| **Ekstrusi tampak datar** | Jumlah irisan diatur ke 1 atau 0 | Pastikan `setSlices` dipanggil dengan nilai ≥ 2. |
+| **Sudut bulat terlihat bergerigi** | Radius pembulatan terlalu kecil relatif terhadap jumlah irisan | Tingkatkan radius atau jumlah irisan untuk kurva yang lebih halus. |
+| **File tidak ditemukan saat menyimpan** | `MyDir` mengarah ke folder yang tidak ada | Buat direktori terlebih dahulu atau gunakan path absolut. |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Bagaimana cara mengunduh Aspose.3D untuk Java?
+**Q: Bagaimana saya dapat mengunduh Aspose.3D untuk Java?**  
+A: Anda dapat mengunduh perpustakaan [di sini](https://releases.aspose.com/3d/java/).
 
- A1: Anda dapat mengunduh perpustakaan[Di Sini](https://releases.aspose.com/3d/java/).
+**Q: Di mana saya dapat menemukan dokumentasi untuk Aspose.3D?**  
+A: Lihat dokumentasi [di sini](https://reference.aspose.com/3d/java/).
 
-### Q2: Di mana saya dapat menemukan dokumentasi untuk Aspose.3D?
+**Q: Apakah tersedia versi percobaan gratis?**  
+A: Ya, Anda dapat menjelajahi versi percobaan gratis [di sini](https://releases.aspose.com/).
 
- A2: Lihat dokumentasi[Di Sini](https://reference.aspose.com/3d/java/).
+**Q: Bagaimana cara mendapatkan dukungan untuk Aspose.3D?**  
+A: Kunjungi forum dukungan [di sini](https://forum.aspose.com/c/3d/18).
 
-### Q3: Apakah tersedia uji coba gratis?
+**Q: Bisakah saya membeli lisensi sementara?**  
+A: Ya, lisensi sementara dapat diperoleh [di sini](https://purchase.aspose.com/temporary-license/).
 
- A3: Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
+---
 
-### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.3D?
+**Terakhir Diperbarui:** 2026-02-22  
+**Diuji dengan:** Aspose.3D untuk Java 24.11 (terbaru pada saat penulisan)  
+**Penulis:** Aspose  
 
- A4: Kunjungi forum dukungan[Di Sini](https://forum.aspose.com/c/3d/18).
-
-### Q5: Bisakah saya membeli lisensi sementara?
-
- A5: Ya, izin sementara dapat diperoleh[Di Sini](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,32 +1,51 @@
 ---
-title: Especificación de cortes en extrusión lineal con Aspose.3D para Java
-linktitle: Especificación de cortes en extrusión lineal con Aspose.3D para Java
-second_title: API de Java Aspose.3D
-description: Aprenda a especificar cortes en extrusión lineal usando Aspose.3D para Java. Mejore sus habilidades de modelado 3D con esta guía paso a paso.
-weight: 13
+date: 2026-02-22
+description: Aprende a crear extrusión 3D con rebanadas usando Aspose.3D para Java.
+  Esta guía paso a paso cubre la extrusión lineal, establecer el radio de redondeo
+  y la exportación a OBJ.
+linktitle: Create 3D Extrusion with Slices – Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Crear extrusión 3D con cortes – Aspose.3D para Java
 url: /es/java/linear-extrusion/specifying-slices/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Especificación de cortes en extrusión lineal con Aspose.3D para Java
+# Crear extrusión 3D con rebanadas – Aspose.3D para Java
 
 ## Introducción
 
-La creación de modelos 3D complejos a menudo requiere algo más que creatividad; exige una comprensión profunda de las herramientas a su disposición. Aspose.3D para Java cambia las reglas del juego en este sentido. En este tutorial, nos centraremos en un aspecto específico: especificar cortes en extrusión lineal.
+Si necesitas **crear extrusión 3d** objetos que se vean suaves y precisos, controlar el número de rebanadas es la clave. En este tutorial recorreremos cómo especificar rebanadas al realizar una extrusión lineal con Aspose.3D para Java. Verás por qué el recuento de rebanadas importa, cómo establecer un radio de redondeo y cómo exportar el resultado como un archivo OBJ que puede usarse en cualquier flujo de trabajo 3D.
+
+## Respuestas rápidas
+- **¿Qué controla “rebanadas”?** El número de secciones transversales intermedias usadas para aproximar la superficie de la extrusión.  
+- **¿Qué método establece el recuento de rebanadas?** `LinearExtrusion.setSlices(int)`  
+- **¿Puedo cambiar el radio de redondeo del perfil?** Sí, mediante `RectangleShape.setRoundingRadius(double)`  
+- **¿Qué formato de archivo se usa en este ejemplo?** Wavefront OBJ (`FileFormat.WAVEFRONTOBJ`)  
+- **¿Necesito una licencia para ejecutar el código?** Una prueba gratuita funciona para evaluación; se requiere una licencia comercial para producción.
+
+## ¿Qué es una extrusión lineal con rebanadas?
+
+La extrusión lineal toma un perfil 2‑D (como un rectángulo) y lo estira a lo largo de una línea recta para formar un sólido 3‑D. Al especificar **rebanadas**, le indicas a Aspose.3D cuántos pasos intermedios generar, lo que influye directamente en la suavidad de los bordes curvos, como un rectángulo redondeado.
+
+## ¿Por qué usar Aspose.3D para Java para crear extrusión 3d?
+
+* **Control total** – Puedes ajustar el recuento de rebanadas, el radio de redondeo y el formato de exportación de forma programática.  
+* **Multiplataforma** – Funciona en cualquier entorno con Java sin dependencias nativas.  
+* **Flexibilidad de exportación** – Guarda directamente en OBJ, FBX, STL y muchos otros formatos.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-
-1. Entorno Java: asegúrese de tener un entorno de desarrollo Java configurado en su sistema.
-2.  Aspose.3D para Java: descargue e instale la biblioteca Aspose.3D. Puedes encontrar los paquetes necesarios.[aquí](https://releases.aspose.com/3d/java/).
+1. **Java Development Kit** – JDK 8 o superior instalado.  
+2. **Aspose.3D para Java** – Descarga la biblioteca desde el sitio oficial [aquí](https://releases.aspose.com/3d/java/).  
+3. Un IDE o editor de texto de tu preferencia.
 
 ## Importar paquetes
 
-En su proyecto Java, importe la biblioteca Aspose.3D. Esto es crucial para acceder a las funcionalidades con las que trabajaremos. Agregue la siguiente declaración de importación a su código:
+Añade el espacio de nombres de Aspose.3D a tu proyecto para que puedas acceder a las clases de modelado 3‑D.
 
 ```java
 import com.aspose.threed.*;
@@ -34,11 +53,11 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-Ahora, dividamos el ejemplo en varios pasos.
+## Guía paso a paso
 
-## Paso 1: configurar la escena
+### Paso 1: Configurar la escena y definir el perfil
 
-Inicialice el perfil base a extruir, en este caso, un`RectangleShape` con un radio de redondeo especificado. Crea una escena 3D para trabajar.
+Primero creamos un `RectangleShape` y le damos un **radio de redondeo** para que las esquinas sean suaves. Luego inicializamos una nueva `Scene` que contendrá toda la geometría.
 
 ```java
 String MyDir = "Your Document Directory";
@@ -47,9 +66,9 @@ profile.setRoundingRadius(0.3);
 Scene scene = new Scene();
 ```
 
-## Paso 2: crear nodos
+### Paso 2: **Crear objetos nodo hijo** para cada extrusión
 
-Genera nodos izquierdo y derecho dentro de la escena. Ajuste la traducción del nodo izquierdo para la variación espacial.
+Cada pieza de geometría vive bajo un `Node`. Aquí generamos dos nodos hermanos – uno para una extrusión de baja rebanada y otro para una extrusión de alta rebanada – y movemos el nodo izquierdo un poco a un lado para que los resultados sean fáciles de comparar.
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -57,48 +76,54 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Paso 3: Extrusión lineal con cortes
+### Paso 3: Realizar la extrusión lineal y **establecer rebanadas**
 
-Realice una extrusión lineal en ambos nodos, especificando el número de cortes para cada uno. Aquí es donde ocurre la magia.
+Ahora realmente **creamos objetos de extrusión 3d**. El constructor `LinearExtrusion` recibe el perfil y la profundidad de la extrusión. Usando una **clase interna anónima** llamamos a `setSlices` para controlar la suavidad. El nodo izquierdo obtiene solo 2 rebanadas (baja resolución), mientras que el nodo derecho obtiene 10 rebanadas (alta resolución).
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 2) {{setSlices(2);}});
 right.createChildNode(new LinearExtrusion(profile, 2) {{setSlices(10);}});
 ```
 
-## Paso 4: guarda la escena
+### Paso 4: **Exportar OBJ** – guardar la escena
 
-Guarde la escena 3D en el formato deseado, en este caso, un archivo Wavefront OBJ.
+Finalmente escribimos la escena a un archivo Wavefront OBJ, un formato ampliamente soportado por editores 3‑D y motores de juego. Esto demuestra la capacidad **export obj java** de Aspose.3D.
 
 ```java
 scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Conclusión
+## Problemas comunes y soluciones
 
-¡Felicidades! Ha aprendido con éxito cómo especificar cortes en extrusión lineal usando Aspose.3D para Java. Esta habilidad abre nuevas posibilidades en su viaje de modelado 3D.
+| Problema | Por qué ocurre | Solución |
+|----------|----------------|----------|
+| **La extrusión parece plana** | El recuento de rebanadas está establecido en 1 o 0 | Asegúrate de que `setSlices` se llame con un valor ≥ 2. |
+| **Las esquinas redondeadas se ven dentadas** | El radio de redondeo es demasiado pequeño respecto al recuento de rebanadas | Incrementa el radio o el recuento de rebanadas para curvas más suaves. |
+| **Archivo no encontrado al guardar** | `MyDir` apunta a una carpeta inexistente | Crea el directorio previamente o usa una ruta absoluta. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Cómo puedo descargar Aspose.3D para Java?
+**P: ¿Cómo puedo descargar Aspose.3D para Java?**  
+R: Puedes descargar la biblioteca [aquí](https://releases.aspose.com/3d/java/).
 
- A1: Puedes descargar la biblioteca.[aquí](https://releases.aspose.com/3d/java/).
+**P: ¿Dónde puedo encontrar la documentación de Aspose.3D?**  
+R: Consulta la documentación [aquí](https://reference.aspose.com/3d/java/).
 
-### P2: ¿Dónde puedo encontrar la documentación de Aspose.3D?
+**P: ¿Hay una prueba gratuita disponible?**  
+R: Sí, puedes explorar una prueba gratuita [aquí](https://releases.aspose.com/).
 
- A2: consulte la documentación[aquí](https://reference.aspose.com/3d/java/).
+**P: ¿Cómo puedo obtener soporte para Aspose.3D?**  
+R: Visita el foro de soporte [aquí](https://forum.aspose.com/c/3d/18).
 
-### P3: ¿Hay una prueba gratuita disponible?
+**P: ¿Puedo comprar una licencia temporal?**  
+R: Sí, una licencia temporal se puede obtener [aquí](https://purchase.aspose.com/temporary-license/).
 
- R3: Sí, puedes explorar una prueba gratuita[aquí](https://releases.aspose.com/).
+---
 
-### P4: ¿Cómo puedo obtener soporte para Aspose.3D?
+**Última actualización:** 2026-02-22  
+**Probado con:** Aspose.3D para Java 24.11 (última versión al momento de escribir)  
+**Autor:** Aspose  
 
- A4: Visita el foro de soporte[aquí](https://forum.aspose.com/c/3d/18).
-
-### P5: ¿Puedo comprar una licencia temporal?
-
- R5: Sí, se puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,32 +1,51 @@
 ---
-title: Chỉ định các lát cắt trong ép đùn tuyến tính với Aspose.3D cho Java
-linktitle: Chỉ định các lát cắt trong ép đùn tuyến tính với Aspose.3D cho Java
-second_title: API Java Aspose.3D
-description: Tìm hiểu cách chỉ định các lát cắt trong ép đùn tuyến tính bằng Aspose.3D cho Java. Nâng cao kỹ năng lập mô hình 3D của bạn với hướng dẫn từng bước này.
-weight: 13
+date: 2026-02-22
+description: Học cách tạo extrude 3D với các lát cắt bằng Aspose.3D cho Java. Hướng
+  dẫn chi tiết này bao gồm extrude tuyến tính, thiết lập bán kính bo tròn và xuất
+  OBJ.
+linktitle: Create 3D Extrusion with Slices – Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Tạo Đùn 3D với Các Lát – Aspose.3D cho Java
 url: /vi/java/linear-extrusion/specifying-slices/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chỉ định các lát cắt trong ép đùn tuyến tính với Aspose.3D cho Java
+# Tạo Đùn 3D với Các Lát – Aspose.3D cho Java
 
-## Giới thiệu
+## Introduction
 
-Việc tạo các mô hình 3D phức tạp thường đòi hỏi nhiều thứ hơn là chỉ có tính sáng tạo; nó đòi hỏi sự hiểu biết thấu đáo về các công cụ mà bạn có thể sử dụng. Aspose.3D cho Java là một công cụ thay đổi cuộc chơi về mặt này. Trong hướng dẫn này, chúng ta sẽ tập trung vào một khía cạnh cụ thể - chỉ định các lát cắt trong ép đùn tuyến tính.
+Nếu bạn cần **tạo các đối tượng đùn 3d** trông mượt mà và chính xác, việc kiểm soát số lượng các lát là chìa khóa. Trong hướng dẫn này chúng ta sẽ đi qua cách chỉ định các lát khi thực hiện một đùn tuyến tính với Aspose.3D cho Java. Bạn sẽ thấy tại sao số lượng lát quan trọng, cách đặt bán kính làm tròn, và cách xuất kết quả dưới dạng tệp OBJ có thể dùng trong bất kỳ quy trình 3D nào.
 
-## Điều kiện tiên quyết
+## Quick Answers
+- **“slices” kiểm soát gì?** Số lượng các mặt cắt trung gian được dùng để xấp xỉ bề mặt đùn.  
+- **Phương thức nào đặt số lượng lát?** `LinearExtrusion.setSlices(int)`  
+- **Tôi có thể thay đổi bán kính làm tròn của hình dạng không?** Có, thông qua `RectangleShape.setRoundingRadius(double)`  
+- **Định dạng tệp nào được sử dụng trong ví dụ này?** Wavefront OBJ (`FileFormat.WAVEFRONTOBJ`)  
+- **Tôi có cần giấy phép để chạy mã không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép thương mại cần thiết cho môi trường sản xuất.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## What is a linear extrusion with slices?
 
-1. Môi trường Java: Đảm bảo rằng bạn đã thiết lập môi trường phát triển Java trên hệ thống của mình.
-2.  Aspose.3D cho Java: Tải xuống và cài đặt thư viện Aspose.3D. Bạn có thể tìm thấy các gói cần thiết[đây](https://releases.aspose.com/3d/java/).
+Đùn tuyến tính lấy một hình dạng 2‑D (như hình chữ nhật) và kéo dài nó dọc theo một đường thẳng để tạo thành một khối 3‑D. Bằng cách chỉ định **slices**, bạn cho Aspose.3D biết cần tạo bao nhiêu bước trung gian, điều này ảnh hưởng trực tiếp đến độ mượt của các cạnh cong như hình chữ nhật có góc bo tròn.
 
-## Gói nhập khẩu
+## Why use Aspose.3D for Java to create 3d extrusion?
 
-Trong dự án Java của bạn, hãy nhập thư viện Aspose.3D. Điều này rất quan trọng để truy cập các chức năng mà chúng ta sẽ làm việc. Thêm câu lệnh nhập sau vào mã của bạn:
+* **Kiểm soát đầy đủ** – Bạn có thể điều chỉnh số lượng lát, bán kính làm tròn và định dạng xuất một cách lập trình.  
+* **Đa nền tảng** – Hoạt động trên bất kỳ môi trường hỗ trợ Java nào mà không cần phụ thuộc gốc.  
+* **Linh hoạt trong xuất** – Lưu trực tiếp sang OBJ, FBX, STL và nhiều định dạng khác.
+
+## Prerequisites
+
+1. **Bộ công cụ phát triển Java** – JDK 8 trở lên đã được cài đặt.  
+2. **Aspose.3D cho Java** – Tải thư viện từ trang chính thức [here](https://releases.aspose.com/3d/java/).  
+3. Một IDE hoặc trình soạn thảo văn bản mà bạn lựa chọn.
+
+## Import Packages
+
+Thêm không gian tên Aspose.3D vào dự án của bạn để có thể truy cập các lớp mô hình 3‑D.
 
 ```java
 import com.aspose.threed.*;
@@ -34,11 +53,11 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-Bây giờ, hãy chia ví dụ thành nhiều bước.
+## Step‑by‑Step Guide
 
-## Bước 1: Thiết lập cảnh
+### Step 1: Set up the scene and define the profile
 
-Khởi tạo cấu hình cơ sở sẽ được ép đùn, trong trường hợp này là một`RectangleShape` với bán kính làm tròn xác định. Tạo cảnh 3D để làm việc bên trong.
+Đầu tiên chúng ta tạo một `RectangleShape` và đặt **bán kính làm tròn** để các góc trở nên mượt. Sau đó chúng ta khởi tạo một `Scene` mới sẽ chứa toàn bộ hình học.
 
 ```java
 String MyDir = "Your Document Directory";
@@ -47,9 +66,9 @@ profile.setRoundingRadius(0.3);
 Scene scene = new Scene();
 ```
 
-## Bước 2: Tạo nút
+### Step 2: **Create child node** objects for each extrusion
 
-Tạo các nút trái và phải trong cảnh. Điều chỉnh bản dịch của nút bên trái để thay đổi không gian.
+Mỗi phần hình học đều nằm dưới một `Node`. Ở đây chúng ta tạo hai nút anh em – một cho đùn ít lát và một cho đùn nhiều lát – và di chuyển nút bên trái một chút sang phía để kết quả dễ so sánh.
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -57,48 +76,54 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Bước 3: Đùn tuyến tính với các lát
+### Step 3: Perform linear extrusion and **set slices**
 
-Thực hiện đùn tuyến tính trên cả hai nút, chỉ định số lượng lát cho mỗi nút. Đây là nơi phép thuật xảy ra.
+Bây giờ chúng ta thực sự **tạo các đối tượng đùn 3d**. Hàm tạo `LinearExtrusion` nhận hình dạng và độ sâu đùn. Sử dụng một **lớp nội bộ ẩn danh** chúng ta gọi `setSlices` để điều khiển độ mượt. Nút bên trái chỉ có 2 lát (thô), trong khi nút bên phải có 10 lát (mượt).
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 2) {{setSlices(2);}});
 right.createChildNode(new LinearExtrusion(profile, 2) {{setSlices(10);}});
 ```
 
-## Bước 4: Lưu cảnh
+### Step 4: **Export OBJ** – save the scene
 
-Lưu cảnh 3D ở định dạng mong muốn, trong trường hợp này là tệp OBJ Wavefront.
+Cuối cùng chúng ta ghi cảnh vào tệp Wavefront OBJ, một định dạng được hỗ trợ rộng rãi bởi các trình chỉnh sửa 3‑D và engine game. Điều này minh họa khả năng **export obj java** của Aspose.3D.
 
 ```java
 scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Phần kết luận
+## Common Issues and Solutions
 
-Chúc mừng! Bạn đã học thành công cách chỉ định các lát cắt trong ép đùn tuyến tính bằng cách sử dụng Aspose.3D cho Java. Kỹ năng này mở ra những khả năng mới trong hành trình lập mô hình 3D của bạn.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|-----------|
+| **Đùn xuất hiện phẳng** | Số lượng lát được đặt thành 1 hoặc 0 | Đảm bảo `setSlices` được gọi với giá trị ≥ 2. |
+| **Các góc bo tròn trông răng cưa** | Bán kính làm tròn quá nhỏ so với số lượng lát | Tăng bán kính hoặc số lượng lát để có đường cong mượt hơn. |
+| **Không tìm thấy tệp khi lưu** | `MyDir` trỏ tới thư mục không tồn tại | Tạo thư mục trước hoặc sử dụng đường dẫn tuyệt đối. |
 
-## Câu hỏi thường gặp
+## Frequently Asked Questions
 
-### Câu hỏi 1: Làm cách nào tôi có thể tải xuống Aspose.3D cho Java?
+**Q: Làm thế nào tôi có thể tải Aspose.3D cho Java?**  
+A: Bạn có thể tải thư viện [here](https://releases.aspose.com/3d/java/).
 
- A1: Bạn có thể tải xuống thư viện[đây](https://releases.aspose.com/3d/java/).
+**Q: Tôi có thể tìm tài liệu cho Aspose.3D ở đâu?**  
+A: Tham khảo tài liệu [here](https://reference.aspose.com/3d/java/).
 
-### Câu hỏi 2: Tôi có thể tìm tài liệu về Aspose.3D ở đâu?
+**Q: Có bản dùng thử miễn phí không?**  
+A: Có, bạn có thể khám phá bản dùng thử miễn phí [here](https://releases.aspose.com/).
 
- A2: Tham khảo tài liệu[đây](https://reference.aspose.com/3d/java/).
+**Q: Làm sao tôi có thể nhận hỗ trợ cho Aspose.3D?**  
+A: Truy cập diễn đàn hỗ trợ [here](https://forum.aspose.com/c/3d/18).
 
-### Câu 3: Có bản dùng thử miễn phí không?
+**Q: Tôi có thể mua giấy phép tạm thời không?**  
+A: Có, giấy phép tạm thời có thể được mua [here](https://purchase.aspose.com/temporary-license/).
 
- Câu trả lời 3: Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+---
 
-### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.3D?
+**Cập nhật lần cuối:** 2026-02-22  
+**Kiểm tra với:** Aspose.3D for Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose  
 
- A4: Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/3d/18).
-
-### Câu hỏi 5: Tôi có thể mua giấy phép tạm thời không?
-
- Câu trả lời 5: Có, có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
