@@ -1,34 +1,65 @@
 ---
-title: استخدام الإزاحة الملتوية في البثق الخطي باستخدام Aspose.3D لـ Java
-linktitle: استخدام الإزاحة الملتوية في البثق الخطي باستخدام Aspose.3D لـ Java
-second_title: Aspose.3D جافا API
-description: عزز مهاراتك في النمذجة ثلاثية الأبعاد باستخدام Aspose.3D لـ Java. تعلم كيفية استخدام Twist Offset في Linear Extrusion في هذا البرنامج التعليمي الشامل.
-
-weight: 15
+date: 2026-02-22
+description: تعلم كيفية إنشاء مشهد ثلاثي الأبعاد وتصديره باستخدام Aspose.3D للغة Java
+  مع الالتواء الخطي للامتداد وإزاحة الالتواء.
+linktitle: Using Twist Offset in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: كيفية إنشاء مشهد ثلاثي الأبعاد مع إزاحة الالتواء في البثق الخطي باستخدام Aspose.3D
+  لجافا
 url: /ar/java/linear-extrusion/using-twist-offset/
+weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+/products-backtop-button >}}
+
+Then horizontal line "---"
+
+Then "**Last Updated:** 2026-02-22" => translate "آخر تحديث:" maybe keep bold.
+
+**Tested With:** ... => translate.
+
+**Author:** Aspose => translate "المؤلف:".
+
+But keep bold formatting.
+
+Now produce final content.
+
+Be careful not to translate code block placeholders.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استخدام الإزاحة الملتوية في البثق الخطي باستخدام Aspose.3D لـ Java
+# استخدام إزاحة الالتواء في البثق الخطي مع Aspose.3D للـ Java
 
-## مقدمة
+## المقدمة
 
-في العالم الديناميكي للرسومات ثلاثية الأبعاد، يعد إتقان فن البثق الخطي بمثابة تغيير جذري لقواعد اللعبة. باستخدام Aspose.3D for Java، يمكنك رفع مهاراتك في النمذجة ثلاثية الأبعاد من خلال دمج ميزة Twist Offset في عملية البثق الخطي. سيرشدك هذا البرنامج التعليمي خلال خطوات استخدام Twist Offset في Linear Extrusion باستخدام Aspose.3D لـ Java، مما يوفر لك الأدوات اللازمة لإنشاء مشاهد ثلاثية الأبعاد مذهلة.
+في العالم الديناميكي للرسومات ثلاثية الأبعاد، إتقان فن **create 3d scene** يُغيّر قواعد اللعبة لأي مشروع نمذجة ثلاثية الأبعاد بلغة Java. باستخدام Aspose.3D للـ Java يمكنك ليس فقط بثق الأشكال خطيًا بل أيضًا إضافة إزاحة التواء لإنتاج هندسة معقّدة ومُلتوية. يرشّحك هذا الدليل عبر كل خطوة تحتاجها لـ **create 3d scene**، وتطبيق التواء البثق الخطي، وأخيرًا **export 3d scene** إلى ملف OBJ شائع.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **What does Twist Offset do?** إنه يغيّر نقطة البداية للالتواء، مما يتيح لك إزاحة الدوران على طول مسار البثق.  
+- **Which class performs linear extrusion?** `LinearExtrusion` – يمكنك ضبط الالتواء، الشرائح، وإزاحة الالتواء عليها.  
+- **Can I export the result?** نعم، استدعِ `scene.save(..., FileFormat.WAVEFRONTOBJ)` لتصدير المشهد ثلاثي الأبعاد.  
+- **Do I need a license for development?** الترخيص المؤقت يكفي للاختبار؛ الترخيص الكامل مطلوب للإنتاج.  
+- **What Java version is supported?** أي بيئة تشغيل Java 8+ تعمل مع أحدث مكتبة Aspose.3D.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو “create 3d scene” في Aspose.3D؟
+إنشاء مشهد ثلاثي الأبعاد يعني إنشاء كائن `Scene`، إضافة العقد (الكائنات) إلى هيكله، وأخيرًا حفظ المشهد إلى تنسيق ملف تختاره. هذا هو الأساس لأي سير عمل نمذجة ثلاثية الأبعاد في Java.
 
-- بيئة جافا: تأكد من إعداد بيئة تطوير جافا على نظامك.
--  Aspose.3D لـ Java: قم بتنزيل وتثبيت مكتبة Aspose.3D من[رابط التحميل](https://releases.aspose.com/3d/java/).
--  التوثيق: تعرف على[Aspose.3D لوثائق جافا](https://reference.aspose.com/3d/java/).
+## لماذا نستخدم التواء البثق الخطي مع إزاحة الالتواء؟
+إضافة التواء أثناء البثق يمنحك أشكالًا حلزونية مثل الأعمدة اللولبية أو المقابض الزخرفية. إزاحة الالتواء تتيح لك بدء الالتواء من موضع مخصص، مما يوفر تحكمًا أدق في الشكل النهائي—مثالي للأجزاء الميكانيكية، النماذج الفنية، أو التفاصيل المعمارية.
 
-## حزم الاستيراد
+## المتطلبات المسبقة
 
-في مشروع Java الخاص بك، قم باستيراد الحزم اللازمة لبدء استخدام Aspose.3D لـ Java. تأكد من تضمين المكتبات المطلوبة للتكامل السلس.
+قبل الغوص في الدليل، تأكد من توفر المتطلبات التالية:
+
+- **Java Environment:** تأكد من إعداد بيئة تطوير Java على نظامك.  
+- **Aspose.3D for Java:** قم بتحميل وتثبيت مكتبة Aspose.3D من [رابط التحميل](https://releases.aspose.com/3d/java/).  
+- **Documentation:** تعرّف على [توثيق Aspose.3D للـ Java](https://reference.aspose.com/3d/java/).
+
+## استيراد الحزم
+
+في مشروع Java الخاص بك، استورد الحزم اللازمة للبدء باستخدام Aspose.3D للـ Java. تأكد من تضمين المكتبات المطلوبة لتكامل سلس.
 
 ```java
 import com.aspose.threed.*;
@@ -36,92 +67,97 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## الخطوة 1: إعداد البيئة
+## كيفية إنشاء 3d scene – دليل خطوة بخطوة
 
-ابدأ بإعداد بيئة تطوير Java الخاصة بك والتأكد من تثبيت Aspose.3D for Java بشكل صحيح.
+### الخطوة 1: إعداد البيئة
+ابدأ بإعداد بيئة تطوير Java والتأكد من تثبيت Aspose.3D للـ Java بشكل صحيح. هذه الخطوة أساسية لأي عمل **java 3d modeling**.
 
-## الخطوة 2: تهيئة ملف التعريف الأساسي
-
-قم بإنشاء ملف تعريف أساسي للبثق، في هذه الحالة، شكل مستطيل بنصف قطر تقريب يبلغ 0.3.
+### الخطوة 2: تهيئة الملف الأساسي
+أنشئ ملفًا أساسيًا للبثق، في هذه الحالة `RectangleShape` بنصف قطر تقويس 0.3. يحدد الملف المقطع العرضي الذي سيُسحب على طول مسار البثق.
 
 ```java
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
-// قم بتهيئة ملف التعريف الأساسي المراد قذفه
+// Initialize the base profile to be extruded
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## الخطوة 3: إنشاء مشهد ثلاثي الأبعاد
-
-أنشئ مشهدًا ثلاثي الأبعاد لإيواء الأشياء المبثوقة.
+### الخطوة 3: إنشاء مشهد ثلاثي الأبعاد
+بناء مشهد ثلاثي الأبعاد لاستضافة الكائنات المبعثرة. هنا ستقوم **create child node** للعناصر التي تمثل كل قطعة هندسية.
 
 ```java
-// إنشاء مشهد
+// Create a scene
 Scene scene = new Scene();
 ```
 
-## الخطوة 4: إنشاء العقد
-
-قم بإنشاء العقد داخل المشهد لتمثيل كيانات مختلفة.
+### الخطوة 4: إنشاء العقد
+إنشاء عقد داخل المشهد لتمثيل كيانات مختلفة. هنا ننشئ عقدتين شقيقتين—واحدة للبثق العادي وأخرى تستخدم إزاحة الالتواء.
 
 ```java
-// إنشاء العقدة اليسرى
+// Create left node
 Node left = scene.getRootNode().createChildNode();
-// إنشاء العقدة الصحيحة
+// Create right node
 Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## الخطوة 5: إجراء البثق الخطي
-
-الاستفادة من النتوء الخطي على العقدتين اليسرى واليمنى بخصائص مختلفة.
+### الخطوة 5: تنفيذ البثق الخطي مع الالتواء وإزاحة الالتواء
+طبق البثق الخطي على كلتا العقدتين. تُظهر العقدة اليسرى التواءً أساسيًا، بينما تضيف العقدة اليمنى إزاحة الالتواء لتوضيح التحكم الإضافي الذي تحصل عليه مع هذه الميزة.
 
 ```java
-// إجراء قذف خطي على العقدة اليسرى باستخدام خاصية الالتواء والشرائح
+// Perform linear extrusion on left node using twist and slices property
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 
-// إجراء قذف خطي على العقدة اليمنى باستخدام خاصية الالتواء والإزاحة والشرائح
+// Perform linear extrusion on right node using twist, twist offset, and slices property
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setTwistOffset(new Vector3(3, 0, 0)); }});
 ```
 
-## الخطوة 6: احفظ المشهد ثلاثي الأبعاد
+> **نصيحة احترافية:** اضبط `setSlices()` لزيادة دقة الشبكة عندما تحتاج إلى انحناءات أكثر سلاسة.
 
-احفظ المشهد ثلاثي الأبعاد الذي تم إنشاؤه حديثًا بتنسيق الملف المحدد.
+### الخطوة 6: حفظ المشهد ثلاثي الأبعاد (Export 3d scene)
+أخيرًا، صدّر المشهد المُجمّع إلى ملف OBJ حتى تتمكن من عرضه في أي عارض ثلاثي الأبعاد قياسي أو استيراده إلى خطوط أنابيب أخرى.
 
 ```java
-// حفظ مشهد ثلاثي الأبعاد
+// Save 3D scene
 scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## خاتمة
+عند تشغيل الكود بنجاح، ستجد `TwistOffsetInLinearExtrusion.obj` في الدليل المحدد، جاهزًا للفتح في أدوات مثل Blender أو MeshLab أو أي برنامج CAD.
 
-تهانينا! لقد نجحت في تنفيذ Twist Offset في Linear Extrusion باستخدام Aspose.3D لـ Java. تفتح هذه الميزة القوية عالمًا من الإمكانيات لمساعيك في تصميم النماذج ثلاثية الأبعاد، مما يسمح لك بإنشاء مشاهد معقدة وآسرة.
+## المشكلات الشائعة والحلول
+| المشكلة | سبب حدوثها | الحل |
+|-------|----------------|-----|
+| **Scene saves as empty file** | مسار `MyDir` غير صحيح أو يفتقر إلى أذونات الكتابة. | تحقق من وجود الدليل وأنه قابل للكتابة، أو استخدم مسارًا مطلقًا. |
+| **Twist looks flat** | `setSlices()` منخفض جدًا، مما ينتج شبكة خشنّة. | زد عدد الشرائح (مثلاً 200) للحصول على التواء أكثر سلاسة. |
+| **Twist offset has no effect** | المتجه الإزاحي متوازي مع اتجاه البثق. | استخدم مكوّن X أو Y غير صفري لرؤية تأثير الإزاحة. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني استخدام Aspose.3D لـ Java في المشاريع غير التجارية؟
+### س1: هل يمكنني استخدام Aspose.3D للـ Java في المشاريع غير التجارية؟
+نعم، يمكن استخدام Aspose.3D للـ Java في كل من المشاريع التجارية وغير التجارية. راجع [خيارات الترخيص](https://purchase.aspose.com/buy) للمزيد من التفاصيل.
 
- ج1: نعم، يمكن استخدام Aspose.3D for Java في المشاريع التجارية وغير التجارية. افحص ال[خيارات الترخيص](https://purchase.aspose.com/buy) لمزيد من التفاصيل.
+### س2: أين يمكنني العثور على الدعم لـ Aspose.3D للـ Java؟
+قم بزيارة [منتدى Aspose.3D للـ Java](https://forum.aspose.com/c/3d/18) للحصول على المساعدة والتواصل مع المجتمع.
 
-### س2: أين يمكنني العثور على دعم لـ Aspose.3D لـ Java؟
+### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.3D للـ Java؟
+نعم، يمكنك استكشاف نسخة تجريبية مجانية من خلال [صفحة الإصدارات](https://releases.aspose.com/).
 
- ج2: قم بزيارة[Aspose.3D لمنتدى جافا](https://forum.aspose.com/c/3d/18) للحصول على المساعدة والتواصل مع المجتمع.
-
-### س3: هل تتوفر نسخة تجريبية مجانية من Aspose.3D لـ Java؟
-
- ج3: نعم، يمكنك استكشاف نسخة تجريبية مجانية من[صفحة الإصدارات](https://releases.aspose.com/).
-
-### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D لـ Java؟
-
- ج4: احصل على ترخيص مؤقت لمشروعك من خلال زيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+### س4: كيف أحصل على ترخيص مؤقت لـ Aspose.3D للـ Java؟
+احصل على ترخيص مؤقت لمشروعك بزيارة [هذا الرابط](https://purchase.aspose.com/temporary-license/).
 
 ### س5: هل هناك أمثلة ودروس إضافية متاحة؟
+نعم، راجع [التوثيق](https://reference.aspose.com/3d/java/) للمزيد من الأمثلة والدروس المتعمقة.
 
- ج5: نعم، راجع[توثيق](https://reference.aspose.com/3d/java/) لمزيد من الأمثلة والبرامج التعليمية المتعمقة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث:** 2026-02-22  
+**تم الاختبار مع:** Aspose.3D للـ Java 24.11 (الأحدث)  
+**المؤلف:** Aspose

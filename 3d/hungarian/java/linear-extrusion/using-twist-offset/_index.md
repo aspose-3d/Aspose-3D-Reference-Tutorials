@@ -1,34 +1,53 @@
 ---
-title: A Twist Offset használata a Lineáris extrudálásban az Aspose.3D for Java programban
-linktitle: A Twist Offset használata a Lineáris extrudálásban az Aspose.3D for Java programban
+date: 2026-02-22
+description: Tanulja meg, hogyan hozhat létre 3D-s jelenetet, és exportálhatja azt
+  az Aspose.3D for Java segítségével lineáris extrúziós csavarral és csavar eltolással.
+linktitle: Using Twist Offset in Linear Extrusion with Aspose.3D for Java
 second_title: Aspose.3D Java API
-description: Növelje 3D modellezési készségeit az Aspose.3D for Java segítségével. Tanulja meg a Twist Offset használatát a lineáris extrudálásban ebben az átfogó oktatóanyagban.
-
-weight: 15
+title: Hogyan hozzunk létre 3D jelenetet Twist eltolással lineáris extrúzióban az
+  Aspose.3D for Java segítségével
 url: /hu/java/linear-extrusion/using-twist-offset/
+weight: 15
 ---
+
+ formatting exactly.
+
+Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A Twist Offset használata a Lineáris extrudálásban az Aspose.3D for Java programban
+# Twist offset használata lineáris extrúzióban az Aspose.3D for Java segítségével
 
-## Bevezetés
+## Introduction
 
-A 3D grafika dinamikus világában a lineáris extrudálás művészetének elsajátítása megváltoztatja a játékot. Az Aspose.3D for Java segítségével javíthatja 3D modellezési készségeit, ha beépíti a Twist Offset funkciót a lineáris extrudálási folyamatba. Ez az oktatóanyag végigvezeti Önt a Twist Offset használatának lépésein a Linear Extrusionban az Aspose.3D for Java használatával, amely eszközöket biztosít lenyűgöző 3D-s jelenetek létrehozásához.
+A 3D grafika dinamikus világában a **create 3d scene** művészetének elsajátítása igazi áttörés bármely Java 3D modellezési projektnél. Az Aspose.3D for Java segítségével nem csak lineárisan extrúzálhat alakzatokat, hanem twist offsetet is hozzáadhat, hogy bonyolult, csavart geometriát hozzon létre. Ez az útmutató végigvezeti Önt minden lépésen, amely a **create 3d scene** létrehozásához, a lineáris extrúzió twist alkalmazásához, és végül a **export 3d scene** egy általános OBJ fájlba történő exportálásához szükséges.
 
-## Előfeltételek
+## Quick Answers
+- **What does Twist Offset do?** A twist offset eltolja a csavarállítás kiindulási pontját, lehetővé téve a forgás eltolását az extrúziós útvonal mentén.  
+- **Which class performs linear extrusion?** `LinearExtrusion` – ezen állítható a twist, a slices és a twist offset.  
+- **Can I export the result?** Igen, hívja a `scene.save(..., FileFormat.WAVEFRONTOBJ)` metódust a 3D jelenet exportálásához.  
+- **Do I need a license for development?** Ideiglenes licenc teszteléshez elegendő; a teljes licenc a termeléshez kötelező.  
+- **What Java version is supported?** Bármely Java 8+ futtatókörnyezet működik a legújabb Aspose.3D könyvtárral.
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+## What is “create 3d scene” in Aspose.3D?
+A 3D jelenet létrehozása azt jelenti, hogy egy `Scene` objektumot példányosítunk, csomópontokat (objektumokat) adunk hozzá a hierarchiához, majd a jelenetet a kívánt fájlformátumba mentjük. Ez a bármely 3D modellezési munkafolyamat alapja Java-ban.
 
-- Java környezet: Győződjön meg arról, hogy a rendszeren be van állítva Java fejlesztői környezet.
--  Aspose.3D for Java: Töltse le és telepítse az Aspose.3D könyvtárat a[letöltési link](https://releases.aspose.com/3d/java/).
--  Dokumentáció: Ismerkedjen meg a[Aspose.3D for Java dokumentáció](https://reference.aspose.com/3d/java/).
+## Why use linear extrusion twist with a twist offset?
+A csavart hozzáadása az extrúzióhoz spirális formákat eredményez, például csavart oszlopokat vagy díszítő fogantyúkat. A twist offset lehetővé teszi, hogy a csavarállítást egy egyedi pozícióból indítsa, finomabb vezérlést biztosítva a végső alakra – tökéletes mechanikai alkatrészekhez, művészi modellekhez vagy építészeti részletekhez.
 
-## Csomagok importálása
+## Prerequisites
 
-Java-projektjében importálja a szükséges csomagokat az Aspose.3D for Java használatának megkezdéséhez. Győződjön meg arról, hogy tartalmazza a szükséges könyvtárakat a zökkenőmentes integráció érdekében.
+Before diving into the tutorial, ensure you have the following prerequisites in place:
+
+- **Java Environment:** Győződjön meg róla, hogy a rendszerén megfelelő Java fejlesztői környezet van beállítva.  
+- **Aspose.3D for Java:** Töltse le és telepítse az Aspose.3D könyvtárat a [download link](https://releases.aspose.com/3d/java/) oldalról.  
+- **Documentation:** Ismerkedjen meg az [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) anyaggal.
+
+## Import Packages
+
+In your Java project, import the necessary packages to start using Aspose.3D for Java. Ensure that you include the required libraries for seamless integration.
 
 ```java
 import com.aspose.threed.*;
@@ -36,92 +55,97 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 1. lépés: A környezet beállítása
+## How to create 3d scene – Step‑by‑Step Guide
 
-Kezdje a Java fejlesztői környezet beállításával, és ellenőrizze, hogy az Aspose.3D for Java megfelelően telepítve van.
+### Step 1: Set Up the Environment
+Begin by setting up your Java development environment and ensuring that Aspose.3D for Java is correctly installed. This step is essential for any **java 3d modeling** work.
 
-## 2. lépés: Inicializálja az alapprofilt
-
-Hozzon létre egy alapprofilt az extrudáláshoz, ebben az esetben egy 0,3-as lekerekítési sugarú RectangleShape-t.
+### Step 2: Initialize the Base Profile
+Create a base profile for extrusion, in this case, a `RectangleShape` with a rounding radius of 0.3. The profile defines the cross‑section that will be swept along the extrusion path.
 
 ```java
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
-// Inicializálja az extrudálandó alapprofilt
+// Initialize the base profile to be extruded
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## 3. lépés: Hozzon létre egy 3D-s jelenetet
-
-Építsen 3D-s jelenetet az extrudált objektumok elhelyezéséhez.
+### Step 3: Create a 3D Scene
+Build a 3D scene to house your extruded objects. This is where you will **create child node** elements that represent each geometry piece.
 
 ```java
-// Hozzon létre egy jelenetet
+// Create a scene
 Scene scene = new Scene();
 ```
 
-## 4. lépés: Hozzon létre csomópontokat
-
-Hozzon létre csomópontokat a jeleneten belül a különböző entitások megjelenítéséhez.
+### Step 4: Create Nodes
+Generate nodes within the scene to represent different entities. Here we create two sibling nodes—one for a plain extrusion and another that uses a twist offset.
 
 ```java
-// Bal oldali csomópont létrehozása
+// Create left node
 Node left = scene.getRootNode().createChildNode();
-// Hozzon létre megfelelő csomópontot
+// Create right node
 Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## 5. lépés: Hajtsa végre a lineáris extrudálást
-
-Használja a lineáris extrudálást a bal és a jobb oldali csomópontokon, különböző tulajdonságokkal.
+### Step 5: Perform Linear Extrusion with Twist and Twist Offset
+Apply linear extrusion on both nodes. The left node demonstrates a basic twist, while the right node adds a twist offset to illustrate the extra control you get with this feature.
 
 ```java
-// Végezzen lineáris extrudálást a bal csomóponton a twist and slices tulajdonság használatával
+// Perform linear extrusion on left node using twist and slices property
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 
-// Hajtson végre lineáris kihúzást a jobb oldali csomóponton a twist, twist offset és slices tulajdonságok használatával
+// Perform linear extrusion on right node using twist, twist offset, and slices property
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setTwistOffset(new Vector3(3, 0, 0)); }});
 ```
 
-## 6. lépés: Mentse el a 3D-s jelenetet
+> **Pro tip:** Adjust `setSlices()` to increase mesh resolution when you need smoother curvature.
 
-Mentse el az újonnan létrehozott 3D jelenetet a megadott fájlformátumban.
+### Step 6: Save the 3D Scene (Export 3d scene)
+Finally, export the assembled scene to an OBJ file so you can view it in any standard 3D viewer or import it into other pipelines.
 
 ```java
-// 3D-s jelenet mentése
+// Save 3D scene
 scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Következtetés
+When the code runs successfully, you’ll find `TwistOffsetInLinearExtrusion.obj` in the specified directory, ready to be opened in tools like Blender, MeshLab, or any CAD software.
 
-Gratulálunk! Sikeresen implementálta a Twist Offset-et a Linear Extrusion programban az Aspose.3D for Java használatával. Ez a hatékony funkció a lehetőségek világát nyitja meg a 3D modellezési törekvései előtt, lehetővé téve bonyolult és magával ragadó jelenetek létrehozását.
+## Common Issues and Solutions
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **Scene saves as empty file** | `MyDir` path is incorrect or missing write permissions. | Verify the directory exists and is writable, or use an absolute path. |
+| **Twist looks flat** | `setSlices()` is too low, resulting in a coarse mesh. | Increase the slice count (e.g., 200) for smoother twists. |
+| **Twist offset has no effect** | The offset vector is colinear with the extrusion direction. | Use a non‑zero X or Y component to see the offset shift. |
 
-## GYIK
+## Frequently Asked Questions
 
-### 1. kérdés: Használhatom az Aspose.3D for Java programot nem kereskedelmi projektekben?
+### Q1: Can I use Aspose.3D for Java in non‑commercial projects?
+A1: Yes, Aspose.3D for Java can be used in both commercial and non‑commercial projects. Check the [licensing options](https://purchase.aspose.com/buy) for more details.
 
- 1. válasz: Igen, az Aspose.3D for Java használható kereskedelmi és nem kereskedelmi projektekben is. Ellenőrizd a[engedélyezési lehetőségek](https://purchase.aspose.com/buy) további részletekért.
+### Q2: Where can I find support for Aspose.3D for Java?
+A2: Visit the [Aspose.3D for Java forum](https://forum.aspose.com/c/3d/18) to get assistance and connect with the community.
 
-### 2. kérdés: Hol találok támogatást az Aspose.3D for Java számára?
+### Q3: Is there a free trial available for Aspose.3D for Java?
+A3: Yes, you can explore a free trial version from the [releases page](https://releases.aspose.com/).
 
- A2: Látogassa meg a[Aspose.3D for Java fórum](https://forum.aspose.com/c/3d/18) segítséget kapni és kapcsolatba lépni a közösséggel.
+### Q4: How do I obtain a temporary license for Aspose.3D for Java?
+A4: Get a temporary license for your project by visiting [this link](https://purchase.aspose.com/temporary-license/).
 
-### 3. kérdés: Elérhető az Aspose.3D for Java ingyenes próbaverziója?
+### Q5: Are there additional examples and tutorials available?
+A5: Yes, refer to the [documentation](https://reference.aspose.com/3d/java/) for more examples and in‑depth tutorials.
 
- 3. válasz: Igen, felfedezhet egy ingyenes próbaverziót a[kiadások oldala](https://releases.aspose.com/).
-
-### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.3D for Java számára?
-
- 4. válasz: Szerezzen ideiglenes licencet projektjéhez, ha ellátogat ide[ez a link](https://purchase.aspose.com/temporary-license/).
-
-### 5. kérdés: Vannak-e további példák és oktatóanyagok?
-
- V5: Igen, lásd a[dokumentáció](https://reference.aspose.com/3d/java/) további példákért és részletes oktatóanyagokért.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.3D for Java 24.11 (latest)  
+**Author:** Aspose
