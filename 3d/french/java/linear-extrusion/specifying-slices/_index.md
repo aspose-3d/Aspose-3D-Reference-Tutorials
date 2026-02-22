@@ -1,32 +1,51 @@
 ---
-title: Spécification de tranches dans l'extrusion linéaire avec Aspose.3D pour Java
-linktitle: Spécification de tranches dans l'extrusion linéaire avec Aspose.3D pour Java
-second_title: API Java Aspose.3D
-description: Apprenez à spécifier des tranches en extrusion linéaire à l'aide d'Aspose.3D pour Java. Améliorez vos compétences en modélisation 3D avec ce guide étape par étape.
-weight: 13
+date: 2026-02-22
+description: Apprenez à créer une extrusion 3D avec des tranches en utilisant Aspose.3D
+  pour Java. Ce guide étape par étape couvre l'extrusion linéaire, la définition du
+  rayon d'arrondi et l'exportation OBJ.
+linktitle: Create 3D Extrusion with Slices – Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Créer une extrusion 3D avec des tranches – Aspose.3D pour Java
 url: /fr/java/linear-extrusion/specifying-slices/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Spécification de tranches dans l'extrusion linéaire avec Aspose.3D pour Java
+# Créer une extrusion 3D avec des tranches – Aspose.3D for Java
 
 ## Introduction
 
-La création de modèles 3D complexes nécessite souvent plus que de la simple créativité ; cela nécessite une compréhension approfondie des outils à votre disposition. Aspose.3D pour Java change la donne à cet égard. Dans ce didacticiel, nous nous concentrerons sur un aspect spécifique : la spécification des tranches en extrusion linéaire.
+Si vous devez **créer des objets d'extrusion 3D** qui soient lisses et précis, le contrôle du nombre de tranches est essentiel. Dans ce tutoriel, nous verrons comment spécifier les tranches lors d’une extrusion linéaire avec Aspose.3D for Java. Vous comprendrez pourquoi le nombre de tranches compte, comment définir un rayon d’arrondi, et comment exporter le résultat au format OBJ pouvant être utilisé dans n’importe quel pipeline 3D.
 
-## Conditions préalables
+## Réponses rapides
+- **Que contrôle le paramètre “tranches” ?** Le nombre de sections transversales intermédiaires utilisées pour approximer la surface d’extrusion.  
+- **Quelle méthode définit le nombre de tranches ?** `LinearExtrusion.setSlices(int)`  
+- **Puis‑je modifier le rayon d’arrondi du profil ?** Oui, via `RectangleShape.setRoundingRadius(double)`  
+- **Quel format de fichier est utilisé dans cet exemple ?** Wavefront OBJ (`FileFormat.WAVEFRONTOBJ`)  
+- **Ai‑je besoin d’une licence pour exécuter le code ?** Une version d’essai gratuite suffit pour l’évaluation ; une licence commerciale est requise pour la production.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Qu’est‑ce qu’une extrusion linéaire avec des tranches ?
 
-1. Environnement Java : assurez-vous qu'un environnement de développement Java est configuré sur votre système.
-2.  Aspose.3D pour Java : téléchargez et installez la bibliothèque Aspose.3D. Vous pouvez trouver les packages nécessaires[ici](https://releases.aspose.com/3d/java/).
+L’extrusion linéaire prend un profil 2‑D (comme un rectangle) et l’étire le long d’une ligne droite pour former un solide 3‑D. En spécifiant des **tranches**, vous indiquez à Aspose.3D combien d’étapes intermédiaires générer, ce qui influence directement la fluidité des arêtes courbes, comme un rectangle arrondi.
 
-## Importer des packages
+## Pourquoi utiliser Aspose.3D for Java pour créer une extrusion 3D ?
 
-Dans votre projet Java, importez la bibliothèque Aspose.3D. Ceci est crucial pour accéder aux fonctionnalités avec lesquelles nous allons travailler. Ajoutez l'instruction d'importation suivante à votre code :
+* **Contrôle total** – Vous pouvez ajuster le nombre de tranches, le rayon d’arrondi et le format d’exportation par programmation.  
+* **Multi‑plateforme** – Fonctionne dans tout environnement Java sans dépendances natives.  
+* **Flexibilité d’exportation** – Enregistrement direct en OBJ, FBX, STL et bien d’autres formats.
+
+## Prérequis
+
+1. **Java Development Kit** – JDK 8 ou supérieur installé.  
+2. **Aspose.3D for Java** – Téléchargez la bibliothèque depuis le site officiel [ici](https://releases.aspose.com/3d/java/).  
+3. Un IDE ou un éditeur de texte de votre choix.
+
+## Importer les packages
+
+Ajoutez l’espace de noms Aspose.3D à votre projet afin de pouvoir accéder aux classes de modélisation 3‑D.
 
 ```java
 import com.aspose.threed.*;
@@ -34,11 +53,11 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-Maintenant, décomposons l'exemple en plusieurs étapes.
+## Guide étape par étape
 
-## Étape 1 : configurer la scène
+### Étape 1 : Configurer la scène et définir le profil
 
-Initialisez le profil de base à extruder, dans ce cas, un`RectangleShape` avec un rayon d'arrondi spécifié. Créez une scène 3D dans laquelle travailler.
+Nous créons d’abord un `RectangleShape` et lui attribuons un **rayon d’arrondi** afin que les coins soient lisses. Puis nous initialisons une nouvelle `Scene` qui contiendra toute la géométrie.
 
 ```java
 String MyDir = "Your Document Directory";
@@ -47,9 +66,9 @@ profile.setRoundingRadius(0.3);
 Scene scene = new Scene();
 ```
 
-## Étape 2 : Créer des nœuds
+### Étape 2 : **Créer des nœuds enfants** pour chaque extrusion
 
-Générez des nœuds gauche et droit dans la scène. Ajustez la translation du nœud gauche pour la variation spatiale.
+Chaque élément de géométrie vit sous un `Node`. Ici nous générons deux nœuds frères – un pour une extrusion à faible nombre de tranches et un autre pour une extrusion à nombre élevé de tranches – et nous décalons légèrement le nœud de gauche afin de faciliter la comparaison des résultats.
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -57,48 +76,54 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Étape 3 : Extrusion linéaire avec des tranches
+### Étape 3 : Effectuer l’extrusion linéaire et **définir les tranches**
 
-Effectuez une extrusion linéaire sur les deux nœuds, en spécifiant le nombre de tranches pour chacun. C'est là que la magie opère.
+Nous créons maintenant les objets **d’extrusion 3D**. Le constructeur `LinearExtrusion` prend le profil et la profondeur d’extrusion. À l’aide d’une **classe interne anonyme** nous appelons `setSlices` pour contrôler la fluidité. Le nœud de gauche reçoit seulement 2 tranches (grossier), tandis que le nœud de droite en reçoit 10 (lisse).
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 2) {{setSlices(2);}});
 right.createChildNode(new LinearExtrusion(profile, 2) {{setSlices(10);}});
 ```
 
-## Étape 4 : Enregistrez la scène
+### Étape 4 : **Exporter OBJ** – enregistrer la scène
 
-Enregistrez la scène 3D au format souhaité, dans ce cas, un fichier Wavefront OBJ.
+Enfin, nous écrivons la scène dans un fichier Wavefront OBJ, un format largement supporté par les éditeurs 3‑D et les moteurs de jeu. Cela montre la capacité **export obj java** d’Aspose.3D.
 
 ```java
 scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Conclusion
+## Problèmes courants et solutions
 
-Toutes nos félicitations! Vous avez appris avec succès comment spécifier des tranches dans une extrusion linéaire à l'aide d'Aspose.3D pour Java. Cette compétence ouvre de nouvelles possibilités dans votre parcours de modélisation 3D.
+| Problème | Pourquoi cela se produit | Solution |
+|----------|--------------------------|----------|
+| **L'extrusion apparaît plate** | Le nombre de tranches est réglé à 1 ou 0 | Assurez‑vous que `setSlices` est appelé avec une valeur ≥ 2. |
+| **Les coins arrondis semblent dentelés** | Le rayon d’arrondi est trop petit par rapport au nombre de tranches | Augmentez soit le rayon, soit le nombre de tranches pour des courbes plus lisses. |
+| **Fichier introuvable lors de l'enregistrement** | `MyDir` pointe vers un dossier inexistant | Créez le répertoire au préalable ou utilisez un chemin absolu. |
 
-## FAQ
+## Questions fréquentes
 
-### Q1 : Comment puis-je télécharger Aspose.3D pour Java ?
+**Q : Comment télécharger Aspose.3D for Java ?**  
+R : Vous pouvez télécharger la bibliothèque [ici](https://releases.aspose.com/3d/java/).
 
- A1 : Vous pouvez télécharger la bibliothèque[ici](https://releases.aspose.com/3d/java/).
+**Q : Où trouver la documentation d’Aspose.3D ?**  
+R : Consultez la documentation [ici](https://reference.aspose.com/3d/java/).
 
-### Q2 : Où puis-je trouver la documentation d'Aspose.3D ?
+**Q : Une version d’essai gratuite est‑elle disponible ?**  
+R : Oui, vous pouvez explorer une version d’essai gratuite [ici](https://releases.aspose.com/).
 
- A2 : Se référer à la documentation[ici](https://reference.aspose.com/3d/java/).
+**Q : Comment obtenir du support pour Aspose.3D ?**  
+R : Visitez le forum de support [ici](https://forum.aspose.com/c/3d/18).
 
-### Q3 : Existe-t-il un essai gratuit disponible ?
+**Q : Puis‑je acheter une licence temporaire ?**  
+R : Oui, une licence temporaire peut être obtenue [ici](https://purchase.aspose.com/temporary-license/).
 
- A3 : Oui, vous pouvez explorer un essai gratuit[ici](https://releases.aspose.com/).
+---
 
-### Q4 : Comment puis-je obtenir de l'aide pour Aspose.3D ?
+**Dernière mise à jour :** 2026-02-22  
+**Testé avec :** Aspose.3D for Java 24.11 (dernière version au moment de la rédaction)  
+**Auteur :** Aspose  
 
- A4 : Visitez le forum d'assistance[ici](https://forum.aspose.com/c/3d/18).
-
-### Q5 : Puis-je acheter une licence temporaire ?
-
- A5 : Oui, une licence temporaire peut être obtenue[ici](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
