@@ -1,33 +1,54 @@
 ---
-title: Définition de la direction dans l'extrusion linéaire avec Aspose.3D pour Java
-linktitle: Définition de la direction dans l'extrusion linéaire avec Aspose.3D pour Java
-second_title: API Java Aspose.3D
-description: Maîtrisez l'extrusion linéaire avec Aspose.3D pour Java ! Suivez notre guide pour une programmation 3D fluide. Téléchargez maintenant pour une expérience captivante.
-weight: 12
+date: 2026-02-22
+description: Apprenez à définir la direction dans l'extrusion linéaire et à exporter
+  un modèle 3D au format OBJ à l'aide d'Aspose.3D pour Java. Suivez notre guide étape
+  par étape.
+linktitle: Setting Direction in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Comment définir la direction dans l'extrusion linéaire avec Aspose.3D pour
+  Java
 url: /fr/java/linear-extrusion/setting-direction/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Définition de la direction dans l'extrusion linéaire avec Aspose.3D pour Java
+# Comment définir la direction dans une extrusion linéaire avec Aspose.3D pour Java
 
 ## Introduction
 
-Bienvenue dans notre guide étape par étape sur la définition de la direction dans l'extrusion linéaire à l'aide d'Aspose.3D pour Java. Aspose.3D est une puissante bibliothèque Java qui permet aux développeurs de travailler de manière transparente avec des fichiers et des scènes 3D. Dans ce didacticiel, nous nous concentrerons sur la tâche spécifique consistant à définir la direction de l'extrusion linéaire, améliorant ainsi vos compétences en programmation 3D.
+Dans ce tutoriel complet, vous découvrirez **comment définir la direction** lors d’une extrusion linéaire avec Aspose.3D pour Java. Que vous construisiez un outil de type CAD ou que vous génériez de la géométrie pour un moteur de jeu, contrôler la direction de l’extrusion vous permet de créer exactement la forme dont vous avez besoin. Nous parcourrons chaque étape, de l’initialisation d’un profil à l’enregistrement du résultat sous forme de fichier OBJ, afin que vous puissiez également **exporter des modèles 3d obj** directement depuis Java.
 
-## Conditions préalables
+## Quick Answers
+- **Quelle est la classe principale pour l'extrusion linéaire ?** `LinearExtrusion`
+- **Quelle méthode définit la direction de l'extrusion ?** `setDirection(Vector3 direction)`
+- **Puis-je exporter le résultat au format OBJ ?** Oui, en utilisant `scene.save(..., FileFormat.WAVEFRONTOBJ)`
+- **Ai-je besoin d'une licence pour le développement ?** Un essai gratuit est disponible ; une licence est requise pour la production.
+- **Quel IDE Java est le plus adapté ?** IntelliJ IDEA ou Eclipse sont tous deux entièrement pris en charge.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## What is Linear Extrusion?
 
-- Connaissance de base du langage de programmation Java.
--  Bibliothèque Aspose.3D installée. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/3d/java/).
-- Un environnement de développement intégré (IDE) pour Java, tel qu'Eclipse ou IntelliJ.
+L'extrusion linéaire prend un profil 2‑D (tel qu'un rectangle ou un cercle) et l'étend le long d'une ligne droite pour créer un solide 3‑D. Par défaut, l'extrusion suit l'axe Z positif, mais Aspose.3D vous permet de modifier ce chemin avec la propriété `setDirection`.
 
-## Importer des packages
+## Why Set Direction in Linear Extrusion?
 
-Assurez-vous d'importer les packages nécessaires pour démarrer votre projet :
+Définir une direction personnalisée est utile lorsque :
+- Aligner la géométrie avec des objets existants dans une scène.
+- Créer des pièces inclinées ou angulaires sans étapes de transformation supplémentaires.
+- Exporter des modèles qui doivent correspondre à un système de coordonnées spécifique (par ex., pour l'impression 3‑D ou les moteurs de jeu).
+
+## Prerequisites
+
+Avant de commencer, assurez-vous de disposer de :
+- Connaissances de base en Java.
+- Bibliothèque Aspose.3D installée. Vous pouvez la télécharger [ici](https://releases.aspose.com/3d/java/).
+- Un IDE tel qu'Eclipse ou IntelliJ IDEA.
+
+## Import Packages
+
+Tout d'abord, importez les espaces de noms qui fournissent les classes 3‑D de base et les types utilitaires.
 
 ```java
 import com.aspose.threed.*;
@@ -36,28 +57,28 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Étape 1 : initialiser le profil de base
+## Step 1: Initialize Base Profile
 
- Commencez par initialiser le profil de base à extruder. Dans cet exemple, nous utilisons un`RectangleShape` avec un rayon d'arrondi de 0,3 :
+Créez la forme qui sera extrudée. Dans cet exemple, nous utilisons un `RectangleShape` avec un petit rayon d'arrondi pour donner aux arêtes un aspect lisse.
 
 ```java
-// Le chemin d'accès au répertoire des documents.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## Étape 2 : Créer une scène
+## Step 2: Create a Scene
 
-Créez ensuite une scène 3D pour contenir les objets extrudés :
+Un objet `Scene` agit comme conteneur pour tous les nœuds 3‑D, lumières, caméras et matériaux.
 
 ```java
 Scene scene = new Scene();
 ```
 
-## Étape 3 : Créer des nœuds
+## Step 3: Create Nodes
 
-Créez des nœuds gauche et droit dans la scène :
+Ajoutez deux nœuds enfants à la racine de la scène — un pour l'extrusion à gauche et un pour l'extrusion à droite. Le nœud de droite est translaté afin que les deux objets ne se chevauchent pas.
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -65,58 +86,73 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Étape 4 : effectuer une extrusion linéaire sur le nœud gauche
+## Step 4: Perform Linear Extrusion on the Left Node
 
- Effectuez une extrusion linéaire sur le nœud gauche à l'aide de la touche`LinearExtrusion`classe avec des paramètres spécifiés tels que twist et slices :
+Extrudez le profil sur le nœud de gauche en utilisant la direction par défaut de l'axe Z. Nous ajoutons également une torsion complète de 360° et augmentons le nombre de tranches pour un maillage plus lisse.
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 ```
 
-## Étape 5 : Effectuer une extrusion linéaire sur le nœud droit avec direction
+## Step 5: Perform Linear Extrusion on the Right Node with Direction
 
- Effectuez une extrusion linéaire sur le nœud droit, en introduisant le`setDirection` propriété pour définir la direction de l'extrusion :
+C’est ici que nous **définissons la direction**. En passant un `Vector3` personnalisé à `setDirection`, l'extrusion suit le vecteur (0.3, 0.2, 1), produisant une forme inclinée.
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setDirection(new Vector3(0.3, 0.2, 1));}});
 ```
 
-## Étape 6 : Enregistrer la scène 3D
+## Step 6: Save 3D Scene
 
-Enregistrez la scène 3D au format de fichier souhaité. Dans cet exemple, nous l'enregistrons sous forme de fichier Wavefront OBJ :
+Enfin, exportez la scène au format Wavefront OBJ. Cette étape montre comment **enregistrer des fichiers obj java** et facilite la visualisation du résultat dans n'importe quel visualiseur 3‑D.
 
 ```java
 scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
+## Common Issues and Solutions
+
+| Problème | Pourquoi cela se produit | Solution |
+|----------|--------------------------|----------|
+| Le fichier OBJ apparaît vide | Le profil n'a pas été ajouté à un nœud | Assurez-vous que `createChildNode` est appelé sur un nœud valide |
+| La direction semble inchangée | `setDirection` a été appelé après que l'extrusion ait déjà été construite | Définissez la direction à l'intérieur de l'initialiseur `LinearExtrusion` comme indiqué |
+| Maillage à basse résolution | La valeur de `setSlices` est trop basse | Augmentez le nombre de tranches (par ex., 100 ou plus) |
+
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment définir la direction d'une extrusion linéaire à l'aide d'Aspose.3D pour Java. Ce tutoriel améliore vos compétences en programmation 3D et ouvre de nouvelles possibilités pour des projets créatifs.
+Vous savez maintenant **comment définir la direction** dans une extrusion linéaire, comment ajuster les paramètres de torsion et de tranches, et comment **exporter des modèles 3d obj** en utilisant Aspose.3D pour Java. Ces techniques vous offrent un contrôle fin sur la création de géométrie et facilitent l'intégration d'actifs 3‑D dans des pipelines plus larges.
 
-## FAQ
+## FAQ's
 
-### Q1 : Puis-je utiliser Aspose.3D avec d’autres langages de programmation ?
+### Q1 : Puis-je utiliser Aspose.3D avec d'autres langages de programmation ?
 
-A1 : Aspose.3D prend en charge divers langages de programmation, notamment .NET et Java.
+A1 : Aspose.3D prend en charge divers langages de programmation, y compris .NET et Java.
 
-### Q2. Existe-t-il un essai gratuit disponible pour Aspose.3D ?
+### Q2 : Une version d'essai gratuite est‑elle disponible pour Aspose.3D ?
 
- A2 : Oui, vous pouvez explorer les fonctionnalités d'Aspose.3D avec un essai gratuit[ici](https://releases.aspose.com/).
+A2 : Oui, vous pouvez explorer les fonctionnalités d'Aspose.3D avec un essai gratuit [ici](https://releases.aspose.com/).
 
-### Q3 : Où puis-je trouver une documentation détaillée pour Aspose.3D pour Java ?
+### Q3 : Où puis‑je trouver la documentation détaillée d'Aspose.3D pour Java ?
 
- A3 : La documentation complète est disponible[ici](https://reference.aspose.com/3d/java/).
+A3 : La documentation complète est disponible [ici](https://reference.aspose.com/3d/java/).
 
-### Q4 : Comment puis-je obtenir de l'aide pour Aspose.3D ?
+### Q4 : Comment puis‑je obtenir du support pour Aspose.3D ?
 
- A4 : Visitez le[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour toute aide ou question.
+A4 : Visitez le [forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour toute assistance ou question.
 
-### Q5 : Des licences temporaires sont-elles disponibles pour Aspose.3D ?
+### Q5 : Des licences temporaires sont‑elles disponibles pour Aspose.3D ?
 
- A5 : Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+A5 : Oui, vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Dernière mise à jour :** 2026-02-22  
+**Testé avec :** Aspose.3D for Java (latest release)  
+**Auteur :** Aspose
