@@ -1,115 +1,143 @@
 ---
-title: Realización de extrusión lineal en Aspose.3D para Java
-linktitle: Realización de extrusión lineal en Aspose.3D para Java
-second_title: API de Java Aspose.3D
-description: Explora el mundo del modelado 3D con Aspose.3D para Java. Aprenda a realizar extrusión lineal sin esfuerzo.
-weight: 10
+date: 2026-02-25
+description: Aprende a crear extrusión 3D en Java con Aspose.3D y exportar archivos
+  OBJ en Java, entregando modelos 3D de alta calidad en aplicaciones Java.
+linktitle: Create 3D Extrusion Java with Aspose.3D
+second_title: Aspose.3D Java API
+title: Crear extrusión 3D en Java con Aspose.3D
 url: /es/java/linear-extrusion/performing-linear-extrusion/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Realización de extrusión lineal en Aspose.3D para Java
+# Crear Extrusión 3D Java con Aspose.3D
 
 ## Introducción
 
-¡Bienvenido a este completo tutorial sobre cómo realizar una extrusión lineal en Aspose.3D para Java! Si buscas mejorar tus habilidades de modelado 3D usando Java, estás en el lugar correcto. En este tutorial, lo guiaremos a través del proceso de realizar una extrusión lineal usando Aspose.3D, una potente biblioteca Java para modelado 3D.
+Si necesitas **crear extrusión 3d java** de forma rápida y fiable, has llegado al tutorial correcto. En los próximos minutos repasaremos cómo generar una extrusión lineal, personalizar su geometría y **exportar archivo obj java** usando la biblioteca Aspose.3D. Ya sea que estés construyendo una herramienta tipo CAD, una canalización de activos para juegos, o cualquier flujo de trabajo 3‑D basado en Java, esta guía te brinda una base sólida y lista para producción.
+
+## Respuestas rápidas
+- **¿Qué significa “extrusión lineal”?** Recorta un perfil 2‑D a lo largo de una línea recta para formar un sólido 3‑D.  
+- **¿Qué biblioteca maneja la extrusión?** Aspose.3D para Java proporciona una API de alto nivel.  
+- **¿Puedo exportar el resultado como OBJ?** Sí – el tutorial termina con `scene.save(..., FileFormat.WAVEFRONTOBJ)`.  
+- **¿Necesito una licencia para el desarrollo?** Una prueba gratuita sirve para aprender; se requiere una licencia comercial para producción.  
+- **¿Qué versión de Java es compatible?** Java 1.6 y posteriores.
+
+## ¿Qué es Crear Extrusión 3D Java?
+Crear una extrusión 3D en Java significa tomar una forma 2‑D simple (como un rectángulo) y extenderla a la tercera dimensión. La malla resultante puede guardarse en formatos comunes como OBJ, que muchos editores 3‑D reconocen.
+
+## ¿Por qué usar Aspose.3D para Extrusión Lineal?
+- **API Java pura** – sin dependencias nativas, perfecta para proyectos multiplataforma.  
+- **Controles de geometría avanzados** – el redondeo, giro, cortes y desplazamiento están expuestos mediante propiedades simples.  
+- **Exportación directa** – guarda a OBJ, STL, FBX y más sin convertidores adicionales.  
+- **Soporte de nivel empresarial** – licencias, documentación y foros de la comunidad están disponibles.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de comenzar, asegúrate de tener:
 
-1. Entorno de desarrollo Java: asegúrese de tener un entorno de desarrollo Java configurado en su máquina.
-
-2.  Biblioteca Aspose.3D: descargue e instale la biblioteca Aspose.3D. Puedes encontrar la biblioteca.[aquí](https://releases.aspose.com/3d/java/).
+1. **Entorno de desarrollo Java** – JDK 1.6+ instalado y configurado.  
+2. **Biblioteca Aspose.3D** – Descarga el JAR más reciente desde el sitio oficial [aquí](https://releases.aspose.com/3d/java/).  
 
 ## Importar paquetes
 
-Una vez que haya configurado su entorno de desarrollo e instalado la biblioteca Aspose.3D, es hora de importar los paquetes necesarios. En su código Java, incluya lo siguiente:
+Agrega el espacio de nombres principal de Aspose.3D a tu archivo fuente Java:
 
 ```java
 import com.aspose.threed.*;
 ```
 
-Analicemos cada paso para asegurar una comprensión clara.
+## Paso 1: Establecer el directorio del documento
 
-## Paso 1: configurar el directorio de documentos
-
-Defina la ruta a su directorio de documentos:
+Define dónde se escribirán los archivos generados:
 
 ```java
 String MyDir = "Your Document Directory";
 ```
 
-Esto garantiza que el modelo 3D generado se guardará en el directorio especificado.
+> **Consejo profesional:** Usa una ruta absoluta o una propiedad configurable para que la ubicación de salida funcione en diferentes entornos.
 
-## Paso 2: inicializar la forma base
+## Paso 2: Inicializar la forma base
 
-Cree una forma de rectángulo como perfil base para la extrusión:
+Crea un rectángulo que servirá como perfil de extrusión. El radio de redondeo suaviza las esquinas:
 
 ```java
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-Ajuste el radio de redondeo según sea necesario para personalizar la forma.
+Puedes experimentar con `setRoundingRadius` para obtener un perfil más circular o más agudo.
 
-## Paso 3: realizar una extrusión lineal
+## Paso 3: Realizar la extrusión lineal
 
-Realizar extrusión lineal en el perfil base:
+Ahora convertimos el rectángulo 2‑D en un objeto 3‑D. El constructor recibe el perfil y la profundidad de extrusión (10 unidades en este caso). Propiedades adicionales afinan la malla:
 
 ```java
 LinearExtrusion extrusion = new LinearExtrusion(profile, 10) {{ setSlices(100); setCenter(true); setTwist(360); setTwistOffset(new Vector3(10, 0, 0));}};
 ```
 
-Aquí, extruimos la forma en 10 unidades, establecemos el número de cortes, habilitamos el centrado y aplicamos giro y desplazamiento de giro.
+- **Slices** – controla la suavidad de la extrusión.  
+- **Center** – alinea la geometría alrededor del origen.  
+- **Twist** – rota el perfil a lo largo del eje de extrusión (aquí un giro completo de 360°).  
+- **TwistOffset** – desplaza el pivote de giro, demostrando cómo crear espirales.
 
-## Paso 4: crea una escena 3D
+## Paso 4: Crear la escena 3D
 
-Cree una escena 3D y agregue la extrusión como un nodo secundario:
+Un `Scene` es el contenedor de todos los objetos 3‑D. Añadir la extrusión como nodo hijo la incorpora al grafo de la escena:
 
 ```java
 Scene scene = new Scene();
 scene.getRootNode().createChildNode(extrusion);
 ```
 
-## Paso 5: guardar la escena 3D
+## Paso 5: Guardar la escena 3D
 
-Guarde la escena 3D generada como un archivo Wavefront OBJ:
+Finalmente, exporta la escena a un archivo Wavefront OBJ – un formato ampliamente soportado por editores 3‑D, motores de juego y flujos de impresión:
 
 ```java
 scene.save(MyDir +  "LinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-¡Ahora ha realizado con éxito la extrusión lineal utilizando Aspose.3D para Java!
+Después de ejecutar el código, encontrarás **LinearExtrusion.obj** en el directorio que especificaste, listo para abrirse en Blender, Maya o cualquier otro visor compatible con OBJ.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-¡Felicidades! Ha aprendido cómo aprovechar Aspose.3D para Java para realizar una extrusión lineal. Esta poderosa biblioteca abre un mundo de posibilidades para sus proyectos de modelado 3D.
+| Síntoma | Causa probable | Solución |
+|---------|----------------|----------|
+| `FileNotFoundException` al guardar | `MyDir` no existe o no tiene permiso de escritura | Crea la carpeta previamente o usa una ruta absoluta con los permisos adecuados. |
+| OBJ aparece vacío en el visor | No se añadió geometría a la escena | Verifica que el objeto `LinearExtrusion` esté correctamente instanciado y adjunto al nodo raíz. |
+| El giro se ve incorrecto | Valores incorrectos de `TwistOffset` | Ajusta las coordenadas de `Vector3`; recuerda que el desplazamiento se aplica antes de la rotación de giro. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Aspose.3D es compatible con todas las versiones de Java?
-
+### Q1: ¿Es Aspose.3D compatible con todas las versiones de Java?
 R1: Aspose.3D está diseñado para funcionar con Java 1.6 y versiones posteriores.
 
-### P2: ¿Puedo utilizar Aspose.3D para proyectos comerciales?
+### Q2: ¿Puedo usar Aspose.3D para proyectos comerciales?
+R2: Sí, Aspose.3D puede usarse tanto en proyectos personales como comerciales. Consulta los detalles de licencia [aquí](https://purchase.aspose.com/buy).
 
-R2: Sí, Aspose.3D se puede utilizar tanto para proyectos personales como comerciales. Consulta los detalles de la licencia[aquí](https://purchase.aspose.com/buy).
+### Q3: ¿Cómo puedo obtener soporte para Aspose.3D?
+R3: Visita el [foro de Aspose.3D](https://forum.aspose.com/c/3d/18) para soporte de la comunidad o considera comprar una [licencia temporal](https://purchase.aspose.com/temporary-license/) para soporte premium.
 
-### P3: ¿Cómo puedo obtener soporte para Aspose.3D?
+### Q4: ¿Hay otras funciones de modelado 3D en Aspose.3D?
+R4: ¡Absolutamente! Explora la extensa documentación [aquí](https://reference.aspose.com/3d/java/) para una lista completa de funciones y ejemplos.
 
- A3: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para obtener apoyo de la comunidad o considere comprar un[licencia temporal](https://purchase.aspose.com/temporary-license/) para soporte premium.
+### Q5: ¿Hay una prueba gratuita disponible para Aspose.3D?
+R5: Sí, puedes acceder a una prueba gratuita [aquí](https://releases.aspose.com/).
 
-### P4: ¿Existen otras funciones de modelado 3D en Aspose.3D?
+## Conclusión
 
- R4: ¡Absolutamente! Explora la extensa documentación[aquí](https://reference.aspose.com/3d/java/) para obtener una lista completa de características y ejemplos.
+Ahora sabes cómo **crear extrusión 3d java** con Aspose.3D, personalizar su geometría y **exportar archivo obj java** para uso posterior. Experimenta con diferentes perfiles, giros y formatos de exportación para adaptarlos a las necesidades específicas de tu proyecto. Cuando estés listo, explora otras capacidades de Aspose.3D como manipulación de mallas, mapeo de texturas y animación para enriquecer aún más tus aplicaciones 3‑D basadas en Java.
 
-### P5: ¿Hay una prueba gratuita disponible para Aspose.3D?
+---
 
- R5: Sí, puedes acceder a una prueba gratuita[aquí](https://releases.aspose.com/).
+**Última actualización:** 2026-02-25  
+**Probado con:** Aspose.3D 24.12 para Java  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
