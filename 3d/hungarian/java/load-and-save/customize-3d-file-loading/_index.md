@@ -1,34 +1,50 @@
 ---
-title: Testreszabhatja a 3D fájlbetöltést Java nyelven az Aspose.3D LoadOptions segítségével
-linktitle: Testreszabhatja a 3D fájlbetöltést Java nyelven az Aspose.3D LoadOptions segítségével
+date: 2026-02-25
+description: Tanulja meg, hogyan fordítsa meg a koordináta rendszert, és testreszabja
+  a 3D importot az Aspose.3D LoadOptions használatával Java-ban. Lépésről‑lépésre
+  útmutató a 3DS, OBJ, STL, U3D, glTF, PLY, X, valamint opcionális FBX formátumokhoz.
+linktitle: Customize 3D File Loading in Java with Aspose.3D LoadOptions
 second_title: Aspose.3D Java API
-description: Javítsa 3D-s fájlbetöltését Java nyelven az Aspose.3D testreszabható LoadOptions segítségével. Ismerje meg a 3DS, OBJ, STL, U3D, glTF, PLY, X és az opcionális FBX testreszabását lépésről lépésre.
-weight: 12
+title: Koordináta-rendszer megfordítása – 3D fájl betöltés testreszabása Java-ban
+  az Aspose.3D segítségével
 url: /hu/java/load-and-save/customize-3d-file-loading/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Testreszabhatja a 3D fájlbetöltést Java nyelven az Aspose.3D LoadOptions segítségével
+# Koordináta-rendszer megfordítása – 3D fájl betöltés testreszabása Java-ban az Aspose.3D segítségével
 
-## Bevezetés
+A 3D tervezés és fejlesztés folyamatosan változó világában a modellek importálásakor a **koordináta-rendszer megfordítása** gyakori követelmény. Akár jobb‑kezes rendszerről bal‑kezesre konvertálja az eszközöket, akár a modelljeit a motorja tengelykonvencióihoz kell igazítania, az Aspose.3D for Java finomhangolt vezérlést biztosít. Ez a bemutató végigvezet a **3D import testreszabásán** az Aspose.3D `LoadOptions` használatával, lefedve a legnépszerűbb formátumokat, mint a 3DS, OBJ, STL, U3D, glTF, PLY, X, és az opcionális FBX.
 
-3D-s tervezés és fejlesztés folyamatosan változó környezetében a 3D-s fájlformátumok hatékony kezelése kulcsfontosságú. Az Aspose.3D for Java hatékony megoldást kínál a különféle 3D fájlformátumok betöltésének testreszabására. Ez az oktatóanyag végigvezeti Önt a 3D-s fájlok Java nyelven történő betöltésének testreszabásán az Aspose.3D LoadOptions segítségével.
+## Gyors válaszok
+- **Mi a “koordináta-rendszer megfordítása”?** Az X/Y/Z tengelyeket cseréli, hogy megfeleljen a cél koordináta-konvenciónak.  
+- **Mely formátumok támogatják a megfordítást?** Minden fő formátum (3DS, OBJ, STL, U3D, glTF, PLY, X, FBX) rendelkezik `setFlipCoordinateSystem` opcióval.  
+- **Szükség van extra könyvtárakra?** Csak az Aspose.3D for Java JAR; külső konvertálók nem szükségesek.  
+- **Betölthetek anyagokat egyszerre?** Igen – használja a `setEnableMaterials(true)` opciót OBJ fájlokhoz.  
+- **Szükséges licenc a termeléshez?** Érvényes Aspose.3D licenc szükséges a nem‑próba telepítésekhez.
+
+## Mi a “koordináta-rendszer megfordítása”?
+A koordináta-rendszer megfordítása megváltoztatja az importált modell által használt tengelyek orientációját. Ez akkor elengedhetetlen, ha a forrásfájl más kézességet (jobb‑kezes vs. bal‑kezes) használ, mint a renderelő motorja, megakadályozva, hogy a modellek tükröződve vagy fordítva jelenjenek meg.
+
+## Miért testreszabjuk a 3D importot?
+- Animációs transzformációk megőrzése (`setApplyAnimationTransform`).  
+- A színkezelés helyes beállítása (`setGammaCorrectedColor`).  
+- Külső erőforrás útvonalak feloldása a `getLookupPaths()` segítségével.  
+- Memóriahasználat optimalizálása, csak a szükséges elemek betöltésével.
 
 ## Előfeltételek
 
-Mielőtt belevágna a testreszabási folyamatba, győződjön meg arról, hogy rendelkezik a következőkkel:
-
-- A Java programozás alapvető ismerete.
-- Telepített Java Development Kit (JDK).
--  Aspose.3D for Java könyvtár letöltve. Meg lehet szerezni[itt](https://releases.aspose.com/3d/java/).
-- Ismerje meg a 3D fájlformátumokat, például a 3DS, OBJ, STL, U3D, glTF, PLY, X és FBX.
+- Alapvető Java programozási ismeretek.  
+- Telepített Java Development Kit (JDK).  
+- Aspose.3D for Java könyvtár letöltve. Letöltheti [itt](https://releases.aspose.com/3d/java/).  
+- Ismerete a 3D fájlformátumoknak, mint a 3DS, OBJ, STL, U3D, glTF, PLY, X és FBX.
 
 ## Csomagok importálása
 
-Java-projektjében feltétlenül importálja a szükséges Aspose.3D csomagokat:
+Java projektjében győződjön meg róla, hogy importálja a szükséges Aspose.3D csomagokat:
 
 ```java
 import com.aspose.threed.*;
@@ -37,9 +53,11 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## A 3D fájlbetöltés testreszabása
+## Hogyan testreszabjuk a 3D importot a LoadOptions használatával
 
-### 1. lépés: A 3DS fájlbetöltés testreszabása
+Az alábbiakban lépésről‑lépésre kódrészletek láthatók, amelyek bemutatják, hogyan engedélyezhető a **koordináta-rendszer megfordítása** opció minden támogatott formátumhoz. A részletek készen állnak a projektbe másolásra; csak cserélje le a `"Your Document Directory"`-t a tényleges eszközök elérési útjára.
+
+### 1. lépés: 3DS fájl betöltés testreszabása
 
 ```java
 public static void discreet3DSLoadOption() {
@@ -52,7 +70,7 @@ public static void discreet3DSLoadOption() {
 }
 ```
 
-### 2. lépés: Az OBJ fájl betöltésének testreszabása
+### 2. lépés: OBJ fájl betöltés testreszabása
 
 ```java
 public static void objLoadOption() {
@@ -64,7 +82,7 @@ public static void objLoadOption() {
 }
 ```
 
-### 3. lépés: Az STL fájl betöltésének testreszabása
+### 3. lépés: STL fájl betöltés testreszabása
 
 ```java
 public static void stlLoadOption() {
@@ -75,7 +93,7 @@ public static void stlLoadOption() {
 }
 ```
 
-### 4. lépés: Az U3D fájlbetöltés testreszabása
+### 4. lépés: U3D fájl betöltés testreszabása
 
 ```java
 public static void u3dLoadOption() {
@@ -86,7 +104,7 @@ public static void u3dLoadOption() {
 }
 ```
 
-### 5. lépés: A glTF fájlbetöltés testreszabása
+### 5. lépés: glTF fájl betöltés testreszabása
 
 ```java
 public static void gltfLoadOptions() throws IOException {
@@ -98,7 +116,7 @@ public static void gltfLoadOptions() throws IOException {
 }
 ```
 
-### 6. lépés: A PLY fájl betöltésének testreszabása
+### 6. lépés: PLY fájl betöltés testreszabása
 
 ```java
 public static void plyLoadOptions() throws IOException {
@@ -110,7 +128,7 @@ public static void plyLoadOptions() throws IOException {
 }
 ```
 
-### 7. lépés: Az X fájl betöltésének testreszabása
+### 7. lépés: X fájl betöltés testreszabása
 
 ```java
 public static void xLoadOptions() throws IOException {
@@ -122,7 +140,7 @@ public static void xLoadOptions() throws IOException {
 }
 ```
 
-### 8. lépés: FBX-fájlbetöltés testreszabása (opcionális)
+### 8. lépés: FBX fájl betöltés testreszabása (opcionális)
 
 ```java
 private static void FBXLoadOptions() throws IOException {
@@ -137,34 +155,42 @@ private static void FBXLoadOptions() throws IOException {
 }
 ```
 
+## Gyakori problémák és megoldások
+- **A modell tükröződve jelenik meg a betöltés után** – Ellenőrizze, hogy a `setFlipCoordinateSystem(true)` a megfelelő formátumra van beállítva.  
+- **Anyagok hiányoznak** – OBJ fájlok esetén győződjön meg róla, hogy a `setEnableMaterials(true)` be van állítva, és a material fájlok (.mtl) az egyik lookup útvonalban találhatók.  
+- **A textúra koordináták fejjel lefelé vannak** – glTF esetén szükség lehet a `setFlipTexCoordV(true)` használatára a tengelyek megfordítása mellett.  
+- **Fájl nem található hibák** – Adja hozzá a külső erőforrásokat (textúrák, segédfájlok) tartalmazó könyvtárat a `loadOpts.getLookupPaths()`-hez.
+
 ## Következtetés
 
-A 3D fájlbetöltés Java nyelven történő testreszabása az Aspose.3D LoadOptions szolgáltatásával lehetővé teszi a fejlesztők számára, hogy az importálási folyamatot a konkrét követelményekhez igazítsák. Legyen szó animációs transzformációk módosításáról, koordinátarendszerek átfordításáról vagy külső függőségek kezeléséről, az Aspose.3D biztosítja a zökkenőmentes integrációhoz szükséges rugalmasságot.
+Az Aspose.3D `LoadOptions` használatával **megfordíthatja a koordináta-rendszert** és **testreszabhatja a 3D importot** gyakorlatilag minden fő formátumhoz. Ez a szintű vezérlés megszünteti a post‑processing szkriptek szükségességét, és biztosítja, hogy az eszközei már az első alkalommal helyesen jelenjenek meg.
 
-## GYIK
+## Gyakran Ismételt Kérdések
 
-### 1. kérdés: Hol találom az Aspose.3D for Java dokumentációt?
+### Q1: Hol találom az Aspose.3D for Java dokumentációt?
+A dokumentáció elérhető [here](https://reference.aspose.com/3d/java/).
 
- V1: A dokumentáció elérhető[itt](https://reference.aspose.com/3d/java/).
+### Q2: Hogyan tölthetem le az Aspose.3D for Java-t?
+Letöltheti [here](https://releases.aspose.com/3d/java/).
 
-### 2. kérdés: Hogyan tölthetem le az Aspose.3D for Java-t?
+### Q3: Van elérhető ingyenes próba?
+Igen, a ingyenes próbát [here](https://releases.aspose.com/).
 
- V2: Letöltheti[itt](https://releases.aspose.com/3d/java/).
+### Q4: Hol kaphatok támogatást az Aspose.3D for Java-hoz?
+Látogassa meg a támogatási fórumot [here](https://forum.aspose.com/c/3d/18).
 
-### 3. kérdés: Van ingyenes próbaverzió?
+### Q5: Szükségem van ideiglenes licencre a teszteléshez?
+Igen, szerezze be az ideiglenes licencet [here](https://purchase.aspose.com/temporary-license/).
 
- 3. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
-
-### 4. kérdés: Hol kaphatok támogatást az Aspose.3D for Java számára?
-
- 4. válasz: Látogassa meg a támogatási fórumot[itt](https://forum.aspose.com/c/3d/18).
-
-### 5. kérdés: Szükségem van ideiglenes licencre a teszteléshez?
-
- V5: Igen, szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Utolsó frissítés:** 2026-02-25  
+**Tesztelve:** Aspose.3D for Java 24.11 (legújabb)  
+**Szerző:** Aspose

@@ -1,34 +1,50 @@
 ---
-title: Tùy chỉnh tải tệp 3D trong Java với Aspose.3D LoadOptions
-linktitle: Tùy chỉnh tải tệp 3D trong Java với Aspose.3D LoadOptions
-second_title: API Java Aspose.3D
-description: Nâng cao khả năng tải tệp 3D của bạn trong Java bằng LoadOptions có thể tùy chỉnh của Aspose.3D. Tìm hiểu tùy chỉnh từng bước cho 3DS, OBJ, STL, U3D, glTF, PLY, X và FBX tùy chọn.
-weight: 12
+date: 2026-02-25
+description: Tìm hiểu cách đảo ngược hệ tọa độ và tùy chỉnh việc nhập 3D bằng Aspose.3D
+  LoadOptions trong Java. Hướng dẫn chi tiết từng bước cho 3DS, OBJ, STL, U3D, glTF,
+  PLY, X và tùy chọn FBX.
+linktitle: Customize 3D File Loading in Java with Aspose.3D LoadOptions
+second_title: Aspose.3D Java API
+title: Đảo hệ tọa độ – Tùy chỉnh việc tải tệp 3D trong Java với Aspose.3D
 url: /vi/java/load-and-save/customize-3d-file-loading/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tùy chỉnh tải tệp 3D trong Java với Aspose.3D LoadOptions
+# Đảo Hệ Tọa Độ – Tùy Chỉnh Tải Tệp 3D trong Java với Aspose.3D
 
-## Giới thiệu
+Trong bối cảnh thiết kế và phát triển 3D không ngừng thay đổi, **đảo hệ tọa độ** khi nhập mô hình là một yêu cầu phổ biến. Dù bạn đang chuyển đổi tài sản từ hệ phải sang hệ trái hoặc cần căn chỉnh mô hình với quy ước trục của engine, Aspose.3D cho Java cung cấp khả năng kiểm soát chi tiết. Hướng dẫn này sẽ chỉ cho bạn cách **tùy chỉnh nhập 3D** bằng `LoadOptions` của Aspose.3D, bao gồm các định dạng phổ biến nhất như 3DS, OBJ, STL, U3D, glTF, PLY, X và tùy chọn FBX.
 
-Trong bối cảnh thiết kế và phát triển 3D không ngừng phát triển, việc xử lý hiệu quả các định dạng tệp 3D là rất quan trọng. Aspose.3D for Java cung cấp một giải pháp mạnh mẽ để tùy chỉnh việc tải các định dạng tệp 3D khác nhau. Hướng dẫn này sẽ hướng dẫn bạn qua quá trình tùy chỉnh tải tệp 3D trong Java bằng cách sử dụng LoadOptions của Aspose.3D.
+## Câu trả lời nhanh
+- **Công dụng của “đảo hệ tọa độ” là gì?** Nó hoán đổi các trục X/Y/Z để phù hợp với quy ước hệ tọa độ mục tiêu.  
+- **Các định dạng nào hỗ trợ đảo?** Tất cả các định dạng chính (3DS, OBJ, STL, U3D, glTF, PLY, X, FBX) đều cung cấp tùy chọn `setFlipCoordinateSystem`.  
+- **Có cần thư viện bổ sung không?** Chỉ cần JAR Aspose.3D cho Java; không yêu cầu bộ chuyển đổi bên ngoài.  
+- **Có thể tải vật liệu cùng lúc không?** Có — sử dụng `setEnableMaterials(true)` cho tệp OBJ.  
+- **Cần giấy phép cho môi trường sản xuất không?** Cần giấy phép Aspose.3D hợp lệ cho các triển khai không dùng bản dùng thử.
 
-## Điều kiện tiên quyết
+## Hệ tọa độ “đảo” là gì?
+Đảo hệ tọa độ thay đổi hướng của các trục được mô hình nhập vào sử dụng. Điều này rất quan trọng khi tệp nguồn sử dụng kiểu tay khác (phải vs. trái) so với engine của bạn, tránh việc mô hình bị lật ngược hoặc phản chiếu.
 
-Trước khi đi sâu vào quá trình tùy chỉnh, hãy đảm bảo bạn có những điều sau:
+## Tại sao cần tùy chỉnh nhập 3D?
+Tùy chỉnh nhập cho phép bạn:
+- Bảo tồn các biến đổi hoạt ảnh (`setApplyAnimationTransform`).  
+- Xử lý màu đúng (`setGammaCorrectedColor`).  
+- Giải quyết đường dẫn tài nguyên bên ngoài qua `getLookupPaths()`.  
+- Tối ưu hóa việc sử dụng bộ nhớ bằng cách chỉ tải những gì cần.
 
-- Hiểu biết cơ bản về lập trình Java.
-- Đã cài đặt Bộ công cụ phát triển Java (JDK).
--  Đã tải xuống thư viện Aspose.3D cho Java. Bạn có thể có được nó[đây](https://releases.aspose.com/3d/java/).
-- Làm quen với các định dạng tệp 3D như 3DS, OBJ, STL, U3D, glTF, PLY, X và FBX.
+## Yêu cầu trước
 
-## Gói nhập khẩu
+- Hiểu biết cơ bản về lập trình Java.  
+- Đã cài đặt Java Development Kit (JDK).  
+- Thư viện Aspose.3D cho Java đã tải xuống. Bạn có thể lấy nó [here](https://releases.aspose.com/3d/java/).  
+- Quen thuộc với các định dạng tệp 3D như 3DS, OBJ, STL, U3D, glTF, PLY, X và FBX.
 
-Trong dự án Java của bạn, hãy đảm bảo nhập các gói Aspose.3D cần thiết:
+## Nhập Gói
+
+Trong dự án Java của bạn, hãy chắc chắn nhập các gói Aspose.3D cần thiết:
 
 ```java
 import com.aspose.threed.*;
@@ -37,7 +53,9 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Tùy chỉnh tải tệp 3D
+## Cách tùy chỉnh nhập 3D bằng LoadOptions
+
+Dưới đây là các đoạn mã từng bước minh họa cách bật tùy chọn **đảo hệ tọa độ** cho mỗi định dạng được hỗ trợ. Các đoạn mã đã sẵn sàng để sao chép vào dự án; chỉ cần thay `"Your Document Directory"` bằng đường dẫn thực tế tới tài sản của bạn.
 
 ### Bước 1: Tùy chỉnh tải tệp 3DS
 
@@ -86,7 +104,7 @@ public static void u3dLoadOption() {
 }
 ```
 
-### Bước 5: Tùy chỉnh tải file glTF
+### Bước 5: Tùy chỉnh tải tệp glTF
 
 ```java
 public static void gltfLoadOptions() throws IOException {
@@ -137,34 +155,42 @@ private static void FBXLoadOptions() throws IOException {
 }
 ```
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
+- **Mô hình xuất hiện bị lật ngược sau khi tải** – Kiểm tra rằng `setFlipCoordinateSystem(true)` đã được đặt cho định dạng đúng.  
+- **Vật liệu bị thiếu** – Đối với tệp OBJ, đảm bảo `setEnableMaterials(true)` và các tệp vật liệu (.mtl) nằm trong một trong các đường dẫn lookup.  
+- **Tọa độ texture bị ngược** – Đối với glTF, bạn có thể cần `setFlipTexCoordV(true)` bổ sung cho việc đảo các trục.  
+- **Lỗi không tìm thấy tệp** – Thêm thư mục chứa tài nguyên bên ngoài (texture, tệp phụ) vào `loadOpts.getLookupPaths()`.
 
-Tùy chỉnh tải tệp 3D trong Java bằng LoadOptions của Aspose.3D cho phép các nhà phát triển điều chỉnh quy trình nhập theo các yêu cầu cụ thể. Cho dù đó là điều chỉnh các phép biến đổi hoạt ảnh, lật hệ tọa độ hay xử lý các phần phụ thuộc bên ngoài, Aspose.3D đều cung cấp tính linh hoạt cần thiết để tích hợp liền mạch.
+## Kết luận
+
+Bằng cách tận dụng `LoadOptions` của Aspose.3D, bạn có thể **đảo hệ tọa độ** và **tùy chỉnh nhập 3D** cho hầu hết các định dạng chính. Mức độ kiểm soát này loại bỏ nhu cầu viết script xử lý sau và đảm bảo tài sản của bạn được hiển thị đúng từ lần đầu tiên.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể tìm tài liệu Aspose.3D cho Java ở đâu?
+### Q1: Tôi có thể tìm tài liệu Aspose.3D cho Java ở đâu?
+A1: Tài liệu có sẵn [here](https://reference.aspose.com/3d/java/).
 
- A1: Tài liệu có sẵn[đây](https://reference.aspose.com/3d/java/).
+### Q2: Làm sao để tải Aspose.3D cho Java?
+A2: Bạn có thể tải nó [here](https://releases.aspose.com/3d/java/).
 
-### Câu hỏi 2: Làm cách nào tôi có thể tải xuống Aspose.3D cho Java?
+### Q3: Có bản dùng thử miễn phí không?
+A3: Có, bạn có thể truy cập bản dùng thử miễn phí [here](https://releases.aspose.com/).
 
- A2: Bạn có thể tải xuống[đây](https://releases.aspose.com/3d/java/).
+### Q4: Tôi có thể nhận hỗ trợ cho Aspose.3D cho Java ở đâu?
+A4: Tham khảo diễn đàn hỗ trợ [here](https://forum.aspose.com/c/3d/18).
 
-### Câu 3: Có bản dùng thử miễn phí không?
+### Q5: Có cần giấy phép tạm thời để thử nghiệm không?
+A5: Có, hãy lấy giấy phép tạm thời [here](https://purchase.aspose.com/temporary-license/).
 
- Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
-
-### Câu hỏi 4: Tôi có thể nhận hỗ trợ cho Aspose.3D cho Java ở đâu?
-
- A4: Truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/3d/18).
-
-### Câu hỏi 5: Tôi có cần giấy phép tạm thời để thử nghiệm không?
-
- A5: Có, xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2026-02-25  
+**Kiểm tra với:** Aspose.3D cho Java 24.11 (mới nhất)  
+**Tác giả:** Aspose

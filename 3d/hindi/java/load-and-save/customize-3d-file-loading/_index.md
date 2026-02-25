@@ -1,30 +1,45 @@
 ---
-title: Aspose.3D LoadOptions के साथ जावा में 3D फ़ाइल लोडिंग को अनुकूलित करें
-linktitle: Aspose.3D LoadOptions के साथ जावा में 3D फ़ाइल लोडिंग को अनुकूलित करें
-second_title: Aspose.3D जावा एपीआई
-description: Aspose.3D अनुकूलन योग्य LoadOptions के साथ जावा में अपनी 3D फ़ाइल लोडिंग को बढ़ाएं। 3DS, OBJ, STL, U3D, glTF, PLY, X और वैकल्पिक FBX के लिए चरण-दर-चरण अनुकूलन सीखें।
-weight: 12
+date: 2026-02-25
+description: जावा में Aspose.3D LoadOptions का उपयोग करके कोऑर्डिनेट सिस्टम को उलटने
+  और 3D इम्पोर्ट को कस्टमाइज़ करना सीखें। 3DS, OBJ, STL, U3D, glTF, PLY, X और वैकल्पिक
+  FBX के लिए चरण‑दर‑चरण गाइड।
+linktitle: Customize 3D File Loading in Java with Aspose.3D LoadOptions
+second_title: Aspose.3D Java API
+title: कोऑर्डिनेट सिस्टम को उलटें – जावा में Aspose.3D के साथ 3D फ़ाइल लोडिंग को कस्टमाइज़
+  करें
 url: /hi/java/load-and-save/customize-3d-file-loading/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D LoadOptions के साथ जावा में 3D फ़ाइल लोडिंग को अनुकूलित करें
+# Flip Coordinate System – जावा में Aspose.3D के साथ 3D फ़ाइल लोडिंग को कस्टमाइज़ करें
 
-## परिचय
+3D डिज़ाइन और विकास के निरंतर विकसित होते परिदृश्य में, मॉडल आयात करते समय **flipping the coordinate system** एक सामान्य आवश्यकता है। चाहे आप एसेट्स को राइट‑हैंडेड से लेफ़्ट‑हैंडेड सिस्टम में बदल रहे हों या अपने इंजन की एक्सिस परम्पराओं के साथ मॉडल को संरेखित करने की आवश्यकता हो, Aspose.3D for Java आपको सूक्ष्म नियंत्रण प्रदान करता है। यह ट्यूटोरियल आपको Aspose.3D के `LoadOptions` का उपयोग करके **customize 3D import** करने की प्रक्रिया दिखाता है, जिसमें 3DS, OBJ, STL, U3D, glTF, PLY, X और वैकल्पिक FBX जैसे सबसे लोकप्रिय फॉर्मेट शामिल हैं।
 
-3डी डिज़ाइन और विकास के निरंतर विकसित हो रहे परिदृश्य में, 3डी फ़ाइल स्वरूपों का कुशल संचालन महत्वपूर्ण है। जावा के लिए Aspose.3D विभिन्न 3D फ़ाइल स्वरूपों की लोडिंग को अनुकूलित करने के लिए एक शक्तिशाली समाधान प्रदान करता है। यह ट्यूटोरियल Aspose.3D के LoadOptions का उपयोग करके जावा में 3D फ़ाइल लोडिंग को अनुकूलित करने की प्रक्रिया में आपका मार्गदर्शन करेगा।
+## त्वरित उत्तर
+- **“flip coordinate system” क्या करता है?** यह X/Y/Z अक्षों को लक्ष्य कोऑर्डिनेट परम्परा के अनुसार बदल देता है।  
+- **कौन से फॉर्मेट फ्लिपिंग का समर्थन करते हैं?** सभी प्रमुख फॉर्मेट (3DS, OBJ, STL, U3D, glTF, PLY, X, FBX) `setFlipCoordinateSystem` विकल्प प्रदान करते हैं।  
+- **क्या मुझे अतिरिक्त लाइब्रेरीज़ की जरूरत है?** केवल Aspose.3D for Java JAR; कोई बाहरी कन्वर्टर आवश्यक नहीं है।  
+- **क्या मैं साथ ही मैटीरियल लोड कर सकता हूँ?** हाँ—OBJ फ़ाइलों के लिए `setEnableMaterials(true)` उपयोग करें।  
+- **प्रोडक्शन के लिए लाइसेंस आवश्यक है?** गैर‑ट्रायल डिप्लॉयमेंट के लिए वैध Aspose.3D लाइसेंस आवश्यक है।
 
-## आवश्यक शर्तें
+## “flip coordinate system” क्या है?
+Flipping the coordinate system आयात किए गए मॉडल द्वारा उपयोग किए जाने वाले अक्षों की अभिविन्यास को बदलता है। यह तब आवश्यक होता है जब स्रोत फ़ाइल आपके रेंडरिंग इंजन से अलग हैंडेडनेस (right‑handed vs. left‑handed) का उपयोग करती है, जिससे मॉडल प्रतिबिंबित या उलटा दिखने से बचा जा सके।
 
-अनुकूलन प्रक्रिया में उतरने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+## 3D आयात को कस्टमाइज़ क्यों करें?
+- एनीमेशन ट्रांसफ़ॉर्म को संरक्षित रखें (`setApplyAnimationTransform`)।  
+- रंग हैंडलिंग को सही करें (`setGammaCorrectedColor`)।  
+- `getLookupPaths()` के माध्यम से बाहरी संसाधन पथों को हल करें।  
+- केवल आवश्यक चीज़ें लोड करके मेमोरी उपयोग को अनुकूलित करें।
 
-- जावा प्रोग्रामिंग की बुनियादी समझ.
-- स्थापित जावा डेवलपमेंट किट (जेडीके)।
--  जावा लाइब्रेरी के लिए Aspose.3D डाउनलोड किया गया। आप इसे प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/3d/java/).
-- 3DS, OBJ, STL, U3D, glTF, PLY, X और FBX जैसे 3D फ़ाइल स्वरूपों से परिचित।
+## पूर्वापेक्षाएँ
+- जावा प्रोग्रामिंग की बुनियादी समझ।  
+- स्थापित Java Development Kit (JDK)।  
+- Aspose.3D for Java लाइब्रेरी डाउनलोड की गई। आप इसे [यहाँ](https://releases.aspose.com/3d/java/) प्राप्त कर सकते हैं।  
+- 3DS, OBJ, STL, U3D, glTF, PLY, X, और FBX जैसे 3D फ़ाइल फॉर्मेट की परिचितता।
 
 ## पैकेज आयात करें
 
@@ -37,9 +52,11 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 3डी फ़ाइल लोडिंग को अनुकूलित करें
+## LoadOptions के साथ 3D आयात को कैसे कस्टमाइज़ करें
 
-### चरण 1: 3डीएस फ़ाइल लोडिंग को अनुकूलित करें
+नीचे चरण‑दर‑चरण कोड स्निपेट्स दिए गए हैं जो प्रत्येक समर्थित फॉर्मेट के लिए **flip coordinate system** विकल्प को सक्षम करने का प्रदर्शन करते हैं। ये स्निपेट्स आपके प्रोजेक्ट में कॉपी करने के लिए तैयार हैं; केवल `"Your Document Directory"` को अपने एसेट्स के वास्तविक पथ से बदलें।
+
+### चरण 1: 3DS फ़ाइल लोडिंग को कस्टमाइज़ करें
 
 ```java
 public static void discreet3DSLoadOption() {
@@ -52,7 +69,7 @@ public static void discreet3DSLoadOption() {
 }
 ```
 
-### चरण 2: ओबीजे फ़ाइल लोडिंग को अनुकूलित करें
+### चरण 2: OBJ फ़ाइल लोडिंग को कस्टमाइज़ करें
 
 ```java
 public static void objLoadOption() {
@@ -64,7 +81,7 @@ public static void objLoadOption() {
 }
 ```
 
-### चरण 3: एसटीएल फ़ाइल लोडिंग को अनुकूलित करें
+### चरण 3: STL फ़ाइल लोडिंग को कस्टमाइज़ करें
 
 ```java
 public static void stlLoadOption() {
@@ -75,7 +92,7 @@ public static void stlLoadOption() {
 }
 ```
 
-### चरण 4: U3D फ़ाइल लोडिंग को अनुकूलित करें
+### चरण 4: U3D फ़ाइल लोडिंग को कस्टमाइज़ करें
 
 ```java
 public static void u3dLoadOption() {
@@ -86,7 +103,7 @@ public static void u3dLoadOption() {
 }
 ```
 
-### चरण 5: glTF फ़ाइल लोडिंग को अनुकूलित करें
+### चरण 5: glTF फ़ाइल लोडिंग को कस्टमाइज़ करें
 
 ```java
 public static void gltfLoadOptions() throws IOException {
@@ -98,7 +115,7 @@ public static void gltfLoadOptions() throws IOException {
 }
 ```
 
-### चरण 6: PLY फ़ाइल लोडिंग को अनुकूलित करें
+### चरण 6: PLY फ़ाइल लोडिंग को कस्टमाइज़ करें
 
 ```java
 public static void plyLoadOptions() throws IOException {
@@ -110,7 +127,7 @@ public static void plyLoadOptions() throws IOException {
 }
 ```
 
-### चरण 7: एक्स फ़ाइल लोडिंग को अनुकूलित करें
+### चरण 7: X फ़ाइल लोडिंग को कस्टमाइज़ करें
 
 ```java
 public static void xLoadOptions() throws IOException {
@@ -122,7 +139,7 @@ public static void xLoadOptions() throws IOException {
 }
 ```
 
-### चरण 8: FBX फ़ाइल लोडिंग को अनुकूलित करें (वैकल्पिक)
+### चरण 8: FBX फ़ाइल लोडिंग को कस्टमाइज़ करें (वैकल्पिक)
 
 ```java
 private static void FBXLoadOptions() throws IOException {
@@ -137,34 +154,42 @@ private static void FBXLoadOptions() throws IOException {
 }
 ```
 
+## सामान्य समस्याएँ और समाधान
+- **लोड करने के बाद मॉडल प्रतिबिंबित दिखता है** – सुनिश्चित करें कि सही फॉर्मेट के लिए `setFlipCoordinateSystem(true)` सेट किया गया है।  
+- **मैटीरियल गायब हैं** – OBJ फ़ाइलों के लिए, `setEnableMaterials(true)` सुनिश्चित करें और यह कि मैटीरियल फ़ाइलें (.mtl) लुकअप पाथ में से किसी एक में स्थित हों।  
+- **टेक्सचर कोऑर्डिनेट उल्टे हैं** – glTF के लिए, अक्षों को उलटने के अलावा `setFlipTexCoordV(true)` की आवश्यकता हो सकती है।  
+- **फ़ाइल नहीं मिली त्रुटियाँ** – बाहरी संसाधनों (टेक्सचर, सहायक फ़ाइलें) वाले डायरेक्टरी को `loadOpts.getLookupPaths()` में जोड़ें।
+
 ## निष्कर्ष
 
-Aspose.3D के LoadOptions के साथ जावा में 3D फ़ाइल लोडिंग को अनुकूलित करना डेवलपर्स को आयात प्रक्रिया को विशिष्ट आवश्यकताओं के अनुरूप बनाने का अधिकार देता है। चाहे वह एनीमेशन परिवर्तनों को समायोजित करना हो, समन्वय प्रणालियों को फ़्लिप करना हो, या बाहरी निर्भरता को संभालना हो, Aspose.3D निर्बाध एकीकरण के लिए आवश्यक लचीलापन प्रदान करता है।
+Aspose.3D के `LoadOptions` का उपयोग करके आप लगभग सभी प्रमुख फॉर्मेट के लिए **flip coordinate system** और **customize 3D import** कर सकते हैं। यह नियंत्रण स्तर पोस्ट‑प्रोसेसिंग स्क्रिप्ट्स की आवश्यकता को समाप्त करता है और सुनिश्चित करता है कि आपके एसेट्स पहली बार में ही सही ढंग से रेंडर हों।
 
-## पूछे जाने वाले प्रश्न
+## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: मैं जावा दस्तावेज़ के लिए Aspose.3D कहां पा सकता हूं?
+### Q1: Aspose.3D for Java दस्तावेज़ीकरण कहाँ मिल सकता है?
+A1: दस्तावेज़ीकरण [यहाँ](https://reference.aspose.com/3d/java/) उपलब्ध है।
 
- A1: दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/3d/java/).
+### Q2: मैं Aspose.3D for Java को कैसे डाउनलोड कर सकता हूँ?
+A2: आप इसे [यहाँ](https://releases.aspose.com/3d/java/) डाउनलोड कर सकते हैं।
 
-### Q2: मैं जावा के लिए Aspose.3D कैसे डाउनलोड कर सकता हूं?
+### Q3: क्या कोई मुफ्त ट्रायल उपलब्ध है?
+A3: हाँ, आप मुफ्त ट्रायल [यहाँ](https://releases.aspose.com/) तक पहुँच सकते हैं।
 
- A2: आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/3d/java/).
+### Q4: Aspose.3D for Java के लिए समर्थन कहाँ प्राप्त कर सकता हूँ?
+A4: समर्थन फ़ोरम [यहाँ](https://forum.aspose.com/c/3d/18) देखें।
 
-### Q3: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
+### Q5: परीक्षण के लिए क्या मुझे अस्थायी लाइसेंस चाहिए?
+A5: हाँ, अस्थायी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) प्राप्त करें।
 
- उ3: हाँ, आप नि:शुल्क परीक्षण का उपयोग कर सकते हैं[यहाँ](https://releases.aspose.com/).
-
-### Q4: मुझे जावा के लिए Aspose.3D के लिए समर्थन कहाँ से मिल सकता है?
-
- उ4: सहायता मंच पर जाएँ[यहाँ](https://forum.aspose.com/c/3d/18).
-
-### Q5: क्या मुझे परीक्षण के लिए अस्थायी लाइसेंस की आवश्यकता है?
-
- A5: हाँ, एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**अंतिम अपडेट:** 2026-02-25  
+**परीक्षण किया गया:** Aspose.3D for Java 24.11 (latest)  
+**लेखक:** Aspose
