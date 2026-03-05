@@ -1,35 +1,47 @@
 ---
-title: Twórz chmury punktów z siatek w Javie
-linktitle: Twórz chmury punktów z siatek w Javie
-second_title: Aspose.3D API Java
-description: Poznaj świat modelowania 3D w Javie dzięki Aspose.3D. Naucz się bez wysiłku tworzyć chmury punktów z siatek.
-weight: 12
+date: 2026-03-05
+description: Naucz się konwertować siatkę na chmurę punktów w Javie przy użyciu Aspose.3D
+  i efektywnie zapisywać plik chmury punktów.
+linktitle: Convert Mesh to Point Cloud in Java
+second_title: Aspose.3D Java API
+title: Jak przekonwertować siatkę na chmurę punktów w Javie przy użyciu Aspose.3D
 url: /pl/java/point-clouds/create-point-clouds-java/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Twórz chmury punktów z siatek w Javie
+# Jak przekonwertować siatkę na chmurę punktów w Javie przy użyciu Aspose.3D
 
-## Wstęp
+Tworzenie **chmury punktów** z siatki 3D jest częstym wymogiem w projektach grafiki, symulacji i wizualizacji danych. W tym samouczku dowiesz się, jak **przekonwertować siatkę na chmurę punktów** przy użyciu API Aspose.3D dla Javy oraz jak **zapisać plik chmury punktów** do późniejszego użycia. Kroki są przedstawione jasno, abyś mógł zintegrować generowanie chmur punktów w swoich aplikacjach Java przy minimalnym wysiłku.
 
-Witamy w tym kompleksowym samouczku na temat tworzenia chmur punktów z siatek w Javie przy użyciu Aspose.3D. Aspose.3D to potężna biblioteka Java, która zapewnia rozbudowane funkcje do modelowania i manipulacji 3D. W tym samouczku przeprowadzimy Cię przez proces generowania chmur punktów z siatek, oferując jasne i szczegółowe kroki zapewniające płynne działanie.
+## Szybkie odpowiedzi
+- **Jaka biblioteka jest najlepsza do tego zadania?** Aspose.3D Java API zapewnia wbudowaną obsługę konwersji siatki‑do‑chmury‑punktów.  
+- **Jakiego formatu używa przykład?** Format DRACO (`.drc`) jest używany do kompaktowego przechowywania chmur punktów.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarcza do rozwoju; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę przetwarzać wiele siatek?** Tak – wystarczy powtórzyć krok kodowania dla każdej siatki.  
+- **Czy wymagane jest dodatkowe przetwarzanie?** Opcjonalnie; Aspose.3D oferuje metody do manipulacji chmurą punktów po kodowaniu.
 
-## Warunki wstępne
+## Co to jest „konwersja siatki na chmurę punktów”?
+Konwersja siatki na chmurę punktów polega na wyodrębnieniu pozycji wierzchołków (opcjonalnie normalnych lub kolorów) z geometrii siatki i zapisaniu ich jako zbioru punktów. Taka reprezentacja jest idealna do szybkiego renderowania, wykrywania kolizji oraz wprowadzania danych do pipeline’ów uczenia maszynowego.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Dlaczego używać Aspose.3D do generowania chmur punktów?
+- **Wysokowydajne kodowanie:** Wbudowana kompresja DRACO znacząco zmniejsza rozmiar pliku.  
+- **Proste API:** Jednolinijkowe wywołania zajmują się najtrudniejszą częścią.  
+- **Wsparcie wieloplatformowe Java:** Działa w każdym środowisku zgodnym z JVM.  
+- **Rozszerzalność:** Po konwersji możesz dalej przetwarzać chmurę (filtracja, transformacje itp.).
 
-1. Środowisko programistyczne Java: Upewnij się, że w systemie skonfigurowano środowisko programistyczne Java.
+## Wymagania wstępne
 
-2.  Biblioteka Aspose.3D: Pobierz i zainstaluj bibliotekę Aspose.3D. Możesz znaleźć drogę do biblioteki[Tutaj](https://releases.aspose.com/3d/java/).
+1. **Środowisko programistyczne Java** – zainstalowany JDK 8 lub nowszy.  
+2. **Biblioteka Aspose.3D** – pobierz i zainstaluj bibliotekę Aspose.3D. Bibliotekę znajdziesz [tutaj](https://releases.aspose.com/3d/java/).  
+3. **Katalog dokumentów** – utwórz folder, w którym będą zapisywane wygenerowane pliki chmur punktów.
 
-3. Katalog dokumentów: Utwórz katalog, w którym chcesz przechowywać wygenerowane dokumenty chmury punktów.
+## Importowanie pakietów
 
-## Importuj pakiety
-
-Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java:
+Aby rozpocząć, zaimportuj niezbędne klasy w swoim projekcie Java:
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -39,56 +51,65 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Krok 1: Zakoduj siatkę w chmurze punktów
+## Krok 1: Kodowanie siatki do chmury punktów
 
-Rozpocznij od zakodowania siatki do chmury punktów przy użyciu biblioteki Aspose.3D:
+Użyj enkodera `FileFormat.DRACO`, aby przekształcić siatkę (na przykład `Sphere`) w skompresowany plik chmury punktów:
 
 ```java
 // ExStart:1
 FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
-// RozwińKoniec:1
+// ExEnd:1
 ```
 
-Wyjaśnienie:
--  The`FileFormat.DRACO` metoda służy do określenia formatu kodowania (w tym przypadku DRACO).
-- `new Sphere()` reprezentuje siatkę, którą chcesz przekształcić w chmurę punktów.
-- `"Your Document Directory" + "sphere.drc"` definiuje ścieżkę wyjściową i nazwę pliku wygenerowanego dokumentu chmury punktów.
+**Wyjaśnienie**
 
-W razie potrzeby powtórz ten krok dla różnych siatek.
+- `FileFormat.DRACO` wybiera format kompresji DRACO, zoptymalizowany pod kątem przechowywania chmur punktów.  
+- `new Sphere()` tworzy prostą sferyczną siatkę, która służy jako źródłowa geometria.  
+- Łańcuch `"Your Document Directory" + "sphere.drc"` buduje pełną ścieżkę wyjściową, w której zostanie zapisany **plik chmury punktów** (`sphere.drc`).
+
+Możesz powtórzyć ten krok z dowolnymi innymi obiektami siatek (np. `Box`, `Cylinder`), aby wygenerować dodatkowe chmury punktów.
 
 ## Krok 2: Dodatkowe przetwarzanie (opcjonalnie)
 
-W zależności od wymagań możesz wykonać dodatkowe przetwarzanie wygenerowanych danych chmury punktów. Aspose.3D zapewnia różne metody manipulowania i ulepszania informacji w chmurze punktów.
+Po kodowaniu możesz chcieć udoskonalić chmurę punktów – np. zastosować transformacje, odfiltrować wartości odstające lub dodać własne atrybuty. Aspose.3D oferuje bogaty zestaw metod do manipulacji danymi chmur punktów, choć nie są one wymagane do podstawowej konwersji.
 
 ## Krok 3: Zapisz i wykorzystaj
 
-Zapisz przetworzoną chmurę punktów i wykorzystaj ją w swoich aplikacjach lub projektach. Wygenerowane chmury punktów można wykorzystać w różnych dziedzinach, w tym w grafice komputerowej, symulacjach i wizualizacji danych.
+Zakodowany plik jest już zapisany w określonej lokalizacji. Teraz możesz wczytać ten plik `.drc` w dowolnej aplikacji obsługującej chmury punktów DRACO lub bezpośrednio użyć go w silnikach renderujących, pipeline’ach symulacji lub modelach AI.
 
-## Wniosek
+## Typowe problemy i wskazówki
 
-Gratulacje! Pomyślnie nauczyłeś się tworzyć chmury punktów z siatek w Javie przy użyciu Aspose.3D. Ten samouczek zapewnia solidną podstawę do włączania chmur punktów 3D do aplikacji Java.
+- **Nieprawidłowa ścieżka:** Upewnij się, że katalog istnieje i masz uprawnienia do zapisu; w przeciwnym razie zostanie rzucony `IOException`.  
+- **Nieobsługiwane typy siatek:** Złożone siatki z nie‑trójkątnymi ścianami są automatycznie triangulowane przez Aspose.3D, ale bardzo duże siatki mogą wymagać więcej pamięci.  
+- **Wydajność:** Kompresja DRACO jest szybka, ale przy bardzo dużych chmurach punktów rozważ przetwarzanie w partiach, aby uniknąć skoków pamięci.
 
-## Często zadawane pytania
+## Podsumowanie
 
-### P1: Czy mogę używać Aspose.3D w projektach komercyjnych?
+Właśnie nauczyłeś się, jak **przekonwertować siatkę na chmurę punktów** w Javie przy użyciu Aspose.3D oraz jak **zapisać plik chmury punktów** do dalszego wykorzystania. Ta możliwość otwiera drzwi do efektywnego zarządzania danymi 3D w grafice, AR/VR oraz projektach data‑science.
 
- A1: Tak, możesz. Odwiedzić[strona zakupu](https://purchase.aspose.com/buy) dla opcji licencjonowania.
+## Najczęściej zadawane pytania
 
-### P2: Czy dostępny jest bezpłatny okres próbny?
+### Q1: Czy mogę używać Aspose.3D w projektach komercyjnych?  
+A1: Tak, możesz. Odwiedź [stronę zakupu](https://purchase.aspose.com/buy) po opcje licencjonowania.
 
- Odpowiedź 2: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+### Q2: Czy dostępna jest darmowa wersja próbna?  
+A2: Tak, darmową wersję próbną znajdziesz [tutaj](https://releases.aspose.com/).
 
-### P3: Gdzie mogę znaleźć wsparcie dla Aspose.3D?
+### Q3: Gdzie mogę uzyskać wsparcie dla Aspose.3D?  
+A3: Odwiedź [forum Aspose.3D](https://forum.aspose.com/c/3d/18) po wsparcie społeczności.
 
- A3: Odwiedź[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) za wsparcie społeczności.
+### Q4: Jak uzyskać tymczasową licencję?  
+A4: Tymczasową licencję możesz pobrać [tutaj](https://purchase.aspose.com/temporary-license/).
 
-### P4: Jak uzyskać licencję tymczasową?
+### Q5: Gdzie znajdę dokumentację?  
+A5: Zapoznaj się z [dokumentacją](https://reference.aspose.com/3d/java/) po szczegółowe informacje.
 
- A4: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+---
 
-### P5: Gdzie mogę znaleźć dokumentację?
+**Ostatnia aktualizacja:** 2026-03-05  
+**Testowano z:** Aspose.3D Java 24.12  
+**Autor:** Aspose  
 
- Odpowiedź 5: Patrz[dokumentacja](https://reference.aspose.com/3d/java/) aby uzyskać szczegółowe informacje.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

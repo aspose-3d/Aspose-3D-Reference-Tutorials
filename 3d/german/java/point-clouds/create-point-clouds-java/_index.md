@@ -1,35 +1,47 @@
 ---
-title: Erstellen Sie Punktwolken aus Netzen in Java
-linktitle: Erstellen Sie Punktwolken aus Netzen in Java
-second_title: Aspose.3D Java-API
-description: Entdecken Sie die Welt der 3D-Modellierung in Java mit Aspose.3D. Erfahren Sie, wie Sie mühelos Punktwolken aus Netzen erstellen.
-weight: 12
+date: 2026-03-05
+description: Learn how to convert mesh to point cloud in Java using Aspose.3D and
+  save point cloud file efficiently.
+linktitle: Convert Mesh to Point Cloud in Java
+second_title: Aspose.3D Java API
+title: Wie man Mesh in Punktwolke in Java mit Aspose.3D konvertiert
 url: /de/java/point-clouds/create-point-clouds-java/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Erstellen Sie Punktwolken aus Netzen in Java
+# Wie man Mesh in Punktwolke in Java mit Aspose.3D konvertiert
 
-## Einführung
+Das Erstellen einer **point cloud** aus einem 3D‑Mesh ist eine häufige Anforderung in Grafik-, Simulations- und Daten‑visualisierungsprojekten. In diesem Tutorial lernen Sie, wie Sie **convert mesh to point cloud** mit der Aspose.3D Java API durchführen und wie Sie **save point cloud file** für die spätere Verwendung speichern. Die Schritte sind klar dargestellt, sodass Sie die Punktwolken‑Erstellung mit minimalem Aufwand in Ihre Java‑Anwendungen integrieren können.
 
-Willkommen zu diesem umfassenden Tutorial zum Erstellen von Punktwolken aus Netzen in Java mit Aspose.3D. Aspose.3D ist eine leistungsstarke Java-Bibliothek, die umfangreiche Funktionalitäten für die 3D-Modellierung und -Bearbeitung bereitstellt. In diesem Tutorial führen wir Sie durch den Prozess der Generierung von Punktwolken aus Netzen und bieten klare und detaillierte Schritte für ein nahtloses Erlebnis.
+## Schnelle Antworten
+- **Welche Bibliothek ist für diese Aufgabe am besten?** Die Aspose.3D Java API bietet integrierte Unterstützung für die mesh‑to‑point‑cloud‑Konvertierung.  
+- **Welches Format verwendet das Beispiel?** Das DRACO‑Format (`.drc`) wird für kompakte point‑cloud‑Speicherung verwendet.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Kann ich mehrere Meshes verarbeiten?** Ja – wiederholen Sie einfach den Kodierungsschritt für jedes Mesh.  
+- **Ist zusätzliche Verarbeitung erforderlich?** Optional; Aspose.3D bietet Methoden zur Manipulation der point cloud nach der Kodierung.
+
+## Was bedeutet „convert mesh to point cloud“?
+Das Konvertieren eines Meshes in eine point cloud bedeutet, die Scheitelpunktpositionen (und optional Normalen oder Farben) aus der Mesh‑Geometrie zu extrahieren und sie als Sammlung von Punkten zu speichern. Diese Darstellung ist ideal für schnelles Rendering, Kollisionsdetektion und das Einspeisen von Daten in Machine‑Learning‑Pipelines.
+
+## Warum Aspose.3D für die point‑cloud‑Erstellung verwenden?
+- **Leistungsstarke Kodierung:** Eingebaute DRACO‑Kompression reduziert die Dateigröße dramatisch.  
+- **Einfache API:** Einzeilige Aufrufe übernehmen die schwere Arbeit.  
+- **Cross‑platform Java support:** Funktioniert in jeder JVM‑kompatiblen Umgebung.  
+- **Erweiterbar:** Nach der Konvertierung können Sie die cloud weiter verarbeiten (Filtern, Transformation usw.).
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-
-1. Java-Entwicklungsumgebung: Stellen Sie sicher, dass auf Ihrem System eine Java-Entwicklungsumgebung eingerichtet ist.
-
-2.  Aspose.3D-Bibliothek: Laden Sie die Aspose.3D-Bibliothek herunter und installieren Sie sie. Sie finden die Bibliothek[Hier](https://releases.aspose.com/3d/java/).
-
-3. Dokumentenverzeichnis: Erstellen Sie ein Verzeichnis, in dem Sie Ihre generierten Punktwolkendokumente speichern möchten.
+1. **Java Development Environment** – JDK 8 oder neuer installiert.  
+2. **Aspose.3D Library** – Laden Sie die Aspose.3D‑Bibliothek herunter und installieren Sie sie. Sie finden die Bibliothek [hier](https://releases.aspose.com/3d/java/).  
+3. **Document Directory** – Erstellen Sie einen Ordner, in dem die erzeugten point‑cloud‑Dateien gespeichert werden.
 
 ## Pakete importieren
 
-Importieren Sie zunächst die erforderlichen Pakete in Ihr Java-Projekt:
+Um zu beginnen, importieren Sie die notwendigen Klassen in Ihrem Java‑Projekt:
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -39,9 +51,9 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Schritt 1: Netz in Punktwolke kodieren
+## Schritt 1: Mesh in point cloud kodieren
 
-Beginnen Sie mit der Codierung eines Netzes in eine Punktwolke mithilfe der Aspose.3D-Bibliothek:
+Verwenden Sie den `FileFormat.DRACO`‑Encoder, um ein Mesh (zum Beispiel ein `Sphere`) in eine komprimierte point‑cloud‑Datei zu transformieren:
 
 ```java
 // ExStart:1
@@ -49,46 +61,55 @@ FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
 // ExEnd:1
 ```
 
-Erläuterung:
--  Der`FileFormat.DRACO` Die Methode wird verwendet, um das Codierungsformat anzugeben (in diesem Fall DRACO).
-- `new Sphere()` stellt das Netz dar, das Sie in eine Punktwolke umwandeln möchten.
-- `"Your Document Directory" + "sphere.drc"` Definiert den Ausgabepfad und Dateinamen für das generierte Punktwolkendokument.
+**Erklärung**
 
-Wiederholen Sie diesen Schritt nach Bedarf für verschiedene Netze.
+- `FileFormat.DRACO` wählt das DRACO‑Kompressionsformat, das für point‑cloud‑Speicherung optimiert ist.  
+- `new Sphere()` erzeugt ein einfaches sphärisches Mesh, das als Quellgeometrie dient.  
+- Der String `"Your Document Directory" + "sphere.drc"` erstellt den vollständigen Ausgabepfad, an dem die **point cloud file** (`sphere.drc`) gespeichert wird.
 
-## Schritt 2: Zusätzliche Verarbeitung (optional)
+Wiederholen Sie diesen Schritt gern mit anderen Mesh‑Objekten (z. B. `Box`, `Cylinder`), um zusätzliche point clouds zu erzeugen.
 
-Sie können je nach Ihren Anforderungen eine zusätzliche Verarbeitung der generierten Punktwolkendaten durchführen. Aspose.3D bietet verschiedene Methoden zur Bearbeitung und Verbesserung von Punktwolkeninformationen.
+## Schritt 2: Zusätzliche Verarbeitung (Optional)
 
-## Schritt 3: Speichern und verwenden
+Nach der Kodierung möchten Sie die point cloud möglicherweise verfeinern – z. B. Transformationen anwenden, Ausreißer filtern oder benutzerdefinierte Attribute hinzufügen. Aspose.3D bietet eine umfangreiche Sammlung von Methoden zur Manipulation von point‑cloud‑Daten, obwohl sie für eine grundlegende Konvertierung nicht erforderlich sind.
 
-Speichern Sie die verarbeitete Punktwolke und nutzen Sie sie in Ihren Anwendungen oder Projekten. Die generierten Punktwolken können in verschiedenen Bereichen verwendet werden, darunter Computergrafik, Simulation und Datenvisualisierung.
+## Schritt 3: Speichern und Nutzen
 
-## Abschluss
+Die kodierte Datei ist bereits an dem von Ihnen angegebenen Ort gespeichert. Sie können diese `.drc`‑Datei nun in jeder Anwendung laden, die DRACO‑point‑clouds unterstützt, oder sie direkt in Rendering‑Engines, Simulations‑Pipelines oder KI‑Modelle einspeisen.
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.3D Punktwolken aus Netzen in Java erstellen. Dieses Tutorial bietet eine solide Grundlage für die Integration von 3D-Punktwolken in Ihre Java-Anwendungen.
+## Häufige Probleme & Tipps
 
-## FAQs
+- **Ungültiger Pfad:** Stellen Sie sicher, dass das Verzeichnis existiert und Sie Schreibrechte haben; andernfalls wird eine `IOException` ausgelöst.  
+- **Nicht unterstützte Mesh‑Typen:** Komplexe Meshes mit nicht‑dreieckigen Flächen werden von Aspose.3D automatisch trianguliert, aber sehr große Meshes können mehr Speicher benötigen.  
+- **Leistung:** DRACO‑Kompression ist schnell, aber bei sehr großen point clouds sollten Sie die Verarbeitung in Chunks erwägen, um Speicherspitzen zu vermeiden.
 
-### F1: Kann ich Aspose.3D für kommerzielle Projekte verwenden?
+## Fazit
 
- A1: Ja, das können Sie. Besuche den[Kaufseite](https://purchase.aspose.com/buy) für Lizenzoptionen.
+Sie haben nun gelernt, wie Sie in Java mit Aspose.3D **convert mesh to point cloud** durchführen und wie Sie **save point cloud file** für die nachgelagerte Nutzung speichern. Diese Fähigkeit eröffnet effizientes 3D‑Datenmanagement in Grafik-, AR/VR‑ und data‑science‑Projekten.
 
-### F2: Gibt es eine kostenlose Testversion?
+## Häufig gestellte Fragen
 
- A2: Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+### Q1: Kann ich Aspose.3D für kommerzielle Projekte verwenden?  
+A1: Ja, das können Sie. Besuchen Sie die [Kaufseite](https://purchase.aspose.com/buy) für Lizenzoptionen.
 
-### F3: Wo finde ich Unterstützung für Aspose.3D?
+### Q2: Gibt es eine kostenlose Testversion?  
+A2: Ja, Sie können eine kostenlose Testversion [hier](https://releases.aspose.com/) erhalten.
 
- A3: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) für die Unterstützung der Gemeinschaft.
+### Q3: Wo finde ich Support für Aspose.3D?  
+A3: Besuchen Sie das [Aspose.3D‑Forum](https://forum.aspose.com/c/3d/18) für Community‑Support.
 
-### F4: Wie erhalte ich eine temporäre Lizenz?
+### Q4: Wie erhalte ich eine temporäre Lizenz?  
+A4: Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erhalten.
 
- A4: Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+### Q5: Wo finde ich die Dokumentation?  
+A5: Siehe die [Dokumentation](https://reference.aspose.com/3d/java/) für detaillierte Informationen.
 
-### F5: Wo finde ich die Dokumentation?
+---
 
- A5: Siehe[Dokumentation](https://reference.aspose.com/3d/java/) für detaillierte Informationen.
+**Zuletzt aktualisiert:** 2026-03-05  
+**Getestet mit:** Aspose.3D Java 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

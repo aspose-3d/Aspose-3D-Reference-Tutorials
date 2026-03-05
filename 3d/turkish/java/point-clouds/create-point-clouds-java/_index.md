@@ -1,35 +1,47 @@
 ---
-title: Java'daki Meshlerden Nokta Bulutları Oluşturun
-linktitle: Java'daki Meshlerden Nokta Bulutları Oluşturun
-second_title: Aspose.3D Java API'si
-description: Aspose.3D ile Java'da 3D modelleme dünyasını keşfedin. Ağlardan zahmetsizce nokta bulutları oluşturmayı öğrenin.
-weight: 12
+date: 2026-03-05
+description: Aspose.3D kullanarak Java’da ağları nokta bulutuna nasıl dönüştüreceğinizi
+  öğrenin ve nokta bulutu dosyasını verimli bir şekilde kaydedin.
+linktitle: Convert Mesh to Point Cloud in Java
+second_title: Aspose.3D Java API
+title: Java'da Aspose.3D ile Mesh'i Nokta Bulutuna Dönüştürme
 url: /tr/java/point-clouds/create-point-clouds-java/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'daki Meshlerden Nokta Bulutları Oluşturun
+# Java ile Aspose.3D Kullanarak Mesh'i Nokta Bulutuna Dönüştürme
 
-## giriiş
+3D mesh'ten **point cloud** oluşturmak, grafik, simülasyon ve veri‑görselleştirme projelerinde yaygın bir gereksinimdir. Bu öğreticide Aspose.3D Java API'sini kullanarak **mesh'i point cloud'e dönüştürmeyi** ve **point cloud dosyasını kaydetmeyi** öğreneceksiniz. Adımlar net bir şekilde sunulmuştur, böylece point‑cloud oluşturmayı Java uygulamalarınıza minimum çabayla entegre edebilirsiniz.
 
-Aspose.3D kullanarak Java'da ağlardan nokta bulutları oluşturmaya yönelik bu kapsamlı eğitime hoş geldiniz. Aspose.3D, 3D modelleme ve manipülasyon için kapsamlı işlevler sağlayan güçlü bir Java kütüphanesidir. Bu eğitimde, kusursuz bir deneyim için net ve ayrıntılı adımlar sunarak, ağlardan nokta bulutları oluşturma sürecinde size rehberlik edeceğiz.
+## Quick Answers
+- **Bu görev için en iyi kütüphane hangisidir?** Aspose.3D Java API, mesh‑to‑point‑cloud dönüşümü için yerleşik destek sağlar.  
+- **Örnekte hangi format kullanılıyor?** DRACO formatı (`.drc`), kompakt point‑cloud depolaması için kullanılır.  
+- **Lisans gerekir mi?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.  
+- **Birden fazla mesh işleyebilir miyim?** Evet – her mesh için kodlama adımını tekrarlamanız yeterlidir.  
+- **Ek işleme gerek var mı?** İsteğe bağlı; Aspose.3D, kodlamadan sonra point cloud'i manipüle etmek için yöntemler sunar.
 
-## Önkoşullar
+## “Mesh'i point cloud'e dönüştürmek” nedir?
+Bir mesh'i point cloud'e dönüştürmek, mesh geometrisinden vertex konumlarını (isteğe bağlı olarak normal veya renkleri) çıkarmak ve bunları bir nokta koleksiyonu olarak depolamak anlamına gelir. Bu temsil, hızlı renderleme, çarpışma tespiti ve veriyi makine‑öğrenimi boru hatlarına beslemek için idealdir.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+## Neden Aspose.3D'yi point‑cloud oluşturma için kullanmalısınız?
+- **Yüksek performanslı kodlama:** Yerleşik DRACO sıkıştırması dosya boyutunu büyük ölçüde azaltır.  
+- **Basit API:** Tek satır çağrılar ağır işi halleder.  
+- **Çapraz platform Java desteği:** Herhangi bir JVM uyumlu ortamda çalışır.  
+- **Genişletilebilir:** Dönüşüm sonrası bulutu (filtreleme, dönüşüm vb.) daha da işleyebilirsiniz.
 
-1. Java Geliştirme Ortamı: Sisteminizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
+## Prerequisites
 
-2.  Aspose.3D Kütüphanesi: Aspose.3D kütüphanesini indirin ve yükleyin. Kütüphaneyi bulabilirsiniz[Burada](https://releases.aspose.com/3d/java/).
+1. **Java Geliştirme Ortamı** – JDK 8 veya daha yeni bir sürüm yüklü.  
+2. **Aspose.3D Kütüphanesi** – Aspose.3D kütüphanesini indirin ve kurun. Kütüphaneyi [burada](https://releases.aspose.com/3d/java/) bulabilirsiniz.  
+3. **Document Directory** – Oluşturulan point‑cloud dosyalarının kaydedileceği bir klasör oluşturun.
 
-3. Belge Dizini: Oluşturduğunuz nokta bulutu belgelerinizi depolamak istediğiniz bir dizin oluşturun.
+## Import Packages
 
-## Paketleri İçe Aktar
-
-Başlamak için gerekli paketleri Java projenize aktarın:
+To start, import the necessary classes in your Java project:
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -39,9 +51,9 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Adım 1: Mesh'i Nokta Bulutuna Kodlayın
+## Adım 1: Mesh'i Point Cloud'e Kodla
 
-Aspose.3D kitaplığını kullanarak bir ağı nokta bulutuna kodlayarak başlayın:
+`FileFormat.DRACO` kodlayıcısını kullanarak bir mesh'i (örneğin bir `Sphere`) sıkıştırılmış bir point‑cloud dosyasına dönüştürün:
 
 ```java
 // ExStart:1
@@ -49,46 +61,55 @@ FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
 // ExEnd:1
 ```
 
-Açıklama:
-- `FileFormat.DRACO` yöntemi, kodlama formatını (bu durumda DRACO) belirtmek için kullanılır.
-- `new Sphere()` nokta bulutuna dönüştürmek istediğiniz ağı temsil eder.
-- `"Your Document Directory" + "sphere.drc"` oluşturulan nokta bulutu belgesinin çıktı yolunu ve dosya adını tanımlar.
+**Açıklama**
 
-Gerektiğinde farklı ağlar için bu adımı tekrarlayın.
+- `FileFormat.DRACO` DRACO sıkıştırma formatını seçer; bu format point‑cloud depolaması için optimize edilmiştir.  
+- `new Sphere()` basit bir küresel mesh oluşturur ve kaynak geometri olarak hizmet eder.  
+- `"Your Document Directory" + "sphere.drc"` ifadesi, **point cloud dosyasının** (`sphere.drc`) kaydedileceği tam çıkış yolunu oluşturur.
+
+Bu adımı, diğer mesh nesneleri (ör. `Box`, `Cylinder`) ile tekrarlayarak ek point cloud'ler oluşturabilirsiniz.
 
 ## Adım 2: Ek İşleme (İsteğe Bağlı)
 
-Oluşturulan nokta bulutu verileri üzerinde ihtiyaçlarınıza göre ek işlemler gerçekleştirebilirsiniz. Aspose.3D, nokta bulutu bilgilerinin işlenmesi ve geliştirilmesi için çeşitli yöntemler sunar.
+Kodlamadan sonra point cloud'i iyileştirmek isteyebilirsiniz; örneğin dönüşümler uygulamak, aykırı değerleri filtrelemek veya özel öznitelikler eklemek. Aspose.3D, point‑cloud verisini manipüle etmek için zengin bir yöntem seti sunar, ancak temel bir dönüşüm için bunlar gerekli değildir.
 
-## 3. Adım: Kaydet ve Kullan
+## Adım 3: Kaydet ve Kullan
 
-İşlenen nokta bulutunu kaydedin ve uygulamalarınızda veya projelerinizde kullanın. Oluşturulan nokta bulutları bilgisayar grafikleri, simülasyon ve veri görselleştirme gibi çeşitli alanlarda kullanılabilir.
+Kodlanmış dosya, belirttiğiniz konuma zaten kaydedildi. Artık bu `.drc` dosyasını DRACO point cloud'leri destekleyen herhangi bir uygulamaya yükleyebilir veya doğrudan render motorlarına, simülasyon boru hatlarına veya AI modellerine besleyebilirsiniz.
 
-## Çözüm
+## Yaygın Sorunlar ve İpuçları
 
-Tebrikler! Aspose.3D'yi kullanarak Java'da ağlardan nokta bulutları oluşturmayı başarıyla öğrendiniz. Bu eğitim, 3B nokta bulutlarını Java uygulamalarınıza dahil etmek için sağlam bir temel sağlar.
+- **Geçersiz Yol:** Dizinin mevcut olduğundan ve yazma izniniz olduğundan emin olun; aksi takdirde `IOException` fırlatılır.  
+- **Desteklenmeyen Mesh Türleri:** Üçgen olmayan yüzeylere sahip karmaşık mesh'ler Aspose.3D tarafından otomatik olarak üçgenleştirilir, ancak çok büyük mesh'ler daha fazla bellek gerektirebilir.  
+- **Performans:** DRACO sıkıştırması hızlıdır, ancak büyük point cloud'ler için bellek dalgalanmalarını önlemek amacıyla işlemi parçalara bölmeyi düşünün.
 
-## SSS'ler
+## Sonuç
 
-### S1: Aspose.3D'yi ticari projeler için kullanabilir miyim?
+Artık Java'da Aspose.3D kullanarak **mesh'i point cloud'e dönüştürmeyi** ve **point cloud dosyasını** sonraki kullanım için **kaydetmeyi** öğrendiniz. Bu yetenek, grafik, AR/VR ve veri‑bilimi projelerinde verimli 3D veri işleme kapılarını açar.
 
- A1: Evet, yapabilirsin. Ziyaret edin[satın alma sayfası](https://purchase.aspose.com/buy) lisanslama seçenekleri için.
+## Sıkça Sorulan Sorular
 
-### S2: Ücretsiz deneme sürümü var mı?
+### Q1: Aspose.3D'yi ticari projelerde kullanabilir miyim?  
+A1: Evet, kullanabilirsiniz. Lisans seçenekleri için [satın alma sayfasını](https://purchase.aspose.com/buy) ziyaret edin.
 
- C2: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+### Q2: Ücretsiz deneme mevcut mu?  
+A2: Evet, ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
 
-### S3: Aspose.3D desteğini nerede bulabilirim?
+### Q3: Aspose.3D için desteği nereden bulabilirim?  
+A3: Topluluk desteği için [Aspose.3D forumunu](https://forum.aspose.com/c/3d/18) ziyaret edin.
 
- A3: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk desteği için.
+### Q4: Geçici bir lisans nasıl alabilirim?  
+A4: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
 
-### S4: Geçici lisansı nasıl edinebilirim?
+### Q5: Dokümantasyonu nereden bulabilirim?  
+A5: Ayrıntılı bilgi için [dokümantasyona](https://reference.aspose.com/3d/java/) bakın.
 
- Cevap4: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+---
 
-### S5: Belgeleri nerede bulabilirim?
+**Son Güncelleme:** 2026-03-05  
+**Test Edilen Versiyon:** Aspose.3D Java 24.12  
+**Yazar:** Aspose  
 
- A5: Bkz.[dokümantasyon](https://reference.aspose.com/3d/java/) detaylı bilgi için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
