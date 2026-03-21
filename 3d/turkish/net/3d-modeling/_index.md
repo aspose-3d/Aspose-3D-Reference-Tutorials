@@ -1,81 +1,122 @@
 ---
-title: Modelleme
-linktitle: Modelleme
-second_title: Aspose.3D .NET API'si
-description: Aspose.3D for .NET ile 3D modelleme sanatını keşfedin! Bu kapsamlı eğitimde büyüleyici ilkel modelleri kolayca oluşturun. Bugün yaratıcılığınızı serbest bırakın.
-weight: 28
+date: 2026-03-21
+description: Aspose.3D for .NET kullanarak 3D silindir modelleri oluşturmayı öğrenin.
+  Primitif modellemeyi keşfedin, düzlem yönelimini değiştirin ve 3D ağları verimli
+  bir şekilde oluşturun.
+linktitle: Modeling
+second_title: Aspose.3D .NET API
+title: Aspose.3D for .NET ile 3D Silindir Modelleri Oluşturun
 url: /tr/net/3d-modeling/
+weight: 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Modelleme
+# 3D Silindir Modelleri Oluşturun
 
+## Giriş
 
-## giriiş
+Eğer **3d silindir** şekillerini hızlı ve doğru bir şekilde oluşturmak istediyseniz, doğru yerdesiniz. Bu öğreticide Aspose.3D for .NET'in temel özelliklerini inceleyeceğiz; bu özellikler sayesinde 3‑D mesh'ler oluşturabilir, düzlem yönelimini değiştirebilir ve hatta 2‑D şekilleri lineer olarak ekstrüde edebilirsiniz. Kılavuzun sonunda silindirleri ve diğer ilkel şekilleri nasıl modelleyeceğinizi sağlam bir şekilde kavrayacak ve her konu için daha derin örnekleri nerede bulacağınızı öğreneceksiniz.
 
-Nefes kesici 3D modeller oluşturmayı hayal ettiyseniz, Aspose.3D for .NET Eğitimleri Listesi, bu dinamik dünyanın sırlarını açığa çıkarmanın kapısıdır. Bu kılavuzda, ilkel 3D modeller oluşturmanın büyüleyici yolculuğuna odaklanarak temel adımlarda size yol göstereceğiz.
+## Hızlı Yanıtlar
+- **Ne inşa edebilirim?** 3‑D silindirler, mesh'ler ve diğer ilkel modeller.  
+- **Hangi API kullanılıyor?** Aspose.3D for .NET.  
+- **Bir lisansa ihtiyacım var mı?** Öğrenme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
+- **Desteklenen çerçeveler?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Tipik uygulama süresi?** Temel bir silindir için yaklaşık 10‑15 dakika.
+
+## Aspose.3D'de 3D Silindir Nedir?
+
+3D silindir, yarıçap, yükseklik ve isteğe bağlı segmentasyonla tanımlanan parametrik bir katıdır. Aspose.3D, tek bir kod satırıyla oluşturmanıza olanak tanır ve altındaki mesh oluşturmayı sizin yerinize yönetir.
+
+## Neden Aspose.3D'yi 3D silindir modelleri oluşturmak için kullanmalısınız?
+
+- **Hassasiyet:** Kütüphane, vertex normal ve UV haritalamasını otomatik olarak hesaplar.  
+- **Esneklik:** Silindirleri diğer ilkel şekillerle birleştirebilir, şekilleri ekstrüde edebilir veya API'den çıkmadan düzlem yönelimini değiştirebilirsiniz.  
+- **Performans:** Mesh'ler verimli bir şekilde üretilir, gerçek zamanlı render için ya da OBJ, STL veya FBX gibi formatlara dışa aktarmak için uygundur.  
 
 ## Temelleri Anlamak
 
-Temel hususları derinlemesine inceleyerek 3D modelleme yolculuğunuza başlayın. Aspose.3D for .NET, 3D modellemenin karmaşık dünyasını basitleştirerek hem yeni başlayanlar hem de deneyimli meraklılar için erişilebilir hale getiriyor. Yaratıcı keşfinizin temelini oluşturan temel ilkeler ve araçlar hakkında bilgi edinin.
+3D modelleme yolculuğunuza temel yönleri keşfederek başlayın. Aspose.3D for .NET, 3D modellemenin karmaşık dünyasını basitleştirir ve hem yeni başlayanlar hem de deneyimli meraklılar için erişilebilir kılar. Yaratıcı keşfiniz için temel prensipleri ve araçları öğrenin.
 
-## Yeni ağ oluşturmak için 2 boyutlu şekil üzerinde doğrusal ekstrüzyon
+## 2D şekil üzerinde lineer ekstrüzyon ile yeni mesh oluşturma
 
-Aspose.3D, şekillerin doğrusal ekstrüzyonunun yeni ağlar oluşturmasını sağlayarak 3D modellerde ve sahnelerde geometrik karmaşıklığı ve görsel derinliği artırır. Bu özellik, kullanıcıların 2 boyutlu şekilleri belirli bir eksen boyunca genişletmesine, bunları kolaylıkla ve hassasiyetle hacimsel katılara dönüştürmesine olanak tanır.
+Aspose.3D, şekillerin lineer ekstrüzyonunu sağlayarak yeni mesh'ler oluşturur, 3D modellerde ve sahnelerde geometrik karmaşıklığı ve görsel derinliği artırır. Bu özellik, kullanıcıların 2D şekilleri belirli bir eksen boyunca uzatarak hacimsel katılara kolay ve hassas bir şekilde dönüştürmelerine olanak tanır.
 
-[Eğiticiyi okuyun: Doğrusal Ekstrüzyon](./linear-extrusion/)
+[Öğreticiyi Oku: Lineer Ekstrüzyon](./linear-extrusion/)
 
 ## İlkel 3D Modeller Oluşturma
 
- Şuraya gidin:[İlkel 3D Modeller Oluşturma](./primitive-3d-models/)Aspose.3D for .NET ile heykel yapmanın büyüsünü açığa çıkaracağımız eğitim. Göz kamaştıran ilkel modelleri zahmetsizce şekillendirmenize olanak tanıyan adım adım kılavuza kendinizi kaptırın. Bu eğitimde temel şekillerden karmaşık tasarımlara kadar her şey anlatılmaktadır.
+Aspose.3D for .NET ile şekillendirmenin büyüsünü keşfedeceğiniz [İlkel 3D Modeller Oluşturma](./primitive-3d-models/) öğreticisine gidin. Adım adım bir rehberde kendinizi kaybedin ve göz alıcı ilkel modelleri zahmetsizce şekillendirin. Temel şekillerden karmaşık tasarımlara kadar bu öğretici her şeyi kapsar.
 
-[Eğiticiyi okuyun: İlkel 3D Modeller Oluşturma](./primitive-3d-models/)
+[Öğreticiyi Oku: İlkel 3D Modeller Oluşturma](./primitive-3d-models/)
 
-## 3B Sahnelerde Düzlem Yönünü Değiştirme
+## 3D Sahnellerde Düzlem Yönelimini Değiştirme
 
-Aspose.3D for .NET'i kullanarak 3D sahnelerde düzlem yönünü değiştirme sanatında ustalaşmak için bir yolculuğa çıkın. Kapsamlı kılavuzumuz sizi her adımda yönlendirerek projelerinize kusursuz entegrasyon sağlar. Yeni keşfedilen kontrolle 3D sahnelerinizin potansiyelini açığa çıkarın.
+Düzlem yönelimini ustalaşmak, nesnelerin nasıl görüntülendiği ve etkileşime girildiği üzerinde ince ayar kontrolü sağlar. İster bir silindiri özel bir eksene hizalıyor olun, ister bir sahneyi dışa aktarmaya hazırlıyor olun, düzlem yönelimini değiştirmek temel bir beceridir.
 
-[Eğiticiyi okuyun: 3B Sahnelerde Düzlem Yönünü Değiştirme](./change-plane-orientation/)
+[Öğreticiyi Oku: 3D Sahnellerde Düzlem Yönelimini Değiştirme](./change-plane-orientation/)
 
-## 3B Sahnelerde Düzlem Yönünü Değiştirme
+## 3D Sahnellerde Düzlem Yönelimini Değiştirme
 
-Aspose.3D for .NET'i kullanarak 3D sahnelerde düzlem yönünü değiştirme sanatında ustalaşmak için bir yolculuğa çıkın. Kapsamlı kılavuzumuz sizi her adımda yönlendirerek projelerinize kusursuz entegrasyon sağlar. Yeni keşfedilen kontrolle 3D sahnelerinizin potansiyelini açığa çıkarın.
+Aspose.3D for .NET kullanarak 3D sahnelerde düzlem yönelimini değiştirme sanatını ustalaşmak için bir yolculuğa çıkın. Kapsamlı rehberimiz sizi her adımda yönlendirir ve projelerinize sorunsuz entegrasyon sağlar. Yeni kazandığınız kontrol ile 3D sahnelerinizin potansiyelini ortaya çıkarın.
 
-[Eğiticiyi okuyun: 3B Sahnelerde Düzlem Yönünü Değiştirme](./change-plane-orientation/)
+[Öğreticiyi Oku: 3D Sahnellerde Düzlem Yönelimini Değiştirme](./change-plane-orientation/)
 
+## Silindir ile Çalışma
 
-## Silindirle Çalışmak
+Aspose.3D, parametrik 3D geometri silindirleri oluşturmayı kolaylaştırır ve kullanıcıların mesh'leri zahmetsizce üretmesini sağlar. Bu özellik sayesinde kullanıcılar, belirli boyut ve özelliklerde silindirler tanımlayabilir ve bunları 3D modellerine ve sahnelerine sorunsuz bir şekilde entegre ederek gerçekçilik ve detay seviyesini artırabilir.
 
-Aspose.3D, parametrik 3D geometrili silindirlerin oluşturulmasını kolaylaştırarak kullanıcıların zahmetsizce ağ oluşturmasına olanak tanır. Bu özellik sayesinde kullanıcılar, belirtilen boyut ve özelliklere sahip silindirleri tanımlayabilir ve bunları gelişmiş gerçekçilik ve ayrıntı için 3D modellerine ve sahnelerine sorunsuz bir şekilde entegre edebilir.
+[Öğreticiyi Oku: Silindir ile Çalışma](./working-with-cylinder/)
 
-[Eğiticiyi okuyun: Silindirle Çalışmak](./working-with-cylinder/)
+### Temellere Dalın
 
+Temellerle başlayın – temel ilkel şekilleri nasıl şekillendireceğinizi anlayın. Aspose.3D for .NET, küpler, küreler ve silindirleri kolayca şekillendirmenizi sağlayan kullanıcı dostu bir arayüz sunar. Öğreticimiz süreci size adım adım gösterir ve daha karmaşık tasarımlara geçmeden önce temel kavramları kavramanızı sağlar.
 
+### Oluşumlarınızı İnce Ayarlama
 
-### Temel Bilgilere Dalın
+Temelleri öğrendikten sonra becerilerinizi yükseltme zamanı. 3D modellerinizi ince ayarlama sanatını öğrenin, yaratımlarınıza hayat veren detaylar ekleyin. Aspose.3D for .NET ile sanatsal ifadenizi geliştirmek için tasarlanmış bir dizi araç keşfedeceksiniz.
 
-Temel bilgilerle başlayın; temel ilkellerin nasıl şekillendirileceğini anlayın. Aspose.3D for .NET, küpleri, küreleri ve silindirleri kolaylıkla kalıplamanıza olanak tanıyan kullanıcı dostu bir arayüz sağlar. Eğitimimiz süreç boyunca size rehberlik ederek daha karmaşık tasarımlara geçmeden önce temel bilgileri kavramanızı sağlar.
+## Yaratıcılığınızı Serbest Bırakın
 
-### Kreasyonlarınıza İnce Ayar Yapma
+3D modellemenin güzelliği, yaratıcılığınızı serbest bırakma özgürlüğünde yatar. Aspose.3D for .NET, sıradanın ötesine geçmenizi sağlar ve sanatsal vizyonunuzu artıran gelişmiş özellikler sunar. İster yeni başlayan bir tasarımcı, ister deneyimli bir tasarımcı olun, öğreticimiz sorunsuz bir öğrenme eğrisi sunar.
 
-Temel konularda uzmanlaştıktan sonra becerilerinizi geliştirmenin zamanı geldi. Kreasyonlarınıza hayat veren ayrıntılar ekleyerek 3D modellerinize ince ayar yapma sanatını öğrenin. Aspose.3D for .NET ile sanatsal ifadenizi geliştirmek için tasarlanmış bir dizi araç keşfedeceksiniz.
+## Becerilerinizi Bugün Yükseltin!
 
-## Yaratıcılığınızı Ortaya Çıkarın
+Aspose.3D for .NET Eğitim Listesi sadece bir rehber değil; 3D modellemenin sınırsız olasılıklarını keşfetmeye bir davettir. [İlkel 3D Modeller Oluşturma](./primitive-3d-models/) öğreticisine dalın ve hayal gücünün sınırlarını aşan harikalar yaratın. İçinizdeki sanatçıyı serbest bırakın – yolculuğunuza şimdi başlayın!
 
-3D modellemenin güzelliği yaratıcılığınızı serbest bırakma özgürlüğünde yatmaktadır. Aspose.3D for .NET, sanatsal vizyonunuzu güçlendiren gelişmiş özellikler sunarak sıradanlığın ötesine geçmenizi sağlar. İster acemi ister deneyimli bir tasarımcı olun, eğitimimiz kusursuz bir öğrenme eğrisi sağlar.
-
-## Bugün Becerilerinizi Geliştirin!
-
- Aspose.3D for .NET Eğitimleri Listesi yalnızca bir kılavuz değildir; 3D modellemenin sınırsız olanaklarını keşfetmeye bir davettir. Dalış[İlkel 3D Modeller Oluşturma](./primitive-3d-models/) hayal gücünün sınırlarını aşan harikalar yaratın ve şekillendirin. İçinizdeki sanatçıyı serbest bırakın; yolculuğunuza şimdi başlayın!
 ## 3D Modelleme Eğitimleri
 ### [İlkel 3D Modeller Oluşturma](./primitive-3d-models/)
-Aspose.3D for .NET ile 3D modelleme dünyasını keşfedin. Çarpıcı ilkel modelleri zahmetsizce yaratın.
+Aspose.3D for .NET ile 3D modelleme dünyasını keşfedin. Muhteşem ilkel modelleri zahmetsizce oluşturun.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Sıkça Sorulan Sorular
+
+**Q: Özel bir yarıçap ve yükseklik ile bir silindir nasıl oluştururum?**  
+A: Aspose.3D'de `Cylinder` sınıfını kullanın, `Radius` ve `Height` özelliklerini ayarlayın, ardından sahneye ekleyin.
+
+**Q: Silindir oluşturulduktan sonra yönelimini değiştirebilir miyim?**  
+A: Evet, silindirin düğümüne bir döndürme dönüşümü uygulayabilir veya API'yi kullanarak düzlem yönelimini ayarlayabilirsiniz.
+
+**Q: Silindir modelimi hangi dosya formatlarına dışa aktarabilirim?**  
+A: Aspose.3D, OBJ, STL, FBX, GLTF ve birkaç diğer yaygın 3D formatını destekler.
+
+**Q: 2‑D bir daireyi silindire ekstrüde etmek mümkün mü?**  
+A: Kesinlikle. 2‑D daire şekli üzerinde lineer ekstrüzyon özelliğini kullanarak katı bir silindir mesh'i oluşturabilirsiniz.
+
+**Q: Aspose.3D ile çalışmak için özel bir grafik kartına ihtiyacım var mı?**  
+A: Hayır, Aspose.3D saf bir .NET kütüphanesidir ve gerekli .NET çalışma zamanını destekleyen herhangi bir makinede çalışır.
+
+---
+
+**Son Güncelleme:** 2026-03-21  
+**Test Edilen:** Aspose.3D 24.11 for .NET  
+**Yazar:** Aspose
