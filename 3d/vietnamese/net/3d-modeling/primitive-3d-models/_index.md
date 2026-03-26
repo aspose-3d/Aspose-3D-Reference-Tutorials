@@ -1,35 +1,54 @@
 ---
-title: Tạo mô hình 3D nguyên thủy
-linktitle: Tạo mô hình 3D nguyên thủy
-second_title: API Aspose.3D .NET
-description: Khám phá thế giới mô hình 3D với Aspose.3D cho .NET. Tạo các mô hình nguyên thủy tuyệt đẹp một cách dễ dàng.
-weight: 10
+date: 2026-03-26
+description: Tìm hiểu cách tạo mô hình hộp và hình trụ 3D và lưu cảnh dưới dạng FBX
+  bằng Aspose.3D cho .NET.
+linktitle: Create 3D Box and Cylinder Models with Aspose.3D for .NET
+second_title: Aspose.3D .NET API
+title: Tạo mô hình Hộp và Trụ 3D bằng Aspose.3D cho .NET
 url: /vi/net/3d-modeling/primitive-3d-models/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo mô hình 3D nguyên thủy
+# Tạo Mô Hình Hộp 3D và Trụ 3D với Aspose.3D
 
 ## Giới thiệu
 
-Chào mừng bạn đến với thế giới thú vị của mô hình 3D với Aspose.3D cho .NET! Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá quy trình tạo mô hình 3D nguyên thủy bằng Aspose.3D theo từng bước. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu tò mò, hướng dẫn này sẽ giúp bạn khai thác sức mạnh của Aspose.3D để tạo ra các phần tử 3D trực quan ấn tượng cho dự án của bạn.
+Chào mừng bạn đến với thế giới mô hình 3D đầy thú vị cùng Aspose.3D cho .NET! Trong hướng dẫn này, bạn sẽ học **cách tạo hộp 3d** primitive, thêm một trụ, và xuất toàn bộ cảnh ra định dạng FBX. Dù bạn đang xây dựng một nguyên mẫu nhanh hay một quy trình tài sản sẵn sàng cho sản xuất, các bước này sẽ cung cấp nền tảng vững chắc để làm việc với hình học 3D trong .NET.
 
-## Điều kiện tiên quyết
+## Câu hỏi nhanh
+- **Hướng dẫn này đề cập đến gì?** Tạo một hộp 3D, một trụ 3D, và lưu cảnh dưới dạng tệp FBX.  
+- **Thư viện nào cần thiết?** Aspose.3D cho .NET (tải về từ trang chính thức).  
+- **Thời gian thực hiện khoảng bao lâu?** Khoảng 10‑15 phút cho một cảnh cơ bản.  
+- **Có thể tùy chỉnh kích thước không?** Có – các constructor của Box và Cylinder chấp nhận các tham số kích thước.  
+- **Cần giấy phép cho môi trường sản xuất không?** Cần một giấy phép Aspose.3D hợp lệ cho các bản build không dùng trial.
 
-Trước khi chúng ta đi sâu vào lĩnh vực mô hình 3D hấp dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## “create 3d box” là gì?
 
--  Aspose.3D for .NET: Tải xuống và cài đặt thư viện Aspose.3D for .NET từ[Liên kết tải xuống](https://releases.aspose.com/3d/net/).
+Tạo một hộp 3D có nghĩa là sinh ra một khối lập phương hoặc hình hộp chữ nhật đơn giản, có thể dùng làm khối xây dựng cho các mô hình phức tạp hơn. Trong Aspose.3D, lớp `Box` đại diện cho primitive này, và bạn có thể thêm nó vào cảnh chỉ bằng một dòng mã.
 
-- Môi trường phát triển: Thiết lập môi trường phát triển .NET, đảm bảo khả năng tương thích với Aspose.3D.
+## Tại sao nên dùng Aspose.3D cho nhiệm vụ này?
 
-Bây giờ bạn đã có những yếu tố cần thiết, hãy bắt tay vào hành trình tạo các mô hình 3D nguyên thủy từng bước.
+- **API thuần .NET:** Không có phụ thuộc native, hoàn hảo cho các dự án C# và VB.NET.  
+- **Hỗ trợ đa định dạng:** Xuất ra FBX, OBJ, STL và nhiều định dạng khác.  
+- **Primitive cấp cao:** Box, Cylinder, Sphere, v.v., giúp bạn tập trung vào logic thay vì xây dựng lưới chi tiết.  
+- **Tối ưu hiệu năng:** Xử lý các cảnh lớn một cách hiệu quả.
+
+## Yêu cầu trước
+
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+
+- Aspose.3D cho .NET: Tải và cài đặt thư viện từ [download link](https://releases.aspose.com/3d/net/).  
+- Môi trường phát triển .NET (Visual Studio, Rider, hoặc VS Code) tương thích với phiên bản Aspose.3D bạn đã cài.
+
+Bây giờ bạn đã có đầy đủ các yếu tố cần thiết, hãy bắt đầu xây dựng cảnh từng bước.
 
 ## Nhập không gian tên
 
-Bắt đầu bằng cách nhập các không gian tên cần thiết để truy cập chức năng do Aspose.3D cung cấp:
+Bắt đầu bằng việc nhập các namespace cần thiết để truy cập các chức năng do Aspose.3D cung cấp:
 
 ```csharp
 using System;
@@ -41,82 +60,92 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Formats;
 ```
 
-Với các không gian tên này, bạn đã sẵn sàng phát huy sức mạnh của Aspose.3D trong ứng dụng .NET của mình.
+Với các namespace này, bạn đã sẵn sàng khai thác sức mạnh của Aspose.3D trong ứng dụng .NET của mình.
 
-## Bước 1: Khởi tạo đối tượng cảnh
+## Bước 1: Khởi tạo đối tượng Scene
 
 ```csharp
-//Khởi tạo một đối tượng Scene
+// Initialize a Scene object
 Scene scene = new Scene();
 ```
 
-Tạo một đối tượng cảnh mới, đóng vai trò là khung vẽ cho kiệt tác 3D của bạn.
+Đối tượng `Scene` hoạt động như một canvas nơi tất cả các thực thể 3D sẽ tồn tại.
 
-## Bước 2: Tạo mô hình hộp
+## Bước 2: Tạo mô hình Hộp
 
 ```csharp
-// Tạo mô hình hộp
+// Create a Box model
 scene.RootNode.CreateChildNode("box", new Box());
 ```
 
-Thêm mô hình hộp vào thư mục gốc của cảnh của bạn. Tùy chỉnh kích thước và thuộc tính của hộp theo tầm nhìn sáng tạo của bạn.
+Dòng này thêm một primitive **3D box** vào root của cảnh. Bạn có thể điều chỉnh chiều rộng, chiều cao và độ sâu sau này bằng cách truyền các tham số vào constructor `Box`.
 
-## Bước 3: Tạo mô hình hình trụ
+## Bước 3: Tạo mô hình Trụ
 
 ```csharp
-// Tạo mô hình hình trụ
+// Create a Cylinder model
 scene.RootNode.CreateChildNode("cylinder", new Cylinder());
 ```
 
-Nâng cao cảnh của bạn bằng cách giới thiệu mô hình hình trụ. Điều chỉnh các thông số của nó để đạt được hình dạng và kích thước mong muốn.
+Một trụ bổ sung cho hộp và cho thấy việc kết hợp các primitive khác nhau thật dễ dàng.
 
 ## Bước 4: Lưu bản vẽ ở định dạng FBX
 
 ```csharp
-// Lưu bản vẽ ở định dạng FBX
+// Save drawing in the FBX format
 var output = "Your Output Directory" + "test.fbx";
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-Lưu kiệt tác 3D của bạn ở định dạng FBX. Chọn thư mục đầu ra và tên tệp phù hợp cho tác phẩm của bạn.
+Ở đây chúng ta **chuyển mô hình sang FBX** bằng cách lưu toàn bộ cảnh dưới dạng tệp FBX. Tự do thay đổi đường dẫn và tên tệp để phù hợp với cấu trúc dự án của bạn.
 
 ## Bước 5: Hiển thị thông báo thành công
 
 ```csharp
-// Hiển thị thông báo thành công
+// Display success message
 Console.WriteLine("\nBuilding a scene from primitive 3D models successfully.\nFile saved at " + output);
 ```
 
-Hãy ăn mừng thành tích của bạn! Cảnh được xây dựng thành công từ các mô hình 3D nguyên thủy và tệp được lưu.
+Một thông báo console thân thiện xác nhận rằng thao tác **build 3d scene** đã hoàn thành mà không có lỗi.
 
-## Phần kết luận
+## Các vấn đề thường gặp & Mẹo
 
- Chúc mừng! Bạn đã tạo thành công các mô hình 3D tuyệt đẹp bằng Aspose.3D cho .NET. Hướng dẫn này bao gồm những điều cơ bản nhưng khả năng là vô hạn. Khám phá cái[tài liệu](https://reference.aspose.com/3d/net/) để biết thêm các tính năng và kỹ thuật nâng cao.
+- **Thư mục đầu ra không tồn tại:** Đảm bảo thư mục trong `output` đã tồn tại hoặc sử dụng `Directory.CreateDirectory()` trước khi lưu.  
+- **Chưa đặt giấy phép:** Trong bản build không dùng trial, gọi `License license = new License(); license.SetLicense("Aspose.3D.lic");` trước khi tạo `Scene`.  
+- **Kích thước tùy chỉnh:** Sử dụng `new Box(width, height, depth)` hoặc `new Cylinder(radius, height)` để điều chỉnh kích thước.
+
+## Kết luận
+
+Chúc mừng! Bạn đã thành công **create 3d box** và primitive trụ, xây dựng một cảnh đơn giản, và lưu nó dưới dạng tệp FBX bằng Aspose.3D cho .NET. Những kiến thức cơ bản giờ đã có trong hộp công cụ của bạn, và bạn có thể khám phá thêm trong [documentation](https://reference.aspose.com/3d/net/) để tìm hiểu các tính năng nâng cao như vật liệu, ánh sáng và hoạt ảnh.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.3D cho .NET với các ngôn ngữ lập trình khác không?
-
-Câu trả lời 1: Aspose.3D chủ yếu hỗ trợ .NET, nhưng có các phiên bản khác dành cho Java và các nền tảng khác.
+### Q1: Tôi có thể dùng Aspose.3D cho .NET với các ngôn ngữ lập trình khác không?
+A1: Aspose.3D chủ yếu hỗ trợ .NET, nhưng cũng có các phiên bản khác cho Java và các nền tảng khác.
 
 ### Q2: Có bản dùng thử miễn phí không?
+A2: Có, bạn có thể khám phá khả năng của Aspose.3D với một [free trial](https://releases.aspose.com/).
 
- Câu trả lời 2: Có, bạn có thể khám phá các khả năng của Aspose.3D bằng[dùng thử miễn phí](https://releases.aspose.com/).
+### Q3: Tôi có thể tìm hỗ trợ cho Aspose.3D cho .NET ở đâu?
+A3: Truy cập [Aspose.3D forum](https://forum.aspose.com/c/3d/18) để nhận hỗ trợ cộng đồng và thảo luận.
 
-### Câu hỏi 3: Tôi có thể tìm hỗ trợ cho Aspose.3D cho .NET ở đâu?
+### Q4: Làm sao để lấy giấy phép tạm thời?
+A4: Bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
 
- A3: Tham quan[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) để được cộng đồng hỗ trợ và thảo luận.
+### Q5: Có các hướng dẫn mẫu nào không?
+A5: Có, khám phá thêm các tutorial và ví dụ trong [documentation](https://reference.aspose.com/3d/net/).
 
-### Q4: Làm thế nào tôi có thể có được giấy phép tạm thời?
-
- A4: Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
-
-### Câu hỏi 5: Có sẵn hướng dẫn mẫu nào không?
-
- Câu trả lời 5: Có, hãy khám phá thêm các hướng dẫn và ví dụ trong phần[tài liệu](https://reference.aspose.com/3d/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-26  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose  
+
+---

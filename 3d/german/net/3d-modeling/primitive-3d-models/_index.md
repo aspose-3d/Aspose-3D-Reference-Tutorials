@@ -1,35 +1,56 @@
 ---
-title: Erstellen primitiver 3D-Modelle
-linktitle: Erstellen primitiver 3D-Modelle
+date: 2026-03-26
+description: Erfahren Sie, wie Sie 3D-Box- und Zylinder‑Modelle erstellen und die
+  Szene mit Aspose.3D für .NET als FBX speichern.
+linktitle: Create 3D Box and Cylinder Models with Aspose.3D for .NET
 second_title: Aspose.3D .NET API
-description: Entdecken Sie die Welt der 3D-Modellierung mit Aspose.3D für .NET. Erstellen Sie mühelos atemberaubende primitive Modelle.
-weight: 10
+title: Erstellen Sie 3D‑Box‑ und Zylinder‑Modelle mit Aspose.3D für .NET
 url: /de/net/3d-modeling/primitive-3d-models/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Erstellen primitiver 3D-Modelle
+# Create 3D Box and Cylinder Models with Aspose.3D
 
-## Einführung
+## Introduction
 
-Willkommen in der aufregenden Welt der 3D-Modellierung mit Aspose.3D für .NET! In diesem umfassenden Tutorial werden wir Schritt für Schritt den Prozess der Erstellung primitiver 3D-Modelle mit Aspose.3D untersuchen. Egal, ob Sie ein erfahrener Entwickler oder ein neugieriger Anfänger sind, dieser Leitfaden hilft Ihnen dabei, die Leistungsfähigkeit von Aspose.3D zu nutzen, um visuell beeindruckende 3D-Elemente für Ihre Projekte zu erstellen.
+Willkommen in der aufregenden Welt des 3D‑Modellierens mit Aspose.3D für .NET! In diesem Tutorial lernen Sie **wie man 3d-Box**‑Primitive erstellt, einen Zylinder hinzufügt und die gesamte Szene nach FBX exportiert. Egal, ob Sie einen schnellen Prototypen oder eine produktionsbereite Asset‑Pipeline erstellen, diese Schritte geben Ihnen eine solide Grundlage für die Arbeit mit 3D‑Geometrie in .NET.
 
-## Voraussetzungen
+## Quick Answers
+- **Worum geht es in diesem Tutorial?** Creating a 3D box, a 3D cylinder, and saving the scene as an FBX file.  
+- **Welche Bibliothek wird benötigt?** Aspose.3D for .NET (download from the official site).  
+- **Wie lange dauert die Implementierung?** About 10‑15 minutes for a basic scene.  
+- **Kann ich die Abmessungen anpassen?** Yes – the Box and Cylinder constructors accept size parameters.  
+- **Wird für die Produktion eine Lizenz benötigt?** A valid Aspose.3D license is required for non‑trial builds.
 
-Bevor wir in die faszinierende Welt der 3D-Modellierung eintauchen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
+## What is “create 3d box”?
 
--  Aspose.3D für .NET: Laden Sie die Aspose.3D für .NET-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/3d/net/).
+Was bedeutet „create 3d box“?
 
-- Entwicklungsumgebung: Richten Sie eine .NET-Entwicklungsumgebung ein und stellen Sie die Kompatibilität mit Aspose.3D sicher.
+Eine 3D‑Box zu erstellen bedeutet, einen einfachen Würfel oder ein rechteckiges Prisma zu erzeugen, das als Baustein für komplexere Modelle dienen kann. In Aspose.3D repräsentiert die Klasse `Box` dieses Primitive, und Sie können es mit nur einer Codezeile zu einer Szene hinzufügen.
 
-Da Sie nun über das Wesentliche verfügen, beginnen wir mit der schrittweisen Erstellung primitiver 3D-Modelle.
+## Why use Aspose.3D for this task?
 
-## Namespaces importieren
+- **Pure .NET API:** Keine nativen Abhängigkeiten, perfekt für C#‑ und VB.NET‑Projekte.  
+- **Broad format support:** Export nach FBX, OBJ, STL und vielen anderen.  
+- **High‑level primitives:** Box, Cylinder, Sphere usw., ermöglichen es Ihnen, sich auf die Logik statt auf die low‑level Mesh‑Erstellung zu konzentrieren.  
+- **Performance‑optimized:** Handhabt große Szenen effizient.
 
-Beginnen Sie mit dem Importieren der erforderlichen Namespaces, um auf die von Aspose.3D bereitgestellten Funktionen zuzugreifen:
+## Prerequisites
+
+Bevor wir eintauchen, stellen Sie sicher, dass Sie Folgendes haben:
+
+- Aspose.3D for .NET: Download and install the library from the [download link](https://releases.aspose.com/3d/net/).  
+- Eine .NET‑Entwicklungsumgebung (Visual Studio, Rider oder VS Code), die mit der von Ihnen installierten Aspose.3D‑Version kompatibel ist.
+
+Jetzt, da Sie die Essentials haben, lassen Sie uns die Szene Schritt für Schritt aufbauen.
+
+## Import Namespaces
+
+Beginnen Sie damit, die erforderlichen Namespaces zu importieren, um auf die von Aspose.3D bereitgestellte Funktionalität zuzugreifen:
 
 ```csharp
 using System;
@@ -41,82 +62,90 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Formats;
 ```
 
-Wenn diese Namespaces vorhanden sind, können Sie die Leistungsfähigkeit von Aspose.3D in Ihrer .NET-Anwendung nutzen.
-
-## Schritt 1: Initialisieren Sie ein Szenenobjekt
+## Step 1: Initialize a Scene Object
 
 ```csharp
-//Initialisieren Sie ein Scene-Objekt
+// Initialize a Scene object
 Scene scene = new Scene();
 ```
 
-Erstellen Sie ein neues Szenenobjekt, das als Leinwand für Ihr 3D-Meisterwerk dient.
+Das `Scene`‑Objekt fungiert als Leinwand, auf der alle 3D‑Entitäten leben.
 
-## Schritt 2: Erstellen Sie ein Boxmodell
+## Step 2: Create a Box Model
 
 ```csharp
-// Erstellen Sie ein Boxmodell
+// Create a Box model
 scene.RootNode.CreateChildNode("box", new Box());
 ```
 
-Fügen Sie dem Stammverzeichnis Ihrer Szene ein Boxmodell hinzu. Passen Sie die Abmessungen und Eigenschaften der Box entsprechend Ihrer kreativen Vision an.
+Diese Zeile fügt ein **3D‑Box**‑Primitive zum Root Ihrer Szene hinzu. Sie können später Breite, Höhe und Tiefe anpassen, indem Sie Parameter an den `Box`‑Konstruktor übergeben.
 
-## Schritt 3: Erstellen Sie ein Zylindermodell
+## Step 3: Create a Cylinder Model
 
 ```csharp
-// Erstellen Sie ein Zylindermodell
+// Create a Cylinder model
 scene.RootNode.CreateChildNode("cylinder", new Cylinder());
 ```
 
-Verbessern Sie Ihre Szene durch die Einführung eines Zylindermodells. Passen Sie die Parameter an, um die gewünschte Form und Größe zu erreichen.
+Ein Zylinder ergänzt die Box und zeigt, wie einfach es ist, verschiedene Primitive zu kombinieren.
 
-## Schritt 4: Zeichnung im FBX-Format speichern
+## Step 4: Save Drawing in FBX Format
 
 ```csharp
-// Zeichnung im FBX-Format speichern
+// Save drawing in the FBX format
 var output = "Your Output Directory" + "test.fbx";
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-Speichern Sie Ihr 3D-Meisterwerk im FBX-Format. Wählen Sie ein geeignetes Ausgabeverzeichnis und einen Dateinamen für Ihre Kreation.
+Hier **konvertieren wir das Modell zu FBX**, indem wir die gesamte Szene als FBX‑Datei speichern. Passen Sie Pfad und Dateinamen gerne an Ihre Projektstruktur an.
 
-## Schritt 5: Erfolgsmeldung anzeigen
+## Step 5: Display Success Message
 
 ```csharp
-// Erfolgsmeldung anzeigen
+// Display success message
 Console.WriteLine("\nBuilding a scene from primitive 3D models successfully.\nFile saved at " + output);
 ```
 
-Feiern Sie Ihren Erfolg! Die Szene wurde erfolgreich aus primitiven 3D-Modellen erstellt und die Datei wird gespeichert.
+Eine freundliche Konsolennachricht bestätigt, dass der Vorgang **build 3d scene** ohne Fehler abgeschlossen wurde.
 
-## Abschluss
+## Common Issues & Tips
 
- Glückwunsch! Sie haben mit Aspose.3D für .NET erfolgreich beeindruckende 3D-Modelle erstellt. In diesem Leitfaden wurden die Grundlagen behandelt, aber die Möglichkeiten sind grenzenlos. Entdecke die[Dokumentation](https://reference.aspose.com/3d/net/) für fortgeschrittenere Funktionen und Techniken.
+- **Ausgabeverzeichnis existiert nicht:** Stellen Sie sicher, dass der Ordner in `output` existiert oder verwenden Sie `Directory.CreateDirectory()` vor dem Speichern.  
+- **Lizenz nicht gesetzt:** In einem Nicht‑Trial‑Build rufen Sie `License license = new License(); license.SetLicense("Aspose.3D.lic");` auf, bevor Sie das `Scene`‑Objekt erstellen.  
+- **Benutzerdefinierte Abmessungen:** Verwenden Sie `new Box(width, height, depth)` oder `new Cylinder(radius, height)`, um die Größe zu steuern.
 
-## FAQs
+## Conclusion
 
-### F1: Kann ich Aspose.3D für .NET mit anderen Programmiersprachen verwenden?
+Herzlichen Glückwunsch! Sie haben erfolgreich **create 3d box** und Zylinder‑Primitive erstellt, eine einfache Szene aufgebaut und sie als FBX‑Datei mit Aspose.3D für .NET gespeichert. Die Grundlagen befinden sich jetzt in Ihrem Werkzeugkasten, und Sie können die [documentation](https://reference.aspose.com/3d/net/) für weiterführende Funktionen wie Materialien, Beleuchtung und Animation erkunden.
 
-A1: Aspose.3D unterstützt hauptsächlich .NET, es sind jedoch auch andere Versionen für Java und andere Plattformen verfügbar.
+## Frequently Asked Questions
 
-### F2: Gibt es eine kostenlose Testversion?
+### Q1: Kann ich Aspose.3D für .NET mit anderen Programmiersprachen verwenden?
+A1: Aspose.3D unterstützt hauptsächlich .NET, es gibt jedoch weitere Versionen für Java und andere Plattformen.
 
- A2: Ja, Sie können die Funktionen von Aspose.3D mit a erkunden[Kostenlose Testphase](https://releases.aspose.com/).
+### Q2: Gibt es eine kostenlose Testversion?
+A2: Ja, Sie können die Fähigkeiten von Aspose.3D mit einem [free trial](https://releases.aspose.com/) erkunden.
 
-### F3: Wo finde ich Unterstützung für Aspose.3D für .NET?
+### Q3: Wo finde ich Support für Aspose.3D für .NET?
+A3: Besuchen Sie das [Aspose.3D forum](https://forum.aspose.com/c/3d/18) für Community‑Support und Diskussionen.
 
- A3: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) für Community-Unterstützung und Diskussionen.
+### Q4: Wie kann ich eine temporäre Lizenz erhalten?
+A4: Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erhalten.
 
-### F4: Wie kann ich eine temporäre Lizenz erhalten?
+### Q5: Gibt es Beispiel‑Tutorials?
+A5: Ja, erkunden Sie weitere Tutorials und Beispiele in der [documentation](https://reference.aspose.com/3d/net/).
 
- A4: Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
-
-### F5: Gibt es Beispiel-Tutorials?
-
- A5: Ja, weitere Tutorials und Beispiele finden Sie im[Dokumentation](https://reference.aspose.com/3d/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Letzte Aktualisierung:** 2026-03-26  
+**Getestet mit:** Aspose.3D 24.11 for .NET  
+**Autor:** Aspose  
+
+---
