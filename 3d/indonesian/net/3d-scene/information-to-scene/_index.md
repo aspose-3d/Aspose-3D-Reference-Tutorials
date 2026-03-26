@@ -1,31 +1,45 @@
 ---
-title: Mengekstraksi Informasi ke Aset Adegan
-linktitle: Mengekstraksi Informasi ke Aset Adegan
+date: 2026-03-26
+description: Pelajari cara menambahkan informasi vendor ke dalam adegan 3D dan cara
+  menyimpan file FBX menggunakan Aspose.3D untuk .NET. Ikuti panduan langkah demi
+  langkah ini dengan kode yang siap dijalankan.
+linktitle: Extracting Information to Scene Assets
 second_title: Aspose.3D .NET API
-description: Sempurnakan adegan 3D Anda dengan mudah dengan Aspose.3D untuk .NET. Pelajari cara menambahkan informasi aset berharga selangkah demi selangkah. Unduh sekarang untuk pengalaman 3D yang dinamis.
-weight: 10
+title: Cara Menambahkan Info Vendor dan Menyimpan Scene FBX Menggunakan Aspose.3D
 url: /id/net/3d-scene/information-to-scene/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengekstraksi Informasi ke Aset Adegan
+# Cara Menambahkan Info Vendor dan Menyimpan Scene FBX Menggunakan Aspose.3D
 
-## Perkenalan
+## Introduction
 
-Selamat datang di tutorial komprehensif tentang penggunaan Aspose.3D untuk .NET untuk mengekstrak informasi berharga dan menyempurnakan adegan 3D Anda. Aspose.3D adalah perpustakaan canggih yang memberdayakan pengembang untuk memanipulasi adegan 3D dengan mulus dalam aplikasi .NET. Dalam tutorial ini, kita akan fokus pada tugas penting menambahkan informasi aset ke sebuah scene.
+Selamat datang di tutorial komprehensif ini yang menunjukkan **cara menambahkan vendor** detail ke sebuah scene 3D dan kemudian **cara menyimpan FBX** file dengan Aspose.3D untuk .NET. Baik Anda membangun visualisasi arsitektur, aset game, atau model rekayasa, menyematkan metadata vendor dan aplikasi membuat scene Anda lebih informatif dan lebih mudah dikelola di tahap berikutnya. Mari kita jalani prosesnya langkah demi langkah.
 
-## Prasyarat
+## Quick Answers
+- **Apa arti “add vendor”?** It stores the application and vendor names inside the scene’s AssetInfo block.  
+- **Format apa yang mendukung info vendor?** FBX (ASCII atau binary) retains the metadata when saved.  
+- **Bagaimana cara menyimpan FBX?** Use `scene.Save(path, FileFormat.FBX7500ASCII)` or the binary equivalent.  
+- **Apakah saya memerlukan lisensi?** A free trial works for development; a commercial license is required for production.  
+- **Bisakah saya mengubah satuan pengukuran?** Yes, set `AssetInfo.UnitName` and `AssetInfo.UnitScaleFactor`.
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+## What is “how to add vendor” in a 3D scene?
+Menambahkan informasi vendor berarti mengisi properti `AssetInfo` dari objek `Scene`. Properti ini menyertai file, memungkinkan siapa pun yang menggunakan file FBX untuk melihat aplikasi mana yang membuatnya dan siapa vendor-nya.
 
--  Aspose.3D untuk .NET: Pastikan Anda telah menginstal perpustakaan. Anda dapat mengunduhnya dari[Aspose.3D untuk halaman .NET](https://releases.aspose.com/3d/net/).
+## Why add vendor information?
+- **Keterlacakan:** Quickly identify the source of a model in large pipelines.  
+- **Kepatuhan:** Some industries require explicit vendor tagging for asset management.  
+- **Otomasi:** Scripts can filter or process files based on vendor metadata.
 
-## Impor Namespace
+## Prerequisites
 
-Dalam proyek .NET Anda, pastikan untuk menyertakan namespace yang diperlukan untuk mengakses fungsionalitas Aspose.3D:
+- Aspose.3D untuk .NET terinstal. Anda dapat mengunduhnya dari [Aspose.3D for .NET page](https://releases.aspose.com/3d/net/).
+
+## Import Namespaces
 
 ```csharp
 using System;
@@ -34,74 +48,87 @@ using System.Collections;
 using Aspose.ThreeD;
 ```
 
-## Langkah 1: Inisialisasi Adegan 3D
+## How to Add Vendor Information
+
+### Step 1: Initialize a 3D Scene
 
 ```csharp
 Scene scene = new Scene();
 ```
 
- Buat adegan 3D baru menggunakan`Scene` kelas.
+Membuat `Scene` baru memberikan kanvas bersih untuk Anda bekerja.
 
-## Langkah 2: Tetapkan Informasi Aplikasi dan Vendor
+### Step 2: Set Application and Vendor Information
 
 ```csharp
 scene.AssetInfo.ApplicationName = "Egypt";
 scene.AssetInfo.ApplicationVendor = "Manualdesk";
 ```
 
-Tentukan nama aplikasi dan vendor yang terkait dengan adegan 3D Anda.
+Di sini kami menunjukkan **cara menambahkan vendor** data dengan menetapkan string yang bermakna ke `ApplicationName` dan `ApplicationVendor`.
 
-## Langkah 3: Tentukan Satuan Pengukuran
+### Step 3: Define Measurement Units
 
 ```csharp
 scene.AssetInfo.UnitName = "pole";
 scene.AssetInfo.UnitScaleFactor = 0.6;
 ```
 
-Tentukan unit pengukuran yang digunakan dalam adegan Anda. Dalam contoh ini, kami menggunakan satuan Mesir kuno yang disebut "tiang", dengan 1 tiang sama dengan 60cm.
+Menentukan sistem satuan memastikan siapa pun yang membuka file FBX menginterpretasikan dimensi dengan benar. Dalam contoh ini, satu “pole” sama dengan 60 cm.
 
-## Langkah 4: Simpan Adegan
+## How to Save FBX Scene
+
+### Step 4: Save the Scene (how to save fbx)
 
 ```csharp
 var output = "Your Output Directory" + "InformationToScene.fbx";
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-Simpan adegan dengan informasi aset tambahan ke format file yang didukung 3D. Sesuaikan direktori keluaran sesuai kebutuhan.
+Baris ini menunjukkan **cara menyimpan fbx** menggunakan versi ASCII dari FBX 7.5.0. Jika Anda lebih suka binary, ganti `FBX7500ASCII` dengan `FBX7500Binary`.
 
-## Langkah 5: Tampilkan Pesan Sukses
+> **Tip profesional:** Keep the file extension `.fbx` consistent with the format you choose; otherwise some viewers may misinterpret the content.
+
+### Step 5: Display Success Message
 
 ```csharp
 Console.WriteLine("\nAsset information added successfully to Scene.\nFile saved at " + output);
 ```
 
-Beri tahu pengguna bahwa informasi aset telah berhasil ditambahkan, dan file telah disimpan.
+Pesan konsol yang ramah mengonfirmasi bahwa scene, lengkap dengan metadata vendor, telah ditulis ke disk.
 
-## Kesimpulan
+## Common Issues and Solutions
 
-Selamat! Anda telah berhasil mempelajari cara menggunakan Aspose.3D untuk .NET guna mengekstrak dan menambahkan informasi aset penting ke adegan 3D Anda. Pengetahuan ini membuka kemungkinan tak terbatas untuk membuat konten 3D yang lebih informatif dan menarik.
+| Masalah | Solusi |
+|-------|----------|
+| **Info vendor tidak muncul di penampil** | Pastikan Anda menyimpan file sebagai **FBX ASCII** atau **Binary**; beberapa penampil lama hanya membaca satu format. |
+| **Path berisi spasi** | Bungkus path dengan tanda kutip atau gunakan `Path.Combine` untuk membangun path file yang aman. |
+| **Skala satuan terlihat salah** | Periksa kembali `UnitScaleFactor`; itu adalah pengali relatif terhadap meter. |
+| **Pengecualian lisensi** | Gunakan trial gratis untuk pengujian; dapatkan lisensi penuh untuk build produksi. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Bisakah saya menggunakan Aspose.3D untuk .NET dengan bahasa pemrograman lain?
+**Q: Bisakah saya menggunakan Aspose.3D untuk .NET dengan bahasa pemrograman lain?**  
+A: Aspose.3D terutama mendukung bahasa .NET, tetapi Anda dapat menjelajahi opsi interoperabilitas untuk bahasa lain.
 
-A1: Aspose.3D terutama mendukung bahasa .NET, namun Anda dapat menjelajahi opsi interoperabilitas untuk bahasa lain.
+**Q: Apakah ada trial gratis yang tersedia untuk Aspose.3D untuk .NET?**  
+A: Ya, Anda dapat mengakses trial gratis [di sini](https://releases.aspose.com/).
 
-### Q2: Apakah ada uji coba gratis yang tersedia untuk Aspose.3D untuk .NET?
+**Q: Bagaimana cara mendapatkan dukungan untuk pertanyaan terkait Aspose.3D?**  
+A: Kunjungi [forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk komunitas dan dukungan.
 
- A2: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+**Q: Bisakah saya membeli lisensi sementara untuk Aspose.3D untuk .NET?**  
+A: Ya, Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Bagaimana cara mendapatkan dukungan untuk pertanyaan terkait Aspose.3D?
+**Q: Di mana saya dapat menemukan dokumentasi detail untuk Aspose.3D untuk .NET?**  
+A: Lihat [dokumentasi](https://reference.aspose.com/3d/net/) untuk informasi mendalam.
 
- A3: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk komunitas dan dukungan.
+---
 
-### Q4: Bisakah saya membeli lisensi sementara Aspose.3D untuk .NET?
+**Terakhir Diperbarui:** 2026-03-26  
+**Diuji Dengan:** Aspose.3D 24.11 for .NET  
+**Penulis:** Aspose  
 
- A4: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.3D untuk .NET?
-
- A5: Lihat[dokumentasi](https://reference.aspose.com/3d/net/) untuk informasi mendalam.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
