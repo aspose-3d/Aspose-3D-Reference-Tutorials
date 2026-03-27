@@ -1,5 +1,5 @@
 ---
-title: How to Use Aspose: Apply Material to a Cube in .NET
+title: How to Use Aspose - Apply Material to a Cube in .NET
 linktitle: How to Use Aspose: Apply Material to a Cube in .NET
 second_title: Aspose.3D .NET API
 description: Learn how to use Aspose to apply material to a cube, add custom texture and set material properties in a .NET 3D scene.
