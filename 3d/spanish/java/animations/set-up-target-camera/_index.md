@@ -14,7 +14,7 @@ weight: 11
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Configurar cámara objetivo para animaciones 3D en Java | Tutorial de Aspose.3D
 
@@ -143,4 +143,4 @@ A: Puedes adquirir una licencia temporal [aquí](https://purchase.aspose.com/tem
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
