@@ -1,5 +1,5 @@
 ---
-title: How to Apply Translation: Exposing Geometric Transformation
+title: How to Apply Translation - Exposing Geometric Transformation
 linktitle: Exposing Geometric Transformation 
 second_title: Aspose.3D .NET API
 description: Learn how to apply translation in Aspose.3D for .NET and easily set geometric translation to move 3D objects with output transform matrix.
