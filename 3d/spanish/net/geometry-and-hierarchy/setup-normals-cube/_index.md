@@ -10,8 +10,8 @@ url: /es/net/geometry-and-hierarchy/setup-normals-cube/
 weight: 17
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Configurando Normales en un Cubo
@@ -138,4 +138,4 @@ Al ejecutar el programa, debería ver el mensaje de confirmación, y cualquier v
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/main-container >}}
+{{< blocks/products/products-backtop-button >}}
