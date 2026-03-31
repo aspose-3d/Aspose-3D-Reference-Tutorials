@@ -1,10 +1,9 @@
 ---
-date: 2025-11-30
-description: 学习如何在 Java 中使用 Aspose 修改 3D 球体的半径。本分步指南涵盖 Aspose.3D Java 库、如何设置半径、将球体添加到场景以及在
-  Java 中写入 OBJ 文件。
-linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
+date: 2026-03-31
+description: 学习如何通过在场景中添加球体、修改其半径，并使用 Aspose.3D 在 Java 中导出 OBJ 文件，将 3D 转换为 OBJ。
+linktitle: 'Convert 3D to OBJ: Add Sphere & Modify Radius in Java'
 second_title: Aspose.3D Java API
-title: 如何使用 Aspose：在 Java 中使用 Aspose.3D 修改 3D 球体半径
+title: 将3D转换为OBJ：在Java中添加球体并修改半径
 url: /zh/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
@@ -13,40 +12,38 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何使用 Aspose：在 Java 中使用 Aspose.3D 修改 3D 球体半径
+# 将 3D 转换为 OBJ：在 Java 中添加球体并修改半径
 
 ## 介绍
 
-如果你正在寻找 **如何使用 Aspose** 在 Java 中处理 3D 模型，那么你来对地方了。在本教程中，我们将逐步演示如何更改球体的大小、将其添加到场景中，最后使用 **Aspose.3D Java 库** 写入 OBJ 文件。完成后，你将拥有一个可复用的代码片段，能够直接嵌入任何基于 Java 的 3D 应用程序。
+如果您需要快速且以编程方式 **convert 3D to OBJ**，本指南将准确展示如何向场景中添加球体、修改其半径，并使用 **Aspose.3D Java library** 写入生成的 OBJ 文件。我们将逐行讲解代码，说明每一步的意义，并提供避免常见陷阱的技巧——让您能够自信地将此工作流集成到游戏、CAD 工具或科学可视化中。
 
 ## 快速答案
-- **本指南的主要目的是什么？** 展示如何在 Java 中使用 Aspose.3D 修改球体半径。  
-- **我们使用哪个库？** Aspose.3D Java 库（功能完整的 **java 3d library**）。  
-- **如何设置半径？** 对 `Sphere` 对象调用 `sphere.setRadius(double)`。  
-- **可以导出为 OBJ 吗？** 可以 – 使用 `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`。  
-- **需要许可证吗？** 免费试用可用于开发；生产环境需要许可证。
+- **本教程的主要目标是什么？** 演示如何通过创建球体、调整半径并在 Java 中导出模型来将 3D 转换为 OBJ。  
+- **哪个库提供 3D 功能？** Aspose.3D，一个完整的 **java 3d library tutorial**。  
+- **如何更改球体大小？** 在 `Sphere` 实例上调用 `sphere.setRadius(double)`。  
+- **我可以直接从 Java 写入 OBJ 文件吗？** 是的——使用 `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`。  
+- **生产环境需要许可证吗？** 免费试用适用于开发；商业使用需要永久许可证。
 
-## 什么是 Aspose.3D for Java？
+## 使用 Aspose.3D 将 3D 转换为 OBJ 的方法
 
-Aspose.3D 是一个 **java 3d library**，让开发者无需任何外部依赖即可创建、编辑和转换 3D 文件。它支持常见格式如 OBJ、FBX、STL 等，适用于游戏、CAD 工具和科学可视化等场景。
+### 什么是 Aspose.3D for Java？
 
-## 为什么使用 Aspose.3D 来改变球体大小？
+Aspose.3D 是一个 **java 3d library**，让开发者能够在没有任何外部依赖的情况下创建、编辑和转换 3D 文件。它支持 OBJ、FBX、STL 等流行格式，非常适合游戏、CAD 工具和科学可视化。
 
-- **无需本地 3D 引擎** – 所有操作均在对象模型上完成。  
-- **跨平台** – 在任何运行 Java 的操作系统上均可使用。  
-- **高精度几何** – 可以设置精确的半径值，而不仅仅是近似的缩放。  
+### 为什么要将 3D 转换为 OBJ？
+
+- **通用兼容性** – OBJ 几乎被所有 3D 查看器、游戏引擎和建模软件支持。  
+- **轻量级导出** – OBJ 以纯文本格式存储几何体，便于检查和调试。  
+- **工作流灵活性** – 您可以在服务器端 Java 代码中即时生成 OBJ 文件，实现资产创建的自动化流水线。
 
 ## 前置条件
 
-在开始之前，请确保你已具备：
-
-- 基本的 Java 编程理解。  
-- 已安装 Aspose.3D 库 – 你可以从 [Aspose.3D for Java 文档](https://reference.aspose.com/3d/java/) 下载。  
-- 在机器上安装了 Java Development Kit (JDK)。
+- 基本的 Java 编程知识。  
+- 已安装 Aspose.3D 库 – 从 [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) 下载。  
+- 在开发机器上安装 JDK 8 或更高版本。
 
 ## 导入包
-
-要开始使用，请在你的 Java 项目中导入必要的类：
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -56,7 +53,9 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## 步骤 1：初始化场景
+## 步骤指南
+
+### 步骤 1：初始化场景
 
 ```java
 // ExStart:WorkingWithSphereRadius
@@ -65,87 +64,87 @@ import java.io.IOException;
 Scene scene = new Scene();
 ```
 
-这里我们创建一个新的 **3D 场景**，用于容纳所有几何体。
+创建 `Scene` 为您提供一个容纳所有几何体、灯光和相机的容器。稍后我们将在此 **add sphere to scene**。
 
-## 步骤 2：初始化球体
+### 步骤 2：初始化球体
 
 ```java
 // initialize a Sphere
 Sphere sphere = new Sphere();
 ```
 
-`Sphere` 对象表示一个完美的球体原语。此时它使用默认半径 1.0。
+`Sphere` 对象默认半径为 1.0。可以将其视为您想要导出的形状的空白画布。
 
-## 步骤 3：如何设置球体半径
+### 步骤 3：设置所需半径
 
 ```java
 // set radius
 sphere.setRadius(10);
 ```
 
-此行演示了 **如何设置半径**。你可以将 `10` 替换为任意 `double` 值，以获得所需大小。
+这里我们使用 **write obj file java**‑style 代码设置精确的半径。将 `10` 替换为符合您设计需求的任意 `double` 值。
 
-## 步骤 4：将球体添加到场景
+### 步骤 4：将球体添加到场景
 
 ```java
 // add sphere to the scene
 scene.getRootNode().createChildNode(sphere);
 ```
 
-此调用 **将球体添加到场景**（或 “add sphere to scene”），通过在根节点下创建子节点实现。
+此行通过在根节点下创建子节点 **adds sphere to scene**，将球体添加到场景中。这是几何体成为场景图一部分的时刻。
 
-## 步骤 5：在 Java 中写入 OBJ 文件
+### 步骤 5：将模型导出为 OBJ
 
 ```java
 // save scene
 scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-最后，我们使用 `scene.save` **以 Java 方式写入 OBJ 文件**。输出文件 `sphere.obj` 可在任何支持 Wavefront OBJ 格式的 3D 查看器中打开。
+调用 `scene.save` 以 **exports obj file java**‑style 方式导出，实际上是 **save scene as obj**。生成的 `sphere.obj` 可以在任何标准 3D 查看器中打开。
 
 ## 常见问题及解决方案
 
 | 问题 | 解决方案 |
 |-------|----------|
-| **球体在查看器中显得太小** | 确认半径值已正确设置；记住单位是任意的，除非你应用了缩放变换。 |
+| **球体在查看器中显示太小** | 确认半径值设置正确；请记住，除非应用缩放变换，否则单位是任意的。 |
 | **导出的 OBJ 没有材质** | Aspose.3D 仅写入几何体；如果需要纹理，请为球体添加材质 (`sphere.setMaterial(...)`)。 |
-| **运行时出现许可证异常** | 确保在创建 `Scene` 之前已加载临时或永久许可证文件。 |
+| **运行时许可证异常** | 确保在创建 `Scene` 之前已加载临时或永久许可证文件。 |
 
-## 常见问答
+## 常见问题
 
 ### 问：在哪里可以找到 Aspose.3D for Java 的文档？
 
-答：你可以参考 [Aspose.3D for Java 文档](https://reference.aspose.com/3d/java/) 获取完整信息和使用指南。
+A: 您可以参考 [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) 获取全面指南。
 
 ### 问：如何下载 Aspose.3D for Java？
 
-答：从发布页面下载库： [下载 Aspose.3D for Java](https://releases.aspose.com/3d/java/)。
+A: 从发布页面下载库： [Download Aspose.3D for Java](https://releases.aspose.com/3d/java/)。
 
 ### 问：Aspose.3D for Java 是否提供免费试用？
 
-答：是的，访问 [Aspose.3D 免费试用](https://releases.aspose.com/) 可体验所有功能。
+A: 是的，访问 [Aspose.3D Free Trial](https://releases.aspose.com/) 可免费试用并探索功能。
 
 ### 问：在哪里可以获得 Aspose.3D for Java 的支持？
 
-答：加入 Aspose 社区的 [Aspose.3D 支持论坛](https://forum.aspose.com/c/3d/18) 获取帮助和讨论。
+A: 加入 Aspose 社区的 [Aspose.3D Support Forum](https://forum.aspose.com/c/3d/18) 获取帮助和讨论。
 
 ### 问：如何获取 Aspose.3D 的临时许可证？
 
-答：访问 [临时许可证](https://purchase.aspose.com/temporary-license/) 获取临时许可证。
+A: 访问 [Temporary License](https://purchase.aspose.com/temporary-license/) 获取临时许可证。
 
-### 问：我可以将此代码用于其他 3D 格式（如 STL）吗？
+### 问：我可以将此代码用于其他 3D 格式，如 STL 吗？
 
-答：完全可以 – 只需在调用 `scene.save` 时更改 `FileFormat` 枚举，例如 `FileFormat.STL`。
+A: 当然可以——只需在调用 `scene.save` 时更改 `FileFormat` 枚举，例如 `FileFormat.STL`。
 
 ## 结论
 
-现在，你已经掌握了 **如何使用 Aspose** 来修改球体半径、将其添加到场景并在 Java 中导出为 OBJ 文件。欢迎尝试其他原语、应用材质或链式多个变换，以构建更丰富的 3D 模型。
+现在您已经了解如何通过添加球体、调整半径并使用 Aspose.3D 在 Java 中导出结果来 **convert 3D to OBJ**。尝试其他基本体、应用材质或链式多个变换，以构建更丰富的模型。每当您需要 **save scene as obj** 或 **write obj file java** 时，都可以使用相同的模式。
 
 ---
 
-**最后更新：** 2025-11-30  
-**测试环境：** Aspose.3D for Java 24.11  
-**作者：** Aspose  
+**最后更新:** 2026-03-31  
+**测试环境:** Aspose.3D for Java 24.11  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
