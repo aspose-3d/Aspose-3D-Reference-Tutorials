@@ -1,11 +1,16 @@
 ---
-date: 2025-12-03
-description: Apprenez à écrire des fichiers binaires pour des maillages 3D en Java
-  avec Aspose.3D. Ce guide couvre l'exportation de maillages 3D, l'écriture de fichiers
-  binaires en Java et la triangulation de maillages en Java.
-linktitle: How to Write Binary Files for 3D Meshes in Java
+date: 2026-04-03
+description: Apprenez à convertir un fichier FBX en maillage et à écrire un format
+  de maillage binaire personnalisé en Java avec Aspose.3D. Inclut la triangulation
+  du maillage en Java et la création d’un format de maillage personnalisé.
+keywords:
+- convert fbx to mesh
+- custom binary mesh format
+- triangulate mesh java
+linktitle: Comment convertir un FBX en maillage et écrire des fichiers binaires en
+  Java
 second_title: Aspose.3D Java API
-title: Comment écrire des fichiers binaires pour les maillages 3D en Java
+title: Comment convertir un FBX en maillage et écrire des fichiers binaires en Java
 url: /fr/java/3d-scenes-and-models/save-custom-mesh-formats/
 weight: 13
 ---
@@ -14,40 +19,40 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Comment écrire des fichiers binaires pour les maillages 3D en Java
+# Comment convertir FBX en maillage et écrire des fichiers binaires en Java
 
 ## Introduction
 
-Dans ce tutoriel, vous découvrirez **comment écrire des fichiers binaires** qui stockent des données de maillage 3‑D, vous donnant un contrôle total sur les flux d'exportation de maillage 3D en Java. En utilisant l'API Aspose.3D Java, nous parcourrons le chargement d'un modèle FBX, sa conversion en maillage, la triangulation de la géométrie, et enfin la persistance du résultat dans un format binaire personnalisé. À la fin, vous disposerez d'un extrait réutilisable qui peut être adapté à n'importe quel schéma binaire dont vous avez besoin.
+Dans ce tutoriel, vous découvrirez **how to convert FBX to mesh** et écrirez des fichiers binaires qui stockent des données de maillage 3‑D, vous donnant un contrôle complet sur les flux de travail d'export‑3D‑mesh en Java. En utilisant l'API Aspose.3D Java, nous parcourrons le chargement d'un modèle FBX, sa conversion en maillage, **triangulate mesh Java**, et enfin la persistance du résultat dans un **custom binary mesh format**. À la fin, vous disposerez d'un extrait réutilisable qui peut être adapté à n'importe quel schéma binaire dont vous avez besoin.
 
-## Quick Answers
-- **Que signifie « écrire en binaire » dans ce contexte ?** Cela signifie sérialiser les sommets du maillage, les indices et les transformations dans un fichier compact, non textuel que vous définissez vous‑même.  
-- **Quelle bibliothèque gère le traitement 3D ?** Aspose.3D for Java.  
-- **Ai‑je besoin d’une licence pour le développement ?** Une licence temporaire suffit pour les tests ; une licence complète est requise pour la production.  
-- **Puis‑je exporter d'autres formats que le binaire ?** Oui – Aspose.3D prend en charge FBX, OBJ, STL, glTF, et plus encore.  
-- **Quelle version de Java est requise ?** Java 8 ou supérieure.
+## Réponses rapides
+- **Que signifie « write binary » dans ce contexte ?** Cela signifie sérialiser les sommets du maillage, les indices et les transformations dans un fichier compact, non textuel que vous définissez vous‑même.  
+- **Quelle bibliothèque gère le traitement 3D ?** Aspose.3D for Java.  
+- **Ai-je besoin d'une licence pour le développement ?** Une licence temporaire fonctionne pour les tests ; une licence complète est requise pour la production.  
+- **Puis-je exporter d'autres formats en plus du binaire ?** Oui – Aspose.3D prend en charge FBX, OBJ, STL, glTF, et plus encore.  
+- **Quelle version de Java est requise ?** Java 8 ou supérieur.
 
-## What is “how to write binary” for 3D meshes?
+## Qu’est‑ce que « convert FBX to mesh » ?
 
-Écrire des fichiers binaires consiste essentiellement en une opération d'E/S bas‑niveau où vous convertissez des structures en mémoire (vecteurs, indices, matrices) en un flux d'octets. Cette approche est beaucoup plus efficace en termes d'espace et plus rapide à lire que les formats basés sur du texte comme OBJ, ce qui la rend idéale pour les moteurs en temps réel ou la transmission réseau.
+Convertir un fichier FBX en maillage signifie extraire les données géométriques (sommets, faces, normales, etc.) du conteneur FBX et les représenter sous forme d'un objet `Mesh` que vous pouvez manipuler programmaticalement. Cette étape est essentielle lorsque vous devez réutiliser la géométrie pour des moteurs personnalisés, effectuer une analyse géométrique ou créer des formats binaires propriétaires.
 
-## Why export 3d mesh to a custom binary format?
+## Pourquoi convertir FBX en maillage et utiliser un format binaire personnalisé ?
 
-- **Performance :** Les fichiers binaires se chargent plus rapidement car ils évitent l'analyse coûteuse des chaînes.  
-- **Flexibilité :** Vous définissez exactement les données dont vous avez besoin (par ex., uniquement les positions et les indices).  
-- **Interopérabilité :** Un format personnalisé peut être partagé entre différentes plateformes ou pipelines propriétaires.  
-- **Contrôle :** Vous décidez de l'endianness, de la compression et du versionnage.
+- **Performance :** Les fichiers binaires sont plus petits et plus rapides à charger que les formats basés sur du texte.  
+- **Contrôle :** Vous décidez exactement quels attributs (positions, normales, UV, données personnalisées) sont stockés.  
+- **Portabilité :** Un schéma simple peut être lu par n'importe quel langage sans dépendre de parseurs tiers lourds.  
+- **Cohérence :** Utiliser le même pipeline d'exportation garantit que chaque maillage de votre pipeline suit les mêmes conventions (par ex., système de coordonnées gauche, topologie en triangles).
 
-## Prerequisites
+## Prérequis
 
-Avant de plonger, assurez‑vous d’avoir :
+Avant de plonger, assurez‑vous d'avoir :
 
 1. **Java Development Kit (JDK 8+)** installé et `JAVA_HOME` configuré.  
-2. **Aspose.3D for Java** – téléchargez le JAR le plus récent depuis la [page des versions Aspose](https://releases.aspose.com/3d/java/).  
+2. **Aspose.3D for Java** – téléchargez le dernier JAR depuis la [Aspose releases page](https://releases.aspose.com/3d/java/).  
 3. Un fichier modèle 3‑D d'exemple (par ex., `test.fbx`) placé dans un répertoire connu.  
-4. Une connaissance de base des flux d'E/S Java.
+4. Une connaissance de base des flux I/O Java.
 
-## Import Packages
+## Importer les packages
 
 ```java
 import com.aspose.threed.*;
@@ -57,26 +62,26 @@ import java.io.*;
 import java.util.List;
 ```
 
-## Step 1: Load the 3D Model (convert fbx to binary)
+## Étape 1 : Charger le modèle 3D (convert fbx to mesh)
 
 ```java
 Scene scene = new Scene("Your Document Directory" + "test.fbx");
 ```
 
-*Ici nous chargeons un fichier FBX (`convert fbx to binary`) dans un objet Aspose `Scene`, ce qui nous donne accès à tous les nœuds, maillages et matériaux.*
+*Ici, nous chargeons un fichier FBX (`convert fbx to mesh`) dans un objet Aspose `Scene`, ce qui nous donne accès à tous les nœuds, maillages et matériaux.*
 
-## Step 2: Define the Custom Binary Format
+## Créer un format de maillage personnalisé (binaire)
 
-Before saving, decide on the binary layout. The example below uses a very simple schema:
+Avant d'enregistrer, décidez de la disposition binaire. L'exemple ci‑dessous utilise un schéma très simple que vous pouvez étendre pour inclure des normales, des UV ou tout attribut personnalisé dont vous avez besoin pour votre moteur.
 
 ```java
 // Struct definitions for the custom binary format
 // ...
 ```
 
-*Vous pouvez étendre cette section pour inclure les normales, les UV ou des attributs personnalisés selon les besoins.*
+*Vous pouvez **create custom mesh format** spécifier ici, en ajoutant un en‑tête, un numéro de version ou des indicateurs de compression selon les besoins.*
 
-## Step 3: Save 3D Meshes in Custom Binary Format (write binary file java)
+## Étape 2 : Enregistrer les maillages 3D au format binaire personnalisé (write custom binary file)
 
 ```java
 try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("Your Document Directory" + "Save3DMeshesInCustomBinaryFormat_out")))) {
@@ -125,43 +130,43 @@ try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new
 }
 ```
 
-*Le pattern visiteur parcourt chaque nœud, extrait les données du maillage, **triangulate mesh java** en utilisant `PolygonModifier.triangulate`, applique la transformation globale du nœud, et enfin écrit la charge binaire. C’est le cœur de **comment écrire en binaire** pour les maillages 3‑D.*
+*Le pattern visiteur parcourt chaque nœud, extrait les données du maillage, **triangulate mesh Java** en utilisant `PolygonModifier.triangulate`, applique la transformation globale du nœud, puis écrit finalement la charge binaire. C’est le cœur de **how to write binary** pour les maillages 3D.*
 
-## Common Issues & Troubleshooting
+## Problèmes courants & dépannage
 
 | Symptôme | Cause probable | Solution |
 |----------|----------------|----------|
-| `NullPointerException` sur `node.getGlobalTransform()` | Le nœud n'a pas de matrice de transformation | Utilisez `Matrix4.identity()` comme solution de secours. |
+| `NullPointerException` on `node.getGlobalTransform()` | Le nœud n'a pas de matrice de transformation | Utilisez `Matrix4.identity()` comme solution de secours. |
 | Le fichier de sortie est plus grand que prévu | Vous écrivez des sommets dupliqués | Dédupliquez les points de contrôle avant l'écriture. |
-| Le maillage apparaît déformé lors de la lecture | Incompatibilité d'endianness | Assurez-vous que l'écrivain et le lecteur utilisent le même ordre d'octets (`ByteOrder.LITTLE_ENDIAN` ou `BIG_ENDIAN`). |
-| Aucun triangle n'est écrit | `triFaces.length` vaut zéro | Vérifiez que le maillage n'est pas déjà composé uniquement de lignes ou de points ; envisagez d'utiliser `PolygonModifier.triangulate` sur les données polygonales. |
+| Le maillage apparaît déformé lors de la lecture | Incohérence d'endianness | Assurez-vous que l'écrivain et le lecteur utilisent le même ordre d'octets (`ByteOrder.LITTLE_ENDIAN` ou `BIG_ENDIAN`). |
+| Aucun triangle n'est écrit | `triFaces.length` est zéro | Vérifiez que le maillage n'est pas déjà composé uniquement de lignes ou de points ; envisagez d'utiliser `PolygonModifier.triangulate` sur les données polygonales. |
 
-## Frequently Asked Questions
+## Questions fréquentes
 
-**Q : Puis‑je utiliser Aspose.3D for Java avec d'autres formats de modèles 3D ?**  
-R : Oui, Aspose.3D prend en charge FBX, OBJ, STL, glTF, 3DS, et bien d'autres, vous offrant de la flexibilité lorsque vous **exportez des maillages 3d**.
+**Q : Puis-je utiliser Aspose.3D pour Java avec d'autres formats de modèles 3D ?**  
+A : Oui, Aspose.3D prend en charge FBX, OBJ, STL, glTF, 3DS, et bien d'autres, vous offrant de la flexibilité lorsque vous **export 3d mesh** les données.
 
-**Q : Une licence temporaire est‑elle disponible pour Aspose.3D for Java ?**  
-R : Absolument. Vous pouvez obtenir une licence d'essai ou temporaire depuis la [page de licence temporaire Aspose](https://purchase.aspose.com/temporary-license/).
+**Q : Une licence temporaire est‑elle disponible pour Aspose.3D pour Java ?**  
+A : Absolument. Vous pouvez obtenir une licence d'essai ou temporaire depuis la [Aspose temporary‑license page](https://purchase.aspose.com/temporary-license/).
 
-**Q : Où puis‑je trouver du support pour Aspose.3D for Java ?**  
-R : Le forum officiel [Aspose.3D](https://forum.aspose.com/c/3d/18) est un excellent endroit pour poser des questions et partager des exemples.
+**Q : Où puis‑je trouver du support pour Aspose.3D pour Java ?**  
+A : Le forum officiel [Aspose.3D forum](https://forum.aspose.com/c/3d/18) est un excellent endroit pour poser des questions et partager des exemples.
 
-**Q : Existe‑t‑il des modèles 3D d'exemple que je peux utiliser pour les tests ?**  
-R : Oui – la documentation Aspose fournit plusieurs modèles d'exemple, et vous pouvez également télécharger des ressources gratuites sur des sites comme Sketchfab ou TurboSquid.
+**Q : Existe‑t‑il des modèles 3D d'exemple que je peux utiliser pour les tests ?**  
+A : Oui – la documentation Aspose fournit plusieurs modèles d'exemple, et vous pouvez également télécharger des ressources gratuites depuis des sites comme Sketchfab ou TurboSquid.
 
-**Q : Comment puis‑je personnaliser davantage le format binaire pour mon moteur ?**  
-R : Étendez la section d'en-tête avec un numéro de version, ajoutez des indicateurs pour les attributs optionnels (normales, UV), et envisagez de compresser la charge avec ZSTD ou LZ4.
+**Q : Comment puis‑je personnaliser davantage le format binaire pour mon moteur ?**  
+A : Étendez la section d'en‑tête avec un numéro de version, ajoutez des indicateurs pour les attributs optionnels (normales, UV), et envisagez de compresser la charge utile avec ZSTD ou LZ4.
 
 ## Conclusion
 
-Vous disposez maintenant d'un modèle solide et prêt pour la production pour **comment écrire en binaire** des fichiers qui stockent la géométrie de maillage 3‑D en Java. En tirant parti des puissants outils de conversion d'Aspose.3D et du `DataOutputStream` de Java, vous pouvez **exporter des maillages 3d** dans un format compact et adapté aux moteurs, **triangulate mesh java** efficacement, et adapter le schéma binaire à n'importe quel besoin en aval.
+Vous disposez maintenant d'un modèle solide et prêt pour la production pour **how to write binary** les fichiers qui stockent la géométrie de maillage 3D en Java. En tirant parti des puissants outils de conversion d'Aspose.3D et du `DataOutputStream` de Java, vous pouvez **export 3d mesh** les données dans un format compact et adapté aux moteurs, **triangulate mesh Java** efficacement, et adapter le **custom binary mesh format** à toute exigence en aval.
 
 ---
 
-**Dernière mise à jour :** 2025-12-03  
-**Testé avec :** Aspose.3D for Java 24.12 (dernière version au moment de la rédaction)  
-**Auteur :** Aspose  
+**Dernière mise à jour :** 2026-04-03  
+**Testé avec :** Aspose.3D for Java 24.12 (latest at time of writing)  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
