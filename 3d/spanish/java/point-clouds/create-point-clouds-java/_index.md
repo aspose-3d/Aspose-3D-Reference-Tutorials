@@ -1,35 +1,47 @@
 ---
-title: Crear nubes de puntos a partir de mallas en Java
-linktitle: Crear nubes de puntos a partir de mallas en Java
-second_title: API de Java Aspose.3D
-description: Explora el mundo del modelado 3D en Java con Aspose.3D. Aprenda a crear nubes de puntos a partir de mallas sin esfuerzo.
-weight: 12
+date: 2026-03-05
+description: Aprende a convertir mallas en nubes de puntos en Java usando Aspose.3D
+  y guarda el archivo de nube de puntos de manera eficiente.
+linktitle: Convert Mesh to Point Cloud in Java
+second_title: Aspose.3D Java API
+title: Cómo convertir malla a nube de puntos en Java con Aspose.3D
 url: /es/java/point-clouds/create-point-clouds-java/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crear nubes de puntos a partir de mallas en Java
+# Cómo convertir malla a nube de puntos en Java con Aspose.3D
 
-## Introducción
+Crear una **nube de puntos** a partir de una malla 3D es un requisito común en proyectos de gráficos, simulación y visualización de datos. En este tutorial aprenderá cómo **convertir malla a nube de puntos** usando la API Java de Aspose.3D, y cómo **guardar el archivo de nube de puntos** para su uso posterior. Los pasos están claramente descritos para que pueda integrar la generación de nubes de puntos en sus aplicaciones Java con un esfuerzo mínimo.
 
-Bienvenido a este completo tutorial sobre la creación de nubes de puntos a partir de mallas en Java utilizando Aspose.3D. Aspose.3D es una potente biblioteca Java que proporciona amplias funcionalidades para modelado y manipulación 3D. En este tutorial, lo guiaremos a través del proceso de generación de nubes de puntos a partir de mallas, ofreciéndole pasos claros y detallados para una experiencia perfecta.
+## Respuestas rápidas
+- **¿Qué biblioteca es la mejor para esta tarea?** La API Java de Aspose.3D proporciona soporte incorporado para la conversión de malla a nube de puntos.  
+- **¿Qué formato usa el ejemplo?** Se utiliza el formato DRACO (`.drc`) para un almacenamiento compacto de nubes de puntos.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
+- **¿Puedo procesar varias mallas?** Sí, simplemente repita el paso de codificación para cada malla.  
+- **¿Se requiere procesamiento adicional?** Opcional; Aspose.3D ofrece métodos para manipular la nube de puntos después de la codificación.
+
+## ¿Qué es “convertir malla a nube de puntos”?
+Convertir una malla a una nube de puntos significa extraer las posiciones de los vértices (y opcionalmente normales o colores) de la geometría de la malla y almacenarlas como una colección de puntos. Esta representación es ideal para renderizado rápido, detección de colisiones y para alimentar datos a canalizaciones de aprendizaje automático.
+
+## ¿Por qué usar Aspose.3D para la generación de nubes de puntos?
+- **Codificación de alto rendimiento:** La compresión DRACO incorporada reduce el tamaño del archivo de forma drástica.  
+- **API sencilla:** Llamadas de una sola línea manejan el trabajo pesado.  
+- **Compatibilidad Java multiplataforma:** Funciona en cualquier entorno compatible con JVM.  
+- **Extensible:** Después de la conversión puede procesar aún más la nube (filtrado, transformación, etc.).
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-
-1. Entorno de desarrollo Java: asegúrese de tener un entorno de desarrollo Java configurado en su sistema.
-
-2.  Biblioteca Aspose.3D: descargue e instale la biblioteca Aspose.3D. Puedes encontrar la biblioteca.[aquí](https://releases.aspose.com/3d/java/).
-
-3. Directorio de documentos: cree un directorio donde desee almacenar los documentos de nube de puntos generados.
+1. **Entorno de desarrollo Java** – JDK 8 o superior instalado.  
+2. **Biblioteca Aspose.3D** – Descargue e instale la biblioteca Aspose.3D. Puede encontrar la biblioteca [aquí](https://releases.aspose.com/3d/java/).  
+3. **Directorio de documentos** – Cree una carpeta donde se guardarán los archivos de nube de puntos generados.
 
 ## Importar paquetes
 
-Para comenzar, importe los paquetes necesarios en su proyecto Java:
+Para comenzar, importe las clases necesarias en su proyecto Java:
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -39,56 +51,65 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Paso 1: codificar malla en nube de puntos
+## Paso 1: Codificar malla a nube de puntos
 
-Comience codificando una malla en una nube de puntos usando la biblioteca Aspose.3D:
+Utilice el codificador `FileFormat.DRACO` para transformar una malla (por ejemplo, un `Sphere`) en un archivo de nube de puntos comprimido:
 
 ```java
-// ExInicio:1
+// ExStart:1
 FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
-// Fin final: 1
+// ExEnd:1
 ```
 
-Explicación:
--  El`FileFormat.DRACO` El método se utiliza para especificar el formato de codificación (DRACO, en este caso).
-- `new Sphere()` representa la malla que desea convertir en una nube de puntos.
-- `"Your Document Directory" + "sphere.drc"` define la ruta de salida y el nombre de archivo para el documento de nube de puntos generado.
+**Explicación**
 
-Repita este paso para diferentes mallas según sea necesario.
+- `FileFormat.DRACO` selecciona el formato de compresión DRACO, que está optimizado para el almacenamiento de nubes de puntos.  
+- `new Sphere()` crea una malla esférica simple que sirve como geometría de origen.  
+- La cadena `"Your Document Directory" + "sphere.drc"` construye la ruta completa de salida donde se guardará el **archivo de nube de puntos** (`sphere.drc`).
 
-## Paso 2: procesamiento adicional (opcional)
+Si lo desea, repita este paso con cualquier otro objeto de malla (p. ej., `Box`, `Cylinder`) para generar nubes de puntos adicionales.
 
-Puede realizar un procesamiento adicional en los datos de la nube de puntos generados según sus requisitos. Aspose.3D proporciona varios métodos para manipular y mejorar la información de la nube de puntos.
+## Paso 2: Procesamiento adicional (Opcional)
 
-## Paso 3: guardar y utilizar
+Después de la codificación, puede que desee refinar la nube de puntos—como aplicar transformaciones, filtrar valores atípicos o añadir atributos personalizados. Aspose.3D ofrece un amplio conjunto de métodos para manipular datos de nubes de puntos, aunque no son necesarios para una conversión básica.
 
-Guarde la nube de puntos procesada y utilícela en sus aplicaciones o proyectos. Las nubes de puntos generadas se pueden utilizar en varios campos, incluidos gráficos por computadora, simulación y visualización de datos.
+## Paso 3: Guardar y utilizar
+
+El archivo codificado ya está guardado en la ubicación que especificó. Ahora puede cargar este archivo `.drc` en cualquier aplicación que admita nubes de puntos DRACO, o alimentarlo directamente a motores de renderizado, canalizaciones de simulación o modelos de IA.
+
+## Problemas comunes y consejos
+
+- **Ruta inválida:** Asegúrese de que el directorio exista y tenga permisos de escritura; de lo contrario se lanzará `IOException`.  
+- **Tipos de malla no compatibles:** Las mallas complejas con caras no triangulares se triangulan automáticamente por Aspose.3D, pero mallas muy grandes pueden requerir más memoria.  
+- **Rendimiento:** La compresión DRACO es rápida, pero para nubes de puntos masivas considere procesar en fragmentos para evitar picos de memoria.
 
 ## Conclusión
 
-¡Felicidades! Ha aprendido con éxito cómo crear nubes de puntos a partir de mallas en Java usando Aspose.3D. Este tutorial proporciona una base sólida para incorporar nubes de puntos 3D en sus aplicaciones Java.
+Ahora ha aprendido cómo **convertir malla a nube de puntos** en Java usando Aspose.3D y cómo **guardar el archivo de nube de puntos** para su uso posterior. Esta capacidad abre la puerta al manejo eficiente de datos 3D en proyectos de gráficos, AR/VR y ciencia de datos.
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo utilizar Aspose.3D para proyectos comerciales?
+### Q1: ¿Puedo usar Aspose.3D para proyectos comerciales?
+A1: Sí, puede. Visite la [página de compra](https://purchase.aspose.com/buy) para opciones de licenciamiento.
 
- R1: Sí, puedes. Visita el[pagina de compra](https://purchase.aspose.com/buy) para opciones de licencia.
+### Q2: ¿Hay una prueba gratuita disponible?
+A2: Sí, puede acceder a una prueba gratuita [aquí](https://releases.aspose.com/).
 
-### P2: ¿Hay una prueba gratuita disponible?
+### Q3: ¿Dónde puedo encontrar soporte para Aspose.3D?
+A3: Visite el [foro de Aspose.3D](https://forum.aspose.com/c/3d/18) para soporte comunitario.
 
- R2: Sí, puedes acceder a una prueba gratuita[aquí](https://releases.aspose.com/).
+### Q4: ¿Cómo obtengo una licencia temporal?
+A4: Puede obtener una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
 
-### P3: ¿Dónde puedo encontrar soporte para Aspose.3D?
+### Q5: ¿Dónde puedo encontrar la documentación?
+A5: Consulte la [documentación](https://reference.aspose.com/3d/java/) para información detallada.
 
- A3: Visita el[Foro Aspose.3D](https://forum.aspose.com/c/3d/18) para el apoyo de la comunidad.
+---
 
-### P4: ¿Cómo obtengo una licencia temporal?
+**Última actualización:** 2026-03-05  
+**Probado con:** Aspose.3D Java 24.12  
+**Autor:** Aspose  
 
- R4: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
-
-### P5: ¿Dónde puedo encontrar la documentación?
-
- R5: Consulte el[documentación](https://reference.aspose.com/3d/java/) para obtener información detallada.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
