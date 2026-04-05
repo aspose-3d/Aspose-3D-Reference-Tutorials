@@ -1,11 +1,11 @@
 ---
-date: 2026-01-14
+date: 2026-03-28
 description: Aspose.3D for .NET kullanarak 3D sahnelerde küpü nasıl canlandıracağınızı
-  öğrenin. Bu kılavuz, animasyon eğrisi oluşturmayı, anahtar kareleri bağlamayı ve
-  3D özellikleri canlandırmayı gösterir.
+  öğrenin ve canlandırılmış sahneyi FBX olarak dışa aktarın. Bu kılavuz, animasyon
+  eğrisi oluşturmayı, anahtar kareleri bağlamayı ve 3D özellikleri canlandırmayı gösterir.
 linktitle: Animating Properties to Document in 3D Scenes
 second_title: Aspose.3D .NET API
-title: Aspose.3D for .NET ile 3D Ortamlarda Küpü Nasıl Canlandırılır
+title: Aspose.3D for .NET ile 3D Ortamlarda Küpü Nasıl Canlandırabilirsiniz
 url: /tr/net/animation/property-to-document/
 weight: 10
 ---
@@ -18,22 +18,24 @@ weight: 10
 
 ## Giriş
 
-.NET'te 3D sahne oluşturma ve animasyon dünyasına dalıyorsanız, Aspose.3D sizin başvuru aracınızdır. Bu adım adım rehberde, **küp nasıl canlandırılır** nesnelerini özelliklerini canlandırarak, animasyon eğrileri oluşturarak ve anahtar kareler bağlayarak inceleyeceğiz. Sonunda, popüler 3D formatlarına aktarabileceğiniz tamamen canlandırılmış bir küp elde edeceksiniz.
+Eğer .NET'te 3D sahne oluşturma ve animasyon dünyasına dalıyorsanız, Aspose.3D sizin başvuru aracınızdır. Bu adım adım rehberde, **küp nasıl canlandırılır** nesnelerini özelliklerini canlandırarak, animasyon eğrileri oluşturarak ve anahtar kareleri bağlayarak inceleyeceğiz. Sonunda, popüler 3D formatlarına dışa aktarabileceğiniz tamamen canlandırılmış bir küp elde edeceksiniz.
 
 ## Hızlı Yanıtlar
 - **Hangi kütüphane kullanılıyor?** Aspose.3D for .NET  
-- **Bu öğreticinin kapsadığı birincil görev nedir?** 3D sahnede küp nasıl canlandırılır  
-- **Ana adımlar?** Ad alanlarını içe aktar, bir sahne oluştur, anahtar kareleri bağla, dosyayı kaydet  
-- **Lisans gerekli mi?** Öğrenme için ücretsiz deneme yeterlidir; üretim için ticari lisans gerekir  
-- **Desteklenen çıktı formatı?** FBX (ASCII 7500) ve Aspose.3D tarafından desteklenen diğerleri  
+- **Bu öğreticide hangi temel görev ele alınıyor?** 3D sahnede küp nasıl canlandırılır  
+- **Ana adımlar?** Ad alanlarını içe aktar, sahne oluştur, anahtar kareleri bağla, dosyayı kaydet  
+- **Lisans gerekli mi?** Öğrenme için ücretsiz deneme yeterli; üretim için ticari lisans gerekir  
+- **Desteklenen çıktı formatı?** FBX (ASCII 7500) ve Aspose.3D tarafından desteklenen diğer formatlar  
 
 ## Aspose.3D'de “küp nasıl canlandırılır” nedir?
-Bir küpü canlandırmak, zaman içinde anahtar kare verileri kullanarak dönüşüm özelliklerini (örneğin Translation, Rotation veya Scale) değiştirmek anlamına gelir. Aspose.3D, sahne düğümlerinde doğrudan **animasyon eğrileri** oluşturmak, **anahtar kareleri bağlamak** ve **3D özelliklerini canlandırmak** için temiz bir API sağlar.
+
+Bir küpü canlandırmak, zaman içinde anahtar kare verileri kullanarak dönüşüm özelliklerini (örneğin Çeviri, Rotasyon veya Ölçek) değiştirmek anlamına gelir. Aspose.3D, **animasyon eğrileri** oluşturmak, **anahtar kareleri bağlamak** ve **3D özelliklerini canlandırmak** doğrudan sahne düğümlerinde sağlayan temiz bir API sunar.
 
 ## Neden Aspose.3D ile bir küp canlandırılır?
-- **Tam .NET entegrasyonu** – .NET Framework, .NET Core ve .NET 5/6 ile çalışır.  
-- **Harici bağımlılık yok** – basit animasyonlar için Unity veya diğer motorlara ihtiyaç yok.  
-- **Dışa aktarma esnekliği** – canlandırılmış sahneler, sonraki işlem hatları için FBX, OBJ, GLTF vb. formatlarda kaydedilebilir.
+
+- **Full .NET integration** – .NET Framework, .NET Core ve .NET 5/6 ile çalışır.  
+- **No external dependencies** – basit animasyonlar için Unity veya diğer motorlara ihtiyaç yoktur.  
+- **Export flexibility** – canlandırılmış sahneler FBX, OBJ, GLTF vb. formatlarda kaydedilebilir, sonraki işlem hatları için.  
 
 ## Önkoşullar
 
@@ -42,9 +44,9 @@ Bu heyecan verici yolculuğa başlamadan önce, aşağıdaki önkoşulların yer
 - Aspose.3D for .NET: Kütüphanenin kurulu olduğundan emin olun. [Aspose.3D web sitesinden](https://releases.aspose.com/3d/net/) indirebilirsiniz.  
 - C# Bilgisi: C# programlama diline aşina olmak, örnekleri anlamak ve uygulamak için gereklidir.  
 - Entegre Geliştirme Ortamı (IDE): Örneklerle birlikte kodlamak için Visual Studio gibi tercih ettiğiniz IDE'yi kullanın.  
-- Temel 3D Sahne Kavramları: Temel 3D sahne kavramlarına hakim olmak öğrenme sürecinizi kolaylaştıracaktır.
+- Temel 3D Sahne Kavramları: Temel 3D sahne kavramlarına hakim olmak öğrenme yolculuğunuzu kolaylaştıracaktır.  
 
-## Ad Alanlarını İçe Aktarma
+## Ad Alanlarını İçe Aktarın
 
 C# kodunuzda, Aspose.3D için gerekli ad alanlarını içe aktardığınızdan emin olun. İşte gereken set:
 
@@ -59,47 +61,47 @@ using Aspose.ThreeD.Utilities;
 using Aspose._3D.Examples.CSharp.Geometry_Hierarchy;
 ```
 
-## Adım 1: Sahne Nesnesini Başlatma
+## Adım 1: Sahne Nesnesini Başlatın
 
-Düğüm ve animasyonlarımızın hepsini tutacak boş bir sahne oluşturun.
+Düğüm ve animasyonlarımızı tutacak boş bir sahne oluşturun.
 
 ```csharp
 Scene scene = new Scene();
 ```
 
-## Adım 2: Polygon Builder Kullanarak Mesh Oluşturma
+## Adım 2: Polygon Builder Kullanarak Mesh Oluşturun
 
-Yardımcı yöntem `Common.CreateMeshUsingPolygonBuilder()` kullanarak basit bir küp mesh'i oluşturuyoruz.
+`Common.CreateMeshUsingPolygonBuilder()` yardımcı yöntemi kullanarak basit bir küp mesh'i oluşturuyoruz.
 
 ```csharp
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
 ```
 
-## Adım 3: Küp Düğümleri Oluşturma
+## Adım 3: Küp Düğümlerini Oluşturun
 
-Küp mesh'ini sahneye kök düğümün bir alt düğümü olarak ekleyin. **cube1** düğüm adı, daha sonra anahtar kareleri bağladığımızda kullanılacak.
+Küp mesh'ini sahneye kök düğümün bir çocuğu olarak ekleyin. **cube1** düğüm adı, anahtar kareleri bağladığımızda daha sonra kullanılacak.
 
 ```csharp
 Node cube1 = scene.RootNode.CreateChildNode("cube1", mesh);
 ```
 
-## Adım 4: Translation Özelliğini Bulma
+## Adım 4: Çeviri Özelliğini Bulun
 
-Küpün konumunu canlandırmak için, düğümün dönüşümündeki **Translation** özelliğini bulmamız gerekir.
+Küpün konumunu canlandırmak için, düğümün dönüşümündeki **Translation** (Çeviri) özelliğini bulmamız gerekir.
 
 ```csharp
 Property translation = cube1.Transform.FindProperty("Translation");
 ```
 
-## Adım 5: Bind Point Oluşturma
+## Adım 5: Bir Bind Noktası Oluşturun
 
-`BindPoint`, bir sahne özelliğini animasyon eğrisine bağlar. Burada translation özelliğini bağlıyoruz.
+`BindPoint` bir sahne özelliğini animasyon eğrisine bağlar. Burada çeviri (Translation) özelliğini bağlıyoruz.
 
 ```csharp
 BindPoint bindPoint = new BindPoint(scene, translation);
 ```
 
-## Adım 6: X Bileşeninde Animasyon Eğrisi Bağlama
+## Adım 6: X Bileşeninde Animasyon Eğrisini Bağlayın
 
 Şimdi **X** ekseni için bir animasyon eğrisi oluşturuyoruz. Bu, **animasyon eğrisi oluşturma** adımını gösterir ve **anahtar kareleri bağlamayı** gösterir.
 
@@ -112,7 +114,7 @@ bindPoint.BindKeyframeSequence("X", new KeyframeSequence()
 });
 ```
 
-## Adım 7: Z Bileşeninde Animasyon Eğrisi Bağlama
+## Adım 7: Z Bileşeninde Animasyon Eğrisini Bağlayın
 
 Benzer şekilde, küpe daha dinamik bir hareket yolu vermek için **Z** eksenini canlandırıyoruz.
 
@@ -125,22 +127,26 @@ bindPoint.BindKeyframeSequence("Z", new KeyframeSequence()
 });
 ```
 
-## Adım 8: 3D Sahneyi Kaydetme
+## Adım 8: 3D Sahneyi Kaydedin
 
-Canlandırılmış sahneyi bir FBX dosyasına dışa aktarın. `FBX7500ASCII` formatı 3D araçları tarafından geniş çapta desteklenir.
+Canlandırılmış sahneyi bir FBX dosyasına dışa aktarın. `FBX7500ASCII` formatı 3D araçları tarafından yaygın olarak desteklenir.
 
 ```csharp
 string output = "Your Output Directory" + "PropertyToDocument.fbx";
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-## Adım 9: Başarı Mesajını Görüntüleme
+## Adım 9: Başarı Mesajını Göster
 
 Kullanıcıya animasyonun başarıyla eklendiğine dair geri bildirim verin.
 
 ```csharp
 Console.WriteLine("\nAnimation property added successfully to document.\nFile saved at " + output);
 ```
+
+## Canlandırılmış Sahneyi FBX'e Dışa Aktarın
+
+Bir küpü canlandırdıktan sonra en yaygın görevlerden biri, diğer 3D uygulamaları tarafından kullanılabilmesi için **canlandırılmış sahneyi FBX olarak dışa aktarmaktır**. Yukarıdaki kod zaten sahneyi FBX7500ASCII formatında kaydeder; bu, anahtar kare verilerini korur ve Autodesk Maya, Blender ve Unity gibi araçlarla sorunsuz çalışır. Oluşturulan `.fbx` dosyasını açtığınızda, küpün X ve Z eksenlerinde anahtar kare dizileriyle tam olarak tanımlandığı gibi hareket ettiğini görmelisiniz.
 
 ## Yaygın Sorunlar ve Çözümler
 
@@ -152,42 +158,42 @@ Console.WriteLine("\nAnimation property added successfully to document.\nFile sa
 
 ## Sıkça Sorulan Sorular
 
-### Q1: Aspose.3D belgelerini nerede bulabilirim?
-A1: Belgelere [buradan](https://reference.aspose.com/3d/net/) ulaşabilirsiniz.
+### S1: Aspose.3D belgelerini nereden bulabilirim?
+A1: Belgeler [burada](https://reference.aspose.com/3d/net/) mevcuttur.
 
-### Q2: Aspose.3D for .NET'i nasıl indirebilirim?
-A2: İndirmeyi [sürüm sayfasından](https://releases.aspose.com/3d/net/) yapabilirsiniz.
+### S2: Aspose.3D for .NET'i nasıl indirebilirim?
+A2: [sürüm sayfasından](https://releases.aspose.com/3d/net/) indirebilirsiniz.
 
-### Q3: Ücretsiz deneme mevcut mu?
+### S3: Ücretsiz deneme mevcut mu?
 A3: Evet, ücretsiz denemeyi [buradan](https://releases.aspose.com/) alabilirsiniz.
 
-### Q4: Aspose.3D için destek nereden alınır?
+### S4: Aspose.3D için destek nereden alabilirim?
 A4: Destek için [Aspose.3D forumunu](https://forum.aspose.com/c/3d/18) ziyaret edin.
 
-### Q5: Geçici bir lisans alabilir miyim?
-A5: Evet, geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
+### S5: Geçici bir lisans alabilir miyim?
+A5: Evet, geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
 
-## Ek FAQ (AI‑Optimizeli)
+## Ek SSS (AI‑Optimizeli)
 
-**S: Rotasyon veya ölçek gibi diğer özellikleri canlandırabilir miyim?**  
-C: Kesinlikle. Aynı şekilde `cube1.Transform.FindProperty("Rotation")` veya `"Scale"` kullanıp anahtar kare dizilerini bağlayabilirsiniz.
+**S: Rotasyon veya ölçek gibi diğer özellikleri de canlandırabilir miyim?**  
+A: Kesinlikle. `cube1.Transform.FindProperty("Rotation")` ya da `"Scale"` kullanın ve aynı şekilde anahtar kare dizilerini bağlayın.
 
-**S: Aspose.3D Bezier ve Linear dışındaki anahtar kare enterpolasyon tiplerini destekliyor mu?**  
-C: Evet, daha fazla kontrol için `Interpolation.Step` ve `Interpolation.Cubic` da desteklenir.
+**S: Aspose.3D Bezier ve Linear dışındaki anahtar kare interpolasyon tiplerini destekliyor mu?**  
+A: Evet, daha fazla kontrol için `Interpolation.Step` ve `Interpolation.Cubic` tiplerini de destekler.
 
 **S: Dışa aktarmadan önce animasyonu nasıl ön izleyebilirim?**  
-C: Aspose.3D API'si basit bir görüntüleyici sunar; alternatif olarak, dışa aktarılan FBX'i Autodesk FBX Review gibi bir 3D görüntüleyicide açabilirsiniz.
+A: Aspose.3D API'sinde basit bir görüntüleyici sağlar; alternatif olarak, dışa aktarılan FBX'i Autodesk FBX Review gibi bir 3D görüntüleyicide yükleyebilirsiniz.
 
-**S: Birden fazla küpü aynı anda canlandırmak mümkün mü?**  
-C: Her küp için ayrı düğümler oluşturun, ilgili özelliklerini alın ve bağımsız anahtar kare dizilerini bağlayın.
+**S: Aynı anda birden fazla küpü canlandırmak mümkün mü?**  
+A: Her küp için ayrı düğümler oluşturun, ilgili özelliklerini alın ve bağımsız anahtar kare dizilerini bağlayın.
 
 ## Sonuç
 
-Tebrikler! Aspose.3D for .NET kullanarak bir 3D sahnede **küp nasıl canlandırılır** konusunu yeni öğrendiniz. Artık **animasyon eğrileri oluşturma**, **anahtar kareleri bağlama** ve **3D özelliklerini canlandırma** konusunda bilginiz var ve statik geometrileri hayata geçirebiliyorsunuz. Rotasyonlar, ölçeklendirme veya hatta morf hedefleriyle denemeler yaparak animasyon araç setinizi genişletebilirsiniz.
+Tebrikler! Aspose.3D for .NET kullanarak bir 3D sahnede **küp nasıl canlandırılır** konusunu yeni öğrendiniz. Artık **animasyon eğrileri oluşturmayı**, **anahtar kareleri bağlamayı** ve **canlandırılmış sahneyi FBX olarak dışa aktarmayı** biliyorsunuz, böylece statik geometrileri hayata geçirebilirsiniz. Rotasyonlar, ölçeklendirme veya hatta morf hedefleriyle denemeler yaparak animasyon araç setinizi genişletebilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2026-01-14  
+**Son Güncelleme:** 2026-03-28  
 **Test Edilen Versiyon:** Aspose.3D 24.11 for .NET  
 **Yazar:** Aspose  
 
