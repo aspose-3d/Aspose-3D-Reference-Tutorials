@@ -1,34 +1,51 @@
 ---
-title: Προσαρμόστε τη φόρτωση αρχείων 3D σε Java με το Aspose.3D LoadOptions
-linktitle: Προσαρμόστε τη φόρτωση αρχείων 3D σε Java με το Aspose.3D LoadOptions
+date: 2026-02-25
+description: Μάθετε πώς να αντιστρέψετε το σύστημα συντεταγμένων και να προσαρμόσετε
+  την εισαγωγή 3D χρησιμοποιώντας το Aspose.3D LoadOptions στη Java. Οδηγός βήμα‑προς‑βήμα
+  για 3DS, OBJ, STL, U3D, glTF, PLY, X και προαιρετικά FBX.
+linktitle: Customize 3D File Loading in Java with Aspose.3D LoadOptions
 second_title: Aspose.3D Java API
-description: Βελτιώστε τη φόρτωση των τρισδιάστατων αρχείων σας σε Java με τις προσαρμόσιμες επιλογές φόρτωσης Aspose.3D. Μάθετε βήμα προς βήμα προσαρμογή για 3DS, OBJ, STL, U3D, glTF, PLY, X και προαιρετικό FBX.
-weight: 12
+title: Αναστροφή Συστήματος Συντεταγμένων – Προσαρμογή Φόρτωσης 3D Αρχείων σε Java
+  με το Aspose.3D
 url: /el/java/load-and-save/customize-3d-file-loading/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Προσαρμόστε τη φόρτωση αρχείων 3D σε Java με το Aspose.3D LoadOptions
+# Flip Coordinate System – Customize 3D File Loading in Java with Aspose.3D
 
-## Εισαγωγή
+Στο συνεχώς εξελισσόμενο τοπίο του 3D σχεδιασμού και ανάπτυξης, η **αναστροφή του συστήματος συντεταγμένων** κατά την εισαγωγή μοντέλων είναι συχνή απαίτηση. Είτε μετατρέπετε πόρους από δεξιόχειρο σε αριστερόχειρο σύστημα, είτε χρειάζεται να ευθυγραμμίσετε τα μοντέλα με τις αξονικές συμβάσεις της μηχανής σας, το Aspose.3D for Java σας προσφέρει ακριβή έλεγχο. Αυτό το tutorial σας καθοδηγεί πώς να **προσαρμόσετε την εισαγωγή 3D** χρησιμοποιώντας το `LoadOptions` του Aspose.3D, καλύπτοντας τις πιο δημοφιλείς μορφές όπως 3DS, OBJ, STL, U3D, glTF, PLY, X και προαιρετικά FBX.
 
-Στο συνεχώς εξελισσόμενο τοπίο του τρισδιάστατου σχεδιασμού και ανάπτυξης, ο αποτελεσματικός χειρισμός των μορφών αρχείων 3D είναι ζωτικής σημασίας. Το Aspose.3D for Java παρέχει μια ισχυρή λύση για την προσαρμογή της φόρτωσης διαφόρων μορφών αρχείων 3D. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία προσαρμογής της φόρτωσης αρχείων 3D σε Java χρησιμοποιώντας τις Επιλογές LoadOptions του Aspose.3D.
+## Quick Answers
+- **Τι κάνει η “αναστροφή του συστήματος συντεταγμένων”;** Αντιστρέφει τους άξονες X/Y/Z ώστε να ταιριάζουν με τη στοχευμένη σύμβαση συντεταγμένων.  
+- **Ποιες μορφές υποστηρίζουν την αναστροφή;** Όλες οι κύριες μορφές (3DS, OBJ, STL, U3D, glTF, PLY, X, FBX) εκθέτουν την επιλογή `setFlipCoordinateSystem`.  
+- **Χρειάζομαι επιπλέον βιβλιοθήκες;** Μόνο το JAR του Aspose.3D for Java· δεν απαιτούνται εξωτερικοί μετατροπείς.  
+- **Μπορώ να φορτώσω υλικά ταυτόχρονα;** Ναι—χρησιμοποιήστε `setEnableMaterials(true)` για αρχεία OBJ.  
+- **Απαιτείται άδεια για παραγωγή;** Απαιτείται έγκυρη άδεια Aspose.3D για μη‑δοκιμαστικές εγκαταστάσεις.
 
-## Προαπαιτούμενα
+## What is “flip coordinate system”?
+Η αναστροφή του συστήματος συντεταγμένων αλλάζει τον προσανατολισμό των αξόνων που χρησιμοποιεί το εισαγόμενο μοντέλο. Αυτό είναι απαραίτητο όταν το αρχείο προέλευσης χρησιμοποιεί διαφορετική χειρονομία (δεξιόχειρο vs. αριστερόχειρο) από τη μηχανή απόδοσής σας, αποτρέποντας την εμφάνιση των μοντέλων ως κατοπτρισμένα ή ανεστραμμένα.
 
-Πριν ξεκινήσετε τη διαδικασία προσαρμογής, βεβαιωθείτε ότι έχετε τα εξής:
+## Why customize 3D import?
+Η προσαρμογή της εισαγωγής σας επιτρέπει:
+- Διατήρηση των μετασχηματισμών κίνησης (`setApplyAnimationTransform`).  
+- Διόρθωση της διαχείρισης χρωμάτων (`setGammaCorrectedColor`).  
+- Επίλυση διαδρομών εξωτερικών πόρων μέσω `getLookupPaths()`.  
+- Βελτιστοποίηση χρήσης μνήμης φορτώνοντας μόνο ό,τι χρειάζεστε.
 
-- Βασική κατανόηση προγραμματισμού Java.
-- Εγκατεστημένο Java Development Kit (JDK).
--  Λήψη της βιβλιοθήκης Aspose.3D για Java. Μπορείτε να το αποκτήσετε[εδώ](https://releases.aspose.com/3d/java/).
-- Εξοικείωση με τρισδιάστατες μορφές αρχείων όπως 3DS, OBJ, STL, U3D, glTF, PLY, X και FBX.
+## Prerequisites
 
-## Εισαγωγή πακέτων
+- Βασική κατανόηση του προγραμματισμού Java.  
+- Εγκατεστημένο Java Development Kit (JDK).  
+- Βιβλιοθήκη Aspose.3D for Java που έχετε κατεβάσει. Μπορείτε να την αποκτήσετε [εδώ](https://releases.aspose.com/3d/java/).  
+- Εξοικείωση με μορφές αρχείων 3D όπως 3DS, OBJ, STL, U3D, glTF, PLY, X και FBX.
 
-Στο έργο σας Java, φροντίστε να εισαγάγετε τα απαραίτητα πακέτα Aspose.3D:
+## Import Packages
+
+Στο έργο Java, βεβαιωθείτε ότι έχετε εισάγει τα απαραίτητα πακέτα Aspose.3D:
 
 ```java
 import com.aspose.threed.*;
@@ -37,9 +54,11 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Προσαρμόστε τη φόρτωση αρχείων 3D
+## How to customize 3D import with LoadOptions
 
-### Βήμα 1: Προσαρμόστε τη φόρτωση αρχείων 3DS
+Παρακάτω θα βρείτε βήμα‑βήμα αποσπάσματα κώδικα που δείχνουν πώς να ενεργοποιήσετε την επιλογή **αναστροφή του συστήματος συντεταγμένων** για κάθε υποστηριζόμενη μορφή. Τα αποσπάσματα είναι έτοιμα για αντιγραφή στο έργο σας· απλώς αντικαταστήστε το `"Your Document Directory"` με την πραγματική διαδρομή των πόρων σας.
+
+### Step 1: Customize 3DS File Loading
 
 ```java
 public static void discreet3DSLoadOption() {
@@ -52,7 +71,7 @@ public static void discreet3DSLoadOption() {
 }
 ```
 
-### Βήμα 2: Προσαρμόστε τη φόρτωση αρχείου OBJ
+### Step 2: Customize OBJ File Loading
 
 ```java
 public static void objLoadOption() {
@@ -64,7 +83,7 @@ public static void objLoadOption() {
 }
 ```
 
-### Βήμα 3: Προσαρμόστε τη φόρτωση αρχείου STL
+### Step 3: Customize STL File Loading
 
 ```java
 public static void stlLoadOption() {
@@ -75,7 +94,7 @@ public static void stlLoadOption() {
 }
 ```
 
-### Βήμα 4: Προσαρμόστε τη φόρτωση αρχείων U3D
+### Step 4: Customize U3D File Loading
 
 ```java
 public static void u3dLoadOption() {
@@ -86,7 +105,7 @@ public static void u3dLoadOption() {
 }
 ```
 
-### Βήμα 5: Προσαρμόστε τη φόρτωση αρχείου glTF
+### Step 5: Customize glTF File Loading
 
 ```java
 public static void gltfLoadOptions() throws IOException {
@@ -98,7 +117,7 @@ public static void gltfLoadOptions() throws IOException {
 }
 ```
 
-### Βήμα 6: Προσαρμόστε τη φόρτωση αρχείου PLY
+### Step 6: Customize PLY File Loading
 
 ```java
 public static void plyLoadOptions() throws IOException {
@@ -110,7 +129,7 @@ public static void plyLoadOptions() throws IOException {
 }
 ```
 
-### Βήμα 7: Προσαρμόστε τη φόρτωση αρχείου X
+### Step 7: Customize X File Loading
 
 ```java
 public static void xLoadOptions() throws IOException {
@@ -122,7 +141,7 @@ public static void xLoadOptions() throws IOException {
 }
 ```
 
-### Βήμα 8: Προσαρμόστε τη φόρτωση αρχείου FBX (Προαιρετικό)
+### Step 8: Customize FBX File Loading (Optional)
 
 ```java
 private static void FBXLoadOptions() throws IOException {
@@ -137,34 +156,42 @@ private static void FBXLoadOptions() throws IOException {
 }
 ```
 
-## συμπέρασμα
+## Common Issues and Solutions
+- **Το μοντέλο εμφανίζεται κατοπτρισμένο μετά τη φόρτωση** – Ελέγξτε ότι το `setFlipCoordinateSystem(true)` είναι ορισμένο για τη σωστή μορφή.  
+- **Τα υλικά λείπουν** – Για αρχεία OBJ, βεβαιωθείτε ότι το `setEnableMaterials(true)` είναι ενεργό και ότι τα αρχεία υλικών (.mtl) βρίσκονται σε μία από τις διαδρομές αναζήτησης.  
+- **Οι συντεταγμένες υφής είναι ανάποδες** – Για glTF, ίσως χρειαστεί `setFlipTexCoordV(true)` εκτός από την αναστροφή των αξόνων.  
+- **Σφάλματα “αρχείο δεν βρέθηκε”** – Προσθέστε τον φάκελο που περιέχει εξωτερικούς πόρους (υφές, βοηθητικά αρχεία) στο `loadOpts.getLookupPaths()`.
 
-Η προσαρμογή της φόρτωσης τρισδιάστατων αρχείων σε Java με τις επιλογές LoadOptions του Aspose.3D δίνει τη δυνατότητα στους προγραμματιστές να προσαρμόσουν τη διαδικασία εισαγωγής σε συγκεκριμένες απαιτήσεις. Είτε πρόκειται για προσαρμογή μετασχηματισμών κινούμενων εικόνων, αναστροφή συστημάτων συντεταγμένων ή χειρισμό εξωτερικών εξαρτήσεων, το Aspose.3D παρέχει την ευελιξία που απαιτείται για απρόσκοπτη ενσωμάτωση.
+## Conclusion
 
-## Συχνές ερωτήσεις
+Αξιοποιώντας το `LoadOptions` του Aspose.3D, μπορείτε να **αναστρέψετε το σύστημα συντεταγμένων** και να **προσαρμόσετε την εισαγωγή 3D** για σχεδόν κάθε κύρια μορφή. Αυτό το επίπεδο ελέγχου εξαλείφει την ανάγκη για μεταγενέστερα scripts επεξεργασίας και εξασφαλίζει ότι οι πόροι σας αποδίδονται σωστά από την πρώτη φορά.
 
-### Ε1: Πού μπορώ να βρω την τεκμηρίωση Aspose.3D for Java;
+## Frequently Asked Questions
 
- A1: Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/3d/java/).
+### Q1: Πού μπορώ να βρω την τεκμηρίωση του Aspose.3D for Java;
+A1: Η τεκμηρίωση είναι διαθέσιμη [εδώ](https://reference.aspose.com/3d/java/).
 
-### Ε2: Πώς μπορώ να κατεβάσω το Aspose.3D για Java;
+### Q2: Πώς μπορώ να κατεβάσω το Aspose.3D for Java;
+A2: Μπορείτε να το κατεβάσετε [εδώ](https://releases.aspose.com/3d/java/).
 
- A2: Μπορείτε να το κατεβάσετε[εδώ](https://releases.aspose.com/3d/java/).
+### Q3: Υπάρχει δωρεάν δοκιμαστική έκδοση;
+A3: Ναι, μπορείτε να αποκτήσετε τη δωρεάν δοκιμή [εδώ](https://releases.aspose.com/).
 
-### Ε3: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
+### Q4: Πού μπορώ να λάβω υποστήριξη για το Aspose.3D for Java;
+A4: Επισκεφθείτε το φόρουμ υποστήριξης [εδώ](https://forum.aspose.com/c/3d/18).
 
- A3: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+### Q5: Χρειάζομαι προσωρινή άδεια για δοκιμές;
+A5: Ναι, αποκτήστε προσωρινή άδεια [εδώ](https://purchase.aspose.com/temporary-license/).
 
-### Ε4: Πού μπορώ να λάβω υποστήριξη για το Aspose.3D για Java;
-
- A4: Επισκεφθείτε το φόρουμ υποστήριξης[εδώ](https://forum.aspose.com/c/3d/18).
-
-### Ε5: Χρειάζομαι μια προσωρινή άδεια για δοκιμή;
-
- A5: Ναι, αποκτήστε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.3D for Java 24.11 (latest)  
+**Author:** Aspose

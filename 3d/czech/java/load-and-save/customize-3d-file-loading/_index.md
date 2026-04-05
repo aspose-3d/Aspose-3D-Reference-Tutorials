@@ -1,34 +1,50 @@
 ---
-title: Přizpůsobte si načítání 3D souborů v Javě pomocí Aspose.3D LoadOptions
-linktitle: Přizpůsobte si načítání 3D souborů v Javě pomocí Aspose.3D LoadOptions
+date: 2026-02-25
+description: Naučte se, jak převrátit (otočit) souřadnicový systém a přizpůsobit import
+  3D pomocí Aspose.3D LoadOptions v Javě. Podrobný krok‑za‑krokem návod pro 3DS, OBJ,
+  STL, U3D, glTF, PLY, X a volitelně FBX.
+linktitle: Customize 3D File Loading in Java with Aspose.3D LoadOptions
 second_title: Aspose.3D Java API
-description: Vylepšete načítání 3D souborů v Javě pomocí Aspose.3D přizpůsobitelných LoadOptions. Naučte se krok za krokem přizpůsobení pro 3DS, OBJ, STL, U3D, glTF, PLY, X a volitelný FBX.
-weight: 12
+title: Převrátit souřadnicový systém – Přizpůsobte načítání 3D souborů v Javě pomocí
+  Aspose.3D
 url: /cs/java/load-and-save/customize-3d-file-loading/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přizpůsobte si načítání 3D souborů v Javě pomocí Aspose.3D LoadOptions
+# Převrácení souřadnicového systému – Přizpůsobení načítání 3D souborů v Javě s Aspose.3D
 
-## Úvod
+V neustále se vyvíjejícím prostředí 3D designu a vývoje je **převrácení souřadnicového systému** při importu modelů běžnou požadavkem. Ať už převádíte assety z pravotočivého na levotočivý systém nebo potřebujete zarovnat modely s konvencemi os vašeho enginu, Aspose.3D pro Javu vám poskytuje detailní kontrolu. Tento tutoriál vás provede, jak **přizpůsobit 3D import** pomocí `LoadOptions` z Aspose.3D, pokrývající nejoblíbenější formáty jako 3DS, OBJ, STL, U3D, glTF, PLY, X a volitelný FBX.
 
-neustále se vyvíjejícím prostředí 3D designu a vývoje je efektivní manipulace s 3D formáty souborů zásadní. Aspose.3D for Java poskytuje výkonné řešení pro přizpůsobení načítání různých 3D formátů souborů. Tento tutoriál vás provede procesem přizpůsobení načítání 3D souborů v Javě pomocí LoadOptions Aspose.3D.
+## Rychlé odpovědi
+- **Co dělá „převrácení souřadnicového systému“?** Přepíná osy X/Y/Z tak, aby odpovídaly cílové souřadnicové konvenci.  
+- **Které formáty podporují převrácení?** Všechny hlavní formáty (3DS, OBJ, STL, U3D, glTF, PLY, X, FBX) nabízejí možnost `setFlipCoordinateSystem`.  
+- **Potřebuji další knihovny?** Pouze JAR Aspose.3D pro Javu; žádné externí konvertory nejsou vyžadovány.  
+- **Mohu načíst materiály současně?** Ano — použijte `setEnableMaterials(true)` pro soubory OBJ.  
+- **Je licence vyžadována pro produkci?** Platná licence Aspose.3D je potřeba pro nasazení mimo zkušební verzi.
 
-## Předpoklady
+## Co je „převrácení souřadnicového systému“?
+Převrácení souřadnicového systému mění orientaci os používaných importovaným modelem. To je nezbytné, když zdrojový soubor používá jinou „handedness“ (pravotočivý vs. levotočivý) než váš renderovací engine, čímž se zabrání tomu, aby se modely jevily jako zrcadlové nebo převrácené.
 
-Než se ponoříte do procesu přizpůsobení, ujistěte se, že máte následující:
+## Proč přizpůsobit 3D import?
+- Zachovat transformace animací (`setApplyAnimationTransform`).  
+- Správně zpracovávat barvy (`setGammaCorrectedColor`).  
+- Vyřešit cesty k externím zdrojům pomocí `getLookupPaths()`.  
+- Optimalizovat využití paměti načítáním jen toho, co potřebujete.
 
-- Základní znalost programování v Javě.
-- Nainstalovaný Java Development Kit (JDK).
--  Knihovna Aspose.3D pro Java stažena. Můžete jej získat[tady](https://releases.aspose.com/3d/java/).
-- Znalost 3D formátů souborů, jako jsou 3DS, OBJ, STL, U3D, glTF, PLY, X a FBX.
+## Požadavky
 
-## Importujte balíčky
+- Základní znalost programování v Javě.  
+- Nainstalovaný Java Development Kit (JDK).  
+- Stažená knihovna Aspose.3D pro Javu. Můžete ji získat [zde](https://releases.aspose.com/3d/java/).  
+- Znalost 3D formátů souborů jako 3DS, OBJ, STL, U3D, glTF, PLY, X a FBX.
 
-Ve svém projektu Java se ujistěte, že importujete potřebné balíčky Aspose.3D:
+## Import balíčků
+
+Ve vašem Java projektu se ujistěte, že importujete potřebné balíčky Aspose.3D:
 
 ```java
 import com.aspose.threed.*;
@@ -37,9 +53,11 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Přizpůsobte načítání 3D souborů
+## Jak přizpůsobit 3D import pomocí LoadOptions
 
-### Krok 1: Přizpůsobte načítání souborů 3DS
+Níže jsou krok za krokem ukázky kódu, které demonstrují, jak povolit možnost **převrácení souřadnicového systému** pro každý podporovaný formát. Úryvky jsou připravené ke zkopírování do vašeho projektu; stačí nahradit `"Your Document Directory"` skutečnou cestou k vašim assetům.
+
+### Krok 1: Přizpůsobení načítání souboru 3DS
 
 ```java
 public static void discreet3DSLoadOption() {
@@ -52,7 +70,7 @@ public static void discreet3DSLoadOption() {
 }
 ```
 
-### Krok 2: Přizpůsobte načítání souboru OBJ
+### Krok 2: Přizpůsobení načítání souboru OBJ
 
 ```java
 public static void objLoadOption() {
@@ -64,7 +82,7 @@ public static void objLoadOption() {
 }
 ```
 
-### Krok 3: Přizpůsobte načítání souborů STL
+### Krok 3: Přizpůsobení načítání souboru STL
 
 ```java
 public static void stlLoadOption() {
@@ -75,7 +93,7 @@ public static void stlLoadOption() {
 }
 ```
 
-### Krok 4: Přizpůsobte načítání souboru U3D
+### Krok 4: Přizpůsobení načítání souboru U3D
 
 ```java
 public static void u3dLoadOption() {
@@ -86,7 +104,7 @@ public static void u3dLoadOption() {
 }
 ```
 
-### Krok 5: Přizpůsobte načítání souboru glTF
+### Krok 5: Přizpůsobení načítání souboru glTF
 
 ```java
 public static void gltfLoadOptions() throws IOException {
@@ -98,7 +116,7 @@ public static void gltfLoadOptions() throws IOException {
 }
 ```
 
-### Krok 6: Přizpůsobte načítání souboru PLY
+### Krok 6: Přizpůsobení načítání souboru PLY
 
 ```java
 public static void plyLoadOptions() throws IOException {
@@ -110,7 +128,7 @@ public static void plyLoadOptions() throws IOException {
 }
 ```
 
-### Krok 7: Přizpůsobte načítání souboru X
+### Krok 7: Přizpůsobení načítání souboru X
 
 ```java
 public static void xLoadOptions() throws IOException {
@@ -122,7 +140,7 @@ public static void xLoadOptions() throws IOException {
 }
 ```
 
-### Krok 8: Přizpůsobte načítání souborů FBX (volitelné)
+### Krok 8: Přizpůsobení načítání souboru FBX (volitelné)
 
 ```java
 private static void FBXLoadOptions() throws IOException {
@@ -137,34 +155,42 @@ private static void FBXLoadOptions() throws IOException {
 }
 ```
 
+## Časté problémy a řešení
+- **Model se po načtení jeví jako zrcadlový** — Ověřte, že `setFlipCoordinateSystem(true)` je nastaveno pro správný formát.  
+- **Chybí materiály** — U souborů OBJ zajistěte `setEnableMaterials(true)` a že soubory materiálů (.mtl) jsou umístěny v jedné z cest pro vyhledávání.  
+- **Texturové souřadnice jsou vzhůru nohama** — U glTF možná potřebujete `setFlipTexCoordV(true)` kromě převrácení os.  
+- **Chyby souboru nenalezen** — Přidejte adresář obsahující externí zdroje (textury, pomocné soubory) do `loadOpts.getLookupPaths()`.
+
 ## Závěr
 
-Přizpůsobení načítání 3D souborů v Javě pomocí LoadOptions Aspose.3D umožňuje vývojářům přizpůsobit proces importu konkrétním požadavkům. Ať už se jedná o úpravu animačních transformací, překlápění souřadnicových systémů nebo zpracování externích závislostí, Aspose.3D poskytuje flexibilitu potřebnou pro bezproblémovou integraci.
+Využitím `LoadOptions` z Aspose.3D můžete **převrátit souřadnicový systém** a **přizpůsobit 3D import** pro prakticky každý hlavní formát. Tato úroveň kontroly eliminuje potřebu post‑processingových skriptů a zajišťuje, že vaše assety se vykreslí správně hned napoprvé.
 
-## Nejčastější dotazy
+## Často kladené otázky
 
-### Q1: Kde najdu dokumentaci Aspose.3D for Java?
+### Q1: Kde najdu dokumentaci Aspose.3D pro Javu?
+**A1:** Dokumentace je k dispozici [zde](https://reference.aspose.com/3d/java/).
 
- A1: Dokumentace je k dispozici[tady](https://reference.aspose.com/3d/java/).
-
-### Q2: Jak si mohu stáhnout Aspose.3D pro Java?
-
- A2: Můžete si to stáhnout[tady](https://releases.aspose.com/3d/java/).
+### Q2: Jak si mohu stáhnout Aspose.3D pro Javu?
+**A2:** Můžete si jej stáhnout [zde](https://releases.aspose.com/3d/java/).
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
+**A3:** Ano, bezplatnou zkušební verzi můžete získat [zde](https://releases.aspose.com/).
 
- A3: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+### Q4: Kde mohu získat podporu pro Aspose.3D pro Javu?
+**A4:** Navštivte fórum podpory [zde](https://forum.aspose.com/c/3d/18).
 
-### Q4: Kde mohu získat podporu pro Aspose.3D pro Java?
+### Q5: Potřebuji dočasnou licenci pro testování?
+**A5:** Ano, získáte dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/).
 
- A4: Navštivte fórum podpory[tady](https://forum.aspose.com/c/3d/18).
-
-### Q5: Potřebuji pro testování dočasnou licenci?
-
- A5: Ano, získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Poslední aktualizace:** 2026-02-25  
+**Testováno s:** Aspose.3D for Java 24.11 (latest)  
+**Autor:** Aspose

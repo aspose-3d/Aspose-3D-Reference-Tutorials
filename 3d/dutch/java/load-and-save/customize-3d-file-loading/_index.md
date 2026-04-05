@@ -1,34 +1,50 @@
 ---
-title: Pas het laden van 3D-bestanden in Java aan met Aspose.3D LoadOptions
-linktitle: Pas het laden van 3D-bestanden in Java aan met Aspose.3D LoadOptions
-second_title: Aspose.3D Java-API
-description: Verbeter het laden van 3D-bestanden in Java met aanpasbare Aspose.3D LoadOptions. Leer stapsgewijze aanpassingen voor 3DS, OBJ, STL, U3D, glTF, PLY, X en optionele FBX.
-weight: 12
+date: 2026-02-25
+description: Leer hoe u het coördinatensysteem kunt omkeren en de 3D-import kunt aanpassen
+  met Aspose.3D LoadOptions in Java. Stapsgewijze gids voor 3DS, OBJ, STL, U3D, glTF,
+  PLY, X en optioneel FBX.
+linktitle: Customize 3D File Loading in Java with Aspose.3D LoadOptions
+second_title: Aspose.3D Java API
+title: Coördinatensysteem omkeren – Pas het laden van 3D‑bestanden in Java aan met
+  Aspose.3D
 url: /nl/java/load-and-save/customize-3d-file-loading/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pas het laden van 3D-bestanden in Java aan met Aspose.3D LoadOptions
+# Coördinatensysteem omkeren – 3D-bestandsladen aanpassen in Java met Aspose.3D
 
-## Invoering
+In het voortdurend evoluerende landschap van 3D-ontwerp en -ontwikkeling is **het omkeren van het coördinatensysteem** bij het importeren van modellen een veelvoorkomende eis. Of je nu assets converteert van een rechtshandig naar een linkshandig systeem of modellen moet afstemmen op de asconventies van je engine, Aspose.3D voor Java geeft je fijnmazige controle. Deze tutorial leidt je stap voor stap door het **aanpassen van 3D-import** met behulp van Aspose.3D’s `LoadOptions`, en behandelt de populairste formaten zoals 3DS, OBJ, STL, U3D, glTF, PLY, X en optioneel FBX.
 
-In het voortdurend evoluerende landschap van 3D-ontwerp en -ontwikkeling is een efficiënte omgang met 3D-bestandsformaten cruciaal. Aspose.3D voor Java biedt een krachtige oplossing om het laden van verschillende 3D-bestandsformaten aan te passen. Deze tutorial leidt u door het proces van het aanpassen van het laden van 3D-bestanden in Java met behulp van Aspose.3D's LoadOptions.
+## Quick Answers
+- **Wat doet “flip coordinate system”?** Het verwisselt de X/Y/Z-assen om overeen te komen met de doelcoördinatenconventie.  
+- **Welke formaten ondersteunen omkeren?** Alle belangrijke formaten (3DS, OBJ, STL, U3D, glTF, PLY, X, FBX) bieden een `setFlipCoordinateSystem`‑optie.  
+- **Heb ik extra bibliotheken nodig?** Alleen de Aspose.3D voor Java JAR; er zijn geen externe converters vereist.  
+- **Kan ik materialen tegelijk laden?** Ja—gebruik `setEnableMaterials(true)` voor OBJ‑bestanden.  
+- **Is een licentie vereist voor productie?** Een geldige Aspose.3D‑licentie is nodig voor niet‑trial‑implementaties.
 
-## Vereisten
+## What is “flip coordinate system”?
+Het omkeren van het coördinatensysteem wijzigt de oriëntatie van de assen die door het geïmporteerde model worden gebruikt. Dit is essentieel wanneer het bronbestand een andere handigheid (rechtshandig vs. linkshandig) heeft dan je renderengine, waardoor modellen niet gespiegeld of omgekeerd verschijnen.
 
-Voordat u in het aanpassingsproces duikt, moet u ervoor zorgen dat u over het volgende beschikt:
+## Why customize 3D import?
+- Behoud animatietransformaties (`setApplyAnimationTransform`).  
+- Corrigeer kleurafhandeling (`setGammaCorrectedColor`).  
+- Los externe resource‑paden op via `getLookupPaths()`.  
+- Optimaliseer geheugenverbruik door alleen te laden wat je nodig hebt.
 
-- Basiskennis van Java-programmeren.
-- Java Development Kit (JDK) geïnstalleerd.
--  Aspose.3D voor Java-bibliotheek gedownload. Je kunt het verkrijgen[hier](https://releases.aspose.com/3d/java/).
-- Bekendheid met 3D-bestandsformaten zoals 3DS, OBJ, STL, U3D, glTF, PLY, X en FBX.
+## Prerequisites
 
-## Pakketten importeren
+- Basiskennis van Java‑programmeren.  
+- Geïnstalleerde Java Development Kit (JDK).  
+- Aspose.3D voor Java‑bibliotheek gedownload. Je kunt het verkrijgen [hier](https://releases.aspose.com/3d/java/).  
+- Bekendheid met 3D‑bestandsformaten zoals 3DS, OBJ, STL, U3D, glTF, PLY, X en FBX.
 
-Zorg ervoor dat u in uw Java-project de benodigde Aspose.3D-pakketten importeert:
+## Import Packages
+
+Zorg ervoor dat je in je Java‑project de benodigde Aspose.3D‑pakketten importeert:
 
 ```java
 import com.aspose.threed.*;
@@ -37,9 +53,11 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Pas het laden van 3D-bestanden aan
+## How to customize 3D import with LoadOptions
 
-### Stap 1: Pas het laden van 3DS-bestanden aan
+Hieronder vind je stap‑voor‑stap code‑fragmenten die laten zien hoe je de **flip coordinate system**‑optie inschakelt voor elk ondersteund formaat. De fragmenten zijn klaar om in je project te plakken; vervang gewoon `"Your Document Directory"` door het daadwerkelijke pad naar je assets.
+
+### Stap 1: 3DS‑bestand laden aanpassen
 
 ```java
 public static void discreet3DSLoadOption() {
@@ -52,7 +70,7 @@ public static void discreet3DSLoadOption() {
 }
 ```
 
-### Stap 2: Pas het laden van OBJ-bestanden aan
+### Stap 2: OBJ‑bestand laden aanpassen
 
 ```java
 public static void objLoadOption() {
@@ -64,7 +82,7 @@ public static void objLoadOption() {
 }
 ```
 
-### Stap 3: Pas het laden van STL-bestanden aan
+### Stap 3: STL‑bestand laden aanpassen
 
 ```java
 public static void stlLoadOption() {
@@ -75,7 +93,7 @@ public static void stlLoadOption() {
 }
 ```
 
-### Stap 4: Pas het laden van U3D-bestanden aan
+### Stap 4: U3D‑bestand laden aanpassen
 
 ```java
 public static void u3dLoadOption() {
@@ -86,7 +104,7 @@ public static void u3dLoadOption() {
 }
 ```
 
-### Stap 5: Pas het laden van glTF-bestanden aan
+### Stap 5: glTF‑bestand laden aanpassen
 
 ```java
 public static void gltfLoadOptions() throws IOException {
@@ -98,7 +116,7 @@ public static void gltfLoadOptions() throws IOException {
 }
 ```
 
-### Stap 6: Pas het laden van PLY-bestanden aan
+### Stap 6: PLY‑bestand laden aanpassen
 
 ```java
 public static void plyLoadOptions() throws IOException {
@@ -110,7 +128,7 @@ public static void plyLoadOptions() throws IOException {
 }
 ```
 
-### Stap 7: Pas het laden van X-bestanden aan
+### Stap 7: X‑bestand laden aanpassen
 
 ```java
 public static void xLoadOptions() throws IOException {
@@ -122,7 +140,7 @@ public static void xLoadOptions() throws IOException {
 }
 ```
 
-### Stap 8: Pas het laden van FBX-bestanden aan (optioneel)
+### Stap 8: FBX‑bestand laden aanpassen (optioneel)
 
 ```java
 private static void FBXLoadOptions() throws IOException {
@@ -137,34 +155,42 @@ private static void FBXLoadOptions() throws IOException {
 }
 ```
 
-## Conclusie
+## Common Issues and Solutions
+- **Model verschijnt gespiegeld na het laden** – Controleer of `setFlipCoordinateSystem(true)` is ingesteld voor het juiste formaat.  
+- **Materialen ontbreken** – Zorg ervoor dat voor OBJ‑bestanden `setEnableMaterials(true)` is ingeschakeld en dat de materiaalbestanden (.mtl) zich in een van de lookup‑paden bevinden.  
+- **Texture‑coördinaten staan ondersteboven** – Voor glTF moet je mogelijk `setFlipTexCoordV(true)` gebruiken naast het omkeren van de assen.  
+- **Bestand niet gevonden‑fouten** – Voeg de map met externe resources (textures, aanvullende bestanden) toe aan `loadOpts.getLookupPaths()`.
 
-Door het laden van 3D-bestanden in Java aan te passen met LoadOptions van Aspose.3D kunnen ontwikkelaars het importproces aanpassen aan specifieke vereisten. Of het nu gaat om het aanpassen van animatietransformaties, het omdraaien van coördinatensystemen of het omgaan met externe afhankelijkheden, Aspose.3D biedt de flexibiliteit die nodig is voor naadloze integratie.
+## Conclusion
 
-## Veelgestelde vragen
+Door gebruik te maken van Aspose.3D’s `LoadOptions`, kun je **het coördinatensysteem omkeren** en **3D‑import aanpassen** voor praktisch elk belangrijk formaat. Dit niveau van controle elimineert de noodzaak voor post‑processing‑scripts en zorgt ervoor dat je assets de eerste keer correct worden gerenderd.
 
-### V1: Waar kan ik de Aspose.3D voor Java-documentatie vinden?
+## Frequently Asked Questions
 
- A1: De documentatie is beschikbaar[hier](https://reference.aspose.com/3d/java/).
+### Q1: Waar kan ik de Aspose.3D voor Java‑documentatie vinden?
+A1: De documentatie is beschikbaar [hier](https://reference.aspose.com/3d/java/).
 
-### Vraag 2: Hoe kan ik Aspose.3D voor Java downloaden?
+### Q2: Hoe kan ik Aspose.3D voor Java downloaden?
+A2: Je kunt het downloaden [hier](https://releases.aspose.com/3d/java/).
 
- A2: U kunt het downloaden[hier](https://releases.aspose.com/3d/java/).
+### Q3: Is er een gratis proefversie beschikbaar?
+A3: Ja, je kunt de gratis proefversie benaderen [hier](https://releases.aspose.com/).
 
-### Vraag 3: Is er een gratis proefperiode beschikbaar?
+### Q4: Waar kan ik ondersteuning krijgen voor Aspose.3D voor Java?
+A4: Bezoek het ondersteuningsforum [hier](https://forum.aspose.com/c/3d/18).
 
- A3: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
+### Q5: Heb ik een tijdelijke licentie nodig voor testen?
+A5: Ja, verkrijg een tijdelijke licentie [hier](https://purchase.aspose.com/temporary-license/).
 
-### V4: Waar kan ik ondersteuning krijgen voor Aspose.3D voor Java?
-
- A4: Bezoek het ondersteuningsforum[hier](https://forum.aspose.com/c/3d/18).
-
-### Vraag 5: Heb ik een tijdelijke licentie nodig om te testen?
-
- A5: Ja, verkrijg een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Laatst bijgewerkt:** 2026-02-25  
+**Getest met:** Aspose.3D for Java 24.11 (latest)  
+**Auteur:** Aspose

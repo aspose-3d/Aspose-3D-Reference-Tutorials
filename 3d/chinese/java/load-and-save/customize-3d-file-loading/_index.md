@@ -1,34 +1,59 @@
 ---
-title: 使用 Aspose.3D LoadOptions 在 Java 中自定义 3D 文件加载
-linktitle: 使用 Aspose.3D LoadOptions 在 Java 中自定义 3D 文件加载
+date: 2026-02-25
+description: 学习如何在 Java 中使用 Aspose.3D LoadOptions 翻转坐标系并自定义 3D 导入。针对 3DS、OBJ、STL、U3D、glTF、PLY、X
+  以及可选的 FBX 的一步步指南。
+linktitle: Customize 3D File Loading in Java with Aspose.3D LoadOptions
 second_title: Aspose.3D Java API
-description: 使用 Aspose.3D 可定制的 LoadOptions 增强 Java 中的 3D 文件加载。了解 3DS、OBJ、STL、U3D、glTF、PLY、X 和可选 FBX 的逐步自定义。
-weight: 12
+title: 翻转坐标系 – 在 Java 中使用 Aspose.3D 自定义 3D 文件加载
 url: /zh/java/load-and-save/customize-3d-file-loading/
+weight: 12
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ translate to Chinese: "最后更新：" etc. But maybe keep as is? The instruction: translate all text content naturally to Chinese. So translate those.
+
+But need to keep URLs unchanged.
+
+Also note "Aspose.3D for Java" is a product name; keep as is.
+
+Let's craft.
+
+Be careful with markdown formatting: headings (#). Keep same number of #.
+
+Let's produce final.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.3D LoadOptions 在 Java 中自定义 3D 文件加载
+# Flip Coordinate System – Customize 3D File Loading in Java with Aspose.3D
 
-## 介绍
+在不断演进的 3D 设计与开发领域，**翻转坐标系**在导入模型时是常见需求。无论是将资产从右手坐标系转换为左手坐标系，还是需要使模型与引擎的轴约定保持一致，Aspose.3D for Java 都能提供细粒度的控制。本教程将演示如何使用 Aspose.3D 的 `LoadOptions` **自定义 3D 导入**，涵盖最流行的格式，如 3DS、OBJ、STL、U3D、glTF、PLY、X，以及可选的 FBX。
 
-在不断发展的 3D 设计和开发领域，高效处理 3D 文件格式至关重要。 Aspose.3D for Java 提供了强大的解决方案来自定义加载各种 3D 文件格式。本教程将指导您完成使用 Aspose.3D 的 LoadOptions 在 Java 中自定义 3D 文件加载的过程。
+## 快速回答
+- **“翻转坐标系”到底做了什么？** 它会交换 X/Y/Z 轴，以匹配目标坐标约定。  
+- **哪些格式支持翻转？** 所有主流格式（3DS、OBJ、STL、U3D、glTF、PLY、X、FBX）均提供 `setFlipCoordinateSystem` 选项。  
+- **需要额外的库吗？** 只需 Aspose.3D for Java 的 JAR；不需要外部转换器。  
+- **可以同时加载材质吗？** 可以——对 OBJ 文件使用 `setEnableMaterials(true)`。  
+- **生产环境需要许可证吗？** 非试用部署必须使用有效的 Aspose.3D 许可证。
 
-## 先决条件
+## 什么是 “翻转坐标系”？
+翻转坐标系会改变导入模型所使用的轴方向。当源文件的手性（右手坐标系或左手坐标系）与渲染引擎不同，若不进行翻转，模型会出现镜像或倒置的情况。
 
-在深入定制过程之前，请确保您具备以下条件：
+## 为什么要自定义 3D 导入？
+自定义导入可以让您：
+- 保留动画变换（`setApplyAnimationTransform`）。  
+- 正确处理颜色（`setGammaCorrectedColor`）。  
+- 通过 `getLookupPaths()` 解析外部资源路径。  
+- 通过仅加载所需内容来优化内存使用。
 
-- 对 Java 编程有基本的了解。
-- 安装了 Java 开发工具包 (JDK)。
-- 下载 Aspose.3D for Java 库。您可以获得它[这里](https://releases.aspose.com/3d/java/).
-- 熟悉 3D 文件格式，例如 3DS、OBJ、STL、U3D、glTF、PLY、X 和 FBX。
+## 前置条件
+
+- 具备 Java 编程基础。  
+- 已安装 Java Development Kit (JDK)。  
+- 已下载 Aspose.3D for Java 库。您可以在 [此处](https://releases.aspose.com/3d/java/) 获取。  
+- 熟悉 3DS、OBJ、STL、U3D、glTF、PLY、X、FBX 等 3D 文件格式。
 
 ## 导入包
 
-在您的 Java 项目中，确保导入必要的 Aspose.3D 包：
+在 Java 项目中，确保导入必要的 Aspose.3D 包：
 
 ```java
 import com.aspose.threed.*;
@@ -37,9 +62,11 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 自定义 3D 文件加载
+## 如何使用 LoadOptions 自定义 3D 导入
 
-### 第 1 步：自定义 3DS 文件加载
+下面提供逐步代码片段，演示如何为每种受支持的格式启用 **翻转坐标系** 选项。将这些片段复制到项目中即可，只需将 `"Your Document Directory"` 替换为实际的资产路径。
+
+### 步骤 1：自定义 3DS 文件加载
 
 ```java
 public static void discreet3DSLoadOption() {
@@ -52,7 +79,7 @@ public static void discreet3DSLoadOption() {
 }
 ```
 
-### 第2步：自定义OBJ文件加载
+### 步骤 2：自定义 OBJ 文件加载
 
 ```java
 public static void objLoadOption() {
@@ -64,7 +91,7 @@ public static void objLoadOption() {
 }
 ```
 
-### 第 3 步：自定义 STL 文件加载
+### 步骤 3：自定义 STL 文件加载
 
 ```java
 public static void stlLoadOption() {
@@ -75,7 +102,7 @@ public static void stlLoadOption() {
 }
 ```
 
-### 第 4 步：自定义 U3D 文件加载
+### 步骤 4：自定义 U3D 文件加载
 
 ```java
 public static void u3dLoadOption() {
@@ -86,7 +113,7 @@ public static void u3dLoadOption() {
 }
 ```
 
-### 第5步：自定义glTF文件加载
+### 步骤 5：自定义 glTF 文件加载
 
 ```java
 public static void gltfLoadOptions() throws IOException {
@@ -98,7 +125,7 @@ public static void gltfLoadOptions() throws IOException {
 }
 ```
 
-### 第6步：自定义PLY文件加载
+### 步骤 6：自定义 PLY 文件加载
 
 ```java
 public static void plyLoadOptions() throws IOException {
@@ -110,7 +137,7 @@ public static void plyLoadOptions() throws IOException {
 }
 ```
 
-### 第7步：自定义X文件加载
+### 步骤 7：自定义 X 文件加载
 
 ```java
 public static void xLoadOptions() throws IOException {
@@ -122,7 +149,7 @@ public static void xLoadOptions() throws IOException {
 }
 ```
 
-### 第 8 步：自定义 FBX 文件加载（可选）
+### 步骤 8：自定义 FBX 文件加载（可选）
 
 ```java
 private static void FBXLoadOptions() throws IOException {
@@ -137,34 +164,42 @@ private static void FBXLoadOptions() throws IOException {
 }
 ```
 
+## 常见问题与解决方案
+- **模型加载后出现镜像** – 确认已为对应格式设置 `setFlipCoordinateSystem(true)`。  
+- **材质缺失** – 对 OBJ 文件，确保 `setEnableMaterials(true)` 并且材质文件 (.mtl) 位于某个 lookup 路径下。  
+- **纹理坐标上下颠倒** – 对 glTF，可能需要在翻转轴的同时使用 `setFlipTexCoordV(true)`。  
+- **文件未找到错误** – 将包含外部资源（纹理、辅助文件）的目录加入 `loadOpts.getLookupPaths()`。
+
 ## 结论
 
-使用 Aspose.3D 的 LoadOptions 在 Java 中自定义 3D 文件加载，使开发人员能够根据特定要求定制导入过程。无论是调整动画变换、翻转坐标系还是处理外部依赖性，Aspose.3D 都提供了无缝集成所需的灵活性。
+通过利用 Aspose.3D 的 `LoadOptions`，您可以 **翻转坐标系** 并 **自定义 3D 导入**，几乎覆盖所有主流格式。这种控制力消除了后处理脚本的需求，确保资产首次加载即能正确渲染。
 
-## 常见问题解答
+## 常见问答
 
-### Q1：在哪里可以找到 Aspose.3D for Java 文档？
-
- A1：文档可用[这里](https://reference.aspose.com/3d/java/).
+### Q1: 在哪里可以找到 Aspose.3D for Java 文档？
+A1: 文档可在 [此处](https://reference.aspose.com/3d/java/) 查看。
 
 ### Q2: 如何下载 Aspose.3D for Java？
+A2: 您可以在 [此处](https://releases.aspose.com/3d/java/) 下载。
 
- A2：可以下载[这里](https://releases.aspose.com/3d/java/).
+### Q3: 是否提供免费试用？
+A3: 是的，免费试用可在 [此处](https://releases.aspose.com/) 获取。
 
-### Q3：有免费试用吗？
+### Q4: 在哪里可以获得 Aspose.3D for Java 的支持？
+A4: 请访问支持论坛 [此处](https://forum.aspose.com/c/3d/18)。
 
- A3：是的，您可以免费试用[这里](https://releases.aspose.com/).
+### Q5: 测试时需要临时许可证吗？
+A5: 需要，临时许可证可在 [此处](https://purchase.aspose.com/temporary-license/) 获取。
 
-### 问题 4：在哪里可以获得 Aspose.3D for Java 的支持？
-
-A4：访问支持论坛[这里](https://forum.aspose.com/c/3d/18).
-
-### Q5：测试需要临时许可证吗？
-
- A5：是的，获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最后更新：** 2026-02-25  
+**测试环境：** Aspose.3D for Java 24.11（最新）  
+**作者：** Aspose

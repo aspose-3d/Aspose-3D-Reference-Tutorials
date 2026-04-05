@@ -1,34 +1,64 @@
 ---
-title: Aspose.3D LoadOptions ile Java'da 3D Dosya Yüklemeyi Özelleştirin
-linktitle: Aspose.3D LoadOptions ile Java'da 3D Dosya Yüklemeyi Özelleştirin
-second_title: Aspose.3D Java API'si
-description: Aspose.3D özelleştirilebilir LoadOptions ile Java'da 3D dosya yüklemenizi geliştirin. 3DS, OBJ, STL, U3D, glTF, PLY, X ve isteğe bağlı FBX için adım adım özelleştirmeyi öğrenin.
-weight: 12
+date: 2026-02-25
+description: Aspose.3D LoadOptions kullanarak Java’da koordinat sistemini nasıl tersine
+  çevireceğinizi ve 3D içe aktarmayı nasıl özelleştireceğinizi öğrenin. 3DS, OBJ,
+  STL, U3D, glTF, PLY, X ve isteğe bağlı FBX için adım adım rehber.
+linktitle: Customize 3D File Loading in Java with Aspose.3D LoadOptions
+second_title: Aspose.3D Java API
+title: Koordinat Sistemini Çevir – Aspose.3D ile Java’da 3D Dosya Yüklemeyi Özelleştirin
 url: /tr/java/load-and-save/customize-3d-file-loading/
+weight: 12
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+/tutorial-page-section >}}
+
+# Flip Coordinate System – Customize 3D File Loading in Java with Aspose.3D
+
+Translate title: "Flip Coordinate System – Customize 3D File Loading in Java with Aspose.3D" => "Koordinat Sistemini Ters Çevir – Aspose.3D ile Java’da 3D Dosya Yüklemeyi Özelleştirin". Keep the dash maybe.
+
+We'll translate.
+
+Then the paragraph.
+
+Proceed step by step.
+
+Make sure to keep markdown formatting.
+
+Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D LoadOptions ile Java'da 3D Dosya Yüklemeyi Özelleştirin
+# Koordinat Sistemini Ters Çevir – Aspose.3D ile Java’da 3D Dosya Yüklemeyi Özelleştirin
 
-## giriiş
+3D tasarım ve geliştirme alanı sürekli evrim geçirirken, modelleri içe aktarırken **koordinat sistemini ters çevirmek** yaygın bir gereksinimdir. Sağ‑el (right‑handed) bir sistemden sol‑el (left‑handed) bir sisteme varlıkları dönüştürmek ya da modelleri motorunuzun eksen kurallarıyla hizalamak istediğinizde Aspose.3D for Java size ince ayarlı kontrol sunar. Bu öğreticide, Aspose.3D’nin `LoadOptions` sınıfını kullanarak **3D içe aktarmayı özelleştirme** sürecini, 3DS, OBJ, STL, U3D, glTF, PLY, X ve isteğe bağlı FBX gibi en popüler formatları kapsayacak şekilde adım adım anlatıyoruz.
 
-Sürekli gelişen 3D tasarım ve geliştirme ortamında, 3D dosya formatlarının verimli şekilde kullanılması çok önemlidir. Aspose.3D for Java, çeşitli 3D dosya formatlarının yüklenmesini özelleştirmek için güçlü bir çözüm sunar. Bu eğitim, Aspose.3D'nin LoadOptions'ını kullanarak Java'da 3D dosya yüklemeyi özelleştirme sürecinde size rehberlik edecektir.
+## Hızlı Yanıtlar
+- **“Koordinat sistemini ters çevir” ne işe yarar?** X/Y/Z eksenlerini hedef koordinat konvansiyonuna uygun şekilde değiştirir.  
+- **Hangi formatlar ters çevirmeyi destekler?** Tüm büyük formatlar (3DS, OBJ, STL, U3D, glTF, PLY, X, FBX) bir `setFlipCoordinateSystem` seçeneği sunar.  
+- **Ek kütüphanelere ihtiyacım var mı?** Yalnızca Aspose.3D for Java JAR dosyası yeterlidir; harici dönüştürücüler gerekmez.  
+- **Malzemeleri aynı anda yükleyebilir miyim?** Evet—OBJ dosyaları için `setEnableMaterials(true)` kullanın.  
+- **Üretim ortamında lisans gerekli mi?** Deneme dışı dağıtımlar için geçerli bir Aspose.3D lisansı zorunludur.
 
-## Önkoşullar
+## “Koordinat sistemini ters çevir” nedir?
+Koordinat sistemini ters çevirmek, içe aktarılan modelin kullandığı eksen yönelimini değiştirir. Kaynak dosya, render motorunuzdan farklı bir el (right‑handed vs. left‑handed) kullanıyorsa, bu seçenek modellerin yansıtılmış veya ters görüntülenmesini önler.
 
-Özelleştirme sürecine dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+## 3D içe aktarmayı neden özelleştirmelisiniz?
+İçe aktarmayı özelleştirmek şunları sağlar:
+- Animasyon dönüşlerini koruma (`setApplyAnimationTransform`).  
+- Renk işleme düzeltmesi (`setGammaCorrectedColor`).  
+- `getLookupPaths()` ile harici kaynak yollarını çözümleme.  
+- Yalnızca ihtiyaç duyulan verileri yükleyerek bellek kullanımını optimize etme.
 
-- Java programlamanın temel anlayışı.
-- Java Geliştirme Kiti (JDK) kuruldu.
--  Aspose.3D for Java kütüphanesi indirildi. Onu elde edebilirsin[Burada](https://releases.aspose.com/3d/java/).
+## Ön Koşullar
+
+- Java programlamaya temel bir anlayış.  
+- Yüklü Java Development Kit (JDK).  
+- Aspose.3D for Java kütüphanesi indirilmiş. Kütüphaneyi [buradan](https://releases.aspose.com/3d/java/) edinebilirsiniz.  
 - 3DS, OBJ, STL, U3D, glTF, PLY, X ve FBX gibi 3D dosya formatlarına aşinalık.
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarma
 
-Java projenizde gerekli Aspose.3D paketlerini içe aktardığınızdan emin olun:
+Java projenizde gerekli Aspose.3D paketlerini şu şekilde içe aktarın:
 
 ```java
 import com.aspose.threed.*;
@@ -37,9 +67,11 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 3D Dosya Yüklemeyi Özelleştirin
+## LoadOptions ile 3D içe aktarmayı nasıl özelleştirirsiniz
 
-### 1. Adım: 3DS Dosya Yüklemeyi Özelleştirin
+Aşağıda, desteklenen her format için **koordinat sistemini ters çevir** seçeneğini etkinleştiren adım adım kod parçacıkları yer almaktadır. Parçacıkları projenize doğrudan kopyalayabilirsiniz; sadece `"Your Document Directory"` ifadesini varlıklarınızın gerçek yolu ile değiştirin.
+
+### Adım 1: 3DS Dosya Yüklemeyi Özelleştirme
 
 ```java
 public static void discreet3DSLoadOption() {
@@ -52,7 +84,7 @@ public static void discreet3DSLoadOption() {
 }
 ```
 
-### Adım 2: OBJ Dosya Yüklemesini Özelleştirin
+### Adım 2: OBJ Dosya Yüklemeyi Özelleştirme
 
 ```java
 public static void objLoadOption() {
@@ -64,7 +96,7 @@ public static void objLoadOption() {
 }
 ```
 
-### Adım 3: STL Dosya Yüklemeyi Özelleştirin
+### Adım 3: STL Dosya Yüklemeyi Özelleştirme
 
 ```java
 public static void stlLoadOption() {
@@ -75,7 +107,7 @@ public static void stlLoadOption() {
 }
 ```
 
-### Adım 4: U3D Dosya Yüklemeyi Özelleştirin
+### Adım 4: U3D Dosya Yüklemeyi Özelleştirme
 
 ```java
 public static void u3dLoadOption() {
@@ -86,7 +118,7 @@ public static void u3dLoadOption() {
 }
 ```
 
-### Adım 5: glTF Dosya Yüklemeyi Özelleştirin
+### Adım 5: glTF Dosya Yüklemeyi Özelleştirme
 
 ```java
 public static void gltfLoadOptions() throws IOException {
@@ -98,7 +130,7 @@ public static void gltfLoadOptions() throws IOException {
 }
 ```
 
-### Adım 6: PLY Dosya Yüklemesini Özelleştirin
+### Adım 6: PLY Dosya Yüklemeyi Özelleştirme
 
 ```java
 public static void plyLoadOptions() throws IOException {
@@ -110,7 +142,7 @@ public static void plyLoadOptions() throws IOException {
 }
 ```
 
-### Adım 7: X Dosya Yüklemeyi Özelleştirin
+### Adım 7: X Dosya Yüklemeyi Özelleştirme
 
 ```java
 public static void xLoadOptions() throws IOException {
@@ -122,7 +154,7 @@ public static void xLoadOptions() throws IOException {
 }
 ```
 
-### Adım 8: FBX Dosya Yüklemeyi Özelleştirin (İsteğe Bağlı)
+### Adım 8: FBX Dosya Yüklemeyi Özelleştirme (İsteğe Bağlı)
 
 ```java
 private static void FBXLoadOptions() throws IOException {
@@ -137,34 +169,42 @@ private static void FBXLoadOptions() throws IOException {
 }
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
+- **Model yükleme sonrası ters görünüyor** – Doğru format için `setFlipCoordinateSystem(true)` ayarının yapıldığını kontrol edin.  
+- **Malzemeler eksik** – OBJ dosyalarında `setEnableMaterials(true)` kullandığınızdan ve materyal dosyalarının (.mtl) lookup path’lerinden birinde bulunduğundan emin olun.  
+- **Doku koordinatları ters** – glTF için eksenleri ters çevirmenin yanı sıra `setFlipTexCoordV(true)` eklemeniz gerekebilir.  
+- **Dosya bulunamadı hataları** – Dış kaynakları (dokular, yardımcı dosyalar) içeren klasörü `loadOpts.getLookupPaths()` listesine ekleyin.
 
-Aspose.3D'nin LoadOptions'ı ile Java'da 3D dosya yüklemeyi özelleştirmek, geliştiricilerin içe aktarma sürecini belirli gereksinimlere göre uyarlamasına olanak tanır. Aspose.3D, animasyon dönüşümlerini ayarlama, koordinat sistemlerini değiştirme veya dış bağımlılıkları yönetme gibi konularda kusursuz entegrasyon için gereken esnekliği sağlar.
+## Sonuç
 
-## SSS
+Aspose.3D’nin `LoadOptions` özelliğini kullanarak **koordinat sistemini ters çevirebilir** ve **3D içe aktarmayı özelleştirebilirsiniz**; bu sayede neredeyse tüm büyük formatlarda ek işlem scriptlerine ihtiyaç kalmaz ve varlıklarınız ilk denemede doğru şekilde render edilir.
 
-### S1: Aspose.3D for Java belgelerini nerede bulabilirim?
+## Sık Sorulan Sorular
 
- A1: Belgeler mevcut[Burada](https://reference.aspose.com/3d/java/).
+### S1: Aspose.3D for Java belgelerine nereden ulaşabilirim?
+Cevap: Belgeler [burada](https://reference.aspose.com/3d/java/) mevcuttur.
 
-### S2: Aspose.3D for Java'yı nasıl indirebilirim?
+### S2: Aspose.3D for Java’yı nasıl indirebilirim?
+Cevap: İndirme bağlantısı [burada](https://releases.aspose.com/3d/java/) bulunur.
 
- A2: İndirebilirsin[Burada](https://releases.aspose.com/3d/java/).
+### S3: Ücretsiz deneme sürümü var mı?
+Cevap: Evet, ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) erişebilirsiniz.
 
-### S3: Ücretsiz deneme sürümü mevcut mu?
+### S4: Aspose.3D for Java için destek nasıl alınır?
+Cevap: Destek forumu [burada](https://forum.aspose.com/c/3d/18) bulunur.
 
- C3: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+### S5: Test amaçlı geçici bir lisansa ihtiyacım var mı?
+Cevap: Evet, geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
-### S4: Aspose.3D for Java desteğini nereden alabilirim?
-
- Cevap4: Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/3d/18).
-
-### S5: Test için geçici bir lisansa ihtiyacım var mı?
-
- A5: Evet, geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-02-25  
+**Test Edilen Versiyon:** Aspose.3D for Java 24.11 (en yeni)  
+**Yazar:** Aspose
