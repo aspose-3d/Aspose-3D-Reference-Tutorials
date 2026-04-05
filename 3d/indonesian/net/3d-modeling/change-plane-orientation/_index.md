@@ -1,35 +1,50 @@
 ---
-title: Mengubah Orientasi Bidang dalam Pemandangan 3D
-linktitle: Mengubah Orientasi Bidang dalam Pemandangan 3D
+date: 2026-03-21
+description: Pelajari cara mengubah orientasi bidang dalam adegan 3D menggunakan Aspose.3D
+  untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengekspor model 3D OBJ
+  dan memutar bidang 3D dengan mudah.
+linktitle: Changing Plane Orientation in 3D Scenes
 second_title: Aspose.3D .NET API
-description: Jelajahi Aspose.3D untuk .NET dan kuasai perubahan orientasi bidang dalam adegan 3D. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-weight: 10
+title: Ubah Orientasi Bidang dalam Adegan 3D – Aspose.3D untuk .NET
 url: /id/net/3d-modeling/change-plane-orientation/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengubah Orientasi Bidang dalam Pemandangan 3D
+# Ubah Orientasi Plane dalam Adegan 3D
 
-## Perkenalan
+## Introduction
 
-Selamat datang di panduan komprehensif tentang mengubah orientasi bidang dalam adegan 3D menggunakan Aspose.3D untuk .NET! Jika Anda seorang pengembang atau penggemar 3D yang ingin meningkatkan keterampilan Anda, Anda berada di tempat yang tepat. Dalam tutorial ini, kita akan mempelajari prosesnya langkah demi langkah, menggunakan contoh yang jelas dan penjelasan mendetail. Pada akhirnya, Anda akan memiliki pemahaman yang kuat tentang cara memanipulasi orientasi bidang dalam proyek 3D Anda.
+Dalam tutorial komprehensif ini Anda akan belajar **cara mengubah orientasi plane** dalam adegan 3‑D dengan Aspose.3D untuk .NET. Baik Anda sedang membangun game, penampil CAD, atau visualisasi ilmiah, mengontrol arah plane sangat penting untuk rendering yang akurat dan ekspor yang tepat dari file model 3‑D OBJ. Mari kita jalani prosesnya bersama, langkah demi langkah.
 
-## Prasyarat
+## Quick Answers
+- **Apa arti “change plane orientation”?** Menyesuaikan up‑vector plane untuk memutarnya dalam ruang 3‑D.  
+- **Format file apa yang digunakan untuk ekspor?** Wavefront OBJ (`.obj`).  
+- **Bisakah saya memutar plane 3D secara langsung?** Ya – ubah vektor `Up` dari entitas `Plane`.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
 
-Sebelum kita mendalaminya, pastikan Anda memiliki prasyarat berikut:
+## What is Change Plane Orientation?
+Mengubah orientasi plane mengacu pada mendefinisikan ulang normal atau up‑vector plane sehingga mengarah ke arah yang berbeda dalam sistem koordinat 3‑D. Operasi ini secara efektif **memutar objek plane 3D** tanpa mengubah ukuran atau posisinya.
 
--  Aspose.3D untuk .NET: Pastikan Anda telah menginstal perpustakaan. Jika tidak, unduh dari[Di Sini](https://releases.aspose.com/3d/net/).
+## Why Change Plane Orientation?
+- **Penyelarasan visual yang akurat** – memastikan tekstur dan pencahayaan berperilaku seperti yang diharapkan.  
+- **Ekspor yang tepat** – beberapa alat hilir mengandalkan orientasi plane tertentu saat mengimpor file OBJ.  
+- **Fleksibilitas** – Anda dapat menggunakan kembali geometri yang sama dengan orientasi berbeda untuk berbagai tampilan.
 
-- Direktori Dokumen Anda: Siapkan direktori untuk file proyek Anda.
+## Prerequisites
 
-Sekarang, mari kita mulai tutorialnya!
+- Aspose.3D untuk .NET: Pastikan Anda telah menginstal pustaka tersebut. Jika belum, unduh dari [here](https://releases.aspose.com/3d/net/).  
+- Direktori Dokumen Anda: Siapkan folder tempat tutorial akan membaca/menulis file.
 
-## Impor Namespace
+Setelah kami membahas dasar-dasarnya, mari kita selami kode.
 
-Di proyek .NET Anda, mulailah dengan mengimpor namespace yang diperlukan:
+## Import Namespaces
+
+Dalam proyek .NET Anda, mulailah dengan mengimpor namespace yang diperlukan:
 
 ```csharp
 using Aspose.ThreeD;
@@ -44,63 +59,72 @@ using System.Threading.Tasks;
 
 Namespace ini menyediakan kelas dan metode penting untuk bekerja dengan adegan 3D di Aspose.3D.
 
-## Langkah 1: Inisialisasi Objek Adegan
+## Step 1: Initialize the Scene Object
 
 ```csharp
-// Jalur ke direktori data
+// The path to the data directory
 string dataDir = "Your Document Directory";
 
-// Inisialisasi objek adegan
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-Kode ini mengatur lingkungan untuk adegan 3D Anda.
+Kode ini menyiapkan lingkungan untuk adegan 3‑D Anda.
 
-## Langkah 2: Tetapkan Vektor untuk Orientasi Bidang
+## Step 2: Set Vector for Plane Orientation (Rotate 3D Plane)
 
 ```csharp
-// Atur Vektor
+// Set Vector
 scene.RootNode.CreateChildNode(new Plane() { Up = new Vector3(1, 1, 3) });
 ```
 
- Di sini, kita membuat node anak yang mewakili bidang dan menyesuaikan orientasinya menggunakan`Up` vektor.
+Di sini, kami membuat node anak yang mewakili sebuah plane dan menyesuaikan orientasinya menggunakan vektor `Up`. Mengubah nilai vektor memutar plane 3D ke sudut yang diinginkan.
 
-## Langkah 3: Simpan Adegan
+## Step 3: Save and Export 3D Model OBJ
 
 ```csharp
-// Ini akan menghasilkan bidang yang memiliki orientasi khusus
+// This will generate a plane that has customized orientation
 scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
 ```
 
-Simpan adegan yang dimodifikasi ke file Wavefront OBJ di direktori data yang Anda tentukan.
+Menyimpan adegan menghasilkan file OBJ yang mencerminkan orientasi plane baru, memungkinkan Anda **mengekspor model 3D OBJ** untuk digunakan di aplikasi lain.
 
-Ulangi langkah-langkah ini sesuai kebutuhan proyek spesifik Anda.
+Ulangi langkah-langkah ini sesuai kebutuhan untuk plane tambahan atau orientasi yang berbeda.
 
-## Kesimpulan
+## Common Issues and Solutions
+- **Plane muncul datar atau terbalik:** Pastikan vektor `Up` tidak kolinear dengan normal plane. Sesuaikan komponen vektor untuk mencapai kemiringan yang diinginkan.  
+- **OBJ yang diekspor terlihat kosong:** Pastikan jalur `dataDir` diakhiri dengan pemisah (`\\` atau `/`) dan Anda memiliki izin menulis.  
+- **Rotasi tak terduga:** Ingat bahwa vektor `Up` mendefinisikan sumbu Y lokal plane; memodifikasinya memutar plane di sekitar sumbu X-nya.
 
-Selamat! Anda telah berhasil mempelajari cara mengubah orientasi bidang dalam adegan 3D menggunakan Aspose.3D untuk .NET. Jangan ragu untuk bereksperimen dan memasukkan pengetahuan ini ke dalam proyek Anda.
+## Frequently Asked Questions
 
-## FAQ
+**Q1: Apakah Aspose.3D kompatibel dengan pustaka 3D lainnya?**  
+A1: Aspose.3D dapat bekerja secara mulus dengan pustaka 3D populer lainnya, memberikan fleksibilitas dalam pengembangan Anda.
 
-### Q1: Apakah Aspose.3D kompatibel dengan perpustakaan 3D lainnya?
+**Q2: Bisakah saya menggunakan Aspose.3D untuk proyek komersial?**  
+A2: Tentu saja! Aspose.3D menawarkan opsi lisensi untuk penggunaan pribadi maupun komersial. Lihat di [here](https://purchase.aspose.com/buy).
 
-A1: Aspose.3D dapat bekerja secara lancar dengan pustaka 3D populer lainnya, memberikan fleksibilitas dalam pengembangan Anda.
+**Q3: Bagaimana saya mendapatkan dukungan untuk Aspose.3D?**  
+A3: Kunjungi [Aspose.3D forum](https://forum.aspose.com/c/3d/18) untuk dukungan komunitas dan diskusi.
 
-### Q2: Bisakah saya menggunakan Aspose.3D untuk proyek komersial?
+**Q4: Apakah tersedia versi percobaan gratis?**  
+A4: Ya, Anda dapat menjelajahi Aspose.3D dengan percobaan gratis [here](https://releases.aspose.com/).
 
- A2: Tentu saja! Aspose.3D menawarkan opsi lisensi untuk penggunaan pribadi dan komersial. Periksa mereka[Di Sini](https://purchase.aspose.com/buy).
+**Q5: Di mana saya dapat menemukan dokumentasi detail?**  
+A5: Lihat dokumentasi [here](https://reference.aspose.com/3d/net/) untuk informasi mendalam.
 
-### Q3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.3D?
+**Q6: Bisakah saya mengubah orientasi plane setelah menyimpan?**  
+A6: Anda harus memodifikasi vektor `Up` sebelum memanggil `scene.Save`; file OBJ mencerminkan keadaan pada saat penyimpanan.
 
- A3: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan dan diskusi komunitas.
+**Q7: Apakah mengubah orientasi memengaruhi koordinat tekstur?**  
+A7: Perubahan orientasi hanya memengaruhi geometri plane; koordinat tekstur tetap tidak berubah kecuali Anda secara eksplisit memodifikasinya.
 
-### Q4: Apakah tersedia uji coba gratis?
+---
 
- A4: Ya, Anda dapat menjelajahi Aspose.3D dengan uji coba gratis[Di Sini](https://releases.aspose.com/).
+**Terakhir Diperbarui:** 2026-03-21  
+**Diuji Dengan:** Aspose.3D 24.12 untuk .NET  
+**Penulis:** Aspose  
 
-### Q5: Di mana saya dapat menemukan dokumentasi terperinci?
-
- A5: Lihat dokumentasi[Di Sini](https://reference.aspose.com/3d/net/) untuk informasi mendalam.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

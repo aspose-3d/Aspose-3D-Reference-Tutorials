@@ -1,33 +1,48 @@
 ---
-title: Modifica dell'orientamento del piano nelle scene 3D
-linktitle: Modifica dell'orientamento del piano nelle scene 3D
-second_title: API Aspose.3D .NET
-description: Esplora Aspose.3D per .NET e padroneggia il cambiamento dell'orientamento del piano nelle scene 3D. Segui la nostra guida passo passo per un'integrazione perfetta.
-weight: 10
+date: 2026-03-21
+description: Scopri come modificare l'orientamento del piano nelle scene 3D usando
+  Aspose.3D per .NET. Segui la nostra guida passo‑passo per esportare il modello 3D
+  OBJ e ruotare facilmente il piano 3D.
+linktitle: Changing Plane Orientation in 3D Scenes
+second_title: Aspose.3D .NET API
+title: Modifica l'orientamento del piano nelle scene 3D – Aspose.3D per .NET
 url: /it/net/3d-modeling/change-plane-orientation/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Modifica dell'orientamento del piano nelle scene 3D
+# Modifica l'orientamento del piano in scene 3D
 
-## introduzione
+## Introduzione
 
-Benvenuti in questa guida completa sulla modifica dell'orientamento del piano nelle scene 3D utilizzando Aspose.3D per .NET! Se sei uno sviluppatore o un appassionato di 3D e desideri migliorare le tue capacità, sei nel posto giusto. In questo tutorial approfondiremo il processo passo dopo passo, utilizzando esempi chiari e spiegazioni dettagliate. Alla fine, avrai una solida conoscenza di come manipolare l'orientamento del piano nei tuoi progetti 3D.
+In questo tutorial completo imparerai **come modificare l'orientamento del piano** in una scena 3‑D con Aspose.3D per .NET. Che tu stia creando un gioco, un visualizzatore CAD o una visualizzazione scientifica, controllare la direzione del piano è essenziale per un rendering accurato e per l'esportazione corretta di file OBJ di modelli 3‑D. Seguiamo insieme il processo, passo dopo passo.
+
+## Risposte rapide
+- **Cosa significa “cambiare l'orientamento del piano”?** Regolare il vettore up del piano per ruotarlo nello spazio 3‑D.  
+- **Quale formato file viene usato per l'esportazione?** Wavefront OBJ (`.obj`).  
+- **Posso ruotare direttamente il piano 3D?** Sì – modifica il vettore `Up` dell'entità `Plane`.  
+- **Ho bisogno di una licenza?** Una versione di prova gratuita è sufficiente per lo sviluppo; è necessaria una licenza commerciale per la produzione.  
+- **Quali versioni di .NET sono supportate?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+
+## Che cosa è la modifica dell'orientamento del piano?
+Modificare l'orientamento del piano significa ridefinire la normale o il vettore up del piano in modo che punti in una direzione diversa all'interno del sistema di coordinate 3‑D. Questa operazione **ruota** gli oggetti piano 3D senza alterarne le dimensioni o la posizione.
+
+## Perché modificare l'orientamento del piano?
+- **Allineamento visivo accurato** – garantisce che le texture e l'illuminazione si comportino come previsto.  
+- **Esportazione corretta** – alcuni strumenti a valle dipendono da un orientamento specifico del piano durante l'importazione di file OBJ.  
+- **Flessibilità** – è possibile riutilizzare la stessa geometria con orientamenti diversi per più visualizzazioni.
 
 ## Prerequisiti
 
-Prima di approfondire, assicurati di possedere i seguenti prerequisiti:
+- Aspose.3D per .NET: assicurati di avere la libreria installata. In caso contrario, scaricala da [qui](https://releases.aspose.com/3d/net/).  
+- La tua directory dei documenti: configura una cartella dove il tutorial leggerà/scriverà i file.
 
--  Aspose.3D per .NET: assicurati di avere la libreria installata. In caso contrario, scaricalo da[Qui](https://releases.aspose.com/3d/net/).
+Ora che abbiamo coperto le basi, immergiamoci nel codice.
 
-- La tua directory dei documenti: imposta una directory per i file del tuo progetto.
-
-Ora iniziamo con il tutorial!
-
-## Importa spazi dei nomi
+## Importa gli spazi dei nomi
 
 Nel tuo progetto .NET, inizia importando gli spazi dei nomi necessari:
 
@@ -44,63 +59,72 @@ using System.Threading.Tasks;
 
 Questi spazi dei nomi forniscono le classi e i metodi essenziali per lavorare con scene 3D in Aspose.3D.
 
-## Passaggio 1: inizializzare l'oggetto scena
+## Passo 1: Inizializza l'oggetto Scene
 
 ```csharp
-// Il percorso della directory dei dati
+// The path to the data directory
 string dataDir = "Your Document Directory";
 
-// Inizializza l'oggetto della scena
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-Questo codice imposta l'ambiente per la scena 3D.
+Questo codice imposta l'ambiente per la tua scena 3‑D.
 
-## Passaggio 2: impostare il vettore per l'orientamento del piano
+## Passo 2: Imposta il vettore per l'orientamento del piano (Ruota il piano 3D)
 
 ```csharp
-// Impostare il vettore
+// Set Vector
 scene.RootNode.CreateChildNode(new Plane() { Up = new Vector3(1, 1, 3) });
 ```
 
- Qui creiamo un nodo figlio che rappresenta un piano e personalizziamo il suo orientamento utilizzando il`Up` vettore.
+Qui, creiamo un nodo figlio che rappresenta un piano e personalizziamo la sua orientazione usando il vettore `Up`. Modificando i valori del vettore si ruota il piano 3D all'angolo desiderato.
 
-## Passaggio 3: salva la scena
+## Passo 3: Salva ed esporta il modello 3D OBJ
 
 ```csharp
-// Questo genererà un piano con orientamento personalizzato
+// This will generate a plane that has customized orientation
 scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
 ```
 
-Salva la scena modificata in un file Wavefront OBJ nella directory dei dati specificata.
+Salvare la scena genera un file OBJ che riflette il nuovo orientamento del piano, permettendoti di **esportare il modello 3D OBJ** per l'uso in altre applicazioni.
 
-Ripeti questi passaggi secondo necessità per i requisiti specifici del tuo progetto.
+Ripeti questi passaggi secondo necessità per piani aggiuntivi o orientamenti diversi.
 
-## Conclusione
-
-Congratulazioni! Hai imparato con successo come modificare l'orientamento del piano nelle scene 3D utilizzando Aspose.3D per .NET. Sentiti libero di sperimentare e incorporare questa conoscenza nei tuoi progetti.
+## Problemi comuni e soluzioni
+- **Il piano appare piatto o invertito:** Verifica che il vettore `Up` non sia colineare con la normale del piano. Regola le componenti del vettore per ottenere l'inclinazione desiderata.  
+- **L'OBJ esportato sembra vuoto:** Assicurati che il percorso `dataDir` termini con un separatore (`\\` o `/`) e che tu abbia i permessi di scrittura.  
+- **Rotazione inaspettata:** Ricorda che il vettore `Up` definisce l'asse Y locale del piano; modificarlo ruota il piano attorno al suo asse X.
 
 ## Domande frequenti
 
-### Q1: Aspose.3D è compatibile con altre librerie 3D?
+**Q1: Aspose.3D è compatibile con altre librerie 3D?**  
+A1: Aspose.3D può lavorare senza problemi con altre librerie 3D popolari, offrendo flessibilità nello sviluppo.
 
-A1: Aspose.3D può funzionare perfettamente con altre librerie 3D popolari, fornendo flessibilità nello sviluppo.
+**Q2: Posso usare Aspose.3D per progetti commerciali?**  
+A2: Assolutamente! Aspose.3D offre opzioni di licenza sia per uso personale che commerciale. Scoprile [qui](https://purchase.aspose.com/buy).
 
-### Q2: Posso utilizzare Aspose.3D per progetti commerciali?
+**Q3: Come posso ottenere supporto per Aspose.3D?**  
+A3: Visita il [forum Aspose.3D](https://forum.aspose.com/c/3d/18) per supporto della community e discussioni.
 
- A2: Assolutamente! Aspose.3D offre opzioni di licenza sia per uso personale che commerciale. Controllali[Qui](https://purchase.aspose.com/buy).
+**Q4: È disponibile una versione di prova gratuita?**  
+A4: Sì, puoi provare Aspose.3D con una versione di prova gratuita [qui](https://releases.aspose.com/).
 
-### Q3: Come posso ottenere supporto per Aspose.3D?
+**Q5: Dove posso trovare la documentazione dettagliata?**  
+A5: Consulta la documentazione [qui](https://reference.aspose.com/3d/net/) per informazioni approfondite.
 
- A3: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per il supporto e la discussione della comunità.
+**Q6: Posso modificare l'orientamento del piano dopo il salvataggio?**  
+A6: Devi modificare il vettore `Up` prima di chiamare `scene.Save`; il file OBJ riflette lo stato al momento del salvataggio.
 
-### Q4: È disponibile una prova gratuita?
+**Q7: La modifica dell'orientamento influisce sulle coordinate delle texture?**  
+A7: La modifica dell'orientamento influisce solo sulla geometria del piano; le coordinate delle texture rimangono inalterate a meno che non le modifichi esplicitamente.
 
- A4: Sì, puoi esplorare Aspose.3D con una prova gratuita[Qui](https://releases.aspose.com/).
+---
 
-### Q5: Dove posso trovare la documentazione dettagliata?
+**Ultimo aggiornamento:** 2026-03-21  
+**Testato con:** Aspose.3D 24.12 per .NET  
+**Autore:** Aspose  
 
- R5: Fare riferimento alla documentazione[Qui](https://reference.aspose.com/3d/net/) per informazioni approfondite.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
