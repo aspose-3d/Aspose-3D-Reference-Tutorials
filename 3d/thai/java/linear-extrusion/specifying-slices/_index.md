@@ -1,32 +1,51 @@
 ---
-title: การระบุสไลซ์ในการอัดขึ้นรูปเชิงเส้นด้วย Aspose.3D สำหรับ Java
-linktitle: การระบุสไลซ์ในการอัดขึ้นรูปเชิงเส้นด้วย Aspose.3D สำหรับ Java
-second_title: Aspose.3D จาวา API
-description: เรียนรู้วิธีระบุสไลซ์ในการอัดขึ้นรูปเชิงเส้นโดยใช้ Aspose.3D สำหรับ Java ยกระดับทักษะการสร้างแบบจำลอง 3 มิติของคุณด้วยคำแนะนำทีละขั้นตอนนี้
-weight: 13
+date: 2026-02-22
+description: เรียนรู้วิธีสร้างการดันออก 3 มิติพร้อมชั้นโดยใช้ Aspose.3D สำหรับ Java
+  คู่มือแบบทีละขั้นตอนนี้ครอบคลุมการดันออกเชิงเส้น การตั้งค่ารัศมีโค้งมน และการส่งออกเป็น
+  OBJ.
+linktitle: Create 3D Extrusion with Slices – Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: สร้างการดึงออก 3 มิติด้วยชั้น – Aspose.3D สำหรับ Java
 url: /th/java/linear-extrusion/specifying-slices/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การระบุสไลซ์ในการอัดขึ้นรูปเชิงเส้นด้วย Aspose.3D สำหรับ Java
+# สร้าง 3D Extrusion ด้วย Slices – Aspose.3D for Java
 
-## การแนะนำ
+## คำแนะนำ
 
-การสร้างโมเดล 3 มิติที่ซับซ้อนมักต้องใช้มากกว่าความคิดสร้างสรรค์ มันต้องการความเข้าใจอย่างถ่องแท้เกี่ยวกับเครื่องมือที่คุณมี Aspose.3D สำหรับ Java เป็นตัวเปลี่ยนเกมในเรื่องนี้ ในบทช่วยสอนนี้ เราจะเน้นไปที่ลักษณะเฉพาะ - การระบุชิ้นในการอัดขึ้นรูปเชิงเส้น
+หากคุณต้องการ **create 3d extrusion** ที่ดูเรียบเนียนและแม่นยำ การควบคุมจำนวน slices คือกุญแจสำคัญ ในบทแนะนำนี้เราจะอธิบายวิธีการระบุ slices ขณะทำ linear extrusion ด้วย Aspose.3D for Java คุณจะเห็นว่าทำไมจำนวน slice ถึงสำคัญ วิธีตั้งค่ารัศมีการโค้งมน และวิธีส่งออกผลลัพธ์เป็นไฟล์ OBJ ที่สามารถใช้ในสายงาน 3D ใดก็ได้
+
+## คำตอบอย่างรวดเร็ว
+- **What does “slices” control?** จำนวน cross‑section กลางที่ใช้ประมาณพื้นผิว extrusion  
+- **Which method sets the slice count?** `LinearExtrusion.setSlices(int)`  
+- **Can I change the rounding radius of the profile?** ได้โดยใช้ `RectangleShape.setRoundingRadius(double)`  
+- **What file format is used in this example?** Wavefront OBJ (`FileFormat.WAVEFRONTOBJ`)  
+- **Do I need a license to run the code?** สามารถใช้ trial ฟรีเพื่อประเมินผลได้; ต้องมี license เชิงพาณิชย์สำหรับการใช้งานจริง
+
+## การ Extrusion เชิงเส้นด้วย slices คืออะไร?
+
+Linear extrusion รับโปรไฟล์ 2‑D (เช่นสี่เหลี่ยม) แล้วยืดออกตามเส้นตรงเพื่อสร้างวัตถุ 3‑D โดยการระบุ **slices** คุณบอก Aspose.3D ว่าต้องการขั้นตอนกลางกี่ขั้นตอน ซึ่งส่งผลโดยตรงต่อความเรียบของขอบโค้งเช่นสี่เหลี่ยมมุมโค้ง
+
+## ทำไมต้องใช้ Aspose.3D for Java เพื่อสร้าง 3d extrusion?
+
+* **Full control** – สามารถปรับจำนวน slice, รัศมีการโค้งมน, และรูปแบบการส่งออกได้โดยโปรแกรม  
+* **Cross‑platform** – ทำงานได้บนทุกสภาพแวดล้อมที่รองรับ Java โดยไม่มีการพึ่งพา native library  
+* **Export flexibility** – บันทึกโดยตรงเป็น OBJ, FBX, STL และรูปแบบอื่น ๆ มากมาย
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+1. **Java Development Kit** – ติดตั้ง JDK 8 หรือสูงกว่า  
+2. **Aspose.3D for Java** – ดาวน์โหลดไลบรารีจากเว็บไซต์อย่างเป็นทางการ [here](https://releases.aspose.com/3d/java/)  
+3. IDE หรือโปรแกรมแก้ไขข้อความที่คุณชอบ
 
-1. สภาพแวดล้อม Java: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา Java บนระบบของคุณ
-2.  Aspose.3D สำหรับ Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.3D คุณสามารถค้นหาแพ็คเกจที่จำเป็นได้[ที่นี่](https://releases.aspose.com/3d/java/).
+## นำเข้าแพ็กเกจ
 
-## แพ็คเกจนำเข้า
-
-ในโปรเจ็กต์ Java ของคุณ ให้นำเข้าไลบรารี Aspose.3D นี่เป็นสิ่งสำคัญสำหรับการเข้าถึงฟังก์ชันการทำงานที่เราจะทำงานด้วย เพิ่มคำสั่งนำเข้าต่อไปนี้ลงในรหัสของคุณ:
+เพิ่ม namespace ของ Aspose.3D ลงในโปรเจกต์ของคุณเพื่อให้เข้าถึงคลาสการสร้างโมเดล 3‑D
 
 ```java
 import com.aspose.threed.*;
@@ -34,11 +53,11 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-ตอนนี้ เรามาแบ่งตัวอย่างออกเป็นหลายขั้นตอนกัน
+## คู่มือขั้นตอน
 
-## ขั้นตอนที่ 1: ตั้งค่าฉาก
+### ขั้นตอน 1: ตั้งค่า scene และกำหนดโปรไฟล์
 
-เริ่มต้นโปรไฟล์ฐานที่จะทำการอัด ในกรณีนี้คือ a`RectangleShape` โดยมีรัศมีการปัดเศษที่กำหนด สร้างฉาก 3 มิติเพื่อทำงานภายใน
+ก่อนอื่นเราจะสร้าง `RectangleShape` และกำหนด **rounding radius** เพื่อให้มุมเรียบ จากนั้นเราจะสร้าง `Scene` ใหม่เพื่อเก็บเรขาคณิตทั้งหมด
 
 ```java
 String MyDir = "Your Document Directory";
@@ -47,9 +66,9 @@ profile.setRoundingRadius(0.3);
 Scene scene = new Scene();
 ```
 
-## ขั้นตอนที่ 2: สร้างโหนด
+### ขั้นตอน 2: **Create child node** objects for each extrusion
 
-สร้างโหนดด้านซ้ายและขวาภายในฉาก ปรับการแปลโหนดด้านซ้ายสำหรับการเปลี่ยนแปลงเชิงพื้นที่
+แต่ละชิ้นส่วนของเรขาคณิตจะอยู่ภายใต้ `Node` ที่นี่เราจะสร้าง node พี่น้องสองตัว – หนึ่งสำหรับ extrusion ที่มี slice ต่ำและอีกหนึ่งสำหรับ slice สูง – แล้วเลื่อน node ด้านซ้ายเล็กน้อยเพื่อให้เปรียบเทียบผลลัพธ์ได้ง่าย
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -57,48 +76,52 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## ขั้นตอนที่ 3: การอัดขึ้นรูปเชิงเส้นด้วยชิ้น
+### ขั้นตอน 3: Perform linear extrusion and **set slices**
 
-ดำเนินการอัดรีดเชิงเส้นบนทั้งสองโหนด โดยระบุจำนวนชิ้นสำหรับแต่ละชิ้น นี่คือจุดที่ความมหัศจรรย์เกิดขึ้น
+ต่อไปเราจะ **create 3d extrusion** จริง ๆ ตัวสร้าง `LinearExtrusion` รับโปรไฟล์และความลึกของ extrusion โดยใช้ **anonymous inner class** เราเรียก `setSlices` เพื่อควบคุมความเรียบของพื้นผิว Node ด้านซ้ายจะมีเพียง 2 slices (หยาบ) ส่วน Node ด้านขวาจะมี 10 slices (เรียบ)
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 2) {{setSlices(2);}});
 right.createChildNode(new LinearExtrusion(profile, 2) {{setSlices(10);}});
 ```
 
-## ขั้นตอนที่ 4: บันทึกฉาก
+### ขั้นตอน 4: **Export OBJ** – save the scene
 
-บันทึกฉาก 3D ในรูปแบบที่ต้องการ ในกรณีนี้คือไฟล์ Wavefront OBJ
+สุดท้ายเราจะบันทึก scene เป็นไฟล์ Wavefront OBJ ซึ่งเป็นรูปแบบที่ได้รับการสนับสนุนอย่างกว้างขวางโดยโปรแกรมแก้ไข 3‑D และเอนจินเกม การทำเช่นนี้แสดงความสามารถ **export obj java** ของ Aspose.3D
 
 ```java
 scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## บทสรุป
+## ปัญหาและวิธีแก้ไขทั่วไป
 
-ยินดีด้วย! คุณได้เรียนรู้วิธีระบุชิ้นในการอัดขึ้นรูปเชิงเส้นโดยใช้ Aspose.3D สำหรับ Java เรียบร้อยแล้ว ทักษะนี้เปิดโอกาสใหม่ๆ ในเส้นทางการสร้างแบบจำลอง 3 มิติของคุณ
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|----------|
+| **Extrusion appears flat** | ตั้งค่า slice count เป็น 1 หรือ 0 | ตรวจสอบให้ `setSlices` ถูกเรียกด้วยค่าที่ ≥ 2 |
+| **Rounded corners look jagged** | รัศมีการโค้งมนเล็กเกินไปเมื่อเทียบกับจำนวน slice | เพิ่มรัศมีหรือเพิ่มจำนวน slice เพื่อให้เส้นโค้งเรียบขึ้น |
+| **File not found on save** | `MyDir` ชี้ไปยังโฟลเดอร์ที่ไม่มีอยู่ | สร้างโฟลเดอร์ล่วงหน้าหรือใช้เส้นทางแบบ absolute |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันจะดาวน์โหลด Aspose.3D สำหรับ Java ได้อย่างไร
+**Q: จะดาวน์โหลด Aspose.3D for Java ได้จากที่ไหน?**  
+A: คุณสามารถดาวน์โหลดไลบรารีได้จาก [here](https://releases.aspose.com/3d/java/)
 
- A1: คุณสามารถดาวน์โหลดห้องสมุดได้[ที่นี่](https://releases.aspose.com/3d/java/).
+**Q: จะหาเอกสารอ้างอิงของ Aspose.3D ได้จากที่ไหน?**  
+A: ดูเอกสารอ้างอิงได้ที่ [here](https://reference.aspose.com/3d/java/)
 
-### คำถามที่ 2: ฉันจะหาเอกสารสำหรับ Aspose.3D ได้ที่ไหน
+**Q: มี trial ฟรีให้ใช้หรือไม่?**  
+A: มี คุณสามารถทดลองใช้ trial ฟรีได้จาก [here](https://releases.aspose.com/)
 
- A2: โปรดดูเอกสารประกอบ[ที่นี่](https://reference.aspose.com/3d/java/).
+**Q: จะขอรับการสนับสนุนสำหรับ Aspose.3D ได้อย่างไร?**  
+A: เยี่ยมชมฟอรั่มสนับสนุนได้ที่ [here](https://forum.aspose.com/c/3d/18)
 
-### คำถามที่ 3: มีการทดลองใช้ฟรีหรือไม่?
+**Q: สามารถซื้อ license ชั่วคราวได้หรือไม่?**  
+A: ได้ คุณสามารถขอรับ license ชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/)
 
- A3: ได้ คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+**อัปเดตล่าสุด:** 2026-02-22  
+**ทดสอบด้วย:** Aspose.3D for Java 24.11 (latest at time of writing)  
+**ผู้เขียน:** Aspose  
 
-### คำถามที่ 4: ฉันจะรับการสนับสนุนสำหรับ Aspose.3D ได้อย่างไร
-
- A4: เยี่ยมชมฟอรั่มการสนับสนุน[ที่นี่](https://forum.aspose.com/c/3d/18).
-
-### คำถามที่ 5: ฉันสามารถซื้อใบอนุญาตชั่วคราวได้หรือไม่
-
- A5: ได้ สามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

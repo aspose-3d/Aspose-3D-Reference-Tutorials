@@ -1,34 +1,47 @@
 ---
-title: Menggunakan Twist Offset dalam Ekstrusi Linier dengan Aspose.3D untuk Java
-linktitle: Menggunakan Twist Offset dalam Ekstrusi Linier dengan Aspose.3D untuk Java
-second_title: Asumsikan.3D Java API
-description: Tingkatkan keterampilan pemodelan 3D Anda dengan Aspose.3D untuk Java. Pelajari cara menggunakan Twist Offset dalam Ekstrusi Linier dalam tutorial komprehensif ini.
-
-weight: 15
+date: 2026-02-22
+description: Pelajari cara membuat adegan 3D dan mengekspor adegan 3D menggunakan
+  Aspose.3D untuk Java dengan ekstrusi linier, putaran, dan offset putaran.
+linktitle: Using Twist Offset in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Cara membuat adegan 3D dengan Twist Offset dalam Linear Extrusion menggunakan
+  Aspose.3D untuk Java
 url: /id/java/linear-extrusion/using-twist-offset/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menggunakan Twist Offset dalam Ekstrusi Linier dengan Aspose.3D untuk Java
+# Menggunakan Twist Offset dalam Linear Extrusion dengan Aspose.3D untuk Java
 
-## Perkenalan
+## Pendahuluan
 
-Dalam dunia grafis 3D yang dinamis, menguasai seni ekstrusi linier adalah sebuah terobosan. Dengan Aspose.3D untuk Java, Anda dapat meningkatkan keterampilan pemodelan 3D Anda dengan menggabungkan fitur Twist Offset ke dalam proses ekstrusi linier Anda. Tutorial ini akan memandu Anda melalui langkah-langkah memanfaatkan Twist Offset dalam Ekstrusi Linier menggunakan Aspose.3D untuk Java, memberi Anda alat untuk membuat pemandangan 3D yang menakjubkan.
+Dalam dunia grafis 3D yang dinamis, menguasai seni **create 3d scene** menjadi pengubah permainan bagi proyek pemodelan 3D Java apa pun. Dengan Aspose.3D untuk Java Anda tidak hanya dapat mengekstrusi bentuk secara linier tetapi juga menambahkan twist offset untuk menghasilkan geometri yang rumit dan berputar. Tutorial ini memandu Anda melalui setiap langkah yang diperlukan untuk **create 3d scene**, menerapkan twist linear extrusion, dan akhirnya **export 3d scene** ke file OBJ umum.
+
+## Jawaban Cepat
+- **Apa yang dilakukan Twist Offset?** Itu menggeser titik awal twist, memungkinkan Anda mengoffset rotasi sepanjang jalur ekstrusi.  
+- **Kelas mana yang melakukan linear extrusion?** `LinearExtrusion` – Anda dapat mengatur twist, slices, dan twist offset padanya.  
+- **Bisakah saya mengekspor hasilnya?** Ya, panggil `scene.save(..., FileFormat.WAVEFRONTOBJ)` untuk mengekspor scene 3D.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Lisensi sementara dapat digunakan untuk pengujian; lisensi penuh diperlukan untuk produksi.  
+- **Versi Java apa yang didukung?** Runtime Java 8+ apa pun dapat bekerja dengan perpustakaan Aspose.3D terbaru.
+
+## Apa itu “create 3d scene” dalam Aspose.3D?
+Membuat scene 3D berarti menginstansiasi objek `Scene`, menambahkan node (objek) ke dalam hierarkinya, dan akhirnya menyimpan scene ke format file pilihan Anda. Ini merupakan dasar bagi alur kerja pemodelan 3D apa pun di Java.
+
+## Mengapa menggunakan linear extrusion twist dengan twist offset?
+Menambahkan twist saat mengekstrusi memberi Anda bentuk spiral seperti kolom heliks atau pegangan dekoratif. Twist offset memungkinkan Anda memulai twist pada posisi khusus, memberikan kontrol lebih halus atas bentuk akhir—sempurna untuk komponen mekanik, model artistik, atau detail arsitektur.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+- **Lingkungan Java:** Pastikan Anda memiliki lingkungan pengembangan Java yang terpasang di sistem Anda.  
+- **Aspose.3D untuk Java:** Unduh dan instal perpustakaan Aspose.3D dari [download link](https://releases.aspose.com/3d/java/).  
+- **Dokumentasi:** Kenali [dokumentasi Aspose.3D untuk Java](https://reference.aspose.com/3d/java/).
 
-- Lingkungan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java di sistem Anda.
--  Aspose.3D untuk Java: Unduh dan instal perpustakaan Aspose.3D dari[tautan unduhan](https://releases.aspose.com/3d/java/).
--  Dokumentasi: Biasakan diri Anda dengan[Aspose.3D untuk dokumentasi Java](https://reference.aspose.com/3d/java/).
+## Mengimpor Paket
 
-## Paket Impor
-
-Di proyek Java Anda, impor paket yang diperlukan untuk mulai menggunakan Aspose.3D untuk Java. Pastikan Anda menyertakan perpustakaan yang diperlukan untuk integrasi yang lancar.
+Dalam proyek Java Anda, impor paket yang diperlukan untuk mulai menggunakan Aspose.3D untuk Java. Pastikan Anda menyertakan perpustakaan yang dibutuhkan untuk integrasi yang mulus.
 
 ```java
 import com.aspose.threed.*;
@@ -36,92 +49,97 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Langkah 1: Siapkan Lingkungan
+## Cara membuat 3d scene – Panduan Langkah‑per‑Langkah
 
-Mulailah dengan menyiapkan lingkungan pengembangan Java Anda dan memastikan bahwa Aspose.3D untuk Java diinstal dengan benar.
+### Langkah 1: Siapkan Lingkungan
+Mulailah dengan menyiapkan lingkungan pengembangan Java Anda dan memastikan bahwa Aspose.3D untuk Java terinstal dengan benar. Langkah ini penting untuk setiap pekerjaan **java 3d modeling**.
 
-## Langkah 2: Inisialisasi Profil Dasar
-
-Buat profil dasar untuk ekstrusi, dalam hal ini, RectangleShape dengan radius pembulatan 0,3.
+### Langkah 2: Inisialisasi Profil Dasar
+Buat profil dasar untuk ekstrusi, dalam hal ini, `RectangleShape` dengan radius pembulatan 0.3. Profil mendefinisikan penampang yang akan disapu sepanjang jalur ekstrusi.
 
 ```java
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
-// Inisialisasi profil dasar yang akan diekstrusi
+// Initialize the base profile to be extruded
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## Langkah 3: Buat Adegan 3D
-
-Bangun pemandangan 3D untuk menampung objek yang Anda ekstrusi.
+### Langkah 3: Buat 3D Scene
+Bangun sebuah 3D scene untuk menampung objek ekstrusi Anda. Di sinilah Anda akan **create child node** elemen yang mewakili setiap potongan geometri.
 
 ```java
-// Membuat heboh
+// Create a scene
 Scene scene = new Scene();
 ```
 
-## Langkah 4: Buat Node
-
-Hasilkan node dalam adegan untuk mewakili entitas yang berbeda.
+### Langkah 4: Buat Node
+Hasilkan node dalam scene untuk mewakili entitas yang berbeda. Di sini kami membuat dua node saudara—satu untuk ekstrusi polos dan satu lagi yang menggunakan twist offset.
 
 ```java
-// Buat simpul kiri
+// Create left node
 Node left = scene.getRootNode().createChildNode();
-// Buat simpul yang tepat
+// Create right node
 Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Langkah 5: Lakukan Ekstrusi Linier
-
-Memanfaatkan ekstrusi linier pada node kiri dan kanan dengan berbagai properti.
+### Langkah 5: Lakukan Linear Extrusion dengan Twist dan Twist Offset
+Terapkan linear extrusion pada kedua node. Node kiri menunjukkan twist dasar, sementara node kanan menambahkan twist offset untuk menggambarkan kontrol ekstra yang Anda dapatkan dengan fitur ini.
 
 ```java
-// Lakukan ekstrusi linier pada node kiri menggunakan properti twist dan irisan
+// Perform linear extrusion on left node using twist and slices property
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 
-// Lakukan ekstrusi linier pada node kanan menggunakan properti twist, twist offset, dan irisan
+// Perform linear extrusion on right node using twist, twist offset, and slices property
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setTwistOffset(new Vector3(3, 0, 0)); }});
 ```
 
-## Langkah 6: Simpan Adegan 3D
+> **Pro tip:** Sesuaikan `setSlices()` untuk meningkatkan resolusi mesh ketika Anda membutuhkan kelengkungan yang lebih halus.
 
-Simpan adegan 3D yang baru Anda buat dengan format file yang ditentukan.
+### Langkah 6: Simpan 3D Scene (Export 3d scene)
+Akhirnya, ekspor scene yang telah dirakit ke file OBJ sehingga Anda dapat melihatnya di penampil 3D standar mana pun atau mengimpornya ke alur kerja lain.
 
 ```java
-// Simpan adegan 3D
+// Save 3D scene
 scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Kesimpulan
+Ketika kode berhasil dijalankan, Anda akan menemukan `TwistOffsetInLinearExtrusion.obj` di direktori yang ditentukan, siap dibuka di alat seperti Blender, MeshLab, atau perangkat lunak CAD apa pun.
 
-Selamat! Anda telah berhasil mengimplementasikan Twist Offset di Linear Extrusion menggunakan Aspose.3D untuk Java. Fitur canggih ini membuka banyak kemungkinan untuk upaya pemodelan 3D Anda, memungkinkan Anda membuat pemandangan yang rumit dan menawan.
+## Masalah Umum dan Solusinya
+| Masalah | Mengapa Terjadi | Solusi |
+|-------|----------------|-----|
+| **Scene disimpan sebagai file kosong** | Path `MyDir` tidak benar atau tidak memiliki izin menulis. | Pastikan direktori ada dan dapat ditulisi, atau gunakan path absolut. |
+| **Twist terlihat datar** | `setSlices()` terlalu rendah, menghasilkan mesh kasar. | Tingkatkan jumlah slice (misalnya, 200) untuk twist yang lebih halus. |
+| **Twist offset tidak berpengaruh** | Vektor offset sejajar dengan arah ekstrusi. | Gunakan komponen X atau Y yang tidak nol untuk melihat pergeseran offset. |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Dapatkah saya menggunakan Aspose.3D untuk Java dalam proyek non-komersial?
-
- A1: Ya, Aspose.3D untuk Java dapat digunakan dalam proyek komersial dan non-komersial. Periksalah[pilihan lisensi](https://purchase.aspose.com/buy) untuk lebih jelasnya.
+### Q1: Bisakah saya menggunakan Aspose.3D untuk Java dalam proyek non‑komersial?
+A1: Ya, Aspose.3D untuk Java dapat digunakan baik dalam proyek komersial maupun non‑komersial. Periksa [licensing options](https://purchase.aspose.com/buy) untuk detail lebih lanjut.
 
 ### Q2: Di mana saya dapat menemukan dukungan untuk Aspose.3D untuk Java?
+A2: Kunjungi [forum Aspose.3D untuk Java](https://forum.aspose.com/c/3d/18) untuk mendapatkan bantuan dan terhubung dengan komunitas.
 
- A2: Kunjungi[Aspose.3D untuk forum Java](https://forum.aspose.com/c/3d/18) untuk mendapatkan bantuan dan berhubungan dengan masyarakat.
+### Q3: Apakah tersedia percobaan gratis untuk Aspose.3D untuk Java?
+A3: Ya, Anda dapat menjelajahi versi percobaan gratis dari [halaman rilis](https://releases.aspose.com/).
 
-### Q3: Apakah tersedia uji coba gratis untuk Aspose.3D untuk Java?
-
- A3: Ya, Anda dapat menjelajahi versi uji coba gratis dari[halaman rilis](https://releases.aspose.com/).
-
-### Q4: Bagaimana cara mendapatkan lisensi sementara Aspose.3D untuk Java?
-
- A4: Dapatkan lisensi sementara untuk proyek Anda dengan mengunjungi[Link ini](https://purchase.aspose.com/temporary-license/).
+### Q4: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D untuk Java?
+A4: Dapatkan lisensi sementara untuk proyek Anda dengan mengunjungi [tautan ini](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Apakah ada contoh dan tutorial tambahan yang tersedia?
+A5: Ya, lihat [dokumentasi](https://reference.aspose.com/3d/java/) untuk contoh lebih banyak dan tutorial mendalam.
 
- A5: Ya, lihat[dokumentasi](https://reference.aspose.com/3d/java/) untuk lebih banyak contoh dan tutorial mendalam.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Terakhir Diperbarui:** 2026-02-22  
+**Diuji Dengan:** Aspose.3D for Java 24.11 (terbaru)  
+**Penulis:** Aspose

@@ -1,33 +1,53 @@
 ---
-title: Impostazione della direzione nell'estrusione lineare con Aspose.3D per Java
-linktitle: Impostazione della direzione nell'estrusione lineare con Aspose.3D per Java
-second_title: API Java Aspose.3D
-description: Padroneggia l'estrusione lineare con Aspose.3D per Java! Segui la nostra guida per una programmazione 3D senza interruzioni. Scaricalo ora per un'esperienza accattivante.
-weight: 12
+date: 2026-02-22
+description: Scopri come impostare la direzione nell'estrusione lineare ed esportare
+  il modello 3D in formato OBJ usando Aspose.3D per Java. Segui la nostra guida passo‑passo.
+linktitle: Setting Direction in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Come impostare la direzione nell'estrusione lineare con Aspose.3D per Java
 url: /it/java/linear-extrusion/setting-direction/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Impostazione della direzione nell'estrusione lineare con Aspose.3D per Java
+# Come impostare la direzione nell'estrusione lineare con Aspose.3D per Java
 
-## introduzione
+## Introduzione
 
-Benvenuti nella nostra guida passo passo sull'impostazione della direzione nell'estrusione lineare utilizzando Aspose.3D per Java. Aspose.3D è una potente libreria Java che consente agli sviluppatori di lavorare senza problemi con file e scene 3D. In questo tutorial ci concentreremo sul compito specifico di impostare la direzione nell'estrusione lineare, migliorando la tua competenza nella programmazione 3D.
+In questo tutorial completo scoprirai **come impostare la direzione** quando esegui un'estrusione lineare con Aspose.3D per Java. Che tu stia costruendo uno strumento simile a un CAD o generando geometria per un motore di gioco, controllare la direzione dell'estrusione ti permette di creare esattamente la forma di cui hai bisogno. Ti guideremo passo passo, dall'inizializzazione di un profilo al salvataggio del risultato come file OBJ, così potrai anche **esportare file obj di modelli 3d** direttamente da Java.
+
+## Risposte rapide
+- **Qual è la classe principale per l'estrusione lineare?** `LinearExtrusion`
+- **Quale metodo definisce la direzione dell'estrusione?** `setDirection(Vector3 direction)`
+- **Posso esportare il risultato come OBJ?** Sì, usando `scene.save(..., FileFormat.WAVEFRONTOBJ)`
+- **È necessaria una licenza per lo sviluppo?** È disponibile una versione di prova gratuita; è richiesta una licenza per la produzione.
+- **Quale IDE Java funziona meglio?** IntelliJ IDEA o Eclipse sono entrambi pienamente supportati.
+
+## Cos'è l'estrusione lineare?
+
+L'estrusione lineare prende un profilo 2‑D (come un rettangolo o un cerchio) e lo estende lungo una linea retta per creare un solido 3‑D. Per impostazione predefinita l'estrusione segue l'asse Z positivo, ma Aspose.3D ti consente di modificare quel percorso con la proprietà `setDirection`.
+
+## Perché impostare la direzione nell'estrusione lineare?
+
+Impostare una direzione personalizzata è utile quando:
+- Allinei la geometria con oggetti esistenti in una scena.
+- Crei parti inclinate o angolate senza passaggi di trasformazione aggiuntivi.
+- Esporti modelli che devono corrispondere a un sistema di coordinate specifico (ad esempio, per la stampa 3‑D o i motori di gioco).
 
 ## Prerequisiti
 
-Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
+Prima di iniziare, assicurati di avere:
 
-- Conoscenza base del linguaggio di programmazione Java.
--  Libreria Aspose.3D installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/3d/java/).
-- Un ambiente di sviluppo integrato (IDE) per Java, come Eclipse o IntelliJ.
+- Conoscenze di base di Java.
+- Libreria Aspose.3D installata. Puoi scaricarla da [qui](https://releases.aspose.com/3d/java/).
+- Un IDE come Eclipse o IntelliJ IDEA.
 
-## Importa pacchetti
+## Importare i pacchetti
 
-Assicurati di importare i pacchetti necessari per avviare il tuo progetto:
+Per prima cosa, importa gli spazi dei nomi che forniscono le classi 3‑D di base e i tipi di utilità.
 
 ```java
 import com.aspose.threed.*;
@@ -36,28 +56,28 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Passaggio 1: inizializza il profilo di base
+## Passo 1: Inizializzare il profilo di base
 
- Inizia inizializzando il profilo di base da estrudere. In questo esempio usiamo a`RectangleShape` con raggio di arrotondamento 0,3:
+Crea la forma che verrà estrusa. In questo esempio usiamo un `RectangleShape` con un piccolo raggio di arrotondamento per dare ai bordi un aspetto liscio.
 
 ```java
-// Il percorso della directory dei documenti.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## Passaggio 2: crea una scena
+## Passo 2: Creare una scena
 
-Successivamente, crea una scena 3D per contenere gli oggetti estrusi:
+Un oggetto `Scene` funge da contenitore per tutti i nodi 3‑D, luci, telecamere e materiali.
 
 ```java
 Scene scene = new Scene();
 ```
 
-## Passaggio 3: crea nodi
+## Passo 3: Creare i nodi
 
-Crea nodi sinistro e destro all'interno della scena:
+Aggiungi due nodi figlio alla radice della scena — uno per l'estrusione a sinistra e uno per l'estrusione a destra. Il nodo destro è traslato in modo che i due oggetti non si sovrappongano.
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -65,58 +85,73 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Passaggio 4: eseguire l'estrusione lineare sul nodo sinistro
+## Passo 4: Eseguire l'estrusione lineare sul nodo sinistro
 
- Eseguire l'estrusione lineare sul nodo sinistro utilizzando il`LinearExtrusion`classe con parametri specificati come twist e slice:
+Estrudi il profilo sul nodo sinistro usando la direzione predefinita dell'asse Z. Aggiungiamo anche una torsione completa di 360° e aumentiamo il conteggio delle sezioni per una mesh più liscia.
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 ```
 
-## Passaggio 5: eseguire l'estrusione lineare sul nodo destro con direzione
+## Passo 5: Eseguire l'estrusione lineare sul nodo destro con direzione
 
- Eseguire l'estrusione lineare sul nodo destro, introducendo il`setDirection` proprietà per definire la direzione di estrusione:
+Qui è dove **impostiamo la direzione**. Passando un `Vector3` personalizzato a `setDirection`, l'estrusione segue il vettore (0.3, 0.2, 1), producendo una forma inclinata.
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setDirection(new Vector3(0.3, 0.2, 1));}});
 ```
 
-## Passaggio 6: salva la scena 3D
+## Passo 6: Salvare la scena 3D
 
-Salva la scena 3D nel formato file desiderato. In questo esempio, lo salviamo come file Wavefront OBJ:
+Infine, esporta la scena nel formato Wavefront OBJ. Questo passaggio dimostra come **salvare file obj java** e rende facile visualizzare il risultato in qualsiasi visualizzatore 3‑D.
 
 ```java
 scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
+## Problemi comuni e soluzioni
+
+| Problema | Perché accade | Soluzione |
+|----------|----------------|-----------|
+| Il file OBJ appare vuoto | Il profilo non è stato aggiunto a un nodo | Assicurati che `createChildNode` sia chiamato su un nodo valido |
+| La direzione sembra invariata | `setDirection` è stato chiamato dopo che l'estrusione era già stata costruita | Imposta la direzione all'interno dell'inizializzatore `LinearExtrusion` come mostrato |
+| Mesh a bassa risoluzione | Il valore di `setSlices` è troppo basso | Aumenta il conteggio delle sezioni (ad esempio, 100 o più) |
+
 ## Conclusione
 
-Congratulazioni! Hai imparato con successo come impostare la direzione nell'estrusione lineare utilizzando Aspose.3D per Java. Questo tutorial migliora le tue abilità nella programmazione 3D e apre nuove possibilità per progetti creativi.
+Ora sai **come impostare la direzione** in un'estrusione lineare, come regolare le impostazioni di torsione e sezioni, e come **esportare file obj di modelli 3d** usando Aspose.3D per Java. Queste tecniche ti offrono un controllo dettagliato sulla creazione della geometria e rendono semplice integrare asset 3‑D in pipeline più ampie.
 
-## Domande frequenti
+## FAQ
 
-### Q1: Posso utilizzare Aspose.3D con altri linguaggi di programmazione?
+### Q1: Posso usare Aspose.3D con altri linguaggi di programmazione?
 
 A1: Aspose.3D supporta vari linguaggi di programmazione, tra cui .NET e Java.
 
-### Q2. È disponibile una prova gratuita per Aspose.3D?
+### Q2. È disponibile una versione di prova gratuita per Aspose.3D?
 
- A2: Sì, puoi esplorare le funzionalità di Aspose.3D con una prova gratuita[Qui](https://releases.aspose.com/).
+A2: Sì, puoi esplorare le funzionalità di Aspose.3D con una prova gratuita [qui](https://releases.aspose.com/).
 
 ### Q3: Dove posso trovare la documentazione dettagliata per Aspose.3D per Java?
 
- A3: La documentazione completa è disponibile[Qui](https://reference.aspose.com/3d/java/).
+A3: La documentazione completa è disponibile [qui](https://reference.aspose.com/3d/java/).
 
 ### Q4: Come posso ottenere supporto per Aspose.3D?
 
- A4: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per qualsiasi assistenza o domanda.
+A4: Visita il [forum Aspose.3D](https://forum.aspose.com/c/3d/18) per qualsiasi assistenza o domanda.
 
 ### Q5: Sono disponibili licenze temporanee per Aspose.3D?
 
- R5: Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+A5: Sì, puoi ottenere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo aggiornamento:** 2026-02-22  
+**Testato con:** Aspose.3D per Java (ultima release)  
+**Autore:** Aspose

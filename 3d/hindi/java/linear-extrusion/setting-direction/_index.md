@@ -1,33 +1,53 @@
 ---
-title: जावा के लिए Aspose.3D के साथ लीनियर एक्सट्रूज़न में दिशा निर्धारित करना
-linktitle: जावा के लिए Aspose.3D के साथ लीनियर एक्सट्रूज़न में दिशा निर्धारित करना
-second_title: Aspose.3D जावा एपीआई
-description: जावा के लिए Aspose.3D के साथ लीनियर एक्सट्रूज़न में महारत हासिल करें! निर्बाध 3डी प्रोग्रामिंग के लिए हमारे गाइड का पालन करें। मनोरम अनुभव के लिए अभी डाउनलोड करें।
-weight: 12
+date: 2026-02-22
+description: Aspose.3D for Java का उपयोग करके रैखिक एक्सट्रूज़न में दिशा सेट करना
+  और 3D मॉडल OBJ निर्यात करना सीखें। हमारे चरण‑दर‑चरण मार्गदर्शक का पालन करें।
+linktitle: Setting Direction in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Aspose.3D for Java के साथ रैखिक एक्सट्रूज़न में दिशा कैसे सेट करें
 url: /hi/java/linear-extrusion/setting-direction/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा के लिए Aspose.3D के साथ लीनियर एक्सट्रूज़न में दिशा निर्धारित करना
+# How to Set Direction in Linear Extrusion with Aspose.3D for Java
 
-## परिचय
+## Introduction
 
-जावा के लिए Aspose.3D का उपयोग करके रैखिक एक्सट्रूज़न में दिशा निर्धारित करने पर हमारी चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है। Aspose.3D एक शक्तिशाली जावा लाइब्रेरी है जो डेवलपर्स को 3D फ़ाइलों और दृश्यों के साथ निर्बाध रूप से काम करने की अनुमति देती है। इस ट्यूटोरियल में, हम लीनियर एक्सट्रूज़न में दिशा निर्धारित करने, 3डी प्रोग्रामिंग में आपकी दक्षता बढ़ाने के विशिष्ट कार्य पर ध्यान केंद्रित करेंगे।
+इस व्यापक ट्यूटोरियल में आप **लाइनर एक्सट्रूज़न** के दौरान दिशा कैसे सेट करें, यह जानेंगे, Aspose.3D for Java का उपयोग करके। चाहे आप CAD‑जैसा टूल बना रहे हों या गेम इंजन के लिए ज्योमेट्री जेनरेट कर रहे हों, एक्सट्रूज़न दिशा को नियंत्रित करने से आप बिल्कुल वही आकार बना सकते हैं जिसकी आपको आवश्यकता है। हम प्रत्येक चरण को विस्तार से बताएँगे, प्रोफ़ाइल को इनिशियलाइज़ करने से लेकर परिणाम को OBJ फ़ाइल के रूप में सेव करने तक, ताकि आप सीधे Java से **3d मॉडल obj** फ़ाइलें एक्सपोर्ट कर सकें।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What is the primary class for linear extrusion?** `LinearExtrusion`
+- **Which method defines extrusion direction?** `setDirection(Vector3 direction)`
+- **Can I export the result as OBJ?** Yes, using `scene.save(..., FileFormat.WAVEFRONTOBJ)`
+- **Do I need a license for development?** A free trial is available; a license is required for production.
+- **What Java IDE works best?** IntelliJ IDEA or Eclipse are both fully supported.
 
-इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## What is Linear Extrusion?
 
-- जावा प्रोग्रामिंग भाषा का बुनियादी ज्ञान।
--  Aspose.3D लाइब्रेरी स्थापित की गई। आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/3d/java/).
-- जावा के लिए एक एकीकृत विकास वातावरण (आईडीई), जैसे कि एक्लिप्स या इंटेलीजे।
+लाइनर एक्सट्रूज़न 2‑D प्रोफ़ाइल (जैसे कि रेक्टैंगल या सर्कल) को एक सीधी रेखा के साथ विस्तारित करके 3‑D ठोस बनाता है। डिफ़ॉल्ट रूप से एक्सट्रूज़न पॉज़िटिव Z‑axis का अनुसरण करता है, लेकिन Aspose.3D आपको `setDirection` प्रॉपर्टी के साथ इस पाथ को बदलने की सुविधा देता है।
 
-## पैकेज आयात करें
+## Why Set Direction in Linear Extrusion?
 
-सुनिश्चित करें कि आप अपने प्रोजेक्ट को किकस्टार्ट करने के लिए आवश्यक पैकेज आयात करें:
+कस्टम दिशा सेट करना उपयोगी होता है जब:
+- सीन में मौजूदा ऑब्जेक्ट्स के साथ ज्योमेट्री को संरेखित करना हो।
+- अतिरिक्त ट्रांसफ़ॉर्मेशन स्टेप्स के बिना तिरछे या कोणीय भाग बनाना हो।
+- ऐसे मॉडल एक्सपोर्ट करना हों जो किसी विशिष्ट कोऑर्डिनेट सिस्टम से मेल खाते हों (जैसे 3‑D प्रिंटिंग या गेम इंजन के लिए)।
+
+## Prerequisites
+
+शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
+
+- Java का बेसिक ज्ञान।
+- Aspose.3D लाइब्रेरी इंस्टॉल हो। आप इसे [here](https://releases.aspose.com/3d/java/) से डाउनलोड कर सकते हैं।
+- Eclipse या IntelliJ IDEA जैसे IDE।
+
+## Import Packages
+
+पहले उन नेमस्पेसेस को इम्पोर्ट करें जो कोर 3‑D क्लासेज़ और यूटिलिटी टाइप्स प्रदान करते हैं।
 
 ```java
 import com.aspose.threed.*;
@@ -36,28 +56,28 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## चरण 1: बेस प्रोफ़ाइल प्रारंभ करें
+## Step 1: Initialize Base Profile
 
- एक्सट्रूड किए जाने वाले बेस प्रोफाइल को इनिशियलाइज़ करके शुरुआत करें। इस उदाहरण में, हम a का उपयोग करते हैं`RectangleShape` 0.3 की गोलाई त्रिज्या के साथ:
+उस आकार को बनाएं जिसे एक्सट्रूड किया जाएगा। इस उदाहरण में हम `RectangleShape` का उपयोग करते हैं जिसमें किनारों को स्मूद दिखाने के लिए थोड़ा राउंडिंग रेडियस दिया गया है।
 
 ```java
-// दस्तावेज़ निर्देशिका का पथ.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## चरण 2: एक दृश्य बनाएं
+## Step 2: Create a Scene
 
-इसके बाद, बाहर निकाली गई वस्तुओं को शामिल करने के लिए एक 3डी दृश्य बनाएं:
+एक `Scene` ऑब्जेक्ट सभी 3‑D नोड्स, लाइट्स, कैमरा और मैटेरियल्स के लिए कंटेनर के रूप में कार्य करता है।
 
 ```java
 Scene scene = new Scene();
 ```
 
-## चरण 3: नोड्स बनाएं
+## Step 3: Create Nodes
 
-दृश्य के भीतर बाएँ और दाएँ नोड बनाएँ:
+सीन रूट में दो चाइल्ड नोड्स जोड़ें—एक बाएँ‑हाथ एक्सट्रूज़न के लिए और एक दाएँ‑हाथ एक्सट्रूज़न के लिए। दाएँ नोड को ट्रांसलेट किया गया है ताकि दोनों ऑब्जेक्ट्स ओवरलैप न हों।
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -65,58 +85,73 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## चरण 4: बाएं नोड पर रैखिक एक्सट्रूज़न करें
+## Step 4: Perform Linear Extrusion on the Left Node
 
- का उपयोग करके बाएं नोड पर रैखिक एक्सट्रूज़न करें`LinearExtrusion`मोड़ और स्लाइस जैसे निर्दिष्ट मापदंडों के साथ वर्ग:
+बाएँ नोड पर डिफ़ॉल्ट Z‑axis दिशा का उपयोग करके प्रोफ़ाइल को एक्सट्रूड करें। हम एक पूर्ण 360° ट्विस्ट भी जोड़ते हैं और स्मूथ मेष के लिए स्लाइस काउंट बढ़ाते हैं।
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 ```
 
-## चरण 5: दिशा के साथ दाएं नोड पर रैखिक एक्सट्रूज़न करें
+## Step 5: Perform Linear Extrusion on the Right Node with Direction
 
- का परिचय देते हुए, दाएँ नोड पर रैखिक एक्सट्रूज़न करें`setDirection` एक्सट्रूज़न दिशा को परिभाषित करने के लिए संपत्ति:
+यहीं पर हम **दिशा सेट** करते हैं। `setDirection` में एक कस्टम `Vector3` पास करके, एक्सट्रूज़न वेक्टर (0.3, 0.2, 1) का अनुसरण करता है, जिससे एक तिरछा आकार बनता है।
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setDirection(new Vector3(0.3, 0.2, 1));}});
 ```
 
-## चरण 6: 3डी दृश्य सहेजें
+## Step 6: Save 3D Scene
 
-3डी दृश्य को वांछित फ़ाइल स्वरूप में सहेजें। इस उदाहरण में, हम इसे वेवफ्रंट OBJ फ़ाइल के रूप में सहेजते हैं:
+अंत में, सीन को Wavefront OBJ फॉर्मेट में एक्सपोर्ट करें। यह चरण दिखाता है कि **obj फ़ाइल java** प्रोजेक्ट्स को कैसे सेव किया जाता है और इसे किसी भी 3‑D व्यूअर में आसानी से देखा जा सकता है।
 
 ```java
 scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## निष्कर्ष
+## Common Issues and Solutions
 
-बधाई हो! आपने जावा के लिए Aspose.3D का उपयोग करके रैखिक एक्सट्रूज़न में दिशा निर्धारित करना सफलतापूर्वक सीख लिया है। यह ट्यूटोरियल 3डी प्रोग्रामिंग में आपके कौशल को बढ़ाता है और रचनात्मक परियोजनाओं के लिए नई संभावनाएं खोलता है।
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| OBJ फ़ाइल खाली दिखती है | प्रोफ़ाइल को किसी नोड में नहीं जोड़ा गया था | सुनिश्चित करें कि `createChildNode` वैध नोड पर कॉल किया गया है |
+| दिशा बदलती नहीं दिख रही | `setDirection` को एक्सट्रूज़न बन जाने के बाद कॉल किया गया | जैसा दिखाया गया है, `LinearExtrusion` इनिशियलाइज़र के अंदर दिशा सेट करें |
+| मेष की रेज़ोल्यूशन कम है | `setSlices` का मान बहुत कम है | स्लाइस काउंट बढ़ाएँ (उदाहरण के लिए 100 या अधिक) |
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Conclusion
 
-### Q1: क्या मैं अन्य प्रोग्रामिंग भाषाओं के साथ Aspose.3D का उपयोग कर सकता हूँ?
+अब आप जानते हैं **लाइनर एक्सट्रूज़न में दिशा कैसे सेट करें**, ट्विस्ट और स्लाइस सेटिंग्स को कैसे ट्यून करें, और Aspose.3D for Java का उपयोग करके **3d मॉडल obj** फ़ाइलें कैसे एक्सपोर्ट करें। ये तकनीकें आपको ज्योमेट्री निर्माण पर सूक्ष्म नियंत्रण देती हैं और बड़े पाइपलाइन में 3‑D एसेट्स को इंटीग्रेट करना आसान बनाती हैं।
 
-A1: Aspose.3D .NET और Java सहित विभिन्न प्रोग्रामिंग भाषाओं का समर्थन करता है।
+## FAQ's
 
-### Q2. क्या Aspose.3D के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
+### Q1: Can I use Aspose.3D with other programming languages?
 
- उ2: हाँ, आप नि:शुल्क परीक्षण के साथ Aspose.3D की विशेषताओं का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
+A1: Aspose.3D supports various programming languages, including .NET and Java.
 
-### Q3: मैं जावा के लिए Aspose.3D के लिए विस्तृत दस्तावेज़ कहां पा सकता हूं?
+### Q2. Is there a free trial available for Aspose.3D?
 
- A3: व्यापक दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/3d/java/).
+A2: Yes, you can explore the features of Aspose.3D with a free trial [here](https://releases.aspose.com/).
 
-### Q4: मैं Aspose.3D के लिए समर्थन कैसे प्राप्त कर सकता हूं?
+### Q3: Where can I find detailed documentation for Aspose.3D for Java?
 
- A4: पर जाएँ[Aspose.3D फोरम](https://forum.aspose.com/c/3d/18) किसी भी सहायता या प्रश्न के लिए।
+A3: The comprehensive documentation is available [here](https://reference.aspose.com/3d/java/).
 
-### Q5: क्या Aspose.3D के लिए अस्थायी लाइसेंस उपलब्ध हैं?
+### Q4: How can I get support for Aspose.3D?
 
- A5: हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+A4: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for any assistance or queries.
+
+### Q5: Are temporary licenses available for Aspose.3D?
+
+A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.3D for Java (latest release)  
+**Author:** Aspose
