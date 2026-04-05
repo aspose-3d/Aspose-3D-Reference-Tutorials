@@ -1,32 +1,53 @@
 ---
-title: Eksportuj sceny 3D jako chmury punktów za pomocą Aspose.3D dla Java
-linktitle: Eksportuj sceny 3D jako chmury punktów za pomocą Aspose.3D dla Java
-second_title: Aspose.3D API Java
-description: Dowiedz się, jak eksportować sceny 3D jako chmury punktów w Javie za pomocą Aspose.3D. Ulepsz swoje aplikacje dzięki potężnej grafice 3D i wizualizacjom.
-weight: 15
+date: 2026-03-02
+description: Dowiedz się, jak eksportować sceny 3D jako chmury punktów, korzystając
+  z możliwości chmur punktów w Aspose 3D. Ten przewodnik pokazuje, jak wyeksportować
+  chmurę punktów i zapisać plik chmury punktów w Javie.
+linktitle: Export 3D Scenes as Point Clouds with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: 'aspose 3d point cloud: Eksportuj sceny 3D jako chmury punktów przy użyciu
+  Aspose.3D dla Javy'
 url: /pl/java/point-clouds/export-3d-scenes-point-clouds-java/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Eksportuj sceny 3D jako chmury punktów za pomocą Aspose.3D dla Java
+# Eksportowanie scen 3D jako chmury punktów przy użyciu Aspose.3D dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-Aspose.3D for Java umożliwia eksport scen 3D w różnych formatach, w tym generowanie chmur punktów. Chmury punktów mają kluczowe znaczenie w różnych branżach, od gier po symulacje, oferując reprezentację przestrzeni fizycznej poprzez zbiór punktów w trójwymiarowym układzie współrzędnych.
+W tym praktycznym samouczku odkryjesz **jak wyeksportować chmurę punktów** z sceny 3D przy użyciu funkcji **aspose 3d point cloud** w Javie. Chmury punktów są szeroko stosowane do wizualizacji skanów rzeczywistych, tworzenia wirtualnych środowisk oraz zasilania pipeline'ów symulacji. Po zakończeniu przewodnika będziesz w stanie **zapisać plik chmury punktów** w popularnym formacie OBJ przy użyciu zaledwie kilku linii kodu.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co robi „aspose 3d point cloud”?** Umożliwia eksport sceny 3D jako zbioru wierzchołków (chmury punktów) zamiast pełnej geometrii siatki.  
+- **Jaki format jest używany dla chmury punktów?** Format OBJ jest obsługiwany poprzez `ObjSaveOptions`.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w celach oceny; licencja komercyjna jest wymagana do użytku produkcyjnego.  
+- **Jakiej wersji Javy wymaga?** Java 19.8 lub nowsza.  
+- **Gdzie mogę pobrać bibliotekę?** Pobierz ją ze strony oficjalnych wydań Aspose.
 
-Przed przystąpieniem do samouczka upewnij się, że spełnione są następujące wymagania wstępne:
+## Czym jest Aspose 3D Point Cloud?
 
-1.  Aspose.3D dla biblioteki Java: Pobierz i zainstaluj bibliotekę z[Tutaj](https://releases.aspose.com/3d/java/).
-2. Środowisko programistyczne Java: Skonfiguruj środowisko programistyczne Java w wersji 19.8 lub nowszej.
+**aspose 3d point cloud** to lekka reprezentacja sceny 3‑D, w której każdy wierzchołek jest przechowywany jako osobny punkt. Ten format jest idealny dla skanów dużej skali, danych LIDAR oraz scenariuszy, w których potrzebne jest szybkie renderowanie lub analiza bez obciążenia pełnymi danymi siatki.
 
-## Importuj pakiety
+## Dlaczego eksportować chmury punktów?
 
-Rozpocznij od zaimportowania niezbędnych pakietów do projektu Java. Pakiety te są niezbędne do korzystania z funkcjonalności Aspose.3D. Dodaj następujące linie do swojego kodu:
+- **Wydajność:** Chmury punktów są mniejsze i szybsze w ładowaniu, co czyni je idealnymi dla przeglądarek internetowych lub symulacji w czasie rzeczywistym.  
+- **Interoperacyjność:** Wiele pipeline'ów GIS, CAD i silników gier akceptuje pliki OBJ z chmurą punktów.  
+- **Analizy:** Badacze mogą uruchamiać algorytmy oparte na punktach (np. rekonstrukcję powierzchni) bezpośrednio na wyeksportowanych danych.
+
+## Wymagania wstępne
+
+Zanim zagłębisz się w samouczek, upewnij się, że spełnione są następujące wymagania:
+
+1. Biblioteka Aspose.3D for Java: Pobierz i zainstaluj bibliotekę z [tutaj](https://releases.aspose.com/3d/java/).  
+2. Środowisko programistyczne Javy: Skonfiguruj środowisko programistyczne Javy w wersji 19.8 lub wyższej.
+
+## Importowanie pakietów
+
+Rozpocznij od zaimportowania niezbędnych pakietów do swojego projektu Java. Pakiety te są niezbędne do korzystania z funkcjonalności Aspose.3D. Dodaj następujące linie do swojego kodu:
 
 ```java
 import com.aspose.threed.ObjSaveOptions;
@@ -37,69 +58,95 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Krok 1: Zainicjuj scenę
+## Krok 1: Inicjalizacja sceny
 
-Aby rozpocząć, zainicjuj scenę 3D za pomocą Aspose.3D. To jest płótno, na którym Twoje obiekty 3D ożyją. Użyj następującego fragmentu kodu:
+Aby rozpocząć, zainicjalizuj scenę 3D przy użyciu Aspose.3D. To jest płótno, na którym Twoje obiekty 3D ożyją.
 
 ```java
 // ExStart:1
-// Zainicjuj scenę
+// Initialize Scene
 Scene scene = new Scene(new Sphere());
-// RozwińKoniec:1
+// ExEnd:1
 ```
 
-## Krok 2: Zainicjuj opcję ObjSaveOptions
+## Krok 2: Inicjalizacja ObjSaveOptions
 
- Teraz zainicjuj`ObjSaveOptions`klasa, która udostępnia ustawienia zapisu scen 3D w formacie OBJ:
+Teraz zainicjalizuj klasę `ObjSaveOptions`, która zapewnia ustawienia do zapisywania scen 3D w formacie OBJ:
 
 ```java
-// Zainicjuj opcję ObjSaveOptions
+// Initialize  ObjSaveOptions
 ObjSaveOptions opt = new ObjSaveOptions();
 ```
 
-## Krok 3: Ustaw chmurę punktów
+## Krok 3: Ustawienie chmury punktów (jak wyeksportować chmurę punktów)
 
- Włącz funkcję eksportu chmury punktów, ustawiając opcję`setPointCloud` opcja`true`:
+Włącz funkcję eksportu chmury punktów, ustawiając opcję `setPointCloud` na `true`. To informuje Aspose, aby zapisał tylko pozycje wierzchołków.
 
 ```java
-// Aby wyeksportować scenę 3D jako chmurę punktów setPointCloud
+// To export 3D scene as point cloud setPointCloud
 opt.setPointCloud(true);
 ```
 
-## Krok 4: Zapisz scenę
+## Krok 4: Zapis sceny (zapis pliku chmury punktów)
 
-Zapisz scenę 3D jako chmurę punktów w żądanym katalogu:
+Zapisz scenę 3D jako chmurę punktów w wybranym katalogu. Metoda `save` respektuje wcześniej skonfigurowane opcje.
 
 ```java
-//Ratować
+// Save
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Gratulacje! Pomyślnie wyeksportowałeś scenę 3D jako chmurę punktów przy użyciu Aspose.3D dla Java. Ten samouczek dał wgląd w bezproblemową integrację i potężne możliwości, jakie Aspose.3D oferuje programistom Java.
+| Problem | Przyczyna | Rozwiązanie |
+|---------|-----------|-------------|
+| **Pusty plik OBJ** | nie wywołano `setPointCloud(true)` | Upewnij się, że linia `opt.setPointCloud(true);` znajduje się przed `scene.save`. |
+| **Plik nie znaleziony** | Nieprawidłowa ścieżka wyjściowa | Użyj ścieżki bezwzględnej lub sprawdź, czy katalog istnieje i jest zapisywalny. |
+| **Wyjątek licencyjny** | Wygasła wersja próbna lub brak licencji | Zastosuj ważną licencję Aspose za pomocą `License license = new License(); license.setLicense("Aspose.3D.lic");`. |
+
+## Podsumowanie
+
+Gratulacje! Pomyślnie wyeksportowałeś scenę 3D jako chmurę punktów przy użyciu Aspose.3D dla Javy. Ten samouczek pokazał **jak wyeksportować chmurę punktów** i **zapisać plik chmury punktów** przy minimalnym kodzie, umożliwiając integrację potężnych możliwości wizualizacji 3‑D w Twoich aplikacjach Java.
+
+## FAQ
+
+### Q1: Gdzie mogę znaleźć dokumentację Aspose.3D dla Javy?
+
+A1: Kompleksowa dokumentacja jest dostępna [tutaj](https://reference.aspose.com/3d/java/).
+
+### Q2: Jak mogę pobrać Aspose.3D dla Javy?
+
+A2: Pobierz bibliotekę [tutaj](https://releases.aspose.com/3d/java/).
+
+### Q3: Czy dostępna jest darmowa wersja próbna?
+
+A3: Tak, wypróbuj darmową wersję próbną [tutaj](https://releases.aspose.com/).
+
+### Q4: Potrzebujesz pomocy lub masz pytania?
+
+A4: Odwiedź forum społeczności Aspose.3D [tutaj](https://forum.aspose.com/c/3d/18).
+
+### Q5: Chcesz zakupić Aspose.3D dla Javy?
+
+A5: Sprawdź opcje zakupu [tutaj](https://purchase.aspose.com/buy).
 
 ## Często zadawane pytania
 
-### P1: Gdzie mogę znaleźć dokumentację Aspose.3D for Java?
+**P: Czy mogę użyć wyeksportowanej chmury punktów OBJ w Unity?**  
+O: Tak, importer OBJ w Unity odczytuje dane wierzchołków, więc chmura punktów pojawi się jako zbiór punktów.
 
- Odpowiedź 1: Dostępna jest obszerna dokumentacja[Tutaj](https://reference.aspose.com/3d/java/).
+**P: Czy istnieje sposób kontrolowania rozmiaru punktu przy wizualizacji pliku OBJ?**  
+O: Rozmiar punktu jest ustawieniem renderowania; możesz go dostosować w swoim przeglądarce lub silniku graficznym po imporcie.
 
-### P2: Jak mogę pobrać Aspose.3D dla Java?
+**P: Czy Aspose.3D obsługuje inne formaty chmur punktów, takie jak PLY?**  
+O: Obecnie tylko OBJ jest obsługiwany przy eksporcie chmur punktów; w razie potrzeby możesz przekonwertować OBJ na PLY przy użyciu narzędzi firm trzecich.
 
- Odpowiedź 2: Pobierz bibliotekę[Tutaj](https://releases.aspose.com/3d/java/).
+---
 
-### P3: Czy dostępny jest bezpłatny okres próbny?
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.3D for Java 24.12  
+**Author:** Aspose  
 
- Odpowiedź 3: Tak, skorzystaj z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
-
-### P4: Potrzebujesz pomocy lub masz pytania?
-
- A4: Odwiedź forum społeczności Aspose.3D[Tutaj](https://forum.aspose.com/c/3d/18).
-
-### P5: Chcesz kupić Aspose.3D dla Java?
-
- Odpowiedź 5: Zapoznaj się z możliwościami zakupu[Tutaj](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

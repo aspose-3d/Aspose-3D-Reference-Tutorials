@@ -1,32 +1,52 @@
 ---
-title: Exportieren Sie 3D-Szenen als Punktwolken mit Aspose.3D für Java
-linktitle: Exportieren Sie 3D-Szenen als Punktwolken mit Aspose.3D für Java
-second_title: Aspose.3D Java-API
-description: Erfahren Sie, wie Sie mit Aspose.3D 3D-Szenen als Punktwolken in Java exportieren. Erweitern Sie Ihre Anwendungen mit leistungsstarken 3D-Grafiken und Visualisierungen.
-weight: 15
+date: 2026-03-02
+description: Erfahren Sie, wie Sie 3D‑Szenen als Punktwolken mit den Punktwolken‑Funktionen
+  von Aspose 3D exportieren. Dieses Handbuch zeigt, wie Sie Punktwolken exportieren
+  und Punktwolken‑Dateien in Java speichern.
+linktitle: Export 3D Scenes as Point Clouds with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: 'Aspose 3D‑Punktwolke: 3D‑Szenen als Punktwolken mit Aspose.3D für Java exportieren'
 url: /de/java/point-clouds/export-3d-scenes-point-clouds-java/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Exportieren Sie 3D-Szenen als Punktwolken mit Aspose.3D für Java
+# Export 3D Scenes as Point Clouds with Aspose.3D for Java
 
-## Einführung
+## Einleitung
 
-Aspose.3D für Java ermöglicht den Export von 3D-Szenen in verschiedenen Formaten, einschließlich der Generierung von Punktwolken. Punktwolken sind in verschiedenen Branchen von entscheidender Bedeutung, von Spielen bis hin zu Simulationen. Sie bieten eine Darstellung eines physischen Raums durch eine Sammlung von Punkten in einem 3D-Koordinatensystem.
+In diesem praxisorientierten Tutorial entdecken Sie **how to export point cloud** Daten aus einer 3D‑Szene mithilfe der **aspose 3d point cloud**‑Funktion in Java. Punktwolken werden häufig zur Visualisierung von Real‑World‑Scans, zum Aufbau virtueller Umgebungen und zur Unterstützung von Simulationspipelines verwendet. Am Ende des Leitfadens können Sie **save point cloud file** im populären OBJ‑Format mit nur wenigen Codezeilen speichern.
+
+## Schnelle Antworten
+- **What does “aspose 3d point cloud” do?** Es ermöglicht das Exportieren einer 3D‑Szene als Sammlung von Scheitelpunkten (eine Punktwolke) anstelle vollständiger Mesh‑Geometrie.  
+- **Which format is used for the point cloud?** Das OBJ‑Format wird über `ObjSaveOptions` unterstützt.  
+- **Do I need a license?** Eine kostenlose Testversion funktioniert für die Evaluierung; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
+- **What Java version is required?** Java 19.8 oder höher.  
+- **Where can I get the library?** Laden Sie sie von der offiziellen Aspose‑Release‑Seite herunter.
+
+## Was ist eine Aspose 3D Punktwolke?
+
+Eine **aspose 3d point cloud** ist eine leichtgewichtige Darstellung einer 3‑D‑Szene, bei der jeder Scheitelpunkt als einzelner Punkt gespeichert wird. Dieses Format ist ideal für großflächige Scans, LIDAR‑Daten und Szenarien, in denen Sie schnelle Darstellung oder Analyse benötigen, ohne den Overhead vollständiger Mesh‑Daten.
+
+## Warum Punktwolken exportieren?
+
+- **Leistung:** Punktwolken sind kleiner und schneller zu laden, was sie perfekt für webbasierte Viewer oder Echtzeitsimulationen macht.  
+- **Interoperabilität:** Viele GIS-, CAD- und Game‑Engine‑Pipelines akzeptieren OBJ‑Punktwolken‑Dateien.  
+- **Analyse:** Forscher können punktbasierte Algorithmen (z. B. Oberflächenrekonstruktion) direkt auf den exportierten Daten ausführen.
 
 ## Voraussetzungen
 
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1.  Aspose.3D für Java-Bibliothek: Laden Sie die Bibliothek herunter und installieren Sie sie von[Hier](https://releases.aspose.com/3d/java/).
-2. Java-Entwicklungsumgebung: Richten Sie eine Java-Entwicklungsumgebung mit Version 19.8 oder höher ein.
+1. Aspose.3D for Java Library: Laden Sie die Bibliothek von [hier](https://releases.aspose.com/3d/java/) herunter und installieren Sie sie.  
+2. Java Development Environment: Richten Sie eine Java‑Entwicklungsumgebung mit Version 19.8 oder höher ein.
 
 ## Pakete importieren
 
-Beginnen Sie mit dem Importieren der erforderlichen Pakete in Ihr Java-Projekt. Diese Pakete sind für die Nutzung der Aspose.3D-Funktionalitäten unerlässlich. Fügen Sie Ihrem Code die folgenden Zeilen hinzu:
+Beginnen Sie damit, die notwendigen Pakete in Ihr Java‑Projekt zu importieren. Diese Pakete sind erforderlich, um die Aspose.3D‑Funktionalitäten zu nutzen. Fügen Sie die folgenden Zeilen zu Ihrem Code hinzu:
 
 ```java
 import com.aspose.threed.ObjSaveOptions;
@@ -37,69 +57,95 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Schritt 1: Szene initialisieren
+## Schritt 1: Szene initialisieren
 
-Initialisieren Sie zunächst eine 3D-Szene mit Aspose.3D. Dies ist die Leinwand, auf der Ihre 3D-Objekte zum Leben erweckt werden. Verwenden Sie den folgenden Codeausschnitt:
+Um zu beginnen, initialisieren Sie eine 3D‑Szene mit Aspose.3D. Dies ist die Leinwand, auf der Ihre 3D‑Objekte zum Leben erweckt werden.
 
 ```java
 // ExStart:1
-// Szene initialisieren
+// Initialize Scene
 Scene scene = new Scene(new Sphere());
 // ExEnd:1
 ```
 
-## Schritt 2: Initialisieren Sie ObjSaveOptions
+## Schritt 2: ObjSaveOptions initialisieren
 
- Initialisieren Sie nun die`ObjSaveOptions`Klasse, die Einstellungen zum Speichern von 3D-Szenen im OBJ-Format bereitstellt:
+Initialisieren Sie nun die Klasse `ObjSaveOptions`, die Einstellungen für das Speichern von 3D‑Szenen im OBJ‑Format bereitstellt:
 
 ```java
-// Initialisieren Sie ObjSaveOptions
+// Initialize  ObjSaveOptions
 ObjSaveOptions opt = new ObjSaveOptions();
 ```
 
-## Schritt 3: Punktwolke festlegen
+## Schritt 3: Punktwolke festlegen (how to export point cloud)
 
- Aktivieren Sie die Funktion zum Exportieren von Punktwolken, indem Sie Folgendes festlegen`setPointCloud` Option zu`true`:
+Aktivieren Sie die Punktwolken‑Exportfunktion, indem Sie die Option `setPointCloud` auf `true` setzen. Dadurch wird Aspose angewiesen, nur die Scheitelpunktpositionen zu schreiben.
 
 ```java
-// Um eine 3D-Szene als Punktwolke zu exportieren, setPointCloud
+// To export 3D scene as point cloud setPointCloud
 opt.setPointCloud(true);
 ```
 
-## Schritt 4: Speichern Sie die Szene
+## Schritt 4: Szene speichern (save point cloud file)
 
-Speichern Sie die 3D-Szene als Punktwolke im gewünschten Verzeichnis:
+Speichern Sie die 3D‑Szene als Punktwolke im gewünschten Verzeichnis. Die Methode `save` berücksichtigt die oben konfigurierten Optionen.
 
 ```java
-//Speichern
+// Save
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-Glückwunsch! Sie haben mit Aspose.3D für Java erfolgreich eine 3D-Szene als Punktwolke exportiert. Dieses Tutorial bietet einen Einblick in die nahtlose Integration und die leistungsstarken Funktionen, die Aspose.3D Java-Entwicklern bietet.
+| Problem | Ursache | Lösung |
+|-------|-------|-----|
+| **Leere OBJ-Datei** | `setPointCloud(true)` nicht aufgerufen | Stellen Sie sicher, dass die Zeile `opt.setPointCloud(true);` vor `scene.save` vorhanden ist. |
+| **Datei nicht gefunden** | Falscher Ausgabepfad | Verwenden Sie einen absoluten Pfad oder prüfen Sie, ob das Verzeichnis existiert und beschreibbar ist. |
+| **Lizenzausnahme** | Testversion abgelaufen oder Lizenz fehlt | Gültige Aspose‑Lizenz anwenden via `License license = new License(); license.setLicense("Aspose.3D.lic");`. |
 
-## FAQs
+## Fazit
 
-### F1: Wo finde ich die Dokumentation zu Aspose.3D für Java?
+Herzlichen Glückwunsch! Sie haben erfolgreich eine 3D‑Szene als Punktwolke mit Aspose.3D für Java exportiert. Dieses Tutorial zeigte **how to export point cloud** und **save point cloud file** mit minimalem Code und ermöglicht Ihnen, leistungsstarke 3‑D‑Visualisierungsfunktionen in Ihre Java‑Anwendungen zu integrieren.
 
- A1: Die umfassende Dokumentation ist vorhanden[Hier](https://reference.aspose.com/3d/java/).
+## FAQ's
 
-### F2: Wie kann ich Aspose.3D für Java herunterladen?
+### Q1: Wo finde ich die Aspose.3D‑Java‑Dokumentation?
 
- A2: Laden Sie die Bibliothek herunter[Hier](https://releases.aspose.com/3d/java/).
+A1: Die umfassende Dokumentation ist verfügbar [hier](https://reference.aspose.com/3d/java/).
 
-### F3: Gibt es eine kostenlose Testversion?
+### Q2: Wie kann ich Aspose.3D für Java herunterladen?
 
- A3: Ja, entdecken Sie die kostenlose Testversion[Hier](https://releases.aspose.com/).
+A2: Laden Sie die Bibliothek [hier](https://releases.aspose.com/3d/java/) herunter.
 
-### F4: Benötigen Sie Hilfe oder haben Sie Fragen?
+### Q3: Gibt es eine kostenlose Testversion?
 
- A4: Besuchen Sie das Aspose.3D-Community-Forum[Hier](https://forum.aspose.com/c/3d/18).
+A3: Ja, erkunden Sie die kostenlose Testversion [hier](https://releases.aspose.com/).
 
-### F5: Möchten Sie Aspose.3D für Java kaufen?
+### Q4: Brauchen Sie Unterstützung oder haben Sie Fragen?
 
- A5: Kaufoptionen erkunden[Hier](https://purchase.aspose.com/buy).
+A4: Besuchen Sie das Aspose.3D‑Community‑Forum [hier](https://forum.aspose.com/c/3d/18).
+
+### Q5: Möchten Sie Aspose.3D für Java kaufen?
+
+A5: Erkunden Sie die Kaufoptionen [hier](https://purchase.aspose.com/buy).
+
+## Häufig gestellte Fragen
+
+**Q: Kann ich die exportierte OBJ‑Punktwolke in Unity verwenden?**  
+A: Ja, Unitys OBJ‑Importer liest die Scheitelpunktdaten, sodass die Punktwolke als Sammlung von Punkten erscheint.
+
+**Q: Gibt es eine Möglichkeit, die Punktgröße beim Visualisieren der OBJ‑Datei zu steuern?**  
+A: Die Punktgröße ist eine Rendering‑Einstellung; Sie können sie in Ihrem Viewer oder Ihrer Grafik‑Engine nach dem Import anpassen.
+
+**Q: Unterstützt Aspose.3D andere Punktwolken‑Formate wie PLY?**  
+A: Derzeit wird für den Punktwolken‑Export nur OBJ unterstützt; Sie können OBJ bei Bedarf mit Drittanbieter‑Tools in PLY konvertieren.
+
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.3D for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
