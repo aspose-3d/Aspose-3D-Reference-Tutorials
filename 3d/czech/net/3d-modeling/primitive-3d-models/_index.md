@@ -1,35 +1,54 @@
 ---
-title: Vytváření primitivních 3D modelů
-linktitle: Vytváření primitivních 3D modelů
+date: 2026-03-26
+description: Naučte se, jak vytvořit 3D modely krabice a válce a uložit scénu jako
+  FBX pomocí Aspose.3D pro .NET.
+linktitle: Create 3D Box and Cylinder Models with Aspose.3D for .NET
 second_title: Aspose.3D .NET API
-description: Prozkoumejte svět 3D modelování s Aspose.3D pro .NET. Vytvářejte úžasné primitivní modely bez námahy.
-weight: 10
+title: Vytvořte 3D modely krabice a válce pomocí Aspose.3D pro .NET
 url: /cs/net/3d-modeling/primitive-3d-models/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytváření primitivních 3D modelů
+# Vytvořte 3D modely krabice a válce pomocí Aspose.3D
 
 ## Úvod
 
-Vítejte ve vzrušujícím světě 3D modelování s Aspose.3D pro .NET! V tomto komplexním tutoriálu prozkoumáme proces vytváření primitivních 3D modelů pomocí Aspose.3D krok za krokem. Ať už jste zkušený vývojář nebo zvědavý začátečník, tato příručka vám pomůže využít sílu Aspose.3D k vytvoření vizuálně úžasných 3D prvků pro vaše projekty.
+Vítejte ve vzrušujícím světě 3D modelování s Aspose.3D pro .NET! V tomto tutoriálu se naučíte **jak vytvořit 3d krabici** primitivy, přidat válec a exportovat celou scénu do FBX. Ať už stavíte rychlý prototyp nebo produkčně připravený pipeline aktiv, tyto kroky vám poskytnou pevný základ pro práci s 3D geometrií v .NET.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co tento tutoriál pokrývá?** Vytvoření 3D krabice, 3D válce a uložení scény jako FBX souboru.  
+- **Která knihovna je vyžadována?** Aspose.3D pro .NET (stáhněte z oficiálního webu).  
+- **Jak dlouho trvá implementace?** Přibližně 10‑15 minut pro základní scénu.  
+- **Mohu přizpůsobit rozměry?** Ano – konstruktory Box a Cylinder přijímají parametry velikosti.  
+- **Je pro produkci potřeba licence?** Platná licence Aspose.3D je vyžadována pro ne‑zkušební verze.
 
-Než se ponoříme do fascinující sféry 3D modelování, ujistěte se, že máte splněny následující předpoklady:
+## Co je „vytvořit 3d krabici“?
 
--  Aspose.3D for .NET: Stáhněte si a nainstalujte knihovnu Aspose.3D for .NET z[odkaz ke stažení](https://releases.aspose.com/3d/net/).
+Vytvoření 3D krabice znamená vygenerování jednoduchého krychle nebo pravoúhlého hranolu, který může sloužit jako stavební blok pro složitější modely. V Aspose.3D třída `Box` představuje tento primitiv a můžete jej přidat do scény jediným řádkem kódu.
 
-- Vývojové prostředí: Nastavte vývojové prostředí .NET zajišťující kompatibilitu s Aspose.3D.
+## Proč použít Aspose.3D pro tento úkol?
 
-Nyní, když máte to podstatné, pojďme se vydat na cestu vytváření primitivních 3D modelů krok za krokem.
+- **Čisté .NET API:** Žádné nativní závislosti, ideální pro projekty v C# a VB.NET.  
+- **Široká podpora formátů:** Export do FBX, OBJ, STL a mnoha dalších.  
+- **Vysoce‑úrovňové primitivy:** Box, Cylinder, Sphere atd., umožňují soustředit se na logiku místo na nízkoúrovňovou konstrukci mesh.  
+- **Optimalizováno pro výkon:** Efektivně zpracovává velké scény.
 
-## Importovat jmenné prostory
+## Požadavky
 
-Začněte importem potřebných jmenných prostorů pro přístup k funkcím poskytovaným Aspose.3D:
+Než se pustíme dál, ujistěte se, že máte:
+
+- Aspose.3D pro .NET: Stáhněte a nainstalujte knihovnu z [download link](https://releases.aspose.com/3d/net/).  
+- Vývojové prostředí .NET (Visual Studio, Rider nebo VS Code) kompatibilní s verzí Aspose.3D, kterou jste nainstalovali.
+
+Nyní, když máte vše potřebné, začněme krok za krokem budovat scénu.
+
+## Importujte jmenné prostory
+
+Začněte importováním potřebných jmenných prostorů pro přístup k funkcionalitě poskytované Aspose.3D:
 
 ```csharp
 using System;
@@ -41,82 +60,90 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Formats;
 ```
 
-těmito jmennými prostory na místě jste připraveni uvolnit sílu Aspose.3D ve vaší aplikaci .NET.
+S těmito jmennými prostory jste připraveni uvolnit sílu Aspose.3D ve vaší .NET aplikaci.
 
-## Krok 1: Inicializujte objekt scény
+## Krok 1: Inicializujte objekt Scene
 
 ```csharp
-//Inicializujte objekt Scene
+// Initialize a Scene object
 Scene scene = new Scene();
 ```
 
-Vytvořte nový objekt scény, který slouží jako plátno pro vaše 3D mistrovské dílo.
+Objekt `Scene` funguje jako plátno, kde budou žít všechny 3D entity.
 
-## Krok 2: Vytvořte krabicový model
+## Krok 2: Vytvořte model krabice
 
 ```csharp
-// Vytvořte model krabice
+// Create a Box model
 scene.RootNode.CreateChildNode("box", new Box());
 ```
 
-Přidejte krabicový model do kořene vaší scény. Přizpůsobte si rozměry a vlastnosti krabice podle své kreativní vize.
+Tento řádek přidá **3D krabici** primitivum do kořene vaší scény. Později můžete upravit její šířku, výšku a hloubku předáním parametrů do konstruktoru `Box`.
 
 ## Krok 3: Vytvořte model válce
 
 ```csharp
-// Vytvořte model válce
+// Create a Cylinder model
 scene.RootNode.CreateChildNode("cylinder", new Cylinder());
 ```
 
-Vylepšete svou scénu představením modelu válce. Upravte jeho parametry, abyste dosáhli požadovaného tvaru a velikosti.
+Válec doplňuje krabici a ukazuje, jak snadné je kombinovat různé primitivy.
 
 ## Krok 4: Uložte výkres ve formátu FBX
 
 ```csharp
-// Uložte výkres ve formátu FBX
+// Save drawing in the FBX format
 var output = "Your Output Directory" + "test.fbx";
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-Uložte své 3D mistrovské dílo ve formátu FBX. Vyberte vhodný výstupní adresář a název souboru pro vaši tvorbu.
+Zde **převádíme model do FBX** uložením celé scény jako FBX souboru. Klidně změňte cestu a název souboru podle struktury vašeho projektu.
 
 ## Krok 5: Zobrazte zprávu o úspěchu
 
 ```csharp
-// Zobrazit zprávu o úspěchu
+// Display success message
 Console.WriteLine("\nBuilding a scene from primitive 3D models successfully.\nFile saved at " + output);
 ```
 
-Oslavte svůj úspěch! Scéna je úspěšně sestavena z primitivních 3D modelů a soubor je uložen.
+Přátelská zpráva v konzoli potvrzuje, že operace **build 3d scene** byla dokončena bez chyb.
+
+## Časté problémy a tipy
+
+- **Výstupní adresář neexistuje:** Ujistěte se, že složka v `output` existuje, nebo před uložením použijte `Directory.CreateDirectory()`.  
+- **Licence není nastavena:** V ne‑zkušební verzi zavolejte `License license = new License(); license.SetLicense("Aspose.3D.lic");` před vytvořením `Scene`.  
+- **Vlastní rozměry:** Použijte `new Box(width, height, depth)` nebo `new Cylinder(radius, height)` pro nastavení velikosti.
 
 ## Závěr
 
- Gratulujeme! Úspěšně jste vytvořili úžasné 3D modely pomocí Aspose.3D pro .NET. Tato příručka pokrývá základy, ale možnosti jsou neomezené. Prozkoumat[dokumentace](https://reference.aspose.com/3d/net/) pro pokročilejší funkce a techniky.
+Gratulujeme! Úspěšně jste **vytvořili 3d krabici** a válec jako primitiva, postavili jednoduchou scénu a uložili ji jako FBX soubor pomocí Aspose.3D pro .NET. Základy jsou nyní ve vašem nářadí a můžete prozkoumat [documentation](https://reference.aspose.com/3d/net/) pro pokročilejší funkce jako materiály, osvětlení a animace.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu používat Aspose.3D pro .NET s jinými programovacími jazyky?
-
-A1: Aspose.3D primárně podporuje .NET, ale jsou k dispozici i další verze pro Javu a další platformy.
+### Q1: Mohu použít Aspose.3D pro .NET s jinými programovacími jazyky?
+A1: Aspose.3D primárně podporuje .NET, ale jsou k dispozici i jiné verze pro Javu a další platformy.
 
 ### Q2: Je k dispozici bezplatná zkušební verze?
+A2: Ano, můžete prozkoumat možnosti Aspose.3D pomocí [free trial](https://releases.aspose.com/).
 
- A2: Ano, můžete prozkoumat možnosti Aspose.3D pomocí a[zkušební verze zdarma](https://releases.aspose.com/).
-
-### Q3: Kde najdu podporu pro Aspose.3D pro .NET?
-
- A3: Navštivte[Aspose.3D fórum](https://forum.aspose.com/c/3d/18) za podporu komunity a diskuze.
+### Q3: Kde mohu najít podporu pro Aspose.3D pro .NET?
+A3: Navštivte [Aspose.3D forum](https://forum.aspose.com/c/3d/18) pro komunitní podporu a diskuze.
 
 ### Q4: Jak mohu získat dočasnou licenci?
+A4: Dočasnou licenci můžete získat [here](https://purchase.aspose.com/temporary-license/).
 
- A4: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+### Q5: Existují nějaké ukázkové tutoriály?
+A5: Ano, prozkoumejte další tutoriály a příklady v [documentation](https://reference.aspose.com/3d/net/).
 
-### Q5: Jsou k dispozici nějaké ukázkové tutoriály?
-
- A5: Ano, prozkoumejte další návody a příklady v[dokumentace](https://reference.aspose.com/3d/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Poslední aktualizace:** 2026-03-26  
+**Testováno s:** Aspose.3D 24.11 for .NET  
+**Autor:** Aspose
