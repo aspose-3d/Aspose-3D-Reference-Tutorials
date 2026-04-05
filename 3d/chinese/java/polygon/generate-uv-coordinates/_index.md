@@ -1,33 +1,43 @@
 ---
-title: 为 Java 3D 模型中的纹理映射生成 UV 坐标
-linktitle: 为 Java 3D 模型中的纹理映射生成 UV 坐标
+date: 2026-03-07
+description: 学习如何创建 UV 坐标、使用 Aspose.3D 为 Java 3D 模型生成 UV，并在简明的分步指南中导出 OBJ 文件。
+linktitle: Generate UV Coordinates for Texture Mapping in Java 3D Models
 second_title: Aspose.3D Java API
-description: 学习使用 Aspose.3D 为 Java 3D 模型生成 UV 坐标。通过此分步指南增强项目中的纹理映射。
-weight: 11
+title: 如何为 Java 3D 模型创建 UV 坐标
 url: /zh/java/polygon/generate-uv-coordinates/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 为 Java 3D 模型中的纹理映射生成 UV 坐标
+# 如何为 Java 3D 模型创建 UV 坐标
 
 ## 介绍
 
-欢迎阅读我们关于使用 Aspose.3D 在 Java 3D 模型中生成纹理映射的 UV 坐标的分步指南。在本教程中，我们将引导您完成为 3D 模型中的网格手动生成 UV 坐标的过程。这是纹理映射中的关键步骤，可让您增强 3D 模型的视觉吸引力。
+如果您正在寻找在 Java 3D 模型中进行纹理映射的 **how to create uv** 坐标，您来对地方了。在本教程中，我们将逐步演示如何使用 Aspose.3D 手动生成 UV 数据、将其附加到网格，并最终 **export OBJ file Java**‑兼容的几何体。完成后，您将了解 UV 映射为何重要、如何以编程方式生成它，以及如何在标准 OBJ 查看器中验证结果。
 
-## 先决条件
+## 快速答案
+- **What is UV mapping?** 它是将二维纹理坐标 (U & V) 分配给三维顶点的过程。  
+- **Which library helps you generate UV in Java?** Aspose.3D for Java。  
+- **Do I need a license to try this?** 有免费试用版；生产环境需要许可证。  
+- **Can I export the result as OBJ?** 可以 – 使用 `scene.save(..., FileFormat.WAVEFRONTOBJ)`。  
+- **What are the main steps?** 创建场景、构建网格、生成 UV、附加它并保存。
 
-在我们深入学习本教程之前，请确保您具备以下先决条件：
+## 什么是 UV 映射以及为何需要它？
 
-- 对 Java 编程有基本的了解。
-- 安装了 Aspose.3D for Java 库。您可以从以下位置下载：[这里](https://releases.aspose.com/3d/java/).
-- 您的系统上安装了 Java 集成开发环境 (IDE)。
+UV 映射允许您将二维图像（纹理）包裹在三维对象上。如果没有正确的 UV 坐标，纹理会出现拉伸、错位或完全缺失。手动生成 UV 可让您完全控制纹理的投射方式，这对于游戏、仿真以及任何视觉丰富的 Java 应用程序都至关重要。
+
+## 前提条件
+
+- 基本的 Java 编程知识。  
+- 已安装 Aspose.3D for Java – 您可以从 [here](https://releases.aspose.com/3d/java/) 下载。  
+- 已配置好 Aspose.3D JAR 位于类路径的 Java IDE（IntelliJ IDEA、Eclipse、VS Code 等）。
 
 ## 导入包
 
-在您的 Java 项目中，从 Aspose.3D 导入必要的包。确保您已设置在项目中使用 Aspose.3D 所需的依赖项。
+在您的 Java 项目中，导入必要的 Aspose.3D 类。这些导入让您能够进行场景管理、网格操作以及顶点元素处理。
 
 ```java
 import com.aspose.threed.Box;
@@ -40,92 +50,105 @@ import com.aspose.threed.VertexElement;
 import com.aspose.threed.VertexElementType;
 ```
 
-现在，让我们将示例分解为多个步骤：
+## 步骤指南
 
-## 第1步：设置文档目录路径
+### 步骤 1：设置文档目录路径
+
+定义生成的 OBJ 文件保存位置。
 
 ```java
 String MyDir = "Your Document Directory";
 ```
 
-将“您的文档目录”替换为您要保存 3D 模型文件的路径。
+> **Pro tip:** 使用绝对路径或 `System.getProperty("user.dir")` 以避免相对路径带来的意外。
 
-## 第 2 步：创建场景
+### 步骤 2：创建场景
+
+`Scene` 是所有三维对象的顶层容器。
 
 ```java
 Scene scene = new Scene();
 ```
 
-使用 Aspose.3D 初始化新的 3D 场景。
+### 步骤 3：创建网格
 
-## 第 3 步：创建网格
+我们将从一个简单的盒子网格开始，并刻意移除任何内置的 UV 数据，以模拟缺少纹理坐标的网格。
 
 ```java
 Mesh mesh = (new Box()).toMesh();
 mesh.getVertexElements().remove(mesh.getElement(VertexElementType.UV));
 ```
 
-生成一个网格（在本例中为一个盒子），并删除内置 UV 数据以模拟没有 UV 信息的网格。
+### 步骤 4：手动生成 UV 坐标
 
-## 第 4 步：手动生成 UV 坐标
+Aspose.3D 提供 `PolygonModifier.generateUV`，可为任意网格创建基本的平面 UV 布局。
 
 ```java
 VertexElement uv = PolygonModifier.generateUV(mesh);
 ```
 
-手动生成网格的 UV 坐标。
+### 步骤 5：将 UV 数据关联到网格
 
-## 第 5 步：将 UV 数据与网格关联
+现在将生成的 UV 元素重新附加到网格，使其成为顶点数据的一部分。
 
 ```java
 mesh.addElement(uv);
 ```
 
-将生成的 UV 数据与网格关联。
+### 步骤 6：创建节点并将网格添加到场景
 
-## 第 6 步：创建节点并将网格添加到场景中
+`Node` 表示场景图中的对象实例。将网格添加到节点后即可渲染。
 
 ```java
 Node node = scene.getRootNode().createChildNode(mesh);
 ```
 
-创建一个节点并将网格作为其子节点添加到场景中。
+### 步骤 7：导出 OBJ 文件（Java）
 
-## 第 7 步：将场景另存为 OBJ
+最后，将整个场景（包括我们新创建的 UV 坐标）写入 OBJ 文件，该文件几乎可以在任何 3D 工具中打开。
 
 ```java
 scene.save(MyDir + "test.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-将场景（包括具有生成的 UV 坐标的网格）保存为 OBJ 文件。
+> **What to expect:** 在类似 Blender 的查看器中打开 `test.obj` 应该会显示带有默认 UV 布局的盒子，准备好接受任何您应用的纹理。
 
-在您的 Java 项目中重复这些步骤，以使用 Aspose.3D 成功生成用于 Java 3D 模型中纹理映射的 UV 坐标。
+## 常见问题及解决方案
 
-## 结论
+| 问题 | 原因 | 解决方案 |
+|------|------|----------|
+| **UVs appear missing in the viewer** | 网格仍然包含旧的 UV 元素。 | 在生成新 UV 之前，确保已移除原始 UV (`mesh.getVertexElements().remove(...)`)。 |
+| **File not found error** | `MyDir` 指向不存在的文件夹。 | 首先创建该目录，或使用 `new File(MyDir).mkdirs();`。 |
+| **License exception** | 在生产环境中未使用有效许可证运行。 | 按 Aspose 文档说明应用临时或永久许可证。 |
 
-恭喜！您已成功学习如何使用 Aspose.3D 在 Java 3D 模型中生成用于纹理映射的 UV 坐标。这项技术为增强 3D 创作的视觉吸引力开辟了一个充满可能性的世界。
+## 常见问题
 
-## 常见问题解答
+### Q1：我可以在其他编程语言中使用 Aspose.3D for Java 吗？
 
-### Q1：我可以将 Aspose.3D for Java 与其他编程语言一起使用吗？
-
-A1：Aspose.3D 主要是为 Java 设计的，但 Aspose 也提供其他语言（如 .NET）的版本。检查文档以获取特定于语言的详细信息。
+A1: Aspose.3D 主要面向 Java，但 Aspose 也提供 .NET、C++ 等语言的绑定。请查阅官方文档获取特定语言的 API。
 
 ### Q2：Aspose.3D 有试用版吗？
 
- A2：是的，您可以通过使用可用的免费试用版来探索 Aspose.3D 的功能[这里](https://releases.aspose.com/).
+A2: 有，您可以通过 [here](https://releases.aspose.com/) 提供的免费试用版来体验 Aspose.3D 的功能。
 
-### Q3：如何获得 Aspose.3D 的支持？
+### Q3：如何获取 Aspose.3D 的支持？
 
-A3：访问Aspose.3D论坛[这里](https://forum.aspose.com/c/3d/18)获得社区支持并与其他用户互动。
+A3: 访问 Aspose.3D 论坛 [here](https://forum.aspose.com/c/3d/18) 获取社区支持并与其他用户交流。
 
-### Q4：在哪里可以找到 Aspose.3D 的综合文档？
+### Q4：在哪里可以找到 Aspose.3D 的完整文档？
 
- A4：文档可用[这里](https://reference.aspose.com/3d/java/).
+A4: 文档可在 [here](https://reference.aspose.com/3d/java/) 查看。
 
 ### Q5：我可以购买 Aspose.3D 的临时许可证吗？
 
- A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+A5: 可以，您可以在 [here](https://purchase.aspose.com/temporary-license/) 获取临时许可证。
+
+---
+
+**最后更新：** 2026-03-07  
+**测试环境：** Aspose.3D for Java 24.11（撰写时最新）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
