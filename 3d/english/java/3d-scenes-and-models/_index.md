@@ -2,10 +2,14 @@
 title: "Create 3D Scene Java with Aspose 3D Java"
 linktitle: "Create 3D Scene Java with Aspose 3D Java"
 second_title: "Aspose.3D Java API"
-description: "Learn how to create 3D scene Java using Aspose 3D Java, including compression and management of 3D scenes and models."
+description: "Learn how to create 3D scene java using Aspose 3D Java, including compression and management of 3D scenes and models."
 weight: 29
 url: /java/3d-scenes-and-models/
-date: 2026-02-04
+date: 2026-04-08
+keywords:
+  - create 3d scene java
+  - modify plane orientation
+  - export obj from java
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -27,7 +31,7 @@ Welcome to the ultimate guide for **Aspose 3D Java** developers! In this hub
 
 ## What is “create 3d scene java”?
 
-Creating a 3D scene in Java means programmatically defining cameras, lights, meshes, and materials, then exporting the scene to a format such as OBJ, FBX, or STL. Aspose 3D Java provides a fluent API that abstracts the low‑level details, allowing you to focus on the visual outcome rather than file‑format intricacies.
+Creating a 3D scene in Java means programmatically defining cameras, lights, meshes, and materials, then exporting the scene to a format such as OBJ, FBX, or STL. Aspose 3D Java provides a fluent API that abstracts the low‑level details, allowing you to focus on the visual outcome rather than file‑format intricacies. You can also **export OBJ from Java** with a single `scene.save("model.obj")` call.
 
 ## Why use Aspose 3D Java for 3D scene creation?
 
@@ -78,16 +82,10 @@ Explore the world of 3D scene manipulation in Java with Aspose 3D Java. This
 Learn how to save 3D meshes in custom binary formats using Aspose 3D Java. Enhance flexibility in Java applications with this step‑by‑step tutorial.
 ### [Work with 3D Properties and Custom Data in Java Scenes Using Aspose 3D](./managing-3d-properties-scenes/)
 Enhance your Java applications with Aspose 3D Java for seamless 3D property manipulation. Follow our tutorial for step‑by‑step guidance.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
-**Last Updated:** 2026-02-04  
+**Last Updated:** 2026-04-08  
 **Tested With:** Aspose.3D for Java (latest release)  
 **Author:** Aspose
 
@@ -109,3 +107,10 @@ Enhance your Java applications with Aspose 3D Java for seamless 3D property 
 **A:** Yes. The library is compatible with Android SDKs that support Java 8 or higher.
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
