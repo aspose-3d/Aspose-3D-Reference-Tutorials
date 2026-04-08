@@ -1,11 +1,17 @@
 ---
-date: 2026-02-07
-description: Узнайте, как создавать модели цилиндров со смещёнными вершинами в Aspose.3D
-  для Java, добавлять дочерние узлы с помощью шагов Java и легко экспортировать 3D‑модели
-  в файлы OBJ.
-linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
+date: 2026-04-08
+description: Узнайте, как создать цилиндр со смещённой верхней частью в Aspose.3D
+  для Java, добавить дочерний узел Java, установить смещение верхней части, сгенерировать
+  3D‑модель и экспортировать OBJ, используя временную лицензию Aspose.
+keywords:
+- aspose temporary license
+- generate 3d model
+- add child node java
+- java export obj
+- set offset top
+linktitle: Временная лицензия Aspose – Создать цилиндр со смещённым верхом (Java)
 second_title: Aspose.3D Java API
-title: Как создать цилиндр со смещённым верхом в Aspose.3D для Java
+title: Временная лицензия Aspose – Создать цилиндр со смещённым верхом (Java)
 url: /ru/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
@@ -14,41 +20,39 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Как создать цилиндр со смещённым верхом в Aspose.3D для Java
+# Aspose Temporary License – Создание цилиндра со смещённым верхом (Java)
 
 ## Введение
 
-Если вы хотите **how to create cylinder** объекты с пользовательским смещённым верхом в 3D‑сцене на Java, Aspose.3D делает процесс простым. В этом руководстве мы пройдём каждый шаг — от настройки сцены до экспорта готовой модели в файл OBJ — чтобы вы могли интегрировать цилиндры со смещённым верхом в свои приложения с уверенностью. К концу руководства вы освоите, как создавать цилиндрические формы с пользовательскими смещениями всего в несколько строк кода.
+If you’re looking to **create cylinder** objects with a custom offset top in a Java‑based 3D scene, Aspose.3D makes the process straightforward. In this tutorial we’ll walk through every step—from setting up the scene to exporting the final model as an OBJ file—so you can integrate offset‑top cylinders into your applications with confidence. By the end of the guide you’ll also understand how an **aspose temporary license** lets you evaluate these features without a full purchase.
 
 ## Быстрые ответы
 - **Какая библиотека используется?** Aspose.3D for Java  
-- **Можно ли сместить верх цилиндра?** Да, используя `setOffsetTop`  
-- **Как добавить дочерний узел в Java?** Вызовите `createChildNode` у корневого узла  
-- **В какой формат можно экспортировать?** Wavefront OBJ (`export 3d model obj`)  
-- **Нужна ли лицензия для тестирования?** Временная лицензия доступна для оценки  
+- **Можно ли сместить верх цилиндра?** Да, using `setOffsetTop`  
+- **Как добавить дочерний узел в Java?** Call `createChildNode` on the root node  
+- **В какой формат можно экспортировать?** Wavefront OBJ (`java export obj`)  
+- **Нужна ли лицензия для тестирования?** An **aspose temporary license** is available for evaluation  
 
-## Что такое “how to create cylinder” со смещённым верхом?
+## Что такое Aspose Temporary License?
 
-Создание цилиндра со смещённым верхом означает, что верхняя круглая грань смещена относительно основания, что позволяет моделировать конические или асимметричные формы без ручного управления вершинами. Aspose.3D предоставляет специальный конструктор и свойство `OffsetTop`, позволяющие достичь этого всего в несколько строк кода.
+An **aspose temporary license** is a short‑term, free evaluation key that unlocks the full feature set of Aspose.3D for Java during development and testing. It removes evaluation watermarks and allows you to generate 3D model files, such as OBJ, STL, or FBX, exactly as a paid license would.
 
-## Почему использовать Aspose.3D для Java?
+## Почему использовать Aspose.3D for Java?
 
-- **High‑level API:** Не требуется управлять низкоуровневыми данными меша.  
-- **Cross‑platform:** Работает в любой среде, совместимой с JVM.  
-- **Built‑in exporters:** Позволяют напрямую сохранять в OBJ, STL, FBX и другие форматы.  
-- **Extensible:** Легко добавлять дочерние узлы, применять трансформации и интегрировать с другими Java‑библиотеками.  
+- **High‑level API:** No need to manage low‑level mesh data.  
+- **Cross‑platform:** Works on any JVM‑compatible environment.  
+- **Built‑in exporters:** Directly save to OBJ, STL, FBX, and more.  
+- **Extensible:** Easily add child nodes, apply transformations, and integrate with other Java libraries.  
 
-## Предварительные требования
+## Необходимые условия
 
-Прежде чем приступить, убедитесь, что у вас есть:
-
-- **Java Development Kit (JDK)** — установлен совместимый вариант.  
-- **Aspose.3D for Java library** — скачайте последнюю JAR‑файл с официального сайта [here](https://releases.aspose.com/3d/java/).  
-- Любая IDE по вашему выбору (Eclipse, IntelliJ IDEA, NetBeans и т.д.).  
+- **Java Development Kit (JDK)** – a compatible version installed.  
+- **Aspose.3D for Java library** – download the latest JAR from the official site [here](https://releases.aspose.com/3d/java/).  
+- An IDE of your choice (Eclipse, IntelliJ IDEA, NetBeans, etc.).  
 
 ## Импорт пакетов
 
-Сначала импортируйте необходимые классы. Поместите эти инструкции в начало вашего Java‑файла:
+First, import the classes we’ll need. Place these statements at the top of your Java file:
 
 ```java
 import com.aspose.threed.Cylinder;
@@ -62,9 +66,9 @@ import java.io.IOException;
 
 ## Пошаговое руководство
 
-### Шаг 1: Создать сцену
+### Шаг 1: Создание Java 3D сцены
 
-Сцена служит контейнером для всех 3D‑объектов.
+A **java 3d scene** acts as the container for all 3D objects.
 
 ```java
 // ExStart:1
@@ -73,9 +77,9 @@ Scene scene = new Scene();
 // ExEnd:1
 ```
 
-### Шаг 2: Инициализировать цилиндр со смещённым верхом
+### Шаг 2: Инициализация цилиндра со смещённым верхом
 
-Здесь мы отвечаем на вопрос **how to create cylinder** с пользовательским смещением. Конструктор задаёт радиус, высоту, количество срезов, уровней и закрыт ли цилиндр. Затем мы смещаем верх с помощью `setOffsetTop`.
+Here we answer **how to create cylinder** with a custom offset. The constructor defines radius, height, slices, stacks, and whether the cylinder is closed. After that, we shift the top using `setOffsetTop`.
 
 ```java
 // ExStart:2
@@ -86,9 +90,9 @@ cylinder1.setOffsetTop(new Vector3(5, 3, 0));
 // ExEnd:2
 ```
 
-### Шаг 3: Как **add child node Java** – Присоединить первый цилиндр
+### Шаг 3: Добавление дочернего узла Java – Присоединение первого цилиндра
 
-Мы создаём дочерний узел под корневым узлом сцены и перемещаем цилиндр в нужное положение.
+We create a child node under the scene’s root node and move the cylinder to a desired location.
 
 ```java
 // ExStart:3
@@ -97,9 +101,9 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 // ExEnd:3
 ```
 
-### Шаг 4: Инициализировать второй цилиндр (без смещения)
+### Шаг 4: Инициализация второго цилиндра (без смещения)
 
-Для сравнения добавляем обычный цилиндр без смещения.
+For comparison, we add a regular cylinder without an offset.
 
 ```java
 // ExStart:4
@@ -108,7 +112,7 @@ Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExEnd:4
 ```
 
-### Шаг 5: Как **add child node Java** – Присоединить второй цилиндр
+### Шаг 5: Добавление дочернего узла Java – Присоединение второго цилиндра
 
 ```java
 // ExStart:5
@@ -117,9 +121,9 @@ scene.getRootNode().createChildNode(cylinder2);
 // ExEnd:5
 ```
 
-### Шаг 6: Как **export OBJ** – Сохранить сцену в OBJ
+### Шаг 6: Java Export OBJ – Сохранение сцены в OBJ
 
-Наконец, экспортируем всю сцену (оба цилиндра) в файл Wavefront OBJ, который широко поддерживается 3D‑инструментами.
+Finally, we **java export obj** the whole scene (both cylinders) as a Wavefront OBJ file, which is widely supported by 3D tools.
 
 ```java
 // ExStart:6
@@ -128,56 +132,50 @@ scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFo
 // ExEnd:6
 ```
 
-При запуске программы вы найдете `CustomizedOffsetTopCylinder.obj` в указанном каталоге, готовый к открытию в Blender, Maya или любом другом просмотрщике, поддерживающем OBJ.
+When you run the program, you’ll find `CustomizedOffsetTopCylinder.obj` in the specified directory, ready to be opened in Blender, Maya, or any other OBJ‑compatible viewer.
 
-## Почему это важно — реальные примеры применения
+## Как генерировать 3D‑модель и экспортировать OBJ в Java
 
-- **Architectural visualisation:** Цилиндры со смещённым верхом идеальны для моделирования колонн, сужающихся к потолку.  
-- **Mechanical parts:** Создавайте поршни или корпуса шестерён, где верхняя поверхность намеренно смещена.  
-- **Game assets:** Быстро генерируйте разнообразные формы столбов без ручного создания мешей.  
+The combination of `Scene.save(..., FileFormat.WAVEFRONTOBJ)` and the **aspose temporary license** lets you **generate 3d model** files quickly, without needing external converters. This is especially handy during prototyping or when sharing assets with designers.
 
-## Как экспортировать OBJ — сохранить сцену в OBJ
+## Примеры из реального мира
 
-Возможность экспорта OBJ в Aspose 3D позволяет делиться моделями практически с любой 3D‑конвейерной системой. Используя метод `scene.save(..., FileFormat.WAVEFRONTOBJ)`, вы **how to export obj** файлы напрямую из Java, исключая необходимость сторонних конвертеров.
-
-## Как добавить дочерний узел Java — присоединение геометрии
-
-Добавление дочерних узлов — стандартный способ организации графа сцены. Каждый вызов `createChildNode` возвращает узел, который можно трансформировать независимо, поэтому шаблон **add child node java** встречается дважды в этом руководстве.
-
-## Экспорт 3D модели OBJ — использование Aspose 3D Export OBJ
-
-Если вам нужно распространять модели среди дизайнеров, функция **export 3d model obj** предоставляет лёгкое текстовое представление, работающее во всех основных 3D‑приложениях. Тот же вызов API, использованный в Шаге 6, демонстрирует процесс **aspose 3d export obj**.
+- **Architectural visualisation:** Offset‑top cylinders model columns that taper toward the ceiling.  
+- **Mechanical parts:** Create pistons or gear housings where the top surface is intentionally shifted.  
+- **Game assets:** Produce varied pillar shapes on the fly, reducing the need for hand‑crafted meshes.  
 
 ## Распространённые проблемы и решения
 
 | Проблема | Причина | Решение |
 |----------|---------|----------|
-| **Файл OBJ пуст** | Сцена не сохранена корректно или указан неверный путь. | Убедитесь, что каталог вывода существует и у вас есть права записи. |
-| **Смещение не применено** | Используется более старая версия Aspose.3D. | Обновите до последней библиотеки, где поддерживается `setOffsetTop`. |
-| **Дочерний узел не виден** | Трансформация не применена. | Убедитесь, что вызываете `getTransform().setTranslation` после создания дочернего узла. |
+| **OBJ файл пустой** | Scene not saved correctly or wrong path. | Verify the output directory exists and you have write permissions. |
+| **Смещение не применено** | Using an older Aspose.3D version. | Update to the latest library where `setOffsetTop` is supported. |
+| **Дочерний узел не виден** | Transformation not applied. | Ensure you call `getTransform().setTranslation` after creating the child node. |
 
 ## Часто задаваемые вопросы
 
 **Q: Совместим ли Aspose.3D с различными Java IDE?**  
-A: Да, он без проблем работает с Eclipse, IntelliJ IDEA, NetBeans и другими IDE.
+A: Yes, it works seamlessly with Eclipse, IntelliJ IDEA, NetBeans, and other IDEs.
 
-**Q: Можно ли применять текстуры к созданным 3D‑объектам?**  
-A: Конечно! Используйте класс `Material` для назначения текстур и свойств поверхности.
+**Q: Могу ли я применять текстуры к созданным 3D объектам?**  
+A: Absolutely! Use the `Material` class to assign textures and surface properties.
 
 **Q: Есть ли варианты лицензирования Aspose.3D?**  
-A: Доступны различные модели лицензирования; вы можете изучить их [here](https://purchase.aspose.com/buy).
+A: Various licensing models are available; you can explore them [here](https://purchase.aspose.com/buy).
 
 **Q: Как получить помощь или поделиться опытом?**  
-A: Присоединяйтесь к форуму сообщества Aspose.3D [here](https://forum.aspose.com/c/3d/18) для поддержки и обсуждения.
+A: Join the Aspose.3D community forum [here](https://forum.aspose.com/c/3d/18) for support and discussion.
 
 **Q: Доступна ли временная лицензия для тестирования?**  
-A: Да, временную лицензию можно получить для оценки [here](https://purchase.aspose.com/temporary-license/).
+A: Yes, an **aspose temporary license** can be obtained for evaluation [here](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Последнее обновление:** 2026-02-07  
+**Последнее обновление:** 2026-04-08  
 **Тестировано с:** Aspose.3D for Java 24.12 (latest)  
 **Автор:** Aspose
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
