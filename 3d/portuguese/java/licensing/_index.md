@@ -67,12 +67,6 @@ Ao final deste tutorial, você não apenas terá aplicado a licença com sucesso
 ### [Aplicando uma Licença no Aspose.3D para Java](./applying-license-in-aspose-3d/)
 Desbloqueie todo o potencial do Aspose.3D em aplicações Java seguindo nosso guia abrangente sobre como aplicar licenças.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Perguntas Frequentes
 
 **Q: Posso usar o mesmo arquivo de licença em diferentes ambientes?**  
@@ -95,3 +89,9 @@ A: Depois de chamar `setLicense()`, tente uma operação premium como renderiza�
 **Última atualização:** 2026-02-20  
 **Testado com:** Aspose.3D for Java 24.11 (latest at time of writing)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

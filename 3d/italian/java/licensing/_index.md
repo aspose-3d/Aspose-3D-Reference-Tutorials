@@ -10,17 +10,7 @@ url: /it/java/licensing/
 weight: 22
 ---
 
- Keep dates unchanged.
-
-Thus:
-
-**Last Updated:** -> **Ultimo aggiornamento:** 2026-02-20
-
-**Tested With:** -> **Testato con:** Aspose.3D for Java 24.11 (latest at time of writing)
-
-**Author:** -> **Autore:** Aspose
-
-Now produce final content with same markdown and shortcodes. Ensure no extra spaces. Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -71,12 +61,6 @@ Alla fine di questo tutorial, non solo avrai applicato correttamente la licenza,
 ### [Applicare una Licenza in Aspose.3D per Java](./applying-license-in-aspose-3d/)
 Sblocca tutto il potenziale di Aspose.3D nelle applicazioni Java seguendo la nostra guida completa sull'applicazione delle licenze.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande Frequenti
 
 **Q: Posso usare lo stesso file di licenza in ambienti diversi?**  
@@ -99,3 +83,9 @@ A: Dopo aver chiamato `setLicense()`, prova un'operazione premium come il render
 **Ultimo aggiornamento:** 2026-02-20  
 **Testato con:** Aspose.3D for Java 24.11 (latest at time of writing)  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

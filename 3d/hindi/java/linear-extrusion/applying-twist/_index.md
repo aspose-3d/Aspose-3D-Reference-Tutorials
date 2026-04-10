@@ -15,38 +15,42 @@ weight: 14
 
 # रैखिक एक्सट्रूज़न में ट्विस्ट के साथ 3D सीन बनाएं – Aspose.3D for Java
 
-## Introduction
+## परिचय
 
-इस व्यावहारिक **java 3d tutorial** में आप सीखेंगे कि **3d सीन** ऑब्जेक्ट्स कैसे बनाएँ, *रैखिक एक्सट्रूज़न ट्विस्ट* लागू करें, और अंत में Aspose.3D for Java का उपयोग करके **export obj java** फ़ाइलें कैसे निर्यात करें। चाहे आप एक गेम एसेट, CAD प्रोटोटाइप, या विज़ुअल इफ़ेक्ट बना रहे हों, एक्सट्रूज़न के दौरान ट्विस्ट जोड़ने से आपके मॉडलों को एक गतिशील, सर्पिल‑जैसी उपस्थिति मिलती है जिसे साधारण एक्सट्रूज़न से प्राप्त करना कठिन है।
+इस प्रैक्टिकल **java 3d tutorial** में आप सीखेंगे कि **3d सीन** ऑब्जेक्ट्स कैसे बनाएं, *रैखिक एक्सट्रूज़न ट्विस्ट* लागू करें, और आखिर में Aspose.3D for Java का इस्तेमाल करके **export obj java** फाइल्स कैसे एक्सपोर्ट करें। चाहे आप एक गेम एसेट, CAD प्रोटोटाइप, या विज़ुअल इफ़ेक्ट बना रहे हों, एक्सट्रूज़न के दौरान ट्विस्ट जोड़ने से आपके पोजीशन को एक मूवमेंट, एपीआई‑जैसी अटेंडेंस मिलती है जिसे सिंपल एक्सट्रूज़न से पाना मुश्किल है।
 
-## Quick Answers
+## त्वरित उत्तर
 
-- **एक्सट्रूज़न में “ट्विस्ट” का क्या अर्थ है?** यह प्रोफ़ाइल को एक्सट्रूज़न पथ के साथ क्रमिक रूप से घुमाता है।  
-- **कौन सा लाइब्रेरी ट्विस्ट फीचर प्रदान करता है?** Aspose.3D for Java।  
-- **क्या मैं परिणाम को OBJ के रूप में एक्सपोर्ट कर सकता हूँ?** हाँ – `FileFormat.WAVEFRONTOBJ` का उपयोग करें।  
-- **क्या इस ट्यूटोरियल के लिए लाइसेंस चाहिए?** उत्पादन उपयोग के लिए एक अस्थायी या पूर्ण लाइसेंस आवश्यक है।  
-- **कौन सा Java संस्करण आवश्यक है?** Java 8 या उससे ऊपर।
+- **एक्सट्रूज़न में “ट्विस्ट” का क्या मतलब है?** यह प्रोफ़ाइल को एक्सट्रूज़न पाथ के साथ इंटेंसिव रूप से घुमाता है।
 
-## What is a “twist” in linear extrusion?
+- **कौन सा लाइब्रेरी ट्विस्ट फीचर देता है?** Aspose.3D for Java।
 
-ट्विस्ट एक परिवर्तन है जो एक्सट्रूडेड आकार के प्रत्येक स्लाइस को निर्दिष्ट कोण द्वारा घुमाता है। कोण को नियंत्रित करके आप सर्पिल, कॉर्कस्क्रू, या सूक्ष्म टॉर्क बना सकते हैं जो अन्यथा सपाट एक्सट्रूज़न में दृश्य रुचि नहीं जोड़ते।
+- **क्या मैं रिजल्ट को OBJ के रूप में एक्सपोर्ट कर सकता हूँ?** हाँ – `FileFormat.WAVEFRONTOBJ` का इस्तेमाल करें।
 
-## Why use Aspose.3D for Java?
+- **क्या इस ट्यूटोरियल के लिए लाइसेंस चाहिए?** प्रोडक्शन इस्तेमाल के लिए एक टेम्पररी या फुल लाइसेंस चाहिए।
 
-- **क्रॉस‑फ़ॉर्मेट समर्थन:** OBJ, FBX, और STL सहित दर्जनों 3D फ़ॉर्मेट को इम्पोर्ट और एक्सपोर्ट करता है।  
-- **शुद्ध Java API:** कोई नेटिव निर्भरताएँ नहीं, जिससे इसे किसी भी Java प्रोजेक्ट में आसानी से एकीकृत किया जा सकता है।  
-- **उच्च‑प्रदर्शन जियोमेट्री इंजन:** ट्विस्टिंग जैसी जटिल ऑपरेशनों को गति में कमी के बिना संभालता है।
+- **कौन सा Java एडिशन चाहिए?** Java8 या उससे ऊपर।
 
-## Prerequisites
+## लीनियर एक्सट्रूज़न में “ट्विस्ट” क्या है?
 
-- **Java Development Kit (JDK) 8+** आपके मशीन पर स्थापित होना चाहिए।  
-- **Aspose.3D for Java** – इसे [download link](https://releases.aspose.com/3d/java/) से डाउनलोड करें।  
-- बुनियादी Java सिंटैक्स और 3‑D अवधारणाओं की परिचितता।  
-- संदर्भ के लिए आधिकारिक [Aspose.3D documentation](https://reference.aspose.com/3d/java/) तक पहुँच।
+ट्विस्ट एक चेंज है जो एक्सट्रूडेड आकार के हर क्लोज्ड कोलिंक कोने से घुमाता है। कोने को कंट्रोल करके आप कॉइल, कॉर्कस्क्रू, या माइक्रो टर्न बना सकते हैं जो वरना प्लेन एक्सट्रूज़न में व्यू इंटरेस्ट नहीं जोड़ता।
 
-## Import Packages
+## Java के लिए Aspose.3D का इस्तेमाल क्यों करें?
 
-First, bring the required Aspose.3D classes into your project.
+- **क्रॉस-फॉर्मेट सपोर्ट:** OBJ, FBX, और STL सहित इनपुट 3D फॉर्मेट को इम्पोर्ट और एक्सपोर्ट करता है।
+- **शुद्ध Java API:** कोई नेटिव डिपेंडेंस नहीं, जिससे इसे किसी भी Java प्रोजेक्ट में आसानी से इंटीग्रेट किया जा सकता है।
+- **हाई-परफॉरमेंस जियोमेट्री इंजन:** ट्विस्टिंग जैसे कॉम्प्लेक्स ऑपरेशन्स को स्पीड में कमी के बिना हैंडल करता है।
+
+## ज़रूरी शर्तें
+
+- **Java Development Kit (JDK) 8+** आपकी मशीन पर इंस्टॉल होना चाहिए।
+- **Aspose.3D for Java** – इसे [download link](https://releases.aspose.com/3d/java/) से डाउनलोड करें।
+- बेसिक Java सिंटैक्स और 3‑D कॉन्फ़िगरेशन की जानकारी।
+- संदर्भ के लिए आधिकारिक [Aspose.3D डॉक्यूमेंटेशन](https://reference.aspose.com/3d/java/) तक पहुँचें।
+
+## Packages इंपोर्ट करें
+
+सबसे पहले, अपने प्रोजेक्ट में ज़रूरी Aspose.3D क्लास लाएँ।
 
 ```java
 import com.aspose.threed.*;
@@ -55,9 +59,9 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Step 1: Set the Document Directory
+## स्टेप 1: डॉक्यूमेंट डायरेक्टरी सेट करें
 
-Define where the generated OBJ file will be saved. Replace the placeholder with a real folder path on your system.
+डिफाइन करें कि जेनरेट की गई OBJ फ़ाइल कहाँ सेव होगी। प्लेसहोल्डर को अपने सिस्टम पर असली फ़ोल्डर पाथ से बदलें।
 
 ```java
 // ExStart:SetDocumentDirectory
@@ -65,9 +69,9 @@ String MyDir = "Your Document Directory";
 // ExEnd:SetDocumentDirectory
 ```
 
-## Step 2: Initialize the Base Profile
+## स्टेप 2: बेस प्रोफ़ाइल को इनिशियलाइज़ करें
 
-Create the shape that will be extruded. Here we use a rectangle with a small rounding radius to give the edges a softer look.
+वह शेप बनाएँ जिसे एक्सट्रूड किया जाएगा। यहाँ हम किनारों को सॉफ्ट लुक देने के लिए एक छोटे राउंडिंग रेडियस वाले रेक्टेंगल का इस्तेमाल करते हैं।
 
 ```java
 // ExStart:InitializeBaseProfile
@@ -76,9 +80,9 @@ profile.setRoundingRadius(0.3);
 // ExEnd:InitializeBaseProfile
 ```
 
-## Step 3: Create a Scene to Host Your Nodes
+## स्टेप 3: अपने नोड्स होस्ट करने के लिए एक सीन बनाएँ
 
-A `Scene` object is the container for all 3‑D entities (meshes, lights, cameras, etc.).  
+एक `सीन` ऑब्जेक्ट सभी 3‑D एंटिटीज़ (मेश, लाइट, कैमरा, वगैरह) के लिए कंटेनर होता है।
 
 ```java
 // ExStart:CreateScene
@@ -86,9 +90,9 @@ Scene scene = new Scene();
 // ExEnd:CreateScene
 ```
 
-## Step 4: Add Left and Right Nodes
+## स्टेप 4: लेफ्ट और राइट नोड्स जोड़ें
 
-We’ll create two sibling nodes: one without twist (for comparison) and one with a 90‑degree twist.
+हम दो सिबलिंग नोड्स बनाएँगे: एक बिना ट्विस्ट के (तुलना के लिए) और एक 90‑डिग्री ट्विस्ट के साथ।
 
 ```java
 // ExStart:CreateNodes
@@ -98,12 +102,13 @@ left.getTransform().setTranslation(new Vector3(5, 0, 0));
 // ExEnd:CreateNodes
 ```
 
-## Step 5: Perform Linear Extrusion with Twist
+## स्टेप 5: ट्विस्ट के साथ लीनियर एक्सट्रूज़न करें
 
-The `LinearExtrusion` constructor takes the profile and extrusion length.  
-- `setTwist(0)` → no rotation (straight extrusion).  
-- `setTwist(90)` → full 90‑degree rotation over the length.  
-Both nodes use 100 slices for smooth geometry.
+`LinearExtrusion` कंस्ट्रक्टर प्रोफ़ाइल और एक्सट्रूज़न की लंबाई लेता है।
+- `setTwist(0)` → कोई रोटेशन नहीं (सीधा एक्सट्रूज़न)।
+- `setTwist(90)` → लंबाई पर पूरा 90‑डिग्री रोटेशन।
+
+दोनों नोड्स स्मूद ज्योमेट्री के लिए 100 स्लाइस का इस्तेमाल करते हैं।
 
 ```java
 // ExStart:LinearExtrusionWithTwist
@@ -112,9 +117,9 @@ right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(90); setSlice
 // ExEnd:LinearExtrusionWithTwist
 ```
 
-## Step 6: Save the 3D Scene as OBJ
+## स्टेप 6: 3D सीन को OBJ के तौर पर सेव करें
 
-Finally, write the scene to an OBJ file so you can view it in any standard 3‑D viewer.
+आखिर में, सीन को एक OBJ फ़ाइल में लिखें ताकि आप इसे किसी भी स्टैंडर्ड 3‑D व्यूअर में देख सकें।
 
 ```java
 // ExStart:Save3DScene
@@ -122,57 +127,57 @@ scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 // ExEnd:Save3DScene
 ```
 
-## Common Issues & Tips
+## आम दिक्कतें और टिप्स
 
 - **फ़ाइल पथ त्रुटियाँ:** सुनिश्चित करें कि `MyDir` आपके OS के अनुसार पाथ सेपरेटर (`/` या `\\`) के साथ समाप्त हो।  
 - **ट्विस्ट एंगल बहुत बड़ा:** 360° से अधिक कोण ओवरलैपिंग जियोमेट्री का कारण बन सकते हैं; पूर्वानुमेय परिणामों के लिए 0‑360° के भीतर रखें।  
 - **प्रदर्शन:** `setSlices` बढ़ाने से स्मूदनेस बेहतर होती है लेकिन मेमोरी पर असर पड़ सकता है; अधिकांश मामलों में 100 स्लाइस एक अच्छा संतुलन है।
 
-## Frequently Asked Questions (Original)
+## अक्सर पूछे जाने वाले सवाल (ओरिजिनल)
 
-### Q1: Can I use Aspose.3D for Java to work with other 3D file formats?
+### Q1: क्या मैं दूसरे 3D फ़ाइल फ़ॉर्मैट के साथ काम करने के लिए Aspose.3D for Java का इस्तेमाल कर सकता हूँ?
 
-A1: Yes, Aspose.3D supports various 3D file formats, allowing you to import, export, and manipulate diverse file types.
+A1: हाँ, Aspose.3D अलग-अलग 3D फ़ाइल फ़ॉर्मैट को सपोर्ट करता है, जिससे आप अलग-अलग तरह की फ़ाइल को इंपोर्ट, एक्सपोर्ट और मैनिपुलेट कर सकते हैं।
 
-### Q2: Where can I find support for Aspose.3D for Java?
+### Q2: मुझे Aspose.3D for Java के लिए सपोर्ट कहाँ मिल सकता है?
 
-A2: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community support and discussions.
+A2: कम्युनिटी सपोर्ट और डिस्कशन के लिए [Aspose.3D फ़ोरम](https://forum.aspose.com/c/3d/18) पर जाएँ।
 
-### Q3: Is there a free trial available for Aspose.3D for Java?
+### Q3: क्या Aspose.3D for Java के लिए कोई फ़्री ट्रायल उपलब्ध है?
 
-A3: Yes, you can access the free trial version from [here](https://releases.aspose.com/).
+A3: हाँ, आप फ़्री ट्रायल वर्शन को [यहाँ](https://releases.aspose.com/) से एक्सेस कर सकते हैं।
 
-### Q4: How can I obtain a temporary license for Aspose.3D for Java?
+### Q4: मैं Aspose.3D for Java के लिए टेम्पररी लाइसेंस कैसे ले सकता हूँ?
 
-A4: Get a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/).
+A4: [टेम्पररी लाइसेंस पेज](https://purchase.aspose.com/temporary-license/) से टेम्पररी लाइसेंस लें।
 
-### Q5: Where can I purchase Aspose.3D for Java?
+### Q5: मैं Java के लिए Aspose.3D कहाँ से खरीद सकता हूँ?
 
-A5: Purchase Aspose.3D for Java from the [buying page](https://purchase.aspose.com/buy).
+A5: [बाइंग पेज](https://purchase.aspose.com/buy) से Java के लिए Aspose.3D खरीदें।
 
-## Additional FAQ (AI‑Optimized)
+## एक्स्ट्रा FAQ (AI‑ऑप्टिमाइज़्ड)
 
-**Q: Can I change the twist direction?**  
-A: Yes – use a negative angle in `setTwist()` to rotate in the opposite direction.
+**Q: क्या मैं ट्विस्ट की दिशा बदल सकता हूँ?**
+A: हाँ – उल्टी दिशा में घुमाने के लिए `setTwist()` में नेगेटिव एंगल का इस्तेमाल करें।
 
-**Q: Is it possible to apply different twist values along the extrusion?**  
-A: Aspose.3D currently applies a uniform twist; for variable twist you would need to generate multiple segments manually.
+**Q: क्या एक्सट्रूज़न के साथ अलग-अलग ट्विस्ट वैल्यू लगाना मुमकिन है?**
+A: Aspose.3D अभी एक यूनिफ़ॉर्म ट्विस्ट लगाता है; वेरिएबल ट्विस्ट के लिए आपको कई सेगमेंट मैन्युअली बनाने होंगे।
 
-**Q: How do I view the exported OBJ file?**  
-A: Any standard 3‑D viewer (e.g., Blender, MeshLab) can open OBJ files.
+**सवाल: मैं एक्सपोर्ट की गई OBJ फ़ाइल कैसे देखूँ?**
+जवाब: कोई भी स्टैंडर्ड 3‑D व्यूअर (जैसे, ब्लेंडर, मेशलैब) OBJ फ़ाइलें खोल सकता है।
 
-**Q: Does the library support texture mapping on twisted extrusions?**  
-A: Yes – after extrusion you can assign materials or UV coordinates to the node’s mesh.
+**सवाल: क्या लाइब्रेरी ट्विस्टेड एक्सट्रूज़न पर टेक्सचर मैपिंग को सपोर्ट करती है?**
+जवाब: हाँ – एक्सट्रूज़न के बाद आप नोड के मेश को मटीरियल या UV कोऑर्डिनेट असाइन कर सकते हैं।
 
-## Conclusion
+## नतीजा
 
-You’ve now **created a 3D scene**, applied a **linear extrusion twist**, and exported the result as an OBJ file using Aspose.3D for Java. Experiment with different profiles, twist angles, and slice counts to craft unique geometries for games, simulations, or 3‑D printing.
+अब आपने **एक 3D सीन बनाया है**, एक **लीनियर एक्सट्रूज़न ट्विस्ट** लगाया है, और जावा के लिए Aspose.3D का इस्तेमाल करके रिज़ल्ट को OBJ फ़ाइल के तौर पर एक्सपोर्ट किया है। गेम, सिमुलेशन या 3‑D प्रिंटिंग के लिए यूनिक ज्योमेट्री बनाने के लिए अलग-अलग प्रोफ़ाइल, ट्विस्ट एंगल और स्लाइस काउंट के साथ एक्सपेरिमेंट करें।
 
 ---
 
-**Last Updated:** 2026-02-20  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
+**पिछला अपडेट:** 2026-02-20
+**इसके साथ टेस्ट किया गया:** Aspose.3D for Java 24.11
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

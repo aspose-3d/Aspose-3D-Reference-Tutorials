@@ -9,18 +9,6 @@ url: /pl/java/geometry/transform-3d-nodes-with-euler-angles/
 weight: 19
 ---
 
- (keep)
-
-**Author:** Aspose (keep)
-
-Then closing shortcodes.
-
-Now ensure we keep all markdown formatting, code block placeholders unchanged.
-
-Also note "All URLs and file paths (never translate these)" we kept them unchanged.
-
-Now produce final content with translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

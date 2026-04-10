@@ -10,18 +10,6 @@ url: /nl/java/linear-extrusion/controlling-center/
 weight: 11
 ---
 
- 3D Graphics Tutorial – Center in Linear Extrusion" => "# Java 3D Graphics Tutorial – Center in Linear Extrusion". Actually maybe better: "# Java 3D Graphics Tutorial – Center in Linear Extrusion" => "# Java 3D Graphics Tutorial – Center in Linear Extrusion". I'm going to translate to "# Java 3D Graphics Tutorial – Center in Linear Extrusion". Eh.
-
-Let's just translate: "# Java 3D Graphics Tutorial – Center in Linear Extrusion" => "# Java 3D Graphics Tutorial – Center in Linear Extrusion". Not helpful.
-
-Ok, I'll translate: "# Java 3D Graphics Tutorial – Center in Linear Extrusion" => "# Java 3D Graphics Tutorial – Center in Linear Extrusion". I think they might accept unchanged because it's a product name. I'll keep as is.
-
-Proceed to other sections.
-
-I'll translate paragraph.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

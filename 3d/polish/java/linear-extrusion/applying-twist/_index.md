@@ -10,15 +10,7 @@ url: /pl/java/linear-extrusion/applying-twist/
 weight: 14
 ---
 
-/products/products-backtop-button >}}
-
-Check that we kept all shortcodes and code block placeholders. Yes.
-
-Make sure we didn't translate any URLs. They remain unchanged.
-
-All headings preserved.
-
-Now output only the translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

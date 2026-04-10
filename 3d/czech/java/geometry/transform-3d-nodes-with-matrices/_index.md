@@ -16,40 +16,40 @@ weight: 21
 
 # Transformujte 3D uzly pomocí transformačních matic s Aspose.3D
 
-## Introduction
+## Úvod
 
-Vítejte v tomto krok‑za‑krokem **java 3d graphics tutorial**. V tomto průvodci se naučíte, jak **concatenate transformation matrices** k snadnému transformování 3D uzlů pomocí Aspose.3D. Ať už vytváříte herní engine, CAD prohlížeč nebo vědecký vizualizér, zvládnutí konkatenace matic vám poskytne přesnou kontrolu nad translací, rotací a škálováním v jedné operaci.
+Vítejte v tomto krok‑za‑krokem **výuka java 3D grafiky**. V tomto průvodci se naučíte, jak **concatenate transformation matrices** k snadnému transformování 3D uzlů pomocí Aspose.3D. Ať už vytvoříte herní engine, CAD prohlížeč nebo vědecký vizualizér zvládnutý konkatenace matic vám poskytne přesnou kontrolu nad překladem, rotací a škálováním v jedné operaci.
 
-## Quick Answers
-- **What is the primary class for a 3D scene?** `Scene` – it holds all nodes, meshes, and lights.  
-- **How do I apply multiple transformations?** By concatenating transformation matrices on a node’s `Transform` object.  
-- **Which file format is used for saving?** FBX (ASCII 7500) is shown, but Aspose.3D supports many others.  
-- **Do I need a license for development?** A temporary license works for evaluation; a full license is required for production.  
-- **What IDE works best?** Any Java IDE (IntelliJ IDEA, Eclipse, NetBeans) that supports Maven/Gradle.
+## Rychlé odpovědi
+- **Jaká je primární třída pro 3D scénu?** „Scéna“ – obsahuje všechny uzly, sítě a světla.
+- **Jak mohu použít více transformací?** Zřetězením transformačních matic na objektu „Transform“ uzlu.
+- **Jaký formát souboru se používá pro ukládání?** Je zobrazen FBX (ASCII 7500), ale Aspose.3D podporuje mnoho dalších.
+- **Potřebuji licenci pro vývoj?** Dočasná licence funguje pro vyzkoušení; pro výrobu je nutná plná licence.
+- **Jaké IDE funguje nejlépe?** Jakékoli Java IDE (IntelliJ IDEA, Eclipse, NetBeans), které podporuje Maven/Gradle.
 
-## What is “concatenate transformation matrices”?
+## Co je to „matice zřetězení transformace“?
 
-Konkatenace transformačních matic znamená násobení dvou nebo více matic tak, že výsledná kombinovaná matice představuje sekvenci transformací (např. translate → rotate → scale). V Aspose.3D aplikujete výslednou matici na `Transform` uzlu, což umožňuje složité umístění jediným voláním.
+Konkatenace transformačních matic znamená násobení dvou nebo více matic tak, že výsledná kombinovaná matice představuje sekvenci transformací (např. translate→rotate→scale). V Aspose.3D použijete výslednou matici na `Transform` uzlu, což umožňuje složité umístění jediného volání.
 
-## Understanding matrix multiplication order 3d
+## Pochopení pořadí násobení matic 3d
 
-Pořadí **matrix multiplication order 3d** je důležité, protože násobení matic není komutativní. V praxi obvykle násobíte v pořadí **scale → rotate → translate**, abyste získali očekávaný vizuální výsledek. `Matrix4.multiply()` v Aspose.3D následuje stejnou konvenci, takže mějte pořadí na paměti při tvorbě kombinované matice.
+Pořadí **matice multiplication order 3d** je důležité, protože násobení matic není komutativní. V praxi obvykle násobíte v pořadí **měřítko → otočit → přeložit**, abyste získali očekávaný vizuální výsledek. `Matrix4.multiply()` v Aspose.3D následuje stejnou konvenci, takže mějte pořadí v paměti při tvorbě kombinované matice.
 
-## Why this java 3d graphics tutorial matters
+## Proč je tento tutoriál java 3D grafiky důležitý
 
-- **High‑performance rendering** – Aspose.3D je optimalizováno pro velké scény.  
-- **Cross‑format support** – Export do FBX, OBJ, STL, glTF a dalších.  
-- **Simple yet powerful API** – Knihovna abstrahuje nízkoúrovňovou matematiku a přitom poskytuje operace s maticemi pro detailní kontrolu.  
+- **Vysoce výkonný rendering** – Aspose.3D je optimalizováno pro velké scény.
+- **Podpora mezi formáty** – Export do FBX, OBJ, STL, glTF a dalších.
+- **Simple yet strong API** – Knihovna abstrahuje nízkoúrovňovou matematiku a přitom poskytuje operace s maticemi pro detailní kontrolu.
 
-## Prerequisites
+## Předpoklady
 
-Předtím, než se ponoříte dál, ujistěte se, že máte:
+Předtím, než ponoříte dál, najdete se, že máte:
 
-- Základní znalosti programování v Javě.  
-- Nainstalovanou knihovnu Aspose.3D – stáhněte ji z [here](https://releases.aspose.com/3d/java/).  
+- Základní znalosti programování v Javě.
+- Nainstalovanou knihovnu Aspose.3D – stáhněte si ji z [zde](https://releases.aspose.com/3d/java/).
 - Java IDE (IntelliJ, Eclipse nebo NetBeans) s podporou Maven/Gradle.
 
-## Import Packages
+## Importujte balíčky
 
 Ve svém Java projektu importujte potřebné třídy Aspose.3D. Tento importní blok musí zůstat přesně tak, jak je uveden:
 
@@ -58,9 +58,9 @@ import com.aspose.threed.*;
 
 ```
 
-## Step-by-Step Guide
+## Podrobný návod
 
-### Step 1: Initialize the Scene Object
+### Krok 1: Inicializace objektu scény
 
 Vytvořte objekt `Scene`, který funguje jako kořenový kontejner pro všechny 3D elementy.
 
@@ -68,7 +68,7 @@ Vytvořte objekt `Scene`, který funguje jako kořenový kontejner pro všechny 
 Scene scene = new Scene();
 ```
 
-### Step 2: Initialize a Node (Cube)
+### Krok 2: Inicializace uzlu (krychle)
 
 Instancujte `Node`, který bude obsahovat geometrii krychle.
 
@@ -76,7 +76,7 @@ Instancujte `Node`, který bude obsahovat geometrii krychle.
 Node cubeNode = new Node("cube");
 ```
 
-### Step 3: Create Mesh Using Polygon Builder
+### Krok 3: Vytvoření sítě pomocí nástroje pro tvorbu polygonů
 
 Vygenerujte mesh pro krychli pomocí pomocné metody v `Common`.
 
@@ -84,7 +84,7 @@ Vygenerujte mesh pro krychli pomocí pomocné metody v `Common`.
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-### Step 4: Attach Mesh to the Node
+### Krok 4: Připojení sítě k uzlu
 
 Propojte geometrii s uzlem, aby scéna věděla, co má vykreslovat.
 
@@ -92,7 +92,7 @@ Propojte geometrii s uzlem, aby scéna věděla, co má vykreslovat.
 cubeNode.setEntity(mesh);
 ```
 
-### Step 5: Set a Custom Translation Matrix (Concatenation Example)
+### Krok 5: Nastavení vlastní matice posunu (příklad zřetězení)
 
 Zde **concatenate transformation matrices** přímo poskytnutím vlastní `Matrix4`. Můžete nejprve vytvořit samostatné matice pro translaci, rotaci a škálování a násobit je, ale pro stručnost ukazujeme jedinou kombinovanou matici.
 
@@ -107,7 +107,7 @@ cubeNode.getTransform().setTransformMatrix(new Matrix4(
 
 > **Pro tip:** Pro concatenaci více matic vytvořte každou `Matrix4` (např. `translation`, `rotation`, `scale`) a použijte `Matrix4.multiply()` před přiřazením výsledku do `setTransformMatrix`.
 
-### Step 6: Add the Cube Node to the Scene
+### Krok 6: Přidání uzlu krychle do scény
 
 Vložte uzel do hierarchie scény pod kořenový uzel.
 
@@ -115,7 +115,7 @@ Vložte uzel do hierarchie scény pod kořenový uzel.
 scene.getRootNode().addChildNode(cubeNode);
 ```
 
-### Step 7: Save the 3D Scene
+### Krok 7: Uložení 3D scény
 
 Vyberte adresář a název souboru, poté exportujte scénu. Příklad ukládá jako FBX ASCII, ale můžete přepnout na OBJ, STL atd. změnou `FileFormat`.
 
@@ -126,45 +126,45 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-## Common Issues and Solutions
+## Běžné problémy a řešení
 
-| Issue | Cause | Fix |
+| Problém | Příčina | Oprava |
 |-------|-------|-----|
-| **Scene not saving** | Invalid directory path or missing write permissions | Verify `MyDir` points to an existing folder and the application has file‑system rights. |
-| **Matrix seems to have no effect** | Using an identity matrix or forgetting to assign it | Ensure you call `setTransformMatrix` after creating the matrix, and double‑check the matrix values. |
-| **Incorrect orientation** | Rotation order mismatch when concatenating matrices | Multiply matrices in the order *scale → rotate → translate* to achieve expected results. |
+| **Scéna se neukládá** | Neplatná cesta k adresáři nebo chybějící oprávnění k zápisu | Ověřte, zda `MyDir` odkazuje na existující složku a zda má aplikace oprávnění k souborovému systému. |
+| **Matice se zdá být bez efektu** | Používáte jednotkovou matici nebo jste ji zapomněli přiřadit | Po vytvoření matice zavolejte `setTransformMatrix` a dvakrát zkontrolujte hodnoty matice. |
+| **Nesprávná orientace** | Neshoda pořadí rotace při zřetězení matic | Pro dosažení očekávaných výsledků vynásobte matice v pořadí *měřítko → rotace → posun*. |
 
-## Frequently Asked Questions
+## Často kladené otázky
 
-### Q1: Can I apply multiple transformations to a single 3D node?
+### Otázka 1: Mohu na jeden 3D uzel použít více transformací?
 
-**A1:** Ano. Vytvořte samostatné matice pro každou transformaci (translaci, rotaci, škálování) a **concatenate transformation matrices** pomocí násobení před přiřazením finální matice.
+**Odpověď:** Ano. Vytvořte samostatné matice pro každou transformaci (translaci, rotaci, škálování) a **concatenate transformation matrices** pomocí násobení před přiřazením finální matice.
 
-### Q2: How can I rotate a 3D object in Aspose.3D?
+### Q2: Jak mohu otočit 3D objekt v Aspose.3D?
 
-**A2:** Vytvořte rotační matici (např. kolem osy Y) pomocí `Matrix4.createRotationY(angle)` a concatenujte ji s jakoukoli existující maticí.
+**A2:** Vytvořte rotační matici (např. kolem osy Y) pomocí `Matrix4.createRotationY(angle)` a spojte ji s jakoukoli existující maticí.
 
-### Q3: Is there a limit to the size of the 3D scenes I can create?
+### Q3: Existuje omezení velikosti 3D scén, které mohu vytvořit?
 
-**A3:** Praktický limit určuje paměť a CPU vašeho systému. Aspose.3D je navrženo pro efektivní práci s velkými scénami, ale u extrémně složitých modelů sledujte využití zdrojů.
+**A3:** Praktický limit určuje paměť a CPU vašeho systému. Aspose.3D je navržen pro efektivní práci s velkými scénami, ale u extrémně složitých modelů sledujte využití zdrojů.
 
-### Q4: Where can I find additional examples and documentation?
+### Q4: Kde najdu další příklady a dokumentaci?
 
-**A4:** Navštivte [Aspose.3D documentation](https://reference.aspose.com/3d/java/) pro kompletní seznam API, ukázkových kódů a osvědčených postupů.
+**A4:** Navštivte [Dokumentace Aspose.3D](https://reference.aspose.com/3d/java/) pro kompletní seznam API, ukázkových kódů a osvědčených postupů.
 
-### Q5: How do I obtain a temporary license for Aspose.3D?
+### Q5: Jak získám dočasnou licenci pro Aspose.3D?
 
-**A5:** Dočasnou licenci můžete získat [here](https://purchase.aspose.com/temporary-license/).
+**A5:** Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
-## Conclusion
+## Závěr
 
-Nyní ovládáte **concatenate transformation matrices** pro manipulaci s 3D uzly v prostředí Java pomocí Aspose.3D. Experimentujte s různými kombinacemi matic – translací, rotací, škálováním – a vytvářejte sofistikované animace a modely. Až budete připraveni, prozkoumejte další funkce Aspose.3D, jako jsou osvětlení, řízení kamery a export do dalších formátů.
+Nyní ovládáte **concatenate transformation matrices** pro manipulaci s 3D uzly v prostředí Java pomocí Aspose.3D. Experimentujte s různými kombinacemi matic – translací, rotací, škálováním – a vytvářejte sofistikované animace a modely. Až budete připraveni, vyzkoušejte další funkce Aspose.3D, jako jsou osvětlení, řízení kamery a export do dalších formátů.
 
 ---
 
-**Last Updated:** 2026-02-20  
-**Tested With:** Aspose.3D 24.11 for Java  
-**Author:** Aspose
+**Poslední aktualizace:** 20. 2. 2026
+**Testováno s:** Aspose.3D 24.11 pro Javu
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

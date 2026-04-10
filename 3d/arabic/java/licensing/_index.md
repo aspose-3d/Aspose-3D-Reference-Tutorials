@@ -60,12 +60,6 @@ weight: 22
 ### [تطبيق ترخيص في Aspose.3D للـ Java](./applying-license-in-aspose-3d/)
 افتح الإمكانات الكاملة لـ Aspose.3D في تطبيقات Java باتباع دليلنا الشامل حول تطبيق الترخيص.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام نفس ملف الترخيص في بيئات مختلفة؟**  
@@ -88,3 +82,9 @@ weight: 22
 **آخر تحديث:** 2026-02-20  
 **تم الاختبار مع:** Aspose.3D for Java 24.11 (latest at time of writing)  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

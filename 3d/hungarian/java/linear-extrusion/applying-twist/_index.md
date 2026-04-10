@@ -10,18 +10,6 @@ url: /hu/java/linear-extrusion/applying-twist/
 weight: 14
 ---
 
- verzió:**"
-
-**Author:** => "**Szerző:**"
-
-Now translate those.
-
-Now ensure code block placeholders remain unchanged.
-
-Now produce final content with all translations.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

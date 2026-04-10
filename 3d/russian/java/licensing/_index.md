@@ -61,12 +61,6 @@ weight: 22
 ### [Применение лицензии в Aspose.3D для Java](./applying-license-in-aspose-3d/)
 Разблокируйте весь потенциал Aspose.3D в Java‑приложениях, следуя нашему всестороннему руководству по применению лицензий.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Можно ли использовать один и тот же файл лицензии в разных средах?**  
@@ -89,3 +83,9 @@ weight: 22
 **Последнее обновление:** 2026-02-20  
 **Тестировано с:** Aspose.3D for Java 24.11 (latest at time of writing)  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

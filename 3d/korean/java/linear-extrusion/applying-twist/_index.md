@@ -15,35 +15,35 @@ weight: 14
 
 # 선형 압출에서 트위스트를 사용한 3D 씬 만들기 – Aspose.3D for Java
 
-## Introduction
+## 소개
 
-이 실습 **java 3d tutorial**에서는 **create 3d scene** 객체를 만들고, *linear extrusion twist*를 적용한 뒤, Aspose.3D for Java를 사용해 **export obj java** 파일을 내보내는 방법을 배웁니다. 게임 에셋, CAD 프로토타입, 혹은 시각 효과를 만들고 있든, 압출 과정에 트위스트를 추가하면 평범한 압출만으로는 얻기 어려운 역동적이고 나선형 같은 외관을 모델에 부여할 수 있습니다.
+이 활동 **java 3d tutorial**에서는 **3d 장면 생성**을 조정하고, *선형 압출 트위스트*를 적용한 뒤, Aspose.3D for Java를 실행 **export obj java** 파일을 감시하는 방법을 배웁니다. 에셋, CAD 게임 유형, 아니면 잘 효과를 만들 수 있고, 익스텐션 과정에 트위스트를 추가하면 기본 확장 가능한 액션과 나선형 같은 범위를 모델에 부여할 수 있습니다.
 
-## Quick Answers
-- **twist가 압출에서 의미하는 바는 무엇인가요?** 압출 경로를 따라 프로파일을 점진적으로 회전시킵니다.  
-- **어떤 라이브러리가 트위스트 기능을 제공하나요?** Aspose.3D for Java.  
-- **결과를 OBJ로 내보낼 수 있나요?** Yes – use `FileFormat.WAVEFRONTOBJ`.  
-- **이 튜토리얼에 라이선스가 필요합니까?** 프로덕션 사용을 위해 임시 라이선스 또는 정식 라이선스가 필요합니다.  
-- **필요한 Java 버전은 무엇인가요?** Java 8 이상.
+## 빠른 답변
+- **twist가 확장에서 의미하는 것은 무엇입니까?** 압출 바를 따라 대략적인 방향으로 회전합니다.
+- **어떤 라이브러리가 트위스트 기능을 제공하나요?** Aspose.3D for Java.
+- **결과를 OBJ로 내보낼 수 있을까요?** 예 – `FileFormat.WAVEFRONTOBJ`를 사용하세요.
+- **이 능력을 발휘하는 데 필요한 능력이 필요합니까?** 법칙을 사용하기 위해 능력을 발휘하는 능력이 필요합니다.
+- **필요한 Java 버전은 무엇입니까?** Java8 이상.
 
-## What is a “twist” in linear extrusion?
+## 선형 압출의 "비틀림"이란 무엇입니까?
 
-트위스트는 압출된 형태의 각 슬라이스를 지정된 각도만큼 회전시키는 변환입니다. 각도를 조절함으로써 나선, 코르크스크류, 혹은 미묘한 비틀림을 만들어 평평한 압출물에 시각적 흥미를 더할 수 있습니다.
+트위스트는 확장된 형태의 각 보호를 지정하여 회전 가능한 변환입니다. 방향을 조절하지 않고, 코르크스크류, 또는 변형된 변형을 만들기 위해 확장물에 연관시키는 것을 더 할 수 있습니다.
 
-## Why use Aspose.3D for Java?
+## Java용 Aspose.3D를 사용하는 이유는 무엇입니까?
 
-- **Cross‑format support:** OBJ, FBX, STL 등 수십 가지 3D 포맷을 가져오고 내보낼 수 있습니다.  
-- **Pure Java API:** 네이티브 의존성이 없어 모든 Java 프로젝트에 쉽게 통합할 수 있습니다.  
-- **High‑performance geometry engine:** 트위스트와 같은 복잡한 연산을 속도 저하 없이 처리합니다.
+- **교차 형식 지원:** OBJ, FBX, STL 등 응원하는 3D포맷을 제출하려고 내보낼 수 있습니다.
+- **순수 Java API:** 존재하지 않는 의존성 제거 모든 Java 프로젝트에 쉽게 통합할 수 있습니다.
+- **고성능 지오메트리 엔진:** 트위스트와 일체형 컴포트형 컴포트 패드를 보호합니다.
 
-## Prerequisites
+## 전제 조건
 
-- **Java Development Kit (JDK) 8+** 가 머신에 설치되어 있어야 합니다.  
-- **Aspose.3D for Java** – [download link](https://releases.aspose.com/3d/java/)에서 다운로드하십시오.  
-- 기본 Java 문법 및 3‑D 개념에 익숙해야 합니다.  
-- 공식 [Aspose.3D documentation](https://reference.aspose.com/3d/java/)에 접근할 수 있어야 합니다.
+- **JDK(Java Development Kit) 8+** 가 머신에 설치해야 합니다.
+- **Aspose.3D for Java** – [다운로드 링크](https://releases.aspose.com/3d/java/)에서 다운로드해 보세요.
+- 기본적으로 Java 기호 및 3D 개념에 대기해야 합니다.
+- 공식 [Aspose.3D 문서](https://reference.aspose.com/3d/java/)에 접근할 수 있어야 합니다.
 
-## Import Packages
+## 패키지 가져오기
 
 First, bring the required Aspose.3D classes into your project.
 
@@ -54,9 +54,9 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Step 1: Set the Document Directory
+## 1단계: 문서 디렉터리 설정
 
-Define where the generated OBJ file will be saved. Replace the placeholder with a real folder path on your system.
+생성된 OBJ 파일이 저장될 위치를 지정합니다. 자리 표시자를 시스템의 실제 폴더 경로로 바꾸세요.
 
 ```java
 // ExStart:SetDocumentDirectory
@@ -64,9 +64,9 @@ String MyDir = "Your Document Directory";
 // ExEnd:SetDocumentDirectory
 ```
 
-## Step 2: Initialize the Base Profile
+## 2단계: 기본 프로파일 초기화
 
-Create the shape that will be extruded. Here we use a rectangle with a small rounding radius to give the edges a softer look.
+돌출될 모양을 생성합니다. 여기서는 모서리를 부드럽게 보이도록 작은 곡률 반경을 가진 직사각형을 사용합니다.
 
 ```java
 // ExStart:InitializeBaseProfile
@@ -75,9 +75,9 @@ profile.setRoundingRadius(0.3);
 // ExEnd:InitializeBaseProfile
 ```
 
-## Step 3: Create a Scene to Host Your Nodes
+## 3단계: 노드를 담을 장면 생성
 
-A `Scene` object is the container for all 3‑D entities (meshes, lights, cameras, etc.).  
+`Scene` 객체는 모든 3D 요소(메시, 조명, 카메라 등)를 담는 컨테이너입니다. 
 
 ```java
 // ExStart:CreateScene
@@ -85,9 +85,9 @@ Scene scene = new Scene();
 // ExEnd:CreateScene
 ```
 
-## Step 4: Add Left and Right Nodes
+## 4단계: 왼쪽 및 오른쪽 노드 추가
 
-We’ll create two sibling nodes: one without twist (for comparison) and one with a 90‑degree twist.
+비교를 위해 비틀림이 없는 노드 하나와 90도 비틀림이 있는 노드 하나, 이렇게 두 개의 형제 노드를 생성합니다.
 
 ```java
 // ExStart:CreateNodes
@@ -97,12 +97,15 @@ left.getTransform().setTranslation(new Vector3(5, 0, 0));
 // ExEnd:CreateNodes
 ```
 
-## Step 5: Perform Linear Extrusion with Twist
+## 5단계: 비틀림을 적용한 직선 돌출 수행
 
-The `LinearExtrusion` constructor takes the profile and extrusion length.  
-- `setTwist(0)` → no rotation (straight extrusion).  
-- `setTwist(90)` → full 90‑degree rotation over the length.  
-Both nodes use 100 slices for smooth geometry.
+`LinearExtrusion` 생성자는 프로파일과 돌출 길이를 매개변수로 받습니다.
+
+- `setTwist(0)` → 회전 없음(직선 돌출).
+
+- `setTwist(90)` → 전체 길이에 걸쳐 90도 회전합니다.
+
+두 노드 모두 부드러운 형상을 위해 100개의 슬라이스를 사용합니다.
 
 ```java
 // ExStart:LinearExtrusionWithTwist
@@ -111,9 +114,9 @@ right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(90); setSlice
 // ExEnd:LinearExtrusionWithTwist
 ```
 
-## Step 6: Save the 3D Scene as OBJ
+## 6단계: 3D 장면을 OBJ 파일로 저장
 
-Finally, write the scene to an OBJ file so you can view it in any standard 3‑D viewer.
+마지막으로, 장면을 OBJ 파일로 저장하여 모든 표준 3D 뷰어에서 볼 수 있도록 합니다.
 
 ```java
 // ExStart:Save3DScene
@@ -121,57 +124,57 @@ scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 // ExEnd:Save3DScene
 ```
 
-## Common Issues & Tips
+## 일반적인 문제 및 팁
 
-- **File path errors:** `MyDir`이 OS에 맞는 경로 구분자(`/` 또는 `\\`)로 끝나는지 확인하십시오.  
-- **Twist angle too high:** 360°를 초과하는 각도는 기하학이 겹칠 수 있으니 0‑360° 범위 내에서 사용하십시오.  
-- **Performance:** `setSlices`를 늘리면 부드러움이 향상되지만 메모리 사용량이 증가할 수 있습니다; 대부분의 경우 100 슬라이스가 적절한 균형입니다.
+- **파일 경로 오류:** `MyDir`이 OS에 맞게 구분자(`/` 또는 `\\`)로 문제를 해결해 주세요.
+- **비틀림 각도가 너무 높음:** 360°를 초과하는 각도는 기하학이 겹칠 수 있으므로 0-360° 범위 내에서 사용할 수 있습니다.
+- **성능:** `setSlices`를 특정면 부드러움이 오류로 인해 메모리가 증가할 수 있습니다. 대부분의 경우 100개의 보호가 적절하게 이루어집니다.
 
-## Frequently Asked Questions (Original)
+## 자주 묻는 질문(원본)
 
-### Q1: Aspose.3D for Java를 사용해 다른 3D 파일 포맷을 작업할 수 있나요?
+### Q1: Aspose.3D for Java를 사용하여 다른 3D 파일 형식을 작업할 수 있나요?
 
-A1: 네, Aspose.3D는 다양한 3D 파일 포맷을 지원하여 가져오기, 내보내기 및 조작이 가능합니다.
+A1: 네, Aspose.3D는 다양한 3D 파일 형식을 지원하여 가져오고, 가져오고 처리할 수 있습니다.
 
-### Q2: Aspose.3D for Java에 대한 지원은 어디서 찾을 수 있나요?
+### Q2: Java에 대한 Aspose.3D는 지원되지 않을 수 있습니까?
 
-A2: 커뮤니티 지원 및 토론을 위해 [Aspose.3D forum](https://forum.aspose.com/c/3d/18)을 방문하십시오.
+A2: 커뮤니티 지원 및 토론을 위해 [Aspose.3D 포럼](https://forum.aspose.com/c/3d/18)을 방문하시기 바랍니다.
 
 ### Q3: Aspose.3D for Java의 무료 체험판이 있나요?
 
-A3: 네, [here](https://releases.aspose.com/)에서 무료 체험 버전을 이용할 수 있습니다.
+A3: 네, [여기](https://releases.aspose.com/)에서 무료 체험판을 이용하실 수 있습니다.
 
-### Q4: Aspose.3D for Java의 임시 라이선스는 어떻게 얻나요?
+### Q4: Java의 임시 기계를 위한 Aspose.3D는 어떻게 제공됩니까?
 
-A4: [temporary license page](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 받을 수 있습니다.
+A4: [임시 라이선스 페이지](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 배치할 수 있습니다.
 
-### Q5: Aspose.3D for Java를 어디서 구매하나요?
+### Q5: Aspose.3D for Java를 구매하는건가요?
 
-A5: [buying page](https://purchase.aspose.com/buy)에서 구매하십시오.
+A5: [구매 페이지](https://purchase.aspose.com/buy)에서 구매하시기 바랍니다.
 
-## Additional FAQ (AI‑Optimized)
+## 추가 FAQ(AI 최적화)
 
-**Q: 트위스트 방향을 바꿀 수 있나요?**  
-A: 네 – `setTwist()`에 음수 각도를 사용하면 반대 방향으로 회전합니다.
+**Q: 방향을 바꾸지 않을 수 있나요?**
+A: 네 – `setTwist()`에 음수 방향을 사용하면 반대 방향으로 회전합니다.
 
-**Q: 압출 과정에서 서로 다른 트위스트 값을 적용할 수 있나요?**  
-A: 현재 Aspose.3D는 균일한 트위스트만 적용합니다; 가변 트위스트가 필요하면 여러 세그먼트를 수동으로 생성해야 합니다.
+**Q: 연장 과정에서 서로 다른 트위스트 값을 적용할 수 있나요?**
+A: 현재 Aspose.3D는 당신에게 트위스트만 적용합니다; 가변 트위스트가 필요하면 다양한 세그먼트를 수동으로 생성해야 합니다.
 
-**Q: 내보낸 OBJ 파일은 어떻게 확인하나요?**  
-A: Blender, MeshLab 등 표준 3‑D 뷰어라면 OBJ 파일을 열 수 있습니다.
+**Q: 내보낸 OBJ 파일은 어떻게 봤나요?**
+A: Blender, MeshLab 등 표준 3‑D 방지라면 OBJ 파일을 열 수 있습니다.
 
-**Q: 라이브러리가 트위스트된 압출에 텍스처 매핑을 지원하나요?**  
-A: 네 – 압출 후 노드의 메시에 재질이나 UV 좌표를 할당할 수 있습니다.
+**Q: 라이엇이 트위스트된 확장에 적응을 지원하는가?**
+A: 네 – 확장 후 부품에 재질이나 UV 구조를 사용할 수 있습니다.
 
-## Conclusion
+## 결론
 
-이제 **3D scene**을 **생성**하고, **linear extrusion twist**를 적용했으며, Aspose.3D for Java를 사용해 결과를 OBJ 파일로 내보냈습니다. 다양한 프로파일, 트위스트 각도, 슬라이스 수를 실험해 게임, 시뮬레이션 또는 3‑D 프린팅에 사용할 독특한 기하학을 만들어 보세요.
+이제 **3D 장면**을 **생성**하고, **선형 압출 비틀기**를 적용했습니다. Aspose.3D for Java를 출력으로 OBJ 파일로 내보냈습니다. 다양한 약력, 트위스트 각도, 보호 수를 실험해 게임, 시뮬레이션 또는 3D 플레이에 사용할 수 있는 독특한 기하학을 만들어 보세요.
 
 ---
 
-**Last Updated:** 2026-02-20  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
+**최종 업데이트:** 2026-02-20
+**테스트 대상:** Java 24.11용 Aspose.3D
+**저자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,12 +61,6 @@ weight: 22
 ### [Εφαρμογή άδειας στο Aspose.3D για Java](./applying-license-in-aspose-3d/)
 Ξεκλειδώστε το πλήρες δυναμικό του Aspose.3D σε εφαρμογές Java ακολουθώντας τον ολοκληρωμένο μας οδηγό για την εφαρμογή αδειών.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να χρησιμοποιήσω το ίδιο αρχείο άδειας σε διαφορετικά περιβάλλοντα;**  
@@ -89,3 +83,9 @@ A: Μετά την κλήση του `setLicense()`, δοκιμάστε μια p
 **Τελευταία Ενημέρωση:** 2026-02-20  
 **Δοκιμή με:** Aspose.3D for Java 24.11 (latest at time of writing)  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

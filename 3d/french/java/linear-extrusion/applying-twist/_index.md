@@ -19,35 +19,35 @@ weight: 14
 
 ## Introduction
 
-Dans ce tutoriel pratique **java 3d tutorial**, vous apprendrez à **créer des objets de scène 3d**, appliquer une *torsion d'extrusion linéaire*, et enfin **exporter des fichiers obj java** à l'aide d'Aspose.3D pour Java. Que vous créiez un élément de jeu, un prototype CAO ou un effet visuel, ajouter une torsion lors de l'extrusion donne à vos modèles une apparence dynamique, en forme de spirale, difficile à obtenir avec une extrusion simple.
+Dans ce tutoriel pratique **java 3d tutoriel**, vous apprendrez à **créer des objets de scène 3d**, appliquer une *torsion d'extrusion linéaire*, et enfin **exporter des fichiers obj java** à l'aide d'Aspose.3D pour Java. Que vous créiez un élément de jeu, un prototype CAO ou un effet visuel, ajoutez une torsion lors de l'extrusion donne à vos modèles une apparence dynamique, en forme de spirale, difficile à obtenir avec une extrusion simple.
 
-## Quick Answers
-- **Qu'est-ce que signifie « twist » (torsion) dans l'extrusion ?** Elle fait pivoter le profil progressivement le long du chemin d'extrusion.  
-- **Quelle bibliothèque fournit la fonction de torsion ?** Aspose.3D pour Java.  
-- **Puis-je exporter le résultat au format OBJ ?** Oui – utilisez `FileFormat.WAVEFRONTOBJ`.  
-- **Ai-je besoin d'une licence pour ce tutoriel ?** Une licence temporaire ou complète est requise pour une utilisation en production.  
-- **Quelle version de Java est requise ?** Java 8 ou supérieure.
+## Réponses rapides
+- **Qu'est-ce que signifie « twist » (torsion) dans l'extrusion ?** Elle fait pivoter le profil progressivement le long du chemin d'extrusion.
+- **Quelle bibliothèque fournit la fonction de torsion ?** Aspose.3D pour Java.
+- **Puis-je exporter le résultat au format OBJ ?** Oui – utilisez `FileFormat.WAVEFRONTOBJ`.
+- **Ai-je besoin d'une licence pour ce tutoriel ?** Une licence temporaire ou complète est requise pour une utilisation en production.
+- **Quelle version de Java est requise ?** Java8 ou supérieure.
 
-## What is a “twist” in linear extrusion?
+## Qu'est-ce qu'une « torsion » dans l'extrusion linéaire ?
 
-Une torsion est une transformation qui fait pivoter chaque tranche de la forme extrudée d'un angle spécifié. En contrôlant cet angle, vous pouvez créer des spirales, des vis sans fin ou des torsions subtiles qui ajoutent de l'intérêt visuel à des extrusions autrement plates.
+Une torsion est une transformation qui fait pivoter chaque tranche de la forme extrudée d'un angle spécifié. En contrôlant cet angle, vous pouvez créer des spirales, des vis sans fin ou des torsions subtiles qui ajoutent de l'intérêt visuel aux extrusions autrement des plaques.
 
-## Why use Aspose.3D for Java?
+## Pourquoi utiliser Aspose.3D pour Java ?
 
-- **Support multi‑format :** Importez et exportez des dizaines de formats 3D, y compris OBJ, FBX et STL.  
-- **API Java pure :** Aucune dépendance native, ce qui facilite l'intégration dans n'importe quel projet Java.  
+- **Support multi‑format :** Importez et exportez des dizaines de formats 3D, y compris OBJ, FBX et STL.
+- **API Java pure :** Aucune dépendance native, ce qui facilite l'intégration dans n'importe quel projet Java.
 - **Moteur géométrique haute performance :** Gère des opérations complexes comme la torsion sans sacrifier la vitesse.
 
-## Prerequisites
+## Prérequis
 
-- **Java Development Kit (JDK) 8+** installé sur votre machine.  
-- **Aspose.3D for Java** – téléchargez depuis le [download link](https://releases.aspose.com/3d/java/).  
-- Familiarité avec la syntaxe Java de base et les concepts 3‑D.  
-- Accès à la documentation officielle [Aspose.3D documentation](https://reference.aspose.com/3d/java/) pour référence.
+- **Java Development Kit (JDK) 8+** installé sur votre machine.
+- **Aspose.3D for Java** – téléchargez depuis le [download link](https://releases.aspose.com/3d/java/).
+- Familiarité avec la syntaxe Java de base et les concepts 3‑D.
+- Accès à la documentation officielle [Documentation Aspose.3D](https://reference.aspose.com/3d/java/) pour référence.
 
-## Import Packages
+## Importer des packages
 
-First, bring the required Aspose.3D classes into your project.
+Tout d’abord, intégrez les classes Aspose.3D requises dans votre projet.
 
 ```java
 import com.aspose.threed.*;
@@ -56,9 +56,9 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Step 1: Set the Document Directory
+## Étape 1 : Définir le répertoire du document
 
-Define where the generated OBJ file will be saved. Replace the placeholder with a real folder path on your system.
+Indiquez l’emplacement où le fichier OBJ généré sera enregistré. Remplacez l’espace réservé par un chemin d’accès réel sur votre système.
 
 ```java
 // ExStart:SetDocumentDirectory
@@ -66,9 +66,9 @@ String MyDir = "Your Document Directory";
 // ExEnd:SetDocumentDirectory
 ```
 
-## Step 2: Initialize the Base Profile
+## Étape 2 : Initialiser le profil de base
 
-Create the shape that will be extruded. Here we use a rectangle with a small rounding radius to give the edges a softer look.
+Créez la forme à extruder. Ici, nous utilisons un rectangle avec un petit rayon d’arrondi pour adoucir les bords.
 
 ```java
 // ExStart:InitializeBaseProfile
@@ -77,9 +77,9 @@ profile.setRoundingRadius(0.3);
 // ExEnd:InitializeBaseProfile
 ```
 
-## Step 3: Create a Scene to Host Your Nodes
+## Étape 3 : Créer une scène pour vos nœuds
 
-A `Scene` object is the container for all 3‑D entities (meshes, lights, cameras, etc.).  
+Un objet `Scene` est le conteneur de toutes les entités 3D (maillages, lumières, caméras, etc.). 
 
 ```java
 // ExStart:CreateScene
@@ -87,9 +87,9 @@ Scene scene = new Scene();
 // ExEnd:CreateScene
 ```
 
-## Step 4: Add Left and Right Nodes
+## Étape 4 : Ajouter les nœuds gauche et droit
 
-We’ll create two sibling nodes: one without twist (for comparison) and one with a 90‑degree twist.
+Nous allons créer deux nœuds frères : un sans torsion (pour comparaison) et un avec une torsion de 90 degrés.
 
 ```java
 // ExStart:CreateNodes
@@ -99,12 +99,15 @@ left.getTransform().setTranslation(new Vector3(5, 0, 0));
 // ExEnd:CreateNodes
 ```
 
-## Step 5: Perform Linear Extrusion with Twist
+## Étape 5 : Effectuer une extrusion linéaire avec torsion
 
-The `LinearExtrusion` constructor takes the profile and extrusion length.  
-- `setTwist(0)` → no rotation (straight extrusion).  
-- `setTwist(90)` → full 90‑degree rotation over the length.  
-Both nodes use 100 slices for smooth geometry.
+Le constructeur `LinearExtrusion` prend en paramètres le profil et la longueur d’extrusion.
+
+- `setTwist(0)` → aucune rotation (extrusion rectiligne).
+
+- `setTwist(90)` → rotation complète de 90 degrés sur toute la longueur.
+
+Les deux nœuds utilisent 100 tranches pour une géométrie lisse.
 
 ```java
 // ExStart:LinearExtrusionWithTwist
@@ -113,9 +116,9 @@ right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(90); setSlice
 // ExEnd:LinearExtrusionWithTwist
 ```
 
-## Step 6: Save the 3D Scene as OBJ
+## Étape 6 : Enregistrer la scène 3D au format OBJ
 
-Finally, write the scene to an OBJ file so you can view it in any standard 3‑D viewer.
+Enfin, enregistrez la scène dans un fichier OBJ afin de pouvoir la visualiser dans n’importe quel visualiseur 3D standard.
 
 ```java
 // ExStart:Save3DScene
@@ -123,47 +126,47 @@ scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 // ExEnd:Save3DScene
 ```
 
-## Common Issues & Tips
+## Problèmes courants et conseils
 
-- **Erreurs de chemin de fichier :** Assurez-vous que `MyDir` se termine par un séparateur de chemin (`/` ou `\\`) adapté à votre OS.  
-- **Angle de torsion trop élevé :** Les angles supérieurs à 360° peuvent provoquer un chevauchement de la géométrie ; maintenez-le entre 0‑360° pour des résultats prévisibles.  
-- **Performance :** Augmenter `setSlices` améliore la fluidité mais peut impacter la mémoire ; 100 tranches constituent un bon compromis dans la plupart des cas.
+- **Erreurs de chemin de fichier :** Assurez-vous que `MyDir` se termine par un séparateur de chemin (`/` ou `\\`) adapté à votre OS.
+- **Angle de torsion trop élevé :** Les angles supérieurs à 360° peuvent provoquer un chevauchement de la géométrie ; maintenir-le entre 0‑360° pour des résultats prévisibles.
+- **Performance :** Augmenter `setSlices` améliore la fluidité mais peut impacter la mémoire ; 100 tranches constituant un bon compromis dans la plupart des cas.
 
-## Frequently Asked Questions (Original)
+## Foire aux questions (original)
 
-### Q1 : Puis-je utiliser Aspose.3D pour Java avec d'autres formats de fichiers 3D ?
+### Q1 : Puis-je utiliser Aspose.3D pour Java avec d'autres formats de fichiers 3D ?
 
-A1 : Oui, Aspose.3D prend en charge divers formats de fichiers 3D, vous permettant d'importer, d'exporter et de manipuler différents types de fichiers.
+A1 : Oui, Aspose.3D prend en charge divers formats de fichiers 3D, vous permettant d'importer, d'exporter et de manipuler différents types de fichiers.
 
-### Q2 : Où puis‑je trouver du support pour Aspose.3D pour Java ?
+### Q2 : Où puis‑je trouver du support pour Aspose.3D pour Java ?
 
-A2 : Visitez le [forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le support communautaire et les discussions.
+A2 : Visitez le [forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour le support communautaire et les discussions.
 
-### Q3 : Existe‑t‑il une version d'essai gratuite pour Aspose.3D pour Java ?
+### Q3 : Existe-t-il une version d'essai gratuite pour Aspose.3D pour Java ?
 
-A3 : Oui, vous pouvez accéder à la version d'essai gratuite depuis [ici](https://releases.aspose.com/).
+A3 : Oui, vous pouvez accéder à la version d'essai gratuite depuis [ici](https://releases.aspose.com/).
 
-### Q4 : Comment obtenir une licence temporaire pour Aspose.3D pour Java ?
+### Q4 : Comment obtenir une licence temporaire pour Aspose.3D pour Java ?
 
-A4 : Obtenez une licence temporaire sur la [page de licence temporaire](https://purchase.aspose.com/temporary-license/).
+A4 : Obtenez une licence temporaire sur la [page de licence temporaire](https://purchase.aspose.com/temporary-license/).
 
-### Q5 : Où puis‑je acheter Aspose.3D pour Java ?
+### Q5 : Où puis-je acheter Aspose.3D pour Java ?
 
-A5 : Achetez Aspose.3D pour Java sur la [page d'achat](https://purchase.aspose.com/buy).
+A5 : Achetez Aspose.3D pour Java sur la [page d'achat](https://purchase.aspose.com/buy).
 
-## Additional FAQ (AI‑Optimized)
+## FAQ supplémentaire (optimisée par l'IA)
 
-**Q : Puis‑je changer la direction de la torsion ?**  
-A : Oui – utilisez un angle négatif dans `setTwist()` pour tourner dans la direction opposée.
+**Q : Puis‑je changer la direction de la torsion?**
+R : Oui – utilisez un angle négatif dans `setTwist()` pour tourner dans la direction opposée.
 
-**Q : Est‑il possible d'appliquer différentes valeurs de torsion le long de l'extrusion ?**  
-A : Aspose.3D applique actuellement une torsion uniforme ; pour une torsion variable, vous devez générer plusieurs segments manuellement.
+**Q : Est‑il possible d'appliquer différentes valeurs de torsion le long de l'extrusion ?**
+A : Aspose.3D applique actuellement une torsion uniforme ; pour une torsion variable, vous devez générer plusieurs segments manuellement.
 
-**Q : Comment visualiser le fichier OBJ exporté ?**  
-A : Tout visualiseur 3‑D standard (par ex., Blender, MeshLab) peut ouvrir les fichiers OBJ.
+**Q : Comment visualiser le fichier OBJ exporté ?**
+R : Tout visualiseur 3‑D standard (par ex., Blender, MeshLab) peut ouvrir les fichiers OBJ.
 
-**Q : La bibliothèque prend‑elle en charge le mapping de textures sur les extrusions tordues ?**  
-A : Oui – après l'extrusion, vous pouvez assigner des matériaux ou des coordonnées UV au maillage du nœud.
+**Q : La bibliothèque prend‑elle en charge le mappage de textures sur les extrusions tordues ?**
+R : Oui – après l'extrusion, vous pouvez assigner des matériaux ou des coordonnées UV au maillage du nœud.
 
 ## Conclusion
 
