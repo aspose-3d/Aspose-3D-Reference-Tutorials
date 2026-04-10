@@ -1,35 +1,50 @@
 ---
-title: 使用 Aspose.3D for Java 控制線性拉伸的中心
-linktitle: 使用 Aspose.3D for Java 控制線性拉伸的中心
+date: 2026-02-20
+description: 學習使用 Aspose.3D 的 Java 3D 圖形教學，掌握線性擠出時中心的控制，包括如何設定圓角半徑以及儲存 OBJ 檔案（Java）。
+linktitle: Controlling Center in Linear Extrusion with Aspose.3D for Java
 second_title: Aspose.3D Java API
-description: 使用 Aspose.3D 探索 Java 中的 3D 圖形世界。輕鬆控制線性擠壓的中心。
-weight: 11
+title: Java 3D 圖形教學 – 線性擠出中的中心
 url: /zh-hant/java/linear-extrusion/controlling-center/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.3D for Java 控制線性拉伸的中心
+# Java 3D 圖形教學 – 線性擠出之中心
 
-## 介紹
+## 簡介
 
-在 3D 圖形和 Java 程式設計領域，控制線性擠出的中心對於在專案中實現所需效果起著至關重要的作用。 Aspose.3D for Java 提供了一個強大的工具包來無縫處理此類任務。在本教程中，我們將深入研究使用 Aspose.3D for Java 控制線性擠出中心的過程，分解每個步驟以確保順利、全面地理解。
+如果你在 Java 中構建 3D 可視化，精通擠出技術是必須的。這個 **java 3d graphics tutorial** 會指導你如何使用 Aspose.3D for Java 控制線性擠出的中心，讓你無需額外數學即可建立精確、對稱的模型。完成本指南後，你將了解 `center` 屬性的重要性、如何 **set rounding radius**，以及如何 **save OBJ file java** 相容的輸出。
+
+## 快速問答
+- **center 屬性有什麼作用？** 它決定擠出是否以輪廓原點為中心對稱。  
+- **執行程式碼是否需要授權？** 測試時可使用臨時授權；正式環境需購買完整授權。  
+- **結果使用哪種檔案格式？** 場景會儲存為 Wavefront OBJ 檔案。  
+- **可以更改切片數量嗎？** 可以，於 `LinearExtrusion` 物件上使用 `setSlices(int)`。  
+- **Aspose.3D 是否相容於 Java 8 以上？** 當然，支援所有現代 Java 版本。
+
+## 什麼是 java 3d graphics tutorial？
+
+一個 **java 3d graphics tutorial** 逐步說明如何使用 Java 函式庫來建立、操作與渲染三維物件。本例聚焦於 Aspose.3D 的擠出 API，將 2‑D 輪廓轉換為完整的 3‑D 網格。
+
+## 為什麼選擇 Aspose.3D for Java？
+
+- **High‑level API** – 無需編寫低階網格計算。  
+- **Cross‑format support** – 可匯出為 OBJ、FBX、STL 等多種格式。  
+- **Performance‑optimized** – 高效處理大型場景。  
+- **Rich documentation** – 包含以下範例。
 
 ## 先決條件
 
-在我們開始本教程之旅之前，請確保您具備以下先決條件：
+1. **Java Development Environment** – 已安裝 JDK 8 或更新版本。  
+2. **Aspose.3D for Java** – 下載函式庫與文件說明 [here](https://reference.aspose.com/3d/java/)。  
+3. **Document Directory** – 在電腦上建立資料夾以儲存產生的檔案，我們稱之為 **「Your Document Directory」**。
 
-1. Java 開發環境：確保您的電腦上設定有 Java 開發環境。
+## 匯入套件
 
-2.  Aspose.3D for Java：下載並安裝 Aspose.3D 函式庫。您可以找到該庫及其文檔[這裡](https://reference.aspose.com/3d/java/).
-
-3. 文件目錄：建立一個目錄來儲存您的 Java 文件。我們將其稱為“您的文檔目錄”。
-
-## 導入包
-
-在您的 Java 開發環境中，匯入 Aspose.3D 所需的套件。這確保您的程式碼可以存取該庫提供的功能。
+在 Java IDE 中匯入所需的 Aspose.3D 類別。這樣編譯器即可使用擠出與場景建構功能。
 
 ```java
 import com.aspose.threed.*;
@@ -38,28 +53,30 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 第 1 步：設定基本設定檔
+## 逐步指南
 
-初始化要拉伸的基礎輪廓。在此範例中，我們將使用圓角半徑為 0.3 的矩形。
+### 步驟 1：設定基礎輪廓
+
+首先，建立將要被擠出的 2‑D 形狀。此處使用矩形，並 **set rounding radius** 為 0.3，以平滑角落。
 
 ```java
-//文檔目錄的路徑。
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## 第 2 步：建立 3D 場景
+### 步驟 2：建立 3D 場景
 
-透過創建場景來建立 3D 世界的基礎。
+`Scene` 物件作為所有 3‑D 節點、光源與相機的容器。
 
 ```java
 Scene scene = new Scene();
 ```
 
-## 第三步：建立左右節點
+### 步驟 3：加入左側與右側節點
 
-在場景中建立左右節點。這些節點可作為 3D 物件的畫布。
+我們會將兩個獨立節點並排放置，以便比較有無中心化的擠出效果。
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -67,71 +84,86 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## 第 4 步：具有中心屬性的線性拉伸
+### 步驟 4：線性擠出 – 無中心 (左側節點)
 
-對左側節點進行不居中的線性擠壓，切片數設定為3。
+在左側節點建立擠出，關閉中心化，並將網格切片數限制為三，以產生低多邊形預覽。
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 2) {{ setCenter(false); setSlices(3); }});
 ```
 
-## 步驟 5：設定參考地平面
+### 步驟 5：加入參考用地面平面 (左側節點)
 
-透過向左側節點添加地平面來增強視覺表示。
+薄盒子作為視覺地板，協助觀察擠出的方向。
 
 ```java
 left.createChildNode(new Box(0.01, 3, 3));
 ```
 
-## 步驟6：具有中心屬性的線性拉伸（右節點）
+### 步驟 6：線性擠出 – 置中 (右側節點)
 
-在右側節點上執行線性拉伸，這次使拉伸居中，並再次將切片數設為 3。
+現在重複擠出，這次啟用 `center`。幾何形狀將以輪廓原點為中心對稱。
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 2) {{ setCenter(true); setSlices(3); }});
 ```
 
-## 步驟 7：設定參考地平面（右節點）
+### 步驟 7：加入參考用地面平面 (右側節點)
 
-與左節點類似，為右節點新增地平面以供參考。
+右側使用相同的地面平面，讓比較更清晰。
 
 ```java
 right.createChildNode(new Box(0.01, 3, 3));
 ```
 
-## 第 8 步：儲存 3D 場景
+### 步驟 8：儲存 3D 場景
 
-以 Wavefront OBJ 格式儲存 3D 場景。
+最後，將整個場景匯出為 Wavefront OBJ 檔案——此格式可在大多數 3‑D 編輯器中直接使用。
 
 ```java
 scene.save(MyDir + "CenterInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
+## 常見問題與解決方案
+
+| 問題 | 發生原因 | 解決方法 |
+|------|----------|----------|
+| **擠出顯示偏移** | `setCenter(false)` 會使輪廓固定在角落。 | 使用 `setCenter(true)` 以取得對稱結果。 |
+| **OBJ 檔案為空** | 輸出目錄路徑不正確或缺少寫入權限。 | 確認 `MyDir` 指向已存在的資料夾且應用程式具有寫入權限。 |
+| **圓角看起來銳利** | 相對於矩形尺寸，圓角半徑過小。 | 增大半徑值（例如 `setRoundingRadius(0.5)`）。 |
+
+## 常見問答
+
+### Q1：我可以在商業專案中使用 Aspose.3D for Java 嗎？
+
+A1：可以，Aspose.3D for Java 可用於商業用途。授權細節請參閱 [here](https://purchase.aspose.com/buy)。
+
+### Q2：是否提供免費試用？
+
+A2：可以，您可於 [here](https://releases.aspose.com/) 取得 Aspose.3D for Java 的免費試用。
+
+### Q3：在哪裡可以取得 Aspose.3D for Java 的支援？
+
+A3：Aspose.3D 社群論壇是尋求支援與分享經驗的好地方。請前往論壇 [here](https://forum.aspose.com/c/3d/18)。
+
+### Q4：測試是否需要臨時授權？
+
+A4：是的，若測試需要臨時授權，可於 [here](https://purchase.aspose.com/temporary-license/) 取得。
+
+### Q5：文件說明在哪裡？
+
+A5：Aspose.3D for Java 的文件說明可在 [here](https://reference.aspose.com/3d/java/) 取得。
+
 ## 結論
 
-使用 Aspose.3D for Java 控制線性擠壓中心為 3D 圖形開發帶來了令人興奮的可能性。透過遵循本逐步指南，您已經了解如何操作 center 屬性，從而使您能夠在 Java 專案中實現所需的視覺效果。
+完成此 **java 3d graphics tutorial** 後，你已掌握如何控制線性擠出的中心、調整圓角半徑，並使用 Aspose.3D **save OBJ file java** 輸出。這些技巧讓你對網格對稱性有精細的控制，對於遊戲資產、CAD 原型與科學可視化皆相當重要。歡迎嘗試不同的輪廓、切片數量與匯出格式，以擴充你的 3‑D 工具箱。
 
-## 常見問題解答
+---
 
-### Q1：我可以在商業專案中使用Aspose.3D for Java嗎？
+**最後更新：** 2026-02-20  
+**測試環境：** Aspose.3D for Java 24.11  
+**作者：** Aspose  
 
- A1：是的，Aspose.3D for Java 可以用於商業用途。有關許可詳細信息，請訪問[這裡](https://purchase.aspose.com/buy).
-
-### Q2: 有免費試用嗎？
-
-A2：是的，您可以探索 Aspose.3D for Java 的免費試用版[這裡](https://releases.aspose.com/).
-
-### Q3：在哪裡可以找到 Aspose.3D for Java 的支援？
-
-A3：Aspose.3D 社群論壇是個尋求支持和分享經驗的好地方。訪問論壇[這裡](https://forum.aspose.com/c/3d/18).
-
-### Q4：測試需要臨時許可證嗎？
-
-A4：是的，如果您需要臨時許可證用於測試目的，您可以獲得一個[這裡](https://purchase.aspose.com/temporary-license/).
-
-### Q5：在哪裡可以找到文件？
-
-A5：Aspose.3D for Java 的文件可用[這裡](https://reference.aspose.com/3d/java/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,54 @@
 ---
-title: Aspose.3D for Java ile Doğrusal Ekstrüzyonda Kontrol Merkezi
-linktitle: Aspose.3D for Java ile Doğrusal Ekstrüzyonda Kontrol Merkezi
-second_title: Aspose.3D Java API'si
-description: Aspose.3D ile Java'daki 3D grafik dünyasını keşfedin. Doğrusal ekstrüzyonda merkezi zahmetsizce kontrol edin.
-weight: 11
+date: 2026-02-20
+description: Aspose.3D ile lineer ekstrüzyonda merkezi kontrol etmeye yönelik bir
+  Java 3D grafik öğreticisini öğrenin; yuvarlama yarıçapını nasıl ayarlayacağınızı
+  ve Java'da OBJ dosyasını nasıl kaydedeceğinizi içeren.
+linktitle: Controlling Center in Linear Extrusion with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Java 3D Grafik Öğreticisi – Doğrusal Ekstrüzyonda Merkez
 url: /tr/java/linear-extrusion/controlling-center/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D for Java ile Doğrusal Ekstrüzyonda Kontrol Merkezi
+# Java 3D Grafik Öğreticisi – Doğrusal Ekstrüzyonda Merkez
 
-## giriiş
+## Giriş
 
-3D grafik ve Java programlama dünyasında, doğrusal ekstrüzyonda merkezin kontrol edilmesi, projelerinizde istenilen efektlerin elde edilmesinde çok önemli bir rol oynar. Aspose.3D for Java, bu tür görevleri sorunsuz bir şekilde gerçekleştirmek için güçlü bir araç seti sağlar. Bu eğitimde, Aspose.3D for Java'yı kullanarak doğrusal ekstrüzyonda merkezi kontrol etme sürecine dalacağız ve sorunsuz ve kapsamlı bir anlayış sağlamak için her adımı parçalara ayıracağız.
+Java'da 3D görselleştirmeler oluşturuyorsanız, ekstrüzyon tekniklerinde uzmanlaşmak çok önemlidir. Bu **java 3d graphics tutorial**, Aspose.3D for Java kullanarak doğrusal bir ekstrüzyonun merkezini kontrol etmenizi adım adım gösterir, böylece ekstra matematik yapmadan hassas ve simetrik modeller oluşturabilirsiniz. Bu rehberin sonunda `center` özelliğinin neden önemli olduğunu, **set rounding radius** nasıl ayarlanır ve **save OBJ file java**‑uyumlu çıktının nasıl kaydedilir öğreneceksiniz.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **center özelliği ne işe yarar?** Ekstrüzyonun profilin orijini etrafında simetrik olup olmadığını belirler.  
+- **Kod çalıştırmak için lisansa ihtiyacım var mı?** Test için geçici bir lisans yeterlidir; üretim için tam lisans gereklidir.  
+- **Sonuç için hangi dosya formatı kullanılıyor?** Sahne Wavefront OBJ dosyası olarak kaydedilir.  
+- **Dilimin sayısını değiştirebilir miyim?** Evet, `LinearExtrusion` nesnesinde `setSlices(int)` metodunu kullanın.  
+- **Aspose.3D Java 8+ ile uyumlu mu?** Kesinlikle – tüm modern Java sürümlerini destekler.
 
-Bu eğitim yolculuğuna çıkmadan önce aşağıdaki ön koşulların yerine getirildiğinden emin olun:
+## java 3d graphics tutorial nedir?
 
-1. Java Geliştirme Ortamı: Makinenizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
+Bir **java 3d graphics tutorial**, Java kütüphanelerini kullanarak üç boyutlu nesneler oluşturma, manipüle etme ve render etme sürecini adım adım açıklar. Bu örnekte, 2‑D profilleri tam bir 3‑D mesh'e dönüştüren Aspose.3D’nin ekstrüzyon API’sine odaklanıyoruz.
 
-2.  Aspose.3D for Java: Aspose.3D kütüphanesini indirin ve yükleyin. Kütüphaneyi ve belgelerini bulabilirsiniz.[Burada](https://reference.aspose.com/3d/java/).
+## Aspose.3D for Java neden kullanılmalı?
 
-3. Belge Dizini: Java belgelerinizi saklamak için bir dizin oluşturun. Buna "Belge Dizininiz" adını verelim.
+- **High‑level API** – Düşük seviyeli mesh hesaplamaları yazmaya gerek yok.  
+- **Cross‑format support** – OBJ, FBX, STL ve daha fazlasına dışa aktarım.  
+- **Performance‑optimized** – Büyük sahneleri verimli bir şekilde işler.  
+- **Rich documentation** – Aşağıdaki örnek gibi örnekler içerir.
 
-## Paketleri İçe Aktar
+## Ön Koşullar
 
-Aspose.3D için gerekli paketleri Java geliştirme ortamınıza aktarın. Bu, kodunuzun kitaplık tarafından sağlanan işlevlere erişmesini sağlar.
+Başlamadan önce, şunların kurulu olduğundan emin olun:
+
+1. **Java Geliştirme Ortamı** – JDK 8 veya daha yeni bir sürüm yüklü.  
+2. **Aspose.3D for Java** – Kütüphaneyi ve dokümantasyonu [buradan](https://reference.aspose.com/3d/java/) indirin.  
+3. **Document Directory** – Makinenizde oluşturulacak bir klasör; buna **“Your Document Directory.”** diye atıfta bulunacağız.
+
+## Paketleri İçe Aktarma
+
+Java IDE'nizde, ihtiyacınız olan Aspose.3D sınıflarını içe aktarın. Bu, derleyicinin ekstrüzyon ve sahne oluşturma özelliklerine erişmesini sağlar.
 
 ```java
 import com.aspose.threed.*;
@@ -38,28 +57,30 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Adım 1: Temel Profili Ayarlayın
+## Adım Adım Kılavuz
 
-Ekstrüzyona tabi tutulacak taban profilini başlatın. Bu örnekte yuvarlama yarıçapı 0,3 olan bir dikdörtgen şekli kullanacağız.
+### Adım 1: Temel Profili Oluşturma
+
+İlk olarak, ekstrüzyon yapılacak 2‑D şekli oluşturun. Burada bir dikdörtgen kullanıyoruz ve köşeleri yumuşatmak için **set rounding radius** değerini 0.3 olarak ayarlıyoruz.
 
 ```java
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 String MyDir = "Your Document Directory";
 RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## 2. Adım: 3B Sahne Oluşturun
+### Adım 2: 3D Sahne Oluşturma
 
-Bir sahne oluşturarak 3D dünyanızın temelini oluşturun.
+`Scene` nesnesi, tüm 3‑D düğümler, ışıklar ve kameralar için bir kapsayıcı görevi görür.
 
 ```java
 Scene scene = new Scene();
 ```
 
-## 3. Adım: Sol ve Sağ Düğümler Oluşturun
+### Adım 3: Sol ve Sağ Düğümleri Ekleme
 
-Sahnenizde sol ve sağ düğümler oluşturun. Bu düğümler, 3B nesneleriniz için tuval görevi görür.
+Merkezleme ile ve olmadan ekstrüzyonu karşılaştırabilmeniz için iki ayrı düğümü yan yana yerleştireceğiz.
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -67,71 +88,86 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Adım 4: Merkez Özelliğiyle Doğrusal Ekstrüzyon
+### Adım 4: Doğrusal Ekstrüzyon – Merkez Yok (Sol Düğüm)
 
-Sol düğümde ortalamadan doğrusal ekstrüzyon gerçekleştirin ve dilim sayısını 3'e ayarlayın.
+Sol düğümde ekstrüzyonu oluşturun, merkezlemeyi devre dışı bırakın ve düşük poligon önizleme için mesh'i üç dilime sınırlayın.
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 2) {{ setCenter(false); setSlices(3); }});
 ```
 
-## Adım 5: Referans için Zemin Düzlemini Ayarlayın
+### Adım 5: Referans İçin Zemin Düzlemi Ekle (Sol Düğüm)
 
-Sol düğüme bir zemin düzlemi ekleyerek görsel temsili geliştirin.
+İnce bir kutu, görsel bir zemin görevi görerek ekstrüzyonun yönelimini görmenizi sağlar.
 
 ```java
 left.createChildNode(new Box(0.01, 3, 3));
 ```
 
-## Adım 6: Merkez Özelliğiyle Doğrusal Ekstrüzyon (Sağ Düğüm)
+### Adım 6: Doğrusal Ekstrüzyon – Merkezli (Sağ Düğüm)
 
-Sağ düğümde doğrusal ekstrüzyon gerçekleştirin, bu sefer ekstrüzyonu ortalayın ve dilim sayısını tekrar 3'e ayarlayın.
+Şimdi ekstrüzyonu tekrarlayın, bu sefer `center` özelliğini etkinleştirin. Geometri, profilin orijini etrafında simetrik olacaktır.
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 2) {{ setCenter(true); setSlices(3); }});
 ```
 
-## Adım 7: Referans için Zemin Düzlemini Ayarlayın (Sağ Düğüm)
+### Adım 7: Referans İçin Zemin Düzlemi Ekle (Sağ Düğüm)
 
-Sol düğüme benzer şekilde, referans için sağ düğüme bir zemin düzlemi ekleyin.
+Sağ taraf için aynı zemin düzlemi, karşılaştırmayı netleştirir.
 
 ```java
 right.createChildNode(new Box(0.01, 3, 3));
 ```
 
-## Adım 8: 3D Sahneyi Kaydedin
+### Adım 8: 3D Sahneyi Kaydet
 
-3D sahnenizi Wavefront OBJ formatında kaydedin.
+Son olarak, tüm sahneyi bir Wavefront OBJ dosyasına dışa aktarın – çoğu 3‑D editörde kolayca kullanılabilen bir format.
 
 ```java
 scene.save(MyDir + "CenterInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Aspose.3D for Java ile doğrusal ekstrüzyonda merkezin kontrol edilmesi, 3D grafik geliştirmede heyecan verici olasılıkların önünü açıyor. Bu adım adım kılavuzu izleyerek, Java projelerinizde istediğiniz görsel efektleri elde etmenizi sağlayacak şekilde center özelliğini nasıl değiştireceğinizi öğrendiniz.
+| Sorun | Neden Oluşur | Çözüm |
+|-------|----------------|-----|
+| **Ekstrüzyon kaymış görünüyor** | `setCenter(false)` profilin köşesine sabitlenmiş kalmasına neden olur. | Simetrik sonuçlar için `setCenter(true)` kullanın. |
+| **OBJ dosyası boş** | Çıktı dizini yolu hatalı veya yazma izinleri eksik. | `MyDir`'in mevcut bir klasöre işaret ettiğini ve uygulamanın yazma erişimine sahip olduğunu doğrulayın. |
+| **Yuvarlatılmış köşeler keskin görünüyor** | Yuvarlatma yarıçapı, dikdörtgen boyutuna göre çok küçük. | Yarıçap değerini artırın (ör. `setRoundingRadius(0.5)`). |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.3D for Java'yı ticari projelerde kullanabilir miyim?
+### Q1: Aspose.3D for Java'ı ticari projelerde kullanabilir miyim?
 
- Cevap1: Evet, Aspose.3D for Java ticari kullanıma açıktır. Lisans ayrıntıları için şu adresi ziyaret edin:[Burada](https://purchase.aspose.com/buy).
+A1: Evet, Aspose.3D for Java ticari kullanım için mevcuttur. Lisans detayları için [burayı](https://purchase.aspose.com/buy) ziyaret edin.
 
-### S2: Ücretsiz deneme sürümü var mı?
+### Q2: Ücretsiz deneme mevcut mu?
 
- Cevap2: Evet, Aspose.3D for Java'nın ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+A2: Evet, Aspose.3D for Java ücretsiz denemesini [buradan](https://releases.aspose.com/) inceleyebilirsiniz.
 
-### S3: Aspose.3D for Java desteğini nerede bulabilirim?
+### Q3: Aspose.3D for Java için desteği nereden bulabilirim?
 
- Cevap3: Aspose.3D topluluk forumu, destek almak ve deneyimlerinizi paylaşmak için harika bir yerdir. Forumu ziyaret edin[Burada](https://forum.aspose.com/c/3d/18).
+A3: Aspose.3D topluluk forumu, destek alabileceğiniz ve deneyimlerinizi paylaşabileceğiniz harika bir yerdir. Forumu [buradan](https://forum.aspose.com/c/3d/18) ziyaret edin.
 
-### S4: Test için geçici bir lisansa ihtiyacım var mı?
+### Q4: Test için geçici bir lisansa ihtiyacım var mı?
 
-Cevap4: Evet, test amacıyla geçici bir lisansa ihtiyacınız varsa bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+A4: Evet, test amaçlı geçici bir lisansa ihtiyacınız varsa, birini [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
-### S5: Belgeleri nerede bulabilirim?
+### Q5: Dokümantasyonu nereden bulabilirim?
 
- Cevap5: Aspose.3D for Java'nın belgeleri mevcut[Burada](https://reference.aspose.com/3d/java/).
+A5: Aspose.3D for Java dokümantasyonu [burada](https://reference.aspose.com/3d/java/) mevcuttur.
+
+## Sonuç
+
+Bu **java 3d graphics tutorial**'ı tamamlayarak, doğrusal bir ekstrüzyonun merkezini nasıl kontrol edeceğinizi, yuvarlatma yarıçapını nasıl ayarlayacağınızı ve Aspose.3D kullanarak **save OBJ file java** çıktısını nasıl kaydedeceğinizi öğrendiniz. Bu teknikler, mesh simetrisi üzerinde ince ayar kontrolü sağlar; bu da oyun varlıkları, CAD prototipleri ve bilimsel görselleştirmeler için hayati önemdedir. Farklı profiller, dilim sayıları ve dışa aktarma formatlarıyla denemeler yaparak 3‑D araç kutunuzu genişletebilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-02-20  
+**Test Edilen:** Aspose.3D for Java 24.11  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

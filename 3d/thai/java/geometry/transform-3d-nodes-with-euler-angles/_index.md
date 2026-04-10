@@ -1,15 +1,15 @@
 ---
-date: 2025-12-13
-description: เรียนรู้วิธีใช้ Aspose 3D Java เพื่อแปลงโหนด 3D คู่มือนี้แสดงวิธีใช้มุมออยเลอร์,
-  เพิ่มการหมุน 3D และตั้งค่าการแปลใน Java.
-linktitle: Aspose 3D Java – Transform 3D Nodes with Euler Angles
+date: 2026-02-20
+description: เรียนรู้วิธีสร้างเมช Aspose Java และแปลงโหนด 3 มิติด้วยมุมออยเลอร์, เพิ่มการหมุน
+  3 มิติ, และตั้งค่าการแปลใน Java.
+linktitle: Create Mesh Aspose Java – Transform 3D Nodes with Euler Angles
 second_title: Aspose.3D Java API
-title: Aspose 3D Java – แปลงโหนด 3D ด้วยมุมออยเลอร์
+title: สร้าง Mesh ด้วย Aspose Java – แปลงโหนด 3 มิติด้วยมุมออยเลอร์
 url: /th/java/geometry/transform-3d-nodes-with-euler-angles/
 weight: 19
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -17,36 +17,40 @@ weight: 19
 
 ## บทนำ
 
-ในบทแนะนำนี้คุณจะได้ค้นพบ **วิธีใช้ aspose 3d java** เพื่อแปลงโหนด 3D โดยใช้มุมออยเลอร์ เมื่อจบคู่มือคุณจะสามารถเพิ่มการหมุน 3d, ตั้งค่าการแปลตำแหน่ง java, และสร้างฉากไดนามิกที่ตอบสนองต่อข้อมูลแบบเรียลไทม์ได้
+ในบทแนะนำนี้คุณจะได้เรียนรู้วิธี **create mesh aspose java** และแปลงโหนด 3D โดยใช้มุมออยเลอร์ เมื่อจบคู่มือคุณจะสามารถเพิ่มการหมุน 3D, ตั้งค่า translation java, และสร้างฉากไดนามิกที่ตอบสนองต่อข้อมูลแบบเรียลไทม์ได้
 
-## คำตอบด่วน
+## คำตอบอย่างรวดเร็ว
 - **ไลบรารีใดที่จัดการการแปลง 3D ใน Java?** Aspose 3D for Java.  
-- **เมธอดใดที่ตั้งค่าการหมุนโดยใช้มุมออยเลอร์?** `setEulerAngles()` บนการแปลงของโหนด.  
-- **ฉันจะย้ายโหนดในอวกาศอย่างไร?** ใช้ `setTranslation()` พร้อมกับ `Vector3`.  
-- **ฉันต้องการไลเซนส์สำหรับการผลิตหรือไม่?** ใช่, จำเป็นต้องมีไลเซนส์เชิงพาณิชย์ของ Aspose 3D.  
-- **ฉันสามารถส่งออกเป็น FBX ได้หรือไม่?** แน่นอน – `scene.save(..., FileFormat.FBX7500ASCII)` ทำงานได้ทันที
+- **เมธอดใดที่ตั้งค่าการหมุนโดยใช้มุมออยเลอร์?** `setEulerAngles()` on the node’s transform.  
+- **ฉันจะย้ายโหนดในอวกาศอย่างไร?** Use `setTranslation()` with a `Vector3`.  
+- **ฉันต้องการไลเซนส์สำหรับการผลิตหรือไม่?** Yes, a commercial Aspose 3D license is required.  
+- **ฉันสามารถส่งออกเป็น FBX ได้หรือไม่?** Absolutely – `scene.save(..., FileFormat.FBX7500ASCII)` works out of the box.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะลงลึกในบทแนะนำนี้, โปรดตรวจสอบว่าคุณมีข้อกำหนดต่อไปนี้พร้อมใช้งานแล้ว:
+Before we dive into the tutorial, make sure you have the following prerequisites in place:
 
 - ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม Java.  
-- Java Development Kit (JDK) ติดตั้งบนเครื่องของคุณ.  
-- ไลบรารี Aspose.3D, ซึ่งคุณสามารถรับได้จาก [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/).
+- Java Development Kit (JDK) ที่ติดตั้งบนเครื่องของคุณ.  
+- ไลบรารี Aspose.3D ซึ่งคุณสามารถรับได้จาก [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/).
 
 ## นำเข้าแพ็กเกจ
 
-เริ่มต้นด้วยการนำเข้าแพ็กเกจที่จำเป็นเข้าสู่โครงการ Java ของคุณ. ตรวจสอบให้แน่ใจว่าไลบรารี Aspose.3D ถูกเพิ่มลงใน classpath อย่างถูกต้อง. หากคุณยังไม่ได้ดาวน์โหลด, คุณสามารถค้นหาลิงก์ดาวน์โหลดได้ [ที่นี่](https://releases.aspose.com/3d/java/).
+Begin by importing the necessary packages into your Java project. Ensure that the Aspose.3D library is correctly added to your classpath. If you haven't downloaded it yet, you can find the download link [here](https://releases.aspose.com/3d/java/).
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## aspose 3d java – การทำงานกับมุมออยเลอร์
+## Create Mesh Aspose Java
 
-### ขั้นตอนที่ 1. เริ่มต้น Scene และ Node
+The first step in any 3D workflow is to **create mesh aspose java** – that is, build the geometric data that will later be transformed. In this example we’ll generate a simple cube mesh using Aspose’s helper methods and attach it to a node.
 
-แรกเริ่ม, สร้าง scene และ node ที่จะเก็บเรขาคณิตที่คุณต้องการแปลง.
+### aspose 3d java – การทำงานกับมุมออยเลอร์
+
+#### Step 1. Initialize Scene and Node
+
+First, create a scene and a node that will hold the geometry you want to transform.
 
 ```java
 // ExStart:AddTransformationToNodeByEulerAngles
@@ -57,9 +61,9 @@ Scene scene = new Scene();
 Node cubeNode = new Node("cube");
 ```
 
-### ขั้นตอนที่ 2. สร้าง Mesh และตั้งค่า Geometry
+#### Step 2. Create Mesh and Set Geometry
 
-ต่อไป, สร้าง mesh ง่าย ๆ (เช่น ลูกบาศก์ในกรณีนี้) และผูกเข้ากับ node.
+Next, generate a simple mesh (a cube in this case) and attach it to the node.
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
@@ -69,11 +73,11 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 cubeNode.setEntity(mesh);
 ```
 
-## เพิ่มการหมุน 3D ให้กับ Node
+## Add Rotation 3D to a Node
 
-### ขั้นตอนที่ 3. ตั้งค่ามุมออยเลอร์และการแปลตำแหน่ง
+#### Step 3. Set Euler Angles and Translation
 
-ตอนนี้เราจะใช้มุมออยเลอร์เพื่อหมุนและย้าย node ไปยังตำแหน่งที่มองเห็นได้.
+Now we apply the rotation using Euler angles and also move the node to a visible position.
 
 ```java
 // Euler angles
@@ -83,22 +87,22 @@ cubeNode.getTransform().setEulerAngles(new Vector3(0.3, 0.1, -0.5));
 cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 ```
 
-## ตั้งค่า Translation Java – การวางตำแหน่ง Node
+## Set Translation Java – Positioning the Node
 
-ขั้นตอนการแปลตำแหน่งด้านบนแสดง **set translation java** ในการปฏิบัติ: node ถูกเลื่อน 20 หน่วยตามแกน Z เพื่อให้คุณเห็นหลังการเรนเดอร์.
+The translation step above demonstrates **set translation java** in practice: the node is shifted 20 units along the Z‑axis so you can see it after rendering.
 
-## ขั้นตอนที่ 4. เพิ่ม Node ไปยัง Scene
+## Step 4. Add Node to Scene
 
-ผูก node ที่แปลงแล้วเข้ากับ root node ของ scene.
+Attach the transformed node to the scene’s root node.
 
 ```java
 // Add cube to the scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## ขั้นตอนที่ 5. บันทึก Scene 3D
+## Step 5. Save 3D Scene
 
-สุดท้าย, ส่งออก scene เป็นไฟล์ FBX (หรือรูปแบบอื่นที่รองรับ).
+Finally, export the scene to an FBX file (or any other supported format).
 
 ```java
 // The path to the documents directory.
@@ -111,32 +115,48 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-ตรวจสอบให้แน่ใจว่าได้แทนที่ `"Your Document Directory"` ด้วยพาธที่เหมาะสมบนเครื่องของคุณ.
+Make sure to replace `"Your Document Directory"` with the appropriate path on your machine.
 
-## สรุป
+## ทำไมต้องใช้มุมออยเลอร์กับ Aspose 3D?
 
-ขอแสดงความยินดี! คุณได้แปลงโหนด 3D ด้วยมุมออยเลอร์ใน Java ด้วย **aspose 3d java** อย่างสำเร็จแล้ว. ทดลองกับมุมและการแปลตำแหน่งต่าง ๆ เพื่อสร้างฉาก 3D ที่ไดนามิกและน่าสนใจ
+Euler angles provide an intuitive way to think about rotations—pitch, yaw, and roll—making them perfect for quick prototyping or when you need to expose rotation controls to end‑users. Aspose 3D abstracts the underlying matrix math, so you can focus on the visual outcome rather than the math.
+
+## กรณีการใช้งานทั่วไป
+
+- **การแสดงผลข้อมูลแบบเรียลไทม์:** Rotate a model based on sensor input.  
+- **ระบบกล้องสไตล์เกม:** Apply yaw‑pitch‑roll to simulate a camera.  
+- **ตัวกำหนดค่าผลิตภัณฑ์:** Let customers spin a 3D product model with simple sliders.  
+
+## การแก้ไขปัญหาและเคล็ดลับ
+
+- **Gimbal lock:** If you notice unexpected snapping when rotating, consider switching to quaternion‑based rotation (`setRotationQuaternion()`).  
+- **ความสอดคล้องของหน่วย:** Aspose 3D works in the same units you provide; keep translation values consistent with your model’s scale.  
+- **ประสิทธิภาพ:** For large scenes, call `scene.dispose()` after saving to free native resources.  
 
 ## คำถามที่พบบ่อย
 
-**Q: ความแตกต่างระหว่างมุมออยเลอร์และการหมุนด้วยควอเทอร์เนียนคืออะไร?**  
-A: มุมออยเลอร์เข้าใจง่าย (pitch, yaw, roll) แต่บางครั้งอาจเจอปัญหา gimbal lock, ส่วนควอเทอร์เนียนหลีกเลี่ยงปัญหานี้และเหมาะกับการแทรกสลับอย่างราบรื่น.
+**Q: ความแตกต่างระหว่างมุมออยเลอร์และการหมุนแบบ quaternion คืออะไร?**  
+A: Euler angles are intuitive (pitch, yaw, roll) but can suffer from gimbal lock, while quaternions avoid that issue and are better for smooth interpolations.
 
-**Q: ฉันสามารถเชื่อมต่อการแปลงหลาย ๆ อย่างบนโหนดเดียวกันได้หรือไม่?**  
-A: ได้. เรียก `setEulerAngles`, `setTranslation`, และ `setScale` ในลำดับใดก็ได้; ไลบรารีจะรวมเป็นเมทริกซ์การแปลงเดียว.
+**Q: ฉันสามารถเชื่อมต่อการแปลงหลาย ๆ ครั้งบน node เดียวกันได้หรือไม่?**  
+A: Yes. Call `setEulerAngles`, `setTranslation`, and `setScale` in any order; the library composes them into a single transform matrix.
 
 **Q: สามารถส่งออกเป็นรูปแบบอื่นเช่น OBJ หรือ STL ได้หรือไม่?**  
-A: แน่นอน. แทนที่ `FileFormat.FBX7500ASCII` ด้วย `FileFormat.OBJ` หรือ `FileFormat.STL` ในการเรียก `scene.save`.
+A: Absolutely. Replace `FileFormat.FBX7500ASCII` with `FileFormat.OBJ` or `FileFormat.STL` in the `scene.save` call.
 
-**Q: ฉันจะใช้การหมุนเดียวกันกับหลายโหนดพร้อมกันอย่างไร?**  
-A: สร้าง parent node, ตั้งค่าการหมุนให้กับ parent, แล้วเพิ่ม child node ภายใต้มัน. โหนดลูกทั้งหมดจะสืบทอดการแปลงนั้น.
+**Q: ฉันจะใช้การหมุนเดียวกันกับหลาย node พร้อมกันอย่างไร?**  
+A: Create a parent node, apply the rotation to the parent, and add child nodes under it. All children inherit the transformation.
 
-**Q: ฉันต้องเรียกเมธอดทำความสะอาดหลังการบันทึกหรือไม่?**  
-A: ตัวเก็บขยะของ Java จะจัดการทรัพยากรส่วนใหญ่, แต่คุณสามารถเรียก `scene.dispose()` อย่างชัดเจนหากทำงานกับ scene ขนาดใหญ่ในแอปพลิเคชันที่ทำงานต่อเนื่องเป็นเวลานาน.
+**Q: ฉันต้องเรียกเมธอดทำความสะอาดใด ๆ หลังการบันทึกหรือไม่?**  
+A: The Java garbage collector handles most resources, but you can explicitly call `scene.dispose()` if you work with large scenes in a long‑running application.
+
+## สรุป
+
+Congratulations! You've successfully **created mesh aspose java** and transformed 3D nodes using Euler angles in Java with Aspose 3D. Experiment with different angles, translations, and even quaternion rotations to craft dynamic and engaging 3D experiences.
 
 ---
 
-**Last Updated:** 2025-12-13  
+**Last Updated:** 2026-02-20  
 **Tested With:** Aspose.3D 23.12 for Java  
 **Author:** Aspose  
 

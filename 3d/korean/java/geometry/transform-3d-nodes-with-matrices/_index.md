@@ -1,63 +1,67 @@
 ---
-date: 2025-12-14
-description: Aspose.3D를 사용한 Java 3D 그래픽 튜토리얼에서 변환 행렬을 연결하는 방법을 배워보세요. 노드를 변환하고, 씬을
-  저장하며, 실용적인 예제를 탐구하세요.
+date: 2026-02-20
+description: Aspose.3D를 활용한 Java 3D 그래픽 튜토리얼에서 변환 행렬을 연결하는 방법을 배우고, 3D 행렬 곱셈 순서, 노드
+  변환 및 씬 내보내기를 다룹니다.
 linktitle: Concatenate Transformation Matrices in Java 3D Graphics Tutorial with Aspose.3D
 second_title: Aspose.3D Java API
-title: Aspose.3D를 사용하여 변환 행렬을 연결하고 3D 노드를 변환하는 방법
+title: java 3D 그래픽 튜토리얼 – 행렬 결합 Aspose.3D
 url: /ko/java/geometry/transform-3d-nodes-with-matrices/
 weight: 21
 ---
+
+.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D를 사용한 변환 행렬로 3D 노드 변환
+# Transform 3D Nodes with Transformation Matrices using Aspose.3D
 
-## 소개
+## Introduction
 
-이 단계별 **Java 3D 그래픽 튜토리얼**에 오신 것을 환영합니다. 이 가이드에서는 Aspose.3D를 사용하여 **변환 행렬을 연결(concatenate)하는** 방법을 배워 3D 노드를 손쉽게 변환하는 방법을 알아봅니다. 게임 엔진, CAD 뷰어, 과학 시각화 도구를 만들든, 행렬 연결을 마스터하면 번역, 회전, 스케일을 한 번에 정밀하게 제어할 수 있습니다.
+이 단계별 **java 3d graphics tutorial**에 오신 것을 환영합니다. 이 가이드에서는 Aspose.3D를 사용하여 **concatenate transformation matrices**를 통해 3D 노드를 손쉽게 변환하는 방법을 배웁니다. 게임 엔진, CAD 뷰어, 과학 시각화 도구 등을 만들고 있든, 매트릭스 연결을 마스터하면 번역, 회전, 스케일링을 한 번의 연산으로 정밀하게 제어할 수 있습니다.
 
-## 빠른 답변
-- **3D 씬의 기본 클래스는?** `Scene` – 모든 노드, 메쉬, 라이트를 보관합니다.  
-- **여러 변환을 적용하려면?** 노드의 `Transform` 객체에 변환 행렬을 연결합니다.  
-- **저장에 사용되는 파일 형식은?** 예시에서는 FBX (ASCII 7500)를 보여주지만 Aspose.3D는 다양한 형식을 지원합니다.  
-- **개발에 라이선스가 필요합니까?** 평가용 임시 라이선스로 테스트 가능하지만, 실제 배포 시 정식 라이선스가 필요합니다.  
-- **어떤 IDE가 가장 좋습니까?** Maven/Gradle을 지원하는 모든 Java IDE(IntelliJ IDEA, Eclipse, NetBeans)에서 사용 가능합니다.
+## Quick Answers
+- **What is the primary class for a 3D scene?** `Scene` – it holds all nodes, meshes, and lights.  
+- **How do I apply multiple transformations?** By concatenating transformation matrices on a node’s `Transform` object.  
+- **Which file format is used for saving?** FBX (ASCII 7500) is shown, but Aspose.3D supports many others.  
+- **Do I need a license for development?** A temporary license works for evaluation; a full license is required for production.  
+- **What IDE works best?** Any Java IDE (IntelliJ IDEA, Eclipse, NetBeans) that supports Maven/Gradle.
 
-## “변환 행렬을 연결(concatenate transformation matrices)”이란?
+## What is “concatenate transformation matrices”?
 
-변환 행렬을 연결한다는 것은 두 개 이상의 행렬을 곱해 하나의 결합된 행렬을 만드는 것을 의미합니다. 이 결합 행렬은 일련의 변환(예: translate → rotate → scale)을 하나의 연산으로 나타냅니다. Aspose.3D에서는 결과 행렬을 노드의 변환에 적용하여 복잡한 위치 지정도 한 번에 처리할 수 있습니다.
+concatenating transformation matrices는 두 개 이상의 매트릭스를 곱하여 하나의 결합된 매트릭스가 일련의 변환(예: translate → rotate → scale)을 나타내도록 하는 것을 의미합니다. Aspose.3D에서는 결과 매트릭스를 노드의 transform에 적용하여 복잡한 위치 지정 작업을 한 번의 호출로 수행할 수 있습니다.
 
-## Aspose.3D와 함께하는 Java 3D 그래픽 튜토리얼을 선택해야 하는 이유
+## Understanding matrix multiplication order 3d
 
-- **고성능 렌더링** – Aspose.3D는 대규모 씬에 최적화되어 있습니다.  
-- **다양한 포맷 지원** – FBX, OBJ, STL, glTF 등으로 내보낼 수 있습니다.  
-- **간단한 API** – 저수준 수학을 추상화하면서도 세밀한 제어를 위한 행렬 연산을 제공합니다.  
+**matrix multiplication order 3d**는 매트릭스 곱셈이 교환법칙이 아니기 때문에 중요합니다. 실제로는 보통 **scale → rotate → translate** 순서로 곱하여 기대하는 시각적 결과를 얻습니다. Aspose.3D의 `Matrix4.multiply()`도 동일한 규칙을 따르므로 결합 매트릭스를 만들 때 순서를 기억하세요.
 
-## 사전 준비 사항
+## Why this java 3d graphics tutorial matters
 
-시작하기 전에 다음을 준비하십시오:
+- **High‑performance rendering** – Aspose.3D는 대규모 씬에 최적화되어 있습니다.  
+- **Cross‑format support** – FBX, OBJ, STL, glTF 등 다양한 포맷으로 내보낼 수 있습니다.  
+- **Simple yet powerful API** – 라이브러리는 저수준 수학을 추상화하면서도 매트릭스 연산을 통해 세밀한 제어를 제공합니다.  
+
+## Prerequisites
+
+시작하기 전에 다음을 준비하세요:
 
 - 기본 Java 프로그래밍 지식.  
-- Aspose.3D 라이브러리 설치 – [여기](https://releases.aspose.com/3d/java/)에서 다운로드.  
-- Maven/Gradle을 지원하는 Java IDE(IntelliJ, Eclipse, NetBeans).
+- Aspose.3D 라이브러리 설치 – [here](https://releases.aspose.com/3d/java/)에서 다운로드.  
+- Maven/Gradle를 지원하는 Java IDE(IntelliJ, Eclipse, NetBeans 등).
 
-## 패키지 가져오기
+## Import Packages
 
-Java 프로젝트에서 필요한 Aspose.3D 클래스를 가져옵니다. 아래 import 블록은 그대로 유지해야 합니다:
+Java 프로젝트에서 필요한 Aspose.3D 클래스를 가져옵니다. 이 import 블록은 아래와 같이 정확히 유지되어야 합니다:
 
 ```java
 import com.aspose.threed.*;
 
 ```
 
-## 3D 노드 변환
+## Step-by-Step Guide
 
-아래는 전체 워크플로우입니다. 각 단계는 설명 뒤에 원본 코드 블록(변경 없음)이 따라옵니다.
-
-### 단계 1: Scene 객체 초기화
+### Step 1: Initialize the Scene Object
 
 모든 3D 요소의 루트 컨테이너 역할을 하는 `Scene`을 생성합니다.
 
@@ -65,7 +69,7 @@ import com.aspose.threed.*;
 Scene scene = new Scene();
 ```
 
-### 단계 2: Node 초기화 (Cube)
+### Step 2: Initialize a Node (Cube)
 
 큐브의 기하 정보를 담을 `Node`를 인스턴스화합니다.
 
@@ -73,25 +77,25 @@ Scene scene = new Scene();
 Node cubeNode = new Node("cube");
 ```
 
-### 단계 3: Polygon Builder를 사용해 Mesh 생성
+### Step 3: Create Mesh Using Polygon Builder
 
-`Common`에 있는 헬퍼 메서드를 이용해 큐브용 메쉬를 생성합니다.
+`Common`에 있는 헬퍼 메서드를 사용해 큐브용 메쉬를 생성합니다.
 
 ```java
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-### 단계 4: Mesh를 Node에 연결
+### Step 4: Attach Mesh to the Node
 
-기하 정보를 노드에 연결하여 씬이 렌더링 대상을 알게 합니다.
+기하 정보를 노드에 연결하여 씬이 렌더링할 대상을 알게 합니다.
 
 ```java
 cubeNode.setEntity(mesh);
 ```
 
-### 단계 5: 사용자 정의 변환 행렬 설정 (연결 예시)
+### Step 5: Set a Custom Translation Matrix (Concatenation Example)
 
-여기서는 직접 만든 `Matrix4`를 제공하여 **변환 행렬을 연결**합니다. 별도의 번역, 회전, 스케일 행렬을 만든 뒤 곱할 수도 있지만, 간단히 하나의 결합 행렬을 보여줍니다.
+여기서는 직접 만든 커스텀 `Matrix4`를 제공하여 **concatenate transformation matrices**를 수행합니다. 별도로 번역, 회전, 스케일 매트릭스를 만든 뒤 곱할 수도 있지만, 간단히 하나의 결합 매트릭스로 보여줍니다.
 
 ```java
 cubeNode.getTransform().setTransformMatrix(new Matrix4(
@@ -102,9 +106,9 @@ cubeNode.getTransform().setTransformMatrix(new Matrix4(
 ));
 ```
 
-> **팁:** 여러 행렬을 연결하려면 각각의 `Matrix4`(예: `translation`, `rotation`, `scale`)를 만든 뒤 `Matrix4.multiply()`로 곱하고, 최종 결과를 `setTransformMatrix`에 전달합니다.
+> **Pro tip:** 여러 매트릭스를 연결하려면 각각의 `Matrix4`(예: `translation`, `rotation`, `scale`)를 만든 뒤 `Matrix4.multiply()`를 사용해 곱하고, 결과를 `setTransformMatrix`에 할당하세요.
 
-### 단계 6: Cube Node를 Scene에 추가
+### Step 6: Add the Cube Node to the Scene
 
 루트 노드 아래에 큐브 노드를 삽입합니다.
 
@@ -112,9 +116,9 @@ cubeNode.getTransform().setTransformMatrix(new Matrix4(
 scene.getRootNode().addChildNode(cubeNode);
 ```
 
-### 단계 7: 3D 씬 저장
+### Step 7: Save the 3D Scene
 
-디렉터리와 파일명을 지정한 뒤 씬을 내보냅니다. 예시는 FBX ASCII 형식으로 저장하지만, `FileFormat`을 변경하면 OBJ, STL 등으로 전환할 수 있습니다.
+디렉터리와 파일명을 선택한 뒤 씬을 내보냅니다. 예제는 FBX ASCII 형식으로 저장하지만, `FileFormat`을 변경하면 OBJ, STL 등으로 전환할 수 있습니다.
 
 ```java
 String MyDir = "Your Document Directory";
@@ -123,45 +127,45 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-## 일반적인 문제와 해결책
+## Common Issues and Solutions
 
-| 문제 | 원인 | 해결 방법 |
-|------|------|-----------|
-| **Scene이 저장되지 않음** | 잘못된 디렉터리 경로나 쓰기 권한 부족 | `MyDir`이 존재하는 폴더인지 확인하고, 애플리케이션에 파일 시스템 권한이 있는지 점검합니다. |
-| **행렬이 효과가 없음** | 단위 행렬 사용 또는 할당 누락 | 행렬을 만든 뒤 반드시 `setTransformMatrix`를 호출하고, 행렬 값이 올바른지 재확인합니다. |
-| **방향이 잘못됨** | 행렬 연결 시 회전 순서 불일치 | 기대한 결과를 얻으려면 *scale → rotate → translate* 순서로 행렬을 곱합니다. |
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **Scene not saving** | Invalid directory path or missing write permissions | Verify `MyDir` points to an existing folder and the application has file‑system rights. |
+| **Matrix seems to have no effect** | Using an identity matrix or forgetting to assign it | Ensure you call `setTransformMatrix` after creating the matrix, and double‑check the matrix values. |
+| **Incorrect orientation** | Rotation order mismatch when concatenating matrices | Multiply matrices in the order *scale → rotate → translate* to achieve expected results. |
 
-## 자주 묻는 질문
+## Frequently Asked Questions
 
-### Q1: 하나의 3D 노드에 여러 변환을 적용할 수 있나요?
+### Q1: Can I apply multiple transformations to a single 3D node?
 
-A1: 가능합니다. 각각의 변환(번역, 회전, 스케일)마다 별도 행렬을 만든 뒤 **변환 행렬을 연결**하여 최종 행렬을 `setTransformMatrix`에 전달하면 됩니다.
+A1: Yes. Create separate matrices for each transformation (translation, rotation, scaling) and **concatenate transformation matrices** using multiplication before assigning the final matrix.
 
-### Q2: Aspose.3D에서 3D 객체를 회전하려면 어떻게 해야 하나요?
+### Q2: How can I rotate a 3D object in Aspose.3D?
 
-A2: `Matrix4.createRotationY(angle)`와 같이 회전 행렬을 만든 뒤 기존 행렬과 연결하면 됩니다.
+A2: Build a rotation matrix (e.g., around the Y‑axis) with `Matrix4.createRotationY(angle)` and concatenate it with any existing matrix.
 
-### Q3: 생성할 수 있는 3D 씬의 크기에 제한이 있나요?
+### Q3: Is there a limit to the size of the 3D scenes I can create?
 
-A3: 실질적인 제한은 시스템 메모리와 CPU에 따라 달라집니다. Aspose.3D는 대형 씬을 효율적으로 처리하도록 설계되었지만, 매우 복잡한 모델은 리소스 사용량을 모니터링하십시오.
+A3: The practical limit is dictated by your system’s memory and CPU. Aspose.3D is designed to handle large scenes efficiently, but monitor resource usage for extremely complex models.
 
-### Q4: 추가 예제와 문서는 어디서 찾을 수 있나요?
+### Q4: Where can I find additional examples and documentation?
 
-A4: 전체 API 목록, 코드 샘플, 모범 사례 가이드는 [Aspose.3D 문서](https://reference.aspose.com/3d/java/)를 참고하세요.
+A4: Visit the [Aspose.3D documentation](https://reference.aspose.com/3d/java/) for a full list of APIs, code samples, and best‑practice guides.
 
-### Q5: Aspose.3D 임시 라이선스는 어떻게 얻나요?
+### Q5: How do I obtain a temporary license for Aspose.3D?
 
-A5: [여기](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 받을 수 있습니다.
+A5: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-## 결론
+## Conclusion
 
-이제 Aspose.3D와 Java 환경에서 **변환 행렬을 연결**하여 3D 노드를 조작하는 방법을 마스터했습니다. 다양한 행렬 조합(번역, 회전, 스케일)을 실험해 복잡한 애니메이션과 모델을 만들어 보세요. 준비가 되면 조명, 카메라 제어, 추가 포맷 내보내기 등 Aspose.3D의 다른 기능도 탐색해 보시기 바랍니다.
+You’ve now mastered how to **concatenate transformation matrices** to manipulate 3D nodes in a Java environment using Aspose.3D. Experiment with different matrix combinations—translate, rotate, scale—to create sophisticated animations and models. When you’re ready, explore other Aspose.3D features such as lighting, camera control, and exporting to additional formats.
 
 ---
 
-**마지막 업데이트:** 2025-12-14  
-**테스트 환경:** Aspose.3D 24.11 for Java  
-**작성자:** Aspose
+**Last Updated:** 2026-02-20  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

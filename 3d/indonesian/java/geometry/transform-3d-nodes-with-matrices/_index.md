@@ -1,11 +1,11 @@
 ---
-date: 2025-12-14
+date: 2026-02-20
 description: Pelajari cara menggabungkan matriks transformasi dalam tutorial grafis
-  3D Java menggunakan Aspose.3D. Transformasikan node, simpan adegan, dan jelajahi
-  contoh praktis.
+  3D Java menggunakan Aspose.3D, mencakup urutan perkalian matriks 3D, transformasi
+  node, dan ekspor adegan.
 linktitle: Concatenate Transformation Matrices in Java 3D Graphics Tutorial with Aspose.3D
 second_title: Aspose.3D Java API
-title: Cara Menggabungkan Matriks Transformasi dan Mengubah Node 3D menggunakan Aspose.3D
+title: Tutorial grafis 3D Java – Menggabungkan Matriks Aspose.3D
 url: /id/java/geometry/transform-3d-nodes-with-matrices/
 weight: 21
 ---
@@ -18,28 +18,32 @@ weight: 21
 
 ## Introduction
 
-Selamat datang di **tutorial grafis 3D Java** langkah‑demi‑langkah ini. Dalam panduan ini Anda akan belajar cara **menggabungkan (concatenate) matriks transformasi** untuk mentransformasi node 3D dengan mudah menggunakan Aspose.3D. Baik Anda sedang membangun mesin game, penampil CAD, atau visualisasi ilmiah, menguasai penggabungan matriks memberi Anda kontrol presisi atas translasi, rotasi, dan skala dalam satu operasi.
+Selamat datang di **tutorial grafik 3d java** langkah‑demi‑langkah ini. Dalam panduan ini Anda akan belajar cara **menggabungkan (concatenate) matriks transformasi** untuk mentransformasi node 3D dengan mudah menggunakan Aspose.3D. Baik Anda sedang membangun mesin game, penampil CAD, atau visualizer ilmiah, menguasai penggabungan matriks memberi Anda kontrol presisi atas translasi, rotasi, dan skala dalam satu operasi.
 
 ## Quick Answers
 - **Apa kelas utama untuk sebuah scene 3D?** `Scene` – menyimpan semua node, mesh, dan lampu.  
-- **Bagaimana cara menerapkan beberapa transformasi?** Dengan menggabungkan matriks transformasi pada objek `Transform` milik sebuah node.  
-- **Format file apa yang digunakan untuk penyimpanan?** FBX (ASCII 7500) ditampilkan, namun Aspose.3D mendukung banyak format lainnya.  
-- **Apakah saya memerlukan lisensi untuk pengembangan?** Lisensi sementara cukup untuk evaluasi; lisensi penuh diperlukan untuk produksi.  
+- **Bagaimana cara menerapkan beberapa transformasi?** Dengan menggabungkan (concatenating) matriks transformasi pada objek `Transform` milik sebuah node.  
+- **Format file apa yang digunakan untuk penyimpanan?** FBX (ASCII 7500) ditampilkan, tetapi Aspose.3D mendukung banyak format lainnya.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Lisensi sementara dapat digunakan untuk evaluasi; lisensi penuh diperlukan untuk produksi.  
 - **IDE apa yang paling cocok?** Semua IDE Java (IntelliJ IDEA, Eclipse, NetBeans) yang mendukung Maven/Gradle.
 
 ## What is “concatenate transformation matrices”?
 
-Menggabungkan (concatenate) matriks transformasi berarti mengalikan dua atau lebih matriks sehingga satu matriks gabungan mewakili urutan transformasi (misalnya, translate → rotate → scale). Di Aspose.3D Anda menerapkan matriks hasil ke transformasi node, memungkinkan penempatan kompleks dengan satu pemanggilan saja.
+Menggabungkan (concatenating) matriks transformasi berarti mengalikan dua atau lebih matriks sehingga satu matriks gabungan mewakili urutan transformasi (misalnya, translate → rotate → scale). Di Aspose.3D Anda menerapkan matriks hasil pada transformasi node, memungkinkan penempatan kompleks dengan satu pemanggilan saja.
 
-## Why use a Java 3D graphics tutorial with Aspose.3D?
+## Understanding matrix multiplication order 3d
+
+Urutan **matrix multiplication order 3d** penting karena perkalian matriks tidak komutatif. Pada praktiknya biasanya Anda mengalikan dalam urutan **scale → rotate → translate** untuk mendapatkan hasil visual yang diharapkan. `Matrix4.multiply()` di Aspose.3D mengikuti konvensi yang sama, jadi perhatikan urutan saat membangun matriks gabungan Anda.
+
+## Why this java 3d graphics tutorial matters
 
 - **Rendering berperforma tinggi** – Aspose.3D dioptimalkan untuk scene besar.  
 - **Dukungan lintas format** – Ekspor ke FBX, OBJ, STL, glTF, dan lainnya.  
-- **API sederhana** – Perpustakaan menyembunyikan matematika tingkat rendah sambil tetap menyediakan operasi matriks untuk kontrol detail.
+- **API sederhana namun kuat** – Perpustakaan ini menyembunyikan matematika tingkat rendah sambil tetap menyediakan operasi matriks untuk kontrol detail.
 
 ## Prerequisites
 
-Sebelum memulai, pastikan Anda memiliki:
+Sebelum kita mulai, pastikan Anda memiliki:
 
 - Pengetahuan dasar pemrograman Java.  
 - Library Aspose.3D terpasang – unduh dari [here](https://releases.aspose.com/3d/java/).  
@@ -54,9 +58,7 @@ import com.aspose.threed.*;
 
 ```
 
-## Transforming 3D Nodes
-
-Berikut alur kerja lengkapnya. Setiap langkah dijelaskan dengan bahasa sederhana, diikuti oleh blok kode asli (tidak diubah).
+## Step-by-Step Guide
 
 ### Step 1: Initialize the Scene Object
 
@@ -92,7 +94,7 @@ cubeNode.setEntity(mesh);
 
 ### Step 5: Set a Custom Translation Matrix (Concatenation Example)
 
-Di sini kita **menggabungkan matriks transformasi** dengan langsung menyediakan `Matrix4` khusus. Anda dapat membuat matriks translasi, rotasi, dan skala terpisah lalu mengalikannya, namun untuk singkatnya kami tunjukkan satu matriks gabungan.
+Di sini kami **menggabungkan (concatenate) matriks transformasi** dengan langsung menyediakan `Matrix4` khusus. Anda dapat membuat matriks translasi, rotasi, dan skala terpisah lalu mengalikannya, tetapi demi singkat kami tunjukkan satu matriks gabungan.
 
 ```java
 cubeNode.getTransform().setTransformMatrix(new Matrix4(
@@ -103,7 +105,7 @@ cubeNode.getTransform().setTransformMatrix(new Matrix4(
 ));
 ```
 
-> **Pro tip:** Untuk menggabungkan beberapa matriks, buat masing‑masing `Matrix4` (misalnya `translation`, `rotation`, `scale`) dan gunakan `Matrix4.multiply()` sebelum menetapkan hasilnya ke `setTransformMatrix`.
+> **Pro tip:** Untuk menggabungkan beberapa matriks, buat masing‑masing `Matrix4` (misalnya, `translation`, `rotation`, `scale`) dan gunakan `Matrix4.multiply()` sebelum menetapkan hasilnya ke `setTransformMatrix`.
 
 ### Step 6: Add the Cube Node to the Scene
 
@@ -115,7 +117,7 @@ scene.getRootNode().addChildNode(cubeNode);
 
 ### Step 7: Save the 3D Scene
 
-Pilih direktori dan nama file, lalu ekspor scene. Contoh menyimpan sebagai FBX ASCII, namun Anda dapat beralih ke OBJ, STL, dll., dengan mengubah `FileFormat`.
+Pilih direktori dan nama file, lalu ekspor scene. Contoh menyimpan sebagai FBX ASCII, tetapi Anda dapat beralih ke OBJ, STL, dll., dengan mengubah `FileFormat`.
 
 ```java
 String MyDir = "Your Document Directory";
@@ -126,41 +128,41 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 
 ## Common Issues and Solutions
 
-| Masalah | Penyebab | Solusi |
-|---------|----------|--------|
-| **Scene tidak dapat disimpan** | Path direktori tidak valid atau hak akses tulis tidak ada | Pastikan `MyDir` mengarah ke folder yang ada dan aplikasi memiliki hak akses sistem berkas. |
-| **Matriks tampaknya tidak berpengaruh** | Menggunakan matriks identitas atau lupa menetapkannya | Pastikan Anda memanggil `setTransformMatrix` setelah membuat matriks, dan periksa kembali nilai‑nilai matriks. |
-| **Orientasi tidak tepat** | Urutan rotasi tidak cocok saat menggabungkan matriks | Kalikan matriks dalam urutan *scale → rotate → translate* untuk mendapatkan hasil yang diharapkan. |
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **Scene not saving** | Jalur direktori tidak valid atau hak tulis tidak tersedia | Pastikan `MyDir` mengarah ke folder yang ada dan aplikasi memiliki hak akses sistem berkas. |
+| **Matrix seems to have no effect** | Menggunakan matriks identitas atau lupa menetapkannya | Pastikan Anda memanggil `setTransformMatrix` setelah membuat matriks, dan periksa kembali nilai‑nilai matriks. |
+| **Incorrect orientation** | Urutan rotasi tidak cocok saat menggabungkan matriks | Kalikan matriks dalam urutan *scale → rotate → translate* untuk memperoleh hasil yang diharapkan. |
 
 ## Frequently Asked Questions
 
 ### Q1: Can I apply multiple transformations to a single 3D node?
 
-**A1:** Ya. Buat matriks terpisah untuk tiap transformasi (translasi, rotasi, skala) dan **gabungkan matriks transformasi** menggunakan perkalian sebelum menetapkan matriks akhir.
+A1: Ya. Buat matriks terpisah untuk setiap transformasi (translasi, rotasi, skala) dan **gabungkan (concatenate) matriks transformasi** menggunakan perkalian sebelum menetapkan matriks akhir.
 
 ### Q2: How can I rotate a 3D object in Aspose.3D?
 
-**A2:** Buat matriks rotasi (misalnya, sekitar sumbu Y) dengan `Matrix4.createRotationY(angle)` dan gabungkan dengan matriks yang sudah ada.
+A2: Buat matriks rotasi (misalnya, sekitar sumbu Y) dengan `Matrix4.createRotationY(angle)` dan gabungkan dengan matriks yang sudah ada.
 
 ### Q3: Is there a limit to the size of the 3D scenes I can create?
 
-**A3:** Batas praktis ditentukan oleh memori dan CPU sistem Anda. Aspose.3D dirancang untuk menangani scene besar secara efisien, namun tetap pantau penggunaan sumber daya untuk model yang sangat kompleks.
+A3: Batas praktis ditentukan oleh memori dan CPU sistem Anda. Aspose.3D dirancang untuk menangani scene besar secara efisien, tetapi pantau penggunaan sumber daya untuk model yang sangat kompleks.
 
 ### Q4: Where can I find additional examples and documentation?
 
-**A4:** Kunjungi [Aspose.3D documentation](https://reference.aspose.com/3d/java/) untuk daftar lengkap API, contoh kode, dan panduan praktik terbaik.
+A4: Kunjungi [Aspose.3D documentation](https://reference.aspose.com/3d/java/) untuk daftar lengkap API, contoh kode, dan panduan praktik terbaik.
 
 ### Q5: How do I obtain a temporary license for Aspose.3D?
 
-**A5:** Anda dapat memperoleh lisensi sementara [here](https://purchase.aspose.com/temporary-license/).
+A5: Anda dapat memperoleh lisensi sementara [here](https://purchase.aspose.com/temporary-license/).
 
 ## Conclusion
 
-Anda kini telah menguasai cara **menggabungkan matriks transformasi** untuk memanipulasi node 3D dalam lingkungan Java menggunakan Aspose.3D. Bereksperimenlah dengan kombinasi matriks yang berbeda—translasi, rotasi, skala—untuk menciptakan animasi dan model yang canggih. Saat sudah siap, jelajahi fitur Aspose.3D lainnya seperti pencahayaan, kontrol kamera, dan ekspor ke format tambahan.
+Anda kini telah menguasai cara **menggabungkan (concatenate) matriks transformasi** untuk memanipulasi node 3D dalam lingkungan Java menggunakan Aspose.3D. Bereksperimenlah dengan kombinasi matriks yang berbeda—translate, rotate, scale—untuk menciptakan animasi dan model yang canggih. Saat sudah siap, jelajahi fitur Aspose.3D lainnya seperti pencahayaan, kontrol kamera, dan ekspor ke format tambahan.
 
 ---
 
-**Last Updated:** 2025-12-14  
+**Last Updated:** 2026-02-20  
 **Tested With:** Aspose.3D 24.11 for Java  
 **Author:** Aspose
 
