@@ -1,22 +1,28 @@
 ---
-title: How to Concatenate Quaternions with Aspose.3D for .NET
+title: Euler to Quaternion C#: Concatenate Quaternions with Aspose.3D
 linktitle: How to Concatenate Quaternions
 second_title: Aspose.3D .NET API
-description: Learn how to concatenate quaternions using Aspose.3D for .NET, including how to define quaternion from Euler angles and apply them in 3D scenes.
+description: Learn how to convert Euler to quaternion C# and concatenate quaternions using Aspose.3D for .NET, then save the scene as FBX while avoiding gimbal lock.
 weight: 11
 url: /net/geometry-and-hierarchy/concatenate-quaternions/
-date: 2026-01-17
+date: 2026-04-12
+keywords:
+- euler to quaternion c#
+- save scene as fbx
+- avoid gimbal lock quaternions
+- define quaternion from euler
+- how to concatenate quaternions
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Concatenate Quaternions with Aspose.3D for .NET
+# Euler to Quaternion C#: Concatenate Quaternions with Aspose.3D for .NET
 
 ## Introduction
 
-If you’re looking to **how to concatenate quaternions** in a 3D scene, you’ve landed in the right spot. In this tutorial we’ll walk through the entire process using Aspose.3D for .NET, from defining a quaternion from Euler angles to chaining multiple rotations together. By the end, you’ll be able to create smooth, gimbal‑free transformations for any 3D project.
+If you’re looking to **euler to quaternion c#** in a 3D scene, you’ve landed in the right spot. In this tutorial we’ll walk through the entire process using Aspose.3D for .NET, from defining a quaternion from Euler angles to chaining multiple rotations together. By the end, you’ll be able to create smooth, gimbal‑free transformations, save the scene as FBX, and understand **how to concatenate quaternions** for any .NET‑based 3D project.
 
 ## Quick Answers
 - **What is quaternion concatenation?** Combining two or more quaternion rotations into a single quaternion that represents the total rotation.  
@@ -31,7 +37,11 @@ Quaternion concatenation (or multiplication) merges separate rotations into one.
 
 ## Why Define Quaternion from Euler Angles?
 
-Many designers think in terms of pitch, yaw, and roll (Euler angles). Aspose.3D lets you **define quaternion from Euler** angles, giving you the best of both worlds: intuitive input and robust rotation handling.
+Many designers think in terms of pitch, yaw, and roll (Euler angles). Aspose.3D lets you **define quaternion from Euler** angles, giving you the best of both worlds: intuitive input and robust rotation handling that **avoid gimbal lock quaternions**.
+
+## How to Convert Euler Angles to Quaternion in C#
+
+Aspose.3D provides a static method `Quaternion.FromEulerAngle` that accepts rotation values in radians. This is the most straightforward way to perform an **euler to quaternion c#** conversion without writing your own math.
 
 ## Prerequisites
 
@@ -93,7 +103,7 @@ cylinder.Transform.Translation = new Vector3(-5, 2, 0);
 
 ### Step 4: Save the Scene
 
-Export the scene to an FBX file so you can open it in any 3D viewer.
+Export the scene to an FBX file so you can open it in any 3D viewer. This demonstrates **save scene as FBX** using Aspose.3D.
 
 ```csharp
 var output = "Your Output Directory" + "test_out.fbx";
@@ -135,11 +145,11 @@ A: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/te
 
 ## Conclusion
 
-You now know **how to concatenate quaternions** using Aspose.3D for .NET, how to **define quaternion from Euler** angles, and how to visualize the result with simple geometry. Experiment with different rotation orders, combine more quaternions, or apply the technique to animated cameras for even richer 3D experiences.
+You now know **how to concatenate quaternions** using Aspose.3D for .NET, how to **define quaternion from Euler** angles, and how to **save scene as FBX** while **avoiding gimbal lock quaternions**. Experiment with different rotation orders, combine more quaternions, or apply the technique to animated cameras for even richer 3D experiences.
 
 ---
 
-**Last Updated:** 2026-01-17  
+**Last Updated:** 2026-04-12  
 **Tested With:** Aspose.3D 24.11 for .NET  
 **Author:** Aspose  
 

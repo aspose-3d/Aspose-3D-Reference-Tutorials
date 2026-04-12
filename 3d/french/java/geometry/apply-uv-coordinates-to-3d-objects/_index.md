@@ -1,11 +1,18 @@
 ---
-date: 2026-02-09
-description: Apprenez à créer des UV et à mapper des textures Java avec Aspose.3D.
-  Élevez vos graphismes avec ce guide étape par étape.
-linktitle: How to Create UVs – Apply UV Coordinates to 3D Objects in Java with Aspose.3D
+date: 2026-04-12
+description: Apprenez à générer des coordonnées UV et à appliquer des textures en
+  Java avec Aspose.3D – un tutoriel pas à pas sur le mapping de textures.
+keywords:
+- generate uv coordinates
+- create uv set
+- texture mapping tutorial
+- uv mapping 3d objects
+- add texture coordinates
+linktitle: Comment générer des coordonnées UV – Appliquer les UV aux objets 3D en
+  Java avec Aspose.3D
 second_title: Aspose.3D Java API
-title: Comment créer des UV – Appliquer les coordonnées UV aux objets 3D en Java avec
-  Aspose.3D
+title: Comment générer des coordonnées UV – Appliquer les UV aux objets 3D en Java
+  avec Aspose.3D
 url: /fr/java/geometry/apply-uv-coordinates-to-3d-objects/
 weight: 18
 ---
@@ -14,40 +21,38 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Comment créer des UV – Appliquer des coordonnées UV aux objets 3D en Java avec Aspose.3D
+# Comment générer des coordonnées UV – Appliquer les UV aux objets 3D en Java avec Aspose.3D
 
 ## Introduction
 
-Bienvenue dans ce tutoriel complet sur **how to create UVs** et l'application des coordonnées UV aux objets 3D en Java avec Aspose.3D. Dans le domaine des graphiques 3D, les coordonnées UV jouent un rôle crucial dans **map textures java**, vous permettant d'ajouter des coordonnées de texture qui apportent du réalisme à vos modèles. Ce guide vous accompagne étape par étape, afin que vous puissiez commencer à texturer vos objets en toute confiance.
+Bienvenue dans ce tutoriel complet **texture mapping tutorial** sur **how to generate UV coordinates** et l'application des coordonnées UV aux objets 3D en Java avec Aspose.3D. Dans le monde des graphiques 3‑D, les coordonnées UV sont le pont qui vous permet de **map textures java** et d'offrir à vos modèles un aspect réaliste. Ce guide vous accompagne étape par étape, afin que vous puissiez commencer à ajouter des coordonnées de texture à n'importe quel maillage en toute confiance.
 
-## Quick Answers
-- **Quel est l'objectif principal ?** Apprendre à créer des UV et à appliquer des textures sur une géométrie 3D.  
-- **Quelle bibliothèque est utilisée ?** Aspose.3D for Java.  
+## Réponses rapides
+- **Quel est l'objectif principal ?** Apprenez à générer des coordonnées UV et à appliquer des textures sur la géométrie 3‑D.  
+- **Quelle bibliothèque est utilisée ?** Aspose.3D pour Java.  
 - **Ai-je besoin d'une licence ?** Un essai gratuit suffit pour le développement ; une licence est requise pour la production.  
 - **Combien de temps prend l'implémentation ?** Environ 10‑15 minutes pour un cube basique.  
 - **Puis-je l'utiliser avec d'autres formes ?** Oui – les mêmes principes s'appliquent à tout maillage.
 
-## Qu'est-ce que le UV mapping et pourquoi devez‑vous créer des UV ?
+## Comment générer des coordonnées UV en Java
 
-Le UV mapping est le processus de projection d'une image 2‑D (la texture) sur une surface 3‑D. En définissant des **coordonnées UV**, vous indiquez au moteur de rendu quelle partie de la texture appartient à chaque sommet. Sans UV appropriés, les textures apparaissent étirées, mal placées ou simplement invisibles.
+Avant de plonger dans le code, clarifions pourquoi la génération de coordonnées UV est importante. Des UV corrects garantissent que les textures s'alignent correctement, évitent les étirements et donnent aux matériaux un aspect professionnel. Que vous construisiez un jeu, une simulation ou un visualiseur de produit, un jeu de UV solide est essentiel.
 
-## Pourquoi utiliser Aspose.3D pour le UV mapping en Java ?
+## Pourquoi le mapping UV des objets 3D est important
 
-- **Cross‑platform** : fonctionne sur tout environnement compatible Java.  
-- **Rich API** : fournit des classes de haut niveau comme `VertexElementUV` qui simplifient la gestion des UV.  
-- **Performance‑oriented** : optimisé pour les scènes volumineuses et les modèles complexes.  
+- **Réalité :** Des UV corrects permettent aux textures de s'enrouler naturellement autour de surfaces complexes.  
+- **Performance :** Des ensembles UV bien organisés réduisent le besoin de shaders supplémentaires ou d'ajustements en temps réel.  
+- **Portabilité :** Les données UV voyagent avec le maillage, ainsi le modèle apparaît identique dans tout moteur supportant Aspose.3D.
 
 ## Prérequis
 
-Avant de commencer, assurez‑vous d'avoir :
-
 - **Environnement de développement Java** – JDK 8+ installé et configuré.  
-- **Bibliothèque Aspose.3D** – Téléchargez le JAR le plus récent depuis le site officiel [here](https://releases.aspose.com/3d/java/).  
+- **Bibliothèque Aspose.3D** – Téléchargez le dernier JAR depuis le site officiel [ici](https://releases.aspose.com/3d/java/).  
 - **Connaissances de base en 3D** – La familiarité avec les maillages, les sommets et les concepts de texture vous aidera à suivre.
 
 ## Importer les packages
 
-Dans cette étape, nous importons les packages nécessaires pour démarrer notre aventure de UV‑mapping. La bibliothèque Aspose.3D fournit les outils dont nous avons besoin pour travailler avec des objets 3‑D en Java.
+Dans cette étape, nous importons les packages nécessaires pour démarrer notre aventure de mapping UV. La bibliothèque Aspose.3D fournit les outils dont nous avons besoin pour travailler avec des objets 3‑D en Java.
 
 ### Étape 1 : Importer les packages Aspose.3D
 
@@ -59,9 +64,9 @@ import java.util.Arrays;
 
 Maintenant que les packages sont prêts, configurons les données UV pour un cube simple.
 
-## Comment créer des UV sur un objet 3D
+## Créer un ensemble UV pour votre maillage
 
-Dans cette section, nous vous guidons à travers la création de coordonnées UV pour un cube, puis à l'attachement de ces coordonnées au maillage. La même approche peut être étendue à toute géométrie.
+Ici nous définissons les coordonnées UV et le tampon d'indices qui indique au maillage quel UV appartient à chaque sommet de polygone. C’est le cœur du processus **create UV set**.
 
 ### Étape 2 : Créer les UV et les indices
 
@@ -84,9 +89,13 @@ int[] uvsId = new int[]
 // ExEnd:SetupUVOnCube
 ```
 
-Ces tableaux définissent les **coordonnées UV** (`uvs`) et le **mappage d'indices** (`uvsId`) qui indique au maillage quel UV appartient à chaque sommet de polygone.
+Ces tableaux définissent les **UV coordinates** (`uvs`) et le **index mapping** (`uvsId`) qui indique au maillage quel UV appartient à chaque sommet de polygone.
 
-### Étape 3 : Créer le maillage et le jeu d'UV
+## Ajouter des coordonnées de texture à un maillage
+
+Nous attachons maintenant l’ensemble UV à une instance de maillage. Cette étape **adds texture coordinates** à la géométrie, la rendant prête pour le rendu avec une texture.
+
+### Étape 3 : Créer le maillage et l'ensemble UV
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
@@ -101,11 +110,11 @@ elementUV.setIndices(uvsId);
 
 Ici nous :
 
-1. Construisons un maillage (le cube) à l'aide d'une classe d'aide.  
-2. Créons un élément UV (`VertexElementUV`) qui stocke nos coordonnées de texture.  
-3. Assignons les données UV et le tampon d'indices au maillage, ajoutant ainsi **des coordonnées de texture** à la géométrie.
+1. Construire un maillage (le cube) en utilisant une classe d'aide.  
+2. Créer un élément UV (`VertexElementUV`) qui stocke nos coordonnées de texture.  
+3. Assigner les données UV et le tampon d'indices au maillage, ajoutant ainsi **adding texture coordinates** à la géométrie.
 
-### Étape 4 : Afficher la confirmation
+### Étape 4 : Imprimer la confirmation
 
 ```java
 System.out.println("\nUVs have been set up successfully on the cube.");
@@ -117,39 +126,39 @@ L'exécution du programme affichera un message de confirmation, indiquant que le
 
 | Problème | Cause | Solution |
 |----------|-------|----------|
-| Les UV apparaissent étirés | Ordre UV incorrect ou indices non correspondants | Vérifiez que `uvsId` référence correctement le tableau `uvs` pour chaque sommet de polygone. |
-| Texture non visible | Jeu d'UV non lié au matériau | Assurez‑vous que le `TextureMapping` du matériau est réglé sur `DIFFUSE` (comme indiqué) et qu’une texture est assignée au matériau. |
+| Les UV semblent étirés | Ordre UV incorrect ou indices non correspondants | Vérifiez que `uvsId` référence correctement le tableau `uvs` pour chaque sommet de polygone. |
+| Texture non visible | Ensemble UV non lié au matériau | Assurez-vous que le `TextureMapping` du matériau est réglé sur `DIFFUSE` (comme indiqué) et qu'une texture est assignée au matériau. |
 | Exception `NullPointerException` à l'exécution | `Common.createMeshUsingPolygonBuilder()` renvoie `null` | Vérifiez que la classe d'aide est incluse dans votre projet et que la méthode crée un maillage valide. |
 
-## Questions fréquentes
+## Questions fréquemment posées
 
-**Q : Puis‑je appliquer des coordonnées UV à des modèles 3D complexes ?**  
-**R :** Oui, le processus reste similaire pour les modèles complexes. Assurez‑vous de générer des données UV appropriées et des tampons d'indices pour chaque polygone.
+**Q : Puis-je appliquer des coordonnées UV à des modèles 3D complexes ?**  
+A : Oui, le processus reste similaire pour les modèles complexes. Assurez‑vous de générer des données UV appropriées et des tampons d'indices pour chaque polygone.
 
-**Q : Où puis‑je trouver des ressources supplémentaires et de l'assistance pour Aspose.3D ?**  
-**R :** Consultez la [documentation Aspose.3D](https://reference.aspose.com/3d/java/) pour des informations détaillées. Pour le support, visitez le [forum Aspose.3D](https://forum.aspose.com/c/3d/18).
+**Q : Où puis‑je trouver des ressources supplémentaires et du support pour Aspose.3D ?**  
+A : Consultez la [documentation Aspose.3D](https://reference.aspose.com/3d/java/) pour des informations détaillées. Pour le support, consultez le [forum Aspose.3D](https://forum.aspose.com/c/3d/18).
 
 **Q : Existe‑t‑il un essai gratuit disponible pour Aspose.3D ?**  
-**R :** Oui, vous pouvez explorer la bibliothèque Aspose.3D avec un [free trial](https://releases.aspose.com/).
+A : Oui, vous pouvez explorer la bibliothèque Aspose.3D avec un [essai gratuit](https://releases.aspose.com/).
 
-**Q : Comment obtenir une licence temporaire pour Aspose.3D ?**  
-**R :** Vous pouvez acquérir une licence temporaire [here](https://purchase.aspose.com/temporary-license/).
+**Q : Comment puis‑je obtenir une licence temporaire pour Aspose.3D ?**  
+A : Vous pouvez acquérir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
 
 **Q : Où puis‑je acheter Aspose.3D ?**  
-**R :** Pour acheter Aspose.3D, visitez la [page d'achat](https://purchase.aspose.com/buy).
+A : Pour acheter Aspose.3D, visitez la [page d'achat](https://purchase.aspose.com/buy).
 
 **Q : Comment ajouter plusieurs textures à un même maillage ?**  
-**R :** Créez des instances supplémentaires de `VertexElementUV` avec différentes valeurs de `TextureMapping` (par ex., `NORMAL`, `SPECULAR`) et assignez‑les au maillage.
+A : Créez des instances supplémentaires de `VertexElementUV` avec des valeurs `TextureMapping` différentes (par ex., `NORMAL`, `SPECULAR`) et assignez chacune au maillage.
 
 ## Conclusion
 
-Dans ce tutoriel, nous avons couvert **how to create UVs** et leur attachement à un objet 3‑D à l'aide d'Aspose.3D pour Java. En maîtrisant le UV mapping, vous pouvez **map textures java** et **ajouter des coordonnées de texture** à n'importe quel maillage, ouvrant la voie à un rendu réaliste pour les jeux, les simulations et les visualisations. Expérimentez avec différentes formes, dispositions UV et textures pour voir à quel point le UV mapping peut être puissant.
+Dans ce tutoriel nous avons couvert **how to generate UV coordinates** et leur attachement à un objet 3‑D en utilisant Aspose.3D pour Java. En maîtrisant le mapping UV, vous pouvez **map textures java** et **add texture coordinates** à n'importe quel maillage, débloquant un rendu réaliste pour les jeux, les simulations et les visualisations. Expérimentez avec différentes formes, dispositions UV et textures pour voir à quel point le mapping UV peut être puissant.
 
 ---
 
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.3D latest release (Java)  
-**Author:** Aspose  
+**Dernière mise à jour :** 2026-04-12  
+**Testé avec :** Aspose.3D latest release (Java)  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

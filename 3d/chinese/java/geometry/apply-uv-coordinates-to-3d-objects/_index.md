@@ -1,9 +1,15 @@
 ---
-date: 2026-02-09
-description: 学习如何使用 Aspose.3D 在 Java 中创建 UV 并映射纹理。通过本分步指南提升您的图形效果。
-linktitle: How to Create UVs – Apply UV Coordinates to 3D Objects in Java with Aspose.3D
+date: 2026-04-12
+description: 学习如何在 Java 中使用 Aspose.3D 生成 UV 坐标并映射纹理——一步步的纹理映射教程。
+keywords:
+- generate uv coordinates
+- create uv set
+- texture mapping tutorial
+- uv mapping 3d objects
+- add texture coordinates
+linktitle: 如何生成 UV 坐标 – 在 Java 中使用 Aspose.3D 将 UV 应用于 3D 对象
 second_title: Aspose.3D Java API
-title: 如何创建 UV – 使用 Aspose.3D 在 Java 中为 3D 对象应用 UV 坐标
+title: 如何生成 UV 坐标 – 在 Java 中使用 Aspose.3D 将 UV 应用于 3D 对象
 url: /zh/java/geometry/apply-uv-coordinates-to-3d-objects/
 weight: 18
 ---
@@ -12,40 +18,40 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何创建 UV – 在 Java 中使用 Aspose.3D 为 3D 对象应用 UV 坐标
+# 如何生成 UV 坐标 – 在 Java 中使用 Aspose.3D 将 UV 应用于 3D 对象
 
 ## 介绍
 
-欢迎阅读本完整教程，学习 **如何创建 UV** 并在 Java 中使用 Aspose.3D 将 UV 坐标应用到 3D 对象上。在 3D 图形领域，UV 坐标在 **map textures java** 中起着关键作用，帮助您为模型添加纹理坐标，从而提升真实感。本指南将逐步演示每个环节，让您能够自信地为对象进行纹理映射。
+欢迎阅读本 comprehensive **texture mapping tutorial**，了解 **how to generate UV coordinates** 并在 Java 中使用 Aspose.3D 将 UV 坐标应用于 3D 对象。在 3‑D 图形的世界中，UV 坐标是连接点，使您能够 **map textures java** 并为模型赋予逼真的外观。本指南将逐步演示，让您能够自信地为任何网格添加纹理坐标。
 
 ## 快速答案
-- **主要目标是什么？** 学会创建 UV 并将纹理映射到 3D 几何体上。  
-- **使用哪个库？** Aspose.3D for Java。  
-- **需要许可证吗？** 开发阶段可使用免费试用版，生产环境需要许可证。  
-- **实现大概需要多久？** 基本立方体约 10‑15 分钟即可完成。  
-- **可以用于其他形状吗？** 可以——相同原理适用于任何网格。
+- **What is the primary goal?** 学习如何生成 UV 坐标并将纹理映射到 3‑D 几何体上。  
+- **Which library is used?** Aspose.3D for Java。  
+- **Do I need a license?** 免费试用可用于开发；生产环境需要许可证。  
+- **How long does implementation take?** 基本立方体大约需要 10‑15 分钟。  
+- **Can I use this with other shapes?** 是的——相同原理适用于任何网格。
 
-## 什么是 UV 映射，为什么需要创建 UV？
+## 如何在 Java 中生成 UV 坐标
 
-UV 映射是将二维图像（纹理）投射到三维表面的过程。通过定义 **UV 坐标**，您告诉渲染器纹理的哪一部分对应每个顶点。如果没有正确的 UV，纹理会出现拉伸、错位，甚至完全不可见。
+在深入代码之前，让我们先阐明生成 UV 坐标的重要性。正确的 UV 能确保纹理正确对齐，避免拉伸，使材质看起来更专业。无论您是在构建游戏、模拟还是产品可视化工具，稳固的 UV 集合都是必不可少的。
 
-## 为什么在 Java 中使用 Aspose.3D 进行 UV 映射？
+## 为什么 UV 映射 3D 对象很重要
 
-- **跨平台**：可在任何兼容 Java 的环境中运行。  
-- **丰富的 API**：提供 `VertexElementUV` 等高级类，简化 UV 处理。  
-- **面向性能**：针对大型场景和复杂模型进行优化。  
+- **Realism:** 正确的 UV 使纹理能够自然地环绕复杂表面。  
+- **Performance:** 组织良好的 UV 集合可减少额外着色器或运行时调整的需求。  
+- **Portability:** UV 数据随网格一起携带，使模型在任何支持 Aspose.3D 的引擎中保持一致。
 
 ## 前置条件
 
-在开始之前，请确保您已具备：
+在开始之前，请确保您拥有：
 
-- **Java 开发环境** – 已安装并配置 JDK 8 及以上。  
-- **Aspose.3D 库** – 从官方站点 [here](https://releases.aspose.com/3d/java/) 下载最新 JAR 包。  
-- **基础 3D 知识** – 熟悉网格、顶点和纹理概念有助于更好地跟随教程。
+- **Java Development Environment** – 已安装并配置 JDK 8+。  
+- **Aspose.3D Library** – 从官方站点 [here](https://releases.aspose.com/3d/java/) 下载最新的 JAR。  
+- **Basic 3D Knowledge** – 熟悉网格、顶点和纹理概念将有助于您跟随教程。
 
 ## 导入包
 
-本步骤中，我们导入完成 UV 映射所需的包。Aspose.3D 库提供了在 Java 中操作 3‑D 对象的工具。
+在此步骤中，我们导入必要的包以启动 UV 映射之旅。Aspose.3D 库提供了在 Java 中处理 3‑D 对象所需的工具。
 
 ### 步骤 1：导入 Aspose.3D 包
 
@@ -55,11 +61,11 @@ import com.aspose.threed.*;
 import java.util.Arrays;
 ```
 
-准备好包后，我们将为一个简单的立方体设置 UV 数据。
+现在包已准备好，让我们为一个简单的立方体设置 UV 数据。
 
-## 如何在 3D 对象上创建 UV
+## 为网格创建 UV 集
 
-本节将指导您为立方体创建 UV 坐标，并将这些坐标附加到网格上。相同方法同样适用于任意几何体。
+在这里我们定义 UV 坐标和索引缓冲区，告诉网格每个多边形顶点对应的 UV。这是 **create UV set** 过程的核心。
 
 ### 步骤 2：创建 UV 和索引
 
@@ -82,9 +88,13 @@ int[] uvsId = new int[]
 // ExEnd:SetupUVOnCube
 ```
 
-这些数组定义了 **UV 坐标** (`uvs`) 和 **索引映射** (`uvsId`)，用于告诉网格每个多边形顶点对应哪个 UV。
+这些数组定义了 **UV coordinates** (`uvs`) 和 **index mapping** (`uvsId`)，用于指示网格每个多边形顶点对应的 UV。
 
-### 步骤 3：创建 Mesh 和 UV 集
+## 向网格添加纹理坐标
+
+现在我们将 UV 集附加到网格实例。此步骤 **adds texture coordinates** 到几何体，使其准备好使用纹理进行渲染。
+
+### 步骤 3：创建网格和 UV 集
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
@@ -97,11 +107,11 @@ elementUV.setData(uvs);
 elementUV.setIndices(uvsId);
 ```
 
-在这里我们：
+这里我们：
 
-1. 使用辅助类构建一个网格（立方体）。  
-2. 创建一个 UV 元素 (`VertexElementUV`) 来存储纹理坐标。  
-3. 将 UV 数据和索引缓冲区分配给网格，实际上 **为几何体添加了纹理坐标**。
+1. 使用辅助类构建网格（立方体）。  
+2. 创建一个 UV 元素 (`VertexElementUV`)，用于存储我们的纹理坐标。  
+3. 将 UV 数据和索引缓冲区分配给网格，从而有效地 **adds texture coordinates** 到几何体。
 
 ### 步骤 4：打印确认信息
 
@@ -109,44 +119,44 @@ elementUV.setIndices(uvsId);
 System.out.println("\nUVs have been set up successfully on the cube.");
 ```
 
-运行程序后会显示确认信息，表明 UV 已成功加入网格并可用于纹理映射。
+运行程序后将显示确认信息，表明 UV 已成为网格的一部分并准备好进行纹理映射。
 
 ## 常见问题及解决方案
 
-| 问题 | 原因 | 解决办法 |
-|------|------|----------|
-| UV 拉伸 | UV 排序错误或索引不匹配 | 确认 `uvsId` 正确引用了每个多边形顶点对应的 `uvs` 数组。 |
-| 纹理不可见 | UV 集未关联到材质 | 确保材质的 `TextureMapping` 设置为 `DIFFUSE`（如示例所示），并为材质分配了纹理。 |
-| 运行时 `NullPointerException` | `Common.createMeshUsingPolygonBuilder()` 返回 `null` | 检查辅助类是否已加入项目，且该方法能够创建有效的网格。 |
+| 问题 | 原因 | 解决方案 |
+|-------|-------|-----|
+| UV 看起来被拉伸 | UV 排序错误或索引不匹配 | 确保 `uvsId` 正确引用每个多边形顶点对应的 `uvs` 数组。 |
+| 纹理不可见 | UV 集未关联到材质 | 确保材质的 `TextureMapping` 设置为 `DIFFUSE`（如示例所示），并为材质分配纹理。 |
+| 运行时 `NullPointerException` | `Common.createMeshUsingPolygonBuilder()` 返回 `null` | 检查项目中是否包含该辅助类，并确保该方法创建了有效的网格。 |
 
 ## 常见问答
 
-**Q: 能否将 UV 坐标应用于复杂的 3D 模型？**  
-A: 可以，复杂模型的处理方式相同。请为每个多边形生成合适的 UV 数据和索引缓冲区。
+**Q: 我可以将 UV 坐标应用于复杂的 3D 模型吗？**  
+A: 可以，复杂模型的处理方式相同。确保为每个多边形生成合适的 UV 数据和索引缓冲区。
 
-**Q: 哪里可以找到 Aspose.3D 的更多资源和支持？**  
-A: 访问 [Aspose.3D 文档](https://reference.aspose.com/3d/java/) 获取深入信息。支持请查看 [Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)。
+**Q: 在哪里可以找到 Aspose.3D 的更多资源和支持？**  
+A: 访问 [Aspose.3D documentation](https://reference.aspose.com/3d/java/) 获取深入信息。支持请查看 [Aspose.3D forum](https://forum.aspose.com/c/3d/18)。
 
-**Q: Aspose.3D 有免费试用吗？**  
-A: 有，您可以通过 [free trial](https://releases.aspose.com/) 体验 Aspose.3D 库。
+**Q: Aspose.3D 是否提供免费试用？**  
+A: 是的，您可以通过 [free trial](https://releases.aspose.com/) 体验 Aspose.3D 库。
 
 **Q: 如何获取 Aspose.3D 的临时许可证？**  
-A: 请前往 [here](https://purchase.aspose.com/temporary-license/) 获取临时许可证。
+A: 您可以在 [here](https://purchase.aspose.com/temporary-license/) 获取临时许可证。
 
-**Q: 哪里可以购买 Aspose.3D？**  
+**Q: 在哪里可以购买 Aspose.3D？**  
 A: 前往 [purchase page](https://purchase.aspose.com/buy) 进行购买。
 
-**Q: 如何为同一个网格添加多张纹理？**  
-A: 创建额外的 `VertexElementUV` 实例，并使用不同的 `TextureMapping` 值（如 `NORMAL`、`SPECULAR`），然后分别分配给网格。
+**Q: 如何向单个网格添加多个纹理？**  
+A: 创建额外的 `VertexElementUV` 实例并使用不同的 `TextureMapping` 值（例如 `NORMAL`、`SPECULAR`），然后将它们分别分配给网格。
 
 ## 结论
 
-本教程介绍了 **如何创建 UV** 并使用 Aspose.3D for Java 将其附加到 3‑D 对象上。掌握 UV 映射后，您即可 **map textures java** 并 **add texture coordinates** 到任意网格，为游戏、仿真和可视化等场景实现逼真的渲染效果。尝试不同的形状、UV 布局和纹理，感受 UV 映射的强大威力。
+在本教程中，我们介绍了 **how to generate UV coordinates** 并使用 Aspose.3D for Java 将其附加到 3‑D 对象上。掌握 UV 映射后，您可以 **map textures java** 并 **add texture coordinates** 到任何网格，为游戏、模拟和可视化提供逼真的渲染效果。尝试不同的形状、UV 布局和纹理，感受 UV 映射的强大威力。
 
 ---
 
-**最后更新：** 2026-02-09  
-**测试环境：** Aspose.3D 最新发布版（Java）  
+**最后更新：** 2026-04-12  
+**测试环境：** Aspose.3D 最新版本 (Java)  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
