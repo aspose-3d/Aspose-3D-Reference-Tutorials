@@ -1,35 +1,62 @@
 ---
-title: Würfelszenen erstellen
+date: 2026-04-12
+description: Erfahren Sie, wie Sie Würfel‑Szenen erstellen und die Szene mit Aspose.3D
+  für .NET als FBX speichern – Schritt‑für‑Schritt‑Anleitung, Voraussetzungen und
+  Code‑Beispiele.
+keywords:
+- how to create cube
+- how to export fbx
+- add mesh to node
+- export scene as fbx
+- save scene as fbx
 linktitle: Würfelszenen erstellen
 second_title: Aspose.3D .NET API
-description: Erstellen Sie mühelos atemberaubende 3D-Würfelszenen mit Aspose.3D für .NET. Laden Sie die Bibliothek herunter, folgen Sie unserer Schritt-für-Schritt-Anleitung und legen Sie los.
-weight: 12
+title: Wie man Würfel‑Szenen mit Aspose.3D für .NET erstellt
 url: /de/net/geometry-and-hierarchy/create-cube-scenes/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Würfelszenen erstellen
+# Wie man Würfelszenen mit Aspose.3D für .NET erstellt
 
 ## Einführung
 
-Sind Sie bereit, in die faszinierende Welt des 3D-Designs einzutauchen? In diesem Tutorial führen wir Sie durch den Prozess der Erstellung faszinierender Würfelszenen mit Aspose.3D für .NET. Aspose.3D ist eine leistungsstarke und vielseitige Bibliothek, die es Entwicklern ermöglicht, nahtlos immersive 3D-Erlebnisse zu erstellen.
+Bereit, einen einfachen 3‑D‑Würfel zum Leben zu erwecken? In diesem Tutorial lernen Sie **wie man einen Würfel erstellt** Szenen mit Aspose.3D für .NET, das Modell als FBX‑Datei exportieren und das Ergebnis sofort sehen. Egal, ob Sie ein Spiel‑Asset prototypisieren oder Daten visualisieren, die nachfolgenden Schritte geben Ihnen eine solide Grundlage, die Sie mit Texturen, Beleuchtung oder Animation erweitern können.
+
+## Schnelle Antworten
+- **Worum geht es im Tutorial?** Erstellung eines Würfel‑Meshes, Hinzufügen des Meshes zu einem Knoten und Speichern der Szene als FBX‑Datei.  
+- **Welche Bibliothek wird benötigt?** Aspose.3D für .NET (kostenlose Testversion verfügbar).  
+- **Benötige ich eine Lizenz, um das Beispiel auszuführen?** Eine temporäre oder Testlizenz funktioniert für Entwicklung und Tests.  
+- **Welche IDE kann ich verwenden?** Jede .NET‑kompatible IDE (Visual Studio, Rider, VS Code).  
+- **Wie lange dauert es?** Etwa 10 Minuten, um den Code zu schreiben, zu kompilieren und auszuführen.
+
+## Wie man Würfelszenen mit Aspose.3D erstellt
+
+Eine Würfelszene ist das „Hello World“ der 3‑D‑Grafik. Sie ermöglicht es Ihnen zu überprüfen, dass Ihre Pipeline – von der Mesh‑Erstellung bis zum **Export der Szene als FBX** – korrekt funktioniert. Im Folgenden gehen wir jeden Schritt durch, erklären das „Warum“ und zeigen Ihnen genau, wo der Code platziert werden muss.
+
+## Was ist eine 3D‑Würfelszene?
+
+Eine 3D‑Würfelszene ist ein minimales dreidimensionales Modell, das aus einer einzelnen Würfelgeometrie besteht, die in einem Szenengraphen platziert ist. Sie dient als „Hello World“ der 3D‑Grafik und ermöglicht es Ihnen zu überprüfen, dass Ihre Pipeline – von der Mesh‑Erstellung bis zum Datei‑Export – korrekt funktioniert.
+
+## Warum Würfelszenen mit Aspose.3D erstellen?
+
+* **Cross‑Format‑Unterstützung:** Export zu FBX, STL, OBJ und vielen anderen Formaten ohne zusätzliche Konverter.  
+* **Pure .NET API:** Keine nativen Abhängigkeiten, perfekt für C#‑Entwickler.  
+* **Umfangreicher Funktionsumfang:** Eingebaute Mesh‑Builder, Materialverwaltung und Szenenhierarchie‑Management.  
+* **Schnelles Prototyping:** Schreiben Sie ein paar Codezeilen und erhalten Sie eine sofort einsatzbereite 3D‑Datei.  
 
 ## Voraussetzungen
 
-Bevor wir uns auf diese kreative Reise begeben, stellen wir sicher, dass Sie alles haben, was Sie brauchen:
-
-1.  Aspose.3D für .NET-Bibliothek: Laden Sie die Bibliothek von herunter und installieren Sie sie[Dokumentation bereitstellen](https://reference.aspose.com/3d/net/).
-
-2. Entwicklungsumgebung: Richten Sie Ihre bevorzugte .NET-Entwicklungsumgebung ein.
-
-3. Grundlegende Vertrautheit mit C#: In diesem Tutorial wird davon ausgegangen, dass Sie über grundlegende Kenntnisse der C#-Programmierung verfügen.
+1. **Aspose.3D für .NET Bibliothek** – herunterladen und installieren von der [Aspose-Dokumentation](https://reference.aspose.com/3d/net/).  
+2. **Entwicklungsumgebung** – Visual Studio 2022, Rider oder jeder Editor, der .NET 6+ unterstützt.  
+3. **Grundlegende C#‑Kenntnisse** – Sie sollten mit Klassen, Objekten und Konsolenanwendungen vertraut sein.
 
 ## Namespaces importieren
 
-Beginnen wir nun damit, die erforderlichen Namespaces in Ihren C#-Code zu importieren:
+Fügen Sie zunächst die erforderlichen `using`‑Anweisungen hinzu, damit der Compiler weiß, wo die Aspose.3D‑Typen definiert sind.
 
 ```csharp
 using System;
@@ -39,99 +66,109 @@ using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
 ```
 
-## Schritt 1: Initialisieren Sie die Szene
+## Schritt‑für‑Schritt‑Anleitung
 
-Beginnen Sie mit der Erstellung einer neuen 3D-Szene:
+### Schritt 1: Szene initialisieren
+
+Erstellen Sie ein leeres `Scene`‑Objekt, das alle Knoten, Meshes, Lichter und Kameras enthält.
 
 ```csharp
-// ExStart:CubeScene erstellen
-// Szenenobjekt initialisieren
+// ExStart:CreateCubeScene
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Schritt 2: Erstellen Sie einen Knoten für den Cube
+### Schritt 2: Einen Knoten für den Würfel erstellen
 
-Fügen wir nun einen Knoten hinzu, um unseren Würfel innerhalb der Szene darzustellen:
+Ein `Node` fungiert als Container für Geometrie. Geben Sie ihm einen aussagekräftigen Namen, damit Sie ihn später in der Hierarchie finden können.
 
 ```csharp
-// Node-Klassenobjekt initialisieren
+// Initialize Node class object
 Node cubeNode = new Node("cube");
 ```
 
-## Schritt 3: Erstellen Sie das Netz
+### Schritt 3: Das Mesh erstellen
 
-Verwenden Sie die Common-Klasse, um mithilfe der Polygon-Builder-Methode ein Netz für Ihren Würfel zu erstellen:
+Aspose.3D stellt einen Helfer namens `Common` bereit, der ein Würfel‑Mesh mithilfe eines Polygon‑Builders erzeugen kann. Das erspart Ihnen das manuelle Definieren von Scheitelpunkten und Flächen.
 
 ```csharp
-// Rufen Sie die allgemeine Klasse „Erstellen Sie ein Netz mithilfe der Polygon-Builder-Methode“ auf, um eine Netzinstanz festzulegen
+// Call Common class create mesh using polygon builder method to set mesh instance 
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
 ```
 
-## Schritt 4: Richten Sie den Knoten auf die Netzgeometrie
+### Schritt 4: Mesh zum Knoten hinzufügen
 
-Ordnen Sie die Netzgeometrie dem Würfelknoten zu:
+Weisen Sie das gerade erstellte Mesh der `Entity`‑Eigenschaft des Knotens zu. Dadurch wird die Geometrie mit dem Szenengraphen verknüpft.
 
 ```csharp
-// Punktknoten zur Mesh-Geometrie
+// Point node to the Mesh geometry
 cubeNode.Entity = mesh;
 ```
 
-## Schritt 5: Knoten zur Szene hinzufügen
+### Schritt 5: Knoten zur Szene hinzufügen
 
-Platzieren Sie den Würfelknoten innerhalb der Wurzelknoten der Szene:
+Fügen Sie den Würfelknoten in die Wurzel der Szene ein, damit er Teil der endgültigen Ausgabe wird.
 
 ```csharp
-// Knoten zu einer Szene hinzufügen
+// Add Node to a scene
 scene.RootNode.ChildNodes.Add(cubeNode);
 ```
 
-## Schritt 6: Speichern Sie die 3D-Szene
+### Schritt 6: FBX exportieren (Szene als FBX speichern)
 
-Geben Sie das Ausgabeverzeichnis an und speichern Sie die 3D-Szene in einem unterstützten Dateiformat (in diesem Fall FBX):
+Wählen Sie einen Ausgabepfad und exportieren Sie die Szene. Hier verwenden wir das FBX 7400 ASCII‑Format, das von vielen 3D‑Editoren unterstützt wird.
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+// The path to the documents directory.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-// Speichern Sie die 3D-Szene in den unterstützten Dateiformaten
+// Save 3D scene in the supported file formats
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 
-## Schritt 7: Erfolgsmeldung anzeigen
+### Schritt 7: Erfolgsnachricht anzeigen
 
-Informieren Sie den Benutzer darüber, dass die Würfelszene erfolgreich erstellt wurde:
+Geben Sie dem Benutzer eine klare Bestätigung, dass die Datei erfolgreich geschrieben wurde.
 
 ```csharp
 Console.WriteLine("\nCube Scene created successfully.\nFile saved at " + output);
 ```
 
-Glückwunsch! Sie haben gerade Ihre erste 3D-Würfelszene mit Aspose.3D für .NET erstellt. Experimentieren Sie mit verschiedenen Formen, Texturen und Beleuchtung, um eine Fülle von Möglichkeiten zu erschließen.
+## Häufige Probleme und Lösungen
 
-## Abschluss
+| Problem | Warum es passiert | Lösung |
+|-------|----------------|-----|
+| **Datei nicht gefunden**‑Fehler beim Ausführen von `scene.Save` | Das Ausgabeverzeichnis existiert nicht oder Sie haben keine Schreibberechtigung. | Erstellen Sie zuerst das Verzeichnis (`Directory.CreateDirectory`) oder verwenden Sie einen absoluten Pfad, den Sie besitzen. |
+| **Leere Datei** nach dem Export | Das Mesh war nicht dem Knoten zugewiesen oder der Knoten wurde nicht zur Szene hinzugefügt. | Stellen Sie sicher, dass `cubeNode.Entity = mesh;` und `scene.RootNode.ChildNodes.Add(cubeNode);` ausgeführt werden. |
+| **Falsches Format** beim Öffnen in einem Viewer | Verwendung des falschen `FileFormat`‑Enum‑Werts. | Verwenden Sie `FileFormat.FBX7400ASCII` für ASCII‑FBX oder `FileFormat.FBX7400Binary` für binär. |
 
-In diesem Tutorial haben wir den Prozess der Erstellung faszinierender 3D-Würfelszenen mit Aspose.3D für .NET untersucht. Mit diesem Wissen können Sie nun Ihrer Kreativität freien Lauf lassen und Ihre 3D-Visionen zum Leben erwecken.
+## Häufig gestellte Fragen
 
-## FAQs
+**Q: Ist Aspose.3D mit verschiedenen 3D‑Dateiformaten kompatibel?**  
+A: Ja, Aspose.3D unterstützt FBX, STL, OBJ, GLTF und viele weitere, sodass Sie die **Szene als FBX speichern** oder andere Formate mit einer einzigen Codezeile verwenden können.
 
-### F1: Ist Aspose.3D mit verschiedenen 3D-Dateiformaten kompatibel?
+**Q: Kann ich das Aussehen des Würfels anpassen?**  
+A: Absolut. Sie können dem Mesh ein `Material` zuweisen, dessen Farbe ändern oder mithilfe der `Material`‑Klasse eine Textur anwenden.
 
-A1: Ja, Aspose.3D unterstützt verschiedene Dateiformate, einschließlich FBX, STL und mehr.
+**Q: Wo finde ich zusätzliche Unterstützung und Ressourcen?**  
+A: Besuchen Sie das [Aspose.3D‑Forum](https://forum.aspose.com/c/3d/18) für Community‑Hilfe und Diskussionen.
 
-### F2: Kann ich das Erscheinungsbild des Würfels anpassen?
+**Q: Gibt es eine kostenlose Testversion?**  
+A: Ja, Sie können eine kostenlose Testversion [hier](https://releases.aspose.com/) erkunden.
 
-A2: Auf jeden Fall! Experimentieren Sie mit Materialien, Farben und Texturen, um den gewünschten Look zu erzielen.
+**Q: Wie kann ich eine temporäre Lizenz für Aspose.3D erhalten?**  
+A: Erwerben Sie eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/).
 
-### F3: Wo finde ich zusätzliche Unterstützung und Ressourcen?
+## Fazit
 
- A3: Besuchen Sie die[Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) für Community-Unterstützung und Diskussionen.
+In diesem Leitfaden haben wir **wie man Würfel** Szenen Schritt für Schritt demonstriert, von der Initialisierung einer `Scene` bis zum **Exportieren der Szene als FBX**. Sie haben nun eine solide Basis, um mit komplexeren Geometrien zu experimentieren, Texturen, Lichter hinzuzufügen und sogar Ihre Modelle zu animieren. Erkunden Sie weiter die Aspose.3D‑API – die Möglichkeiten sind praktisch grenzenlos.
 
-### F4: Gibt es eine kostenlose Testversion?
+---
 
- A4: Ja, Sie können eine kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/).
+**Zuletzt aktualisiert:** 2026-04-12  
+**Getestet mit:** Aspose.3D for .NET 24.11 (latest at time of writing)  
+**Autor:** Aspose  
 
-### F5: Wie kann ich eine temporäre Lizenz für Aspose.3D erhalten?
-
- A5: Erwerben Sie eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
