@@ -128,49 +128,49 @@ public static void html5SaveOption() throws IOException {
 
 ## Συχνές Ερωτήσεις
 
-### Q1: How can I embed assets in a glTF file?
+### Ε1: Πώς μπορώ να ενσωματώσω στοιχεία σε ένα αρχείο glTF;
 
 A1: Για ενσωμάτωση πόρων, χρησιμοποιήστε τη μέθοδο `setEmbedAssets(true)` στην κλάση `GltfSaveOptions`.
 
-### Q2: What is the purpose of the `setPositionBits` method in `DracoSaveOptions`?
+### Ε2: Ποιος είναι ο σκοπός της μεθόδου «setPositionBits» στο «DracoSaveOptions»;
 
 A2: Η μέθοδος `setPositionBits` ορίζει τα bits κβαντισμού για τη θέση στον αλγόριθμο συμπίεσης Draco.
 
-### Q3: Can I export normal data in a U3D file?
+### Ε3: Μπορώ να εξάγω κανονικά δεδομένα σε αρχείο U3D;
 
-A3: Ναι, μπορείτε να εξάγετε δεδομένα κανονικών ορίζοντας `setExportNormals(true)` στην κλάση `U3dSaveOptions`.
+A3: Ναι, μπορείτε να εξηγήσετε τα δεδομένα κανονικών ορίζοντας `setExportNormals(true)` στην κλάση `U3dSaveOptions`.
 
-### Q4: How do I discard saving material files in an OBJ export?
+### Ε4: Πώς μπορώ να απορρίψω την αποθήκευση αρχείων υλικού σε μια εξαγωγή OBJ;
 
 A4: Χρησιμοποιήστε τη μέθοδο `setFileSystem(new DummyFileSystem())` στην κλάση `ObjSaveOptions` για να αγνοήσετε τα αρχεία υλικών.
 
-### Q5: Is there a way to save dependencies to a local directory in an OBJ file?
+### Ε5: Υπάρχει τρόπος αποθήκευσης εξαρτήσεων σε έναν τοπικό κατάλογο σε ένα αρχείο OBJ;
 
 A5: Ναι, χρησιμοποιήστε τη μέθοδο `setFileSystem(new LocalFileSystem(MyDir))` στην κλάση `ObjSaveOptions` για να αποθηκεύσετε τις εξαρτήσεις τοπικά.
 
 ## Συχνές Ερωτήσεις
 
-**Q: Does Aspose.3D support batch conversion of multiple files to FBX?**  
-A: Ναι, μπορείτε να κάνετε βρόχο σε μια συλλογή αντικειμένων `Scene` και να καλέσετε `scene.save(..., new FbxSaveOptions())` για κάθε αρχείο.
+**Ε: Υποστηρίζει το Aspose.3D τη μαζική μετατροπή πολλών αρχείων σε FBX;**
+A: Ναι, μπορείτε να κάνετε μια συλλογή αντικειμένων `Scene` και να καλέσετε `scene.save(..., new FbxSaveOptions())` για κάθε αρχείο.
 
-**Q: Can I convert a scene that contains animations to FBX?**  
-A: Απολύτως. Το Aspose.3D διατηρεί τα δεδομένα κίνησης όταν χρησιμοποιείτε `FbxSaveOptions`. Απλώς βεβαιωθείτε ότι η πηγή σκηνής περιλαμβάνει animated nodes.
+**Ε: Μπορώ να μετατρέψω μια σκηνή που περιέχει κινούμενα σχέδια σε FBX;**
+Α: Απολύτως. Το Aspose.3D διατηρεί τα δεδομένα κίνησης όταν χρησιμοποιείτε `FbxSaveOptions`. Απλώς βεβαιωθείτε ότι η πηγή σκηνής περιλαμβάνει animated nodes.
 
-**Q: Is there a way to reduce the FBX file size without losing geometry quality?**  
+**Ε: Υπάρχει τρόπος να μειώσετε το μέγεθος του αρχείου FBX χωρίς να χάσετε την ποιότητα της γεωμετρίας;**
 A: Ενεργοποιήστε τη συμπίεση πλέγματος μέσω `FbxSaveOptions.setCompressionLevel(int)` και εξετάστε τον κβαντισμό θέσεων κορυφών με `DracoSaveOptions`.
 
-**Q: What licensing model is required for commercial deployment?**  
-A: Απαιτείται πληρωμένη άδεια Aspose.3D για παραγωγική χρήση. Διατίθεται δωρεάν άδεια αξιολόγησης για ανάπτυξη και δοκιμές.
+**Ε: Ποιο μοντέλο αδειοδότησης απαιτείται για εμπορική ανάπτυξη;**
+A: Απαιτείται πληρωμένη άδεια Aspose.3D για παραγωγική χρήση. Διατίθεται δωρεάν άδεια για ανάπτυξη και δοκιμές.
 
 ## Συμπέρασμα
 
-Ακολουθώντας αυτό το ολοκληρωμένο tutorial, έχετε μάθει πώς να **convert 3D to FBX** και να βελτιστοποιήσετε την αποθήκευση 3D αρχείων σε Java χρησιμοποιώντας τις `SaveOptions` του Aspose.3D. Είτε ενδιαφέρεστε για pretty‑printing αρχείων GLTF, προσαρμογή εξόδων HTML5, ή λεπτομερή ρύθμιση εξαγωγών FBX, το Aspose.3D σας παρέχει τα εργαλεία για να ενισχύσετε τη ροή εργασίας 3D γραφικών σας και να επιτύχετε καλύτερη απόδοση.
+Ακολουθώντας αυτό το ολοκληρωμένο σεμινάριο, έχετε πώς να **μετατρέψετε 3D σε FBX** και να βελτιστοποιήσετε την αποθήκευση αρχείων 3D σε Java χρησιμοποιώντας τις `SaveOptions` του Aspose.3D. Είτε ενδιαφέρεστε για αρκετά‑εκτύπωση αρχείων GLTF, προσαρμογή εξόδων HTML5, ή λεπτομερείς ρυθμίσεις εξαγωγών FBX, το Aspose.3D σας παρέχει τα εργαλεία για να βελτιώσετε τη ροή 3D γραφικών σας και να επιτύχετε την καλύτερη απόδοση.
 
 ---
 
-**Last Updated:** 2026-02-25  
-**Tested With:** Aspose.3D for Java 24.11 (latest)  
-**Author:** Aspose  
+**Τελευταία ενημέρωση:** 25-02-2026
+**Δοκιμάστηκε με:** Aspose.3D για Java 24.11 (τελευταία έκδοση)
+**Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

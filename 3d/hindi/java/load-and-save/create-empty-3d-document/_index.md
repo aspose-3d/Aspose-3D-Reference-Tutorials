@@ -2,9 +2,9 @@
 date: 2026-02-25
 description: स्टेप‑बाय‑स्टेप जावा 3डी ग्राफिक्स ट्यूटोरियल जो दिखाता है कि Aspose.3D
   for Java के साथ एक खाली 3D दस्तावेज़ कैसे बनाया जाए।
-linktitle: 'Java 3D Graphics Tutorial: Create Empty 3D Document'
+linktitle: 'Java 3D Graphics Tutorial - Create Empty 3D Document'
 second_title: Aspose.3D Java API
-title: 'Java 3D ग्राफ़िक्स ट्यूटोरियल: खाली 3D दस्तावेज़ बनाएं'
+title: 'Java 3D ग्राफ़िक्स ट्यूटोरियल - खाली 3D दस्तावेज़ बनाएं'
 url: /hi/java/load-and-save/create-empty-3d-document/
 weight: 10
 ---
@@ -13,42 +13,42 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java 3D Graphics Tutorial: Aspose.3D का उपयोग करके खाली 3D दस्तावेज़ बनाना
+# Java 3D ग्राफ़िक्स ट्यूटोरियल: Aspose.3D का इस्तेमाल करके खाली 3D डॉक्यूमेंट बनाना
 
-## Introduction
+## इंट्रोडक्शन
 
-Welcome to this **java 3d graphics tutorial**. In this guide we’ll walk you through creating a brand‑new, empty 3D document with Aspose.3D for Java. Whether you’re prototyping a game engine, visualizing scientific data, or just exploring 3‑D file formats, starting with a clean scene gives you full control over every object you add later.
+इस **java 3d ग्राफ़िक्स ट्यूटोरियल** में आपका स्वागत है। इस गाइड में हम आपको Java के लिए Aspose.3D के साथ एक बिल्कुल नया, खाली 3D डॉक्यूमेंट बनाना सिखाएँगे। चाहे आप गेम इंजन का प्रोटोटाइप बना रहे हों, साइंटिफिक डेटा विज़ुअलाइज़ कर रहे हों, या सिर्फ़ 3‑D फ़ाइल फ़ॉर्मैट एक्सप्लोर कर रहे हों, एक क्लीन सीन से शुरू करने से आपको बाद में जोड़े जाने वाले हर ऑब्जेक्ट पर पूरा कंट्रोल मिलता है।
 
-## Quick Answers
-- **What does this tutorial achieve?** It creates an empty 3‑D scene file (FBX) using Aspose.3D.  
-- **How long does it take?** About 5 minutes once the prerequisites are installed.  
-- **Which file format is used?** FBX 7.5 ASCII (`FileFormat.FBX7500ASCII`).  
-- **Do I need a license?** A temporary or full license is required for production use.  
-- **Can I run this on any OS?** Yes – the Java library works on Windows, macOS and Linux.
+## क्विक आंसर
+- **यह ट्यूटोरियल क्या हासिल करता है?** यह Aspose.3D का इस्तेमाल करके एक खाली 3‑D सीन फ़ाइल (FBX) बनाता है।
+- **इसमें कितना समय लगता है?** ज़रूरी शर्तें इंस्टॉल होने के बाद लगभग 5 मिनट।
+- **कौन सा फ़ाइल फ़ॉर्मैट इस्तेमाल किया जाता है?** FBX7.5ASCII (`FileFormat.FBX7500ASCII`)।
+- **क्या मुझे लाइसेंस चाहिए?** प्रोडक्शन में इस्तेमाल के लिए टेम्पररी या पूरा लाइसेंस ज़रूरी है।
+- **क्या मैं इसे किसी भी OS पर चला सकता हूँ?** हाँ – Java लाइब्रेरी Windows, macOS और Linux पर काम करती है।
 
-## What is a Java 3D graphics tutorial?
+## Java 3D ग्राफ़िक्स ट्यूटोरियल क्या है?
 
-A **java 3d graphics tutorial** teaches you how to generate, modify, and export three‑dimensional content programmatically. By following step‑by‑step examples, you learn the core API calls that power 3‑D pipelines, from scene creation to file serialization.
+एक **java 3d ग्राफ़िक्स ट्यूटोरियल** आपको प्रोग्राम के ज़रिए 3D कंटेंट बनाना, बदलना और एक्सपोर्ट करना सिखाता है। स्टेप-बाय-स्टेप उदाहरणों को फ़ॉलो करके, आप उन कोर API कॉल्स के बारे में सीखते हैं जो सीन बनाने से लेकर फ़ाइल सीरियलाइज़ेशन तक, 3D पाइपलाइन को पावर देती हैं।
 
-## Why use Aspose.3D for Java?
+## Java के लिए Aspose.3D का इस्तेमाल क्यों करें?
 
-* **Broad format support** – FBX, OBJ, STL, GLTF and more.  
-* **No external dependencies** – pure Java, easy to embed in any project.  
-* **High‑performance rendering** – optimized for large meshes and complex hierarchies.  
-* **Rich documentation & free trial** – get started quickly with examples and sample data.
+* **ब्रॉड फ़ॉर्मेट सपोर्ट** – FBX, OBJ, STL, GLTF और भी बहुत कुछ।
+* **कोई बाहरी डिपेंडेंसी नहीं** – प्योर Java, किसी भी प्रोजेक्ट में एम्बेड करना आसान है।
+* **हाई-परफ़ॉर्मेंस रेंडरिंग** – बड़े मेश और कॉम्प्लेक्स हायरार्की के लिए ऑप्टिमाइज़ किया गया।
+* **रिच डॉक्यूमेंटेशन और फ़्री ट्रायल** – उदाहरणों और सैंपल डेटा के साथ जल्दी से शुरू करें।
 
-## Prerequisites
+## ज़रूरी शर्तें
 
-Before we dive into the code, make sure you have the following ready:
+कोड में जाने से पहले, पक्का करें कि आपके पास ये चीज़ें तैयार हैं:
 
-1. **Java Development Environment** – Install the latest JDK (Java 17 or newer is recommended). You can download it [here](https://www.java.com/download/).  
-2. **Aspose.3D Library for Java** – Grab the latest release from the official site [here](https://releases.aspose.com/3d/java/).  
+1. **Java डेवलपमेंट एनवायरनमेंट** – लेटेस्ट JDK इंस्टॉल करें (Java17 या उससे नया इस्तेमाल करने की सलाह दी जाती है)। आप इसे [यहां](https://www.java.com/download/) डाउनलोड कर सकते हैं।
+2. **Java के लिए Aspose.3D लाइब्रेरी** – ऑफिशियल साइट से लेटेस्ट रिलीज़ लें [यहां](https://releases.aspose.com/3d/java/)।
 
-Having these in place ensures the tutorial runs without hiccups.
+इनके होने से यह पक्का होता है कि ट्यूटोरियल बिना किसी रुकावट के चलता है।
 
-## Import Packages
+## पैकेज इंपोर्ट करें
 
-Now that the environment is set, import the classes we’ll need. These imports give us access to the core Aspose.3D functionality as well as standard Java utilities.
+अब जब एनवायरनमेंट सेट हो गया है, तो हमें जिन क्लास की ज़रूरत होगी, उन्हें इंपोर्ट करें। ये इंपोर्ट हमें कोर Aspose.3D फ़ंक्शनैलिटी के साथ-साथ स्टैंडर्ड Java यूटिलिटीज़ का एक्सेस देते हैं।
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -58,9 +58,9 @@ import com.aspose.threed.Scene;
 import java.io.Console;
 ```
 
-## Step 1: Set Up the Document Directory
+## स्टेप 1: डॉक्यूमेंट डायरेक्टरी सेट अप करें
 
-First, decide where the generated file will live on your file system. Replace `"Your Document Directory"` with an absolute or relative path that suits your project layout.
+सबसे पहले, तय करें कि जेनरेट की गई फ़ाइल आपके फ़ाइल सिस्टम पर कहाँ रहेगी। `"Your Document Directory"` को अपने प्रोजेक्ट लेआउट के हिसाब से एब्सोल्यूट या रिलेटिव पाथ से बदलें।
 
 ```java
 // Set the path to the documents directory
@@ -68,67 +68,67 @@ String MyDir = "Your Document Directory";
 MyDir = MyDir + "document.fbx";
 ```
 
-## Step 2: Create a Scene Object
+## स्टेप 2: एक सीन ऑब्जेक्ट बनाएँ
 
-A `Scene` represents the root container for all 3‑D entities (meshes, lights, cameras, etc.). Creating an empty instance gives us a clean canvas.
+एक `सीन` सभी 3‑D एंटिटी (मेश, लाइट, कैमरा, वगैरह) के लिए रूट कंटेनर को दिखाता है। एक खाली इंस्टेंस बनाने से हमें एक साफ़ कैनवस मिलता है।
 
 ```java
 // Create an object of the Scene class
 Scene scene = new Scene();
 ```
 
-## Step 3: Save the 3D Scene Document
+## स्टेप 3: 3D सीन डॉक्यूमेंट सेव करें
 
-With the empty scene ready, persist it to disk using the chosen file format. In this tutorial we use the FBX 7.5 ASCII format, which is widely supported by many 3‑D applications.
+खाली सीन तैयार होने पर, चुने हुए फ़ाइल फ़ॉर्मेट का इस्तेमाल करके इसे डिस्क पर पर्सिस्ट करें। इस ट्यूटोरियल में हम FBX7.5ASCII फ़ॉर्मेट का इस्तेमाल करते हैं, जिसे कई 3‑D एप्लिकेशन बड़े पैमाने पर सपोर्ट करते हैं।
 
 ```java
 // Save 3D scene document
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
-## Step 4: Print Success Message
+## स्टेप 4: सक्सेस मैसेज प्रिंट करें
 
-A friendly console message confirms that the operation succeeded and tells you where to find the file.
+एक फ्रेंडली कंसोल मैसेज कन्फर्म करता है कि ऑपरेशन सफल हो गया है और आपको बताता है कि फ़ाइल कहाँ मिलेगी।
 
 ```java
 // Print success message
 System.out.println("\nAn empty 3D document created successfully.\nFile saved at " + MyDir);
 ```
 
-## Common Issues and Solutions
+## आम दिक्कतें और समाधान
 
-| Issue | Reason | Fix |
-|-------|--------|-----|
-| **File not found / Access denied** | Incorrect path or missing write permissions | Verify `MyDir` points to an existing folder and that the Java process has write access. |
-| **Missing Aspose.3D JAR** | Library not added to classpath | Add the Aspose.3D JAR (or Maven/Gradle dependency) to your project. |
-| **Unsupported file format** | Using a format not available in the current version | Check the `FileFormat` enum for supported options or upgrade the library. |
+| दिक्कत | कारण | ठीक करें |
+|-------|---------|-----|
+| **फ़ाइल नहीं मिली / एक्सेस नहीं मिला** | गलत पाथ या लिखने की परमिशन नहीं है | वेरिफ़ाई करें कि `MyDir` किसी मौजूदा फ़ोल्डर की ओर इशारा करता है और Java प्रोसेस के पास लिखने का एक्सेस है। |
+| **Aspose.3D JAR नहीं है** | लाइब्रेरी को क्लासपाथ में नहीं जोड़ा गया है | अपने प्रोजेक्ट में Aspose.3D JAR (या Maven/Gradle डिपेंडेंसी) जोड़ें। |
+| **सपोर्टेड फ़ाइल फ़ॉर्मेट** | ऐसा फ़ॉर्मेट इस्तेमाल करना जो मौजूदा वर्शन में उपलब्ध नहीं है | सपोर्टेड ऑप्शन के लिए `FileFormat` इनम चेक करें या लाइब्रेरी को अपग्रेड करें। |
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले सवाल
 
-**Q1: Is Aspose.3D compatible with all Java development environments?**  
-A1: Aspose.3D is designed to be compatible with standard Java development environments. Ensure you have Java properly installed.
+**Q1: ​​क्या Aspose.3D सभी Java डेवलपमेंट एनवायरनमेंट के साथ कम्पैटिबल है?**
+A1: Aspose.3D को स्टैंडर्ड Java डेवलपमेंट एनवायरनमेंट के साथ कम्पैटिबल होने के लिए डिज़ाइन किया गया है। पक्का करें कि आपके पास Java ठीक से इंस्टॉल है।
 
-**Q2: Where can I find detailed documentation for Aspose.3D in Java?**  
-A2: Refer to the documentation [here](https://reference.aspose.com/3d/java/) for comprehensive information and examples.
+**Q2: मुझे Java में Aspose.3D के लिए डिटेल्ड डॉक्यूमेंटेशन कहाँ मिल सकता है?**
+A2: पूरी जानकारी और उदाहरणों के लिए [यहाँ](https://reference.aspose.com/3d/java/) डॉक्यूमेंटेशन देखें।
 
-**Q3: Can I try Aspose.3D before purchasing?**  
-A3: Yes, a free trial is available [here](https://releases.aspose.com/) for you to explore Aspose.3D's features.
+**Q3: क्या मैं खरीदने से पहले Aspose.3D आज़मा सकता हूँ?**
+A3: हाँ, Aspose.3D के फ़ीचर्स देखने के लिए [यहाँ](https://releases.aspose.com/) एक फ़्री ट्रायल उपलब्ध है।
 
-**Q4: How can I get temporary licenses for Aspose.3D?**  
-A4: Obtain temporary licenses for Aspose.3D [here](https://purchase.aspose.com/temporary-license/).
+**Q4: मैं Aspose.3D के लिए टेम्पररी लाइसेंस कैसे पा सकता हूँ?**
+A4: Aspose.3D के लिए टेम्पररी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) पाएँ।
 
-**Q5: Where can I seek support or discuss Aspose.3D related queries?**  
-A5: Visit the community forum [here](https://forum.aspose.com/c/3d/18) for support and discussions.
+**Q5: मैं Aspose.3D से जुड़े सवालों पर सपोर्ट कहाँ से ले सकता हूँ या चर्चा कहाँ कर सकता हूँ?**
+A5: सपोर्ट और चर्चा के लिए कम्युनिटी फ़ोरम [यहाँ](https://forum.aspose.com/c/3d/18) पर जाएँ।
 
-## Conclusion
+## निष्कर्ष
 
-You’ve just completed a **java 3d graphics tutorial** that shows how to **how to create 3d** documents from scratch using Aspose.3D for Java. With an empty scene file in hand, you can now start adding meshes, lights, cameras, or any custom geometry your project requires. Keep experimenting with the API—there’s a whole world of 3‑D possibilities waiting to be unlocked.
+आपने अभी-अभी एक **java 3d ग्राफ़िक्स ट्यूटोरियल** पूरा किया है जो दिखाता है कि Aspose.3D for Java का इस्तेमाल करके स्क्रैच से 3d डॉक्यूमेंट कैसे बनाएँ। हाथ में एक खाली सीन फ़ाइल के साथ, अब आप मेश, लाइट, कैमरा, या अपने प्रोजेक्ट के लिए ज़रूरी कोई भी कस्टम ज्योमेट्री जोड़ना शुरू कर सकते हैं। API के साथ एक्सपेरिमेंट करते रहें—3‑D संभावनाओं की एक पूरी दुनिया अनलॉक होने का इंतज़ार कर रही है।
 
 ---
 
-**Last Updated:** 2026-02-25  
-**Tested With:** Aspose.3D for Java 24.10  
-**Author:** Aspose  
+**पिछला अपडेट:** 2026-02-25
+**इसके साथ टेस्ट किया गया:** Aspose.3D for Java 24.10
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -180,15 +180,15 @@ A4: Visit the support forum [here](https://forum.aspose.com/c/3d/18).
 ### Q5: Do I need a temporary license for testing?
 A5: Yes, obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.3D for Java 24.11 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-25  
-**Tested With:** Aspose.3D for Java 24.11 (latest)  
-**Author:** Aspose

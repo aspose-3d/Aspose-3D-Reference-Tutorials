@@ -2,9 +2,9 @@
 date: 2026-02-25
 description: Stapsgewijze Java 3D‑graphics tutorial die laat zien hoe je een leeg
   3D‑document maakt met Aspose.3D voor Java.
-linktitle: 'Java 3D Graphics Tutorial: Create Empty 3D Document'
+linktitle: 'Java 3D Graphics Tutorial - Create Empty 3D Document'
 second_title: Aspose.3D Java API
-title: 'Java 3D Graphics Tutorial: Maak een leeg 3D-document'
+title: 'Java 3D Graphics Tutorial - Maak een leeg 3D-document'
 url: /nl/java/load-and-save/create-empty-3d-document/
 weight: 10
 ---

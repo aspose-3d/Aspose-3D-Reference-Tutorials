@@ -8,9 +8,7 @@ url: /zh-hant/java/load-and-save/optimize-3d-file-saving/
 weight: 16
 ---
 
- formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

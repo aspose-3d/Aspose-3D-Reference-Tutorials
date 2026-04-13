@@ -1,9 +1,9 @@
 ---
 date: 2026-02-25
 description: 逐步 Java 3D 圖形教學，示範如何使用 Aspose.3D for Java 建立空的 3D 文件。
-linktitle: 'Java 3D Graphics Tutorial: Create Empty 3D Document'
+linktitle: 'Java 3D Graphics Tutorial - Create Empty 3D Document'
 second_title: Aspose.3D Java API
-title: Java 3D 圖形教學：建立空白 3D 文件
+title: Java 3D 圖形教學 - 建立空白 3D 文件
 url: /zh-hant/java/load-and-save/create-empty-3d-document/
 weight: 10
 ---

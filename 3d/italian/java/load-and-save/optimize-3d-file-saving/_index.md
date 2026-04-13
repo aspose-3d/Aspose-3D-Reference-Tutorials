@@ -10,20 +10,6 @@ url: /it/java/load-and-save/optimize-3d-file-saving/
 weight: 16
 ---
 
-.
-
-Check for any URLs: https://releases.aspose.com/3d/java/ should stay unchanged.
-
-Also need to translate "Last Updated:" etc.
-
-Make sure to keep markdown tables.
-
-Let's produce final translation.
-
-We'll keep shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

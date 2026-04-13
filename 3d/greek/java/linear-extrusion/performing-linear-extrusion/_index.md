@@ -10,9 +10,7 @@ url: /el/java/linear-extrusion/performing-linear-extrusion/
 weight: 10
 ---
 
- URLs.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

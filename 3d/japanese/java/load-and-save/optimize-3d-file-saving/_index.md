@@ -8,23 +8,6 @@ url: /ja/java/load-and-save/optimize-3d-file-saving/
 weight: 16
 ---
 
-SaveOptions`.
-
-Translate.
-
-**Q: What licensing model is required for commercial deployment?**  
-A: A paid Aspose.3D license is required for production use. A free evaluation license is available for development and testing.
-
-Translate.
-
-Conclusion paragraph:
-
-"By following this comprehensive tutorial, you've learned how to **convert 3D to FBX** and optimize 3D file saving in Java using Aspose.3D `SaveOptions`. Whether you're interested in pretty‑printing GLTF files, customizing HTML5 outputs, or fine‑tuning FBX exports, Aspose.3D equips you with the tools to enhance your 3D graphics workflow and achieve better performance."
-
-Translate, keep bold.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

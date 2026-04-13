@@ -9,17 +9,7 @@ url: /zh/java/load-and-save/customize-3d-file-loading/
 weight: 12
 ---
 
- translate to Chinese: "最后更新：" etc. But maybe keep as is? The instruction: translate all text content naturally to Chinese. So translate those.
-
-But need to keep URLs unchanged.
-
-Also note "Aspose.3D for Java" is a product name; keep as is.
-
-Let's craft.
-
-Be careful with markdown formatting: headings (#). Keep same number of #.
-
-Let's produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -191,15 +181,15 @@ A4: 请访问支持论坛 [此处](https://forum.aspose.com/c/3d/18)。
 ### Q5: 测试时需要临时许可证吗？
 A5: 需要，临时许可证可在 [此处](https://purchase.aspose.com/temporary-license/) 获取。
 
+---
+
+**最后更新：** 2026-02-25  
+**测试环境：** Aspose.3D for Java 24.11（最新）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-02-25  
-**测试环境：** Aspose.3D for Java 24.11（最新）  
-**作者：** Aspose

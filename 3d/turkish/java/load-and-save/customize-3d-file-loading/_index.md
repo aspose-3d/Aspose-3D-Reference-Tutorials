@@ -10,21 +10,7 @@ url: /tr/java/load-and-save/customize-3d-file-loading/
 weight: 12
 ---
 
-/tutorial-page-section >}}
-
-# Flip Coordinate System – Customize 3D File Loading in Java with Aspose.3D
-
-Translate title: "Flip Coordinate System – Customize 3D File Loading in Java with Aspose.3D" => "Koordinat Sistemini Ters Çevir – Aspose.3D ile Java’da 3D Dosya Yüklemeyi Özelleştirin". Keep the dash maybe.
-
-We'll translate.
-
-Then the paragraph.
-
-Proceed step by step.
-
-Make sure to keep markdown formatting.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -196,15 +182,15 @@ Cevap: Destek forumu [burada](https://forum.aspose.com/c/3d/18) bulunur.
 ### S5: Test amaçlı geçici bir lisansa ihtiyacım var mı?
 Cevap: Evet, geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
+---
+
+**Son Güncelleme:** 2026-02-25  
+**Test Edilen Versiyon:** Aspose.3D for Java 24.11 (en yeni)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-02-25  
-**Test Edilen Versiyon:** Aspose.3D for Java 24.11 (en yeni)  
-**Yazar:** Aspose

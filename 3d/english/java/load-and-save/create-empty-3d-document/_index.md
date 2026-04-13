@@ -1,6 +1,6 @@
 ---
-title: "Java 3D Graphics Tutorial: Create Empty 3D Document"
-linktitle: "Java 3D Graphics Tutorial: Create Empty 3D Document"
+title: "Java 3D Graphics Tutorial - Create Empty 3D Document"
+linktitle: "Java 3D Graphics Tutorial - Create Empty 3D Document"
 second_title: "Aspose.3D Java API"
 description: "Step‑by‑step java 3d graphics tutorial showing how to create an empty 3D document with Aspose.3D for Java."
 weight: 10

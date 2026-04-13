@@ -9,13 +9,6 @@ url: /th/java/load-and-save/optimize-3d-file-saving/
 weight: 16
 ---
 
-.
-
-Make sure to keep bold formatting.
-
-Proceed step by step.
-
-Will produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
@@ -155,7 +148,7 @@ A4: ใช้เมธอด `setFileSystem(new DummyFileSystem())` ในคล
 
 A5: มี ใช้เมธอด `setFileSystem(new LocalFileSystem(MyDir))` ในคลาส `ObjSaveOptions` เพื่อบันทึก dependencies ไว้ในโฟลเดอร์ที่กำหนด
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
 **Q: Aspose.3D รองรับการแปลงหลายไฟล์เป็น FBX แบบแบตช์หรือไม่?**  
 A: ใช่ คุณสามารถวนลูปผ่านคอลเลกชันของอ็อบเจกต์ `Scene` แล้วเรียก `scene.save(..., new FbxSaveOptions())` สำหรับแต่ละไฟล์ได้  

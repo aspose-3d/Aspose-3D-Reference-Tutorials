@@ -10,54 +10,48 @@ url: /tr/java/load-and-save/optimize-3d-file-saving/
 weight: 16
 ---
 
-< blocks/products/products-backtop-button >}}
-
-Make sure to keep shortcodes unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java'da Aspose.3D SaveOptions ile 3D Dosya Kaydetmeyi Optimize Etme
 
-## Introduction
+## Giriiş
 
-Aspose.3D, geliştiricilerin **3D'yi FBX'e dönüştürmelerine** ve 3D modellerle sorunsuz çalışmasına olanak tanıyan özellik‑zengini bir Java kütüphanesidir. 3D dosyaları kaydetmeye gelince, `SaveOptions` sınıfı çıktıyı gereksinimlerinize göre ince ayar yapmanızı sağlayan çok sayıda ayar sunar. Bu öğreticide, çeşitli kaydetme seçeneklerini ve bunların süreci nasıl optimize edebileceğini inceleyeceğiz.
+Aspose.3D, geliştiricilerin **3D'yi FBX'e dönüştürmelerine** ve 3D modellerle sorunsuz çözümler sunmanın sunduğu özellikler arasında bir Java kütüphanesidir. 3D dosyaları kaydetmeye geldiğinde, `SaveOptions` sınıfının seçeneklerine göre ince ayar yapmanızı sağlayan çok sayıda ayar sunar. Bu öğreticide, çeşitli tasarruf ayarları ve bunların süreci nasıl optimize edilebilir şekilde çalıştırılabilir.
 
-## Quick Answers
-- **Aspose.3D 3D'yi FBX'e dönüştürebilir mi?** Evet, uygun `SaveOptions` (ör. `FbxSaveOptions`) kullanılarak.
-- **GLTF dosyalarının okunabilirliğini artıran seçenek hangisidir?** `GltfSaveOptions` içinde `setPrettyPrint(true)`.
-- **Üretim için lisansa ihtiyacım var mı?** Ticari kullanım için geçerli bir Aspose.3D lisansı gereklidir.
-- **HTML5 dışa aktarma destekleniyor mu?** Evet, `Html5SaveOptions` aracılığıyla.
-- **Hangi Java sürümü gereklidir?** Java 8 veya üzeri.
+## Hızlı Yanıtlar
+- **Aspose.3D 3D'yi FBX'e dönüştürebilir mi?** Evet, uygun `SaveOptions` (ör. `FbxSaveOptions`) aracılığıyla.
+- **GLTF dosyalarının okunabilirliğini artıran seçenek hangisidir?** `setPrettyPrint(true)` içinde `GltfSaveOptions`.
+- **Üretim için lisansa ihtiyacınız var mı?** Ticari kullanım için geçerli bir Aspose.3D lisansı gereklidir.
+- **HTML5'in taşınması destekleniyor mu?** Evet, `Html5SaveOptions` aracılığıyla.
+- **Hangi Java sürümü gereklidir?** Java8 veya üzeri.
 
-## What is “convert 3d to fbx”?
+## "3d'yi fbx'e dönüştürme" nedir?
 
-3D modelini FBX'e dönüştürmek, geometri, malzemeler, dokular ve animasyon verilerini FBX dosya formatına aktarmak anlamına gelir; bu format, 3D uygulamaları için yaygın olarak desteklenen bir değişim formatıdır.
+3D kural FBX'e dönüştürmek, geometri, teknikler, dokular ve hareket parçaları oluşturmak FBX dosya formatına aktarmak gelir; Bu formatta, 3D uygulamalar için yaygın olarak gerçekleşen bir değişim formatıdır.
 
-## Why use Aspose.3D SaveOptions for conversion?
+## Dönüştürme için neden Aspose.3D SaveOptions'ı kullanmalısınız?
 
-- **Performans odaklı:** Dosya boyutunu ve yükleme süresini azaltmak için sıkıştırma, kantitleme ve ikili/metin seçeneklerini seçin.  
-- **İnce ayarlı kontrol:** Özel dışa aktarıcılar yazmadan belirli öğeleri (ör. normal vektörler, dokular) açıp kapatın.  
-- **Çapraz platform:** Masaüstü uygulamalardan bulut hizmetlerine, Java destekli herhangi bir ortamda çalışır.
+- **Performans odaklı:** Dosya sıcaklığı ve yükleme süresini küçültmek için sıkıştırma, kantitleme ve ikili/metin miktarını seçin.
+- **İnce ayarlı kontrol:** Özel tutulan aktarıcılar yazmadan ayrıntılı öğeler (ör. normal vektörler, dokular) çıkarıp takın.
+- **Çapraz platformu:** Masaüstü uygulamalardan bulut hizmetlerine, Java destekli herhangi bir şekilde çalışır.
 
-## Prerequisites
+## Önkoşullar
 
-Öğreticiye başlamadan önce aşağıdaki ön koşulların karşılandığından emin olun:
+Öğreticiye başlamadan önce aşağıdaki ön koşullarla karşılandığından emin olun:
 
-- Aspose.3D for Java: Aspose.3D kütüphanesinin Java projenize entegre edildiğinden emin olun. Bunu [buradan](https://releases.aspose.com/3d/java/) indirebilirsiniz.
-
+- Aspose.3D for Java: Aspose.3D kütüphanesinin Java projenize entegresinin emin olun. Bunu [buradan](https://releases.aspose.com/3d/java/) indirebilirsiniz.
 - Java Geliştirme Ortamı: Makinenizde işlevsel bir Java geliştirme ortamının kurulu olduğundan emin olun.
+- Belge Dizini: 3D dosyalarınızı kaydetmek istediğiniz bir dizin birleştirme ve yolu daha sonra kullanmak üzere edinmeyin.
 
-- Belge Dizini: 3D dosyalarınızı kaydetmek istediğiniz bir dizin oluşturun ve yolunu daha sonra kullanmak üzere not edin.
+## Aspose.3D SaveOptions ile 3D'yi FBX'e Dönüştürme
 
-## How to Convert 3D to FBX with Aspose.3D SaveOptions
+Aşağıda, farklı `SaveOptions` anlatımını göstermek için her örneği anında fazla adıma ayırıyoruz. Proje yapınıza uygun olacak şekilde yol ve değiştirmek istediğiniz gibi uyarlayabilirsiniz.
 
-Aşağıda, farklı `SaveOptions` kullanımını göstermek için her örneği birden fazla adıma ayırıyoruz. Proje yapınıza uygun olacak şekilde yol ve parametreleri istediğiniz gibi uyarlayabilirsiniz.
+### Paketleri İçe Aktar
 
-### Import Packages
-
-Java projenizde Aspose.3D ile çalışmak için gerekli paketleri içe aktarın. Bu, `Scene` sınıfını ve çeşitli `SaveOptions` sınıflarını içerir. Aşağıda temel bir örnek verilmiştir:
+Java projenizde Aspose.3D ile çalışmak için gerekli kapları içe aktarın. Bu, `Scene` sınıflarını ve çeşitli `SaveOptions` sınıflarını içerir. Aşağıda temel bir örnek verilmiştir:
 
 ```java
 import com.aspose.threed.*;
@@ -70,7 +64,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 ```
 
-### Step 1: GLTF SaveOption'da Pretty Print
+### Adım 1: GLTF SaveOption'ın Güzel Baskısı
 
 `prettyPrintInGltfSaveOption` yöntemi, insan okunabilirliği için girintili JSON içeriğiyle bir GLTF dosyası oluşturmanıza olanak tanır.
 
@@ -90,7 +84,7 @@ public static void prettyPrintInGltfSaveOption() throws IOException {
 }
 ```
 
-### Step 2: HTML5 SaveOption
+### Adım 2: HTML5 SaveOption
 
 `html5SaveOption` yöntemi, özelleştirme seçenekleri dahil olmak üzere bir 3D sahneyi HTML5 dosyası olarak nasıl kaydedeceğinizi gösterir.
 
@@ -126,9 +120,9 @@ public static void html5SaveOption() throws IOException {
 
 Devamında `colladaSaveOption`, `discreet3DSSaveOption`, `fbxSaveOption`, `objSaveOption`, `STLSaveOption`, `U3DSaveOption`, `glTFSaveOptions` ve `drcSaveOptions` gibi diğer SaveOptions yöntemleri için benzer açıklamalar bulunur.
 
-## Common Issues and Solutions
+## Sık Karşılaşılan Sorunlar ve Çözümler
 
-| Issue | Cause | Fix |
+| Sorun | Sebep | Çözüm |
 |-------|-------|-----|
 | **FBX dosyası beklenenden büyük** | Varsayılan dışa aktarma tüm mesh verilerini ve dokuları içerir. | `FbxSaveOptions.setExportTextures(false)` kullanın veya `setCompressionLevel()` ile sıkıştırmayı etkinleştirin. |
 | **Malzemeler dönüşüm sonrası farklı görünüyor** | Malzeme tipleri bire bir eşlenmemiştir. | Kaydetmeden önce `Material` alt sınıfları aracılığıyla malzeme özelliklerini manuel olarak ayarlayın. |

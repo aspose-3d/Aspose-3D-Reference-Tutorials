@@ -10,20 +10,6 @@ url: /fr/java/load-and-save/optimize-3d-file-saving/
 weight: 16
 ---
 
-  
-**Author:** Aspose  
-
-Translate labels:
-
-**Dernière mise à jour :** 2026-02-25  
-**Testé avec :** Aspose.3D for Java 24.11 (latest) (maybe keep English for product name)  
-**Auteur :** Aspose  
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content with same structure.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

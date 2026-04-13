@@ -9,9 +9,7 @@ url: /zh-hant/java/load-and-save/customize-3d-file-loading/
 weight: 12
 ---
 
-, placeholders.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -182,15 +180,15 @@ A4：請前往支援論壇 [此處](https://forum.aspose.com/c/3d/18)。
 ### Q5：測試是否需要臨時授權？
 A5：是的，請於 [此處](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
+---
+
+**最後更新：** 2026-02-25  
+**測試環境：** Aspose.3D for Java 24.11 (latest)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-02-25  
-**測試環境：** Aspose.3D for Java 24.11 (latest)  
-**作者：** Aspose

@@ -9,10 +9,6 @@ url: /ar/java/load-and-save/optimize-3d-file-saving/
 weight: 16
 ---
 
- just write Arabic text.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

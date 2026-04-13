@@ -181,15 +181,15 @@ A4: Kunjungi forum dukungan [di sini](https://forum.aspose.com/c/3d/18).
 ### Q5: Apakah saya memerlukan lisensi sementara untuk pengujian?
 A5: Ya, dapatkan lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Terakhir Diperbarui:** 2026-02-25  
+**Diuji Dengan:** Aspose.3D for Java 24.11 (latest)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-02-25  
-**Diuji Dengan:** Aspose.3D for Java 24.11 (latest)  
-**Penulis:** Aspose

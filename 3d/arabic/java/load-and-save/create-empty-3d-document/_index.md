@@ -2,9 +2,9 @@
 date: 2026-02-25
 description: دليل خطوة بخطوة للرسومات ثلاثية الأبعاد في جافا يوضح كيفية إنشاء مستند
   ثلاثي الأبعاد فارغ باستخدام Aspose.3D للغة جافا.
-linktitle: 'Java 3D Graphics Tutorial: Create Empty 3D Document'
+linktitle: 'Java 3D Graphics Tutorial - Create Empty 3D Document'
 second_title: Aspose.3D Java API
-title: 'دليل جافا للرسومات ثلاثية الأبعاد: إنشاء مستند ثلاثي الأبعاد فارغ'
+title: 'دليل جافا للرسومات ثلاثية الأبعاد - إنشاء مستند ثلاثي الأبعاد فارغ'
 url: /ar/java/load-and-save/create-empty-3d-document/
 weight: 10
 ---

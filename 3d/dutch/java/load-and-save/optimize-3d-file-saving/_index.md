@@ -10,14 +10,6 @@ url: /nl/java/load-and-save/optimize-3d-file-saving/
 weight: 16
 ---
 
-top-button >}}
-
-Now ensure all markdown formatting preserved.
-
-Check for any code block fences? There are placeholders but not actual fenced code blocks. The placeholders are inside double braces, not code fences. So fine.
-
-Now produce final content with translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

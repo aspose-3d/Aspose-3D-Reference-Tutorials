@@ -2,9 +2,9 @@
 date: 2026-02-25
 description: Lépésről‑lépésre Java 3D grafikai útmutató, amely bemutatja, hogyan hozhatunk
   létre egy üres 3D dokumentumot az Aspose.3D for Java segítségével.
-linktitle: 'Java 3D Graphics Tutorial: Create Empty 3D Document'
+linktitle: 'Java 3D Graphics Tutorial - Create Empty 3D Document'
 second_title: Aspose.3D Java API
-title: 'Java 3D grafika útmutató: Üres 3D dokumentum létrehozása'
+title: 'Java 3D grafika útmutató - Üres 3D dokumentum létrehozása'
 url: /hu/java/load-and-save/create-empty-3d-document/
 weight: 10
 ---

@@ -10,23 +10,7 @@ url: /sv/java/load-and-save/customize-3d-file-loading/
 weight: 12
 ---
 
-.
-
-Thus:
-
-**Last Updated:** -> **Senast uppdaterad:**  
-**Tested With:** -> **Testat med:**  
-**Author:** -> **Författare:**  
-
-Keep dates unchanged.
-
-Now produce final content with all translations.
-
-Check that we didn't translate any URLs or code placeholders.
-
-Make sure we keep markdown formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -197,15 +181,15 @@ A4: Besök supportforumet [here](https://forum.aspose.com/c/3d/18).
 ### Q5: Behöver jag en tillfällig licens för testning?
 A5: Ja, skaffa en tillfällig licens [here](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Senast uppdaterad:** 2026-02-25  
+**Testat med:** Aspose.3D for Java 24.11 (latest)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-02-25  
-**Testat med:** Aspose.3D for Java 24.11 (latest)  
-**Författare:** Aspose

@@ -2,57 +2,59 @@
 date: 2026-02-25
 description: Hướng dẫn Java đồ họa 3D từng bước, cho thấy cách tạo một tài liệu 3D
   trống bằng Aspose.3D cho Java.
-linktitle: 'Java 3D Graphics Tutorial: Create Empty 3D Document'
+linktitle: 'Java 3D Graphics Tutorial - Create Empty 3D Document'
 second_title: Aspose.3D Java API
-title: 'Hướng dẫn Đồ họa 3D Java: Tạo tài liệu 3D trống'
+title: 'Hướng dẫn Đồ họa 3D Java - Tạo tài liệu 3D trống'
 url: /vi/java/load-and-save/create-empty-3d-document/
 weight: 10
 ---
 
-Let's craft translation.
-
-Note: Keep **java 3d graphics tutorial** bold unchanged. Also **how to create 3d** maybe keep as is? It's part of bold phrase. Keep as is.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java 3D Graphics Tutorial: Create an Empty 3D Document Using Aspose.3D
+# Hướng dẫn Đồ họa 3D Java: Tạo Tài liệu 3D Trống bằng Aspose.3D
 
-## Introduction
+## Giới thiệu
 
-Welcome to this **java 3d graphics tutorial**. In this guide we’ll walk you through creating a brand‑new, empty 3D document with Aspose.3D for Java. Whether you’re prototyping a game engine, visualizing scientific data, or just exploring 3‑D file formats, starting with a clean scene gives you full control over every object you add later.
+Chào mừng bạn đến với **hướng dẫn đồ họa 3D Java** này. Trong hướng dẫn này, chúng ta sẽ cùng nhau tạo một tài liệu 3D trống hoàn toàn mới bằng Aspose.3D cho Java. Cho dù bạn đang tạo nguyên mẫu cho công cụ trò chơi, trực quan hóa dữ liệu khoa học hay chỉ đơn giản là khám phá các định dạng tệp 3D, việc bắt đầu với một cảnh trống sẽ cho phép bạn kiểm soát hoàn toàn mọi đối tượng bạn thêm vào sau này.
 
-## Quick Answers
-- **What does this tutorial achieve?** It creates an empty 3‑D scene file (FBX) using Aspose.3D.  
-- **How long does it take?** About 5 minutes once the prerequisites are installed.  
-- **Which file format is used?** FBX 7.5 ASCII (`FileFormat.FBX7500ASCII`).  
-- **Do I need a license?** A temporary or full license is required for production use.  
-- **Can I run this on any OS?** Yes – the Java library works on Windows, macOS and Linux.
+## Câu hỏi nhanh
+- **Hướng dẫn này đạt được điều gì?** Nó tạo ra một tệp cảnh 3D trống (FBX) bằng Aspose.3D.
 
-## What is a Java 3D graphics tutorial?
+- **Mất bao lâu?** Khoảng 5 phút sau khi cài đặt các điều kiện tiên quyết.
 
-A **java 3d graphics tutorial** teaches you how to generate, modify, and export three‑dimensional content programmatically. By following step‑by‑step examples, you learn the core API calls that power 3‑D pipelines, from scene creation to file serialization.
+- **Định dạng tệp nào được sử dụng?** FBX7.5ASCII (`FileFormat.FBX7500ASCII`).
 
-## Why use Aspose.3D for Java?
+- **Tôi có cần giấy phép không?** Cần có giấy phép tạm thời hoặc đầy đủ để sử dụng trong môi trường sản xuất. - **Tôi có thể chạy chương trình này trên bất kỳ hệ điều hành nào không?** Có – thư viện Java hoạt động trên Windows, macOS và Linux.
 
-* **Broad format support** – FBX, OBJ, STL, GLTF and more.  
-* **No external dependencies** – pure Java, easy to embed in any project.  
-* **High‑performance rendering** – optimized for large meshes and complex hierarchies.  
-* **Rich documentation & free trial** – get started quickly with examples and sample data.
+## Hướng dẫn đồ họa 3D bằng Java là gì?
 
-## Prerequisites
+Một **hướng dẫn đồ họa 3D bằng Java** sẽ dạy bạn cách tạo, chỉnh sửa và xuất nội dung ba chiều bằng lập trình. Bằng cách làm theo các ví dụ từng bước, bạn sẽ học được các lệnh gọi API cốt lõi hỗ trợ các quy trình 3D, từ tạo cảnh đến tuần tự hóa tệp.
 
-Before we dive into the code, make sure you have the following ready:
+## Tại sao nên sử dụng Aspose.3D cho Java?
 
-1. **Java Development Environment** – Install the latest JDK (Java 17 or newer is recommended). You can download it [here](https://www.java.com/download/).  
-2. **Aspose.3D Library for Java** – Grab the latest release from the official site [here](https://releases.aspose.com/3d/java/).  
+* **Hỗ trợ định dạng rộng** – FBX, OBJ, STL, GLTF và nhiều hơn nữa.
 
-Having these in place ensures the tutorial runs without hiccups.
+* **Không có phụ thuộc bên ngoài** – Java thuần túy, dễ dàng nhúng vào bất kỳ dự án nào.
 
-## Import Packages
+* **Kết xuất hiệu suất cao** – được tối ưu hóa cho các lưới lớn và cấu trúc phân cấp phức tạp.
 
-Now that the environment is set, import the classes we’ll need. These imports give us access to the core Aspose.3D functionality as well as standard Java utilities.
+* **Tài liệu phong phú & dùng thử miễn phí** – bắt đầu nhanh chóng với các ví dụ và dữ liệu mẫu.
+
+## Điều kiện tiên quyết
+
+Trước khi đi sâu vào mã code, hãy đảm bảo bạn đã chuẩn bị sẵn những điều sau:
+
+1. **Môi trường phát triển Java** – Cài đặt phiên bản JDK mới nhất (khuyến nghị Java 17 trở lên). Bạn có thể tải xuống [tại đây](https://www.java.com/download/).
+
+2. **Thư viện Aspose.3D cho Java** – Tải phiên bản mới nhất từ ​​trang web chính thức [tại đây](https://releases.aspose.com/3d/java/).
+
+Việc chuẩn bị đầy đủ những điều này đảm bảo hướng dẫn sẽ chạy trơn tru.
+
+## Nhập các gói
+
+Bây giờ môi trường đã được thiết lập, hãy nhập các lớp chúng ta cần. Việc nhập này cho phép chúng ta truy cập vào chức năng cốt lõi của Aspose.3D cũng như các tiện ích Java tiêu chuẩn.
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -62,9 +64,9 @@ import com.aspose.threed.Scene;
 import java.io.Console;
 ```
 
-## Step 1: Set Up the Document Directory
+## Bước 1: Thiết lập Thư mục Tài liệu
 
-First, decide where the generated file will live on your file system. Replace `"Your Document Directory"` with an absolute or relative path that suits your project layout.
+Trước tiên, hãy quyết định vị trí lưu trữ tệp được tạo trên hệ thống tệp của bạn. Thay thế `"Thư mục Tài liệu của bạn"` bằng đường dẫn tuyệt đối hoặc tương đối phù hợp với bố cục dự án của bạn.
 
 ```java
 // Set the path to the documents directory
@@ -72,67 +74,71 @@ String MyDir = "Your Document Directory";
 MyDir = MyDir + "document.fbx";
 ```
 
-## Step 2: Create a Scene Object
+## Bước 2: Tạo Đối tượng Cảnh
 
-A `Scene` represents the root container for all 3‑D entities (meshes, lights, cameras, etc.). Creating an empty instance gives us a clean canvas.
+Một `Cảnh` đại diện cho vùng chứa gốc cho tất cả các thực thể 3D (lưới, đèn, camera, v.v.). Việc tạo một thể hiện trống sẽ cung cấp cho chúng ta một khung vẽ sạch.
 
 ```java
 // Create an object of the Scene class
 Scene scene = new Scene();
 ```
 
-## Step 3: Save the 3D Scene Document
+## Bước 3: Lưu Tài liệu Cảnh 3D
 
-With the empty scene ready, persist it to disk using the chosen file format. In this tutorial we use the FBX 7.5 ASCII format, which is widely supported by many 3‑D applications.
+Sau khi đã chuẩn bị xong cảnh trống, hãy lưu nó vào ổ đĩa bằng định dạng tệp đã chọn. Trong hướng dẫn này, chúng ta sử dụng định dạng FBX7.5ASCII, được hỗ trợ rộng rãi bởi nhiều ứng dụng 3D.
 
 ```java
 // Save 3D scene document
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
-## Step 4: Print Success Message
+## Bước 4: In Thông báo Thành công
 
-A friendly console message confirms that the operation succeeded and tells you where to find the file.
+Một thông báo thân thiện trên bảng điều khiển sẽ xác nhận rằng thao tác đã thành công và cho bạn biết vị trí của tệp.
 
 ```java
 // Print success message
 System.out.println("\nAn empty 3D document created successfully.\nFile saved at " + MyDir);
 ```
 
-## Common Issues and Solutions
+## Các Vấn Đề Thường Gặp và Giải Pháp
 
 | Vấn đề | Nguyên nhân | Giải pháp |
+
 |-------|------------|----------|
-| **File not found / Access denied** | Incorrect path or missing write permissions | Verify `MyDir` points to an existing folder and that the Java process has write access. |
-| **Missing Aspose.3D JAR** | Library not added to classpath | Add the Aspose.3D JAR (or Maven/Gradle dependency) to your project. |
-| **Unsupported file format** | Using a format not available in the current version | Check the `FileFormat` enum for supported options or upgrade the library. |
 
-## Frequently Asked Questions
+| **Không tìm thấy tệp / Truy cập bị từ chối** | Đường dẫn không chính xác hoặc thiếu quyền ghi | Xác minh `MyDir` trỏ đến một thư mục hiện có và tiến trình Java có quyền ghi. |
 
-**Q1: Is Aspose.3D compatible with all Java development environments?**  
-A1: Aspose.3D is designed to be compatible with standard Java development environments. Ensure you have Java properly installed.
+| **Thiếu tệp JAR Aspose.3D** | Thư viện chưa được thêm vào classpath | Thêm tệp JAR Aspose.3D (hoặc phụ thuộc Maven/Gradle) vào dự án của bạn. |
 
-**Q2: Where can I find detailed documentation for Aspose.3D in Java?**  
-A2: Refer to the documentation [here](https://reference.aspose.com/3d/java/) for comprehensive information and examples.
+| **Định dạng tệp không được hỗ trợ** | Sử dụng định dạng không có sẵn trong phiên bản hiện tại | Kiểm tra enum `FileFormat` để biết các tùy chọn được hỗ trợ hoặc nâng cấp thư viện. |
 
-**Q3: Can I try Aspose.3D before purchasing?**  
-A3: Yes, a free trial is available [here](https://releases.aspose.com/) for you to explore Aspose.3D's features.
+## Câu Hỏi Thường Gặp
 
-**Q4: How can I get temporary licenses for Aspose.3D?**  
-A4: Obtain temporary licenses for Aspose.3D [here](https://purchase.aspose.com/temporary-license/).
+**Hỏi 1: Aspose.3D có tương thích với tất cả các môi trường phát triển Java không?**
+Trả lời 1: Aspose.3D được thiết kế để tương thích với các môi trường phát triển Java tiêu chuẩn. Hãy đảm bảo bạn đã cài đặt Java đúng cách.
 
-**Q5: Where can I seek support or discuss Aspose.3D related queries?**  
-A5: Visit the community forum [here](https://forum.aspose.com/c/3d/18) for support and discussions.
+**Câu hỏi 2: Tôi có thể tìm tài liệu chi tiết về Aspose.3D bằng Java ở đâu?**
+Câu trả lời 2: Tham khảo tài liệu [tại đây](https://reference.aspose.com/3d/java/) để biết thông tin đầy đủ và các ví dụ.
 
-## Conclusion
+**Câu hỏi 3: Tôi có thể dùng thử Aspose.3D trước khi mua không?**
+Câu trả lời 3: Có, bạn có thể dùng thử miễn phí [tại đây](https://releases.aspose.com/) để khám phá các tính năng của Aspose.3D.
 
-You’ve just completed a **java 3d graphics tutorial** that shows how to **how to create 3d** documents from scratch using Aspose.3D for Java. With an empty scene file in hand, you can now start adding meshes, lights, cameras, or any custom geometry your project requires. Keep experimenting with the API—there’s a whole world of 3‑D possibilities waiting to be unlocked.
+**Câu hỏi 4: Làm thế nào để có được giấy phép tạm thời cho Aspose.3D?**
+Câu trả lời 4: Nhận giấy phép tạm thời cho Aspose.3D [tại đây](https://purchase.aspose.com/temporary-license/).
+
+**Câu hỏi 5: Tôi có thể tìm kiếm hỗ trợ hoặc thảo luận các câu hỏi liên quan đến Aspose.3D ở đâu?**
+Câu trả lời 5: Truy cập diễn đàn cộng đồng [tại đây](https://forum.aspose.com/c/3d/18) để được hỗ trợ và thảo luận.
+
+** ## Kết luận
+
+Bạn vừa hoàn thành một **hướng dẫn đồ họa 3D Java** hướng dẫn cách **tạo tài liệu 3D** từ đầu bằng Aspose.3D cho Java. Với một tệp cảnh trống trong tay, giờ đây bạn có thể bắt đầu thêm lưới, đèn, camera hoặc bất kỳ hình học tùy chỉnh nào mà dự án của bạn yêu cầu. Hãy tiếp tục thử nghiệm với API — cả một thế giới khả năng 3D đang chờ được khám phá.
 
 ---
 
-**Last Updated:** 2026-02-25  
-**Tested With:** Aspose.3D for Java 24.10  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2026-02-25
+**Đã thử nghiệm với:** Aspose.3D cho Java 24.10
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

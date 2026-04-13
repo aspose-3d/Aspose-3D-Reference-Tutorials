@@ -182,15 +182,15 @@ A4: Tham khảo diễn đàn hỗ trợ [here](https://forum.aspose.com/c/3d/18)
 ### Q5: Có cần giấy phép tạm thời để thử nghiệm không?
 A5: Có, hãy lấy giấy phép tạm thời [here](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Cập nhật lần cuối:** 2026-02-25  
+**Kiểm tra với:** Aspose.3D cho Java 24.11 (mới nhất)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-02-25  
-**Kiểm tra với:** Aspose.3D cho Java 24.11 (mới nhất)  
-**Tác giả:** Aspose

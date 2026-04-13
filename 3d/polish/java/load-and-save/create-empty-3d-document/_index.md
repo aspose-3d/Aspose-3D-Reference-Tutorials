@@ -2,16 +2,12 @@
 date: 2026-02-25
 description: Krok po kroku samouczek grafiki 3D w języku Java, pokazujący, jak utworzyć
   pusty dokument 3D przy użyciu Aspose.3D dla Javy.
-linktitle: 'Java 3D Graphics Tutorial: Create Empty 3D Document'
+linktitle: 'Java 3D Graphics Tutorial - Create Empty 3D Document'
 second_title: Aspose.3D Java API
-title: 'Samouczek grafiki 3D w Javie: Utwórz pusty dokument 3D'
+title: 'Samouczek grafiki 3D w Javie - Utwórz pusty dokument 3D'
 url: /pl/java/load-and-save/create-empty-3d-document/
 weight: 10
 ---
-
-.
-
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

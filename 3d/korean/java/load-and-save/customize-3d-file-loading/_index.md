@@ -9,19 +9,7 @@ url: /ko/java/load-and-save/customize-3d-file-loading/
 weight: 12
 ---
 
-25 -> "**마지막 업데이트:** 2026-02-25"
-
-**Tested With:** Aspose.3D for Java 24.11 (latest) -> "**테스트 환경:** Aspose.3D for Java 24.11 (latest)"
-
-**Author:** Aspose -> "**작성자:** Aspose"
-
-Now produce final content with all translations.
-
-Check for any missed items: The bullet list under "Why customize 3D import?" we need to keep dash bullet. Good.
-
-Make sure to preserve markdown formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -192,15 +180,15 @@ A4: 지원 포럼은 [여기](https://forum.aspose.com/c/3d/18)에서 확인하�
 ### Q5: 테스트를 위한 임시 라이선스가 필요합니까?
 A5: 예, 임시 라이선스는 [여기](https://purchase.aspose.com/temporary-license/)에서 얻을 수 있습니다.
 
+---
+
+**마지막 업데이트:** 2026-02-25  
+**테스트 환경:** Aspose.3D for Java 24.11 (latest)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-02-25  
-**테스트 환경:** Aspose.3D for Java 24.11 (latest)  
-**작성자:** Aspose

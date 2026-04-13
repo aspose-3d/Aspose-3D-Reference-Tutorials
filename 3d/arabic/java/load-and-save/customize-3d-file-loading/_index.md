@@ -181,15 +181,15 @@ private static void FBXLoadOptions() throws IOException {
 ### س5: هل أحتاج إلى ترخيص مؤقت للاختبار؟
 ج5: نعم، احصل على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**آخر تحديث:** 2026-02-25  
+**تم الاختبار مع:** Aspose.3D for Java 24.11 (latest)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-02-25  
-**تم الاختبار مع:** Aspose.3D for Java 24.11 (latest)  
-**المؤلف:** Aspose

@@ -182,15 +182,15 @@ Látogassa meg a támogatási fórumot [here](https://forum.aspose.com/c/3d/18).
 ### Q5: Szükségem van ideiglenes licencre a teszteléshez?
 Igen, szerezze be az ideiglenes licencet [here](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Utolsó frissítés:** 2026-02-25  
+**Tesztelve:** Aspose.3D for Java 24.11 (legújabb)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-02-25  
-**Tesztelve:** Aspose.3D for Java 24.11 (legújabb)  
-**Szerző:** Aspose

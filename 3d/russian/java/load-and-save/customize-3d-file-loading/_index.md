@@ -181,15 +181,15 @@ A4: Посетите форум поддержки [здесь](https://forum.as
 ### Вопрос 5: Нужна ли временная лицензия для тестирования?
 A5: Да, временную лицензию можно получить [здесь](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Последнее обновление:** 2026-02-25  
+**Тестировано с:** Aspose.3D for Java 24.11 (latest)  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-02-25  
-**Тестировано с:** Aspose.3D for Java 24.11 (latest)  
-**Автор:** Aspose

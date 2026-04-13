@@ -181,15 +181,15 @@ A4: समर्थन फ़ोरम [यहाँ](https://forum.aspose.com/c
 ### Q5: परीक्षण के लिए क्या मुझे अस्थायी लाइसेंस चाहिए?
 A5: हाँ, अस्थायी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) प्राप्त करें।
 
+---
+
+**अंतिम अपडेट:** 2026-02-25  
+**परीक्षण किया गया:** Aspose.3D for Java 24.11 (latest)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-02-25  
-**परीक्षण किया गया:** Aspose.3D for Java 24.11 (latest)  
-**लेखक:** Aspose

@@ -9,15 +9,7 @@ url: /id/java/linear-extrusion/performing-linear-extrusion/
 weight: 10
 ---
 
- (maybe keep as is). Translate label: "**Terakhir Diperbarui:**". "Tested With:" => "**Diuji Dengan:**". "Author:" => "**Penulis:**". Keep values unchanged.
-
-Then close shortcodes.
-
-Now produce final output with all content.
-
-Be careful to keep shortcodes unchanged.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

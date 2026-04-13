@@ -10,7 +10,7 @@ url: /es/java/load-and-save/optimize-3d-file-saving/
 weight: 16
 ---
 
- produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

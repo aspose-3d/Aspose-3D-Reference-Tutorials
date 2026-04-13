@@ -1,9 +1,9 @@
 ---
 date: 2026-02-25
 description: Aspose.3D for Java を使用して空の 3D ドキュメントを作成する方法を示す、ステップバイステップの Java 3D グラフィックスチュートリアル。
-linktitle: 'Java 3D Graphics Tutorial: Create Empty 3D Document'
+linktitle: 'Java 3D Graphics Tutorial - Create Empty 3D Document'
 second_title: Aspose.3D Java API
-title: Java 3D グラフィックスチュートリアル：空の3Dドキュメントを作成する
+title: Java 3D グラフィックスチュートリアル - 空の3Dドキュメントを作成する
 url: /ja/java/load-and-save/create-empty-3d-document/
 weight: 10
 ---
@@ -57,7 +57,7 @@ import com.aspose.threed.Scene;
 import java.io.Console;
 ```
 
-## Step 1: Set Up the Document Directory
+## ステップ1：ドキュメントディレクトリの設定
 
 まず、生成したファイルを保存するディレクトリを決定します。`"Your Document Directory"` を、プロジェクト構成に合わせた絶対パスまたは相対パスに置き換えてください。
 
@@ -67,7 +67,7 @@ String MyDir = "Your Document Directory";
 MyDir = MyDir + "document.fbx";
 ```
 
-## Step 2: Create a Scene Object
+## ステップ2：シーンオブジェクトの作成
 
 `Scene` はすべての 3‑D エンティティ（メッシュ、ライト、カメラなど）のルートコンテナを表します。空のインスタンスを作成することで、クリーンなキャンバスが得られます。
 
@@ -76,7 +76,7 @@ MyDir = MyDir + "document.fbx";
 Scene scene = new Scene();
 ```
 
-## Step 3: Save the 3D Scene Document
+## ステップ3：3Dシーンドキュメントの保存
 
 空のシーンが準備できたら、選択したファイル形式でディスクに保存します。このチュートリアルでは、広くサポートされている FBX 7.5 ASCII 形式を使用します。
 
@@ -85,7 +85,7 @@ Scene scene = new Scene();
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
-## Step 4: Print Success Message
+## ステップ4：成功メッセージの印刷
 
 コンソールにフレンドリーなメッセージを出力し、処理が成功したこととファイルの保存場所を通知します。
 
@@ -102,7 +102,7 @@ System.out.println("\nAn empty 3D document created successfully.\nFile saved at 
 | **Missing Aspose.3D JAR** | ライブラリがクラスパスに追加されていません | Aspose.3D JAR（または Maven/Gradle の依存関係）をプロジェクトに追加してください。 |
 | **Unsupported file format** | 現在のバージョンで利用できない形式を使用しています | `FileFormat` enum でサポートされているオプションを確認するか、ライブラリをアップグレードしてください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q1: Aspose.3D はすべての Java 開発環境と互換性がありますか？**  
 A1: Aspose.3D は標準的な Java 開発環境と互換性があるよう設計されています。Java が正しくインストールされていることを確認してください。

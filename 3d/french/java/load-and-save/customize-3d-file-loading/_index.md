@@ -183,15 +183,15 @@ R4 : Visitez le forum de support [ici](https://forum.aspose.com/c/3d/18).
 ### Q5 : Ai‑je besoin d’une licence temporaire pour les tests ?
 R5 : Oui, obtenez une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Dernière mise à jour :** 2026-02-25  
+**Testé avec :** Aspose.3D pour Java 24.11 (dernière version)  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-02-25  
-**Testé avec :** Aspose.3D pour Java 24.11 (dernière version)  
-**Auteur :** Aspose
