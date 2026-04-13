@@ -1,6 +1,6 @@
 ---
-title: "Read 3D Scene Java: Load Existing 3D Scenes Effortlessly with Aspose.3D"
-linktitle: "Read 3D Scene Java: Load Existing 3D Scenes Effortlessly with Aspose.3D"
+title: "Read 3D Scene Java - Load Existing 3D Scenes Effortlessly with Aspose.3D"
+linktitle: "Read 3D Scene Java - Load Existing 3D Scenes Effortlessly with Aspose.3D"
 second_title: "Aspose.3D Java API"
 description: "Learn how to read 3d scene java using Aspose.3D. This step‑by‑step aspose 3d tutorial shows you how to import 3d model java files, modify them, and save your work."
 weight: 14

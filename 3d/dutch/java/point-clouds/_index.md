@@ -73,12 +73,6 @@ Verken de wereld van 3D‑graphics met Aspose.3D in Java. Leer point clouds te g
 Leer hoe je 3D‑scènes exporteert als point clouds in Java met Aspose.3D. Verhoog je applicaties met krachtige 3D‑graphics en visualisatie.
 ### [Point Cloud‑Behandeling Stroomlijnen met PLY‑Export in Java](./ply-export-point-clouds-java/)
 Ontdek gestroomlijnde point cloud‑behandeling in Java met Aspose.3D. Leer PLY‑bestanden moeiteloos te exporteren. Versnel je 3D‑graphicsprojecten met onze stap‑voor‑stap gids.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Veelgestelde Vragen
 
@@ -102,3 +96,10 @@ A: Na het laden kun je de vertex‑telling, bounding box van het `PointCloud`‑
 **Laatst Bijgewerkt:** 2026-02-27  
 **Getest Met:** Aspose.3D for Java 24.11  
 **Auteur:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,17 +3,15 @@ date: 2026-02-27
 description: Tanulja meg, hogyan olvassa be a 3D jelenetet Java-ban az Aspose.3D segítségével.
   Ez a lépésről‑lépésre aspose 3d útmutató megmutatja, hogyan importáljon 3D modell
   Java fájlokat, módosítsa őket, és mentse el a munkáját.
-linktitle: 'Read 3D Scene Java: Load Existing 3D Scenes Effortlessly with Aspose.3D'
+linktitle: 'Read 3D Scene Java - Load Existing 3D Scenes Effortlessly with Aspose.3D'
 second_title: Aspose.3D Java API
-title: '3D-s jelenet olvasása Java-ban: Létező 3D-s jelenetek egyszerű betöltése az
+title: '3D-s jelenet olvasása Java-ban - Létező 3D-s jelenetek egyszerű betöltése az
   Aspose.3D-vel'
 url: /hu/java/load-and-save/read-existing-3d-scenes/
 weight: 14
 ---
 
- shortcodes exactly.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

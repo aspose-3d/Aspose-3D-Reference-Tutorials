@@ -76,12 +76,6 @@ Fedezd fel a 3D grafika világát az Aspose.3D Java-val. Tanuld meg, hogyan gene
 Tanuld meg, hogyan exportálj 3D jeleneteket pontfelhőként Java-ban az Aspose.3D-val. Emeld alkalmazásaidat erőteljes 3D grafikával és megjelenítéssel.
 ### [Pontfelhő kezelés egyszerűsítése PLY exportálással Java-ban](./ply-export-point-clouds-java/)
 Fedezd fel a pontfelhő kezelés egyszerűsítését Java-ban az Aspose.3D-val. Tanuld meg, hogyan exportálj PLY fájlokat könnyedén. Növeld 3D grafikai projektjeidet lépésről‑lépésre útmutatónkkal.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Gyakran Ismételt Kérdések
 
@@ -105,3 +99,10 @@ A: Betöltés után lekérdezheted a `PointCloud` objektum csúcspontszámát, a
 **Last Updated:** 2026-02-27  
 **Tested With:** Aspose.3D for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

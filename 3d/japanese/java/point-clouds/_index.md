@@ -74,12 +74,6 @@ Explore the world of 3D graphics with Aspose.3D in Java. Learn to generate point
 Learn how to export 3D scenes as point clouds in Java with Aspose.3D. Enhance your applications with powerful 3D graphics and visualization.
 ### [JavaでPLYエクスポートでポイントクラウド処理を効率化する](./ply-export-point-clouds-java/)
 Explore streamlined point cloud handling in Java with Aspose.3D. Learn to export PLY files effortlessly. Boost your 3D graphics projects with our step‑by‑step guide.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## よくある質問
 
@@ -103,3 +97,10 @@ A: ロード後、`PointCloud` オブジェクトの頂点数、バウンディ�
 **最終更新日:** 2026-02-27  
 **テスト環境:** Aspose.3D for Java 24.11  
 **作者:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

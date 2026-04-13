@@ -2,9 +2,9 @@
 date: 2026-02-27
 description: 學習如何使用 Aspose.3D 讀取 3D 場景 Java。這個一步一步的 Aspose 3D 教學會向您展示如何匯入 3D 模型 Java
   檔案、修改它們，並儲存您的作品。
-linktitle: 'Read 3D Scene Java: Load Existing 3D Scenes Effortlessly with Aspose.3D'
+linktitle: 'Read 3D Scene Java - Load Existing 3D Scenes Effortlessly with Aspose.3D'
 second_title: Aspose.3D Java API
-title: 閱讀 3D 場景 Java：使用 Aspose.3D 輕鬆載入現有 3D 場景
+title: 閱讀 3D 場景 Java - 使用 Aspose.3D 輕鬆載入現有 3D 場景
 url: /zh-hant/java/load-and-save/read-existing-3d-scenes/
 weight: 14
 ---

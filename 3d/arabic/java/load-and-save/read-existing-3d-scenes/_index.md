@@ -3,9 +3,9 @@ date: 2026-02-27
 description: تعلم كيفية قراءة مشهد ثلاثي الأبعاد بلغة جافا باستخدام Aspose.3D. يوضح
   لك هذا الدليل خطوة بخطوة لـ Aspose 3D كيفية استيراد ملفات نماذج ثلاثية الأبعاد بلغة
   جافا، تعديلها، وحفظ عملك.
-linktitle: 'Read 3D Scene Java: Load Existing 3D Scenes Effortlessly with Aspose.3D'
+linktitle: 'Read 3D Scene Java - Load Existing 3D Scenes Effortlessly with Aspose.3D'
 second_title: Aspose.3D Java API
-title: 'قراءة مشهد 3D Java: تحميل المشاهد الثلاثية الأبعاد الموجودة بسهولة باستخدام
+title: 'قراءة مشهد 3D Java - تحميل المشاهد الثلاثية الأبعاد الموجودة بسهولة باستخدام
   Aspose.3D'
 url: /ar/java/load-and-save/read-existing-3d-scenes/
 weight: 14

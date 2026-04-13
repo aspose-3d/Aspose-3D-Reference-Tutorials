@@ -126,20 +126,21 @@ System.out.println("\nConverted 3D document to stream successfully.");
 
 ## 常见问答
 
-**Q: Can I use Aspose.3D for Java with other Java libraries?**  
-A: 可以，Aspose.3D 能够无缝集成到 Apache Commons IO、Jackson 或您选择的任何渲染引擎等库中。
+**问：我可以将 Aspose.3D for Java 与其他 Java 库一起使用吗？**
 
-**Q: Is there a free trial available?**  
-A: 有，您可以在 **[这里](https://releases.aspose.com/)** 获取免费试用。
+答： 可以，Aspose.3D 能够无缝集成到 Apache Commons IO、Jackson 或您选择的任何渲染引擎等库中。
 
-**Q: Where can I find detailed documentation?**  
-A: 请参阅文档 **[这里](https://reference.aspose.com/3d/java/)**。
+**问：是否有免费试用版？**
+答: 有，您可以在 **[这里](https://releases.aspose.com/)** 获取免费试用。
 
-**Q: How do I get support for Aspose.3D for Java?**  
-A: 访问支持论坛 **[这里](https://forum.aspose.com/c/3d/18)**。
+**问：在哪里可以找到详细文档？**
+答: 请参阅文档 **[这里](https://reference.aspose.com/3d/java/)**。
 
-**Q: Can I purchase a temporary license?**  
-A: 可以，临时许可证可在 **[这里](https://purchase.aspose.com/temporary-license/)** 购买。
+**问：如何获得 Aspose.3D for Java 的支持？**
+答: 访问支持论坛 **[这里](https://forum.aspose.com/c/3d/18)**。
+
+**问：我可以购买临时许可证吗？**  
+答: 可以，临时许可证可在 **[这里](https://purchase.aspose.com/temporary-license/)** 购买。
 
 ## 结论
 

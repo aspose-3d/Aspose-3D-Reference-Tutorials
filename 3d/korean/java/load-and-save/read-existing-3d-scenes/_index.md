@@ -2,9 +2,9 @@
 date: 2026-02-27
 description: Aspose.3D를 사용하여 3D 씬 Java를 읽는 방법을 배워보세요. 이 단계별 Aspose 3D 튜토리얼에서는 3D 모델
   Java 파일을 가져오고, 수정하고, 작업을 저장하는 방법을 보여줍니다.
-linktitle: 'Read 3D Scene Java: Load Existing 3D Scenes Effortlessly with Aspose.3D'
+linktitle: 'Read 3D Scene Java - Load Existing 3D Scenes Effortlessly with Aspose.3D'
 second_title: Aspose.3D Java API
-title: '3D 씬 읽기 Java: Aspose.3D로 기존 3D 씬을 손쉽게 로드하기'
+title: '3D 씬 읽기 Java - Aspose.3D로 기존 3D 씬을 손쉽게 로드하기'
 url: /ko/java/load-and-save/read-existing-3d-scenes/
 weight: 14
 ---

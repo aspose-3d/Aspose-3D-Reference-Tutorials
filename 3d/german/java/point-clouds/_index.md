@@ -74,12 +74,6 @@ Entdecken Sie die Welt der 3D‑Grafik mit Aspose.3D in Java. Lernen Sie, Punktw
 Erfahren Sie, wie Sie 3D‑Szenen in Java als Punktwolken mit Aspose.3D exportieren. Verbessern Sie Ihre Anwendungen mit leistungsstarker 3D‑Grafik und Visualisierung.
 ### [Punktwolkenverwaltung mit PLY-Export in Java optimieren](./ply-export-point-clouds-java/)
 Entdecken Sie optimierte Punktwolkenverwaltung in Java mit Aspose.3D. Lernen Sie, PLY‑Dateien mühelos zu exportieren. Stärken Sie Ihre 3D‑Grafikprojekte mit unserem Schritt‑für‑Schritt‑Leitfaden.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Häufig gestellte Fragen
 
@@ -103,3 +97,10 @@ A: Nach dem Laden können Sie die Vertex‑Anzahl, die Begrenzungsbox des `Point
 **Last Updated:** 2026-02-27  
 **Tested With:** Aspose.3D for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

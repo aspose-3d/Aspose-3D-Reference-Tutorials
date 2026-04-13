@@ -80,12 +80,6 @@ Scopri come esportare scene 3D come nuvole di punti in Java con Aspose.3D. Migli
 
 ### [Semplifica la Gestione delle Nuvole di Punti con l'Esportazione PLY in Java](./ply-export-point-clouds-java/)
 Esplora una gestione semplificata delle nuvole di punti in Java con Aspose.3D. Impara a esportare file PLY senza sforzo. Potenzia i tuoi progetti di grafica 3D con la nostra guida passo‑passo.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Domande Frequenti
 
@@ -109,3 +103,10 @@ A: Dopo il caricamento, puoi interrogare il conteggio dei vertici dell'oggetto `
 **Ultimo Aggiornamento:** 2026-02-27  
 **Testato Con:** Aspose.3D for Java 24.11  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

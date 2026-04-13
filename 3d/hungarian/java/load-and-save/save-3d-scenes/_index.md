@@ -10,21 +10,7 @@ url: /hu/java/load-and-save/save-3d-scenes/
 weight: 15
 ---
 
-valósítani egy jelenet betöltésével, opcionális feldolgozásával, és új formátumba mentésével az Aspose.3D for Java segítségével. A könyvtár tiszta API-ja és széles körű formátumtámogatása ideális választás fejlesztők számára, akik megbízható 3‑D fájlkonverzióra van szükségük Java alkalmazásokban."
-
---- then metadata.
-
-**Last Updated:** 2026-02-27 -> "Utolsó frissítés:" etc. Translate label: "**Last Updated:**" -> "**Utolsó frissítés:**"
-
-**Tested With:** Aspose.3D for Java 24.12 (latest at time of writing) -> "**Tesztelve:** Aspose.3D for Java 24.12 (a legújabb a kiadás időpontjában)"
-
-**Author:** Aspose -> "**Szerző:** Aspose"
-
-Then closing shortcodes.
-
-Now produce final content with all translations, preserving shortcodes and code block placeholders.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

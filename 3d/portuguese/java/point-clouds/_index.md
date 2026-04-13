@@ -74,12 +74,6 @@ Explore o mundo dos gráficos 3D com Aspose.3D em Java. Aprenda a gerar nuvens d
 Aprenda a exportar cenas 3D como nuvens de pontos em Java com Aspose.3D. Enriqueça suas aplicações com gráficos 3D poderosos e visualização.
 ### [Simplificar o Manuseio de Nuvens de Pontos com Exportação PLY em Java](./ply-export-point-clouds-java/)
 Explore um manuseio simplificado de nuvens de pontos em Java com Aspose.3D. Aprenda a exportar arquivos PLY sem esforço. Impulsione seus projetos de gráficos 3D com nosso guia passo a passo.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Perguntas Frequentes
 
@@ -103,3 +97,10 @@ A: Após o carregamento, você pode consultar a contagem de vértices do objeto 
 **Última atualização:** 2026-02-27  
 **Testado com:** Aspose.3D for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -10,15 +10,7 @@ url: /ru/java/point-clouds/
 weight: 34
 ---
 
- "Тестировано с:"; "Author:" => "Автор:".
-
-But keep the date and version unchanged.
-
-Now produce final content with all shortcodes and markdown.
-
-Check we didn't miss any code block. No fenced code blocks.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -89,12 +81,6 @@ PLY (Polygon File Format) — широко используемый формат
 
 ### [Оптимизация работы с облаками точек через экспорт PLY в Java](./ply-export-point-clouds-java/)
 Исследуйте упрощённую работу с облаками точек в Java с Aspose.3D. Научитесь без труда экспортировать файлы PLY. Ускорьте свои 3D‑проекты с нашим пошаговым руководством.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Часто задаваемые вопросы
 
@@ -118,3 +104,10 @@ A: После загрузки вы можете запросить количе
 **Последнее обновление:** 2026-02-27  
 **Тестировано с:** Aspose.3D for Java 24.11  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

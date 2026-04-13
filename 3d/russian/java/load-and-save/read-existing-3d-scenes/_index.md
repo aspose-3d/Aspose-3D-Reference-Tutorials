@@ -3,30 +3,14 @@ date: 2026-02-27
 description: Узнайте, как читать 3D‑сцены Java с помощью Aspose.3D. Этот пошаговый
   учебник Aspose 3D покажет вам, как импортировать файлы 3D‑моделей Java, изменять
   их и сохранять свою работу.
-linktitle: 'Read 3D Scene Java: Load Existing 3D Scenes Effortlessly with Aspose.3D'
+linktitle: 'Read 3D Scene Java - Load Existing 3D Scenes Effortlessly with Aspose.3D'
 second_title: Aspose.3D Java API
-title: 'Чтение 3D‑сцен Java: Легко загружайте существующие 3D‑сцены с помощью Aspose.3D'
+title: 'Чтение 3D‑сцен Java - Легко загружайте существующие 3D‑сцены с помощью Aspose.3D'
 url: /ru/java/load-and-save/read-existing-3d-scenes/
 weight: 14
 ---
 
- Чтение 3D сцен Java: Легкая загрузка существующих 3D сцен с Aspose.3D"
-
-Similarly other headings.
-
-Translate bullet list under Quick Answers.
-
-Translate paragraphs.
-
-Make sure not to translate code block placeholders.
-
-Translate table.
-
-Translate FAQ.
-
-Ok.
-
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

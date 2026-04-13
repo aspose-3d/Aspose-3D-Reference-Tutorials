@@ -83,12 +83,6 @@ Explorez le monde des graphiques 3D avec Aspose.3D en Java. Apprenez à génére
 Apprenez à exporter des scènes 3D en tant que nuages de points en Java avec Aspose.3D. Améliorez vos applications avec des graphiques 3D puissants et de la visualisation.
 ### [Rationaliser la gestion des nuages de points avec l’exportation PLY en Java](./ply-export-point-clouds-java/)
 Explorez une gestion rationalisée des nuages de points en Java avec Aspose.3D. Apprenez à exporter des fichiers PLY sans effort. Boostez vos projets de graphiques 3D avec notre guide pas à pas.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Foire aux questions
 
@@ -112,3 +106,10 @@ R : Après le chargement, vous pouvez interroger le nombre de sommets de l’o
 **Dernière mise à jour :** 2026-02-27  
 **Testé avec :** Aspose.3D for Java 24.11  
 **Auteur :** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

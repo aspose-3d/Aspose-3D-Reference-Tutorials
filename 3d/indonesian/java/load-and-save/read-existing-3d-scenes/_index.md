@@ -3,9 +3,9 @@ date: 2026-02-27
 description: Pelajari cara membaca adegan 3D Java menggunakan Aspose.3D. Tutorial
   Aspose 3D langkah demi langkah ini menunjukkan cara mengimpor file model 3D Java,
   memodifikasinya, dan menyimpan pekerjaan Anda.
-linktitle: 'Read 3D Scene Java: Load Existing 3D Scenes Effortlessly with Aspose.3D'
+linktitle: 'Read 3D Scene Java - Load Existing 3D Scenes Effortlessly with Aspose.3D'
 second_title: Aspose.3D Java API
-title: 'Baca 3D Scene Java: Muat Adegan 3D yang Ada dengan Mudah menggunakan Aspose.3D'
+title: 'Baca 3D Scene Java - Muat Adegan 3D yang Ada dengan Mudah menggunakan Aspose.3D'
 url: /id/java/load-and-save/read-existing-3d-scenes/
 weight: 14
 ---

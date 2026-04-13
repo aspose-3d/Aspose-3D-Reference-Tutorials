@@ -3,9 +3,9 @@ date: 2026-02-27
 description: Học cách đọc cảnh 3D trong Java bằng Aspose.3D. Hướng dẫn Aspose 3D từng
   bước này sẽ chỉ cho bạn cách nhập các tệp mô hình 3D Java, chỉnh sửa chúng và lưu
   công việc của mình.
-linktitle: 'Read 3D Scene Java: Load Existing 3D Scenes Effortlessly with Aspose.3D'
+linktitle: 'Read 3D Scene Java - Load Existing 3D Scenes Effortlessly with Aspose.3D'
 second_title: Aspose.3D Java API
-title: 'Đọc cảnh 3D Java: Tải các cảnh 3D hiện có một cách dễ dàng với Aspose.3D'
+title: 'Đọc cảnh 3D Java - Tải các cảnh 3D hiện có một cách dễ dàng với Aspose.3D'
 url: /vi/java/load-and-save/read-existing-3d-scenes/
 weight: 14
 ---

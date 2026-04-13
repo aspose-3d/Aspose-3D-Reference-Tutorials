@@ -3,9 +3,9 @@ date: 2026-02-27
 description: Leer hoe je een 3D‑scene in Java kunt lezen met Aspose.3D. Deze stapsgewijze
   Aspose 3D‑tutorial laat zien hoe je 3D‑model‑Java‑bestanden kunt importeren, aanpassen
   en je werk kunt opslaan.
-linktitle: 'Read 3D Scene Java: Load Existing 3D Scenes Effortlessly with Aspose.3D'
+linktitle: 'Read 3D Scene Java - Load Existing 3D Scenes Effortlessly with Aspose.3D'
 second_title: Aspose.3D Java API
-title: 'Lees 3D‑scene Java: Laad bestaande 3D‑scènes moeiteloos met Aspose.3D'
+title: 'Lees 3D‑scene Java - Laad bestaande 3D‑scènes moeiteloos met Aspose.3D'
 url: /nl/java/load-and-save/read-existing-3d-scenes/
 weight: 14
 ---

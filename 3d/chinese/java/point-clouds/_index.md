@@ -72,12 +72,6 @@ PLY（Polygon File Format）是一种广泛使用的 3D 点云数据存储格式
 学习如何使用 Aspose.3D 在 Java 中将 3D 场景导出为点云。为你的应用增添强大的 3D 图形和可视化功能。
 ### [使用 Java 中的 PLY 导出简化点云处理](./ply-export-point-clouds-java/)
 探索使用 Aspose.3D 在 Java 中简化点云处理的流程。学习轻松导出 PLY 文件，提升你的 3D 图形项目。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## 常见问题
 
@@ -101,3 +95,10 @@ A: 加载后，你可以查询 `PointCloud` 对象的顶点数量、包围盒，
 **最后更新：** 2026-02-27  
 **测试环境：** Aspose.3D for Java 24.11  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

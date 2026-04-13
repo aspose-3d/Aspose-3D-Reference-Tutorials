@@ -9,11 +9,7 @@ url: /sv/java/point-clouds/
 weight: 34
 ---
 
- hyphen? Keep same.
-
-Now produce final content with same shortcodes.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -86,12 +82,6 @@ Utforska världen av 3D‑grafik med Aspose.3D i Java. Lär dig att generera pun
 Lär dig hur du exporterar 3D‑scener som punktmoln i Java med Aspose.3D. Förbättra dina applikationer med kraftfull 3D‑grafik och visualisering.
 ### [Streamline Point Cloud Handling with PLY Export in Java](./ply-export-point-clouds-java/)
 Utforska en strömlinjeformad hantering av punktmoln i Java med Aspose.3D. Lär dig att enkelt exportera PLY‑filer. Förbättra dina 3D‑grafikprojekt med vår steg‑för‑steg‑guide.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Vanliga frågor
 
@@ -115,3 +105,10 @@ A: Efter inläsning kan du fråga `PointCloud`‑objektets vertex‑antal, bound
 **Senast uppdaterad:** 2026-02-27  
 **Testat med:** Aspose.3D for Java 24.11  
 **Författare:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

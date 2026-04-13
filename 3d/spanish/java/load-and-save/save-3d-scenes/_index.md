@@ -10,15 +10,6 @@ url: /es/java/load-and-save/save-3d-scenes/
 weight: 15
 ---
 
-; but translation likely okay. We'll translate.
-
-Proceed sections.
-
-Make sure to keep code block placeholders unchanged.
-
-Tables: translate Issue and Solution headings to Spanish? Keep as text. Should translate.
-
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

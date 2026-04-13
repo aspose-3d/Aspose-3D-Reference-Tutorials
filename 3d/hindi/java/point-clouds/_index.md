@@ -86,12 +86,6 @@ Learn how to export 3D scenes as point clouds in Java with Aspose.3D. Enhance yo
 ### [Java में PLY एक्सपोर्ट के साथ पॉइंट क्लाउड हैंडलिंग को सरल बनाएं](./ply-export-point-clouds-java/)
 Explore streamlined point cloud handling in Java with Aspose.3D. Learn to export PLY files effortlessly. Boost your 3D graphics projects with our step‑by‑step guide.  
 **Aspose.3D के साथ Java में पॉइंट क्लाउड हैंडलिंग** को सरल बनाएँ। PLY फ़ाइलों को आसानी से एक्सपोर्ट करना सीखें। हमारे चरण‑दर‑चरण गाइड से अपने 3D ग्राफ़िक्स प्रोजेक्ट्स को बढ़ाएँ।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
@@ -115,3 +109,10 @@ A: After loading, you can query the `PointCloud` object’s vertex count, boundi
 **अंतिम अपडेट:** 2026-02-27  
 **परीक्षण किया गया:** Aspose.3D for Java 24.11  
 **लेखक:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

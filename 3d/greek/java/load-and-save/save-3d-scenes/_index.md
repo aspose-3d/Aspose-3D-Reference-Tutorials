@@ -10,10 +10,6 @@ url: /el/java/load-and-save/save-3d-scenes/
 weight: 15
 ---
 
-Be careful to keep markdown formatting exactly.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

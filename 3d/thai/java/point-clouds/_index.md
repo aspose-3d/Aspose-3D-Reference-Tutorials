@@ -9,15 +9,7 @@ url: /th/java/point-clouds/
 weight: 34
 ---
 
-**Last Updated:** 2026-02-27 => "**Last Updated:** 2026-02-27" maybe translate "Last Updated" to Thai: "**อัปเดตล่าสุด:** 2026-02-27". But the label is text; we translate.
-
-**Tested With:** Aspose.3D for Java 24.11 => "**Tested With:** Aspose.3D for Java 24.11" translate label: "**ทดสอบกับ:** Aspose.3D for Java 24.11"
-
-**Author:** Aspose => "**Author:** Aspose" translate label: "**ผู้เขียน:** Aspose"
-
-Now ensure all markdown formatting preserved.
-
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -89,12 +81,6 @@ PLY (Polygon File Format) เป็นรูปแบบไฟล์ที่ใ
 
 ### [ปรับปรุงการจัดการ Point Cloud ด้วยการส่งออก PLY ใน Java](./ply-export-point-clouds-java/)
 สำรวจการจัดการ point cloud อย่างราบรื่นใน Java ด้วย Aspose.3D เรียนรู้การส่งออกไฟล์ PLY อย่างง่ายดาย เพิ่มประสิทธิภาพโครงการกราฟิก 3D ของคุณด้วยคู่มือแบบขั้นตอนของเรา
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## คำถามที่พบบ่อย
 
@@ -118,3 +104,10 @@ A: After loading, you can query the `PointCloud` object’s vertex count, boundi
 **อัปเดตล่าสุด:** 2026-02-27  
 **ทดสอบกับ:** Aspose.3D for Java 24.11  
 **ผู้เขียน:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

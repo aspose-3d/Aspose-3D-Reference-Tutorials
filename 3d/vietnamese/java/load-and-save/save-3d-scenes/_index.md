@@ -10,35 +10,7 @@ url: /vi/java/load-and-save/save-3d-scenes/
 weight: 15
 ---
 
- đề | Giải pháp |"
-
-Rows translate.
-
-Next "## Frequently Asked Questions" -> "## Câu hỏi thường gặp"
-
-Each Q/A translate.
-
-Make sure to keep markdown links unchanged.
-
-Next "## Conclusion" -> "## Kết luận"
-
-Paragraph translate.
-
-Then "---"
-
-Then "**Last Updated:** 2026-02-27" keep.
-
-"**Tested With:** Aspose.3D for Java 24.12 (latest at time of writing)" keep.
-
-"**Author:** Aspose" keep.
-
-Then closing shortcodes.
-
-Finally backtop button shortcode.
-
-All good.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
