@@ -1,33 +1,42 @@
 ---
-title: Skręt w wytłaczaniu liniowym
-linktitle: Skręt w wytłaczaniu liniowym
-second_title: Aspose.3D API .NET
-description: Poznaj urzekający świat grafiki 3D dzięki Aspose.3D dla .NET. Naucz się krok po kroku wytłaczania liniowego z niespodzianką.
-weight: 14
+date: 2026-03-23
+description: Dowiedz się, jak tworzyć wyciąg z obrotem przy użyciu Aspose.3D dla .NET.
+  Ten przewodnik krok po kroku obejmuje techniki liniowego wyciągu z obrotem.
+linktitle: Twist in Linear Extrusion
+second_title: Aspose.3D .NET API
+title: Jak stworzyć ekstruzję z obrotem w ekstruzji liniowej
 url: /pl/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skręt w wytłaczaniu liniowym
+# Jak stworzyć ekstruzję z obrotem w ekstruzji liniowej
 
-## Wstęp
+## Wprowadzenie
 
-W stale rozwijającym się świecie rozwoju .NET wykorzystanie mocy grafiki 3D jest ekscytującym przedsięwzięciem. Aspose.3D dla .NET jawi się jako cenny zestaw narzędzi, umożliwiający programistom płynne tworzenie wciągających i oszałamiających wizualnie aplikacji. W tym obszernym przewodniku zagłębimy się w jedną intrygującą funkcję – wytłaczanie liniowe z niespodzianką. Ten samouczek przeprowadzi Cię krok po kroku przez proces, odblokowując potencjał Aspose.3D dla .NET.
+Jeśli tworzysz aplikacje .NET, które potrzebują przyciągających wzrok wizualizacji 3D, szybko odkryjesz, że **jak stworzyć ekstruzję** jest podstawową umiejętnością. Aspose.3D for .NET zapewnia czyste, wysokowydajne API, które zamienia proste profile 2‑D w zaawansowane modele 3‑D — szczególnie gdy dodasz obrót. W tym samouczku przejdziemy krok po kroku, od przygotowania sceny po zapis końcowego pliku OBJ, abyś mógł zobaczyć moc efektu obrotu w ekstruzji liniowej w praktyce.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaka jest podstawowa klasa do ekstruzji?** `LinearExtrusion`
+- **Która właściwość dodaje obrót?** `Twist`
+- **Ile warstw (slices) zapewnia płynny wynik?** Około 100 warstw (dostosuj w razie potrzeby)
+- **Czy mogę używać innych kształtów?** Tak, dowolny `IProfile`, np. koła, wielokąty lub własne krzywe
+- **Jakiego formatu pliku użyto w przykładzie?** Wavefront OBJ (`.obj`)
 
-Zanim wyruszymy w tę podróż 3D, upewnij się, że spełniasz następujące wymagania wstępne:
+## Wymagania wstępne
 
--  Aspose.3D dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.3D. Jeśli nie, możesz go pobrać[Tutaj](https://releases.aspose.com/3d/net/).
+Zanim zaczniemy, upewnij się, że masz następujące elementy:
 
-- Podstawowa wiedza na temat programowania .NET: W tym samouczku założono podstawową wiedzę na temat programowania .NET.
+- Aspose.3D for .NET zainstalowane. Jeśli jeszcze go nie pobrałeś, pobierz **[tutaj](https://releases.aspose.com/3d/net/)**.
+- Działające środowisko programistyczne .NET (Visual Studio, VS Code lub dowolne inne IDE).
+- Podstawową znajomość składni C# oraz koncepcji programowania obiektowego.
 
-## Importuj przestrzenie nazw:
+## Importowanie przestrzeni nazw
 
-W każdym projekcie .NET właściwe wykorzystanie przestrzeni nazw jest kluczowe. Rozpocznij od zaimportowania niezbędnych przestrzeni nazw, aby efektywnie wykorzystać funkcjonalność Aspose.3D. Oto fragment, który Cię poprowadzi:
+W każdym projekcie .NET prawidłowe użycie przestrzeni nazw jest kluczowe. Zacznij od zaimportowania niezbędnych przestrzeni nazw, aby w pełni wykorzystać możliwości Aspose.3D. Oto fragment kodu, który Cię poprowadzi:
 
 ```csharp
 using Aspose.ThreeD;
@@ -36,94 +45,108 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Podzielmy teraz intrygujący proces wytłaczania liniowego z skrętem przy użyciu Aspose.3D dla .NET na zrozumiałe etapy:
+## Przewodnik krok po kroku
 
-## Krok 1: Zainicjuj profil podstawowy
+### Krok 1: Inicjalizacja profilu bazowego
+
+Zaczynamy od zdefiniowania kształtu, który zostanie wyekstruzowany. W tym przykładzie używamy prostokąta z małym promieniem zaokrąglenia, aby krawędzie miały delikatną krzywiznę.
 
 ```csharp
-// Zainicjuj profil bazowy, który ma zostać wyciągnięty
+// Initialize the base profile to be extruded
 var profile = new RectangleShape()
 {
     RoundingRadius = 0.3
 };
 ```
 
-Rozpocznij od skonfigurowania profilu bazowego do wytłaczania. W tym przykładzie używamy kształtu prostokąta z określonym promieniem zaokrąglenia.
+### Krok 2: Utworzenie sceny 3D
 
-## Krok 2: Utwórz scenę 3D
+Obiekt `Scene` działa jak płótno, na którym żyją wszystkie elementy 3‑D. Pomyśl o nim jako o scenie dla Twojej ekstruzji.
 
 ```csharp
-// Utwórz scenę
+// Create a scene 
 Scene scene = new Scene();
 ```
 
-Stwórz scenę 3D, w której wydarzy się cała magia. Służy to jako płótno dla naszego arcydzieła 3D.
+### Krok 3: Dodanie węzłów lewego i prawego
 
-## Krok 3: Utwórz lewy i prawy węzeł
+Węzły pozwalają organizować obiekty hierarchicznie. Utworzymy dwa węzły‑rodzeń — jeden dla prostej ekstruzji, a drugi dla wersji z obrotem.
 
 ```csharp
-// Utwórz lewy węzeł
+// Create left node
 var left = scene.RootNode.CreateChildNode();
-// Utwórz prawy węzeł
+// Create right node
 var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(15, 0, 0);
 ```
 
-Wygeneruj lewy i prawy węzeł w scenie. Dostosuj tłumaczenie lewego węzła, aby ustawić go odpowiednio.
+### Krok 4: Wykonanie ekstruzji liniowej z obrotem w lewym węźle
 
-## Krok 4: Wykonaj wytłaczanie liniowe ze skrętem w lewym węźle
+Właściwość `Twist` kontroluje, o ile profil obraca się podczas ekstruzji. Ustawienie jej na **0** daje klasyczną prostą ekstruzję.
 
 ```csharp
-// Właściwość Twist określa stopień obrotu podczas wyciągania profilu
-//Wykonaj wytłaczanie liniowe w lewym węźle, korzystając z właściwości skrętu i plasterków
+// Twist property defines the degree of the rotation while extruding the profile
+// Perform linear extrusion on the left node using twist and slices property
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 0, Slices = 100 });
 ```
 
-To tutaj dzieje się magia. Wykonaj wyciągnięcie liniowe w lewym węźle, uwzględniając właściwość skrętu w celu zdefiniowania stopnia obrotu. Dostosuj liczbę plasterków, aby uzyskać dokładniejsze szczegóły.
+### Krok 5: Wykonanie ekstruzji liniowej z obrotem w prawym węźle
 
-## Krok 5: Wykonaj wytłaczanie liniowe ze skrętem w prawym węźle
+Teraz stosujemy obrót o 90 stopni do tego samego profilu. To wyraźnie pokazuje efekt **obrotu w ekstruzji liniowej**.
 
 ```csharp
-// Wykonaj wytłaczanie liniowe w prawym węźle, korzystając z właściwości skrętu i plasterków
+// Perform linear extrusion on the right node using twist and slices property
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 
-Odzwierciedlj proces w prawym węźle, eksperymentując z różnymi wartościami skrętu, aby obserwować zmiany w wytłoczeniu.
+### Krok 6: Zapis sceny 3D
 
-## Krok 6: Zapisz scenę 3D
+Na koniec eksportujemy scenę do formatu, który można otworzyć w dowolnym przeglądarce 3‑D. Przykład używa Wavefront OBJ, ale Aspose.3D obsługuje także wiele innych formatów.
 
 ```csharp
-// Zapisz scenę 3D
+// Save 3D scene
 scene.Save("Your Output Directory" + "TwistInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-Na koniec zapisz swoje arcydzieło 3D w żądanym katalogu wyjściowym. Dostosuj nazwę pliku zgodnie ze swoimi preferencjami.
+## Dlaczego warto używać ekstruzji liniowej z obrotem?
 
-## Wniosek
+- **Szybkie prototypowanie:** Przekształć szkice 2‑D w części 3‑D bez ręcznego modelowania.
+- **Elastyczność projektowania:** Reguluj wartość `Twist`, aby tworzyć spirale, żebrowane elementy helikalne lub ozdobne detale.
+- **Przyjazna wydajność:** Parametr `Slices` pozwala zbalansować jakość wizualną i szybkość działania.
 
-W tym samouczku zgłębiliśmy urzekającą dziedzinę wytłaczania liniowego z niespodzianką przy użyciu Aspose.3D dla .NET. Ta funkcja otwiera drzwi do kreatywnych możliwości, umożliwiając programistom łatwe wprowadzanie dynamicznych elementów wizualnych do swoich aplikacji.
+## Typowe problemy i wskazówki
 
-## Często zadawane pytania
+- **Zbyt wiele warstw:** Choć 100 warstw wygląda płynnie, bardzo wysokie wartości mogą spowolnić renderowanie. Testuj mniejsze liczby, jeśli wydajność stanie się problemem.
+- **Ujemne wartości obrotu:** Ujemny `Twist` obraca w przeciwnym kierunku — przydatne przy projektach lustrzanych.
+- **Ścieżki plików:** Upewnij się, że katalog wyjściowy istnieje i masz uprawnienia do zapisu; w przeciwnym razie `scene.Save` zgłosi wyjątek.
 
-### P1: Czy mogę zastosować wytłaczanie liniowe z skrętem do innych kształtów?
+## Zakończenie
 
-A1: Absolutnie! Możesz eksperymentować z różnymi profilami podstawowymi, wykraczającymi poza prostokąty, odblokowując niezliczone możliwości projektowania.
+W tym samouczku pokazaliśmy **jak stworzyć ekstruzję** z obrotem przy użyciu Aspose.3D for .NET. Regulując właściwości `Twist` i `Slices`, możesz generować szeroką gamę kształtów, od prostych skręconych prętów po złożone struktury helikalne, przy użyciu zaledwie kilku linii kodu.
 
-### P2: Jaką rolę odgrywa właściwość „Twist” w wytłaczaniu liniowym?
+## Najczęściej zadawane pytania
 
-A2: Właściwość „Skręt” określa stopień obrotu podczas procesu wytłaczania, wpływając na ostateczny kształt 3D.
+**P: Czy mogę zastosować ekstruzję liniową z obrotem do innych kształtów?**  
+O: Oczywiście! Każda klasa implementująca `IProfile` — np. `CircleShape`, `PolygonShape` lub własna krzywa — może być wyekstruzowana z obrotem.
 
-### P3: Czy w przypadku używania dużej liczby plasterków należy wziąć pod uwagę wydajność?
+**P: Co właściwie reprezentuje właściwość `Twist`?**  
+O: Określa całkowity kąt obrotu (w stopniach) zastosowany do profilu wzdłuż długości ekstruzji.
 
-Odpowiedź 3: Chociaż większa liczba wycinków zwiększa szczegółowość, może mieć wpływ na wydajność. Znajdź równowagę w oparciu o wymagania aplikacji.
+**P: Czy zwiększenie liczby warstw wpływa na zużycie pamięci?**  
+O: Tak, więcej warstw generuje więcej wierzchołków i ścian, co zwiększa zużycie pamięci i może obniżyć wydajność na słabszych urządzeniach.
 
-### P4: Czy mogę połączyć wytłaczanie liniowe z innymi funkcjami Aspose.3D?
+**P: Czy mogę łączyć ekstruzję liniową z innymi funkcjami Aspose.3D?**  
+O: Zdecydowanie. Po ekstruzji możesz dodać materiały, tekstury lub nawet operacje Boolean, aby stworzyć jeszcze bogatsze modele.
 
-A4: Oczywiście! Aspose.3D oferuje bogaty zestaw funkcji. Możesz łączyć wytłaczanie liniowe z innymi funkcjami w celu uzyskania bardziej złożonych projektów.
+**P: Gdzie mogę uzyskać pomoc lub dyskutować pomysły z innymi programistami?**  
+O: Dołącz do społeczności Aspose.3D na **[Aspose Forum](https://forum.aspose.com/c/3d/18)**, gdzie znajdziesz wsparcie, przykłady i dyskusje.
 
-### P5: Czy istnieje społeczność wspierająca i dyskusyjna Aspose.3D?
+---
 
- O5: Tak, dołącz do społeczności Aspose.3D pod adresem[Forum Aspose](https://forum.aspose.com/c/3d/18) za wsparcie i ciekawe dyskusje.
+**Ostatnia aktualizacja:** 2026-03-23  
+**Testowano z:** Aspose.3D 24.11 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

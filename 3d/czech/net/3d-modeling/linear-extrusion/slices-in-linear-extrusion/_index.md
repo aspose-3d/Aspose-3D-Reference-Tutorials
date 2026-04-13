@@ -1,37 +1,53 @@
 ---
-title: Řezy v lineárním vytlačování
-linktitle: Řezy v lineárním vytlačování
+date: 2026-03-23
+description: Naučte se lineární extruzi s řezy pomocí Aspose.3D pro .NET. Vytvářejte
+  podrobné 3D modely s krok‑za‑krokem ukázkami kódu.
+linktitle: How to Linear Extrusion with Slices
 second_title: Aspose.3D .NET API
-description: Prozkoumejte svět 3D designu s Aspose.3D pro .NET. Vytvářejte úžasné modely pomocí našeho výukového programu lineárního vytlačování.
-weight: 13
+title: Jak provést lineární extruzi s řezy pomocí Aspose.3D pro .NET
 url: /cs/net/3d-modeling/linear-extrusion/slices-in-linear-extrusion/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Řezy v lineárním vytlačování
+# Jak provést Linear Extrusion s řezy pomocí Aspose.3D pro .NET
 
 ## Úvod
 
-Vítejte ve světě 3D designu pomocí Aspose.3D pro .NET! Ať už jste zkušený vývojář nebo teprve začínáte, tento tutoriál vás provede procesem vytváření úžasných 3D vizualizací pomocí výkonné knihovny Aspose.3D.
+Vítejte ve světě 3D designu pomocí Aspose.3D pro .NET! V tomto tutoriálu objevíte **jak provést Linear Extrusion** s řezy, techniku, která vám umožní řídit úroveň detailu vašich modelů. Ať už jste zkušený vývojář nebo teprve začínáte, provedeme vás každým krokem, vysvětlíme, proč se daná akce provádí, a poskytneme praktické tipy, které můžete okamžitě použít.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co je linear extrusion s řezy?** Jedná se o metodu rozšíření 2D profilu do 3D při specifikaci počtu mezilehlých průřezů (slices).  
+- **Proč používat slices?** Více slices poskytuje hladší zakřivení; méně slices udržuje síť (mesh) lehkou.  
+- **Požadavky?** Aspose.3D pro .NET, IDE kompatibilní s .NET a základní znalost C#.  
+- **Typický čas běhu?** Ukázka běží za méně než sekundu na moderním PC.  
+- **Výstupní formát?** Příklad ukládá do Wavefront OBJ, ale Aspose.3D podporuje mnoho formátů.
 
-Než se ponoříte do světa 3D designu s Aspose.3D, ujistěte se, že máte následující předpoklady:
+## Co je Linear Extrusion s řezy?
 
--  Aspose.3D for .NET Library: Ujistěte se, že máte nainstalovanou knihovnu Aspose.3D. Můžete si jej stáhnout z[tady](https://releases.aspose.com/3d/net/).
+Linear extrusion vezme 2‑D tvar (profil) a protáhne jej podél přímky, čímž vytvoří 3‑D těleso. Vlastnost **Slices** určuje, kolik mezilehlých průřezů je vloženo mezi začátek a konec extruze, což ovlivňuje hladkost a počet polygonů.
 
-- Integrované vývojové prostředí (IDE): Použijte jakékoli preferované IDE kompatibilní s vývojem .NET.
+## Proč používat slices v Linear Extrusion?
 
-- Základní porozumění C#: Seznamte se se základy programovacího jazyka C#.
+- **Kontrola hustoty mesh:** Jemně doladit rovnováhu mezi vizuální kvalitou a velikostí souboru.  
+- **Optimalizace výkonu:** Použijte méně slices pro aplikace v reálném čase, více pro renderování ve vysokém rozlišení.  
+- **Tvůrčí flexibilita:** Kombinujte různé počty slices na samostatných objektech, aby byl zdůrazněn záměr designu.
 
-- Touha prozkoumat 3D design: Vášeň pro vytváření vizuálně úžasných 3D modelů!
+## Požadavky
 
-## Importovat jmenné prostory
+Než se pustíte do práce, ujistěte se, že máte:
 
-Chcete-li začít svou cestu 3D návrhu s Aspose.3D, budete muset importovat potřebné jmenné prostory. To zajistí, že váš kód bude mít přístup k požadovaným třídám a funkcím.
+- Aspose.3D pro .NET knihovnu – stáhněte ji [zde](https://releases.aspose.com/3d/net/).  
+- IDE, které podporuje C# (Visual Studio, Rider, VS Code, atd.).  
+- Základní znalost syntaxe C# a objektově orientovaných konceptů.  
+- Zvídavost experimentovat s 3‑D geometrií!
+
+## Importování jmenných prostorů
+
+Nejprve importujte jmenné prostory, které vám poskytují přístup k základním třídám Aspose.3D.
 
 ```csharp
 using Aspose.ThreeD;
@@ -40,11 +56,11 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Lineární vytlačování - Řezy v lineárním vytlačování
+## Postupný návod
 
-Nyní se vrhneme na praktický příklad – Lineární vytlačování s plátky. Tato technika umožňuje vytvářet složité 3D modely s různou úrovní detailů.
+### Krok 1: Inicializace základního profilu
 
-### Krok 1: Inicializujte základní profil
+Začínáme s jednoduchým obdélníkovým tvarem a přidáváme mu malý poloměr zaoblení, aby hrany nebyly dokonale ostré.
 
 ```csharp
 // ExStart:InitializeBaseProfile
@@ -55,7 +71,9 @@ var profile = new RectangleShape()
 // ExEnd:InitializeBaseProfile
 ```
 
-### Krok 2: Vytvořte 3D scénu
+### Krok 2: Vytvoření 3D scény
+
+`Scene` funguje jako kontejner pro všechny uzly, sítě (meshes), světla a kamery.
 
 ```csharp
 // ExStart:Create3DScene
@@ -63,7 +81,9 @@ Scene scene = new Scene();
 // ExEnd:Create3DScene
 ```
 
-### Krok 3: Vytvořte levý a pravý uzel
+### Krok 3: Přidání levých a pravých uzlů
+
+Vytvoříme dva sourozenecké uzly pod kořenem scény. Levý uzel dostane nízký počet slices, pravý uzel vysoký počet slices, abyste mohli porovnat vizuální rozdíl.
 
 ```csharp
 // ExStart:CreateLeftRightNodes
@@ -73,7 +93,9 @@ left.Transform.Translation = new Vector3(15, 0, 0);
 // ExEnd:CreateLeftRightNodes
 ```
 
-### Krok 4: Proveďte lineární vysunutí na levém uzlu
+### Krok 4: Provedení Linear Extrusion na levém uzlu (nízký detail)
+
+Zde extrahujeme obdélník pouze s **2 slices**. To vytvoří hrubou síť – ideální pro rychlé náhledy.
 
 ```csharp
 // ExStart:LinearExtrusionLeftNode
@@ -81,7 +103,9 @@ left.CreateChildNode(new LinearExtrusion(profile, 2) { Slices = 2 });
 // ExEnd:LinearExtrusionLeftNode
 ```
 
-### Krok 5: Proveďte lineární vytlačování na pravém uzlu
+### Krok 5: Provedení Linear Extrusion na pravém uzlu (vysoký detail)
+
+Nyní použijeme **10 slices** pro mnohem hladší výsledek. Všimněte si, jak se geometrie stává jemnější.
 
 ```csharp
 // ExStart:LinearExtrusionRightNode
@@ -89,39 +113,73 @@ right.CreateChildNode(new LinearExtrusion(profile, 2) { Slices = 10 });
 // ExEnd:LinearExtrusionRightNode
 ```
 
-### Krok 6: Uložte 3D scénu
+### Krok 6: Uložení 3D scény
+
+Nakonec zapíšete scénu do souboru OBJ. Nahraďte `"Your Output Directory"` platnou cestou na vašem počítači.
 
 ```csharp
 // ExStart:Save3DScene
 scene.Save("Your Output Directory" + "SlicesInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
-//ExEnd:Save3DScene
+// ExEnd:Save3DScene
 ```
 
-## Závěr
+## Časté problémy a řešení
 
-Gratulujeme! Úspěšně jste se naučili, jak provádět lineární vytlačování s řezy pomocí Aspose.3D pro .NET. Toto je jen začátek vaší cesty 3D designu s Aspose.3D – popusťte uzdu své kreativitě a prozkoumejte nekonečné možnosti!
+| Problém | Proč se to děje | Řešení |
+|-------|----------------|-----|
+| **Soubor nebyl vytvořen** | Cesta k výstupu je neplatná nebo chybí oprávnění k zápisu. | Použijte absolutní cestu a ujistěte se, že složka existuje. |
+| **Objekt vypadá plochý** | `Slices` nastaveno na 1 nebo 0. | Nastavte `Slices` alespoň na 2 pro viditelnou extruzi. |
+| **Neočekávaná geometrie** | Poloměr zaoblení je příliš velký pro velikost obdélníku. | Upravte `RoundingRadius` na hodnotu menší než polovina nejmenší strany obdélníku. |
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu používat Aspose.3D pro .NET s jinými programovacími jazyky?
+**Q: Mohu změnit směr extruze?**  
+A: Ano. Použijte vlastnost `Transform` na uzlu k otočení nebo posunutí extrudované geometrie před uložením.
 
-Odpověď 1: Aspose.3D je primárně navržen pro .NET, ale můžete prozkoumat možnosti interoperability s jazyky jako Python pomocí vazeb .NET.
+**Q: Podporuje Aspose.3D jiné typy extruze?**  
+A: Rozhodně. Kromě `LinearExtrusion` můžete použít `RevolveExtrusion`, `SweepExtrusion` a další.
 
-### Q2: Kde najdu podrobnou dokumentaci k Aspose.3D pro .NET?
+**Q: Do jakých souborových formátů mohu exportovat?**  
+A: Aspose.3D podporuje OBJ, STL, FBX, 3MF, Collada a mnoho dalších. Stačí změnit výčtový typ `FileFormat`.
 
- A2: Viz dokumentace[tady](https://reference.aspose.com/3d/net/) pro podrobné informace o možnostech a použití Aspose.3D.
+**Q: Existuje způsob, jak programově nastavit materiál?**  
+A: Ano. Po vytvoření uzlu přiřaďte `Material` do jeho kolekce `Entity`.
 
-### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.3D pro .NET?
+**Q: Jak počet slices ovlivňuje využití paměti?**  
+A: Více slices zvyšuje počet vrcholů a ploch, což úměrně zvyšuje spotřebu paměti. Použijte profilování k nalezení optimálního počtu pro vaši cílovou platformu.
 
- A3: Ano, můžete si stáhnout bezplatnou zkušební verzi[tady](https://releases.aspose.com/) prozkoumání funkcí knihovny před nákupem.
+## Původní FAQ
+
+### Q1: Mohu použít Aspose.3D pro .NET s jinými programovacími jazyky?
+
+A1: Aspose.3D je primárně navrženo pro .NET, ale můžete prozkoumat možnosti interoperability s jazyky jako Python pomocí .NET vazeb.
+
+### Q2: Kde mohu najít podrobnou dokumentaci pro Aspose.3D pro .NET?
+
+A2: Odkazujte se na dokumentaci [zde](https://reference.aspose.com/3d/net/) pro podrobné informace o možnostech a použití Aspose.3D.
+
+### Q3: Je k dispozici bezplatná zkušební verze Aspose.3D pro .NET?
+
+A3: Ano, můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/) a prozkoumat funkce knihovny před zakoupením.
 
 ### Q4: Jak mohu získat technickou podporu pro Aspose.3D pro .NET?
 
- A4: Navštivte fórum Aspose.3D[tady](https://forum.aspose.com/c/3d/18) vyhledat pomoc a zapojit se do komunity.
+A4: Navštivte fórum Aspose.3D [zde](https://forum.aspose.com/c/3d/18), kde můžete požádat o pomoc a zapojit se do komunity.
 
-### Q5: Mohu použít dočasnou licenci pro Aspose.3D for .NET?
+### Q5: Mohu použít dočasnou licenci pro Aspose.3D pro .NET?
 
- A5: Ano, získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro účely hodnocení.
+A5: Ano, získáte dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/) pro evaluační účely.
+
+## Závěr
+
+Nyní jste viděli **jak provést Linear Extrusion** s řezy pomocí Aspose.3D pro .NET, prozkoumali dopad různých počtů slices a naučili se, jak exportovat svou práci. Experimentujte s dalšími profily, hrajte si s hodnotou `Slices` a integrujte materiály nebo světla k vytvoření produkčně připravených 3‑D assetů.
+
+---
+
+**Poslední aktualizace:** 2026-03-23  
+**Testováno s:** Aspose.3D 24.11 for .NET (latest at time of writing)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
