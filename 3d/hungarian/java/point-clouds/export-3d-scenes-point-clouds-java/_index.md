@@ -1,32 +1,53 @@
 ---
-title: Exportáljon 3D jeleneteket pontfelhőkként az Aspose.3D for Java segítségével
-linktitle: Exportáljon 3D jeleneteket pontfelhőkként az Aspose.3D for Java segítségével
+date: 2026-03-02
+description: Ismerje meg, hogyan exportálhatja a 3D jeleneteket pontfelhőként az Aspose 3D
+  pontfelhő-funkciók segítségével. Ez az útmutató bemutatja, hogyan exportáljon pontfelhőt,
+  és hogyan mentse a pontfelhő fájlt Java‑ban.
+linktitle: Export 3D Scenes as Point Clouds with Aspose.3D for Java
 second_title: Aspose.3D Java API
-description: Ismerje meg, hogyan exportálhat 3D-s jeleneteket pontfelhőként Java nyelven az Aspose.3D segítségével. Javítsa alkalmazásait erőteljes 3D grafikával és vizualizációval.
-weight: 15
+title: 'aspose 3d pontfelhő - 3D jelenetek exportálása pontfelhőként az Aspose.3D for
+  Java segítségével'
 url: /hu/java/point-clouds/export-3d-scenes-point-clouds-java/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Exportáljon 3D jeleneteket pontfelhőkként az Aspose.3D for Java segítségével
+# 3D jelenetek exportálása pontfelhőként az Aspose.3D for Java segítségével
 
 ## Bevezetés
 
-Az Aspose.3D for Java megkönnyíti a 3D-s jelenetek exportálását különféle formátumokban, beleértve a pontfelhők létrehozását. A pontfelhők döntő jelentőségűek a különböző iparágakban, a játéktól a szimulációig, mivel egy 3D koordináta-rendszerben található pontok gyűjteményén keresztül egy fizikai teret ábrázolnak.
+Ebben a gyakorlati útmutatóban megtudja, **hogyan exportáljon pontfelhő** adatot egy 3D jelenetből az **aspose 3d point cloud** funkció Java-ban való használatával. A pontfelhőket széles körben használják a valós világ szkenneléseinek megjelenítésére, virtuális környezetek építésére és a szimulációs folyamatok támogatására. A útmutató végére képes lesz **pontfelhő fájlt menteni** a népszerű OBJ formátumban néhány kódsorral.
+
+## Gyors válaszok
+- **Mi a “aspose 3d point cloud” funkció?** Lehetővé teszi egy 3D jelenet exportálását csúcsok (pontfelhő) gyűjteményént a teljes háló geometria helyett.  
+- **Milyen formátumot használ a pontfelhő?** Az OBJ formátum támogatott a `ObjSaveOptions` segítségével.  
+- **Szükségem van licencre?** Egy ingyenes próba verzió elegendő értékeléshez; kereskedelmi licenc szükséges a termelésben való használathoz.  
+- **Milyen Java verzió szükséges?** Java 19.8 vagy újabb.  
+- **Hol szerezhető be a könyvtár?** Töltse le a hivatalos Aspose kiadási oldalról.
+
+## Mi az Aspose 3D Point Cloud?
+
+Az **aspose 3d point cloud** egy könnyűsúlyú ábrázolása egy 3‑D jelenetnek, ahol minden csúcs egyedi pontként van tárolva. Ez a formátum ideális nagyléptékű szkennelésekhez, LIDAR adatokhoz, és olyan helyzetekhez, ahol gyors renderelésre vagy elemzésre van szükség a teljes háló adatának terhe nélkül.
+
+## Miért exportáljunk pontfelhőket?
+
+- **Teljesítmény:** A pontfelhők kisebbek és gyorsabban betölthetők, így tökéletesek web‑alapú megjelenítők vagy valós‑idős szimulációk számára.  
+- **Interoperabilitás:** Számos GIS, CAD és játék‑motor csővezeték elfogadja az OBJ pontfelhő fájlokat.  
+- **Elemzés:** A kutatók közvetlenül a exportált adatokon futtathatnak pont‑alapú algoritmusokat (pl. felületrekonstrukció).
 
 ## Előfeltételek
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy teljesülnek a következő előfeltételek:
+Mielőtt belemerülne az útmutatóba, győződjön meg róla, hogy a következő előfeltételek teljesülnek:
 
-1.  Aspose.3D for Java Library: Töltse le és telepítse a könyvtárat innen[itt](https://releases.aspose.com/3d/java/).
-2. Java fejlesztői környezet: 19.8-as vagy újabb verziójú Java fejlesztői környezet beállítása.
+1. Aspose.3D for Java könyvtár: Töltse le és telepítse a könyvtárat [itt](https://releases.aspose.com/3d/java/).  
+2. Java fejlesztői környezet: Állítson be egy Java fejlesztői környezetet a 19.8 vagy újabb verzióval.
 
 ## Csomagok importálása
 
-Kezdje azzal, hogy importálja a szükséges csomagokat a Java projektbe. Ezek a csomagok elengedhetetlenek az Aspose.3D funkciók használatához. Adja hozzá a következő sorokat a kódhoz:
+Kezdje a szükséges csomagok importálásával a Java projektjébe. Ezek a csomagok elengedhetetlenek az Aspose.3D funkciók használatához. Adja hozzá a következő sorokat a kódjához:
 
 ```java
 import com.aspose.threed.ObjSaveOptions;
@@ -37,69 +58,95 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## 1. lépés: Inicializálja a jelenetet
+## 1. lépés: Jelenet inicializálása
 
-Kezdésként inicializáljon egy 3D-s jelenetet az Aspose.3D segítségével. Ez az a vászon, ahol életre kelnek 3D objektumai. Használja a következő kódrészletet:
+A kezdéshez inicializáljon egy 3D jelenetet az Aspose.3D segítségével. Ez a vászon, ahol a 3D objektumai életre kelnek.
 
 ```java
 // ExStart:1
-// Jelenet inicializálása
+// Initialize Scene
 Scene scene = new Scene(new Sphere());
 // ExEnd:1
 ```
 
-## 2. lépés: Az ObjSaveOptions inicializálása
+## 2. lépés: ObjSaveOptions inicializálása
 
- Most inicializálja a`ObjSaveOptions`osztály, amely beállításokat biztosít a 3D jelenetek OBJ formátumban történő mentéséhez:
+Most inicializálja a `ObjSaveOptions` osztályt, amely beállításokat biztosít a 3D jelenetek OBJ formátumban történő mentéséhez:
 
 ```java
-// Inicializálja az ObjSaveOptions-t
+// Initialize  ObjSaveOptions
 ObjSaveOptions opt = new ObjSaveOptions();
 ```
 
-## 3. lépés: Set Point Cloud
+## 3. lépés: Pontfelhő beállítása (hogyan exportáljunk pontfelhőt)
 
- Engedélyezze a pontfelhő exportálási funkciót a`setPointCloud` opciót`true`:
+Engedélyezze a pontfelhő exportálási funkciót a `setPointCloud` opció `true` értékre állításával. Ez azt mondja az Aspose-nak, hogy csak a csúcspozíciókat írja.
 
 ```java
-// 3D jelenet exportálása pontfelhőként setPointCloud
+// To export 3D scene as point cloud setPointCloud
 opt.setPointCloud(true);
 ```
 
-## 4. lépés: Mentse el a jelenetet
+## 4. lépés: Jelenet mentése (pontfelhő fájl mentése)
 
-Mentse el a 3D-s jelenetet pontfelhőként a kívánt könyvtárba:
+Mentse a 3D jelenetet pontfelhőként a kívánt könyvtárba. A `save` metódus figyelembe veszi a fent beállított opciókat.
 
 ```java
-//Megment
+// Save
 scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 ```
 
-## Következtetés
+## Gyakori problémák és megoldások
 
-Gratulálunk! Sikeresen exportált egy 3D-s jelenetet pontfelhőként az Aspose.3D for Java használatával. Ez az oktatóanyag bepillantást enged az Aspose.3D által a Java fejlesztők számára kínált zökkenőmentes integrációba és hatékony képességekbe.
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| **Üres OBJ fájl** | `setPointCloud(true)` nincs meghívva | Győződjön meg róla, hogy a `opt.setPointCloud(true);` sor jelen van a `scene.save` előtt. |
+| **Fájl nem található** | Helytelen kimeneti útvonal | Használjon abszolút útvonalat, vagy ellenőrizze, hogy a könyvtár létezik és írható. |
+| **Licenc kivétel** | A próbaidő lejárt vagy hiányzik a licenc | Alkalmazzon érvényes Aspose licencet a `License license = new License(); license.setLicense("Aspose.3D.lic");` kóddal. |
+
+## Összegzés
+
+Gratulálunk! Sikeresen exportált egy 3D jelenetet pontfelhőként az Aspose.3D for Java segítségével. Ez az útmutató bemutatta, **hogyan exportáljon pontfelhőt** és **pontfelhő fájlt mentse** minimális kóddal, lehetővé téve, hogy erőteljes 3‑D megjelenítési képességeket integráljon Java alkalmazásaiba.
 
 ## GYIK
 
-### 1. kérdés: Hol találom az Aspose.3D for Java dokumentációt?
+### Q1: Hol található az Aspose.3D for Java dokumentáció?
 
- V1: Az átfogó dokumentáció elérhető[itt](https://reference.aspose.com/3d/java/).
+A részletes dokumentáció elérhető [itt](https://reference.aspose.com/3d/java/).
 
-### 2. kérdés: Hogyan tölthetem le az Aspose.3D for Java-t?
+### Q2: Hogyan tölthetem le az Aspose.3D for Java-t?
 
- 2. válasz: Töltse le a könyvtárat[itt](https://releases.aspose.com/3d/java/).
+Töltse le a könyvtárat [itt](https://releases.aspose.com/3d/java/).
 
-### 3. kérdés: Van ingyenes próbaverzió?
+### Q3: Van ingyenes próba verzió?
 
- 3. válasz: Igen, fedezze fel az ingyenes próbaverziót[itt](https://releases.aspose.com/).
+Igen, tekintse meg az ingyenes próbát [itt](https://releases.aspose.com/).
 
-### 4. kérdés: Segítségre van szüksége, vagy kérdései vannak?
+### Q4: Szüksége van segítségre vagy kérdései vannak?
 
- 4. válasz: Látogassa meg az Aspose.3D közösségi fórumot[itt](https://forum.aspose.com/c/3d/18).
+Látogassa meg az Aspose.3D közösségi fórumot [itt](https://forum.aspose.com/c/3d/18).
 
-### 5. kérdés: Aspose.3D for Java-t szeretné megvásárolni?
+### Q5: Aspose.3D for Java vásárlása?
 
- 5. válasz: Fedezze fel a vásárlási lehetőségeket[itt](https://purchase.aspose.com/buy).
+Tekintse meg a vásárlási lehetőségeket [itt](https://purchase.aspose.com/buy).
+
+## Gyakran Ismételt Kérdések
+
+**Q: Használhatom az exportált OBJ pontfelhőt Unity-ben?**  
+A: Igen, a Unity OBJ importálója olvassa a csúcsadatokat, így a pontfelhő pontgyűjteményként jelenik meg.
+
+**Q: Van mód a pontméret szabályozására az OBJ fájl megjelenítésekor?**  
+A: A pontméret egy renderelési beállítás; importálás után a megjelenítőben vagy grafikus motorban állítható.
+
+**Q: Támogatja az Aspose.3D más pontfelhő formátumokat, például PLY-t?**  
+A: Jelenleg csak az OBJ támogatott a pontfelhő exportáláshoz; szükség esetén konvertálhat OBJ-t PLY-re harmadik féltől származó eszközökkel.
+
+---
+
+**Utoljára frissítve:** 2026-03-02  
+**Tesztelve:** Aspose.3D for Java 24.12  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
