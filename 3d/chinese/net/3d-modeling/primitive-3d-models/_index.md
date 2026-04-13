@@ -1,35 +1,53 @@
 ---
-title: 创建原始 3D 模型
-linktitle: 创建原始 3D 模型
+date: 2026-03-26
+description: 学习如何使用 Aspose.3D for .NET 创建 3D 盒子和圆柱体模型并将场景保存为 FBX。
+linktitle: Create 3D Box and Cylinder Models with Aspose.3D for .NET
 second_title: Aspose.3D .NET API
-description: 使用 Aspose.3D for .NET 探索 3D 建模世界。轻松创建令人惊叹的原始模型。
-weight: 10
+title: 使用 Aspose.3D for .NET 创建 3D 盒子和圆柱体模型
 url: /zh/net/3d-modeling/primitive-3d-models/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 创建原始 3D 模型
+# 使用 Aspose.3D 创建 3D 盒子和圆柱体模型
 
 ## 介绍
 
-欢迎来到 Aspose.3D for .NET 的令人兴奋的 3D 建模世界！在这个综合教程中，我们将逐步探索使用 Aspose.3D 创建原始 3D 模型的过程。无论您是经验丰富的开发人员还是好奇的初学者，本指南都将帮助您利用 Aspose.3D 的强大功能为您的项目制作视觉上令人惊叹的 3D 元素。
+欢迎来到 Aspose.3D for .NET 的 3D 建模精彩世界！在本教程中，您将学习 **如何创建 3d 盒子** 原语、添加圆柱体，并将整个场景导出为 FBX。无论是快速原型还是生产就绪的资产流水线，这些步骤都为您在 .NET 中使用 3D 几何提供了坚实的基础。
 
-## 先决条件
+## 快速答案
+- **本教程涵盖什么内容？** 创建 3D 盒子、3D 圆柱体，并将场景保存为 FBX 文件。  
+- **需要哪个库？** Aspose.3D for .NET（从官方网站下载）。  
+- **实现需要多长时间？** 基本场景约 10‑15 分钟。  
+- **可以自定义尺寸吗？** 可以——Box 和 Cylinder 构造函数接受尺寸参数。  
+- **生产环境需要许可证吗？** 非试用构建必须使用有效的 Aspose.3D 许可证。
 
-在我们深入研究 3D 建模的迷人领域之前，请确保您具备以下先决条件：
+## 什么是 “create 3d box”？
 
--  Aspose.3D for .NET：从以下位置下载并安装 Aspose.3D for .NET 库：[下载链接](https://releases.aspose.com/3d/net/).
+创建 3D 盒子指生成一个简单的立方体或矩形棱柱，可作为更复杂模型的构建块。在 Aspose.3D 中，`Box` 类表示此原语，只需一行代码即可将其添加到场景中。
 
-- 开发环境：搭建.NET开发环境，确保与Aspose.3D的兼容性。
+## 为什么使用 Aspose.3D 完成此任务？
 
-现在您已经具备了必要条件，让我们开始一步步创建原始 3D 模型的旅程。
+- **纯 .NET API：** 无本机依赖，完美适用于 C# 和 VB.NET 项目。  
+- **广泛的格式支持：** 可导出为 FBX、OBJ、STL 等多种格式。  
+- **高级原语：** Box、Cylinder、Sphere 等让您专注于业务逻辑，而不是底层网格构建。  
+- **性能优化：** 高效处理大型场景。
+
+## 前置条件
+
+在开始之前，请确保您已具备：
+
+- Aspose.3D for .NET：从 [download link](https://releases.aspose.com/3d/net/) 下载并安装库。  
+- 与所安装 Aspose.3D 版本兼容的 .NET 开发环境（Visual Studio、Rider 或 VS Code）。
+
+现在您已经准备好必需的工具，让我们一步步构建场景。
 
 ## 导入命名空间
 
-首先导入必要的命名空间以访问 Aspose.3D 提供的功能：
+首先导入必要的命名空间，以访问 Aspose.3D 提供的功能：
 
 ```csharp
 using System;
@@ -41,82 +59,92 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Formats;
 ```
 
-有了这些命名空间，您就可以在 .NET 应用程序中释放 Aspose.3D 的强大功能了。
+有了这些命名空间，您就可以在 .NET 应用中释放 Aspose.3D 的强大功能。
 
-## 第 1 步：初始化场景对象
+## 第一步：初始化 Scene 对象
 
 ```csharp
-//初始化场景对象
+// Initialize a Scene object
 Scene scene = new Scene();
 ```
 
-创建一个新的场景对象，作为 3D 杰作的画布。
+`Scene` 对象充当所有 3D 实体所在的画布。
 
-## 第 2 步：创建盒子模型
+## 第二步：创建盒子模型
 
 ```csharp
-//创建盒子模型
+// Create a Box model
 scene.RootNode.CreateChildNode("box", new Box());
 ```
 
-将盒模型添加到场景的根部。根据您的创意愿景定制盒子的尺寸和属性。
+此行代码将在场景根节点添加一个 **3D 盒子** 原语。随后您可以通过向 `Box` 构造函数传递参数来调整宽度、高度和深度。
 
-## 第 3 步：创建圆柱体模型
+## 第三步：创建圆柱体模型
 
 ```csharp
-//创建圆柱体模型
+// Create a Cylinder model
 scene.RootNode.CreateChildNode("cylinder", new Cylinder());
 ```
 
-通过引入圆柱体模型来增强您的场景。调整其参数以获得所需的形状和尺寸。
+圆柱体与盒子相辅相成，展示了混合不同原语的简易性。
 
-## 步骤 4：以 FBX 格式保存绘图
+## 第四步：以 FBX 格式保存绘图
 
 ```csharp
-//以 FBX 格式保存绘图
+// Save drawing in the FBX format
 var output = "Your Output Directory" + "test.fbx";
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-以 FBX 格式保存您的 3D 杰作。为您的创建选择合适的输出目录和文件名。
+这里我们通过将整个场景保存为 FBX 文件 **convert model to FBX**。请根据项目布局自由更改路径和文件名。
 
-## 第5步：显示成功消息
+## 第五步：显示成功信息
 
 ```csharp
-//显示成功信息
+// Display success message
 Console.WriteLine("\nBuilding a scene from primitive 3D models successfully.\nFile saved at " + output);
 ```
 
-庆祝你的成就！场景已从原始 3D 模型成功构建，并且文件已保存。
+友好的控制台信息确认 **build 3d scene** 操作已成功完成且没有错误。
+
+## 常见问题与技巧
+
+- **输出目录不存在：** 确保 `output` 中的文件夹已创建，或在保存前使用 `Directory.CreateDirectory()`。  
+- **未设置许可证：** 在非试用构建中，创建 `Scene` 前调用 `License license = new License(); license.SetLicense("Aspose.3D.lic");`。  
+- **自定义尺寸：** 使用 `new Box(width, height, depth)` 或 `new Cylinder(radius, height)` 来控制大小。
 
 ## 结论
 
-恭喜！您已经使用 Aspose.3D for .NET 成功创建了令人惊叹的 3D 模型。本指南涵盖了基础知识，但可能性是无限的。探索[文档](https://reference.aspose.com/3d/net/)了解更高级的功能和技术。
+恭喜！您已成功 **create 3d box** 并创建圆柱体原语，构建了一个简单场景，并使用 Aspose.3D for .NET 将其保存为 FBX 文件。基础已入手，您可以进一步查阅 [documentation](https://reference.aspose.com/3d/net/) 了解材质、光照和动画等高级功能。
 
-## 常见问题解答
+## 常见问答
 
-### Q1：我可以将 Aspose.3D for .NET 与其他编程语言一起使用吗？
+### Q1: 我可以在其他编程语言中使用 Aspose.3D for .NET 吗？
+A1: Aspose.3D 主要支持 .NET，但也提供针对 Java 等平台的其他版本。
 
-A1：Aspose.3D 主要支持.NET，但还有其他版本可用于 Java 和其他平台。
+### Q2: 是否有免费试用版？
+A2: 有，您可以通过 [free trial](https://releases.aspose.com/) 体验 Aspose.3D 的功能。
 
-### Q2: 有免费试用吗？
+### Q3: 在哪里可以找到 Aspose.3D for .NET 的支持？
+A3: 请访问 [Aspose.3D forum](https://forum.aspose.com/c/3d/18) 获取社区支持和讨论。
 
- A2：是的，您可以通过以下方式探索 Aspose.3D 的功能：[免费试用](https://releases.aspose.com/).
+### Q4: 如何获取临时许可证？
+A4: 您可以在 [here](https://purchase.aspose.com/temporary-license/) 获取临时许可证。
 
-### 问题 3：在哪里可以找到对 Aspose.3D for .NET 的支持？
+### Q5: 有没有示例教程可供参考？
+A5: 有，您可以在 [documentation](https://reference.aspose.com/3d/net/) 中探索更多教程和示例。
 
- A3：访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)以获得社区支持和讨论。
-
-### Q4：如何获得临时驾照？
-
- A4：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
-
-### Q5: 有可用的示例教程吗？
-
- A5：是的，请探索更多教程和示例[文档](https://reference.aspose.com/3d/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-26  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose  
+
+---

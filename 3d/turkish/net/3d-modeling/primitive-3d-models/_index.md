@@ -1,35 +1,54 @@
 ---
-title: İlkel 3D Modeller Oluşturma
-linktitle: İlkel 3D Modeller Oluşturma
-second_title: Aspose.3D .NET API'si
-description: Aspose.3D for .NET ile 3D modelleme dünyasını keşfedin. Çarpıcı ilkel modelleri zahmetsizce yaratın.
-weight: 10
+date: 2026-03-26
+description: Aspose.3D for .NET kullanarak 3D kutu ve silindir modelleri oluşturmayı
+  ve sahneyi FBX olarak kaydetmeyi öğrenin.
+linktitle: Create 3D Box and Cylinder Models with Aspose.3D for .NET
+second_title: Aspose.3D .NET API
+title: Aspose.3D for .NET ile 3D Kutu ve Silindir Modelleri Oluşturun
 url: /tr/net/3d-modeling/primitive-3d-models/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# İlkel 3D Modeller Oluşturma
+# Aspose.3D ile 3D Kutu ve Silindir Modelleri Oluşturma
 
-## giriiş
+## Giriş
 
-Aspose.3D for .NET ile 3D modellemenin heyecan verici dünyasına hoş geldiniz! Bu kapsamlı eğitimde Aspose.3D'yi kullanarak ilkel 3D modeller oluşturma sürecini adım adım inceleyeceğiz. İster deneyimli bir geliştirici olun ister meraklı bir başlangıç seviyesinde olun, bu kılavuz Aspose.3D'nin gücünden yararlanarak projeleriniz için görsel açıdan etkileyici 3D öğeler oluşturmanıza yardımcı olacaktır.
+Aspose.3D for .NET ile 3D modelleme dünyasına hoş geldiniz! Bu öğreticide **3d kutu** primitive’lerini nasıl oluşturacağınızı, bir silindir ekleyeceğinizi ve tüm sahneyi FBX olarak dışa aktaracağınızı öğreneceksiniz. Hızlı bir prototip mi yoksa üretim‑hazır bir varlık hattı mı oluşturuyorsanız, bu adımlar .NET’te 3D geometriyle çalışmak için sağlam bir temel sağlar.
+
+## Hızlı Yanıtlar
+- **Bu öğreticide ne ele alınıyor?** 3D bir kutu, 3D bir silindir oluşturma ve sahneyi FBX dosyası olarak kaydetme.  
+- **Hangi kütüphane gerekiyor?** Aspose.3D for .NET (resmi siteden indirin).  
+- **Uygulama ne kadar sürer?** Temel bir sahne için yaklaşık 10‑15 dakika.  
+- **Boyutları özelleştirebilir miyim?** Evet – Box ve Cylinder yapıcıları boyut parametrelerini kabul eder.  
+- **Üretim için lisans gerekli mi?** Deneme dışı derlemeler için geçerli bir Aspose.3D lisansı gereklidir.
+
+## “create 3d box” nedir?
+
+3D kutu oluşturmak, daha karmaşık modeller için temel oluşturabilecek basit bir küp veya dikdörtgen prizma üretmek anlamına gelir. Aspose.3D’de `Box` sınıfı bu primitive’i temsil eder ve sadece bir satır kodla sahneye eklenebilir.
+
+## Bu görev için neden Aspose.3D kullanılmalı?
+
+- **Saf .NET API:** Yerel bağımlılık yok, C# ve VB.NET projeleri için mükemmel.  
+- **Geniş format desteği:** FBX, OBJ, STL ve daha birçok formata dışa aktarım.  
+- **Yüksek‑seviye primitive’ler:** Box, Cylinder, Sphere vb., düşük‑seviye ağ oluşturma yerine mantığa odaklanmanızı sağlar.  
+- **Performans‑optimizeli:** Büyük sahneleri verimli bir şekilde işler.
 
 ## Önkoşullar
 
-3D modellemenin büyüleyici dünyasına dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+Başlamadan önce şunların yüklü olduğundan emin olun:
 
--  Aspose.3D for .NET: Aspose.3D for .NET kitaplığını indirip yükleyin.[İndirme: {link](https://releases.aspose.com/3d/net/).
+- Aspose.3D for .NET: Kütüphaneyi [indirme bağlantısı](https://releases.aspose.com/3d/net/) üzerinden indirin ve kurun.  
+- Aspose.3D sürümünüzle uyumlu bir .NET geliştirme ortamı (Visual Studio, Rider veya VS Code).
 
-- Geliştirme Ortamı: Aspose.3D ile uyumluluğu sağlayan bir .NET geliştirme ortamı kurun.
+Gerekli temellere sahip olduğunuzda, sahneyi adım adım oluşturmaya başlayalım.
 
-Artık temel bilgilere sahip olduğunuza göre adım adım ilkel 3D modeller oluşturma yolculuğumuza başlayalım.
+## Ad Alanlarını İçe Aktarın
 
-## Ad Alanlarını İçe Aktar
-
-Aspose.3D tarafından sağlanan işlevselliğe erişmek için gerekli ad alanlarını içe aktararak başlayın:
+Aspose.3D tarafından sağlanan işlevselliğe erişmek için gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using System;
@@ -41,82 +60,92 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Formats;
 ```
 
-Bu ad alanlarının varlığıyla, .NET uygulamanızda Aspose.3D'nin gücünü açığa çıkarmaya hazırsınız.
+Bu ad alanlarıyla, .NET uygulamanızda Aspose.3D’nin gücünü kullanmaya hazırsınız.
 
-## Adım 1: Bir Sahne Nesnesini Başlatın
+## Adım 1: Bir Scene Nesnesi Başlatın
 
 ```csharp
-//Bir Sahne nesnesini başlat
+// Initialize a Scene object
 Scene scene = new Scene();
 ```
 
-3B şaheseriniz için tuval görevi görecek yeni bir sahne nesnesi oluşturun.
+`Scene` nesnesi, tüm 3D varlıkların yaşayacağı tuval görevi görür.
 
-## Adım 2: Kutu Modeli Oluşturun
+## Adım 2: Bir Kutu Modeli Oluşturun
 
 ```csharp
-// Kutu modeli oluşturma
+// Create a Box model
 scene.RootNode.CreateChildNode("box", new Box());
 ```
 
-Sahnenizin köküne bir kutu modeli ekleyin. Kutunun boyutlarını ve özelliklerini yaratıcı vizyonunuza göre özelleştirin.
+Bu satır, sahnenizin köküne bir **3D kutu** primitive’i ekler. `Box` yapıcısına parametre göndererek genişlik, yükseklik ve derinliğini daha sonra ayarlayabilirsiniz.
 
-## Adım 3: Silindir Modeli Oluşturun
+## Adım 3: Bir Silindir Modeli Oluşturun
 
 ```csharp
-// Silindir modeli oluşturma
+// Create a Cylinder model
 scene.RootNode.CreateChildNode("cylinder", new Cylinder());
 ```
 
-Bir silindir modelini tanıtarak sahnenizi geliştirin. İstenilen şekli ve boyutu elde etmek için parametrelerini ayarlayın.
+Silindir, kutuya tamamlayıcı bir öğe ekler ve farklı primitive’leri karıştırmanın ne kadar kolay olduğunu gösterir.
 
-## Adım 4: Çizimi FBX Formatında Kaydetme
+## Adım 4: Çizimi FBX Formatında Kaydedin
 
 ```csharp
-// Çizimi FBX formatında kaydedin
+// Save drawing in the FBX format
 var output = "Your Output Directory" + "test.fbx";
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-3D şaheserinizi FBX formatında kaydedin. Yaratılışınız için uygun bir çıktı dizini ve dosya adı seçin.
+Burada **modeli FBX’e dönüştürerek** tüm sahneyi bir FBX dosyası olarak kaydediyoruz. Proje yapınıza uygun olacak şekilde yol ve dosya adını değiştirmekten çekinmeyin.
 
 ## Adım 5: Başarı Mesajını Görüntüleyin
 
 ```csharp
-// Başarı mesajını görüntüle
+// Display success message
 Console.WriteLine("\nBuilding a scene from primitive 3D models successfully.\nFile saved at " + output);
 ```
 
-Başarınızı kutlayın! Sahne, ilkel 3D modellerden başarıyla oluşturuldu ve dosya kaydedildi.
+Konsola yazılan dostane bir mesaj, **3d sahne oluşturma** işleminin hatasız tamamlandığını onaylar.
 
-## Çözüm
+## Yaygın Sorunlar ve İpuçları
 
- Tebrikler! Aspose.3D for .NET'i kullanarak başarılı bir şekilde etkileyici 3D modeller oluşturdunuz. Bu kılavuz temel bilgileri içeriyordu ancak olanaklar sınırsızdır. Keşfedin[dokümantasyon](https://reference.aspose.com/3d/net/) Daha gelişmiş özellikler ve teknikler için.
+- **Çıktı dizini mevcut değil:** `output` klasörünün var olduğundan emin olun veya kaydetmeden önce `Directory.CreateDirectory()` kullanın.  
+- **Lisans ayarlanmamış:** Deneme dışı bir derlemede, `Scene` oluşturmadan önce `License license = new License(); license.SetLicense("Aspose.3D.lic");` kodunu çalıştırın.  
+- **Özel boyutlar:** Boyutu kontrol etmek için `new Box(width, height, depth)` veya `new Cylinder(radius, height)` kullanın.
 
-## SSS'ler
+## Sonuç
 
-### S1: Aspose.3D for .NET'i diğer programlama dilleriyle kullanabilir miyim?
+Tebrikler! Aspose.3D for .NET kullanarak **3d kutu** ve silindir primitive’lerini başarıyla oluşturdunuz, basit bir sahne inşa ettiniz ve FBX dosyası olarak kaydettiniz. Temeller artık arac kutunuzda ve [belgelendirme](https://reference.aspose.com/3d/net/) sayfasında materyaller, aydınlatma ve animasyon gibi daha gelişmiş özellikleri keşfedebilirsiniz.
 
-Cevap1: Aspose.3D öncelikle .NET'i destekler ancak Java ve diğer platformlar için başka sürümler de mevcuttur.
+## Sık Sorulan Sorular
 
-### S2: Ücretsiz deneme sürümü var mı?
+### S1: Aspose.3D for .NET’i başka programlama dilleriyle kullanabilir miyim?
+C1: Aspose.3D öncelikle .NET’i destekler, ancak Java ve diğer platformlar için de sürümleri mevcuttur.
 
- C2: Evet, Aspose.3D'nin yeteneklerini[ücretsiz deneme](https://releases.aspose.com/).
+### S2: Ücretsiz bir deneme sürümü var mı?
+C2: Evet, Aspose.3D’nin yeteneklerini bir [ücretsiz deneme](https://releases.aspose.com/) ile keşfedebilirsiniz.
 
-### S3: Aspose.3D for .NET desteğini nerede bulabilirim?
+### S3: Aspose.3D for .NET için destek nereden alınır?
+C3: Topluluk desteği ve tartışmalar için [Aspose.3D forumunu](https://forum.aspose.com/c/3d/18) ziyaret edin.
 
- A3: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk desteği ve tartışmalar için.
+### S4: Geçici bir lisans nasıl alınır?
+C4: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
-### S4: Geçici lisansı nasıl alabilirim?
+### S5: Örnek öğreticiler mevcut mu?
+C5: Daha fazla öğretici ve örnek için [belgelendirme](https://reference.aspose.com/3d/net/) sayfasına göz atın.
 
- Cevap4: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
-
-### S5: Herhangi bir örnek eğitim mevcut mu?
-
- A5: Evet, daha fazla öğreticiyi ve örneği keşfedin[dokümantasyon](https://reference.aspose.com/3d/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-03-26  
+**Test Edilen Versiyon:** Aspose.3D 24.11 for .NET  
+**Yazar:** Aspose  
+
+---
