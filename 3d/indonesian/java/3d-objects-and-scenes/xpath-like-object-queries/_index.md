@@ -1,10 +1,10 @@
 ---
-date: 2025-11-29
-description: Pelajari cara **membuat scene 3d java** dan gunakan kueri mirip XPath
-  untuk **memilih objek berdasarkan tipe** di Aspose.3D untuk Java.
-linktitle: Create 3D Scene Java – Apply XPath‑Like Queries with Aspose.3D
+date: 2026-03-31
+description: Pelajari cara **memilih objek berdasarkan nama** menggunakan kueri mirip
+  XPath di Aspose.3D untuk Java dan membangun adegan 3D secara programatis.
+linktitle: Select Objects by Name in Java 3D Scene – XPath‑Like Queries with Aspose.3D
 second_title: Aspose.3D Java API
-title: Buat Adegan 3D Java – Terapkan Kueri Mirip XPath dengan Aspose.3D
+title: Pilih Objek Berdasarkan Nama di Adegan Java 3D – Kueri Mirip XPath dengan Aspose.3D
 url: /id/java/3d-objects-and-scenes/xpath-like-object-queries/
 weight: 11
 ---
@@ -13,28 +13,38 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat 3D Scene Java – Terapkan Kuery Mirip XPath dengan Aspose.3D
+# Pilih Objek berdasarkan Nama dalam Adegan Java 3D – Kuery Mirip XPath dengan Aspose.3D
 
-## Introduction  
+## Pendahuluan  
 
-Jika Anda perlu **create 3d scene java** aplikasi yang memanipulasi hierarki objek yang kompleks, Aspose.3D for Java memberi Anda cara bersih ala XPath untuk menemukan tepat apa yang Anda butuhkan. Dalam tutorial ini kami akan membangun sebuah scene sederhana, menambahkan hierarki node, dan kemudian menggunakan kueri mirip XPath untuk **select objects by type** (misalnya, kamera atau lampu) tidak peduli di mana mereka berada dalam pohon. Pada akhir Anda akan nyaman melakukan kueri, penyaringan, dan mengambil entitas 3‑D dengan satu ekspresi saja.
+Jika Anda perlu **membuat aplikasi 3d scene java** yang memanipulasi hierarki objek yang kompleks, Aspose.3D untuk Java memberikan cara yang bersih dan bergaya XPath untuk menemukan tepat apa yang Anda butuhkan. Dalam tutorial ini kami akan membahas cara membangun adegan sederhana, menambahkan hierarki node, dan kemudian menggunakan kueri mirip XPath untuk **memilih objek berdasarkan nama** (misalnya, kamera atau lampu) di mana pun mereka berada dalam pohon. Pada akhir tutorial Anda akan merasa nyaman melakukan kueri, penyaringan, dan mengambil entitas 3‑D dengan hanya satu ekspresi.
 
-## Quick Answers
-- **Apa yang dapat saya query?** Setiap node atau entitas (Camera, Light, Mesh, dll.) dalam sebuah Scene.  
-- **Bagaimana cara saya select objects by type?** Gunakan ekspresi mirip XPath seperti `//*[(@Type='Camera')]`.  
+## Jawaban Cepat
+- **Apa yang dapat saya kueri?** Node atau entitas apa saja (Camera, Light, Mesh, dll.) dalam sebuah Scene.  
+- **Bagaimana cara memilih objek berdasarkan tipe?** Gunakan ekspresi mirip XPath seperti `//*[(@Type='Camera')]`.  
 - **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi diperlukan untuk produksi.  
 - **Versi Java mana yang didukung?** Java 8 atau lebih baru.  
 - **Di mana saya dapat mengunduh Aspose.3D?** Dari halaman unduhan resmi yang ditautkan dalam prasyarat.
 
-## Prerequisites  
+## Mengapa ini penting  
 
-Sebelum kita mulai, pastikan Anda memiliki:
+Saat Anda bekerja dengan konten 3‑D, menelusuri grafik adegan secara manual dengan cepat menjadi rawan kesalahan dan sulit dipelihara. Kuery mirip XPath memberi Anda cara deklaratif dan mudah dibaca untuk menemukan tepat objek yang Anda butuhkan, yang mempercepat pengembangan dan mengurangi bug—terutama dalam adegan besar dengan puluhan atau ratusan node.
+
+## Apa itu kueri mirip XPath dalam Aspose.3D?  
+
+Aspose.3D mengimplementasikan subset dari sintaks XPath yang bekerja pada grafik adegan. Alih-alih node XML, ekspresi menargetkan instance **A3DObject** (node, kamera, lampu, mesh, dll.). Ini memungkinkan Anda menulis filter ekspresif seperti “semua kamera” atau “objek yang namanya ‘light’” tanpa harus menelusuri hierarki secara manual.
+
+## Cara memilih objek berdasarkan nama menggunakan Kuery Mirip XPath  
+
+Memilih objek berdasarkan nama sesederhana menulis ekspresi yang mencocokkan atribut `@Name`. Di bawah ini kami menunjukkan beberapa pola umum, termasuk memilih berdasarkan tipe dan nama secara bersamaan.
+
+## Prasyarat  
 
 - Java Development Kit (JDK) terpasang di mesin Anda.  
-- Perpustakaan Aspose.3D for Java telah diunduh dan disiapkan. Anda dapat menemukan tautan unduhan **[here](https://releases.aspose.com/3d/java/)**.  
+- Perpustakaan Aspose.3D untuk Java telah diunduh dan diatur. Anda dapat menemukan tautan unduhan **[di sini](https://releases.aspose.com/3d/java/)**.  
 - Pengetahuan dasar tentang pemrograman Java.  
 
-## Import Packages  
+## Impor Paket  
 
 Pertama, impor kelas Aspose.3D yang Anda perlukan. Langkah ini membuat perpustakaan tersedia untuk proyek Anda.
 
@@ -45,19 +55,9 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-## What is an XPath‑like query in Aspose.3D?  
+## Panduan Langkah‑per‑Langkah  
 
-Aspose.3D mengimplementasikan subset sintaks XPath yang bekerja terhadap grafik scene. Alih-alih node XML, ekspresi menargetkan instance **A3DObject** (node, kamera, lampu, mesh, dll.). Ini memungkinkan Anda menulis filter ekspresif seperti “all cameras” atau “objects whose name is ‘light’” tanpa harus menelusuri hierarki secara manual.
-
-## Why use XPath‑like queries to **select objects by type**?  
-
-- **Kecepatan:** Satu baris menggantikan puluhan pemeriksaan `if` dan loop.  
-- **Keterbacaan:** Kuery dibaca seperti bahasa alami.  
-- **Fleksibilitas:** Ubah filter tanpa menyentuh kode traversal.
-
-## Step‑by‑Step Guide  
-
-### Step 1: Create a Scene for Testing  
+### Langkah 1: Buat Scene untuk Pengujian  
 
 Kami memulai dengan scene kosong yang akan menampung hierarki kami.
 
@@ -67,7 +67,7 @@ Scene s = new Scene();
 // ExEnd:CreateScene
 ```
 
-### Step 2: Build a Hierarchy of Nodes  
+### Langkah 2: Bangun Hierarki Node  
 
 Selanjutnya, kami menambahkan beberapa node anak di bawah node root. Beberapa node berisi entitas **Camera** atau **Light**, yang nanti akan kami kueri.
 
@@ -83,9 +83,9 @@ c.createChildNode("c2").addEntity(new Light("light"));
 // ExEnd:CreateHierarchy
 ```
 
-### Step 3: Apply XPath‑Like Queries  
+### Langkah 3: Terapkan Kuery Mirip XPath  
 
-Sekarang bagian yang menyenangkan—menggunakan string gaya XPath untuk **select objects by type** atau nama.
+Sekarang bagian yang menyenangkan—menggunakan string bergaya XPath untuk **memilih objek berdasarkan nama** atau tipe.
 
 ```java
 // ExStart:XPathLikeObjectQueries
@@ -103,49 +103,57 @@ obj = (A3DObject) s.getRootNode().selectSingleObject("/");
 // ExEnd:XPathLikeObjectQueries
 ```
 
-**Explanation of the key expressions**
+**Penjelasan ekspresi kunci**
 
-- `//*[(@Type = 'Camera') or (@Name = 'light')]` – Menemukan setiap objek dalam scene yang atribut **type**‑nya sama dengan `Camera` **atau** atribut **name**‑nya sama dengan `light`. Ini adalah contoh klasik dari **select objects by type**.  
-- `/c/*/<Camera>` – Mulai dari root, pergi ke node `c`, kemudian ke anak apa saja (`*`), dan akhirnya memilih entitas `<Camera>`.  
-- `a1` – Bentuk singkat yang mencari seluruh pohon untuk node bernama `a1`.  
-- `/` – Mengembalikan node root itu sendiri.
+- `//*[(@Type = 'Camera') or (@Name = 'light')]` – Menemukan setiap objek dalam scene yang atribut **type**‑nya sama dengan `Camera` **atau** atribut **name**‑nya sama dengan `light`. Ini adalah contoh klasik dari **memilih objek berdasarkan nama** (dan tipe).  
+- `/c/*/<Camera>` – Mulai dari root, menuju node `c`, kemudian anak apa saja (`*`), dan akhirnya memilih entitas `<Camera>`.  
+- `a1` – Singkatan yang mencari seluruh pohon untuk node bernama `a1`.  
+- `/` – Mengembalikan node root itu sendiri.  
 
-### Common Pitfalls & Tips  
+### Kesalahan Umum & Tips  
 
 - **Sensitivitas huruf:** Nama atribut (`@Type`, `@Name`) bersifat case‑sensitive.  
 - **Entitas vs. Node:** Gunakan sintaks `<Camera>` hanya ketika Anda membutuhkan entitas dasar, bukan sekadar node.  
-- **Kinerja:** Untuk scene yang sangat besar, persempit jalur pencarian (mis., mulai dari subtree tertentu) untuk meningkatkan kecepatan.
+- **Kinerja:** Untuk scene yang sangat besar, persempit jalur pencarian (misalnya, mulai dari subtree tertentu) untuk meningkatkan kecepatan.  
 
-## Conclusion  
+## Masalah Umum dan Solusinya  
 
-Anda kini tahu cara **create 3d scene java** program yang memanfaatkan kueri mirip XPath untuk secara efisien **select objects by type**. Pendekatan ini dapat diskalakan dari demo sederhana hingga aplikasi 3‑D kelas produksi, memberi Anda kontrol halus atas penelusuran scene tanpa kode yang bertele‑tele.
+| Masalah | Alasan | Solusi |
+|-------|--------|----------|
+| Tidak ada hasil yang dikembalikan | Kesalahan ketik string kueri atau kasus atribut yang salah | Verifikasi ejaan dan kasus `@Name`; gunakan nama node yang tepat |
+| Node tak terduga termasuk | Menggunakan `//*` mencari seluruh pohon | Batasi jalur, misalnya `/c/*` untuk membatasi ruang lingkup |
+| Kinerja lambat pada scene besar | Kueri dijalankan pada seluruh grafik | Mulai kueri dari sub‑node yang diketahui alih-alih root |
 
-## Frequently Asked Questions  
+## Pertanyaan yang Sering Diajukan  
 
-**Q: Di mana saya dapat menemukan dokumentasi Aspose.3D for Java?**  
-A: Dokumentasi tersedia **[here](https://reference.aspose.com/3d/java/)**.
+**Q: Di mana saya dapat menemukan dokumentasi Aspose.3D untuk Java?**  
+A: Dokumentasi tersedia **[di sini](https://reference.aspose.com/3d/java/)**.
 
-**Q: Bagaimana cara saya mengunduh Aspose.3D for Java?**  
-A: Anda dapat mengunduhnya **[here](https://releases.aspose.com/3d/java/)**.
+**Q: Bagaimana saya dapat mengunduh Aspose.3D untuk Java?**  
+A: Anda dapat mengunduhnya **[di sini](https://releases.aspose.com/3d/java/)**.
 
-**Q: Apakah ada versi percobaan gratis?**  
-A: Ya, Anda dapat mendapatkan versi percobaan gratis **[here](https://releases.aspose.com/)**.
+**Q: Apakah tersedia versi percobaan gratis?**  
+A: Ya, Anda dapat memperoleh versi percobaan gratis **[di sini](https://releases.aspose.com/)**.
 
-**Q: Di mana saya dapat mendapatkan dukungan untuk Aspose.3D for Java?**  
-A: Kunjungi forum dukungan **[here](https://forum.aspose.com/c/3d/18)**.
+**Q: Di mana saya dapat mendapatkan dukungan untuk Aspose.3D untuk Java?**  
+A: Kunjungi forum dukungan **[di sini](https://forum.aspose.com/c/3d/18)**.
 
-**Q: Membutuhkan lisensi sementara?**  
-A: Dapatkan lisensi sementara **[here](https://purchase.aspose.com/temporary-license/)**.
+**Q: Butuh lisensi sementara?**  
+A: Dapatkan lisensi sementara **[di sini](https://purchase.aspose.com/temporary-license/)**.
 
 **Q: Bisakah saya mengkueri properti yang didefinisikan pengguna?**  
 A: Ya, Anda dapat memperluas ekspresi XPath dengan atribut `@` tambahan yang Anda tambahkan ke node.
 
 **Q: Apakah mesin kueri bekerja dengan scene yang dianimasikan?**  
-A: Tentu – kueri beroperasi pada hierarki statis; animasi terikat pada node yang sama dan oleh karena itu termasuk dalam hasil.
+A: Tentu – kueri beroperasi pada hierarki statis; animasi terlampir pada node yang sama sehingga termasuk dalam hasil.
+
+## Kesimpulan  
+
+Anda kini tahu cara **memilih objek berdasarkan nama** dalam scene Java 3D menggunakan kueri mirip XPath. Pendekatan ini dapat diskalakan dari demo sederhana hingga aplikasi 3‑D kelas produksi, memberi Anda kontrol detail atas penelusuran scene tanpa kode yang bertele‑tele.
 
 ---
 
-**Last Updated:** 2025-11-29  
+**Last Updated:** 2026-03-31  
 **Tested With:** Aspose.3D for Java 24.11  
 **Author:** Aspose  
 
