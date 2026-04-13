@@ -133,15 +133,15 @@ A4: Získejte dočasnou licenci pro váš projekt na [this link](https://purchas
 ### Q5: Jsou k dispozici další příklady a tutoriály?
 A5: Ano, podívejte se do [documentation](https://reference.aspose.com/3d/java/) pro více příkladů a podrobných tutoriálů.
 
+---
+
+**Poslední aktualizace:** 2026-02-22  
+**Testováno s:** Aspose.3D for Java 24.11 (latest)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-02-22  
-**Testováno s:** Aspose.3D for Java 24.11 (latest)  
-**Autor:** Aspose

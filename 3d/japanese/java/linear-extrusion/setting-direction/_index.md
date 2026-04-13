@@ -8,12 +8,6 @@ url: /ja/java/linear-extrusion/setting-direction/
 weight: 12
 ---
 
-Let's produce final content.
-
-We'll keep the shortcodes exactly as given.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -148,15 +142,15 @@ A4: サポートや質問は [Aspose.3D forum](https://forum.aspose.com/c/3d/18)
 
 A5: はい、一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から取得可能です。
 
+---
+
+**最終更新日:** 2026-02-22  
+**テスト環境:** Aspose.3D for Java（最新リリース）  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-02-22  
-**テスト環境:** Aspose.3D for Java（最新リリース）  
-**作者:** Aspose

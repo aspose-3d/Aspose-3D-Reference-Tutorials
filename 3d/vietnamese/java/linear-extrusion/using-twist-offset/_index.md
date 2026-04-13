@@ -133,15 +133,15 @@ A4: Nhận giấy phép tạm thời cho dự án của bạn bằng cách truy 
 ### Q5: Có thêm các ví dụ và tutorial khác không?
 A5: Có, tham khảo [tài liệu](https://reference.aspose.com/3d/java/) để xem thêm các ví dụ và tutorial chi tiết.
 
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.3D for Java 24.11 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.3D for Java 24.11 (latest)  
-**Author:** Aspose

@@ -11,13 +11,7 @@ url: /cs/java/load-and-save/
 weight: 30
 ---
 
- pro práci s Aspose.3D?" Answer: "Only the Aspose.3D for Java JAR is required; all other dependencies are bundled." Translate.
-
-Make sure to keep code formatting, backticks, etc.
-
-Now produce final output with all translations. Ensure no missing elements.
-
-Let's craft final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -90,20 +84,6 @@ Prozkoumejte svět 3D grafiky s Aspose.3D pro Java. Snadno čtěte a manipulujte
 Prozkoumejte plynulý svět manipulace se 3D scénami v Javě s Aspose.3D. Naučte se ukládat scény v různých formátech snadno.
 ### [Optimalizace ukládání 3D souborů v Javě s Aspose.3D SaveOptions](./optimize-3d-file-saving/)
 Naučte se, jak optimalizovat ukládání 3D souborů v Javě s Aspose.3D SaveOptions. Zvyšte výkon a přizpůsobte výstupy snadno.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-02-22  
-**Testováno s:** Aspose.3D pro Java (nejnovější stabilní verze)  
-**Autor:** Aspose  
-
----
 
 ## Často kladené otázky
 
@@ -121,3 +101,18 @@ Naučte se, jak optimalizovat ukládání 3D souborů v Javě s Aspose.3D SaveOp
 
 **Q:** *Potřebuji nějaké další závislosti pro práci s Aspose.3D?*  
 **A:** Pouze JAR Aspose.3D pro Java je vyžadován; všechny ostatní závislosti jsou zahrnuty.
+
+---
+
+**Poslední aktualizace:** 2026-02-22  
+**Testováno s:** Aspose.3D pro Java (nejnovější stabilní verze)  
+**Autor:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

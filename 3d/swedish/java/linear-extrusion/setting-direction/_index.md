@@ -143,15 +143,15 @@ A4: Besök [Aspose.3D forum](https://forum.aspose.com/c/3d/18) för hjälp eller
 
 A5: Ja, du kan erhålla en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Senast uppdaterad:** 2026-02-22  
+**Testad med:** Aspose.3D för Java (senaste release)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-02-22  
-**Testad med:** Aspose.3D för Java (senaste release)  
-**Författare:** Aspose

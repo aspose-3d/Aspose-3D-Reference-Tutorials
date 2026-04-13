@@ -77,20 +77,6 @@ Che tu sia uno sviluppatore esperto o un principiante nella grafica 3D, questi t
 ### [Leggere Scene 3D Esistenti Senza Sforzo in Java con Aspose.3D](./read-existing-3d-scenes/)
 ### [Salvare Scene 3D in Vari Formati con Aspose.3D per Java](./save-3d-scenes/)
 ### [Ottimizzare il Salvataggio di File 3D in Java con Aspose.3D SaveOptions](./optimize-3d-file-saving/)
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.3D for Java (latest stable release)  
-**Author:** Aspose  
-
----
 
 ## Domande Frequenti
 
@@ -108,3 +94,18 @@ Che tu sia uno sviluppatore esperto o un principiante nella grafica 3D, questi t
 
 **Q:** *Ho bisogno di dipendenze aggiuntive per lavorare con Aspose.3D?*  
 **A:** È richiesto solo il JAR di Aspose.3D per Java; tutte le altre dipendenze sono incluse.
+
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.3D for Java (latest stable release)  
+**Author:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

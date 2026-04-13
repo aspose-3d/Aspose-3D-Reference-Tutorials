@@ -9,15 +9,7 @@ url: /zh/java/load-and-save/
 weight: 30
 ---
 
-` etc.
-
-Now produce final content with all translations, preserving markdown.
-
-Check for any missed items: The initial shortcodes and final ones must remain unchanged. Also the backtop button shortcode unchanged.
-
-Make sure to keep the horizontal rule "---".
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -91,21 +83,6 @@ Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 ### [使用 Aspose.3D SaveOptions 在 Java 中优化 3D 文件保存](./optimize-3d-file-saving/)
 了解如何使用 Aspose.3D SaveOptions 在 Java 中优化 3D 文件保存。轻松提升性能并自定义输出。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-02-22  
-**测试环境：** Aspose.3D for Java (latest stable release)  
-**作者：** Aspose  
-
----
-
 ## 常见问题
 
 **Q:** *我可以在商业 Java 应用中使用 Aspose.3D 吗？*  
@@ -122,3 +99,18 @@ Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 **Q:** *使用 Aspose.3D 是否需要额外的依赖？*  
 **A:** 只需 Aspose.3D for Java 的 JAR 包，所有其他依赖已打包。
+
+---
+
+**最后更新：** 2026-02-22  
+**测试环境：** Aspose.3D for Java (latest stable release)  
+**作者：** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -10,9 +10,7 @@ url: /es/java/linear-extrusion/using-twist-offset/
 weight: 15
 ---
 
-All shortcodes unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -137,15 +135,15 @@ R4: Obtén una licencia temporal para tu proyecto visitando [este enlace](https:
 ### P5: ¿Hay ejemplos y tutoriales adicionales disponibles?
 R5: Sí, consulta la [documentación](https://reference.aspose.com/3d/java/) para más ejemplos y tutoriales detallados.
 
+---
+
+**Última actualización:** 2026-02-22  
+**Probado con:** Aspose.3D for Java 24.11 (latest)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-02-22  
-**Probado con:** Aspose.3D for Java 24.11 (latest)  
-**Autor:** Aspose

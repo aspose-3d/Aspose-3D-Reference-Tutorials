@@ -18,29 +18,29 @@ weight: 13
 
 ## Introduction
 
-Si vous devez **créer des objets d'extrusion 3D** qui soient lisses et précis, le contrôle du nombre de tranches est essentiel. Dans ce tutoriel, nous verrons comment spécifier les tranches lors d’une extrusion linéaire avec Aspose.3D for Java. Vous comprendrez pourquoi le nombre de tranches compte, comment définir un rayon d’arrondi, et comment exporter le résultat au format OBJ pouvant être utilisé dans n’importe quel pipeline 3D.
+Si vous devez **créer des objets d'extrusion 3D** qui soient lisses et précis, le contrôle du nombre de tranches est essentiel. Dans ce tutoriel, nous verrons comment préciser les tranches lors d’une extrusion linéaire avec Aspose.3D for Java. Vous comprenez pourquoi le nombre de tranches compte, comment définir un rayon d'arrondi, et comment exporter le résultat au format OBJ pouvant être utilisé dans n'importe quel pipeline 3D.
 
 ## Réponses rapides
-- **Que contrôle le paramètre “tranches” ?** Le nombre de sections transversales intermédiaires utilisées pour approximer la surface d’extrusion.  
-- **Quelle méthode définit le nombre de tranches ?** `LinearExtrusion.setSlices(int)`  
-- **Puis‑je modifier le rayon d’arrondi du profil ?** Oui, via `RectangleShape.setRoundingRadius(double)`  
-- **Quel format de fichier est utilisé dans cet exemple ?** Wavefront OBJ (`FileFormat.WAVEFRONTOBJ`)  
-- **Ai‑je besoin d’une licence pour exécuter le code ?** Une version d’essai gratuite suffit pour l’évaluation ; une licence commerciale est requise pour la production.
+- **Que contrôle le paramètre « tranches » ?** Le nombre de sections transversales intermédiaires utilisées pour approximer la surface d'extrusion.
+- **Quelle méthode définit le nombre de tranches ?** `LinearExtrusion.setSlices(int)`
+- **Puis‑je modifier le rayon d'arrondi du profil ?** Oui, via `RectangleShape.setRoundingRadius(double)`
+- **Quel format de fichier est utilisé dans cet exemple ?** Wavefront OBJ (`FileFormat.WAVEFRONTOBJ`)
+- **Ai‑je besoin d’une licence pour exécuter le code?** Une version d’essai gratuite suffit pour l’évaluation; une licence commerciale est requise pour la production.
 
-## Qu’est‑ce qu’une extrusion linéaire avec des tranches ?
+## Qu’est‑ce qu’une extrusion linéaire avec des tranches ?
 
-L’extrusion linéaire prend un profil 2‑D (comme un rectangle) et l’étire le long d’une ligne droite pour former un solide 3‑D. En spécifiant des **tranches**, vous indiquez à Aspose.3D combien d’étapes intermédiaires générer, ce qui influence directement la fluidité des arêtes courbes, comme un rectangle arrondi.
+L’extrusion linéaire prend un profil 2‑D (comme un rectangle) et l’étire le long d’une ligne droite pour former un solide 3‑D. En spécifiant des **tranches**, vous indiquez à Aspose.3D combien d’étapes intermédiaires générées, ce qui influence directement la fluidité des arêtes courbes, comme un rectangle arrondi.
 
-## Pourquoi utiliser Aspose.3D for Java pour créer une extrusion 3D ?
+## Pourquoi utiliser Aspose.3D for Java pour créer une extrusion 3D ?
 
-* **Contrôle total** – Vous pouvez ajuster le nombre de tranches, le rayon d’arrondi et le format d’exportation par programmation.  
-* **Multi‑plateforme** – Fonctionne dans tout environnement Java sans dépendances natives.  
+* **Contrôle total** – Vous pouvez ajuster le nombre de tranches, le rayon d'arrondi et le format d'exportation par programmation.
+* **Multi‑plateforme** – Fonctionne dans tout environnement Java sans dépendances natives.
 * **Flexibilité d’exportation** – Enregistrement direct en OBJ, FBX, STL et bien d’autres formats.
 
 ## Prérequis
 
-1. **Java Development Kit** – JDK 8 ou supérieur installé.  
-2. **Aspose.3D for Java** – Téléchargez la bibliothèque depuis le site officiel [ici](https://releases.aspose.com/3d/java/).  
+1. **Java Development Kit** – JDK 8 ou supérieur installé.
+2. **Aspose.3D pour Java** – Téléchargez la bibliothèque depuis le site officiel [ici](https://releases.aspose.com/3d/java/).
 3. Un IDE ou un éditeur de texte de votre choix.
 
 ## Importer les packages

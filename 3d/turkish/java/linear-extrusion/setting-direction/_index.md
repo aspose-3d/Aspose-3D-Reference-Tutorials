@@ -143,15 +143,15 @@ C4: Yardım ve sorularınız için [Aspose.3D forumunu](https://forum.aspose.com
 
 C5: Evet, geçici bir lisans alabilirsiniz: [burada](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Son Güncelleme:** 2026-02-22  
+**Test Edilen Versiyon:** Aspose.3D for Java (en son sürüm)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-02-22  
-**Test Edilen Versiyon:** Aspose.3D for Java (en son sürüm)  
-**Yazar:** Aspose

@@ -9,21 +9,7 @@ url: /cs/java/linear-extrusion/setting-direction/
 weight: 12
 ---
 
-Author". Keep dates unchanged.
-
-Thus:
-
-**Poslední aktualizace:** 2026-02-22  
-**Testováno s:** Aspose.3D for Java (latest release)  
-**Autor:** Aspose
-
-Now produce final content.
-
-Check for any missed text: "step-by-step" etc. Already covered.
-
-Make sure to keep markdown formatting.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -157,15 +143,15 @@ A4: Navštivte [Aspose.3D fórum](https://forum.aspose.com/c/3d/18) pro jakoukol
 
 A5: Ano, dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Poslední aktualizace:** 2026-02-22  
+**Testováno s:** Aspose.3D for Java (latest release)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-02-22  
-**Testováno s:** Aspose.3D for Java (latest release)  
-**Autor:** Aspose

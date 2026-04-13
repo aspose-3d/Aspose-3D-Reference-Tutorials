@@ -10,9 +10,7 @@ url: /ar/java/load-and-save/
 weight: 30
 ---
 
- shortcodes etc.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -85,20 +83,6 @@ Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
 استكشف عالم تعديل المشاهد 3D السلس في جافا باستخدام Aspose.3D. تعلم كيفية حفظ المشاهد بصيغ مختلفة بسهولة.
 ### [تحسين حفظ ملفات 3D في جافا باستخدام Aspose.3D SaveOptions](./optimize-3d-file-saving/)
 تعلّم كيفية تحسين حفظ ملفات 3D في جافا باستخدام Aspose.3D SaveOptions. حسّن الأداء وخصّص المخرجات بسهولة.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.3D for Java (latest stable release)  
-**Author:** Aspose  
-
----
 
 ## الأسئلة المتكررة
 
@@ -116,3 +100,18 @@ Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
 
 **س:** *هل أحتاج إلى أي تبعيات إضافية للعمل مع Aspose.3D؟*  
 **ج:** فقط ملف JAR الخاص بـ Aspose.3D لجافا مطلوب؛ جميع التبعيات الأخرى مدمجة.
+
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.3D for Java (latest stable release)  
+**Author:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

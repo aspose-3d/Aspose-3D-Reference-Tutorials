@@ -16,22 +16,22 @@ weight: 13
 
 # Maak 3D Extrusie met Slices – Aspose.3D voor Java
 
-## Introduction
+## Introductie
 
-Als je **3d extrusion maken** objecten wilt maken die er glad en precies uitzien, is het beheersen van het aantal slices de sleutel. In deze tutorial lopen we stap voor stap door hoe je slices specificeert tijdens een lineaire extrusie met Aspose.3D voor Java. Je zult zien waarom het aantal slices belangrijk is, hoe je een afrondingsstraal instelt, en hoe je het resultaat exporteert als een OBJ‑bestand dat in elke 3D‑pipeline kan worden gebruikt.
+Als je **3d extrusie maken** objecten wilt maken die er blij en precies naar kijken, is het beheersen van het aantal plakjes de sleutel. In deze tutorial lopen we stap voor stap door hoe je slice specifiek wordt tijdens een lineaire extrusie met Aspose.3D voor Java. Je zult zien waarom het aantal plakjes belangrijk is, hoe je een afrondingsstraal instelt, en hoe je het resultaat exporteert als een OBJ-bestand dat in elke 3D-pijplijn kan worden gebruikt.
 
-## Quick Answers
-- **Wat regelt “slices”?** Het aantal tussenliggende doorsneden dat wordt gebruikt om het extrusieoppervlak te benaderen.  
-- **Welke methode stelt het aantal slices in?** `LinearExtrusion.setSlices(int)`  
-- **Kan ik de afrondingsstraal van het profiel wijzigen?** Ja, via `RectangleShape.setRoundingRadius(double)`  
-- **Welk bestandsformaat wordt in dit voorbeeld gebruikt?** Wavefront OBJ (`FileFormat.WAVEFRONTOBJ`)  
-- **Heb ik een licentie nodig om de code uit te voeren?** Een gratis proefversie werkt voor evaluatie; een commerciële licentie is vereist voor productie.
+## Snelle antwoorden
+- **Wat regelt “slices”?** Het aantal tussenliggende doorsneden dat wordt gebruikt om het extrusieoppervlak te benaderen.
+- **Welke methode stelt het aantal slice in?** `LinearExlusion.setSlices(int)`
+- **Kan ik de afrondingsstraal van het profiel wijzigen?** Ja, via `RectangleShape.setRoundingRadius(double)`
+- **Welk bestandsformaat wordt in dit voorbeeld gebruikt?** Wavefront OBJ (`FileFormat.WAVEFRONTOBJ`)
+- **Heb ik een licentie nodig om de code uit te voeren?** Een gratis proefversie werkt voor evaluatie; een wettelijke licentie is vereist voor productie.
 
-## Wat is een lineaire extrusie met slices?
+## Wat is een lineaire extrusie met plakjes?
 
-Lineaire extrusie neemt een 2‑D‑profiel (bijvoorbeeld een rechthoek) en strekt het uit langs een rechte lijn om een 3‑D‑solid te vormen. Door **slices** op te geven, vertel je Aspose.3D hoeveel tussenstappen er moeten worden gegenereerd, wat direct de gladheid van gebogen randen beïnvloedt, zoals bij een afgeronde rechthoek.
+Lineaire extrusie neemt een 2-D-profiel (bijvoorbeeld een rechthoek) en strekt het uit langs een rechte lijn om een ​​3-D-solide te vormen. Door **slices** op te geven, vertel je Aspose.3D hoeveel tussenstappen er moeten worden bereid, wat direct de gladheid van gebogen randen beïnvloed, zoals bij een afgeronde rechthoek.
 
-## Waarom Aspose.3D voor Java gebruiken om 3d extrusie te maken?
+## Waarom Aspose.3D voor Java gebruiken om 3D-extrusie te maken?
 
 * **Volledige controle** – Je kunt het aantal slices, de afrondingsstraal en het exportformaat programmatisch aanpassen.  
 * **Cross‑platform** – Werkt in elke Java‑omgeving zonder native afhankelijkheden.  

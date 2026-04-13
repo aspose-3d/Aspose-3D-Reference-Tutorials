@@ -10,10 +10,6 @@ url: /hu/java/linear-extrusion/specifying-slices/
 weight: 13
 ---
 
- to keep markdown formatting, code fences not present, just placeholders.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

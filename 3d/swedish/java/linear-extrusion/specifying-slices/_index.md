@@ -10,11 +10,7 @@ url: /sv/java/linear-extrusion/specifying-slices/
 weight: 13
 ---
 
-}} etc.
-
-Also keep shortcodes unchanged.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

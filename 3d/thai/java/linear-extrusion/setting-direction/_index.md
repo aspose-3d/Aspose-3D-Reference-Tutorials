@@ -143,15 +143,15 @@ A4: เยี่ยมชม [Aspose.3D forum](https://forum.aspose.com/c/3d/18)
 
 A5: มี คุณสามารถขอรับลิขสิทธิ์ชั่วคราวได้ที่ [here](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**อัปเดตล่าสุด:** 2026-02-22  
+**ทดสอบด้วย:** Aspose.3D for Java (รุ่นล่าสุด)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-02-22  
-**ทดสอบด้วย:** Aspose.3D for Java (รุ่นล่าสุด)  
-**ผู้เขียน:** Aspose

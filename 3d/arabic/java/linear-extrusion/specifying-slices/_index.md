@@ -9,12 +9,6 @@ url: /ar/java/linear-extrusion/specifying-slices/
 weight: 13
 ---
 
-Make sure not to translate code identifiers like `LinearExtrusion.setSlices(int)` etc.
-
-Also not translate URLs.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

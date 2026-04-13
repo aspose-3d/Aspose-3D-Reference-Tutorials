@@ -133,15 +133,15 @@ Wanneer de code succesvol draait, vind je `TwistOffsetInLinearExtrusion.obj` in 
 ### Q5: Zijn er extra voorbeelden en tutorials beschikbaar?
 **A5:** Ja, raadpleeg de [documentation](https://reference.aspose.com/3d/java/) voor meer voorbeelden en diepgaande tutorials.
 
+---
+
+**Laatst bijgewerkt:** 2026-02-22  
+**Getest met:** Aspose.3D for Java 24.11 (latest)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-02-22  
-**Getest met:** Aspose.3D for Java 24.11 (latest)  
-**Auteur:** Aspose

@@ -11,8 +11,6 @@ url: /hu/java/load-and-save/
 weight: 30
 ---
 
-Now produce final output with everything.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -86,20 +84,6 @@ Fedezd fel a 3D grafika világát az Aspose.3D for Java-val. Könnyedén olvasd 
 Fedezd fel a zökkenőmentes 3D jelenetkezelés világát Java-ban az Aspose.3D-val. Tanuld meg, hogyan menthetsz jeleneteket könnyedén különböző formátumokba.
 ### [3D fájl mentésének optimalizálása Java-ban az Aspose.3D SaveOptions segítségével](./optimize-3d-file-saving/)
 Tanuld meg, hogyan optimalizálhatod a 3D fájl mentését Java-ban az Aspose.3D SaveOptions segítségével. Javítsd a teljesítményt és testreszabhatod a kimeneteket könnyedén.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2026-02-22  
-**Tesztelve ezzel:** Aspose.3D for Java (legújabb stabil kiadás)  
-**Szerző:** Aspose  
-
----
 
 ## Gyakran Ismételt Kérdések
 
@@ -117,3 +101,18 @@ Tanuld meg, hogyan optimalizálhatod a 3D fájl mentését Java-ban az Aspose.3D
 
 **Q:** *Szükségem van további függőségekre az Aspose.3D használatához?*  
 **A:** Csak az Aspose.3D for Java JAR szükséges; minden egyéb függőség be van csomagolva.
+
+---
+
+**Utoljára frissítve:** 2026-02-22  
+**Tesztelve ezzel:** Aspose.3D for Java (legújabb stabil kiadás)  
+**Szerző:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

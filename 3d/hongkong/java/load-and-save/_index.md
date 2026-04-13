@@ -83,21 +83,6 @@ weight: 30
 ### [使用 Aspose.3D SaveOptions 在 Java 中最佳化 3D 檔案儲存](./optimize-3d-file-saving/)
 學習如何使用 Aspose.3D SaveOptions 在 Java 中最佳化 3D 檔案的儲存。提升效能並輕鬆自訂輸出。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.3D for Java (latest stable release)  
-**Author:** Aspose  
-
----
-
 ## 常見問題
 
 **Q:** *我可以在商業 Java 應用程式中使用 Aspose.3D 嗎？*  
@@ -114,3 +99,18 @@ weight: 30
 
 **Q:** *使用 Aspose.3D 是否需要額外的相依套件？*  
 **A:** 只需要 Aspose.3D for Java 的 JAR，其他相依套件皆已內建。
+
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.3D for Java (latest stable release)  
+**Author:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

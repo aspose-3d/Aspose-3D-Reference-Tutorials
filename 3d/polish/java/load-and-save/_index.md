@@ -85,21 +85,6 @@ Poznaj płynny świat manipulacji scenami 3D w Javie z Aspose.3D. Naucz się bez
 ### [Optymalizuj zapisywanie plików 3D w Javie przy użyciu Aspose.3D SaveOptions](./optimize-3d-file-saving/)
 Dowiedz się, jak optymalizować zapisywanie plików 3D w Javie przy użyciu Aspose.3D SaveOptions. Zwiększ wydajność i dostosuj wyniki bez wysiłku.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.3D for Java (latest stable release)  
-**Author:** Aspose  
-
----
-
 ## Najczęściej zadawane pytania
 
 **Q:** *Czy mogę używać Aspose.3D w komercyjnej aplikacji Java?*  
@@ -116,3 +101,18 @@ Dowiedz się, jak optymalizować zapisywanie plików 3D w Javie przy użyciu Asp
 
 **Q:** *Czy potrzebuję dodatkowych zależności, aby pracować z Aspose.3D?*  
 **A:** Wymagany jest tylko plik JAR Aspose.3D for Java; wszystkie pozostałe zależności są w pakiecie.
+
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.3D for Java (latest stable release)  
+**Author:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

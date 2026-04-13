@@ -83,20 +83,6 @@ Jelajahi dunia grafik 3D dengan Aspose.3D untuk Java. Baca dan manipulasi adegan
 Jelajahi dunia manipulasi adegan 3D yang mulus di Java dengan Aspose.3D. Pelajari cara menyimpan adegan dalam berbagai format dengan mudah.
 ### [Optimalkan Penyimpanan File 3D di Java dengan Aspose.3D SaveOptions](./optimize-3d-file-saving/)
 Pelajari cara mengoptimalkan penyimpanan file 3D di Java dengan Aspose.3D SaveOptions. Tingkatkan kinerja dan sesuaikan output dengan mudah.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.3D for Java (latest stable release)  
-**Author:** Aspose  
-
----
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -114,3 +100,18 @@ Pelajari cara mengoptimalkan penyimpanan file 3D di Java dengan Aspose.3D SaveOp
 
 **Q:** *Apakah saya memerlukan dependensi tambahan untuk bekerja dengan Aspose.3D?*  
 **A:** Hanya JAR Aspose.3D untuk Java yang diperlukan; semua dependensi lainnya sudah termasuk.
+
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.3D for Java (latest stable release)  
+**Author:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

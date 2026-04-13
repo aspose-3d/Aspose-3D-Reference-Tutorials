@@ -10,22 +10,6 @@ url: /ru/java/linear-extrusion/specifying-slices/
 weight: 13
 ---
 
- URLs unchanged. Also keep Hugo shortcodes unchanged. Ensure we translate headings and content.
-
-We must not translate code block placeholders; they are not actual code but placeholders. Keep them as is.
-
-We need to translate bullet points, tables, etc.
-
-Let's produce final content.
-
-Be careful: In tables, keep pipes and content; translate Issue, Why it Happens, Fix headings, and entries.
-
-Also translate FAQ questions and answers.
-
-Also translate "Last Updated", "Tested With", "Author". Keep dates.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

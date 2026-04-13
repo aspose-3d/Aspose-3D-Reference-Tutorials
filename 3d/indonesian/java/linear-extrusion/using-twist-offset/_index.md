@@ -131,15 +131,15 @@ A4: Dapatkan lisensi sementara untuk proyek Anda dengan mengunjungi [tautan ini]
 ### Q5: Apakah ada contoh dan tutorial tambahan yang tersedia?
 A5: Ya, lihat [dokumentasi](https://reference.aspose.com/3d/java/) untuk contoh lebih banyak dan tutorial mendalam.
 
+---
+
+**Terakhir Diperbarui:** 2026-02-22  
+**Diuji Dengan:** Aspose.3D for Java 24.11 (terbaru)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-02-22  
-**Diuji Dengan:** Aspose.3D for Java 24.11 (terbaru)  
-**Penulis:** Aspose

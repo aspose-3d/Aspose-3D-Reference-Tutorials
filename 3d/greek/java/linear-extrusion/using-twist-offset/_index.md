@@ -133,15 +133,15 @@ A4: Αποκτήστε μια προσωρινή άδεια για το έργο
 ### Q5: Υπάρχουν επιπλέον παραδείγματα και tutorials διαθέσιμα;
 A5: Ναι, ανατρέξτε στην [documentation](https://reference.aspose.com/3d/java/) για περισσότερα παραδείγματα και αναλυτικά tutorials.
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-02-22  
+**Δοκιμή Με:** Aspose.3D for Java 24.11 (latest)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-02-22  
-**Δοκιμή Με:** Aspose.3D for Java 24.11 (latest)  
-**Συγγραφέας:** Aspose

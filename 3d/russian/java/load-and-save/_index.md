@@ -11,9 +11,7 @@ url: /ru/java/load-and-save/
 weight: 30
 ---
 
-.
-
-Let's construct final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -87,21 +85,6 @@ Let's construct final content.{{< blocks/products/pf/main-wrap-class >}}
 ### [Оптимизация сохранения 3D файлов в Java с Aspose.3D SaveOptions](./optimize-3d-file-saving/)
 Узнайте, как оптимизировать сохранение 3D файлов в Java с помощью Aspose.3D SaveOptions. Повышайте производительность и легко настраивайте вывод.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-02-22  
-**Тестировано с:** Aspose.3D for Java (latest stable release)  
-**Автор:** Aspose  
-
----
-
 ## Часто задаваемые вопросы
 
 **Q:** *Можно ли использовать Aspose.3D в коммерческом Java приложении?*  
@@ -118,3 +101,18 @@ Let's construct final content.{{< blocks/products/pf/main-wrap-class >}}
 
 **Q:** *Нужны ли дополнительные зависимости для работы с Aspose.3D?*  
 **A:** Требуется только JAR Aspose.3D for Java; все остальные зависимости включены.
+
+---
+
+**Последнее обновление:** 2026-02-22  
+**Тестировано с:** Aspose.3D for Java (latest stable release)  
+**Автор:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

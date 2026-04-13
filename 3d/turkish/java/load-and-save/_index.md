@@ -84,20 +84,6 @@ Aspose.3D for Java ile 3D grafik dünyasını keşfedin. Mevcut 3D sahneleri sor
 Aspose.3D ile Java'da 3D sahne manipülasyonunun sorunsuz dünyasını keşfedin. Sahneleri çeşitli formatlarda sorunsuz bir şekilde kaydetmeyi öğrenin.
 ### [Aspose.3D SaveOptions ile Java'da 3D Dosya Kaydetmeyi Optimize Etme](./optimize-3d-file-saving/)
 Aspose.3D SaveOptions ile Java'da 3D dosya kaydetmeyi nasıl optimize edeceğinizi öğrenin. Performansı artırın ve çıktıları sorunsuz bir şekilde özelleştirin.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-02-22  
-**Test Edilen:** Aspose.3D for Java (en son stabil sürüm)  
-**Yazar:** Aspose  
-
----
 
 ## Sıkça Sorulan Sorular
 
@@ -115,3 +101,18 @@ Aspose.3D SaveOptions ile Java'da 3D dosya kaydetmeyi nasıl optimize edeceğini
 
 **S:** *Aspose.3D ile çalışmak için ek bağımlılıklara ihtiyacım var mı?*  
 **C:** Sadece Aspose.3D for Java JAR dosyası gereklidir; diğer tüm bağımlılıklar paketlenmiştir.
+
+---
+
+**Son Güncelleme:** 2026-02-22  
+**Test Edilen:** Aspose.3D for Java (en son stabil sürüm)  
+**Yazar:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

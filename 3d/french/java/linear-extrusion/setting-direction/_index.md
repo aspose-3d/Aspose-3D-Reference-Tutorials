@@ -57,7 +57,7 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Step 1: Initialize Base Profile
+## Étape 1 : Initialiser le profil de base
 
 Créez la forme qui sera extrudée. Dans cet exemple, nous utilisons un `RectangleShape` avec un petit rayon d'arrondi pour donner aux arêtes un aspect lisse.
 
@@ -68,7 +68,7 @@ RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## Step 2: Create a Scene
+## Étape 2 : Créer une scène
 
 Un objet `Scene` agit comme conteneur pour tous les nœuds 3‑D, lumières, caméras et matériaux.
 
@@ -76,7 +76,7 @@ Un objet `Scene` agit comme conteneur pour tous les nœuds 3‑D, lumières, cam
 Scene scene = new Scene();
 ```
 
-## Step 3: Create Nodes
+## Étape 3 : Créer les nœuds
 
 Ajoutez deux nœuds enfants à la racine de la scène — un pour l'extrusion à gauche et un pour l'extrusion à droite. Le nœud de droite est translaté afin que les deux objets ne se chevauchent pas.
 
@@ -86,7 +86,7 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Step 4: Perform Linear Extrusion on the Left Node
+## Étape 4 : Effectuer une extrusion linéaire sur le nœud de gauche
 
 Extrudez le profil sur le nœud de gauche en utilisant la direction par défaut de l'axe Z. Nous ajoutons également une torsion complète de 360° et augmentons le nombre de tranches pour un maillage plus lisse.
 
@@ -94,7 +94,7 @@ Extrudez le profil sur le nœud de gauche en utilisant la direction par défaut 
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 ```
 
-## Step 5: Perform Linear Extrusion on the Right Node with Direction
+## Étape 5 : Effectuer une extrusion linéaire sur le nœud de droite avec une direction
 
 C’est ici que nous **définissons la direction**. En passant un `Vector3` personnalisé à `setDirection`, l'extrusion suit le vecteur (0.3, 0.2, 1), produisant une forme inclinée.
 
@@ -102,7 +102,7 @@ C’est ici que nous **définissons la direction**. En passant un `Vector3` pers
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setDirection(new Vector3(0.3, 0.2, 1));}});
 ```
 
-## Step 6: Save 3D Scene
+## Étape 6 : Enregistrer la scène 3D
 
 Enfin, exportez la scène au format Wavefront OBJ. Cette étape montre comment **enregistrer des fichiers obj java** et facilite la visualisation du résultat dans n'importe quel visualiseur 3‑D.
 
@@ -110,39 +110,45 @@ Enfin, exportez la scène au format Wavefront OBJ. Cette étape montre comment *
 scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-## Common Issues and Solutions
+## Problèmes courants et solutions
 
-| Problème | Pourquoi cela se produit | Solution |
-|----------|--------------------------|----------|
+| Problème | Pourquoi cela se produit | Solutions |
+|--------------|----------------|---------------|
 | Le fichier OBJ apparaît vide | Le profil n'a pas été ajouté à un nœud | Assurez-vous que `createChildNode` est appelé sur un nœud valide |
-| La direction semble inchangée | `setDirection` a été appelé après que l'extrusion ait déjà été construite | Définissez la direction à l'intérieur de l'initialiseur `LinearExtrusion` comme indiqué |
-| Maillage à basse résolution | La valeur de `setSlices` est trop basse | Augmentez le nombre de tranches (par ex., 100 ou plus) |
+| La direction semble similaire | `setDirection` a été appelé après que l'extrusion ait déjà été construite | Définissez la direction à l'intérieur de l'initialiseur `LinearExtrusion` comme indiqué |
+| Mailage à basse résolution | La valeur de `setSlices` est trop basse | Augmentez le nombre de tranches (par ex., 100 ou plus) |
 
 ## Conclusion
 
 Vous savez maintenant **comment définir la direction** dans une extrusion linéaire, comment ajuster les paramètres de torsion et de tranches, et comment **exporter des modèles 3d obj** en utilisant Aspose.3D pour Java. Ces techniques vous offrent un contrôle fin sur la création de géométrie et facilitent l'intégration d'actifs 3‑D dans des pipelines plus larges.
 
-## FAQ's
+## FAQ
 
-### Q1 : Puis-je utiliser Aspose.3D avec d'autres langages de programmation ?
+### Q1 : Puis-je utiliser Aspose.3D avec d'autres langages de programmation ?
 
-A1 : Aspose.3D prend en charge divers langages de programmation, y compris .NET et Java.
+A1 : Aspose.3D prend en charge divers langages de programmation, notamment .NET et Java.
 
-### Q2 : Une version d'essai gratuite est‑elle disponible pour Aspose.3D ?
+### Q2 : Une version d'essai gratuite est‑elle disponible pour Aspose.3D ?
 
-A2 : Oui, vous pouvez explorer les fonctionnalités d'Aspose.3D avec un essai gratuit [ici](https://releases.aspose.com/).
+A2 : Oui, vous pouvez explorer les fonctionnalités d'Aspose.3D avec un essai gratuit [ici](https://releases.aspose.com/).
 
-### Q3 : Où puis‑je trouver la documentation détaillée d'Aspose.3D pour Java ?
+### Q3 : Où puis-je trouver la documentation détaillée d'Aspose.3D pour Java ?
 
-A3 : La documentation complète est disponible [ici](https://reference.aspose.com/3d/java/).
+A3 : La documentation complète est disponible [ici](https://reference.aspose.com/3d/java/).
 
-### Q4 : Comment puis‑je obtenir du support pour Aspose.3D ?
+### Q4 : Comment puis-je obtenir du support pour Aspose.3D ?
 
-A4 : Visitez le [forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour toute assistance ou question.
+A4 : Visitez le [forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour toute assistance ou question.
 
-### Q5 : Des licences temporaires sont‑elles disponibles pour Aspose.3D ?
+### Q5 : Des licences temporaires sont-elles disponibles pour Aspose.3D ?
 
 A5 : Oui, vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Dernière mise à jour :** 2026-02-22  
+**Testé avec :** Aspose.3D for Java (latest release)  
+**Auteur :** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -150,9 +156,3 @@ A5 : Oui, vous pouvez obtenir une licence temporaire [ici](https://purchase.as
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-02-22  
-**Testé avec :** Aspose.3D for Java (latest release)  
-**Auteur :** Aspose

@@ -140,15 +140,15 @@ A4: Visite o [fórum Aspose.3D](https://forum.aspose.com/c/3d/18) para qualquer 
 
 A5: Sim, você pode obter uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Última Atualização:** 2026-02-22  
+**Testado com:** Aspose.3D para Java (versão mais recente)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última Atualização:** 2026-02-22  
-**Testado com:** Aspose.3D para Java (versão mais recente)  
-**Autor:** Aspose

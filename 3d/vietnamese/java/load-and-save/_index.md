@@ -82,20 +82,6 @@ Khám phá thế giới đồ họa 3D với Aspose.3D for Java. Đọc và thao
 Khám phá thế giới liền mạch của việc thao tác cảnh 3D trong Java với Aspose.3D. Học cách lưu các cảnh ở nhiều định dạng một cách dễ dàng.
 ### [Tối ưu việc lưu tệp 3D trong Java với Aspose.3D SaveOptions](./optimize-3d-file-saving/)
 Học cách tối ưu việc lưu tệp 3D trong Java với Aspose.3D SaveOptions. Nâng cao hiệu suất và tùy chỉnh đầu ra một cách dễ dàng.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.3D for Java (latest stable release)  
-**Author:** Aspose  
-
----
 
 ## Câu hỏi thường gặp
 
@@ -113,3 +99,18 @@ Học cách tối ưu việc lưu tệp 3D trong Java với Aspose.3D SaveOption
 
 **Q:** *Do I need any additional dependencies to work with Aspose.3D?*  
 **A:** Only the Aspose.3D for Java JAR is required; all other dependencies are bundled.
+
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.3D for Java (latest stable release)  
+**Author:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

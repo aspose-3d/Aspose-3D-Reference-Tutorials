@@ -10,15 +10,6 @@ url: /pl/java/linear-extrusion/setting-direction/
 weight: 12
 ---
 
-02-22  
-**Tested With:** Aspose.3D for Java (latest release)  
-**Author:** Aspose
-
-We can translate "Last Updated" to "Ostatnia aktualizacja", "Tested With" to "Testowano z", "Author" to "Autor". But not required? The instruction says translate all text content. So yes.
-
-Let's translate.
-
-Now produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
@@ -154,15 +145,15 @@ A4: Odwiedź [forum Aspose.3D](https://forum.aspose.com/c/3d/18), aby uzyskać p
 
 A5: Tak, tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Ostatnia aktualizacja:** 2026-02-22  
+**Testowano z:** Aspose.3D for Java (latest release)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-02-22  
-**Testowano z:** Aspose.3D for Java (latest release)  
-**Autor:** Aspose

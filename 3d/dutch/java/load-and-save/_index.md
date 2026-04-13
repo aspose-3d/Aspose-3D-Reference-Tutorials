@@ -84,20 +84,6 @@ Verken de wereld van 3D‑graphics met Aspose.3D for Java. Lees en manipuleer mo
 Verken de naadloze wereld van 3D‑scene‑manipulatie in Java met Aspose.3D. Leer scènes moeiteloos op te slaan in verschillende formaten.
 ### [Optimaliseer 3D‑bestandssaving in Java met Aspose.3D SaveOptions](./optimize-3d-file-saving/)
 Leer hoe je 3D‑bestandssaving in Java optimaliseert met Aspose.3D SaveOptions. Verbeter de prestaties en pas uitvoer moeiteloos aan.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.3D for Java (latest stable release)  
-**Author:** Aspose  
-
----
 
 ## Veelgestelde Vragen
 
@@ -115,3 +101,18 @@ Leer hoe je 3D‑bestandssaving in Java optimaliseert met Aspose.3D SaveOptions.
 
 **Q:** *Heb ik extra afhankelijkheden nodig om met Aspose.3D te werken?*  
 **A:** Alleen de Aspose.3D for Java JAR is vereist; alle andere afhankelijkheden zijn inbegrepen.
+
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.3D for Java (latest stable release)  
+**Author:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

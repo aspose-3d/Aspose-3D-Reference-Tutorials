@@ -8,17 +8,6 @@ url: /zh/java/linear-extrusion/setting-direction/
 weight: 12
 ---
 
-.
-
-Translate bullet points.
-
-Tables.
-
-FAQ.
-
-Make sure to keep markdown.
-
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
@@ -154,15 +143,15 @@ A4: 请访问 [Aspose.3D forum](https://forum.aspose.com/c/3d/18) 获取帮助�
 
 A5: 可以，临时许可证获取地址在此 [here](https://purchase.aspose.com/temporary-license/)。
 
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.3D for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.3D for Java (latest release)  
-**Author:** Aspose

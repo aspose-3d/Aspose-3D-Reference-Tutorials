@@ -141,15 +141,15 @@ A4：請前往 [Aspose.3D 論壇](https://forum.aspose.com/c/3d/18) 獲得協助
 
 A5：是的，您可於 [此處](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
+---
+
+**最後更新：** 2026-02-22  
+**測試環境：** Aspose.3D for Java（最新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-02-22  
-**測試環境：** Aspose.3D for Java（最新版本）  
-**作者：** Aspose

@@ -10,13 +10,7 @@ url: /de/java/linear-extrusion/setting-direction/
 weight: 12
 ---
 
-.3D for Java (latest release)
-
-**Author:** Aspose
-
-All unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -147,15 +141,15 @@ A4: Besuchen Sie das [Aspose.3D‑Forum](https://forum.aspose.com/c/3d/18) für 
 
 A5: Ja, Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erhalten.
 
+---
+
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.3D for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.3D for Java (latest release)  
-**Author:** Aspose

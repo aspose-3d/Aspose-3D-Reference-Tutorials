@@ -10,15 +10,7 @@ url: /hi/java/linear-extrusion/specifying-slices/
 weight: 13
 ---
 
-.
-
-Let's craft.
-
-Note: Keep "Aspose.3D" unchanged.
-
-Also "OBJ" etc.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

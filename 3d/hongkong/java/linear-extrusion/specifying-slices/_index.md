@@ -14,11 +14,11 @@ weight: 13
 
 # 使用切片建立 3D 拉伸 – Aspose.3D for Java
 
-## Introduction
+## 引言
 
 如果您需要 **建立 3D 拉伸** 物件，讓外觀平滑且精確，控制切片數量是關鍵。在本教學中，我們將說明如何在使用 Aspose.3D for Java 進行線性拉伸時指定切片。您將了解為什麼切片數量重要、如何設定圓角半徑，以及如何將結果匯出為 OBJ 檔案，以便在任何 3D 流程中使用。
 
-## Quick Answers
+## 快速解答
 - **「slices」控制什麼？** 用於近似拉伸表面的中間橫截面數量。  
 - **哪個方法設定切片數量？** `LinearExtrusion.setSlices(int)`  
 - **我可以變更輪廓的圓角半徑嗎？** 可以，透過 `RectangleShape.setRoundingRadius(double)`  

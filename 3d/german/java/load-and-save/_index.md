@@ -11,21 +11,7 @@ url: /de/java/load-and-save/
 weight: 30
 ---
 
-.3D for Java JAR ist erforderlich; alle anderen Abhängigkeiten sind enthalten.
-
-Make sure to keep markdown formatting.
-
-Now produce final output with all translations.
-
-Check for any code blocks: none.
-
-Check for images: none.
-
-Check for shortcodes: keep as is.
-
-Make sure to preserve bullet list formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -99,21 +85,6 @@ Entdecken Sie die nahtlose Welt der 3D‑Szenenmanipulation in Java mit Aspose.3
 ### [Optimieren des Speicherns von 3D‑Dateien in Java mit Aspose.3D SaveOptions](./optimize-3d-file-saving/)
 Erfahren Sie, wie Sie das Speichern von 3D‑Dateien in Java mit Aspose.3D SaveOptions optimieren. Verbessern Sie die Leistung und passen Sie Ausgaben mühelos an.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-02-22  
-**Getestet mit:** Aspose.3D for Java (latest stable release)  
-**Autor:** Aspose  
-
----
-
 ## Häufig gestellte Fragen
 
 **Q:** *Kann ich Aspose.3D in einer kommerziellen Java‑Anwendung verwenden?*  
@@ -130,3 +101,18 @@ Erfahren Sie, wie Sie das Speichern von 3D‑Dateien in Java mit Aspose.3D SaveO
 
 **Q:** *Benötige ich zusätzliche Abhängigkeiten, um mit Aspose.3D zu arbeiten?*  
 **A:** Nur das Aspose.3D for Java JAR ist erforderlich; alle anderen Abhängigkeiten sind enthalten.
+
+---
+
+**Zuletzt aktualisiert:** 2026-02-22  
+**Getestet mit:** Aspose.3D for Java (latest stable release)  
+**Autor:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

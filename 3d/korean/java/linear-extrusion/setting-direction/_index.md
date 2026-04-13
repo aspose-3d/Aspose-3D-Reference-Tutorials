@@ -140,15 +140,15 @@ A4: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for any assist
 
 A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**마지막 업데이트:** 2026-02-22  
+**테스트 환경:** Aspose.3D for Java (최신 릴리스)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-02-22  
-**테스트 환경:** Aspose.3D for Java (최신 릴리스)  
-**작성자:** Aspose

@@ -90,21 +90,6 @@ weight: 30
 ### [ปรับให้การบันทึกไฟล์ 3D ใน Java มีประสิทธิภาพด้วย Aspose.3D SaveOptions](./optimize-3d-file-saving/)
 เรียนรู้วิธีปรับให้การบันทึกไฟล์ 3D ใน Java มีประสิทธิภาพด้วย Aspose.3D SaveOptions เพิ่มประสิทธิภาพและปรับแต่งผลลัพธ์อย่างง่ายดาย.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-02-22  
-**ทดสอบกับ:** Aspose.3D for Java (latest stable release)  
-**ผู้เขียน:** Aspose  
-
----
-
 ## คำถามที่พบบ่อย
 
 **Q:** *ฉันสามารถใช้ Aspose.3D ในแอปพลิเคชัน Java เชิงพาณิชย์ได้หรือไม่?*  
@@ -121,3 +106,18 @@ weight: 30
 
 **Q:** *ฉันต้องการ dependencies เพิ่มเติมเพื่อทำงานกับ Aspose.3D หรือไม่?*  
 **A:** เพียงแค่ JAR ของ Aspose.3D for Java เท่านั้นที่จำเป็น; dependencies อื่น ๆ ทั้งหมดถูกรวมมาแล้ว.
+
+---
+
+**อัปเดตล่าสุด:** 2026-02-22  
+**ทดสอบกับ:** Aspose.3D for Java (latest stable release)  
+**ผู้เขียน:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

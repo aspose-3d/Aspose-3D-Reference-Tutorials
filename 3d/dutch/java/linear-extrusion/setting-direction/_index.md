@@ -143,15 +143,15 @@ A4: Bezoek het [Aspose.3D‑forum](https://forum.aspose.com/c/3d/18) voor hulp o
 
 A5: Ja, je kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Laatst bijgewerkt:** 2026-02-22  
+**Getest met:** Aspose.3D voor Java (laatste release)  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-02-22  
-**Getest met:** Aspose.3D voor Java (laatste release)  
-**Auteur:** Aspose

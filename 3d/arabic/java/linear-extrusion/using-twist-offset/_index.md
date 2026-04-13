@@ -10,23 +10,7 @@ url: /ar/java/linear-extrusion/using-twist-offset/
 weight: 15
 ---
 
-/products-backtop-button >}}
-
-Then horizontal line "---"
-
-Then "**Last Updated:** 2026-02-22" => translate "آخر تحديث:" maybe keep bold.
-
-**Tested With:** ... => translate.
-
-**Author:** Aspose => translate "المؤلف:".
-
-But keep bold formatting.
-
-Now produce final content.
-
-Be careful not to translate code block placeholders.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -149,15 +133,15 @@ scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ### س5: هل هناك أمثلة ودروس إضافية متاحة؟
 نعم، راجع [التوثيق](https://reference.aspose.com/3d/java/) للمزيد من الأمثلة والدروس المتعمقة.
 
+---
+
+**آخر تحديث:** 2026-02-22  
+**تم الاختبار مع:** Aspose.3D للـ Java 24.11 (الأحدث)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-02-22  
-**تم الاختبار مع:** Aspose.3D للـ Java 24.11 (الأحدث)  
-**المؤلف:** Aspose
