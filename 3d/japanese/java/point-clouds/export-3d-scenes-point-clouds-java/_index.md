@@ -4,7 +4,7 @@ description: Aspose 3D のポイントクラウド機能を使用して、3D シ
   でポイントクラウドファイルを保存する方法を示します。
 linktitle: Export 3D Scenes as Point Clouds with Aspose.3D for Java
 second_title: Aspose.3D Java API
-title: aspose 3d ポイントクラウド：Aspose.3D for Javaで3Dシーンをポイントクラウドとしてエクスポート
+title: aspose 3d ポイントクラウド - Aspose.3D for Javaで3Dシーンをポイントクラウドとしてエクスポート
 url: /ja/java/point-clouds/export-3d-scenes-point-clouds-java/
 weight: 15
 ---

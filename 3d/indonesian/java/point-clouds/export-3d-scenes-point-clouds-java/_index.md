@@ -5,7 +5,7 @@ description: Pelajari cara mengekspor adegan 3D sebagai awan titik menggunakan k
   file awan titik di Java.
 linktitle: Export 3D Scenes as Point Clouds with Aspose.3D for Java
 second_title: Aspose.3D Java API
-title: 'aspose 3d point cloud: Ekspor Adegan 3D sebagai Awan Titik dengan Aspose.3D
+title: 'aspose 3d point cloud - Ekspor Adegan 3D sebagai Awan Titik dengan Aspose.3D
   untuk Java'
 url: /id/java/point-clouds/export-3d-scenes-point-clouds-java/
 weight: 15

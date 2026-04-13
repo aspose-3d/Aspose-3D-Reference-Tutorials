@@ -5,7 +5,7 @@ description: Узнайте, как экспортировать 3D‑сцены
   и сохранить файл облака точек в Java.
 linktitle: Export 3D Scenes as Point Clouds with Aspose.3D for Java
 second_title: Aspose.3D Java API
-title: 'aspose 3d point cloud: Экспорт 3D‑сцен в виде облаков точек с Aspose.3D для
+title: 'aspose 3d point cloud - Экспорт 3D‑сцен в виде облаков точек с Aspose.3D для
   Java'
 url: /ru/java/point-clouds/export-3d-scenes-point-clouds-java/
 weight: 15

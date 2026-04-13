@@ -117,15 +117,15 @@ Mesh mesh = pointCloud.get_Mesh();
 **Q:** Υποστηρίζει η βιβλιοθήκη rendering με επιτάχυνση GPU;  
 **A:** Το rendering διαχειρίζεται η δική σας μηχανή· το Aspose.3D εστιάζει στη διαχείριση αρχείων και στην επεξεργασία mesh.
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-03-02  
+**Δοκιμή με:** Aspose.3D for Java (latest version)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-03-02  
-**Δοκιμή με:** Aspose.3D for Java (latest version)  
-**Συγγραφέας:** Aspose

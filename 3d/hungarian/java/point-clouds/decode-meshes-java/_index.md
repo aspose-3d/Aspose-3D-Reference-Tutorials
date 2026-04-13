@@ -116,15 +116,15 @@ Az Aspose.3D for Java számos funkciót kínál a 3D grafikához. Tekintse meg a
 **Q:** Támogatja a könyvtár a GPU‑gyorsított renderelést?  
 **A:** A renderelést a saját motorja kezeli; az Aspose.3D a fájlmanipulációra és a hálózat feldolgozására összpontosít.
 
+---
+
+**Utoljára frissítve:** 2026-03-02  
+**Tesztelve:** Aspose.3D for Java (latest version)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2026-03-02  
-**Tesztelve:** Aspose.3D for Java (latest version)  
-**Szerző:** Aspose

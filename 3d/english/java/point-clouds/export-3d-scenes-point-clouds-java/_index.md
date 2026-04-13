@@ -1,5 +1,5 @@
 ---
-title: "aspose 3d point cloud: Export 3D Scenes as Point Clouds with Aspose.3D for Java"
+title: "aspose 3d point cloud - Export 3D Scenes as Point Clouds with Aspose.3D for Java"
 linktitle: "Export 3D Scenes as Point Clouds with Aspose.3D for Java"
 second_title: "Aspose.3D Java API"
 description: "Learn how to export 3D scenes as point clouds using Aspose 3D point cloud capabilities. This guide shows how to export point cloud and save point cloud file in Java."

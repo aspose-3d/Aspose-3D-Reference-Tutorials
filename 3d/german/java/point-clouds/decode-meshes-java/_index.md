@@ -116,15 +116,15 @@ A: Ja, nachdem Sie das `Mesh`‑Objekt erhalten haben, können Sie `FileFormat.O
 **F: Unterstützt die Bibliothek GPU‑beschleunigtes Rendering?**  
 A: Das Rendering wird von Ihrer eigenen Engine übernommen; Aspose.3D konzentriert sich auf Dateimanipulation und Mesh‑Verarbeitung.
 
+---
+
+**Zuletzt aktualisiert:** 2026-03-02  
+**Getestet mit:** Aspose.3D for Java (latest version)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-03-02  
-**Getestet mit:** Aspose.3D for Java (latest version)  
-**Autor:** Aspose

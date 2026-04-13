@@ -128,13 +128,6 @@ A: 請前往[此連結](https://purchase.aspose.com/temporary-license/)了解臨
 
 依照上述步驟操作後，您已掌握使用 Aspose.3D **how to upgrade 3d materials to pbr java**（如何在 Java 中升級 3D 材質至 PBR）的技巧。轉換會在 GLTF 匯出時自動完成，讓您只需少量程式碼變更即可取得逼真、可直接供引擎使用的資產。歡迎自行嘗試調整其他材質屬性（metallic、roughness），以微調模型的外觀。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-03-02  
@@ -142,3 +135,10 @@ A: 請前往[此連結](https://purchase.aspose.com/temporary-license/)了解臨
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

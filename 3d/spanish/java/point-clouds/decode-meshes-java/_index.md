@@ -117,15 +117,15 @@ Aspose.3D para Java ofrece una gran cantidad de funciones para gráficos 3D. Exp
 **P: ¿La biblioteca admite renderizado acelerado por GPU?**  
 **R:** El renderizado lo maneja su propio motor; Aspose.3D se centra en la manipulación de archivos y el procesamiento de mallas.
 
+---
+
+**Última actualización:** 2026-03-02  
+**Probado con:** Aspose.3D for Java (latest version)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-03-02  
-**Probado con:** Aspose.3D for Java (latest version)  
-**Autor:** Aspose

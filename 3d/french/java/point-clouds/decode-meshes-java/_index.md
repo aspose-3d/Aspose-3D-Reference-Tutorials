@@ -117,15 +117,15 @@ R : Oui, après avoir obtenu l’objet `Mesh` vous pouvez utiliser `FileFormat
 **Q : La bibliothèque prend‑elle en charge le rendu accéléré par GPU ?**  
 R : Le rendu est géré par votre propre moteur ; Aspose.3D se concentre sur la manipulation de fichiers et le traitement des maillages.
 
+---
+
+**Dernière mise à jour :** 2026-03-02  
+**Testé avec :** Aspose.3D for Java (latest version)  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-03-02  
-**Testé avec :** Aspose.3D for Java (latest version)  
-**Auteur :** Aspose

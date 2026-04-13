@@ -114,15 +114,15 @@ A5: Ya, untuk keperluan pengujian, Anda dapat memperoleh lisensi sementara di [p
 **Q: Apakah perpustakaan ini mendukung rendering yang dipercepat GPU?**  
 **A:** Rendering ditangani oleh mesin Anda sendiri; Aspose.3D fokus pada manipulasi file dan pemrosesan mesh.
 
+---
+
+**Terakhir Diperbarui:** 2026-03-02  
+**Diuji Dengan:** Aspose.3D untuk Java (versi terbaru)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-03-02  
-**Diuji Dengan:** Aspose.3D untuk Java (versi terbaru)  
-**Penulis:** Aspose

@@ -5,7 +5,7 @@ description: Aspose 3D nokta bulutu yeteneklerini kullanarak 3D sahneleri nokta 
   ve Java’da nokta bulutu dosyasını nasıl kaydedeceğinizi gösterir.
 linktitle: Export 3D Scenes as Point Clouds with Aspose.3D for Java
 second_title: Aspose.3D Java API
-title: 'aspose 3d nokta bulutu: Aspose.3D for Java ile 3D sahneleri nokta bulutları
+title: 'aspose 3d nokta bulutu - Aspose.3D for Java ile 3D sahneleri nokta bulutları
   olarak dışa aktarın'
 url: /tr/java/point-clouds/export-3d-scenes-point-clouds-java/
 weight: 15

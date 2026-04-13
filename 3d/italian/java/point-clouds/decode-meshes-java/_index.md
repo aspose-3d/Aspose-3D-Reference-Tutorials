@@ -117,15 +117,15 @@ R: Sì, dopo aver ottenuto l'oggetto `Mesh` puoi usare `FileFormat.OBJ.save(mesh
 **Q: La libreria supporta il rendering accelerato da GPU?**  
 R: Il rendering è gestito dal tuo motore; Aspose.3D si concentra sulla manipolazione dei file e sull'elaborazione dei mesh.
 
+---
+
+**Ultimo aggiornamento:** 2026-03-02  
+**Testato con:** Aspose.3D per Java (ultima versione)  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-03-02  
-**Testato con:** Aspose.3D per Java (ultima versione)  
-**Autore:** Aspose

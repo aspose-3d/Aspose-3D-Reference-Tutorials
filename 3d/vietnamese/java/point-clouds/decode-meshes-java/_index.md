@@ -116,15 +116,15 @@ A: Có, sau khi có đối tượng `Mesh` bạn có thể dùng `FileFormat.OBJ
 **Q: Thư viện có hỗ trợ render tăng tốc GPU không?**  
 A: Việc render được xử lý bởi engine của bạn; Aspose.3D tập trung vào thao tác tệp và xử lý lưới.
 
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.3D for Java (latest version)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.3D for Java (latest version)  
-**Author:** Aspose

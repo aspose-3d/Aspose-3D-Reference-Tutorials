@@ -116,15 +116,15 @@ A: Ja, efter att ha fått `Mesh`‑objektet kan du använda `FileFormat.OBJ.save
 **Q: Stöder biblioteket GPU‑accelererad rendering?**  
 A: Rendering hanteras av din egen motor; Aspose.3D fokuserar på filmanipulation och mesh‑bearbetning.
 
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.3D for Java (latest version)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.3D for Java (latest version)  
-**Author:** Aspose

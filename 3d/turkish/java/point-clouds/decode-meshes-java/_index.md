@@ -116,15 +116,15 @@ C: Evet, `Mesh` nesnesini elde ettikten sonra `FileFormat.OBJ.save(mesh, "output
 **S: Kütüphane GPU‑hızlandırmalı renderlamayı destekliyor mu?**  
 C: Renderlama, kendi motorunuz tarafından yönetilir; Aspose.3D dosya manipülasyonu ve mesh işleme üzerine odaklanır.
 
+---
+
+**Son Güncelleme:** 2026-03-02  
+**Test Edilen Versiyon:** Aspose.3D for Java (en son sürüm)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-03-02  
-**Test Edilen Versiyon:** Aspose.3D for Java (en son sürüm)  
-**Yazar:** Aspose

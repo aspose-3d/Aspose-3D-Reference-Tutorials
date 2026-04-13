@@ -127,13 +127,6 @@ R: Visite [este link](https://purchase.aspose.com/temporary-license/) para infor
 
 Seguindo as etapas acima, você agora sabe **como atualizar materiais 3d para pbr java** usando o Aspose.3D. A conversão é tratada automaticamente durante a exportação GLTF, proporcionando ativos realistas e prontos para engines com mudanças mínimas de código. Sinta‑se à vontade para experimentar outras propriedades de material (metallic, roughness) para ajustar o visual dos seus modelos.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última Atualização:** 2026-03-02  
@@ -141,3 +134,10 @@ Seguindo as etapas acima, você agora sabe **como atualizar materiais 3d para pb
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

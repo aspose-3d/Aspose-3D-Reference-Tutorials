@@ -115,15 +115,15 @@ A：可以，取得 `Mesh` 物件後，您可使用 `FileFormat.OBJ.save(mesh, "
 **Q：此函式庫支援 GPU 加速渲染嗎？**  
 A：渲染由您自己的引擎負責；Aspose.3D 專注於檔案操作與網格處理。
 
+---
+
+**最後更新：** 2026-03-02  
+**測試環境：** Aspose.3D for Java（最新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-03-02  
-**測試環境：** Aspose.3D for Java（最新版本）  
-**作者：** Aspose

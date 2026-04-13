@@ -5,7 +5,7 @@ description: Naučte se, jak exportovat 3D scény jako bodové mraky pomocí fun
   bodového mraku v Javě.
 linktitle: Export 3D Scenes as Point Clouds with Aspose.3D for Java
 second_title: Aspose.3D Java API
-title: 'aspose 3d point cloud: Exportujte 3D scény jako bodové mraky s Aspose.3D pro
+title: 'aspose 3d point cloud - Exportujte 3D scény jako bodové mraky s Aspose.3D pro
   Java'
 url: /cs/java/point-clouds/export-3d-scenes-point-clouds-java/
 weight: 15

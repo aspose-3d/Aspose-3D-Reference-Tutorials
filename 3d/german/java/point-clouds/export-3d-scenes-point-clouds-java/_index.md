@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie 3D‑Szenen als Punktwolken mit den Punktwolk
   und Punktwolken‑Dateien in Java speichern.
 linktitle: Export 3D Scenes as Point Clouds with Aspose.3D for Java
 second_title: Aspose.3D Java API
-title: 'Aspose 3D‑Punktwolke: 3D‑Szenen als Punktwolken mit Aspose.3D für Java exportieren'
+title: 'Aspose 3D‑Punktwolke - 3D‑Szenen als Punktwolken mit Aspose.3D für Java exportieren'
 url: /de/java/point-clouds/export-3d-scenes-point-clouds-java/
 weight: 15
 ---

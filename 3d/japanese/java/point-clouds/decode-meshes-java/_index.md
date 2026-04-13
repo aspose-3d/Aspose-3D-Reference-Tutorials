@@ -115,15 +115,15 @@ A: はい、`Mesh` オブジェクトを取得した後、`FileFormat.OBJ.save(m
 **Q: ライブラリは GPU 加速レンダリングをサポートしていますか？**  
 A: レンダリングはご自身のエンジンで処理されます。Aspose.3D はファイル操作とメッシュ処理に焦点を当てています。
 
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.3D for Java (latest version)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.3D for Java (latest version)  
-**Author:** Aspose

@@ -5,7 +5,7 @@ description: Lär dig hur du exporterar 3D‑scener som punktmoln med hjälp av 
   punktmolnsfil i Java.
 linktitle: Export 3D Scenes as Point Clouds with Aspose.3D for Java
 second_title: Aspose.3D Java API
-title: 'aspose 3d punktmoln: Exportera 3D‑scener som punktmoln med Aspose.3D för Java'
+title: 'aspose 3d punktmoln - Exportera 3D‑scener som punktmoln med Aspose.3D för Java'
 url: /sv/java/point-clouds/export-3d-scenes-point-clouds-java/
 weight: 15
 ---

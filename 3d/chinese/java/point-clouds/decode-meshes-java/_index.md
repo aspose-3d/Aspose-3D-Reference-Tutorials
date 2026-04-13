@@ -115,15 +115,15 @@ A5: 是的，出于测试目的，您可以在 [purchase.aspose.com/temporary-li
 **Q：该库支持 GPU 加速渲染吗？**  
 **A：** 渲染由您自己的引擎处理；Aspose.3D 侧重于文件操作和网格处理。
 
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.3D for Java (latest version)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.3D for Java (latest version)  
-**Author:** Aspose

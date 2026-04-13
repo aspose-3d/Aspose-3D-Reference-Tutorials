@@ -116,15 +116,15 @@ A: हाँ, `Mesh` ऑब्जेक्ट प्राप्त करने
 **Q: क्या लाइब्रेरी GPU‑त्वरित रेंडरिंग का समर्थन करती है?**  
 A: रेंडरिंग आपके अपने इंजन द्वारा संभाली जाती है; Aspose.3D फ़ाइल हेरफेर और मेष प्रोसेसिंग पर केंद्रित है।
 
+---
+
+**अंतिम अपडेट:** 2026-03-02  
+**परीक्षण किया गया:** Aspose.3D for Java (latest version)  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-03-02  
-**परीक्षण किया गया:** Aspose.3D for Java (latest version)  
-**लेखक:** Aspose

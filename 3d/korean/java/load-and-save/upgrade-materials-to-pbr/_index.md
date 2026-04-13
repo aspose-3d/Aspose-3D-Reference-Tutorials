@@ -127,13 +127,6 @@ A: 임시 라이선스 정보는 [this link](https://purchase.aspose.com/tempora
 
 위 단계들을 따라 하면 Aspose.3D를 사용하여 **how to upgrade 3d materials to pbr java** 를 수행하는 방법을 알게 됩니다. 변환은 GLTF 내보내기 시 자동으로 처리되어 최소한의 코드 변경으로 현실감 있고 엔진에 바로 사용할 수 있는 자산을 제공합니다. 다른 재질 속성(메탈릭, 러프니스)도 실험해 보면서 모델의 외관을 세밀하게 조정해 보세요.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **마지막 업데이트:** 2026-03-02  
@@ -141,3 +134,10 @@ A: 임시 라이선스 정보는 [this link](https://purchase.aspose.com/tempora
 **작성자:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

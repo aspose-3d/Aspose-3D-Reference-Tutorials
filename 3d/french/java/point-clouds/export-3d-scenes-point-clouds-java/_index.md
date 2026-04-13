@@ -5,7 +5,7 @@ description: Apprenez à exporter des scènes 3D sous forme de nuages de points 
   nuage de points et enregistrer le fichier de nuage de points en Java.
 linktitle: Export 3D Scenes as Point Clouds with Aspose.3D for Java
 second_title: Aspose.3D Java API
-title: 'aspose 3d point cloud : Exporter des scènes 3D en nuages de points avec Aspose.3D
+title: 'aspose 3d point cloud - Exporter des scènes 3D en nuages de points avec Aspose.3D
   pour Java'
 url: /fr/java/point-clouds/export-3d-scenes-point-clouds-java/
 weight: 15

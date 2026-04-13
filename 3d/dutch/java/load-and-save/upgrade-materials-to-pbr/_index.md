@@ -127,15 +127,15 @@ A: Bezoek [this link](https://purchase.aspose.com/temporary-license/) voor infor
 
 Door de bovenstaande stappen te volgen, weet je nu **how to upgrade 3d materials to pbr java** met Aspose.3D. De conversie wordt automatisch afgehandeld tijdens de GLTF-export, waardoor je realistische, engine‑klare assets krijgt met minimale code‑wijzigingen. Voel je vrij om te experimenteren met andere materiaaleigenschappen (metallic, roughness) om het uiterlijk van je modellen fijn af te stemmen.
 
+---
+
+**Laatst bijgewerkt:** 2026-03-02  
+**Getest met:** Aspose.3D 24.10 for Java  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-03-02  
-**Getest met:** Aspose.3D 24.10 for Java  
-**Auteur:** Aspose

@@ -127,13 +127,6 @@ A: Truy cập [liên kết này](https://purchase.aspose.com/temporary-license/)
 
 Bằng cách thực hiện các bước trên, bạn đã biết **cách nâng cấp vật liệu 3d lên pbr java** bằng Aspose.3D. Quá trình chuyển đổi được thực hiện tự động trong quá trình xuất GLTF, cung cấp cho bạn các tài sản thực tế, sẵn sàng cho engine với ít thay đổi mã. Hãy thoải mái thử nghiệm các thuộc tính vật liệu khác (metallic, roughness) để tinh chỉnh giao diện mô hình của bạn.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-03-02  
@@ -141,3 +134,10 @@ Bằng cách thực hiện các bước trên, bạn đã biết **cách nâng c
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,7 @@ description: Ismerje meg, hogyan exportálhatja a 3D jeleneteket pontfelhőként
   és hogyan mentse a pontfelhő fájlt Java‑ban.
 linktitle: Export 3D Scenes as Point Clouds with Aspose.3D for Java
 second_title: Aspose.3D Java API
-title: 'aspose 3d pontfelhő: 3D jelenetek exportálása pontfelhőként az Aspose.3D for
+title: 'aspose 3d pontfelhő - 3D jelenetek exportálása pontfelhőként az Aspose.3D for
   Java segítségével'
 url: /hu/java/point-clouds/export-3d-scenes-point-clouds-java/
 weight: 15

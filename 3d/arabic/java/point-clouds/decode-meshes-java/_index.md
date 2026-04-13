@@ -116,15 +116,15 @@ Mesh mesh = pointCloud.get_Mesh();
 **س: هل تدعم المكتبة العرض المسرّع بواسطة GPU؟**  
 ج: عملية العرض تُدار بواسطة محركك الخاص؛ تركز Aspose.3D على معالجة الملفات والشبكات.
 
+---
+
+**آخر تحديث:** 2026-03-02  
+**تم الاختبار مع:** Aspose.3D للـ Java (أحدث نسخة)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-03-02  
-**تم الاختبار مع:** Aspose.3D للـ Java (أحدث نسخة)  
-**المؤلف:** Aspose

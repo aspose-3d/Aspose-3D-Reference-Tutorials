@@ -127,13 +127,6 @@ s.save(MyDir + "Non_PBRtoPBRMaterial_Out.gltf", opt);
 
 Ακολουθώντας τα παραπάνω βήματα, τώρα γνωρίζετε **πώς να αναβαθμίσετε υλικά 3d σε pbr java** χρησιμοποιώντας το Aspose.3D. Η μετατροπή γίνεται αυτόματα κατά την εξαγωγή σε GLTF, παρέχοντάς σας ρεαλιστικά, έτοιμα για μηχανές, assets με ελάχιστες αλλαγές κώδικα. Μη διστάσετε να πειραματιστείτε με άλλες ιδιότητες υλικού (metallic, roughness) για να ρυθμίσετε την εμφάνιση των μοντέλων σας.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία Ενημέρωση:** 2026-03-02  
@@ -141,3 +134,10 @@ s.save(MyDir + "Non_PBRtoPBRMaterial_Out.gltf", opt);
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

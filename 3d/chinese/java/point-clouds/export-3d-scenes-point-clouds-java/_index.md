@@ -3,7 +3,7 @@ date: 2026-03-02
 description: 学习如何使用 Aspose 3D 的点云功能将 3D 场景导出为点云。本指南展示了如何在 Java 中导出点云并保存点云文件。
 linktitle: Export 3D Scenes as Point Clouds with Aspose.3D for Java
 second_title: Aspose.3D Java API
-title: Aspose 3D 点云：使用 Aspose.3D for Java 将 3D 场景导出为点云
+title: Aspose 3D 点云 - 使用 Aspose.3D for Java 将 3D 场景导出为点云
 url: /zh/java/point-clouds/export-3d-scenes-point-clouds-java/
 weight: 15
 ---

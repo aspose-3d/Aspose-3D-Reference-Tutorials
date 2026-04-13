@@ -16,35 +16,35 @@ weight: 11
 
 # Cara Membaca File 3D di Java dengan Aspose.3D
 
-## Introduction
+## Perkenalan
 
-Jika Anda perlu **how to read 3d** file dalam aplikasi Java, langkah pertama biasanya adalah menentukan format tepat dari file yang masuk. Mengetahui format memungkinkan Anda memilih pipeline pemrosesan yang tepat, menghindari error runtime, dan menjaga kode tetap bersih. Aspose.3D untuk Java menyediakan API satu baris yang langsung memberi tahu apakah file tersebut FBX, OBJ, 3MF, STL, atau tipe lain yang didukung. Dalam tutorial ini Anda akan melihat cara menyiapkan lingkungan, memanggil metode deteksi, dan menampilkan hasil—semua dalam beberapa baris kode.
+Jika Anda perlu **cara membaca file 3d** dalam aplikasi Java, langkah pertama biasanya adalah menentukan format yang tepat dari file yang masuk. Mengetahui format memungkinkan Anda memilih pemrosesan pipa yang tepat, menghindari error runtime, dan menjaga kode tetap bersih. Aspose.3D untuk Java menyediakan API satu baris yang langsung memberi tahu apakah file tersebut FBX, OBJ, 3MF, STL, atau tipe lain yang didukung. Dalam tutorial ini Anda akan melihat cara menyiapkan lingkungan, memanggil metode deteksi, dan menampilkan hasil—semua dalam beberapa baris kode.
 
-## Quick Answers
-- **Apa yang dikembalikan oleh API deteksi?** Enum `FileFormat` yang mengidentifikasi format 3D yang tepat.  
-- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Lisensi evaluasi gratis dapat digunakan untuk pengembangan dan pengujian.  
-- **Versi Java mana yang didukung?** Runtime Java 8 dan yang lebih baru sepenuhnya kompatibel.  
-- **Apakah API ini thread‑safe?** Ya, Anda dapat memanggil `FileFormat.detect` dari beberapa thread secara aman.  
-- **Bisakah saya mendeteksi arsip terkompresi (ZIP, GZIP) secara langsung?** Metode ini bekerja pada file yang telah diekstrak; Anda harus unzip terlebih dahulu.
+## Jawaban Cepat
+- **Apa yang dikembalikan oleh deteksi API?** Enum `FileFormat` yang mengidentifikasi format 3D yang tepat.
+- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Lisensi evaluasi gratis dapat digunakan untuk pengembangan dan pengujian.
+- **Versi Java mana yang didukung?** Runtime Java8 dan yang lebih baru sepenuhnya kompatibel.
+- **Apakah API ini thread‑safe?** Ya, Anda dapat memanggil `FileFormat.detect` dari beberapa thread secara aman.
+- ** bisakah saya mendeteksi arsip terkompresi (ZIP, GZIP) secara langsung?** Metode ini bekerja pada file yang telah diekstrak; Anda harus unzip terlebih dahulu.
 
-## What is 3D File Format Detection?
-Mendeteksi format file 3D berarti membaca header file atau byte tanda tangan untuk mengidentifikasi tipe file tanpa bergantung pada ekstensi file. Ini penting ketika pengguna mengunggah file dengan ekstensi yang salah atau ketika Anda memproses file dari sumber yang tidak diketahui.
+## Apa itu Deteksi Format File 3D?
+Mendeteksi file format 3D berarti membaca file header atau byte tanda tangan untuk mengidentifikasi tipe file tanpa bergantung pada ekstensi file. Ini penting ketika pengguna mengunggah file dengan ekstensi yang salah atau ketika Anda memproses file dari sumber yang tidak diketahui.
 
-## Why Use Aspose.3D for Reading 3D Files?
-- **Deteksi tanpa ketergantungan** – Tidak memerlukan parser eksternal; perpustakaan menangani secara internal.  
-- **Dukungan format luas** – Lebih dari 20 format 3D populer sudah didukung secara default.  
-- **Kinerja tinggi** – Rutinitas deteksi hanya membaca beberapa byte, membuatnya cepat bahkan untuk model besar.  
+## Mengapa Menggunakan Aspose.3D untuk Membaca File 3D?
+- **Deteksi tanpa ketergantungan** – Tidak memerlukan parser eksternal; perpustakaan menangani secara internal.
+- **Dukungan format luas** – Lebih dari 20 format 3D populer telah didukung secara default.
+- **Kinerja tinggi** – Rutinitas deteksi hanya membaca beberapa byte, membuatnya cepat bahkan untuk model besar.
 - **API konsisten** – Metode yang sama berfungsi di Windows, Linux, dan macOS.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum menyelami tutorial, pastikan Anda memiliki prasyarat berikut:
 
-1. **Java Development Kit (JDK):** Aspose.3D untuk Java memerlukan JDK yang berfungsi terpasang di sistem Anda. Anda dapat mengunduh JDK terbaru [di sini](https://www.oracle.com/java/technologies/javase-downloads.html).
+1. **Java Development Kit (JDK):** Aspose.3D untuk Java memerlukan JDK yang berfungsi terpasang di sistem Anda. Anda dapat mengunduh JDK terbaru [di sini](https://www.Oracle.com/java/technologies/javase-downloads.html).
 
-2. **Perpustakaan Aspose.3D:** Dapatkan perpustakaan Aspose.3D untuk Java dengan mengunjungi [tautan unduhan](https://releases.aspose.com/3d/java/). Ikuti petunjuk instalasi untuk menyiapkan perpustakaan dalam proyek Anda.
+2. **Perpustakaan Aspose.3D:** Dapatkan perpustakaan Aspose.3D untuk Java dengan mengunjungi [tautan download](https://releases.aspose.com/3d/java/). Ikuti petunjuk instalasi untuk menyiapkan perpustakaan dalam proyek Anda.
 
-## Import Packages
+## Impor Paket
 
 Untuk memulai mendeteksi format file 3D, impor paket yang diperlukan ke dalam proyek Java Anda. Tambahkan baris berikut di awal file Java Anda:
 
@@ -56,7 +56,7 @@ import java.io.IOException;
 
 Mari kita uraikan baris-baris ini menjadi panduan langkah demi langkah.
 
-## Step 1: Set Document Directory
+## Langkah 1: Atur Direktori Dokumen
 
 Tentukan path ke direktori dokumen Anda. Ganti `"Your Document Directory"` dengan path sebenarnya tempat file 3D Anda berada.
 
@@ -64,7 +64,7 @@ Tentukan path ke direktori dokumen Anda. Ganti `"Your Document Directory"` denga
 String MyDir = "Your Document Directory";
 ```
 
-## Step 2: Detect 3D File Format
+## Langkah 2: Deteksi Format File 3D
 
 Gunakan metode `FileFormat.detect` untuk mengidentifikasi format file 3D. Ganti `"document.fbx"` dengan nama file 3D Anda.
 
@@ -72,7 +72,7 @@ Gunakan metode `FileFormat.detect` untuk mengidentifikasi format file 3D. Ganti 
 FileFormat inputFormat = FileFormat.detect(MyDir + "document.fbx");
 ```
 
-## Step 3: Display the File Format
+## Langkah 3: Tampilkan Format File
 
 Cetak format file yang terdeteksi ke konsol.
 
@@ -82,51 +82,51 @@ System.out.println("File Format: " + inputFormat.toString());
 
 Dengan mengikuti langkah-langkah ini, Anda telah berhasil mengintegrasikan Aspose.3D ke dalam proyek Java Anda untuk deteksi format file 3D yang efisien, yang merupakan dasar dari **how to read 3d** file dengan benar.
 
-## Common Issues & Tips
+## Masalah & Tip Umum
 
-- **Path tidak benar:** Pastikan `MyDir` diakhiri dengan pemisah file (`/` atau `\\`) yang sesuai untuk OS Anda.  
-- **Format tidak didukung:** Jika `detect` mengembalikan `FileFormat.UNKNOWN`, pastikan file tidak rusak dan format tersebut tercantum dalam format yang didukung Aspose.3D.  
-- **File besar:** Deteksi hanya membaca header, sehingga dampak kinerja dapat diabaikan bahkan untuk model berukuran multi‑gigabyte.
+- **Path tidak benar:** Pastikan `MyDir` diakhiri dengan pemisah file (`/` atau `\\`) yang sesuai untuk OS Anda.
+- **Format tidak didukung:** Jika `detect` mengembalikan `FileFormat.UNKNOWN`, pastikan file tidak rusak dan format tersebut tercantum dalam format yang didukung Aspose.3D.
+- **File besar:** Deteksi hanya membaca header, sehingga dampak kinerja tidak dapat diabaikan bahkan untuk model berukuran multi‑gigabyte.
 
-## FAQ's
+## FAQ
 
-### Q1: Can I use Aspose.3D for Java with other Java libraries?
+### Q1: Bisakah saya menggunakan Aspose.3D untuk Java dengan perpustakaan Java lainnya?
 
-A1: Ya, Aspose.3D dirancang untuk terintegrasi secara mulus dengan perpustakaan Java lainnya, memberikan fleksibilitas dalam stack pengembangan Anda.
+A1: Ya, Aspose.3D dirancang untuk terintegrasi secara mulus dengan perpustakaan Java lainnya, memberikan kesalahan dalam tumpukan pengembangan Anda.
 
-### Q2: Is Aspose.3D suitable for both beginners and experienced developers?
+### Q2: Apakah Aspose.3D cocok untuk pemula dan pengembang berpengalaman?
 
 A2: Tentu saja! Aspose.3D menawarkan antarmuka yang ramah pengguna untuk pemula sekaligus menyediakan fitur lanjutan untuk pengembang berpengalaman.
 
-### Q3: How often are updates released for Aspose.3D?
+### Q3: Seberapa sering pembaruan dirilis untuk Aspose.3D?
 
-A3: Pembaruan rutin dirilis untuk memastikan kompatibilitas dengan teknologi terbaru dan mengatasi potensi masalah. Periksa [dokumentasi](https://reference.aspose.com/3d/java/) untuk informasi terbaru.
+A3: Pembaruan rutin dirilis untuk memastikan kompatibilitas dengan teknologi terbaru dan mengatasi masalah potensi. Periksa [dokumentasi](https://reference.aspose.com/3d/java/) untuk informasi terbaru.
 
-### Q4: Can I try Aspose.3D for Java before purchasing?
+### Q4: Bisakah saya mencoba Aspose.3D untuk Java sebelum membeli?
 
 A4: Ya, Anda dapat menjelajahi fitur Aspose.3D dengan mendapatkan percobaan gratis dari [sini](https://releases.aspose.com/).
 
-### Q5: Where can I seek help if I encounter issues with Aspose.3D?
+### Q5: Di mana saya bisa mencari bantuan jika saya mengalami masalah dengan Aspose.3D?
 
 A5: Kunjungi [forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk meminta bantuan dari komunitas dan para ahli.
 
-**Additional Q&A**
+**Tanya Jawab Tambahan**
 
-**Q: Does the detection API work with encrypted or password‑protected files?**  
-A: API hanya membaca header file, sehingga enkripsi yang menyembunyikan header akan menyebabkan deteksi mengembalikan `UNKNOWN`. Dekripsi file terlebih dahulu.
+**T: Apakah API deteksi berfungsi dengan file terenkripsi atau dilindungi kata sandi?**
+A: API hanya membaca file header, sehingga enkripsi yang menyembunyikan header akan menyebabkan deteksi mengembalikan `UNKNOWN`. File dekripsi terlebih dahulu.
 
-**Q: Can I detect the format of a file stored in a byte array?**  
-A: Ya, gunakan overload `FileFormat.detect(byte[] data)` untuk langsung melewatkan byte mentah.
+**T: Bisakah saya mendeteksi format file yang disimpan dalam array byte?**
+A: Ya, gunakan kelebihan `FileFormat.detect(byte[] data)` untuk langsung melewatkan byte mentah.
 
-## Conclusion
+## Kesimpulan
 
-Dalam tutorial ini kami membahas **how to read 3d** file di Java dengan terlebih dahulu mendeteksi formatnya menggunakan Aspose.3D. Pendekatan ringan ini menghilangkan tebakan, mengurangi kesalahan, dan mempercepat alur kerja secara keseluruhan. Setelah Anda mengetahui formatnya, Anda dapat dengan yakin memuat, mengonversi, atau memanipulasi model menggunakan set fitur lengkap Aspose.3D.
+Dalam tutorial ini kami membahas **cara membaca file 3d** di Java dengan terlebih dahulu mendeteksi formatnya menggunakan Aspose.3D. Pendekatan ringan ini menghilangkan pembacaan, mengurangi kesalahan, dan mempercepat alur kerja secara keseluruhan. Setelah Anda mengetahui formatnya, Anda dapat yakin mengunduh, mengonversi, atau memanipulasi model menggunakan set fitur lengkap Aspose.3D.
 
 ---
 
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.3D 24.11 for Java  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-03-02
+**Diuji Dengan:** Aspose.3D 24.11 untuk Java
+**Pengarang:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
