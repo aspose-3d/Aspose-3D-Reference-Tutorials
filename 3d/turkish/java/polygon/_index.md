@@ -74,13 +74,6 @@ Aspose.3D ile Java 3D render'ı geliştirin. Optimum performans için poligonlar
 ### [Java 3D Modellerinde Doku Haritalama için UV Koordinatları Oluşturma](./generate-uv-coordinates/)
 Aspose.3D kullanarak Java 3D modelleri için UV koordinatları oluşturmayı öğrenin. Bu adım‑adım kılavuzla projelerinizde doku haritalamayı geliştirin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.3D'yi Unity gibi gerçek‑zaman motorları için UV haritalama oluşturmak amacıyla kullanabilir miyim?**  
@@ -103,3 +96,10 @@ C: OBJ, FBX, glTF ve genişletilmiş STL formatı kullanıldığında STL, Aspos
 **Son Güncelleme:** 2026-03-07  
 **Test Edilen Sürüm:** Aspose.3D for Java 23.10  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

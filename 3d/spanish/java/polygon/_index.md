@@ -74,13 +74,6 @@ Mejore el renderizado Java 3D con Aspose.3D. Aprenda a convertir polígonos en t
 ### [Generate UV Coordinates for Texture Mapping in Java 3D Models](./generate-uv-coordinates/)
 Aprenda a generar coordenadas UV para modelos 3D Java usando Aspose.3D. Mejore el mapeado de texturas en sus proyectos con esta guía paso a paso.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas Frecuentes
 
 **Q: ¿Puedo usar Aspose.3D para crear UV mapping para motores en tiempo real como Unity?**  
@@ -103,3 +96,10 @@ A: OBJ, FBX, glTF y STL (cuando se usa el formato STL extendido) conservan los d
 **Last Updated:** 2026-03-07  
 **Tested With:** Aspose.3D for Java 23.10  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

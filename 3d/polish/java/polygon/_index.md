@@ -74,13 +74,6 @@ Ulepsz renderowanie Java 3D przy użyciu Aspose.3D. Naucz się konwertować wiel
 ### [Generowanie współrzędnych UV dla mapowania tekstur w modelach Java 3D](./generate-uv-coordinates/)
 Naucz się generować współrzędne UV dla modeli Java 3D przy użyciu Aspose.3D. Ulepsz mapowanie tekstur w swoich projektach dzięki temu przewodnikowi krok po kroku.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę używać Aspose.3D do tworzenia mapowania UV dla silników czasu rzeczywistego, takich jak Unity?**  
@@ -103,3 +96,10 @@ A: OBJ, FBX, glTF oraz STL (przy użyciu rozszerzonego formatu STL) zachowują d
 **Ostatnia aktualizacja:** 2026-03-07  
 **Testowano z:** Aspose.3D for Java 23.10  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

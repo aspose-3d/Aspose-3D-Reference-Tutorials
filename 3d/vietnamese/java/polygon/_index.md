@@ -74,13 +74,6 @@ Nâng cao render Java 3D với Aspose.3D. Học cách chuyển đổi đa giác 
 ### [Tạo tọa độ UV cho ánh xạ texture trong mô hình 3D Java](./generate-uv-coordinates/)
 Học cách tạo tọa độ UV cho mô hình 3D Java bằng Aspose.3D. Nâng cao ánh xạ texture trong dự án của bạn với hướng dẫn chi tiết từng bước.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể dùng Aspose.3D để tạo UV mapping cho các engine thời gian thực như Unity không?**  
@@ -103,3 +96,10 @@ A: OBJ, FBX, glTF và STL (khi dùng định dạng STL mở rộng) đều bả
 **Cập nhật lần cuối:** 2026-03-07  
 **Kiểm tra với:** Aspose.3D for Java 23.10  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

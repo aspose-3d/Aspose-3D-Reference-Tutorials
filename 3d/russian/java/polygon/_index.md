@@ -79,13 +79,6 @@ weight: 27
 ### [Генерация UV‑координат для текстурного отображения в Java 3D моделях](./generate-uv-coordinates/)
 Научитесь генерировать UV‑координаты для Java 3D моделей с помощью Aspose.3D. Улучшите текстурное отображение в ваших проектах с этим пошаговым руководством.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Могу ли я использовать Aspose.3D для создания UV‑mapping для движков реального времени, таких как Unity?**  
@@ -108,3 +101,10 @@ A: OBJ, FBX, glTF и STL (при использовании расширенно
 **Последнее обновление:** 2026-03-07  
 **Тестировано с:** Aspose.3D for Java 23.10  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

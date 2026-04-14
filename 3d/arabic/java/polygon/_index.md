@@ -75,13 +75,6 @@ weight: 27
 ### [Generate UV Coordinates for Texture Mapping in Java 3D Models](./generate-uv-coordinates/)
 تعلم توليد إحداثيات UV لنماذج Java 3D باستخدام Aspose.3D. حسّن تخطيط القوام في مشاريعك مع هذا الدليل خطوة بخطوة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.3D لإنشاء تخطيط UV لمحركات الوقت الحقيقي مثل Unity؟**  
@@ -104,3 +97,10 @@ weight: 27
 **آخر تحديث:** 2026-03-07  
 **تم الاختبار مع:** Aspose.3D for Java 23.10  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

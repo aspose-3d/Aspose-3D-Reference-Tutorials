@@ -19,11 +19,11 @@ weight: 16
 欢迎阅读本完整指南，了解如何使用 **如何导出 PLY** 文件在 Java 中通过 Aspose.3D 实现点云处理。点云处理是现代 3D 图形的关键环节，掌握 PLY 导出可以高效地共享、可视化和处理大量点集。在本教程中，我们将从前置条件到完整代码逐步演示，帮助你从 Java 点云数据中写入 PLY 文件。
 
 ## 快速回答
-- **What is the primary library?** Aspose.3D for Java
-- **Which format does the tutorial export?** PLY (Polygon File Format)
-- **Do I need a license for development?** A temporary license is sufficient for testing
-- **Can I export other geometry types?** Yes, the same API works for meshes, lines, etc.
-- **Typical implementation time?** About 10‑15 minutes for a basic point‑cloud export
+- **主要库是什么？** Aspose.3D for Java
+- **教程导出格式是什么？** PLY（多边形文件格式）
+- **开发需要许可证吗？** 测试需要临时许可证
+- **可以导出其他几何体类型吗？** 可以，相同的 API 也适用于网格、线等。
+- **通常需要多长时间？** 导出基本点云大约需要 10-15 分钟
 
 ## 在 Java 中“如何导出 ply”是什么？
 在 Java 中导出 PLY 意味着将内存中的 3D 对象（如点云、网格或基元）转换为 PLY 文件格式，该格式被 MeshLab、CloudCompare、Blender 等可视化工具广泛支持。Aspose.3D 抽象了底层文件写入细节，让你专注于几何构建。

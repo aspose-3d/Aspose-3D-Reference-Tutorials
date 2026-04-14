@@ -72,13 +72,6 @@ weight: 27
 ### [为 Java 3D 模型生成纹理映射的 UV 坐标](./generate-uv-coordinates/)
 学习使用 Aspose.3D 为 Java 3D 模型生成 UV 坐标。通过本分步指南提升项目的纹理映射效果。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q: 我可以使用 Aspose.3D 为 Unity 等实时引擎创建 UV 映射吗？**  
@@ -101,3 +94,10 @@ A: OBJ、FBX、glTF 以及使用扩展 STL 格式的 STL 都会保存 Aspose.3D 
 **最后更新：** 2026-03-07  
 **测试环境：** Aspose.3D for Java 23.10  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

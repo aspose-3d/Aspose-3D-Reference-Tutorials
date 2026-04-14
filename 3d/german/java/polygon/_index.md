@@ -74,13 +74,6 @@ Verbessern Sie das Java‑3D‑Rendering mit Aspose.3D. Lernen Sie, Polygone zu 
 ### [UV‑Koordinaten für Textur‑Mapping in Java‑3D‑Modellen erzeugen](./generate-uv-coordinates/)
 Erfahren Sie, wie Sie UV‑Koordinaten für Java‑3D‑Modelle mit Aspose.3D erzeugen. Verbessern Sie das Textur‑Mapping in Ihren Projekten mit diesem Schritt‑für‑Schritt‑Leitfaden.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Aspose.3D verwenden, um UV‑Mapping für Echtzeit‑Engines wie Unity zu erstellen?**  
@@ -103,3 +96,10 @@ Erfahren Sie, wie Sie UV‑Koordinaten für Java‑3D‑Modelle mit Aspose.3D er
 **Last Updated:** 2026-03-07  
 **Tested With:** Aspose.3D for Java 23.10  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

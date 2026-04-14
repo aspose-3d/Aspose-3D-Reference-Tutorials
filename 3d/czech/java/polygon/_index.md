@@ -75,13 +75,6 @@ Vylepšete Java 3D vykreslování s Aspose.3D. Naučte se převádět polygony
 ### [Generování UV souřadnic pro texturování v Java 3D modelech](./generate-uv-coordinates/)
 Naučte se generovat UV souřadnice pro Java 3D modely pomocí Aspose.3D. Vylepšete texturování ve svých projektech s tímto krok‑za‑krokem průvodcem.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu použít Aspose.3D k vytvoření UV mappingu pro real‑time enginy jako Unity?**  
@@ -104,3 +97,10 @@ A: OBJ, FBX, glTF a STL (při použití rozšířeného STL formátu) všechny u
 **Poslední aktualizace:** 2026-03-07  
 **Testováno s:** Aspose.3D for Java 23.10  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

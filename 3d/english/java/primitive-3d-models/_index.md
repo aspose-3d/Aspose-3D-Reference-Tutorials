@@ -1,6 +1,6 @@
 ---
-title: How to Model 3D: Primitive Models with Aspose.3D for Java
-linktitle: How to Model 3D: Primitive Models with Aspose.3D for Java
+title: How to Model 3D - Primitive Models with Aspose.3D for Java
+linktitle: How to Model 3D - Primitive Models with Aspose.3D for Java
 second_title: Aspose.3D Java API
 description: Learn how to model 3D using Aspose.3D for Java with step‑by‑step guides to build primitive 3D models effortlessly. Discover tips, code snippets, and best practices.
 weight: 24

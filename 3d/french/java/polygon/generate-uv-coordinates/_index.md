@@ -18,30 +18,30 @@ weight: 11
 
 ## Introduction
 
-Si vous cherchez **how to create uv** des coordonnées pour le mapping de textures dans un modèle 3D Java, vous êtes au bon endroit. Dans ce tutoriel, nous parcourrons les étapes exactes nécessaires pour générer manuellement des données UV avec Aspose.3D, les attacher à un maillage, puis **export OBJ file Java**‑compatible. À la fin, vous comprendrez pourquoi le mapping UV est important, comment le générer programmatiquement et comment vérifier le résultat dans un visualiseur OBJ standard.
+Si vous cherchez **comment créer des uv** des coordonnées pour le mappage de textures dans un modèle 3D Java, vous êtes au bon endroit. Dans ce tutoriel, nous parcourrons les étapes exactes nécessaires pour générer manuellement des données UV avec Aspose.3D, les attacher à un maillage, puis **export OBJ file Java**‑compatible. À la fin, vous comprenez pourquoi le mapping UV est important, comment le générer par programmation et comment vérifier le résultat dans un visualiseur standard OBJ.
 
-## Quick Answers
-- **What is UV mapping?** C’est le processus d’attribution de coordonnées de texture 2‑D (U & V) aux sommets 3‑D.  
-- **Which library helps you generate UV in Java?** Aspose.3D for Java.  
-- **Do I need a license to try this?** Un essai gratuit est disponible ; une licence est requise pour la production.  
-- **Can I export the result as OBJ?** Oui – utilisez `scene.save(..., FileFormat.WAVEFRONTOBJ)`.  
-- **What are the main steps?** Créez une scène, construisez un maillage, générez les UV, attachez‑les, puis enregistrez.
+## Réponses rapides
+- **What is UV mapping?** C’est le processus d’attribution de coordonnées de texture 2‑D (U&V) aux sommets 3‑D.
+- **Quelle bibliothèque vous aide à générer des UV en Java ?** Aspose.3D pour Java.
+- **Ai-je besoin d'une licence pour essayer ceci ?** Un essai gratuit est disponible ; une licence est requise pour la production.
+- **Puis-je exporter le résultat en OBJ ?** Oui – utilisez `scene.save(..., FileFormat.WAVEFRONTOBJ)`.
+- **Quelles sont les principales étapes ?** Créez une scène, construisez un maillage, générez les UV, attachez‑les, puis enregistrez.
 
-## What is UV Mapping and Why Do We Need It?
+## Qu'est-ce que la cartographie UV et pourquoi en avons-nous besoin ?
 
-Le mapping UV vous permet d’envelopper une image 2‑D (la texture) autour d’un objet 3‑D. Sans coordonnées UV appropriées, les textures apparaissent étirées, mal alignées ou totalement absentes. Générer les UV manuellement vous donne un contrôle total sur la façon dont les textures sont projetées, ce qui est essentiel pour les jeux, les simulations et toute application Java riche en visuels.
+Le mapping UV vous permet d’envelopper une image 2‑D (la texture) autour d’un objet 3‑D. Sans coordonnées UV appropriées, les textures apparaissent étrées, mal alignées ou totalement absentes. Générer les UV manuellement vous donne un contrôle total sur la façon dont les textures sont projetées, ce qui est essentiel pour les jeux, les simulations et toute application Java riche en visuels.
 
-## Prerequisites
+## Prérequis
 
-Avant de commencer, assurez‑vous d’avoir :
+Avant de commencer, assurez-vous d’avoir :
 
-- Des connaissances de base en programmation Java.  
-- Aspose.3D for Java installé – vous pouvez le télécharger depuis [here](https://releases.aspose.com/3d/java/).  
-- Un IDE Java (IntelliJ IDEA, Eclipse, VS Code, etc.) configuré avec les JARs Aspose.3D dans le classpath.
+- Des connaissances de base en programmation Java.
+- Aspose.3D for Java installé – vous pouvez le télécharger depuis [ici](https://releases.aspose.com/3d/java/).
+- Un IDE Java (IntelliJ IDEA, Eclipse, VSCode, etc.) configuré avec les JARs Aspose.3D dans le classpath.
 
-## Import Packages
+## Importer des packages
 
-Dans votre projet Java, importez les classes Aspose.3D nécessaires. Ces imports vous donnent accès à la gestion de scène, à la manipulation de maillage et à la gestion des éléments de sommet.
+Dans votre projet Java, importez les classes Aspose.3D nécessaires. Ces importations vous donnent accès à la gestion de scène, à la manipulation de maillage et à la gestion des éléments de sommet.
 
 ```java
 import com.aspose.threed.Box;
@@ -54,9 +54,9 @@ import com.aspose.threed.VertexElement;
 import com.aspose.threed.VertexElementType;
 ```
 
-## Step‑by‑Step Guide
+## Guide étape par étape
 
-### Step 1: Set Document Directory Path
+### Étape 1 : Définir le chemin du répertoire de documents
 
 Définissez l’endroit où le fichier OBJ généré sera enregistré.
 
@@ -66,7 +66,7 @@ String MyDir = "Your Document Directory";
 
 > **Pro tip:** Utilisez un chemin absolu ou `System.getProperty("user.dir")` pour éviter les surprises liées aux chemins relatifs.
 
-### Step 2: Create a Scene
+### Étape 2 : Créer une scène
 
 Un `Scene` est le conteneur de niveau supérieur pour tous les objets 3‑D.
 
@@ -74,7 +74,7 @@ Un `Scene` est le conteneur de niveau supérieur pour tous les objets 3‑D.
 Scene scene = new Scene();
 ```
 
-### Step 3: Create a Mesh
+### Étape 3 : Créer un maillage
 
 Nous commencerons avec un maillage de boîte simple et supprimerons délibérément toutes les données UV intégrées afin de simuler un maillage dépourvu de coordonnées de texture.
 
@@ -83,7 +83,7 @@ Mesh mesh = (new Box()).toMesh();
 mesh.getVertexElements().remove(mesh.getElement(VertexElementType.UV));
 ```
 
-### Step 4: How to Generate UV Coordinates Manually
+### Étape 4 : Générer manuellement les coordonnées UV
 
 Aspose.3D fournit `PolygonModifier.generateUV` qui crée une disposition UV planaire de base pour n’importe quel maillage.
 
@@ -91,7 +91,7 @@ Aspose.3D fournit `PolygonModifier.generateUV` qui crée une disposition UV plan
 VertexElement uv = PolygonModifier.generateUV(mesh);
 ```
 
-### Step 5: Associate UV Data with the Mesh
+### Étape 5 : Associer les données UV au maillage
 
 Attachez maintenant l’élément UV généré au maillage afin qu’il devienne partie des données de sommet.
 
@@ -99,7 +99,7 @@ Attachez maintenant l’élément UV généré au maillage afin qu’il devienne
 mesh.addElement(uv);
 ```
 
-### Step 6: Create a Node and Add Mesh to the Scene
+### Étape 6 : Créer un nœud et ajouter le maillage à la scène
 
 Un `Node` représente une instance d’objet dans le graphe de scène. Ajouter le maillage à un nœud le rend rendu.
 
@@ -107,7 +107,7 @@ Un `Node` représente une instance d’objet dans le graphe de scène. Ajouter l
 Node node = scene.getRootNode().createChildNode(mesh);
 ```
 
-### Step 7: How to Export OBJ File Java
+### Étape 7 : Exporter un fichier OBJ (Java)## Guide étape par étape
 
 Enfin, écrivez la scène complète — y compris nos nouvelles coordonnées UV — dans un fichier OBJ, qui peut être ouvert dans pratiquement n’importe quel outil 3‑D.
 
@@ -115,43 +115,43 @@ Enfin, écrivez la scène complète — y compris nos nouvelles coordonnées UV 
 scene.save(MyDir + "test.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-> **What to expect:** L’ouverture de `test.obj` dans un visualiseur comme Blender devrait afficher la boîte avec une disposition UV par défaut, prête à recevoir n’importe quelle texture que vous appliquerez.
+> **À quoi s'attendre :** L'ouverture de `test.obj` dans un visualiseur comme Blender devrait afficher la boîte avec une disposition UV par défaut, prête à recevoir n'importe quelle texture que vous appliquez.
 
-## Common Issues and Solutions
+## Problèmes courants et solutions
 
-| Issue | Reason | Fix |
+| Problème | Raison | Corriger |
 |-------|--------|-----|
-| **UVs appear missing in the viewer** | Le maillage contient encore un ancien élément UV. | Assurez‑vous d’avoir supprimé l’UV original (`mesh.getVertexElements().remove(...)`) avant de générer les nouveaux. |
-| **File not found error** | `MyDir` pointe vers un dossier inexistant. | Créez le répertoire d’abord ou utilisez `new File(MyDir).mkdirs();`. |
-| **License exception** | Exécution sans licence valide en production. | Appliquez une licence temporaire ou permanente comme décrit dans la documentation Aspose. |
+| **Les UV semblent manquants dans la visionneuse** | Le maillage contient encore un ancien élément UV. | Assurez-vous d’avoir supprimé l’UV original (`mesh.getVertexElements().remove(...)`) avant de générer les nouveaux. |
+| **Erreur de fichier introuvable** | `MyDir` pointe vers un dossier inexistant. | Créez le répertoire d'abord ou utilisez `new File(MyDir).mkdirs();`. |
+| **Exception de licence** | Exécution sans licence valide en production. | Appliquez une licence temporaire ou permanente comme décrite dans la documentation Aspose. |
 
-## Frequently Asked Questions
+## Questions fréquemment posées
 
-### Q1: Can I use Aspose.3D for Java with other programming languages?
+### Q1 : Puis-je utiliser Aspose.3D pour Java avec d'autres langages de programmation ?
 
-A1 : Aspose.3D est principalement conçu pour Java, mais Aspose propose également des liaisons pour .NET, C++ et d’autres langages. Consultez la documentation officielle pour les API spécifiques à chaque langage.
+A1 : Aspose.3D est principalement conçu pour Java, mais Aspose propose également des liaisons pour .NET, C++ et d’autres langages. Consultez la documentation officielle pour les API spécifiques à chaque langue.
 
-### Q2: Is there a trial version available for Aspose.3D?
+### Q2 : Existe-t-il une version d'essai disponible pour Aspose.3D ?
 
-A2 : Oui, vous pouvez explorer les fonctionnalités d’Aspose.3D en utilisant l’essai gratuit disponible [here](https://releases.aspose.com/).
+A2 : Oui, vous pouvez explorer les fonctionnalités d’Aspose.3D en utilisant l’essai gratuit disponible [ici](https://releases.aspose.com/).
 
-### Q3: How can I get support for Aspose.3D?
+### Q3 : Comment puis-je obtenir de l'aide pour Aspose.3D ?
 
-A3 : Visitez le forum Aspose.3D [here](https://forum.aspose.com/c/3d/18) pour obtenir de l’aide communautaire et échanger avec d’autres utilisateurs.
+A3 : Visitez le forum Aspose.3D [ici](https://forum.aspose.com/c/3d/18) pour obtenir de l’aide communautaire et échanger avec d’autres utilisateurs.
 
-### Q4: Where can I find comprehensive documentation for Aspose.3D?
+### Q4 : Où puis-je trouver une documentation complète pour Aspose.3D ?
 
-A4 : La documentation est disponible [here](https://reference.aspose.com/3d/java/).
+R4 : La documentation est disponible [ici](https://reference.aspose.com/3d/java/).
 
-### Q5: Can I purchase a temporary license for Aspose.3D?
+### Q5 : Puis-je acheter une licence temporaire pour Aspose.3D ?
 
-A5 : Oui, vous pouvez obtenir une licence temporaire [here](https://purchase.aspose.com/temporary-license/).
+R5 : Oui, vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Last Updated:** 2026-03-07  
-**Tested With:** Aspose.3D for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
+**Dernière mise à jour :** 07/03/2026
+**Testé avec :** Aspose.3D pour Java 24.11 (dernière version au moment de la rédaction)
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

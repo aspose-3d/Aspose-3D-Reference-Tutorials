@@ -117,39 +117,39 @@ scene.save(MyDir + "test.obj", FileFormat.WAVEFRONTOBJ);
 
 ## Распространённые проблемы и решения
 
-| Issue | Reason | Fix |
+| Выпуск | Причина | Исправить |
 |-------|--------|-----|
-| **UVs appear missing in the viewer** | Сетка всё ещё содержит старый UV‑элемент. | Убедитесь, что вы удалили оригинальный UV (`mesh.getVertexElements().remove(...)`) перед генерацией новых. |
-| **File not found error** | `MyDir` указывает на несуществующую папку. | Сначала создайте директорию или используйте `new File(MyDir).mkdirs();`. |
-| **License exception** | Запуск без действующей лицензии в продакшн‑режиме. | Примените временную или постоянную лицензию, как описано в документации Aspose. |
+| **В средстве просмотра отсутствуют ультрафиолетовые лучи** | Сетка всё ещё содержит старый UV‑элемент. | Убедитесь, что вы удалили оригинальный UV (`mesh.getVertexElements().remove(...)`) перед генерацией нового. |
+| **Ошибка: файл не найден** | `MyDir` указывает на несуществующую точку. | Сначала создайте каталог или воспользуйтесь `new File(MyDir).mkdirs();`. |
+| **Исключение из лицензии** | Запуск без действующей лицензии в продакшн‑режиме. | Замените временную или постоянную лицензию, как указано в документации Aspose. |
 
 ## Часто задаваемые вопросы
 
-### Q1: Can I use Aspose.3D for Java with other programming languages?
+### Вопрос 1: Могу ли я использовать Aspose.3D for Java с другими языками программирования?
 
-A1: Aspose.3D is primarily designed for Java, but Aspose also offers .NET, C++, and other language bindings. Check the official docs for language‑specific APIs.
+A1: Aspose.3D в первую очередь предназначен для Java, но Aspose также предлагает привязки для .NET, C++ и других языков. Для получения информации о API для конкретных языков ознакомьтесь с официальной документацией.
 
-### Q2: Is there a trial version available for Aspose.3D?
+### Q2: Доступна ли пробная версия Aspose.3D?
 
-A2: Yes, you can explore the features of Aspose.3D by using the free trial available [here](https://releases.aspose.com/).
+A2: Да, вы можете изучить возможности Aspose.3D, используя бесплатную пробную версию, доступную [здесь](https://releases.aspose.com/).
 
-### Q3: How can I get support for Aspose.3D?
+### Q3: Как я могу получить поддержку для Aspose.3D?
 
-A3: Visit the Aspose.3D forum [here](https://forum.aspose.com/c/3d/18) to get community support and engage with other users.
+A3: Посетите форум Aspose.3D [здесь](https://forum.aspose.com/c/3d/18), чтобы получить поддержку сообщества и пообщаться с другими пользователями.
 
-### Q4: Where can I find comprehensive documentation for Aspose.3D?
+### Q4: Где я могу найти подробную документацию по Aspose.3D?
 
-A4: The documentation is available [here](https://reference.aspose.com/3d/java/).
+A4: Документация доступна [здесь](https://reference.aspose.com/3d/java/).
 
-### Q5: Can I purchase a temporary license for Aspose.3D?
+### Вопрос 5: Могу ли я приобрести временную лицензию на Aspose.3D?
 
-A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+Ответ 5: Да, вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Last Updated:** 2026-03-07  
-**Tested With:** Aspose.3D for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
+**Последнее обновление:** 07.03.2026
+**Протестировано с:** Aspose.3D для Java 24.11 (последняя версия на момент написания)
+**Автор:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
