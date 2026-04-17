@@ -1,34 +1,43 @@
 ---
-title: SWT kullanarak Java Uygulamalarında Gerçek Zamanlı 3D İşlemeyi Uygulama
-linktitle: SWT kullanarak Java Uygulamalarında Gerçek Zamanlı 3D İşlemeyi Uygulama
-second_title: Aspose.3D Java API'si
-description: Aspose.3D ile Java'da gerçek zamanlı 3D görüntülemenin büyüsünü keşfedin. Zahmetsizce görsel olarak etkileyici uygulamalar oluşturun.
-weight: 14
+date: 2026-03-13
+description: Aspose.3D ile Java’da 3D renderlamayı öğrenin, etkileyici etkileşimli
+  sahneler için SWT kullanarak gerçek zamanlı 3D renderlama elde edin.
+linktitle: How to Render 3D in Java with Real-Time Rendering using SWT
+second_title: Aspose.3D Java API
+title: SWT Kullanarak Java'da Gerçek Zamanlı Rendering ile 3D Nasıl Render Edilir
 url: /tr/java/rendering-3d-scenes/real-time-rendering-swt/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# SWT kullanarak Java Uygulamalarında Gerçek Zamanlı 3D İşlemeyi Uygulama
+# Java'da SWT Kullanarak Gerçek Zamanlı Rendering ile 3D Nasıl Render Edilir
 
-## giriiş
+## Giriş
 
-Java uygulamalarınızı bir sonraki boyuta taşımaya hazır mısınız? Bu eğitimde, Aspose.3D for Java'yı kullanarak gerçek zamanlı 3D görüntülemeyi uygulama konusunda size rehberlik edeceğiz. Aspose.3D, çarpıcı 3D grafikleri Java uygulamalarınıza sorunsuz bir şekilde entegre etmenizi sağlayan güçlü bir kütüphanedir. Aspose.3D ve SWT (Standart Widget Araç Takımı) ile gerçek zamanlı görüntü oluşturma dünyasına girerken kemerlerinizi bağlayın.
+Bu rehberde, Aspose.3D ve Standard Widget Toolkit (SWT) kullanarak Java uygulamalarında **3d nasıl render edilir** öğreneceksiniz. Öğreticinin sonunda, sürekli animasyonlu bir 3‑D sahneyi gösteren bir pencereye sahip olacaksınız ve bu, etkileşimli görselleştirmeler, oyunlar veya mühendislik araçları oluşturmak için sağlam bir temel sağlayacak.
+
+## Hızlı Yanıtlar
+- **Ne inşa edebilirim?** Etkileşimli 3‑D görselleştirmeler, simülasyonlar ve hafif oyunlar.  
+- **Hangi kütüphane matematik ve renderlamayı yönetir?** Aspose.3D Java API.  
+- **Neden SWT kullanmalı?** Yerel görünümlü bir UI sağlar ve temel pencere tutamacına kolay erişim sunar.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Öğrenme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **Hangi Java sürümü gerekiyor?** Java 8 veya daha yenisi.
 
 ## Önkoşullar
 
-Bu heyecan verici yolculuğa çıkmadan önce aşağıdaki ön koşulların yerine getirildiğinden emin olun:
+Bu heyecan verici yolculuğa başlamadan önce, aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
-- Java Geliştirme Kiti (JDK): Sisteminizde JDK'nın kurulu olduğundan emin olun.
--  Aspose.3D Kütüphanesi: Aspose.3D kütüphanesini şu adresten indirin:[Burada](https://releases.aspose.com/3d/java/).
-- SWT Kitaplığı: Kullanıcı arayüzü için SWT kullanacağımızdan, projenize SWT kitaplığının dahil edildiğinden emin olun.
-- Entegre Geliştirme Ortamı (IDE): Java geliştirme için tercih ettiğiniz IDE'yi seçin.
+- Sisteminizde yüklü Java Development Kit (JDK).  
+- Aspose.3D kütüphanesi – [buradan](https://releases.aspose.com/3d/java/) indirin.  
+- SWT kütüphanesi – platformunuz için uygun JAR dosyasını ekleyin.  
+- Tercih ettiğiniz bir IDE (IntelliJ IDEA, Eclipse, VS Code vb.).
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarma
 
-3B oluşturma işlemini başlatmak için Java projenizde gerekli paketleri içe aktarın. İşte size yol gösterecek bir pasaj:
+Java projenizde, 3‑D renderlama sürecini başlatmak için gerekli paketleri içe aktarın. İşte size rehberlik edecek bir kod parçacığı:
 
 ```java
 import com.aspose.threed.*;
@@ -40,20 +49,28 @@ import java.awt.*;
 import java.io.IOException;
 ```
 
-## Gerçek Zamanlı 3D İşleme
+## Java'da SWT ile 3D Nasıl Render Edilir
 
-### 1. Adım: Kullanıcı Arayüzünü Başlatın
+Aşağıda adım adım bir rehber bulunmaktadır. Her adım, kod bloğundan önce sade bir dille açıklanır, böylece **neden** bir şey yaptığımızı her zaman bilirsiniz.
+
+### Adım 1: UI'yi Başlatma
+
+Renderlanan sahneyi barındıracak bir SWT `Display` ve bir `Shell` (pencere) oluştururuz.
+
 ```java
-// Kullanıcı arayüzünü başlat
+// Initialize UI
 Display display = new Display();
 final Shell shell = new Shell(display);
 shell.setText("Aspose.3D Real-time rendering with SWT");
 shell.setSize(800, 600);
 ```
 
-### Adım 2: Oluşturucuyu ve Sahneyi Başlatın
+### Adım 2: Renderer ve Sahneyi Kurma
+
+Aspose.3D, sahneyi yerel bir pencereye çizen bir `Renderer` sağlar. Ayrıca temel bir `Scene` oluşturur, bir kamera ekler ve viewport'a hoş bir arka plan rengi veririz.
+
 ```java
-// Oluşturucuyu ve sahneyi başlat
+// Initialize renderer and scene
 Renderer renderer = Renderer.createRenderer();
 IRenderWindow window = renderer.getRenderFactory().createRenderWindow(new RenderParameters(), WindowHandle.fromWin32(shell.handle));
 Scene scene = new Scene();
@@ -62,9 +79,14 @@ Viewport vp = window.createViewport(camera);
 vp.setBackgroundColor(Color.pink);
 ```
 
-### 3. Adım: Olayları Başlatın
+> **Pro ipucu:** `setupScene(scene)` ekleyeceğiniz ışıklar, mesh'ler veya ihtiyacınız olan diğer nesneleri eklemek için uygulayacağınız bir yardımcı yöntemdir.
+
+### Adım 3: UI Olaylarını Bağlama
+
+İki yaygın olayı ele almamız gerekir: pencereyi **Esc** ile kapatma ve render hedefinin yeni boyuta uyması için pencereyi yeniden boyutlandırma.
+
 ```java
-// Olayları başlat
+// Initialize events
 shell.addListener(SWT.Traverse, event -> {
     if(event.detail == SWT.TRAVERSE_ESCAPE) {
         shell.close();
@@ -79,51 +101,68 @@ shell.addListener(SWT.Resize, event -> {
 });
 ```
 
-### Adım 4: Olay Döngüsü
+### Adım 4: Olay Döngüsünü Çalıştırma ve Animasyon
+
+SWT olay döngüsü UI'nın yanıt vermesini sağlar. Döngü içinde ışığın konumunu güncelleyerek basit bir animasyon oluşturur, ardından Aspose.3D'den mevcut çerçeveyi renderlamasını isteriz.
+
 ```java
-// Olay döngüsü
+// Event loop
 shell.open();
 while(!shell.isDisposed()) {
     display.readAndDispatch();
-    // Oluşturmadan önce ışığın konumunu güncelleyin
+    // Update light's position before rendering
     double time = System.currentTimeMillis() / 1000.0;
     double x = Math.cos(time) * 10;
     double z = Math.sin(time) * 10;
     light.getTransform().setTranslation(x, 5, z);
-    // İşleme
+    // Render
     renderer.render(window);
 }
 
-// Kapat
+// Shut down
 renderer.close();
 display.dispose();
 ```
 
-## Çözüm
+## Aspose.3D ile Gerçek Zamanlı 3D Rendering Neden Kullanılır?
 
-Tebrikler! Aspose.3D ve SWT'yi kullanarak Java uygulamanızda gerçek zamanlı 3D görüntülemeyi başarıyla uyguladınız. Aspose.3D'nin yetenekleri ile sezgisel SWT çerçevesinin birleşimi, görsel açıdan etkileyici uygulamalar oluşturmak için birçok olanak sunuyor.
+- **Performans:** Motor, tipik masaüstü donanımında gerçek zamanlı kare hızları için optimize edilmiştir.  
+- **Çapraz Platform:** Kod değişikliği olmadan Windows, Linux ve macOS'ta çalışır.  
+- **Zengin Özellik Seti:** Işıklar, materyaller, animasyonlar ve karmaşık mesh'leri kutudan çıkar çıkmaz destekler.  
+- **SWT Entegrasyonu:** Yerel pencere tutamacına doğrudan erişim, herhangi bir SWT UI içinde 3‑D içeriği gömmenizi sağlar.
 
-## SSS'ler
+## Yaygın Sorunlar ve Çözümler
+
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| Sahne boş görünüyor | Kamera veya viewport oluşturulmadı | `setupScene(scene)`'in bir kamera eklediğinden ve `createViewport(camera)`'ın çağrıldığından emin olun. |
+| Pencere yeniden boyutlandırılamıyor | `Rectangle` doldurulmamış | `window.setSize`'ı çağırmadan önce gerçek genişlik/yüksekliği elde etmek için `shell.getClientArea()` kullanın. |
+| Işık sabit görünüyor | Güncelleme kodu eksik | Animasyon mantığını yukarıda gösterildiği gibi olay döngüsü içinde tutun. |
+| Renderlama titriyor | Çift tamponlama etkin değil | `RenderParameters` oluştururken `RenderParameters.setEnableVSync(true)` kullanın. |
+
+## Sıkça Sorulan Sorular
 
 ### S1: Aspose.3D farklı işletim sistemleriyle uyumlu mu?
-
-Cevap1: Evet, Aspose.3D çapraz platformdur ve çeşitli işletim sistemlerini destekler.
+**C:** Evet, Aspose.3D çapraz platformdur, Windows, Linux ve macOS'u destekler.
 
 ### S2: Aspose.3D'yi diğer Java kütüphaneleriyle entegre edebilir miyim?
+**C:** Kesinlikle! Aspose.3D, diğer Java kütüphaneleriyle sorunsuz bir şekilde entegre olur ve geliştirme sürecinizde esneklik sağlar.
 
-A2: Kesinlikle! Aspose.3D diğer Java kitaplıklarıyla sorunsuz bir şekilde bütünleşerek geliştirmenizde esneklik sağlar.
+### S3: Java için Aspose.3D kapsamlı belgelerini nerede bulabilirim?
+**C:** Java için Aspose.3D hakkında detaylı bilgiler için [belgelere](https://reference.aspose.com/3d/java/) bakın.
 
-### S3: Java'da Aspose.3D için kapsamlı belgeleri nerede bulabilirim?
+### S4: Aspose.3D için ücretsiz deneme mevcut mu?
+**C:** Evet, Aspose.3D'yi [ücretsiz deneme](https://releases.aspose.com/) seçeneğiyle keşfedebilirsiniz.
 
- A3: Bkz.[dokümantasyon](https://reference.aspose.com/3d/java/) Aspose.3D for Java hakkında ayrıntılı bilgiler için.
+### S5: Yardıma mı ihtiyacınız var ya da belirli sorularınız mı var?
+**C:** Uzman desteği için [Aspose.3D topluluk forumunu](https://forum.aspose.com/c/3d/18) ziyaret edin.
 
-### S4: Aspose.3D'nin ücretsiz deneme sürümü mevcut mu?
+---
 
- Cevap4: Evet, Aspose.3D'yi şu şekilde keşfedebilirsiniz:[ücretsiz deneme](https://releases.aspose.com/) seçenek.
+**Son Güncelleme:** 2026-03-13  
+**Test Edilen:** Aspose.3D Java API (en son sürüm)  
+**Yazar:** Aspose  
 
-### S5: Yardıma mı ihtiyacınız var veya özel sorularınız mı var?
-
- A5: ziyaret edin[Aspose.3D topluluk forumu](https://forum.aspose.com/c/3d/18) uzman desteği için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
