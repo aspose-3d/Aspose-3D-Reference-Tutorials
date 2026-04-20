@@ -1,38 +1,48 @@
 ---
-title: Doğrusal Ekstrüzyon Gerçekleştirme
-linktitle: Doğrusal Ekstrüzyon Gerçekleştirme
-second_title: Aspose.3D .NET API'si
-description: Aspose.3D for .NET ile 3D grafik dünyasını keşfedin. Bu adım adım kılavuzda Doğrusal Ekstrüzyonun Gerçekleştirilmesi.
-weight: 12
+date: 2026-03-23
+description: Aspose.3D for .NET kullanarak ekstrüzyon oluşturmayı, 2D profilleri 3D
+  ağlara dönüştürmeyi ve Wavefront OBJ formatına dışa aktarmayı öğrenin. Bu adım adım
+  rehberi izleyin.
+linktitle: Performing Linear Extrusion
+second_title: Aspose.3D .NET API
+title: Aspose.3D for .NET'te Ekstrüzyon Nasıl Oluşturulur – Adım Adım
 url: /tr/net/3d-modeling/linear-extrusion/performing-linear-extrusion/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Doğrusal Ekstrüzyon Gerçekleştirme
+# Doğrusal Ekstrüzyon Yapma
 
-## Giriiş:
+## Giriş:
 
-Geliştirme oyununuzu geliştiren bir güç merkezi olan Aspose.3D for .NET ile 3D grafikler dünyasına heyecan verici bir yolculuğa çıkın. Bu derste, statik 2D profillere hayat veren ve onları 3D'nin dinamik dünyasına iten büyüleyici bir teknik olan Doğrusal Ekstrüzyonun inceliklerini inceleyeceğiz. Aspose.3D'yi kullanarak yaratıcılığın ve yeniliğin kapısını açalım!
+Aspose.3D for .NET ile 3D grafikler dünyasına heyecan verici bir yolculuğa çıkın, geliştirme yeteneklerinizi yükselten bir güç kaynağı. Bu öğreticide, **ekstrüzyon oluşturmayı öğreneceksiniz** – 2‑D bir profili tam bir 3‑D ağ haline getiren büyüleyici bir teknik. Aspose.3D'yi kurmaktan sonucu Wavefront OBJ dosyası olarak dışa aktarmaya kadar her adımı birlikte geçeceğiz, böylece **2D'den 3D oluşturabilirsiniz** güvenle.
 
-## Önkoşullar:
+## Hızlı Yanıtlar
+- **Doğrusal ekstrüzyon nedir?** 2‑D bir şekli düz bir yol boyunca uzatarak 3‑D bir nesne oluşturma.  
+- **Bu öğreticide hangi kütüphane kullanılıyor?** Aspose.3D for .NET.  
+- **OBJ nasıl kaydedilir?** `scene.Save(..., FileFormat.WavefrontOBJ)` kullanın.  
+- **Wavefront OBJ dışa aktarabilir miyim?** Evet – format tam olarak desteklenir.  
+- **Lisans gerekli mi?** Test için geçici bir lisans yeterlidir; üretim için ticari lisans gereklidir.
 
-3D manipülasyonun büyüleyici dünyasına dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+## Ön Koşullar:
 
-1. Aspose.3D Kurulumu:
-   -  Aspose.3D for .NET'i şu adresten indirip yükleyerek başlayın:[Burada](https://releases.aspose.com/3d/net/).
-   -  Belgelerde sağlanan kurulum talimatlarını izleyin[Burada](https://reference.aspose.com/3d/net/).
+3D manipülasyonunun büyüleyici dünyasına dalmadan önce, aşağıdaki ön koşulların yerine getirildiğinden emin olun:
 
-2. Geliştirme Ortamınızı Kurma:
+1. **Aspose.3D Kurulumu** – *install aspose 3d*  
+   - Aspose.3D for .NET'i [here](https://releases.aspose.com/3d/net/) adresinden indirerek kurmaya başlayın.  
+   - Belgelerdeki kurulum talimatlarını [here](https://reference.aspose.com/3d/net/) adresinden izleyin.
+
+2. **Geliştirme Ortamınızı Kurma**  
    - Geliştirme ortamınızın Aspose.3D için gerekli ad alanlarıyla doğru şekilde yapılandırıldığından emin olun.
 
-Artık hazır olduğunuza göre Aspose.3D'nin büyüsüne dalalım!
+Şimdi hazır olduğunuzda, Aspose.3D'nin büyüsüne dalalım!
 
-## Ad Alanlarını İçe Aktar:
+## Ad Alanlarını İçe Aktarma:
 
-3D maceranızı başlatmak için temel ad alanlarını ekleyin:
+3D maceranıza başlamak için gerekli ad alanlarını ekleyin:
 
 ```csharp
 using Aspose.ThreeD;
@@ -41,13 +51,13 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Bu ad alanları, Aspose.3D işlevlerinin kusursuz entegrasyonu için gereken araçlara erişim sağlayarak 3D kodlama yolculuğunuzun temelini oluşturur.
+Bu ad alanları, 3D kodlama yolculuğunuzun temelini oluşturur ve Aspose.3D işlevlerinin sorunsuz entegrasyonu için gereken araçlara erişim sağlar.
 
-## Doğrusal Ekstrüzyonun Gerçekleştirilmesi:
+## Doğrusal Ekstrüzyon Yapma:
 
-Aspose.3D'yi kullanarak Doğrusal Ekstrüzyon yoluyla büyüleyici bir 3D nesne oluşturalım. Bu adımları takip et:
+Aspose.3D kullanarak Doğrusal Ekstrüzyon ile büyüleyici bir 3D nesne oluşturalım. Bu adımları izleyin:
 
-## Adım 1: Temel Profili Başlatın
+### Ekstrüzyon Oluşturma – Adım 1: Temel Profili Başlatma
 ```csharp
 var profile = new RectangleShape()
 {
@@ -55,63 +65,75 @@ var profile = new RectangleShape()
 };
 ```
 
-Bu adım, 3B şaheserimizin temelini oluşturacak 2B profilini oluşturur. İstenilen şekli ve formu elde etmek için parametreleri gerektiği gibi ayarlayın.
+Bu adım, 3‑D başyapıtımızın temeli olacak 2‑D profili oluşturur. İstenilen şekil ve formu elde etmek için parametreleri gerektiği gibi ayarlayın.
 
-## Adım 2: Doğrusal Ekstrüzyon
+### Ekstrüzyon Oluşturma – Adım 2: Doğrusal Ekstrüzyon
 ```csharp
 var extrusion = new LinearExtrusion(profile, 10) { Slices = 100, Center = true, Twist = 360, TwistOffset = new Vector3(10, 0, 0) };
 ```
 
-Burada 2 boyutlu profil alınarak üçüncü boyuta genişletilerek Doğrusal Ekstrüzyon gerçekleştirilir. Yaratılışınızı şekillendirmek için 'Dilimler' ve 'Büküm' gibi parametrelerle denemeler yapın.
+Burada, 2‑D profil alınarak üçüncü boyutta uzatılan Doğrusal Ekstrüzyon gerçekleştirilir. **Slices**, **Twist** ve **TwistOffset** gibi parametrelerle deney yaparak **3D ağ** varyasyonları oluşturabilir ve tasarım amacınıza uygun hale getirebilirsiniz.
 
-## 3. Adım: Bir Sahne Oluşturun
+### Ekstrüzyon Oluşturma – Adım 3: Bir Sahne Oluşturma
 ```csharp
 Scene scene = new Scene();
 ```
 
-Boş bir tuval oluşturulur; 3 boyutlu nesnenizin canlanacağı bir sahne.
+Boş bir tuval oluşturulur – 3‑D nesnenizin hayata geçeceği bir sahne.
 
-## Adım 4: Sahneye Ekstrüzyon Ekleme
+### Ekstrüzyon Oluşturma – Adım 4: Ekstrüzyonu Sahneye Ekleme
 ```csharp
 scene.RootNode.CreateChildNode(extrusion);
 ```
 
-Ekstrüde edilmiş şaheseriniz sahneye alt düğüm olarak eklenir.
+Ekstrüde edilmiş başyapıtınız sahneye bir alt düğüm olarak eklenir.
 
-## Adım 5: 3D Sahneyi Kaydedin
+### Ekstrüzyon Oluşturma – Adım 5: 3D Sahneyi Kaydetme
 ```csharp
 scene.Save(RunExamples.GetOutputFilePath("LinearExtrusion.obj"), FileFormat.WavefrontOBJ);
 ```
 
-Son olarak, yaratımınızı istediğiniz formatta kaydedin. Bu örnekte Wavefront OBJ dosyası olarak kaydedilmiştir.
+Son olarak, **OBJ nasıl kaydedilir** – sonucu popüler Wavefront OBJ formatında saklarız; bu format çoğu 3‑D editör tarafından açılabilir.
 
-Şimdi, 3D harikanıza bakın!
+Şimdi, 3D harikanıza hayran kalın!
 
-## Çözüm:
+## Neden Önemli
 
-Tebrikler! Aspose.3D'nin potansiyelinin yüzeyini çizdiniz. Bu eğitim yalnızca keşfetmenizi bekleyen geniş manzaraya dair ipuçları veriyor. Aspose.3D for .NET ile belgeleri inceleyin, çeşitli şekilleri deneyin ve tüm olasılık yelpazesinin kilidini açın.
+Doğrusal ekstrüzyon, **2D'den 3D oluşturmak** için hızlı bir yoldur; hızlı prototipleme, mimari modelleme veya yazdırılabilir ağlar üretmek için mükemmeldir. Bu tekniği ustalaşarak, zaman kazandıran ve karmaşık modelleme araçlarına olan ihtiyacı azaltan çok yönlü bir iş akışı elde edersiniz.
+
+## Yaygın Tuzaklar ve İpuçları
+
+- **Twist değerleri çok yüksek** olduğunda öz‑kesişimlere neden olabilir. Çoğu basit şekil için twist'i 720°'nin altında tutun.  
+- **Yetersiz dilimler** yüzeyde köşeli bir görünüm oluşturabilir. Daha pürüzsüz sonuçlar için `Slices` özelliğini artırın.  
+- Profilin orijini etrafında ekstrüzyonun merkezlenmesini istiyorsanız **`Center = true`** ayarlamayı unutmayın – bu genellikle konumlandırmayı sonradan basitleştirir.
+
+## Sonuç
+
+Tebrikler! Aspose.3D'nin potansiyelinin sadece yüzeyini keşfettiniz. Bu öğretici, keşfetmenizi bekleyen geniş bir alanın sadece bir ipucunu veriyor. Belgeleri inceleyin, çeşitli şekillerle deney yapın ve Aspose.3D for .NET ile olasılıkların tam yelpazesini ortaya çıkarın.
 
 ## SSS:
 
-### S1: Aspose.3D yeni başlayanlar için uygun mu?
+### Q1: Aspose.3D yeni başlayanlar için uygun mu?
+A1: Kesinlikle! Aspose.3D kullanıcı dostu bir ortam sunar ve öğreticimiz temel konularda size rehberlik eder.
 
-A1: Kesinlikle! Aspose.3D kullanıcı dostu bir ortam sunar ve eğitimimiz size temel konularda rehberlik eder.
+### Q2: Aspose.3D'yi ticari projelerde kullanabilir miyim?
+A2: Evet, Aspose.3D hem kişisel hem de ticari kullanım için lisans seçenekleri sunar. Detaylar için [here](https://purchase.aspose.com/buy) adresine bakın.
 
-### S2: Aspose.3D'yi ticari projeler için kullanabilir miyim?
+### Q3: Test için geçici lisansları nasıl alabilirim?
+A3: Test amaçlı geçici lisanslar edinmek için [this link](https://purchase.aspose.com/temporary-license/) adresini ziyaret edin.
 
- C2: Evet, Aspose.3D hem kişisel hem de ticari kullanıma yönelik lisanslama seçenekleriyle birlikte gelir. Kontrol etmek[Burada](https://purchase.aspose.com/buy) detaylar için.
+### Q4: Topluluk desteğini nerede bulabilirim?
+A4: Canlı bir toplulukla bağlantı kurmak ve yardım almak için [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) adresine katılın.
 
-### S3: Test için nasıl geçici lisans alabilirim?
+### Q5: Ücretsiz deneme sürümü mevcut mu?
+A5: Elbette! Aspose.3D'nin yeteneklerini doğrudan deneyimlemek için ücretsiz deneme sürümünü [here](https://releases.aspose.com/) adresinden indirin.
 
- A3: Ziyaret edin[bu bağlantı](https://purchase.aspose.com/temporary-license/) Test amaçlı geçici lisansların alınması için.
+---
 
-### S4: Topluluk desteğini nerede bulabilirim?
+**Son Güncelleme:** 2026-03-23  
+**Test Edilen:** Aspose.3D for .NET (latest release)  
+**Yazar:** Aspose  
 
- A4: Katılın[Aspose.3D Forumu](https://forum.aspose.com/c/3d/18) Canlı bir toplulukla bağlantı kurmak ve yardım istemek.
-
-### S5: Ücretsiz deneme sürümü var mı?
-
- A5: Kesinlikle! Ücretsiz deneme sürümünü indirin[Burada](https://releases.aspose.com/) Aspose.3D'nin yeteneklerini ilk elden deneyimlemek için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

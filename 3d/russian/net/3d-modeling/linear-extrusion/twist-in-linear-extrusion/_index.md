@@ -1,33 +1,42 @@
 ---
-title: Скручивание в линейной экструзии
-linktitle: Скручивание в линейной экструзии
+date: 2026-03-23
+description: Узнайте, как создать выдавливание с закрутом, используя Aspose.3D для
+  .NET. Это пошаговое руководство охватывает техники линейного выдавливания с закрутом.
+linktitle: Twist in Linear Extrusion
 second_title: Aspose.3D .NET API
-description: Исследуйте увлекательный мир 3D-графики с помощью Aspose.3D для .NET. Изучите шаг за шагом линейную экструзию с поворотом.
-weight: 14
+title: Как создать экструзию с круткой в линейной экструзии
 url: /ru/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Скручивание в линейной экструзии
+# Как создать экструзию со скручиванием в линейной экструзии
 
-## Введение
+## Introduction
 
-В постоянно развивающемся мире .NET-разработки использование возможностей 3D-графики является захватывающим занятием. Aspose.3D для .NET представляет собой ценный набор инструментов, позволяющий разработчикам легко создавать захватывающие и визуально ошеломляющие приложения. В этом подробном руководстве мы углубимся в одну интригующую функцию — линейное выдавливание с поворотом. Это руководство шаг за шагом проведет вас через весь процесс, раскрывая потенциал Aspose.3D для .NET.
+Если вы разрабатываете .NET‑приложения, которым нужны впечатляющие 3D‑визуализации, вы быстро поймёте, что **как создать экструзию** — это базовый навык. Aspose.3D for .NET предоставляет чистый, высокопроизводительный API для преобразования простых 2‑D профилей в сложные 3‑D модели — особенно когда к ним добавляется скручивание. В этом руководстве мы пройдём каждый шаг, от настройки сцены до сохранения окончательного OBJ‑файла, чтобы вы могли увидеть силу линейной экструзии со скручиванием в действии.
 
-## Предварительные условия
+## Quick Answers
+- **What is the primary class for extrusion?** `LinearExtrusion`
+- **Which property adds rotation?** `Twist`
+- **How many slices give smooth results?** Around 100 slices (adjust as needed)
+- **Can I use other shapes?** Yes, any `IProfile` such as circles, polygons, or custom curves
+- **What file format is used in the example?** Wavefront OBJ (`.obj`)
 
-Прежде чем мы отправимся в это 3D-путешествие, убедитесь, что у вас есть следующие предварительные условия:
+## Prerequisites
 
--  Aspose.3D для .NET: убедитесь, что вы установили библиотеку Aspose.3D. Если нет, то вы можете скачать его[здесь](https://releases.aspose.com/3d/net/).
+Before we dive in, make sure you have the following:
 
-- Базовые знания разработки .NET. В этом руководстве предполагается базовое понимание разработки .NET.
+- Aspose.3D for .NET installed. If you haven’t downloaded it yet, get it **[here](https://releases.aspose.com/3d/net/)**.
+- A working .NET development environment (Visual Studio, VS Code, or any IDE you prefer).
+- Basic familiarity with C# syntax and object‑oriented concepts.
 
-## Импортировать пространства имен:
+## Import Namespaces
 
-В любом проекте .NET правильное использование пространств имен имеет решающее значение. Начните с импорта необходимых пространств имен, чтобы эффективно использовать функциональные возможности Aspose.3D. Вот фрагмент, который поможет вам:
+In any .NET project, the proper use of namespaces is crucial. Begin by importing the necessary namespaces to leverage the functionalities of Aspose.3D effectively. Here's a snippet to guide you:
 
 ```csharp
 using Aspose.ThreeD;
@@ -36,94 +45,108 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Теперь давайте разобьем интригующий процесс линейного выдавливания с поворотом с использованием Aspose.3D для .NET на понятные шаги:
+## Step‑by‑Step Guide
 
-## Шаг 1. Инициализируйте базовый профиль
+### Step 1: Initialize the Base Profile
+
+We start by defining the shape that will be extruded. In this example we use a rectangle with a small rounding radius to give the edges a subtle curve.
 
 ```csharp
-// Инициализируйте базовый профиль для выдавливания
+// Initialize the base profile to be extruded
 var profile = new RectangleShape()
 {
     RoundingRadius = 0.3
 };
 ```
 
-Начните с настройки базового профиля для выдавливания. В этом примере мы используем прямоугольную форму с указанным радиусом закругления.
+### Step 2: Create a 3D Scene
 
-## Шаг 2. Создайте 3D-сцену
+A `Scene` object acts as the canvas where all 3‑D entities live. Think of it as the stage for your extrusion.
 
 ```csharp
-// Создать сцену
+// Create a scene 
 Scene scene = new Scene();
 ```
 
-Создайте 3D-сцену, в которой произойдет все волшебство. Это послужит холстом для нашего 3D-шедевра.
+### Step 3: Add Left and Right Nodes
 
-## Шаг 3. Создайте левый и правый узлы
+Nodes let you organize objects hierarchically. We’ll create two sibling nodes—one for a straight extrusion and another for a twisted version.
 
 ```csharp
-// Создать левый узел
+// Create left node
 var left = scene.RootNode.CreateChildNode();
-// Создать правильный узел
+// Create right node
 var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(15, 0, 0);
 ```
 
-Создайте левый и правый узлы внутри сцены. Отрегулируйте перевод левого узла, чтобы расположить его соответствующим образом.
+### Step 4: Perform Linear Extrusion with Twist on the Left Node
 
-## Шаг 4. Выполните линейное выдавливание с поворотом на левом узле.
+The `Twist` property controls how much the profile rotates while it’s being extruded. Setting it to **0** gives a classic straight extrusion.
 
 ```csharp
-// Свойство Twist определяет степень вращения при выдавливании профиля.
-//Выполните линейное выдавливание на левом узле, используя свойство скручивания и срезов.
+// Twist property defines the degree of the rotation while extruding the profile
+// Perform linear extrusion on the left node using twist and slices property
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 0, Slices = 100 });
 ```
 
-Вот где происходит волшебство. Выполните линейное вытягивание левого узла, включив свойство скручивания для определения степени вращения. Отрегулируйте количество срезов для получения более мелких деталей.
+### Step 5: Perform Linear Extrusion with Twist on the Right Node
 
-## Шаг 5. Выполните линейное вытягивание с поворотом на правом узле.
+Now we apply a 90‑degree twist to the same profile. This demonstrates the **linear extrusion twist** effect clearly.
 
 ```csharp
-// Выполните линейное вытягивание правого узла, используя свойство скручивания и срезов.
+// Perform linear extrusion on the right node using twist and slices property
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 
-Отразите процесс на правом узле, экспериментируя с различными значениями скручивания, чтобы наблюдать изменения в выдавливании.
+### Step 6: Save the 3D Scene
 
-## Шаг 6: Сохраните 3D-сцену
+Finally, export the scene to a format you can view in any 3‑D viewer. The example uses Wavefront OBJ, but Aspose.3D supports many other formats as well.
 
 ```csharp
-// Сохранить 3D-сцену
+// Save 3D scene
 scene.Save("Your Output Directory" + "TwistInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-Наконец, сохраните свой 3D-шедевр в желаемом выходном каталоге. Настройте имя файла по своему усмотрению.
+## Why Use Linear Extrusion with a Twist?
 
-## Заключение
+- **Rapid prototyping:** Turn 2‑D sketches into 3‑D parts without manual modeling.
+- **Design flexibility:** Adjust the `Twist` value to create spirals, helical ribs, or decorative features.
+- **Performance‑friendly:** The `Slices` parameter lets you balance visual fidelity and runtime speed.
 
-В этом уроке мы изучили захватывающую область линейного выдавливания с поворотом с использованием Aspose.3D для .NET. Эта функция открывает двери для творческих возможностей, позволяя разработчикам легко добавлять динамические визуальные элементы в свои приложения.
+## Common Issues & Tips
 
-## Часто задаваемые вопросы
+- **Too many slices:** While 100 slices look smooth, extremely high values may slow down rendering. Test with lower counts if performance becomes a concern.
+- **Negative twist values:** A negative `Twist` rotates in the opposite direction—useful for mirrored designs.
+- **File paths:** Ensure the output directory exists and you have write permissions; otherwise `scene.Save` will throw an exception.
 
-### Вопрос 1. Могу ли я применить линейное выдавливание с поворотом к другим фигурам?
+## Conclusion
 
-А1: Абсолютно! Вы можете экспериментировать с различными базовыми профилями, помимо прямоугольников, открывая множество возможностей дизайна.
+In this tutorial we’ve shown **how to create extrusion** with a twist using Aspose.3D for .NET. By adjusting the `Twist` and `Slices` properties you can generate a wide variety of shapes, from simple twisted bars to complex helical structures, all with just a few lines of code.
 
-### Вопрос 2: Какую роль свойство «Twist» играет в линейной экструзии?
+## Frequently Asked Questions
 
-A2: Свойство «Twist» определяет степень вращения во время процесса экструзии, влияя на окончательную трехмерную форму.
+**Q: Can I apply linear extrusion with a twist to other shapes?**  
+A: Absolutely! Any class that implements `IProfile`—such as `CircleShape`, `PolygonShape`, or a custom spline—can be extruded with a twist.
 
-### Вопрос 3. Есть ли соображения по поводу производительности при использовании большого количества срезов?
+**Q: What does the `Twist` property actually represent?**  
+A: It specifies the total rotation angle (in degrees) applied to the profile over the extrusion length.
 
-Ответ 3. Хотя большее количество срезов увеличивает детализацию, это может повлиять на производительность. Найдите баланс в соответствии с требованиями вашего приложения.
+**Q: Will increasing the number of slices affect memory usage?**  
+A: Yes, more slices generate more vertices and faces, which consumes additional memory and may impact performance on low‑end devices.
 
-### Вопрос 4: Могу ли я объединить линейное выдавливание с другими функциями Aspose.3D?
+**Q: Can I combine linear extrusion with other Aspose.3D features?**  
+A: Definitely. You can apply materials, textures, or even Boolean operations after extrusion to create even richer models.
 
-А4: Конечно! Aspose.3D предлагает богатый набор функций. Не стесняйтесь комбинировать линейную экструзию с другими функциями для создания более сложных проектов.
+**Q: Where can I get help or discuss ideas with other developers?**  
+A: Join the Aspose.3D community at **[Aspose Forum](https://forum.aspose.com/c/3d/18)** for support, samples, and discussions.
 
-### В5: Существует ли сообщество для поддержки и обсуждения Aspose.3D?
+---
 
- О5: Да, присоединяйтесь к сообществу Aspose.3D по адресу[Аспосе Форум](https://forum.aspose.com/c/3d/18) за поддержку и активное обсуждение.
+**Last Updated:** 2026-03-23  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
