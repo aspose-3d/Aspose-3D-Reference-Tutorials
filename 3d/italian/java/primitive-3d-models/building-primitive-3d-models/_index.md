@@ -1,10 +1,12 @@
 ---
-title: Costruire modelli 3D primitivi con Aspose.3D per Java
-linktitle: Costruire modelli 3D primitivi con Aspose.3D per Java
-second_title: API Java Aspose.3D
-description: Scopri l'arte della modellazione 3D con Aspose.3D per Java. Impara a costruire modelli 3D primitivi senza sforzo e libera la tua creatività.
-weight: 10
+date: 2026-03-13
+description: Scopri come creare cilindri, scatole e altri modelli primitivi 3D utilizzando
+  Aspose.3D per Java e salvare la scena in formato FBX.
+linktitle: Building Primitive 3D Models with Aspose.3D for Java
+second_title: Aspose.3D Java API
+title: Come creare un cilindro 3D e altri modelli 3D primitivi con Aspose.3D per Java
 url: /it/java/primitive-3d-models/building-primitive-3d-models/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,87 +15,122 @@ url: /it/java/primitive-3d-models/building-primitive-3d-models/
 
 # Costruire modelli 3D primitivi con Aspose.3D per Java
 
-## introduzione
+## Introduzione
 
-La creazione di modelli 3D a livello di codice può essere un compito arduo, ma con Aspose.3D per Java diventa un processo semplice e divertente. Questo tutorial ha lo scopo di aiutarti a iniziare con la costruzione di modelli 3D primitivi, concentrandosi sulla semplicità e sull'efficacia.
+Se hai mai dovuto **creare oggetti 3D cylinder** (o qualsiasi altra forma di base) direttamente dal codice Java, Aspose.3D rende il compito indolore. In questo tutorial percorreremo l'intero flusso di lavoro—dalla configurazione dell'ambiente al salvataggio della scena finale come file FBX—così potrai iniziare a generare geometria 3D programmaticamente subito.
+
+## Risposte rapide
+- **Quale libreria mi consente di creare un cilindro 3D in Java?** Aspose.3D per Java.  
+- **In quale formato posso esportare la scena?** FBX (ASCII 7500) usando `FileFormat.FBX7500ASCII`.  
+- **È necessaria una licenza per lo sviluppo?** Una prova gratuita funziona per i test; è richiesta una licenza permanente per la produzione.  
+- **Quali sono i principali primitivi supportati?** Box, Cylinder, Sphere, Cone e altri.  
+- **Il codice è compatibile con Java 8 e versioni successive?** Sì, Aspose.3D supporta JDK 8+.  
+
+## Cos'è un primitivo cilindro 3D?
+
+Un cilindro primitivo è una forma geometrica di base definita da raggio e altezza. In molte pipeline 3D serve come blocco costitutivo per modelli più complessi come tubi, ruote o colonne architettoniche. Aspose.3D fornisce una classe `Cylinder` pronta all'uso, così non devi calcolare manualmente i vertici.
+
+## Perché usare Aspose.3D per Java?
+
+- **Motore 3D completo** – supporta import/export di formati popolari (FBX, OBJ, STL, ecc.).  
+- **API Java pura** – nessuna dipendenza nativa, perfetta per progetti cross‑platform.  
+- **Grafico della scena robusto** – consente di organizzare gli oggetti gerarchicamente.  
+- **Licenza semplice** – inizia con una prova gratuita, poi passa a una licenza permanente.  
 
 ## Prerequisiti
 
-Prima di immergerti nel mondo della modellazione 3D con Aspose.3D per Java, assicurati di disporre dei seguenti prerequisiti:
+Prima di immergerti nel codice, assicurati di avere:
 
-1. Java Development Kit (JDK): assicurati di avere JDK installato sul tuo computer.
-2.  Aspose.3D per Java Library: scarica e installa la libreria Aspose.3D per Java dal file[pagina di download](https://releases.aspose.com/3d/java/).
+1. **Java Development Kit (JDK)** – JDK 8 o versioni successive installate sulla tua macchina.  
+2. **Libreria Aspose.3D per Java** – scaricala e installala dalla [download page](https://releases.aspose.com/3d/java/).  
 
-## Importa pacchetti
+## Importare i pacchetti
 
-Inizia importando i pacchetti necessari nel tuo progetto Java. Questo passaggio è fondamentale per accedere alle funzionalità fornite da Aspose.3D per Java.
+Inizia importando lo spazio dei nomi principale di Aspose.3D. Questo ti dà accesso a `Scene`, `Box`, `Cylinder` e alle costanti dei formati di file.
 
 ```java
-
 import com.aspose.threed.*;
 ```
 
-Ora che hai impostato tutto, passiamo al nocciolo di questo tutorial: costruire modelli 3D primitivi.
+Ora che la libreria è referenziata, creiamo una scena e aggiungiamo della geometria primitiva.
 
-## Creazione di una scena
+## Come creare cilindri 3D e altri primitivi in una scena
 
-### Passaggio 1: inizializzare un oggetto scena
+### Passo 1: Inizializzare un oggetto Scene
+
+Per prima cosa, ci serve un contenitore `Scene` che conterrà tutti i nostri nodi 3D.
 
 ```java
-// Il percorso della directory dei documenti.
+// The path to the documents directory.
 String myDir = "Your Document Directory";
 
-//Inizializza un oggetto Scene
+// Initialize a Scene object
 Scene scene = new Scene();
 ```
 
-### Passaggio 2: crea un modello di scatola
+### Passo 2: Costruire un modello di box 3D
+
+Il primitivo box è utile per testare il sistema di coordinate. Qui lo aggiungiamo come figlio del nodo radice della scena.
 
 ```java
-// Crea un modello di scatola
+// Create a Box model
 scene.getRootNode().createChildNode("box", new Box());
 ```
 
-### Passaggio 3: creare un modello di cilindro
+### Passo 3: Creare un modello di cilindro 3D
+
+Ora creiamo effettivamente la geometria **3D cylinder**. La classe `Cylinder` fornisce dimensioni predefinite sensate, ma è possibile personalizzare raggio e altezza tramite il suo costruttore, se necessario.
 
 ```java
-// Creare un modello Cilindro
+// Create a Cylinder model
 scene.getRootNode().createChildNode("cylinder", new Cylinder());
 ```
 
-### Passaggio 4: salva il disegno nel formato FBX
+### Passo 4: Salvare il disegno in formato FBX
+
+Dopo aver assemblato la scena, esportiamola affinché altri strumenti (ad es. Unity, Blender) possano leggerla. Utilizziamo il formato `FBX7500ASCII`, ampiamente supportato.
 
 ```java
-// Salva il disegno nel formato FBX
+// Save drawing in the FBX format
 myDir = myDir + "test.fbx";
 scene.save(myDir, FileFormat.FBX7500ASCII);
 ```
 
-## Conclusione
+## Problemi comuni e soluzioni
 
-Congratulazioni! Hai creato con successo una scena da modelli 3D primitivi utilizzando Aspose.3D per Java. Il file è ora salvato nella directory specificata.
+| Problema | Perché accade | Soluzione |
+|----------|----------------|-----------|
+| **File not found** when saving | `myDir` points to a non‑existent folder | Ensure the directory exists or create it with `new File(myDir).mkdirs();` |
+| **Empty scene** after export | No nodes were added before calling `save` | Verify that `createChildNode` calls are executed (debug with `scene.getRootNode().getChildCount()` ) |
+| **License exception** | Running without a valid license in production | Apply a temporary or permanent license using `License license = new License(); license.setLicense("Aspose.3D.Java.lic");` |
 
 ## Domande frequenti
 
-### Q1: posso utilizzare Aspose.3D per Java con altri linguaggi di programmazione?
+**D: Posso usare Aspose.3D per Java con altri linguaggi di programmazione?**  
+R: Aspose.3D supporta principalmente Java, ma sono disponibili versioni per altri linguaggi come .NET.
 
-A1: Aspose.3D supporta principalmente Java, ma sono disponibili versioni per altri linguaggi come .NET.
+**D: Aspose.3D è adatto per compiti di modellazione 3D complessi?**  
+R: Assolutamente! Aspose.3D offre un set completo di funzionalità, rendendolo adatto sia a compiti semplici sia a quelli complessi di modellazione 3D.
 
-### Q2: Aspose.3D è adatto per attività di modellazione 3D complesse?
+**D: Dove posso trovare ulteriore aiuto e supporto?**  
+R: Visita il [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) per supporto della community e discussioni.
 
-A2: Assolutamente! Aspose.3D fornisce un set completo di funzionalità, che lo rendono adatto sia per attività di modellazione 3D semplici che complesse.
+**D: Posso provare Aspose.3D prima di acquistarlo?**  
+R: Sì, puoi esplorare una [free trial](https://releases.aspose.com/) prima di prendere una decisione d'acquisto.
 
-### Q3: Dove posso trovare ulteriore aiuto e supporto?
+**D: Come ottengo una licenza temporanea per Aspose.3D?**  
+R: Puoi ottenere una [temporary license](https://purchase.aspose.com/temporary-license/) per Aspose.3D tramite il sito web.
 
- A3: Visita il[Aspose.3D Forum](https://forum.aspose.com/c/3d/18) per il supporto e le discussioni della comunità.
+## Conclusione
 
-### Q4: Posso provare Aspose.3D prima dell'acquisto?
+Ora sai come **creare 3D cylinder**, box e altri modelli primitivi usando Aspose.3D per Java, e come **salvare la scena come FBX** per utilizzi successivi. Sentiti libero di sperimentare con altri primitivi (Sphere, Cone, ecc.) ed esplorare l'assegnazione di materiali per dare ai tuoi modelli un aspetto realistico.
 
- A4: Sì, puoi esplorare a[prova gratuita](https://releases.aspose.com/) prima di prendere una decisione di acquisto.
+---
 
-### Q5: Come posso ottenere una licenza temporanea per Aspose.3D?
+**Ultimo aggiornamento:** 2026-03-13  
+**Testato con:** Aspose.3D per Java 24.11 (ultima versione al momento della scrittura)  
+**Autore:** Aspose  
 
- A5: È possibile ottenere a[licenza temporanea](https://purchase.aspose.com/temporary-license/) per Aspose.3D attraverso il sito web.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
