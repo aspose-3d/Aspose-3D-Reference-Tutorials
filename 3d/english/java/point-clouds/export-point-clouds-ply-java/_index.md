@@ -1,5 +1,5 @@
 ---
-title: How to Export PLY: Point Clouds with Aspose.3D for Java
+title: How to Export PLY - Point Clouds with Aspose.3D for Java
 linktitle: Export Point Clouds to PLY Format with Aspose.3D for Java
 second_title: Aspose.3D Java API
 description: Learn how to export ply files and export point cloud ply using Aspose.3D for Java. Step‑by‑step guide for 3D developers.
