@@ -9,10 +9,6 @@ url: /th/java/rendering-3d-scenes/real-time-rendering-swt/
 weight: 14
 ---
 
-FAQ: translate Q and A headings but keep Q1 etc.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

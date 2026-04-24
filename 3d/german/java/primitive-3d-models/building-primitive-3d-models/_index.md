@@ -10,9 +10,7 @@ url: /de/java/primitive-3d-models/building-primitive-3d-models/
 weight: 10
 ---
 
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

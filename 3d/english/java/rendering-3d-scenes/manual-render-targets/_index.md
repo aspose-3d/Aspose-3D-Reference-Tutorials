@@ -1,5 +1,5 @@
 ---
-title: Create Render Texture Java: Manual Render Target Control
+title: Create Render Texture Java - Manual Render Target Control
 linktitle: Manually Control Render Targets for Customized Rendering in Java 3D
 second_title: Aspose.3D Java API
 description: Learn how to create render texture java with Aspose.3D for Java. This step‑by‑step guide shows manual render target control for stunning customized 3D graphics.
@@ -158,15 +158,15 @@ A6: Yes. Simply set the desired width and height when creating the `RenderTextur
 
 By mastering **create render texture java**, you unlock a powerful technique for custom rendering, post‑processing, and high‑resolution image generation. Aspose.3D for Java makes the process straightforward while still giving you low‑level control when you need it. Keep experimenting with different parameters, blend multiple render textures, and watch your 3D projects reach new visual heights.
 
+---
+
+**Last Updated:** 2026-03-13  
+**Tested With:** Aspose.3D for Java 24.11 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-13  
-**Tested With:** Aspose.3D for Java 24.11 (latest at time of writing)  
-**Author:** Aspose

@@ -14,37 +14,37 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak renderovat 3D scény v Javě – Ovládněte základní techniky renderování
+# Jak renderovat 3D scény v Javě – Ovládněte základní techniku ​​renderování
 
-## Introduction
+## Úvod
 
-Vítejte ve vzrušujícím světě 3D renderování v Javě s Aspose.3D! V tomto tutoriálu objevíte **jak renderovat 3d** scény krok za krokem – od nastavení scény a přidání geometrie po aplikaci materiálů a konfiguraci kamery. Na konci budete mít funkční příklad, který můžete rozšířit pro hry, vizualizace nebo jakýkoli projekt založený na Javě a 3D.
+Vítejte ve vzrušujícím světě 3D renderování v Javě s Aspose.3D! V tomto tutoriálu se objeví **jak renderovat 3d** scény krok za krokem – od nastavení scény a přidání geometrie po aplikaci materiálů a konfiguraci kamer. Na konci budete mít funkční příklad, který můžete rozšířit pro hry, vizualizace nebo jakýkoli projekt založený na Javě a 3D.
 
-## Quick Answers
-- **What library is used?** Aspose.3D for Java  
-- **Primary goal?** Learn **how to render 3d** scenes with basic shapes and materials  
-- **Key prerequisites?** Java basics, Aspose.3D library installed, and a simple IDE  
-- **Typical runtime?** Rendering a small scene takes less than a second on modern hardware  
-- **Can I add a torus?** Yes – see the *how to add torus* section below  
+## Rychlé odpovědi
+- **Jaká knihovna se používá?** Aspose.3D pro Javu
+- **Primární cíl?** Naučte se **vykreslovat 3D** scény pomocí základních tvarů a materiálů
+- **Klíčové předpoklady?** Základy Java, nainstalovaná knihovna Aspose.3D a jednoduché IDE
+- **Typický runtime?** Vykreslení malé scény na moderním hardwaru zabere méně než sekundu
+- **Mohu přidat torus?** Ano – viz část *Jak přidat torus* níže
 
-## What is “how to render 3d” in Java?
+## Co je to „jak vykreslit 3D“ v Javě?
 
-Renderování 3D znamená převod virtuální scény—objektů, světel a kamer—na 2‑D obrázek, který můžete zobrazit na obrazovce nebo uložit do souboru. S Aspose.3D řídíte každý krok programově, což vám dává plnou flexibilitu pro vlastní vizualizace.
+Renderování 3D znamená převod virtuální scény—objektů, světel a kamer—na 2‑D obrázku, který můžete zobrazit na obrazovce nebo uložit do souboru. S Aspose.3D řídíte každý krok programově, což vám dává plnou flexibilitu pro vlastní vizualizaci.
 
-## Why use Aspose.3D for Java?
+## Proč používat Aspose.3D pro Javu?
 
-- **Pure Java API** – no native dependencies, easy to integrate into any Java project.  
-- **Rich geometry support** – planes, torus, cylinders, and more out of the box.  
-- **Material system** – straightforward ways to **apply material** properties such as color, transparency, and shading.  
-- **Cross‑platform rendering** – works on Windows, Linux, and macOS.
+- **Pure Java API** – žádné nativní závislosti, snadno se integruje do jakéhokoli projektu Java.
+- **Bohatá podpora geometrie** – roviny, torus, válce a další po vybalení.
+- **Materiálový systém** – jednoduché způsoby **aplikace materiálových** vlastností, jako je barva, průhlednost a stínování.
+- **Vykreslování napříč platformami** – funguje na Windows, Linux a macOS.
 
-## Prerequisites
+## Předpoklady
 
-- Základní znalost programování v Javě.  
-- Aspose.3D for Java installed. If you haven’t downloaded it yet, get it **[here](https://releases.aspose.com/3d/java/)**.  
-- Základní pochopení konceptů 3D grafiky (meshes, lights, cameras).
+- Základní znalost programování v Javě.
+- Instalován Aspose.3D for Java. Pokud jste si ji ještě nestáhli, stáhněte si ji **[zde](https://releases.aspose.com/3d/java/)**.
+- Základní pochopení konceptů 3D grafiky (síťky, světla, kamery).
 
-## Import Packages
+## Importujte balíčky
 
 Nejprve importujte třídy Aspose.3D a standardní balíček `java.awt` pro práci s barvami.
 
@@ -54,13 +54,13 @@ import com.aspose.threed.*;
 import java.awt.*;
 ```
 
-## Master Basic Rendering Techniques
+## Základní techniky vykreslování
 
-Níže je kompletní krok‑za‑krokem průvodce. Každý krok obsahuje krátké vysvětlení následované původním blokem kódu (beze změny).
+Níže je uveden kompletní podrobný návod. Každý krok obsahuje krátké vysvětlení následované původním blokem kódu (beze změn).
 
-### Step 1: Setting up the Scene (how to apply material – camera & lighting)
+### Krok 1: Nastavení scény (jak aplikovat materiál – kamera a osvětlení)
 
-Vytvoříme objekt `Scene`, přidáme kameru a nakonfigurujeme základní osvětlení. Pomocná metoda vrací nakonfigurovanou instanci `Camera`.
+Vytvoříme objekt `Scene`, přidáme kameru a nakonfigurujeme základní osvětlení. Pomocná metoda vrátí nakonfigurovanou instanci `Camera`.
 
 ```java
 protected static Camera setupScene(Scene scene) {
@@ -70,7 +70,7 @@ protected static Camera setupScene(Scene scene) {
 }
 ```
 
-### Step 2: Creating a Plane (java 3d graphics basics)
+### Krok 2: Vytvoření roviny (základy 3D grafiky v Javě)
 
 Jednoduchá rovina nám poskytuje referenci pro podlahu. Také **aplikujeme materiál** nastavením plné barvy.
 
@@ -81,9 +81,9 @@ plane.getTransform().setTranslation(0, 0, 0);
 ((Mesh)plane.getEntity()).setReceiveShadows(true);
 ```
 
-### Step 3: Adding a Torus (how to add torus)
+### Krok 3: Přidání torusu (jak přidat torus)
 
-Torus ukazuje, jak pracovat s komplexnější geometrií a průhlednými materiály.
+Torus ukazuje, jak pracovat se složitější geometrií a průhlednými materiály.
 
 ```java
 Mesh torusMesh = (new Torus("", 1, 0.4, 50, 50, Math.PI*2)).toMesh();
@@ -92,7 +92,7 @@ applyMaterial(torus, new Color(0x330c93)).setTransparency(0.3);
 torus.getTransform().setTranslation(2, 1, 1);
 ```
 
-### Step 4: Incorporating Cylinders (additional shapes)
+### Krok 4: Začlenění válců (další tvary)
 
 Zde přidáváme několik válců s různými rotacemi a materiály, aby scéna byla bohatší.
 
@@ -101,7 +101,7 @@ Zde přidáváme několik válců s různými rotacemi a materiály, aby scéna 
 // ...
 ```
 
-### Step 5: Configuring the Camera (final view)
+### Krok 5: Konfigurace kamery (finální zobrazení)
 
 Kamera určuje úhel pohledu, ze kterého je scéna renderována.
 
@@ -114,41 +114,42 @@ camera.setLookAt(Vector3.ORIGIN);
 return camera;
 ```
 
-## Common Issues and Solutions
+## Běžné problémy a řešení
 
 | Problém | Proč se to děje | Řešení |
 |-------|----------------|-----|
-| Objects appear invisible | Material transparency set to 1.0 or missing light | Reduce transparency (`setTransparency(0.3)`) and ensure a light source exists |
-| Camera looks through the scene | `LookAt` target not set to the origin | Use `camera.setLookAt(Vector3.ORIGIN)` as shown |
-| Meshes don’t receive shadows | `setReceiveShadows(true)` not called on the mesh | Call it on each mesh you want to cast/receive shadows |
+| Objekty se zdají být neviditelné | Průhlednost materiálu nastavena na 1,0 nebo chybí světlo | Snižte průhlednost (`setTransparency(0.3)`) a zajistěte existenci zdroje světla |
+| Kamera se dívá skrz scénu | Cíl `LookAt` není nastaven na počátek | Použijte `camera.setLookAt(Vector3.ORIGIN)`, jak je znázorněno |
 
-## Frequently Asked Questions
+| Sítě nepřijímají stíny | `setReceiveShadows(true)` není volána na síti | Volejte ji na každé síti, na které chcete vrhat/přijímat stíny |
 
-### Q1: Where can I find Aspose.3D for Java documentation?
+## Často kladené otázky
 
-A1: You can refer to the **[documentation](https://reference.aspose.com/3d/java/)** for detailed information.
+### Otázka 1: Kde najdu dokumentaci k Aspose.3D pro Javu?
 
-### Q2: How can I obtain a temporary license for Aspose.3D?
+Odpověď 1: Podrobné informace naleznete v **[dokumentaci](https://reference.aspose.com/3d/java/)**.
 
-A2: Visit **[this link](https://purchase.aspose.com/temporary-license/)** to get a temporary license.
+### Q2: Jak mohu získat dočasnou licenci pro Aspose.3D?
 
-### Q3: Are there any example projects using Aspose.3D for Java?
+A2: Navštivte **[tento odkaz](https://purchase.aspose.com/temporary-license/)** a získejte dočasnou licenci.
 
-A3: Explore the **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)** for community discussions and example projects.
+### Q3: Existují nějaké ukázkové projekty s použitím Aspose.3D pro Javu?
 
-### Q4: Can I try Aspose.3D for Java for free?
+A3: Prozkoumejte **[fórum Aspose.3D](https://forum.aspose.com/c/3d/18)**, kde najdete diskuze komunity a ukázkové projekty.
 
-A4: Yes, you can download a free trial **[here](https://releases.aspose.com/)**.
+### Q4: Mohu si Aspose.3D pro Javu vyzkoušet zdarma?
 
-### Q5: Where can I purchase Aspose.3D for Java?
+A4: Ano, bezplatnou zkušební verzi si můžete stáhnout **[zde](https://releases.aspose.com/)**.
 
-A5: You can buy the product **[here](https://purchase.aspose.com/buy)**.
+### Q5: Kde si mohu Aspose.3D pro Javu zakoupit?
+
+A5: Produkt si můžete koupit **[zde](https://purchase.aspose.com/buy)**.
 
 ---
 
-**Last Updated:** 2026-03-13  
-**Tested With:** Aspose.3D for Java (latest release)  
-**Author:** Aspose  
+**Poslední aktualizace:** 2026-03-13
+**Testováno s:** Aspose.3D pro Javu (nejnovější verze)
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

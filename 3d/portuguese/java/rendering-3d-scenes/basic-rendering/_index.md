@@ -10,17 +10,7 @@ url: /pt/java/rendering-3d-scenes/basic-rendering/
 weight: 11
 ---
 
-ções básicas de gráficos 3d em Java)
-
-Step 3: (how to add torus) -> (como adicionar torus)
-
-Step 4: (additional shapes) -> (formas adicionais)
-
-Step 5: (final view) -> (visão final)
-
-Make sure to keep dash and spacing.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

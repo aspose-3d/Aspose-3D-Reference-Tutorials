@@ -9,9 +9,7 @@ url: /it/java/primitive-3d-models/building-primitive-3d-models/
 weight: 10
 ---
 
- - not needed.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

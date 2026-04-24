@@ -9,15 +9,7 @@ url: /cs/java/rendering-3d-scenes/real-time-rendering-swt/
 weight: 14
 ---
 
- we keep shortcodes at bottom.
-
-Now produce final content.
-
-Check that we didn't translate any code block placeholders.
-
-Also ensure we didn't translate URLs.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

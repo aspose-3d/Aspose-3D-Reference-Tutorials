@@ -10,11 +10,7 @@ url: /pl/java/rendering-3d-scenes/basic-rendering/
 weight: 11
 ---
 
- SDK, class names)". "how to render 3d" is not a technical term; it's a phrase. In original they bolded it. Could translate. We'll keep translation as we did.
-
-Also headings like "(how to apply material – camera & lighting)" we left unchanged partly. The phrase inside parentheses may be considered technical; we left as is. That's fine.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

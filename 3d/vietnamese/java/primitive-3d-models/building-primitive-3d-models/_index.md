@@ -10,11 +10,7 @@ url: /vi/java/primitive-3d-models/building-primitive-3d-models/
 weight: 10
 ---
 
-.
-
-Make sure to preserve markdown formatting, code block placeholders, shortcodes.
-
-Let's write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,13 +10,7 @@ url: /it/java/rendering-3d-scenes/basic-rendering/
 weight: 11
 ---
 
-]**.
-
-- **[here]** for purchase -> **[qui]**.
-
-Make sure to keep bold formatting.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

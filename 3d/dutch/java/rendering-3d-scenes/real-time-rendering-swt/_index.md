@@ -9,10 +9,6 @@ url: /nl/java/rendering-3d-scenes/real-time-rendering-swt/
 weight: 14
 ---
 
- tip". It's same. Could keep.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

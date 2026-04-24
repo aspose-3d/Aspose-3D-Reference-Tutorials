@@ -11,11 +11,7 @@ url: /pl/java/rendering-3d-scenes/real-time-rendering-swt/
 weight: 14
 ---
 
-/products/products-backtop-button >}}
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

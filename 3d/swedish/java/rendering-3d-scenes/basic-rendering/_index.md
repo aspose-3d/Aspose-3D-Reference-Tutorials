@@ -10,11 +10,7 @@ url: /sv/java/rendering-3d-scenes/basic-rendering/
 weight: 11
 ---
 
-. Translated.
-
-Make sure to preserve markdown formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
