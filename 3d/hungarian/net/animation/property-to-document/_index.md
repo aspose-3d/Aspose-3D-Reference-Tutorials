@@ -1,11 +1,12 @@
 ---
-date: 2026-01-14
-description: Tanulja meg, hogyan animáljon egy kockát 3D jelenetekben az Aspose.3D
-  for .NET használatával. Ez az útmutató bemutatja, hogyan hozhat létre animációs
-  görbét, kötheti össze a kulcsképkockákat, és animálhatja a 3D tulajdonságokat.
+date: 2026-03-28
+description: Tudja meg, hogyan animálhat egy kockát 3D jelenetekben az Aspose.3D for
+  .NET használatával, és exportálhatja az animált jelenetet FBX formátumban. Ez az
+  útmutató bemutatja, hogyan hozhat létre animációs görbét, kössön kulcsképkockákat,
+  és animálja a 3D tulajdonságokat.
 linktitle: Animating Properties to Document in 3D Scenes
 second_title: Aspose.3D .NET API
-title: Hogyan animáljunk kockát 3D jelenetekben az Aspose.3D for .NET segítségével
+title: Hogyan animáljunk egy kockát 3D jelenetekben az Aspose.3D for .NET segítségével
 url: /hu/net/animation/property-to-document/
 weight: 10
 ---
@@ -16,37 +17,37 @@ weight: 10
 
 # Hogyan animáljunk kockát 3D jelenetekben az Aspose.3D for .NET segítségével
 
-## Introduction
+## Bevezetés
 
-Ha a .NET-ben a 3D jelenet létrehozásának és animálásának világába merülsz, az Aspose.3D a megfelelő eszköztárad. Ebben a lépésről‑lépésre útmutatóban megvizsgáljuk, hogyan **animáljunk kockát** objektumokat a tulajdonságaik animálásával, animációs görbék létrehozásával és kulcsképkockák kötésével. A végére egy teljesen animált kockád lesz, amelyet népszerű 3D formátumokba exportálhatsz.
+Ha a .NET környezetben 3D jelenetek létrehozásával és animálásával szeretnél foglalkozni, az Aspose.3D a megfelelő eszköztár. Ebben a lépésről‑lépésre útmutatóban megvizsgáljuk, **hogyan animáljunk kocka** objektumokat a tulajdonságaik animálásával, animációs görbék létrehozásával és kulcskockák kötésével. A végére egy teljesen animált kockát kapsz, amelyet népszerű 3D formátumokba exportálhatsz.
 
-## Quick Answers
-- **What library is used?** Aspose.3D for .NET  
-- **Which primary task does this tutorial cover?** How to animate cube in a 3D scene  
-- **Key steps?** Import namespaces, create a scene, bind keyframes, save the file  
-- **Do I need a license?** A free trial works for learning; a commercial license is required for production  
-- **Supported output format?** FBX (ASCII 7500) and others supported by Aspose.3D  
+## Gyors válaszok
+- **Melyik könyvtárat használja?** Aspose.3D for .NET  
+- **Melyik fő feladatot fed le ez az útmutató?** Hogyan animáljunk kockát egy 3D jelenetben  
+- **Kulcsfontosságú lépések?** Névterek importálása, jelenet létrehozása, kulcskockák kötése, fájl mentése  
+- **Szükségem van licencre?** Egy ingyenes próba elegendő a tanuláshoz; a gyártási környezethez kereskedelmi licenc szükséges  
+- **Támogatott kimeneti formátum?** FBX (ASCII 7500) és egyéb, az Aspose.3D által támogatott formátumok  
 
-## What is “how to animate cube” in Aspose.3D?
-A kocka animálása azt jelenti, hogy időben módosítjuk a transzformációs tulajdonságait (például Translation, Rotation vagy Scale) kulcsképkocka adatok segítségével. Az Aspose.3D tiszta API‑t biztosít **animation curves** (animációs görbék) létrehozásához, **bind keyframes** (kulcsképkockák kötéséhez) és **animate 3D properties** (3D tulajdonságok animálásához) közvetlenül a jelenet csomópontjain.
+## Mi az a „hogyan animáljunk kockát” az Aspose.3D-ben?
+Egy kocka animálása azt jelenti, hogy időben módosítjuk a transzformációs tulajdonságait (például Translation, Rotation vagy Scale) kulcskocka‑adatok segítségével. Az Aspose.3D tiszta API‑t biztosít **animációs görbék** létrehozásához, **kulcskockák kötéséhez** és a **3D tulajdonságok** közvetlen animálásához a jelenet node‑jain.
 
-## Why animate a cube with Aspose.3D?
-- **Full .NET integration** – works with .NET Framework, .NET Core, and .NET 5/6.  
-- **No external dependencies** – no need for Unity or other engines for simple animations.  
-- **Export flexibility** – animated scenes can be saved as FBX, OBJ, GLTF, etc., for downstream pipelines.
+## Miért animáljunk kockát az Aspose.3D-vel?
+- **Teljes .NET integráció** – működik .NET Framework, .NET Core és .NET 5/6 környezetben.  
+- **Nincsenek külső függőségek** – nem szükséges Unity vagy más motor egyszerű animációkhoz.  
+- **Export rugalmasság** – az animált jelenetek menthetők FBX, OBJ, GLTF stb. formátumokba, így könnyen beilleszthetők további pipeline‑okba.
 
-## Prerequisites
+## Előfeltételek
 
-Mielőtt elindulnánk ezen az izgalmas úton, győződj meg arról, hogy a következő előfeltételek rendelkezésre állnak:
+Mielőtt elindulnánk ezen az izgalmas úton, győződj meg arról, hogy a következő előfeltételek teljesülnek:
 
-- Aspose.3D for .NET: Győződj meg róla, hogy a könyvtár telepítve van. Letöltheted a [Aspose.3D weboldaláról](https://releases.aspose.com/3d/net/).
-- C# ismeretek: A C# programozási nyelv ismerete elengedhetetlen a példák megértéséhez és megvalósításához.
-- Integrált fejlesztői környezet (IDE): Használd a kedvenc IDE-det, például a Visual Studio-t, a példák szerinti kódoláshoz.
-- Alapvető 3D jelenet koncepciók: Az alapvető 3D jelenet fogalmak ismerete gördülékenyebbé teszi a tanulási folyamatot.
+- Aspose.3D for .NET: Győződj meg róla, hogy a könyvtár telepítve van. Letöltheted a [Aspose.3D weboldaláról](https://releases.aspose.com/3d/net/).  
+- C# ismeretek: A C# programozási nyelv ismerete elengedhetetlen a példák megértéséhez és megvalósításához.  
+- Integrált fejlesztőkörnyezet (IDE): Használd kedvenc IDE‑det, például a Visual Studio‑t a példák szerinti kódoláshoz.  
+- Alapvető 3D jelenet‑fogalmak: Az alapvető 3D jelenet‑fogalmak ismerete gördülékenyebbé teszi a tanulási folyamatot.
 
-## Import Namespaces
+## Névterek importálása
 
-A C# kódban győződj meg róla, hogy importálod a szükséges névtereket az Aspose.3D-hez. Íme a szükséges halmaz:
+A C# kódban importáld a szükséges névtereket az Aspose.3D-hez. Íme a szükséges halmaz:
 
 ```csharp
 using System;
@@ -59,49 +60,49 @@ using Aspose.ThreeD.Utilities;
 using Aspose._3D.Examples.CSharp.Geometry_Hierarchy;
 ```
 
-## Step 1: Initialize the Scene Object
+## 1. lépés: A Scene objektum inicializálása
 
-Hozz létre egy üres jelenetet, amely tartalmazni fogja az összes csomópontot és animációt.
+Hozz létre egy üres jelenetet, amely tartalmazni fogja az összes node‑t és animációt.
 
 ```csharp
 Scene scene = new Scene();
 ```
 
-## Step 2: Create Mesh Using Polygon Builder
+## 2. lépés: Mesh létrehozása Polygon Builder-rel
 
-Egy egyszerű kocka hálót generálunk a `Common.CreateMeshUsingPolygonBuilder()` segédmetódus segítségével.
+Egy egyszerű kocka mesh‑et generálunk a segédmetódus `Common.CreateMeshUsingPolygonBuilder()` segítségével.
 
 ```csharp
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
 ```
 
-## Step 3: Create Cube Nodes
+## 3. lépés: Kocka node-ok létrehozása
 
-Add hozzá a kocka hálót a jelenethez a gyökér gyermekcsomópontjaként. A **cube1** csomópontnevet később fogjuk használni a kulcsképkockák kötéséhez.
+Add hozzá a kocka mesh‑et a jelenethez a gyökér node gyermekeként. A **cube1** node‑nevet később a kulcskockák kötésénél használjuk.
 
 ```csharp
 Node cube1 = scene.RootNode.CreateChildNode("cube1", mesh);
 ```
 
-## Step 4: Find Translation Property
+## 4. lépés: A Translation tulajdonság megtalálása
 
-A kocka pozíciójának animálásához meg kell találnunk a **Translation** (fordítás) tulajdonságát a csomópont transzformációján.
+A kocka pozíciójának animálásához meg kell találnunk a node transzformációjának **Translation** tulajdonságát.
 
 ```csharp
 Property translation = cube1.Transform.FindProperty("Translation");
 ```
 
-## Step 5: Create a Bind Point
+## 5. lépés: Bind Point létrehozása
 
-A `BindPoint` egy jeleneti tulajdonságot egy animációs görbéhez köt. Itt a translation (fordítás) tulajdonságot kötjük.
+A `BindPoint` egy jelenet‑tulajdonságot kapcsol össze egy animációs görbével. Itt a translation tulajdonságot kötjük.
 
 ```csharp
 BindPoint bindPoint = new BindPoint(scene, translation);
 ```
 
-## Step 6: Bind Animation Curve on X Component
+## 6. lépés: Animációs görbe kötése X komponensre
 
-Most létrehozunk egy animációs görbét az **X** tengelyhez. Ez bemutatja a **create animation curve** (animációs görbe létrehozása) lépést, és megmutatja, hogyan **bind keyframes** (kulcsképkockákat kötünk).
+Most létrehozunk egy animációs görbét az **X** tengelyhez. Ez demonstrálja a **animációs görbe létrehozása** lépést és megmutatja, hogyan **kötünk kulcskockákat**.
 
 ```csharp
 bindPoint.BindKeyframeSequence("X", new KeyframeSequence()
@@ -112,9 +113,9 @@ bindPoint.BindKeyframeSequence("X", new KeyframeSequence()
 });
 ```
 
-## Step 7: Bind Animation Curve on Z Component
+## 7. lépés: Animációs görbe kötése Z komponensre
 
-Hasonlóan animáljuk a **Z** tengelyt, hogy a kockának dinamikusabb mozgási útvonalat adjunk.
+Hasonlóképpen animáljuk a **Z** tengelyt, hogy a kocka dinamikusabb mozgású pályát kapjon.
 
 ```csharp
 bindPoint.BindKeyframeSequence("Z", new KeyframeSequence()
@@ -125,7 +126,7 @@ bindPoint.BindKeyframeSequence("Z", new KeyframeSequence()
 });
 ```
 
-## Step 8: Save 3D Scene
+## 8. lépés: 3D jelenet mentése
 
 Exportáld az animált jelenetet egy FBX fájlba. A `FBX7500ASCII` formátum széles körben támogatott a 3D eszközök által.
 
@@ -134,7 +135,7 @@ string output = "Your Output Directory" + "PropertyToDocument.fbx";
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-## Step 9: Display Success Message
+## 9. lépés: Sikerüzenet megjelenítése
 
 Adj visszajelzést a felhasználónak, hogy az animáció sikeresen hozzá lett adva.
 
@@ -142,59 +143,63 @@ Adj visszajelzést a felhasználónak, hogy az animáció sikeresen hozzá lett 
 Console.WriteLine("\nAnimation property added successfully to document.\nFile saved at " + output);
 ```
 
-## Common Issues and Solutions
+## Animált jelenet exportálása FBX-be
+
+Az animált kocka után a leggyakoribb feladat az **animált jelenet FBX‑be exportálása**, hogy más 3D alkalmazások felhasználhassák. A fenti kód már menti a jelenetet FBX7500ASCII formátumban, amely megőrzi a kulcskocka‑adatokat, és zökkenőmentesen működik olyan eszközökkel, mint az Autodesk Maya, Blender és Unity. Amikor megnyitod a létrehozott `.fbx` fájlt, a kocka az X és Z tengelyek mentén mozogni fog, pontosan úgy, ahogy a kulcskocka‑sorozat definiálja.
+
+## Gyakori problémák és megoldások
 
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| Nem látható mozgás | A kulcsképkocka időpontok nem egyeznek a lejátszási tartománnyal | Győződj meg arról, hogy a jelenet animációs idővonala lefedi a kulcsképkocka időpontokat (0‑5 másodperc ebben a példában). |
-| Helytelen fájlútvonal | `output` egy nem létező könyvtárra mutat | Először hozd létre a könyvtárat, vagy használj abszolút útvonalat. |
-| Licenc kivétel | Érvényes licenc nélküli futtatás a produkcióban | Alkalmazd az Aspose.3D licencet a `Scene` létrehozása előtt. |
+| Nem látszik mozgás | A kulcskocka‑idők nem egyeznek a lejátszási tartománnyal | Győződj meg róla, hogy a jelenet animációs idővonala lefedi a kulcskocka‑időket (0‑5 másodperc ebben a példában). |
+| Hibás fájlútvonal | `output` egy nem létező könyvtárra mutat | Hozd létre a könyvtárat először, vagy használj abszolút útvonalat. |
+| Licenckivétel | Érvényes licenc nélkül futtatod a termelésben | Alkalmazd az Aspose.3D licencet a `Scene` létrehozása előtt. |
 
-## Frequently Asked Questions
+## Gyakran Ismételt Kérdések
 
-### Q1: Where can I find the Aspose.3D documentation?
+### Q1: Hol találom az Aspose.3D dokumentációt?
 
-A1: A dokumentáció elérhető [itt](https://reference.aspose.com/3d/net/).
+A dokumentáció elérhető [itt](https://reference.aspose.com/3d/net/).
 
-### Q2: How do I download Aspose.3D for .NET?
+### Q2: Hogyan tölthetem le az Aspose.3D for .NET-et?
 
-A2: Letöltheted a [kiadási oldalról](https://releases.aspose.com/3d/net/).
+Letöltheted a [release page](https://releases.aspose.com/3d/net/) oldalról.
 
-### Q3: Is there a free trial available?
+### Q3: Elérhető ingyenes próba?
 
-A3: Igen, ingyenes próbaverziót kaphatsz [itt](https://releases.aspose.com/).
+Igen, ingyenes próba [itt](https://releases.aspose.com/).
 
-### Q4: Where can I get support for Aspose.3D?
+### Q4: Hol kaphatok támogatást az Aspose.3D-hez?
 
-A4: Látogasd meg az [Aspose.3D fórumot](https://forum.aspose.com/c/3d/18) támogatásért.
+Látogasd meg az [Aspose.3D fórumot](https://forum.aspose.com/c/3d/18) támogatásért.
 
-### Q5: Can I obtain a temporary license?
+### Q5: Kaphatok ideiglenes licencet?
 
-A5: Igen, ideiglenes licencet kaphatsz [itt](https://purchase.aspose.com/temporary-license/).
+Igen, ideiglenes licenc [itt](https://purchase.aspose.com/temporary-license/).
 
-## Additional FAQ (AI‑Optimized)
+## További GYIK (AI‑optimalizált)
 
-**Q: Can I animate other properties such as rotation or scale?**  
-A: Természetesen. Használd a `cube1.Transform.FindProperty("Rotation")` vagy `"Scale"`-t, és ugyanígy köss kulcsképkocka sorozatokat.
+**Q: Animálhatok más tulajdonságokat, például forgást vagy méretezést?**  
+A: Természetesen. Használd a `cube1.Transform.FindProperty("Rotation")` vagy `"Scale"` metódusokat, és köss kulcskocka‑sorozatot ugyanúgy.
 
-**Q: Does Aspose.3D support keyframe interpolation types other than Bezier and Linear?**  
-A: Igen, támogatja a `Interpolation.Step` és `Interpolation.Cubic` típusokat is a nagyobb vezérléshez.
+**Q: Az Aspose.3D támogat-e más kulcskocka‑interpolációs típusokat a Bezier és Linear mellett?**  
+A: Igen, támogatja az `Interpolation.Step` és `Interpolation.Cubic` típusokat is a nagyobb kontroll érdekében.
 
-**Q: How can I preview the animation before exporting?**  
-A: Az Aspose.3D egyszerű nézőt biztosít az API-jában; alternatívaként töltsd be az exportált FBX-et egy 3D nézőbe, például az Autodesk FBX Review-ba.
+**Q: Hogyan tekinthetem előre az animációt exportálás előtt?**  
+A: Az Aspose.3D egyszerű nézőt biztosít az API‑jában; alternatívaként betöltheted az exportált FBX‑et egy 3D nézőbe, például az Autodesk FBX Review‑ba.
 
-**Q: Is it possible to animate multiple cubes simultaneously?**  
-A: Hozz létre külön csomópontokat minden egyes kockához, szerezd meg a megfelelő tulajdonságaikat, és köss független kulcsképkocka sorozatokat.
+**Q: Lehetséges egyszerre több kockát animálni?**  
+A: Hozz létre külön node‑okat minden kockához, szerezd meg a megfelelő tulajdonságokat, és köss független kulcskocka‑sorozatokat.
 
-## Conclusion
+## Összegzés
 
-Gratulálunk! Most már elsajátítottad, hogyan **animáljunk kockát** egy 3D jelenetben az Aspose.3D for .NET segítségével. Tudod, hogyan **create animation curves** (animációs görbéket hozz létre), **bind keyframes** (kulcsképkockákat köss), és **animate 3D properties** (3D tulajdonságokat animálj), hogy a statikus geometria életre keljen. Nyugodtan kísérletezz forgatásokkal, skálázással vagy akár morf célpontokkal, hogy bővítsd animációs eszköztáradat.
+Gratulálunk! Most már **tudod, hogyan animálj kockát** egy 3D jelenetben az Aspose.3D for .NET segítségével. Ismered a **animációs görbék létrehozását**, a **kulcskockák kötését**, és a **animált jelenet FBX‑be exportálását**, hogy a statikus geometria életre keljen. Nyugodtan kísérletezz forgatásokkal, méretezéssel vagy akár morph célpontokkal, hogy bővítsd az animációs eszköztáradat.
 
 ---
 
-**Legutóbb frissítve:** 2026-01-14  
-**Tesztelve a következővel:** Aspose.3D 24.11 for .NET  
-**Szerző:** Aspose  
+**Last Updated:** 2026-03-28  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

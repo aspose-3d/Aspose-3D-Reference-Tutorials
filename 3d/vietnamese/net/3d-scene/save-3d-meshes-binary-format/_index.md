@@ -1,35 +1,56 @@
 ---
-title: Lưu lưới 3D ở định dạng nhị phân tùy chỉnh
-linktitle: Lưu lưới 3D ở định dạng nhị phân tùy chỉnh
-second_title: API Aspose.3D .NET
-description: Khám phá thế giới 3D với Aspose.3D cho .NET. Tìm hiểu cách lưu lưới ở định dạng nhị phân tùy chỉnh.
-weight: 13
+date: 2026-03-28
+description: Tìm hiểu cách lưu lưới 3D ở định dạng nhị phân tùy chỉnh, chuyển đổi
+  các tệp FBX nhị phân và tạo định dạng lưới tùy chỉnh với Aspose.3D – một hướng dẫn
+  đầy đủ về Aspose 3D.
+linktitle: Save 3D mesh in custom binary format using Aspose.3D for .NET
+second_title: Aspose.3D .NET API
+title: Lưu lưới 3D ở định dạng nhị phân tùy chỉnh bằng Aspose.3D cho .NET
 url: /vi/net/3d-scene/save-3d-meshes-binary-format/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lưu lưới 3D ở định dạng nhị phân tùy chỉnh
+# Lưu lưới 3D dưới dạng nhị phân tùy chỉnh bằng Aspose.3D cho .NET
 
 ## Giới thiệu
 
-Chào mừng bạn đến với thế giới của Aspose.3D cho .NET, một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp 3D một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình lưu lưới 3D ở định dạng nhị phân tùy chỉnh bằng Aspose.3D cho .NET. Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về C# và quen thuộc với thư viện Aspose.3D.
+Chào mừng! Trong **bài hướng dẫn Aspose 3D** này, bạn sẽ học cách **lưu lưới 3D** dữ liệu dưới dạng nhị phân tùy chỉnh. Cho dù bạn cần **chuyển đổi tệp FBX nhị phân** cho một engine game hoặc xây dựng container lưới nhẹ của riêng bạn, hướng dẫn này sẽ dẫn bạn qua từng bước với các ví dụ C# rõ ràng. Các hướng dẫn giả định rằng bạn đã quen với cú pháp C# cơ bản và có cài đặt Aspose.3D hoạt động.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
 
-Trước khi chúng ta bắt đầu hướng dẫn, hãy đảm bảo bạn có những điều sau:
+- **What does this tutorial cover?** Lưu một lưới 3D vào tệp nhị phân tùy chỉnh bằng Aspose.3D cho .NET.  
+- **Which file formats can be converted?** Bất kỳ định dạng nào mà Aspose.3D đọc được (ví dụ: FBX, OBJ, 3DS) – chúng tôi minh họa bằng nguồn FBX.  
+- **Do I need a license?** Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **What .NET versions are supported?** Các phiên bản .NET được hỗ trợ: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **How long does implementation take?** Khoảng 10‑15 phút cho một chuyển đổi cơ bản.
 
--  Aspose.3D for .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.3D. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/3d/net/).
+## **save 3d mesh** là gì?
 
+Lưu một lưới 3D có nghĩa là trích xuất các vị trí đỉnh, pháp tuyến, tọa độ UV và chỉ số tam giác từ một cảnh và ghi chúng vào một tệp mà bạn định nghĩa. Định dạng nhị phân tùy chỉnh cho phép bạn kiểm soát hoàn toàn kích thước lưu trữ và hiệu suất đọc, điều này rất quan trọng cho việc render thời gian thực hoặc truyền tải qua mạng.
+
+## Tại sao **convert FBX binary** và **create custom mesh format**?
+
+- **Performance:** Dữ liệu nhị phân tải nhanh hơn so với các định dạng dựa trên văn bản như OBJ.  
+- **Portability:** Định dạng tùy chỉnh có thể được điều chỉnh phù hợp với nhu cầu chính xác của engine của bạn, loại bỏ dữ liệu không cần thiết.  
+- **Security:** Các tệp nhị phân ít bị chỉnh sửa ngẫu nhiên, giúp bảo vệ hình học sở hữu.  
+
+Sử dụng Aspose.3D làm cho quá trình chuyển đổi trở nên đơn giản đồng thời giữ cho mã nguồn sạch sẽ và dễ bảo trì.
+
+## Yêu cầu trước
+
+Trước khi chúng ta bắt đầu bài hướng dẫn, hãy chắc chắn rằng bạn đã chuẩn bị các mục sau:
+
+- Aspose.3D cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.3D. Bạn có thể tải xuống từ [here](https://releases.aspose.com/3d/net/).
 - Môi trường phát triển: Thiết lập môi trường phát triển C# ưa thích của bạn, chẳng hạn như Visual Studio.
+- Tệp 3D đầu vào: Có một tệp 3D (ví dụ: test.fbx) mà bạn muốn chuyển đổi sang định dạng nhị phân tùy chỉnh.
 
-- Đầu vào tệp 3D: Có tệp 3D (ví dụ: test.fbx) mà bạn muốn chuyển đổi sang định dạng nhị phân tùy chỉnh.
+## Nhập các không gian tên
 
-## Nhập không gian tên
-
-Trong mã C# của bạn, hãy bao gồm các vùng tên cần thiết để truy cập các chức năng của Aspose.3D:
+Trong mã C# của bạn, bao gồm các không gian tên cần thiết để truy cập các chức năng của Aspose.3D:
 
 ```csharp
 using Aspose.ThreeD;
@@ -42,41 +63,48 @@ using System.Linq;
 using System.Text;
 ```
 
+Các không gian tên này cung cấp cho bạn quyền truy cập vào việc xử lý cảnh, tiện ích chuyển đổi lưới, và các lớp I/O cơ bản của .NET.
+
 ## Bước 1: Tải tệp 3D
 
-Tải tệp 3D của bạn bằng Aspose.3D. Trong ví dụ này, chúng tôi tải một tệp có tên "test.fbx":
+Tải tệp 3D của bạn bằng Aspose.3D. Trong ví dụ này, chúng ta tải một tệp có tên **test.fbx**:
 
 ```csharp
 Scene scene = Scene.FromFile("test.fbx");
 ```
 
-## Bước 2: Xác định định dạng nhị phân tùy chỉnh
+Phương thức `Scene.FromFile` tự động phát hiện định dạng nguồn, vì vậy bạn có thể thay thế tệp FBX bằng OBJ, 3DS, hoặc bất kỳ loại nào khác được hỗ trợ.
 
-Xác định cấu trúc của định dạng nhị phân tùy chỉnh mà bạn muốn lưu lưới 3D của mình vào. Ví dụ này sử dụng cấu trúc có MeshBlock, Vertex và Triangle làm thành phần.
+## Bước 2: Định nghĩa Định dạng Nhị phân Tùy chỉnh
+
+Xác định cấu trúc của định dạng nhị phân tùy chỉnh mà bạn muốn lưu các lưới 3D của mình. Ví dụ sử dụng một cấu trúc gồm `MeshBlock`, `Vertex`, và `Triangle` làm các thành phần.
 
 ```csharp
-// Bố cục bộ nhớ của một đỉnh là
-// vị trí phao [3];
-// float[3] bình thường;
-// phao[3] uv;
+//The memory layout of a vertex is 
+// float[3] position;
+// float[3] normal;
+// float[3] uv;
 var vertexDeclaration = new VertexDeclaration();
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
-
 ```
 
-## Bước 3: Mở tệp để viết
+Bằng cách khai báo bố cục đỉnh, bạn cho Aspose.3D biết cách đóng gói dữ liệu trước khi ghi vào luồng nhị phân.
 
-Mở tệp nhị phân để ghi, trong đó các lưới 3D đã chuyển đổi sẽ được lưu:
+## Bước 3: Mở tệp để ghi
+
+Mở một tệp nhị phân để ghi, nơi các lưới 3D đã chuyển đổi sẽ được lưu:
 
 ```csharp
 using (var writer = new BinaryWriter(new FileStream("Your Output Directory" + "Save3DMeshesInCustomBinaryFormat_out", FileMode.Create, FileAccess.Write)))
 ```
 
-## Bước 4: Lặp lại các nút và thực thể
+`BinaryWriter` cung cấp cho bạn quyền kiểm soát mức thấp đối với thứ tự byte và đảm bảo tệp được tạo mới mỗi lần chạy.
 
-Truy cập từng nút trong cảnh 3D và chuyển đổi các thực thể lưới sang định dạng nhị phân tùy chỉnh. Bỏ qua đèn, camera và các thực thể không có lưới khác:
+## Bước 4: Duyệt qua các Node và Entity
+
+Thăm mỗi node trong cảnh 3D và chuyển đổi các thực thể lưới sang định dạng nhị phân tùy chỉnh. Bỏ qua đèn, camera và các thực thể không phải lưới khác:
 
 ```csharp
 scene.RootNode.Accept(delegate(Node node)
@@ -85,15 +113,17 @@ scene.RootNode.Accept(delegate(Node node)
     {
         if (!(entity is IMeshConvertible))
             continue;
-        // ... (tiếp tục xử lý)
+        // ... (continue processing)
     }
     return true;
 });
 ```
 
-## Bước 5: Chuyển đổi và viết các điểm kiểm soát và hình tam giác
+Phương thức `Accept` thực hiện duyệt sâu trước, cho phép bạn xử lý mọi lưới bất kể độ sâu của cấu trúc cây.
 
-Đối với mỗi thực thể lưới, chuyển đổi các điểm điều khiển thành không gian thế giới và ghi chúng vào tệp nhị phân cùng với các chỉ số tam giác:
+## Bước 5: Chuyển đổi và Ghi các Control Points và Tam giác
+
+Đối với mỗi thực thể lưới, chuyển đổi các control point sang không gian thế giới và ghi chúng vào tệp nhị phân cùng với chỉ số tam giác:
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
@@ -101,53 +131,78 @@ Mesh m = ((IMeshConvertible)entity).ToMesh();
 var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
 
 
-//Bố cục bộ nhớ của lưới là:
-// float[16] Transform_matrix;
-// int đỉnh_count;
-// int chỉ số_count;
-// đỉnh[vertices_count] đỉnh;
-// chỉ số ushort[indices_count];
+//The mesh's memory layout is:
+// float[16] transform_matrix;
+// int vertices_count;
+// int indices_count;
+// vertex[vertices_count] vertices;
+// ushort[indices_count] indices;
 
 
-//viết biến đổi
+//write transform
 var transform = node.GlobalTransform.TransformMatrix.ToArray();
 for(int i = 0; i < transform.Length; i++)
     writer.Write((float)transform[i]);
-//ghi số đỉnh/chỉ số
+//write number of vertices/indices
 writer.Write(triMesh.VerticesCount);
 writer.Write(triMesh.IndicesCount);
-//viết các đỉnh và chỉ số
+//write vertices and indices
 writer.Flush();
 triMesh.WriteVerticesTo(writer.BaseStream);
 triMesh.Write16bIndicesTo(writer.BaseStream);
-
 ```
 
-## Phần kết luận
+Khối này ghi ma trận biến đổi không gian thế giới của node đầu tiên, sau đó là số lượng đỉnh, số lượng chỉ số, bộ đệm đỉnh, và cuối cùng là bộ đệm chỉ số 16‑bit. Tệp kết quả có thể được đọc lại một cách hiệu quả bởi bất kỳ engine nào biết cấu trúc này.
 
-Trong hướng dẫn này, chúng tôi đã trình bày quy trình lưu lưới 3D ở định dạng nhị phân tùy chỉnh bằng Aspose.3D cho .NET. Thư viện mạnh mẽ này cung cấp cho các nhà phát triển những công cụ cần thiết để thao tác các tệp 3D một cách liền mạch. Thử nghiệm với các định dạng và cài đặt khác nhau để phát huy toàn bộ tiềm năng của Aspose.3D trong các dự án của bạn.
+## Các vấn đề thường gặp và Giải pháp
+
+- **File path errors:** Đảm bảo thư mục đầu ra tồn tại hoặc sử dụng `Path.Combine` để tạo một đường dẫn hợp lệ.  
+- **Large meshes:** Đối với các lưới có hàng triệu đỉnh, hãy cân nhắc ghi theo từng khối để tránh `OutOfMemoryException`.  
+- **Coordinate system mismatches:** Aspose.3D sử dụng hệ tọa độ phải; chuyển sang hệ trái nếu engine mục tiêu của bạn yêu cầu.
+
+## Kết luận
+
+Trong bài hướng dẫn này, chúng tôi đã trình bày quy trình từ đầu đến cuối để **lưu lưới 3D** dữ liệu vào một định dạng nhị phân tùy chỉnh bằng Aspose.3D cho .NET. Bây giờ bạn có một mẫu có thể tái sử dụng để chuyển đổi bất kỳ tệp nguồn nào được hỗ trợ (bao gồm FBX) thành một biểu diễn nhị phân nhẹ mà bạn có thể tích hợp vào trò chơi, mô phỏng hoặc trình xem tùy chỉnh. Hãy thoải mái thử nghiệm các thuộc tính đỉnh bổ sung (ví dụ: tangents, colors) hoặc các phương pháp nén để tối ưu hơn định dạng tùy chỉnh của bạn.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.3D cho .NET với các ngôn ngữ lập trình khác không?
+### Q1: Tôi có thể sử dụng Aspose.3D cho .NET với các ngôn ngữ lập trình khác không?
 
-Câu trả lời 1: Aspose.3D chủ yếu hỗ trợ các ngôn ngữ .NET, nhưng bạn có thể khám phá các tùy chọn tương thích cho các ngôn ngữ khác.
+A1: Aspose.3D chủ yếu hỗ trợ các ngôn ngữ .NET, nhưng bạn có thể khám phá các tùy chọn tương thích cho các ngôn ngữ khác.
 
-### Câu hỏi 2: Tôi có thể tìm thêm ví dụ và tài nguyên ở đâu?
+### Q2: Tôi có thể tìm các ví dụ và tài nguyên bổ sung ở đâu?
 
- A2: Cái[Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18)là một nơi tuyệt vời để tìm kiếm sự hỗ trợ, ví dụ và tương tác với cộng đồng.
+A2: Diễn đàn [Aspose.3D forum](https://forum.aspose.com/c/3d/18) là nơi tuyệt vời để tìm hỗ trợ, ví dụ, và tương tác với cộng đồng.
 
-### Câu hỏi 3: Có phiên bản dùng thử cho Aspose.3D không?
+### Q3: Có phiên bản dùng thử cho Aspose.3D không?
 
- Câu trả lời 3: Có, bạn có thể dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+A3: Có, bạn có thể nhận bản dùng thử miễn phí từ [here](https://releases.aspose.com/).
 
-### Câu hỏi 4: Làm cách nào để có được giấy phép tạm thời cho Aspose.3D?
+### Q4: Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.3D?
 
- A4: Thăm quan[liên kết này](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho mục đích thử nghiệm.
+A4: Truy cập [this link](https://purchase.aspose.com/temporary-license/) để nhận giấy phép tạm thời cho mục đích thử nghiệm.
 
-### Câu hỏi 5: Tôi có thể mua Aspose.3D cho .NET không?
+### Q5: Tôi có thể mua Aspose.3D cho .NET không?
 
- Câu trả lời 5: Có, bạn có thể mua Aspose.3D từ[trang mua hàng](https://purchase.aspose.com/buy).
+A5: Có, bạn có thể mua Aspose.3D từ [purchase page](https://purchase.aspose.com/buy).
+
+## Câu hỏi thường gặp
+
+**Q: Phương pháp này có hoạt động với lưới có hoạt ảnh không?**  
+A: Có, bạn có thể xuất các đỉnh đã biến đổi của mỗi khung hình bằng cách duyệt qua các keyframe hoạt ảnh trước khi ghi dữ liệu nhị phân.
+
+**Q: Tôi có thể thêm các thuộc tính đỉnh tùy chỉnh như trọng lượng xương không?**  
+A: Chắc chắn. Mở rộng `VertexDeclaration` với các trường bổ sung (ví dụ: `VertexFieldSemantic.BoneWeight`) và ghi dữ liệu bổ sung sau khối đỉnh chuẩn.
+
+**Q: Cách tốt nhất để đọc lại tệp nhị phân tùy chỉnh vào một cảnh là gì?**  
+A: Triển khai một trình đọc nhị phân tương ứng để đọc ma trận biến đổi, số lượng đỉnh, số lượng chỉ số, sau đó tái tạo một `TriMesh` bằng cách sử dụng `TriMesh.FromBinary`.
+
+---
+
+**Cập nhật lần cuối:** 2026-03-28  
+**Đã kiểm tra với:** Aspose.3D 24.11 for .NET (latest at time of writing)  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
