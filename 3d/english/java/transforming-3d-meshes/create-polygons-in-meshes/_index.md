@@ -93,6 +93,7 @@ Now the mesh contains a quad polygon. You can continue adding more polygons, mix
 In this tutorial we covered the essentials of **how to create polygons** in a 3D mesh using Aspose.3D for Java. By leveraging the `createPolygon` method you can efficiently add both triangle and quad faces, giving you full control over your 3D geometry without worrying about low‑level memory management.
 
 ## Frequently Asked Questions
+
 ### 1. Is Aspose.3D suitable for both beginners and advanced developers?
 Absolutely! Aspose.3D caters to developers of all levels, providing a user‑friendly interface for beginners and advanced features for seasoned developers.
 
@@ -108,13 +109,6 @@ Yes, you can explore the capabilities of Aspose.3D by accessing the **[free tria
 ### 5. Where can I seek support for Aspose.3D?
 For any queries or assistance, visit the **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)**.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-03-18  
@@ -122,3 +116,10 @@ For any queries or assistance, visit the **[Aspose.3D forum](https://forum.aspos
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

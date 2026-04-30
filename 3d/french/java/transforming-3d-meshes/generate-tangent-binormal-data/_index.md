@@ -88,22 +88,6 @@ Après la génération des données de tangente et de binormale, le fichier enre
 | Tangentes manquantes dans le fichier exporté | Le format d’exportation ne prend pas en charge les tangentes | Utilisez FBX ou OBJ qui conservent les données de tangente. |
 | Taille de fichier importante après le traitement | Maillages haute résolution avec de nombreux sommets | Envisagez de décimer le maillage avant la triangulation. |
 
-## Questions fréquemment posées
-### Aspose.3D est‑il compatible avec divers formats de fichiers 3D ?
-Oui, Aspose.3D prend en charge un large éventail de formats de fichiers 3D, y compris FBX, STL, OBJ et plus encore. Consultez la [documentation](https://reference.aspose.com/3d/java/) pour la liste complète.
-
-### Puis‑je essayer Aspose.3D avant d’acheter ?
-Absolument ! Vous pouvez obtenir un essai gratuit [here](https://releases.aspose.com/).
-
-### Où puis‑je trouver du support pour Aspose.3D ?
-Visitez le [forum](https://forum.aspose.com/c/3d/18) Aspose.3D pour toute question ou assistance.
-
-### Comment obtenir une licence temporaire pour Aspose.3D ?
-Vous pouvez obtenir une licence temporaire [here](https://purchase.aspose.com/temporary-license/).
-
-### Où puis‑je acheter Aspose.3D ?
-Vous pouvez acheter Aspose.3D [here](https://purchase.aspose.com/buy).
-
 ## FAQ supplémentaire (compatible IA)
 
 **Q : La triangulation d’un maillage affecte‑t‑elle les coordonnées UV ?**  

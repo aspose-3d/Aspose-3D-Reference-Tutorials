@@ -90,22 +90,6 @@ Setelah menghasilkan data tangent dan binormal, file yang disimpan kini berisi m
 | Tangent tidak ada di file yang diekspor | Format ekspor tidak mendukung tangent | Gunakan FBX atau OBJ yang mempertahankan data tangent. |
 | Ukuran file besar setelah pemrosesan | Mesh resolusi tinggi dengan banyak vertex | Pertimbangkan mendekimasi mesh sebelum triangulasi. |
 
-## Pertanyaan yang Sering Diajukan
-### Apakah Aspose.3D kompatibel dengan berbagai format file 3D?
-Ya, Aspose.3D mendukung beragam format file 3D, termasuk FBX, STL, OBJ, dan lainnya. Lihat [dokumentasi](https://reference.aspose.com/3d/java/) untuk daftar lengkap.
-
-### Bisakah saya mencoba Aspose.3D sebelum membeli?
-Tentu saja! Anda dapat mendapatkan percobaan gratis [di sini](https://releases.aspose.com/).
-
-### Di mana saya dapat menemukan dukungan untuk Aspose.3D?
-Kunjungi [forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk pertanyaan atau bantuan apa pun.
-
-### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
-Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
-
-### Di mana saya dapat membeli Aspose.3D?
-Anda dapat membeli Aspose.3D [di sini](https://purchase.aspose.com/buy).
-
 ## FAQ Tambahan (AI‑friendly)
 
 **T: Apakah triangulasi mesh memengaruhi koordinat UV?**  

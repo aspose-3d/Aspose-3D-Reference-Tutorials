@@ -86,22 +86,6 @@ scene.save("BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII);
 | 내보낸 파일에 접선이 없음 | 내보내기 포맷이 접선을 지원하지 않음 | 접선 데이터를 보존하는 FBX 또는 OBJ를 사용합니다. |
 | 처리 후 파일 크기가 크게 증가 | 많은 정점을 가진 고해상도 메쉬 | 삼각형화 전에 메쉬를 디시메이션(다각형 수 감소)하는 것을 고려합니다. |
 
-## 자주 묻는 질문
-### Aspose.3D가 다양한 3D 파일 포맷과 호환되나요?
-네, Aspose.3D는 FBX, STL, OBJ 등 다양한 3D 파일 포맷을 지원합니다. 전체 목록은 [documentation](https://reference.aspose.com/3d/java/)을 참고하세요.
-
-### 구매 전에 Aspose.3D를 체험할 수 있나요?
-물론입니다! 무료 체험은 [here](https://releases.aspose.com/)에서 받을 수 있습니다.
-
-### Aspose.3D 지원은 어디서 받을 수 있나요?
-문의나 도움이 필요하면 Aspose.3D [forum](https://forum.aspose.com/c/3d/18)에서 확인하세요.
-
-### Aspose.3D 임시 라이선스는 어떻게 얻나요?
-임시 라이선스는 [here](https://purchase.aspose.com/temporary-license/)에서 받을 수 있습니다.
-
-### Aspose.3D를 어디서 구매할 수 있나요?
-구매는 [here](https://purchase.aspose.com/buy)에서 가능합니다.
-
 ## 추가 FAQ (AI 친화적)
 
 **Q: 메쉬를 삼각형화하면 UV 좌표에 영향을 줍니까?**  

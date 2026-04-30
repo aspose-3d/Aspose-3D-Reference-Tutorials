@@ -95,6 +95,7 @@ Agora a malha contém um polígono quadrilátero. Você pode continuar adicionan
 Neste tutorial cobrimos o essencial de **como criar polígonos** em uma malha 3D usando Aspose.3D para Java. Ao aproveitar o método `createPolygon`, você pode adicionar de forma eficiente faces triangulares e quadriláteras, proporcionando controle total sobre sua geometria 3D sem se preocupar com o gerenciamento de memória de baixo nível.
 
 ## Perguntas Frequentes
+
 ### 1. O Aspose.3D é adequado tanto para iniciantes quanto para desenvolvedores avançados?
 Absolutamente! O Aspose.3D atende desenvolvedores de todos os níveis, oferecendo uma interface amigável para iniciantes e recursos avançados para desenvolvedores experientes.
 
@@ -110,15 +111,15 @@ Sim, você pode explorar as capacidades do Aspose.3D acessando o **[teste gratui
 ### 5. Onde posso buscar suporte para Aspose.3D?
 Para quaisquer dúvidas ou assistência, visite o **[fórum Aspose.3D](https://forum.aspose.com/c/3d/18)**.
 
+---
+
+**Última atualização:** 2026-03-18  
+**Testado com:** Aspose.3D for Java (latest release)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2026-03-18  
-**Testado com:** Aspose.3D for Java (latest release)  
-**Autor:** Aspose

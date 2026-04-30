@@ -110,15 +110,15 @@ Igen, felfedezheti az Aspose.3D képességeit a **[ingyenes próba](https://rele
 ### 5. Hol kérhetek támogatást az Aspose.3D-hoz?
 Bármilyen kérdés vagy segítség esetén látogassa meg a **[Aspose.3D fórumot](https://forum.aspose.com/c/3d/18)**.
 
+---
+
+**Utolsó frissítés:** 2026-03-18  
+**Tesztelve a következővel:** Aspose.3D for Java (legújabb kiadás)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-03-18  
-**Tesztelve a következővel:** Aspose.3D for Java (legújabb kiadás)  
-**Szerző:** Aspose

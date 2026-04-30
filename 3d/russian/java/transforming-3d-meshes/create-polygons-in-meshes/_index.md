@@ -95,6 +95,7 @@ mesh.createPolygon(0, 1, 2, 3);
 В этом учебнике мы рассмотрели основы **как создавать полигоны** в 3D‑сетке с помощью Aspose.3D для Java. Используя метод `createPolygon`, вы можете эффективно добавлять как треугольные, так и четырёхугольные грани, получая полный контроль над 3D‑геометрией без необходимости управлять низкоуровневой памятью.
 
 ## Часто задаваемые вопросы
+
 ### 1. Подходит ли Aspose.3D как для начинающих, так и для продвинутых разработчиков?
 Определённо! Aspose.3D ориентирован на разработчиков всех уровней, предоставляя удобный интерфейс для новичков и продвинутые возможности для опытных специалистов.
 
@@ -110,15 +111,15 @@ Aspose.3D активно поддерживается и обновляется.
 ### 5. Где я могу получить поддержку по Aspose.3D?
 По любым вопросам и запросам обращайтесь на **[форум Aspose.3D](https://forum.aspose.com/c/3d/18)**.
 
+---
+
+**Last Updated:** 2026-03-18  
+**Tested With:** Aspose.3D for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-18  
-**Tested With:** Aspose.3D for Java (latest release)  
-**Author:** Aspose

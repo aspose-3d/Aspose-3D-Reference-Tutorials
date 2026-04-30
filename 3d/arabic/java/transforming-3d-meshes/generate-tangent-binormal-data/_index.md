@@ -89,22 +89,6 @@ scene.save("BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII);
 | غياب المماس في الملف المُصدّر | صيغة التصدير لا تدعم المماس | استخدم FBX أو OBJ التي تحافظ على بيانات المماس. |
 | حجم الملف كبير بعد المعالجة | شبكات عالية الدقة مع عدد كبير من الرؤوس | فكّر في تقليل تفاصيل الشبكة قبل التقطيع. |
 
-## الأسئلة المتكررة
-### هل Aspose.3D متوافق مع صيغ ملفات 3D المختلفة؟
-نعم، يدعم Aspose.3D مجموعة واسعة من صيغ ملفات 3D، بما في ذلك FBX، STL، OBJ، وأكثر. راجع [documentation](https://reference.aspose.com/3d/java/) للحصول على القائمة الكاملة.
-
-### هل يمكنني تجربة Aspose.3D قبل الشراء؟
-بالطبع! يمكنك الحصول على نسخة تجريبية مجانية [here](https://releases.aspose.com/).
-
-### أين يمكنني العثور على الدعم لـ Aspose.3D؟
-قم بزيارة [forum](https://forum.aspose.com/c/3d/18) الخاص بـ Aspose.3D لأي استفسارات أو مساعدة.
-
-### كيف أحصل على ترخيص مؤقت لـ Aspose.3D؟
-يمكنك الحصول على ترخيص مؤقت [here](https://purchase.aspose.com/temporary-license/).
-
-### أين يمكنني شراء Aspose.3D؟
-يمكنك شراء Aspose.3D [here](https://purchase.aspose.com/buy).
-
 ## أسئلة إضافية (ملائمة للذكاء الاصطناعي)
 
 **س: هل يؤثر تقطيع الـ mesh على إحداثيات UV؟**  

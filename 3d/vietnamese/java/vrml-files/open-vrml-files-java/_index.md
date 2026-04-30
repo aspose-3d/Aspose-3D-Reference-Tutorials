@@ -122,15 +122,15 @@ Chúc mừng! Bạn vừa học **cách tạo 3d scene java** bằng Aspose.3D v
 
 Hãy tự do khám phá [tài liệu](https://reference.aspose.com/3d/java/) để có thêm những hiểu biết chi tiết và các tính năng nâng cao.
 
+---
+
+**Cập nhật lần cuối:** 2026-03-18  
+**Đã kiểm tra với:** Aspose.3D 24.11 for Java  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-03-18  
-**Đã kiểm tra với:** Aspose.3D 24.11 for Java  
-**Tác giả:** Aspose

@@ -110,13 +110,6 @@ Sì, puoi esplorare le capacità di Aspose.3D accedendo alla **[prova gratuita](
 ### 5. Dove posso trovare supporto per Aspose.3D?
 Per qualsiasi domanda o assistenza, visita il **[forum Aspose.3D](https://forum.aspose.com/c/3d/18)**.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ultimo aggiornamento:** 2026-03-18  
@@ -124,3 +117,10 @@ Per qualsiasi domanda o assistenza, visita il **[forum Aspose.3D](https://forum.
 **Autore:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

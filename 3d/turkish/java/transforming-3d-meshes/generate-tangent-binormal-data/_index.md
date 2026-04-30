@@ -89,22 +89,6 @@ Tangent ve binormal verileri oluşturulduktan sonra, kaydedilen dosya artık ger
 | Dışa aktarılan dosyada tangent eksik | Dışa aktarma formatı tangent'leri desteklemiyor | Tangent verisini koruyan FBX veya OBJ kullanın. |
 | İşlem sonrası dosya boyutu büyük | Çok sayıda köşe içeren yüksek çözünürlüklü mesh'ler | Üçgenleştirmeden önce mesh'i azaltmayı (decimate) düşünün. |
 
-## Sıkça Sorulan Sorular
-### Aspose.3D çeşitli 3D dosya formatlarıyla uyumlu mu?
-Evet, Aspose.3D FBX, STL, OBJ ve daha fazlasını içeren geniş bir 3D dosya formatı yelpazesini destekler. Tam liste için [belgelere](https://reference.aspose.com/3d/java/) bakın.
-
-### Aspose.3D'yi satın almadan önce deneyebilir miyim?
-Kesinlikle! Ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) alabilirsiniz.
-
-### Aspose.3D için desteği nereden bulabilirim?
-Herhangi bir soru veya yardım için Aspose.3D [forumunu](https://forum.aspose.com/c/3d/18) ziyaret edin.
-
-### Aspose.3D için geçici lisans nasıl alınır?
-Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
-
-### Aspose.3D'yi nereden satın alabilirim?
-Aspose.3D'yi [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
-
 ## Ek SSS (AI‑dostu)
 
 **S: Bir mesh'i üçgenleştirmek UV koordinatlarını etkiler mi?**  

@@ -90,22 +90,6 @@ A tangent‑ és binormális adatok generálása után a mentett fájl egy telje
 | Hiányoznak a tangensek az exportált fájlban | Az export formátum nem támogatja a tangenseket | Használj FBX‑et vagy OBJ‑t, amelyek megőrzik a tangent adatokat. |
 | Nagy fájlméret a feldolgozás után | Nagy felbontású hálók sok csúccsal | Fontold meg a háló decimálását a trianguláció előtt. |
 
-## Gyakran feltett kérdések
-### Az Aspose.3D kompatibilis különböző 3D fájlformátumokkal?
-Igen, az Aspose.3D számos 3D formátumot támogat, többek között FBX, STL, OBJ és még sok más. A teljes listáért tekintsd meg a [dokumentációt](https://reference.aspose.com/3d/java/).
-
-### Próbálhatom-e ki az Aspose.3D‑t vásárlás előtt?
-Természetesen! Ingyenes próbaelérést kaphatsz [itt](https://releases.aspose.com/).
-
-### Hol találok támogatást az Aspose.3D‑hez?
-Látogasd meg az Aspose.3D [fórumot](https://forum.aspose.com/c/3d/18) bármilyen kérdés vagy segítség esetén.
-
-### Hogyan szerezhetek ideiglenes licencet az Aspose.3D‑hez?
-Ideiglenes licencet kaphatsz [itt](https://purchase.aspose.com/temporary-license/).
-
-### Hol vásárolhatom meg az Aspose.3D‑t?
-Az Aspose.3D‑t megvásárolhatod [itt](https://purchase.aspose.com/buy).
-
 ## Kiegészítő FAQ (AI‑barát)
 
 **Q: Befolyásolja a trianguláció az UV koordinátákat?**  

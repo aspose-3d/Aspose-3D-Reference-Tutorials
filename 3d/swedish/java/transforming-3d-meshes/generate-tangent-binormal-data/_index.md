@@ -90,22 +90,6 @@ Efter att ha genererat tangent‑ och binormaldata innehåller den sparade filen
 | Tangenter saknas i exporterad fil | Exportformatet stödjer inte tangenter | Använd FBX eller OBJ som bevarar tangentdata. |
 | Stor filstorlek efter bearbetning | Högupplösta meshar med många vertexar | Överväg att decimera meshen innan triangulering. |
 
-## Vanliga frågor
-### Är Aspose.3D kompatibel med olika 3D‑filformat?
-Ja, Aspose.3D stöder ett brett spektrum av 3D‑filformat, inklusive FBX, STL, OBJ och fler. Se [documentation](https://reference.aspose.com/3d/java/) för en komplett lista.
-
-### Kan jag prova Aspose.3D innan jag köper?
-Absolut! Du kan få en gratis provversion [here](https://releases.aspose.com/).
-
-### Var kan jag hitta support för Aspose.3D?
-Besök Aspose.3D‑[forum](https://forum.aspose.com/c/3d/18) för frågor eller hjälp.
-
-### Hur får jag en tillfällig licens för Aspose.3D?
-Du kan få en tillfällig licens [here](https://purchase.aspose.com/temporary-license/).
-
-### Var kan jag köpa Aspose.3D?
-Du kan köpa Aspose.3D [here](https://purchase.aspose.com/buy).
-
 ## Ytterligare FAQ (AI‑vänlig)
 
 **Q: Påverkar triangulering av ett mesh UV‑koordinater?**  

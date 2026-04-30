@@ -122,15 +122,15 @@ R: Para desbloquear todo el potencial, puedes comprar Aspose.3D para Java [aquí
 
 Siéntete libre de explorar la [documentación](https://reference.aspose.com/3d/java/) para obtener información más detallada y funciones avanzadas.
 
+---
+
+**Última actualización:** 2026-03-18  
+**Probado con:** Aspose.3D 24.11 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-03-18  
-**Probado con:** Aspose.3D 24.11 for Java  
-**Autor:** Aspose

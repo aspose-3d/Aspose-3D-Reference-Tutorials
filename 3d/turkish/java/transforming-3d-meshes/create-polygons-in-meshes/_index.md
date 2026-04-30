@@ -95,6 +95,7 @@ mesh.createPolygon(0, 1, 2, 3);
 Bu öğreticide Aspose.3D for Java kullanarak bir 3D mesh içinde **poligonların nasıl oluşturulacağını** temel seviyede ele aldık. `createPolygon` metodundan yararlanarak hem üçgen hem de dörtgen yüzleri verimli bir şekilde ekleyebilir, düşük seviyeli bellek yönetimiyle uğraşmadan 3D geometriniz üzerinde tam kontrol sahibi olabilirsiniz.
 
 ## Sıkça Sorulan Sorular
+
 ### 1. Aspose.3D hem yeni başlayanlar hem de ileri düzey geliştiriciler için uygun mu?
 Kesinlikle! Aspose.3D, yeni başlayanlar için kullanıcı dostu bir arayüz, deneyimli geliştiriciler için ise gelişmiş özellikler sunarak tüm seviyelerdeki geliştiricilere hitap eder.
 
@@ -110,13 +111,6 @@ Evet, **[ücretsiz deneme](https://releases.aspose.com/)** sayfasına erişerek 
 ### 5. Aspose.3D için destek nereden alınabilir?
 Herhangi bir sorunuz veya yardıma ihtiyacınız olduğunda **[Aspose.3D forumunu](https://forum.aspose.com/c/3d/18)** ziyaret edin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-03-18  
@@ -124,3 +118,10 @@ Herhangi bir sorunuz veya yardıma ihtiyacınız olduğunda **[Aspose.3D forumun
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

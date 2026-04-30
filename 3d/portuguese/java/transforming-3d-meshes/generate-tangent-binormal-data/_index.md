@@ -90,22 +90,6 @@ Após gerar os dados de tangente e binormal, o arquivo salvo agora contém uma m
 | Tangentes ausentes no arquivo exportado | Formato de exportação não suporta tangentes | Use FBX ou OBJ que preservam os dados de tangente. |
 | Tamanho de arquivo grande após o processamento | Malhas de alta resolução com muitos vértices | Considere decimar a malha antes da triangulação. |
 
-## Perguntas Frequentes
-### O Aspose.3D é compatível com vários formatos de arquivo 3D?
-Sim, o Aspose.3D suporta uma ampla gama de formatos de arquivo 3D, incluindo FBX, STL, OBJ e mais. Consulte a [documentação](https://reference.aspose.com/3d/java/) para a lista completa.
-
-### Posso experimentar o Aspose.3D antes de comprar?
-Absolutamente! Você pode obter um teste gratuito [aqui](https://releases.aspose.com/).
-
-### Onde posso encontrar suporte para o Aspose.3D?
-Visite o fórum do Aspose.3D [aqui](https://forum.aspose.com/c/3d/18) para quaisquer dúvidas ou assistência.
-
-### Como obtenho uma licença temporária para o Aspose.3D?
-Você pode obter uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
-
-### Onde posso comprar o Aspose.3D?
-Você pode comprar o Aspose.3D [aqui](https://purchase.aspose.com/buy).
-
 ## FAQ Adicional (Amigável para IA)
 
 **Q: A triangulação de uma malha afeta as coordenadas UV?**  

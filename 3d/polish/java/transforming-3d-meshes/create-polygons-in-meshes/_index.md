@@ -95,6 +95,7 @@ Teraz siatka zawiera czworokątny wielokąt. Możesz dalej dodawać kolejne wiel
 W tym samouczku omówiliśmy podstawy **jak tworzyć wielokąty** w siatce 3D przy użyciu Aspose.3D dla Javy. Korzystając z metody `createPolygon`, możesz efektywnie dodawać zarówno trójkątne, jak i czworokątne twarze, uzyskując pełną kontrolę nad swoją geometrią 3D bez martwienia się o zarządzanie pamięcią na niskim poziomie.
 
 ## Najczęściej zadawane pytania
+
 ### 1. Czy Aspose.3D jest odpowiedni zarówno dla początkujących, jak i zaawansowanych programistów?
 Zdecydowanie! Aspose.3D jest przeznaczony dla programistów na każdym poziomie, oferując przyjazny interfejs dla początkujących oraz zaawansowane funkcje dla doświadczonych programistów.
 
@@ -110,15 +111,15 @@ Tak, możesz zapoznać się z możliwościami Aspose.3D, korzystając z **[darmo
 ### 5. Gdzie mogę uzyskać wsparcie dla Aspose.3D?
 W razie pytań lub potrzeb pomocy, odwiedź **[forum Aspose.3D](https://forum.aspose.com/c/3d/18)**.
 
+---
+
+**Last Updated:** 2026-03-18  
+**Tested With:** Aspose.3D for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-18  
-**Tested With:** Aspose.3D for Java (latest release)  
-**Author:** Aspose

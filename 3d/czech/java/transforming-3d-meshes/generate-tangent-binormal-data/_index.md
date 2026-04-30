@@ -89,22 +89,6 @@ Po vygenerování dat pro tangenty a binormály obsahuje uložený soubor plně 
 | V exportovaném souboru chybí tangenty | Exportní formát nepodporuje tangenty | Použijte FBX nebo OBJ, které zachovávají data tangentů. |
 | Velikost souboru po zpracování je velká | Vysoce detailní sítě s mnoha vrcholy | Zvažte decimaci sítě před triangulací. |
 
-## Často kladené otázky
-### Je Aspose.3D kompatibilní s různými 3D formáty?
-Ano, Aspose.3D podporuje širokou škálu 3D formátů, včetně FBX, STL, OBJ a dalších. Kompletní seznam najdete v [dokumentaci](https://reference.aspose.com/3d/java/).
-
-### Můžu si Aspose.3D vyzkoušet před zakoupením?
-Samozřejmě! Bezplatnou zkušební verzi získáte [zde](https://releases.aspose.com/).
-
-### Kde najdu podporu pro Aspose.3D?
-Navštivte fórum Aspose.3D [zde](https://forum.aspose.com/c/3d/18) pro jakékoli dotazy nebo pomoc.
-
-### Jak získat dočasnou licenci pro Aspose.3D?
-Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
-
-### Kde si mohu koupit Aspose.3D?
-Aspose.3D můžete zakoupit [zde](https://purchase.aspose.com/buy).
-
 ## Další FAQ (AI‑přátelské)
 
 **Q: Ovlivňuje triangulace sítě UV souřadnice?**  

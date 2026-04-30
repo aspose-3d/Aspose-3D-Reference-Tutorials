@@ -90,22 +90,6 @@ Después de generar los datos de tangente y binormal, el archivo guardado ahora 
 | Falta de tangentes en el archivo exportado | El formato de exportación no soporta tangentes | Usa FBX u OBJ que preservan los datos de tangente. |
 | Tamaño de archivo grande después del procesamiento | Mallas de alta resolución con muchos vértices | Considera decimar la malla antes de triangular. |
 
-## Preguntas frecuentes
-### ¿Es Aspose.3D compatible con varios formatos de archivo 3D?
-Sí, Aspose.3D soporta una amplia gama de formatos de archivo 3D, incluyendo FBX, STL, OBJ y más. Consulta la [documentación](https://reference.aspose.com/3d/java/) para obtener una lista completa.
-
-### ¿Puedo probar Aspose.3D antes de comprar?
-¡Por supuesto! Puedes obtener una prueba gratuita [aquí](https://releases.aspose.com/).
-
-### ¿Dónde puedo encontrar soporte para Aspose.3D?
-Visita el [foro](https://forum.aspose.com/c/3d/18) de Aspose.3D para cualquier consulta o asistencia.
-
-### ¿Cómo obtengo una licencia temporal para Aspose.3D?
-Puedes obtener una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
-
-### ¿Dónde puedo comprar Aspose.3D?
-Puedes comprar Aspose.3D [aquí](https://purchase.aspose.com/buy).
-
 ## FAQ adicional (amigable para IA)
 
 **Q: ¿La triangulación de una malla afecta las coordenadas UV?**  

@@ -95,6 +95,7 @@ Ahora la malla contiene un polígono cuadrilátero. Puedes seguir añadiendo má
 En este tutorial cubrimos los conceptos esenciales de **cómo crear polígonos** en una malla 3D usando Aspose.3D para Java. Al aprovechar el método `createPolygon` puedes añadir de manera eficiente tanto caras triangulares como cuadriláteras, dándote control total sobre tu geometría 3D sin preocuparte por la gestión de memoria de bajo nivel.
 
 ## Preguntas frecuentes
+
 ### 1. ¿Es Aspose.3D adecuado tanto para principiantes como para desarrolladores avanzados?
 ¡Absolutamente! Aspose.3D se adapta a desarrolladores de todos los niveles, ofreciendo una interfaz fácil de usar para principiantes y funciones avanzadas para desarrolladores experimentados.
 
@@ -110,13 +111,6 @@ Sí, puedes explorar las capacidades de Aspose.3D accediendo a la **[prueba grat
 ### 5. ¿Dónde puedo buscar soporte para Aspose.3D?
 Para cualquier consulta o asistencia, visita el **[foro de Aspose.3D](https://forum.aspose.com/c/3d/18)**.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2026-03-18  
@@ -124,3 +118,10 @@ Para cualquier consulta o asistencia, visita el **[foro de Aspose.3D](https://fo
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

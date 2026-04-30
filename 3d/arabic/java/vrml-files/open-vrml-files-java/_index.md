@@ -122,15 +122,15 @@ scene.open(MyDir + "test.wrl");
 
 لا تتردد في استكشاف [الوثائق](https://reference.aspose.com/3d/java/) لمزيد من الرؤى المتعمقة والميزات المتقدمة.
 
+---
+
+**آخر تحديث:** 2026-03-18  
+**تم الاختبار باستخدام:** Aspose.3D 24.11 for Java  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-03-18  
-**تم الاختبار باستخدام:** Aspose.3D 24.11 for Java  
-**المؤلف:** Aspose

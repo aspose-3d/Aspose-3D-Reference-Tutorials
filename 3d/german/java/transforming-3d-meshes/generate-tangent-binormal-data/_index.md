@@ -88,22 +88,6 @@ Nach dem Erzeugen von Tangenten‑ und Binormaldaten enthält die gespeicherte D
 | Tangenten fehlen in exportierter Datei | Exportformat unterstützt keine Tangenten | Verwenden Sie FBX oder OBJ, die Tangentdaten erhalten. |
 | Große Dateigröße nach Verarbeitung | Hochauflösende Meshes mit vielen Vertices | Erwägen Sie, das Mesh vor der Triangulation zu dekamieren. |
 
-## Häufig gestellte Fragen
-### Ist Aspose.3D mit verschiedenen 3D‑Dateiformaten kompatibel?
-Ja, Aspose.3D unterstützt eine Vielzahl von 3D‑Dateiformaten, darunter FBX, STL, OBJ und weitere. Siehe die [Dokumentation](https://reference.aspose.com/3d/java/) für eine vollständige Liste.
-
-### Kann ich Aspose.3D vor dem Kauf testen?
-Absolut! Sie können eine kostenlose Testversion [hier](https://releases.aspose.com/) erhalten.
-
-### Wo finde ich Support für Aspose.3D?
-Besuchen Sie das Aspose.3D‑[Forum](https://forum.aspose.com/c/3d/18) für Fragen oder Unterstützung.
-
-### Wie erhalte ich eine temporäre Lizenz für Aspose.3D?
-Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erhalten.
-
-### Wo kann ich Aspose.3D kaufen?
-Sie können Aspose.3D [hier](https://purchase.aspose.com/buy) erwerben.
-
 ## Zusätzliche FAQ (KI‑freundlich)
 
 **Q: Beeinflusst das Triangulieren eines Meshes die UV‑Koordinaten?**  

@@ -123,15 +123,15 @@ A: Για να ξεκλειδώσετε το πλήρες δυναμικό, μπ
 
 Νιώστε ελεύθεροι να εξερευνήσετε την [τεκμηρίωση](https://reference.aspose.com/3d/java/) για πιο λεπτομερείς πληροφορίες και προχωρημένες λειτουργίες.
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-03-18  
+**Δοκιμή Με:** Aspose.3D 24.11 for Java  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-03-18  
-**Δοκιμή Με:** Aspose.3D 24.11 for Java  
-**Συγγραφέας:** Aspose

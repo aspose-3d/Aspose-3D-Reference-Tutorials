@@ -14,31 +14,31 @@ weight: 13
 
 # メッシュを三角形に変換し、Javaでメモリレイアウトをカスタマイズする
 
-## Introduction
+## はじめに
 最新の Java 3D アプリケーションでは、**メッシュを三角形に変換**しながら頂点メモリレイアウトを調整することで、レンダリング速度が大幅に向上し、メモリ負荷を削減できます。Aspose.3D for Java はこのプロセスを完全に制御でき、プリミティブメッシュ（例えばボックス）をカスタム `VertexDeclaration` を使用した三角形メッシュに変形できます。このチュートリアルを終えると、**メッシュを三角形に変換**する理由と方法、そして独自の 3D プロジェクト向けにメモリレイアウトを微調整する方法が理解できるようになります。
 
-## Quick Answers
+## よくある質問
 - **「メッシュを三角形に変換」とは何か？** 任意のポリゴンメッシュを純粋な三角形メッシュに変換し、GPU との互換性を向上させることです。  
 - **なぜメモリレイアウトをカスタマイズするのか？** 必要な頂点属性だけを詰め込むことで、RAM を節約し、データ転送を高速化します。  
 - **前提条件は？** Java JDK、Aspose.3D for Java ライブラリ、そして 3D の基本概念の理解です。  
 - **サポートされている出力形式は？** FBX、OBJ、STL など多数 – 本チュートリアルは FBX 7400 ASCII で保存します。  
 - **ライセンスは必要ですか？** 開発用途は無料トライアルで可能ですが、製品版には商用ライセンスが必要です。
 
-## What is “convert mesh to triangle”?
+## 「メッシュを三角形に変換する」とは？
 メッシュを三角形に変換するとは、すべてのポリゴン（四角形や n‑gon）を三角形に分解することを意味します。三角形はグラフィックスハードウェアがネイティブに処理できる汎用プリミティブです。この手順により、すべてのプラットフォームで一貫したレンダリングが保証されます。
 
-## Why customize the memory layout for 3D meshes?
+## 3Dメッシュのメモリレイアウトをカスタマイズする理由
 カスタムメモリレイアウトを使用すると、次のことが可能です：
 - 未使用の頂点データ（例：タンジェント、カラー）を除外して頂点バッファを縮小する。  
 - 属性の順序を変更してキャッシュ使用率を最適化する。  
 - データを整列させ、カスタムシェーダやレンダリングパイプラインの期待に合わせる。
 
-## Prerequisites
+## 前提条件
 開始する前に、以下の前提条件が整っていることを確認してください：
 - システムにインストールされた Java Development Kit (JDK)。  
 - ダウンロードしてプロジェクトに追加した Aspose.3D for Java ライブラリ。ダウンロードは [here](https://releases.aspose.com/3d/java/) から行えます。
 
-## Import Packages
+## パッケージのインポート
 まず、必要な Aspose.3D クラスを Java のソースファイルにインポートします。これにより、シーン管理、メッシュ操作、VertexDeclaration API にアクセスできるようになります。
 
 ```java
@@ -46,7 +46,7 @@ import com.aspose.threed.*;
 // Import Aspose.3D library
 ```
 
-## Step 1: Initialize Scene Object
+## ステップ 1: シーンオブジェクトを初期化する
 `Scene` の新しいインスタンスを作成します。これがすべてのノード、メッシュ、マテリアルのコンテナとして機能します。
 
 ```java
@@ -54,7 +54,7 @@ import com.aspose.threed.*;
 Scene scene = new Scene();
 ```
 
-## Step 2: Initialize Node Class Object
+## ステップ 2: ノードクラスオブジェクトを初期化する
 `Node` はシーングラフ内のエンティティを表します。ここでは、後でカスタム三角形メッシュを保持するノードを作成します。
 
 ```java
@@ -62,7 +62,7 @@ Scene scene = new Scene();
 Node cubeNode = new Node("box");
 ```
 
-## Step 3: Convert Box Mesh to Triangle Mesh with Custom Memory Layout
+## ステップ 3: ボックスメッシュをカスタムメモリレイアウトで三角形メッシュに変換する
 本チュートリアルの核心です—**メッシュを三角形に変換**し、カスタム `VertexDeclaration` を定義します。シンプルなボックスプリミティブから開始し、そのメッシュを抽出した後、位置と法線データのみを含む新しい頂点レイアウトを作成します。
 
 ```java
@@ -76,7 +76,7 @@ vd.addField(VertexFieldDataType.F_VECTOR3, VertexFieldSemantic.NORMAL);
 TriMesh triMesh = TriMesh.fromMesh(box);
 ```
 
-## Step 4: Point Node to the Mesh Geometry
+## ステップ 4: ノードをメッシュジオメトリにポイントする
 元のボックスメッシュ（または新しく作成した三角形メッシュ）をノードにアタッチし、シーンがどのジオメトリをレンダリングすべきかを認識させます。
 
 ```java
@@ -84,7 +84,7 @@ TriMesh triMesh = TriMesh.fromMesh(box);
 cubeNode.setEntity(box);
 ```
 
-## Step 5: Add Node to a Scene
+## ステップ 5: ノードをシーンに追加する
 ノードをシーンのルート階層に挿入します。これによりジオメトリが最終的なエクスポートファイルの一部となります。
 
 ```java
@@ -92,7 +92,7 @@ cubeNode.setEntity(box);
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## Step 6: Save 3D Scene in Supported File Formats
+## ステップ 6: 3Dシーンを対応ファイル形式で保存する
 最後に、保存先パスを選択してシーンを保存します。例では FBX 7400 ASCII を使用していますが、Aspose.3D がサポートする任意の形式に切り替えることができます。
 
 ```java
@@ -103,14 +103,14 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 System.out.println("\nConverted a Box mesh to triangle mesh with custom memory layout of the vertex successfully.\nFile saved at " + MyDir);
 ```
 
-## Common Issues and Solutions
+## よくある問題と解決策
 | 問題 | 原因 | 対策 |
 |------|------|------|
 | **`TriMesh.fromMesh` の NullPointerException** | ソースメッシュが正しく初期化されていません。 | `Box` プリミティブが `toMesh()` を呼び出す前に作成されていることを確認してください。 |
 | **保存されたファイルが空** | 出力ディレクトリのパスが無効か、書き込み権限がありません。 | `MyDir` が既存のフォルダーを指しており、アプリケーションに書き込み権限があることを確認してください。 |
 | **エクスポートされたファイルに頂点データが欠如** | カスタム `VertexDeclaration` がメッシュに適用されていません。 | `vd` を作成した後、`triMesh.setVertexDeclaration(vd);` でメッシュに割り当てます（明示的なバインディングが必要な場合はオプションの手順です）。 |
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: Aspose.3D を他の Java 3D ライブラリと併用できますか？**  
 A: はい、Aspose.3D は他の Java 3D ライブラリと統合でき、機能を拡張できます。

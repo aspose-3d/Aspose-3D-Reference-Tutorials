@@ -95,6 +95,7 @@ Nu bevat de mesh een quad‑polygoon. Je kunt blijven meer polygonen toevoegen, 
 In deze tutorial hebben we de basis behandeld van **hoe polygonen te maken** in een 3D mesh met Aspose.3D voor Java. Door gebruik te maken van de `createPolygon`‑methode kun je efficiënt zowel driehoek‑ als quad‑vlakken toevoegen, waardoor je volledige controle hebt over je 3D‑geometrie zonder je zorgen te maken over low‑level geheugenbeheer.
 
 ## Veelgestelde Vragen
+
 ### 1. Is Aspose.3D geschikt voor zowel beginners als gevorderde ontwikkelaars?
 Absoluut! Aspose.3D richt zich op ontwikkelaars van alle niveaus, met een gebruiksvriendelijke interface voor beginners en geavanceerde functies voor ervaren ontwikkelaars.
 
@@ -110,15 +111,15 @@ Ja, je kunt de mogelijkheden van Aspose.3D verkennen via de **[gratis proefversi
 ### 5. Waar kan ik ondersteuning vinden voor Aspose.3D?
 Voor vragen of ondersteuning kun je terecht op het **[Aspose.3D‑forum](https://forum.aspose.com/c/3d/18)**.
 
+---
+
+**Last Updated:** 2026-03-18  
+**Tested With:** Aspose.3D for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-18  
-**Tested With:** Aspose.3D for Java (latest release)  
-**Author:** Aspose

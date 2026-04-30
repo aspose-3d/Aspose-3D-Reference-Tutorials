@@ -122,15 +122,15 @@ Herzlichen Glückwunsch! Sie haben gerade **wie man 3d scene java erstellt** mit
 
 Entdecken Sie gerne die [Dokumentation](https://reference.aspose.com/3d/java/) für weiterführende Einblicke und erweiterte Funktionen.
 
+---
+
+**Zuletzt aktualisiert:** 2026-03-18  
+**Getestet mit:** Aspose.3D 24.11 für Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-03-18  
-**Getestet mit:** Aspose.3D 24.11 für Java  
-**Autor:** Aspose

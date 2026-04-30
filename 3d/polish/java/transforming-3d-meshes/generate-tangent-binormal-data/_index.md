@@ -90,22 +90,6 @@ Po wygenerowaniu danych tangensów i binormali, zapisany plik zawiera teraz w pe
 | Brak tangensów w wyeksportowanym pliku | Format eksportu nie obsługuje tangensów | Użyj FBX lub OBJ, które zachowują dane tangensów. |
 | Duży rozmiar pliku po przetworzeniu | Siatki wysokiej rozdzielczości z wieloma wierzchołkami | Rozważ decymację siatki przed triangulacją. |
 
-## Najczęściej zadawane pytania
-### Czy Aspose.3D jest kompatybilny z różnymi formatami plików 3D?
-Tak, Aspose.3D obsługuje szeroką gamę formatów plików 3D, w tym FBX, STL, OBJ i inne. Odwołaj się do [documentation](https://reference.aspose.com/3d/java/) po pełną listę.
-
-### Czy mogę wypróbować Aspose.3D przed zakupem?
-Zdecydowanie! Możesz uzyskać darmową wersję próbną [here](https://releases.aspose.com/).
-
-### Gdzie mogę znaleźć wsparcie dla Aspose.3D?
-Odwiedź [forum](https://forum.aspose.com/c/3d/18) Aspose.3D w celu uzyskania pomocy lub zapytań.
-
-### Jak uzyskać tymczasową licencję dla Aspose.3D?
-Możesz uzyskać tymczasową licencję [here](https://purchase.aspose.com/temporary-license/).
-
-### Gdzie mogę kupić Aspose.3D?
-Możesz kupić Aspose.3D [here](https://purchase.aspose.com/buy).
-
 ## Dodatkowe FAQ (przyjazne AI)
 
 **Q: Czy triangulacja siatki wpływa na współrzędne UV?**  

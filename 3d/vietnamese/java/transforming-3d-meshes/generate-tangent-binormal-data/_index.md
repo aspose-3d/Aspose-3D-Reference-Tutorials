@@ -90,22 +90,6 @@ Sau khi tạo dữ liệu tangent và binormal, tệp đã lưu bây giờ chứ
 | Thiếu tangents trong tệp xuất | Định dạng xuất không hỗ trợ tangents | Sử dụng FBX hoặc OBJ để bảo tồn dữ liệu tangent. |
 | Kích thước tệp lớn sau khi xử lý | Mesh độ phân giải cao với nhiều đỉnh | Xem xét giảm độ chi tiết mesh trước khi phân tam giác. |
 
-## Câu hỏi thường gặp
-### Aspose.3D có tương thích với nhiều định dạng tệp 3D không?
-Có, Aspose.3D hỗ trợ một loạt các định dạng tệp 3D, bao gồm FBX, STL, OBJ và nhiều hơn nữa. Tham khảo [tài liệu](https://reference.aspose.com/3d/java/) để xem danh sách đầy đủ.
-
-### Tôi có thể dùng thử Aspose.3D trước khi mua không?
-Chắc chắn! Bạn có thể nhận bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
-
-### Tôi có thể tìm hỗ trợ cho Aspose.3D ở đâu?
-Truy cập [diễn đàn](https://forum.aspose.com/c/3d/18) Aspose.3D để đặt câu hỏi hoặc nhận trợ giúp.
-
-### Làm sao để nhận giấy phép tạm thời cho Aspose.3D?
-Bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
-
-### Tôi có thể mua Aspose.3D ở đâu?
-Bạn có thể mua Aspose.3D [tại đây](https://purchase.aspose.com/buy).
-
 ## FAQ bổ sung (thân thiện với AI)
 
 **Q: Việc phân tam giác mesh có ảnh hưởng đến tọa độ UV không?**  

@@ -90,22 +90,6 @@ Na het genereren van tangent‑ en binormale gegevens bevat het opgeslagen besta
 | Ontbrekende tangenten in geëxporteerd bestand | Exportformaat ondersteunt geen tangenten | Gebruik FBX of OBJ die tangents behouden. |
 | Groot bestand na verwerking | Hoge‑resolutie meshes met veel vertices | Overweeg de mesh te decimeren vóór triangulatie. |
 
-## Veelgestelde Vragen
-### Is Aspose.3D compatibel met verschillende 3D‑bestandformaten?
-Ja, Aspose.3D ondersteunt een breed scala aan 3D‑bestandformaten, waaronder FBX, STL, OBJ en meer. Zie de [documentatie](https://reference.aspose.com/3d/java/) voor een volledige lijst.
-
-### Kan ik Aspose.3D uitproberen voordat ik aankoop?
-Zeker! Je kunt een gratis proefversie krijgen [hier](https://releases.aspose.com/).
-
-### Waar kan ik ondersteuning voor Aspose.3D vinden?
-Bezoek het Aspose.3D [forum](https://forum.aspose.com/c/3d/18) voor vragen of hulp.
-
-### Hoe verkrijg ik een tijdelijke licentie voor Aspose.3D?
-Je kunt een tijdelijke licentie krijgen [hier](https://purchase.aspose.com/temporary-license/).
-
-### Waar kan ik Aspose.3D kopen?
-Je kunt Aspose.3D kopen [hier](https://purchase.aspose.com/buy).
-
 ## Aanvullende FAQ (AI‑vriendelijk)
 
 **Q: Heeft het trianguleren van een mesh invloed op UV‑coördinaten?**  

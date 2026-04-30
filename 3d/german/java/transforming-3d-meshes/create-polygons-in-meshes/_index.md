@@ -95,6 +95,7 @@ Jetzt enthält das Mesh ein Viereckspolygon. Sie können weiter weitere Polygone
 In diesem Tutorial haben wir die Grundlagen von **wie man Polygone** in einem 3D‑Mesh mit Aspose.3D für Java behandelt. Durch die Nutzung der Methode `createPolygon` können Sie effizient sowohl Dreiecks‑ als auch Viereckflächen hinzufügen, wodurch Sie die volle Kontrolle über Ihre 3D‑Geometrie erhalten, ohne sich um Low‑Level‑Speicherverwaltung kümmern zu müssen.
 
 ## Häufig gestellte Fragen
+
 ### 1. Ist Aspose.3D sowohl für Anfänger als auch für fortgeschrittene Entwickler geeignet?
 Absolut! Aspose.3D richtet sich an Entwickler aller Erfahrungsstufen und bietet eine benutzerfreundliche Oberfläche für Anfänger sowie erweiterte Funktionen für erfahrene Entwickler.
 
@@ -110,15 +111,15 @@ Ja, Sie können die Möglichkeiten von Aspose.3D erkunden, indem Sie die **[kost
 ### 5. Wo kann ich Unterstützung für Aspose.3D erhalten?
 Bei Fragen oder Unterstützung besuchen Sie das **[Aspose.3D‑Forum](https://forum.aspose.com/c/3d/18)**.
 
+---
+
+**Last Updated:** 2026-03-18  
+**Tested With:** Aspose.3D for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-18  
-**Tested With:** Aspose.3D for Java (latest release)  
-**Author:** Aspose

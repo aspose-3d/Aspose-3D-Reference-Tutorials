@@ -87,22 +87,6 @@ scene.save("BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII);
 | 匯出檔案缺少切線 | 匯出格式不支援切線 | 使用保留切線資料的 FBX 或 OBJ。 |
 | 處理後檔案尺寸過大 | 高解析度且頂點眾多的網格 | 考慮在三角化前先對網格進行簡化。 |
 
-## 常見問答
-### Aspose.3D 是否相容於各種 3D 檔案格式？
-是的，Aspose.3D 支援多種 3D 檔案格式，包括 FBX、STL、OBJ 等。請參考[文件說明](https://reference.aspose.com/3d/java/)以取得完整清單。
-
-### 我可以在購買前試用 Aspose.3D 嗎？
-當然可以！你可於[此處](https://releases.aspose.com/)取得免費試用。
-
-### 我該到哪裡取得 Aspose.3D 的支援？
-前往 Aspose.3D [論壇](https://forum.aspose.com/c/3d/18)尋求任何問題或協助。
-
-### 我如何取得 Aspose.3D 的臨時授權？
-你可於[此處](https://purchase.aspose.com/temporary-license/)取得臨時授權。
-
-### 我該從哪裡購買 Aspose.3D？
-你可於[此處](https://purchase.aspose.com/buy)購買 Aspose.3D。
-
 ## 其他常見問答（AI 友好）
 
 **Q: 三角化網格會影響 UV 座標嗎？**  

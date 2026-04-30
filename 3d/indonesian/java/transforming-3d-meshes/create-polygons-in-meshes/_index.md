@@ -95,6 +95,7 @@ Sekarang mesh berisi poligon kuad. Anda dapat terus menambahkan lebih banyak pol
 Dalam tutorial ini kami membahas hal‑hal penting tentang **cara membuat poligon** dalam mesh 3D menggunakan Aspose.3D untuk Java. Dengan memanfaatkan metode `createPolygon` Anda dapat menambahkan wajah segitiga dan kuad secara efisien, memberi Anda kontrol penuh atas geometri 3D tanpa harus khawatir tentang manajemen memori tingkat rendah.
 
 ## Pertanyaan yang Sering Diajukan
+
 ### 1. Apakah Aspose.3D cocok untuk pemula maupun pengembang lanjutan?
 Tentu saja! Aspose.3D melayani pengembang dari semua tingkat, menyediakan antarmuka yang ramah pengguna untuk pemula dan fitur lanjutan untuk pengembang berpengalaman.
 
@@ -110,15 +111,15 @@ Ya, Anda dapat menjelajahi kemampuan Aspose.3D dengan mengakses **[versi percoba
 ### 5. Di mana saya dapat mencari dukungan untuk Aspose.3D?
 Untuk pertanyaan atau bantuan, kunjungi **[forum Aspose.3D](https://forum.aspose.com/c/3d/18)**.
 
+---
+
+**Last Updated:** 2026-03-18  
+**Tested With:** Aspose.3D for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-18  
-**Tested With:** Aspose.3D for Java (latest release)  
-**Author:** Aspose

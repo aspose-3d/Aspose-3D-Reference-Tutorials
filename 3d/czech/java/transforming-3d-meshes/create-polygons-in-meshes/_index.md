@@ -95,6 +95,7 @@ Nyní síť obsahuje čtyřúhelníkový polygon. Můžete pokračovat v přidá
 V tomto tutoriálu jsme pokryli základy **jak vytvořit polygon** v 3D síti pomocí Aspose.3D pro Java. Využitím metody `createPolygon` můžete efektivně přidávat jak trojúhelníkové, tak čtyřúhelníkové plochy, což vám dává plnou kontrolu nad vaší 3D geometrií bez starostí o nízkoúrovňovou správu paměti.
 
 ## Často kladené otázky
+
 ### 1. Je Aspose.3D vhodný jak pro začátečníky, tak pro pokročilé vývojáře?
 Rozhodně! Aspose.3D vyhovuje vývojářům všech úrovní, poskytuje uživatelsky přívětivé rozhraní pro začátečníky a pokročilé funkce pro zkušené vývojáře.
 
@@ -110,15 +111,15 @@ Ano, můžete prozkoumat možnosti Aspose.3D pomocí **[free trial](https://rele
 ### 5. Kde mohu získat podporu pro Aspose.3D?
 Pro jakékoli dotazy nebo pomoc navštivte **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)**.
 
+---
+
+**Last Updated:** 2026-03-18  
+**Tested With:** Aspose.3D for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-18  
-**Tested With:** Aspose.3D for Java (latest release)  
-**Author:** Aspose

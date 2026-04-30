@@ -122,15 +122,15 @@ Congratulations! You've just learned **3d scene java를 만드는 방법** using
 
 더 깊은 통찰과 고급 기능을 위해 [documentation](https://reference.aspose.com/3d/java/)을 자유롭게 탐색하십시오.
 
+---
+
+**마지막 업데이트:** 2026-03-18  
+**테스트 환경:** Aspose.3D 24.11 for Java  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-03-18  
-**테스트 환경:** Aspose.3D 24.11 for Java  
-**작성자:** Aspose

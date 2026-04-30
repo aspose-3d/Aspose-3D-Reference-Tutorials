@@ -121,15 +121,15 @@ A: 若要解鎖完整功能，可於此處購買 Aspose.3D for Java [here](https
 
 歡迎前往 [documentation](https://reference.aspose.com/3d/java/) 獲取更深入的見解與進階功能。
 
+---
+
+**最後更新：** 2026-03-18  
+**測試環境：** Aspose.3D 24.11 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-03-18  
-**測試環境：** Aspose.3D 24.11 for Java  
-**作者：** Aspose

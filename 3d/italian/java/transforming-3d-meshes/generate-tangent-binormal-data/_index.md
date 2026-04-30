@@ -90,22 +90,6 @@ Dopo aver generato i dati di tangente e binormale, il file salvato ora contiene 
 | Tangenti mancanti nel file esportato | Il formato di esportazione non supporta le tangenti | Usare FBX o OBJ che preservano i dati di tangente. |
 | Dimensione del file elevata dopo l'elaborazione | Mesh ad alta risoluzione con molti vertici | Considerare la decimazione della mesh prima della triangolazione. |
 
-## Domande frequenti
-### Aspose.3D è compatibile con vari formati di file 3D?
-Sì, Aspose.3D supporta un'ampia gamma di formati di file 3D, inclusi FBX, STL, OBJ e altri. Consulta la [documentazione](https://reference.aspose.com/3d/java/) per l'elenco completo.
-
-### Posso provare Aspose.3D prima di acquistarlo?
-Assolutamente! Puoi ottenere una prova gratuita [qui](https://releases.aspose.com/).
-
-### Dove posso trovare supporto per Aspose.3D?
-Visita il [forum](https://forum.aspose.com/c/3d/18) di Aspose.3D per qualsiasi domanda o assistenza.
-
-### Come posso ottenere una licenza temporanea per Aspose.3D?
-Puoi ottenere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
-
-### Dove posso acquistare Aspose.3D?
-Puoi acquistare Aspose.3D [qui](https://purchase.aspose.com/buy).
-
 ## FAQ aggiuntive (AI‑friendly)
 
 **Q: La triangolazione di una mesh influisce sulle coordinate UV?**  
