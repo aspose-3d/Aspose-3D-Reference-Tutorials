@@ -131,23 +131,6 @@ scene.Save("Your Output Directory" + "SlicesInLinearExtrusion.obj", FileFormat.W
 | **Objekt vypadá plochý** | `Slices` nastaveno na 1 nebo 0. | Nastavte `Slices` alespoň na 2 pro viditelnou extruzi. |
 | **Neočekávaná geometrie** | Poloměr zaoblení je příliš velký pro velikost obdélníku. | Upravte `RoundingRadius` na hodnotu menší než polovina nejmenší strany obdélníku. |
 
-## Často kladené otázky
-
-**Q: Mohu změnit směr extruze?**  
-A: Ano. Použijte vlastnost `Transform` na uzlu k otočení nebo posunutí extrudované geometrie před uložením.
-
-**Q: Podporuje Aspose.3D jiné typy extruze?**  
-A: Rozhodně. Kromě `LinearExtrusion` můžete použít `RevolveExtrusion`, `SweepExtrusion` a další.
-
-**Q: Do jakých souborových formátů mohu exportovat?**  
-A: Aspose.3D podporuje OBJ, STL, FBX, 3MF, Collada a mnoho dalších. Stačí změnit výčtový typ `FileFormat`.
-
-**Q: Existuje způsob, jak programově nastavit materiál?**  
-A: Ano. Po vytvoření uzlu přiřaďte `Material` do jeho kolekce `Entity`.
-
-**Q: Jak počet slices ovlivňuje využití paměti?**  
-A: Více slices zvyšuje počet vrcholů a ploch, což úměrně zvyšuje spotřebu paměti. Použijte profilování k nalezení optimálního počtu pro vaši cílovou platformu.
-
 ## Původní FAQ
 
 ### Q1: Mohu použít Aspose.3D pro .NET s jinými programovacími jazyky?

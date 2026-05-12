@@ -131,23 +131,6 @@ scene.Save("Your Output Directory" + "SlicesInLinearExtrusion.obj", FileFormat.W
 | **Đối tượng trông phẳng** | `Slices` được đặt thành 1 hoặc 0. | Đặt `Slices` ít nhất là 2 để extrusion hiển thị. |
 | **Hình học không mong muốn** | Bán kính bo tròn quá lớn so với kích thước hình chữ nhật. | Điều chỉnh `RoundingRadius` thành giá trị nhỏ hơn một nửa cạnh ngắn nhất của hình chữ nhật. |
 
-## Câu hỏi thường gặp
-
-**Q: Tôi có thể thay đổi hướng extrusion không?**  
-A: Có. Sử dụng thuộc tính `Transform` trên node để quay hoặc dịch chuyển geometry đã extrude trước khi lưu.
-
-**Q: Aspose.3D có hỗ trợ các loại extrusion khác không?**  
-A: Chắc chắn. Ngoài `LinearExtrusion`, bạn có thể sử dụng `RevolveExtrusion`, `SweepExtrusion`, và các loại khác.
-
-**Q: Tôi có thể xuất ra những định dạng file nào?**  
-A: Aspose.3D hỗ trợ OBJ, STL, FBX, 3MF, Collada và nhiều định dạng khác. Chỉ cần thay đổi enum `FileFormat`.
-
-**Q: Có cách nào để lập trình đặt vật liệu không?**  
-A: Có. Sau khi tạo node, gán một `Material` vào bộ sưu tập `Entity` của nó.
-
-**Q: Số lượng slice ảnh hưởng như thế nào đến việc sử dụng bộ nhớ?**  
-A: Nhiều slice làm tăng số lượng vertex và face, do đó tăng mức tiêu thụ bộ nhớ tương ứng. Hãy dùng profiling để tìm điểm cân bằng cho nền tảng mục tiêu của bạn.
-
 ## FAQ Gốc
 
 ### Q1: Tôi có thể sử dụng Aspose.3D cho .NET với các ngôn ngữ lập trình khác không?

@@ -132,23 +132,6 @@ scene.Save("Your Output Directory" + "SlicesInLinearExtrusion.obj", FileFormat.W
 | **Az objektum laposnak tűnik** | `Slices` értéke 1 vagy 0. | Állítsa a `Slices` értékét legalább 2-re a látható extrudáláshoz. |
 | **Váratlan geometria** | A lekerekítési sugár túl nagy a téglalap méretéhez képest. | Állítsa a `RoundingRadius` értékét a téglalap legkisebb oldalának felénél kisebbre. |
 
-## Gyakran feltett kérdések
-
-**K: Megváltoztathatom az extrudálás irányát?**  
-V: Igen. Használja a csomópont `Transform` tulajdonságát az extrudált geometria forgatásához vagy eltolásához mentés előtt.
-
-**K: Az Aspose.3D támogat más extrudálási típusokat is?**  
-V: Teljes mértékben. A `LinearExtrusion` mellett használhatja a `RevolveExtrusion`, `SweepExtrusion` és továbbiakat.
-
-**K: Milyen fájlformátumokba exportálhatok?**  
-V: Az Aspose.3D támogatja az OBJ, STL, FBX, 3MF, Collada és sok más formátumot. Csak módosítsa a `FileFormat` enumot.
-
-**K: Van mód programozottan anyagot beállítani?**  
-V: Igen. A csomópont létrehozása után rendelje hozzá a `Material`‑t az `Entity` gyűjteményéhez.
-
-**K: Hogyan befolyásolja a szeletszám a memóriahasználatot?**  
-V: Több szelet növeli a csúcs- és felület-számot, ami arányosan növeli a memóriafogyasztást. Használjon profilozást a célplatform számára megfelelő egyensúly megtalálásához.
-
 ## Eredeti GYIK
 
 ### Q1: Használhatom az Aspose.3D for .NET-et más programozási nyelvekkel?

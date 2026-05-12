@@ -131,23 +131,6 @@ scene.Save("Your Output Directory" + "SlicesInLinearExtrusion.obj", FileFormat.W
 | **Nesne düz görünüyor** | `Slices` 1 veya 0 olarak ayarlanmış. | Görünür bir ekstrüzyon için `Slices` değerini en az 2 yapın. |
 | **Beklenmeyen geometri** | Yuvarlama yarıçapı, dikdörtgen boyutuna göre çok büyük. | `RoundingRadius` değerini, dikdörtgenin en kısa kenarının yarısından küçük bir değere ayarlayın. |
 
-## Sık Sorulan Sorular
-
-**S: Ekstrüzyon yönünü değiştirebilir miyim?**  
-C: Evet. Düğümün `Transform` özelliğini kullanarak ekstrüde edilen geometriyi kaydetmeden önce döndürebilir veya taşıyabilirsiniz.
-
-**S: Aspose.3D başka ekstrüzyon tiplerini destekliyor mu?**  
-C: Kesinlikle. `LinearExtrusion` dışında `RevolveExtrusion`, `SweepExtrusion` ve daha fazlasını kullanabilirsiniz.
-
-**S: Hangi dosya formatlarına dışa aktarabilirim?**  
-C: Aspose.3D OBJ, STL, FBX, 3MF, Collada ve birçok başka formatı destekler. Sadece `FileFormat` enum’ını değiştirin.
-
-**S: Programatik olarak bir materyal ayarlamak mümkün mü?**  
-C: Evet. Düğüm oluşturulduktan sonra, `Entity` koleksiyonuna bir `Material` atayın.
-
-**S: Dilim sayısı bellek kullanımını nasıl etkiler?**  
-C: Daha fazla dilim, vertex ve yüz sayısını artırır; bu da bellek tüketimini orantılı olarak yükseltir. Hedef platformunuz için uygun dengeyi bulmak amacıyla profil oluşturmayı kullanın.
-
 ## Orijinal SSS'ler
 
 ### S1: Aspose.3D for .NET'i başka programlama dilleriyle kullanabilir miyim?

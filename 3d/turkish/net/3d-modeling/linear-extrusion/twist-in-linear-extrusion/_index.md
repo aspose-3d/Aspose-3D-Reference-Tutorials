@@ -13,30 +13,30 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Doğrusal Ekstrüzyonda Burulmalı Ekstrüzyon Nasıl Oluşturulur
+#Doğru Ekstrüzyonda Burulmalı Ekstrüzyon Nasıl Oluşturulur
 
-## Introduction
+## Giriiş
 
-Eğer göz alıcı 3D görsellere ihtiyaç duyan .NET uygulamaları geliştiriyorsanız, **ekstrüzyon nasıl oluşturulur** sorusunun temel bir beceri olduğunu yakında keşfedeceksiniz. Aspose.3D for .NET, basit 2‑D profilleri sofistike 3‑D modellere dönüştürmek için temiz ve yüksek performanslı bir API sunar—özellikle bir burulma eklediğinizde. Bu öğreticide sahneyi kurmaktan son OBJ dosyasını kaydetmeye kadar her adımı adım adım göstereceğiz, böylece doğrusal ekstrüzyon burulması gücünü aksiyon içinde görebileceksiniz.
+Eğer göz alıcı 3D görsellere ihtiyaç duyan .NET uygulamalarını geliştiriyorsanız, **ekstrüzyon nasıl oluşturulur** temel bir beceri olduğunu yakında keşfedeceksiniz. Aspose.3D for .NET, basit 2‑D profilleri 3‑D modellere dönüştürmek için temiz ve yüksek performanslı bir API sunar—özellikle bir burulmaya eklediğinizde. Bu öğretildiğinde sahneyi kaydederken son OBJ kayıtlarını kaydedene kadar her adım adım adım gösterirz, doğru yönde ekstrüzyon burulması gücü aksiyonunu içinde görebileceksiniz.
 
-## Quick Answers
-- **What is the primary class for extrusion?** `LinearExtrusion`
-- **Which property adds rotation?** `Twist`
-- **How many slices give smooth results?** Around 100 slices (adjust as needed)
-- **Can I use other shapes?** Yes, any `IProfile` such as circles, polygons, or custom curves
-- **What file format is used in the example?** Wavefront OBJ (`.obj`)
+## Hızlı Yanıtlar
+- **Ekstrüzyon için birincil sınıf nedir?** 'LinearExtrusion'
+- **Hangi özellik döndürmeyi ekler?** `Twist`
+- **Kaç dilim düzgün sonuçlar verir?** Yaklaşık 100 dilim (gerektiği gibi ayarlayın)
+- **Başka şekiller kullanabilir miyim?** Evet, daireler, çokgenler veya özel eğriler gibi herhangi bir 'IProfile'
+- **Örnekte hangi dosya formatı kullanıldı?** Wavefront OBJ (`.obj`)
 
-## Prerequisites
+## Önkoşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Aspose.3D for .NET yüklü. Henüz indirmediyseniz **[buradan](https://releases.aspose.com/3d/net/)** edinebilirsiniz.
+- Aspose.3D for .NET Yüklü. Henüz indirmeyi başardıysanız **[buradan](https://releases.aspose.com/3d/net/)** edinebilirsiniz.
 - Çalışan bir .NET geliştirme ortamı (Visual Studio, VS Code veya tercih ettiğiniz herhangi bir IDE).
-- C# sözdizimi ve nesne‑yönelimli kavramlara temel aşinalık.
+- C# söz dizimi ve nesne‑yönelimli kavramlara temel bilgililik.
 
-## Import Namespaces
+## Ad Alanlarını İçe Aktar
 
-Her .NET projesinde, ad alanlarının doğru kullanımı çok önemlidir. Aspose.3D işlevselliğinden etkili bir şekilde yararlanmak için gerekli ad alanlarını içe aktararak başlayın. İşte size rehber olacak bir kod parçacığı:
+Her .NET projesinde reklamın doğru kullanımı çok önemlidir. Aspose.3D tedavisinden etkili bir şekilde faydalanmak için gerekli reklam alanlarını içeri aktararak başlayın. İşte size rehber olacak bir kod parçası:
 
 ```csharp
 using Aspose.ThreeD;
@@ -45,9 +45,9 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Step‑by‑Step Guide
+## Adım Adım Kılavuz
 
-### Step 1: Initialize the Base Profile
+### Adım 1: Temel Profili Başlatın
 
 Ekstrüde edilecek şekli tanımlayarak başlıyoruz. Bu örnekte kenarları hafif bir eğri vermek için küçük bir yuvarlama yarıçapına sahip bir dikdörtgen kullanıyoruz.
 
@@ -59,7 +59,7 @@ var profile = new RectangleShape()
 };
 ```
 
-### Step 2: Create a 3D Scene
+### Adım 2: 3B Sahne Oluşturun
 
 `Scene` nesnesi, tüm 3‑D varlıkların yaşadığı bir tuval görevi görür. Bunu ekstrüzyonunuzun sahnesi olarak düşünebilirsiniz.
 
@@ -68,7 +68,7 @@ var profile = new RectangleShape()
 Scene scene = new Scene();
 ```
 
-### Step 3: Add Left and Right Nodes
+### Adım 3: Sol ve Sağ Düğümleri Ekleyin
 
 Düğümler, nesneleri hiyerarşik olarak düzenlemenizi sağlar. Bir düz ekstrüzyon ve bir de burulmuş versiyon için iki kardeş düğüm oluşturacağız.
 
@@ -80,7 +80,7 @@ var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(15, 0, 0);
 ```
 
-### Step 4: Perform Linear Extrusion with Twist on the Left Node
+### Adım 4: Sol Düğümde Bükme ile Doğrusal Ekstrüzyon Gerçekleştirin
 
 `Twist` özelliği, profil ekstrüde edilirken ne kadar döneceğini kontrol eder. **0** olarak ayarlandığında klasik düz bir ekstrüzyon elde edilir.
 
@@ -90,7 +90,7 @@ left.Transform.Translation = new Vector3(15, 0, 0);
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 0, Slices = 100 });
 ```
 
-### Step 5: Perform Linear Extrusion with Twist on the Right Node
+### Adım 5: Sağ Düğümde Bükme ile Doğrusal Ekstrüzyon Gerçekleştirin
 
 Şimdi aynı profile %90’lık bir burulma uyguluyoruz. Bu, **linear extrusion twist** etkisini net bir şekilde gösterir.
 
@@ -99,7 +99,7 @@ left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 0, Slices = 100 
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 
-### Step 6: Save the 3D Scene
+### Adım 6: 3B Sahneyi Kaydedin
 
 Son olarak sahneyi, herhangi bir 3‑D görüntüleyicide açabileceğiniz bir formata dışa aktarın. Örnekte Wavefront OBJ kullanılmıştır, ancak Aspose.3D birçok başka formatı da destekler.
 
@@ -108,44 +108,44 @@ Son olarak sahneyi, herhangi bir 3‑D görüntüleyicide açabileceğiniz bir f
 scene.Save("Your Output Directory" + "TwistInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-## Why Use Linear Extrusion with a Twist?
+## Bükülmeli Doğrusal Ekstrüzyon Neden Kullanılır?
 
-- **Rapid prototyping:** Turn 2‑D sketches into 3‑D parts without manual modeling.
-- **Design flexibility:** Adjust the `Twist` value to create spirals, helical ribs, or decorative features.
-- **Performance‑friendly:** The `Slices` parameter lets you balance visual fidelity and runtime speed.
+- **Hızlı prototipleme:** 2 boyutlu çizimleri manuel modelleme yapmadan 3 boyutlu parçalara dönüştürün.
+- **Tasarım esnekliği:** Spiral, helisel nervürler veya dekoratif özellikler oluşturmak için `Büküm` değerini ayarlayın.
+- **Performans dostu:** `Dilimler` parametresi, görsel kalite ve çalışma hızı arasında denge kurmanızı sağlar.
 
-## Common Issues & Tips
+## Sık Karşılaşılan Sorunlar ve İpuçları
 
-- **Too many slices:** While 100 slices look smooth, extremely high values may slow down rendering. Test with lower counts if performance becomes a concern.
-- **Negative twist values:** A negative `Twist` rotates in the opposite direction—useful for mirrored designs.
-- **File paths:** Ensure the output directory exists and you have write permissions; otherwise `scene.Save` will throw an exception.
+- **Çok fazla dilim:** 100 dilim pürüzsüz görünse de, aşırı yüksek değerler işleme hızını yavaşlatabilir. Performans endişe kaynağı haline gelirse daha düşük sayılarla test edin.
+- **Negatif bükülme değerleri:** Negatif bir `Büküm` ters yönde döndürür; aynalı tasarımlar için kullanışlıdır.
+- **Dosya yolları:** Çıktı dizininin mevcut olduğundan ve yazma izinlerinizin olduğundan emin olun; aksi takdirde `scene.Save` bir istisna fırlatacaktır.
 
-## Conclusion
+## Çözüm
 
-Bu öğreticide **ekstrüzyon nasıl oluşturulur** sorusunu, Aspose.3D for .NET kullanarak bir burulma ile gösterdik. `Twist` ve `Slices` özelliklerini ayarlayarak basit burulmuş çubuklardan karmaşık helisel yapılara kadar çok çeşitli şekiller oluşturabilirsiniz; tümü sadece birkaç satır kodla mümkün.
+Bu öğretilirde **ekstrüzyon nasıl oluşturulur**, Aspose.3D for .NET kullanarak bir burulma ile gösterildik. `Twist` ve `Slices` özelliklerini ayarlayarak basit burulmuş çubuklardan karmaşık helisel yapılara kadar çok çeşitli sunulabilir oluşturabilirsiniz; toplamda sadece birkaç satır kodla mümkün.
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-**Q: Can I apply linear extrusion with a twist to other shapes?**  
-A: Absolutely! Any class that implements `IProfile`—such as `CircleShape`, `PolygonShape`, or a custom spline—can be extruded with a twist.
+**S: Diğer şekillere bükümlü doğrusal ekstrüzyon uygulayabilir miyim?**
+C: Kesinlikle! 'IProfile' uygulayan herhangi bir sınıf ("CircleShape", "PolygonShape" veya özel bir spline gibi) bir bükülme ile ekstrüze edilebilir.
 
-**Q: What does the `Twist` property actually represent?**  
-A: It specifies the total rotation angle (in degrees) applied to the profile over the extrusion length.
+**S: 'Twist' özelliği aslında neyi temsil ediyor?**
+A: Ekstrüzyon uzunluğu boyunca profile uygulanan toplam dönüş açısını (derece cinsinden) belirtir.
 
-**Q: Will increasing the number of slices affect memory usage?**  
-A: Yes, more slices generate more vertices and faces, which consumes additional memory and may impact performance on low‑end devices.
+**S: Dilim sayısını artırmak bellek kullanımını etkiler mi?**
+C: Evet, daha fazla dilim daha fazla köşe ve yüz oluşturur, bu da ek bellek tüketir ve düşük özellikli cihazlarda performansı etkileyebilir.
 
-**Q: Can I combine linear extrusion with other Aspose.3D features?**  
-A: Definitely. You can apply materials, textures, or even Boolean operations after extrusion to create even richer models.
+**S: Doğrusal ekstrüzyonu diğer Aspose.3D özellikleriyle birleştirebilir miyim?**
+C: Kesinlikle. Daha zengin modeller oluşturmak için ekstrüzyondan sonra malzemeler, dokular veya hatta Boolean işlemleri uygulayabilirsiniz.
 
-**Q: Where can I get help or discuss ideas with other developers?**  
-A: Join the Aspose.3D community at **[Aspose Forum](https://forum.aspose.com/c/3d/18)** for support, samples, and discussions.
+**S: Diğer geliştiricilerle yardım veya fikir alışverişi yapabileceğim yer neresi?**
+C: Destek, örnekler ve tartışmalar için **[Aspose Forum](https://forum.aspose.com/c/3d/18)** adresindeki Aspose.3D topluluğuna katılın.
 
 ---
 
-**Last Updated:** 2026-03-23  
-**Tested With:** Aspose.3D 24.11 for .NET  
-**Author:** Aspose  
+**Son Güncelleme:** 23.03.2026
+**Test Edilen Sürüm:** Aspose.3D 24.11 for .NET
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

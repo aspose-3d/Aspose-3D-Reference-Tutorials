@@ -131,23 +131,6 @@ scene.Save("Your Output Directory" + "SlicesInLinearExtrusion.obj", FileFormat.W
 | **L'oggetto appare piatto** | `Slices` impostato a 1 o 0. | Impostate `Slices` ad almeno 2 per un'estrusione visibile. |
 | **Geometria inattesa** | Raggio di arrotondamento troppo grande rispetto alle dimensioni del rettangolo. | Regolate `RoundingRadius` a un valore inferiore a metà del lato più piccolo del rettangolo. |
 
-## Domande frequenti
-
-**D: Posso cambiare la direzione dell'estrusione?**  
-R: Sì. Usate la proprietà `Transform` sul nodo per ruotare o traslare la geometria estrusa prima di salvarla.
-
-**D: Aspose.3D supporta altri tipi di estrusione?**  
-R: Assolutamente. Oltre a `LinearExtrusion`, potete usare `RevolveExtrusion`, `SweepExtrusion` e altri.
-
-**D: In quali formati posso esportare?**  
-R: Aspose.3D supporta OBJ, STL, FBX, 3MF, Collada e molti altri. Basta cambiare l'enumerazione `FileFormat`.
-
-**D: È possibile impostare un materiale in modo programmatico?**  
-R: Sì. Dopo aver creato il nodo, assegnate un `Material` alla sua collezione `Entity`.
-
-**D: Come influisce il numero di fette sull'uso della memoria?**  
-R: Più fette aumentano il conteggio di vertici e facce, il che eleva il consumo di memoria proporzionalmente. Utilizzate il profiling per trovare il punto ottimale per la vostra piattaforma target.
-
 ## FAQ originali
 
 ### Q1: Posso usare Aspose.3D per .NET con altri linguaggi di programmazione?

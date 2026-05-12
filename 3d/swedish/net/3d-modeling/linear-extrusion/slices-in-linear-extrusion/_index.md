@@ -131,23 +131,6 @@ scene.Save("Your Output Directory" + "SlicesInLinearExtrusion.obj", FileFormat.W
 | **Objektet ser platt ut** | `Slices` är satt till 1 eller 0. | Sätt `Slices` till minst 2 för en synlig extrusion. |
 | **Oväntad geometri** | Avrundningsradien är för stor för rektangelns storlek. | Justera `RoundingRadius` till ett värde som är mindre än hälften av rektangelns minsta sida. |
 
-## Vanliga frågor
-
-**Q: Kan jag ändra extruderingsriktningen?**  
-A: Ja. Använd `Transform`‑egenskapen på noden för att rotera eller förflytta den extruderade geometrin innan du sparar.
-
-**Q: Stöder Aspose.3D andra extruderingstyper?**  
-A: Absolut. Förutom `LinearExtrusion` kan du använda `RevolveExtrusion`, `SweepExtrusion` och fler.
-
-**Q: Vilka filformat kan jag exportera till?**  
-A: Aspose.3D stödjer OBJ, STL, FBX, 3MF, Collada och många andra. Ändra bara `FileFormat`‑enum.
-
-**Q: Finns det ett sätt att programatiskt sätta ett material?**  
-A: Ja. Efter att du skapat noden, tilldela ett `Material` till dess `Entity`‑samling.
-
-**Q: Hur påverkar antalet skivor minnesanvändningen?**  
-A: Fler skivor ökar antalet vertex‑ och face‑element, vilket höjer minnesförbrukningen proportionellt. Använd profilering för att hitta den optimala balansen för din målplattform.
-
 ## Ursprungliga FAQ
 
 ### Q1: Kan jag använda Aspose.3D för .NET med andra programmeringsspråk?

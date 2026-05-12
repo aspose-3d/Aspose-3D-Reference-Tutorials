@@ -15,37 +15,37 @@ weight: 13
 
 # Cara Linear Extrusion dengan Slices Menggunakan Aspose.3D untuk .NET
 
-## Introduction
+## Perkenalan
 
-Selamat datang di dunia desain 3D menggunakan Aspose.3D untuk .NET! Pada tutorial ini Anda akan menemukan **cara linear extrusion** dengan slices, sebuah teknik yang memungkinkan Anda mengontrol tingkat detail pada model. Baik Anda seorang pengembang berpengalaman maupun yang baru memulai, kami akan memandu Anda melalui setiap langkah, menjelaskan alasan di balik setiap tindakan, dan memberikan tip praktis yang dapat langsung Anda terapkan.
+Selamat datang di dunia desain 3D menggunakan Aspose.3D untuk .NET! Pada tutorial ini Anda akan menemukan **cara linear extrusion** dengan irisan, sebuah teknik yang memungkinkan Anda mengontrol tingkat detail pada model. Baik Anda seorang pengembang berpengalaman maupun yang baru memulai, kami akan memandu Anda melalui setiap langkah, menjelaskan alasan di balik setiap tindakan, dan memberikan tip praktis yang dapat langsung Anda terapkan.
 
-## Quick Answers
-- **Apa itu linear extrusion dengan slices?** Ini adalah metode memperluas profil 2D menjadi 3D sambil menentukan berapa banyak penampang menengah (slices) yang dihasilkan.  
-- **Mengapa menggunakan slices?** Lebih banyak slices menghasilkan kelengkungan yang lebih halus; lebih sedikit slices membuat mesh lebih ringan.  
-- **Prasyarat?** Aspose.3D untuk .NET, IDE yang kompatibel dengan .NET, dan pengetahuan dasar C#.  
-- **Waktu runtime tipikal?** Contoh ini berjalan kurang dari satu detik pada PC modern.  
+## Jawaban Cepat
+- **Apa itu ekstrusi linier dengan irisan?** Ini adalah metode memperluas profil 2D menjadi 3D sambil menentukan berapa banyak penampang menengah (irisan) yang dihasilkan.
+- **Mengapa menggunakan irisan?** Lebih banyak irisan menghasilkan kelengkungan yang lebih halus; lebih sedikit irisan membuat mesh lebih ringan.
+- **Prasyarat?** Aspose.3D untuk .NET, IDE yang kompatibel dengan .NET, dan pengetahuan dasar C#.
+- **Waktu runtime tipikal?** Contoh ini berjalan kurang dari satu detik pada PC modern.
 - **Format output?** Contoh menyimpan ke Wavefront OBJ, tetapi Aspose.3D mendukung banyak format.
 
-## What is Linear Extrusion with Slices?
+## Apa itu Ekstrusi Linier dengan Irisan?
 
-Linear extrusion mengambil bentuk 2‑D (sebuah profil) dan memanjang­kannya sepanjang garis lurus untuk membuat solid 3‑D. Properti **Slices** menentukan berapa banyak penampang menengah yang disisipkan antara awal dan akhir ekstrusi, memengaruhi kelancaran dan jumlah poligon.
+Ekstrusi linier mengambil bentuk 2‑D (sebuah profil) dan memanjangkannya sepanjang garis lurus untuk membuat padat 3‑D. Properti **Slices** menentukan berapa banyak penampang menengah yang disisipkan antara awal dan akhir ekstrusi, mempengaruhi kelancaran dan jumlah poligon.
 
-## Why Use Slices in Linear Extrusion?
+## Mengapa Menggunakan Irisan dalam Ekstrusi Linier?
 
-- **Control Mesh Density:** Menyetel keseimbangan antara kualitas visual dan ukuran file.  
-- **Optimize Performance:** Gunakan lebih sedikit slices untuk aplikasi real‑time, lebih banyak untuk render resolusi tinggi.  
-- **Creative Flexibility:** Gabungkan jumlah slice yang berbeda pada objek terpisah untuk menonjolkan maksud desain.
+- **Control Mesh Density:** Menyetel keseimbangan antara kualitas visual dan ukuran file.
+- **Optimalkan Kinerja:** Gunakan lebih sedikit irisan untuk aplikasi real‑time, lebih banyak untuk render resolusi tinggi.
+- **Fleksibilitas Kreatif:** Gabungkan jumlah irisan yang berbeda pada objek terpisah untuk menonjolkan maksud desain.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki:
 
-- Library Aspose.3D untuk .NET – unduh dari [here](https://releases.aspose.com/3d/net/).  
-- IDE yang mendukung C# (Visual Studio, Rider, VS Code, dll.).  
-- Familiaritas dasar dengan sintaks C# dan konsep berorientasi objek.  
+- Library Aspose.3D untuk .NET – unduh dari [di sini](https://releases.aspose.com/3d/net/).
+- IDE yang mendukung C# (Visual Studio, Rider, VS Code, dll.).
+- Familiaritas dasar dengan sintaks C# dan konsep berorientasi objek.
 - Rasa ingin tahu untuk bereksperimen dengan geometri 3‑D!
 
-## Import Namespaces
+## Impor Namespace
 
 Pertama, impor namespace yang memberi Anda akses ke kelas inti Aspose.3D.
 
@@ -56,11 +56,11 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Step‑by‑Step Guide
+## Panduan Langkah-demi-Langkah
 
-### Step 1: Initialize the Base Profile
+### Langkah 1: Inisialisasi Profil Dasar
 
-Kami memulai dengan bentuk persegi panjang sederhana dan memberikan radius pembulatan kecil agar tepi tidak terlalu tajam.
+Kami memulai dengan bentuk persegi panjang sederhana dan memberikan radius pembulatan kecil agar tepinya tidak terlalu tajam.
 
 ```csharp
 // ExStart:InitializeBaseProfile
@@ -71,7 +71,7 @@ var profile = new RectangleShape()
 // ExEnd:InitializeBaseProfile
 ```
 
-### Step 2: Create a 3D Scene
+### Langkah 2: Membuat Adegan 3D
 
 `Scene` berfungsi sebagai wadah untuk semua node, mesh, cahaya, dan kamera.
 
@@ -81,9 +81,9 @@ Scene scene = new Scene();
 // ExEnd:Create3DScene
 ```
 
-### Step 3: Add Left and Right Nodes
+### Langkah 3: Tambahkan Node Kiri dan Kanan
 
-Kami akan membuat dua node saudara di bawah root scene. Node kiri akan menerima jumlah slice rendah, node kanan jumlah slice tinggi, sehingga Anda dapat membandingkan perbedaan visualnya.
+Kami akan membuat dua node saudara di bawah root scene. Node kiri akan menerima jumlah irisan rendah, simpul kanan jumlah irisan tinggi, sehingga Anda dapat membandingkan perbedaan visualnya.
 
 ```csharp
 // ExStart:CreateLeftRightNodes
@@ -93,9 +93,9 @@ left.Transform.Translation = new Vector3(15, 0, 0);
 // ExEnd:CreateLeftRightNodes
 ```
 
-### Step 4: Perform Linear Extrusion on the Left Node (Low Detail)
+### Langkah 4: Lakukan Ekstrusi Linier pada Node Kiri (Detail Rendah)
 
-Di sini kami mengekstrusi persegi panjang dengan hanya **2 slices**. Ini menghasilkan mesh kasar—ideal untuk pratinjau cepat.
+Di sini kami mengekstrusi persegi panjang hanya dengan **2 irisan**. Ini menghasilkan mesh kasar—ideal untuk pemandangan cepat.
 
 ```csharp
 // ExStart:LinearExtrusionLeftNode
@@ -103,9 +103,9 @@ left.CreateChildNode(new LinearExtrusion(profile, 2) { Slices = 2 });
 // ExEnd:LinearExtrusionLeftNode
 ```
 
-### Step 5: Perform Linear Extrusion on the Right Node (High Detail)
+### Langkah 5: Lakukan Ekstrusi Linier pada Node Kanan (Detail Tinggi)
 
-Sekarang kami menggunakan **10 slices** untuk hasil yang jauh lebih halus. Perhatikan bagaimana geometri menjadi lebih detail.
+Sekarang kami menggunakan **10 irisan** untuk hasil yang jauh lebih halus. Perhatikan bagaimana geometri menjadi lebih detail.
 
 ```csharp
 // ExStart:LinearExtrusionRightNode
@@ -113,9 +113,9 @@ right.CreateChildNode(new LinearExtrusion(profile, 2) { Slices = 10 });
 // ExEnd:LinearExtrusionRightNode
 ```
 
-### Step 6: Save the 3D Scene
+### Langkah 6: Simpan Adegan 3D
 
-Akhirnya, tulis scene ke file OBJ. Ganti `"Your Output Directory"` dengan jalur yang valid di mesin Anda.
+Akhirnya, tulis adegan ke file OBJ. Ganti `"Your Output Directory"` dengan jalur yang valid di mesin Anda.
 
 ```csharp
 // ExStart:Save3DScene
@@ -123,62 +123,45 @@ scene.Save("Your Output Directory" + "SlicesInLinearExtrusion.obj", FileFormat.W
 // ExEnd:Save3DScene
 ```
 
-## Common Issues and Solutions
+## Masalah dan Solusi Umum
 
-| Issue | Why It Happens | Fix |
+| Masalah | Mengapa Terjadi | Perbaikan |
 |-------|----------------|-----|
-| **No file created** | Output path is invalid or missing write permission. | Use an absolute path and ensure the folder exists. |
-| **Object looks flat** | `Slices` set to 1 or 0. | Set `Slices` to at least 2 for a visible extrusion. |
-| **Unexpected geometry** | Rounding radius too large for the rectangle size. | Adjust `RoundingRadius` to a value smaller than half the rectangle’s smallest side. |
+| **Tidak ada file yang dibuat** | Jalur output tidak valid atau tidak memiliki izin tulis. | Gunakan jalur absolut dan pastikan folder tersebut ada. |
+| **Objek terlihat datar** | `Slices` diatur ke 1 atau 0. | Atur `Slices` minimal 2 untuk ekstrusi yang terlihat. |
+| **Geometri yang tidak terduga** | Radius pembulatan terlalu besar untuk ukuran persegi panjang. | Sesuaikan `RoundingRadius` ke nilai yang lebih kecil dari setengah sisi terkecil persegi panjang. |
 
-## Frequently Asked Questions
+## Pertanyaan Umum Asli
 
-**Q: Can I change the extrusion direction?**  
-A: Yes. Use the `Transform` property on the node to rotate or translate the extruded geometry before saving.
+### T1: Dapatkah saya menggunakan Aspose.3D untuk .NET dengan bahasa pemrograman lain?
 
-**Q: Does Aspose.3D support other extrusion types?**  
-A: Absolutely. Besides `LinearExtrusion`, you can use `RevolveExtrusion`, `SweepExtrusion`, and more.
+J1: Aspose.3D terutama dirancang untuk .NET, tetapi Anda dapat menjelajahi opsi interoperabilitas dengan bahasa seperti Python menggunakan binding .NET.
 
-**Q: What file formats can I export to?**  
-A: Aspose.3D supports OBJ, STL, FBX, 3MF, Collada, and many others. Just change the `FileFormat` enum.
+### T2: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.3D untuk .NET?
 
-**Q: Is there a way to programmatically set a material?**  
-A: Yes. After creating the node, assign a `Material` to its `Entity` collection.
+J2: Lihat dokumentasi [di sini](https://reference.aspose.com/3d/net/) untuk informasi mendalam tentang kemampuan dan penggunaan Aspose.3D.
 
-**Q: How does slice count affect memory usage?**  
-A: More slices increase vertex and face counts, which raises memory consumption proportionally. Use profiling to find the sweet spot for your target platform.
+### T3: Apakah tersedia uji coba gratis untuk Aspose.3D untuk .NET?
 
-## Original FAQ's
+J3: Ya, Anda dapat mengambil uji coba gratis Anda [di sini](https://releases.aspose.com/) untuk menjelajahi fitur-fitur pustaka sebelum melakukan pembelian.
 
-### Q1: Can I use Aspose.3D for .NET with other programming languages?
+### T4: Bagaimana saya bisa mendapatkan dukungan teknis untuk Aspose.3D untuk .NET?
 
-A1: Aspose.3D is primarily designed for .NET, but you can explore interoperability options with languages like Python using .NET bindings.
+J4: Kunjungi forum Aspose.3D [di sini](https://forum.aspose.com/c/3d/18) untuk mencari bantuan dan berinteraksi dengan komunitas.
 
-### Q2: Where can I find detailed documentation for Aspose.3D for .NET?
+### T5: Dapatkah saya menggunakan lisensi sementara untuk Aspose.3D untuk .NET?
 
-A2: Refer to the documentation [here](https://reference.aspose.com/3d/net/) for in‑depth information on Aspose.3D's capabilities and usage.
+A5: Ya, dapatkan lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.
 
-### Q3: Is there a free trial available for Aspose.3D for .NET?
+## Kesimpulan
 
-A3: Yes, you can grab your free trial [here](https://releases.aspose.com/) to explore the library's features before making a purchase.
-
-### Q4: How can I get technical support for Aspose.3D for .NET?
-
-A4: Visit the Aspose.3D forum [here](https://forum.aspose.com/c/3d/18) to seek assistance and engage with the community.
-
-### Q5: Can I use a temporary license for Aspose.3D for .NET?
-
-A5: Yes, obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for evaluation purposes.
-
-## Conclusion
-
-Anda kini telah melihat **cara linear extrusion** dengan slices menggunakan Aspose.3D untuk .NET, mengeksplorasi dampak dari berbagai jumlah slice, dan belajar cara mengekspor hasil kerja Anda. Bereksperimenlah dengan profil lain, mainkan nilai `Slices`, serta integrasikan material atau cahaya untuk membuat aset 3‑D siap produksi.
+Anda kini telah melihat **cara ekstrusi linier** dengan irisan menggunakan Aspose.3D untuk .NET, mengeksplorasi dampak dari berbagai jumlah irisan, dan mempelajari cara mengekspor hasil kerja Anda. Bereksperimenlah dengan profil lain, mainkan nilai `Slices`, serta integrasikan material atau cahaya untuk membuat aset 3‑D siap produksi.
 
 ---
 
-**Last Updated:** 2026-03-23  
-**Tested With:** Aspose.3D 24.11 for .NET (latest at time of writing)  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 23-03-2026
+**Diuji Dengan:** Aspose.3D 24.11 untuk .NET (terbaru pada saat penulisan)
+**Penulis:** Beranggapan  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

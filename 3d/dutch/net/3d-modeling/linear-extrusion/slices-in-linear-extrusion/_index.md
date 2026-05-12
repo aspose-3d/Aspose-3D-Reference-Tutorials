@@ -131,23 +131,6 @@ scene.Save("Your Output Directory" + "SlicesInLinearExtrusion.obj", FileFormat.W
 | **Object ziet er plat uit** | `Slices` ingesteld op 1 of 0. | Stel `Slices` in op minimaal 2 voor een zichtbare extrusie. |
 | **Onverwachte geometrie** | Afrondingsstraal te groot voor de grootte van de rechthoek. | Pas `RoundingRadius` aan naar een waarde kleiner dan de helft van de kleinste zijde van de rechthoek. |
 
-## Veelgestelde vragen
-
-**Q: Kan ik de extrusierichting wijzigen?**  
-A: Ja. Gebruik de `Transform`-eigenschap op de node om de geëxtrudeerde geometrie te roteren of te verplaatsen vóór het opslaan.
-
-**Q: Ondersteunt Aspose.3D andere extrusietypen?**  
-A: Absoluut. Naast `LinearExtrusion` kun je `RevolveExtrusion`, `SweepExtrusion` en meer gebruiken.
-
-**Q: Naar welke bestandsformaten kan ik exporteren?**  
-A: Aspose.3D ondersteunt OBJ, STL, FBX, 3MF, Collada en vele anderen. Verander gewoon de `FileFormat`‑enum.
-
-**Q: Is er een manier om programmatically een materiaal in te stellen?**  
-A: Ja. Na het maken van de node, wijs een `Material` toe aan de `Entity`‑collectie.
-
-**Q: Hoe beïnvloedt het aantal slices het geheugenverbruik?**  
-A: Meer slices verhogen het aantal vertices en faces, waardoor het geheugenverbruik evenredig stijgt. Gebruik profiling om de optimale balans voor jouw doelformaat te vinden.
-
 ## Originele FAQ's
 
 ### Q1: Kan ik Aspose.3D voor .NET gebruiken met andere programmeertalen?

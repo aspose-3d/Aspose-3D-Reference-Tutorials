@@ -1,5 +1,5 @@
 ---
-title: Create 3D Extrusion with Aspose: Direction in Linear Extrusion
+title: Create 3D Extrusion with Aspose - Direction in Linear Extrusion
 linktitle: Direction in Linear Extrusion
 second_title: Aspose.3D .NET API
 description: Learn how to create 3D extrusion with Aspose.3D for .NET, using the Direction property in linear extrusion to craft complex models quickly.

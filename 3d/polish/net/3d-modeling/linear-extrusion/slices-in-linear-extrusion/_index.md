@@ -131,23 +131,6 @@ scene.Save("Your Output Directory" + "SlicesInLinearExtrusion.obj", FileFormat.W
 | **Obiekt wygląda płasko** | `Slices` ustawione na 1 lub 0. | Ustaw `Slices` na co najmniej 2, aby ekstruzja była widoczna. |
 | **Nieoczekiwana geometria** | Zbyt duży promień zaokrąglenia w stosunku do rozmiaru prostokąta. | Dostosuj `RoundingRadius` do wartości mniejszej niż połowa krótszego boku prostokąta. |
 
-## Najczęściej zadawane pytania
-
-**P: Czy mogę zmienić kierunek ekstruzji?**  
-O: Tak. Użyj właściwości `Transform` na węźle, aby obrócić lub przemieścić ekstruzowaną geometrię przed zapisem.
-
-**P: Czy Aspose.3D obsługuje inne typy ekstruzji?**  
-O: Zdecydowanie. Oprócz `LinearExtrusion` możesz używać `RevolveExtrusion`, `SweepExtrusion` i innych.
-
-**P: Do jakich formatów plików mogę eksportować?**  
-O: Aspose.3D obsługuje OBJ, STL, FBX, 3MF, Collada i wiele innych. Wystarczy zmienić wartość enum `FileFormat`.
-
-**P: Czy istnieje sposób na programowe ustawienie materiału?**  
-O: Tak. Po utworzeniu węzła przypisz `Material` do jego kolekcji `Entity`.
-
-**P: Jak liczba przekrojów wpływa na zużycie pamięci?**  
-O: Więcej przekrojów zwiększa liczbę wierzchołków i ścian, co proporcjonalnie podnosi zużycie pamięci. Użyj profilowania, aby znaleźć optymalny punkt dla docelowej platformy.
-
 ## Oryginalne FAQ
 
 ### P1: Czy mogę używać Aspose.3D dla .NET z innymi językami programowania?

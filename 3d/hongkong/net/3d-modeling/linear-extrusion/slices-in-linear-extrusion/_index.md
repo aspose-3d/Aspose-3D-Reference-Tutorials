@@ -130,23 +130,6 @@ scene.Save("Your Output Directory" + "SlicesInLinearExtrusion.obj", FileFormat.W
 | **物件看起來平坦** | `Slices` 設為 1 或 0。 | 將 `Slices` 設為至少 2，以產生可見的拉伸。 |
 | **幾何體異常** | 圓角半徑對矩形尺寸而言過大。 | 將 `RoundingRadius` 調整為小於矩形最短邊的一半的值。 |
 
-## 常見問答
-
-**Q: 我可以變更拉伸方向嗎？**  
-A: 可以。使用節點的 `Transform` 屬性在儲存前旋轉或平移拉伸後的幾何體。
-
-**Q: Aspose.3D 支援其他拉伸類型嗎？**  
-A: 當然支援。除了 `LinearExtrusion`，你還可以使用 `RevolveExtrusion`、`SweepExtrusion` 等。
-
-**Q: 我可以匯出哪些檔案格式？**  
-A: Aspose.3D 支援 OBJ、STL、FBX、3MF、Collada 等多種格式。只需更改 `FileFormat` 列舉即可。
-
-**Q: 有辦法以程式方式設定材質嗎？**  
-A: 有。建立節點後，將 `Material` 指派給其 `Entity` 集合即可。
-
-**Q: 切片數量如何影響記憶體使用量？**  
-A: 更多切片會增加頂點與面數，從而成比例提升記憶體消耗。請使用效能分析找出目標平台的最佳平衡點。
-
 ## 原始常見問答
 
 ### Q1: 我可以在其他程式語言中使用 Aspose.3D for .NET 嗎？

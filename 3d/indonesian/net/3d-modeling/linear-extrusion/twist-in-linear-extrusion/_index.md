@@ -15,18 +15,18 @@ weight: 14
 
 # Cara Membuat Ekstrusi dengan Putaran pada Ekstrusi Linear
 
-## Introduction
+## Perkenalan
 
-Jika Anda membangun aplikasi .NET yang memerlukan visual 3D yang menarik, Anda akan segera menemukan bahwa **cara membuat ekstrusi** adalah keterampilan dasar. Aspose.3D untuk .NET menyediakan API yang bersih dan berperforma tinggi untuk mengubah profil 2‑D sederhana menjadi model 3‑D yang canggih—terutama ketika Anda menambahkan putaran. Dalam tutorial ini kami akan membimbing Anda melalui setiap langkah, mulai dari menyiapkan scene hingga menyimpan file OBJ akhir, sehingga Anda dapat melihat kekuatan putaran ekstrusi linear secara langsung.
+Jika Anda membangun aplikasi .NET yang memerlukan visual 3D yang menarik, Anda akan segera menemukan bahwa **cara membuat ekstrusi** adalah keterampilan dasar. Aspose.3D untuk .NET menyediakan API yang bersih dan berperforma tinggi untuk mengubah profil 2‑D sederhana menjadi model 3‑D yang canggih—terutama ketika Anda menambahkan putaran. Dalam tutorial ini kami akan membimbing Anda melalui setiap langkah, mulai dari menyiapkan adegan hingga menyimpan file OBJ akhir, sehingga Anda dapat melihat kekuatan putaran ekstrusi linier secara langsung.
 
-## Quick Answers
+## Jawaban Cepat
 - **Apa kelas utama untuk ekstrusi?** `LinearExtrusion`
 - **Properti mana yang menambahkan rotasi?** `Twist`
-- **Berapa banyak slice yang memberikan hasil halus?** Sekitar 100 slice (sesuaikan bila perlu)
+- **Berapa banyak irisan yang memberikan hasil halus?** Sekitar 100 irisan (sesuaikan bila perlu)
 - **Apakah saya dapat menggunakan bentuk lain?** Ya, setiap `IProfile` seperti lingkaran, poligon, atau kurva kustom
 - **Format file apa yang digunakan dalam contoh?** Wavefront OBJ (`.obj`)
 
-## Prerequisites
+## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki hal‑hal berikut:
 
@@ -34,7 +34,7 @@ Sebelum kita mulai, pastikan Anda memiliki hal‑hal berikut:
 - Lingkungan pengembangan .NET yang berfungsi (Visual Studio, VS Code, atau IDE lain yang Anda sukai).
 - Familiaritas dasar dengan sintaks C# dan konsep berorientasi objek.
 
-## Import Namespaces
+## Impor Namespace
 
 Dalam proyek .NET apa pun, penggunaan namespace yang tepat sangat penting. Mulailah dengan mengimpor namespace yang diperlukan untuk memanfaatkan fungsionalitas Aspose.3D secara efektif. Berikut cuplikan kode untuk memandu Anda:
 
@@ -45,11 +45,11 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Step‑by‑Step Guide
+## Panduan Langkah-demi-Langkah
 
-### Step 1: Initialize the Base Profile
+### Langkah 1: Inisialisasi Profil Dasar
 
-Kita mulai dengan mendefinisikan bentuk yang akan diekstrusi. Pada contoh ini kami menggunakan persegi panjang dengan radius pembulatan kecil untuk memberi tepi sedikit lengkungan.
+Kita mulai dengan mendefinisikan bentuk yang akan diekstrusi. Pada contoh ini kami menggunakan persegi panjang dengan radius pembulatan kecil untuk memberi sedikit tepi lengkungan.
 
 ```csharp
 // Initialize the base profile to be extruded
@@ -59,7 +59,7 @@ var profile = new RectangleShape()
 };
 ```
 
-### Step 2: Create a 3D Scene
+### Langkah 2: Membuat Adegan 3D
 
 Objek `Scene` berfungsi sebagai kanvas tempat semua entitas 3‑D berada. Anggaplah ini sebagai panggung untuk ekstrusi Anda.
 
@@ -68,7 +68,7 @@ Objek `Scene` berfungsi sebagai kanvas tempat semua entitas 3‑D berada. Anggap
 Scene scene = new Scene();
 ```
 
-### Step 3: Add Left and Right Nodes
+### Langkah 3: Tambahkan Node Kiri dan Kanan
 
 Node memungkinkan Anda mengatur objek secara hierarkis. Kami akan membuat dua node saudara—satu untuk ekstrusi lurus dan satu lagi untuk versi berputar.
 
@@ -80,9 +80,9 @@ var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(15, 0, 0);
 ```
 
-### Step 4: Perform Linear Extrusion with Twist on the Left Node
+### Langkah 4: Lakukan Ekstrusi Linier dengan Twist pada Node Kiri
 
-Properti `Twist` mengontrol seberapa banyak profil berputar selama proses ekstrusi. Menetapkannya ke **0** menghasilkan ekstrusi lurus klasik.
+Properti `Twist` mengontrol seberapa banyak profil berputar selama proses ekstrusi. Menekannya ke **0** menghasilkan ekstrusi lurus klasik.
 
 ```csharp
 // Twist property defines the degree of the rotation while extruding the profile
@@ -90,62 +90,62 @@ Properti `Twist` mengontrol seberapa banyak profil berputar selama proses ekstru
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 0, Slices = 100 });
 ```
 
-### Step 5: Perform Linear Extrusion with Twist on the Right Node
+### Langkah 5: Lakukan Ekstrusi Linier dengan Memutar pada Node Kanan
 
-Sekarang kami menerapkan putaran 90‑derajat pada profil yang sama. Ini memperlihatkan efek **linear extrusion twist** dengan jelas.
+Sekarang kami menerapkan putaran 90‑derajat pada profil yang sama. Ini menampilkan efek **linear extrusion twist** dengan jelas.
 
 ```csharp
 // Perform linear extrusion on the right node using twist and slices property
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 
-### Step 6: Save the 3D Scene
+### Langkah 6: Simpan Adegan 3D
 
-Akhirnya, ekspor scene ke format yang dapat Anda lihat di penampil 3‑D apa pun. Contoh ini menggunakan Wavefront OBJ, tetapi Aspose.3D mendukung banyak format lain juga.
+Akhirnya, ekspor adegan ke format yang dapat Anda lihat di penampil 3‑D apa pun. Contoh ini menggunakan Wavefront OBJ, tetapi Aspose.3D mendukung banyak format lain juga.
 
 ```csharp
 // Save 3D scene
 scene.Save("Your Output Directory" + "TwistInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-## Why Use Linear Extrusion with a Twist?
+## Mengapa Menggunakan Ekstrusi Linier dengan Putaran?
 
 - **Prototyping cepat:** Ubah sketsa 2‑D menjadi bagian 3‑D tanpa pemodelan manual.
 - **Fleksibilitas desain:** Sesuaikan nilai `Twist` untuk membuat spiral, rib helical, atau fitur dekoratif.
 - **Ramah performa:** Parameter `Slices` memungkinkan Anda menyeimbangkan ketelitian visual dan kecepatan runtime.
 
-## Common Issues & Tips
+## Masalah & Tip Umum
 
-- **Terlalu banyak slice:** Meskipun 100 slice terlihat halus, nilai yang sangat tinggi dapat memperlambat rendering. Uji dengan jumlah lebih rendah jika performa menjadi masalah.
+- **Terlalu banyak irisan:** Meskipun 100 irisan terlihat halus, nilai yang sangat tinggi dapat memperlambat rendering. Uji dengan jumlah lebih rendah jika kinerja menjadi masalah.
 - **Nilai twist negatif:** `Twist` negatif memutar ke arah berlawanan—berguna untuk desain yang dicerminkan.
-- **Path file:** Pastikan direktori output ada dan Anda memiliki izin menulis; jika tidak, `scene.Save` akan melemparkan pengecualian.
+- **Path file:** Pastikan direktori output ada dan Anda memiliki izin menulis; jika tidak, `scene.Save` akan dilemparkan.
 
-## Conclusion
+## Kesimpulan
 
-Dalam tutorial ini kami telah menunjukkan **cara membuat ekstrusi** dengan putaran menggunakan Aspose.3D untuk .NET. Dengan menyesuaikan properti `Twist` dan `Slices` Anda dapat menghasilkan berbagai bentuk, mulai dari batang berputar sederhana hingga struktur heliks yang kompleks, semuanya dengan hanya beberapa baris kode.
+Dalam tutorial ini kami telah menunjukkan **cara membuat ekstrusi** dengan putaran menggunakan Aspose.3D untuk .NET. Dengan menyesuaikan properti `Twist` dan `Slices` Anda dapat menghasilkan berbagai bentuk, mulai dari batang berputar sederhana hingga struktur heliks yang kompleks, semuanya hanya dengan beberapa baris kode.
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**Q: Dapatkah saya menerapkan linear extrusion dengan putaran pada bentuk lain?**  
-A: Tentu saja! Setiap kelas yang mengimplementasikan `IProfile`—seperti `CircleShape`, `PolygonShape`, atau spline kustom—dapat diekstrusi dengan putaran.
+**Q: Bisakah saya menerapkan ekstrusi linier dengan putaran pada bentuk lain?**
+J: Tentu saja! Setiap kelas yang mengimplementasikan `IProfile`—seperti `CircleShape`, `PolygonShape`, atau spline kustom—dapat diekstrusi dengan putaran.
 
-**Q: Apa yang sebenarnya diwakili oleh properti `Twist`?**  
-A: Properti ini menentukan sudut rotasi total (dalam derajat) yang diterapkan pada profil sepanjang panjang ekstrusi.
+**Q: Apa yang sebenarnya terhenti oleh properti `Twist`?**
+A: Properti ini menentukan sudut rotasi total (dalam derajat) yang diterapkan pada profil sepanjang ekstrusi.
 
-**Q: Apakah menambah jumlah slice akan memengaruhi penggunaan memori?**  
-A: Ya, lebih banyak slice menghasilkan lebih banyak vertex dan face, yang mengonsumsi memori tambahan dan dapat memengaruhi performa pada perangkat dengan spesifikasi rendah.
+**Q: Apakah menambah jumlah irisan akan mempengaruhi penggunaan memori?**
+A: Ya, lebih banyak irisan menghasilkan lebih banyak vertex dan face, yang mengonsumsi memori tambahan dan dapat memengaruhi performa pada perangkat dengan spesifikasi rendah.
 
-**Q: Dapatkah saya menggabungkan linear extrusion dengan fitur Aspose.3D lainnya?**  
+**Q: Dapatkah saya menggabungkan ekstrusi linier dengan fitur Aspose.3D lainnya?**
 A: Pastinya. Anda dapat menerapkan material, tekstur, atau bahkan operasi Boolean setelah ekstrusi untuk menciptakan model yang lebih kaya.
 
-**Q: Di mana saya dapat mendapatkan bantuan atau berdiskusi dengan pengembang lain?**  
-A: Bergabunglah dengan komunitas Aspose.3D di **[Aspose Forum](https://forum.aspose.com/c/3d/18)** untuk dukungan, contoh, dan diskusi.
+**Q: Di mana saya bisa mendapatkan bantuan atau berdiskusi dengan pengembang lain?**
+A: bersinggungan dengan komunitas Aspose.3D di **[Aspose Forum](https://forum.aspose.com/c/3d/18)** untuk dukungan, contoh, dan diskusi.
 
 ---
 
-**Last Updated:** 2026-03-23  
-**Tested With:** Aspose.3D 24.11 for .NET  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 23-03-2026
+**Diuji Dengan:** Aspose.3D 24.11 untuk .NET
+**Penulis:** Beranggapan 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
