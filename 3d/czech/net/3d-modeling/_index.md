@@ -90,13 +90,6 @@ Aspose.3D pro .NET Tutorials Listing není jen průvodce; je to pozvání k proz
 ### [Vytváření primitivních 3D modelů](./primitive-3d-models/)
 Prozkoumejte svět 3D modelování s Aspose.3D pro .NET. Vytvářejte úchvatné primitivní modely bez námahy.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Jak vytvořím válec s vlastním poloměrem a výškou?**  
@@ -119,3 +112,10 @@ A: Ne, Aspose.3D je čistá .NET knihovna a běží na jakémkoli počítači, k
 **Poslední aktualizace:** 2026-03-21  
 **Testováno s:** Aspose.3D 24.11 pro .NET  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -90,13 +90,6 @@ Danh sách các hướng dẫn Aspose.3D cho .NET không chỉ là một cuốn 
 ### [Tạo Mô Hình 3D Primitive](./primitive-3d-models/)
 Khám phá thế giới mô hình 3D với Aspose.3D cho .NET. Tạo các mô hình primitive ấn tượng một cách dễ dàng.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Làm thế nào để tạo một trụ với bán kính và chiều cao tùy chỉnh?**  
@@ -119,3 +112,10 @@ A: Không, Aspose.3D là một thư viện .NET thuần và chạy trên bất k
 **Cập nhật lần cuối:** 2026-03-21  
 **Kiểm tra với:** Aspose.3D 24.11 for .NET  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

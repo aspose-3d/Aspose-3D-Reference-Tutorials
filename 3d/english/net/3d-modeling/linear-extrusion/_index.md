@@ -1,5 +1,5 @@
 ---
-title: "How to Use Extrusion: Linear Extrusion with Aspose.3D for .NET"
+title: "How to Use Extrusion - Linear Extrusion with Aspose.3D for .NET"
 linktitle: Linear Extrusion
 second_title: Aspose.3D .NET API
 description: "Learn how to use extrusion with Aspose.3D for .NET – a step by step extrusion guide that helps you master linear extrusion techniques quickly."

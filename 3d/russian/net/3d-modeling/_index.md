@@ -91,13 +91,6 @@ Aspose.3D облегчает создание параметрической 3D 
 ### [Создание примитивных 3D моделей](./primitive-3d-models/)
 Исследуйте мир 3D моделирования с Aspose.3D for .NET. Создавайте впечатляющие примитивные модели без усилий.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **В: Как создать цилиндр с пользовательским радиусом и высотой?**  
@@ -120,3 +113,10 @@ Aspose.3D облегчает создание параметрической 3D 
 **Последнее обновление:** 2026-03-21  
 **Тестировано с:** Aspose.3D 24.11 for .NET  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -4,7 +4,7 @@ description: Leer hoe je extrusie gebruikt met Aspose.3D voor .NET – een staps
   extrusiegids die je helpt om snel lineaire extrusietechnieken onder de knie te krijgen.
 linktitle: Linear Extrusion
 second_title: Aspose.3D .NET API
-title: 'Hoe extrusie te gebruiken: lineaire extrusie met Aspose.3D voor .NET'
+title: 'Hoe extrusie te gebruiken - lineaire extrusie met Aspose.3D voor .NET'
 url: /nl/net/3d-modeling/linear-extrusion/
 weight: 31
 ---

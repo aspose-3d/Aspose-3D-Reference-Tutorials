@@ -89,13 +89,6 @@ Aspose.3D for .NET 教程列表不仅是一份指南，更是探索 3D 建模无
 ### [Creating Primitive 3D Models](./primitive-3d-models/)
 使用 Aspose.3D for .NET 探索 3D 建模的世界。轻松创建惊艳的基元模型。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q: 如何使用自定义半径和高度创建圆柱？**  
@@ -118,3 +111,10 @@ A: 不需要，Aspose.3D 是纯 .NET 库，可在任何支持相应 .NET 运行�
 **最后更新：** 2026-03-21  
 **测试环境：** Aspose.3D 24.11 for .NET  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

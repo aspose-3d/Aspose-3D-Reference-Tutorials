@@ -91,13 +91,6 @@ Lista samouczków Aspose.3D for .NET to nie tylko przewodnik; to zaproszenie do 
 ### [Tworzenie prymitywnych modeli 3D](./primitive-3d-models/)
 Odkryj świat modelowania 3D z Aspose.3D for .NET. Twórz zachwycające prymitywne modele bez wysiłku.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: How do I create a cylinder with a custom radius and height?**  
@@ -120,3 +113,10 @@ A: No, Aspose.3D is a pure .NET library and runs on any machine that supports th
 **Last Updated:** 2026-03-21  
 **Tested With:** Aspose.3D 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

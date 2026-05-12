@@ -91,13 +91,6 @@ Aspose.3D for .NET Eğitim Listesi sadece bir rehber değil; 3D modellemenin sı
 ### [İlkel 3D Modeller Oluşturma](./primitive-3d-models/)
 Aspose.3D for .NET ile 3D modelleme dünyasını keşfedin. Muhteşem ilkel modelleri zahmetsizce oluşturun.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **Q: Özel bir yarıçap ve yükseklik ile bir silindir nasıl oluştururum?**  
@@ -120,3 +113,10 @@ A: Hayır, Aspose.3D saf bir .NET kütüphanesidir ve gerekli .NET çalışma za
 **Son Güncelleme:** 2026-03-21  
 **Test Edilen:** Aspose.3D 24.11 for .NET  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

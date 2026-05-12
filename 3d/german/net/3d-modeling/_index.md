@@ -91,13 +91,6 @@ Die Auflistung der Aspose.3D für .NET Tutorials ist nicht nur ein Leitfaden; si
 ### [Primitive 3D‑Modelle erstellen](./primitive-3d-models/)
 Entdecken Sie die Welt der 3D‑Modellierung mit Aspose.3D für .NET. Erstellen Sie mühelos beeindruckende Primitive‑Modelle.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Wie erstelle ich einen Zylinder mit einem benutzerdefinierten Radius und einer benutzerdefinierten Höhe?**  
@@ -120,3 +113,10 @@ A: Nein, Aspose.3D ist eine reine .NET‑Bibliothek und läuft auf jedem Rechner
 **Last Updated:** 2026-03-21  
 **Tested With:** Aspose.3D 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -91,13 +91,6 @@ weight: 28
 ### [Creating Primitive 3D Models](./primitive-3d-models/)
 Εξερευνήστε τον κόσμο της 3D μοντελοποίησης με το Aspose.3D για .NET. Δημιουργήστε εντυπωσιακά primitive μοντέλα χωρίς κόπο.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Πώς δημιουργώ έναν κυλίνδρο με προσαρμοσμένη ακτίνα και ύψος;**  
@@ -120,3 +113,10 @@ A: Όχι, το Aspose.3D είναι μια καθαρά .NET βιβλιοθήκ
 **Τελευταία Ενημέρωση:** 2026-03-21  
 **Δοκιμή Με:** Aspose.3D 24.11 for .NET  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -4,7 +4,7 @@ description: تعلم كيفية استخدام البثق مع Aspose.3D لـ .
   يساعدك على إتقان تقنيات البثق الخطي بسرعة.
 linktitle: Linear Extrusion
 second_title: Aspose.3D .NET API
-title: 'كيفية استخدام البثق: البثق الخطي مع Aspose.3D لـ .NET'
+title: 'كيفية استخدام البثق - البثق الخطي مع Aspose.3D لـ .NET'
 url: /ar/net/3d-modeling/linear-extrusion/
 weight: 31
 ---

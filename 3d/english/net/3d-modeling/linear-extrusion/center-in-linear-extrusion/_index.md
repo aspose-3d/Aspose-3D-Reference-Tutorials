@@ -1,5 +1,5 @@
 ---
-title: How to Use Aspose: Center in Linear Extrusion
+title: How to Use Aspose  Center in Linear Extrusion
 linktitle: Center in Linear Extrusion
 second_title: Aspose.3D .NET API
 description: Learn how to use Aspose for centered linear extrusion, create 3d scene, and save obj file with Aspose.3D for .NET.

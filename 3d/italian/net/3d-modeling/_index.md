@@ -91,14 +91,7 @@ L'elenco dei tutorial di Aspose.3D per .NET non è solo una guida; è un invito 
 ### [Creazione di Modelli 3D Primitivi](./primitive-3d-models/)
 Esplora il mondo della modellazione 3D con Aspose.3D per .NET. Crea modelli primitivi sorprendenti senza sforzo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
-## Frequently Asked Questions
+## Domande frequenti
 
 **Q: Come creo un cilindro con raggio e altezza personalizzati?**  
 A: Usa la classe `Cylinder` in Aspose.3D, imposta le proprietà `Radius` e `Height`, quindi aggiungilo alla scena.
@@ -120,3 +113,10 @@ A: No, Aspose.3D è una libreria .NET pura e funziona su qualsiasi macchina che 
 **Ultimo Aggiornamento:** 2026-03-21  
 **Testato Con:** Aspose.3D 24.11 per .NET  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

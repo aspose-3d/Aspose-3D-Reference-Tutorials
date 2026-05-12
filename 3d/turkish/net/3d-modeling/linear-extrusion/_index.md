@@ -5,7 +5,7 @@ description: Aspose.3D for .NET ile ekstrüzyonu nasıl kullanacağınızı öğ
   yardımcı olur.
 linktitle: Linear Extrusion
 second_title: Aspose.3D .NET API
-title: 'Ekstrüzyon Nasıl Kullanılır: Aspose.3D for .NET ile Doğrusal Ekstrüzyon'
+title: 'Ekstrüzyon Nasıl Kullanılır - Aspose.3D for .NET ile Doğrusal Ekstrüzyon'
 url: /tr/net/3d-modeling/linear-extrusion/
 weight: 31
 ---

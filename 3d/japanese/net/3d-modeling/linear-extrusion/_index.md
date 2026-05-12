@@ -3,7 +3,7 @@ date: 2026-03-21
 description: Aspose.3D for .NET を使った押し出しの方法を学びましょう – ステップバイステップの押し出しガイドで、線形押し出し技術をすぐに習得できます。
 linktitle: Linear Extrusion
 second_title: Aspose.3D .NET API
-title: 押し出しの使い方：Aspose.3D for .NETによる線形押し出し
+title: 押し出しの使い方 - Aspose.3D for .NETによる線形押し出し
 url: /ja/net/3d-modeling/linear-extrusion/
 weight: 31
 ---

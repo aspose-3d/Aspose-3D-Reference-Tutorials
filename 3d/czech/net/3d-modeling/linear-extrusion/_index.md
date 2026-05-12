@@ -4,7 +4,7 @@ description: Naučte se, jak používat extruzi s Aspose.3D pro .NET – krok za
   průvodce extruzí, který vám pomůže rychle zvládnout techniky lineární extruze.
 linktitle: Linear Extrusion
 second_title: Aspose.3D .NET API
-title: 'Jak použít extruzi: lineární extruze s Aspose.3D pro .NET'
+title: 'Jak použít extruzi - lineární extruze s Aspose.3D pro .NET'
 url: /cs/net/3d-modeling/linear-extrusion/
 weight: 31
 ---

@@ -4,7 +4,7 @@ description: Lär dig hur du använder extrusion med Aspose.3D för .NET – en 
   som hjälper dig att snabbt behärska linjära extrusionstekniker.
 linktitle: Linear Extrusion
 second_title: Aspose.3D .NET API
-title: 'Så använder du extrudering: Linjär extrudering med Aspose.3D för .NET'
+title: 'Så använder du extrudering - Linjär extrudering med Aspose.3D för .NET'
 url: /sv/net/3d-modeling/linear-extrusion/
 weight: 31
 ---

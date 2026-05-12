@@ -91,13 +91,6 @@ weight: 28
 ### [Creating Primitive 3D Models](./primitive-3d-models/)
 استكشف عالم النمذجة ثلاثية الأبعاد مع Aspose.3D for .NET. أنشئ نماذج أولية مذهلة بسهولة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **Q:** كيف أنشئ أسطوانة بنصف قطر وارتفاع مخصصين؟  
@@ -120,3 +113,10 @@ weight: 28
 **آخر تحديث:** 2026-03-21  
 **تم الاختبار مع:** Aspose.3D 24.11 for .NET  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

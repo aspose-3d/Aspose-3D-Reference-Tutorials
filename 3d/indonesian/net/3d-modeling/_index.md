@@ -91,13 +91,6 @@ Daftar Tutorial Aspose.3D untuk .NET bukan sekadar panduan; ini adalah undangan 
 ### [Membuat Model 3D Primitif](./primitive-3d-models/)
 Jelajahi dunia pemodelan 3D dengan Aspose.3D untuk .NET. Buat model primitif yang menakjubkan dengan mudah.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana cara membuat silinder dengan radius dan tinggi khusus?**  
@@ -120,3 +113,10 @@ A: Tidak, Aspose.3D adalah perpustakaan .NET murni dan berjalan pada mesin apa p
 **Terakhir Diperbarui:** 2026-03-21  
 **Diuji Dengan:** Aspose.3D 24.11 untuk .NET  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

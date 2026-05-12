@@ -90,13 +90,6 @@ Aspose.3D for .NET Tutorials Listing is niet alleen een gids; het is een uitnodi
 ### [Primitive 3D Modellen Maken](./primitive-3d-models/)
 Verken de wereld van 3D-modellering met Aspose.3D for .NET. Maak moeiteloos verbluffende primitive modellen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde Vragen
 
 **Q: Hoe maak ik een cylinder met een aangepaste radius en hoogte?**  
@@ -119,3 +112,10 @@ A: Nee, Aspose.3D is een pure .NET‑bibliotheek en draait op elke machine die d
 **Laatst bijgewerkt:** 2026-03-21  
 **Getest met:** Aspose.3D 24.11 for .NET  
 **Auteur:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

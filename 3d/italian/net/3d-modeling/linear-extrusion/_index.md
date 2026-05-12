@@ -5,7 +5,7 @@ description: Scopri come utilizzare l'estrusione con Aspose.3D per .NET – una 
   di estrusione lineare.
 linktitle: Linear Extrusion
 second_title: Aspose.3D .NET API
-title: 'Come usare l''estrusione: estrusione lineare con Aspose.3D per .NET'
+title: 'Come usare l''estrusione - estrusione lineare con Aspose.3D per .NET'
 url: /it/net/3d-modeling/linear-extrusion/
 weight: 31
 ---

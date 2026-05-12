@@ -5,7 +5,7 @@ description: Μάθετε πώς να χρησιμοποιείτε την εξώ
   γραμμικής εξώθησης.
 linktitle: Linear Extrusion
 second_title: Aspose.3D .NET API
-title: 'Πώς να χρησιμοποιήσετε την εξώθηση: Γραμμική εξώθηση με το Aspose.3D για .NET'
+title: 'Πώς να χρησιμοποιήσετε την εξώθηση - Γραμμική εξώθηση με το Aspose.3D για .NET'
 url: /el/net/3d-modeling/linear-extrusion/
 weight: 31
 ---

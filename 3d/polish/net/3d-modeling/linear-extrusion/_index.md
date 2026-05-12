@@ -4,7 +4,7 @@ description: Dowiedz się, jak używać ekstruzji w Aspose.3D dla .NET – krok 
   przewodnik po ekstruzji, który pomoże Ci szybko opanować techniki ekstruzji liniowej.
 linktitle: Linear Extrusion
 second_title: Aspose.3D .NET API
-title: 'Jak używać ekstruzji: Ekstruzja liniowa z Aspose.3D dla .NET'
+title: 'Jak używać ekstruzji - Ekstruzja liniowa z Aspose.3D dla .NET'
 url: /pl/net/3d-modeling/linear-extrusion/
 weight: 31
 ---

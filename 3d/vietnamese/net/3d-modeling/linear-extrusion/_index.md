@@ -4,7 +4,7 @@ description: Học cách sử dụng extrusion với Aspose.3D cho .NET – mộ
   bước giúp bạn nhanh chóng làm chủ các kỹ thuật extrusion tuyến tính.
 linktitle: Linear Extrusion
 second_title: Aspose.3D .NET API
-title: 'Cách sử dụng Đùn: Đùn tuyến tính với Aspose.3D cho .NET'
+title: 'Cách sử dụng Đùn - Đùn tuyến tính với Aspose.3D cho .NET'
 url: /vi/net/3d-modeling/linear-extrusion/
 weight: 31
 ---

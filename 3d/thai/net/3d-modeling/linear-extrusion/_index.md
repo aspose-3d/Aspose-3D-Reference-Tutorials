@@ -3,7 +3,7 @@ date: 2026-03-21
 description: เรียนรู้วิธีใช้การดันรูปกับ Aspose.3D สำหรับ .NET – คู่มือการดันรูปแบบขั้นตอนที่ช่วยให้คุณเชี่ยวชาญเทคนิคการดันรูปเชิงเส้นได้อย่างรวดเร็ว.
 linktitle: Linear Extrusion
 second_title: Aspose.3D .NET API
-title: 'วิธีใช้การดึง: การดึงเชิงเส้นด้วย Aspose.3D สำหรับ .NET'
+title: 'วิธีใช้การดึง - การดึงเชิงเส้นด้วย Aspose.3D สำหรับ .NET'
 url: /th/net/3d-modeling/linear-extrusion/
 weight: 31
 ---
@@ -12,83 +12,87 @@ weight: 31
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Linear Extrusion
+# การอัดขึ้นรูปเชิงเส้น
 
-## บทนำ
+##บทนำ
 
-In this guide, you'll discover **how to use extrusion** to build sophisticated 3D geometry with Aspose.3D for .NET.
+ในคู่มือนี้ คุณจะค้นพบ **วิธีใช้การอัดขึ้นรูป** เพื่อสร้างเรขาคณิต 3 มิติที่ซับซ้อนด้วย Aspose.3D สำหรับ .NET
 
-| สำรวจโลกไดนามิกของ [3D modeling](./center-in-linear-extrusion/) ผ่านบทเรียน Aspose.3D for .NET โดยมุ่งเน้นด้านต่าง ๆ ของ linear extrusion. เชี่ยวชาญศิลปะของการ [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), และการรวม [twist offsets](./twist-offset-in-linear-extrusion/) ในการออกแบบของคุณ. แต่ละบทเรียนเป็นประตูสู่การเปิดมิติใหม่ของความคิดสร้างสรรค์ในกราฟิก 3D. ดำดิ่งสู่โลกที่น่าตื่นตาตื่นใจของ Aspose.3D for .NET และปลดปล่อยจินตนาการของคุณ. |
+| ควบคุมโลกไดนามิกของ [3D modeling](./center-in-linear-extrusion/) ผ่านการเรียนรู้ Aspose.3D for .NET โดยเฉพาะอย่างยิ่งด้านต่างๆ ของ linear extrusion ศิลปะศิลปะของ [centering](./center-in-linear-extrusion/), [directing](./direction-in-linear-extrusion/), [performing](./performing-linear-extrusion/), [slicing](./slices-in-linear-extrusion/), [twisting](./twist-in-linear-extrusion/), และไขมัน [twist offsets](./twist-offset-in-linear-extrusion/) ของคุณ เรียนรู้เป็นประตูสู่มิติใหม่ของความฉลาดในกราฟิก 3D ดำดิ่งสู่โลกที่ Aspose.3D for .NET และในส่วนของคุณ |
 
-## คำตอบสั้น ๆ
-- **What is extrusion?** A 3‑D modeling operation that extends a 2‑D profile along a path to create volume.
-- **Why choose Aspose.3D?** Full .NET support, no external dependencies, and high‑performance geometry processing.
-- **How long does a basic linear extrusion take?** Typically under a second for simple profiles on modern hardware.
-- **Do I need a license?** A trial is available, but a commercial license is required for production use.
-- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+##คำตอบสั้น ๆ
+- **การอัดขึ้นรูปคืออะไร** การสร้างแบบจำลอง 3 มิติที่ขยายโปรไฟล์ 2 มิติไปตามเส้นทางเพื่อสร้างระดับเสียง
+- **เหตุใดจึงเลือก Aspose.3D** รองรับ .NET เต็มรูปแบบ ไม่มีการพึ่งพาภายนอก และการประมวลผลเรขาคณิตประสิทธิภาพสูง
+- **การอัดขึ้นรูปเชิงเส้นพื้นฐานใช้เวลานานเท่าใด** โดยทั่วไปจะใช้เวลาไม่ถึงหนึ่งวินาทีสำหรับโปรไฟล์แบบธรรมดาบนฮาร์ดแวร์สมัยใหม่
+- **ฉันจำเป็นต้องมีใบอนุญาตหรือไม่** มีการทดลองใช้งาน แต่จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการใช้งานจริง
+- **รองรับ .NET เวอร์ชันใดบ้าง** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7
 
-## How to Use Extrusion in Linear Modeling
-Understanding the fundamentals of extrusion helps you decide when and how to apply it in your projects. Whether you’re creating architectural elements, mechanical parts, or artistic shapes, mastering linear extrusion gives you precise control over depth and direction.
+## วิธีการใช้การอัดขึ้นรูปในการสร้างแบบจำลองเชิงเส้น
+การทำความเข้าใจพื้นฐานของการอัดขึ้นรูปจะช่วยให้คุณตัดสินใจได้ว่าจะใช้เมื่อใดและอย่างไรในโครงการของคุณ ไม่ว่าคุณจะสร้างองค์ประกอบทางสถาปัตยกรรม ชิ้นส่วนทางกล หรือรูปทรงทางศิลปะ การเชี่ยวชาญการอัดขึ้นรูปเชิงเส้นจะช่วยให้คุณควบคุมความลึกและทิศทางได้อย่างแม่นยำ
 
-## Center in Linear Extrusion
-Dive into the intricacies of [centering techniques](./center-in-linear-extrusion/) in linear extrusion with Aspose.3D for .NET. Transform your designs, discover the power of precise placement, and infuse your 3D creations with balance and symmetry.
+## การจัดกึ่งกลางในการอัดขึ้นรูปเชิงเส้น
+เจาะลึกรายละเอียดของเทคนิคการจัดกึ่งกลางในการอัดขึ้นรูปเชิงเส้นด้วย Aspose.3D สำหรับ .NET เปลี่ยนแปลงการออกแบบของคุณ ค้นพบพลังของการจัดวางที่แม่นยำ และเติมเต็มความสมดุลและความสมมาตรให้กับผลงานสร้างสรรค์ 3 มิติของคุณ
 
-## Direction in Linear Extrusion
-Embark on a journey to understand the nuances of [directional linear extrusion](./direction-in-linear-extrusion/) with Aspose.3D for .NET. Enhance your creative process, learn to control the flow of your designs, and effortlessly craft immersive applications that stand out.
+## ทิศทางในการอัดขึ้นรูปเชิงเส้น
+เริ่มต้นการเดินทางเพื่อทำความเข้าใจความแตกต่างของการกำหนดทิศทางในการอัดขึ้นรูปเชิงเส้นด้วย Aspose.3D สำหรับ .NET เพิ่มประสิทธิภาพกระบวนการสร้างสรรค์ของคุณ เรียนรู้การควบคุมการไหลของการออกแบบ และสร้างแอปพลิเคชันที่โดดเด่นและน่าประทับใจได้อย่างง่ายดาย
 
-## Performing Linear Extrusion
-Immerse yourself in the world of [3D graphics](./performing-linear-extrusion/) as you follow this step-by-step guide on performing linear extrusion with Aspose.3D for .NET. Uncover the secrets to creating stunning visual effects and bring your projects to life.
 
-## Slices in Linear Extrusion
-Delve into the art of creating intricate [3D models](./slices-in-linear-extrusion/) using slices in linear extrusion with Aspose.3D for .NET. Learn how to add depth and complexity to your designs, making them visually appealing and engaging.
+## การสร้างรูปทรง 3 มิติด้วยการอัดขึ้นรูปเชิงเส้น (Linear Extrusion)
+ดื่มด่ำไปกับโลกแห่งกราฟิก 3 มิติ ด้วยคำแนะนำทีละขั้นตอนเกี่ยวกับการสร้างรูปทรง 3 มิติด้วยการอัดขึ้นรูปเชิงเส้นโดยใช้ Aspose.3D สำหรับ .NET ค้นพบเคล็ดลับในการสร้างเอฟเฟกต์ภาพที่สวยงามและทำให้โปรเจ็กต์ของคุณมีชีวิตชีวา
 
-## Twist in Linear Extrusion
-Explore the captivating world of [3D graphics](./twist-in-linear-extrusion/) with Aspose.3D for .NET. This tutorial takes you through the step-by-step process of incorporating twists in linear extrusion, adding a unique and mesmerizing dimension to your 3D projects.
+## การแบ่งส่วนในการอัดขึ้นรูปเชิงเส้น
+เจาะลึกศิลปะแห่งการสร้างโมเดล 3 มิติที่ซับซ้อนโดยใช้การแบ่งส่วนในการอัดขึ้นรูปเชิงเส้นด้วย Aspose.3D สำหรับ .NET เรียนรู้วิธีเพิ่มความลึกและความซับซ้อนให้กับการออกแบบของคุณ ทำให้ดูน่าสนใจและดึงดูดสายตา
 
-## Twist Offset in Linear Extrusion
-Experience the magic of [Aspose.3D for .NET](./twist-offset-in-linear-extrusion/) with our comprehensive guide on twist offsets in linear extrusion. Elevate your 3D projects effortlessly, creating visually stunning models that leave a lasting impression.
+## การบิดในการอัดขึ้นรูปเชิงเส้น
+สำรวจโลกแห่งกราฟิก 3 มิติที่น่าหลงใหลด้วย Aspose.3D สำหรับ .NET บทช่วยสอนนี้จะพาคุณไปทีละขั้นตอนเกี่ยวกับการใส่การบิดในงานขึ้นรูปเชิงเส้น (Linear Extrusion) ซึ่งจะเพิ่มมิติที่ไม่เหมือนใครและน่าทึ่งให้กับโปรเจ็กต์ 3 มิติของคุณ
 
-## Step by Step Extrusion Guide
-If you’re looking for a **step by step extrusion** workflow, the tutorials below walk you through each stage—from setting up the profile to applying advanced twists and offsets. Follow the sequence that best matches your design goals.
+## การชดเชยการบิดในงานขึ้นรูปเชิงเส้น
+สัมผัสความมหัศจรรย์ของ [Aspose.3D for .NET](./twist-offset-in-linear-extrusion/) ด้วยคู่มือฉบับสมบูรณ์ของเราเกี่ยวกับการชดเชยการบิดในงานขึ้นรูปเชิงเส้น ยกระดับโปรเจ็กต์ 3 มิติของคุณได้อย่างง่ายดาย สร้างโมเดลที่สวยงามตระการตาและสร้างความประทับใจไม่รู้ลืม
 
-## Linear Extrusion Tutorials
-### [Center in Linear Extrusion](./center-in-linear-extrusion/)
-Explore the world of 3D modeling with Aspose.3D for .NET. Center linear extrusion techniques, create stunning designs, and unleash your creativity.
-### [Direction in Linear Extrusion](./direction-in-linear-extrusion/)
-Unlock the world of 3D modeling with Aspose.3D for .NET. Learn direction linear extrusion, boost creativity, and craft immersive applications effortlessly.
-### [Performing Linear Extrusion](./performing-linear-extrusion/)
-Explore the world of 3D graphics with Aspose.3D for .NET. Performing Linear Extrusion in this step-by-step guide.
-### [Slices in Linear Extrusion](./slices-in-linear-extrusion/)
-Explore the world of 3D design with Aspose.3D for .NET. Create stunning models using our linear extrusion tutorial.
-### [Twist in Linear Extrusion](./twist-in-linear-extrusion/)
-Explore the captivating world of 3D graphics with Aspose.3D for .NET. Learn step by step Linear Extrusion with a Twist.
-### [Twist Offset in Linear Extrusion](./twist-offset-in-linear-extrusion/)
-Explore the magic of Aspose.3D for .NET with our step-by-step guide on Twist Offset in Linear Extrusion. Elevate your 3D projects effortlessly.
+## คู่มือการขึ้นรูปทีละขั้นตอน
+หากคุณกำลังมองหาขั้นตอนการทำงานของการขึ้นรูปทีละขั้นตอน บทช่วยสอนด้านล่างจะแนะนำคุณในแต่ละขั้นตอน ตั้งแต่การตั้งค่าโปรไฟล์ไปจนถึงการใช้การบิดและการชดเชยขั้นสูง ทำตามลำดับที่เหมาะสมกับเป้าหมายการออกแบบของคุณมากที่สุด
 
-In each tutorial, Aspose.3D for .NET becomes your guide, unlocking the potential of 3D modeling and providing you with the tools to express your creativity seamlessly. So, dive in, explore, and let your imagination run wild in the world of 3D design!
+## บทเรียนการสร้างโมเดล 3 มิติด้วยการอัดขึ้นรูปเชิงเส้น
+### [การจัดกึ่งกลางในการอัดขึ้นรูปเชิงเส้น](./center-in-linear-extrusion/)
+สำรวจโลกแห่งการสร้างแบบจำลอง 3 มิติด้วย Aspose.3D สำหรับ .NET เรียนรู้เทคนิคการจัดกึ่งกลางในการอัดขึ้นรูปเชิงเส้น สร้างสรรค์งานออกแบบที่สวยงาม และปลดปล่อยความคิดสร้างสรรค์ของคุณ
+### [การกำหนดทิศทางในการอัดขึ้นรูปเชิงเส้น](./direction-in-linear-extrusion/)
+ปลดล็อกโลกแห่งการสร้างแบบจำลอง 3 มิติด้วย Aspose.3D สำหรับ .NET เรียนรู้การกำหนดทิศทางในการอัดขึ้นรูปเชิงเส้น เพิ่มความคิดสร้างสรรค์ และสร้างแอปพลิเคชันที่สมจริงได้อย่างง่ายดาย
 
-## Frequently Asked Questions
+### [การดำเนินการอัดขึ้นรูปเชิงเส้น](./performing-linear-extrusion/)
+สำรวจโลกแห่งกราฟิก 3 มิติด้วย Aspose.3D สำหรับ .NET เรียนรู้การดำเนินการอัดขึ้นรูปเชิงเส้นในคู่มือทีละขั้นตอน
 
-**Q: Can I combine multiple extrusion techniques in a single model?**  
-A: Yes, Aspose.3D lets you chain centering, direction, twist, and offset operations to create complex geometries.
+### [การแบ่งส่วนในการขึ้นรูปเชิงเส้น](./slices-in-linear-extrusion/)
+สำรวจโลกแห่งการออกแบบ 3 มิติด้วย Aspose.3D สำหรับ .NET สร้างโมเดลที่สวยงามโดยใช้บทช่วยสอนการขึ้นรูปเชิงเส้นของเรา
+### [การบิดในการขึ้นรูปเชิงเส้น](./twist-in-linear-extrusion/)
+สำรวจโลกแห่งกราฟิก 3 มิติที่น่าหลงใหลด้วย Aspose.3D สำหรับ .NET เรียนรู้การขึ้นรูปเชิงเส้นแบบบิดทีละขั้นตอน
+### [การชดเชยการบิดในการขึ้นรูปเชิงเส้น](./twist-offset-in-linear-extrusion/)
+สำรวจความมหัศจรรย์ของ Aspose.3D สำหรับ .NET ด้วยคู่มือทีละขั้นตอนของเราเกี่ยวกับการชดเชยการบิดในการขึ้นรูปเชิงเส้น ยกระดับโครงการ 3 มิติของคุณได้อย่างง่ายดาย
 
-**Q: Is there a limit to the number of slices or twists I can apply?**  
-A: Practically, the limit is memory and processing power; the API handles large datasets efficiently.
+ในแต่ละบทเรียน Aspose.3D สำหรับ .NET จะเป็นไกด์นำทางของคุณ ปลดล็อกศักยภาพของการสร้างแบบจำลอง 3 มิติ และมอบเครื่องมือให้คุณแสดงความคิดสร้างสรรค์ได้อย่างราบรื่น ดังนั้น ดำดิ่งสำรวจ และปล่อยให้จินตนาการของคุณโลดแล่นในโลกแห่งการออกแบบ 3 มิติ!
 
-**Q: Do I need to manually calculate the extrusion path?**  
-A: No, the library provides helper methods to define paths and automatically generate the geometry.
+## คำถามที่พบบ่อย
 
-**Q: How do I preview the extrusion before exporting?**  
-A: Use the built‑in scene viewer or export to a common format like OBJ/GLTF for quick inspection.
+**ถาม: ฉันสามารถรวมเทคนิคการอัดขึ้นรูปหลายแบบในแบบจำลองเดียวได้หรือไม่?**
+ตอบ: ได้ Aspose.3D ช่วยให้คุณสามารถเชื่อมโยงการจัดกึ่งกลาง ทิศทาง การบิด และการชดเชย เพื่อสร้างรูปทรงเรขาคณิตที่ซับซ้อนได้
 
-**Q: Are there performance tips for large extrusions?**  
-A: Reuse geometry objects, limit the number of vertices per slice, and enable multi‑threaded processing where possible.
+**ถาม: มีข้อจำกัดเกี่ยวกับจำนวนสไลซ์หรือการบิดที่ฉันสามารถใช้ได้หรือไม่?**
+ตอบ: ในทางปฏิบัติ ข้อจำกัดคือหน่วยความจำและกำลังการประมวลผล API สามารถจัดการชุดข้อมูลขนาดใหญ่ได้อย่างมีประสิทธิภาพ
+
+**ถาม: ฉันต้องคำนวณเส้นทางการอัดขึ้นรูปด้วยตนเองหรือไม่?**
+ตอบ: ไม่จำเป็น ไลบรารีมีเมธอดตัวช่วยในการกำหนดเส้นทางและสร้างรูปทรงเรขาคณิตโดยอัตโนมัติ
+
+
+**ถาม: ฉันจะดูตัวอย่างการขึ้นรูปก่อนส่งออกได้อย่างไร?**
+ตอบ: ใช้โปรแกรมดูฉากในตัว หรือส่งออกเป็นรูปแบบทั่วไป เช่น OBJ/GLTF เพื่อตรวจสอบอย่างรวดเร็ว
+
+**ถาม: มีเคล็ดลับด้านประสิทธิภาพสำหรับการขึ้นรูปขนาดใหญ่หรือไม่?**
+ตอบ: ใช้ซ้ำวัตถุเรขาคณิต จำกัดจำนวนจุดยอดต่อส่วน และเปิดใช้งานการประมวลผลแบบมัลติเธรดเมื่อเป็นไปได้
 
 ---
 
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.3D for .NET (latest release)  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-03-21
+**ทดสอบกับ:** Aspose.3D สำหรับ .NET (เวอร์ชันล่าสุด)
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

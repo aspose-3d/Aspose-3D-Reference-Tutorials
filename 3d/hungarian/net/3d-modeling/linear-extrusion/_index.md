@@ -5,7 +5,7 @@ description: Tanulja meg, hogyan használja az extrudálást az Aspose.3D for .N
   technikákat.
 linktitle: Linear Extrusion
 second_title: Aspose.3D .NET API
-title: 'Hogyan használjuk az extrudálást: lineáris extrudálás az Aspose.3D .NET-hez'
+title: 'Hogyan használjuk az extrudálást - lineáris extrudálás az Aspose.3D .NET-hez'
 url: /hu/net/3d-modeling/linear-extrusion/
 weight: 31
 ---

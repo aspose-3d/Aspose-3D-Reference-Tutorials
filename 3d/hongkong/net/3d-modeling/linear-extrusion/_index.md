@@ -3,7 +3,7 @@ date: 2026-03-21
 description: 學習如何在 Aspose.3D for .NET 中使用擠出功能——一步一步的擠出指南，助您快速掌握線性擠出技術。
 linktitle: Linear Extrusion
 second_title: Aspose.3D .NET API
-title: 如何使用擠出：使用 Aspose.3D for .NET 進行線性擠出
+title: 如何使用擠出 - 使用 Aspose.3D for .NET 進行線性擠出
 url: /zh-hant/net/3d-modeling/linear-extrusion/
 weight: 31
 ---
