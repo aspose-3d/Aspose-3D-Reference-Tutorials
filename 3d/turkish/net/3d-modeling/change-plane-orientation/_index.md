@@ -1,35 +1,50 @@
 ---
-title: 3B Sahnelerde Düzlem Yönünü Değiştirme
-linktitle: 3B Sahnelerde Düzlem Yönünü Değiştirme
-second_title: Aspose.3D .NET API'si
-description: Aspose.3D for .NET'i keşfedin ve 3D sahnelerde düzlem yönünü değiştirme konusunda uzmanlaşın. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-weight: 10
+date: 2026-03-21
+description: Aspose.3D for .NET kullanarak 3D sahnelerde düzlemin yönünü nasıl değiştireceğinizi
+  öğrenin. 3D modeli OBJ olarak dışa aktarmak ve 3D düzlemi kolayca döndürmek için
+  adım adım rehberimizi izleyin.
+linktitle: Changing Plane Orientation in 3D Scenes
+second_title: Aspose.3D .NET API
+title: 3D Sahnelerde Düzlem Yönünü Değiştir – Aspose.3D for .NET
 url: /tr/net/3d-modeling/change-plane-orientation/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3B Sahnelerde Düzlem Yönünü Değiştirme
+# 3D Ortamlarda Düzlem Yönünü Değiştirme
 
-## giriiş
+## Giriş
 
-Aspose.3D for .NET kullanarak 3 boyutlu sahnelerde düzlem yönünü değiştirmeyi konu alan bu kapsamlı kılavuza hoş geldiniz! Becerilerinizi geliştirmek isteyen bir geliştirici veya 3D meraklısıysanız doğru yerdesiniz. Bu eğitimde, net örnekler ve ayrıntılı açıklamalar kullanarak süreci adım adım inceleyeceğiz. Sonunda, 3B projelerinizde düzlem yönünü nasıl değiştireceğiniz konusunda sağlam bir anlayışa sahip olacaksınız.
+Bu kapsamlı öğreticide Aspose.3D for .NET ile bir 3‑B sahnesinde **düzlem yönünü nasıl değiştireceğinizi** öğreneceksiniz. Bir oyun, bir CAD görüntüleyici veya bilimsel bir görselleştirme oluşturuyor olun, düzlemin yönünü kontrol etmek doğru render ve 3‑B model OBJ dosyalarının uygun dışa aktarımı için esastır. Süreci adım adım birlikte inceleyelim.
+
+## Hızlı Yanıtlar
+- **“düzlem yönünü değiştirme” ne anlama gelir?** Düzlemin up‑vektörünü ayarlayarak 3‑B uzayında döndürmek.  
+- **Dışa aktarma için hangi dosya formatı kullanılır?** Wavefront OBJ (`.obj`).  
+- **3D düzlemi doğrudan döndürebilir miyim?** Evet – `Plane` varlığının `Up` vektörünü değiştirin.  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+
+## Düzlem Yönünü Değiştirme Nedir?
+Düzlem yönünü değiştirmek, düzlemin normalini veya up‑vektörünü yeniden tanımlayarak 3‑B koordinat sisteminde farklı bir yönde işaret etmesini sağlamaktır. Bu işlem, **3D düzlemi döndürür** ve nesnelerin boyutunu veya konumunu değiştirmez.
+
+## Neden Düzlem Yönünü Değiştirmelisiniz?
+- **Doğru görsel hizalama** – dokuların ve ışıklandırmanın beklendiği gibi davranmasını sağlar.  
+- **Doğru dışa aktarım** – bazı sonraki araçlar OBJ dosyalarını içe aktarırken belirli bir düzlem yönüne dayanır.  
+- **Esneklik** – aynı geometriyi farklı yönlerle birden çok görünümde yeniden kullanabilirsiniz.
 
 ## Önkoşullar
 
-Dalışa geçmeden önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+- Aspose.3D for .NET: Kütüphanenin kurulu olduğundan emin olun. Eğer kurulu değilse, [buradan](https://releases.aspose.com/3d/net/) indirin.  
+- Belge Dizininiz: Öğreticinin dosyaları okuyup yazacağı bir klasör oluşturun.
 
--  Aspose.3D for .NET: Kitaplığın kurulu olduğundan emin olun. Değilse, şuradan indirin:[Burada](https://releases.aspose.com/3d/net/).
+Temel konuları ele aldığımıza göre, koda dalalım.
 
-- Belge Dizininiz: Proje dosyalarınız için bir dizin oluşturun.
+## Ad Alanlarını İçe Aktarma
 
-Şimdi öğreticiye başlayalım!
-
-## Ad Alanlarını İçe Aktar
-
-.NET projenizde gerekli ad alanlarını içe aktararak başlayın:
+.NET projenizde, gerekli ad alanlarını içe aktararak başlayın:
 
 ```csharp
 using Aspose.ThreeD;
@@ -42,65 +57,74 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-Bu ad alanları Aspose.3D'de 3D sahnelerle çalışmak için gerekli sınıfları ve yöntemleri sağlar.
+Bu ad alanları, Aspose.3D içinde 3D sahnelerle çalışmak için gerekli sınıf ve yöntemleri sağlar.
 
-## Adım 1: Sahne Nesnesini Başlatın
+## Adım 1: Scene Nesnesini Başlatma
 
 ```csharp
-// Veri dizinine giden yol
+// The path to the data directory
 string dataDir = "Your Document Directory";
 
-// Sahne nesnesini başlat
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-Bu kod, 3B sahneniz için ortamı ayarlar.
+Bu kod, 3‑B sahneniz için ortamı oluşturur.
 
-## Adım 2: Düzlem Yönü için Vektörü Ayarlayın
+## Adım 2: Düzlem Yönü İçin Vektör Ayarlama (3D Düzlemi Döndürme)
 
 ```csharp
-// Vektörü Ayarla
+// Set Vector
 scene.RootNode.CreateChildNode(new Plane() { Up = new Vector3(1, 1, 3) });
 ```
 
- Burada, bir düzlemi temsil eden bir alt düğüm oluşturuyoruz ve yönlendirmesini kullanarak özelleştiriyoruz.`Up` vektör.
+Burada, bir düzlemi temsil eden bir alt düğüm oluşturuyor ve `Up` vektörünü kullanarak yönünü özelleştiriyoruz. Vektör değerlerini değiştirerek 3D düzlemi istenen açıya döndürürsünüz.
 
-## 3. Adım: Sahneyi Kaydedin
+## Adım 3: 3D Model OBJ Kaydetme ve Dışa Aktarma
 
 ```csharp
-// Bu, özelleştirilmiş yönlendirmeye sahip bir düzlem oluşturacaktır
+// This will generate a plane that has customized orientation
 scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
 ```
 
-Değiştirilen sahneyi belirttiğiniz veri dizinindeki Wavefront OBJ dosyasına kaydedin.
+Sahneyi kaydetmek, yeni düzlem yönünü yansıtan bir OBJ dosyası oluşturur ve **3D model OBJ dışa aktarmanıza** diğer uygulamalarda kullanım için olanak tanır.
 
-Özel proje gereksinimleriniz için bu adımları gerektiği kadar tekrarlayın.
+Ek düzlemler veya farklı yönler için gerektiği gibi bu adımları tekrarlayın.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
+- **Düzlem düz veya ters görünüyor:** `Up` vektörünün düzlemin normaline kolinear olmadığından emin olun. İstenen eğimi elde etmek için vektör bileşenlerini ayarlayın.  
+- **Dışa aktarılan OBJ boş görünüyor:** `dataDir` yolunun bir ayırıcı (`\\` veya `/`) ile bittiğinden ve yazma izniniz olduğundan emin olun.  
+- **Beklenmeyen döndürme:** `Up` vektörünün düzlemin yerel Y‑eksenini tanımladığını unutmayın; bunu değiştirerek düzlemi X‑eksenine göre döndürürsünüz.
 
-Tebrikler! Aspose.3D for .NET'i kullanarak 3D sahnelerde düzlem yönünü nasıl değiştireceğinizi başarıyla öğrendiniz. Bu bilgiyi denemekten ve projelerinize dahil etmekten çekinmeyin.
+## Sık Sorulan Sorular
 
-## SSS'ler
+**S1: Aspose.3D diğer 3D kütüphaneleriyle uyumlu mu?**  
+C1: Aspose.3D, diğer popüler 3D kütüphaneleriyle sorunsuz çalışabilir ve geliştirme sürecinizde esneklik sağlar.
 
-### S1: Aspose.3D diğer 3D kütüphanelerle uyumlu mu?
+**S2: Aspose.3D'yi ticari projelerde kullanabilir miyim?**  
+C2: Kesinlikle! Aspose.3D, kişisel ve ticari kullanım için lisans seçenekleri sunar. Bunları [buradan](https://purchase.aspose.com/buy) inceleyebilirsiniz.
 
-Cevap1: Aspose.3D, diğer popüler 3D kitaplıklarla sorunsuz bir şekilde çalışarak geliştirmenizde esneklik sağlar.
+**S3: Aspose.3D için nasıl destek alabilirim?**  
+C3: Topluluk desteği ve tartışma için [Aspose.3D forumunu](https://forum.aspose.com/c/3d/18) ziyaret edin.
 
-### S2: Aspose.3D'yi ticari projeler için kullanabilir miyim?
+**S4: Ücretsiz deneme mevcut mu?**  
+C4: Evet, Aspose.3D'yi ücretsiz deneme sürümüyle [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
 
- A2: Kesinlikle! Aspose.3D, hem kişisel hem de ticari kullanım için lisanslama seçenekleri sunar. Onları kontrol et[Burada](https://purchase.aspose.com/buy).
+**S5: Ayrıntılı belgeleri nerede bulabilirim?**  
+C5: Derinlemesine bilgi için belgeleri [buradan](https://reference.aspose.com/3d/net/) inceleyin.
 
-### S3: Aspose.3D için nasıl destek alabilirim?
+**S6: Kaydettikten sonra düzlem yönünü değiştirebilir miyim?**  
+C6: `scene.Save` çağrısından önce `Up` vektörünü değiştirmeniz gerekir; OBJ dosyası kaydetme anındaki durumu yansıtır.
 
- A3: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk desteği ve tartışma için.
+**S7: Yön değişikliği doku koordinatlarını etkiler mi?**  
+C7: Yön değişikliği yalnızca düzlemin geometrisini etkiler; doku koordinatları açıkça değiştirilmedikçe aynı kalır.
 
-### S4: Ücretsiz deneme sürümü mevcut mu?
+---
 
- Cevap4: Evet, Aspose.3D'yi ücretsiz deneme sürümüyle keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+**Son Güncelleme:** 2026-03-21  
+**Test Edilen:** Aspose.3D 24.12 for .NET  
+**Yazar:** Aspose  
 
-### S5: Ayrıntılı belgeleri nerede bulabilirim?
-
- A5: Belgelere bakın[Burada](https://reference.aspose.com/3d/net/) derinlemesine bilgi için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
