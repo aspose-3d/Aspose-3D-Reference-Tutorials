@@ -1,33 +1,41 @@
 ---
-title: 線性擠壓扭轉
-linktitle: 線性擠壓扭轉
+date: 2026-03-23
+description: 學習如何使用 Aspose.3D for .NET 創建帶扭轉的擠出。本逐步指南涵蓋線性擠出扭轉技術。
+linktitle: Twist in Linear Extrusion
 second_title: Aspose.3D .NET API
-description: 使用 Aspose.3D for .NET 探索迷人的 3D 圖形世界。逐步學習帶有扭曲的線性擠壓。
-weight: 14
+title: 如何在直線擠出中製作扭轉擠出
 url: /zh-hant/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 線性擠壓扭轉
+# 如何在線性擠出中創建帶扭轉的擠出
 
-## 介紹
+## 簡介
 
-在不斷發展的 .NET 開發世界中，利用 3D 圖形的力量是一項令人興奮的努力。 Aspose.3D for .NET 成為一個有價值的工具包，使開發人員能夠無縫創建身臨其境且視覺震撼的應用程式。在本綜合指南中，我們將深入研究一個有趣的功能 - 扭曲的線性擠出。本教學將逐步引導您完成整個過程，釋放 Aspose.3D for .NET 的潛力。
+如果您正在開發需要吸睛 3D 視覺效果的 .NET 應用程式，您很快會發現 **如何創建擠出** 是一項基本技能。Aspose.3D for .NET 提供乾淨且高效能的 API，能將簡單的 2‑D 輪廓轉換為精緻的 3‑D 模型——尤其在加入扭轉時更是如此。在本教學中，我們將逐步說明從設定場景到儲存最終 OBJ 檔的每個步驟，讓您親眼見證線性擠出扭轉的威力。
+
+## 快速答覆
+- **主要的擠出類別是什麼？** `LinearExtrusion`
+- **哪個屬性會加入旋轉？** `Twist`
+- **多少切片能產生平滑的結果？** 大約 100 個切片（視需要調整）
+- **我可以使用其他形狀嗎？** 可以，任何 `IProfile`（例如圓形、多邊形或自訂曲線）
+- **範例使用的檔案格式是什麼？** Wavefront OBJ（`.obj`）
 
 ## 先決條件
 
-在我們開始 3D 之旅之前，請確保您具備以下先決條件：
+在開始之前，請確保您已具備以下條件：
 
--  Aspose.3D for .NET：確保您已安裝 Aspose.3D 函式庫。如果沒有的話可以下載[這裡](https://releases.aspose.com/3d/net/).
+- 已安裝 Aspose.3D for .NET。如尚未下載，請點擊 **[此處](https://releases.aspose.com/3d/net/)** 取得。
+- 可正常使用的 .NET 開發環境（Visual Studio、VS Code 或任何您偏好的 IDE）。
+- 具備 C# 語法與物件導向概念的基本認識。
 
-- 基本的 .NET 開發知識：本教學假設您對 .NET 開發有基本的了解。
+## 匯入命名空間
 
-## 導入命名空間：
-
-在任何 .NET 專案中，正確使用命名空間至關重要。首先導入必要的命名空間以有效地利用 Aspose.3D 的功能。這是一個指導您的片段：
+在任何 .NET 專案中，正確使用命名空間至關重要。首先匯入必要的命名空間，以有效利用 Aspose.3D 的功能。以下是示範程式碼片段：
 
 ```csharp
 using Aspose.ThreeD;
@@ -36,94 +44,106 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-現在，讓我們將使用 Aspose.3D for .NET 進行線性擠壓和扭曲的有趣過程分解為易於理解的步驟：
+## 逐步指南
 
-## 第 1 步：初始化基本設定檔
+### 步驟 1：初始化基礎輪廓
+
+我們先定義要擠出的形狀。本例使用帶有小圓角半徑的矩形，以讓邊緣呈現微妙的曲線。
 
 ```csharp
-//初始化要擠出的基礎輪廓
+// Initialize the base profile to be extruded
 var profile = new RectangleShape()
 {
     RoundingRadius = 0.3
 };
 ```
 
-首先設定擠出的基本輪廓。在此範例中，我們使用具有指定圓角半徑的矩形形狀。
+### 步驟 2：建立 3D 場景
 
-## 第 2 步：建立 3D 場景
+`Scene` 物件充當所有 3‑D 實體的畫布。可將其視為擠出的舞台。
 
 ```csharp
-//創建場景
+// Create a scene 
 Scene scene = new Scene();
 ```
 
-建立一個 3D 場景，所有的魔法都將在其中發生。這是我們 3D 傑作的畫布。
+### 步驟 3：新增左側與右側節點
 
-## 第三步：建立左右節點
+節點允許您以階層方式組織物件。我們將建立兩個同層節點——一個用於直線擠出，另一個用於帶扭轉的版本。
 
 ```csharp
-//建立左節點
+// Create left node
 var left = scene.RootNode.CreateChildNode();
-//建立右節點
+// Create right node
 var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(15, 0, 0);
 ```
 
-在場景內產生左節點和右節點。調整左側節點的平移以放置在適當的位置。
+### 步驟 4：在左側節點執行帶扭轉的線性擠出
 
-## 步驟 4：在左節點上執行線性擠壓和扭曲
+`Twist` 屬性控制在擠出過程中輪廓的旋轉量。設定為 **0** 即為傳統的直線擠出。
 
 ```csharp
-//扭曲屬性定義擠壓輪廓時的旋轉程度
-//使用扭曲和切片屬性對左側節點執行線性擠壓
+// Twist property defines the degree of the rotation while extruding the profile
+// Perform linear extrusion on the left node using twist and slices property
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 0, Slices = 100 });
 ```
 
-這就是奇蹟發生的地方。在左側節點上執行線性拉伸，並結合扭曲屬性來定義旋轉程度。調整切片數量以獲得更精細的細節。
+### 步驟 5：在右側節點執行帶扭轉的線性擠出
 
-## 步驟5：在右側節點上執行線性擠壓並扭轉
+現在將同一輪廓套用 90 度的扭轉。這清楚展示了 **線性擠出扭轉** 效果。
 
 ```csharp
-//使用扭曲和切片屬性在右側節點上執行線性擠壓
+// Perform linear extrusion on the right node using twist and slices property
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 
-在右側節點上鏡像該過程，嘗試不同的扭曲值以觀察擠壓的變化。
+### 步驟 6：儲存 3D 場景
 
-## 第 6 步：儲存 3D 場景
+最後，將場景匯出為任何 3‑D 檢視器都能開啟的格式。範例使用 Wavefront OBJ，但 Aspose.3D 亦支援許多其他格式。
 
 ```csharp
-//儲存 3D 場景
+// Save 3D scene
 scene.Save("Your Output Directory" + "TwistInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-最後，將您的 3D 傑作儲存到所需的輸出目錄。依照您的喜好調整檔案名稱。
+## 為什麼使用帶扭轉的線性擠出？
+
+- **快速原型製作：** 將 2‑D 草圖轉換為 3‑D 零件，無需手動建模。
+- **設計彈性：** 調整 `Twist` 值即可產生螺旋、螺旋肋或裝飾特徵。
+- **效能友好：** `Slices` 參數讓您在視覺精細度與執行速度之間取得平衡。
+
+## 常見問題與技巧
+
+- **切片過多：** 雖然 100 個切片看起來平滑，但過高的數值可能會減慢渲染速度。若效能成問題，請測試較低的切片數。
+- **負值扭轉：** 負的 `Twist` 會向相反方向旋轉，適用於鏡像設計。
+- **檔案路徑：** 確保輸出目錄已存在且具有寫入權限，否則 `scene.Save` 會拋出例外。
 
 ## 結論
 
-在本教程中，我們使用 Aspose.3D for .NET 探索了帶有扭曲的線性拉伸的迷人領域。此功能打開了創造可能性的大門，使開發人員能夠輕鬆地將動態視覺元素注入到他們的應用程式中。
+在本教學中，我們示範了如何使用 Aspose.3D for .NET 以帶扭轉的方式 **創建擠出**。透過調整 `Twist` 與 `Slices` 屬性，您可以產生各式形狀，從簡單的扭轉棒到複雜的螺旋結構，只需幾行程式碼。
 
-## 常見問題解答
+## 常見問題
 
-### Q1：我可以將帶有扭曲的線性擠壓應用於其他形狀嗎？
+**Q: 我可以將帶扭轉的線性擠出套用到其他形狀嗎？**  
+A: 當然可以！任何實作 `IProfile` 的類別——例如 `CircleShape`、`PolygonShape` 或自訂樣條曲線——都能以扭轉方式進行擠出。
 
-A1：當然！您可以嘗試矩形以外的各種基本輪廓，從而釋放無數的設計可能性。
+**Q: `Twist` 屬性實際上代表什麼？**  
+A: 它指定在整個擠出長度上，輪廓所旋轉的總角度（以度為單位）。
 
-### Q2：「扭曲」屬性在線性擠出中扮演什麼角色？
+**Q: 增加切片數會影響記憶體使用量嗎？**  
+A: 會的，更多的切片會產生更多的頂點與面，會佔用額外記憶體，且在低階裝置上可能影響效能。
 
-A2：「扭曲」屬性決定了擠出過程中的旋轉程度，影響最終的 3D 形狀。
+**Q: 我可以將線性擠出與其他 Aspose.3D 功能結合使用嗎？**  
+A: 完全可以。擠出後您可以套用材質、貼圖，甚至執行布林運算，以打造更豐富的模型。
 
-### Q3：使用大量切片時是否有效能考量？
+**Q: 我該去哪裡取得協助或與其他開發者討論想法？**  
+A: 加入 Aspose.3D 社群 **[Aspose Forum](https://forum.aspose.com/c/3d/18)**，獲取支援、範例與討論。
 
-A3：雖然更多的切片可以增加細節，但它會影響性能。根據您的應用程式的要求取得平衡。
+**最後更新：** 2026-03-23  
+**測試環境：** Aspose.3D 24.11 for .NET  
+**作者：** Aspose  
 
-### Q4：我可以將線性拉伸與其他 Aspose.3D 功能結合嗎？
-
-A4：當然！ Aspose.3D 提供了一組豐富的功能。您可以隨意將線性拉伸與其他功能結合起來，以實現更複雜的設計。
-
-### Q5：有 Aspose.3D 支持和討論的社群嗎？
-
- A5：是的，加入 Aspose.3D 社群：[Aspose論壇](https://forum.aspose.com/c/3d/18)以獲得支持和參與討論。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

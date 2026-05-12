@@ -1,33 +1,42 @@
 ---
-title: Draai in lineaire extrusie
-linktitle: Draai in lineaire extrusie
-second_title: Aspose.3D .NET-API
-description: Ontdek de boeiende wereld van 3D-graphics met Aspose.3D voor .NET. Leer stap voor stap lineaire extrusie met een twist.
-weight: 14
+date: 2026-03-23
+description: Leer hoe u een extrusie met een draai maakt met Aspose.3D voor .NET.
+  Deze stap‑voor‑stap gids behandelt lineaire extrusie‑draai‑technieken.
+linktitle: Twist in Linear Extrusion
+second_title: Aspose.3D .NET API
+title: Hoe een extrusie met een draai te maken in lineaire extrusie
 url: /nl/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Draai in lineaire extrusie
+# Hoe een Extrusie met een Draai te Maken in Lineaire Extrusie
 
-## Invoering
+## Introductie
 
-In de steeds evoluerende wereld van .NET-ontwikkeling is het benutten van de kracht van 3D-graphics een opwindende onderneming. Aspose.3D voor .NET komt naar voren als een waardevolle toolkit, waarmee ontwikkelaars naadloos meeslepende en visueel verbluffende applicaties kunnen creëren. In deze uitgebreide gids gaan we dieper in op één intrigerende functie: lineaire extrusie met een twist. Deze tutorial begeleidt u stap voor stap door het proces en ontsluit de mogelijkheden van Aspose.3D voor .NET.
+Als je .NET‑applicaties bouwt die opvallende 3D‑visualisaties nodig hebben, ontdek je al snel dat **hoe een extrusie te maken** een fundamentele vaardigheid is. Aspose.3D voor .NET biedt je een nette, high‑performance API om eenvoudige 2‑D‑profielen om te zetten in geavanceerde 3‑D‑modellen — vooral wanneer je er een draai aan toevoegt. In deze tutorial lopen we elke stap door, van het opzetten van de scène tot het opslaan van het uiteindelijke OBJ‑bestand, zodat je de kracht van lineaire extrusie met een draai in actie kunt zien.
+
+## Snelle Antwoorden
+- **Wat is de primaire klasse voor extrusie?** `LinearExtrusion`
+- **Welke eigenschap voegt rotatie toe?** `Twist`
+- **Hoeveel slices geven een glad resultaat?** Ongeveer 100 slices (pas aan indien nodig)
+- **Kan ik andere vormen gebruiken?** Ja, elke `IProfile` zoals cirkels, polygonen of aangepaste curven
+- **Welk bestandsformaat wordt in het voorbeeld gebruikt?** Wavefront OBJ (`.obj`)
 
 ## Vereisten
 
-Voordat we aan deze 3D-reis beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat we beginnen, zorg dat je het volgende hebt:
 
--  Aspose.3D voor .NET: Zorg ervoor dat u de Aspose.3D-bibliotheek hebt geïnstalleerd. Zo niet, dan kunt u deze downloaden[hier](https://releases.aspose.com/3d/net/).
+- Aspose.3D voor .NET geïnstalleerd. Als je het nog niet hebt gedownload, haal het **[hier](https://releases.aspose.com/3d/net/)**.
+- Een werkende .NET‑ontwikkelomgeving (Visual Studio, VS Code of een andere IDE naar keuze).
+- Basiskennis van C#‑syntaxis en object‑georiënteerde concepten.
 
-- Basiskennis van .NET-ontwikkeling: deze tutorial gaat uit van een basiskennis van .NET-ontwikkeling.
+## Namespaces Importeren
 
-## Naamruimten importeren:
-
-In elk .NET-project is het juiste gebruik van naamruimten cruciaal. Begin met het importeren van de benodigde naamruimten om de functionaliteiten van Aspose.3D effectief te benutten. Hier is een fragment om u te begeleiden:
+In elk .NET‑project is het juiste gebruik van namespaces cruciaal. Begin met het importeren van de benodigde namespaces om de functionaliteiten van Aspose.3D effectief te benutten. Hieronder een voorbeeld‑fragment:
 
 ```csharp
 using Aspose.ThreeD;
@@ -36,94 +45,108 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Laten we nu het intrigerende proces van lineaire extrusie met een twist met behulp van Aspose.3D voor .NET opsplitsen in verteerbare stappen:
+## Stapsgewijze Gids
 
-## Stap 1: Initialiseer het basisprofiel
+### Stap 1: Initialiseert het Basisprofiel
+
+We beginnen met het definiëren van de vorm die geëxtrudeerd zal worden. In dit voorbeeld gebruiken we een rechthoek met een kleine afrondingsradius om de randen een subtiele curve te geven.
 
 ```csharp
-// Initialiseer het te extruderen basisprofiel
+// Initialize the base profile to be extruded
 var profile = new RectangleShape()
 {
     RoundingRadius = 0.3
 };
 ```
 
-Begin met het opzetten van het basisprofiel voor extrusie. In dit voorbeeld gebruiken we een rechthoekige vorm met een opgegeven afrondingsradius.
+### Stap 2: Maak een 3D‑Scène
 
-## Stap 2: Maak een 3D-scène
+Een `Scene`‑object fungeert als het canvas waarop alle 3‑D‑entiteiten leven. Beschouw het als het podium voor je extrusie.
 
 ```csharp
-// Creëer een scène
+// Create a scene 
 Scene scene = new Scene();
 ```
 
-Creëer een 3D-scène waar alle magie zal gebeuren. Dit dient als canvas voor ons 3D-meesterwerk.
+### Stap 3: Voeg Links‑ en Rechts‑Nodes toe
 
-## Stap 3: Maak linker- en rechterknooppunten
+Nodes laten je objecten hiërarchisch organiseren. We maken twee sibling‑nodes — één voor een rechte extrusie en een andere voor een gedraaide versie.
 
 ```csharp
-// Maak een linkerknooppunt
+// Create left node
 var left = scene.RootNode.CreateChildNode();
-// Maak het juiste knooppunt
+// Create right node
 var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(15, 0, 0);
 ```
 
-Genereer linker- en rechterknooppunten binnen de scène. Pas de vertaling van het linkerknooppunt aan om het op de juiste manier te positioneren.
+### Stap 4: Voer Lineaire Extrusie met Draai uit op de Linker‑Node
 
-## Stap 4: Voer lineaire extrusie uit met een draai aan het linkerknooppunt
+De `Twist`‑eigenschap bepaalt hoeveel het profiel roteert tijdens het extruderen. Een waarde van **0** geeft een klassieke rechte extrusie.
 
 ```csharp
-// De eigenschap Twist definieert de mate van rotatie tijdens het extruderen van het profiel
-//Voer lineaire extrusie uit op het linkerknooppunt met behulp van de eigenschap Twist and Slices
+// Twist property defines the degree of the rotation while extruding the profile
+// Perform linear extrusion on the left node using twist and slices property
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 0, Slices = 100 });
 ```
 
-Dit is waar de magie gebeurt. Voer lineaire extrusie uit op het linkerknooppunt, waarbij u de twist-eigenschap gebruikt om de mate van rotatie te definiëren. Pas het aantal plakjes aan voor fijnere details.
+### Stap 5: Voer Lineaire Extrusie met Draai uit op de Rechter‑Node
 
-## Stap 5: Voer lineaire extrusie uit met een draai aan de rechterknoop
+Nu passen we een draai van 90 graden toe op hetzelfde profiel. Dit laat het **lineaire extrusie‑draai**‑effect duidelijk zien.
 
 ```csharp
-// Voer lineaire extrusie uit op het rechterknooppunt met behulp van de eigenschap Twist and Slices
+// Perform linear extrusion on the right node using twist and slices property
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 
-Spiegel het proces op het rechter knooppunt en experimenteer met verschillende twistwaarden om de variaties in de extrusie te observeren.
+### Stap 6: Sla de 3D‑Scène op
 
-## Stap 6: Sla de 3D-scène op
+Tot slot exporteren we de scène naar een formaat dat je in elke 3‑D‑viewer kunt bekijken. Het voorbeeld gebruikt Wavefront OBJ, maar Aspose.3D ondersteunt ook vele andere formaten.
 
 ```csharp
-// 3D-scène opslaan
+// Save 3D scene
 scene.Save("Your Output Directory" + "TwistInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-Sla ten slotte uw 3D-meesterwerk op in de gewenste uitvoermap. Pas de bestandsnaam aan volgens uw voorkeur.
+## Waarom Lineaire Extrusie met een Draai Gebruiken?
+
+- **Snelle prototyping:** Zet 2‑D‑schetsen om in 3‑D‑onderdelen zonder handmatig modelleren.
+- **Ontwerpflexibiliteit:** Pas de `Twist`‑waarde aan om spiralen, helicale ribben of decoratieve elementen te creëren.
+- **Prestatiefriendelijk:** De `Slices`‑parameter stelt je in staat om visuele nauwkeurigheid en runtime‑snelheid in balans te brengen.
+
+## Veelvoorkomende Problemen & Tips
+
+- **Te veel slices:** Hoewel 100 slices er glad uitzien, kunnen extreem hoge waarden de weergave vertragen. Test met lagere aantallen als de performance een probleem wordt.
+- **Negatieve twist‑waarden:** Een negatieve `Twist` roteert in de tegenovergestelde richting — handig voor gespiegeld ontwerp.
+- **Bestandspaden:** Zorg dat de output‑map bestaat en dat je schrijfrechten hebt; anders zal `scene.Save` een uitzondering werpen.
 
 ## Conclusie
 
-In deze tutorial hebben we de boeiende wereld van lineaire extrusie met een twist verkend met behulp van Aspose.3D voor .NET. Deze functie opent deuren naar creatieve mogelijkheden, waardoor ontwikkelaars moeiteloos dynamische visuele elementen in hun applicaties kunnen inbrengen.
+In deze tutorial hebben we laten zien **hoe een extrusie te maken** met een draai met behulp van Aspose.3D voor .NET. Door de `Twist`‑ en `Slices`‑eigenschappen aan te passen kun je een breed scala aan vormen genereren, van eenvoudige gedraaide balken tot complexe helicale structuren, allemaal met slechts een paar regels code.
 
-## Veelgestelde vragen
+## Veelgestelde Vragen
 
-### Vraag 1: Kan ik lineaire extrusie met een twist op andere vormen toepassen?
+**Q: Kan ik lineaire extrusie met een draai toepassen op andere vormen?**  
+A: Absoluut! Elke klasse die `IProfile` implementeert — zoals `CircleShape`, `PolygonShape` of een aangepaste spline — kan met een draai geëxtrudeerd worden.
 
-A1: Absoluut! Je kunt experimenteren met verschillende basisprofielen die verder gaan dan rechthoeken, waardoor talloze ontwerpmogelijkheden ontstaan.
+**Q: Wat stelt de `Twist`‑eigenschap precies voor?**  
+A: Het geeft de totale rotatiehoek (in graden) aan die op het profiel wordt toegepast over de extrusielengte.
 
-### Vraag 2: Welke rol speelt de eigenschap 'Twist' bij lineaire extrusie?
+**Q: Heeft het verhogen van het aantal slices invloed op het geheugenverbruik?**  
+A: Ja, meer slices genereren meer vertices en faces, wat extra geheugen verbruikt en de performance op low‑end apparaten kan beïnvloeden.
 
-A2: De eigenschap 'Twist' bepaalt de mate van rotatie tijdens het extrusieproces en beïnvloedt de uiteindelijke 3D-vorm.
+**Q: Kan ik lineaire extrusie combineren met andere Aspose.3D‑functies?**  
+A: Zeker. Je kunt materialen, texturen of zelfs Booleaanse operaties toepassen na de extrusie om nog rijkere modellen te maken.
 
-### Vraag 3: Zijn er prestatieoverwegingen bij het gebruik van een groot aantal plakjes?
+**Q: Waar kan ik hulp krijgen of ideeën bespreken met andere ontwikkelaars?**  
+A: Word lid van de Aspose.3D‑community op **[Aspose Forum](https://forum.aspose.com/c/3d/18)** voor ondersteuning, voorbeelden en discussies.
 
-A3: Hoewel een groter aantal segmenten details toevoegt, kan dit de prestaties beïnvloeden. Zorg voor een balans op basis van de vereisten van uw toepassing.
+---
 
-### V4: Kan ik lineaire extrusie combineren met andere Aspose.3D-functies?
+**Laatst Bijgewerkt:** 2026-03-23  
+**Getest Met:** Aspose.3D 24.11 for .NET  
+**Auteur:** Aspose  
 
-A4: Zeker! Aspose.3D biedt een rijke reeks functies. Combineer Linear Extrusie gerust met andere functionaliteiten voor complexere ontwerpen.
-
-### Vraag 5: Is er een community voor Aspose.3D-ondersteuning en discussies?
-
- A5: Ja, word lid van de Aspose.3D-gemeenschap op[Aspose-forum](https://forum.aspose.com/c/3d/18) voor ondersteuning en boeiende discussies.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,43 @@
 ---
-title: Torsion dans l'extrusion linéaire
-linktitle: Torsion dans l'extrusion linéaire
-second_title: API Aspose.3D .NET
-description: Explorez le monde captivant des graphiques 3D avec Aspose.3D pour .NET. Apprenez étape par étape l'extrusion linéaire avec une torsion.
-weight: 14
+date: 2026-03-23
+description: Apprenez à créer une extrusion avec une torsion en utilisant Aspose.3D
+  pour .NET. Ce guide étape par étape couvre les techniques d'extrusion linéaire avec
+  torsion.
+linktitle: Twist in Linear Extrusion
+second_title: Aspose.3D .NET API
+title: Comment créer une extrusion avec une torsion en extrusion linéaire
 url: /fr/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Torsion dans l'extrusion linéaire
+# Comment créer une extrusion avec une torsion en extrusion linéaire
 
 ## Introduction
 
-Dans le monde en constante évolution du développement .NET, exploiter la puissance des graphiques 3D est une entreprise passionnante. Aspose.3D pour .NET apparaît comme une boîte à outils précieuse, permettant aux développeurs de créer de manière transparente des applications immersives et visuellement époustouflantes. Dans ce guide complet, nous aborderons une fonctionnalité intrigante : l'extrusion linéaire avec une torsion. Ce didacticiel vous guidera pas à pas tout au long du processus, libérant ainsi le potentiel d'Aspose.3D pour .NET.
+Si vous développez des applications .NET qui nécessitent des visuels 3D saisissants, vous découvrirez rapidement que **comment créer une extrusion** est une compétence fondamentale. Aspose.3D for .NET vous offre une API propre et haute performance pour transformer de simples profils 2‑D en modèles 3‑D sophistiqués—surtout lorsque vous ajoutez une torsion. Dans ce tutoriel, nous parcourrons chaque étape, de la configuration de la scène à l’enregistrement du fichier OBJ final, afin que vous puissiez voir la puissance de la torsion d’extrusion linéaire en action.
 
-## Conditions préalables
+## Réponses rapides
+- **Quelle est la classe principale pour l'extrusion ?** `LinearExtrusion`
+- **Quelle propriété ajoute la rotation ?** `Twist`
+- **Combien de tranches donnent un rendu lisse ?** Environ 100 tranches (ajustez selon les besoins)
+- **Puis‑je utiliser d'autres formes ?** Oui, tout `IProfile` tel que des cercles, des polygones ou des courbes personnalisées
+- **Quel format de fichier est utilisé dans l'exemple ?** Wavefront OBJ (`.obj`)
 
-Avant de vous lancer dans ce voyage 3D, assurez-vous d'avoir les conditions préalables suivantes en place :
+## Prérequis
 
--  Aspose.3D pour .NET : assurez-vous d'avoir installé la bibliothèque Aspose.3D. Sinon, vous pouvez le télécharger[ici](https://releases.aspose.com/3d/net/).
+Avant de commencer, assurez‑vous de disposer de :
 
-- Connaissances de base en développement .NET : ce didacticiel suppose une compréhension de base du développement .NET.
+- Aspose.3D for .NET installé. Si vous ne l’avez pas encore téléchargé, obtenez‑le **[ici](https://releases.aspose.com/3d/net/)**.
+- Un environnement de développement .NET fonctionnel (Visual Studio, VS Code ou tout autre IDE de votre choix).
+- Une connaissance de base de la syntaxe C# et des concepts orientés objet.
 
-## Importer des espaces de noms :
+## Importer les espaces de noms
 
-Dans tout projet .NET, la bonne utilisation des espaces de noms est cruciale. Commencez par importer les espaces de noms nécessaires pour exploiter efficacement les fonctionnalités d'Aspose.3D. Voici un extrait pour vous guider :
+Dans tout projet .NET, l’utilisation correcte des espaces de noms est cruciale. Commencez par importer les espaces de noms nécessaires afin de tirer parti des fonctionnalités d’Aspose.3D de manière efficace. Voici un extrait pour vous guider :
 
 ```csharp
 using Aspose.ThreeD;
@@ -36,94 +46,108 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Maintenant, décomposons le processus intrigant de l'extrusion linéaire avec une torsion à l'aide d'Aspose.3D pour .NET en étapes compréhensibles :
+## Guide étape par étape
 
-## Étape 1 : initialiser le profil de base
+### Étape 1 : Initialiser le profil de base
+
+Nous commençons par définir la forme qui sera extrudée. Dans cet exemple, nous utilisons un rectangle avec un petit rayon d’arrondi pour donner aux arêtes une courbe subtile.
 
 ```csharp
-// Initialiser le profil de base à extruder
+// Initialize the base profile to be extruded
 var profile = new RectangleShape()
 {
     RoundingRadius = 0.3
 };
 ```
 
-Commencez par configurer le profil de base pour l'extrusion. Dans cet exemple, nous utilisons une forme rectangulaire avec un rayon d'arrondi spécifié.
+### Étape 2 : Créer une scène 3D
 
-## Étape 2 : Créer une scène 3D
+Un objet `Scene` agit comme la toile où toutes les entités 3‑D résident. Pensez‑y comme à la scène pour votre extrusion.
 
 ```csharp
-// Créer une scène
+// Create a scene 
 Scene scene = new Scene();
 ```
 
-Établissez une scène 3D où toute la magie se produira. Cela sert de toile de fond à notre chef-d’œuvre 3D.
+### Étape 3 : Ajouter les nœuds gauche et droit
 
-## Étape 3 : Créer des nœuds gauche et droit
+Les nœuds vous permettent d’organiser les objets de façon hiérarchique. Nous créerons deux nœuds frères — l’un pour une extrusion droite et l’autre pour une version tordue.
 
 ```csharp
-// Créer le nœud gauche
+// Create left node
 var left = scene.RootNode.CreateChildNode();
-// Créer le bon nœud
+// Create right node
 var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(15, 0, 0);
 ```
 
-Générez des nœuds gauche et droit dans la scène. Ajustez la translation du nœud gauche pour le positionner de manière appropriée.
+### Étape 4 : Effectuer une extrusion linéaire avec torsion sur le nœud gauche
 
-## Étape 4 : Effectuer une extrusion linéaire avec torsion sur le nœud gauche
+La propriété `Twist` contrôle la quantité de rotation du profil pendant l’extrusion. La régler à **0** donne une extrusion droite classique.
 
 ```csharp
-// La propriété Twist définit le degré de rotation lors de l'extrusion du profil
-//Effectuez une extrusion linéaire sur le nœud gauche à l'aide des propriétés twist et slices
+// Twist property defines the degree of the rotation while extruding the profile
+// Perform linear extrusion on the left node using twist and slices property
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 0, Slices = 100 });
 ```
 
-C'est là que la magie opère. Exécutez une extrusion linéaire sur le nœud gauche, en incorporant la propriété twist pour définir le degré de rotation. Ajustez le nombre de tranches pour des détails plus fins.
+### Étape 5 : Effectuer une extrusion linéaire avec torsion sur le nœud droit
 
-## Étape 5 : Effectuer une extrusion linéaire avec torsion sur le nœud droit
+Nous appliquons maintenant une torsion de 90 degrés au même profil. Cela montre clairement l’effet de **torsion d’extrusion linéaire**.
 
 ```csharp
-// Effectuez une extrusion linéaire sur le nœud droit à l'aide des propriétés twist et slices
+// Perform linear extrusion on the right node using twist and slices property
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 
-Reproduisez le processus sur le nœud de droite, en expérimentant différentes valeurs de torsion pour observer les variations de l'extrusion.
+### Étape 6 : Enregistrer la scène 3D
 
-## Étape 6 : Enregistrez la scène 3D
+Enfin, exportez la scène dans un format que vous pouvez visualiser avec n’importe quel visionneur 3‑D. L’exemple utilise Wavefront OBJ, mais Aspose.3D prend en charge de nombreux autres formats.
 
 ```csharp
-// Enregistrer la scène 3D
+// Save 3D scene
 scene.Save("Your Output Directory" + "TwistInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-Enfin, enregistrez votre chef-d'œuvre 3D dans le répertoire de sortie souhaité. Ajustez le nom du fichier selon vos préférences.
+## Pourquoi utiliser l’extrusion linéaire avec une torsion ?
+
+- **Prototypage rapide** : Transformez des croquis 2‑D en pièces 3‑D sans modélisation manuelle.
+- **Flexibilité de conception** : Ajustez la valeur `Twist` pour créer des spirales, des nervures hélicoïdales ou des éléments décoratifs.
+- **Performance optimisée** : Le paramètre `Slices` vous permet d’équilibrer la fidélité visuelle et la vitesse d’exécution.
+
+## Problèmes courants et astuces
+
+- **Trop de tranches** : Bien que 100 tranches offrent une apparence lisse, des valeurs extrêmement élevées peuvent ralentir le rendu. Testez avec des comptes plus faibles si les performances deviennent un problème.
+- **Valeurs de torsion négatives** : Un `Twist` négatif tourne dans le sens opposé—utile pour les conceptions miroir.
+- **Chemins de fichiers** : Assurez‑vous que le répertoire de sortie existe et que vous disposez des droits d’écriture ; sinon, `scene.Save` lèvera une exception.
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons exploré le domaine captivant de l'extrusion linéaire avec torsion à l'aide d'Aspose.3D pour .NET. Cette fonctionnalité ouvre les portes à des possibilités créatives, permettant aux développeurs d'infuser sans effort des éléments visuels dynamiques dans leurs applications.
+Dans ce tutoriel, nous avons montré **comment créer une extrusion** avec une torsion en utilisant Aspose.3D for .NET. En ajustant les propriétés `Twist` et `Slices`, vous pouvez générer une grande variété de formes, des barres tordues simples aux structures hélicoïdales complexes, le tout avec quelques lignes de code seulement.
 
-## FAQ
+## Foire aux questions
 
-### Q1 : Puis-je appliquer l'extrusion linéaire avec une torsion à d'autres formes ?
+**Q : Puis‑je appliquer une extrusion linéaire avec une torsion à d’autres formes ?**  
+R : Absolument ! Toute classe implémentant `IProfile`—comme `CircleShape`, `PolygonShape` ou une spline personnalisée—peut être extrudée avec une torsion.
 
-A1 : Absolument ! Vous pouvez expérimenter différents profils de base au-delà des rectangles, ouvrant ainsi une myriade de possibilités de conception.
+**Q : Que représente réellement la propriété `Twist` ?**  
+R : Elle spécifie l’angle de rotation total (en degrés) appliqué au profil sur toute la longueur de l’extrusion.
 
-### Q2 : Quel rôle la propriété « Torsion » joue-t-elle dans l'extrusion linéaire ?
+**Q : L’augmentation du nombre de tranches affecte‑t‑elle l’utilisation de la mémoire ?**  
+R : Oui, plus de tranches génèrent davantage de sommets et de faces, ce qui consomme plus de mémoire et peut impacter les performances sur des appareils peu puissants.
 
-A2 : La propriété « Twist » détermine le degré de rotation pendant le processus d'extrusion, influençant la forme 3D finale.
+**Q : Puis‑je combiner l’extrusion linéaire avec d’autres fonctionnalités d’Aspose.3D ?**  
+R : Définitivement. Vous pouvez appliquer des matériaux, des textures ou même des opérations booléennes après l’extrusion pour créer des modèles encore plus riches.
 
-### Q3 : Y a-t-il des considérations en matière de performances lors de l'utilisation d'un nombre élevé de tranches ?
+**Q : Où puis‑je obtenir de l’aide ou discuter d’idées avec d’autres développeurs ?**  
+R : Rejoignez la communauté Aspose.3D sur **[Aspose Forum](https://forum.aspose.com/c/3d/18)** pour du support, des exemples et des discussions.
 
-A3 : Même si un nombre plus élevé de tranches ajoute des détails, cela peut avoir un impact sur les performances. Trouvez un équilibre en fonction des exigences de votre application.
+---
 
-### Q4 : Puis-je combiner l'extrusion linéaire avec d'autres fonctionnalités d'Aspose.3D ?
+**Dernière mise à jour :** 2026-03-23  
+**Testé avec :** Aspose.3D 24.11 for .NET  
+**Auteur :** Aspose  
 
-A4 : Certainement ! Aspose.3D offre un riche ensemble de fonctionnalités. N'hésitez pas à combiner l'extrusion linéaire avec d'autres fonctionnalités pour des conceptions plus complexes.
-
-### Q5 : Existe-t-il une communauté pour le support et les discussions sur Aspose.3D ?
-
- A5 : Oui, rejoignez la communauté Aspose.3D sur[Forum Aspose](https://forum.aspose.com/c/3d/18) pour du soutien et des discussions engageantes.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

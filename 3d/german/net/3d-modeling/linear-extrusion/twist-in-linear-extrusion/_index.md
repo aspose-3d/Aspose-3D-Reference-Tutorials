@@ -1,33 +1,43 @@
 ---
-title: Verdrehen in der linearen Extrusion
-linktitle: Verdrehen in der linearen Extrusion
+date: 2026-03-23
+description: Erfahren Sie, wie Sie mit Aspose.3D für .NET eine Extrusion mit einer
+  Drehung erstellen. Dieser Schritt‑für‑Schritt‑Leitfaden behandelt Techniken zur
+  linearen Extrusion‑Drehung.
+linktitle: Twist in Linear Extrusion
 second_title: Aspose.3D .NET API
-description: Entdecken Sie die faszinierende Welt der 3D-Grafik mit Aspose.3D für .NET. Lernen Sie Schritt für Schritt die lineare Extrusion mit einem Twist.
-weight: 14
+title: Wie man eine Extrusion mit einer Drehung in der linearen Extrusion erstellt
 url: /de/net/3d-modeling/linear-extrusion/twist-in-linear-extrusion/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Verdrehen in der linearen Extrusion
+# Wie man eine Extrusion mit einer Drehung bei linearer Extrusion erstellt
 
-## Einführung
+## Einleitung
 
-In der sich ständig weiterentwickelnden Welt der .NET-Entwicklung ist die Nutzung der Leistungsfähigkeit von 3D-Grafiken ein spannendes Unterfangen. Aspose.3D für .NET erweist sich als wertvolles Toolkit, das Entwicklern die nahtlose Erstellung immersiver und visuell beeindruckender Anwendungen ermöglicht. In diesem umfassenden Leitfaden befassen wir uns mit einer faszinierenden Funktion – der linearen Extrusion mit einem Twist. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess und erschließt das Potenzial von Aspose.3D für .NET.
+Wenn Sie .NET‑Anwendungen entwickeln, die auffällige 3D‑Visualisierungen benötigen, werden Sie schnell feststellen, dass **how to create extrusion** eine grundlegende Fähigkeit ist. Aspose.3D für .NET bietet Ihnen eine saubere, hochleistungsfähige API, um einfache 2‑D‑Profile in anspruchsvolle 3‑D‑Modelle zu verwandeln – insbesondere, wenn Sie eine Drehung hinzufügen. In diesem Tutorial führen wir Sie durch jeden Schritt, vom Einrichten der Szene bis zum Speichern der finalen OBJ‑Datei, damit Sie die Kraft der linearen Extrusions‑Drehung in Aktion sehen können.
+
+## Schnelle Antworten
+- **Wie lautet die primäre Klasse für die Extrusion?** `LinearExtrusion`
+- **Welche Eigenschaft fügt die Rotation hinzu?** `Twist`
+- **Wie viele Slices ergeben glatte Ergebnisse?** Etwa 100 Slices (nach Bedarf anpassen)
+- **Kann ich andere Formen verwenden?** Ja, jedes `IProfile` wie Kreise, Polygone oder benutzerdefinierte Kurven
+- **Welches Dateiformat wird im Beispiel verwendet?** Wavefront OBJ (`.obj`)
 
 ## Voraussetzungen
 
-Bevor wir uns auf diese 3D-Reise begeben, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
--  Aspose.3D für .NET: Stellen Sie sicher, dass Sie die Aspose.3D-Bibliothek installiert haben. Wenn nicht, können Sie es herunterladen[Hier](https://releases.aspose.com/3d/net/).
+- Aspose.3D für .NET installiert. Wenn Sie es noch nicht heruntergeladen haben, erhalten Sie es **[hier](https://releases.aspose.com/3d/net/)**.
+- Eine funktionierende .NET‑Entwicklungsumgebung (Visual Studio, VS Code oder ein beliebiges IDE Ihrer Wahl).
+- Grundlegende Kenntnisse der C#‑Syntax und objektorientierter Konzepte.
 
-- Grundlegende .NET-Entwicklungskenntnisse: Dieses Tutorial setzt grundlegende Kenntnisse der .NET-Entwicklung voraus.
+## Namespaces importieren
 
-## Namespaces importieren:
-
-In jedem .NET-Projekt ist die ordnungsgemäße Verwendung von Namespaces von entscheidender Bedeutung. Beginnen Sie mit dem Importieren der erforderlichen Namespaces, um die Funktionen von Aspose.3D effektiv nutzen zu können. Hier ist ein Ausschnitt zur Orientierung:
+In jedem .NET‑Projekt ist die korrekte Verwendung von Namespaces entscheidend. Beginnen Sie damit, die notwendigen Namespaces zu importieren, um die Funktionalitäten von Aspose.3D effektiv zu nutzen. Hier ein Snippet zur Orientierung:
 
 ```csharp
 using Aspose.ThreeD;
@@ -36,94 +46,108 @@ using Aspose.ThreeD.Profiles;
 using Aspose.ThreeD.Utilities;
 ```
 
-Lassen Sie uns nun den faszinierenden Prozess der linearen Extrusion mit einem Twist unter Verwendung von Aspose.3D für .NET in leicht verständliche Schritte unterteilen:
+## Schritt‑für‑Schritt‑Anleitung
 
-## Schritt 1: Initialisieren Sie das Basisprofil
+### Schritt 1: Basisprofil initialisieren
+
+Wir beginnen damit, die Form zu definieren, die extrudiert werden soll. In diesem Beispiel verwenden wir ein Rechteck mit einem kleinen Abrundungsradius, um den Kanten eine dezente Krümmung zu geben.
 
 ```csharp
-// Initialisieren Sie das zu extrudierende Basisprofil
+// Initialize the base profile to be extruded
 var profile = new RectangleShape()
 {
     RoundingRadius = 0.3
 };
 ```
 
-Beginnen Sie mit dem Einrichten des Basisprofils für die Extrusion. In diesem Beispiel verwenden wir eine Rechteckform mit einem angegebenen Rundungsradius.
+### Schritt 2: Eine 3D‑Szene erstellen
 
-## Schritt 2: Erstellen Sie eine 3D-Szene
+Ein `Scene`‑Objekt fungiert als Leinwand, auf der alle 3‑D‑Entitäten leben. Denken Sie daran als die Bühne für Ihre Extrusion.
 
 ```csharp
-// Erstellen Sie eine Szene
+// Create a scene 
 Scene scene = new Scene();
 ```
 
-Erstellen Sie eine 3D-Szene, in der die ganze Magie stattfinden wird. Dies dient als Leinwand für unser 3D-Meisterwerk.
+### Schritt 3: Linke und rechte Knoten hinzufügen
 
-## Schritt 3: Erstellen Sie linke und rechte Knoten
+Knoten ermöglichen es Ihnen, Objekte hierarchisch zu organisieren. Wir erstellen zwei Geschwister‑Knoten – einen für eine gerade Extrusion und einen für eine gedrehte Version.
 
 ```csharp
-// Linken Knoten erstellen
+// Create left node
 var left = scene.RootNode.CreateChildNode();
-// Erstellen Sie den rechten Knoten
+// Create right node
 var right = scene.RootNode.CreateChildNode();
 left.Transform.Translation = new Vector3(15, 0, 0);
 ```
 
-Erzeugen Sie linke und rechte Knoten innerhalb der Szene. Passen Sie die Übersetzung des linken Knotens an, um ihn richtig zu positionieren.
+### Schritt 4: Lineare Extrusion mit Drehung am linken Knoten ausführen
 
-## Schritt 4: Führen Sie eine lineare Extrusion mit Drehung am linken Knoten durch
+Die `Twist`‑Eigenschaft steuert, wie stark das Profil während der Extrusion rotiert. Wird sie auf **0** gesetzt, entsteht eine klassische gerade Extrusion.
 
 ```csharp
-// Die Eigenschaft „Drehung“ definiert den Grad der Drehung beim Extrudieren des Profils
-//Führen Sie eine lineare Extrusion am linken Knoten mithilfe der Eigenschaft „Verdrehen“ und „Scheiben“ durch
+// Twist property defines the degree of the rotation while extruding the profile
+// Perform linear extrusion on the left node using twist and slices property
 left.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 0, Slices = 100 });
 ```
 
-Hier geschieht die Magie. Führen Sie eine lineare Extrusion am linken Knoten aus und integrieren Sie die Drehungseigenschaft, um den Grad der Drehung zu definieren. Passen Sie die Anzahl der Slices an, um feinere Details zu erhalten.
+### Schritt 5: Lineare Extrusion mit Drehung am rechten Knoten ausführen
 
-## Schritt 5: Führen Sie eine lineare Extrusion mit Drehung am rechten Knoten durch
+Jetzt wenden wir eine 90‑Grad‑Drehung auf dasselbe Profil an. Dies demonstriert den **linear extrusion twist**‑Effekt deutlich.
 
 ```csharp
-// Führen Sie eine lineare Extrusion am rechten Knoten mithilfe der Twist- und Slices-Eigenschaft durch
+// Perform linear extrusion on the right node using twist and slices property
 right.CreateChildNode(new LinearExtrusion(profile, 10) { Twist = 90, Slices = 100 });
 ```
 
-Spiegeln Sie den Prozess am rechten Knoten und experimentieren Sie mit verschiedenen Verdrehungswerten, um die Variationen in der Extrusion zu beobachten.
+### Schritt 6: Die 3D‑Szene speichern
 
-## Schritt 6: Speichern Sie die 3D-Szene
+Abschließend exportieren wir die Szene in ein Format, das Sie in jedem 3‑D‑Viewer betrachten können. Das Beispiel verwendet Wavefront OBJ, aber Aspose.3D unterstützt viele weitere Formate.
 
 ```csharp
-// 3D-Szene speichern
+// Save 3D scene
 scene.Save("Your Output Directory" + "TwistInLinearExtrusion.obj", FileFormat.WavefrontOBJ);
 ```
 
-Speichern Sie abschließend Ihr 3D-Meisterwerk im gewünschten Ausgabeverzeichnis. Passen Sie den Dateinamen nach Ihren Wünschen an.
+## Warum lineare Extrusion mit einer Drehung verwenden?
 
-## Abschluss
+- **Schnelles Prototyping:** 2‑D‑Skizzen in 3‑D‑Teile umwandeln, ohne manuelles Modellieren.
+- **Design‑Flexibilität:** Den `Twist`‑Wert anpassen, um Spiralen, helicale Rippen oder dekorative Elemente zu erzeugen.
+- **Performance‑freundlich:** Der `Slices`‑Parameter ermöglicht ein Gleichgewicht zwischen visueller Detailtreue und Laufzeitgeschwindigkeit.
 
-In diesem Tutorial haben wir die faszinierende Welt der linearen Extrusion mit einem Twist mithilfe von Aspose.3D für .NET erkundet. Diese Funktion öffnet Türen zu kreativen Möglichkeiten und ermöglicht es Entwicklern, mühelos dynamische visuelle Elemente in ihre Anwendungen einzubauen.
+## Häufige Probleme & Tipps
 
-## FAQs
+- **Zu viele Slices:** Obwohl 100 Slices glatt aussehen, können extrem hohe Werte das Rendering verlangsamen. Testen Sie niedrigere Werte, falls die Performance ein Problem wird.
+- **Negative Twist‑Werte:** Ein negativer `Twist` dreht in die entgegengesetzte Richtung – nützlich für gespiegelte Designs.
+- **Dateipfade:** Stellen Sie sicher, dass das Ausgabeverzeichnis existiert und Sie Schreibrechte haben; andernfalls wirft `scene.Save` eine Ausnahme.
 
-### F1: Kann ich die lineare Extrusion mit Drehung auf andere Formen anwenden?
+## Fazit
 
-A1: Auf jeden Fall! Sie können mit verschiedenen Basisprofilen über Rechtecke hinaus experimentieren und so eine Vielzahl von Gestaltungsmöglichkeiten erschließen.
+In diesem Tutorial haben wir gezeigt **how to create extrusion** mit einer Drehung mithilfe von Aspose.3D für .NET. Durch Anpassen der `Twist`‑ und `Slices`‑Eigenschaften können Sie eine Vielzahl von Formen erzeugen, von einfachen verdrehten Stäben bis zu komplexen helicalen Strukturen, und das mit nur wenigen Codezeilen.
 
-### F2: Welche Rolle spielt die Eigenschaft „Twist“ bei der linearen Extrusion?
+## Häufig gestellte Fragen
 
-A2: Die Eigenschaft „Twist“ bestimmt den Grad der Drehung während des Extrusionsprozesses und beeinflusst die endgültige 3D-Form.
+**Q: Kann ich lineare Extrusion mit einer Drehung auf andere Formen anwenden?**  
+A: Absolut! Jede Klasse, die `IProfile` implementiert – wie `CircleShape`, `PolygonShape` oder eine benutzerdefinierte Spline – kann mit einer Drehung extrudiert werden.
 
-### F3: Gibt es Leistungsaspekte bei der Verwendung einer großen Anzahl von Slices?
+**Q: Was stellt die `Twist`‑Eigenschaft tatsächlich dar?**  
+A: Sie gibt den Gesamtdrehwinkel (in Grad) an, der über die Extrusionslänge auf das Profil angewendet wird.
 
-A3: Eine höhere Anzahl an Slices fügt zwar mehr Details hinzu, kann sich jedoch auf die Leistung auswirken. Finden Sie eine Balance basierend auf den Anforderungen Ihrer Anwendung.
+**Q: Wird das Erhöhen der Anzahl von Slices den Speicherverbrauch beeinflussen?**  
+A: Ja, mehr Slices erzeugen mehr Vertices und Faces, was zusätzlichen Speicher verbraucht und die Performance auf Low‑End‑Geräten beeinträchtigen kann.
 
-### F4: Kann ich lineare Extrusion mit anderen Aspose.3D-Funktionen kombinieren?
+**Q: Kann ich lineare Extrusion mit anderen Aspose.3D‑Funktionen kombinieren?**  
+A: Definitiv. Sie können nach der Extrusion Materialien, Texturen oder sogar Boolesche Operationen anwenden, um noch reichhaltigere Modelle zu erstellen.
 
-A4: Auf jeden Fall! Aspose.3D bietet zahlreiche Funktionen. Für komplexere Designs können Sie Linear Extrusion gerne mit anderen Funktionen kombinieren.
+**Q: Wo kann ich Hilfe erhalten oder Ideen mit anderen Entwicklern diskutieren?**  
+A: Treten Sie der Aspose.3D‑Community im **[Aspose Forum](https://forum.aspose.com/c/3d/18)** bei für Support, Beispiele und Diskussionen.
 
-### F5: Gibt es eine Community für Aspose.3D-Support und Diskussionen?
+---
 
- A5: Ja, treten Sie der Aspose.3D-Community bei[Aspose-Forum](https://forum.aspose.com/c/3d/18) für die Unterstützung und die spannenden Diskussionen.
+**Last Updated:** 2026-03-23  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
