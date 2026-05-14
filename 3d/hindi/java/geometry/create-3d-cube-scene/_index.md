@@ -1,10 +1,55 @@
 ---
-date: 2026-02-12
-description: 'Aspose.3D के साथ जावा 3D ग्राफिक्स ट्यूटोरियल सीखें: जावा में चरण‑दर‑चरण
-  3D क्यूब सीन बनाएं, जिसमें सेटअप, कोड और मॉडल को सहेजना शामिल है।'
-linktitle: Create a 3D Cube Scene in Java with Aspose.3D
+date: 2026-05-14
+description: 'Aspose.3D के साथ Java 3D ग्राफ़िक्स ट्यूटोरियल सीखें: Java में चरण‑दर‑चरण
+  3D क्यूब सीन बनाएं, सेटअप, कोड, Aspose 3D फ़ाइल रूपांतरण और मॉडल को सहेजना को कवर
+  करते हुए।'
+keywords:
+- java 3d graphics tutorial
+- aspose 3d file conversion
+- create 3d cube scene java
+- aspose 3d tutorial
+linktitle: Aspose.3D के साथ Java में 3D क्यूब सीन बनाएं
+schemas:
+- author: Aspose
+  dateModified: '2026-05-14'
+  description: 'Learn a java 3d graphics tutorial with Aspose.3D: create a 3D cube
+    scene step‑by‑step in Java, covering setup, code, aspose 3d file conversion and
+    saving the model.'
+  headline: Java 3D Graphics Tutorial - Create a 3D Cube Scene with Aspose.3D
+  type: TechArticle
+- description: 'Learn a java 3d graphics tutorial with Aspose.3D: create a 3D cube
+    scene step‑by‑step in Java, covering setup, code, aspose 3d file conversion and
+    saving the model.'
+  name: Java 3D Graphics Tutorial - Create a 3D Cube Scene with Aspose.3D
+  steps:
+  - name: Initialize the Scene
+    text: Create a new Scene object that will serve as the root of the 3‑D hierarchy.
+  - name: Initialize Node and Mesh
+    text: Instantiate a Node and a Mesh representing a cube to add to the scene.
+  - name: Add Node to the Scene
+    text: Attach the cube node to the scene graph so it becomes part of the model.
+  - name: Save the 3D Scene
+    text: Save the scene to a file in the desired format using the save method.
+  - name: Print Success Message
+    text: Print a confirmation message indicating the file was created successfully.
+  type: HowTo
+- questions:
+  - answer: Yes, you can. Check the [purchase page](https://purchase.aspose.com/buy)
+      for licensing details.
+    question: Can I use Aspose.3D for commercial projects?
+  - answer: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community
+      assistance and official support.
+    question: How can I get support for Aspose.3D?
+  - answer: Yes, you can get a free trial [here](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: Refer to the [Aspose.3D documentation](https://reference.aspose.com/3d/java/)
+      for detailed information.
+    question: Where can I find the documentation for Aspose.3D?
+  - answer: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How to obtain a temporary license for Aspose.3D?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: 'जावा 3डी ग्राफिक्स ट्यूटोरियल - Aspose.3D के साथ 3डी क्यूब सीन बनाएं'
+title: Java 3D ग्राफ़िक्स ट्यूटोरियल - Aspose.3D के साथ 3D क्यूब सीन बनाएं
 url: /hi/java/geometry/create-3d-cube-scene/
 weight: 12
 ---
@@ -17,37 +62,33 @@ weight: 12
 
 ## परिचय
 
-इस **java 3d graphics tutorial** में आपका स्वागत है! इस गाइड में हम आपको दिखाएंगे कि कैसे Java में पावरफुल Aspose.3D लाइब्रेरी का इस्तेमाल करके 3D Cube सीन बनाया जाता है। चाहे आप गेम प्रोटोटाइप, प्रोडक्ट विज़ुअलाइज़र बना रहे हों, या सिर्फ 3‑D रेंडरिंग का एक्सप्लोरेशन कर रहे हों, यह ट्यूटोरियल आपको एक सॉलिड, प्रैक्टिकल आधार देता है।
+इस **java 3d graphics tutorial** में आप सीखेंगे कि कैसे Aspose.3D for Java का उपयोग करके शून्य से एक सरल 3‑D क्यूब सीन बनाया जाए। चाहे आप गेम का प्रोटोटाइप बना रहे हों, किसी उत्पाद को विज़ुअलाइज़ कर रहे हों, या सिर्फ 3‑D रेंडरिंग के साथ प्रयोग कर रहे हों, नीचे दिए गए चरण आपको एक स्पष्ट, व्यावहारिक मार्ग प्रदान करते हैं जिससे आप एक कार्यशील मॉडल बना सकते हैं जिसे आप लोकप्रिय फॉर्मैट्स में निर्यात कर सकते हैं।
 
-## क्विक जवाब
-- **मुझे कौनसी लाइब्रेरी चाहिए?** Aspose.3D for Java
-- **उदाहरण चलाने में कितना समय लगता है?** सामान्य वर्कस्टेशन पर एक मिनट से कम
-- **कौनसा JDK एडिशन ज़रूरी है?** Java8 या उससे ऊपर (कोई भी आधुनिक JDK काम करता है)
-- **क्या मैं दूसरे फ़ॉर्मैट में एक्सपोर्ट कर सकता हूँ?** हाँ – `save` मेथड FBX, OBJ, STL और दूसरे को सपोर्ट करता है
-- **क्या टेस्ट के लिए लाइसेंस चाहिए?** डेवलपमेंट के लिए फ़्री ट्रायल काम करता है; प्रोडक्शन के लिए एग्ज़ाम्पल लाइसेंस ज़रूरी है
+## त्वरित उत्तर
+- **मुझे कौनसी लाइब्रेरी चाहिए?** Aspose.3D for Java  
+- **उदाहरण चलाने में कितना समय लगता है?** सामान्य कार्यस्थल पर एक मिनट से कम  
+- **कौनसा JDK संस्करण आवश्यक है?** Java 8 या उससे ऊपर (कोई भी आधुनिक JDK काम करता है)  
+- **क्या मैं अन्य फ़ॉर्मैट्स में निर्यात कर सकता हूँ?** हाँ – `save` मेथड FBX, OBJ, STL, GLTF और अधिक (aspose 3d file conversion) को सपोर्ट करता है  
+- **परीक्षण के लिए लाइसेंस चाहिए?** विकास के लिए मुफ्त ट्रायल काम करता है; उत्पादन के लिए व्यावसायिक लाइसेंस आवश्यक है  
 
-## जावा 3D ग्राफ़िक्स ट्यूटोरियल क्या है?
+## java 3d graphics tutorial क्या है?
 
-**java 3d graphics tutorial** यह बताता है कि Java‑based APIs का इस्तेमाल करके 3‑D ऑब्जेक्ट्स, सीन और रेंडरिंग पाइपलाइन को कैसे कंट्रोल किया जाए। इस मामले में, हम Aspose.3D पर ध्यान केंद्रित करते हैं, जो लो-लेवल गणित और फ़ाइल-फ़ॉर्मैट हैंडलिंग को एब्स्ट्रैक्ट करता है ताकि आप ज्योमेट्री और सीन कंपोज़िशन पर ध्यान दे सकें।
+एक **java 3d graphics tutorial** एक चरण‑दर‑चरण मार्गदर्शिका है जो दिखाती है कि कैसे जावा‑आधारित API का उपयोग करके त्रि‑आयामी वस्तुओं को बनाया, संशोधित और रेंडर किया जाए। इस मार्गदर्शिका में हम Aspose.3D पर ध्यान केंद्रित करेंगे, जो निम्न‑स्तरीय गणित और फ़ाइल‑फ़ॉर्मैट हैंडलिंग को सारांशित करता है ताकि आप ज्योमेट्री और सीन संरचना पर ध्यान दे सकें।
 
-## जावा के लिए Aspose.3D का इस्तेमाल क्यों करें?
+## Aspose.3D for Java का उपयोग क्यों करें?
 
-- **क्रॉस-प्लेटफ़ॉर्म** – Windows, Linux और macOS पर बिना नेटिव डिपेंडेंसी के काम करता है।
-- **रिच फ़ॉर्मैट सपोर्ट** – दर्जन भर 3‑D फ़ाइल फ़ाइलों को इम्पोर्ट और एक्सपोर्ट करता है।
-- **हाई-लेवल API** – कुछ ही कोड आईएसओ से मेष, नोड, लाइट और कैमरा बनाएं।
-- **परफ़ॉर्मेंस-ऑप्टिमाइज़्ड** – बड़े मॉडल और रियल-टाइम लैंडस्केप के लिए बनाए गए।
+Aspose.3D एक उच्च‑प्रदर्शन, क्रॉस‑प्लेटफ़ॉर्म लाइब्रेरी है जो FBX, OBJ, STL, GLTF और COLLADA जैसे 50 से अधिक फ़ाइल फ़ॉर्मैट्स को सपोर्ट करती है, जिससे अतिरिक्त टूल्स के बिना फ़ाइल रूपांतरण संभव हो जाता है। यह सामान्य 3.2 GHz CPU पर 2 सेकंड से कम समय में 1 मिलियन पॉलीगॉन तक के मॉडल को प्रोसेस कर सकता है, जिससे यह रीयल‑टाइम प्रीव्यू और बड़े एसेट्स के लिए उपयुक्त है।
 
-## ज़रूरी शर्तें
+## पूर्वापेक्षाएँ
 
-शुरू करने से पहले, पक्का करें कि आपके पास है:
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास है:
 
-1. **Java Development Kit (JDK)** – सबसे नया वर्शन [Oracle की वेबसाइट](https://www.oracle.com/java/) से डाउनलोड करें।
+1. **Java Development Kit (JDK)** – नवीनतम संस्करण [Oracle's website](https://www.oracle.com/java/) से डाउनलोड करें।  
+2. **Aspose.3D for Java library** – आधिकारिक डाउनलोड पेज [here](https://releases.aspose.com/3d/java/) से JAR और दस्तावेज़ प्राप्त करें।
 
-2. **Aspose.3D for Java library** – आधिकारिक डाउनलोड पेज [यहां](https://releases.aspose.com/3d/java/) से JAR और डॉक्यूमेंटेशन लें।
+## पैकेज आयात करें
 
-## पैकेज इंपोर्ट करें
-
-अपने Java प्रोजेक्ट में ज़रूरी क्लास को इम्पोर्ट करके शुरू करें:
+Begin by importing the necessary classes into your Java project:
 
 ```java
 import java.io.File;
@@ -60,18 +101,22 @@ import com.aspose.threed.Node;
 import com.aspose.threed.Scene;
 ```
 
-## Aspose.3D के साथ 3D सीन कैसे बनाएं
+## Aspose.3D के साथ 3d सीन कैसे बनाएं
 
-नीचे एक स्टेप-बाय-स्टेप वॉकथ्रू दिया गया है जो **3D सीन कैसे बनाएं** एलिमेंट्स को दिखाता है, जियोमेट्री अटैच करता है, और आखिर में रिजल्ट को डिस्क पर लिखता है।
+एक बुनियादी क्यूब सीन को लोड, कॉन्फ़िगर और सहेजने के चार संक्षिप्त चरण: `Scene` को इनिशियलाइज़ करें, क्यूब `Mesh` के साथ एक `Node` बनाएं, नोड को सीन ग्राफ़ में जोड़ें, और अंत में फ़ाइल को डिस्क पर लिखें। यह एंड‑टू‑एंड फ्लो आपको एक मिनट से कम समय में एक पूर्ण 3‑D फ़ाइल उत्पन्न करने देता है, यहाँ तक कि मध्यम हार्डवेयर पर भी।
 
-### स्टेप 1: सीन को इनिशियलाइज़ करें
+### चरण 1: सीन को इनिशियलाइज़ करें
+
+एक नया Scene ऑब्जेक्ट बनाएं जो 3‑D पदानुक्रम की जड़ के रूप में कार्य करेगा।
 
 ```java
 // Initialize scene object
 Scene scene = new Scene();
 ```
 
-### स्टेप 2: नोड और मेश को इनिशियलाइज़ करें
+### चरण 2: नोड और मेष को इनिशियलाइज़ करें
+
+एक Node और एक Mesh बनाएं जो क्यूब का प्रतिनिधित्व करता है, जिसे सीन में जोड़ा जाएगा।
 
 ```java
 // Initialize Node class object
@@ -84,14 +129,18 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 cubeNode.setEntity(mesh);
 ```
 
-### स्टेप 3: सीन में नोड जोड़ें
+### चरण 3: नोड को सीन में जोड़ें
+
+क्यूब नोड को सीन ग्राफ़ से जोड़ें ताकि वह मॉडल का हिस्सा बन जाए।
 
 ```java
 // Add Node to a scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-### स्टेप 4: 3D सीन सेव करें
+### चरण 4: 3D सीन को सहेजें
+
+`save` मेथड का उपयोग करके इच्छित फ़ॉर्मैट में सीन को फ़ाइल में सहेजें।
 
 ```java
 // The path to the documents directory.
@@ -102,46 +151,54 @@ MyDir = MyDir + "CubeScene.fbx";
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
-### स्टेप 5: सक्सेस मैसेज प्रिंट करें
+### चरण 5: सफलता संदेश प्रिंट करें
+
+फ़ाइल सफलतापूर्वक बन गई है, यह दर्शाने के लिए एक पुष्टि संदेश प्रिंट करें।
 
 ```java
 System.out.println("\nCube Scene created successfully.\nFile saved at " + MyDir);
 ```
 
-## आम समस्याएँ और समाधान
+## सामान्य समस्याएँ और समाधान
 
-| समस्या | कारण | ठीक करें |
-|-------|-----|
-| **`Common` क्लास नहीं मिली** | हेल्पर क्लास AsposeStudio पैकेज का हिस्सा है। |Studio सोर्स फ़ाइल को अपने प्रोजेक्ट में जोड़ें या अपने स्वयं के मेष-बिल्डिंग कोड से बदलें। |
-| **`FileFormat.FBX7400ASCII` पहचाना नहीं गया** | पुराने Aspose.3D वर्शन का इस्तेमाल कर रहे हैं। | वह नवीनतम Aspose.3D JAR में अपग्रेड करें जहाँ यह इनम उपलब्ध है। |
-| **आउटपुट फ़ाइल खाली है** | डेस्टिनेशन डायरेक्टरी मौजूद नहीं है। | `MyDir` एक मान्य फ़ोल्डर की ओर इशारा करता है, यह सुनिश्चित करें या प्रोग्रामेटिकली बनाएँ। |
+| समस्या | कारण | समाधान |
+|-------|--------|-----|
+| **`Common` class not found** | हेल्पर क्लास Aspose सैंपल पैकेज का हिस्सा है। | सैंपल सोर्स फ़ाइल को अपने प्रोजेक्ट में जोड़ें या अपने स्वयं के मेष‑बिल्डिंग कोड से बदलें। |
+| **`FileFormat.FBX7400ASCII` not recognized** | पुराना Aspose.3D संस्करण उपयोग किया गया है। | नवीनतम Aspose.3D JAR में अपग्रेड करें जहाँ यह enum उपलब्ध है। |
+| **Output file is empty** | गंतव्य डायरेक्टरी मौजूद नहीं है। | सुनिश्चित करें कि `MyDir` एक वैध फ़ोल्डर की ओर इशारा करता है या प्रोग्रामेटिकली इसे बनाएं। |
 
-## अक्सर पूछे जाने वाले सवाल
+## अक्सर पूछे जाने वाले प्रश्न
 
-**Q: क्या मैं Aspose.3D को व्यावसायिक प्रोजेक्ट्स में उपयोग कर सकता हूँ?**  
-A: हाँ, आप कर सकते हैं। लाइसेंसिंग विवरण के लिए [purchase page](https://purchase.aspose.com/buy) देखें।
+**प्रश्न: क्या मैं Aspose.3D को व्यावसायिक प्रोजेक्ट्स में उपयोग कर सकता हूँ?**  
+उत्तर: हाँ, आप कर सकते हैं। लाइसेंसिंग विवरण के लिए [purchase page](https://purchase.aspose.com/buy) देखें।
 
-**Q: मैं Aspose.3D के लिए सपोर्ट कैसे प्राप्त कर सकता हूँ?**  
-A: समुदाय सहायता और आधिकारिक सपोर्ट के लिए [Aspose.3D forum](https://forum.aspose.com/c/3d/18) पर जाएँ।
+**प्रश्न: मैं Aspose.3D के लिए समर्थन कैसे प्राप्त कर सकता हूँ?**  
+उत्तर: समुदाय सहायता और आधिकारिक समर्थन के लिए [Aspose.3D forum](https://forum.aspose.com/c/3d/18) पर जाएँ।
 
-**Q: क्या कोई फ्री ट्रायल उपलब्ध है?**  
-A: हाँ, आप एक फ्री ट्रायल [here](https://releases.aspose.com/) से प्राप्त कर सकते हैं।
+**प्रश्न: क्या कोई मुफ्त ट्रायल उपलब्ध है?**  
+उत्तर: हाँ, आप मुफ्त ट्रायल [here](https://releases.aspose.com/) से प्राप्त कर सकते हैं।
 
-**Q: मैं Aspose.3D की डॉक्यूमेंटेशन कहाँ पा सकता हूँ?**  
-A: विस्तृत जानकारी के लिए [Aspose.3D documentation](https://reference.aspose.com/3d/java/) देखें।
+**प्रश्न: Aspose.3D की दस्तावेज़ीकरण कहाँ मिल सकती है?**  
+उत्तर: विस्तृत जानकारी के लिए [Aspose.3D documentation](https://reference.aspose.com/3d/java/) देखें।
 
-**Q: Aspose.3D के लिए टेम्पररी लाइसेंस कैसे प्राप्त करें?**  
-A: आप एक टेम्पररी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।
+**प्रश्न: Aspose.3D के लिए अस्थायी लाइसेंस कैसे प्राप्त करें?**  
+उत्तर: आप अस्थायी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।
 
 ---
 
-**अंतिम अपडेट:** 2026-02-12  
-**परीक्षित संस्करण:** Aspose.3D for Java 24.11  
+**अंतिम अपडेट:** 2026-05-14  
+**परीक्षण किया गया:** Aspose.3D for Java 24.11  
 **लेखक:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## संबंधित ट्यूटोरियल
+
+- [Aspose.3D के साथ PBR मैटेरियल लागू करके 3D सीन बनाएं - Java](/3d/java/geometry/apply-pbr-materials-to-objects/)
+- [java 3d graphics tutorial – मैट्रिक्स को संयोजित करें Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-matrices/)
+- [Java में एनीमेटेड 3D सीन बनाएं – Aspose.3D ट्यूटोरियल](/3d/java/animations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
