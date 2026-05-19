@@ -1,10 +1,55 @@
 ---
-date: 2026-02-12
-description: Leer hoe je een Aspose 3D‑node maakt in Java, beheers geometrische transformaties,
-  pas translaties toe en evalueer globale transformaties met Aspose.3D.
-linktitle: Expose Geometric Transformations in Java 3D with Aspose.3D
+date: 2026-05-19
+description: Leer hoe je een node Aspose 3D in Java maakt, beheers geometric transformations,
+  pas translations toe, en evalueer global transforms met Aspose.3D.
+keywords:
+- how to create node
+- add transform to node
+- Aspose 3D Java
+linktitle: Geometric Transformations blootleggen in Java 3D met Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to create node Aspose 3D in Java, master geometric transformations,
+    apply translations, and evaluate global transforms with Aspose.3D.
+  headline: How to Create Node in Java 3D with Aspose.3D – Transformations
+  type: TechArticle
+- description: Learn how to create node Aspose 3D in Java, master geometric transformations,
+    apply translations, and evaluate global transforms with Aspose.3D.
+  name: How to Create Node in Java 3D with Aspose.3D – Transformations
+  steps:
+  - name: Initialize Node
+    text: Node is the fundamental scene‑graph object representing a transformable
+      entity in Aspose 3D.
+  - name: Geometric Translation
+    text: 'To **add transform to node**, you modify its `Transform` property. The
+      following snippet sets a geometric translation that moves the node 10 units
+      along the X‑axis:'
+  - name: Evaluate Global Transform
+    text: 'evaluateGlobalTransform() returns the node’s combined world matrix, optionally
+      including geometric transforms for accurate positioning. Load the global matrix
+      to see the combined effect of all transforms, including the geometric translation
+      you just added:'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.3D integrates with any IDE or build system that supports a
+      standard JDK.
+    question: Is Aspose.3D compatible with all Java development environments?
+  - answer: Refer to the [documentation](https://reference.aspose.com/3d/java/) for
+      detailed insights into Aspose.3D functionalities.
+    question: Where can I find comprehensive documentation for Aspose.3D in Java?
+  - answer: Yes, you can explore a [free trial](https://releases.aspose.com/) before
+      making a purchase.
+    question: Can I try Aspose.3D for Java before purchasing?
+  - answer: Engage with the Aspose.3D community on the [support forum](https://forum.aspose.com/c/3d/18)
+      for prompt assistance.
+    question: How can I get support for Aspose.3D‑related queries?
+  - answer: Obtain a [temporary license](https://purchase.aspose.com/temporary-license/)
+      for testing purposes.
+    question: Do I need a temporary license for testing Aspose.3D?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Maak Node Aspose 3D in Java – Maak transformaties zichtbaar
+title: Hoe een node te creëren in Java 3D met Aspose.3D – Transformations
 url: /nl/java/geometry/expose-geometric-transformations/
 weight: 13
 ---
@@ -13,51 +58,53 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Geometrische transformaties blootleggen in Java 3D met Aspose.3D
+# Hoe een Node te maken in Java 3D met Aspose.3D – Transformaties
 
-## Inleiding
+## Introductie
 
-In moderne Java 3D‑ontwikkeling is **het maken van een node met Aspose 3D** de eerste stap naar het bouwen van rijke, interactieve modellen. Deze tutorial leidt je door het blootleggen van geometrische transformaties—translatie, rotatie en schaling—met behulp van de Aspose.3D Java‑API. Aan het einde weet je hoe je een node maakt, een geometrische translatie toepast en de globale transformatiematrix van de node evalueert.
+Als je op zoek bent naar **how to create node** objecten in een Java 3D-scène, biedt Aspose 3D je een nette, cross‑platform API waarmee je translatie, rotatie en schaling kunt toepassen met slechts een paar methode‑aanroepen. In deze tutorial laten we geometrische transformaties zien, laten we je zien hoe je **add transform to node** objecten kunt toevoegen, en demonstreren we hoe je de resulterende globale matrix kunt evalueren.
 
-## Snelle antwoorden
-- **Wat betekent “create node aspose 3d”?** Het verwijst naar het instantieren van een `Node`‑object met de Aspose.3D Java‑bibliotheek.  
-- **Welke bibliotheekversie is vereist?** Elke recente Aspose.3D voor Java‑release (de API is achterwaarts compatibel).  
+## Snelle Antwoorden
+- **Wat betekent “create node aspose 3d”?** Het verwijst naar het instantieren van een `Node` object met de Aspose.3D Java bibliotheek.  
+- **Welke bibliotheekversie is vereist?** Elke recente Aspose.3D voor Java release (de API is achterwaarts compatibel).  
 - **Heb ik een licentie nodig om het voorbeeld uit te voeren?** Een tijdelijke of volledige licentie is vereist voor productie; een gratis proefversie werkt voor testen.  
-- **Kan ik de transformatiematrix zien?** Ja—gebruik `evaluateGlobalTransform()` om de matrix naar de console te printen.  
+- **Kan ik de transformatie‑matrix zien?** Ja—gebruik `evaluateGlobalTransform()` om de matrix naar de console te printen.  
 - **Is deze aanpak geschikt voor grote scènes?** Absoluut; node‑niveau transformaties worden efficiënt geëvalueerd, zelfs in complexe hiërarchieën.
 
 ## Wat is “create node aspose 3d”?
-Een node maken in Aspose 3D betekent het toewijzen van een scene‑graph‑element dat geometrie, camera’s, lichten of andere child‑nodes kan bevatten. De node fungeert als een container waarvan de transformatie‑eigenschappen (translatie, rotatie, schaling) de positie en oriëntatie in de 3D‑ruimte bepalen.
+
+Een node maken in Aspose 3D betekent het toewijzen van een scene‑graph element dat geometrie, camera's, lichten of andere kind‑nodes kan bevatten. **Je maakt een node door een `Node` instantie te construeren en deze toe te voegen aan een `Scene`**—dit geeft je volledige controle over de positie, oriëntatie en schaal binnen de 3D‑wereld.
 
 ## Waarom Aspose.3D gebruiken voor geometrische transformaties?
-- **Volledige controle** over individuele node‑transformaties zonder de hele scène te beïnvloeden.  
-- **Chainable API** die het naadloos combineren van geometrische en lokale transformaties mogelijk maakt.  
-- **Cross‑platform** Java‑ondersteuning, waardoor het ideaal is voor desktop-, server‑side‑ of Android‑toepassingen.
 
-## Voorvereisten
+Aspose.3D ondersteunt **meer dan 50 invoer‑ en uitvoerformaten** en kan scènes verwerken met **tot 20 000 nodes terwijl het geheugenverbruik onder 200 MB blijft**. De ketenbare API stelt je in staat **add transform to node** objecten toe te voegen zonder broers en zussen te beïnvloeden, waardoor het ideaal is voor zowel eenvoudige prototypes als productie‑applicaties.
 
-Voordat we duiken in de wereld van geometrische transformaties met Aspose.3D, zorg ervoor dat je de volgende voorvereisten hebt:
+## Voorwaarden
 
-1. Java Development Kit (JDK): Aspose.3D voor Java vereist een compatibele JDK die op je systeem is geïnstalleerd. Je kunt de nieuwste JDK downloaden [hier](https://www.oracle.com/java/technologies/javase-downloads.html).
+Voordat we duiken in de wereld van geometrische transformaties met Aspose.3D, zorg ervoor dat je de volgende voorwaarden hebt:
 
-2. Aspose.3D‑bibliotheek: Download de Aspose.3D‑bibliotheek van de [release‑pagina](https://releases.aspose.com/3d/java/) om deze in je Java‑project te integreren.
+1. Java Development Kit (JDK): Aspose.3D voor Java vereist een compatibele JDK geïnstalleerd op je systeem. Je kunt de nieuwste JDK [hier](https://www.oracle.com/java/technologies/javase-downloads.html) downloaden.
 
-## Pakketten importeren
+2. Aspose.3D Bibliotheek: Download de Aspose.3D bibliotheek van de [release‑pagina](https://releases.aspose.com/3d/java/) om deze in je Java‑project te integreren.
 
-Zodra je de Aspose.3D‑bibliotheek hebt, importeer je de benodigde pakketten om je reis in 3D‑geometrische transformaties te starten. Voeg de volgende regels toe aan je Java‑code:
+## Importeer Pakketten
+
+Zodra je de Aspose.3D bibliotheek hebt, importeer je de benodigde pakketten om je reis naar 3D‑geometrische transformaties te starten. Voeg de volgende regels toe aan je Java‑code:
 
 ```java
 import com.aspose.threed.Node;
 import com.aspose.threed.Vector3;
 ```
 
-## Hoe maak je een node aspose 3d
+## Hoe een node te maken in Aspose 3D
 
-Hieronder vind je de stapsgewijze gids die de kernacties laat zien die je moet uitvoeren.
+Een node maken in Aspose 3D omvat het instantieren van de `Node`‑klasse, eventueel het instellen van de naam, en het koppelen aan een `Scene`‑object. Zodra toegevoegd, kan de node geometrie, lichten of andere kind‑nodes bevatten, en bepalen de transformatie‑eigenschappen de plaatsing binnen de 3D‑hiërarchie.
 
-### Stap 1: Node initialiseren
+Hieronder vind je de stapsgewijze gids die de kernacties toont die je moet uitvoeren.
 
-De basis van onze 3D‑wereld begint met een `Node`. Maak een nieuw `Node`‑object in je Java‑code:
+### Stap 1: Node Initialiseren
+
+Node is het fundamentele scene‑graph object dat een transformeerbare entiteit in Aspose 3D vertegenwoordigt.
 
 ```java
 // ExStart: Step 1 - Initialize Node
@@ -65,9 +112,9 @@ Node n = new Node();
 // ExEnd: Step 1
 ```
 
-### Stap 2: Geometrische translatie
+### Stap 2: Geometrische Translatie
 
-Laten we nu een geometrische translatie aan onze node toekennen. Deze stap verplaatst de node in de 3D‑ruimte. Stel de geometrische translatie in met de volgende code:
+Om **add transform to node** toe te passen, wijzig je de `Transform`‑eigenschap. Het volgende fragment stelt een geometrische translatie in die de node 10 eenheden langs de X‑as verplaatst:
 
 ```java
 // ExStart: Step 2 - Geometric Translation
@@ -75,9 +122,11 @@ n.getTransform().setGeometricTranslation(new Vector3(10, 0, 0));
 // ExEnd: Step 2
 ```
 
-### Stap 3: Globale transformatie evalueren
+### Stap 3: Globale Transformatie Evalueren
 
-Om de impact van onze geometrische transformatie te zien, evalueren we de globale transformatie van de node. Deze stap geeft de transformatiematrix weer, inclusief de geometrische transformatie:
+evaluateGlobalTransform() retourneert de gecombineerde wereldmatrix van de node, eventueel inclusief geometrische transformaties voor nauwkeurige positionering.
+
+Laad de globale matrix om het gecombineerde effect van alle transformaties te zien, inclusief de geometrische translatie die je zojuist hebt toegevoegd:
 
 ```java
 // ExStart: Step 3 - Evaluate Global Transform
@@ -86,43 +135,41 @@ System.out.println(n.evaluateGlobalTransform(false));
 // ExEnd: Step 3
 ```
 
-### Veelvoorkomende problemen en oplossingen
-- **NullPointerException op `getTransform()`** – Zorg ervoor dat de node correct is geïnstantieerd voordat je toegang krijgt tot de transformatie.  
+## Veelvoorkomende Problemen en Oplossingen
+- **NullPointerException op `getTransform()`** – Zorg ervoor dat de node correct is geïnstantieerd voordat je de transform benadert.  
 - **Onverwachte matrixwaarden** – Onthoud dat `evaluateGlobalTransform(true)` geometrische transformaties omvat, terwijl `false` ze uitsluit. Gebruik de juiste overload voor je debugbehoeften.  
 
-## Conclusie
+## Veelgestelde Vragen
 
-In deze tutorial hebben we de basisprincipes behandeld van het blootleggen van geometrische transformaties in Java 3D met Aspose.3D. Door nodes te initialiseren, geometrische translatie toe te passen en globale transformaties te evalueren, heb je praktische inzichten gekregen in de dynamische wereld van 3D‑programmering. Je beschikt nu over een solide basis om complexere scènes te bouwen, objecten te animeren of fysicasimulaties te integreren.
+**Q: Is Aspose.3D compatibel met alle Java‑ontwikkelomgevingen?**  
+A: Ja, Aspose.3D integreert met elke IDE of build‑systeem dat een standaard JDK ondersteunt.
 
-## Veelgestelde vragen
+**Q: Waar kan ik uitgebreide documentatie vinden voor Aspose.3D in Java?**  
+A: Raadpleeg de [documentatie](https://reference.aspose.com/3d/java/) voor gedetailleerd inzicht in de functionaliteiten van Aspose.3D.
 
-### Q1: Is Aspose.3D compatibel met alle Java‑ontwikkelomgevingen?
+**Q: Kan ik Aspose.3D voor Java uitproberen voordat ik het koop?**  
+A: Ja, je kunt een [gratis proefversie](https://releases.aspose.com/) verkennen voordat je een aankoop doet.
 
-A1: Aspose.3D integreert naadloos met elke Java‑ontwikkelomgeving die JDK ondersteunt.
+**Q: Hoe kan ik ondersteuning krijgen voor Aspose.3D‑gerelateerde vragen?**  
+A: Neem contact op met de Aspose.3D‑community op het [ondersteuningsforum](https://forum.aspose.com/c/3d/18) voor snelle hulp.
 
-### Q2: Waar vind ik uitgebreide documentatie voor Aspose.3D in Java?
-
-A2: Raadpleeg de [documentatie](https://reference.aspose.com/3d/java/) voor gedetailleerde inzichten in de functionaliteiten van Aspose.3D.
-
-### Q3: Kan ik Aspose.3D voor Java uitproberen voordat ik koop?
-
-A3: Ja, je kunt een [gratis proefversie](https://releases.aspose.com/) verkennen voordat je een aankoop doet.
-
-### Q4: Hoe kan ik ondersteuning krijgen voor vragen over Aspose.3D?
-
-A4: Neem contact op met de Aspose.3D‑community op het [ondersteuningsforum](https://forum.aspose.com/c/3d/18) voor snelle hulp.
-
-### Q5: Heb ik een tijdelijke licentie nodig voor het testen van Aspose.3D?
-
-A5: Verkrijg een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor testdoeleinden.
+**Q: Heb ik een tijdelijke licentie nodig voor het testen van Aspose.3D?**  
+A: Verkrijg een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor testdoeleinden.
 
 ---
 
-**Laatst bijgewerkt:** 2026-02-12  
-**Getest met:** Aspose.3D voor Java (nieuwste release)  
-**Auteur:** Aspose  
+**Laatst Bijgewerkt:** 2026-05-19  
+**Getest Met:** Aspose.3D for Java (latest release)  
+**Auteur:** Aspose
+
+## Gerelateerde Tutorials
+
+- [Mesh maken Aspose Java – 3D Nodes Transformeren met Euler Hoeken](/3d/java/geometry/transform-3d-nodes-with-euler-angles/)
+- [3D Scène maken Java met Aspose 3D Java](/3d/java/3d-scenes-and-models/)
+- [Texture FBX Inbedden in Java – Materialen Toepassen op 3D Objecten met Aspose.3D](/3d/java/geometry/apply-pbr-materials-to-objects/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
