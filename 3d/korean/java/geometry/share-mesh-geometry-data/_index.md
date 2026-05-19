@@ -1,10 +1,40 @@
 ---
-date: 2026-02-17
-description: Aspose.3D를 사용하여 Java 3D에서 재질 색상을 설정하고 메쉬 기하학 데이터를 공유하면서 메쉬를 FBX로 변환하는
-  방법을 배웁니다.
-linktitle: Convert Mesh to FBX and Set Material Color in Java 3D
+date: 2026-05-19
+description: Aspose.3D를 사용하여 Java 3D에서 mesh를 FBX로 변환하면서 material color를 설정하고 mesh
+  geometry 데이터를 공유하는 방법을 배웁니다.
+keywords:
+- convert mesh to fbx
+- how to export fbx
+- how to set material
+- export mesh to fbx
+- aspose 3d tutorial
+linktitle: Java 3D에서 mesh를 FBX로 변환하고 material color를 설정하기
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to convert mesh to FBX while setting material color and sharing
+    mesh geometry data in Java 3D using Aspose.3D.
+  headline: Convert Mesh to FBX and Set Material Color in Java 3D
+  type: TechArticle
+- questions:
+  - answer: Yes, the shared mesh can be animated via skeletal rigs or morph targets
+      while each node retains its own material.
+    question: Can I reuse the same mesh for animated characters?
+  - answer: Absolutely, Aspose.3D writes full UV data, so textures map correctly in
+      downstream tools.
+    question: Does the FBX export preserve UV coordinates?
+  - answer: The library can stream meshes exceeding 2 GB without loading the entire
+      file into memory, making it suitable for large scenes.
+    question: What is the maximum file size Aspose.3D can handle?
+  - answer: Pass a different `FileFormat` enum value, such as `FileFormat.FBX201400ASCII`,
+      to `scene.save`.
+    question: How do I change the FBX version?
+  - answer: Yes, you can create a new `Scene`, add the desired nodes, and then save
+      that scene to FBX.
+    question: Is it possible to export only a subset of nodes?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: 메시를 FBX로 변환하고 Java 3D에서 재질 색상 설정
+title: Java 3D에서 mesh를 FBX로 변환하고 material color를 설정하기
 url: /ko/java/geometry/share-mesh-geometry-data/
 weight: 15
 ---
@@ -13,45 +43,45 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java 3D에서 Mesh를 FBX로 변환하고 재질 색상 설정하기
+# Mesh를 FBX로 변환하고 Java 3D에서 재질 색상 설정
 
 ## 소개
 
-Java 기반 3D 인력을 개발할 때, 여러 가지 경우에서 동등한 지오메트리를 다시 찾고 있기 때문에 고유한 가족을 부여받는 것을 요구합니다. 이 튜토리얼에서는 **메쉬를 FBX로 변환하는 방법**, 여러 개의 동일한 메시 지오메트리를 공유하도록 하는 방법, 그리고 **각각마다 다른 재질 색상을 설정하는 방법**을 배웁니다. 최종적으로는 어떤 엔진이나 메모에도 바로 사용할 수 있는 FBX 플래쉬를 내보낼 수 있게 되었습니다.
+Java 기반 3D 애플리케이션을 구축하고 있다면, 동일한 지오메트리를 여러 객체에서 재사용하면서 각 인스턴스에 고유한 외관을 부여해야 할 경우가 많습니다. 이 튜토리얼에서는 **mesh를 FBX로 변환하는 방법**, 여러 노드 간에 기본 mesh 지오메트리를 공유하는 방법, 그리고 **각 노드마다 다른 재질 색상을 설정하는 방법**을 배웁니다. 최종적으로는 엔진이나 뷰어에 바로 넣을 수 있는 내보내기 준비가 된 FBX 씬을 얻게 됩니다.
 
 ## 빠른 답변
-- **주요 목표는 무엇입니까?** Mesh를 FBX로 변환하고, 메쉬 지오메트리를 공유하며, 각 각마다 달라지는 재질 색상을 설정합니다.
-- **어떤 라이브러리가 필요합니까?** Java용 Aspose.3D.
-- **결과를 어떻게 내보낼 수 있나요?** `FileFormat.FBX7400ASCII`를 출력하여 FBX 파일로 생성합니다.
-- **라이센스가 필요합니까? **권력을 사용하기 위해 권한을 부여하는 능력이 필요합니다.
-- **어떤 Java 버전이 작동하나요?** Java8이면 모두 동작합니다.
+- **주요 목표는 무엇인가요?** Mesh를 FBX로 변환하고, mesh 지오메트리를 공유하며, 각 노드에 고유한 재질 색상을 설정합니다.  
+- **필요한 라이브러리는?** Java용 Aspose.3D.  
+- **결과를 어떻게 내보내나요?** `FileFormat.FBX7400ASCII`를 사용하여 씬을 FBX 파일로 저장합니다.  
+- **라이선스가 필요한가요?** 프로덕션 사용을 위해 임시 또는 정식 라이선스가 필요합니다.  
+- **지원되는 Java 버전은?** Java 8 이상 환경이면 모두 사용 가능합니다.
 
-## **메시를 FBX로 변환**이란 무엇인가요?
+## **convert mesh to FBX**란 무엇인가요?
 
-'메시를 fbx로 변환'은 메모리에서 생성하거나 연결한 메쉬를 FBX 파일 형식으로 기록하는 과정을 말합니다. FBX에는 Maya, Blender, Unity 등 다양한 3D툴 등이 지원됩니다. Aspose.3D가 복잡한 작업을 처리해 주려면 적절한 `FileFormat`을 지정해 `scene.save(...)`만 호출하면 됩니다.
+mesh를 FBX로 변환한다는 것은 메모리에 존재하는 mesh 객체를 FBX 파일 형식으로 기록하는 것을 의미합니다. FBX는 Maya, Blender, Unity 및 기타 많은 3D 도구에서 지원되는 사실상의 표준 포맷입니다. Aspose.3D가 복잡한 작업을 수행하므로, 적절한 `FileFormat`을 지정하여 `scene.save(...)`만 호출하면 됩니다.
 
-## 메쉬 지오메트리 데이터를 공유하는 이유는 무엇입니까?
+## 왜 mesh 지오메트리 데이터를 공유하나요?
 
-지오메트리를 공유하면 메모리 변환이 가능하고 속도가 향상될 것입니다. 기본 버텍스 검색이 한 번만 생성되기 쉽습니다. 이 독립은 숲, 따르며, 모듈식을 따라 계속되는 것이 존재하는 파편에 있고, 각받침은 변형되거나 재료만 다르게 적용됩니다.
+지오메트리를 공유하면 기본 버텍스 버퍼가 한 번만 저장되므로 메모리 사용량이 감소하고 렌더링 속도가 빨라집니다. 이 기법은 숲, 군중, 모듈식 건축물 등 다수의 중복 객체가 있는 씬에 이상적이며, 각 인스턴스는 변환이나 재질만 다르게 적용됩니다.
 
-## 전제 조건
+## 사전 요구 사항
 
-튜토리얼 진행을 하기 전에 아래 항목을 준비하세요:
+튜토리얼을 시작하기 전에 다음 사전 요구 사항이 준비되어 있는지 확인하세요:
 
-- **Java 개발 환경** – Java8이 불편 IDE 또는 라인 환경에 적합합니다.
-- **Aspose.3D 라이브러리** – 공식 사이트에서 최신 JAR 파일을 다운로드합니다: [여기](https://releases.aspose.com/3d/java/).
+- **Java 개발 환경** – Java 8 이상을 지원하는 IDE 또는 커맨드라인 환경.  
+- **Aspose.3D 라이브러리** – 공식 사이트에서 최신 JAR를 다운로드하세요: [here](https://releases.aspose.com/3d/java/).
 
 ## 패키지 가져오기
 
-프로젝트에 필요한 패키지를 import합니다. Aspose.3D 라이브러리의 기능을 사용하려면 반드시 이 단계가 필요합니다.
+`com.aspose.threed` 네임스페이스에는 씬, mesh, 재질을 구축하는 데 필요한 모든 클래스가 포함되어 있습니다. Java 파일 상단에 해당 패키지를 import하여 컴파일러가 타입을 인식하도록 합니다.
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## 1단계: 장면 객체 초기화 (initialize scene java)
+## 1단계: Scene 객체 초기화 (initialize scene java)
 
-먼저 씬 객체를 초기화합니다. 이 객체가 3D 작업의 캔버스 역할을 합니다.
+`Scene` 클래스는 Aspose.3D의 최상위 컨테이너로, 전체 3D 세계를 나타냅니다. `Scene`을 초기화하면 mesh, 조명, 카메라 등을 추가할 수 있는 빈 캔버스를 얻게 됩니다.
 
 ```java
 // Initialize scene object
@@ -60,7 +90,8 @@ Scene scene = new Scene();
 
 ## 2단계: 색상 벡터 정의
 
-다음으로, 씬의 다양한 요소에 적용할 색상 벡터 배열을 정의합니다.
+`Vector3`는 위치, 방향 또는 색상 등에 사용되는 3요소 벡터(X, Y, Z)를 나타냅니다.  
+RGB 값을 담은 `Vector3` 객체 배열을 생성합니다. 각 벡터는 이후 개별 노드에 할당되어 각 인스턴스마다 고유한 재질 색조를 갖게 됩니다.
 
 ```java
 // Define color vectors
@@ -71,18 +102,19 @@ Vector3[] colors = new Vector3[] {
 };
 ```
 
-## 3단계: 폴리곤 빌더를 사용하여 3D 메시 생성 (create 3d mesh java)
+## 3단계: Polygon Builder를 사용해 3D Mesh 생성 (create 3d mesh java)
 
-Common 클래스를 활용해 폴리곤 빌더 방식으로 메쉬를 생성합니다. 이 메쉬가 3D 요소들의 기반이 됩니다.
+`PolygonBuilder` 클래스를 사용하면 정점과 면을 직접 정의하여 mesh를 구성할 수 있습니다. 이 mesh는 모든 노드에서 재사용되어 지오메트리 공유가 실제로 어떻게 동작하는지 보여줍니다.
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-## 각 노드의 재질 색상은 어떻게 설정하나요?
+## 각 노드에 재질 색상을 설정하는 방법은?
 
-색상 벡터를 순회하면서 큐브 노드를 생성하고, 재질, **set material color**, 변환 등을 설정합니다. 각 메쉬 인스턴스의 시각적 모습을 제어하는 핵심 단계입니다.
+`LambertMaterial`은 mesh의 확산 색상을 정의하는 간단한 재질 타입입니다.  
+색상 벡터를 순회하면서 각 항목마다 큐브 노드를 생성하고, 현재 색상으로 새로운 `LambertMaterial`을 할당한 뒤, 변환 행렬을 사용해 노드 위치를 지정합니다. 이 패턴을 통해 모든 노드는 동일한 기본 mesh를 참조하면서도 고유한 색상을 표시합니다.
 
 ```java
 int idx = 0;
@@ -102,9 +134,9 @@ for(Vector3 color : colors) {
 }
 ```
 
-## 5단계: 3D 장면 저장 (save scene fbx, convert mesh to fbx)
+## 5단계: 3D 씬 저장 (save scene fbx, convert mesh to fbx)
 
-지원되는 파일 형식(FBX7400ASCII)으로 3D 씬을 저장할 디렉터리와 파일명을 지정합니다. 이 단계에서 **convert mesh to FBX**가 수행됩니다.
+지원되는 파일 형식(FBX7400ASCII)으로 3D 씬을 저장할 디렉터리와 파일명을 지정합니다. 이 단계는 공유 지오메트리 씬을 디스크에 저장함으로써 **mesh를 FBX로 변환**하는 과정을 보여줍니다.
 
 ```java
 // The path to the documents directory.
@@ -115,43 +147,67 @@ MyDir = MyDir + "MeshGeometryData.fbx";
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
-## 일반적인 문제점 및 팁
+## 흔히 발생하는 문제 및 팁
 
-- **Path Issues** – 파일명을 붙이기 전에 디렉터리 경로가 파일 구분자(`/` 또는 `\\`)로 끝나는지 확인하세요.  
-- **License Initialization** – `scene.save` 호출 전에 Aspose.3D 라이선스를 설정하지 않으면 체험 모드로 동작하며 워터마크가 삽입될 수 있습니다.  
-- **Material Overwrites** – 동일한 `LambertMaterial` 인스턴스를 여러 노드에 재사용하면 모든 노드가 같은 색을 공유하게 됩니다. 반복문마다 새로운 재질을 생성하세요.  
-- **Large Meshes** – 수백만 정점의 메쉬는 `MeshBuilder`와 인덱스 폴리곤을 사용해 FBX 파일 크기를 최소화하는 것이 좋습니다.
+- **경로 문제** – 파일명을 추가하기 전에 디렉터리 경로가 파일 구분자(`/` 또는 `\\`)로 끝나는지 확인하세요.  
+- **라이선스 초기화** – `scene.save` 호출 전에 Aspose.3D 라이선스를 설정하지 않으면 라이브러리가 체험 모드로 동작하며 워터마크가 삽입될 수 있습니다.  
+- **재질 덮어쓰기** – 여러 노드에서 동일한 `LambertMaterial` 인스턴스를 재사용하면 모든 노드가 같은 색상을 공유합니다. 위 예시처럼 각 반복마다 새로운 재질을 생성하세요.  
+- **대형 Mesh** – 수백만 개의 정점을 가진 mesh의 경우, 인덱스 폴리곤을 사용하는 `MeshBuilder`를 고려하여 FBX 파일 크기를 적절히 유지하세요.
 
 ## 추가 자주 묻는 질문
 
-**Q1: ​​Aspose.3D를 다른 Java 프레임워크와 함께 사용할 수 있나요?**
-A1: 네, Aspose.3D는 다양한 Java 프레임워크와 원활하게 연동되도록 설계되었습니다.
+**Q1: Aspose.3D를 다른 Java 프레임워크와 함께 사용할 수 있나요?**  
+A1: 네, Aspose.3D는 다양한 Java 프레임워크와 원활하게 작동하도록 설계되었습니다.
 
-**Q2: Aspose.3D 라이선스 옵션이 있나요?**
-A2: 네, [여기](https://purchase.aspose.com/buy)에서 라이선스 옵션을 확인하실 수 있습니다.
+**Q2: Aspose.3D에 대한 라이선스 옵션이 있나요?**  
+A2: 네, 라이선스 옵션은 [here](https://purchase.aspose.com/buy)에서 확인할 수 있습니다.
 
-**Q3: Aspose.3D 지원은 어떻게 받을 수 있나요?**
-A3: 지원 및 토론을 위해 Aspose.3D [포럼](https://forum.aspose.com/c/3d/18)을 방문하세요.
+**Q3: Aspose.3D 지원을 어떻게 받을 수 있나요?**  
+A3: 지원 및 토론을 위해 Aspose.3D [forum](https://forum.aspose.com/c/3d/18)을 방문하세요.
 
-**Q4: 무료 체험판을 이용할 수 있나요?**
-A4: 네, [여기](https://releases.aspose.com/)에서 무료 체험판을 이용하실 수 있습니다.
+**Q4: 무료 체험판이 있나요?**  
+A4: 네, 무료 체험판은 [here](https://releases.aspose.com/)에서 받을 수 있습니다.
 
-**Q5: Aspose.3D에 대한 임시 라이선스를 어떻게 얻나요?**
-A5: 임시 라이선스는 [여기](https://purchase.aspose.com/temporary-license/)에서 받으실 수 있습니다.
+**Q5: Aspose.3D 임시 라이선스를 어떻게 얻나요?**  
+A5: 임시 라이선스는 [here](https://purchase.aspose.com/temporary-license/)에서 받을 수 있습니다.
+
+## 자주 묻는 질문
+
+**Q: 동일한 mesh를 애니메이션 캐릭터에 재사용할 수 있나요?**  
+A: 네, 공유된 mesh는 스켈레톤 리그나 모프 타깃을 통해 애니메이션이 가능하며, 각 노드는 자체 재질을 유지합니다.
+
+**Q: FBX 내보내기가 UV 좌표를 보존하나요?**  
+A: 물론입니다. Aspose.3D는 전체 UV 데이터를 기록하므로 텍스처가 다운스트림 툴에서 올바르게 매핑됩니다.
+
+**Q: Aspose.3D가 처리할 수 있는 최대 파일 크기는 얼마인가요?**  
+A: 이 라이브러리는 전체 파일을 메모리에 로드하지 않고 2 GB를 초과하는 mesh도 스트리밍할 수 있어 대형 씬에 적합합니다.
+
+**Q: FBX 버전을 어떻게 변경하나요?**  
+A: `scene.save`에 `FileFormat.FBX201400ASCII`와 같은 다른 `FileFormat` enum 값을 전달하면 됩니다.
+
+**Q: 노드의 일부만 내보낼 수 있나요?**  
+A: 네, 새로운 `Scene`을 만들고 원하는 노드만 추가한 뒤 해당 씬을 FBX로 저장하면 됩니다.
 
 ## 결론
 
-축하합니다! 이제 **메쉬를 FBX로 변환**하고, 별도의 메시 지오메트리를 공유하고, Aspose.3D for Java를 실행하는 각 개별 재료 변경을 설정하는 방법을 익혔습니다. 이 워크플로우를 통해 수많은 확장 가능한 메쉬 구조물을 구축하고, FBX-호환 파이프 라인에 내보낼 수 있습니다.
+축하합니다! 이제 **mesh를 FBX로 변환**하고, 여러 노드 간에 mesh 지오메트리 데이터를 공유하며, Aspose.3D for Java를 사용해 개별 재질 색상을 설정했습니다. 이 워크플로우를 통해 가볍고 재사용 가능한 mesh 구조를 구축할 수 있으며, 이를 모든 FBX 호환 파이프라인으로 내보낼 수 있습니다.
 
 ---
 
-**최종 업데이트:** 2026-02-17
-**테스트 대상:** Java용 Aspose.3D 24.11
-**저자:** Aspose  
+**마지막 업데이트:** 2026-05-19  
+**테스트 환경:** Aspose.3D 24.11 for Java  
+**작성자:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## 관련 튜토리얼
+
+- [Java에서 Aspose.3D를 사용해 재질별 Mesh 분할 방법](/3d/java/3d-mesh-data/split-meshes-by-material/)
+- [Java에서 텍스처 FBX 삽입 – Aspose.3D로 3D 객체에 재질 적용](/3d/java/geometry/apply-materials-to-3d-objects/)
+- [Java에서 씬을 FBX로 내보내고 3D 씬 정보를 가져오는 방법](/3d/java/3d-scenes-and-models/get-scene-information/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
