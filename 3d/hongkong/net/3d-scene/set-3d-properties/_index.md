@@ -1,6 +1,6 @@
 ---
-date: 2026-01-17
-description: 學習如何使用 Aspose.3D for .NET 列出材質屬性、變更漫反射顏色，並修改 3D 材質屬性。內含逐步程式碼範例。
+date: 2026-03-28
+description: 學習如何使用 Aspose.3D for .NET 列出材質屬性、變更漫反射顏色，以及修改 3D 材質屬性，並附有逐步程式碼範例。
 linktitle: List Material Properties in 3D Scenes with Aspose.3D
 second_title: Aspose.3D .NET API
 title: 使用 Aspose.3D 列出 3D 場景中的材質屬性
@@ -14,33 +14,35 @@ weight: 14
 
 # 在 3D 場景中列出 Aspose.3D 的材質屬性
 
-## Introduction
+## 簡介
 
-如果您需要**列出 3D 模型的材質屬性**，並且想要調整例如漫反射顏色等項目，您來對地方了。Aspose.3D for .NET 提供乾淨的物件導向 API，讓您在 C# 程式碼中檢視、取得與修改材質屬性。本教學將示範如何載入場景、列舉其材質屬性，並更改如漫反射成分等值，讓您的模型呈現理想外觀。
+如果你需要 **列出材質屬性** 的 3D 模型，並且想要調整例如漫反射顏色等設定，你來對地方了。Aspose.3D for .NET 為你提供乾淨、物件導向的 API，讓你在 C# 程式碼中即可檢查、取得與修改材質屬性。於本教學中，我們將示範如何載入場景、列舉其材質屬性，並變更例如漫反射成分的值——讓你的模型呈現精確的外觀。
 
-## Quick Answers
+## 快速解答
 - **主要目標是什麼？** 列出材質屬性並修改它們（例如漫反射顏色）。  
 - **需要哪個函式庫？** Aspose.3D for .NET。  
-- **需要授權嗎？** 生產環境需使用臨時或正式授權。  
+- **需要授權嗎？** 生產環境使用需臨時或正式授權。  
 - **支援的檔案格式？** FBX、OBJ、STL、STL‑ASCII、3MF 等。  
-- **一般實作時間？** 基本屬性列舉腳本約需 10‑15 分鐘。
+- **典型實作時間？** 基本屬性列舉腳本約需 10‑15 分鐘。
 
-## What is **list material properties**?
-列出材質屬性是指遍歷材質的 `PropertyCollection`，讀取每個屬性名稱及其當前值。這對除錯、目視檢查，或建立讓使用者在執行時調整材質設定的 UI 控制項非常有用。
+## 什麼是 **列出材質屬性**？
 
-## Why use Aspose.3D to **access material properties**?
+列出材質屬性是指遍歷材質的 `PropertyCollection`，讀取每個屬性名稱及其當前值。這對除錯、視覺檢查，或建立允許使用者在執行時調整材質設定的 UI 控制項非常有用。
+
+## 為什麼使用 Aspose.3D 來 **存取材質屬性**？
+
 - **無需外部轉換器** – 直接使用原生 .NET 物件。  
-- **豐富的屬性模型** – 除標準 PBR 值外，亦支援自訂的 FBX 專屬屬性。  
-- **跨平台** – 可在 .NET Framework、.NET Core 以及 .NET 5/6+ 上執行。  
+- **豐富的屬性模型** – 支援自訂 FBX 專屬屬性以及標準 PBR 值。  
+- **跨平台** – 支援 .NET Framework、.NET Core 以及 .NET 5/6+。
 
-## Prerequisites
+## 先決條件
 
-- 在專案中安裝 Aspose.3D for .NET。可於 [此處](https://releases.aspose.com/3d/net/) 下載。  
-- 磁碟上用於存放 3‑D 原始檔案的資料夾（例如包含內嵌貼圖的 FBX 檔案）。
+- Aspose.3D for .NET 已安裝於你的專案中。請於 [here](https://releases.aspose.com/3d/net/) 下載。  
+- 一個磁碟上的資料夾，用來存放你的 3‑D 原始檔案（例如包含內嵌貼圖的 FBX 檔）。
 
-現在您已完成基本設定，讓我們深入程式碼吧。
+既然已完成基礎設定，讓我們深入程式碼吧。
 
-## Import Namespaces
+## 匯入命名空間
 
 ```csharp
 using Aspose.ThreeD;
@@ -53,7 +55,7 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-## Step 1: Load 3D Scene
+## 步驟 1：載入 3D 場景
 
 ```csharp
 //ExStart: Load3DScene
@@ -62,7 +64,7 @@ Scene scene = new Scene(dataDir + "EmbeddedTexture.fbx");
 //ExEnd: Load3DScene
 ```
 
-## Step 2: **Access material properties** of the first node
+## 步驟 2：**存取材質屬性** 的第一個節點
 
 ```csharp
 //ExStart: AccessMaterialProperties
@@ -71,7 +73,7 @@ PropertyCollection props = material.Properties;
 //ExEnd: AccessMaterialProperties
 ```
 
-## Step 3: **List material properties** – see every name/value pair
+## 步驟 3：**列出材質屬性** – 查看每個名稱/值配對
 
 ```csharp
 //ExStart: ListAllProperties
@@ -89,7 +91,7 @@ for (int i = 0; i < props.Count; i++)
 //ExEnd: ListAllProperties
 ```
 
-## Step 4: **How to change diffuse** – modify the Diffuse property
+## 步驟 4：**如何變更漫反射** – 修改 Diffuse 屬性
 
 ```csharp
 //ExStart: GetModifyPropertyByName
@@ -101,7 +103,7 @@ props["Diffuse"] = new Vector3(1, 0, 1); // sets a magenta diffuse color
 //ExEnd: GetModifyPropertyByName
 ```
 
-## Step 5: **Retrieve property by name** – get a strongly‑typed instance
+## 步驟 5：**依名稱取得屬性** – 獲得強型別實例
 
 ```csharp
 //ExStart: GetPropertyInstanceByName
@@ -110,7 +112,7 @@ Console.WriteLine(pdiffuse);
 //ExEnd: GetPropertyInstanceByName
 ```
 
-## Step 6: Traverse a property's own properties (advanced)
+## 步驟 6：遍歷屬性的子屬性（進階）
 
 ```csharp
 //ExStart: TraversePropertyProperties
@@ -128,62 +130,72 @@ foreach (var pp in pdiffuse.Properties)
 //ExEnd: TraversePropertyProperties
 ```
 
-## How to **change 3d material color** beyond diffuse
-如果您需要影響高光、環境光或自發光顏色，只需將上方 `props["..."]` 指派中的 `"Diffuse"` 替換為 `"Specular"` 或 `"Ambient"`。`Vector3` 或 `Vector4` 結構同樣適用。
+## 如何 **變更 3D 材質顏色** 超出漫反射
 
-## Common Pitfalls & Tips
-- **屬性名稱大小寫敏感** – Aspose.3D 的屬性鍵區分大小寫，請使用列舉輸出中顯示的完整名稱。  
-- **屬性缺失** – 並非所有材質都公開每個 PBR 屬性。存取前請先檢查 `props.ContainsKey("Specular")`。  
-- **儲存變更** – 修改屬性後，呼叫 `scene.Save("output.fbx");` 以寫入檔案。
+如果你需要影響高光、環境光或自發光顏色，只需在上述 `props["..."]` 賦值中將 `"Diffuse"` 替換為 `"Specular"` 或 `"Ambient"`。同樣的 `Vector3` 或 `Vector4` 結構皆適用。
 
-## Conclusion
+## 如何 **在 C# 中更新材質顏色**
 
-您現在已學會如何**列出材質屬性**、**依名稱取得屬性**，以及**變更漫反射顏色**（或其他任何材質屬性），使用 Aspose.3D for .NET。可嘗試不同屬性類型，以微調 3‑D 資產的外觀。
+改變材質的視覺外觀歸結為在 `PropertyCollection` 中更新相應的屬性。無論你想修改漫反射、高光或任何自訂顏色屬性，步驟皆相同：
 
-## FAQ's
+1. 依確切名稱（區分大小寫）取得屬性。  
+2. 指派新的 `Vector3`（RGB）或 `Vector4`（RGBA）值。  
 
-### Q1: 我可以在 .NET 中使用 Aspose.3D 處理其他 3D 檔案格式嗎？
+由於 API 直接操作 C# 物件，你可以在 **update material color C#** 程式碼中更新材質顏色，而不需任何中間檔案或轉換器。這使其非常適合即時編輯器或批次處理流程。
 
-A1: 是的，Aspose.3D 支援多種 3D 檔案格式，包括 FBX、STL 等。
+## 常見陷阱與技巧
+- **屬性名稱大小寫敏感** – Aspose.3D 的屬性鍵區分大小寫；請使用列舉輸出中顯示的精確名稱。  
+- **缺少屬性** – 並非所有材質都公開每個 PBR 屬性。存取前請先檢查 `props.ContainsKey("Specular")`。  
+- **儲存變更** – 修改屬性後，呼叫 `scene.Save("output.fbx");` 以永久保存變更。
 
-### Q2: 請前往 [此處](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
+## 結論
 
-A2: 
+你現在已學會如何 **列出材質屬性**、**依名稱取得屬性**，以及使用 Aspose.3D for .NET **變更漫反射顏色**（或任何其他材質屬性）。嘗試不同的屬性類型以微調 3‑D 資產的外觀，並記得只需一行程式碼即可 **update material color C#**。
 
-### Q3: 有，您可在 [Aspose.3D 論壇](https://forum.aspose.com/c/3d/18) 找到支援與討論。
+## 常見問答
 
-A3: 
+### Q1：我可以在 Aspose.3D for .NET 中使用其他 3D 檔案格式嗎？
 
-### Q4: 請參考 [文件](https://reference.aspose.com/3d/net/) 取得完整說明。
+A1：是的，Aspose.3D 支援多種 3D 檔案格式，包括 FBX、STL 等等。
 
-A4: 
+### Q2：我該如何取得 Aspose.3D for .NET 的臨時授權？
 
-### Q5: 當然！下載 [免費試用版](https://releases.aspose.com/) 以探索功能。
+A2：請前往 [here](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
-A5: 
+### Q3：是否有 Aspose.3D 使用者的社群論壇？
 
-## Frequently Asked Questions
+A3：是的，你可以在 [Aspose.3D forum](https://forum.aspose.com/c/3d/18) 找到支援與討論。
 
-**問：`Vector3(1, 0, 1)` 代表什麼？**  
-答：它將漫反射顏色設定為洋紅色（線性色彩空間中紅 = 1，綠 = 0，藍 = 1）。
+### Q4：在哪裡可以找到 Aspose.3D for .NET 的詳細文件？
 
-**問：變更屬性後需要呼叫 `scene.Save` 嗎？**  
-答：需要，儲存場景會將修改寫入磁碟；否則變更僅保留在記憶體中。
+A4：請參考 [documentation](https://reference.aspose.com/3d/net/) 以獲得完整指引。
 
-**問：我可以列舉自訂的 FBX 屬性嗎？**  
-答：當然可以。`PropertyCollection` 會包含所有自訂屬性，您可透過 `GetProperty("customName")` 取得。
+### Q5：我可以在購買前免費試用 Aspose.3D for .NET 嗎？
 
-**問：有沒有辦法批次更新多個材質？**  
-答：可遍歷 `scene.RootNode.ChildNodes`，對每個材質重複屬性修改步驟。
+A5：當然可以！下載 [free trial version](https://releases.aspose.com/) 以體驗其功能。
 
-**問：Aspose.3D 支援 .NET 6 嗎？**  
-答：支援，該函式庫與 .NET 6 及更高版本完全相容。
+## 常見問題
+
+**Q：`Vector3(1, 0, 1)` 代表什麼？**  
+A：它將漫反射顏色設定為洋紅色（紅 = 1，綠 = 0，藍 = 1），使用線性色彩空間。
+
+**Q：變更屬性後需要呼叫 `scene.Save` 嗎？**  
+A：需要，將場景保存會把修改寫入磁碟；否則變更僅保留在記憶體中。
+
+**Q：我可以列舉自訂的 FBX 屬性嗎？**  
+A：當然可以。`PropertyCollection` 會包含所有自訂屬性，你可以透過 `GetProperty("customName")` 取得。
+
+**Q：有沒有方法批次更新多個材質？**  
+A：遍歷 `scene.RootNode.ChildNodes`，對每個材質重複屬性修改步驟即可。
+
+**Q：Aspose.3D 支援 .NET 6 嗎？**  
+A：支援，該函式庫完全相容於 .NET 6 及更高版本。
 
 ---
 
-**Last Updated:** 2026-01-17  
-**Tested With:** Aspose.3D 24.11 for .NET  
-**Author:** Aspose  
+**最後更新：** 2026-03-28  
+**測試環境：** Aspose.3D 24.11 for .NET  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

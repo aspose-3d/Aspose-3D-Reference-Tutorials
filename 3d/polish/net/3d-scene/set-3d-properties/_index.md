@@ -1,7 +1,7 @@
 ---
-date: 2026-01-17
-description: Dowiedz się, jak wyświetlać właściwości materiału, zmieniać kolor rozpraszający
-  i modyfikować atrybuty materiału 3D przy użyciu Aspose.3D dla .NET. Dołączone przykłady
+date: 2026-03-28
+description: Dowiedz się, jak wyświetlać właściwości materiałów, zmieniać kolor rozproszenia
+  i modyfikować atrybuty materiałów 3D przy użyciu Aspose.3D dla .NET. Dołączone przykłady
   kodu krok po kroku.
 linktitle: List Material Properties in 3D Scenes with Aspose.3D
 second_title: Aspose.3D .NET API
@@ -18,31 +18,31 @@ weight: 14
 
 ## Wprowadzenie
 
-Jeśli potrzebujesz **wyświetlić listę właściwości materiału** modelu 3D i następnie dostosować takie elementy jak kolor dyfuzyjny, jesteś we właściwym miejscu. Aspose.3D for .NET oferuje czyste, obiektowo‑zorientowane API, które pozwala przeglądać, pobierać i modyfikować atrybuty materiału bez opuszczania kodu C#. W tym samouczku przeprowadzimy Cię przez ładowanie sceny, wyliczanie jej właściwości materiałów oraz zmianę wartości, takich jak komponent dyfuzyjny — abyś mógł nadać swoim modelom dokładnie taki wygląd, jaki chcesz.
+Jeśli potrzebujesz **list material properties** modelu 3D i następnie dostosować takie elementy jak kolor rozpraszania, jesteś we właściwym miejscu. Aspose.3D for .NET zapewnia czyste, obiektowo‑zorientowane API, które pozwala przeglądać, pobierać i modyfikować atrybuty materiałów bez opuszczania kodu C#. W tym samouczku przeprowadzimy Cię przez ładowanie sceny, wyliczanie jej właściwości materiałów oraz zmianę wartości, takich jak komponent rozpraszania — abyś mógł nadać swoim modelom dokładny wygląd, jaki chcesz.
 
 ## Szybkie odpowiedzi
-- **Jaki jest główny cel?** Wyświetlić listę właściwości materiału i zmodyfikować je (np. kolor dyfuzyjny).  
+- **Jaki jest główny cel?** Wypisać właściwości materiału i modyfikować je (np. kolor rozpraszania).  
 - **Jakiej biblioteki wymaga?** Aspose.3D for .NET.  
 - **Czy potrzebna jest licencja?** Wymagana jest tymczasowa lub pełna licencja do użytku produkcyjnego.  
 - **Obsługiwane formaty plików?** FBX, OBJ, STL, STL‑ASCII, 3MF i inne.  
-- **Typowy czas implementacji?** Około 10‑15 minut dla podstawowego skryptu wyświetlającego właściwości.
+- **Typowy czas implementacji?** Około 10‑15 minut dla podstawowego skryptu wypisującego właściwości.
 
 ## Co to jest **list material properties**?
-Wyświetlanie listy właściwości materiału oznacza iterację po `PropertyCollection` materiału w celu odczytania każdej nazwy właściwości i jej bieżącej wartości. Jest to przydatne przy debugowaniu, wizualnej inspekcji lub budowaniu kontrolek UI, które pozwalają użytkownikom dostosowywać ustawienia materiału w czasie rzeczywistym.
+Wypisywanie właściwości materiału oznacza iterację po `PropertyCollection` materiału w celu odczytania każdej nazwy właściwości i jej bieżącej wartości. Jest to przydatne do debugowania, wizualnej inspekcji lub tworzenia kontrolek UI, które pozwalają użytkownikom dostosowywać ustawienia materiału w czasie rzeczywistym.
 
-## Dlaczego warto używać Aspose.3D do **access material properties**?
-- **Brak zewnętrznych konwerterów** – pracuj bezpośrednio z natywnymi obiektami .NET.  
-- **Bogaty model właściwości** – obsługuje niestandardowe atrybuty specyficzne dla FBX oprócz standardowych wartości PBR.  
-- **Cross‑platform** – działa na .NET Framework, .NET Core oraz .NET 5/6+.  
+## Dlaczego używać Aspose.3D do **access material properties**?
+- **No external converters** – pracuj bezpośrednio z natywnymi obiektami .NET.  
+- **Rich property model** – obsługuje niestandardowe atrybuty specyficzne dla FBX oprócz standardowych wartości PBR.  
+- **Cross‑platform** – działa na .NET Framework, .NET Core oraz .NET 5/6+.
 
 ## Wymagania wstępne
 
-- Aspose.3D for .NET zainstalowane w projekcie. Pobierz je [tutaj](https://releases.aspose.com/3d/net/).  
-- Folder na dysku przechowujący pliki źródłowe 3‑D (np. plik FBX z osadzonymi teksturami).
+- Aspose.3D for .NET zainstalowany w projekcie. Pobierz go [here](https://releases.aspose.com/3d/net/).
+- Folder na dysku, w którym będą przechowywane pliki źródłowe 3‑D (np. plik FBX z osadzonymi teksturami).
 
 Teraz, gdy podstawy są już gotowe, przejdźmy do kodu.
 
-## Import Namespaces
+## Importowanie przestrzeni nazw
 
 ```csharp
 using Aspose.ThreeD;
@@ -55,7 +55,7 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-## Krok 1: Ładowanie sceny 3D
+## Krok 1: Załaduj scenę 3D
 
 ```csharp
 //ExStart: Load3DScene
@@ -73,7 +73,7 @@ PropertyCollection props = material.Properties;
 //ExEnd: AccessMaterialProperties
 ```
 
-## Krok 3: **List material properties** – zobacz każdy para nazwa/wartość
+## Krok 3: **List material properties** – zobacz każdą parę nazwa/wartość
 
 ```csharp
 //ExStart: ListAllProperties
@@ -91,7 +91,7 @@ for (int i = 0; i < props.Count; i++)
 //ExEnd: ListAllProperties
 ```
 
-## Krok 4: **How to change diffuse** – modyfikacja właściwości Diffuse
+## Krok 4: **How to change diffuse** – zmodyfikuj właściwość Diffuse
 
 ```csharp
 //ExStart: GetModifyPropertyByName
@@ -112,7 +112,7 @@ Console.WriteLine(pdiffuse);
 //ExEnd: GetPropertyInstanceByName
 ```
 
-## Krok 6: Przeglądanie własnych właściwości właściwości (zaawansowane)
+## Krok 6: Przejdź po własnościach własnych właściwości (zaawansowane)
 
 ```csharp
 //ExStart: TraversePropertyProperties
@@ -130,50 +130,53 @@ foreach (var pp in pdiffuse.Properties)
 //ExEnd: TraversePropertyProperties
 ```
 
-## Jak **change 3d material color** poza dyfuzją
-Jeśli musisz wpłynąć na kolory specular, ambient lub emissive, po prostu zamień `"Diffuse"` na `"Specular"` lub `"Ambient"` w przypisaniu `props["..."]` powyżej. Stosuje się te same struktury `Vector3` lub `Vector4`.
+## Jak **change 3d material color** poza rozpraszaniem
+Jeśli musisz wpłynąć na kolory specular, ambient lub emissive, po prostu zamień `"Diffuse"` na `"Specular"` lub `"Ambient"` w przypisaniu `props["..."]` powyżej. Te same struktury `Vector3` lub `Vector4` mają zastosowanie.
 
-## Typowe pułapki i wskazówki
-- **Wrażliwość na wielkość liter w nazwach właściwości** – klucze właściwości Aspose.3D rozróżniają wielkość liter; używaj dokładnie takiej nazwy, jaka pojawia się w wynikowym wykazie.  
-- **Brak właściwości** – nie wszystkie materiały udostępniają każdą cechę PBR. Sprawdź `props.ContainsKey("Specular")` przed dostępem.  
-- **Zapisywanie zmian** – po modyfikacji właściwości wywołaj `scene.Save("output.fbx");`, aby utrwalić zmiany.
+## Jak **update material color in C#**
+Zmiana wizualnego wyglądu materiału sprowadza się do aktualizacji odpowiedniej właściwości w `PropertyCollection`. Niezależnie od tego, czy chcesz zmodyfikować diffuse, specular, czy dowolny niestandardowy atrybut koloru, schemat pozostaje ten sam:
+
+1. Pobierz właściwość po jej dokładnej nazwie (uwzględniając wielkość liter).  
+2. Przypisz nową wartość `Vector3` (RGB) lub `Vector4` (RGBA).  
+
+Ponieważ API działa bezpośrednio na obiektach C#, możesz **update material color C#** w kodzie bez żadnych pośrednich plików czy konwerterów. Dzięki temu jest to idealne rozwiązanie dla edytorów w czasie rzeczywistym lub potoków przetwarzania wsadowego.
+
+## Częste pułapki i wskazówki
+- **Property name case‑sensitivity** – klucze właściwości Aspose.3D rozróżniają wielkość liter; użyj dokładnej nazwy wyświetlanej w wynikach wypisania.  
+- **Missing property** – nie wszystkie materiały udostępniają każdą atrybut PBR. Sprawdź `props.ContainsKey("Specular")` przed dostępem.  
+- **Saving changes** – po modyfikacji właściwości wywołaj `scene.Save("output.fbx");`, aby zapisać zmiany.
 
 ## Zakończenie
 
-Nauczyłeś się teraz **wyświetlać listę właściwości materiału**, **pobierać właściwość po nazwie** oraz **zmieniać kolor dyfuzyjny** (lub dowolny inny atrybut materiału) przy użyciu Aspose.3D for .NET. Eksperymentuj z różnymi typami właściwości, aby precyzyjnie dopasować wygląd swoich zasobów 3‑D.
+Nauczyłeś się teraz, jak **list material properties**, **retrieve a property by name** oraz **change the diffuse color** (lub dowolny inny atrybut materiału) przy użyciu Aspose.3D for .NET. Eksperymentuj z różnymi typami właściwości, aby precyzyjnie dopasować wygląd swoich zasobów 3‑D, i pamiętaj, że możesz **update material color C#** jedną linią kodu.
 
-## FAQ's
+## FAQ
 
-### Q1: Czy mogę używać Aspose.3D for .NET z innymi formatami plików 3D?
-
+### Pytanie 1: Czy mogę używać Aspose.3D for .NET z innymi formatami plików 3D?
 A1: Tak, Aspose.3D obsługuje różne formaty plików 3D, w tym FBX, STL i wiele innych.
 
-### Q2: Jak mogę uzyskać tymczasową licencję dla Aspose.3D for .NET?
+### Pytanie 2: Jak mogę uzyskać tymczasową licencję dla Aspose.3D for .NET?
+A2: Odwiedź [here](https://purchase.aspose.com/temporary-license/), aby uzyskać tymczasową licencję.
 
-A2: Odwiedź [tutaj](https://purchase.aspose.com/temporary-license/), aby uzyskać tymczasową licencję.
+### Pytanie 3: Czy istnieje forum społecznościowe dla użytkowników Aspose.3D?
+A3: Tak, wsparcie i dyskusje znajdziesz na [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
 
-### Q3: Czy istnieje forum społecznościowe dla użytkowników Aspose.3D?
+### Pytanie 4: Gdzie mogę znaleźć szczegółową dokumentację dla Aspose.3D for .NET?
+A4: Zapoznaj się z [documentation](https://reference.aspose.com/3d/net/), aby uzyskać kompleksowe wskazówki.
 
-A3: Tak, wsparcie i dyskusje znajdziesz na [forum Aspose.3D](https://forum.aspose.com/c/3d/18).
+### Pytanie 5: Czy mogę wypróbować Aspose.3D for .NET za darmo przed zakupem?
+A5: Oczywiście! Pobierz [free trial version](https://releases.aspose.com/), aby przetestować jego funkcje.
 
-### Q4: Gdzie mogę znaleźć szczegółową dokumentację dla Aspose.3D for .NET?
-
-A4: Zapoznaj się z [dokumentacją](https://reference.aspose.com/3d/net/), aby uzyskać kompleksowe wskazówki.
-
-### Q5: Czy mogę wypróbować Aspose.3D for .NET za darmo przed zakupem?
-
-A5: Oczywiście! Pobierz [bezpłatną wersję próbną](https://releases.aspose.com/), aby przetestować jej funkcje.
-
-## Frequently Asked Questions
+## Najczęściej zadawane pytania
 
 **Q: Co reprezentuje `Vector3(1, 0, 1)`?**  
-A: Ustawia kolor dyfuzyjny na magentę (czerwony = 1, zielony = 0, niebieski = 1) w liniowej przestrzeni kolorów.
+A: Ustawia kolor rozpraszania na magentę (czerwony = 1, zielony = 0, niebieski = 1) w przestrzeni kolorów liniowych.
 
 **Q: Czy muszę wywołać `scene.Save` po zmianie właściwości?**  
-A: Tak, zapis sceny zapisuje Twoje modyfikacje na dysku; w przeciwnym razie zmiany pozostają tylko w pamięci.
+A: Tak, zapisanie sceny zapisuje Twoje modyfikacje na dysk; w przeciwnym razie zmiany pozostają tylko w pamięci.
 
 **Q: Czy mogę wyliczyć niestandardowe atrybuty FBX?**  
-A: Oczywiście. `PropertyCollection` będzie zawierać wszystkie niestandardowe atrybuty, które możesz odczytać za pomocą `GetProperty("customName")`.
+A: Oczywiście. `PropertyCollection` zawiera wszystkie niestandardowe atrybuty, które możesz odczytać za pomocą `GetProperty("customName")`.
 
 **Q: Czy istnieje sposób na masową aktualizację wielu materiałów?**  
 A: Przejdź pętlą przez `scene.RootNode.ChildNodes` i powtórz kroki modyfikacji właściwości dla każdego materiału.
@@ -181,11 +184,9 @@ A: Przejdź pętlą przez `scene.RootNode.ChildNodes` i powtórz kroki modyfikac
 **Q: Czy Aspose.3D obsługuje .NET 6?**  
 A: Tak, biblioteka jest w pełni kompatybilna z .NET 6 i nowszymi wersjami.
 
----
-
-**Ostatnia aktualizacja:** 2026-01-17  
-**Testowano z:** Aspose.3D 24.11 for .NET  
-**Autor:** Aspose  
+**Last Updated:** 2026-03-28  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -5,7 +5,7 @@ second_title: Aspose.3D .NET API
 description: Learn how to list material properties, change diffuse color, and modify 3D material attributes using Aspose.3D for .NET. Step‑by‑step code examples included.
 weight: 14
 url: /net/3d-scene/set-3d-properties/
-date: 2026-01-17
+date: 2026-03-28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -131,6 +131,14 @@ foreach (var pp in pdiffuse.Properties)
 ## How to **change 3d material color** beyond diffuse
 If you need to affect specular, ambient, or emissive colors, simply replace `"Diffuse"` with `"Specular"` or `"Ambient"` in the `props["..."]` assignment above. The same `Vector3` or `Vector4` structures apply.
 
+## How to **update material color in C#**
+Changing a material’s visual appearance boils down to updating the appropriate property in the `PropertyCollection`. Whether you want to modify the diffuse, specular, or any custom color attribute, the pattern stays the same:
+
+1. Retrieve the property by its exact name (case‑sensitive).  
+2. Assign a new `Vector3` (RGB) or `Vector4` (RGBA) value.  
+
+Because the API works directly with C# objects, you can **update material color C#** code without any intermediate files or converters. This makes it perfect for real‑time editors or batch‑processing pipelines.
+
 ## Common Pitfalls & Tips
 - **Property name case‑sensitivity** – Aspose.3D property keys are case‑sensitive; use the exact name shown in the listing output.  
 - **Missing property** – Not all materials expose every PBR attribute. Check `props.ContainsKey("Specular")` before accessing.  
@@ -138,7 +146,7 @@ If you need to affect specular, ambient, or emissive colors, simply replace `"Di
 
 ## Conclusion
 
-You’ve now learned how to **list material properties**, **retrieve a property by name**, and **change the diffuse color** (or any other material attribute) using Aspose.3D for .NET. Experiment with different property types to fine‑tune the look of your 3‑D assets.
+You’ve now learned how to **list material properties**, **retrieve a property by name**, and **change the diffuse color** (or any other material attribute) using Aspose.3D for .NET. Experiment with different property types to fine‑tune the look of your 3‑D assets, and remember you can **update material color C#** with just a single line of code.
 
 ## FAQ's
 
@@ -181,7 +189,7 @@ A: Yes, the library is fully compatible with .NET 6 and later.
 
 ---
 
-**Last Updated:** 2026-01-17  
+**Last Updated:** 2026-03-28  
 **Tested With:** Aspose.3D 24.11 for .NET  
 **Author:** Aspose  
 

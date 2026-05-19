@@ -1,7 +1,7 @@
 ---
-date: 2026-01-17
+date: 2026-03-28
 description: تعلم كيفية سرد خصائص المادة، وتغيير اللون المنتشر، وتعديل خصائص المادة
-  ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. تتضمن أمثلة شفرة خطوة بخطوة.
+  ثلاثية الأبعاد باستخدام Aspose.3D لـ .NET. تتضمن أمثلة برمجية خطوة بخطوة.
 linktitle: List Material Properties in 3D Scenes with Aspose.3D
 second_title: Aspose.3D .NET API
 title: قائمة خصائص المواد في المشاهد ثلاثية الأبعاد باستخدام Aspose.3D
@@ -13,33 +13,35 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قائمة خصائص المواد في المشاهد ثلاثية الأبعاد باستخدام Aspose.3D
+# سرد خصائص المواد في مشاهد 3D باستخدام Aspose.3D
 
 ## مقدمة
 
-إذا كنت بحاجة إلى **قائمة خصائص المواد** لنموذج ثلاثي الأبعاد ثم تعديل أشياء مثل لون الانتشار، فأنت في المكان الصحيح. Aspose.3D for .NET يوفّر لك واجهة برمجة تطبيقات نظيفة كائنية التوجه تسمح لك بفحص، استرجاع، وتعديل سمات المادة دون مغادرة كود C# الخاص بك. في هذا الدرس سنستعرض تحميل مشهد، تعداد خصائص مادته، وتغيير قيم مثل المكوّن الانتشاري—حتى تتمكن من إعطاء نماذجك المظهر الدقيق الذي تريده.
+إذا كنت بحاجة إلى **list material properties** لنموذج ثلاثي الأبعاد ثم تعديل أشياء مثل لون الانتشار، فأنت في المكان الصحيح. توفر لك Aspose.3D for .NET واجهة برمجة تطبيقات نظيفة كائنية التوجه تتيح لك فحص، استرجاع، وتعديل سمات المواد دون مغادرة كود C# الخاص بك. في هذا البرنامج التعليمي سنستعرض تحميل مشهد، تعداد خصائص مواده، وتغيير قيم مثل المكوّن الانتشاري—حتى تتمكن من إعطاء نماذجك المظهر الدقيق الذي تريده.
 
 ## إجابات سريعة
-- **ما هو الهدف الأساسي؟** قائمة خصائص المواد وتعديلها (مثل لون الانتشار).  
-- **ما المكتبة المطلوبة؟** Aspose.3D for .NET.  
+- **ما هو الهدف الأساسي؟** سرد خصائص المواد وتعديلها (مثل لون diffuse).  
+- **أي مكتبة مطلوبة؟** Aspose.3D for .NET.  
 - **هل أحتاج إلى ترخيص؟** يلزم ترخيص مؤقت أو كامل للاستخدام في الإنتاج.  
-- **ما صيغ الملفات المدعومة؟** FBX, OBJ, STL, STL‑ASCII, 3MF, وغيرها.  
-- **ما هو الوقت التقريبي للتنفيذ؟** حوالي 10‑15 دقيقة لسكربت أساسي لقائمة الخصائص.
+- **تنسيقات الملفات المدعومة؟** FBX, OBJ, STL, STL‑ASCII, 3MF, and more.  
+- **الوقت النموذجي للتنفيذ؟** حوالي 10‑15 دقيقة لبرنامج أساسي لسرد الخصائص.
 
 ## ما هو **list material properties**؟
-قائمة خصائص المواد تعني التكرار عبر `PropertyCollection` الخاصة بالمادة لقراءة كل اسم خاصية وقيمتها الحالية. هذا مفيد للتصحيح، الفحص البصري، أو بناء عناصر واجهة مستخدم تسمح للمستخدمين بتعديل إعدادات المادة أثناء التشغيل.
+سرد خصائص المواد يعني التكرار عبر `PropertyCollection` الخاصة بالمادة لقراءة كل اسم خاصية وقيمتها الحالية. هذا مفيد للتصحيح، الفحص البصري، أو بناء عناصر تحكم UI تسمح للمستخدمين بتعديل إعدادات المادة أثناء التشغيل.
 
 ## لماذا تستخدم Aspose.3D لـ **access material properties**؟
-- **No external converters** – العمل مباشرة مع كائنات .NET الأصلية.  
+- **No external converters** – العمل مباشرةً مع كائنات .NET الأصلية.  
 - **Rich property model** – يدعم سمات مخصصة خاصة بـ FBX بالإضافة إلى قيم PBR القياسية.  
 - **Cross‑platform** – يعمل على .NET Framework, .NET Core, و .NET 5/6+.
 
 ## المتطلبات المسبقة
 
-- تثبيت Aspose.3D for .NET في مشروعك. حمّله [هنا](https://releases.aspose.com/3d/net/).
-- مجلد على القرص لتخزين ملفات المصدر ثلاثية الأبعاد (مثل ملف FBX يحتوي على القوام المدمجة).
+- تم تثبيت Aspose.3D for .NET في مشروعك. قم بتحميله [here](https://releases.aspose.com/3d/net/).  
+- مجلد على القرص لتخزين ملفات المصدر ثلاثية الأبعاد (مثلاً ملف FBX مع القوام المدمجة).
 
-## Import Namespaces
+الآن بعد أن تم ترتيب الأساسيات، دعنا نغوص في الكود.
+
+## استيراد المساحات الاسمية
 
 ```csharp
 using Aspose.ThreeD;
@@ -52,7 +54,7 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-## Step 1: Load 3D Scene
+## الخطوة 1: تحميل مشهد 3D
 
 ```csharp
 //ExStart: Load3DScene
@@ -61,7 +63,7 @@ Scene scene = new Scene(dataDir + "EmbeddedTexture.fbx");
 //ExEnd: Load3DScene
 ```
 
-## Step 2: **Access material properties** of the first node
+## الخطوة 2: **Access material properties** للعقدة الأولى
 
 ```csharp
 //ExStart: AccessMaterialProperties
@@ -70,7 +72,7 @@ PropertyCollection props = material.Properties;
 //ExEnd: AccessMaterialProperties
 ```
 
-## Step 3: **List material properties** – see every name/value pair
+## الخطوة 3: **List material properties** – عرض كل زوج اسم/قيمة
 
 ```csharp
 //ExStart: ListAllProperties
@@ -88,7 +90,7 @@ for (int i = 0; i < props.Count; i++)
 //ExEnd: ListAllProperties
 ```
 
-## Step 4: **How to change diffuse** – modify the Diffuse property
+## الخطوة 4: **How to change diffuse** – تعديل خاصية Diffuse
 
 ```csharp
 //ExStart: GetModifyPropertyByName
@@ -100,7 +102,7 @@ props["Diffuse"] = new Vector3(1, 0, 1); // sets a magenta diffuse color
 //ExEnd: GetModifyPropertyByName
 ```
 
-## Step 5: **Retrieve property by name** – get a strongly‑typed instance
+## الخطوة 5: **Retrieve property by name** – الحصول على نسخة ذات نوع قوي
 
 ```csharp
 //ExStart: GetPropertyInstanceByName
@@ -109,7 +111,7 @@ Console.WriteLine(pdiffuse);
 //ExEnd: GetPropertyInstanceByName
 ```
 
-## Step 6: Traverse a property's own properties (advanced)
+## الخطوة 6: استعراض خصائص الخاصية نفسها (متقدم)
 
 ```csharp
 //ExStart: TraversePropertyProperties
@@ -127,62 +129,63 @@ foreach (var pp in pdiffuse.Properties)
 //ExEnd: TraversePropertyProperties
 ```
 
-## كيفية **change 3d material color** بما يتجاوز الانتشار
-إذا كنت بحاجة إلى تعديل ألوان الانعكاس، الإضاءة المحيطة، أو الإشعاع، ما عليك سوى استبدال `"Diffuse"` بـ `"Specular"` أو `"Ambient"` في تعيين `props["..."]` أعلاه. نفس هياكل `Vector3` أو `Vector4` تُطبق.
+## كيفية **change 3d material color** بما يتجاوز diffuse
+إذا كنت بحاجة إلى التأثير على ألوان specular أو ambient أو emissive، ما عليك سوى استبدال `"Diffuse"` بـ `"Specular"` أو `"Ambient"` في تعيين `props["..."]` أعلاه. نفس هياكل `Vector3` أو `Vector4` تنطبق.
+
+## كيفية **update material color in C#**
+تغيير المظهر البصري للمادة يتلخص في تحديث الخاصية المناسبة في `PropertyCollection`. سواء أردت تعديل diffuse أو specular أو أي سمة لون مخصصة، يبقى النمط نفسه:
+
+1. استرجع الخاصية بالاسم الدقيق (حساسة لحالة الأحرف).  
+2. عيّن قيمة جديدة من نوع `Vector3` (RGB) أو `Vector4` (RGBA).
+
+نظرًا لأن الـ API يعمل مباشرةً مع كائنات C#، يمكنك **update material color C#** دون أي ملفات أو محولات وسيطة. هذا يجعلها مثالية للمحررات في الوقت الفعلي أو خطوط معالجة الدفعات.
 
 ## المشكلات الشائعة والنصائح
-- **Property name case‑sensitivity** – مفاتيح خصائص Aspose.3D حساسة لحالة الأحرف؛ استخدم الاسم الدقيق كما هو معروض في ناتج القائمة.  
-- **Missing property** – ليست كل المواد تُظهر كل سمة PBR. تحقق من `props.ContainsKey("Specular")` قبل الوصول.  
+- **Property name case‑sensitivity** – مفاتيح خصائص Aspose.3D حساسة لحالة الأحرف؛ استخدم الاسم الدقيق المعروض في ناتج السرد.  
+- **Missing property** – ليست كل المواد تكشف كل سمة PBR. تحقق من `props.ContainsKey("Specular")` قبل الوصول.  
 - **Saving changes** – بعد تعديل الخصائص، استدعِ `scene.Save("output.fbx");` لحفظ التغييرات.
 
 ## الخلاصة
 
-لقد تعلمت الآن كيفية **list material properties**، **retrieve a property by name**، و**change the diffuse color** (أو أي سمة مادة أخرى) باستخدام Aspose.3D for .NET. جرّب أنواع خصائص مختلفة لضبط مظهر أصولك ثلاثية الأبعاد بدقة.
+لقد تعلمت الآن كيفية **list material properties**، **retrieve a property by name**، و**change the diffuse color** (أو أي سمة مادة أخرى) باستخدام Aspose.3D for .NET. جرّب أنواع خصائص مختلفة لضبط مظهر أصولك ثلاثية الأبعاد بدقة، وتذكر أنه يمكنك **update material color C#** بسطر واحد فقط من الكود.
 
 ## الأسئلة المتكررة
 
-### Q1: هل يمكنني استخدام Aspose.3D for .NET مع صيغ ملفات ثلاثية الأبعاد أخرى؟
+### س1: هل يمكنني استخدام Aspose.3D for .NET مع تنسيقات ملفات 3D أخرى؟
+ج1: نعم، يدعم Aspose.3D تنسيقات ملفات 3D متعددة، بما في ذلك FBX و STL وغيرها الكثير.
 
-A1: نعم، يدعم Aspose.3D صيغ ملفات ثلاثية الأبعاد مختلفة، بما في ذلك FBX, STL، والعديد غيرها.
+### س2: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D for .NET؟
+ج2: زر [here](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت.
 
-### Q2: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D for .NET؟
+### س3: هل هناك منتدى مجتمع لمستخدمي Aspose.3D؟
+ج3: نعم، يمكنك العثور على الدعم والنقاشات في [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
 
-A2: زر [هنا](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت.
+### س4: أين يمكنني العثور على وثائق مفصلة لـ Aspose.3D for .NET؟
+ج4: راجع [documentation](https://reference.aspose.com/3d/net/) للحصول على إرشادات شاملة.
 
-### Q3: هل هناك منتدى مجتمع لمستخدمي Aspose.3D؟
-
-A3: نعم، يمكنك العثور على الدعم والنقاشات في [منتدى Aspose.3D](https://forum.aspose.com/c/3d/18).
-
-### Q4: أين يمكنني العثور على وثائق مفصلة لـ Aspose.3D for .NET؟
-
-A4: راجع [الوثائق](https://reference.aspose.com/3d/net/) للحصول على إرشادات شاملة.
-
-### Q5: هل يمكنني تجربة Aspose.3D for .NET مجانًا قبل الشراء؟
-
-A5: بالتأكيد! حمّل [نسخة التجربة المجانية](https://releases.aspose.com/) لاستكشاف ميزاته.
+### س5: هل يمكنني تجربة Aspose.3D for .NET مجانًا قبل الشراء؟
+ج5: بالتأكيد! حمّل [free trial version](https://releases.aspose.com/) لاستكشاف ميزاته.
 
 ## الأسئلة المتكررة
 
 **س: ماذا يمثل `Vector3(1, 0, 1)`؟**  
-ج: يحدد لون الانتشار إلى اللون الأرجواني (أحمر = 1، أخضر = 0، أزرق = 1) في مساحة اللون الخطية.
+ج: يحدد لون diffuse إلى اللون الأرجواني (red = 1, green = 0, blue = 1) في مساحة اللون الخطية.
 
-**س: هل يجب استدعاء `scene.Save` بعد تغيير الخصائص؟**  
+**س: هل أحتاج إلى استدعاء `scene.Save` بعد تغيير الخصائص؟**  
 ج: نعم، حفظ المشهد يكتب تعديلاتك إلى القرص؛ وإلا ستبقى التغييرات في الذاكرة فقط.
 
 **س: هل يمكنني تعداد سمات FBX المخصصة؟**  
-ج: بالتأكيد. سيتضمن `PropertyCollection` أي سمات مخصصة يمكنك الوصول إليها عبر `GetProperty("customName")`.
+ج: بالتأكيد. ستتضمن `PropertyCollection` أي سمات مخصصة، ويمكنك الوصول إليها عبر `GetProperty("customName")`.
 
 **س: هل هناك طريقة لتحديث عدة مواد دفعة واحدة؟**  
-ج: كرّر خطوات تعديل الخصائص داخل حلقة تمر على `scene.RootNode.ChildNodes` لكل مادة.
+ج: كرّر حلقة عبر `scene.RootNode.ChildNodes` وطبق خطوات تعديل الخصائص على كل مادة.
 
 **س: هل يدعم Aspose.3D .NET 6؟**  
 ج: نعم، المكتبة متوافقة بالكامل مع .NET 6 وما بعده.
 
----
-
-**Last Updated:** 2026-01-17  
-**Tested With:** Aspose.3D 24.11 for .NET  
-**Author:** Aspose  
+**آخر تحديث:** 2026-03-28  
+**تم الاختبار مع:** Aspose.3D 24.11 for .NET  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

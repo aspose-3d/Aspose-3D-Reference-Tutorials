@@ -1,35 +1,55 @@
 ---
-title: 3D-mazen opslaan in aangepast binair formaat
-linktitle: 3D-mazen opslaan in aangepast binair formaat
-second_title: Aspose.3D .NET-API
-description: Ontdek de wereld van 3D met Aspose.3D voor .NET. Leer hoe u meshes kunt opslaan in een aangepast binair formaat.
-weight: 13
+date: 2026-03-28
+description: Leer hoe je 3D‑mesh opslaat in een aangepast binair formaat, FBX‑binaire
+  bestanden converteert en een aangepast mesh‑formaat maakt met Aspose.3D – een volledige
+  Aspose 3D‑tutorial.
+linktitle: Save 3D mesh in custom binary format using Aspose.3D for .NET
+second_title: Aspose.3D .NET API
+title: Sla 3D-mesh op in aangepast binair formaat met Aspose.3D voor .NET
 url: /nl/net/3d-scene/save-3d-meshes-binary-format/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D-mazen opslaan in aangepast binair formaat
+# Opslaan van 3D-mesh in aangepast binair formaat met Aspose.3D voor .NET
 
-## Invoering
+## Introductie
 
-Welkom in de wereld van Aspose.3D voor .NET, een krachtige bibliotheek waarmee ontwikkelaars moeiteloos met 3D-bestanden kunnen werken. In deze zelfstudie verdiepen we ons in het proces van het opslaan van 3D-meshes in een aangepast binair formaat met behulp van Aspose.3D voor .NET. In deze handleiding wordt ervan uitgegaan dat u basiskennis heeft van C# en bekend bent met de Aspose.3D-bibliotheek.
+Welkom! In deze **Aspose 3D tutorial** leer je hoe je **3D-mesh**-gegevens kunt opslaan in een aangepast binair formaat. Of je nu **FBX-binaire** bestanden moet **converteren** voor een game‑engine of je eigen lichtgewicht mesh‑container wilt bouwen, deze gids leidt je stap voor stap met duidelijke C#‑voorbeelden. De instructies gaan ervan uit dat je vertrouwd bent met basis C#‑syntaxis en een werkende Aspose.3D‑installatie hebt.
 
-## Vereisten
+## Snelle antwoorden
+- **Waar gaat deze tutorial over?** Opslaan van een 3D-mesh naar een aangepast binair bestand met Aspose.3D voor .NET.  
+- **Welke bestandsformaten kunnen worden geconverteerd?** Elk formaat dat Aspose.3D kan lezen (bijv. FBX, OBJ, 3DS) – we demonstreren met een FBX‑bron.  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
+- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Hoe lang duurt de implementatie?** Ongeveer 10‑15 minuten voor een basisconversie.
 
-Voordat we met de tutorial beginnen, moet je ervoor zorgen dat je over het volgende beschikt:
+## Wat is **save 3d mesh**?
 
--  Aspose.3D voor .NET: Zorg ervoor dat de Aspose.3D-bibliotheek is geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/3d/net/).
+Het opslaan van een 3D-mesh betekent het extraheren van de vertexposities, normalen, UV‑coördinaten en driehoeksindices uit een scène en deze schrijven naar een door jou gedefinieerd bestand. Een aangepast binair formaat geeft je volledige controle over opslaggrootte en leesprestaties, wat essentieel is voor realtime rendering of netwerktransmissie.
 
-- Ontwikkelomgeving: Stel uw favoriete C#-ontwikkelomgeving in, zoals Visual Studio.
+## Waarom **convert FBX binary** en **create custom mesh format**?
 
-- Invoer 3D-bestand: Zorg dat u een 3D-bestand heeft (bijvoorbeeld test.fbx) dat u wilt converteren naar een aangepast binair formaat.
+- **Prestaties:** Binaire gegevens laden sneller dan tekstgebaseerde formaten zoals OBJ.  
+- **Portabiliteit:** Een aangepast formaat kan worden afgestemd op de exacte behoeften van je engine, waardoor overbodige gegevens worden verwijderd.  
+- **Beveiliging:** Binaire bestanden zijn minder vatbaar voor accidentele bewerking, wat helpt bij het beschermen van eigendom geometrie.  
 
-## Naamruimten importeren
+Het gebruik van Aspose.3D maakt de conversie eenvoudig terwijl de code schoon en onderhoudbaar blijft.
 
-Neem in uw C#-code de benodigde naamruimten op om toegang te krijgen tot de Aspose.3D-functionaliteiten:
+## Voorvereisten
+
+Voordat we aan de tutorial beginnen, zorg ervoor dat je het volgende hebt:
+
+- Aspose.3D voor .NET: Zorg ervoor dat je de Aspose.3D‑bibliotheek geïnstalleerd hebt. Je kunt deze downloaden van [here](https://releases.aspose.com/3d/net/).
+- Ontwikkelomgeving: Stel je favoriete C#‑ontwikkelomgeving in, zoals Visual Studio.
+- Invoer‑3D‑bestand: Heb een 3D‑bestand (bijv. test.fbx) dat je wilt converteren naar een aangepast binair formaat.
+
+## Namespaces importeren
+
+Voeg in je C#‑code de benodigde namespaces toe om toegang te krijgen tot de Aspose.3D‑functionaliteiten:
 
 ```csharp
 using Aspose.ThreeD;
@@ -42,41 +62,48 @@ using System.Linq;
 using System.Text;
 ```
 
-## Stap 1: Laad een 3D-bestand
+Deze namespaces geven je toegang tot scenebeheer, mesh‑conversie‑hulpmiddelen en basis .NET I/O‑klassen.
 
-Laad uw 3D-bestand met Aspose.3D. In dit voorbeeld laden we een bestand met de naam "test.fbx":
+## Stap 1: Laad een 3D‑bestand
+
+Laad je 3D‑bestand met Aspose.3D. In dit voorbeeld laden we een bestand met de naam **test.fbx**:
 
 ```csharp
 Scene scene = Scene.FromFile("test.fbx");
 ```
 
-## Stap 2: Definieer een aangepast binair formaat
+De `Scene.FromFile`‑methode detecteert automatisch het bronformaat, zodat je het FBX‑bestand kunt vervangen door OBJ, 3DS of een ander ondersteund type.
 
-Definieer de structuur van het aangepaste binaire formaat waarin u uw 3D-meshes wilt opslaan. In het voorbeeld wordt een structuur gebruikt met MeshBlock, Vertex en Triangle als componenten.
+## Stap 2: Definieer aangepast binair formaat
+
+Definieer de structuur van het aangepaste binaire formaat waarin je je 3D‑meshes wilt opslaan. Het voorbeeld gebruikt een structuur met `MeshBlock`, `Vertex` en `Triangle` als componenten.
 
 ```csharp
-// De geheugenindeling van een hoekpunt is
-// zweefstand[3];
-// zweef[3] normaal;
-// zweven[3] uv;
+//The memory layout of a vertex is 
+// float[3] position;
+// float[3] normal;
+// float[3] uv;
 var vertexDeclaration = new VertexDeclaration();
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
 vertexDeclaration.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.UV);
-
 ```
 
-## Stap 3: Open het bestand om te schrijven
+Door de vertex‑lay-out te declareren, vertel je Aspose.3D hoe de gegevens moeten worden verpakt voordat ze naar de binaire stream worden geschreven.
 
-Open een binair bestand om te schrijven, waar de geconverteerde 3D-meshes worden opgeslagen:
+## Stap 3: Open bestand voor schrijven
+
+Open een binair bestand voor schrijven, waarin de geconverteerde 3D‑meshes worden opgeslagen:
 
 ```csharp
 using (var writer = new BinaryWriter(new FileStream("Your Output Directory" + "Save3DMeshesInCustomBinaryFormat_out", FileMode.Create, FileAccess.Write)))
 ```
 
-## Stap 4: Herhaal de knooppunten en entiteiten
+De `BinaryWriter` geeft je low‑level controle over de byte‑volgorde en zorgt ervoor dat het bestand bij elke uitvoering nieuw wordt aangemaakt.
 
-Bezoek elk knooppunt in de 3D-scène en converteer mesh-entiteiten naar het aangepaste binaire formaat. Negeer lichten, camera's en andere niet-mesh-entiteiten:
+## Stap 4: Itereer door knooppunten en entiteiten
+
+Bezoek elk knooppunt in de 3D‑scene en converteer mesh‑entiteiten naar het aangepaste binaire formaat. Negeer lichten, camera's en andere niet‑mesh‑entiteiten:
 
 ```csharp
 scene.RootNode.Accept(delegate(Node node)
@@ -85,15 +112,17 @@ scene.RootNode.Accept(delegate(Node node)
     {
         if (!(entity is IMeshConvertible))
             continue;
-        // ... (verder verwerken)
+        // ... (continue processing)
     }
     return true;
 });
 ```
 
+De `Accept`‑methode voert een depth‑first traversie uit, waardoor je elke mesh kunt verwerken ongeacht de diepte van de hiërarchie.
+
 ## Stap 5: Converteer en schrijf controlepunten en driehoeken
 
-Converteer voor elke mesh-entiteit controlepunten naar de wereldruimte en schrijf ze naar het binaire bestand, samen met driehoekige indices:
+Voor elke mesh‑entiteit, converteer controlepunten naar wereldruimte en schrijf ze naar het binaire bestand samen met driehoekindices:
 
 ```csharp
 Mesh m = ((IMeshConvertible)entity).ToMesh();
@@ -101,53 +130,78 @@ Mesh m = ((IMeshConvertible)entity).ToMesh();
 var triMesh = TriMesh.FromMesh(vertexDeclaration, m);
 
 
-//De geheugenindeling van de mesh is:
-// float[16] transformatiematrix;
-// int hoekpunten_count;
-// int index_count;
-// hoekpunt[hoekpunten_telling] hoekpunten;
+//The mesh's memory layout is:
+// float[16] transform_matrix;
+// int vertices_count;
+// int indices_count;
+// vertex[vertices_count] vertices;
 // ushort[indices_count] indices;
 
 
-//schrijf transformatie
+//write transform
 var transform = node.GlobalTransform.TransformMatrix.ToArray();
 for(int i = 0; i < transform.Length; i++)
     writer.Write((float)transform[i]);
-//schrijf het aantal hoekpunten/indices
+//write number of vertices/indices
 writer.Write(triMesh.VerticesCount);
 writer.Write(triMesh.IndicesCount);
-//schrijf hoekpunten en indices
+//write vertices and indices
 writer.Flush();
 triMesh.WriteVerticesTo(writer.BaseStream);
 triMesh.Write16bIndicesTo(writer.BaseStream);
-
 ```
+
+Dit blok schrijft eerst de wereld‑ruimte transformatiesmatrix van het knooppunt, gevolgd door het aantal vertices, het aantal indices, de vertex‑buffer en tenslotte de 16‑bit index‑buffer. Het resulterende bestand kan efficiënt worden gelezen door elke engine die deze lay-out kent.
+
+## Veelvoorkomende problemen en oplossingen
+
+- **Bestandspad‑fouten:** Zorg ervoor dat de uitvoermap bestaat of gebruik `Path.Combine` om een geldig pad te bouwen.  
+- **Grote meshes:** Voor meshes met miljoenen vertices, overweeg om in delen te schrijven om `OutOfMemoryException` te voorkomen.  
+- **Coördinatensysteem‑verschillen:** Aspose.3D gebruikt een rechtshandig coördinatensysteem; converteer naar linkshandig als je doel‑engine dat vereist.  
 
 ## Conclusie
 
-In deze zelfstudie hebben we het proces besproken van het opslaan van 3D-meshes in een aangepast binair formaat met behulp van Aspose.3D voor .NET. Deze krachtige bibliotheek biedt ontwikkelaars de tools die nodig zijn om 3D-bestanden naadloos te manipuleren. Experimenteer met verschillende formaten en instellingen om het volledige potentieel van Aspose.3D in uw projecten te benutten.
+In deze tutorial hebben we het end‑to‑end proces behandeld van **save 3D mesh**‑gegevens naar een aangepast binair formaat met Aspose.3D voor .NET. Je hebt nu een herbruikbaar patroon voor het converteren van elk ondersteund bronbestand (inclusief FBX) naar een lichtgewicht binaire representatie die je kunt integreren in games, simulaties of aangepaste viewers. Voel je vrij om te experimenteren met extra vertex‑attributen (bijv. tangenten, kleuren) of compressieschema's om je aangepaste formaat verder te optimaliseren.
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.3D voor .NET gebruiken met andere programmeertalen?
+### Q1: Kan ik Aspose.3D voor .NET gebruiken met andere programmeertalen?
 
-A1: Aspose.3D ondersteunt voornamelijk .NET-talen, maar u kunt compatibiliteitsopties voor andere talen verkennen.
+A1: Aspose.3D ondersteunt voornamelijk .NET‑talen, maar je kunt compatibiliteitsopties voor andere talen verkennen.
 
-### Vraag 2: Waar kan ik aanvullende voorbeelden en bronnen vinden?
+### Q2: Waar kan ik extra voorbeelden en bronnen vinden?
 
- A2: De[Aspose.3D-forum](https://forum.aspose.com/c/3d/18)is een geweldige plek om ondersteuning en voorbeelden te vinden en contact te maken met de gemeenschap.
+A2: Het [Aspose.3D forum](https://forum.aspose.com/c/3d/18) is een uitstekende plek om ondersteuning, voorbeelden te vinden en in contact te komen met de community.
 
-### V3: Is er een proefversie beschikbaar voor Aspose.3D?
+### Q3: Is er een proefversie beschikbaar voor Aspose.3D?
 
- A3: Ja, u kunt een gratis proefperiode krijgen van[hier](https://releases.aspose.com/).
+A3: Ja, je kunt een gratis proefversie krijgen via [here](https://releases.aspose.com/).
 
-### V4: Hoe verkrijg ik een tijdelijke licentie voor Aspose.3D?
+### Q4: Hoe krijg ik een tijdelijke licentie voor Aspose.3D?
 
- A4: Bezoek[deze link](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie te verkrijgen voor testdoeleinden.
+A4: Bezoek [this link](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie voor testdoeleinden te verkrijgen.
 
-### V5: Kan ik Aspose.3D voor .NET kopen?
+### Q5: Kan ik Aspose.3D voor .NET kopen?
 
- A5: Ja, u kunt Aspose.3D kopen bij de[aankooppagina](https://purchase.aspose.com/buy).
+A5: Ja, je kunt Aspose.3D kopen via de [purchase page](https://purchase.aspose.com/buy).
+
+## Veelgestelde vragen
+
+**Q: Werkt deze aanpak met geanimeerde meshes?**  
+A: Ja, je kunt de getransformeerde vertices van elk frame exporteren door over animatiesleutelframes te itereren voordat je de binaire gegevens schrijft.
+
+**Q: Kan ik aangepaste vertex‑attributen toevoegen, zoals botgewicht?**  
+A: Absoluut. Breid de `VertexDeclaration` uit met extra velden (bijv. `VertexFieldSemantic.BoneWeight`) en schrijf de extra gegevens na het standaard vertex‑blok.
+
+**Q: Wat is de beste manier om het aangepaste binaire bestand terug in een scene te lezen?**  
+A: Implementeer een bijpassende binaire lezer die de transformatiesmatrix, vertex‑aantal, index‑aantal leest, en vervolgens een `TriMesh` reconstrueert met `TriMesh.FromBinary`.
+
+---
+
+**Last Updated:** 2026-03-28  
+**Tested With:** Aspose.3D 24.11 for .NET (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

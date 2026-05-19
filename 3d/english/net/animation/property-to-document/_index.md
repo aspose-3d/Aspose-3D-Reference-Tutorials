@@ -2,10 +2,10 @@
 title: "How to Animate Cube in 3D Scenes with Aspose.3D for .NET"
 linktitle: Animating Properties to Document in 3D Scenes
 second_title: Aspose.3D .NET API
-description: Learn how to animate cube in 3D scenes using Aspose.3D for .NET. This guide shows how to create animation curve, bind keyframes and animate 3D properties.
+description: Learn how to animate cube in 3D scenes using Aspose.3D for .NET and export animated scene FBX. This guide shows how to create animation curve, bind keyframes and animate 3D properties.
 weight: 10
 url: /net/animation/property-to-document/
-date: 2026-01-14
+date: 2026-03-28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -143,6 +143,10 @@ Give the user feedback that the animation was successfully added.
 Console.WriteLine("\nAnimation property added successfully to document.\nFile saved at " + output);
 ```
 
+## Export Animated Scene to FBX
+
+One of the most common tasks after animating a cube is to **export animated scene FBX** so that other 3D applications can consume it. The code above already saves the scene in the FBX7500ASCII format, which preserves the keyframe data and works seamlessly with tools like Autodesk Maya, Blender, and Unity. When you open the resulting `.fbx` file, you should see the cube moving along the X and Z axes exactly as defined by the keyframe sequences.
+
 ## Common Issues and Solutions
 
 | Issue | Reason | Fix |
@@ -189,11 +193,11 @@ A: Create separate nodes for each cube, retrieve their respective properties, an
 
 ## Conclusion
 
-Congratulations! You've just mastered **how to animate cube** in a 3D scene using Aspose.3D for .NET. You now know how to **create animation curves**, **bind keyframes**, and **animate 3D properties** to bring static geometry to life. Feel free to experiment with rotations, scaling, or even morph targets to expand your animation toolkit.
+Congratulations! You've just mastered **how to animate cube** in a 3D scene using Aspose.3D for .NET. You now know how to **create animation curves**, **bind keyframes**, and **export animated scene FBX** to bring static geometry to life. Feel free to experiment with rotations, scaling, or even morph targets to expand your animation toolkit.
 
 ---
 
-**Last Updated:** 2026-01-14  
+**Last Updated:** 2026-03-28  
 **Tested With:** Aspose.3D 24.11 for .NET  
 **Author:** Aspose  
 

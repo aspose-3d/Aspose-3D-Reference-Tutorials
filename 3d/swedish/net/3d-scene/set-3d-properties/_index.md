@@ -1,7 +1,7 @@
 ---
-date: 2026-01-17
+date: 2026-03-28
 description: Lär dig hur du listar materialegenskaper, ändrar diffus färg och modifierar
-  3D‑materialattribut med Aspose.3D för .NET. Steg‑för‑steg‑kodexempel inkluderade.
+  3D‑materialattribut med Aspose.3D för .NET. Steg‑för‑steg kodexempel ingår.
 linktitle: List Material Properties in 3D Scenes with Aspose.3D
 second_title: Aspose.3D .NET API
 title: Lista materialegenskaper i 3D‑scener med Aspose.3D
@@ -13,24 +13,24 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lista materialegenskaper i 3D‑scener med Aspose.3D
+# Lista materialegenskaper i 3D-scener med Aspose.3D
 
 ## Introduktion
 
-Om du behöver **lista materialegenskaper** för en 3D‑modell och sedan justera saker som diffusionsfärgen, är du på rätt plats. Aspose.3D för .NET ger dig ett rent, objekt‑orienterat API som låter dig inspektera, hämta och ändra materialattribut utan att lämna din C#‑kod. I den här handledningen går vi igenom hur du laddar en scen, enumererar dess materialegenskaper och ändrar värden såsom diffusionskomponenten—så att du kan ge dina modeller exakt det utseende du vill ha.
+Om du behöver **lista materialegenskaper** för en 3D-modell och sedan justera saker som den diffusa färgen, är du på rätt plats. Aspose.3D för .NET ger dig ett rent, objekt‑orienterat API som låter dig inspektera, hämta och ändra materialattribut utan att lämna din C#‑kod. I den här handledningen går vi igenom hur du laddar en scen, enumererar dess materialegenskaper och ändrar värden såsom den diffusa komponenten—så att du kan ge dina modeller exakt det utseende du vill ha.
 
 ## Snabba svar
-- **Vad är huvudmålet?** Lista materialegenskaper och ändra dem (t.ex. diffusionsfärg).  
+- **Vad är huvudmålet?** Lista materialegenskaper och modifiera dem (t.ex. diffusa färgen).  
 - **Vilket bibliotek krävs?** Aspose.3D för .NET.  
 - **Behöver jag en licens?** En tillfällig eller full licens krävs för produktionsbruk.  
-- **Stödda filformat?** FBX, OBJ, STL, STL‑ASCII, 3MF och fler.  
-- **Typisk implementeringstid?** Cirka 10‑15 minuter för ett grundläggande skript som listar egenskaper.
+- **Vilka filformat stöds?** FBX, OBJ, STL, STL‑ASCII, 3MF, och mer.  
+- **Typisk implementeringstid?** Ungefär 10‑15 minuter för ett grundläggande skript som listar egenskaper.  
 
 ## Vad är **lista materialegenskaper**?
 Att lista materialegenskaper innebär att iterera över ett materials `PropertyCollection` för att läsa varje egenskapsnamn och dess aktuella värde. Detta är användbart för felsökning, visuell inspektion eller för att bygga UI‑kontroller som låter användare justera materialinställningar i realtid.
 
 ## Varför använda Aspose.3D för att **åtkomma materialegenskaper**?
-- **Ingen extern konverterare** – arbeta direkt med inbyggda .NET‑objekt.  
+- **Ingen externa konverterare** – arbeta direkt med inhemska .NET‑objekt.  
 - **Rik egenskapsmodell** – stöder anpassade FBX‑specifika attribut utöver standard‑PBR‑värden.  
 - **Plattformsoberoende** – fungerar på .NET Framework, .NET Core och .NET 5/6+.  
 
@@ -54,7 +54,7 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-## Steg 1: Ladda 3D‑scen
+## Steg 1: Ladda 3D-scen
 
 ```csharp
 //ExStart: Load3DScene
@@ -90,7 +90,7 @@ for (int i = 0; i < props.Count; i++)
 //ExEnd: ListAllProperties
 ```
 
-## Steg 4: **Hur man ändrar diffuse** – modifiera Diffuse‑egenskapen
+## Steg 4: **Hur man ändrar diffus** – modifiera Diffuse‑egenskapen
 
 ```csharp
 //ExStart: GetModifyPropertyByName
@@ -129,59 +129,64 @@ foreach (var pp in pdiffuse.Properties)
 //ExEnd: TraversePropertyProperties
 ```
 
-## Hur man **ändrar 3D‑materialfärg** utöver diffuse
+## Hur man **ändrar 3D-materialfärg** utöver diffus
 Om du behöver påverka spekulära, omgivande eller emissiva färger, ersätt helt enkelt `"Diffuse"` med `"Specular"` eller `"Ambient"` i `props["..."]`‑tilldelningen ovan. Samma `Vector3`‑ eller `Vector4`‑strukturer gäller.
 
+## Hur man **uppdaterar materialfärg i C#**
+Att ändra ett materials visuella utseende reduceras till att uppdatera rätt egenskap i `PropertyCollection`. Oavsett om du vill modifiera den diffusa, spekulära eller någon anpassad färgattribut, förblir mönstret detsamma:
+
+1. Hämta egenskapen med dess exakta namn (skiftlägeskänsligt).  
+2. Tilldela ett nytt `Vector3` (RGB) eller `Vector4` (RGBA)‑värde.  
+
+Eftersom API:et arbetar direkt med C#‑objekt kan du **uppdatera materialfärg C#**‑kod utan några mellanfiler eller konverterare. Detta gör det perfekt för realtidsredigerare eller batch‑processeringspipeline.
+
 ## Vanliga fallgropar & tips
-- **Skiftlägeskänslighet för egenskapsnamn** – Aspose.3D‑egenskapsnycklar är skiftlägeskänsliga; använd exakt det namn som visas i listutdata.  
+- **Skiftlägeskänslighet för egenskapsnamn** – Aspose.3D‑egenskapsnycklar är skiftlägeskänsliga; använd exakt det namn som visas i listningsutdata.  
 - **Saknad egenskap** – Inte alla material exponerar varje PBR‑attribut. Kontrollera `props.ContainsKey("Specular")` innan du åtkommer.  
-- **Spara ändringar** – Efter att ha modifierat egenskaper, anropa `scene.Save("output.fbx");` för att bestå ändringarna.
+- **Spara ändringar** – Efter att ha modifierat egenskaper, anropa `scene.Save("output.fbx");` för att persistera ändringarna.
 
 ## Slutsats
 
-Du har nu lärt dig hur man **listar materialegenskaper**, **hämtar en egenskap efter namn** och **ändrar diffusionsfärgen** (eller någon annan materialattribut) med Aspose.3D för .NET. Experimentera med olika egenskapstyper för att finjustera utseendet på dina 3‑D‑tillgångar.
+Du har nu lärt dig hur man **listar materialegenskaper**, **hämtar en egenskap efter namn** och **ändrar den diffusa färgen** (eller någon annan materialattribut) med Aspose.3D för .NET. Experimentera med olika egenskapstyper för att finjustera utseendet på dina 3‑D‑tillgångar, och kom ihåg att du kan **uppdatera materialfärg C#** med bara en enda kodrad.
 
 ## Vanliga frågor
 
 ### Q1: Kan jag använda Aspose.3D för .NET med andra 3D‑filformat?
-
-A1: Ja, Aspose.3D stöder olika 3D‑filformat, inklusive FBX, STL och många fler.
+A1: Ja, Aspose.3D stödjer olika 3D‑filformat, inklusive FBX, STL och många fler.
 
 ### Q2: Hur kan jag skaffa en tillfällig licens för Aspose.3D för .NET?
-
 A2: Besök [här](https://purchase.aspose.com/temporary-license/) för att skaffa en tillfällig licens.
 
 ### Q3: Finns det ett community‑forum för Aspose.3D‑användare?
-
 A3: Ja, du kan hitta support och diskussioner på [Aspose.3D‑forumet](https://forum.aspose.com/c/3d/18).
 
 ### Q4: Var kan jag hitta detaljerad dokumentation för Aspose.3D för .NET?
-
 A4: Se [dokumentationen](https://reference.aspose.com/3d/net/) för omfattande vägledning.
 
 ### Q5: Kan jag prova Aspose.3D för .NET gratis innan jag köper?
+A5: Självklart! Ladda ner [gratis provversion](https://releases.aspose.com/) för att utforska dess funktioner.
 
-A5: Absolut! Ladda ner [gratis provversionen](https://releases.aspose.com/) för att utforska funktionerna.
-
-## Vanligt förekommande frågor
+## Vanliga frågor
 
 **Q: Vad representerar `Vector3(1, 0, 1)`?**  
-A: Den sätter diffusionsfärgen till magenta (röd = 1, grön = 0, blå = 1) i linjärt färgrymd.
+A: Det sätter den diffusa färgen till magenta (röd = 1, grön = 0, blå = 1) i linjärt färgrymd.
 
-**Q: Behöver jag anropa `scene.Save` efter att ha ändrat egenskaper?**  
+**Q: Måste jag anropa `scene.Save` efter att ha ändrat egenskaper?**  
 A: Ja, att spara scenen skriver dina ändringar till disk; annars förblir förändringarna bara i minnet.
 
 **Q: Kan jag enumerera anpassade FBX‑attribut?**  
 A: Absolut. `PropertyCollection` kommer att inkludera alla anpassade attribut, som du kan komma åt via `GetProperty("customName")`.
 
 **Q: Finns det ett sätt att batch‑uppdatera flera material?**  
-A: Loopa igenom `scene.RootNode.ChildNodes` och upprepa stegen för egenskapsmodifiering för varje material.
+A: Loop igenom `scene.RootNode.ChildNodes` och upprepa stegen för egenskapsmodifiering för varje material.
 
 **Q: Stöder Aspose.3D .NET 6?**  
 A: Ja, biblioteket är fullt kompatibelt med .NET 6 och senare.
 
-**Senast uppdaterad:** 2026-01-17  
-**Testat med:** Aspose.3D 24.11 för .NET  
+---
+
+**Senast uppdaterad:** 2026-03-28  
+**Testat med:** Aspose.3D 24.11 for .NET  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
