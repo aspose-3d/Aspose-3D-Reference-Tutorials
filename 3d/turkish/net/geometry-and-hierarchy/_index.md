@@ -1,11 +1,11 @@
 ---
-date: 2026-01-17
-description: Aspose.3D for .NET ile geometrik dönüşüm 3D tekniklerini öğrenin. PBR
-  malzemesini uygulayın, düğüm matrisini dönüştürün ve sürükleyici öğreticilerde hiyerarşiyi
-  ustalaşın.
+date: 2026-03-31
+description: Aspose.3D for .NET kullanarak PBR malzemelerini nasıl uygulayacağınızı,
+  küp nasıl oluşturacağınızı, normalleri nasıl ayarlayacağınızı ve hiyerarşiyi nasıl
+  sorgulayacağınızı öğrenin.
 linktitle: Geometry and Hierarchy
 second_title: Aspose.3D .NET API
-title: Geometrik Dönüşüm 3D – Geometri ve Hiyerarşi
+title: 3D Geometri ve Hiyerarşi'de PBR Malzemeleri Nasıl Uygulanır
 url: /tr/net/geometry-and-hierarchy/
 weight: 25
 ---
@@ -14,97 +14,150 @@ weight: 25
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Geometry and Hierarchy
+# Geometri ve Hiyerarşi
 
-## Introduction
+## Giriş
 
-Aspose.3D for .NET kullanarak **geometric transformation 3d** için nihai rehbere hoş geldiniz. İster yeni başlıyor olun ister yıllardır 3D uygulamaları geliştiriyor olun, bu uygulamalı öğreticiler koleksiyonu, PBR materyali uygulamaktan dönüşüm matrisiyle düğümleri manipüle etmeye kadar her şeyi ustalaşmanıza yardımcı olacak. Hadi dalalım ve kavramları gerçek dünya 3D sahnelere nasıl dönüştürebileceğinizi görelim.
+Aspose.3D for .NET kullanarak **geometric transformation 3d** için nihai rehbere hoş geldiniz. İster yeni başlıyor olun ister yıllardır 3D uygulamaları geliştiriyor olun, bu uygulamalı eğitimler koleksiyonu, PBR malzemesi uygulamaktan dönüşüm matrisiyle düğümleri manipüle etmeye kadar her şeyi öğrenmenize yardımcı olacak. **PBR'yi nasıl uygulayacağınızı—özellikle pbr malzemelerini 3D modellerinize nasıl uygulayacağınızı—öğreneceksiniz**. Hadi dalalım ve kavramları gerçek dünya 3D sahnelere nasıl dönüştürebileceğinizi görelim.
 
-## Geometric Transformation 3D Overview
+## Hızlı Yanıtlar
+- **PBR nedir?** Physically‑Based Rendering (PBR), ışığa gerçekçi malzeme tepkisini simüle eder.  
+- **Aspose.3D for PBR neden kullanılır?** Malzeme oluşturma ve renderleme için doğrudan bir .NET API'si sağlar.  
+- **Bir lisansa ihtiyacım var mı?** Ücretsiz deneme mevcuttur; üretim için ticari lisans gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **PBR'yi özel shader'larla birleştirebilir miyim?** Evet, malzemeleri özel shader kodu ile genişletebilirsiniz.
 
-Bu bölümde aşağıda ele alınan temel konuların hızlı bir özetini sunuyoruz. Şunları öğreneceksiniz:
+## Aspose.3D'de PBR Malzemeleri Nasıl Uygulanır
+PBR malzemelerinin uygulanması, fotogerçekçi 3D sahneler oluşturmanın temel taşıdır. Bu bölümde, bir malzeme oluşturma, geometriye atama ve sonucu renderleme gibi temel adımları ele alacağız. Aynı yaklaşım aşağıdaki birçok eğitimde tekrar kullanılır, bu yüzden bunu ustalaşmak, keşfedeceğiniz diğer örnekleri hızlandıracaktır.
 
-* Nesnelere gerçekçi aydınlatma için physically‑based rendering (PBR) materyalleri uygulamak.  
-* XPath‑like sözdizimiyle sahne hiyerarşisini gezmek ve sorgulamak.  
-* Düğümlere quaternion, Euler açıları ve dönüşüm matrislerini birleştirerek uygulamak.  
+### Neden PBR?
+- **Gerçekçilik:** PBR, ışığın gerçek dünyadaki yüzeylerle etkileşimini taklit eder.  
+- **Tutarlılık:** Malzemeler her türlü aydınlatma koşulunda doğru görünür.  
+- **Performans:** Optimize edilmiş shader'lar, PBR'yi etkileşimli uygulamalar için uygun kılar.
 
-Her öğretici bağımsızdır, örnek kod içerir ve beklenen görsel sonucu gösterir, böylece adım adım takip edebilirsiniz.
+### Önkoşullar
+- Aspose.3D for .NET (en son sürüm) yüklü.  
+- .NET geliştirme ortamı (Visual Studio 2022 veya daha yeni).
 
-## Applying PBR Material to Box in 3D Scenes
+### Diğer konularla nasıl ilişkilidir
+Bir kez **pbr'yi nasıl uygulayacağınızı** öğrendiğinizde, **euler angle rotation**, kuaternion karıştırma veya doğrudan matris manipülasyonu gibi diğer dönüşümlerle kolayca birleştirebilirsiniz—tüm bunlar aşağıdaki eğitimlerde ele alınmıştır.
 
-Physically based rendering gücünü keşfedin ve basit bir kutuya **PBR material** uygulamayı öğrenin. Bu öğretici bir materyal oluşturmayı, geometrisine atamayı ve sahneyi gerçekçi yansımalarla render etmeyi adım adım gösterir.  
+## Geometrik Dönüşüm 3D Genel Bakış
+
+Bu bölümde, aşağıda ele alınan temel konuların hızlı bir özetini sunuyoruz. Şunları öğreneceksiniz:
+
+* Gerçekçi aydınlatma için nesnelere fiziksel‑temelli render (PBR) malzemeleri uygulamak.  
+* XPath‑benzeri sözdizimiyle sahne hiyerarşisini gezinmek ve sorgulamak.  
+* Kuaternionları, Euler açılarını ve dönüşüm matrislerini düğümlere birleştirmek ve uygulamak.  
+
+Her eğitim bağımsızdır, örnek kod içerir ve beklenen görsel sonucu gösterir, böylece adım adım takip edebilirsiniz.
+
+## 3D Sahnelere Kutuda PBR Malzemesi Uygulama
+
+Fiziksel temelli render'ın gücünü keşfedin ve basit bir kutuya **PBR malzemesi** nasıl uygulanacağını öğrenin. Bu eğitim, bir malzeme oluşturmayı, geometriye atamayı ve sahneyi gerçekçi yansımalarla renderlemeyi adım adım gösterir.  
 [Read more](./apply-pbr-material-to-box/)
 
+## XPath-Benzeri Nesne Sorguları
 
-## XPath-Like Object Queries
-
-XPath‑like sorgularla karmaşık sahne grafiklerini zahmetsizce gezin. Bu kılavuz, düğümleri bulmayı, tipe göre filtrelemeyi ve nesneleri ayrıntılı dolaşım kodu yazmadan manipüle etmeyi gösterir.  
+XPath‑benzeri sorgularla karmaşık sahne grafiklerini zahmetsizce gezin. Bu kılavuz, düğümleri bulmayı, tipe göre filtrelemeyi ve nesneleri ayrıntılı geçiş kodu yazmadan manipüle etmeyi gösterir.  
 [XPath-Like Object Queries Tutorial](./xpath-like-object-queries/)
 
-Aspose.3D for .NET’in potansiyelini ortaya çıkarın! Sahne hiyerarşisi içinde nesneleri zahmetsizce gezmek ve manipüle etmek için XPath‑like sorguların çok yönlülüğünden yararlanın. Devrim niteliğinde bir deneyim için şimdi indirin, 3D grafik manipülasyonunu hiç olmadığı kadar basitleştirin.
+Aspose.3D for .NET'in potansiyelini ortaya çıkarın! XPath‑benzeri sorguların çok yönlülüğünden yararlanarak sahne hiyerarşisindeki nesneleri zahmetsizce gezebilir ve manipüle edebilirsiniz. Şimdi indirin ve 3D grafik manipülasyonunu daha önce hiç olmadığı kadar basitleştiren devrim niteliğinde bir deneyim yaşayın.
 
+## 3D Sahnelere Kuaternionları Birleştirme
 
-## Concatenating Quaternions in 3D Scenes
-
-Birden fazla quaternion dönüşümünü tek, pürüzsüz bir dönüşümde birleştirmeyi öğrenin. Adım adım örnek, animasyonlu karakterler veya kameralar için karmaşık yönelimler oluşturmayı gösterir.  
+Birden fazla kuaternion dönüşümünü tek, pürüzsüz bir dönüşümde birleştirmeyi öğrenin. Adım adım örnek, animasyonlu karakterler veya kameralar için karmaşık yönelimler oluşturmayı gösterir.  
 [Read more](./concatenate-quaternions/)
 
-## Creating Cube Scenes in 3D
+## 3D'de Küp Sahnesi Oluşturma
 
-Sıfırdan tam bir 3D küp sahnesi oluşturun; ağ (mesh) oluşturma, materyal atama ve sahne dışa aktarma konularını kapsar. Bu öğretici, her aşamayı görmek isteyen görsel öğreniciler için idealdir.  
+Sıfırdan tam bir 3D küp sahnesi oluşturun; ağ (mesh) oluşturma, malzeme atama ve sahne dışa aktarma konularını kapsar. Bu eğitim, sürecin her aşamasını görmek isteyen görsel öğreniciler için mükemmeldir.  
 [Read more](./create-cube-scenes/)
 
-## Exposing Geometric Transformation in 3D Scenes
+> **Pro ipucu:** Bu eğitim, **küp oluşturmayı** programlı olarak nasıl yapacağınızı gösterir; bu, herhangi bir 3D projesi için sağlam bir temeldir.
 
-**geometric transformation 3d**—çevrim, döndürme ve ölçekleme—temellerine dalın ve düğümlere nasıl uygulandığını öğrenin. Sahnenizdeki herhangi bir nesneyi nasıl manipüle edeceğinize dair sağlam bir anlayış kazanacaksınız.  
+## 3D Sahnelere Geometrik Dönüşüm Açığa Çıkarma
+
+Düğümlere uygulanan **geometric transformation 3d** temel kavramlarına—çevrim, döndürme ve ölçekleme—derinlemesine bakın. Sahnenizdeki herhangi bir nesneyi nasıl manipüle edeceğinizi sağlam bir şekilde öğreneceksiniz.  
 [Read more](./expose-geometric-transformation)
 
-## Applying Material to Cube in 3D Scenes
+## 3D Sahnelere Küpe Malzeme Uygulama
 
-Bir küpün gerçekçiliğini artırmak için doku ve gölgelendiriciler uygulamayı keşfedin. Bu kılavuz, materyal özelliklerini ayarlamayı, UV haritalamayı ve son sonucu render etmeyi adım adım anlatır.  
+Küpün gerçekçiliğini dokular ve shader'lar uygulayarak artırmayı keşfedin. Bu kılavuz, malzeme özelliklerini ayarlamayı, UV haritalamayı ve son sonucu renderlamayı adım adım gösterir.  
 [Read more](./material-to-cube/)
 
-## Working with Mesh Geometry Data in 3D Scenes
+## 3D Sahnelere Mesh Geometri Verisi ile Çalışma
 
-Ağ (mesh) geometrisi verilerini oluşturma, düzenleme ve serileştirme konusunda uzmanlaşın. Vertex, normal ve yüzeyleri programlı olarak üretmeyi, ardından ağları popüler 3D formatlarında kaydetmeyi öğreneceksiniz.  
+Mesh geometri verisinin oluşturulması, düzenlenmesi ve serileştirilmesini ustalaşın. Vertex, normal ve yüzeyleri programlı olarak nasıl üreteceğinizi, ardından mesh'i popüler 3D formatlarına nasıl kaydedeceğinizi öğreneceksiniz.  
 [Read more](./mesh-geometry-data/)
 
-## Understanding Node Hierarchy in 3D Scenes
+## 3D Sahnelere Düğüm Hiyerarşisini Anlama
 
-Aspose.3D’de düğümlerin nasıl organize edildiğine dair net bir bakış elde edin ve hiyerarşik yapıları performans için dolaşma, yeniden ebeveynleme ve optimize etme tekniklerini öğrenin.  
+Aspose.3D'de düğümlerin nasıl organize edildiğine dair net bir anlayış edinin ve gezinme, yeniden ebeveynleme ve performans için hiyerarşik yapıları optimize etme tekniklerini öğrenin.  
 [Read more](./node-hierarchy/)
 
-## Setting Up Normals on Cube in 3D Scenes
+## 3D Sahnelere Küpte Normaller Ayarlama
 
-Küp yüzeylerine normal hesaplayarak ve atayarak aydınlatma doğruluğunu artırın. Bu öğretici, normalin neden önemli olduğunu açıklar ve gereken API çağrılarını gösterir.  
+Küp yüzeylerine normaller hesaplayarak ve atayarak aydınlatma doğruluğunu artırın. Bu eğitim, normallerin neden önemli olduğunu açıklar ve gerekli API çağrılarını gösterir.  
 [Read more](./setup-normals-cube/)
 
-## Setting Up UV on Cube in 3D Scenes
+> **Not:** Buradaki adımlar, gerçekçi gölgelendirme için ön koşul olan **normalleri doğru şekilde ayarlamayı** gösterir.
 
-Küp etrafına dokuları doğru şekilde saracak kesin UV haritalama tekniklerini öğrenin. Kılavuz, yaygın dikiş artefaktlarından kaçınma ipuçlarını da içerir.  
+## 3D Sahnelere Küpte UV Ayarlama
+
+Dokuları küp etrafına doğru şekilde sarmak için hassas UV haritalama tekniklerini öğrenin. Kılavuz, yaygın dikiş artefaktlarından kaçınma ipuçları içerir.  
 [Read more](./setup-uv-cube/)
 
-## Transforming Node by Euler Angles in 3D Scenes
+> **İpucu:** Bu eğitim, herhangi bir PBR malzemesiyle çalışan **küp uv haritalama** stratejilerini kapsar.
 
-Düğümlere sezgisel Euler‑angle dönüşümleri uygulayın; gimbal lock’u yönetme ve dönüşüm sırasını belirleme konularında rehberlik alarak öngörülebilir sonuçlar elde edin.  
+## 3D Sahnelere Düğümü Euler Açılarla Dönüştürme
+
+Düğümlere sezgisel Euler‑açısı dönüşleri uygulayın; gimbal kilidiyle başa çıkma ve öngörülebilir sonuçlar için dönüş sıralaması konularında rehberlik alacaksınız.  
 [Read more](./transformation-node-euler-angles/)
 
-## Transforming Node by Quaternion in 3D Scenes
+> **Anahtar kelime:** İçerik, basit yön kontrolü için **euler angle rotation** üzerine odaklanır.
 
-Quaternion‑tabanlı dönüşümlere dalın; bu yöntem pürüzsüz enterpolasyon sağlar ve gimbal lock’tan kaçınır. Başlangıç seviyesindeki bu öğretici, quaternion oluşturma ve uygulamayı adım adım gösterir.  
+## 3D Sahnelere Düğümü Kuaternion ile Dönüştürme
+
+Kuaternion‑tabanlı dönüşümlere dalın; bu dönüşümler pürüzsüz ara değerleme sağlar ve gimbal kilidinden kaçınır. Bu başlangıç seviyesindeki eğitim, kuaternionları oluşturmayı ve uygulamayı adım adım gösterir.  
 [Read more](./transformation-node-quaternion/)
 
-## Transforming Node by Transformation Matrix in 3D Scenes
+## 3D Sahnelere Düğümü Dönüşüm Matrisiyle Dönüştürme
 
-**transform node matrix**i doğrudan kullanarak tek bir işlemde çevirme, döndürme ve ölçekleme üzerinde tam kontrol sağlayın. Örnek, sıfırdan bir matris oluşturup bir düğüme uygulamayı gösterir.  
+Tek bir işlemde çeviri, döndürme ve ölçekleme üzerinde tam kontrol sağlamak için **transform node matrix**'i doğrudan nasıl kullanacağınızı keşfedin. Örnek, sıfırdan bir matris oluşturmayı ve bir düğüme uygulamayı gösterir.  
 [Read more](./transformation-node-matrix/)
 
-## Triangulating Mesh in 3D Scenes
+## 3D Sahnelere Mesh Üçgenleştirme
 
-Karmaşık poligon ağlarını üçgenlere dönüştürün; bu, birçok render motoru için ön koşuldur. Bu kılavuz, Aspose.3D’nin triangülasyon yardımcılarını nasıl kullanacağınızı ve çıktıyı nasıl doğrulayacağınızı gösterir.  
+Karmaşık çokgen mesh'leri üçgenlere dönüştürün; bu, birçok render motoru için ön koşuldur. Bu kılavuz, Aspose.3D’nin üçgenleştirme araçlarını nasıl kullanacağınızı ve çıktıyı nasıl doğrulayacağınızı gösterir.  
 [Read more](./triangulate-mesh/)
 
-Aspose.3D for .NET öğreticileriyle bu heyecan verici yolculuğa çıkın ve 3D grafik uzmanlığınızı yükseltin. Her öğreticiyi inceleyin, adımları izleyin ve becerilerinizin yeni zirvelere ulaşmasını izleyin. Kodlamanın tadını çıkarın!
+Aspose.3D for .NET eğitimlerinin bu heyecan verici yolculuğuna başlayın ve 3D grafik uzmanlığınızı yükseltin. Her eğitime dalın, adımları izleyin ve becerilerinizin yeni zirvelere ulaşmasını izleyin. Kodlamanın tadını çıkarın!
+
+## Sıkça Sorulan Sorular
+
+**Q: PBR malzemeleri kullanan yeni bir projeye nasıl başlarım?**  
+A: Aspose.3D NuGet paketini kurun, bir `Scene` oluşturun ve ilk PBR malzemenizi eklemek için “Applying PBR Material to Box” eğitimini izleyin.
+
+**Q: Bu eğitimleri .NET Core ile kullanabilir miyim?**  
+A: Evet, tüm örnekler .NET Core 3.1 ve üzeri, ayrıca .NET 5/6 ile çalışır.
+
+**Q: Bir düğüm hiyerarşisini sorgulamanın en iyi yolu nedir?**  
+A: “XPath‑Like Object Queries” eğitiminde gösterilen XPath‑benzeri sorgu sözdizimini kullanın—bu, **how to query hierarchy**'yi (hiyerarşiyi nasıl sorgulayacağınızı) en öz yöntemdir.
+
+**Q: Küpümde hatalı aydınlatma alıyorum—ne kontrol etmeliyim?**  
+A: Normallerin doğru ayarlandığını doğrulayın (“Setting Up Normals on Cube” bölümüne bakın) ve PBR malzemenizin uygun metalik ve pürüzlülük değerlerini içerdiğinden emin olun.
+
+**Q: Birçok dönüşüm matrisi kullanırken performans açısından dikkate alınması gerekenler var mı?**  
+A: Mümkün olduğunda toplu dönüşümler yapın ve tahsisleri azaltmak için matris nesnelerini yeniden kullanın; “Transforming Node by Transformation Matrix” rehberi en iyi uygulama ipuçlarını içerir.
+
+---
+
+**Son Güncelleme:** 2026-03-31  
+**Test Edilen:** Aspose.3D for .NET (latest)  
+**Yazar:** Aspose
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

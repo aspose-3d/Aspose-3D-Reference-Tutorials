@@ -1,9 +1,9 @@
 ---
-date: 2025-11-29
-description: Aspose.3D for Javaで、**3DシーンをJavaで作成**し、XPathに似たクエリを使用して**タイプでオブジェクトを選択**する方法を学びます。
-linktitle: Create 3D Scene Java – Apply XPath‑Like Queries with Aspose.3D
+date: 2026-03-31
+description: Aspose.3D for JavaでXPathライクなクエリを使用して名前でオブジェクトを選択する方法を学び、プログラムで3Dシーンを構築しましょう。
+linktitle: Select Objects by Name in Java 3D Scene – XPath‑Like Queries with Aspose.3D
 second_title: Aspose.3D Java API
-title: Javaで3Dシーンを作成 – Aspose.3DでXPathライクなクエリを適用
+title: Java 3Dシーンで名前でオブジェクトを選択 – Aspose.3DによるXPathライクなクエリ
 url: /ja/java/3d-objects-and-scenes/xpath-like-object-queries/
 weight: 11
 ---
@@ -12,30 +12,40 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3DシーンJavaの作成 – Aspose.3DでXPathライクなクエリを適用
+# Java 3Dシーンで名前でオブジェクトを選択 – Aspose.3DによるXPath風クエリ
 
-## Introduction  
+## はじめに  
 
-If you need to **create 3d scene java** applications that manipulate complex hierarchies of objects, Aspose.3D for Java gives you a clean, XPath‑style way to locate exactly what you need. In this tutorial we’ll walk through building a simple scene, adding a hierarchy of nodes, and then using XPath‑like queries to **select objects by type** (for example, cameras or lights) no matter where they live in the tree. By the end you’ll be comfortable querying, filtering, and retrieving 3‑D entities with just a single expression.
+オブジェクトの複雑な階層を操作する **create 3d scene java** アプリケーションが必要な場合、Aspose.3D for Java は、必要なものを正確に見つけるためのクリーンな XPath 形式の方法を提供します。このチュートリアルでは、シンプルなシーンの構築、ノード階層の追加、そして XPath 風クエリを使用して **名前でオブジェクトを選択**（例：カメラやライト）する方法を解説します。最後までに、単一の式でクエリ、フィルタリング、3‑D エンティティの取得が自在にできるようになります。
 
-## Quick Answers
-- **What can I query?** Any node or entity (Camera, Light, Mesh, etc.) in a Scene.  
-- **How do I select objects by type?** Use an XPath‑like expression such as `//*[(@Type='Camera')]`.  
-- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
-- **Which Java version is supported?** Java 8 or later.  
-- **Where can I download Aspose.3D?** From the official download page linked in the prerequisites.
+## クイック回答
+- **何をクエリできますか？** シーン内の任意のノードまたはエンティティ（Camera、Light、Mesh など）。  
+- **タイプでオブジェクトを選択するには？** `//*[(@Type='Camera')]` のような XPath‑like 式を使用します。  
+- **開発にライセンスは必要ですか？** テストには無料トライアルで動作しますが、本番環境ではライセンスが必要です。  
+- **サポートされている Java バージョンは？** Java 8 以降。  
+- **Aspose.3D はどこからダウンロードできますか？** 前提条件でリンクされている公式ダウンロードページから入手できます。
 
-## Prerequisites  
+## なぜ重要か  
 
-Before we start, make sure you have:
+3D コンテンツを扱う際、シーングラフを手動で辿るとエラーが発生しやすく、保守が困難になります。XPath 風クエリは、必要なオブジェクトを正確に見つける宣言的で読みやすい方法を提供し、開発速度を上げバグを減らします。特に、数十から数百のノードを持つ大規模シーンで有効です。
 
-- Java Development Kit (JDK) installed on your machine.  
-- Aspose.3D for Java library downloaded and set up. You can find the download link **[here](https://releases.aspose.com/3d/java/)**.  
-- Basic knowledge of Java programming.  
+## Aspose.3DにおけるXPath風クエリとは？  
 
-## Import Packages  
+Aspose.3D は、シーングラフに対して機能する XPath 構文のサブセットを実装しています。XML ノードの代わりに、式は **A3DObject** インスタンス（ノード、カメラ、ライト、メッシュなど）を対象とします。これにより、階層を手動で辿ることなく、「すべてのカメラ」や「名前が ‘light’ のオブジェクト」などの表現力豊かなフィルタを記述できます。
 
-First, import the Aspose.3D classes you’ll need. This step makes the library available to your project.
+## XPath風クエリを使用して名前でオブジェクトを選択する方法  
+
+名前でオブジェクトを選択するのは、`@Name` 属性にマッチする式を書くだけで簡単です。以下に、タイプと名前を組み合わせて選択するなど、いくつかの一般的なパターンを示します。
+
+## 前提条件  
+
+- Java Development Kit（JDK）がマシンにインストールされていること。  
+- Aspose.3D for Java ライブラリがダウンロードされ、設定されていること。ダウンロードリンクは **[こちら](https://releases.aspose.com/3d/java/)** です。  
+- Java プログラミングの基本的な知識。
+
+## パッケージのインポート  
+
+まず、必要な Aspose.3D クラスをインポートします。この手順でライブラリがプロジェクトで使用可能になります。
 
 ```java
 import com.aspose.threed.*;
@@ -44,21 +54,11 @@ import java.util.ArrayList;
 import java.util.List;
 ```
 
-## What is an XPath‑like query in Aspose.3D?  
+## ステップバイステップガイド  
 
-Aspose.3D implements a subset of the XPath syntax that works against the scene graph. Instead of XML nodes, the expressions target **A3DObject** instances (nodes, cameras, lights, meshes, etc.). This lets you write expressive filters such as “all cameras” or “objects whose name is ‘light’” without manually traversing the hierarchy.
+### 手順 1: テスト用シーンの作成  
 
-## Why use XPath‑like queries to **select objects by type**?  
-
-- **Speed:** One line replaces dozens of `if` checks and loops.  
-- **Readability:** The query reads like natural language.  
-- **Flexibility:** Change the filter without touching traversal code.
-
-## Step‑by‑Step Guide  
-
-### Step 1: Create a Scene for Testing  
-
-We start with an empty scene that will host our hierarchy.
+階層をホストする空のシーンから始めます。
 
 ```java
 // ExStart:CreateScene
@@ -66,9 +66,9 @@ Scene s = new Scene();
 // ExEnd:CreateScene
 ```
 
-### Step 2: Build a Hierarchy of Nodes  
+### 手順 2: ノード階層の構築  
 
-Next, we add a few child nodes under the root node. Some nodes contain a **Camera** or a **Light** entity, which we’ll later query.
+次に、ルートノードの下にいくつかの子ノードを追加します。一部のノードには **Camera** または **Light** エンティティが含まれており、後でクエリします。
 
 ```java
 // ExStart:CreateHierarchy
@@ -82,9 +82,9 @@ c.createChildNode("c2").addEntity(new Light("light"));
 // ExEnd:CreateHierarchy
 ```
 
-### Step 3: Apply XPath‑Like Queries  
+### 手順 3: XPath風クエリの適用  
 
-Now the fun part—using XPath‑style strings to **select objects by type** or name.
+さあ楽しいパートです—XPath 形式の文字列を使用して **名前でオブジェクトを選択** またはタイプで選択します。
 
 ```java
 // ExStart:XPathLikeObjectQueries
@@ -102,51 +102,59 @@ obj = (A3DObject) s.getRootNode().selectSingleObject("/");
 // ExEnd:XPathLikeObjectQueries
 ```
 
-**Explanation of the key expressions**
+**キー式の説明**
 
-- `//*[(@Type = 'Camera') or (@Name = 'light')]` – Finds every object in the scene whose **type** attribute equals `Camera` **or** whose **name** attribute equals `light`. This is a classic example of **select objects by type**.
-- `/c/*/<Camera>` – Starts at the root, goes to node `c`, then any child (`*`), and finally selects the `<Camera>` entity.
-- `a1` – A shorthand that searches the entire tree for a node named `a1`.
-- `/` – Returns the root node itself.
+- `//*[(@Type = 'Camera') or (@Name = 'light')]` – シーン内のすべてのオブジェクトで、**type** 属性が `Camera` と等しいか、**name** 属性が `light` と等しいものを検索します。これは **名前でオブジェクトを選択**（およびタイプで選択）の典型的な例です。  
+- `/c/*/<Camera>` – ルートから開始し、ノード `c` に移動し、任意の子 (`*`) を通り、最後に `<Camera>` エンティティを選択します。  
+- `a1` – ツリー全体で名前が `a1` のノードを検索するショートハンドです。  
+- `/` – ルートノード自体を返します。
 
-### Common Pitfalls & Tips  
+### よくある落とし穴とヒント  
 
-- **Case sensitivity:** Attribute names (`@Type`, `@Name`) are case‑sensitive.  
-- **Entity vs. Node:** Use `<Camera>` syntax only when you need the underlying entity, not just the node.  
-- **Performance:** For very large scenes, narrow the search path (e.g., start from a specific subtree) to improve speed.
+- **大文字小文字の区別:** 属性名（`@Type`、`@Name`）はケースセンシティブです。  
+- **エンティティ vs. ノード:** 基礎となるエンティティが必要な場合にのみ `<Camera>` 構文を使用し、単なるノードの場合は使用しません。  
+- **パフォーマンス:** 非常に大規模なシーンでは、検索パスを絞り込む（例: 特定のサブツリーから開始）ことで速度を向上させます。  
 
-## Conclusion  
+## よくある問題と解決策  
 
-You now know how to **create 3d scene java** programs that leverage XPath‑like queries to efficiently **select objects by type**. This approach scales from simple demos to production‑grade 3‑D applications, giving you fine‑grained control over scene traversal without verbose code.
+| 問題 | 原因 | 解決策 |
+|------|------|--------|
+| 結果が返されない | クエリ文字列のタイプミスまたは属性名の大文字小文字の違い | `@Name` の綴りとケースを確認し、正確なノード名を使用してください。 |
+| 予期しないノードが含まれる | `//*` を使用するとツリー全体を検索するため | パスを制限します。例: `/c/*` で範囲を絞ります。 |
+| 巨大シーンでのパフォーマンス低下 | クエリが全グラフで実行されるため | ルートではなく、既知のサブノードからクエリを開始します。 |
 
-## Frequently Asked Questions  
+## よくある質問  
 
-**Q: Where can I find the Aspose.3D for Java documentation?**  
-A: The documentation is available **[here](https://reference.aspose.com/3d/java/)**.
+**Q: Aspose.3D for Java のドキュメントはどこで見つけられますか？**  
+A: ドキュメントは **[こちら](https://reference.aspose.com/3d/java/)** にあります。
 
-**Q: How can I download Aspose.3D for Java?**  
-A: You can download it **[here](https://releases.aspose.com/3d/java/)**.
+**Q: Aspose.3D for Java をダウンロードするには？**  
+A: 以下からダウンロードできます **[こちら](https://releases.aspose.com/3d/java/)**。
 
-**Q: Is there a free trial available?**  
-A: Yes, you can get a free trial **[here](https://releases.aspose.com/)**.
+**Q: 無料トライアルは利用できますか？**  
+A: はい、無料トライアルは **[こちら](https://releases.aspose.com/)** から取得できます。
 
-**Q: Where can I get support for Aspose.3D for Java?**  
-A: Visit the support forum **[here](https://forum.aspose.com/c/3d/18)**.
+**Q: Aspose.3D for Java のサポートはどこで受けられますか？**  
+A: サポートフォーラムは **[こちら](https://forum.aspose.com/c/3d/18)** です。
 
-**Q: Need a temporary license?**  
-A: Obtain a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
+**Q: 一時ライセンスが必要ですか？**  
+A: 一時ライセンスは **[こちら](https://purchase.aspose.com/temporary-license/)** で取得できます。
 
-**Q: Can I query custom user‑defined properties?**  
-A: Yes, you can extend the XPath expression with additional `@` attributes that you add to nodes.
+**Q: カスタムのユーザー定義プロパティをクエリできますか？**  
+A: はい、ノードに追加した追加の `@` 属性を使用して XPath 式を拡張できます。
 
-**Q: Does the query engine work with animated scenes?**  
-A: Absolutely – the queries operate on the static hierarchy; animations are attached to the same nodes and are therefore included in the results.
+**Q: クエリエンジンはアニメーションシーンでも機能しますか？**  
+A: もちろんです。クエリは静的な階層に対して実行され、アニメーションは同じノードに付随するため、結果に含まれます。
+
+## 結論  
+
+これで、XPath 風クエリを使用して Java 3D シーンで **名前でオブジェクトを選択** する方法が分かりました。このアプローチはシンプルなデモから本番レベルの 3D アプリケーションまでスケールし、冗長なコードなしでシーンの走査を細かく制御できます。
 
 ---
 
-**Last Updated:** 2025-11-29  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
+**最終更新日:** 2026-03-31  
+**テスト環境:** Aspose.3D for Java 24.11  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
