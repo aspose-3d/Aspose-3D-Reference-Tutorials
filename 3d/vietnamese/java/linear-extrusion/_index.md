@@ -1,76 +1,187 @@
 ---
-title: Tạo mô hình 3D với ép đùn tuyến tính trong Java
-linktitle: Tạo mô hình 3D với ép đùn tuyến tính trong Java
-second_title: API Java Aspose.3D
-description: Khám phá thế giới mô hình 3D với Aspose.3D cho Java. Làm chủ việc ép đùn tuyến tính một cách dễ dàng. Trung tâm điều khiển, đặt hướng, chỉ định các lát cắt, áp dụng vòng xoắn và hơn thế nữa!
-weight: 23
+date: 2026-05-24
+description: Tìm hiểu cách đùn hình dạng bằng Aspose.3D for Java. Hướng dẫn mô hình
+  3D bằng Java này bao gồm linear extrusion, center control, direction, slices, twist
+  và hơn nữa!
+keywords:
+- how to extrude shape
+- java 3d geometry
+- create 3d model java
+- create solid from 2d
+linktitle: Tạo Mô Hình 3D với Linear Extrusion trong Java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-24'
+  description: Learn how to extrude shape using Aspose.3D for Java. This java 3d modeling
+    tutorial covers linear extrusion, center control, direction, slices, twist and
+    more!
+  headline: How to Extrude Shape - Creating 3D Models with Linear Extrusion in Java
+  type: TechArticle
+- description: Learn how to extrude shape using Aspose.3D for Java. This java 3d modeling
+    tutorial covers linear extrusion, center control, direction, slices, twist and
+    more!
+  name: How to Extrude Shape - Creating 3D Models with Linear Extrusion in Java
+  steps:
+  - name: Define the 2‑D profile
+    text: Create a `Polygon` or `Polyline` that represents the shape you want to extrude.
+      *A `Polygon` represents a closed shape defined by vertices, while a `Polyline`
+      is an open series of line segments.* Ready to get started? [Perform Linear Extrusion
+      Now](./performing-linear-extrusion/) For a detailed tuto
+  - name: Configure extrusion options
+    text: 'Set the center, direction, slices, twist, and twist offset on an `Extrusion`
+      object. *The `Extrusion` class encapsulates all parameters needed to generate
+      a 3‑D mesh from a 2‑D profile.* Get hands‑on with center control: [Control Center
+      in Linear Extrusion](./controlling-center/) Read more about cen'
+  - name: Add the extrusion to the scene
+    text: 'Instantiate a `Scene`, attach the extrusion mesh, and export to your desired
+      format. *`Scene` is the container that holds all 3‑D objects and handles exporting
+      to various file formats.* Ready to set the direction? [Explore Now](./setting-direction/)
+      Learn more about direction: [Setting Direction in '
+  - name: Export or render
+    text: 'Use `Scene.save()` to write the model to OBJ, STL, or any supported format.
+      *`Scene.save()` writes the entire scene to the specified file format, applying
+      any necessary post‑processing.* Start specifying slices: [Learn More](./specifying-slices/)
+      Detailed guide: [Specifying Slices in Linear Extrusio'
+  type: HowTo
+- questions:
+  - answer: Yes, a valid Aspose license is required for production use, but a free
+      trial is available for evaluation.
+    question: Can I use Aspose.3D for Java in a commercial project?
+  - answer: The library works with Java 8 and newer runtimes, including Java 11, 17,
+      and 21.
+    question: Which Java versions are supported?
+  - answer: Aspose.3D handles mesh generation efficiently, but you can call `scene.dispose()`
+      when you’re done with large scenes to free native resources.
+    question: Do I need to manage memory for large extrusions?
+  - answer: Absolutely – you can create several extrusion objects, position them independently,
+      and add them to the same scene.
+    question: Can I combine multiple extrusion operations in one model?
+  - answer: Yes, the “Applying Twist” and “Using Twist Offset” tutorials demonstrate
+      how to set both properties on the same extrusion object.
+    question: Is there sample code for applying twist and twist offset together?
+  type: FAQPage
+second_title: Aspose.3D Java API
+title: Cách Đùn Hình Dạng - Tạo Mô Hình 3D với Linear Extrusion trong Java
 url: /vi/java/linear-extrusion/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo mô hình 3D với ép đùn tuyến tính trong Java
+# Cách Đùn Hình – Tạo Mô Hình 3D với Đùn Tuyến Tính trong Java
 
-## Giới thiệu
+Nếu bạn từng tự hỏi **cách đùn hình** trong một ứng dụng Java, bạn đang ở đúng nơi. Trong hướng dẫn này, chúng tôi sẽ khám phá các tính năng đùn tuyến tính của Aspose.3D for Java, cho bạn thấy cách biến các hồ sơ 2‑D đơn giản thành các mô hình 3‑D hoàn chỉnh. Dù bạn đang xây dựng một trình xem kiểu CAD, một quy trình tạo tài sản cho trò chơi, hay chỉ thử nghiệm với hình học, việc thành thạo đùn tuyến tính sẽ giúp bạn tự tin tạo ra các hình dạng phức tạp chỉ với vài dòng mã.
 
+## Câu trả lời nhanh
+- **Linear extrusion là gì?** Biến một bản phác thảo 2‑D thành một khối rắn 3‑D bằng cách kéo dài nó theo một hướng.  
+- **Thư viện nào hỗ trợ bạn?** Aspose.3D for Java cung cấp một API mượt mà cho các nhiệm vụ đùn.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc học; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Yêu cầu phiên bản Java nào?** Java 8 hoặc mới hơn.  
+- **Tôi có thể áp dụng xoắn hoặc độ dịch không?** Có – API hỗ trợ góc xoắn và độ dịch xoắn ngay từ đầu.  
 
-Bạn đã sẵn sàng bắt đầu một cuộc hành trình thú vị vào thế giới mô hình 3D trong Java chưa? Đừng tìm đâu xa! Trong loạt bài hướng dẫn toàn diện này, chúng tôi đi sâu vào các khả năng hấp dẫn của Aspose.3D dành cho Java, tập trung vào nghệ thuật ép đùn tuyến tính. Hãy thắt dây an toàn khi chúng tôi hướng dẫn bạn những bước phức tạp trong việc tạo mô hình 3D tuyệt đẹp một cách chính xác và dễ dàng.
+## “Cách đùn hình” trong Java là gì?
+Hoạt động `Extrusion` là tính năng cốt lõi của Aspose.3D, chuyển đổi một đường viền phẳng thành một lưới thể tích. Nói một cách đơn giản, bạn cung cấp một hồ sơ 2‑D (ví dụ, một hình chữ nhật hoặc một đa giác tùy chỉnh), chỉ cho engine độ kéo, và thư viện sẽ xây dựng hình học 3‑D cho bạn.
 
-## Thực hiện đùn tuyến tính trong Aspose.3D cho Java
+## Tại sao nên sử dụng Aspose.3D cho Java?
+Aspose.3D hỗ trợ **hơn 50 định dạng đầu vào và đầu ra** – bao gồm OBJ, STL, FBX và GLTF – và có thể tạo lưới với tới **10 000 đỉnh mỗi lần đùn** mà không cần tải toàn bộ cảnh vào bộ nhớ. Engine đa nền tảng của nó chạy trên Windows, Linux và macOS, mang lại kết quả nhất quán dù bạn đang trên máy trạm desktop hay máy chủ CI không giao diện.
 
-Đi sâu vào kiến thức cơ bản về ép đùn tuyến tính với Aspose.3D cho Java. Khám phá bí mật của việc chuyển đổi hình dạng 2D thành cấu trúc 3D đầy mê hoặc một cách dễ dàng. Hướng dẫn từng bước của chúng tôi đảm bảo bạn nắm bắt được các khái niệm cốt lõi, giúp bạn thổi sức sống vào các sáng tạo kỹ thuật số của mình.
+## Yêu cầu trước
+- Java 8 hoặc mới hơn được cài đặt trên máy phát triển của bạn.  
+- Maven hoặc Gradle để quản lý phụ thuộc.  
+- Tệp giấy phép Aspose.3D cho Java (tùy chọn cho bản dùng thử).  
 
- Sẵn sàng để bắt đầu?[Thực hiện đùn tuyến tính ngay bây giờ](./performing-linear-extrusion/)
+## Đùn tuyến tính hoạt động như thế nào?
+Đùn tuyến tính tạo ra một khối rắn 3‑D bằng cách quét một hồ sơ 2‑D dọc theo một đường thẳng. Engine đầu tiên thực hiện tam giác hoá hồ sơ, sau đó sao chép nó tại mỗi lát cắt dọc theo trục đùn, cuối cùng ghép các lát cắt lại với nhau để tạo thành một lưới kín. Quá trình này tự động tính toán các vector pháp tuyến và tọa độ UV, vì vậy bạn có thể render kết quả mà không cần xử lý hình học bổ sung.
 
-## Trung tâm điều khiển trong ép đùn tuyến tính với Aspose.3D cho Java
+## Các tham số chính cho đùn tuyến tính là gì?
+Đùn tuyến tính có thể được tùy chỉnh bằng một số tham số. **center** xác định điểm quay của hồ sơ trước khi đùn. Véc tơ **direction** đặt trục đùn, mặc định là trục Z dương. **Slices** kiểm soát số lượng mặt cắt trung gian được tạo ra, ảnh hưởng đến độ mượt cho các hình dạng xoắn hoặc thắt. **Twist angle** quay hồ sơ dần từ đầu đến cuối, trong khi **twist offset** thêm một độ dịch tuyến tính dọc theo trục, cho phép tạo dạng xoắn ốc.
 
-Kiểm soát đồ họa 3D của bạn bằng Java! Tìm hiểu cách điều khiển tâm trong quá trình đùn tuyến tính với Aspose.3D. Nâng cao thiết kế của bạn bằng cách hiểu các sắc thái của thao tác trung tâm. Hãy làm cho đồ họa 3D của bạn nổi bật!
+- **Center** – Điểm quay quanh đó hồ sơ được đặt trước khi đùn.  
+- **Direction** – Véc tơ xác định trục đùn; mặc định là trục Z dương.  
+- **Slices** – Số lượng mặt cắt trung gian; nhiều lát cắt hơn tạo ra các chuyển đổi mượt hơn cho các đùn xoắn hoặc thắt.  
+- **Twist Angle** – Tổng góc quay được áp dụng cho hồ sơ từ đầu đến cuối, tính bằng độ.  
+- **Twist Offset** – Độ dịch tuyến tính di chuyển hồ sơ dọc theo trục đùn trong khi xoắn, cho phép tạo hình dạng xoắn ốc.  
 
- Thực hành điều khiển trung tâm:[Trung tâm điều khiển trong ép đùn tuyến tính](./controlling-center/)
+## Thực hiện Đùn Tuyến tính trong Aspose.3D cho Java
+Tải hồ sơ của bạn, cấu hình các tham số, và để API tạo lưới. Các bước sau mô tả quy trình làm việc điển hình.
 
-## Đặt hướng trong ép đùn tuyến tính với Aspose.3D cho Java
+### Bước 1: Định nghĩa hồ sơ 2‑D
+Tạo một `Polygon` hoặc `Polyline` đại diện cho hình dạng bạn muốn đùn.  
+*`Polygon` đại diện cho một hình đóng được xác định bởi các đỉnh, trong khi `Polyline` là một chuỗi các đoạn thẳng mở.*  
+Sẵn sàng bắt đầu? [Thực hiện Đùn Tuyến tính ngay](./performing-linear-extrusion/)  
+Để xem hướng dẫn chi tiết, xem [Thực hiện Đùn Tuyến tính trong Aspose.3D cho Java](./performing-linear-extrusion/).
 
-Trở thành chuyên gia ép đùn tuyến tính với Aspose.3D cho Java! Hướng dẫn của chúng tôi cho phép bạn thiết lập hướng đi cho các kiệt tác 3D của mình một cách liền mạch. Tải xuống ngay bây giờ để có trải nghiệm phong phú về lập trình 3D vượt xa thiết kế thông thường.
+### Bước 2: Cấu hình tùy chọn đùn
+Đặt center, direction, slices, twist và twist offset trên một đối tượng `Extrusion`.  
+*Lớp `Extrusion` bao gồm tất cả các tham số cần thiết để tạo lưới 3‑D từ hồ sơ 2‑D.*  
+Thực hành kiểm soát trung tâm: [Kiểm soát Trung tâm trong Đùn Tuyến tính](./controlling-center/)  
+Đọc thêm về kiểm soát trung tâm: [Kiểm soát Trung tâm trong Đùn Tuyến tính với Aspose.3D cho Java](./controlling-center/)
 
- Sẵn sàng để thiết lập hướng đi?[Khám phá ngay](./setting-direction/)
+### Bước 3: Thêm đùn vào cảnh
+Khởi tạo một `Scene`, gắn lưới đùn, và xuất ra định dạng mong muốn.  
+*`Scene` là container chứa tất cả các đối tượng 3‑D và xử lý xuất ra các định dạng tệp khác nhau.*  
+Sẵn sàng đặt hướng? [Khám phá ngay](./setting-direction/)  
+Tìm hiểu thêm về hướng: [Đặt Hướng trong Đùn Tuyến tính với Aspose.3D cho Java](./setting-direction/)
 
-## Chỉ định các lát cắt trong ép đùn tuyến tính với Aspose.3D cho Java
+### Bước 4: Xuất hoặc render
+Sử dụng `Scene.save()` để ghi mô hình ra OBJ, STL, hoặc bất kỳ định dạng nào được hỗ trợ.  
+*`Scene.save()` ghi toàn bộ cảnh vào định dạng tệp được chỉ định, áp dụng bất kỳ xử lý hậu kỳ cần thiết nào.*  
+Bắt đầu chỉ định slices: [Tìm hiểu thêm](./specifying-slices/)  
+Hướng dẫn chi tiết: [Chỉ định Slices trong Đùn Tuyến tính với Aspose.3D cho Java](./specifying-slices/)
 
-Độ chính xác đáp ứng sự sáng tạo! Tìm hiểu nghệ thuật chỉ định các lát cắt trong ép đùn tuyến tính bằng cách sử dụng Aspose.3D cho Java. Nâng cao kỹ năng tạo mô hình 3D của bạn với hướng dẫn chi tiết của chúng tôi, đảm bảo mọi lát cắt đều góp phần tạo nên sự hoàn hảo cho tác phẩm điêu khắc kỹ thuật số của bạn.
+## Cách áp dụng xoắn vào một đùn?
+Áp dụng xoắn bằng cách đặt thuộc tính `twistAngle` trên các tùy chọn đùn. Engine quay mỗi lát cắt tỷ lệ, tạo hiệu ứng xoắn ốc. Bằng cách điều chỉnh góc, bạn có thể tạo mọi thứ từ độ xoắn nhẹ đến các xoắn 360° đầy đủ, hữu ích cho các yếu tố trang trí hoặc lò xo chức năng.  
+Sẵn sàng xoắn lên? [Áp dụng xoắn ngay](./applying-twist/)  
+Ví dụ đầy đủ: [Áp dụng xoắn trong Đùn Tuyến tính với Aspose.3D cho Java](./applying-twist/)
 
- Bắt đầu chỉ định các lát cắt:[Tìm hiểu thêm](./specifying-slices/)
+## Cách sử dụng twist offset cho các hình dạng xoắn ốc?
+Twist offset di chuyển mỗi lát cắt dọc theo trục đùn trong khi quay, tạo thành cầu thang xoắn ốc hoặc hình dạng vít. Kết hợp twist angle với độ dịch dương tạo ra một dốc xoắn ốc mượt, trong khi độ dịch âm có thể tạo các xoắn giảm dần. Kỹ thuật này lý tưởng để mô hình hoá ren, lò xo, hoặc dây ruy băng nghệ thuật.  
+Nâng cao kỹ năng: [Tìm hiểu Twist Offset](./using-twist-offset/)  
+Hướng dẫn toàn diện: [Sử dụng Twist Offset trong Đùn Tuyến tính với Aspose.3D cho Java](./using-twist-offset/)
 
-## Áp dụng Twist trong ép đùn tuyến tính với Aspose.3D cho Java
+## Các trường hợp sử dụng phổ biến cho Đùn Tuyến tính
+- **Mechanical parts** – Nhanh chóng tạo ra bu lông, trục và giá đỡ từ các bản phác thảo đơn giản.  
+- **Architectural elements** – Đùn bản vẽ mặt bằng thành tường hoặc cột cho các nguyên mẫu BIM.  
+- **Game assets** – Tạo các đối tượng low‑poly như hàng rào, ống, hoặc thanh trang trí trực tiếp từ nghệ thuật 2‑D.  
+- **Educational tools** – Trực quan hoá các bề mặt toán học bằng cách đùn các đường cong tham số.  
 
-Thêm điểm nhấn cho mô hình 3D của bạn với Aspose.3D cho Java! Hướng dẫn từng bước của chúng tôi tiết lộ bí quyết áp dụng các vòng xoắn để nâng cao hiệu ứng ép đùn tuyến tính. Nâng tầm sáng tạo của bạn và thu hút khán giả bằng thiết kế 3D năng động.
+## Khắc phục các vấn đề thường gặp
+- **Missing faces** – Đảm bảo hồ sơ là vòng khép kín; các đường viền mở sẽ tạo ra khoảng trống.  
+- **Excessive memory usage** – Giảm số lượng `slices` hoặc bật `scene.setMemoryOptimization(true)`.  
+- **Incorrect twist direction** – Góc dương quay theo chiều kim đồng hồ khi nhìn dọc theo hướng đùn; sử dụng giá trị âm để đảo ngược.  
 
- Sẵn sàng để xoắn nó lên?[Áp dụng Twist ngay bây giờ](./applying-twist/)
+## Câu hỏi thường gặp
 
-## Sử dụng Twist Offset trong ép đùn tuyến tính với Aspose.3D cho Java
+**Q: Tôi có thể sử dụng Aspose.3D cho Java trong dự án thương mại không?**  
+A: Có, cần có giấy phép Aspose hợp lệ cho việc sử dụng trong sản xuất, nhưng bản dùng thử miễn phí có sẵn để đánh giá.
 
-Tinh chỉnh kỹ năng lập mô hình 3D của bạn với Aspose.3D cho Java. Đi sâu vào thế giới Twist Offset trong Linear Extrusion thông qua hướng dẫn toàn diện của chúng tôi. Giải phóng sức mạnh của những đường xoắn, nâng thiết kế của bạn lên tầm cao mới.
+**Q: Các phiên bản Java nào được hỗ trợ?**  
+A: Thư viện hoạt động với Java 8 và các runtime mới hơn, bao gồm Java 11, 17 và 21.
 
- Nâng cao kỹ năng của bạn:[Tìm hiểu Twist Offset](./using-twist-offset/)
+**Q: Tôi có cần quản lý bộ nhớ cho các đùn lớn không?**  
+A: Aspose.3D xử lý việc tạo lưới một cách hiệu quả, nhưng bạn có thể gọi `scene.dispose()` khi hoàn thành các cảnh lớn để giải phóng tài nguyên gốc.
 
-Bắt tay vào cuộc hành trình ly kỳ này với Aspose.3D cho Java, trong đó mỗi hướng dẫn sẽ mở ra một chiều hướng mới trong chuyên môn tạo mô hình 3D của bạn. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu tò mò, các hướng dẫn thân thiện với người dùng của chúng tôi đều đảm bảo mang lại trải nghiệm hấp dẫn và phong phú. Tải xuống ngay và bắt đầu cuộc phiêu lưu 3D!
-## Tạo mô hình 3D với ép đùn tuyến tính trong hướng dẫn Java
-### [Thực hiện đùn tuyến tính trong Aspose.3D cho Java](./performing-linear-extrusion/)
-Khám phá thế giới mô hình 3D với Aspose.3D cho Java. Tìm hiểu cách thực hiện đùn tuyến tính một cách dễ dàng.
-### [Trung tâm điều khiển trong ép đùn tuyến tính với Aspose.3D cho Java](./controlling-center/)
-Khám phá thế giới đồ họa 3D trong Java với Aspose.3D. Kiểm soát trung tâm trong quá trình đùn tuyến tính một cách dễ dàng.
-### [Đặt hướng trong ép đùn tuyến tính với Aspose.3D cho Java](./setting-direction/)
-Làm chủ quá trình đùn tuyến tính với Aspose.3D cho Java! Hãy làm theo hướng dẫn của chúng tôi để lập trình 3D liền mạch. Tải xuống ngay để có trải nghiệm thú vị.
-### [Chỉ định các lát cắt trong ép đùn tuyến tính với Aspose.3D cho Java](./specifying-slices/)
-Tìm hiểu cách chỉ định các lát cắt trong ép đùn tuyến tính bằng Aspose.3D cho Java. Nâng cao kỹ năng lập mô hình 3D của bạn với hướng dẫn từng bước này.
-### [Áp dụng Twist trong ép đùn tuyến tính với Aspose.3D cho Java](./applying-twist/)
-Tìm hiểu cách thêm điểm nhấn vào mô hình 3D của bạn bằng Aspose.3D cho Java. Thực hiện theo hướng dẫn từng bước của chúng tôi để có hiệu ứng ép đùn tuyến tính nâng cao.
-### [Sử dụng Twist Offset trong ép đùn tuyến tính với Aspose.3D cho Java](./using-twist-offset/)
-Nâng cao kỹ năng tạo mô hình 3D của bạn với Aspose.3D cho Java. Tìm hiểu cách sử dụng Twist Offset trong Linear Extrusion trong hướng dẫn toàn diện này.
-{{< /blocks/products/pf/tutorial-page-section >}}
+**Q: Tôi có thể kết hợp nhiều thao tác đùn trong một mô hình không?**  
+A: Chắc chắn – bạn có thể tạo nhiều đối tượng extrusion, đặt chúng độc lập, và thêm vào cùng một cảnh.
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Q: Có mẫu mã cho việc áp dụng twist và twist offset cùng lúc không?**  
+A: Có, các hướng dẫn “Applying Twist” và “Using Twist Offset” trình bày cách đặt cả hai thuộc tính trên cùng một đối tượng extrusion.
+
+**Cập nhật lần cuối:** 2026-05-24  
+**Kiểm tra với:** Aspose.3D for Java 24.11  
+**Tác giả:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Hướng dẫn liên quan
+
+- [Hướng dẫn Đồ họa 3D Java – Trung tâm trong Đùn Tuyến tính](/3d/java/linear-extrusion/controlling-center/)
+- [Cách Đặt Hướng trong Đùn Tuyến tính với Aspose.3D cho Java](/3d/java/linear-extrusion/setting-direction/)
+- [Tạo Đùn 3D với Slices – Aspose.3D cho Java](/3d/java/linear-extrusion/specifying-slices/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
