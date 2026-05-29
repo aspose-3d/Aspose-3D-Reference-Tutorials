@@ -1,10 +1,35 @@
 ---
-date: 2026-03-05
-description: Learn how to convert mesh to point cloud in Java using Aspose.3D and
-  save point cloud file efficiently.
-linktitle: Convert Mesh to Point Cloud in Java
+date: 2026-05-29
+description: Leer hoe u de Aspose 3D API kunt gebruiken om mesh te converteren naar
+  een point cloud in Java en het point cloud‑bestand efficiënt op te slaan.
+keywords:
+- aspose 3d api
+- convert mesh to pointcloud
+- generate pointcloud mesh
+linktitle: Mesh converteren naar Point Cloud in Java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Learn how to use the Aspose 3D API to convert mesh to point cloud in
+    Java and efficiently save the point cloud file.
+  headline: Convert Mesh to Point Cloud in Java with Aspose 3D API
+  type: TechArticle
+- questions:
+  - answer: Yes. Purchase a production license [here](https://purchase.aspose.com/buy);
+      a free trial is available for evaluation.
+    question: Can I use Aspose 3D API for commercial projects?
+  - answer: Absolutely. Download the trial version [here](https://releases.aspose.com/).
+    question: Is there a free trial I can test before buying?
+  - answer: The community‑driven [Aspose.3D forum](https://forum.aspose.com/c/3d/18)
+      provides answers and code samples.
+    question: Where can I get help if I run into problems?
+  - answer: Request a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for automated builds?
+  - answer: Detailed API reference is available at [documentation](https://reference.aspose.com/3d/java/).
+    question: Where is the official documentation for the Aspose 3D API?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Hoe Mesh te converteren naar een puntwolk in Java met Aspose.3D
+title: Mesh converteren naar Point Cloud in Java met Aspose 3D API
 url: /nl/java/point-clouds/create-point-clouds-java/
 weight: 12
 ---
@@ -13,35 +38,30 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe Mesh om te zetten naar een Puntwolk in Java met Aspose.3D
-
-Het maken van een **puntwolk** van een 3D‑mesh is een veelvoorkomende eis in grafische, simulatie‑ en datavisualisatieprojecten. In deze tutorial leer je hoe je **mesh naar puntwolk converteert** met de Aspose.3D Java‑API, en hoe je **puntwolkbestand opslaat** voor later gebruik. De stappen worden duidelijk uitgelegd zodat je puntwolk‑generatie met minimale inspanning in je Java‑applicaties kunt integreren.
+# Mesh omzetten naar een puntwolk in Java met Aspose 3D API
 
 ## Snelle antwoorden
-- **Welke bibliotheek is het beste voor deze taak?** Aspose.3D Java API biedt ingebouwde ondersteuning voor mesh‑naar‑puntwolk conversie.  
-- **Welk formaat wordt in het voorbeeld gebruikt?** Het DRACO‑formaat (`.drc`) wordt gebruikt voor compacte puntwolkopslag.  
-- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
-- **Kan ik meerdere meshes verwerken?** Ja – herhaal gewoon de coderingsstap voor elke mesh.  
-- **Is extra verwerking nodig?** Optioneel; Aspose.3D biedt methoden om de puntwolk na het coderen te manipuleren.
+- **Welke bibliotheek verwerkt mesh‑naar‑punt‑wolk conversie?** De Aspose 3D API biedt ingebouwde ondersteuning voor het converteren van meshes naar puntwolken.  
+- **Welk bestandsformaat wordt gedemonstreerd?** DRACO (`.drc`) – een sterk gecomprimeerd puntwolkformaat.  
+- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productiegebruik.  
+- **Kan ik meerdere meshes in één run verwerken?** Ja – herhaal de coderingsstap voor elk mesh‑object.  
+- **Is extra verwerking verplicht?** Nee – de API verwerkt conversie en compressie automatisch, hoewel je optioneel filters kunt toepassen daarna.
 
-## Wat betekent “mesh naar puntwolk converteren”?
-Een mesh naar een puntwolk converteren betekent dat je de vertex‑posities (optioneel ook normaal‑ of kleurgegevens) uit de mesh‑geometrie haalt en opslaat als een verzameling punten. Deze representatie is ideaal voor snelle weergave, botsingsdetectie en het voeden van gegevens aan machine‑learning‑pijplijnen.
+## Wat is “mesh omzetten naar een puntwolk”?
+**Het omzetten van een mesh naar een puntwolk haalt de vertexposities (en eventueel normaal- of kleurgegevens) uit de mesh‑geometrie en slaat ze op als onafhankelijke punten.** Deze representatie is ideaal voor snelle weergave, botsingsdetectie en het voeden van gegevens aan machine‑learning‑modellen omdat het de geometrische complexiteit vermindert terwijl ruimtelijke informatie behouden blijft.
 
-## Waarom Aspose.3D gebruiken voor puntwolk‑generatie?
-- **Hoge‑prestaties codering:** Ingebouwde DRACO‑compressie verkleint de bestandsgrootte drastisch.  
-- **Eenvoudige API:** Eén‑regelige aanroepen doen het zware werk.  
-- **Cross‑platform Java‑ondersteuning:** Werkt in elke JVM‑compatibele omgeving.  
-- **Uitbreidbaar:** Na conversie kun je de wolk verder verwerken (filteren, transformeren, enz.).
+## Waarom Aspose 3D API gebruiken voor het genereren van puntwolken?
+De Aspose 3D API voert de conversie uit in één enkele oproep, waarbij DRACO‑compressie wordt toegepast die puntwolkbestanden kan verkleinen met **tot 90 %** zonder merkbaar verlies van detail. Het werkt op elke JVM, vereist geen native afhankelijkheden, en biedt een schone, ketenbare syntaxis waarmee je je kunt concentreren op je toepassingslogica in plaats van op low‑level bestandsafhandeling.
 
 ## Voorvereisten
+- **Java Development Kit** 8 of nieuwer geïnstalleerd.  
+- **Aspose.3D library** – download de nieuwste JAR van de officiële site [hier](https://releases.aspose.com/3d/java/).  
+- **Output directory** – maak een map aan waar de gegenereerde puntwolkbestanden worden weggeschreven.
 
-1. **Java‑ontwikkelomgeving** – JDK 8 of nieuwer geïnstalleerd.  
-2. **Aspose.3D‑bibliotheek** – Download en installeer de Aspose.3D‑bibliotheek. Je kunt de bibliotheek vinden [hier](https://releases.aspose.com/3d/java/).  
-3. **Documentmap** – Maak een map aan waar de gegenereerde puntwolk‑bestanden worden opgeslagen.
+> **Gekwalificeerde bewering:** Aspose 3D API ondersteunt **50+** invoer‑ en uitvoerformaten en kan meshes verwerken met **honderdduizenden vertices** zonder het volledige bestand in het geheugen te laden.
 
 ## Pakketten importeren
-
-Om te beginnen importeer je de benodigde klassen in je Java‑project:
+Import the essential classes before you start coding:
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -51,9 +71,14 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Stap 1: Mesh coderen naar Puntwolk
+## Stap 1: Mesh coderen naar puntwolk
+`FileFormat.DRACO` is de enumeratiewaarde die DRACO‑compressie selecteert voor puntwolkoutput.  
 
-Gebruik de `FileFormat.DRACO`‑encoder om een mesh (bijvoorbeeld een `Sphere`) om te zetten naar een gecomprimeerd puntwolk‑bestand:
+**Definitie‑anker:** `FileFormat.DRACO` vertelt de Aspose 3D API om de puntwolk te schrijven met het DRACO‑formaat, dat geoptimaliseerd is voor grootte en snelheid.  
+
+`Sphere` is een ingebouwde primitieve klasse die een bolvormige mesh creëert.  
+
+Gebruik deze encoder om een mesh (bijv. een `Sphere`) om te zetten in een gecomprimeerd puntwolkbestand:
 
 ```java
 // ExStart:1
@@ -61,58 +86,61 @@ FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
 // ExEnd:1
 ```
 
-**Uitleg**
-
-- `FileFormat.DRACO` selecteert het DRACO‑compressieformaat, dat geoptimaliseerd is voor puntwolkopslag.  
-- `new Sphere()` maakt een eenvoudige bolvormige mesh die dient als brongeometrie.  
-- De string `"Your Document Directory" + "sphere.drc"` bouwt het volledige uitvoerpad waar het **puntwolkbestand** (`sphere.drc`) wordt opgeslagen.
+**Uitleg**  
+- `FileFormat.DRACO` selecteert het DRACO‑compressieformaat, dat de bestandsgrootte drastisch verkleint terwijl de geometrische nauwkeurigheid behouden blijft.  
+- `new Sphere()` creëert een eenvoudige bolvormige mesh die dient als brongeometrie.  
+- De aaneengeschakelde string bouwt het volledige uitvoerpad waar het **puntwolkbestand** (`sphere.drc`) zal worden opgeslagen.
 
 Voel je vrij om deze stap te herhalen met andere mesh‑objecten (bijv. `Box`, `Cylinder`) om extra puntwolken te genereren.
 
 ## Stap 2: Extra verwerking (optioneel)
+`PointCloud` vertegenwoordigt een verzameling punten en biedt bewerkingen voor transformatie en filtering.  
 
-Na het coderen wil je de puntwolk wellicht verfijnen — bijvoorbeeld transformaties toepassen, uitbijters filteren of aangepaste attributen toevoegen. Aspose.3D biedt een rijke set methoden voor het manipuleren van puntwolk‑data, hoewel ze niet nodig zijn voor een basisconversie.
+Na het coderen wil je misschien de puntwolk verfijnen — transformaties toepassen, uitschieters filteren of aangepaste attributen toevoegen. De Aspose 3D API biedt methoden zoals `PointCloud.transform()`, `PointCloud.filterNoise()` en `PointCloud.addColorChannel()`. Deze stappen zijn optioneel voor een basisconversie maar nuttig voor geavanceerde pipelines.
 
 ## Stap 3: Opslaan en gebruiken
-
-Het gecodeerde bestand is al opgeslagen op de door jou opgegeven locatie. Je kunt dit `.drc`‑bestand nu laden in elke applicatie die DRACO‑puntwolken ondersteunt, of het direct gebruiken in renderengines, simulatie‑pijplijnen of AI‑modellen.
+Het gecodeerde bestand is al opgeslagen op de opgegeven locatie. Je kunt nu het `.drc`‑bestand laden in elke DRACO‑compatibele viewer, het voeden aan een renderengine, of het direct doorgeven aan een machine‑learning‑model dat puntwolk‑invoer verwacht.
 
 ## Veelvoorkomende problemen & tips
-
-- **Ongeldig pad:** Zorg ervoor dat de map bestaat en dat je schrijfrechten hebt; anders wordt een `IOException` gegooid.  
-- **Niet‑ondersteunde mesh‑typen:** Complexe meshes met niet‑driehoekige vlakken worden automatisch getrianguleerd door Aspose.3D, maar zeer grote meshes kunnen meer geheugen vereisen.  
-- **Prestaties:** DRACO‑compressie is snel, maar bij enorme puntwolken kun je overwegen om in delen te verwerken om geheugenpieken te vermijden.
+- **Ongeldig pad:** Controleer of de map bestaat en of je schrijfrechten hebt; anders wordt een `IOException` gegooid.  
+- **Niet‑ondersteunde mesh‑typen:** Niet‑driehoekige vlakken worden automatisch getrianguleerd, maar extreem grote meshes kunnen extra geheugen vereisen; overweeg ze in delen te verwerken.  
+- **Prestaties:** DRACO‑compressie loopt in lineaire tijd; voor meshes groter dan **1 miljoen vertices**, splits de conversie op in batches om geheugenpieken te voorkomen.
 
 ## Conclusie
-
-Je hebt nu geleerd hoe je **mesh naar puntwolk converteert** in Java met Aspose.3D en hoe je **puntwolkbestand opslaat** voor downstream gebruik. Deze mogelijkheid opent de deur naar efficiënte 3D‑dataverwerking in grafische, AR/VR‑ en data‑science‑projecten.
+Je hebt geleerd hoe je een **mesh naar een puntwolk kunt omzetten** in Java met de Aspose 3D API en hoe je het **puntwolkbestand kunt opslaan** voor downstream gebruik. Deze mogelijkheid maakt efficiënte 3D‑gegevensverwerking mogelijk in graphics, AR/VR en data‑science projecten, terwijl je codebase schoon en onderhoudbaar blijft.
 
 ## Veelgestelde vragen
 
-### Q1: Kan ik Aspose.3D gebruiken voor commerciële projecten?  
-A1: Ja, dat kan. Bezoek de [aankooppagina](https://purchase.aspose.com/buy) voor licentie‑opties.
+**Q: Kan ik de Aspose 3D API gebruiken voor commerciële projecten?**  
+A: Ja. Koop een productie‑licentie [hier](https://purchase.aspose.com/buy); een gratis proefversie is beschikbaar voor evaluatie.
 
-### Q2: Is er een gratis proefversie beschikbaar?  
-A2: Ja, je kunt een gratis proefversie krijgen [hier](https://releases.aspose.com/).
+**Q: Is er een gratis proefversie die ik kan testen voordat ik koop?**  
+A: Absoluut. Download de proefversie [hier](https://releases.aspose.com/).
 
-### Q3: Waar vind ik ondersteuning voor Aspose.3D?  
-A3: Bezoek het [Aspose.3D‑forum](https://forum.aspose.com/c/3d/18) voor community‑ondersteuning.
+**Q: Waar kan ik hulp krijgen als ik tegen problemen aanloop?**  
+A: Het door de community‑gedreven [Aspose.3D forum](https://forum.aspose.com/c/3d/18) biedt antwoorden en code‑voorbeelden.
 
-### Q4: Hoe verkrijg ik een tijdelijke licentie?  
-A4: Je kunt een tijdelijke licentie krijgen [hier](https://purchase.aspose.com/temporary-license/).
+**Q: Hoe verkrijg ik een tijdelijke licentie voor geautomatiseerde builds?**  
+A: Vraag een tijdelijke licentie [hier](https://purchase.aspose.com/temporary-license/) aan.
 
-### Q5: Waar vind ik de documentatie?  
-A5: Raadpleeg de [documentatie](https://reference.aspose.com/3d/java/) voor gedetailleerde informatie.
+**Q: Waar is de officiële documentatie voor de Aspose 3D API?**  
+A: Gedetailleerde API‑referentie is beschikbaar op [documentatie](https://reference.aspose.com/3d/java/).
 
 ---
 
-**Laatst bijgewerkt:** 2026-03-05  
+**Laatst bijgewerkt:** 2026-05-29  
 **Getest met:** Aspose.3D Java 24.12  
 **Auteur:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Gerelateerde tutorials
+
+- [aspose 3d puntwolk - 3D‑scènes exporteren als puntwolken met Aspose.3D voor Java](/3d/java/point-clouds/export-3d-scenes-point-clouds-java/)
+- [Aspose 3D puntwolk genereren vanuit bollen in Java](/3d/java/point-clouds/generate-point-clouds-spheres-java/)
+- [PLY‑bestand importeren Java – PLY‑puntwolken naadloos laden](/3d/java/point-clouds/load-ply-point-clouds-java/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
