@@ -1,33 +1,55 @@
 ---
-title: การสร้างกระบอกสูบพัดลมแบบกำหนดเองด้วย Aspose.3D สำหรับ Java
-linktitle: การสร้างกระบอกสูบพัดลมแบบกำหนดเองด้วย Aspose.3D สำหรับ Java
-second_title: Aspose.3D จาวา API
-description: เรียนรู้วิธีสร้างกระบอกพัดลมแบบกำหนดเองใน Java ด้วย Aspose.3D ยกระดับเกมการสร้างแบบจำลอง 3 มิติของคุณได้อย่างง่ายดาย
-weight: 10
+date: 2026-04-03
+description: เรียนรู้วิธีสร้างรูปทรงพัดลมทรงกระบอกใน Java ด้วย Aspose.3D คู่มือนี้ครอบคลุมการสร้างโมเดล
+  3 มิติด้วย Java และเทคนิคการบันทึกไฟล์ OBJ ด้วย Java
+keywords:
+- create cylinder fan shape
+- save obj file java
+- aspose 3d export obj
+linktitle: วิธีสร้างรูปทรงพัดลมทรงกระบอกโดยใช้ Aspose.3D สำหรับ Java
+second_title: Aspose.3D Java API
+title: วิธีสร้างรูปทรงพัดลมทรงกระบอกโดยใช้ Aspose.3D สำหรับ Java
 url: /th/java/cylinders/creating-fan-cylinders/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การสร้างกระบอกสูบพัดลมแบบกำหนดเองด้วย Aspose.3D สำหรับ Java
+# วิธีสร้างรูปทรงพัดลมทรงกระบอกโดยใช้ Aspose.3D สำหรับ Java
 
-## การแนะนำ
+## บทนำ
 
-คุณพร้อมที่จะยกระดับประสบการณ์การสร้างแบบจำลอง 3 มิติของคุณด้วย Aspose.3D สำหรับ Java แล้วหรือยัง? บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการสร้างกระบอกพัดลมแบบกำหนดเองโดยใช้ไลบรารี Aspose.3D อันทรงพลัง ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเป็นมือใหม่ คำแนะนำทีละขั้นตอนนี้จะช่วยให้คุณปลดปล่อยศักยภาพของ Aspose.3D ใน Java ได้อย่างเต็มที่
+พร้อมหรือยังที่จะเชี่ยวชาญ **วิธีสร้างรูปทรงพัดลมทรงกระบอก** ในสภาพแวดล้อม Java? ในบทแนะนำนี้เราจะเดินผ่านทุกขั้นตอน— ตั้งแต่การตั้งค่าฉากจนถึงการส่งออกไฟล์ Wavefront OBJ— โดยใช้ Aspose.3D ไม่ว่าคุณจะสร้างสินทรัพย์เกม, ตัวอย่าง CAD, หรือเพียงทดลองกับเรขาคณิต 3 มิติ, คุณจะเห็นว่า การสร้างโมเดล 3D ด้วย Java สามารถทำได้ง่ายแค่ไหนด้วยไลบรารีที่ทรงพลังนี้.
+
+## คำตอบอย่างรวดเร็ว
+- **เป้าหมายหลักคืออะไร?** สร้างทรงกระบอกรูปพัดลมที่ปรับแต่งได้และบันทึกเป็นไฟล์ OBJ.  
+- **ไลบรารีที่ใช้คืออะไร?** Aspose.3D for Java.  
+- **ฉันต้องการไลเซนส์หรือไม่?** รุ่นทดลองฟรีใช้งานได้สำหรับการพัฒนา; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการผลิต.  
+- **ข้อกำหนดเบื้องต้นคืออะไร?** ติดตั้ง JDK แล้วและเพิ่มแพคเกจ Aspose.3D Java ลงในโปรเจคของคุณ.  
+- **ฉันสามารถส่งออกเป็นรูปแบบอื่นได้หรือไม่?** ได้—Aspose.3D รองรับหลายรูปแบบ; ตัวอย่างนี้ใช้ Wavefront OBJ.
+
+## พัดลมทรงกระบอกคืออะไร
+
+พัดลมทรงกระบอกคือทรงกระบอกที่มีพื้นผิวบางส่วนซึ่งส่วนของฐานวงกลมถูกตัดออก, ทำให้เกิดช่องเปิดแบบ “พัดลม”. เรขาคณิตนี้มีประโยชน์สำหรับการแสดงสไลซ์, แดชบอร์ด, หรือชิ้นส่วนเครื่องกลแบบกำหนดเอง.
+
+## ทำไมต้องใช้ Aspose.3D สำหรับการสร้างโมเดล 3D ด้วย Java?
+
+Aspose.3D มี API ที่สะอาดและเชิงวัตถุซึ่งทำให้ซับซ้อนของคณิตศาสตร์ระดับต่ำของกราฟิก 3D หายไป. คุณสามารถมุ่งเน้นที่การออกแบบแทนที่จะกังวลเรื่องความแปลกของรูปแบบไฟล์, และไลบรารีจะจัดการการดำเนินการ **save obj file java** โดยอัตโนมัติ.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+Before we dive in, make sure you have:
 
-- Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK บนระบบของคุณแล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://www.oracle.com/java/technologies/javase-downloads.html).
+- **Java Development Kit (JDK)** – ดาวน์โหลดจาก [ที่นี่](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.3D for Java** – รับ JAR เวอร์ชันล่าสุดจาก [ลิงก์ดาวน์โหลด](https://releases.aspose.com/3d/java/).  
 
--  Aspose.3D สำหรับ Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.3D สำหรับ Java จาก[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/3d/java/).
+เพิ่มไฟล์ JAR ของ Aspose.3D ไปยัง classpath ของโปรเจคของคุณ.
 
-## แพ็คเกจนำเข้า
+## นำเข้าแพ็กเกจ
 
-เริ่มต้นด้วยการนำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ Java ของคุณ ขั้นตอนนี้มีความสำคัญอย่างยิ่งในการเข้าถึงฟังก์ชันการทำงานที่ Aspose.3D มอบให้
+Begin by importing the necessary classes. This gives you access to the 3D scene, geometry primitives, and utility methods.
 
 ```java
 import com.aspose.threed.*;
@@ -38,98 +60,102 @@ import java.io.IOException;
 
 ## ขั้นตอนที่ 1: สร้างฉาก
 
-เริ่มต้นด้วยการเริ่มต้นฉาก 3 มิติโดยใช้ข้อมูลโค้ดต่อไปนี้:
+First, we instantiate a new `Scene`. Think of a scene as the container that holds all your 3D objects, lights, and cameras.
 
 ```java
-// เอ็กซ์สตาร์ท:2
-// สร้างฉาก
+// ExStart:2
+// Create a Scene
 Scene scene = new Scene();
-// สิ้นสุด:2
+// ExEnd:2
 ```
 
-นี่เป็นการปูทางสำหรับการผจญภัยในการสร้างแบบจำลอง 3 มิติของคุณ
+## ขั้นตอนที่ 2: สร้างพัดลมทรงกระบอก (วิธีสร้างทรงกระบอก)
 
-## ขั้นตอนที่ 2: สร้างกระบอกพัดลม
-
-ตอนนี้ เรามาสร้างกระบอกพัดลมโดยใช้ไลบรารี Aspose.3D กันดีกว่า:
+Now we build the fan cylinder itself. The constructor parameters define radius, height, tessellation, and whether the geometry is generated as a fan.
 
 ```java
-// เอ็กซ์สตาร์ท:3
-// สร้างทรงกระบอกพร้อมพัดลม
+// ExStart:3
+// Create a cylinder with fan
 Cylinder fan = new Cylinder(2, 2, 10, 20, 1, false);
 fan.setGenerateFanCylinder(true);
 fan.setThetaLength(MathUtils.toRadian(270.0));
-// สิ้นสุด:3
+// ExEnd:3
 ```
 
-ตัวอย่างนี้กำหนดขนาดของกระบอกสูบ เปิดใช้งานการสร้างพัดลม และระบุความยาวทีต้า
+> **เคล็ดลับ:** ปรับ `setThetaLength` เพื่อเปลี่ยนมุมเปิด. 270° สร้างพัดลมสามในสี่; 180° จะให้ครึ่งทรงกระบอก.
 
-## ขั้นตอนที่ 3: วางตำแหน่งกระบอกพัดลม
+## ขั้นตอนที่ 3: กำหนดตำแหน่งพัดลมทรงกระบอก
 
-วางกระบอกพัดลมภายในฉาก 3 มิติโดยเพิ่มเป็นโหนดลูกและตั้งค่าการแปล:
+Next, we add the fan cylinder to the scene and move it to a convenient location. The translation coordinates are in the order (X, Y, Z).
 
 ```java
-// เอ็กซ์สตาร์ท:4
-// สร้าง ChildNode และตั้งค่าการแปล
+// ExStart:4
+// Create ChildNode and set translation
 scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0);
-// สิ้นสุด:4
+// ExEnd:4
 ```
 
-ซึ่งวางตำแหน่งกระบอกพัดลมไว้ที่พิกัด (10, 0, 0) ภายในฉาก
+## ขั้นตอนที่ 4: สร้างทรงกระบอกแบบไม่เป็นพัดลม (การเปรียบเทียบการสร้างโมเดล 3d ด้วย java)
 
-## ขั้นตอนที่ 4: สร้างกระบอกสูบที่ไม่ใช่พัดลม
-
-เรามาสร้างกระบอกสูบแบบไม่มีพัดลมเพื่อแสดงความยืดหยุ่นของ Aspose.3D:
+To illustrate the flexibility of Aspose.3D, we also create a regular cylinder without a fan opening.
 
 ```java
-// เอ็กซ์สตาร์ท:5
-// สร้างกระบอกสูบโดยไม่มีพัดลม
+// ExStart:5
+// Create a cylinder without a fan
 Cylinder nonfan = new Cylinder(2, 2, 10, 20, 1, false);
-// สร้าง ChildNode
+// Create ChildNode
 scene.getRootNode().createChildNode(nonfan);
-// สิ้นสุด:5
+// ExEnd:5
 ```
 
-ตัวอย่างนี้จะสร้างกระบอกสูบโดยไม่มีพัดลมและเพิ่มเข้าไปในฉาก
+## ขั้นตอนที่ 5: บันทึกฉาก (บันทึกไฟล์ obj ด้วย java)
 
-## ขั้นตอนที่ 5: บันทึกฉาก
-
-สุดท้าย ให้บันทึกฉากเป็นไฟล์ Wavefront OBJ ในไดเร็กทอรีเอกสารของคุณ:
+Finally, we export the entire scene to a Wavefront OBJ file. This format is widely supported by most 3D editors and game engines.
 
 ```java
-// เอ็กซ์สตาร์ท:6
-// บันทึกฉาก
+// ExStart:6
+// Save scene
 scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEFRONTOBJ);
-// สิ้นสุด:6
+// ExEnd:6
 ```
 
-ยินดีด้วย! คุณได้สร้างกระบอกสูบพัดลมแบบกำหนดเองโดยใช้ Aspose.3D สำหรับ Java สำเร็จแล้ว
+> **หมายเหตุ:** แทนที่ `"Your Document Directory"` ด้วยเส้นทางแบบ absolute หรือ relative ที่คุณมีสิทธิ์เขียน.
 
-## บทสรุป
+## วิธีบันทึกไฟล์ OBJ ใน Java ด้วย Aspose 3D
 
-ในบทช่วยสอนนี้ เราได้สำรวจกระบวนการใช้ประโยชน์จาก Aspose.3D สำหรับ Java เพื่อสร้างกระบอกพัดลมเฉพาะบุคคลในฉาก 3 มิติ ความอเนกประสงค์ของ Aspose.3D ช่วยให้นักพัฒนาปรับปรุงโปรเจ็กต์การสร้างแบบจำลอง 3 มิติได้อย่างง่ายดาย
+Aspose.3D’s `Scene.save` method automatically handles the **aspose 3d export obj** process. You only need to specify the target file name and the `FileFormat.WAVEFRONTOBJ` enum value, as shown in the previous step.
+
+## ปัญหาทั่วไปและวิธีแก้
+
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|-----|
+| ไฟล์ OBJ ว่าง | ฉากไม่ได้บันทึกหรือเส้นทางไม่ถูกต้อง | ตรวจสอบว่าไดเรกทอรีผลลัพธ์มีอยู่และมีสิทธิ์เขียน. |
+| ช่องเปิดพัดลมดูผิด | ค่า `ThetaLength` ไม่ถูกต้อง | ใช้ `MathUtils.toRadian(degrees)` เพื่อตั้งค่ามุมที่ต้องการอย่างแม่นยำ. |
+| ข้อผิดพลาดการคอมไพล์ | ไม่มีไฟล์ JAR ของ Aspose.3D ใน classpath | เพิ่มไฟล์ JAR ไปยังโฟลเดอร์ `libs` ของโปรเจคและรวมไว้ในเส้นทางการสร้าง. |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: Aspose.3D เข้ากันได้กับไลบรารี Java อื่นๆ สำหรับการสร้างแบบจำลอง 3 มิติหรือไม่
+**Q:** Aspose.3D เข้ากันได้กับไลบรารี Java 3D อื่นหรือไม่?  
+**A:** ใช่, Aspose.3D สามารถทำงานร่วมกับไลบรารีเช่น Java 3D หรือ jMonkeyEngine, ทำให้คุณสามารถรวมเรขาคณิตที่กำหนดเองเข้าไปใน pipeline ที่ใหญ่ขึ้น.
 
-คำตอบ 1: Aspose.3D ได้รับการออกแบบมาให้ทำงานร่วมกับไลบรารี Java อื่นๆ ได้อย่างราบรื่น โดยให้ความยืดหยุ่นในการบูรณาการ
+**Q:** ฉันสามารถปรับแต่งลักษณะของพัดลมทรงกระบอกได้เพิ่มเติมหรือไม่?  
+**A:** แน่นอน. คุณสามารถใช้วัสดุ, เทกซ์เจอร์, และแสงโดยเข้าถึงคอลเลกชัน `Material` และ `Light` ของโหนด.
 
-### คำถามที่ 2: ฉันสามารถปรับแต่งรูปลักษณ์ของกระบอกพัดลมที่สร้างขึ้นเพิ่มเติมได้หรือไม่
+**Q:** ฉันจะหาแหล่งสนับสนุนเพิ่มเติมได้จากที่ไหน?  
+**A:** เยี่ยมชม [Aspose.3D forum](https://forum.aspose.com/c/3d/18) เพื่อรับความช่วยเหลือจากชุมชนและการตอบอย่างเป็นทางการ.
 
-A2: แน่นอน! Aspose.3D มีตัวเลือกมากมายสำหรับการปรับแต่ง ซึ่งช่วยให้คุณปรับแต่งรูปลักษณ์ของโมเดล 3D ของคุณได้อย่างละเอียด
+**Q:** มีรุ่นทดลองฟรีหรือไม่?  
+**A:** มี, คุณสามารถสำรวจ Aspose.3D ด้วย [free trial](https://releases.aspose.com/) ก่อนทำการซื้อ.
 
-### คำถามที่ 3: ฉันจะรับการสนับสนุนหรือความช่วยเหลือเพิ่มเติมสำหรับ Aspose.3D ได้ที่ไหน
+**Q:** ฉันจะขอรับไลเซนส์ชั่วคราวสำหรับการทดสอบได้อย่างไร?  
+**A:** รับได้จาก [ที่นี่](https://purchase.aspose.com/temporary-license/) เพื่อเปิดใช้งานฟังก์ชันเต็มในระหว่างการพัฒนา.
 
- A3: เยี่ยมชม[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+---
 
-### คำถามที่ 4: Aspose.3D มีรุ่นทดลองใช้ฟรีหรือไม่
+**อัปเดตล่าสุด:** 2026-04-03  
+**ทดสอบด้วย:** Aspose.3D 24.11 for Java  
+**ผู้เขียน:** Aspose  
 
- A4: ได้ คุณสามารถสำรวจ Aspose.3D ได้ด้วย[ทดลองฟรี](https://releases.aspose.com/) ก่อนตัดสินใจซื้อ
-
-### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.3D ได้อย่างไร
-
- A5: รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/) สำหรับความต้องการด้านการทดสอบและการพัฒนาของคุณ
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
