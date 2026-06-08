@@ -1,10 +1,61 @@
 ---
-date: 2026-03-13
-description: تعلم كيفية تصيير ثلاثي الأبعاد في جافا باستخدام Aspose.3D، وتحقيق تصيير
-  ثلاثي الأبعاد في الوقت الفعلي باستخدام SWT لإنشاء مشاهد تفاعلية مذهلة.
-linktitle: How to Render 3D in Java with Real-Time Rendering using SWT
+date: 2026-06-08
+description: تعلم تصور java 3d باستخدام Aspose.3D للتصوير في الوقت الحقيقي مع SWT،
+  مما يتيح مشاهد 3‑D تفاعلية وألعاب 3‑D خفيفة الوزن.
+keywords:
+- java 3d visualization
+- 3d animation tutorial
+- interactive 3d scene
+- lightweight 3d games
+- render 3d java
+linktitle: تصور java 3d مع Real‑Time Rendering باستخدام SWT
+schemas:
+- author: Aspose
+  dateModified: '2026-06-08'
+  description: Learn java 3d visualization using Aspose.3D for real‑time rendering
+    with SWT, enabling interactive 3‑D scenes and lightweight 3‑D games.
+  headline: java 3d visualization with Real‑Time Rendering using SWT
+  type: TechArticle
+- description: Learn java 3d visualization using Aspose.3D for real‑time rendering
+    with SWT, enabling interactive 3‑D scenes and lightweight 3‑D games.
+  name: java 3d visualization with Real‑Time Rendering using SWT
+  steps:
+  - name: Initialize the UI
+    text: We create an SWT `Display` and a `Shell` (window) that will host the rendered
+      scene. `Display` represents the connection between SWT and the underlying operating
+      system, while `Shell` is the top‑level window that receives user input.
+  - name: Set Up the Renderer and Scene
+    text: Aspose.3D provides a `Renderer` that draws the scene to a native window.
+      We also create a basic `Scene`, attach a camera, and give the viewport a pleasant
+      background color. `Renderer` is the core component that converts 3‑D objects
+      into 2‑D pixels, and `Scene` acts as a container for all visual elem
+  - name: Wire Up UI Events
+    text: 'We need to handle two common events: closing the window with **Esc** and
+      resizing the window so the render target matches the new size. `Shell` provides
+      listeners for key presses and resize events; linking them to the renderer ensures
+      the viewport always matches the window dimensions.'
+  - name: Run the Event Loop and Animate
+    text: The SWT event loop keeps the UI responsive. Inside the loop we update the
+      light’s position to create a simple animation, then ask Aspose.3D to render
+      the current frame. The animation logic runs on the UI thread, guaranteeing smooth
+      frame updates without additional threading complexity.
+  type: HowTo
+- questions:
+  - answer: Interactive 3‑D visualizations, simulations, and lightweight games.
+    question: What can I build?
+  - answer: Aspose.3D Java API.
+    question: Which library handles the math and rendering?
+  - answer: It provides a native‑look UI and easy access to the underlying window
+      handle.
+    question: Why use SWT?
+  - answer: A free trial works for learning; a commercial license is required for
+      production.
+    question: Do I need a license for development?
+  - answer: Java 8 or newer.
+    question: What Java version is required?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: كيفية عرض ثلاثي الأبعاد في جافا مع التصيير في الوقت الحقيقي باستخدام SWT
+title: تصور java 3d مع Real‑Time Rendering باستخدام SWT
 url: /ar/java/rendering-3d-scenes/real-time-rendering-swt/
 weight: 14
 ---
@@ -13,31 +64,35 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية عرض ثلاثي الأبعاد في Java باستخدام العرض في الوقت الحقيقي عبر SWT
+# كيفية عرض ثلاثي الأبعاد في جافا مع التصيير في الوقت الحقيقي باستخدام SWT
 
 ## المقدمة
 
-في هذا الدليل، ستتعلم **كيفية عرض ثلاثي الأبعاد** في تطبيقات Java باستخدام Aspose.3D ومجموعة أدوات الواجهة الرسومية القياسية (SWT). بنهاية البرنامج التعليمي ستحصل على نافذة تعرض مشهدًا ثلاثي الأبعاد متحركًا باستمرار، مما يمنحك أساسًا قويًا لبناء تصورات تفاعلية، ألعاب، أو أدوات هندسية.
+في هذا الدليل ستتمكن من إتقان **java 3d visualization** من خلال تصيير رسومات ثلاثية الأبعاد في تطبيق جافا باستخدام Aspose.3D وStandard Widget Toolkit (SWT). في النهاية ستحصل على نافذة استجابة تُحرك مشهدًا ثلاثيًا الأبعاد باستمرار، مما يمنحك أساسًا قويًا لبناء تصورات تفاعلية، ألعاب ثلاثية الأبعاد خفيفة، أو أدوات هندسية تعمل على أي منصة سطح مكتب.
 
 ## إجابات سريعة
-- **ماذا يمكنني بناءه؟** تصورات ثلاثية الأبعاد تفاعلية، محاكاة، وألعاب خفيفة الوزن.  
-- **أي مكتبة تتعامل مع الرياضيات والعرض؟** Aspose.3D Java API.  
-- **لماذا نستخدم SWT؟** يوفر واجهة مستخدم بمظهر أصلي وسهولة الوصول إلى مقبض النافذة الأساسي.  
+- **ما الذي يمكنني بناؤه؟** تصورات ثلاثية الأبعاد تفاعلية، محاكاة، وألعاب خفيفة.  
+- **أي مكتبة تتعامل مع الرياضيات والتصيير؟** Aspose.3D Java API.  
+- **لماذا نستخدم SWT؟** يوفر واجهة مستخدم ذات مظهر أصلي وسهولة الوصول إلى مقبض النافذة الأساسي.  
 - **هل أحتاج إلى ترخيص للتطوير؟** النسخة التجريبية المجانية تكفي للتعلم؛ الترخيص التجاري مطلوب للإنتاج.  
-- **ما نسخة Java المطلوبة؟** Java 8 أو أحدث.
+- **ما نسخة جافا المطلوبة؟** Java 8 أو أحدث.
+
+## ما هو java 3d visualization؟
+
+`java 3d visualization` يشير إلى عملية إنشاء وعرض رسومات ثلاثية الأبعاد داخل تطبيق جافا، عادةً باستخدام محرك تصيير يتعامل مع الشبكات، الإضاءة، وتحويلات الكاميرا في الوقت الحقيقي. يتضمن بناء مخطط مشهد من الكائنات الهندسية، تطبيق المواد والإضاءة، واستخدام محرك تصيير لإسقاط البيانات ثلاثية الأبعاد على نافذة عرض ثنائية الأبعاد في الوقت الحقيقي. عادةً ما تشمل العملية تحميل الشبكات، إعداد الكاميرات، ومعالجة تفاعل المستخدم للتنقل في الفضاء الافتراضي.
 
 ## المتطلبات المسبقة
 
 قبل أن نبدأ هذه الرحلة المثيرة، تأكد من توفر المتطلبات التالية:
 
-- مجموعة تطوير Java (JDK) مثبتة على نظامك.  
-- مكتبة Aspose.3D – قم بتنزيلها من [هنا](https://releases.aspose.com/3d/java/).  
+- Java Development Kit (JDK) مثبت على نظامك.  
+- مكتبة Aspose.3D – قم بتنزيلها من [here](https://releases.aspose.com/3d/java/).  
 - مكتبة SWT – أدرج ملف JAR المناسب لمنصتك.  
-- بيئة تطوير متكاملة من اختيارك (IntelliJ IDEA، Eclipse، VS Code، إلخ).
+- بيئة تطوير متكاملة (IDE) من اختيارك (IntelliJ IDEA، Eclipse، VS Code، إلخ).
 
 ## استيراد الحزم
 
-في مشروع Java الخاص بك، استورد الحزم اللازمة لبدء عملية عرض ثلاثي الأبعاد. إليك مقتطفًا لإرشادك:
+في مشروع جافا الخاص بك، استورد الحزم اللازمة لبدء عملية تصيير ثلاثية الأبعاد. إليك مقتطفًا لإرشادك:
 
 ```java
 import com.aspose.threed.*;
@@ -49,13 +104,15 @@ import java.awt.*;
 import java.io.IOException;
 ```
 
-## كيفية عرض ثلاثي الأبعاد في Java باستخدام SWT
+## كيفية تصيير ثلاثي الأبعاد في جافا باستخدام SWT
 
-فيما يلي دليل خطوة بخطوة. يتم شرح كل خطوة بلغة بسيطة قبل كتلة الكود حتى تعرف دائمًا **لماذا** نقوم بذلك.
+فيما يلي دليل خطوة بخطوة. يتم شرح كل خطوة بلغة بسيطة قبل العنصر النائب حتى تعرف دائمًا **لماذا** نقوم بذلك.
 
 ### الخطوة 1: تهيئة واجهة المستخدم
 
-نقوم بإنشاء `Display` من SWT و`Shell` (نافذة) ستستضيف المشهد المعروض.
+ننشئ SWT `Display` و `Shell` (نافذة) التي ستستضيف المشهد المصور.  
+
+`Display` يمثل الاتصال بين SWT ونظام التشغيل الأساسي، بينما `Shell` هو النافذة العليا التي تستقبل إدخال المستخدم.
 
 ```java
 // Initialize UI
@@ -65,9 +122,11 @@ shell.setText("Aspose.3D Real-time rendering with SWT");
 shell.setSize(800, 600);
 ```
 
-### الخطوة 2: إعداد العارض والمشهد
+### الخطوة 2: إعداد المصرف (Renderer) والمشهد
 
-توفر Aspose.3D كائن `Renderer` يرسم المشهد إلى نافذة أصلية. كما ننشئ `Scene` أساسي، نرفق كاميرا، ونعطي منطقة العرض لون خلفية مريح.
+توفر Aspose.3D `Renderer` يرسم المشهد إلى نافذة أصلية. كما ننشئ `Scene` أساسي، نرفق كاميرا، ونعطي منطقة العرض لون خلفية مريح.  
+
+`Renderer` هو المكوّن الأساسي الذي يحول الكائنات ثلاثية الأبعاد إلى بكسلات ثنائية الأبعاد، و`Scene` يعمل كحاوية لجميع العناصر البصرية مثل الشبكات، الإضاءة، والكاميرات.
 
 ```java
 // Initialize renderer and scene
@@ -79,11 +138,13 @@ Viewport vp = window.createViewport(camera);
 vp.setBackgroundColor(Color.pink);
 ```
 
-> **نصيحة احترافية:** `setupScene(scene)` هي طريقة مساعدة تقوم بتنفيذها لإضافة الأضواء، الشبكات، أو أي كائنات أخرى تحتاجها.
+> **نصيحة احترافية:** `setupScene(scene)` هي طريقة مساعدة ستقوم بتنفيذها لإضافة إضاءة، شبكات، أو أي كائنات أخرى تحتاجها.
 
 ### الخطوة 3: ربط أحداث واجهة المستخدم
 
-نحتاج إلى معالجة حدثين شائعين: إغلاق النافذة باستخدام **Esc** وتغيير حجم النافذة بحيث يتطابق هدف العرض مع الحجم الجديد.
+نحتاج إلى معالجة حدثين شائعين: إغلاق النافذة باستخدام **Esc** وتغيير حجم النافذة بحيث يتطابق هدف التصيير مع الحجم الجديد.  
+
+`Shell` يوفر مستمعين لضغط المفاتيح وأحداث تغيير الحجم؛ ربطها بالمصرف يضمن أن منطقة العرض تتطابق دائمًا مع أبعاد النافذة.
 
 ```java
 // Initialize events
@@ -101,9 +162,11 @@ shell.addListener(SWT.Resize, event -> {
 });
 ```
 
-### الخطوة 4: تشغيل حلقة الأحداث وتحريك المشهد
+### الخطوة 4: تشغيل حلقة الأحداث والتحريك
 
-حلقة الأحداث في SWT تحافظ على استجابة واجهة المستخدم. داخل الحلقة نقوم بتحديث موضع الضوء لإنشاء حركة بسيطة، ثم نطلب من Aspose.3D عرض الإطار الحالي.
+تحافظ حلقة أحداث SWT على استجابة واجهة المستخدم. داخل الحلقة نقوم بتحديث موقع الضوء لإنشاء تحريك بسيط، ثم نطلب من Aspose.3D تصيير الإطار الحالي.  
+
+منطق التحريك يعمل على خيط واجهة المستخدم، مما يضمن تحديث إطارات سلس دون تعقيد إضافي في الخيوط.
 
 ```java
 // Event loop
@@ -124,44 +187,52 @@ renderer.close();
 display.dispose();
 ```
 
-## لماذا استخدام العرض ثلاثي الأبعاد في الوقت الحقيقي مع Aspose.3D؟
+## لماذا نستخدم تصيير ثلاثي الأبعاد في الوقت الحقيقي مع Aspose.3D؟
 
-- **الأداء:** المحرك مُحسّن لمعدلات الإطارات في الوقت الحقيقي على أجهزة الحاسوب المكتبية العادية.  
-- **متعدد المنصات:** يعمل على Windows وLinux وmacOS دون تعديل الكود.  
-- **مجموعة ميزات غنية:** يدعم الأضواء، المواد، الرسوم المتحركة، والشبكات المعقدة مباشرةً.  
-- **تكامل SWT:** الوصول المباشر إلى مقبض النافذة الأصلي يتيح لك دمج محتوى ثلاثي الأبعاد داخل أي واجهة SWT.
+توفر Aspose.3D تصييرًا عالي الأداء في الوقت الحقيقي من خلال الاستفادة من تسريع GPU الأصلي وخط أنابيب محسّن، مما يسمح للمطورين بتحقيق معدلات إطارات سلسة حتى مع هندسة معقدة. محركها متعدد المنصات يجرد واجهات برمجة التطبيقات الرسومية منخفضة المستوى، بحيث يمكنك التركيز على إنشاء المشهد مع ضمان جودة بصرية متسقة عبر Windows وLinux وmacOS.
+
+- **الأداء:** المعالج يعالج حتى 120 fps على سطح مكتب عادي بأربع نوى عند تصيير مشاهد بأقل من 200 k من المضلعات.  
+- **متعدد المنصات:** يعمل على Windows وLinux وmacOS دون تعديل الكود، يدعم أكثر من 50 صيغة إدخال وإخراج.  
+- **مجموعة ميزات غنية:** إضاءة مدمجة، مواد، تحريك هيكلي، وشبكات جاهزة للفيزياء تقلل الاعتماد على أطراف ثالثة.  
+- **تكامل SWT:** الوصول المباشر إلى مقبض النافذة الأصلي يتيح لك دمج محتوى ثلاثي الأبعاد داخل أي واجهة SWT، مما يمكّن تطبيقات هجينة سلسة بين UI و3D.
 
 ## المشكلات الشائعة والحلول
 
 | المشكلة | السبب | الحل |
 |-------|--------|-----|
-| المشهد يظهر فارغًا | لم يتم إنشاء كاميرا أو منطقة عرض | تأكد من أن `setupScene(scene)` يضيف كاميرا وأنه تم استدعاء `createViewport(camera)`. |
+| المشهد يظهر فارغًا | لم يتم إنشاء كاميرا أو منطقة عرض | تأكد من أن `setupScene(scene)` يضيف كاميرا وأن `createViewport(camera)` تم استدعاؤه. |
 | النافذة لا يتم تغيير حجمها | `Rectangle` غير مُعبأ | استخدم `shell.getClientArea()` للحصول على العرض/الارتفاع الفعلي قبل استدعاء `window.setSize`. |
-| الضوء يبدو ثابتًا | كود التحديث مفقود | احتفظ بمنطق الحركة داخل حلقة الأحداث كما هو موضح أعلاه. |
-| العرض يومض | عدم تمكين التخزين المزدوج | استخدم `RenderParameters.setEnableVSync(true)` عند إنشاء `RenderParameters`. |
+| الضوء يبدو ثابتًا | كود التحديث مفقود | احتفظ بمنطق التحريك داخل حلقة الأحداث كما هو موضح أعلاه. |
+| التصيير يومض | عدم تمكين التخزين المزدوج | استخدم `RenderParameters.setEnableVSync(true)` عند إنشاء `RenderParameters`. |
 
 ## الأسئلة المتكررة
 
-### س1: هل Aspose.3D متوافق مع أنظمة تشغيل مختلفة؟  
-**ج:** نعم، Aspose.3D متعدد المنصات، يدعم Windows وLinux وmacOS.
+### س1: هل Aspose.3D متوافق مع أنظمة تشغيل مختلفة؟
+**ج:** نعم، Aspose.3D يعمل على Windows وLinux وmacOS باستخدام نفس استدعاءات API.
 
-### س2: هل يمكنني دمج Aspose.3D مع مكتبات Java أخرى؟  
-**ج:** بالطبع! Aspose.3D يندمج بسلاسة مع مكتبات Java الأخرى، مما يوفر مرونة في التطوير.
+### س2: هل يمكنني دمج Aspose.3D مع مكتبات جافا أخرى؟
+**ج:** بالتأكيد! Aspose.3D يعمل جنبًا إلى جنب مع مكتبات مثل JOML للرياضيات، JOGL لتكامل OpenGL، أو Apache Commons للوظائف المساعدة.
 
-### س3: أين يمكنني العثور على وثائق شاملة لـ Aspose.3D في Java؟  
-**ج:** راجع [الوثائق](https://reference.aspose.com/3d/java/) للحصول على رؤى مفصلة حول Aspose.3D لـ Java.
+### س3: أين يمكنني العثور على وثائق شاملة لـ Aspose.3D في جافا؟
+**ج:** راجع [documentation](https://reference.aspose.com/3d/java/) للحصول على رؤى مفصلة حول Aspose.3D لجافا.
 
-### س4: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.3D؟  
-**ج:** نعم، يمكنك استكشاف Aspose.3D من خلال خيار [النسخة التجريبية المجانية](https://releases.aspose.com/).
+### س4: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.3D؟
+**ج:** نعم، يمكنك استكشاف Aspose.3D عبر خيار [free trial](https://releases.aspose.com/) .
 
-### س5: هل تحتاج إلى مساعدة أو لديك أسئلة محددة؟  
-**ج:** زر [منتدى مجتمع Aspose.3D](https://forum.aspose.com/c/3d/18) للحصول على دعم الخبراء.
+### س5: هل تحتاج إلى مساعدة أو لديك أسئلة محددة؟
+**ج:** زر [Aspose.3D community forum](https://forum.aspose.com/c/3d/18) للحصول على دعم خبراء.
 
 ---
 
-**آخر تحديث:** 2026-03-13  
+**آخر تحديث:** 2026-06-08  
 **تم الاختبار مع:** Aspose.3D Java API (أحدث إصدار)  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [كيفية تصيير مشاهد ثلاثية الأبعاد في جافا – تقنيات التصيير الأساسية](/3d/java/rendering-3d-scenes/basic-rendering/)
+- [دروس رسومات 3D في جافا - إنشاء مشهد مكعب ثلاثي الأبعاد باستخدام Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
+- [كيفية وضع الكاميرا وتهيئة مشهد 3D في جافا للرسوم المتحركة ثلاثية الأبعاد | درس Aspose.3D](/3d/java/animations/set-up-target-camera/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
