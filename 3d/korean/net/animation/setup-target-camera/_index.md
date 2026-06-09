@@ -1,10 +1,16 @@
 ---
-date: 2026-01-14
-description: Aspose.3D for .NET을 사용하여 장면에 카메라를 추가하고 장면을 FBX로 내보내는 방법을 배우세요 – 카메라 타깃을
+date: 2026-04-08
+description: Aspose.3D for .NET를 사용하여 장면에 카메라를 추가하고 장면을 FBX로 내보내는 방법을 배우세요 – 카메라 타깃을
   설정하고 3D 애니메이션을 만드는 단계별 가이드.
-linktitle: Add Camera to Scene and Set Up Targets for 3D Animation
+keywords:
+- add camera to scene
+- set camera target
+- export scene as fbx
+- how to add camera
+- position camera in 3d
+linktitle: 장면에 카메라 추가 및 3D 애니메이션을 위한 타깃 설정
 second_title: Aspose.3D .NET API
-title: 장면에 카메라 추가 및 3D 애니메이션용 타깃 설정
+title: 장면에 카메라 추가 및 3D 애니메이션을 위한 타깃 설정
 url: /ko/net/animation/setup-target-camera/
 weight: 11
 ---
@@ -15,36 +21,41 @@ weight: 11
 
 # 장면에 카메라 추가 및 3D 애니메이션을 위한 타깃 설정
 
-## Introduction
+## 소개
 
-3D 애니메이션을 제작하고 있다면, 가장 먼저 필요한 것은 적절히 배치된 카메라입니다. 이 튜토리얼에서는 **장면에 카메라 추가** 방법을 배우고, 타깃을 정의한 뒤, 마지막으로 Aspose.3D for .NET을 사용해 **장면을 FBX로 내보내는** 방법을 배웁니다. 각 단계를 차례로 살펴보고, 왜 중요한지 설명하며, 자신 있게 매력적인 3D 애니메이션을 만들 수 있도록 실용적인 팁을 제공합니다.
+If you’re building a 3D animation, the first thing you need is a well‑positioned camera. In this tutorial you’ll learn **how to add camera to scene**, define its target, and finally **export scene as FBX** using Aspose.3D for .NET. We’ll walk through each step, explain why it matters, and give you practical tips so you can create compelling 3D animations with confidence. By the end you’ll also understand how to **position camera in 3d** space for optimal framing.
 
-## Quick Answers
-- **카메라를 추가하기 위한 첫 번째 단계는 무엇인가요?** 카메라 노드를 호스팅할 `Scene` 객체를 초기화하는 것입니다.  
-- **이 가이드에서 내보내기에 사용되는 파일 형식은 무엇인가요?** FBX (`.fbx`).  
-- **샘플 코드를 실행하려면 라이선스가 필요합니까?** 평가용으로는 무료 체험판으로 충분하지만, 실제 운영을 위해서는 상용 라이선스가 필요합니다.  
-- **.NET 버전 지원 현황은?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
-- **생성 후에 카메라 위치를 변경할 수 있나요?** 예 – 언제든지 `cameraNode.Transform.Translation`을 수정하면 됩니다.
+## 빠른 답변
+- **What is the first step to add a camera?** Initialize a `Scene` object that will host the camera node.  
+- **Which file format is used for export in this guide?** FBX (`.fbx`).  
+- **Do I need a license to run the sample code?** A free trial works for evaluation; a commercial license is required for production.  
+- **What .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Can I change the camera position after creation?** Yes – modify `cameraNode.Transform.Translation` at any time.
 
-## What is **add camera to scene**?
-장면에 카메라를 추가한다는 것은 `Camera` 엔티티를 생성하고, 이를 씬 그래프의 노드에 연결한 뒤, 목표 지점을 바라보도록 위치를 지정하는 것을 의미합니다. 이는 씬이 렌더링되거나 내보내질 때 뷰어의 시점을 정의합니다.
+## **add camera to scene**란 무엇인가요?
+Adding a camera to a scene means creating a `Camera` entity, attaching it to a node in the scene graph, and positioning it so that it “looks at” a target point. This defines the viewer’s perspective when the scene is rendered or exported.
 
-## Why set up camera targets and export as FBX?
-- **시점 제어** – 정확한 카메라 배치는 애니메이션을 원하는 대로 프레이밍할 수 있게 합니다.  
-- **상호 운용성** – FBX는 게임 엔진, Maya, Blender 등 다양한 3D 도구에서 널리 지원되어 자산 공유가 용이합니다.  
-- **재사용 가능한 자산** – 카메라와 그 타깃을 저장하면 여러 프로젝트에서 씬을 재사용할 수 있습니다.
+## 왜 카메라 타깃을 설정하고 FBX로 내보내야 할까요?
+- **Control the viewpoint** – precise camera placement lets you frame your animation exactly as you envision.  
+- **Interoperability** – FBX is widely supported by game engines, Maya, Blender, and other 3D tools, making it easy to share assets.  
+- **Reusable assets** – once the camera and its target are saved, you can reuse the scene in multiple projects.
 
-## Prerequisites
+## 일반적인 사용 사례
+- **Cinematic cut‑scenes** in games where a fixed camera follows a character.  
+- **Product visualizations** where you need a stable viewpoint to showcase a model from different angles.  
+- **Pre‑visualization** for film or AR/VR projects, allowing designers to iterate on camera placement before final rendering.
 
-튜토리얼을 시작하기 전에 다음 전제 조건을 확인하세요:
+## 전제 조건
 
-- C# 및 .NET 프레임워크에 대한 기본 지식.  
-- Aspose.3D for .NET 라이브러리가 설치되어 있어야 합니다. [여기](https://releases.aspose.com/3d/net/)에서 다운로드할 수 있습니다.  
-- 3D 프로그래밍을 위한 개발 환경이 준비되어 있어야 합니다.
+Before diving into the tutorial, ensure you have the following prerequisites:
 
-## Import Namespaces
+- Basic knowledge of C# and .NET framework.  
+- Aspose.3D for .NET library installed. You can download it [here](https://releases.aspose.com/3d/net/).  
+- A development environment ready for 3D programming.
 
-프로세스를 시작하려면 프로젝트에 필요한 네임스페이스를 가져오세요. 이러한 네임스페이스는 Aspose.3D for .NET의 기능을 활용하는 데 필수적입니다:
+## 네임스페이스 가져오기
+
+To kickstart the process, import the necessary namespaces into your project. These namespaces are essential for leveraging the power of Aspose.3D for .NET:
 
 ```csharp
 using System;
@@ -56,11 +67,11 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Step‑by‑Step Guide
+## 단계별 가이드
 
-### Step 1: Initialize Scene Object
+### 단계 1: 씬 객체 초기화
 
-먼저 씬 객체를 초기화합니다. 이는 3D 애니메이션이 구현되는 캔버스 역할을 합니다.
+Begin by initializing the scene object. This serves as the canvas where your 3D animation will come to life.
 
 ```csharp
 // ExStart:SetupTargetAndCamera
@@ -68,79 +79,74 @@ using Aspose.ThreeD.Utilities;
 Scene scene = new Scene();
 ```
 
-### Step 2: Create a Camera Node
+### 단계 2: 카메라 노드 생성
 
-다음으로 카메라를 담을 자식 노드를 생성합니다. 노드에 의미 있는 이름을 부여하면 씬 계층 구조를 정리하는 데 도움이 됩니다.
+Next, create a child node that will hold the camera. Giving the node a meaningful name helps keep the scene hierarchy organized.
 
 ```csharp
 // Get a child node object
 Node cameraNode = scene.RootNode.CreateChildNode("camera", new Camera());
 ```
 
-### Step 3: Position the Camera
+### 단계 3: 카메라 위치 지정
 
-카메라 노드의 변환(translation)을 지정합니다. 이는 3D 공간에서 카메라의 초기 위치를 결정합니다.
+Specify the translation for the camera node. This determines the initial position of the camera in the 3D space. Adjust the `Vector3` values to **position camera in 3d** as needed for your shot.
 
 ```csharp
 // Set camera node translation
 cameraNode.Transform.Translation = new Vector3(100, 20, 0);
 ```
 
-### Step 4: Define the Camera Target
+### 단계 4: 카메라 타깃 정의
 
-카메라가 바라볼 목표 지점이 필요합니다. 우리는 초점 역할을 하는 또 다른 자식 노드를 생성하고 이를 카메라의 `Target` 속성에 할당합니다.
+A camera needs a target point to look at. We create another child node that acts as the focal point and assign it to the camera’s `Target` property. This is how you **set camera target** for a stable view.
 
 ```csharp
 cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target");
 ```
 
-### Step 5: Save the Configured Scene
+### 단계 5: 구성된 씬 저장
 
-마지막으로 씬을 FBX 파일(또는 지원되는 다른 형식)로 내보냅니다. `"Your Output Directory"`를 파일을 저장하려는 실제 경로로 교체하세요.
+Finally, export the scene to an FBX file (or any other supported format). Replace `"Your Output Directory"` with the actual path where you want the file saved.
 
 ```csharp
 var output = "Your Output Directory" + "camera-test.fbx";
 scene.Save(output);
 ```
 
-## Common Issues and Solutions
+## 일반적인 문제 및 해결책
 
-| Issue | Solution |
+| 문제 | 해결책 |
 |-------|----------|
-| **카메라가 잘못된 각도로 표시됨** | 타깃 노드가 예상 위치에 있는지 확인하세요. 또한 `cameraNode.GetEntity<Camera>().UpVector`를 설정하여 방향을 제어할 수 있습니다. |
-| **내보낸 FBX가 다른 도구에서 열리지 않음** | 최근 버전의 Aspose.3D를 사용하고 있는지 확인하세요(라이브러리는 자동으로 호환 가능한 FBX 버전을 작성합니다). |
-| **`scene.Save`에서 경로를 찾을 수 없음 오류** | `Save`를 호출하기 전에 절대 경로를 사용하거나 출력 디렉터리가 존재하는지 확인하세요. |
+| **카메라가 잘못된 각도로 표시됩니다** | Verify that the target node is positioned where you expect. You can also set `cameraNode.GetEntity<Camera>().UpVector` to control orientation. |
+| **내보낸 FBX가 다른 도구에서 열리지 않음** | Ensure you are using a recent version of Aspose.3D (the library automatically writes a compatible FBX version). |
+| **`scene.Save`에서 경로를 찾을 수 없음 오류** | Use an absolute path or ensure the output directory exists before calling `Save`. |
 
-## FAQ's
+## 자주 묻는 질문
 
-### Q1: Aspose.3D가 다른 3D 모델링 도구와 호환되나요?
+**Q: Aspose.3D가 다른 3D 모델링 도구와 호환되나요?**  
+A: Aspose.3D supports various file formats, ensuring compatibility with popular 3D modeling tools.
 
-A1: Aspose.3D는 다양한 파일 형식을 지원하여 인기 있는 3D 모델링 도구와의 호환성을 보장합니다.
+**Q: Aspose.3D를 게임 개발에 사용할 수 있나요?**  
+A: Absolutely! Aspose.3D empowers developers to create 3D assets for games with ease.
 
-### Q2: Aspose.3D를 게임 개발에 사용할 수 있나요?
+**Q: Aspose.3D에 대한 추가 지원은 어디서 찾을 수 있나요?**  
+A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community support and discussions.
 
-A2: 물론입니다! Aspose.3D는 개발자가 게임용 3D 자산을 손쉽게 만들 수 있도록 지원합니다.
+**Q: 무료 체험판이 있나요?**  
+A: Yes, you can explore a free trial [here](https://releases.aspose.com/).
 
-### Q3: Aspose.3D에 대한 추가 지원을 어디서 찾을 수 있나요?
+**Q: 임시 라이선스는 어떻게 얻나요?**  
+A: Get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-A3: [Aspose.3D 포럼](https://forum.aspose.com/c/3d/18)에서 커뮤니티 지원 및 토론을 확인하세요.
+## 결론
 
-### Q4: 무료 체험판을 제공하나요?
-
-A4: 예, [여기](https://releases.aspose.com/)에서 무료 체험판을 확인할 수 있습니다.
-
-### Q5: 임시 라이선스는 어떻게 얻나요?
-
-A5: [여기](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 받으세요.
-
-## Conclusion
-
-이제 **장면에 카메라 추가** 방법, 타깃 설정 및 Aspose.3D for .NET을 사용해 결과를 FBX 파일로 내보내는 방법을 배웠습니다. 이러한 기본을 바탕으로 더 풍부한 애니메이션을 만들고, 여러 카메라를 실험하며, 내보낸 씬을 게임 엔진이나 시각 효과 파이프라인에 통합할 수 있습니다.
+You’ve now learned how to **add camera to scene**, set its target, and export the result as an FBX file using Aspose.3D for .NET. With these fundamentals in place, you can start building richer animations, experiment with multiple cameras, and integrate the exported scenes into game engines or visual‑effects pipelines.
 
 ---
 
-**마지막 업데이트:** 2026-01-14  
-**테스트 환경:** Aspose.3D 24.11 for .NET (작성 시 최신 버전)  
+**마지막 업데이트:** 2026-04-08  
+**테스트 환경:** Aspose.3D 24.11 for .NET (latest at time of writing)  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

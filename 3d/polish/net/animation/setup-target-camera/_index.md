@@ -1,9 +1,15 @@
 ---
-date: 2026-01-14
+date: 2026-04-08
 description: Dowiedz się, jak dodać kamerę do sceny i wyeksportować scenę jako FBX
   przy użyciu Aspose.3D dla .NET – krok po kroku przewodnik, jak ustawić cele kamery
   i tworzyć animacje 3D.
-linktitle: Add Camera to Scene and Set Up Targets for 3D Animation
+keywords:
+- add camera to scene
+- set camera target
+- export scene as fbx
+- how to add camera
+- position camera in 3d
+linktitle: Dodaj kamerę do sceny i ustaw cele dla animacji 3D
 second_title: Aspose.3D .NET API
 title: Dodaj kamerę do sceny i ustaw cele dla animacji 3D
 url: /pl/net/animation/setup-target-camera/
@@ -18,32 +24,37 @@ weight: 11
 
 ## Wprowadzenie
 
-Jeśli tworzysz animację 3D, pierwszą rzeczą, której potrzebujesz, jest dobrze ustawiona kamera. W tym samouczku nauczysz się **jak dodać kamerę do sceny**, określić jej cel i w końcu **wyeksportować scenę jako FBX** przy użyciu Aspose.3D dla .NET. Przejdziemy przez każdy krok, wyjaśnimy, dlaczego jest to ważne, i podamy praktyczne wskazówki, abyś mógł tworzyć atrakcyjne animacje 3D z pewnością.
+Jeśli tworzysz animację 3D, pierwszą rzeczą, której potrzebujesz, jest dobrze ustawiona kamera. W tym samouczku nauczysz się **jak dodać kamerę do sceny**, określić jej cel oraz w końcu **wyeksportować scenę jako FBX** przy użyciu Aspose.3D dla .NET. Przejdziemy przez każdy krok, wyjaśnimy, dlaczego jest to ważne, i podamy praktyczne wskazówki, abyś mógł tworzyć atrakcyjne animacje 3D z pewnością. Na koniec zrozumiesz także, jak **ustawić kamerę w 3D** przestrzeni dla optymalnego kadrowania.
 
 ## Szybkie odpowiedzi
 - **Jaki jest pierwszy krok, aby dodać kamerę?** Zainicjalizuj obiekt `Scene`, który będzie hostował węzeł kamery.  
 - **Jaki format pliku jest używany do eksportu w tym przewodniku?** FBX (`.fbx`).  
-- **Czy potrzebuję licencji, aby uruchomić przykładowy kod?** Darmowa wersja próbna wystarcza do oceny; licencja komercyjna jest wymagana w produkcji.  
+- **Czy potrzebuję licencji, aby uruchomić przykładowy kod?** Darmowa wersja próbna działa w celach oceny; licencja komercyjna jest wymagana w produkcji.  
 - **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
 - **Czy mogę zmienić pozycję kamery po jej utworzeniu?** Tak – zmodyfikuj `cameraNode.Transform.Translation` w dowolnym momencie.
 
-## Czym jest **add camera to scene**?
-Dodanie kamery do sceny oznacza stworzenie encji `Camera`, podłączenie jej do węzła w grafie sceny oraz ustawienie jej tak, aby „patrzyła na” punkt docelowy. Definiuje to perspektywę obserwatora podczas renderowania lub eksportu sceny.
+## Co to jest **add camera to scene**?
+Dodanie kamery do sceny oznacza stworzenie encji `Camera`, podłączenie jej do węzła w grafie sceny i ustawienie jej tak, aby „patrzyła na” punkt docelowy. Definiuje to perspektywę obserwatora podczas renderowania lub eksportu sceny.
 
 ## Dlaczego ustawiać cele kamery i eksportować jako FBX?
-- **Kontrola punktu widzenia** – precyzyjne ustawienie kamery pozwala ująć animację dokładnie tak, jak sobie wyobrażasz.  
-- **Interoperacyjność** – FBX jest szeroko wspierany przez silniki gier, Maya, Blender i inne narzędzia 3D, co ułatwia udostępnianie zasobów.  
-- **Ponowne użycie zasobów** – po zapisaniu kamery i jej celu możesz ponownie wykorzystać scenę w wielu projektach.
+- **Control the viewpoint** – precyzyjne ustawienie kamery pozwala na kadrowanie animacji dokładnie tak, jak sobie wyobrażasz.  
+- **Interoperability** – FBX jest szeroko wspierany przez silniki gier, Maya, Blender i inne narzędzia 3D, co ułatwia udostępnianie zasobów.  
+- **Reusable assets** – po zapisaniu kamery i jej celu możesz ponownie używać sceny w wielu projektach.
+
+## Typowe przypadki użycia
+- **Cinematic cut‑scenes** w grach, gdzie stała kamera podąża za postacią.  
+- **Wizualizacje produktów**, gdzie potrzebny jest stabilny punkt widzenia, aby przedstawić model z różnych kątów.  
+- **Pre‑visualizacja** dla projektów filmowych lub AR/VR, umożliwiając projektantom iterację ustawień kamery przed ostatecznym renderowaniem.
 
 ## Wymagania wstępne
 
-Zanim zanurzysz się w samouczek, upewnij się, że masz następujące wymagania wstępne:
+Zanim zagłębisz się w samouczek, upewnij się, że spełniasz następujące wymagania:
 
 - Podstawowa znajomość C# i platformy .NET.  
 - Zainstalowana biblioteka Aspose.3D dla .NET. Możesz ją pobrać [tutaj](https://releases.aspose.com/3d/net/).  
 - Środowisko programistyczne gotowe do programowania 3D.
 
-## Importuj przestrzenie nazw
+## Importowanie przestrzeni nazw
 
 Aby rozpocząć proces, zaimportuj niezbędne przestrzenie nazw do swojego projektu. Te przestrzenie nazw są niezbędne do wykorzystania możliwości Aspose.3D dla .NET:
 
@@ -61,7 +72,7 @@ using Aspose.ThreeD.Utilities;
 
 ### Krok 1: Zainicjalizuj obiekt sceny
 
-Rozpocznij od zainicjowania obiektu sceny. Służy on jako płótno, na którym ożyje Twoja animacja 3D.
+Rozpocznij od zainicjalizowania obiektu sceny. Służy on jako płótno, na którym ożyje Twoja animacja 3D.
 
 ```csharp
 // ExStart:SetupTargetAndCamera
@@ -71,16 +82,16 @@ Scene scene = new Scene();
 
 ### Krok 2: Utwórz węzeł kamery
 
-Następnie utwórz węzeł podrzędny, który będzie przechowywał kamerę. Nadanie węzłowi znaczącej nazwy pomaga utrzymać hierarchię sceny w porządku.
+Następnie utwórz węzeł potomny, który będzie przechowywał kamerę. Nadanie węzłowi znaczącej nazwy pomaga utrzymać hierarchię sceny w porządku.
 
 ```csharp
 // Get a child node object
 Node cameraNode = scene.RootNode.CreateChildNode("camera", new Camera());
 ```
 
-### Krok 3: Ustaw pozycję kamery
+### Krok 3: Ustaw kamerę
 
-Określ translację dla węzła kamery. To ustala początkową pozycję kamery w przestrzeni 3D.
+Określ translację dla węzła kamery. To ustala początkową pozycję kamery w przestrzeni 3D. Dostosuj wartości `Vector3`, aby **ustawić kamerę w 3D** zgodnie z potrzebami ujęcia.
 
 ```csharp
 // Set camera node translation
@@ -89,7 +100,7 @@ cameraNode.Transform.Translation = new Vector3(100, 20, 0);
 
 ### Krok 4: Zdefiniuj cel kamery
 
-Kamera potrzebuje punktu docelowego, na który ma patrzeć. Tworzymy kolejny węzeł podrzędny, który pełni rolę punktu ogniskowego i przypisujemy go do właściwości `Target` kamery.
+Kamera potrzebuje punktu docelowego, na który ma patrzeć. Tworzymy kolejny węzeł potomny, który pełni rolę punktu ogniskowego i przypisujemy go do właściwości `Target` kamery. Tak **ustawiasz cel kamery** dla stabilnego widoku.
 
 ```csharp
 cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target");
@@ -110,37 +121,32 @@ scene.Save(output);
 |-------|----------|
 | **Kamera pojawia się pod niewłaściwym kątem** | Sprawdź, czy węzeł docelowy jest umieszczony tam, gdzie tego oczekujesz. Możesz także ustawić `cameraNode.GetEntity<Camera>().UpVector`, aby kontrolować orientację. |
 | **Wyeksportowany FBX nie otwiera się w innych narzędziach** | Upewnij się, że używasz najnowszej wersji Aspose.3D (biblioteka automatycznie zapisuje kompatybilną wersję FBX). |
-| **Błąd: ścieżka nie znaleziona przy `scene.Save`** | Użyj ścieżki bezwzględnej lub upewnij się, że katalog wyjściowy istnieje przed wywołaniem `Save`. |
+| **Błąd 'ścieżka nie znaleziona' przy `scene.Save`** | Użyj ścieżki bezwzględnej lub upewnij się, że katalog wyjściowy istnieje przed wywołaniem `Save`. |
 
-## FAQ
+## Najczęściej zadawane pytania
 
-### Q1: Czy Aspose.3D jest kompatybilny z innymi narzędziami do modelowania 3D?
+**Q: Czy Aspose.3D jest kompatybilny z innymi narzędziami do modelowania 3D?**  
+A: Aspose.3D obsługuje różne formaty plików, zapewniając kompatybilność z popularnymi narzędziami do modelowania 3D.
 
-Aspose.3D obsługuje różne formaty plików, zapewniając kompatybilność z popularnymi narzędziami do modelowania 3D.
+**Q: Czy mogę używać Aspose.3D do tworzenia gier?**  
+A: Zdecydowanie! Aspose.3D umożliwia programistom łatwe tworzenie zasobów 3D do gier.
 
-### Q2: Czy mogę używać Aspose.3D do tworzenia gier?
+**Q: Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.3D?**  
+A: Odwiedź [forum Aspose.3D](https://forum.aspose.com/c/3d/18) aby uzyskać wsparcie społeczności i dyskusje.
 
-Zdecydowanie! Aspose.3D umożliwia programistom łatwe tworzenie zasobów 3D do gier.
+**Q: Czy dostępna jest darmowa wersja próbna?**  
+A: Tak, możesz wypróbować darmową wersję próbną [tutaj](https://releases.aspose.com/).
 
-### Q3: Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.3D?
+**Q: Jak uzyskać tymczasową licencję?**  
+A: Uzyskaj tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
 
-Odwiedź [forum Aspose.3D](https://forum.aspose.com/c/3d/18), aby uzyskać wsparcie społeczności i dyskusje.
+## Zakończenie
 
-### Q4: Czy dostępna jest darmowa wersja próbna?
-
-Tak, możesz wypróbować darmową wersję próbną [tutaj](https://releases.aspose.com/).
-
-### Q5: Jak uzyskać tymczasową licencję?
-
-Uzyskaj tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
-
-## Podsumowanie
-
-Teraz wiesz, jak **add camera to scene**, ustawić jej cel i wyeksportować wynik jako plik FBX przy użyciu Aspose.3D dla .NET. Mając te podstawy, możesz zacząć tworzyć bardziej złożone animacje, eksperymentować z wieloma kamerami i integrować wyeksportowane sceny z silnikami gier lub pipeline'ami efektów wizualnych.
+Teraz wiesz, jak **dodać kamerę do sceny**, ustawić jej cel i wyeksportować wynik jako plik FBX przy użyciu Aspose.3D dla .NET. Mając te podstawy, możesz zacząć tworzyć bardziej złożone animacje, eksperymentować z wieloma kamerami i integrować wyeksportowane sceny z silnikami gier lub pipeline'ami efektów wizualnych.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-01-14  
+**Ostatnia aktualizacja:** 2026-04-08  
 **Testowano z:** Aspose.3D 24.11 for .NET (latest at time of writing)  
 **Autor:** Aspose  
 
