@@ -1,11 +1,42 @@
 ---
-date: 2026-02-20
-description: Μάθετε πώς να δημιουργείτε πλέγμα Aspose Java και να μετασχηματίζετε
-  κόμβους 3D χρησιμοποιώντας γωνίες Euler, να προσθέτετε περιστροφή 3D και να ορίζετε
-  μετάφραση Java.
-linktitle: Create Mesh Aspose Java – Transform 3D Nodes with Euler Angles
+date: 2026-06-13
+description: Μάθετε πώς να δημιουργήσετε mesh aspose java και να μετασχηματίσετε 3D
+  nodes χρησιμοποιώντας Euler angles, να προσθέσετε rotation 3D, να ορίσετε translation
+  java, και να εξάγετε scenes αποδοτικά.
+keywords:
+- create mesh aspose java
+- set translation java
+- euler angles java
+- aspose 3d rotation
+- export fbx java
+linktitle: Δημιουργία Mesh Aspose Java – Μετασχηματισμός 3D nodes με Euler Angles
+schemas:
+- author: Aspose
+  dateModified: '2026-06-13'
+  description: Learn how to create mesh aspose java and transform 3D nodes using Euler
+    angles, add rotation 3D, set translation java, and export scenes efficiently.
+  headline: Create Mesh Aspose Java – Transform 3D Nodes with Euler Angles
+  type: TechArticle
+- questions:
+  - answer: Euler angles are intuitive (pitch, yaw, roll) but can suffer from gimbal
+      lock, while quaternions avoid that issue and provide smoother interpolation
+      for animations.
+    question: What is the difference between Euler angles and quaternion rotation?
+  - answer: Yes. Call `setEulerAngles`, `setTranslation`, and `setScale` in any order;
+      the library composes them into a single transform matrix.
+    question: Can I chain multiple transformations on the same node?
+  - answer: Absolutely. Replace `FileFormat.FBX7500ASCII` with `FileFormat.OBJ` or
+      `FileFormat.STL` in the `scene.save` call.
+    question: Is it possible to export to other formats like OBJ or STL?
+  - answer: Create a parent node, apply the rotation to the parent, and add child
+      nodes under it. All children inherit the transformation automatically.
+    question: How do I apply the same rotation to several nodes at once?
+  - answer: The Java garbage collector handles most resources, but you can explicitly
+      call `scene.dispose()` when working with large scenes in long‑running applications.
+    question: Do I need to call any cleanup methods after saving?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Δημιουργία πλέγματος Aspose Java – Μετασχηματισμός 3Δ κόμβων με γωνίες Euler
+title: Δημιουργία Mesh Aspose Java – Μετασχηματισμός 3D nodes με Euler Angles
 url: /el/java/geometry/transform-3d-nodes-with-euler-angles/
 weight: 19
 ---
@@ -18,40 +49,37 @@ weight: 19
 
 ## Εισαγωγή
 
-Σε αυτό το tutorial θα ανακαλύψετε πώς να **create mesh aspose java** και να μετασχηματίσετε 3Δ κόμβους εφαρμόζοντας γωνίες Euler. Στο τέλος του οδηγού θα μπορείτε να προσθέσετε περιστροφή 3Δ, να ορίσετε translation java, και να δημιουργήσετε δυναμικές σκηνές που αντιδρούν σε δεδομένα σε πραγματικό χρόνο.
+Σε αυτό το σεμινάριο θα **create mesh aspose java** αντικείμενα, θα τα συνδέσετε με κόμβους σκηνής και στη συνέχεια θα μετασχηματίσετε αυτούς τους κόμβους χρησιμοποιώντας γωνίες Euler. Στο τέλος θα είστε άνετοι με την προσθήκη 3‑Δ περιστροφής, τον ορισμό translation java, και την εξαγωγή της τελικής σκηνής σε FBX ή άλλες μορφές—όλα με το σύντομο API του Aspose 3D.
 
 ## Γρήγορες Απαντήσεις
 - **Ποια βιβλιοθήκη διαχειρίζεται 3Δ μετασχηματισμούς σε Java;** Aspose 3D for Java.  
-- **Ποια μέθοδος ορίζει περιστροφή χρησιμοποιώντας γωνίες Euler;** `setEulerAngles()` στο transform του κόμβου.  
-- **Πώς μετακινώ έναν κόμβο στο χώρο;** Χρησιμοποιήστε `setTranslation()` με ένα `Vector3`.  
-- **Χρειάζομαι άδεια για παραγωγή;** Ναι, απαιτείται εμπορική άδεια Aspose 3D.  
-- **Μπορώ να εξάγω σε FBX;** Απόλυτα – `scene.save(..., FileFormat.FBX7500ASCII)` λειτουργεί αμέσως.
+- **Ποια μέθοδος ορίζει περιστροφή χρησιμοποιώντας γωνίες Euler;** `setEulerAngles()` on a node’s transform.  
+- **Πώς μετακινώ έναν κόμβο στο χώρο;** Call `setTranslation()` with a `Vector3`.  
+- **Χρειάζομαι άδεια για παραγωγή;** Yes, a commercial Aspose 3D license is required.  
+- **Μπορώ να εξάγω σε FBX;** Absolutely – `scene.save(..., FileFormat.FBX7500ASCII)` works out of the box.
 
-## Προαπαιτούμενα
+## Τι είναι το “create mesh aspose java”;
 
-Πριν ξεκινήσουμε το tutorial, βεβαιωθείτε ότι έχετε τα παρακάτω προαπαιτούμενα:
-
-- Βασικές γνώσεις προγραμματισμού Java.  
-- Εγκατεστημένο Java Development Kit (JDK) στον υπολογιστή σας.  
-- Βιβλιοθήκη Aspose.3D, την οποία μπορείτε να αποκτήσετε από [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/).
-
-## Εισαγωγή Πακέτων
-
-Ξεκινήστε εισάγοντας τα απαραίτητα πακέτα στο Java project σας. Βεβαιωθείτε ότι η βιβλιοθήκη Aspose.3D έχει προστεθεί σωστά στο classpath. Αν δεν την έχετε κατεβάσει ακόμη, μπορείτε να βρείτε τον σύνδεσμο λήψης [here](https://releases.aspose.com/3d/java/).
+`Mesh` είναι ο βασικός κοντέινερ γεωμετρίας του Aspose.3D που αποθηκεύει κορυφές, πρόσωπα και δεδομένα υλικού για ένα 3‑Δ αντικείμενο. Όταν **create mesh aspose java**, ορίζετε το σχήμα που θα προσαρτηθεί αργότερα σε έναν κόμβο και θα μετασχηματιστεί. Το mesh περιλαμβάνει όλες τις γεωμετρικές πληροφορίες, καθιστώντας το επαναχρησιμοποιήσιμο σε πολλούς κόμβους ή σκηνές, και μπορεί να εξαχθεί απευθείας χωρίς επιπλέον βήματα μετατροπής.
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## Δημιουργία Mesh Aspose Java
+## Γιατί να χρησιμοποιήσετε γωνίες Euler με το Aspose 3D;
 
-Το πρώτο βήμα σε οποιαδήποτε 3Δ ροή εργασίας είναι να **create mesh aspose java** – δηλαδή, να δημιουργήσετε τα γεωμετρικά δεδομένα που θα μετασχηματιστούν αργότερα. Σε αυτό το παράδειγμα θα δημιουργήσουμε ένα απλό mesh κύβου χρησιμοποιώντας τις βοηθητικές μεθόδους του Aspose και θα το συνδέσουμε με έναν κόμβο.
+Οι γωνίες Euler σας επιτρέπουν να περιγράψετε την περιστροφή ως τρεις διαισθητικές τιμές—pitch, yaw και roll—κάνοντας εύκολο το αντιστοίχηση των ρυθμιστών UI ή των δεδομένων αισθητήρων απευθείας στον προσανατολισμό του μοντέλου. Το Aspose 3D αφαιρεί τα υποκείμενα μαθηματικά των πινάκων, ώστε να μπορείτε να εστιάσετε στα οπτικά αποτελέσματα αντί για πολύπλοκες υπολογισμούς quaternion.
 
-### aspose 3d java – Εργασία με Γωνίες Euler
+## Προαπαιτούμενα
 
-#### Βήμα 1. Αρχικοποίηση Scene και Node
+- Βασική εμπειρία προγραμματισμού Java.  
+- Εγκατεστημένο JDK 8 ή νεότερο.  
+- Βιβλιοθήκη Aspose.3D, την οποία μπορείτε να αποκτήσετε από [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/).  
+- Έγκυρη άδεια Aspose 3D για παραγωγικές εκδόσεις.
 
-Πρώτα, δημιουργήστε ένα scene και έναν node που θα κρατήσει τη γεωμετρία που θέλετε να μετασχηματίσετε.
+## Εισαγωγή Πακέτων
+
+Ξεκινήστε εισάγοντας τα απαραίτητα πακέτα στο έργο Java σας. Βεβαιωθείτε ότι η βιβλιοθήκη Aspose.3D έχει προστεθεί σωστά στο classpath σας. Εάν δεν την έχετε κατεβάσει ακόμη, μπορείτε να βρείτε τον σύνδεσμο λήψης [εδώ](https://releases.aspose.com/3d/java/).
 
 ```java
 // ExStart:AddTransformationToNodeByEulerAngles
@@ -62,9 +90,9 @@ Scene scene = new Scene();
 Node cubeNode = new Node("cube");
 ```
 
-#### Βήμα 2. Δημιουργία Mesh και Ορισμός Γεωμετρίας
+## Πώς να δημιουργήσω mesh aspose java;
 
-Στη συνέχεια, δημιουργήστε ένα απλό mesh (ένα κύβο σε αυτήν την περίπτωση) και συνδέστε το με τον node.
+`Mesh` είναι ένας κοντέινερ που περιέχει δεδομένα κορυφών και προσώπων για ένα 3‑Δ αντικείμενο. Παρέχει μεθόδους για τον προγραμματιστικό ορισμό γεωμετρίας ή τη φόρτωση από υπάρχοντα αρχεία. Για να δημιουργήσετε ένα mesh, δημιουργήστε μια παρουσία της κλάσης, προσθέστε κορυφές, ορίστε πολύγωνα και στη συνέχεια εκχωρήστε το mesh σε έναν κόμβο. Αυτό το βήμα δημιουργεί τη γεωμετρική βάση πριν εφαρμοστεί οποιοσδήποτε μετασχηματισμός, επιτρέποντάς σας να επαναχρησιμοποιήσετε το ίδιο mesh σε πολλούς κόμβους εάν χρειάζεται.
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
@@ -74,11 +102,9 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 cubeNode.setEntity(mesh);
 ```
 
-## Προσθήκη Περιστροφής 3Δ σε Node
+## Πώς μπορώ να ορίσω translation java σε έναν κόμβο;
 
-#### Βήμα 3. Ορισμός Γωνιών Euler και Μετάφραση
-
-Τώρα εφαρμόζουμε την περιστροφή χρησιμοποιώντας γωνίες Euler και επίσης μετακινούμε τον node σε μια ορατή θέση.
+`Transform` είναι το στοιχείο που συνδέεται σε κάθε `Node` και ελέγχει τη θέση, την περιστροφή και την κλίμακα. Η μέθοδος `setTranslation()` του `Transform` μετακινεί τον κόμβο καθορίζοντας μια μετατόπιση `Vector3`. Καλώντας αυτή τη μέθοδο, μετατοπίζετε ολόκληρο το mesh σε σχέση με την αρχή της σκηνής διατηρώντας τη εσωτερική του γεωμετρία. Αυτή η προσέγγιση είναι ιδανική για την τοποθέτηση αντικειμένων σε ένα παγκόσμιο σύστημα συντεταγμένων ή την ευθυγράμμιση πολλαπλών μοντέλων μαζί.
 
 ```java
 // Euler angles
@@ -88,22 +114,18 @@ cubeNode.getTransform().setEulerAngles(new Vector3(0.3, 0.1, -0.5));
 cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 ```
 
-## Ορισμός Translation Java – Τοποθέτηση του Node
+## Πώς να εφαρμόσω γωνίες Euler για περιστροφή ενός κόμβου;
 
-Το βήμα μετάφρασης παραπάνω δείχνει **set translation java** στην πράξη: ο node μετατοπίζεται 20 μονάδες κατά τον άξονα Z ώστε να τον δείτε μετά την απόδοση.
-
-## Βήμα 4. Προσθήκη Node στο Scene
-
-Συνδέστε τον μετασχηματισμένο node με τον root node του scene.
+`setEulerAngles()` είναι μια μέθοδος του `Transform` του κόμβου που δέχεται τρεις τιμές κινητής υποδιαστολής που αντιπροσωπεύουν την περιστροφή γύρω από τους άξονες X, Y και Z (σε μοίρες). Η παροχή τιμών pitch, yaw και roll σας επιτρέπει να περιστρέψετε τον κόμβο διαισθητικά, και το Aspose 3D εσωτερικά μετατρέπει αυτές τις γωνίες σε πίνακα περιστροφής. Αυτή η μέθοδος είναι ιδιαίτερα χρήσιμη για περιστροφές που ελέγχονται από UI, όπου οι χρήστες ρυθμίζουν τους ρυθμιστές που αντιστοιχούν σε κάθε άξονα.
 
 ```java
 // Add cube to the scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## Βήμα 5. Αποθήκευση 3D Scene
+## Πώς να προσθέσετε τον μετασχηματισμένο κόμβο στη σκηνή;
 
-Τέλος, εξάγετε το scene σε αρχείο FBX (ή οποιαδήποτε άλλη υποστηριζόμενη μορφή).
+`scene.getRootNode().addChild(node)` προσθέτει έναν κόμβο στη ρίζα του γραφήματος σκηνής, καθιστώντας τον μέρος της ιεραρχίας που μπορεί να αποδοθεί. Μόλις ο κόμβος προσαρτηθεί, οποιοσδήποτε μετασχηματισμός του—όπως translation, rotation ή scaling—λαμβάνεται αυτόματα υπόψη κατά την απόδοση και τις εξαγωγές. Η προσθήκη κόμβων με αυτόν τον τρόπο ενεργοποιεί επίσης ιεραρχικές σχέσεις, επιτρέποντας στους θυγατρικούς κόμβους να κληρονομούν μετασχηματισμούς από τους γονείς τους.
 
 ```java
 // The path to the documents directory.
@@ -116,54 +138,56 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-Βεβαιωθείτε ότι αντικαθιστάτε `"Your Document Directory"` με τη σωστή διαδρομή στον υπολογιστή σας.
+## Πώς να αποθηκεύσετε τη 3Δ σκηνή σε αρχείο;
 
-## Γιατί να Χρησιμοποιήσετε Γωνίες Euler με Aspose 3D;
+`scene.save()` writes the entire scene, including all meshes, materials, and transforms, to a specified file format. By passing the output path and a `FileFormat` enum (e.g., `FileFormat.FBX7500ASCII`), you can export to FBX, OBJ, STL, or any other supported format. This method serializes the scene graph in a single operation, ensuring that all transformations are preserved in the exported file. Replace `"Your Document Directory"` with the actual folder path on your machine.
 
-Οι γωνίες Euler παρέχουν έναν διαισθητικό τρόπο σκέψης για τις περιστροφές—pitch, yaw και roll—κάνοντας τις ιδανικές για γρήγορο πρωτότυπο ή όταν χρειάζεται να εκθέσετε ελέγχους περιστροφής στους τελικούς χρήστες. Το Aspose 3D αφαιρεί τη μαθηματική πολυπλοκότητα των πινάκων, ώστε να εστιάσετε στο οπτικό αποτέλεσμα αντί στη μαθηματική πλευρά.
+CODE_BLOCK_PLACEHOLDER_6_END
 
-## Κοινές Περιπτώσεις Χρήσης
+## Συνηθισμένες Περιπτώσεις Χρήσης
 
-- **Οπτικοποίηση δεδομένων σε πραγματικό χρόνο:** Περιστρέψτε ένα μοντέλο βάσει εισόδου αισθητήρα.  
-- **Συστήματα κάμερας τύπου παιχνιδιού:** Εφαρμόστε yaw‑pitch‑roll για προσομοίωση κάμερας.  
-- **Διαμορφωτές προϊόντων:** Επιτρέψτε στους πελάτες να περιστρέψουν ένα 3Δ μοντέλο προϊόντος με απλούς sliders.
+- **Οπτικοποίηση δεδομένων σε πραγματικό χρόνο:** Περιστροφή μοντέλου βάσει ζωντανής εισόδου αισθητήρα.  
+- **Συστήματα κάμερας τύπου παιχνιδιού:** Εφαρμόστε yaw‑pitch‑roll για προσομοίωση κάμερας πρώτου προσώπου.  
+- **Διαμορφωτές προϊόντων:** Επιτρέψτε στους πελάτες να περιστρέφουν ένα 3‑Δ μοντέλο προϊόντος χρησιμοποιώντας απλούς ρυθμιστές.
 
-## Αντιμετώπιση Προβλημάτων & Συμβουλές
+## Επίλυση Προβλημάτων & Συμβουλές
 
-- **Gimbal lock:** Εάν παρατηρήσετε απρόσμενο “snapping” κατά την περιστροφή, σκεφτείτε να μεταβείτε σε περιστροφή βασισμένη σε quaternion (`setRotationQuaternion()`).  
-- **Συνέπεια μονάδων:** Το Aspose 3D λειτουργεί με τις ίδιες μονάδες που παρέχετε· διατηρήστε τις τιμές μετάφρασης συνεπείς με την κλίμακα του μοντέλου σας.  
-- **Απόδοση:** Για μεγάλα scenes, καλέστε `scene.dispose()` μετά την αποθήκευση για να ελευθερώσετε τους εγγενείς πόρους.
+- **Gimbal lock:** Εάν η περιστροφή «κλειδώνει» απροσδόκητα, μεταβείτε σε περιστροφή βασισμένη σε quaternion με `setRotationQuaternion()`.  
+- **Συνεπής μονάδα:** Το Aspose 3D σέβεται τις μονάδες που παρέχετε· διατηρήστε τις τιμές translation συνεπείς με την κλίμακα του μοντέλου σας για να αποφύγετε παραμορφώσεις.  
+- **Απόδοση:** Για μεγάλες σκηνές, καλέστε ρητά `scene.dispose()` μετά την αποθήκευση για να ελευθερώσετε εγγενείς πόρους και να αποτρέψετε διαρροές μνήμης.
 
 ## Συχνές Ερωτήσεις
 
 **Q: Ποια είναι η διαφορά μεταξύ γωνιών Euler και περιστροφής quaternion;**  
-A: Οι γωνίες Euler είναι διαισθητικές (pitch, yaw, roll) αλλά μπορούν να υποφέρουν από gimbal lock, ενώ τα quaternions αποφεύγουν αυτό το πρόβλημα και είναι καλύτερα για ομαλές παρεμβάσεις.
+A: Οι γωνίες Euler είναι διαισθητικές (pitch, yaw, roll) αλλά μπορούν να υποφέρουν από gimbal lock, ενώ τα quaternions αποφεύγουν αυτό το πρόβλημα και παρέχουν πιο ομαλή παρεμβολή για τις κινήσεις.
 
-**Q: Μπορώ να αλυσίδω πολλαπλούς μετασχηματισμούς στον ίδιο node;**  
-A: Ναι. Καλέστε `setEulerAngles`, `setTranslation`, και `setScale` σε οποιαδήποτε σειρά· η βιβλιοθήκη τα συνθέτει σε έναν ενιαίο πίνακα μετασχηματισμού.
+**Q: Μπορώ να αλυσίδω πολλαπλούς μετασχηματισμούς στον ίδιο κόμβο;**  
+A: Ναι. Καλέστε `setEulerAngles`, `setTranslation` και `setScale` με οποιαδήποτε σειρά· η βιβλιοθήκη τα συνθέτει σε έναν ενιαίο πίνακα μετασχηματισμού.
 
-**Q: Είναι δυνατόν να εξάγω σε άλλες μορφές όπως OBJ ή STL;**  
+**Q: Είναι δυνατόν να εξάγετε σε άλλες μορφές όπως OBJ ή STL;**  
 A: Απόλυτα. Αντικαταστήστε `FileFormat.FBX7500ASCII` με `FileFormat.OBJ` ή `FileFormat.STL` στην κλήση `scene.save`.
 
-**Q: Πώς εφαρμόζω την ίδια περιστροφή σε πολλούς κόμβους ταυτόχρονα;**  
-A: Δημιουργήστε έναν γονικό node, εφαρμόστε την περιστροφή στον γονέα, και προσθέστε υποκόμβους κάτω από αυτόν. Όλοι οι υποκόμβοι κληρονομούν τον μετασχηματισμό.
+**Q: Πώς να εφαρμόσω την ίδια περιστροφή σε πολλούς κόμβους ταυτόχρονα;**  
+A: Δημιουργήστε έναν γονικό κόμβο, εφαρμόστε την περιστροφή στον γονέα και προσθέστε τους θυγατρικούς κόμβους κάτω από αυτόν. Όλοι οι θυγατρικοί κληρονομούν αυτόματα τον μετασχηματισμό.
 
 **Q: Χρειάζεται να καλέσω κάποια μέθοδο καθαρισμού μετά την αποθήκευση;**  
-A: Ο garbage collector της Java διαχειρίζεται τους περισσότερους πόρους, αλλά μπορείτε ρητά να καλέσετε `scene.dispose()` εάν εργάζεστε με μεγάλα scenes σε μια διαρκή εφαρμογή.
-
-## Συμπέρασμα
-
-Συγχαρητήρια! Έχετε δημιουργήσει με επιτυχία **created mesh aspose java** και έχετε μετασχηματίσει 3Δ κόμβους χρησιμοποιώντας γωνίες Euler σε Java με το Aspose 3D. Πειραματιστείτε με διαφορετικές γωνίες, μεταφράσεις και ακόμη περιστροφές quaternion για να δημιουργήσετε δυναμικές και ελκυστικές 3Δ εμπειρίες.
+A: Ο συλλέκτης απορριμμάτων της Java διαχειρίζεται τους περισσότερους πόρους, αλλά μπορείτε ρητά να καλέσετε `scene.dispose()` όταν εργάζεστε με μεγάλες σκηνές σε εφαρμογές που τρέχουν για μεγάλο χρονικό διάστημα.
 
 ---
 
-**Last Updated:** 2026-02-20  
-**Tested With:** Aspose.3D 23.12 for Java  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Τελευταία ενημέρωση:** 2026-06-13  
+**Δοκιμάστηκε με:** Aspose.3D 23.12 for Java  
+**Συγγραφέας:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Σχετικά Σεμινάρια
+
+- [Ορισμός Περιστροφής Quaternion σε Java χρησιμοποιώντας Aspose.3D](/3d/java/geometry/concatenate-quaternions-for-3d-rotations/)
+- [Δημιουργία Node Aspose 3D σε Java – Εμφάνιση Μετασχηματισμών](/3d/java/geometry/expose-geometric-transformations/)
+- [Java 3D Graphics Tutorial - Δημιουργία Σκηνής 3D Κύβου με Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
