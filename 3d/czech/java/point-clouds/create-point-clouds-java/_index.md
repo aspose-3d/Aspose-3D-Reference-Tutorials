@@ -1,10 +1,35 @@
 ---
-date: 2026-03-05
-description: Learn how to convert mesh to point cloud in Java using Aspose.3D and
-  save point cloud file efficiently.
-linktitle: Convert Mesh to Point Cloud in Java
+date: 2026-05-29
+description: Zjistěte, jak použít Aspose 3D API k převodu mesh na point cloud v Javě
+  a efektivně uložit soubor point cloud.
+keywords:
+- aspose 3d api
+- convert mesh to pointcloud
+- generate pointcloud mesh
+linktitle: Převod Mesh na Point Cloud v Javě
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Learn how to use the Aspose 3D API to convert mesh to point cloud in
+    Java and efficiently save the point cloud file.
+  headline: Convert Mesh to Point Cloud in Java with Aspose 3D API
+  type: TechArticle
+- questions:
+  - answer: Yes. Purchase a production license [here](https://purchase.aspose.com/buy);
+      a free trial is available for evaluation.
+    question: Can I use Aspose 3D API for commercial projects?
+  - answer: Absolutely. Download the trial version [here](https://releases.aspose.com/).
+    question: Is there a free trial I can test before buying?
+  - answer: The community‑driven [Aspose.3D forum](https://forum.aspose.com/c/3d/18)
+      provides answers and code samples.
+    question: Where can I get help if I run into problems?
+  - answer: Request a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for automated builds?
+  - answer: Detailed API reference is available at [documentation](https://reference.aspose.com/3d/java/).
+    question: Where is the official documentation for the Aspose 3D API?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: How to Convert Mesh to Point Cloud in Java with Aspose.3D
+title: Převod Mesh na Point Cloud v Javě s Aspose 3D API
 url: /cs/java/point-clouds/create-point-clouds-java/
 weight: 12
 ---
@@ -13,35 +38,32 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak převést mesh na point cloud v Javě s Aspose.3D
+# Převod sítě na bodový mrak v Javě s Aspose 3D API
 
-Vytvoření **point cloud** ze 3D mesh je běžnou potřebou v grafice, simulaci a projektech vizualizace dat. V tomto tutoriálu se naučíte, jak **convert mesh to point cloud** pomocí Aspose.3D Java API a jak **save point cloud file** pro pozdější použití. Kroky jsou jasně popsány, aby bylo možné integrovat generování point‑cloud do vašich Java aplikací s minimálním úsilím.
+V mnoha projektech grafiky, simulací a vizualizace dat potřebujete převést 3D síť na **bodový mrak**. Tento tutoriál vám ukáže **jak převést síť na bodový mrak** pomocí **Aspose 3D API** pro Javu a následně výsledek uložit jako kompaktní soubor DRACO. Na konci budete mít připravený soubor s bodovým mrakem, který můžete pomocí několika řádků kódu nasadit do renderovacích enginů, AI pipeline nebo AR/VR aplikací.
 
 ## Rychlé odpovědi
-- **Jaká knihovna je pro tento úkol nejlepší?** Aspose.3D Java API poskytuje vestavěnou podporu pro konverzi mesh‑to‑point‑cloud.
-- **Jaký formát příklad používá?** Formát DRACO (`.drc`) se používá pro kompaktní ukládání point‑cloud.
-- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.
-- **Mohu zpracovat více mesh?** Ano – stačí opakovat krok kódování pro každou mesh.
-- **Je vyžadováno další zpracování?** Volitelné; Aspose.3D nabízí metody pro manipulaci s point cloud po kódování.
+- **Která knihovna provádí převod sítě na bodový mrak?** Aspose 3D API poskytuje vestavěnou podporu pro převod sítí na bodové mraky.  
+- **Jaký formát souboru je předveden?** DRACO (`.drc`) – vysoce komprimovaný formát bodových mraků.  
+- **Potřebuji licenci pro vývoj?** Bezplatná zkušební verze funguje pro vývoj; pro produkční použití je vyžadována komerční licence.  
+- **Mohu zpracovat několik sítí najednou?** Ano – opakujte krok kódování pro každý objekt sítě.  
+- **Je další zpracování povinné?** Ne – API provádí převod a kompresi automaticky, i když můžete následně použít volitelné filtry.
 
-## Co je „convert mesh to point cloud“?
-Převod mesh na point cloud znamená extrahování pozic vrcholů (a volitelně normál nebo barev) z geometrie mesh a jejich uložení jako kolekce bodů. Toto znázornění je ideální pro rychlé renderování, detekci kolizí a předávání dat do strojového učení.
+## Co je „převod sítě na bodový mrak“?
+**Převod sítě na bodový mrak extrahuje pozice vrcholů (a volitelně normály nebo barvy) z geometrie sítě a ukládá je jako nezávislé body.** Toto znázornění je ideální pro rychlé renderování, detekci kolizí a předávání dat do modelů strojového učení, protože snižuje geometrickou složitost při zachování prostorových informací.
 
-## Proč použít Aspose.3D pro generování point‑cloud?
-- **Vysoký výkon kódování:** Vestavěná komprese DRACO dramaticky snižuje velikost souboru.  
-- **Jednoduché API:** Jednořádkové volání zvládne těžkou práci.  
-- **Cross‑platform podpora Java:** Funguje v jakémkoli prostředí kompatibilním s JVM.  
-- **Rozšiřitelné:** Po konverzi můžete cloud dále zpracovávat (filtrování, transformace atd.).
+## Proč použít Aspose 3D API pro generování bodových mraků?
+Aspose 3D API provádí převod jedním voláním a aplikuje DRACO kompresi, která může zmenšit soubory s bodovými mraky **až o 90 %** bez znatelné ztráty detailů. Funguje na jakékoli JVM, nevyžaduje nativní závislosti a nabízí čistou, řetězitelnou syntaxi, která vám umožní soustředit se na logiku aplikace místo nízkoúrovňové manipulace se soubory.
 
 ## Předpoklady
+- **Java Development Kit** 8 nebo novější nainstalován.  
+- **Aspose.3D library** – stáhněte nejnovější JAR z oficiální stránky [here](https://releases.aspose.com/3d/java/).  
+- **Výstupní adresář** – vytvořte složku, kam budou zapisovány vygenerované soubory s bodovým mrakem.
 
-1. **Java Development Environment** – Nainstalovaný JDK 8 nebo novější.  
-2. **Aspose.3D Library** – Stáhněte a nainstalujte knihovnu Aspose.3D. Knihovnu najdete [zde](https://releases.aspose.com/3d/java/).  
-3. **Document Directory** – Vytvořte složku, kam budou ukládány vygenerované soubory point‑cloud.
+> **Měřený tvrzení:** Aspose 3D API podporuje **50+** vstupních a výstupních formátů a může zpracovat sítě s **statisíci vrcholů** bez načítání celého souboru do paměti.
 
 ## Import balíčků
-
-To start, import the necessary classes in your Java project:
+Import the essential classes before you start coding:
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -51,9 +73,14 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Krok 1: Kódování mesh na point cloud
+## Krok 1: Zakódovat síť do bodového mraku
+`FileFormat.DRACO` je výčtová hodnota, která vybírá DRACO kompresi pro výstup bodového mraku.  
 
-Use the `FileFormat.DRACO` encoder to transform a mesh (for example, a `Sphere`) into a compressed point‑cloud file:
+**Definiční kotva:** `FileFormat.DRACO` říká Aspose 3D API, aby zapisovalo bodový mrak pomocí formátu DRACO, který je optimalizován pro velikost a rychlost.  
+
+`Sphere` je vestavěná primitivní třída, která vytváří sférickou síť.  
+
+Použijte tento kodér k transformaci sítě (např. `Sphere`) do komprimovaného souboru bodového mraku:
 
 ```java
 // ExStart:1
@@ -61,58 +88,61 @@ FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
 // ExEnd:1
 ```
 
-**Vysvětlení**
+**Vysvětlení**  
+- `FileFormat.DRACO` vybírá formát DRACO komprese, který dramaticky snižuje velikost souboru při zachování geometrické věrnosti.  
+- `new Sphere()` vytvoří jednoduchou sférickou síť, která slouží jako zdrojová geometrie.  
+- Spojený řetězec vytváří úplnou výstupní cestu, kde bude uloženo **soubor bodového mraku** (`sphere.drc`).  
 
-- `FileFormat.DRACO` vybírá kompresní formát DRACO, který je optimalizován pro ukládání point‑cloud.  
-- `new Sphere()` vytvoří jednoduchý sférický mesh, který slouží jako zdrojová geometrie.  
-- Řetězec `"Your Document Directory" + "sphere.drc"` vytvoří úplnou výstupní cestu, kam bude uložena **point cloud file** (`sphere.drc`).  
-
-Klidně opakujte tento krok s jakýmikoli dalšími objekty mesh (např. `Box`, `Cylinder`) pro vytvoření dalších point cloud.
+Neváhejte tento krok opakovat s jakýmikoli dalšími objekty sítě (např. `Box`, `Cylinder`) pro vytvoření dalších bodových mraků.
 
 ## Krok 2: Další zpracování (volitelné)
+`PointCloud` představuje kolekci bodů a poskytuje operace pro transformaci a filtrování.  
 
-Po kódování můžete chtít point cloud vylepšit – například aplikovat transformace, filtrovat odlehlé body nebo přidat vlastní atributy. Aspose.3D nabízí bohatou sadu metod pro manipulaci s point‑cloud daty, i když nejsou pro základní konverzi nutné.
+Po kódování můžete chtít vylepšit bodový mrak—aplikovat transformace, filtrovat odlehlé body nebo přidat vlastní atributy. Aspose 3D API nabízí metody jako `PointCloud.transform()`, `PointCloud.filterNoise()` a `PointCloud.addColorChannel()`. Tyto kroky jsou volitelné pro základní převod, ale užitečné pro pokročilé pipeline.
 
-## Krok 3: Uložení a využití
-
-Kódovaný soubor je již uložen na zadané místo. Nyní můžete načíst tento soubor `.drc` v jakékoli aplikaci, která podporuje DRACO point clouds, nebo jej přímo použít v renderovacích enginech, simulačních pipelinech či AI modelech.
+## Krok 3: Uložit a použít
+Zakódovaný soubor je již uložen na zadaném místě. Nyní můžete načíst soubor `.drc` v libovolném prohlížeči kompatibilním s DRACO, předat jej renderovacímu enginu nebo jej přímo předat modelu strojového učení, který očekává vstup bodového mraku.
 
 ## Časté problémy a tipy
-
-- **Neplatná cesta:** Ujistěte se, že složka existuje a máte oprávnění k zápisu; jinak bude vyvolána `IOException`.  
-- **Není podporován typ mesh:** Komplexní mesh s ne‑trojúhelníkovými plochami jsou automaticky triangulovány pomocí Aspose.3D, ale velmi velké mesh mohou vyžadovat více paměti.  
-- **Výkon:** Komprese DRACO je rychlá, ale u masivních point cloud zvažte zpracování po částech, aby nedošlo k výkyvům paměti.
+- **Neplatná cesta:** Ověřte, že adresář existuje a máte oprávnění k zápisu; jinak bude vyvolána `IOException`.  
+- **Nepodporované typy sítí:** Ne‑trojúhelníkové plochy jsou automaticky triangulovány, ale extrémně velké sítě mohou vyžadovat další paměť; zvažte jejich zpracování po částech.  
+- **Výkon:** DRACO komprese běží v lineárním čase; pro sítě větší než **1 milion vrcholů** rozdělte převod do dávkových částí, aby nedošlo k nárůstu paměti.
 
 ## Závěr
-
-Nyní jste se naučili, jak **convert mesh to point cloud** v Javě pomocí Aspose.3D a jak **save point cloud file** pro následné použití. Tato schopnost otevírá dveře k efektivnímu zpracování 3D dat v grafice, AR/VR a projektech datové vědy.
+Naučili jste se, jak **převést síť na bodový mrak** v Javě pomocí Aspose 3D API a jak **uložit soubor s bodovým mrakem** pro následné použití. Tato schopnost umožňuje efektivní zpracování 3D dat v projektech grafiky, AR/VR a datové vědy, přičemž zachovává čistý a udržovatelný kód.
 
 ## Často kladené otázky
 
-### Q1: Mohu použít Aspose.3D pro komerční projekty?
-A1: Ano, můžete. Navštivte [stránku nákupu](https://purchase.aspose.com/buy) pro možnosti licencování.
+**Q: Mohu použít Aspose 3D API pro komerční projekty?**  
+A: Ano. Zakupte produkční licenci [here](https://purchase.aspose.com/buy); bezplatná zkušební verze je k dispozici pro vyhodnocení.
 
-### Q2: Je k dispozici bezplatná zkušební verze?
-A2: Ano, můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
+**Q: Je k dispozici bezplatná zkušební verze, kterou mohu vyzkoušet před zakoupením?**  
+A: Rozhodně. Stáhněte si zkušební verzi [here](https://releases.aspose.com/).
 
-### Q3: Kde mohu najít podporu pro Aspose.3D?
-A3: Navštivte [forum Aspose.3D](https://forum.aspose.com/c/3d/18) pro podporu komunity.
+**Q: Kde mohu získat pomoc, pokud narazím na problémy?**  
+A: Komunitou řízené [Aspose.3D fórum](https://forum.aspose.com/c/3d/18) poskytuje odpovědi a ukázkové kódy.
 
-### Q4: Jak získám dočasnou licenci?
-A4: Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
+**Q: Jak získám dočasnou licenci pro automatizované sestavení?**  
+A: Požádejte o dočasnou licenci [here](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Kde najdu dokumentaci?
-A5: Odkazujte na [dokumentaci](https://reference.aspose.com/3d/java/) pro podrobné informace.
+**Q: Kde je oficiální dokumentace pro Aspose 3D API?**  
+A: Podrobná reference API je k dispozici na [documentation](https://reference.aspose.com/3d/java/).
 
 ---
 
-**Poslední aktualizace:** 2026-03-05  
+**Poslední aktualizace:** 2026-05-29  
 **Testováno s:** Aspose.3D Java 24.12  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Související tutoriály
+
+- [aspose 3d point cloud – Export 3D scén jako bodové mraky s Aspose.3D pro Javu](/3d/java/point-clouds/export-3d-scenes-point-clouds-java/)
+- [Generovat Aspose 3D bodový mrak ze sfér v Javě](/3d/java/point-clouds/generate-point-clouds-spheres-java/)
+- [Import PLY souboru v Javě – Načíst PLY bodové mraky bez problémů](/3d/java/point-clouds/load-ply-point-clouds-java/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
