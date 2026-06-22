@@ -1,10 +1,16 @@
 ---
-date: 2026-02-09
-description: Aprende a crear UVs y mapear texturas en Java con Aspose.3D. Eleva tus
-  gráficos con esta guía paso a paso.
-linktitle: How to Create UVs – Apply UV Coordinates to 3D Objects in Java with Aspose.3D
+date: 2026-04-12
+description: Aprende cómo generar coordenadas UV y mapear texturas en Java con Aspose.3D
+  – un tutorial paso a paso de mapeo de texturas.
+keywords:
+- generate uv coordinates
+- create uv set
+- texture mapping tutorial
+- uv mapping 3d objects
+- add texture coordinates
+linktitle: Cómo generar coordenadas UV – Aplicar UVs a objetos 3D en Java con Aspose.3D
 second_title: Aspose.3D Java API
-title: Cómo crear UVs – Aplicar coordenadas UV a objetos 3D en Java con Aspose.3D
+title: Cómo generar coordenadas UV – Aplicar UVs a objetos 3D en Java con Aspose.3D
 url: /es/java/geometry/apply-uv-coordinates-to-3d-objects/
 weight: 18
 ---
@@ -13,42 +19,43 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cómo crear UVs – Aplicar coordenadas UV a objetos 3D en Java con Aspose.3D
+# Cómo generar coordenadas UV – Aplicar UVs a objetos 3D en Java con Aspose.3D
 
 ## Introducción
 
-Bienvenido a este tutorial completo sobre **cómo crear UVs** y aplicar coordenadas UV a objetos 3D en Java usando Aspose.3D. En el mundo de los gráficos 3D, las coordenadas UV juegan un papel crucial en **map textures java**, permitiéndote añadir coordenadas de textura que aportan realismo a tus modelos. Esta guía te acompañará paso a paso, para que puedas comenzar a texturizar tus objetos con confianza.
+Bienvenido a este completo **tutorial de mapeo de texturas** sobre **cómo generar coordenadas UV** y aplicar coordenadas UV a objetos 3D en Java usando Aspose.3D. En el mundo de los gráficos 3‑D, las coordenadas UV son el puente que le permite **map textures java** y dar a sus modelos un aspecto realista. Esta guía lo acompaña paso a paso, para que pueda comenzar a agregar coordenadas de textura a cualquier malla con confianza.
 
 ## Respuestas rápidas
-- **¿Cuál es el objetivo principal?** Aprender a crear UVs y map textures onto 3D geometry.  
+
+- **¿Cuál es el objetivo principal?** Aprenda a generar coordenadas UV y mapear texturas sobre geometría 3‑D.  
 - **¿Qué biblioteca se utiliza?** Aspose.3D for Java.  
 - **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia para producción.  
 - **¿Cuánto tiempo lleva la implementación?** Aproximadamente 10‑15 minutos para un cubo básico.  
 - **¿Puedo usar esto con otras formas?** Sí – los mismos principios se aplican a cualquier malla.
 
-## ¿Qué es el mapeado UV y por qué necesitas crear UVs?
+## Cómo generar coordenadas UV en Java
 
-El mapeado UV es el proceso de proyectar una imagen 2‑D (la textura) sobre una superficie 3‑D. Al definir **UV coordinates**, le indicas al renderizador qué parte de la textura corresponde a cada vértice. Sin UVs adecuados, las texturas aparecen estiradas, descolocadas o simplemente invisibles.
+Antes de sumergirnos en el código, aclaremos por qué es importante generar coordenadas UV. Unas UV adecuadas garantizan que las texturas se alineen correctamente, eviten estiramientos y hagan que los materiales se vean profesionales. Ya sea que esté creando un juego, una simulación o un visualizador de productos, un conjunto sólido de UV es esencial.
 
-## ¿Por qué usar Aspose.3D para el mapeado UV en Java?
+## Por qué el mapeo UV de objetos 3D es importante
 
-- **Cross‑platform**: Funciona en cualquier entorno compatible con Java.  
-- **Rich API**: Proporciona clases de alto nivel como `VertexElementUV` que simplifican el manejo de UV.  
-- **Performance‑oriented**: Optimizado para escenas grandes y modelos complejos.  
+- **Realismo:** Las UV correctas permiten que las texturas se envuelvan de forma natural alrededor de superficies complejas.  
+- **Rendimiento:** Los conjuntos de UV bien organizados reducen la necesidad de shaders adicionales o ajustes en tiempo de ejecución.  
+- **Portabilidad:** Los datos UV viajan con la malla, por lo que el modelo se ve igual en cualquier motor que soporte Aspose.3D.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrate de tener:
+Antes de comenzar, asegúrese de tener:
 
-- **Java Development Environment** – JDK 8+ instalado y configurado.  
-- **Aspose.3D Library** – Descarga el último JAR desde el sitio oficial [here](https://releases.aspose.com/3d/java/).  
-- **Basic 3D Knowledge** – Familiaridad con mallas, vértices y conceptos de texturas te ayudará a seguir.
+- **Entorno de desarrollo Java** – JDK 8+ instalado y configurado.  
+- **Biblioteca Aspose.3D** – Descargue el último JAR desde el sitio oficial [aquí](https://releases.aspose.com/3d/java/).  
+- **Conocimientos básicos de 3D** – Familiaridad con mallas, vértices y conceptos de texturas le ayudará a seguir.
 
 ## Importar paquetes
 
-En este paso, importamos los paquetes necesarios para iniciar nuestro viaje de UV‑mapping. La biblioteca Aspose.3D proporciona las herramientas que necesitamos para trabajar con objetos 3‑D en Java.
+En este paso, importamos los paquetes necesarios para iniciar nuestro proceso de mapeo UV. La biblioteca Aspose.3D proporciona las herramientas que necesitamos para trabajar con objetos 3‑D en Java.
 
-### Paso 1: Importar paquetes de Aspose.3D
+### Paso 1: Importar paquetes Aspose.3D
 
 ```java
 import com.aspose.threed.*;
@@ -58,9 +65,9 @@ import java.util.Arrays;
 
 Ahora que los paquetes están listos, configuremos los datos UV para un cubo simple.
 
-## Cómo crear UVs en un objeto 3D
+## Crear conjunto UV para su malla
 
-En esta sección te guiaremos para crear coordenadas UV para un cubo y luego adjuntar esas coordenadas a la malla. El mismo enfoque se puede extender a cualquier geometría.
+Aquí definimos las coordenadas UV y el búfer de índices que indica a la malla qué UV pertenece a cada vértice del polígono. Este es el núcleo del proceso de **crear conjunto UV**.
 
 ### Paso 2: Crear UVs e índices
 
@@ -83,7 +90,11 @@ int[] uvsId = new int[]
 // ExEnd:SetupUVOnCube
 ```
 
-Estos arreglos definen los **UV coordinates** (`uvs`) y el **index mapping** (`uvsId`) que indica a la malla qué UV pertenece a cada vértice del polígono.
+Estas matrices definen las **coordenadas UV** (`uvs`) y el **mapeo de índices** (`uvsId`) que indica a la malla qué UV pertenece a cada vértice del polígono.
+
+## Agregar coordenadas de textura a una malla
+
+Ahora adjuntamos el conjunto UV a una instancia de malla. Este paso **agrega coordenadas de textura** a la geometría, dejándola lista para renderizar con una textura.
 
 ### Paso 3: Crear malla y conjunto UV
 
@@ -102,7 +113,7 @@ Aquí:
 
 1. Construimos una malla (el cubo) usando una clase auxiliar.  
 2. Creamos un elemento UV (`VertexElementUV`) que almacena nuestras coordenadas de textura.  
-3. Asignamos los datos UV y el búfer de índices a la malla, añadiendo efectivamente **texture coordinates** a la geometría.
+3. Asignamos los datos UV y el búfer de índices a la malla, efectivamente **agregando coordenadas de textura** a la geometría.
 
 ### Paso 4: Imprimir confirmación
 
@@ -110,44 +121,44 @@ Aquí:
 System.out.println("\nUVs have been set up successfully on the cube.");
 ```
 
-Ejecutar el programa mostrará un mensaje de confirmación, indicando que los UVs ahora forman parte de la malla y están listos para el mapeado de texturas.
+Ejecutar el programa mostrará un mensaje de confirmación, indicando que las UV ahora forman parte de la malla y están listas para el mapeo de texturas.
 
 ## Problemas comunes y soluciones
 
 | Problema | Causa | Solución |
 |----------|-------|----------|
-| UVs appear stretched | Incorrect UV ordering or mismatched indices | Verify that `uvsId` correctly references the `uvs` array for each polygon vertex. |
-| Texture not visible | UV set not linked to the material | Ensure the material’s `TextureMapping` is set to `DIFFUSE` (as shown) and a texture is assigned to the material. |
-| Runtime `NullPointerException` | `Common.createMeshUsingPolygonBuilder()` returns `null` | Check that the helper class is included in your project and the method creates a valid mesh. |
+| Las UV aparecen estiradas | Orden de UV incorrecto o índices no coincidentes | Verifique que `uvsId` haga referencia correctamente al arreglo `uvs` para cada vértice del polígono. |
+| Textura no visible | Conjunto UV no vinculado al material | Asegúrese de que el `TextureMapping` del material esté configurado a `DIFFUSE` (como se muestra) y que una textura esté asignada al material. |
+| Excepción `NullPointerException` en tiempo de ejecución | `Common.createMeshUsingPolygonBuilder()` devuelve `null` | Verifique que la clase auxiliar esté incluida en su proyecto y que el método cree una malla válida. |
 
 ## Preguntas frecuentes
 
 **Q: ¿Puedo aplicar coordenadas UV a modelos 3D complejos?**  
-A: Sí, el proceso sigue siendo similar para modelos complejos. Asegúrate de generar datos UV apropiados y búferes de índices para cada polígono.
+A: Sí, el proceso sigue siendo similar para modelos complejos. Asegúrese de generar datos UV apropiados y búferes de índices para cada polígono.
 
 **Q: ¿Dónde puedo encontrar recursos adicionales y soporte para Aspose.3D?**  
-A: Visita la [documentación de Aspose.3D](https://reference.aspose.com/3d/java/) para información detallada. Para soporte, consulta el [foro de Aspose.3D](https://forum.aspose.com/c/3d/18).
+A: Visite la [documentación de Aspose.3D](https://reference.aspose.com/3d/java/) para información detallada. Para soporte, consulte el [foro de Aspose.3D](https://forum.aspose.com/c/3d/18).
 
 **Q: ¿Hay una prueba gratuita disponible para Aspose.3D?**  
-A: Sí, puedes explorar la biblioteca Aspose.3D con una [prueba gratuita](https://releases.aspose.com/).
+A: Sí, puede explorar la biblioteca Aspose.3D con una [prueba gratuita](https://releases.aspose.com/).
 
 **Q: ¿Cómo puedo obtener una licencia temporal para Aspose.3D?**  
-A: Puedes adquirir una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
+A: Puede adquirir una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
 
 **Q: ¿Dónde puedo comprar Aspose.3D?**  
-A: Para comprar Aspose.3D, visita la [página de compra](https://purchase.aspose.com/buy).
+A: Para comprar Aspose.3D, visite la [página de compra](https://purchase.aspose.com/buy).
 
 **Q: ¿Cómo añado múltiples texturas a una sola malla?**  
-A: Crea instancias adicionales de `VertexElementUV` con diferentes valores de `TextureMapping` (p. ej., `NORMAL`, `SPECULAR`) y asigna cada una a la malla.
+A: Cree instancias adicionales de `VertexElementUV` con diferentes valores de `TextureMapping` (p.ej., `NORMAL`, `SPECULAR`) y asigne cada una a la malla.
 
 ## Conclusión
 
-En este tutorial cubrimos **cómo crear UVs** y adjuntarlos a un objeto 3‑D usando Aspose.3D para Java. Al dominar el mapeado UV puedes **map textures java** y **add texture coordinates** a cualquier malla, desbloqueando renderizado realista para juegos, simulaciones y visualizaciones. Experimenta con diferentes formas, disposiciones UV y texturas para ver cuán poderoso puede ser el mapeado UV.
+En este tutorial cubrimos **cómo generar coordenadas UV** y adjuntarlas a un objeto 3‑D usando Aspose.3D para Java. Al dominar el mapeo UV puede **map textures java** y **agregar coordenadas de textura** a cualquier malla, desbloqueando renderizado realista para juegos, simulaciones y visualizaciones. Experimente con diferentes formas, disposiciones UV y texturas para ver cuán poderoso puede ser el mapeo UV.
 
 ---
 
-**Última actualización:** 2026-02-09  
-**Probado con:** Aspose.3D última versión (Java)  
+**Última actualización:** 2026-04-12  
+**Probado con:** Aspose.3D latest release (Java)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

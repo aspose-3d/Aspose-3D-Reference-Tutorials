@@ -1,35 +1,61 @@
 ---
-title: Creazione di scene cubiche
+date: 2026-04-12
+description: Impara a creare scene a cubo e a salvare la scena come FBX usando Aspose.3D
+  per .NET – guida passo‑passo, prerequisiti e esempi di codice.
+keywords:
+- how to create cube
+- how to export fbx
+- add mesh to node
+- export scene as fbx
+- save scene as fbx
 linktitle: Creazione di scene cubiche
-second_title: API Aspose.3D .NET
-description: Crea splendide scene di cubi 3D senza sforzo con Aspose.3D per .NET. Scarica la libreria, segui la nostra guida passo passo e scatenati.
-weight: 12
+second_title: Aspose.3D .NET API
+title: Come creare scene a cubo con Aspose.3D per .NET
 url: /it/net/geometry-and-hierarchy/create-cube-scenes/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Creazione di scene cubiche
+# Come creare scene a cubo con Aspose.3D per .NET
 
-## introduzione
+## Introduzione
 
-Sei pronto a tuffarti nell'affascinante mondo del design 3D? In questo tutorial, ti guideremo attraverso il processo di creazione di affascinanti scene di cubi utilizzando Aspose.3D per .NET. Aspose.3D è una libreria potente e versatile che consente agli sviluppatori di creare esperienze 3D coinvolgenti senza problemi.
+Pronto a dare vita a un semplice cubo 3‑D? In questo tutorial imparerai **come creare scene a cubo** con Aspose.3D per .NET, esportare il modello come file FBX e vedere il risultato immediatamente. Che tu stia prototipando un asset di gioco o visualizzando dati, i passaggi seguenti ti forniscono una solida base che potrai estendere con texture, illuminazione o animazione.
+
+## Risposte rapide
+- **Qual è l'argomento del tutorial?** Creazione di una mesh a cubo, aggiunta della mesh al nodo e salvataggio della scena come file FBX.  
+- **Quale libreria è necessaria?** Aspose.3D per .NET (disponibile versione di prova gratuita).  
+- **È necessaria una licenza per eseguire l'esempio?** Una licenza temporanea o di prova è sufficiente per sviluppo e test.  
+- **Quale IDE posso usare?** Qualsiasi IDE compatibile con .NET (Visual Studio, Rider, VS Code).  
+- **Quanto tempo ci vuole?** Circa 10 minuti per scrivere, compilare ed eseguire il codice.
+
+## Come creare scene a cubo con Aspose.3D
+
+Una scena a cubo è il “Hello World” della grafica 3‑D. Ti permette di verificare che la tua pipeline – dalla creazione della mesh all'**esportazione della scena come FBX** – funzioni correttamente. Di seguito esaminiamo ogni passaggio, spieghiamo il “perché” e mostriamo esattamente dove inserire il codice.
+
+## Che cos'è una scena a cubo 3D?
+
+Una scena a cubo 3D è un modello tridimensionale minimale costituito da una singola geometria a cubo inserita all'interno di un grafo della scena. Funziona come il “Hello World” della grafica 3D, consentendoti di verificare che la tua pipeline – dalla creazione della mesh all'esportazione del file – funzioni correttamente.
+
+## Perché creare scene a cubo con Aspose.3D?
+
+* **Supporto cross‑format:** Esporta in FBX, STL, OBJ e molti altri formati senza convertitori aggiuntivi.  
+* **API .NET pura:** Nessuna dipendenza nativa, perfetta per gli sviluppatori C#.  
+* **Set di funzionalità ricco:** Costruttori di mesh integrati, gestione dei materiali e gestione della gerarchia della scena.  
+* **Prototipazione rapida:** Scrivi poche righe di codice e ottieni un file 3D pronto all'uso.  
 
 ## Prerequisiti
 
-Prima di intraprendere questo viaggio creativo, assicuriamoci di avere tutto ciò di cui hai bisogno:
+1. **Libreria Aspose.3D per .NET** – scarica e installa dalla [documentazione Aspose](https://reference.aspose.com/3d/net/).  
+2. **Ambiente di sviluppo** – Visual Studio 2022, Rider o qualsiasi editor che supporti .NET 6+.  
+3. **Conoscenza base di C#** – dovresti sentirti a tuo agio con classi, oggetti e applicazioni console.
 
-1.  Aspose.3D per .NET Library: scarica e installa la libreria da[Richiedere documentazione](https://reference.aspose.com/3d/net/).
+## Importa gli spazi dei nomi
 
-2. Ambiente di sviluppo: configura il tuo ambiente di sviluppo .NET preferito.
-
-3. Familiarità di base con C#: questo tutorial presuppone che tu abbia una conoscenza di base della programmazione C#.
-
-## Importa spazi dei nomi
-
-Ora iniziamo importando gli spazi dei nomi necessari nel codice C#:
+Per prima cosa, aggiungi le istruzioni `using` necessarie affinché il compilatore sappia dove risiedono i tipi Aspose.3D.
 
 ```csharp
 using System;
@@ -39,99 +65,109 @@ using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
 ```
 
-## Passaggio 1: inizializzare la scena
+## Guida passo‑passo
 
-Inizia creando una nuova scena 3D:
+### Passo 1: Inizializza la scena
+
+Crea un oggetto `Scene` vuoto che conterrà tutti i nodi, le mesh, le luci e le telecamere.
 
 ```csharp
 // ExStart:CreateCubeScene
-// Inizializza l'oggetto della scena
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Passaggio 2: crea un nodo per il cubo
+### Passo 2: Crea un nodo per il cubo
 
-Ora aggiungiamo un nodo per rappresentare il nostro cubo all'interno della scena:
+Un `Node` funge da contenitore per la geometria. Assegnagli un nome descrittivo così potrai trovarlo più tardi nella gerarchia.
 
 ```csharp
-// Inizializza l'oggetto della classe Node
+// Initialize Node class object
 Node cubeNode = new Node("cube");
 ```
 
-## Passaggio 3: costruisci la mesh
+### Passo 3: Costruisci la mesh
 
-Utilizza la classe Common per creare una mesh per il tuo cubo utilizzando il metodo di creazione poligoni:
+Aspose.3D fornisce un helper chiamato `Common` che può generare una mesh a cubo usando un costruttore di poligoni. Questo ti evita di dover definire manualmente vertici e facce.
 
 ```csharp
-// Chiama la classe Common per creare mesh utilizzando il metodo di creazione poligoni per impostare l'istanza della mesh
+// Call Common class create mesh using polygon builder method to set mesh instance 
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
 ```
 
-## Passaggio 4: puntare il nodo sulla geometria della mesh
+### Passo 4: Aggiungi la mesh al nodo
 
-Associa la geometria della mesh al nodo del cubo:
+Assegna la mesh appena creata alla proprietà `Entity` del nodo. Questo collega la geometria al grafo della scena.
 
 ```csharp
-// Nodo punto alla geometria Mesh
+// Point node to the Mesh geometry
 cubeNode.Entity = mesh;
 ```
 
-## Passaggio 5: aggiungi il nodo alla scena
+### Passo 5: Aggiungi il nodo alla scena
 
-Posiziona il nodo del cubo all'interno dei nodi radice della scena:
+Inserisci il nodo cubo nella radice della scena affinché diventi parte dell'output finale.
 
 ```csharp
-// Aggiungi nodo a una scena
+// Add Node to a scene
 scene.RootNode.ChildNodes.Add(cubeNode);
 ```
 
-## Passaggio 6: salva la scena 3D
+### Passo 6: Come esportare FBX (salvare la scena come FBX)
 
-Specifica la directory di output e salva la scena 3D in un formato file supportato (FBX in questo caso):
+Scegli un percorso di output ed esporta la scena. Qui utilizziamo il formato ASCII FBX 7400, ampiamente supportato dagli editor 3D.
 
 ```csharp
-// Il percorso della directory dei documenti.
+// The path to the documents directory.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-// Salva la scena 3D nei formati di file supportati
+// Save 3D scene in the supported file formats
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 
-## Passaggio 7: Visualizza il messaggio di successo
+### Passo 7: Visualizza il messaggio di successo
 
-Informa l'utente che la scena del cubo è stata creata con successo:
+Fornisci all'utente una conferma chiara che il file è stato scritto correttamente.
 
 ```csharp
 Console.WriteLine("\nCube Scene created successfully.\nFile saved at " + output);
 ```
 
-Congratulazioni! Hai appena realizzato la tua prima scena di cubo 3D utilizzando Aspose.3D per .NET. Sperimenta forme, trame e luci diverse per sbloccare un regno di possibilità.
+## Problemi comuni e soluzioni
 
-## Conclusione
-
-In questo tutorial, abbiamo esplorato il processo di creazione di accattivanti scene di cubi 3D utilizzando Aspose.3D per .NET. Ora, armato di questa conoscenza, puoi liberare la tua creatività e dare vita alle tue visioni 3D.
+| Problema | Perché accade | Soluzione |
+|----------|----------------|-----------|
+| **File non trovato** errore durante l'esecuzione di `scene.Save` | La directory di output non esiste o non hai i permessi di scrittura. | Crea prima la directory (`Directory.CreateDirectory`) o utilizza un percorso assoluto di tua proprietà. |
+| **File vuoto** dopo l'esportazione | La mesh non è stata collegata al nodo o il nodo non è stato aggiunto alla scena. | Assicurati che `cubeNode.Entity = mesh;` e `scene.RootNode.ChildNodes.Add(cubeNode);` vengano eseguiti. |
+| **Formato errato** quando si apre in un visualizzatore | Uso del valore enum `FileFormat` errato. | Usa `FileFormat.FBX7400ASCII` per FBX ASCII o `FileFormat.FBX7400Binary` per binario. |
 
 ## Domande frequenti
 
-### Q1: Aspose.3D è compatibile con diversi formati di file 3D?
+**D: Aspose.3D è compatibile con diversi formati di file 3D?**  
+R: Sì, Aspose.3D supporta FBX, STL, OBJ, GLTF e molti altri, consentendoti di **salvare la scena come FBX** o altri formati con una singola riga di codice.
 
-A1: Sì, Aspose.3D supporta vari formati di file, inclusi FBX, STL e altri.
+**D: Posso personalizzare l'aspetto del cubo?**  
+R: Assolutamente. Puoi assegnare un `Material` alla mesh, cambiarne il colore o applicare una texture usando la classe `Material`.
 
-### Q2: posso personalizzare l'aspetto del cubo?
+**D: Dove posso trovare supporto e risorse aggiuntive?**  
+R: Visita il [forum Aspose.3D](https://forum.aspose.com/c/3d/18) per assistenza della community e discussioni.
 
-A2: Assolutamente! Sperimenta materiali, colori e texture per ottenere l'aspetto desiderato.
+**D: È disponibile una versione di prova gratuita?**  
+R: Sì, puoi provare la versione di prova gratuita [qui](https://releases.aspose.com/).
 
-### Q3: Dove posso trovare ulteriore supporto e risorse?
+**D: Come posso ottenere una licenza temporanea per Aspose.3D?**  
+R: Ottieni una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
 
- A3: Visita il[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) per l'assistenza e le discussioni della comunità.
+## Conclusione
 
-### Q4: È disponibile una prova gratuita?
+In questa guida abbiamo dimostrato **come creare scene a cubo** passo dopo passo, dall'inizializzare una `Scene` all'**esportare la scena come FBX**. Ora hai una solida base per sperimentare geometrie più complesse, aggiungere texture, luci e persino animare i tuoi modelli. Continua a esplorare l'API Aspose.3D – le possibilità sono praticamente infinite.
 
- R4: Sì, puoi esplorare una versione di prova gratuita[Qui](https://releases.aspose.com/).
+---
 
-### Q5: Come posso ottenere una licenza temporanea per Aspose.3D?
+**Ultimo aggiornamento:** 2026-04-12  
+**Testato con:** Aspose.3D per .NET 24.11 (ultima versione al momento della stesura)  
+**Autore:** Aspose  
 
- A5: acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

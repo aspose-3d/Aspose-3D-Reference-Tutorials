@@ -1,11 +1,17 @@
 ---
-date: 2026-02-09
-description: Tanulja meg, hogyan hozhat létre UV‑koordinátákat és térképezhet textúrákat
-  Java‑val az Aspose.3D segítségével. Emelje grafikai megjelenését ezzel a lépésről‑lépésre
-  útmutatóval.
-linktitle: How to Create UVs – Apply UV Coordinates to 3D Objects in Java with Aspose.3D
+date: 2026-04-12
+description: Tanulja meg, hogyan generáljon UV‑koordinátákat és térképezzen textúrákat
+  Java‑ban az Aspose.3D‑vel – egy lépésről‑lépésre útmutató a textúra leképezéshez.
+keywords:
+- generate uv coordinates
+- create uv set
+- texture mapping tutorial
+- uv mapping 3d objects
+- add texture coordinates
+linktitle: Hogyan generáljunk UV-koordinátákat – UV-k alkalmazása 3D objektumokra
+  Java-ban az Aspose.3D segítségével
 second_title: Aspose.3D Java API
-title: Hogyan készítsünk UV-ket – UV koordináták alkalmazása 3D objektumokra Java-ban
+title: Hogyan generáljunk UV koordinátákat – UV-k alkalmazása 3D objektumokra Java-ban
   az Aspose.3D segítségével
 url: /hu/java/geometry/apply-uv-coordinates-to-3d-objects/
 weight: 18
@@ -15,42 +21,43 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan hozzunk létre UV-ket – UV koordináták alkalmazása 3D objektumokra Java-ban az Aspose.3D segítségével
+# Hogyan generáljunk UV koordinátákat – UV-k alkalmazása 3D objektumokra Java-ban az Aspose.3D
 
 ## Bevezetés
 
-Üdvözöljük az átfogó útmutatóban, amely a **to create UVs** és az UV koordináták Java-ban történő 3D objektumokra való alkalmazásáról szól az Aspose.3D segítségével. A 3D grafika világában az UV koordináták kulcsfontosságú szerepet játszanak a **map textures java** folyamatában, koordinálva, hogy a textúrát adjunk hozzá, így a realisztikussá teszi modelljeinket. Ez az útmutató lépésről lépésre vezet végig, hogy magabiztosan kezdhesse el objektumai textúrázását.
+Welcome to this comprehensive **texture mapping tutorial** on **how to generate UV coordinates** and apply UV coordinates to 3D objects in Java using Aspose.3D. In the world of 3‑D graphics, UV coordinates are the bridge that lets you **map textures java** and give your models a realistic look. This guide walks you through each step, so you can start adding texture coordinates to any mesh with confidence.
 
 ## Gyors válaszok
-- **Mi az elsődleges cél?** Ismerje meg, hogyan hozhat létre UV-fényeket és hogyan térképezhet fel textúrákat 3D geometriára.
-- **Melyik könyvtárat használják?** Aspose.3D for Java.
-- **Szükségem van licencre?** Ingyenes próbaverzió működik a fejlesztéshez; gyártáshoz engedély szükséges.
-- **Mennyi ideig tart a megvalósítás?** Nagyjából 10-15 perc egy alapkockánál.
-- **Használhatom ezt más formákkal is?** Igen – ugyanezek az elvek vonatkoznak minden hálóra.
 
-## Mi az UV-térképezés, és miért kell UV-fényeket készíteni?
+- **Mi a fő cél?** Tanulja meg, hogyan generáljon UV koordinátákat és hogyan térképezze fel a textúrákat 3‑D geometriára.  
+- **Melyik könyvtárat használjuk?** Aspose.3D for Java.  
+- **Szükségem van licencre?** Egy ingyenes próba verzió fejlesztéshez elegendő; licenc szükséges a termeléshez.  
+- **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 10‑15 perc egy egyszerű kockához.  
+- **Használhatom más alakzatokkal is?** Igen – ugyanazok az elvek bármely hálóra alkalmazhatók.
 
-Az UV mapping a 2-D képet (a textúrát) egy 3-D felületre vetíti. **UV koordináták** meghatározásával a renderelőnek megmondjuk, hogy a textúra mely része az egyes csúcspontokhoz tartozik. Megfelelő UV-k nélkül a textúrák nyúltnak, elhelyezkedésük hibásnak vagy egyszerűen láthatatlannak tűnnek.
+## Hogyan generáljunk UV koordinátákat Java-ban
 
-## Miért használja az Aspose.3D-t UV-leképezéshez Java nyelven?
+Mielőtt a kódba merülnénk, tisztázzuk, miért fontos az UV koordináták generálása. A megfelelő UV-k biztosítják, hogy a textúrák helyesen illeszkedjenek, elkerüljék a nyúlást, és a anyagok professzionális megjelenést kapjanak. Akár játékot, szimulációt vagy termékvizualizátort épít, egy szilárd UV készlet elengedhetetlen.
 
-- **Többplatformos**: Bármilyen Java-kompatibilis környezetben működik.
-- **Rich API**: Magas szintű osztályokat biztosít, mint például a "VertexElementUV", amelyek leegyszerűsítik az UV-kezelést.
-- **Teljesítményorientált**: Nagy jelenetekhez és összetett modellekhez optimalizálva.
+## Miért fontos az UV leképezés 3D objektumokon
+
+- **Realizmus:** A helyes UV-k lehetővé teszik, hogy a textúrák természetesen körbefűljenek összetett felületeken.  
+- **Teljesítmény:** Jól szervezett UV készletek csökkentik a további shader-ek vagy futásidejű beállítások szükségességét.  
+- **Hordozhatóság:** Az UV adatok a hálóval együtt utaznak, így a modell ugyanúgy néz ki bármely, az Aspose.3D-t támogató motorban.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, g meg róla, hogy rendelkezik a következőkkel:
+Before diving in, ensure you have:
 
-- **Java Development Environment** – JDK 8+ telepítve és beállítva.
-- **Aspose.3D Library** – Töltse le a legújabb JAR-t a hivatalos oldalról [here](https://releases.aspose.com/3d/java/).
-- **Basic 3D Knowledge** – A hálók, csúcspontok és textúra fogalmak ismerete segíti a megértést.
+- **Java fejlesztői környezet** – JDK 8+ telepítve és konfigurálva.  
+- **Aspose.3D könyvtár** – Töltse le a legújabb JAR-t a hivatalos oldalról [itt](https://releases.aspose.com/3d/java/).  
+- **Alapvető 3D ismeretek** – A hálók, csúcspontok és textúra fogalmak ismerete segíti a követést.
 
 ## Csomagok importálása
 
-Ebben a lépésben importáljuk a szükséges csomagokat, hogy indítsa el az UV-mapping folyamatot. Az Aspose.3D könyvtár biztosítja az eszközöket a 3-D objektumok Java-ban kezeléséhez.
+In this step, we import the necessary packages to kick‑start our UV‑mapping journey. The Aspose.3D library provides the tools we need to work with 3‑D objects in Java.
 
-### 1. lépés: Importáljon Aspose.3D csomagokat
+### 1. lépés: Aspose.3D csomagok importálása
 
 ```java
 import com.aspose.threed.*;
@@ -58,11 +65,11 @@ import com.aspose.threed.*;
 import java.util.Arrays;
 ```
 
-Most, hogy a csomagok készen állnak, állítsuk be az UV adatokat egy egyszerű kockához.
+Miután a csomagok készen állnak, állítsuk be az UV adatokat egy egyszerű kockához.
 
-## UV-k létrehozása 3D objektumon
+## UV készlet létrehozása a hálóhoz
 
-Ebben a szakaszban végigvezetjük a UV koordináták létrehozásán egy kockához, majd ezek csatolásán a hálóhoz. Ugyanez a megközelítés bármely geometriára alkalmazható.
+Itt definiáljuk az UV koordinátákat és az indexpuffert, amely megmondja a hálónak, mely UV tartozik az egyes sokszög csúcspontokhoz. Ez a **create UV set** folyamat magja.
 
 ### 2. lépés: UV-k és indexek létrehozása
 
@@ -85,9 +92,13 @@ int[] uvsId = new int[]
 // ExEnd:SetupUVOnCube
 ```
 
-Ezek a tömbök definiálják a **UV coordinates** (`uvs`) és a **index mapping** (`uvsId`) értékeket, amelyek megmondják a hálónak, hogy mely UV tartozik az egyes poligon‑csúcspontokhoz.
+Ezek a tömbök definiálják a **UV coordinates** (`uvs`) és a **index mapping** (`uvsId`) értékeket, amelyek megmondják a hálónak, mely UV tartozik az egyes sokszög csúcspontokhoz.
 
-### 3. lépés: Háló és UV-készlet létrehozása
+## Textúra koordináták hozzáadása a hálóhoz
+
+Most csatoljuk az UV készletet egy háló példányhoz. Ez a lépés **adds texture coordinates** a geometriához, így készen áll a textúrával való renderelésre.
+
+### 3. lépés: Háló és UVset létrehozása
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
@@ -102,55 +113,55 @@ elementUV.setIndices(uvsId);
 
 Itt:
 
-1. Egy hálót (a kockát) építünk fel egy segédosztály segítségével.  
-2. Létrehozunk egy UV elemet (`VertexElementUV`), amely a textúra koordinátákat tárolja.  
-3. Hozzárendeljük az UV adatokat és az indexpuffert a hálóhoz, ezzel **adding texture coordinates** a geometriához.
+1. Egy hálót (a kockát) építünk egy segédosztály segítségével.  
+2. Létrehozunk egy UV elemet (`VertexElementUV`), amely tárolja a textúra koordinátáinkat.  
+3. Hozzárendeljük az UV adatokat és az indexpuffert a hálóhoz, ezzel hatékonyan **adding texture coordinates** a geometriához.
 
-### 4. lépés: Nyomtatás megerősítése
+### 4. lépés: Visszaigazolás kiírása
 
 ```java
 System.out.println("\nUVs have been set up successfully on the cube.");
 ```
 
-A program futtatása egy megerősítő üzenetet jelenít meg, jelezve, hogy az UV‑k most már a háló részei és készen állnak a textúra‑leképezésre.
+A program futtatása egy megerősítő üzenetet jelenít meg, jelezve, hogy az UV-k most már a háló részei és készen állnak a textúra leképezésre.
 
 ## Gyakori problémák és megoldások
 
-| Probléma | Ok | Javítás |
-|-------|-------|-----|
-| UVs appear stretched | Incorrect UV ordering or mismatched indices | Verify that `uvsId` correctly references the `uvs` array for each polygon vertex. |
-| Texture not visible | UV set not linked to the material | Ensure the material’s `TextureMapping` is set to `DIFFUSE` (as shown) and a texture is assigned to the material. |
-| Runtime `NullPointerException` | `Common.createMeshUsingPolygonBuilder()` returns `null` | Check that the helper class is included in your project and the method creates a valid mesh. |
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| Az UV-k nyúltak | Helytelen UV sorrend vagy nem egyező indexek | Ellenőrizze, hogy a `uvsId` helyesen hivatkozik-e a `uvs` tömbre minden sokszög csúcspontnál. |
+| A textúra nem látható | UV készlet nincs összekapcsolva az anyaggal | Győződjön meg róla, hogy az anyag `TextureMapping` értéke `DIFFUSE` (ahogy látható), és a textúra hozzárendelésre került az anyaghoz. |
+| Futásidejű `NullPointerException` | `Common.createMeshUsingPolygonBuilder()` visszaad `null` | Ellenőrizze, hogy a segédosztály szerepel-e a projektben, és a metódus érvényes hálót hoz-e létre. |
 
 ## Gyakran ismételt kérdések
 
-**K: Alkalmazhatok UV-koordinátákat összetett 3D modellekre?**
-V: Igen, a folyamat összetett modellek esetén is hasonló. Győződjön meg róla, hogy minden poligonhoz megfelelő UV-adatokat és indexpuffereket generál.
+**Q: Alkalmazhatok UV koordinátákat összetett 3D modellekre?**  
+A: Igen, a folyamat hasonló marad összetett modellek esetén. Győződjön meg róla, hogy megfelelő UV adatokat és indexpuffereket generál minden sokszöghez.
 
-**K: Hol találok további forrásokat és támogatást az Aspose.3D-hez?**
-V: Részletes információkért látogassa meg az [Aspose.3D dokumentációját](https://reference.aspose.com/3d/java/). Támogatásért tekintse meg az [Aspose.3D fórumot](https://forum.aspose.com/c/3d/18).
+**Q: Hol találok további forrásokat és támogatást az Aspose.3D-hez?**  
+A: Látogassa meg a [Aspose.3D documentation](https://reference.aspose.com/3d/java/) oldalt a részletes információkért. Támogatásért nézze meg az [Aspose.3D fórumot](https://forum.aspose.com/c/3d/18).
 
-**K: Van ingyenes próbaverzió az Aspose.3D-hez?**
-V: Igen, az Aspose.3D könyvtárat [ingyenes próbaverzióval](https://releases.aspose.com/) is felfedezheted.
+**Q: Elérhető ingyenes próba verzió az Aspose.3D-hez?**  
+A: Igen, a Aspose.3D könyvtárat egy [free trial](https://releases.aspose.com/) segítségével kipróbálhatja.
 
-**K: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?**
-V: Ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/) szerezhetsz be.
+**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?**  
+A: Ideiglenes licencet szerezhet [itt](https://purchase.aspose.com/temporary-license/).
 
-**K: Hol vásárolhatom meg az Aspose.3D-t?**
-V: Az Aspose.3D megvásárlásához látogass el a [vásárlási oldalra](https://purchase.aspose.com/buy).
+**Q: Hol vásárolhatok Aspose.3D-t?**  
+A: Az Aspose.3D megvásárlásához látogassa meg a [purchase page](https://purchase.aspose.com/buy) oldalt.
 
-**K: Hogyan adhatok hozzá több textúrát egyetlen hálóhoz?**
-V: Hozz létre további `VertexElementUV` példányokat különböző `TextureMapping` értékekkel (pl. `NORMAL`, `SPECULAR`), és rendeld hozzá mindegyiket a hálóhoz.
+**Q: Hogyan adhatok több textúrát egyetlen hálóhoz?**  
+A: Hozzon létre további `VertexElementUV` példányokat különböző `TextureMapping` értékekkel (pl. `NORMAL`, `SPECULAR`), és rendelje őket a hálóhoz.
 
-## Konklúzió
+## Összegzés
 
-Ebben a tutorialban bemutattuk, hogyan kell **how to create UVs** és hogyan kell azokat egy 3‑D objektumhoz csatolni az Aspose.3D for Java segítségével. Az UV mapping elsajátításával **map textures java** és **add texture coordinates** bármely hálóhoz, így valósághű renderelést érhet el játékokban, szimulációkban és vizualizációkban. Kísérletezzen különböző alakzatokkal, UV elrendezésekkel és textúrákkal, hogy megtapasztalja az UV mapping erejét.
+Ebben az útmutatóban lefedtük a **how to generate UV coordinates** folyamatát és azok 3‑D objektumhoz való csatolását az Aspose.3D for Java segítségével. Az UV leképezés elsajátításával **map textures java** és **add texture coordinates** bármely hálóhoz, így valósághű renderelést érhet el játékokban, szimulációkban és vizualizációkban. Kísérletezzen különböző alakzatokkal, UV elrendezésekkel és textúrákkal, hogy lássa, mennyire erőteljes az UV leképezés.
 
 ---
 
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.3D latest release (Java)  
-**Author:** Aspose  
+**Utoljára frissítve:** 2026-04-12  
+**Tesztelve:** Aspose.3D legújabb kiadás (Java)  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

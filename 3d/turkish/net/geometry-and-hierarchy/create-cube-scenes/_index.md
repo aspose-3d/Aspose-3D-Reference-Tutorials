@@ -1,35 +1,61 @@
 ---
-title: Küp Sahneleri Oluşturma
+date: 2026-04-12
+description: Aspose.3D for .NET kullanarak küp sahneleri oluşturmayı ve sahneyi FBX
+  olarak kaydetmeyi öğrenin – adım adım kılavuz, ön koşullar ve kod örnekleri.
+keywords:
+- how to create cube
+- how to export fbx
+- add mesh to node
+- export scene as fbx
+- save scene as fbx
 linktitle: Küp Sahneleri Oluşturma
-second_title: Aspose.3D .NET API'si
-description: Aspose.3D for .NET ile büyüleyici 3D küp sahnelerini zahmetsizce oluşturun. Kütüphaneyi indirin, adım adım kılavuzumuzu izleyin ve serbest bırakın.
-weight: 12
+second_title: Aspose.3D .NET API
+title: Aspose.3D for .NET ile küp sahneleri nasıl oluşturulur
 url: /tr/net/geometry-and-hierarchy/create-cube-scenes/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Küp Sahneleri Oluşturma
+# Aspose.3D for .NET ile küp sahneleri nasıl oluşturulur
 
-## giriiş
+## Giriş
 
-3D tasarımın büyüleyici dünyasına dalmaya hazır mısınız? Bu eğitimde, Aspose.3D for .NET'i kullanarak büyüleyici küp sahneleri oluşturma sürecinde size rehberlik edeceğiz. Aspose.3D, geliştiricilerin sürükleyici 3D deneyimlerini sorunsuz bir şekilde oluşturmasına olanak tanıyan güçlü ve çok yönlü bir kitaplıktır.
+Basit bir 3‑D küpü hayata geçirmeye hazır mısınız? Bu öğreticide Aspose.3D for .NET ile **küp sahneleri nasıl oluşturulur** öğrenecek, modeli bir FBX dosyası olarak dışa aktaracak ve sonucu anında göreceksiniz. Bir oyun varlığı prototipleiyor ya da verileri görselleştiriyor olun, aşağıdaki adımlar size dokular, ışıklandırma veya animasyon ekleyebileceğiniz sağlam bir temel sağlayacak.
+
+## Hızlı Yanıtlar
+- **Bu öğretici neyi kapsıyor?** Bir küp ağı oluşturma, ağı düğüme ekleme ve sahneyi FBX dosyası olarak kaydetme.  
+- **Hangi kütüphane gerekli?** Aspose.3D for .NET (ücretsiz deneme mevcut).  
+- **Örneği çalıştırmak için lisansa ihtiyacım var mı?** Geliştirme ve test için geçici veya deneme lisansı yeterlidir.  
+- **Hangi IDE'yi kullanabilirim?** .NET uyumlu herhangi bir IDE (Visual Studio, Rider, VS Code).  
+- **Ne kadar sürer?** Kodu yazmak, derlemek ve çalıştırmak yaklaşık 10 dakika.
+
+## Aspose.3D ile küp sahneleri nasıl oluşturulur
+
+Bir küp sahnesi, 3‑D grafiklerin “Hello World” örneğidir. Size, ağ oluşturma aşamasından **sahneyi FBX olarak dışa aktarma** aşamasına kadar olan iş akışınızın doğru çalıştığını doğrulama imkanı verir. Aşağıda her adımı adım adım inceleyecek, “neden”ini açıklayacak ve kodu tam olarak nereye yerleştirmeniz gerektiğini göstereceğiz.
+
+## 3D küp sahnesi nedir?
+
+Bir 3D küp sahnesi, sahne grafiği içinde yer alan tek bir küp geometrisinden oluşan minimal üç boyutlu bir modeldir. 3D grafiklerin “Hello World” örneği olarak hizmet eder ve iş akışınızın – ağ oluşturma ve dosya dışa aktarımı – doğru çalıştığını doğrulamanızı sağlar.
+
+## Neden Aspose.3D ile küp sahneleri oluşturmalısınız?
+
+* **Çapraz format desteği:** Ek dönüştürücüler olmadan FBX, STL, OBJ ve birçok diğer formata dışa aktarım.  
+* **Saf .NET API:** Yerel bağımlılık yok, C# geliştiricileri için mükemmel.  
+* **Zengin özellik seti:** Yerleşik ağ oluşturucular, malzeme işleme ve sahne hiyerarşi yönetimi.  
+* **Hızlı prototipleme:** Birkaç satır kod yazarak kullanıma hazır bir 3D dosya elde edin.  
 
 ## Önkoşullar
 
-Bu yaratıcı yolculuğa çıkmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
+1. **Aspose.3D for .NET Kütüphanesi** – [Aspose belgelerinden](https://reference.aspose.com/3d/net/) indirin ve kurun.  
+2. **Geliştirme Ortamı** – Visual Studio 2022, Rider veya .NET 6+ destekleyen herhangi bir editör.  
+3. **Temel C# bilgisi** – sınıflar, nesneler ve konsol uygulamalarıyla rahat olmalısınız.
 
-1.  Aspose.3D for .NET Kütüphanesi: Kütüphaneyi şuradan indirip yükleyin:[Belgeleri sunun](https://reference.aspose.com/3d/net/).
+## Ad Alanlarını İçe Aktarın
 
-2. Geliştirme Ortamı: Tercih ettiğiniz .NET geliştirme ortamını kurun.
-
-3. C# ile Temel Bilgi: Bu eğitimde C# programlama konusunda temel bilgiye sahip olduğunuz varsayılmaktadır.
-
-## Ad Alanlarını İçe Aktar
-
-Şimdi gerekli ad alanlarını C# kodunuza aktararak işe başlayalım:
+İlk olarak, derleyicinin Aspose.3D tiplerinin nerede olduğunu bilmesi için gerekli `using` ifadelerini ekleyin.
 
 ```csharp
 using System;
@@ -39,99 +65,107 @@ using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
 ```
 
-## 1. Adım: Sahneyi Başlatın
+## Adım adım kılavuz
 
-Yeni bir 3B sahne oluşturarak başlayın:
+### Adım 1: Sahneyi Başlat
+
+Tüm düğümleri, ağları, ışıkları ve kameraları tutacak boş bir `Scene` nesnesi oluşturun.
 
 ```csharp
-// ExStart:CubeScene Oluştur
-// Sahne nesnesini başlat
+// ExStart:CreateCubeScene
+// Initialize scene object
 Scene scene = new Scene();
 ```
 
-## Adım 2: Küp için Bir Düğüm Oluşturun
+### Adım 2: Küp için bir Düğüm Oluşturun
 
-Şimdi sahne içerisinde küpümüzü temsil edecek bir düğüm ekleyelim:
+`Node`, geometri için bir kapsayıcı görevi görür. Hiyerarşide daha sonra bulabilmeniz için ona anlaşılır bir ad verin.
 
 ```csharp
-// Düğüm sınıfı nesnesini başlat
+// Initialize Node class object
 Node cubeNode = new Node("cube");
 ```
 
-## Adım 3: Ağı Oluşturun
+### Adım 3: Ağı Oluşturun
 
-Çokgen oluşturucu yöntemini kullanarak küpünüz için bir ağ oluşturmak üzere Common sınıfını kullanın:
+Aspose.3D, çokgen oluşturucu kullanarak bir küp ağı üretebilen `Common` adlı bir yardımcı sağlar. Bu, köşe ve yüzleri manuel olarak tanımlamanızı engeller.
 
 ```csharp
-// Örgü örneğini ayarlamak için çokgen oluşturucu yöntemini kullanarak ortak sınıf oluşturma örgüsünü çağırın
+// Call Common class create mesh using polygon builder method to set mesh instance 
 Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
 ```
 
-## Adım 4: Düğümü Mesh Geometrisine Yönlendirin
+### Adım 4: Ağı Düğüme Ekle
 
-Mesh geometrisini küp düğümüyle ilişkilendirin:
+Az önce oluşturduğunuz ağı düğümün `Entity` özelliğine atayın. Bu, geometriyi sahne grafiğiyle bağlar.
 
 ```csharp
-// Düğümü Mesh geometrisine yönlendirin
+// Point node to the Mesh geometry
 cubeNode.Entity = mesh;
 ```
 
-## Adım 5: Sahneye Düğüm Ekleyin
+### Adım 5: Düğümü Sahneye Ekle
 
-Küp düğümünü sahnenin kök düğümlerine yerleştirin:
+Küp düğümünü sahnenin köküne ekleyin, böylece nihai çıktının bir parçası olur.
 
 ```csharp
-// Bir sahneye Düğüm ekleme
+// Add Node to a scene
 scene.RootNode.ChildNodes.Add(cubeNode);
 ```
 
-## Adım 6: 3D Sahneyi Kaydedin
+### Adım 6: FBX Nasıl Dışa Aktarılır (sahneyi FBX olarak kaydet)
 
-Çıkış dizinini belirtin ve 3B sahneyi desteklenen bir dosya formatında kaydedin (bu durumda FBX):
+Bir çıktı yolu seçin ve sahneyi dışa aktarın. Burada, 3D editörler tarafından yaygın olarak desteklenen FBX 7400 ASCII formatını kullanıyoruz.
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 var output = "Your Output Directory" + "CubeScene.fbx";
 
-// 3B sahneyi desteklenen dosya formatlarında kaydedin
+// Save 3D scene in the supported file formats
 scene.Save(output, FileFormat.FBX7400ASCII);
 ```
 
-## Adım 7: Başarı Mesajını Görüntüleyin
+### Adım 7: Başarı Mesajını Göster
 
-Kullanıcıya küp sahnesinin başarıyla oluşturulduğunu bildirin:
+Kullanıcıya dosyanın başarıyla yazıldığını açık bir şekilde bildirin.
 
 ```csharp
 Console.WriteLine("\nCube Scene created successfully.\nFile saved at " + output);
 ```
 
-Tebrikler! Aspose.3D for .NET'i kullanarak ilk 3D küp sahnenizi oluşturdunuz. Olasılıkların kilidini açmak için farklı şekiller, dokular ve ışıklandırmayı deneyin.
+## Yaygın sorunlar ve çözümler
 
-## Çözüm
+| Sorun | Neden oluşur | Çözüm |
+|-------|--------------|-------|
+| **File not found** hatası `scene.Save` çalıştırılırken | Çıktı dizini mevcut değil veya yazma izniniz yok. | Önce dizini oluşturun (`Directory.CreateDirectory`) veya sahip olduğunuz mutlak bir yol kullanın. |
+| **Boş dosya** dışa aktardıktan sonra | Ağ düğüme eklenmemiş veya düğüm sahneye eklenmemiş. | `cubeNode.Entity = mesh;` ve `scene.RootNode.ChildNodes.Add(cubeNode);` ifadelerinin çalıştırıldığından emin olun. |
+| **Yanlış format** bir görüntüleyicide açarken | Yanlış `FileFormat` enum değeri kullanılıyor. | ASCII FBX için `FileFormat.FBX7400ASCII`, ikili için `FileFormat.FBX7400Binary` kullanın. |
 
-Bu eğitimde Aspose.3D for .NET kullanarak büyüleyici 3D küp sahneleri oluşturma sürecini inceledik. Artık bu bilgiyle donanmış olarak yaratıcılığınızı serbest bırakabilir ve 3D vizyonlarınızı hayata geçirebilirsiniz.
+## Sıkça Sorulan Sorular
 
-## SSS'ler
+**S: Aspose.3D farklı 3D dosya formatlarıyla uyumlu mu?**  
+C: Evet, Aspose.3D FBX, STL, OBJ, GLTF ve daha birçok formatı destekler; tek bir kod satırıyla **sahneyi FBX olarak kaydedebilir** veya diğer formatlara dönüştürebilirsiniz.
 
-### S1: Aspose.3D farklı 3D dosya formatlarıyla uyumlu mudur?
+**S: Küpün görünümünü özelleştirebilir miyim?**  
+C: Kesinlikle. Ağa bir `Material` atayabilir, rengini değiştirebilir veya `Material` sınıfını kullanarak bir doku uygulayabilirsiniz.
 
-Cevap1: Evet, Aspose.3D, FBX, STL ve daha fazlası dahil olmak üzere çeşitli dosya formatlarını destekler.
+**S: Ek destek ve kaynakları nerede bulabilirim?**  
+C: Topluluk yardımı ve tartışmalar için [Aspose.3D forumunu](https://forum.aspose.com/c/3d/18) ziyaret edin.
 
-### S2: Küpün görünümünü özelleştirebilir miyim?
+**S: Ücretsiz deneme mevcut mu?**  
+C: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) inceleyebilirsiniz.
 
-A2: Kesinlikle! İstediğiniz görünümü elde etmek için malzemeler, renkler ve dokularla denemeler yapın.
+**S: Aspose.3D için geçici bir lisans nasıl alabilirim?**  
+C: Geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
-### S3: Ek destek ve kaynakları nerede bulabilirim?
+## Sonuç
 
- A3: Ziyaret edin[Aspose.3D forumu](https://forum.aspose.com/c/3d/18) topluluk yardımı ve tartışmalar için.
+Bu rehberde **küp sahneleri nasıl oluşturulur** adım adım gösterdik; `Scene`'i başlatmaktan **sahneyi FBX olarak dışa aktarmaya** kadar. Artık daha karmaşık geometrilerle denemeler yapabilir, dokular, ışıklar ekleyebilir ve hatta modellerinizi canlandırabilirsiniz. Aspose.3D API'yi keşfetmeye devam edin – olasılıklar neredeyse sınırsız.
 
-### S4: Ücretsiz deneme sürümü mevcut mu?
+**Son Güncelleme:** 2026-04-12  
+**Test Edilen:** Aspose.3D for .NET 24.11 (yazım zamanındaki en son sürüm)  
+**Yazar:** Aspose  
 
- Cevap4: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
-
-### S5: Aspose.3D için nasıl geçici lisans alabilirim?
-
- Cevap5: Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
