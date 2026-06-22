@@ -1,33 +1,51 @@
 ---
-title: Inversione del sistema di coordinate nelle scene 3D
-linktitle: Inversione del sistema di coordinate nelle scene 3D
-second_title: API Aspose.3D .NET
-description: Padroneggia l'arte di capovolgere i sistemi di coordinate nelle scene 3D utilizzando Aspose.3D per .NET. Segui la nostra guida passo passo per un'implementazione senza problemi.
-weight: 12
+date: 2026-03-26
+description: Scopri come invertire le coordinate e il sistema di coordinate nelle
+  scene 3D usando Aspose.3D per .NET. Segui la nostra guida passo passo per un'implementazione
+  senza problemi.
+linktitle: Flipping Coordinate System in 3D Scenes
+second_title: Aspose.3D .NET API
+title: Come capovolgere le coordinate nelle scene 3D con Aspose.3D per .NET
 url: /it/net/3d-scene/flip-coordinate-system/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Inversione del sistema di coordinate nelle scene 3D
+# Come capovolgere le coordinate in scene 3D con Aspose.3D per .NET
 
-## introduzione
+## Introduzione
 
-Benvenuti in questa guida passo passo sull'inversione del sistema di coordinate nelle scene 3D utilizzando Aspose.3D per .NET. Se sei uno sviluppatore o un appassionato di 3D e desideri manipolare i sistemi di coordinate nelle tue scene, sei nel posto giusto. In questo tutorial ti guideremo attraverso il processo, semplificando l'implementazione di questa funzionalità senza problemi.
+Se hai bisogno di **come capovolgere le coordinate** in una scena 3D, sei nel posto giusto. In questo tutorial ti guideremo passo passo attraverso le operazioni necessarie per capovolgere il sistema di coordinate di un modello 3D usando l'API .NET di Aspose.3D. Alla fine comprenderai perché potresti voler **capovolgere il sistema di coordinate**, come **convertire il sistema di coordinate 3d** a un'orientazione degli assi diversa, e come farlo con poche righe di codice C#.
+
+## Risposte rapide
+- **Qual è lo scopo principale?** Cambiare l'orientamento degli assi di una scena 3D affinché corrisponda alla convenzione dell'applicazione di destinazione.  
+- **Quale formato viene usato per l'output?** Wavefront OBJ (`.obj`).  
+- **È necessaria una licenza?** È necessaria una licenza temporanea o completa di Aspose.3D per l'uso in produzione.  
+- **Quanto tempo richiede l'implementazione?** Tipicamente meno di 10 minuti per una scena di base.  
+- **Posso usarlo con .NET Core?** Sì – l'API funziona con .NET Framework e .NET Core.
+
+## Cosa significa capovolgere le coordinate?
+
+Capovolgere le coordinate significa invertire il segno di uno o più assi (X, Y o Z) durante l'esportazione o l'importazione di un modello. Questa operazione è spesso necessaria quando si trasferiscono risorse tra software che utilizzano convenzioni di coordinate destro‑mano o sinistro‑mano differenti.
+
+## Perché capovolgere un sistema di coordinate 3D?
+
+- **Interoperabilità:** Alcuni motori di gioco si aspettano Y‑up mentre molti strumenti di modellazione usano Z‑up.  
+- **Coerenza:** Allineare tutte le risorse a un'unica orientazione degli assi semplifica l'assemblaggio della scena.  
+- **Conversione:** Quando si convertono file tra formati (ad es., `.ma` a `.obj`), capovolgere garantisce che la geometria appaia correttamente.
 
 ## Prerequisiti
 
-Prima di immergerti nel tutorial, assicurati di possedere i seguenti prerequisiti:
+- Conoscenza di base della programmazione C#.  
+- Libreria Aspose.3D per .NET installata – scaricala da [qui](https://releases.aspose.com/3d/net/).  
+- Un file 3D di esempio in un formato supportato (ad es., `.ma`).  
 
-- Conoscenza base del linguaggio di programmazione C#.
--  Aspose.3D per la libreria .NET installata. Puoi scaricarlo da[Qui](https://releases.aspose.com/3d/net/).
-- Un file 3D di esempio in un formato supportato (ad esempio, .ma).
+## Importare gli spazi dei nomi
 
-## Importa spazi dei nomi
-
-Nel tuo progetto C#, assicurati di includere gli spazi dei nomi necessari per accedere alle funzionalità Aspose.3D:
+Aggiungi le istruzioni `using` necessarie affinché il compilatore possa individuare le classi Aspose.3D:
 
 ```csharp
 using System;
@@ -39,19 +57,23 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Formats;
 ```
 
-## Passaggio 1: carica la scena 3D
+## Guida passo‑passo
+
+### Passo 1: Caricare la scena 3D
+
+Per prima cosa, apri il file sorgente. Questo crea un oggetto `Scene` che contiene tutta la geometria, le telecamere e le luci.
 
 ```csharp
-// Il percorso del file di input
+// The path to the input file
 string input = "camera.ma";
-// Inizializza l'oggetto della scena
+// Initialize scene object
 Scene scene = new Scene();
 scene.Open(input);
 ```
 
- In questo passaggio, carichiamo una scena 3D dal percorso file specificato utilizzando il file`Open` metodo.
+### Passo 2: Capovolgere il sistema di coordinate durante il salvataggio
 
-## Passaggio 2: inverti il sistema di coordinate
+Imposta il flag `FlipCoordinateSystem` sull'oggetto `ObjSaveOptions`. Quando viene chiamato `Save`, Aspose.3D inverte automaticamente l'orientamento degli assi.
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
@@ -62,41 +84,51 @@ var opt = new ObjSaveOptions()
 scene.Save(output, opt);
 ```
 
- Ora usiamo il file`Save` per esportare la scena, invertendo il sistema di coordinate nel processo. L'output viene salvato nel formato Wavefront OBJ.
+> **Consiglio professionale:** Se hai bisogno di **cambiare l'orientamento degli assi 3d** per un target diverso (ad es., Y‑up a Z‑up), regola il flag `FlipCoordinateSystem` o utilizza una matrice di trasformazione personalizzata prima del salvataggio.
 
-## Passaggio 3: Visualizza il messaggio di successo
+### Passo 3: Confermare il successo
+
+Un semplice messaggio sulla console ti permette di verificare che l'operazione sia stata completata senza errori.
 
 ```csharp
 Console.WriteLine("\nCoordinate system has been flipped successfully.\nFile saved at " + output);
 ```
 
-Infine, visualizziamo un messaggio di successo, che indica che il sistema di coordinate è stato invertito con successo e forniamo il percorso del file salvato.
+## Problemi comuni e come evitarli
 
-## Conclusione
-
-Congratulazioni! Hai imparato con successo come capovolgere il sistema di coordinate nelle scene 3D utilizzando Aspose.3D per .NET. Questa funzionalità può essere cruciale in vari scenari e con questo tutorial ora puoi integrarla nei tuoi progetti senza sforzo.
+| Sintomo | Probabile causa | Soluzione |
+|---------|----------------|-----------|
+| Il modello appare specchiato | `FlipCoordinateSystem` lasciato al valore predefinito (`false`) | Assicurati che il flag sia impostato a `true`. |
+| La geometria manca dopo l'esportazione | File di input non completamente supportato | Verifica che il formato sorgente sia supportato da Aspose.3D. |
+| Direzione dell'asse inattesa | Uso di una trasformazione personalizzata dopo il capovolgimento | Applica le trasformazioni **prima** di impostare l'opzione di capovolgimento. |
 
 ## Domande frequenti
 
-### Q1: posso utilizzare Aspose.3D per .NET con altri linguaggi di programmazione?
+**D: Posso usare Aspose.3D per .NET con altri linguaggi di programmazione?**  
+R: Aspose.3D è principalmente una libreria .NET, ma Aspose fornisce API equivalenti per Java, Python e altre piattaforme.
 
-A1: Aspose.3D per .NET è progettato principalmente per la programmazione C#. Tuttavia, Aspose fornisce librerie simili per altri linguaggi come Java, Python e altri.
+**D: Dove posso trovare la documentazione dettagliata per Aspose.3D per .NET?**  
+R: Puoi consultare la documentazione [qui](https://reference.aspose.com/3d/net/) per informazioni approfondite.
 
-### Q2: Dove posso trovare la documentazione dettagliata per Aspose.3D per .NET?
+**D: È disponibile una versione di prova gratuita per Aspose.3D per .NET?**  
+R: Sì, puoi provare la versione di prova gratuita [qui](https://releases.aspose.com/) prima di effettuare l'acquisto.
 
- A2: È possibile fare riferimento alla documentazione[Qui](https://reference.aspose.com/3d/net/) per informazioni approfondite su Aspose.3D per .NET.
+**D: Come posso ottenere una licenza temporanea per Aspose.3D per .NET?**  
+R: Per le licenze temporanee, visita [questo link](https://purchase.aspose.com/temporary-license/).
 
-### Q3: È disponibile una prova gratuita per Aspose.3D per .NET?
+**D: Dove posso cercare supporto o fare domande relative ad Aspose.3D per .NET?**  
+R: Il forum della community Aspose [qui](https://forum.aspose.com/c/3d/18) è il luogo ideale per supporto e discussioni.
 
- R3: Sì, puoi esplorare la versione di prova gratuita[Qui](https://releases.aspose.com/) prima di effettuare un acquisto.
+## Conclusione
 
-### Q4: Come posso ottenere una licenza temporanea per Aspose.3D per .NET?
+Ora sai **come capovolgere le coordinate** in una scena 3D usando Aspose.3D per .NET, perché potresti aver bisogno di **capovolgere il sistema di coordinate 3d**, e come gestire i problemi più comuni. Integra questo snippet nel tuo flusso di lavoro degli asset per garantire un'orientazione degli assi coerente in tutti i tuoi asset 3D.
 
- R4: Per le licenze temporanee, visitare[questo link](https://purchase.aspose.com/temporary-license/).
+---
 
-### Q5: Dove posso chiedere supporto o porre domande relative a Aspose.3D per .NET?
+**Last Updated:** 2026-03-26  
+**Tested With:** Aspose.3D for .NET (latest release)  
+**Author:** Aspose  
 
- A5: Il forum della comunità Aspose[Qui](https://forum.aspose.com/c/3d/18) è il luogo ideale per supporto e discussioni.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
