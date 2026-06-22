@@ -1,13 +1,17 @@
 ---
-date: 2025-12-05
-description: Pelajari cara menginisialisasi adegan 3D Java dan mengonfigurasi kamera
-  target untuk animasi 3D menggunakan Aspose.3D. Panduan langkah demi langkah dengan
-  contoh kode.
-linktitle: How to Initialize 3D Scene Java and Set Up Target Camera for 3D Animations
-  | Aspose.3D Tutorial
+date: 2026-04-05
+description: Pelajari cara memposisikan kamera dan menginisialisasi adegan 3D di Java,
+  mengonfigurasi target kamera, serta menganimasikan kamera menggunakan Aspose.3D.
+  Panduan langkah demi langkah dengan contoh kode.
+keywords:
+- how to position camera
+- how to animate camera
+- configure camera target
+linktitle: Cara Memposisikan Kamera dan Menginisialisasi Adegan 3D di Java | Tutorial
+  Aspose.3D
 second_title: Aspose.3D Java API
-title: Cara Menginisialisasi Adegan 3D Java dan Menyiapkan Kamera Target untuk Animasi
-  3D | Tutorial Aspose.3D
+title: Cara Memposisikan Kamera dan Menginisialisasi Adegan 3D di Java | Tutorial
+  Aspose.3D
 url: /id/java/animations/set-up-target-camera/
 weight: 11
 ---
@@ -16,50 +20,56 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menyiapkan Kamera Target untuk Animasi 3D di Java | Tutorial Aspose.3D
+# Cara Memposisikan Kamera dan Menginisialisasi Adegan 3D di Java | Tutorial Aspose.3D
 
 ## Pendahuluan
 
-Selamat datang! Pada tutorial ini Anda akan **menginisialisasi scene 3D di Java** dengan Aspose.3D dan kemudian menambahkan kamera target sehingga Anda dapat menganimasikan model dengan kontrol penuh. Baik Anda sedang membuat game, visualizer produk, atau simulasi ilmiah, kamera yang diposisikan dengan tepat sangat penting untuk memberikan pengalaman visual yang menarik.
+Selamat datang! Dalam tutorial ini Anda akan belajar **cara memposisikan kamera** sambil **menginisialisasi adegan 3D di Java** dengan Aspose.3D dan kemudian melampirkan kamera target sehingga Anda dapat menganimasikan model Anda dengan kontrol penuh. Baik Anda sedang membuat game, visualisasi produk, atau simulasi ilmiah, menguasai penempatan kamera adalah kunci untuk memberikan pengalaman penonton yang menarik.
 
 ## Jawaban Cepat
-- **Apa langkah pertama?** Inisialisasi scene 3D menggunakan `new Scene()`.  
+- **Apa langkah pertama?** Inisialisasi adegan 3D menggunakan `new Scene()`.  
 - **Kelas mana yang mewakili kamera?** `com.aspose.threed.Camera`.  
 - **Bagaimana cara mengarahkan kamera ke target?** Gunakan `Camera.setTarget(Node)`.  
 - **Format file apa yang digunakan dalam contoh?** DISCREET3DS (`.3ds`).  
-- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis cukup untuk pengujian; lisensi komersial diperlukan untuk produksi.
 
-## Apa arti “initialize 3d scene java”?
+## Cara Memposisikan Kamera dan Menginisialisasi Adegan 3D di Java
 
-Menginisialisasi scene 3D di Java membuat kontainer root yang menampung semua objek—mesh, lampu, kamera, dan transformasi. Ini memberi Anda sandbox di mana Anda dapat menambahkan, memindahkan, dan menganimasikan elemen sebelum mengekspornya ke format file pilihan Anda.
+Memposisikan kamera dengan benar seringkali menjadi keputusan visual pertama yang Anda buat dalam proyek 3‑D apa pun. Dengan menggabungkan **posisi kamera** dengan inisialisasi adegan, Anda menciptakan fondasi yang solid untuk animasi, pencahayaan, dan interaksi selanjutnya.
+
+### Apa arti “initialize 3d scene java”?
+Menginisialisasi adegan 3D di Java membuat kontainer akar yang menampung semua objek—mesh, cahaya, kamera, dan transformasi. Ini memberi Anda sandbox di mana Anda dapat menambahkan, memindahkan, dan menganimasikan elemen sebelum mengekspornya ke format file pilihan Anda.
 
 ## Mengapa mengatur kamera target?
-
-Kamera target secara otomatis mengorientasikan dirinya ke node tertentu (“target”). Ini berguna untuk:
+Kamera target secara otomatis mengorientasikan dirinya ke node tertentu ("target"). Ini berguna untuk:
 
 - Menjaga model tetap terpusat saat kamera bergerak mengelilinginya.  
 - Membuat animasi orbit tanpa harus menghitung matriks rotasi secara manual.  
 - Menyederhanakan kontrol UI bagi pengguna akhir yang perlu memfokuskan pada objek tertentu.
 
+## Mengonfigurasi Target Kamera
+
+Langkah **mengonfigurasi target kamera** memberi tahu kamera node mana yang harus dilihat. Dengan mengonfigurasi target kamera, Anda menghindari perhitungan look‑at manual dan memastikan kamera selalu fokus pada objek yang diinginkan.
+
 ## Prasyarat
 
-Sebelum kita masuk ke tutorial, pastikan Anda telah menyiapkan prasyarat berikut:
+Sebelum kita mulai tutorial, pastikan Anda memiliki prasyarat berikut:
 
 - Pengetahuan dasar pemrograman Java.  
 - Java Development Kit (JDK) terpasang di mesin Anda.  
-- Pustaka Aspose.3D telah diunduh dan ditambahkan ke proyek Anda. Anda dapat mengunduhnya [di sini](https://releases.aspose.com/3d/java/).
+- Perpustakaan Aspose.3D diunduh dan ditambahkan ke proyek Anda. Anda dapat mengunduhnya [di sini](https://releases.aspose.com/3d/java/).
 
 ## Impor Paket
 
-Mulailah dengan mengimpor paket yang diperlukan untuk memastikan eksekusi kode berjalan lancar. Di proyek Java Anda, sertakan yang berikut:
+Mulailah dengan mengimpor paket yang diperlukan untuk memastikan eksekusi kode yang lancar. Dalam proyek Java Anda, sertakan yang berikut:
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## Inisialisasi 3D Scene Java
+## Inisialisasi Adegan 3D di Java
 
-Fondasi dari setiap alur kerja 3D adalah objek scene. Di sini kita membuatnya dan menyiapkan direktori untuk file output.
+Fondasi dari setiap alur kerja 3D adalah objek scene. Di sini kami membuatnya dan menyiapkan direktori untuk file output.
 
 ```java
 // The path to the documents directory.
@@ -79,7 +89,7 @@ Node cameraNode = scene.getRootNode().createChildNode("camera", new Camera());
 
 ## Langkah 2: Atur Translasi Node Kamera
 
-Sesuaikan translasi node kamera untuk memposisikannya secara tepat di dalam ruang 3D.
+Sesuaikan translasi node kamera untuk memposisikannya secara tepat dalam ruang 3D.
 
 ```java
 // Set camera node translation
@@ -88,7 +98,7 @@ cameraNode.getTransform().setTranslation(new Vector3(100, 20, 0));
 
 ## Langkah 3: Atur Target Kamera
 
-Tentukan target untuk kamera dengan membuat node anak untuk node root. Kamera akan otomatis melihat ke node ini.
+Tentukan target untuk kamera dengan membuat node anak untuk node akar. Kamera akan secara otomatis melihat node ini.
 
 ```java
 ((Camera)cameraNode.getEntity()).setTarget(scene.getRootNode().createChildNode("target"));
@@ -96,43 +106,43 @@ Tentukan target untuk kamera dengan membuat node anak untuk node root. Kamera ak
 
 ## Langkah 4: Simpan Scene
 
-Simpan scene yang telah dikonfigurasi ke file dalam format yang diinginkan (pada contoh ini, DISCREET3DS).
+Simpan scene yang telah dikonfigurasi ke file dalam format yang diinginkan (dalam contoh ini, DISCREET3DS).
 
 ```java
 MyDir = MyDir + "camera-test.3ds";
 scene.save(MyDir, FileFormat.DISCREET3DS);
 ```
 
+## Cara Menganimasikan Kamera
+
+Meskipun tutorial ini berfokus pada pemposisian, node kamera yang sama dapat dianimasikan nanti menggunakan API animasi Aspose.3D. Misalnya, Anda dapat membuat animasi rotasi yang mengorbit node target, atau memindahkan kamera sepanjang jalur spline. Kuncinya adalah setelah **kamera target** diatur, animasi hanya perlu memodifikasi transformasi node kamera – tampilan akan selalu terkunci pada target.
+
 ## Kesalahan Umum & Tips
 
-- **Lupa menambahkan node target?** Kamera akan default menghadap sumbu Z‑negatif, yang mungkin tidak memberikan tampilan yang diharapkan. Selalu buat node target atau atur arah look‑at secara manual.  
-- **Path file tidak benar?** Pastikan `MyDir` diakhiri dengan pemisah path (`/` atau `\\`) sebelum menambahkan nama file.  
-- **Lisensi belum diatur?** Menjalankan kode tanpa lisensi yang valid akan menambahkan watermark pada file yang diekspor.
-
-## Kesimpulan
-
-Selamat! Anda telah berhasil **menginisialisasi scene 3D di Java** dan menyiapkan kamera target untuk animasi 3D menggunakan Aspose.3D. Jangan ragu untuk menjelajahi fitur tambahan—seperti pencahayaan, impor mesh, dan kurva animasi—untuk memperkaya proyek 3D Anda.
+- **Lupa menambahkan node target?** Kamera akan secara default melihat sepanjang sumbu Z‑negatif, yang mungkin tidak memberikan tampilan yang diharapkan. Selalu buat node target atau atur arah look‑at secara manual.  
+- **Path file tidak tepat?** Pastikan `MyDir` diakhiri dengan pemisah path (`/` atau `\\`) sebelum menambahkan nama file.  
+- **Lisensi tidak diatur?** Menjalankan kode tanpa lisensi yang valid akan menambahkan watermark pada file yang diekspor.
 
 ## Pertanyaan yang Sering Diajukan
 
-**T1: Bagaimana cara mengunduh Aspose.3D untuk Java?**  
-A: Anda dapat mengunduh pustaka dari [halaman unduhan Aspose.3D Java](https://releases.aspose.com/3d/java/).
+**Q1: Bagaimana cara mengunduh Aspose.3D untuk Java?**  
+A: Anda dapat mengunduh perpustakaan dari [halaman unduhan Aspose.3D Java](https://releases.aspose.com/3d/java/).
 
-**T2: Di mana saya dapat menemukan dokumentasi untuk Aspose.3D?**  
+**Q2: Di mana saya dapat menemukan dokumentasi untuk Aspose.3D?**  
 A: Lihat [dokumentasi Aspose.3D Java](https://reference.aspose.com/3d/java/) untuk panduan lengkap.
 
-**T3: Apakah tersedia versi percobaan gratis?**  
+**Q3: Apakah tersedia versi percobaan gratis?**  
 A: Ya, Anda dapat menjelajahi versi percobaan gratis Aspose.3D [di sini](https://releases.aspose.com/).
 
-**T4: Butuh dukungan atau memiliki pertanyaan?**  
+**Q4: Membutuhkan dukungan atau memiliki pertanyaan?**  
 A: Kunjungi [forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk mendapatkan bantuan dari komunitas dan para ahli.
 
-**T5: Bagaimana saya dapat memperoleh lisensi sementara?**  
+**Q5: Bagaimana cara mendapatkan lisensi sementara?**  
 A: Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
-**Last Updated:** 2025-12-05  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-04-05  
+**Diuji Dengan:** Aspose.3D for Java 24.11  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
