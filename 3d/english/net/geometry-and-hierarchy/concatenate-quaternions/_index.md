@@ -1,5 +1,5 @@
 ---
-title: Euler to Quaternion C#: Concatenate Quaternions with Aspose.3D
+title: Euler to Quaternion C# - Concatenate Quaternions with Aspose.3D
 linktitle: How to Concatenate Quaternions
 second_title: Aspose.3D .NET API
 description: Learn how to convert Euler to quaternion C# and concatenate quaternions using Aspose.3D for .NET, then save the scene as FBX while avoiding gimbal lock.
