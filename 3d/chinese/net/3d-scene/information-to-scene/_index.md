@@ -112,16 +112,16 @@ Console.WriteLine("\nAsset information added successfully to Scene.\nFile saved 
 答：Aspose.3D 主要支持 .NET 语言，但您可以探索与其他语言的互操作选项。
 
 **问：Aspose.3D for .NET 是否提供免费试用？**  
-答：是的，您可以在[此处](https://releases.aspose.com/)获取免费试用。
+答：是的，您可以在[此处](https://releases.aspose.com/) 获取免费试用。
 
 **问：如何获取 Aspose.3D 相关查询的支持？**  
 答：访问 [Aspose.3D 论坛](https://forum.aspose.com/c/3d/18) 获取社区帮助和支持。
 
 **问：我可以为 Aspose.3D for .NET 购买临时许可证吗？**  
-答：是的，您可以在[此处](https://purchase.aspose.com/temporary-license/)获取临时许可证。
+答：是的，您可以在[此处](https://purchase.aspose.com/temporary-license/) 获取临时许可证。
 
 **问：在哪里可以找到 Aspose.3D for .NET 的详细文档？**  
-答：请参阅[文档](https://reference.aspose.com/3d/net/)获取深入信息。
+答：请参阅[文档](https://reference.aspose.com/3d/net/) 获取深入信息。
 
 ---
 

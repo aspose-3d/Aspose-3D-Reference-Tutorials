@@ -125,13 +125,13 @@ Chắc chắn! Aspose.3D cho .NET cung cấp một API cấp cao trừu tượng
 Có, mỗi thể hiện `Cylinder` có thuộc tính `ShearBottom` riêng, vì vậy bạn có thể gán góc duy nhất cho từng đối tượng.
 
 ### Có phiên bản dùng thử không?
-Có, bạn có thể khám phá bản dùng thử miễn phí **[tại đây](https://releases.aspose.com/)**.
+Có, bạn có thể khám phá bản dùng thử miễn phí **[tại đây](https://releases.aspose.com/) **.
 
 ### Tôi có thể tìm hỗ trợ bổ sung ở đâu?
-Truy cập **[diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18)** để nhận trợ giúp từ cộng đồng, mẫu mã và thảo luận.
+Truy cập **[diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18) ** để nhận trợ giúp từ cộng đồng, mẫu mã và thảo luận.
 
 ### Làm thế nào để tôi có được giấy phép tạm thời?
-Nhận giấy phép tạm thời **[tại đây](https://purchase.aspose.com/temporary-license/)**.
+Nhận giấy phép tạm thời **[tại đây](https://purchase.aspose.com/temporary-license/) **.
 
 **Câu hỏi & Trả lời bổ sung**
 

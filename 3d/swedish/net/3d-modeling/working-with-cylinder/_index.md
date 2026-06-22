@@ -125,13 +125,13 @@ Absolut! Aspose.3D för .NET erbjuder ett hög‑nivå API som abstraherar de ma
 Ja, varje `Cylinder`‑instans har sin egen `ShearBottom`‑egenskap, så du kan tilldela en unik vinkel till varje objekt.
 
 ### Finns det en provversion tillgänglig?
-Ja, du kan utforska den kostnadsfria provversionen **[här](https://releases.aspose.com/)**.
+Ja, du kan utforska den kostnadsfria provversionen **[här](https://releases.aspose.com/) **.
 
 ### Var kan jag hitta ytterligare support?
-Besök **[Aspose.3D‑forumet](https://forum.aspose.com/c/3d/18)** för gemenskapsstöd, kodexempel och diskussioner.
+Besök **[Aspose.3D‑forumet](https://forum.aspose.com/c/3d/18) ** för gemenskapsstöd, kodexempel och diskussioner.
 
 ### Hur kan jag skaffa en tillfällig licens?
-Skaffa din tillfälliga licens **[här](https://purchase.aspose.com/temporary-license/)**.
+Skaffa din tillfälliga licens **[här](https://purchase.aspose.com/temporary-license/) **.
 
 **Ytterligare Q&A**
 

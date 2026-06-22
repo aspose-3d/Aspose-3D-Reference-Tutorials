@@ -17,38 +17,38 @@ weight: 10
 
 ## Introduction
 
-Bienvenue dans le monde passionnant de la modélisation 3D avec Aspose.3D pour .NET ! Dans ce tutoriel, vous apprendrez **comment créer des primitives de boîte 3D**, ajouter un cylindre et exporter toute la scène en FBX. Que vous construisiez un prototype rapide ou une chaîne de production prête, ces étapes vous offrent une base solide pour travailler avec la géométrie 3D en .NET.
+Bienvenue dans le monde passionnant de la modélisation 3D avec Aspose.3D pour .NET ! Dans ce tutoriel, vous apprendrez **comment créer des primitives de boîte 3D**, ajouter un cylindre et exporter toute la scène en FBX. Que vous construisiez un prototype rapide ou une chaîne de production prête, ces étapes vous offrent une base solide pour travailler avec la géométrie 3D en .NET.
 
-## Quick Answers
-- **Que couvre ce tutoriel ?** Création d’une boîte 3D, d’un cylindre 3D et sauvegarde de la scène au format FBX.  
-- **Quelle bibliothèque est requise ?** Aspose.3D pour .NET (télécharger depuis le site officiel).  
-- **Combien de temps prend l’implémentation ?** Environ 10‑15 minutes pour une scène basique.  
-- **Puis-je personnaliser les dimensions ?** Oui – les constructeurs Box et Cylinder acceptent des paramètres de taille.  
+## Réponses rapides
+- **Que couvre ce tutoriel ?** Création d'une boîte 3D, d'un cylindre 3D et sauvegarde de la scène au format FBX.
+- **Quelle bibliothèque est requise ?** Aspose.3D pour .NET (télécharger depuis le site officiel).
+- **Combien de temps prend l’implémentation ?** Environ 10‑15 minutes pour une scène basique.
+- **Puis-je personnaliser les dimensions ?** Oui – les constructeurs Box et Cylindre acceptent les paramètres de taille.
 - **Une licence est‑elle nécessaire en production ?** Une licence valide d’Aspose.3D est requise pour les builds non‑essai.
 
-## Qu’est‑ce que « create 3d box » ?
+## Qu’est‑ce que « créer une boîte 3D » ?
 
-Créer une boîte 3D consiste à générer un cube simple ou un prisme rectangulaire qui peut servir de bloc de construction pour des modèles plus complexes. Dans Aspose.3D, la classe `Box` représente cette primitive, et vous pouvez l’ajouter à une scène avec une seule ligne de code.
+Créer une boîte 3D consiste à générer un cube simple ou un prisme rectangulaire qui peut servir de bloc de construction pour des modèles plus complexes. Dans Aspose.3D, la classe `Box` représente cette primitive, et vous pouvez l'ajouter à une scène avec une seule ligne de code.
 
-## Pourquoi utiliser Aspose.3D pour cette tâche ?
+## Pourquoi utiliser Aspose.3D pour cette tâche ?
 
-- **API .NET pure :** Pas de dépendances natives, parfait pour les projets C# et VB.NET.  
-- **Large prise en charge des formats :** Exportation vers FBX, OBJ, STL et bien d’autres.  
-- **Primitives de haut niveau :** Box, Cylinder, Sphere, etc., vous permettent de vous concentrer sur la logique plutôt que sur la construction de maillages bas‑niveau.  
+- **API .NET pure :** Pas de dépendances natives, parfait pour les projets C# et VB.NET.
+- **Grande prise en charge des formats :** Exportation vers FBX, OBJ, STL et bien d’autres.
+- **Primitives de haut niveau :** Box, Cylindre, Sphère, etc., vous permettent de vous concentrer sur la logique plutôt que sur la construction de maillages bas‑niveau.
 - **Optimisé pour les performances :** Gère efficacement les scènes volumineuses.
 
-## Prerequisites
+## Prérequis
 
-Avant de commencer, assurez‑vous d’avoir :
+Avant de commencer, assurez-vous d’avoir :
 
-- Aspose.3D pour .NET : téléchargez et installez la bibliothèque depuis le [lien de téléchargement](https://releases.aspose.com/3d/net/).  
-- Un environnement de développement .NET (Visual Studio, Rider ou VS Code) compatible avec la version d’Aspose.3D que vous avez installée.
+- Aspose.3D pour .NET : téléchargez et installez la bibliothèque depuis le [lien de téléchargement](https://releases.aspose.com/3d/net/).
+- Un environnement de développement .NET (Visual Studio, Rider ou VS Code) compatible avec la version d'Aspose.3D que vous avez installée.
 
 Maintenant que vous avez l’essentiel, commençons à construire la scène étape par étape.
 
-## Import Namespaces
+## Importer des espaces de noms
 
-Importez les espaces de noms nécessaires pour accéder aux fonctionnalités fournies par Aspose.3D :
+Importez les espaces de noms nécessaires pour accéder aux fonctionnalités fournies par Aspose.3D :
 
 ```csharp
 using System;
@@ -62,9 +62,7 @@ using Aspose.ThreeD.Formats;
 
 Avec ces espaces de noms en place, vous êtes prêt à exploiter la puissance d’Aspose.3D dans votre application .NET.
 
-## Step 1: Initialize a Scene Object
-
-### Étape 1 : Initialiser un objet Scene
+## Étape 1 : Initialiser un objet Scene
 
 ```csharp
 // Initialize a Scene object
@@ -73,9 +71,7 @@ Scene scene = new Scene();
 
 L’objet `Scene` sert de toile où toutes les entités 3D résideront.
 
-## Step 2: Create a Box Model
-
-### Étape 2 : Créer un modèle de boîte
+## Étape 2 : Créer un modèle de boîte
 
 ```csharp
 // Create a Box model
@@ -84,9 +80,7 @@ scene.RootNode.CreateChildNode("box", new Box());
 
 Cette ligne ajoute une primitive **boîte 3D** à la racine de votre scène. Vous pouvez ensuite ajuster sa largeur, hauteur et profondeur en passant des paramètres au constructeur `Box`.
 
-## Step 3: Create a Cylinder Model
-
-### Étape 3 : Créer un modèle de cylindre
+## Étape 3 : Créer un modèle de cylindre
 
 ```csharp
 // Create a Cylinder model
@@ -95,9 +89,7 @@ scene.RootNode.CreateChildNode("cylinder", new Cylinder());
 
 Un cylindre complète la boîte et montre à quel point il est facile de mélanger différentes primitives.
 
-## Step 4: Save Drawing in FBX Format
-
-### Étape 4 : Enregistrer le dessin au format FBX
+## Étape 4 : Enregistrer le dessin au format FBX
 
 ```csharp
 // Save drawing in the FBX format
@@ -107,9 +99,7 @@ scene.Save(output, FileFormat.FBX7500ASCII);
 
 Ici nous **convertissons le modèle en FBX** en enregistrant toute la scène dans un fichier FBX. N’hésitez pas à modifier le chemin et le nom du fichier selon la structure de votre projet.
 
-## Step 5: Display Success Message
-
-### Étape 5 : Afficher le message de succès
+## Étape 5 : Afficher le message de succès
 
 ```csharp
 // Display success message
@@ -147,13 +137,6 @@ Félicitations ! Vous avez créé avec succès les primitives **create 3d box*
 ### Q5 : Existe‑t‑il des tutoriels d’exemple ?
 **R5 :** Oui, explorez davantage de tutoriels et d’exemples dans la [documentation](https://reference.aspose.com/3d/net/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-03-26  
@@ -161,3 +144,10 @@ Félicitations ! Vous avez créé avec succès les primitives **create 3d box*
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

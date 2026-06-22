@@ -126,13 +126,13 @@ scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
 Sí, cada instancia de `Cylinder` tiene su propia propiedad `ShearBottom`, por lo que puedes asignar un ángulo único a cada objeto.
 
 ### ¿Hay una versión de prueba disponible?
-Sí, puedes explorar la versión de prueba gratuita **[aquí](https://releases.aspose.com/)**.
+Sí, puedes explorar la versión de prueba gratuita **[aquí](https://releases.aspose.com/) **.
 
 ### ¿Dónde puedo encontrar soporte adicional?
-Visita el **[foro de Aspose.3D](https://forum.aspose.com/c/3d/18)** para obtener ayuda de la comunidad, ejemplos de código y discusión.
+Visita el **[foro de Aspose.3D](https://forum.aspose.com/c/3d/18) ** para obtener ayuda de la comunidad, ejemplos de código y discusión.
 
 ### ¿Cómo puedo obtener una licencia temporal?
-Obtén tu licencia temporal **[aquí](https://purchase.aspose.com/temporary-license/)**.
+Obtén tu licencia temporal **[aquí](https://purchase.aspose.com/temporary-license/) **.
 
 **Preguntas y respuestas adicionales**
 

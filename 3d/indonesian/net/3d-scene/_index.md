@@ -14,36 +14,36 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Menyimpan Mesh dalam Adegan 3D dengan Aspose.3D
+# Cara menyimpan Mesh dalam adegan 3D dengan Aspose.3D
 
-## Introduction
+## Perkenalan
 
-Selamat datang! Dalam panduan ini Anda akan menemukan **how to save mesh** file dan memanipulasi adegan 3D menggunakan pustaka Aspose.3D untuk .NET yang kuat. Apakah Anda perlu mengekspor mesh, membalik sistem koordinat, atau menyesuaikan orientasi bidang, kami akan memandu Anda melalui setiap konsep dengan penjelasan yang jelas, langkah demi langkah. Pada akhir panduan, Anda akan memiliki dasar yang kuat untuk mengintegrasikan teknik ini ke dalam aplikasi dunia nyata.
+Selamat datang! Dalam panduan ini Anda akan menemukan **cara menyimpan mesh** file dan memanipulasi adegan 3D menggunakan pustaka Aspose.3D untuk .NET yang kuat. Apakah Anda perlu mengekspor mesh, membalik sistem koordinat, atau menyesuaikan orientasi bidang, kami akan memandu Anda melalui setiap konsep dengan penjelasan yang jelas, langkah demi langkah. Pada akhir panduan, Anda akan memiliki dasar yang kuat untuk mengintegrasikan teknik ini ke dalam aplikasi dunia nyata.
 
-## Quick Answers
-- **Apa cara utama untuk menyimpan mesh?** Use Aspose.3D’s `Scene.Save` method with the desired format.  
-- **Apakah saya dapat membalik sistem koordinat sebuah adegan?** Yes – call `Scene.FlipCoordinateSystem()` or manually adjust node transforms.  
-- **Apakah mengubah orientasi bidang didukung?** Absolutely; modify the plane’s normal vector or apply a rotation matrix.  
-- **Apakah saya memerlukan lisensi untuk Aspose.3D .NET?** A free trial works for development; a commercial license is required for production.  
-- **Versi .NET mana yang kompatibel?** Aspose.3D supports .NET Framework 4.6+, .NET Core 3.1+, and .NET 5/6+.
+## Jawaban Cepat
+- **Apa cara utama untuk menyimpan mesh?** Gunakan metode `Scene.Save` Aspose.3D dengan format yang diinginkan.
+- **Apakah saya dapat membalik sistem koordinat sebuah adegan?** Ya – panggil `Scene.FlipCoordinateSystem()` atau sesuaikan transformasi node secara manual.
+- **Apakah mengubah orientasi bidang didukung?** Tentu saja; memodifikasi vektor normal bidang atau menerapkan matriks rotasi.
+- **Apakah saya memerlukan lisensi untuk Aspose.3D .NET?** Uji coba gratis berfungsi untuk pengembangan; izin komersial diperlukan untuk produksi.
+- **Versi .NET mana yang kompatibel?** Aspose.3D mendukung .NET Framework 4.6+, .NET Core 3.1+, dan .NET 5/6+.
 
 ## Apa itu “how to save mesh” dalam konteks Aspose.3D?
 
-Menyimpan mesh berarti mengekspor data geometrik dari model 3D (vertices, faces, textures, dll.) ke dalam format file seperti OBJ, STL, atau format biner khusus. Aspose.3D menyediakan API terpadu yang menyembunyikan detail format file, memungkinkan Anda fokus pada logika aplikasi Anda.
+menyimpan mesh berarti mengekspor data geometrik dari model 3D (simpul, wajah, tekstur, dll.) ke dalam format file seperti OBJ, STL, atau format biner khusus. Aspose.3D menyediakan API terintegrasi yang menyembunyikan file format detail, memungkinkan Anda fokus pada logika aplikasi Anda.
 
 ## Mengapa membalik sistem koordinat atau mengubah orientasi bidang?
 
-Membalik sistem koordinat sangat penting saat mengintegrasikan aset dari alat yang menggunakan konvensi sumbu berbeda (misalnya Y‑up vs. Z‑up). Menyesuaikan orientasi bidang membantu Anda menyelaraskan objek untuk simulasi fisika, deteksi tabrakan, atau pipeline rendering khusus. Kedua teknik memberi Anda kontrol penuh atas bagaimana konten 3D Anda muncul dalam adegan akhir.
+Membalik sistem koordinat sangat penting saat mengintegrasikan aset dari alat yang menggunakan konvensi sumbu berbeda (misalnya Y‑up vs. Z‑up). Menyesuaikan orientasi bidang membantu Anda menyelaraskan objek untuk simulasi fisika, deteksi lokasi, atau pipeline rendering khusus. Teknik kedua memberi Anda kontrol penuh atas bagaimana konten 3D Anda muncul dalam adegan akhir.
 
-## Prerequisites
-- Visual Studio 2022 atau lebih baru (atau IDE C# apa pun yang Anda sukai)  
-- .NET 6 SDK (atau .NET Framework 4.6+)  
-- Paket NuGet Aspose.3D untuk .NET terpasang (`Install-Package Aspose.3D`)  
-- Pemahaman dasar tentang C# dan konsep 3D (meshes, nodes, transforms)
+## Prasyarat
+- Visual Studio 2022 atau lebih baru (atau IDE C# apa pun yang Anda suka)
+- .NET 6 SDK (atau .NET Framework 4.6+)
+- Paket NuGet Aspose.3D untuk .NET terpasang (`Install-Package Aspose.3D`)
+- Pemahaman dasar tentang C# dan konsep 3D (meshes, node, transforms)
 
-## Detailed Tutorials
+## Tutorial Lengkap
 
-### Membalik Sistem Koordinat dalam Adegan 3D
+### Membalikkan Sistem Koordinat dalam Adegan 3D
 Kuasi teknik membalik sistem koordinat dengan Aspose.3D untuk .NET. Panduan langkah demi langkah kami memastikan Anda menguasai keterampilan penting ini dengan mudah. Transformasikan adegan 3D Anda dengan perspektif baru, menambah kedalaman dan kreativitas pada proyek Anda.
 
 [Read the tutorial: Flipping Coordinate System in 3D Scenes](./flip-coordinate-system/)
@@ -63,36 +63,36 @@ Menyelami tutorial Aspose.3D untuk .NET tentang menetapkan properti tiga‑dimen
 
 [Read the tutorial: Setting Three-Dimensional Properties in 3D Scenes](./set-3d-properties/)
 
-## Common Pitfalls & Tips
-- **Pitfall:** Forgetting to call `Scene.Update()` after modifying node transforms.  
-  **Tip:** Always invoke `Scene.Update()` to recalculate bounding boxes and ensure the changes are reflected.  
-- **Pitfall:** Mixing up left‑handed and right‑handed coordinate systems.  
-  **Tip:** Verify the source asset’s axis convention before applying a flip; use `Scene.FlipCoordinateSystem()` only when needed.  
-- **Pitfall:** Saving meshes without specifying a format leads to default OBJ output.  
-  **Tip:** Explicitly pass the desired format (e.g., `scene.Save("model.stl", FileFormat.STL)`).  
+## Kesalahan Umum & Tips
+- **Kesalahan:** Lupa memanggil `Scene.Update()` setelah memodifikasi transformasi node.
+**Tips:** Selalu panggil `Scene.Update()` untuk menghitung ulang bounding box dan memastikan perubahan tercermin.
+- **Kesalahan:** Mencampuradukkan sistem koordinat tangan kiri dan tangan kanan.
+**Tips:** Verifikasi konvensi sumbu aset sumber sebelum menerapkan pembalikan; gunakan `Scene.FlipCoordinateSystem()` hanya jika diperlukan.
+- **Kesalahan:** Menyimpan mesh tanpa menentukan format akan menghasilkan output OBJ default.
+**Tips:** Berikan format yang diinginkan secara eksplisit (misalnya, `scene.Save("model.stl", FileFormat.STL)`).
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**Q: Can I export a mesh to both OBJ and STL in a single run?**  
-A: Yes. Call `scene.Save` twice with different file names and formats.
+**T: Dapatkah saya mengekspor mesh ke OBJ dan STL dalam satu kali proses?**
+J: Ya. Panggil `scene.Save` dua kali dengan nama dan format file yang berbeda.
 
-**Q: Does flipping the coordinate system affect animation data?**  
-A: It transforms the entire node hierarchy, including animation keyframes, so animations remain consistent after the flip.
+**T: Apakah membalik sistem koordinat memengaruhi data animasi?**
+J: Ini mengubah seluruh hierarki node, termasuk keyframe animasi, sehingga animasi tetap konsisten setelah pembalikan.
 
-**Q: How do I change a plane’s orientation without affecting other objects?**  
-A: Apply the rotation only to the plane node or use a local transformation matrix.
+**T: Bagaimana cara mengubah orientasi bidang tanpa memengaruhi objek lain?**
+J: Terapkan rotasi hanya pada node bidang atau gunakan matriks transformasi lokal.
 
-**Q: Is there a way to preview the saved mesh before writing to disk?**  
-A: Use `Scene.ToMemoryStream()` to get an in‑memory representation and inspect it with a viewer or debugger.
+**T: Apakah ada cara untuk melihat pratinjau mesh yang disimpan sebelum menulis ke disk?**
+J: Gunakan `Scene.ToMemoryStream()` untuk mendapatkan representasi dalam memori dan periksa dengan penampil atau debugger.
 
-**Q: What licensing model does Aspose.3D use for commercial projects?**  
-A: Aspose offers perpetual and subscription licenses; a free developer trial is available for evaluation.
+**T: Model lisensi apa yang digunakan Aspose.3D untuk proyek komersial?**
+J: Aspose menawarkan lisensi permanen dan berlangganan; uji coba pengembang gratis tersedia untuk evaluasi.
 
 ---
 
-**Last Updated:** 2026-03-26  
-**Tested With:** Aspose.3D for .NET 24.11  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 26-03-2026
+**Diuji Dengan:** Aspose.3D untuk .NET 24.11
+**Pengembang:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

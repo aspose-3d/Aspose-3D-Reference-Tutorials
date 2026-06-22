@@ -15,30 +15,30 @@ weight: 10
 
 # วิธีเพิ่มข้อมูลผู้ขายและบันทึกฉาก FBX ด้วย Aspose.3D
 
-## Introduction
+## การแนะนำ
 
-ยินดีต้อนรับสู่บทแนะนำที่ครอบคลุมนี้ ซึ่งแสดง **วิธีเพิ่มผู้ขาย** รายละเอียดลงในฉาก 3D และจากนั้น **วิธีบันทึกไฟล์ FBX** ด้วย Aspose.3D สำหรับ .NET ไม่ว่าคุณจะสร้างภาพสถาปัตยกรรม, สินทรัพย์เกม, หรือโมเดลวิศวกรรม การฝังเมตาดาต้าของผู้ขายและแอปพลิเคชันทำให้ฉากของคุณให้ข้อมูลมากขึ้นและง่ายต่อการจัดการต่อไป เรามาเดินผ่านขั้นตอนอย่างเป็นระบบกัน
+ยินดีต้อนรับสู่บทแนะนำนี้ซึ่งจะแสดง **วิธีเพิ่มผู้ขาย** รายละเอียดลงในฉาก 3D เจาะ **วิธีบันทึกไฟล์ FBX** ด้วย Aspose.3D สำหรับ .NET ทรัพยากรสร้างภาพองค์กร, ในเว็บไซต์เกม, หรือโมเดลวิศวกรรมการฝังเมตาดาต้าของผู้ขายและแอปพลิเคชันทำให้ฉากของคุณที่ต้องใช้ความพยายามดำเนินการต่อไป เราจะเริ่มต้นขั้นตอนอย่างใดอย่างหนึ่งกัน
 
-## Quick Answers
-- **“เพิ่มผู้ขาย” หมายถึงอะไร?** It stores the application and vendor names inside the scene’s AssetInfo block.  
-- **ฟอร์แมตใดรองรับข้อมูลผู้ขาย?** FBX (ASCII or binary) retains the metadata when saved.  
-- **วิธีบันทึก FBX?** Use `scene.Save(path, FileFormat.FBX7500ASCII)` or the binary equivalent.  
-- **ต้องการไลเซนส์หรือไม่?** A free trial works for development; a commercial license is required for production.  
-- **สามารถเปลี่ยนหน่วยวัดได้หรือไม่?** Yes, set `AssetInfo.UnitName` and `AssetInfo.UnitScaleFactor`.
+## คำตอบด่วน
+- **“เพิ่มผู้ขาย” ส่วนอะไร?**เก็บแอปพลิเคชันและชื่อผู้ขายไว้ในบล็อก AssetInfo ของที่เกิดเหตุ
+- **ฟอร์แมตใดรองรับข้อมูลผู้ขาย?**FBX (ASCII หรือไบนารี) จะเก็บรักษาข้อมูลเมตาไว้เมื่อบันทึก
+- **วิธีบันทึก FBX?**ใช้ `scene.Save(path, FileFormat.FBX7500ASCII)` หรือไบนารีที่เทียบเท่า
+- **ต้องการไลเซนส์หรือไม่?**ทดลองใช้งานฟรีเพื่อการพัฒนา; ต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการผลิต
+- **สามารถควบคุมหน่วยวัดได้ใช่ไหม**ใช่ ตั้งค่า `AssetInfo.UnitName` และ `AssetInfo.UnitScaleFactor`
 
-## “วิธีเพิ่มผู้ขาย” ในฉาก 3D คืออะไร?
-Adding vendor information means populating the `AssetInfo` properties of a `Scene` object. These properties travel with the file, allowing any consumer of the FBX file to see which application created it and who the vendor is.
+## “วิธีการเพิ่มผู้ขาย” ในฉาก 3D คืออะไร?
+การเพิ่มข้อมูลผู้ขายหมายถึงการเติมคุณสมบัติ `AssetInfo` ของออบเจ็กต์ 'Scene' คุณสมบัติเหล่านี้เดินทางไปพร้อมกับไฟล์ ช่วยให้ผู้บริโภคไฟล์ FBX เห็นว่าแอปพลิเคชันใดเป็นผู้สร้างไฟล์นั้นและใครเป็นผู้จำหน่าย
 
-## ทำไมต้องเพิ่มข้อมูลผู้ขาย?
-- **การติดตาม:** Quickly identify the source of a model in large pipelines.  
-- **การปฏิบัติตาม:** Some industries require explicit vendor tagging for asset management.  
-- **การอัตโนมัติ:** Scripts can filter or process files based on vendor metadata.
+##เพื่อเพิ่มข้อมูลผู้ขาย?
+- **ฟื้นฟู:** ระบุแหล่งที่มาของแบบจำลองในไปป์ไลน์ขนาดใหญ่ได้อย่างรวดเร็ว
+- **ในกรณี:** บางอุตสาหกรรมกำหนดให้มีการติดแท็กผู้ขายอย่างชัดเจนสำหรับการจัดการสินทรัพย์
+- **การอัตโนมัติ:** สคริปต์สามารถกรองหรือประมวลผลไฟล์ตามข้อมูลเมตาของผู้ขาย
 
-## Prerequisites
+## ข้อกำหนดเบื้องต้น
 
-- Aspose.3D for .NET installed. You can download it from the [Aspose.3D for .NET page](https://releases.aspose.com/3d/net/).
+- ติดตั้ง Aspose.3D สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก [หน้า Aspose.3D สำหรับ .NET](https://releases.aspose.com/3d/net/)
 
-## Import Namespaces
+## นำเข้าเนมสเปซ
 
 ```csharp
 using System;

@@ -126,13 +126,13 @@ Teljesen! Az Aspose.3D for .NET magas szintű API‑t kínál, amely elrejti a m
 Igen, minden `Cylinder` példány saját `ShearBottom` tulajdonsággal rendelkezik, így egyedi szöget rendelhetsz minden objektumhoz.
 
 ### Elérhető-e próba verzió?
-Igen, a ingyenes próba verziót **[itt](https://releases.aspose.com/)** tudod felfedezni.
+Igen, a ingyenes próba verziót **[itt](https://releases.aspose.com/) ** tudod felfedezni.
 
 ### Hol találok további támogatást?
-Látogasd meg az **[Aspose.3D fórumot](https://forum.aspose.com/c/3d/18)** közösségi segítségért, kódmintákért és megbeszélésekért.
+Látogasd meg az **[Aspose.3D fórumot](https://forum.aspose.com/c/3d/18) ** közösségi segítségért, kódmintákért és megbeszélésekért.
 
 ### Hogyan szerezhetek ideiglenes licencet?
-Az ideiglenes licencet **[itt](https://purchase.aspose.com/temporary-license/)** kaphatod meg.
+Az ideiglenes licencet **[itt](https://purchase.aspose.com/temporary-license/) ** kaphatod meg.
 
 **További Q&A**
 

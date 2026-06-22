@@ -135,13 +135,6 @@ Console.WriteLine("\nBuilding a scene from primitive 3D models successfully.\nFi
 ### س5: هل هناك أي دروس نموذجية متاحة؟
 ج5: نعم، استكشف المزيد من الدروس والأمثلة في [الوثائق](https://reference.aspose.com/3d/net/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-03-26  
@@ -149,3 +142,10 @@ Console.WriteLine("\nBuilding a scene from primitive 3D models successfully.\nFi
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

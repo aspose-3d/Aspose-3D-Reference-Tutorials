@@ -126,13 +126,13 @@ Zdecydowanie! Aspose.3D dla .NET oferuje wysokopoziomowe API, które ukrywa mate
 Tak, każda instancja `Cylinder` posiada własną właściwość `ShearBottom`, więc możesz przypisać unikalny kąt do każdego obiektu.
 
 ### Czy dostępna jest wersja próbna?
-Tak, wersję próbną możesz pobrać **[tutaj](https://releases.aspose.com/)**.
+Tak, wersję próbną możesz pobrać **[tutaj](https://releases.aspose.com/) **.
 
 ### Gdzie mogę znaleźć dodatkowe wsparcie?
-Odwiedź **[forum Aspose.3D](https://forum.aspose.com/c/3d/18)**, aby uzyskać pomoc społeczności, przykłady kodu i dyskusje.
+Odwiedź **[forum Aspose.3D](https://forum.aspose.com/c/3d/18) **, aby uzyskać pomoc społeczności, przykłady kodu i dyskusje.
 
 ### Jak uzyskać tymczasową licencję?
-Uzyskaj tymczasową licencję **[tutaj](https://purchase.aspose.com/temporary-license/)**.
+Uzyskaj tymczasową licencję **[tutaj](https://purchase.aspose.com/temporary-license/) **.
 
 **Dodatkowe pytania i odpowiedzi**
 

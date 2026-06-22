@@ -106,16 +106,16 @@ Console.WriteLine("\nCoordinate system has been flipped successfully.\nFile save
 答：Aspose.3D 主要是 .NET 库，但 Aspose 为 Java、Python 等平台提供了等效的 API。
 
 **问：在哪里可以找到 Aspose.3D for .NET 的详细文档？**  
-答：您可以在文档[此处](https://reference.aspose.com/3d/net/)查阅深入信息。
+答：您可以在文档[此处](https://reference.aspose.com/3d/net/) 查阅深入信息。
 
 **问：Aspose.3D for .NET 有免费试用吗？**  
-答：有，您可以在购买前在[此处](https://releases.aspose.com/)体验免费试用版。
+答：有，您可以在购买前在[此处](https://releases.aspose.com/) 体验免费试用版。
 
 **问：如何获取 Aspose.3D for .NET 的临时许可证？**  
-答：获取临时许可证请访问[此链接](https://purchase.aspose.com/temporary-license/)。
+答：获取临时许可证请访问[此链接](https://purchase.aspose.com/temporary-license/) 。
 
 **问：在哪里可以获取 Aspose.3D for .NET 的支持或提问？**  
-答：Aspose 社区论坛[此处](https://forum.aspose.com/c/3d/18)是获取支持和讨论的理想场所。
+答：Aspose 社区论坛[此处](https://forum.aspose.com/c/3d/18) 是获取支持和讨论的理想场所。
 
 ## 结论
 

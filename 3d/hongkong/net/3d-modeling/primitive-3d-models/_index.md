@@ -134,15 +134,15 @@ A4: 可於此處取得臨時授權 [here](https://purchase.aspose.com/temporary-
 ### Q5: 有其他範例教學嗎？
 A5: 有，請在 [documentation](https://reference.aspose.com/3d/net/) 中探索更多教學與範例。
 
+---
+
+**最後更新：** 2026-03-26  
+**測試環境：** Aspose.3D 24.11 for .NET  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-03-26  
-**測試環境：** Aspose.3D 24.11 for .NET  
-**作者：** Aspose

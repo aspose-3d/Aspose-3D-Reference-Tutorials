@@ -123,13 +123,13 @@ scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
 ได้, แต่ละอินสแตนซ์ของ `Cylinder` มีคุณสมบัติ `ShearBottom` ของตนเอง, ดังนั้นคุณสามารถกำหนดมุมที่แตกต่างให้กับแต่ละอ็อบเจกต์ได้.
 
 ### มีเวอร์ชันทดลองหรือไม่?
-มี, คุณสามารถสำรวจเวอร์ชันทดลองฟรี **[here](https://releases.aspose.com/)**.
+มี, คุณสามารถสำรวจเวอร์ชันทดลองฟรี **[here](https://releases.aspose.com/) **.
 
 ### ฉันจะหาแหล่งสนับสนุนเพิ่มเติมได้จากที่ไหน?
-เยี่ยมชม **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)** เพื่อรับความช่วยเหลือจากชุมชน, ตัวอย่างโค้ด, และการสนทนา.
+เยี่ยมชม **[Aspose.3D forum](https://forum.aspose.com/c/3d/18) ** เพื่อรับความช่วยเหลือจากชุมชน, ตัวอย่างโค้ด, และการสนทนา.
 
 ### ฉันจะขอรับไลเซนส์ชั่วคราวได้อย่างไร?
-รับไลเซนส์ชั่วคราวของคุณ **[here](https://purchase.aspose.com/temporary-license/)**.
+รับไลเซนส์ชั่วคราวของคุณ **[here](https://purchase.aspose.com/temporary-license/) **.
 
 **Additional Q&A**
 

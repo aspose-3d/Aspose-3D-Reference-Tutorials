@@ -124,13 +124,13 @@ Kesinlikle! Aspose.3D for .NET yüksek seviyeli bir API sunar ve 3‑D modelleme
 Evet, her `Cylinder` örneğinin kendi `ShearBottom` özelliği vardır; böylece her nesneye benzersiz bir açı atayabilirsiniz.
 
 ### Deneme sürümü mevcut mu?
-Evet, ücretsiz deneme sürümünü **[buradan](https://releases.aspose.com/)** keşfedebilirsiniz.
+Evet, ücretsiz deneme sürümünü **[buradan](https://releases.aspose.com/) ** keşfedebilirsiniz.
 
 ### Ek destek nereden bulunur?
-Topluluk yardımı, kod örnekleri ve tartışmalar için **[Aspose.3D forumunu](https://forum.aspose.com/c/3d/18)** ziyaret edin.
+Topluluk yardımı, kod örnekleri ve tartışmalar için **[Aspose.3D forumunu](https://forum.aspose.com/c/3d/18) ** ziyaret edin.
 
 ### Geçici lisans nasıl alınır?
-Geçici lisansınızı **[buradan](https://purchase.aspose.com/temporary-license/)** temin edebilirsiniz.
+Geçici lisansınızı **[buradan](https://purchase.aspose.com/temporary-license/) ** temin edebilirsiniz.
 
 **Ek Soru & Cevap**
 

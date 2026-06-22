@@ -124,13 +124,13 @@ Absolutamente! Aspose.3D para .NET oferece uma API de alto nível que abstrai as
 Sim, cada instância de `Cylinder` possui sua própria propriedade `ShearBottom`, portanto você pode atribuir um ângulo único a cada objeto.
 
 ### Existe uma versão de avaliação disponível?
-Sim, você pode explorar a versão de avaliação gratuita **[aqui](https://releases.aspose.com/)**.
+Sim, você pode explorar a versão de avaliação gratuita **[aqui](https://releases.aspose.com/) **.
 
 ### Onde posso encontrar suporte adicional?
-Visite o **[fórum Aspose.3D](https://forum.aspose.com/c/3d/18)** para ajuda da comunidade, exemplos de código e discussões.
+Visite o **[fórum Aspose.3D](https://forum.aspose.com/c/3d/18) ** para ajuda da comunidade, exemplos de código e discussões.
 
 ### Como posso obter uma licença temporária?
-Obtenha sua licença temporária **[aqui](https://purchase.aspose.com/temporary-license/)**.
+Obtenha sua licença temporária **[aqui](https://purchase.aspose.com/temporary-license/) **.
 
 **Q&A Adicionais**
 

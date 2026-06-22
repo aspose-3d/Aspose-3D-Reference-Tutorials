@@ -122,13 +122,13 @@ scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
 可以，每個 `Cylinder` 實例都有自己的 `ShearBottom` 屬性，因而能為每個物件指定不同的角度。
 
 ### 有提供試用版嗎？
-有，你可以在 **[此處](https://releases.aspose.com/)** 探索免費試用版。
+有，你可以在 **[此處](https://releases.aspose.com/) ** 探索免費試用版。
 
 ### 我可以在哪裡取得其他支援？
-前往 **[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18)** 獲取社群協助、程式碼範例與討論。
+前往 **[Aspose.3D 論壇](https://forum.aspose.com/c/3d/18) ** 獲取社群協助、程式碼範例與討論。
 
 ### 我該如何取得臨時授權？
-在 **[此處](https://purchase.aspose.com/temporary-license/)** 取得臨時授權。
+在 **[此處](https://purchase.aspose.com/temporary-license/) ** 取得臨時授權。
 
 **其他問答**
 

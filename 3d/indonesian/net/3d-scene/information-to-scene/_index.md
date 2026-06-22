@@ -14,32 +14,32 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Menambahkan Info Vendor dan Menyimpan Scene FBX Menggunakan Aspose.3D
+# Cara Menambahkan Info Vendor dan menyimpan Scene FBX Menggunakan Aspose.3D
 
-## Introduction
+## Perkenalan
 
-Selamat datang di tutorial komprehensif ini yang menunjukkan **cara menambahkan vendor** detail ke sebuah scene 3D dan kemudian **cara menyimpan FBX** file dengan Aspose.3D untuk .NET. Baik Anda membangun visualisasi arsitektur, aset game, atau model rekayasa, menyematkan metadata vendor dan aplikasi membuat scene Anda lebih informatif dan lebih mudah dikelola di tahap berikutnya. Mari kita jalani prosesnya langkah demi langkah.
+Selamat datang di tutorial komprehensif ini yang menunjukkan **cara menambahkan vendor** detail ke sebuah adegan 3D dan kemudian **cara menyimpan file FBX** dengan Aspose.3D untuk .NET. Baik Anda membangun visualisasi arsitektur, aset permainan, atau rekayasa model, menyematkan metadata vendor dan aplikasi membuat adegan Anda lebih informatif dan lebih mudah dikelola pada tahap berikutnya. Mari kita jalani proses langkah demi langkah.
 
-## Quick Answers
-- **Apa arti “add vendor”?** It stores the application and vendor names inside the scene’s AssetInfo block.  
-- **Format apa yang mendukung info vendor?** FBX (ASCII atau binary) retains the metadata when saved.  
-- **Bagaimana cara menyimpan FBX?** Use `scene.Save(path, FileFormat.FBX7500ASCII)` or the binary equivalent.  
-- **Apakah saya memerlukan lisensi?** A free trial works for development; a commercial license is required for production.  
-- **Bisakah saya mengubah satuan pengukuran?** Yes, set `AssetInfo.UnitName` and `AssetInfo.UnitScaleFactor`.
+## Jawaban Cepat
+- **Apa arti “tambah vendor”?**Ini menyimpan aplikasi dan nama vendor di dalam blok AssetInfo adegan.
+- **Format apa yang mendukung info vendor?**FBX (ASCII atau biner) mempertahankan metadata saat disimpan.
+- **Bagaimana cara menyimpan FBX?**Gunakan `scene.Save(path, FileFormat.FBX7500ASCII)` atau yang setara dengan biner.
+- **Apakah saya memerlukan lisensi?**Uji coba gratis berfungsi untuk pengembangan; izin komersial diperlukan untuk produksi.
+- ** mendorong saya mengubah satuan pengukuran?**Ya, setel `AssetInfo.UnitName` dan `AssetInfo.UnitScaleFactor`.
 
-## What is “how to add vendor” in a 3D scene?
+## Apa yang dimaksud dengan "cara menambahkan vendor" dalam adegan 3D?
 Menambahkan informasi vendor berarti mengisi properti `AssetInfo` dari objek `Scene`. Properti ini menyertai file, memungkinkan siapa pun yang menggunakan file FBX untuk melihat aplikasi mana yang membuatnya dan siapa vendor-nya.
 
-## Why add vendor information?
-- **Keterlacakan:** Quickly identify the source of a model in large pipelines.  
-- **Kepatuhan:** Some industries require explicit vendor tagging for asset management.  
-- **Otomasi:** Scripts can filter or process files based on vendor metadata.
+## Mengapa menambahkan informasi vendor?
+- **Keterlacakan:** Identifikasi dengan cepat sumber model di saluran pipa besar.
+- **Kepatuhan:** Beberapa industri memerlukan penandaan vendor yang eksplisit untuk pengelolaan aset.
+- **Otomasi:** Skrip dapat memfilter atau memproses file berdasarkan metadata vendor.
 
-## Prerequisites
+## Prasyarat
 
-- Aspose.3D untuk .NET terinstal. Anda dapat mengunduhnya dari [Aspose.3D for .NET page](https://releases.aspose.com/3d/net/).
+- Aspose.3D untuk terinstal .NET. Anda dapat mengunduhnya dari [Aspose.3D untuk halaman .NET](https://releases.aspose.com/3d/net/).
 
-## Import Namespaces
+## Impor Namespace
 
 ```csharp
 using System;
@@ -48,9 +48,9 @@ using System.Collections;
 using Aspose.ThreeD;
 ```
 
-## How to Add Vendor Information
+## Cara Menambahkan Informasi Vendor
 
-### Step 1: Initialize a 3D Scene
+### Langkah 1: Inisialisasi Adegan 3D
 
 ```csharp
 Scene scene = new Scene();
@@ -58,7 +58,7 @@ Scene scene = new Scene();
 
 Membuat `Scene` baru memberikan kanvas bersih untuk Anda bekerja.
 
-### Step 2: Set Application and Vendor Information
+### Langkah 2: Atur Informasi Aplikasi dan Vendor
 
 ```csharp
 scene.AssetInfo.ApplicationName = "Egypt";
@@ -67,7 +67,7 @@ scene.AssetInfo.ApplicationVendor = "Manualdesk";
 
 Di sini kami menunjukkan **cara menambahkan vendor** data dengan menetapkan string yang bermakna ke `ApplicationName` dan `ApplicationVendor`.
 
-### Step 3: Define Measurement Units
+### Langkah 3: Tentukan Satuan Pengukuran
 
 ```csharp
 scene.AssetInfo.UnitName = "pole";
@@ -76,9 +76,9 @@ scene.AssetInfo.UnitScaleFactor = 0.6;
 
 Menentukan sistem satuan memastikan siapa pun yang membuka file FBX menginterpretasikan dimensi dengan benar. Dalam contoh ini, satu “pole” sama dengan 60 cm.
 
-## How to Save FBX Scene
+## Cara Menyimpan Adegan FBX
 
-### Step 4: Save the Scene (how to save fbx)
+### Langkah 4: Simpan Adegan (cara menyimpan fbx)
 
 ```csharp
 var output = "Your Output Directory" + "InformationToScene.fbx";
@@ -89,7 +89,7 @@ Baris ini menunjukkan **cara menyimpan fbx** menggunakan versi ASCII dari FBX 
 
 > **Tip profesional:** Keep the file extension `.fbx` consistent with the format you choose; otherwise some viewers may misinterpret the content.
 
-### Step 5: Display Success Message
+### Langkah 5: Tampilkan Pesan Sukses
 
 ```csharp
 Console.WriteLine("\nAsset information added successfully to Scene.\nFile saved at " + output);
@@ -97,16 +97,16 @@ Console.WriteLine("\nAsset information added successfully to Scene.\nFile saved 
 
 Pesan konsol yang ramah mengonfirmasi bahwa scene, lengkap dengan metadata vendor, telah ditulis ke disk.
 
-## Common Issues and Solutions
+## Masalah Umum dan Solusinya
 
 | Masalah | Solusi |
 |-------|----------|
 | **Info vendor tidak muncul di penampil** | Pastikan Anda menyimpan file sebagai **FBX ASCII** atau **Binary**; beberapa penampil lama hanya membaca satu format. |
-| **Path berisi spasi** | Bungkus path dengan tanda kutip atau gunakan `Path.Combine` untuk membangun path file yang aman. |
+| **Jalur berisi spasi** | Bungkus path dengan tanda kutip atau gunakan `Path.Combine` untuk membangun file path yang aman. |
 | **Skala satuan terlihat salah** | Periksa kembali `UnitScaleFactor`; itu adalah pengali relatif terhadap meter. |
-| **Pengecualian lisensi** | Gunakan trial gratis untuk pengujian; dapatkan lisensi penuh untuk build produksi. |
+| **Pengecualian lisensi** | Gunakan uji coba gratis untuk pengujian; Dapatkan lisensi penuh untuk membangun produksi. |
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.3D untuk .NET dengan bahasa pemrograman lain?**  
 A: Aspose.3D terutama mendukung bahasa .NET, tetapi Anda dapat menjelajahi opsi interoperabilitas untuk bahasa lain.

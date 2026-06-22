@@ -123,13 +123,13 @@ scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
 はい、各 `Cylinder` インスタンスは独自の `ShearBottom` プロパティを持っているため、オブジェクトごとに異なる角度を割り当てることができます。
 
 ### トライアル版は利用可能ですか？
-はい、無料トライアル版は **[here](https://releases.aspose.com/)** でご確認いただけます。
+はい、無料トライアル版は **[here](https://releases.aspose.com/) ** でご確認いただけます。
 
 ### 追加サポートはどこで見つけられますか？
-コミュニティの支援、コードサンプル、ディスカッションは **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)** をご覧ください。
+コミュニティの支援、コードサンプル、ディスカッションは **[Aspose.3D forum](https://forum.aspose.com/c/3d/18) ** をご覧ください。
 
 ### 一時ライセンスはどのように取得できますか？
-一時ライセンスは **[here](https://purchase.aspose.com/temporary-license/)** で取得できます。
+一時ライセンスは **[here](https://purchase.aspose.com/temporary-license/) ** で取得できます。
 
 **追加の Q&A**
 

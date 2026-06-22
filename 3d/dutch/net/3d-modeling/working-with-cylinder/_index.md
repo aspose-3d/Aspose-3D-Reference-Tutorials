@@ -126,13 +126,13 @@ Absoluut! Aspose.3D voor .NET biedt een high‑level API die de wiskundig intens
 Ja, elke `Cylinder`‑instantie heeft zijn eigen `ShearBottom`‑eigenschap, zodat je een unieke hoek aan elk object kunt toewijzen.
 
 ### Is er een proefversie beschikbaar?
-Ja, je kunt de gratis proefversie verkennen **[hier](https://releases.aspose.com/)**.
+Ja, je kunt de gratis proefversie verkennen **[hier](https://releases.aspose.com/) **.
 
 ### Waar vind ik extra ondersteuning?
-Bezoek het **[Aspose.3D‑forum](https://forum.aspose.com/c/3d/18)** voor community‑hulp, code‑samples en discussies.
+Bezoek het **[Aspose.3D‑forum](https://forum.aspose.com/c/3d/18) ** voor community‑hulp, code‑samples en discussies.
 
 ### Hoe kan ik een tijdelijke licentie verkrijgen?
-Vraag je tijdelijke licentie **[hier](https://purchase.aspose.com/temporary-license/)** aan.
+Vraag je tijdelijke licentie **[hier](https://purchase.aspose.com/temporary-license/) ** aan.
 
 **Aanvullende V&A**
 

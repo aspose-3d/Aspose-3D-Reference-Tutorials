@@ -14,11 +14,11 @@ weight: 21
 
 # 如何在 3D 场景中使用 Aspose.3D 保存网格
 
-## Introduction
+## 简介
 
 欢迎！在本指南中，您将学习 **如何保存网格** 文件并使用功能强大的 Aspose.3D for .NET 库操作 3D 场景。无论您需要导出网格、翻转坐标系，还是调整平面方向，我们都会通过清晰的逐步解释带您了解每个概念。完成后，您将拥有扎实的基础，将这些技术集成到实际应用中。
 
-## Quick Answers
+## 快速解答
 - **保存网格的主要方式是什么？** 使用 Aspose.3D 的 `Scene.Save` 方法并指定所需格式。  
 - **我可以翻转场景的坐标系吗？** 可以——调用 `Scene.FlipCoordinateSystem()` 或手动调整节点变换。  
 - **是否支持更改平面方向？** 当然；修改平面的法向量或应用旋转矩阵即可。  
@@ -33,13 +33,13 @@ weight: 21
 
 当集成来自使用不同轴约定（例如 Y‑up 与 Z‑up）的工具的资产时，翻转坐标系是必需的。调整平面方向可帮助您为物理模拟、碰撞检测或自定义渲染管线对齐对象。这两种技术让您完全控制 3D 内容在最终场景中的呈现方式。
 
-## Prerequisites
+## 先决条件
 - Visual Studio 2022 或更高版本（或您喜欢的任何 C# IDE）  
 - .NET 6 SDK（或 .NET Framework 4.6+）  
 - 已安装 Aspose.3D for .NET NuGet 包（`Install-Package Aspose.3D`）  
 - 具备 C# 和 3D 概念（网格、节点、变换）的基本了解
 
-## Detailed Tutorials
+## 详细教程
 
 ### 在 3D 场景中翻转坐标系
 掌握使用 Aspose.3D for .NET 翻转坐标系的技巧。我们的逐步指南确保您轻松掌握这项关键技能。为您的 3D 场景带来全新视角，为项目增添深度与创意。
@@ -61,7 +61,7 @@ weight: 21
 
 [阅读教程：在 3D 场景中设置三维属性](./set-3d-properties/)
 
-## Common Pitfalls & Tips
+## 常见陷阱和技巧
 - **陷阱：** 在修改节点变换后忘记调用 `Scene.Update()`。  
   **技巧：** 始终调用 `Scene.Update()` 以重新计算包围盒并确保更改生效。  
 - **陷阱：** 混淆左手坐标系和右手坐标系。  
@@ -69,7 +69,7 @@ weight: 21
 - **陷阱：** 未指定格式保存网格会默认输出 OBJ。  
   **技巧：** 明确传入所需格式（例如 `scene.Save("model.stl", FileFormat.STL)`）。  
 
-## Frequently Asked Questions
+## 常见问题解答
 
 **问：我可以在一次运行中将网格导出为 OBJ 和 STL 吗？**  
 答：可以。对 `scene.Save` 调用两次，使用不同的文件名和格式。

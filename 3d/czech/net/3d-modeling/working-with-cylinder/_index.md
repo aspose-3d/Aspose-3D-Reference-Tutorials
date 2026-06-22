@@ -124,13 +124,13 @@ Rozhodně! Aspose.3D pro .NET nabízí vysoce úrovňové API, které abstrahuje
 Ano, každá instance `Cylinder` má svou vlastnost `ShearBottom`, takže můžete každému objektu přiřadit jedinečný úhel.
 
 ### Je k dispozici zkušební verze?
-Ano, můžete si vyzkoušet bezplatnou zkušební verzi **[zde](https://releases.aspose.com/)**.
+Ano, můžete si vyzkoušet bezplatnou zkušební verzi **[zde](https://releases.aspose.com/) **.
 
 ### Kde najdu další podporu?
-Navštivte **[forum Aspose.3D](https://forum.aspose.com/c/3d/18)** pro komunitní pomoc, ukázky kódu a diskusi.
+Navštivte **[forum Aspose.3D](https://forum.aspose.com/c/3d/18) ** pro komunitní pomoc, ukázky kódu a diskusi.
 
 ### Jak mohu získat dočasnou licenci?
-Získejte svou dočasnou licenci **[zde](https://purchase.aspose.com/temporary-license/)**.
+Získejte svou dočasnou licenci **[zde](https://purchase.aspose.com/temporary-license/) **.
 
 **Additional Q&A**
 

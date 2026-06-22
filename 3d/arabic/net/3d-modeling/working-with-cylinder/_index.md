@@ -125,13 +125,13 @@ scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
 نعم، كل كائن `Cylinder` لديه خاصية `ShearBottom` الخاصة به، لذا يمكنك تعيين زاوية فريدة لكل كائن.
 
 ### هل تتوفر نسخة تجريبية؟
-نعم، يمكنك استكشاف النسخة التجريبية المجانية **[هنا](https://releases.aspose.com/)**.
+نعم، يمكنك استكشاف النسخة التجريبية المجانية **[هنا](https://releases.aspose.com/) **.
 
 ### أين يمكنني العثور على دعم إضافي؟
-زر **[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18)** للحصول على مساعدة المجتمع، عينات الكود، والنقاش.
+زر **[منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) ** للحصول على مساعدة المجتمع، عينات الكود، والنقاش.
 
 ### كيف يمكنني الحصول على ترخيص مؤقت؟
-احصل على ترخيصك المؤقت **[هنا](https://purchase.aspose.com/temporary-license/)**.
+احصل على ترخيصك المؤقت **[هنا](https://purchase.aspose.com/temporary-license/) **.
 
 **أسئلة وإجابات إضافية**
 

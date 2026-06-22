@@ -125,13 +125,13 @@ scene.Save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", File
 हां, प्रत्येक `Cylinder` इंस्टेंस की अपनी `ShearBottom` प्रॉपर्टी होती है, इसलिए आप प्रत्येक ऑब्जेक्ट को एक अनूठा एंगल असाइन कर सकते हैं।
 
 ### क्या ट्रायल संस्करण उपलब्ध है?
-हां, आप मुफ्त ट्रायल संस्करण **[यहाँ](https://releases.aspose.com/)** एक्सप्लोर कर सकते हैं।
+हां, आप मुफ्त ट्रायल संस्करण **[यहाँ](https://releases.aspose.com/) ** एक्सप्लोर कर सकते हैं।
 
 ### अतिरिक्त समर्थन कहाँ मिल सकता है?
-समुदाय सहायता, कोड सैंपल और चर्चा के लिए **[Aspose.3D फ़ोरम](https://forum.aspose.com/c/3d/18)** देखें।
+समुदाय सहायता, कोड सैंपल और चर्चा के लिए **[Aspose.3D फ़ोरम](https://forum.aspose.com/c/3d/18) ** देखें।
 
 ### मैं अस्थायी लाइसेंस कैसे प्राप्त करूँ?
-अपना अस्थायी लाइसेंस **[यहाँ](https://purchase.aspose.com/temporary-license/)** प्राप्त करें।
+अपना अस्थायी लाइसेंस **[यहाँ](https://purchase.aspose.com/temporary-license/) ** प्राप्त करें।
 
 **अतिरिक्त प्रश्न‑उत्तर**
 

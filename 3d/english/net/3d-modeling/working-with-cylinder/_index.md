@@ -124,13 +124,13 @@ Absolutely! Aspose.3D for .NET offers a high‑level API that abstracts the math
 Yes, each `Cylinder` instance has its own `ShearBottom` property, so you can assign a unique angle to each object.
 
 ### Is there a trial version available?
-Yes, you can explore the free trial version **[here](https://releases.aspose.com/)**.
+Yes, you can explore the free trial version **[here](https://releases.aspose.com/) **.
 
 ### Where can I find additional support?
-Visit the **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)** for community help, code samples, and discussion.
+Visit the **[Aspose.3D forum](https://forum.aspose.com/c/3d/18) ** for community help, code samples, and discussion.
 
 ### How can I obtain a temporary license?
-Get your temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
+Get your temporary license **[here](https://purchase.aspose.com/temporary-license/) **.
 
 **Additional Q&A**
 

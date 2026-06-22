@@ -19,30 +19,30 @@ weight: 10
 
 ## Introduction
 
-Bienvenue dans ce tutoriel complet qui montre **how to add vendor** aux détails d’une scène 3D puis **how to save FBX** avec Aspose.3D pour .NET. Que vous créiez des visualisations architecturales, des actifs de jeu ou des modèles d’ingénierie, intégrer les métadonnées du fournisseur et de l’application rend vos scènes plus informatives et plus faciles à gérer en aval. Parcourons le processus étape par étape.
+Bienvenue dans ce tutoriel complet qui montre **how to add supplier** aux détails d'une scène 3D puis **how to save FBX** avec Aspose.3D pour .NET. Que vous créiez des visualisations architecturales, des actifs de jeu ou des modèles d’ingénierie, intégrez les métadonnées du fournisseur et de l’application rendent vos scènes plus informatives et plus faciles à gérer en aval. Parcourons le processus étape par étape.
 
-## Quick Answers
-- **What does “add vendor” mean?** Il stocke les noms de l'application et du fournisseur dans le bloc AssetInfo de la scène.  
-- **Which format supports vendor info?** FBX (ASCII ou binary) conserve les métadonnées lors de l'enregistrement.  
-- **How to save FBX?** Utilisez `scene.Save(path, FileFormat.FBX7500ASCII)` ou l'équivalent binaire.  
-- **Do I need a license?** Un essai gratuit fonctionne pour le développement ; une licence commerciale est requise pour la production.  
-- **Can I change measurement units?** Oui, définissez `AssetInfo.UnitName` et `AssetInfo.UnitScaleFactor`.
+## Réponses rapides
+- **Que signifie « ajouter un fournisseur » ?**Il stocke les noms de l'application et du fournisseur dans le bloc AssetInfo de la scène.
+- **Quel format prend en charge les informations sur le fournisseur ?**FBX (ASCII ou binaire) conserve les métadonnées lors de l'enregistrement.
+- **Comment sauvegarder FBX ?**Utilisez `scene.Save(path, FileFormat.FBX7500ASCII)` ou l'équivalent binaire.
+- **Dois-je avoir une licence ?**Un essai gratuit fonctionne pour le développement ; une licence commerciale est requise pour la production.
+- **Puis-je changer les unités de mesure ?**Oui, défini `AssetInfo.UnitName` et `AssetInfo.UnitScaleFactor`.
 
-## Qu’est‑ce que “how to add vendor” dans une scène 3D ?
+## Qu’est‑ce que « how to add supplier » dans une scène 3D ?
 
-Ajouter des informations de fournisseur signifie remplir les propriétés `AssetInfo` d’un objet `Scene`. Ces propriétés voyagent avec le fichier, permettant à tout consommateur du fichier FBX de voir quelle application l’a créé et qui est le fournisseur.
+Ajouter des informations du fournisseur signifie remplir les propriétés `AssetInfo` d’un objet `Scene`. Ces propriétés voyagent avec le fichier, permettant à tout consommateur du fichier FBX de voir quelle application l'a créé et qui est le fournisseur.
 
-## Why add vendor information?
+## Pourquoi ajouter des informations sur le fournisseur ?
 
-- **Traceability:** Identifier rapidement la source d’un modèle dans de grands pipelines.  
-- **Compliance:** Certaines industries exigent un marquage explicite du fournisseur pour la gestion des actifs.  
-- **Automation:** Les scripts peuvent filtrer ou traiter les fichiers en fonction des métadonnées du fournisseur.
+- **Traçabilité :** Identifier rapidement la source d'un modèle dans de grands pipelines.
+- **Conformité :** Certaines industries exigent un marquage explicite du fournisseur pour la gestion des actifs.
+- **Automatisation :** Les scripts peuvent filtrer ou traiter les fichiers en fonction des métadonnées du fournisseur.
 
-## Prerequisites
+## Prérequis
 
 - Aspose.3D pour .NET installé. Vous pouvez le télécharger depuis la [page Aspose.3D for .NET](https://releases.aspose.com/3d/net/).
 
-## Import Namespaces
+## Importer les espaces de noms
 
 ```csharp
 using System;
@@ -51,7 +51,7 @@ using System.Collections;
 using Aspose.ThreeD;
 ```
 
-## How to Add Vendor Information
+## Comment ajouter des informations sur le fournisseur
 
 ### Étape 1 : Initialiser une scène 3D
 
@@ -100,16 +100,16 @@ Console.WriteLine("\nAsset information added successfully to Scene.\nFile saved 
 
 Un message convivial dans la console confirme que la scène, complète avec les métadonnées du fournisseur, a été écrite sur le disque.
 
-## Common Issues and Solutions
+## Problèmes courants et solutions
 
-| Problème | Solution |
+| Problème | Solutions |
 |----------|----------|
-| **Vendor info not appearing in viewer** | Assurez‑vous d’avoir enregistré le fichier en **FBX ASCII** ou **Binary** ; certains visionneurs plus anciens ne lisent qu’un seul format. |
-| **Path contains spaces** | Entourez le chemin de guillemets ou utilisez `Path.Combine` pour construire un chemin de fichier sûr. |
-| **Unit scale looks wrong** | Vérifiez à nouveau `UnitScaleFactor` ; c’est un multiplicateur relatif aux mètres. |
-| **License exception** | Utilisez l’essai gratuit pour les tests ; obtenez une licence complète pour les versions de production. |
+| **Les informations sur le fournisseur n'apparaissent pas dans la visionneuse** | Assurez-vous d’avoir enregistré le fichier en **FBX ASCII** ou **Binary** ; certains visionneurs plus anciens ne lisent qu’un seul format. |
+| **Le chemin contient des espaces** | Entourez le chemin de guillemets ou utilisez `Path.Combine` pour construire un chemin de fichier. |
+| **L'échelle des unités semble incorrecte** | Vérifiez à nouveau `UnitScaleFactor`; c’est un multiplicateur relatif aux mètres. |
+| **Exception de licence** | Utilisez l’essai gratuit pour les tests ; obtenez une licence complète pour les versions de production. |
 
-## Frequently Asked Questions
+## Questions fréquemment posées
 
 **Q : Puis‑je utiliser Aspose.3D pour .NET avec d’autres langages de programmation ?**  
 A : Aspose.3D prend principalement en charge les langages .NET, mais vous pouvez explorer les options d’interopérabilité pour d’autres langages.

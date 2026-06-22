@@ -126,13 +126,13 @@ Absolut! Aspose.3D für .NET bietet eine High‑Level‑API, die die mathematisc
 Ja, jede `Cylinder`‑Instanz besitzt ihre eigene `ShearBottom`‑Eigenschaft, sodass Sie jedem Objekt einen individuellen Winkel zuweisen können.
 
 ### Gibt es eine Testversion?
-Ja, Sie können die kostenlose Testversion **[hier](https://releases.aspose.com/)** ausprobieren.
+Ja, Sie können die kostenlose Testversion **[hier](https://releases.aspose.com/) ** ausprobieren.
 
 ### Wo finde ich zusätzlichen Support?
-Besuchen Sie das **[Aspose.3D‑Forum](https://forum.aspose.com/c/3d/18)** für Community‑Hilfe, Code‑Beispiele und Diskussionen.
+Besuchen Sie das **[Aspose.3D‑Forum](https://forum.aspose.com/c/3d/18) ** für Community‑Hilfe, Code‑Beispiele und Diskussionen.
 
 ### Wie erhalte ich eine temporäre Lizenz?
-Holen Sie Ihre temporäre Lizenz **[hier](https://purchase.aspose.com/temporary-license/)**.
+Holen Sie Ihre temporäre Lizenz **[hier](https://purchase.aspose.com/temporary-license/) **.
 
 **Zusätzliche Fragen & Antworten**
 
