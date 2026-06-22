@@ -1,6 +1,6 @@
 ---
-title: Linear Interpolation 3D: How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
-linktitle: Linear Interpolation 3D: How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
+title: Linear Interpolation 3D - How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
+linktitle: Linear Interpolation 3D - How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
 second_title: Aspose.3D Java API
 description: Learn how to animate 3D scenes in Java using Aspose.3D with linear interpolation 3d techniques, add animation properties, create keyframes, and export animated FBX files.
 weight: 10
