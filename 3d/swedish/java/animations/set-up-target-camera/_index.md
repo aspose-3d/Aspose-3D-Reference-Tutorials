@@ -1,14 +1,37 @@
 ---
-date: 2026-04-05
-description: Lär dig hur du placerar kameran och initierar en 3D-scen i Java, konfigurerar
-  kamerans mål och animerar kameran med Aspose.3D. Steg‑för‑steg-guide med kodexempel.
+date: 2026-06-23
+description: Lär dig hur du ställer in camera target och positionerar kameran när
+  du initierar en 3D scene i Java med Aspose.3D. Inkluderar camera look at-tips och
+  animation basics.
 keywords:
-- how to position camera
-- how to animate camera
-- configure camera target
-linktitle: Hur man positionerar kameran och initierar 3D-scen i Java | Aspose.3D-handledning
+- set camera target
+- create 3d scene
+- camera look at
+- add camera scene
+- orbit camera animation
+linktitle: Ställ in Camera Target och Position Camera i Java | Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-06-23'
+  description: Learn how to set camera target and position the camera while initializing
+    a 3D scene in Java using Aspose.3D. Includes camera look at tips and animation
+    basics.
+  headline: Set Camera Target and Position Camera in Java | Aspose.3D
+  type: TechArticle
+- questions:
+  - answer: Create a new `Scene` object with `new Scene()`.
+    question: What is the first step?
+  - answer: '`com.aspose.threed.Camera`.'
+    question: Which class represents the camera?
+  - answer: Call `Camera.setTarget(Node)` on the camera node.
+    question: How do I point the camera at a target?
+  - answer: DISCREET3DS (`.3ds`).
+    question: What file format does the example export?
+  - answer: Yes—a commercial license is required; a free trial is fine for development.
+    question: Do I need a license for production?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Hur man placerar kameran och initierar 3D-scen i Java | Aspose.3D-handledning
+title: Ställ in Camera Target och Position Camera i Java | Aspose.3D
 url: /sv/java/animations/set-up-target-camera/
 weight: 11
 ---
@@ -17,32 +40,33 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hur man placerar kameran och initierar 3D-scen i Java | Aspose.3D-handledning
+# Ställ in kameramål och positionera kameran i Java | Aspose.3D
 
-## Introduktion
+I den här steg‑för‑steg‑guiden kommer du att upptäcka **hur du anger kameramål** när du initierar en 3D‑scen med Aspose.3D för Java. Korrekt kamerapositionering är grunden för alla interaktiva visualiseringar—oavsett om du bygger ett spel, en produktkonfigurator eller en vetenskaplig modell. Vi går igenom hur du skapar scenen, lägger till en kameranod, definierar en målnod och sparar resultatet, med tydliga förklaringar och praktiska tips.
 
-Välkommen! I den här handledningen kommer du att lära dig **hur man placerar kameran** medan du **initierar en 3D-scen i Java** med Aspose.3D och sedan fäster en mål‑kamera så att du kan animera dina modeller med full kontroll. Oavsett om du bygger ett spel, en produktvisualiserare eller en vetenskaplig simulering, är behärskning av kamerapositionering nyckeln till att leverera en engagerande tittarupplevelse.
+Scene är rotbehållaren som innehåller alla 3D‑objekt i ett projekt.  
+Camera representerar en vypunkt från vilken scenen renderas.  
+Camera.setTarget(Node) tilldelar en målnod som kameran alltid kommer att titta på.
 
 ## Snabba svar
-- **Vad är första steget?** Initiera 3D-scen med `new Scene()`.  
+- **Vad är det första steget?** Skapa ett nytt `Scene`‑objekt med `new Scene()`.  
 - **Vilken klass representerar kameran?** `com.aspose.threed.Camera`.  
-- **Hur pekar jag kameran på ett mål?** Använd `Camera.setTarget(Node)`.  
-- **Vilket filformat används i exemplet?** DISCREET3DS (`.3ds`).  
-- **Behöver jag en licens för utveckling?** En gratis provversion fungerar för testning; en kommersiell licens krävs för produktion.
+- **Hur pekar jag kameran mot ett mål?** Anropa `Camera.setTarget(Node)` på kameranoden.  
+- **Vilket filformat exporterar exemplet?** DISCREET3DS (`.3ds`).  
+- **Behöver jag en licens för produktion?** Ja—en kommersiell licens krävs; en gratis provversion räcker för utveckling.
 
-## Hur man placerar kameran och initierar 3D-scen Java
+## Vad betyder “initialize 3d scene java”?
+Att initiera en 3D‑scen skapar rotbehållaren som håller mesh‑objekt, ljus, kameror och transformationer, vilket ger dig en sandlåda att bygga och animera objekt i innan export. Det är det första logiska steget i någon Aspose.3D‑arbetsflöde.
 
-Att placera kameran korrekt är ofta det första visuella beslutet du gör i ett 3‑D‑projekt. Genom att kombinera **kamerapositionering** med sceninitiering skapar du en solid grund för senare animation, belysning och interaktion.
+## Varför sätta ett mål för kameran?
+En mål‑kamera orienterar automatiskt sin vy mot en angiven nod, vilket säkerställer att motivet förblir centrerat oavsett kamerans rörelse. Detta eliminerar manuella look‑at‑beräkningar, förenklar omloppsanimationer och ger en konsekvent inramning, vilket gör den idealisk för produktpresentationer, interaktiva visare och filmsekvenser.
 
-### Vad betyder “initialize 3d scene java”?
-Att initiera en 3D-scen i Java skapar rotbehållaren som håller alla objekt—meshes, ljus, kameror och transformationer. Det ger dig en sandlåda där du kan lägga till, flytta och animera element innan du exporterar dem till ett filformat du väljer.
-
-## Varför använda en mål‑kamera?
-En mål‑kamera orienterar sig automatiskt mot en specifik nod (”målet”). Detta är praktiskt för:
-
-- Att hålla en modell centrerad medan kameran rör sig runt den.  
+- Hålla en modell centrerad medan kameran rör sig runt den.  
 - Skapa omloppsanimationer utan att manuellt beräkna rotationsmatriser.  
 - Förenkla UI‑kontroller för slutanvändare som behöver fokusera på ett specifikt objekt.
+
+## Hur sätter man kameramål i Aspose.3D?
+Camera.setTarget(Node) sätter kamerans fokus på den angivna målnoden. Ladda din scen, lägg till en kameranod, skapa en barnnod som ska fungera som fokuspunkten, och anropa `Camera.setTarget(targetNode)`. Kameran kommer nu alltid att rikta sig mot målet, oavsett hur du senare flyttar den. Detta enkla metodanrop ersätter komplex matris‑matematik och säkerställer pålitlig vy‑justering.
 
 ## Konfigurera kameramål
 
@@ -52,7 +76,7 @@ Steget **konfigurera kameramål** talar om för kameran vilken nod den ska titta
 
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
-- Grundläggande kunskap i Java‑programmering.  
+- Grundläggande kunskaper i Java‑programmering.  
 - Java Development Kit (JDK) installerat på din maskin.  
 - Aspose.3D‑biblioteket nedladdat och tillagt i ditt projekt. Du kan ladda ner det [här](https://releases.aspose.com/3d/java/).
 
@@ -64,9 +88,9 @@ Börja med att importera de nödvändiga paketen för att säkerställa smidig k
 import com.aspose.threed.*;
 ```
 
-## Initiera 3D-scen Java
+## Initiera 3D‑scen Java
 
-Grunden för alla 3D‑arbetsflöden är scenobjektet. Här skapar vi det och sätter upp en katalog för utdatafilen.
+Grunden för alla 3D‑arbetsflöden är scen‑objektet. Här skapar vi det och ställer in en katalog för utdatafilen.
 
 ```java
 // The path to the documents directory.
@@ -77,7 +101,7 @@ Scene scene = new Scene();
 
 ## Steg 1: Skapa kameranod
 
-Nästa steg, skapa en kameranod i scenen för att fånga 3D‑miljön.
+Skapa sedan en kameranod i scenen för att fånga 3D‑miljön.
 
 ```java
 // Get a child node object
@@ -95,7 +119,7 @@ cameraNode.getTransform().setTranslation(new Vector3(100, 20, 0));
 
 ## Steg 3: Ställ in kameramål
 
-Specificera målet för kameran genom att skapa en undernod till rot‑noden. Kameran kommer automatiskt att titta på denna nod.
+Specificera målet för kameran genom att skapa en barnnod till rot‑noden. Kameran kommer automatiskt att titta på denna nod.
 
 ```java
 ((Camera)cameraNode.getEntity()).setTarget(scene.getRootNode().createChildNode("target"));
@@ -103,7 +127,7 @@ Specificera målet för kameran genom att skapa en undernod till rot‑noden. Ka
 
 ## Steg 4: Spara scen
 
-Spara den konfigurerade scenen till en fil i önskat format (i detta exempel, DISCREET3DS).
+Spara den konfigurerade scenen till en fil i önskat format (i detta exempel DISCREET3DS).
 
 ```java
 MyDir = MyDir + "camera-test.3ds";
@@ -112,36 +136,43 @@ scene.save(MyDir, FileFormat.DISCREET3DS);
 
 ## Hur man animerar kameran
 
-Även om den här handledningen fokuserar på placering, kan samma kameranod animeras senare med Aspose.3D:s animations‑API:er. Till exempel kan du skapa en rotationsanimation som kretsar runt mål‑noden, eller flytta kameran längs en spline‑bana. Nyckeln är att när **mål‑kameran** är satt, behöver animationen bara modifiera kameranodens transform – vyn kommer alltid att vara låst på målet.
+Även om den här handledningen fokuserar på positionering, kan samma kameranod animeras senare med Aspose.3D:s animations‑API:er. Till exempel kan du skapa en rotationsanimation som kretsar runt målnoden, eller flytta kameran längs en spline‑bana. Nyckeln är att när **mål‑kameran** är satt, behöver animationen bara modifiera kameranodens transform—vyn kommer alltid att vara låst på målet.
 
 ## Vanliga fallgropar & tips
 
-- **Glömt att lägga till mål‑noden?** Kameran kommer som standard att titta längs den negativa Z‑axeln, vilket kanske inte ger den förväntade vyn. Skapa alltid en mål‑nod eller sätt look‑at‑riktningen manuellt.  
-- **Fel filväg?** Säkerställ att `MyDir` slutar med en sökvägsseparator (`/` eller `\\`) innan du lägger till filnamnet.  
+- **Glömt att lägga till målnoden?** Kameran kommer då att titta längs den negativa Z‑axeln, vilket kanske inte ger den förväntade vyn. Skapa alltid en målnod eller ställ in look‑at‑riktningen manuellt.  
+- **Felaktig filsökväg?** Säkerställ att `MyDir` slutar med en sökvägsseparator (`/` eller `\\`) innan du lägger till filnamnet.  
 - **Licens ej satt?** Att köra koden utan en giltig licens kommer att bädda in ett vattenmärke i den exporterade filen.
 
 ## Vanliga frågor
 
 **Q1: Hur laddar jag ner Aspose.3D för Java?**  
-A: Du kan ladda ner biblioteket från [Aspose.3D Java download page](https://releases.aspose.com/3d/java/).
+A: Du kan ladda ner biblioteket från [Aspose.3D Java nedladdningssida](https://releases.aspose.com/3d/java/).
 
 **Q2: Var kan jag hitta dokumentationen för Aspose.3D?**  
-A: Se [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) för omfattande vägledning.
+A: Se [Aspose.3D Java dokumentation](https://reference.aspose.com/3d/java/) för omfattande vägledning.
 
 **Q3: Finns det en gratis provversion?**  
 A: Ja, du kan utforska en gratis provversion av Aspose.3D [här](https://releases.aspose.com/).
 
-**Q4: Behöver du support eller har frågor?**  
+**Q4: Behöver du support eller har du frågor?**  
 A: Besök [Aspose.3D forum](https://forum.aspose.com/c/3d/18) för att få hjälp från communityn och experter.
 
-**Q5: Hur kan jag få en tillfällig licens?**  
+**Q5: Hur kan jag skaffa en tillfällig licens?**  
 A: Du kan skaffa en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Last Updated:** 2026-04-05  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
+**Senast uppdaterad:** 2026-06-23  
+**Testad med:** Aspose.3D för Java 24.11  
+**Författare:** Aspose
+
+## Relaterade handledningar
+
+- [Create 3D Scene Java with Aspose 3D Java](/3d/java/3d-scenes-and-models/)
+- [Create an Animated 3D Scene in Java – Aspose.3D Tutorial](/3d/java/animations/)
+- [Linear Interpolation 3D - How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D](/3d/java/animations/add-animation-properties-to-scenes/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
