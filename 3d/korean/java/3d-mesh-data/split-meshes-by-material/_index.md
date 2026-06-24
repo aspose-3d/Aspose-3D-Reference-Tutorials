@@ -1,10 +1,15 @@
 ---
-date: 2026-01-27
-description: Aspose.3D를 사용한 Java에서 재질별로 메쉬를 효율적으로 분할하는 방법을 배워보세요. 이 가이드는 재질별 메쉬 분할
+date: 2026-05-04
+description: Aspose.3D를 사용한 Java에서 재질별로 메쉬를 효율적으로 분할하는 방법을 배웁니다. 이 가이드는 재질별 메쉬 분할
   시 드로우 콜을 줄이고 렌더링 성능을 향상시키는 방법을 보여줍니다.
-linktitle: How to Split Mesh by Material in Java Using Aspose.3D
+keywords:
+- how to split mesh
+- reduce draw calls
+- improve rendering performance
+- split mesh by material
+linktitle: Aspose.3D를 사용하여 Java에서 재질별 메쉬 분할하는 방법
 second_title: Aspose.3D Java API
-title: Aspose.3D를 사용하여 Java에서 재질별로 메쉬 분할하는 방법
+title: Java와 Aspose.3D를 사용하여 재질별 메쉬 분할하는 방법
 url: /ko/java/3d-mesh-data/split-meshes-by-material/
 weight: 12
 ---
@@ -15,68 +20,50 @@ weight: 12
 
 # Java에서 Aspose.3D를 사용하여 재질별 메쉬 분할 방법
 
-## Introduction
+## 소개
 
-Java에서 3D 그래픽을 다루다 보면, 특히 하나의 메쉬에 여러 재질이 포함된 경우 대형 메쉬 처리가 성능 병목이 될 수 있다는 것을 금방 알게 됩니다. **재질별 메쉬 분할**을 배우면 재질별 폴리곤 그룹을 별도로 분리할 수 있어 렌더링 속도가 빨라지고 컬링이 쉬워지며 텍스처 처리에 대한 세밀한 제어가 가능해집니다. 이 튜토리얼에서는 Aspose.3D 라이브러리를 사용해 **재질별 메쉬 분할**을 수행하는 정확한 단계를 실용적인 설명과 함께 제공하고, 드로우 콜을 줄이는 팁 및 렌더링 성능을 향상시키는 방법을 안내합니다.
-
-## Quick Answers
-- **“재질별 메쉬 분할”이란 무엇인가요?** 하나의 메쉬를 여러 개의 서브 메쉬로 나누어, 각 서브 메쉬가 동일한 재질을 공유하는 폴리곤만 포함하도록 합니다.
-- **왜 Aspose.3D를 사용하나요?** 저수준 파일 포맷을 추상화하면서도 높은 성능을 유지하는 크로스 플랫폼 고수준 API를 제공합니다.
-- **구현에 얼마나 걸리나요?** 코딩 및 테스트에 대략 10~15분 정도 소요됩니다.
-- **라이선스가 필요합니까?** 무료 체험판을 제공하며, 상용 환경에서는 상업용 라이선스가 필요합니다.
-- **지원되는 Java 버전은?** Java 8 이상.
-
-## What is Mesh Splitting?
-
-메쉬 분할은 복잡한 3D 메쉬를 더 작고 관리하기 쉬운 조각으로 나누는 과정입니다. 재질을 기준으로 분할하면, 각 서브 메쉬는 단일 재질만을 참조하는 폴리곤을 포함하게 됩니다. 이 방식은 드로우 콜을 감소시키고 렌더링 성능을 향상시키며, 재질별 셰이더 적용과 같은 작업을 단순화합니다.
-
-## Why Split Mesh by Material?
-
-- **Performance:** 렌더링 엔진이 재질별로 드로우 콜을 배치할 수 있어 GPU 상태 전환을 줄입니다.
-- **Flexibility:** 재질별로 서로 다른 후처리 효과나 충돌 로직을 적용할 수 있습니다.
-- **Memory Management:** 작은 메쉬는 메모리 스트리밍이 용이해 모바일이나 VR 환경에서 특히 중요합니다.
-- **Reduced Draw Calls:** 상태 전환이 적어 GPU가 프레임을 더 효율적으로 처리합니다.
-- **Improved Rendering Performance:** 재질을 분리하면 컬링 및 쉐이딩 결과가 향상됩니다.
-
-## Prerequisites
-
-코드를 진행하기 전에 다음이 준비되어 있어야 합니다:
-
-- Java 프로그래밍에 대한 기본 지식.
-- Aspose.3D for Java 라이브러리 설치 ([Aspose 웹사이트](https://releases.aspose.com/3d/java/)에서 다운로드).
-- IntelliJ IDEA, Eclipse, VS Code 등 Java 개발에 설정된 IDE.
-Java에서 3D 그래픽을 보고 있겠네요, 특히 하나의 메쉬에 다재다능한 재질이 포함된 경우 메쉬 대형 처리가 성능 병목이 될 수 있다는 것을 알지 못할 것입니다. **재질별 메쉬 분할**을 배우 면 재질 폴리곤 그룹을 분리할 수 있어 속도가 지고 컬링이 가능하도록 처리에 대한 세밀한 제어가 가능해집니다. 이 튜토리얼에서는 Aspose.3D 라이브러리를 활동 **재질별 메쉬 분할**을 수행하는 단계를 실용적인 설명과 함께 제공하고, 굴림을 줄이는 팁 및 버퍼 성능을 향상시키는 방법을 안내합니다.
+Java에서 3D 그래픽 작업을 하다 보면, 특히 하나의 메쉬에 여러 재질이 포함된 경우 큰 메쉬를 처리하는 것이 성능 병목이 될 수 있다는 것을 금방 알게 됩니다. **재질별 메쉬 분할** 방법을 배우면 재질별 폴리곤 그룹을 개별적으로 분리할 수 있어 렌더링 속도가 빨라지고 컬링이 쉬워지며 텍스처 처리에 대한 세밀한 제어가 가능해집니다. 이 튜토리얼에서는 Aspose.3D 라이브러리를 사용하여 **재질별 메쉬 분할**을 수행하는 정확한 단계들을 실용적인 설명, 드로우 콜 감소 팁, 렌더링 성능 향상 조언과 함께 안내합니다.
 
 ## 빠른 답변
-- **“재질별 메쉬 분할”이란 무엇입니까?** 하나의 메쉬를 여러 개의 서브 메쉬로 나누어, 각 서브 메쉬가 함께 재질을 공유하는 폴리곤만 허용합니다.
-- **왜 Aspose.3D를 사용하면서 매력적인가요?** 저 수준의 파일 전송을 추상화하고 높은 성능을 유지하는 크로스 플랫폼 고수준 API를 제공합니다.
-- **구현에 얼마쯤 걸리나요?** 코딩 및 테스트에 대략 10~15분 정도 소요됩니다.
-- **라이선스가 필요합니까?** 무료 체험판을 제공하며, 장치 환경에 전원이 필요합니다.
-- **지원되는 Java 버전은?** Java8이상입니다.
+- **“재질별 메쉬 분할”이란 무엇인가요?** 단일 메쉬를 여러 서브‑메쉬로 나누어, 동일한 재질을 공유하는 폴리곤만을 포함하도록 합니다.  
+- **왜 Aspose.3D를 사용하나요?** 낮은 수준의 파일 포맷을 추상화하면서도 성능을 유지하는 고수준 크로스‑플랫폼 API를 제공합니다.  
+- **구현에 얼마나 걸리나요?** 코딩 및 테스트에 대략 10~15분 정도 소요됩니다.  
+- **라이선스가 필요합니까?** 무료 체험판을 사용할 수 있으며, 상용 환경에서는 상업용 라이선스가 필요합니다.  
+- **지원되는 Java 버전은?** Java 8 이상.
 
-## 메쉬 분할이란 무엇입니까?
+## 재질별 메쉬 분할 – 개요
+재질별 메쉬 분할은 기본적으로 두 단계로 이루어집니다: 먼저 각 폴리곤에 재질 인덱스를 지정하고, 그 다음 Aspose.3D에 해당 인덱스를 기준으로 메쉬를 분리하도록 요청합니다. 결과적으로 각각 단일 드로우 콜로 렌더링할 수 있는 작은 메쉬들의 컬렉션이 생성됩니다—이는 **드로우 콜 감소**와 **데스크톱 및 모바일 GPU 모두에서 렌더링 성능 향상**에 크게 기여합니다.
 
-메쉬 분리는 복합적인 3D 메쉬를 더 작고 관리하기 쉬운 조각으로 만드는 과정입니다. 재질을 기준으로 나누면, 각 서브 메쉬는 단일 재질을 참조하는 폴리곤을 포함하게 합니다. 이 방식은 베어링을 고정할 수 있고, 타이어 고정 장치와 같은 용도로 사용할 수 있습니다.
+## 메쉬 분할이란?
+메쉬 분할은 복잡한 3D 메쉬를 더 작고 관리하기 쉬운 조각으로 나누는 과정입니다. 재질을 기준으로 분할하면, 각 서브‑메쉬는 단일 재질만을 참조하는 폴리곤을 포함하게 됩니다. 이 접근 방식은 드로우 콜을 줄이고 렌더링 성능을 개선하며, 재질별 셰이더 적용과 같은 작업을 단순화합니다.
 
-## 메쉬를 재료별로 분할하는 이유는 무엇입니까?
+## 왜 재질별 메쉬를 분할해야 할까?
+- **Performance:** 렌더링 엔진은 재질별로 드로우 콜을 배치할 수 있어 GPU 상태 전환을 줄입니다.  
+- **Flexibility:** 재질마다 다른 후처리 효과나 충돌 로직을 적용할 수 있습니다.  
+- **Memory Management:** 작은 메쉬는 메모리 스트리밍이 용이해 모바일이나 VR 애플리케이션에 필수적입니다.  
+- **Reduced Draw Calls:** 상태 전환이 감소하면 GPU가 프레임을 더 효율적으로 처리합니다.  
+- **Improved Rendering Performance:** 재질을 분리하면 컬링 및 쉐이딩 결과가 향상되는 경우가 많습니다.
 
-- **성능:** 지퍼 엔진이 재질 내구성 있는 콜을 배치할 수 있어 GPU 상태 전환을 줄입니다.
-- **유연성:** 재질이 서로 다른 후처리 효과나 충돌하는 것을 적용할 수 있습니다.
-- **메모리 관리:** 작은 메시는 메모리 스트리밍이 편리해 모바일이나 VR 환경에서 특히 중요합니다.
-- **드로 콜 감소:** 상태 전환이 거부되는 GPU가 프레임을 더 불편하게 처리합니다.
-- **향상된 렌더링 성능: ** 재질을 분리하면 결과가 겹쳐집니다.
+## 일반적인 사용 사례
 
-## 전제조건
+| 시나리오 | 분할의 이점 |
+|----------|----------------------|
+| **실시간 전략 게임** | 각 지형 유형마다 고유한 재질을 사용해 엔진이 모든 풀잎을 한 번에 그릴 수 있습니다. |
+| **건축 시각화** | 벽, 유리, 금속을 별도로 처리해 각각 다른 셰이더 효과를 적용할 수 있습니다. |
+| **모바일 AR 앱** | 드로우 콜을 줄여 제한된 하드웨어에서도 60 fps를 유지합니다. |
+| **VR 경험** | GPU 작업량을 낮춰 레이턴시를 감소시키고 사용자 편안함을 향상시킵니다. |
 
-코드를 진행하기 전에 다음을 준비해야 합니다:
+## 전제 조건
 
-- Java 프로그래밍에 대한 기본 지식.
-- Aspose.3D for Java 라이브러리 설치 ([Aspose 웹사이트](https://releases.aspose.com/3d/java/)에서 다운로드).
-- IntelliJ IDEA, Eclipse, VS Code 등 Java 개발에 IDE.
+코드 작성을 시작하기 전에 다음이 준비되어 있어야 합니다:
 
-## Import Packages
+- Java 프로그래밍에 대한 기본 지식.  
+- Aspose.3D for Java 라이브러리 설치 ([Aspose 웹사이트](https://releases.aspose.com/3d/java/)에서 다운로드).  
+- IntelliJ IDEA, Eclipse 또는 VS Code와 같이 Java 개발에 설정된 IDE.
 
-먼저 필요한 Aspose.3D 클래스와 표준 Java 유틸리티를 import합니다:
+## 패키지 가져오기
+
+먼저 필요한 Aspose.3D 클래스와 표준 Java 유틸리티를 가져옵니다:
 
 ```java
 import com.aspose.threed.*;
@@ -84,18 +71,13 @@ import com.aspose.threed.*;
 import java.util.Arrays;
 ```
 
-## Step‑by‑Step Guide
-
-아래는 각 단계별 간략한 walkthrough이며, 코드 블록 앞에 설명을 넣어 무엇을 하는지 정확히 이해할 수 있도록 했습니다.
-
-### Step 1: Create a Mesh of a Box
 ## 단계별 가이드
 
-아래는 각 단계별 간략한 walkthrough이며, 코드 블록 앞에 설명을 넣어 무엇을 하는지 정확히 이해할 수 있도록 했습니다.
+아래는 각 단계를 간결히 정리한 내용이며, 코드 블록 앞에 설명을 넣어 무엇을 하는지 정확히 이해할 수 있도록 했습니다.
 
-### 1단계: 상자 메쉬 생성
+### 단계 1: 박스 메쉬 생성
 
-간단한 기하 원시인 박스를 생성하여 각 면(플레인)이 나중에 자체 재질을 갖게 되는 과정을 명확히 확인합니다.
+간단한 기하학 원시인 박스를 사용해 각 면(플레인)에 나중에 재질을 할당하는 과정을 명확히 보여줍니다.
 
 ```java
 // ExStart:SplitMeshbyMaterial
@@ -104,8 +86,7 @@ import java.util.Arrays;
 Mesh box = (new Box()).toMesh();
 ```
 
-### Step 2: Create a Material Element
-### 2단계: 재질 요소 생성
+### 단계 2: 재질 요소 생성
 
 `VertexElementMaterial`은 각 폴리곤에 대한 재질 인덱스를 저장합니다. 이를 메쉬에 연결하면 각 면이 사용할 재질을 제어할 수 있습니다.
 
@@ -114,30 +95,27 @@ Mesh box = (new Box()).toMesh();
 VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
 ```
 
-### Step 3: Specify Different Material Indices
-### 3단계: 서로 다른 재질 인덱스 지정
+### 단계 3: 서로 다른 재질 인덱스 지정
 
-여기서는 박스의 6개 면 각각에 고유한 재질 인덱스를 할당합니다. 배열 순서는 `Box` 프리미티브가 생성하는 폴리곤 순서와 일치합니다.
+여기서는 박스의 여섯 면 각각에 고유한 재질 인덱스를 할당합니다. 배열 순서는 `Box` 프리미티브가 생성하는 폴리곤 순서와 일치합니다.
 
 ```java
 // Specify different material indices for each plane
 mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 ```
 
-### Step 4: Split the Mesh into Sub‑Meshes
-### 4단계: 메쉬를 하위 메쉬로 분할
+### 단계 4: 메쉬를 서브 메쉬로 분할
 
-`PolygonModifier.splitMesh`에 `SplitMeshPolicy.CLONE_DATA`를 전달하면, 원본 정점 데이터를 보존하면서 서로 다른 재질 인덱스마다 새로운 서브 메쉬가 생성됩니다.
+`PolygonModifier.splitMesh`에 `SplitMeshPolicy.CLONE_DATA`를 전달하면, 각 고유 재질 인덱스마다 새로운 서브‑메쉬가 생성되며 원본 정점 데이터는 그대로 유지됩니다.
 
 ```java
 // Split the mesh into 6 sub-meshes, each plane becoming a sub-mesh
 Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
 ```
 
-### Step 5: Update Material Indices and Split Again
-### 5단계: 재질 인덱스 업데이트 및 다시 분할
+### 단계 5: 재질 인덱스 업데이트 및 재분할
 
-다른 분할 전략을 보여주기 위해, 처음 세 면을 재질 0에, 나머지 세 면을 재질 1에 할당한 뒤 `COMPACT_DATA`를 사용해 사용되지 않는 정점을 제거하면서 다시 분할합니다.
+다른 분할 전략을 보여주기 위해 첫 세 면을 재질 0, 나머지 세 면을 재질 1로 그룹화하고, 사용되지 않은 정점을 제거하기 위해 `COMPACT_DATA` 정책으로 다시 분할합니다.
 
 ```java
 // Update material indices and split into 2 sub-meshes
@@ -146,10 +124,9 @@ mat.setIndices(new int[]{0, 0, 0, 1, 1, 1});
 planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
 ```
 
-### Step 6: Confirm Success
-### 6단계: 성공 확인
+### 단계 6: 성공 확인
 
-간단한 콘솔 메시지를 통해 작업이 오류 없이 완료되었음을 확인합니다.
+간단한 콘솔 메시지를 통해 작업이 오류 없이 완료되었음을 알립니다.
 
 ```java
 // Display success message
@@ -157,51 +134,45 @@ System.out.println("\nSplitting a mesh by specifying the material successfully."
 // ExEnd:SplitMeshbyMaterial
 ```
 
-## Reduce Draw Calls and Improve Rendering Performance
+## 드로우 콜 감소 및 렌더링 성능 향상
 
-각 재질을 별개의 메쉬로 전환하면 그래픽 파이프라인이 재질당 하나의 드로우 콜만 발행하게 되어, 폴리곤당 하나씩 발행하는 경우보다 훨씬 적은 드로우 콜을 사용합니다. 이는 특히 저사양 하드웨어에서 프레임 레이트를 크게 향상시킵니다. 또한 `COMPACT_DATA` 정책은 사용되지 않는 정점을 제거해 메모리 대역폭 사용을 줄이고 GPU가 보다 효율적으로 렌더링하도록 돕습니다.
+각 재질을 별개의 메쉬로 만들면 그래픽 파이프라인이 재질당 하나의 드로우 콜만 발행하게 됩니다. 이는 특히 저사양 하드웨어에서 프레임 레이트를 크게 끌어올립니다. 또한 `COMPACT_DATA` 정책은 사용되지 않는 정점을 제거해 메모리 대역폭을 낮추고 GPU가 더 효율적으로 렌더링하도록 돕습니다.
 
-## Common Issues and Solutions
+## 일반적인 문제 및 해결책
 
-| Issue | Why It Happens | Fix |
+| 문제 | 발생 원인 | 해결 방법 |
 |-------|----------------|-----|
-| **Sub‑meshes contain duplicate vertices** | Using `CLONE_DATA` copies all vertex data for each sub‑mesh. | Switch to `COMPACT_DATA` when you want shared vertices to be deduplicated. |
-| **Incorrect material assignment** | Indices array length does not match polygon count. | Verify the number of polygons (e.g., a box has 6) and supply a matching indices array. |
-
-## Frequently Asked Questions
-## 그리기 호출을 줄이고 렌더링 성능을 향상시킵니다.
-
-폴리곤당 발행하는 경우보다 훨씬 더 많은 차원의 컨테이너를 발행하게 됩니다. 특히 저사양 하드웨어에서 프레임 프레임을 크게 개선했습니다. `COMPACT_DATA` 부분은 사용하지 않는 것을 제거해 메모리 사용을 지원하기 위해 GPU가 보다 사용자에게 도움을 주기 위해 도움을 줍니다.
-
-## 일반적인 문제 및 해결 방법
-
-| 이슈 | 왜 이런 일이 일어나는가 | 수정 |
-|-------|---|----|
-| **하위 메시에 중복된 정점이 포함되어 있습니다** | 'CLONE_DATA'를 사용하면 각 하위 메시의 모든 정점 데이터가 복사됩니다. | 공유 정점을 중복 제거하려면 `COMPACT_DATA`로 전환하세요. |
-| **잘못된 재료 할당** | 인덱스 배열 길이가 다각형 개수와 일치하지 않습니다. | 다각형 수(예: 상자에 6개가 있음)를 확인하고 일치하는 인덱스 배열을 제공합니다. |
+| **Sub‑meshes contain duplicate vertices** | `CLONE_DATA`를 사용하면 각 서브‑메쉬에 모든 정점 데이터가 복사됩니다. | 정점을 공유하고 싶을 때는 `COMPACT_DATA`로 전환하여 중복을 제거합니다. |
+| **Incorrect material assignment** | 인덱스 배열 길이가 폴리곤 수와 일치하지 않습니다. | 폴리곤 수(예: 박스는 6)를 확인하고 일치하는 인덱스 배열을 제공하십시오. |
 
 ## 자주 묻는 질문
 
 **Q: Aspose.3D가 다른 Java 3D 라이브러리와 호환되나요?**  
-A: 네, Aspose.3D는 Java 3D, jMonkeyEngine 등과 함께 사용할 수 있어 메쉬를 자유롭게 import/export 할 수 있습니다.
+A: 네, Aspose.3D는 Java 3D나 jMonkeyEngine과 같이 공존할 수 있어 메쉬를 서로 가져오고 내보낼 수 있습니다.
 
-**Q: 수백 개의 재질을 가진 복잡한 모델에도 이 기법을 적용할 수 있나요?**  
-A: 물론입니다. 메쉬 복잡도와 관계없이 동일한 API 호출을 사용하면 되며, 인덱스 배열만 정확히 재질 레이아웃을 반영하면 됩니다.
+**Q: 이 기술을 수백 개의 재질을 가진 복잡한 모델에 적용할 수 있나요?**  
+A: 물론 가능합니다. 메쉬 복잡도와 관계없이 동일한 API 호출이 작동합니다. 단, 인덱스 배열이 재질 레이아웃을 정확히 반영하도록 해야 합니다.
 
 **Q: 전체 Aspose.3D Java 문서는 어디서 찾을 수 있나요?**  
-A: 공식 [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/)에서 상세 API 레퍼런스와 추가 예제를 확인할 수 있습니다.
+A: 자세한 API 레퍼런스와 추가 예제는 공식 [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/)을 방문하십시오.
 
 **Q: Aspose.3D for Java의 무료 체험판이 있나요?**  
 A: 네, [Aspose Releases page](https://releases.aspose.com/)에서 체험판을 다운로드할 수 있습니다.
 
-**Q: 문제가 발생하면 어디서 지원을 받을 수 있나요?**  
-A: Aspose 커뮤니티 포럼([Aspose.3D forum](https://forum.aspose.com/c/3d/18))에서 질문을 올리면 Aspose 팀 및 다른 개발자들로부터 도움을 받을 수 있습니다.
+**Q: 문제가 발생했을 때 지원을 어떻게 받을 수 있나요?**  
+A: Aspose 커뮤니티 포럼([Aspose.3D forum](https://forum.aspose.com/c/3d/18))에서 질문을 올리면 Aspose 팀과 다른 개발자들로부터 도움을 받을 수 있습니다.
+
+## 결론
+
+이제 Java에서 Aspose.3D를 사용해 **재질별 메쉬 분할**을 수행하는 완전한 생산 준비 방법을 익혔습니다. 이 기술을 적용하면 드로우 콜이 줄어들고 메모리 사용이 최적화되며 다양한 디바이스에서 렌더링이 부드러워집니다. `SplitMeshPolicy` 옵션을 다양하게 실험하거나 결과 서브‑메쉬를 자체 렌더링 파이프라인에 통합해 보세요.
 
 ---
 
-**Last Updated:** 2026-01-27  
+**Last Updated:** 2026-05-04  
 **Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
+**Author:** Aspose
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
