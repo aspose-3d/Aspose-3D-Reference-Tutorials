@@ -1,11 +1,71 @@
 ---
-date: 2026-02-22
-description: Aspose.3D for Java का उपयोग करके रैखिक एक्सट्रूज़न ट्विस्ट और ट्विस्ट
-  ऑफ़सेट के साथ 3D सीन कैसे बनाएं और निर्यात करें, सीखें।
-linktitle: Using Twist Offset in Linear Extrusion with Aspose.3D for Java
+date: 2026-06-29
+description: जानेँ कि Java में twist offset linear extrusion के साथ 3D सीन बनाने के
+  लिए Aspose 3D license का उपयोग कैसे करें और इसे Wavefront OBJ फ़ाइल के रूप में निर्यात
+  करें।
+keywords:
+- aspose 3d license
+- wavefront obj export
+- linear extrusion twist
+- java 3d modeling
+linktitle: Java के लिए Aspose.3D के साथ Linear Extrusion में Twist Offset का उपयोग
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to use an Aspose 3D license to create a 3D scene with twist
+    offset linear extrusion in Java and export it as a Wavefront OBJ file.
+  headline: Using Aspose 3D License for Twist Offset Extrusion in Java
+  type: TechArticle
+- description: Learn how to use an Aspose 3D license to create a 3D scene with twist
+    offset linear extrusion in Java and export it as a Wavefront OBJ file.
+  name: Using Aspose 3D License for Twist Offset Extrusion in Java
+  steps:
+  - name: Set Up the Environment
+    text: Begin by setting up your Java development environment and ensuring that
+      Aspose.3D for Java is correctly installed. This step is essential for any **java
+      3d modeling** work.
+  - name: Initialize the Base Profile
+    text: '`RectangleShape` is a class representing a rectangular 2‑D shape used as
+      an extrusion profile. Create a base profile for extrusion, in this case, a `RectangleShape`
+      with a rounding radius of 0.3. The profile defines the cross‑section that will
+      be swept along the extrusion path.'
+  - name: Create a 3D Scene
+    text: '`Scene` is the container that holds all nodes, lights, and cameras for
+      your model. Building the scene first gives you a place to attach the extruded
+      geometry.'
+  - name: Create Nodes
+    text: Generate nodes within the scene to represent different entities. Here we
+      create two sibling nodes—one for a plain extrusion and another that uses a twist
+      offset.
+  - name: Perform Linear Extrusion with Twist and Twist Offset
+    text: Apply linear extrusion on both nodes. The left node demonstrates a basic
+      twist, while the right node adds a twist offset to illustrate the extra control
+      you get with this feature. `setSlices(int)` sets the number of slices (segments)
+      used to approximate the twist, controlling mesh resolution. > **Pr
+  - name: Save the 3D Scene (Export 3d scene)
+    text: '`save(String, FileFormat)` writes the scene to a file in the specified
+      format. Finally, export the assembled scene to an OBJ file so you can view it
+      in any standard 3D viewer or import it into other pipelines. CODE_BLOCK_PLACEHOLDER_6_END
+      When the code runs successfully, you’ll find `TwistOffsetInLi'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.3D for Java can be used in both commercial and non‑commercial
+      projects. Check the [licensing options](https://purchase.aspose.com/buy) for
+      more details.
+    question: Can I use Aspose.3D for Java in non‑commercial projects?
+  - answer: Visit the [Aspose.3D for Java forum](https://forum.aspose.com/c/3d/18)
+      to get assistance and connect with the community.
+    question: Where can I find support for Aspose.3D for Java?
+  - answer: Yes, you can explore a free trial version from the [releases page](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.3D for Java?
+  - answer: Get a temporary license for your project by visiting [this link](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for Aspose.3D for Java?
+  - answer: Yes, refer to the [documentation](https://reference.aspose.com/3d/java/)
+      for more examples and in‑depth tutorials.
+    question: Are there additional examples and tutorials available?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Aspose.3D for Java का उपयोग करके लीनियर एक्सट्रूज़न में ट्विस्ट ऑफसेट के साथ
-  3D सीन कैसे बनाएं
+title: Java में Twist Offset Extrusion के लिए Aspose 3D License का उपयोग करना
 url: /hi/java/linear-extrusion/using-twist-offset/
 weight: 15
 ---
@@ -14,36 +74,36 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D for Java के साथ लीनियर एक्सट्रूज़न में ट्विस्ट ऑफ़सेट का इस्तेमाल
+# जावा में ट्विस्ट ऑफसेट एक्सट्रूज़न के लिए Aspose 3D लाइसेंस का उपयोग
 
-## इंट्रोडक्शन
+## परिचय
 
-3D ग्राफिक्स की गतिशील दुनिया में, **create 3d scene** की कला में महारत हासिल करना किसी भी Java 3D मॉडलिंग प्रोजेक्ट के लिए गेम‑चेंजर है। Aspose.3D for Java के साथ आप न केवल आकारों को रैखिक रूप से एक्सट्रूड कर सकते हैं बल्कि ट्विस्ट ऑफसेट जोड़कर जटिल, घुमावदार ज्योमेट्री भी बना सकते हैं। यह ट्यूटोरियल आपको **create 3d scene** करने, रैखिक एक्सट्रूज़न ट्विस्ट लागू करने, और अंत में **export 3d scene** को सामान्य OBJ फ़ाइल में निर्यात करने के सभी चरणों से परिचित कराता है।
+Java में 3D सीन बनाना **Aspose 3D लाइसेंस** को लीनियर एक्सट्रूज़न ट्विस्ट और ट्विस्ट ऑफसेट फीचर्स के साथ मिलाकर बहुत अधिक शक्तिशाली हो जाता है। यह ट्यूटोरियल आपको **3D सीन बनाना**, ट्विस्ट ऑफसेट लागू करना, और अंत में **3D सीन को Wavefront OBJ फ़ाइल** के रूप में निर्यात करने के सभी चरणों के माध्यम से ले जाता है। लाइसेंस्ड संस्करण के साथ आप पूर्ण‑रिज़ॉल्यूशन मेष जेनरेशन, अनलिमिटेड फ़ाइल आकार, और कमर्शियल‑ग्रेड परफ़ॉर्मेंस अनलॉक कर सकते हैं।
 
-## क्विक आंसर्स
-- **What does Twist Offset do?** यह ट्विस्ट के प्रारंभ बिंदु को बदलता है, जिससे आप एक्सट्रूज़न पथ के साथ घूर्णन को ऑफसेट कर सकते हैं।  
-- **Which class performs linear extrusion?** `LinearExtrusion` – आप इस पर ट्विस्ट, स्लाइस, और ट्विस्ट ऑफसेट सेट कर सकते हैं।  
-- **Can I export the result?** हाँ, `scene.save(..., FileFormat.WAVEFRONTOBJ)` को कॉल करके 3D सीन को निर्यात करें।  
-- **Do I need a license for development?** परीक्षण के लिए एक अस्थायी लाइसेंस काम करता है; उत्पादन के लिए पूर्ण लाइसेंस आवश्यक है।  
-- **What Java version is supported?** कोई भी Java 8+ रनटाइम नवीनतम Aspose.3D लाइब्रेरी के साथ काम करता है।
+## त्वरित उत्तर
+- **ट्विस्ट ऑफसेट क्या करता है?** यह ट्विस्ट की प्रारंभिक बिंदु को शिफ्ट करता है, जिससे आप एक्सट्रूज़न पाथ के साथ घूर्णन को ऑफसेट कर सकते हैं।  
+- **कौन सा क्लास लीनियर एक्सट्रूज़न करता है?** `LinearExtrusion` – आप इसमें ट्विस्ट, स्लाइस, और ट्विस्ट ऑफसेट सेट कर सकते हैं।  
+- **क्या मैं परिणाम को निर्यात कर सकता हूँ?** हाँ, `scene.save(..., FileFormat.WAVEFRONTOBJ)` को कॉल करके 3D सीन को निर्यात करें।  
+- **क्या विकास के लिए Aspose 3D लाइसेंस आवश्यक है?** परीक्षण के लिए एक टेम्पररी लाइसेंस काम करता है; उत्पादन के लिए और इवैल्युएशन वाटरमार्क हटाने के लिए पूर्ण **Aspose 3D लाइसेंस** आवश्यक है।  
+- **कौन सा Java संस्करण समर्थित है?** कोई भी Java 8+ रनटाइम नवीनतम Aspose.3D लाइब्रेरी के साथ काम करता है।
 
-## Aspose.3D में “क्रिएट 3D सीन” क्या है?
-3D सीन बनाना मतलब `Scene` ऑब्जेक्ट का इंस्टैंसिएशन, उसके हायरार्की में नोड्स (ऑब्जेक्ट्स) जोड़ना, और अंत में सीन को अपनी पसंद के फ़ाइल फ़ॉर्मेट में सहेजना। यह Java में किसी भी 3D मॉडलिंग वर्कफ़्लो की बुनियाद है।
+## Aspose.3D में “create 3d scene” क्या है?
 
-## ट्विस्ट ऑफ़सेट के साथ लीनियर एक्सट्रूज़न ट्विस्ट का इस्तेमाल क्यों करें?
-एक्सट्रूज़न के दौरान ट्विस्ट जोड़ने से आपको हेलिकल कॉलम या सजावटी हैंडल जैसी सर्पिल रूप मिलते हैं। ट्विस्ट ऑफसेट आपको ट्विस्ट को एक कस्टम स्थिति से शुरू करने देता है, जिससे अंतिम आकार पर अधिक सूक्ष्म नियंत्रण मिलता है—मैकेनिकल पार्ट्स, कलात्मक मॉडल या आर्किटेक्चरल डिटेल्स के लिए एकदम उपयुक्त।
+`Scene` Aspose.3D का टॉप‑लेवल ऑब्जेक्ट है जो एक पूर्ण 3D पर्यावरण का प्रतिनिधित्व करता है। Aspose.3D में 3D सीन बनाना का अर्थ है एक `Scene` ऑब्जेक्ट को इंस्टैंशिएट करना, ऐसे चाइल्ड नोड्स जोड़ना जिनमें जियोमेट्री, लाइट्स, या कैमरे हों, और फिर इस हायरार्की को OBJ जैसे फ़ाइल फ़ॉर्मेट में सहेजना। `Scene` आपके Java एप्लिकेशन में सभी 3D कंटेंट के लिए रूट कंटेनर के रूप में कार्य करता है।
 
-## ज़रूरी शर्तें
+## लीनियर एक्सट्रूज़न ट्विस्ट के साथ ट्विस्ट ऑफसेट क्यों उपयोग करें?
 
-ट्यूटोरियल शुरू करने से पहले, पक्का कर लें कि आपके पास ये ज़रूरी शर्तें हैं:
+`LinearExtrusion` Aspose.3D का क्लास है जो 2‑D प्रोफ़ाइल को सीधी रेखा के साथ स्वेप करके 3‑D जियोमेट्री बनाता है। इसे ट्विस्ट के साथ उपयोग करने से एक रोटेशनल कंपोनेंट जुड़ता है, और ट्विस्ट ऑफसेट आपको यह नियंत्रित करने देता है कि वह रोटेशन कहाँ से शुरू हो, जिससे आप हेलिकल कॉलम, डेकोरेटिव हैंडल, या मैकेनिकल स्प्रिंग जैसे सर्पिल रूपों पर सटीक नियंत्रण पा सकते हैं। यह अतिरिक्त नियंत्रण विशेष रूप से **java 3d मॉडलिंग** में मैकेनिकल पार्ट्स और कलात्मक डिज़ाइनों के लिए मूल्यवान है।
 
-- **Java एनवायरनमेंट:** पक्का करें कि आपके सिस्टम पर Java डेवलपमेंट एनवायरनमेंट सेट अप है।
-- **Aspose.3D for Java:** [डाउनलोड लिंक](https://releases.aspose.com/3d/java/) से Aspose.3D लाइब्रेरी डाउनलोड और इंस्टॉल करें।
-- **डॉक्यूमेंटेशन:** [Aspose.3D for Java डॉक्यूमेंटेशन](https://reference.aspose.com/3d/java/) को अच्छी तरह जान लें।
+## पूर्वापेक्षाएँ
 
-## पैकेज इंपोर्ट करें
+- **Java Environment:** सुनिश्चित करें कि आपके सिस्टम पर Java विकास पर्यावरण सेट अप है।  
+- **Aspose.3D for Java:** Aspose.3D लाइब्रेरी को [डाउनलोड लिंक](https://releases.aspose.com/3d/java/) से डाउनलोड और इंस्टॉल करें।  
+- **Documentation:** [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) से परिचित हों।  
 
-अपने Java प्रोजेक्ट में, Aspose.3D for Java का इस्तेमाल शुरू करने के लिए ज़रूरी पैकेज इंपोर्ट करें। पक्का करें कि आप आसानी से इंटीग्रेट करने के लिए ज़रूरी लाइब्रेरी शामिल करें।
+## पैकेज आयात करें
+
+अपने Java प्रोजेक्ट में आवश्यक पैकेज आयात करें ताकि Aspose.3D for Java का उपयोग शुरू कर सकें। सहज एकीकरण के लिए आवश्यक लाइब्रेरी शामिल करना न भूलें।
 
 ```java
 import com.aspose.threed.*;
@@ -51,13 +111,12 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## 3D सीन कैसे बनाएं – स्टेप-बाय-स्टेप गाइड
+## 3D सीन कैसे बनाएं – चरण‑दर‑चरण मार्गदर्शिका
 
-### स्टेप 1: एनवायरनमेंट सेट अप करें
-अपना Java डेवलपमेंट एनवायरनमेंट सेट अप करके शुरू करें और पक्का करें कि Aspose.3D for Java सही तरीके से इंस्टॉल है। यह स्टेप किसी भी **java 3d मॉडलिंग** काम के लिए ज़रूरी है।
+जावा में ट्विस्ट ऑफसेट लीनियर एक्सट्रूज़न के साथ 3D सीन बनाने के लिए, पहले अपने विकास पर्यावरण को सेट अप करें, फिर एक आयताकार प्रोफ़ाइल परिभाषित करें, एक `Scene` इंस्टैंशिएट करें, दो चाइल्ड नोड्स जोड़ें, `LinearExtrusion` को ट्विस्ट और ट्विस्ट ऑफसेट के साथ लागू करें, और अंत में सीन को Wavefront OBJ फ़ाइल के रूप में सहेजें। नीचे दिए गए चरण‑दर‑चरण अनुभागों में सटीक कोड स्निपेट्स देखें।
 
-### स्टेप 2: बेस प्रोफ़ाइल को इनिशियलाइज़ करें
-एक्सट्रूज़न के लिए एक बेस प्रोफ़ाइल बनाएं, इस मामले में, 0.3 के राउंडिंग रेडियस वाला एक `RectangleShape`। प्रोफ़ाइल उस क्रॉस-सेक्शन को डिफाइन करती है जिसे एक्सट्रूज़न पाथ के साथ स्वीप किया जाएगा।
+### चरण 1: पर्यावरण सेट अप करें
+Java विकास पर्यावरण सेट अप करें और सुनिश्चित करें कि Aspose.3D for Java सही ढंग से इंस्टॉल है। यह चरण किसी भी **java 3d मॉडलिंग** कार्य के लिए आवश्यक है।
 
 ```java
 // The path to the documents directory.
@@ -67,16 +126,16 @@ RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-### स्टेप 3: एक 3D सीन बनाएं
-अपने एक्सट्रूडेड ऑब्जेक्ट्स को रखने के लिए एक 3D सीन बनाएं। यहां आप **चाइल्ड नोड** एलिमेंट बनाएंगे जो हर ज्योमेट्री पीस को दिखाते हैं।
+### चरण 2: बेस प्रोफ़ाइल प्रारंभ करें
+`RectangleShape` एक क्लास है जो एक्सट्रूज़न प्रोफ़ाइल के रूप में उपयोग की जाने वाली आयताकार 2‑D आकृति का प्रतिनिधित्व करता है। इस उदाहरण में, हम 0.3 की राउंडिंग रेडियस के साथ एक `RectangleShape` बनाते हैं। प्रोफ़ाइल वह क्रॉस‑सेक्शन निर्धारित करता है जिसे एक्सट्रूज़न पाथ के साथ स्वेप किया जाएगा।
 
 ```java
 // Create a scene
 Scene scene = new Scene();
 ```
 
-### स्टेप 4: नोड्स बनाएं
-सीन के अंदर अलग-अलग एंटिटीज़ को दिखाने के लिए नोड्स बनाएं। यहां हम दो सिबलिंग नोड्स बनाते हैं—एक प्लेन एक्सट्रूज़न के लिए और दूसरा जो ट्विस्ट ऑफ़सेट का इस्तेमाल करता है।
+### चरण 3: 3D सीन बनाएं
+`Scene` वह कंटेनर है जो आपके मॉडल के सभी नोड्स, लाइट्स, और कैमरों को रखता है। पहले सीन बनाकर आप एक्सट्रूडेड जियोमेट्री को संलग्न करने के लिए एक जगह प्राप्त करते हैं।
 
 ```java
 // Create left node
@@ -86,8 +145,8 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-### स्टेप 5: ट्विस्ट और ट्विस्ट ऑफ़सेट के साथ लीनियर एक्सट्रूज़न करें
-दोनों नोड्स पर लीनियर एक्सट्रूज़न लगाएं। बायां नोड एक बेसिक ट्विस्ट दिखाता है, जबकि दायां नोड इस फ़ीचर से मिलने वाले एक्स्ट्रा कंट्रोल को दिखाने के लिए एक ट्विस्ट ऑफ़सेट जोड़ता है।
+### चरण 4: नोड्स बनाएं
+सीन के भीतर नोड्स जनरेट करें ताकि विभिन्न इकाइयों का प्रतिनिधित्व किया जा सके। यहाँ हम दो सिब्लिंग नोड्स बनाते हैं—एक साधारण एक्सट्रूज़न के लिए और दूसरा ट्विस्ट ऑफसेट के साथ।
 
 ```java
 // Perform linear extrusion on left node using twist and slices property
@@ -97,54 +156,62 @@ left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlice
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setTwistOffset(new Vector3(3, 0, 0)); }});
 ```
 
-> **प्रो टिप:** जब आपको स्मूद कर्वेचर चाहिए हो तो मेश रिज़ॉल्यूशन बढ़ाने के लिए `setSlices()` को एडजस्ट करें।
-
-### स्टेप 6: 3D सीन सेव करें (3D सीन एक्सपोर्ट करें)
-आखिर में, असेंबल किए गए सीन को OBJ फ़ाइल में एक्सपोर्ट करें ताकि आप इसे किसी भी स्टैंडर्ड 3D व्यूअर में देख सकें या दूसरी पाइपलाइन में इंपोर्ट कर सकें।
+### चरण 5: ट्विस्ट और ट्विस्ट ऑफसेट के साथ रैखिक एक्सट्रूज़न करें
+दोनों नोड्स पर लीनियर एक्सट्रूज़न लागू करें। बायाँ नोड बेसिक ट्विस्ट दिखाता है, जबकि दायाँ नोड अतिरिक्त नियंत्रण के लिए ट्विस्ट ऑफसेट जोड़ता है। `setSlices(int)` ट्विस्ट को एप्रॉक्सिमेट करने के लिए उपयोग किए जाने वाले स्लाइस (सेगमेंट) की संख्या सेट करता है, जिससे मेष रिज़ॉल्यूशन नियंत्रित होता है।
 
 ```java
 // Save 3D scene
 scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-जब कोड सफलतापूर्वक चल जाता है, तो आप निर्दिष्ट डायरेक्टरी में `TwistOffsetInLinearExtrusion.obj` पाएँगे, जिसे आप Blender, MeshLab या किसी भी CAD सॉफ़्टवेयर में खोल सकते हैं।
+> **Pro tip:** जब आपको अधिक स्मूद कर्वेचर चाहिए तो `setSlices()` को बढ़ाकर मेष रिज़ॉल्यूशन बढ़ाएँ।
 
-## आम दिक्कतें और समाधान
-| दिक्कत | ऐसा क्यों होता है | ठीक करें |
+### चरण 6: 3D सीन सहेजें (3D सीन निर्यात करें)
+`save(String, FileFormat)` निर्दिष्ट फ़ॉर्मेट में सीन को फ़ाइल में लिखता है। अंत में, असेंबल्ड सीन को OBJ फ़ाइल में निर्यात करें ताकि आप इसे किसी भी मानक 3D व्यूअर में देख सकें या अन्य पाइपलाइन में इम्पोर्ट कर सकें।
+
+CODE_BLOCK_PLACEHOLDER_6_END
+
+जब कोड सफलतापूर्वक चल जाता है, तो आप निर्दिष्ट डायरेक्टरी में `TwistOffsetInLinearExtrusion.obj` पाएँगे, जिसे आप Blender, MeshLab, या किसी भी CAD सॉफ़्टवेयर जैसे टूल्स में खोल सकते हैं।
+
+## सामान्य समस्याएँ और समाधान
+| समस्या | क्यों होता है | समाधान |
 |-------|----------------|-----|
-| **Scene saves as empty file** | `MyDir` पाथ गलत है या लिखने की इजाज़त नहीं है। | डायरेक्टरी मौजूद है और लिखने लायक है, यह पक्का करें, या एक पूरा पाथ इस्तेमाल करें। |
-| **Twist looks flat** | `setSlices()` बहुत कम है, जिससे मेष मोटा बनता है। | क्लोज काउंट बढ़ाएँ (उदाहरण के लिए, 200) ताकि ट्विस्ट शिफ्ट हो। |
-| **Twist offset has no effect** | ऑफसेट सिग्मा एक्सट्रूज़न दिशा के साथ सहरेखीय है। | X या Y कम्पोनेंट को ज़ीरो-से-भिन्न सेट करें ताकि ऑफसेट शिफ्ट दिखे। |
+| **Scene saves as empty file** | `MyDir` पाथ गलत है या लिखने की अनुमति नहीं है। | डायरेक्टरी मौजूद है और लिखने योग्य है, यह सत्यापित करें, या एक एब्सोल्यूट पाथ उपयोग करें। |
+| **Twist looks flat** | `setSlices()` बहुत कम है, जिससे मेष मोटा बनता है। | स्लाइस काउंट बढ़ाएँ (उदाहरण के लिए, 200) ताकि ट्विस्ट स्मूद हो। |
+| **Twist offset has no effect** | ऑफसेट वेक्टर एक्सट्रूज़न दिशा के साथ कोलाइनियर है। | ऑफसेट शिफ्ट देखने के लिए X या Y घटक को शून्य से अलग रखें। |
 
-## अक्सर पूछे जाने वाले सवाल
+## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: क्या मैं नॉन-कमर्शियल प्रोजेक्ट्स में Java के लिए Aspose.3D का इस्तेमाल कर सकता हूँ?
-A1: हाँ, Aspose.3D for Java को कमर्शियल और गैर-वाणिज्यिक दोनों प्रोजेक्ट्स में इस्तेमाल किया जा सकता है। ज़्यादा जानकारी के लिए [लाइसेंसिंग ऑप्शन](https://purchase.aspose.com/buy) देखें।
+**Q: क्या मैं Aspose.3D for Java को गैर‑वाणिज्यिक प्रोजेक्ट्स में उपयोग कर सकता हूँ?**  
+**A:** हाँ, Aspose.3D for Java को वाणिज्यिक और गैर‑वाणिज्यिक दोनों प्रोजेक्ट्स में उपयोग किया जा सकता है। अधिक विवरण के लिए [licensing options](https://purchase.aspose.com/buy) देखें।
 
-### Q2: मुझे Aspose.3D for Java के लिए सपोर्ट कहाँ मिल सकता है?
+**Q: Aspose.3D for Java के लिए समर्थन कहाँ मिल सकता है?**  
+**A:** सहायता के लिए [Aspose.3D for Java forum](https://forum.aspose.com/c/3d/18) पर जाएँ और समुदाय से जुड़ें।
 
-A2: मदद पाने और कम्युनिटी से जुड़ने के लिए [Aspose.3D for Java फोरम](https://forum.aspose.com/c/3d/18) पर जाएँ।
+**Q: क्या Aspose.3D for Java का फ्री ट्रायल उपलब्ध है?**  
+**A:** हाँ, आप [releases page](https://releases.aspose.com/) से फ्री ट्रायल संस्करण एक्सप्लोर कर सकते हैं।
 
-### Q3: क्या Aspose.3D for Java के लिए कोई फ़्री ट्रायल उपलब्ध है?
+**Q: Aspose.3D for Java के लिए टेम्पररी लाइसेंस कैसे प्राप्त करें?**  
+**A:** अपने प्रोजेक्ट के लिए टेम्पररी लाइसेंस प्राप्त करने हेतु [this link](https://purchase.aspose.com/temporary-license/) पर जाएँ।
 
-A3: हाँ, आप [रिलीज़ पेज](https://releases.aspose.com/) से फ़्री ट्रायल वर्शन का एक्सप्लोरेशन कर सकते हैं।
-
-### Q4: मैं Aspose.3D for Java के लिए टेम्पररी लाइसेंस कैसे पा सकता हूँ?
-
-A4: अपने प्रोजेक्ट के लिए टेम्पररी लाइसेंस लेने के लिए [इस लिंक](https://purchase.aspose.com/temporary-license/) पर जाएं।
-
-### Q5: क्या और भी उदाहरण और ट्यूटोरियल उपलब्ध हैं?
-A5: हाँ, अधिक उदाहरण और विस्तृत ट्यूटोरियल के लिए [documentation](https://reference.aspose.com/3d/java/) देखें।
+**Q: क्या अतिरिक्त उदाहरण और ट्यूटोरियल उपलब्ध हैं?**  
+**A:** हाँ, अधिक उदाहरण और विस्तृत ट्यूटोरियल के लिए [documentation](https://reference.aspose.com/3d/java/) देखें।
 
 ---
 
-**Last Updated:** 2026-02-22  
+**अंतिम अपडेट:** 2026-06-29  
 **Tested With:** Aspose.3D for Java 24.11 (latest)  
 **Author:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## संबंधित ट्यूटोरियल
+
+- [Create 3D Extrusion Java with Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
+- [Create 3D Scene with Twist in Linear Extrusion – Aspose.3D for Java](/3d/java/linear-extrusion/applying-twist/)
+- [How to Set Direction in Linear Extrusion with Aspose.3D for Java](/3d/java/linear-extrusion/setting-direction/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

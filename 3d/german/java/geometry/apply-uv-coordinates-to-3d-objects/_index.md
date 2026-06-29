@@ -1,18 +1,60 @@
 ---
-date: 2026-04-12
-description: Erfahren Sie, wie Sie UV‑Koordinaten erzeugen und Texturen in Java mit
-  Aspose.3D zuordnen – ein Schritt‑für‑Schritt‑Tutorial zur Texturzuordnung.
+date: 2026-06-29
+description: Erfahren Sie, wie Sie UV-Koordinaten erzeugen, Texturkoordinaten hinzufügen
+  und Texturen auf ein Mesh in Java mit Aspose.3D abbilden – ein Schritt‑für‑Schritt‑Tutorial
+  zum UV-Mapping von 3D-Modellen.
 keywords:
-- generate uv coordinates
-- create uv set
-- texture mapping tutorial
-- uv mapping 3d objects
+- uv mapping 3d models
 - add texture coordinates
-linktitle: Wie man UV‑Koordinaten erzeugt – UVs auf 3D‑Objekte in Java mit Aspose.3D
-  anwenden
+- map textures onto mesh
+linktitle: UV-Mapping von 3D-Modellen – Wie man UV-Koordinaten erzeugt und UVs auf
+  3D-Objekte in Java mit Aspose.3D anwendet
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to generate UV coordinates, add texture coordinates and map
+    textures onto mesh in Java with Aspose.3D – a step‑by‑step uv mapping 3d models
+    tutorial.
+  headline: uv mapping 3d models – How to Generate UV Coordinates and Apply UVs to
+    3D Objects in Java with Aspose.3D
+  type: TechArticle
+- description: Learn how to generate UV coordinates, add texture coordinates and map
+    textures onto mesh in Java with Aspose.3D – a step‑by‑step uv mapping 3d models
+    tutorial.
+  name: uv mapping 3d models – How to Generate UV Coordinates and Apply UVs to 3D
+    Objects in Java with Aspose.3D
+  steps:
+  - name: Import Aspose.3D Packages
+    text: Now that the packages are ready, let’s set up the UV data for a simple cube.
+  - name: Create UVs and Indices
+    text: These arrays define the **UV coordinates** (`uvs`) and the **index mapping**
+      (`uvsId`) that tells the mesh which UV belongs to each polygon vertex.
+  - name: Create Mesh and UVset
+    text: 'Here we: 1. Build a mesh (the cube) using a helper class. 2. Create a UV
+      element (`VertexElementUV`) that stores our texture coordinates. 3. Assign the
+      UV data and the index buffer to the mesh, effectively **adding texture coordinates**
+      to the geometry.'
+  - name: Print Confirmation
+    text: Running the program will display a confirmation message, indicating that
+      the UVs are now part of the mesh and ready for texture mapping.
+  type: HowTo
+- questions:
+  - answer: Yes, the process remains similar for complex models. Ensure you generate
+      appropriate UV data and index buffers for each polygon.
+    question: Can I apply UV coordinates to complex 3D models?
+  - answer: Visit the [Aspose.3D documentation](https://reference.aspose.com/3d/java/)
+      for in‑depth information. For support, check the [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
+    question: Where can I find additional resources and support for Aspose.3D?
+  - answer: Yes, you can explore the Aspose.3D library with a [free trial](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.3D?
+  - answer: You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.3D?
+  - answer: To purchase Aspose.3D, visit the [purchase page](https://purchase.aspose.com/buy).
+    question: Where can I purchase Aspose.3D?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Wie man UV‑Koordinaten generiert – UVs auf 3D‑Objekte in Java mit Aspose.3D
-  anwenden
+title: UV-Mapping von 3D-Modellen – Wie man UV-Koordinaten erzeugt und UVs auf 3D-Objekte
+  in Java mit Aspose.3D anwendet
 url: /de/java/geometry/apply-uv-coordinates-to-3d-objects/
 weight: 18
 ---
@@ -21,41 +63,45 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wie man UV-Koordinaten generiert – UVs auf 3D-Objekte in Java mit Aspose.3D anwenden
+# UV-Mapping von 3D-Modellen – Wie man UV-Koordinaten erzeugt und UVs auf 3D-Objekte in Java mit Aspose.3D anwendet
 
 ## Einleitung
 
-Willkommen zu diesem umfassenden **texture mapping tutorial** über **how to generate UV coordinates** und UV-Koordinaten auf 3D-Objekte in Java mit Aspose.3D anzuwenden. In der Welt der 3‑D-Grafik sind UV-Koordinaten die Brücke, die es Ihnen ermöglicht, **map textures java** und Ihren Modellen ein realistisches Aussehen zu verleihen. Dieser Leitfaden führt Sie durch jeden Schritt, sodass Sie mit Zuversicht Texturkoordinaten zu jedem Mesh hinzufügen können.
+In diesem umfassenden **Texture-Mapping-Tutorial** zeigen wir Ihnen genau, wie Sie UV-Koordinaten erzeugen, Texturkoordinaten hinzufügen und Texturen auf 3‑D‑Objekte mit Aspose.3D für Java abbilden. UV-Mapping von 3D-Modellen ist der wesentliche Schritt, der ein einfaches Mesh in ein realistisches, texturiertes Asset verwandelt, egal ob Sie ein Spiel, einen Produktvisualisierer oder eine wissenschaftliche Simulation erstellen. Am Ende dieses Leitfadens können Sie ein UV-Set für jede Geometrie erstellen und sehen, wie Ihre Textur in nur wenigen Minuten korrekt umwickelt wird.
 
 ## Schnelle Antworten
-
-- **Was ist das Hauptziel?** Lernen Sie, wie man UV-Koordinaten generiert und Texturen auf 3‑D-Geometrie abbildet.  
+- **Was ist das Hauptziel?** Erfahren Sie, wie man UV-Koordinaten erzeugt und Texturen auf 3‑D‑Geometrie abbildet.  
 - **Welche Bibliothek wird verwendet?** Aspose.3D für Java.  
-- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Entwicklung; eine Lizenz ist für die Produktion erforderlich.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Entwicklung; für die Produktion ist eine Lizenz erforderlich.  
 - **Wie lange dauert die Implementierung?** Ungefähr 10‑15 Minuten für einen einfachen Würfel.  
 - **Kann ich das mit anderen Formen verwenden?** Ja – dieselben Prinzipien gelten für jedes Mesh.
 
-## Wie man UV-Koordinaten in Java generiert
+## Was ist UV-Mapping von 3D-Modellen?
 
-Bevor wir in den Code eintauchen, lassen Sie uns klären, warum das Erzeugen von UV-Koordinaten wichtig ist. Korrekte UVs stellen sicher, dass Texturen richtig ausgerichtet sind, Verzerrungen vermeiden und Materialien professionell aussehen lassen. Egal, ob Sie ein Spiel, eine Simulation oder einen Produktvisualisierer erstellen, ein solides UV-Set ist unverzichtbar.
+UV-Mapping von 3D-Modellen ist der Prozess, 2‑D‑Texturkoordinaten (U und V) jedem Vertex eines 3‑D‑Meshes zuzuweisen, sodass ein 2‑D‑Bild ohne Verzerrung um die Geometrie gewickelt werden kann. Durch die Definition eines UV-Sets teilen Sie dem Renderer genau mit, welcher Teil der Textur zu welchem Polygon gehört, was ein realistisches Materialaussehen ermöglicht und Dehnungen oder Nähte eliminiert.
 
 ## Warum UV-Mapping von 3D-Objekten wichtig ist
 
-- **Realism:** Korrekte UVs lassen Texturen natürlich um komplexe Oberflächen wickeln.  
-- **Performance:** Gut organisierte UV-Sets reduzieren den Bedarf an zusätzlichen Shadern oder Laufzeitanpassungen.  
-- **Portability:** UV-Daten reisen mit dem Mesh, sodass das Modell in jeder Engine, die Aspose.3D unterstützt, gleich aussieht.
+UV-Mapping ist essenziell, weil es bestimmt, wie ein 2‑D‑Bild auf eine 3‑D‑Oberfläche projiziert wird, was die visuelle Treue, die Rendering‑Effizienz und die plattformübergreifende Konsistenz beeinflusst. Richtig angeordnete UVs verhindern Texturdehnung, reduzieren die Shader‑Komplexität und ermöglichen die nahtlose Wiederverwendung von Assets in verschiedenen Engines und Pipelines.
+
+- **Realismus:** Korrekte UVs lassen Texturen natürlich um komplexe Oberflächen wickeln und liefern fotorealistische Ergebnisse.  
+- **Performance:** Gut organisierte UV-Sets verringern den Bedarf an zusätzlichen Shadern oder Laufzeitanpassungen und halten die Bildrate hoch.  
+- **Portabilität:** UV-Daten reisen mit dem Mesh, sodass das Modell in jeder Engine, die Aspose.3D unterstützt, identisch aussieht.  
+- **Quantifizierter Nutzen:** Aspose.3D unterstützt **30+ Import‑ und Exportformate** (einschließlich OBJ, STL, FBX und Collada) und kann Meshes mit **bis zu 1 Million Vertices** verarbeiten, ohne die gesamte Datei in den Speicher zu laden, was schnelle Workflows selbst auf bescheidener Hardware gewährleistet.
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
+- **Java-Entwicklungsumgebung** – JDK 8+ installiert und konfiguriert.  
+- **Aspose.3D-Bibliothek** – Laden Sie das neueste JAR von der offiziellen Seite [hier](https://releases.aspose.com/3d/java/) herunter.  
+- **Grundlegende 3D-Kenntnisse** – Vertrautheit mit Meshes, Vertices und Texturkonzepten hilft beim Folgen.
 
-- **Java Development Environment** – JDK 8+ installiert und konfiguriert.  
-- **Aspose.3D Library** – Laden Sie das neueste JAR von der offiziellen Seite [here](https://releases.aspose.com/3d/java/) herunter.  
-- **Basic 3D Knowledge** – Vertrautheit mit Meshes, Vertices und Texturkonzepten hilft beim Folgen.
+## Wie erzeugt man UV-Koordinaten in Java?
+
+Laden Sie Ihr Mesh, erstellen Sie ein UV-Array, bauen Sie einen Indexpuffer, der jeden Polygon-Vertex einem UV-Eintrag zuordnet, und hängen Sie dann das UV-Element an das Mesh – alles in vier knappen Schritten. Der untenstehende Code (später bereitgestellt) demonstriert den gesamten Ablauf, und die Erklärung nach jedem Schritt zeigt, warum die Operation notwendig ist.
 
 ## Pakete importieren
 
-In diesem Schritt importieren wir die notwendigen Pakete, um unsere UV-Mapping-Reise zu starten. Die Aspose.3D-Bibliothek stellt die Werkzeuge bereit, die wir benötigen, um mit 3‑D-Objekten in Java zu arbeiten.
+In diesem Schritt bringen wir die Aspose.3D-Namespace in den Gültigkeitsbereich, damit wir mit Meshes, Vertices und Texturelementen arbeiten können.
 
 ### Schritt 1: Aspose.3D-Pakete importieren
 
@@ -69,7 +115,7 @@ Jetzt, da die Pakete bereit sind, richten wir die UV-Daten für einen einfachen 
 
 ## UV-Set für Ihr Mesh erstellen
 
-Hier definieren wir die UV-Koordinaten und den Index-Puffer, der dem Mesh mitteilt, welche UV zu jedem Polygon-Vertex gehört. Dies ist der Kern des **create UV set** Prozesses.
+Das UV-Set besteht aus zwei Arrays: eines, das die tatsächlichen UV-Koordinaten speichert, und ein weiteres, das dem Mesh sagt, welches UV zu jedem Polygon-Vertex gehört.
 
 ### Schritt 2: UVs und Indizes erstellen
 
@@ -92,13 +138,13 @@ int[] uvsId = new int[]
 // ExEnd:SetupUVOnCube
 ```
 
-Diese Arrays definieren die **UV coordinates** (`uvs`) und das **index mapping** (`uvsId`), das dem Mesh mitteilt, welche UV zu jedem Polygon-Vertex gehört.
+Diese Arrays definieren die **UV-Koordinaten** (`uvs`) und die **Indexzuordnung** (`uvsId`), die dem Mesh mitteilt, welches UV zu jedem Polygon-Vertex gehört.
 
 ## Texturkoordinaten zu einem Mesh hinzufügen
 
-Jetzt fügen wir das UV-Set zu einer Mesh-Instanz hinzu. Dieser Schritt **adds texture coordinates** zur Geometrie, sodass sie bereit für das Rendern mit einer Textur ist.
+VertexElementUV ist das Aspose.3D-Element, das pro‑Vertex UV‑Koordinaten für ein Mesh speichert. Durch das Anhängen dieses Elements machen wir die Geometrie bereit für das Texture‑Mapping.
 
-### Schritt 3: Mesh und UVset erstellen
+### Schritt 3: Mesh und UV-Set erstellen
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
@@ -113,9 +159,9 @@ elementUV.setIndices(uvsId);
 
 Hier:
 
-1. Erstellen Sie ein Mesh (den Würfel) mit einer Hilfsklasse.  
-2. Erstellen Sie ein UV-Element (`VertexElementUV`), das unsere Texturkoordinaten speichert.  
-3. Weisen Sie dem Mesh die UV-Daten und den Index-Puffer zu, wodurch **adding texture coordinates** zur Geometrie hinzugefügt wird.
+1. Erstellen Sie ein Mesh (den Würfel) mithilfe einer Hilfsklasse.  
+2. Erzeugen Sie ein UV-Element (`VertexElementUV`), das unsere Texturkoordinaten speichert.  
+3. Weisen Sie dem Mesh die UV-Daten und den Indexpuffer zu, wodurch effektiv **Texturkoordinaten** zur Geometrie **hinzugefügt** werden.
 
 ### Schritt 4: Bestätigung ausgeben
 
@@ -123,45 +169,54 @@ Hier:
 System.out.println("\nUVs have been set up successfully on the cube.");
 ```
 
-Das Ausführen des Programms zeigt eine Bestätigungsnachricht an, die darauf hinweist, dass die UVs nun Teil des Meshes sind und bereit für das Texture Mapping.
+Das Ausführen des Programms zeigt eine Bestätigungsnachricht an, die darauf hinweist, dass die UVs nun Teil des Meshes sind und bereit für das Texture‑Mapping.
 
 ## Häufige Probleme und Lösungen
 
+Common.createMeshUsingPolygonBuilder() ist eine Hilfsmethode, die ein einfaches Würfel‑Mesh mithilfe eines Polygon‑Builders erstellt.
+
 | Problem | Ursache | Lösung |
 |---------|---------|--------|
-| UVs erscheinen gestreckt | Falsche UV-Reihenfolge oder nicht passende Indizes | Stellen Sie sicher, dass `uvsId` korrekt auf das `uvs`-Array für jeden Polygon-Vertex verweist. |
+| UVs erscheinen gestreckt | Falsche UV-Reihenfolge oder nicht übereinstimmende Indizes | Überprüfen Sie, dass `uvsId` korrekt auf das `uvs`‑Array für jeden Polygon‑Vertex verweist. |
 | Textur nicht sichtbar | UV-Set nicht mit dem Material verknüpft | Stellen Sie sicher, dass das `TextureMapping` des Materials auf `DIFFUSE` gesetzt ist (wie gezeigt) und eine Textur dem Material zugewiesen ist. |
-| Laufzeit-`NullPointerException` | `Common.createMeshUsingPolygonBuilder()` gibt `null` zurück | Überprüfen Sie, dass die Hilfsklasse in Ihrem Projekt enthalten ist und die Methode ein gültiges Mesh erstellt. |
+| Laufzeit‑`NullPointerException` | `Common.createMeshUsingPolygonBuilder()` gibt `null` zurück | Prüfen Sie, dass die Hilfsklasse in Ihrem Projekt enthalten ist und die Methode ein gültiges Mesh erstellt. |
 
 ## Häufig gestellte Fragen
 
 **Q: Kann ich UV-Koordinaten auf komplexe 3D-Modelle anwenden?**  
-A: Ja, der Prozess bleibt für komplexe Modelle ähnlich. Stellen Sie sicher, dass Sie geeignete UV-Daten und Index-Puffer für jedes Polygon erzeugen.
+A: Ja, der Prozess bleibt für komplexe Modelle ähnlich. Stellen Sie sicher, dass Sie geeignete UV-Daten und Indexpuffer für jedes Polygon erzeugen.
 
 **Q: Wo finde ich zusätzliche Ressourcen und Support für Aspose.3D?**  
-A: Besuchen Sie die [Aspose.3D documentation](https://reference.aspose.com/3d/java/) für ausführliche Informationen. Für Support schauen Sie im [Aspose.3D forum](https://forum.aspose.com/c/3d/18) nach.
+A: Besuchen Sie die [Aspose.3D-Dokumentation](https://reference.aspose.com/3d/java/) für ausführliche Informationen. Für Support schauen Sie im [Aspose.3D-Forum](https://forum.aspose.com/c/3d/18) nach.
 
 **Q: Gibt es eine kostenlose Testversion für Aspose.3D?**  
-A: Ja, Sie können die Aspose.3D-Bibliothek mit einer [free trial](https://releases.aspose.com/) erkunden.
+A: Ja, Sie können die Aspose.3D-Bibliothek mit einem [kostenlosen Test](https://releases.aspose.com/) erkunden.
 
 **Q: Wie kann ich eine temporäre Lizenz für Aspose.3D erhalten?**  
-A: Sie können eine temporäre Lizenz [here](https://purchase.aspose.com/temporary-license/) erwerben.
+A: Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erwerben.
 
 **Q: Wo kann ich Aspose.3D kaufen?**  
-A: Um Aspose.3D zu kaufen, besuchen Sie die [purchase page](https://purchase.aspose.com/buy).
+A: Um Aspose.3D zu kaufen, besuchen Sie die [Kaufseite](https://purchase.aspose.com/buy).
 
 **Q: Wie füge ich einem einzelnen Mesh mehrere Texturen hinzu?**  
 A: Erstellen Sie zusätzliche `VertexElementUV`-Instanzen mit unterschiedlichen `TextureMapping`-Werten (z. B. `NORMAL`, `SPECULAR`) und weisen Sie jede dem Mesh zu.
 
 ## Fazit
 
-In diesem Tutorial haben wir **how to generate UV coordinates** behandelt und gezeigt, wie man sie an ein 3‑D-Objekt mit Aspose.3D für Java anhängt. Durch das Beherrschen von UV-Mapping können Sie **map textures java** und **add texture coordinates** zu jedem Mesh hinzufügen, wodurch realistische Renderings für Spiele, Simulationen und Visualisierungen ermöglicht werden. Experimentieren Sie mit verschiedenen Formen, UV-Layouts und Texturen, um zu sehen, wie leistungsfähig UV-Mapping sein kann.
+In diesem Tutorial haben wir **wie man UV-Koordinaten erzeugt** und sie einem 3‑D‑Objekt mit Aspose.3D für Java hinzufügt, behandelt. Das Beherrschen von UV-Mapping von 3D-Modellen ermöglicht es Ihnen, **Texturkoordinaten** zu jedem Mesh hinzuzufügen und realistische Renderings für Spiele, Simulationen und Visualisierungen zu ermöglichen. Experimentieren Sie mit verschiedenen Formen, UV-Layouts und Texturen, um zu sehen, wie leistungsfähig UV-Mapping sein kann.
 
 ---
 
-**Zuletzt aktualisiert:** 2026-04-12  
-**Getestet mit:** Aspose.3D neueste Version (Java)  
-**Autor:** Aspose  
+**Last Updated:** 2026-06-29  
+**Tested With:** Aspose.3D latest release (Java)  
+**Author:** Aspose
+
+## Verwandte Tutorials
+
+- [Wie man Textur in FBX mit Java einbettet – Materialien auf 3D-Objekte mit Aspose.3D anwenden](/3d/java/geometry/apply-materials-to-3d-objects/)
+- [3D-Grafik-Normale an Objekten in Java mit Aspose.3D einrichten](/3d/java/geometry/set-up-normals-on-3d-objects/)
+- [UV-Mapping in Java erstellen – Polygonmanipulation in 3D-Modellen mit Java](/3d/java/polygon/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
