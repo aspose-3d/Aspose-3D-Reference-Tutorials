@@ -1,11 +1,36 @@
 ---
-date: 2026-02-22
-description: เรียนรู้วิธีสร้างเอกสาร 3D ด้วย Java และเชี่ยวชาญการทำกราฟิก 3D ด้วย
-  Java ผ่าน Aspose.3D คู่มือขั้นตอนต่อขั้นตอนสำหรับการสร้าง โหลด บันทึก และแปลงไฟล์
-  3D
-linktitle: Working with 3D Files in Java - Create, Load, Save & Convert
+date: 2026-06-29
+description: เรียนรู้วิธีสร้างเอกสาร 3D ด้วย Java และเชี่ยวชาญการสอนกราฟิก 3D ด้วย
+  Java ด้วย Aspose.3D. คู่มือขั้นตอนต่อขั้นตอนในการสร้าง, โหลด, บันทึก, และแปลงไฟล์
+  3D.
+keywords:
+- create 3d document java
+- 3d graphics java tutorial
+- Aspose 3D Java
+linktitle: การทำงานกับไฟล์ 3D ใน Java - Create, Load, Save & Convert
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to create 3D document Java and master 3D graphics Java tutorial
+    with Aspose.3D. Step‑by‑step guide to create, load, save, and convert 3D files.
+  headline: Create 3D Document Java – Working with 3D Files (Create, Load, Save &
+    Convert)
+  type: TechArticle
+- questions:
+  - answer: Create, load, save, and convert 3D files across many formats.
+    question: What can I do with Aspose.3D for Java?
+  - answer: A free trial works for evaluation; a license is required for production.
+    question: Do I need a license for development?
+  - answer: Java 8 + (including Java 11 and newer).
+    question: Which Java versions are supported?
+  - answer: Yes – you can upgrade materials to PBR with a single API call.
+    question: Is there built‑in material conversion?
+  - answer: Absolutely – LoadOptions let you fine‑tune parsing for OBJ, STL, FBX,
+      and more.
+    question: Can I customize loading options?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: สร้างเอกสาร 3D ด้วย Java – การทำงานกับไฟล์ 3D (สร้าง, โหลด, บันทึกและแปลง)
+title: สร้างเอกสาร 3D ด้วย Java – การทำงานกับไฟล์ 3D (Create, Load, Save & Convert)
 url: /th/java/load-and-save/
 weight: 30
 ---
@@ -18,106 +43,116 @@ weight: 30
 
 ## บทนำ
 
-คุณพร้อมที่จะดื่มด่ำกับโลกที่น่าตื่นตาตื่นใจของ **3D graphics in Java** หรือยัง? อย่ามองหาอื่นนอกจาก Aspose.3D for Java! ในคู่มือฉบับครอบคลุมนี้ คุณจะ **create 3d document java** โปรเจกต์ตั้งแต่เริ่มต้น, สำรวจเทคนิคการโหลดและบันทึก, และค้นพบเคล็ดลับการแปลงที่ช่วยเพิ่มประสิทธิภาพการทำงาน ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น, บทเรียนทีละขั้นตอนเหล่านี้จะช่วยให้คุณเชี่ยวชาญทุกขั้นตอนของกระบวนการ 3D
+คุณพร้อมที่จะดื่มด่ำกับโลกที่น่าตื่นตาตื่นใจของ **3D graphics in Java** หรือยัง? อย่ามองหาอื่นนอกจาก Aspose.3D for Java! ในคู่มือฉบับสมบูรณ์นี้ คุณจะ **create 3d document java** โปรเจกต์ตั้งแต่ต้น, สำรวจเทคนิคการโหลดและบันทึก, และค้นพบเคล็ดลับการแปลงที่เพิ่มประสิทธิภาพการทำงาน ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น, บทเรียนทีละขั้นตอนเหล่านี้จะช่วยให้คุณเชี่ยวชาญทุกขั้นตอนของสายงาน 3D
 
-## คำตอบด่วน
-- **What can I do with Aspose.3D for Java?** สร้าง, โหลด, บันทึก, และแปลงไฟล์ 3D ในหลายรูปแบบ.  
-- **Do I need a license for development?** ทดลองใช้ฟรีสำหรับการประเมิน; จำเป็นต้องมีลิขสิทธิ์สำหรับการใช้งานในผลิตภัณฑ์.  
-- **Which Java versions are supported?** Java 8 + (รวมถึง Java 11 และใหม่กว่า).  
-- **Is there built‑in material conversion?** มี – คุณสามารถอัปเกรดวัสดุเป็น PBR ด้วยการเรียก API เพียงครั้งเดียว.  
-- **Can I customize loading options?** แน่นอน – LoadOptions ให้คุณปรับแต่งการพาร์สสำหรับ OBJ, STL, FBX, และอื่น ๆ.  
+## คำตอบอย่างรวดเร็ว
+- **ฉันสามารถทำอะไรกับ Aspose.3D for Java?** สร้าง, โหลด, บันทึก, และแปลงไฟล์ 3D ในหลายรูปแบบ  
+- **ฉันต้องการไลเซนส์สำหรับการพัฒนาหรือไม่?** ทดลองใช้ฟรีสำหรับการประเมิน; จำเป็นต้องมีไลเซนส์สำหรับการใช้งานจริง  
+- **รองรับเวอร์ชัน Java ใดบ้าง?** Java 8 + (รวมถึง Java 11 และใหม่กว่า)  
+- **มีการแปลงวัสดุในตัวหรือไม่?** มี – คุณสามารถอัปเกรดวัสดุเป็น PBR ด้วยการเรียก API เพียงครั้งเดียว  
+- **ฉันสามารถปรับแต่งตัวเลือกการโหลดได้หรือไม่?** แน่นอน – LoadOptions ให้คุณปรับจูนการพาร์สสำหรับ OBJ, STL, FBX, และอื่น ๆ  
 
-## **create 3d document java** คืออะไร
+## **create 3d document java** คืออะไร?
 
-การสร้างเอกสาร 3D ใน Java หมายถึงการสร้างกราฟฉากเปล่าที่คุณสามารถเติมเต็มด้วยเมช, แสง, กล้อง, และวัสดุต่าง ๆ ในภายหลัง Aspose.3D มี API ที่เป็นวัตถุ‑ออริเอนต์ที่สะอาดและแยกรายละเอียดรูปแบบไฟล์ออก, ทำให้คุณสามารถมุ่งเน้นที่เนื้อหาภาพแทนการพาร์สระดับต่ำ
+การสร้างเอกสาร 3D ใน Java หมายถึงการสร้างกราฟฉากเปล่าที่สามารถใส่เมช, แสง, กล้อง, และวัสดุต่าง ๆ ได้ในภายหลัง Aspose.3D มี API ที่เรียบง่ายสำหรับการสร้างฉากนี้, ทำให้คุณไม่ต้องกังวลเกี่ยวกับรายละเอียดของรูปแบบไฟล์และสามารถมุ่งเน้นที่เนื้อหาภาพได้
 
-## ทำไมต้องใช้ Aspose.3D สำหรับโครงการสอนกราฟิก 3D ใน Java?
+## ทำไมต้องใช้ Aspose.3D สำหรับโครงการสอนกราฟิก 3D Java?
 
-- **Cross‑format support** – ทำงานกับ OBJ, STL, FBX, glTF, PLY, และอื่น ๆ อีกมากโดยไม่ต้องเขียนพาร์เซอร์เอง.  
-- **Performance‑focused** – SaveOptions และ LoadOptions ให้คุณปรับการใช้หน่วยความจำและความเร็ว.  
-- **Real‑world realism** – อัปเกรดวัสดุเป็น Physically Based Rendering (PBR) ด้วยบรรทัดโค้ดเดียว.  
-- **Comprehensive documentation** – ตัวอย่างละเอียดและอ้างอิง API ช่วยเร่งการเรียนรู้
+Aspose.3D รองรับการทำงานข้ามรูปแบบกว่า 30 ประเภทไฟล์, ประมวลผลฉากขนาดใหญ่ด้วยประสิทธิภาพหน่วยความจำ, และแปลงเป็นวัสดุ PBR ด้วยบรรทัดเดียว SaveOptions และ LoadOptions ช่วยให้คุณปรับจูนประสิทธิภาพ, ลดเวลาแปลงได้ถึง 40 % บนฮาร์ดแวร์ทั่วไป, ทำให้เหมาะกับสายงานระดับองค์กร
 
 ## สร้างเอกสาร 3D ว่างใน Java ด้วย Aspose.3D
 
-เริ่มต้นการเดินทาง 3D ของคุณโดยเรียนรู้วิธีสร้างเอกสาร 3D ว่างอย่างง่ายดายด้วย Aspose.3D for Java คู่มือทีละขั้นตอนของเราจะทำให้คุณเข้าใจโลกของกราฟิก 3D อย่างราบรื่น ไปสำรวจเพิ่มเติมที่ [ที่นี่](./create-empty-3d-document/).
+เริ่มต้นการเดินทาง 3D ของคุณด้วยการเรียนรู้วิธีสร้างเอกสาร 3D ว่างอย่างง่ายดายด้วย Aspose.3D for Java คู่มือทีละขั้นตอนของเราจะทำให้คุณคุ้นเคยกับโลกของกราฟิก 3D ดำดิ่งเข้าไป [ที่นี่](./create-empty-3d-document/)
 
 ## ตรวจจับรูปแบบไฟล์ 3D อย่างมีประสิทธิภาพใน Java ด้วย Aspose.3D
 
-ทำให้กระบวนการพัฒนาของคุณราบรื่นโดยการตรวจจับรูปแบบไฟล์ 3D ใน Java อย่างง่ายดายด้วย Aspose.3D บทเรียนของเราจะนำคุณผ่านขั้นตอนต่าง ๆ พร้อมโซลูชันที่ทรงพลังสำหรับความต้องการกราฟิก 3D ของคุณ ค้นหาเพิ่มเติมที่ [ที่นี่](./detect-3d-file-formats/).
+ทำให้กระบวนการพัฒนาของคุณราบรื่นด้วยการตรวจจับรูปแบบไฟล์ 3D ใน Java อย่างง่ายดายด้วย Aspose.3D คำแนะนำของเราจะพาคุณผ่านขั้นตอนต่าง ๆ เพื่อให้คุณได้โซลูชันที่ทรงพลังสำหรับความต้องการกราฟิก 3D ของคุณ ค้นพบเพิ่มเติม [ที่นี่](./detect-3d-file-formats/)
 
 ## ปรับแต่งการโหลดไฟล์ 3D ใน Java ด้วย Aspose.3D LoadOptions
 
-ปรับปรุงการโหลดไฟล์ 3D ของคุณใน Java ด้วย LoadOptions ที่ปรับแต่งได้ของ Aspose.3D คู่มือทีละขั้นตอนของเราครอบคลุมการปรับแต่งสำหรับ 3DS, OBJ, STL, U3D, glTF, PLY, X, และ FBX แบบเลือกได้ ยกระดับการพัฒนาของคุณที่ [ที่นี่](./customize-3d-file-loading/).
+ยกระดับการโหลดไฟล์ 3D ของคุณใน Java ด้วย LoadOptions ที่ปรับแต่งได้ของ Aspose.3D คู่มือทีละขั้นตอนของเราครอบคลุมการปรับแต่งสำหรับ 3DS, OBJ, STL, U3D, glTF, PLY, X, และ FBX ตัวเลือกเพิ่มเติม ยกระดับการพัฒนาของคุณ [ที่นี่](./customize-3d-file-loading/)
 
 ## อัปเกรดวัสดุ 3D เป็น PBR เพื่อความสมจริงที่เพิ่มขึ้นใน Java ด้วย Aspose.3D
 
-บรรลุความสมจริงที่เพิ่มขึ้นในกราฟิก 3D ของคุณด้วย Aspose.3D เรียนรู้วิธีอัปเกรดวัสดุ 3D เป็น Physically Based Rendering (PBR) ใน Java อย่างง่ายดาย ดึงดูดผู้ชมของคุณด้วยภาพที่สวยงามที่ [ที่นี่](./upgrade-materials-to-pbr/).
+บรรลุความสมจริงที่เหนือกว่าในกราฟิก 3D ของคุณด้วย Aspose.3D เรียนรู้วิธีอัปเกรดวัสดุ 3D เป็น Physically Based Rendering (PBR) ใน Java อย่างง่ายดาย ดึงดูดผู้ชมด้วยภาพที่สวยงาม [ที่นี่](./upgrade-materials-to-pbr/)
 
 ## อ่านฉาก 3D ที่มีอยู่ได้อย่างง่ายดายใน Java ด้วย Aspose.3D
 
-สำรวจความเป็นไปได้อันกว้างขวางของการอ่านและจัดการฉาก 3D ที่มีอยู่ใน Java ด้วย Aspose.3D ค้นพบเคล็ดลับของกราฟิก 3D ที่ไร้รอยต่อที่ [ที่นี่](./read-existing-3d-scenes/).
+สำรวจความเป็นไปได้อันกว้างขวางของการอ่านและจัดการฉาก 3D ที่มีอยู่ใน Java ด้วย Aspose.3D ค้นพบเคล็ดลับของกราฟิก 3D ที่ไร้รอยต่อ [ที่นี่](./read-existing-3d-scenes/)
 
 ## บันทึกฉาก 3D ในหลายรูปแบบด้วย Aspose.3D for Java
 
-ดำดิ่งสู่โลกที่ไร้รอยต่อของการจัดการฉาก 3D ใน Java ด้วย Aspose.3D เรียนรู้การบันทึกฉากในหลายรูปแบบอย่างง่ายดาย เพื่อขยายศักยภาพของคุณในด้านกราฟิก 3D ที่ [ที่นี่](./save-3d-scenes/).
+สำรวจโลกที่ไร้รอยต่อของการจัดการฉาก 3D ใน Java ด้วย Aspose.3D เรียนรู้การบันทึกฉากในหลายรูปแบบอย่างง่ายดาย ขยายขีดความสามารถของคุณในด้านกราฟิก 3D [ที่นี่](./save-3d-scenes/)
 
-## ปรับให้การบันทึกไฟล์ 3D ใน Java มีประสิทธิภาพด้วย Aspose.3D SaveOptions
+## ปรับแต่งการบันทึกไฟล์ 3D ใน Java ด้วย Aspose.3D SaveOptions
 
-เรียนรู้ศิลปะการปรับให้การบันทึกไฟล์ 3D ใน Java มีประสิทธิภาพด้วย Aspose.3D SaveOptions เพิ่มประสิทธิภาพและปรับแต่งผลลัพธ์อย่างง่ายดาย เพื่อให้กราฟิก 3D ของคุณส่องแสงสว่าง ไปสู่การเดินทางปรับแต่งที่ [ที่นี่](./optimize-3d-file-saving/).
+เรียนรู้ศิลปะการปรับแต่งการบันทึกไฟล์ 3D ใน Java ด้วย SaveOptions ของ Aspose.3D เพิ่มประสิทธิภาพและปรับผลลัพธ์ตามต้องการอย่างง่ายดาย ทำให้กราฟิก 3D ของคุณส่องแสงสว่าง ดำดิ่งสู่การปรับแต่ง [ที่นี่](./optimize-3d-file-saving/)
 
-ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือมือใหม่ในกราฟิก 3D, บทเรียนเหล่านี้จะทำให้คุณเชี่ยวชาญ Aspose.3D for Java ยกระดับทักษะของคุณและทำให้วิสัยทัศน์ 3D ของคุณเป็นจริงด้วยคู่มือทีละขั้นตอนของเรา!
+ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือมือใหม่ในกราฟิก 3D, บทเรียนเหล่านี้จะทำให้คุณเชี่ยวชาญ Aspose.3D for Java ยกระดับทักษะและทำให้วิสัยทัศน์ 3D ของคุณเป็นจริงด้วยคู่มือทีละขั้นตอนของเรา!
 
 ## ทำงานกับไฟล์ 3D ใน Java - สร้าง, โหลด, บันทึก, และแปลง บทเรียน
 ### [วิธีสร้างเอกสาร 3D ว่างใน Java ด้วย Aspose.3D](./create-empty-3d-document/)
-สำรวจโลกของกราฟิก 3D ด้วย Aspose.3D for Java ตามคู่มือทีละขั้นตอนของเราเพื่อสร้างเอกสาร 3D ว่างอย่างง่ายดาย.
-
+สำรวจโลกของกราฟิก 3D ด้วย Aspose.3D for Java ตามคู่มือทีละขั้นตอนเพื่อสร้างเอกสาร 3D ว่างอย่างง่ายดาย
 ### [ตรวจจับรูปแบบไฟล์ 3D อย่างมีประสิทธิภาพใน Java ด้วย Aspose.3D](./detect-3d-file-formats/)
-ตรวจจับรูปแบบไฟล์ 3D ใน Java อย่างง่ายดายด้วย Aspose.3D ทำให้กระบวนการพัฒนาของคุณราบรื่นด้วยไลบรารีที่ทรงพลังนี้.
-
+ตรวจจับรูปแบบไฟล์ 3D อย่างง่ายดายใน Java ด้วย Aspose.3D ทำให้กระบวนการพัฒนาของคุณราบรื่นด้วยไลบรารีที่ทรงพลังนี้
 ### [ปรับแต่งการโหลดไฟล์ 3D ใน Java ด้วย Aspose.3D LoadOptions](./customize-3d-file-loading/)
-ปรับปรุงการโหลดไฟล์ 3D ของคุณใน Java ด้วย LoadOptions ที่ปรับแต่งได้ของ Aspose.3D เรียนรู้การปรับแต่งทีละขั้นตอนสำหรับ 3DS, OBJ, STL, U3D, glTF, PLY, X, และ FBX แบบเลือกได้.
-
+ยกระดับการโหลดไฟล์ 3D ใน Java ด้วย LoadOptions ที่ปรับแต่งได้ของ Aspose.3D เรียนรู้การปรับแต่งสำหรับ 3DS, OBJ, STL, U3D, glTF, PLY, X, และ FBX ตัวเลือกเพิ่มเติม
 ### [อัปเกรดวัสดุ 3D เป็น PBR เพื่อความสมจริงที่เพิ่มขึ้นใน Java ด้วย Aspose.3D](./upgrade-materials-to-pbr/)
-อัปเกรดวัสดุ 3D เป็น PBR อย่างง่ายดายใน Java ด้วย Aspose.3D บรรลุความสมจริงที่เพิ่มขึ้นสำหรับภาพที่ดึงดูดใจ.
-
+อัปเกรดวัสดุ 3D เป็น PBR อย่างง่ายดายใน Java ด้วย Aspose.3D บรรลุความสมจริงที่เพิ่มขึ้นสำหรับภาพที่ดึงดูดใจ
 ### [อ่านฉาก 3D ที่มีอยู่ได้อย่างง่ายดายใน Java ด้วย Aspose.3D](./read-existing-3d-scenes/)
-สำรวจโลกของกราฟิก 3D ด้วย Aspose.3D for Java อ่านและจัดการฉาก 3D ที่มีอยู่ได้อย่างง่ายดาย.
-
+สำรวจโลกของกราฟิก 3D ด้วย Aspose.3D for Java อ่านและจัดการฉาก 3D ที่มีอยู่ได้อย่างง่ายดาย
 ### [บันทึกฉาก 3D ในหลายรูปแบบด้วย Aspose.3D for Java](./save-3d-scenes/)
-สำรวจโลกที่ไร้รอยต่อของการจัดการฉาก 3D ใน Java ด้วย Aspose.3D เรียนรู้การบันทึกฉากในหลายรูปแบบอย่างง่ายดาย.
+สำรวจโลกที่ไร้รอยต่อของการจัดการฉาก 3D ใน Java ด้วย Aspose.3D เรียนรู้การบันทึกฉากในหลายรูปแบบอย่างง่ายดาย
+### [ปรับแต่งการบันทึกไฟล์ 3D ใน Java ด้วย Aspose.3D SaveOptions](./optimize-3d-file-saving/)
+เรียนรู้วิธีปรับแต่งการบันทึกไฟล์ 3D ใน Java ด้วย SaveOptions ของ Aspose.3D เพิ่มประสิทธิภาพและปรับผลลัพธ์ตามต้องการอย่างง่ายดาย
 
-### [ปรับให้การบันทึกไฟล์ 3D ใน Java มีประสิทธิภาพด้วย Aspose.3D SaveOptions](./optimize-3d-file-saving/)
-เรียนรู้วิธีปรับให้การบันทึกไฟล์ 3D ใน Java มีประสิทธิภาพด้วย Aspose.3D SaveOptions เพิ่มประสิทธิภาพและปรับแต่งผลลัพธ์อย่างง่ายดาย.
+## ปัญหาทั่วไปและวิธีแก้
+
+MaterialConverter เป็นคลาสยูทิลิตี้ที่แปลงการกำหนดวัสดุแบบเก่าเป็นรูปแบบ Physically Based Rendering (PBR)
+
+**Issue:** *Materials lose texture after conversion.*  
+**Solution:** Use `MaterialConverter.convertToPbr()` before saving; it preserves texture maps and updates shader parameters automatically.
+
+LoadOptions เป็นคลาสกำหนดค่าที่ควบคุมวิธีที่ Aspose.3D วิเคราะห์ไฟล์อินพุต
+
+**Issue:** *Large OBJ files cause OutOfMemoryError.*  
+**Solution:** Enable streaming via `LoadOptions.setEnableMemoryOptimization(true)` and increase the JVM heap size (`-Xmx4g`).
+
+SaveOptions กำหนดการตั้งค่าการส่งออกเช่นรูปแบบ, การบีบอัด, และการรวมคุณลักษณะเมื่อบันทึกฉาก
+
+**Issue:** *Exported FBX files are missing animation data.*  
+**Solution:** Set `SaveOptions.setExportAnimations(true)` and verify that the source scene contains keyed animation tracks.
 
 ## คำถามที่พบบ่อย
 
-**Q:** *ฉันสามารถใช้ Aspose.3D ในแอปพลิเคชัน Java เชิงพาณิชย์ได้หรือไม่?*  
-**A:** ใช่. จำเป็นต้องมีลิขสิทธิ์ Aspose ที่ถูกต้องสำหรับการใช้งานในผลิตภัณฑ์; มีการทดลองใช้ฟรีสำหรับการประเมิน.
+**Q:** *Can I use Aspose.3D in a commercial Java application?*  
+**A:** Yes. A valid Aspose license is required for production use; a free trial is available for evaluation.
 
-**Q:** *รูปแบบไฟล์ 3D ใดบ้างที่รองรับการโหลดและบันทึก?*  
-**A:** Aspose.3D รองรับ OBJ, STL, FBX, 3DS, glTF, PLY, U3D, X, และหลายรูปแบบอื่น ๆ.
+**Q:** *Which 3D file formats are supported for loading and saving?*  
+**A:** Aspose.3D supports OBJ, STL, FBX, 3DS, glTF, PLY, U3D, X, and several others—over 30 formats in total.
 
-**Q:** *ฉันจะอัปเกรดวัสดุเป็น PBR โดยไม่ต้องเขียนใหม่ทั้งหมดอย่างไร?*  
-**A:** ใช้เมธอด `MaterialConverter.convertToPbr()` ที่ให้มาใน API – จะอัปเดตวัสดุทั้งหมดในหนึ่งครั้ง.
+**Q:** *How do I upgrade materials to PBR without rewriting the whole scene?*  
+**A:** Use the `MaterialConverter.convertToPbr()` method provided in the API – it updates all materials in one call.
 
-**Q:** *มีวิธีลดขนาดไฟล์เมื่อบันทึกฉากขนาดใหญ่หรือไม่?*  
-**A:** มี. ตั้งค่า `SaveOptions` (เช่น เปิดการบีบอัด, ลดความละเอียดเมช) เพื่อเพิ่มประสิทธิภาพขนาดผลลัพธ์.
+**Q:** *Is there a way to reduce file size when saving large scenes?*  
+**A:** Yes. Configure `SaveOptions` (e.g., enable compression, reduce mesh precision) to optimize output size.
 
-**Q:** *ฉันต้องการ dependencies เพิ่มเติมเพื่อทำงานกับ Aspose.3D หรือไม่?*  
-**A:** เพียงแค่ JAR ของ Aspose.3D for Java เท่านั้นที่จำเป็น; dependencies อื่น ๆ ทั้งหมดถูกรวมมาแล้ว.
+**Q:** *Do I need any additional dependencies to work with Aspose.3D?*  
+**A:** Only the Aspose.3D for Java JAR is required; all other dependencies are bundled.
 
----
-
-**อัปเดตล่าสุด:** 2026-02-22  
-**ทดสอบกับ:** Aspose.3D for Java (latest stable release)  
-**ผู้เขียน:** Aspose  
-
----
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-06-29  
+**Tested With:** Aspose.3D for Java (latest stable release)  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [Java 3D Graphics Tutorial - Create Empty 3D Document](/3d/java/load-and-save/create-empty-3d-document/)
+- [Java 3D Graphics Tutorial - Create a 3D Cube Scene with Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
+- [convert 3d file java – Save 3D Scenes with Aspose.3D](/3d/java/load-and-save/save-3d-scenes/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
