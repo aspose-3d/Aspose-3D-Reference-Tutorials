@@ -190,8 +190,6 @@ A: 一時ライセンスは [here](https://purchase.aspose.com/temporary-license
 **Q: 完全な Aspose.3D for Java ライセンスはどこで購入できますか？**  
 A: 購入オプションは [here](https://purchase.aspose.com/buy) にあります。
 
-{{< blocks/products/products-backtop-button >}}
-
 **最終更新日:** 2026-05-14  
 **テスト環境:** Aspose.3D 24.11 for Java  
 **作者:** Aspose
@@ -206,3 +204,5 @@ A: 購入オプションは [here](https://purchase.aspose.com/buy) にありま
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

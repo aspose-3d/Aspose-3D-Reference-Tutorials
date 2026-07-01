@@ -187,8 +187,6 @@ A: 一時ライセンスは [こちら](https://purchase.aspose.com/temporary-li
 **テスト環境:** Aspose.3D for Java 24.11  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 関連チュートリアル
 
 - [Java で 3D シーンを作成 - Aspose.3D で PBR マテリアルを適用](/3d/java/geometry/apply-pbr-materials-to-objects/)
@@ -199,3 +197,5 @@ A: 一時ライセンスは [こちら](https://purchase.aspose.com/temporary-li
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

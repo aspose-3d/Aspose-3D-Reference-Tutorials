@@ -20,12 +20,12 @@ schemas:
   steps:
   - name: '**Java Development Environment** – JDK 8 or newer installed.'
     text: '**Java Development Environment** – JDK 8 or newer installed.'
-  - name: '**Aspose.3D Library** – Download the latest JAR from the [download link](https://releases.aspose.com/3d/java/).'
-    text: '**Aspose.3D Library** – Download the latest JAR from the [download link](https://releases.aspose.com/3d/java/).'
+  - name: '**Aspose.3D Library** – Download the latest JAR from the [download link](https://releases.aspose.com/3d/java/) .'
+    text: '**Aspose.3D Library** – Download the latest JAR from the [download link](https://releases.aspose.com/3d/java/) .'
   - name: '**Documentation** – Familiarise yourself with the API via the official
-      [documentation](https://reference.aspose.com/3d/java/).'
+      [documentation](https://reference.aspose.com/3d/java/) .'
     text: '**Documentation** – Familiarise yourself with the API via the official
-      [documentation](https://reference.aspose.com/3d/java/).'
+      [documentation](https://reference.aspose.com/3d/java/) .'
   - name: '**Temporary License (Optional)** – If you don’t have a permanent license,
       obtain a [temporary license](https://purchase.aspose.com/temporary-license/)
       for testing.'
@@ -190,8 +190,6 @@ scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
 **Δοκιμή με:** Aspose.3D 24.12 (latest)  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Σχετικά Μαθήματα
 
 - [Δημιουργία 3D Σκηνής Java με Aspose 3D Java](/3d/java/3d-scenes-and-models/)
@@ -202,3 +200,5 @@ scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

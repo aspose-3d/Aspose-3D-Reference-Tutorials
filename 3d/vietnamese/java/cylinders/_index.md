@@ -125,8 +125,6 @@ A: Gọi `scene.save("myModel.obj", FileFormat.OBJ)` cho OBJ hoặc `scene.save(
 **Kiểm tra với:** Aspose.3D for Java 24.9  
 **Tác giả:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Hướng dẫn liên quan
 
 - [Cách mô hình 3D - Mô hình nguyên thủy với Aspose.3D cho Java](/3d/java/primitive-3d-models/)
@@ -137,3 +135,5 @@ A: Gọi `scene.save("myModel.obj", FileFormat.OBJ)` cho OBJ hoặc `scene.save(
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

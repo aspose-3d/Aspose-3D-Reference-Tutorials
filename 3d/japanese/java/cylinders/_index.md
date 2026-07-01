@@ -125,8 +125,6 @@ A: `scene.save("myModel.obj", FileFormat.OBJ)` を呼び出すと OBJ、`scene.s
 **テスト環境:** Aspose.3D for Java 24.9  
 **作者:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 関連チュートリアル
 
 - [Aspose.3D for Java で 3D モデリング - プリミティブモデルの作成方法](/3d/java/primitive-3d-models/)
@@ -137,3 +135,5 @@ A: `scene.save("myModel.obj", FileFormat.OBJ)` を呼び出すと OBJ、`scene.s
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

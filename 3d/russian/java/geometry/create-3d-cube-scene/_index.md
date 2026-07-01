@@ -190,8 +190,6 @@ A: You can get a temporary license [here](https://purchase.aspose.com/temporary-
 **Тестировано с:** Aspose.3D for Java 24.11  
 **Автор:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Связанные руководства
 
 - [Создание 3D‑сцены в Java – применение PBR‑материалов с Aspose.3D](/3d/java/geometry/apply-pbr-materials-to-objects/)
@@ -203,3 +201,5 @@ A: You can get a temporary license [here](https://purchase.aspose.com/temporary-
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

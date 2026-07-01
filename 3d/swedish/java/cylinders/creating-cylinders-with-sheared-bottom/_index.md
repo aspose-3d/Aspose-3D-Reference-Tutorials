@@ -193,8 +193,6 @@ A: Du kan få en tillfällig licens [here](https://purchase.aspose.com/temporary
 **Q: Var kan jag köpa en full licens för Aspose.3D för Java?**  
 A: Köpalternativ finns tillgängliga [here](https://purchase.aspose.com/buy).
 
-{{< blocks/products/products-backtop-button >}}
-
 **Senast uppdaterad:** 2026-05-14  
 **Testad med:** Aspose.3D 24.11 for Java  
 **Författare:** Aspose
@@ -208,3 +206,5 @@ A: Köpalternativ finns tillgängliga [here](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

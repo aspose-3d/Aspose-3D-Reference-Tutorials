@@ -187,8 +187,6 @@ A: 您可以在 [here](https://purchase.aspose.com/temporary-license/) 取得臨
 **測試環境:** Aspose.3D for Java 24.11  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相關教學
 
 - [建立 3D 場景 Java - 使用 Aspose.3D 套用 PBR 材質](/3d/java/geometry/apply-pbr-materials-to-objects/)
@@ -200,3 +198,5 @@ A: 您可以在 [here](https://purchase.aspose.com/temporary-license/) 取得臨
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

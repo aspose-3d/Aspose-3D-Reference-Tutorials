@@ -126,8 +126,6 @@ A: OBJ için `scene.save("myModel.obj", FileFormat.OBJ)`, FBX için `scene.save(
 **Test Edilen Versiyon:** Aspose.3D for Java 24.9  
 **Yazar:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## İlgili Öğreticiler
 
 - [3D Modelleme - Aspose.3D for Java ile Primitive Modeller](/3d/java/primitive-3d-models/)
@@ -137,3 +135,5 @@ A: OBJ için `scene.save("myModel.obj", FileFormat.OBJ)`, FBX için `scene.save(
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

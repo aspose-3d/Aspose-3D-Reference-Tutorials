@@ -124,8 +124,6 @@ A: Call `scene.save("myModel.obj", FileFormat.OBJ)` for OBJ or `scene.save("myMo
 **Tested With:** Aspose.3D for Java 24.9  
 **Author:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Related Tutorials
 
 - [How to Model 3D - Primitive Models with Aspose.3D for Java](/3d/java/primitive-3d-models/)
@@ -136,3 +134,5 @@ A: Call `scene.save("myModel.obj", FileFormat.OBJ)` for OBJ or `scene.save("myMo
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

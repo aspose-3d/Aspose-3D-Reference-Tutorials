@@ -193,8 +193,6 @@ A: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) al
 **Q: Tam Aspose.3D for Java lisansını nereden satın alabilirim?**  
 A: Satın alma seçenekleri [burada](https://purchase.aspose.com/buy) mevcuttur.
 
-{{< blocks/products/products-backtop-button >}}
-
 **Son Güncelleme:** 2026-05-14  
 **Test Edilen Versiyon:** Aspose.3D 24.11 for Java  
 **Yazar:** Aspose
@@ -209,3 +207,5 @@ A: Satın alma seçenekleri [burada](https://purchase.aspose.com/buy) mevcuttur.
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

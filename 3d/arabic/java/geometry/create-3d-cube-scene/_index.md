@@ -182,8 +182,6 @@ System.out.println("\nCube Scene created successfully.\nFile saved at " + MyDir)
 **تم الاختبار مع:** Aspose.3D for Java 24.11  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## دروس ذات صلة
 
 - [إنشاء مشهد ثلاثي الأبعاد Java - تطبيق مواد PBR باستخدام Aspose.3D](/3d/java/geometry/apply-pbr-materials-to-objects/)
@@ -195,3 +193,5 @@ System.out.println("\nCube Scene created successfully.\nFile saved at " + MyDir)
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

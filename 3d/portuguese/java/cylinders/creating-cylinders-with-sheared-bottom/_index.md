@@ -191,8 +191,6 @@ A: Você pode obter uma licença temporária [aqui](https://purchase.aspose.com/
 **Q: Onde posso comprar uma licença completa do Aspose.3D para Java?**  
 A: Opções de compra estão disponíveis [aqui](https://purchase.aspose.com/buy).
 
-{{< blocks/products/products-backtop-button >}}
-
 **Última atualização:** 2026-05-14  
 **Testado com:** Aspose.3D 24.11 for Java  
 **Autor:** Aspose
@@ -206,3 +204,5 @@ A: Opções de compra estão disponíveis [aqui](https://purchase.aspose.com/buy
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

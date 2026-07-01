@@ -125,8 +125,6 @@ A: OBJ의 경우 `scene.save("myModel.obj", FileFormat.OBJ)`를, FBX의 경우 `
 **테스트 환경:** Aspose.3D for Java 24.9  
 **작성자:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 관련 튜토리얼
 
 - [Aspose.3D for Java로 3D 모델링 - 기본 모델](/3d/java/primitive-3d-models/)
@@ -137,3 +135,5 @@ A: OBJ의 경우 `scene.save("myModel.obj", FileFormat.OBJ)`를, FBX의 경우 `
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

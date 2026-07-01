@@ -20,12 +20,12 @@ schemas:
   steps:
   - name: '**Java Development Environment** – JDK 8 or newer installed.'
     text: '**Java Development Environment** – JDK 8 or newer installed.'
-  - name: '**Aspose.3D Library** – Download the latest JAR from the [download link](https://releases.aspose.com/3d/java/).'
-    text: '**Aspose.3D Library** – Download the latest JAR from the [download link](https://releases.aspose.com/3d/java/).'
+  - name: '**Aspose.3D Library** – Download the latest JAR from the [download link](https://releases.aspose.com/3d/java/) .'
+    text: '**Aspose.3D Library** – Download the latest JAR from the [download link](https://releases.aspose.com/3d/java/) .'
   - name: '**Documentation** – Familiarise yourself with the API via the official
-      [documentation](https://reference.aspose.com/3d/java/).'
+      [documentation](https://reference.aspose.com/3d/java/) .'
     text: '**Documentation** – Familiarise yourself with the API via the official
-      [documentation](https://reference.aspose.com/3d/java/).'
+      [documentation](https://reference.aspose.com/3d/java/) .'
   - name: '**Temporary License (Optional)** – If you don’t have a permanent license,
       obtain a [temporary license](https://purchase.aspose.com/temporary-license/)
       for testing.'
@@ -192,8 +192,6 @@ Tutarlı malzeme parametreleri, oluşturulan her modelin farklı görüntüleyic
 **Test Edilen Versiyon:** Aspose.3D 24.12 (latest)  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## İlgili Öğreticiler
 
 - [Aspose 3D Java ile 3D Sahne Oluşturma](/3d/java/3d-scenes-and-models/)
@@ -204,3 +202,5 @@ Tutarlı malzeme parametreleri, oluşturulan her modelin farklı görüntüleyic
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -190,8 +190,6 @@ A: 您可在 [here](https://purchase.aspose.com/temporary-license/) 取得臨時
 **Q: 我該從哪裡購買完整的 Aspose.3D for Java 授權？**  
 A: 購買選項請參考 [here](https://purchase.aspose.com/buy)。
 
-{{< blocks/products/products-backtop-button >}}
-
 **最後更新：** 2026-05-14  
 **測試環境：** Aspose.3D 24.11 for Java  
 **作者：** Aspose
@@ -205,3 +203,5 @@ A: 購買選項請參考 [here](https://purchase.aspose.com/buy)。
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

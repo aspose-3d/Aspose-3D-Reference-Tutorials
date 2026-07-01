@@ -192,8 +192,6 @@ Parameter material yang konsisten memastikan setiap model yang dihasilkan terlih
 **Diuji Dengan:** Aspose.3D 24.12 (latest)  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Terkait
 
 - [Buat Adegan 3D Java dengan Aspose 3D Java](/3d/java/3d-scenes-and-models/)
@@ -204,3 +202,5 @@ Parameter material yang konsisten memastikan setiap model yang dihasilkan terlih
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

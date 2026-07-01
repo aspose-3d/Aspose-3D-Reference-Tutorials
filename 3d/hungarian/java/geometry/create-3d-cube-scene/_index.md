@@ -188,8 +188,6 @@ A: Ideiglenes licencet kaphat [itt](https://purchase.aspose.com/temporary-licens
 **Tesztelve ezzel:** Aspose.3D for Java 24.11  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Kapcsolódó útmutatók
 
 - [3D jelenet létrehozása Java - PBR anyagok alkalmazása az Aspose.3D-vel](/3d/java/geometry/apply-pbr-materials-to-objects/)
@@ -201,3 +199,5 @@ A: Ideiglenes licencet kaphat [itt](https://purchase.aspose.com/temporary-licens
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

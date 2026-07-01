@@ -190,8 +190,6 @@ C: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) al
 **Test Edilen:** Aspose.3D for Java 24.11  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## İlgili Öğreticiler
 
 - [Java ile 3D Sahne Oluştur - Aspose.3D ile PBR Malzemeleri Uygula](/3d/java/geometry/apply-pbr-materials-to-objects/)
@@ -203,3 +201,5 @@ C: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) al
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

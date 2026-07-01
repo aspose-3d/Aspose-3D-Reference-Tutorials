@@ -191,8 +191,6 @@ Consistent material parameters ensure that every generated model looks the same 
 **Tested With:** Aspose.3D 24.12 (latest)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Related Tutorials
 
 - [Create 3D Scene Java with Aspose 3D Java](/3d/java/3d-scenes-and-models/)
@@ -203,3 +201,5 @@ Consistent material parameters ensure that every generated model looks the same 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

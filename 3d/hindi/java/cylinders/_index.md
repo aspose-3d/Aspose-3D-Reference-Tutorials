@@ -125,8 +125,6 @@ A: OBJ के लिए `scene.save("myModel.obj", FileFormat.OBJ)` और FBX �
 **परीक्षण किया गया:** Aspose.3D for Java 24.9  
 **लेखक:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## संबंधित ट्यूटोरियल
 
 - [Aspose.3D for Java के साथ 3D मॉडल बनाना - प्रिमिटिव मॉडल](/3d/java/primitive-3d-models/)
@@ -136,3 +134,5 @@ A: OBJ के लिए `scene.save("myModel.obj", FileFormat.OBJ)` और FBX �
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

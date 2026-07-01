@@ -125,8 +125,6 @@ weight: 25
 **تم الاختبار مع:** Aspose.3D للـ Java 24.9  
 **المؤلف:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## دروس ذات صلة
 
 - [كيفية نمذجة 3D - نماذج أولية باستخدام Aspose.3D للـ Java](/3d/java/primitive-3d-models/)
@@ -136,3 +134,5 @@ weight: 25
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

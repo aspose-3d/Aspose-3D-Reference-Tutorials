@@ -125,8 +125,6 @@ A: 呼叫 `scene.save("myModel.obj", FileFormat.OBJ)` 以匯出 OBJ，或 `scene
 **測試環境：** Aspose.3D for Java 24.9  
 **作者：** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相關教學
 
 - [如何使用 Aspose.3D for Java 建模 3D - 基本模型](/3d/java/primitive-3d-models/)
@@ -136,3 +134,5 @@ A: 呼叫 `scene.save("myModel.obj", FileFormat.OBJ)` 以匯出 OBJ，或 `scene
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

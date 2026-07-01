@@ -189,8 +189,6 @@ A: 임시 라이선스를 [here](https://purchase.aspose.com/temporary-license/)
 **테스트 환경:** Aspose.3D for Java 24.11  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 관련 튜토리얼
 
 - [Java로 3D 씬 만들기 - Aspose.3D로 PBR 재질 적용](/3d/java/geometry/apply-pbr-materials-to-objects/)
@@ -202,3 +200,5 @@ A: 임시 라이선스를 [here](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

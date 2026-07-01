@@ -188,8 +188,6 @@ A: Dočasnou licenci můžete získat [here](https://purchase.aspose.com/tempora
 **Tested With:** Aspose.3D for Java 24.11  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Související tutoriály
 
 - [Vytvořit 3D scénu v Java - Použít PBR materiály s Aspose.3D](/3d/java/geometry/apply-pbr-materials-to-objects/)
@@ -201,3 +199,5 @@ A: Dočasnou licenci můžete získat [here](https://purchase.aspose.com/tempora
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

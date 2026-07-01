@@ -191,8 +191,6 @@ Zastosowanie ścinania do prymitywu umożliwia tworzenie bardziej organicznych i
 **P:** Gdzie mogę kupić pełną licencję Aspose.3D dla Javy?  
 **O:** Opcje zakupu są dostępne [tutaj](https://purchase.aspose.com/buy).
 
-{{< blocks/products/products-backtop-button >}}
-
 **Ostatnia aktualizacja:** 2026-05-14  
 **Testowano z:** Aspose.3D 24.11 for Java  
 **Autor:** Aspose
@@ -206,3 +204,5 @@ Zastosowanie ścinania do prymitywu umożliwia tworzenie bardziej organicznych i
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

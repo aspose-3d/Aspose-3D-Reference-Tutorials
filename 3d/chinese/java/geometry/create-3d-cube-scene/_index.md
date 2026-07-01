@@ -187,8 +187,6 @@ System.out.println("\nCube Scene created successfully.\nFile saved at " + MyDir)
 **测试环境：** Aspose.3D for Java 24.11  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相关教程
 
 - [使用 Aspose.3D 在 Java 中创建 3D 场景 - 应用 PBR 材质](/3d/java/geometry/apply-pbr-materials-to-objects/)
@@ -200,3 +198,5 @@ System.out.println("\nCube Scene created successfully.\nFile saved at " + MyDir)
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

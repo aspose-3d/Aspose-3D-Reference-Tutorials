@@ -125,8 +125,6 @@ A: Anropa `scene.save("myModel.obj", FileFormat.OBJ)` för OBJ eller `scene.save
 **Testad med:** Aspose.3D for Java 24.9  
 **Författare:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Relaterade handledningar
 
 - [Hur man modellerar 3D - Grundläggande modeller med Aspose.3D för Java](/3d/java/primitive-3d-models/)
@@ -137,3 +135,5 @@ A: Anropa `scene.save("myModel.obj", FileFormat.OBJ)` för OBJ eller `scene.save
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

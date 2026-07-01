@@ -188,8 +188,6 @@ A: Bạn có thể nhận giấy phép tạm thời [here](https://purchase.aspo
 **Đã kiểm tra với:** Aspose.3D for Java 24.11  
 **Tác giả:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Hướng dẫn liên quan
 
 - [Tạo Cảnh 3D Java - Áp dụng vật liệu PBR với Aspose.3D](/3d/java/geometry/apply-pbr-materials-to-objects/)
@@ -201,3 +199,5 @@ A: Bạn có thể nhận giấy phép tạm thời [here](https://purchase.aspo
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

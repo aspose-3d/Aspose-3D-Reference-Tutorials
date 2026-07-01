@@ -126,8 +126,6 @@ A: Zavolejte `scene.save("myModel.obj", FileFormat.OBJ)` pro OBJ nebo `scene.sav
 **Testováno s:** Aspose.3D for Java 24.9  
 **Autor:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Související tutoriály
 
 - [Jak modelovat 3D - Primitivní modely s Aspose.3D pro Java](/3d/java/primitive-3d-models/)
@@ -138,3 +136,5 @@ A: Zavolejte `scene.save("myModel.obj", FileFormat.OBJ)` pro OBJ nebo `scene.sav
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -190,8 +190,6 @@ A: Anda dapat memperoleh lisensi sementara [here](https://purchase.aspose.com/te
 **Diuji Dengan:** Aspose.3D for Java 24.11  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Terkait
 
 - [Buat Adegan 3D Java - Terapkan Material PBR dengan Aspose.3D](/3d/java/geometry/apply-pbr-materials-to-objects/)
@@ -203,3 +201,5 @@ A: Anda dapat memperoleh lisensi sementara [here](https://purchase.aspose.com/te
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

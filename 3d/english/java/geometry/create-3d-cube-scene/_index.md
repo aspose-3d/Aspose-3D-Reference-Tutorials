@@ -188,8 +188,6 @@ A: You can get a temporary license [here](https://purchase.aspose.com/temporary-
 **Tested With:** Aspose.3D for Java 24.11  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Related Tutorials
 
 - [Create 3D Scene Java - Apply PBR Materials with Aspose.3D](/3d/java/geometry/apply-pbr-materials-to-objects/)
@@ -201,3 +199,5 @@ A: You can get a temporary license [here](https://purchase.aspose.com/temporary-
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

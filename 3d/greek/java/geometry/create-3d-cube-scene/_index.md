@@ -190,8 +190,6 @@ A: Μπορείτε να αποκτήσετε προσωρινή άδεια [her
 **Δοκιμή Με:** Aspose.3D for Java 24.11  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Σχετικά Μαθήματα
 
 - [Δημιουργία 3D Σκηνής Java - Εφαρμογή Υλικών PBR με Aspose.3D](/3d/java/geometry/apply-pbr-materials-to-objects/)
@@ -203,3 +201,5 @@ A: Μπορείτε να αποκτήσετε προσωρινή άδεια [her
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
