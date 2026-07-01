@@ -1,10 +1,54 @@
 ---
-date: 2026-02-09
-description: تعلم كيفية إنشاء مشهد ثلاثي الأبعاد في جافا، وتطبيق مواد PBR واقعية باستخدام
-  Aspose.3D، وحفظ نموذج STL ثلاثي الأبعاد لتصوير الكائنات ثلاثية الأبعاد في جافا.
-linktitle: Create 3D Scene Java – Apply PBR Materials with Aspose.3D
+date: 2026-05-14
+description: تعلم كيفية تصدير STL في Java عن طريق إنشاء مشهد ثلاثي الأبعاد، وتطبيق
+  مواد PBR واقعية باستخدام Aspose.3D، وحفظ النموذج للعرض.
+keywords:
+- how to export stl
+- Aspose 3D PBR materials
+- Java 3D scene creation
+linktitle: كيفية تصدير STL في Java – إنشاء مشهد ثلاثي الأبعاد باستخدام Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-05-14'
+  description: Learn how to export STL in Java by creating a 3D scene, applying realistic
+    PBR materials with Aspose.3D, and saving the model for rendering.
+  headline: How to Export STL in Java – Create 3D Scene with Aspose.3D
+  type: TechArticle
+- description: Learn how to export STL in Java by creating a 3D scene, applying realistic
+    PBR materials with Aspose.3D, and saving the model for rendering.
+  name: How to Export STL in Java – Create 3D Scene with Aspose.3D
+  steps:
+  - name: '**Java Development Environment** – JDK 8 or newer installed.'
+    text: '**Java Development Environment** – JDK 8 or newer installed.'
+  - name: '**Aspose.3D Library** – Download the latest JAR from the [download link](https://releases.aspose.com/3d/java/) .'
+    text: '**Aspose.3D Library** – Download the latest JAR from the [download link](https://releases.aspose.com/3d/java/) .'
+  - name: '**Documentation** – Familiarise yourself with the API via the official
+      [documentation](https://reference.aspose.com/3d/java/) .'
+    text: '**Documentation** – Familiarise yourself with the API via the official
+      [documentation](https://reference.aspose.com/3d/java/) .'
+  - name: '**Temporary License (Optional)** – If you don’t have a permanent license,
+      obtain a [temporary license](https://purchase.aspose.com/temporary-license/)
+      for testing.'
+    text: '**Temporary License (Optional)** – If you don’t have a permanent license,
+      obtain a [temporary license](https://purchase.aspose.com/temporary-license/)
+      for testing.'
+  type: HowTo
+- questions:
+  - answer: It’s the process of building a `Scene` object that holds geometry, lights,
+      and cameras in a Java application.
+    question: What does “create 3d scene java” mean?
+  - answer: Aspose.3D provides a ready‑made `PbrMaterial` class.
+    question: Which library handles PBR materials?
+  - answer: Yes – the `Scene.save` method supports STL (ASCII and binary).
+    question: Can I export the result as STL?
+  - answer: A permanent Aspose.3D license is required for commercial use; a temporary
+      license works for testing.
+    question: Do I need a license for production?
+  - answer: Any Java 8+ runtime is supported.
+    question: What Java version is required?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: 'إنشاء مشهد ثلاثي الأبعاد بجافا: تطبيق مواد PBR باستخدام Aspose.3D'
+title: كيفية تصدير STL في Java – إنشاء مشهد ثلاثي الأبعاد باستخدام Aspose.3D
 url: /ar/java/geometry/apply-pbr-materials-to-objects/
 weight: 10
 ---
@@ -13,49 +57,35 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء مشهد ثلاثي الأبعاد Java – تطبيق مواد PBR باستخدام Aspose.3D
+# كيفية تصدير STL في Java – إنشاء مشهد 3D باستخدام Aspose.3D
 
 ## مقدمة
 
-في هذا الدرس العملي ستتعلم **كيفية إنشاء مشهد ثلاثي الأبعاد في Java** وإثرائه بمواد التظليل الفيزيائي (PBR) باستخدام مكتبة Aspose.3D. بحلول نهاية الدليل ستكون قادرًا على عرض أسطح واقعية و**حفظ نموذج 3D بصيغة STL** للاستخدام لاحقًا في أي خط أنابيب ثلاثي الأبعاد.
+في هذا الدرس العملي ستتعلم **كيفية تصدير STL** من تطبيق Java من خلال بناء مشهد 3D كامل، وتطبيق مواد Physically Based Rendering (PBR)، وحفظ النتيجة باستخدام Aspose.3D. سواءً كنت تستهدف الطباعة ثلاثية الأبعاد، أو خطوط أنابيب محركات الألعاب، أو تصور المنتجات، فإن الخطوات أدناه توفر لك سير عمل قابل للتكرار ومتحكم فيه بالإصدار يعمل على أي بيئة تشغيل Java 8+.
 
 ## إجابات سريعة
-- **ماذا يعني “create 3d scene java”؟** إنه عملية بناء كائن Scene يحتوي على الهندسة والإضاءة والكاميرات في تطبيق Java.  
+- **ماذا يعني “create 3d scene java”؟** إنه عملية بناء كائن `Scene` الذي يحتوي على الهندسة والإضاءة والكاميرات في تطبيق Java.  
 - **أي مكتبة تتعامل مع مواد PBR؟** توفر Aspose.3D فئة `PbrMaterial` جاهزة.  
-- **هل يمكنني تصدير النتيجة بصيغة STL؟** نعم – تدعم طريقة `Scene.save` صيغة STL (ASCII وbinary).  
-- **هل أحتاج إلى ترخيص للإنتاج؟** يتطلب الاستخدام التجاري ترخيص دائم لـ Aspose.3D؛ ترخيص مؤقت يكفي للاختبار.  
+- **هل يمكنني تصدير النتيجة كـ STL؟** نعم – تدعم طريقة `Scene.save` صيغة STL (ASCII وbinary).  
+- **هل أحتاج إلى ترخيص للإنتاج؟** يتطلب الاستخدام التجاري ترخيص دائم لـ Aspose.3D؛ الترخيص المؤقت يكفي للاختبار.  
 - **ما نسخة Java المطلوبة؟** أي بيئة تشغيل Java 8+ مدعومة.
 
-## كيفية إنشاء مشهد ثلاثي الأبعاد باستخدام Aspose.3D في جافا
+## كيفية إنشاء مشهد 3d java باستخدام Aspose.3D
 
-كيفية إنشاء مشهد ثلاثي الأبعاد Java باستخدام Aspose.3D
+`Scene` هي الفئة الحاوية الرئيسية التي تمثل وثيقة 3D. قم بتحميل وتكوين وحفظ المشهد ببضع أسطر من الشيفرة فقط. أولاً، تنشئ كائن `Scene`، ثم تُرفق الهندسة و`PbrMaterial`، وأخيرًا تستدعي `Scene.save` بصيغة STL. يتيح لك هذا التدفق الشامل أتمتة إنشاء الأصول دون الحاجة إلى فتح محرر 3D.
 
-قبل أن نغوص في الشيفرة، دعونا نوضح لماذا بناء مشهد ثلاثي الأبعاد برمجيًا ذو قيمة. سواء كنت تُعد أصولًا لمحرك ألعاب، أو تُولّد نماذج للطباعة ثلاثية الأبعاد، أو تُنشئ تصورات منتجات لموقع تجارة إلكترونية، فإن التحكم الكامل في الهندسة، والمواد، وصيغ التصدير يتيح لك أتمتة خطوط عمل قابلة للتكرار والحفاظ على كل شيء تحت التحكم بالإصدارات.
+## ما هو مشهد 3D في Java؟
 
-### أهمية ذلك
+*المشهد* هو الحاوية التي تحتفظ بجميع الكائنات (العقد)، والهندسة الخاصة بها، والمواد، والإضاءة، والكاميرات. فكر فيه كمنصة افتراضية تضع عليها نماذجك ثلاثية الأبعاد. توفر فئة `Scene` في Aspose.3D طريقة نظيفة كائنية‑التوجه لبناء هذه المنصة برمجيًا.
 
-* **الاتساق** – تُطبق نفس معلمات المادة في كل مرة، مما يلغي الحاجة إلى تعديل يدوي في محرر ثلاثي الأبعاد.  
-* **الأتمتة** – يمكنك إنشاء العشرات من التغييرات (ألوان مختلفة، مستويات الخشونة، أو الأحجام) باستخدام حلقة بسيطة.  
-* **متعدد المنصات** – يمكن لأي أداة لاحقة استخدام ملف STL، من Blender إلى برامج تقطيع الطابعات ثلاثية الأبعاد.
+## لماذا نستخدم مواد PBR لتصيير كائنات 3D في Java؟
 
-## ما هو المشهد ثلاثي الأبعاد في جافا؟
+PBR (Physically Based Rendering) تحاكي تفاعل الضوء في العالم الحقيقي باستخدام معلمات المعدن والخشونة. النتيجة هي مادة تبدو متسقة تحت أي ظروف إضاءة، وهو أمر أساسي لتصور المنتجات الواقعي، والواقع المعزز/الواقع الافتراضي، ومحركات الألعاب الحديثة. من خلال التحكم في المعدن، والخشونة، والالوبيد، وخرائط العادي، يمكنك تحقيق مجموعة واسعة من تشطيبات السطح — من المعدن المصقول إلى البلاستيك غير اللامع — دون تعديل الشادرات يدويًا.
 
-ما هو المشهد ثلاثي الأبعاد في Java؟
+## المتطلبات المسبقة
 
-*المشهد* هو الحاوية التي تحتفظ بجميع الكائنات (العُقد)، والهندسة، والمواد، والإضاءة، والكاميرات. فكر فيه كأنه مسرح افتراضي تضع عليه نماذجك ثلاثية الأبعاد. توفر فئة `Scene` في Aspose.3D طريقة نظيفة كائنية لتكوين هذا المسرح برمجيًا.
-
-## لماذا نستخدم مواد PBR لعرض الكائنات ثلاثية الأبعاد في جافا؟
-
-لماذا نستخدم مواد PBR لتصيير الكائنات ثلاثية الأبعاد في Java؟
-
-تقنية PBR (Physically Based Rendering) تحاكي تفاعل الضوء في العالم الحقيقي باستخدام عوامل مثل المعدن والخشونة. النتيجة مظهر أكثر إقناعًا عبر ظروف إضاءة مختلفة، وهو أمر ذو قيمة خاصة لتصور المنتجات، الألعاب، أو تجارب AR/VR.
-
-## المتطلبات الأساسية
-
-المتطلبات المسبقة
-
-1. **بيئة تطوير Java** – JDK 8 أو أحدث مثبت.  
-2. **مكتبة Aspose.3D** – قم بتحميل أحدث JAR من [رابط التحميل](https://releases.aspose.com/3d/java/).  
+1. **بيئة تطوير Java** – تثبيت JDK 8 أو أحدث.  
+2. **مكتبة Aspose.3D** – تحميل أحدث JAR من [رابط التحميل](https://releases.aspose.com/3d/java/).  
 3. **التوثيق** – تعرّف على API عبر [التوثيق الرسمي](https://reference.aspose.com/3d/java/).  
 4. **ترخيص مؤقت (اختياري)** – إذا لم يكن لديك ترخيص دائم، احصل على [ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) للاختبار.
 
@@ -63,21 +93,21 @@ weight: 10
 
 | حالة الاستخدام | كيف يساعد الدرس |
 |----------|------------------------|
-| **الطباعة ثلاثية الأبعاد** | التصدير إلى STL يتيح لك إرسال النموذج مباشرة إلى برنامج التقطيع. |
-| **خط أنابيب أصول الألعاب** | معلمات مادة PBR تتطابق مع توقعات محركات الألعاب الحديثة. |
-| **مكوّن المنتج** | أتمتة تغييرات اللون/الإنهاء عن طريق تعديل قيم المعدن/الخشونة. |
+| **الطباعة ثلاثية الأبعاد** | يتيح تصدير إلى STL إرسال النموذج مباشرة إلى أداة القطع. |
+| **خط أنابيب أصول اللعبة** | تطابق معلمات مادة PBR توقعات محركات الألعاب الحديثة. |
+| **مكوّن المنتج** | أتمتة تنوعات اللون/الإنهاء عن طريق ضبط قيم المعدن/الخشونة. |
 
 ## استيراد الحزم
 
-أضف مساحة الاسم الخاصة بـ Aspose.3D إلى ملف المصدر Java الخاص بك:
+يجب استيراد مساحة الأسماء `Aspose.3D` حتى يتمكن المترجم من حل الفئات المستخدمة في الدرس.
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## الخطوة 1: تهيئة المشهد
+## الخطوة 1: تهيئة مشهد
 
-إنشاء المشهد الذي سيعمل كقماش لهندستك وموادك.
+`Scene` هي الحاوية الأساسية لجميع محتوى 3D. إنشاء نسخة جديدة يمنحك لوحة نظيفة يمكنك إضافة الهندسة والإضاءة والكاميرات إليها.
 
 ```java
 // ExStart:InitializeScene
@@ -86,11 +116,11 @@ Scene scene = new Scene();
 // ExEnd:InitializeScene
 ```
 
-> **نصيحة احترافية:** احرص على أن يشير `MyDir` إلى مجلد قابل للكتابة؛ وإلا سيفشل استدعاء `save`.
+> **نصيحة احترافية:** حافظ على أن يشير `MyDir` إلى مجلد قابل للكتابة؛ وإلا سيفشل استدعاء `save`.
 
 ## الخطوة 2: تهيئة مادة PBR
 
-تكوين مادة PBR بقيم معدنية وخشونة تعطي مظهرًا شبه معدني.
+`PbrMaterial` تحدد خصائص التصيير القائم على الفيزياء مثل المعدن والخشونة. تُعرّف `PbrMaterial` المعدن، والخشونة، وغيرها من خصائص السطح. ضبط عامل معدني عالي (≈ 0.9) وخشونة 0.9 ينتج مظهر معدن مصقول واقعي.
 
 ```java
 // ExStart:InitializePBRMaterial
@@ -100,11 +130,11 @@ mat.setRoughnessFactor(0.9);
 // ExEnd:InitializePBRMaterial
 ```
 
-> **لماذا هذه القيم؟** عامل معدني عالي (≈ 0.9) يجعل السطح يتصرف كالمعدن، بينما الخشونة العالية (≈ 0.9) تضيف انتشارًا خفيفًا، مما يمنع الانعكاس المثالي كالمرآة.
+> **لماذا هذه القيم؟** عامل معدني عالي يجعل السطح يتصرف كالمعدن، بينما الخشونة العالية تضيف انتشارًا طفيفًا، مما يمنع الحصول على لمسة مرآة مثالية.
 
-## الخطوة 3: إنشاء كائن ثلاثي الأبعاد وتطبيق المادة
+## الخطوة 3: إنشاء كائن 3D وتطبيق المادة
 
-هنا نولد هندسة صندوق بسيط، نرفعه إلى عقدة الجذر في المشهد، ونُعيّن مادة PBR التي أنشأناها للتو.
+هنا نقوم بإنشاء هندسة صندوق بسيط، وربطه بعقدة الجذر في المشهد، وتعيين `PbrMaterial` التي أنشأناها للتو.
 
 ```java
 // ExStart:Create3DObject
@@ -115,9 +145,9 @@ boxNode.setMaterial(mat);
 
 > **مشكلة شائعة:** نسيان تعيين المادة على العقدة سيترك الكائن بالمظهر الافتراضي (غير PBR).
 
-## الخطوة 4: حفظ المشهد ثلاثي الأبعاد (تصدير STL)
+## الخطوة 4: حفظ مشهد 3D (تصدير STL)
 
-تصدير المشهد بالكامل—بما في ذلك الصندوق المُحسّن بـ PBR—إلى ملف STL. STL هو تنسيق مدعوم على نطاق واسع للطباعة ثلاثية الأبعاد وفحوصات بصرية سريعة.
+`Scene.save` يكتب المشهد إلى ملف بالصيغ المحددة. صدّر المشهد بالكامل — بما في ذلك الصندوق المعزز بـ PBR — إلى ملف STL. STL هو صيغة مدعومة على نطاق واسع للطباعة ثلاثية الأبعاد والفحوصات البصرية السريعة.
 
 ```java
 // ExStart:Save3DScene
@@ -125,45 +155,49 @@ scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
 // ExEnd:Save3DScene
 ```
 
-يمكنك أيضًا اختيار `FileFormat.STLBINARY` إذا كان حجم الملف الأصغر مطلوبًا.
+`FileFormat.STLBINARY` يحدد إخراج STL ثنائي، وهو أصغر من ASCII. يمكنك أيضًا اختيار `FileFormat.STLASCII` إذا كنت تفضّل ملفًا قابلًا للقراءة البشرية.
 
-### نصائح لحل المشكلات
+## لماذا هذا مهم
+
+تضمن معلمات المادة المتسقة أن كل نموذج مُولد يبدو بنفس الشكل عبر مشاهد مختلفة وإعدادات إضاءة متنوعة. تتيح الأتمتة إنتاج دفعات كبيرة من التنوعات بأقل جهد، بينما يضمن إخراج STL متعدد المنصات التوافق مع أدوات تتراوح من Blender إلى أدوات القطع للطابعات ثلاثية الأبعاد. معًا، تُسرّع هذه الفوائد خطوط تطوير البرمجيات وتقلل الأخطاء اليدوية.
+
+## نصائح استكشاف الأخطاء وإصلاحها
 
 | المشكلة | السبب المحتمل | الحل |
 |-------|--------------|-----|
-| **الملف غير محفوظ** | `MyDir` يشير إلى مجلد غير موجود أو يفتقر إلى صلاحية الكتابة | تحقق من وجود المجلد وأن عملية Java لديها صلاحية الكتابة |
-| **المادة تظهر مسطحة** | قيم المعدن/الخشونة مضبوطة على 0 | زيادة `setMetallicFactor` و/أو `setRoughnessFactor` |
-| **لا يمكن فتح ملف STL** | علامة تنسيق الملف غير صحيحة (ASCII مقابل Binary) للعارض | استخدم تعداد `FileFormat` المناسب للعارض المستهدف |
+| **الملف غير محفوظ** | `MyDir` يشير إلى مجلد غير موجود أو يفتقر إلى صلاحية الكتابة | تحقق من وجود الدليل وأن عملية Java لديك لديها صلاحية كتابة |
+| **المادة تبدو مسطحة** | قيم المعدن/الخشونة مضبوطة على 0 | زيادة `setMetallicFactor` و/أو `setRoughnessFactor` |
+| **لا يمكن فتح ملف STL** | علم تنسيق الملف غير صحيح (ASCII مقابل Binary) للعارض | استخدم قيمة `FileFormat` المتطابقة للعارض المستهدف |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-**س: هل يمكنني استخدام Aspose.3D للمشاريع التجارية؟**  
-ج: نعم. اشترِ ترخيصًا تجاريًا من [صفحة الشراء](https://purchase.aspose.com/buy).
+**س:** هل يمكنني استخدام Aspose.3D للمشاريع التجارية؟  
+**ج:** نعم. اشترِ ترخيصًا تجاريًا من [صفحة الشراء](https://purchase.aspose.com/buy).
 
-**س: كيف أحصل على الدعم لـ Aspose.3D؟**  
-ج: انضم إلى المجتمع على [منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) للحصول على مساعدة مجانية، أو افتح تذكرة دعم بترخيص صالح.
+**س:** كيف أحصل على دعم Aspose.3D؟  
+**ج:** انضم إلى المجتمع على [منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) للحصول على مساعدة مجانية، أو افتح تذكرة دعم بترخيص صالح.
 
-**س: هل هناك نسخة تجريبية مجانية متاحة؟**  
-ج: بالتأكيد. حمّل نسخة تجريبية من [صفحة النسخة التجريبية المجانية](https://releases.aspose.com/).
+**س:** هل هناك نسخة تجريبية مجانية؟  
+**ج:** بالتأكيد. حمّل نسخة تجريبية من [صفحة التجربة المجانية](https://releases.aspose.com/).
 
-**س: أين يمكنني العثور على توثيق مفصل لـ Aspose.3D؟**  
-ج: جميع مراجع API متاحة في [التوثيق الرسمي](https://reference.aspose.com/3d/java/).
+**س:** أين يمكنني العثور على توثيق مفصل لـ Aspose.3D؟  
+**ج:** جميع مراجع API متاحة في [التوثيق الرسمي](https://reference.aspose.com/3d/java/).
 
-**س: كيف أحصل على ترخيص مؤقت للاختبار؟**  
-ج: اطلب واحدًا عبر [رابط الترخيص المؤقت](https://purchase.aspose.com/temporary-license/).
+**س:** كيف أحصل على ترخيص مؤقت للاختبار؟  
+**ج:** اطلب واحدًا عبر [رابط الترخيص المؤقت](https://purchase.aspose.com/temporary-license/).
 
-## الخلاصة
+**Last Updated:** 2026-05-14  
+**Tested With:** Aspose.3D 24.12 (latest)  
+**Author:** Aspose  
 
-لقد **أنشأت الآن مشهدًا ثلاثيًا الأبعاد في Java**، وطبقت مادة PBR واقعية، وصدرّت النتيجة كملف STL باستخدام Aspose.3D. يمنحك هذا سير العمل أساسًا قويًا لبناء تصورات أغنى، وإعداد أصول للطباعة ثلاثية الأبعاد، أو إمداد النماذج إلى محركات الألعاب.
+## دروس ذات صلة
 
----
+- [إنشاء مشهد 3D Java باستخدام Aspose 3D Java](/3d/java/3d-scenes-and-models/)
+- [كيفية تصدير المشهد إلى FBX واسترجاع معلومات مشهد 3D في Java](/3d/java/3d-scenes-and-models/get-scene-information/)
+- [كيفية تصدير OBJ - تعديل اتجاه المستوى لتحديد موضع المشهد 3D بدقة في Java](/3d/java/3d-scenes-and-models/change-plane-orientation/)
 
-**آخر تحديث:** 2026-02-09
-**تم الاختبار باستخدام:** Aspose.3D 24.12 (الأحدث)
-**المؤلف:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
