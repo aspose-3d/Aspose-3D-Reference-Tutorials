@@ -69,36 +69,33 @@ Create a new Java project (any IDE works) and add all Aspose.3D JARs to the clas
 ### Step 2: How to Create Sphere Mesh in Java
 
 ```java
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import com.aspose.threed.Sphere;
+import com.aspose.threed.DracoSaveOptions;
+import com.aspose.threed.DracoCompressionLevel;
+import com.aspose.threed.FileFormat;
+
 // ExStart:Encode3DMeshinGoogleDraco
 // The path to the documents directory.
 String MyDir = "Your Document Directory";
 
 // Create a sphere
 Sphere sphere = new Sphere();
-```
 
-> **Pro tip:** The `Sphere` class generates a triangulated mesh with a default radius of 1.0. You can pass custom radius, tessellation, or material parameters if you need a different level of detail before compression.
-
-### Step 3: How to Compress Mesh with Google Draco
-
-```java
 // Encode the sphere to Google Draco raw data using optimal compression level.
 DracoSaveOptions opt = new DracoSaveOptions();
 opt.setCompressionLevel(DracoCompressionLevel.OPTIMAL);
 byte[] b = FileFormat.DRACO.encode(sphere.toMesh(), opt);
-```
 
-Setting the compression level to `OPTIMAL` gives the greatest size reduction while preserving visual fidelity, directly helping you **reduce 3D model size**.
-
-### Step 4: Save the Compressed Mesh
-
-```java
 // Save the raw bytes to file
 Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 // ExEnd:Encode3DMeshinGoogleDraco
 ```
 
-The resulting `SphereMeshtoDRC_Out.drc` can be streamed to clients, stored in a CDN, or loaded directly by any Draco‑compatible engine.
+> **Pro tip:** The `Sphere` class generates a triangulated mesh with a default radius of 1.0. You can pass custom radius, tessellation, or material parameters if you need a different level of detail before compression.
+
+
 
 ## Common Use Cases
 

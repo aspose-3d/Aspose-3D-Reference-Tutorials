@@ -86,24 +86,15 @@ scene.getAssetInfo().setUnitScaleFactor(0.6);
 ### Step 4: Export Scene to FBX
 
 Now that the asset information is attached, we save the scene as an FBX file. The `FileFormat.FBX7500ASCII` option produces a human‑readable ASCII FBX, which is handy for debugging.
-
 ```java
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "InformationToScene.fbx";
 scene.save(MyDir, FileFormat.FBX7500ASCII);
+System.out.println("\nAsset information added successfully to Scene.\nFile saved at " + MyDir);
 // ExEnd:AddAssetInformationToScene
 ```
 
-> **Remember:** Replace `"Your Document Directory"` with an absolute path or a path relative to your project’s working directory.
-
-### Step 5: Print Success Message
-
-A simple console output confirms that the operation succeeded and tells you where the file was written.
-
-```java
-System.out.println("\nAsset information added successfully to Scene.\nFile saved at " + MyDir);
-```
-
+> **Remember:** Replace `"Your Document Directory"` with an absolute path or a path relative to your project's working directory.
 ## Why export scene to FBX with Aspose.3D?
 
 Exporting to FBX is a common requirement because FBX is widely supported by game engines, DCC tools, and AR/VR pipelines. Aspose.3D gives you full control over the exported file—metadata, units, and geometry—without needing a heavyweight 3D authoring application. This makes automated asset generation, batch processing, and server‑side conversions fast and reliable.

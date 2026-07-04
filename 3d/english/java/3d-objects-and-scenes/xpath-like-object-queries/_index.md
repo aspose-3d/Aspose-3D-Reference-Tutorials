@@ -74,6 +74,7 @@ Next, we add a few child nodes under the root node. Some nodes contain a **Camer
 
 ```java
 // ExStart:CreateHierarchy
+Scene s = new Scene();
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");
@@ -89,7 +90,12 @@ c.createChildNode("c2").addEntity(new Light("light"));
 Now the fun part—using XPath‑style strings to **select objects by name** or type.
 
 ```java
-// ExStart:XPathLikeObjectQueries
+import java.util.List;
+import com.aspose.threed.*;
+
+// The scene from Step 1
+Scene s = new Scene();
+
 // Select objects that have type Camera or name is 'light' regardless of their location.
 List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
 

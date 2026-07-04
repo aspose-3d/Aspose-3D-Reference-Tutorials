@@ -74,37 +74,25 @@ Create a new Java project in your preferred IDE and add the Aspose.3D JAR files 
 
 ### Step 2: Initialize a New 3D Scene
 Start by creating an empty scene object. The `Scene` class is the container for all geometry, lights, cameras, and hierarchy.
+### Step 2: Create Complete Scene with Box and Compression
+
+Here's the complete code that combines all steps - initializing the scene, adding geometry, and saving with compression:
 
 ```java
 // The path to the documents directory.
 String MyDir = "Your Document Directory";
 
 Scene scene = new Scene();
-```
 
-### Step 3: Add a Simple Box Geometry
-For demonstration, we’ll add a box primitive to the scene. The `Box` class creates a cube that we can transform.
-
-```java
 Box box = new Box();
 Transform tr = scene.getRootNode().createChildNode(box).getTransform();
 tr.setScale(12, 12, 12);
 tr.setTranslation(10, 0, 0);
-```
 
-### Step 4: Customize the Box (Scale, Rotation, Position)
-You can modify the same box or add additional instances. Below we change the scale and apply Euler angles to rotate the object.
-
-```java
 tr = scene.getRootNode().createChildNode(box).getTransform();
 tr.setScale(5, 5, 5);
 tr.setEulerAngles(50, 10, 0);
-```
 
-### Step 5: Save the Scene with Compression Enabled
-The key to **reducing 3d file size** lies in the `AmfSaveOptions`. Set `setEnableCompression(true)` to activate gzip compression inside the AMF file.
-
-```java
 AmfSaveOptions opt = new AmfSaveOptions();
 opt.setEnableCompression(true);   // Turn on compression to shrink file size
 scene.save(MyDir + "compressed_scene.amf", opt);
@@ -113,7 +101,6 @@ scene.save(MyDir + "compressed_scene.amf", opt);
 > **Pro tip:** If you need to keep the original uncompressed version for debugging, save a second copy with `setEnableCompression(false)`.
 
 Repeat the above steps for any additional objects you wish to include in the scene. Each object will be stored in the same compressed container, keeping the overall file size low.
-
 ## Tips and Best Practices
 - **Choose the right texture format** – PNG and JPEG are already compressed; avoid BMP when possible.  
 - **Reuse geometry** – Instancing the same mesh reduces duplicate data before compression.  
