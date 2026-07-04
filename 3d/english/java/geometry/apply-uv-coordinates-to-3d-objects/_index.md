@@ -72,12 +72,12 @@ Here we define the UV coordinates and the index buffer that tells the mesh which
 ```java
 // ExStart:SetupUVOnCube
 // UVs
-com.aspose.threed FVector4[] uvs = new com.aspose.threed FVector4[]
+com.aspose.threed.FVector4[] uvs = new com.aspose.threed.FVector4[]
 {
-    new com.aspose.threed FVector4( 0.0, 1.0,0.0, 1.0),
-    new com.aspose.threed FVector4( 1.0, 0.0,0.0, 1.0),
-    new com.aspose.threed FVector4( 0.0, 0.0,0.0, 1.0),
-    new com.aspose.threed FVector4( 1.0, 1.0,0.0, 1.0)
+    new com.aspose.threed.FVector4(0.0f, 1.0f, 0.0f, 1.0f),
+    new com.aspose.threed.FVector4(1.0f, 0.0f, 0.0f, 1.0f),
+    new com.aspose.threed.FVector4(0.0f, 0.0f, 0.0f, 1.0f),
+    new com.aspose.threed.FVector4(1.0f, 1.0f, 0.0f, 1.0f)
 };
 
 // Indices of the uvs per each polygon
