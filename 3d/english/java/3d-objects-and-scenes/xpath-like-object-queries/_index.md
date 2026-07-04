@@ -57,23 +57,13 @@ import java.util.List;
 ```
 
 ## Step‑by‑Step Guide  
+### Step 1: Create Scene and Build Hierarchy  
 
-### Step 1: Create a Scene for Testing  
+We start with an empty scene, build a hierarchy of nodes, and add some entities for querying.
 
-We start with an empty scene that will host our hierarchy.
-
-```java
-// ExStart:CreateScene
+````java
+// ExStart:XPathLikeObjectQueries
 Scene s = new Scene();
-// ExEnd:CreateScene
-```
-
-### Step 2: Build a Hierarchy of Nodes  
-
-Next, we add a few child nodes under the root node. Some nodes contain a **Camera** or a **Light** entity, which we’ll later query.
-
-```java
-// ExStart:CreateHierarchy
 Node a = s.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");
@@ -81,9 +71,7 @@ s.getRootNode().createChildNode("b");
 Node c = s.getRootNode().createChildNode("c");
 c.createChildNode("c1").addEntity(new Camera("cam"));
 c.createChildNode("c2").addEntity(new Light("light"));
-// ExEnd:CreateHierarchy
-```
-
+````
 ### Step 3: Apply XPath‑Like Queries  
 
 Now the fun part—using XPath‑style strings to **select objects by name** or type.
