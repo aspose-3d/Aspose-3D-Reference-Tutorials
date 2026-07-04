@@ -64,8 +64,6 @@ In your Java project, import the core Aspose.3D classes and the helper `Common` 
 
 ```java
 import com.aspose.threed.*;
-
-import examples.geometry.Common;
 ```
 
 Now that the namespaces are ready, let’s start building the scene.
@@ -82,8 +80,7 @@ A `Scene` is the container for all nodes, meshes, lights, and animation data.
 ## Step 2: Create Mesh using Polygon Builder
 
 ```java
-// Call Common class create mesh using polygon builder method to set mesh instance
-Mesh mesh = Common.createMeshUsingPolygonBuilder();
+Mesh mesh = new Mesh();
 ```
 
 The helper creates a basic cube mesh that we’ll animate later. This is the foundation for a **create animated 3D mesh** workflow.

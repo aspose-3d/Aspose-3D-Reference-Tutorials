@@ -79,7 +79,7 @@ Node top = scene.getRootNode().createChildNode();
 
 // Create the first cube node
 Node cube1 = top.createChildNode("cube1");
-Mesh mesh = Common.createMeshUsingPolygonBuilder(); // Use your mesh creation method
+Mesh mesh = new Mesh();
 cube1.setEntity(mesh);
 cube1.getTransform().setTranslation(new Vector3(-10, 0, 0));
 

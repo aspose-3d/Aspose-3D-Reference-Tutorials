@@ -88,8 +88,8 @@ For demonstration, we’ll add a box primitive to the scene. The `Box` class cre
 ```java
 Box box = new Box();
 Transform tr = scene.getRootNode().createChildNode(box).getTransform();
-tr.setScale(new Vector3(12, 12, 12));
-tr.setTranslation(new Vector3(10, 0, 0));
+tr.setScale(12, 12, 12);
+tr.setTranslation(10, 0, 0);
 ```
 
 ### Step 4: Customize the Box (Scale, Rotation, Position)
@@ -97,8 +97,8 @@ You can modify the same box or add additional instances. Below we change the sca
 
 ```java
 tr = scene.getRootNode().createChildNode(box).getTransform();
-tr.setScale(new Vector3(5, 5, 5));
-tr.setEulerAngles(new Vector3(50, 10, 0));
+tr.setScale(5, 5, 5);
+tr.setEulerAngles(50, 10, 0);
 ```
 
 ### Step 5: Save the Scene with Compression Enabled

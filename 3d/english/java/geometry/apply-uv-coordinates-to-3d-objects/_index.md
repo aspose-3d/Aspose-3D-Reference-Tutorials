@@ -72,12 +72,12 @@ Here we define the UV coordinates and the index buffer that tells the mesh which
 ```java
 // ExStart:SetupUVOnCube
 // UVs
-Vector4[] uvs = new Vector4[]
+com.aspose.threed FVector4[] uvs = new com.aspose.threed FVector4[]
 {
-    new Vector4( 0.0, 1.0,0.0, 1.0),
-    new Vector4( 1.0, 0.0,0.0, 1.0),
-    new Vector4( 0.0, 0.0,0.0, 1.0),
-    new Vector4( 1.0, 1.0,0.0, 1.0)
+    new com.aspose.threed FVector4( 0.0, 1.0,0.0, 1.0),
+    new com.aspose.threed FVector4( 1.0, 0.0,0.0, 1.0),
+    new com.aspose.threed FVector4( 0.0, 0.0,0.0, 1.0),
+    new com.aspose.threed FVector4( 1.0, 1.0,0.0, 1.0)
 };
 
 // Indices of the uvs per each polygon
@@ -97,8 +97,7 @@ Now we attach the UV set to a mesh instance. This step **adds texture coordinate
 ### Step 3: Create Mesh and UVset
 
 ```java
-// Call Common class create mesh using polygon builder method to set mesh instance
-Mesh mesh = Common.createMeshUsingPolygonBuilder();
+Mesh mesh = new Mesh();
 
 // Create UVset
 VertexElementUV elementUV = mesh.createElementUV(TextureMapping.DIFFUSE, MappingMode.POLYGON_VERTEX, ReferenceMode.INDEX_TO_DIRECT);

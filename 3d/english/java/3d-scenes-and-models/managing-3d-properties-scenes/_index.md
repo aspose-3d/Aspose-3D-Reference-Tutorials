@@ -116,9 +116,8 @@ System.out.println(pdiffuse);
 ### Step 7: Traverse Property’s Sub‑Properties
 
 ```java
-for (Property pp : pdiffuse.getProperties()) {
-    System.out.println("Diffuse. " + pp.getName() + " = " + pp.getValue());
-}
+// Access property value directly
+System.out.println("Property value: " + pdiffuse.getValue());
 ```
 
 Some properties are hierarchical. Traversing `pdiffuse.getProperties()` shows you any nested attributes (e.g., texture coordinates, animation keys) that belong to the *Diffuse* entry.

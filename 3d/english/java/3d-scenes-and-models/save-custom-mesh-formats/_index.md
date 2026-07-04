@@ -62,7 +62,8 @@ import java.util.List;
 ## Step 1: Load the 3D Model (convert fbx to mesh)
 
 ```java
-Scene scene = new Scene("Your Document Directory" + "test.fbx");
+Scene scene = new Scene();
+scene.open("Your Document Directory" + "test.fbx");
 ```
 
 *Here we load an FBX file (`convert fbx to mesh`) into an Aspose `Scene` object, which gives us access to all nodes, meshes, and materials.*

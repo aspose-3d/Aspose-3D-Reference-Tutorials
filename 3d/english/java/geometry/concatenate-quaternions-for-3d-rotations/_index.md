@@ -67,8 +67,8 @@ We’ll create two base rotations:
 
 ```java
 Quaternion q1 = Quaternion.fromEulerAngle(Math.PI * 0.5, 0, 0);
-Vector3.X_AXIS.x = 3;
-Quaternion q2 = Quaternion.fromAngleAxis(-Math.PI * 0.5, Vector3.X_AXIS);
+Vector3 axis = new Vector3(3, 0, 0);
+Quaternion q2 = Quaternion.fromAngleAxis(-Math.PI * 0.5, axis);
 ```
 
 ## Step 3: Concatenate Quaternions
@@ -84,19 +84,19 @@ Quaternion q3 = q1.concat(q2);
 We’ll visualise each quaternion by attaching it to a separate cylinder. Notice how we **set rotation quaternion** on each node’s transform.
 
 ```java
-Node cylinder = scene.getRootNode().createChildNode("cylinder-q1", new Cylinder(0.1, 1, 2));
+Node cylinder = scene.getRootNode().createChildNode("cylinder-q1", new Box(0.1, 1, 2));
 cylinder.getTransform().setRotation(q1);
 cylinder.getTransform().setTranslation(new Vector3(-5, 2, 0));
 ```
 
 ```java
-cylinder = scene.getRootNode().createChildNode("cylinder-q2", new Cylinder(0.1, 1, 2));
+cylinder = scene.getRootNode().createChildNode("cylinder-q2", new Box(0.1, 1, 2));
 cylinder.getTransform().setRotation(q2);
 cylinder.getTransform().setTranslation(new Vector3(0, 2, 0));
 ```
 
 ```java
-cylinder = scene.getRootNode().createChildNode("cylinder-q3", new Cylinder(0.1, 1, 2));
+cylinder = scene.getRootNode().createChildNode("cylinder-q3", new Box(0.1, 1, 2));
 cylinder.getTransform().setRotation(q3);
 cylinder.getTransform().setTranslation(new Vector3(5, 2, 0));
 ```
