@@ -1,0 +1,2 @@
+#!/bin/bash
+/home/lexchou/workspace/aspose/ai-writer/3d-dev-skill/scripts/a3d-cli.py $*

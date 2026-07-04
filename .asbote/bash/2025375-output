@@ -1,0 +1,232 @@
+File: 3d/english/java/3d-mesh-data/generate-mesh-data/_index.md, Group: Block_0
+  Success: True
+
+File: 3d/english/java/3d-mesh-data/generate-mesh-data/_index.md, Group: GenerateDataForMeshes
+  Success: False
+  Error: ERROR:
+/tmp/tmpxfiifnks.java:6: error: incompatible types: String cannot be converted to Entity
+Scene s = new Scene(MyDir + "camera.3ds");
+                          ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+
+File: 3d/english/java/3d-mesh-data/split-meshes-by-material/_index.md, Group: Block_0
+  Success: True
+
+File: 3d/english/java/3d-mesh-data/split-meshes-by-material/_index.md, Group: SplitMeshbyMaterial
+  Success: True
+
+File: 3d/english/java/3d-objects-and-scenes/modify-sphere-radius/_index.md, Group: Block_0
+  Success: True
+
+File: 3d/english/java/3d-objects-and-scenes/modify-sphere-radius/_index.md, Group: WorkingWithSphereRadius
+  Success: True
+
+File: 3d/english/java/3d-objects-and-scenes/xpath-like-object-queries/_index.md, Group: Block_0
+  Success: True
+
+File: 3d/english/java/3d-objects-and-scenes/xpath-like-object-queries/_index.md, Group: CreateScene
+  Success: True
+
+File: 3d/english/java/3d-objects-and-scenes/xpath-like-object-queries/_index.md, Group: CreateHierarchy
+  Success: False
+  Error: ERROR:
+/tmp/tmphtmsr38p.java:2: error: cannot find symbol
+Node a = s.getRootNode().createChildNode("a");
+         ^
+  symbol:   variable s
+  location: class Test
+/tmp/tmphtmsr38p.java:5: error: cannot find symbol
+s.getRootNode().createChildNode("b");
+^
+  symbol:   variable s
+  location: class Test
+/tmp/tmphtmsr38p.java:6: error: cannot find symbol
+Node c = s.getRootNode().createChildNode("c");
+         ^
+  symbol:   variable s
+  location: class Test
+3 errors
+
+File: 3d/english/java/3d-objects-and-scenes/xpath-like-object-queries/_index.md, Group: XPathLikeObjectQueries
+  Success: False
+  Error: ERROR:
+/tmp/tmpdza3ootd.java:3: error: cannot find symbol
+List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+^
+  symbol:   class List
+  location: class Test
+/tmp/tmpdza3ootd.java:3: error: cannot find symbol
+List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+                       ^
+  symbol:   variable s
+  location: class Test
+/tmp/tmpdza3ootd.java:6: error: cannot find symbol
+A3DObject c1 = (A3DObject) s.getRootNode().selectSingleObject("/c/*/<Camera>");
+                           ^
+  symbol:   variable s
+  location: class Test
+/tmp/tmpdza3ootd.java:9: error: cannot find symbol
+A3DObject obj = (A3DObject) s.getRootNode().selectSingleObject("a1");
+                            ^
+  symbol:   variable s
+  location: class Test
+/tmp/tmpdza3ootd.java:12: error: cannot find symbol
+obj = (A3DObject) s.getRootNode().selectSingleObject("/");
+                  ^
+  symbol:   variable s
+  location: class Test
+5 errors
+
+File: 3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md, Group: Block_0
+  Success: True
+
+File: 3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md, Group: Block_1
+  Success: True
+
+File: 3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md, Group: Block_2
+  Success: True
+
+File: 3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md, Group: Block_3
+  Success: True
+
+File: 3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md, Group: Block_4
+  Success: False
+  Error: ERROR:
+/tmp/tmpo56j1d1c.java:1: error: cannot find symbol
+plane.setUp(new Vector3(1, 1, 3));
+^
+  symbol:   variable plane
+  location: class Test
+1 error
+
+File: 3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md, Group: Block_5
+  Success: False
+  Error: ERROR:
+/tmp/tmpsw75ci07.java:1: error: cannot find symbol
+scene.getRootNode().createChildNode(plane);
+                                    ^
+  symbol:   variable plane
+  location: class Test
+/tmp/tmpsw75ci07.java:1: error: cannot find symbol
+scene.getRootNode().createChildNode(plane);
+^
+  symbol:   variable scene
+  location: class Test
+2 errors
+
+File: 3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md, Group: Block_6
+  Success: False
+  Error: ERROR:
+/tmp/tmp4e9xjptq.java:1: error: cannot find symbol
+scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
+           ^
+  symbol:   variable MyDir
+  location: class Test
+/tmp/tmp4e9xjptq.java:1: error: cannot find symbol
+scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
+^
+  symbol:   variable scene
+  location: class Test
+2 errors
+
+
+=== SUMMARY ===
+3d/english/java/3d-mesh-data/generate-mesh-data/_index.md | Block_0 | PASS
+3d/english/java/3d-mesh-data/generate-mesh-data/_index.md | GenerateDataForMeshes | FAIL
+  ERROR:
+/tmp/tmpxfiifnks.java:6: error: incompatible types: String cannot be converted to Entity
+Scene s = new Scene(MyDir + "camera.3ds");
+                          ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+3d/english/java/3d-mesh-data/split-meshes-by-material/_index.md | Block_0 | PASS
+3d/english/java/3d-mesh-data/split-meshes-by-material/_index.md | SplitMeshbyMaterial | PASS
+3d/english/java/3d-objects-and-scenes/modify-sphere-radius/_index.md | Block_0 | PASS
+3d/english/java/3d-objects-and-scenes/modify-sphere-radius/_index.md | WorkingWithSphereRadius | PASS
+3d/english/java/3d-objects-and-scenes/xpath-like-object-queries/_index.md | Block_0 | PASS
+3d/english/java/3d-objects-and-scenes/xpath-like-object-queries/_index.md | CreateScene | PASS
+3d/english/java/3d-objects-and-scenes/xpath-like-object-queries/_index.md | CreateHierarchy | FAIL
+  ERROR:
+/tmp/tmphtmsr38p.java:2: error: cannot find symbol
+Node a = s.getRootNode().createChildNode("a");
+         ^
+  symbol:   variable s
+  location: class Test
+/tmp/tmphtmsr38p.java:5: error: cannot find symbol
+s.getRootNode().createChildNode("b");
+^
+  symbol:   variable s
+  location: class Test
+/tmp/tmphtmsr38p.java:6: error: cannot find symbol
+Node c = s.getRootNode().createChildNode("c");
+         ^
+  symbol:   variable s
+  location: class Test
+3 errors
+3d/english/java/3d-objects-and-scenes/xpath-like-object-queries/_index.md | XPathLikeObjectQueries | FAIL
+  ERROR:
+/tmp/tmpdza3ootd.java:3: error: cannot find symbol
+List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+^
+  symbol:   class List
+  location: class Test
+/tmp/tmpdza3ootd.java:3: error: cannot find symbol
+List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+                       ^
+  symbol:   variable s
+  location: class Test
+/tmp/tmpdza3ootd.java:6: error: cannot find symbol
+A3DObject c1 = (A3DObject) s.getRootNode().selectSingleObject("/c/*/<Camera>");
+                           ^
+  symbol:   variable s
+  location: class Test
+/tmp/tmpdza3ootd.java:9: error: cannot find symbol
+A3DObject obj = (A3DObject) s.getRootNode().selectSingleObject("a1");
+                            ^
+  symbol:   variable s
+  location: class Test
+/tmp/tmpdza3ootd.java:12: error: cannot find symbol
+obj = (A3DObject) s.getRootNode().selectSingleObject("/");
+                  ^
+  symbol:   variable s
+  location: class Test
+5 errors
+3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md | Block_0 | PASS
+3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md | Block_1 | PASS
+3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md | Block_2 | PASS
+3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md | Block_3 | PASS
+3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md | Block_4 | FAIL
+  ERROR:
+/tmp/tmpo56j1d1c.java:1: error: cannot find symbol
+plane.setUp(new Vector3(1, 1, 3));
+^
+  symbol:   variable plane
+  location: class Test
+1 error
+3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md | Block_5 | FAIL
+  ERROR:
+/tmp/tmpsw75ci07.java:1: error: cannot find symbol
+scene.getRootNode().createChildNode(plane);
+                                    ^
+  symbol:   variable plane
+  location: class Test
+/tmp/tmpsw75ci07.java:1: error: cannot find symbol
+scene.getRootNode().createChildNode(plane);
+^
+  symbol:   variable scene
+  location: class Test
+2 errors
+3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md | Block_6 | FAIL
+  ERROR:
+/tmp/tmp4e9xjptq.java:1: error: cannot find symbol
+scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
+           ^
+  symbol:   variable MyDir
+  location: class Test
+/tmp/tmp4e9xjptq.java:1: error: cannot find symbol
+scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
+^
+  symbol:   variable scene
+  location: class Test
+2 errors
