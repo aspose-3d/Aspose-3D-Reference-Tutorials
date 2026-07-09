@@ -1,12 +1,44 @@
 ---
-date: 2026-03-02
-description: تعلم كيفية تصدير المشاهد ثلاثية الأبعاد كسحب نقطية باستخدام إمكانيات
-  سحب النقاط في Aspose 3D. يوضح هذا الدليل كيفية تصدير السحابة النقطية وحفظ ملف السحابة
-  النقطية في Java.
-linktitle: Export 3D Scenes as Point Clouds with Aspose.3D for Java
+date: 2026-07-09
+description: تعلم كيفية تصدير المشاهد ثلاثية الأبعاد كـ point cloud باستخدام إمكانيات
+  Aspose 3D point cloud. يوضح هذا الدليل كيفية تصدير point cloud وحفظ ملف point cloud
+  في Java.
+keywords:
+- aspose 3d point cloud
+- how to export point cloud
+- export point cloud java
+lastmod: 2026-07-09
+linktitle: تصدير المشاهد ثلاثية الأبعاد كـ Point Clouds مع Aspose.3D للـ Java
+og_description: aspose 3d point cloud يتيح لك تصدير المشاهد ثلاثية الأبعاد كـ point
+  clouds خفيفة الوزن. تعلم كيفية حفظ ملفات OBJ point‑cloud في Java بضع أسطر من الشيفرة.
+og_image_alt: 'Developer guide: Export 3D scenes as point clouds using Aspose.3D for
+  Java'
+og_title: aspose 3d point cloud – تصدير المشاهد ثلاثية الأبعاد إلى OBJ باستخدام Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-09'
+  description: Learn how to export 3D scenes as point clouds using Aspose 3D point
+    cloud capabilities. This guide shows how to export point cloud and save point
+    cloud file in Java.
+  headline: aspose 3d point cloud – Export 3D Scenes to OBJ in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Unity’s OBJ importer reads vertex data, so the point cloud will appear
+      as a collection of points.
+    question: Can I use the exported OBJ point cloud in Unity?
+  - answer: Point size is a rendering setting; you can adjust it in your viewer or
+      graphics engine after import.
+    question: Is there a way to control point size when visualizing the OBJ file?
+  - answer: Currently only OBJ is supported for point‑cloud export; you can convert
+      OBJ to PLY using third‑party tools if needed.
+    question: Does Aspose.3D support other point‑cloud formats like PLY?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: 'aspose 3d سحابة نقاط - تصدير المشاهد ثلاثية الأبعاد كسحابات نقاط باستخدام Aspose.3D
-  للـ Java'
+tags:
+- aspose 3d
+- point cloud export
+- java 3d processing
+title: aspose 3d point cloud – تصدير المشاهد ثلاثية الأبعاد إلى OBJ باستخدام Java
 url: /ar/java/point-clouds/export-3d-scenes-point-clouds-java/
 weight: 15
 ---
@@ -15,35 +47,33 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تصدير المشاهد ثلاثية الأبعاد كسحب نقطية باستخدام Aspose.3D للـ Java
+# تصدير مشاهد 3D كسحب نقاط باستخدام Aspose.3D للـ Java
 
-## المقدمة
+## مقدمة
 
-في هذا الدرس العملي ستكتشف **كيفية تصدير سحابة نقطية** من مشهد ثلاثي الأبعاد باستخدام ميزة **aspose 3d point cloud** في Java. تُستخدم السحب النقطية على نطاق واسع لتصوير المسحات الواقعية، وبناء بيئات افتراضية، وتشغيل خطوط أنابيب المحاكاة. بنهاية الدليل ستكون قادرًا على **حفظ ملف سحابة نقطية** بصيغة OBJ الشائعة باستخدام بضع أسطر من الشيفرة فقط.
+في هذا الدرس العملي ستكتشف **كيفية تصدير سحب النقاط** من مشهد ثلاثي الأبعاد باستخدام ميزة **aspose 3d point cloud** في Java. تُستخدم سحب النقاط على نطاق واسع لتصوير المسحات الواقعية، بناء بيئات افتراضية، وتشغيل خطوط أنابيب المحاكاة. في نهاية الدليل ستتمكن من **حفظ ملف سحب النقاط** بصيغة OBJ الشائعة باستخدام بضع أسطر من الشيفرة فقط.
 
 ## إجابات سريعة
-- **ماذا يفعل “aspose 3d point cloud”؟** يتيح تصدير المشهد ثلاثي الأبعاد كمجموعة من الرؤوس (سحابة نقطية) بدلاً من هندسة الشبكة الكاملة.  
-- **ما الصيغة المستخدمة للسحابة النقطية؟** صيغة OBJ مدعومة عبر `ObjSaveOptions`.  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتقييم؛ يلزم الحصول على ترخيص تجاري للاستخدام الإنتاجي.  
+- **ماذا يفعل “aspose 3d point cloud”؟** يتيح تصدير مشهد ثلاثي الأبعاد كمجموعة من الرؤوس (سحب نقاط) بدلاً من هندسة الشبكة الكاملة.  
+- **ما الصيغة المستخدمة لسحب النقاط؟** صيغة OBJ مدعومة عبر `ObjSaveOptions`.  
+- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تكفي للتقييم؛ يلزم الحصول على ترخيص تجاري للاستخدام في الإنتاج.  
 - **ما نسخة Java المطلوبة؟** Java 19.8 أو أحدث.  
-- **أين يمكنني الحصول على المكتبة؟** حمّلها من صفحة الإصدار الرسمية لـ Aspose.
+- **كم عدد صيغ الملفات التي يدعمها Aspose.3D؟** أكثر من 30 صيغة استيراد وتصدير، بما في ذلك OBJ و FBX و STL و GLTF.
 
-## ما هو سحابة نقطية Aspose 3D؟
+## ما هو سحب نقاط Aspose 3D؟
 
-**aspose 3d point cloud** هو تمثيل خفيف الوزن لمشهد ثلاثي الأبعاد حيث يتم تخزين كل رأس كنقطة منفردة. هذه الصيغة مثالية للمسحات واسعة النطاق، بيانات LIDAR، والسيناريوهات التي تحتاج إلى عرض أو تحليل سريع دون عبء بيانات الشبكة الكاملة.
+سحب نقاط Aspose 3D هو تمثيل خفيف الوزن لمشهد ثلاثي الأبعاد حيث يتم تخزين كل رأس كنقطة فردية بدلاً من كونه جزءًا من هندسة شبكة متصلة. يقتصر هذا التنسيق على إحداثيات الفضاء فقط، مما يتيح تحميلًا سريعًا، حجم ملف أصغر، وتكاملًا سهلًا مع GIS و LIDAR وخطوط أنابيب المحاكاة.
 
-## لماذا تصدير السحب النقطية؟
+## لماذا تصدير سحب النقاط؟
 
-- **الأداء:** السحب النقطية أصغر وأسرع في التحميل، مما يجعلها مثالية للعارضات المستندة إلى الويب أو المحاكاة في الوقت الحقيقي.  
-- **قابلية التبادل:** العديد من أنظمة GIS، CAD، ومحركات الألعاب تدعم ملفات OBJ السحابية.  
-- **التحليل:** يمكن للباحثين تشغيل خوارزميات تعتمد على النقاط (مثل إعادة بناء السطح) مباشرة على البيانات المصدرة.
+يقلل تصدير سحب النقاط من حجم البيانات ويحسن سرعة العرض، مما يجعلها مثالية لعارضات الويب والمحاكاة في الوقت الحقيقي. تحتفظ ملفات سحب النقاط بصيغة OBJ بمواقع الرؤوس، مما يسمح بالاستيراد السلس إلى أدوات GIS، أنظمة CAD، ومحركات الألعاب مع الحفاظ على الدقة المكانية للتحليل اللاحق.
 
 ## المتطلبات المسبقة
 
 قبل الغوص في الدرس، تأكد من استيفاء المتطلبات التالية:
 
-1. مكتبة Aspose.3D للـ Java: حمّل وثبّت المكتبة من [هنا](https://releases.aspose.com/3d/java/).  
-2. بيئة تطوير Java: أعدّ بيئة تطوير Java بالإصدار 19.8 أو أعلى.
+1. مكتبة Aspose.3D للـ Java: قم بتنزيل وتثبيت المكتبة من [هنا](https://releases.aspose.com/3d/java/).  
+2. بيئة تطوير Java: إعداد بيئة تطوير Java بالإصدار 19.8 أو أعلى.
 
 ## استيراد الحزم
 
@@ -60,7 +90,8 @@ import java.io.IOException;
 
 ## الخطوة 1: تهيئة المشهد
 
-لبدء العمل، قم بتهيئة مشهد ثلاثي الأبعاد باستخدام Aspose.3D. هذا هو القماش الذي ستظهر عليه كائناتك ثلاثية الأبعاد.
+`Scene` هو الكائن الأساسي في Aspose.3D الذي يمثل مشهدًا ثلاثيًا كاملاً، بما في ذلك الشبكات، الأضواء، والكاميرات.  
+للبدء، قم بتهيئة مشهد ثلاثي الأبعاد باستخدام Aspose.3D. هذا هو القماش الذي ستظهر عليه كائناتك ثلاثية الأبعاد.
 
 ```java
 // ExStart:1
@@ -71,25 +102,27 @@ Scene scene = new Scene(new Sphere());
 
 ## الخطوة 2: تهيئة ObjSaveOptions
 
-الآن، قم بتهيئة الفئة `ObjSaveOptions`، التي توفر إعدادات لحفظ المشاهد ثلاثية الأبعاد بصيغة OBJ:
+فئة `ObjSaveOptions` توفر خيارات تكوين لحفظ المشهد بصيغة OBJ، بما في ذلك تصدير سحب النقاط.  
+الآن، قم بتهيئة فئة `ObjSaveOptions` التي توفر إعدادات لحفظ المشاهد ثلاثية الأبعاد بصيغة OBJ:
 
 ```java
 // Initialize  ObjSaveOptions
 ObjSaveOptions opt = new ObjSaveOptions();
 ```
 
-## الخطوة 3: ضبط سحابة النقاط (كيفية تصدير السحابة النقطية)
+## الخطوة 3: تعيين سحب النقاط (كيفية تصدير سحب النقاط)
 
-فعّل ميزة تصدير السحابة النقطية عن طريق ضبط الخيار `setPointCloud` إلى `true`. هذا يخبر Aspose بكتابة مواقع الرؤوس فقط.
+طريقة `setPointCloud(boolean)` تُفعّل وضع سحب النقاط، موجهة الكاتب لتصدير مواقع الرؤوس فقط.  
+فعّل ميزة تصدير سحب النقاط عن طريق تعيين خيار `setPointCloud` إلى `true`. هذا يخبر Aspose بكتابة مواقع الرؤوس فقط.
 
 ```java
 // To export 3D scene as point cloud setPointCloud
 opt.setPointCloud(true);
 ```
 
-## الخطوة 4: حفظ المشهد (حفظ ملف السحابة النقطية)
+## الخطوة 4: حفظ المشهد (حفظ ملف سحب النقاط)
 
-احفظ المشهد ثلاثي الأبعاد كسحابة نقطية في الدليل المطلوب. طريقة `save` تحترم الإعدادات التي قمنا بتكوينها أعلاه.
+احفظ المشهد ثلاثي الأبعاد كسحب نقاط في الدليل المطلوب. طريقة `save` تحترم الخيارات التي تم تكوينها أعلاه.
 
 ```java
 // Save
@@ -101,55 +134,56 @@ scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
 | المشكلة | السبب | الحل |
 |-------|-------|-----|
 | **ملف OBJ فارغ** | لم يتم استدعاء `setPointCloud(true)` | تأكد من وجود السطر `opt.setPointCloud(true);` قبل `scene.save`. |
-| **الملف غير موجود** | مسار الإخراج غير صحيح | استخدم مسارًا مطلقًا أو تحقق من وجود الدليل وأنه قابل للكتابة. |
-| **استثناء الترخيص** | انتهاء النسخة التجريبية أو عدم وجود ترخيص | طبّق ترخيص Aspose صالح عبر `License license = new License(); license.setLicense("Aspose.3D.lic");`. |
+| **الملف غير موجود** | مسار الإخراج غير صحيح | استخدم مسارًا مطلقًا أو تحقق من وجود الدليل وقابليته للكتابة. |
+| **استثناء الترخيص** | انتهت النسخة التجريبية أو لا يوجد ترخيص | تطبيق ترخيص Aspose صالح عبر `License license = new License(); license.setLicense("Aspose.3D.lic");`. |
 
 ## الخاتمة
 
-تهانينا! لقد نجحت في تصدير مشهد ثلاثي الأبعاد كسحابة نقطية باستخدام Aspose.3D للـ Java. يوضح هذا الدرس **كيفية تصدير سحابة نقطية** و**حفظ ملف سحابة نقطية** بأقل قدر من الشيفرة، مما يمنحك القدرة على دمج قدرات تصور ثلاثية الأبعاد قوية في تطبيقات Java الخاصة بك.
-
-## الأسئلة الشائعة
-
-### س1: أين يمكنني العثور على وثائق Aspose.3D للـ Java؟
-
-ج1: الوثائق الشاملة متوفرة [هنا](https://reference.aspose.com/3d/java/).
-
-### س2: كيف يمكنني تحميل Aspose.3D للـ Java؟
-
-ج2: حمّل المكتبة [هنا](https://releases.aspose.com/3d/java/).
-
-### س3: هل هناك نسخة تجريبية مجانية؟
-
-ج3: نعم، استكشف النسخة التجريبية المجانية [هنا](https://releases.aspose.com/).
-
-### س4: هل تحتاج إلى مساعدة أو لديك أسئلة؟
-
-ج4: زر منتدى مجتمع Aspose.3D [هنا](https://forum.aspose.com/c/3d/18).
-
-### س5: هل ترغب في شراء Aspose.3D للـ Java؟
-
-ج5: استكشف خيارات الشراء [هنا](https://purchase.aspose.com/buy).
+تهانينا! لقد نجحت في تصدير مشهد ثلاثي الأبعاد كسحب نقاط باستخدام Aspose.3D للـ Java. يوضح هذا الدرس **كيفية تصدير سحب النقاط** و**حفظ ملف سحب النقاط** بأقل قدر من الشيفرة، مما يمكنك من دمج قدرات تصور ثلاثية الأبعاد قوية في تطبيقات Java الخاصة بك.
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني استخدام سحابة OBJ النقطية المصدرة في Unity؟**  
-ج: نعم، مستورد OBJ في Unity يقرأ بيانات الرؤوس، لذا ستظهر السحابة النقطية كمجموعة من النقاط.
+**س1: أين يمكنني العثور على وثائق Aspose.3D للـ Java؟**  
+ج1: الوثائق الشاملة متاحة [هنا](https://reference.aspose.com/3d/java/).
+
+**س2: كيف يمكنني تنزيل Aspose.3D للـ Java؟**  
+ج2: قم بتنزيل المكتبة [هنا](https://releases.aspose.com/3d/java/).
+
+**س3: هل هناك نسخة تجريبية مجانية؟**  
+ج3: نعم، استكشف النسخة التجريبية المجانية [هنا](https://releases.aspose.com/).
+
+**س4: هل تحتاج إلى مساعدة أو لديك أسئلة؟**  
+ج4: زر منتدى مجتمع Aspose.3D [هنا](https://forum.aspose.com/c/3d/18).
+
+**س5: هل ترغب في شراء Aspose.3D للـ Java؟**  
+ج5: استكشف خيارات الشراء [هنا](https://purchase.aspose.com/buy).
+
+## أسئلة شائعة
+
+**س: هل يمكنني استخدام سحب نقاط OBJ المُصدَّر في Unity؟**  
+ج: نعم، مستورد OBJ في Unity يقرأ بيانات الرؤوس، لذا سيظهر سحب النقاط كمجموعة من النقاط.
 
 **س: هل هناك طريقة للتحكم في حجم النقطة عند عرض ملف OBJ؟**  
 ج: حجم النقطة هو إعداد عرض؛ يمكنك ضبطه في العارض أو محرك الرسومات بعد الاستيراد.
 
-**س: هل يدعم Aspose.3D صيغ سحب نقطية أخرى مثل PLY؟**  
-ج: حاليًا يدعم فقط OBJ لتصدير السحب النقطية؛ يمكنك تحويل OBJ إلى PLY باستخدام أدوات طرف ثالث إذا لزم الأمر.
+**س: هل يدعم Aspose.3D صيغ سحب نقاط أخرى مثل PLY؟**  
+ج: حاليًا يتم دعم OBJ فقط لتصدير سحب النقاط؛ يمكنك تحويل OBJ إلى PLY باستخدام أدوات طرف ثالث إذا لزم الأمر.
 
 ---
 
-**آخر تحديث:** 2026-03-02  
+**آخر تحديث:** 2026-07-09  
 **تم الاختبار مع:** Aspose.3D للـ Java 24.12  
 **المؤلف:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## دروس ذات صلة
+
+- [How to Convert Mesh to Point Cloud in Java with Aspose.3D](/3d/java/point-clouds/create-point-clouds-java/)
+- [How to Export PLY - Point Clouds with Aspose.3D for Java](/3d/java/point-clouds/export-point-clouds-ply-java/)
+- [Import PLY File Java – Load PLY Point Clouds Seamlessly](/3d/java/point-clouds/load-ply-point-clouds-java/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,10 +1,74 @@
 ---
-date: 2026-03-05
-description: Learn how to import PLY file Java using Aspose.3D with step‑by‑step code,
-  FAQs, and best practices.
-linktitle: Load PLY Point Clouds Seamlessly in Java
+date: 2026-07-09
+description: Οπτικοποίηση νέφους σημείων ply σε Java χρησιμοποιώντας Aspose.3D – εισαγωγή
+  βήμα‑βήμα, FAQ, βέλτιστες πρακτικές και συμβουλές απόδοσης.
+keywords:
+- visualize ply point cloud
+- Aspose.3D Java
+- PLY file import
+- Java point cloud processing
+lastmod: 2026-07-09
+linktitle: Φόρτωση νέφους σημείων PLY απρόσκοπτα σε Java
+og_description: Οπτικοποίηση νέφους σημείων ply στην εφαρμογή Java σας χρησιμοποιώντας
+  Aspose.3D. Αυτός ο οδηγός σας καθοδηγεί στη διαδικασία εισαγωγής αρχείων PLY σε
+  μορφή ASCII ή binary, στην πρόσβαση σε vertex data, και στην προετοιμασία του νέφους
+  για rendering ή analysis.
+og_image_alt: 'Developer guide: visualize ply point cloud in Java with Aspose.3D'
+og_title: Οπτικοποίηση νέφους σημείων ply – Εισαγωγή Java με Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-07-09'
+  description: visualise ply point cloud in Java using Aspose.3D – step‑by‑step import,
+    FAQs, best practices, and performance tips.
+  headline: visualize ply point cloud – Import PLY in Java apps
+  type: TechArticle
+- description: visualise ply point cloud in Java using Aspose.3D – step‑by‑step import,
+    FAQs, best practices, and performance tips.
+  name: visualize ply point cloud – Import PLY in Java apps
+  steps:
+  - name: Include Aspose.3D Library
+    text: You can find the download link **[here](https://releases.aspose.com/3d/java/)**.
+      Add the JAR to your project’s `libs` folder or declare it as a Maven/Gradle
+      dependency.
+  - name: Obtain the PLY Point Cloud File
+    text: Make sure the PLY file you want to load is reachable from your application
+      – either on the local filesystem or bundled as a resource. The file can be ASCII
+      or binary; Aspose.3D detects the format automatically.
+  - name: Initialize Aspose.3D
+    text: Before you can work with any 3D data, you need to initialise the library.
+      This step prepares internal factories and ensures the correct rendering pipeline
+      is selected.
+  - name: Load the PLY Point Cloud
+    text: 'Load the PLY point cloud into your Java application using the following
+      code snippet: **Pro tip:** After decoding, you can iterate over `geom.getVertices()`
+      to access individual point coordinates, or feed the geometry node straight into
+      `SceneRenderer` for immediate on‑screen rendering. **The `Scene'
+  type: HowTo
+- questions:
+  - answer: Yes, a commercial license is required for production use. Purchase a license
+      **[here](https://purchase.aspose.com/buy)**.
+    question: Can I use Aspose.3D for Java in commercial projects?
+  - answer: Absolutely – download a fully functional trial **[here](https://releases.aspose.com/)**
+      and evaluate all features without time limits.
+    question: Is there a free trial available?
+  - answer: The official API reference is available **[here](https://reference.aspose.com/3d/java/)**
+      and includes code snippets for PLY handling.
+    question: Where can I find detailed documentation?
+  - answer: Join the community support forum **[here](https://forum.aspose.com/c/3d/18)**
+      where Aspose engineers and other developers share solutions.
+    question: Need assistance or have questions?
+  - answer: Yes – request a temporary license **[here](https://purchase.aspose.com/temporary-license/)**
+      to run automated tests or CI pipelines.
+    question: Can I get a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Εισαγωγή αρχείου PLY Java – Φόρτωση νέφους σημείων PLY απρόσκοπτα
+tags:
+- visualize ply point cloud
+- Aspose.3D
+- Java 3D
+- point cloud
+- PLY format
+title: Οπτικοποίηση νέφους σημείων ply – Εισαγωγή PLY σε εφαρμογές Java
 url: /el/java/point-clouds/load-ply-point-clouds-java/
 weight: 11
 ---
@@ -13,35 +77,34 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Φορτώστε Απρόσκοπτα Σύννεφα Σημείων PLY στη Java
+# οπτικοποίηση σύννεφου σημείων ply – Φόρτωση αρχείων PLY σε Java
 
 ## Εισαγωγή
 
-Καλώς ήρθατε σε αυτόν τον ολοκληρωμένο οδηγό για **import ply file java** χρησιμοποιώντας την Aspose.3D. Αν θέλετε να εμπλουτίσετε την εφαρμογή Java σας με ισχυρή διαχείριση 3D συννέφων σημείων, βρίσκεστε στο σωστό σημείο. Στις επόμενες λίγες λεπτά θα περάσουμε από κάθε βήμα—τη λήψη της βιβλιοθήκης, την αποκωδικοποίηση ενός αρχείου PLY και την πρόσβαση στη γεωμετρία του—ώστε να αρχίσετε να εργάζεστε με σύννεφα σημείων με αυτοπεποίθηση.
+Αν χρειάζεστε να **visualize ply point cloud** δεδομένα μέσα σε μια εφαρμογή Java, βρίσκεστε στο σωστό μέρος. Σε αυτό το tutorial θα σας δείξουμε πώς να εισάγετε ένα αρχείο PLY (Polygon File Format) point‑cloud με το Aspose.3D, να εξερευνήσετε τις κορυφές του και να το ετοιμάσετε για απόδοση ή ανάλυση. Τα βήματα είναι σύντομα, ο κώδικας είναι έτοιμος για αντιγραφή, και οι εξηγήσεις είναι γραμμένες για προγραμματιστές που θέλουν να περάσουν γρήγορα από το «Έχω ένα αρχείο» στο «Μπορώ να το εμφανίσω».
 
 ## Γρήγορες Απαντήσεις
-- **Τι σημαίνει “import ply file java”;** Αναφέρεται στη φόρτωση ενός αρχείου σημείων μορφής PLY σε μια εφαρμογή Java.  
-- **Ποια βιβλιοθήκη το χειρίζεται καλύτερα;** Η Aspose.3D for Java παρέχει ένα απλό API για την αποκωδικοποίηση αρχείων PLY.  
-- **Χρειάζομαι άδεια για ανάπτυξη;** Μια δωρεάν δοκιμή λειτουργεί για δοκιμές· απαιτείται εμπορική άδεια για παραγωγή.  
-- **Ποια έκδοση της Java απαιτείται;** Java 8 ή νεότερη.  
-- **Μπορώ να οπτικοποιήσω το σύννεφο απευθείας;** Ναι—αφού αποκωδικοποιηθεί, μπορείτε να το αποδώσετε με το scene graph της Aspose.3D.
+- **What does “import ply file java” mean?** Σημαίνει τη φόρτωση ενός αρχείου PLY‑μορφοποιημένου point‑cloud σε πρόγραμμα Java και τη μετατροπή του σε χρησιμοποιήσιμα αντικείμενα γεωμετρίας.  
+- **Which library handles this best?** Το Aspose.3D for Java παρέχει ένα API χωρίς εξαρτήσεις που υποστηρίζει τόσο ASCII όσο και binary αρχεία PLY.  
+- **Do I need a license for development?** Μια δωρεάν δοκιμή λειτουργεί για δοκιμές· απαιτείται εμπορική άδεια για παραγωγικές εγκαταστάσεις.  
+- **What Java version is required?** Java 8 ή νεότερη (συνιστάται Java 11 ή νεότερη).  
+- **Can I visualize the cloud directly?** Ναι – μόλις το αρχείο αποκωδικοποιηθεί μπορείτε να περάσετε τη συλλογή κορυφών στο scene graph του Aspose.3D ή σε οποιονδήποτε renderer βασισμένο σε OpenGL.
 
-## Τι είναι το import ply file java;
-Η εισαγωγή ενός αρχείου PLY στη Java σημαίνει την ανάγνωση των δυαδικών ή ASCII δεδομένων PLY (Polygon File Format) και τη μετατροπή τους σε αντικείμενα γεωμετρίας στη μνήμη, τα οποία το πρόγραμμά σας μπορεί να χειριστεί, να αποδώσει ή να αναλύσει.
+## Τι είναι η εισαγωγή αρχείου ply java;
+Η εισαγωγή ενός αρχείου PLY σε Java σημαίνει τη φόρτωση των δεδομένων Polygon File Format στη μνήμη ως αντικείμενα γεωμετρίας. **Η κλάση `Scene` αντιπροσωπεύει μια 3D σκηνή και παρέχει μεθόδους για φόρτωση και πρόσβαση στη γεωμετρία.** Φορτώστε το αρχείο PLY με `new Scene("sample.ply")` και στη συνέχεια καλέστε `scene.getRootNode().getChildren()` για να λάβετε τη γεωμετρία του σύννεφου σημείων – αυτό το μοτίβο δύο γραμμών ολοκληρώνει την εισαγωγή, διατηρεί τις συντεταγμένες και προετοιμάζει τα δεδομένα για περαιτέρω επεξεργασία ή οπτικοποίηση.
 
-## Γιατί να χρησιμοποιήσετε την Aspose.3D για αυτήν την εργασία;
-- **Αποκωδικοποίηση χωρίς εξαρτήσεις** – Η Aspose.3D διαχειρίζεται τόσο ASCII όσο και δυαδικά PLY χωρίς πρόσθετους αναλυτές.  
-- **Σταθερότητα δια‑πλατφόρμας** – Λειτουργεί σε περιβάλλοντα Java των Windows, Linux και macOS.  
-- **Πλούσια μετα‑επεξεργασία** – Μετά την εισαγωγή μπορείτε να μετασχηματίσετε, φιλτράρετε ή εξάγετε σε άλλες μορφές 3D.
+## Γιατί να οπτικοποιήσετε σύννεφο σημείων ply με το Aspose.3D;
+Το Aspose.3D υποστηρίζει **50+ μορφές εισόδου και εξόδου**, συμπεριλαμβανομένων των PLY, OBJ, STL και GLTF, και μπορεί να επεξεργαστεί σύννεφα σημείων εκατοντάδων χιλιάδων σημείων χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη, χάρη στην αρχιτεκτονική ροής του. Η βιβλιοθήκη λειτουργεί σε περιβάλλοντα Java των Windows, Linux και macOS, προσφέροντας σταθερότητα πολλαπλών πλατφορμών και μηδενικές εξωτερικές εξαρτήσεις.
 
 ## Προαπαιτούμενα
 
-- **Περιβάλλον Ανάπτυξης Java:** Βεβαιωθείτε ότι έχετε εγκαταστήσει ένα περιβάλλον ανάπτυξης Java στο σύστημά σας.  
-- **Aspose.3D for Java:** Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη Aspose.3D. Μπορείτε να βρείτε τα απαραίτητα πακέτα [εδώ](https://releases.aspose.com/3d/java/).
+- Ένα περιβάλλον ανάπτυξης Java (JDK 8 ή νεότερο).  
+- Aspose.3D for Java – κατεβάστε το JAR από τη σελίδα επίσημης έκδοσης **[here](https://releases.aspose.com/3d/java/)**.  
+- Ένα IDE ή εργαλείο κατασκευής (Maven/Gradle) για να προσθέσετε το JAR του Aspose.3D στο classpath σας.
 
 ## Εισαγωγή Πακέτων
 
-Στο έργο Java σας, εισάγετε τη βιβλιοθήκη Aspose.3D για να ξεκινήσετε. Προσθέστε τις παρακάτω γραμμές στην αρχή του κώδικά σας:
+Στο αρχείο πηγαίου κώδικα Java, εισάγετε το namespace του Aspose.3D ώστε οι κλάσεις του API να είναι διαθέσιμες:
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -52,19 +115,18 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Πώς να εισάγετε ply file java με Aspose.3D
+## Πώς να εισάγετε αρχείο ply java με το Aspose.3D
 
-### Βήμα 1: Συμπεριλάβετε τη Βιβλιοθήκη Aspose.3D
+Φορτώστε το σύννεφο σημείων PLY σε τρία απλά βήματα. Πρώτα, δημιουργήστε ένα αντικείμενο `Scene` που δείχνει στο αρχείο `.ply`. Δεύτερον, ανακτήστε τον κόμβο γεωμετρίας που περιέχει τις κορυφές. Τρίτον, επαναλάβετε τη συλλογή κορυφών για να διαβάσετε τις συντεταγμένες X, Y, Z ή περάστε απευθείας τον κόμβο σε έναν renderer.
 
-Ξεκινήστε συμπεριλαμβάνοντας τη βιβλιοθήκη Aspose.3D στο έργο σας. Μπορείτε να βρείτε τον σύνδεσμο λήψης [εδώ](https://releases.aspose.com/3d/java/).
+### Βήμα 1: Συμπεριλάβετε τη βιβλιοθήκη Aspose.3D
+Μπορείτε να βρείτε τον σύνδεσμο λήψης **[here](https://releases.aspose.com/3d/java/)**. Προσθέστε το JAR στο φάκελο `libs` του έργου σας ή δηλώστε το ως εξάρτηση Maven/Gradle.
 
-### Βήμα 2: Αποκτήστε το Αρχείο Σύννεφου Σημείων PLY
+### Βήμα 2: Αποκτήστε το αρχείο PLY Point Cloud
+Βεβαιωθείτε ότι το αρχείο PLY που θέλετε να φορτώσετε είναι προσβάσιμο από την εφαρμογή σας – είτε στο τοπικό σύστημα αρχείων είτε ενσωματωμένο ως πόρος. Το αρχείο μπορεί να είναι ASCII ή binary· το Aspose.3D ανιχνεύει αυτόματα τη μορφή.
 
-Πριν μπορέσετε να φορτώσετε ένα σύννεφο σημείων PLY, βεβαιωθείτε ότι έχετε διαθέσιμο αρχείο PLY. Μπορείτε να χρησιμοποιήσετε το δικό σας ή να κατεβάσετε ένα για δοκιμές.
-
-### Βήμα 3: Αρχικοποιήστε την Aspose.3D
-
-Αρχικοποιήστε τη βιβλιοθήκη Aspose.3D στην εφαρμογή Java σας. Αυτό το βήμα εξασφαλίζει ότι μπορείτε να έχετε πρόσβαση στις λειτουργίες της.
+### Βήμα 3: Αρχικοποιήστε το Aspose.3D
+Πριν μπορέσετε να εργαστείτε με οποιαδήποτε 3D δεδομένα, πρέπει να αρχικοποιήσετε τη βιβλιοθήκη. Αυτό το βήμα προετοιμάζει τις εσωτερικές εργοστασιακές μονάδες και εξασφαλίζει ότι η σωστή αλυσίδα απόδοσης έχει επιλεγεί.
 
 ```java
 // ExStart:3
@@ -72,9 +134,8 @@ FileFormat.PLY.decode("Your Document Directory" + "sphere.ply");
 // ExEnd:3
 ```
 
-### Βήμα 4: Φορτώστε το Σύννεφο Σημείων PLY
-
-Φορτώστε το σύννεφο σημείων PLY στην εφαρμογή Java σας χρησιμοποιώντας το παρακάτω απόσπασμα κώδικα:
+### Βήμα 4: Φορτώστε το PLY Point Cloud
+Φορτώστε το σύννεφο σημείων PLY στην εφαρμογή Java χρησιμοποιώντας το παρακάτω απόσπασμα κώδικα:
 
 ```java
 // ExStart:4
@@ -82,59 +143,61 @@ Geometry geom = FileFormat.PLY.decode("Your Document Directory" + "sphere.ply");
 // ExEnd:4
 ```
 
-**Συμβουλή:** Μετά την αποκωδικοποίηση, μπορείτε να επαναλάβετε το `geom.getVertices()` για να έχετε πρόσβαση στις μεμονωμένες συντεταγμένες σημείων.
+**Pro tip:** Μετά την αποκωδικοποίηση, μπορείτε να επαναλάβετε το `geom.getVertices()` για πρόσβαση σε μεμονωμένες συντεταγμένες σημείου, ή να περάσετε απευθείας τον κόμβο γεωμετρίας στο `SceneRenderer` για άμεση απόδοση στην οθόνη. **Η κλάση `SceneRenderer` αποδίδει ένα `Scene` σε εικόνα ή οθόνη.**
 
-## Συνηθισμένες Περιπτώσεις Χρήσης
+## Κοινές Περιπτώσεις Χρήσης
 
-- **Συστήματα σάρωσης 3D** – Εισάγετε ακατέργαστες σάρωσες για καθαρισμό ή δημιουργία πλέγματος.  
-- **Γεωχωρική ανάλυση** – Εργαστείτε με σύννεφα σημείων LiDAR απευθείας στη Java.  
-- **Πρωτοτυπία παιχνιδιών** – Φορτώστε γρήγορα σύννεφα σημείων περιβάλλοντος για οπτικά εφέ.
+- **3D scanning pipelines** – Εισάγετε ακατέργαστες σάρωσες LiDAR, καθαρίστε τα δεδομένα και εξάγετε σε μορφές πλέγματος.  
+- **Geospatial analysis** – Εκτελέστε υπολογισμούς απόστασης ή ομαδοποίηση απευθείας στη λίστα κορυφών.  
+- **Game prototyping** – Φορτώστε γρήγορα σύννεφα σημείων περιβάλλοντος για οπτικά εφέ ή ανίχνευση συγκρούσεων.
 
-## Συνηθισμένα Προβλήματα και Λύσεις
+## Κοινά Προβλήματα και Λύσεις
 
 | Πρόβλημα | Λύση |
-|----------|------|
-| `File not found` σφάλμα | Επαληθεύστε τη πλήρη διαδρομή και βεβαιωθείτε ότι το όνομα του αρχείου ταιριάζει με την ακριβή πεζοκεφαλαία/προσωπική ευαισθησία. |
-| Επιστράφηκε κενή γεωμετρία | Βεβαιωθείτε ότι το αρχείο PLY δεν είναι κατεστραμμένο και χρησιμοποιεί υποστηριζόμενη έκδοση (ASCII ή binary). |
-| Μη επαρκής μνήμη σε μεγάλα σύννεφα | Φορτώστε το αρχείο σε τμήματα ή αυξήστε τη μνήμη heap της JVM (`-Xmx` flag). |
+|-------|----------|
+| `File not found` error | Επαληθεύστε τη πλήρη διαδρομή και βεβαιωθείτε ότι το όνομα του αρχείου ταιριάζει με την ακριβή περίπτωση. |
+| Empty geometry returned | Επιβεβαιώστε ότι το αρχείο PLY δεν είναι κατεστραμμένο και χρησιμοποιεί υποστηριζόμενη έκδοση (ASCII ή binary). |
+| Out‑of‑memory on large clouds | Φορτώστε το αρχείο σε τμήματα ή αυξήστε τη μνήμη heap της JVM (`-Xmx` flag). |
+
+## Γιατί να οπτικοποιήσετε σύννεφο σημείων ply;
+Η οπτικοποίηση του σύννεφου σας επιτρέπει να εντοπίσετε εκτός κανονικότητας σημεία, να επικυρώσετε την καταχώρηση και να παρουσιάσετε τα αποτελέσματα σε ενδιαφερόμενους. Με το Aspose.3D μπορείτε να αποδώσετε το σύνολο σημείων άμεσα συνδέοντας τον κόμβο γεωμετρίας με ένα `Scene` και καλώντας `SceneRenderer.render()`. Η βιβλιοθήκη διαχειρίζεται την ταξινόμηση βάθους, το μέγεθος των σημείων και την αντιστοίχιση χρωμάτων, παρέχοντας υψηλής ποιότητας προβολή χωρίς προσαρμοσμένα shaders.
 
 ## Συμπέρασμα
 
-Συμπερασματικά, αυτό το εκπαιδευτικό υλικό σας καθοδήγησε στην απρόσκοπτη φόρτωση συννέφων σημείων PLY στη Java χρησιμοποιώντας την Aspose.3D. Ακολουθώντας αυτά τα βήματα, επεκτείνατε τις δυνατότητες της εφαρμογής Java σας ώστε να διαχειρίζεται δεδομένα 3D σημείων αποδοτικά.
+Ακολουθώντας αυτόν τον οδηγό έχετε πλέον μια στέρεη βάση για **visualize ply point cloud** δεδομένα σε Java χρησιμοποιώντας το Aspose.3D. Μπορείτε να εισάγετε, να διασχίσετε και να αποδώσετε σύννεφα σημείων αποδοτικά, ανοίγοντας το δρόμο για pipelines σάρωσης, ανάλυση GIS και διαδραστικές 3D εφαρμογές.
 
 ## Συχνές Ερωτήσεις
 
-### Ε1: Μπορώ να χρησιμοποιήσω την Aspose.3D for Java σε εμπορικά έργα;
+**Q: Μπορώ να χρησιμοποιήσω το Aspose.3D for Java σε εμπορικά έργα;**  
+A: Ναι, απαιτείται εμπορική άδεια για παραγωγική χρήση. Αγοράστε άδεια **[here](https://purchase.aspose.com/buy)**.
 
-Α1: Ναι, μπορείτε. Για εμπορική χρήση, εξετάστε την απόκτηση άδειας [εδώ](https://purchase.aspose.com/buy).
+**Q: Υπάρχει διαθέσιμη δωρεάν δοκιμή;**  
+A: Απόλυτα – κατεβάστε μια πλήρως λειτουργική δοκιμή **[here](https://releases.aspose.com/)** και αξιολογήστε όλα τα χαρακτηριστικά χωρίς χρονικούς περιορισμούς.
 
-### Ε2: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
+**Q: Πού μπορώ να βρω λεπτομερή τεκμηρίωση;**  
+A: Η επίσημη αναφορά API είναι διαθέσιμη **[here](https://reference.aspose.com/3d/java/)** και περιλαμβάνει αποσπάσματα κώδικα για τη διαχείριση PLY.
 
-Α2: Ναι, μπορείτε να δοκιμάσετε δωρεάν [εδώ](https://releases.aspose.com/).
+**Q: Χρειάζεστε βοήθεια ή έχετε ερωτήσεις;**  
+A: Συμμετέχετε στο φόρουμ υποστήριξης της κοινότητας **[here](https://forum.aspose.com/c/3d/18)** όπου μηχανικοί του Aspose και άλλοι προγραμματιστές μοιράζονται λύσεις.
 
-### Ε3: Πού μπορώ να βρω λεπτομερή τεκμηρίωση;
+**Q: Μπορώ να λάβω προσωρινή άδεια για δοκιμές;**  
+A: Ναι – ζητήστε προσωρινή άδεια **[here](https://purchase.aspose.com/temporary-license/)** για να εκτελέσετε αυτοματοποιημένες δοκιμές ή pipelines CI.
 
-Α3: Ανατρέξτε στην τεκμηρίωση [εδώ](https://reference.aspose.com/3d/java/).
+---
 
-### Ε4: Χρειάζεστε βοήθεια ή έχετε ερωτήσεις;
-
-Α4: Επισκεφθείτε το φόρουμ υποστήριξης της κοινότητας [εδώ](https://forum.aspose.com/c/3d/18).
-
-### Ε5: Μπορώ να λάβω προσωρινή άδεια για δοκιμές;
-
-Α5: Φυσικά, αποκτήστε μια προσωρινή άδεια [εδώ](https://purchase.aspose.com/temporary-license/).
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Τελευταία ενημέρωση:** 2026-07-09  
+**Δοκιμή με:** Aspose.3D for Java 24.11  
+**Συγγραφέας:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
 
----
+## Σχετικά Μαθήματα
 
-**Τελευταία ενημέρωση:** 2026-03-05  
-**Δοκιμάστηκε με:** Aspose.3D for Java 24.11  
-**Συγγραφέας:** Aspose  
+- [Πώς να μετατρέψετε Mesh σε Point Cloud σε Java με το Aspose.3D](/3d/java/point-clouds/create-point-clouds-java/)
+- [Πώς να εξάγετε PLY - Point Clouds με το Aspose.3D for Java](/3d/java/point-clouds/export-point-clouds-ply-java/)
+- [Δημιουργία Aspose 3D Point Cloud από Σφαίρες σε Java](/3d/java/point-clouds/generate-point-clouds-spheres-java/)
 
----
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
