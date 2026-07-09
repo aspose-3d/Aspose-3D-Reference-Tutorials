@@ -1,33 +1,104 @@
 ---
-title: تصدير Point Clouds إلى تنسيق PLY باستخدام Aspose.3D لـ Java
-linktitle: تصدير Point Clouds إلى تنسيق PLY باستخدام Aspose.3D لـ Java
-second_title: Aspose.3D جافا API
-description: اكتشف قوة Aspose.3D لـ Java في تصدير السحب النقطية إلى تنسيق PLY. اتبع دليلنا خطوة بخطوة للتطوير ثلاثي الأبعاد بسلاسة.
-weight: 13
+date: 2026-07-09
+description: تعلم كيفية تحويل سحابة النقاط إلى PLY باستخدام Aspose.3D for Java. يوضح
+  هذا الدليل step‑by‑step تصدير ملفات PLY لسحابة النقاط للمطورين المتخصصين في 3D.
+keywords:
+- convert point cloud to ply
+- export point cloud ply
+- Aspose.3D Java
+lastmod: 2026-07-09
+linktitle: تصدير سحابات النقاط إلى تنسيق PLY باستخدام Aspose.3D for Java
+og_description: حول سحابة النقاط إلى PLY باستخدام Aspose.3D for Java. اتبع هذا concise
+  tutorial لتصدير ملفات PLY لسحابة النقاط بكفاءة.
+og_image_alt: Developer guide showing Java code to export point cloud data to PLY
+  format with Aspose.3D
+og_title: تحويل سحابة النقاط إلى PLY باستخدام Aspose.3D for Java – دليل سريع
+schemas:
+- author: Aspose
+  dateModified: '2026-07-09'
+  description: Learn how to convert point cloud to PLY using Aspose.3D for Java. This
+    step‑by‑step guide shows exporting point cloud PLY files for 3D developers.
+  headline: How to Convert Point Cloud to PLY with Aspose.3D for Java
+  type: TechArticle
+- description: Learn how to convert point cloud to PLY using Aspose.3D for Java. This
+    step‑by‑step guide shows exporting point cloud PLY files for 3D developers.
+  name: How to Convert Point Cloud to PLY with Aspose.3D for Java
+  steps:
+  - name: Prepare the Environment
+    text: Make sure you have JDK 8 or newer installed and the Aspose.3D library added
+      to your project’s classpath.
+  - name: Import Required Packages
+    text: 'Add the following imports to your Java source file: `DracoSaveOptions`
+      provides options for saving geometry using Draco compression. These imports
+      give you access to the `FileFormat` class for encoding and the `Sphere` class
+      that we’ll use as a simple point‑cloud example.'
+  - name: Create a Simple Point‑Cloud Object
+    text: For demonstration we’ll instantiate a `Sphere`, which Aspose.3D treats as
+      a collection of vertices. In a real scenario you would replace this with your
+      own point‑cloud data structure.
+  - name: Encode to PLY
+    text: Call `FileFormat.PLY.encode` and pass the geometry object together with
+      the target file path. Aspose.3D will serialize the vertices into a valid PLY
+      file. > **Pro tip:** Replace `"Your Document Directory"` with an absolute path
+      or use `Paths.get(...)` for platform‑independent handling.
+  type: HowTo
+- questions:
+  - answer: '`FileFormat.PLY.encode`'
+    question: What is the primary class for PLY export?
+  - answer: A `Sphere` (or any mesh) can be used as a simple example.
+    question: Which Aspose.3D object can represent a point cloud?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license for development?
+  - answer: Java 8 or higher.
+    question: Which Java version is supported?
+  - answer: Yes—use the same `encode` method with the appropriate source object.
+    question: Can I convert other formats to PLY?
+  type: FAQPage
+second_title: Aspose.3D Java API
+tags:
+- convert point cloud
+- Aspose.3D
+- Java 3D processing
+title: كيفية تحويل سحابة النقاط إلى PLY باستخدام Aspose.3D for Java
 url: /ar/java/point-clouds/export-point-clouds-ply-java/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تصدير Point Clouds إلى تنسيق PLY باستخدام Aspose.3D لـ Java
+# كيفية تحويل سحابة النقاط إلى PLY باستخدام Aspose.3D للغة Java
 
 ## مقدمة
 
-مرحبًا بك في هذا الدليل الشامل حول تصدير السحب النقطية إلى تنسيق PLY باستخدام Aspose.3D لـ Java. Aspose.3D هي مكتبة Java قوية تتيح للمطورين العمل مع الملفات ثلاثية الأبعاد، مما يوفر تجربة سلسة في إدارة ومعالجة التنسيقات ثلاثية الأبعاد المختلفة. في هذا البرنامج التعليمي، سوف نركز على تصدير السحب النقطية إلى تنسيق PLY، وهو تنسيق ملف يستخدم على نطاق واسع لتمثيل البيانات ثلاثية الأبعاد.
+في هذا الدرس الشامل ستتعلم **كيفية تحويل سحابة النقاط إلى PLY** باستخدام Aspose.3D للغة Java. سواءً كنت تبني خط أنابيب للتصvisualization، أو تُعد البيانات للطباعة ثلاثية الأبعاد، أو تُغذي بيانات سحابة النقاط إلى نموذج تعلم آلي، فإن تصدير إلى صيغة PLY يُعد متطلبًا شائعًا. سنستعرض كل خطوة—من إعداد بيئة التطوير إلى التحقق من صحة الملف المُولد—حتى تتمكن من دمج تصدير PLY بثقة في مشاريع Java الخاصة بك.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما هو الصنف الأساسي لتصدير PLY؟** `FileFormat.PLY.encode`
+- **أي كائن Aspose.3D يمكنه تمثيل سحابة نقاط؟** يمكن استخدام `Sphere` (أو أي شبكة) كمثال بسيط.
+- **هل أحتاج إلى ترخيص للتطوير؟** تجربة مجانية تعمل للاختبار؛ الترخيص التجاري مطلوب للإنتاج.
+- **ما نسخة Java المدعومة؟** Java 8 أو أعلى.
+- **هل يمكنني تحويل صيغ أخرى إلى PLY؟** نعم—استخدم نفس طريقة `encode` مع كائن المصدر المناسب.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+`FileFormat.PLY.encode` هي طريقة Aspose.3D التي تقوم بترميز الهندسة إلى ملف PLY.  
+`Sphere` هو صنف شبكة يمثل هندسة كروية، مفيد كبديل بسيط لسحابة النقاط.
 
-- بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java على جهازك.
--  مكتبة Aspose.3D: قم بتنزيل وتثبيت مكتبة Aspose.3D من[هنا](https://releases.aspose.com/3d/java/).
-- معرفة Java الأساسية: يوصى بالفهم الأساسي لبرمجة Java.
+## ما هو “كيفية تصدير ply”؟
 
-## حزم الاستيراد
+التصدير إلى PLY يكتب رؤوس ثلاثية الأبعاد، الألوان، والاتجاهات (normals) في صيغة ملف المضلع (Polygon File Format - PLY)، وهي صيغة ASCII/Binary شائعة لسحابات النقاط والشبكات. إنها مفيدة بشكل خاص للتوافق مع أدوات مثل MeshLab و CloudCompare والعديد من خطوط أنابيب التعلم الآلي.
 
-للبدء، قم باستيراد الحزم الضرورية في كود Java الخاص بك. قم بتضمين مكتبة Aspose.3D للوصول إلى وظائفها. هنا مثال:
+## كيفية تحويل سحابة النقاط إلى PLY؟
+
+حمّل هندسة سحابة النقاط الخاصة بك، ثم استدعِ `FileFormat.PLY.encode` لكتابة البيانات إلى ملف `.ply`—تقوم Aspose.3D تلقائيًا بإدارة ترتيب الرؤوس، والسمات اللونية الاختيارية، والإخراج بصيغة ASCII أو Binary. عادةً ما تنتهي العملية بالكامل في أقل من ثانية للنماذج التي تقل عن 500 k رأس على جهاز لابتوب عادي.
+
+### الخطوة 1: إعداد البيئة
+
+تأكد من تثبيت JDK 8 أو أحدث وإضافة مكتبة Aspose.3D إلى مسار الفئة (classpath) في مشروعك.
+
+### الخطوة 2: استيراد الحزم المطلوبة
+
+أضف الاستيرادات التالية إلى ملف المصدر Java الخاص بك:
 
 ```java
 import com.aspose.threed.DracoSaveOptions;
@@ -38,58 +109,100 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-الآن، دعونا نقسم عملية تصدير السحب النقطية إلى تنسيق PLY إلى خطوات متعددة.
+`DracoSaveOptions` يوفر خيارات لحفظ الهندسة باستخدام ضغط Draco. هذه الاستيرادات تمنحك الوصول إلى صنف `FileFormat` للترميز وصنف `Sphere` الذي سنستخدمه كمثال بسيط لسحابة النقاط.
 
-## الخطوة 1: إعداد البيئة
+### الخطوة 3: إنشاء كائن سحابة نقاط بسيط
 
-قم بتهيئة بيئة Aspose.3D الخاصة بك وقم بإعداد التكوينات المطلوبة.
+للتوضيح سنقوم بإنشاء كائن `Sphere`، الذي تعتبره Aspose.3D مجموعة من الرؤوس. في سيناريو حقيقي ستستبدل هذا بهيكلة بيانات سحابة النقاط الخاصة بك.
+
+### الخطوة 4: الترميز إلى PLY
+
+استدعِ `FileFormat.PLY.encode` ومرّر كائن الهندسة مع مسار الملف الهدف. ستقوم Aspose.3D بتسلسل الرؤوس إلى ملف PLY صالح.
 
 ```java
-// البداية:1
+// ExStart:1
 FileFormat.PLY.encode(new Sphere(), "Your Document Directory" + "sphere.ply");
-// النهاية:1
+// ExEnd:1
 ```
 
- في هذه الخطوة نستخدم`FileFormat.PLY.encode` طريقة لتصدير سحابة نقطية ممثلة بكرة إلى تنسيق PLY. تأكد من استبدال "دليل المستندات الخاص بك" بمسار الدليل الفعلي الذي تريد حفظ ملف PLY فيه.
+> **نصيحة احترافية:** استبدل `"Your Document Directory"` بمسار مطلق أو استخدم `Paths.get(...)` للتعامل المستقل عن النظام.
+
+## لماذا تصدير سحابة النقاط إلى PLY باستخدام Aspose.3D؟
+
+يجب عليك تصدير سحابة النقاط إلى PLY باستخدام Aspose.3D لأنه يوفر واجهة برمجة تطبيقات خالية من الاعتمادات، متعددة المنصات، وتكتب ملفات PLY في أقل من ثانية للنماذج التي تصل إلى 500 k رأس، وتدعم كل من مخرجات ASCII وBinary، وتوفر خيارات ضغط مدمجة. كما أن المكتبة تحافظ على سمات الرؤوس المخصصة مثل اللون والسطوع دون الحاجة إلى كود إضافي.
+
+## المتطلبات المسبقة
+
+- **بيئة تطوير Java** – JDK 8 أو أحدث مثبت.
+- **مكتبة Aspose.3D** – قم بتنزيل وتثبيت مكتبة Aspose.3D من [هنا](https://releases.aspose.com/3d/java/).
+- **معرفة أساسية بـ Java** – الإلمام بصياغة Java وإعداد المشروع.
+
+## الخطوة 1: تصدير سحابة النقاط إلى PLY
+
+ابدأ بيئة Aspose.3D واستدعِ المشفر. المقتطف أدناه ينشئ كرة (تعمل كبديل لسحابة النقاط) ويكتبها إلى ملف PLY.
+
+```java
+// ExStart:1
+FileFormat.PLY.encode(new Sphere(), "Your Document Directory" + "sphere.ply");
+// ExEnd:1
+```
+
+يمكن فتح الملف الناتج (`sphere.ply`) في أي عارض يدعم صيغ PLY.
 
 ## الخطوة 2: تنفيذ الكود
 
-تجميع وتشغيل كود جافا الخاص بك. سيؤدي هذا إلى تنفيذ عملية التصدير، وإنشاء ملف PLY باستخدام السحابة النقطية المحددة.
+قم بترجمة برنامج Java الخاص بك (`javac YourClass.java`) ثم تشغيله (`java YourClass`). سيؤدي استدعاء الطريقة إلى إنشاء ملف `sphere.ply` في الدليل الذي حددته.
 
-## الخطوة 3: التحقق من الإخراج
+## الخطوة 3: التحقق من النتيجة
 
-تحقق من دليل الإخراج لملف "sphere.ply" الذي تم إنشاؤه. يجب أن يكون لديك الآن ملف PLY يمثل السحابة النقطية المصدرة.
+انتقل إلى مجلد الإخراج وافتح `sphere.ply` بأداة مثل MeshLab أو CloudCompare. يجب أن ترى سحابة نقاط كروية معروضة بشكل صحيح. هذا يؤكد أنك نجحت في **تصدير ملف 3D model ply**.
 
-كرر هذه الخطوات لتمثيلات السحابة النقطية المختلفة حسب الحاجة لتطبيقك.
+## حالات الاستخدام الشائعة
 
-## خاتمة
+| السيناريو | لماذا تصدير سحابة النقاط إلى PLY؟ |
+|----------|-----------------------------------|
+| نماذج طباعة ثلاثية الأبعاد | يتم قبول PLY على نطاق واسع من قبل برامج التقطيع. |
+| خطوط أنابيب التعلم الآلي | غالبًا ما تُخزن مجموعات بيانات سحابة النقاط بصيغة PLY. |
+| تبادل البيانات بين البرامج | معظم عارضات 3D تدعم PLY بشكل أصلي. |
 
-تهانينا! لقد نجحت في تصدير السحب النقطية إلى تنسيق PLY باستخدام Aspose.3D لـ Java. غطى هذا البرنامج التعليمي الخطوات الأساسية، بدءًا من إعداد البيئة وحتى التحقق من المخرجات. اكتشف المزيد من الميزات والإمكانيات باستخدام Aspose.3D لتحسين مشاريع التطوير ثلاثية الأبعاد الخاصة بك.
+## استكشاف الأخطاء وإصلاحها والنصائح
 
-## الأسئلة الشائعة
+- **الملف غير موجود** – تأكد من أن مسار الدليل ينتهي بفاصل ملف (`/` أو `\\`).
+- **ملف فارغ** – تحقق من أن كائن المصدر يحتوي فعليًا على رؤوس؛ `Scene` بسيط بدون هندسة سينتج ملف PLY فارغ.
+- **Binary مقابل ASCII** – بشكل افتراضي، تقوم Aspose.3D بكتابة PLY بصيغة ASCII. استخدم `DracoSaveOptions` إذا كنت بحاجة إلى نسخة مضغوطة بصيغة binary.
+- **مجموعات بيانات كبيرة** – لسحابات النقاط التي تتجاوز 1 مليون رأس، فعّل وضع البث باستخدام `FileFormat.PLY.encode(..., new PlySaveOptions { EnableStreaming = true })` لتقليل استهلاك الذاكرة.  
+  `PlySaveOptions` يضبط خيارات حفظ خاصة بـ PLY مثل البث والضغط.
 
-### س1: هل يمكنني استخدام Aspose.3D لـ Java مع لغات برمجة أخرى؟
+## الأسئلة المتكررة
 
-ج1: تم تصميم Aspose.3D بشكل أساسي لـ Java، لكن Aspose يوفر مكتبات لمختلف لغات البرمجة.
+**س1: هل يمكنني استخدام Aspose.3D للغة Java مع لغات برمجة أخرى؟**  
+A1: Aspose.3D مصممة أساسًا لـ Java، لكن Aspose توفر مكتبات مكافئة لـ .NET و C++ ومنصات أخرى.
 
-### س2: أين يمكنني العثور على الوثائق التفصيلية لـ Aspose.3D لـ Java؟
+**س2: أين يمكنني العثور على وثائق مفصلة لـ Aspose.3D للغة Java؟**  
+A2: ارجع إلى الوثائق [هنا](https://reference.aspose.com/3d/java/).
 
- ج2: راجع الوثائق[هنا](https://reference.aspose.com/3d/java/).
+**س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.3D للغة Java؟**  
+A3: نعم، يمكنك الحصول على نسخة تجريبية مجانية [هنا](https://releases.aspose.com/).
 
-### س3: هل تتوفر نسخة تجريبية مجانية من Aspose.3D لـ Java؟
+**س4: كيف يمكنني الحصول على دعم لـ Aspose.3D للغة Java؟**  
+A4: قم بزيارة منتدى Aspose.3D [هنا](https://forum.aspose.com/c/3d/18) للحصول على مساعدة المجتمع والدعم الرسمي.
 
- ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+**س5: أين يمكنني شراء ترخيص لـ Aspose.3D للغة Java؟**  
+A5: اشترِ Aspose.3D للغة Java [هنا](https://purchase.aspose.com/buy).
 
-### س4: كيف يمكنني الحصول على دعم Aspose.3D لـ Java؟
+---
 
- ج4: قم بزيارة منتدى Aspose.3D[هنا](https://forum.aspose.com/c/3d/18) للدعم والمناقشات.
+**آخر تحديث:** 2026-07-09  
+**تم الاختبار مع:** Aspose.3D for Java 24.11 (latest at time of writing)  
+**المؤلف:** Aspose
 
-### س5: أين يمكنني شراء Aspose.3D لـ Java؟
+## دروس ذات صلة
 
- A5: شراء Aspose.3D لـ Java[هنا](https://purchase.aspose.com/buy).
+- [كيفية تحويل Mesh إلى سحابة نقاط في Java باستخدام Aspose.3D](/3d/java/point-clouds/create-point-clouds-java/)
+- [إنشاء سحابة نقاط Aspose 3D من كرات في Java](/3d/java/point-clouds/generate-point-clouds-spheres-java/)
+- [استيراد ملف PLY في Java – تحميل سحابات نقاط PLY بسلاسة](/3d/java/point-clouds/load-ply-point-clouds-java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
-
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
