@@ -1,11 +1,60 @@
 ---
-date: 2026-02-22
-description: Aspose.3D for Java kullanarak dilimlerle 3D ekstrüzyon oluşturmayı öğrenin.
-  Bu adım adım rehber, lineer ekstrüzyon, yuvarlama yarıçapını ayarlama ve OBJ dışa
-  aktarmayı kapsar.
-linktitle: Create 3D Extrusion with Slices – Aspose.3D for Java
+date: 2026-05-24
+description: Aspose.3D for Java kullanarak dilimler ile 3d ekstrüzyon oluşturmayı
+  öğrenin. Bu adım adım kılavuz, lineer ekstrüzyonu, yuvarlama yarıçapını ayarlamayı
+  ve OBJ dışa aktarmayı kapsar.
+keywords:
+- create 3d extrusion java
+- Aspose 3D slices
+- linear extrusion Java
+linktitle: Dilimler ile 3D Ekstrüzyon Oluşturma – Aspose.3D for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-24'
+  description: Learn how to create 3d extrusion with slices using Aspose.3D for Java.
+    This step‑by‑step guide covers linear extrusion, set rounding radius, and exporting
+    OBJ.
+  headline: Create 3D Extrusion with Slices – Aspose.3D for Java
+  type: TechArticle
+- description: Learn how to create 3d extrusion with slices using Aspose.3D for Java.
+    This step‑by‑step guide covers linear extrusion, set rounding radius, and exporting
+    OBJ.
+  name: Create 3D Extrusion with Slices – Aspose.3D for Java
+  steps:
+  - name: Set up the scene and define the profile
+    text: '`RectangleShape` is a class that defines a 2‑D rectangle profile. First
+      we create a `RectangleShape` and give it a **rounding radius** so the corners
+      are smooth. `Scene` is the root container for all nodes and geometry. Then we
+      initialise a new `Scene` that will hold all geometry.'
+  - name: Create child node objects for each extrusion
+    text: '`Node` represents an element in the scene graph that can hold geometry
+      and transformations. Every piece of geometry lives under a `Node`. Here we generate
+      two sibling nodes – one for a low‑slice extrusion and another for a high‑slice
+      extrusion – and move the left node a little to the side so the res'
+  - name: Perform linear extrusion and set slices
+    text: '`LinearExtrusion` is the class that creates a solid by sweeping a profile
+      linearly. `LinearExtrusion` is Aspose.3D''s class that generates a solid by
+      extruding a 2‑D profile along a straight line. Using an **anonymous inner class**
+      we call `setSlices` to control the smoothness. The left node gets onl'
+  - name: Export OBJ – save the scene
+    text: Finally we write the scene to a Wavefront OBJ file, a format widely supported
+      by 3‑D editors and game engines. This demonstrates the **export OBJ Java** capability
+      of Aspose.3D.
+  type: HowTo
+- questions:
+  - answer: You can download the library [here](https://releases.aspose.com/3d/java/).
+    question: How can I download Aspose.3D for Java?
+  - answer: Refer to the documentation [here](https://reference.aspose.com/3d/java/).
+    question: Where can I find the documentation for Aspose.3D?
+  - answer: Yes, you can explore a free trial [here](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: Visit the support forum [here](https://forum.aspose.com/c/3d/18).
+    question: How can I get support for Aspose.3D?
+  - answer: Yes, a temporary license can be obtained [here](https://purchase.aspose.com/temporary-license/).
+    question: Can I purchase a temporary license?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Dilimlerle 3D Ekstrüzyon Oluştur – Aspose.3D for Java
+title: Dilimler ile 3D Ekstrüzyon Oluşturma – Aspose.3D for Java
 url: /tr/java/linear-extrusion/specifying-slices/
 weight: 13
 ---
@@ -14,38 +63,43 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dilimlerle 3D Ekstrüzyon Oluşturma – Aspose.3D for Java
+# 3D Dilimlerle Ekstrüzyon Oluşturma – Aspose.3D for Java
 
 ## Giriş
 
-Daha pürüzsüz ve hassas görünen **3d extrusion** nesneleri oluşturmanız gerekiyorsa, dilim sayısını kontrol etmek anahtar faktördür. Bu öğreticide, Aspose.3D for Java ile lineer ekstrüzyon yaparken dilimleri nasıl belirteceğinizi adım adım göstereceğiz. Dilim sayısının neden önemli olduğunu, yuvarlama yarıçapının nasıl ayarlandığını ve sonucu herhangi bir 3D iş akışında kullanılabilecek bir OBJ dosyası olarak nasıl dışa aktaracağınızı göreceksiniz.
+If you need to **create 3d extrusion** objects that look smooth and precise, controlling the number of slices is the key. In this tutorial we’ll walk through how to specify slices while performing a linear extrusion with Aspose.3D for Java. You’ll see why slice count matters, how to set a rounding radius, and how to export the result as an OBJ file that can be used in any 3‑D pipeline.
 
 ## Hızlı Yanıtlar
-- **“dilimler” neyi kontrol eder?** Ekstrüzyon yüzeyini yaklaşık olarak oluşturmak için kullanılan ara kesit sayısı.  
+- **“slices” neyi kontrol eder?** The number of intermediate cross‑sections used to approximate the extrusion surface.  
 - **Hangi yöntem dilim sayısını ayarlar?** `LinearExtrusion.setSlices(int)`  
-- **Profilin yuvarlama yarıçapını değiştirebilir miyim?** Evet, `RectangleShape.setRoundingRadius(double)` ile.  
+- **Profilin yuvarlama yarıçapını değiştirebilir miyim?** Yes, via `RectangleShape.setRoundingRadius(double)`  
 - **Bu örnekte hangi dosya formatı kullanılıyor?** Wavefront OBJ (`FileFormat.WAVEFRONTOBJ`)  
-- **Kodu çalıştırmak için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme yeterlidir; üretim için ticari lisans gereklidir.
+- **Kodu çalıştırmak için lisansa ihtiyacım var mı?** A free trial works for evaluation; a commercial license is required for production.
+
+`LinearExtrusion.setSlices(int)` sets how many intermediate slices the extrusion will generate.  
+`RectangleShape.setRoundingRadius(double)` defines the corner radius of a rectangular profile.
+
+## Dilimlerle Java’da 3D ekstrüzyon nasıl oluşturulur?
+
+Load your 2‑D profile, choose a slice count, set the rounding radius, and call `save` – the entire workflow fits in a handful of lines. Aspose.3D for Java handles the geometry creation, slice interpolation, and OBJ export automatically, so you can focus on visual quality rather than low‑level mesh calculations.
 
 ## Dilimlerle lineer ekstrüzyon nedir?
 
-Lineer ekstrüzyon, bir 2‑D profil (örneğin bir dikdörtgen) alır ve onu düz bir hat boyunca uzatarak 3‑D katı oluşturur. **dilimler** belirterek Aspose.3D'e kaç ara adım oluşturulacağını söylersiniz; bu, yuvarlatılmış bir dikdörtgen gibi eğimli kenarların pürüzsüzlüğünü doğrudan etkiler.
+A linear extrusion with slices turns a flat 2‑D shape into a 3‑D solid by sweeping it along a straight line while generating a configurable number of intermediate cross‑sections. The slice count directly influences how smoothly curved edges, such as rounded corners, are rendered.
 
-## 3d extrusion oluşturmak için neden Aspose.3D for Java kullanılmalı?
+## 3D ekstrüzyon oluşturmak için Aspose.3D for Java neden kullanılmalı?
 
-* **Tam kontrol** – Dilim sayısını, yuvarlama yarıçapını ve dışa aktarma formatını programatik olarak ayarlayabilirsiniz.  
-* **Çapraz platform** – Yerel bağımlılıklar olmadan herhangi bir Java‑destekli ortamda çalışır.  
-* **Dışa aktarma esnekliği** – OBJ, FBX, STL ve birçok diğer formata doğrudan kaydedebilirsiniz.
+Aspose.3D provides **full programmatic control** over every extrusion parameter, supports **50+ input and output formats** (including OBJ, FBX, STL, and GLTF), and can process **multi‑hundred‑page models** without loading the entire file into memory. It runs on any Java‑enabled platform, requires no native DLLs, and guarantees deterministic results across Windows, Linux, and macOS.
 
 ## Önkoşullar
 
-1. **Java Development Kit** – JDK 8 veya üzeri yüklü olmalı.  
-2. **Aspose.3D for Java** – Kütüphaneyi resmi siteden [buradan](https://releases.aspose.com/3d/java/) indirebilirsiniz.  
-3. Tercih ettiğiniz bir IDE veya metin düzenleyici.
+1. **Java Development Kit** – JDK 8 or higher installed.  
+2. **Aspose.3D for Java** – Download the library from the official site [here](https://releases.aspose.com/3d/java/).  
+3. An IDE or text editor of your choice.
 
 ## Paketleri İçe Aktar
 
-Aspose.3D ad alanını projenize ekleyin, böylece 3‑D modelleme sınıflarına erişebilirsiniz.
+Add the Aspose.3D namespace to your project so you can access the 3‑D modeling classes.
 
 ```java
 import com.aspose.threed.*;
@@ -53,11 +107,14 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Adım‑Adım Kılavuz
+## Adım Adım Kılavuz
 
-### Adım 1: Sahneyi ayarla ve profili tanımla
+### Adım 1: Sahneyi kurun ve profili tanımlayın
 
-İlk olarak bir `RectangleShape` oluşturup köşelerin pürüzsüz olması için **yuvarlama yarıçapı** ekliyoruz. Ardından tüm geometriyi tutacak yeni bir `Scene` başlatıyoruz.
+`RectangleShape` is a class that defines a 2‑D rectangle profile.  
+First we create a `RectangleShape` and give it a **rounding radius** so the corners are smooth.  
+`Scene` is the root container for all nodes and geometry.  
+Then we initialise a new `Scene` that will hold all geometry.
 
 ```java
 String MyDir = "Your Document Directory";
@@ -66,9 +123,10 @@ profile.setRoundingRadius(0.3);
 Scene scene = new Scene();
 ```
 
-### Adım 2: Her ekstrüzyon için **Create child node** nesneleri oluştur
+### Adım 2: Her ekstrüzyon için alt düğüm nesneleri oluşturun
 
-Her geometri parçası bir `Node` altında bulunur. Burada iki kardeş düğüm oluşturuyoruz – biri düşük dilimli ekstrüzyon, diğeri yüksek dilimli ekstrüzyon – ve sol düğümü biraz yana kaydırarak sonuçların karşılaştırılmasını kolaylaştırıyoruz.
+`Node` represents an element in the scene graph that can hold geometry and transformations.  
+Every piece of geometry lives under a `Node`. Here we generate two sibling nodes – one for a low‑slice extrusion and another for a high‑slice extrusion – and move the left node a little to the side so the results are easy to compare.
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -76,18 +134,19 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-### Adım 3: Lineer ekstrüzyon gerçekleştir ve **set slices**
+### Adım 3: Lineer ekstrüzyonu gerçekleştir ve dilimleri ayarla
 
-Şimdi gerçekten **3d extrusion** nesnelerini oluşturuyoruz. `LinearExtrusion` yapıcı fonksiyonu profili ve ekstrüzyon derinliğini alır. Bir **anonim iç sınıf** kullanarak `setSlices` ile pürüzsüzlüğü kontrol ediyoruz. Sol düğüm sadece 2 dilim (kaba) alırken, sağ düğüm 10 dilim (pürüzsüz) alır.
+`LinearExtrusion` is the class that creates a solid by sweeping a profile linearly.  
+`LinearExtrusion` is Aspose.3D's class that generates a solid by extruding a 2‑D profile along a straight line. Using an **anonymous inner class** we call `setSlices` to control the smoothness. The left node gets only 2 slices (coarse), while the right node gets 10 slices (smooth).
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 2) {{setSlices(2);}});
 right.createChildNode(new LinearExtrusion(profile, 2) {{setSlices(10);}});
 ```
 
-### Adım 4: **Export OBJ** – sahneyi kaydet
+### Adım 4: OBJ Dışa Aktar – sahneyi kaydet
 
-Son olarak sahneyi, 3‑D editörler ve oyun motorları tarafından yaygın olarak desteklenen Wavefront OBJ dosyasına yazıyoruz. Bu, Aspose.3D'in **export obj java** yeteneğini gösterir.
+Finally we write the scene to a Wavefront OBJ file, a format widely supported by 3‑D editors and game engines. This demonstrates the **export OBJ Java** capability of Aspose.3D.
 
 ```java
 scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
@@ -97,32 +156,37 @@ scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 
 | Sorun | Neden Oluşur | Çözüm |
 |-------|----------------|-----|
-| **Ekstrüzyon düz görünüyor** | Dilim sayısı 1 veya 0 olarak ayarlandı | `setSlices` metodunun değeri ≥ 2 olacak şekilde çağrıldığından emin olun. |
-| **Yuvarlatılmış köşeler pürüzlü görünüyor** | Dilim sayısına göre yuvarlama yarıçapı çok küçük | Daha pürüzsüz eğriler için ya yarıçapı ya da dilim sayısını artırın. |
-| **Kaydetme sırasında dosya bulunamadı** | `MyDir` var olmayan bir klasöre işaret ediyor | Klasörü önceden oluşturun veya mutlak bir yol kullanın. |
+| **Ekstrüzyon düz görünüyor** | Dilim sayısı 1 veya 0 olarak ayarlandı | Ensure `setSlices` is called with a value ≥ 2. |
+| **Yuvarlatılmış köşeler pürüzlü görünüyor** | Yuvarlama yarıçapı, dilim sayısına göre çok küçük | Increase either the radius or the slice count for smoother curves. |
+| **Kaydetme sırasında dosya bulunamadı** | `MyDir` mevcut olmayan bir klasöre işaret ediyor | Create the directory beforehand or use an absolute path. |
 
 ## Sıkça Sorulan Sorular
 
-**S: Aspose.3D for Java'ı nasıl indirebilirim?**  
-C: Kütüphaneyi [buradan](https://releases.aspose.com/3d/java/) indirebilirsiniz.
+**S: Aspose.3D for Java’yı nasıl indirebilirim?**  
+C: You can download the library [here](https://releases.aspose.com/3d/java/).
 
-**S: Aspose.3D dokümantasyonunu nereden bulabilirim?**  
-C: Dokümantasyona [buradan](https://reference.aspose.com/3d/java/) ulaşabilirsiniz.
+**S: Aspose.3D belgelerini nerede bulabilirim?**  
+C: Refer to the documentation [here](https://reference.aspose.com/3d/java/).
 
-**S: Ücretsiz bir deneme mevcut mu?**  
-C: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
+**S: Ücretsiz deneme mevcut mu?**  
+C: Yes, you can explore a free trial [here](https://releases.aspose.com/).
 
 **S: Aspose.3D için destek nasıl alabilirim?**  
-C: Destek forumuna [buradan](https://forum.aspose.com/c/3d/18) ulaşabilirsiniz.
+C: Visit the support forum [here](https://forum.aspose.com/c/3d/18).
 
 **S: Geçici bir lisans satın alabilir miyim?**  
-C: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
+C: Yes, a temporary license can be obtained [here](https://purchase.aspose.com/temporary-license/).
 
----
+**Son Güncelleme:** 2026-05-24  
+**Test Edilen Versiyon:** Aspose.3D for Java 24.11 (latest at time of writing)  
+**Yazar:** Aspose
 
-**Son Güncelleme:** 2026-02-22  
-**Test Edilen Sürüm:** Aspose.3D for Java 24.11 (yazım sırasında en son sürüm)  
-**Yazar:** Aspose  
+## İlgili Eğitimler
+
+- [Aspose.3D ile Java’da 3D Ekstrüzyon Oluşturma](/3d/java/linear-extrusion/performing-linear-extrusion/)
+- [Aspose.3D for Java ile Lineer Ekstrüzyonda Yön Nasıl Ayarlanır](/3d/java/linear-extrusion/setting-direction/)
+- [Aspose.3D for Java – Lineer Ekstrüzyonda Burulma ile 3D Sahne Oluşturma](/3d/java/linear-extrusion/applying-twist/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

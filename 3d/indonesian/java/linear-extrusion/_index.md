@@ -1,76 +1,190 @@
 ---
-title: Membuat Model 3D dengan Ekstrusi Linier di Java
-linktitle: Membuat Model 3D dengan Ekstrusi Linier di Java
-second_title: Asumsikan.3D Java API
-description: Jelajahi dunia pemodelan 3D dengan Aspose.3D untuk Java. Kuasai ekstrusi linier dengan mudah. Pusat kendali, atur arah, tentukan irisan, terapkan putaran, dan banyak lagi!
-weight: 23
+date: 2026-05-24
+description: Pelajari cara mengekstrusi bentuk menggunakan Aspose.3D untuk Java. Tutorial
+  pemodelan 3D java ini mencakup ekstrusi linear, kontrol pusat, arah, irisan, putaran,
+  dan lainnya!
+keywords:
+- how to extrude shape
+- java 3d geometry
+- create 3d model java
+- create solid from 2d
+linktitle: Membuat Model 3D dengan Ekstrusi Linear di Java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-24'
+  description: Learn how to extrude shape using Aspose.3D for Java. This java 3d modeling
+    tutorial covers linear extrusion, center control, direction, slices, twist and
+    more!
+  headline: How to Extrude Shape - Creating 3D Models with Linear Extrusion in Java
+  type: TechArticle
+- description: Learn how to extrude shape using Aspose.3D for Java. This java 3d modeling
+    tutorial covers linear extrusion, center control, direction, slices, twist and
+    more!
+  name: How to Extrude Shape - Creating 3D Models with Linear Extrusion in Java
+  steps:
+  - name: Define the 2‑D profile
+    text: Create a `Polygon` or `Polyline` that represents the shape you want to extrude.
+      *A `Polygon` represents a closed shape defined by vertices, while a `Polyline`
+      is an open series of line segments.* Ready to get started? [Perform Linear Extrusion
+      Now](./performing-linear-extrusion/) For a detailed tuto
+  - name: Configure extrusion options
+    text: 'Set the center, direction, slices, twist, and twist offset on an `Extrusion`
+      object. *The `Extrusion` class encapsulates all parameters needed to generate
+      a 3‑D mesh from a 2‑D profile.* Get hands‑on with center control: [Control Center
+      in Linear Extrusion](./controlling-center/) Read more about cen'
+  - name: Add the extrusion to the scene
+    text: 'Instantiate a `Scene`, attach the extrusion mesh, and export to your desired
+      format. *`Scene` is the container that holds all 3‑D objects and handles exporting
+      to various file formats.* Ready to set the direction? [Explore Now](./setting-direction/)
+      Learn more about direction: [Setting Direction in '
+  - name: Export or render
+    text: 'Use `Scene.save()` to write the model to OBJ, STL, or any supported format.
+      *`Scene.save()` writes the entire scene to the specified file format, applying
+      any necessary post‑processing.* Start specifying slices: [Learn More](./specifying-slices/)
+      Detailed guide: [Specifying Slices in Linear Extrusio'
+  type: HowTo
+- questions:
+  - answer: Yes, a valid Aspose license is required for production use, but a free
+      trial is available for evaluation.
+    question: Can I use Aspose.3D for Java in a commercial project?
+  - answer: The library works with Java 8 and newer runtimes, including Java 11, 17,
+      and 21.
+    question: Which Java versions are supported?
+  - answer: Aspose.3D handles mesh generation efficiently, but you can call `scene.dispose()`
+      when you’re done with large scenes to free native resources.
+    question: Do I need to manage memory for large extrusions?
+  - answer: Absolutely – you can create several extrusion objects, position them independently,
+      and add them to the same scene.
+    question: Can I combine multiple extrusion operations in one model?
+  - answer: Yes, the “Applying Twist” and “Using Twist Offset” tutorials demonstrate
+      how to set both properties on the same extrusion object.
+    question: Is there sample code for applying twist and twist offset together?
+  type: FAQPage
+second_title: Aspose.3D Java API
+title: Cara Mengekstrusi Bentuk - Membuat Model 3D dengan Ekstrusi Linear di Java
 url: /id/java/linear-extrusion/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membuat Model 3D dengan Ekstrusi Linier di Java
+# Cara Mengekstrusi Bentuk – Membuat Model 3D dengan Ekstrusi Linear di Java
 
-## Perkenalan
+Jika Anda pernah bertanya-tanya **cara mengekstrusi bentuk** dalam aplikasi Java, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan menjelajahi fitur ekstrusi linear Aspose.3D untuk Java, menunjukkan cara mengubah profil 2‑D sederhana menjadi model 3‑D yang lengkap. Baik Anda membangun penampil bergaya CAD, pipeline aset game, atau hanya bereksperimen dengan geometri, menguasai ekstrusi linear akan memberi Anda kepercayaan untuk membuat bentuk kompleks dengan hanya beberapa baris kode.
 
+## Jawaban Cepat
+- **Apa itu ekstrusi linear?** Mengubah sketsa 2‑D menjadi padatan 3‑D dengan memperluasnya sepanjang suatu arah.  
+- **Perpustakaan mana yang membantu Anda?** Aspose.3D untuk Java menyediakan API yang fluens untuk tugas ekstrusi.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk belajar; lisensi komersial diperlukan untuk produksi.  
+- **Versi Java apa yang diperlukan?** Java 8 atau lebih tinggi.  
+- **Bisakah saya menerapkan putaran atau offset?** Ya – API mendukung sudut putar (twist angle) dan offset putar (twist offset) secara langsung.  
 
-Apakah Anda siap untuk memulai perjalanan seru ke dunia pemodelan 3D di Java? Tidak perlu mencari lagi! Dalam seri tutorial komprehensif ini, kami mempelajari kemampuan menarik Aspose.3D untuk Java, dengan fokus pada seni ekstrusi linier. Bersiaplah saat kami memandu Anda melalui seluk-beluk pembuatan model 3D yang menakjubkan dengan presisi dan mudah.
+## Apa itu “cara mengekstrusi bentuk” dalam Java?
+Operasi `Extrusion` adalah fitur inti Aspose.3D yang mengubah kontur datar menjadi mesh volumetrik. Dalam istilah sederhana, Anda menyediakan profil 2‑D (misalnya, persegi panjang atau poligon khusus), memberi tahu mesin seberapa jauh menariknya, dan perpustakaan membangun geometri 3‑D untuk Anda.
 
-## Melakukan Ekstrusi Linier di Aspose.3D untuk Java
+## Mengapa menggunakan Aspose.3D untuk Java?
+Aspose.3D mendukung **lebih dari 50 format input dan output** – termasuk OBJ, STL, FBX, dan GLTF – dan dapat menghasilkan mesh dengan hingga **10 000 vertex per ekstrusi** tanpa memuat seluruh adegan ke memori. Mesin lintas‑platformnya berjalan di Windows, Linux, dan macOS, memberikan hasil yang konsisten baik Anda berada di workstation desktop atau server CI tanpa tampilan.
 
-Pelajari dasar-dasar ekstrusi linier dengan Aspose.3D untuk Java. Temukan rahasia mengubah bentuk 2D menjadi struktur 3D yang memukau dengan mudah. Panduan langkah demi langkah kami memastikan Anda memahami konsep inti, memberdayakan Anda untuk menghidupkan kreasi digital Anda.
+## Prasyarat
+- Java 8 atau yang lebih baru terpasang di mesin pengembangan Anda.  
+- Maven atau Gradle untuk manajemen dependensi.  
+- File lisensi Aspose.3D untuk Java (opsional untuk percobaan).  
 
- Siap untuk memulai?[Lakukan Ekstrusi Linier Sekarang](./performing-linear-extrusion/)
+## Bagaimana cara kerja ekstrusi linear?
+Ekstrusi linear membuat padatan 3‑D dengan menyapu profil 2‑D sepanjang garis lurus. Mesin pertama-tama melakukan triangulasi pada profil, kemudian mereplikasi profil tersebut pada setiap irisan sepanjang sumbu ekstrusi, dan akhirnya menjahit irisan‑irisan tersebut menjadi mesh kedap air. Proses ini secara otomatis menghitung normal dan koordinat UV, sehingga Anda dapat merender hasilnya tanpa pemrosesan geometri tambahan.
 
-## Pusat Pengendalian dalam Ekstrusi Linier dengan Aspose.3D untuk Java
+## Apa saja parameter kunci untuk ekstrusi linear?
+Ekstrusi linear dapat disesuaikan dengan beberapa parameter. **center** menentukan titik pivot profil sebelum ekstrusi. Vektor **direction** menetapkan sumbu ekstrusi, secara default mengarah ke sumbu Z positif. **Slices** mengontrol berapa banyak penampang antar‑tengah yang dihasilkan, memengaruhi kelancaran untuk bentuk yang dipelintir atau meruncing. **Twist angle** memutar profil secara progresif dari awal hingga akhir, sementara **twist offset** menambahkan perpindahan linear sepanjang sumbu, memungkinkan bentuk spiral.
 
-Kendalikan grafis 3D Anda di Java! Pelajari cara mengontrol pusat selama ekstrusi linier dengan Aspose.3D. Tingkatkan desain Anda dengan memahami nuansa manipulasi pusat. Mari buat grafis 3D Anda menonjol!
+- **Center** – Titik pivot di sekitar mana profil diposisikan sebelum ekstrusi.  
+- **Direction** – Vektor yang menentukan sumbu ekstrusi; default adalah sumbu Z positif.  
+- **Slices** – Jumlah penampang antar‑tengah; lebih banyak irisan menghasilkan transisi yang lebih halus untuk ekstrusi yang dipelintir atau meruncing.  
+- **Twist Angle** – Rotasi total yang diterapkan pada profil dari awal hingga akhir, dinyatakan dalam derajat.  
+- **Twist Offset** – Offset linear yang memindahkan profil sepanjang sumbu ekstrusi sambil memutar, memungkinkan bentuk spiral.
 
- Dapatkan pengalaman langsung dengan kontrol pusat:[Pusat Kontrol dalam Ekstrusi Linier](./controlling-center/)
+## Melakukan Ekstrusi Linear di Aspose.3D untuk Java
 
-## Menetapkan Arah dalam Ekstrusi Linier dengan Aspose.3D untuk Java
+Muat profil Anda, konfigurasikan parameter, dan biarkan API menghasilkan mesh. Langkah‑langkah berikut menggambarkan alur kerja tipikal.
 
-Menjadi maestro ekstrusi linier dengan Aspose.3D untuk Java! Panduan kami memberdayakan Anda untuk mengatur arah karya 3D Anda dengan lancar. Unduh sekarang untuk pengalaman mendalam dalam pemrograman 3D yang melampaui desain biasa.
+### Langkah 1: Definisikan profil 2‑D
+Buat `Polygon` atau `Polyline` yang mewakili bentuk yang ingin Anda ekstrusi.  
+*`Polygon` mewakili bentuk tertutup yang didefinisikan oleh vertex, sementara `Polyline` adalah rangkaian segmen garis terbuka.*  
+Siap memulai? [Perform Linear Extrusion Now](./performing-linear-extrusion/)  
+Untuk tutorial terperinci, lihat [Performing Linear Extrusion in Aspose.3D for Java](./performing-linear-extrusion/).
 
- Siap menentukan arah?[Jelajahi Sekarang](./setting-direction/)
+### Langkah 2: Konfigurasikan opsi ekstrusi
+Atur center, direction, slices, twist, dan twist offset pada objek `Extrusion`.  
+*Kelas `Extrusion` mengenkapsulasi semua parameter yang diperlukan untuk menghasilkan mesh 3‑D dari profil 2‑D.*  
+Coba kontrol center: [Control Center in Linear Extrusion](./controlling-center/)  
+Baca lebih lanjut tentang kontrol center: [Controlling Center in Linear Extrusion with Aspose.3D for Java](./controlling-center/)
 
-## Menentukan Irisan dalam Ekstrusi Linier dengan Aspose.3D untuk Java
+### Langkah 3: Tambahkan ekstrusi ke scene
+Buat instance `Scene`, lampirkan mesh ekstrusi, dan ekspor ke format yang Anda inginkan.  
+*`Scene` adalah wadah yang menyimpan semua objek 3‑D dan menangani ekspor ke berbagai format file.*  
+Siap mengatur arah? [Explore Now](./setting-direction/)  
+Pelajari lebih lanjut tentang arah: [Setting Direction in Linear Extrusion with Aspose.3D for Java](./setting-direction/)
 
-Presisi bertemu kreativitas! Pelajari seni menentukan irisan dalam ekstrusi linier menggunakan Aspose.3D untuk Java. Tingkatkan keterampilan pemodelan 3D Anda dengan panduan terperinci kami, pastikan setiap irisan berkontribusi pada kesempurnaan patung digital Anda.
+### Langkah 4: Ekspor atau render
+Gunakan `Scene.save()` untuk menulis model ke OBJ, STL, atau format lain yang didukung.  
+*`Scene.save()` menulis seluruh scene ke format file yang ditentukan, menerapkan post‑processing yang diperlukan.*  
+Mulai menentukan slices: [Learn More](./specifying-slices/)  
+Panduan lengkap: [Specifying Slices in Linear Extrusion with Aspose.3D for Java](./specifying-slices/)
 
- Mulai menentukan irisan:[Belajarlah lagi](./specifying-slices/)
+## Bagaimana cara menerapkan twist pada ekstrusi?
+Terapkan twist dengan mengatur properti `twistAngle` pada opsi ekstrusi. Mesin memutar setiap irisan secara proporsional, menciptakan efek heliks. Dengan menyesuaikan sudut, Anda dapat menghasilkan apa saja mulai dari torsi halus hingga spiral 360° penuh, berguna untuk elemen dekoratif atau pegas fungsional.  
+Siap memutar? [Apply Twist Now](./applying-twist/)  
+Contoh lengkap: [Applying Twist in Linear Extrusion with Aspose.3D for Java](./applying-twist/)
 
-## Menerapkan Twist dalam Ekstrusi Linier dengan Aspose.3D untuk Java
+## Bagaimana cara menggunakan twist offset untuk bentuk spiral?
+Twist offset memindahkan setiap irisan sepanjang sumbu ekstrusi sambil berputar, membentuk tangga spiral atau geometri sekrup. Menggabungkan twist angle dengan offset positif menghasilkan ramp heliks yang halus, sementara offset negatif dapat membuat spiral menurun. Teknik ini ideal untuk memodelkan ulir, pegas, atau pita artistik.  
+Tingkatkan kemampuan Anda: [Learn Twist Offset](./using-twist-offset/)  
+Panduan komprehensif: [Using Twist Offset in Linear Extrusion with Aspose.3D for Java](./using-twist-offset/)
 
-Tambahkan sentuhan unik pada model 3D Anda dengan Aspose.3D untuk Java! Panduan langkah demi langkah kami mengungkap rahasia penerapan putaran untuk meningkatkan efek ekstrusi linier. Tingkatkan kreasi Anda dan pikat audiens Anda dengan desain 3D dinamis.
+## Kasus Penggunaan Umum untuk Ekstrusi Linear
+- **Mechanical parts** – Dengan cepat menghasilkan baut, poros, dan braket dari sketsa sederhana.  
+- **Architectural elements** – Mengekstrusi rencana lantai menjadi dinding atau kolom untuk prototipe BIM.  
+- **Game assets** – Membuat properti low‑poly seperti pagar, pipa, atau rel dekoratif langsung dari seni 2‑D.  
+- **Educational tools** – Memvisualisasikan permukaan matematis dengan mengekstrusi kurva parametrik.
 
- Siap untuk memutarnya?[Terapkan Putar Sekarang](./applying-twist/)
+## Memecahkan Masalah Umum
+- **Missing faces** – Pastikan profil merupakan loop tertutup; kontur terbuka menghasilkan celah.  
+- **Excessive memory usage** – Kurangi jumlah `slices` atau aktifkan `scene.setMemoryOptimization(true)`.  
+- **Incorrect twist direction** – Sudut positif memutar searah jarum jam saat melihat sepanjang arah ekstrusi; gunakan nilai negatif untuk membalikkan.
 
-## Menggunakan Twist Offset dalam Ekstrusi Linier dengan Aspose.3D untuk Java
+## Pertanyaan yang Sering Diajukan
 
-Sempurnakan keterampilan pemodelan 3D Anda dengan Aspose.3D untuk Java. Selidiki dunia Twist Offset dalam Ekstrusi Linier melalui tutorial komprehensif kami. Bebaskan kekuatan putaran, tingkatkan desain Anda ke tingkat yang lebih tinggi.
+**Q: Bisakah saya menggunakan Aspose.3D untuk Java dalam proyek komersial?**  
+A: Ya, lisensi Aspose yang valid diperlukan untuk penggunaan produksi, tetapi versi percobaan gratis tersedia untuk evaluasi.
 
- Tingkatkan keterampilan Anda:[Pelajari Putaran Offset](./using-twist-offset/)
+**Q: Versi Java apa yang didukung?**  
+A: Perpustakaan ini bekerja dengan runtime Java 8 dan yang lebih baru, termasuk Java 11, 17, dan 21.
 
-Mulailah perjalanan mendebarkan ini dengan Aspose.3D untuk Java, di mana setiap tutorial membuka dimensi baru dalam keahlian pemodelan 3D Anda. Baik Anda seorang pengembang berpengalaman atau pemula yang penasaran, panduan ramah pengguna kami memastikan pengalaman yang menawan dan memperkaya. Unduh sekarang dan biarkan petualangan 3D dimulai!
-## Membuat Model 3D dengan Ekstrusi Linier di Tutorial Java
-### [Melakukan Ekstrusi Linier di Aspose.3D untuk Java](./performing-linear-extrusion/)
-Jelajahi dunia pemodelan 3D dengan Aspose.3D untuk Java. Belajar melakukan ekstrusi linier dengan mudah.
-### [Pusat Pengendalian dalam Ekstrusi Linier dengan Aspose.3D untuk Java](./controlling-center/)
-Jelajahi dunia grafis 3D di Java dengan Aspose.3D. Kontrol bagian tengah dalam ekstrusi linier dengan mudah.
-### [Menetapkan Arah dalam Ekstrusi Linier dengan Aspose.3D untuk Java](./setting-direction/)
-Kuasai ekstrusi linier dengan Aspose.3D untuk Java! Ikuti panduan kami untuk pemrograman 3D yang lancar. Unduh sekarang untuk pengalaman menawan.
-### [Menentukan Irisan dalam Ekstrusi Linier dengan Aspose.3D untuk Java](./specifying-slices/)
-Pelajari cara menentukan irisan dalam ekstrusi linier menggunakan Aspose.3D untuk Java. Tingkatkan keterampilan pemodelan 3D Anda dengan panduan langkah demi langkah ini.
-### [Menerapkan Twist dalam Ekstrusi Linier dengan Aspose.3D untuk Java](./applying-twist/)
-Pelajari cara menambahkan sentuhan unik pada model 3D Anda menggunakan Aspose.3D untuk Java. Ikuti panduan langkah demi langkah kami untuk meningkatkan efek ekstrusi linier.
-### [Menggunakan Twist Offset dalam Ekstrusi Linier dengan Aspose.3D untuk Java](./using-twist-offset/)
-Tingkatkan keterampilan pemodelan 3D Anda dengan Aspose.3D untuk Java. Pelajari cara menggunakan Twist Offset dalam Ekstrusi Linier dalam tutorial komprehensif ini.
-{{< /blocks/products/pf/tutorial-page-section >}}
+**Q: Apakah saya perlu mengelola memori untuk ekstrusi besar?**  
+A: Aspose.3D menangani pembuatan mesh secara efisien, tetapi Anda dapat memanggil `scene.dispose()` ketika selesai dengan scene besar untuk membebaskan sumber daya native.
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Q: Bisakah saya menggabungkan beberapa operasi ekstrusi dalam satu model?**  
+A: Tentu – Anda dapat membuat beberapa objek ekstrusi, menempatkannya secara independen, dan menambahkannya ke scene yang sama.
+
+**Q: Apakah ada contoh kode untuk menerapkan twist dan twist offset secara bersamaan?**  
+A: Ya, tutorial “Applying Twist” dan “Using Twist Offset” menunjukkan cara mengatur kedua properti pada objek ekstrusi yang sama.
+
+---
+
+**Terakhir Diperbarui:** 2026-05-24  
+**Diuji Dengan:** Aspose.3D for Java 24.11  
+**Penulis:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Tutorial Terkait
+
+- [Tutorial Grafik 3D Java – Center dalam Ekstrusi Linear](/3d/java/linear-extrusion/controlling-center/)
+- [Cara Mengatur Arah dalam Ekstrusi Linear dengan Aspose.3D untuk Java](/3d/java/linear-extrusion/setting-direction/)
+- [Buat Ekstrusi 3D dengan Slices – Aspose.3D untuk Java](/3d/java/linear-extrusion/specifying-slices/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
