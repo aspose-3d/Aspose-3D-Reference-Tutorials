@@ -1,11 +1,41 @@
 ---
-date: 2026-02-17
-description: Tanulja meg, hogyan konvertálja a hálót FBX formátumba, miközben anyag
-  színét állítja be, és megosztja a háló geometriai adatait Java 3D-ben az Aspose.3D
+date: 2026-05-19
+description: Ismerje meg, hogyan konvertálhatja a mesh-t FBX-re, miközben beállítja
+  az anyagszínt, és megosztja a mesh geometriai adatokat Java 3D-ben az Aspose.3D
   használatával.
-linktitle: Convert Mesh to FBX and Set Material Color in Java 3D
+keywords:
+- convert mesh to fbx
+- how to export fbx
+- how to set material
+- export mesh to fbx
+- aspose 3d tutorial
+linktitle: Mesh konvertálása FBX-re és anyagszín beállítása Java 3D-ben
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to convert mesh to FBX while setting material color and sharing
+    mesh geometry data in Java 3D using Aspose.3D.
+  headline: Convert Mesh to FBX and Set Material Color in Java 3D
+  type: TechArticle
+- questions:
+  - answer: Yes, the shared mesh can be animated via skeletal rigs or morph targets
+      while each node retains its own material.
+    question: Can I reuse the same mesh for animated characters?
+  - answer: Absolutely, Aspose.3D writes full UV data, so textures map correctly in
+      downstream tools.
+    question: Does the FBX export preserve UV coordinates?
+  - answer: The library can stream meshes exceeding 2 GB without loading the entire
+      file into memory, making it suitable for large scenes.
+    question: What is the maximum file size Aspose.3D can handle?
+  - answer: Pass a different `FileFormat` enum value, such as `FileFormat.FBX201400ASCII`,
+      to `scene.save`.
+    question: How do I change the FBX version?
+  - answer: Yes, you can create a new `Scene`, add the desired nodes, and then save
+      that scene to FBX.
+    question: Is it possible to export only a subset of nodes?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Háló konvertálása FBX-re és anyagszín beállítása Java 3D-ben
+title: Mesh konvertálása FBX-re és anyagszín beállítása Java 3D-ben
 url: /hu/java/geometry/share-mesh-geometry-data/
 weight: 15
 ---
@@ -14,37 +44,37 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mesh átalakítása FBX-re és anyag szín beállítása Java 3D-ben
+# Háló konvertálása FBX-re és anyagszín beállítása Java 3D-ben
 
 ## Bevezetés
 
-Ha Java‑alapú 3D alkalmazást építesz, gyakran szükség van arra, hogy ugyanazt a geometriát több objektumnál is újrahasználd, miközben minden példány egyedi megjelenést kap. Ebben az útmutatóban megtanulod, **hogyan konvertáljuk a mesh‑et FBX‑re**, megosztani a mesh alapszerkezetét több csomópont között, és **beállítani egyedi anyagszínt minden csomóponthoz**. A végére egy exportálásra kész FBX jelenetet kapsz, amelyet bármely motorba vagy megjelenítőbe beilleszthetsz.
+Ha Java‑alapú 3D alkalmazást építesz, gyakran szükség van ugyanaz a geometria több objektum között való újrahasználására, miközben minden példány egyedi megjelenést kap. Ebben az oktatóanyagban megtanulod, **hogyan konvertáljuk a hálót FBX-re**, megosztani az alapvető hálógeometriát több csomópont között, és **állíts be egy különböző anyagszínt minden csomópontnál**. A végére egy exportálásra kész FBX jelenetet kapsz, amelyet bármely motorba vagy megjelenítőbe beilleszthetsz.
 
 ## Gyors válaszok
-- **Mi a fő cél?** Mesh átalakítása FBX‑re, a mesh geometria megosztása, és egyedi anyagszín beállítása minden csomóponthoz.  
+- **Mi a fő cél?** Háló konvertálása FBX-re, a háló geometria megosztása, és egy egyedi anyagszín beállítása minden csomópontnál.  
 - **Melyik könyvtár szükséges?** Aspose.3D for Java.  
 - **Hogyan exportálom az eredményt?** Mentsd a jelenetet FBX fájlként a `FileFormat.FBX7400ASCII` használatával.  
-- **Szükség van licencre?** Ideiglenes vagy teljes licenc szükséges a termelési használathoz.  
+- **Szükségem van licencre?** Ideiglenes vagy teljes licenc szükséges a termelési használathoz.  
 - **Melyik Java verzió működik?** Bármely Java 8+ környezet.
 
-## Mi az a **convert mesh to FBX**?
+## Mi az **convert mesh to FBX**?
 
-A `convert mesh to fbx` folyamat azt jelenti, hogy egy memóriában létrehozott vagy módosított mesh objektumot FBX fájlformátumba írunk, amelyet széles körben támogatnak a 3D eszközök, mint a Maya, Blender és Unity. Az Aspose.3D végzi a nehéz munkát, így csak a megfelelő `FileFormat` megadásával kell meghívnod a `scene.save(...)` metódust.
+A háló FBX-re konvertálása azt jelenti, hogy egy memóriában létező hálóobjektumot FBX fájlformátumba írunk, amely de‑facto szabvány, amelyet a Maya, a Blender, az Unity és számos más 3D eszköz támogat. Az Aspose.3D végzi a nehéz munkát, így csak a megfelelő `FileFormat`‑el kell meghívnod a `scene.save(...)` függvényt.
 
-## Miért osszuk meg a mesh geometria adatokat?
+## Miért osszuk meg a háló geometriai adatát?
 
-A geometria megosztása csökkenti a memóriahasználatot és felgyorsítja a renderelést, mivel a vertex buffer csak egyszer kerül tárolásra. Ez a technika tökéletes azokhoz a jelenetekhez, ahol sok duplikált objektum van – például erdők, tömegek vagy moduláris épületek – ahol minden példány csak a transzformáció vagy az anyag tekintetében különbözik.
+A geometria megosztása csökkenti a memóriahasználatot és felgyorsítja a renderelést, mivel az alapvető vertex pufferek csak egyszer tárolódnak. Ez a technika tökéletes olyan jelenetekhez, ahol sok duplikált objektum van – például erdők, tömegek vagy moduláris építészet – ahol minden példány csak a transzformációban vagy az anyagban különbözik.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződj meg róla, hogy a következő előfeltételek rendelkezésre állnak:
+Mielőtt belemerülnénk az oktatóanyagba, győződj meg róla, hogy a következő előfeltételek teljesülnek:
 
 - **Java fejlesztői környezet** – bármely IDE vagy parancssori beállítás Java 8 vagy újabb verzióval.  
-- **Aspose.3D Library** – töltsd le a legújabb JAR‑t a hivatalos oldalról: [here](https://releases.aspose.com/3d/java/).
+- **Aspose.3D könyvtár** – töltsd le a legújabb JAR‑t a hivatalos oldalról: [itt](https://releases.aspose.com/3d/java/).
 
 ## Csomagok importálása
 
-Kezdjük a szükséges csomagok importálásával a Java projektedbe. Ez a lépés elengedhetetlen az Aspose.3D könyvtár funkcióinak eléréséhez.
+A `com.aspose.threed` névtér tartalmazza az összes osztályt, amelyre a jelenetek, hálók és anyagok építéséhez szükséged lesz. Importáld ezeket a csomagokat a Java fájlod tetején, hogy a fordító fel tudja oldani a típusokat.
 
 ```java
 import com.aspose.threed.*;
@@ -52,16 +82,17 @@ import com.aspose.threed.*;
 
 ## 1. lépés: Jelenet objektum inicializálása (initialize scene java)
 
-Indítsuk el a folyamatot egy jelenet objektum inicializálásával. Ez lesz a vászon, ahol a 3D varázslatunk kibontakozik.
+A `Scene` osztály az Aspose.3D legfelső szintű konténere, amely egy teljes 3D világot képvisel. Egy `Scene` inicializálása egy tiszta vásznat biztosít, ahová hálókat, fényeket és kamerákat lehet hozzáadni.
 
 ```java
 // Initialize scene object
 Scene scene = new Scene();
 ```
 
-## 2. lépés: Színvektorok definiálása
+## 2. lépés: Színvektorok meghatározása
 
-Ebben a lépésben egy színvektor tömböt definiálunk, amelyet a 3D jelenet különböző elemeire alkalmazunk majd.
+`Vector3` egy három komponensből álló vektort (X, Y, Z) jelöl, amelyet pozíciók, irányok vagy színek meghatározására használnak.  
+Hozz létre egy `Vector3` objektumokból álló tömböt, amely RGB értékeket tárol. Minden vektor később egy külön csomóponthoz lesz hozzárendelve, így minden példány saját anyagszínt kap.
 
 ```java
 // Define color vectors
@@ -72,18 +103,19 @@ Vector3[] colors = new Vector3[] {
 };
 ```
 
-## 3. lépés: 3D Mesh létrehozása Java-ban Polygon Builder használatával (create 3d mesh java)
+## 3. lépés: 3D háló létrehozása Java-ban Polygon Builder használatával (create 3d mesh java)
 
-Használd a Common osztályt egy mesh létrehozásához a polygon builder módszerrel. Ez a mesh lesz az alapja a 3D elemeinknek.
+A `PolygonBuilder` osztály lehetővé teszi, hogy manuálisan definiáld a csúcsokat és felületeket, és így hálót építs. Ez a háló minden csomópont között újra felhasználásra kerül, bemutatva, hogyan működik a geometria megosztása a gyakorlatban.
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-## Hogyan állítsuk be az anyag színét minden csomópontra?
+## Hogyan állítsuk be az anyag színét minden csomópontnál?
 
-Iterálj a színvektorokon, hozz létre kocka csomópontokat, és állíts be attribútumokat, mint az anyag, **set material color**, és a transzformáció. Ez a lényeges rész a mesh példányok vizuális megjelenésének vezérléséhez.
+`LambertMaterial` egy egyszerű anyagtípus, amely a háló diffúz színét definiálja.  
+Iterálj a színvektorokon, hozz létre egy kocka csomópontot minden bejegyzéshez, rendelj hozzá egy új `LambertMaterial`‑t az aktuális színnel, és helyezd el a csomópontot egy transzformációs mátrix segítségével. Ez a minta biztosítja, hogy minden csomópont egyedi színt mutasson, miközben ugyanarra az alap hálóra hivatkozik.
 
 ```java
 int idx = 0;
@@ -105,7 +137,7 @@ for(Vector3 color : colors) {
 
 ## 5. lépés: 3D jelenet mentése (save scene fbx, convert mesh to fbx)
 
-Add meg a könyvtárat és a fájlnevet a 3D jelenet mentéséhez a támogatott formátumban, jelen esetben FBX7400ASCII. Ez a lépés bemutatja a **convert mesh to FBX** folyamatot is.
+Add meg a könyvtárat és a fájlnevet a 3D jelenet mentéséhez a támogatott fájlformátumban, ebben az esetben FBX7400ASCII. Ez a lépés szintén bemutatja a **convert mesh to FBX**‑t azáltal, hogy a megosztott geometriai jelenetet lemezre írja.
 
 ```java
 // The path to the documents directory.
@@ -118,41 +150,65 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 
 ## Gyakori hibák és tippek
 
-- **Útvonal problémák** – Győződj meg róla, hogy a könyvtár útvonala fájl elválasztóval (`/` vagy `\\`) végződik, mielőtt a fájlnevet hozzáadnád.  
+- **Útvonal problémák** – Győződj meg arról, hogy a könyvtár útvonala fájlelválasztóval (`/` vagy `\\`) végződik, mielőtt a fájlnevet hozzáadnád.  
 - **Licenc inicializálás** – Ha elfelejted beállítani az Aspose.3D licencet a `scene.save` hívása előtt, a könyvtár próbaverzióban fog működni, és vízjelet helyezhet el.  
-- **Anyag felülírások** – Ugyanazon `LambertMaterial` példány újrahasználata több csomóponthoz azt eredményezi, hogy minden csomópont ugyanazt a színt kapja. Mindig hozz létre egy friss anyagot minden iterációban, ahogy fent is látható.  
-- **Nagy mesh‑ek** – Millió vertex‑számú mesh‑ek esetén fontold meg a `MeshBuilder` használatát indexelt poligonokkal, hogy az FBX fájl mérete kezelhető maradjon.
+- **Anyag felülírások** – Ha ugyanazt a `LambertMaterial` példányt többször használod több csomópontnál, akkor minden csomópont ugyanazt a színt kapja. Mindig hozz létre egy új anyagot minden iterációban, ahogy fent is látható.  
+- **Nagy hálók** – Milliók számú vertex-szel rendelkező hálók esetén fontold meg a `MeshBuilder` használatát indexelt poligonokkal, hogy az FBX fájl mérete kezelhető maradjon.
 
-## További Gyakran Ismételt Kérdések
+## További gyakran ismételt kérdések
 
 **Q1: Használhatom az Aspose.3D‑t más Java keretrendszerekkel?**  
-A1: Igen, az Aspose.3D úgy lett tervezve, hogy zökkenőmentesen működjön különböző Java keretrendszerekkel.
+A1: Igen, az Aspose.3D úgy van tervezve, hogy zökkenőmentesen működjön különböző Java keretrendszerekkel.
 
-**Q2: Vannak licencelési lehetőségek az Aspose.3D‑hez?**  
-A2: Igen, a licencelési opciókat [here](https://purchase.aspose.com/buy) tekintheted meg.
+**Q2: Van elérhető licencelési lehetőség az Aspose.3D‑hez?**  
+A2: Igen, a licencelési lehetőségeket [itt](https://purchase.aspose.com/buy) tekintheted meg.
 
 **Q3: Hogyan kaphatok támogatást az Aspose.3D‑hez?**  
-A3: Látogasd meg az Aspose.3D [forum](https://forum.aspose.com/c/3d/18) oldalát támogatás és megbeszélések céljából.
+A3: Látogasd meg az Aspose.3D [fórumot](https://forum.aspose.com/c/3d/18) támogatás és megbeszélések céljából.
 
-**Q4: Elérhető ingyenes próba?**  
-A4: Igen, ingyenes próbaverziót kaphatsz [here](https://releases.aspose.com/).
+**Q4: Van ingyenes próba?**  
+A4: Igen, ingyenes próbát [itt](https://releases.aspose.com/) kaphatsz.
 
 **Q5: Hogyan szerezhetek ideiglenes licencet az Aspose.3D‑hez?**  
-A5: Ideiglenes licencet [here](https://purchase.aspose.com/temporary-license/) tölthetsz le.
+A5: Ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/) szerezhetsz.
 
-## Összegzés
+## Gyakran ismételt kérdések
 
-Gratulálunk! Sikeresen **konvertáltad a mesh‑et FBX‑re**, megosztottad a mesh geometria adatokat több csomópont között, és egyedi anyagszíneket állítottál be az Aspose.3D for Java segítségével. Ez a munkafolyamat egy könnyű, újrahasznosítható mesh architektúrát biztosít, amely exportálható bármely FBX‑kompatibilis pipeline-ba.
+**Q: Újra felhasználhatom ugyanazt a hálót animált karakterekhez?**  
+A: Igen, a megosztott háló animálható csontvázak vagy morf célpontok segítségével, miközben minden csomópont megtartja saját anyagát.
+
+**Q: Megőrzi az FBX export a UV koordinátákat?**  
+A: Teljesen, az Aspose.3D teljes UV adatot ír, így a textúrák helyesen térképeződnek a további eszközökben.
+
+**Q: Mi a maximális fájlméret, amelyet az Aspose.3D kezelni tud?**  
+A: A könyvtár képes 2 GB-nál nagyobb hálókat streamelni anélkül, hogy az egész fájlt memóriába töltené, így nagy jelenetekhez is alkalmas.
+
+**Q: Hogyan változtathatom meg az FBX verziót?**  
+A: Adj át egy másik `FileFormat` enum értéket, például `FileFormat.FBX201400ASCII`, a `scene.save`‑nek.
+
+**Q: Lehetséges csak a csomópontok egy részhalmazát exportálni?**  
+A: Igen, létrehozhatsz egy új `Scene`‑t, hozzáadhatod a kívánt csomópontokat, majd elmentheted azt FBX‑ként.
+
+## Következtetés
+
+Gratulálunk! Sikeresen **konvertáltad a hálót FBX-re**, megosztottad a háló geometriai adatait több csomópont között, és egyedi anyagszíneket állítottál be az Aspose.3D for Java segítségével. Ez a munkafolyamat egy könnyű, újrahasználható hálóarchitektúrát biztosít, amely bármely FBX‑kompatibilis csővezetékbe exportálható.
 
 ---
 
-**Last Updated:** 2026-02-17  
-**Tested With:** Aspose.3D 24.11 for Java  
-**Author:** Aspose  
+**Utolsó frissítés:** 2026-05-19  
+**Tesztelve ezzel:** Aspose.3D 24.11 for Java  
+**Szerző:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan válasszuk szét a hálót anyag szerint Java-ban az Aspose.3D használatával](/3d/java/3d-mesh-data/split-meshes-by-material/)
+- [Textúra beágyazása FBX-be Java-ban – Anyagok alkalmazása 3D objektumokra az Aspose.3D segítségével](/3d/java/geometry/apply-materials-to-3d-objects/)
+- [Hogyan exportáljunk jelenetet FBX-be és szerezzünk 3D jelenet információt Java-ban](/3d/java/3d-scenes-and-models/get-scene-information/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

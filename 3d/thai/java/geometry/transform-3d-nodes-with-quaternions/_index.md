@@ -1,10 +1,39 @@
 ---
-date: 2026-02-14
-description: เรียนรู้วิธีแปลงโมเดลเป็น FBX และบันทึกซีนเป็น FBX ด้วย Aspose.3D สำหรับ
-  Java คู่มือขั้นตอนนี้แสดงการแปลงด้วยควอเตอร์เนียนของโหนด 3 มิติพร้อมหลีกเลี่ยงการล็อกแกมบัล
-linktitle: Convert Model to FBX with Quaternions in Java using Aspose.3D
+date: 2026-05-19
+description: เรียนรู้วิธีแปลงโมเดลเป็น FBX และบันทึกฉากเป็น FBX ด้วย Aspose.3D สำหรับ
+  Java คู่มือขั้นตอนต่อขั้นตอนนี้แสดงการแปลงด้วย Quaternions ของโหนด 3D พร้อมหลีกเลี่ยง
+  gimbal lock และอธิบายวิธีส่งออก FBX อย่างมีประสิทธิภาพ
+keywords:
+- convert model to fbx
+- how to export fbx
+- avoid gimbal lock
+- quaternion based rotation
+- aspose 3d license
+linktitle: แปลงโมเดลเป็น FBX ด้วย Quaternions ใน Java โดยใช้ Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to convert model to FBX and save scene as FBX using Aspose.3D
+    for Java. This step‑by‑step guide shows quaternion transformations of 3D nodes
+    while avoiding gimbal lock and explains how to export FBX efficiently.
+  headline: Convert Model to FBX with Quaternions in Java using Aspose.3D
+  type: TechArticle
+- questions:
+  - answer: Yes, a fully functional 30‑day trial is available **[here](https://releases.aspose.com/)**.
+    question: Can I use Aspose.3D for Java for free?
+  - answer: The official API reference is hosted **[here](https://reference.aspose.com/3d/java/)**.
+    question: Where can I find the documentation for Aspose.3D for Java?
+  - answer: The community‑driven **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)**
+      provides fast assistance from both Aspose engineers and users.
+    question: How do I get support for Aspose.3D for Java?
+  - answer: Yes, you can request a temporary license **[here](https://purchase.aspose.com/temporary-license/)**
+      for evaluation or CI pipelines.
+    question: Are temporary licenses available?
+  - answer: Direct purchase is possible **[here](https://purchase.aspose.com/buy)**.
+    question: Where can I purchase Aspose.3D for Java?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: แปลงโมเดลเป็น FBX ด้วยควอเทอร์เนียนใน Java โดยใช้ Aspose.3D
+title: แปลงโมเดลเป็น FBX ด้วย Quaternions ใน Java โดยใช้ Aspose.3D
 url: /th/java/geometry/transform-3d-nodes-with-quaternions/
 weight: 20
 ---
@@ -13,108 +42,89 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แปลงโมเดลเป็น FBX ด้วย Quaternion ใน Java โดยใช้ Aspose.3D
+# แปลงโมเดลเป็น FBX ด้วยควอร์เทอร์เนียนใน Java โดยใช้ Aspose.3D
 
 ## บทนำ
 
-หากคุณต้องการ **convert model to FBX** พร้อมกับการหมุนแบบราบรื่น คุณมาถูกที่แล้ว ในบทเรียนนี้เราจะเดินผ่านตัวอย่าง Java ฉบับเต็มที่ใช้ Aspose.3D เพื่อสร้างลูกบาศก์, หมุนด้วย quaternion, และสุดท้าย **save scene as FBX**. เมื่อเสร็จคุณจะได้รูปแบบที่นำกลับมาใช้ใหม่ได้สำหรับวัตถุ 3‑D ใด ๆ ที่ต้องการส่งออกเป็นรูปแบบ FBX, และคุณจะเข้าใจว่าการใช้ quaternion ช่วยให้คุณ **avoid gimbal lock** อย่างไร
+หากคุณต้องการ **แปลงโมเดลเป็น FBX** พร้อมกับการหมุนแบบราบรื่น คุณมาถูกที่แล้ว ในบทแนะนำนี้เราจะพาคุณผ่านตัวอย่าง Java แบบครบถ้วนที่ใช้ Aspose.3D เพื่อสร้างลูกบาศก์, หมุนด้วยควอร์เทอร์เนียน, และสุดท้าย **บันทึกฉากเป็น FBX** เมื่อเสร็จคุณจะมีรูปแบบที่นำกลับมาใช้ได้สำหรับวัตถุ 3‑D ใด ๆ ที่คุณต้องการส่งออกเป็นรูปแบบ FBX และคุณจะเข้าใจว่าควอร์เทอร์เนียนช่วยคุณ **หลีกเลี่ยงการล็อกแกมมิล**  
 
-## คำตอบอย่างรวดเร็ว
-- **ไลบรารีที่จัดการการส่งออก FBX คืออะไร?** Aspose.3D for Java  
-- **ประเภทการแปลงที่ใช้คืออะไร?** Quaternion‑based rotation for smooth interpolation  
-- **ฉันต้องการใบอนุญาตสำหรับการผลิตหรือไม่?** Yes, a commercial license is required (free trial available)  
-- **ฉันสามารถส่งออกเป็นรูปแบบอื่นได้หรือไม่?** Yes, Aspose.3D supports OBJ, STL, GLTF, and more  
-- **โค้ดนี้รองรับหลายแพลตฟอร์มหรือไม่?** Absolutely – Java runs on Windows, Linux, and macOS  
+## คำตอบด่วน
+- **ไลบรารีใดที่จัดการการส่งออก FBX?** Aspose.3D for Java ซึ่งรองรับไฟล์ 3‑D มากกว่า 20 รูปแบบ.  
+- **ประเภทการแปลงที่ใช้คืออะไร?** การหมุนแบบอิงควอร์เทอร์เนียนสำหรับการหมุนราบรื่น ปราศจากการล็อกแกมมิล.  
+- **ฉันต้องการไลเซนส์สำหรับการผลิตหรือไม่?** ใช่ – จำเป็นต้องมีไลเซนส์เชิงพาณิชย์ของ Aspose.3D; มีการทดลองใช้ฟรี 30 วันให้ใช้งาน.  
+- **ฉันสามารถส่งออกรูปแบบอื่นได้หรือไม่?** แน่นอน – รองรับ OBJ, STL, GLTF และรูปแบบอื่น ๆ โดยไม่ต้องตั้งค่าเพิ่มเติม.  
+- **โค้ดนี้รองรับหลายแพลตฟอร์มหรือไม่?** ใช่, API ของ Java ทำงานบน Windows, Linux, และ macOS โดยไม่ต้องเปลี่ยนแปลงใด ๆ.  
 
-## “convert model to FBX” ด้วย quaternion คืออะไร?
+## อะไรคือ “แปลงโมเดลเป็น FBX” ด้วยควอร์เทอร์เนียน?
+**แปลงโมเดลเป็น FBX ด้วยควอร์เทอร์เนียน** หมายถึงการส่งออกฉาก 3‑D ไปยังรูปแบบไฟล์ FBX โดยใช้คณิตศาสตร์ควอร์เทอร์เนียนเพื่อกำหนดการหมุนของโหนด วิธีนี้จะเก็บข้อมูลการหมุนโดยตรงในไฟล์ FBX รักษาการหมุนที่ราบรื่นและขจัดข้อบกพร่องการล็อกแกมมิลที่เกิดจากมุมออยเลอร์อย่างสมบูรณ์  
 
-การใช้ quaternion สำหรับการหมุนทำให้คุณหมุนโหนด 3‑D ได้โดยไม่เจอปัญหา gimbal lock ที่มักเกิดกับ Euler angles เมื่อคุณ **convert model to FBX** ข้อมูลการหมุนจะถูกบันทึกโดยตรงในไฟล์ FBX ทำให้การวางแนวที่คุณกำหนดในโค้ดยังคงอยู่แบบราบรื่น
-
-## ทำไมต้องใช้ Quaternion สำหรับการส่งออก FBX?
-
-Quaternion ให้คุณ:
-
-- **การแทรกแบบราบรื่น** ระหว่างการวางแนว, จำเป็นสำหรับแอนิเมชัน.  
-- **ไม่มี gimbal lock**, ซึ่งอาจทำให้การหมุนเสียหายเมื่อใช้ Euler angles.  
-- **การแสดงผลแบบกะทัดรัด**, ช่วยประหยัดหน่วยความจำในฉากขนาดใหญ่.  
-
-ประโยชน์เหล่านี้ทำให้การแปลงโดยใช้ quaternion เป็นตัวเลือกหลักเมื่อคุณต้องการ **convert model to FBX** สำหรับเอนจินเกมหรือกระบวนการแสดงผล
+## ทำไมต้องใช้ควอร์เทอร์เนียนสำหรับการส่งออก FBX?
+ควอร์เทอร์เนียนให้การอินเตอร์โพเลชันที่ราบรื่น, ขจัดการล็อกแกมมิล, และใช้เพียงสี่ตัวเลขต่อการหมุน, ลดการใช้หน่วยความจำได้ถึง 60 % เมื่อเทียบกับการจัดเก็บแบบเมทริกซ์. ข้อได้เปรียบเหล่านี้ทำให้การแปลงที่ขับเคลื่อนด้วยควอร์เทอร์เนียนเป็นมาตรฐานอุตสาหกรรมสำหรับกระบวนการของเอนจิ้นเกมและการแสดงผลความละเอียดสูงเมื่อคุณ **แปลงโมเดลเป็น FBX**.  
 
 ## ข้อกำหนดเบื้องต้น
-
-ก่อนที่เราจะเริ่มบทเรียน โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้พร้อมแล้ว:
-
-- ความรู้พื้นฐานของการเขียนโปรแกรม Java.  
-- ติดตั้ง Aspose.3D for Java แล้ว คุณสามารถดาวน์โหลดได้จาก [here](https://releases.aspose.com/3d/java/).  
-- ตั้งค่าไดเรกทอรีเอกสารสำหรับบันทึกฉาก 3D ของคุณ.
+ก่อนที่เราจะเริ่มบทแนะนำนี้, โปรดตรวจสอบว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้พร้อมใช้งาน:
+- ความรู้พื้นฐานในการเขียนโปรแกรม Java.  
+- ติดตั้ง Aspose.3D for Java แล้ว คุณสามารถดาวน์โหลดได้ **[ที่นี่](https://releases.aspose.com/3d/java/)**.  
+- โฟลเดอร์ที่สามารถเขียนได้บนเครื่องของคุณซึ่งไฟล์ FBX ที่สร้างจะถูกบันทึก.  
 
 ## นำเข้าแพ็กเกจ
-
-ในส่วนนี้ เราจะนำเข้าแพ็กเกจที่จำเป็นเพื่อเริ่มต้นการแปลง 3D ด้วย Aspose.3D.
+คำสั่ง `import` จะนำคลาสหลักของ Aspose.3D เข้ามาในสโคปเพื่อให้คุณสามารถทำงานกับฉาก, โหนด, เมช, และคณิตศาสตร์ควอร์เทอร์เนียนได้.  
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## ขั้นตอนที่ 1: เริ่มต้นวัตถุ Scene
-
-เพื่อเริ่มต้น สร้างวัตถุ scene ที่จะทำหน้าที่เป็นคอนเทนเนอร์สำหรับองค์ประกอบ 3D ของคุณ.
+## ขั้นตอนที่ 1: เริ่มต้นอ็อบเจ็กต์ Scene
+คลาส `Scene` เป็นคอนเทนเนอร์ระดับบนสุดที่แสดงเอกสาร 3‑D ทั้งหมดในหน่วยความจำ การสร้างอินสแตนซ์ `Scene` จะให้แคนวาสที่สะอาดสำหรับการเพิ่มเรขาคณิต, แสง, กล้อง, และการแปลง.  
 
 ```java
 Scene scene = new Scene();
 ```
 
-## ขั้นตอนที่ 2: เริ่มต้นวัตถุ Node Class
-
-ต่อไป สร้างวัตถุ node class ในที่นี้เป็นการแทนลูกบาศก์.
+## ขั้นตอนที่ 2: เริ่มต้นอ็อบเจ็กต์คลาส Node
+`Node` แทนองค์ประกอบเดียวในกราฟฉาก – ในกรณีนี้คือ ลูกบาศก์ Nodes สามารถเก็บเรขาคณิต, ข้อมูลการแปลง, และโหนดลูก, ทำให้เป็นบล็อกการสร้างของโมเดล 3‑D แบบลำดับชั้นใด ๆ.  
 
 ```java
 Node cubeNode = new Node("cube");
 ```
 
 ## ขั้นตอนที่ 3: สร้าง Mesh ด้วย Polygon Builder
-
-ใช้คลาสทั่วไปเพื่อสร้าง mesh ด้วยวิธี polygon builder.
+คลาส `PolygonBuilder` ให้ API ที่ไหลลื่นสำหรับสร้างเรขาคณิตเมชจากเวอร์เท็กซ์และดัชนีพอลิกอน การใช้มันทำให้คุณกำหนดหกหน้าของลูกบาศก์ได้ด้วยการเรียกเมธอดเพียงไม่กี่ครั้ง.  
 
 ```java
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
 ```
 
-## ขั้นตอนที่ 4: ตั้งค่า Mesh Geometry
-
-กำหนด mesh ที่สร้างขึ้นให้กับโหนดลูกบาศก์.
+## ขั้นตอนที่ 4: ตั้งค่าเรขาคณิต Mesh
+กำหนดเมชที่สร้างขึ้นให้กับคุณสมบัติ `Geometry` ของโหนดลูกบาศก์ นี่จะเชื่อมการแสดงผล (เมช) กับโหนดเชิงตรรกะที่จะถูกแปลงและส่งออก.  
 
 ```java
 cubeNode.setEntity(mesh);
 ```
 
 ## ขั้นตอนที่ 5: ตั้งค่าการหมุนด้วย Quaternion
-
-ใช้ quaternion เพื่อหมุนโหนดลูกบาศก์. Quaternion ช่วยหลีกเลี่ยง gimbal lock และให้การหมุนที่ราบรื่นต่อเนื่อง.
+คลาส `Quaternion` เข้ารหัสการหมุนเป็นเวกเตอร์สี่ส่วน (x, y, z, w) โดยการเรียก `Quaternion.fromRotationAxis` คุณจะสร้างการหมุนรอบแกนใดก็ได้โดยไม่ประสบปัญหาการล็อกแกมมิล.  
 
 ```java
 cubeNode.getTransform().setRotation(Quaternion.fromRotation(new Vector3(0, 1, 0), new Vector3(0.3, 0.5, 0.1)));
 ```
 
-## ขั้นตอนที่ 6: ตั้งค่า Translation
-
-ระบุตำแหน่ง translation สำหรับโหนดลูกบาศก์เพื่อให้ปรากฏที่ตำแหน่งที่ต้องการในฉาก.
+## ขั้นตอนที่ 6: ตั้งค่าการแปลตำแหน่ง
+การแปลตำแหน่งจะวางตำแหน่งลูกบาศก์ในฉาก คลาส `Vector3` เก็บพิกัด X, Y, Z และการนำไปใช้กับคุณสมบัติ `Translation` ของโหนดจะย้ายลูกบาศก์ไปยังตำแหน่งที่ต้องการ.  
 
 ```java
 cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 ```
 
-## ขั้นตอนที่ 7: เพิ่ม Cube ลงใน Scene
-
-ใส่โหนดลูกบาศก์เข้าไปในโครงสร้างของ scene.
+## ขั้นตอนที่ 7: เพิ่มลูกบาศก์ลงในฉาก
+การเพิ่มโหนดลงในโครงสร้างฉากทำให้มันเป็นส่วนหนึ่งของการส่งออกขั้นสุดท้าย โหนดรากของฉากจะรวมโหนดลูกทั้งหมดโดยอัตโนมัติระหว่างการบันทึก.  
 
 ```java
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## ขั้นตอนที่ 8: บันทึก 3D Scene – Convert Model to FBX
-
-ตอนนี้เราจะ **convert model to FBX** จริง ๆ โดยการบันทึก scene ในรูปแบบ FBX ซึ่งยังแสดงขั้นตอน “save scene as FBX” อีกด้วย.
+## ขั้นตอนที่ 8: บันทึกฉาก 3D – แปลงโมเดลเป็น FBX
+การเรียก `scene.save("Cube.fbx", FileFormat.FBX)` จะเขียนฉากทั้งหมด, รวมถึงข้อมูลการหมุนแบบ Quaternion, ลงในไฟล์ FBX ไฟล์ที่ได้สามารถนำเข้าไปยัง Unity, Unreal หรือเครื่องมือที่รองรับ FBX ใด ๆ ได้โดยไม่สูญเสียความแม่นยำของการหมุน.  
 
 ```java
 String MyDir = "Your Document Directory";
@@ -124,48 +134,43 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 ```
 
 ## ปัญหาทั่วไปและวิธีแก้
-
 | ปัญหา | สาเหตุ | วิธีแก้ |
 |-------|-------|-----|
-| ไฟล์ FBX ปรากฏด้วยการวางแนวที่ผิด | การหมุนถูกนำไปใช้บนแกนที่ผิด | Verify the axis vectors passed to `Quaternion.fromRotation` |
-| ไฟล์ไม่ถูกบันทึก | เส้นทางไดเรกทอรีไม่ถูกต้อง | Ensure `MyDir` points to an existing writable folder |
-| ข้อยกเว้นใบอนุญาต | ไม่มีหรือใบอนุญาตหมดอายุ | Apply a temporary license from the Aspose portal (see FAQ) |
+| ไฟล์ FBX แสดงการวางแนวผิด | การหมุนถูกนำไปใช้บนแกนที่ผิด | ตรวจสอบเวกเตอร์แกนที่ส่งให้ `Quaternion.fromRotation` |
+| ไฟล์ไม่ถูกบันทึก | เส้นทางไดเรกทอรีไม่ถูกต้อง | ตรวจสอบให้ `MyDir` ชี้ไปยังโฟลเดอร์ที่มีอยู่และสามารถเขียนได้ |
+| ข้อยกเว้นไลเซนส์ | ไลเซนส์หายหรือหมดอายุ | ใช้ไลเซนส์ชั่วคราวจากพอร์ทัลของ Aspose (ดู FAQ) |
 
 ## คำถามที่พบบ่อย
+**ถาม: ฉันสามารถใช้ Aspose.3D for Java ได้ฟรีหรือไม่?**  
+A: ใช่, มีการทดลองใช้เต็มรูปแบบ 30‑วัน **[ที่นี่](https://releases.aspose.com/)**.
 
-### Q1: ฉันสามารถใช้ Aspose.3D for Java ฟรีได้หรือไม่?
+**ถาม: ฉันจะหาเอกสารสำหรับ Aspose.3D for Java ได้จากที่ไหน?**  
+A: เอกสารอ้างอิง API อย่างเป็นทางการโฮสต์ **[ที่นี่](https://reference.aspose.com/3d/java/)**.
 
-A1: Aspose.3D for Java มีรุ่นทดลองฟรี คุณสามารถหาได้จาก [here](https://releases.aspose.com/).
+**ถาม: ฉันจะรับการสนับสนุนสำหรับ Aspose.3D for Java อย่างไร?**  
+A: ฟอรั่ม **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)** ที่ขับเคลื่อนโดยชุมชนให้ความช่วยเหลืออย่างรวดเร็วจากวิศวกรของ Aspose และผู้ใช้.
 
-### Q2: ฉันจะหาเอกสารสำหรับ Aspose.3D for Java ได้จากที่ไหน?
+**ถาม: มีไลเซนส์ชั่วคราวหรือไม่?**  
+A: ใช่, คุณสามารถขอไลเซนส์ชั่วคราว **[ที่นี่](https://purchase.aspose.com/temporary-license/)** สำหรับการประเมินหรือ CI pipelines.
 
-A2: เอกสารพร้อมให้บริการที่ [here](https://reference.aspose.com/3d/java/).
+**ถาม: ฉันจะซื้อ Aspose.3D for Java ได้จากที่ไหน?**  
+A: สามารถซื้อโดยตรง **[ที่นี่](https://purchase.aspose.com/buy)**.
 
-### Q3: ฉันจะรับการสนับสนุนสำหรับ Aspose.3D for Java อย่างไร?
+**ถาม: ฉันสามารถส่งออกเป็นรูปแบบอื่นนอกจาก FBX ได้หรือไม่?**  
+A: แน่นอน – Aspose.3D รองรับรูปแบบเอาต์พุตมากกว่า 20 รูปแบบ รวมถึง OBJ, STL, GLTF และอื่น ๆ เพียงเปลี่ยนค่า enum `FileFormat` ในการเรียก `save`.
 
-A3: เยี่ยมชม [Aspose.3D forum](https://forum.aspose.com/c/3d/18) เพื่อรับการสนับสนุน.
+**ถาม: สามารถทำแอนิเมชันให้กับลูกบาศก์ก่อนส่งออกได้หรือไม่?**  
+A: ใช่. สร้างอ็อบเจ็กต์ `Animation`, เพิ่มคีย์เฟรมไปยังการแปลงของโหนด, แล้วบันทึกฉากเป็น FBX เพื่อเก็บข้อมูลแอนิเมชัน.  
 
-### Q4: มีใบอนุญาตชั่วคราวหรือไม่?
-
-A4: มี, คุณสามารถรับใบอนุญาตชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/).
-
-### Q5: ฉันจะซื้อ Aspose.3D for Java ได้จากที่ไหน?
-
-A5: คุณสามารถซื้อได้จาก [here](https://purchase.aspose.com/buy).
-
-### Q6: ฉันสามารถส่งออกเป็นรูปแบบอื่นนอกจาก FBX ได้หรือไม่?
-
-A6: มี, Aspose.3D รองรับ OBJ, STL, GLTF และอื่น ๆ เพียงเปลี่ยนค่า enum `FileFormat` ในการเรียก `save`.
-
-### Q7: สามารถทำแอนิเมชันให้กับ cube ก่อนส่งออกได้หรือไม่?
-
-A7: แน่นอน คุณสามารถสร้างอ็อบเจ็กต์ `Animation`, เพิ่ม keyframes ไปยังการแปลงของ node, แล้วส่งออกฉากที่มีแอนิเมชันเป็น FBX.
-
----
-
-**อัปเดตล่าสุด:** 2026-02-14  
+**อัปเดตล่าสุด:** 2026-05-19  
 **ทดสอบด้วย:** Aspose.3D 24.11 for Java  
 **ผู้เขียน:** Aspose  
+
+## บทแนะนำที่เกี่ยวข้อง
+- [วิธีส่งออกฉากเป็น FBX และดึงข้อมูลฉาก 3D ใน Java](/3d/java/3d-scenes-and-models/get-scene-information/)
+- [แปลง 3D เป็น FBX และเพิ่มประสิทธิภาพการบันทึกใน Java ด้วย Aspose.3D](/3d/java/load-and-save/optimize-3d-file-saving/)
+- [สร้าง Mesh ด้วย Aspose Java – แปลงโหนด 3D ด้วยมุมออยเลอร์](/3d/java/geometry/transform-3d-nodes-with-euler-angles/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

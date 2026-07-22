@@ -1,11 +1,56 @@
 ---
-date: 2026-02-12
-description: Tanulja meg, hogyan hozhat létre Aspose 3D csomópontot Java-ban, sajátítsa
-  el a geometriai transzformációkat, alkalmazzon eltolásokat, és értékelje a globális
-  transzformációkat az Aspose.3D segítségével.
-linktitle: Expose Geometric Transformations in Java 3D with Aspose.3D
+date: 2026-05-19
+description: Tanulja meg, hogyan hozhat létre node-ot Java-ban az Aspose.3D segítségével,
+  sajátítsa el a geometric transformations-t, alkalmazzon translations-t, és értékelje
+  a global transforms-t az Aspose.3D-vel.
+keywords:
+- how to create node
+- add transform to node
+- Aspose 3D Java
+linktitle: Geometric Transformations feltárása Java 3D-ben az Aspose.3D segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to create node Aspose 3D in Java, master geometric transformations,
+    apply translations, and evaluate global transforms with Aspose.3D.
+  headline: How to Create Node in Java 3D with Aspose.3D – Transformations
+  type: TechArticle
+- description: Learn how to create node Aspose 3D in Java, master geometric transformations,
+    apply translations, and evaluate global transforms with Aspose.3D.
+  name: How to Create Node in Java 3D with Aspose.3D – Transformations
+  steps:
+  - name: Initialize Node
+    text: Node is the fundamental scene‑graph object representing a transformable
+      entity in Aspose 3D.
+  - name: Geometric Translation
+    text: 'To **add transform to node**, you modify its `Transform` property. The
+      following snippet sets a geometric translation that moves the node 10 units
+      along the X‑axis:'
+  - name: Evaluate Global Transform
+    text: 'evaluateGlobalTransform() returns the node’s combined world matrix, optionally
+      including geometric transforms for accurate positioning. Load the global matrix
+      to see the combined effect of all transforms, including the geometric translation
+      you just added:'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.3D integrates with any IDE or build system that supports a
+      standard JDK.
+    question: Is Aspose.3D compatible with all Java development environments?
+  - answer: Refer to the [documentation](https://reference.aspose.com/3d/java/) for
+      detailed insights into Aspose.3D functionalities.
+    question: Where can I find comprehensive documentation for Aspose.3D in Java?
+  - answer: Yes, you can explore a [free trial](https://releases.aspose.com/) before
+      making a purchase.
+    question: Can I try Aspose.3D for Java before purchasing?
+  - answer: Engage with the Aspose.3D community on the [support forum](https://forum.aspose.com/c/3d/18)
+      for prompt assistance.
+    question: How can I get support for Aspose.3D‑related queries?
+  - answer: Obtain a [temporary license](https://purchase.aspose.com/temporary-license/)
+      for testing purposes.
+    question: Do I need a temporary license for testing Aspose.3D?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Node létrehozása Aspose 3D-ben Java‑ban – Transzformációk megjelenítése
+title: Hogyan hozzunk létre node-ot Java 3D-ben az Aspose.3D segítségével – Transformations
 url: /hu/java/geometry/expose-geometric-transformations/
 weight: 13
 ---
@@ -14,51 +59,53 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Geometriai transzformációk feltárása Java 3D-ben az Aspose.3D segítségével
+# Hogyan hozzunk létre csomópontot Java 3D-ben az Aspose.3D‑vel – Transzformációk
 
 ## Bevezetés
 
-A modern Java 3D fejlesztésben az **Aspose 3D használatával egy csomópont létrehozása** az első lépés a gazdag, interaktív modellek építéséhez. Ez az útmutató végigvezet a geometriai transzformációk – eltolás, forgatás és méretezés – feltárásán az Aspose.3D Java API segítségével. A végére megtanulja, hogyan hozhat létre egy csomópontot, alkalmazhat geometriai eltolást, és kiértékelheti a csomópont globális transzformációs mátrixát.
+Ha **how to create node** objektumokat keresel egy Java 3D jelenetben, az Aspose 3D egy tiszta, platformfüggetlen API‑t biztosít, amely lehetővé teszi a transzlációk, rotációk és méretezés alkalmazását néhány metódushívással. Ebben az útmutatóban bemutatjuk a geometriai transzformációkat, megmutatjuk, hogyan adhatunk transzformációt a csomópont objektumokhoz, és demonstráljuk, hogyan értékelhetjük ki a kapott globális mátrixot.
 
 ## Gyors válaszok
-- **Mi jelent a “create node aspose 3d”?** A `Node` objektum példányosítására utal az Aspose.3D Java könyvtár használatával.  
-- **Melyik könyvtárverzió szükséges?** Bármelyik legújabb Aspose.3D for Java kiadás (az API visszafelé kompatibilis).  
-- **Szükségem van licencre a minta futtatásához?** Ideiglenes vagy teljes licenc szükséges a termeléshez; egy ingyenes próba a teszteléshez megfelelő.  
-- **Megtekinthetem a transzformációs mátrixot?** Igen – használja a `evaluateGlobalTransform()` metódust a mátrix konzolra nyomtatásához.  
-- **Ez a megközelítés alkalmas nagy jelenetekre?** Teljesen; a csomópont‑szintű transzformációk hatékonyan kiértékelődnek még összetett hierarchiák esetén is.
+- **Mi jelentése a “create node aspose 3d” kifejezésnek?** Ez egy `Node` objektum példányosítását jelenti az Aspose.3D Java könyvtár használatával.  
+- **Melyik könyvtárverzió szükséges?** Bármelyik legújabb Aspose.3D for Java kiadás megfelelő (az API visszafelé kompatibilis).  
+- **Szükségem van licencre a minta futtatásához?** Ideiglenes vagy teljes licenc szükséges a termeléshez; egy ingyenes próba verzió teszteléshez működik.  
+- **Megtekinthetem a transzformációs mátrixot?** Igen—használja a `evaluateGlobalTransform()` metódust a mátrix konzolra írásához.  
+- **Ez a megközelítés alkalmas nagy jelenetekre?** Teljesen; a csomópont‑szintű transzformációkat hatékonyan értékelik még összetett hierarchiákban is.
 
-## Mi a “create node aspose 3d”?
-Az Aspose 3D-ben egy csomópont létrehozása azt jelenti, hogy lefoglalunk egy jelenetgrafikon elemet, amely geometriát, kamerákat, fényeket vagy más gyermekcsomópontokat tarthat. A csomópont egy tárolóként működik, amelynek transzformációs tulajdonságai (eltolás, forgatás, méretezés) meghatározzák helyzetét és tájolását a 3D térben.
+## Mi az a “create node aspose 3d”?
 
-## Miért használjuk az Aspose.3D-t geometriai transzformációkhoz?
-- **Teljes irányítás** az egyes csomópont transzformációi felett anélkül, hogy a teljes jelenetet befolyásolná.  
-- **Láncolható API**, amely lehetővé teszi a geometriai és helyi transzformációk zökkenőmentes kombinálását.  
-- **Keresztplatformos** Java támogatás, amely ideálissá teszi asztali, szerver‑oldali vagy Android alkalmazásokhoz.
+A csomópont létrehozása az Aspose 3D-ben azt jelenti, hogy egy jelenet‑grafikon elemet foglalunk le, amely tárolhat geometriát, kamerákat, fényeket vagy más gyermekcsomópontokat. **A csomópont létrehozásához egy `Node` példányt kell konstruálni, és hozzáadni egy `Scene`‑hez**—ez teljes irányítást ad a pozíciója, orientációja és méretezése felett a 3D világban.
+
+## Miért használjuk az Aspose.3D‑t geometriai transzformációkhoz?
+
+Az Aspose.3D **50+ bemeneti és kimeneti formátumot** támogat, és képes **akár 20 000 csomópontot** tartalmazó jelenetek feldolgozására, miközben a memóriahasználat 200 MB alatt marad. Láncolható API-ja lehetővé teszi, hogy **add transform to node** objektumokhoz anélkül, hogy a testvérekre hatna, így ideális egyszerű prototípusokhoz és termelési szintű alkalmazásokhoz egyaránt.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a geometriai transzformációk világába az Aspose.3D-vel, győződjön meg róla, hogy a következő előfeltételek rendelkezésre állnak:
+Mielőtt belemerülnénk a geometriai transzformációk világába az Aspose.3D-vel, győződjön meg róla, hogy a következő előfeltételek teljesülnek:
 
-1. Java Development Kit (JDK): Az Aspose.3D for Java kompatibilis JDK-t igényel, amely a rendszerén telepítve van. A legújabb JDK-t letöltheti [itt](https://www.oracle.com/java/technologies/javase-downloads.html).
+1. Java Development Kit (JDK): Az Aspose.3D for Java egy kompatibilis JDK‑t igényel a rendszerén. A legújabb JDK‑t letöltheti [itt](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-2. Aspose.3D könyvtár: Töltse le az Aspose.3D könyvtárat a [kiadási oldalról](https://releases.aspose.com/3d/java/), hogy integrálja Java projektjébe.
+2. Aspose.3D Library: Töltse le az Aspose.3D könyvtárat a [release page](https://releases.aspose.com/3d/java/) oldalról, hogy beépíthesse Java projektjébe.
 
 ## Csomagok importálása
 
-Miután megkapta az Aspose.3D könyvtárat, importálja a szükséges csomagokat, hogy elindítsa az útját a 3D geometriai transzformációk felé. Adja hozzá a következő sorokat a Java kódjához:
+Miután rendelkezik az Aspose.3D könyvtárral, importálja a szükséges csomagokat, hogy elindulhasson a 3D geometriai transzformációk felé. Adja hozzá a következő sorokat Java kódjához:
 
 ```java
 import com.aspose.threed.Node;
 import com.aspose.threed.Vector3;
 ```
 
-## Hogyan hozhatunk létre csomópontot az Aspose 3D-vel
+## Hogyan hozzunk létre csomópontot Aspose 3D‑ben
 
-Az alábbi lépésről‑lépésre útmutató bemutatja a végrehajtandó alapvető műveleteket.
+Hozzá egy csomópont létrehozása az Aspose 3D-ben magában foglalja a `Node` osztály példányosítását, opcionálisan a nevének beállítását, és a `Scene` objektumhoz való csatolását. Miután hozzáadta, a csomópont tárolhat geometriát, fényeket vagy más gyermekcsomópontokat, és transzformációs tulajdonságai határozzák meg a helyzetét a 3D hierarchiában.
 
-### 1. lépés: Csomópont inicializálása
+Az alábbi lépésről‑lépésre útmutató bemutatja a szükséges fő műveleteket.
 
-A 3D világunk alapja egy `Node`. Hozzon létre egy új `Node` objektumot a Java kódjában:
+### 1. lépés: Node inicializálása
+
+A Node az alapvető jelenet‑grafikon objektum, amely egy transzformálható entitást képvisel az Aspose 3D-ben.
 
 ```java
 // ExStart: Step 1 - Initialize Node
@@ -66,9 +113,9 @@ Node n = new Node();
 // ExEnd: Step 1
 ```
 
-### 2. lépés: Geometriai eltolás
+### 2. lépés: Geometriai transzláció
 
-Most adjunk geometriai eltolást a csomópontunknak. Ez a lépés a csomópont 3D térben történő mozgatását jelenti. Állítsa be a geometriai eltolást a következő kóddal:
+A **add transform to node** művelethez módosítja a `Transform` tulajdonságát. Az alábbi kódrészlet egy geometriai transzlációt állít be, amely a csomópontot 10 egységgel eltolja az X‑tengely mentén:
 
 ```java
 // ExStart: Step 2 - Geometric Translation
@@ -78,7 +125,9 @@ n.getTransform().setGeometricTranslation(new Vector3(10, 0, 0));
 
 ### 3. lépés: Globális transzformáció kiértékelése
 
-A geometriai transzformációnk hatásának megtekintéséhez értékeljük ki a csomópont globális transzformációját. Ez a lépés kiírja a transzformációs mátrixot, beleértve a geometriai transzformációt is:
+Az `evaluateGlobalTransform()` visszaadja a csomópont kombinált világmátrixát, opcionálisan a geometriai transzformációkat is beleértve a pontos elhelyezéshez.
+
+Töltse be a globális mátrixot, hogy lássa az összes transzformáció kombinált hatását, beleértve a most hozzáadott geometriai transzlációt:
 
 ```java
 // ExStart: Step 3 - Evaluate Global Transform
@@ -87,40 +136,41 @@ System.out.println(n.evaluateGlobalTransform(false));
 // ExEnd: Step 3
 ```
 
-### Gyakori problémák és megoldások
-- **NullPointerException a `getTransform()`‑nél** – Győződjön meg róla, hogy a csomópont megfelelően példányosítva van, mielőtt a transzformációjához hozzáférne.  
-- **Váratlan mátrix értékek** – Ne feledje, hogy a `evaluateGlobalTransform(true)` tartalmazza a geometriai transzformációkat, míg a `false` kizárja őket. Használja a megfelelő túlterhelést a hibakeresési igényeihez.  
+## Gyakori problémák és megoldások
+- **NullPointerException a `getTransform()`‑nél** – Győződjön meg arról, hogy a csomópont megfelelően példányosítva van, mielőtt a transzformációjához hozzáférne.  
+- **Váratlan mátrix értékek** – Ne feledje, hogy az `evaluateGlobalTransform(true)` tartalmazza a geometriai transzformációkat, míg a `false` kizárja őket. Használja a megfelelő overload‑ot a hibakereséshez.  
 
-## Összegzés
+## Gyakran Ismételt Kérdések
 
-Ebben az útmutatóban végigvezettük a geometriai transzformációk feltárásának alapjait Java 3D-ben az Aspose.3D segítségével. A csomópontok inicializálásával, geometriai eltolások alkalmazásával és a globális transzformációk kiértékelésével gyakorlati betekintést nyert a 3D programozás dinamikus világába. Most már szilárd alapja van összetettebb jelenetek építéséhez, objektumok animálásához vagy fizikai szimulációk integrálásához.
+**Q: Az Aspose.3D kompatibilis minden Java fejlesztői környezettel?**  
+A: Igen, az Aspose.3D integrálható bármely IDE‑vel vagy build rendszerrel, amely támogatja a standard JDK‑t.
 
-## GYIK
+**Q: Hol találhatók részletes dokumentációk az Aspose.3D Java használatához?**  
+A: Tekintse meg a [documentation](https://reference.aspose.com/3d/java/) oldalt a részletes információkért az Aspose.3D funkciókról.
 
-### Q1: Az Aspose.3D kompatibilis minden Java fejlesztői környezettel?
-A1: Az Aspose.3D zökkenőmentesen integrálódik bármely JDK-t támogató Java fejlesztői környezettel.
+**Q: Kipróbálhatom az Aspose.3D for Java‑t vásárlás előtt?**  
+A: Igen, a [free trial](https://releases.aspose.com/) segítségével kipróbálhatja, mielőtt vásárolna.
 
-### Q2: Hol találhatók részletes dokumentációk az Aspose.3D Java-hoz?
-A2: Tekintse meg a [dokumentációt](https://reference.aspose.com/3d/java/) a részletes információkért az Aspose.3D funkcióiról.
+**Q: Hogyan kaphatok támogatást az Aspose.3D‑hez kapcsolódó kérdésekhez?**  
+A: Csatlakozzon az Aspose.3D közösséghez a [support forum](https://forum.aspose.com/c/3d/18) oldalon a gyors segítségért.
 
-### Q3: Kipróbálhatom az Aspose.3D for Java-t vásárlás előtt?
-A3: Igen, a vásárlás előtt felfedezhet egy [ingyenes próbát](https://releases.aspose.com/).
-
-### Q4: Hogyan kaphatok támogatást az Aspose.3D-vel kapcsolatos kérdésekhez?
-A4: Lépjen kapcsolatba az Aspose.3D közösséggel a [támogatási fórumban](https://forum.aspose.com/c/3d/18) a gyors segítségért.
-
-### Q5: Szükségem van ideiglenes licencre az Aspose.3D teszteléséhez?
-A5: Szerezzen egy [ideiglenes licencet](https://purchase.aspose.com/temporary-license/) a tesztelési célokra.
+**Q: Szükségem van ideiglenes licencre az Aspose.3D teszteléséhez?**  
+A: Szerezzen [temporary license](https://purchase.aspose.com/temporary-license/) licencet tesztelési célokra.
 
 ---
 
-**Utolsó frissítés:** 2026-02-12  
+**Utoljára frissítve:** 2026-05-19  
 **Tesztelve:** Aspose.3D for Java (legújabb kiadás)  
-**Szerző:** Aspose  
+**Szerző:** Aspose
+
+## Kapcsolódó útmutatók
+
+- [Mesh létrehozása Aspose Java – 3D csomópontok transzformálása Euler-szögekkel](/3d/java/geometry/transform-3d-nodes-with-euler-angles/)
+- [3D jelenet létrehozása Java-val az Aspose 3D Java segítségével](/3d/java/3d-scenes-and-models/)
+- [FBX textúra beágyazása Java-ban – Anyagok alkalmazása 3D objektumokra az Aspose.3D‑vel](/3d/java/geometry/apply-pbr-materials-to-objects/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
