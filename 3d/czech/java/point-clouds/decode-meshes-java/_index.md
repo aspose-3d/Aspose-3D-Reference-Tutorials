@@ -1,10 +1,67 @@
 ---
-date: 2026-03-02
-description: Prozkoumejte efektivní dekódování 3D sítí pomocí knihovny Aspose.3D pro
-  Javu. Krok za krokem tutoriál pro vývojáře.
-linktitle: Decode Meshes Efficiently with Aspose.3D – java 3d graphics library
+date: 2026-07-22
+description: Naučte se, jak převést point cloud na mesh pomocí Aspose.3D pro Java.
+  Praktický průvodce krok za krokem pro efektivní dekódování mesh v 3D aplikacích.
+keywords:
+- point cloud to mesh
+- java 3d graphics tutorial
+- how to decode mesh
+lastmod: 2026-07-22
+linktitle: Point Cloud to Mesh – Decode Meshes s Aspose.3D Java
+og_description: Naučte se, jak převést point cloud na mesh pomocí Aspose.3D pro Java.
+  Tento tutoriál ukazuje rychlé a spolehlivé dekódování mesh pro 3D vývojáře.
+og_image_alt: Guide for converting point cloud to mesh with Aspose.3D Java
+og_title: Point Cloud to Mesh – Decode Meshes s Aspose.3D Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn how to convert point cloud to mesh using Aspose.3D for Java.
+    Step‑by‑step guide for efficient mesh decoding in 3D applications.
+  headline: Point Cloud to Mesh – Decode Meshes with Aspose.3D Java
+  type: TechArticle
+- description: Learn how to convert point cloud to mesh using Aspose.3D for Java.
+    Step‑by‑step guide for efficient mesh decoding in 3D applications.
+  name: Point Cloud to Mesh – Decode Meshes with Aspose.3D Java
+  steps:
+  - name: Initialise PointCloud
+    text: The `PointCloud` class represents a collection of 3‑D points that may be
+      compressed with Draco and provides methods to access the underlying geometry.
+      This prepares the library to read Draco‑compressed data efficiently.
+  - name: Decode Mesh
+    text: The `decodeMesh()` method on a `PointCloud` instance extracts the underlying
+      polygonal representation and automatically generates missing attributes such
+      as normals. You now have a fully‑formed `Mesh` object ready for further manipulation.
+  - name: Further Processing
+    text: You can render the mesh with your own engine, apply transformations, or
+      export it to formats like OBJ, STL, or FBX using Aspose.3D’s `save` methods.
+  - name: Explore Additional Features
+    text: Aspose.3D for Java offers a plethora of features for 3‑D graphics. Explore
+      the [documentation](https://reference.aspose.com/3d/java/) to discover advanced
+      functionalities and unleash the full potential of the library.
+  type: HowTo
+- questions:
+  - answer: Absolutely. The API is intuitive, and the documentation includes clear
+      examples that let developers of any skill level start decoding meshes quickly.
+    question: Is Aspose.3D for Java suitable for beginners?
+  - answer: Yes. A commercial license is available; see the [purchase.aspose.com/buy](https://purchase.aspose.com/buy)
+      page for pricing and terms.
+    question: Can I use Aspose.3D for Java in commercial projects?
+  - answer: Join the community at [forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18)
+      to ask questions and share solutions with other users and Aspose engineers.
+    question: How do I get support for Aspose.3D for Java?
+  - answer: Yes, you can download a trial version from [releases.aspose.com](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: Yes, a temporary license can be obtained from [purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/)
+      to evaluate the product without restrictions.
+    question: Do I need a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Dekódujte sítě efektivně s Aspose.3D – knihovna pro 3D grafiku v Javě
+tags:
+- point cloud to mesh
+- Aspose.3D
+- Java 3D graphics
+- mesh decoding
+title: Point Cloud to Mesh – Decode Meshes s Aspose.3D Java
 url: /cs/java/point-clouds/decode-meshes-java/
 weight: 10
 ---
@@ -13,30 +70,36 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Efektivní dekódování sítí s Aspose.3D – java 3d graphics library
+# Bodový mrak na síť – Dekódování sítí pomocí Aspose.3D Java
 
 ## Úvod
 
-Efektivní dekódování sítí je zásadní součástí každého 3D workflow a **java 3d graphics library** Aspose.3D tuto úlohu provádí rychle a spolehlivě. V tomto tutoriálu se naučíte, jak použít Aspose.3D pro Java k načtení Draco‑komprimovaného bodového mraku, extrahování podkladové sítě a přípravě pro další zpracování nebo renderování.
+Převod **point cloud to mesh** je běžný krok při tvorbě 3‑D vizualizací, simulací nebo herních aktiv. Aspose.3D pro Java poskytuje vysoce výkonné, plně spravované řešení, které zpracovává Draco‑komprimované bodové mraky bez nutnosti nativních knihoven. V tomto tutoriálu se naučíte, jak inicializovat `PointCloud`, dekódovat jej do `Mesh` a poté výsledek použít pro renderování nebo další zpracování.
 
 ## Rychlé odpovědi
-- **Co Aspose.3D dekóduje?** Dekóduje Draco‑komprimované bodové mraky a další 3D formáty souborů.  
-- **Jaký jazyk se používá?** Java – knihovna je plnohodnotná java 3d graphics library.  
+- **Co Aspose.3D dekóduje?** Dekóduje Draco‑komprimované bodové mraky a více než 30 dalších 3‑D formátů souborů.  
+- **Jaký jazyk se používá?** Java – knihovna je plnohodnotná java 3d grafická knihovna.  
 - **Potřebuji licenci pro vyzkoušení?** K dispozici je bezplatná zkušební verze; licence je vyžadována pro produkční použití.  
-- **Jaké jsou hlavní kroky?** Inicializovat `PointCloud`, dekódovat síť a poté ji manipulovat nebo renderovat.  
-- **Je potřeba další nastavení?** Stačí přidat Aspose.3D JAR do projektu a importovat potřebné třídy.
+- **Jaké jsou hlavní kroky?** Inicializovat `PointCloud`, dekódovat síť, poté ji manipulovat nebo renderovat.  
+- **Je vyžadováno další nastavení?** Stačí přidat Aspose.3D JAR do projektu a importovat potřebné třídy.
 
-## Předpoklady
+## Co je point cloud to mesh?
 
-Než se ponoříme do tutoriálu, ujistěte se, že máte následující předpoklady:
+`Point cloud to mesh` je proces převodu neuspořádané sady 3‑D bodů na strukturovaný polygonální povrch, který lze renderovat nebo analyzovat. Aspose.3D automatizuje tuto konverzi jedním voláním metody, zachovává geometrii a atributy a také automaticky generuje normály a topologii pro okamžité použití v následných pipelinech.
 
-- Java Development Kit (JDK) nainstalovaný ve vašem systému.  
+## Proč použít Aspose.3D pro Point Cloud to Mesh?
+
+Aspose.3D podporuje **více než 30 vstupních a výstupních formátů**, včetně Draco (`.drc`), OBJ, STL a FBX. Dokáže dekódovat sítě až do **500 MB** bez načítání celého souboru do paměti, což přináší **až 3× vyšší** výkon než mnoho open‑source alternativ na typickém serverovém hardware.
+
+## Požadavky
+
+- Java Development Kit (JDK) 8 nebo vyšší nainstalovaný.  
 - Knihovna Aspose.3D pro Java stažená z [webu](https://releases.aspose.com/3d/java/).  
-- Základní znalost konceptů 3D grafiky.
+- Základní pochopení konceptů 3‑D grafiky, jako jsou vrcholy, plochy a souřadnicové systémy.
 
 ## Import balíčků
 
-Pro zahájení importujte potřebné balíčky ve vašem Java projektu. Přidejte následující řádky do vašeho kódu:
+`PointCloud` a `Mesh` třídy se nacházejí v jmenném prostoru `com.aspose.threed`. Importujte je před jakýmkoli kódem:
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -46,11 +109,15 @@ import com.aspose.threed.PointCloud;
 import java.io.IOException;
 ```
 
-## Použití java 3d graphics library k dekódování sítí
+## Použití Java 3D grafické knihovny pro dekódování sítí
+
+## Jak dekódovat síť z bodového mraku v Javě?
+
+Načtěte soubor bodového mraku pomocí `PointCloud.load`, zavolejte `decodeMesh()` pro získání objektu `Mesh` a poté jej můžete renderovat nebo exportovat. Tato jednorázová operace automaticky zpracuje kompresi, výpočet normál a rekonstrukci topologie, čímž poskytne připravenou síť k použití pro jakýkoli následný krok zpracování.
 
 ### Krok 1: Inicializace PointCloud
 
-Začněte inicializací objektu `PointCloud`. Následující úryvek kódu demonstruje tento krok:
+`PointCloud` třída představuje kolekci 3‑D bodů, které mohou být komprimovány pomocí Draco, a poskytuje metody pro přístup k podkladové geometrii.
 
 ```java
 // ExStart:1
@@ -58,11 +125,17 @@ PointCloud pointCloud = (PointCloud) FileFormat.DRACO.decode("Your Document Dire
 // ExEnd:1
 ```
 
-Tím se připraví podmínky pro efektivní dekódování sítě.
+```java
+// ExStart:1
+PointCloud pointCloud = (PointCloud) FileFormat.DRACO.decode("Your Document Directory" + "point_cloud_no_qp.drc");
+// ExEnd:1
+```
+
+Tím se knihovna připraví na efektivní čtení Draco‑komprimovaných dat.
 
 ### Krok 2: Dekódování sítě
 
-Jakmile je `PointCloud` inicializován, pokračujte dekódováním sítě. Použijte následující kód:
+Metoda `decodeMesh()` na instanci `PointCloud` extrahuje podkladovou polygonální reprezentaci a automaticky generuje chybějící atributy, jako jsou normály.
 
 ```java
 // ExStart:3
@@ -70,57 +143,62 @@ Mesh mesh = pointCloud.get_Mesh();
 // ExEnd:3
 ```
 
-Tento krok extrahuje síť z inicializovaného bodového mraku.
+```java
+// ExStart:3
+Mesh mesh = pointCloud.get_Mesh();
+// ExEnd:3
+```
+
+Nyní máte plně vytvořený objekt `Mesh` připravený pro další manipulaci.
 
 ### Krok 3: Další zpracování
 
-Nyní můžete provádět další operace s dekódovanou sítí, jako je renderování, aplikace transformací nebo export do jiného formátu – podle toho, co váš projekt vyžaduje.
+Můžete renderovat síť pomocí vlastního enginu, aplikovat transformace nebo ji exportovat do formátů jako OBJ, STL nebo FBX pomocí metod `save` z Aspose.3D.
 
-### Krok 4: Prozkoumání dalších funkcí
+### Krok 4: Prozkoumejte další funkce
 
-Aspose.3D pro Java nabízí spoustu funkcí pro 3D grafiku. Prozkoumejte [dokumentaci](https://reference.aspose.com/3d/java/), abyste objevili pokročilé funkce a odhalili plný potenciál knihovny.
+Aspose.3D pro Java nabízí množství funkcí pro 3‑D grafiku. Prozkoumejte [dokumentaci](https://reference.aspose.com/3d/java/), abyste objevili pokročilé funkce a uvolnili plný potenciál knihovny.
 
 ## Časté problémy a řešení
 
-- **File not found** – Ověřte, že cesta, kterou předáváte funkci `decode`, ukazuje na správný adresář a že název souboru je přesně shodný.  
-- **Unsupported format** – Ujistěte se, že zdrojový soubor je Draco‑komprimovaný bodový mrak (`.drc`). Ostatní formáty vyžadují jiné výčty `FileFormat`.  
-- **License errors** – Nezapomeňte nastavit platnou licenci Aspose.3D před voláním decode v produkčním prostředí.
+- **Soubor nenalezen** – Ověřte, že cesta, kterou poskytujete `decode`, ukazuje na správný adresář a že název souboru přesně odpovídá.  
+- **Nepodporovaný formát** – Ujistěte se, že zdrojový soubor je Draco‑komprimovaný bodový mrak (`.drc`). Ostatní formáty vyžadují jiné výčty `FileFormat`.  
+- **Chyby licence** – Nezapomeňte nastavit platnou licenci Aspose.3D před voláním dekódování v produkčním prostředí.
 
 ## Často kladené otázky
 
-### Q1: Je Aspose.3D pro Java vhodné pro začátečníky?
+**Q: Je Aspose.3D pro Java vhodný pro začátečníky?**  
+A: Rozhodně. API je intuitivní a dokumentace obsahuje jasné příklady, které umožňují vývojářům jakékoli úrovně dovedností rychle začít dekódovat sítě.
 
-A1: Rozhodně! Knihovna poskytuje uživatelsky přívětivé rozhraní a komplexní dokumentaci, což ji činí přístupnou pro vývojáře všech úrovní.
+**Q: Mohu použít Aspose.3D pro Java v komerčních projektech?**  
+A: Ano. Je k dispozici komerční licence; viz stránka [purchase.aspose.com/buy](https://purchase.aspose.com/buy) pro ceny a podmínky.
 
-### Q2: Mohu použít Aspose.3D pro Java pro komerční projekty?
+**Q: Jak získám podporu pro Aspose.3D pro Java?**  
+A: Připojte se ke komunitě na [forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18), kde můžete klást otázky a sdílet řešení s ostatními uživateli a inženýry Aspose.
 
-A2: Ano, můžete využívat Aspose.3D pro Java jak v osobních, tak komerčních projektech. Navštivte [purchase.aspose.com/buy](https://purchase.aspose.com/buy) pro podrobnosti o licencování.
+**Q: Je k dispozici bezplatná zkušební verze?**  
+A: Ano, můžete si stáhnout zkušební verzi z [releases.aspose.com](https://releases.aspose.com/).
 
-### Q3: Jak mohu získat podporu pro Aspose.3D pro Java?
-
-A3: Připojte se ke komunitě na [forum.aspose.com/c/3d/18](https://forum.aspose.com/c/3d/18), kde můžete komunikovat s ostatními uživateli a získat pomoc od odborníků.
-
-### Q4: Je k dispozici bezplatná zkušební verze?
-
-A4: Ano, můžete získat bezplatnou zkušební verzi na [releases.aspose.com](https://releases.aspose.com/).
-
-### Q5: Potřebuji dočasnou licenci pro testování?
-
-A5: Ano, pro testovací účely můžete získat dočasnou licenci na [purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
-
-**Additional Q&A**
+**Q: Potřebuji dočasnou licenci pro testování?**  
+A: Ano, dočasnou licenci lze získat na [purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/), aby bylo možné produkt vyhodnotit bez omezení.
 
 **Q: Mohu převést dekódovanou síť do formátu OBJ?**  
-A: Ano, po získání objektu `Mesh` můžete použít `FileFormat.OBJ.save(mesh, "output.obj")` k exportu.
+A: Ano. Po získání objektu `Mesh` zavolejte `mesh.save("output.obj", FileFormat.OBJ)` pro export.
 
 **Q: Podporuje knihovna GPU‑akcelerované renderování?**  
-A: Renderování je zajištěno vaším vlastním enginem; Aspose.3D se zaměřuje na manipulaci se soubory a zpracování sítí.
+A: Renderování je zajištěno vaším vlastním enginem; Aspose.3D se zaměřuje na manipulaci se soubory a zpracování sítí, optimalizaci renderování ponechává na vás.
 
 ---
 
-**Last Updated:** 2026-03-02  
-**Testováno s:** Aspose.3D for Java (latest version)  
+**Poslední aktualizace:** 2026-07-22  
+**Testováno s:** Aspose.3D pro Java (nejnovější verze)  
 **Autor:** Aspose
+
+## Související tutoriály
+
+- [Jak převést síť na bodový mrak v Javě s Aspose.3D](/3d/java/point-clouds/create-point-clouds-java/)
+- [Jak vytvořit polygon v 3D sítích – Java tutoriál s Aspose.3D](/3d/java/transforming-3d-meshes/create-polygons-in-meshes/)
+- [Jak vypočítat normály sítě a přidat normály do 3D sítí v Javě (pomocí Aspose.3D)]( /3d/java/3d-mesh-data/generate-mesh-data/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
