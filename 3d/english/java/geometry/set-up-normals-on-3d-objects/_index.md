@@ -108,29 +108,61 @@ The `Vector4` class represents a 4‑component vector (X, Y, Z, W).
 ```java
 import com.aspose.threed.*;
 
-import java.util.Arrays;
-```
+import java.util.Arrays;```java
+Mesh mesh = new Mesh();
+mesh.addControlPoint(-1, -1, 1);
+mesh.addControlPoint(1, -1, 1);
+mesh.addControlPoint(-1, 1, 1);
+mesh.addControlPoint(1, 1, 1);
+mesh.addControlPoint(-1, -1, -1);
+mesh.addControlPoint(1, -1, -1);
+mesh.addControlPoint(-1, 1, -1);
+mesh.addControlPoint(1, 1, -1);
 
-### Step 2: Create the Mesh
+mesh.createPolygon(0, 2, 3, 1);
+mesh.createPolygon(4, 5, 7, 6);
+mesh.createPolygon(0, 1, 5, 4);
+mesh.createPolygon(2, 6, 7, 3);
+mesh.createPolygon(0, 4, 6, 2);
+mesh.createPolygon(1, 3, 7, 5);
 
-`Mesh` is the top‑level container that holds vertices, faces, and attribute elements such as normals or texture coordinates.  
-`Common.createMeshUsingPolygonBuilder()` is a helper that builds a simple cube for demonstration purposes.
-
-```java
-Vector4[] normals = new Vector4[]
+FVector4[] normals = new FVector4[]
 {
-    new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
-    // ... (Repeat for other vertices)
+    new FVector4(-0.577350258f,-0.577350258f, 0.577350258f, 1.0f),
+    new FVector4(0.577350258f,-0.577350258f, 0.577350258f, 1.0f),
+    new FVector4(-0.577350258f, 0.577350258f, 0.577350258f, 1.0f),
+    new FVector4(0.577350258f, 0.577350258f, 0.577350258f, 1.0f),
+    new FVector4(-0.577350258f,-0.577350258f,-0.577350258f, 1.0f),
+    new FVector4(0.577350258f,-0.577350258f,-0.577350258f, 1.0f),
+    new FVector4(-0.577350258f, 0.577350258f,-0.577350258f, 1.0f),
+    new FVector4(0.577350258f, 0.577350258f,-0.577350258f, 1.0f),
 };
-```
 
-### Step 3: Attach the Normal Vectors
-
-`VertexElement` describes a specific type of per‑vertex data (e.g., POSITION, NORMAL, TEXCOORD).  
+VertexElementNormal elementNormal = (VertexElementNormal)mesh.createElement(VertexElementType.NORMAL, MappingMode.CONTROL_POINT, ReferenceMode.DIRECT);
+elementNormal.setData(normals);
+````VertexElement` describes a specific type of per‑vertex data (e.g., POSITION, NORMAL, TEXCOORD).  
 Here we create a `NORMAL` element, map it to the mesh’s control points, and fill it with the raw normal array.
 
 ```java
-Mesh mesh = Common.createMeshUsingPolygonBuilder();
+Mesh mesh = new Mesh();
+mesh.addControlPoint(-1, -1, 1);
+mesh.addControlPoint(1, -1, 1);
+mesh.addControlPoint(-1, 1, 1);
+mesh.addControlPoint(1, 1, 1);
+mesh.addControlPoint(-1, -1, -1);
+mesh.addControlPoint(1, -1, -1);
+mesh.addControlPoint(-1, 1, -1);
+mesh.addControlPoint(1, 1, -1);
+
+mesh.createPolygon(0, 2, 3, 1);
+mesh.createPolygon(4, 5, 7, 6);
+mesh.createPolygon(0, 1, 5, 4);
+mesh.createPolygon(2, 6, 7, 3);
+mesh.createPolygon(0, 4, 6, 2);
+mesh.createPolygon(1, 3, 7, 5);
+
+VertexElementNormal elementNormal = (VertexElementNormal)mesh.createElement(VertexElementType.NORMAL, MappingMode.CONTROL_POINT, ReferenceMode.DIRECT);
+elementNormal.setData(normals);
 ```
 
 ### Step 4: Verify the Setup

@@ -100,7 +100,23 @@ Node cubeNode = new Node("cube");
 The `PolygonBuilder` class provides a fluent API for constructing mesh geometry from vertices and polygon indices. Using it lets you define a cube’s six faces with just a handful of method calls.
 
 ```java
-Mesh mesh = Common.createMeshUsingPolygonBuilder();
+// Create mesh manually with vertices and polygons
+Mesh mesh = new Mesh();
+mesh.addControlPoint(-1, 1, 1);
+mesh.addControlPoint(1, 1, 1);
+mesh.addControlPoint(1, -1, 1);
+mesh.addControlPoint(-1, -1, 1);
+mesh.addControlPoint(-1, 1, -1);
+mesh.addControlPoint(1, 1, -1);
+mesh.addControlPoint(1, -1, -1);
+mesh.addControlPoint(-1, -1, -1);
+
+mesh.createPolygon(0, 1, 2, 3);
+mesh.createPolygon(4, 6, 7, 5);
+mesh.createPolygon(0, 3, 7, 4);
+mesh.createPolygon(1, 5, 6, 2);
+mesh.createPolygon(0, 4, 5, 1);
+mesh.createPolygon(3, 2, 6, 7);
 ```
 
 ## Step 4: Set Mesh Geometry

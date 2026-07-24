@@ -106,8 +106,23 @@ Vector3[] colors = new Vector3[] {
 The `PolygonBuilder` class lets you construct a mesh by defining vertices and faces manually. This mesh will be reused across all nodes, demonstrating how geometry sharing works in practice.
 
 ```java
-// Call Common class create mesh using polygon builder method to set mesh instance
-Mesh mesh = Common.createMeshUsingPolygonBuilder();
+// Create mesh manually with vertices and polygons
+Mesh mesh = new Mesh();
+mesh.addControlPoint(-1, 1, 1);
+mesh.addControlPoint(1, 1, 1);
+mesh.addControlPoint(1, -1, 1);
+mesh.addControlPoint(-1, -1, 1);
+mesh.addControlPoint(-1, 1, -1);
+mesh.addControlPoint(1, 1, -1);
+mesh.addControlPoint(1, -1, -1);
+mesh.addControlPoint(-1, -1, -1);
+
+mesh.createPolygon(0, 1, 2, 3);
+mesh.createPolygon(4, 6, 7, 5);
+mesh.createPolygon(0, 3, 7, 4);
+mesh.createPolygon(1, 5, 6, 2);
+mesh.createPolygon(0, 4, 5, 1);
+mesh.createPolygon(3, 2, 6, 7);
 ```
 
 ## How to set material color for each node?
