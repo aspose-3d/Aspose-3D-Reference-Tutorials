@@ -1,10 +1,77 @@
 ---
-date: 2026-03-31
-description: Học cách chuyển đổi 3D sang OBJ bằng cách thêm một hình cầu vào cảnh,
-  chỉnh sửa bán kính của nó và xuất tệp OBJ trong Java sử dụng Aspose.3D.
-linktitle: 'Convert 3D to OBJ: Add Sphere & Modify Radius in Java'
+date: 2026-07-27
+description: Tìm hiểu cách sửa đổi bán kính hình cầu trong Java và xuất tệp OBJ bằng
+  Java sử dụng Aspose.3D, thư viện Java 3D hàng đầu để chuyển đổi 3D sang OBJ.
+keywords:
+- modify sphere radius java
+- export obj file java
+- aspose 3d java
+lastmod: 2026-07-27
+linktitle: 'Sửa Đổi Bán Kính Hình Cầu Java: Chuyển Đổi 3D sang OBJ với Aspose.3D'
+og_description: Sửa đổi bán kính hình cầu Java và xuất tệp OBJ bằng Java sử dụng Aspose.3D.
+  Hướng dẫn này trình bày chi tiết các bước để thêm một hình cầu, thay đổi kích thước
+  và lưu dưới dạng OBJ.
+og_image_alt: 'Guide: modify sphere radius Java and export OBJ using Aspose.3D'
+og_title: Sửa Đổi Bán Kính Hình Cầu Java – Chuyển Đổi 3D sang OBJ với Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to modify sphere radius Java and export OBJ file Java using
+    Aspose.3D, the leading Java 3D library for converting 3D to OBJ.
+  headline: 'Modify Sphere Radius Java: Convert 3D to OBJ with Aspose.3D'
+  type: TechArticle
+- description: Learn how to modify sphere radius Java and export OBJ file Java using
+    Aspose.3D, the leading Java 3D library for converting 3D to OBJ.
+  name: 'Modify Sphere Radius Java: Convert 3D to OBJ with Aspose.3D'
+  steps:
+  - name: Initialize a Scene
+    text: '**Definition anchor:** The `Scene` class is Aspose.3D''s top‑level container
+      that holds geometry, lights, and cameras for a 3D model. Creating a `Scene`
+      gives you a workspace where you can add and manipulate objects. Creating a `Scene`
+      gives you a container for all geometry, lights, and cameras. This'
+  - name: Initialize a Sphere
+    text: '**Definition anchor:** The `Sphere` class represents a geometric sphere
+      primitive with a configurable radius, center, and material. By default it starts
+      with a radius of 1.0. A `Sphere` object starts with a default radius of 1.0.
+      Think of it as a blank canvas for the shape you want to export.'
+  - name: Set the Desired Radius
+    text: The `setRadius(double)` method updates the sphere’s size by assigning a
+      new radius value in the same units used by the scene. Here we **write obj file
+      java**‑style code that sets the exact radius. Replace `10` with any `double`
+      value that matches your design requirements.
+  - name: Add Sphere to the Scene
+    text: This line **adds sphere to scene** by creating a child node under the root
+      node. It’s the moment the geometry becomes part of the scene graph.
+  - name: Export the Model as OBJ
+    text: The `save(String, FileFormat)` method writes the entire scene to the specified
+      file using the chosen format, such as OBJ. Calling `scene.save` **exports obj
+      file java**‑style, effectively **save scene as obj**. The generated `sphere.obj`
+      can be opened in any standard 3D viewer.
+  type: HowTo
+- questions:
+  - answer: You can refer to the [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/)
+      for comprehensive guidance.
+    question: Where can I find the documentation for Aspose.3D for Java?
+  - answer: 'Download the library from the releases page: [Download Aspose.3D for
+      Java](https://releases.aspose.com/3d/java/).'
+    question: How do I download Aspose.3D for Java?
+  - answer: Yes, explore the features with a free trial by visiting [Aspose.3D Free
+      Trial](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.3D for Java?
+  - answer: Join the Aspose community at [Aspose.3D Support Forum](https://forum.aspose.com/c/3d/18)
+      for assistance and discussions.
+    question: Where can I get support for Aspose.3D for Java?
+  - answer: Get a temporary license by visiting [Temporary License](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.3D?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: 'Chuyển đổi 3D sang OBJ: Thêm hình cầu và chỉnh sửa bán kính trong Java'
+tags:
+- modify sphere radius
+- export OBJ
+- aspose.3d
+- java 3d
+- 3d conversion
+title: 'Sửa Đổi Bán Kính Hình Cầu Java: Chuyển Đổi 3D sang OBJ với Aspose.3D'
 url: /vi/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
@@ -13,38 +80,38 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chuyển đổi 3D sang OBJ: Thêm Hình cầu & Thay đổi Bán kính trong Java
+# Chuyển Đổi 3D Sang OBJ: Thêm Hình Cầu & Thay Đổi Bán Kính trong Java
 
 ## Giới thiệu
 
-Nếu bạn cần **convert 3D to OBJ** nhanh chóng và lập trình, hướng dẫn này sẽ chỉ cho bạn cách thêm một hình cầu vào cảnh, thay đổi bán kính của nó, và ghi tệp OBJ kết quả bằng **Aspose.3D Java library**. Chúng tôi sẽ đi qua từng dòng mã, giải thích lý do mỗi bước quan trọng, và cung cấp các mẹo để tránh những lỗi thường gặp—để bạn có thể tích hợp quy trình này vào trò chơi, công cụ CAD, hoặc trực quan hoá khoa học một cách tự tin.
+Nếu bạn cần **thay đổi bán kính hình cầu java** một cách nhanh chóng và lập trình, hướng dẫn này sẽ chỉ cho bạn cách thêm một hình cầu vào cảnh, thay đổi bán kính của nó, và ghi tệp OBJ kết quả bằng **thư viện Aspose.3D Java**. Chúng tôi sẽ đi qua từng dòng mã, giải thích lý do mỗi bước quan trọng, và cung cấp các mẹo để tránh những lỗi thường gặp — để bạn có thể tích hợp quy trình này vào trò chơi, công cụ CAD, hoặc trực quan hoá khoa học một cách tự tin.
 
 ## Câu trả lời nhanh
-- **What is the main goal of this tutorial?** Để trình bày cách chuyển đổi 3D sang OBJ bằng cách tạo một hình cầu, điều chỉnh bán kính, và xuất mô hình trong Java.  
-- **Which library provides the 3D functionality?** Aspose.3D, một **java 3d library tutorial** đầy đủ tính năng.  
-- **How do I change the sphere size?** Gọi `sphere.setRadius(double)` trên đối tượng `Sphere`.  
-- **Can I write the OBJ file directly from Java?** Có—sử dụng `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`.  
-- **Do I need a license for production?** Bản dùng thử miễn phí đủ cho phát triển; cần giấy phép vĩnh viễn cho việc thương mại.
+- **Mục tiêu chính của tutorial này là gì?** Để minh họa cách chuyển đổi 3D sang OBJ bằng cách tạo một hình cầu, điều chỉnh bán kính, và xuất mô hình trong Java.  
+- **Thư viện nào cung cấp chức năng 3D?** Aspose.3D, một **java 3d library tutorial** đầy đủ tính năng.  
+- **Làm sao để thay đổi kích thước hình cầu?** Gọi `sphere.setRadius(double)` trên đối tượng `Sphere`.  
+- **Có thể ghi tệp OBJ trực tiếp từ Java không?** Có — sử dụng `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`.  
+- **Có cần giấy phép cho môi trường production không?** Bản dùng thử miễn phí đủ cho phát triển; giấy phép vĩnh viễn cần thiết cho sử dụng thương mại.
 
-## Cách chuyển đổi 3D sang OBJ bằng Aspose.3D
+## Aspose.3D cho Java là gì?
 
-### Aspose.3D cho Java là gì?
+Aspose.3D cho Java là một **java 3d library** toàn diện cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tệp 3D mà không cần phụ thuộc bên ngoài. Nó hỗ trợ hơn **50 định dạng đầu vào và đầu ra** — bao gồm OBJ, FBX, STL và GLTF — cho phép tích hợp liền mạch vào bất kỳ pipeline 3‑D nào.
 
-Aspose.3D là một **java 3d library** cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tệp 3D mà không cần bất kỳ phụ thuộc bên ngoài nào. Nó hỗ trợ các định dạng phổ biến như OBJ, FBX, STL, và hơn thế nữa, làm cho nó trở thành lựa chọn lý tưởng cho trò chơi, công cụ CAD và trực quan hoá khoa học.
+## Tại sao chuyển đổi 3D sang OBJ?
 
-### Tại sao chuyển đổi 3D sang OBJ?
+Chuyển đổi sang OBJ cung cấp một biểu diễn văn bản thuần túy, có thể đọc được rộng rãi của hình học, cho phép kiểm tra, chỉnh sửa và nhập khẩu bởi hầu hết mọi ứng dụng 3D, làm cho nó trở nên lý tưởng cho việc tạo mẫu nhanh và trao đổi tài sản đa nền tảng.
 
-- **Universal Compatibility** – OBJ được hỗ trợ bởi hầu hết mọi trình xem 3D, engine game và phần mềm mô hình hoá.  
-- **Lightweight Export** – OBJ lưu trữ hình học dưới dạng văn bản thuần, dễ kiểm tra và gỡ lỗi.  
-- **Workflow Flexibility** – Bạn có thể tạo tệp OBJ ngay lập tức từ mã Java phía server, cho phép quy trình tự động hoá việc tạo tài sản.
+- **Tương thích toàn cầu** – OBJ được hầu hết mọi trình xem 3D, engine game và phần mềm mô hình hoá hỗ trợ.  
+- **Xuất nhẹ** – OBJ lưu trữ hình học ở dạng văn bản thuần, dễ kiểm tra và gỡ lỗi.  
+- **Linh hoạt quy trình làm việc** – Bạn có thể tạo tệp OBJ ngay trên server Java, cho phép các pipeline tự động cho việc tạo tài sản.
 
 ## Yêu cầu trước
 
 - Kiến thức lập trình Java cơ bản.  
-- Thư viện Aspose.3D đã được cài đặt – tải xuống từ [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/).  
-- JDK 8 hoặc mới hơn đã được cài đặt trên máy phát triển của bạn.
+- Thư viện Aspose.3D đã được cài đặt – tải xuống từ [tài liệu Aspose.3D cho Java](https://reference.aspose.com/3d/java/).  
+- JDK 8 trở lên đã được cài trên máy phát triển của bạn.
 
-## Nhập gói
+## Nhập Gói
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -54,9 +121,11 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Hướng dẫn từng bước
+## Cách thay đổi bán kính hình cầu trong Java?
 
-### Bước 1: Khởi tạo Scene
+Tải đối tượng `Sphere`, gọi `setRadius` với giá trị mong muốn, và sau đó lưu cảnh dưới dạng OBJ — toàn bộ quy trình này có thể thực hiện trong năm bước ngắn gọn. Cách tiếp cận này hoạt động với bất kỳ giá trị bán kính số nào và đảm bảo rằng OBJ xuất ra phản ánh đúng kích thước bạn chỉ định.
+
+### Bước 1: Khởi tạo một Scene
 
 ```java
 // ExStart:WorkingWithSphereRadius
@@ -65,91 +134,94 @@ import java.io.IOException;
 Scene scene = new Scene();
 ```
 
-Tạo một `Scene` cung cấp cho bạn một container cho tất cả hình học, ánh sáng và camera. Đây là nơi chúng ta sẽ **add sphere to scene** sau này.
+**Định nghĩa:** Lớp `Scene` là container cấp cao nhất của Aspose.3D, chứa geometry, ánh sáng và camera cho một mô hình 3D. Tạo một `Scene` cung cấp không gian làm việc nơi bạn có thể thêm và thao tác các đối tượng.
 
-### Bước 2: Khởi tạo Sphere
+Tạo một `Scene` cung cấp một container cho tất cả geometry, ánh sáng và camera. Đây là nơi chúng ta sẽ **thêm hình cầu vào cảnh** sau này.
+
+### Bước 2: Khởi tạo một Hình Cầu
 
 ```java
 // initialize a Sphere
 Sphere sphere = new Sphere();
 ```
 
-Đối tượng `Sphere` bắt đầu với bán kính mặc định là 1.0. Hãy coi nó như một canvas trống cho hình dạng bạn muốn xuất.
+**Định nghĩa:** Lớp `Sphere` đại diện cho một primitive hình cầu với bán kính, tâm và vật liệu có thể cấu hình. Mặc định nó bắt đầu với bán kính 1.0.
 
-### Bước 3: Đặt bán kính mong muốn
+Một đối tượng `Sphere` bắt đầu với bán kính mặc định là 1.0. Hãy nghĩ nó như một canvas trống cho hình dạng bạn muốn xuất.
+
+### Bước 3: Đặt Bán Kính Mong Muốn
+
+Phương thức `setRadius(double)` cập nhật kích thước của hình cầu bằng cách gán giá trị bán kính mới theo cùng đơn vị được sử dụng trong scene.
 
 ```java
 // set radius
 sphere.setRadius(10);
 ```
 
-Ở đây chúng tôi **write obj file java**‑style code để đặt bán kính chính xác. Thay `10` bằng bất kỳ giá trị `double` nào phù hợp với yêu cầu thiết kế của bạn.
+Ở đây chúng ta **viết mã java kiểu ghi file obj** để đặt bán kính chính xác. Thay `10` bằng bất kỳ giá trị `double` nào phù hợp với yêu cầu thiết kế của bạn.
 
-### Bước 4: Thêm Sphere vào Scene
+### Bước 4: Thêm Hình Cầu vào Scene
 
 ```java
 // add sphere to the scene
 scene.getRootNode().createChildNode(sphere);
 ```
 
-Dòng này **adds sphere to scene** bằng cách tạo một node con dưới node gốc. Đó là thời điểm hình học trở thành một phần của đồ thị scene.
+Dòng này **thêm hình cầu vào scene** bằng cách tạo một node con dưới node gốc. Đây là thời điểm geometry trở thành một phần của đồ thị cảnh.
 
 ### Bước 5: Xuất mô hình dưới dạng OBJ
+
+Phương thức `save(String, FileFormat)` ghi toàn bộ scene vào tệp được chỉ định bằng định dạng đã chọn, chẳng hạn OBJ.
 
 ```java
 // save scene
 scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-Gọi `scene.save` **exports obj file java**‑style, thực tế **save scene as obj**. Tệp `sphere.obj` được tạo ra có thể mở trong bất kỳ trình xem 3D tiêu chuẩn nào.
+Gọi `scene.save` **xuất file obj kiểu java**, thực tế **lưu scene dưới dạng obj**. Tệp `sphere.obj` được tạo có thể mở trong bất kỳ trình xem 3D tiêu chuẩn nào.
 
-## Vấn đề thường gặp và giải pháp
+## Vấn đề thường gặp và Giải pháp
 
 | Vấn đề | Giải pháp |
 |-------|----------|
-| **Hình cầu xuất hiện quá nhỏ trong trình xem** | Xác minh rằng giá trị bán kính được đặt đúng; nhớ rằng đơn vị là tùy ý trừ khi bạn áp dụng phép biến đổi tỉ lệ. |
-| **OBJ đã xuất không có vật liệu** | Aspose.3D chỉ ghi geometry; thêm vật liệu vào sphere nếu bạn cần texture (`sphere.setMaterial(...)`). |
-| **Lỗi giấy phép khi chạy** | Đảm bảo bạn đã tải tệp giấy phép tạm thời hoặc vĩnh viễn trước khi tạo `Scene`. |
+| **Hình cầu xuất hiện quá nhỏ trong trình xem** | Kiểm tra lại giá trị bán kính đã được đặt đúng; nhớ rằng đơn vị là tùy ý trừ khi bạn áp dụng phép biến đổi tỉ lệ. |
+| **OBJ xuất ra không có vật liệu** | Aspose.3D chỉ ghi geometry; hãy thêm vật liệu cho hình cầu nếu cần texture (`sphere.setMaterial(...)`). |
+| **Lỗi giấy phép tại thời gian chạy** | Đảm bảo bạn đã tải file giấy phép tạm thời hoặc vĩnh viễn trước khi tạo `Scene`. |
 
 ## Câu hỏi thường gặp
 
-### Q: Tôi có thể tìm tài liệu cho Aspose.3D cho Java ở đâu?
+**Q: Tôi có thể tìm tài liệu cho Aspose.3D cho Java ở đâu?**  
+A: Bạn có thể tham khảo [tài liệu Aspose.3D cho Java](https://reference.aspose.com/3d/java/) để có hướng dẫn chi tiết.
 
-A: Bạn có thể tham khảo [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) để có hướng dẫn chi tiết.
+**Q: Làm sao để tải Aspose.3D cho Java?**  
+A: Tải thư viện từ trang phát hành: [Tải Aspose.3D cho Java](https://releases.aspose.com/3d/java/).
 
-### Q: Làm sao để tải Aspose.3D cho Java?
-
-A: Tải thư viện từ trang phát hành: [Download Aspose.3D for Java](https://releases.aspose.com/3d/java/).
-
-### Q: Có bản dùng thử miễn phí cho Aspose.3D cho Java không?
-
+**Q: Có bản dùng thử miễn phí cho Aspose.3D cho Java không?**  
 A: Có, khám phá các tính năng với bản dùng thử miễn phí bằng cách truy cập [Aspose.3D Free Trial](https://releases.aspose.com/).
 
-### Q: Tôi có thể nhận hỗ trợ cho Aspose.3D cho Java ở đâu?
+**Q: Tôi có thể nhận hỗ trợ cho Aspose.3D cho Java ở đâu?**  
+A: Tham gia cộng đồng Aspose tại [Diễn đàn Hỗ trợ Aspose.3D](https://forum.aspose.com/c/3d/18) để được trợ giúp và thảo luận.
 
-A: Tham gia cộng đồng Aspose tại [Aspose.3D Support Forum](https://forum.aspose.com/c/3d/18) để được hỗ trợ và thảo luận.
+**Q: Làm sao để có giấy phép tạm thời cho Aspose.3D?**  
+A: Nhận giấy phép tạm thời bằng cách truy cập [Giấy phép Tạm thời](https://purchase.aspose.com/temporary-license/).
 
-### Q: Làm sao để có được giấy phép tạm thời cho Aspose.3D?
-
-A: Nhận giấy phép tạm thời bằng cách truy cập [Temporary License](https://purchase.aspose.com/temporary-license/).
-
-### Q: Tôi có thể sử dụng mã này với các định dạng 3D khác như STL không?
-
-A: Chắc chắn – chỉ cần thay đổi enum `FileFormat` khi gọi `scene.save`, ví dụ, `FileFormat.STL`.
-
-## Kết luận
-
-Bây giờ bạn đã biết cách **convert 3D to OBJ** bằng cách thêm một hình cầu, điều chỉnh bán kính, và xuất kết quả với Aspose.3D trong Java. Hãy thử nghiệm với các primitive khác, áp dụng vật liệu, hoặc nối nhiều phép biến đổi để tạo mô hình phong phú hơn. Bất cứ khi nào bạn cần **save scene as obj** hoặc **write obj file java**, cùng một mẫu sẽ được áp dụng.
+**Q: Tôi có thể dùng mã này với các định dạng 3D khác như STL không?**  
+A: Chắc chắn – chỉ cần thay đổi enum `FileFormat` khi gọi `scene.save`, ví dụ `FileFormat.STL`.
 
 ---
 
-**Last Updated:** 2026-03-31  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2026-07-27  
+**Được kiểm tra với:** Aspose.3D cho Java 24.11  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Cách Đặt Normals cho Đối Tượng 3D trong Java Sử Dụng Aspose.3D Java API](/3d/java/geometry/set-up-normals-on-3d-objects/)
+- [Cách Nhúng Texture trong FBX với Java – Áp Dụng Vật Liệu cho Đối Tượng 3D bằng Aspose.3D](/3d/java/geometry/apply-materials-to-3d-objects/)
+- [Cách Thay Đổi Hướng Mặt Phẳng và Xuất OBJ trong Java](/3d/java/3d-scenes-and-models/change-plane-orientation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
