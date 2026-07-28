@@ -571,7 +571,17 @@
       "status": "resolved",
       "createdAt": "2026-07-28T23:45:39.2169417Z",
       "finishedAt": "2026-07-28T23:45:47.9972673Z"
+    },
+    {
+      "id": 53,
+      "title": "Verify code in save-custom-mesh-formats and add-animation-properties-to-scenes",
+      "description": "Verify code snippets in save-custom-mesh-formats and add-animation-properties-to-scenes tutorials",
+      "priority": "normal",
+      "type": "task",
+      "assignee": "ag-kkm1u47Q",
+      "status": "working",
+      "createdAt": "2026-07-28T23:51:20.501646Z"
     }
   ],
-  "nextId": 53
+  "nextId": 54
 }
