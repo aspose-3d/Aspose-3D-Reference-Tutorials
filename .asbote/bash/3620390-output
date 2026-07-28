@@ -1,0 +1,391 @@
+Found 78 tutorial files to process
+  ✗ Snippet #1 FAILED in compress-meshes-google-draco
+    Error preview: /tmp/tmpupkgw97q.java:5: error: illegal start of expression
+import com.aspose.threed.DracoCompressionLevel;
+^
+/tmp/tmpupkgw97q.java:5: error: not a statement
+import com.aspose.threed.DracoCompressionL...
+  ✗ Snippet #2 FAILED in compress-meshes-google-draco
+    Error preview: /tmp/tmphlss8u7t.java:5: error: illegal start of expression
+import java.nio.file.Files;
+^
+/tmp/tmphlss8u7t.java:5: error: not a statement
+import java.nio.file.Files;
+                    ^
+/tmp/tmphlss...
+  ✗ Snippet #1 FAILED in generate-mesh-data
+    Error preview: /tmp/tmpgbyyvw4g.java:5: error: illegal start of expression
+import com.aspose.threed.*;
+^
+/tmp/tmpgbyyvw4g.java:5: error: <identifier> expected
+import com.aspose.threed.*;
+                         ^
+/...
+  ✗ Snippet #2 FAILED in generate-mesh-data
+/tmp/tmp43jmxkmf.java:3: error: class TempVerify_2 is public, should be declared in a file named TempVerify_2.java
+public class TempVerify_2 {
+       ^
+1 error
+
+  ✗ Snippet #3 FAILED in generate-mesh-data
+    Error preview: /tmp/tmprecmgiwn.java:3: error: class TempVerify_3 is public, should be declared in a file named TempVerify_3.java
+public class TempVerify_3 {
+       ^
+/tmp/tmprecmgiwn.java:5: error: cannot find symb...
+  ✗ Snippet #4 FAILED in generate-mesh-data
+/tmp/tmpox71fvrn.java:3: error: class TempVerify_4 is public, should be declared in a file named TempVerify_4.java
+public class TempVerify_4 {
+       ^
+1 error
+
+  ✗ Snippet #1 FAILED in split-meshes-by-material
+    Error preview: /tmp/tmpv0e5yys4.java:5: error: illegal start of expression
+import com.aspose.threed.*;
+^
+/tmp/tmpv0e5yys4.java:5: error: <identifier> expected
+import com.aspose.threed.*;
+                         ^
+/...
+  ✗ Snippet #2 FAILED in split-meshes-by-material
+/tmp/tmpa2h3lp2w.java:3: error: class TempVerify_2 is public, should be declared in a file named TempVerify_2.java
+public class TempVerify_2 {
+       ^
+1 error
+
+  ✗ Snippet #3 FAILED in split-meshes-by-material
+    Error preview: /tmp/tmpr7d82bgn.java:3: error: class TempVerify_3 is public, should be declared in a file named TempVerify_3.java
+public class TempVerify_3 {
+       ^
+/tmp/tmpr7d82bgn.java:6: error: cannot find symb...
+  ✗ Snippet #4 FAILED in split-meshes-by-material
+    Error preview: /tmp/tmpw3_6impg.java:3: error: class TempVerify_4 is public, should be declared in a file named TempVerify_4.java
+public class TempVerify_4 {
+       ^
+/tmp/tmpw3_6impg.java:6: error: cannot find symb...
+  ✗ Snippet #5 FAILED in split-meshes-by-material
+    Error preview: /tmp/tmpc6tafk3q.java:3: error: class TempVerify_5 is public, should be declared in a file named TempVerify_5.java
+public class TempVerify_5 {
+       ^
+/tmp/tmpc6tafk3q.java:6: error: cannot find symb...
+  ✗ Snippet #6 FAILED in split-meshes-by-material
+    Error preview: /tmp/tmpgsdl6zln.java:3: error: class TempVerify_6 is public, should be declared in a file named TempVerify_6.java
+public class TempVerify_6 {
+       ^
+/tmp/tmpgsdl6zln.java:6: error: cannot find symb...
+  ✗ Snippet #7 FAILED in split-meshes-by-material
+/tmp/tmpd5b4ul0s.java:3: error: class TempVerify_7 is public, should be declared in a file named TempVerify_7.java
+public class TempVerify_7 {
+       ^
+1 error
+
+  ✗ Snippet #1 FAILED in modify-sphere-radius
+    Error preview: /tmp/tmpc_rsb6xx.java:5: error: illegal start of expression
+import com.aspose.threed.FileFormat;
+^
+/tmp/tmpc_rsb6xx.java:5: error: not a statement
+import com.aspose.threed.FileFormat;
+                ...
+  ✗ Snippet #2 FAILED in modify-sphere-radius
+/tmp/tmp80caaojo.java:3: error: class TempVerify_2 is public, should be declared in a file named TempVerify_2.java
+public class TempVerify_2 {
+       ^
+1 error
+
+  ✗ Snippet #3 FAILED in modify-sphere-radius
+/tmp/tmpjlok6lfr.java:3: error: class TempVerify_3 is public, should be declared in a file named TempVerify_3.java
+public class TempVerify_3 {
+       ^
+1 error
+
+  ✗ Snippet #4 FAILED in modify-sphere-radius
+    Error preview: /tmp/tmp6ndp2rpp.java:3: error: class TempVerify_4 is public, should be declared in a file named TempVerify_4.java
+public class TempVerify_4 {
+       ^
+/tmp/tmp6ndp2rpp.java:6: error: cannot find symb...
+  ✗ Snippet #5 FAILED in modify-sphere-radius
+    Error preview: /tmp/tmpoz0h_cqn.java:3: error: class TempVerify_5 is public, should be declared in a file named TempVerify_5.java
+public class TempVerify_5 {
+       ^
+/tmp/tmpoz0h_cqn.java:6: error: cannot find symb...
+  ✗ Snippet #6 FAILED in modify-sphere-radius
+    Error preview: /tmp/tmpf4fynfvy.java:3: error: class TempVerify_6 is public, should be declared in a file named TempVerify_6.java
+public class TempVerify_6 {
+       ^
+/tmp/tmpf4fynfvy.java:6: error: cannot find symb...
+  ✗ Snippet #1 FAILED in xpath-like-object-queries
+    Error preview: /tmp/tmpr1s0nyao.java:5: error: illegal start of expression
+import com.aspose.threed.*;
+^
+/tmp/tmpr1s0nyao.java:5: error: <identifier> expected
+import com.aspose.threed.*;
+                         ^
+/...
+  ✗ Snippet #2 FAILED in xpath-like-object-queries
+/tmp/tmps5m5cz7_.java:3: error: class TempVerify_2 is public, should be declared in a file named TempVerify_2.java
+public class TempVerify_2 {
+       ^
+1 error
+
+  ✗ Snippet #3 FAILED in xpath-like-object-queries
+/tmp/tmpx3m1kz0t.java:3: error: class TempVerify_3 is public, should be declared in a file named TempVerify_3.java
+public class TempVerify_3 {
+       ^
+1 error
+
+  ✗ Snippet #4 FAILED in xpath-like-object-queries
+    Error preview: /tmp/tmpambtcndc.java:5: error: illegal start of expression
+import java.util.List;
+^
+/tmp/tmpambtcndc.java:5: error: not a statement
+import java.util.List;
+                ^
+/tmp/tmpambtcndc.java:6: e...
+  ✗ Snippet #1 FAILED in change-plane-orientation
+    Error preview: /tmp/tmpls7puutr.java:5: error: illegal start of expression
+import com.aspose.threed.FileFormat;
+^
+/tmp/tmpls7puutr.java:5: error: not a statement
+import com.aspose.threed.FileFormat;
+                ...
+  ✗ Snippet #2 FAILED in change-plane-orientation
+/tmp/tmpl171rw39.java:3: error: class TempVerify_2 is public, should be declared in a file named TempVerify_2.java
+public class TempVerify_2 {
+       ^
+1 error
+
+  ✗ Snippet #3 FAILED in change-plane-orientation
+/tmp/tmpvl47h7dw.java:3: error: class TempVerify_3 is public, should be declared in a file named TempVerify_3.java
+public class TempVerify_3 {
+       ^
+1 error
+
+  ✗ Snippet #4 FAILED in change-plane-orientation
+/tmp/tmpcxktyyin.java:3: error: class TempVerify_4 is public, should be declared in a file named TempVerify_4.java
+public class TempVerify_4 {
+       ^
+1 error
+
+  ✗ Snippet #5 FAILED in change-plane-orientation
+/tmp/tmpoqmr_2dc.java:3: error: class TempVerify_5 is public, should be declared in a file named TempVerify_5.java
+public class TempVerify_5 {
+       ^
+1 error
+
+  ✗ Snippet #1 FAILED in compress-3d-scenes
+    Error preview: /tmp/tmphu06kgy7.java:5: error: illegal start of expression
+import com.aspose.threed.AmfSaveOptions;
+^
+/tmp/tmphu06kgy7.java:5: error: not a statement
+import com.aspose.threed.AmfSaveOptions;
+        ...
+  ✗ Snippet #2 FAILED in compress-3d-scenes
+/tmp/tmpoyb6m30m.java:3: error: class TempVerify_2 is public, should be declared in a file named TempVerify_2.java
+public class TempVerify_2 {
+       ^
+1 error
+
+  ✗ Snippet #1 FAILED in get-scene-information
+    Error preview: /tmp/tmp2p69owni.java:5: error: illegal start of expression
+import com.aspose.threed.FileFormat;
+^
+/tmp/tmp2p69owni.java:5: error: not a statement
+import com.aspose.threed.FileFormat;
+                ...
+  ✗ Snippet #2 FAILED in get-scene-information
+/tmp/tmpmehi61hs.java:3: error: class TempVerify_2 is public, should be declared in a file named TempVerify_2.java
+public class TempVerify_2 {
+       ^
+1 error
+
+  ✗ Snippet #3 FAILED in get-scene-information
+    Error preview: /tmp/tmpfa7ei8ip.java:3: error: class TempVerify_3 is public, should be declared in a file named TempVerify_3.java
+public class TempVerify_3 {
+       ^
+/tmp/tmpfa7ei8ip.java:5: error: cannot find symb...
+  ✗ Snippet #4 FAILED in get-scene-information
+    Error preview: /tmp/tmp687tzz27.java:3: error: class TempVerify_4 is public, should be declared in a file named TempVerify_4.java
+public class TempVerify_4 {
+       ^
+/tmp/tmp687tzz27.java:5: error: cannot find symb...
+  ✗ Snippet #5 FAILED in get-scene-information
+    Error preview: /tmp/tmpa_paw7pb.java:3: error: class TempVerify_5 is public, should be declared in a file named TempVerify_5.java
+public class TempVerify_5 {
+       ^
+/tmp/tmpa_paw7pb.java:7: error: cannot find symb...
+  ✗ Snippet #1 FAILED in managing-3d-properties-scenes
+    Error preview: /tmp/tmp7ul0kxk5.java:5: error: illegal start of expression
+import java.io.IOException;
+^
+/tmp/tmp7ul0kxk5.java:5: error: not a statement
+import java.io.IOException;
+              ^
+/tmp/tmp7ul0kxk5.j...
+  ✗ Snippet #2 FAILED in managing-3d-properties-scenes
+    Error preview: /tmp/tmp4b825gvs.java:5: error: illegal start of expression
+import java.io.IOException;
+^
+/tmp/tmp4b825gvs.java:5: error: not a statement
+import java.io.IOException;
+              ^
+/tmp/tmp4b825gvs.j...
+  ✗ Snippet #1 FAILED in save-custom-mesh-formats
+    Error preview: /tmp/tmpt18995pv.java:5: error: illegal start of expression
+import com.aspose.threed.*;
+^
+/tmp/tmpt18995pv.java:5: error: <identifier> expected
+import com.aspose.threed.*;
+                         ^
+/...
+  ✗ Snippet #2 FAILED in save-custom-mesh-formats
+/tmp/tmpc_qubogj.java:3: error: class TempVerify_2 is public, should be declared in a file named TempVerify_2.java
+public class TempVerify_2 {
+       ^
+1 error
+
+  ✗ Snippet #3 FAILED in save-custom-mesh-formats
+/tmp/tmps4uihq34.java:3: error: class TempVerify_3 is public, should be declared in a file named TempVerify_3.java
+public class TempVerify_3 {
+       ^
+1 error
+
+  ✗ Snippet #4 FAILED in save-custom-mesh-formats
+    Error preview: /tmp/tmpd6ieuxyk.java:5: error: illegal start of expression
+import java.io.*;
+^
+/tmp/tmpd6ieuxyk.java:5: error: <identifier> expected
+import java.io.*;
+               ^
+/tmp/tmpd6ieuxyk.java:5: error:...
+  ✗ Snippet #1 FAILED in add-animation-properties-to-scenes
+    Error preview: /tmp/tmp0ez1nrvo.java:5: error: illegal start of expression
+import com.aspose.threed.*;
+^
+/tmp/tmp0ez1nrvo.java:5: error: <identifier> expected
+import com.aspose.threed.*;
+                         ^
+/...
+  ✗ Snippet #2 FAILED in add-animation-properties-to-scenes
+/tmp/tmprtaztvcd.java:3: error: class TempVerify_2 is public, should be declared in a file named TempVerify_2.java
+public class TempVerify_2 {
+       ^
+1 error
+
+  ✗ Snippet #3 FAILED in add-animation-properties-to-scenes
+/tmp/tmph7dqgoma.java:3: error: class TempVerify_3 is public, should be declared in a file named TempVerify_3.java
+public class TempVerify_3 {
+       ^
+1 error
+
+  ✗ Snippet #4 FAILED in add-animation-properties-to-scenes
+    Error preview: /tmp/tmpbdju65m5.java:3: error: class TempVerify_4 is public, should be declared in a file named TempVerify_4.java
+public class TempVerify_4 {
+       ^
+/tmp/tmpbdju65m5.java:6: error: cannot find symb...
+  ✗ Snippet #5 FAILED in add-animation-properties-to-scenes
+    Error preview: /tmp/tmpc_8d3o77.java:3: error: class TempVerify_5 is public, should be declared in a file named TempVerify_5.java
+public class TempVerify_5 {
+       ^
+/tmp/tmpc_8d3o77.java:6: error: cannot find symb...
+  ✗ Snippet #6 FAILED in add-animation-properties-to-scenes
+    Error preview: /tmp/tmph_h2ks_k.java:3: error: class TempVerify_6 is public, should be declared in a file named TempVerify_6.java
+public class TempVerify_6 {
+       ^
+/tmp/tmph_h2ks_k.java:6: error: cannot find symb...
+  ✗ Snippet #7 FAILED in add-animation-properties-to-scenes
+    Error preview: /tmp/tmpkmiyr5kj.java:3: error: class TempVerify_7 is public, should be declared in a file named TempVerify_7.java
+public class TempVerify_7 {
+       ^
+/tmp/tmpkmiyr5kj.java:14: error: cannot find sym...
+  ✗ Snippet #8 FAILED in add-animation-properties-to-scenes
+    Error preview: /tmp/tmpl5u0qs4u.java:3: error: class TempVerify_8 is public, should be declared in a file named TempVerify_8.java
+public class TempVerify_8 {
+       ^
+/tmp/tmpl5u0qs4u.java:6: error: cannot find symb...
+  ✗ Snippet #9 FAILED in add-animation-properties-to-scenes
+    Error preview: /tmp/tmp6xs_v4tx.java:3: error: class TempVerify_9 is public, should be declared in a file named TempVerify_9.java
+public class TempVerify_9 {
+       ^
+/tmp/tmp6xs_v4tx.java:10: error: cannot find sym...
+  ✗ Snippet #1 FAILED in set-up-target-camera
+    Error preview: /tmp/tmp_yx2qqse.java:5: error: illegal start of expression
+import com.aspose.threed.*;
+^
+/tmp/tmp_yx2qqse.java:5: error: <identifier> expected
+import com.aspose.threed.*;
+                         ^
+/...
+  ✗ Snippet #2 FAILED in set-up-target-camera
+/tmp/tmp84yxtgs4.java:3: error: class TempVerify_2 is public, should be declared in a file named TempVerify_2.java
+public class TempVerify_2 {
+       ^
+1 error
+
+  ✗ Snippet #3 FAILED in set-up-target-camera
+    Error preview: /tmp/tmpx7ajg_c4.java:3: error: class TempVerify_3 is public, should be declared in a file named TempVerify_3.java
+public class TempVerify_3 {
+       ^
+/tmp/tmpx7ajg_c4.java:6: error: cannot find symb...
+  ✗ Snippet #4 FAILED in set-up-target-camera
+    Error preview: /tmp/tmpyyyjxztz.java:3: error: class TempVerify_4 is public, should be declared in a file named TempVerify_4.java
+public class TempVerify_4 {
+       ^
+/tmp/tmpyyyjxztz.java:6: error: cannot find symb...
+  ✗ Snippet #5 FAILED in set-up-target-camera
+    Error preview: /tmp/tmp9bm5mv3q.java:3: error: class TempVerify_5 is public, should be declared in a file named TempVerify_5.java
+public class TempVerify_5 {
+       ^
+/tmp/tmp9bm5mv3q.java:5: error: cannot find symb...
+  ✗ Snippet #6 FAILED in set-up-target-camera
+    Error preview: /tmp/tmpzdp83kif.java:3: error: class TempVerify_6 is public, should be declared in a file named TempVerify_6.java
+public class TempVerify_6 {
+       ^
+/tmp/tmpzdp83kif.java:5: error: cannot find symb...
+  ✗ Snippet #1 FAILED in creating-cylinders-with-offset-top
+    Error preview: /tmp/tmpt6k17bl_.java:5: error: illegal start of expression
+import com.aspose.threed.Cylinder;
+^
+/tmp/tmpt6k17bl_.java:5: error: not a statement
+import com.aspose.threed.Cylinder;
+                    ...
+  ✗ Snippet #2 FAILED in creating-cylinders-with-offset-top
+/tmp/tmptili678v.java:3: error: class TempVerify_2 is public, should be declared in a file named TempVerify_2.java
+public class TempVerify_2 {
+       ^
+1 error
+
+  ✗ Snippet #3 FAILED in creating-cylinders-with-offset-top
+/tmp/tmp11zhut4d.java:3: error: class TempVerify_3 is public, should be declared in a file named TempVerify_3.java
+public class TempVerify_3 {
+       ^
+1 error
+
+  ✗ Snippet #4 FAILED in creating-cylinders-with-offset-top
+    Error preview: /tmp/tmp6wb1_21p.java:3: error: class TempVerify_4 is public, should be declared in a file named TempVerify_4.java
+public class TempVerify_4 {
+       ^
+/tmp/tmp6wb1_21p.java:7: error: cannot find symb...
+  ✗ Snippet #5 FAILED in creating-cylinders-with-offset-top
+/tmp/tmpw3x2n9zm.java:3: error: class TempVerify_5 is public, should be declared in a file named TempVerify_5.java
+public class TempVerify_5 {
+       ^
+1 error
+
+  ✗ Snippet #6 FAILED in creating-cylinders-with-offset-top
+    Error preview: /tmp/tmpjjzdejz2.java:3: error: class TempVerify_6 is public, should be declared in a file named TempVerify_6.java
+public class TempVerify_6 {
+       ^
+/tmp/tmpjjzdejz2.java:7: error: cannot find symb...
+  ✗ Snippet #7 FAILED in creating-cylinders-with-offset-top
+    Error preview: /tmp/tmp8ynfze8x.java:3: error: class TempVerify_7 is public, should be declared in a file named TempVerify_7.java
+public class TempVerify_7 {
+       ^
+/tmp/tmp8ynfze8x.java:7: error: cannot find symb...
+  ✗ Snippet #1 FAILED in creating-cylinders-with-sheared-bottom
+    Error preview: /tmp/tmppdpk49e2.java:5: error: illegal start of expression
+import com.aspose.threed.*;
+^
+/tmp/tmppdpk49e2.java:5: error: <identifier> expected
+import com.aspose.threed.*;
+                         ^
+/...
+  ✗ Snippet #2 FAILED in creating-cylinders-with-sheared-bottom

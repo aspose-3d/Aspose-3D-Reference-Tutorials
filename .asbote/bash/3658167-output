@@ -1,0 +1,200 @@
+diff --git a/3d/english/java/3d-objects-and-scenes/xpath-like-object-queries/_index.md b/3d/english/java/3d-objects-and-scenes/xpath-like-object-queries/_index.md
+index a9561be4..3cce8d30 100644
+--- a/3d/english/java/3d-objects-and-scenes/xpath-like-object-queries/_index.md
++++ b/3d/english/java/3d-objects-and-scenes/xpath-like-object-queries/_index.md
+@@ -74,6 +74,7 @@ Next, we add a few child nodes under the root node. Some nodes contain a **Camer
+ 
+ ```java
+ // ExStart:CreateHierarchy
++Scene s = new Scene();
+ Node a = s.getRootNode().createChildNode("a");
+ a.createChildNode("a1");
+ a.createChildNode("a2");
+@@ -89,7 +90,12 @@ c.createChildNode("c2").addEntity(new Light("light"));
+ Now the fun part—using XPath‑style strings to **select objects by name** or type.
+ 
+ ```java
+-// ExStart:XPathLikeObjectQueries
++import java.util.List;
++import com.aspose.threed.*;
++
++// The scene from Step 1
++Scene s = new Scene();
++
+ // Select objects that have type Camera or name is 'light' regardless of their location.
+ List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+ 
+diff --git a/3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md b/3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md
+index 09d03afa..14387fe4 100644
+--- a/3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md
++++ b/3d/english/java/3d-scenes-and-models/change-plane-orientation/_index.md
+@@ -83,32 +83,27 @@ Instantiate a `Plane` object that we will later orient.
+ ```java
+ Plane plane = new Plane();
+ ```
+-
+ ### Step 4: Set Vector – how to set plane up  
+ Define a custom up‑vector for the plane. This is the core of **change plane orientation**.
++The vector `(1, 1, 3)` tilts the plane away from the default XY‑plane, giving you a sloped surface you can later **export obj java**.
+ 
+ ```java
+-plane.setUp(new Vector3(1, 1, 3));
+-```
++// ExStart:ChangePlaneOrientation
++String MyDir = "Your Document Directory";
+ 
+-The vector `(1, 1, 3)` tilts the plane away from the default XY‑plane, giving you a sloped surface you can later **export obj java**.
++Scene scene = new Scene();
+ 
+-### Step 5: Generate the Plane – add plane to scene  
+-Attach the plane to the root node so it becomes part of the scene hierarchy.
++Plane plane = new Plane();
+ 
+-```java
+-scene.getRootNode().createChildNode(plane);
+-```
++plane.setUp(new Vector3(1, 1, 3));
+ 
+-### Step 6: Save the Scene – export OBJ file  
+-Export the entire scene, including the oriented plane, to an OBJ file.
++scene.getRootNode().createChildNode(plane);
+ 
+-```java
+ scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
++// ExEnd:ChangePlaneOrientation
+ ```
+ 
+-After this call, you’ll find `ChangePlaneOrientation.obj` in the directory you specified, ready for any **aspose 3d export obj** workflow.
+-
++After this call, you'll find `ChangePlaneOrientation.obj` in the directory you specified, ready for any **aspose 3d export obj** workflow.
+ ## Common Issues and Solutions
+ 
+ | Issue | Why It Happens | Fix |
+diff --git a/3d/english/java/3d-scenes-and-models/compress-3d-scenes/_index.md b/3d/english/java/3d-scenes-and-models/compress-3d-scenes/_index.md
+index 91ed0dc6..d3c5aa84 100644
+--- a/3d/english/java/3d-scenes-and-models/compress-3d-scenes/_index.md
++++ b/3d/english/java/3d-scenes-and-models/compress-3d-scenes/_index.md
+@@ -74,37 +74,25 @@ Create a new Java project in your preferred IDE and add the Aspose.3D JAR files
+ 
+ ### Step 2: Initialize a New 3D Scene
+ Start by creating an empty scene object. The `Scene` class is the container for all geometry, lights, cameras, and hierarchy.
++### Step 2: Create Complete Scene with Box and Compression
++
++Here's the complete code that combines all steps - initializing the scene, adding geometry, and saving with compression:
+ 
+ ```java
+ // The path to the documents directory.
+ String MyDir = "Your Document Directory";
+ 
+ Scene scene = new Scene();
+-```
+-
+-### Step 3: Add a Simple Box Geometry
+-For demonstration, we’ll add a box primitive to the scene. The `Box` class creates a cube that we can transform.
+ 
+-```java
+ Box box = new Box();
+ Transform tr = scene.getRootNode().createChildNode(box).getTransform();
+ tr.setScale(12, 12, 12);
+ tr.setTranslation(10, 0, 0);
+-```
+-
+-### Step 4: Customize the Box (Scale, Rotation, Position)
+-You can modify the same box or add additional instances. Below we change the scale and apply Euler angles to rotate the object.
+ 
+-```java
+ tr = scene.getRootNode().createChildNode(box).getTransform();
+ tr.setScale(5, 5, 5);
+ tr.setEulerAngles(50, 10, 0);
+-```
+-
+-### Step 5: Save the Scene with Compression Enabled
+-The key to **reducing 3d file size** lies in the `AmfSaveOptions`. Set `setEnableCompression(true)` to activate gzip compression inside the AMF file.
+ 
+-```java
+ AmfSaveOptions opt = new AmfSaveOptions();
+ opt.setEnableCompression(true);   // Turn on compression to shrink file size
+ scene.save(MyDir + "compressed_scene.amf", opt);
+@@ -113,7 +101,6 @@ scene.save(MyDir + "compressed_scene.amf", opt);
+ > **Pro tip:** If you need to keep the original uncompressed version for debugging, save a second copy with `setEnableCompression(false)`.
+ 
+ Repeat the above steps for any additional objects you wish to include in the scene. Each object will be stored in the same compressed container, keeping the overall file size low.
+-
+ ## Tips and Best Practices
+ - **Choose the right texture format** – PNG and JPEG are already compressed; avoid BMP when possible.  
+ - **Reuse geometry** – Instancing the same mesh reduces duplicate data before compression.  
+diff --git a/3d/english/java/3d-scenes-and-models/get-scene-information/_index.md b/3d/english/java/3d-scenes-and-models/get-scene-information/_index.md
+index 0051f821..f60ba41f 100644
+--- a/3d/english/java/3d-scenes-and-models/get-scene-information/_index.md
++++ b/3d/english/java/3d-scenes-and-models/get-scene-information/_index.md
+@@ -86,24 +86,15 @@ scene.getAssetInfo().setUnitScaleFactor(0.6);
+ ### Step 4: Export Scene to FBX
+ 
+ Now that the asset information is attached, we save the scene as an FBX file. The `FileFormat.FBX7500ASCII` option produces a human‑readable ASCII FBX, which is handy for debugging.
+-
+ ```java
+ String MyDir = "Your Document Directory";
+ MyDir = MyDir + "InformationToScene.fbx";
+ scene.save(MyDir, FileFormat.FBX7500ASCII);
+-// ExEnd:AddAssetInformationToScene
+-```
+-
+-> **Remember:** Replace `"Your Document Directory"` with an absolute path or a path relative to your project’s working directory.
+-
+-### Step 5: Print Success Message
+-
+-A simple console output confirms that the operation succeeded and tells you where the file was written.
+-
+-```java
+ System.out.println("\nAsset information added successfully to Scene.\nFile saved at " + MyDir);
++// ExEnd:AddAssetInformationToScene
+ ```
+ 
++> **Remember:** Replace `"Your Document Directory"` with an absolute path or a path relative to your project's working directory.
+ ## Why export scene to FBX with Aspose.3D?
+ 
+ Exporting to FBX is a common requirement because FBX is widely supported by game engines, DCC tools, and AR/VR pipelines. Aspose.3D gives you full control over the exported file—metadata, units, and geometry—without needing a heavyweight 3D authoring application. This makes automated asset generation, batch processing, and server‑side conversions fast and reliable.
+diff --git a/3d/english/java/3d-scenes-and-models/managing-3d-properties-scenes/_index.md b/3d/english/java/3d-scenes-and-models/managing-3d-properties-scenes/_index.md
+index 75e66f71..2a6fabb8 100644
+--- a/3d/english/java/3d-scenes-and-models/managing-3d-properties-scenes/_index.md
++++ b/3d/english/java/3d-scenes-and-models/managing-3d-properties-scenes/_index.md
+@@ -58,70 +58,43 @@ import com.aspose.threed.Vector3;
+ - `Vector3` is the data type used for colors and other three‑component vectors.
+ 
+ ## How to set vector3 color java – Change Diffuse Step‑by‑Step Guide
++### Step 1-7: Complete Example - Access and Modify Material Properties
+ 
+-### Step 1: Initialize the Scene
++Here's the complete working example that demonstrates all steps:
+ 
+ ```java
+-String dataDir = "Your Document Directory";
+-Scene scene = new Scene(dataDir + "EmbeddedTexture.fbx");
+-```
+-
+-We create a `Scene` object by loading an FBX file that already contains a texture. This is the canvas on which we will **change diffuse color**.
++import java.io.IOException;
++import com.aspose.threed.Material;
++import com.aspose.threed.Property;
++import com.aspose.threed.PropertyCollection;
++import com.aspose.threed.Scene;
++import com.aspose.threed.Vector3;
+ 
+-### Step 2: Access Material Properties
++String dataDir = "Your Document Directory";
++Scene scene = Scene.fromFile(dataDir + "EmbeddedTexture.fbx");
+ 
+-```java
+ Material material = scene.getRootNode().getChildNodes().get(0).getMaterial();
+ PropertyCollection props = material.getProperties();
+-```
+-
+-Here we **access material properties** of the first mesh in the scene. The `Material` object holds a `PropertyCollection` that stores every configurable attribute, such as *Diffuse*, *Specular*, and custom user data.
+ 
+-### Step 3: List All Properties (Inspect Before Changing)
+-
+-```java
++// List All Properties (Inspect Before Changing)
+ for (Property prop : props) {
+     System.out.println("Name" + prop.getName() + " Value = " + prop.getValue());
+ }

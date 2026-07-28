@@ -1,0 +1,1610 @@
+Java Code Verification Summary
+================================================================================
+
+Version: 26.6.0
+Total files reviewed: 78
+Java code snippets found: 325
+Java snippets verified successfully: 279
+Java snippets with errors: 46
+
+FAILED SNIPPETS:
+----------------------------------------
+
+File: customize-3d-file-loading (Snippet #1)
+Error:
+```
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+9 errors
+```
+
+Code:
+```
+import com.aspose.threed.*;
+
+
+import java.io.IOException;
+```
+
+File: customize-3d-file-loading (Snippet #2)
+Error:
+```
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+9 errors
+```
+
+Code:
+```
+// ExStart:discreet3DSLoadOption
+String MyDir = "Your Document Directory";
+Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
+loadOpts.setApplyAnimationTransform(true);
+loadOpts.setFlipCoordinateSystem(true);
+loadOpts.setGammaCorrectedColor(true);
+loadOpts.getLookupPaths().add(MyDir);
+// ExEnd:discreet3DSLoadOption
+```
+
+File: customize-3d-file-loading (Snippet #3)
+Error:
+```
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+9 errors
+```
+
+Code:
+```
+// ExStart:objLoadOption
+String MyDir = "Your Document Directory";
+ObjLoadOptions loadObjOpts = new ObjLoadOptions();
+loadObjOpts.setEnableMaterials(true);
+loadObjOpts.setFlipCoordinateSystem(true);
+loadObjOpts.getLookupPaths().add(MyDir);
+// ExEnd:objLoadOption
+```
+
+File: customize-3d-file-loading (Snippet #4)
+Error:
+```
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+9 errors
+```
+
+Code:
+```
+// ExStart:stlLoadOption
+String MyDir = "Your Document Directory";
+StlLoadOptions loadSTLOpts = new StlLoadOptions();
+loadSTLOpts.setFlipCoordinateSystem(true);
+loadSTLOpts.getLookupPaths().add(MyDir);
+// ExEnd:stlLoadOption
+```
+
+File: customize-3d-file-loading (Snippet #5)
+Error:
+```
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+9 errors
+```
+
+Code:
+```
+// ExStart:u3dLoadOption
+String MyDir = "Your Document Directory";
+U3dLoadOptions loadU3DOpts = new U3dLoadOptions();
+loadU3DOpts.setFlipCoordinateSystem(true);
+loadU3DOpts.getLookupPaths().add(MyDir);
+// ExEnd:u3dLoadOption
+```
+
+File: customize-3d-file-loading (Snippet #6)
+Error:
+```
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+9 errors
+```
+
+Code:
+```
+// ExStart:gltfLoadOptions
+String MyDir = "Your Document Directory";
+Scene scene = new Scene();
+GltfLoadOptions loadOpt = new GltfLoadOptions();
+loadOpt.setFlipTexCoordV(true);
+scene.open(MyDir + "Duck.gltf", loadOpt);
+// ExEnd:gltfLoadOptions
+```
+
+File: customize-3d-file-loading (Snippet #7)
+Error:
+```
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+9 errors
+```
+
+Code:
+```
+// ExStart:plyLoadOptions
+String MyDir = "Your Document Directory";
+Scene scene = new Scene();
+PlyLoadOptions loadPLYOpts = new PlyLoadOptions();
+loadPLYOpts.setFlipCoordinateSystem(true);
+scene.open(MyDir + "vase-v2.ply", loadPLYOpts);
+// ExEnd:plyLoadOptions
+```
+
+File: customize-3d-file-loading (Snippet #8)
+Error:
+```
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+9 errors
+```
+
+Code:
+```
+// ExStart:xLoadOptions
+String MyDir = "Your Document Directory";
+Scene scene = new Scene();
+XLoadOptions loadXOpts = new XLoadOptions(FileContentType.ASCII);
+loadXOpts.setFlipCoordinateSystem(true);
+scene.open(MyDir + "warrior.x", loadXOpts);
+// ExEnd:xLoadOptions
+```
+
+File: customize-3d-file-loading (Snippet #9)
+Error:
+```
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
+        String MyDir = "Your Document Directory";
+               ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene();
+              ^
+Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+9 errors
+```
+
+Code:
+```
+// ExStart:FBXLoadOptions
+String dataDir = "Your Document Directory";
+Scene scene = new Scene();
+FbxLoadOptions opt = new FbxLoadOptions();
+opt.setKeepBuiltinGlobalSettings(true);
+scene.open(dataDir + "test.FBX", opt);
+for(Property property:scene.getRootNode().getAssetInfo().getProperties()) {
+    System.out.println(property);
+}
+// ExEnd:FBXLoadOptions
+```
+
+File: optimize-3d-file-saving (Snippet #1)
+Error:
+```
+/tmp/verify_optimize-3d-file-saving_oh7aqa9x/VerifyCode.java:10: error: illegal start of expression
+        public static void prettyPrintInGltfSaveOption() throws IOException {
+        ^
+/tmp/verify_optimize-3d-file-saving_oh7aqa9x/VerifyCode.java:31: error: class, interface, enum, or record expected
+}
+^
+2 errors
+```
+
+Code:
+```
+import com.aspose.threed.*;
+
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+```
+
+File: optimize-3d-file-saving (Snippet #2)
+Error:
+```
+/tmp/verify_optimize-3d-file-saving_oh7aqa9x/VerifyCode.java:10: error: illegal start of expression
+        public static void prettyPrintInGltfSaveOption() throws IOException {
+        ^
+/tmp/verify_optimize-3d-file-saving_oh7aqa9x/VerifyCode.java:31: error: class, interface, enum, or record expected
+}
+^
+2 errors
+```
+
+Code:
+```
+public static void prettyPrintInGltfSaveOption() throws IOException {
+    // Initialize 3D scene
+    Scene scene = new Scene(new Sphere());
+    
+    // Initialize GLTFSaveOptions
+    GltfSaveOptions opt = new GltfSaveOptions(FileFormat.GLTF2);
+    
+    // Enable pretty print for better readability
+    opt.setPrettyPrint(true);
+    
+    // Save 3D Scene
+    scene.save("Your Document Directory" + "prettyPrintInGltfSaveOption.gltf", opt);
+}
+```
+
+File: optimize-3d-file-saving (Snippet #3)
+Error:
+```
+/tmp/verify_optimize-3d-file-saving_oh7aqa9x/VerifyCode.java:10: error: illegal start of expression
+        public static void prettyPrintInGltfSaveOption() throws IOException {
+        ^
+/tmp/verify_optimize-3d-file-saving_oh7aqa9x/VerifyCode.java:31: error: class, interface, enum, or record expected
+}
+^
+2 errors
+```
+
+Code:
+```
+public static void html5SaveOption() throws IOException {
+    // Initialize a scene
+    Scene scene = new Scene();
+    
+    // Create a child node with a cylinder
+    Node node = scene.getRootNode().createChildNode(new Cylinder());
+    
+    // Set properties for the child node
+    LambertMaterial mat = new LambertMaterial();
+    mat.setDiffuseColor(new Vector3(0.34, 0.59, 0.41));
+    node.setMaterial(mat);
+    
+    // Add a light to the scene
+    Light light = new Light();
+    light.setLightType(LightType.POINT);
+    scene.getRootNode().createChildNode(light).getTransform().setTranslation(10, 0, 10);
+    
+    // Initialize HTML5SaveOptions
+    Html5SaveOptions opt = new Html5SaveOptions();
+    
+    // Customize options (e.g., turn off grid and user interface)
+    opt.setShowGrid(false);
+    opt.setShowUI(false);
+    
+    // Save the scene as an HTML5 file
+    scene.save("Your Document Directory" + "html5SaveOption.html", FileFormat.HTML5);
+}
+```
+
+File: read-existing-3d-scenes (Snippet #1)
+Error:
+```
+/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene(dataDir + "att-test.rvm");
+              ^
+/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: incompatible types: String cannot be converted to Entity
+        Scene scene = new Scene(dataDir + "att-test.rvm");
+                                        ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2 errors
+```
+
+Code:
+```
+import com.aspose.threed.FileFormat;
+import com.aspose.threed.Scene;
+
+
+import java.io.IOException;
+```
+
+File: read-existing-3d-scenes (Snippet #2)
+Error:
+```
+/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene(dataDir + "att-test.rvm");
+              ^
+/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: incompatible types: String cannot be converted to Entity
+        Scene scene = new Scene(dataDir + "att-test.rvm");
+                                        ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2 errors
+```
+
+Code:
+```
+String MyDir = "Your Document Directory";
+```
+
+File: read-existing-3d-scenes (Snippet #3)
+Error:
+```
+/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene(dataDir + "att-test.rvm");
+              ^
+/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: incompatible types: String cannot be converted to Entity
+        Scene scene = new Scene(dataDir + "att-test.rvm");
+                                        ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2 errors
+```
+
+Code:
+```
+Scene scene = new Scene();
+```
+
+File: read-existing-3d-scenes (Snippet #4)
+Error:
+```
+/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene(dataDir + "att-test.rvm");
+              ^
+/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: incompatible types: String cannot be converted to Entity
+        Scene scene = new Scene(dataDir + "att-test.rvm");
+                                        ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2 errors
+```
+
+Code:
+```
+scene.open(MyDir + "document.fbx");
+```
+
+File: read-existing-3d-scenes (Snippet #5)
+Error:
+```
+/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene(dataDir + "att-test.rvm");
+              ^
+/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: incompatible types: String cannot be converted to Entity
+        Scene scene = new Scene(dataDir + "att-test.rvm");
+                                        ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2 errors
+```
+
+Code:
+```
+System.out.println("\n3D Scene is ready for modification, addition, or processing purposes.");
+```
+
+File: read-existing-3d-scenes (Snippet #6)
+Error:
+```
+/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: variable scene is already defined in method main(String[])
+        Scene scene = new Scene(dataDir + "att-test.rvm");
+              ^
+/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: incompatible types: String cannot be converted to Entity
+        Scene scene = new Scene(dataDir + "att-test.rvm");
+                                        ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2 errors
+```
+
+Code:
+```
+String dataDir = "Your Document Directory";
+Scene scene = new Scene(dataDir + "att-test.rvm");
+FileFormat.RVM_BINARY.loadAttributes(scene, dataDir + "att-test.att");
+```
+
+File: basic-rendering (Snippet #1)
+Error:
+```
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:30: error: variable material is already defined in method main(String[])
+        PhongMaterial material = new PhongMaterial();
+                      ^
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:35: error: variable camera is already defined in method main(String[])
+        Camera camera = new Camera();
+               ^
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:40: error: incompatible types: unexpected return value
+        return camera;
+               ^
+3 errors
+```
+
+Code:
+```
+import com.aspose.threed.*;
+
+import java.awt.*;
+```
+
+File: basic-rendering (Snippet #2)
+Error:
+```
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:30: error: variable material is already defined in method main(String[])
+        PhongMaterial material = new PhongMaterial();
+                      ^
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:35: error: variable camera is already defined in method main(String[])
+        Camera camera = new Camera();
+               ^
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:40: error: incompatible types: unexpected return value
+        return camera;
+               ^
+3 errors
+```
+
+Code:
+```
+Scene scene = new Scene();
+Node light = scene.getRootNode().createChildNode("light", new Light());
+light.getTransform().setTranslation(10, 10, 10);
+
+Camera camera = new Camera();
+scene.getRootNode().createChildNode(camera);
+camera.setNearPlane(0.1);
+camera.getParentNode().getTransform().setTranslation(0, 5, 10);
+camera.setLookAt(Vector3.getZero());
+```
+
+File: basic-rendering (Snippet #3)
+Error:
+```
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:30: error: variable material is already defined in method main(String[])
+        PhongMaterial material = new PhongMaterial();
+                      ^
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:35: error: variable camera is already defined in method main(String[])
+        Camera camera = new Camera();
+               ^
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:40: error: incompatible types: unexpected return value
+        return camera;
+               ^
+3 errors
+```
+
+Code:
+```
+// Create a plane geometry
+Plane planeObj = new Plane();
+planeObj.setLength(20);
+planeObj.setWidth(20);
+
+// Create the node with the plane's mesh
+Node plane = scene.getRootNode().createChildNode("plane", planeObj.toMesh());
+
+// Create a material and apply it to the node
+PhongMaterial material = new PhongMaterial();
+material.setDiffuseColor(new Vector3(0.545, 0.0, 0.0)); // dark orange
+plane.setMaterial(material);
+
+// Set plane position and shadow properties
+plane.getTransform().setTranslation(0, 0, 0);
+((Mesh)plane.getEntity()).setReceiveShadows(true);
+```
+
+File: basic-rendering (Snippet #4)
+Error:
+```
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:30: error: variable material is already defined in method main(String[])
+        PhongMaterial material = new PhongMaterial();
+                      ^
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:35: error: variable camera is already defined in method main(String[])
+        Camera camera = new Camera();
+               ^
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:40: error: incompatible types: unexpected return value
+        return camera;
+               ^
+3 errors
+```
+
+Code:
+```
+// Create a torus geometry
+Torus torusObj = new Torus();
+torusObj.setRadius(1);
+torusObj.setTube(0.4);
+torusObj.setRadialSegments(50);
+torusObj.setTubularSegments(50);
+torusObj.setArc(Math.PI * 2);
+
+// Create the node with the torus' mesh
+Node torus = scene.getRootNode().createChildNode("torus", torusObj.toMesh());
+
+// Create a material with transparency and apply it
+PhongMaterial material = new PhongMaterial();
+material.setDiffuseColor(new Vector3(0.2, 0.05, 0.58)); // purple
+material.setTransparency(0.3);
+torus.setMaterial(material);
+
+// Position the torus
+torus.getTransform().setTranslation(2, 1, 1);
+```
+
+File: basic-rendering (Snippet #5)
+Error:
+```
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:30: error: variable material is already defined in method main(String[])
+        PhongMaterial material = new PhongMaterial();
+                      ^
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:35: error: variable camera is already defined in method main(String[])
+        Camera camera = new Camera();
+               ^
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:40: error: incompatible types: unexpected return value
+        return camera;
+               ^
+3 errors
+```
+
+Code:
+```
+// Code for adding cylinders with specific rotations and materials
+// ...
+```
+
+File: basic-rendering (Snippet #6)
+Error:
+```
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:30: error: variable material is already defined in method main(String[])
+        PhongMaterial material = new PhongMaterial();
+                      ^
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:35: error: variable camera is already defined in method main(String[])
+        Camera camera = new Camera();
+               ^
+/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:40: error: incompatible types: unexpected return value
+        return camera;
+               ^
+3 errors
+```
+
+Code:
+```
+Camera camera = new Camera();
+scene.getRootNode().createChildNode(camera);
+camera.setNearPlane(0.1);
+camera.getParentNode().getTransform().setTranslation(10, 5, 10);
+camera.setLookAt(Vector3.getZero());
+return camera;
+```
+
+File: manual-render-targets (Snippet #1)
+Error:
+```
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:20: error: no suitable method found for render(Camera,BufferedImage)
+        scene.render(camera, image);
+             ^
+    method Scene.render(Camera,String) is not applicable
+      (argument mismatch; BufferedImage cannot be converted to String)
+    method Scene.render(Camera,TextureData) is not applicable
+      (argument mismatch; BufferedImage cannot be converted to TextureData)
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:23: error: incompatible types: Color cannot be converted to Vector3
+        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
+                                       ^
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:26: error: incompatible types: BufferedImage cannot be converted to TextureData
+        texture.save(image);
+                     ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+3 errors
+```
+
+Code:
+```
+import com.aspose.threed.*;
+
+
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+```
+
+File: manual-render-targets (Snippet #2)
+Error:
+```
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:20: error: no suitable method found for render(Camera,BufferedImage)
+        scene.render(camera, image);
+             ^
+    method Scene.render(Camera,String) is not applicable
+      (argument mismatch; BufferedImage cannot be converted to String)
+    method Scene.render(Camera,TextureData) is not applicable
+      (argument mismatch; BufferedImage cannot be converted to TextureData)
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:23: error: incompatible types: Color cannot be converted to Vector3
+        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
+                                       ^
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:26: error: incompatible types: BufferedImage cannot be converted to TextureData
+        texture.save(image);
+                     ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+3 errors
+```
+
+Code:
+```
+Scene scene = new Scene();
+Node light = scene.getRootNode().createChildNode("light", new Light());
+light.getTransform().setTranslation(10, 10, 10);
+
+Camera camera = new Camera();
+scene.getRootNode().createChildNode(camera);
+camera.setNearPlane(0.1);
+camera.getParentNode().getTransform().setTranslation(0, 5, 10);
+camera.setLookAt(Vector3.getZero());
+```
+
+File: manual-render-targets (Snippet #3)
+Error:
+```
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:20: error: no suitable method found for render(Camera,BufferedImage)
+        scene.render(camera, image);
+             ^
+    method Scene.render(Camera,String) is not applicable
+      (argument mismatch; BufferedImage cannot be converted to String)
+    method Scene.render(Camera,TextureData) is not applicable
+      (argument mismatch; BufferedImage cannot be converted to TextureData)
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:23: error: incompatible types: Color cannot be converted to Vector3
+        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
+                                       ^
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:26: error: incompatible types: BufferedImage cannot be converted to TextureData
+        texture.save(image);
+                     ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+3 errors
+```
+
+Code:
+```
+String output = "manual-render-to-image.png";
+```
+
+File: manual-render-targets (Snippet #4)
+Error:
+```
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:20: error: no suitable method found for render(Camera,BufferedImage)
+        scene.render(camera, image);
+             ^
+    method Scene.render(Camera,String) is not applicable
+      (argument mismatch; BufferedImage cannot be converted to String)
+    method Scene.render(Camera,TextureData) is not applicable
+      (argument mismatch; BufferedImage cannot be converted to TextureData)
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:23: error: incompatible types: Color cannot be converted to Vector3
+        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
+                                       ^
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:26: error: incompatible types: BufferedImage cannot be converted to TextureData
+        texture.save(image);
+                     ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+3 errors
+```
+
+Code:
+```
+BufferedImage image = new BufferedImage(1024, 1024, BufferedImage.TYPE_3BYTE_BGR);
+```
+
+File: manual-render-targets (Snippet #5)
+Error:
+```
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:20: error: no suitable method found for render(Camera,BufferedImage)
+        scene.render(camera, image);
+             ^
+    method Scene.render(Camera,String) is not applicable
+      (argument mismatch; BufferedImage cannot be converted to String)
+    method Scene.render(Camera,TextureData) is not applicable
+      (argument mismatch; BufferedImage cannot be converted to TextureData)
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:23: error: incompatible types: Color cannot be converted to Vector3
+        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
+                                       ^
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:26: error: incompatible types: BufferedImage cannot be converted to TextureData
+        texture.save(image);
+                     ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+3 errors
+```
+
+Code:
+```
+scene.render(camera, image);
+```
+
+File: manual-render-targets (Snippet #6)
+Error:
+```
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:20: error: no suitable method found for render(Camera,BufferedImage)
+        scene.render(camera, image);
+             ^
+    method Scene.render(Camera,String) is not applicable
+      (argument mismatch; BufferedImage cannot be converted to String)
+    method Scene.render(Camera,TextureData) is not applicable
+      (argument mismatch; BufferedImage cannot be converted to TextureData)
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:23: error: incompatible types: Color cannot be converted to Vector3
+        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
+                                       ^
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:26: error: incompatible types: BufferedImage cannot be converted to TextureData
+        texture.save(image);
+                     ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+3 errors
+```
+
+Code:
+```
+try (Renderer renderer = Renderer.createRenderer()) {
+    try (IRenderTexture rt = renderer.getRenderFactory().createRenderTexture(new RenderParameters(), 1, image.getWidth(), image.getHeight())) {
+        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
+        renderer.render(rt);
+        ITexture2D texture = (ITexture2D) rt.getTargets().get(0);
+        texture.save(image);
+    }
+}
+```
+
+File: manual-render-targets (Snippet #7)
+Error:
+```
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:20: error: no suitable method found for render(Camera,BufferedImage)
+        scene.render(camera, image);
+             ^
+    method Scene.render(Camera,String) is not applicable
+      (argument mismatch; BufferedImage cannot be converted to String)
+    method Scene.render(Camera,TextureData) is not applicable
+      (argument mismatch; BufferedImage cannot be converted to TextureData)
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:23: error: incompatible types: Color cannot be converted to Vector3
+        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
+                                       ^
+/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:26: error: incompatible types: BufferedImage cannot be converted to TextureData
+        texture.save(image);
+                     ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+3 errors
+```
+
+Code:
+```
+ImageIO.write(image, "png", new File(output));
+```
+
+File: real-time-rendering-swt (Snippet #1)
+Error:
+```
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:4: error: package org.eclipse.swt does not exist
+import org.eclipse.swt.SWT;
+                      ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:5: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.Display;
+                              ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:6: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.Shell;
+                              ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
+        Display display = new Display();
+        ^
+  symbol:   class Display
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
+        Display display = new Display();
+                              ^
+  symbol:   class Display
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
+        final Shell shell = new Shell(display);
+              ^
+  symbol:   class Shell
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
+        final Shell shell = new Shell(display);
+                                ^
+  symbol:   class Shell
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:17: error: cannot find symbol
+        Camera camera = setupScene(scene);
+                        ^
+  symbol:   method setupScene(Scene)
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:19: error: incompatible types: Color cannot be converted to Vector3
+        vp.setBackgroundColor(Color.pink);
+                                   ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:20: error: cannot find symbol
+        shell.addListener(SWT.Traverse, event -> {
+                          ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:21: error: cannot find symbol
+        if(event.detail == SWT.TRAVERSE_ESCAPE) {
+                           ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:23: error: cannot find symbol
+        event.detail = SWT.TRAVERSE_NONE;
+                       ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:27: error: cannot find symbol
+        shell.addListener(SWT.Resize, event -> {
+                          ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:29: error: incompatible types: Dimension cannot be converted to Vector2
+        window.setSize(new Dimension(rect.width, rect.height));
+                       ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:37: error: cannot find symbol
+        light.getTransform().setTranslation(x, 5, z);
+        ^
+  symbol:   variable light
+  location: class VerifyCode
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+15 errors
+```
+
+Code:
+```
+import com.aspose.threed.*;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Shell;
+
+import java.awt.*;
+import java.io.IOException;
+```
+
+File: real-time-rendering-swt (Snippet #2)
+Error:
+```
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:4: error: package org.eclipse.swt does not exist
+import org.eclipse.swt.SWT;
+                      ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:5: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.Display;
+                              ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:6: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.Shell;
+                              ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
+        Display display = new Display();
+        ^
+  symbol:   class Display
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
+        Display display = new Display();
+                              ^
+  symbol:   class Display
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
+        final Shell shell = new Shell(display);
+              ^
+  symbol:   class Shell
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
+        final Shell shell = new Shell(display);
+                                ^
+  symbol:   class Shell
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:17: error: cannot find symbol
+        Camera camera = setupScene(scene);
+                        ^
+  symbol:   method setupScene(Scene)
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:19: error: incompatible types: Color cannot be converted to Vector3
+        vp.setBackgroundColor(Color.pink);
+                                   ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:20: error: cannot find symbol
+        shell.addListener(SWT.Traverse, event -> {
+                          ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:21: error: cannot find symbol
+        if(event.detail == SWT.TRAVERSE_ESCAPE) {
+                           ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:23: error: cannot find symbol
+        event.detail = SWT.TRAVERSE_NONE;
+                       ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:27: error: cannot find symbol
+        shell.addListener(SWT.Resize, event -> {
+                          ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:29: error: incompatible types: Dimension cannot be converted to Vector2
+        window.setSize(new Dimension(rect.width, rect.height));
+                       ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:37: error: cannot find symbol
+        light.getTransform().setTranslation(x, 5, z);
+        ^
+  symbol:   variable light
+  location: class VerifyCode
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+15 errors
+```
+
+Code:
+```
+// Initialize UI
+Display display = new Display();
+final Shell shell = new Shell(display);
+shell.setText("Aspose.3D Real-time rendering with SWT");
+shell.setSize(800, 600);
+```
+
+File: real-time-rendering-swt (Snippet #3)
+Error:
+```
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:4: error: package org.eclipse.swt does not exist
+import org.eclipse.swt.SWT;
+                      ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:5: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.Display;
+                              ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:6: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.Shell;
+                              ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
+        Display display = new Display();
+        ^
+  symbol:   class Display
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
+        Display display = new Display();
+                              ^
+  symbol:   class Display
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
+        final Shell shell = new Shell(display);
+              ^
+  symbol:   class Shell
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
+        final Shell shell = new Shell(display);
+                                ^
+  symbol:   class Shell
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:17: error: cannot find symbol
+        Camera camera = setupScene(scene);
+                        ^
+  symbol:   method setupScene(Scene)
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:19: error: incompatible types: Color cannot be converted to Vector3
+        vp.setBackgroundColor(Color.pink);
+                                   ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:20: error: cannot find symbol
+        shell.addListener(SWT.Traverse, event -> {
+                          ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:21: error: cannot find symbol
+        if(event.detail == SWT.TRAVERSE_ESCAPE) {
+                           ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:23: error: cannot find symbol
+        event.detail = SWT.TRAVERSE_NONE;
+                       ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:27: error: cannot find symbol
+        shell.addListener(SWT.Resize, event -> {
+                          ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:29: error: incompatible types: Dimension cannot be converted to Vector2
+        window.setSize(new Dimension(rect.width, rect.height));
+                       ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:37: error: cannot find symbol
+        light.getTransform().setTranslation(x, 5, z);
+        ^
+  symbol:   variable light
+  location: class VerifyCode
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+15 errors
+```
+
+Code:
+```
+// Initialize renderer and scene
+Renderer renderer = Renderer.createRenderer();
+IRenderWindow window = renderer.getRenderFactory().createRenderWindow(new RenderParameters(), WindowHandle.fromWin32(shell.handle));
+Scene scene = new Scene();
+Camera camera = setupScene(scene);
+Viewport vp = window.createViewport(camera);
+vp.setBackgroundColor(Color.pink);
+```
+
+File: real-time-rendering-swt (Snippet #4)
+Error:
+```
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:4: error: package org.eclipse.swt does not exist
+import org.eclipse.swt.SWT;
+                      ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:5: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.Display;
+                              ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:6: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.Shell;
+                              ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
+        Display display = new Display();
+        ^
+  symbol:   class Display
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
+        Display display = new Display();
+                              ^
+  symbol:   class Display
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
+        final Shell shell = new Shell(display);
+              ^
+  symbol:   class Shell
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
+        final Shell shell = new Shell(display);
+                                ^
+  symbol:   class Shell
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:17: error: cannot find symbol
+        Camera camera = setupScene(scene);
+                        ^
+  symbol:   method setupScene(Scene)
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:19: error: incompatible types: Color cannot be converted to Vector3
+        vp.setBackgroundColor(Color.pink);
+                                   ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:20: error: cannot find symbol
+        shell.addListener(SWT.Traverse, event -> {
+                          ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:21: error: cannot find symbol
+        if(event.detail == SWT.TRAVERSE_ESCAPE) {
+                           ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:23: error: cannot find symbol
+        event.detail = SWT.TRAVERSE_NONE;
+                       ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:27: error: cannot find symbol
+        shell.addListener(SWT.Resize, event -> {
+                          ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:29: error: incompatible types: Dimension cannot be converted to Vector2
+        window.setSize(new Dimension(rect.width, rect.height));
+                       ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:37: error: cannot find symbol
+        light.getTransform().setTranslation(x, 5, z);
+        ^
+  symbol:   variable light
+  location: class VerifyCode
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+15 errors
+```
+
+Code:
+```
+// Initialize events
+shell.addListener(SWT.Traverse, event -> {
+    if(event.detail == SWT.TRAVERSE_ESCAPE) {
+        shell.close();
+        event.detail = SWT.TRAVERSE_NONE;
+        event.doit = false;
+    }
+});
+
+shell.addListener(SWT.Resize, event -> {
+    Rectangle rect = new Rectangle();
+    window.setSize(new Dimension(rect.width, rect.height));
+});
+```
+
+File: real-time-rendering-swt (Snippet #5)
+Error:
+```
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:4: error: package org.eclipse.swt does not exist
+import org.eclipse.swt.SWT;
+                      ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:5: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.Display;
+                              ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:6: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.Shell;
+                              ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
+        Display display = new Display();
+        ^
+  symbol:   class Display
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
+        Display display = new Display();
+                              ^
+  symbol:   class Display
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
+        final Shell shell = new Shell(display);
+              ^
+  symbol:   class Shell
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
+        final Shell shell = new Shell(display);
+                                ^
+  symbol:   class Shell
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:17: error: cannot find symbol
+        Camera camera = setupScene(scene);
+                        ^
+  symbol:   method setupScene(Scene)
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:19: error: incompatible types: Color cannot be converted to Vector3
+        vp.setBackgroundColor(Color.pink);
+                                   ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:20: error: cannot find symbol
+        shell.addListener(SWT.Traverse, event -> {
+                          ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:21: error: cannot find symbol
+        if(event.detail == SWT.TRAVERSE_ESCAPE) {
+                           ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:23: error: cannot find symbol
+        event.detail = SWT.TRAVERSE_NONE;
+                       ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:27: error: cannot find symbol
+        shell.addListener(SWT.Resize, event -> {
+                          ^
+  symbol:   variable SWT
+  location: class VerifyCode
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:29: error: incompatible types: Dimension cannot be converted to Vector2
+        window.setSize(new Dimension(rect.width, rect.height));
+                       ^
+/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:37: error: cannot find symbol
+        light.getTransform().setTranslation(x, 5, z);
+        ^
+  symbol:   variable light
+  location: class VerifyCode
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+15 errors
+```
+
+Code:
+```
+// Event loop
+shell.open();
+while(!shell.isDisposed()) {
+    display.readAndDispatch();
+    // Update light's position before rendering
+    double time = System.currentTimeMillis() / 1000.0;
+    double x = Math.cos(time) * 10;
+    double z = Math.sin(time) * 10;
+    light.getTransform().setTranslation(x, 5, z);
+    // Render
+    renderer.render(window);
+}
+
+// Shut down
+renderer.close();
+display.dispose();
+```
+
+File: render-to-buffered-image (Snippet #1)
+Error:
+```
+/tmp/verify_render-to-buffered-image_h042tfbq/VerifyCode.java:14: error: cannot find symbol
+        scene.render(camera, image, opt);
+                     ^
+  symbol:   variable camera
+  location: class VerifyCode
+1 error
+```
+
+Code:
+```
+import com.aspose.threed.Camera;
+import com.aspose.threed.ImageRenderOptions;
+import com.aspose.threed.Scene;
+
+
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+```
+
+File: render-to-buffered-image (Snippet #2)
+Error:
+```
+/tmp/verify_render-to-buffered-image_h042tfbq/VerifyCode.java:14: error: cannot find symbol
+        scene.render(camera, image, opt);
+                     ^
+  symbol:   variable camera
+  location: class VerifyCode
+1 error
+```
+
+Code:
+```
+Scene scene = new Scene();
+```
+
+File: render-to-buffered-image (Snippet #3)
+Error:
+```
+/tmp/verify_render-to-buffered-image_h042tfbq/VerifyCode.java:14: error: cannot find symbol
+        scene.render(camera, image, opt);
+                     ^
+  symbol:   variable camera
+  location: class VerifyCode
+1 error
+```
+
+Code:
+```
+BufferedImage image = new BufferedImage(1024, 1024, BufferedImage.TYPE_3BYTE_BGR);
+ImageRenderOptions opt = new ImageRenderOptions();
+opt.setBackgroundColor(new Vector3(0.082, 0.376, 0.263)); // 0x156043
+```
+
+File: render-to-buffered-image (Snippet #4)
+Error:
+```
+/tmp/verify_render-to-buffered-image_h042tfbq/VerifyCode.java:14: error: cannot find symbol
+        scene.render(camera, image, opt);
+                     ^
+  symbol:   variable camera
+  location: class VerifyCode
+1 error
+```
+
+Code:
+```
+scene.render(camera, image, opt);
+```
+
+File: render-to-buffered-image (Snippet #5)
+Error:
+```
+/tmp/verify_render-to-buffered-image_h042tfbq/VerifyCode.java:14: error: cannot find symbol
+        scene.render(camera, image, opt);
+                     ^
+  symbol:   variable camera
+  location: class VerifyCode
+1 error
+```
+
+Code:
+```
+String output = "render-to-image.png";
+ImageIO.write(image, "png", new File(output));
+```
+
+File: render-to-file (Snippet #1)
+Error:
+```
+/tmp/verify_render-to-file_a1y484d_/VerifyCode.java:19: error: incompatible types: Dimension cannot be converted to Vector2
+        scene.render(camera, output, new Dimension(1024, 1024), "png");
+                                     ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+```
+
+Code:
+```
+import com.aspose.threed.*;
+
+
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+```
+
+File: render-to-file (Snippet #2)
+Error:
+```
+/tmp/verify_render-to-file_a1y484d_/VerifyCode.java:19: error: incompatible types: Dimension cannot be converted to Vector2
+        scene.render(camera, output, new Dimension(1024, 1024), "png");
+                                     ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+```
+
+Code:
+```
+Scene scene = new Scene();
+```
+
+File: render-to-file (Snippet #3)
+Error:
+```
+/tmp/verify_render-to-file_a1y484d_/VerifyCode.java:19: error: incompatible types: Dimension cannot be converted to Vector2
+        scene.render(camera, output, new Dimension(1024, 1024), "png");
+                                     ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+```
+
+Code:
+```
+Node light = scene.getRootNode().createChildNode("light", new Light());
+light.getTransform().setTranslation(10, 10, 10);
+
+Camera camera = new Camera();
+scene.getRootNode().createChildNode(camera);
+camera.setNearPlane(0.1);
+camera.getParentNode().getTransform().setTranslation(0, 5, 10);
+camera.setLookAt(Vector3.getZero());
+```
+
+File: render-to-file (Snippet #4)
+Error:
+```
+/tmp/verify_render-to-file_a1y484d_/VerifyCode.java:19: error: incompatible types: Dimension cannot be converted to Vector2
+        scene.render(camera, output, new Dimension(1024, 1024), "png");
+                                     ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+```
+
+Code:
+```
+String output = "render-to-file.png";
+```
+
+File: render-to-file (Snippet #5)
+Error:
+```
+/tmp/verify_render-to-file_a1y484d_/VerifyCode.java:19: error: incompatible types: Dimension cannot be converted to Vector2
+        scene.render(camera, output, new Dimension(1024, 1024), "png");
+                                     ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+```
+
+Code:
+```
+scene.render(camera, output, new Dimension(1024, 1024), "png");
+```
+

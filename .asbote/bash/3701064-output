@@ -1,0 +1,431 @@
+
+=== generate-mesh-data ===
+
+Block 0 error:
+No errors.
+
+Code:
+import com.aspose.threed.*;
+
+
+import java.io.IOException;
+
+Block 1 error:
+No errors.
+
+Code:
+// The path to the documents directory.
+String MyDir = "Your Document Directory";
+
+// Load a 3ds file, 3ds file doesn't have normal data, but it has smoothing group
+Scene s = Scene.fromFile(MyDir + "camera.3ds");
+
+Block 2 error:
+ERROR:
+/tmp/verify_generate-mesh-data_2.java:1: error: cannot find symbol
+s.getRootNode().accept(new NodeVisitor() {
+^
+  symbol:   variable s
+  location: class Test
+1 error
+
+Code:
+s.getRootNode().accept(new NodeVisitor() {
+@Override
+public boolean call(Node node) {
+Mesh mesh = (Mesh) node.getEntity();
+if (mesh != null) {
+VertexElementNormal normals = PolygonModifier.generateNormal(mesh);
+mesh.addElement(normals);
+}
+return true;
+}
+});
+
+Block 3 error:
+No errors.
+
+Code:
+System.out.println("\nNormal data generated successfully for all meshes.");
+
+=== split-meshes-by-material ===
+
+Block 0 error:
+No errors.
+
+Code:
+import com.aspose.threed.*;
+
+import java.util.Arrays;
+
+Block 1 error:
+No errors.
+
+Code:
+
+// Create a mesh of a box (composed of 6 planes)
+Mesh box = (new Box()).toMesh();
+
+Block 2 error:
+ERROR:
+/tmp/verify_split-meshes-by-material_2.java:2: error: cannot find symbol
+VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
+                                                    ^
+  symbol:   variable box
+  location: class Test
+1 error
+
+Code:
+// Create a material element on the box mesh
+VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
+
+Block 3 error:
+ERROR:
+/tmp/verify_split-meshes-by-material_3.java:2: error: cannot find symbol
+mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
+^
+  symbol:   variable mat
+  location: class Test
+1 error
+
+Code:
+// Specify different material indices for each plane
+mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
+
+Block 4 error:
+ERROR:
+/tmp/verify_split-meshes-by-material_4.java:2: error: cannot find symbol
+Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
+                                          ^
+  symbol:   variable box
+  location: class Test
+1 error
+
+Code:
+// Split the mesh into 6 sub-meshes, each plane becoming a sub-mesh
+Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
+
+Block 5 error:
+ERROR:
+/tmp/verify_split-meshes-by-material_5.java:2: error: cannot find symbol
+mat.getIndices().clear();
+^
+  symbol:   variable mat
+  location: class Test
+/tmp/verify_split-meshes-by-material_5.java:3: error: cannot find symbol
+mat.setIndices(new int[]{0, 0, 0, 1, 1, 1});
+^
+  symbol:   variable mat
+  location: class Test
+/tmp/verify_split-meshes-by-material_5.java:4: error: cannot find symbol
+planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
+^
+  symbol:   variable planes
+  location: class Test
+/tmp/verify_split-meshes-by-material_5.java:4: error: cannot find symbol
+planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
+                                   ^
+  symbol:   variable box
+  location: class Test
+4 errors
+
+Code:
+// Update material indices and split into 2 sub-meshes
+mat.getIndices().clear();
+mat.setIndices(new int[]{0, 0, 0, 1, 1, 1});
+planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
+
+Block 6 error:
+No errors.
+
+Code:
+// Display success message
+System.out.println("\nSplitting a mesh by specifying the material successfully.");
+
+=== modify-sphere-radius ===
+
+Block 0 error:
+No errors.
+
+Code:
+import com.aspose.threed.FileFormat;
+import com.aspose.threed.Scene;
+import com.aspose.threed.Sphere;
+
+import java.io.IOException;
+
+Block 1 error:
+No errors.
+
+Code:
+
+// initialize a scene
+Scene scene = new Scene();
+
+Block 2 error:
+No errors.
+
+Code:
+// initialize a Sphere
+Sphere sphere = new Sphere();
+
+Block 3 error:
+ERROR:
+/tmp/verify_modify-sphere-radius_3.java:2: error: cannot find symbol
+sphere.setRadius(10);
+^
+  symbol:   variable sphere
+  location: class Test
+1 error
+
+Code:
+// set radius
+sphere.setRadius(10);
+
+Block 4 error:
+ERROR:
+/tmp/verify_modify-sphere-radius_4.java:2: error: cannot find symbol
+scene.getRootNode().createChildNode(sphere);
+                                    ^
+  symbol:   variable sphere
+  location: class Test
+/tmp/verify_modify-sphere-radius_4.java:2: error: cannot find symbol
+scene.getRootNode().createChildNode(sphere);
+^
+  symbol:   variable scene
+  location: class Test
+2 errors
+
+Code:
+// add sphere to the scene
+scene.getRootNode().createChildNode(sphere);
+
+Block 5 error:
+ERROR:
+/tmp/verify_modify-sphere-radius_5.java:2: error: cannot find symbol
+scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
+^
+  symbol:   variable scene
+  location: class Test
+1 error
+
+Code:
+// save scene
+scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
+
+=== get-scene-information ===
+
+Block 0 error:
+No errors.
+
+Code:
+import com.aspose.threed.FileFormat;
+import com.aspose.threed.Scene;
+
+Block 1 error:
+No errors.
+
+Code:
+Scene scene = new Scene();
+
+Block 2 error:
+ERROR:
+/tmp/verify_get-scene-information_2.java:1: error: cannot find symbol
+scene.getAssetInfo().setApplicationName("Egypt");
+^
+  symbol:   variable scene
+  location: class Test
+/tmp/verify_get-scene-information_2.java:2: error: cannot find symbol
+scene.getAssetInfo().setApplicationVendor("Manualdesk");
+^
+  symbol:   variable scene
+  location: class Test
+2 errors
+
+Code:
+scene.getAssetInfo().setApplicationName("Egypt");
+scene.getAssetInfo().setApplicationVendor("Manualdesk");
+
+Block 3 error:
+ERROR:
+/tmp/verify_get-scene-information_3.java:1: error: cannot find symbol
+scene.getAssetInfo().setUnitName("pole");
+^
+  symbol:   variable scene
+  location: class Test
+/tmp/verify_get-scene-information_3.java:2: error: cannot find symbol
+scene.getAssetInfo().setUnitScaleFactor(0.6);
+^
+  symbol:   variable scene
+  location: class Test
+2 errors
+
+Code:
+scene.getAssetInfo().setUnitName("pole");
+scene.getAssetInfo().setUnitScaleFactor(0.6);
+
+Block 4 error:
+ERROR:
+/tmp/verify_get-scene-information_4.java:3: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+^
+  symbol:   variable scene
+  location: class Test
+1 error
+
+Code:
+String MyDir = "Your Document Directory";
+MyDir = MyDir + "InformationToScene.fbx";
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+System.out.println("\nAsset information added successfully to Scene.\nFile saved at " + MyDir);
+
+=== add-animation-properties-to-scenes ===
+
+Block 0 error:
+No errors.
+
+Code:
+import com.aspose.threed.*;
+
+Block 1 error:
+No errors.
+
+Code:
+// Initialize scene object
+Scene scene = new Scene();
+
+Block 2 error:
+No errors.
+
+Code:
+Mesh mesh = new Mesh();
+
+Block 3 error:
+ERROR:
+/tmp/verify_add-animation-properties-to-scenes_3.java:2: error: cannot find symbol
+Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
+                                                          ^
+  symbol:   variable mesh
+  location: class Test
+/tmp/verify_add-animation-properties-to-scenes_3.java:2: error: cannot find symbol
+Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
+             ^
+  symbol:   variable scene
+  location: class Test
+2 errors
+
+Code:
+// Each cube node has its own translation
+Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
+
+Block 4 error:
+ERROR:
+/tmp/verify_add-animation-properties-to-scenes_4.java:2: error: cannot find symbol
+Property translation = cube1.getTransform().findProperty("Translation");
+                       ^
+  symbol:   variable cube1
+  location: class Test
+1 error
+
+Code:
+// Find translation property on node's transform object
+Property translation = cube1.getTransform().findProperty("Translation");
+
+Block 5 error:
+ERROR:
+/tmp/verify_add-animation-properties-to-scenes_5.java:2: error: cannot find symbol
+BindPoint bindPoint = new BindPoint(scene, translation);
+                                    ^
+  symbol:   variable scene
+  location: class Test
+/tmp/verify_add-animation-properties-to-scenes_5.java:2: error: cannot find symbol
+BindPoint bindPoint = new BindPoint(scene, translation);
+                                           ^
+  symbol:   variable translation
+  location: class Test
+2 errors
+
+Code:
+// Create a bind point based on the translation property
+BindPoint bindPoint = new BindPoint(scene, translation);
+
+Block 6 error:
+ERROR:
+/tmp/verify_add-animation-properties-to-scenes_6.java:10: error: cannot find symbol
+bindPoint.bindKeyframeSequence("X", kfs);
+^
+  symbol:   variable bindPoint
+  location: class Test
+1 error
+
+Code:
+// Create the animation curve on the X component of the scale
+KeyframeSequence kfs = new KeyframeSequence();
+
+// Add keyframes for X component
+kfs.add(0, 10.0f, Interpolation.BEZIER);
+kfs.add(3, 20.0f, Interpolation.BEZIER);
+kfs.add(5, 30.0f, Interpolation.LINEAR);
+
+// Bind the keyframe sequence to the X component
+bindPoint.bindKeyframeSequence("X", kfs);
+
+Block 7 error:
+ERROR:
+/tmp/verify_add-animation-properties-to-scenes_7.java:2: error: cannot find symbol
+kfs = new KeyframeSequence();
+^
+  symbol:   variable kfs
+  location: class Test
+/tmp/verify_add-animation-properties-to-scenes_7.java:3: error: cannot find symbol
+kfs.add(0, 10.0f, Interpolation.BEZIER);
+^
+  symbol:   variable kfs
+  location: class Test
+/tmp/verify_add-animation-properties-to-scenes_7.java:4: error: cannot find symbol
+kfs.add(3, -10.0f, Interpolation.BEZIER);
+^
+  symbol:   variable kfs
+  location: class Test
+/tmp/verify_add-animation-properties-to-scenes_7.java:5: error: cannot find symbol
+kfs.add(5, 0.0f, Interpolation.LINEAR);
+^
+  symbol:   variable kfs
+  location: class Test
+/tmp/verify_add-animation-properties-to-scenes_7.java:7: error: cannot find symbol
+bindPoint.bindKeyframeSequence("Z", kfs);
+                                    ^
+  symbol:   variable kfs
+  location: class Test
+/tmp/verify_add-animation-properties-to-scenes_7.java:7: error: cannot find symbol
+bindPoint.bindKeyframeSequence("Z", kfs);
+^
+  symbol:   variable bindPoint
+  location: class Test
+6 errors
+
+Code:
+// Repeat the process for the Z component
+kfs = new KeyframeSequence();
+kfs.add(0, 10.0f, Interpolation.BEZIER);
+kfs.add(3, -10.0f, Interpolation.BEZIER);
+kfs.add(5, 0.0f, Interpolation.LINEAR);
+
+bindPoint.bindKeyframeSequence("Z", kfs);
+
+Block 8 error:
+ERROR:
+/tmp/verify_add-animation-properties-to-scenes_8.java:6: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+^
+  symbol:   variable scene
+  location: class Test
+1 error
+
+Code:
+// Specify the directory for saving the 3D scene
+String MyDir = "Your Document Directory";
+MyDir = MyDir + "PropertyToDocument.fbx";
+
+// Save 3D scene in the supported file formats
+scene.save(MyDir, FileFormat.FBX7500ASCII);

@@ -73,15 +73,16 @@ Before saving, decide on the binary layout. The example below uses a very simple
 // ...
 ```
 
-*You can **create custom mesh format** specifications here, adding a header, version number, or compression flags as required.*## Step 2: Save 3D Meshes in Custom Binary Format (write custom binary file)
+*You can **create custom mesh format** specifications here, adding a header, version number, or compression flags as required.*
+
+## Step 2: Save 3D Meshes in Custom Binary Format (write custom binary file)
 
 ```java
 import java.io.*;
 import java.util.List;
 import com.aspose.threed.*;
 
-Scene scene = new Scene();
-scene.open("Your Document Directory" + "test.fbx");
+````java
 try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("Your Document Directory" + "Save3DMeshesInCustomBinaryFormat_out")))) {    scene.getRootNode().accept(new NodeVisitor() {
         @Override
         public boolean call(Node node) {
