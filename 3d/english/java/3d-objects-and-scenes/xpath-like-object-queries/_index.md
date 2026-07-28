@@ -55,60 +55,54 @@ import com.aspose.threed.*;
 import java.util.ArrayList;
 import java.util.List;
 ```
-
-## Step‑by‑Step Guide  
+## Step-by-Step Guide  
 
 ### Step 1: Create a Scene for Testing  
 
 We start with an empty scene that will host our hierarchy.
 
-```java
+````java
 // ExStart:CreateScene
-Scene s = new Scene();
+Scene scene = new Scene();
 // ExEnd:CreateScene
-```
+````
 
 ### Step 2: Build a Hierarchy of Nodes  
 
-Next, we add a few child nodes under the root node. Some nodes contain a **Camera** or a **Light** entity, which we’ll later query.
+Next, we add a few child nodes under the root node. Some nodes contain a **Camera** or a **Light** entity, which we'll later query.
 
-```java
+````java
 // ExStart:CreateHierarchy
-Scene s = new Scene();
-Node a = s.getRootNode().createChildNode("a");
+Node a = scene.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");
-s.getRootNode().createChildNode("b");
-Node c = s.getRootNode().createChildNode("c");
+scene.getRootNode().createChildNode("b");
+Node c = scene.getRootNode().createChildNode("c");
 c.createChildNode("c1").addEntity(new Camera("cam"));
 c.createChildNode("c2").addEntity(new Light("light"));
 // ExEnd:CreateHierarchy
-```
+````
 
-### Step 3: Apply XPath‑Like Queries  
+### Step 3: Apply XPath-like Queries  
 
-Now the fun part—using XPath‑style strings to **select objects by name** or type.
+Now the fun part—using XPath-style strings to **select objects by name** or type.
 
-```java
-import java.util.List;
-import com.aspose.threed.*;
-
-// The scene from Step 1
-Scene s = new Scene();
+````java
+import java.util.List;// The scene from Step 1
+scene.getRootNode();
 
 // Select objects that have type Camera or name is 'light' regardless of their location.
-List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+List<Object> objects = scene.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
 
 // Select a single camera object under the child nodes of the node named 'c' under the root node
-A3DObject c1 = (A3DObject) s.getRootNode().selectSingleObject("/c/*/<Camera>");
+A3DObject c1 = (A3DObject) scene.getRootNode().selectSingleObject("/c/*/<Camera>");
 
 // Select the node named 'a1' under the root node, even if 'a1' is not a directly child node
-A3DObject obj = (A3DObject) s.getRootNode().selectSingleObject("a1");
+A3DObject obj = (A3DObject) scene.getRootNode().selectSingleObject("a1");
 
 // Select the node itself, as '/' is selected directly on the root node
-obj = (A3DObject) s.getRootNode().selectSingleObject("/");
-// ExEnd:XPathLikeObjectQueries
-```
+obj = (A3DObject) scene.getRootNode().selectSingleObject("/");
+// ExEnd:XPathLikeObjectQueries```
 
 **Explanation of the key expressions**
 

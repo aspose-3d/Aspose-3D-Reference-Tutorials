@@ -51,52 +51,54 @@ Before we start, make sure you have:
 ## Import Packages
 
 First, import the classes that give you access to the Aspose.3D functionality.
-
-```java
+\u0060\u0060\u0060java
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.Plane;
 import com.aspose.threed.Scene;
 import com.aspose.threed.Vector3;
-```
 
+import java.io.IOException;
+\u0060\u0060\u0060
 ## Step‑by‑Step Guide
-
 ### Step 1: Set Document Directory Path  
 Define where the exported OBJ file will be saved.
 
-```java
+````java
 String MyDir = "Your Document Directory";
-```
+````
 
 Replace `"Your Document Directory"` with the absolute path on your machine (e.g., `C:/3DOutputs/`).
 
 ### Step 2: Initialize the Scene – create 3D scene  
 Create a fresh scene object that will hold all geometry.
 
-```java
+````java
 Scene scene = new Scene();
-```
+````
 
 ### Step 3: Initialize the Plane – how to modify plane  
 Instantiate a `Plane` object that we will later orient.
 
-```java
-Plane plane = new Plane();### Step 4: Set Vector – how to set plane up
+````java
+Plane plane = new Plane();
+````
 
+### Step 4: Set Vector – how to set plane up  
 Define a custom up-vector for the plane. This is the core of **change plane orientation**.
-The vector `(1, 1, 3)` tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.
-
-```java
+The vector `(1, 1, 3)` tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.### Step 5: Complete the Plane Orientation and Export  
+ Define a custom up-vector for the plane. This is the core of **change plane orientation**.\u0060\u0060\u0060\u0060java
 // ExStart:ChangePlaneOrientation
-// Reuse existing MyDir, scene, and plane from previous steps
-plane.setUp(new Vector3(1, 1, 3));
-
-scene.getRootNode().createChildNode(plane);
-
-scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
+try {
+    plane.setUp(new Vector3(1, 1, 3));
+    
+    scene.getRootNode().createChildNode(plane);
+    
+    scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
+} catch (IOException e) {
+    e.printStackTrace();
+}
 // ExEnd:ChangePlaneOrientation
-```
-After this call, you'll find `ChangePlaneOrientation.obj` in the directory you specified, ready for any **aspose 3d export obj** workflow.
+\u0060\u0060\u0060\u0060After this call, you'll find `ChangePlaneOrientation.obj` in the directory you specified, ready for any **aspose 3d export obj** workflow.
 ## Common Issues and Solutions
 
 | Issue | Why It Happens | Fix |

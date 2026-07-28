@@ -47,15 +47,20 @@ Initialize a 3D scene using the Aspose.3D for Java library. This will serve as t
 ```java
 Scene scene = new Scene();
 ```
-
 ## Step 2: Set Up the Camera
 
-Define the camera parameters to capture the scene from the desired perspective. The `setupScene` method is called to configure the camera.
+Define the camera parameters to capture the scene from the desired perspective.
 
-```java
-Camera camera = setupScene(scene);
-```
+````java
+Node light = scene.getRootNode().createChildNode("light", new Light());
+light.getTransform().setTranslation(10, 10, 10);
 
+Camera camera = new Camera();
+scene.getRootNode().createChildNode(camera);
+camera.setNearPlane(0.1);
+camera.getParentNode().getTransform().setTranslation(0, 5, 10);
+camera.setLookAt(Vector3.getZero());
+````
 ## Step 3: Specify Output File
 
 Choose the output file format and provide a filename for the rendered image. In this example, we'll use PNG format.

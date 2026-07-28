@@ -18,8 +18,9 @@
       "priority": "normal",
       "type": "task",
       "assignee": "tutorial_reviewer",
-      "status": "working",
-      "createdAt": "2026-07-28T22:23:55.0089179Z"
+      "status": "resolved",
+      "createdAt": "2026-07-28T22:23:55.0089179Z",
+      "finishedAt": "2026-07-28T23:06:17.8486397Z"
     },
     {
       "id": 3,
@@ -31,7 +32,18 @@
       "status": "resolved",
       "createdAt": "2026-07-28T22:24:25.6567258Z",
       "finishedAt": "2026-07-28T22:24:25.6567258Z"
+    },
+    {
+      "id": 4,
+      "title": "Verify and fix remaining Java tutorial files",
+      "description": "Review and fix remaining 12 Java tutorial files with verification errors: add-animation-properties-to-scenes, read-existing-3d-scenes, basic-rendering, manual-render-targets, render-to-buffered-image, render-to-file, save-custom-mesh-formats, real-time-rendering-swt, optimize-3d-file-saving, and any other files with code structure issues. Focus on fixing code structure problems, duplicate variable declarations, and incorrect API usage patterns.",
+      "priority": "normal",
+      "type": "task",
+      "assignee": "tutorial_reviewer",
+      "status": "resolved",
+      "createdAt": "2026-07-28T23:06:22.4497426Z",
+      "finishedAt": "2026-07-28T23:10:55.9681189Z"
     }
   ],
-  "nextId": 4
+  "nextId": 5
 }

@@ -43,24 +43,23 @@ import com.aspose.threed.Metered;
 import java.io.FileInputStream;
 import java.io.IOException;
 ```
-
 ## Applying a License Using a File
 
 ### Step 1: Create a License Object
 
-Firstly, create a `License` object in your Java code.
+ Firstly, create a `License` object in your Java code.
 
-```java
-License license = new License();
-```
+ ````java
+ License license = new License();
+ ````
 
 ### Step 2: Apply License from File
 
 Specify the path to your license file and set the license using the following code. This demonstrates the **apply license from file** technique.
 
-```java
-license.setLicense("Aspose._3D.lic");
-```
+ ````java
+ license.setLicense("Aspose._3D.lic");
+ ````
 
 ## Applying a License Using a Stream Object
 
@@ -68,19 +67,17 @@ license.setLicense("Aspose._3D.lic");
 
 Similarly, create a `License` object in your Java code.
 
-```java
-License license = new License();
-```
-
-### Step 2: Set License from Stream Object
+ ````java
+ License license2 = new License();
+ ````### Step 2: Set License from Stream Object
 
 Utilize a `FileInputStream` to create a stream and set the license:
 
-```java
-try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
-    license.setLicense(myStream);
-}
-```
+ ````java
+ try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
+     license2.setLicense(myStream);
+ }
+ ````
 
 ## Using Public and Private Keys for Metered Licensing
 
@@ -88,18 +85,17 @@ try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
 
 Initialize a `Metered` license object:
 
-```java
-Metered metered = new Metered();
-```
+ ````java
+ Metered metered = new Metered();
+ ````
 
 ### Step 2: Set Public and Private Keys
 
 Set your public and private keys to enable metered licensing. This covers the **set public private keys** scenario.
 
-```java
-metered.setMeteredKey("your-public-key", "your-private-key");
-```
-
+ ````java
+ metered.setMeteredKey("your-public-key", "your-private-key");
+ ````
 ## Why Setting the License Matters
 
 Applying the correct license removes evaluation watermarks, unlocks premium file formats, and ensures compliance with Aspose’s licensing model. Using the appropriate method (file, stream, or metered) lets you integrate licensing seamlessly into CI/CD pipelines, cloud deployments, or desktop applications.

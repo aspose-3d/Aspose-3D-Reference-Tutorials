@@ -73,23 +73,26 @@ Instantiate a `Node` that will hold the geometry of a cube.
 ```java
 Node cubeNode = new Node("cube");
 ```
-
 ### Step 3: Create Mesh Using Polygon Builder
 
-Generate a mesh for the cube using the helper method in `Common`.
+Generate a mesh for the cube using `PolygonBuilder`.
 
-```java
-Mesh mesh = Common.createMeshUsingPolygonBuilder();
-```
+````java
+Mesh mesh = new Mesh();
+PolygonBuilder builder = new PolygonBuilder(mesh);
+builder.begin();
+builder.addVertex(0);
+builder.addVertex(1);
+builder.addVertex(2);
+builder.addVertex(3);
+builder.addVertex(4);
+builder.addVertex(5);
+builder.addVertex(6);
+builder.addVertex(7);
+builder.end();
 
-### Step 4: Attach Mesh to the Node
-
-Link the geometry to the node so the scene knows what to render.
-
-```java
 cubeNode.setEntity(mesh);
-```
-
+````
 ### Step 5: Set a Custom Translation Matrix (Concatenation Example)
 
 Here we **concatenate transformation matrices** by directly providing a custom `Matrix4`. You could first create separate translation, rotation, and scaling matrices and multiply them, but for brevity we demonstrate a single combined matrix.

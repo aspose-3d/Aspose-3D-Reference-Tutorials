@@ -49,15 +49,18 @@ To get started, create a 3D scene using Aspose.3D.
 ```java
 Scene scene = new Scene();
 ```
-
 ## Step 2: Set Up the Camera
 
 Set up the camera for your scene. This is crucial for defining the perspective and view of the rendered image.
+Node light = scene.getRootNode().createChildNode(
+    "light", new Light());
+light.getTransform().setTranslation(10, 10, 10);
 
-```java
-Camera camera = setupScene(scene);
-```
-
+Camera camera = new Camera();
+scene.getRootNode().createChildNode(camera);
+camera.setNearPlane(0.1);
+camera.getParentNode().getTransform().setTranslation(0, 5, 10);
+camera.setLookAt(Vector3.getZero());````
 ## Step 3: Create a Buffered Image
 
 Now, create a buffered image with specified dimensions and rendering options.
@@ -65,7 +68,7 @@ Now, create a buffered image with specified dimensions and rendering options.
 ```java
 BufferedImage image = new BufferedImage(1024, 1024, BufferedImage.TYPE_3BYTE_BGR);
 ImageRenderOptions opt = new ImageRenderOptions();
-opt.setBackgroundColor(new Color(0x156043));
+opt.setBackgroundColor(new Vector3(0.082, 0.376, 0.263)); // 0x156043
 ```
 
 ## Step 4: Render the Scene

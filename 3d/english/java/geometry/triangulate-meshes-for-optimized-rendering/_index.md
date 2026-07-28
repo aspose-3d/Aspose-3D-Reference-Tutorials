@@ -62,30 +62,24 @@ Create a `Scene` object and open the source file (in this case an FBX file). The
 Scene scene = new Scene();
 scene.open(MyDir + "document.fbx");
 ```
-
 ## Step 3: Iterate Through Nodes
 
 We need to walk the scene graph to locate every mesh node. A `NodeVisitor` lets us traverse the hierarchy without writing our own recursion.
 
-```java
+````java
 scene.getRootNode().accept(new NodeVisitor() {
-    // Your code for node traversal goes here
+    @Override
+    public boolean call(Node node) {
+        Mesh mesh = (Mesh)node.getEntity();
+        if (mesh != null)
+        {
+            Mesh newMesh = PolygonModifier.triangulate(mesh);
+            node.setEntity(newMesh);
+        }
+        return true;
+    }
 });
-```
-
-## Step 4: Triangulate the Mesh
-
-Inside the visitor, cast each node’s entity to a `Mesh`. If a mesh is present, call `PolygonModifier.triangulate` which returns a new, fully triangulated mesh. Replace the original entity with the new one.
-
-```java
-Mesh mesh = (Mesh)node.getEntity();
-if (mesh != null)
-{
-    Mesh newMesh = PolygonModifier.triangulate(mesh);
-    node.setEntity(newMesh);
-}
-```
-
+`````
 ## Step 5: Save the Modified Scene
 
 After all meshes have been processed, write the updated scene back to disk. This example demonstrates **save scene as FBX** using the ASCII format for easy inspection.

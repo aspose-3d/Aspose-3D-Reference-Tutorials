@@ -57,41 +57,66 @@ import java.awt.*;
 ## Master Basic Rendering Techniques
 
 Below is the complete step‑by‑step guide. Each step includes a short explanation followed by the original code block (unchanged).
-
 ### Step 1: Setting up the Scene (how to apply material – camera & lighting)
 
-We create a `Scene` object, add a camera, and configure basic lighting. The helper method returns the configured `Camera` instance.
+We create a `Scene` object, add a camera, and configure basic lighting.
 
-```java
-protected static Camera setupScene(Scene scene) {
-    // Code for setting up camera and lighting
-    // ...
-    return camera;
-}
-```
+````java
+Scene scene = new Scene();
+Node light = scene.getRootNode().createChildNode("light", new Light());
+light.getTransform().setTranslation(10, 10, 10);
 
-### Step 2: Creating a Plane (java 3d graphics basics)
+Camera camera = new Camera();
+scene.getRootNode().createChildNode(camera);
+camera.setNearPlane(0.1);
+camera.getParentNode().getTransform().setTranslation(0, 5, 10);
+camera.setLookAt(Vector3.getZero());
+````### Step 2: Creating a Plane (java 3d graphics basics)
 
 A simple plane gives us a ground reference. We also **apply material** by setting a solid color.
 
-```java
-Node plane = scene.getRootNode().createChildNode("plane", (new Plane(20, 20)).toMesh());
-applyMaterial(plane, new Color(0xff8c00));
+````java
+// Create a plane geometry
+Plane planeObj = new Plane();
+planeObj.setLength(20);
+planeObj.setWidth(20);
+
+// Create the node with the plane's mesh
+Node plane = scene.getRootNode().createChildNode("plane", planeObj.toMesh());
+
+// Create a material and apply it to the node
+PhongMaterial material = new PhongMaterial();
+material.setDiffuseColor(new Vector3(0.545, 0.0, 0.0)); // dark orange
+plane.setMaterial(material);
+
+// Set plane position and shadow properties
 plane.getTransform().setTranslation(0, 0, 0);
 ((Mesh)plane.getEntity()).setReceiveShadows(true);
-```
-
-### Step 3: Adding a Torus (how to add torus)
+````### Step 3: Adding a Torus (how to add torus)
 
 A torus demonstrates how to work with more complex geometry and transparent materials.
 
-```java
-Mesh torusMesh = (new Torus("", 1, 0.4, 50, 50, Math.PI*2)).toMesh();
-Node torus = scene.getRootNode().createChildNode("torus", torusMesh);
-applyMaterial(torus, new Color(0x330c93)).setTransparency(0.3);
-torus.getTransform().setTranslation(2, 1, 1);
-```
+````java
+// Create a torus geometry
+Torus torusObj = new Torus();
+torusObj.setRadius(1);
+torusObj.setTube(0.4);
+torusObj.setRadialSegments(50);
+torusObj.setTubularSegments(50);
+torusObj.setArc(Math.PI * 2);
 
+// Create the node with the torus' mesh
+Node torus = scene.getRootNode().createChildNode("torus", torusObj.toMesh());
+
+// Create a material with transparency and apply it
+PhongMaterial material = new PhongMaterial();
+material.setDiffuseColor(new Vector3(0.2, 0.05, 0.58)); // purple
+material.setTransparency(0.3);
+torus.setMaterial(material);
+
+// Position the torus
+torus.getTransform().setTranslation(2, 1, 1);
+````
 ### Step 4: Incorporating Cylinders (additional shapes)
 
 Here we add a few cylinders with different rotations and materials to enrich the scene.
@@ -100,28 +125,24 @@ Here we add a few cylinders with different rotations and materials to enrich the
 // Code for adding cylinders with specific rotations and materials
 // ...
 ```
-
 ### Step 5: Configuring the Camera (final view)
 
 The camera determines the viewpoint from which the scene is rendered.
 
-```java
+````java
 Camera camera = new Camera();
 scene.getRootNode().createChildNode(camera);
 camera.setNearPlane(0.1);
 camera.getParentNode().getTransform().setTranslation(10, 5, 10);
-camera.setLookAt(Vector3.ORIGIN);
+camera.setLookAt(Vector3.getZero());
 return camera;
-```
-
-## Common Issues and Solutions
+````## Common Issues and Solutions
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
 | Objects appear invisible | Material transparency set to 1.0 or missing light | Reduce transparency (`setTransparency(0.3)`) and ensure a light source exists |
-| Camera looks through the scene | `LookAt` target not set to the origin | Use `camera.setLookAt(Vector3.ORIGIN)` as shown |
-| Meshes don’t receive shadows | `setReceiveShadows(true)` not called on the mesh | Call it on each mesh you want to cast/receive shadows |
-
+| Camera looks through the scene | `LookAt` target not set to the origin | Use `camera.setLookAt(Vector3.getZero())` as shown |
+| Meshes don't receive shadows | `setReceiveShadows(true)` not called on the mesh | Call it on each mesh you want to cast/receive shadows |
 ## Frequently Asked Questions
 
 ### Q1: Where can I find Aspose.3D for Java documentation?
