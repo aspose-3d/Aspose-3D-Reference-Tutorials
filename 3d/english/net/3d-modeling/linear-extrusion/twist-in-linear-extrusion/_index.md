@@ -51,6 +51,7 @@ using Aspose.ThreeD.Utilities;
 We start by defining the shape that will be extruded. In this example we use a rectangle with a small rounding radius to give the edges a subtle curve.
 
 ```csharp
+using Aspose.ThreeD.Profiles;
 // Initialize the base profile to be extruded
 var profile = new RectangleShape()
 {

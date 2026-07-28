@@ -57,6 +57,7 @@ Let's create a mesmerizing 3D object through Linear Extrusion using Aspose.3D. F
 
 ### How to Create Extrusion – Step 1: Initialize the Base Profile
 ```csharp
+using Aspose.ThreeD.Profiles;
 var profile = new RectangleShape()
 {
     RoundingRadius = 0.3

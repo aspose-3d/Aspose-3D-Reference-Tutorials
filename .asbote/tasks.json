@@ -10,7 +10,28 @@
       "status": "resolved",
       "createdAt": "2026-07-04T07:32:56.0221728Z",
       "finishedAt": "2026-07-04T08:11:44.1494541Z"
+    },
+    {
+      "id": 2,
+      "title": "Verify Java tutorial files from commit 8565a2f5",
+      "description": "Review 7 modified Java tutorial files from commit 8565a2f5: compress-meshes-google-draco, xpath-like-object-queries, change-plane-orientation, compress-3d-scenes, get-scene-information, managing-3d-properties-scenes, save-custom-mesh-formats",
+      "priority": "normal",
+      "type": "task",
+      "assignee": "tutorial_reviewer",
+      "status": "working",
+      "createdAt": "2026-07-28T22:23:55.0089179Z"
+    },
+    {
+      "id": 3,
+      "title": "Review .NET code snippets in tutorials",
+      "description": "Complete review of all .NET (C#) code snippets in 3d/english/net/_index.md files, verify against Aspose.3D 26.6.0, and fix any API errors. All 86 files reviewed, 6 files fixed.",
+      "priority": "normal",
+      "type": "task",
+      "assignee": "ag-VpMdumLi",
+      "status": "resolved",
+      "createdAt": "2026-07-28T22:24:25.6567258Z",
+      "finishedAt": "2026-07-28T22:24:25.6567258Z"
     }
   ],
-  "nextId": 2
+  "nextId": 4
 }

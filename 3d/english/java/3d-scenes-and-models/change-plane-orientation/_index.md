@@ -81,20 +81,14 @@ Scene scene = new Scene();
 Instantiate a `Plane` object that we will later orient.
 
 ```java
-Plane plane = new Plane();
-```
-### Step 4: Set Vector – how to set plane up  
-Define a custom up‑vector for the plane. This is the core of **change plane orientation**.
-The vector `(1, 1, 3)` tilts the plane away from the default XY‑plane, giving you a sloped surface you can later **export obj java**.
+Plane plane = new Plane();### Step 4: Set Vector – how to set plane up
+
+Define a custom up-vector for the plane. This is the core of **change plane orientation**.
+The vector `(1, 1, 3)` tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.
 
 ```java
 // ExStart:ChangePlaneOrientation
-String MyDir = "Your Document Directory";
-
-Scene scene = new Scene();
-
-Plane plane = new Plane();
-
+// Reuse existing MyDir, scene, and plane from previous steps
 plane.setUp(new Vector3(1, 1, 3));
 
 scene.getRootNode().createChildNode(plane);
@@ -102,7 +96,6 @@ scene.getRootNode().createChildNode(plane);
 scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
 // ExEnd:ChangePlaneOrientation
 ```
-
 After this call, you'll find `ChangePlaneOrientation.obj` in the directory you specified, ready for any **aspose 3d export obj** workflow.
 ## Common Issues and Solutions
 

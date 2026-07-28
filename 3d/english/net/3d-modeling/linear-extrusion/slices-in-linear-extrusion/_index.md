@@ -62,6 +62,7 @@ using Aspose.ThreeD.Utilities;
 We start with a simple rectangular shape and give it a small rounding radius so the edges aren’t perfectly sharp.
 
 ```csharp
+using Aspose.ThreeD.Profiles;
 // ExStart:InitializeBaseProfile
 var profile = new RectangleShape()
 {

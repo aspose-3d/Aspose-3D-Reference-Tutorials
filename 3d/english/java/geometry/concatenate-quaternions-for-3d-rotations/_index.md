@@ -114,6 +114,7 @@ Export the scene so you can view the result in any FBX‑compatible viewer.
 **Direct answer:** Use `scene.save("output.fbx", FileFormat.FBX7400ASCII)` to write the scene; the FBX ASCII format is widely supported by tools like Blender and Autodesk Maya.  
 
 ```java
+String MyDir = "Your Document Directory";
 MyDir = MyDir + "test_out.fbx";
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 // ExEnd:ConcatenateQuaternions
