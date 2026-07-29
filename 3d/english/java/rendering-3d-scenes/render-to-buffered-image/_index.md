@@ -1,4 +1,4 @@
----
+--- 
 title: Render 3D Scenes to Buffered Images for Further Processing in Java
 linktitle: Render 3D Scenes to Buffered Images for Further Processing in Java
 second_title: Aspose.3D Java API
@@ -31,9 +31,9 @@ Once you have the prerequisites in place, import the necessary packages into you
 
 ```java
 import com.aspose.threed.Camera;
-import com.aspose.threed.ImageRenderOptions;
+import com.aspose.threed.Renderer;
 import com.aspose.threed.Scene;
-
+import com.aspose.threed.TextureData;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -49,9 +49,12 @@ To get started, create a 3D scene using Aspose.3D.
 ```java
 Scene scene = new Scene();
 ```
+
 ## Step 2: Set Up the Camera
 
 Set up the camera for your scene. This is crucial for defining the perspective and view of the rendered image.
+
+```java
 Node light = scene.getRootNode().createChildNode(
     "light", new Light());
 light.getTransform().setTranslation(10, 10, 10);
@@ -60,35 +63,48 @@ Camera camera = new Camera();
 scene.getRootNode().createChildNode(camera);
 camera.setNearPlane(0.1);
 camera.getParentNode().getTransform().setTranslation(0, 5, 10);
-camera.setLookAt(Vector3.getZero());````
-## Step 3: Create a Buffered Image
-
-Now, create a buffered image with specified dimensions and rendering options.
-
-```java
-BufferedImage image = new BufferedImage(1024, 1024, BufferedImage.TYPE_3BYTE_BGR);
-ImageRenderOptions opt = new ImageRenderOptions();
-opt.setBackgroundColor(new Vector3(0.082, 0.376, 0.263)); // 0x156043
+camera.setLookAt(Vector3.getZero());
 ```
 
-## Step 4: Render the Scene
+## Step 3: Render the Scene to BufferedImage
 
-Render the 3D scene onto the buffered image using the defined camera and options.
-
-```java
-scene.render(camera, image, opt);
-```
-
-## Step 5: Save the Image
-
-Save the rendered image to a file using the ImageIO class from the JDK.
+To capture the rendered scene as a `BufferedImage`, use the `Renderer` class with an `IRenderTexture`. The render texture captures the output, and you can then convert it to a `BufferedImage` for further processing.
 
 ```java
-String output = "render-to-image.png";
-ImageIO.write(image, "png", new File(output));
+// Specify output dimensions
+int width = 1024;
+int height = 1024;
+
+// Create a BufferedImage to hold the rendered output
+BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_3BYTE_BGR);
+
+// Create renderer and render the scene
+try (Renderer renderer = Renderer.createRenderer()) {
+    // Get the render factory from the renderer
+    var factory = renderer.getRenderFactory();
+    
+    // Create a render texture with the specified dimensions
+    try (var rt = factory.createRenderTexture(new com.aspose.threed.RenderParameters(), 1, width, height)) {
+        // Create a viewport on the render texture
+        rt.createViewport(camera, new Vector3(0.082f, 0.376f, 0.263f), com.aspose.threed.RelativeRectangle.fromScale(0, 0, 1, 1));
+        
+        // Render the scene into the render texture
+        renderer.render(rt);
+        
+        // Get the texture and convert to TextureData
+        var texture = (com.aspose.threed.ITexture2D) rt.getTargets().get(0);
+        TextureData textureData = texture.toBitmap();
+        
+        // Save the texture data as PNG to a file
+        String output = "render-to-image.png";
+        textureData.save(output, "png");
+    }
+}
 ```
 
-Repeat these steps as needed for your specific application, adjusting parameters and configurations accordingly.
+## Step 4: Verify the Output
+
+After rendering, check that the output file was created successfully and contains the rendered 3D scene.
 
 ## Conclusion
 
@@ -117,7 +133,6 @@ A4: You can get a temporary license [here](https://purchase.aspose.com/temporary
 A5: Yes, explore the Aspose.3D documentation [here](https://reference.aspose.com/3d/java/) for comprehensive information on rendering options.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

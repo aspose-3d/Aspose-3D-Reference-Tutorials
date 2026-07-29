@@ -33,10 +33,6 @@ To get started, import the required packages into your Java project. The followi
 import com.aspose.threed.*;
 
 
-import javax.imageio.ImageIO;
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.io.File;
 import java.io.IOException;
 ```
 
@@ -71,10 +67,10 @@ String output = "render-to-file.png";
 
 ## Step 4: Render the Scene
 
-Utilize the `render` method to transform your 3D scene into a 2D image file. Adjust the dimensions and output format as needed.
+Utilize the `render` method to transform your 3D scene into a 2D image file. The `render` method takes the camera, output file path, dimensions, and format as parameters.
 
 ```java
-scene.render(camera, output, new Dimension(1024, 1024), "png");
+scene.render(camera, output, new com.aspose.threed.Vector2(1024, 1024), "png");
 ```
 
 ## Conclusion
