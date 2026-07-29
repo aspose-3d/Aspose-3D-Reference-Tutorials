@@ -60,29 +60,27 @@ Below is the complete step‑by‑step guide. Each step includes a short explana
 ### Step 1: Setting up the Scene (how to apply material – camera & lighting)
 
 We create a `Scene` object, add a camera, and configure basic lighting.
-
-````java
+\u0060\u0060\u0060\u0060java
+// Create a scene and add a camera with lighting
 Scene scene = new Scene();
-Node light = scene.getRootNode().createChildNode("light", new Light());
-light.getTransform().setTranslation(10, 10, 10);
+Node light = scene.getRootNode().createChildNode(\u0022light\u0022, new Light());light.getTransform().setTranslation(10, 10, 10);
 
 Camera camera = new Camera();
 scene.getRootNode().createChildNode(camera);
 camera.setNearPlane(0.1);
-camera.getParentNode().getTransform().setTranslation(0, 5, 10);
-camera.setLookAt(Vector3.getZero());
-````### Step 2: Creating a Plane (java 3d graphics basics)
+camera.getParentNode().getTransform().setTranslation(0, 5, 10);camera.setLookAt(Vector3.getZero());
+\u0060\u0060\u0060\u0060
 
+### Step 2: Creating a Plane (java 3d graphics basics)
 A simple plane gives us a ground reference. We also **apply material** by setting a solid color.
 
-````java
-// Create a plane geometry
+````java// Create a plane geometry
 Plane planeObj = new Plane();
 planeObj.setLength(20);
 planeObj.setWidth(20);
 
 // Create the node with the plane's mesh
-Node plane = scene.getRootNode().createChildNode("plane", planeObj.toMesh());
+Node plane = scene.getRootNode().createChildNode(\u0022plane\u0022, planeObj.toMesh());
 
 // Create a material and apply it to the node
 PhongMaterial material = new PhongMaterial();
@@ -92,8 +90,9 @@ plane.setMaterial(material);
 // Set plane position and shadow properties
 plane.getTransform().setTranslation(0, 0, 0);
 ((Mesh)plane.getEntity()).setReceiveShadows(true);
-````### Step 3: Adding a Torus (how to add torus)
+\u0060\u0060\u0060\u0060
 
+### Step 3: Adding a Torus (how to add torus)
 A torus demonstrates how to work with more complex geometry and transparent materials.
 
 ````java
@@ -114,11 +113,10 @@ material.setDiffuseColor(new Vector3(0.2, 0.05, 0.58)); // purple
 material.setTransparency(0.3);
 torus.setMaterial(material);
 
-// Position the torus
-torus.getTransform().setTranslation(2, 1, 1);
-````
-### Step 4: Incorporating Cylinders (additional shapes)
+// Position the torustorus.getTransform().setTranslation(2, 1, 1);
+\u0060\u0060\u0060\u0060
 
+### Step 4: Incorporating Cylinders (additional shapes)
 Here we add a few cylinders with different rotations and materials to enrich the scene.
 
 ```java
@@ -133,11 +131,11 @@ The camera determines the viewpoint from which the scene is rendered.
 Camera camera = new Camera();
 scene.getRootNode().createChildNode(camera);
 camera.setNearPlane(0.1);
-camera.getParentNode().getTransform().setTranslation(10, 5, 10);
-camera.setLookAt(Vector3.getZero());
+camera.getParentNode().getTransform().setTranslation(10, 5, 10);camera.setLookAt(Vector3.getZero());
 return camera;
-````## Common Issues and Solutions
+\u0060\u0060\u0060\u0060
 
+## Common Issues and Solutions
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
 | Objects appear invisible | Material transparency set to 1.0 or missing light | Reduce transparency (`setTransparency(0.3)`) and ensure a light source exists |

@@ -1,55 +1,46 @@
 ---
-date: 2026-03-21
-description: Pelajari cara mengubah orientasi bidang dalam adegan 3D menggunakan Aspose.3D
-  untuk .NET. Ikuti panduan langkah demi langkah kami untuk mengekspor model 3D OBJ
-  dan memutar bidang 3D dengan mudah.
-linktitle: Changing Plane Orientation in 3D Scenes
+title: Add Camera to Scene with Aspose.3D – XPath Queries
+linktitle: XPath-Like Object Queries
 second_title: Aspose.3D .NET API
-title: Ubah Orientasi Bidang dalam Adegan 3D – Aspose.3D untuk .NET
-url: /id/net/3d-modeling/change-plane-orientation/
-weight: 10
+description: Learn how to add camera to scene and manipulate 3D objects using Aspose.3D for .NET. Explore XPath‑like queries, select node by name and more.
+weight: 24
+url: /net/geometry-and-hierarchy/xpath-like-object-queries/
+date: 2026-01-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ubah Orientasi Pesawat dalam Adegan 3D
+# Add Camera to Scene with Aspose.3D – XPath Queries
 
-## Perkenalan
+## Introduction
+In this tutorial you’ll discover how to **add a camera to a scene** and work with powerful XPath‑like object queries in Aspose.3D for .NET. Whether you need to **select node by name**, **select single object**, or simply **add light to scene**, the steps below will guide you through creating, querying, and manipulating 3D objects with clear, real‑world examples.
 
-Dalam tutorial komprehensif ini Anda akan belajar **cara mengubah orientasi bidang** dalam adegan 3‑D dengan Aspose.3D untuk .NET. Baik Anda sedang membangun game, penampil CAD, atau visualisasi ilmiah, mengontrol arah bidang sangat penting untuk rendering yang akurat dan mengekspor yang tepat dari file model 3‑D OBJ. Mari kita jalani proses bersama, langkah demi langkah.
+## Quick Answers
+- **How do I add a camera to a scene?** Use `c.CreateChildNode("c1").AddEntity(new Camera("cam"));`
+- **Can I query objects with XPath syntax?** Yes – `SelectObjects` and `SelectSingleObject` support XPath‑like expressions.
+- **What if I need to select a node by name?** Use `SelectSingleObject("a1")` or `"//a1"` style paths.
+- **How do I add a light to the scene?** Call `AddEntity(new Light("light"))` on a child node.
+- **Which .NET versions are supported?** Aspose.3D works with .NET Framework 2.0+ and .NET Core/5/6.
 
-## Jawaban Cepat
-- **Apa arti “mengubah orientasi bidang”?** Menyesuaikan bidang up‑vector untuk memutarnya dalam ruang 3‑D.
-- **Format file apa yang digunakan untuk ekspor?** Wavefront OBJ (`.obj`).
-- ** membantu saya memutar bidang 3D secara langsung?** Ya – ubah vektor `Up` dari entitas `Plane`.
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.
-- **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+## What is “add camera to scene” in Aspose.3D?
+Adding a camera creates a viewpoint from which the scene can be rendered or inspected. The camera behaves like any other 3D entity, so you can position, rotate, and query it just like meshes or lights.
 
-## Apa yang dimaksud dengan Perubahan Orientasi Bidang?
-Mengubah orientasi bidang mengacu pada definisi ulang bidang normal atau bidang vektor atas sehingga mengarah ke arah yang berbeda dalam sistem koordinat 3‑D. Operasi ini secara efektif **memutar objek plane 3D** tanpa mengubah ukuran atau posisinya.
+## Why use XPath‑like object queries?
+XPath‑like queries let you locate objects based on type, name, or custom attributes without manually traversing the node hierarchy. This makes **manipulating 3D objects** fast, readable, and maintainable—especially in complex scenes.
 
-## Mengapa Mengubah Orientasi Bidang?
-- **Penyelarasan visual yang akurat** – memastikan tekstur dan pencahayaan berfungsi seperti yang diharapkan.
-- **Ekspor yang tepat** – beberapa alat hilir mengandalkan orientasi bidang tertentu saat mengimpor file OBJ.
-- **Fleksibilitas** – Anda dapat menggunakan kembali geometri yang sama dengan orientasi berbeda untuk berbagai tampilan.
+## Prerequisites
+- Basic knowledge of the .NET framework
+- Visual Studio installed
+- Aspose.3D library referenced in your project (latest version)
 
-## Prasyarat
-
-- Aspose.3D untuk .NET: Pastikan Anda telah menginstal pustaka tersebut. Jika belum, unduh dari [di sini](https://releases.aspose.com/3d/net/).
-- Direktori Dokumen Anda: Siapkan folder tempat tutorial akan membaca/menulis file.
-
-Setelah kami membahas dasar-dasarnya, mari kita selami kode.
-
-## Impor Namespace
-
-Dalam proyek .NET Anda, dimulai dengan mengimpor namespace yang diperlukan:
+## Import Namespaces
+Start by importing the required namespaces so you have access to all Aspose.3D classes.
 
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
-using Aspose.ThreeD.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,73 +48,101 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-Namespace ini menyediakan kelas dan metode penting untuk bekerja dengan adegan 3D di Aspose.3D.
+## Step‑by‑Step Guide
 
-## Langkah 1: Inisialisasi Objek Pemandangan
+### Step 1: Open Visual Studio
+Create a new C# project or open an existing one where you want to work with 3D scenes.
 
-```csharp
-// The path to the data directory
-string dataDir = "Your Document Directory";
-
-// Initialize scene object
-Scene scene = new Scene();
-```
-
-Kode ini menyiapkan lingkungan untuk adegan 3‑D Anda.
-
-## Langkah 2: Tetapkan Vektor untuk Orientasi Bidang (Putar Bidang 3D)
+### Step 2: Create a New Scene (Add Camera to Scene)
+Instantiate a fresh `Scene` object that will serve as the canvas for all subsequent objects.
 
 ```csharp
-// Set Vector
-scene.RootNode.CreateChildNode(new Plane() { Up = new Vector3(1, 1, 3) });
+Scene s = new Scene();
 ```
 
-Di sini, kami membuat node anak yang mewakili sebuah bidang dan menyesuaikan orientasinya menggunakan vektor `Up`. Mengubah nilai vektor memutar bidang 3D ke sudut yang diinginkan.
-
-## Langkah 3: Simpan dan Ekspor OBJ Model 3D
+### Step 3: Populate the Scene – Add Nodes, Camera, and Light
+Build a simple hierarchy, then **add a camera** and **add light to scene** to illustrate querying later.
 
 ```csharp
-// This will generate a plane that has customized orientation
-scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
+var a = s.RootNode.CreateChildNode("a");
+a.CreateChildNode("a1");
+a.CreateChildNode("a2");
+s.RootNode.CreateChildNode("b");
+var c = s.RootNode.CreateChildNode("c");
+c.CreateChildNode("c1").AddEntity(new Camera("cam"));
+c.CreateChildNode("c2").AddEntity(new Light("light"));
 ```
 
-Menyimpan adegan menghasilkan file OBJ yang mencerminkan orientasi bidang baru, memungkinkan Anda **mengekspor model 3D OBJ** untuk digunakan di aplikasi lain.
+The resulting hierarchy looks like this:
 
-Ulangi langkah-langkah ini sesuai kebutuhan untuk bidang tambahan atau orientasi yang berbeda.
+```
+- Root
+    - a
+        - a1
+        - a2
+    - b
+    - c
+        - c1
+            - cam
+        - c2
+            - light
+```
 
-## Masalah Umum dan Solusinya
-- **Bidang muncul datar atau vertikal:** Pastikan vektor `Naik` tidak kolinear dengan bidang normal. Sesuaikan komponen vektor untuk mencapai kemiringan yang diinginkan.
-- **OBJ yang diekspor terlihat kosong:** Pastikan jalur `dataDir` diakhiri dengan batas (`\\` atau `/`) dan Anda memiliki izin menulis.
-- **Rotasi tak terduga:** Ingat bahwa vektor `Up` mendefinisikan pesawat sumbu Y lokal; memodifikasinya memutar bidang di sekitar sumbu X-nya.
+### Step 4: Select Objects – How to query 3D objects
+Use an XPath‑like expression to fetch all cameras **or** any node named “light”.
 
-## Pertanyaan yang Sering Diajukan
+```csharp
+var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+```
 
-**Q1: ​​Apakah Aspose.3D kompatibel dengan pustaka 3D lainnya?**
-A1: Aspose.3D dapat bekerja secara mulus dengan pustaka 3D populer lainnya, memberikan permulaan dalam pengembangan Anda.
+### Step 5: Select a Single Object – Select single object by path
+Retrieve the first camera node directly with a concise path.
 
-**Q2: Bisakah saya menggunakan Aspose.3D untuk proyek komersial?**
-A2: Tentu saja! Aspose.3D menawarkan opsi lisensi untuk penggunaan pribadi maupun komersial. Lihat di [di sini](https://purchase.aspose.com/buy).
+```csharp
+var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
+```
 
-**Q3: Bagaimana saya mendapatkan dukungan untuk Aspose.3D?**
-A3: Kunjungi [Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan komunitas dan diskusi.
+### Step 6: Select Node by Name – Quick way to locate a node
+If you know the node’s name, you can fetch it without caring about its position in the hierarchy.
 
-**Q4: Apakah tersedia versi percobaan gratis?**
-A4: Ya, Anda dapat menjelajahi Aspose.3D dengan percobaan gratis [di sini](https://releases.aspose.com/).
+```csharp
+var obj = s.RootNode.SelectSingleObject("a1");
+```
 
-**Q5: Bagaimana saya dapat menemukan detail dokumentasi?**
-A5: Lihat dokumentasi [di sini](https://reference.aspose.com/3d/net/) untuk informasi mendalam.
+### Step 7: Select the Root Node – Useful for global operations
+Sometimes you need a reference to the scene’s root for bulk transformations.
 
-**Q6: Bisakah saya mengubah orientasi bidang setelah menyimpan?**
-A6: Anda harus memodifikasi vektor `Up` sebelum memanggil `scene.Save`; file OBJ mencerminkan keadaan pada saat penyimpanan.
+```csharp
+obj = s.RootNode.SelectSingleObject("/");
+```
 
-**Q7: Apakah mengubah orientasi mengubah koordinat tekstur?**
-A7: Perubahan orientasi hanya mempengaruhi bidang geometri; tekstur koordinat tetap tidak berubah kecuali Anda secara eksplisit memodifikasinya.
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **Camera not appearing in query results** | Ensure the node’s `Entity` is a `Camera` and the name matches the query case‑sensitively. |
+| **SelectSingleObject returns null** | Verify the XPath expression syntax; use leading `/` for absolute paths. |
+| **Light does not affect rendering** | Remember that lighting calculations require a rendering engine; the Light entity alone does not render anything. |
+| **Performance slowdown on large scenes** | Limit queries to sub‑trees (`RootNode.SelectObjects("//c/*")`) or cache results when possible. |
 
----
+## Frequently Asked Questions
 
-**Terakhir Diperbarui:** 21-03-2026
-**Diuji Dengan:** Aspose.3D 24.12 untuk .NET
-**Penulis:** Berasumsi  
+**Q: Is Aspose.3D compatible with all .NET versions?**  
+A: Aspose.3D supports .NET Framework 2.0 and higher, as well as .NET Core, .NET 5, and .NET 6.
+
+**Q: Can I use Aspose.3D for both 3D modeling and rendering?**  
+A: Absolutely. The library provides tools for creating, editing, and rendering 3D models.
+
+**Q: Are there licensing constraints for the free trial?**  
+A: The trial version includes a limited feature set; a full license is required for production use.
+
+**Q: How can I get community support for Aspose.3D?**  
+A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for tips, examples, and help from other developers.
+
+**Q: What advantages does Aspose.3D offer over other 3D libraries for .NET?**  
+A: It combines a rich API for object queries, robust scene management, and cross‑platform compatibility without needing external dependencies.
+
+## Conclusion
+You’ve now learned how to **add a camera to a scene**, **add light to scene**, and **query 3D objects** using XPath‑like syntax in Aspose.3D for .NET. These techniques let you efficiently manipulate complex hierarchies, select nodes by name, and retrieve single objects—all essential for modern 3D applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -131,3 +150,9 @@ A7: Perubahan orientasi hanya mempengaruhi bidang geometri; tekstur koordinat te
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-25  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose

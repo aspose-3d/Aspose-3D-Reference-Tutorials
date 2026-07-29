@@ -86,13 +86,10 @@ c.createChildNode("c2").addEntity(new Light("light"));
 ### Step 3: Apply XPath-like Queries  
 
 Now the fun part—using XPath-style strings to **select objects by name** or type.
+\u0060\u0060\u0060\u0060java
+// The scene from Step 1
 
-````java
-import java.util.List;// The scene from Step 1
-scene.getRootNode();
-
-// Select objects that have type Camera or name is 'light' regardless of their location.
-List<Object> objects = scene.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+// Select objects that have type Camera or name is \u0027light\u0027 regardless of their location.List<Object> objects = scene.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
 
 // Select a single camera object under the child nodes of the node named 'c' under the root node
 A3DObject c1 = (A3DObject) scene.getRootNode().selectSingleObject("/c/*/<Camera>");
@@ -101,9 +98,8 @@ A3DObject c1 = (A3DObject) scene.getRootNode().selectSingleObject("/c/*/<Camera>
 A3DObject obj = (A3DObject) scene.getRootNode().selectSingleObject("a1");
 
 // Select the node itself, as '/' is selected directly on the root node
-obj = (A3DObject) scene.getRootNode().selectSingleObject("/");
-// ExEnd:XPathLikeObjectQueries```
-
+obj = (A3DObject) scene.getRootNode().selectSingleObject("/");// ExEnd:XPathLikeObjectQueries
+\u0060\u0060\u0060
 **Explanation of the key expressions**
 
 - `//*[(@Type = 'Camera') or (@Name = 'light')]` – Finds every object in the scene whose **type** attribute equals `Camera` **or** whose **name** attribute equals `light`. This is a classic example of **select objects by name** (and by type).

@@ -1,153 +1,140 @@
 ---
+title: "How to Change Plane Orientation and Export OBJ in Java"
+linktitle: "How to Change Plane Orientation and Export OBJ in Java"
+second_title: "Aspose.3D Java API"
+description: "Learn how to change plane orientation and export OBJ in Java using Aspose.3D. Step‑by‑step guide to export 3D model OBJ files."
+weight: 10
+url: /java/3d-scenes-and-models/change-plane-orientation/
 date: 2026-04-29
-description: Aspose.3D を使用して Java で平面の向きを変更し、OBJ をエクスポートする方法を学びましょう。3D モデルの OBJ ファイルをエクスポートするステップバイステップガイド。
 keywords:
 - change plane orientation
 - create sloped plane
 - export obj java
 - aspose 3d export obj
-linktitle: Javaで平面の向きを変更し、OBJをエクスポートする方法
-second_title: Aspose.3D Java API
-title: Javaで平面の向きを変更し、OBJをエクスポートする方法
-url: /ja/java/3d-scenes-and-models/change-plane-orientation/
-weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Javaで平面の向きを変更しOBJをエクスポートする方法
+# How to Change Plane Orientation and Export OBJ in Java
 
-## はじめに
+## Introduction
 
-このチュートリアルでは、Aspose.3D Java API を使用して Java から **平面の向きを変更** し、**OBJ** ファイルをエクスポートする方法を学びます。平面の up‑vector を調整することで、**create 3D scene** ワークフロー内でオブジェクトの配置を細かく制御でき、正確な位置決めが重要なゲーム、シミュレーション、建築ビジュアライゼーションに最適です。
+In this tutorial you’ll discover **how to change plane orientation** and **export OBJ** files from Java using the Aspose.3D Java API. Adjusting a plane’s up‑vector gives you fine‑grained control over object placement inside a **create 3D scene** workflow—perfect for games, simulations, and architectural visualizations where exact positioning matters.
 
-## クイック回答
-- **“export OBJ” とは何ですか？** 3‑D シーンを Wavefront OBJ 形式に変換することを意味し、広くサポートされているメッシュファイルタイプです。  
-- **なぜ平面の向きを調整するのですか？** 平面の up‑vector を変更することで、シーン内でジオメトリを正確に配置できます。  
-- **コードを実行するのにライセンスは必要ですか？** 開発には無料トライアルで動作しますが、製品版には商用ライセンスが必要です。  
-- **サポートされている Java のバージョンは？** Aspose.3D は Java 8 以降で動作します。  
-- **他の形式にもエクスポートできますか？** はい、API は FBX、STL などもサポートしています。
+## Quick Answers
+- **What does “export OBJ” mean?** It means converting a 3‑D scene into the Wavefront OBJ format, a universally supported mesh file type.  
+- **Why adjust plane orientation?** Changing the plane’s up‑vector lets you align geometry exactly where you need it in the scene.  
+- **Do I need a license to run the code?** A free trial works for development; a commercial license is required for production.  
+- **Which Java version is supported?** Aspose.3D works with Java 8 and newer.  
+- **Can I export other formats?** Yes – the API also supports FBX, STL, and more.
 
-## 「平面の向きを変更する」とは何ですか？
+## What is “change plane orientation”?
+Changing plane orientation is the process of redefining a plane’s **up‑vector** so that the plane tilts away from the default XY‑plane. This lets you **create sloped plane** geometry such as ramps, roofs, or custom reference planes before exporting the model.
 
-平面の向きを変更するとは、平面の **up‑vector** を再定義して、デフォルトの XY 平面から傾けるプロセスです。これにより、モデルをエクスポートする前に、ランプや屋根、カスタム参照平面などの **sloped plane** ジオメトリを作成できます。
+## Why modify plane orientation?
+Altering the plane’s orientation (using **how to set plane up**) lets you:
 
-## なぜ平面の向きを変更するのか？
+* Align objects with custom axes instead of the default world axes.  
+* Simulate tilted surfaces such as ramps, roofs, or camera reference planes.  
+* Ensure that exported OBJ meshes match the visual intent of your design, making the **export 3d model obj** step reliable.
 
-平面の向きを変更する（**how to set plane up** を使用）ことで、次のことが可能になります：
+## Prerequisites
 
-* デフォルトのワールド軸ではなく、カスタム軸でオブジェクトを整列させる。  
-* ランプ、屋根、カメラの参照平面など、傾斜した表面をシミュレートする。  
-* エクスポートされた OBJ メッシュがデザインの視覚的意図と一致するようにし、**export 3d model obj** 手順を信頼できるものにする。
+Before we start, make sure you have:
 
-## 前提条件
+- A basic understanding of Java programming.  
+- Aspose.3D for Java installed – download it [here](https://releases.aspose.com/3d/java/).  
+- A Java IDE or build tool (e.g., IntelliJ IDEA, Maven, or Gradle) ready for coding.
 
-開始する前に、以下を確認してください：
+## Import Packages
 
-- Java プログラミングの基本的な理解。  
-- Aspose.3D for Java がインストールされていること – こちらからダウンロードしてください [here](https://releases.aspose.com/3d/java/)。  
-- コーディング用に Java IDE またはビルドツール（例: IntelliJ IDEA、Maven、Gradle）が用意されていること。
-
-## パッケージのインポート
-
-まず、Aspose.3D の機能にアクセスできるクラスをインポートします。
-
-```java
-import com.aspose.threed.FileFormat;
+First, import the classes that give you access to the Aspose.3D functionality.\u0060\u0060\u0060javaimport com.aspose.threed.FileFormat;
 import com.aspose.threed.Plane;
 import com.aspose.threed.Scene;
 import com.aspose.threed.Vector3;
-```
 
-## ステップバイステップガイド
+import java.io.IOException;\u0060\u0060\u0060
 
-### 手順 1: ドキュメントディレクトリパスの設定  
-エクスポートされる OBJ ファイルの保存先を定義します。
+## Step-by-Step Guide### Step 1: Set Document Directory Path  
+Define where the exported OBJ file will be saved.
 
-```java
+````java
 String MyDir = "Your Document Directory";
-```
+````
 
-`"Your Document Directory"` を、マシン上の絶対パス（例: `C:/3DOutputs/`）に置き換えてください。
+Replace `"Your Document Directory"` with the absolute path on your machine (e.g., `C:/3DOutputs/`).
 
-### 手順 2: シーンの初期化 – 3D シーンの作成  
-すべてのジオメトリを保持する新しいシーンオブジェクトを作成します。
+### Step 2: Initialize the Scene – create 3D scene  
+Create a fresh scene object that will hold all geometry.
 
-```java
+````java
 Scene scene = new Scene();
-```
+````
 
-### 手順 3: 平面の初期化 – 平面の変更方法  
-後で向きを設定する `Plane` オブジェクトをインスタンス化します。
+### Step 3: Initialize the Plane – how to modify plane  
+Instantiate a `Plane` object that we will later orient.
 
-```java
+````java
 Plane plane = new Plane();
-```
+````
 
-### 手順 4: ベクトルの設定 – 平面の up を設定する方法  
-平面用のカスタム up‑vector を定義します。これは **change plane orientation** の核心です。
+### Step 4: Set Vector – how to set plane up  
+Define a custom up-vector for the plane. This is the core of **change plane orientation**.
+The vector `(1, 1, 3)` tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.### Step 5: Complete the Plane Orientation and Export  
+ Define a custom up-vector for the plane. This is the core of **change plane orientation**.\u0060\u0060\u0060\u0060java
+// ExStart:ChangePlaneOrientation
+try {
+    plane.setUp(new Vector3(1, 1, 3));
+    
+    scene.getRootNode().createChildNode(plane);
+    
+    scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
+} catch (IOException e) {
+    e.printStackTrace();
+}// ExEnd:ChangePlaneOrientation
+\u0060\u0060\u0060
 
-```java
-plane.setUp(new Vector3(1, 1, 3));
-```
+After this call, you'll find \u0060ChangePlaneOrientation.obj\u0060 in the directory you specified, ready for any **aspose 3d export obj** workflow.## Common Issues and Solutions
 
-ベクトル `(1, 1, 3)` は平面をデフォルトの XY 平面から傾け、後で **export obj java** できる傾斜面を提供します。
-
-### 手順 5: 平面の生成 – シーンに平面を追加  
-平面をルートノードにアタッチし、シーン階層の一部にします。
-
-```java
-scene.getRootNode().createChildNode(plane);
-```
-
-### 手順 6: シーンの保存 – OBJ ファイルのエクスポート  
-向きを設定した平面を含むシーン全体を OBJ ファイルにエクスポートします。
-
-```java
-scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
-```
-
-この呼び出しの後、指定したディレクトリに `ChangePlaneOrientation.obj` が作成され、任意の **aspose 3d export obj** ワークフローで使用できるようになります。
-
-## よくある問題と解決策
-
-| 問題 | 発生理由 | 対策 |
+| Issue | Why It Happens | Fix |
 |-------|----------------|-----|
-| **File not found** エラー（保存時） | `MyDir` が存在しないか、書き込み権限がありません | 事前にフォルダーを作成するか、適切な権限を持つ絶対パスを使用してください。 |
-| ビューアで平面が平坦に表示される | ベクトルがデフォルトの up‑vector と同一直線上にある | 非平行なベクトル（例: `(1, 0, 1)`）を選択して、傾斜が見えるようにしてください。 |
-| OBJ ファイルの読み込み時にテクスチャが欠落している | シーンにテクスチャが追加されていなかった | 必要に応じて、エクスポート前にジオメトリにマテリアル/テクスチャを付与してください。 |
+| **File not found** error when saving | `MyDir` does not exist or lacks write permission | Create the folder beforehand or use an absolute path with proper permissions. |
+| Plane appears flat in the viewer | Vector is collinear with default up‑vector | Choose a non‑parallel vector (e.g., `(1, 0, 1)`) to see a visible tilt. |
+| OBJ file loads with missing textures | Textures were never added to the scene | Attach material/texture to geometry before exporting if needed. |
 
-## よくある質問
+## Frequently Asked Questions
 
-**Q: Aspose.3D for Java を他のプログラミング言語と併用できますか？**  
-A: はい、Aspose.3D は Java、.NET、その他のプラットフォームを言語固有の API でサポートしています。
+**Q: Can I use Aspose.3D for Java with other programming languages?**  
+A: Yes, Aspose.3D supports Java, .NET, and other platforms via language‑specific APIs.
 
-**Q: Aspose.3D の無料トライアルは利用できますか？**  
-A: もちろんです！無料トライアルは [here](https://releases.aspose.com/) からアクセスして、Aspose.3D の機能を体験できます。
+**Q: Is a free trial available for Aspose.3D?**  
+A: Certainly! You can explore the features of Aspose.3D by accessing the free trial [here](https://releases.aspose.com/).
 
-**Q: Aspose.3D のサポートはどこで受けられますか？**  
-A: ご質問やサポートが必要な場合は、[support forum](https://forum.aspose.com/c/3d/18) をご利用ください。
+**Q: Where can I find support for Aspose.3D?**  
+A: For any queries or assistance, visit our [support forum](https://forum.aspose.com/c/3d/18).
 
-**Q: Aspose.3D を購入するには？**  
-A: Aspose.3D の購入は [buy page](https://purchase.aspose.com/buy) から行ってください。
+**Q: How can I purchase Aspose.3D?**  
+A: To purchase Aspose.3D, visit our [buy page](https://purchase.aspose.com/buy).
 
-**Q: 一時ライセンスのオプションはありますか？**  
-A: はい、一時ライセンスが必要な場合は、[here](https://purchase.aspose.com/temporary-license/) から取得できます。
+**Q: Is there a temporary license option?**  
+A: Yes, if you need a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
 
-**Q: シーンを OBJ 以外の形式でエクスポートできますか？**  
-A: もちろんです。`Scene.save` メソッドは FBX、STL など複数の形式をサポートしており、`FileFormat` 列挙体を変更するだけで可能です。
+**Q: Can I export the scene to formats other than OBJ?**  
+A: Absolutely. The `Scene.save` method supports FBX, STL, and several other formats – just change the `FileFormat` enum.
 
-## 結論
+## Conclusion
+### Step 4: Set Vector \u2013 how to set plane up  \nDefine a custom up-vector for the plane. This is the core of **change plane orientation**.\nThe vector \u0060(1, 1, 3)\u0060 tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.
 
-上記の手順に従うことで、Aspose.3D for Java で **平面の向きを変更** しながら **OBJ をエクスポート** する方法を習得しました。さまざまな up‑vector を試してカスタムスロープやランプ、カメラ参照平面を作成し、エクスポートした OBJ ファイルをゲームエンジン、CAD ツール、Web ベースの 3‑D ビューアなどの下流パイプラインに統合してください。
+### Step 5: Complete the Plane Orientation and Export  \nDefine a custom up-vector for the plane. This is the core of **change plane orientation**.
 
+\u0060\u0060\u0060\u0060java
 ---
 
-**最終更新日:** 2026-04-29  
-**テスト環境:** Aspose.3D for Java 24.11  
-**作者:** Aspose  
+**Last Updated:** 2026-04-29  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

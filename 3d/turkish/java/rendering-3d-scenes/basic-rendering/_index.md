@@ -1,52 +1,50 @@
 ---
-date: 2026-03-13
-description: Aspose.3D kullanarak Java’da 3D sahneleri nasıl render edeceğinizi öğrenin.
-  Bu kılavuz, malzeme uygulamayı, torus eklemeyi ve Java 3D grafik temellerini nasıl
-  ustalaşacağınızı gösterir.
+title: How to Render 3D Scenes in Java – Basic Rendering Techniques
 linktitle: How to Render 3D Scenes in Java – Basic Rendering Techniques
 second_title: Aspose.3D Java API
-title: Java'da 3D Sahneleri Nasıl Render'lanır – Temel Render Teknikleri
-url: /tr/java/rendering-3d-scenes/basic-rendering/
+description: Learn how to render 3d scenes in Java using Aspose.3D. This guide shows how to apply material, how to add torus, and master java 3d graphics basics.
 weight: 11
+url: /java/rendering-3d-scenes/basic-rendering/
+date: 2026-03-13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java’da 3D Sahneleri Render Etme – Temel Render Tekniklerini Öğrenin
+# How to Render 3D Scenes in Java – Master Basic Rendering Techniques
 
-## Giriş
+## Introduction
 
-Aspose.3D ile Java’da 3D render’ın heyecan verici dünyasına hoş geldiniz! Bu öğreticide **how to render 3d** sahnelerini adım adım keşfedeceksiniz—bir sahne kurmaktan, geometri eklemeye, **apply material** özelliklerini ayarlamaya ve kamerayı yapılandırmaya kadar. Sonunda, oyunlar, görselleştirmeler veya herhangi bir Java‑tabanlı 3D proje için genişletebileceğiniz çalışan bir örnek elde edeceksiniz.
+Welcome to the exciting world of 3D rendering in Java with Aspose.3D! In this tutorial you’ll discover **how to render 3d** scenes step by step—from setting up a scene and adding geometry to applying materials and configuring the camera. By the end you’ll have a working example you can extend for games, visualizations, or any Java‑based 3D project.
 
-## Hızlı Yanıtlar
-- **Hangi kütüphane kullanılıyor?** Aspose.3D for Java  
-- **Ana hedef?** Learn **how to render 3d** scenes with basic shapes and materials  
-- **Temel ön koşullar?** Java basics, Aspose.3D library installed, and a simple IDE  
-- **Tipik çalışma süresi?** Rendering a small scene takes less than a second on modern hardware  
-- **Bir torus ekleyebilir miyim?** Yes – see the *how to add torus* section below  
+## Quick Answers
+- **What library is used?** Aspose.3D for Java  
+- **Primary goal?** Learn **how to render 3d** scenes with basic shapes and materials  
+- **Key prerequisites?** Java basics, Aspose.3D library installed, and a simple IDE  
+- **Typical runtime?** Rendering a small scene takes less than a second on modern hardware  
+- **Can I add a torus?** Yes – see the *how to add torus* section below  
 
-## Java’da “how to render 3d” nedir?
+## What is “how to render 3d” in Java?
 
-3D render, sanal bir sahneyi—nesneler, ışıklar ve kameralar—ekranda görüntüleyebileceğiniz veya bir dosyaya kaydedebileceğiniz 2‑D bir görüntüye dönüştürmek anlamına gelir. Aspose.3D ile her adımı programlı olarak kontrol eder, özel görselleştirmeler için tam esneklik elde edersiniz.
+Rendering 3D means converting a virtual scene—objects, lights, and cameras—into a 2‑D image that you can display on screen or save to a file. With Aspose.3D you control every step programmatically, giving you full flexibility for custom visualizations.
 
-## Aspose.3D for Java neden kullanılmalı?
+## Why use Aspose.3D for Java?
 
-- **Pure Java API** – native bağımlılıkları yoktur, herhangi bir Java projesine kolayca entegre edilebilir.  
-- **Rich geometry support** – kutudan çıkar çıkmaz plane, torus, cylinder ve daha fazlasını destekler.  
-- **Material system** – renk, şeffaflık ve gölgelendirme gibi **apply material** özelliklerini uygulamanın basit yolları.  
-- **Cross‑platform rendering** – Windows, Linux ve macOS üzerinde çalışır.
+- **Pure Java API** – no native dependencies, easy to integrate into any Java project.  
+- **Rich geometry support** – planes, torus, cylinders, and more out of the box.  
+- **Material system** – straightforward ways to **apply material** properties such as color, transparency, and shading.  
+- **Cross‑platform rendering** – works on Windows, Linux, and macOS.
 
-## Ön Koşullar
+## Prerequisites
 
 Before diving in, make sure you have:
 
-- Java programlama temelleri.  
-- Aspose.3D for Java yüklü. Henüz indirmediyseniz, **[buradan](https://releases.aspose.com/3d/java/)** edinebilirsiniz.  
-- Temel 3D grafik kavramları (mesh'ler, ışıklar, kameralar) hakkında bir anlayış.
+- Basic knowledge of Java programming.  
+- Aspose.3D for Java installed. If you haven’t downloaded it yet, get it **[here](https://releases.aspose.com/3d/java/)**.  
+- A grasp of fundamental 3D graphics concepts (meshes, lights, cameras).
 
-## Paketleri İçe Aktarma
+## Import Packages
 
 First, import the Aspose.3D classes and the standard `java.awt` package for color handling.
 
@@ -56,101 +54,120 @@ import com.aspose.threed.*;
 import java.awt.*;
 ```
 
-## Temel Render Tekniklerini Öğrenin
+## Master Basic Rendering Techniques
 
 Below is the complete step‑by‑step guide. Each step includes a short explanation followed by the original code block (unchanged).
+### Step 1: Setting up the Scene (how to apply material – camera & lighting)
 
-### Adım 1: Sahneyi Kurma (how to apply material – kamera & aydınlatma)
+We create a `Scene` object, add a camera, and configure basic lighting.
+\u0060\u0060\u0060\u0060java
+// Create a scene and add a camera with lighting
+Scene scene = new Scene();
+Node light = scene.getRootNode().createChildNode(\u0022light\u0022, new Light());light.getTransform().setTranslation(10, 10, 10);
 
-We create a `Scene` object, add a camera, and configure basic lighting. The helper method returns the configured `Camera` instance.
+Camera camera = new Camera();
+scene.getRootNode().createChildNode(camera);
+camera.setNearPlane(0.1);
+camera.getParentNode().getTransform().setTranslation(0, 5, 10);camera.setLookAt(Vector3.getZero());
+\u0060\u0060\u0060\u0060
 
-```java
-protected static Camera setupScene(Scene scene) {
-    // Code for setting up camera and lighting
-    // ...
-    return camera;
-}
-```
-
-### Adım 2: Düzlem Oluşturma (java 3d graphics basics)
-
+### Step 2: Creating a Plane (java 3d graphics basics)
 A simple plane gives us a ground reference. We also **apply material** by setting a solid color.
 
-```java
-Node plane = scene.getRootNode().createChildNode("plane", (new Plane(20, 20)).toMesh());
-applyMaterial(plane, new Color(0xff8c00));
+````java// Create a plane geometry
+Plane planeObj = new Plane();
+planeObj.setLength(20);
+planeObj.setWidth(20);
+
+// Create the node with the plane's mesh
+Node plane = scene.getRootNode().createChildNode(\u0022plane\u0022, planeObj.toMesh());
+
+// Create a material and apply it to the node
+PhongMaterial material = new PhongMaterial();
+material.setDiffuseColor(new Vector3(0.545, 0.0, 0.0)); // dark orange
+plane.setMaterial(material);
+
+// Set plane position and shadow properties
 plane.getTransform().setTranslation(0, 0, 0);
 ((Mesh)plane.getEntity()).setReceiveShadows(true);
-```
+\u0060\u0060\u0060\u0060
 
-### Adım 3: Torus Ekleme (how to add torus)
-
+### Step 3: Adding a Torus (how to add torus)
 A torus demonstrates how to work with more complex geometry and transparent materials.
 
-```java
-Mesh torusMesh = (new Torus("", 1, 0.4, 50, 50, Math.PI*2)).toMesh();
-Node torus = scene.getRootNode().createChildNode("torus", torusMesh);
-applyMaterial(torus, new Color(0x330c93)).setTransparency(0.3);
-torus.getTransform().setTranslation(2, 1, 1);
-```
+````java
+// Create a torus geometry
+Torus torusObj = new Torus();
+torusObj.setRadius(1);
+torusObj.setTube(0.4);
+torusObj.setRadialSegments(50);
+torusObj.setTubularSegments(50);
+torusObj.setArc(Math.PI * 2);
 
-### Adım 4: Silindirleri Entegre Etme (ekstra şekiller)
+// Create the node with the torus' mesh
+Node torus = scene.getRootNode().createChildNode("torus", torusObj.toMesh());
 
+// Create a material with transparency and apply it
+PhongMaterial material = new PhongMaterial();
+material.setDiffuseColor(new Vector3(0.2, 0.05, 0.58)); // purple
+material.setTransparency(0.3);
+torus.setMaterial(material);
+
+// Position the torustorus.getTransform().setTranslation(2, 1, 1);
+\u0060\u0060\u0060\u0060
+
+### Step 4: Incorporating Cylinders (additional shapes)
 Here we add a few cylinders with different rotations and materials to enrich the scene.
 
 ```java
 // Code for adding cylinders with specific rotations and materials
 // ...
 ```
-
-### Adım 5: Kamerayı Yapılandırma (son görünüm)
+### Step 5: Configuring the Camera (final view)
 
 The camera determines the viewpoint from which the scene is rendered.
 
-```java
+````java
 Camera camera = new Camera();
 scene.getRootNode().createChildNode(camera);
 camera.setNearPlane(0.1);
-camera.getParentNode().getTransform().setTranslation(10, 5, 10);
-camera.setLookAt(Vector3.ORIGIN);
+camera.getParentNode().getTransform().setTranslation(10, 5, 10);camera.setLookAt(Vector3.getZero());
 return camera;
-```
+\u0060\u0060\u0060\u0060
 
-## Yaygın Sorunlar ve Çözümler
+## Common Issues and Solutions
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| Objects appear invisible | Material transparency set to 1.0 or missing light | Reduce transparency (`setTransparency(0.3)`) and ensure a light source exists |
+| Camera looks through the scene | `LookAt` target not set to the origin | Use `camera.setLookAt(Vector3.getZero())` as shown |
+| Meshes don't receive shadows | `setReceiveShadows(true)` not called on the mesh | Call it on each mesh you want to cast/receive shadows |
+## Frequently Asked Questions
 
-| Sorun | Neden Oluşur | Çözüm |
-|-------|--------------|-------|
-| Nesneler görünmez | Malzeme şeffaflığı 1.0 olarak ayarlanmış veya ışık eksik | Şeffaflığı azaltın (`setTransparency(0.3)`) ve bir ışık kaynağının var olduğundan emin olun |
-| Kamera sahnenin içinden bakıyor | `LookAt` hedefi orijine ayarlanmamış | Örnekte gösterildiği gibi `camera.setLookAt(Vector3.ORIGIN)` kullanın |
-| Mesh'ler gölge almıyor | Mesh üzerinde `setReceiveShadows(true)` çağrılmamış | Gölge oluşturmak/almk istediğiniz her mesh üzerinde bu metodu çağırın |
+### Q1: Where can I find Aspose.3D for Java documentation?
 
-## Sıkça Sorulan Sorular
+A1: You can refer to the **[documentation](https://reference.aspose.com/3d/java/)** for detailed information.
 
-### Q1: Aspose.3D for Java belgelerini nereden bulabilirim?
+### Q2: How can I obtain a temporary license for Aspose.3D?
 
-A1: Ayrıntılı bilgi için **[documentation](https://reference.aspose.com/3d/java/)** adresine bakabilirsiniz.
+A2: Visit **[this link](https://purchase.aspose.com/temporary-license/)** to get a temporary license.
 
-### Q2: Aspose.3D için geçici bir lisans nasıl alabilirim?
+### Q3: Are there any example projects using Aspose.3D for Java?
 
-A2: Geçici lisans almak için **[this link](https://purchase.aspose.com/temporary-license/)** adresini ziyaret edin.
+A3: Explore the **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)** for community discussions and example projects.
 
-### Q3: Aspose.3D for Java kullanan örnek projeler var mı?
+### Q4: Can I try Aspose.3D for Java for free?
 
-A3: Topluluk tartışmaları ve örnek projeler için **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)** adresini inceleyin.
+A4: Yes, you can download a free trial **[here](https://releases.aspose.com/)**.
 
-### Q4: Aspose.3D for Java'ı ücretsiz deneyebilir miyim?
+### Q5: Where can I purchase Aspose.3D for Java?
 
-A4: Evet, ücretsiz deneme sürümünü **[here](https://releases.aspose.com/)** adresinden indirebilirsiniz.
-
-### Q5: Aspose.3D for Java'ı nereden satın alabilirim?
-
-A5: Ürünü **[here](https://purchase.aspose.com/buy)** adresinden satın alabilirsiniz.
+A5: You can buy the product **[here](https://purchase.aspose.com/buy)**.
 
 ---
 
-**Son Güncelleme:** 2026-03-13  
-**Test Edilen Sürüm:** Aspose.3D for Java (latest release)  
-**Yazar:** Aspose  
+**Last Updated:** 2026-03-13  
+**Tested With:** Aspose.3D for Java (latest release)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

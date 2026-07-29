@@ -1,53 +1,53 @@
 ---
-date: 2026-03-31
-description: Erfahren Sie, wie Sie **Objekte nach Namen auswählen** mit XPath‑ähnlichen
-  Abfragen in Aspose.3D für Java und ein 3D‑Szene programmgesteuert erstellen.
+title: Select Objects by Name in Java 3D Scene – XPath‑Like Queries with Aspose.3D
 linktitle: Select Objects by Name in Java 3D Scene – XPath‑Like Queries with Aspose.3D
 second_title: Aspose.3D Java API
-title: Objekte nach Name in einer Java‑3D‑Szene auswählen – XPath‑ähnliche Abfragen
-  mit Aspose.3D
-url: /de/java/3d-objects-and-scenes/xpath-like-object-queries/
+description: Learn how to **select objects by name** using XPath‑like queries in Aspose.3D for Java and build a 3D scene programmatically.
 weight: 11
+url: /java/3d-objects-and-scenes/xpath-like-object-queries/
+date: 2026-03-31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Objekte nach Name in Java‑3D‑Szene auswählen – XPath‑ähnliche Abfragen mit Aspose.3D
+# Select Objects by Name in Java 3D Scene – XPath‑Like Queries with Aspose.3D
 
-## Einleitung  
+## Introduction  
 
-Wenn Sie **Java‑3D‑Szenen**‑Anwendungen erstellen müssen, die komplexe Objekt‑Hierarchien manipulieren, bietet Aspose.3D für Java eine saubere, XPath‑artige Methode, genau das zu finden, was Sie benötigen. In diesem Tutorial führen wir Sie durch den Aufbau einer einfachen Szene, das Hinzufügen einer Knoten‑Hierarchie und anschließend die Verwendung von XPath‑ähnlichen Abfragen, um **Objekte nach Name** auszuwählen (z. B. Kameras oder Lichter), egal wo sie im Baum liegen. Am Ende können Sie Abfragen, Filtern und das Abrufen von 3‑D‑Entitäten mit nur einem einzigen Ausdruck durchführen.
+If you need to **create 3d scene java** applications that manipulate complex hierarchies of objects, Aspose.3D for Java gives you a clean, XPath‑style way to locate exactly what you need. In this tutorial we’ll walk through building a simple scene, adding a hierarchy of nodes, and then using XPath‑like queries to **select objects by name** (for example, cameras or lights) no matter where they live in the tree. By the end you’ll be comfortable querying, filtering, and retrieving 3‑D entities with just a single expression.
 
-## Schnelle Antworten
-- **Was kann ich abfragen?** Jeder Knoten oder jede Entität (Camera, Light, Mesh usw.) in einer Scene.  
-- **Wie wähle ich Objekte nach Typ aus?** Verwenden Sie einen XPath‑ähnlichen Ausdruck wie `//*[(@Type='Camera')]`.  
-- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion funktioniert zum Testen; für die Produktion ist eine Lizenz erforderlich.  
-- **Welche Java‑Version wird unterstützt?** Java 8 oder höher.  
-- **Wo kann ich Aspose.3D herunterladen?** Auf der offiziellen Download‑Seite, die in den Voraussetzungen verlinkt ist.
+## Quick Answers
+- **What can I query?** Any node or entity (Camera, Light, Mesh, etc.) in a Scene.  
+- **How do I select objects by type?** Use an XPath‑like expression such as `//*[(@Type='Camera')]`.  
+- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
+- **Which Java version is supported?** Java 8 or later.  
+- **Where can I download Aspose.3D?** From the official download page linked in the prerequisites.
 
-## Warum das wichtig ist  
+## Why this matters  
 
-Wenn Sie mit 3‑D‑Inhalten arbeiten, wird das manuelle Durchlaufen des Szenengraphen schnell fehleranfällig und schwer zu warten. XPath‑ähnliche Abfragen bieten Ihnen eine deklarative, lesbare Methode, genau die benötigten Objekte zu finden, was die Entwicklung beschleunigt und Fehler reduziert – insbesondere in großen Szenen mit Dutzenden oder Hunderten von Knoten.
+When you work with 3‑D content, manually walking the scene graph quickly becomes error‑prone and hard to maintain. XPath‑like queries give you a declarative, readable way to locate exactly the objects you need, which speeds up development and reduces bugs—especially in large scenes with dozens or hundreds of nodes.
 
-## Was ist eine XPath‑ähnliche Abfrage in Aspose.3D?  
+## What is an XPath‑like query in Aspose.3D?  
 
-Aspose.3D implementiert einen Teil der XPath‑Syntax, der auf den Szenengraphen angewendet wird. Anstelle von XML‑Knoten zielen die Ausdrücke auf **A3DObject**‑Instanzen (Knoten, Kameras, Lichter, Meshes usw.) ab. Das ermöglicht Ihnen, ausdrucksstarke Filter wie „alle Kameras“ oder „Objekte, deren Name ‚light‘ ist“ zu schreiben, ohne die Hierarchie manuell zu durchlaufen.
+Aspose.3D implements a subset of the XPath syntax that works against the scene graph. Instead of XML nodes, the expressions target **A3DObject** instances (nodes, cameras, lights, meshes, etc.). This lets you write expressive filters such as “all cameras” or “objects whose name is ‘light’” without manually traversing the hierarchy.
 
-## Wie man Objekte nach Name mit XPath‑ähnlichen Abfragen auswählt  
+## How to select objects by name using XPath‑Like Queries  
 
-Objekte nach Name auszuwählen ist so einfach wie das Schreiben eines Ausdrucks, der das Attribut `@Name` matcht. Im Folgenden zeigen wir mehrere gängige Muster, einschließlich der Auswahl nach Typ und Name gleichzeitig.
+Selecting objects by name is as simple as writing an expression that matches the `@Name` attribute. Below we demonstrate several common patterns, including selecting by type and by name together.
 
-## Voraussetzungen  
+## Prerequisites  
 
-- Java Development Kit (JDK) auf Ihrem Rechner installiert.  
-- Aspose.3D für Java Bibliothek heruntergeladen und eingerichtet. Den Download‑Link finden Sie **[hier](https://releases.aspose.com/3d/java/)**.  
-- Grundlegende Kenntnisse in Java‑Programmierung.
+Before we start, make sure you have:
 
-## Pakete importieren  
+- Java Development Kit (JDK) installed on your machine.  
+- Aspose.3D for Java library downloaded and set up. You can find the download link **[here](https://releases.aspose.com/3d/java/)**.  
+- Basic knowledge of Java programming.  
 
-Zuerst importieren Sie die benötigten Aspose.3D‑Klassen. Dieser Schritt stellt die Bibliothek Ihrem Projekt zur Verfügung.
+## Import Packages  
+
+First, import the Aspose.3D classes you’ll need. This step makes the library available to your project.
 
 ```java
 import com.aspose.threed.*;
@@ -55,108 +55,104 @@ import com.aspose.threed.*;
 import java.util.ArrayList;
 import java.util.List;
 ```
+## Step-by-Step Guide  
 
-## Schritt‑für‑Schritt‑Anleitung  
+### Step 1: Create a Scene for Testing  
 
-### Schritt 1: Eine Szene zum Testen erstellen  
+We start with an empty scene that will host our hierarchy.
 
-Wir beginnen mit einer leeren Szene, die unsere Hierarchie aufnehmen wird.
-
-```java
+````java
 // ExStart:CreateScene
-Scene s = new Scene();
+Scene scene = new Scene();
 // ExEnd:CreateScene
-```
+````
 
-### Schritt 2: Eine Knoten‑Hierarchie aufbauen  
+### Step 2: Build a Hierarchy of Nodes  
 
-Als Nächstes fügen wir einige Kindknoten unter dem Wurzelknoten hinzu. Einige Knoten enthalten eine **Camera**‑ oder **Light**‑Entität, die wir später abfragen werden.
+Next, we add a few child nodes under the root node. Some nodes contain a **Camera** or a **Light** entity, which we'll later query.
 
-```java
+````java
 // ExStart:CreateHierarchy
-Node a = s.getRootNode().createChildNode("a");
+Node a = scene.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");
-s.getRootNode().createChildNode("b");
-Node c = s.getRootNode().createChildNode("c");
+scene.getRootNode().createChildNode("b");
+Node c = scene.getRootNode().createChildNode("c");
 c.createChildNode("c1").addEntity(new Camera("cam"));
 c.createChildNode("c2").addEntity(new Light("light"));
 // ExEnd:CreateHierarchy
-```
+````
 
-### Schritt 3: XPath‑ähnliche Abfragen anwenden  
+### Step 3: Apply XPath-like Queries  
 
-Jetzt kommt der spaßige Teil – die Verwendung von XPath‑artigen Zeichenketten, um **Objekte nach Name** oder Typ auszuwählen.
+Now the fun part—using XPath-style strings to **select objects by name** or type.
+\u0060\u0060\u0060\u0060java
+// The scene from Step 1
 
-```java
-// ExStart:XPathLikeObjectQueries
-// Select objects that have type Camera or name is 'light' regardless of their location.
-List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+// Select objects that have type Camera or name is \u0027light\u0027 regardless of their location.List<Object> objects = scene.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
 
 // Select a single camera object under the child nodes of the node named 'c' under the root node
-A3DObject c1 = (A3DObject) s.getRootNode().selectSingleObject("/c/*/<Camera>");
+A3DObject c1 = (A3DObject) scene.getRootNode().selectSingleObject("/c/*/<Camera>");
 
 // Select the node named 'a1' under the root node, even if 'a1' is not a directly child node
-A3DObject obj = (A3DObject) s.getRootNode().selectSingleObject("a1");
+A3DObject obj = (A3DObject) scene.getRootNode().selectSingleObject("a1");
 
 // Select the node itself, as '/' is selected directly on the root node
-obj = (A3DObject) s.getRootNode().selectSingleObject("/");
-// ExEnd:XPathLikeObjectQueries
-```
+obj = (A3DObject) scene.getRootNode().selectSingleObject("/");// ExEnd:XPathLikeObjectQueries
+\u0060\u0060\u0060
+**Explanation of the key expressions**
 
-**Erklärung der wichtigsten Ausdrücke**
+- `//*[(@Type = 'Camera') or (@Name = 'light')]` – Finds every object in the scene whose **type** attribute equals `Camera` **or** whose **name** attribute equals `light`. This is a classic example of **select objects by name** (and by type).
+- `/c/*/<Camera>` – Starts at the root, goes to node `c`, then any child (`*`), and finally selects the `<Camera>` entity.
+- `a1` – A shorthand that searches the entire tree for a node named `a1`.
+- `/` – Returns the root node itself.
 
-- `//*[(@Type = 'Camera') or (@Name = 'light')]` – Findet jedes Objekt in der Szene, dessen **type**‑Attribut `Camera` ist **oder** dessen **name**‑Attribut `light` ist. Dies ist ein klassisches Beispiel für **Objekte nach Name auswählen** (und nach Typ).  
-- `/c/*/<Camera>` – Beginnt beim Wurzelknoten, geht zu Knoten `c`, dann zu einem beliebigen Kind (`*`) und wählt schließlich die `<Camera>`‑Entität aus.  
-- `a1` – Eine Kurzschreibweise, die den gesamten Baum nach einem Knoten mit dem Namen `a1` durchsucht.  
-- `/` – Gibt den Wurzelknoten selbst zurück.
+### Common Pitfalls & Tips  
 
-### Häufige Fallstricke & Tipps  
+- **Case sensitivity:** Attribute names (`@Type`, `@Name`) are case‑sensitive.  
+- **Entity vs. Node:** Use `<Camera>` syntax only when you need the underlying entity, not just the node.  
+- **Performance:** For very large scenes, narrow the search path (e.g., start from a specific subtree) to improve speed.  
 
-- **Groß‑/Kleinschreibung:** Attributnamen (`@Type`, `@Name`) sind case‑sensitive.  
-- **Entity vs. Node:** Verwenden Sie die `<Camera>`‑Syntax nur, wenn Sie die zugrunde liegende Entität benötigen, nicht nur den Knoten.  
-- **Performance:** Bei sehr großen Szenen sollten Sie den Suchpfad einschränken (z. B. von einem bestimmten Unterbaum starten), um die Geschwindigkeit zu erhöhen.  
+## Common Issues and Solutions  
 
-## Häufige Probleme und Lösungen  
+| Issue | Reason | Solution |
+|-------|--------|----------|
+| No results returned | Query string typo or wrong attribute case | Verify `@Name` spelling and case; use exact node names |
+| Unexpected nodes included | Using `//*` searches the whole tree | Restrict the path, e.g., `/c/*` to limit scope |
+| Slow performance on huge scenes | Query runs on the entire graph | Start the query from a known sub‑node instead of the root |
 
-| Problem | Grund | Lösung |
-|---------|-------|--------|
-| Keine Ergebnisse zurückgegeben | Tippfehler im Abfrage‑String oder falsche Attribut‑Groß‑/Kleinschreibung | Überprüfen Sie die Schreibweise und Groß‑/Kleinschreibung von `@Name`; verwenden Sie exakte Knotennamen |
-| Unerwartete Knoten enthalten | Verwendung von `//*` durchsucht den gesamten Baum | Beschränken Sie den Pfad, z. B. `/c/*`, um den Umfang zu begrenzen |
-| Langsame Leistung bei riesigen Szenen | Abfrage läuft über den gesamten Graphen | Starten Sie die Abfrage von einem bekannten Unterknoten statt vom Wurzelknoten |
+## Frequently Asked Questions  
 
-## Häufig gestellte Fragen  
+**Q: Where can I find the Aspose.3D for Java documentation?**  
+A: The documentation is available **[here](https://reference.aspose.com/3d/java/)**.
 
-**Q: Wo finde ich die Aspose.3D für Java Dokumentation?**  
-A: Die Dokumentation ist **[hier](https://reference.aspose.com/3d/java/)** verfügbar.
+**Q: How can I download Aspose.3D for Java?**  
+A: You can download it **[here](https://releases.aspose.com/3d/java/)**.
 
-**Q: Wie kann ich Aspose.3D für Java herunterladen?**  
-A: Sie können es **[hier](https://releases.aspose.com/3d/java/)** herunterladen.
+**Q: Is there a free trial available?**  
+A: Yes, you can get a free trial **[here](https://releases.aspose.com/)**.
 
-**Q: Gibt es eine kostenlose Testversion?**  
-A: Ja, Sie können eine kostenlose Testversion **[hier](https://releases.aspose.com/)** erhalten.
+**Q: Where can I get support for Aspose.3D for Java?**  
+A: Visit the support forum **[here](https://forum.aspose.com/c/3d/18)**.
 
-**Q: Wo bekomme ich Support für Aspose.3D für Java?**  
-A: Besuchen Sie das Support‑Forum **[hier](https://forum.aspose.com/c/3d/18)**.
+**Q: Need a temporary license?**  
+A: Obtain a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
 
-**Q: Benötigen Sie eine temporäre Lizenz?**  
-A: Erhalten Sie eine temporäre Lizenz **[hier](https://purchase.aspose.com/temporary-license/)**.
+**Q: Can I query custom user‑defined properties?**  
+A: Yes, you can extend the XPath expression with additional `@` attributes that you add to nodes.
 
-**Q: Kann ich benutzerdefinierte, vom Nutzer definierte Eigenschaften abfragen?**  
-A: Ja, Sie können den XPath‑Ausdruck mit zusätzlichen `@`‑Attributen erweitern, die Sie zu Knoten hinzufügen.
+**Q: Does the query engine work with animated scenes?**  
+A: Absolutely – the queries operate on the static hierarchy; animations are attached to the same nodes and are therefore included in the results.
 
-**Q: Funktioniert die Abfrage‑Engine mit animierten Szenen?**  
-A: Absolut – die Abfragen arbeiten auf der statischen Hierarchie; Animationen sind an denselben Knoten befestigt und werden daher in die Ergebnisse einbezogen.
+## Conclusion  
 
-## Fazit  
-
-Sie wissen jetzt, wie Sie **Objekte nach Name** in Java‑3D‑Szenen mithilfe von XPath‑ähnlichen Abfragen auswählen können. Dieser Ansatz skaliert von einfachen Demos bis hin zu produktionsreifen 3‑D‑Anwendungen und gibt Ihnen eine feinkörnige Kontrolle über die Szenendurchquerung, ohne umfangreichen Code.
+You now know how to **select objects by name** in Java 3D scenes using XPath‑like queries. This approach scales from simple demos to production‑grade 3‑D applications, giving you fine‑grained control over scene traversal without verbose code.
 
 ---
 
-**Zuletzt aktualisiert:** 2026-03-31  
-**Getestet mit:** Aspose.3D for Java 24.11  
-**Autor:** Aspose  
+**Last Updated:** 2026-03-31  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
