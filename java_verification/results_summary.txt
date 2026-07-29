@@ -1,1610 +1,2701 @@
 Java Code Verification Summary
 ================================================================================
 
-Version: 26.6.0
 Total files reviewed: 78
-Java code snippets found: 325
-Java snippets verified successfully: 279
-Java snippets with errors: 46
+Java code snippets found: 320
+Java snippets verified successfully: 159
+Java snippets with errors: 161
 
 FAILED SNIPPETS:
-----------------------------------------
 
-File: customize-3d-file-loading (Snippet #1)
-Error:
-```
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-9 errors
-```
-
-Code:
-```
-import com.aspose.threed.*;
-
-
-import java.io.IOException;
-```
-
-File: customize-3d-file-loading (Snippet #2)
-Error:
-```
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-9 errors
-```
-
-Code:
-```
-// ExStart:discreet3DSLoadOption
-String MyDir = "Your Document Directory";
-Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
-loadOpts.setApplyAnimationTransform(true);
-loadOpts.setFlipCoordinateSystem(true);
-loadOpts.setGammaCorrectedColor(true);
-loadOpts.getLookupPaths().add(MyDir);
-// ExEnd:discreet3DSLoadOption
-```
-
-File: customize-3d-file-loading (Snippet #3)
-Error:
-```
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-9 errors
-```
-
-Code:
-```
-// ExStart:objLoadOption
-String MyDir = "Your Document Directory";
-ObjLoadOptions loadObjOpts = new ObjLoadOptions();
-loadObjOpts.setEnableMaterials(true);
-loadObjOpts.setFlipCoordinateSystem(true);
-loadObjOpts.getLookupPaths().add(MyDir);
-// ExEnd:objLoadOption
-```
-
-File: customize-3d-file-loading (Snippet #4)
-Error:
-```
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-9 errors
-```
-
-Code:
-```
-// ExStart:stlLoadOption
-String MyDir = "Your Document Directory";
-StlLoadOptions loadSTLOpts = new StlLoadOptions();
-loadSTLOpts.setFlipCoordinateSystem(true);
-loadSTLOpts.getLookupPaths().add(MyDir);
-// ExEnd:stlLoadOption
-```
-
-File: customize-3d-file-loading (Snippet #5)
-Error:
-```
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-9 errors
-```
-
-Code:
-```
-// ExStart:u3dLoadOption
-String MyDir = "Your Document Directory";
-U3dLoadOptions loadU3DOpts = new U3dLoadOptions();
-loadU3DOpts.setFlipCoordinateSystem(true);
-loadU3DOpts.getLookupPaths().add(MyDir);
-// ExEnd:u3dLoadOption
-```
-
-File: customize-3d-file-loading (Snippet #6)
-Error:
-```
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-9 errors
-```
-
-Code:
-```
-// ExStart:gltfLoadOptions
-String MyDir = "Your Document Directory";
-Scene scene = new Scene();
-GltfLoadOptions loadOpt = new GltfLoadOptions();
-loadOpt.setFlipTexCoordV(true);
-scene.open(MyDir + "Duck.gltf", loadOpt);
-// ExEnd:gltfLoadOptions
-```
-
-File: customize-3d-file-loading (Snippet #7)
-Error:
-```
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-9 errors
-```
-
-Code:
-```
-// ExStart:plyLoadOptions
-String MyDir = "Your Document Directory";
-Scene scene = new Scene();
-PlyLoadOptions loadPLYOpts = new PlyLoadOptions();
-loadPLYOpts.setFlipCoordinateSystem(true);
-scene.open(MyDir + "vase-v2.ply", loadPLYOpts);
-// ExEnd:plyLoadOptions
-```
-
-File: customize-3d-file-loading (Snippet #8)
-Error:
-```
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-9 errors
-```
-
-Code:
-```
-// ExStart:xLoadOptions
-String MyDir = "Your Document Directory";
-Scene scene = new Scene();
-XLoadOptions loadXOpts = new XLoadOptions(FileContentType.ASCII);
-loadXOpts.setFlipCoordinateSystem(true);
-scene.open(MyDir + "warrior.x", loadXOpts);
-// ExEnd:xLoadOptions
-```
-
-File: customize-3d-file-loading (Snippet #9)
-Error:
-```
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:12: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:17: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:21: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:25: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:30: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:31: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:35: error: variable MyDir is already defined in method main(String[])
-        String MyDir = "Your Document Directory";
-               ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:36: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-/tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java:41: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene();
-              ^
-Note: /tmp/verify_customize-3d-file-loading_uygjged3/VerifyCode.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-9 errors
-```
-
-Code:
-```
-// ExStart:FBXLoadOptions
-String dataDir = "Your Document Directory";
-Scene scene = new Scene();
-FbxLoadOptions opt = new FbxLoadOptions();
-opt.setKeepBuiltinGlobalSettings(true);
-scene.open(dataDir + "test.FBX", opt);
-for(Property property:scene.getRootNode().getAssetInfo().getProperties()) {
-    System.out.println(property);
-}
-// ExEnd:FBXLoadOptions
-```
-
-File: optimize-3d-file-saving (Snippet #1)
-Error:
-```
-/tmp/verify_optimize-3d-file-saving_oh7aqa9x/VerifyCode.java:10: error: illegal start of expression
-        public static void prettyPrintInGltfSaveOption() throws IOException {
-        ^
-/tmp/verify_optimize-3d-file-saving_oh7aqa9x/VerifyCode.java:31: error: class, interface, enum, or record expected
-}
+  File: compress-meshes-google-draco (Snippet #2)
+  Error: /tmp/tmppyq7q8my/TempVerify.java:18: error: cannot find symbol
+Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 ^
+  symbol:   variable Files
+  location: class TempVerify
+/tmp/tmppyq7q8my/TempVerify.java:18: error: cannot find symbol
+Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
+            ^
+  symbol:   variable Paths
+  location: class TempVerify
 2 errors
-```
+  Code preview:
+  import java.nio.file.Files;
+  import java.nio.file.Paths;
+  import com.aspose.threed.Sphere;
+  import com.aspose.threed.DracoSaveOptions;
+  import com.aspose.threed.DracoCompressionLevel;
+  import com.aspose.th...
 
-Code:
-```
-import com.aspose.threed.*;
+  File: generate-mesh-data (Snippet #2)
+  Error: /tmp/tmpods_sfgy/TempVerify.java:9: error: unreported exception IOException; must be caught or declared to be thrown
+Scene s = Scene.fromFile(MyDir + "camera.3ds");
+                        ^
+1 error
+  Code preview:
+  // ExStart:GenerateDataForMeshes
+  // The path to the documents directory.
+  String MyDir = "Your Document Directory";
+  
+  // Load a 3ds file, 3ds file doesn't have normal data, but it has smoothing group
+  Sc...
 
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-```
-
-File: optimize-3d-file-saving (Snippet #2)
-Error:
-```
-/tmp/verify_optimize-3d-file-saving_oh7aqa9x/VerifyCode.java:10: error: illegal start of expression
-        public static void prettyPrintInGltfSaveOption() throws IOException {
-        ^
-/tmp/verify_optimize-3d-file-saving_oh7aqa9x/VerifyCode.java:31: error: class, interface, enum, or record expected
-}
+  File: generate-mesh-data (Snippet #3)
+  Error: /tmp/tmpqfmy0rbx/TempVerify.java:4: error: cannot find symbol
+s.getRootNode().accept(new NodeVisitor() {
 ^
-2 errors
-```
+  symbol:   variable s
+  location: class TempVerify
+1 error
+  Code preview:
+  s.getRootNode().accept(new NodeVisitor() {
+      @Override
+      public boolean call(Node node) {
+          Mesh mesh = (Mesh) node.getEntity();
+          if (mesh != null) {
+              VertexElementNormal n...
 
-Code:
-```
-public static void prettyPrintInGltfSaveOption() throws IOException {
-    // Initialize 3D scene
-    Scene scene = new Scene(new Sphere());
-    
-    // Initialize GLTFSaveOptions
-    GltfSaveOptions opt = new GltfSaveOptions(FileFormat.GLTF2);
-    
-    // Enable pretty print for better readability
-    opt.setPrettyPrint(true);
-    
-    // Save 3D Scene
-    scene.save("Your Document Directory" + "prettyPrintInGltfSaveOption.gltf", opt);
-}
-```
+  File: split-meshes-by-material (Snippet #3)
+  Error: /tmp/tmpovax9jdm/TempVerify.java:5: error: cannot find symbol
+VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
+                                                    ^
+  symbol:   variable box
+  location: class TempVerify
+1 error
+  Code preview:
+  // Create a material element on the box mesh
+  VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
 
-File: optimize-3d-file-saving (Snippet #3)
-Error:
-```
-/tmp/verify_optimize-3d-file-saving_oh7aqa9x/VerifyCode.java:10: error: illegal start of expression
-        public static void prettyPrintInGltfSaveOption() throws IOException {
-        ^
-/tmp/verify_optimize-3d-file-saving_oh7aqa9x/VerifyCode.java:31: error: class, interface, enum, or record expected
-}
+  File: split-meshes-by-material (Snippet #4)
+  Error: /tmp/tmp9ido04ij/TempVerify.java:5: error: cannot find symbol
+mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
 ^
+  symbol:   variable mat
+  location: class TempVerify
+1 error
+  Code preview:
+  // Specify different material indices for each plane
+  mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
+
+  File: split-meshes-by-material (Snippet #5)
+  Error: /tmp/tmptucrtarp/TempVerify.java:5: error: cannot find symbol
+Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
+                                          ^
+  symbol:   variable box
+  location: class TempVerify
+1 error
+  Code preview:
+  // Split the mesh into 6 sub-meshes, each plane becoming a sub-mesh
+  Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
+
+  File: split-meshes-by-material (Snippet #6)
+  Error: /tmp/tmpfl2pn58u/TempVerify.java:5: error: cannot find symbol
+mat.getIndices().clear();
+^
+  symbol:   variable mat
+  location: class TempVerify
+/tmp/tmpfl2pn58u/TempVerify.java:6: error: cannot find symbol
+mat.setIndices(new int[]{0, 0, 0, 1, 1, 1});
+^
+  symbol:   variable mat
+  location: class TempVerify
+/tmp/tmpfl2pn58u/TempVerify.java:7: error: cannot find symbol
+planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
+^
+  symbol:   variable planes
+  location: class TempVerify
+/tmp/tmpfl2pn58u/TempVerify.java:7: error: cannot find symbol
+planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
+                                   ^
+  symbol:   variable box
+  location: class TempVerify
+4 errors
+  Code preview:
+  // Update material indices and split into 2 sub-meshes
+  mat.getIndices().clear();
+  mat.setIndices(new int[]{0, 0, 0, 1, 1, 1});
+  planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
+
+  File: modify-sphere-radius (Snippet #4)
+  Error: /tmp/tmpg72eui6u/TempVerify.java:5: error: cannot find symbol
+sphere.setRadius(10);
+^
+  symbol:   variable sphere
+  location: class TempVerify
+1 error
+  Code preview:
+  // set radius
+  sphere.setRadius(10);
+
+  File: modify-sphere-radius (Snippet #5)
+  Error: /tmp/tmpa8ed0b_z/TempVerify.java:5: error: cannot find symbol
+scene.getRootNode().createChildNode(sphere);
+                                    ^
+  symbol:   variable sphere
+  location: class TempVerify
+/tmp/tmpa8ed0b_z/TempVerify.java:5: error: cannot find symbol
+scene.getRootNode().createChildNode(sphere);
+^
+  symbol:   variable scene
+  location: class TempVerify
 2 errors
-```
+  Code preview:
+  // add sphere to the scene
+  scene.getRootNode().createChildNode(sphere);
 
-Code:
-```
-public static void html5SaveOption() throws IOException {
-    // Initialize a scene
-    Scene scene = new Scene();
-    
-    // Create a child node with a cylinder
-    Node node = scene.getRootNode().createChildNode(new Cylinder());
-    
-    // Set properties for the child node
-    LambertMaterial mat = new LambertMaterial();
-    mat.setDiffuseColor(new Vector3(0.34, 0.59, 0.41));
-    node.setMaterial(mat);
-    
-    // Add a light to the scene
-    Light light = new Light();
-    light.setLightType(LightType.POINT);
-    scene.getRootNode().createChildNode(light).getTransform().setTranslation(10, 0, 10);
-    
-    // Initialize HTML5SaveOptions
-    Html5SaveOptions opt = new Html5SaveOptions();
-    
-    // Customize options (e.g., turn off grid and user interface)
-    opt.setShowGrid(false);
-    opt.setShowUI(false);
-    
-    // Save the scene as an HTML5 file
-    scene.save("Your Document Directory" + "html5SaveOption.html", FileFormat.HTML5);
-}
-```
+  File: modify-sphere-radius (Snippet #6)
+  Error: /tmp/tmpzhoaj9lr/TempVerify.java:5: error: cannot find symbol
+scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // save scene
+  scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 
-File: read-existing-3d-scenes (Snippet #1)
-Error:
-```
-/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene(dataDir + "att-test.rvm");
-              ^
-/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: incompatible types: String cannot be converted to Entity
-        Scene scene = new Scene(dataDir + "att-test.rvm");
+  File: xpath-like-object-queries (Snippet #3)
+  Error: /tmp/tmplmu011bx/TempVerify.java:5: error: cannot find symbol
+Node a = scene.getRootNode().createChildNode("a");
+         ^
+  symbol:   variable scene
+  location: class TempVerify
+/tmp/tmplmu011bx/TempVerify.java:8: error: cannot find symbol
+scene.getRootNode().createChildNode("b");
+^
+  symbol:   variable scene
+  location: class TempVerify
+/tmp/tmplmu011bx/TempVerify.java:9: error: cannot find symbol
+Node c = scene.getRootNode().createChildNode("c");
+         ^
+  symbol:   variable scene
+  location: class TempVerify
+3 errors
+  Code preview:
+  // ExStart:CreateHierarchy
+  Node a = scene.getRootNode().createChildNode("a");
+  a.createChildNode("a1");
+  a.createChildNode("a2");
+  scene.getRootNode().createChildNode("b");
+  Node c = scene.getRootNode().c...
+
+  File: compress-3d-scenes (Snippet #2)
+  Error: /tmp/tmp7pgggnld/TempVerify.java:20: error: unreported exception IOException; must be caught or declared to be thrown
+scene.save(MyDir + "compressed_scene.amf", opt);
+          ^
+1 error
+  Code preview:
+  // The path to the documents directory.
+  String MyDir = "Your Document Directory";
+  
+  Scene scene = new Scene();
+  
+  Box box = new Box();
+  Transform tr = scene.getRootNode().createChildNode(box).getTransform...
+
+  File: get-scene-information (Snippet #3)
+  Error: /tmp/tmpsrzpwro7/TempVerify.java:4: error: cannot find symbol
+scene.getAssetInfo().setApplicationName("Egypt");
+^
+  symbol:   variable scene
+  location: class TempVerify
+/tmp/tmpsrzpwro7/TempVerify.java:5: error: cannot find symbol
+scene.getAssetInfo().setApplicationVendor("Manualdesk");
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  scene.getAssetInfo().setApplicationName("Egypt");
+  scene.getAssetInfo().setApplicationVendor("Manualdesk");
+
+  File: get-scene-information (Snippet #4)
+  Error: /tmp/tmp8s60u_ly/TempVerify.java:4: error: cannot find symbol
+scene.getAssetInfo().setUnitName("pole");
+^
+  symbol:   variable scene
+  location: class TempVerify
+/tmp/tmp8s60u_ly/TempVerify.java:5: error: cannot find symbol
+scene.getAssetInfo().setUnitScaleFactor(0.6);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  scene.getAssetInfo().setUnitName("pole");
+  scene.getAssetInfo().setUnitScaleFactor(0.6);
+
+  File: get-scene-information (Snippet #5)
+  Error: /tmp/tmpo4vuyda9/TempVerify.java:6: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  String MyDir = "Your Document Directory";
+  MyDir = MyDir + "InformationToScene.fbx";
+  scene.save(MyDir, FileFormat.FBX7500ASCII);
+  System.out.println("\nAsset information added successfully to Scene.\nFi...
+
+  File: managing-3d-properties-scenes (Snippet #2)
+  Error: /tmp/tmpfo15jhrz/TempVerify.java:6: error: unreported exception IOException; must be caught or declared to be thrown
+Scene scene = Scene.fromFile(dataDir + "EmbeddedTexture.fbx");
+                            ^
+1 error
+  Code preview:
+  import java.io.IOException;
+  import com.aspose.threed.Material;
+  import com.aspose.threed.Property;
+  import com.aspose.threed.PropertyCollection;
+  import com.aspose.threed.Scene;
+  import com.aspose.threed....
+
+  File: save-custom-mesh-formats (Snippet #2)
+  Error: /tmp/tmpe9xp0s0i/TempVerify.java:5: error: unreported exception IOException; must be caught or declared to be thrown
+scene.open("Your Document Directory" + "test.fbx");
+          ^
+1 error
+  Code preview:
+  Scene scene = new Scene();
+  scene.open("Your Document Directory" + "test.fbx");
+
+  File: add-animation-properties-to-scenes (Snippet #4)
+  Error: /tmp/tmpmhao3hxt/TempVerify.java:5: error: cannot find symbol
+Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
+                                                          ^
+  symbol:   variable mesh
+  location: class TempVerify
+/tmp/tmpmhao3hxt/TempVerify.java:5: error: cannot find symbol
+Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
+             ^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Each cube node has its own translation
+  Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
+
+  File: add-animation-properties-to-scenes (Snippet #5)
+  Error: /tmp/tmp98myamei/TempVerify.java:5: error: cannot find symbol
+Property translation = cube1.getTransform().findProperty("Translation");
+                       ^
+  symbol:   variable cube1
+  location: class TempVerify
+1 error
+  Code preview:
+  // Find translation property on node's transform object
+  Property translation = cube1.getTransform().findProperty("Translation");
+
+  File: add-animation-properties-to-scenes (Snippet #6)
+  Error: /tmp/tmpkbpd8jgp/TempVerify.java:8: error: cannot find symbol
+BindPoint bp = animNode.createBindPoint(cube1.getTransform(), "Translation");
                                         ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  symbol:   variable cube1
+  location: class TempVerify
+1 error
+  Code preview:
+  // Create an animation node for the scene
+  AnimationNode animNode = new AnimationNode("TranslationAnimation");
+  
+  // Create a bind point for the translation property on the cube's transform
+  BindPoint bp ...
+
+  File: add-animation-properties-to-scenes (Snippet #7)
+  Error: /tmp/tmpk14lvwfb/TempVerify.java:11: error: cannot find symbol
+bp.bindKeyframeSequence("Z", kfsZ);
+^
+  symbol:   variable bp
+  location: class TempVerify
+1 error
+  Code preview:
+  // Repeat the process for the Z component
+  KeyframeSequence kfsZ = new KeyframeSequence();
+  kfsZ.add(0, 10.0f, Interpolation.BEZIER);
+  kfsZ.add(3, -10.0f, Interpolation.BEZIER);
+  kfsZ.add(5, 0.0f, Interpo...
+
+  File: set-up-target-camera (Snippet #3)
+  Error: /tmp/tmp3njgs3x9/TempVerify.java:5: error: cannot find symbol
+Node cameraNode = scene.getRootNode().createChildNode("camera", new Camera());
+                  ^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // Get a child node object
+  Node cameraNode = scene.getRootNode().createChildNode("camera", new Camera());
+
+  File: set-up-target-camera (Snippet #4)
+  Error: /tmp/tmp6cv5ec8d/TempVerify.java:5: error: cannot find symbol
+cameraNode.getTransform().setTranslation(new Vector3(100, 20, 0));
+^
+  symbol:   variable cameraNode
+  location: class TempVerify
+1 error
+  Code preview:
+  // Set camera node translation
+  cameraNode.getTransform().setTranslation(new Vector3(100, 20, 0));
+
+  File: set-up-target-camera (Snippet #5)
+  Error: /tmp/tmp3dzvpks0/TempVerify.java:4: error: cannot find symbol
+((Camera)cameraNode.getEntity()).setTarget(scene.getRootNode().createChildNode("target"));
+         ^
+  symbol:   variable cameraNode
+  location: class TempVerify
+/tmp/tmp3dzvpks0/TempVerify.java:4: error: cannot find symbol
+((Camera)cameraNode.getEntity()).setTarget(scene.getRootNode().createChildNode("target"));
+                                           ^
+  symbol:   variable scene
+  location: class TempVerify
 2 errors
-```
+  Code preview:
+  ((Camera)cameraNode.getEntity()).setTarget(scene.getRootNode().createChildNode("target"));
 
-Code:
-```
-import com.aspose.threed.FileFormat;
-import com.aspose.threed.Scene;
+  File: set-up-target-camera (Snippet #6)
+  Error: /tmp/tmpf5w3e9ii/TempVerify.java:4: error: cannot find symbol
+MyDir = MyDir + "camera-test.3ds";
+^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmpf5w3e9ii/TempVerify.java:4: error: cannot find symbol
+MyDir = MyDir + "camera-test.3ds";
+        ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmpf5w3e9ii/TempVerify.java:5: error: cannot find symbol
+scene.save(MyDir, FileFormat.DISCREET3DS);
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmpf5w3e9ii/TempVerify.java:5: error: cannot find symbol
+scene.save(MyDir, FileFormat.DISCREET3DS);
+^
+  symbol:   variable scene
+  location: class TempVerify
+4 errors
+  Code preview:
+  MyDir = MyDir + "camera-test.3ds";
+  scene.save(MyDir, FileFormat.DISCREET3DS);
 
+  File: creating-cylinders-with-offset-top (Snippet #4)
+  Error: /tmp/tmparwxrsu3/TempVerify.java:6: error: cannot find symbol
+scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
+                                    ^
+  symbol:   variable cylinder1
+  location: class TempVerify
+/tmp/tmparwxrsu3/TempVerify.java:6: error: cannot find symbol
+scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  // ExStart:3
+  // Create ChildNode
+  scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
+  // ExEnd:3
 
-import java.io.IOException;
-```
+  File: creating-cylinders-with-offset-top (Snippet #6)
+  Error: /tmp/tmp3ebeox79/TempVerify.java:6: error: cannot find symbol
+scene.getRootNode().createChildNode(cylinder2);
+                                    ^
+  symbol:   variable cylinder2
+  location: class TempVerify
+/tmp/tmp3ebeox79/TempVerify.java:6: error: cannot find symbol
+scene.getRootNode().createChildNode(cylinder2);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  // ExStart:5
+  // Create ChildNode
+  scene.getRootNode().createChildNode(cylinder2);
+  // ExEnd:5
 
-File: read-existing-3d-scenes (Snippet #2)
-Error:
-```
-/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene(dataDir + "att-test.rvm");
-              ^
-/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: incompatible types: String cannot be converted to Entity
-        Scene scene = new Scene(dataDir + "att-test.rvm");
+  File: creating-cylinders-with-offset-top (Snippet #7)
+  Error: /tmp/tmpnpm4monr/TempVerify.java:6: error: cannot find symbol
+scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // ExStart:6
+  // Save
+  scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ);
+  // ExEnd:6
+
+  File: creating-cylinders-with-sheared-bottom (Snippet #3)
+  Error: /tmp/tmp70ox7bb3/TempVerify.java:10: error: cannot find symbol
+scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10, 0, 0);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // ExStart:4
+  // Create cylinder 1
+  Cylinder cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
+  // Customized shear bottom for cylinder 1
+  cylinder1.setShearBottom(new Vector2(0, 0.83)); // Shear 47.5deg ...
+
+  File: creating-cylinders-with-sheared-bottom (Snippet #4)
+  Error: /tmp/tmpn_qeauwc/TempVerify.java:8: error: cannot find symbol
+scene.getRootNode().createChildNode(cylinder2);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // ExStart:5
+  // Create cylinder 2
+  Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
+  // Add cylinder 2 without a ShearBottom to the scene
+  scene.getRootNode().createChildNode(cylinder2);
+  // ExE...
+
+  File: creating-cylinders-with-sheared-bottom (Snippet #5)
+  Error: /tmp/tmpl9sf5ixz/TempVerify.java:6: error: cannot find symbol
+scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", FileFormat.WAVEFRONTOBJ);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // ExStart:6
+  // Save scene
+  scene.save("Your Document Directory" + "CustomizedShearBottomCylinder.obj", FileFormat.WAVEFRONTOBJ);
+  // ExEnd:6
+
+  File: creating-fan-cylinders (Snippet #4)
+  Error: /tmp/tmpu7up5cvr/TempVerify.java:6: error: cannot find symbol
+scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0);
+                                    ^
+  symbol:   variable fan
+  location: class TempVerify
+/tmp/tmpu7up5cvr/TempVerify.java:6: error: cannot find symbol
+scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  // ExStart:4
+  // Create ChildNode and set translation
+  scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0);
+  // ExEnd:4
+
+  File: creating-fan-cylinders (Snippet #5)
+  Error: /tmp/tmpogw84sxk/TempVerify.java:8: error: cannot find symbol
+scene.getRootNode().createChildNode(nonfan);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // ExStart:5
+  // Create a cylinder without a fan
+  Cylinder nonfan = new Cylinder(2, 2, 10, 20, 1, false);
+  // Create ChildNode
+  scene.getRootNode().createChildNode(nonfan);
+  // ExEnd:5
+
+  File: creating-fan-cylinders (Snippet #6)
+  Error: /tmp/tmpw_d_itz5/TempVerify.java:6: error: cannot find symbol
+scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEFRONTOBJ);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // ExStart:6
+  // Save scene
+  scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEFRONTOBJ);
+  // ExEnd:6
+
+  File: apply-materials-to-3d-objects (Snippet #5)
+  Error: /tmp/tmpp_2n3y_7/TempVerify.java:5: error: cannot find symbol
+cubeNode.setEntity(mesh);
+                   ^
+  symbol:   variable mesh
+  location: class TempVerify
+/tmp/tmpp_2n3y_7/TempVerify.java:5: error: cannot find symbol
+cubeNode.setEntity(mesh);
+^
+  symbol:   variable cubeNode
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Point node to the mesh
+  cubeNode.setEntity(mesh);
+
+  File: apply-materials-to-3d-objects (Snippet #6)
+  Error: /tmp/tmpewe8lrkt/TempVerify.java:5: error: cannot find symbol
+scene.getRootNode().addChildNode(cubeNode);
+                                 ^
+  symbol:   variable cubeNode
+  location: class TempVerify
+/tmp/tmpewe8lrkt/TempVerify.java:5: error: cannot find symbol
+scene.getRootNode().addChildNode(cubeNode);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Add cube to the scene
+  scene.getRootNode().addChildNode(cubeNode);
+
+  File: apply-materials-to-3d-objects (Snippet #10)
+  Error: /tmp/tmp6h0e3766/TempVerify.java:5: error: cannot find symbol
+diffuse.setFileName(MyDir + "surface.dds");
+                    ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmp6h0e3766/TempVerify.java:5: error: cannot find symbol
+diffuse.setFileName(MyDir + "surface.dds");
+^
+  symbol:   variable diffuse
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Set local file path for embedded texture
+  diffuse.setFileName(MyDir + "surface.dds");
+
+  File: apply-materials-to-3d-objects (Snippet #11)
+  Error: /tmp/tmpuikkvah7/TempVerify.java:5: error: cannot find symbol
+mat.setTexture(Material.MAP_DIFFUSE, diffuse);
+                                     ^
+  symbol:   variable diffuse
+  location: class TempVerify
+/tmp/tmpuikkvah7/TempVerify.java:5: error: cannot find symbol
+mat.setTexture(Material.MAP_DIFFUSE, diffuse);
+^
+  symbol:   variable mat
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Set Texture of the material
+  mat.setTexture(Material.MAP_DIFFUSE, diffuse);
+
+  File: apply-materials-to-3d-objects (Snippet #12)
+  Error: /tmp/tmpxn69dkk8/TempVerify.java:5: error: cannot find symbol
+diffuse.setFileName("embedded-texture.png");
+^
+  symbol:   variable diffuse
+  location: class TempVerify
+/tmp/tmpxn69dkk8/TempVerify.java:7: error: cannot find symbol
+diffuse.setContent(Files.readAllBytes(Paths.get(MyDir, "aspose-logo.jpg")));
+^
+  symbol:   variable diffuse
+  location: class TempVerify
+/tmp/tmpxn69dkk8/TempVerify.java:7: error: cannot find symbol
+diffuse.setContent(Files.readAllBytes(Paths.get(MyDir, "aspose-logo.jpg")));
+                   ^
+  symbol:   variable Files
+  location: class TempVerify
+/tmp/tmpxn69dkk8/TempVerify.java:7: error: cannot find symbol
+diffuse.setContent(Files.readAllBytes(Paths.get(MyDir, "aspose-logo.jpg")));
+                                                ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmpxn69dkk8/TempVerify.java:7: error: cannot find symbol
+diffuse.setContent(Files.readAllBytes(Paths.get(MyDir, "aspose-logo.jpg")));
+                                      ^
+  symbol:   variable Paths
+  location: class TempVerify
+5 errors
+  Code preview:
+  // Set file name for embedded texture
+  diffuse.setFileName("embedded-texture.png");
+  // Set binary content
+  diffuse.setContent(Files.readAllBytes(Paths.get(MyDir, "aspose-logo.jpg")));
+
+  File: apply-materials-to-3d-objects (Snippet #13)
+  Error: /tmp/tmphohk1mo0/TempVerify.java:5: error: cannot find symbol
+mat.setSpecularColor(new Vector3(1, 0, 0));
+^
+  symbol:   variable mat
+  location: class TempVerify
+1 error
+  Code preview:
+  // Set specular color
+  mat.setSpecularColor(new Vector3(1, 0, 0));
+
+  File: apply-materials-to-3d-objects (Snippet #14)
+  Error: /tmp/tmpk4b8flh0/TempVerify.java:5: error: cannot find symbol
+mat.setShininess(100);
+^
+  symbol:   variable mat
+  location: class TempVerify
+1 error
+  Code preview:
+  // Set brightness
+  mat.setShininess(100);
+
+  File: apply-materials-to-3d-objects (Snippet #15)
+  Error: /tmp/tmp9ncro4z3/TempVerify.java:5: error: cannot find symbol
+cubeNode.setMaterial(mat);
+                     ^
+  symbol:   variable mat
+  location: class TempVerify
+/tmp/tmp9ncro4z3/TempVerify.java:5: error: cannot find symbol
+cubeNode.setMaterial(mat);
+^
+  symbol:   variable cubeNode
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Set material property of the cube object
+  cubeNode.setMaterial(mat);
+
+  File: apply-materials-to-3d-objects (Snippet #16)
+  Error: /tmp/tmpxpd5h6p9/TempVerify.java:5: error: cannot find symbol
+MyDir = MyDir + "MaterialToCube.fbx";
+^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmpxpd5h6p9/TempVerify.java:5: error: cannot find symbol
+MyDir = MyDir + "MaterialToCube.fbx";
+        ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmpxpd5h6p9/TempVerify.java:7: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7400ASCII);
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmpxpd5h6p9/TempVerify.java:7: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7400ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+4 errors
+  Code preview:
+  // Set the file name
+  MyDir = MyDir + "MaterialToCube.fbx";
+  // Save 3D scene in the supported file formats
+  scene.save(MyDir, FileFormat.FBX7400ASCII);
+
+  File: apply-pbr-materials-to-objects (Snippet #4)
+  Error: /tmp/tmphv9akd3o/TempVerify.java:5: error: cannot find symbol
+Node boxNode = scene.getRootNode().createChildNode("box", new Box());
+               ^
+  symbol:   variable scene
+  location: class TempVerify
+/tmp/tmphv9akd3o/TempVerify.java:6: error: cannot find symbol
+boxNode.setMaterial(mat);
+                    ^
+  symbol:   variable mat
+  location: class TempVerify
+2 errors
+  Code preview:
+  // ExStart:Create3DObject
+  Node boxNode = scene.getRootNode().createChildNode("box", new Box());
+  boxNode.setMaterial(mat);
+  // ExEnd:Create3DObject
+
+  File: apply-pbr-materials-to-objects (Snippet #5)
+  Error: /tmp/tmpu9vy663k/TempVerify.java:5: error: cannot find symbol
+scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmpu9vy663k/TempVerify.java:5: error: cannot find symbol
+scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  // ExStart:Save3DScene
+  scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
+  // ExEnd:Save3DScene
+
+  File: apply-uv-coordinates-to-3d-objects (Snippet #3)
+  Error: /tmp/tmpnioiaz2u/TempVerify.java:9: error: cannot find symbol
+elementUV.setData(uvs);
+                  ^
+  symbol:   variable uvs
+  location: class TempVerify
+/tmp/tmpnioiaz2u/TempVerify.java:10: error: cannot find symbol
+elementUV.setIndices(uvsId);
+                     ^
+  symbol:   variable uvsId
+  location: class TempVerify
+2 errors
+  Code preview:
+  Mesh mesh = new Mesh();
+  
+  // Create UVset
+  VertexElementUV elementUV = mesh.createElementUV(TextureMapping.DIFFUSE, MappingMode.POLYGON_VERTEX, ReferenceMode.INDEX_TO_DIRECT);
+  // Copy the data to the UV...
+
+  File: build-node-hierarchies (Snippet #3)
+  Error: /tmp/tmpyy121t9_/TempVerify.java:5: error: cannot find symbol
+Node top = scene.getRootNode().createChildNode();
+           ^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // Get a child node object
+  Node top = scene.getRootNode().createChildNode();
+  
+  // Create the first cube node
+  Node cube1 = top.createChildNode("cube1");
+  Mesh mesh = new Mesh();
+  cube1.setEntity(mesh);
+  cu...
+
+  File: build-node-hierarchies (Snippet #4)
+  Error: /tmp/tmprsdwqnbj/TempVerify.java:5: error: cannot find symbol
+top.getTransform().setRotation(Quaternion.fromEulerAngle(Math.PI, 4, 0));
+^
+  symbol:   variable top
+  location: class TempVerify
+1 error
+  Code preview:
+  // Rotate the top node, affecting all child nodes
+  top.getTransform().setRotation(Quaternion.fromEulerAngle(Math.PI, 4, 0));
+
+  File: build-node-hierarchies (Snippet #5)
+  Error: /tmp/tmp4h54y0up/TempVerify.java:7: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // Save 3D scene in the supported file format (FBX in this case)
+  String MyDir = "Your Document Directory";
+  MyDir = MyDir + "NodeHierarchy.fbx";
+  scene.save(MyDir, FileFormat.FBX7500ASCII);
+  System.out.p...
+
+  File: concatenate-quaternions-for-3d-rotations (Snippet #4)
+  Error: /tmp/tmpi1se208c/TempVerify.java:4: error: cannot find symbol
+Quaternion q3 = q1.concat(q2);
+                          ^
+  symbol:   variable q2
+  location: class TempVerify
+/tmp/tmpi1se208c/TempVerify.java:4: error: cannot find symbol
+Quaternion q3 = q1.concat(q2);
+                ^
+  symbol:   variable q1
+  location: class TempVerify
+2 errors
+  Code preview:
+  Quaternion q3 = q1.concat(q2);
+
+  File: concatenate-quaternions-for-3d-rotations (Snippet #5)
+  Error: /tmp/tmpu8low5iw/TempVerify.java:4: error: cannot find symbol
+Node cylinder = scene.getRootNode().createChildNode("cylinder-q1", new Box(0.1, 1, 2));
+                ^
+  symbol:   variable scene
+  location: class TempVerify
+/tmp/tmpu8low5iw/TempVerify.java:5: error: cannot find symbol
+cylinder.getTransform().setRotation(q1);
+                                    ^
+  symbol:   variable q1
+  location: class TempVerify
+2 errors
+  Code preview:
+  Node cylinder = scene.getRootNode().createChildNode("cylinder-q1", new Box(0.1, 1, 2));
+  cylinder.getTransform().setRotation(q1);
+  cylinder.getTransform().setTranslation(new Vector3(-5, 2, 0));
+
+  File: concatenate-quaternions-for-3d-rotations (Snippet #6)
+  Error: /tmp/tmpe8wr2109/TempVerify.java:4: error: cannot find symbol
+cylinder = scene.getRootNode().createChildNode("cylinder-q2", new Box(0.1, 1, 2));
+^
+  symbol:   variable cylinder
+  location: class TempVerify
+/tmp/tmpe8wr2109/TempVerify.java:4: error: cannot find symbol
+cylinder = scene.getRootNode().createChildNode("cylinder-q2", new Box(0.1, 1, 2));
+           ^
+  symbol:   variable scene
+  location: class TempVerify
+/tmp/tmpe8wr2109/TempVerify.java:5: error: cannot find symbol
+cylinder.getTransform().setRotation(q2);
+                                    ^
+  symbol:   variable q2
+  location: class TempVerify
+/tmp/tmpe8wr2109/TempVerify.java:5: error: cannot find symbol
+cylinder.getTransform().setRotation(q2);
+^
+  symbol:   variable cylinder
+  location: class TempVerify
+/tmp/tmpe8wr2109/TempVerify.java:6: error: cannot find symbol
+cylinder.getTransform().setTranslation(new Vector3(0, 2, 0));
+^
+  symbol:   variable cylinder
+  location: class TempVerify
+5 errors
+  Code preview:
+  cylinder = scene.getRootNode().createChildNode("cylinder-q2", new Box(0.1, 1, 2));
+  cylinder.getTransform().setRotation(q2);
+  cylinder.getTransform().setTranslation(new Vector3(0, 2, 0));
+
+  File: concatenate-quaternions-for-3d-rotations (Snippet #7)
+  Error: /tmp/tmpsdauj58b/TempVerify.java:4: error: cannot find symbol
+cylinder = scene.getRootNode().createChildNode("cylinder-q3", new Box(0.1, 1, 2));
+^
+  symbol:   variable cylinder
+  location: class TempVerify
+/tmp/tmpsdauj58b/TempVerify.java:4: error: cannot find symbol
+cylinder = scene.getRootNode().createChildNode("cylinder-q3", new Box(0.1, 1, 2));
+           ^
+  symbol:   variable scene
+  location: class TempVerify
+/tmp/tmpsdauj58b/TempVerify.java:5: error: cannot find symbol
+cylinder.getTransform().setRotation(q3);
+                                    ^
+  symbol:   variable q3
+  location: class TempVerify
+/tmp/tmpsdauj58b/TempVerify.java:5: error: cannot find symbol
+cylinder.getTransform().setRotation(q3);
+^
+  symbol:   variable cylinder
+  location: class TempVerify
+/tmp/tmpsdauj58b/TempVerify.java:6: error: cannot find symbol
+cylinder.getTransform().setTranslation(new Vector3(5, 2, 0));
+^
+  symbol:   variable cylinder
+  location: class TempVerify
+5 errors
+  Code preview:
+  cylinder = scene.getRootNode().createChildNode("cylinder-q3", new Box(0.1, 1, 2));
+  cylinder.getTransform().setRotation(q3);
+  cylinder.getTransform().setTranslation(new Vector3(5, 2, 0));
+
+  File: concatenate-quaternions-for-3d-rotations (Snippet #8)
+  Error: /tmp/tmp7f4ffuu3/TempVerify.java:6: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7400ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  String MyDir = "Your Document Directory";
+  MyDir = MyDir + "test_out.fbx";
+  scene.save(MyDir, FileFormat.FBX7400ASCII);
+  // ExEnd:ConcatenateQuaternions
+
+  File: concatenate-quaternions-for-3d-rotations (Snippet #9)
+  Error: /tmp/tmps0znp5m4/TempVerify.java:4: error: cannot find symbol
+System.out.println("\nQuaternions concatenated successfully.\nFile saved at " + MyDir);
+                                                                                ^
+  symbol:   variable MyDir
+  location: class TempVerify
+1 error
+  Code preview:
+  System.out.println("\nQuaternions concatenated successfully.\nFile saved at " + MyDir);
+
+  File: create-3d-cube-scene (Snippet #4)
+  Error: /tmp/tmpa0d9fr2e/TempVerify.java:5: error: cannot find symbol
+scene.getRootNode().getChildNodes().add(cubeNode);
                                         ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  symbol:   variable cubeNode
+  location: class TempVerify
+/tmp/tmpa0d9fr2e/TempVerify.java:5: error: cannot find symbol
+scene.getRootNode().getChildNodes().add(cubeNode);
+^
+  symbol:   variable scene
+  location: class TempVerify
 2 errors
-```
+  Code preview:
+  // Add Node to a scene
+  scene.getRootNode().getChildNodes().add(cubeNode);
 
-Code:
-```
-String MyDir = "Your Document Directory";
-```
+  File: create-3d-cube-scene (Snippet #5)
+  Error: /tmp/tmpwa5riakv/TempVerify.java:9: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7400ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // The path to the documents directory.
+  String MyDir = "Your Document Directory";
+  MyDir = MyDir + "CubeScene.fbx";
+  
+  // Save 3D scene in the supported file formats
+  scene.save(MyDir, FileFormat.FBX7400A...
 
-File: read-existing-3d-scenes (Snippet #3)
-Error:
-```
-/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene(dataDir + "att-test.rvm");
-              ^
-/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: incompatible types: String cannot be converted to Entity
-        Scene scene = new Scene(dataDir + "att-test.rvm");
+  File: create-3d-cube-scene (Snippet #6)
+  Error: /tmp/tmp71dh9c29/TempVerify.java:4: error: cannot find symbol
+System.out.println("\nCube Scene created successfully.\nFile saved at " + MyDir);
+                                                                          ^
+  symbol:   variable MyDir
+  location: class TempVerify
+1 error
+  Code preview:
+  System.out.println("\nCube Scene created successfully.\nFile saved at " + MyDir);
+
+  File: expose-geometric-transformations (Snippet #3)
+  Error: /tmp/tmpb005_fb6/TempVerify.java:5: error: cannot find symbol
+n.getTransform().setGeometricTranslation(new Vector3(10, 0, 0));
+^
+  symbol:   variable n
+  location: class TempVerify
+1 error
+  Code preview:
+  // ExStart: Step 2 - Geometric Translation
+  n.getTransform().setGeometricTranslation(new Vector3(10, 0, 0));
+  // ExEnd: Step 2
+
+  File: expose-geometric-transformations (Snippet #4)
+  Error: /tmp/tmp22c1gu9_/TempVerify.java:5: error: cannot find symbol
+System.out.println(n.evaluateGlobalTransform(true));
+                   ^
+  symbol:   variable n
+  location: class TempVerify
+/tmp/tmp22c1gu9_/TempVerify.java:6: error: cannot find symbol
+System.out.println(n.evaluateGlobalTransform(false));
+                   ^
+  symbol:   variable n
+  location: class TempVerify
+2 errors
+  Code preview:
+  // ExStart: Step 3 - Evaluate Global Transform
+  System.out.println(n.evaluateGlobalTransform(true));
+  System.out.println(n.evaluateGlobalTransform(false));
+  // ExEnd: Step 3
+
+  File: share-mesh-geometry-data (Snippet #5)
+  Error: /tmp/tmpgl5ulz0j/TempVerify.java:5: error: cannot find symbol
+for(Vector3 color : colors) {
+                    ^
+  symbol:   variable colors
+  location: class TempVerify
+/tmp/tmpgl5ulz0j/TempVerify.java:8: error: cannot find symbol
+    cube.setEntity(mesh);
+                   ^
+  symbol:   variable mesh
+  location: class TempVerify
+/tmp/tmpgl5ulz0j/TempVerify.java:17: error: cannot find symbol
+    scene.getRootNode().addChildNode(cube);
+    ^
+  symbol:   variable scene
+  location: class TempVerify
+3 errors
+  Code preview:
+  int idx = 0;
+  for(Vector3 color : colors) {
+      // Initialize cube node object
+      Node cube = new Node("cube");
+      cube.setEntity(mesh);
+      LambertMaterial mat = new LambertMaterial();
+      // Set co...
+
+  File: share-mesh-geometry-data (Snippet #6)
+  Error: /tmp/tmppefstvc6/TempVerify.java:9: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7400ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // The path to the documents directory.
+  String MyDir = "Your Document Directory";
+  MyDir = MyDir + "MeshGeometryData.fbx";
+  
+  // Save 3D scene in the supported file formats
+  scene.save(MyDir, FileFormat.F...
+
+  File: transform-3d-nodes-with-euler-angles (Snippet #3)
+  Error: /tmp/tmpy562qphx/TempVerify.java:5: error: cannot find symbol
+cubeNode.getTransform().setEulerAngles(new Vector3(0.3, 0.1, -0.5));
+^
+  symbol:   variable cubeNode
+  location: class TempVerify
+/tmp/tmpy562qphx/TempVerify.java:8: error: cannot find symbol
+cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
+^
+  symbol:   variable cubeNode
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Euler angles
+  cubeNode.getTransform().setEulerAngles(new Vector3(0.3, 0.1, -0.5));
+  
+  // Set translation
+  cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
+
+  File: transform-3d-nodes-with-euler-angles (Snippet #4)
+  Error: /tmp/tmpz4em8ofy/TempVerify.java:5: error: cannot find symbol
+scene.getRootNode().getChildNodes().add(cubeNode);
                                         ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  symbol:   variable cubeNode
+  location: class TempVerify
+/tmp/tmpz4em8ofy/TempVerify.java:5: error: cannot find symbol
+scene.getRootNode().getChildNodes().add(cubeNode);
+^
+  symbol:   variable scene
+  location: class TempVerify
 2 errors
-```
+  Code preview:
+  // Add cube to the scene
+  scene.getRootNode().getChildNodes().add(cubeNode);
 
-Code:
-```
-Scene scene = new Scene();
-```
+  File: transform-3d-nodes-with-euler-angles (Snippet #5)
+  Error: /tmp/tmpjd9sert5/TempVerify.java:9: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // The path to the documents directory.
+  String MyDir = "Your Document Directory";
+  MyDir = MyDir + "TransformationToNode.fbx";
+  
+  // Save 3D scene in the supported file formats
+  scene.save(MyDir, FileForm...
 
-File: read-existing-3d-scenes (Snippet #4)
-Error:
-```
-/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene(dataDir + "att-test.rvm");
-              ^
-/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: incompatible types: String cannot be converted to Entity
-        Scene scene = new Scene(dataDir + "att-test.rvm");
+  File: transform-3d-nodes-with-matrices (Snippet #4)
+  Error: /tmp/tmp1moktprh/TempVerify.java:17: error: cannot find symbol
+cubeNode.setEntity(mesh);
+^
+  symbol:   variable cubeNode
+  location: class TempVerify
+1 error
+  Code preview:
+  Mesh mesh = new Mesh();
+  PolygonBuilder builder = new PolygonBuilder(mesh);
+  builder.begin();
+  builder.addVertex(0);
+  builder.addVertex(1);
+  builder.addVertex(2);
+  builder.addVertex(3);
+  builder.addVertex(4)...
+
+  File: transform-3d-nodes-with-matrices (Snippet #5)
+  Error: /tmp/tmpv5d8d3xt/TempVerify.java:4: error: cannot find symbol
+cubeNode.getTransform().setTransformMatrix(new Matrix4(
+^
+  symbol:   variable cubeNode
+  location: class TempVerify
+1 error
+  Code preview:
+  cubeNode.getTransform().setTransformMatrix(new Matrix4(
+      1, -0.3, 0, 0,
+      0.4, 1, 0.3, 0,
+      0, 0, 1, 0,
+      0, 20, 0, 1
+  ));
+
+  File: transform-3d-nodes-with-matrices (Snippet #6)
+  Error: /tmp/tmpor1mrzq1/TempVerify.java:4: error: cannot find symbol
+scene.getRootNode().addChildNode(cubeNode);
+                                 ^
+  symbol:   variable cubeNode
+  location: class TempVerify
+/tmp/tmpor1mrzq1/TempVerify.java:4: error: cannot find symbol
+scene.getRootNode().addChildNode(cubeNode);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  scene.getRootNode().addChildNode(cubeNode);
+
+  File: transform-3d-nodes-with-matrices (Snippet #7)
+  Error: /tmp/tmpys5kjiv9/TempVerify.java:6: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  String MyDir = "Your Document Directory";
+  MyDir = MyDir + "TransformationToNode.fbx";
+  scene.save(MyDir, FileFormat.FBX7500ASCII);
+  System.out.println("\nTransformation added successfully to node.\nFile...
+
+  File: transform-3d-nodes-with-quaternions (Snippet #5)
+  Error: /tmp/tmpjx5hgyp3/TempVerify.java:4: error: cannot find symbol
+cubeNode.setEntity(mesh);
+                   ^
+  symbol:   variable mesh
+  location: class TempVerify
+/tmp/tmpjx5hgyp3/TempVerify.java:4: error: cannot find symbol
+cubeNode.setEntity(mesh);
+^
+  symbol:   variable cubeNode
+  location: class TempVerify
+2 errors
+  Code preview:
+  cubeNode.setEntity(mesh);
+
+  File: transform-3d-nodes-with-quaternions (Snippet #6)
+  Error: /tmp/tmpsvvxr9vj/TempVerify.java:4: error: cannot find symbol
+cubeNode.getTransform().setRotation(Quaternion.fromRotation(new Vector3(0, 1, 0), new Vector3(0.3, 0.5, 0.1)));
+^
+  symbol:   variable cubeNode
+  location: class TempVerify
+1 error
+  Code preview:
+  cubeNode.getTransform().setRotation(Quaternion.fromRotation(new Vector3(0, 1, 0), new Vector3(0.3, 0.5, 0.1)));
+
+  File: transform-3d-nodes-with-quaternions (Snippet #7)
+  Error: /tmp/tmpssfshrgx/TempVerify.java:4: error: cannot find symbol
+cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
+^
+  symbol:   variable cubeNode
+  location: class TempVerify
+1 error
+  Code preview:
+  cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
+
+  File: transform-3d-nodes-with-quaternions (Snippet #8)
+  Error: /tmp/tmpl5shkhuf/TempVerify.java:4: error: cannot find symbol
+scene.getRootNode().getChildNodes().add(cubeNode);
                                         ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  symbol:   variable cubeNode
+  location: class TempVerify
+/tmp/tmpl5shkhuf/TempVerify.java:4: error: cannot find symbol
+scene.getRootNode().getChildNodes().add(cubeNode);
+^
+  symbol:   variable scene
+  location: class TempVerify
 2 errors
-```
+  Code preview:
+  scene.getRootNode().getChildNodes().add(cubeNode);
 
-Code:
-```
+  File: transform-3d-nodes-with-quaternions (Snippet #9)
+  Error: /tmp/tmpm8ytx_x7/TempVerify.java:6: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  String MyDir = "Your Document Directory";
+  MyDir = MyDir + "TransformationToNode.fbx";
+  scene.save(MyDir, FileFormat.FBX7500ASCII);
+  System.out.println("\nTransformation added successfully to node.\nFile...
+
+  File: triangulate-meshes-for-optimized-rendering (Snippet #3)
+  Error: /tmp/tmpd2n9un13/TempVerify.java:5: error: cannot find symbol
 scene.open(MyDir + "document.fbx");
-```
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+1 error
+  Code preview:
+  Scene scene = new Scene();
+  scene.open(MyDir + "document.fbx");
 
-File: read-existing-3d-scenes (Snippet #5)
-Error:
-```
-/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene(dataDir + "att-test.rvm");
-              ^
-/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: incompatible types: String cannot be converted to Entity
-        Scene scene = new Scene(dataDir + "att-test.rvm");
-                                        ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  File: triangulate-meshes-for-optimized-rendering (Snippet #4)
+  Error: /tmp/tmp4pl6p620/TempVerify.java:4: error: cannot find symbol
+scene.getRootNode().accept(new NodeVisitor() {
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  scene.getRootNode().accept(new NodeVisitor() {
+      @Override
+      public boolean call(Node node) {
+          Mesh mesh = (Mesh)node.getEntity();
+          if (mesh != null)
+          {
+              Mesh newMe...
+
+  File: triangulate-meshes-for-optimized-rendering (Snippet #5)
+  Error: /tmp/tmp_gqvyok8/TempVerify.java:4: error: cannot find symbol
+MyDir = MyDir + "document.fbx";
+^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmp_gqvyok8/TempVerify.java:4: error: cannot find symbol
+MyDir = MyDir + "document.fbx";
+        ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmp_gqvyok8/TempVerify.java:5: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7400ASCII);
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmp_gqvyok8/TempVerify.java:5: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7400ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+4 errors
+  Code preview:
+  MyDir = MyDir + "document.fbx";
+  scene.save(MyDir, FileFormat.FBX7400ASCII);
+
+  File: applying-twist (Snippet #5)
+  Error: /tmp/tmpohgts53f/TempVerify.java:5: error: cannot find symbol
+Node left = scene.getRootNode().createChildNode();
+            ^
+  symbol:   variable scene
+  location: class TempVerify
+/tmp/tmpohgts53f/TempVerify.java:6: error: cannot find symbol
+Node right = scene.getRootNode().createChildNode();
+             ^
+  symbol:   variable scene
+  location: class TempVerify
 2 errors
-```
+  Code preview:
+  // ExStart:CreateNodes
+  Node left = scene.getRootNode().createChildNode();
+  Node right = scene.getRootNode().createChildNode();
+  left.getTransform().setTranslation(new Vector3(5, 0, 0));
+  // ExEnd:CreateN...
 
-Code:
-```
-System.out.println("\n3D Scene is ready for modification, addition, or processing purposes.");
-```
+  File: applying-twist (Snippet #6)
+  Error: /tmp/tmpa0k7bheg/TempVerify.java:5: error: cannot find symbol
+left.createChildNode(new LinearExtrusion(profile, 10) );
+                                         ^
+  symbol:   variable profile
+  location: class TempVerify
+/tmp/tmpa0k7bheg/TempVerify.java:5: error: cannot find symbol
+left.createChildNode(new LinearExtrusion(profile, 10) );
+^
+  symbol:   variable left
+  location: class TempVerify
+/tmp/tmpa0k7bheg/TempVerify.java:6: error: cannot find symbol
+right.createChildNode(new LinearExtrusion(profile, 10) );
+                                          ^
+  symbol:   variable profile
+  location: class TempVerify
+/tmp/tmpa0k7bheg/TempVerify.java:6: error: cannot find symbol
+right.createChildNode(new LinearExtrusion(profile, 10) );
+^
+  symbol:   variable right
+  location: class TempVerify
+4 errors
+  Code preview:
+  // ExStart:LinearExtrusionWithTwist
+  left.createChildNode(new LinearExtrusion(profile, 10) );
+  right.createChildNode(new LinearExtrusion(profile, 10) );
+  // ExEnd:LinearExtrusionWithTwist
 
-File: read-existing-3d-scenes (Snippet #6)
-Error:
-```
-/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: variable scene is already defined in method main(String[])
-        Scene scene = new Scene(dataDir + "att-test.rvm");
-              ^
-/tmp/verify_read-existing-3d-scenes_gkhksunl/VerifyCode.java:11: error: incompatible types: String cannot be converted to Entity
-        Scene scene = new Scene(dataDir + "att-test.rvm");
-                                        ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  File: applying-twist (Snippet #7)
+  Error: /tmp/tmpwwav9wcf/TempVerify.java:5: error: cannot find symbol
+scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmpwwav9wcf/TempVerify.java:5: error: cannot find symbol
+scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+^
+  symbol:   variable scene
+  location: class TempVerify
 2 errors
-```
+  Code preview:
+  // ExStart:Save3DScene
+  scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+  // ExEnd:Save3DScene
 
-Code:
-```
-String dataDir = "Your Document Directory";
+  File: controlling-center (Snippet #4)
+  Error: /tmp/tmpmiq015kq/TempVerify.java:4: error: cannot find symbol
+Node left = scene.getRootNode().createChildNode();
+            ^
+  symbol:   variable scene
+  location: class TempVerify
+/tmp/tmpmiq015kq/TempVerify.java:5: error: cannot find symbol
+Node right = scene.getRootNode().createChildNode();
+             ^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  Node left = scene.getRootNode().createChildNode();
+  Node right = scene.getRootNode().createChildNode();
+  left.getTransform().setTranslation(new Vector3(5, 0, 0));
+
+  File: controlling-center (Snippet #5)
+  Error: /tmp/tmpa_o9f1kk/TempVerify.java:4: error: cannot find symbol
+left.createChildNode(new LinearExtrusion(profile, 2) );
+                                         ^
+  symbol:   variable profile
+  location: class TempVerify
+/tmp/tmpa_o9f1kk/TempVerify.java:4: error: cannot find symbol
+left.createChildNode(new LinearExtrusion(profile, 2) );
+^
+  symbol:   variable left
+  location: class TempVerify
+2 errors
+  Code preview:
+  left.createChildNode(new LinearExtrusion(profile, 2) );
+
+  File: controlling-center (Snippet #6)
+  Error: /tmp/tmptigdnbee/TempVerify.java:4: error: cannot find symbol
+left.createChildNode(new Box(0.01, 3, 3));
+^
+  symbol:   variable left
+  location: class TempVerify
+1 error
+  Code preview:
+  left.createChildNode(new Box(0.01, 3, 3));
+
+  File: controlling-center (Snippet #7)
+  Error: /tmp/tmphdeitymv/TempVerify.java:4: error: cannot find symbol
+right.createChildNode(new LinearExtrusion(profile, 2) );
+                                          ^
+  symbol:   variable profile
+  location: class TempVerify
+/tmp/tmphdeitymv/TempVerify.java:4: error: cannot find symbol
+right.createChildNode(new LinearExtrusion(profile, 2) );
+^
+  symbol:   variable right
+  location: class TempVerify
+2 errors
+  Code preview:
+  right.createChildNode(new LinearExtrusion(profile, 2) );
+
+  File: controlling-center (Snippet #8)
+  Error: /tmp/tmpnb3vwaiu/TempVerify.java:4: error: cannot find symbol
+right.createChildNode(new Box(0.01, 3, 3));
+^
+  symbol:   variable right
+  location: class TempVerify
+1 error
+  Code preview:
+  right.createChildNode(new Box(0.01, 3, 3));
+
+  File: controlling-center (Snippet #9)
+  Error: /tmp/tmp68ylfyfc/TempVerify.java:4: error: cannot find symbol
+scene.save(MyDir + "CenterInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmp68ylfyfc/TempVerify.java:4: error: cannot find symbol
+scene.save(MyDir + "CenterInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  scene.save(MyDir + "CenterInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+
+  File: performing-linear-extrusion (Snippet #4)
+  Error: /tmp/tmpfqazl1dg/TempVerify.java:4: error: cannot find symbol
+LinearExtrusion extrusion = new LinearExtrusion(profile, 10) ;
+                                                ^
+  symbol:   variable profile
+  location: class TempVerify
+1 error
+  Code preview:
+  LinearExtrusion extrusion = new LinearExtrusion(profile, 10) ;
+
+  File: performing-linear-extrusion (Snippet #5)
+  Error: /tmp/tmpmv14cx_u/TempVerify.java:5: error: cannot find symbol
+scene.getRootNode().createChildNode(extrusion);
+                                    ^
+  symbol:   variable extrusion
+  location: class TempVerify
+1 error
+  Code preview:
+  Scene scene = new Scene();
+  scene.getRootNode().createChildNode(extrusion);
+
+  File: performing-linear-extrusion (Snippet #6)
+  Error: /tmp/tmpylys8hwu/TempVerify.java:4: error: cannot find symbol
+scene.save(MyDir +  "LinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmpylys8hwu/TempVerify.java:4: error: cannot find symbol
+scene.save(MyDir +  "LinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  scene.save(MyDir +  "LinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+
+  File: setting-direction (Snippet #4)
+  Error: /tmp/tmpqjurkmlo/TempVerify.java:4: error: cannot find symbol
+Node left = scene.getRootNode().createChildNode();
+            ^
+  symbol:   variable scene
+  location: class TempVerify
+/tmp/tmpqjurkmlo/TempVerify.java:5: error: cannot find symbol
+Node right = scene.getRootNode().createChildNode();
+             ^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  Node left = scene.getRootNode().createChildNode();
+  Node right = scene.getRootNode().createChildNode();
+  left.getTransform().setTranslation(new Vector3(5, 0, 0));
+
+  File: setting-direction (Snippet #5)
+  Error: /tmp/tmpgj1b9r38/TempVerify.java:4: error: cannot find symbol
+left.createChildNode(new LinearExtrusion(profile, 10) );
+                                         ^
+  symbol:   variable profile
+  location: class TempVerify
+/tmp/tmpgj1b9r38/TempVerify.java:4: error: cannot find symbol
+left.createChildNode(new LinearExtrusion(profile, 10) );
+^
+  symbol:   variable left
+  location: class TempVerify
+2 errors
+  Code preview:
+  left.createChildNode(new LinearExtrusion(profile, 10) );
+
+  File: setting-direction (Snippet #6)
+  Error: /tmp/tmpgqrvtxpg/TempVerify.java:4: error: cannot find symbol
+right.createChildNode(new LinearExtrusion(profile, 10) );
+                                          ^
+  symbol:   variable profile
+  location: class TempVerify
+/tmp/tmpgqrvtxpg/TempVerify.java:4: error: cannot find symbol
+right.createChildNode(new LinearExtrusion(profile, 10) );
+^
+  symbol:   variable right
+  location: class TempVerify
+2 errors
+  Code preview:
+  right.createChildNode(new LinearExtrusion(profile, 10) );
+
+  File: setting-direction (Snippet #7)
+  Error: /tmp/tmpw_yfjy_2/TempVerify.java:4: error: cannot find symbol
+scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmpw_yfjy_2/TempVerify.java:4: error: cannot find symbol
+scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+
+  File: specifying-slices (Snippet #3)
+  Error: /tmp/tmp5ej741_8/TempVerify.java:4: error: cannot find symbol
+Node left = scene.getRootNode().createChildNode();
+            ^
+  symbol:   variable scene
+  location: class TempVerify
+/tmp/tmp5ej741_8/TempVerify.java:5: error: cannot find symbol
+Node right = scene.getRootNode().createChildNode();
+             ^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  Node left = scene.getRootNode().createChildNode();
+  Node right = scene.getRootNode().createChildNode();
+  left.getTransform().setTranslation(new Vector3(5, 0, 0));
+
+  File: specifying-slices (Snippet #4)
+  Error: /tmp/tmpj270_33t/TempVerify.java:4: error: cannot find symbol
+left.createChildNode(new LinearExtrusion(profile, 2) );
+                                         ^
+  symbol:   variable profile
+  location: class TempVerify
+/tmp/tmpj270_33t/TempVerify.java:4: error: cannot find symbol
+left.createChildNode(new LinearExtrusion(profile, 2) );
+^
+  symbol:   variable left
+  location: class TempVerify
+/tmp/tmpj270_33t/TempVerify.java:5: error: cannot find symbol
+right.createChildNode(new LinearExtrusion(profile, 2) );
+                                          ^
+  symbol:   variable profile
+  location: class TempVerify
+/tmp/tmpj270_33t/TempVerify.java:5: error: cannot find symbol
+right.createChildNode(new LinearExtrusion(profile, 2) );
+^
+  symbol:   variable right
+  location: class TempVerify
+4 errors
+  Code preview:
+  left.createChildNode(new LinearExtrusion(profile, 2) );
+  right.createChildNode(new LinearExtrusion(profile, 2) );
+
+  File: specifying-slices (Snippet #5)
+  Error: /tmp/tmp3t_kzomu/TempVerify.java:4: error: cannot find symbol
+scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmp3t_kzomu/TempVerify.java:4: error: cannot find symbol
+scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+
+  File: using-twist-offset (Snippet #4)
+  Error: /tmp/tmpa0vw0cfi/TempVerify.java:5: error: cannot find symbol
+Node left = scene.getRootNode().createChildNode();
+            ^
+  symbol:   variable scene
+  location: class TempVerify
+/tmp/tmpa0vw0cfi/TempVerify.java:7: error: cannot find symbol
+Node right = scene.getRootNode().createChildNode();
+             ^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Create left node
+  Node left = scene.getRootNode().createChildNode();
+  // Create right node
+  Node right = scene.getRootNode().createChildNode();
+  left.getTransform().setTranslation(new Vector3(5, 0, 0))...
+
+  File: using-twist-offset (Snippet #5)
+  Error: /tmp/tmpz_c1v98o/TempVerify.java:5: error: cannot find symbol
+left.createChildNode(new LinearExtrusion(profile, 10) );
+                                         ^
+  symbol:   variable profile
+  location: class TempVerify
+/tmp/tmpz_c1v98o/TempVerify.java:5: error: cannot find symbol
+left.createChildNode(new LinearExtrusion(profile, 10) );
+^
+  symbol:   variable left
+  location: class TempVerify
+/tmp/tmpz_c1v98o/TempVerify.java:8: error: cannot find symbol
+right.createChildNode(new LinearExtrusion(profile, 10) );
+                                          ^
+  symbol:   variable profile
+  location: class TempVerify
+/tmp/tmpz_c1v98o/TempVerify.java:8: error: cannot find symbol
+right.createChildNode(new LinearExtrusion(profile, 10) );
+^
+  symbol:   variable right
+  location: class TempVerify
+4 errors
+  Code preview:
+  // Perform linear extrusion on left node using twist and slices property
+  left.createChildNode(new LinearExtrusion(profile, 10) );
+  
+  // Perform linear extrusion on right node using twist, twist offset, ...
+
+  File: using-twist-offset (Snippet #6)
+  Error: /tmp/tmp5t_xg74_/TempVerify.java:5: error: cannot find symbol
+scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmp5t_xg74_/TempVerify.java:5: error: cannot find symbol
+scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Save 3D scene
+  scene.save(MyDir + "TwistOffsetInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
+
+  File: create-empty-3d-document (Snippet #4)
+  Error: /tmp/tmpr26c29ge/TempVerify.java:5: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmpr26c29ge/TempVerify.java:5: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Save 3D scene document
+  scene.save(MyDir, FileFormat.FBX7500ASCII);
+
+  File: create-empty-3d-document (Snippet #5)
+  Error: /tmp/tmp93y7kd4u/TempVerify.java:5: error: cannot find symbol
+System.out.println("\nAn empty 3D document created successfully.\nFile saved at " + MyDir);
+                                                                                    ^
+  symbol:   variable MyDir
+  location: class TempVerify
+1 error
+  Code preview:
+  // Print success message
+  System.out.println("\nAn empty 3D document created successfully.\nFile saved at " + MyDir);
+
+  File: customize-3d-file-loading (Snippet #6)
+  Error: /tmp/tmpzc3bwk02/TempVerify.java:9: error: unreported exception IOException; must be caught or declared to be thrown
+scene.open(MyDir + "Duck.gltf", loadOpt);
+          ^
+1 error
+  Code preview:
+  // ExStart:gltfLoadOptions
+  String MyDir = "Your Document Directory";
+  Scene scene = new Scene();
+  GltfLoadOptions loadOpt = new GltfLoadOptions();
+  loadOpt.setFlipTexCoordV(true);
+  scene.open(MyDir + "Duc...
+
+  File: customize-3d-file-loading (Snippet #7)
+  Error: /tmp/tmps0a4nqaj/TempVerify.java:9: error: unreported exception IOException; must be caught or declared to be thrown
+scene.open(MyDir + "vase-v2.ply", loadPLYOpts);
+          ^
+1 error
+  Code preview:
+  // ExStart:plyLoadOptions
+  String MyDir = "Your Document Directory";
+  Scene scene = new Scene();
+  PlyLoadOptions loadPLYOpts = new PlyLoadOptions();
+  loadPLYOpts.setFlipCoordinateSystem(true);
+  scene.open(...
+
+  File: customize-3d-file-loading (Snippet #8)
+  Error: /tmp/tmp8449oe7w/TempVerify.java:9: error: unreported exception IOException; must be caught or declared to be thrown
+scene.open(MyDir + "warrior.x", loadXOpts);
+          ^
+1 error
+  Code preview:
+  // ExStart:xLoadOptions
+  String MyDir = "Your Document Directory";
+  Scene scene = new Scene();
+  XLoadOptions loadXOpts = new XLoadOptions(FileContentType.ASCII);
+  loadXOpts.setFlipCoordinateSystem(true);
+  ...
+
+  File: customize-3d-file-loading (Snippet #9)
+  Error: /tmp/tmpvipddtuj/TempVerify.java:9: error: unreported exception IOException; must be caught or declared to be thrown
+scene.open(dataDir + "test.FBX", opt);
+          ^
+1 error
+  Code preview:
+  // ExStart:FBXLoadOptions
+  String dataDir = "Your Document Directory";
+  Scene scene = new Scene();
+  FbxLoadOptions opt = new FbxLoadOptions();
+  opt.setKeepBuiltinGlobalSettings(true);
+  scene.open(dataDir +...
+
+  File: detect-3d-file-formats (Snippet #3)
+  Error: /tmp/tmph2815gzv/TempVerify.java:4: error: cannot find symbol
+FileFormat inputFormat = FileFormat.detect(MyDir + "document.fbx");
+                                           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+1 error
+  Code preview:
+  FileFormat inputFormat = FileFormat.detect(MyDir + "document.fbx");
+
+  File: detect-3d-file-formats (Snippet #4)
+  Error: /tmp/tmp3wx6kgce/TempVerify.java:4: error: cannot find symbol
+System.out.println("File Format: " + inputFormat.toString());
+                                     ^
+  symbol:   variable inputFormat
+  location: class TempVerify
+1 error
+  Code preview:
+  System.out.println("File Format: " + inputFormat.toString());
+
+  File: optimize-3d-file-saving (Snippet #2)
+  Error: /tmp/tmp1onmhou9/TempVerify.java:4: error: illegal start of expression
+public static void prettyPrintInGltfSaveOption() throws IOException {
+^
+/tmp/tmp1onmhou9/TempVerify.java:18: error: class, interface, enum, or record expected
+}
+^
+2 errors
+  Code preview:
+  public static void prettyPrintInGltfSaveOption() throws IOException {
+      // Initialize 3D scene
+      Scene scene = new Scene(new Sphere());
+      
+      // Initialize GLTFSaveOptions
+      GltfSaveOptions o...
+
+  File: optimize-3d-file-saving (Snippet #3)
+  Error: /tmp/tmpwizx8zng/TempVerify.java:4: error: illegal start of expression
+public static void html5SaveOption() throws IOException {
+^
+/tmp/tmpwizx8zng/TempVerify.java:32: error: class, interface, enum, or record expected
+}
+^
+2 errors
+  Code preview:
+  public static void html5SaveOption() throws IOException {
+      // Initialize a scene
+      Scene scene = new Scene();
+      
+      // Create a child node with a cylinder
+      Node node = scene.getRootNode().c...
+
+  File: read-existing-3d-scenes (Snippet #4)
+  Error: /tmp/tmpa767xv_i/TempVerify.java:4: error: cannot find symbol
+scene.open(MyDir + "document.fbx");
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmpa767xv_i/TempVerify.java:4: error: cannot find symbol
+scene.open(MyDir + "document.fbx");
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  scene.open(MyDir + "document.fbx");
+
+  File: read-existing-3d-scenes (Snippet #6)
+  Error: /tmp/tmphlfd7fkx/TempVerify.java:5: error: incompatible types: String cannot be converted to Entity
 Scene scene = new Scene(dataDir + "att-test.rvm");
-FileFormat.RVM_BINARY.loadAttributes(scene, dataDir + "att-test.att");
-```
-
-File: basic-rendering (Snippet #1)
-Error:
-```
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:30: error: variable material is already defined in method main(String[])
-        PhongMaterial material = new PhongMaterial();
-                      ^
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:35: error: variable camera is already defined in method main(String[])
-        Camera camera = new Camera();
-               ^
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:40: error: incompatible types: unexpected return value
-        return camera;
-               ^
-3 errors
-```
-
-Code:
-```
-import com.aspose.threed.*;
-
-import java.awt.*;
-```
-
-File: basic-rendering (Snippet #2)
-Error:
-```
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:30: error: variable material is already defined in method main(String[])
-        PhongMaterial material = new PhongMaterial();
-                      ^
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:35: error: variable camera is already defined in method main(String[])
-        Camera camera = new Camera();
-               ^
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:40: error: incompatible types: unexpected return value
-        return camera;
-               ^
-3 errors
-```
-
-Code:
-```
-Scene scene = new Scene();
-Node light = scene.getRootNode().createChildNode("light", new Light());
-light.getTransform().setTranslation(10, 10, 10);
-
-Camera camera = new Camera();
-scene.getRootNode().createChildNode(camera);
-camera.setNearPlane(0.1);
-camera.getParentNode().getTransform().setTranslation(0, 5, 10);
-camera.setLookAt(Vector3.getZero());
-```
-
-File: basic-rendering (Snippet #3)
-Error:
-```
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:30: error: variable material is already defined in method main(String[])
-        PhongMaterial material = new PhongMaterial();
-                      ^
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:35: error: variable camera is already defined in method main(String[])
-        Camera camera = new Camera();
-               ^
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:40: error: incompatible types: unexpected return value
-        return camera;
-               ^
-3 errors
-```
-
-Code:
-```
-// Create a plane geometry
-Plane planeObj = new Plane();
-planeObj.setLength(20);
-planeObj.setWidth(20);
-
-// Create the node with the plane's mesh
-Node plane = scene.getRootNode().createChildNode("plane", planeObj.toMesh());
-
-// Create a material and apply it to the node
-PhongMaterial material = new PhongMaterial();
-material.setDiffuseColor(new Vector3(0.545, 0.0, 0.0)); // dark orange
-plane.setMaterial(material);
-
-// Set plane position and shadow properties
-plane.getTransform().setTranslation(0, 0, 0);
-((Mesh)plane.getEntity()).setReceiveShadows(true);
-```
-
-File: basic-rendering (Snippet #4)
-Error:
-```
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:30: error: variable material is already defined in method main(String[])
-        PhongMaterial material = new PhongMaterial();
-                      ^
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:35: error: variable camera is already defined in method main(String[])
-        Camera camera = new Camera();
-               ^
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:40: error: incompatible types: unexpected return value
-        return camera;
-               ^
-3 errors
-```
-
-Code:
-```
-// Create a torus geometry
-Torus torusObj = new Torus();
-torusObj.setRadius(1);
-torusObj.setTube(0.4);
-torusObj.setRadialSegments(50);
-torusObj.setTubularSegments(50);
-torusObj.setArc(Math.PI * 2);
-
-// Create the node with the torus' mesh
-Node torus = scene.getRootNode().createChildNode("torus", torusObj.toMesh());
-
-// Create a material with transparency and apply it
-PhongMaterial material = new PhongMaterial();
-material.setDiffuseColor(new Vector3(0.2, 0.05, 0.58)); // purple
-material.setTransparency(0.3);
-torus.setMaterial(material);
-
-// Position the torus
-torus.getTransform().setTranslation(2, 1, 1);
-```
-
-File: basic-rendering (Snippet #5)
-Error:
-```
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:30: error: variable material is already defined in method main(String[])
-        PhongMaterial material = new PhongMaterial();
-                      ^
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:35: error: variable camera is already defined in method main(String[])
-        Camera camera = new Camera();
-               ^
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:40: error: incompatible types: unexpected return value
-        return camera;
-               ^
-3 errors
-```
-
-Code:
-```
-// Code for adding cylinders with specific rotations and materials
-// ...
-```
-
-File: basic-rendering (Snippet #6)
-Error:
-```
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:30: error: variable material is already defined in method main(String[])
-        PhongMaterial material = new PhongMaterial();
-                      ^
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:35: error: variable camera is already defined in method main(String[])
-        Camera camera = new Camera();
-               ^
-/tmp/verify_basic-rendering_rp01btsn/VerifyCode.java:40: error: incompatible types: unexpected return value
-        return camera;
-               ^
-3 errors
-```
-
-Code:
-```
-Camera camera = new Camera();
-scene.getRootNode().createChildNode(camera);
-camera.setNearPlane(0.1);
-camera.getParentNode().getTransform().setTranslation(10, 5, 10);
-camera.setLookAt(Vector3.getZero());
-return camera;
-```
-
-File: manual-render-targets (Snippet #1)
-Error:
-```
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:20: error: no suitable method found for render(Camera,BufferedImage)
-        scene.render(camera, image);
-             ^
-    method Scene.render(Camera,String) is not applicable
-      (argument mismatch; BufferedImage cannot be converted to String)
-    method Scene.render(Camera,TextureData) is not applicable
-      (argument mismatch; BufferedImage cannot be converted to TextureData)
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:23: error: incompatible types: Color cannot be converted to Vector3
-        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
-                                       ^
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:26: error: incompatible types: BufferedImage cannot be converted to TextureData
-        texture.save(image);
-                     ^
+                                ^
 Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-3 errors
-```
+1 error
+  Code preview:
+  String dataDir = "Your Document Directory";
+  Scene scene = new Scene(dataDir + "att-test.rvm");
+  FileFormat.RVM_BINARY.loadAttributes(scene, dataDir + "att-test.att");
 
-Code:
-```
-import com.aspose.threed.*;
+  File: save-3d-scenes (Snippet #3)
+  Error: /tmp/tmpp_2g8cbu/TempVerify.java:6: error: cannot find symbol
+scene.open(myDir + "document.fbx");
+           ^
+  symbol:   variable myDir
+  location: class TempVerify
+1 error
+  Code preview:
+  // ExStart:Load3DDocument
+  Scene scene = new Scene();
+  scene.open(myDir + "document.fbx");
+  // ExEnd:Load3DDocument
 
+  File: save-3d-scenes (Snippet #4)
+  Error: /tmp/tmptgv83d5n/TempVerify.java:6: error: cannot find symbol
+    scene.save(dstStream, FileFormat.FBX7500ASCII);
+    ^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // ExStart:SaveSceneToStream
+  try (MemoryStream dstStream = new MemoryStream()) {
+      scene.save(dstStream, FileFormat.FBX7500ASCII);
+  }
+  // ExEnd:SaveSceneToStream
 
-import javax.imageio.ImageIO;
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
-```
+  File: save-3d-scenes (Snippet #5)
+  Error: /tmp/tmp3gabzci6/TempVerify.java:5: error: cannot find symbol
+scene.save(myDir + "output_out.fbx", FileFormat.FBX7500ASCII);
+           ^
+  symbol:   variable myDir
+  location: class TempVerify
+/tmp/tmp3gabzci6/TempVerify.java:5: error: cannot find symbol
+scene.save(myDir + "output_out.fbx", FileFormat.FBX7500ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  // ExStart:SaveSceneToLocalPath
+  scene.save(myDir + "output_out.fbx", FileFormat.FBX7500ASCII);
+  // ExEnd:SaveSceneToLocalPath
 
-File: manual-render-targets (Snippet #2)
-Error:
-```
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:20: error: no suitable method found for render(Camera,BufferedImage)
-        scene.render(camera, image);
-             ^
-    method Scene.render(Camera,String) is not applicable
-      (argument mismatch; BufferedImage cannot be converted to String)
-    method Scene.render(Camera,TextureData) is not applicable
-      (argument mismatch; BufferedImage cannot be converted to TextureData)
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:23: error: incompatible types: Color cannot be converted to Vector3
-        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
-                                       ^
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:26: error: incompatible types: BufferedImage cannot be converted to TextureData
-        texture.save(image);
+  File: upgrade-materials-to-pbr (Snippet #3)
+  Error: /tmp/tmp6eeo92j9/TempVerify.java:8: error: cannot find symbol
+s.getRootNode().createChildNode("box1", box).setMaterial(mat);
+^
+  symbol:   variable s
+  location: class TempVerify
+1 error
+  Code preview:
+  // ExStart:CreateBoxWithMaterial
+  Box box = new Box();
+  PhongMaterial mat = new PhongMaterial();
+  mat.setDiffuseColor(new Vector3(1, 0, 1));
+  s.getRootNode().createChildNode("box1", box).setMaterial(mat);...
+
+  File: upgrade-materials-to-pbr (Snippet #4)
+  Error: /tmp/tmpdujrcuo8/TempVerify.java:15: error: cannot find symbol
+s.save(MyDir + "Non_PBRtoPBRMaterial_Out.gltf", opt);
+       ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmpdujrcuo8/TempVerify.java:15: error: cannot find symbol
+s.save(MyDir + "Non_PBRtoPBRMaterial_Out.gltf", opt);
+^
+  symbol:   variable s
+  location: class TempVerify
+2 errors
+  Code preview:
+  // ExStart:SaveInGLTF
+  GltfSaveOptions opt = new GltfSaveOptions(FileFormat.GLTF2);
+  opt.setMaterialConverter(new MaterialConverter() {
+      @Override
+      public Material call(Material material) {
+        ...
+
+  File: create-point-clouds-java (Snippet #2)
+  Error: /tmp/tmpqvh0_x06/TempVerify.java:5: error: unreported exception IOException; must be caught or declared to be thrown
+FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
+                       ^
+1 error
+  Code preview:
+  // ExStart:1
+  FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
+  // ExEnd:1
+
+  File: decode-meshes-java (Snippet #2)
+  Error: /tmp/tmpqbdjx_qh/TempVerify.java:5: error: unreported exception IOException; must be caught or declared to be thrown
+PointCloud pointCloud = (PointCloud) FileFormat.DRACO.decode("Your Document Directory" + "point_cloud_no_qp.drc");
+                                                            ^
+1 error
+  Code preview:
+  // ExStart:1
+  PointCloud pointCloud = (PointCloud) FileFormat.DRACO.decode("Your Document Directory" + "point_cloud_no_qp.drc");
+  // ExEnd:1
+
+  File: decode-meshes-java (Snippet #3)
+  Error: /tmp/tmpl69cw6hn/TempVerify.java:5: error: cannot find symbol
+Geometry geometry = pointCloud;
+                    ^
+  symbol:   variable pointCloud
+  location: class TempVerify
+1 error
+  Code preview:
+  // ExStart:3
+  Geometry geometry = pointCloud;
+  // ExEnd:3
+
+  File: export-3d-scenes-point-clouds-java (Snippet #4)
+  Error: /tmp/tmp6nhcty0_/TempVerify.java:5: error: cannot find symbol
+opt.setPointCloud(true);
+^
+  symbol:   variable opt
+  location: class TempVerify
+1 error
+  Code preview:
+  // To export 3D scene as point cloud setPointCloud
+  opt.setPointCloud(true);
+
+  File: export-3d-scenes-point-clouds-java (Snippet #5)
+  Error: /tmp/tmpkrhsxwcl/TempVerify.java:5: error: cannot find symbol
+scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
+                                                                        ^
+  symbol:   variable opt
+  location: class TempVerify
+/tmp/tmpkrhsxwcl/TempVerify.java:5: error: cannot find symbol
+scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Save
+  scene.save("Your Document Directory" + "export3DSceneAsPointCloud.obj", opt);
+
+  File: export-point-clouds-ply-java (Snippet #2)
+  Error: /tmp/tmp_sd4qwvc/TempVerify.java:5: error: unreported exception IOException; must be caught or declared to be thrown
+FileFormat.PLY.encode(new Sphere(), "Your Document Directory" + "sphere.ply");
                      ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-3 errors
-```
+1 error
+  Code preview:
+  // ExStart:1
+  FileFormat.PLY.encode(new Sphere(), "Your Document Directory" + "sphere.ply");
+  // ExEnd:1
 
-Code:
-```
-Scene scene = new Scene();
-Node light = scene.getRootNode().createChildNode("light", new Light());
-light.getTransform().setTranslation(10, 10, 10);
+  File: generate-point-clouds-spheres-java (Snippet #4)
+  Error: /tmp/tmp9ajewrqg/TempVerify.java:5: error: cannot find symbol
+FileFormat.DRACO.encode(sphere, "Your Document Directory" + "sphere.drc", opt);
+                        ^
+  symbol:   variable sphere
+  location: class TempVerify
+/tmp/tmp9ajewrqg/TempVerify.java:5: error: cannot find symbol
+FileFormat.DRACO.encode(sphere, "Your Document Directory" + "sphere.drc", opt);
+                                                                          ^
+  symbol:   variable opt
+  location: class TempVerify
+2 errors
+  Code preview:
+  // ExStart:5
+  FileFormat.DRACO.encode(sphere, "Your Document Directory" + "sphere.drc", opt);
+  // ExEnd:5
 
-Camera camera = new Camera();
-scene.getRootNode().createChildNode(camera);
-camera.setNearPlane(0.1);
-camera.getParentNode().getTransform().setTranslation(0, 5, 10);
-camera.setLookAt(Vector3.getZero());
-```
-
-File: manual-render-targets (Snippet #3)
-Error:
-```
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:20: error: no suitable method found for render(Camera,BufferedImage)
-        scene.render(camera, image);
-             ^
-    method Scene.render(Camera,String) is not applicable
-      (argument mismatch; BufferedImage cannot be converted to String)
-    method Scene.render(Camera,TextureData) is not applicable
-      (argument mismatch; BufferedImage cannot be converted to TextureData)
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:23: error: incompatible types: Color cannot be converted to Vector3
-        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
-                                       ^
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:26: error: incompatible types: BufferedImage cannot be converted to TextureData
-        texture.save(image);
+  File: load-ply-point-clouds-java (Snippet #2)
+  Error: /tmp/tmp7b8gz7zw/TempVerify.java:5: error: unreported exception IOException; must be caught or declared to be thrown
+FileFormat.PLY.decode("Your Document Directory" + "sphere.ply");
                      ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+  Code preview:
+  // ExStart:3
+  FileFormat.PLY.decode("Your Document Directory" + "sphere.ply");
+  // ExEnd:3
+
+  File: load-ply-point-clouds-java (Snippet #3)
+  Error: /tmp/tmpsodyyle8/TempVerify.java:5: error: unreported exception IOException; must be caught or declared to be thrown
+Geometry geom = FileFormat.PLY.decode("Your Document Directory" + "sphere.ply");
+                                     ^
+1 error
+  Code preview:
+  // ExStart:4
+  Geometry geom = FileFormat.PLY.decode("Your Document Directory" + "sphere.ply");
+  // ExEnd:4
+
+  File: ply-export-point-clouds-java (Snippet #5)
+  Error: /tmp/tmp2q32uk1s/TempVerify.java:5: error: cannot find symbol
+FileFormat.PLY.encode(sphere, outputPath, options);
+                      ^
+  symbol:   variable sphere
+  location: class TempVerify
+/tmp/tmp2q32uk1s/TempVerify.java:5: error: cannot find symbol
+FileFormat.PLY.encode(sphere, outputPath, options);
+                              ^
+  symbol:   variable outputPath
+  location: class TempVerify
+/tmp/tmp2q32uk1s/TempVerify.java:5: error: cannot find symbol
+FileFormat.PLY.encode(sphere, outputPath, options);
+                                          ^
+  symbol:   variable options
+  location: class TempVerify
 3 errors
-```
+  Code preview:
+  // ExStart:6
+  FileFormat.PLY.encode(sphere, outputPath, options);
+  // ExEnd:6
 
-Code:
-```
-String output = "manual-render-to-image.png";
-```
+  File: convert-polygons-triangles (Snippet #2)
+  Error: /tmp/tmpllejdnij/TempVerify.java:10: error: unreported exception IOException; must be caught or declared to be thrown
+scene.open(MyDir);
+          ^
+1 error
+  Code preview:
+  // ExStart:Load3DFile
+  // The path to the documents directory.
+  String MyDir = "Your Document Directory";
+  MyDir = MyDir + "document.fbx";
+  // Load an existing 3D file
+  Scene scene = new Scene();
+  scene.ope...
 
-File: manual-render-targets (Snippet #4)
-Error:
-```
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:20: error: no suitable method found for render(Camera,BufferedImage)
-        scene.render(camera, image);
+  File: convert-polygons-triangles (Snippet #3)
+  Error: /tmp/tmpg934hozy/TempVerify.java:6: error: cannot find symbol
+PolygonModifier.triangulate(scene);
+                            ^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // ExStart:TriangulateScene
+  // Triangulate a scene
+  PolygonModifier.triangulate(scene);
+  // ExEnd:TriangulateScene
+
+  File: convert-polygons-triangles (Snippet #4)
+  Error: /tmp/tmpn077aba7/TempVerify.java:6: error: cannot find symbol
+scene.save(MyDir + "triangulated_out.fbx", FileFormat.FBX7400ASCII);
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmpn077aba7/TempVerify.java:6: error: cannot find symbol
+scene.save(MyDir + "triangulated_out.fbx", FileFormat.FBX7400ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  // ExStart:SaveTriangulatedScene
+  // Save 3D scene
+  scene.save(MyDir + "triangulated_out.fbx", FileFormat.FBX7400ASCII);
+  // ExEnd:SaveTriangulatedScene
+
+  File: generate-uv-coordinates (Snippet #5)
+  Error: /tmp/tmp87qjjnwx/TempVerify.java:4: error: cannot find symbol
+VertexElement uv = PolygonModifier.generateUV(mesh);
+                                              ^
+  symbol:   variable mesh
+  location: class TempVerify
+1 error
+  Code preview:
+  VertexElement uv = PolygonModifier.generateUV(mesh);
+
+  File: generate-uv-coordinates (Snippet #6)
+  Error: /tmp/tmp_mril0mb/TempVerify.java:4: error: cannot find symbol
+mesh.addElement(uv);
+                ^
+  symbol:   variable uv
+  location: class TempVerify
+/tmp/tmp_mril0mb/TempVerify.java:4: error: cannot find symbol
+mesh.addElement(uv);
+^
+  symbol:   variable mesh
+  location: class TempVerify
+2 errors
+  Code preview:
+  mesh.addElement(uv);
+
+  File: generate-uv-coordinates (Snippet #7)
+  Error: /tmp/tmpqkrlv5h5/TempVerify.java:4: error: cannot find symbol
+Node node = scene.getRootNode().createChildNode(mesh);
+                                                ^
+  symbol:   variable mesh
+  location: class TempVerify
+/tmp/tmpqkrlv5h5/TempVerify.java:4: error: cannot find symbol
+Node node = scene.getRootNode().createChildNode(mesh);
+            ^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  Node node = scene.getRootNode().createChildNode(mesh);
+
+  File: generate-uv-coordinates (Snippet #8)
+  Error: /tmp/tmp9kmr0vy7/TempVerify.java:4: error: cannot find symbol
+scene.save(MyDir + "test.obj", FileFormat.WAVEFRONTOBJ);
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmp9kmr0vy7/TempVerify.java:4: error: cannot find symbol
+scene.save(MyDir + "test.obj", FileFormat.WAVEFRONTOBJ);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  scene.save(MyDir + "test.obj", FileFormat.WAVEFRONTOBJ);
+
+  File: building-primitive-3d-models (Snippet #3)
+  Error: /tmp/tmp7rbkz8pd/TempVerify.java:5: error: cannot find symbol
+scene.getRootNode().createChildNode("box", new Box());
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // Create a Box model
+  scene.getRootNode().createChildNode("box", new Box());
+
+  File: building-primitive-3d-models (Snippet #4)
+  Error: /tmp/tmpx2uaz6t2/TempVerify.java:5: error: cannot find symbol
+scene.getRootNode().createChildNode("cylinder", new Cylinder());
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // Create a Cylinder model
+  scene.getRootNode().createChildNode("cylinder", new Cylinder());
+
+  File: building-primitive-3d-models (Snippet #5)
+  Error: /tmp/tmpj0z3fk9m/TempVerify.java:5: error: cannot find symbol
+myDir = myDir + "test.fbx";
+^
+  symbol:   variable myDir
+  location: class TempVerify
+/tmp/tmpj0z3fk9m/TempVerify.java:5: error: cannot find symbol
+myDir = myDir + "test.fbx";
+        ^
+  symbol:   variable myDir
+  location: class TempVerify
+/tmp/tmpj0z3fk9m/TempVerify.java:6: error: cannot find symbol
+scene.save(myDir, FileFormat.FBX7500ASCII);
+           ^
+  symbol:   variable myDir
+  location: class TempVerify
+/tmp/tmpj0z3fk9m/TempVerify.java:6: error: cannot find symbol
+scene.save(myDir, FileFormat.FBX7500ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+4 errors
+  Code preview:
+  // Save drawing in the FBX format
+  myDir = myDir + "test.fbx";
+  scene.save(myDir, FileFormat.FBX7500ASCII);
+
+  File: basic-rendering (Snippet #2)
+  Error: /tmp/tmpm0rhnms3/TempVerify.java:22: error: illegal character: '`'
+\u0060\u0060\u0060\u0060
+^
+/tmp/tmpm0rhnms3/TempVerify.java:22: error: illegal character: '`'
+\u0060\u0060\u0060\u0060
+      ^
+/tmp/tmpm0rhnms3/TempVerify.java:22: error: illegal character: '`'
+\u0060\u0060\u0060\u0060
+            ^
+/tmp/tmpm0rhnms3/TempVerify.java:22: error: illegal character: '`'
+\u0060\u0060\u0060\u0060
+                  ^
+/tmp/tmpm0rhnms3/TempVerify.java:24: error: illegal character: '#'
+### Step 4: Incorporating Cylinders (additional shapes)
+^
+/tmp/tmpm0rhnms3/TempVerify.java:24: error: illegal character: '#'
+### Step 4: Incorporating Cylinders (additional shapes)
+ ^
+/tmp/tmpm0rhnms3/TempVerify.java:24: error: illegal character: '#'
+### Step 4: Incorporating Cylinders (additional shapes)
+  ^
+/tmp/tmpm0rhnms3/TempVerify.java:24: error: not a statement
+### Step 4: Incorporating Cylinders (additional shapes)
+    ^
+/tmp/tmpm0rhnms3/TempVerify.java:24: error: ';' expected
+### Step 4: Incorporating Cylinders (additional shapes)
+        ^
+/tmp/tmpm0rhnms3/TempVerify.java:24: error: ';' expected
+### Step 4: Incorporating Cylinders (additional shapes)
+                                   ^
+/tmp/tmpm0rhnms3/TempVerify.java:24: error: ';' expected
+### Step 4: Incorporating Cylinders (additional shapes)
+                                                      ^
+/tmp/tmpm0rhnms3/TempVerify.java:25: error: ';' expected
+Here we add a few cylinders with different rotations and materials to enrich the scene.
+       ^
+/tmp/tmpm0rhnms3/TempVerify.java:25: error: ';' expected
+Here we add a few cylinders with different rotations and materials to enrich the scene.
              ^
-    method Scene.render(Camera,String) is not applicable
-      (argument mismatch; BufferedImage cannot be converted to String)
-    method Scene.render(Camera,TextureData) is not applicable
-      (argument mismatch; BufferedImage cannot be converted to TextureData)
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:23: error: incompatible types: Color cannot be converted to Vector3
-        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
-                                       ^
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:26: error: incompatible types: BufferedImage cannot be converted to TextureData
-        texture.save(image);
-                     ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-3 errors
-```
+/tmp/tmpm0rhnms3/TempVerify.java:25: error: ';' expected
+Here we add a few cylinders with different rotations and materials to enrich the scene.
+                           ^
+/tmp/tmpm0rhnms3/TempVerify.java:25: error: ';' expected
+Here we add a few cylinders with different rotations and materials to enrich the scene.
+                                          ^
+/tmp/tmpm0rhnms3/TempVerify.java:25: error: ';' expected
+Here we add a few cylinders with different rotations and materials to enrich the scene.
+                                                        ^
+/tmp/tmpm0rhnms3/TempVerify.java:25: error: ';' expected
+Here we add a few cylinders with different rotations and materials to enrich the scene.
+                                                                     ^
+/tmp/tmpm0rhnms3/TempVerify.java:25: error: ';' expected
+Here we add a few cylinders with different rotations and materials to enrich the scene.
+                                                                                ^
+/tmp/tmpm0rhnms3/TempVerify.java:25: error: <identifier> expected
+Here we add a few cylinders with different rotations and materials to enrich the scene.
+                                                                                       ^
+/tmp/tmpm0rhnms3/TempVerify.java:25: error: not a statement
+Here we add a few cylinders with different rotations and materials to enrich the scene.
+                                                                                      ^
+20 errors
+  Code preview:
+  // Create a torus geometry
+  Torus torusObj = new Torus();
+  torusObj.setRadius(1);
+  torusObj.setTube(0.4);
+  torusObj.setRadialSegments(50);
+  torusObj.setTubularSegments(50);
+  torusObj.setArc(Math.PI * 2);
+  
+  /...
 
-Code:
-```
+  File: manual-render-targets (Snippet #4)
+  Error: /tmp/tmplogrqd3_/TempVerify.java:4: error: cannot find symbol
 BufferedImage image = new BufferedImage(1024, 1024, BufferedImage.TYPE_3BYTE_BGR);
-```
-
-File: manual-render-targets (Snippet #5)
-Error:
-```
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:20: error: no suitable method found for render(Camera,BufferedImage)
-        scene.render(camera, image);
-             ^
-    method Scene.render(Camera,String) is not applicable
-      (argument mismatch; BufferedImage cannot be converted to String)
-    method Scene.render(Camera,TextureData) is not applicable
-      (argument mismatch; BufferedImage cannot be converted to TextureData)
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:23: error: incompatible types: Color cannot be converted to Vector3
-        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
-                                       ^
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:26: error: incompatible types: BufferedImage cannot be converted to TextureData
-        texture.save(image);
-                     ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+^
+  symbol:   class BufferedImage
+  location: class TempVerify
+/tmp/tmplogrqd3_/TempVerify.java:4: error: cannot find symbol
+BufferedImage image = new BufferedImage(1024, 1024, BufferedImage.TYPE_3BYTE_BGR);
+                          ^
+  symbol:   class BufferedImage
+  location: class TempVerify
+/tmp/tmplogrqd3_/TempVerify.java:4: error: cannot find symbol
+BufferedImage image = new BufferedImage(1024, 1024, BufferedImage.TYPE_3BYTE_BGR);
+                                                    ^
+  symbol:   variable BufferedImage
+  location: class TempVerify
 3 errors
-```
+  Code preview:
+  BufferedImage image = new BufferedImage(1024, 1024, BufferedImage.TYPE_3BYTE_BGR);
 
-Code:
-```
+  File: manual-render-targets (Snippet #5)
+  Error: /tmp/tmpzcatr6rw/TempVerify.java:4: error: cannot find symbol
 scene.render(camera, image);
-```
-
-File: manual-render-targets (Snippet #6)
-Error:
-```
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:20: error: no suitable method found for render(Camera,BufferedImage)
-        scene.render(camera, image);
              ^
-    method Scene.render(Camera,String) is not applicable
-      (argument mismatch; BufferedImage cannot be converted to String)
-    method Scene.render(Camera,TextureData) is not applicable
-      (argument mismatch; BufferedImage cannot be converted to TextureData)
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:23: error: incompatible types: Color cannot be converted to Vector3
-        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
-                                       ^
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:26: error: incompatible types: BufferedImage cannot be converted to TextureData
-        texture.save(image);
+  symbol:   variable camera
+  location: class TempVerify
+/tmp/tmpzcatr6rw/TempVerify.java:4: error: cannot find symbol
+scene.render(camera, image);
                      ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  symbol:   variable image
+  location: class TempVerify
+/tmp/tmpzcatr6rw/TempVerify.java:4: error: cannot find symbol
+scene.render(camera, image);
+^
+  symbol:   variable scene
+  location: class TempVerify
 3 errors
-```
+  Code preview:
+  scene.render(camera, image);
 
-Code:
-```
-try (Renderer renderer = Renderer.createRenderer()) {
+  File: manual-render-targets (Snippet #6)
+  Error: /tmp/tmp4gc_dzg7/TempVerify.java:5: error: cannot find symbol
     try (IRenderTexture rt = renderer.getRenderFactory().createRenderTexture(new RenderParameters(), 1, image.getWidth(), image.getHeight())) {
+                                                                                                        ^
+  symbol:   variable image
+  location: class TempVerify
+/tmp/tmp4gc_dzg7/TempVerify.java:5: error: cannot find symbol
+    try (IRenderTexture rt = renderer.getRenderFactory().createRenderTexture(new RenderParameters(), 1, image.getWidth(), image.getHeight())) {
+                                                                                                                          ^
+  symbol:   variable image
+  location: class TempVerify
+/tmp/tmp4gc_dzg7/TempVerify.java:6: error: cannot find symbol
         rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
-        renderer.render(rt);
-        ITexture2D texture = (ITexture2D) rt.getTargets().get(0);
-        texture.save(image);
-    }
-}
-```
-
-File: manual-render-targets (Snippet #7)
-Error:
-```
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:20: error: no suitable method found for render(Camera,BufferedImage)
-        scene.render(camera, image);
-             ^
-    method Scene.render(Camera,String) is not applicable
-      (argument mismatch; BufferedImage cannot be converted to String)
-    method Scene.render(Camera,TextureData) is not applicable
-      (argument mismatch; BufferedImage cannot be converted to TextureData)
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:23: error: incompatible types: Color cannot be converted to Vector3
+                          ^
+  symbol:   variable camera
+  location: class TempVerify
+/tmp/tmp4gc_dzg7/TempVerify.java:6: error: cannot find symbol
         rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
-                                       ^
-/tmp/verify_manual-render-targets_9wp4n6fg/VerifyCode.java:26: error: incompatible types: BufferedImage cannot be converted to TextureData
+                                  ^
+  symbol:   variable Color
+  location: class TempVerify
+/tmp/tmp4gc_dzg7/TempVerify.java:9: error: cannot find symbol
         texture.save(image);
                      ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-3 errors
-```
+  symbol:   variable image
+  location: class TempVerify
+5 errors
+  Code preview:
+  try (Renderer renderer = Renderer.createRenderer()) {
+      try (IRenderTexture rt = renderer.getRenderFactory().createRenderTexture(new RenderParameters(), 1, image.getWidth(), image.getHeight())) {
+    ...
 
-Code:
-```
+  File: manual-render-targets (Snippet #7)
+  Error: /tmp/tmpu4nnrn24/TempVerify.java:4: error: cannot find symbol
 ImageIO.write(image, "png", new File(output));
-```
-
-File: real-time-rendering-swt (Snippet #1)
-Error:
-```
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:4: error: package org.eclipse.swt does not exist
-import org.eclipse.swt.SWT;
-                      ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:5: error: package org.eclipse.swt.widgets does not exist
-import org.eclipse.swt.widgets.Display;
-                              ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:6: error: package org.eclipse.swt.widgets does not exist
-import org.eclipse.swt.widgets.Shell;
-                              ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
-        Display display = new Display();
-        ^
-  symbol:   class Display
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
-        Display display = new Display();
-                              ^
-  symbol:   class Display
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
-        final Shell shell = new Shell(display);
               ^
-  symbol:   class Shell
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
-        final Shell shell = new Shell(display);
+  symbol:   variable image
+  location: class TempVerify
+/tmp/tmpu4nnrn24/TempVerify.java:4: error: cannot find symbol
+ImageIO.write(image, "png", new File(output));
                                 ^
-  symbol:   class Shell
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:17: error: cannot find symbol
-        Camera camera = setupScene(scene);
-                        ^
-  symbol:   method setupScene(Scene)
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:19: error: incompatible types: Color cannot be converted to Vector3
-        vp.setBackgroundColor(Color.pink);
-                                   ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:20: error: cannot find symbol
-        shell.addListener(SWT.Traverse, event -> {
-                          ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:21: error: cannot find symbol
-        if(event.detail == SWT.TRAVERSE_ESCAPE) {
-                           ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:23: error: cannot find symbol
-        event.detail = SWT.TRAVERSE_NONE;
-                       ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:27: error: cannot find symbol
-        shell.addListener(SWT.Resize, event -> {
-                          ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:29: error: incompatible types: Dimension cannot be converted to Vector2
-        window.setSize(new Dimension(rect.width, rect.height));
-                       ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:37: error: cannot find symbol
-        light.getTransform().setTranslation(x, 5, z);
-        ^
-  symbol:   variable light
-  location: class VerifyCode
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-15 errors
-```
+  symbol:   class File
+  location: class TempVerify
+/tmp/tmpu4nnrn24/TempVerify.java:4: error: cannot find symbol
+ImageIO.write(image, "png", new File(output));
+                                     ^
+  symbol:   variable output
+  location: class TempVerify
+/tmp/tmpu4nnrn24/TempVerify.java:4: error: cannot find symbol
+ImageIO.write(image, "png", new File(output));
+^
+  symbol:   variable ImageIO
+  location: class TempVerify
+4 errors
+  Code preview:
+  ImageIO.write(image, "png", new File(output));
 
-Code:
-```
-import com.aspose.threed.*;
-import org.eclipse.swt.SWT;
-import org.eclipse.swt.widgets.Display;
-import org.eclipse.swt.widgets.Shell;
-
-import java.awt.*;
-import java.io.IOException;
-```
-
-File: real-time-rendering-swt (Snippet #2)
-Error:
-```
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:4: error: package org.eclipse.swt does not exist
-import org.eclipse.swt.SWT;
-                      ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:5: error: package org.eclipse.swt.widgets does not exist
-import org.eclipse.swt.widgets.Display;
-                              ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:6: error: package org.eclipse.swt.widgets does not exist
-import org.eclipse.swt.widgets.Shell;
-                              ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
-        Display display = new Display();
-        ^
-  symbol:   class Display
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
-        Display display = new Display();
-                              ^
-  symbol:   class Display
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
-        final Shell shell = new Shell(display);
-              ^
-  symbol:   class Shell
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
-        final Shell shell = new Shell(display);
-                                ^
-  symbol:   class Shell
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:17: error: cannot find symbol
-        Camera camera = setupScene(scene);
-                        ^
-  symbol:   method setupScene(Scene)
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:19: error: incompatible types: Color cannot be converted to Vector3
-        vp.setBackgroundColor(Color.pink);
-                                   ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:20: error: cannot find symbol
-        shell.addListener(SWT.Traverse, event -> {
-                          ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:21: error: cannot find symbol
-        if(event.detail == SWT.TRAVERSE_ESCAPE) {
-                           ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:23: error: cannot find symbol
-        event.detail = SWT.TRAVERSE_NONE;
-                       ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:27: error: cannot find symbol
-        shell.addListener(SWT.Resize, event -> {
-                          ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:29: error: incompatible types: Dimension cannot be converted to Vector2
-        window.setSize(new Dimension(rect.width, rect.height));
-                       ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:37: error: cannot find symbol
-        light.getTransform().setTranslation(x, 5, z);
-        ^
-  symbol:   variable light
-  location: class VerifyCode
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-15 errors
-```
-
-Code:
-```
-// Initialize UI
+  File: real-time-rendering-swt (Snippet #2)
+  Error: /tmp/tmpja2f0a2h/TempVerify.java:5: error: cannot find symbol
 Display display = new Display();
+^
+  symbol:   class Display
+  location: class TempVerify
+/tmp/tmpja2f0a2h/TempVerify.java:5: error: cannot find symbol
+Display display = new Display();
+                      ^
+  symbol:   class Display
+  location: class TempVerify
+/tmp/tmpja2f0a2h/TempVerify.java:6: error: cannot find symbol
 final Shell shell = new Shell(display);
-shell.setText("Aspose.3D Real-time rendering with SWT");
-shell.setSize(800, 600);
-```
-
-File: real-time-rendering-swt (Snippet #3)
-Error:
-```
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:4: error: package org.eclipse.swt does not exist
-import org.eclipse.swt.SWT;
-                      ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:5: error: package org.eclipse.swt.widgets does not exist
-import org.eclipse.swt.widgets.Display;
-                              ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:6: error: package org.eclipse.swt.widgets does not exist
-import org.eclipse.swt.widgets.Shell;
-                              ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
-        Display display = new Display();
-        ^
-  symbol:   class Display
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
-        Display display = new Display();
-                              ^
-  symbol:   class Display
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
-        final Shell shell = new Shell(display);
-              ^
+      ^
   symbol:   class Shell
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
-        final Shell shell = new Shell(display);
-                                ^
-  symbol:   class Shell
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:17: error: cannot find symbol
-        Camera camera = setupScene(scene);
+  location: class TempVerify
+/tmp/tmpja2f0a2h/TempVerify.java:6: error: cannot find symbol
+final Shell shell = new Shell(display);
                         ^
-  symbol:   method setupScene(Scene)
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:19: error: incompatible types: Color cannot be converted to Vector3
-        vp.setBackgroundColor(Color.pink);
-                                   ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:20: error: cannot find symbol
-        shell.addListener(SWT.Traverse, event -> {
-                          ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:21: error: cannot find symbol
-        if(event.detail == SWT.TRAVERSE_ESCAPE) {
-                           ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:23: error: cannot find symbol
-        event.detail = SWT.TRAVERSE_NONE;
-                       ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:27: error: cannot find symbol
-        shell.addListener(SWT.Resize, event -> {
-                          ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:29: error: incompatible types: Dimension cannot be converted to Vector2
-        window.setSize(new Dimension(rect.width, rect.height));
-                       ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:37: error: cannot find symbol
-        light.getTransform().setTranslation(x, 5, z);
-        ^
-  symbol:   variable light
-  location: class VerifyCode
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-15 errors
-```
+  symbol:   class Shell
+  location: class TempVerify
+4 errors
+  Code preview:
+  // Initialize UI
+  Display display = new Display();
+  final Shell shell = new Shell(display);
+  shell.setText("Aspose.3D Real-time rendering with SWT");
+  shell.setSize(800, 600);
 
-Code:
-```
-// Initialize renderer and scene
-Renderer renderer = Renderer.createRenderer();
+  File: real-time-rendering-swt (Snippet #3)
+  Error: /tmp/tmph06t55xo/TempVerify.java:6: error: cannot find symbol
 IRenderWindow window = renderer.getRenderFactory().createRenderWindow(new RenderParameters(), WindowHandle.fromWin32(shell.handle));
-Scene scene = new Scene();
+                                                                                                                     ^
+  symbol:   variable shell
+  location: class TempVerify
+/tmp/tmph06t55xo/TempVerify.java:8: error: cannot find symbol
 Camera camera = setupScene(scene);
-Viewport vp = window.createViewport(camera);
+                ^
+  symbol:   method setupScene(Scene)
+  location: class TempVerify
+/tmp/tmph06t55xo/TempVerify.java:10: error: cannot find symbol
 vp.setBackgroundColor(Color.pink);
-```
-
-File: real-time-rendering-swt (Snippet #4)
-Error:
-```
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:4: error: package org.eclipse.swt does not exist
-import org.eclipse.swt.SWT;
                       ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:5: error: package org.eclipse.swt.widgets does not exist
-import org.eclipse.swt.widgets.Display;
-                              ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:6: error: package org.eclipse.swt.widgets does not exist
-import org.eclipse.swt.widgets.Shell;
-                              ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
-        Display display = new Display();
-        ^
-  symbol:   class Display
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
-        Display display = new Display();
-                              ^
-  symbol:   class Display
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
-        final Shell shell = new Shell(display);
-              ^
-  symbol:   class Shell
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
-        final Shell shell = new Shell(display);
-                                ^
-  symbol:   class Shell
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:17: error: cannot find symbol
-        Camera camera = setupScene(scene);
-                        ^
-  symbol:   method setupScene(Scene)
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:19: error: incompatible types: Color cannot be converted to Vector3
-        vp.setBackgroundColor(Color.pink);
-                                   ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:20: error: cannot find symbol
-        shell.addListener(SWT.Traverse, event -> {
-                          ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:21: error: cannot find symbol
-        if(event.detail == SWT.TRAVERSE_ESCAPE) {
-                           ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:23: error: cannot find symbol
-        event.detail = SWT.TRAVERSE_NONE;
-                       ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:27: error: cannot find symbol
-        shell.addListener(SWT.Resize, event -> {
-                          ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:29: error: incompatible types: Dimension cannot be converted to Vector2
-        window.setSize(new Dimension(rect.width, rect.height));
-                       ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:37: error: cannot find symbol
-        light.getTransform().setTranslation(x, 5, z);
-        ^
-  symbol:   variable light
-  location: class VerifyCode
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-15 errors
-```
+  symbol:   variable Color
+  location: class TempVerify
+3 errors
+  Code preview:
+  // Initialize renderer and scene
+  Renderer renderer = Renderer.createRenderer();
+  IRenderWindow window = renderer.getRenderFactory().createRenderWindow(new RenderParameters(), WindowHandle.fromWin32(she...
 
-Code:
-```
-// Initialize events
+  File: real-time-rendering-swt (Snippet #4)
+  Error: /tmp/tmpbkyeqm5x/TempVerify.java:5: error: cannot find symbol
 shell.addListener(SWT.Traverse, event -> {
+                  ^
+  symbol:   variable SWT
+  location: class TempVerify
+/tmp/tmpbkyeqm5x/TempVerify.java:5: error: cannot find symbol
+shell.addListener(SWT.Traverse, event -> {
+^
+  symbol:   variable shell
+  location: class TempVerify
+/tmp/tmpbkyeqm5x/TempVerify.java:6: error: cannot find symbol
     if(event.detail == SWT.TRAVERSE_ESCAPE) {
+                       ^
+  symbol:   variable SWT
+  location: class TempVerify
+/tmp/tmpbkyeqm5x/TempVerify.java:7: error: cannot find symbol
         shell.close();
+        ^
+  symbol:   variable shell
+  location: class TempVerify
+/tmp/tmpbkyeqm5x/TempVerify.java:8: error: cannot find symbol
         event.detail = SWT.TRAVERSE_NONE;
-        event.doit = false;
-    }
-});
-
+                       ^
+  symbol:   variable SWT
+  location: class TempVerify
+/tmp/tmpbkyeqm5x/TempVerify.java:13: error: cannot find symbol
 shell.addListener(SWT.Resize, event -> {
+                  ^
+  symbol:   variable SWT
+  location: class TempVerify
+/tmp/tmpbkyeqm5x/TempVerify.java:13: error: cannot find symbol
+shell.addListener(SWT.Resize, event -> {
+^
+  symbol:   variable shell
+  location: class TempVerify
+/tmp/tmpbkyeqm5x/TempVerify.java:14: error: cannot find symbol
     Rectangle rect = new Rectangle();
+    ^
+  symbol:   class Rectangle
+  location: class TempVerify
+/tmp/tmpbkyeqm5x/TempVerify.java:14: error: cannot find symbol
+    Rectangle rect = new Rectangle();
+                         ^
+  symbol:   class Rectangle
+  location: class TempVerify
+/tmp/tmpbkyeqm5x/TempVerify.java:15: error: cannot find symbol
     window.setSize(new Dimension(rect.width, rect.height));
-});
-```
-
-File: real-time-rendering-swt (Snippet #5)
-Error:
-```
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:4: error: package org.eclipse.swt does not exist
-import org.eclipse.swt.SWT;
-                      ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:5: error: package org.eclipse.swt.widgets does not exist
-import org.eclipse.swt.widgets.Display;
-                              ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:6: error: package org.eclipse.swt.widgets does not exist
-import org.eclipse.swt.widgets.Shell;
-                              ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
-        Display display = new Display();
-        ^
-  symbol:   class Display
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:10: error: cannot find symbol
-        Display display = new Display();
-                              ^
-  symbol:   class Display
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
-        final Shell shell = new Shell(display);
-              ^
-  symbol:   class Shell
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:11: error: cannot find symbol
-        final Shell shell = new Shell(display);
-                                ^
-  symbol:   class Shell
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:17: error: cannot find symbol
-        Camera camera = setupScene(scene);
-                        ^
-  symbol:   method setupScene(Scene)
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:19: error: incompatible types: Color cannot be converted to Vector3
-        vp.setBackgroundColor(Color.pink);
-                                   ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:20: error: cannot find symbol
-        shell.addListener(SWT.Traverse, event -> {
-                          ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:21: error: cannot find symbol
-        if(event.detail == SWT.TRAVERSE_ESCAPE) {
-                           ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:23: error: cannot find symbol
-        event.detail = SWT.TRAVERSE_NONE;
                        ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:27: error: cannot find symbol
-        shell.addListener(SWT.Resize, event -> {
-                          ^
-  symbol:   variable SWT
-  location: class VerifyCode
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:29: error: incompatible types: Dimension cannot be converted to Vector2
-        window.setSize(new Dimension(rect.width, rect.height));
-                       ^
-/tmp/verify_real-time-rendering-swt_zis2c6n1/VerifyCode.java:37: error: cannot find symbol
-        light.getTransform().setTranslation(x, 5, z);
-        ^
-  symbol:   variable light
-  location: class VerifyCode
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-15 errors
-```
+  symbol:   class Dimension
+  location: class TempVerify
+/tmp/tmpbkyeqm5x/TempVerify.java:15: error: cannot find symbol
+    window.setSize(new Dimension(rect.width, rect.height));
+    ^
+  symbol:   variable window
+  location: class TempVerify
+11 errors
+  Code preview:
+  // Initialize events
+  shell.addListener(SWT.Traverse, event -> {
+      if(event.detail == SWT.TRAVERSE_ESCAPE) {
+          shell.close();
+          event.detail = SWT.TRAVERSE_NONE;
+          event.doit = fals...
 
-Code:
-```
-// Event loop
+  File: real-time-rendering-swt (Snippet #5)
+  Error: /tmp/tmpzd09gabd/TempVerify.java:5: error: cannot find symbol
 shell.open();
+^
+  symbol:   variable shell
+  location: class TempVerify
+/tmp/tmpzd09gabd/TempVerify.java:6: error: cannot find symbol
 while(!shell.isDisposed()) {
+       ^
+  symbol:   variable shell
+  location: class TempVerify
+/tmp/tmpzd09gabd/TempVerify.java:7: error: cannot find symbol
     display.readAndDispatch();
-    // Update light's position before rendering
-    double time = System.currentTimeMillis() / 1000.0;
-    double x = Math.cos(time) * 10;
-    double z = Math.sin(time) * 10;
+    ^
+  symbol:   variable display
+  location: class TempVerify
+/tmp/tmpzd09gabd/TempVerify.java:12: error: cannot find symbol
     light.getTransform().setTranslation(x, 5, z);
-    // Render
+    ^
+  symbol:   variable light
+  location: class TempVerify
+/tmp/tmpzd09gabd/TempVerify.java:14: error: cannot find symbol
     renderer.render(window);
-}
-
-// Shut down
+                    ^
+  symbol:   variable window
+  location: class TempVerify
+/tmp/tmpzd09gabd/TempVerify.java:14: error: cannot find symbol
+    renderer.render(window);
+    ^
+  symbol:   variable renderer
+  location: class TempVerify
+/tmp/tmpzd09gabd/TempVerify.java:18: error: cannot find symbol
 renderer.close();
+^
+  symbol:   variable renderer
+  location: class TempVerify
+/tmp/tmpzd09gabd/TempVerify.java:19: error: cannot find symbol
 display.dispose();
-```
+^
+  symbol:   variable display
+  location: class TempVerify
+8 errors
+  Code preview:
+  // Event loop
+  shell.open();
+  while(!shell.isDisposed()) {
+      display.readAndDispatch();
+      // Update light's position before rendering
+      double time = System.currentTimeMillis() / 1000.0;
+      doubl...
 
-File: render-to-buffered-image (Snippet #1)
-Error:
-```
-/tmp/verify_render-to-buffered-image_h042tfbq/VerifyCode.java:14: error: cannot find symbol
-        scene.render(camera, image, opt);
-                     ^
-  symbol:   variable camera
-  location: class VerifyCode
-1 error
-```
-
-Code:
-```
-import com.aspose.threed.Camera;
-import com.aspose.threed.ImageRenderOptions;
-import com.aspose.threed.Scene;
-
-
-import javax.imageio.ImageIO;
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
-```
-
-File: render-to-buffered-image (Snippet #2)
-Error:
-```
-/tmp/verify_render-to-buffered-image_h042tfbq/VerifyCode.java:14: error: cannot find symbol
-        scene.render(camera, image, opt);
-                     ^
-  symbol:   variable camera
-  location: class VerifyCode
-1 error
-```
-
-Code:
-```
-Scene scene = new Scene();
-```
-
-File: render-to-buffered-image (Snippet #3)
-Error:
-```
-/tmp/verify_render-to-buffered-image_h042tfbq/VerifyCode.java:14: error: cannot find symbol
-        scene.render(camera, image, opt);
-                     ^
-  symbol:   variable camera
-  location: class VerifyCode
-1 error
-```
-
-Code:
-```
-BufferedImage image = new BufferedImage(1024, 1024, BufferedImage.TYPE_3BYTE_BGR);
-ImageRenderOptions opt = new ImageRenderOptions();
-opt.setBackgroundColor(new Vector3(0.082, 0.376, 0.263)); // 0x156043
-```
-
-File: render-to-buffered-image (Snippet #4)
-Error:
-```
-/tmp/verify_render-to-buffered-image_h042tfbq/VerifyCode.java:14: error: cannot find symbol
-        scene.render(camera, image, opt);
-                     ^
-  symbol:   variable camera
-  location: class VerifyCode
-1 error
-```
-
-Code:
-```
-scene.render(camera, image, opt);
-```
-
-File: render-to-buffered-image (Snippet #5)
-Error:
-```
-/tmp/verify_render-to-buffered-image_h042tfbq/VerifyCode.java:14: error: cannot find symbol
-        scene.render(camera, image, opt);
-                     ^
-  symbol:   variable camera
-  location: class VerifyCode
-1 error
-```
-
-Code:
-```
-String output = "render-to-image.png";
-ImageIO.write(image, "png", new File(output));
-```
-
-File: render-to-file (Snippet #1)
-Error:
-```
-/tmp/verify_render-to-file_a1y484d_/VerifyCode.java:19: error: incompatible types: Dimension cannot be converted to Vector2
-        scene.render(camera, output, new Dimension(1024, 1024), "png");
-                                     ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-1 error
-```
-
-Code:
-```
-import com.aspose.threed.*;
-
-
-import javax.imageio.ImageIO;
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
-```
-
-File: render-to-file (Snippet #2)
-Error:
-```
-/tmp/verify_render-to-file_a1y484d_/VerifyCode.java:19: error: incompatible types: Dimension cannot be converted to Vector2
-        scene.render(camera, output, new Dimension(1024, 1024), "png");
-                                     ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-1 error
-```
-
-Code:
-```
-Scene scene = new Scene();
-```
-
-File: render-to-file (Snippet #3)
-Error:
-```
-/tmp/verify_render-to-file_a1y484d_/VerifyCode.java:19: error: incompatible types: Dimension cannot be converted to Vector2
-        scene.render(camera, output, new Dimension(1024, 1024), "png");
-                                     ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-1 error
-```
-
-Code:
-```
-Node light = scene.getRootNode().createChildNode("light", new Light());
-light.getTransform().setTranslation(10, 10, 10);
-
-Camera camera = new Camera();
+  File: render-to-buffered-image (Snippet #3)
+  Error: /tmp/tmpew4o_23i/TempVerify.java:4: error: cannot find symbol
+Node light = scene.getRootNode().createChildNode(
+             ^
+  symbol:   variable scene
+  location: class TempVerify
+/tmp/tmpew4o_23i/TempVerify.java:9: error: cannot find symbol
 scene.getRootNode().createChildNode(camera);
-camera.setNearPlane(0.1);
-camera.getParentNode().getTransform().setTranslation(0, 5, 10);
-camera.setLookAt(Vector3.getZero());
-```
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  Node light = scene.getRootNode().createChildNode(
+      "light", new Light());
+  light.getTransform().setTranslation(10, 10, 10);
+  
+  Camera camera = new Camera();
+  scene.getRootNode().createChildNode(camera)...
 
-File: render-to-file (Snippet #4)
-Error:
-```
-/tmp/verify_render-to-file_a1y484d_/VerifyCode.java:19: error: incompatible types: Dimension cannot be converted to Vector2
-        scene.render(camera, output, new Dimension(1024, 1024), "png");
-                                     ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  File: render-to-buffered-image (Snippet #4)
+  Error: /tmp/tmpw8a7y72g/TempVerify.java:9: error: cannot find symbol
+BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_3BYTE_BGR);
+^
+  symbol:   class BufferedImage
+  location: class TempVerify
+/tmp/tmpw8a7y72g/TempVerify.java:9: error: cannot find symbol
+BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_3BYTE_BGR);
+                          ^
+  symbol:   class BufferedImage
+  location: class TempVerify
+/tmp/tmpw8a7y72g/TempVerify.java:9: error: cannot find symbol
+BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_3BYTE_BGR);
+                                                       ^
+  symbol:   variable BufferedImage
+  location: class TempVerify
+/tmp/tmpw8a7y72g/TempVerify.java:19: error: cannot find symbol
+        rt.createViewport(camera, new Vector3(0.082f, 0.376f, 0.263f), com.aspose.threed.RelativeRectangle.fromScale(0, 0, 1, 1));
+                          ^
+  symbol:   variable camera
+  location: class TempVerify
+4 errors
+  Code preview:
+  // Specify output dimensions
+  int width = 1024;
+  int height = 1024;
+  
+  // Create a BufferedImage to hold the rendered output
+  BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_3BYTE...
+
+  File: render-to-file (Snippet #3)
+  Error: /tmp/tmpi3uf1_tr/TempVerify.java:4: error: cannot find symbol
+Node light = scene.getRootNode().createChildNode("light", new Light());
+             ^
+  symbol:   variable scene
+  location: class TempVerify
+/tmp/tmpi3uf1_tr/TempVerify.java:8: error: cannot find symbol
+scene.getRootNode().createChildNode(camera);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  Node light = scene.getRootNode().createChildNode("light", new Light());
+  light.getTransform().setTranslation(10, 10, 10);
+  
+  Camera camera = new Camera();
+  scene.getRootNode().createChildNode(camera);
+  cam...
+
+  File: render-to-file (Snippet #5)
+  Error: /tmp/tmp4oxuzv58/TempVerify.java:4: error: cannot find symbol
+scene.render(camera, output, new com.aspose.threed.Vector2(1024, 1024), "png");
+             ^
+  symbol:   variable camera
+  location: class TempVerify
+/tmp/tmp4oxuzv58/TempVerify.java:4: error: cannot find symbol
+scene.render(camera, output, new com.aspose.threed.Vector2(1024, 1024), "png");
+                     ^
+  symbol:   variable output
+  location: class TempVerify
+/tmp/tmp4oxuzv58/TempVerify.java:4: error: cannot find symbol
+scene.render(camera, output, new com.aspose.threed.Vector2(1024, 1024), "png");
+^
+  symbol:   variable scene
+  location: class TempVerify
+3 errors
+  Code preview:
+  scene.render(camera, output, new com.aspose.threed.Vector2(1024, 1024), "png");
+
+  File: convert-primitives-to-meshes (Snippet #5)
+  Error: /tmp/tmptlhpoiog/TempVerify.java:5: error: cannot find symbol
+cubeNode.setEntity(mesh);
+                   ^
+  symbol:   variable mesh
+  location: class TempVerify
+/tmp/tmptlhpoiog/TempVerify.java:5: error: cannot find symbol
+cubeNode.setEntity(mesh);
+^
+  symbol:   variable cubeNode
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Point node to the Mesh geometry
+  cubeNode.setEntity(mesh);
+
+  File: convert-primitives-to-meshes (Snippet #6)
+  Error: /tmp/tmpru24lyqo/TempVerify.java:5: error: cannot find symbol
+scene.getRootNode().addChildNode(cubeNode);
+                                 ^
+  symbol:   variable cubeNode
+  location: class TempVerify
+/tmp/tmpru24lyqo/TempVerify.java:5: error: cannot find symbol
+scene.getRootNode().addChildNode(cubeNode);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Add Node to a scene
+  scene.getRootNode().addChildNode(cubeNode);
+
+  File: convert-primitives-to-meshes (Snippet #7)
+  Error: /tmp/tmpnznc6h1m/TempVerify.java:7: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7400ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
 1 error
-```
+  Code preview:
+  // The path to the documents directory.
+  String MyDir = "Your Document Directory" + "BoxToMeshScene.fbx";
+  // Save 3D scene in the supported file formats
+  scene.save(MyDir, FileFormat.FBX7400ASCII);
+  Syst...
 
-Code:
-```
-String output = "render-to-file.png";
-```
-
-File: render-to-file (Snippet #5)
-Error:
-```
-/tmp/verify_render-to-file_a1y484d_/VerifyCode.java:19: error: incompatible types: Dimension cannot be converted to Vector2
-        scene.render(camera, output, new Dimension(1024, 1024), "png");
-                                     ^
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  File: create-polygons-in-meshes (Snippet #3)
+  Error: /tmp/tmpu0_p473p/TempVerify.java:5: error: cannot find symbol
+mesh.createPolygon(0, 1, 2);
+^
+  symbol:   variable mesh
+  location: class TempVerify
 1 error
-```
+  Code preview:
+  // Create a polygon with three vertices
+  mesh.createPolygon(0, 1, 2);
 
-Code:
-```
-scene.render(camera, output, new Dimension(1024, 1024), "png");
-```
+  File: create-polygons-in-meshes (Snippet #4)
+  Error: /tmp/tmpgk6aqcjl/TempVerify.java:5: error: cannot find symbol
+mesh.createPolygon(0, 1, 2, 3);
+^
+  symbol:   variable mesh
+  location: class TempVerify
+1 error
+  Code preview:
+  // Create a quad polygon using four vertices
+  mesh.createPolygon(0, 1, 2, 3);
 
+  File: customize-mesh-memory-layout (Snippet #5)
+  Error: /tmp/tmpfhk38vdk/TempVerify.java:5: error: cannot find symbol
+cubeNode.setEntity(box);
+                   ^
+  symbol:   variable box
+  location: class TempVerify
+/tmp/tmpfhk38vdk/TempVerify.java:5: error: cannot find symbol
+cubeNode.setEntity(box);
+^
+  symbol:   variable cubeNode
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Point node to the Mesh geometry
+  cubeNode.setEntity(box);
+
+  File: customize-mesh-memory-layout (Snippet #6)
+  Error: /tmp/tmpzr5bb7vb/TempVerify.java:5: error: cannot find symbol
+scene.getRootNode().getChildNodes().add(cubeNode);
+                                        ^
+  symbol:   variable cubeNode
+  location: class TempVerify
+/tmp/tmpzr5bb7vb/TempVerify.java:5: error: cannot find symbol
+scene.getRootNode().getChildNodes().add(cubeNode);
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Add Node to a scene
+  scene.getRootNode().getChildNodes().add(cubeNode);
+
+  File: customize-mesh-memory-layout (Snippet #7)
+  Error: /tmp/tmpqo_1oxvm/TempVerify.java:7: error: cannot find symbol
+scene.save(MyDir, FileFormat.FBX7400ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // Specify the directory to save the 3D scene
+  String MyDir = "Your Document Directory" + "BoxToTriangleMeshCustomMemoryLayoutScene.fbx";
+  // Save 3D scene in the supported file formats
+  scene.save(MyDir...
+
+  File: generate-tangent-binormal-data (Snippet #2)
+  Error: /tmp/tmp56w1wo03/TempVerify.java:9: error: unreported exception IOException; must be caught or declared to be thrown
+scene.open(MyDir);
+          ^
+1 error
+  Code preview:
+  // The path to the documents directory.
+  String MyDir = "Your Document Directory";
+  MyDir = MyDir + "document.fbx";
+  // Load an existing 3D file
+  Scene scene = new Scene();
+  scene.open(MyDir);
+
+  File: generate-tangent-binormal-data (Snippet #3)
+  Error: /tmp/tmp0q0ot6_f/TempVerify.java:5: error: cannot find symbol
+PolygonModifier.buildTangentBinormal(scene);
+                                     ^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // Triangulate a scene
+  PolygonModifier.buildTangentBinormal(scene);
+
+  File: generate-tangent-binormal-data (Snippet #4)
+  Error: /tmp/tmpd0qhbp5y/TempVerify.java:5: error: cannot find symbol
+scene.save("BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII);
+^
+  symbol:   variable scene
+  location: class TempVerify
+1 error
+  Code preview:
+  // Save 3D scene
+  scene.save("BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII);
+
+  File: open-vrml-files-java (Snippet #3)
+  Error: /tmp/tmphm6r20m6/TempVerify.java:5: error: cannot find symbol
+scene.open(MyDir + "test.wrl");
+           ^
+  symbol:   variable MyDir
+  location: class TempVerify
+/tmp/tmphm6r20m6/TempVerify.java:5: error: cannot find symbol
+scene.open(MyDir + "test.wrl");
+^
+  symbol:   variable scene
+  location: class TempVerify
+2 errors
+  Code preview:
+  // Open Virtual Reality Modeling Language (VRML) file format
+  scene.open(MyDir + "test.wrl");

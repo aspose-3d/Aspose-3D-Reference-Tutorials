@@ -28,11 +28,30 @@ def extract_csharp_snippets(content):
     """Extract all C# code blocks from markdown content."""
     clean_content = re.sub(r'\{\{[^}]*\}\}', '', content)
     return CSHARP_PATTERN.findall(clean_content)
-
 def verify_java_code(code_snippet):
-    """Verify a Java code snippet using aspose-cli. Returns (success, error_message)."""
-    # Create a minimal Java file for verification
-    java_code = f"""import com.aspose.threed.*;
+    """Verify a Java code snippet by compiling it with javac. Returns (success, error_message)."""
+    # Check if snippet starts with import - if so, we need to wrap differently
+    snippet_stripped = code_snippet.strip()
+    
+    # Check if snippet already has imports
+    has_imports = snippet_stripped.startswith('import')
+    
+    if has_imports:
+        # Snippet contains imports - extract just the non-import code
+        lines = code_snippet.split('\n')
+        code_lines = [l for l in lines if not l.strip().startswith('import')]
+        code_without_imports = '\n'.join(code_lines)
+        
+        java_code = f"""import com.aspose.threed.*;
+public class TempVerify {{
+    public static void main(String[] args) {{
+{code_without_imports}
+    }}
+}}
+"""
+    else:
+        # Snippet contains code without imports - wrap in class with imports at top
+        java_code = f"""import com.aspose.threed.*;
 public class TempVerify {{
     public static void main(String[] args) {{
 {code_snippet}
@@ -41,14 +60,16 @@ public class TempVerify {{
 """
     
     try:
-        # Write to temp file
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.java', delete=False) as f:
-            f.write(java_code)
-            temp_file = f.name
+        # Write to temp file - use .java extension, javac will create class in current dir
+        temp_dir = tempfile.mkdtemp()
+        temp_file = os.path.join(temp_dir, "TempVerify.java")
         
-        # Run verification
+        with open(temp_file, 'w') as f:
+            f.write(java_code)
+        
+        # Compile with javac
         result = subprocess.run(
-            ["aspose-cli", "verify", "--language", "java", VERSION, temp_file],
+            ["javac", "-cp", "/home/lexchou/workspace/aspose/ref-tutorial/aspose-3d-26.6.0.jar", temp_file],
             capture_output=True,
             text=True,
             timeout=30
@@ -57,6 +78,11 @@ public class TempVerify {{
         # Clean up
         try:
             os.unlink(temp_file)
+            os.unlink(os.path.join(temp_dir, "TempVerify.class"))
+        except:
+            pass
+        try:
+            os.rmdir(temp_dir)
         except:
             pass
         
@@ -70,14 +96,13 @@ public class TempVerify {{
             os.unlink(temp_file)
         except:
             pass
-        return False, "Verification timed out"
+        return False, "Compilation timed out"
     except Exception as e:
         try:
             os.unlink(temp_file)
         except:
             pass
         return False, f"Error: {str(e)}"
-
 def process_file(file_path, stats, detailed_results):
     """Process a single tutorial file."""
     try:
