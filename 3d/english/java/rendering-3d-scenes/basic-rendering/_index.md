@@ -87,9 +87,8 @@ PhongMaterial material = new PhongMaterial();
 material.setDiffuseColor(new Vector3(0.545, 0.0, 0.0)); // dark orange
 plane.setMaterial(material);
 
-// Set plane position and shadow properties
+// Set plane position
 plane.getTransform().setTranslation(0, 0, 0);
-((Mesh)plane.getEntity()).setReceiveShadows(true);
 \u0060\u0060\u0060\u0060
 
 ### Step 3: Adding a Torus (how to add torus)
@@ -140,7 +139,7 @@ return camera;
 |-------|----------------|-----|
 | Objects appear invisible | Material transparency set to 1.0 or missing light | Reduce transparency (`setTransparency(0.3)`) and ensure a light source exists |
 | Camera looks through the scene | `LookAt` target not set to the origin | Use `camera.setLookAt(Vector3.getZero())` as shown |
-| Meshes don't receive shadows | `setReceiveShadows(true)` not called on the mesh | Call it on each mesh you want to cast/receive shadows |
+| Objects appear flat/shadowless | Shadow rendering isn't configured in the scene | Add appropriate lights and ensure the camera has shadow support enabled |
 ## Frequently Asked Questions
 
 ### Q1: Where can I find Aspose.3D for Java documentation?
