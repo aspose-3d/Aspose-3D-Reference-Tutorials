@@ -53,12 +53,15 @@ import java.io.IOException;
 ## Krok 1: Načtení 3D souboru
 Nejprve načtěte zdrojový model, který chcete zpracovat.
 
-```java
+````
 // The path to the documents directory.
 String MyDir = "Your Document Directory";
+MyDir = MyDir + "document.fbx";
 // Load an existing 3D file
-Scene scene = new Scene(MyDir + "document.fbx");
-```
+Scene scene = new Scene();
+scene.open(MyDir);
+````
+
 
 > **Tip:** Nahraďte `"Your Document Directory"` absolutní cestou na vašem počítači a ujistěte se, že název souboru odpovídá skutečnému FBX souboru, který chcete upravit.
 

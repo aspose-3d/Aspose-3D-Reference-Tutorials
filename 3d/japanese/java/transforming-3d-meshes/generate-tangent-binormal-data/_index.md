@@ -52,12 +52,15 @@ import java.io.IOException;
 ## ステップ 1: 3D ファイルの読み込み
 まず、処理対象となるソースモデルを読み込みます。
 
-```java
+````
 // The path to the documents directory.
 String MyDir = "Your Document Directory";
+MyDir = MyDir + "document.fbx";
 // Load an existing 3D file
-Scene scene = new Scene(MyDir + "document.fbx");
-```
+Scene scene = new Scene();
+scene.open(MyDir);
+````
+
 
 > **プロのコツ:** `"Your Document Directory"` をマシン上の絶対パスに置き換え、ファイル名が実際に編集したい FBX ファイルと一致していることを確認してください。
 

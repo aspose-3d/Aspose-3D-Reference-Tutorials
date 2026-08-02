@@ -105,10 +105,11 @@ Now comes the core of **create render texture java**. We instantiate a `Renderer
 ```java
 try (Renderer renderer = Renderer.createRenderer()) {
     try (IRenderTexture rt = renderer.getRenderFactory().createRenderTexture(new RenderParameters(), 1, image.getWidth(), image.getHeight())) {
-        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
+        rt.createViewport(camera, new Vector3(1, 0, 0), RelativeRectangle.fromScale(0, 0, 1, 1));
         renderer.render(rt);
         ITexture2D texture = (ITexture2D) rt.getTargets().get(0);
-        texture.save(image);
+        TextureData data = texture.toBitmap();
+        data.save(output);
     }
 }
 ```

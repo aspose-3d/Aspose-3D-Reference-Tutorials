@@ -50,12 +50,15 @@ import java.io.IOException;
 ## 단계 1: 3D 파일 로드
 먼저, 처리하려는 원본 모델을 로드합니다.
 
-```java
+````
 // The path to the documents directory.
 String MyDir = "Your Document Directory";
+MyDir = MyDir + "document.fbx";
 // Load an existing 3D file
-Scene scene = new Scene(MyDir + "document.fbx");
-```
+Scene scene = new Scene();
+scene.open(MyDir);
+````
+
 
 > **Pro tip:** `"Your Document Directory"`를 머신의 절대 경로로 바꾸고, 파일 이름이 편집하려는 실제 FBX 파일과 일치하는지 확인하세요.
 
