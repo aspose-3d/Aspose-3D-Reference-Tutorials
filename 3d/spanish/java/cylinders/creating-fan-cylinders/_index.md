@@ -1,14 +1,49 @@
 ---
-date: 2026-04-03
-description: Aprende cómo crear una forma de abanico cilíndrico en Java con Aspose.3D.
-  Esta guía cubre el modelado 3D en Java y técnicas de Java para guardar archivos
-  OBJ.
+date: 2026-08-02
+description: Aprenda cómo crear una forma de ventilador cilíndrico en Java con Aspose.3D.
+  Esta guía cubre modelado 3D en Java y técnicas para guardar archivos OBJ en Java.
 keywords:
 - create cylinder fan shape
 - save obj file java
 - aspose 3d export obj
-linktitle: Cómo crear una forma de ventilador cilíndrico con Aspose.3D para Java
+lastmod: 2026-08-02
+linktitle: Cómo crear una forma de ventilador cilíndrico usando Aspose.3D para Java
+og_description: Cree una forma de ventilador cilíndrico usando Aspose.3D para Java
+  y exporte archivos OBJ en Java. Siga instrucciones paso a paso para modelar, personalizar
+  y guardar su cilindro de ventilador 3D.
+og_image_alt: 'Tutorial: create cylinder fan shape in Java with Aspose.3D'
+og_title: Crear forma de ventilador cilíndrico con Aspose.3D para Java – Guía rápida
+schemas:
+- author: Aspose
+  dateModified: '2026-08-02'
+  description: Learn how to create cylinder fan shape in Java with Aspose.3D. This
+    guide covers java 3d modeling and save obj file java techniques.
+  headline: How to create cylinder fan shape using Aspose.3D for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.3D can coexist with libraries like Java 3D or jMonkeyEngine,
+      allowing you to integrate custom geometry into larger pipelines.
+    question: Is Aspose.3D compatible with other Java 3D libraries?
+  - answer: Absolutely. You can apply materials, textures, and lighting by accessing
+      the node’s `Material` and `Light` collections.
+    question: Can I further customize the appearance of the fan cylinder?
+  - answer: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community
+      help and official responses.
+    question: Where can I get additional support?
+  - answer: Yes, you can explore Aspose.3D with a [free trial](https://releases.aspose.com/)
+      before purchasing.
+    question: Is there a free trial available?
+  - answer: Acquire one [here](https://purchase.aspose.com/temporary-license/) to
+      unlock full functionality during development.
+    question: How do I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.3D Java API
+tags:
+- create cylinder fan shape
+- Aspose.3D
+- Java 3D modeling
+- export OBJ
+- 3D geometry
 title: Cómo crear una forma de ventilador cilíndrico usando Aspose.3D para Java
 url: /es/java/cylinders/creating-fan-cylinders/
 weight: 10
@@ -22,22 +57,24 @@ weight: 10
 
 ## Introducción
 
-¿Listo para dominar **cómo crear una forma de ventilador cilíndrico** en un entorno Java? En este tutorial recorreremos cada paso — desde la configuración de la escena hasta la exportación de un archivo Wavefront OBJ — usando Aspose.3D. Ya sea que estés creando un recurso para un juego, un prototipo CAD, o simplemente experimentando con geometría 3D, verás lo fácil que puede ser el modelado 3D en Java con esta poderosa biblioteca.
+¿Listo para dominar **create cylinder fan shape** en un entorno Java? En este tutorial recorreremos cada paso— desde la configuración de la escena hasta la exportación de un archivo Wavefront OBJ— usando Aspose.3D. Ya sea que estés creando un activo para un juego, un prototipo CAD, o simplemente experimentando con geometría 3D, verás lo fácil que puede ser el modelado 3D en Java con esta poderosa biblioteca.
 
 ## Respuestas rápidas
-- **¿Cuál es el objetivo principal?** Crear un cilindro con forma de ventilador personalizable y guardarlo como un archivo OBJ.  
-- **¿Qué biblioteca se utiliza?** Aspose.3D para Java.  
-- **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
-- **¿Cuáles son los requisitos previos?** Tener instalado JDK y el paquete Aspose.3D Java añadido a tu proyecto.  
-- **¿Puedo exportar a otros formatos?** Sí — Aspose.3D soporta muchos formatos; este ejemplo usa Wavefront OBJ.
+- **What is the primary goal?** Crear un cilindro en forma de ventilador personalizable y guardarlo como un archivo OBJ.  
+- **Which library is used?** Aspose.3D para Java.  
+- **Do I need a license?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
+- **What are the prerequisites?** JDK instalado y el paquete Aspose.3D Java añadido a tu proyecto.  
+- **Can I export other formats?** Sí—Aspose.3D soporta muchos formatos; este ejemplo usa Wavefront OBJ.
 
-## ¿Qué es un cilindro ventilador?
+## Qué es un cilindro ventilador?
 
-Un cilindro ventilador es un cilindro de superficie parcial donde se omite un sector de la base circular, creando una apertura en forma de “ventilador”. Esta geometría es útil para visualizar secciones, paneles de control o piezas mecánicas personalizadas.
+Un cilindro ventilador es un segmento cilíndrico donde se elimina una parte de la base circular, creando un sector “ventilador” de extremo abierto. Se define por radio, altura y ángulo de apertura, lo que lo hace ideal para visualizar rebanadas, paneles de control o piezas mecánicas personalizadas.  
+
+En términos prácticos, imagina un cilindro regular con una cuña recortada—perfecto para representar rotaciones parciales o visualizaciones tipo rebanada en paneles de ingeniería.
 
 ## ¿Por qué usar Aspose.3D para modelado 3D en Java?
 
-Aspose.3D ofrece una API limpia y orientada a objetos que abstrae las matemáticas de bajo nivel de los gráficos 3D. Puedes enfocarte en el diseño en lugar de los detalles de los formatos de archivo, y la biblioteca maneja automáticamente las operaciones de **save obj file java**.
+Aspose.3D para Java ofrece una API de alto nivel y orientada a objetos que abstrae las matemáticas de bajo nivel, soporta **más de 50 formatos de entrada y salida**, y puede procesar modelos de cientos de páginas sin cargar todo el archivo en memoria, lo que permite un desarrollo rápido de aplicaciones 3D. La biblioteca también gestiona automáticamente las operaciones de **export OBJ file java**, de modo que te concentras en la geometría en lugar de los detalles de los formatos de archivo.
 
 ## Requisitos previos
 
@@ -61,7 +98,7 @@ import java.io.IOException;
 
 ## Paso 1: Crear una escena
 
-Primero, instanciamos una nueva `Scene`. Piensa en una escena como el contenedor que alberga todos tus objetos 3D, luces y cámaras.
+La clase `Scene` es el contenedor de Aspose.3D que alberga todos los objetos 3D, luces y cámaras. Piensa en ella como el escenario virtual donde colocas cada elemento de tu modelo.
 
 ```java
 // ExStart:2
@@ -72,7 +109,7 @@ Scene scene = new Scene();
 
 ## Paso 2: Crear un cilindro ventilador (cómo crear cilindro)
 
-Ahora construimos el propio cilindro ventilador. Los parámetros del constructor definen el radio, la altura, la teselación y si la geometría se genera como un ventilador.
+La clase `Cylinder` representa una malla cilíndrica que puede personalizarse con radio, altura, teselado y un ángulo de apertura de ventilador. Ajustando `setThetaLength`, controlas cuánto del cilindro se omite.
 
 ```java
 // ExStart:3
@@ -83,11 +120,11 @@ fan.setThetaLength(MathUtils.toRadian(270.0));
 // ExEnd:3
 ```
 
-> **Consejo profesional:** Ajusta `setThetaLength` para cambiar el ángulo de apertura. 270° crea un ventilador de tres cuartos; 180° produciría medio cilindro.
+> **Consejo profesional:** Ajusta `setThetaLength` para cambiar el ángulo de apertura. 270° crea un ventilador de tres cuartos; 180° produciría un medio cilindro.
 
 ## Paso 3: Posicionar el cilindro ventilador
 
-A continuación, añadimos el cilindro ventilador a la escena y lo movemos a una ubicación conveniente. Las coordenadas de traslación están en el orden (X, Y, Z).
+La clase `Node` es el elemento del grafo de escena que contiene la geometría y su transformación. Mover el nodo traslada el cilindro ventilador a la ubicación deseada en el sistema de coordenadas (X, Y, Z).
 
 ```java
 // ExStart:4
@@ -98,7 +135,7 @@ scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0)
 
 ## Paso 4: Crear un cilindro sin ventilador (comparación de modelado 3D en Java)
 
-Para ilustrar la flexibilidad de Aspose.3D, también creamos un cilindro regular sin apertura de ventilador.
+Para ilustrar la flexibilidad de Aspose.3D, también creamos un cilindro regular sin apertura de ventilador. Esta comparación lado a lado te ayuda a ver el impacto del parámetro `ThetaLength`.
 
 ```java
 // ExStart:5
@@ -109,9 +146,9 @@ scene.getRootNode().createChildNode(nonfan);
 // ExEnd:5
 ```
 
-## Paso 5: Guardar la escena (java save obj file)
+## Paso 5: Guardar la escena (guardar archivo obj en Java)
 
-Finalmente, exportamos toda la escena a un archivo Wavefront OBJ. Este formato es ampliamente soportado por la mayoría de editores 3D y motores de juego.
+El método `Scene.save` escribe toda la escena en un archivo. Al pasar `FileFormat.WAVEFRONTOBJ`, Aspose.3D genera un archivo OBJ estándar que puede abrirse en Blender, Maya, Unity y muchas otras herramientas 3D.
 
 ```java
 // ExStart:6
@@ -124,7 +161,7 @@ scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEF
 
 ## Cómo guardar un archivo OBJ en Java usando Aspose 3D
 
-El método `Scene.save` de Aspose.3D maneja automáticamente el proceso de **aspose 3d export obj**. Solo necesitas especificar el nombre del archivo de destino y el valor del enumerado `FileFormat.WAVEFRONTOBJ`, como se muestra en el paso anterior.
+Para exportar tu escena, llama a `scene.save("output.obj", FileFormat.WAVEFRONTOBJ);` – Aspose.3D escribe la geometría, materiales y referencias de texturas en un archivo Wavefront OBJ estándar que cualquier editor 3D importante puede abrir.
 
 ## Problemas comunes y soluciones
 
@@ -132,15 +169,15 @@ El método `Scene.save` de Aspose.3D maneja automáticamente el proceso de **asp
 |----------|-------|----------|
 | El archivo OBJ está vacío | Escena no guardada o ruta incorrecta | Verifica que el directorio de salida exista y tenga permiso de escritura. |
 | La apertura del ventilador se ve incorrecta | Valor de `ThetaLength` incorrecto | Usa `MathUtils.toRadian(degrees)` para establecer el ángulo exacto que necesitas. |
-| Errores de compilación | Falta el JAR de Aspose.3D en el classpath | Añade el JAR a la carpeta `libs` de tu proyecto y inclúyelo en la ruta de compilación. |
+| Errores de compilación | Falta el JAR de Aspose.3D en el classpath | Añade el JAR a la carpeta `libs` de tu proyecto e inclúyelo en la ruta de compilación. |
 
 ## Preguntas frecuentes
 
 **P: ¿Es Aspose.3D compatible con otras bibliotecas 3D de Java?**  
-R: Sí, Aspose.3D puede coexistir con bibliotecas como Java 3D o jMonkeyEngine, lo que te permite integrar geometría personalizada en flujos de trabajo más grandes.
+R: Sí, Aspose.3D puede coexistir con bibliotecas como Java 3D o jMonkeyEngine, permitiéndote integrar geometría personalizada en flujos de trabajo más grandes.
 
 **P: ¿Puedo personalizar aún más la apariencia del cilindro ventilador?**  
-R: Absolutamente. Puedes aplicar materiales, texturas e iluminación accediendo a las colecciones `Material` y `Light` del nodo.
+R: Por supuesto. Puedes aplicar materiales, texturas e iluminación accediendo a las colecciones `Material` y `Light` del nodo.
 
 **P: ¿Dónde puedo obtener soporte adicional?**  
 R: Visita el [foro de Aspose.3D](https://forum.aspose.com/c/3d/18) para obtener ayuda de la comunidad y respuestas oficiales.
@@ -151,9 +188,18 @@ R: Sí, puedes explorar Aspose.3D con una [prueba gratuita](https://releases.asp
 **P: ¿Cómo obtengo una licencia temporal para pruebas?**  
 R: Adquiere una [aquí](https://purchase.aspose.com/temporary-license/) para desbloquear la funcionalidad completa durante el desarrollo.
 
-**Última actualización:** 2026-04-03  
-**Probado con:** Aspose.3D 24.11 for Java  
-**Autor:** Aspose  
+---
+
+**Última actualización:** 2026-08-02  
+**Probado con:** Aspose.3D 24.11 para Java  
+**Autor:** Aspose
+
+## Tutoriales relacionados
+
+- [Cómo crear modelos de cilindro con Aspose.3D para Java](/3d/java/cylinders/)
+- [Licencia temporal de Aspose – Crear cilindro con parte superior desplazada (Java)](/3d/java/cylinders/creating-cylinders-with-offset-top/)
+- [Cómo cambiar la orientación del plano y exportar OBJ en Java](/3d/java/3d-scenes-and-models/change-plane-orientation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
