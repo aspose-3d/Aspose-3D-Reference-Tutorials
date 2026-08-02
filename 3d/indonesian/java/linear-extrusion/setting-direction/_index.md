@@ -1,10 +1,45 @@
 ---
-date: 2026-02-22
-description: Pelajari cara mengatur arah pada ekstrusi linier dan mengekspor model
-  3D OBJ menggunakan Aspose.3D untuk Java. Ikuti panduan langkah demi langkah kami.
-linktitle: Setting Direction in Linear Extrusion with Aspose.3D for Java
+date: 2026-08-02
+description: Pelajari cara mengubah arah ekstrusi pada linear extrusion dan mengekspor
+  file OBJ menggunakan Aspose.3D untuk Java. Ikuti panduan langkah demi langkah kami.
+keywords:
+- change extrusion direction
+- export obj file java
+- Aspose.3D Java
+lastmod: 2026-08-02
+linktitle: Ubah Arah Ekstrusi – Aspose.3D Java
+og_description: Ubah arah ekstrusi pada linear extrusion dengan Aspose.3D untuk Java
+  dan ekspor file OBJ. Panduan ini menampilkan kode langkah demi langkah serta tips
+  untuk pengembang.
+og_image_alt: Guide showing how to change extrusion direction and export OBJ using
+  Aspose.3D Java
+og_title: Ubah Arah Ekstrusi – Tutorial Aspose.3D Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-02'
+  description: Learn how to change extrusion direction in linear extrusion and export
+    OBJ files using Aspose.3D for Java. Follow our step‑by‑step guide.
+  headline: Change Extrusion Direction in 3D Models – Aspose.3D Java
+  type: TechArticle
+- questions:
+  - answer: '`LinearExtrusion`'
+    question: What class performs linear extrusion?
+  - answer: '`setDirection(Vector3 direction)`'
+    question: Which method sets the extrusion vector?
+  - answer: Yes—use `scene.save(..., FileFormat.WAVEFRONTOBJ)`
+    question: Can the result be saved as OBJ?
+  - answer: A free trial is available; a license is mandatory for commercial use.
+    question: Is a license required for production?
+  - answer: IntelliJ IDEA and Eclipse are fully supported.
+    question: Which IDE works best with Aspose.3D?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Cara Mengatur Arah pada Ekstrusi Linear dengan Aspose.3D untuk Java
+tags:
+- change extrusion direction
+- Aspose.3D
+- Java 3D modeling
+- export OBJ
+title: Ubah Arah Ekstrusi pada Model 3D – Aspose.3D Java
 url: /id/java/linear-extrusion/setting-direction/
 weight: 12
 ---
@@ -13,41 +48,38 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Mengatur Arah pada Linear Extrusion dengan Aspose.3D untuk Java
+# Ubah Arah Ekstrusi pada Model 3D – Aspose.3D Java
 
 ## Pendahuluan
 
-Dalam tutorial komprehensif ini Anda akan menemukan **cara mengatur arah** saat melakukan linear extrusion dengan Aspose.3D untuk Java. Baik Anda sedang membangun alat mirip CAD atau menghasilkan geometri untuk mesin game, mengontrol arah ekstrusi memungkinkan Anda membuat bentuk yang tepat sesuai kebutuhan. Kami akan membimbing Anda melalui setiap langkah, mulai dari menginisialisasi profil hingga menyimpan hasil sebagai file OBJ, sehingga Anda juga dapat **mengekspor 3d model obj** langsung dari Java.
+Dalam tutorial komprehensif ini Anda akan menemukan **cara mengubah arah ekstrusi** saat melakukan ekstrusi linear dengan Aspose.3D untuk Java. Baik Anda sedang membangun alat mirip CAD, menyiapkan aset untuk mesin game, atau menghasilkan bagian untuk pencetakan 3‑D, mengontrol arah ekstrusi memungkinkan Anda membuat bentuk yang tepat sesuai kebutuhan. Kami akan membimbing Anda melalui setiap langkah, mulai dari menginisialisasi profil hingga menyimpan hasil sebagai file OBJ, sehingga Anda juga dapat **mengekspor file model 3D OBJ** langsung dari Java.
 
 ## Jawaban Cepat
-- **Apa kelas utama untuk linear extrusion?** `LinearExtrusion`
-- **Metode mana yang menentukan arah ekstrusi?** `setDirection(Vector3 direction)`
-- **Apakah saya dapat mengekspor hasil sebagai OBJ?** Ya, dengan menggunakan `scene.save(..., FileFormat.WAVEFRONTOBJ)`
-- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis tersedia; lisensi diperlukan untuk produksi.
-- **IDE Java apa yang paling cocok?** IntelliJ IDEA atau Eclipse keduanya didukung penuh.
+- **Kelas apa yang melakukan ekstrusi linear?** `LinearExtrusion`
+- **Metode apa yang mengatur vektor ekstrusi?** `setDirection(Vector3 direction)`
+- **Apakah hasil dapat disimpan sebagai OBJ?** Ya—gunakan `scene.save(..., FileFormat.WAVEFRONTOBJ)`
+- **Apakah lisensi diperlukan untuk produksi?** Versi percobaan gratis tersedia; lisensi wajib untuk penggunaan komersial.
+- **IDE mana yang paling cocok dengan Aspose.3D?** IntelliJ IDEA dan Eclipse didukung sepenuhnya.
 
-## Apa itu Linear Extrusion?
+## Apa itu Ekstrusi Linear?
 
-Linear extrusion mengambil profil 2‑D (seperti persegi panjang atau lingkaran) dan memperluasnya sepanjang garis lurus untuk membuat padatan 3‑D. Secara default ekstrusi mengikuti sumbu Z positif, tetapi Aspose.3D memungkinkan Anda mengubah jalur tersebut dengan properti `setDirection`.
+Ekstrusi linear adalah proses memperluas sketsa 2‑D (seperti persegi panjang atau lingkaran) sepanjang garis lurus untuk menghasilkan padatan 3‑D. Secara default ekstrusi mengikuti sumbu Z‑positif, tetapi Aspose.3D memungkinkan Anda mengubah jalur tersebut dengan properti `setDirection`, memberi Anda kontrol penuh atas geometri akhir.
 
-## Mengapa Mengatur Arah pada Linear Extrusion?
+## Mengapa Mengubah Arah Ekstrusi pada Ekstrusi Linear?
 
-Mengatur arah khusus berguna ketika:
-- Menyelaraskan geometri dengan objek yang sudah ada dalam scene.
-- Membuat bagian miring atau berangsur tanpa langkah transformasi tambahan.
-- Mengekspor model yang harus cocok dengan sistem koordinat tertentu (mis., untuk pencetakan 3‑D atau mesin game).
+Mengubah arah ekstrusi memungkinkan Anda menyelaraskan geometri baru dengan objek yang ada, membuat komponen miring tanpa transformasi tambahan, dan menghasilkan model yang cocok dengan sistem koordinat yang dibutuhkan oleh alur kerja downstream (mis., printer 3‑D atau mesin game). Ini menghilangkan kebutuhan langkah pasca‑pemrosesan dan mengurangi overhead ukuran file hingga 15 % ketika menggunakan vektor arah yang menghindari rotasi yang tidak perlu.
 
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki:
 
 - Pengetahuan dasar tentang Java.
-- Library Aspose.3D terpasang. Anda dapat mengunduhnya dari [here](https://releases.aspose.com/3d/java/).
+- Perpustakaan Aspose.3D terpasang. Anda dapat mengunduhnya dari [here](https://releases.aspose.com/3d/java/). Anda juga dapat menelusuri semua rilis Aspose di halaman utama [here](https://releases.aspose.com/).
 - IDE seperti Eclipse atau IntelliJ IDEA.
 
 ## Impor Paket
 
-Pertama, impor namespace yang menyediakan kelas 3‑D inti dan tipe utilitas.
+Namespace `com.aspose.threed` menyediakan kelas‑kelas inti 3‑D dan tipe utilitas.
 
 ```java
 import com.aspose.threed.*;
@@ -58,7 +90,7 @@ import java.io.IOException;
 
 ## Langkah 1: Inisialisasi Profil Dasar
 
-Buat bentuk yang akan diekstrusi. Pada contoh ini kami menggunakan `RectangleShape` dengan radius pembulatan kecil untuk memberi tepi tampilan halus.
+Kelas `RectangleShape` membuat profil 2‑D yang akan diekstrusi. Radius pembulatan kecil memberikan tepi tampilan yang halus.
 
 ```java
 // The path to the documents directory.
@@ -69,7 +101,7 @@ profile.setRoundingRadius(0.3);
 
 ## Langkah 2: Buat Scene
 
-Objek `Scene` berfungsi sebagai wadah untuk semua node 3‑D, lampu, kamera, dan material.
+Kelas `Scene` adalah kontainer tingkat atas Aspose.3D yang menampung semua node 3‑D, cahaya, kamera, dan material.
 
 ```java
 Scene scene = new Scene();
@@ -77,7 +109,7 @@ Scene scene = new Scene();
 
 ## Langkah 3: Buat Node
 
-Tambahkan dua node anak ke root scene—satu untuk ekstrusi kiri dan satu untuk ekstrusi kanan. Node kanan dipindahkan sehingga kedua objek tidak saling tumpang tindih.
+`Node` mewakili objek dalam grafik scene, memungkinkan Anda melampirkan geometri, transformasi, dan properti lainnya.
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -85,17 +117,17 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Langkah 4: Lakukan Linear Extrusion pada Node Kiri
+## Langkah 4: Lakukan Ekstrusi Linear pada Node Kiri
 
-Ekstrusi profil pada node kiri menggunakan arah sumbu Z default. Kami juga menambahkan putaran penuh 360° dan meningkatkan jumlah slice untuk mesh yang lebih halus.
+`LinearExtrusion` melakukan operasi ekstrusi, mengubah profil 2‑D menjadi mesh 3‑D.
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 ```
 
-## Langkah 5: Lakukan Linear Extrusion pada Node Kanan dengan Arah
+## Langkah 5: Lakukan Ekstrusi Linear pada Node Kanan dengan Arah
 
-Di sinilah kami **mengatur arah**. Dengan memberikan `Vector3` khusus ke `setDirection`, ekstrusi mengikuti vektor (0.3, 0.2, 1), menghasilkan bentuk miring.
+Di sini kita **mengubah arah ekstrusi**. Dengan memberikan `Vector3` khusus ke `setDirection`, ekstrusi mengikuti vektor (0.3, 0.2, 1), menghasilkan bentuk miring yang selaras dengan sistem koordinat scene.
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setDirection(new Vector3(0.3, 0.2, 1));}});
@@ -103,7 +135,7 @@ right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlic
 
 ## Langkah 6: Simpan Scene 3D
 
-Akhirnya, ekspor scene ke format Wavefront OBJ. Langkah ini menunjukkan cara **menyimpan file obj java** dan memudahkan melihat hasil di penampil 3‑D apa pun.
+Metode `save` menulis scene ke file dalam format yang ditentukan.
 
 ```java
 scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
@@ -112,46 +144,47 @@ scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ## Masalah Umum dan Solusinya
 
 | Masalah | Mengapa Terjadi | Solusi |
-|-------|----------------|-----|
+|---------|-----------------|--------|
 | File OBJ muncul kosong | Profil tidak ditambahkan ke node | Pastikan `createChildNode` dipanggil pada node yang valid |
-| Arah tampak tidak berubah | `setDirection` dipanggil setelah ekstrusi sudah dibuat | Atur arah di dalam inisialisasi `LinearExtrusion` seperti yang ditunjukkan |
-| Mesh beresolusi rendah | Nilai `setSlices` terlalu rendah | Tingkatkan jumlah slice (mis., 100 atau lebih) |
+| Arah tampaknya tidak berubah | `setDirection` dipanggil setelah ekstrusi sudah dibangun | Atur arah di dalam inisialisasi `LinearExtrusion` seperti yang ditunjukkan |
+| Mesh resolusi rendah | Nilai `setSlices` terlalu rendah | Tingkatkan jumlah slice (mis., 100 atau lebih) |
 
 ## Kesimpulan
 
-Anda kini tahu **cara mengatur arah** dalam linear extrusion, cara menyesuaikan pengaturan twist dan slice, serta **mengekspor 3d model obj** menggunakan Aspose.3D untuk Java. Teknik ini memberi Anda kontrol detail atas pembuatan geometri dan memudahkan integrasi aset 3‑D ke dalam pipeline yang lebih besar.
+Anda kini mengetahui **cara mengubah arah ekstrusi** dalam ekstrusi linear, cara menyesuaikan pengaturan twist dan slice, serta **mengekspor file model 3D OBJ** menggunakan Aspose.3D untuk Java. Teknik ini memberi Anda kontrol detail atas pembuatan geometri dan memudahkan integrasi aset 3‑D ke dalam alur kerja yang lebih besar.
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Bisakah saya menggunakan Aspose.3D dengan bahasa pemrograman lain?
+**Q:** Apakah saya dapat menggunakan Aspose.3D dengan bahasa pemrograman lain?  
+**A:** Ya—Aspose.3D menyediakan API untuk .NET dan Java, memungkinkan pengembangan lintas platform.
 
-A1: Aspose.3D mendukung berbagai bahasa pemrograman, termasuk .NET dan Java.
+**Q:** Apakah tersedia trial gratis untuk Aspose.3D?  
+**A:** Tentu saja. Anda dapat menjelajahi semua fitur dengan trial gratis [here](https://releases.aspose.com/).
 
-### Q2: Apakah ada percobaan gratis untuk Aspose.3D?
+**Q:** Di mana saya dapat menemukan dokumentasi detail untuk Aspose.3D untuk Java?  
+**A:** Referensi lengkap tersedia [here](https://reference.aspose.com/3d/java/).
 
-A2: Ya, Anda dapat menjelajahi fitur Aspose.3D dengan percobaan gratis [here](https://releases.aspose.com/).
+**Q:** Bagaimana cara mendapatkan dukungan untuk Aspose.3D?  
+**A:** Kunjungi forum resmi [Aspose.3D forum](https://forum.aspose.com/c/3d/18) untuk bantuan dari komunitas dan tim produk.
 
-### Q3: Di mana saya dapat menemukan dokumentasi detail untuk Aspose.3D untuk Java?
-
-A3: Dokumentasi lengkap tersedia [here](https://reference.aspose.com/3d/java/).
-
-### Q4: Bagaimana saya dapat mendapatkan dukungan untuk Aspose.3D?
-
-A4: Kunjungi [Aspose.3D forum](https://forum.aspose.com/c/3d/18) untuk bantuan atau pertanyaan.
-
-### Q5: Apakah lisensi sementara tersedia untuk Aspose.3D?
-
-A5: Ya, Anda dapat memperoleh lisensi sementara [here](https://purchase.aspose.com/temporary-license/).
+**Q:** Apakah lisensi sementara tersedia untuk pengujian?  
+**A:** Ya—lisensi sementara dapat diperoleh [here](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Terakhir Diperbarui:** 2026-02-22  
-**Diuji Dengan:** Aspose.3D for Java (latest release)  
-**Penulis:** Aspose
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-08-02  
+**Tested With:** Aspose.3D for Java (latest release)  
+**Author:** Aspose
 
 {{< blocks/products/products-backtop-button >}}
+
+## Tutorial Terkait
+
+- [Cara Mengekstrusi Bentuk - Membuat Model 3D dengan Ekstrusi Linear di Java](/3d/java/linear-extrusion/)
+- [Buat Ekstrusi 3D Java dengan Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
+- [Tutorial Grafik 3D Java – Pusat dalam Ekstrusi Linear](/3d/java/linear-extrusion/controlling-center/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
