@@ -1,16 +1,52 @@
 ---
-date: 2026-04-03
-description: Pelajari cara mengoptimalkan data mesh dan mengimplementasikan animasi
-  keyframe Java menggunakan Aspose.3D. Temukan cara menggerakkan 3D di Java, bekerja
-  dengan point cloud Java, dan jelajahi panduan langkah demi langkah.
+date: 2026-08-02
+description: Pelajari cara menganimasi 3D dengan Aspose.3D untuk Java – optimalkan
+  mesh data, buat keyframe animations, dan bangun real‑time 3D experiences.
 keywords:
-- optimize mesh data
+- how to animate 3d
+- real time 3d animation
+- how to compress mesh
+- how to create keyframe
 - camera path animation
-- keyframe animation java
-- animate 3d java
-- point clouds java
+- skeletal rig animation
+lastmod: 2026-08-02
 linktitle: Tutorial Aspose.3D untuk Java
-title: Optimalkan Data Mesh – Animasi Keyframe Java dengan Aspose.3D – Tutorial Komprehensif
+og_description: Pelajari cara menganimasi 3D dengan Aspose.3D untuk Java – optimalkan
+  mesh data, buat keyframe animations, dan bangun real‑time 3D experiences.
+og_image_alt: 'Developer guide: Optimize mesh data and animate 3D in Java using Aspose.3D'
+og_title: Cara Menganimasi 3D – Optimalkan mesh data dengan Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-08-02'
+  description: Learn how to animate 3D with Aspose.3D for Java – optimize mesh data,
+    create keyframe animations, and build real‑time 3D experiences.
+  headline: How to Animate 3D – Optimize Mesh Data with Aspose.3D
+  type: TechArticle
+- questions:
+  - answer: Yes. A commercial license removes all evaluation limitations and grants
+      full deployment rights.
+    question: Can I use Aspose.3D for commercial Java applications?
+  - answer: OBJ, STL, FBX, GLTF/GLB, 3MF, PLY, VRML, and more. The library also supports
+      converting between these formats.
+    question: Which file formats does Aspose.3D support for import/export?
+  - answer: Aspose.3D handles rendering internally; for real‑time GPU acceleration
+      you can export to a format compatible with external engines (e.g., GLTF) and
+      render with OpenGL/DirectX.
+    question: How do I enable hardware‑accelerated rendering?
+  - answer: Use the Draco compression utilities provided in the “Optimizing and Working
+      with 3D Mesh Data” tutorial to compress meshes without visual loss.
+    question: What is the best way to reduce mesh size for web delivery?
+  - answer: Yes. The “Working with Animations in Java” tutorial includes a full example
+      of key‑frame camera animation.
+    question: Are there examples for animating cameras along a spline path?
+  type: FAQPage
+tags:
+- how to animate 3d
+- Aspose.3D
+- Java 3D animation
+- mesh optimization
+- keyframe animation
+title: Cara Menganimasi 3D – Optimalkan mesh data dengan Aspose.3D
 url: /id/java/
 weight: 10
 ---
@@ -19,149 +55,149 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Animasi Keyframe Java dengan Aspose.3D – Tutorial Komprehensif
+# Cara Menganimasikan 3D – Mengoptimalkan Data Mesh dengan Aspose.3D
 
 ## Pendahuluan
 
-Apakah Anda siap untuk **optimize mesh data** sambil membuat proyek animasi keyframe java yang memukau pengguna dan meningkatkan kinerja? Di hub ini Anda akan menemukan koleksi terkurasi tutorial Aspose.3D untuk Java yang membimbing Anda melalui segala hal mulai dari lisensi dasar hingga optimasi mesh lanjutan. Baik Anda seorang pengembang 3‑D berpengalaman atau baru memulai, panduan langkah‑per‑langkah ini akan membantu Anda memanfaatkan potensi penuh Aspose.3D dalam aplikasi Java Anda.
+Jika Anda mencari **how to animate 3D** dalam Java sambil menjaga adegan Anda tetap ringan, Anda berada di tempat yang tepat. Pusat ini mengumpulkan tutorial Aspose.3D untuk Java yang paling lengkap, mulai dari dasar lisensi hingga kompresi mesh tingkat lanjut dan animasi keyframe. Baik Anda membangun animasi 3D real‑time, tampilan produk, atau simulasi ilmiah, panduan langkah‑demi‑langkah ini akan membantu Anda menghasilkan gerakan yang halus dan waktu muat yang cepat.
 
 ## Jawaban Cepat
-- **Apa yang dapat saya bangun?** Real‑time 3D animations, interactive scenes, and complex mesh manipulations in Java.  
-- **Apakah saya memerlukan lisensi?** A free evaluation license is available; a full license unlocks all features for production.  
-- **Versi Java mana yang didukung?** Java 8 + (including Java 11, 17, and newer LTS releases).  
-- **Apakah ada contoh kode?** Every tutorial includes ready‑to‑run snippets you can copy into your project.  
-- **Dari mana saya harus memulai?** Begin with the “Getting Started with Aspose.3D for Java” guide to set up the library and apply your license.
+- **Apa yang dapat saya bangun?** Animasi 3D real‑time, adegan interaktif, dan manipulasi mesh kompleks dalam Java.  
+- **Apakah saya memerlukan lisensi?** Lisensi evaluasi gratis tersedia; lisensi penuh membuka semua fitur untuk produksi.  
+- **Versi Java mana yang didukung?** Java 8 + (termasuk Java 11, 17, dan rilis LTS yang lebih baru).  
+- **Apakah ada contoh kode?** Setiap tutorial menyertakan potongan kode siap‑jalankan yang dapat Anda salin ke proyek Anda.  
+- **Dari mana saya harus memulai?** Mulailah dengan panduan “Getting Started with Aspose.3D for Java” untuk menyiapkan perpustakaan dan menerapkan lisensi Anda.
 
-## Apa itu **keyframe animation java**?
+## Apa itu animasi keyframe java?
 
-Keyframe animation java berarti mendefinisikan frame tertentu (keyframes) yang menggambarkan posisi, rotasi, skala, atau material suatu objek pada momen tertentu dalam waktu. Aspose.3D melakukan interpolasi antar frame ini, menciptakan gerakan halus tanpa Anda harus mengelola detail rendering tingkat rendah.
+Keyframe animation java adalah proses mendefinisikan frame terpisah yang menggambarkan posisi, rotasi, skala, atau material sebuah objek pada momen tertentu. Aspose.3D kemudian menginterpolasi antara frame-frame ini, menghasilkan gerakan halus tanpa kode rendering manual.
 
-## Cara **optimize mesh data** di Aspose.3D untuk Java
+## Cara mengoptimalkan data mesh di Aspose.3D untuk Java
 
-Mengoptimalkan mesh data sangat penting ketika Anda perlu menyajikan konten 3D melalui web atau menjalankannya pada perangkat dengan sumber daya terbatas. Aspose.3D menyediakan utilitas bawaan seperti kompresi Draco dan penyederhanaan mesh yang memungkinkan Anda mengurangi ukuran file sambil mempertahankan fidelitas visual. Dengan mengintegrasikan alat‑alat ini ke dalam pipeline animasi Anda, Anda dapat menjaga scene tetap ringan dan aplikasi **animate 3d java** Anda tetap responsif.
+Kelas **DracoEncoder** dalam Aspose.3D menyediakan metode untuk mengompresi mesh. **Draco compression** adalah algoritma lossless‑to‑lossy yang mengurangi ukuran mesh secara dramatis sambil mempertahankan kesetiaan visual; memuat adegan, memanggil encoder, dan mengekspor mesh terkompresi dapat memperkecil ukuran file hingga 90 % tanpa kehilangan kualitas yang terlihat, dan penyederhanaan mesh selanjutnya menghapus vertex yang berlebih untuk menjaga aplikasi **animate 3d java** tetap responsif pada koneksi berbandwidth rendah.
 
 ## Mengapa menggunakan Aspose.3D untuk animasi Java?
 
-- **Cross‑platform** – Tulis sekali, jalankan di Windows, macOS, atau Linux.  
-- **Rich feature set** – Mendukung animasi key‑frame, rig skeletal, jalur kamera, dan animasi material.  
-- **No external dependencies** – Perpustakaan Java murni, tanpa binari native yang harus dikirim.  
-- **High performance** – Penanganan mesh yang dioptimalkan dan dukungan bawaan untuk kompresi Draco.  
+Aspose.3D menawarkan solusi murni‑Java yang memungkinkan animasi 3D real‑time di Windows, macOS, dan Linux, dengan penanganan key‑frame bawaan, dukungan rig skeletal, dan animasi jalur kamera, semuanya tanpa binari native. Stream yang efisien dalam memori dapat memproses mesh hingga 500 MB, dan kompresi Draco terintegrasi mengurangi mesh tersebut sebesar 80‑90 % sambil mempertahankan rendering pixel‑perfect, menjadikannya ideal untuk proyek berkinerja tinggi dan lintas platform.
 
 ## Prasyarat
-- Java Development Kit (JDK) 8 atau yang lebih baru terpasang.  
+- Java Development Kit (JDK) 8 atau yang lebih baru terpasang.  
 - Maven atau Gradle untuk manajemen dependensi.  
 - Lisensi Aspose.3D untuk Java (evaluasi atau komersial).  
 
-## Mengapa keyframe animation java penting
+## Mengapa animasi keyframe java penting
 
-Menggunakan keyframe memungkinkan Anda membuat urutan gerakan kompleks—seperti karakter berjalan, kamera mengorbit sebuah scene, atau produk berputar untuk tampilan 360°—sementara menjaga kode tetap bersih dan dapat dipelihara. Pendekatan ini sangat kuat ketika Anda perlu **animate 3d in java** untuk aplikasi interaktif, game, atau visualisasi produk.
+Keyframe animation java memungkinkan Anda menulis skrip gerakan kompleks—seperti karakter berjalan, orbit kamera, atau produk berputar 360°—hanya dengan beberapa frame. Pendekatan ini memisahkan logika animasi dari rendering, membuat kode Anda lebih bersih dan memungkinkan mesin **real time 3d animation** untuk menggunakan kembali data yang sama di berbagai platform.
 
-## Kasus penggunaan umum untuk **animate 3d java**
+## Kasus penggunaan umum untuk animate 3d java
 
-- **Product showcases** – Putar dan zoom pada model 3D dengan transisi halus.  
-- **Educational simulations** – Menunjukkan gerakan mekanik atau fenomena ilmiah.  
-- **Game prototyping** – Dengan cepat membuat prototipe animasi karakter atau objek tanpa mesin game lengkap.  
-- **Web‑ready visualizations** – Ekspor scene yang ber‑keyframe ke glTF untuk rendering di browser.  
+Pengembang menggunakan **animate 3d java** untuk membuat visualizer produk, simulasi edukasi, prototipe game cepat, dan ekspor glTF siap web. Dalam setiap kasus, animasi keyframe mengurangi waktu pengembangan sambil memberikan gerakan yang halus dan tidak bergantung pada perangkat keras.
 
 ## Contoh animasi jalur kamera
 
-Permintaan yang sering adalah menganimasi kamera sepanjang spline atau jalur khusus. Dengan Aspose.3D Anda dapat mendefinisikan keyframe untuk posisi dan orientasi kamera, lalu membiarkan perpustakaan melakukan interpolasi gerakan, menciptakan **camera path animation** kelas profesional tanpa menulis kode matematika yang kompleks.
+Permintaan yang sering adalah menganimasikan kamera sepanjang spline atau jalur khusus. Dengan Aspose.3D Anda dapat mendefinisikan keyframe untuk posisi dan orientasi kamera, lalu membiarkan perpustakaan menginterpolasi gerakan, menciptakan **camera path animation** kelas profesional tanpa menulis kode matematika yang kompleks.
 
-## Panduan Langkah‑per‑Langkah
+## Panduan Langkah‑demi‑Langkah
 
 Berikut adalah daftar lengkap tutorial. Klik tautan mana pun untuk menyelami topik tersebut lebih dalam.
 
 ### [Bekerja dengan Animasi di Java](./animations/)
 
-Berikan kehidupan pada proyek Java 3D Anda! Pelajari cara menambahkan properti animasi secara mulus dan menyiapkan kamera target. Tingkatkan pengembangan Anda dengan animasi 3D yang memukau yang akan meninggalkan kesan mendalam. Panduan ini adalah tempat yang sempurna untuk memulai ketika Anda ingin **create 3D animation Java** scene dari awal.
+Hidupkan proyek Java 3D Anda! Pelajari cara menambahkan properti animasi secara mulus dan menyiapkan kamera target. Tingkatkan pengembangan Anda dengan animasi 3D yang memukau dan meninggalkan kesan mendalam. Panduan ini adalah tempat yang sempurna untuk memulai ketika Anda ingin **create 3D animation Java** adegan dari awal.
 
 ### [Bekerja dengan Geometri 3D di Java](./geometry/)
 
-Kuasi seni bekerja dengan geometri 3D di Java. Tutorial kami mencakup material PBR, rotasi quaternion, scene kubus, dan lainnya. Tingkatkan grafis Java 3D Anda dan ciptakan pengalaman visual yang menakjubkan.
+Kuasi seni bekerja dengan geometri 3D di Java. Tutorial kami mencakup material PBR, rotasi quaternion, adegan kubus, dan lainnya. Tingkatkan grafis Java 3D Anda dan ciptakan pengalaman visual yang menakjubkan.
 
 ### [Memulai dengan Aspose.3D untuk Java](./licensing/)
 
-Temukan kekuatan Aspose.3D Java melalui tutorial mendalam. Pelajari cara menerapkan lisensi dan memanfaatkan seluruh kemampuan alat Java yang kuat ini untuk pengembangan 3D dinamis.
+Temukan kekuatan Aspose.3D Java melalui tutorial mendalam. Pelajari cara menerapkan lisensi dan memanfaatkan sepenuhnya kemampuan alat Java yang kuat ini untuk pengembangan 3D dinamis.
 
 ### [Membuat Model 3D dengan Ekstrusi Linear di Java](./linear-extrusion/)
 
-Jelajahi dunia pemodelan 3D dengan Aspose.3D untuk Java. Kuasai ekstrusi linear dengan mudah. Kontrol pusat, atur arah, tentukan irisan, terapkan twist, dan lainnya untuk membuat model 3D yang memukau.
+Jelajahi dunia pemodelan 3D dengan Aspose.3D untuk Java. Kuasai ekstrusi linear dengan mudah. Kendalikan pusat, atur arah, tentukan irisan, terapkan putaran, dan lainnya untuk membuat model 3D yang memukau.
 
 ### [Membuat Model 3D Primitif di Aspose.3D untuk Java](./primitive-3d-models/)
 
-Buat model 3D yang menakjubkan dengan mudah menggunakan tutorial kami. Lepaskan kreativitas Anda dengan panduan langkah‑per‑langkah dalam membangun model 3D primitif. Saatnya mengekspresikan sisi artistik Anda di dunia 3D.
+Buat model 3D menakjubkan dengan mudah menggunakan tutorial kami. Lepaskan kreativitas Anda dengan panduan langkah‑demi‑langkah dalam membangun model 3D primitif. Saatnya mengekspresikan sisi artistik Anda dalam dunia 3D.
 
 ### [Bekerja dengan Silinder di Aspose.3D untuk Java](./cylinders/)
 
-Buat model 3D yang memukau secara visual dengan Aspose.3D untuk Java! Pelajari cara membuat silinder kipas, silinder dengan puncak offset, dan silinder dengan dasar miring melalui tutorial mudah diikuti kami.
+Buat model 3D yang visualnya menakjubkan dengan Aspose.3D untuk Java! Pelajari cara membuat silinder kipas, silinder dengan bagian atas offset, dan silinder dengan bagian bawah miring melalui tutorial mudah diikuti kami.
 
 ### [Bekerja dengan File VRML di Java](./vrml-files/)
 
 Buka keajaiban pemodelan 3D di Java dengan Aspose.3D. Buka dan manipulasi file VRML dengan mulus. Selami dunia kemungkinan tak terbatas dan tingkatkan keterampilan pemodelan 3D Anda.
 
-### [Manipulasi Poligon pada Model 3D dengan Java](./polygon/)
+### [Manipulasi Poligon dalam Model 3D dengan Java](./polygon/)
 
-Jelajahi rendering 3D yang efisien di Java dengan tutorial Aspose.3D. Konversi **polygons to triangles java** dan hasilkan koordinat UV untuk kinerja optimal serta pemetaan tekstur yang ditingkatkan. Kuasai seni manipulasi poligon.
+Jelajahi rendering 3D yang efisien di Java dengan tutorial Aspose.3D. Konversi **polygons to triangles java** dan hasilkan koordinat UV untuk kinerja optimal serta pemetaan tekstur yang lebih baik. Kuasai seni manipulasi poligon.
 
-### [Merender Scene 3D dalam Aplikasi Java](./rendering-3d-scenes/)
+### [Merender Adegan 3D dalam Aplikasi Java](./rendering-3d-scenes/)
 
 Buka dunia grafis 3D di Java dengan tutorial kami. Kuasai rendering manual, teknik dasar, pemrosesan gambar, dan rendering real‑time dengan mudah. Ubah aplikasi Java Anda menjadi pengalaman visual yang menakjubkan.
 
-### [Bekerja dengan Scene dan Model 3D di Java](./3d-scenes-and-models/)
+### [Bekerja dengan Adegan dan Model 3D di Java](./3d-scenes-and-models/)
 
-Temukan kekuatan Aspose.3D untuk Java melalui tutorial kami. Tingkatkan presisi, efisiensi penyimpanan, dan manipulasi scene 3D dalam aplikasi Java Anda. Tingkatkan pengalaman coding Anda dengan panduan langkah‑per‑langkah kami.
+Temukan kekuatan Aspose.3D untuk Java melalui tutorial kami. Tingkatkan presisi, efisiensi penyimpanan, dan manipulasi adegan 3D dalam aplikasi Java Anda. Tingkatkan pengalaman pemrograman Anda dengan panduan langkah‑demi‑langkah kami.
 
 ### [Bekerja dengan File 3D di Java - Membuat, Memuat, Menyimpan, dan Mengonversi](./load-and-save/)
 
-Kuasi manipulasi file 3D di Java dengan mudah melalui tutorial Aspose.3D. Buat, muat, simpan, dan konversi file 3D dengan mudah menggunakan panduan komprehensif kami.
+Kuasi manipulasi file 3D di Java dengan mudah melalui tutorial Aspose.3D. Buat, muat, simpan, dan konversi file 3D dengan mudah menggunakan panduan lengkap kami.
 
 ### [Membuat dan Mengubah Mesh 3D di Java](./transforming-3d-meshes/)
 
-Buka potensi grafis 3D dengan Aspose.3D untuk Java. Buat, ubah, dan optimalkan mesh dengan mudah. Tingkatkan pengalaman coding Anda dengan tutorial kami tentang pembuatan dan transformasi mesh 3D.
+Buka potensi grafis 3D dengan Aspose.3D untuk Java. Dengan mudah buat, ubah, dan optimalkan mesh. Tingkatkan pengalaman pemrograman Anda dengan tutorial kami tentang pembuatan dan transformasi mesh 3D.
 
 ### [Mengoptimalkan dan Bekerja dengan Data Mesh 3D di Java](./3d-mesh-data/)
 
 Optimalkan aplikasi 3D Anda dengan Aspose.3D untuk Java. Pelajari cara mengompresi mesh dengan Google Draco, menghasilkan data mesh, dan memproses mesh 3D secara efisien berdasarkan material. Kuasai seni mengoptimalkan dan bekerja dengan data mesh 3D.
 
-### [Memanipulasi Objek dan Scene 3D di Java](./3d-objects-and-scenes/)
+### [Memanipulasi Objek dan Adegan 3D di Java](./3d-objects-and-scenes/)
 
-Buka dunia pemrograman Java 3D dengan tutorial Aspose.3D. Pelajari cara mengubah radius bola dan menerapkan kueri mirip XPath dengan mudah untuk pengembangan 3D yang mulus. Selami dunia manipulasi objek dan scene 3D.
+Buka dunia pemrograman Java 3D dengan tutorial Aspose.3D. Pelajari cara mengubah radius bola dan menerapkan kueri mirip XPath dengan mudah untuk pengembangan 3D yang mulus. Selami dunia manipulasi objek dan adegan 3D.
 
 ### [Bekerja dengan Point Clouds di Java](./point-clouds/)
 
 Dekode, muat, buat, ekspor, dan sederhanakan **point clouds java** di Java dengan mudah melalui tutorial Aspose.3D. Tingkatkan keterampilan pengembangan 3D Anda langkah demi langkah dengan panduan kami tentang bekerja dengan point clouds.
 
-Jelajahi dunia kaya Aspose.3D untuk Java melalui tutorial kami. Dari animasi dan geometri hingga manipulasi file dan optimisasi, panduan kami mencakup semuanya. Tingkatkan keterampilan pengembangan Java 3D Anda dan ciptakan pengalaman visual yang menakjubkan!
+Jelajahi dunia kaya Aspose.3D untuk Java melalui tutorial kami. Dari animasi dan geometri hingga manipulasi file dan optimasi, panduan kami mencakup semuanya. Tingkatkan keterampilan pengembangan Java 3D Anda dan ciptakan pengalaman visual yang menakjubkan!
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q: Apakah saya dapat menggunakan Aspose.3D untuk aplikasi Java komersial?**  
+**Q: Bisakah saya menggunakan Aspose.3D untuk aplikasi Java komersial?**  
 A: Ya. Lisensi komersial menghapus semua batasan evaluasi dan memberikan hak penyebaran penuh.
 
 **Q: Format file apa yang didukung Aspose.3D untuk impor/ekspor?**  
 A: OBJ, STL, FBX, GLTF/GLB, 3MF, PLY, VRML, dan lainnya. Perpustakaan juga mendukung konversi antar format tersebut.
 
 **Q: Bagaimana cara mengaktifkan rendering yang dipercepat perangkat keras?**  
-A: Aspose.3D menangani rendering secara internal; untuk percepatan GPU real‑time Anda dapat mengekspor ke format yang kompatibel dengan mesin eksternal (mis., GLTF) dan merender dengan OpenGL/DirectX.
+A: Aspose.3D menangani rendering secara internal; untuk percepatan GPU real‑time Anda dapat mengekspor ke format yang kompatibel dengan mesin eksternal (misalnya, GLTF) dan merender dengan OpenGL/DirectX.
 
 **Q: Apa cara terbaik untuk mengurangi ukuran mesh untuk pengiriman web?**  
 A: Gunakan utilitas kompresi Draco yang disediakan dalam tutorial “Optimizing and Working with 3D Mesh Data” untuk mengompresi mesh tanpa kehilangan visual.
 
-**Q: Apakah ada contoh untuk menganimasi kamera sepanjang jalur spline?**  
+**Q: Apakah ada contoh untuk menganimasikan kamera sepanjang jalur spline?**  
 A: Ya. Tutorial “Working with Animations in Java” mencakup contoh lengkap animasi kamera key‑frame.
 
-**Q: Bagaimana saya dapat **optimize mesh data** untuk pemuatan lebih cepat?**  
+**Q: Bagaimana saya dapat **optimize mesh data** untuk pemuatan yang lebih cepat?**  
 A: Terapkan penyederhanaan mesh, hapus vertex yang tidak terpakai, dan aktifkan kompresi Draco. Panduan “Optimizing and Working with 3D Mesh Data” memandu Anda melalui setiap langkah.
 
 ---
 
-**Terakhir Diperbarui:** 2026-04-03  
-**Diuji Dengan:** Aspose.3D for Java 24.12 (latest release)  
+**Terakhir Diperbarui:** 2026-08-02  
+**Diuji Dengan:** Aspose.3D for Java 24.12 (rilis terbaru)  
 **Penulis:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Tutorial Terkait
+
+- [Interpolasi Linear 3D - Cara Menganimasikan Adegan 3D di Java – Tambahkan Properti Animasi dengan Aspose.3D](/3d/java/animations/add-animation-properties-to-scenes/)
+- [Cara Menempatkan Kamera dan Menginisialisasi Adegan 3D di Java | Tutorial Aspose.3D](/3d/java/animations/set-up-target-camera/)
+- [Kurangi Ukuran File 3D – Kompres Adegan dengan Aspose.3D untuk Java](/3d/java/3d-scenes-and-models/compress-3d-scenes/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
