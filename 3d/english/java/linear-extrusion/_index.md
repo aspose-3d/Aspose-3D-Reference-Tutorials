@@ -1,6 +1,6 @@
 ---
-title: How to Extrude Shape - Creating 3D Models with Linear Extrusion in Java
-linktitle: Creating 3D Models with Linear Extrusion in Java
+title: Extrude Shapes with Aspose.3D for Java – Linear Extrusion Tutorial
+linktitle: Extrude Shapes with Aspose.3D for Java – Linear Extrusion Tutorial
 second_title: Aspose.3D Java API
 description: Learn how to extrude shape using Aspose.3D for Java. This java 3d modeling tutorial covers linear extrusion, center control, direction, slices, twist and more!
 weight: 23
@@ -13,14 +13,14 @@ keywords:
 - create solid from 2d
 schemas:
 - type: TechArticle
-  headline: How to Extrude Shape - Creating 3D Models with Linear Extrusion in Java
+  headline: Extrude Shapes with Aspose.3D for Java – Linear Extrusion Tutorial
   description: Learn how to extrude shape using Aspose.3D for Java. This java 3d modeling
     tutorial covers linear extrusion, center control, direction, slices, twist and
     more!
   dateModified: '2026-05-24'
   author: Aspose
 - type: HowTo
-  name: How to Extrude Shape - Creating 3D Models with Linear Extrusion in Java
+  name: Extrude Shapes with Aspose.3D for Java – Linear Extrusion Tutorial
   description: Learn how to extrude shape using Aspose.3D for Java. This java 3d modeling
     tutorial covers linear extrusion, center control, direction, slices, twist and
     more!
@@ -68,7 +68,7 @@ schemas:
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Extrude Shape – Creating 3D Models with Linear Extrusion in Java
+# Extrude Shapes with Aspose.3D for Java – Linear Extrusion Tutorial
 
 If you’ve ever wondered **how to extrude shape** in a Java application, you’re in the right place. In this tutorial we’ll walk through Aspose.3D for Java’s linear extrusion features, showing you how to turn simple 2‑D profiles into fully fledged 3‑D models. Whether you’re building a CAD‑style viewer, a game asset pipeline, or just experimenting with geometry, mastering linear extrusion will give you the confidence to create complex shapes with just a few lines of code.
 
@@ -112,6 +112,20 @@ Create a `Polygon` or `Polyline` that represents the shape you want to extrude.
 Ready to get started? [Perform Linear Extrusion Now](./performing-linear-extrusion/)  
 For a detailed tutorial, see [Performing Linear Extrusion in Aspose.3D for Java](./performing-linear-extrusion/).
 
+```java
+// Create a polygon profile
+Polygon profile = new Polygon();
+profile.addVertex(new Vector3(0, 0, 0));
+profile.addVertex(new Vector3(10, 0, 0));
+profile.addVertex(new Vector3(10, 5, 0));
+profile.addVertex(new Vector3(0, 5, 0));
+
+// Create extrusion
+Extrusion extrusion = new Extrusion(profile);
+extrusion.setDirection(new Vector3(0, 0, 20));
+extrusion.setSlices(20);
+```
+
 ### Step 2: Configure extrusion options
 Set the center, direction, slices, twist, and twist offset on an `Extrusion` object.  
 *The `Extrusion` class encapsulates all parameters needed to generate a 3‑D mesh from a 2‑D profile.*  
@@ -123,6 +137,13 @@ Instantiate a `Scene`, attach the extrusion mesh, and export to your desired for
 *`Scene` is the container that holds all 3‑D objects and handles exporting to various file formats.*  
 Ready to set the direction? [Explore Now](./setting-direction/)  
 Learn more about direction: [Setting Direction in Linear Extrusion with Aspose.3D for Java](./setting-direction/)
+
+```java
+// Add extrusion to scene and save
+Scene scene = new Scene();
+scene.getRootNode().addChild(extrusion);
+scene.save("extrudedShape.obj");
+```
 
 ### Step 4: Export or render
 Use `Scene.save()` to write the model to OBJ, STL, or any supported format.  

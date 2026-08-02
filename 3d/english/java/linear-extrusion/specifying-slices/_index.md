@@ -1,6 +1,6 @@
 ---
-title: Create 3D Extrusion with Slices – Aspose.3D for Java
-linktitle: Create 3D Extrusion with Slices – Aspose.3D for Java
+title: Create 3D Extrusion with Slices Using LinearExtrusion.setSlices – Aspose.3D for Java
+linktitle: Create 3D Extrusion with Slices Using LinearExtrusion.setSlices – Aspose.3D for Java
 second_title: Aspose.3D Java API
 description: Learn how to create 3d extrusion with slices using Aspose.3D for Java. This step‑by‑step guide covers linear extrusion, set rounding radius, and exporting OBJ.
 weight: 13
@@ -12,14 +12,14 @@ keywords:
 - linear extrusion Java
 schemas:
 - type: TechArticle
-  headline: Create 3D Extrusion with Slices – Aspose.3D for Java
+  headline: Create 3D Extrusion with Slices Using LinearExtrusion.setSlices – Aspose.3D for Java
   description: Learn how to create 3d extrusion with slices using Aspose.3D for Java.
     This step‑by‑step guide covers linear extrusion, set rounding radius, and exporting
     OBJ.
   dateModified: '2026-05-24'
   author: Aspose
 - type: HowTo
-  name: Create 3D Extrusion with Slices – Aspose.3D for Java
+  name: Create 3D Extrusion with Slices Using LinearExtrusion.setSlices – Aspose.3D for Java
   description: Learn how to create 3d extrusion with slices using Aspose.3D for Java.
     This step‑by‑step guide covers linear extrusion, set rounding radius, and exporting
     OBJ.
@@ -46,15 +46,15 @@ schemas:
 - type: FAQPage
   questions:
   - question: How can I download Aspose.3D for Java?
-    answer: You can download the library [here](https://releases.aspose.com/3d/java/).
+    answer: 'You can download the library [here](https://releases.aspose.com/3d/java/).'
   - question: Where can I find the documentation for Aspose.3D?
-    answer: Refer to the documentation [here](https://reference.aspose.com/3d/java/).
+    answer: 'Refer to the documentation [here](https://reference.aspose.com/3d/java/).'
   - question: Is there a free trial available?
-    answer: Yes, you can explore a free trial [here](https://releases.aspose.com/).
+    answer: 'Yes, you can explore a free trial [here](https://releases.aspose.com/).'
   - question: How can I get support for Aspose.3D?
-    answer: Visit the support forum [here](https://forum.aspose.com/c/3d/18).
+    answer: 'Visit the support forum [here](https://forum.aspose.com/c/3d/18).'
   - question: Can I purchase a temporary license?
-    answer: Yes, a temporary license can be obtained [here](https://purchase.aspose.com/temporary-license/).
+    answer: 'Yes, a temporary license can be obtained [here](https://purchase.aspose.com/temporary-license/).'
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -183,9 +183,9 @@ A: Yes, a temporary license can be obtained [here](https://purchase.aspose.com/t
 
 ## Related Tutorials
 
-- [Create 3D Extrusion Java with Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [How to Set Direction in Linear Extrusion with Aspose.3D for Java](/3d/java/linear-extrusion/setting-direction/)
-- [Create 3D Scene with Twist in Linear Extrusion – Aspose.3D for Java](/3d/java/linear-extrusion/applying-twist/)
+- [Create 3D Extrusion Java with Aspose.3D]({{< relref "../performing-linear-extrusion/_index.md" >}})
+- [How to Set Direction in Linear Extrusion with Aspose.3D for Java]({{< relref "../setting-direction/_index.md" >}})
+- [Create 3D Scene with Twist in Linear Extrusion – Aspose.3D for Java]({{< relref "../applying-twist/_index.md" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
