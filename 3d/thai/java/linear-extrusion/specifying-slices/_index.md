@@ -181,13 +181,6 @@ scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 **ทดสอบด้วย:** Aspose.3D for Java 24.11 (ล่าสุด ณ เวลาที่เขียน)  
 **ผู้เขียน:** Aspose
 
-## บทแนะนำที่เกี่ยวข้อง
-
-- [สร้างการดัน 3D ด้วย Java ด้วย Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [วิธีตั้งทิศทางในการดันเชิงเส้นด้วย Aspose.3D for Java](/3d/java/linear-extrusion/setting-direction/)
-- [สร้างฉาก 3D ด้วยการบิดในดันเชิงเส้น – Aspose.3D for Java](/3d/java/linear-extrusion/applying-twist/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

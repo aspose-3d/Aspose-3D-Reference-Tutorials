@@ -154,13 +154,6 @@ A: 前往 Aspose.3D 社群論壇 [here](https://forum.aspose.com/c/3d/18) 取得
 **測試環境：** Aspose.3D for Java 24.11  
 **作者：** Aspose
 
-## 相關教學
-
-- [如何在 Java 中對 3D 網格進行三角化並產生切線與雙法線資料](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [如何在 Java 中為 3D 網格新增法線（使用 Aspose.3D）](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [如何在 Java 中建立球體網格 – 使用 Google Draco 壓縮 3D 網格](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -159,13 +159,6 @@ A: เยี่ยมชมฟอรั่มชุมชน Aspose.3D [here](ht
 **ทดสอบด้วย:** Aspose.3D for Java 24.11  
 **ผู้เขียน:** Aspose
 
-## บทเรียนที่เกี่ยวข้อง
-
-- [วิธีทำการแปลงเมชและสร้างข้อมูล Tangent และ Binormal สำหรับเมช 3D ใน Java](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [วิธีเพิ่ม Normal ให้กับเมช 3D ใน Java (ใช้ Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [วิธีสร้างเมชทรงทรงกลมใน Java – บีบอัดเมช 3D ด้วย Google Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

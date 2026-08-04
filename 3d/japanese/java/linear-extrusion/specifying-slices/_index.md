@@ -180,13 +180,6 @@ A: はい、一時ライセンスは [here](https://purchase.aspose.com/temporar
 **テスト環境:** Aspose.3D for Java 24.11 (latest at time of writing)  
 **作者:** Aspose
 
-## 関連チュートリアル
-
-- [Aspose.3D を使用した Java での 3D 押し出しの作成](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [Aspose.3D for Java で線形押し出しの方向を設定する方法](/3d/java/linear-extrusion/setting-direction/)
-- [線形押し出しでツイストを加えた 3D シーンの作成 – Aspose.3D for Java](/3d/java/linear-extrusion/applying-twist/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

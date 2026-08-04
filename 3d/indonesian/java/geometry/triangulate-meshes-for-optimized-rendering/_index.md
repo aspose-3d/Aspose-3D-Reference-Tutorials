@@ -159,13 +159,6 @@ Dengan mengikuti langkah‑langkah di atas Anda kini tahu **cara men-triangulasi
 **Tested With:** Aspose.3D for Java 24.11  
 **Author:** Aspose
 
-## Tutorial Terkait
-
-- [Cara Men-triangulasi Mesh dan Menghasilkan Data Tangent dan Binormal untuk Mesh 3D di Java](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [Cara Menambahkan Normal ke Mesh 3D di Java (Menggunakan Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Cara Membuat Mesh Bola di Java – Mengompres Mesh 3D dengan Google Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

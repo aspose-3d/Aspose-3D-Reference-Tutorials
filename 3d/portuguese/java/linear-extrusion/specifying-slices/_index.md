@@ -183,13 +183,6 @@ A: Sim, uma licença temporária pode ser obtida [aqui](https://purchase.aspose.
 **Testado com:** Aspose.3D for Java 24.11 (mais recente no momento da escrita)  
 **Autor:** Aspose
 
-## Tutoriais Relacionados
-
-- [Criar Extrusão 3D Java com Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [Como Definir Direção na Extrusão Linear com Aspose.3D para Java](/3d/java/linear-extrusion/setting-direction/)
-- [Criar Cena 3D com Torção na Extrusão Linear – Aspose.3D para Java](/3d/java/linear-extrusion/applying-twist/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

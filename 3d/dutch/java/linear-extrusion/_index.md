@@ -36,12 +36,12 @@ schemas:
     text: 'Instantiate a `Scene`, attach the extrusion mesh, and export to your desired
       format. *`Scene` is the container that holds all 3‑D objects and handles exporting
       to various file formats.* Ready to set the direction? [Explore Now](./setting-direction/)
-      Learn more about direction: [Setting Direction in '
+      Learn more about direction: [Setting Direction]
   - name: Export or render
     text: 'Use `Scene.save()` to write the model to OBJ, STL, or any supported format.
       *`Scene.save()` writes the entire scene to the specified file format, applying
       any necessary post‑processing.* Start specifying slices: [Learn More](./specifying-slices/)
-      Detailed guide: [Specifying Slices in Linear Extrusio'
+      Detailed guide: [Specifying Slices in Linear Extrusio]
   type: HowTo
 - questions:
   - answer: Yes, a valid Aspose license is required for production use, but a free
@@ -175,14 +175,8 @@ A: Ja, de tutorials “Twist toepassen” en “Twist offset gebruiken” laten 
 **Getest met:** Aspose.3D for Java 24.11  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Gerelateerde tutorials
-
-- [Java 3D Graphics Tutorial – Center in Linear Extrusion](/3d/java/linear-extrusion/controlling-center/)
-- [Hoe de richting instellen in lineaire extrusie met Aspose.3D for Java](/3d/java/linear-extrusion/setting-direction/)
-- [Maak 3D-extrusie met slices – Aspose.3D for Java](/3d/java/linear-extrusion/specifying-slices/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -157,12 +157,6 @@ Seguindo as etapas acima, você agora sabe **como triangular malha** em Java com
 **Testado com:** Aspose.3D for Java 24.11  
 **Autor:** Aspose
 
-## Tutoriais Relacionados
-
-- [Como Triangular Malha e Gerar Dados de Tangente e Binormal para Malhas 3D em Java](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [Como Adicionar Normais a Malhas 3D em Java (Usando Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Como Criar Malha de Esfera em Java – Comprimir Malhas 3D com Google Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

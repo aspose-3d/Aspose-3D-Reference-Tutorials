@@ -157,12 +157,6 @@ A: サポートや議論は Aspose.3D コミュニティフォーラム [here](h
 **テスト環境:** Aspose.3D for Java 24.11  
 **作者:** Aspose
 
-## 関連チュートリアル
-
-- [Java でメッシュを三角形化し、接線とバイノーマル データを生成する方法](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [Java で 3D メッシュに法線を追加する方法 (Aspose.3D 使用)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Java で球体メッシュを作成する方法 – Google Draco で 3D メッシュを圧縮](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

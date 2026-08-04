@@ -158,13 +158,6 @@ Seguendo i passaggi sopra ora sai **come triangolare una mesh** in Java con Aspo
 **Testato con:** Aspose.3D for Java 24.11  
 **Autore:** Aspose
 
-## Tutorial correlati
-
-- [Come triangolare una mesh e generare dati tangente e binormale per mesh 3D in Java](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [Come aggiungere normali alle mesh 3D in Java (usando Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Come creare una mesh sferica in Java – comprimere mesh 3D con Google Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

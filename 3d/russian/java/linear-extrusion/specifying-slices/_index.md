@@ -183,13 +183,6 @@ scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 **Тестировано с:** Aspose.3D for Java 24.11 (latest at time of writing)  
 **Автор:** Aspose
 
-## Связанные руководства
-
-- [Создать 3D экструдирование Java с Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [Как задать направление в линейном экструдировании с Aspose.3D for Java](/3d/java/linear-extrusion/setting-direction/)
-- [Создать 3D сцену с круткой в линейном экструдировании – Aspose.3D for Java](/3d/java/linear-extrusion/applying-twist/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

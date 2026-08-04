@@ -183,12 +183,6 @@ A: Ja, een tijdelijke licentie kan worden verkregen [here](https://purchase.aspo
 **Getest met:** Aspose.3D for Java 24.11 (latest at time of writing)  
 **Auteur:** Aspose
 
-## Gerelateerde tutorials
-
-- [Maak 3D-extrusie Java met Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [Hoe richting instellen in lineaire extrusie met Aspose.3D voor Java](/3d/java/linear-extrusion/setting-direction/)
-- [Maak 3D-scène met twist in lineaire extrusie – Aspose.3D voor Java](/3d/java/linear-extrusion/applying-twist/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

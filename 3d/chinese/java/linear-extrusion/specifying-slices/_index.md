@@ -164,13 +164,13 @@ scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 答：您可以在 [here](https://releases.aspose.com/3d/java/) 下载库。
 
 **问：在哪里可以找到 Aspose.3D 的文档？**  
-答：请参阅文档 [here](https://reference.aspose.com/3d/java/)。
+答：请参阅文档 [here](https://reference.aspose.com/3d/java/)
 
 **问：是否提供免费试用？**  
 答：是的，您可以在 [here](https://releases.aspose.com/) 体验免费试用。
 
 **问：如何获取 Aspose.3D 的支持？**  
-答：访问支持论坛 [here](https://forum.aspose.com/c/3d/18)。
+答：访问支持论坛 [here](https://forum.aspose.com/c/3d/18)
 
 **问：我可以购买临时许可证吗？**  
 答：可以，临时许可证可在 [here](https://purchase.aspose.com/temporary-license/) 获取。
@@ -180,13 +180,6 @@ scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 **最后更新：** 2026-05-24  
 **测试环境：** Aspose.3D for Java 24.11（撰写时最新）  
 **作者：** Aspose
-
-## 相关教程
-
-- [Create 3D Extrusion Java with Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [How to Set Direction in Linear Extrusion with Aspose.3D for Java](/3d/java/linear-extrusion/setting-direction/)
-- [Create 3D Scene with Twist in Linear Extrusion – Aspose.3D for Java](/3d/java/linear-extrusion/applying-twist/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

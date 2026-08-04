@@ -156,12 +156,6 @@ Al seguir los pasos anteriores ahora sabes **cómo triangular malla** en Java co
 **Probado con:** Aspose.3D for Java 24.11  
 **Autor:** Aspose
 
-## Tutoriales relacionados
-
-- [Cómo triangular malla y generar datos de tangente y binormal para mallas 3D en Java](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [Cómo agregar normales a mallas 3D en Java (usando Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Cómo crear una malla de esfera en Java – Comprimir mallas 3D con Google Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -35,12 +35,12 @@ schemas:
     text: 'Instantiate a `Scene`, attach the extrusion mesh, and export to your desired
       format. *`Scene` is the container that holds all 3‑D objects and handles exporting
       to various file formats.* Ready to set the direction? [Explore Now](./setting-direction/)
-      Learn more about direction: [Setting Direction in '
+      Learn more about direction: [Setting Direction]
   - name: Export or render
     text: 'Use `Scene.save()` to write the model to OBJ, STL, or any supported format.
       *`Scene.save()` writes the entire scene to the specified file format, applying
       any necessary post‑processing.* Start specifying slices: [Learn More](./specifying-slices/)
-      Detailed guide: [Specifying Slices in Linear Extrusio'
+      Detailed guide: [Specifying Slices in Linear Extrusio]
   type: HowTo
 - questions:
   - answer: Yes, a valid Aspose license is required for production use, but a free
@@ -71,7 +71,7 @@ weight: 23
 
 # 모양을 압출하는 방법 – Java에서 선형 압출을 사용한 3D 모델 만들기
 
-If you’ve ever wondered **how to extrude shape** in a Java application, you’re in the right place. In this tutorial we’ll walk through Aspose.3D for Java’s linear extrusion features, showing you how to turn simple 2‑D profiles into fully fledged 3‑D models. Whether you’re building a CAD‑style viewer, a game asset pipeline, or just experimenting with geometry, mastering linear extrusion will give you the confidence to create complex shapes with just a few lines of code.
+Java 애플리케이션에서 **도형을 돌출시키는 방법**이 궁금하셨다면 제대로 찾아오셨습니다. 이 튜토리얼에서는 Aspose.3D for Java의 선형 돌출 기능을 단계별로 살펴보고 간단한 2D 프로파일을 완벽한 3D 모델로 변환하는 방법을 보여드리겠습니다. CAD 스타일 뷰어를 구축하든, 게임 에셋 파이프라인을 만들든, 아니면 단순히 형상 실험을 하든, 선형 돌출 기능을 익히면 단 몇 줄의 코드로 복잡한 형상을 자신 있게 만들 수 있을 것입니다.
 
 ## 빠른 답변
 - **선형 압출이란?** 2‑D 스케치를 방향을 따라 연장하여 3‑D 솔리드로 만드는 것입니다.  
@@ -175,15 +175,9 @@ A: 예, “Applying Twist”와 “Using Twist Offset” 튜토리얼에서 동�
 **테스트 환경:** Aspose.3D for Java 24.11  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## 관련 튜토리얼
-
-- [Java 3D 그래픽 튜토리얼 – 선형 압출에서 Center](/3d/java/linear-extrusion/controlling-center/)
-- [Aspose.3D for Java와 함께하는 선형 압출에서 방향 설정 방법](/3d/java/linear-extrusion/setting-direction/)
-- [Aspose.3D for Java – 슬라이스를 사용한 3D 압출 만들기](/3d/java/linear-extrusion/specifying-slices/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

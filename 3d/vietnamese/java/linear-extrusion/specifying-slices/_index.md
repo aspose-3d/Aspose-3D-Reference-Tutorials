@@ -180,13 +180,6 @@ A: Có, giấy phép tạm thời có thể được mua [tại đây](https://p
 **Kiểm tra với:** Aspose.3D cho Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
 **Tác giả:** Aspose
 
-## Hướng dẫn liên quan
-
-- [Tạo 3D Extrusion Java với Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [Cách Đặt Hướng trong Linear Extrusion với Aspose.3D cho Java](/3d/java/linear-extrusion/setting-direction/)
-- [Tạo Cảnh 3D với Twist trong Linear Extrusion – Aspose.3D cho Java](/3d/java/linear-extrusion/applying-twist/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

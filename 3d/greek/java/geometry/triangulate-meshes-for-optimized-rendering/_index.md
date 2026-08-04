@@ -159,13 +159,6 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 **Tested With:** Aspose.3D for Java 24.11  
 **Author:** Aspose
 
-## Σχετικά Σεμινάρια
-
-- [Πώς να τριγωνίσετε το πλέγμα και να δημιουργήσετε δεδομένα εφαπτομένης και διπλής κανονικής για 3D πλέγματα σε Java](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [Πώς να προσθέσετε κανονικές σε 3D πλέγματα σε Java (χρησιμοποιώντας Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Πώς να δημιουργήσετε σφαίρα πλέγμα σε Java – Συμπίεση 3D πλεγμάτων με Google Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

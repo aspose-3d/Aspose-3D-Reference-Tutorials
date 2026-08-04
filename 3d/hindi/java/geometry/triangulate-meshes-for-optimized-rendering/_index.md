@@ -158,13 +158,6 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 **परीक्षण किया गया:** Aspose.3D for Java 24.11  
 **लेखक:** Aspose
 
-## संबंधित ट्यूटोरियल
-
-- [जावा में 3D मेष के लिए मेष को त्रिकोणीय बनाना और टैन्जेंट व बाइनॉर्मल डेटा उत्पन्न करना कैसे करें](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [जावा में 3D मेष में नॉर्मल जोड़ना कैसे (Aspose.3D का उपयोग करके)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [जावा में स्पीयर मेष बनाना – Google Draco के साथ 3D मेष को संपीड़ित करना](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

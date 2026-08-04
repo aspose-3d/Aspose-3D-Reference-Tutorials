@@ -183,13 +183,6 @@ A: Ναι, μια προσωρινή άδεια μπορεί να ληφθεί [
 **Δοκιμή με:** Aspose.3D for Java 24.11 (latest at time of writing)  
 **Συγγραφέας:** Aspose
 
-## Σχετικά Μαθήματα
-
-- [Δημιουργία 3D Extrusion Java με Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [Πώς να ορίσετε κατεύθυνση σε γραμμική εξώθηση με Aspose.3D for Java](/3d/java/linear-extrusion/setting-direction/)
-- [Δημιουργία 3D Σκηνής με Twist σε γραμμική εξώθηση – Aspose.3D for Java](/3d/java/linear-extrusion/applying-twist/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

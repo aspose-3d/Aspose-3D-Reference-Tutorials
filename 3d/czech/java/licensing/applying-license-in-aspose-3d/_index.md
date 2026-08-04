@@ -196,15 +196,9 @@ Metered metered = new Metered();
 metered.setMeteredKey("your-public-key", "your-private-key");
 ```
 
-{{< blocks/products/products-backtop-button >}}
-
-## Související tutoriály
-
-- [Postupný průvodce licencí pro Aspose.3D Java](/3d/java/licensing/)
-- [Vytvořte 3D scénu v Javě s Aspose 3D Java](/3d/java/3d-scenes-and-models/)
-- [Vytvořte 3D krychli, aplikujte PBR materiály v Javě s Aspose.3D](/3d/java/geometry/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

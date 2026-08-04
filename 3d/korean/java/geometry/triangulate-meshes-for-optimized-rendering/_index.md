@@ -156,12 +156,6 @@ A: 지원 및 토론을 위해 Aspose.3D 커뮤니티 포럼을 [여기](https:/
 **테스트 환경:** Aspose.3D for Java 24.11  
 **작성자:** Aspose
 
-## 관련 튜토리얼
-
-- [Java에서 메쉬를 삼각분할하고 탄젠트 및 바이노멀 데이터를 생성하는 방법](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [Java에서 3D 메쉬에 노멀 추가하기 (Aspose.3D 사용)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Java에서 구형 메쉬 생성 – Google Draco로 3D 메쉬 압축](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -157,13 +157,6 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 **تم الاختبار مع:** Aspose.3D for Java 24.11  
 **المؤلف:** Aspose
 
-## دروس ذات صلة
-
-- [كيفية تقطيع الشبكة وتوليد بيانات الظل المماسية والثنائية للـ 3D Meshes في Java](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [كيفية إضافة القواعد إلى شبكات 3D في Java (باستخدام Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [كيفية إنشاء شبكة كرة في Java – ضغط شبكات 3D باستخدام Google Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

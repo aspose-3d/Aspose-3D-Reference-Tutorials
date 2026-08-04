@@ -159,13 +159,6 @@ Postępując zgodnie z powyższymi krokami, teraz wiesz **jak triangulować siat
 **Testowano z:** Aspose.3D for Java 24.11  
 **Autor:** Aspose
 
-## Powiązane samouczki
-
-- [Jak triangulować siatkę i generować dane tangensów oraz binormali dla siatek 3D w Javie](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [Jak dodać normalne do siatek 3D w Javie (z użyciem Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Jak stworzyć siatkę sfery w Javie – kompresować siatki 3D przy użyciu Google Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

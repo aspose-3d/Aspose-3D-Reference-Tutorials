@@ -158,13 +158,6 @@ Podle výše uvedených kroků nyní víte **jak triangulovat síť** v Javě s 
 **Testováno s:** Aspose.3D for Java 24.11  
 **Autor:** Aspose
 
-## Související tutoriály
-
-- [Jak triangulovat síť a generovat data tangent a binormál pro 3D sítě v Javě](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [Jak přidat normály do 3D sítí v Javě (pomocí Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Jak vytvořit sférickou síť v Javě – komprimovat 3D sítě pomocí Google Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

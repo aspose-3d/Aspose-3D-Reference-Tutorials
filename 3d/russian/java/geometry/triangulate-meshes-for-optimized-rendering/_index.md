@@ -158,13 +158,6 @@ scene.save(MyDir, FileFormat.FBX7400ASCII);
 **Тестировано с:** Aspose.3D for Java 24.11  
 **Автор:** Aspose
 
-## Связанные руководства
-
-- [Как триангулировать сетку и генерировать тангенты и бинормали для 3D‑сеток в Java](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [Как добавить нормали к 3D‑сеткам в Java (используя Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Как создать сферическую сетку в Java – сжатие 3D‑сеток с помощью Google Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

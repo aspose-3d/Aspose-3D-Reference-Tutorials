@@ -197,15 +197,9 @@ Metered metered = new Metered();
 metered.setMeteredKey("your-public-key", "your-private-key");
 ```
 
-{{< blocks/products/products-backtop-button >}}
-
-## Σχετικά Μαθήματα
-
-- [Οδηγός Άδειας βήμα-βήμα για Aspose.3D Java](/3d/java/licensing/)
-- [Δημιουργία 3D Σκηνής Java με Aspose 3D Java](/3d/java/3d-scenes-and-models/)
-- [Δημιουργία 3D Κύβου, Εφαρμογή Υλικών PBR σε Java με Aspose.3D](/3d/java/geometry/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

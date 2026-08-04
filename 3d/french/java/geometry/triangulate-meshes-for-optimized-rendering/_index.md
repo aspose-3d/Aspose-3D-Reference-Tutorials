@@ -157,13 +157,6 @@ En suivant les étapes ci‑dessus, vous savez maintenant **comment trianguler u
 **Testé avec:** Aspose.3D for Java 24.11  
 **Auteur:** Aspose
 
-## Tutoriels associés
-
-- [Comment trianguler un maillage et générer les données de tangente et binormale pour les maillages 3D en Java](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [Comment ajouter des normales aux maillages 3D en Java (avec Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Comment créer un maillage sphère en Java – compresser les maillages 3D avec Google Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

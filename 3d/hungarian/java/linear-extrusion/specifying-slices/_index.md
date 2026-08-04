@@ -183,13 +183,6 @@ A: Igen, ideiglenes licencet szerezhetsz [itt](https://purchase.aspose.com/tempo
 **Tesztelve a következővel:** Aspose.3D for Java 24.11 (legújabb a megírás időpontjában)  
 **Szerző:** Aspose
 
-## Kapcsolódó útmutatók
-
-- [3D Extrudálás létrehozása Java-val az Aspose.3D segítségével](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [Hogyan állítsuk be az irányt lineáris extrudálásnál az Aspose.3D for Java használatával](/3d/java/linear-extrusion/setting-direction/)
-- [3D jelenet létrehozása csavarral lineáris extrudálásban – Aspose.3D for Java](/3d/java/linear-extrusion/applying-twist/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

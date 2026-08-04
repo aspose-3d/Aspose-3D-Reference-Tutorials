@@ -36,12 +36,12 @@ schemas:
     text: 'Instantiate a `Scene`, attach the extrusion mesh, and export to your desired
       format. *`Scene` is the container that holds all 3‑D objects and handles exporting
       to various file formats.* Ready to set the direction? [Explore Now](./setting-direction/)
-      Learn more about direction: [Setting Direction in '
+      Learn more about direction: [Setting Direction]
   - name: Export or render
     text: 'Use `Scene.save()` to write the model to OBJ, STL, or any supported format.
       *`Scene.save()` writes the entire scene to the specified file format, applying
       any necessary post‑processing.* Start specifying slices: [Learn More](./specifying-slices/)
-      Detailed guide: [Specifying Slices in Linear Extrusio'
+      Detailed guide: [Specifying Slices in Linear Extrusio]
   type: HowTo
 - questions:
   - answer: Yes, a valid Aspose license is required for production use, but a free
@@ -177,14 +177,8 @@ Aspose.3D يدعم **أكثر من 50 تنسيقًا** للإدخال والإخ
 **تم الاختبار مع:** Aspose.3D لجافا 24.11  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## دروس ذات صلة
-
-- [دروس جافا 3D – التحكم بالمركز في البثق الخطي](/3d/java/linear-extrusion/controlling-center/)
-- [كيفية ضبط الاتجاه في البثق الخطي باستخدام Aspose.3D لجافا](/3d/java/linear-extrusion/setting-direction/)
-- [إنشاء بُثق ثلاثي الأبعاد مع الشرائح – Aspose.3D لجافا](/3d/java/linear-extrusion/specifying-slices/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

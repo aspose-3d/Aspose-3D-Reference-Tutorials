@@ -183,13 +183,6 @@ A: Ja, en tillfällig licens kan erhållas [här](https://purchase.aspose.com/te
 **Testad med:** Aspose.3D för Java 24.11 (senaste vid skrivtillfället)  
 **Författare:** Aspose
 
-## Relaterade handledningar
-
-- [Skapa 3D-extrudering Java med Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [Hur man anger riktning i linjär extrudering med Aspose.3D för Java](/3d/java/linear-extrusion/setting-direction/)
-- [Skapa 3D-scen med vridning i linjär extrudering – Aspose.3D för Java](/3d/java/linear-extrusion/applying-twist/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,5 +1,5 @@
 ---
-title: 'Java 3D CAD: Perform Linear Extrusion with Aspose.3D'
+title: 'Java 3D CAD - Perform Linear Extrusion with Aspose.3D'
 linktitle: Perform Linear Extrusion with Aspose.3D
 second_title: Aspose.3D Java API
 description: Learn how to create java 3d cad models using Aspose.3D, perform linear extrusion, and export obj java files for high‑quality 3D assets.
@@ -144,14 +144,9 @@ A: Yes, download a trial build from the releases page [here](https://releases.as
 **Tested With:** Aspose.3D 24.12 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
-## Related Tutorials
-
-- {{< relref "/3d/java/linear-extrusion/setting-direction/_index.md" >}}How to Set Direction in Linear Extrusion with Aspose.3D for Java{{< /relref >}}
-- {{< relref "/3d/java/linear-extrusion/specifying-slices/_index.md" >}}Create 3D Extrusion with Slices – Aspose.3D for Java{{< /relref >}}
-- {{< relref "/3d/java/linear-extrusion/applying-twist/_index.md" >}}Create 3D Scene with Twist in Linear Extrusion – Aspose.3D for Java{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

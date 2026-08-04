@@ -158,13 +158,6 @@ Durch das Befolgen der obigen Schritte wissen Sie jetzt **wie man Mesh in Java m
 **Getestet mit:** Aspose.3D für Java 24.11  
 **Autor:** Aspose
 
-## Verwandte Tutorials
-
-- [How to Triangulate Mesh and Generate Tangent and Binormal Data for 3D Meshes in Java](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [How to Add Normals to 3D Meshes in Java (Using Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [How to Create Sphere Mesh in Java – Compress 3D Meshes with Google Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

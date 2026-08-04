@@ -162,29 +162,23 @@ scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 ## 자주 묻는 질문
 
 **Q: Aspose.3D for Java를 어떻게 다운로드하나요?**  
-A: 라이브러리를 [here](https://releases.aspose.com/3d/java/)에서 다운로드할 수 있습니다.
+A: 라이브러리를 [here](https://releases.aspose.com/3d/java/) 에서 다운로드할 수 있습니다.
 
 **Q: Aspose.3D 문서는 어디에서 찾을 수 있나요?**  
-A: 문서는 [here](https://reference.aspose.com/3d/java/)에서 확인하십시오.
+A: 문서는 [here](https://reference.aspose.com/3d/java/) 에서 확인하십시오.
 
 **Q: 무료 체험판을 이용할 수 있나요?**  
-A: 예, 무료 체험판은 [here](https://releases.aspose.com/)에서 확인할 수 있습니다.
+A: 예, 무료 체험판은 [here](https://releases.aspose.com/ )에서 확인할 수 있습니다.
 
 **Q: Aspose.3D 지원을 어떻게 받을 수 있나요?**  
-A: 지원 포럼은 [here](https://forum.aspose.com/c/3d/18)에서 방문하십시오.
+A: 지원 포럼은 [here](https://forum.aspose.com/c/3d/18) 에서 방문하십시오.
 
 **Q: 임시 라이선스를 구매할 수 있나요?**  
-A: 예, 임시 라이선스는 [here](https://purchase.aspose.com/temporary-license/)에서 구입할 수 있습니다.
+A: 예, 임시 라이선스는 [here](https://purchase.aspose.com/temporary-license/) 에서 구입할 수 있습니다.
 
 **마지막 업데이트:** 2026-05-24  
 **테스트 환경:** Aspose.3D for Java 24.11 (작성 시 최신 버전)  
 **작성자:** Aspose
-
-## 관련 튜토리얼
-
-- [Aspose.3D를 사용한 Java 3D 압출 만들기](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [Aspose.3D for Java로 선형 압출 방향 설정 방법](/3d/java/linear-extrusion/setting-direction/)
-- [선형 압출에서 트위스트가 적용된 3D 씬 만들기 – Aspose.3D for Java](/3d/java/linear-extrusion/applying-twist/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

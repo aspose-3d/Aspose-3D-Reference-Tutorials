@@ -158,13 +158,6 @@ Yukarıdaki adımları izleyerek artık **Java ile Aspose.3D'de mesh'i nasıl ü
 **Test Edilen Versiyon:** Aspose.3D for Java 24.11  
 **Yazar:** Aspose
 
-## İlgili Eğitimler
-
-- [Java'da Mesh'i Üçgenleştirme ve Tangent ve Binormal Verileri Oluşturma](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [Java'da 3D Mesh'lere Normal Ekleme (Aspose.3D Kullanarak)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Java'da Küre Mesh Oluşturma – Google Draco ile 3D Mesh'leri Sıkıştırma](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

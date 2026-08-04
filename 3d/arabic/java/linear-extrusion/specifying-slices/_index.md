@@ -183,13 +183,6 @@ scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 **تم الاختبار مع:** Aspose.3D for Java 24.11 (latest at time of writing)  
 **المؤلف:** Aspose
 
-## الدروس ذات الصلة
-
-- [إنشاء استخراج ثلاثي الأبعاد Java مع Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [كيفية ضبط الاتجاه في استخراج خطي باستخدام Aspose.3D for Java](/3d/java/linear-extrusion/setting-direction/)
-- [إنشاء مشهد ثلاثي الأبعاد مع التواء في استخراج خطي – Aspose.3D for Java](/3d/java/linear-extrusion/applying-twist/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

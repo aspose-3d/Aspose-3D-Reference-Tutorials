@@ -181,13 +181,6 @@ C: Yes, a temporary license can be obtained [here](https://purchase.aspose.com/t
 **Test Edilen Versiyon:** Aspose.3D for Java 24.11 (latest at time of writing)  
 **Yazar:** Aspose
 
-## İlgili Eğitimler
-
-- [Aspose.3D ile Java’da 3D Ekstrüzyon Oluşturma](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [Aspose.3D for Java ile Lineer Ekstrüzyonda Yön Nasıl Ayarlanır](/3d/java/linear-extrusion/setting-direction/)
-- [Aspose.3D for Java – Lineer Ekstrüzyonda Burulma ile 3D Sahne Oluşturma](/3d/java/linear-extrusion/applying-twist/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

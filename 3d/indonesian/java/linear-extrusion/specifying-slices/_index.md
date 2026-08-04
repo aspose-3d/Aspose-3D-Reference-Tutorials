@@ -183,13 +183,6 @@ A: Ya, lisensi sementara dapat diperoleh [here](https://purchase.aspose.com/temp
 **Diuji Dengan:** Aspose.3D for Java 24.11 (terbaru pada saat penulisan)  
 **Penulis:** Aspose
 
-## Tutorial Terkait
-
-- [Buat Ekstrusi 3D Java dengan Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [Cara Mengatur Arah dalam Ekstrusi Linear dengan Aspose.3D untuk Java](/3d/java/linear-extrusion/setting-direction/)
-- [Buat Adegan 3D dengan Twist dalam Ekstrusi Linear – Aspose.3D untuk Java](/3d/java/linear-extrusion/applying-twist/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -181,13 +181,6 @@ scene.save(MyDir + "SlicesInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 **測試環境：** Aspose.3D for Java 24.11（撰寫時最新）  
 **作者：** Aspose
 
-## 相關教學
-
-- [使用 Aspose.3D 建立 3D 拉伸 Java](/3d/java/linear-extrusion/performing-linear-extrusion/)
-- [如何在 Aspose.3D for Java 中設定線性拉伸方向](/3d/java/linear-extrusion/setting-direction/)
-- [使用扭轉在 Aspose.3D for Java 中建立 3D 場景](/3d/java/linear-extrusion/applying-twist/)
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

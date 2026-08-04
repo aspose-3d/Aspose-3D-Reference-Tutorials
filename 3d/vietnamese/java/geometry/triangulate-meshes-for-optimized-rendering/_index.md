@@ -147,11 +147,6 @@ Bằng cách thực hiện các bước trên, bạn đã biết **cách tam gi�
 **Kiểm tra với:** Aspose.3D for Java 24.11  
 **Tác giả:** Aspose
 
-## Hướng dẫn liên quan
-- [Cách tam giác hoá Mesh và tạo dữ liệu Tangent và Binormal cho Mesh 3D trong Java](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
-- [Cách thêm Normals vào Mesh 3D trong Java (Sử dụng Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
-- [Cách tạo Mesh hình cầu trong Java – Nén Mesh 3D bằng Google Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
