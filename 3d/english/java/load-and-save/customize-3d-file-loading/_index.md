@@ -54,105 +54,101 @@ import java.io.IOException;
 ## How to customize 3D import with LoadOptions
 
 Below are step‑by‑step code snippets that demonstrate how to enable the **flip coordinate system** option for each supported format. The snippets are ready to copy into your project; just replace `"Your Document Directory"` with the actual path to your assets.
-
 ### Step 1: Customize 3DS File Loading
 
 ```java
-public static void discreet3DSLoadOption() {
-    String MyDir = "Your Document Directory";
-    Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
-    loadOpts.setApplyAnimationTransform(true);
-    loadOpts.setFlipCoordinateSystem(true);
-    loadOpts.setGammaCorrectedColor(true);
-    loadOpts.getLookupPaths().add(MyDir);
-}
-```
-
-### Step 2: Customize OBJ File Loading
+// ExStart:discreet3DSLoadOption
+String MyDir = "Your Document Directory";
+Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
+loadOpts.setApplyAnimationTransform(true);
+loadOpts.setFlipCoordinateSystem(true);
+loadOpts.setGammaCorrectedColor(true);
+loadOpts.getLookupPaths().add(MyDir);
+// ExEnd:discreet3DSLoadOption
+````### Step 2: Customize OBJ File Loading
 
 ```java
-public static void objLoadOption() {
-    String MyDir = "Your Document Directory";
-    ObjLoadOptions loadObjOpts = new ObjLoadOptions();
-    loadObjOpts.setEnableMaterials(true);
-    loadObjOpts.setFlipCoordinateSystem(true);
-    loadObjOpts.getLookupPaths().add(MyDir);
-}
-```
+// ExStart:objLoadOption
+String MyDir = "Your Document Directory";
+ObjLoadOptions loadObjOpts = new ObjLoadOptions();
+loadObjOpts.setEnableMaterials(true);
+loadObjOpts.setFlipCoordinateSystem(true);
+loadObjOpts.getLookupPaths().add(MyDir);
+// ExEnd:objLoadOption
+````
 
 ### Step 3: Customize STL File Loading
 
 ```java
-public static void stlLoadOption() {
-    String MyDir = "Your Document Directory";
-    StlLoadOptions loadSTLOpts = new StlLoadOptions();
-    loadSTLOpts.setFlipCoordinateSystem(true);
-    loadSTLOpts.getLookupPaths().add(MyDir);
-}
-```
+// ExStart:stlLoadOption
+String MyDir = "Your Document Directory";
+StlLoadOptions loadSTLOpts = new StlLoadOptions();
+loadSTLOpts.setFlipCoordinateSystem(true);
+loadSTLOpts.getLookupPaths().add(MyDir);
+// ExEnd:stlLoadOption
+````
 
 ### Step 4: Customize U3D File Loading
 
 ```java
-public static void u3dLoadOption() {
-    String MyDir = "Your Document Directory";
-    U3dLoadOptions loadU3DOpts = new U3dLoadOptions();
-    loadU3DOpts.setFlipCoordinateSystem(true);
-    loadU3DOpts.getLookupPaths().add(MyDir);
-}
-```
+// ExStart:u3dLoadOption
+String MyDir = "Your Document Directory";
+U3dLoadOptions loadU3DOpts = new U3dLoadOptions();
+loadU3DOpts.setFlipCoordinateSystem(true);
+loadU3DOpts.getLookupPaths().add(MyDir);
+// ExEnd:u3dLoadOption
+````
 
 ### Step 5: Customize glTF File Loading
 
 ```java
-public static void gltfLoadOptions() throws IOException {
-    String MyDir = "Your Document Directory";
-    Scene scene = new Scene();
-    GltfLoadOptions loadOpt = new GltfLoadOptions();
-    loadOpt.setFlipTexCoordV(true);
-    scene.open(MyDir + "Duck.gltf", loadOpt);
-}
-```
+// ExStart:gltfLoadOptions
+String MyDir = "Your Document Directory";
+Scene scene = new Scene();
+GltfLoadOptions loadOpt = new GltfLoadOptions();
+loadOpt.setFlipTexCoordV(true);
+scene.open(MyDir + "Duck.gltf", loadOpt);
+// ExEnd:gltfLoadOptions
+````
 
 ### Step 6: Customize PLY File Loading
 
 ```java
-public static void plyLoadOptions() throws IOException {
-    String MyDir = "Your Document Directory";
-    Scene scene = new Scene();
-    PlyLoadOptions loadPLYOpts = new PlyLoadOptions();
-    loadPLYOpts.setFlipCoordinateSystem(true);
-    scene.open(MyDir + "vase-v2.ply", loadPLYOpts);
-}
-```
+// ExStart:plyLoadOptions
+String MyDir = "Your Document Directory";
+Scene scene = new Scene();
+PlyLoadOptions loadPLYOpts = new PlyLoadOptions();
+loadPLYOpts.setFlipCoordinateSystem(true);
+scene.open(MyDir + "vase-v2.ply", loadPLYOpts);
+// ExEnd:plyLoadOptions
+````
 
 ### Step 7: Customize X File Loading
 
 ```java
-public static void xLoadOptions() throws IOException {
-    String MyDir = "Your Document Directory";
-    Scene scene = new Scene();
-    XLoadOptions loadXOpts = new XLoadOptions(FileContentType.ASCII);
-    loadXOpts.setFlipCoordinateSystem(true);
-    scene.open(MyDir + "warrior.x", loadXOpts);
-}
-```
+// ExStart:xLoadOptions
+String MyDir = "Your Document Directory";
+Scene scene = new Scene();
+XLoadOptions loadXOpts = new XLoadOptions(FileContentType.ASCII);
+loadXOpts.setFlipCoordinateSystem(true);
+scene.open(MyDir + "warrior.x", loadXOpts);
+// ExEnd:xLoadOptions
+````
 
 ### Step 8: Customize FBX File Loading (Optional)
 
 ```java
-private static void FBXLoadOptions() throws IOException {
-    String dataDir = "Your Document Directory";
-    Scene scene = new Scene();
-    FbxLoadOptions opt = new FbxLoadOptions();
-    opt.setKeepBuiltinGlobalSettings(true);
-    scene.open(dataDir + "test.FBX", opt);
-    for(Property property:scene.getRootNode().getAssetInfo().getProperties()) {
-        System.out.println(property);
-    }
+// ExStart:FBXLoadOptions
+String dataDir = "Your Document Directory";
+Scene scene = new Scene();
+FbxLoadOptions opt = new FbxLoadOptions();
+opt.setKeepBuiltinGlobalSettings(true);
+scene.open(dataDir + "test.FBX", opt);
+for(Property property:scene.getRootNode().getAssetInfo().getProperties()) {
+    System.out.println(property);
 }
-```
-
+// ExEnd:FBXLoadOptions
+````
 ## Common Issues and Solutions
 - **Model appears mirrored after loading** – Verify that `setFlipCoordinateSystem(true)` is set for the correct format.  
 - **Materials are missing** – For OBJ files, ensure `setEnableMaterials(true)` and that the material files (.mtl) are located in one of the lookup paths.  

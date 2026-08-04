@@ -88,11 +88,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 ```
 
-The `License` class is responsible for loading a `.lic` file and applying it globally, while the `Metered` class enables cloud‑based metered licensing by validating public and private keys against Aspose’s licensing server.
-
-## How to apply a license from a file?
-
-Load your license directly from a `.lic` file on disk. This method is the most straightforward approach for desktop or on‑premises applications, and it ensures that the license is read once at startup and cached for the lifetime of the JVM, eliminating any runtime overhead after the initial load.
+## Applying a License Using a File
 
 ### Step 1: Create a `License` object
 Instantiate the `License` class; this prepares the runtime to accept a license file.
@@ -101,10 +97,9 @@ Instantiate the `License` class; this prepares the runtime to accept a license f
 Provide the absolute or relative path to your `.lic` file and call `setLicense`. The method returns `void`, and the license is cached after the first successful call, so subsequent calls are inexpensive.
 
 ```java
-License license = new License();
-license.setLicense("Aspose.3D.lic");
+license.setLicense("Aspose._3D.lic");
 ```
-
+ 
 ## How to apply a license from a stream?
 
 Streaming a license is useful when the file is embedded as a resource, stored in a secure location, or retrieved from a remote service at runtime. By using an `InputStream`, you avoid exposing the physical file path and can keep the license data encrypted or packaged inside your JAR, enhancing security while still allowing the library to read the license bytes.
@@ -112,19 +107,28 @@ Streaming a license is useful when the file is embedded as a resource, stored in
 ### Step 1: Create a `License` object
 As before, start by creating an instance of the `License` class.
 
-### Step 2: Load the license via `FileInputStream`
-Open a `FileInputStream` pointing to your `.lic` file (or any `InputStream`) and pass it to `setLicense`. The stream is read once and then closed automatically.
+```java
+License license2 = new License();
+```
+
+### Step 2: Set License from Stream Object
+
+Utilize a `FileInputStream` to create a stream and set the license:
 
 ```java
-try (FileInputStream stream = new FileInputStream("Aspose.3D.lic")) {
-    License license = new License();
-    license.setLicense(stream);
-}
-```
+ try (FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
+     license2.setLicense(myStream);
+ }
+ 
+ ```
 
 ## How to use public and private keys for metered licensing?
 
-Metered licensing lets you activate Aspose.3D without a physical `.lic` file, using keys issued by Aspose’s cloud service. This approach is ideal for SaaS or cloud‑based deployments where managing license files on each instance is impractical; the library contacts Aspose’s metering server once to validate the keys and then caches the result for the session.
+Initialize a `Metered` license object:
+
+ ````java
+ Metered metered = new Metered();
+ ````
 
 ### Step 1: Initialize a `Metered` license object
 The `Metered` class represents a cloud‑based license that validates usage against Aspose’s metering server.
@@ -132,10 +136,12 @@ The `Metered` class represents a cloud‑based license that validates usage agai
 ### Step 2: Set public and private keys
 Call `setMeteredKey(publicKey, privateKey)` with the keys you received when you purchased a metered license. The library contacts the server once to verify the keys and then caches the result.
 
-```java
-Metered metered = new Metered();
-metered.setMeteredKey("your-public-key", "your-private-key");
-```
+ ````java
+ metered.setMeteredKey("your-public-key", "your-private-key");
+ ````
+## Why Setting the License Matters
+
+Applying the correct license removes evaluation watermarks, unlocks premium file formats, and ensures compliance with Aspose’s licensing model. Using the appropriate method (file, stream, or metered) lets you integrate licensing seamlessly into CI/CD pipelines, cloud deployments, or desktop applications.
 
 ## Common Issues & Tips
 

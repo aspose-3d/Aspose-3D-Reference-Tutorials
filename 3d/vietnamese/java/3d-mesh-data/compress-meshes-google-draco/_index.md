@@ -1,10 +1,15 @@
 ---
-date: 2026-01-27
-description: Tìm hiểu cách tạo lưới hình cầu trong Java và nén các tệp lưới 3D bằng
-  Google Draco với Aspose.3D. Hướng dẫn từng bước để phát triển 3D hiệu quả.
-linktitle: How to Create Sphere Mesh in Java – Compress 3D Meshes with Google Draco
+date: 2026-04-29
+description: Tìm hiểu cách giảm kích thước mô hình 3D bằng cách tạo lưới hình cầu
+  trong Java và nén nó bằng Google Draco sử dụng Aspose.3D – cần thiết cho việc xuất
+  Aspose 3D.
+keywords:
+- reduce 3d model size
+- aspose 3d export
+- compress 3d mesh java
+linktitle: Cách tạo lưới hình cầu trong Java – Nén lưới 3D bằng Google Draco
 second_title: Aspose.3D Java API
-title: Cách tạo lưới hình cầu trong Java – Nén lưới 3D bằng Google Draco
+title: 'Giảm kích thước mô hình 3D: Tạo lưới hình cầu trong Java bằng Draco'
 url: /vi/java/3d-mesh-data/compress-meshes-google-draco/
 weight: 10
 ---
@@ -13,63 +18,37 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Tạo Sphere Mesh trong Java – Nén Lưới 3D bằng Google Draco
+# Giảm Kích Thước Mô Hình 3D: Tạo Lưới Hình Cầu trong Java với Draco
 
-## Introduction
+## Giới thiệu
 
-Nếu bạn đang tìm kiếm **cách tạo sphere** mesh trong Java trong khi giữ kích thước tệp nhỏ, bạn đã đến đúng nơi. Trong hướng dẫn này chúng tôi sẽ hướng dẫn cách sử dụng **Aspose.3D** cùng với **Google Draco** để **nén dữ liệu mesh 3D** một cách hiệu quả. Khi hoàn thành, bạn sẽ có một sphere mesh sẵn sàng sử dụng được lưu dưới dạng tệp `.drc` đã nén bằng Draco, tải nhanh hơn và tiêu thụ băng thông ít hơn trong bất kỳ ứng dụng 3D nào dựa trên Java.
-Nếu bạn đang tìm kiếm **cách tạo hình cầu** lưới trong Java trong khi giữ kích thước tệp nhỏ, thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách sử dụng **Aspose.3D** cùng với **GoogleDraco** để **nén dữ liệu lưới 3D** một cách hiệu quả. Khi hoàn tất, bạn sẽ có sẵn một hình cầu lưới có sẵn để sử dụng được lưu dưới dạng tệp `.drc` được nén bằng Draco, tải nhanh hơn và tiêu thụ băng thông tin ít hơn trong bất kỳ ứng dụng 3D nào dựa trên Java.
+Nếu bạn đang tìm kiếm một cách nhanh chóng để **giảm kích thước mô hình 3D** đồng thời vẫn cung cấp hình học chất lượng cao, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng ta sẽ tạo một lưới hình cầu bằng **Aspose.3D for Java** và sau đó nén lưới đó bằng **Google Draco**. Khi hoàn thành, bạn sẽ có một tệp `.drc` sẵn sàng sử dụng, kích thước giảm đáng kể so với bản gốc, phù hợp cho các trình xem trên web, trò chơi di động hoặc bất kỳ ứng dụng Java nào bị giới hạn băng thông.
 
-## Trả lời nhanh
-- **Hướng dẫn này bao gồm những gì?** Tạo lưới hình cầu trong Java và nén nó bằng GoogleDraco thông qua Aspose.3D.
-- **Thư viện chính?** Aspose.3D cho Java.
-- **Thời gian thực hiện thông thường?** Khoảng 10‑15 phút cho một quả cầu cơ bản.
-- **Điều kiện tiên quyết chính?** Môi trường phát triển Java và các JAR Aspose.3D trên đường dẫn lớp của bạn.
-- **Kết quả?** Một tệp `.drc` chứa lưới hình cầu nén.
+## Câu trả lời nhanh
+- **Bài hướng dẫn này đề cập đến gì?** Tạo lưới hình cầu trong Java và nén nó bằng Google Draco thông qua Aspose.3D.  
+- **Thư viện chính?** Aspose.3D for Java (được sử dụng cho cả việc tạo lưới và xuất Draco).  
+- **Thời gian thực hiện điển hình?** Khoảng 10‑15 phút cho một hình cầu cơ bản.  
+- **Điều kiện tiên quyết chính?** Môi trường phát triển Java với các JAR của Aspose.3D đã được thêm vào classpath.  
+- **Kết quả?** Một tệp `.drc` **giảm kích thước mô hình 3D** lên tới 90 % so với lưới chưa nén.
 
-## “Cách tạo hình cầu” trong bối cảnh phát triển 3D là gì?
+## “Giảm kích thước mô hình 3D” trong bối cảnh phát triển 3D là gì?
 
-Tạo lưới hình cầu có nghĩa là tạo ra một tập hợp các đỉnh, cạnh và mặt phỏng một yêu cầu hoàn hảo. Lớp `Sphere` của Aspose.3D thực hiện phần lớn công việc, cung cấp cho bạn một mạng lưới tam giác sạch sẽ có thể được xử lý hoặc nén thêm.
+Giảm kích thước mô hình 3D có nghĩa là thu hẹp lượng dữ liệu hình học cần truyền hoặc lưu trữ, mà không làm giảm đáng kể chất lượng hình ảnh. Draco đạt được điều này bằng cách mã hoá vị trí đỉnh, pháp tuyến và các thuộc tính khác trong một định dạng nhị phân cực kỳ nén. Khi kết hợp với Aspose.3D, toàn bộ quy trình vẫn nằm trong Java, vì vậy bạn không cần phải xử lý các thư viện nhị phân gốc.
 
-## Tại sao nên sử dụng tính năng nén lưới Google Draco với Aspose.3D?
+## Tại sao nên sử dụng nén lưới Google Draco với Aspose.3D?
 
-- **Giảm kích thước lớn:** Draco có thể thu nhỏ dữ liệu lưới tới 90% so với các định dạng không nén.
-- **Giải mã thời gian chạy nhanh:** Các công cụ hiện đại như Unity và three.js giải mã Draco một cách tự nhiên, dẫn đến thời gian tải nhanh hơn.
-- **Tích hợp Java liền mạch:** Aspose.3D tóm tắt thư viện Draco gốc, vì vậy bạn vẫn ở trong hệ sinh thái Java mà không cần xử lý các tệp nhị phân gốc.
+- **Giảm kích thước đáng kể:** Draco có thể cắt giảm dữ liệu lưới tới 90 % so với các định dạng như OBJ hoặc STL.  
+- **Giải mã nhanh tại thời gian chạy:** Các engine như Unity, Unreal và three.js giải mã Draco một cách nguyên bản, giúp thời gian tải nhanh hơn.  
+- **Tích hợp liền mạch với Java:** Aspose.3D trừu tượng hoá thư viện Draco gốc, cho phép bạn ở lại trong hệ sinh thái Java.  
+- **Xuất khẩu Aspose 3D toàn diện:** API bạn dùng để tạo hình học cũng xử lý việc xuất, đơn giản hoá quy trình.
 
-## Quick Answers
-- **What does this tutorial cover?** Creating a sphere mesh in Java and compressing it with Google Draco via Aspose.3D.  
-- **Primary library?** Aspose.3D for Java.  
-- **Typical implementation time?** About 10‑15 minutes for a basic sphere.  
-- **Key prerequisite?** A Java development environment and the Aspose.3D JARs on your classpath.  
-- **Result?** A `.drc` file containing the compressed sphere mesh.
+## Yêu cầu trước
 
-## What is “how to create sphere” in the context of 3D development?
+- **Java Development Kit (JDK)** – phiên bản 8 trở lên.  
+- **Aspose.3D for Java** – tải xuống các JAR mới nhất từ trang chính thức [tại đây](https://releases.aspose.com/3d/java/).  
+- **Kiến thức cơ bản về Google Draco** – bạn sẽ sử dụng lớp bao của Aspose.3D, vì vậy không cần cài đặt Draco gốc.
 
-Tạo sphere mesh có nghĩa là tạo một tập hợp các đỉnh, cạnh và mặt mô phỏng một hình cầu hoàn hảo. Lớp `Sphere` của Aspose.3D thực hiện phần lớn công việc, cung cấp cho bạn một lưới triangulated sạch sẽ có thể được xử lý hoặc nén thêm.
-
-## Why use Google Draco mesh compression with Aspose.3D?
-
-- **Massive size reduction:** Draco can shrink mesh data by up to 90 % compared with uncompressed formats.  
-- **Fast runtime decoding:** Modern engines such as Unity and three.js decode Draco natively, leading to quicker load times.  
-- **Seamless Java integration:** Aspose.3D abstracts the native Draco library, so you stay within the Java ecosystem without dealing with native binaries.  
-
-## Prerequisites
-
-- **Java Development Kit (JDK)** – 8 or newer installed and configured.  
-- **Aspose.3D for Java** – Download the latest JARs from the official page [here](https://releases.aspose.com/3d/java/).  
-- **Google Draco knowledge** – Understanding that Draco is a geometry compression library; we’ll use Aspose.3D’s wrapper to handle the heavy lifting.
-
-## Import Packages
-
-Trong tệp nguồn Java của bạn, nhập các lớp cần thiết cho việc tạo mesh và nén Draco.
-- **Bộ công cụ phát triển Java (JDK)** – 8 hoặc mới hơn được cài đặt và định cấu hình.
-- **Aspose.3D for Java** – Tải xuống các JAR mới nhất từ ​​trang chính thức [tại đây](https://releases.aspose.com/3d/java/).
-- **Kiến thức về Google về Draco** – Hiểu rằng Draco là một thư viện nén hình học; chúng tôi sẽ sử dụng trình bao bọc của Aspose.3D để xử lý công việc nặng nhọc.
-
-## Nhập gói
-
-Trong nguồn tệp Java của bạn, hãy nhập các lớp cần thiết để tạo lưới và nén Draco.
+## Nhập các gói
 
 ```java
 import com.aspose.threed.DracoCompressionLevel;
@@ -83,22 +62,13 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 ```
 
-## Step‑by‑Step Guide
-
-### Step 1: Set Up the Project
-
-Tạo một dự án Java mới (IDE bất kỳ) và thêm các JAR của Aspose.3D vào classpath của dự án. Sắp xếp thư mục nguồn sao cho mã dưới đây nằm trong một package sạch, ví dụ, `com.example.draco`.
-
-### Step 2: How to Create Sphere Mesh in Java
 ## Hướng dẫn từng bước
 
 ### Bước 1: Thiết lập dự án
 
-Tạo một dự án Java mới (IDE bất kỳ) và bổ sung các JAR của Aspose.3D vào đường dẫn lớp của dự án. Sắp xếp thư mục nguồn sao cho mã dưới đây trong một gói sạch sẽ, ví dụ: `com.example.draco`.
+Tạo một dự án Java mới (bất kỳ IDE nào cũng được) và thêm tất cả các JAR của Aspose.3D vào classpath. Giữ các tệp nguồn trong một package như `com.example.draco` để dễ quản lý.
 
-### Bước 2: Cách tạo Sphere Mesh trong Java
-
-Bây giờ chúng ta sẽ tạo một mô hình sphere đơn giản sẽ phục vụ làm mesh mà chúng ta muốn nén.
+### Bước 2: Cách tạo lưới hình cầu trong Java
 
 ```java
 // ExStart:Encode3DMeshinGoogleDraco
@@ -109,18 +79,9 @@ String MyDir = "Your Document Directory";
 Sphere sphere = new Sphere();
 ```
 
-> **Pro tip:** The `Sphere` class automatically creates a triangulated mesh with a default radius of 1.0. You can customize the radius, tessellation, and material if your scenario demands it.
-
-> **Mẹo chuyên nghiệp:** Lớp `Sphere` tự động tạo một mesh triangulated với bán kính mặc định là 1.0. Bạn có thể tùy chỉnh bán kính, độ chia lưới (tessellation), và vật liệu nếu trường hợp của bạn yêu cầu.
-
-### Step 3: How to Compress Mesh with Google Draco
-> **Mẹo hay:** The `Sphere` class automatically creates a triangulated mesh with a default radius of 1.0. You can customize the radius, tessellation, and material if your scenario demands it.
-
-> **Mẹo chuyên nghiệp:** Lớp `Sphere` tự động tạo một mesh triangulated với bán kính mặc định là 1.0. Bạn có thể tùy chỉnh bán kính, độ chia lưới (tessellation), và vật liệu nếu trường hợp của bạn yêu cầu.
+> **Mẹo:** Lớp `Sphere` tạo ra một lưới tam giác với bán kính mặc định là 1.0. Bạn có thể truyền bán kính tùy chỉnh, mức chia lưới hoặc tham số vật liệu nếu cần mức chi tiết khác trước khi nén.
 
 ### Bước 3: Cách nén lưới bằng Google Draco
-
-Với sphere đã sẵn sàng, chúng ta gọi nén Draco thông qua Aspose.3D’s `DracoSaveOptions`. Setting the compression level to `OPTIMAL` provides the best size reduction while preserving quality.
 
 ```java
 // Encode the sphere to Google Draco raw data using optimal compression level.
@@ -129,10 +90,9 @@ opt.setCompressionLevel(DracoCompressionLevel.OPTIMAL);
 byte[] b = FileFormat.DRACO.encode(sphere.toMesh(), opt);
 ```
 
-### Step 4: Save the Compressed Mesh
-### Bước 4: Lưu lưới đã nén
+Đặt mức nén thành `OPTIMAL` sẽ mang lại mức giảm kích thước lớn nhất trong khi vẫn giữ được độ trung thực hình ảnh, trực tiếp giúp bạn **giảm kích thước mô hình 3D**.
 
-Cuối cùng, ghi mảng byte đã nén vào một tệp `.drc`. Tệp này có thể được stream tới client hoặc lưu trữ để sử dụng sau.
+### Bước 4: Lưu lưới đã nén
 
 ```java
 // Save the raw bytes to file
@@ -140,49 +100,50 @@ Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 // ExEnd:Encode3DMeshinGoogleDraco
 ```
 
-Bạn có thể lặp lại các bước này cho bất kỳ đối tượng 3D nào khác—cubes, mô hình tùy chỉnh, hoặc cảnh đã nhập—bằng cách chỉ cần thay đổi lời gọi tạo hình học.
+Tệp `SphereMeshtoDRC_Out.drc` tạo ra có thể được truyền tới khách hàng, lưu trong CDN, hoặc tải trực tiếp bởi bất kỳ engine nào hỗ trợ Draco.
 
-## Common Issues and Solutions
+## Các trường hợp sử dụng phổ biến
 
-| Issue | Reason | Fix |
+| Kịch bản | Tại sao giảm kích thước mô hình? | Cách hướng dẫn này hỗ trợ |
+|----------|----------------------------------|----------------------------|
+| Cấu hình sản phẩm trên web | Tải trang nhanh hơn trên kết nối chậm | Các tệp `.drc` đã nén bằng Draco tải trong vài giây |
+| Ứng dụng AR/VR trên di động | Giảm dung lượng bộ nhớ trên thiết bị | Lưới nhỏ hơn giúp ứng dụng phản hồi nhanh |
+| Cảnh render trên đám mây | Giảm chi phí băng thông | Xuất một cú nhấp chuột từ Aspose.3D sang Draco |
+
 ## Các vấn đề thường gặp và giải pháp
 
-| Vấn đề | Nguyên nhân | Cách khắc phục |
-|-------|--------|-----|
-| **`NoClassDefFoundError` cho các lớp Draco** | Các JAR của Aspose.3D không có trong classpath | Xác minh tất cả các tệp JAR của Aspose.3D đã được bao gồm và phiên bản khớp với tài liệu. |
-| **Tệp đầu ra rỗng** | `MyDir` trỏ tới thư mục không tồn tại | Đảm bảo thư mục tồn tại hoặc tạo nó bằng chương trình trước khi ghi tệp. |
-| **Mesh đã nén bị biến dạng** | Sử dụng mức nén thấp | Chuyển sang `DracoCompressionLevel.OPTIMAL` hoặc điều chỉnh độ chia lưới của mesh trước khi nén. |
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|----------|
+| **`NoClassDefFoundError` for Draco classes** | Các JAR của Aspose.3D không có trong classpath | Kiểm tra rằng *tất cả* các tệp JAR của Aspose.3D đã được bao gồm và phiên bản phù hợp với tài liệu. |
+| **Output file is empty** | `MyDir` trỏ tới thư mục không tồn tại | Tạo thư mục bằng chương trình (`Files.createDirectories(Paths.get(MyDir))`) trước khi ghi tệp. |
+| **Compressed mesh looks distorted** | Sử dụng mức nén thấp hoặc độ chia lưới không đủ | Chuyển sang `DracoCompressionLevel.OPTIMAL` và tăng độ chia lưới của hình cầu (ví dụ, `new Sphere(1.0, 64, 64)`). |
 
-## Frequently Asked Questions
+## Câu hỏi thường gặp
 
-**Q: Aspose.3D có tương thích với các định dạng tệp 3D khác nhau không?**  
-A: Có, Aspose.3D hỗ trợ nhiều định dạng bao gồm OBJ, FBX, STL và GLTF, giúp linh hoạt cho nhiều quy trình.
+**H: Aspose.3D có tương thích với các định dạng tệp 3D khác nhau không?**  
+Đ: Có, Aspose.3D hỗ trợ OBJ, FBX, STL, GLTF và nhiều định dạng khác, làm cho nó trở thành lựa chọn đa năng cho các pipeline **xuất khẩu Aspose 3D**.
 
-**Q: Tôi có thể sử dụng Google Draco để nén trong các ngôn ngữ lập trình khác không?**  
-A: Chắc chắn. Draco cung cấp các thư viện gốc cho C++, Python và JavaScript. Bài hướng dẫn này tập trung vào Java, nhưng các khái niệm có thể áp dụng cho các ngôn ngữ khác.
+**H: Tôi có thể sử dụng Google Draco để nén trong các ngôn ngữ lập trình khác không?**  
+Đ: Chắc chắn. Draco cung cấp các thư viện gốc cho C++, Python và JavaScript. Bài hướng dẫn này tập trung vào Java, nhưng các khái niệm áp dụng cho mọi ngôn ngữ.
 
-**Q: Tôi có thể tìm tài liệu Aspose.3D bổ sung ở đâu?**  
-A: Truy cập [tài liệu Aspose.3D Java](https://reference.aspose.com/3d/java/) để xem chi tiết API và nhiều ví dụ hơn.
+**H: Tôi có thể tìm tài liệu Aspose.3D bổ sung ở đâu?**  
+Đ: Tham khảo [tài liệu Aspose.3D Java](https://reference.aspose.com/3d/java/) để có đầy đủ tham chiếu API và nhiều ví dụ hơn.
 
-**Q: Làm sao tôi có thể nhận giấy phép tạm thời cho Aspose.3D?**  
-A: Khám phá các tùy chọn giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
+**H: Làm sao để tôi có được giấy phép tạm thời cho Aspose.3D?**  
+Đ: Khám phá các tùy chọn cấp phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
 
-**Q: Có diễn đàn cộng đồng hỗ trợ Aspose.3D không?**  
-A: Có, để nhận hỗ trợ cộng đồng và thảo luận, truy cập [Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18).
+**H: Có diễn đàn cộng đồng nào hỗ trợ Aspose.3D không?**  
+Đ: Có, tham gia thảo luận tại [Diễn đàn Aspose.3D](https://forum.aspose.com/c/3d/18).
 
-## Conclusion
+## Kết luận
 
-Trong bài hướng dẫn này, chúng tôi đã chỉ cho bạn **cách tạo sphere** mesh trong Java và sau đó **nén dữ liệu mesh 3D** bằng Google Draco thông qua Aspose.3D. Bằng cách làm theo các bước này, bạn có thể giảm đáng kể kích thước tệp mesh, cải thiện thời gian tải và giữ cho các ứng dụng 3D dựa trên Java của bạn phản hồi nhanh.
-
-## Phần kết luận
-
-Trong bài hướng dẫn này, chúng tôi đã chỉ cho bạn **cách tạo hình cầu** lưới trong Java và sau đó **nén dữ liệu lưới 3D** bằng GoogleDraco thông qua Aspose.3D. Bằng cách thực hiện theo các bước này, bạn có thể giảm kích thước đáng kể của lưới tệp kích thước, cải thiện thời gian tải và giữ các ứng dụng 3D dựa trên Java của bạn phản hồi nhanh chóng.
+Trong hướng dẫn này, chúng ta đã chứng minh cách **giảm kích thước mô hình 3D** bằng cách tạo một lưới hình cầu trong Java và sau đó nén nó bằng Google Draco thông qua Aspose.3D. Bằng cách thực hiện các bước ngắn gọn này, bạn có thể thu nhỏ đáng kể các tệp lưới, cải thiện thời gian tải và giữ cho các ứng dụng 3D dựa trên Java của bạn phản hồi nhanh và tiết kiệm băng thông.
 
 ---
 
-**Cập nhật lần cuối:** 2026-01-27
-**Đã thử nghiệm với:** Aspose.3D cho Java 24.12 (mới nhất)
-**Tác giả:** Giả định  
+**Cập nhật lần cuối:** 2026-04-29  
+**Đã kiểm tra với:** Aspose.3D for Java 24.12 (mới nhất)  
+**Tác giả:** Aspose
 
 ---
 
@@ -192,11 +153,3 @@ Trong bài hướng dẫn này, chúng tôi đã chỉ cho bạn **cách tạo h
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-27  
-**Tested With:** Aspose.3D for Java 24.12 (latest)  
-**Author:** Aspose  
-
----

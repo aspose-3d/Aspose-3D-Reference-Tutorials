@@ -1,22 +1,26 @@
 ---
-title: How to Create Cylinder Fan Shapes Using Aspose.3D for Java
-linktitle: How to Create Cylinder Fan Shapes Using Aspose.3D for Java
+title: How to create cylinder fan shape using Aspose.3D for Java
+linktitle: How to create cylinder fan shape using Aspose.3D for Java
 second_title: Aspose.3D Java API
-description: Learn how to create cylinder fan shapes in Java with Aspose.3D. This guide covers java 3d modeling and java save obj file techniques.
+description: Learn how to create cylinder fan shape in Java with Aspose.3D. This guide covers java 3d modeling and save obj file java techniques.
 weight: 10
 url: /java/cylinders/creating-fan-cylinders/
-date: 2026-02-02
+date: 2026-04-03
+keywords:
+- create cylinder fan shape
+- save obj file java
+- aspose 3d export obj
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Create Cylinder Fan Shapes Using Aspose.3D for Java
+# How to create cylinder fan shape using Aspose.3D for Java
 
 ## Introduction
 
-Ready to master **how to create cylinder** fan shapes in a Java environment? In this tutorial we’ll walk through every step— from setting up the scene to exporting a Wavefront OBJ file— using Aspose.3D. Whether you’re building a game asset, a CAD prototype, or just experimenting with 3D geometry, you’ll see how easy java 3d modeling can be with this powerful library.
+Ready to master **how to create cylinder fan shape** in a Java environment? In this tutorial we’ll walk through every step— from setting up the scene to exporting a Wavefront OBJ file— using Aspose.3D. Whether you’re building a game asset, a CAD prototype, or just experimenting with 3D geometry, you’ll see how easy Java 3D modeling can be with this powerful library.
 
 ## Quick Answers
 - **What is the primary goal?** Create a customizable fan‑shaped cylinder and save it as an OBJ file.  
@@ -31,7 +35,7 @@ A fan cylinder is a partial‑surface cylinder where a sector of the circular ba
 
 ## Why use Aspose.3D for java 3d modeling?
 
-Aspose.3D provides a clean, object‑oriented API that abstracts the low‑level math of 3D graphics. You can focus on design rather than file‑format quirks, and the library handles **java save obj file** operations automatically.
+Aspose.3D provides a clean, object‑oriented API that abstracts the low‑level math of 3D graphics. You can focus on design rather than file‑format quirks, and the library handles **save obj file java** operations automatically.
 
 ## Prerequisites
 
@@ -116,6 +120,10 @@ scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEF
 
 > **Note:** Replace `"Your Document Directory"` with an absolute or relative path where you have write permission.
 
+## How to save OBJ file in Java using Aspose 3D
+
+Aspose.3D’s `Scene.save` method automatically handles the **aspose 3d export obj** process. You only need to specify the target file name and the `FileFormat.WAVEFRONTOBJ` enum value, as shown in the previous step.
+
 ## Common Issues and Solutions
 
 | Issue | Reason | Fix |
@@ -143,7 +151,7 @@ A: Acquire one [here](https://purchase.aspose.com/temporary-license/) to unlock 
 
 ---
 
-**Last Updated:** 2026-02-02  
+**Last Updated:** 2026-04-03  
 **Tested With:** Aspose.3D 24.11 for Java  
 **Author:** Aspose  
 

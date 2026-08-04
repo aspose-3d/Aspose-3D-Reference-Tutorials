@@ -1,33 +1,51 @@
 ---
-title: Invertir el sistema de coordenadas en escenas 3D
-linktitle: Invertir el sistema de coordenadas en escenas 3D
-second_title: Aspose.3D API .NET
-description: Domine el arte de invertir sistemas de coordenadas en escenas 3D utilizando Aspose.3D para .NET. Siga nuestra guía paso a paso para una implementación perfecta.
-weight: 12
+date: 2026-03-26
+description: Aprende cómo invertir coordenadas y el sistema de coordenadas en escenas
+  3D usando Aspose.3D para .NET. Sigue nuestra guía paso a paso para una implementación
+  sin problemas.
+linktitle: Flipping Coordinate System in 3D Scenes
+second_title: Aspose.3D .NET API
+title: Cómo invertir coordenadas en escenas 3D con Aspose.3D para .NET
 url: /es/net/3d-scene/flip-coordinate-system/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Invertir el sistema de coordenadas en escenas 3D
+# Cómo invertir coordenadas en escenas 3D con Aspose.3D para .NET
 
 ## Introducción
 
-Bienvenido a esta guía paso a paso sobre cómo invertir el sistema de coordenadas en escenas 3D usando Aspose.3D para .NET. Si eres desarrollador o entusiasta del 3D y buscas manipular sistemas de coordenadas en tus escenas, estás en el lugar correcto. En este tutorial, lo guiaremos a través del proceso, facilitándole la implementación de esta función sin problemas.
+Si necesitas **how to flip coordinates** en una escena 3D, has llegado al lugar correcto. En este tutorial recorreremos los pasos exactos necesarios para invertir el sistema de coordenadas de un modelo 3D usando la API Aspose.3D .NET. Al final entenderás por qué podrías querer **flip coordinate system**, cómo **convert 3d coordinate system** a una orientación de eje diferente, y cómo hacerlo con solo unas pocas líneas de código C#.
+
+## Respuestas rápidas
+- **¿Cuál es el propósito principal?** Cambiar la orientación de los ejes de una escena 3D para que coincida con la convención de la aplicación de destino.  
+- **¿Qué formato se usa para la salida?** Wavefront OBJ (`.obj`).  
+- **¿Necesito una licencia?** Se requiere una licencia temporal o completa de Aspose.3D para uso en producción.  
+- **¿Cuánto tiempo lleva la implementación?** Normalmente menos de 10 minutos para una escena básica.  
+- **¿Puedo usar esto con .NET Core?** Sí, la API funciona con .NET Framework y .NET Core.
+
+## ¿Qué significa invertir coordenadas?
+
+Invertir coordenadas significa invertir el signo de uno o más ejes (X, Y o Z) al exportar o importar un modelo. Esta operación a menudo es necesaria al mover recursos entre software que utilizan convenciones de coordenadas derechas o izquierdas diferentes.
+
+## ¿Por qué invertir un sistema de coordenadas 3D?
+
+- **Interoperabilidad:** Algunos motores de juego esperan Y‑up mientras que muchas herramientas de modelado usan Z‑up.  
+- **Consistencia:** Alinear todos los recursos a una única orientación de ejes simplifica el ensamblaje de la escena.  
+- **Conversión:** Al convertir archivos entre formatos (p.ej., `.ma` a `.obj`), invertir garantiza que la geometría aparezca correctamente.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de tener los siguientes requisitos previos:
-
-- Conocimientos básicos del lenguaje de programación C#.
--  Aspose.3D para la biblioteca .NET instalada. Puedes descargarlo desde[aquí](https://releases.aspose.com/3d/net/).
-- Un archivo 3D de muestra en un formato compatible (por ejemplo, .ma).
+- Conocimientos básicos de programación en C#.  
+- Biblioteca Aspose.3D para .NET instalada – descárgala desde [here](https://releases.aspose.com/3d/net/).  
+- Un archivo 3D de muestra en un formato compatible (p.ej., `.ma`).  
 
 ## Importar espacios de nombres
 
-En su proyecto C#, asegúrese de incluir los espacios de nombres necesarios para acceder a las funcionalidades de Aspose.3D:
+Agrega las declaraciones `using` requeridas para que el compilador pueda localizar las clases de Aspose.3D:
 
 ```csharp
 using System;
@@ -39,19 +57,23 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Formats;
 ```
 
-## Paso 1: cargar la escena 3D
+## Guía paso a paso
+
+### Paso 1: Cargar la escena 3D
+
+Primero, abre el archivo fuente. Esto crea un objeto `Scene` que contiene toda la geometría, cámaras y luces.
 
 ```csharp
-// La ruta al archivo de entrada.
+// The path to the input file
 string input = "camera.ma";
-// Inicializar objeto de escena
+// Initialize scene object
 Scene scene = new Scene();
 scene.Open(input);
 ```
 
- En este paso, cargamos una escena 3D desde la ruta del archivo especificada usando el`Open` método.
+### Paso 2: Invertir el sistema de coordenadas al guardar
 
-## Paso 2: invertir el sistema de coordenadas
+Establece la bandera `FlipCoordinateSystem` en el objeto `ObjSaveOptions`. Cuando se llama a `Save`, Aspose.3D invierte automáticamente la orientación de los ejes.
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
@@ -62,41 +84,51 @@ var opt = new ObjSaveOptions()
 scene.Save(output, opt);
 ```
 
- Ahora, usamos el`Save` método para exportar la escena, invirtiendo el sistema de coordenadas en el proceso. La salida se guarda en formato Wavefront OBJ.
+> **Consejo profesional:** Si necesitas **change axis orientation 3d** para un objetivo diferente (p.ej., Y‑up a Z‑up), ajusta la bandera `FlipCoordinateSystem` o utiliza una matriz de transformación personalizada antes de guardar.
 
-## Paso 3: Mostrar mensaje de éxito
+### Paso 3: Confirmar el éxito
+
+Un mensaje simple en la consola te permite verificar que la operación se completó sin errores.
 
 ```csharp
 Console.WriteLine("\nCoordinate system has been flipped successfully.\nFile saved at " + output);
 ```
 
-Finalmente, mostramos un mensaje de éxito, indicando que el sistema de coordenadas se ha invertido correctamente y proporcionamos la ruta al archivo guardado.
+## Errores comunes y cómo evitarlos
 
-## Conclusión
-
-¡Felicidades! Ha aprendido con éxito cómo invertir el sistema de coordenadas en escenas 3D usando Aspose.3D para .NET. Esta característica puede ser crucial en varios escenarios y, con este tutorial, ahora puede integrarla en sus proyectos sin esfuerzo.
+| Síntoma | Causa probable | Solución |
+|---------|----------------|----------|
+| El modelo aparece reflejado | `FlipCoordinateSystem` dejado en el valor predeterminado (`false`) | Asegúrate de que la bandera esté establecida en `true`. |
+| Falta geometría después de la exportación | Archivo de entrada no totalmente compatible | Verifica que el formato de origen sea compatible con Aspose.3D. |
+| Dirección de eje inesperada | Uso de una transformación personalizada después de invertir | Aplica transformaciones **antes** de establecer la opción de inversión. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.3D para .NET con otros lenguajes de programación?
+**Q: ¿Puedo usar Aspose.3D para .NET con otros lenguajes de programación?**  
+A: Aspose.3D es principalmente una biblioteca .NET, pero Aspose proporciona APIs equivalentes para Java, Python y otras plataformas.
 
-R1: Aspose.3D para .NET está diseñado principalmente para programación en C#. Sin embargo, Aspose proporciona bibliotecas similares para otros lenguajes como Java, Python y más.
+**Q: ¿Dónde puedo encontrar documentación detallada para Aspose.3D para .NET?**  
+A: Puedes consultar la documentación [here](https://reference.aspose.com/3d/net/) para obtener información detallada.
 
-### P2: ¿Dónde puedo encontrar documentación detallada de Aspose.3D para .NET?
+**Q: ¿Hay una versión de prueba gratuita disponible para Aspose.3D para .NET?**  
+A: Sí, puedes explorar la versión de prueba gratuita [here](https://releases.aspose.com/) antes de realizar una compra.
 
- A2: Puede consultar la documentación.[aquí](https://reference.aspose.com/3d/net/) para obtener información detallada sobre Aspose.3D para .NET.
+**Q: ¿Cómo puedo obtener una licencia temporal para Aspose.3D para .NET?**  
+A: Para licencias temporales, visita [this link](https://purchase.aspose.com/temporary-license/).
 
-### P3: ¿Hay una prueba gratuita disponible de Aspose.3D para .NET?
+**Q: ¿Dónde puedo buscar soporte o hacer preguntas relacionadas con Aspose.3D para .NET?**  
+A: El foro de la comunidad Aspose [here](https://forum.aspose.com/c/3d/18) es el lugar ideal para soporte y discusiones.
 
- R3: Sí, puedes explorar la versión de prueba gratuita[aquí](https://releases.aspose.com/) antes de realizar una compra.
+## Conclusión
 
-### P4: ¿Cómo puedo obtener una licencia temporal de Aspose.3D para .NET?
+Ahora sabes **how to flip coordinates** en una escena 3D usando Aspose.3D para .NET, por qué podrías necesitar **flip 3d coordinate system**, y cómo manejar los problemas más comunes. Incorpora este fragmento en tu canal de activos para garantizar una orientación de ejes consistente en todos tus recursos 3D.
 
- R4: Para licencias temporales, visite[este enlace](https://purchase.aspose.com/temporary-license/).
+---
 
-### P5: ¿Dónde puedo buscar soporte o hacer preguntas relacionadas con Aspose.3D para .NET?
+**Última actualización:** 2026-03-26  
+**Probado con:** Aspose.3D para .NET (última versión)  
+**Autor:** Aspose  
 
- A5: El foro de la comunidad Aspose[aquí](https://forum.aspose.com/c/3d/18) es el lugar ideal para apoyo y debates.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

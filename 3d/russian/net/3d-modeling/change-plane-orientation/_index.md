@@ -1,55 +1,46 @@
 ---
-date: 2026-03-21
-description: Узнайте, как изменить ориентацию плоскости в 3D‑сценах с помощью Aspose.3D
-  для .NET. Следуйте нашему пошаговому руководству, чтобы экспортировать 3D‑модель
-  OBJ и легко вращать 3D‑плоскость.
-linktitle: Changing Plane Orientation in 3D Scenes
+title: Add Camera to Scene with Aspose.3D – XPath Queries
+linktitle: XPath-Like Object Queries
 second_title: Aspose.3D .NET API
-title: Изменение ориентации плоскости в 3D‑сценах – Aspose.3D для .NET
-url: /ru/net/3d-modeling/change-plane-orientation/
-weight: 10
+description: Learn how to add camera to scene and manipulate 3D objects using Aspose.3D for .NET. Explore XPath‑like queries, select node by name and more.
+weight: 24
+url: /net/geometry-and-hierarchy/xpath-like-object-queries/
+date: 2026-01-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Изменение ориентации плоскости в 3D‑сценах
+# Add Camera to Scene with Aspose.3D – XPath Queries
 
-## Введение
+## Introduction
+In this tutorial you’ll discover how to **add a camera to a scene** and work with powerful XPath‑like object queries in Aspose.3D for .NET. Whether you need to **select node by name**, **select single object**, or simply **add light to scene**, the steps below will guide you through creating, querying, and manipulating 3D objects with clear, real‑world examples.
 
-В этом полном руководстве вы узнаете **как изменить ориентацию плоскости** в 3‑D‑сцене с помощью Aspose.3D for .NET. Независимо от того, создаёте ли вы игру, CAD‑просмотрщик или научную визуализацию, управление направлением плоскости необходимо для точного рендеринга и корректного экспорта 3‑D‑моделей в формате OBJ. Давайте пройдём процесс шаг за шагом.
+## Quick Answers
+- **How do I add a camera to a scene?** Use `c.CreateChildNode("c1").AddEntity(new Camera("cam"));`
+- **Can I query objects with XPath syntax?** Yes – `SelectObjects` and `SelectSingleObject` support XPath‑like expressions.
+- **What if I need to select a node by name?** Use `SelectSingleObject("a1")` or `"//a1"` style paths.
+- **How do I add a light to the scene?** Call `AddEntity(new Light("light"))` on a child node.
+- **Which .NET versions are supported?** Aspose.3D works with .NET Framework 2.0+ and .NET Core/5/6.
 
-## Быстрые ответы
-- **Что означает «изменение ориентации плоскости»?** Настройка up‑вектора плоскости для её вращения в 3‑D‑пространстве.  
-- **Какой формат файла используется для экспорта?** Wavefront OBJ (`.obj`).  
-- **Можно ли напрямую вращать 3D‑плоскость?** Да — измените вектор `Up` у сущности `Plane`.  
-- **Нужна ли лицензия?** Бесплатная пробная версия подходит для разработки; для продакшн‑использования требуется коммерческая лицензия.  
-- **Какие версии .NET поддерживаются?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+## What is “add camera to scene” in Aspose.3D?
+Adding a camera creates a viewpoint from which the scene can be rendered or inspected. The camera behaves like any other 3D entity, so you can position, rotate, and query it just like meshes or lights.
 
-## Что такое изменение ориентации плоскости?
-Изменение ориентации плоскости подразумевает переопределение её нормали или up‑вектора так, чтобы он указывал в другое направление в системе координат 3‑D. Эта операция эффективно **вращает 3D‑плоскость** без изменения её размеров или положения.
+## Why use XPath‑like object queries?
+XPath‑like queries let you locate objects based on type, name, or custom attributes without manually traversing the node hierarchy. This makes **manipulating 3D objects** fast, readable, and maintainable—especially in complex scenes.
 
-## Зачем менять ориентацию плоскости?
-- **Точная визуальная согласованность** — гарантирует ожидаемое поведение текстур и освещения.  
-- **Корректный экспорт** — некоторые downstream‑инструменты требуют определённой ориентации плоскости при импорте OBJ‑файлов.  
-- **Гибкость** — можно переиспользовать одну и ту же геометрию с разными ориентациями для разных видов.
+## Prerequisites
+- Basic knowledge of the .NET framework
+- Visual Studio installed
+- Aspose.3D library referenced in your project (latest version)
 
-## Требования
-
-- Aspose.3D for .NET: Убедитесь, что библиотека установлена. Если нет, скачайте её [здесь](https://releases.aspose.com/3d/net/).  
-- Ваш каталог документов: Создайте папку, где учебник будет читать/записывать файлы.
-
-Теперь, когда базовые понятия изложены, перейдём к коду.
-
-## Импорт пространств имён
-
-В вашем .NET‑проекте начните с импорта необходимых пространств имён:
+## Import Namespaces
+Start by importing the required namespaces so you have access to all Aspose.3D classes.
 
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
-using Aspose.ThreeD.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,73 +48,101 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-Эти пространства имён предоставляют основные классы и методы для работы с 3D‑сценами в Aspose.3D.
+## Step‑by‑Step Guide
 
-## Шаг 1: Инициализация объекта сцены
+### Step 1: Open Visual Studio
+Create a new C# project or open an existing one where you want to work with 3D scenes.
 
-```csharp
-// The path to the data directory
-string dataDir = "Your Document Directory";
-
-// Initialize scene object
-Scene scene = new Scene();
-```
-
-Этот код подготавливает окружение для вашей 3‑D‑сцены.
-
-## Шаг 2: Установка вектора для ориентации плоскости (вращение 3D‑плоскости)
+### Step 2: Create a New Scene (Add Camera to Scene)
+Instantiate a fresh `Scene` object that will serve as the canvas for all subsequent objects.
 
 ```csharp
-// Set Vector
-scene.RootNode.CreateChildNode(new Plane() { Up = new Vector3(1, 1, 3) });
+Scene s = new Scene();
 ```
 
-Здесь мы создаём дочерний узел, представляющий плоскость, и настраиваем её ориентацию с помощью вектора `Up`. Изменяя значения вектора, мы вращаем 3D‑плоскость до нужного угла.
-
-## Шаг 3: Сохранение и экспорт 3D‑модели OBJ
+### Step 3: Populate the Scene – Add Nodes, Camera, and Light
+Build a simple hierarchy, then **add a camera** and **add light to scene** to illustrate querying later.
 
 ```csharp
-// This will generate a plane that has customized orientation
-scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
+var a = s.RootNode.CreateChildNode("a");
+a.CreateChildNode("a1");
+a.CreateChildNode("a2");
+s.RootNode.CreateChildNode("b");
+var c = s.RootNode.CreateChildNode("c");
+c.CreateChildNode("c1").AddEntity(new Camera("cam"));
+c.CreateChildNode("c2").AddEntity(new Light("light"));
 ```
 
-Сохранение сцены генерирует OBJ‑файл, отражающий новую ориентацию плоскости, позволяя вам **экспортировать 3D‑модель OBJ** для использования в других приложениях.
+The resulting hierarchy looks like this:
 
-Повторяйте эти шаги по мере необходимости для дополнительных плоскостей или разных ориентаций.
+```
+- Root
+    - a
+        - a1
+        - a2
+    - b
+    - c
+        - c1
+            - cam
+        - c2
+            - light
+```
 
-## Распространённые проблемы и решения
-- **Плоскость выглядит плоской или инвертированной:** Убедитесь, что вектор `Up` не коллинеарен нормали плоскости. Отрегулируйте компоненты вектора для получения нужного наклона.  
-- **Экспортированный OBJ пустой:** Проверьте, что путь `dataDir` заканчивается разделителем (`\\` или `/`) и у вас есть права записи.  
-- **Неожиданное вращение:** Помните, что вектор `Up` определяет локальную ось Y плоскости; его изменение вращает плоскость вокруг её оси X.
+### Step 4: Select Objects – How to query 3D objects
+Use an XPath‑like expression to fetch all cameras **or** any node named “light”.
 
-## Часто задаваемые вопросы
+```csharp
+var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+```
 
-**Q1: Совместим ли Aspose.3D с другими 3D‑библиотеками?**  
-A1: Aspose.3D может бесшовно работать с другими популярными 3D‑библиотеками, обеспечивая гибкость в разработке.
+### Step 5: Select a Single Object – Select single object by path
+Retrieve the first camera node directly with a concise path.
 
-**Q2: Можно ли использовать Aspose.3D в коммерческих проектах?**  
-A2: Абсолютно! Aspose.3D предлагает варианты лицензирования как для личного, так и для коммерческого использования. Ознакомьтесь с ними [здесь](https://purchase.aspose.com/buy).
+```csharp
+var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
+```
 
-**Q3: Как получить поддержку по Aspose.3D?**  
-A3: Посетите [форум Aspose.3D](https://forum.aspose.com/c/3d/18) для получения помощи от сообщества и обсуждения.
+### Step 6: Select Node by Name – Quick way to locate a node
+If you know the node’s name, you can fetch it without caring about its position in the hierarchy.
 
-**Q4: Доступна ли бесплатная пробная версия?**  
-A4: Да, вы можете опробовать Aspose.3D с бесплатной пробной версией [здесь](https://releases.aspose.com/).
+```csharp
+var obj = s.RootNode.SelectSingleObject("a1");
+```
 
-**Q5: Где найти подробную документацию?**  
-A5: Обратитесь к документации [здесь](https://reference.aspose.com/3d/net/) для получения детальной информации.
+### Step 7: Select the Root Node – Useful for global operations
+Sometimes you need a reference to the scene’s root for bulk transformations.
 
-**Q6: Можно ли изменить ориентацию плоскости после сохранения?**  
-A6: Нужно изменить вектор `Up` до вызова `scene.Save`; OBJ‑файл отражает состояние на момент сохранения.
+```csharp
+obj = s.RootNode.SelectSingleObject("/");
+```
 
-**Q7: Влияет ли изменение ориентации на координаты текстур?**  
-A7: Изменение ориентации затрагивает только геометрию плоскости; координаты текстур остаются без изменений, если вы их явно не модифицируете.
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **Camera not appearing in query results** | Ensure the node’s `Entity` is a `Camera` and the name matches the query case‑sensitively. |
+| **SelectSingleObject returns null** | Verify the XPath expression syntax; use leading `/` for absolute paths. |
+| **Light does not affect rendering** | Remember that lighting calculations require a rendering engine; the Light entity alone does not render anything. |
+| **Performance slowdown on large scenes** | Limit queries to sub‑trees (`RootNode.SelectObjects("//c/*")`) or cache results when possible. |
 
----
+## Frequently Asked Questions
 
-**Последнее обновление:** 2026-03-21  
-**Тестировано с:** Aspose.3D 24.12 for .NET  
-**Автор:** Aspose  
+**Q: Is Aspose.3D compatible with all .NET versions?**  
+A: Aspose.3D supports .NET Framework 2.0 and higher, as well as .NET Core, .NET 5, and .NET 6.
+
+**Q: Can I use Aspose.3D for both 3D modeling and rendering?**  
+A: Absolutely. The library provides tools for creating, editing, and rendering 3D models.
+
+**Q: Are there licensing constraints for the free trial?**  
+A: The trial version includes a limited feature set; a full license is required for production use.
+
+**Q: How can I get community support for Aspose.3D?**  
+A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for tips, examples, and help from other developers.
+
+**Q: What advantages does Aspose.3D offer over other 3D libraries for .NET?**  
+A: It combines a rich API for object queries, robust scene management, and cross‑platform compatibility without needing external dependencies.
+
+## Conclusion
+You’ve now learned how to **add a camera to a scene**, **add light to scene**, and **query 3D objects** using XPath‑like syntax in Aspose.3D for .NET. These techniques let you efficiently manipulate complex hierarchies, select nodes by name, and retrieve single objects—all essential for modern 3D applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -131,3 +150,9 @@ A7: Изменение ориентации затрагивает только 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-25  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose

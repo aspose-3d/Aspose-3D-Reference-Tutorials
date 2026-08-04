@@ -1,11 +1,10 @@
 ---
-date: 2025-11-30
-description: تعلم كيفية استخدام Aspose في Java لتعديل نصف قطر كرة ثلاثية الأبعاد.
-  يغطي هذا الدليل خطوة بخطوة مكتبة Aspose.3D للغة Java، كيفية ضبط نصف القطر، إضافة
-  الكرة إلى المشهد، وكتابة ملف OBJ باستخدام Java.
-linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
+date: 2026-03-31
+description: تعلم كيفية تحويل 3D إلى OBJ عن طريق إضافة كرة إلى المشهد، تعديل نصف قطرها،
+  وتصدير ملف OBJ في Java باستخدام Aspose.3D.
+linktitle: 'Convert 3D to OBJ: Add Sphere & Modify Radius in Java'
 second_title: Aspose.3D Java API
-title: 'كيفية استخدام Aspose: تعديل نصف قطر كرة ثلاثية الأبعاد في Java باستخدام Aspose.3D'
+title: 'تحويل 3D إلى OBJ: إضافة كرة وتعديل نصف القطر في جافا'
 url: /ar/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
@@ -14,40 +13,38 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية استخدام Aspose: تعديل نصف قطر كرة ثلاثية الأبعاد في Java باستخدام Aspose.3D
+# تحويل 3D إلى OBJ: إضافة كرة وتعديل نصف القطر في Java
 
 ## المقدمة
 
-إذا كنت تبحث عن **كيفية استخدام Aspose** للعمل مع نماذج ثلاثية الأبعاد في Java، فقد وصلت إلى المكان الصحيح. في هذا الدرس سنستعرض كل خطوة مطلوبة لتغيير حجم الكرة، وإضافتها إلى المشهد، وأخيرًا كتابة ملف OBJ باستخدام **مكتبة Aspose.3D Java**. في النهاية ستحصل على مقتطف قابل لإعادة الاستخدام يمكنك إدراجه في أي تطبيق ثلاثي الأبعاد مبني على Java.
+إذا كنت بحاجة إلى **convert 3D to OBJ** بسرعة وبرمجيًا، يوضح لك هذا الدليل بالضبط كيفية إضافة كرة إلى المشهد، تغيير نصف قطرها، وكتابة ملف OBJ الناتج باستخدام **Aspose.3D Java library**. سنستعرض كل سطر من الشيفرة، نشرح لماذا كل خطوة مهمة، ونقدم لك نصائح لتجنب الأخطاء الشائعة—حتى تتمكن من دمج سير العمل في الألعاب، أدوات CAD، أو التصورات العلمية بثقة.
 
 ## إجابات سريعة
-- **ما هو الهدف الأساسي من هذا الدليل؟** إظهار كيفية تعديل نصف قطر الكرة باستخدام Aspose.3D في Java.  
-- **أي مكتبة نستخدم؟** مكتبة Aspose.3D Java (مكتبة **java 3d** كاملة الميزات).  
-- **كيف أضبط نصف القطر؟** استدعِ `sphere.setRadius(double)` على كائن `Sphere`.  
-- **هل يمكنني التصدير إلى OBJ؟** نعم – استخدم `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`.  
-- **هل أحتاج إلى ترخيص؟** الإصدار التجريبي المجاني يكفي للتطوير؛ الترخيص مطلوب للإنتاج.
+- **What is the main goal of this tutorial?** لإظهار كيفية تحويل 3D إلى OBJ بإنشاء كرة، تعديل نصف قطرها، وتصدير النموذج في Java.  
+- **Which library provides the 3D functionality?** Aspose.3D، دليل **java 3d library tutorial** كامل الميزات.  
+- **How do I change the sphere size?** استدعِ `sphere.setRadius(double)` على كائن `Sphere`.  
+- **Can I write the OBJ file directly from Java?** نعم—استخدم `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`.  
+- **Do I need a license for production?** الإصدار التجريبي المجاني يكفي للتطوير؛ يلزم الحصول على ترخيص دائم للاستخدام التجاري.
 
-## ما هو Aspose.3D لـ Java؟
+## كيفية تحويل 3D إلى OBJ باستخدام Aspose.3D
 
-Aspose.3D هو **مكتبة java 3d** تتيح للمطورين إنشاء وتحرير وتحويل ملفات ثلاثية الأبعاد دون أي تبعيات خارجية. يدعم صيغًا شائعة مثل OBJ وFBX وSTL وغيرها، مما يجعله مثاليًا للألعاب، وأدوات CAD، والتصوير العلمي.
+### ما هو Aspose.3D لـ Java؟
 
-## لماذا نستخدم Aspose.3D لتغيير حجم الكرة؟
+Aspose.3D هو **java 3d library** يتيح للمطورين إنشاء وتعديل وتحويل ملفات 3D دون أي تبعيات خارجية. يدعم صيغًا شائعة مثل OBJ و FBX و STL وغيرها، مما يجعله مثاليًا للألعاب، أدوات CAD، والتصورات العلمية.
 
-- **لا حاجة لمحرك ثلاثي الأبعاد أصلي** – جميع العمليات تُجرى على نموذج الكائن.  
-- **متعدد المنصات** – يعمل على أي نظام تشغيل يدعم Java.  
-- **دقة هندسية عالية** – يمكنك ضبط قيم نصف القطر بدقة، وليس مجرد تعديل تقريبي.  
+### لماذا تحويل 3D إلى OBJ؟
+
+- **Universal Compatibility** – يدعم OBJ عمليًا كل عارض 3D، محرك ألعاب، وبرنامج نمذجة.  
+- **Lightweight Export** – يخزن OBJ الهندسة في صيغة نصية عادية، مما يسهل فحصها وتصحيحها.  
+- **Workflow Flexibility** – يمكنك إنشاء ملفات OBJ في الوقت الفعلي من شفرة Java على الخادم، مما يتيح خطوط أنابيب آلية لإنشاء الأصول.
 
 ## المتطلبات المسبقة
 
-قبل المتابعة، تأكد من وجود ما يلي:
-
-- فهم أساسي لبرمجة Java.  
-- تثبيت مكتبة Aspose.3D – يمكنك تنزيلها من [توثيق Aspose.3D لـ Java](https://reference.aspose.com/3d/).  
-- تثبيت مجموعة تطوير Java (JDK) على جهازك.
+- معرفة أساسية ببرمجة Java.  
+- مكتبة Aspose.3D مثبتة – قم بتنزيلها من [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/).  
+- JDK 8 أو أحدث مثبت على جهاز التطوير الخاص بك.
 
 ## استيراد الحزم
-
-لبدء العمل، استورد الفئات الضرورية إلى مشروع Java الخاص بك:
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -57,7 +54,9 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## الخطوة 1: تهيئة مشهد
+## دليل خطوة بخطوة
+
+### الخطوة 1: تهيئة المشهد
 
 ```java
 // ExStart:WorkingWithSphereRadius
@@ -66,86 +65,86 @@ import java.io.IOException;
 Scene scene = new Scene();
 ```
 
-هنا ننشئ **مشهدًا ثلاثيًا** جديدًا سيحمل جميع الهندسات الخاصة بنا.
+إنشاء `Scene` يمنحك حاوية لجميع الهندسة، الأضواء، والكاميرات. هذا هو المكان الذي سنقوم فيه لاحقًا **add sphere to scene**.
 
-## الخطوة 2: تهيئة كرة
+### الخطوة 2: تهيئة كرة
 
 ```java
 // initialize a Sphere
 Sphere sphere = new Sphere();
 ```
 
-كائن `Sphere` يمثل شكلًا كرويًا مثاليًا. في هذه المرحلة يستخدم نصف القطر الافتراضي 1.0.
+كائن `Sphere` يبدأ بنصف قطر افتراضي قدره 1.0. اعتبره كقماش فارغ للشكل الذي تريد تصديره.
 
-## الخطوة 3: كيفية ضبط نصف قطر الكرة
+### الخطوة 3: تعيين نصف القطر المطلوب
 
 ```java
 // set radius
 sphere.setRadius(10);
 ```
 
-هذا السطر يوضح **كيفية ضبط نصف القطر**. يمكنك استبدال `10` بأي قيمة `double` لتحقيق الحجم المطلوب.
+هنا نكتب شفرة على نمط **write obj file java** التي تحدد نصف القطر الدقيق. استبدل `10` بأي قيمة `double` تتوافق مع متطلبات التصميم الخاصة بك.
 
-## الخطوة 4: إضافة الكرة إلى المشهد
+### الخطوة 4: إضافة كرة إلى المشهد
 
 ```java
 // add sphere to the scene
 scene.getRootNode().createChildNode(sphere);
 ```
 
-الاستدعاء **يضيف الكرة إلى المشهد** بإنشاء عقدة فرعية تحت العقدة الجذرية.
+هذا السطر **adds sphere to scene** بإنشاء عقدة فرعية تحت العقدة الجذرية. إنها اللحظة التي تصبح فيها الهندسة جزءًا من مخطط المشهد.
 
-## الخطوة 5: كتابة ملف OBJ في Java
+### الخطوة 5: تصدير النموذج كـ OBJ
 
 ```java
 // save scene
 scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-أخيرًا، **نكتب ملف OBJ** باستخدام `scene.save`. يمكن فتح الملف الناتج `sphere.obj` في أي عارض ثلاثي الأبعاد يدعم صيغة Wavefront OBJ.
+استدعاء `scene.save` **exports obj file java** على نمط، مما يؤدي فعليًا إلى **save scene as obj**. يمكن فتح `sphere.obj` الناتج في أي عارض 3D قياسي.
 
 ## المشكلات الشائعة والحلول
 
 | المشكلة | الحل |
 |-------|----------|
-| **تظهر الكرة صغيرة جدًا في العارض** | تحقق من ضبط قيمة نصف القطر بشكل صحيح؛ تذكر أن الوحدات عشوائية ما لم تقم بتطبيق تحويل مقياس. |
-| **ملف OBJ المُصدّر لا يحتوي على مادة** | Aspose.3D يكتب الهندسة فقط؛ أضف مادة للكرة إذا كنت تحتاج إلى قوام (`sphere.setMaterial(...)`). |
-| **استثناء الترخيص أثناء التشغيل** | تأكد من تحميل ملف ترخيص مؤقت أو دائم قبل إنشاء كائن `Scene`. |
+| **Sphere appears too small in the viewer** | تحقق من أن قيمة نصف القطر مضبوطة بشكل صحيح؛ تذكر أن الوحدات عشوائية ما لم تقم بتطبيق تحويل مقياس. |
+| **Exported OBJ has no material** | Aspose.3D يكتب الهندسة فقط؛ أضف مادة إلى الكرة إذا كنت تحتاج إلى قوام (`sphere.setMaterial(...)`). |
+| **License exception at runtime** | تأكد من تحميل ملف ترخيص مؤقت أو دائم قبل إنشاء الـ `Scene`. |
 
 ## الأسئلة المتكررة
 
-### س: أين يمكنني العثور على توثيق Aspose.3D لـ Java؟
+### س: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.3D لـ Java؟
 
-ج: يمكنك الرجوع إلى [توثيق Aspose.3D لـ Java](https://reference.aspose.com/3d/java/) للحصول على معلومات شاملة وإرشادات الاستخدام.
+A: يمكنك الرجوع إلى [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) للحصول على إرشادات شاملة.
 
 ### س: كيف يمكنني تنزيل Aspose.3D لـ Java؟
 
-ج: حمّل المكتبة من صفحة الإصدارات: [Download Aspose.3D for Java](https://releases.aspose.com/3d/java/).
+A: قم بتنزيل المكتبة من صفحة الإصدارات: [Download Aspose.3D for Java](https://releases.aspose.com/3d/java/).
 
 ### س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.3D لـ Java؟
 
-ج: نعم، استكشف الميزات عبر نسخة تجريبية مجانية بزيارة [Aspose.3D Free Trial](https://releases.aspose.com/).
+A: نعم، استكشف الميزات عبر نسخة تجريبية مجانية بزيارة [Aspose.3D Free Trial](https://releases.aspose.com/).
 
-### س: أين يمكنني الحصول على دعم لـ Aspose.3D لـ Java؟
+### س: أين يمكنني الحصول على الدعم لـ Aspose.3D لـ Java؟
 
-ج: انضم إلى مجتمع Aspose عبر [منتدى دعم Aspose.3D](https://forum.aspose.com/c/3d/18) للحصول على المساعدة والنقاش.
+A: انضم إلى مجتمع Aspose عبر [Aspose.3D Support Forum](https://forum.aspose.com/c/3d/18) للحصول على المساعدة والنقاشات.
 
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.3D؟
 
-ج: احصل على ترخيص مؤقت بزيارة [Temporary License](https://purchase.aspose.com/temporary-license/).
+A: احصل على ترخيص مؤقت بزيارة [Temporary License](https://purchase.aspose.com/temporary-license/).
 
-### س: هل يمكنني استخدام هذا الكود مع صيغ ثلاثية الأبعاد أخرى مثل STL؟
+### س: هل يمكنني استخدام هذا الكود مع صيغ 3D أخرى مثل STL؟
 
-ج: بالتأكيد – فقط غيّر قيمة تعداد `FileFormat` عند استدعاء `scene.save`، مثلاً `FileFormat.STL`.
+A: بالتأكيد – فقط غير تعداد `FileFormat` عند استدعاء `scene.save`، مثلاً `FileFormat.STL`.
 
-## الخاتمة
+## الخلاصة
 
-لقد أتقنت الآن **كيفية استخدام Aspose** لتعديل نصف قطر كرة، وإضافتها إلى مشهد، وتصدير النتيجة كملف OBJ في Java. لا تتردد في تجربة أشكال أخرى، إضافة مواد، أو ربط عدة تحولات لبناء نماذج ثلاثية أبعاد أكثر تعقيدًا.
+الآن تعرف كيف **convert 3D to OBJ** بإضافة كرة، تعديل نصف قطرها، وتصدير النتيجة باستخدام Aspose.3D في Java. جرّب أشكالًا أولية أخرى، طبّق مواد، أو ربط تحويلات متعددة لبناء نماذج أكثر غنى. كلما احتجت إلى **save scene as obj** أو **write obj file java**، ينطبق النمط نفسه.
 
 ---
 
-**آخر تحديث:** 2025-11-30  
-**تم الاختبار مع:** Aspose.3D لـ Java 24.11  
+**آخر تحديث:** 2026-03-31  
+**تم الاختبار مع:** Aspose.3D for Java 24.11  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

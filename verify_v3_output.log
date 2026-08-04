@@ -1,0 +1,207 @@
+Found 78 tutorial files to process
+  ✗ 2 snippets failed in compress-meshes-google-draco
+    Error preview: /tmp/tmp8gljlb4o.java:7: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 4 snippets failed in generate-mesh-data
+    Error preview: /tmp/tmpnb5oouin.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 7 snippets failed in split-meshes-by-material
+    Error preview: /tmp/tmpfsefy0vb.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 6 snippets failed in modify-sphere-radius
+    Error preview: /tmp/tmphmtqdyry.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 4 snippets failed in xpath-like-object-queries
+    Error preview: /tmp/tmpn1hob3ce.java:6: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 5 snippets failed in change-plane-orientation
+    Error preview: /tmp/tmp7e67cjhj.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 2 snippets failed in compress-3d-scenes
+    Error preview: /tmp/tmpsz4ub4e2.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 5 snippets failed in get-scene-information
+    Error preview: /tmp/tmp193qc88k.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 2 snippets failed in managing-3d-properties-scenes
+    Error preview: /tmp/tmp1khxhpoi.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 4 snippets failed in save-custom-mesh-formats
+    Error preview: /tmp/tmppljs2h7c.java:6: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 9 snippets failed in add-animation-properties-to-scenes
+    Error preview: /tmp/tmpqq1la_8g.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 6 snippets failed in set-up-target-camera
+    Error preview: /tmp/tmpomxbp2e6.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 7 snippets failed in creating-cylinders-with-offset-top
+    Error preview: /tmp/tmpgwrxslh6.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 5 snippets failed in creating-cylinders-with-sheared-bottom
+    Error preview: /tmp/tmpi395p49t.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 6 snippets failed in creating-fan-cylinders
+    Error preview: /tmp/tmpyuh7ajet.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 16 snippets failed in apply-materials-to-3d-objects
+    Error preview: /tmp/tmph7ds92be.java:6: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 5 snippets failed in apply-pbr-materials-to-objects
+    Error preview: /tmp/tmpwi8i7mzf.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 4 snippets failed in apply-uv-coordinates-to-3d-objects
+    Error preview: /tmp/tmp27fharkr.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 5 snippets failed in build-node-hierarchies
+    Error preview: /tmp/tmposq4008r.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 9 snippets failed in concatenate-quaternions-for-3d-rotations
+    Error preview: /tmp/tmphj27wyvw.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 6 snippets failed in create-3d-cube-scene
+    Error preview: /tmp/tmpuzmpweaj.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 4 snippets failed in expose-geometric-transformations
+    Error preview: /tmp/tmpolfskfct.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 4 snippets failed in set-up-normals-on-3d-objects
+    Error preview: /tmp/tmpa_xxrmhj.java:3: error: illegal character: '`'
+import java.util.Arrays;```java
+                        ^
+/tmp/tmpa_xxrmhj.java:3: error: illeg...
+  ✗ 6 snippets failed in share-mesh-geometry-data
+    Error preview: /tmp/tmpp2jdd9wb.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 6 snippets failed in transform-3d-nodes-with-euler-angles
+    Error preview: /tmp/tmpbxdzy1nb.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 8 snippets failed in transform-3d-nodes-with-matrices
+    Error preview: /tmp/tmp9hp36dda.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 9 snippets failed in transform-3d-nodes-with-quaternions
+    Error preview: /tmp/tmpiykoo2l7.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 6 snippets failed in triangulate-meshes-for-optimized-rendering
+    Error preview: /tmp/tmp2wazse35.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 7 snippets failed in applying-license-in-aspose-3d
+    Error preview: /tmp/tmpgbm4o08w.java:6: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 7 snippets failed in applying-twist
+    Error preview: /tmp/tmppxnhr5fp.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 9 snippets failed in controlling-center
+    Error preview: /tmp/tmpzx88t70c.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 6 snippets failed in performing-linear-extrusion
+    Error preview: /tmp/tmpp1h5avos.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 7 snippets failed in setting-direction
+    Error preview: /tmp/tmp81p1cx79.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 5 snippets failed in specifying-slices
+    Error preview: /tmp/tmpyudynzhs.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 6 snippets failed in using-twist-offset
+    Error preview: /tmp/tmp8hswfhbp.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 5 snippets failed in create-empty-3d-document
+    Error preview: /tmp/tmp7bb_zxsu.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 9 snippets failed in customize-3d-file-loading
+    Error preview: /tmp/tmpad4tsweq.java:7: error: illegal start of expression
+        public static void discreet3DSLoadOption() {
+        ^
+/tmp/tmpad4tsweq.java:67: e...
+  ✗ 4 snippets failed in detect-3d-file-formats
+    Error preview: /tmp/tmpzx3rw6vn.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 3 snippets failed in optimize-3d-file-saving
+    Error preview: /tmp/tmpbe6axe69.java:11: error: illegal start of expression
+        public static void prettyPrintInGltfSaveOption() throws IOException {
+        ^
+/...
+  ✗ 6 snippets failed in read-existing-3d-scenes
+    Error preview: /tmp/tmp7a3v5v2t.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 6 snippets failed in save-3d-scenes
+    Error preview: /tmp/tmp_6noi37a.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 4 snippets failed in upgrade-materials-to-pbr
+    Error preview: /tmp/tmp4qas_zkl.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 2 snippets failed in create-point-clouds-java
+    Error preview: /tmp/tmpcqc6_dhm.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 3 snippets failed in decode-meshes-java
+    Error preview: /tmp/tmpczpf3gol.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 5 snippets failed in export-3d-scenes-point-clouds-java
+    Error preview: /tmp/tmpjpi_yuro.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 2 snippets failed in export-point-clouds-ply-java
+    Error preview: /tmp/tmpn4ncbwu8.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 4 snippets failed in generate-point-clouds-spheres-java
+    Error preview: /tmp/tmpq8_kj2kh.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 3 snippets failed in load-ply-point-clouds-java
+    Error preview: /tmp/tmpon4ziu_4.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 5 snippets failed in ply-export-point-clouds-java
+    Error preview: /tmp/tmpsjrs4n01.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 4 snippets failed in convert-polygons-triangles
+    Error preview: /tmp/tmp_a45263j.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 8 snippets failed in generate-uv-coordinates
+    Error preview: /tmp/tmpkffjdxhx.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 5 snippets failed in building-primitive-3d-models
+    Error preview: /tmp/tmpbvkpzv90.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 6 snippets failed in basic-rendering
+    Error preview: /tmp/tmp8u7wseyr.java:7: error: illegal start of expression
+        protected static Camera setupScene(Scene scene) {
+        ^
+/tmp/tmp8u7wseyr.java:...
+  ✗ 7 snippets failed in manual-render-targets
+    Error preview: /tmp/tmplg1hxx7k.java:9: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 5 snippets failed in real-time-rendering-swt
+    Error preview: /tmp/tmp2i7950dz.java:9: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 6 snippets failed in render-to-buffered-image
+    Error preview: /tmp/tmpydz458y4.java:9: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 5 snippets failed in render-to-file
+    Error preview: /tmp/tmp2endcnaw.java:9: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 7 snippets failed in convert-primitives-to-meshes
+    Error preview: /tmp/tmpfq_mgrqg.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 4 snippets failed in create-polygons-in-meshes
+    Error preview: /tmp/tmpr2s3vzs4.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 7 snippets failed in customize-mesh-memory-layout
+    Error preview: /tmp/tmpb8cg4uab.java:4: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 4 snippets failed in generate-tangent-binormal-data
+    Error preview: /tmp/tmpq7z1pwpk.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+  ✗ 4 snippets failed in open-vrml-files-java
+    Error preview: /tmp/tmp_3bhwtp0.java:5: error: class CompositeVerify is public, should be declared in a file named CompositeVerify.java
+public class CompositeVerify ...
+
+================================================================================
+VERIFICATION SUMMARY
+================================================================================
+Total files reviewed: 78
+Java code snippets found: 342
+Java snippets verified successfully: 0
+Java snippets with errors: 342
+
+Detailed results saved to: /home/lexchou/workspace/aspose/ref-tutorial/java_verification/results_summary.txt
+
+342 snippets failed verification

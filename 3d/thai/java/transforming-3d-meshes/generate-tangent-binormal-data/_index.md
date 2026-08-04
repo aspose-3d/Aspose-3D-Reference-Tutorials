@@ -53,12 +53,15 @@ import java.io.IOException;
 ## ขั้นตอนที่ 1: โหลดไฟล์ 3D
 โหลดโมเดลต้นฉบับที่ต้องการประมวลผล
 
-```java
+````
 // The path to the documents directory.
 String MyDir = "Your Document Directory";
+MyDir = MyDir + "document.fbx";
 // Load an existing 3D file
-Scene scene = new Scene(MyDir + "document.fbx");
-```
+Scene scene = new Scene();
+scene.open(MyDir);
+````
+
 
 > **เคล็ดลับ:** แทนที่ `"Your Document Directory"` ด้วยพาธเต็มบนเครื่องของคุณ, และตรวจสอบให้แน่ใจว่าชื่อไฟล์ตรงกับไฟล์ FBX จริงที่คุณต้องการแก้ไข  
 

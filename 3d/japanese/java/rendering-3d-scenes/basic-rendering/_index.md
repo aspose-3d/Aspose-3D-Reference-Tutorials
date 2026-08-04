@@ -1,53 +1,52 @@
 ---
-date: 2026-03-13
-description: Aspose.3D を使用して Java で 3D シーンをレンダリングする方法を学びましょう。このガイドでは、マテリアルの適用方法、トーラスの追加方法、そして
-  Java の 3D グラフィックスの基本をマスターする方法を示します。
+title: How to Render 3D Scenes in Java – Basic Rendering Techniques
 linktitle: How to Render 3D Scenes in Java – Basic Rendering Techniques
 second_title: Aspose.3D Java API
-title: Javaで3Dシーンをレンダリングする方法 – 基本的なレンダリング技術
-url: /ja/java/rendering-3d-scenes/basic-rendering/
+description: Learn how to render 3d scenes in Java using Aspose.3D. This guide shows how to apply material, how to add torus, and master java 3d graphics basics.
 weight: 11
+url: /java/rendering-3d-scenes/basic-rendering/
+date: 2026-03-13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Javaで3Dシーンをレンダリングする方法 – 基本的なレンダリング技術をマスターする
+# How to Render 3D Scenes in Java – Master Basic Rendering Techniques
 
-## はじめに
+## Introduction
 
-Aspose.3Dを使用したJavaのエキサイティングな3Dレンダリングの世界へようこそ！このチュートリアルでは、**how to render 3d** シーンをステップバイステップで学びます—シーンの設定、ジオメトリの追加、マテリアルの適用、カメラの構成まで。最後には、ゲームや可視化、または任意のJavaベースの3Dプロジェクトに拡張できる動作サンプルが手に入ります。
+Welcome to the exciting world of 3D rendering in Java with Aspose.3D! In this tutorial you’ll discover **how to render 3d** scenes step by step—from setting up a scene and adding geometry to applying materials and configuring the camera. By the end you’ll have a working example you can extend for games, visualizations, or any Java‑based 3D project.
 
-## クイック回答
-- **使用されているライブラリは？** Aspose.3D for Java  
-- **主な目的は？** 基本的な形状とマテリアルで **how to render 3d** シーンを学ぶ  
-- **必要な前提条件は？** Javaの基礎、Aspose.3Dライブラリのインストール、シンプルなIDE  
-- **典型的な実行時間は？** 小規模なシーンのレンダリングは、最新ハードウェアで1秒未満です  
-- **トーラスを追加できますか？** はい – 以下の *how to add torus* セクションをご覧ください  
+## Quick Answers
+- **What library is used?** Aspose.3D for Java  
+- **Primary goal?** Learn **how to render 3d** scenes with basic shapes and materials  
+- **Key prerequisites?** Java basics, Aspose.3D library installed, and a simple IDE  
+- **Typical runtime?** Rendering a small scene takes less than a second on modern hardware  
+- **Can I add a torus?** Yes – see the *how to add torus* section below  
 
-## Javaで「how to render 3d」とは何ですか？
+## What is “how to render 3d” in Java?
 
-3Dレンダリングとは、仮想シーン（オブジェクト、ライト、カメラ）を画面に表示したりファイルに保存したりできる2次元画像に変換することです。Aspose.3Dを使用すれば、すべてのステップをプログラムで制御でき、カスタム可視化に対して完全な柔軟性が得られます。
+Rendering 3D means converting a virtual scene—objects, lights, and cameras—into a 2‑D image that you can display on screen or save to a file. With Aspose.3D you control every step programmatically, giving you full flexibility for custom visualizations.
 
-## なぜAspose.3D for Javaを使うのか？
+## Why use Aspose.3D for Java?
 
-- **Pure Java API** – ネイティブ依存がなく、任意のJavaプロジェクトに簡単に統合できます。  
-- **Rich geometry support** – プレーン、トーラス、シリンダーなどが標準で利用可能です。  
-- **Material system** – カラー、透明度、シェーディングなどの **apply material** プロパティを簡単に設定できます。  
-- **Cross‑platform rendering** – Windows、Linux、macOSで動作します。
+- **Pure Java API** – no native dependencies, easy to integrate into any Java project.  
+- **Rich geometry support** – planes, torus, cylinders, and more out of the box.  
+- **Material system** – straightforward ways to **apply material** properties such as color, transparency, and shading.  
+- **Cross‑platform rendering** – works on Windows, Linux, and macOS.
 
-## 前提条件
+## Prerequisites
 
-本格的に始める前に、以下が揃っていることを確認してください：
+Before diving in, make sure you have:
 
-- Javaプログラミングの基本知識。  
-- Aspose.3D for Java がインストールされていること。まだダウンロードしていない場合は、**[here](https://releases.aspose.com/3d/java/)** から取得してください。  
-- 基本的な3Dグラフィックス概念（メッシュ、ライト、カメラ）を理解していること。
+- Basic knowledge of Java programming.  
+- Aspose.3D for Java installed. If you haven’t downloaded it yet, get it **[here](https://releases.aspose.com/3d/java/)**.  
+- A grasp of fundamental 3D graphics concepts (meshes, lights, cameras).
 
-## パッケージのインポート
+## Import Packages
 
-まず、Aspose.3Dクラスと、色処理のための標準 `java.awt` パッケージをインポートします。
+First, import the Aspose.3D classes and the standard `java.awt` package for color handling.
 
 ```java
 import com.aspose.threed.*;
@@ -55,101 +54,120 @@ import com.aspose.threed.*;
 import java.awt.*;
 ```
 
-## 基本的なレンダリング技術をマスターする
+## Master Basic Rendering Techniques
 
-以下に、完全なステップバイステップガイドを示します。各ステップは簡単な説明と、元のコードブロック（変更なし）で構成されています。
+Below is the complete step‑by‑step guide. Each step includes a short explanation followed by the original code block (unchanged).
+### Step 1: Setting up the Scene (how to apply material – camera & lighting)
 
-### ステップ1: シーンの設定 (how to apply material – camera & lighting)
+We create a `Scene` object, add a camera, and configure basic lighting.
+\u0060\u0060\u0060\u0060java
+// Create a scene and add a camera with lighting
+Scene scene = new Scene();
+Node light = scene.getRootNode().createChildNode(\u0022light\u0022, new Light());light.getTransform().setTranslation(10, 10, 10);
 
-`Scene` オブジェクトを作成し、カメラを追加、基本的な照明を設定します。ヘルパーメソッドは設定済みの `Camera` インスタンスを返します。
+Camera camera = new Camera();
+scene.getRootNode().createChildNode(camera);
+camera.setNearPlane(0.1);
+camera.getParentNode().getTransform().setTranslation(0, 5, 10);camera.setLookAt(Vector3.getZero());
+\u0060\u0060\u0060\u0060
 
-```java
-protected static Camera setupScene(Scene scene) {
-    // Code for setting up camera and lighting
-    // ...
-    return camera;
-}
-```
+### Step 2: Creating a Plane (java 3d graphics basics)
+A simple plane gives us a ground reference. We also **apply material** by setting a solid color.
 
-### ステップ2: プレーンの作成 (java 3d graphics basics)
+````java// Create a plane geometry
+Plane planeObj = new Plane();
+planeObj.setLength(20);
+planeObj.setWidth(20);
 
-シンプルなプレーンは地面の基準となります。また、実体色を設定して **apply material** を行います。
+// Create the node with the plane's mesh
+Node plane = scene.getRootNode().createChildNode(\u0022plane\u0022, planeObj.toMesh());
 
-```java
-Node plane = scene.getRootNode().createChildNode("plane", (new Plane(20, 20)).toMesh());
-applyMaterial(plane, new Color(0xff8c00));
+// Create a material and apply it to the node
+PhongMaterial material = new PhongMaterial();
+material.setDiffuseColor(new Vector3(0.545, 0.0, 0.0)); // dark orange
+plane.setMaterial(material);
+
+// Set plane position and shadow properties
 plane.getTransform().setTranslation(0, 0, 0);
 ((Mesh)plane.getEntity()).setReceiveShadows(true);
-```
+\u0060\u0060\u0060\u0060
 
-### ステップ3: トーラスの追加 (how to add torus)
+### Step 3: Adding a Torus (how to add torus)
+A torus demonstrates how to work with more complex geometry and transparent materials.
 
-トーラスは、より複雑なジオメトリと透明マテリアルの扱い方を示します。
+````java
+// Create a torus geometry
+Torus torusObj = new Torus();
+torusObj.setRadius(1);
+torusObj.setTube(0.4);
+torusObj.setRadialSegments(50);
+torusObj.setTubularSegments(50);
+torusObj.setArc(Math.PI * 2);
 
-```java
-Mesh torusMesh = (new Torus("", 1, 0.4, 50, 50, Math.PI*2)).toMesh();
-Node torus = scene.getRootNode().createChildNode("torus", torusMesh);
-applyMaterial(torus, new Color(0x330c93)).setTransparency(0.3);
-torus.getTransform().setTranslation(2, 1, 1);
-```
+// Create the node with the torus' mesh
+Node torus = scene.getRootNode().createChildNode("torus", torusObj.toMesh());
 
-### ステップ4: シリンダーの組み込み (additional shapes)
+// Create a material with transparency and apply it
+PhongMaterial material = new PhongMaterial();
+material.setDiffuseColor(new Vector3(0.2, 0.05, 0.58)); // purple
+material.setTransparency(0.3);
+torus.setMaterial(material);
 
-ここでは、異なる回転とマテリアルを持つシリンダーをいくつか追加し、シーンを豊かにします。
+// Position the torustorus.getTransform().setTranslation(2, 1, 1);
+\u0060\u0060\u0060\u0060
+
+### Step 4: Incorporating Cylinders (additional shapes)
+Here we add a few cylinders with different rotations and materials to enrich the scene.
 
 ```java
 // Code for adding cylinders with specific rotations and materials
 // ...
 ```
+### Step 5: Configuring the Camera (final view)
 
-### ステップ5: カメラの設定 (final view)
+The camera determines the viewpoint from which the scene is rendered.
 
-カメラは、シーンがレンダリングされる視点を決定します。
-
-```java
+````java
 Camera camera = new Camera();
 scene.getRootNode().createChildNode(camera);
 camera.setNearPlane(0.1);
-camera.getParentNode().getTransform().setTranslation(10, 5, 10);
-camera.setLookAt(Vector3.ORIGIN);
+camera.getParentNode().getTransform().setTranslation(10, 5, 10);camera.setLookAt(Vector3.getZero());
 return camera;
-```
+\u0060\u0060\u0060\u0060
 
-## よくある問題と解決策
+## Common Issues and Solutions
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| Objects appear invisible | Material transparency set to 1.0 or missing light | Reduce transparency (`setTransparency(0.3)`) and ensure a light source exists |
+| Camera looks through the scene | `LookAt` target not set to the origin | Use `camera.setLookAt(Vector3.getZero())` as shown |
+| Meshes don't receive shadows | `setReceiveShadows(true)` not called on the mesh | Call it on each mesh you want to cast/receive shadows |
+## Frequently Asked Questions
 
-| 問題 | 発生原因 | 対策 |
-|------|----------|------|
-| オブジェクトが見えない | マテリアルの透明度が1.0に設定されている、またはライトが欠如している | 透明度を下げる（`setTransparency(0.3)`）と、光源が存在することを確認する |
-| カメラがシーンを通り抜けている | `LookAt` のターゲットが原点に設定されていない | 例のように `camera.setLookAt(Vector3.ORIGIN)` を使用する |
-| メッシュが影を受け取らない | メッシュで `setReceiveShadows(true)` が呼び出されていない | 影を投げたり受け取ったりしたい各メッシュで呼び出す |
+### Q1: Where can I find Aspose.3D for Java documentation?
 
-## よくある質問
+A1: You can refer to the **[documentation](https://reference.aspose.com/3d/java/)** for detailed information.
 
-### Q1: Aspose.3D for Java のドキュメントはどこで見つけられますか？
+### Q2: How can I obtain a temporary license for Aspose.3D?
 
-A1: 詳細情報は **[documentation](https://reference.aspose.com/3d/java/)** を参照してください。
+A2: Visit **[this link](https://purchase.aspose.com/temporary-license/)** to get a temporary license.
 
-### Q2: Aspose.3D の一時ライセンスはどう取得できますか？
+### Q3: Are there any example projects using Aspose.3D for Java?
 
-A2: **[this link](https://purchase.aspose.com/temporary-license/)** にアクセスして一時ライセンスを取得してください。
+A3: Explore the **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)** for community discussions and example projects.
 
-### Q3: Aspose.3D for Java を使用したサンプルプロジェクトはありますか？
+### Q4: Can I try Aspose.3D for Java for free?
 
-A3: コミュニティの議論やサンプルプロジェクトは **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)** で確認してください。
+A4: Yes, you can download a free trial **[here](https://releases.aspose.com/)**.
 
-### Q4: Aspose.3D for Java を無料で試せますか？
+### Q5: Where can I purchase Aspose.3D for Java?
 
-A4: はい、無料トライアルは **[here](https://releases.aspose.com/)** からダウンロードできます。
-
-### Q5: Aspose.3D for Java はどこで購入できますか？
-
-A5: 製品は **[here](https://purchase.aspose.com/buy)** で購入できます。
+A5: You can buy the product **[here](https://purchase.aspose.com/buy)**.
 
 ---
 
-**最終更新日:** 2026-03-13  
-**テスト環境:** Aspose.3D for Java（最新リリース）  
-**作者:** Aspose  
+**Last Updated:** 2026-03-13  
+**Tested With:** Aspose.3D for Java (latest release)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

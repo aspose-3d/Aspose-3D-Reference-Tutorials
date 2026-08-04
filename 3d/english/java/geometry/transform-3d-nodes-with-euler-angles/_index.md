@@ -44,36 +44,41 @@ import com.aspose.threed.*;
 ## Create Mesh Aspose Java
 
 The first step in any 3D workflow is to **create mesh aspose java** – that is, build the geometric data that will later be transformed. In this example we’ll generate a simple cube mesh using Aspose’s helper methods and attach it to a node.
-
 ### aspose 3d java – Working with Euler Angles
 
 #### Step 1. Initialize Scene and Node
 
 First, create a scene and a node that will hold the geometry you want to transform.
 
-```java
+````java
 // ExStart:AddTransformationToNodeByEulerAngles
 // Initialize scene object
 Scene scene = new Scene();
 
 // Initialize Node class object
 Node cubeNode = new Node("cube");
-```
 
-#### Step 2. Create Mesh and Set Geometry
+// Step 2. Create Mesh and Set Geometry
 
-Next, generate a simple mesh (a cube in this case) and attach it to the node.
-
-```java
-// Call Common class create mesh using polygon builder method to set mesh instance
-Mesh mesh = Common.createMeshUsingPolygonBuilder();
+// Create a new mesh instance
+Mesh mesh = new Mesh();
+PolygonBuilder builder = new PolygonBuilder(mesh);
+builder.begin();
+builder.addVertex(0);
+builder.addVertex(1);
+builder.addVertex(2);
+builder.addVertex(3);
+builder.addVertex(4);
+builder.addVertex(5);
+builder.addVertex(6);
+builder.addVertex(7);
+builder.end();
 
 // Point node to the Mesh geometry
 cubeNode.setEntity(mesh);
-```
+````
 
 ## Add Rotation 3D to a Node
-
 #### Step 3. Set Euler Angles and Translation
 
 Now we apply the rotation using Euler angles and also move the node to a visible position.

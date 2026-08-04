@@ -1,143 +1,140 @@
 ---
-date: 2025-11-30
-description: تعلم كيفية إنشاء ملف OBJ مع تغيير اتجاه المستوى في Aspose.3D للغة Java.
-  اتبع التعليمات خطوة بخطوة لإنشاء مشهد ثلاثي الأبعاد مع تحديد موضع دقيق.
-linktitle: Generate OBJ File by Modifying Plane Orientation for Precise 3D Scene Positioning
-  in Java
-second_title: Aspose.3D Java API
-title: إنشاء ملف OBJ بتعديل اتجاه المستوى لتحديد موضع المشهد ثلاثي الأبعاد بدقة في
-  Java
-url: /ar/java/3d-scenes-and-models/change-plane-orientation/
+title: "How to Change Plane Orientation and Export OBJ in Java"
+linktitle: "How to Change Plane Orientation and Export OBJ in Java"
+second_title: "Aspose.3D Java API"
+description: "Learn how to change plane orientation and export OBJ in Java using Aspose.3D. Step‑by‑step guide to export 3D model OBJ files."
 weight: 10
+url: /java/3d-scenes-and-models/change-plane-orientation/
+date: 2026-04-29
+keywords:
+- change plane orientation
+- create sloped plane
+- export obj java
+- aspose 3d export obj
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء ملف OBJ عن طريق تعديل اتجاه المستوى للحصول على تموضع دقيق للمشهد ثلاثي الأبعاد في Java
+# How to Change Plane Orientation and Export OBJ in Java
 
-## المقدمة
+## Introduction
 
-في هذا الدرس ستتعلم **كيفية إنشاء ملف OBJ** بعد **تغيير اتجاه المستوى** باستخدام Aspose.3D Java API. تعديل المتجه الصاعد للمستوى يمنحك تحكمًا دقيقًا في وضع الكائنات داخل سير عمل **إنشاء مشهد ثلاثي الأبعاد**، وهو أمر أساسي للألعاب والمحاكاة والتصوير المعماري.
+In this tutorial you’ll discover **how to change plane orientation** and **export OBJ** files from Java using the Aspose.3D Java API. Adjusting a plane’s up‑vector gives you fine‑grained control over object placement inside a **create 3D scene** workflow—perfect for games, simulations, and architectural visualizations where exact positioning matters.
 
-## إجابات سريعة
-- **ماذا يعني “إنشاء ملف OBJ”؟** يعني تصدير نموذج ثلاثي الأبعاد إلى صيغة Wavefront OBJ، وهي نوع ملف شبكة مدعوم على نطاق واسع.  
-- **لماذا تعديل اتجاه المستوى؟** تغيير المتجه الصاعد للمستوى يتيح لك محاذاة الهندسة تمامًا حيث تحتاجها في المشهد.  
-- **هل أحتاج إلى ترخيص لتشغيل الكود؟** النسخة التجريبية المجانية تكفي للتطوير؛ يلزم ترخيص تجاري للإنتاج.  
-- **ما نسخة Java المدعومة؟** Aspose.3D يعمل مع Java 8 وما فوق.  
-- **هل يمكنني تصدير صيغ أخرى؟** نعم – API يدعم أيضًا FBX و STL وغيرها.
+## Quick Answers
+- **What does “export OBJ” mean?** It means converting a 3‑D scene into the Wavefront OBJ format, a universally supported mesh file type.  
+- **Why adjust plane orientation?** Changing the plane’s up‑vector lets you align geometry exactly where you need it in the scene.  
+- **Do I need a license to run the code?** A free trial works for development; a commercial license is required for production.  
+- **Which Java version is supported?** Aspose.3D works with Java 8 and newer.  
+- **Can I export other formats?** Yes – the API also supports FBX, STL, and more.
 
-## ما هو “إنشاء ملف OBJ”؟
-إنشاء ملف OBJ هو عملية تحويل المشهد ثلاثي الأبعاد الموجود في الذاكرة والذي تم إنشاؤه باستخدام Aspose.3D إلى ملف محمول يمكن فتحه بمعظم أدوات النمذجة ثلاثية الأبعاد، محركات الألعاب، وعارضات المشاهد.
+## What is “change plane orientation”?
+Changing plane orientation is the process of redefining a plane’s **up‑vector** so that the plane tilts away from the default XY‑plane. This lets you **create sloped plane** geometry such as ramps, roofs, or custom reference planes before exporting the model.
 
-## لماذا تعديل اتجاه المستوى؟
-تغيير اتجاه المستوى (باستخدام **how to set plane up**) يتيح لك:
+## Why modify plane orientation?
+Altering the plane’s orientation (using **how to set plane up**) lets you:
 
-* محاذاة الكائنات مع محاور مخصصة بدلاً من محاور العالم الافتراضية.  
-* محاكاة أسطح مائلة مثل المنحدرات أو الأسقف أو مستويات مرجعية للكاميرا.  
-* ضمان أن شبكات OBJ المصدرة تتطابق مع النية البصرية لتصميمك.
+* Align objects with custom axes instead of the default world axes.  
+* Simulate tilted surfaces such as ramps, roofs, or camera reference planes.  
+* Ensure that exported OBJ meshes match the visual intent of your design, making the **export 3d model obj** step reliable.
 
-## المتطلبات المسبقة
+## Prerequisites
 
-قبل أن نبدأ، تأكد من أن لديك:
+Before we start, make sure you have:
 
-- فهم أساسي لبرمجة Java.  
-- Aspose.3D for Java مثبت – حمّله [هنا](https://releases.aspose.com/3d/java/).  
-- بيئة تطوير Java أو أداة بناء (مثل IntelliJ IDEA أو Maven أو Gradle) جاهزة للبرمجة.
+- A basic understanding of Java programming.  
+- Aspose.3D for Java installed – download it [here](https://releases.aspose.com/3d/java/).  
+- A Java IDE or build tool (e.g., IntelliJ IDEA, Maven, or Gradle) ready for coding.
 
-## استيراد الحزم
+## Import Packages
 
-أولاً، استورد الفئات التي تمنحك الوصول إلى وظائف Aspose.3D.
-
-```java
-import com.aspose.threed.FileFormat;
+First, import the classes that give you access to the Aspose.3D functionality.\u0060\u0060\u0060javaimport com.aspose.threed.FileFormat;
 import com.aspose.threed.Plane;
 import com.aspose.threed.Scene;
 import com.aspose.threed.Vector3;
-```
 
-## دليل خطوة بخطوة
+import java.io.IOException;\u0060\u0060\u0060
 
-### الخطوة 1: تعيين مسار دليل المستند  
-حدد المكان الذي سيُحفظ فيه ملف OBJ المُولد.
+## Step-by-Step Guide### Step 1: Set Document Directory Path  
+Define where the exported OBJ file will be saved.
 
-```java
+````java
 String MyDir = "Your Document Directory";
-```
+````
 
-استبدل `"Your Document Directory"` بالمسار المطلق على جهازك (مثال: `C:/3DOutputs/`).
+Replace `"Your Document Directory"` with the absolute path on your machine (e.g., `C:/3DOutputs/`).
 
-### الخطوة 2: تهيئة المشهد – إنشاء مشهد ثلاثي الأبعاد  
-أنشئ كائن مشهد جديد سيحمل جميع الهندسات.
+### Step 2: Initialize the Scene – create 3D scene  
+Create a fresh scene object that will hold all geometry.
 
-```java
+````java
 Scene scene = new Scene();
-```
+````
 
-### الخطوة 3: تهيئة المستوى – كيفية تعديل المستوى  
-أنشئ كائن `Plane` سنقوم بتوجيهه لاحقًا.
+### Step 3: Initialize the Plane – how to modify plane  
+Instantiate a `Plane` object that we will later orient.
 
-```java
+````java
 Plane plane = new Plane();
-```
+````
 
-### الخطوة 4: تعيين المتجه – كيفية تعيين صعود المستوى  
-حدد متجه صعود مخصص للمستوى. هذا هو جوهر **تعديل اتجاه المستوى**.
+### Step 4: Set Vector – how to set plane up  
+Define a custom up-vector for the plane. This is the core of **change plane orientation**.
+The vector `(1, 1, 3)` tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.### Step 5: Complete the Plane Orientation and Export  
+ Define a custom up-vector for the plane. This is the core of **change plane orientation**.\u0060\u0060\u0060\u0060java
+// ExStart:ChangePlaneOrientation
+try {
+    plane.setUp(new Vector3(1, 1, 3));
+    
+    scene.getRootNode().createChildNode(plane);
+    
+    scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
+} catch (IOException e) {
+    e.printStackTrace();
+}// ExEnd:ChangePlaneOrientation
+\u0060\u0060\u0060
 
-```java
-plane.setUp(new Vector3(1, 1, 3));
-```
+After this call, you'll find \u0060ChangePlaneOrientation.obj\u0060 in the directory you specified, ready for any **aspose 3d export obj** workflow.## Common Issues and Solutions
 
-المتجه `(1, 1, 3)` يميل المستوى بعيدًا عن المستوى XY الافتراضي، مما يمنحك سطحًا مائلًا.
-
-### الخطوة 5: إنشاء المستوى – إضافة المستوى إلى المشهد  
-أرفق المستوى بعقدة الجذر حتى يصبح جزءًا من هيكلية المشهد.
-
-```java
-scene.getRootNode().createChildNode(plane);
-```
-
-### الخطوة 6: حفظ المشهد – إنشاء ملف OBJ  
-صدّر المشهد بالكامل، بما في ذلك المستوى الموجه، إلى ملف OBJ.
-
-```java
-scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
-```
-
-بعد هذا الاستدعاء، ستجد `ChangePlaneOrientation.obj` في الدليل الذي حددته.
-
-## المشكلات الشائعة والحلول
-
-| المشكلة | لماذا يحدث | الحل |
+| Issue | Why It Happens | Fix |
 |-------|----------------|-----|
-| **خطأ “الملف غير موجود”** عند الحفظ | `MyDir` غير موجود أو لا يملك صلاحية كتابة | أنشئ المجلد مسبقًا أو استخدم مسارًا مطلقًا مع صلاحيات مناسبة. |
-| يظهر المستوى مسطحًا في العارض | المتجه متوازي مع المتجه الصاعد الافتراضي | اختر متجهًا غير موازٍ (مثال: `(1, 0, 1)`) لتلاحظ الميل. |
-| ملف OBJ يُحمَّل بدون قوام | القوام لم تُضاف إلى المشهد | أرفق مادة/قوام إلى الهندسة قبل التصدير إذا لزم الأمر. |
+| **File not found** error when saving | `MyDir` does not exist or lacks write permission | Create the folder beforehand or use an absolute path with proper permissions. |
+| Plane appears flat in the viewer | Vector is collinear with default up‑vector | Choose a non‑parallel vector (e.g., `(1, 0, 1)`) to see a visible tilt. |
+| OBJ file loads with missing textures | Textures were never added to the scene | Attach material/texture to geometry before exporting if needed. |
 
-## الأسئلة المتكررة
+## Frequently Asked Questions
 
-**س: هل يمكنني استخدام Aspose.3D for Java مع لغات برمجة أخرى؟**  
-ج: نعم، Aspose.3D يدعم Java و .NET ومنصات أخرى عبر واجهات برمجة تطبيقات مخصصة لكل لغة.
+**Q: Can I use Aspose.3D for Java with other programming languages?**  
+A: Yes, Aspose.3D supports Java, .NET, and other platforms via language‑specific APIs.
 
-**س: هل تتوفر نسخة تجريبية مجانية لـ Aspose.3D؟**  
-ج: بالتأكيد! يمكنك استكشاف ميزات Aspose.3D عبر النسخة التجريبية [هنا](https://releases.aspose.com/).
+**Q: Is a free trial available for Aspose.3D?**  
+A: Certainly! You can explore the features of Aspose.3D by accessing the free trial [here](https://releases.aspose.com/).
 
-**س: أين يمكنني العثور على الدعم لـ Aspose.3D؟**  
-ج: لأي استفسارات أو مساعدة، زر منتدى [الدعم](https://forum.aspose.com/c/3d/18).
+**Q: Where can I find support for Aspose.3D?**  
+A: For any queries or assistance, visit our [support forum](https://forum.aspose.com/c/3d/18).
 
-**س: كيف يمكنني شراء Aspose.3D؟**  
-ج: لشراء Aspose.3D، زر صفحة [الشراء](https://purchase.aspose.com/buy).
+**Q: How can I purchase Aspose.3D?**  
+A: To purchase Aspose.3D, visit our [buy page](https://purchase.aspose.com/buy).
 
-**س: هل هناك خيار ترخيص مؤقت؟**  
-ج: نعم، إذا كنت تحتاج إلى ترخيص مؤقت، يمكنك الحصول عليه [هنا](https://purchase.aspose.com/temporary-license/).
+**Q: Is there a temporary license option?**  
+A: Yes, if you need a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
 
-**س: هل يمكنني تصدير المشهد إلى صيغ غير OBJ؟**  
-ج: بالتأكيد. طريقة `Scene.save` تدعم FBX و STL والعديد من الصيغ الأخرى – فقط غيّر قيمة تعداد `FileFormat`.
+**Q: Can I export the scene to formats other than OBJ?**  
+A: Absolutely. The `Scene.save` method supports FBX, STL, and several other formats – just change the `FileFormat` enum.
 
-## الخاتمة
+## Conclusion
+### Step 4: Set Vector \u2013 how to set plane up  \nDefine a custom up-vector for the plane. This is the core of **change plane orientation**.\nThe vector \u0060(1, 1, 3)\u0060 tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.
 
-باتباع الخطوات أعلاه، تعلمت **كيفية إنشاء ملف OBJ** مع **تغيير اتجاه المستوى** في Aspose.3D for Java. جرّب متجهات صعود مختلفة لإنشاء منحدرات مخصصة أو مستويات مائلة أو مستويات مرجعية للكاميرا، ودمج ملفات OBJ المصدرة في خطوط عملك اللاحقة—سواء كان ذلك في محرك ألعاب، أداة CAD، أو عارض 3‑D على الويب.
+### Step 5: Complete the Plane Orientation and Export  \nDefine a custom up-vector for the plane. This is the core of **change plane orientation**.
+
+\u0060\u0060\u0060\u0060java
+---
+
+**Last Updated:** 2026-04-29  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -145,11 +142,3 @@ scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-11-30  
-**تم الاختبار مع:** Aspose.3D for Java 24.11  
-**المؤلف:** Aspose  
-
----

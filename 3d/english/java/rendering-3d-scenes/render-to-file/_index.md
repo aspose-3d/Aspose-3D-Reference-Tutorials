@@ -33,10 +33,6 @@ To get started, import the required packages into your Java project. The followi
 import com.aspose.threed.*;
 
 
-import javax.imageio.ImageIO;
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.io.File;
 import java.io.IOException;
 ```
 
@@ -47,15 +43,20 @@ Initialize a 3D scene using the Aspose.3D for Java library. This will serve as t
 ```java
 Scene scene = new Scene();
 ```
-
 ## Step 2: Set Up the Camera
 
-Define the camera parameters to capture the scene from the desired perspective. The `setupScene` method is called to configure the camera.
+Define the camera parameters to capture the scene from the desired perspective.
 
-```java
-Camera camera = setupScene(scene);
-```
+````java
+Node light = scene.getRootNode().createChildNode("light", new Light());
+light.getTransform().setTranslation(10, 10, 10);
 
+Camera camera = new Camera();
+scene.getRootNode().createChildNode(camera);
+camera.setNearPlane(0.1);
+camera.getParentNode().getTransform().setTranslation(0, 5, 10);
+camera.setLookAt(Vector3.getZero());
+````
 ## Step 3: Specify Output File
 
 Choose the output file format and provide a filename for the rendered image. In this example, we'll use PNG format.
@@ -66,10 +67,10 @@ String output = "render-to-file.png";
 
 ## Step 4: Render the Scene
 
-Utilize the `render` method to transform your 3D scene into a 2D image file. Adjust the dimensions and output format as needed.
+Utilize the `render` method to transform your 3D scene into a 2D image file. The `render` method takes the camera, output file path, dimensions, and format as parameters.
 
 ```java
-scene.render(camera, output, new Dimension(1024, 1024), "png");
+scene.render(camera, output, new com.aspose.threed.Vector2(1024, 1024), "png");
 ```
 
 ## Conclusion

@@ -1,33 +1,55 @@
 ---
-title: Membuat Silinder Kipas yang Disesuaikan dengan Aspose.3D untuk Java
-linktitle: Membuat Silinder Kipas yang Disesuaikan dengan Aspose.3D untuk Java
-second_title: Asumsikan.3D Java API
-description: Pelajari cara membuat silinder kipas khusus di Java dengan Aspose.3D. Tingkatkan permainan pemodelan 3D Anda dengan mudah.
-weight: 10
+date: 2026-04-03
+description: Pelajari cara membuat bentuk kipas silinder di Java dengan Aspose.3D.
+  Panduan ini mencakup pemodelan 3D Java dan teknik menyimpan file OBJ di Java.
+keywords:
+- create cylinder fan shape
+- save obj file java
+- aspose 3d export obj
+linktitle: Cara membuat bentuk kipas silinder menggunakan Aspose.3D untuk Java
+second_title: Aspose.3D Java API
+title: Cara membuat bentuk kipas silinder menggunakan Aspose.3D untuk Java
 url: /id/java/cylinders/creating-fan-cylinders/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membuat Silinder Kipas yang Disesuaikan dengan Aspose.3D untuk Java
+# Cara membuat bentuk kipas silinder menggunakan Aspose.3D untuk Java
 
-## Perkenalan
+## Pendahuluan
 
-Apakah Anda siap untuk meningkatkan pengalaman pemodelan 3D Anda dengan Aspose.3D untuk Java? Tutorial ini akan memandu Anda melalui proses pembuatan silinder kipas khusus menggunakan pustaka Aspose.3D yang kuat. Baik Anda seorang pengembang berpengalaman atau pemula, panduan langkah demi langkah ini akan membantu Anda mengeluarkan potensi penuh Aspose.3D di Java.
+Siap menguasai **cara membuat bentuk kipas silinder** dalam lingkungan Java? Dalam tutorial ini kami akan membahas setiap langkah— mulai dari menyiapkan scene hingga mengekspor file Wavefront OBJ— menggunakan Aspose.3D. Baik Anda sedang membuat aset game, prototipe CAD, atau sekadar bereksperimen dengan geometri 3D, Anda akan melihat betapa mudahnya pemodelan 3D Java dengan pustaka yang kuat ini.
+
+## Jawaban Cepat
+- **Apa tujuan utama?** Membuat silinder berbentuk kipas yang dapat disesuaikan dan menyimpannya sebagai file OBJ.  
+- **Pustaka mana yang digunakan?** Aspose.3D untuk Java.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Apa prasyaratnya?** JDK terpasang dan paket Aspose.3D Java ditambahkan ke proyek Anda.  
+- **Bisakah saya mengekspor format lain?** Ya—Aspose.3D mendukung banyak format; contoh ini menggunakan Wavefront OBJ.
+
+## Apa itu Silinder Kipas?
+
+Silinder kipas adalah silinder permukaan parsial di mana sebuah sektor dari basis melingkar dihilangkan, menghasilkan bukaan “kipas”. Geometri ini berguna untuk memvisualisasikan irisan, dasbor, atau bagian mekanik khusus.
+
+## Mengapa menggunakan Aspose.3D untuk pemodelan 3D Java?
+
+Aspose.3D menyediakan API yang bersih dan berorientasi objek yang mengabstraksi matematika tingkat rendah dari grafik 3D. Anda dapat fokus pada desain daripada keanehan format file, dan pustaka ini menangani operasi **save obj file java** secara otomatis.
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki:
 
-- Java Development Kit (JDK): Pastikan Anda telah menginstal JDK di sistem Anda. Anda dapat mengunduhnya[Di Sini](https://www.oracle.com/java/technologies/javase-downloads.html).
+- **Java Development Kit (JDK)** – unduh di [sini](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.3D for Java** – dapatkan JAR terbaru dari [tautan unduhan](https://releases.aspose.com/3d/java/).  
 
--  Aspose.3D untuk Java: Unduh dan instal perpustakaan Aspose.3D untuk Java dari[tautan unduhan](https://releases.aspose.com/3d/java/).
+Tambahkan JAR Aspose.3D ke classpath proyek Anda.
 
-## Paket Impor
+## Impor Paket
 
-Mulailah dengan mengimpor paket yang diperlukan ke proyek Java Anda. Langkah ini penting untuk mengakses fungsionalitas yang disediakan oleh Aspose.3D.
+Mulailah dengan mengimpor kelas yang diperlukan. Ini memberi Anda akses ke scene 3D, primitif geometri, dan metode utilitas.
 
 ```java
 import com.aspose.threed.*;
@@ -36,100 +58,104 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Langkah 1: Buat Adegan
+## Langkah 1: Membuat Scene
 
-Mulailah dengan menginisialisasi adegan 3D menggunakan cuplikan kode berikut:
+Pertama, kita membuat instance baru `Scene`. Anggap scene sebagai wadah yang menampung semua objek 3D, cahaya, dan kamera Anda.
 
 ```java
-// MantanMulai:2
-// Membuat heboh
+// ExStart:2
+// Create a Scene
 Scene scene = new Scene();
 // ExEnd:2
 ```
 
-Ini menyiapkan panggung untuk petualangan pemodelan 3D Anda.
+## Langkah 2: Membuat Silinder Kipas (cara membuat silinder)
 
-## Langkah 2: Buat Silinder Kipas
-
-Sekarang, mari membuat silinder kipas menggunakan perpustakaan Aspose.3D:
+Sekarang kita membangun silinder kipas itu sendiri. Parameter konstruktor menentukan radius, tinggi, tessellation, dan apakah geometri dihasilkan sebagai kipas.
 
 ```java
-// MantanMulai:3
-// Buat silinder dengan kipas
+// ExStart:3
+// Create a cylinder with fan
 Cylinder fan = new Cylinder(2, 2, 10, 20, 1, false);
 fan.setGenerateFanCylinder(true);
 fan.setThetaLength(MathUtils.toRadian(270.0));
 // ExEnd:3
 ```
 
-Cuplikan ini mengatur dimensi silinder, memungkinkan pembuatan kipas, dan menentukan panjang theta.
+> **Pro tip:** Sesuaikan `setThetaLength` untuk mengubah sudut bukaan. 270° menghasilkan kipas tiga perempat; 180° akan menghasilkan setengah silinder.
 
-## Langkah 3: Posisikan Silinder Kipas
+## Langkah 3: Menempatkan Silinder Kipas
 
-Tempatkan silinder kipas dalam adegan 3D dengan menambahkannya sebagai simpul anak dan mengatur terjemahannya:
+Selanjutnya, kita menambahkan silinder kipas ke scene dan memindahkannya ke lokasi yang nyaman. Koordinat translasi berada dalam urutan (X, Y, Z).
 
 ```java
-// MantanMulai:4
-// Buat ChildNode dan atur terjemahan
+// ExStart:4
+// Create ChildNode and set translation
 scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0);
 // ExEnd:4
 ```
 
-Ini memposisikan silinder kipas pada koordinat (10, 0, 0) dalam pemandangan.
+## Langkah 4: Membuat Silinder Non‑Kipas (perbandingan pemodelan 3D Java)
 
-## Langkah 4: Buat Silinder Non-Kipas
-
-Mari kita juga membuat silinder non-kipas untuk menampilkan fleksibilitas Aspose.3D:
+Untuk mengilustrasikan fleksibilitas Aspose.3D, kami juga membuat silinder biasa tanpa bukaan kipas.
 
 ```java
-// MantanMulai:5
-// Buat silinder tanpa kipas
+// ExStart:5
+// Create a cylinder without a fan
 Cylinder nonfan = new Cylinder(2, 2, 10, 20, 1, false);
-// Buat Node Anak
+// Create ChildNode
 scene.getRootNode().createChildNode(nonfan);
 // ExEnd:5
 ```
 
-Cuplikan ini menghasilkan silinder tanpa kipas dan menambahkannya ke adegan.
+## Langkah 5: Menyimpan Scene (java save obj file)
 
-## Langkah 5: Simpan Adegan
-
-Terakhir, simpan adegan tersebut sebagai file Wavefront OBJ di direktori dokumen Anda:
+Akhirnya, kami mengekspor seluruh scene ke file Wavefront OBJ. Format ini didukung secara luas oleh sebagian besar editor 3D dan mesin game.
 
 ```java
-// MantanMulai:6
-// Simpan adegan
+// ExStart:6
+// Save scene
 scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEFRONTOBJ);
 // ExEnd:6
 ```
 
-Selamat! Anda telah berhasil membuat silinder kipas khusus menggunakan Aspose.3D untuk Java.
+> **Catatan:** Ganti `"Your Document Directory"` dengan jalur absolut atau relatif di mana Anda memiliki izin menulis.
 
-## Kesimpulan
+## Cara menyimpan file OBJ di Java menggunakan Aspose 3D
 
-Dalam tutorial ini, kami menjelajahi proses memanfaatkan Aspose.3D untuk Java untuk membuat silinder kipas yang dipersonalisasi dalam adegan 3D. Fleksibilitas Aspose.3D memberdayakan pengembang untuk meningkatkan proyek pemodelan 3D mereka dengan mudah.
+Metode `Scene.save` Aspose.3D secara otomatis menangani proses **aspose 3d export obj**. Anda hanya perlu menentukan nama file target dan nilai enum `FileFormat.WAVEFRONTOBJ`, seperti yang ditunjukkan pada langkah sebelumnya.
 
-## FAQ
+## Masalah Umum dan Solusinya
 
-### Q1: Apakah Aspose.3D kompatibel dengan perpustakaan Java lainnya untuk pemodelan 3D?
+| Masalah | Alasan | Solusi |
+|-------|--------|-----|
+| File OBJ kosong | Scene tidak disimpan atau path tidak benar | Verifikasi direktori output ada dan memiliki izin menulis. |
+| Bukaan kipas terlihat salah | Nilai `ThetaLength` tidak tepat | Gunakan `MathUtils.toRadian(degrees)` untuk mengatur sudut tepat yang Anda butuhkan. |
+| Kesalahan kompilasi | JAR Aspose.3D tidak ada di classpath | Tambahkan JAR ke folder `libs` proyek Anda dan sertakan dalam path build. |
 
-A1: Aspose.3D dirancang untuk bekerja secara lancar dengan perpustakaan Java lainnya, menawarkan fleksibilitas dalam integrasi.
+## Pertanyaan yang Sering Diajukan
 
-### Q2: Dapatkah saya menyesuaikan tampilan silinder kipas yang dihasilkan lebih lanjut?
+**Q: Apakah Aspose.3D kompatibel dengan pustaka Java 3D lainnya?**  
+A: Ya, Aspose.3D dapat berkoeksistensi dengan pustaka seperti Java 3D atau jMonkeyEngine, memungkinkan Anda mengintegrasikan geometri khusus ke dalam pipeline yang lebih besar.
 
-A2: Tentu saja! Aspose.3D menyediakan opsi penyesuaian yang luas, memungkinkan Anda menyempurnakan aspek visual model 3D Anda.
+**Q: Bisakah saya lebih lanjut menyesuaikan tampilan silinder kipas?**  
+A: Tentu saja. Anda dapat menerapkan material, tekstur, dan pencahayaan dengan mengakses koleksi `Material` dan `Light` pada node.
 
-### Q3: Di mana saya dapat menemukan dukungan atau bantuan tambahan untuk Aspose.3D?
+**Q: Di mana saya dapat memperoleh dukungan tambahan?**  
+A: Kunjungi [forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk bantuan komunitas dan respons resmi.
 
- A3: Kunjungi[Forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan dan diskusi komunitas.
+**Q: Apakah tersedia versi percobaan gratis?**  
+A: Ya, Anda dapat menjelajahi Aspose.3D dengan [versi percobaan gratis](https://releases.aspose.com/) sebelum membeli.
 
-### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.3D?
+**Q: Bagaimana cara mendapatkan lisensi sementara untuk pengujian?**  
+A: Dapatkan satu [di sini](https://purchase.aspose.com/temporary-license/) untuk membuka semua fungsi selama pengembangan.
 
- A4: Ya, Anda dapat menjelajahi Aspose.3D dengan a[uji coba gratis](https://releases.aspose.com/) sebelum membuat keputusan pembelian.
+---
 
-### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.3D?
+**Terakhir Diperbarui:** 2026-04-03  
+**Diuji Dengan:** Aspose.3D 24.11 for Java  
+**Penulis:** Aspose  
 
- A5: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk kebutuhan pengujian dan pengembangan Anda.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

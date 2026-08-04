@@ -1,55 +1,46 @@
 ---
-date: 2026-03-21
-description: Aspose.3D for .NET का उपयोग करके 3D दृश्यों में प्लेन की अभिविन्यास कैसे
-  बदलें, सीखें। 3D मॉडल OBJ को निर्यात करने और 3D प्लेन को आसानी से घुमाने के लिए
-  हमारे चरण‑दर‑चरण गाइड का पालन करें।
-linktitle: Changing Plane Orientation in 3D Scenes
+title: Add Camera to Scene with Aspose.3D – XPath Queries
+linktitle: XPath-Like Object Queries
 second_title: Aspose.3D .NET API
-title: 3D दृश्यों में विमान की अभिविन्यास बदलें – Aspose.3D for .NET
-url: /hi/net/3d-modeling/change-plane-orientation/
-weight: 10
+description: Learn how to add camera to scene and manipulate 3D objects using Aspose.3D for .NET. Explore XPath‑like queries, select node by name and more.
+weight: 24
+url: /net/geometry-and-hierarchy/xpath-like-object-queries/
+date: 2026-01-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D दृश्यों में प्लेन अभिविन्यास बदलें
+# Add Camera to Scene with Aspose.3D – XPath Queries
 
-## परिचय
+## Introduction
+In this tutorial you’ll discover how to **add a camera to a scene** and work with powerful XPath‑like object queries in Aspose.3D for .NET. Whether you need to **select node by name**, **select single object**, or simply **add light to scene**, the steps below will guide you through creating, querying, and manipulating 3D objects with clear, real‑world examples.
 
-इस व्यापक ट्यूटोरियल में आप **प्लेन अभिविन्यास कैसे बदलें** यह सीखेंगे, Aspose.3D for .NET के साथ एक 3‑D सीन में। चाहे आप एक गेम, CAD व्यूअर, या वैज्ञानिक विज़ुअलाइज़ेशन बना रहे हों, प्लेन की दिशा को नियंत्रित करना सटीक रेंडरिंग और 3‑D मॉडल OBJ फ़ाइलों के सही निर्यात के लिए आवश्यक है। आइए इस प्रक्रिया को चरण‑दर‑चरण साथ मिलकर देखें।
+## Quick Answers
+- **How do I add a camera to a scene?** Use `c.CreateChildNode("c1").AddEntity(new Camera("cam"));`
+- **Can I query objects with XPath syntax?** Yes – `SelectObjects` and `SelectSingleObject` support XPath‑like expressions.
+- **What if I need to select a node by name?** Use `SelectSingleObject("a1")` or `"//a1"` style paths.
+- **How do I add a light to the scene?** Call `AddEntity(new Light("light"))` on a child node.
+- **Which .NET versions are supported?** Aspose.3D works with .NET Framework 2.0+ and .NET Core/5/6.
 
-## त्वरित उत्तर
-- **“प्लेन अभिविन्यास बदलना” का क्या अर्थ है?** प्लेन के अप‑वेक्टर को समायोजित करके उसे 3‑D स्पेस में घुमाना।  
-- **निर्यात के लिए कौन सा फ़ाइल फ़ॉर्मेट उपयोग किया जाता है?** Wavefront OBJ (`.obj`)।  
-- **क्या मैं 3D प्लेन को सीधे घुमा सकता हूँ?** हाँ – `Plane` एंटिटी के `Up` वेक्टर को संशोधित करें।  
-- **क्या मुझे लाइसेंस चाहिए?** विकास के लिए एक फ्री ट्रायल काम करता है; उत्पादन के लिए व्यावसायिक लाइसेंस आवश्यक है।  
-- **कौन से .NET संस्करण समर्थित हैं?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+।
+## What is “add camera to scene” in Aspose.3D?
+Adding a camera creates a viewpoint from which the scene can be rendered or inspected. The camera behaves like any other 3D entity, so you can position, rotate, and query it just like meshes or lights.
 
-## प्लेन अभिविन्यास बदलना क्या है?
-प्लेन अभिविन्यास बदलना का अर्थ है प्लेन के नॉर्मल या अप‑वेक्टर को पुनः परिभाषित करना ताकि वह 3‑D कॉर्डिनेट सिस्टम में किसी अलग दिशा की ओर इशारा करे। यह ऑपरेशन प्रभावी रूप से **3D प्लेन को घुमाता** है बिना उसके आकार या स्थिति को बदले।
+## Why use XPath‑like object queries?
+XPath‑like queries let you locate objects based on type, name, or custom attributes without manually traversing the node hierarchy. This makes **manipulating 3D objects** fast, readable, and maintainable—especially in complex scenes.
 
-## प्लेन अभिविन्यास क्यों बदलें?
-- **सटीक दृश्य संरेखण** – सुनिश्चित करता है कि टेक्सचर और लाइटिंग अपेक्षित रूप से कार्य करें।  
-- **सही निर्यात** – कुछ डाउनस्ट्रीम टूल OBJ फ़ाइलों को आयात करते समय विशिष्ट प्लेन अभिविन्यास पर निर्भर होते हैं।  
-- **लचीलापन** – आप एक ही ज्योमेट्री को विभिन्न अभिविन्यासों के साथ कई दृश्यों के लिए पुन: उपयोग कर सकते हैं।
+## Prerequisites
+- Basic knowledge of the .NET framework
+- Visual Studio installed
+- Aspose.3D library referenced in your project (latest version)
 
-## पूर्वापेक्षाएँ
-
-- Aspose.3D for .NET: सुनिश्चित करें कि लाइब्रेरी स्थापित है। यदि नहीं, तो इसे [यहाँ](https://releases.aspose.com/3d/net/) से डाउनलोड करें।  
-- आपका दस्तावेज़ निर्देशिका: एक फ़ोल्डर सेट करें जहाँ ट्यूटोरियल फ़ाइलें पढ़े/लिखेगा।
-
-अब जब हमने मूल बातें कवर कर ली हैं, चलिए कोड में डुबकी लगाते हैं।
-
-## नेमस्पेस आयात करें
-
-अपने .NET प्रोजेक्ट में, आवश्यक नेमस्पेस आयात करके शुरू करें:
+## Import Namespaces
+Start by importing the required namespaces so you have access to all Aspose.3D classes.
 
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
-using Aspose.ThreeD.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,73 +48,101 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-ये नेमस्पेस Aspose.3D में 3D सीन के साथ काम करने के लिए आवश्यक क्लास और मेथड प्रदान करते हैं।
+## Step‑by‑Step Guide
 
-## चरण 1: सीन ऑब्जेक्ट को इनिशियलाइज़ करें
+### Step 1: Open Visual Studio
+Create a new C# project or open an existing one where you want to work with 3D scenes.
 
-```csharp
-// The path to the data directory
-string dataDir = "Your Document Directory";
-
-// Initialize scene object
-Scene scene = new Scene();
-```
-
-यह कोड आपके 3‑D सीन के लिए पर्यावरण सेट करता है।
-
-## चरण 2: प्लेन अभिविन्यास के लिए वेक्टर सेट करें (3D प्लेन घुमाएँ)
+### Step 2: Create a New Scene (Add Camera to Scene)
+Instantiate a fresh `Scene` object that will serve as the canvas for all subsequent objects.
 
 ```csharp
-// Set Vector
-scene.RootNode.CreateChildNode(new Plane() { Up = new Vector3(1, 1, 3) });
+Scene s = new Scene();
 ```
 
-यहाँ, हम एक चाइल्ड नोड बनाते हैं जो एक प्लेन का प्रतिनिधित्व करता है और उसके अभिविन्यास को `Up` वेक्टर के माध्यम से कस्टमाइज़ करते हैं। वेक्टर मानों को बदलने से 3D प्लेन इच्छित कोण तक घुम जाता है।
-
-## चरण 3: 3D मॉडल OBJ को सहेजें और निर्यात करें
+### Step 3: Populate the Scene – Add Nodes, Camera, and Light
+Build a simple hierarchy, then **add a camera** and **add light to scene** to illustrate querying later.
 
 ```csharp
-// This will generate a plane that has customized orientation
-scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
+var a = s.RootNode.CreateChildNode("a");
+a.CreateChildNode("a1");
+a.CreateChildNode("a2");
+s.RootNode.CreateChildNode("b");
+var c = s.RootNode.CreateChildNode("c");
+c.CreateChildNode("c1").AddEntity(new Camera("cam"));
+c.CreateChildNode("c2").AddEntity(new Light("light"));
 ```
 
-सीन को सहेजने से एक OBJ फ़ाइल बनती है जो नए प्लेन अभिविन्यास को दर्शाती है, जिससे आप **3D मॉडल OBJ निर्यात** कर सकते हैं और अन्य अनुप्रयोगों में उपयोग कर सकते हैं।
+The resulting hierarchy looks like this:
 
-आवश्यकतानुसार अतिरिक्त **प्लेन** या **विभिन्न अभिविन्यास** के लिए इन चरणों को दोहराएँ।
+```
+- Root
+    - a
+        - a1
+        - a2
+    - b
+    - c
+        - c1
+            - cam
+        - c2
+            - light
+```
 
-## सामान्य समस्याएँ और समाधान
-- **प्लेन सपाट या उल्टा दिख रहा है:** सत्यापित करें कि `Up` वेक्टर प्लेन के नॉर्मल के साथ कोलाइनियर नहीं है। इच्छित झुकाव प्राप्त करने के लिए वेक्टर घटकों को समायोजित करें।  
-- **निर्यात किया गया OBJ खाली दिख रहा है:** सुनिश्चित करें कि `dataDir` पाथ के अंत में एक सेपरेटर (`\\` या `/`) हो और आपके पास लिखने की अनुमति हो।  
-- **अनपेक्षित घुमाव:** याद रखें कि `Up` वेक्टर प्लेन की स्थानीय Y‑अक्ष को परिभाषित करता है; इसे बदलने से प्लेन उसके X‑अक्ष के चारों ओर घुमता है।
+### Step 4: Select Objects – How to query 3D objects
+Use an XPath‑like expression to fetch all cameras **or** any node named “light”.
 
-## अक्सर पूछे जाने वाले प्रश्न
+```csharp
+var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+```
 
-**Q1: क्या Aspose.3D अन्य 3D लाइब्रेरीज़ के साथ संगत है?**  
-A1: Aspose.3D अन्य लोकप्रिय 3D लाइब्रेरीज़ के साथ सहजता से काम कर सकता है, जिससे आपके विकास में लचीलापन मिलता है।
+### Step 5: Select a Single Object – Select single object by path
+Retrieve the first camera node directly with a concise path.
 
-**Q2: क्या मैं Aspose.3D को वाणिज्यिक प्रोजेक्ट्स में उपयोग कर सकता हूँ?**  
-A2: बिल्कुल! Aspose.3D व्यक्तिगत और व्यावसायिक उपयोग दोनों के लिए लाइसेंस विकल्प प्रदान करता है। विवरण के लिए [यहाँ](https://purchase.aspose.com/buy) देखें।
+```csharp
+var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
+```
 
-**Q3: Aspose.3D के लिए समर्थन कैसे प्राप्त करूँ?**  
-A3: सामुदायिक समर्थन और चर्चा के लिए [Aspose.3D फ़ोरम](https://forum.aspose.com/c/3d/18) पर जाएँ।
+### Step 6: Select Node by Name – Quick way to locate a node
+If you know the node’s name, you can fetch it without caring about its position in the hierarchy.
 
-**Q4: क्या कोई फ्री ट्रायल उपलब्ध है?**  
-A4: हाँ, आप Aspose.3D को एक फ्री ट्रायल के साथ [यहाँ](https://releases.aspose.com/) एक्सप्लोर कर सकते हैं।
+```csharp
+var obj = s.RootNode.SelectSingleObject("a1");
+```
 
-**Q5: विस्तृत दस्तावेज़ीकरण कहाँ मिल सकता है?**  
-A5: गहन जानकारी के लिए दस्तावेज़ीकरण [यहाँ](https://reference.aspose.com/3d/net/) देखें।
+### Step 7: Select the Root Node – Useful for global operations
+Sometimes you need a reference to the scene’s root for bulk transformations.
 
-**Q6: क्या सहेजने के बाद प्लेन अभिविन्यास बदल सकता हूँ?**  
-A6: आपको `scene.Save` कॉल करने से पहले `Up` वेक्टर को संशोधित करना होगा; OBJ फ़ाइल सहेजने के समय की स्थिति को दर्शाती है।
+```csharp
+obj = s.RootNode.SelectSingleObject("/");
+```
 
-**Q7: क्या अभिविन्यास बदलने से टेक्सचर कोऑर्डिनेट्स प्रभावित होते हैं?**  
-A7: अभिविन्यास परिवर्तन केवल प्लेन की ज्योमेट्री को प्रभावित करता है; टेक्सचर कोऑर्डिनेट्स अपरिवर्तित रहते हैं जब तक आप उन्हें स्पष्ट रूप से नहीं बदलते।
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **Camera not appearing in query results** | Ensure the node’s `Entity` is a `Camera` and the name matches the query case‑sensitively. |
+| **SelectSingleObject returns null** | Verify the XPath expression syntax; use leading `/` for absolute paths. |
+| **Light does not affect rendering** | Remember that lighting calculations require a rendering engine; the Light entity alone does not render anything. |
+| **Performance slowdown on large scenes** | Limit queries to sub‑trees (`RootNode.SelectObjects("//c/*")`) or cache results when possible. |
 
----
+## Frequently Asked Questions
 
-**अंतिम अपडेट:** 2026-03-21  
-**टेस्ट किया गया संस्करण:** Aspose.3D 24.12 for .NET  
-**लेखक:** Aspose  
+**Q: Is Aspose.3D compatible with all .NET versions?**  
+A: Aspose.3D supports .NET Framework 2.0 and higher, as well as .NET Core, .NET 5, and .NET 6.
+
+**Q: Can I use Aspose.3D for both 3D modeling and rendering?**  
+A: Absolutely. The library provides tools for creating, editing, and rendering 3D models.
+
+**Q: Are there licensing constraints for the free trial?**  
+A: The trial version includes a limited feature set; a full license is required for production use.
+
+**Q: How can I get community support for Aspose.3D?**  
+A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for tips, examples, and help from other developers.
+
+**Q: What advantages does Aspose.3D offer over other 3D libraries for .NET?**  
+A: It combines a rich API for object queries, robust scene management, and cross‑platform compatibility without needing external dependencies.
+
+## Conclusion
+You’ve now learned how to **add a camera to a scene**, **add light to scene**, and **query 3D objects** using XPath‑like syntax in Aspose.3D for .NET. These techniques let you efficiently manipulate complex hierarchies, select nodes by name, and retrieve single objects—all essential for modern 3D applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -131,3 +150,9 @@ A7: अभिविन्यास परिवर्तन केवल प्�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-25  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose

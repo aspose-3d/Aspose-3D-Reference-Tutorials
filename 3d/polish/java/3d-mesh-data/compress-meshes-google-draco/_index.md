@@ -1,12 +1,16 @@
 ---
-date: 2026-01-27
-description: Dowiedz się, jak stworzyć siatkę sfery w Javie i kompresować pliki siatek
-  3D przy użyciu Google Draco z Aspose.3D. Przewodnik krok po kroku dla efektywnego
-  tworzenia 3D.
-linktitle: How to Create Sphere Mesh in Java – Compress 3D Meshes with Google Draco
-second_title: Aspose.3D Java API
-title: Jak stworzyć siatkę sfery w Javie – kompresuj siatki 3D przy użyciu Google
+date: 2026-04-29
+description: Dowiedz się, jak zmniejszyć rozmiar modelu 3D, tworząc siatkę kuli w
+  Javie i kompresując ją przy użyciu Google Draco oraz Aspose.3D – niezbędne przy
+  eksporcie Aspose 3D.
+keywords:
+- reduce 3d model size
+- aspose 3d export
+- compress 3d mesh java
+linktitle: Jak stworzyć siatkę sfery w Javie – kompresja siatek 3D za pomocą Google
   Draco
+second_title: Aspose.3D Java API
+title: 'Zmniejsz rozmiar modelu 3D: Stwórz siatkę sfery w Javie z Draco'
 url: /pl/java/3d-mesh-data/compress-meshes-google-draco/
 weight: 10
 ---
@@ -15,40 +19,37 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak stworzyć siatkę sfery w Javie – Kompresja siatek 3D przy użyciu Google Draco
+# Zmniejsz rozmiar modelu 3D: Utwórz siatkę sfery w Javie z Draco
 
-## Wstęp
+## Wprowadzenie
 
-Jeśli szukasz **jak stworzyć siatkę sfery** w Javie, jednocześnie utrzymując rozmiar pliku minimalnym, trafiłeś we właściwe miejsce. W tym samouczku przejdziemy przez użycie **Aspose.3D** wraz z **Google Draco**, aby **skompresować dane siatki 3D** w sposób efektywny. Po zakończeniu będziesz mieć gotową siatkę sfery zapisaną jako plik skompresowany Draco `.drc`, który ładuje się szybciej i zużywa znacznie mniej pasma w każdej aplikacji 3D opartej na Javie.
+Jeśli szukasz szybkiego sposobu na **zmniejszenie rozmiaru modelu 3D**, jednocześnie zachowując wysoką jakość geometrii, trafiłeś we właściwe miejsce. W tym samouczku przeprowadzimy Cię przez generowanie siatki sfery przy użyciu **Aspose.3D for Java**, a następnie kompresję tej siatki za pomocą **Google Draco**. Po zakończeniu będziesz mieć gotowy do użycia plik `.drc`, który jest dramatycznie mniejszy niż oryginał, co czyni go idealnym dla przeglądarek internetowych, gier mobilnych lub dowolnej aplikacji Java z ograniczoną przepustowością.
 
 ## Szybkie odpowiedzi
 - **Co obejmuje ten samouczek?** Tworzenie siatki sfery w Javie i kompresja jej przy użyciu Google Draco poprzez Aspose.3D.  
-- **Główna biblioteka?** Aspose.3D dla Javy.  
+- **Podstawowa biblioteka?** Aspose.3D for Java (używany zarówno do tworzenia siatki, jak i eksportu Draco).  
 - **Typowy czas implementacji?** Około 10‑15 minut dla podstawowej sfery.  
-- **Kluczowy warunek wstępny?** Środowisko programistyczne Javy oraz JAR‑y Aspose.3D w classpath.  
-- **Rezultat?** Plik `.drc` zawierający skompresowaną siatkę sfery.
+- **Kluczowy warunek wstępny?** Środowisko programistyczne Java z plikami JAR Aspose.3D na ścieżce klas.  
+- **Rezultat?** Plik `.drc`, który **zmniejsza rozmiar modelu 3D** nawet o 90 % w porównaniu z nieskompresowaną siatką.
 
-## Co oznacza „jak stworzyć siatkę sfery” w kontekście rozwoju 3D?
+## Co oznacza „zmniejszenie rozmiaru modelu 3D” w kontekście tworzenia 3D?
 
-Tworzenie siatki sfery oznacza wygenerowanie zestawu wierzchołków, krawędzi i ścian, które przybliżają idealną sferę. Klasa `Sphere` z Aspose.3D wykonuje ciężką pracę, dostarczając czystą, triangulowaną siatkę, którą można dalej przetwarzać lub kompresować.
+Zmniejszanie rozmiaru modelu 3D oznacza redukcję ilości danych geometrycznych, które muszą być przesyłane lub przechowywane, bez zauważalnego pogorszenia jakości wizualnej. Draco osiąga to poprzez kodowanie pozycji wierzchołków, normalnych i innych atrybutów w wysoce skompaktowanym formacie binarnym. W połączeniu z Aspose.3D cały proces pozostaje w Javie, więc nie musisz operować natywnymi bibliotekami.
 
-## Dlaczego warto używać kompresji siatek Google Draco z Aspose.3D?
+## Dlaczego używać kompresji siatek Google Draco z Aspose.3D?
 
-- **Ogromne zmniejszenie rozmiaru:** Draco może zredukować dane siatki nawet o 90 % w porównaniu z formatami niekompresowanymi.  
-- **Szybkie dekodowanie w czasie działania:** Nowoczesne silniki, takie jak Unity i three.js, natywnie dekodują Draco, co przyspiesza ładowanie.  
-- **Bezproblemowa integracja z Javą:** Aspose.3D abstrahuje natywną bibliotekę Draco, więc pozostajesz w ekosystemie Javy bez konieczności obsługi binarek natywnych.  
+- **Ogromna redukcja rozmiaru:** Draco może zmniejszyć dane siatki nawet o 90 % w porównaniu z formatami takimi jak OBJ lub STL.  
+- **Szybkie dekodowanie w czasie działania:** Silniki takie jak Unity, Unreal i three.js dekodują Draco natywnie, co prowadzi do szybszych czasów ładowania.  
+- **Bezproblemowa integracja z Javą:** Aspose.3D abstrahuje natywną bibliotekę Draco, pozwalając pozostać w ekosystemie Javy.  
+- **Jedno‑stopniowy eksport Aspose 3D:** To samo API, którego używasz do tworzenia geometrii, obsługuje również eksport, upraszczając pipeline.
 
 ## Wymagania wstępne
 
-Zanim zaczniemy, upewnij się, że masz:
-
-- **Java Development Kit (JDK)** – wersja 8 lub nowsza, zainstalowana i skonfigurowana.  
-- **Aspose.3D dla Javy** – pobierz najnowsze JAR‑y ze strony [tutaj](https://releases.aspose.com/3d/java/).  
-- **Podstawową wiedzę o Google Draco** – zrozumienie, że Draco jest biblioteką kompresji geometrii; użyjemy wrappera Aspose.3D do obsługi ciężkiej pracy.
+- **Java Development Kit (JDK)** – wersja 8 lub nowsza.  
+- **Aspose.3D for Java** – pobierz najnowsze pliki JAR ze strony oficjalnej [tutaj](https://releases.aspose.com/3d/java/).  
+- **Basic familiarity with Google Draco** – będziesz używać wrappera Aspose.3D, więc nie jest wymagana natywna instalacja Draco.
 
 ## Importowanie pakietów
-
-W swoim pliku źródłowym Java zaimportuj klasy potrzebne do tworzenia siatki i kompresji Draco.
 
 ```java
 import com.aspose.threed.DracoCompressionLevel;
@@ -66,11 +67,9 @@ import java.nio.file.Paths;
 
 ### Krok 1: Konfiguracja projektu
 
-Utwórz nowy projekt Java (dowolne IDE) i dodaj JAR‑y Aspose.3D do classpath projektu. Zorganizuj folder źródeł tak, aby poniższy kod znajdował się w czystym pakiecie, np. `com.example.draco`.
+Utwórz nowy projekt Java (dowolne IDE działa) i dodaj wszystkie pliki JAR Aspose.3D do ścieżki klas. Umieść pliki źródłowe w pakiecie, np. `com.example.draco`, dla przejrzystości.
 
-### Krok 2: Jak stworzyć siatkę sfery w Javie
-
-Teraz wygenerujemy prosty model sfery, który będzie naszą siatką do kompresji.
+### Krok 2: Jak utworzyć siatkę sfery w Javie
 
 ```java
 // ExStart:Encode3DMeshinGoogleDraco
@@ -81,11 +80,9 @@ String MyDir = "Your Document Directory";
 Sphere sphere = new Sphere();
 ```
 
-> **Porada:** Klasa `Sphere` automatycznie tworzy triangulowaną siatkę o domyślnym promieniu 1.0. Możesz dostosować promień, tessellację i materiał, jeśli Twój scenariusz tego wymaga.
+> **Wskazówka:** Klasa `Sphere` generuje siatkę triangulowaną o domyślnym promieniu 1.0. Możesz podać własny promień, tessellację lub parametry materiału, jeśli potrzebujesz innego poziomu szczegółowości przed kompresją.
 
 ### Krok 3: Jak skompresować siatkę przy użyciu Google Draco
-
-Gdy sfera jest gotowa, wywołujemy kompresję Draco poprzez `DracoSaveOptions` z Aspose.3D. Ustawienie poziomu kompresji na `OPTIMAL` zapewnia najlepsze zmniejszenie rozmiaru przy zachowaniu jakości.
 
 ```java
 // Encode the sphere to Google Draco raw data using optimal compression level.
@@ -94,9 +91,9 @@ opt.setCompressionLevel(DracoCompressionLevel.OPTIMAL);
 byte[] b = FileFormat.DRACO.encode(sphere.toMesh(), opt);
 ```
 
-### Krok 4: Zapis skompresowanej siatki
+Ustawienie poziomu kompresji na `OPTIMAL` zapewnia największą redukcję rozmiaru przy zachowaniu wierności wizualnej, bezpośrednio pomagając **zmniejszyć rozmiar modelu 3D**.
 
-Na koniec zapisz tablicę bajtów do pliku `.drc`. Plik ten może być strumieniowany do klientów lub przechowywany do późniejszego użycia.
+### Krok 4: Zapisz skompresowaną siatkę
 
 ```java
 // Save the raw bytes to file
@@ -104,42 +101,50 @@ Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
 // ExEnd:Encode3DMeshinGoogleDraco
 ```
 
-Możesz powtórzyć te kroki dla dowolnych innych obiektów 3D — kostek, modeli niestandardowych lub zaimportowanych scen — po prostu zamieniając wywołanie tworzenia geometrii.
+Wynikowy plik `SphereMeshtoDRC_Out.drc` może być przesyłany do klientów, przechowywany w CDN lub ładowany bezpośrednio przez dowolny silnik kompatybilny z Draco.
+
+## Typowe przypadki użycia
+
+| Scenariusz | Dlaczego zmniejszyć rozmiar modelu? | Jak ten samouczek pomaga |
+|------------|------------------------------------|--------------------------|
+| Konfiguratory produktów w sieci | Szybsze ładowanie stron przy wolnych połączeniach | Pliki `.drc` skompresowane przez Draco ładują się w ciągu kilku sekund |
+| Aplikacje mobilne AR/VR | Mniejszy ślad pamięciowy na urządzeniach | Mniejsze siatki utrzymują responsywność aplikacji |
+| Sceny renderowane w chmurze | Zmniejszenie kosztów przepustowości | Eksport jednym kliknięciem z Aspose.3D do Draco |
 
 ## Typowe problemy i rozwiązania
 
-| Problem | Przyczyna | Rozwiązanie |
-|-------|--------|-----|
-| **`NoClassDefFoundError` dla klas Draco** | JAR‑y Aspose.3D nie znajdują się w classpath | Sprawdź, czy wszystkie pliki JAR Aspose.3D są dołączone i czy wersja odpowiada dokumentacji. |
-| **Plik wyjściowy jest pusty** | `MyDir` wskazuje nieistniejący folder | Upewnij się, że katalog istnieje lub utwórz go programowo przed zapisem pliku. |
-| **Skompresowana siatka wygląda zniekształcona** | Użyto niskiego poziomu kompresji | Przełącz na `DracoCompressionLevel.OPTIMAL` lub zwiększ tessellację siatki przed kompresją. |
+| Problem | Powód | Rozwiązanie |
+|---------|-------|-------------|
+| **`NoClassDefFoundError` for Draco classes** | Pliki JAR Aspose.3D nie znajdują się na ścieżce klas | Sprawdź, czy *wszystkie* pliki JAR Aspose.3D są dołączone i czy wersja odpowiada dokumentacji. |
+| **Output file is empty** | `MyDir` wskazuje na nieistniejący folder | Utwórz katalog programowo (`Files.createDirectories(Paths.get(MyDir))`) przed zapisem pliku. |
+| **Compressed mesh looks distorted** | Użycie niskiego poziomu kompresji lub niewystarczającej tessellacji | Przejdź na `DracoCompressionLevel.OPTIMAL` i zwiększ tessellację sfery (np. `new Sphere(1.0, 64, 64)`). |
 
 ## Najczęściej zadawane pytania
 
-**P: Czy Aspose.3D jest kompatybilny z różnymi formatami plików 3D?**  
-O: Tak, Aspose.3D obsługuje szeroką gamę formatów, w tym OBJ, FBX, STL i GLTF, co czyni go wszechstronnym w wielu pipeline’ach.
+**Q: Czy Aspose.3D jest kompatybilny z różnymi formatami plików 3D?**  
+A: Tak, Aspose.3D obsługuje OBJ, FBX, STL, GLTF i wiele innych, co czyni go wszechstronnym wyborem dla **pipeline'ów eksportu Aspose 3D**.
 
-**P: Czy mogę używać Google Draco do kompresji w innych językach programowania?**  
-O: Oczywiście. Draco udostępnia biblioteki natywne dla C++, Pythona i JavaScript. Ten samouczek koncentruje się na Javie, ale koncepcje są przenośne na inne języki.
+**Q: Czy mogę używać Google Draco do kompresji w innych językach programowania?**  
+A: Oczywiście. Draco oferuje natywne biblioteki dla C++, Pythona i JavaScript. Ten samouczek koncentruje się na Javie, ale koncepcje mają zastosowanie w różnych językach.
 
-**P: Gdzie mogę znaleźć dodatkową dokumentację Aspose.3D?**  
-O: Odwiedź [dokumentację Aspose.3D Java](https://reference.aspose.com/3d/java/) po szczegółowe odniesienia API i więcej przykładów.
+**Q: Gdzie mogę znaleźć dodatkową dokumentację Aspose.3D?**  
+A: Odwiedź [dokumentację Aspose.3D Java](https://reference.aspose.com/3d/java/) aby uzyskać pełne odniesienia API i więcej przykładów.
 
-**P: Jak mogę uzyskać tymczasową licencję na Aspose.3D?**  
-O: Zapoznaj się z opcjami tymczasowego licencjonowania [tutaj](https://purchase.aspose.com/temporary-license/).
+**Q: Jak uzyskać tymczasową licencję na Aspose.3D?**  
+A: Zapoznaj się z opcjami tymczasowego licencjonowania [tutaj](https://purchase.aspose.com/temporary-license/).
 
-**P: Czy istnieje forum społecznościowe wsparcia Aspose.3D?**  
-O: Tak, aby uzyskać wsparcie społeczności i dyskusje, odwiedź [forum Aspose.3D](https://forum.aspose.com/c/3d/18).
+**Q: Czy istnieje forum społecznościowe wsparcia Aspose.3D?**  
+A: Tak, dołącz do dyskusji na [forum Aspose.3D](https://forum.aspose.com/c/3d/18).
 
-## Zakończenie
+## Podsumowanie
 
-W tym samouczku pokazaliśmy, **jak stworzyć siatkę sfery** w Javie oraz **skompresować dane siatki 3D** przy użyciu Google Draco poprzez Aspose.3D. Postępując zgodnie z tymi krokami, możesz znacząco zmniejszyć rozmiary plików siatek, przyspieszyć czasy ładowania i utrzymać responsywność swoich aplikacji 3D opartych na Javie.
+W tym przewodniku pokazaliśmy, jak **zmniejszyć rozmiar modelu 3D** poprzez utworzenie siatki sfery w Javie, a następnie skompresowanie jej przy użyciu Google Draco poprzez Aspose.3D. Postępując zgodnie z tymi zwięzłymi krokami, możesz drastycznie zmniejszyć pliki siatek, poprawić czasy ładowania i utrzymać swoje aplikacje 3D oparte na Javie responsywne oraz przyjazne dla przepustowości.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-01-27  
-**Testowano z:** Aspose.3D dla Javy 24.12 (najnowsza)  
-**Autor:** Aspose  
+**Ostatnia aktualizacja:** 2026-04-29  
+**Testowano z:** Aspose.3D for Java 24.12 (latest)  
+**Autor:** Aspose
 
 ---
 
@@ -149,11 +154,3 @@ W tym samouczku pokazaliśmy, **jak stworzyć siatkę sfery** w Javie oraz **sko
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-01-27  
-**Testowano z:** Aspose.3D dla Javy 24.12 (najnowsza)  
-**Autor:** Aspose  
-
----

@@ -1,43 +1,44 @@
 ---
-date: 2025-11-30
-description: Apprenez à générer un fichier OBJ tout en modifiant l’orientation du
-  plan dans Aspose.3D pour Java. Suivez des instructions étape par étape pour créer
-  une scène 3D avec un positionnement précis.
-linktitle: Generate OBJ File by Modifying Plane Orientation for Precise 3D Scene Positioning
-  in Java
-second_title: Aspose.3D Java API
-title: Générer un fichier OBJ en modifiant l'orientation du plan pour un positionnement
-  précis de la scène 3D en Java
-url: /fr/java/3d-scenes-and-models/change-plane-orientation/
+title: "How to Change Plane Orientation and Export OBJ in Java"
+linktitle: "How to Change Plane Orientation and Export OBJ in Java"
+second_title: "Aspose.3D Java API"
+description: "Learn how to change plane orientation and export OBJ in Java using Aspose.3D. Step‑by‑step guide to export 3D model OBJ files."
 weight: 10
+url: /java/3d-scenes-and-models/change-plane-orientation/
+date: 2026-04-29
+keywords:
+- change plane orientation
+- create sloped plane
+- export obj java
+- aspose 3d export obj
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Générer un fichier OBJ en modifiant l'orientation du plan pour un positionnement précis de la scène 3D en Java
+# How to Change Plane Orientation and Export OBJ in Java
 
 ## Introduction
 
-Dans ce tutoriel, vous apprendrez **comment générer un fichier OBJ** après avoir **modifié l'orientation du plan** en utilisant l'API Aspose.3D pour Java. Ajuster le vecteur up du plan vous offre un contrôle granulaire sur le placement des objets dans un flux de travail **create 3D scene**, essentiel pour les jeux, les simulations et les visualisations architecturales.
+In this tutorial you’ll discover **how to change plane orientation** and **export OBJ** files from Java using the Aspose.3D Java API. Adjusting a plane’s up‑vector gives you fine‑grained control over object placement inside a **create 3D scene** workflow—perfect for games, simulations, and architectural visualizations where exact positioning matters.
 
 ## Quick Answers
-- **What does “generate OBJ file” mean?** It means exporting a 3‑D model to the Wavefront OBJ format, a widely supported mesh file type.  
-- **Why modify plane orientation?** Changing the plane’s up‑vector lets you align geometry exactly where you need it in the scene.  
+- **What does “export OBJ” mean?** It means converting a 3‑D scene into the Wavefront OBJ format, a universally supported mesh file type.  
+- **Why adjust plane orientation?** Changing the plane’s up‑vector lets you align geometry exactly where you need it in the scene.  
 - **Do I need a license to run the code?** A free trial works for development; a commercial license is required for production.  
 - **Which Java version is supported?** Aspose.3D works with Java 8 and newer.  
 - **Can I export other formats?** Yes – the API also supports FBX, STL, and more.
 
-## What is “generate OBJ file”?
-Generating an OBJ file is the process of converting the in‑memory 3‑D scene created with Aspose.3D into a portable file that can be opened by most 3‑D modeling tools, game engines, and viewers.
+## What is “change plane orientation”?
+Changing plane orientation is the process of redefining a plane’s **up‑vector** so that the plane tilts away from the default XY‑plane. This lets you **create sloped plane** geometry such as ramps, roofs, or custom reference planes before exporting the model.
 
 ## Why modify plane orientation?
 Altering the plane’s orientation (using **how to set plane up**) lets you:
 
 * Align objects with custom axes instead of the default world axes.  
 * Simulate tilted surfaces such as ramps, roofs, or camera reference planes.  
-* Ensure that exported OBJ meshes match the visual intent of your design.
+* Ensure that exported OBJ meshes match the visual intent of your design, making the **export 3d model obj** step reliable.
 
 ## Prerequisites
 
@@ -49,66 +50,53 @@ Before we start, make sure you have:
 
 ## Import Packages
 
-First, import the classes that give you access to the Aspose.3D functionality.
-
-```java
-import com.aspose.threed.FileFormat;
+First, import the classes that give you access to the Aspose.3D functionality.\u0060\u0060\u0060javaimport com.aspose.threed.FileFormat;
 import com.aspose.threed.Plane;
 import com.aspose.threed.Scene;
 import com.aspose.threed.Vector3;
-```
 
-## Step‑by‑Step Guide
+import java.io.IOException;\u0060\u0060\u0060
 
-### Step 1: Set Document Directory Path  
-Define where the generated OBJ file will be saved.
+## Step-by-Step Guide### Step 1: Set Document Directory Path  
+Define where the exported OBJ file will be saved.
 
-```java
+````java
 String MyDir = "Your Document Directory";
-```
+````
 
 Replace `"Your Document Directory"` with the absolute path on your machine (e.g., `C:/3DOutputs/`).
 
 ### Step 2: Initialize the Scene – create 3D scene  
 Create a fresh scene object that will hold all geometry.
 
-```java
+````java
 Scene scene = new Scene();
-```
+````
 
 ### Step 3: Initialize the Plane – how to modify plane  
 Instantiate a `Plane` object that we will later orient.
 
-```java
+````java
 Plane plane = new Plane();
-```
+````
 
 ### Step 4: Set Vector – how to set plane up  
-Define a custom up‑vector for the plane. This is the core of **modify plane orientation**.
+Define a custom up-vector for the plane. This is the core of **change plane orientation**.
+The vector `(1, 1, 3)` tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.### Step 5: Complete the Plane Orientation and Export  
+ Define a custom up-vector for the plane. This is the core of **change plane orientation**.\u0060\u0060\u0060\u0060java
+// ExStart:ChangePlaneOrientation
+try {
+    plane.setUp(new Vector3(1, 1, 3));
+    
+    scene.getRootNode().createChildNode(plane);
+    
+    scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
+} catch (IOException e) {
+    e.printStackTrace();
+}// ExEnd:ChangePlaneOrientation
+\u0060\u0060\u0060
 
-```java
-plane.setUp(new Vector3(1, 1, 3));
-```
-
-The vector `(1, 1, 3)` tilts the plane away from the default XY‑plane, giving you a sloped surface.
-
-### Step 5: Generate the Plane – add plane to scene  
-Attach the plane to the root node so it becomes part of the scene hierarchy.
-
-```java
-scene.getRootNode().createChildNode(plane);
-```
-
-### Step 6: Save the Scene – generate OBJ file  
-Export the entire scene, including the oriented plane, to an OBJ file.
-
-```java
-scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
-```
-
-After this call, you’ll find `ChangePlaneOrientation.obj` in the directory you specified.
-
-## Common Issues and Solutions
+After this call, you'll find \u0060ChangePlaneOrientation.obj\u0060 in the directory you specified, ready for any **aspose 3d export obj** workflow.## Common Issues and Solutions
 
 | Issue | Why It Happens | Fix |
 |-------|----------------|-----|
@@ -137,8 +125,16 @@ A: Yes, if you need a temporary license, you can obtain one [here](https://purch
 A: Absolutely. The `Scene.save` method supports FBX, STL, and several other formats – just change the `FileFormat` enum.
 
 ## Conclusion
+### Step 4: Set Vector \u2013 how to set plane up  \nDefine a custom up-vector for the plane. This is the core of **change plane orientation**.\nThe vector \u0060(1, 1, 3)\u0060 tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.
 
-By following the steps above you’ve learned **how to generate OBJ file** while **changing plane orientation** in Aspose.3D for Java. Experiment with different up‑vectors to create custom slopes, ramps, or camera reference planes, and integrate the exported OBJ files into your downstream pipelines—whether that’s a game engine, a CAD tool, or a web‑based 3‑D viewer.
+### Step 5: Complete the Plane Orientation and Export  \nDefine a custom up-vector for the plane. This is the core of **change plane orientation**.
+
+\u0060\u0060\u0060\u0060java
+---
+
+**Last Updated:** 2026-04-29  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -146,11 +142,3 @@ By following the steps above you’ve learned **how to generate OBJ file** while
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-11-30  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
-
----

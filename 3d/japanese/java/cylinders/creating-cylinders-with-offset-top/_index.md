@@ -1,9 +1,15 @@
 ---
-date: 2026-02-07
-description: Aspose.3D for Javaでオフセットされたトップを持つシリンダーモデルの作成方法を学び、子ノードを追加するJava手順を実行し、3DモデルのOBJファイルを簡単にエクスポートします。
-linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
+date: 2026-04-08
+description: Aspose.3D for Javaでオフセットされた上部を持つシリンダーの作成方法を学び、子ノードを追加し、上部オフセットを設定して3Dモデルを生成し、Asposeの一時ライセンスを使用してOBJ形式でエクスポートします。
+keywords:
+- aspose temporary license
+- generate 3d model
+- add child node java
+- java export obj
+- set offset top
+linktitle: Aspose 一時ライセンス – オフセットトップでシリンダーを作成 (Java)
 second_title: Aspose.3D Java API
-title: Aspose.3D for Javaでオフセットトップのシリンダーを作成する方法
+title: Aspose 一時ライセンス – オフセットトップ付きシリンダーの作成 (Java)
 url: /ja/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
@@ -12,39 +18,38 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.3D for Javaでオフセットトップ付きシリンダーを作成する方法
+# Aspose 一時ライセンス – オフセットトップ付きシリンダーの作成 (Java)
 
-## Introduction
+## はじめに
 
-Java ベースの 3D シーンで **シリンダーを作成する方法** をカスタムオフセットトップ付きで実装したい場合、Aspose.3D がプロセスをシンプルにします。このチュートリアルでは、シーンの設定から最終モデルを OBJ ファイルとしてエクスポートするまでのすべての手順を解説します。これにより、オフセットトップシリンダーを自信を持ってアプリケーションに組み込めるようになります。ガイドの最後まで読むと、数行のコードでカスタムオフセット付きシリンダー形状を作成する方法をマスターできます。
+Java ベースの 3D シーンでカスタム オフセットトップを持つ **create cylinder** オブジェクトを作成したい場合、Aspose.3D はプロセスをシンプルにします。このチュートリアルでは、シーンの設定から最終モデルを OBJ ファイルとしてエクスポートするまでのすべての手順を順に説明しますので、オフセットトップ シリンダーを自信を持ってアプリケーションに統合できます。ガイドの最後までに、**aspose temporary license** がフル購入なしでこれらの機能を評価できることも理解できるようになります。
 
-## Quick Answers
-- **使用しているライブラリは？** Aspose.3D for Java  
-- **シリンダーのトップをオフセットできるか？** はい、`setOffsetTop` を使用します  
-- **Java で子ノードを追加する方法は？** ルートノードで `createChildNode` を呼び出します  
-- **エクスポートできるフォーマットは？** Wavefront OBJ（`export 3d model obj`）  
-- **テスト用にライセンスは必要か？** 評価用の一時ライセンスが利用可能です  
+## クイック回答
 
-## 「オフセットトップ付きシリンダーを作成する方法」とは？
+- **使用されているライブラリは何ですか？** Aspose.3D for Java  
+- **シリンダーのトップをオフセットできますか？** Yes, using `setOffsetTop`  
+- **Java で子ノードを追加するには？** Call `createChildNode` on the root node  
+- **エクスポートできるフォーマットは？** Wavefront OBJ (`java export obj`)  
+- **テストにライセンスは必要ですか？** An **aspose temporary license** is available for evaluation  
 
-オフセットトップ付きシリンダーを作成するとは、上部の円形面を基部に対してずらすことを意味し、手動で頂点を操作せずにテーパー形状や非対称形状をモデリングできます。Aspose.3D は専用コンストラクタと `OffsetTop` プロパティを提供しており、数行のコードで実現できます。
+## Aspose 一時ライセンスとは？
 
-## なぜ Aspose.3D for Java を使うのか？
+**aspose temporary license** は、開発およびテスト中に Aspose.3D for Java のフル機能セットを解放する、短期間の無料評価キーです。評価用の透かしが除去され、OBJ、STL、FBX などの 3D モデルファイルを有料ライセンスと同様に生成できます。
 
-- **ハイレベル API:** 低レベルのメッシュデータを管理する必要がありません。  
-- **クロスプラットフォーム:** 任意の JVM 互換環境で動作します。  
-- **組み込みエクスポーター:** OBJ、STL、FBX などに直接保存可能。  
-- **拡張性:** 子ノードの追加、変換の適用、他の Java ライブラリとの統合が容易です。
+## なぜ Aspose.3D for Java を使用するのか？
 
-## Prerequisites
+- **High‑level API:** 低レベルのメッシュデータを管理する必要はありません。  
+- **Cross‑platform:** 任意の JVM 互換環境で動作します。  
+- **Built‑in exporters:** OBJ、STL、FBX などに直接保存できます。  
+- **Extensible:** 子ノードの追加や変換の適用、他の Java ライブラリとの統合が容易です。  
 
-作業を始める前に以下を用意してください。
+## 前提条件
 
 - **Java Development Kit (JDK)** – 互換バージョンがインストールされていること。  
-- **Aspose.3D for Java ライブラリ** – 公式サイトから最新の JAR をダウンロードしてください [here](https://releases.aspose.com/3d/java/)。  
-- お好みの IDE（Eclipse、IntelliJ IDEA、NetBeans など）。
+- **Aspose.3D for Java library** – 公式サイトから最新の JAR をダウンロードしてください [here](https://releases.aspose.com/3d/java/)。  
+- 好みの IDE (Eclipse、IntelliJ IDEA、NetBeans など)。  
 
-## Import Packages
+## パッケージのインポート
 
 まず、必要なクラスをインポートします。これらのステートメントを Java ファイルの先頭に配置してください。
 
@@ -58,11 +63,11 @@ import com.aspose.threed.Vector3;
 import java.io.IOException;
 ```
 
-## Step‑by‑Step Guide
+## ステップバイステップガイド
 
-### Step 1: Create a Scene
+### Step 1: Java 3D シーンの作成
 
-シーンはすべての 3D オブジェクトを格納するコンテナです。
+**java 3d scene** はすべての 3D オブジェクトのコンテナとして機能します。
 
 ```java
 // ExStart:1
@@ -71,9 +76,9 @@ Scene scene = new Scene();
 // ExEnd:1
 ```
 
-### Step 2: Initialize Cylinder with Offset Top
+### Step 2: オフセットトップ付きシリンダーの初期化
 
-ここで **シリンダーを作成する方法** をカスタムオフセット付きで示します。コンストラクタで半径、高さ、スライス、スタック、クローズ状態を定義し、その後 `setOffsetTop` でトップをシフトします。
+ここでは、カスタムオフセットを持つ **how to create cylinder** について説明します。コンストラクタで半径、高さ、スライス、スタック、シリンダーが閉じているかどうかを定義します。その後、`setOffsetTop` を使用してトップをシフトします。
 
 ```java
 // ExStart:2
@@ -84,9 +89,9 @@ cylinder1.setOffsetTop(new Vector3(5, 3, 0));
 // ExEnd:2
 ```
 
-### Step 3: How to **add child node Java** – Attach the First Cylinder
+### Step 3: 子ノードの追加 Java – 最初のシリンダーをアタッチ
 
-シーンのルートノードの下に子ノードを作成し、シリンダーを目的の位置に移動させます。
+シーンのルートノードの下に子ノードを作成し、シリンダーを目的の位置に移動します。
 
 ```java
 // ExStart:3
@@ -95,9 +100,9 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 // ExEnd:3
 ```
 
-### Step 4: Initialize a Second Cylinder (No Offset)
+### Step 4: 2 番目のシリンダーの初期化（オフセットなし）
 
-比較のため、オフセットなしの通常シリンダーを追加します。
+比較のため、オフセットなしの通常のシリンダーを追加します。
 
 ```java
 // ExStart:4
@@ -106,7 +111,7 @@ Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExEnd:4
 ```
 
-### Step 5: How to **add child node Java** – Attach the Second Cylinder
+### Step 5: 子ノードの追加 Java – 2 番目のシリンダーをアタッチ
 
 ```java
 // ExStart:5
@@ -115,9 +120,9 @@ scene.getRootNode().createChildNode(cylinder2);
 // ExEnd:5
 ```
 
-### Step 6: How to **export OBJ** – Save the Scene as OBJ
+### Step 6: Java Export OBJ – シーンを OBJ として保存
 
-最後に、シーン全体（両方のシリンダー）を Wavefront OBJ ファイルとしてエクスポートします。OBJ は多くの 3D ツールで広くサポートされています。
+最後に、シーン全体（両方のシリンダー）を Wavefront OBJ ファイルとして **java export obj** します。この形式は 3D ツールで広くサポートされています。
 
 ```java
 // ExStart:6
@@ -126,56 +131,50 @@ scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFo
 // ExEnd:6
 ```
 
-プログラムを実行すると、指定ディレクトリに `CustomizedOffsetTopCylinder.obj` が生成され、Blender、Maya、その他 OBJ 対応ビューアで開くことができます。
+プログラムを実行すると、指定したディレクトリに `CustomizedOffsetTopCylinder.obj` が生成され、Blender、Maya、またはその他の OBJ 対応ビューアで開くことができます。
 
-## Why This Matters – Real‑World Use Cases
+## Java で 3D モデルを生成し OBJ にエクスポートする方法
 
-- **建築ビジュアライゼーション:** オフセットトップシリンダーは、天井方向にテーパーする柱のモデリングに最適です。  
-- **機械部品:** トップ面が意図的にシフトされたピストンやギアハウジングを作成できます。  
-- **ゲームアセット:** 手作業でメッシュを作ることなく、さまざまな柱形状を迅速に生成できます。
+`Scene.save(..., FileFormat.WAVEFRONTOBJ)` と **aspose temporary license** の組み合わせにより、外部コンバータを必要とせずに **generate 3d model** ファイルを迅速に作成できます。これは、プロトタイピング時やデザイナーとアセットを共有する際に特に便利です。
 
-## How to Export OBJ – Save Scene as OBJ
+## 実際の使用例
 
-Aspose 3D の OBJ エクスポート機能により、ほぼすべての 3D パイプラインでモデルを共有できます。`scene.save(..., FileFormat.WAVEFRONTOBJ)` メソッドを使用すれば、Java から直接 **OBJ をエクスポートする方法** が実現し、サードパーティのコンバータは不要です。
+- **Architectural visualisation:** オフセットトップシリンダーは天井に向かって細くなる柱をモデル化します。  
+- **Mechanical parts:** トップ面が意図的にシフトされたピストンやギアハウジングを作成します。  
+- **Game assets:** 手作業のメッシュが不要になるように、リアルタイムで多様な柱形状を生成します。  
 
-## How to Add Child Node Java – Attaching Geometry
+## 一般的な問題と解決策
 
-子ノードの追加はシーングラフを整理する標準的な手法です。`createChildNode` の呼び出しは、個別に変換可能なノードを返すため、本チュートリアルで **add child node java** パターンが 2 回登場します。
-
-## Export 3D Model OBJ – Using Aspose 3D Export OBJ
-
-デザイナーにモデルを配布する必要がある場合、**export 3d model obj** 機能は軽量でテキストベースの表現を提供し、主要な 3D アプリケーションすべてで動作します。Step 6 で使用した同じ API 呼び出しが **aspose 3d export obj** ワークフローを示しています。
-
-## Common Issues and Solutions
-
-| Issue | Reason | Fix |
+| 問題 | 原因 | 対策 |
 |-------|--------|-----|
-| **OBJ file is empty** | シーンが正しく保存されていない、またはパスが間違っている。 | 出力ディレクトリが存在し、書き込み権限があることを確認してください。 |
-| **Offset not applied** | 古いバージョンの Aspose.3D を使用している。 | `setOffsetTop` がサポートされている最新ライブラリに更新してください。 |
-| **Child node not visible** | 変換が適用されていない。 | 子ノード作成後に `getTransform().setTranslation` を呼び出すことを確認してください。 |
+| **OBJ ファイルが空です** | シーンが正しく保存されていないか、パスが間違っています。 | 出力ディレクトリが存在し、書き込み権限があることを確認してください。 |
+| **オフセットが適用されていません** | 古い Aspose.3D バージョンを使用しています。 | `setOffsetTop` がサポートされている最新のライブラリに更新してください。 |
+| **子ノードが表示されません** | 変換が適用されていません。 | 子ノード作成後に `getTransform().setTranslation` を呼び出すことを確認してください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: Aspose.3D はさまざまな Java IDE と互換性がありますか？**  
-A: はい、Eclipse、IntelliJ IDEA、NetBeans などの IDE でシームレスに動作します。
+A: はい、Eclipse、IntelliJ IDEA、NetBeans、その他の IDE でもシームレスに動作します。
 
 **Q: 作成した 3D オブジェクトにテクスチャを適用できますか？**  
 A: もちろんです！`Material` クラスを使用してテクスチャや表面プロパティを割り当てます。
 
 **Q: Aspose.3D のライセンスオプションはありますか？**  
-A: 複数のライセンスモデルが用意されています。詳細は [here](https://purchase.aspose.com/buy) でご確認ください。
+A: さまざまなライセンスモデルが利用可能です。詳しくは [here](https://purchase.aspose.com/buy) をご覧ください。
 
-**Q: サポートや情報共有はどこで行えますか？**  
-A: Aspose.3D コミュニティフォーラム [here](https://forum.aspose.com/c/3d/18) に参加して支援やディスカッションが可能です。
+**Q: サポートや経験を共有するにはどうすればよいですか？**  
+A: サポートやディスカッションのために Aspose.3D コミュニティフォーラム [here](https://forum.aspose.com/c/3d/18) に参加してください。
 
-**Q: テスト用の一時ライセンスは取得できますか？**  
-A: はい、評価用の一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から取得できます。
+**Q: テスト用の一時ライセンスは利用可能ですか？**  
+A: はい、評価用の **aspose temporary license** は [here](https://purchase.aspose.com/temporary-license/) から取得できます。
 
 ---
 
-**Last Updated:** 2026-02-07  
-**Tested With:** Aspose.3D for Java 24.12 (latest)  
-**Author:** Aspose
+**最終更新日:** 2026-04-08  
+**テスト環境:** Aspose.3D for Java 24.12 (latest)  
+**作者:** Aspose
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

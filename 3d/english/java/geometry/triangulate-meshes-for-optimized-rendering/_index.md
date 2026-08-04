@@ -90,14 +90,22 @@ String MyDir = "Your Document Directory";
 Scene scene = new Scene();
 scene.open(MyDir + "document.fbx");
 ```
-
 ## Step 3: Iterate Through Nodes
 
 A `NodeVisitor` walks the scene graph without you writing recursive code. It visits every node, allowing you to inspect or modify its attached entities such as meshes, lights, or cameras.
 
 ```java
 scene.getRootNode().accept(new NodeVisitor() {
-    // Your code for node traversal goes here
+    @Override
+    public boolean call(Node node) {
+        Mesh mesh = (Mesh)node.getEntity();
+        if (mesh != null)
+        {
+            Mesh newMesh = PolygonModifier.triangulate(mesh);
+            node.setEntity(newMesh);
+        }
+        return true;
+    }
 });
 ```
 

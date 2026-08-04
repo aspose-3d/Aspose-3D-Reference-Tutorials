@@ -1,31 +1,45 @@
 ---
-title: Extrahera information till scentillgångar
-linktitle: Extrahera information till scentillgångar
+date: 2026-03-26
+description: Lär dig hur du lägger till leverantörsinformation i en 3D-scen och hur
+  du sparar FBX-filer med Aspose.3D för .NET. Följ den här steg‑för‑steg‑guiden med
+  färdig‑att‑köra kod.
+linktitle: Extracting Information to Scene Assets
 second_title: Aspose.3D .NET API
-description: Förbättra dina 3D-scener utan ansträngning med Aspose.3D för .NET. Lär dig att lägga till värdefull tillgångsinformation steg för steg. Ladda ner nu för en dynamisk 3D-upplevelse.
-weight: 10
+title: Hur man lägger till leverantörsinformation och sparar FBX-scen med Aspose.3D
 url: /sv/net/3d-scene/information-to-scene/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Extrahera information till scentillgångar
+# Hur man lägger till leverantörsinformation och sparar FBX-scen med Aspose.3D
 
 ## Introduktion
 
-Välkommen till denna omfattande handledning om hur du använder Aspose.3D för .NET för att extrahera värdefull information och förbättra dina 3D-scener. Aspose.3D är ett kraftfullt bibliotek som ger utvecklare möjlighet att manipulera 3D-scener sömlöst i .NET-applikationer. I den här handledningen kommer vi att fokusera på den avgörande uppgiften att lägga till tillgångsinformation till en scen.
+Välkommen till denna omfattande handledning som visar **hur man lägger till leverantör**‑detaljer i en 3D‑scen och sedan **hur man sparar FBX**‑filer med Aspose.3D för .NET. Oavsett om du bygger arkitektoniska visualiseringar, spelresurser eller ingenjörsmodeller gör inbäddning av leverantörs‑ och programmetadata dina scener mer informativa och enklare att hantera i efterföljande steg. Låt oss gå igenom processen steg för steg.
+
+## Snabba svar
+- **Vad betyder “add vendor”?** Det lagrar program‑ och leverantörsnamnen i scenens AssetInfo‑block.  
+- **Vilket format stöder leverantörsinformation?** FBX (ASCII eller binary) behåller metadata när den sparas.  
+- **Hur sparar man FBX?** Använd `scene.Save(path, FileFormat.FBX7500ASCII)` eller motsvarande binära variant.  
+- **Behöver jag en licens?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.  
+- **Kan jag ändra måttenheter?** Ja, sätt `AssetInfo.UnitName` och `AssetInfo.UnitScaleFactor`.
+
+## Vad betyder “how to add vendor” i en 3D‑scen?
+Att lägga till leverantörsinformation innebär att fylla i `AssetInfo`‑egenskaperna på ett `Scene`‑objekt. Dessa egenskaper följer med filen och gör det möjligt för alla som öppnar FBX‑filen att se vilket program som skapade den och vem leverantören är.
+
+## Varför lägga till leverantörsinformation?
+- **Spårbarhet:** Identifiera snabbt källan till en modell i stora pipelines.  
+- **Efterlevnad:** Vissa branscher kräver explicit leverantörstagging för asset‑hantering.  
+- **Automation:** Skript kan filtrera eller bearbeta filer baserat på leverantörsmetadata.
 
 ## Förutsättningar
 
-Innan vi dyker in i handledningen, se till att du har följande förutsättningar:
+- Aspose.3D för .NET installerat. Du kan ladda ner det från [Aspose.3D för .NET‑sidan](https://releases.aspose.com/3d/net/).
 
--  Aspose.3D för .NET: Se till att du har biblioteket installerat. Du kan ladda ner den från[Aspose.3D för .NET-sida](https://releases.aspose.com/3d/net/).
-
-## Importera namnområden
-
-I ditt .NET-projekt, se till att inkludera de nödvändiga namnområdena för att komma åt Aspose.3D-funktioner:
+## Importera namnrymder
 
 ```csharp
 using System;
@@ -34,74 +48,87 @@ using System.Collections;
 using Aspose.ThreeD;
 ```
 
-## Steg 1: Initiera en 3D-scen
+## Hur man lägger till leverantörsinformation
+
+### Steg 1: Initiera en 3D‑scen
 
 ```csharp
 Scene scene = new Scene();
 ```
 
- Skapa en ny 3D-scen med hjälp av`Scene` klass.
+Att skapa en ny `Scene` ger dig en ren arbetsyta att arbeta med.
 
-## Steg 2: Ställ in applikations- och leverantörsinformation
+### Steg 2: Ange program‑ och leverantörsinformation
 
 ```csharp
 scene.AssetInfo.ApplicationName = "Egypt";
 scene.AssetInfo.ApplicationVendor = "Manualdesk";
 ```
 
-Definiera applikations- och leverantörsnamn som är associerade med din 3D-scen.
+Här demonstrerar vi **hur man lägger till leverantör**‑data genom att tilldela meningsfulla strängar till `ApplicationName` och `ApplicationVendor`.
 
-## Steg 3: Definiera måttenheter
+### Steg 3: Definiera måttenheter
 
 ```csharp
 scene.AssetInfo.UnitName = "pole";
 scene.AssetInfo.UnitScaleFactor = 0.6;
 ```
 
-Ange måttenheter som används i din scen. I det här exemplet använder vi forntida egyptiska enheter som kallas "stolpe", med 1 pol lika med 60 cm.
+Att specificera enhetssystemet säkerställer att alla som öppnar FBX‑filen tolkar dimensionerna korrekt. I detta exempel motsvarar en “pole” 60 cm.
 
-## Steg 4: Spara scenen
+## Hur man sparar FBX‑scen
+
+### Steg 4: Spara scenen (how to save fbx)
 
 ```csharp
 var output = "Your Output Directory" + "InformationToScene.fbx";
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-Spara scenen med den tillagda tillgångsinformationen till ett 3D-stödt filformat. Justera utdatakatalogen efter behov.
+Denna rad visar **hur man sparar fbx** med ASCII‑versionen av FBX 7.5.0. Om du föredrar binärt, ersätt `FBX7500ASCII` med `FBX7500Binary`.
 
-## Steg 5: Visa framgångsmeddelande
+> **Proffstips:** Håll filändelsen `.fbx` konsekvent med det format du väljer; annars kan vissa visare misstolka innehållet.
+
+### Steg 5: Visa framgångsmeddelande
 
 ```csharp
 Console.WriteLine("\nAsset information added successfully to Scene.\nFile saved at " + output);
 ```
 
-Informera användaren om att tillgångsinformationen har lagts till och filen sparas.
+Ett vänligt konsolmeddelande bekräftar att scenen, komplett med leverantörsmetadata, har skrivits till disk.
 
-## Slutsats
+## Vanliga problem och lösningar
 
-Grattis! Du har framgångsrikt lärt dig hur du använder Aspose.3D för .NET för att extrahera och lägga till viktig tillgångsinformation till dina 3D-scener. Denna kunskap öppnar för oändliga möjligheter för att skapa mer informativt och engagerande 3D-innehåll.
+| Problem | Lösning |
+|-------|----------|
+| **Leverantörsinformation visas inte i visaren** | Säkerställ att du sparade filen som **FBX ASCII** eller **Binary**; vissa äldre visare läser bara ett av formaten. |
+| **Sökväg innehåller mellanslag** | Omge sökvägen med citattecken eller använd `Path.Combine` för att bygga en säker filsökväg. |
+| **Enhetsskalan ser felaktig ut** | Dubbelkolla `UnitScaleFactor`; det är en multiplikator relativt meter. |
+| **Licensundantag** | Använd gratis provversion för testning; skaffa en full licens för produktionsbyggen. |
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Kan jag använda Aspose.3D för .NET med andra programmeringsspråk?
+**Q: Kan jag använda Aspose.3D för .NET med andra programmeringsspråk?**  
+A: Aspose.3D stödjer främst .NET‑språk, men du kan utforska interoperabilitetsalternativ för andra språk.
 
-S1: Aspose.3D stöder främst .NET-språk, men du kan utforska interoperabilitetsalternativ för andra språk.
+**Q: Finns det en gratis provversion av Aspose.3D för .NET?**  
+A: Ja, du kan komma åt den gratis provversionen [här](https://releases.aspose.com/).
 
-### F2: Finns det en gratis testversion tillgänglig för Aspose.3D för .NET?
+**Q: Hur får jag support för frågor relaterade till Aspose.3D?**  
+A: Besök [Aspose.3D‑forumet](https://forum.aspose.com/c/3d/18) för community‑ och supporthjälp.
 
- A2: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
+**Q: Kan jag köpa en tillfällig licens för Aspose.3D för .NET?**  
+A: Ja, du kan skaffa en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
 
-### F3: Hur får jag support för Aspose.3D-relaterade frågor?
+**Q: Var kan jag hitta detaljerad dokumentation för Aspose.3D för .NET?**  
+A: Se [dokumentationen](https://reference.aspose.com/3d/net/) för djupgående information.
 
- A3: Besök[Aspose.3D-forum](https://forum.aspose.com/c/3d/18) för gemenskap och stöd.
+---
 
-### F4: Kan jag köpa en tillfällig licens för Aspose.3D för .NET?
+**Senast uppdaterad:** 2026-03-26  
+**Testad med:** Aspose.3D 24.11 för .NET  
+**Författare:** Aspose  
 
- A4: Ja, du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
-
-### F5: Var kan jag hitta detaljerad dokumentation för Aspose.3D för .NET?
-
- A5: Se[dokumentation](https://reference.aspose.com/3d/net/) för fördjupad information.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

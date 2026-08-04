@@ -1,11 +1,17 @@
 ---
-date: 2026-01-14
-description: Pelajari cara menambahkan kamera ke adegan dan mengekspor adegan sebagai
+date: 2026-04-08
+description: Pelajari cara menambahkan kamera ke scene dan mengekspor scene sebagai
   FBX menggunakan Aspose.3D untuk .NET – panduan langkah demi langkah untuk mengatur
   target kamera dan membuat animasi 3D.
-linktitle: Add Camera to Scene and Set Up Targets for 3D Animation
+keywords:
+- add camera to scene
+- set camera target
+- export scene as fbx
+- how to add camera
+- position camera in 3d
+linktitle: Tambahkan Kamera ke Adegan dan Siapkan Target untuk Animasi 3D
 second_title: Aspose.3D .NET API
-title: Tambahkan Kamera ke Adegan dan Siapkan Target untuk Animasi 3D
+title: Tambahkan Kamera ke Adegan dan Atur Target untuk Animasi 3D
 url: /id/net/animation/setup-target-camera/
 weight: 11
 ---
@@ -14,36 +20,41 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambah Kamera ke Adegan dan Atur Target untuk Animasi 3D
+# Tambahkan Kamera ke Adegan dan Atur Target untuk Animasi 3D
 
-## Introduction
+## Pendahuluan
 
-Jika Anda membuat animasi 3D, hal pertama yang Anda butuhkan adalah kamera yang diposisikan dengan baik. Dalam tutorial ini Anda akan belajar **cara menambahkan kamera ke adegan**, menentukan targetnya, dan akhirnya **mengekspor adegan sebagai FBX** menggunakan Aspose.3D untuk .NET. Kami akan membahas setiap langkah, menjelaskan mengapa penting, dan memberi Anda tip praktis sehingga Anda dapat membuat animasi 3D yang menarik dengan percaya diri.
+Jika Anda membangun animasi 3D, hal pertama yang Anda butuhkan adalah kamera yang diposisikan dengan baik. Dalam tutorial ini Anda akan belajar **how to add camera to scene**, menentukan targetnya, dan akhirnya **export scene as FBX** menggunakan Aspose.3D untuk .NET. Kami akan melangkah melalui setiap langkah, menjelaskan mengapa hal itu penting, dan memberi Anda tip praktis sehingga Anda dapat membuat animasi 3D yang menarik dengan percaya diri. Pada akhir Anda juga akan memahami cara **position camera in 3d** ruang untuk framing yang optimal.
 
-## Quick Answers
+## Jawaban Cepat
 - **Apa langkah pertama untuk menambahkan kamera?** Inisialisasi objek `Scene` yang akan menjadi host node kamera.  
 - **Format file apa yang digunakan untuk ekspor dalam panduan ini?** FBX (`.fbx`).  
 - **Apakah saya memerlukan lisensi untuk menjalankan kode contoh?** Versi percobaan gratis cukup untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
 - **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
-- **Bisakah saya mengubah posisi kamera setelah dibuat?** Ya – ubah `cameraNode.Transform.Translation` kapan saja.
+- **Bisakah saya mengubah posisi kamera setelah dibuat?** Ya – modifikasi `cameraNode.Transform.Translation` kapan saja.
 
-## What is **add camera to scene**?
-Menambahkan kamera ke sebuah adegan berarti membuat entitas `Camera`, melampirkannya ke sebuah node dalam grafik adegan, dan memposisikannya sehingga “menghadap” ke titik target. Ini menentukan perspektif penonton ketika adegan dirender atau diekspor.
+## Apa itu **add camera to scene**?
+Menambahkan kamera ke sebuah adegan berarti membuat entitas `Camera`, melampirkannya ke sebuah node dalam grafik adegan, dan memposisikannya sehingga “melihat” sebuah titik target. Ini menentukan perspektif penonton ketika adegan dirender atau diekspor.
 
-## Why set up camera targets and export as FBX?
-- **Control the viewpoint** – penempatan kamera yang tepat memungkinkan Anda membingkai animasi persis seperti yang Anda bayangkan.  
-- **Interoperability** – FBX didukung secara luas oleh mesin game, Maya, Blender, dan alat 3D lainnya, memudahkan berbagi aset.  
-- **Reusable assets** – setelah kamera dan targetnya disimpan, Anda dapat menggunakan kembali adegan dalam berbagai proyek.
+## Mengapa mengatur target kamera dan mengekspor sebagai FBX?
+- **Kontrol sudut pandang** – penempatan kamera yang tepat memungkinkan Anda mengatur bingkai animasi Anda persis seperti yang Anda bayangkan.  
+- **Interoperabilitas** – FBX didukung secara luas oleh mesin game, Maya, Blender, dan alat 3D lainnya, memudahkan berbagi aset.  
+- **Aset dapat digunakan kembali** – setelah kamera dan targetnya disimpan, Anda dapat menggunakan kembali adegan dalam berbagai proyek.
 
-## Prerequisites
+## Kasus Penggunaan Umum
+- **Cut‑scene sinematik** dalam game di mana kamera tetap mengikuti karakter.  
+- **Visualisasi produk** di mana Anda memerlukan sudut pandang stabil untuk menampilkan model dari berbagai sudut.  
+- **Pra‑visualisasi** untuk film atau proyek AR/VR, memungkinkan desainer mengulang penempatan kamera sebelum rendering akhir.
+
+## Prasyarat
 
 Sebelum menyelam ke tutorial, pastikan Anda memiliki prasyarat berikut:
 
-- Pengetahuan dasar tentang C# dan kerangka kerja .NET.  
-- Perpustakaan Aspose.3D untuk .NET terinstal. Anda dapat mengunduhnya [di sini](https://releases.aspose.com/3d/net/).  
+- Pengetahuan dasar tentang C# dan .NET framework.  
+- Perpustakaan Aspose.3D untuk .NET terpasang. Anda dapat mengunduhnya [di sini](https://releases.aspose.com/3d/net/).  
 - Lingkungan pengembangan yang siap untuk pemrograman 3D.
 
-## Import Namespaces
+## Impor Namespace
 
 Untuk memulai proses, impor namespace yang diperlukan ke dalam proyek Anda. Namespace ini penting untuk memanfaatkan kekuatan Aspose.3D untuk .NET:
 
@@ -57,9 +68,9 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Utilities;
 ```
 
-## Step‑by‑Step Guide
+## Panduan Langkah‑per‑Langkah
 
-### Step 1: Initialize Scene Object
+### Langkah 1: Inisialisasi Objek Scene
 
 Mulailah dengan menginisialisasi objek scene. Ini berfungsi sebagai kanvas tempat animasi 3D Anda akan hidup.
 
@@ -69,80 +80,75 @@ Mulailah dengan menginisialisasi objek scene. Ini berfungsi sebagai kanvas tempa
 Scene scene = new Scene();
 ```
 
-### Step 2: Create a Camera Node
+### Langkah 2: Buat Node Kamera
 
-Selanjutnya, buat node anak yang akan menampung kamera. Memberi nama node yang bermakna membantu menjaga hierarki adegan tetap teratur.
+Selanjutnya, buat node anak yang akan menampung kamera. Memberi node nama yang bermakna membantu menjaga hierarki adegan tetap teratur.
 
 ```csharp
 // Get a child node object
 Node cameraNode = scene.RootNode.CreateChildNode("camera", new Camera());
 ```
 
-### Step 3: Position the Camera
+### Langkah 3: Posisi Kamera
 
-Tentukan translasi untuk node kamera. Ini menentukan posisi awal kamera dalam ruang 3D.
+Tentukan translasi untuk node kamera. Ini menentukan posisi awal kamera dalam ruang 3D. Sesuaikan nilai `Vector3` untuk **position camera in 3d** sesuai kebutuhan shot Anda.
 
 ```csharp
 // Set camera node translation
 cameraNode.Transform.Translation = new Vector3(100, 20, 0);
 ```
 
-### Step 4: Define the Camera Target
+### Langkah 4: Tentukan Target Kamera
 
-Kamera membutuhkan titik target untuk dilihat. Kami membuat node anak lain yang berfungsi sebagai titik fokus dan menetapkannya ke properti `Target` kamera.
+Kamera membutuhkan titik target untuk dilihat. Kami membuat node anak lain yang berfungsi sebagai titik fokus dan menetapkannya ke properti `Target` kamera. Inilah cara Anda **set camera target** untuk tampilan yang stabil.
 
 ```csharp
 cameraNode.GetEntity<Camera>().Target = scene.RootNode.CreateChildNode("target");
 ```
 
-### Step 5: Save the Configured Scene
+### Langkah 5: Simpan Adegan yang Dikonfigurasi
 
-Akhirnya, ekspor adegan ke file FBX (atau format lain yang didukung). Ganti `"Your Output Directory"` dengan jalur aktual tempat Anda ingin menyimpan file.
+Akhirnya, ekspor adegan ke file FBX (atau format lain yang didukung). Ganti `"Your Output Directory"` dengan path aktual tempat Anda ingin file disimpan.
 
 ```csharp
 var output = "Your Output Directory" + "camera-test.fbx";
 scene.Save(output);
 ```
 
-## Common Issues and Solutions
+## Masalah Umum dan Solusi
 
-| Issue | Solution |
+| Masalah | Solusi |
 |-------|----------|
-| **Camera appears at the wrong angle** | Pastikan node target diposisikan sesuai harapan. Anda juga dapat mengatur `cameraNode.GetEntity<Camera>().UpVector` untuk mengontrol orientasi. |
-| **Exported FBX does not open in other tools** | Pastikan Anda menggunakan versi terbaru Aspose.3D (perpustakaan secara otomatis menulis versi FBX yang kompatibel). |
-| **Path not found error on `scene.Save`** | Gunakan path absolut atau pastikan direktori output ada sebelum memanggil `Save`. |
+| **Kamera muncul pada sudut yang salah** | Verifikasi bahwa node target diposisikan di tempat yang Anda harapkan. Anda juga dapat mengatur `cameraNode.GetEntity<Camera>().UpVector` untuk mengontrol orientasi. |
+| **FBX yang diekspor tidak dapat dibuka di alat lain** | Pastikan Anda menggunakan versi terbaru Aspose.3D (perpustakaan secara otomatis menulis versi FBX yang kompatibel). |
+| **Kesalahan path tidak ditemukan pada `scene.Save`** | Gunakan path absolut atau pastikan direktori output ada sebelum memanggil `Save`. |
 
-## FAQ's
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Is Aspose.3D compatible with other 3D modeling tools?
+**Q: Apakah Aspose.3D kompatibel dengan alat pemodelan 3D lainnya?**  
+A: Aspose.3D mendukung berbagai format file, memastikan kompatibilitas dengan alat pemodelan 3D populer.
 
-A1: Aspose.3D mendukung berbagai format file, memastikan kompatibilitas dengan alat pemodelan 3D populer.
+**Q: Bisakah saya menggunakan Aspose.3D untuk pengembangan game?**  
+A: Tentu saja! Aspose.3D memungkinkan pengembang membuat aset 3D untuk game dengan mudah.
 
-### Q2: Can I use Aspose.3D for game development?
+**Q: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.3D?**  
+A: Kunjungi [forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan komunitas dan diskusi.
 
-A2: Tentu saja! Aspose.3D memungkinkan pengembang membuat aset 3D untuk game dengan mudah.
+**Q: Apakah ada percobaan gratis yang tersedia?**  
+A: Ya, Anda dapat menjelajahi percobaan gratis [di sini](https://releases.aspose.com/).
 
-### Q3: Where can I find additional support for Aspose.3D?
+**Q: Bagaimana cara mendapatkan lisensi sementara?**  
+A: Dapatkan lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
-A3: Kunjungi [forum Aspose.3D](https://forum.aspose.com/c/3d/18) untuk dukungan komunitas dan diskusi.
+## Kesimpulan
 
-### Q4: Is there a free trial available?
-
-A4: Ya, Anda dapat menjelajahi percobaan gratis [di sini](https://releases.aspose.com/).
-
-### Q5: How do I obtain a temporary license?
-
-A5: Dapatkan lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
-
-## Conclusion
-
-Anda kini telah mempelajari cara **menambahkan kamera ke adegan**, mengatur targetnya, dan mengekspor hasilnya sebagai file FBX menggunakan Aspose.3D untuk .NET. Dengan dasar-dasar ini, Anda dapat mulai membangun animasi yang lebih kaya, bereksperimen dengan banyak kamera, dan mengintegrasikan adegan yang diekspor ke dalam mesin game atau pipeline efek visual.
+Anda kini telah mempelajari cara **add camera to scene**, mengatur targetnya, dan mengekspor hasilnya sebagai file FBX menggunakan Aspose.3D untuk .NET. Dengan dasar-dasar ini, Anda dapat mulai membangun animasi yang lebih kaya, bereksperimen dengan beberapa kamera, dan mengintegrasikan adegan yang diekspor ke dalam mesin game atau pipeline efek visual.
 
 ---
 
-**Last Updated:** 2026-01-14  
-**Tested With:** Aspose.3D 24.11 for .NET (latest at time of writing)  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-04-08  
+**Diuji Dengan:** Aspose.3D 24.11 untuk .NET (terbaru pada saat penulisan)  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

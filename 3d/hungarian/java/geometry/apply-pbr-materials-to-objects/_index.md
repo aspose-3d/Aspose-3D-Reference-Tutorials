@@ -1,11 +1,54 @@
 ---
-date: 2026-02-09
-description: Tanulja meg, hogyan hozhat létre 3D jelenetet Java-ban, alkalmazhat valósághű
-  PBR anyagokat az Aspose.3D segítségével, és mentheti el a 3D modellt STL formátumban
-  a Java-ban történő 3D objektumok rendereléséhez.
-linktitle: Create 3D Scene Java – Apply PBR Materials with Aspose.3D
+date: 2026-05-14
+description: Ismerje meg, hogyan exportálhat STL-t Java-ban egy 3D jelenet létrehozásával,
+  valósághű PBR anyagok alkalmazásával az Aspose.3D-vel, és a modell mentésével rendereléshez.
+keywords:
+- how to export stl
+- Aspose 3D PBR materials
+- Java 3D scene creation
+linktitle: Hogyan exportáljunk STL-t Java-ban – 3D jelenet létrehozása az Aspose.3D-vel
+schemas:
+- author: Aspose
+  dateModified: '2026-05-14'
+  description: Learn how to export STL in Java by creating a 3D scene, applying realistic
+    PBR materials with Aspose.3D, and saving the model for rendering.
+  headline: How to Export STL in Java – Create 3D Scene with Aspose.3D
+  type: TechArticle
+- description: Learn how to export STL in Java by creating a 3D scene, applying realistic
+    PBR materials with Aspose.3D, and saving the model for rendering.
+  name: How to Export STL in Java – Create 3D Scene with Aspose.3D
+  steps:
+  - name: '**Java Development Environment** – JDK 8 or newer installed.'
+    text: '**Java Development Environment** – JDK 8 or newer installed.'
+  - name: '**Aspose.3D Library** – Download the latest JAR from the [download link](https://releases.aspose.com/3d/java/) .'
+    text: '**Aspose.3D Library** – Download the latest JAR from the [download link](https://releases.aspose.com/3d/java/) .'
+  - name: '**Documentation** – Familiarise yourself with the API via the official
+      [documentation](https://reference.aspose.com/3d/java/) .'
+    text: '**Documentation** – Familiarise yourself with the API via the official
+      [documentation](https://reference.aspose.com/3d/java/) .'
+  - name: '**Temporary License (Optional)** – If you don’t have a permanent license,
+      obtain a [temporary license](https://purchase.aspose.com/temporary-license/)
+      for testing.'
+    text: '**Temporary License (Optional)** – If you don’t have a permanent license,
+      obtain a [temporary license](https://purchase.aspose.com/temporary-license/)
+      for testing.'
+  type: HowTo
+- questions:
+  - answer: It’s the process of building a `Scene` object that holds geometry, lights,
+      and cameras in a Java application.
+    question: What does “create 3d scene java” mean?
+  - answer: Aspose.3D provides a ready‑made `PbrMaterial` class.
+    question: Which library handles PBR materials?
+  - answer: Yes – the `Scene.save` method supports STL (ASCII and binary).
+    question: Can I export the result as STL?
+  - answer: A permanent Aspose.3D license is required for commercial use; a temporary
+      license works for testing.
+    question: Do I need a license for production?
+  - answer: Any Java 8+ runtime is supported.
+    question: What Java version is required?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: '3D jelenet létrehozása Java-ban: PBR anyagok alkalmazása az Aspose.3D-vel'
+title: Hogyan exportáljunk STL-t Java-ban – 3D jelenet létrehozása az Aspose.3D-vel
 url: /hu/java/geometry/apply-pbr-materials-to-objects/
 weight: 10
 ---
@@ -14,65 +57,57 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D jelenet létrehozása Java-ban – PBR anyagok alkalmazása az Aspose.3D-vel
+# Hogyan exportáljunk STL-t Java-ban – 3D-színter létrehozása az Aspose.3D-val
 
 ## Bevezetés
 
-Ebben a gyakorlati útmutatóban megtanulod, **hogyan hozz létre 3D jelenetet Java-ban**, és gazdagítsd azt Fizikailag Alapú Renderelés (PBR) anyagokkal az Aspose.3D könyvtár segítségével. A útmutató végére képes leszel valósághű felületeket renderelni, és **elmenteni a 3D modellt STL** formátumban, hogy bármely 3D pipeline-ban felhasználhasd.
+Ebben a gyakorlati útmutatóban megtanulod, **hogyan exportáljunk STL**-t egy Java alkalmazásból egy teljes 3D-színter felépítésével, a Fizikailag Alapú Renderelés (PBR) anyagok alkalmazásával, és az eredmény mentésével az Aspose.3D segítségével. Akár 3D nyomtatásra, játék‑motor csővezetékekre vagy termék‑vizualizációra célozol, az alábbi lépések egy ismételhető, verzió‑kezelhető munkafolyamatot biztosítanak, amely bármely Java 8+ futtatókörnyezetben működik.
 
 ## Gyors válaszok
-- **Mit jelent a „create 3d scene java”?** Ez a folyamat, amely során egy Scene objektumot építesz, amely geometriát, fényeket és kamerákat tartalmaz egy Java alkalmazásban.  
-- **Melyik könyvtár kezeli a PBR anyagokat?** Az Aspose.3D biztosítja a kész `PbrMaterial` osztályt.  
+- **Mi jelent a “create 3d scene java”?** Ez a folyamat, amely egy `Scene` objektum létrehozását jelenti, amely geometriát, fényeket és kamerákat tartalmaz egy Java alkalmazásban.  
+- **Melyik könyvtár kezeli a PBR anyagokat?** Az Aspose.3D egy kész `PbrMaterial` osztályt biztosít.  
 - **Exportálhatom az eredményt STL‑ként?** Igen – a `Scene.save` metódus támogatja az STL‑t (ASCII és bináris).  
-- **Szükség van licencre a termeléshez?** Kereskedelmi használathoz állandó Aspose.3D licenc szükséges; teszteléshez ideiglenes licenc is működik.  
+- **Szükségem van licencre a termeléshez?** Állandó Aspose.3D licenc szükséges kereskedelmi felhasználáshoz; egy ideiglenes licenc teszteléshez elegendő.  
 - **Milyen Java verzió szükséges?** Bármely Java 8+ futtatókörnyezet támogatott.
 
-## Hogyan hozhatunk létre 3d scene java‑t az Aspose.3D‑vel
+## Hogyan hozzunk létre 3D-színter Java-ban az Aspose.3D-val
 
-Mielőtt a kódba merülnénk, tisztázzuk, miért értékes egy 3D jelenet programozott építése. Legyen szó játékenginekhez való assetek előkészítéséről, 3‑D nyomtatáshoz készült modellek generálásáról, vagy e‑kereskedelmi termékmegjelenítésekről, a geometria, anyagok és exportformátumok teljes kontrollja lehetővé teszi az ismételhető pipeline‑ok automatizálását és a verziókezelést.
+`Scene` a fő tároló osztály, amely egy 3D dokumentumot képvisel. Néhány kódsorral betöltheted, konfigurálhatod és mentheted a színteret. Először egy `Scene` példányt hozol létre, majd geometriát és egy `PbrMaterial`‑t csatolsz, végül a `Scene.save`‑t hívod meg STL formátummal. Ez az vég‑a‑végig folyamat lehetővé teszi az eszközök generálásának automatizálását anélkül, hogy 3D szerkesztőt nyitnál meg.
 
-### Miért fontos ez
+## Mi az a 3D-színter Java-ban?
 
-* **Következetesség** – Minden alkalommal ugyanazok a anyagparaméterek kerülnek alkalmazásra, így elkerülhető a kézi finomhangolás egy 3D szerkesztőben.  
-* **Automatizálás** – Egyszerű ciklussal generálhatsz tucatnyi változatot (különböző színek, durvasági szintek vagy méretek).  
-* **Keresztplatformos** – Az STL fájl bármely downstream eszköz által felhasználható, a Blender‑től a 3‑D nyomtatók szeletelőiig.
+A *scene* a tároló, amely minden objektumot (csomópontot), azok geometriáját, anyagait, fényeket és kamerákat tartalmaz. Gondolj rá úgy, mint egy virtuális színpadra, amelyre a 3D modelleket helyezed. Az Aspose.3D `Scene` osztálya tiszta, objektum‑orientált módot biztosít ennek a színpadnak a programozott felépítéséhez.
 
-## Mi az a 3D jelenet Java‑ban?
+## Miért használjunk PBR anyagokat 3D objektumok rendereléséhez Java-ban?
 
-A *scene* (jelenet) az a tároló, amely minden objektumot (node‑t), azok geometriáját, anyagait, fényeket és kamerákat tartalmaz. Olyan, mint egy virtuális színpad, ahová a 3D modelleket helyezed. Az Aspose.3D `Scene` osztálya tiszta, objektum‑orientált módot biztosít ennek a színpadnak a programozott felépítésére.
-
-## Miért használjunk PBR anyagokat 3D objektumok rendereléséhez Java‑ban?
-
-A PBR (Physically Based Rendering) a valós világ fényinterakcióját utánozza olyan paraméterekkel, mint a fémesség és a durvaság. Az eredmény egy meggyőzőbb megjelenés különböző megvilágítási körülmények között, ami különösen értékes termékmegjelenítés, játékok vagy AR/VR élmények esetén.
+A PBR (Physically Based Rendering) a valós világ fényinterakcióját utánozza fém és durvaság paraméterek használatával. Az eredmény egy anyag, amely bármely fényviszony mellett konzisztensnek tűnik, ami elengedhetetlen a realisztikus termék‑vizualizációhoz, AR/VR-hez és a modern játék‑motorokhoz. A fémesség, durvaság, albedo és normál térképek szabályozásával széles skáláját érheted el a felületi megjelenéseknek – a polírozott fémtől a matt műanyagainak – anélkül, hogy kézzel állítanád a shadereket.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződj meg róla, hogy a következők rendelkezésre állnak:
-
-1. **Java fejlesztői környezet** – Telepített JDK 8 vagy újabb.  
-2. **Aspose.3D könyvtár** – Töltsd le a legújabb JAR‑t a [letöltési hivatkozásról](https://releases.aspose.com/3d/java/).  
-3. **Dokumentáció** – Ismerkedj meg az API‑val a hivatalos [dokumentációban](https://reference.aspose.com/3d/java/).  
-4. **Ideiglenes licenc (opcionális)** – Ha nincs állandó licenced, szerezz egy [ideiglenes licencet](https://purchase.aspose.com/temporary-license/) a teszteléshez.
+1. **Java Development Environment** – JDK 8 vagy újabb telepítve.  
+2. **Aspose.3D Library** – Töltsd le a legújabb JAR‑t a [letöltési hivatkozás](https://releases.aspose.com/3d/java/) címről.  
+3. **Documentation** – Ismerkedj meg az API‑val a hivatalos [dokumentáció](https://reference.aspose.com/3d/java/) segítségével.  
+4. **Temporary License (Optional)** – Ha nincs állandó licenced, szerezz egy [ideiglenes licencet](https://purchase.aspose.com/temporary-license/) teszteléshez.
 
 ## Gyakori felhasználási esetek
 
 | Felhasználási eset | Hogyan segít a tutorial |
 |--------------------|--------------------------|
-| **3‑D nyomtatás** | Az STL exportálás lehetővé teszi a modell közvetlen elküldését egy szeletelőnek. |
-| **Játék asset pipeline** | A PBR anyagparaméterek megfelelnek a modern játékenginek elvárásainak. |
-| **Termékkonfigurátor** | Automatizáld a szín/finish variációkat a fémesség/durvaság értékek módosításával. |
+| **3‑D printing** | Az STL‑re exportálás lehetővé teszi, hogy a modellt közvetlenül egy szeletelőnek küldd. |
+| **Game asset pipeline** | A PBR anyagparaméterek megfelelnek a modern játék‑motorok elvárásainak. |
+| **Product configurator** | Szín/felület befejezés variációkat automatizálhatsz a fémesség/durvaság értékek módosításával. |
 
 ## Csomagok importálása
 
-Add hozzá az Aspose.3D névteret a Java forrásfájlodhoz:
+Az `Aspose.3D` névtérnek importálva kell lennie, hogy a fordító fel tudja oldani a tutorialban használt osztályokat.
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## 1. lépés: Scene inicializálása
+## Lépés 1: Színter inicializálása
 
-Hozd létre a jelenetet, amely a geometria és anyagok vászonak fog szolgálni.
+`Scene` az elsődleges tároló minden 3D tartalom számára. Egy új példány létrehozása egy tiszta vászon, amelyhez geometriát, fényeket és kamerákat adhatsz hozzá.
 
 ```java
 // ExStart:InitializeScene
@@ -81,11 +116,11 @@ Scene scene = new Scene();
 // ExEnd:InitializeScene
 ```
 
-> **Pro tip:** Tartsd a `MyDir`‑t egy írható mappára mutatva; különben a `save` hívás hibát fog eredményezni.
+> **Pro tipp:** Tartsd a `MyDir`‑t egy írható mappára mutatva; különben a `save` hívás hibát fog eredményezni.
 
-## 2. lépés: PBR anyag inicializálása
+## Lépés 2: PBR anyag inicializálása
 
-Állíts be egy PBR anyagot fémességi és durvasági értékekkel, amelyek közel fémes megjelenést adnak.
+`PbrMaterial` definiálja a fizikailag alapú renderelés tulajdonságait, mint a fémesség és a durvaság. A `PbrMaterial` meghatározza a fémességet, durvaságot és egyéb felületi tulajdonságokat. Magas fémességi tényező (≈ 0.9) és 0.9 durvaság beállítása valósághű kefélt fém megjelenést eredményez.
 
 ```java
 // ExStart:InitializePBRMaterial
@@ -95,11 +130,11 @@ mat.setRoughnessFactor(0.9);
 // ExEnd:InitializePBRMaterial
 ```
 
-> **Miért ezek az értékek?** A magas fémességi tényező (≈ 0.9) a felületet fémként viselkedővé teszi, míg a magas durvaság (≈ 0.9) finom diffúziót ad hozzá, megakadályozva a tökéletes tükörszerű felületet.
+> **Miért ezek az értékek?** A magas fémességi tényező a felületet fémként viselkedővé teszi, míg a magas durvaság finom szórást ad hozzá, megakadályozva a tökéletes tükörszerű felületet.
 
-## 3. lépés: 3D objektum létrehozása és anyag alkalmazása
+## Lépés 3: 3D objektum létrehozása és anyag alkalmazása
 
-Itt generálunk egy egyszerű dobozgeometriát, csatoljuk a jelenet gyökérnode‑jához, és hozzárendeljük a korábban létrehozott PBR anyagot.
+Itt egy egyszerű doboz geometriát generálunk, a színter gyökércsomópontjához csatoljuk, és hozzárendeljük a most létrehozott `PbrMaterial`‑t.
 
 ```java
 // ExStart:Create3DObject
@@ -108,11 +143,11 @@ boxNode.setMaterial(mat);
 // ExEnd:Create3DObject
 ```
 
-> **Gyakori hibaforrás:** Ha elfelejted beállítani az anyagot a node‑on, az objektum az alapértelmezett (nem‑PBR) megjelenést kapja.
+> **Gyakori hiba:** Ha elfelejted beállítani az anyagot a csomóponton, az objektum az alapértelmezett (nem‑PBR) megjelenést kapja.
 
-## 4. lépés: 3D jelenet mentése (STL export)
+## Lépés 4: 3D színter mentése (STL export)
 
-Exportáld az egész jelenetet – beleértve a PBR‑fejlesztett dobozt – egy STL fájlba. Az STL egy széles körben támogatott formátum 3‑D nyomtatáshoz és gyors vizuális ellenőrzésekhez.
+`Scene.save` a színtert egy fájlba írja a megadott formátumban. Exportáld a teljes színtert – beleértve a PBR‑fejlesztett dobozt – egy STL fájlba. Az STL egy széles körben támogatott formátum 3D nyomtatáshoz és gyors vizuális ellenőrzésekhez.
 
 ```java
 // ExStart:Save3DScene
@@ -120,46 +155,53 @@ scene.save(MyDir + "PBR_Material_Box_Out.stl", FileFormat.STLASCII);
 // ExEnd:Save3DScene
 ```
 
-Választhatod a `FileFormat.STLBINARY` opciót is, ha kisebb fájlméretre van szükség.
+`FileFormat.STLBINARY` bináris STL kimenetet ad meg, ami kisebb, mint az ASCII. Választhatod a `FileFormat.STLASCII`‑t is, ha ember által olvasható fájlra van szükség.
 
-### Hibaelhárítási tippek
+## Miért fontos ez
+
+A konzisztens anyagparaméterek biztosítják, hogy minden generált modell ugyanúgy nézzen ki különböző megjelenítők és fénybeállítások között. Az automatizálás lehetővé teszi nagy mennyiségű variáció előállítását minimális erőfeszítéssel, míg a platformfüggetlen STL kimenet garantálja a kompatibilitást olyan eszközökkel, mint a Blender vagy a 3D nyomtatók szeletelői. Ezek az előnyök együtt felgyorsítják a fejlesztési folyamatokat és csökkentik a manuális hibákat.
+
+## Hibaelhárítási tippek
 
 | Probléma | Valószínű ok | Megoldás |
 |----------|--------------|----------|
-| **A fájl nem mentődik** | `MyDir` egy nem létező mappára mutat, vagy nincs írási jogosultság | Ellenőrizd, hogy a könyvtár létezik, és a Java folyamatnak van írási joga |
-| **Az anyag laposnak tűnik** | A fémesség/durvaság értékek 0‑ra vannak állítva | Növeld a `setMetallicFactor` és/vagy a `setRoughnessFactor` értékét |
-| **Az STL fájl nem nyitható meg** | Rossz fájlformátum‑flag (ASCII vs Binary) a megjelenítőhöz | Használd a célmegtekintőnek megfelelő `FileFormat` enum értéket |
+| **Fájl nem mentve** | `MyDir` egy nem létező mappára mutat vagy nincs írási jogosultsága | Ellenőrizd, hogy a könyvtár létezik-e, és a Java folyamatnak van-e írási hozzáférése |
+| **Az anyag laposnak tűnik** | A fémesség/durvaság értékek 0-ra vannak állítva | Növeld a `setMetallicFactor` és/vagy a `setRoughnessFactor` értékét |
+| **STL fájl nem nyitható meg** | Hibás fájlformátum jelző (ASCII vs Bináris) a megjelenítőhöz | Használd a megfelelő `FileFormat` enumot a célmegtekintőhöz |
 
-## Gyakran feltett kérdések
+## Gyakran Ismételt Kérdések
 
-**Q: Használhatom az Aspose.3D‑t kereskedelmi projektekben?**  
-A: Igen. Vásárolj kereskedelmi licencet a [vásárlási oldalon](https://purchase.aspose.com/buy).
+**Q:** Can I use Aspose.3D for commercial projects?  
+**A:** Yes. Purchase a commercial license on the [purchase page](https://purchase.aspose.com/buy).
 
-**Q: Hogyan kaphatok támogatást az Aspose.3D‑hez?**  
-A: Csatlakozz a közösséghez a [Aspose.3D fórumon](https://forum.aspose.com/c/3d/18) ingyenes segítségért, vagy nyiss egy támogatási jegyet érvényes licenccel.
+**Q:** How do I get support for Aspose.3D?  
+**A:** Join the community on the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for free assistance, or open a support ticket with a valid license.
 
-**Q: Van ingyenes próba verzió?**  
-A: Természetesen. Töltsd le a próbaverziót a [próba oldalról](https://releases.aspose.com/).
+**Q:** Is there a free trial available?  
+**A:** Absolutely. Download a trial version from the [free trial page](https://releases.aspose.com/).
 
-**Q: Hol találok részletes dokumentációt az Aspose.3D‑hez?**  
-A: Az összes API‑referencia elérhető a hivatalos [dokumentációban](https://reference.aspose.com/3d/java/).
+**Q:** Where can I find detailed documentation for Aspose.3D?  
+**A:** All API references are available at the official [documentation](https://reference.aspose.com/3d/java/).
 
-**Q: Hogyan szerezzek ideiglenes licencet teszteléshez?**  
-A: Kérj egyet a [ideiglenes licenc linkjén](https://purchase.aspose.com/temporary-license/).
-
-## Összegzés
-
-Most **létrehoztál egy 3D jelenetet Java-ban**, alkalmaztál egy valósághű PBR anyagot, és exportáltad az eredményt STL fájlként az Aspose.3D segítségével. Ez a munkafolyamat szilárd alapot nyújt gazdagabb vizualizációk építéséhez, 3‑D nyomtatási assetek előkészítéséhez vagy modellek játékenginekbe való betáplálásához.
+**Q:** How do I obtain a temporary license for testing?  
+**A:** Request one via the [temporary license link](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Utolsó frissítés:** 2026-02-09  
-**Tesztelt verzió:** Aspose.3D 24.12 (legújabb)  
+**Legutóbb frissítve:** 2026-05-14  
+**Tesztelt verzióval:** Aspose.3D 24.12 (latest)  
 **Szerző:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## Kapcsolódó útmutatók
 
+- [3D-színter létrehozása Java-ban az Aspose 3D Java-val](/3d/java/3d-scenes-and-models/)
+- [Hogyan exportáljunk színtert FBX‑be és szerezzünk 3D színter információt Java-ban](/3d/java/3d-scenes-and-models/get-scene-information/)
+- [Hogyan exportáljunk OBJ‑t – sík orientáció módosítása a pontos 3D színter pozicionáláshoz Java-ban](/3d/java/3d-scenes-and-models/change-plane-orientation/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+ 

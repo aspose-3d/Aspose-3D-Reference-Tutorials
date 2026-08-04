@@ -1,11 +1,18 @@
 ---
-date: 2026-02-07
-description: Poznaj, jak tworzyć modele cylindrów z odsuniętymi górnymi częściami
-  w Aspose.3D dla Javy, dodawać węzły potomne w krokach Javy i łatwo eksportować pliki
-  OBJ modeli 3D.
-linktitle: How to Create Cylinder with Offset Top in Aspose.3D for Java
+date: 2026-04-08
+description: Dowiedz się, jak stworzyć cylinder z przesuniętą górą w Aspose.3D dla
+  Javy, dodać węzeł potomny w Javie, ustawić przesunięcie górnej części, wygenerować
+  model 3D i wyeksportować OBJ przy użyciu tymczasowej licencji Aspose.
+keywords:
+- aspose temporary license
+- generate 3d model
+- add child node java
+- java export obj
+- set offset top
+linktitle: Licencja tymczasowa Aspose – Utwórz cylinder z przesuniętym górnym końcem
+  (Java)
 second_title: Aspose.3D Java API
-title: Jak stworzyć cylinder z przesuniętym górnym końcem w Aspose.3D dla Javy
+title: Tymczasowa licencja Aspose – Tworzenie walca z przesuniętym górnym końcem (Java)
 url: /pl/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
@@ -14,39 +21,39 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak utworzyć cylinder z przesuniętym wierzchołkiem w Aspose.3D dla Javy
+# Licencja tymczasowa Aspose – Tworzenie walca z przesuniętym wierzchołkiem (Java)
 
 ## Wprowadzenie
 
-Jeśli chcesz **how to create cylinder** obiekty z niestandardowym przesunięciem górnej części w scenie 3D opartej na Javie, Aspose.3D upraszcza cały proces. W tym samouczku przeprowadzimy Cię przez każdy krok — od konfiguracji sceny po eksport gotowego modelu jako pliku OBJ — abyś mógł z pewnością integrować cylindry z przesuniętym wierzchołkiem w swoich aplikacjach. Po zakończeniu przewodnika opanujesz, jak tworzyć kształty cylindrów z niestandardowymi przesunięciami w zaledwie kilku linijkach kodu.
+Jeśli chcesz **tworzyć walec** obiekty z niestandardowym przesunięciem górnej części w scenie 3D opartej na Javie, Aspose.3D upraszcza cały proces. W tym samouczku przeprowadzimy Cię przez każdy krok — od skonfigurowania sceny po wyeksportowanie finalnego modelu jako pliku OBJ — abyś mógł z pewnością integrować walce z przesuniętym wierzchołkiem w swoich aplikacjach. Po zakończeniu przewodnika zrozumiesz także, jak **aspose temporary license** pozwala ocenić te funkcje bez pełnego zakupu.
 
 ## Szybkie odpowiedzi
 - **Jakiej biblioteki użyto?** Aspose.3D for Java  
-- **Czy mogę przesunąć górę cylindra?** Tak, używając `setOffsetTop`  
-- **Jak dodać węzeł potomny w Javie?** Wywołaj `createChildNode` na węźle głównym  
-- **Do jakiego formatu mogę eksportować?** Wavefront OBJ (`export 3d model obj`)  
-- **Czy potrzebna jest licencja do testów?** Dostępna jest tymczasowa licencja do oceny  
+- **Czy mogę przesunąć górną część walca?** Yes, using `setOffsetTop`  
+- **Jak dodać węzeł potomny w Javie?** Call `createChildNode` on the root node  
+- **Do którego formatu mogę eksportować?** Wavefront OBJ (`java export obj`)  
+- **Czy potrzebuję licencji do testowania?** An **aspose temporary license** is available for evaluation  
 
-## Czym jest „how to create cylinder” z przesunięciem górnej części?
+## Co to jest licencja tymczasowa Aspose?
 
-Tworzenie cylindra z przesuniętą górą oznacza, że górna okrągła powierzchnia jest przesunięta względem podstawy, co pozwala modelować stożkowe lub asymetryczne kształty bez ręcznej manipulacji wierzchołkami. Aspose.3D udostępnia dedykowany konstruktor oraz właściwość `OffsetTop`, dzięki którym można to osiągnąć w zaledwie kilku linijkach kodu.
+**aspose temporary license** jest krótkoterminowym, bezpłatnym kluczem ewaluacyjnym, który odblokowuje pełny zestaw funkcji Aspose.3D for Java podczas rozwoju i testowania. Usuwa znaki wodne wersji ewaluacyjnej i pozwala generować pliki modeli 3D, takie jak OBJ, STL czy FBX, dokładnie tak jak licencja płatna.
 
 ## Dlaczego warto używać Aspose.3D dla Javy?
 
 - **High‑level API:** Nie trzeba zarządzać danymi siatki niskiego poziomu.  
-- **Cross‑platform:** Działa w każdym środowisku zgodnym z JVM.  
+- **Cross‑platform:** Działa w każdym środowisku kompatybilnym z JVM.  
 - **Built‑in exporters:** Bezpośrednio zapisuje do OBJ, STL, FBX i innych.  
-- **Extensible:** Łatwo dodawać węzły potomne, stosować przekształcenia i integrować z innymi bibliotekami Javy.
+- **Extensible:** Łatwo dodawać węzły potomne, stosować przekształcenia i integrować z innymi bibliotekami Javy.  
 
-## Prerequisites
+## Wymagania wstępne
 
 - **Java Development Kit (JDK)** – zainstalowana kompatybilna wersja.  
-- **Aspose.3D for Java library** – pobierz najnowszy plik JAR z oficjalnej strony [tutaj](https://releases.aspose.com/3d/java/).  
-- IDE według własnego wyboru (Eclipse, IntelliJ IDEA, NetBeans, itp.).
+- **Aspose.3D for Java library** – pobierz najnowszy plik JAR ze strony oficjalnej [tutaj](https://releases.aspose.com/3d/java/).  
+- IDE według własnego wyboru (Eclipse, IntelliJ IDEA, NetBeans itp.).  
 
 ## Importowanie pakietów
 
-Najpierw zaimportuj klasy, których będziemy potrzebować. Umieść te instrukcje na początku swojego pliku Java:
+Najpierw zaimportuj klasy, które będą potrzebne. Umieść te instrukcje na początku swojego pliku Java:
 
 ```java
 import com.aspose.threed.Cylinder;
@@ -60,9 +67,9 @@ import java.io.IOException;
 
 ## Przewodnik krok po kroku
 
-### Krok 1: Utwórz scenę
+### Krok 1: Utwórz scenę Java 3D
 
-Scena pełni rolę kontenera dla wszystkich obiektów 3D.
+**java 3d scene** pełni rolę kontenera dla wszystkich obiektów 3D.
 
 ```java
 // ExStart:1
@@ -71,9 +78,9 @@ Scene scene = new Scene();
 // ExEnd:1
 ```
 
-### Krok 2: Zainicjuj cylinder z przesuniętą górą
+### Krok 2: Zainicjuj walec z przesuniętym wierzchołkiem
 
-Tutaj odpowiadamy na pytanie **how to create cylinder** z niestandardowym przesunięciem. Konstruktor definiuje promień, wysokość, liczbę segmentów (slices), stosów (stacks) oraz czy cylinder jest zamknięty. Następnie przesuwamy górę za pomocą `setOffsetTop`.
+Tutaj odpowiadamy na pytanie, **jak stworzyć walec** z niestandardowym przesunięciem. Konstruktor definiuje promień, wysokość, liczbę segmentów (slices), stosów (stacks) oraz czy walec jest zamknięty. Następnie przesuwamy górę przy użyciu `setOffsetTop`.
 
 ```java
 // ExStart:2
@@ -84,9 +91,9 @@ cylinder1.setOffsetTop(new Vector3(5, 3, 0));
 // ExEnd:2
 ```
 
-### Krok 3: Jak **add child node Java** – Dołącz pierwszy cylinder
+### Krok 3: Dodaj węzeł potomny w Javie – Dołącz pierwszy walec
 
-Tworzymy węzeł potomny pod węzłem głównym sceny i przenosimy cylinder do wybranej lokalizacji.
+Tworzymy węzeł potomny pod głównym węzłem sceny i przenosimy walec do wybranej lokalizacji.
 
 ```java
 // ExStart:3
@@ -95,9 +102,9 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 // ExEnd:3
 ```
 
-### Krok 4: Zainicjuj drugi cylinder (bez przesunięcia)
+### Krok 4: Zainicjuj drugi walec (bez przesunięcia)
 
-Dla porównania dodajemy zwykły cylinder bez przesunięcia.
+Dla porównania dodajemy zwykły walec bez przesunięcia.
 
 ```java
 // ExStart:4
@@ -106,7 +113,7 @@ Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExEnd:4
 ```
 
-### Krok 5: Jak **add child node Java** – Dołącz drugi cylinder
+### Krok 5: Dodaj węzeł potomny w Javie – Dołącz drugi walec
 
 ```java
 // ExStart:5
@@ -115,9 +122,9 @@ scene.getRootNode().createChildNode(cylinder2);
 // ExEnd:5
 ```
 
-### Krok 6: Jak **export OBJ** – Zapisz scenę jako OBJ
+### Krok 6: Eksport OBJ w Javie – Zapisz scenę jako OBJ
 
-Na koniec eksportujemy całą scenę (oba cylindry) jako plik Wavefront OBJ, który jest szeroko wspierany przez narzędzia 3D.
+Na koniec **java export obj** całą scenę (oba walce) jako plik Wavefront OBJ, który jest szeroko wspierany przez narzędzia 3D.
 
 ```java
 // ExStart:6
@@ -126,37 +133,29 @@ scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFo
 // ExEnd:6
 ```
 
-Po uruchomieniu programu znajdziesz plik `CustomizedOffsetTopCylinder.obj` w określonym katalogu, gotowy do otwarcia w programach takich jak Blender, Maya lub dowolnym innym przeglądarce obsługującej OBJ.
+Po uruchomieniu programu znajdziesz plik `CustomizedOffsetTopCylinder.obj` w określonym katalogu, gotowy do otwarcia w Blenderze, Maya lub dowolnym innym przeglądarce obsługującej OBJ.
 
-## Dlaczego to ma znaczenie – Praktyczne zastosowania
+## Jak wygenerować model 3D i wyeksportować OBJ w Javie
 
-- **Architectural visualisation:** Cylindry z przesuniętą górą są idealne do modelowania kolumn zwężających się w kierunku sufitu.  
-- **Mechanical parts:** Twórz tłoki lub obudowy przekładni, w których górna powierzchnia jest celowo przesunięta.  
-- **Game assets:** Szybko generuj różnorodne kształty filarów bez ręcznego tworzenia siatek.
+Połączenie `Scene.save(..., FileFormat.WAVEFRONTOBJ)` oraz **aspose temporary license** pozwala szybko **generate 3d model** pliki, bez konieczności używania zewnętrznych konwerterów. Jest to szczególnie przydatne podczas prototypowania lub udostępniania zasobów projektantom.
 
-## Jak eksportować OBJ – Zapisz scenę jako OBJ
+## Praktyczne zastosowania
 
-Funkcja eksportu OBJ w Aspose 3D pozwala udostępniać modele w praktycznie dowolnym łańcuchu przetwarzania 3D. Korzystając z metody `scene.save(..., FileFormat.WAVEFRONTOBJ)` **how to export obj** pliki bezpośrednio z Javy, eliminując potrzebę konwerterów firm trzecich.
-
-## Jak dodać węzeł potomny Java – Dołączanie geometrii
-
-Dodawanie węzłów potomnych jest standardowym sposobem organizacji grafu sceny. Każde wywołanie `createChildNode` zwraca węzeł, który może być przekształcany niezależnie, dlatego wzorzec **add child node java** pojawia się dwukrotnie w tym samouczku.
-
-## Eksport modelu 3D OBJ – Korzystanie z Aspose 3D Export OBJ
-
-Jeśli potrzebujesz udostępnić modele projektantom, funkcja **export 3d model obj** zapewnia lekką, tekstową reprezentację działającą we wszystkich głównych aplikacjach 3D. To samo wywołanie API użyte w Kroku 6 demonstruje przepływ pracy **aspose 3d export obj**.
+- **Architectural visualisation:** Walce z przesuniętym wierzchołkiem modelują kolumny zwężające się w kierunku sufitu.  
+- **Mechanical parts:** Tworzenie tłoków lub obudów kół zębatych, gdzie górna powierzchnia jest celowo przesunięta.  
+- **Game assets:** Generowanie różnorodnych kształtów filarów w locie, zmniejszając potrzebę ręcznie tworzonych siatek.
 
 ## Typowe problemy i rozwiązania
 
 | Problem | Powód | Rozwiązanie |
-|---------|-------|-------------|
-| **Plik OBJ jest pusty** | Scena nie została poprawnie zapisana lub podano niewłaściwą ścieżkę. | Sprawdź, czy katalog wyjściowy istnieje i masz uprawnienia do zapisu. |
+|-------|--------|-----|
+| **Plik OBJ jest pusty** | Scena nie została poprawnie zapisana lub ścieżka jest nieprawidłowa. | Sprawdź, czy katalog wyjściowy istnieje i masz uprawnienia do zapisu. |
 | **Przesunięcie nie zastosowano** | Używana jest starsza wersja Aspose.3D. | Zaktualizuj do najnowszej biblioteki, w której obsługiwane jest `setOffsetTop`. |
 | **Węzeł potomny niewidoczny** | Transformacja nie została zastosowana. | Upewnij się, że wywołujesz `getTransform().setTranslation` po utworzeniu węzła potomnego. |
 
 ## Najczęściej zadawane pytania
 
-**Q: Czy Aspose.3D jest kompatybilny z różnymi IDE Javy?**  
+**Q: Czy Aspose.3D jest kompatybilny z różnymi IDE Java?**  
 A: Tak, działa bezproblemowo z Eclipse, IntelliJ IDEA, NetBeans i innymi IDE.
 
 **Q: Czy mogę zastosować tekstury do utworzonych obiektów 3D?**  
@@ -166,16 +165,14 @@ A: Oczywiście! Użyj klasy `Material`, aby przypisać tekstury i właściwości
 A: Dostępne są różne modele licencjonowania; możesz je przeglądać [tutaj](https://purchase.aspose.com/buy).
 
 **Q: Jak mogę uzyskać pomoc lub podzielić się doświadczeniami?**  
-A: Dołącz do forum społeczności Aspose.3D [tutaj](https://forum.aspose.com/c/3d/18) dla wsparcia i dyskusji.
+A: Dołącz do forum społeczności Aspose.3D [tutaj](https://forum.aspose.com/c/3d/18), aby uzyskać wsparcie i dyskusję.
 
-**Q: Czy dostępna jest tymczasowa licencja do testów?**  
-A: Tak, tymczasową licencję można uzyskać do oceny [tutaj](https://purchase.aspose.com/temporary-license/).
+**Q: Czy dostępna jest licencja tymczasowa do testów?**  
+A: Tak, **aspose temporary license** można uzyskać do oceny [tutaj](https://purchase.aspose.com/temporary-license/).
 
----
-
-**Last Updated:** 2026-02-07  
-**Tested With:** Aspose.3D for Java 24.12 (latest)  
-**Author:** Aspose
+**Ostatnia aktualizacja:** 2026-04-08  
+**Testowano z:** Aspose.3D for Java 24.12 (latest)  
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

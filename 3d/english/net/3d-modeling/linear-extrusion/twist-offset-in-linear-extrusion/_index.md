@@ -63,6 +63,7 @@ These statements make the `Scene`, `LinearExtrusion`, `Vector3`, and other essen
 We start with a simple rectangular profile and give it a small rounding radius so the edges aren’t perfectly sharp.
 
 ```csharp
+using Aspose.ThreeD.Profiles;
 var profile = new RectangleShape()
 {
     RoundingRadius = 0.3

@@ -1,13 +1,11 @@
 ---
-date: 2025-11-30
-description: Leer hoe je Aspose in Java kunt gebruiken om de straal van een 3D-sfeer
-  aan te passen. Deze stapsgewijze handleiding behandelt de Aspose.3D Java‑bibliotheek,
-  hoe je de straal instelt, een sfeer aan de scène toevoegt en een OBJ‑bestand schrijft
-  in Java.
-linktitle: 'How to Use Aspose: Modify 3D Sphere Radius in Java with Aspose.3D'
+date: 2026-03-31
+description: Leer hoe je 3D naar OBJ kunt converteren door een bol aan een scène toe
+  te voegen, de straal aan te passen en het OBJ‑bestand te exporteren in Java met
+  Aspose.3D.
+linktitle: 'Convert 3D to OBJ: Add Sphere & Modify Radius in Java'
 second_title: Aspose.3D Java API
-title: 'Hoe Aspose te gebruiken: de straal van een 3D-sfeer aanpassen in Java met
-  Aspose.3D'
+title: 'Converteer 3D naar OBJ: Voeg een bol toe & wijzig de straal in Java'
 url: /nl/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
@@ -16,40 +14,38 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe Aspose te gebruiken: 3D-sfeerstraal wijzigen in Java met Aspose.3D
+# Convert 3D naar OBJ: Voeg een bol toe & wijzig de straal in Java
 
-## Introductie
+## Inleiding
 
-Als je op zoek bent naar **hoe Aspose te gebruiken** om met 3D-modellen in Java te werken, ben je op de juiste plek. In deze tutorial lopen we stap voor stap door alles wat nodig is om de grootte van een sfeer te wijzigen, deze aan een scène toe te voegen en uiteindelijk een OBJ‑bestand te schrijven met de **Aspose.3D Java‑bibliotheek**. Aan het einde heb je een herbruikbare code‑fragment dat je in elke Java‑gebaseerde 3D‑applicatie kunt plaatsen.
+Als je snel en programmatisch **convert 3D to OBJ** wilt **converteren**, laat deze gids je precies zien hoe je een bol aan een scène toevoegt, de straal wijzigt en het resulterende OBJ‑bestand schrijft met de **Aspose.3D Java library**. We lopen elke regel code door, leggen uit waarom elke stap belangrijk is, en geven je tips om veelvoorkomende valkuilen te vermijden—zodat je de workflow met vertrouwen kunt integreren in games, CAD‑tools of wetenschappelijke visualisaties.
 
 ## Snelle antwoorden
-- **Wat is het primaire doel van deze gids?** Om te laten zien hoe je de straal van een sfeer wijzigt met Aspose.3D in Java.  
-- **Welke bibliotheek gebruiken we?** De Aspose.3D Java bibliotheek (een volledig uitgeruste **java 3d library**).  
-- **Hoe stel ik de straal in?** Roep `sphere.setRadius(double)` aan op een `Sphere` object.  
-- **Kan ik exporteren naar OBJ?** Ja – gebruik `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`.  
-- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een licentie is vereist voor productie.
+- **What is the main goal of this tutorial?** To demonstrate how to convert 3D to OBJ by creating a sphere, adjusting its radius, and exporting the model in Java.  
+- **Which library provides the 3D functionality?** Aspose.3D, a full‑featured **java 3d library tutorial**.  
+- **How do I change the sphere size?** Call `sphere.setRadius(double)` on the `Sphere` instance.  
+- **Can I write the OBJ file directly from Java?** Yes—use `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`.  
+- **Do I need a license for production?** A free trial is fine for development; a permanent license is required for commercial use.
 
-## Wat is Aspose.3D voor Java?
+## Hoe 3D naar OBJ converteren met Aspose.3D
+
+### Wat is Aspose.3D voor Java?
 
 Aspose.3D is een **java 3d library** die ontwikkelaars in staat stelt 3D‑bestanden te maken, bewerken en converteren zonder externe afhankelijkheden. Het ondersteunt populaire formaten zoals OBJ, FBX, STL en meer, waardoor het ideaal is voor games, CAD‑tools en wetenschappelijke visualisaties.
 
-## Waarom Aspose.3D gebruiken om de grootte van een sfeer te wijzigen?
+### Waarom 3D naar OBJ converteren?
 
-- **Geen native 3D‑engine nodig** – alle bewerkingen worden uitgevoerd op het objectmodel.  
-- **Cross‑platform** – werkt op elk besturingssysteem dat Java ondersteunt.  
-- **Hoge‑precisie geometrie** – je kunt exacte straalwaarden instellen, niet alleen benaderende schaling.  
+- **Universal Compatibility** – OBJ is supported by virtually every 3D viewer, game engine, and modeling software.  
+- **Lightweight Export** – OBJ stores geometry in a plain‑text format, which is easy to inspect and debug.  
+- **Workflow Flexibility** – You can generate OBJ files on‑the‑fly from server‑side Java code, enabling automated pipelines for asset creation.
 
-## Vereisten
-
-Zorg ervoor dat je het volgende hebt:
+## Voorwaarden
 
 - Basiskennis van Java‑programmeren.  
-- Aspose.3D bibliotheek geïnstalleerd – je kunt deze downloaden via de [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/).  
-- Java Development Kit (JDK) geïnstalleerd op je machine.
+- Aspose.3D library installed – download it from the [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/).  
+- JDK 8 of later geïnstalleerd op je ontwikkelmachine.
 
-## Pakketten importeren
-
-Om te beginnen, importeer je de benodigde klassen in je Java‑project:
+## Importeer pakketten
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -59,7 +55,9 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## Stap 1: Een scène initialiseren
+## Stapsgewijze handleiding
+
+### Stap 1: Initialiseer een scène
 
 ```java
 // ExStart:WorkingWithSphereRadius
@@ -68,83 +66,85 @@ import java.io.IOException;
 Scene scene = new Scene();
 ```
 
-Hier maken we een nieuwe **3D scene** die al onze geometrie zal bevatten.
+Het creëren van een `Scene` geeft je een container voor alle geometrie, lichten en camera's. Hier zullen we later **bol aan scène toevoegen**.
 
-## Stap 2: Een sfeer initialiseren
+### Stap 2: Initialiseer een bol
 
 ```java
 // initialize a Sphere
 Sphere sphere = new Sphere();
 ```
 
-Een `Sphere` object vertegenwoordigt een perfecte sfeer‑primitive. Op dit moment gebruikt hij de standaardstraal van 1.0.
+Een `Sphere`‑object begint met een standaardstraal van 1.0. Beschouw het als een leeg canvas voor de vorm die je wilt exporteren.
 
-## Stap 3: Hoe de straal van een sfeer instellen
+### Stap 3: Stel de gewenste straal in
 
 ```java
 // set radius
 sphere.setRadius(10);
 ```
 
-Deze regel toont **hoe je de straal instelt**. Je kunt `10` vervangen door elke `double`‑waarde om de gewenste grootte te bereiken.
+Hier schrijven we **write obj file java**‑stijl code die de exacte straal instelt. Vervang `10` door een willekeurige `double`‑waarde die voldoet aan je ontwerpeisen.
 
-## Stap 4: Sfeer toevoegen aan de scène
+### Stap 4: Voeg de bol toe aan de scène
 
 ```java
 // add sphere to the scene
 scene.getRootNode().createChildNode(sphere);
 ```
 
-De oproep **voegt sfeer toe aan scène** (of “add sphere to scene”) door een kind‑node onder de root‑node te creëren.
+Deze regel **voegt bol toe aan scène** door een kind‑node onder de root‑node te creëren. Het is het moment waarop de geometrie deel wordt van de scene‑graph.
 
-## Stap 5: OBJ‑bestand schrijven in Java
+### Stap 5: Exporteer het model als OBJ
 
 ```java
 // save scene
 scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-Tot slot **schrijven we een OBJ‑bestand in Java‑stijl** met `scene.save`. Het uitvoerbestand `sphere.obj` kan worden geopend in elke 3D‑viewer die het Wavefront OBJ‑formaat ondersteunt.
+Het aanroepen van `scene.save` **exports obj file java**‑stijl, effectief **save scene as obj**. Het gegenereerde `sphere.obj` kan worden geopend in elke standaard 3D‑viewer.
 
 ## Veelvoorkomende problemen en oplossingen
 
-| Issue | Solution |
-|-------|----------|
-| **Sphere appears too small in the viewer** | Controleer of de straalwaarde correct is ingesteld; onthoud dat eenheden willekeurig zijn tenzij je een schaal‑transformatie toepast. |
-| **Exported OBJ has no material** | Aspose.3D schrijft alleen geometrie; voeg een materiaal toe aan de sfeer als je texturen nodig hebt (`sphere.setMaterial(...)`). |
-| **License exception at runtime** | Zorg ervoor dat je een tijdelijke of permanente licentiebestand hebt geladen voordat je de `Scene` maakt. |
+| Probleem | Oplossing |
+|----------|-----------|
+| **Sphere appears too small in the viewer** | Verify that the radius value is set correctly; remember that units are arbitrary unless you apply a scaling transform. |
+| **Exported OBJ has no material** | Aspose.3D writes geometry only; add a material to the sphere if you need textures (`sphere.setMaterial(...)`). |
+| **License exception at runtime** | Make sure you have either a temporary or permanent license file loaded before creating the `Scene`. |
 
 ## Veelgestelde vragen
 
-### V: Waar kan ik de documentatie voor Aspose.3D voor Java vinden?
+### Q: Waar kan ik de documentatie voor Aspose.3D voor Java vinden?
 
-A: Je kunt de [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) raadplegen voor uitgebreide informatie en gebruiksrichtlijnen.
+A: Je kunt de [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) raadplegen voor uitgebreide begeleiding.
 
-### V: Hoe download ik Aspose.3D voor Java?
+### Q: Hoe download ik Aspose.3D voor Java?
 
 A: Download de bibliotheek vanaf de releases‑pagina: [Download Aspose.3D for Java](https://releases.aspose.com/3d/java/).
 
-### V: Is er een gratis proefversie beschikbaar voor Aspose.3D voor Java?
+### Q: Is er een gratis proefversie beschikbaar voor Aspose.3D voor Java?
 
 A: Ja, verken de functies met een gratis proefversie via [Aspose.3D Free Trial](https://releases.aspose.com/).
 
-### V: Waar kan ik ondersteuning krijgen voor Aspose.3D voor Java?
+### Q: Waar kan ik ondersteuning krijgen voor Aspose.3D voor Java?
 
-A: Word lid van de Aspose‑community op het [Aspose.3D Support Forum](https://forum.aspose.com/c/3d/18) hulp en discussies.
+A: Word lid van de Aspose‑community op het [Aspose.3D Support Forum](https://forum.aspose.com/c/3d/18) voor hulp en discussies.
 
-### V: Hoe kan ik een tijdelijke licentie voor Aspose.3D verkrijgen?
+### Q: Hoe kan ik een tijdelijke licentie voor Aspose.3D verkrijgen?
 
 A: Verkrijg een tijdelijke licentie via [Temporary License](https://purchase.aspose.com/temporary-license/).
 
-### V: Kan ik deze code gebruiken met andere 3D-formaten zoals STL?
+### Q: Kan ik deze code gebruiken met andere 3D‑formaten zoals STL?
 
-A: Absoluut – wijzig gewoon de `FileFormat`‑enum bij het aanroepen van `scene.save`, bijvoorbeeld `FileFormat.STL`.
+A: Zeker – wijzig gewoon de `FileFormat`‑enum bij het aanroepen van `scene.save`, bijvoorbeeld `FileFormat.STL`.
 
 ## Conclusie
 
-Je hebt nu geleerd **hoe je Aspose kunt gebruiken** om de straal van een sfeer te wijzigen, deze aan een scène toe te voegen en het resultaat als een OBJ‑bestand te exporteren in Java. Voel je vrij om te experimenteren met andere primitives, materialen toe te passen of meerdere transformaties te combineren om rijkere 3D‑modellen te bouwen.
+Je weet nu hoe je **convert 3D to OBJ** kunt **converteren** door een bol toe te voegen, de straal aan te passen en het resultaat te exporteren met Aspose.3D in Java. Experimenteer met andere primitieve vormen, pas materialen toe, of combineer meerdere transformaties om rijkere modellen te bouwen. Telkens wanneer je **save scene as obj** of **write obj file java** moet uitvoeren, geldt hetzelfde patroon.
 
-**Last Updated:** 2025-11-30  
+---
+
+**Last Updated:** 2026-03-31  
 **Tested With:** Aspose.3D for Java 24.11  
 **Author:** Aspose  
 

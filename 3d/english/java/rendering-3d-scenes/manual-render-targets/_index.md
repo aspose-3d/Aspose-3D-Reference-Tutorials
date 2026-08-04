@@ -59,16 +59,21 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 ```
-
 ## Step 1: Setup the Scene
 
-Create a fresh `Scene` object and configure a camera that will be used for rendering. The `setupScene` helper (not shown) adds lights, meshes, and positions the camera.
+Create a fresh `Scene` object and configure a camera that will be used for rendering.
 
-```java
+````java
 Scene scene = new Scene();
-Camera camera = setupScene(scene);
-```
+Node light = scene.getRootNode().createChildNode("light", new Light());
+light.getTransform().setTranslation(10, 10, 10);
 
+Camera camera = new Camera();
+scene.getRootNode().createChildNode(camera);
+camera.setNearPlane(0.1);
+camera.getParentNode().getTransform().setTranslation(0, 5, 10);
+camera.setLookAt(Vector3.getZero());
+````
 ## Step 2: Define Output Image
 
 Decide where the final rendered picture will be stored on disk.
@@ -100,10 +105,11 @@ Now comes the core of **create render texture java**. We instantiate a `Renderer
 ```java
 try (Renderer renderer = Renderer.createRenderer()) {
     try (IRenderTexture rt = renderer.getRenderFactory().createRenderTexture(new RenderParameters(), 1, image.getWidth(), image.getHeight())) {
-        rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
+        rt.createViewport(camera, new Vector3(1, 0, 0), RelativeRectangle.fromScale(0, 0, 1, 1));
         renderer.render(rt);
         ITexture2D texture = (ITexture2D) rt.getTargets().get(0);
-        texture.save(image);
+        TextureData data = texture.toBitmap();
+        data.save(output);
     }
 }
 ```

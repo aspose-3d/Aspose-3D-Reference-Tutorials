@@ -1,31 +1,44 @@
 ---
-title: การแยกข้อมูลไปยังเนื้อหาฉาก
-linktitle: การแยกข้อมูลไปยังเนื้อหาฉาก
+date: 2026-03-26
+description: เรียนรู้วิธีเพิ่มข้อมูลผู้จำหน่ายลงในฉาก 3 มิติและวิธีบันทึกไฟล์ FBX
+  ด้วย Aspose.3D สำหรับ .NET ทำตามคู่มือขั้นตอนต่อขั้นตอนพร้อมโค้ดที่พร้อมใช้งาน
+linktitle: Extracting Information to Scene Assets
 second_title: Aspose.3D .NET API
-description: ปรับปรุงฉาก 3D ของคุณอย่างง่ายดายด้วย Aspose.3D สำหรับ .NET เรียนรู้การเพิ่มข้อมูลสินทรัพย์อันมีค่าทีละขั้นตอน ดาวน์โหลดตอนนี้เพื่อรับประสบการณ์ 3D แบบไดนามิก
-weight: 10
+title: วิธีเพิ่มข้อมูลผู้ขายและบันทึกฉาก FBX ด้วย Aspose.3D
 url: /th/net/3d-scene/information-to-scene/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การแยกข้อมูลไปยังเนื้อหาฉาก
+# วิธีเพิ่มข้อมูลผู้ขายและบันทึกฉาก FBX ด้วย Aspose.3D
 
 ## การแนะนำ
 
-ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมเกี่ยวกับการใช้ Aspose.3D สำหรับ .NET เพื่อดึงข้อมูลอันมีค่าและปรับปรุงฉาก 3D ของคุณ Aspose.3D เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถจัดการฉาก 3D ภายในแอปพลิเคชัน .NET ได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะเน้นไปที่งานที่สำคัญในการเพิ่มข้อมูลแอสเซทลงในฉาก
+ยินดีต้อนรับสู่บทแนะนำนี้ซึ่งจะแสดง **วิธีเพิ่มผู้ขาย** รายละเอียดลงในฉาก 3D เจาะ **วิธีบันทึกไฟล์ FBX** ด้วย Aspose.3D สำหรับ .NET ทรัพยากรสร้างภาพองค์กร, ในเว็บไซต์เกม, หรือโมเดลวิศวกรรมการฝังเมตาดาต้าของผู้ขายและแอปพลิเคชันทำให้ฉากของคุณที่ต้องใช้ความพยายามดำเนินการต่อไป เราจะเริ่มต้นขั้นตอนอย่างใดอย่างหนึ่งกัน
+
+## คำตอบด่วน
+- **“เพิ่มผู้ขาย” ส่วนอะไร?**เก็บแอปพลิเคชันและชื่อผู้ขายไว้ในบล็อก AssetInfo ของที่เกิดเหตุ
+- **ฟอร์แมตใดรองรับข้อมูลผู้ขาย?**FBX (ASCII หรือไบนารี) จะเก็บรักษาข้อมูลเมตาไว้เมื่อบันทึก
+- **วิธีบันทึก FBX?**ใช้ `scene.Save(path, FileFormat.FBX7500ASCII)` หรือไบนารีที่เทียบเท่า
+- **ต้องการไลเซนส์หรือไม่?**ทดลองใช้งานฟรีเพื่อการพัฒนา; ต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการผลิต
+- **สามารถควบคุมหน่วยวัดได้ใช่ไหม**ใช่ ตั้งค่า `AssetInfo.UnitName` และ `AssetInfo.UnitScaleFactor`
+
+## “วิธีการเพิ่มผู้ขาย” ในฉาก 3D คืออะไร?
+การเพิ่มข้อมูลผู้ขายหมายถึงการเติมคุณสมบัติ `AssetInfo` ของออบเจ็กต์ 'Scene' คุณสมบัติเหล่านี้เดินทางไปพร้อมกับไฟล์ ช่วยให้ผู้บริโภคไฟล์ FBX เห็นว่าแอปพลิเคชันใดเป็นผู้สร้างไฟล์นั้นและใครเป็นผู้จำหน่าย
+
+##เพื่อเพิ่มข้อมูลผู้ขาย?
+- **ฟื้นฟู:** ระบุแหล่งที่มาของแบบจำลองในไปป์ไลน์ขนาดใหญ่ได้อย่างรวดเร็ว
+- **ในกรณี:** บางอุตสาหกรรมกำหนดให้มีการติดแท็กผู้ขายอย่างชัดเจนสำหรับการจัดการสินทรัพย์
+- **การอัตโนมัติ:** สคริปต์สามารถกรองหรือประมวลผลไฟล์ตามข้อมูลเมตาของผู้ขาย
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึกบทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
-
--  Aspose.3D สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารีแล้ว คุณสามารถดาวน์โหลดได้จาก[Aspose.3D สำหรับหน้า .NET](https://releases.aspose.com/3d/net/).
+- ติดตั้ง Aspose.3D สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก [หน้า Aspose.3D สำหรับ .NET](https://releases.aspose.com/3d/net/)
 
 ## นำเข้าเนมสเปซ
-
-ในโปรเจ็กต์ .NET ของคุณ ตรวจสอบให้แน่ใจว่าได้รวมเนมสเปซที่จำเป็นเพื่อเข้าถึงฟังก์ชัน Aspose.3D:
 
 ```csharp
 using System;
@@ -34,74 +47,87 @@ using System.Collections;
 using Aspose.ThreeD;
 ```
 
-## ขั้นตอนที่ 1: เริ่มต้นฉาก 3 มิติ
+## วิธีเพิ่มข้อมูลผู้ขาย
+
+### ขั้นตอนที่ 1: เริ่มต้นฉาก 3D
 
 ```csharp
 Scene scene = new Scene();
 ```
 
- สร้างฉาก 3 มิติใหม่โดยใช้`Scene` ระดับ.
+Creating a fresh `Scene` gives you a clean canvas to work with.
 
-## ขั้นตอนที่ 2: ตั้งค่าข้อมูลการสมัครและผู้จำหน่าย
+### ขั้นตอนที่ 2: ตั้งค่าข้อมูลแอปพลิเคชันและผู้ขาย
 
 ```csharp
 scene.AssetInfo.ApplicationName = "Egypt";
 scene.AssetInfo.ApplicationVendor = "Manualdesk";
 ```
 
-กำหนดชื่อแอปพลิเคชันและผู้จำหน่ายที่เกี่ยวข้องกับฉาก 3D ของคุณ
+Here we demonstrate **how to add vendor** data by assigning meaningful strings to `ApplicationName` and `ApplicationVendor`.
 
-## ขั้นตอนที่ 3: กำหนดหน่วยการวัด
+### ขั้นตอนที่ 3: กำหนดหน่วยวัด
 
 ```csharp
 scene.AssetInfo.UnitName = "pole";
 scene.AssetInfo.UnitScaleFactor = 0.6;
 ```
 
-ระบุหน่วยการวัดที่ใช้ในฉากของคุณ ในตัวอย่างนี้ เราใช้หน่วยอียิปต์โบราณที่เรียกว่า "เสา" โดย 1 เสาเท่ากับ 60 ซม.
+Specifying the unit system ensures that anyone opening the FBX file interprets dimensions correctly. In this example, one “pole” equals 60 cm.
 
-## ขั้นตอนที่ 4: บันทึกฉาก
+## วิธีบันทึกฉาก FBX
+
+### ขั้นตอนที่ 4: บันทึกฉาก (วิธีบันทึก fbx)
 
 ```csharp
 var output = "Your Output Directory" + "InformationToScene.fbx";
 scene.Save(output, FileFormat.FBX7500ASCII);
 ```
 
-บันทึกฉากด้วยข้อมูลสินทรัพย์ที่เพิ่มเข้ามาเป็นรูปแบบไฟล์ที่รองรับ 3D ปรับไดเร็กทอรีเอาต์พุตตามต้องการ
+This line shows **how to save fbx** using the ASCII version of FBX 7.5.0. If you prefer binary, replace `FBX7500ASCII` with `FBX7500Binary`.
 
-## ขั้นตอนที่ 5: แสดงข้อความแสดงความสำเร็จ
+> **เคล็ดลับ:** Keep the file extension `.fbx` consistent with the format you choose; otherwise some viewers may misinterpret the content.
+
+### ขั้นตอนที่ 5: แสดงข้อความสำเร็จ
 
 ```csharp
 Console.WriteLine("\nAsset information added successfully to Scene.\nFile saved at " + output);
 ```
 
-แจ้งให้ผู้ใช้ทราบว่าได้เพิ่มข้อมูลสินทรัพย์เรียบร้อยแล้ว และไฟล์จะถูกบันทึก
+A friendly console message confirms that the scene, complete with vendor metadata, has been written to disk.
 
-## บทสรุป
+## ปัญหาที่พบบ่อยและวิธีแก้
 
-ยินดีด้วย! คุณได้เรียนรู้วิธีใช้ Aspose.3D สำหรับ .NET เพื่อแยกและเพิ่มข้อมูลสินทรัพย์ที่จำเป็นลงในฉาก 3 มิติของคุณสำเร็จแล้ว ความรู้นี้เปิดโอกาสที่เป็นไปได้ไม่รู้จบสำหรับการสร้างเนื้อหา 3 มิติที่ให้ข้อมูลและมีส่วนร่วมมากขึ้น
+| ปัญหา | วิธีแก้ |
+|-------|----------|
+| **ข้อมูลผู้ขายไม่แสดงในโปรแกรมดู** | Ensure you saved the file as **FBX ASCII** or **Binary**; some older viewers only read one format. |
+| **เส้นทางมีช่องว่าง** | Wrap the path in quotes or use `Path.Combine` to build a safe file path. |
+| **สเกลหน่วยดูผิด** | Double‑check `UnitScaleFactor`; it’s a multiplier relative to meters. |
+| **ข้อยกเว้นไลเซนส์** | Use the free trial for testing; obtain a full license for production builds. |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.3D สำหรับ .NET กับภาษาการเขียนโปรแกรมอื่นๆ ได้หรือไม่
+**ถาม: ฉันสามารถใช้ Aspose.3D สำหรับ .NET กับภาษาโปรแกรมอื่นได้หรือไม่?**  
+ตอบ: Aspose.3D primarily supports .NET languages, but you can explore interoperability options for other languages.
 
-ตอบ 1: Aspose.3D รองรับภาษา .NET เป็นหลัก แต่คุณสามารถสำรวจตัวเลือกการทำงานร่วมกันสำหรับภาษาอื่นได้
+**ถาม: มีรุ่นทดลองฟรีสำหรับ Aspose.3D สำหรับ .NET หรือไม่?**  
+ตอบ: Yes, you can access the free trial [here](https://releases.aspose.com/).
 
-### คำถามที่ 2: Aspose.3D สำหรับ .NET มีรุ่นทดลองใช้ฟรีหรือไม่
+**ถาม: ฉันจะขอรับการสนับสนุนสำหรับคำถามที่เกี่ยวกับ Aspose.3D ได้อย่างไร?**  
+ตอบ: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community and support.
 
- A2: ได้ คุณสามารถเข้าถึงรุ่นทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+**ถาม: ฉันสามารถซื้อไลเซนส์ชั่วคราวสำหรับ Aspose.3D สำหรับ .NET ได้หรือไม่?**  
+ตอบ: Yes, you can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-### คำถามที่ 3: ฉันจะได้รับการสนับสนุนสำหรับการสืบค้นที่เกี่ยวข้องกับ Aspose.3D ได้อย่างไร
+**ถาม: ฉันจะหาเอกสารรายละเอียดของ Aspose.3D สำหรับ .NET ได้จากที่ไหน?**  
+ตอบ: Refer to the [documentation](https://reference.aspose.com/3d/net/) for in‑depth information.
 
- A3: เยี่ยมชม[ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) เพื่อชุมชนและการสนับสนุน
+---
 
-### คำถามที่ 4: ฉันสามารถซื้อใบอนุญาตชั่วคราวสำหรับ Aspose.3D สำหรับ .NET ได้หรือไม่
+**อัปเดตล่าสุด:** 2026-03-26  
+**ทดสอบด้วย:** Aspose.3D 24.11 for .NET  
+**ผู้เขียน:** Aspose  
 
- A4: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
-
-### คำถามที่ 5: ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose.3D สำหรับ .NET ได้ที่ไหน
-
- A5: โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/3d/net/) เพื่อข้อมูลเชิงลึก
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
