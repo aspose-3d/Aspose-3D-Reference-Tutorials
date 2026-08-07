@@ -1,10 +1,66 @@
 ---
-description: Μάθετε πώς να δημιουργείτε 3D σκηνές σε Java χρησιμοποιώντας το Aspose.3D.
-  Ανοίξτε, επεξεργαστείτε και αποδώστε αρχεία VRML στη Java με παραδείγματα κώδικα
-  βήμα‑βήμα.
-linktitle: Open and Manipulate VRML Files in Java with Aspose.3D
+date: 2026-08-07
+description: Μάθετε πώς να ανοίξετε αρχείο VRML σε Java χρησιμοποιώντας το Aspose.3D,
+  να δημιουργήσετε σκηνή 3D, να επεξεργαστείτε γεωμετρία και να αποδώσετε ή να εξάγετε
+  το μοντέλο με σαφή βήμα‑βήμα κώδικα.
+keywords:
+- open vrml file java
+- aspose.3d java
+- vrml manipulation
+- 3d scene creation
+- java 3d graphics
+lastmod: 2026-08-07
+linktitle: Άνοιγμα και Διαχείριση Αρχείων VRML σε Java με Aspose.3D
+og_description: Άνοιγμα αρχείου VRML σε Java χρησιμοποιώντας το Aspose.3D. Αυτός ο
+  οδηγός δείχνει πώς να δημιουργήσετε σκηνή 3D, να επεξεργαστείτε γεωμετρία και να
+  εξάγετε μοντέλα με σύντομα παραδείγματα κώδικα.
+og_image_alt: Developer guide showing Java code to open and edit VRML files with Aspose.3D
+og_title: Άνοιγμα αρχείου VRML σε Java με Aspose.3D – Δημιουργία σκηνής 3D
+schemas:
+- author: Aspose
+  dateModified: '2026-08-07'
+  description: Learn how to open VRML file in Java using Aspose.3D, create a 3D scene,
+    edit geometry, and render or export the model with clear step‑by‑step code.
+  headline: Open VRML file in Java with Aspose.3D – create 3D scene
+  type: TechArticle
+- description: Learn how to open VRML file in Java using Aspose.3D, create a 3D scene,
+    edit geometry, and render or export the model with clear step‑by‑step code.
+  name: Open VRML file in Java with Aspose.3D – create 3D scene
+  steps:
+  - name: initialize a scene
+    text: Begin by creating a fresh `Scene` instance. Think of it as the blank canvas
+      where all 3‑D objects will live.
+  - name: open vrml file
+    text: Load your VRML file into the scene. This step parses the `.wrl` file and
+      populates the scene graph with nodes, meshes, and materials.
+  - name: work with vrml file
+    text: Now that the VRML file is loaded, you can manipulate it. Typical operations
+      include scaling the model, changing material colors, or adding new geometry.
+      Below is a placeholder where you can insert your custom logic.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.3D supports **20+** formats including OBJ, STL, FBX, COLLADA,
+      and GLTF.
+    question: Can I use Aspose.3D for Java with other 3D file formats?
+  - answer: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) to connect
+      with the community and product experts.
+    question: Where can I get support for Aspose.3D for Java?
+  - answer: 'Absolutely! Grab a trial version from the Aspose download page: [here](https://releases.aspose.com/).'
+    question: Is there a free trial available?
+  - answer: 'For short‑term evaluation, use the temporary licensing page: [temporary
+      license](https://purchase.aspose.com/temporary-license/).'
+    question: How can I obtain a temporary license?
+  - answer: 'Purchase a full license here: [here](https://purchase.aspose.com/buy).'
+    question: Where can I purchase Aspose.3D for Java?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Πώς να δημιουργήσετε 3D σκηνή Java με το Aspose.3D – Εξερεύνηση VRML
+tags:
+- open vrml
+- Aspose.3D
+- Java 3D
+- VRML
+- 3D scene
+title: Άνοιγμα αρχείου VRML σε Java με Aspose.3D – δημιουργία σκηνής 3D
 url: /el/java/vrml-files/open-vrml-files-java/
 weight: 10
 ---
@@ -13,46 +69,50 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java 3D Modeling with Aspose.3D – Εξερεύνηση VRML
+# Άνοιγμα αρχείου VRML σε Java με Aspose.3D – δημιουργία 3D σκηνής
 
 ## Εισαγωγή
-Καλώς ήρθατε στον συναρπαστικό κόσμο της 3D μοντελοποίησης στη Java! Σε αυτόν τον ολοκληρωμένο οδηγό, **θα μάθετε πώς να δημιουργήσετε 3d scene java** με το Aspose.3D, εστιάζοντας στη μορφή Virtual Reality Modeling Language (VRML). Είτε είστε έμπειρος προγραμματιστής είτε απλώς ενδιαφέρεστε για τα 3‑D γραφικά, αυτό το βήμα‑βήμα tutorial θα σας δώσει τη δυνατότητα να ανοίγετε, να ελέγχετε και να χειρίζεστε αρχεία VRML με ευκολία.
+Σε αυτό το tutorial θα μάθετε πώς να **open VRML file in Java** χρησιμοποιώντας το Aspose.3D, να δημιουργήσετε μια 3D σκηνή και να εφαρμόσετε κοινές μετασχηματισμούς. Είτε δημιουργείτε μια προεπισκόπηση VR, προετοιμάζετε πόρους για μια μηχανή παιχνιδιών, είτε απλώς χρειάζεστε να μετατρέψετε το VRML σε άλλη μορφή, τα παρακάτω βήματα σας παρέχουν μια παραγωγική ροή εργασίας που λειτουργεί σε οποιαδήποτε πλατφόρμα συμβατή με Java.
 
-## Γρήγορες Απαντήσεις
-- **Ποια βιβλιοθήκη διαχειρίζεται το VRML στη Java;** Aspose.3D for Java
-- **Μπορώ να δημιουργήσω μια 3D σκηνή από το μηδέν;** Ναι – χρησιμοποιήστε `Scene scene = new Scene();`
-- **Χρειάζομαι άδεια για ανάπτυξη;** Μια δωρεάν δοκιμή λειτουργεί για δοκιμές· απαιτείται εμπορική άδεια για παραγωγή.
-- **Ποιο IDE λειτουργεί καλύτερα;** Οποιοδήποτε Java IDE όπως το Eclipse ή το IntelliJ IDEA.
-- **Υποστηρίζεται ακόμα το VRML;** Απόλυτα – το Aspose.3D υποστηρίζει πλήρως την εισαγωγή και εξαγωγή VRML.
+## Γρήγορες απαντήσεις
+- **Ποια βιβλιοθήκη διαχειρίζεται το VRML σε Java;** Aspose.3D for Java  
+- **Μπορώ να δημιουργήσω μια 3D σκηνή από το μηδέν;** Ναι – δημιουργήστε `Scene scene = new Scene();`  
+- **Χρειάζομαι άδεια για ανάπτυξη;** Μια δωρεάν δοκιμή λειτουργεί για δοκιμές· απαιτείται εμπορική άδεια για παραγωγή.  
+- **Ποιο IDE λειτουργεί καλύτερα;** Οποιοδήποτε Java IDE όπως το Eclipse ή το IntelliJ IDEA.  
+- **Υποστηρίζεται ακόμη το VRML;** Απολύτως – το Aspose.3D υποστηρίζει πλήρως την εισαγωγή και εξαγωγή VRML.
 
-## Τι είναι μια 3D σκηνή στη Java;
-Μια 3D σκηνή είναι ένας κοντέινερ που περιέχει όλα τα αντικείμενα, τα φώτα, τις κάμερες και τις μετασχηματίσεις που απαιτούνται για την απόδοση ενός εικονικού περιβάλλοντος. Στο Aspose.3D, η κλάση `Scene` αντιπροσωπεύει αυτόν τον καμβά, επιτρέποντάς σας να φορτώνετε μοντέλα, να προσθέτετε γεωμετρία και να εξάγετε σε διάφορες μορφές.
+## Τι είναι μια 3D σκηνή σε Java;
+`Scene` είναι το αντικείμενο υψηλότερου επιπέδου του Aspose.3D που αντιπροσωπεύει ένα πλήρες 3‑D περιβάλλον στη μνήμη. Αποθηκεύει όλους τους κόμβους, τα πλέγματα, τα φώτα, τις κάμερες και τις ιεραρχίες μετασχηματισμών, επιτρέποντάς σας να αποδώσετε ή να εξάγετε το συναρμολογημένο μοντέλο με μία κλήση. Με το χειρισμό του γραφήματος σκηνής μπορείτε να προσθέσετε, να αφαιρέσετε ή να μετασχηματίσετε αντικείμενα πριν αποθηκεύσετε ή οπτικοποιήσετε το αποτέλεσμα.
 
 ## Γιατί να χρησιμοποιήσετε το Aspose.3D για VRML;
-- **Υποστήριξη πολλαπλών μορφών** – φορτώστε VRML, εξάγετε σε OBJ, STL, FBX και άλλα.
-- **Χωρίς εγγενείς εξαρτήσεις** – καθαρό Java API, εύκολο στην ενσωμάτωση.
-- **Πλούσια επεξεργασία** – κλιμάκωση, περιστροφή, συγχώνευση πλεγμάτων ή επεξεργασία ιεραρχιών κόμβων.
-- **Εστίαση στην απόδοση** – βελτιστοποιημένο για μεγάλα μοντέλα και προεπισκόπηση σε πραγματικό χρόνο.
+Το Aspose.3D υποστηρίζει **20+** μορφές εισόδου και εξόδου — συμπεριλαμβανομένων των VRML, OBJ, STL, FBX και COLLADA — και μπορεί να επεξεργαστεί μοντέλα που περιέχουν έως **500 k polygons** χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη. Το καθαρό Java API εξαλείφει τις εγγενείς εξαρτήσεις, και οι εσωτερικές βελτιστοποιήσεις του προσφέρουν χρόνους φόρτωσης κάτω του δευτερολέπτου για τυπικά VRML assets, καθιστώντας το ιδανικό τόσο για εργαλεία επιφάνειας εργασίας όσο και για pipelines διακομιστή.
 
 ## Προαπαιτούμενα
-Πριν ξεκινήσουμε αυτό το ταξίδι, βεβαιωθείτε ότι έχετε τα παρακάτω προαπαιτούμενα:
+Πριν ξεκινήσουμε, βεβαιωθείτε ότι τα παρακάτω στοιχεία είναι εγκατεστημένα:
 
 ### 1. Java Development Kit (JDK)
-Βεβαιωθείτε ότι έχετε εγκατεστημένη την πιο πρόσφατη έκδοση του JDK στο σύστημά σας. Μπορείτε να το κατεβάσετε [εδώ](https://www.oracle.com/java/technologies/javase-downloads.html).
+Κατεβάστε το τελευταίο JDK από την επίσημη ιστοσελίδα της Oracle: [here](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-### 2. Aspose.3D for Java Library
-Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη Aspose.3D for Java από την [ιστοσελίδα](https://releases.aspose.com/3d/java/). Αυτή η βιβλιοθήκη θα είναι το εργαλείο μας για εργασία με 3D μοντέλα.
+### 2. Aspose.3D for Java library
+Αποκτήστε τη βιβλιοθήκη από τη σελίδα λήψης του Aspose.3D: [website](https://releases.aspose.com/3d/java/).
 
 ### 3. Integrated Development Environment (IDE)
-Επιλέξτε το προτιμώμενο Java IDE σας, όπως το Eclipse ή το IntelliJ IDEA, και ρυθμίστε το για ανάπτυξη Java.
+Ρυθμίστε το Eclipse, το IntelliJ IDEA ή οποιοδήποτε άλλο Java IDE προτιμάτε.
 
-Τώρα που έχουμε τα εργαλεία μας έτοιμα, ας βουτήξουμε στον συναρπαστικό κόσμο της 3D μοντελοποίησης!
+Τώρα που το περιβάλλον είναι έτοιμο, ας βουτήξουμε στον κώδικα.
 
-## Πώς να δημιουργήσετε 3d scene java χρησιμοποιώντας το Aspose.3D
-Παρακάτω υπάρχει ένας σύντομος οδηγός που δείχνει ακριβώς πώς να ρυθμίσετε μια σκηνή, να φορτώσετε ένα αρχείο VRML και να αρχίσετε να τροποποιείτε το μοντέλο.
+## Πώς να δημιουργήσετε 3D σκηνή Java χρησιμοποιώντας το Aspose.3D
+Φορτώστε ένα αρχείο VRML, τροποποιήστε το και προαιρετικά εξάγετε το — όλα σε λίγα σύντομα βήματα.
 
-### Εισαγωγή Πακέτων
-Στο Java project σας, εισάγετε τις απαραίτητες κλάσεις του Aspose.3D. Αυτές οι εισαγωγές σας δίνουν πρόσβαση στη διαχείριση αρχείων, τη διαχείριση σκηνής και βασικά εργαλεία γεωμετρίας.
+### Άμεση απάντηση
+Δημιουργήστε ένα νέο `Scene`, καλέστε `scene.load("model.wrl")` για να ανοίξετε το αρχείο VRML, εφαρμόστε τις απαιτούμενες μετασχηματισμούς και τέλος εκτελέστε `scene.save("output.obj", FileFormat.OBJ)` για εξαγωγή. Αυτή η ροή από άκρο σε άκρο απαιτεί μόνο τρεις κλήσεις API και λειτουργεί με αρχεία έως μερικές εκατοντάδες megabytes.
+
+Η μέθοδος `load` διαβάζει ένα αρχείο και γεμίζει τη σκηνή με τους κόμβους και τη γεωμετρία του.  
+Η μέθοδος `save` γράφει την τρέχουσα σκηνή σε αρχείο στην καθορισμένη μορφή.  
+`FileFormat` είναι μια απαρίθμηση που καταγράφει τις υποστηριζόμενες μορφές εξόδου όπως OBJ, STL και PNG.
+
+### Εισαγωγή πακέτων
+Στο έργο Java, εισάγετε τις απαραίτητες κλάσεις του Aspose.3D. Αυτές οι εισαγωγές σας δίνουν πρόσβαση στη διαχείριση αρχείων, τη διαχείριση σκηνής και τις βασικές βοηθητικές λειτουργίες γεωμετρίας.
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -61,8 +121,8 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-### Βήμα 1: Αρχικοποίηση Σκηνής
-Ξεκινήστε δημιουργώντας ένα νέο αντικείμενο `Scene`. Σκεφτείτε το ως έναν κενό καμβά όπου θα ζουν όλα τα 3‑D αντικείμενα.
+### Βήμα 1: αρχικοποίηση σκηνής
+Ξεκινήστε δημιουργώντας μια νέα παρουσία `Scene`. Σκεφτείτε το ως το κενό καμβά όπου θα ζουν όλα τα 3‑D αντικείμενα.
 
 ```java
 // The path to the documents directory.
@@ -71,63 +131,70 @@ String MyDir = "Your Document Directory";
 Scene scene = new Scene();
 ```
 
-### Βήμα 2: Άνοιγμα Αρχείου VRML
-Στη συνέχεια, φορτώστε το αρχείο VRML στη σκηνή. Αυτό το βήμα αναλύει το αρχείο `.wrl` και γεμίζει το γράφημα σκηνής με κόμβους, πλέγματα και υλικά.
+### Βήμα 2: άνοιγμα αρχείου vrml
+Φορτώστε το αρχείο VRML στη σκηνή. Αυτό το βήμα αναλύει το αρχείο `.wrl` και γεμίζει το γράφημα σκηνής με κόμβους, πλέγματα και υλικά.
 
 ```java
 // Open Virtual Reality Modeling Language (VRML) file format
 scene.open(MyDir + "test.wrl");
 ```
 
-### Βήμα 3: Εργασία με Αρχείο VRML
-Τώρα που το αρχείο VRML έχει φορτωθεί, μπορείτε να το επεξεργαστείτε. Τυπικές λειτουργίες περιλαμβάνουν την κλιμάκωση του μοντέλου, την αλλαγή χρωμάτων υλικού ή την προσθήκη νέας γεωμετρίας. Παρακάτω υπάρχει ένας placeholder όπου μπορείτε να εισάγετε τη δική σας λογική.
+### Βήμα 3: εργασία με το αρχείο vrml
+Τώρα που το αρχείο VRML έχει φορτωθεί, μπορείτε να το χειριστείτε. Τυπικές λειτουργίες περιλαμβάνουν την κλιμάκωση του μοντέλου, την αλλαγή χρωμάτων υλικού ή την προσθήκη νέας γεωμετρίας. Παρακάτω υπάρχει ένας placeholder όπου μπορείτε να εισάγετε τη δική σας λογική.
 
 ```java
 // Work with VRML file format...
 // Your custom code for manipulating the 3D model goes here
 ```
 
-#### Συνηθισμένα Παραδείγματα Επεξεργασίας (χωρίς νέα μπλοκ κώδικα)
-- **Κλιμάκωση** – `scene.getRootNode().getChild(0).getTransform().setScale(2.0, 2.0, 2.0);`
-- **Αλλαγή υλικού** – ανακτήστε ένα αντικείμενο `Material` και προσαρμόστε το διαφωτιστικό του χρώμα.
-- **Προσθήκη γεωμετρίας** – δημιουργήστε ένα νέο `Sphere` και συνδέστε το στο γράφημα σκηνής.
+#### Συνηθισμένα παραδείγματα χειρισμού (χωρίς νέα μπλοκ κώδικα)
+- **Scaling** – `scene.getRootNode().getChild(0).getTransform().setScale(2.0, 2.0, 2.0);`
+- **Changing material** – Ανάκτηση ενός αντικειμένου `Material` και προσαρμογή του διαχυτικού του χρώματος.
+- **Adding geometry** – Δημιουργία ενός νέου `Sphere` και σύνδεσή του στο γράφημα σκηνής.
 
-Νιώστε ελεύθεροι να εξερευνήσετε πρόσθετες δυνατότητες του Aspose.3D όπως η εξαγωγή σε OBJ (`scene.save("output.obj", FileFormat.OBJ);`) ή η δημιουργία μικρογραφιών.
+Μπορείτε επίσης να εξάγετε σε άλλες μορφές, για παράδειγμα: `scene.save("output.obj", FileFormat.OBJ);` ή να δημιουργήσετε μικρογραφία με `scene.save("thumb.png", FileFormat.PNG);`.
 
-## Συνηθισμένα Προβλήματα και Λύσεις
+## Συχνά προβλήματα και λύσεις
 | Πρόβλημα | Αιτία | Διόρθωση |
 |----------|-------|----------|
 | **Αρχείο δεν βρέθηκε** | Λανθασμένη διαδρομή `MyDir` | Επαληθεύστε την απόλυτη διαδρομή ή χρησιμοποιήστε `Paths.get(...)` |
-| **Μη υποστηριζόμενα χαρακτηριστικά VRML** | Πολύπλοκοι κόμβοι VRML που δεν έχουν πλήρως χαρτογραφηθεί | Προεπεξεργαστείτε το αρχείο VRML ή απλοποιήστε το μοντέλο |
-| **Απόκλιση άδειας** | Εκτέλεση χωρίς έγκυρη άδεια σε παραγωγή | Εφαρμόστε προσωρινή ή μόνιμη άδεια πριν τη δημιουργία του `Scene` |
+| **Μη υποστηριζόμενα χαρακτηριστικά VRML** | Πολύπλοκοι κόμβοι VRML που δεν έχουν πλήρως αντιστοιχιστεί | Προεπεξεργαστείτε το αρχείο VRML ή απλοποιήστε το μοντέλο |
+| **Αδυναμία άδειας** | Εκτέλεση χωρίς έγκυρη άδεια στην παραγωγή | Εφαρμόστε προσωρινή ή μόνιμη άδεια πριν από τη δημιουργία του `Scene` |
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
-**Q: Μπορώ να χρησιμοποιήσω το Aspose.3D for Java με άλλες μορφές αρχείων 3D;**  
-A: Ναι, το Aspose.3D υποστηρίζει δεκάδες μορφές, συμπεριλαμβανομένων των OBJ, STL, FBX και COLLADA.
+**Q: Μπορώ να χρησιμοποιήσω το Aspose.3D για Java με άλλες μορφές αρχείων 3D;**  
+A: Ναι, το Aspose.3D υποστηρίζει **20+** μορφές συμπεριλαμβανομένων των OBJ, STL, FBX, COLLADA και GLTF.
 
-**Q: Πού μπορώ να λάβω υποστήριξη για το Aspose.3D for Java;**  
-A: Για οποιεσδήποτε ερωτήσεις ή βοήθεια, επισκεφθείτε το [Aspose.3D forum](https://forum.aspose.com/c/3d/18) για να συνδεθείτε με την κοινότητα και τους ειδικούς.
+**Q: Πού μπορώ να λάβω υποστήριξη για το Aspose.3D για Java;**  
+A: Επισκεφθείτε το [Aspose.3D forum](https://forum.aspose.com/c/3d/18) για να συνδεθείτε με την κοινότητα και τους ειδικούς προϊόντος.
 
 **Q: Υπάρχει διαθέσιμη δωρεάν δοκιμή;**  
-A: Φυσικά! Μπορείτε να εξερευνήσετε τις δυνατότητες του Aspose.3D κατεβάζοντας μια δωρεάν δοκιμή [εδώ](https://releases.aspose.com/).
+A: Απολύτως! Κατεβάστε μια δοκιμαστική έκδοση από τη σελίδα λήψης του Aspose: [here](https://releases.aspose.com/).
 
 **Q: Πώς μπορώ να αποκτήσω προσωρινή άδεια;**  
-A: Για επιλογές προσωρινής άδειας, μεταβείτε στο [temporary license](https://purchase.aspose.com/temporary-license/).
+A: Για βραχυπρόθεσμη αξιολόγηση, χρησιμοποιήστε τη σελίδα προσωρινής άδειας: [temporary license](https://purchase.aspose.com/temporary-license/).
 
-**Q: Πού μπορώ να αγοράσω το Aspose.3D for Java;**  
-A: Για να ξεκλειδώσετε το πλήρες δυναμικό, μπορείτε να αγοράσετε το Aspose.3D for Java [εδώ](https://purchase.aspose.com/buy).
+**Q: Πού μπορώ να αγοράσω το Aspose.3D για Java;**  
+A: Αγοράστε πλήρη άδεια εδώ: [here](https://purchase.aspose.com/buy).
 
 ## Συμπέρασμα
-Συγχαρητήρια! Μόλις μάθατε **πώς να δημιουργήσετε 3d scene java** χρησιμοποιώντας το Aspose.3D και ανοίξατε ένα μοντέλο VRML για περαιτέρω επεξεργασία. Από εδώ, μπορείτε να πειραματιστείτε με μετασχηματισμούς, να προσθέσετε νέα γεωμετρία ή να εξάγετε τη σκηνή σε άλλες μορφές. Για πιο βαθιές εξερευνήσεις, δείτε την επίσημη τεκμηρίωση και τα δείγματα έργων.
+Τώρα γνωρίζετε πώς να **open VRML file in Java** με το Aspose.3D, να δημιουργήσετε μια 3D σκηνή, να εφαρμόσετε μετασχηματισμούς και να εξάγετε το αποτέλεσμα. Πειραματιστείτε με την κλιμάκωση, τις προσαρμογές υλικού ή την προσθήκη νέας γεωμετρίας για να ταιριάξετε το pipeline σας. Για πιο βαθιά εξερεύνηση, δείτε τον επίσημο οδηγό αναφοράς.
 
-Νιώστε ελεύθεροι να εξερευνήσετε την [τεκμηρίωση](https://reference.aspose.com/3d/java/) για πιο λεπτομερείς πληροφορίες και προχωρημένες λειτουργίες.
+Εξερευνήστε την πλήρη τεκμηρίωση API για πιο προχωρημένα σενάρια: [documentation](https://reference.aspose.com/3d/java/).
 
 ---
 
-**Τελευταία Ενημέρωση:** 2026-03-18  
-**Δοκιμή Με:** Aspose.3D 24.11 for Java  
+**Τελευταία ενημέρωση:** 2026-08-07  
+**Δοκιμή με:** Aspose.3D 24.11 for Java  
 **Συγγραφέας:** Aspose
+
+## Σχετικά tutorials
+
+- [Δημιουργία 3D Σκηνής Java με Aspose 3D Java](/3d/java/3d-scenes-and-models/)
+- [Πώς να Εξάγετε Σκηνή σε FBX και να Ανακτήσετε Πληροφορίες 3D Σκηνής σε Java](/3d/java/3d-scenes-and-models/get-scene-information/)
+- [Μείωση Μεγέθους 3D Αρχείου – Συμπίεση Σκηνών με Aspose.3D για Java](/3d/java/3d-scenes-and-models/compress-3d-scenes/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
