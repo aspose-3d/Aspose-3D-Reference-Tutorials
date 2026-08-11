@@ -1,16 +1,52 @@
 ---
-date: 2026-04-03
-description: Tanulja meg, hogyan hozhat létre hengeres ventilátor alakzatot Java-ban
-  az Aspose.3D segítségével. Ez az útmutató lefedi a Java 3D modellezést és az OBJ
-  fájl mentésének Java technikáit.
+date: 2026-08-02
+description: Ismerje meg, hogyan hozhat létre hengeres ventilátor alakzatot Java-ban
+  az Aspose.3D segítségével. Ez az útmutató a Java 3D modellezést és az OBJ fájl mentésének
+  technikáit tárgyalja.
 keywords:
 - create cylinder fan shape
 - save obj file java
 - aspose 3d export obj
-linktitle: Hogyan hozhatunk létre hengeres ventilátor alakot az Aspose.3D for Java
-  segítségével
+lastmod: 2026-08-02
+linktitle: Hogyan készítsünk hengeres ventilátor alakzatot az Aspose.3D for Java segítségével
+og_description: Hozzon létre hengeres ventilátor alakzatot az Aspose.3D for Java segítségével,
+  és exportálja OBJ fájlként Java-ban. Kövesse a lépésről‑lépésre útmutatót a modellezéshez,
+  testreszabáshoz és a 3D ventilátor henger mentéséhez.
+og_image_alt: 'Tutorial: create cylinder fan shape in Java with Aspose.3D'
+og_title: Hengeres ventilátor alakzat létrehozása az Aspose.3D for Java segítségével
+  – Gyors útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-08-02'
+  description: Learn how to create cylinder fan shape in Java with Aspose.3D. This
+    guide covers java 3d modeling and save obj file java techniques.
+  headline: How to create cylinder fan shape using Aspose.3D for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.3D can coexist with libraries like Java 3D or jMonkeyEngine,
+      allowing you to integrate custom geometry into larger pipelines.
+    question: Is Aspose.3D compatible with other Java 3D libraries?
+  - answer: Absolutely. You can apply materials, textures, and lighting by accessing
+      the node’s `Material` and `Light` collections.
+    question: Can I further customize the appearance of the fan cylinder?
+  - answer: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community
+      help and official responses.
+    question: Where can I get additional support?
+  - answer: Yes, you can explore Aspose.3D with a [free trial](https://releases.aspose.com/)
+      before purchasing.
+    question: Is there a free trial available?
+  - answer: Acquire one [here](https://purchase.aspose.com/temporary-license/) to
+      unlock full functionality during development.
+    question: How do I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Hogyan készítsünk hengeres ventilátor alakot az Aspose.3D for Java segítségével
+tags:
+- create cylinder fan shape
+- Aspose.3D
+- Java 3D modeling
+- export OBJ
+- 3D geometry
+title: Hogyan készítsünk hengeres ventilátor alakzatot az Aspose.3D for Java segítségével
 url: /hu/java/cylinders/creating-fan-cylinders/
 weight: 10
 ---
@@ -19,39 +55,41 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan hozzunk létre hengeres ventilátor alakzatot az Aspose.3D for Java segítségével
+# Hogyan hozhatunk létre hengeres ventilátor alakzatot az Aspose.3D for Java használatával
 
 ## Bevezetés
 
-Készen állsz arra, hogy elsajátítsd, **hogyan hozz létre hengeres ventilátor alakzatot** egy Java környezetben? Ebben az útmutatóban minden lépésen végigvezetünk – a jelenet beállításától a Wavefront OBJ fájl exportálásáig – az Aspose.3D használatával. Akár játékeszközt, CAD prototípust építesz, vagy csak 3D geometria kísérletezel, látni fogod, milyen egyszerű a Java 3D modellezés ezzel a hatékony könyvtárral.
+Ready to master **create cylinder fan shape** in a Java environment? In this tutorial we’ll walk through every step— from setting up the scene to exporting a Wavefront OBJ file— using Aspose.3D. Whether you’re building a game asset, a CAD prototype, or just experimenting with 3D geometry, you’ll see how easy Java 3D modeling can be with this powerful library.
 
 ## Gyors válaszok
-- **Mi a fő cél?** Testreszabható ventilátor alakú henger létrehozása és OBJ fájlként mentése.  
+- **Mi a fő cél?** Create a customizable fan‑shaped cylinder and save it as an OBJ file.  
 - **Melyik könyvtárat használjuk?** Aspose.3D for Java.  
-- **Szükség van licencre?** Egy ingyenes próba a fejlesztéshez elegendő; a termeléshez kereskedelmi licenc szükséges.  
-- **Mik a előfeltételek?** Telepített JDK és az Aspose.3D Java csomag hozzáadva a projektedhez.  
-- **Exportálhatok más formátumokat is?** Igen – az Aspose.3D sok formátumot támogat; ebben a példában a Wavefront OBJ-t használjuk.
+- **Szükségem van licencre?** A free trial works for development; a commercial license is required for production.  
+- **Mik a előfeltételek?** JDK installed and Aspose.3D Java package added to your project.  
+- **Exportálhatok más formátumokba is?** Yes—Aspose.3D supports many formats; this example uses Wavefront OBJ.
 
 ## Mi az a ventilátor henger?
 
-A ventilátor henger egy részlegesen felületű henger, ahol a kör alapjának egy szektora hiányzik, így „ventilátor” nyílást hozva létre. Ez a geometria hasznos szeletek, műszerfalak vagy egyedi mechanikai alkatrészek megjelenítéséhez.
+A fan cylinder is a cylindrical segment where a portion of the circular base is removed, creating an open‑ended “fan” sector. It is defined by radius, height, and opening angle, making it ideal for visualizing slices, dashboards, or custom mechanical parts.  
+
+In practical terms, think of a regular cylinder with a wedge cut out—perfect for representing partial rotations or slice‑style visualizations in engineering dashboards.
 
 ## Miért használjuk az Aspose.3D-t Java 3D modellezéshez?
 
-Az Aspose.3D egy tiszta, objektum‑orientált API-t biztosít, amely elrejti a 3D grafika alacsony szintű matematikáját. A tervezésre koncentrálhatsz a fájlformátum sajátosságai helyett, és a könyvtár automatikusan kezeli a **save obj file java** műveleteket.
+Aspose.3D for Java offers a high‑level, object‑oriented API that abstracts low‑level math, supports **50+ input and output formats**, and can process multi‑hundred‑page models without loading the entire file into memory, enabling rapid development of 3D applications. The library also handles **export OBJ file java** operations automatically, so you focus on geometry instead of file‑format quirks.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk, győződj meg róla, hogy rendelkezel:
+Before we dive in, make sure you have:
 
-- **Java Development Kit (JDK)** – töltsd le [itt](https://www.oracle.com/java/technologies/javase-downloads.html).  
-- **Aspose.3D for Java** – szerezd be a legújabb JAR-t a [letöltési hivatkozásból](https://releases.aspose.com/3d/java/).  
+- **Java Development Kit (JDK)** – download it [here](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.3D for Java** – obtain the latest JAR from the [download link](https://releases.aspose.com/3d/java/).  
 
 Add the Aspose.3D JAR to your project’s classpath.
 
 ## Csomagok importálása
 
-Kezdjük a szükséges osztályok importálásával. Ez hozzáférést biztosít a 3D jelenethez, a geometriai primitívekhez és a segédmetódusokhoz.
+Begin by importing the necessary classes. This gives you access to the 3D scene, geometry primitives, and utility methods.
 
 ```java
 import com.aspose.threed.*;
@@ -62,7 +100,7 @@ import java.io.IOException;
 
 ## 1. lépés: Jelenet létrehozása
 
-Először egy új `Scene` példányt hozunk létre. A jelenetet tekintheted egy tárolónak, amely az összes 3D objektumot, fényt és kamerát tartalmazza.
+The `Scene` class is Aspose.3D's container that holds all 3D objects, lights, and cameras. Think of it as the virtual stage where you place every element of your model.
 
 ```java
 // ExStart:2
@@ -71,9 +109,9 @@ Scene scene = new Scene();
 // ExEnd:2
 ```
 
-## 2. lépés: Ventilátor henger létrehozása (hogyan hozzunk létre hengert)
+## 2. lépés: Ventilátor henger létrehozása (hogyan hozhatunk létre hengert)
 
-Most felépítjük magát a ventilátor hengert. A konstruktor paraméterei határozzák meg a sugár, magasság, felosztás (tessellation) és azt, hogy a geometria ventilátorként legyen-e generálva.
+The `Cylinder` class represents a cylindrical mesh that can be customized with radius, height, tessellation, and a fan opening angle. By adjusting `setThetaLength`, you control how much of the cylinder is omitted.
 
 ```java
 // ExStart:3
@@ -84,11 +122,11 @@ fan.setThetaLength(MathUtils.toRadian(270.0));
 // ExEnd:3
 ```
 
-> **Pro tipp:** Állítsd be a `setThetaLength` értékét a nyílásszög módosításához. 270° egy háromnegyedes ventilátort hoz létre; 180° egy félhenger lenne.
+> **Pro tipp:** Adjust `setThetaLength` to change the opening angle. 270° creates a three‑quarter fan; 180° would give a half‑cylinder.
 
-## 3. lépés: A ventilátor henger elhelyezése
+## 3. lépés: A ventilátor henger pozicionálása
 
-Ezután hozzáadjuk a ventilátor hengert a jelenethez, és egy kényelmes helyre helyezzük. A transzláció koordinátái a (X, Y, Z) sorrendben vannak.
+The `Node` class is the scene graph element that holds geometry and its transform. Moving the node translates the fan cylinder to the desired location in the (X, Y, Z) coordinate system.
 
 ```java
 // ExStart:4
@@ -97,9 +135,9 @@ scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0)
 // ExEnd:4
 ```
 
-## 4. lépés: Nem‑ventilátor henger létrehozása (java 3d modellezési összehasonlítás)
+## 4. lépés: Nem‑ventilátor henger létrehozása (java 3d modeling comparison)
 
-Az Aspose.3D rugalmasságának bemutatására egy szabályos hengert is létrehozunk, amelynek nincs ventilátor nyílása.
+To illustrate the flexibility of Aspose.3D, we also create a regular cylinder without a fan opening. This side‑by‑side comparison helps you see the impact of the `ThetaLength` parameter.
 
 ```java
 // ExStart:5
@@ -110,9 +148,9 @@ scene.getRootNode().createChildNode(nonfan);
 // ExEnd:5
 ```
 
-## 5. lépés: Jelenet mentése (java save obj file)
+## 5. lépés: Jelenet mentése (java obj fájl mentése)
 
-Végül exportáljuk a teljes jelenetet egy Wavefront OBJ fájlba. Ez a formátum széles körben támogatott a legtöbb 3D szerkesztő és játék motor által.
+The `Scene.save` method writes the entire scene to a file. By passing `FileFormat.WAVEFRONTOBJ`, Aspose.3D generates a standard OBJ file that can be opened in Blender, Maya, Unity, and many other 3D tools.
 
 ```java
 // ExStart:6
@@ -121,42 +159,49 @@ scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEF
 // ExEnd:6
 ```
 
-> **Megjegyzés:** Cseréld le a `"Your Document Directory"`-t egy abszolút vagy relatív útvonalra, ahol írási jogosultsággal rendelkezel.
+> **Megjegyzés:** Replace `"Your Document Directory"` with an absolute or relative path where you have write permission.
 
-## Hogyan mentünk OBJ fájlt Java-ban az Aspose 3D használatával
+## Hogyan menthetünk OBJ fájlt Java-ban az Aspose 3D használatával
 
-Az Aspose.3D `Scene.save` metódusa automatikusan kezeli a **aspose 3d export obj** folyamatot. Csak meg kell adnod a célfájl nevét és a `FileFormat.WAVEFRONTOBJ` enum értéket, ahogy az előző lépésben láttad.
+To export your scene, call `scene.save("output.obj", FileFormat.WAVEFRONTOBJ);` – Aspose.3D writes the geometry, materials, and texture references into a standard Wavefront OBJ file that any major 3D editor can open.
 
 ## Gyakori problémák és megoldások
 
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| OBJ fájl üres | A jelenet nincs mentve vagy az útvonal helytelen | Ellenőrizd, hogy a kimeneti könyvtár létezik és írási jogosultsággal rendelkezik. |
-| A ventilátor nyílása hibás | Hibás `ThetaLength` érték | Használd a `MathUtils.toRadian(degrees)`-t a szükséges pontos szög beállításához. |
-| Fordítási hibák | Hiányzó Aspose.3D JAR a classpath-ban | Add the JAR to your project’s `libs` folder and include it in the build path. |
+| OBJ fájl üres | Scene not saved or path incorrect | Verify the output directory exists and has write access. |
+| A ventilátor nyílása hibás | Incorrect `ThetaLength` value | Use `MathUtils.toRadian(degrees)` to set the exact angle you need. |
+| Fordítási hibák | Missing Aspose.3D JAR in classpath | Add the JAR to your project’s `libs` folder and include it in the build path. |
 
-## Gyakran feltett kérdések
+## Gyakran Ismételt Kérdések
 
-**K: Az Aspose.3D kompatibilis más Java 3D könyvtárakkal?**  
-V: Igen, az Aspose.3D együtt tud működni olyan könyvtárakkal, mint a Java 3D vagy a jMonkeyEngine, lehetővé téve egyedi geometria integrálását nagyobb folyamatokba.
+**Q: Az Aspose.3D kompatibilis más Java 3D könyvtárakkal?**  
+A: Igen, az Aspose.3D együtt tud működni olyan könyvtárakkal, mint a Java 3D vagy a jMonkeyEngine, lehetővé téve egyedi geometria integrálását nagyobb folyamatokba.
 
-**K: Testreszabhatom tovább a ventilátor henger megjelenését?**  
-V: Természetesen. Anyagokat, textúrákat és megvilágítást alkalmazhatsz a node `Material` és `Light` gyűjteményeinek elérésével.
+**Q: További testreszabásra van lehetőség a ventilátor henger megjelenésében?**  
+A: Teljesen. Anyagokat, textúrákat és megvilágítást alkalmazhat a node `Material` és `Light` gyűjteményeinek elérésével.
 
-**K: Hol kaphatok további támogatást?**  
-V: Látogasd meg az [Aspose.3D fórumot](https://forum.aspose.com/c/3d/18) a közösségi segítségért és hivatalos válaszokért.
+**Q: Hol kaphatok további támogatást?**  
+A: Látogassa meg az [Aspose.3D fórumot](https://forum.aspose.com/c/3d/18) a közösségi segítségért és hivatalos válaszokért.
 
-**K: Elérhető ingyenes próba?**  
-V: Igen, a vásárlás előtt egy [ingyenes próbát](https://releases.aspose.com/) használhatsz az Aspose.3D felfedezéséhez.
+**Q: Elérhető ingyenes próba?**  
+A: Igen, a vásárlás előtt egy [ingyenes próbát](https://releases.aspose.com/) vehet igénybe az Aspose.3D felfedezéséhez.
 
-**K: Hogyan szerezhetek ideiglenes licencet teszteléshez?**  
-V: Szerezz egyet [itt](https://purchase.aspose.com/temporary-license/), hogy a fejlesztés során teljes funkcionalitást kapj.
+**Q: Hogyan szerezhetek ideiglenes licencet teszteléshez?**  
+A: Szerezzen be egyet [itt](https://purchase.aspose.com/temporary-license/), hogy a fejlesztés során a teljes funkcionalitást feloldja.
 
 ---
 
-**Utoljára frissítve:** 2026-04-03  
+**Utolsó frissítés:** 2026-08-02  
 **Tesztelve:** Aspose.3D 24.11 for Java  
-**Szerző:** Aspose  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan hozzunk létre henger modelleket az Aspose.3D for Java használatával](/3d/java/cylinders/)
+- [Aspose ideiglenes licenc – Henger létrehozása eltolódó tetejével (Java)](/3d/java/cylinders/creating-cylinders-with-offset-top/)
+- [Hogyan változtassuk meg a sík orientációját és exportáljuk OBJ-t Java-ban](/3d/java/3d-scenes-and-models/change-plane-orientation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

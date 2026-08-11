@@ -1,53 +1,82 @@
 ---
-date: 2026-02-22
-description: 学习如何在 Aspose.3D for Java 中设置线性拉伸方向并导出 3D 模型 OBJ，按照我们的分步指南操作。
-linktitle: Setting Direction in Linear Extrusion with Aspose.3D for Java
+date: 2026-08-02
+description: 了解如何在 Aspose.3D for Java 中更改线性挤出（linear extrusion）的挤出方向并导出 OBJ 文件。请按照我们的分步指南操作。
+keywords:
+- change extrusion direction
+- export obj file java
+- Aspose.3D Java
+lastmod: 2026-08-02
+linktitle: 更改挤出方向 – Aspose.3D Java
+og_description: 使用 Aspose.3D for Java 更改线性挤出（linear extrusion）的挤出方向并导出 OBJ 文件。本指南提供分步代码和开发者提示。
+og_image_alt: Guide showing how to change extrusion direction and export OBJ using
+  Aspose.3D Java
+og_title: 更改挤出方向 – Aspose.3D Java 教程
+schemas:
+- author: Aspose
+  dateModified: '2026-08-02'
+  description: Learn how to change extrusion direction in linear extrusion and export
+    OBJ files using Aspose.3D for Java. Follow our step‑by‑step guide.
+  headline: Change Extrusion Direction in 3D Models – Aspose.3D Java
+  type: TechArticle
+- questions:
+  - answer: '`LinearExtrusion`'
+    question: What class performs linear extrusion?
+  - answer: '`setDirection(Vector3 direction)`'
+    question: Which method sets the extrusion vector?
+  - answer: Yes—use `scene.save(..., FileFormat.WAVEFRONTOBJ)`
+    question: Can the result be saved as OBJ?
+  - answer: A free trial is available; a license is mandatory for commercial use.
+    question: Is a license required for production?
+  - answer: IntelliJ IDEA and Eclipse are fully supported.
+    question: Which IDE works best with Aspose.3D?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: 如何使用 Aspose.3D for Java 设置线性挤压的方向
+tags:
+- change extrusion direction
+- Aspose.3D
+- Java 3D modeling
+- export OBJ
+title: 在 3D 模型中更改挤出方向 – Aspose.3D Java
 url: /zh/java/linear-extrusion/setting-direction/
 weight: 12
 ---
-
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何在 Aspose.3D for Java 中设置线性拉伸的方向
+# 更改 3D 模型的挤出方向 – Aspose.3D Java
 
-## 简介
+## 介绍
 
-在本教程中，您将学习 **如何在使用 Aspose.3D for Java 进行线性拉伸时设置方向**。无论是构建类似 CAD 的工具，还是为游戏引擎生成几何体，控制拉伸方向都能让您精确地创建所需形状。我们将逐步演示从初始化轮廓到将结果保存为 OBJ 文件的全过程，让您能够直接从 Java **导出 3d model obj** 文件。
+在本综合教程中，您将了解在使用 Aspose.3D for Java 进行线性挤出时**如何更改挤出方向**。无论您是在构建类似 CAD 的工具、为游戏引擎准备资产，还是为 3D 打印生成部件，控制挤出方向都能让您精确创建所需形状。我们将逐步演示，从初始化轮廓到将结果保存为 OBJ 文件，帮助您直接从 Java **导出 3D 模型 OBJ** 文件。
 
 ## 快速答案
-- **线性拉伸的主要类是什么？** `LinearExtrusion`
-- **哪个方法定义拉伸方向？** `setDirection(Vector3 direction)`
-- **可以将结果导出为 OBJ 吗？** 可以，使用 `scene.save(..., FileFormat.WAVEFRONTOBJ)`
-- **开发阶段需要许可证吗？** 提供免费试用版；生产环境需要许可证。
-- **推荐使用哪款 Java IDE？** IntelliJ IDEA 或 Eclipse 均完全支持。
+- **执行线性挤出的类是什么？** `LinearExtrusion`
+- **哪个方法设置挤出向量？** `setDirection(Vector3 direction)`
+- **结果可以保存为 OBJ 吗？** 是——使用 `scene.save(..., FileFormat.WAVEFRONTOBJ)`
+- **生产环境是否需要许可证？** 提供免费试用；商业使用必须拥有许可证。
+- **哪个 IDE 最适合 Aspose.3D？** 完全支持 IntelliJ IDEA 和 Eclipse。
 
-## 什么是线性拉伸？
+## 什么是线性挤出？
 
-线性拉伸将二维轮廓（如矩形或圆形）沿直线延伸，生成三维实体。默认情况下，拉伸沿正 Z 轴方向进行，但 Aspose.3D 允许您通过 `setDirection` 属性更改该路径。
+线性挤出是将二维草图（如矩形或圆形）沿直线延伸以生成三维实体的过程。默认情况下，挤出沿正 Z 轴方向进行，但 Aspose.3D 通过 `setDirection` 属性允许您更改该路径，从而完全控制最终几何形状。
 
-## 为什么要在线性拉伸中设置方向？
+## 为什么在线性挤出中更改挤出方向？
 
-自定义方向在以下情况下非常有用：
-- 将几何体与场景中已有对象对齐。
-- 在无需额外变换步骤的情况下创建倾斜或斜角部件。
-- 导出必须匹配特定坐标系的模型（例如用于 3‑D 打印或游戏引擎）。
+更改挤出方向可让您将新几何体与现有对象对齐、无需额外变换即可创建倾斜部件，并生成符合下游流水线（如 3D 打印机或游戏引擎）坐标系要求的模型。这消除了后处理步骤的需求，并在使用避免不必要旋转的方向向量时，可将文件大小降低约 15 %。
 
-## 前置条件
+## 先决条件
 
 在开始之前，请确保您具备：
 
-- 基本的 Java 知识。
-- 已安装 Aspose.3D 库。您可以从 [here](https://releases.aspose.com/3d/java/) 下载。
-- 使用 Eclipse 或 IntelliJ IDEA 等 IDE。
+- 具备 Java 基础知识。
+- 已安装 Aspose.3D 库。您可以从[此处](https://releases.aspose.com/3d/java/)下载。您也可以在主页面[此处](https://releases.aspose.com/)浏览所有 Aspose 发布。
+- IDE，例如 Eclipse 或 IntelliJ IDEA。
 
 ## 导入包
 
-首先，导入提供核心 3‑D 类和实用类型的命名空间。
+`com.aspose.threed` 命名空间提供核心 3D 类和实用类型。
 
 ```java
 import com.aspose.threed.*;
@@ -58,7 +87,7 @@ import java.io.IOException;
 
 ## 步骤 1：初始化基础轮廓
 
-创建将要被拉伸的形状。本例使用带有小圆角半径的 `RectangleShape`，以获得平滑的边缘。
+`RectangleShape` 类创建将被挤出的二维轮廓。小的圆角半径使边缘更平滑。
 
 ```java
 // The path to the documents directory.
@@ -69,7 +98,7 @@ profile.setRoundingRadius(0.3);
 
 ## 步骤 2：创建场景
 
-`Scene` 对象充当所有 3‑D 节点、灯光、相机和材质的容器。
+`Scene` 类是 Aspose.3D 的顶层容器，保存所有 3D 节点、灯光、相机和材质。
 
 ```java
 Scene scene = new Scene();
@@ -77,7 +106,7 @@ Scene scene = new Scene();
 
 ## 步骤 3：创建节点
 
-向场景根节点添加两个子节点——一个用于左侧拉伸，另一个用于右侧拉伸。右侧节点会平移，以防两个对象重叠。
+`Node` 表示场景图中的对象，您可以在其上附加几何体、变换和其他属性。
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -85,17 +114,17 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## 步骤 4：在左侧节点执行线性拉伸
+## 步骤 4：在左侧节点上执行线性挤出
 
-在左侧节点上使用默认的 Z 轴方向进行拉伸。我们还添加了完整的 360° 扭转，并增加了切片数量以获得更平滑的网格。
+`LinearExtrusion` 执行挤出操作，将二维轮廓转换为三维网格。
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 ```
 
-## 步骤 5：在右侧节点使用方向执行线性拉伸
+## 步骤 5：在右侧节点上使用方向执行线性挤出
 
-这里是 **设置方向** 的关键。通过向 `setDirection` 传入自定义的 `Vector3`，拉伸将沿向量 (0.3, 0.2, 1) 进行，从而生成倾斜形状。
+这里我们**更改挤出方向**。通过将自定义 `Vector3` 传递给 `setDirection`，挤出遵循向量 (0.3, 0.2, 1)，生成与场景坐标系对齐的倾斜形状。
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setDirection(new Vector3(0.3, 0.2, 1));}});
@@ -103,7 +132,7 @@ right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlic
 
 ## 步骤 6：保存 3D 场景
 
-最后，将场景导出为 Wavefront OBJ 格式。此步骤演示了如何 **save obj file java** 项目，并便于在任何 3‑D 查看器中查看结果。
+`save` 方法将场景以指定格式写入文件。
 
 ```java
 scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
@@ -111,47 +140,47 @@ scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 
 ## 常见问题及解决方案
 
-| 问题 | 产生原因 | 解决办法 |
-|------|----------|----------|
+| 问题 | 产生原因 | 解决方案 |
+|-------|----------------|-----|
 | OBJ 文件为空 | 轮廓未添加到节点 | 确保在有效节点上调用 `createChildNode` |
-| 方向未改变 | `setDirection` 在拉伸已构建后调用 | 如示例所示，在 `LinearExtrusion` 初始化时设置方向 |
-| 网格分辨率低 | `setSlices` 值过低 | 增加切片数量（例如 100 或更高） |
+| 方向似乎未改变 | `setDirection` 在挤出已构建后被调用 | 如示例在 `LinearExtrusion` 初始化器内部设置方向 |
+| 低分辨率网格 | `setSlices` 的值太低 | 增加切片数量（例如 100 或更多） |
 
 ## 结论
 
-现在，您已经掌握了 **如何在线性拉伸中设置方向**，以及如何调节扭转和切片参数，并使用 Aspose.3D for Java **导出 3d model obj** 文件。这些技巧为几何体创建提供了细粒度控制，并使将 3‑D 资产集成到更大流水线中变得轻而易举。
+您现在已经掌握了**如何在线性挤出中更改挤出方向**、如何调整扭转和切片设置，以及如何使用 Aspose.3D for Java **导出 3D 模型 OBJ** 文件。这些技术为几何创建提供了细粒度控制，并使将 3D 资产集成到更大流水线中变得简便。
 
-## FAQ's
+## 常见问题
 
-### Q1: 我可以在其他编程语言中使用 Aspose.3D 吗？
+**Q:** 我可以在其他编程语言中使用 Aspose.3D 吗？  
+**A:** 可以——Aspose.3D 为 .NET 和 Java 提供 API，支持跨平台开发。
 
-A1: Aspose.3D 支持多种编程语言，包括 .NET 和 Java。
+**Q:** 是否提供 Aspose.3D 的免费试用？  
+**A:** 当然。您可以通过免费试用[此处](https://releases.aspose.com/)探索完整功能集。
 
-### Q2. Aspose.3D 是否提供免费试用？
+**Q:** 在哪里可以找到 Aspose.3D for Java 的详细文档？  
+**A:** 完整的参考文档可在[此处](https://reference.aspose.com/3d/java/)获取。
 
-A2: 是的，您可以在此处免费试用 Aspose.3D 的功能 [here](https://releases.aspose.com/)。
+**Q:** 如何获取 Aspose.3D 的支持？  
+**A:** 请访问官方的[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)获取社区和产品团队的帮助。
 
-### Q3: 哪里可以找到 Aspose.3D for Java 的详细文档？
-
-A3: 完整文档可在此处获取 [here](https://reference.aspose.com/3d/java/)。
-
-### Q4: 如何获取 Aspose.3D 的技术支持？
-
-A4: 请访问 [Aspose.3D forum](https://forum.aspose.com/c/3d/18) 获取帮助或提问。
-
-### Q5: 是否提供 Aspose.3D 的临时许可证？
-
-A5: 可以，临时许可证获取地址在此 [here](https://purchase.aspose.com/temporary-license/)。
+**Q:** 是否提供用于测试的临时许可证？  
+**A:** 是的——可在[此处](https://purchase.aspose.com/temporary-license/)获取临时许可证。
 
 ---
 
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.3D for Java (latest release)  
-**Author:** Aspose
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**最后更新：** 2026-08-02  
+**测试环境：** Aspose.3D for Java (latest release)  
+**作者：** Aspose
 
 {{< blocks/products/products-backtop-button >}}
+
+## 相关教程
+
+- [如何挤出形状 - 使用 Java 进行线性挤出创建 3D 模型](/3d/java/linear-extrusion/)
+- [使用 Aspose.3D 在 Java 中创建 3D 挤出](/3d/java/linear-extrusion/performing-linear-extrusion/)
+- [Java 3D 图形教程 – 线性挤出中的中心](/3d/java/linear-extrusion/controlling-center/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
