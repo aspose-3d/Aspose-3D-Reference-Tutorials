@@ -1,17 +1,68 @@
 ---
-date: 2026-04-08
-description: تعلم كيفية إنشاء أسطوانة ذات قمة مُزاحة في Aspose.3D للغة Java، إضافة
-  عقدة فرعية Java، ضبط القمة المُزاحة، إنشاء نموذج ثلاثي الأبعاد، وتصدير ملف OBJ باستخدام
-  ترخيص مؤقت من Aspose.
+date: 2026-08-12
+description: كيفية إنشاء 3d باستخدام Aspose.3D – إنشاء cylinder مع offset top في Java،
+  إضافة child node، تعيين offset top، إنشاء نموذج 3D، تصدير OBJ، وتقييم باستخدام temporary
+  license.
 keywords:
+- how to generate 3d
 - aspose temporary license
-- generate 3d model
-- add child node java
-- java export obj
+- export obj file
 - set offset top
-linktitle: رخصة Aspose المؤقتة – إنشاء أسطوانة مع قمة مُزاحة (Java)
+- java 3d cylinder
+lastmod: 2026-08-12
+linktitle: كيفية إنشاء 3d – create cylinder with offset top (Java)
+og_description: كيفية إنشاء 3d باستخدام Aspose.3D for Java. تعلم إزاحة cylinder tops،
+  إضافة child nodes، وتصدير OBJ باستخدام temporary license.
+og_image_alt: Guide showing Java code to create a cylinder with offset top and export
+  OBJ using Aspose.3D
+og_title: كيفية إنشاء 3d – create cylinder with offset top (Java)
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: How to generate 3d using Aspose.3D – create a cylinder with offset
+    top in Java, add child node, set offset top, generate 3D model, export OBJ, and
+    evaluate with a temporary license.
+  headline: How to generate 3d – create cylinder with offset top (Java)
+  type: TechArticle
+- description: How to generate 3d using Aspose.3D – create a cylinder with offset
+    top in Java, add child node, set offset top, generate 3D model, export OBJ, and
+    evaluate with a temporary license.
+  name: How to generate 3d – create cylinder with offset top (Java)
+  steps:
+  - name: Create a Java 3D scene
+    text: '`Scene` is the top‑level container that holds all nodes, meshes, lights,
+      and cameras in a 3‑D environment.'
+  - name: Initialize cylinder with offset top
+    text: '`Cylinder` represents a cylindrical mesh and provides properties such as
+      radius, height, and offset.'
+  - name: Add child node Java – attach the first cylinder
+    text: '`Node` is an element in the scene graph that can hold geometry and transformations.'
+  - name: Java export OBJ – save the scene as OBJ
+    text: '`FileFormat` enumerates the supported export formats such as OBJ, STL,
+      and FBX.'
+  type: HowTo
+- questions:
+  - answer: Yes, it works seamlessly with Eclipse, IntelliJ IDEA, NetBeans, and other
+      IDEs.
+    question: Is Aspose.3D compatible with different Java IDEs?
+  - answer: Absolutely! Use the `Material` class to assign textures and surface properties.
+    question: Can I apply textures to the created 3D objects?
+  - answer: Various licensing models are available; you can explore them **[Aspose
+      purchase page](https://purchase.aspose.com/buy)**.
+    question: Are there licensing options for Aspose.3D?
+  - answer: Join the **[Aspose.3D community forum](https://forum.aspose.com/c/3d/18)**
+      for support and discussion.
+    question: How can I get help or share experiences?
+  - answer: Yes, an **aspose temporary license** can be obtained for evaluation **[temporary
+      license request page](https://purchase.aspose.com/temporary-license/)**.
+    question: Is a temporary license available for testing?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: رخصة Aspose المؤقتة – إنشاء أسطوانة مع قمة مُزاحة (جافا)
+tags:
+- generate 3d
+- aspose.3d
+- java cylinder offset
+title: كيفية إنشاء 3d – create cylinder with offset top (Java)
 url: /ar/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
@@ -20,41 +71,41 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# رخصة Aspose المؤقتة – إنشاء أسطوانة مع قمة مائلة (Java)
+# كيفية إنشاء 3d – إنشاء أسطوانة مع إزاحة القمة (Java)
 
 ## مقدمة
 
-إذا كنت تبحث عن **إنشاء أسطوانة** مع قمة مائلة مخصصة في مشهد ثلاثي الأبعاد يعتمد على Java، فإن Aspose.3D يجعل العملية بسيطة. في هذا البرنامج التعليمي سنستعرض كل خطوة — من إعداد المشهد إلى تصدير النموذج النهائي كملف OBJ — حتى تتمكن من دمج الأسطوانات ذات القمة المائلة في تطبيقاتك بثقة. بنهاية الدليل ستفهم أيضًا كيف تسمح لك **رخصة Aspose المؤقتة** بتقييم هذه الميزات دون الحاجة إلى شراء كامل.
+إذا كنت تبحث عن **create cylinder** كائنات مع إزاحة قمة مخصصة في مشهد ثلاثي الأبعاد قائم على Java، فإن Aspose.3D يجعل العملية بسيطة. في هذا البرنامج التعليمي سنستعرض كل خطوة — من إعداد المشهد إلى تصدير النموذج النهائي كملف OBJ — حتى تتمكن من دمج أسطوانات بإزاحة القمة في تطبيقاتك بثقة. في نهاية الدليل ستفهم أيضًا كيف تسمح لك **aspose temporary license** بتقييم هذه الميزات دون الحاجة إلى شراء كامل.
 
 ## إجابات سريعة
 - **ما المكتبة المستخدمة؟** Aspose.3D for Java  
-- **هل يمكنني إزاحة قمة الأسطوانة؟** نعم، باستخدام `setOffsetTop`  
-- **كيف أضيف عقدة فرعية في Java؟** استدعِ `createChildNode` على العقدة الجذرية  
-- **ما الصيغة التي يمكنني التصدير إليها؟** Wavefront OBJ (`java export obj`)  
-- **هل أحتاج إلى رخصة للاختبار؟** **رخصة Aspose المؤقتة** متاحة للتقييم  
+- **هل يمكنني إزاحة قمة الأسطوانة؟** نعم، عبر `setOffsetTop`  
+- **كيف يمكنني إضافة عقدة فرعية في Java؟** استدعِ `createChildNode` على العقدة الجذرية  
+- **إلى أي تنسيق يمكنني التصدير؟** Wavefront OBJ (`export obj file`)  
+- **هل أحتاج إلى ترخيص للاختبار؟** **aspose temporary license** متاح للتقييم  
 
-## ما هي رخصة Aspose المؤقتة؟
+## ما هو ترخيص Aspose المؤقت؟
 
-**رخصة Aspose المؤقتة** هي مفتاح تقييم قصير‑الأمد ومجاني يفتح مجموعة الميزات الكاملة لـ Aspose.3D for Java أثناء التطوير والاختبار. تُزيل العلامات المائية التجريبية وتسمح لك بإنشاء ملفات نماذج ثلاثية الأبعاد، مثل OBJ أو STL أو FBX، تمامًا كما تفعل الرخصة المدفوعة.
+**aspose temporary license** هو مفتاح تقييم قصير‑الأمد ومجاني يفتح مجموعة الميزات الكاملة لـ Aspose.3D for Java أثناء التطوير والاختبار. يزيل علامات مائية التقييم ويسمح لك بإنشاء ملفات نماذج ثلاثية الأبعاد، مثل OBJ أو STL أو FBX، تمامًا كما يفعل الترخيص المدفوع.
 
-## لماذا تستخدم Aspose.3D للـ Java؟
+## لماذا تستخدم Aspose.3D for Java؟
+
+توفر Aspose.3D واجهة برمجة تطبيقات (API) عالية المستوى ومتعددة المنصات تُبسّط إنشاء وتصدير النماذج ثلاثية الأبعاد. تشمل مُصدِّرات مدمجة لأكثر من 30 تنسيقًا، وتدعم هياكل مشهد‑جراف، وتتيح لك التركيز على الهندسة بدلاً من التعامل مع الشبكات منخفضة المستوى.
 
 - **API عالي المستوى:** لا حاجة لإدارة بيانات الشبكة منخفضة المستوى.  
 - **متعدد المنصات:** يعمل على أي بيئة متوافقة مع JVM.  
-- **مصدرات مدمجة:** حفظ مباشرة إلى OBJ، STL، FBX، وأكثر.  
-- **قابل للتوسيع:** يمكن بسهولة إضافة عقد فرعية، تطبيق التحويلات، والدمج مع مكتبات Java الأخرى.  
+- **مُصدِّرات مدمجة:** حفظ مباشر إلى OBJ و STL و FBX وغيرها — تدعم Aspose.3D **30+** تنسيق تصدير.  
+- **قابل للتوسيع:** يمكنك بسهولة إضافة عقد فرعية، تطبيق التحويلات، والتكامل مع مكتبات Java الأخرى.  
 
 ## المتطلبات المسبقة
 
-قبل أن نبدأ، تأكد من وجود ما يلي:
-
-- **مجموعة تطوير Java (JDK)** – نسخة متوافقة مثبتة.  
-- **مكتبة Aspose.3D للـ Java** – حمّل أحدث JAR من الموقع الرسمي [here](https://releases.aspose.com/3d/java/).  
+- **Java Development Kit (JDK)** – نسخة متوافقة مثبتة.  
+- **Aspose.3D for Java library** – حمّل أحدث ملف JAR من الموقع الرسمي **[Aspose.3D for Java download page](https://releases.aspose.com/3d/java/)**.  
 - بيئة تطوير متكاملة (IDE) من اختيارك (Eclipse، IntelliJ IDEA، NetBeans، إلخ).  
 
 ## استيراد الحزم
 
-أولاً، استورد الفئات التي سنحتاجها. ضع هذه العبارات في أعلى ملف Java الخاص بك:
+الاستيرادات التالية تجلب الفئات الأساسية من Aspose.3D اللازمة لإنشاء وتصدير أسطوانة.
 
 ```java
 import com.aspose.threed.Cylinder;
@@ -68,9 +119,9 @@ import java.io.IOException;
 
 ## دليل خطوة بخطوة
 
-### الخطوة 1: إنشاء مشهد Java 3D
+### الخطوة 1: إنشاء مشهد Java ثلاثي الأبعاد
 
-يعمل **مشهد Java 3D** كحاوية لجميع الكائنات ثلاثية الأبعاد.
+`Scene` هو الحاوية العليا التي تحتفظ بجميع العقد، الشبكات، الأضواء، والكاميرات في بيئة ثلاثية الأبعاد.
 
 ```java
 // ExStart:1
@@ -79,9 +130,9 @@ Scene scene = new Scene();
 // ExEnd:1
 ```
 
-### الخطوة 2: تهيئة أسطوانة مع قمة مائلة
+### الخطوة 2: تهيئة أسطوانة مع إزاحة القمة
 
-هنا نجيب على **كيفية إنشاء أسطوانة** مع إزاحة مخصصة. يحدد المُنشئ نصف القطر والارتفاع والشرائح والطبقات وما إذا كانت الأسطوانة مغلقة. بعد ذلك، نقوم بتحريك القمة باستخدام `setOffsetTop`.
+`Cylinder` يمثل شبكة أسطوانية ويوفر خصائص مثل نصف القطر، الارتفاع، والإزاحة.
 
 ```java
 // ExStart:2
@@ -92,9 +143,9 @@ cylinder1.setOffsetTop(new Vector3(5, 3, 0));
 // ExEnd:2
 ```
 
-### الخطوة 3: إضافة عقدة فرعية Java – إرفاق الأسطوانة الأولى
+### الخطوة 3: إضافة عقدة فرعية في Java – إرفاق الأسطوانة الأولى
 
-ننشئ عقدة فرعية تحت العقدة الجذرية للمشهد وننقل الأسطوانة إلى الموقع المطلوب.
+`Node` هو عنصر في مخطط المشهد يمكنه احتواء الهندسة والتحويلات.
 
 ```java
 // ExStart:3
@@ -105,8 +156,6 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 
 ### الخطوة 4: تهيئة أسطوانة ثانية (بدون إزاحة)
 
-للمقارنة، نضيف أسطوانة عادية بدون إزاحة.
-
 ```java
 // ExStart:4
 // Initialize second cylinder without customized OffsetTop
@@ -114,7 +163,7 @@ Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExEnd:4
 ```
 
-### الخطوة 5: إضافة عقدة فرعية Java – إرفاق الأسطوانة الثانية
+### الخطوة 5: إضافة عقدة فرعية في Java – إرفاق الأسطوانة الثانية
 
 ```java
 // ExStart:5
@@ -123,9 +172,9 @@ scene.getRootNode().createChildNode(cylinder2);
 // ExEnd:5
 ```
 
-### الخطوة 6: تصدير Java إلى OBJ – حفظ المشهد كملف OBJ
+### الخطوة 6: تصدير OBJ في Java – حفظ المشهد كملف OBJ
 
-أخيرًا، نقوم **java export obj** للمشهد بالكامل (كلا الأسطوانتين) كملف Wavefront OBJ، وهو مدعوم على نطاق واسع من قبل أدوات 3D.
+`FileFormat` يعدد صيغ التصدير المدعومة مثل OBJ و STL و FBX.
 
 ```java
 // ExStart:6
@@ -134,54 +183,55 @@ scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFo
 // ExEnd:6
 ```
 
-عند تشغيل البرنامج، ستجد الملف `CustomizedOffsetTopCylinder.obj` في الدليل المحدد، جاهزًا للفتح في Blender أو Maya أو أي عارض OBJ آخر.
-
 ## كيفية إنشاء نموذج ثلاثي الأبعاد وتصدير OBJ في Java
 
-يجمع استخدام `Scene.save(..., FileFormat.WAVEFRONTOBJ)` مع **رخصة Aspose المؤقتة** لتتيح لك **إنشاء نموذج ثلاثي الأبعاد** بسرعة، دون الحاجة إلى محولات خارجية. هذا مفيد بشكل خاص أثناء النمذجة الأولية أو عند مشاركة الأصول مع المصممين.
+لإنشاء نموذج ثلاثي الأبعاد، قم بتحميل المشهد، تطبيق أي تحويلات مطلوبة، ثم استدعِ `scene.save("path/CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ)`. **aspose temporary license** يزيل علامة مائية التقييم، مما يتيح لك إنتاج ملفات OBJ جاهزة للإنتاج دون الحاجة إلى شراء ترخيص كامل.
 
-## حالات الاستخدام الواقعية
+## حالات الاستخدام في العالم الحقيقي
 
-- **التصوير المعماري:** أسطوانات ذات قمة مائلة تمثل أعمدة تتناقص نحو السقف.  
+- **التصوير المعماري:** أسطوانات بإزاحة القمة تُنمذج الأعمدة التي تتناقص نحو السقف.  
 - **الأجزاء الميكانيكية:** إنشاء مكابس أو حاويات تروس حيث يتم إزاحة السطح العلوي عمدًا.  
-- **أصول الألعاب:** إنتاج أشكال أعمدة متنوعة بسرعة، مما يقلل الحاجة إلى نماذج يدوية الصنع.  
+- **أصول الألعاب:** إنتاج أشكال أعمدة متنوعة بسرعة، مما يقلل الحاجة إلى شبكات مصممة يدويًا.
 
 ## المشكلات الشائعة والحلول
 
-| المشكلة | السبب | الحل |
+| Issue | Reason | Fix |
 |-------|--------|-----|
 | **ملف OBJ فارغ** | لم يتم حفظ المشهد بشكل صحيح أو المسار غير صحيح. | تحقق من وجود دليل الإخراج وأن لديك أذونات كتابة. |
-| **لم يتم تطبيق الإزاحة** | استخدام نسخة قديمة من Aspose.3D. | قم بتحديث المكتبة إلى أحدث نسخة تدعم `setOffsetTop`. |
+| **لم يتم تطبيق الإزاحة** | استخدام نسخة قديمة من Aspose.3D. | حدّث إلى أحدث مكتبة حيث يدعم `setOffsetTop`. |
 | **العقدة الفرعية غير مرئية** | لم يتم تطبيق التحويل. | تأكد من استدعاء `getTransform().setTranslation` بعد إنشاء العقدة الفرعية. |
 
 ## الأسئلة المتكررة
 
 **س: هل Aspose.3D متوافق مع بيئات تطوير Java المختلفة؟**  
-**ج:** نعم، يعمل بسلاسة مع Eclipse، IntelliJ IDEA، NetBeans، وغيرها من بيئات التطوير.
+ج: نعم، يعمل بسلاسة مع Eclipse و IntelliJ IDEA و NetBeans وغيرها من بيئات التطوير.
 
 **س: هل يمكنني تطبيق القوام على الكائنات ثلاثية الأبعاد التي تم إنشاؤها؟**  
-**ج:** بالتأكيد! استخدم الفئة `Material` لتعيين القوام وخصائص السطح.
+ج: بالتأكيد! استخدم الفئة `Material` لتعيين القوام وخصائص السطح.
 
 **س: هل هناك خيارات ترخيص لـ Aspose.3D؟**  
-**ج:** تتوفر نماذج ترخيص مختلفة؛ يمكنك استكشافها [here](https://purchase.aspose.com/buy).
+ج: تتوفر نماذج ترخيص مختلفة؛ يمكنك استكشافها عبر **[Aspose purchase page](https://purchase.aspose.com/buy)**.
 
 **س: كيف يمكنني الحصول على مساعدة أو مشاركة التجارب؟**  
-**ج:** انضم إلى منتدى مجتمع Aspose.3D [here](https://forum.aspose.com/c/3d/18) للحصول على الدعم والنقاش.
+ج: انضم إلى **[Aspose.3D community forum](https://forum.aspose.com/c/3d/18)** للحصول على الدعم والنقاش.
 
-**س: هل تتوفر رخصة مؤقتة للاختبار؟**  
-**ج:** نعم، يمكن الحصول على **رخصة Aspose المؤقتة** للتقييم [here](https://purchase.aspose.com/temporary-license/).
+**س: هل يتوفر ترخيص مؤقت للاختبار؟**  
+ج: نعم، يمكن الحصول على **aspose temporary license** للتقييم عبر **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
 
 ---
 
-**آخر تحديث:** 2026-04-08  
+**آخر تحديث:** 2026-08-12  
 **تم الاختبار مع:** Aspose.3D for Java 24.12 (latest)  
 **المؤلف:** Aspose
 
----
+{{< blocks/products/products-backtop-button >}}
+
+## دروس ذات صلة
+
+- [كيفية إنشاء نماذج أسطوانية باستخدام Aspose.3D for Java](/3d/java/cylinders/)
+- [كيفية إنشاء شكل مروحة أسطوانة باستخدام Aspose.3D for Java](/3d/java/cylinders/creating-fan-cylinders/)
+- [إنشاء عقد فرعية وتصدير FBX في Java باستخدام Aspose.3D](/3d/java/geometry/build-node-hierarchies/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

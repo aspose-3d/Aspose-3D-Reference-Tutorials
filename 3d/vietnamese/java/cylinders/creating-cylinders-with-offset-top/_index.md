@@ -1,17 +1,68 @@
 ---
-date: 2026-04-08
-description: Tìm hiểu cách tạo một hình trụ với đỉnh lệch trong Aspose.3D cho Java,
-  thêm nút con Java, đặt đỉnh lệch, tạo mô hình 3D và xuất OBJ bằng giấy phép tạm
-  thời của Aspose.
+date: 2026-08-12
+description: Cách tạo 3d bằng Aspose.3D – tạo cylinder với offset top trong Java,
+  thêm child node, đặt offset top, tạo mô hình 3D, xuất OBJ và đánh giá bằng temporary
+  license.
 keywords:
+- how to generate 3d
 - aspose temporary license
-- generate 3d model
-- add child node java
-- java export obj
+- export obj file
 - set offset top
-linktitle: Giấy phép tạm thời Aspose – Tạo hình trụ với đỉnh lệch (Java)
+- java 3d cylinder
+lastmod: 2026-08-12
+linktitle: Cách tạo 3d – tạo cylinder với offset top (Java)
+og_description: Cách tạo 3d với Aspose.3D cho Java. Tìm hiểu cách offset cylinder
+  tops, thêm child nodes và xuất OBJ bằng temporary license.
+og_image_alt: Guide showing Java code to create a cylinder with offset top and export
+  OBJ using Aspose.3D
+og_title: Cách tạo 3d – tạo cylinder với offset top (Java)
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: How to generate 3d using Aspose.3D – create a cylinder with offset
+    top in Java, add child node, set offset top, generate 3D model, export OBJ, and
+    evaluate with a temporary license.
+  headline: How to generate 3d – create cylinder with offset top (Java)
+  type: TechArticle
+- description: How to generate 3d using Aspose.3D – create a cylinder with offset
+    top in Java, add child node, set offset top, generate 3D model, export OBJ, and
+    evaluate with a temporary license.
+  name: How to generate 3d – create cylinder with offset top (Java)
+  steps:
+  - name: Create a Java 3D scene
+    text: '`Scene` is the top‑level container that holds all nodes, meshes, lights,
+      and cameras in a 3‑D environment.'
+  - name: Initialize cylinder with offset top
+    text: '`Cylinder` represents a cylindrical mesh and provides properties such as
+      radius, height, and offset.'
+  - name: Add child node Java – attach the first cylinder
+    text: '`Node` is an element in the scene graph that can hold geometry and transformations.'
+  - name: Java export OBJ – save the scene as OBJ
+    text: '`FileFormat` enumerates the supported export formats such as OBJ, STL,
+      and FBX.'
+  type: HowTo
+- questions:
+  - answer: Yes, it works seamlessly with Eclipse, IntelliJ IDEA, NetBeans, and other
+      IDEs.
+    question: Is Aspose.3D compatible with different Java IDEs?
+  - answer: Absolutely! Use the `Material` class to assign textures and surface properties.
+    question: Can I apply textures to the created 3D objects?
+  - answer: Various licensing models are available; you can explore them **[Aspose
+      purchase page](https://purchase.aspose.com/buy)**.
+    question: Are there licensing options for Aspose.3D?
+  - answer: Join the **[Aspose.3D community forum](https://forum.aspose.com/c/3d/18)**
+      for support and discussion.
+    question: How can I get help or share experiences?
+  - answer: Yes, an **aspose temporary license** can be obtained for evaluation **[temporary
+      license request page](https://purchase.aspose.com/temporary-license/)**.
+    question: Is a temporary license available for testing?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Giấy phép tạm thời Aspose – Tạo hình trụ với đỉnh lệch (Java)
+tags:
+- generate 3d
+- aspose.3d
+- java cylinder offset
+title: Cách tạo 3d – tạo cylinder với offset top (Java)
 url: /vi/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
@@ -20,41 +71,41 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose Temporary License – Tạo Trụ với Đỉnh Dịch Chuyển (Java)
+# Cách tạo 3d – tạo hình trụ với phần trên lệch (Java)
 
 ## Giới thiệu
 
-Nếu bạn muốn **tạo trụ** với một đỉnh tùy chỉnh lệch trong một cảnh 3D dựa trên Java, Aspose.3D giúp quá trình này trở nên đơn giản. Trong hướng dẫn này, chúng tôi sẽ đi qua từng bước — từ thiết lập cảnh đến xuất mô hình cuối cùng dưới dạng tệp OBJ — để bạn có thể tích hợp các trụ có đỉnh lệch vào ứng dụng của mình một cách tự tin. Khi hoàn thành, bạn sẽ hiểu cách **aspose temporary license** cho phép bạn đánh giá các tính năng này mà không cần mua bản đầy đủ.
+Nếu bạn muốn **tạo hình trụ** với phần trên lệch tùy chỉnh trong một cảnh 3D dựa trên Java, Aspose.3D giúp quá trình này trở nên đơn giản. Trong hướng dẫn này, chúng tôi sẽ đi qua từng bước — từ việc thiết lập cảnh cho đến xuất mô hình cuối cùng dưới dạng tệp OBJ — để bạn có thể tích hợp các hình trụ có phần trên lệch vào ứng dụng của mình một cách tự tin. Khi kết thúc hướng dẫn, bạn cũng sẽ hiểu cách **giấy phép tạm thời của Aspose** cho phép bạn đánh giá các tính năng này mà không cần mua bản đầy đủ.
 
 ## Câu trả lời nhanh
 - **Thư viện nào được sử dụng?** Aspose.3D for Java  
-- **Có thể dịch chuyển đỉnh của trụ không?** Có, sử dụng `setOffsetTop`  
-- **Làm thế nào để thêm nút con trong Java?** Gọi `createChildNode` trên nút gốc  
-- **Có thể xuất sang định dạng nào?** Wavefront OBJ (`java export obj`)  
-- **Có cần giấy phép để thử nghiệm không?** Một **aspose temporary license** có sẵn để đánh giá  
+- **Tôi có thể lệch phần trên của hình trụ không?** Yes, via `setOffsetTop`  
+- **Làm thế nào để thêm một nút con trong Java?** Call `createChildNode` on the root node  
+- **Định dạng nào tôi có thể xuất?** Wavefront OBJ (`export obj file`)  
+- **Tôi có cần giấy phép để thử nghiệm không?** An **giấy phép tạm thời của Aspose** is available for evaluation  
 
-## Aspose Temporary License là gì?
+## Giấy phép tạm thời của Aspose là gì?
 
-Một **aspose temporary license** là khóa đánh giá ngắn hạn, miễn phí, mở khóa toàn bộ tính năng của Aspose.3D for Java trong quá trình phát triển và thử nghiệm. Nó loại bỏ các dấu nước đánh giá và cho phép bạn tạo các tệp mô hình 3D, như OBJ, STL, hoặc FBX, chính xác như một giấy phép trả phí.
+**Giấy phép tạm thời của Aspose** là một khóa đánh giá ngắn hạn, miễn phí, mở khóa toàn bộ tính năng của Aspose.3D cho Java trong quá trình phát triển và thử nghiệm. Nó loại bỏ các dấu watermark đánh giá và cho phép bạn tạo các tệp mô hình 3D, như OBJ, STL, hoặc FBX, chính xác như một giấy phép trả phí.
 
 ## Tại sao nên sử dụng Aspose.3D cho Java?
 
-- **API cấp cao:** Không cần quản lý dữ liệu lưới cấp thấp.  
-- **Đa nền tảng:** Hoạt động trên bất kỳ môi trường tương thích JVM nào.  
-- **Bộ xuất tích hợp:** Lưu trực tiếp thành OBJ, STL, FBX và nhiều định dạng khác.  
-- **Mở rộng:** Dễ dàng thêm nút con, áp dụng biến đổi và tích hợp với các thư viện Java khác.  
+Aspose.3D cung cấp một API cấp cao, đa nền tảng, giúp đơn giản hoá việc tạo và xuất 3D. Nó bao gồm các bộ xuất tích hợp cho hơn 30 định dạng, hỗ trợ cấu trúc đồ thị cảnh, và cho phép bạn tập trung vào hình học thay vì xử lý lưới cấp thấp.
+
+- **API cấp cao:** No need to manage low‑level mesh data.  
+- **Đa nền tảng:** Works on any JVM‑compatible environment.  
+- **Bộ xuất tích hợp:** Directly save to OBJ, STL, FBX, and more—Aspose.3D supports **30+** export formats.  
+- **Mở rộng:** Easily add child nodes, apply transformations, and integrate with other Java libraries.  
 
 ## Yêu cầu trước
 
-Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
+- **Java Development Kit (JDK)** – a compatible version installed.  
+- **Aspose.3D for Java library** – download the latest JAR from the official site **[Aspose.3D for Java download page](https://releases.aspose.com/3d/java/)**.  
+- An IDE of your choice (Eclipse, IntelliJ IDEA, NetBeans, etc.).  
 
-- **Java Development Kit (JDK)** – một phiên bản tương thích đã được cài đặt.  
-- **Thư viện Aspose.3D cho Java** – tải JAR mới nhất từ trang chính thức [here](https://releases.aspose.com/3d/java/).  
-- Một IDE theo lựa chọn của bạn (Eclipse, IntelliJ IDEA, NetBeans, v.v.).  
+## Nhập các gói
 
-## Nhập gói
-
-Đầu tiên, nhập các lớp chúng ta cần. Đặt các câu lệnh này ở đầu tệp Java của bạn:
+The following imports bring in the essential Aspose.3D classes needed to create and export a cylinder.
 
 ```java
 import com.aspose.threed.Cylinder;
@@ -68,9 +119,9 @@ import java.io.IOException;
 
 ## Hướng dẫn từng bước
 
-### Bước 1: Tạo một cảnh 3D Java
+### Bước 1: Tạo cảnh 3D Java
 
-Một **cảnh 3D Java** đóng vai trò là container cho tất cả các đối tượng 3D.
+`Scene` is the top‑level container that holds all nodes, meshes, lights, and cameras in a 3‑D environment.
 
 ```java
 // ExStart:1
@@ -79,9 +130,9 @@ Scene scene = new Scene();
 // ExEnd:1
 ```
 
-### Bước 2: Khởi tạo Trụ với Đỉnh Dịch Chuyển
+### Bước 2: Khởi tạo hình trụ với phần trên lệch
 
-Ở đây chúng tôi trả lời **cách tạo trụ** với một độ dịch chuyển tùy chỉnh. Constructor xác định bán kính, chiều cao, số lát cắt, số lớp, và việc trụ có đóng kín hay không. Sau đó, chúng tôi dịch chuyển đỉnh bằng cách sử dụng `setOffsetTop`.
+`Cylinder` represents a cylindrical mesh and provides properties such as radius, height, and offset.
 
 ```java
 // ExStart:2
@@ -92,9 +143,9 @@ cylinder1.setOffsetTop(new Vector3(5, 3, 0));
 // ExEnd:2
 ```
 
-### Bước 3: Thêm nút con Java – Gắn Trụ Đầu Tiên
+### Bước 3: Thêm nút con Java – gắn hình trụ đầu tiên
 
-Chúng tôi tạo một nút con dưới nút gốc của cảnh và di chuyển trụ tới vị trí mong muốn.
+`Node` is an element in the scene graph that can hold geometry and transformations.
 
 ```java
 // ExStart:3
@@ -103,9 +154,7 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 // ExEnd:3
 ```
 
-### Bước 4: Khởi tạo Trụ Thứ Hai (Không Dịch Chuyển)
-
-Để so sánh, chúng tôi thêm một trụ thông thường không có độ dịch chuyển.
+### Bước 4: Khởi tạo hình trụ thứ hai (không lệch)
 
 ```java
 // ExStart:4
@@ -114,7 +163,7 @@ Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExEnd:4
 ```
 
-### Bước 5: Thêm nút con Java – Gắn Trụ Thứ Hai
+### Bước 5: Thêm nút con Java – gắn hình trụ thứ hai
 
 ```java
 // ExStart:5
@@ -123,9 +172,9 @@ scene.getRootNode().createChildNode(cylinder2);
 // ExEnd:5
 ```
 
-### Bước 6: Java Export OBJ – Lưu Cảnh dưới dạng OBJ
+### Bước 6: Xuất OBJ trong Java – lưu cảnh dưới dạng OBJ
 
-Cuối cùng, chúng tôi **java export obj** toàn cảnh (cả hai trụ) dưới dạng tệp Wavefront OBJ, được hỗ trợ rộng rãi bởi các công cụ 3D.
+`FileFormat` enumerates the supported export formats such as OBJ, STL, and FBX.
 
 ```java
 // ExStart:6
@@ -134,54 +183,58 @@ scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFo
 // ExEnd:6
 ```
 
-Khi bạn chạy chương trình, bạn sẽ thấy tệp `CustomizedOffsetTopCylinder.obj` trong thư mục đã chỉ định, sẵn sàng mở trong Blender, Maya hoặc bất kỳ trình xem OBJ nào khác.
+## Cách tạo mô hình 3d và xuất OBJ trong Java
 
-## Cách tạo mô hình 3D và xuất OBJ trong Java
-
-Sự kết hợp của `Scene.save(..., FileFormat.WAVEFRONTOBJ)` và **aspose temporary license** cho phép bạn **tạo mô hình 3d** nhanh chóng, mà không cần bộ chuyển đổi bên ngoài. Điều này đặc biệt hữu ích trong giai đoạn nguyên mẫu hoặc khi chia sẻ tài sản với các nhà thiết kế.
+To generate a 3D model, load the scene, apply any required transformations, and then call `scene.save("path/CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ)`. The **giấy phép tạm thời của Aspose** removes the evaluation watermark, allowing you to produce production‑ready OBJ files without purchasing a full license.
 
 ## Các trường hợp sử dụng thực tế
 
-- **Trực quan kiến trúc:** Trụ có đỉnh lệch mô phỏng các cột thu hẹp lên phía trần.  
-- **Bộ phận cơ khí:** Tạo piston hoặc vỏ bánh răng mà bề mặt trên được dịch chuyển có chủ đích.  
-- **Tài sản trò chơi:** Tạo các hình dạng cột đa dạng nhanh chóng, giảm nhu cầu tạo lưới thủ công.  
+- **Architectural visualisation:** Offset‑top cylinders model columns that taper toward the ceiling.  
+- **Mechanical parts:** Create pistons or gear housings where the top surface is intentionally shifted.  
+- **Game assets:** Produce varied pillar shapes on the fly, reducing the need for hand‑crafted meshes.  
 
 ## Các vấn đề thường gặp và giải pháp
 
-| Vấn đề | Lý do | Cách khắc phục |
-|-------|--------|----------------|
-| **Tệp OBJ trống** | Cảnh không được lưu đúng cách hoặc đường dẫn sai. | Kiểm tra thư mục đầu ra tồn tại và bạn có quyền ghi. |
-| **Dịch chuyển không được áp dụng** | Sử dụng phiên bản Aspose.3D cũ hơn. | Cập nhật lên thư viện mới nhất có hỗ trợ `setOffsetTop`. |
-| **Nút con không hiển thị** | Biến đổi chưa được áp dụng. | Đảm bảo bạn gọi `getTransform().setTranslation` sau khi tạo nút con. |
+| Vấn đề | Nguyên nhân | Cách khắc phục |
+|-------|-------------|----------------|
+| **Tệp OBJ rỗng** | Scene not saved correctly or wrong path. | Verify the output directory exists and you have write permissions. |
+| **Lệch không được áp dụng** | Using an older Aspose.3D version. | Update to the latest library where `setOffsetTop` is supported. |
+| **Nút con không hiển thị** | Transformation not applied. | Ensure you call `getTransform().setTranslation` after creating the child node. |
 
 ## Câu hỏi thường gặp
 
 **Q: Aspose.3D có tương thích với các IDE Java khác nhau không?**  
-A: Có, nó hoạt động liền mạch với Eclipse, IntelliJ IDEA, NetBeans và các IDE khác.
+A: Yes, it works seamlessly with Eclipse, IntelliJ IDEA, NetBeans, and other IDEs.
 
 **Q: Tôi có thể áp dụng texture cho các đối tượng 3D đã tạo không?**  
-A: Chắc chắn! Sử dụng lớp `Material` để gán texture và các thuộc tính bề mặt.
+A: Absolutely! Use the `Material` class to assign textures and surface properties.
 
-**Q: Có các tùy chọn cấp phép cho Aspose.3D không?**  
-A: Nhiều mô hình cấp phép khác nhau có sẵn; bạn có thể khám phá chúng [here](https://purchase.aspose.com/buy).
+**Q: Có các tùy chọn cấp phép nào cho Aspose.3D không?**  
+A: Various licensing models are available; you can explore them **[Aspose purchase page](https://purchase.aspose.com/buy)**.
 
-**Q: Làm sao tôi có thể nhận trợ giúp hoặc chia sẻ kinh nghiệm?**  
-A: Tham gia diễn đàn cộng đồng Aspose.3D [here](https://forum.aspose.com/c/3d/18) để được hỗ trợ và thảo luận.
+**Q: Làm sao tôi có thể nhận hỗ trợ hoặc chia sẻ kinh nghiệm?**  
+A: Join the **[Aspose.3D community forum](https://forum.aspose.com/c/3d/18)** for support and discussion.
 
 **Q: Có giấy phép tạm thời để thử nghiệm không?**  
-A: Có, một **aspose temporary license** có thể được lấy để đánh giá [here](https://purchase.aspose.com/temporary-license/).
+A: Yes, an **giấy phép tạm thời của Aspose** can be obtained for evaluation **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
 
 ---
 
-**Cập nhật lần cuối:** 2026-04-08  
-**Đã kiểm tra với:** Aspose.3D for Java 24.12 (mới nhất)  
-**Tác giả:** Aspose
+**Last updated:** 2026-08-12  
+**Tested with:** Aspose.3D for Java 24.12 (latest)  
+**Author:** Aspose
 
 ---
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Hướng dẫn liên quan
+
+- [How to Create Cylinder Models with Aspose.3D for Java](/3d/java/cylinders/)
+- [How to create cylinder fan shape using Aspose.3D for Java](/3d/java/cylinders/creating-fan-cylinders/)
+- [Create Child Nodes and Export FBX in Java with Aspose.3D](/3d/java/geometry/build-node-hierarchies/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

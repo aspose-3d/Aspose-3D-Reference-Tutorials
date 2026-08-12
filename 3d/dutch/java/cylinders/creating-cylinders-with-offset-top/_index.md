@@ -1,18 +1,69 @@
 ---
-date: 2026-04-08
-description: Leer hoe je een cilinder met een verschoven bovenkant maakt in Aspose.3D
-  voor Java, een kindknooppunt toevoegt, de verschoven bovenkant instelt, een 3D‑model
-  genereert en OBJ exporteert met een tijdelijke Aspose‑licentie.
+date: 2026-08-12
+description: Hoe 3D te genereren met Aspose.3D – maak een cilinder met verschoven
+  bovenkant in Java, voeg een kindknooppunt toe, stel de verschoven bovenkant in,
+  genereer een 3D-model, exporteer OBJ en evalueer met een tijdelijke licentie.
 keywords:
+- how to generate 3d
 - aspose temporary license
-- generate 3d model
-- add child node java
-- java export obj
+- export obj file
 - set offset top
-linktitle: Aspose Tijdelijke Licentie – Cilinder maken met verschoven bovenkant (Java)
+- java 3d cylinder
+lastmod: 2026-08-12
+linktitle: Hoe 3D te genereren – een cilinder maken met verschoven bovenkant (Java)
+og_description: Hoe 3D te genereren met Aspose.3D voor Java. Leer cilinderbovenzijden
+  te verschuiven, kindknooppunten toe te voegen en OBJ te exporteren met een tijdelijke
+  licentie.
+og_image_alt: Guide showing Java code to create a cylinder with offset top and export
+  OBJ using Aspose.3D
+og_title: Hoe 3D te genereren – een cilinder maken met verschoven bovenkant (Java)
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: How to generate 3d using Aspose.3D – create a cylinder with offset
+    top in Java, add child node, set offset top, generate 3D model, export OBJ, and
+    evaluate with a temporary license.
+  headline: How to generate 3d – create cylinder with offset top (Java)
+  type: TechArticle
+- description: How to generate 3d using Aspose.3D – create a cylinder with offset
+    top in Java, add child node, set offset top, generate 3D model, export OBJ, and
+    evaluate with a temporary license.
+  name: How to generate 3d – create cylinder with offset top (Java)
+  steps:
+  - name: Create a Java 3D scene
+    text: '`Scene` is the top‑level container that holds all nodes, meshes, lights,
+      and cameras in a 3‑D environment.'
+  - name: Initialize cylinder with offset top
+    text: '`Cylinder` represents a cylindrical mesh and provides properties such as
+      radius, height, and offset.'
+  - name: Add child node Java – attach the first cylinder
+    text: '`Node` is an element in the scene graph that can hold geometry and transformations.'
+  - name: Java export OBJ – save the scene as OBJ
+    text: '`FileFormat` enumerates the supported export formats such as OBJ, STL,
+      and FBX.'
+  type: HowTo
+- questions:
+  - answer: Yes, it works seamlessly with Eclipse, IntelliJ IDEA, NetBeans, and other
+      IDEs.
+    question: Is Aspose.3D compatible with different Java IDEs?
+  - answer: Absolutely! Use the `Material` class to assign textures and surface properties.
+    question: Can I apply textures to the created 3D objects?
+  - answer: Various licensing models are available; you can explore them **[Aspose
+      purchase page](https://purchase.aspose.com/buy)**.
+    question: Are there licensing options for Aspose.3D?
+  - answer: Join the **[Aspose.3D community forum](https://forum.aspose.com/c/3d/18)**
+      for support and discussion.
+    question: How can I get help or share experiences?
+  - answer: Yes, an **aspose temporary license** can be obtained for evaluation **[temporary
+      license request page](https://purchase.aspose.com/temporary-license/)**.
+    question: Is a temporary license available for testing?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Aspose Tijdelijke Licentie – Maak een cilinder met een verschoven bovenkant
-  (Java)
+tags:
+- generate 3d
+- aspose.3d
+- java cylinder offset
+title: Hoe 3D te genereren – een cilinder maken met verschoven bovenkant (Java)
 url: /nl/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
@@ -21,41 +72,41 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose Tijdelijke Licentie – Cilinder maken met Offset Bovenkant (Java)
+# Hoe 3d te genereren – cilinder maken met offset bovenkant (Java)
 
-## Inleiding
+## Introductie
 
-If you’re looking to **create cylinder** objects with a custom offset top in a Java‑based 3D scene, Aspose.3D makes the process straightforward. In this tutorial we’ll walk through every step—from setting up the scene to exporting the final model as an OBJ file—so you can integrate offset‑top cylinders into your applications with confidence. By the end of the guide you’ll also understand how an **aspose temporary license** lets you evaluate these features without a full purchase.
+Als je **cilinder** objecten wilt maken met een aangepaste offset bovenkant in een Java‑gebaseerde 3D‑scene, maakt Aspose.3D het proces eenvoudig. In deze tutorial lopen we elke stap door — van het opzetten van de scene tot het exporteren van het uiteindelijke model als een OBJ‑bestand — zodat je offset‑top cilinders kunt integreren in je applicaties met vertrouwen. Aan het einde van de gids begrijp je ook hoe een **aspose temporary license** je in staat stelt deze functies te evalueren zonder een volledige aankoop.
 
-## Snelle Antwoorden
-- **Which library is used?** Aspose.3D for Java  
-- **Can I offset the top of a cylinder?** Yes, using `setOffsetTop`  
-- **How do I add a child node in Java?** Call `createChildNode` on the root node  
-- **Which format can I export to?** Wavefront OBJ (`java export obj`)  
-- **Do I need a license for testing?** An **aspose temporary license** is available for evaluation  
+## Snelle antwoorden
+- **Welke bibliotheek wordt gebruikt?** Aspose.3D for Java  
+- **Kan ik de bovenkant van een cilinder offsetten?** Ja, via `setOffsetTop`  
+- **Hoe voeg ik een child node toe in Java?** Roep `createChildNode` aan op de root‑node  
+- **Naar welk formaat kan ik exporteren?** Wavefront OBJ (`export obj file`)  
+- **Heb ik een licentie nodig voor testen?** Een **aspose temporary license** is beschikbaar voor evaluatie  
 
-## Wat is Aspose Tijdelijke Licentie?
+## Wat is een Aspose temporary license?
 
-An **aspose temporary license** is a short‑term, free evaluation key that unlocks the full feature set of Aspose.3D for Java during development and testing. It removes evaluation watermarks and allows you to generate 3D model files, such as OBJ, STL, or FBX, exactly as a paid license would.
+Een **aspose temporary license** is een kort‑lopende, gratis evaluatiesleutel die de volledige functionaliteit van Aspose.3D for Java ontgrendelt tijdens ontwikkeling en testen. Het verwijdert evaluatiewatermerken en stelt je in staat 3D‑modelfiles te genereren, zoals OBJ, STL of FBX, precies zoals een betaalde licentie dat zou doen.
 
 ## Waarom Aspose.3D voor Java gebruiken?
 
-- **High‑level API:** No need to manage low‑level mesh data.  
-- **Cross‑platform:** Works on any JVM‑compatible environment.  
-- **Built‑in exporters:** Directly save to OBJ, STL, FBX, and more.  
-- **Extensible:** Easily add child nodes, apply transformations, and integrate with other Java libraries.  
+Aspose.3D biedt een high‑level, cross‑platform API die 3D‑creatie en export vereenvoudigt. Het bevat ingebouwde exporters voor meer dan 30 formaten, ondersteunt scene‑graph hiërarchieën, en laat je focussen op geometrie in plaats van low‑level mesh handling.
 
-## Voorvereisten
+- **High‑level API:** Geen noodzaak om low‑level mesh‑data te beheren.  
+- **Cross‑platform:** Werkt in elke JVM‑compatibele omgeving.  
+- **Built‑in exporters:** Direct opslaan naar OBJ, STL, FBX en meer — Aspose.3D ondersteunt **30+** exportformaten.  
+- **Extensible:** Voeg eenvoudig child nodes toe, pas transformaties toe, en integreer met andere Java‑bibliotheken.  
 
-Before we dive in, make sure you have:
+## Vereisten
 
-- **Java Development Kit (JDK)** – a compatible version installed.  
-- **Aspose.3D for Java library** – download the latest JAR from the official site [here](https://releases.aspose.com/3d/java/).  
-- An IDE of your choice (Eclipse, IntelliJ IDEA, NetBeans, etc.).  
+- **Java Development Kit (JDK)** – een compatibele versie geïnstalleerd.  
+- **Aspose.3D for Java library** – download de nieuwste JAR van de officiële site **[Aspose.3D for Java download page](https://releases.aspose.com/3d/java/)**.  
+- Een IDE naar keuze (Eclipse, IntelliJ IDEA, NetBeans, etc.).
 
-## Pakketten importeren
+## Importeer pakketten
 
-First, import the classes we’ll need. Place these statements at the top of your Java file:
+De volgende imports brengen de essentiële Aspose.3D‑klassen binnen die nodig zijn om een cilinder te maken en te exporteren.
 
 ```java
 import com.aspose.threed.Cylinder;
@@ -67,11 +118,11 @@ import com.aspose.threed.Vector3;
 import java.io.IOException;
 ```
 
-## Stapsgewijze Gids
+## Stapsgewijze handleiding
 
-### Stap 1: Maak een Java 3D‑scène
+### Stap 1: Maak een Java 3D‑scene
 
-A **java 3d scene** acts as the container for all 3D objects.
+`Scene` is de top‑level container die alle nodes, meshes, lichten en camera's bevat in een 3‑D‑omgeving.
 
 ```java
 // ExStart:1
@@ -80,9 +131,9 @@ Scene scene = new Scene();
 // ExEnd:1
 ```
 
-### Stap 2: Initialiseert Cilinder met Offset Bovenkant
+### Stap 2: Initialiseert cilinder met offset bovenkant
 
-Here we answer **how to create cylinder** with a custom offset. The constructor defines radius, height, slices, stacks, and whether the cylinder is closed. After that, we shift the top using `setOffsetTop`.
+`Cylinder` vertegenwoordigt een cilindrische mesh en biedt eigenschappen zoals radius, hoogte en offset.
 
 ```java
 // ExStart:2
@@ -93,9 +144,9 @@ cylinder1.setOffsetTop(new Vector3(5, 3, 0));
 // ExEnd:2
 ```
 
-### Stap 3: Voeg Kindknooppunt Java toe – Bevestig de Eerste Cilinder
+### Stap 3: Voeg child node toe in Java – koppel de eerste cilinder
 
-We create a child node under the scene’s root node and move the cylinder to a desired location.
+`Node` is een element in de scene‑graph dat geometrie en transformaties kan bevatten.
 
 ```java
 // ExStart:3
@@ -104,9 +155,7 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 // ExEnd:3
 ```
 
-### Stap 4: Initialiseert een Tweede Cilinder (Geen Offset)
-
-For comparison, we add a regular cylinder without an offset.
+### Stap 4: Initialiseert een tweede cilinder (zonder offset)
 
 ```java
 // ExStart:4
@@ -115,7 +164,7 @@ Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExEnd:4
 ```
 
-### Stap 5: Voeg Kindknooppunt Java toe – Bevestig de Tweede Cilinder
+### Stap 5: Voeg child node toe in Java – koppel de tweede cilinder
 
 ```java
 // ExStart:5
@@ -124,9 +173,9 @@ scene.getRootNode().createChildNode(cylinder2);
 // ExEnd:5
 ```
 
-### Stap 6: Java Export OBJ – Sla de Scène op als OBJ
+### Stap 6: Java export OBJ – sla de scene op als OBJ
 
-Finally, we **java export obj** the whole scene (both cylinders) as a Wavefront OBJ file, which is widely supported by 3D tools.
+`FileFormat` somt de ondersteunde exportformaten op, zoals OBJ, STL en FBX.
 
 ```java
 // ExStart:6
@@ -135,54 +184,58 @@ scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFo
 // ExEnd:6
 ```
 
-When you run the program, you’ll find `CustomizedOffsetTopCylinder.obj` in the specified directory, ready to be opened in Blender, Maya, or any other OBJ‑compatible viewer.
+## Hoe een 3d‑model te genereren en OBJ te exporteren in Java
 
-## Hoe 3D‑model genereren en OBJ exporteren in Java
+Om een 3D‑model te genereren, laad je de scene, pas je eventuele benodigde transformaties toe, en roep je vervolgens `scene.save("path/CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ)` aan. De **aspose temporary license** verwijdert het evaluatiewatermerk, waardoor je productie‑klare OBJ‑bestanden kunt maken zonder een volledige licentie aan te schaffen.
 
-The combination of `Scene.save(..., FileFormat.WAVEFRONTOBJ)` and the **aspose temporary license** lets you **generate 3d model** files quickly, without needing external converters. This is especially handy during prototyping or when sharing assets with designers.
+## Praktijkvoorbeelden
 
-## Praktische Toepassingen
+- **Architecturale visualisatie:** Offset‑top cilinders modelleren kolommen die naar het plafond toe taps toelopen.  
+- **Mechanische onderdelen:** Maak zuigers of tandwielbehuizingen waarbij het bovenoppervlak opzettelijk verschoven is.  
+- **Game‑assets:** Produceer gevarieerde zuilvormen on‑the‑fly, waardoor de noodzaak voor handgemaakte meshes vermindert.  
 
-- **Architectural visualisation:** Offset‑top cylinders model columns that taper toward the ceiling.  
-- **Mechanical parts:** Create pistons or gear housings where the top surface is intentionally shifted.  
-- **Game assets:** Produce varied pillar shapes on the fly, reducing the need for hand‑crafted meshes.
+## Veelvoorkomende problemen en oplossingen
 
-## Veelvoorkomende Problemen en Oplossingen
-
-| Issue | Reason | Fix |
+| Probleem | Reden | Oplossing |
 |-------|--------|-----|
-| **OBJ file is empty** | Scene not saved correctly or wrong path. | Verify the output directory exists and you have write permissions. |
-| **Offset not applied** | Using an older Aspose.3D version. | Update to the latest library where `setOffsetTop` is supported. |
-| **Child node not visible** | Transformation not applied. | Ensure you call `getTransform().setTranslation` after creating the child node. |
+| **OBJ‑bestand is leeg** | Scene niet correct opgeslagen of verkeerd pad. | Controleer of de uitvoermap bestaat en je schrijfrechten hebt. |
+| **Offset niet toegepast** | Een oudere Aspose.3D‑versie wordt gebruikt. | Werk bij naar de nieuwste bibliotheek waarin `setOffsetTop` wordt ondersteund. |
+| **Child node niet zichtbaar** | Transformatie niet toegepast. | Zorg ervoor dat je `getTransform().setTranslation` aanroept na het creëren van de child node. |
 
-## Veelgestelde Vragen
+## Veelgestelde vragen
 
-**Q: Is Aspose.3D compatible with different Java IDEs?**  
-A: Yes, it works seamlessly with Eclipse, IntelliJ IDEA, NetBeans, and other IDEs.
+**Q: Is Aspose.3D compatibel met verschillende Java‑IDE's?**  
+A: Ja, het werkt naadloos met Eclipse, IntelliJ IDEA, NetBeans en andere IDE's.
 
-**Q: Can I apply textures to the created 3D objects?**  
-A: Absolutely! Use the `Material` class to assign textures and surface properties.
+**Q: Kan ik texturen toepassen op de gemaakte 3D‑objecten?**  
+A: Absoluut! Gebruik de `Material`‑klasse om texturen en oppervlaktespecificaties toe te wijzen.
 
-**Q: Are there licensing options for Aspose.3D?**  
-A: Various licensing models are available; you can explore them [here](https://purchase.aspose.com/buy).
+**Q: Zijn er licentieopties voor Aspose.3D?**  
+A: Er zijn verschillende licentiemodellen beschikbaar; je kunt ze bekijken op de **[Aspose purchase page](https://purchase.aspose.com/buy)**.
 
-**Q: How can I get help or share experiences?**  
-A: Join the Aspose.3D community forum [here](https://forum.aspose.com/c/3d/18) for support and discussion.
+**Q: Hoe kan ik hulp krijgen of ervaringen delen?**  
+A: Word lid van het **[Aspose.3D community forum](https://forum.aspose.com/c/3d/18)** voor ondersteuning en discussie.
 
-**Q: Is a temporary license available for testing?**  
-A: Yes, an **aspose temporary license** can be obtained for evaluation [here](https://purchase.aspose.com/temporary-license/).
-
----
-
-**Last Updated:** 2026-04-08  
-**Tested With:** Aspose.3D for Java 24.12 (latest)  
-**Author:** Aspose
+**Q: Is er een tijdelijke licentie beschikbaar voor testen?**  
+A: Ja, een **aspose temporary license** kan verkregen worden voor evaluatie via de **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
 
 ---
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+**Laatst bijgewerkt:** 2026-08-12  
+**Getest met:** Aspose.3D for Java 24.12 (latest)  
+**Auteur:** Aspose
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+---
 
 {{< blocks/products/products-backtop-button >}}
+
+## Gerelateerde tutorials
+
+- [Hoe cilindermodellen te maken met Aspose.3D for Java](/3d/java/cylinders/)
+- [Hoe een cilinder fan‑vorm te maken met Aspose.3D for Java](/3d/java/cylinders/creating-fan-cylinders/)
+- [Child nodes maken en FBX exporteren in Java met Aspose.3D](/3d/java/geometry/build-node-hierarchies/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
