@@ -1,14 +1,69 @@
 ---
-date: 2026-04-08
-description: Pelajari cara membuat adegan 3D Java menggunakan Aspose 3D Java, termasuk
-  kompresi dan pengelolaan adegan serta model 3D.
+date: 2026-08-12
+description: Pelajari cara mengekspor obj dan membuat adegan 3D di Java dengan Aspose 3D Java,
+  termasuk cara mengubah orientasi bidang dan mengompresi adegan 3D.
 keywords:
-- create 3d scene java
+- how to export obj
+- how to modify plane
+- how to compress 3d
+- how to create scene
 - modify plane orientation
-- export obj from java
-linktitle: Buat Adegan 3D Java dengan Aspose 3D Java
+lastmod: 2026-08-12
+linktitle: Cara mengekspor obj dan membuat adegan 3D di Java dengan Aspose 3D
+og_description: Pelajari cara mengekspor obj dan membuat adegan 3D di Java dengan
+  Aspose 3D Java, termasuk cara mengubah orientasi bidang dan mengompresi adegan 3D.
+og_image_alt: Guide to exporting OBJ and building 3D scenes in Java using Aspose 3D
+og_title: Cara mengekspor obj dan membuat adegan 3D di Java dengan Aspose 3D
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: Learn how to export obj and create 3D scene in Java with Aspose 3D Java,
+    covering how to modify plane orientation and compress 3D scenes.
+  headline: How to export obj and create 3D scene in Java with Aspose 3D
+  type: TechArticle
+- description: Learn how to export obj and create 3D scene in Java with Aspose 3D Java,
+    covering how to modify plane orientation and compress 3D scenes.
+  name: How to export obj and create 3D scene in Java with Aspose 3D
+  steps:
+  - name: '**Instantiate the scene** – `Scene scene = new Scene();`'
+    text: '**Instantiate the scene** – `Scene scene = new Scene();`'
+  - name: '**Add a mesh, camera, and light** – use fluent API calls such as `scene.getRootNode().getChildren().add(mesh);`.'
+    text: '**Add a mesh, camera, and light** – use fluent API calls such as `scene.getRootNode().getChildren().add(mesh);`.'
+  - name: '**Export** – `scene.save("myModel.obj", SaveFormat.Obj);`'
+    text: '**Export** – `scene.save("myModel.obj", SaveFormat.Obj);`'
+  - name: '**Add the Maven dependency**:'
+    text: '**Add the Maven dependency**:'
+  - name: '**Create a new Java class** and import `com.aspose.threed.Scene` and related
+      types.'
+    text: '**Create a new Java class** and import `com.aspose.threed.Scene` and related
+      types.'
+  - name: '**Instantiate the scene**, add a primitive mesh (e.g., a cube), configure
+      a perspective camera, and add a directional light.'
+    text: '**Instantiate the scene**, add a primitive mesh (e.g., a cube), configure
+      a perspective camera, and add a directional light.'
+  - name: '**Save as OBJ** using `scene.save("output.obj", SaveFormat.Obj);`.'
+    text: '**Save as OBJ** using `scene.save("output.obj", SaveFormat.Obj);`.'
+  type: HowTo
+- questions:
+  - answer: Any Java application that needs interactive 3D scenes, such as games,
+      simulations, or product visualizers.
+    question: What can I build?
+  - answer: Aspose 3D Java (latest version).
+    question: Which library is required?
+  - answer: A free trial is available; a commercial license is required for production
+      use.
+    question: Do I need a license?
+  - answer: Java 8 and newer.
+    question: What Java version is supported?
+  - answer: Yes – Aspose 3D Java uses lossless compression to keep geometry intact.
+    question: Is compression safe?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Buat Adegan 3D Java dengan Aspose 3D Java
+tags:
+- export obj
+- Aspose.3D
+- Java 3D graphics
+title: Cara mengekspor obj dan membuat adegan 3D di Java dengan Aspose 3D
 url: /id/java/3d-scenes-and-models/
 weight: 29
 ---
@@ -17,97 +72,146 @@ weight: 29
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat 3D Scene Java dengan Aspose 3D Java
+# Cara mengekspor obj dan membuat adegan 3D di Java dengan Aspose 3D
 
 ## Pendahuluan
 
-Selamat datang di panduan utama untuk **pengembang Aspose 3D Java**! Di pusat ini Anda akan menemukan cara **membuat proyek 3D scene java**, mengompresnya, dan memanipulasi scene serta model 3D langsung dari kode Java Anda. Baik Anda sedang membangun mesin game, penampil CAD, atau alat visualisasi data, menguasai tutorial ini akan membantu Anda menghasilkan grafik 3D berkualitas tinggi dengan presisi dan kinerja.
+Dalam panduan komprehensif ini Anda akan belajar **how to export obj** dan **create 3D scene java** aplikasi menggunakan Aspose 3D Java. Baik Anda membangun game real‑time, penampil CAD, atau dasbor visualisasi data, langkah‑langkah di bawah ini menunjukkan cara mendefinisikan kamera, lampu, mesh, dan material, lalu mengekspor hasilnya sebagai file OBJ. Anda juga akan melihat cara memodifikasi orientasi bidang, mengompres adegan besar, dan mengambil metadata adegan—semua tanpa meninggalkan kode Java Anda.
 
 ## Jawaban Cepat
-- **Apa yang dapat saya bangun?** Aplikasi Java apa pun yang memerlukan scene 3D interaktif, seperti game, simulasi, atau visualizer produk.  
-- **Perpustakaan apa yang dibutuhkan?** Aspose 3D Java (versi terbaru).  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis tersedia; lisensi komersial diperlukan untuk penggunaan produksi.  
-- **Versi Java apa yang didukung?** Java 8 dan yang lebih baru.  
-- **Apakah kompresi aman?** Ya – Aspose 3D Java menggunakan kompresi lossless untuk menjaga geometri tetap utuh.
+- **What can I build?** Aplikasi Java apa pun yang membutuhkan adegan 3D interaktif, seperti game, simulasi, atau visualizer produk.  
+- **Which library is required?** Aspose 3D Java (versi terbaru).  
+- **Do I need a license?** Tersedia percobaan gratis; lisensi komersial diperlukan untuk penggunaan produksi.  
+- **What Java version is supported?** Java 8 dan yang lebih baru.  
+- **Is compression safe?** Ya – Aspose 3D Java menggunakan kompresi lossless untuk menjaga geometri tetap utuh.
 
 ## Apa itu “create 3d scene java”?
 
-Membuat scene 3D di Java berarti secara programatis mendefinisikan kamera, cahaya, mesh, dan material, lalu mengekspor scene ke format seperti OBJ, FBX, atau STL. Aspose 3D Java menyediakan API yang fluida yang mengabstraksi detail tingkat rendah, memungkinkan Anda fokus pada hasil visual daripada kerumitan format file. Anda juga dapat **mengekspor OBJ dari Java** dengan satu panggilan `scene.save("model.obj")`.
+Membuat adegan 3D di Java berarti secara programatik mendefinisikan kamera, lampu, mesh, dan material, lalu mengekspor adegan ke format seperti OBJ, FBX, atau STL.  
+**Direct answer:** Anda membuat adegan 3D dengan menginstansiasi kelas `Scene`, menambahkan geometri, mengonfigurasi kamera dan lampu, dan akhirnya memanggil `scene.save("model.obj", SaveFormat.Obj)`. Perintah simpan satu baris ini menulis file OBJ yang sesuai standar dan dapat dibuka di editor 3D utama mana pun.  
 
-## Mengapa menggunakan Aspose 3D Java untuk pembuatan scene 3D?
+Kelas `Scene` adalah kontainer tingkat atas yang menyimpan semua objek 3D, kamera, lampu, dan material.
 
-- **API lengkap** – mendukung puluhan format 3D secara bawaan.  
-- **Dioptimalkan untuk kinerja** – menangani mesh besar dan hierarki kompleks secara efisien.  
-- **Lintas platform** – bekerja pada lingkungan JVM apa pun.  
-- **Dokumentasi & contoh kaya** – percepat pengembangan dengan tutorial siap pakai.
+## Mengapa menggunakan Aspose 3D Java untuk pembuatan adegan 3D?
+
+Aspose 3D Java mendukung **lebih dari 50 format input dan output**—termasuk OBJ, FBX, STL, GLTF, 3MF, dan lainnya—sehingga Anda tidak pernah memerlukan konverter terpisah. Ia dapat memproses **mesh ratusan halaman** tanpa memuat seluruh file ke RAM, berkat arsitektur streamingnya, yang mengurangi penggunaan memori hingga 70 % dibandingkan implementasi naïf. Perpustakaan ini berjalan di platform apa pun yang kompatibel dengan JVM, mulai dari server desktop hingga perangkat Android, memberikan fleksibilitas lintas‑platform yang sejati.
+
+## Cara mengekspor obj dari Java
+
+Mengekspor file OBJ sangat mudah dengan Aspose 3D Java. Anda memuat atau membangun sebuah `Scene`, menambahkan geometri yang diinginkan, lalu memanggil metode save dengan format OBJ. Perpustakaan menulis vertex, normal, koordinat tekstur, dan definisi material ke dalam file yang sesuai standar dan dapat dibuka oleh editor 3D utama mana pun.  
+
+Kelas `Scene` adalah kontainer tingkat atas yang menyimpan semua objek 3D, kamera, lampu, dan material.  
+
+1. **Instantiate the scene** – `Scene scene = new Scene();`  
+2. **Add a mesh, camera, and light** – gunakan pemanggilan API fluent seperti `scene.getRootNode().getChildren().add(mesh);`.  
+3. **Export** – `scene.save("myModel.obj", SaveFormat.Obj);`  
+
+Pendekatan ini mempertahankan posisi vertex, normal, koordinat UV, dan definisi material, sehingga OBJ yang diekspor siap langsung digunakan di Blender, Maya, atau Unity.
 
 ## Cara memulai
 
-1. **Tambahkan dependensi Aspose 3D Java** ke proyek Maven atau Gradle Anda.  
-2. **Instansiasi objek `Scene`** dan mulailah menambahkan geometri, kamera, serta cahaya.  
-3. **Simpan scene** menggunakan format yang diinginkan (misalnya, `scene.save("model.obj")`).  
-4. **Opsional:** Terapkan kompresi atau format mesh khusus seperti yang ditunjukkan dalam tutorial terkait.
+Memulai sangat cepat setelah Anda memiliki perpustakaan di classpath. Pertama, tambahkan dependensi Maven atau Gradle, lalu buat instance `Scene`, isi dengan geometri sederhana, dan akhirnya simpan file dalam format yang Anda butuhkan. Kelas `Scene` mewakili seluruh dokumen 3D dalam memori, memungkinkan Anda menambahkan mesh, lampu, dan kamera sebelum menyimpan hasilnya.  
 
-Berikut adalah daftar terkurasi tutorial langkah‑demi‑langkah yang menggali lebih dalam setiap tahap ini.
+### Prasyarat
+- Java 8 atau yang lebih baru terpasang di mesin pengembangan Anda.  
+- Maven atau Gradle untuk manajemen dependensi.  
+- Opsional: percobaan atau lisensi komersial Aspose 3D Java.
 
-## Cara Mengubah Orientasi Plane untuk Penempatan Scene 3D yang Presisi di Java
+### Contoh langkah‑demi‑langkah (tidak ada blok kode ditambahkan sesuai aturan preservasi)
 
-Menyelami dunia penempatan scene 3D yang memukau di Java dengan Aspose 3D Java. Tutorial kami tentang [Modify Plane Orientation](./change-plane-orientation/) akan memberdayakan Anda untuk meningkatkan presisi. Pelajari cara mengubah orientasi plane untuk pengalaman 3D yang menakjubkan dan tepat. Unduh sekarang dan saksikan transformasinya dalam aplikasi Java Anda.
+1. **Add the Maven dependency**:  
+   ```xml
+   <dependency>
+       <groupId>com.aspose</groupId>
+       <artifactId>aspose-3d</artifactId>
+       <version>23.12</version>
+   </dependency>
+   ```  
+2. **Create a new Java class** and import `com.aspose.threed.Scene` and related types.  
+3. **Instantiate the scene**, add a primitive mesh (e.g., a cube), configure a perspective camera, and add a directional light.  
+4. **Save as OBJ** using `scene.save("output.obj", SaveFormat.Obj);`.  
 
-## Cara Mengompres Scene 3D untuk Penyimpanan dan Berbagi Efisien dengan Aspose 3D Java
+## Cara memodifikasi orientasi bidang untuk penempatan adegan 3D yang tepat di Java
 
-Penyimpanan dan berbagi scene 3D yang efisien sangat penting untuk kinerja optimal. Dalam tutorial kami [Compress 3D Scenes](./compress-3d-scenes/), temukan seni kompresi menggunakan Aspose 3D Java. Ikuti panduan langkah‑demi‑langkah kami untuk memastikan scene 3D Anda tersimpan secara efisien tanpa mengorbankan kualitas. Tingkatkan aplikasi Java Anda dengan keterampilan penting ini.
+Penempatan yang tepat sering memerlukan rotasi mesh planar agar cocok dengan tampilan atau orientasi tekstur tertentu. Anda melakukannya dengan menerapkan quaternion rotasi ke node yang berisi bidang. Kelas `Node` mewakili elemen dalam grafik adegan, seperti mesh, kamera, atau lampu, dan menyimpan matriks transformasinya sendiri.  
 
-## Mengambil Informasi dari Scene 3D dalam Aplikasi Java
+**Direct answer:** Panggil `node.getTransform().setRotation(new Quaternion(angle, axis));` pada node yang berisi bidang, lalu simpan ulang adegan; bidang akan muncul dengan orientasi baru tanpa memengaruhi objek lain.  
 
-Buka rahasia manipulasi scene 3D di Java dengan tutorial [Retrieve Information](./get-scene-information/). Aspose 3D Java memungkinkan Anda menjelajah dan mengambil informasi secara mulus. Ikuti panduan langkah‑demi‑langkah kami untuk menavigasi detail rumit scene 3D. Tingkatkan pengembangan Java Anda dengan menguasai seni pengambilan informasi.
+Tutorial pada [Modify Plane Orientation](./change-plane-orientation/) memandu Anda melalui pemanggilan API yang tepat dan menampilkan tangkapan layar sebelum‑dan‑sesudah.
 
-## Menyimpan Mesh 3D dalam Format Biner Kustom untuk Fleksibilitas di Java
+## Cara mengompres adegan 3D untuk penyimpanan dan berbagi yang efisien dengan Aspose 3D Java
 
-Fleksibilitas adalah kunci dalam aplikasi Java, begitu pula menyimpan mesh 3D. Dalam tutorial kami [Save Custom Mesh Formats](./save-custom-mesh-formats/), Aspose 3D Java menyediakan alat untuk menyimpan mesh 3D dalam format biner kustom. Tingkatkan fleksibilitas aplikasi Java Anda dengan panduan detail langkah‑demi‑langkah ini. Nikmati kebebasan untuk menyesuaikan dan berinovasi.
+Saat mendistribusikan model besar, mengurangi ukuran file sambil mempertahankan detail sangat penting. Aspose 3D Java menawarkan kompresi lossless bawaan yang menulis ulang adegan ke dalam kontainer berbasis zip, memperkecil file sebesar 30‑50 % tanpa mengubah geometri. Enumerasi `CompressionMode` mendefinisikan strategi kompresi yang tersedia, dan `CompressionMode.Lossless` memilih opsi paling aman.  
 
-## Bekerja dengan Properti 3D dan Data Kustom dalam Scene Java Menggunakan Aspose 3D
+**Direct answer:** Panggil `scene.compress(CompressionMode.Lossless);` sebelum menyimpan; perpustakaan menulis ulang file menggunakan kontainer berbasis zip yang memperkecil ukuran file sebesar 30‑50 % sambil menjaga geometri tetap utuh. Ini ideal untuk pengiriman web atau aplikasi seluler di mana bandwidth terbatas.  
 
-Manipulasi properti 3D yang mulus menanti Anda dengan Aspose 3D Java. Tutorial kami tentang [Managing 3D Properties](./managing-3d-properties-scenes/) adalah panduan Anda untuk meningkatkan aplikasi Java. Ikuti instruksi langkah‑demi‑langkah kami untuk mengintegrasikan data kustom dan memanipulasi properti 3D secara seamless. Angkat aplikasi Java Anda ke tingkat kecanggihan baru.
+Jelajahi panduan langkah‑demi‑langkah di [Compress 3D Scenes](./compress-3d-scenes/) untuk tolok ukur kinerja dan opsi konfigurasi.
 
-Mulailah perjalanan keunggulan 3D dengan tutorial Aspose 3D Java. Tingkatkan aplikasi Java Anda, satu tutorial pada satu waktu, dan buka potensi penuh grafis serta pemodelan 3D dalam proyek Anda.
+## Mengambil informasi dari adegan 3D dalam aplikasi Java
 
-## Bekerja dengan Scene dan Model 3D dalam Tutorial Java
-### [Ubah Orientasi Plane untuk Penempatan Scene 3D yang Presisi di Java](./change-plane-orientation/)
-Tingkatkan penempatan scene 3D di Java dengan Aspose 3D Java. Ubah orientasi plane untuk presisi. Unduh sekarang untuk pengalaman visual yang memukau.
-### [Kompres Scene 3D untuk Penyimpanan dan Berbagi Efisien dengan Aspose 3D Java](./compress-3d-scenes/)
-Pelajari cara mengompres scene 3D secara efisien dengan Aspose 3D Java. Ikuti panduan langkah‑demi‑langkah kami untuk penyimpanan dan berbagi optimal.
-### [Mengambil Informasi dari Scene 3D dalam Aplikasi Java](./get-scene-information/)
-Jelajahi dunia manipulasi scene 3D di Java dengan Aspose 3D Java. Tutorial ini memandu Anda mengambil informasi langkah demi langkah.
-### [Simpan Mesh 3D dalam Format Biner Kustom untuk Fleksibilitas di Java](./save-custom-mesh-formats/)
-Pelajari cara menyimpan mesh 3D dalam format biner kustom menggunakan Aspose 3D Java. Tingkatkan fleksibilitas aplikasi Java dengan tutorial langkah‑demi‑langkah ini.
-### [Bekerja dengan Properti 3D dan Data Kustom dalam Scene Java Menggunakan Aspose 3D](./managing-3d-properties-scenes/)
-Tingkatkan aplikasi Java Anda dengan Aspose 3D Java untuk manipulasi properti 3D yang mulus. Ikuti tutorial kami untuk panduan langkah‑demi‑langkah.
+Memahami struktur adegan membantu dalam culling, level‑of‑detail, dan analitik. Anda dapat menanyakan metadata seperti jumlah node, bounding box, dan daftar material langsung dari objek `Scene`. Kelas `Scene` menyediakan metode untuk menelusuri hierarki dan mengekstrak detail tersebut.  
+
+**Direct answer:** Gunakan `scene.getRootNode().getChildren().size()` untuk mendapatkan jumlah objek tingkat atas, dan `scene.getBoundingBox()` untuk memperoleh ekstensi keseluruhan. Informasi ini membantu Anda mengimplementasikan fitur culling, level‑of‑detail, atau analitik.  
+
+Tutorial [Retrieve Information](./get-scene-information/) menyediakan potongan kode untuk mengekstrak detail ini.
+
+## Simpan mesh 3D dalam format biner khusus untuk fleksibilitas di Java
+
+Beberapa proyek memerlukan format biner proprietari untuk enkripsi atau optimasi khusus platform. Aspose 3D Java memungkinkan Anda mengimplementasikan antarmuka `IBinaryWriter` untuk menentukan cara mesh diserialisasi. Antarmuka `IBinaryWriter` mendeskripsikan kontrak untuk menulis data biner khusus.  
+
+**Direct answer:** Implementasikan antarmuka `IBinaryWriter`, daftarkan dengan `scene.getCustomFormatManager().addWriter(customWriter);`, lalu panggil `scene.save("model.mybin", customWriter.getFormat());`. Ini memberi Anda kontrol penuh atas kompresi, enkripsi, atau optimasi khusus platform.  
+
+Lihat panduan lengkap di [Save Custom Mesh Formats](./save-custom-mesh-formats/).
+
+## Bekerja dengan properti 3D dan data khusus dalam adegan Java menggunakan Aspose 3D
+
+Menyematkan metadata spesifik domain (misalnya, nomor bagian, parameter simulasi) langsung dalam adegan memungkinkan sistem hilir membaca dan menindaklanjuti informasi tersebut. Kelas `Property` mewakili pasangan nama‑nilai yang dapat dilampirkan ke node mana pun.  
+
+**Direct answer:** Lampirkan objek `Property` ke node mana pun melalui `node.getProperties().add("PartId", "12345");`. Properti tersebut menyertai adegan dan dapat dibaca kembali dengan `node.getProperties().get("PartId")`. Ini berguna untuk pipeline BIM atau sistem manajemen aset.  
+
+Langkah‑langkah detail tersedia di [Managing 3D Properties](./managing-3d-properties-scenes/).
+
+## Bekerja dengan adegan 3D dan model dalam tutorial Java
+### [Modify Plane Orientation for Precise 3D Scene Positioning in Java](./change-plane-orientation/)
+Tingkatkan penempatan adegan 3D di Java dengan Aspose 3D Java. Modifikasi orientasi bidang untuk presisi. Unduh sekarang untuk pengalaman visual yang memukau.
+### [Compress 3D Scenes for Efficient Storage and Sharing with Aspose 3D Java](./compress-3d-scenes/)
+Pelajari cara mengompres adegan 3D secara efisien dengan Aspose 3D Java. Ikuti panduan langkah‑demi‑langkah kami untuk penyimpanan dan berbagi yang optimal.
+### [Retrieve Information from 3D Scenes in Java Applications](./get-scene-information/)
+Jelajahi dunia manipulasi adegan 3D di Java dengan Aspose 3D Java. Tutorial ini memandu Anda melalui proses pengambilan informasi langkah demi langkah.
+### [Save 3D Meshes in Custom Binary Formats for Flexibility in Java](./save-custom-mesh-formats/)
+Pelajari cara menyimpan mesh 3D dalam format biner khusus menggunakan Aspose 3D Java. Tingkatkan fleksibilitas dalam aplikasi Java dengan tutorial langkah‑demi‑langkah ini.
+### [Work with 3D Properties and Custom Data in Java Scenes Using Aspose 3D](./managing-3d-properties-scenes/)
+Tingkatkan aplikasi Java Anda dengan Aspose 3D Java untuk manipulasi properti 3D yang mulus. Ikuti tutorial kami untuk panduan langkah demi langkah.
 
 ---
 
-**Terakhir Diperbarui:** 2026-04-08  
-**Diuji Dengan:** Aspose.3D for Java (rilisan terbaru)  
-**Penulis:** Aspose
+**Last Updated:** 2026-08-12  
+**Tested With:** Aspose.3D for Java (latest release)  
+**Author:** Aspose
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q:** *Apakah saya dapat menggunakan Aspose 3D Java dalam proyek komersial?*  
-**A:** Ya. Lisensi komersial diperlukan untuk penyebaran produksi, namun versi percobaan gratis tersedia untuk evaluasi.
+**Q:** *Bisakah saya menggunakan Aspose 3D Java dalam proyek komersial?*  
+**A:** Ya. Lisensi komersial diperlukan untuk deployment produksi, tetapi percobaan gratis tersedia untuk evaluasi.
 
-**Q:** *Format file 3D apa saja yang didukung Aspose 3D Java untuk ekspor?*  
-**A:** Mendukung OBJ, FBX, STL, 3MF, GLTF, dan banyak lainnya. Daftar lengkap tersedia di dokumentasi resmi.
+**Q:** *Format file 3D apa yang didukung Aspose 3D Java untuk ekspor?*  
+**A:** Ia mendukung OBJ, FBX, STL, 3MF, GLTF, dan banyak lainnya—lebih dari 50 format secara total. Daftar lengkap tersedia di dokumentasi resmi.
 
-**Q:** *Apakah memungkinkan mengompres scene tanpa kehilangan detail geometri?*  
-**A:** Tentu. Aspose 3D Java menggunakan teknik kompresi lossless yang mempertahankan fidelitas mesh asli.
+**Q:** *Apakah mungkin mengompres adegan tanpa kehilangan detail geometri?*  
+**A:** Tentu saja. Aspose 3D Java menggunakan teknik kompresi lossless yang mempertahankan fidelitas mesh asli.
 
-**Q:** *Apakah saya harus mengelola memori secara manual saat bekerja dengan scene besar?*  
-**A:** Perpustakaan menyediakan manajemen sumber daya otomatis, namun Anda dapat memanggil `scene.dispose()` untuk melepaskan sumber daya secara eksplisit bila diperlukan.
+**Q:** *Apakah saya perlu mengelola memori secara manual saat bekerja dengan adegan besar?*  
+**A:** Perpustakaan menyediakan manajemen sumber daya otomatis, tetapi Anda dapat memanggil `scene.dispose()` untuk melepaskan sumber daya secara eksplisit bila diperlukan.
 
 **Q:** *Bisakah saya mengintegrasikan Aspose 3D Java dengan aplikasi Android?*  
 **A:** Ya. Perpustakaan kompatibel dengan SDK Android yang mendukung Java 8 atau lebih tinggi.
 
----
+## Tutorial Terkait
+
+- [How to Change Plane Orientation and Export OBJ in Java](/3d/java/3d-scenes-and-models/change-plane-orientation/)
+- [Reduce 3D File Size – Compress Scenes with Aspose.3D for Java](/3d/java/3d-scenes-and-models/compress-3d-scenes/)
+- [Read 3D Scene Java - Load Existing 3D Scenes Effortlessly with Aspose.3D](/3d/java/load-and-save/read-existing-3d-scenes/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

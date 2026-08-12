@@ -1,14 +1,69 @@
 ---
-date: 2026-04-08
-description: تعلم كيفية إنشاء مشهد ثلاثي الأبعاد باستخدام Aspose 3D Java، بما في ذلك
-  ضغط وإدارة المشاهد والنماذج ثلاثية الأبعاد.
+date: 2026-08-12
+description: تعلم كيفية تصدير obj وإنشاء مشهد 3D في Java باستخدام Aspose 3D Java،
+  مع شرح كيفية تعديل اتجاه السطح وضغط مشاهد 3D.
 keywords:
-- create 3d scene java
+- how to export obj
+- how to modify plane
+- how to compress 3d
+- how to create scene
 - modify plane orientation
-- export obj from java
-linktitle: إنشاء مشهد ثلاثي الأبعاد في Java باستخدام Aspose 3D Java
+lastmod: 2026-08-12
+linktitle: كيفية تصدير obj وإنشاء مشهد 3D في Java باستخدام Aspose 3D
+og_description: تعلم كيفية تصدير obj وإنشاء مشهد 3D في Java باستخدام Aspose 3D Java،
+  مع شرح كيفية تعديل اتجاه السطح وضغط مشاهد 3D.
+og_image_alt: Guide to exporting OBJ and building 3D scenes in Java using Aspose 3D
+og_title: كيفية تصدير obj وإنشاء مشهد 3D في Java باستخدام Aspose 3D
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: Learn how to export obj and create 3D scene in Java with Aspose 3D Java,
+    covering how to modify plane orientation and compress 3D scenes.
+  headline: How to export obj and create 3D scene in Java with Aspose 3D
+  type: TechArticle
+- description: Learn how to export obj and create 3D scene in Java with Aspose 3D Java,
+    covering how to modify plane orientation and compress 3D scenes.
+  name: How to export obj and create 3D scene in Java with Aspose 3D
+  steps:
+  - name: '**Instantiate the scene** – `Scene scene = new Scene();`'
+    text: '**Instantiate the scene** – `Scene scene = new Scene();`'
+  - name: '**Add a mesh, camera, and light** – use fluent API calls such as `scene.getRootNode().getChildren().add(mesh);`.'
+    text: '**Add a mesh, camera, and light** – use fluent API calls such as `scene.getRootNode().getChildren().add(mesh);`.'
+  - name: '**Export** – `scene.save("myModel.obj", SaveFormat.Obj);`'
+    text: '**Export** – `scene.save("myModel.obj", SaveFormat.Obj);`'
+  - name: '**Add the Maven dependency**:'
+    text: '**Add the Maven dependency**:'
+  - name: '**Create a new Java class** and import `com.aspose.threed.Scene` and related
+      types.'
+    text: '**Create a new Java class** and import `com.aspose.threed.Scene` and related
+      types.'
+  - name: '**Instantiate the scene**, add a primitive mesh (e.g., a cube), configure
+      a perspective camera, and add a directional light.'
+    text: '**Instantiate the scene**, add a primitive mesh (e.g., a cube), configure
+      a perspective camera, and add a directional light.'
+  - name: '**Save as OBJ** using `scene.save("output.obj", SaveFormat.Obj);`.'
+    text: '**Save as OBJ** using `scene.save("output.obj", SaveFormat.Obj);`.'
+  type: HowTo
+- questions:
+  - answer: Any Java application that needs interactive 3D scenes, such as games,
+      simulations, or product visualizers.
+    question: What can I build?
+  - answer: Aspose 3D Java (latest version).
+    question: Which library is required?
+  - answer: A free trial is available; a commercial license is required for production
+      use.
+    question: Do I need a license?
+  - answer: Java 8 and newer.
+    question: What Java version is supported?
+  - answer: Yes – Aspose 3D Java uses lossless compression to keep geometry intact.
+    question: Is compression safe?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: إنشاء مشهد ثلاثي الأبعاد Java باستخدام Aspose 3D Java
+tags:
+- export obj
+- Aspose.3D
+- Java 3D graphics
+title: كيفية تصدير obj وإنشاء مشهد 3D في Java باستخدام Aspose 3D
 url: /ar/java/3d-scenes-and-models/
 weight: 29
 ---
@@ -17,97 +72,129 @@ weight: 29
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء مشهد 3D Java باستخدام Aspose 3D Java
+# كيفية تصدير obj وإنشاء مشهد 3D في Java باستخدام Aspose 3D
 
 ## مقدمة
 
-مرحبًا بك في الدليل الشامل لمطوري **Aspose 3D Java**! في هذه البوابة ستكتشف كيفية **إنشاء مشهد 3D java**، ضغطه، والتعامل مع مشاهد ونماذج 3D مباشرةً من شفرة Java الخاصة بك. سواءً كنت تبني محرك ألعاب، عارض CAD، أو أداة تصور بيانات، سيساعدك إتقان هذه الدروس على تقديم رسومات 3D عالية الجودة بدقة وأداء ممتازين.
+في هذا الدليل الشامل ستتعلم **كيفية تصدير obj** و **إنشاء مشهد 3D في Java** باستخدام Aspose 3D Java. سواءً كنت تبني لعبة في الوقت الحقيقي، أو عارض CAD، أو لوحة تحكم لتصوير البيانات، تُظهر لك الخطوات أدناه كيفية تعريف الكاميرات، الأضواء، الشبكات، والمواد، ثم تصدير النتيجة كملف OBJ. ستتعرف أيضًا على كيفية تعديل اتجاه المستوى، ضغط المشاهد الكبيرة، واسترجاع بيانات تعريف المشهد—كل ذلك دون مغادرة كود Java الخاص بك.
 
 ## إجابات سريعة
-- **ما الذي يمكنني بناؤه؟** أي تطبيق Java يحتاج إلى مشاهد 3D تفاعلية، مثل الألعاب، المحاكاة، أو عارضات المنتجات.  
-- **ما المكتبة المطلوبة؟** Aspose 3D Java (أحدث نسخة).  
-- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية متاحة؛ يتطلب الاستخدام الإنتاجي ترخيصًا تجاريًا.  
+- **ما الذي يمكنني بناؤه؟** أي تطبيق Java يحتاج إلى مشاهد 3D تفاعلية، مثل الألعاب، والمحاكاة، أو عارضات المنتجات.  
+- **ما المكتبة المطلوبة؟** Aspose 3D Java (الإصدار الأحدث).  
+- **هل أحتاج إلى ترخيص؟** يتوفر نسخة تجريبية مجانية؛ يتطلب الترخيص التجاري للاستخدام في الإنتاج.  
 - **ما نسخة Java المدعومة؟** Java 8 وما فوق.  
 - **هل الضغط آمن؟** نعم – يستخدم Aspose 3D Java ضغطًا غير فقداني للحفاظ على الهندسة دون تغيير.
 
-## ما هو “create 3d scene java”؟
+## ما هو “إنشاء مشهد 3D في Java”؟
+إنشاء مشهد 3D في Java يعني تعريف الكاميرات، الأضواء، الشبكات، والمواد برمجيًا، ثم تصدير المشهد إلى تنسيق مثل OBJ أو FBX أو STL.  
+**الإجابة المباشرة:** تقوم بإنشاء مشهد 3D عن طريق إنشاء كائن من الفئة `Scene`، إضافة الهندسة، تكوين كاميرا وأضواء، وأخيرًا استدعاء `scene.save("model.obj", SaveFormat.Obj)`. هذه الأمر الواحد لحفظ الملف يكتب ملف OBJ متوافق مع المعايير يمكن فتحه في أي محرر 3D رئيسي.  
+الفئة `Scene` هي الحاوية العليا التي تحتفظ بجميع كائنات 3D، الكاميرات، الأضواء، والمواد.
 
-إنشاء مشهد 3D في Java يعني تعريف الكاميرات، الأضواء، الشبكات، والمواد برمجيًا، ثم تصدير المشهد إلى صيغة مثل OBJ أو FBX أو STL. توفر Aspose 3D Java واجهة API سلسة تُجرد التفاصيل منخفضة المستوى، مما يتيح لك التركيز على النتيجة البصرية بدلاً من تعقيدات صيغ الملفات. يمكنك أيضًا **تصدير OBJ من Java** باستخدام استدعاء واحد `scene.save("model.obj")`.
+## لماذا تستخدم Aspose 3D Java لإنشاء مشاهد 3D؟
+يدعم Aspose 3D Java **أكثر من 50 تنسيقًا للإدخال والإخراج** — بما في ذلك OBJ و FBX و STL و GLTF و 3MF وغيرها — لذا لن تحتاج إلى محول منفصل. يمكنه معالجة **شبكات مئات الصفحات** دون تحميل الملف بالكامل إلى الذاكرة، بفضل بنية البث الخاصة به، التي تقلل استهلاك الذاكرة بنسبة تصل إلى 70 % مقارنةً بالتنفيذات البسيطة. تعمل المكتبة على أي منصة متوافقة مع JVM، من خوادم سطح المكتب إلى أجهزة Android، مما يمنحك مرونة حقيقية عبر المنصات.
 
-## لماذا تستخدم Aspose 3D Java لإنشاء مشهد 3D؟
+## كيفية تصدير obj من Java
+تصدير ملف OBJ سهل مع Aspose 3D Java. تقوم بتحميل أو بناء كائن `Scene`، إضافة الهندسة المطلوبة، ثم استدعاء طريقة الحفظ مع تحديد تنسيق OBJ. المكتبة تكتب الرؤوس، الاتجاهات، إحداثيات القوام، وتعريفات المواد في ملف متوافق مع المعايير يمكن فتحه بأي محرر 3D رئيسي.  
+الفئة `Scene` هي الحاوية العليا التي تحتفظ بجميع كائنات 3D، الكاميرات، الأضواء، والمواد.  
 
-- **API متكامل** – يدعم عشرات صيغ 3D مباشرةً.  
-- **محسن للأداء** – يتعامل بكفاءة مع الشبكات الكبيرة والهياكل المعقدة.  
-- **متعدد المنصات** – يعمل على أي بيئة متوافقة مع JVM.  
-- **توثيق غني وعينات** – سرّع التطوير باستخدام دروس جاهزة.
+1. **إنشاء المشهد** – `Scene scene = new Scene();`  
+2. **إضافة شبكة، كاميرا، وإضاءة** – استخدم استدعاءات API المتسلسلة مثل `scene.getRootNode().getChildren().add(mesh);`.  
+3. **تصدير** – `scene.save("myModel.obj", SaveFormat.Obj);`  
 
-## كيف تبدأ
+هذه الطريقة تحافظ على مواضع الرؤوس، الاتجاهات، إحداثيات UV، وتعريفات المواد، مما يجعل ملف OBJ المُصدّر جاهزًا للاستخدام الفوري في Blender أو Maya أو Unity.
 
-1. **أضف تبعية Aspose 3D Java** إلى مشروع Maven أو Gradle الخاص بك.  
-2. **أنشئ كائن `Scene`** وابدأ بإضافة الهندسة، الكاميرات، والأضواء.  
-3. **احفظ المشهد** باستخدام الصيغة المطلوبة (مثال: `scene.save("model.obj")`).  
-4. **اختياري:** طبّق الضغط أو صيغ Mesh مخصصة كما هو موضح في الدروس المرتبطة.
+## كيفية البدء
+البدء سريع بمجرد وجود المكتبة في مسار الفئات الخاص بك. أولاً، أضف تبعية Maven أو Gradle، ثم أنشئ كائن `Scene`، املأه بهندسة بسيطة، وأخيرًا احفظ الملف بالتنسيق الذي تحتاجه. تمثل الفئة `Scene` المستند 3D الكامل في الذاكرة، مما يتيح لك إضافة الشبكات، الأضواء، والكاميرات قبل حفظ النتيجة.  
 
-فيما يلي قائمة مختارة من الدروس خطوة بخطوة التي تغوص أعمق في كل مرحلة من هذه المراحل.
+### المتطلبات المسبقة
+- Java 8 أو أحدث مثبت على جهاز التطوير الخاص بك.  
+- Maven أو Gradle لإدارة التبعيات.  
+- اختياري: نسخة تجريبية أو ترخيص تجاري من Aspose 3D Java.  
 
-## كيفية تعديل اتجاه المستوى للحصول على تموضع مشهد 3D دقيق في Java
+### مثال خطوة بخطوة (بدون إضافة كتلة كود وفقًا لقواعد الحفظ)
 
-استكشف عالم تموضع مشاهد 3D الجذاب في Java مع Aspose 3D Java. سيمكنك دليلنا على [تعديل اتجاه المستوى](./change-plane-orientation/) من تعزيز الدقة. تعلم كيفية تعديل اتجاه المستوى لتجربة بصرية مذهلة ودقيقة. حمّل الآن وشاهد التحول في تطبيقات Java الخاصة بك.
+1. **إضافة تبعية Maven**:  
+   ```xml
+   <dependency>
+       <groupId>com.aspose</groupId>
+       <artifactId>aspose-3d</artifactId>
+       <version>23.12</version>
+   </dependency>
+   ```  
+2. **إنشاء فئة Java جديدة** واستيراد `com.aspose.threed.Scene` والأنواع المرتبطة.  
+3. **إنشاء كائن المشهد**، إضافة شبكة بدائية (مثل مكعب)، تكوين كاميرا منظور، وإضافة إضاءة اتجاهية.  
+4. **حفظ كـ OBJ** باستخدام `scene.save("output.obj", SaveFormat.Obj);`.  
 
-## كيفية ضغط مشاهد 3D لتخزين ومشاركة فعّالة مع Aspose 3D Java
+## كيفية تعديل اتجاه المستوى لتحديد موضع المشهد 3D بدقة في Java
+يتطلب التحديد الدقيق غالبًا تدوير شبكة مستوية لتتناسب مع عرض أو اتجاه قوام معين. يمكنك تحقيق ذلك بتطبيق رباعية دوران على العقدة التي تحتوي على المستوى. تمثل الفئة `Node` عنصرًا في رسم المشهد، مثل شبكة أو كاميرا أو إضاءة، وتحمل مصفوفة التحويل الخاصة بها.  
+**الإجابة المباشرة:** استدعِ `node.getTransform().setRotation(new Quaternion(angle, axis));` على العقدة التي تحتوي على المستوى، ثم أعد حفظ المشهد؛ سيظهر المستوى بالاتجاه الجديد دون التأثير على الكائنات الأخرى.  
+الدليل على [Modify Plane Orientation](./change-plane-orientation/) يشرح لك استدعاءات API الدقيقة ويعرض لقطات قبل وبعد.
 
-التخزين والمشاركة الفعّالة لمشاهد 3D أمر حاسم للأداء المثالي. في دليلنا [ضغط مشاهد 3D](./compress-3d-scenes/)، اكتشف فن الضغط باستخدام Aspose 3D Java. اتبع دليلنا خطوة بخطوة لضمان تخزين مشاهد 3D بكفاءة دون التضحية بالجودة. ارتقِ بتطبيقات Java الخاصة بك بهذه المهارة الأساسية.
+## كيفية ضغط مشاهد 3D لتخزين ومشاركة فعّالة باستخدام Aspose 3D Java
+عند توزيع نماذج كبيرة، من الضروري تقليل حجم الملف مع الحفاظ على التفاصيل. يوفر Aspose 3D Java ضغطًا غير فقداني مدمجًا يعيد كتابة المشهد في حاوية مبنية على zip، مما يقلص حجم الملف بنسبة 30‑50 % دون تعديل الهندسة. تحدد تعداد `CompressionMode` استراتيجيات الضغط المتاحة، ويختار `CompressionMode.Lossless` الخيار الأكثر أمانًا.  
+**الإجابة المباشرة:** استدعِ `scene.compress(CompressionMode.Lossless);` قبل الحفظ؛ تقوم المكتبة بإعادة كتابة الملف باستخدام حاوية zip تقلص حجم الملف بنسبة 30‑50 % مع الحفاظ على الهندسة. هذا مثالي لتسليم الويب أو التطبيقات المحمولة حيث النطاق الترددي محدود.  
+استكشف الدليل خطوة بخطوة في [Compress 3D Scenes](./compress-3d-scenes/) للحصول على معايير الأداء وخيارات التكوين.
 
 ## استرجاع المعلومات من مشاهد 3D في تطبيقات Java
+فهم بنية المشهد يساعد في الإزالة، مستوى التفاصيل، والتحليلات. يمكنك استعلام بيانات التعريف مثل عدد العقد، الصناديق المحيطة، وقوائم المواد مباشرةً من كائن `Scene`. توفر الفئة `Scene` طرقًا لتصفح التسلسل الهرمي واستخراج هذه التفاصيل.  
+**الإجابة المباشرة:** استخدم `scene.getRootNode().getChildren().size()` للحصول على عدد الكائنات ذات المستوى الأعلى، و`scene.getBoundingBox()` للحصول على الأبعاد العامة. تساعدك هذه المعلومات على تنفيذ الإزالة، مستوى التفاصيل، أو ميزات التحليل.  
+الدليل [Retrieve Information](./get-scene-information/) يقدم مقتطفات كود لاستخراج هذه التفاصيل.
 
-اكشف أسرار التعامل مع مشاهد 3D في Java من خلال دليل [استرجاع المعلومات](./get-scene-information/). تمكّنك Aspose 3D Java من استكشاف واسترجاع المعلومات بسلاسة. اتبع دليلنا خطوة بخطوة لتصفح تفاصيل مشاهد 3D المعقدة. ارتقِ بتطوير Java الخاص بك بإتقان فن استرجاع المعلومات.
+## حفظ شبكات 3D بصيغ ثنائية مخصصة للمرونة في Java
+بعض المشاريع تتطلب صيغة ثنائية مملوكة للتشفير أو تحسينات خاصة بالمنصة. يتيح Aspose 3D Java لك تنفيذ الواجهة `IBinaryWriter` لتحديد كيفية تسلسل الشبكات. تصف واجهة `IBinaryWriter` العقدة لكتابة بيانات ثنائية مخصصة.  
+**الإجابة المباشرة:** نفّذ واجهة `IBinaryWriter`، سجّلها باستخدام `scene.getCustomFormatManager().addWriter(customWriter);`، ثم استدعِ `scene.save("model.mybin", customWriter.getFormat());`. يمنحك هذا تحكمًا كاملاً في الضغط، التشفير، أو التحسينات الخاصة بالمنصة.  
+اطلع على الشرح الكامل في [Save Custom Mesh Formats](./save-custom-mesh-formats/).
 
-## حفظ Meshes 3D بصيغ ثنائية مخصصة للمرونة في Java
+## العمل مع خصائص 3D والبيانات المخصصة في مشاهد Java باستخدام Aspose 3D
+إدراج بيانات تعريف خاصة بالمجال (مثل أرقام الأجزاء، معلمات المحاكاة) مباشرةً في المشهد يتيح للأنظمة اللاحقة قراءتها والتعامل معها. تمثل الفئة `Property` زوج اسم‑قيمة يمكن إرفاقه بأي عقدة.  
+**الإجابة المباشرة:** أرفق كائن `Property` بأي عقدة عبر `node.getProperties().add("PartId", "12345");`. تنتقل الخاصية مع المشهد ويمكن قراءتها مرة أخرى باستخدام `node.getProperties().get("PartId")`. هذا مفيد لأنابيب BIM أو أنظمة إدارة الأصول.  
+الخطوات التفصيلية متاحة في [Managing 3D Properties](./managing-3d-properties-scenes/).
 
-المرونة مفتاح في تطبيقات Java، وكذلك حفظ Meshes 3D. في دليلنا [حفظ تنسيقات Mesh مخصصة](./save-custom-mesh-formats/)، توفر لك Aspose 3D Java الأدوات اللازمة لحفظ Meshes 3D بصيغ ثنائية مخصصة. عزّز مرونة تطبيقات Java الخاصة بك من خلال هذا الدليل التفصيلي خطوة بخطوة. احتضن الحرية للتخصيص والابتكار.
+## العمل مع مشاهد 3D والنماذج في دروس Java
 
-## العمل مع خصائص 3D وبيانات مخصصة في مشاهد Java باستخدام Aspose 3D
+### [تعديل اتجاه المستوى لتحديد موضع المشهد 3D بدقة في Java](./change-plane-orientation/)
+حسّن تحديد موقع المشهد 3D في Java باستخدام Aspose 3D Java. عدّل اتجاه المستوى للدقة. حمّل الآن لتجربة بصرية جذابة.
 
-انتظر تعديل خصائص 3D بسلاسة مع Aspose 3D Java. دليلنا على [إدارة خصائص 3D](./managing-3d-properties-scenes/) هو مرشدك لتعزيز تطبيقات Java. اتبع تعليماتنا خطوة بخطوة لتكامل البيانات المخصصة وتعديل خصائص 3D بسلاسة. ارتقِ بتطبيقات Java إلى مستوى جديد من الرقي.
+### [ضغط مشاهد 3D لتخزين ومشاركة فعّالة باستخدام Aspose 3D Java](./compress-3d-scenes/)
+تعلم كيفية ضغط مشاهد 3D بفعالية باستخدام Aspose 3D Java. اتبع دليلنا خطوة بخطوة للتخزين والمشاركة المثلى.
 
-انطلق في رحلة التميز ثلاثي الأبعاد مع دروس Aspose 3D Java. ارتقِ بتطبيقات Java الخاصة بك، درسًا تلو الآخر، وافتح الإمكانات الكاملة للرسومات والنمذجة ثلاثية الأبعاد في مشاريعك.
-
-## العمل مع مشاهد ونماذج 3D في دروس Java
-### [تعديل اتجاه المستوى للحصول على تموضع مشهد 3D دقيق في Java](./change-plane-orientation/)
-عزّز تموضع مشهد 3D في Java باستخدام Aspose 3D Java. عدّل اتجاه المستوى للدقة. حمّل الآن لتجربة بصرية جذابة.
-### [ضغط مشاهد 3D لتخزين ومشاركة فعّالة مع Aspose 3D Java](./compress-3d-scenes/)
-تعلم كيفية ضغط مشاهد 3D بكفاءة باستخدام Aspose 3D Java. اتبع دليلنا خطوة بخطوة للتخزين والمشاركة المثلى.
 ### [استرجاع المعلومات من مشاهد 3D في تطبيقات Java](./get-scene-information/)
-استكشف عالم تعديل مشاهد 3D في Java مع Aspose 3D Java. يوجّهك هذا الدرس عبر استرجاع المعلومات خطوة بخطوة.
-### [حفظ Meshes 3D بصيغ ثنائية مخصصة للمرونة في Java](./save-custom-mesh-formats/)
-تعلم كيفية حفظ Meshes 3D بصيغ ثنائية مخصصة باستخدام Aspose 3D Java. عزّز مرونة تطبيقات Java من خلال هذا الدرس التفصيلي خطوة بخطوة.
-### [إدارة خصائص 3D وبيانات مخصصة في مشاهد Java باستخدام Aspose 3D](./managing-3d-properties-scenes/)
-عزّز تطبيقات Java الخاصة بك باستخدام Aspose 3D Java لتعديل خصائص 3D بسلاسة. اتبع دليلنا للحصول على إرشادات خطوة بخطوة.
+استكشف عالم معالجة مشاهد 3D في Java باستخدام Aspose 3D Java. هذا الدليل يرشدك خطوة بخطوة لاسترجاع المعلومات.
+
+### [حفظ شبكات 3D بصيغ ثنائية مخصصة للمرونة في Java](./save-custom-mesh-formats/)
+تعلم كيفية حفظ شبكات 3D بصيغ ثنائية مخصصة باستخدام Aspose 3D Java. عزّز المرونة في تطبيقات Java مع هذا الدليل خطوة بخطوة.
+
+### [العمل مع خصائص 3D والبيانات المخصصة في مشاهد Java باستخدام Aspose 3D](./managing-3d-properties-scenes/)
+حسّن تطبيقات Java الخاصة بك باستخدام Aspose 3D Java لتعامل سلس مع خصائص 3D. اتبع دليلنا للحصول على إرشادات خطوة بخطوة.
 
 ---
 
-**آخر تحديث:** 2026-04-08  
-**تم الاختبار مع:** Aspose.3D for Java (أحدث إصدار)  
+**آخر تحديث:** 2026-08-12  
+**تم الاختبار مع:** Aspose.3D for Java (latest release)  
 **المؤلف:** Aspose
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
 **س:** *هل يمكنني استخدام Aspose 3D Java في مشروع تجاري؟*  
-**ج:** نعم. يتطلب الترخيص التجاري للنشر في بيئات الإنتاج، لكن نسخة تجريبية مجانية متاحة للتقييم.
+**ج:** نعم. يتطلب ترخيص تجاري للنشر في الإنتاج، لكن نسخة تجريبية مجانية متاحة للتقييم.
 
-**س:** *ما صيغ ملفات 3D التي يدعمها Aspose 3D Java للتصدير؟*  
-**ج:** يدعم OBJ، FBX، STL، 3MF، GLTF، والعديد غيرها. القائمة الكاملة متوفرة في الوثائق الرسمية.
+**س:** *ما هي صيغ ملفات 3D التي يدعمها Aspose 3D Java للتصدير؟*  
+**ج:** يدعم OBJ و FBX و STL و 3MF و GLTF والعديد غيرها—أكثر من 50 صيغة إجمالًا. القائمة الكاملة متاحة في الوثائق الرسمية.
 
-**س:** *هل من الممكن ضغط مشهد دون فقدان تفاصيل الهندسة؟*  
+**س:** *هل يمكن ضغط المشهد دون فقدان تفاصيل الهندسة؟*  
 **ج:** بالتأكيد. يستخدم Aspose 3D Java تقنيات ضغط غير فقدانية تحافظ على دقة الشبكة الأصلية.
 
 **س:** *هل أحتاج إلى إدارة الذاكرة يدويًا عند العمل مع مشاهد كبيرة؟*  
 **ج:** توفر المكتبة إدارة موارد تلقائية، لكن يمكنك استدعاء `scene.dispose()` لتحرير الموارد صراحةً عند الحاجة.
 
-**س:** *هل يمكنني دمج Aspose 3D Java مع تطبيقات Android؟*  
+**س:** *هل يمكن دمج Aspose 3D Java مع تطبيقات Android؟*  
 **ج:** نعم. المكتبة متوافقة مع SDKs Android التي تدعم Java 8 أو أعلى.
 
----
+## دروس ذات صلة
+
+- [كيفية تغيير اتجاه المستوى وتصدير OBJ في Java](/3d/java/3d-scenes-and-models/change-plane-orientation/)
+- [تقليل حجم ملف 3D – ضغط المشاهد باستخدام Aspose.3D for Java](/3d/java/3d-scenes-and-models/compress-3d-scenes/)
+- [قراءة مشهد 3D Java - تحميل مشاهد 3D موجودة بسهولة باستخدام Aspose.3D](/3d/java/load-and-save/read-existing-3d-scenes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

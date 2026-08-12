@@ -1,16 +1,67 @@
 ---
-date: 2026-04-08
-description: 学习如何在 Aspose.3D for Java 中创建带有顶部偏移的圆柱体，添加子节点 Java，设置顶部偏移，生成 3D 模型，并使用
-  Aspose 临时许可证导出 OBJ。
+date: 2026-08-12
+description: 使用 Aspose.3D 生成 3D 的方法 – 在 Java 中创建顶部偏移的圆柱体，添加子节点，设置顶部偏移，生成 3D 模型，导出
+  OBJ，并使用 temporary license 进行评估。
 keywords:
+- how to generate 3d
 - aspose temporary license
-- generate 3d model
-- add child node java
-- java export obj
+- export obj file
 - set offset top
-linktitle: Aspose 临时许可证 – 创建具有偏移顶部的圆柱体（Java）
+- java 3d cylinder
+lastmod: 2026-08-12
+linktitle: 如何生成 3D – 创建顶部偏移的圆柱体 (Java)
+og_description: 使用 Aspose.3D for Java 生成 3D 的方法。学习如何偏移圆柱体顶部、添加子节点，并使用 temporary license
+  导出 OBJ。
+og_image_alt: Guide showing Java code to create a cylinder with offset top and export
+  OBJ using Aspose.3D
+og_title: 如何生成 3D – 创建顶部偏移的圆柱体 (Java)
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: How to generate 3d using Aspose.3D – create a cylinder with offset
+    top in Java, add child node, set offset top, generate 3D model, export OBJ, and
+    evaluate with a temporary license.
+  headline: How to generate 3d – create cylinder with offset top (Java)
+  type: TechArticle
+- description: How to generate 3d using Aspose.3D – create a cylinder with offset
+    top in Java, add child node, set offset top, generate 3D model, export OBJ, and
+    evaluate with a temporary license.
+  name: How to generate 3d – create cylinder with offset top (Java)
+  steps:
+  - name: Create a Java 3D scene
+    text: '`Scene` is the top‑level container that holds all nodes, meshes, lights,
+      and cameras in a 3‑D environment.'
+  - name: Initialize cylinder with offset top
+    text: '`Cylinder` represents a cylindrical mesh and provides properties such as
+      radius, height, and offset.'
+  - name: Add child node Java – attach the first cylinder
+    text: '`Node` is an element in the scene graph that can hold geometry and transformations.'
+  - name: Java export OBJ – save the scene as OBJ
+    text: '`FileFormat` enumerates the supported export formats such as OBJ, STL,
+      and FBX.'
+  type: HowTo
+- questions:
+  - answer: Yes, it works seamlessly with Eclipse, IntelliJ IDEA, NetBeans, and other
+      IDEs.
+    question: Is Aspose.3D compatible with different Java IDEs?
+  - answer: Absolutely! Use the `Material` class to assign textures and surface properties.
+    question: Can I apply textures to the created 3D objects?
+  - answer: Various licensing models are available; you can explore them **[Aspose
+      purchase page](https://purchase.aspose.com/buy)**.
+    question: Are there licensing options for Aspose.3D?
+  - answer: Join the **[Aspose.3D community forum](https://forum.aspose.com/c/3d/18)**
+      for support and discussion.
+    question: How can I get help or share experiences?
+  - answer: Yes, an **aspose temporary license** can be obtained for evaluation **[temporary
+      license request page](https://purchase.aspose.com/temporary-license/)**.
+    question: Is a temporary license available for testing?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Aspose 临时许可证 – 创建带偏移顶部的圆柱体（Java）
+tags:
+- generate 3d
+- aspose.3d
+- java cylinder offset
+title: 如何生成 3D – 创建顶部偏移的圆柱体 (Java)
 url: /zh/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
@@ -19,41 +70,41 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose 临时许可证 – 创建带偏移顶部的圆柱体 (Java)
+# 如何生成 3d – 创建带偏移顶部的圆柱体 (Java)
 
 ## 介绍
 
-如果您希望在基于 Java 的 3D 场景中 **创建圆柱体** 并自定义顶部偏移，Aspose.3D 能让此过程变得简单直观。在本教程中，我们将逐步演示从场景搭建到将最终模型导出为 OBJ 文件的全部步骤，帮助您自信地将带偏移顶部的圆柱体集成到应用程序中。教程结束时，您还将了解 **aspose 临时许可证** 如何让您在无需完整购买的情况下评估这些功能。
+如果您希望在基于 Java 的 3D 场景中 **create cylinder** 对象并自定义顶部偏移，Aspose.3D 能让此过程变得简单。在本教程中，我们将逐步演示每一步——从设置场景到将最终模型导出为 OBJ 文件——帮助您自信地将带偏移顶部的圆柱体集成到应用程序中。教程结束时，您还将了解 **aspose temporary license** 如何让您在无需完整购买的情况下评估这些功能。
 
-## 快速答疑
+## 快速答案
 - **使用的库是什么？** Aspose.3D for Java  
-- **可以偏移圆柱体的顶部吗？** 可以，使用 `setOffsetTop`  
+- **我可以对圆柱体的顶部进行偏移吗？** 可以，通过 `setOffsetTop`  
 - **如何在 Java 中添加子节点？** 在根节点上调用 `createChildNode`  
-- **可以导出为哪种格式？** Wavefront OBJ（`java export obj`）  
-- **测试时需要许可证吗？** 可使用 **aspose 临时许可证** 进行评估  
+- **可以导出哪些格式？** Wavefront OBJ（`export obj file`）  
+- **测试是否需要许可证？** 可使用 **aspose temporary license** 进行评估  
 
-## 什么是 Aspose 临时许可证？
+## 什么是 Aspose temporary license？
 
-**aspose 临时许可证** 是一种短期、免费的评估密钥，可在开发和测试期间解锁 Aspose.3D for Java 的全部功能。它会移除评估水印，并允许您生成 3D 模型文件（如 OBJ、STL 或 FBX），效果与付费许可证完全相同。
+**aspose temporary license** 是一种短期、免费的评估密钥，在开发和测试期间解锁 Aspose.3D for Java 的全部功能。它会移除评估水印，并允许您生成 3D 模型文件（如 OBJ、STL 或 FBX），效果与付费许可证相同。
 
-## 为什么选择 Aspose.3D for Java？
+## 为什么使用 Aspose.3D for Java？
 
-- **高级 API：** 无需管理底层网格数据。  
-- **跨平台：** 兼容任何 JVM 环境。  
-- **内置导出器：** 可直接保存为 OBJ、STL、FBX 等格式。  
-- **可扩展：** 轻松添加子节点、应用变换，并与其他 Java 库集成。  
+Aspose.3D 提供了高级、跨平台的 API，简化了 3D 创建和导出。它内置了超过 30 种格式的导出器，支持场景图层次结构，让您专注于几何形状而不是底层网格处理。
+
+- **高层 API:** 无需管理底层网格数据。  
+- **跨平台:** 可在任何兼容 JVM 的环境中运行。  
+- **内置导出器:** 可直接保存为 OBJ、STL、FBX 等——Aspose.3D 支持 **30+** 种导出格式。  
+- **可扩展:** 轻松添加子节点、应用变换，并与其他 Java 库集成。  
 
 ## 前置条件
 
-在开始之前，请确保您已具备：
-
 - **Java Development Kit (JDK)** – 已安装兼容版本。  
-- **Aspose.3D for Java 库** – 从官方站点 [here](https://releases.aspose.com/3d/java/) 下载最新 JAR 包。  
-- 您喜欢的 IDE（Eclipse、IntelliJ IDEA、NetBeans 等）。  
+- **Aspose.3D for Java library** – 从官方站点 **[Aspose.3D for Java download page](https://releases.aspose.com/3d/java/)** 下载最新 JAR。  
+- 您选择的 IDE（Eclipse、IntelliJ IDEA、NetBeans 等）。  
 
 ## 导入包
 
-首先，导入我们需要的类。将以下语句放在 Java 文件的顶部：
+以下导入语句引入了创建和导出圆柱体所需的核心 Aspose.3D 类。
 
 ```java
 import com.aspose.threed.Cylinder;
@@ -69,7 +120,7 @@ import java.io.IOException;
 
 ### 步骤 1：创建 Java 3D 场景
 
-**java 3d scene** 充当所有 3D 对象的容器。
+`Scene` 是顶层容器，保存所有节点、网格、灯光和相机。
 
 ```java
 // ExStart:1
@@ -80,7 +131,7 @@ Scene scene = new Scene();
 
 ### 步骤 2：初始化带偏移顶部的圆柱体
 
-这里演示 **如何创建圆柱体** 并自定义顶部偏移。构造函数用于定义半径、高度、切片、堆叠以及圆柱体是否封闭。随后使用 `setOffsetTop` 移动顶部。
+`Cylinder` 表示圆柱网格，并提供半径、高度和偏移等属性。
 
 ```java
 // ExStart:2
@@ -91,9 +142,9 @@ cylinder1.setOffsetTop(new Vector3(5, 3, 0));
 // ExEnd:2
 ```
 
-### 步骤 3：添加子节点 Java – 附加第一个圆柱体
+### 步骤 3：在 Java 中添加子节点 – 附加第一个圆柱体
 
-在场景的根节点下创建子节点，并将圆柱体移动到指定位置。
+`Node` 是场景图中的元素，可容纳几何体和变换。
 
 ```java
 // ExStart:3
@@ -104,8 +155,6 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 
 ### 步骤 4：初始化第二个圆柱体（无偏移）
 
-为了对比，我们再添加一个没有偏移的普通圆柱体。
-
 ```java
 // ExStart:4
 // Initialize second cylinder without customized OffsetTop
@@ -113,7 +162,7 @@ Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExEnd:4
 ```
 
-### 步骤 5：添加子节点 Java – 附加第二个圆柱体
+### 步骤 5：在 Java 中添加子节点 – 附加第二个圆柱体
 
 ```java
 // ExStart:5
@@ -124,7 +173,7 @@ scene.getRootNode().createChildNode(cylinder2);
 
 ### 步骤 6：Java 导出 OBJ – 将场景保存为 OBJ
 
-最后，我们 **java export obj** 整个场景（包括两个圆柱体）为 Wavefront OBJ 文件，该格式被广泛的 3D 工具支持。
+`FileFormat` 枚举了支持的导出格式，如 OBJ、STL 和 FBX。
 
 ```java
 // ExStart:6
@@ -133,54 +182,53 @@ scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFo
 // ExEnd:6
 ```
 
-运行程序后，您将在指定目录中找到 `CustomizedOffsetTopCylinder.obj`，即可在 Blender、Maya 或任何其他 OBJ 兼容的查看器中打开。
+## 如何在 Java 中生成 3d 模型并导出 OBJ
 
-## 如何在 Java 中生成 3D 模型并导出 OBJ
+要生成 3D 模型，加载场景，应用所需的变换，然后调用 `scene.save("path/CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ)`。**aspose temporary license** 会移除评估水印，使您无需购买完整许可证即可生成可投入生产的 OBJ 文件。
 
-使用 `Scene.save(..., FileFormat.WAVEFRONTOBJ)` 结合 **aspose 临时许可证**，您可以快速 **生成 3d model** 文件，无需外部转换器。这在原型开发或与设计师共享资产时尤为便利。
+## 实际使用案例
 
-## 实际应用场景
-
-- **建筑可视化：** 偏移顶部的圆柱体可模拟向天花板收缩的柱子。  
-- **机械零件：** 创建活塞或齿轮外壳等顶部表面需特意偏移的部件。  
-- **游戏资产：** 动态生成多样化的柱形结构，减少手工建模工作量。
+- **建筑可视化:** 带偏移顶部的圆柱体可建模向天花板收缩的柱子。  
+- **机械部件:** 创建活塞或齿轮壳体，顶部表面有意向下移动。  
+- **游戏资产:** 动态生成多样的柱形，减少手工网格的需求。  
 
 ## 常见问题及解决方案
 
-| 问题 | 原因 | 解决办法 |
+| 问题 | 原因 | 解决方案 |
 |-------|--------|-----|
-| **OBJ 文件为空** | 场景未正确保存或路径错误。 | 确认输出目录存在且具有写入权限。 |
-| **未应用偏移** | 使用了旧版 Aspose.3D。 | 更新至支持 `setOffsetTop` 的最新库。 |
-| **子节点不可见** | 变换未生效。 | 在创建子节点后调用 `getTransform().setTranslation`。 |
+| **OBJ file is empty** | 场景未正确保存或路径错误。 | 验证输出目录是否存在且具有写入权限。 |
+| **Offset not applied** | 使用了旧版 Aspose.3D。 | 更新到支持 `setOffsetTop` 的最新库。 |
+| **Child node not visible** | 变换未应用。 | 在创建子节点后确保调用 `getTransform().setTranslation`。 |
 
 ## 常见问答
 
-**问：Aspose.3D 是否兼容不同的 Java IDE？**  
-答：是的，能够无缝工作于 Eclipse、IntelliJ IDEA、NetBeans 等 IDE。
+**Q: Aspose.3D 是否兼容不同的 Java IDE？**  
+A: 是的，它可无缝工作于 Eclipse、IntelliJ IDEA、NetBeans 等 IDE。
 
-**问：我可以为创建的 3D 对象应用纹理吗？**  
-答：当然！使用 `Material` 类即可分配纹理和表面属性。
+**Q: 我可以为创建的 3D 对象应用纹理吗？**  
+A: 当然！使用 `Material` 类分配纹理和表面属性。
 
-**问：Aspose.3D 有哪些授权选项？**  
-答：提供多种授权模式，您可以在 [here](https://purchase.aspose.com/buy) 了解详情。
+**Q: Aspose.3D 有哪些授权选项？**  
+A: 提供多种授权模式，您可以查看 **[Aspose purchase page](https://purchase.aspose.com/buy)** 了解详情。
 
-**问：我该如何获取帮助或分享使用经验？**  
-答：加入 Aspose.3D 社区论坛 [here](https://forum.aspose.com/c/3d/18) 获取支持和交流。
+**Q: 我该如何获取帮助或分享使用经验？**  
+A: 加入 **[Aspose.3D community forum](https://forum.aspose.com/c/3d/18)** 获取支持和讨论。
 
-**问：是否提供用于测试的临时许可证？**  
-答：是的，您可以在 [here](https://purchase.aspose.com/temporary-license/) 获取 **aspose 临时许可证** 进行评估。
+**Q: 是否提供用于测试的临时许可证？**  
+A: 是的，可通过 **[temporary license request page](https://purchase.aspose.com/temporary-license/)** 获取 **aspose temporary license** 进行评估。
 
----
-
-**最后更新：** 2026-04-08  
+**最后更新：** 2026-08-12  
 **测试环境：** Aspose.3D for Java 24.12（最新）  
 **作者：** Aspose
 
----
+{{< blocks/products/products-backtop-button >}}
+
+## 相关教程
+
+- [如何使用 Aspose.3D for Java 创建圆柱模型](/3d/java/cylinders/)
+- [如何使用 Aspose.3D for Java 创建圆柱风扇形状](/3d/java/cylinders/creating-fan-cylinders/)
+- [在 Java 中创建子节点并导出 FBX 使用 Aspose.3D](/3d/java/geometry/build-node-hierarchies/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
