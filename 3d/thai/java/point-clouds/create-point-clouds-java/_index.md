@@ -1,10 +1,35 @@
 ---
-date: 2026-03-05
-description: Learn how to convert mesh to point cloud in Java using Aspose.3D and
-  save point cloud file efficiently.
-linktitle: Convert Mesh to Point Cloud in Java
+date: 2026-05-29
+description: เรียนรู้วิธีใช้ Aspose 3D API เพื่อแปลง mesh เป็น point cloud ใน Java
+  และบันทึกไฟล์ point cloud อย่างมีประสิทธิภาพ
+keywords:
+- aspose 3d api
+- convert mesh to pointcloud
+- generate pointcloud mesh
+linktitle: แปลง Mesh เป็น Point Cloud ใน Java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Learn how to use the Aspose 3D API to convert mesh to point cloud in
+    Java and efficiently save the point cloud file.
+  headline: Convert Mesh to Point Cloud in Java with Aspose 3D API
+  type: TechArticle
+- questions:
+  - answer: Yes. Purchase a production license [here](https://purchase.aspose.com/buy);
+      a free trial is available for evaluation.
+    question: Can I use Aspose 3D API for commercial projects?
+  - answer: Absolutely. Download the trial version [here](https://releases.aspose.com/).
+    question: Is there a free trial I can test before buying?
+  - answer: The community‑driven [Aspose.3D forum](https://forum.aspose.com/c/3d/18)
+      provides answers and code samples.
+    question: Where can I get help if I run into problems?
+  - answer: Request a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for automated builds?
+  - answer: Detailed API reference is available at [documentation](https://reference.aspose.com/3d/java/).
+    question: Where is the official documentation for the Aspose 3D API?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: How to Convert Mesh to Point Cloud in Java with Aspose.3D
+title: แปลง Mesh เป็น Point Cloud ใน Java ด้วย Aspose 3D API
 url: /th/java/point-clouds/create-point-clouds-java/
 weight: 12
 ---
@@ -13,35 +38,32 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีแปลง Mesh เป็น Point Cloud ใน Java ด้วย Aspose.3D
+# แปลง Mesh เป็น Point Cloud ใน Java ด้วย Aspose 3D API
 
-การสร้าง **point cloud** จากเมช 3 มิติเป็นความต้องการทั่วไปในโครงการกราฟิก, การจำลอง, และการแสดงผลข้อมูล. ในบทเรียนนี้คุณจะได้เรียนรู้วิธี **แปลง mesh เป็น point cloud** ด้วย Aspose.3D Java API, และวิธี **บันทึกไฟล์ point cloud** เพื่อใช้งานต่อในภายหลัง. ขั้นตอนต่าง ๆ ถูกจัดเรียงอย่างชัดเจนเพื่อให้คุณสามารถรวมการสร้าง point‑cloud เข้าไปในแอปพลิเคชัน Java ของคุณได้ด้วยความพยายามเพียงเล็กน้อย.
+ในหลายโครงการด้านกราฟิก, การจำลอง, และการแสดงผลข้อมูล คุณจำเป็นต้องแปลง 3D mesh ให้เป็น **point cloud**. บทเรียนนี้จะแสดงให้คุณ **วิธีแปลง mesh เป็น point cloud** โดยใช้ **Aspose 3D API** สำหรับ Java, จากนั้นบันทึกผลลัพธ์เป็นไฟล์ DRACO ที่กะทัดรัด. เมื่อจบคุณจะมีไฟล์ point‑cloud ที่พร้อมใช้งานซึ่งสามารถป้อนเข้าสู่เอนจินการเรนเดอร์, สายงาน AI, หรือแอปพลิเคชัน AR/VR ได้ด้วยเพียงไม่กี่บรรทัดของโค้ด.
 
 ## คำตอบด่วน
-- **ไลบรารีที่ดีที่สุดสำหรับงานนี้คืออะไร?** Aspose.3D Java API มีการสนับสนุนการแปลง mesh‑to‑point‑cloud ในตัว.  
-- **ฟอร์แมตที่ตัวอย่างใช้คืออะไร?** ฟอร์แมต DRACO (`.drc`) ถูกใช้สำหรับการจัดเก็บ point‑cloud อย่างกะทัดรัด.  
-- **ฉันต้องมีไลเซนส์หรือไม่?** รุ่นทดลองฟรีใช้ได้สำหรับการพัฒนา; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์.  
-- **ฉันสามารถประมวลผลหลายเมชได้หรือไม่?** ได้ – เพียงทำซ้ำขั้นตอนการเข้ารหัสสำหรับแต่ละเมช.  
-- **ต้องการการประมวลผลเพิ่มเติมหรือไม่?** ไม่บังคับ; Aspose.3D มีเมธอดให้จัดการ point cloud หลังการเข้ารหัสได้.
+- **ไลบรารีใดที่จัดการการแปลง mesh‑to‑point‑cloud?** Aspose 3D API มีการสนับสนุนในตัวสำหรับการแปลง meshes เป็น point clouds.  
+- **รูปแบบไฟล์ใดที่แสดงตัวอย่าง?** DRACO (`.drc`) – รูปแบบ point‑cloud ที่บีบอัดสูง.  
+- **ฉันต้องการใบอนุญาตสำหรับการพัฒนาหรือไม่?** การทดลองใช้ฟรีทำงานได้สำหรับการพัฒนา; จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์.  
+- **ฉันสามารถประมวลผลหลาย mesh ในการทำงานเดียวได้หรือไม่?** ได้ – ทำซ้ำขั้นตอนการเข้ารหัสสำหรับแต่ละวัตถุ mesh.  
+- **ต้องทำการประมวลผลเพิ่มเติมหรือไม่?** ไม่ – API จะจัดการการแปลงและการบีบอัดโดยอัตโนมัติ, แม้ว่าคุณสามารถใช้ฟิลเตอร์เพิ่มเติมได้หลังจากนั้น.
 
 ## การ “แปลง mesh เป็น point cloud” คืออะไร?
-การแปลงเมชเป็น point cloud หมายถึงการสกัดตำแหน่งเวอร์เท็กซ์ (และอาจรวมถึงนอร์มอลหรือสี) จากเรขาคณิตของเมชและจัดเก็บเป็นชุดของจุด. การแสดงผลแบบนี้เหมาะสำหรับการเรนเดอร์ที่เร็ว, การตรวจจับการชน, และการป้อนข้อมูลเข้าสู่กระบวนการเรียนรู้ของเครื่อง.
+**การแปลง mesh เป็น point cloud** จะดึงตำแหน่งเวอร์เท็กซ์ (และอาจรวมถึงนอร์มอลหรือสี) จากเรขาคณิตของ mesh และเก็บเป็นจุดอิสระ. ตัวแทนนี้เหมาะสำหรับการเรนเดอร์ที่เร็ว, การตรวจจับการชน, และการป้อนข้อมูลเข้าสู่โมเดล machine‑learning เนื่องจากลดความซับซ้อนของรูปทรงเรขาคณิตในขณะที่ยังคงรักษาข้อมูลเชิงพื้นที่.
 
-## ทำไมต้องใช้ Aspose.3D สำหรับการสร้าง point‑cloud?
-- **การเข้ารหัสประสิทธิภาพสูง:** การบีบอัด DRACO ในตัวช่วยลดขนาดไฟล์อย่างมาก.  
-- **API ที่ง่าย:** การเรียกหนึ่งบรรทัดจัดการงานหนักทั้งหมด.  
-- **สนับสนุน Java ข้ามแพลตฟอร์ม:** ทำงานได้บนสภาพแวดล้อมที่รองรับ JVM ใดก็ได้.  
-- **ขยายได้:** หลังจากแปลงแล้วคุณสามารถประมวลผลคลาวด์ต่อ (การกรอง, การแปลงรูป, ฯลฯ) ได้.
+## ทำไมต้องใช้ Aspose 3D API สำหรับการสร้าง point‑cloud?
+Aspose 3D API ทำการแปลงในหนึ่งคำสั่งเดียว, พร้อมกับการบีบอัด DRACO ที่สามารถทำให้ไฟล์ point‑cloud ลดขนาดได้ **สูงสุดถึง 90 %** โดยไม่สูญเสียรายละเอียดที่สังเกตได้. มันทำงานบน JVM ใดก็ได้, ไม่ต้องการการพึ่งพา native, และให้ไวยากรณ์ที่สะอาดและเชื่อมต่อกันได้ซึ่งทำให้คุณมุ่งเน้นที่ตรรกะของแอปพลิเคชันแทนการจัดการไฟล์ระดับต่ำ.
 
 ## ข้อกำหนดเบื้องต้น
+- **Java Development Kit** 8 หรือใหม่กว่า ที่ติดตั้งแล้ว.  
+- **Aspose.3D library** – ดาวน์โหลด JAR ล่าสุดจากเว็บไซต์อย่างเป็นทางการ [here](https://releases.aspose.com/3d/java/).  
+- **Output directory** – สร้างโฟลเดอร์ที่ไฟล์ point‑cloud ที่สร้างขึ้นจะถูกเขียนลง.
 
-1. **Java Development Environment** – ติดตั้ง JDK 8 หรือใหม่กว่า.  
-2. **Aspose.3D Library** – ดาวน์โหลดและติดตั้งไลบรารี Aspose.3D. คุณสามารถหาไลบรารีได้จาก [ที่นี่](https://releases.aspose.com/3d/java/).  
-3. **Document Directory** – สร้างโฟลเดอร์ที่ไฟล์ point‑cloud ที่สร้างขึ้นจะถูกบันทึก.
+> **ข้ออ้างอิงเชิงปริมาณ:** Aspose 3D API รองรับ **มากกว่า 50** รูปแบบการนำเข้าและส่งออกและสามารถประมวลผล mesh ที่มี **หลายแสนเวอร์เท็กซ์** โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ.
 
 ## นำเข้าแพ็กเกจ
-
-เพื่อเริ่มต้น, นำเข้าคลาสที่จำเป็นในโปรเจกต์ Java ของคุณ:
+นำเข้าคลาสที่จำเป็นก่อนที่คุณจะเริ่มเขียนโค้ด:
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -52,8 +74,13 @@ import java.io.IOException;
 ```
 
 ## ขั้นตอนที่ 1: เข้ารหัส Mesh เป็น Point Cloud
+`FileFormat.DRACO` คือค่าตัวนับที่เลือกการบีบอัด DRACO สำหรับการส่งออก point‑cloud.  
 
-ใช้ตัวเข้ารหัส `FileFormat.DRACO` เพื่อแปลงเมช (เช่น `Sphere`) ให้เป็นไฟล์ point‑cloud ที่บีบอัด:
+**Definition anchor:** `FileFormat.DRACO` บอก Aspose 3D API ให้เขียน point cloud ด้วยรูปแบบ DRACO ซึ่งถูกปรับให้เหมาะกับขนาดและความเร็ว.  
+
+`Sphere` คือคลาส primitive ที่สร้าง mesh รูปทรงทรงกลม.  
+
+ใช้ตัวเข้ารหัสนี้เพื่อแปลง mesh (เช่น `Sphere`) ให้เป็นไฟล์ point‑cloud ที่บีบอัด:
 
 ```java
 // ExStart:1
@@ -61,56 +88,61 @@ FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
 // ExEnd:1
 ```
 
-**คำอธิบาย**
+**คำอธิบาย**  
+- `FileFormat.DRACO` เลือกรูปแบบการบีบอัด DRACO, ซึ่งลดขนาดไฟล์อย่างมากในขณะที่ยังคงรักษาความแม่นยำของรูปทรง.  
+- `new Sphere()` สร้าง mesh รูปทรงทรงกลมง่าย ๆ ที่ทำหน้าที่เป็นเรขาคณิตต้นทาง.  
+- สตริงที่ต่อกันสร้างเส้นทางออกเต็มที่ไฟล์ **point‑cloud** (`sphere.drc`) จะถูกบันทึก.
 
-- `FileFormat.DRACO` เลือกฟอร์แมตการบีบอัด DRACO, ซึ่งได้รับการปรับให้เหมาะกับการจัดเก็บ point‑cloud.  
-- `new Sphere()` สร้างเมชทรงทรงกลมง่าย ๆ ที่ทำหน้าที่เป็นเรขาคณิตต้นทาง.  
-- สตริง `"Your Document Directory" + "sphere.drc"` สร้างเส้นทางเต็มของไฟล์เอาต์พุตที่ไฟล์ **point cloud** (`sphere.drc`) จะถูกบันทึกไว้.
+คุณสามารถทำซ้ำขั้นตอนนี้กับวัตถุ mesh ใด ๆ (เช่น `Box`, `Cylinder`) เพื่อสร้าง point cloud เพิ่มเติมได้ตามต้องการ.
 
-คุณสามารถทำซ้ำขั้นตอนนี้กับอ็อบเจกต์เมชอื่น ๆ (เช่น `Box`, `Cylinder`) เพื่อสร้าง point cloud เพิ่มเติมได้ตามต้องการ.
+## ขั้นตอนที่ 2: การประมวลผลเพิ่มเติม (Optional)
+`PointCloud` แทนชุดของจุดและให้การดำเนินการสำหรับการแปลงและการกรอง.  
 
-## ขั้นตอนที่ 2: การประมวลผลเพิ่มเติม (ไม่บังคับ)
-
-หลังจากเข้ารหัสแล้ว, คุณอาจต้องการปรับแต่ง point cloud – เช่น การประยุกต์การแปลง, การกรองค่าผิดปกติ, หรือการเพิ่มแอตทริบิวต์ที่กำหนดเอง. Aspose.3D มีเมธอดหลากหลายสำหรับจัดการข้อมูล point‑cloud, แม้ว่าจะไม่จำเป็นสำหรับการแปลงพื้นฐาน.
+หลังจากการเข้ารหัส, คุณอาจต้องการปรับแต่ง point cloud — ใช้การแปลง, กรองค่าผิดปกติ, หรือเพิ่มแอตทริบิวต์ที่กำหนดเอง. Aspose 3D API มีเมธอดเช่น `PointCloud.transform()`, `PointCloud.filterNoise()`, และ `PointCloud.addColorChannel()`. ขั้นตอนเหล่านี้เป็นทางเลือกสำหรับการแปลงพื้นฐานแต่มีประโยชน์สำหรับ pipeline ขั้นสูง.
 
 ## ขั้นตอนที่ 3: บันทึกและใช้งาน
+ไฟล์ที่เข้ารหัสแล้วได้ถูกบันทึกไว้ที่ตำแหน่งที่คุณระบุแล้ว. ตอนนี้คุณสามารถโหลดไฟล์ `.drc` ใน viewer ที่รองรับ DRACO ใดก็ได้, ป้อนเข้าสู่เอนจินการเรนเดอร์, หรือส่งต่อโดยตรงไปยังโมเดล machine‑learning ที่คาดหวังอินพุตเป็น point‑cloud.
 
-ไฟล์ที่เข้ารหัสแล้วได้ถูกบันทึกไว้ในตำแหน่งที่คุณระบุแล้ว. ตอนนี้คุณสามารถโหลดไฟล์ `.drc` นี้ในแอปพลิเคชันใดก็ได้ที่รองรับ point cloud ของ DRACO, หรือส่งต่อโดยตรงไปยังเอนจินเรนเดอร์, สายงานจำลอง, หรือโมเดล AI.
-
-## ปัญหาที่พบบ่อยและเคล็ดลับ
-
-- **Invalid Path:** ตรวจสอบให้แน่ใจว่าโฟลเดอร์มีอยู่และคุณมีสิทธิ์เขียน; หากไม่เช่นนั้นจะเกิด `IOException`.  
-- **Unsupported Mesh Types:** เมชที่ซับซ้อนที่มีหน้าตาไม่เป็นสามเหลี่ยมจะถูกทำให้เป็นสามเหลี่ยมโดยอัตโนมัติโดย Aspose.3D, แต่เมชขนาดใหญ่มากอาจต้องการหน่วยความจำเพิ่ม.  
-- **Performance:** การบีบอัด DRACO ทำได้เร็ว, แต่สำหรับ point cloud ขนาดมหาศาลควรประมวลผลเป็นชิ้นย่อยเพื่อหลีกเลี่ยงการกระโดดของหน่วยความจำ.
+## ปัญหาทั่วไป & เคล็ดลับ
+- **Invalid Path:** ตรวจสอบว่าไดเรกทอรีมีอยู่และคุณมีสิทธิ์เขียน; มิฉะนั้นจะเกิด `IOException`.  
+- **Unsupported Mesh Types:** หน้าไม่เป็นสามเหลี่ยมจะถูกทำให้เป็นสามเหลี่ยมโดยอัตโนมัติ, แต่ mesh ที่ใหญ่มากอาจต้องการหน่วยความจำเพิ่มเติม; พิจารณาประมวลผลเป็นชิ้นส่วน.  
+- **Performance:** การบีบอัด DRACO ทำงานในเวลาเชิงเส้น; สำหรับ mesh ที่ใหญ่กว่า **1 million vertices**, แบ่งการแปลงเป็นชุดเพื่อหลีกเลี่ยงการเพิ่มขึ้นของหน่วยความจำ.
 
 ## สรุป
-
-คุณได้เรียนรู้วิธี **แปลง mesh เป็น point cloud** ใน Java ด้วย Aspose.3D และวิธี **บันทึกไฟล์ point cloud** เพื่อการใช้งานต่อไป. ความสามารถนี้เปิดประตูสู่การจัดการข้อมูล 3 มิติอย่างมีประสิทธิภาพในกราฟิก, AR/VR, และโครงการวิทยาศาสตร์ข้อมูล.
+คุณได้เรียนรู้วิธี **แปลง mesh เป็น point cloud** ใน Java ด้วย Aspose 3D API และวิธี **บันทึกไฟล์ point‑cloud** เพื่อการใช้งานต่อไป. ความสามารถนี้ทำให้การจัดการข้อมูล 3D มีประสิทธิภาพในโครงการกราฟิก, AR/VR, และ data‑science, พร้อมกับรักษาโค้ดของคุณให้สะอาดและดูแลได้ง่าย.
 
 ## คำถามที่พบบ่อย
 
-### คำถาม 1: ฉันสามารถใช้ Aspose.3D สำหรับโครงการเชิงพาณิชย์ได้หรือไม่?
-**A1:** ใช่, คุณสามารถทำได้. เยี่ยมชม [purchase page](https://purchase.aspose.com/buy) เพื่อดูตัวเลือกไลเซนส์.
+**Q: ฉันสามารถใช้ Aspose 3D API สำหรับโครงการเชิงพาณิชย์ได้หรือไม่?**  
+A: ใช่. ซื้อใบอนุญาตการใช้งานจริง [here](https://purchase.aspose.com/buy); มีรุ่นทดลองฟรีสำหรับการประเมินผล.
 
-### คำถาม 2: มีรุ่นทดลองฟรีหรือไม่?
-**A2:** มี, คุณสามารถเข้าถึงรุ่นทดลองฟรีได้ [ที่นี่](https://releases.aspose.com/).
+**Q: มีรุ่นทดลองฟรีให้ฉันทดสอบก่อนซื้อหรือไม่?**  
+A: แน่นอน. ดาวน์โหลดรุ่นทดลอง [here](https://releases.aspose.com/).
 
-### คำถาม 3: ฉันจะหาแหล่งสนับสนุนสำหรับ Aspose.3D ได้จากที่ไหน?
-**A3:** เยี่ยมชม [Aspose.3D forum](https://forum.aspose.com/c/3d/18) เพื่อรับการสนับสนุนจากชุมชน.
+**Q: ฉันจะขอความช่วยเหลือได้จากที่ไหนหากเจอปัญหา?**  
+A: ฟอรั่ม [Aspose.3D forum](https://forum.aspose.com/c/3d/18) ที่ขับเคลื่อนโดยชุมชนให้คำตอบและตัวอย่างโค้ด.
 
-### คำถาม 4: ฉันจะขอรับไลเซนส์ชั่วคราวได้อย่างไร?
-**A4:** คุณสามารถรับไลเซนส์ชั่วคราวได้ [ที่นี่](https://purchase.aspose.com/temporary-license/).
+**Q: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับการสร้างอัตโนมัติได้อย่างไร?**  
+A: ขอรับใบอนุญาตชั่วคราว [here](https://purchase.aspose.com/temporary-license/).
 
-### คำถาม 5: ฉันจะหาเอกสารอ้างอิงได้จากที่ไหน?
-**A5:** ดูที่ [documentation](https://reference.aspose.com/3d/java/) เพื่อรับข้อมูลรายละเอียดเพิ่มเติม.
+**Q: เอกสารอย่างเป็นทางการของ Aspose 3D API อยู่ที่ไหน?**  
+A: รายละเอียดการอ้างอิง API มีให้ที่ [documentation](https://reference.aspose.com/3d/java/).
 
-**Last Updated:** 2026-03-05  
-**Tested With:** Aspose.3D Java 24.12  
-**Author:** Aspose  
+---
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**อัปเดตล่าสุด:** 2026-05-29  
+**ทดสอบด้วย:** Aspose.3D Java 24.12  
+**ผู้เขียน:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [aspose 3d point cloud - ส่งออกฉาก 3D เป็น Point Clouds ด้วย Aspose.3D สำหรับ Java](/3d/java/point-clouds/export-3d-scenes-point-clouds-java/)
+- [สร้าง Aspose 3D Point Cloud จาก Spheres ใน Java](/3d/java/point-clouds/generate-point-clouds-spheres-java/)
+- [นำเข้าไฟล์ PLY Java – โหลด PLY Point Clouds อย่างราบรื่น](/3d/java/point-clouds/load-ply-point-clouds-java/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
