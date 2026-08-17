@@ -1,6 +1,6 @@
 ---
-title: How to create draco point cloud from spheres using Aspose 3D Java
-linktitle: How to create draco point cloud from spheres using Aspose 3D Java
+title: Generate a Draco point cloud from spheres using Aspose.3D for Java
+linktitle: Generate a Draco point cloud from spheres using Aspose.3D for Java
 second_title: Aspose.3D Java API
 description: Learn how to create draco point cloud from a sphere with Aspose.3D for Java. Step‑by‑step guide, prerequisites, code, and troubleshooting.
 weight: 14
@@ -101,7 +101,7 @@ import com.aspose.threed.save.*;
 
 Load your sphere, enable point‑cloud mode, and save it with Draco compression in just three lines of code. First, configure `DracoSaveOptions` to output a point cloud, then instantiate a `Sphere` primitive, add it to a `Scene`, and finally call `save`. This pattern works for any mesh you wish to convert.
 
-## Step 1: Set Up DracoSaveOptions
+## Step 1: set up dracoSaveOptions
 
 `DracoSaveOptions` tells Aspose.3D to encode geometry as a point cloud rather than a full mesh.
 
@@ -113,7 +113,7 @@ dracoOptions.setCompressionLevel(7);            // 0‑10 range; 7 gives good si
 
 > **Definition anchor:** `DracoSaveOptions` is the configuration object that controls how Aspose.3D writes Draco files, including compression level and point‑cloud flag.
 
-## Step 2: Create a Sphere
+## Step 2: create a sphere
 
 The `Sphere` class represents a mathematically perfect sphere. You can control radius and tessellation density to influence point count.
 
@@ -124,7 +124,7 @@ Sphere sphere = new Sphere(5.0, 32, 32);
 
 > **Definition anchor:** `Sphere` is a primitive shape class that generates a mesh of vertices and faces based on radius and segment parameters.
 
-## Step 3: Encode and Save the Point Cloud
+## Step 3: encode and save the point cloud
 
 Add the sphere to a new `Scene`, then invoke `save` with the previously configured `DracoSaveOptions`.
 
@@ -140,7 +140,7 @@ scene.save("output_point_cloud.drc", dracoOptions);   // Write compressed point 
 
 Aspose.3D supports **30+** 3‑D file formats (including OBJ, STL, FBX, GLTF) and can process **500‑page** models without loading the full file into memory, making it suitable for large‑scale point‑cloud workflows.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Solution |
 |-------|--------|----------|
@@ -148,7 +148,7 @@ Aspose.3D supports **30+** 3‑D file formats (including OBJ, STL, FBX, GLTF) an
 | **Empty point cloud** | `setPointCloud(true)` omitted | Verify the `DracoSaveOptions` flag is set as shown in Step 1. |
 | **License exception** | Running without a valid license in production | Apply a temporary or permanent license (see FAQ below). |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I convert the generated point cloud to other formats (e.g., PLY, OBJ)?**  
 A: Yes. After loading the `.drc` file back into a `Scene`, you can export vertices using Aspose.3D’s generic `Scene.save` method with formats like PLY or OBJ.
@@ -169,19 +169,19 @@ A: The default level (5) works for most cases. If file size is critical, experim
 
 ### Q1: Can I use Aspose.3D for free?
 
-A1: Yes, you can explore Aspose.3D with a free trial. Visit [here](https://releases.aspose.com/) to get started.
+A1: Yes, you can explore Aspose.3D with a free trial. Visit the **Aspose releases page** to get started.
 
 ### Q2: Where can I find support for Aspose.3D?
 
 A2: You can find support and connect with the community on the [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
 
-### Q3: How can I purchase Aspose.3D?
+### Q3: how can i purchase aspose.3D?
 
 A3: Visit the [purchase page](https://purchase.aspose.com/buy) to buy Aspose.3D and unlock its full potential.
 
 ### Q4: Is there a temporary license available?
 
-A4: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for your development needs.
+A4: Yes, you can obtain a temporary license from the **Aspose temporary‑license page** for your development needs.
 
 ### Q5: Where can I find the documentation?
 

@@ -1,6 +1,6 @@
 ---
-title: Aspose 3D License: Optimize 3D to FBX Saving in Java
-linktitle: Aspose 3D License: Optimize 3D to FBX Saving in Java
+title: 'Improving 3D File Export Performance in Java'
+linktitle: 'Improving 3D File Export Performance in Java'
 second_title: Aspose.3D Java API
 description: Learn how to use an Aspose 3D license while reducing 3D file size and saving scene as FBX in Java with optimized SaveOptions.
 weight: 16
@@ -44,7 +44,7 @@ Aspose.3D SaveOptions give you **quantified control** over the export process:
 
 Before we dive into the tutorial, make sure you have the following prerequisites in place:
 
-- **Aspose.3D for Java** – integrated into your project. Download it [here](https://releases.aspose.com/3d/java/).  
+- **Aspose.3D for Java** – integrated into your project. Download it [Aspose 3D for Java download page](https://releases.aspose.com/3d/java/).  
 - **Java Development Environment** – Java 8+ installed and configured.  
 - **Document Directory** – a folder where you will read source files and write the exported assets.
 
@@ -74,7 +74,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 ```
 
-### Step 1: Apply Your Aspose 3D License
+### Step 1: apply your aspose 3D license
 
 The `License` class registers a valid license file, removing all evaluation restrictions.  
 ```java
@@ -97,7 +97,7 @@ public static void prettyPrintInGltfSaveOption() throws IOException {
 }
 ```
 
-### Step 2: Load the Source Scene
+### Step 2: load the source scene
 
 You can load OBJ, STL, GLTF, or any of the 50+ supported formats.  
 ```java
@@ -133,7 +133,7 @@ public static void html5SaveOption() throws IOException {
 }
 ```
 
-### Step 3: Configure FBX Save Options
+### Step 3: configure FBX save options
 
 `FbxSaveOptions` lets you fine‑tune the output. The following settings illustrate common performance tweaks:
 
@@ -175,7 +175,7 @@ Scene scene = new Scene("input.obj");
 
 You now have an FBX file that is both lightweight and fully licensed for commercial distribution.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -185,7 +185,7 @@ You now have an FBX file that is both lightweight and fully licensed for commerc
 | **License not recognized** | License file path is incorrect or missing. | Verify the path in `License.setLicense()` and ensure the file is readable by the JVM. |
 | **Animation data missing** | `setExportAnimations(false)` was inadvertently set. | Ensure `setExportAnimations(true)` or omit the call to keep defaults. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Does Aspose.3D support batch conversion of multiple files to FBX?**  
 A: Yes. Loop through a collection of `Scene` objects and call `scene.save(..., new FbxSaveOptions())` for each file.
