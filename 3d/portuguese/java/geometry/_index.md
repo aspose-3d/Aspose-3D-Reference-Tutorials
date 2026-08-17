@@ -1,15 +1,53 @@
 ---
-date: 2026-04-08
-description: Aprenda a criar um cubo 3D em Java e aplicar materiais de renderização
-  baseada em física (PBR) usando Aspose.3D. Inclui como concatenar quaternions, compartilhamento
-  de malhas e muito mais.
+date: 2026-08-17
+description: Aprenda a criar um cubo 3D em Java e aplicar materiais Physically Based
+  Rendering (PBR) usando Aspose.3D. Inclui como concatenar quaternions, mesh sharing
+  e mais.
 keywords:
 - create 3d cube java
 - how to concatenate quaternions
 - apply pbr materials java
+lastmod: 2026-08-17
 linktitle: Criar Cubo 3D e Aplicar Materiais PBR
+og_description: Criar cubo 3D Java usando Aspose.3D e aplicar materiais Physically
+  Based Rendering (PBR). Aprenda mesh sharing, quaternion rotations e opções de exportação
+  neste guia abrangente.
+og_image_alt: Guide showing how to create a 3D cube in Java with Aspose.3D and apply
+  PBR materials
+og_title: Criar cubo 3D Java com Aspose.3D – aplicar materiais PBR
+schemas:
+- author: Aspose
+  dateModified: '2026-08-17'
+  description: Learn how to create 3d cube java and apply physically based rendering
+    (PBR) materials using Aspose.3D. Includes how to concatenate quaternions, mesh
+    sharing, and more.
+  headline: Create 3d cube java and apply PBR materials with Aspose.3D
+  type: TechArticle
+- questions:
+  - answer: No. Aspose.3D performs all calculations on the CPU, so it works on any
+      machine that can run Java.
+    question: Do I need a graphics card to use Aspose.3D for Java?
+  - answer: Yes. You can attach custom shader programs to meshes while still using
+      Aspose.3D’s PBR workflow.
+    question: Can I combine PBR materials with custom shaders?
+  - answer: Concatenating quaternions lets you combine multiple rotations into a single,
+      smooth transformation, avoiding gimbal lock.
+    question: How does “how to concatenate quaternions” improve animation?
+  - answer: Aspose.3D can export scenes to glTF, OBJ, FBX, and several other common
+      3D formats.
+    question: Is there support for exporting to glTF or OBJ?
+  - answer: The Aspose.3D GitHub repository and the official documentation site provide
+      ready‑to‑run examples for all tutorials listed above.
+    question: Where can I find sample projects?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Criar Cubo 3D em Java e Aplicar Materiais PBR com Aspose.3D
+tags:
+- create 3d cube java
+- Aspose.3D
+- Java 3D graphics
+- PBR materials
+- quaternion rotations
+title: Criar cubo 3D Java e aplicar materiais PBR com Aspose.3D
 url: /pt/java/geometry/
 weight: 21
 ---
@@ -18,117 +56,127 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Como Criar Cubo 3D Java com Aspose.3D e Aplicar Materiais PBR
+# Como criar um cubo 3D Java com Aspose.3D e aplicar materiais PBR
 
-## Introdução à Criação de Cubo 3D e Aplicação de Materiais PBR
-Se você está procurando **criar cubo 3d java** e aplicar materiais PBR (Physically Based Rendering) aos seus projetos Java 3D, chegou ao lugar certo. Neste hub reunimos os tutoriais mais práticos do Aspose.3D que o guiam passo a passo — desde a criação realista de materiais até rotações avançadas com quaternions. Seja construindo um motor de jogo, um visualizador de produtos ou uma simulação científica, esses guias ajudarão a transformar geometria bruta em cenas impressionantes e fotorrealistas.
+## Introdução à criação de cubo 3D java e aplicação de materiais PBR
+If you're looking to **create 3d cube java** and apply PBR (Physically Based Rendering) materials to your Java 3D projects, you’ve come to the right place. In this hub we gather the most practical Aspose.3D tutorials that walk you through every step—from realistic material creation to advanced quaternion rotations. Whether you’re building a game engine, a product visualizer, or a scientific simulation, these guides will help you turn raw geometry into stunning, photorealistic scenes.
 
-## Respostas Rápidas
-- **Qual é o primeiro passo para criar um cubo 3D em Java?** Instancie um `Scene` e adicione um `Mesh` de cubo usando a API de geometria do Aspose.3D.  
-- **Qual modelo de material fornece iluminação realista?** O fluxo de trabalho Physically Based Rendering (PBR) com parâmetros metal‑roughness.  
+## Respostas rápidas
+- **Qual é o primeiro passo para criar um cubo 3D em Java?** Instanciar um `Scene` e adicionar um `Mesh` de cubo usando a API de geometria do Aspose.3D.  
+- **Qual modelo de material fornece iluminação realista?** O fluxo de trabalho Physically Based Rendering (PBR) com parâmetros de metalicidade‑rugosidade.  
 - **Como evitar gimbal lock ao girar o cubo?** Use concatenação de quaternions – veja o tutorial “how to concatenate quaternions”.  
 - **Posso compartilhar geometria entre múltiplos objetos?** Sim, o Aspose.3D permite reutilizar dados de mesh entre nós para economizar memória.  
 - **Quais formatos de arquivo são suportados para exportação?** glTF, OBJ, FBX e vários outros são totalmente suportados.
 
-## Por Que Criar um Cubo 3D com Aspose.3D Java?
-Criar um cubo 3D costuma ser o primeiro marco para quem está aprendendo gráficos 3D. Ele oferece um sandbox para experimentar materiais, iluminação e transformações. Com **Aspose.3D Java**, você obtém uma API de alto nível, multiplataforma, que lida com a matemática pesada enquanto permite que você se concentre na qualidade visual e na interatividade.
+## Por que criar um cubo 3D com Aspose.3D Java?
+Aspose.3D provides a concise, high‑level API that eliminates the need to write low‑level matrix math yourself. You can spin up a fully‑featured cube in two lines of code, then attach a PBR material that reacts correctly under any lighting environment. This shortcut reduces development time by up to 70 % and lets you focus on gameplay or visualization logic instead of graphics plumbing.
 
-## Como Estes Tutoriais Ajudam Você a Dominar a Renderização Baseada em Física
-A renderização baseada em física (PBR) imita como a luz interage com superfícies do mundo real, entregando resultados consistentes em diferentes condições de iluminação. Seguindo os tutoriais abaixo, você aprenderá a:
+## Como esses tutoriais ajudam você a dominar a renderização baseada em física
+These tutorials give you a step‑by‑step roadmap for adopting a modern PBR workflow in Java. You will learn to define metallic, roughness, and albedo values, combine PBR with custom shaders, and animate objects using quaternion concatenation, all while keeping your code clean and performant.
 
 * Defina propriedades de metalicidade, rugosidade e albedo com o fluxo de trabalho PBR do Aspose.3D.  
 * Combine materiais PBR com shaders personalizados para um visual extra.  
 * Use concatenação de quaternions para animar seu cubo sem gimbal lock.  
 
-Abaixo está uma lista selecionada de guias passo a passo. Clique em **Leia mais** para mergulhar em cada tópico.
+Below is a curated list of step‑by‑step guides. Click **Read more** to dive into each topic.
 
-### Aplicar Materiais PBR a Objetos 3D em Java com Aspose.3D
-Mergulhe no universo da Physically Based Rendering (PBR) com o Aspose.3D. Nosso tutorial orienta você no processo de aplicar materiais PBR realistas aos seus objetos 3D em Java. Eleve a qualidade visual dos seus projetos sem esforço. [Leia mais](./apply-pbr-materials-to-objects/)
+### Aplicar materiais PBR a objetos 3D em Java com Aspose.3D
+Dive into the realm of Physically Based Rendering (PBR) with Aspose.3D. Our tutorial guides you through the process of applying realistic PBR materials to your 3D objects in Java. Elevate the visual quality of your projects effortlessly. [Read more](./apply-pbr-materials-to-objects/)
 
-### Concatenar Quaternions para Rotação 3D em Java com Aspose.3D
-Desvende os segredos das rotações 3D suaves em Java usando o Aspose.3D. Nosso guia passo a passo o conduz pela técnica **how to concatenate quaternions**, permitindo transformações de animação fluidas. Revolucione suas aplicações Java agora. [Leia mais](./concatenate-quaternions-for-3d-rotations/)
+### Concatenar quaternions para rotações 3D em Java com Aspose.3D
+Unlock the secrets of seamless 3D rotations in Java using Aspose.3D. Our step‑by‑step guide walks you through the **how to concatenate quaternions** technique, enabling smooth animation transformations. Revolutionize your Java applications now. [Read more](./concatenate-quaternions-for-3d-rotations/)
 
-### Criar uma Cena de Cubo 3D em Java com Aspose.3D
-Mergulhe nas maravilhas dos gráficos de cena de cubo 3D com o Aspose.3D para Java. Este tutorial capacita você a criar cenas 3D impressionantes sem esforço. Liberte sua criatividade e explore possibilidades ilimitadas. [Leia mais](./create-3d-cube-scene/)
+### Criar uma cena de cubo 3D em Java com Aspose.3D
+Delve into the wonders of 3D cube scene graphics with Aspose.3D for Java. This tutorial empowers you to create stunning 3D scenes effortlessly. Unleash your creativity and explore the limitless possibilities. [Read more](./create-3d-cube-scene/)
 
-### Expor Transformações Geométricas em Java 3D com Aspose.3D
-Dominar transformações geométricas 3D em Java torna‑se simples com o Aspose.3D. Aprenda a manipular nós, aplicar translações e avaliar transformações globais. Eleve seu jogo de gráficos 3D a novos patamares. [Leia mais](./expose-geometric-transformations/)
+### Expor transformações geométricas em Java 3D com Aspose.3D
+Mastering 3D geometric transformations in Java becomes a breeze with Aspose.3D. Learn to manipulate nodes, apply translations, and evaluate global transforms. Elevate your 3D graphics game to new heights. [Read more](./expose-geometric-transformations/)
 
-### Aplicar Materiais a Objetos 3D em Java com Aspose.3D
-Embarque em uma jornada ao mundo dos gráficos 3D com o Aspose.3D para Java. Este tutorial orienta você na aplicação de materiais a objetos 3D de forma fluida, trazendo realismo aos seus projetos. [Leia mais](./apply-materials-to-3d-objects/)
+### Aplicar materiais a objetos 3D em Java com Aspose.3D
+Embark on a journey into the world of 3D graphics with Aspose.3D for Java. This tutorial guides you on applying materials to 3D objects seamlessly, bringing realism to your projects. [Read more](./apply-materials-to-3d-objects/)
 
-### Compartilhar Dados de Geometria de Mesh em Java 3D com Aspose.3D
-Explore as maravilhas do Java 3D com o Aspose.3D e aprenda a compartilhar dados de geometria de mesh entre nós sem esforço. Este tutorial abrangente é a chave para dominar essa habilidade essencial. [Leia mais](./share-mesh-geometry-data/)
+### Compartilhar dados de geometria de mesh em Java 3D com Aspose.3D
+Explore the wonders of Java 3D with Aspose.3D and learn how to effortlessly share mesh geometry data between nodes. This comprehensive tutorial is your key to mastering this essential skill. [Read more](./share-mesh-geometry-data/)
 
-### Construir Hierarquias de Nós em Cenas 3D com Java e Aspose.3D
-Liberte sua criatividade aprendendo a construir cenas 3D dinâmicas em Java com o Aspose.3D. Crie hierarquias de nós sem esforço e eleve seu jogo de gráficos 3D. [Leia mais](./build-node-hierarchies/)
+### Construir hierarquias de nós em cenas 3D com Java e Aspose.3D
+Unleash your creativity by learning how to build dynamic 3D scenes in Java with Aspose.3D. Create node hierarchies effortlessly and elevate your 3D graphics game. [Read more](./build-node-hierarchies/)
 
-### Configurar Normais em Objetos 3D em Java com Aspose.3D
-Aprimore seus gráficos aprendendo a configurar normais em objetos 3D em Java com o Aspose.3D. Este tutorial abrangente é seu guia para dominar esse aspecto crucial do design 3D. [Leia mais](./set-up-normals-on-3d-objects/)
+### Configurar normais em objetos 3D em Java com Aspose.3D
+Enhance your graphics by learning to set up normals on 3D objects in Java with Aspose.3D. This comprehensive tutorial is your guide to mastering this crucial aspect of 3D design. [Read more](./set-up-normals-on-3d-objects/)
 
-### Aplicar Coordenadas UV a Objetos 3D em Java com Aspose.3D
-Eleve seus gráficos aprendendo a aplicar coordenadas UV a objetos 3D em Java com o Aspose.3D. Siga nosso guia passo a passo e adicione uma nova dimensão às suas criações visuais. [Leia mais](./apply-uv-coordinates-to-3d-objects/)
+### Aplicar coordenadas UV a objetos 3D em Java com Aspose.3D
+Elevate your graphics by learning to apply UV coordinates to 3D objects in Java with Aspose.3D. Follow our step‑by‑step guide and add a new dimension to your visual creations. [Read more](./apply-uv-coordinates-to-3d-objects/)
 
-### Transformar Nós 3D com Ângulos de Euler em Java usando Aspose.3D
-Adentre o mundo das transformações 3D em Java com o Aspose.3D. Nosso guia ensina a adicionar ângulos de Euler dinâmicos aos seus nós 3D, trazendo um novo nível de interatividade às suas aplicações. [Leia mais](./transform-3d-nodes-with-euler-angles/)
+### Transformar nós 3D com ângulos de Euler em Java usando Aspose.3D
+Step into the world of 3D transformations in Java with Aspose.3D. Our guide teaches you to add dynamic Euler angles to your 3D nodes, bringing a new level of interactivity to your applications. [Read more](./transform-3d-nodes-with-euler-angles/)
 
-### Transformar Nós 3D com Quaternions em Java usando Aspose.3D
-Aprimore suas aplicações Java com o Aspose.3D enquanto o guiamos na transformação de nós usando quaternions. Revolucione seus projetos 3D com este guia passo a passo. [Leia mais](./transform-3d-nodes-with-quaternions/)
+### Transformar nós 3D com quaternions em Java usando Aspose.3D
+Enhance your Java applications with Aspose.3D as we guide you through transforming nodes using quaternions. Revolutionize your 3D projects with this step‑by‑step guide. [Read more](./transform-3d-nodes-with-quaternions/)
 
-### Transformar Nós 3D com Matrizes de Transformação em Java usando Aspose.3D
-Explore o mundo dos gráficos 3D em Java com o Aspose.3D. Aprenda a transformar nós sem esforço usando matrizes de transformação, desbloqueando um mundo de possibilidades criativas. [Leia mais](./transform-3d-nodes-with-matrices/)
+### Transformar nós 3D com matrizes de transformação em Java usando Aspose.3D
+Explore the world of 3D graphics in Java with Aspose.3D. Learn to transform nodes effortlessly using transformation matrices, unlocking a world of creative possibilities. [Read more](./transform-3d-nodes-with-matrices/)
 
-### Triangular Malhas para Renderização Otimizada em Java com Aspose.3D
-Impulsione a eficiência da renderização 3D em Java com o Aspose.3D. Nosso tutorial orienta você no processo de triangular malhas para desempenho ideal. Eleve seus projetos Java 3D a novos patamares. [Leia mais](./triangulate-meshes-for-optimized-rendering/)
+### Triangular meshes para renderização otimizada em Java com Aspose.3D
+Boost your 3D rendering efficiency in Java with Aspose.3D. Our tutorial guides you through the process of triangulating meshes for optimal performance. Elevate your Java 3D projects to new heights. [Read more](./triangulate-meshes-for-optimized-rendering/)
 
-## Trabalhando com Geometria 3D em Tutoriais Java
-### [Aplicar Materiais PBR a Objetos 3D em Java com Aspose.3D](./apply-pbr-materials-to-objects/)
-Aprenda a aplicar materiais PBR realistas a objetos 3D em Java usando o Aspose.3D. Melhore a qualidade visual com Physically Based Rendering.  
-### [Concatenar Quaternions para Rotação 3D em Java com Aspose.3D](./concatenate-quaternions-for-3d-rotations/)
-Aprenda como **how to concatenate quaternions** para rotações 3D em Java usando o Aspose.3D. Siga nosso guia passo a passo para transformações de animação sem interrupções.  
-### [Criar uma Cena de Cubo 3D em Java com Aspose.3D](./create-3d-cube-scene/)
-Explore as maravilhas dos gráficos de cena de cubo 3D com o Aspose.3D para Java. Crie cenas impressionantes sem esforço.  
-### [Expor Transformações Geométricas em Java 3D com Aspose.3D](./expose-geometric-transformations/)
-Domine as transformações geométricas 3D em Java de forma fácil com o Aspose.3D. Aprenda a manipular nós, aplicar translações e avaliar transformações globais.  
-### [Aplicar Materiais a Objetos 3D em Java com Aspose.3D](./apply-materials-to-3d-objects/)
-Explore o mundo dos gráficos 3D com o Aspose.3D para Java. Aprenda como aplicar materiais a objetos 3D de forma fluida. Eleve seus projetos com visualizações realistas.  
-### [Compartilhar Dados de Geometria de Mesh em Java 3D com Aspose.3D](./share-mesh-geometry-data/)
-Explore as maravilhas do Java 3D com o Aspose.3D. Aprenda a compartilhar dados de geometria de mesh entre nós sem esforço neste tutorial abrangente.  
-### [Construir Hierarquias de Nós em Cenas 3D com Java e Aspose.3D](./build-node-hierarchies/)
-Aprenda a construir cenas 3D dinâmicas em Java com o Aspose.3D. Crie hierarquias de nós sem esforço e eleve seu jogo de gráficos 3D.  
-### [Configurar Normais em Objetos 3D em Java com Aspose.3D](./set-up-normals-on-3d-objects/)
-Aprenda a configurar normais em objetos 3D em Java com o Aspose.3D. Aprimore seus gráficos com este tutorial abrangente.  
-### [Aplicar Coordenadas UV a Objetos 3D em Java com Aspose.3D](./apply-uv-coordinates-to-3d-objects/)
-Aprenda a aplicar coordenadas UV a objetos 3D em Java com o Aspose.3D. Eleve seus gráficos com um guia passo a passo.  
-### [Transformar Nós 3D com Ângulos de Euler em Java usando Aspose.3D](./transform-3d-nodes-with-euler-angles/)
-Explore o mundo das transformações 3D em Java com o Aspose.3D. Siga nosso guia passo a passo para adicionar ângulos de Euler dinâmicos aos seus nós 3D.  
-### [Transformar Nós 3D com Quaternions em Java usando Aspose.3D](./transform-3d-nodes-with-quaternions/)
-Aprimore suas aplicações Java com o Aspose.3D para poderosas transformações 3D. Aprenda a transformar nós usando quaternions neste guia passo a passo.  
-### [Transformar Nós 3D com Matrizes de Transformação em Java usando Aspose.3D](./transform-3d-nodes-with-matrices/)
-Explore o mundo dos gráficos 3D em Java com o Aspose.3D. Aprenda a transformar nós sem esforço usando matrizes de transformação.  
-### [Triangular Malhas para Renderização Otimizada em Java com Aspose.3D](./triangulate-meshes-for-optimized-rendering/)
-Aprenda a impulsionar a eficiência da renderização 3D em Java usando o Aspose.3D. Triangular malhas para desempenho ótimo.
+## O que é criar um cubo 3D Java?
+The `Scene` class represents a container for all nodes, meshes, lights, and cameras in a 3‑D file. A `Mesh` defines the geometry (vertices and faces) of a 3‑D object. Creating a 3d cube java means using Aspose.3D’s Java API to programmatically generate a cube mesh, place it in a scene, and render or export it. This operation forms the foundation for any 3‑D Java application that needs basic geometry and typically serves as the first step toward more complex visualizations.
 
-## Perguntas Frequentes
+## Trabalhando com geometria 3D em tutoriais Java
+### [Aplicar materiais PBR a objetos 3D em Java com Aspose.3D](./apply-pbr-materials-to-objects/)
+Learn to apply realistic PBR materials to 3D objects in Java using Aspose.3D. Enhance visual quality with Physically Based Rendering.  
+### [Concatenar quaternions para rotações 3D em Java com Aspose.3D](./concatenate-quaternions-for-3d-rotations/)
+Learn how to **how to concatenate quaternions** for 3D rotations in Java using Aspose.3D. Follow our step‑by‑step guide for seamless animation transformations.  
+### [Criar uma cena de cubo 3D em Java com Aspose.3D](./create-3d-cube-scene/)
+Explore the wonders of 3D cube scene graphics with Aspose.3D for Java. Create stunning scenes effortlessly.  
+### [Expor transformações geométricas em Java 3D com Aspose.3D](./expose-geometric-transformations/)
+Mastering 3D geometric transformations in Java made easy with Aspose.3D. Learn to manipulate nodes, apply translations, and evaluate global transforms.  
+### [Aplicar materiais a objetos 3D em Java com Aspose.3D](./apply-materials-to-3d-objects/)
+Explore the world of 3D graphics with Aspose.3D for Java. Learn how to apply materials to 3D objects seamlessly. Elevate your projects with realistic visuals.  
+### [Compartilhar dados de geometria de mesh em Java 3D com Aspose.3D](./share-mesh-geometry-data/)
+Explore the wonders of Java 3D with Aspose.3D. Learn how to share mesh geometry data effortlessly between nodes in this comprehensive tutorial.  
+### [Construir hierarquias de nós em cenas 3D com Java e Aspose.3D](./build-node-hierarchies/)
+Learn how to build dynamic 3D scenes in Java with Aspose.3D. Create node hierarchies effortlessly and elevate your 3D graphics game.  
+### [Configurar normais em objetos 3D em Java com Aspose.3D](./set-up-normals-on-3d-objects/)
+Learn to set up normals on 3D objects in Java with Aspose.3D. Enhance your graphics with this comprehensive tutorial.  
+### [Aplicar coordenadas UV a objetos 3D em Java com Aspose.3D](./apply-uv-coordinates-to-3d-objects/)
+Learn to apply UV coordinates to 3D objects in Java with Aspose.3D. Elevate your graphics with a step‑by‑step guide.  
+### [Transformar nós 3D com ângulos de Euler em Java usando Aspose.3D](./transform-3d-nodes-with-euler-angles/)
+Explore the world of 3D transformations in Java with Aspose.3D. Add dynamic Euler angles to your 3D nodes for interactivity.  
+### [Transformar nós 3D com quaternions em Java usando Aspose.3D](./transform-3d-nodes-with-quaternions/)
+Enhance your Java applications with Aspose.3D for powerful 3D transformations. Learn to transform nodes using quaternions in this step‑by‑step guide.  
+### [Transformar nós 3D com matrizes de transformação em Java usando Aspose.3D](./transform-3d-nodes-with-matrices/)
+Explore the world of 3D graphics in Java with Aspose.3D. Learn to transform nodes effortlessly using transformation matrices.  
+### [Triangular meshes para renderização otimizada em Java com Aspose.3D](./triangulate-meshes-for-optimized-rendering/)
+Learn how to boost 3D rendering efficiency in Java using Aspose.3D. Triangulate meshes for optimal performance.
 
-**Q:** Preciso de uma placa de vídeo para usar Aspose.3D para Java?  
-**A:** Não. Aspose.3D realiza todos os cálculos na CPU, portanto funciona em qualquer máquina que possa executar Java.
+## Perguntas frequentes
 
-**Q:** Posso combinar materiais PBR com shaders personalizados?  
-**A:** Sim. Você pode anexar programas de shader personalizados a meshes enquanto ainda usa o fluxo de trabalho PBR do Aspose.3D.
+**Q: Preciso de uma placa de vídeo para usar Aspose.3D para Java?**  
+A: No. Aspose.3D performs all calculations on the CPU, so it works on any machine that can run Java.
 
-**Q:** Como “how to concatenate quaternions” melhora a animação?  
-**A:** Concatenar quaternions permite combinar múltiplas rotações em uma única transformação suave, evitando gimbal lock.
+**Q: Posso combinar materiais PBR com shaders personalizados?**  
+A: Yes. You can attach custom shader programs to meshes while still using Aspose.3D’s PBR workflow.
 
-**Q:** Há suporte para exportação para glTF ou OBJ?  
-**A:** Aspose.3D pode exportar cenas para glTF, OBJ, FBX e vários outros formatos 3D comuns.
+**Q: Como “how to concatenate quaternions” melhora a animação?**  
+A: Concatenating quaternions lets you combine multiple rotations into a single, smooth transformation, avoiding gimbal lock.
 
-**Q:** Onde posso encontrar projetos de exemplo?  
-**A:** O repositório Aspose.3D no GitHub e o site de documentação oficial fornecem exemplos prontos para execução para todos os tutoriais listados acima.
+**Q: Há suporte para exportação para glTF ou OBJ?**  
+A: Aspose.3D can export scenes to glTF, OBJ, FBX, and several other common 3D formats.
 
-**Última Atualização:** 2026-04-08  
+**Q: Onde posso encontrar projetos de exemplo?**  
+A: The Aspose.3D GitHub repository and the official documentation site provide ready‑to‑run examples for all tutorials listed above.
+
+**Última atualização:** 2026-08-17  
 **Testado com:** Aspose.3D for Java 24.12  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Tutoriais relacionados
+
+- [Como atualizar materiais 3D para PBR em Java com Aspose.3D](/3d/java/load-and-save/upgrade-materials-to-pbr/)
+- [Como incorporar textura em FBX com Java – Aplicar materiais a objetos 3D usando Aspose.3D](/3d/java/geometry/apply-materials-to-3d-objects/)
+- [Tutorial de gráficos 3D Java - Criar uma cena de cubo 3D com Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
