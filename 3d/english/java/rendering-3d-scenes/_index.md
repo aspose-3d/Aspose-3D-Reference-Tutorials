@@ -96,37 +96,30 @@ Add the Aspose.3D Maven dependency to your `pom.xml` (or the equivalent Gradle s
     <version>23.12</version>
 </dependency>
 ```
+### Step 2: Create a scene and add geometry
+Instantiate `Scene`, then use `createChildNode(name, entity)` to insert a cube.
 
-### Step 2: Create a scene and add geometry
-Instantiate `Scene`, then use `scene.getRootNode().createChildNode().addMesh()` to insert a cube.
-
-```java
+` ```java
 Scene scene = new Scene();
-Node cubeNode = scene.getRootNode().createChildNode();
-cubeNode.getEntity().addMesh(Mesh.createCube(2.0));
-```
-
-### Step 3: Configure a camera and light source
+scene.getRootNode().createChildNode("cube", new Box());
+` ```### Step 3: Configure a camera and light source
 Add a perspective camera and a directional light so the cube is visible.
 
-```java
-Camera camera = scene.getRootNode().createChildNode().addCamera();
-camera.setPosition(new Vector3(5, 5, 5));
-camera.lookAt(new Vector3(0, 0, 0));
+` ```java
+Node lightNode = scene.getRootNode().createChildNode("light", new Light());
+lightNode.getTransform().setTranslation(10, 10, 10);
 
-Light light = scene.getRootNode().createChildNode().addLight();
-light.setType(LightType.Directional);
-light.setDirection(new Vector3(-1, -1, -1));
-```
+Camera camera = new Camera();
+scene.getRootNode().createChildNode(camera);
+camera.setNearPlane(0.1);
+camera.getParentNode().getTransform().setTranslation(0, 5, 10);
+camera.setLookAt(Vector3.getZero());
+` ```### Step 4: Render to an image buffer
+Use the `render` method to render the scene from the camera's perspective and save to an image file.
 
-### Step 4: Render to an image buffer
-Call `scene.renderToImage()` and save the result as PNG.
-
-```java
-Image image = scene.renderToImage(800, 600);
-image.save("cube.png", ImageFormat.Png);
-```
-
+` ```java
+scene.render(camera, "cube.png", new Vector2(800, 600), "png");
+` ```
 When you run the program, `cube.png` will contain a fully shaded cube rendered from the defined camera perspective.
 
 ## Manually Control Render Targets for Customized Rendering in Java 3D

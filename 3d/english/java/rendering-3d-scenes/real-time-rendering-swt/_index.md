@@ -119,25 +119,34 @@ final Shell shell = new Shell(display);
 shell.setText("Aspose.3D Real-time rendering with SWT");
 shell.setSize(800, 600);
 ```
-
 ### Step 2: Set Up the Renderer and Scene
 
-Aspose.3D provides a `Renderer` that draws the scene to a native window. We also create a basic `Scene`, attach a camera, and give the viewport a pleasant background color.
+Aspose.3D provides a `Renderer` that draws the scene to a native window. We also create a basic `Scene`, attach a camera and light, and give the viewport a pleasant background color.
 
-`Renderer` is the core component that converts 3‑D objects into 2‑D pixels, and `Scene` acts as a container for all visual elements such as meshes, lights, and cameras.
+`Renderer` is the core component that converts 3-D objects into 2-D pixels, and `Scene` acts as a container for all visual elements such as meshes, lights, and cameras.
 
-```java
+` ```java
 // Initialize renderer and scene
 Renderer renderer = Renderer.createRenderer();
 IRenderWindow window = renderer.getRenderFactory().createRenderWindow(new RenderParameters(), WindowHandle.fromWin32(shell.handle));
 Scene scene = new Scene();
-Camera camera = setupScene(scene);
+
+// Add a light
+Node lightNode = scene.getRootNode().createChildNode("light", new Light());
+lightNode.getTransform().setTranslation(10, 10, 10);
+
+// Setup camera
+Camera camera = new Camera();
+scene.getRootNode().createChildNode(camera);
+camera.setNearPlane(0.1);
+camera.getParentNode().getTransform().setTranslation(0, 5, 10);
+camera.setLookAt(Vector3.getZero());
+
 Viewport vp = window.createViewport(camera);
-vp.setBackgroundColor(Color.pink);
-```
+vp.setBackgroundColor(new Vector3(1.0, 0.75, 0.8));
+` ```
 
-> **Pro tip:** `setupScene(scene)` is a helper method you would implement to add lights, meshes, or any other objects you need.
-
+> **Pro tip:** The `setupScene` method should return the configured `Camera` instance.
 ### Step 3: Wire Up UI Events
 
 We need to handle two common events: closing the window with **Esc** and resizing the window so the render target matches the new size.
@@ -159,14 +168,13 @@ shell.addListener(SWT.Resize, event -> {
     window.setSize(new Dimension(rect.width, rect.height));
 });
 ```
-
 ### Step 4: Run the Event Loop and Animate
 
-The SWT event loop keeps the UI responsive. Inside the loop we update the light’s position to create a simple animation, then ask Aspose.3D to render the current frame.
+The SWT event loop keeps the UI responsive. Inside the loop we update the light's position to create a simple animation, then ask Aspose.3D to render the current frame.
 
 The animation logic runs on the UI thread, guaranteeing smooth frame updates without additional threading complexity.
 
-```java
+` ```java
 // Event loop
 shell.open();
 while(!shell.isDisposed()) {
@@ -175,7 +183,7 @@ while(!shell.isDisposed()) {
     double time = System.currentTimeMillis() / 1000.0;
     double x = Math.cos(time) * 10;
     double z = Math.sin(time) * 10;
-    light.getTransform().setTranslation(x, 5, z);
+    lightNode.getTransform().setTranslation(x, 5, z);
     // Render
     renderer.render(window);
 }
@@ -183,8 +191,7 @@ while(!shell.isDisposed()) {
 // Shut down
 renderer.close();
 display.dispose();
-```
-
+` ```
 ## Why Use Real‑Time 3D Rendering with Aspose.3D?
 
 Aspose.3D delivers high‑performance real‑time rendering by leveraging native GPU acceleration and an optimized pipeline, allowing developers to achieve smooth frame rates even with complex geometry. Its cross‑platform engine abstracts low‑level graphics APIs, so you can focus on scene creation while ensuring consistent visual quality across Windows, Linux, and macOS.

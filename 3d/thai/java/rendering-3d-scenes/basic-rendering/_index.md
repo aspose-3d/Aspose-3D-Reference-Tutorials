@@ -1,24 +1,28 @@
 ---
+title: Basic 3D Rendering in Java – How to Render 3D Scenes
+linktitle: Basic 3D Rendering in Java – How to Render 3D Scenes
+second_title: Aspose.3D Java API
+description: Learn basic 3d rendering in Java with Aspose.3D. Follow step‑by‑step to set up a scene, apply material, add a torus, and master cross‑platform 3D rendering.
+weight: 11
+url: /java/rendering-3d-scenes/basic-rendering/
 date: 2026-06-08
-description: เรียนรู้การเรนเดอร์ 3D พื้นฐานใน Java ด้วย Aspose.3D. ทำตามขั้นตอนเพื่อตั้งค่า
-  scene, ใช้ material, เพิ่ม torus, และเชี่ยวชาญการเรนเดอร์ 3D แบบ cross‑platform
 keywords:
 - basic 3d rendering
 - cross platform 3d
 - render 3d java
 - setup 3d scene
 - java 3d camera
-linktitle: การเรนเดอร์ 3D พื้นฐานใน Java – วิธีการเรนเดอร์ 3D Scenes
 schemas:
-- author: Aspose
-  dateModified: '2026-06-08'
+- type: TechArticle
+  headline: Basic 3D Rendering in Java – How to Render 3D Scenes
   description: Learn basic 3d rendering in Java with Aspose.3D. Follow step‑by‑step
     to set up a scene, apply material, add a torus, and master cross‑platform 3D rendering.
-  headline: Basic 3D Rendering in Java – How to Render 3D Scenes
-  type: TechArticle
-- description: Learn basic 3d rendering in Java with Aspose.3D. Follow step‑by‑step
-    to set up a scene, apply material, add a torus, and master cross‑platform 3D rendering.
+  dateModified: '2026-06-08'
+  author: Aspose
+- type: HowTo
   name: Basic 3D Rendering in Java – How to Render 3D Scenes
+  description: Learn basic 3d rendering in Java with Aspose.3D. Follow step‑by‑step
+    to set up a scene, apply material, add a torus, and master cross‑platform 3D rendering.
   steps:
   - name: Setting up the Scene (how to apply material – camera & lighting)
     text: We create a `Scene` object, add a camera, and configure basic lighting.
@@ -40,73 +44,74 @@ schemas:
     text: The camera determines the viewpoint from which the scene is rendered. By
       adjusting its position, look‑at target, and field of view you control the final
       composition.
-  type: HowTo
-- questions:
-  - answer: Visit the **[documentation](https://reference.aspose.com/3d/java/)** for
+- type: FAQPage
+  questions:
+  - question: Where can I find Aspose.3D for Java documentation?
+    answer: Visit the **[documentation](https://reference.aspose.com/3d/java/)** for
       API reference, code samples, and detailed guides.
-    question: Where can I find Aspose.3D for Java documentation?
-  - answer: Get a trial license from **[this link](https://purchase.aspose.com/temporary-license/)**
+  - question: How can I obtain a temporary license for Aspose.3D?
+    answer: Get a trial license from **[this link](https://purchase.aspose.com/temporary-license/)**
       and follow the activation steps.
-    question: How can I obtain a temporary license for Aspose.3D?
-  - answer: Check the **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)** for
+  - question: Are there example projects using Aspose.3D for Java?
+    answer: Check the **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)** for
       community‑shared samples and discussions.
-    question: Are there example projects using Aspose.3D for Java?
-  - answer: Yes—download a free trial **[here](https://releases.aspose.com/)** and
+  - question: Can I try Aspose.3D for Java for free?
+    answer: Yes—download a free trial **[here](https://releases.aspose.com/)** and
       explore all features without cost.
-    question: Can I try Aspose.3D for Java for free?
-  - answer: Purchase the product **[here](https://purchase.aspose.com/buy)** for a
+  - question: Where can I purchase Aspose.3D for Java?
+    answer: Purchase the product **[here](https://purchase.aspose.com/buy)** for a
       full license and support.
-    question: Where can I purchase Aspose.3D for Java?
-  type: FAQPage
-second_title: Aspose.3D Java API
-title: การเรนเดอร์ 3D พื้นฐานใน Java – วิธีการเรนเดอร์ 3D Scenes
-url: /th/java/rendering-3d-scenes/basic-rendering/
-weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การเรนเดอร์ 3D เบื้องต้นใน Java – วิธีการเรนเดอร์ฉาก 3D
+# Basic 3D Rendering in Java – How to Render 3D Scenes
 
-## บทนำ
+## Introduction
 
-ในบทแนะนำนี้คุณจะได้เรียนรู้ **basic 3d rendering** ใน Java ด้วยไลบรารี Aspose.3D เราจะเดินผ่านขั้นตอนการตั้งค่าฉาก, เพิ่มเรขาคณิตเช่น plane, torus, และ cylinders, การใช้ material, และการกำหนดค่ากล้อง. เมื่อเสร็จคุณจะมีตัวอย่างที่สามารถรันได้และสามารถต่อยอดสำหรับเกม, การแสดงผลทางวิทยาศาสตร์, หรือโครงการ 3D ที่ใช้ Java ใด ๆ
+In this tutorial you’ll learn **basic 3d rendering** in Java using the Aspose.3D library. We’ll walk through setting up a scene, adding geometry such as a plane, torus, and cylinders, applying material, and configuring the camera. By the end you’ll have a runnable example you can extend for games, scientific visualizations, or any Java‑based 3D project.
 
-## คำตอบสั้น
-- **ไลบรารีที่ใช้คืออะไร?** Aspose.3D for Java  
-- **เป้าหมายหลัก?** เรียนรู้ **basic 3d rendering** ด้วยรูปทรง, material, และกล้อง  
-- **ข้อกำหนดเบื้องต้น?** พื้นฐาน Java, ติดตั้ง Aspose.3D, และ IDE ง่าย ๆ  
-- **เวลาในการรันโดยทั่วไป?** การเรนเดอร์ฉากเล็กใช้เวลาน้อยกว่า 1 วินาทีบนฮาร์ดแวร์สมัยใหม่  
-- **สามารถเพิ่ม torus ได้หรือไม่?** ได้ – ดูขั้นตอน *Adding a Torus*  
+## Quick Answers
+- **What library is used?** Aspose.3D for Java  
+- **Primary goal?** Learn **basic 3d rendering** with shapes, materials, and a camera  
+- **Key prerequisites?** Java basics, Aspose.3D installed, and a simple IDE  
+- **Typical runtime?** Rendering a small scene takes under a second on modern hardware  
+- **Can I add a torus?** Yes – see the *Adding a Torus* step  
 
-## การเรนเดอร์ 3D เบื้องต้นใน Java คืออะไร?
+## What is basic 3d rendering in Java?
 
-การเรนเดอร์ 3D เบื้องต้นคือกระบวนการแปลงฉากเสมือน 3‑D (วัตถุ, แสง, และกล้อง) ให้เป็นภาพ 2‑D ที่สามารถแสดงหรือบันทึกได้ ด้วย Aspose.3D คุณสามารถควบคุมทุกขั้นตอนด้วยโปรแกรม ทำให้มีความยืดหยุ่นเต็มที่สำหรับการสร้างภาพแบบกำหนดเอง
+Basic 3d rendering is the process of converting a virtual 3‑D scene—objects, lights, and cameras—into a 2‑D image that can be displayed or saved. With Aspose.3D you programmatically control every stage, giving you total flexibility for custom visualizations.
 
-## ทำไมต้องใช้ Aspose.3D สำหรับ Java?
+## Why use Aspose.3D for Java?
 
-Aspose.3D มี API แบบ pure‑Java ที่ไม่ต้องพึ่งพา native dependencies, รองรับรูปแบบไฟล์หลากหลาย, และทำงานสม่ำเสมอบน Windows, Linux, และ macOS. เครื่องยนต์ประสิทธิภาพสูงจัดการโมเดลขนาดใหญ่ได้อย่างมีประสิทธิภาพ, ในขณะที่ primitive เรขาคณิตและระบบ material ในตัวช่วยให้คุณสร้างเนื้อหาภาพที่หลากหลายด้วยโค้ดเพียงเล็กน้อย
+Aspose.3D provides a pure‑Java API that eliminates native dependencies, supports a wide range of file formats, and runs consistently on Windows, Linux, and macOS. Its high‑performance engine handles large models efficiently, while built‑in geometry primitives and material handling let you create rich visual content with minimal code.
 
-- **Pure Java API** – ไม่ต้องพึ่งพา native dependencies, ผสานรวมง่ายในโครงการ Java ใด ๆ  
-- **Rich geometry support** – รองรับ plane, torus, cylinders และอื่น ๆ พร้อมใช้งาน  
-- **Material system** – วิธีง่าย ๆ ในการ **apply material** เช่น สี, ความโปร่งใส, และการเงา  
-- **Cross‑platform rendering** – ทำงานบน Windows, Linux, และ macOS  
+- **Pure Java API** – no native dependencies, easy to integrate into any Java project.  
+- **Rich geometry support** – planes, torus, cylinders, and more out of the box.  
+- **Material system** – straightforward ways to **apply material** properties such as color, transparency, and shading.  
+- **Cross‑platform rendering** – works on Windows, Linux, and macOS.
 
-## ข้อกำหนดเบื้องต้น
+## Prerequisites
 
-- ความรู้พื้นฐานการเขียนโปรแกรม Java  
-- ติดตั้ง Aspose.3D for Java หากยังไม่ได้ดาวน์โหลด, รับได้จาก **[here](https://releases.aspose.com/3d/java/)**  
-- คุ้นเคยกับแนวคิดพื้นฐานของกราฟิก 3D (meshes, lights, cameras)  
+- Basic knowledge of Java programming.  
+- Aspose.3D for Java installed. If you haven’t downloaded it yet, get it **[here](https://releases.aspose.com/3d/java/)**.  
+- Familiarity with fundamental 3D graphics concepts (meshes, lights, cameras).  
 
-## คุณตั้งค่าฉากการเรนเดอร์ 3D เบื้องต้นใน Java อย่างไร?
+## How do you set up a basic 3d rendering scene in Java?
+### Step 1: Setting up the Scene (how to apply material - camera & lighting)
 
-สร้างอ็อบเจ็กต์ `Scene`, เพิ่มกล้อง, และกำหนดแหล่งแสง `Scene` เป็นคอนเทนเนอร์ระดับบนสุดที่เก็บเรขาคณิต, แสง, และกล้องทั้งหมด หลังจากสร้างฉากแล้วคุณสามารถแนบ `Camera` (กำหนดมุมมอง) และ `DirectionalLight` (ให้แสงส่องวัตถุ) การตั้งค่าแบบสามขั้นตอนนี้ทำให้คุณได้สภาพแวดล้อมพร้อมเรนเดอร์ในไม่กี่บรรทัดโค้ด
+We create a `Scene` object, add a camera, and configure basic lighting. The `Camera` class defines the eye position, target, and projection parameters for rendering.
 
-### นำเข้าแพ็กเกจ
+` ```java
+// Add a light source
+Node lightNode = scene.getRootNode().createChildNode("light", new Light());
+lightNode.getTransform().setTranslation(10, 10, 10);
+` ```
+### Import Packages
 
-ก่อนอื่นให้ import คลาสของ Aspose.3D และแพ็กเกจมาตรฐาน `java.awt` สำหรับการจัดการสี
+First, import the Aspose.3D classes and the standard `java.awt` package for color handling.
 
 ```java
 import com.aspose.threed.*;
@@ -114,13 +119,13 @@ import com.aspose.threed.*;
 import java.awt.*;
 ```
 
-## เชี่ยวชาญเทคนิคการเรนเดอร์เบื้องต้น
+## Master Basic Rendering Techniques
 
-ด้านล่างเป็นคู่มือขั้นตอนเต็มที่ แต่ละขั้นตอนมีคำอธิบายสั้น ๆ ตามด้วยโค้ด placeholder ดั้งเดิม (ไม่เปลี่ยนแปลง)
+Below is the complete step‑by‑step guide. Each step includes a short explanation followed by the original placeholder code block (unchanged).
 
-### ขั้นตอนที่ 1: ตั้งค่าฉาก (วิธีการใช้วัสดุ – กล้องและแสง)
+### Step 1: Setting up the Scene (how to apply material – camera & lighting)
 
-เราสร้างอ็อบเจ็กต์ `Scene`, เพิ่มกล้อง, และกำหนดแสงพื้นฐาน วิธีการช่วยเหลือจะคืนค่าอินสแตนซ์ `Camera` ที่กำหนดค่าแล้ว คลาส `Camera` กำหนดตำแหน่งตา, จุดมุ่งหมาย, และพารามิเตอร์การฉายภาพสำหรับการเรนเดอร์
+We create a `Scene` object, add a camera, and configure basic lighting. The helper method returns the configured `Camera` instance. The `Camera` class defines the eye position, target, and projection parameters for rendering.
 
 ```java
 protected static Camera setupScene(Scene scene) {
@@ -129,41 +134,37 @@ protected static Camera setupScene(Scene scene) {
     return camera;
 }
 ```
+### Step 2: Creating a Plane (java 3d graphics basics)
 
-### ขั้นตอนที่ 2: สร้างพื้น (พื้นฐานกราฟิก 3D ใน Java)
+A simple plane gives us a ground reference. We also set material properties on the node to apply color.
 
-พื้นเรียบง่ายให้จุดอ้างอิงพื้นดิน เรา **apply material** โดยตั้งค่าสีทึบ คลาส `Material` เก็บคุณสมบัติผิวเช่นสี diffuse, ไฮไลท์ specular, และความโปร่งใส
-
-```java
-Node plane = scene.getRootNode().createChildNode("plane", (new Plane(20, 20)).toMesh());
-applyMaterial(plane, new Color(0xff8c00));
+` ```java
+Node plane = scene.getRootNode().createChildNode("plane", new Plane().toMesh());
+plane.setProperty("Color", new Vector3(1.0, 0.55, 0.0));
 plane.getTransform().setTranslation(0, 0, 0);
 ((Mesh)plane.getEntity()).setReceiveShadows(true);
-```
+` ```### Step 3: Adding a Torus (how to add torus)
 
-### ขั้นตอนที่ 3: เพิ่มโทรัส (วิธีเพิ่มโทรัส)
+A torus demonstrates how to work with more complex geometry and transparent materials. The `Torus` primitive is generated with inner and outer radii, then a semi-transparent material is applied.
 
-โทรัสแสดงวิธีทำงานกับเรขาคณิตที่ซับซ้อนและวัสดุโปร่งใส primitive `Torus` สร้างด้วยรัศมีในและนอก, จากนั้นจึงใช้วัสดกึ่งโปร่งใส
-
-```java
+` ```java
 Mesh torusMesh = (new Torus("", 1, 0.4, 50, 50, Math.PI*2)).toMesh();
 Node torus = scene.getRootNode().createChildNode("torus", torusMesh);
-applyMaterial(torus, new Color(0x330c93)).setTransparency(0.3);
+torus.setProperty("Color", new Vector3(0.2, 0.047, 0.576));
+torus.setProperty("Transparency", 0.3);
 torus.getTransform().setTranslation(2, 1, 1);
-```
+` ```### Step 4: Incorporating Cylinders (additional shapes)
 
-### ขั้นตอนที่ 4: เพิ่มทรงกระบอก (รูปทรงเพิ่มเติม)
+Here we add a few cylinders with different rotations and materials to enrich the scene.
 
-ที่นี่เราจะเพิ่มทรงกระบอกหลายอันด้วยการหมุนและวัสดุที่แตกต่างกันเพื่อเพิ่มความหลากหลายให้ฉาก แต่ละ `Cylinder` จะได้รับอินสแตนซ์ `Material` ของตนเอง ทำให้สามารถกำหนดสีและการเงาแยกกันได้
+` ```java
+Node cylinder = scene.getRootNode().createChildNode("cylinder", new Cylinder().toMesh());
+cylinder.getTransform().setTranslation(0, 1, 0);
+cylinder.setProperty("Color", new Vector3(0.1, 0.5, 0.9));
+` ```
+### Step 5: Configuring the Camera (final view)
 
-```java
-// Code for adding cylinders with specific rotations and materials
-// ...
-```
-
-### ขั้นตอนที่ 5: ตั้งค่ากล้อง (มุมมองสุดท้าย)
-
-กล้องกำหนดมุมมองที่ใช้เรนเดอร์ฉาก โดยการปรับตำแหน่ง, จุดมุ่งหมาย, และมุมมอง (field of view) คุณจะควบคุมการจัดองค์ประกอบสุดท้ายได้
+The camera determines the viewpoint from which the scene is rendered. By adjusting its position, look‑at target, and field of view you control the final composition.
 
 ```java
 Camera camera = new Camera();
@@ -174,17 +175,17 @@ camera.setLookAt(Vector3.ORIGIN);
 return camera;
 ```
 
-## ปัญหาทั่วไปและวิธีแก้
+## Common Issues and Solutions
 
-คลาส `Vector3` แทนพิกัดสามมิติ (x, y, z) ที่ใช้สำหรับตำแหน่งและทิศทาง
+The `Vector3` class represents a three‑dimensional coordinate (x, y, z) used for positions and directions.
 
-| ปัญหา | สาเหตุ | วิธีแก้ |
-|-------|--------|--------|
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
 | Objects appear invisible | Material transparency set to 1.0 or missing light | Reduce transparency (`setTransparency(0.3)`) and ensure a light source exists |
 | Camera looks through the scene | `LookAt` target not set to the origin | Use `camera.setLookAt(Vector3.ORIGIN)` as shown |
 | Meshes don’t receive shadows | `setReceiveShadows(true)` not called on the mesh | Call it on each mesh you want to cast/receive shadows |
 
-## คำถามที่พบบ่อย
+## Frequently Asked Questions
 
 **Q: Where can I find Aspose.3D for Java documentation?**  
 A: Visit the **[documentation](https://reference.aspose.com/3d/java/)** for API reference, code samples, and detailed guides.
@@ -209,7 +210,7 @@ A: Purchase the product **[here](https://purchase.aspose.com/buy)** for a full l
 
 {{< blocks/products/products-backtop-button >}}
 
-## บทแนะนำที่เกี่ยวข้อง
+## Related Tutorials
 
 - [Java 3D Graphics Tutorial - Create a 3D Cube Scene with Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
 - [How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D Tutorial](/3d/java/animations/add-animation-properties-to-scenes/)

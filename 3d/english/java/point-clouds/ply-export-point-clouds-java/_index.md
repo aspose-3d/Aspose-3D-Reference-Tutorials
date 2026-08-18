@@ -63,17 +63,17 @@ Aspose.3D is the most comprehensive Java library for point‑cloud export becaus
 ## Import Packages
 
 To start, import the essential Aspose.3D namespaces so the compiler can locate the classes we’ll use.
-
 `PlySaveOptions` holds settings for exporting geometry to the PLY format.
 
-```java
+` ```java
 import com.aspose.threed.FileFormat;
+import com.aspose.threed.Node;
 import com.aspose.threed.PlySaveOptions;
+import com.aspose.threed.Scene;
 import com.aspose.threed.Sphere;
 
 import java.io.IOException;
-```
-
+` ```
 ## Step 1: Set Up PLY Export Options (export point cloud ply)
 
 Configure the `PlyExportOptions` object. The `setPointCloud(true)` flag tells Aspose.3D to treat the geometry as a point cloud rather than a mesh, which is essential for efficient PLY storage.
@@ -108,19 +108,19 @@ Specify a writable location on disk. Ensure the folder exists and that the Java 
 String outputPath = "Your Document Directory" + "sphere.ply";
 // ExEnd:5
 ```
-
 ## Step 4: Encode and Save the PLY File (java ply tutorial)
 
-Calling `FileFormat.PLY.encode` writes the geometry to the file using the options defined earlier. After this line runs, a `sphere.ply` file appears in the target folder, ready for consumption by any PLY‑compatible viewer.
+The `PlySaveOptions` object configures how the PLY file is written. To export the geometry, add it to a scene and call `save` with the options.
 
-`FileFormat.PLY.encode` writes the given scene to a PLY file using the specified options.
-
-```java
+` ```java
 // ExStart:6
-FileFormat.PLY.encode(sphere, outputPath, options);
+Scene scene = new Scene();
+Node node = new Node("sphere");
+node.setEntity(sphere.toMesh());
+scene.getRootNode().addChildNode(node);
+scene.save(outputPath, options);
 // ExEnd:6
-```
-
+` ```
 ### Repeat for Different Scenarios
 
 You can reuse the same pattern for other point‑cloud objects—just replace the `Sphere` instance with your own data and adjust the export options if needed. This flexibility lets you **save point cloud as ply** for any custom dataset.
