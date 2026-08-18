@@ -1,7 +1,7 @@
 ---
-title: Export PLY Files in Java with Aspose.3D – how to export ply
-linktitle: Export PLY Files in Java with Aspose.3D – how to export ply
-second_title: Aspose.3D Java API – Export PLY Files
+title: Learn to Export PLY Files in Java with Aspose.3D – how to export ply
+linktitle: Learn to Export PLY Files in Java with Aspose.3D – how to export ply
+second_title: Aspose.3D Java API – Learn to Export PLY Files
 description: Learn how to export PLY files in Java using Aspose.3D. This step‑by‑step guide shows point cloud handling, PLY export, and performance tips.
 weight: 16
 url: /java/point-clouds/ply-export-point-clouds-java/
@@ -29,7 +29,6 @@ schemas:
     answer: Use `Scene scene = new Scene(); scene.open("file.ply");` to read the file
       into a scene graph for further processing.
 ---
-
 {{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/tutorial-page-section >}}

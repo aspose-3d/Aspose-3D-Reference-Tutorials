@@ -1,8 +1,8 @@
 ---
-title: How to Create UV Coordinates Java – Generate UV for 3D Models
+title: Learn How to Create UV Coordinates in Java – Generate UV for 3D Models with Aspose.3D
 linktitle: Generate UV Coordinates for Texture Mapping in Java 3D Models
 second_title: Aspose.3D Java API
-description: Learn how to **create uv coordinates java** and generate UV mapping for Java 3D models using Aspose.3D, then export the result as an OBJ file in a clear step‑by‑step guide.
+description: Learn how to quickly **create uv coordinates java** and generate UV mapping for Java 3D models using Aspose.3D, then export the result as an OBJ file in a clear step‑by‑step guide.
 weight: 11
 url: /java/polygon/generate-uv-coordinates/
 date: 2026-06-03
