@@ -29,8 +29,8 @@ schemas:
     answer: Use `Scene scene = new Scene(); scene.open("file.ply");` to read the file
       into a scene graph for further processing.
 ---
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Export PLY Files in Java – how to export ply
@@ -70,7 +70,6 @@ To start, import the essential Aspose.3D namespaces so the compiler can locate t
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.PlySaveOptions;
 import com.aspose.threed.Sphere;
-
 
 import java.io.IOException;
 ```
@@ -169,15 +168,13 @@ A: Use `Scene scene = new Scene(); scene.open("file.ply");` to read the file int
 **Tested With:** Aspose.3D for Java (latest release)  
 **Author:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## Related Tutorials
 
 - [Import PLY File Java – Load PLY Point Clouds Seamlessly](/3d/java/point-clouds/load-ply-point-clouds-java/)
 - [How to Convert Mesh to Point Cloud in Java with Aspose.3D](/3d/java/point-clouds/create-point-clouds-java/)
 - [aspose 3d point cloud - Export 3D Scenes as Point Clouds with Aspose.3D for Java](/3d/java/point-clouds/export-3d-scenes-point-clouds-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
