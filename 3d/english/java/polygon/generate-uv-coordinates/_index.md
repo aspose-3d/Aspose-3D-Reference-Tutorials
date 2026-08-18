@@ -84,7 +84,7 @@ If you’re looking to **create uv coordinates java** for texture mapping in a J
 
 UV mapping lets you wrap a 2‑D image (the texture) around a 3‑D object. Without proper UV coordinates, textures appear stretched, misaligned, or missing entirely. Generating UVs manually gives you full control over how textures are projected, which is essential for games, simulations, and any visual‑rich Java application.
 
-## Why Use Aspose.3D for UV Generation?
+## Why use aspose.3D for UV generation?
 
 Aspose.3D supports **50+ input and output formats** — including OBJ, FBX, STL, and COLLADA — and can process multi‑hundred‑page models without loading the entire file into memory. Its `PolygonModifier.generateUV` routine creates a planar UV layout in a single call, saving you from writing custom projection math.
 
@@ -93,7 +93,7 @@ Aspose.3D supports **50+ input and output formats** — including OBJ, FBX, STL,
 Before we start, make sure you have:
 
 - Basic Java programming knowledge.  
-- Aspose.3D for Java installed – you can download it from [here](https://releases.aspose.com/3d/java/).  
+- Aspose.3D for Java installed – you can download it from [Aspose 3D Java download page](https://releases.aspose.com/3d/java/).  
 - A Java IDE (IntelliJ IDEA, Eclipse, VS Code, etc.) set up with the Aspose.3D JARs on the classpath.
 
 ## Import Packages
@@ -117,7 +117,7 @@ Load your mesh, call `PolygonModifier.generateUV`, and attach the resulting UV e
 
 ## Step‑by‑Step Guide
 
-### Step 1: Set Document Directory Path
+### Step 1: set document directory path
 
 Define where the generated OBJ file will be saved.
 
@@ -127,7 +127,7 @@ String MyDir = "Your Document Directory";
 
 > **Pro tip:** Use an absolute path or `System.getProperty("user.dir")` to avoid relative‑path surprises.
 
-### Step 2: Create a Scene
+### Step 2: create a scene
 
 `Scene` is Aspose.3D's top‑level container that holds all objects, lights, and cameras in a 3‑D world.
 
@@ -135,7 +135,7 @@ String MyDir = "Your Document Directory";
 Scene scene = new Scene();
 ```
 
-### Step 3: Create a Mesh
+### Step 3: create a mesh
 
 `Mesh` represents a geometric object composed of vertices, edges, and faces.  
 We’ll start with a simple box mesh and deliberately remove any built‑in UV data to simulate a mesh that lacks texture coordinates.
@@ -145,7 +145,7 @@ Mesh mesh = (new Box()).toMesh();
 mesh.getVertexElements().remove(mesh.getElement(VertexElementType.UV));
 ```
 
-### Step 4: Generate UV Coordinates
+### Step 4: generate UV coordinates
 
 `PolygonModifier.generateUV` creates a basic planar UV layout for any mesh you pass in. The method returns a `VertexElement` that holds the new UV data.
 
@@ -170,7 +170,7 @@ mesh.addElement(uv);
 Node node = scene.getRootNode().createChildNode(mesh);
 ```
 
-### Step 7: Export OBJ File Java
+### Step 7: export OBJ file java
 
 `FileFormat.WAVEFRONTOBJ` specifies the OBJ file format for saving the scene.  
 Finally, write the entire scene—including our newly created UV coordinates—to an OBJ file, which can be opened in virtually any 3‑D tool.
@@ -181,7 +181,7 @@ scene.save(MyDir + "test.obj", FileFormat.WAVEFRONTOBJ);
 
 > **What to expect:** Opening `test.obj` in a viewer like Blender should show the box with a default UV layout, ready for any texture you apply.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -189,7 +189,7 @@ scene.save(MyDir + "test.obj", FileFormat.WAVEFRONTOBJ);
 | **File not found error** | `MyDir` points to a non‑existent folder. | Create the directory first or use `new File(MyDir).mkdirs();`. |
 | **License exception** | Running without a valid license in production. | Apply a temporary or permanent license as described in Aspose documentation. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I use Aspose.3D for Java with other programming languages?
 
@@ -197,19 +197,19 @@ A1: Aspose.3D is primarily designed for Java, but Aspose also offers .NET, C++, 
 
 ### Q2: Is there a trial version available for Aspose.3D?
 
-A2: Yes, you can explore the features of Aspose.3D by using the free trial available [here](https://releases.aspose.com/).
+A2: Yes, you can explore the features of Aspose.3D by using the free trial available [Aspose 3D free trial page](https://releases.aspose.com/).
 
 ### Q3: How can I get support for Aspose.3D?
 
-A3: Visit the Aspose.3D forum [here](https://forum.aspose.com/c/3d/18) to get community support and engage with other users.
+A3: Visit the Aspose.3D forum [Aspose 3D forum](https://forum.aspose.com/c/3d/18) to get community support and engage with other users.
 
 ### Q4: Where can I find comprehensive documentation for Aspose.3D?
 
-A4: The documentation is available [here](https://reference.aspose.com/3d/java/).
+A4: The documentation is available [Aspose 3D Java API reference](https://reference.aspose.com/3d/java/).
 
 ### Q5: Can I purchase a temporary license for Aspose.3D?
 
-A5: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A5: Yes, you can obtain a temporary license [temporary license purchase page](https://purchase.aspose.com/temporary-license/).
 
 ---
 

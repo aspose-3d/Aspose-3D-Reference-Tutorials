@@ -51,10 +51,10 @@ schemas:
     answer: Visit the [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) for community
       support and discussions.
   - question: Can I try Aspose.3D before purchasing?
-    answer: Yes, you can explore a [free trial](https://releases.aspose.com/) before
+    answer: Yes, you can explore a [Aspose.3D free trial](https://releases.aspose.com/) before
       making a purchase decision.
   - question: How do I obtain a temporary license for Aspose.3D?
-    answer: You can obtain a [temporary license](https://purchase.aspose.com/temporary-license/)
+    answer: You can obtain a [Aspose.3D temporary license](https://purchase.aspose.com/temporary-license/)
       for Aspose.3D through the website.
 ---
 
@@ -93,7 +93,7 @@ Aspose.3D for Java offers a comprehensive, pure‑Java 3D engine that eliminates
 Before diving into the code, make sure you have:
 
 1. **Java Development Kit (JDK)** – JDK 8 or newer installed on your machine.  
-2. **Aspose.3D for Java library** – download and install it from the [download page](https://releases.aspose.com/3d/java/).  
+2. **Aspose.3D for Java library** – download and install it from the [Aspose.3D Java download page](https://releases.aspose.com/3d/java/).  
 
 ## Import Packages
 
@@ -109,7 +109,7 @@ Now that the library is referenced, let’s create a scene and add some primitiv
 
 Load a new `Scene` object, add primitive nodes (Box, Cylinder, etc.), and then call `save` with the FBX7500ASCII format. In just a few lines you obtain a fully‑featured FBX file that can be opened in any major 3D editor, enabling seamless integration with game engines, rendering pipelines, or AR/VR applications.
 
-### Step 1: Initialize a Scene Object
+### Step 1: initialize a scene object
 
 The `Scene` class is Aspose.3D's top‑level container that holds all nodes, lights, cameras, and materials in memory.
 
@@ -149,7 +149,7 @@ myDir = myDir + "test.fbx";
 scene.save(myDir, FileFormat.FBX7500ASCII);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
@@ -157,7 +157,7 @@ scene.save(myDir, FileFormat.FBX7500ASCII);
 | **Empty scene** after export | No nodes were added before calling `save` | Verify that `createChildNode` calls are executed (debug with `scene.getRootNode().getChildCount()` ) |
 | **License exception** | Running without a valid license in production | Apply a temporary or permanent license using `License license = new License(); license.setLicense("Aspose.3D.Java.lic");` |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.3D for Java with other programming languages?**  
 A: Aspose.3D primarily supports Java, but there are versions available for .NET and C++ as well.
@@ -169,10 +169,10 @@ A: Absolutely. It provides a comprehensive set of features—including mesh mani
 A: Visit the [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) for community support and discussions.
 
 **Q: Can I try Aspose.3D before purchasing?**  
-A: Yes, you can explore a [free trial](https://releases.aspose.com/) before making a purchase decision.
+A: Yes, you can explore an [Aspose.3D free trial](https://releases.aspose.com/) before making a purchase decision.
 
 **Q: How do I obtain a temporary license for Aspose.3D?**  
-A: You can obtain a [temporary license](https://purchase.aspose.com/temporary-license/) for Aspose.3D through the website.
+A: You can obtain an [Aspose.3D temporary license](https://purchase.aspose.com/temporary-license/) for Aspose.3D through the website.
 
 ## Conclusion
 
