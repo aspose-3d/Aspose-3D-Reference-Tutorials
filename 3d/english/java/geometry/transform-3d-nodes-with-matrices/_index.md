@@ -153,7 +153,7 @@ Node cubeNode = new Node("cube");
 The `Common` helper builds a mesh from a list of polygons. Generate a mesh for the cube using the helper method in `Common`.
 
 ```java
-Mesh mesh = Common.createMeshUsingPolygonBuilder();
+Mesh mesh = new Box().toMesh();
 ```
 
 ### Step 4: Attach Mesh to the Node

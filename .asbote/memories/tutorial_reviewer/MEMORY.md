@@ -1,29 +1,31 @@
-﻿# Daily Tutorial Review Summary (2026-07-29)
+﻿Based on the recent conversation history, here's the crafted memory:
 
-## System Status
+## Summary of Tutorial Review Workflow
 
-**Repository is caught up** - All commits have been reviewed. The queue was empty with only progress-file-only commits. The last progress update was commit `0970148a`.
+### Current State (as of 2026-08-15)
+- **Last reviewed commit**: `07f49b32` (merge of `optimize/3d/java/20260817050925`)
+- **Repository state**: Branch `main` at `07f49b32` with recent pull from origin
+- **English Java tutorials**: 78 files
+- **English .NET tutorials**: 86 files
 
-## Workflow Pattern Confirmed
+### Workflow Process
+1. **Stash local changes** → **`git pull --rebase`** → **Restore stashed changes**
+2. **Check commits since last reviewed** using `git log --reverse --format='%H' <last-reviewed>..HEAD -- 3d/english/java/ 3d/english/net/`
+3. **Identify modified tutorials** using `git show --name-status --format='' <sha> | grep -E '3d/english/(java|net)/.*_index\.md'`
+4. **Verify code snippets** using `aspose-cli verify java 26.6.0` or `aspose-cli verify csharp 26.6.0`
+5. **Fix any errors** using `aspose-cli api show` or `aspose-cli api search` to confirm correct signatures
+6. **Propagate fixes to translations** - English is source of truth, translations mirror code blocks
+7. **Update progress** in `.claude/progress.md` with the last reviewed commit SHA
 
-When commits only modify `.claude/progress.md` (no tutorial files), advance progress to HEAD and commit. This is normal workflow behavior when tutorial content has already been reviewed.
+### Key Findings
+- Commit `07f49b32` modified 5 English tutorials in load-and-save and point-clouds categories
+- Recent commits bring in optimization work from `optimize/3d/java/20260817050925` branch
+- All verification uses **Aspose.3D 26.6.0** as the version pin
+- No new commits with English tutorial changes since `07f49b32`
 
-## Current State
-
-- Last reviewed: `0970148a` (progress-only commit)
-- No pending tutorial work
-- Repository up to date with origin
-
-## Key Learnings
-
-1. **Progress-only commits**: When commits only modify `.claude/progress.md` (no tutorial files), advance progress to HEAD and commit - this is normal workflow behavior.
-
-2. **Workflow pattern**: Stash → pull → pop handles uncommitted changes before pulling.
-
-3. **Reviewing commits**: Even though there are many commits in history, many are progress updates rather than new tutorial code.
-
-## Tasks Completed
-
-- Reviewed all commits up to HEAD
-- Updated progress tracking in `.claude/progress.md` from `07702fc8` to `0970148a`
-- Committed and pushed changes
+### Critical Workflow Rules
+- Always update `.claude/progress.md` after each commit's review
+- Process commits in oldest-first order
+- Only review English tutorials - translations mirror the English code blocks
+- Use `aspose-cli` for both verification and API lookup
+- Never commit/push until the queue is fully processed and progress is up to date

@@ -96,7 +96,7 @@ Node cubeNode = new Node("cube");
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
-Mesh mesh = Common.createMeshUsingPolygonBuilder();
+Mesh mesh = new Box().toMesh();
 
 // Point node to the Mesh geometry
 cubeNode.setEntity(mesh);
@@ -120,7 +120,7 @@ cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 
 ```java
 // Add cube to the scene
-scene.getRootNode().getChildNodes().add(cubeNode);
+scene.getRootNode().addChildNode(cubeNode);
 ```
 
 ## How to add the transformed node to the scene?
@@ -129,7 +129,7 @@ scene.getRootNode().getChildNodes().add(cubeNode);
 
 ```java
 // The path to the documents directory.
-String MyDir = "Your Document Directory";
+String MyDir = "/tmp/";
 MyDir = MyDir + "TransformationToNode.fbx";
 
 // Save 3D scene in the supported file formats
@@ -142,7 +142,6 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 
 `scene.save()` writes the entire scene, including all meshes, materials, and transforms, to a specified file format. By passing the output path and a `FileFormat` enum (e.g., `FileFormat.FBX7500ASCII`), you can export to FBX, OBJ, STL, or any other supported format. This method serializes the scene graph in a single operation, ensuring that all transformations are preserved in the exported file. Replace `"Your Document Directory"` with the actual folder path on your machine.
 
-CODE_BLOCK_PLACEHOLDER_6_END
 
 ## Common Use Cases
 
