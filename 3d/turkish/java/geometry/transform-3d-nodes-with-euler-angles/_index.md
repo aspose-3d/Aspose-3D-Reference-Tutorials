@@ -1,62 +1,87 @@
 ---
-date: 2026-02-20
-description: Mesh'i oluşturmayı, Aspose Java ile 3D düğümleri Euler açılarıyla dönüştürmeyi,
-  3D dönüş eklemeyi ve Java'da çevirme ayarlamayı öğrenin.
-linktitle: Create Mesh Aspose Java – Transform 3D Nodes with Euler Angles
+date: 2026-06-13
+description: Mesh oluşturma Aspose Java ve Euler Angles kullanarak 3D Nodes dönüştürme,
+  3D rotation ekleme, translation java ayarlama ve sahneleri verimli bir şekilde export
+  etme hakkında bilgi edinin.
+keywords:
+- create mesh aspose java
+- set translation java
+- euler angles java
+- aspose 3d rotation
+- export fbx java
+linktitle: Mesh Oluşturma Aspose Java – Euler Angles ile 3D Nodes Dönüştürme
+schemas:
+- author: Aspose
+  dateModified: '2026-06-13'
+  description: Learn how to create mesh aspose java and transform 3D nodes using Euler
+    angles, add rotation 3D, set translation java, and export scenes efficiently.
+  headline: Create Mesh Aspose Java – Transform 3D Nodes with Euler Angles
+  type: TechArticle
+- questions:
+  - answer: Euler angles are intuitive (pitch, yaw, roll) but can suffer from gimbal
+      lock, while quaternions avoid that issue and provide smoother interpolation
+      for animations.
+    question: What is the difference between Euler angles and quaternion rotation?
+  - answer: Yes. Call `setEulerAngles`, `setTranslation`, and `setScale` in any order;
+      the library composes them into a single transform matrix.
+    question: Can I chain multiple transformations on the same node?
+  - answer: Absolutely. Replace `FileFormat.FBX7500ASCII` with `FileFormat.OBJ` or
+      `FileFormat.STL` in the `scene.save` call.
+    question: Is it possible to export to other formats like OBJ or STL?
+  - answer: Create a parent node, apply the rotation to the parent, and add child
+      nodes under it. All children inherit the transformation automatically.
+    question: How do I apply the same rotation to several nodes at once?
+  - answer: The Java garbage collector handles most resources, but you can explicitly
+      call `scene.dispose()` when working with large scenes in long‑running applications.
+    question: Do I need to call any cleanup methods after saving?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Mesh Oluştur Aspose Java – Euler Açılarla 3D Düğümleri Dönüştür
+title: Mesh Oluşturma Aspose Java – Euler Angles ile 3D Nodes Dönüştürme
 url: /tr/java/geometry/transform-3d-nodes-with-euler-angles/
 weight: 19
 ---
-
-codes.
-
-Make sure to keep all markdown formatting.
-
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Euler Açılarla Java’da Aspose.3D Kullanarak 3D Düğümleri Dönüştürme
+# Aspose.3D kullanarak Java'da Euler Açılar ile 3D Düğümleri Dönüştürme
 
 ## Giriş
 
-Bu öğreticide **create mesh aspose java** nasıl oluşturulur ve Euler açıları uygulayarak 3D düğümleri nasıl dönüştürebileceğinizi keşfedeceksiniz. Rehberin sonunda 3D dönüşüm ekleyebilecek, set translation java yapabilecek ve gerçek zamanlı verilere tepki veren dinamik sahneler oluşturabileceksiniz.
+Bu öğreticide **create mesh aspose java** nesneleri oluşturacak, bunları sahne düğümlerine ekleyecek ve ardından bu düğümleri Euler açılarıyla dönüştüreceksiniz. Sonunda 3‑D dönüşüm ekleme, translation java ayarlama ve son sahneyi FBX ya da diğer formatlara dışa aktarma konusunda rahat olacaksınız—hepsi Aspose 3D’nin özlü API'si ile.
 
 ## Hızlı Yanıtlar
 - **Java'da 3D dönüşümleri hangi kütüphane yönetir?** Aspose 3D for Java.  
-- **Euler açılarıyla dönüşüm ayarlayan yöntem hangisidir?** `setEulerAngles()` on the node’s transform.  
-- **Bir düğümü uzayda nasıl hareket ettiririm?** Use `setTranslation()` with a `Vector3`.  
-- **Üretim için lisansa ihtiyacım var mı?** Yes, a commercial Aspose 3D license is required.  
-- **FBX'e dışa aktarabilir miyim?** Absolutely – `scene.save(..., FileFormat.FBX7500ASCII)` works out of the box.
+- **Euler açılarıyla dönüşümü ayarlayan yöntem hangisidir?** `setEulerAngles()` bir düğümün transformunda.  
+- **Bir düğümü uzayda nasıl hareket ettiririm?** Bir `Vector3` ile `setTranslation()` çağırın.  
+- **Üretim için lisansa ihtiyacım var mı?** Evet, ticari bir Aspose 3D lisansı gereklidir.  
+- **FBX'ye dışa aktarabilir miyim?** Kesinlikle – `scene.save(..., FileFormat.FBX7500ASCII)` doğrudan çalışır.
 
-## Önkoşullar
+## “create mesh aspose java” nedir?
 
-Öğreticiye başlamadan önce aşağıdaki önkoşulları yerine getirdiğinizden emin olun:
-
-- Java programlamaya temel bilgi.  
-- Makinenizde Java Development Kit (JDK) yüklü.  
-- Aspose.3D kütüphanesi, bunu [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/) adresinden edinebilirsiniz.
-
-## Paketleri İçe Aktarma
-
-Java projenize gerekli paketleri içe aktararak başlayın. Aspose.3D kütüphanesinin sınıf yolunuza doğru şekilde eklendiğinden emin olun. Henüz indirmediyseniz, indirme bağlantısını [burada](https://releases.aspose.com/3d/java/) bulabilirsiniz.
+`Mesh`, Aspose.3D’nin çekirdek geometri konteyneridir ve bir 3‑D nesne için köşe, yüz ve malzeme verilerini depolar. **create mesh aspose java** yaptığınızda, daha sonra bir düğüme eklenip dönüştürülecek şekli tanımlamış olursunuz. Mesh, tüm geometrik bilgileri kapsar, birden fazla düğüm veya sahnede yeniden kullanılabilir ve ek dönüşüm adımları olmadan doğrudan dışa aktarılabilir.
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## Mesh Aspose Java Oluşturma
+## Aspose 3D ile Euler açıları neden kullanılır?
 
-Herhangi bir 3D iş akışının ilk adımı **create mesh aspose java** – yani daha sonra dönüştürülecek geometrik veriyi oluşturmak. Bu örnekte Aspose’un yardımcı metodlarını kullanarak basit bir küp mesh’i oluşturacağız ve bir düğüme ekleyeceğiz.
+Euler açıları, dönüşümü üç sezgisel değer—pitch, yaw ve roll—olarak tanımlamanıza olanak tanır, böylece UI kaydırıcılarını veya sensör verilerini doğrudan bir modelin yönelimine eşleyebilirsiniz. Aspose 3D, alttaki matris matematiğini soyutlayarak, karmaşık quaternion hesaplamalarına odaklanmak yerine görsel sonuçlara odaklanmanızı sağlar.
 
-### aspose 3d java – Euler Açılarla Çalışma
+## Ön Koşullar
 
-#### Adım 1. Sahneyi ve Düğümü Başlatma
+Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-İlk olarak, dönüştürmek istediğiniz geometriyi tutacak bir sahne ve bir düğüm oluşturun.
+- Temel Java programlama deneyimi.  
+- JDK 8 veya daha yeni bir sürüm yüklü.  
+- Aspose.3D kütüphanesi, [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/) adresinden temin edilebilir.  
+- Üretim derlemeleri için geçerli bir Aspose 3D lisansı.
+
+## Paketleri İçe Aktar
+
+Java projenize gerekli paketleri içe aktararak başlayın. Aspose.3D kütüphanesinin classpath'inize doğru şekilde eklendiğinden emin olun. Henüz indirmediyseniz, indirme bağlantısını [burada](https://releases.aspose.com/3d/java/) bulabilirsiniz.
 
 ```java
 // ExStart:AddTransformationToNodeByEulerAngles
@@ -67,9 +92,9 @@ Scene scene = new Scene();
 Node cubeNode = new Node("cube");
 ```
 
-#### Adım 2. Mesh Oluştur ve Geometriyi Ayarla
+## mesh aspose java nasıl oluşturulur?
 
-Sonra, basit bir mesh (bu örnekte bir küp) oluşturun ve düğüme ekleyin.
+`Mesh`, bir 3‑D nesne için köşe ve yüz verilerini tutan bir konteynerdir. Geometrileri programlı olarak tanımlamak veya mevcut dosyalardan yüklemek için yöntemler sağlar. Bir mesh oluşturmak için sınıfı örnekleyin, köşeleri ekleyin, çokgenleri tanımlayın ve ardından mesh'i bir düğüme atayın. Bu adım, herhangi bir dönüşüm uygulanmadan önce geometrik temeli oluşturur ve gerektiğinde aynı mesh'i birden fazla düğümde yeniden kullanmanıza olanak tanır.
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
@@ -79,11 +104,9 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 cubeNode.setEntity(mesh);
 ```
 
-## Bir Düğüm'e 3D Dönüşüm Ekle
+## Bir düğümde translation java nasıl ayarlanır?
 
-#### Adım 3. Euler Açılarını ve Çevirimi Ayarla
-
-Şimdi Euler açılarıyla dönüşümü uygulayalım ve düğümü görünür bir konuma taşıyalım.
+`Transform`, her `Node`'a eklenen ve konum, dönüşüm ve ölçeği kontrol eden bileşendir. `Transform`'ın `setTranslation()` yöntemi, bir `Vector3` offset belirterek düğümü hareket ettirir. Bu yöntemi çağırarak, tüm mesh'i sahnenin orijinine göre kaydırırsınız ve iç geometrisini korursunuz. Bu yaklaşım, nesneleri dünya koordinat sisteminde konumlandırmak veya birden fazla modeli hizalamak için idealdir.
 
 ```java
 // Euler angles
@@ -93,22 +116,18 @@ cubeNode.getTransform().setEulerAngles(new Vector3(0.3, 0.1, -0.5));
 cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 ```
 
-## Set Translation Java – Düğümü Konumlandırma
+## Euler açılarını bir düğümü döndürmek için nasıl uygularım?
 
-Yukarıdaki çevirim adımı, **set translation java** uygulamasını gösterir: düğüm Z‑ekseni boyunca 20 birim kaydırılarak render sonrası görülebilir hâle getirilir.
-
-## Adım 4. Düğümü Sahneye Ekle
-
-Dönüştürülmüş düğümü sahnenin kök düğümüne ekleyin.
+`setEulerAngles()`, düğümün `Transform`'ının bir yöntemidir ve X, Y ve Z eksenleri etrafındaki dönüşümü (derece cinsinden) temsil eden üç kayan nokta değeri alır. Pitch, yaw ve roll değerleri sağlayarak düğümü sezgisel olarak döndürebilir ve Aspose 3D bu açıları dahili olarak bir dönüşüm matrisine dönüştürür. Bu yöntem, kullanıcıların her eksene karşılık gelen kaydırıcıları ayarladığı UI‑tabanlı dönüşümler için özellikle faydalıdır.
 
 ```java
 // Add cube to the scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
 
-## Adım 5. 3D Sahneyi Kaydet
+## Dönüştürülmüş düğümü sahneye nasıl eklerim?
 
-Son olarak sahneyi bir FBX dosyasına (veya desteklenen başka bir formata) dışa aktarın.
+`scene.getRootNode().addChild(node)`, bir düğümü sahne grafiğinin köküne ekler ve onu renderlanabilir hiyerarşinin bir parçası yapar. Düğüm eklendikten sonra, ona uygulanan tüm dönüşümler—çevrim, döndürme veya ölçekleme gibi—renderlama ve dışa aktarma işlemleri sırasında otomatik olarak dikkate alınır. Bu şekilde düğüm eklemek, hiyerarşik ilişkileri de etkinleştirir; böylece alt düğümler ebeveynlerinden dönüşümleri devralır.
 
 ```java
 // The path to the documents directory.
@@ -121,54 +140,56 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-Makinenizdeki uygun yol ile `"Your Document Directory"` ifadesini değiştirdiğinizden emin olun.
+## 3D sahneyi bir dosyaya nasıl kaydederim?
 
-## Neden Euler Açılarını Aspose 3D ile Kullanmalısınız?
+`scene.save()`, tüm mesh'leri, malzemeleri ve dönüşümleri içeren bütün sahneyi belirtilen dosya formatına yazar. Çıktı yolunu ve bir `FileFormat` enumunu (ör. `FileFormat.FBX7500ASCII`) geçirerek FBX, OBJ, STL veya desteklenen diğer formatlara dışa aktarabilirsiniz. Bu yöntem, sahne grafiğini tek bir işlemde serileştirir ve tüm dönüşümlerin dışa aktarılan dosyada korunmasını sağlar. `"Your Document Directory"` ifadesini makinenizdeki gerçek klasör yolu ile değiştirin.
 
-Euler açıları, dönüşümleri (pitch, yaw, roll) sezgisel bir şekilde düşünmenizi sağlar; bu da hızlı prototipleme veya dönüşüm kontrollerini son kullanıcılara sunmanız gerektiğinde mükemmeldir. Aspose 3D, altındaki matris matematiğini soyutlayarak görsel sonuca odaklanmanızı, matematiğe takılmamanızı sağlar.
+CODE_BLOCK_PLACEHOLDER_6_END
 
-## Yaygın Kullanım Senaryoları
+## Yaygın Kullanım Durumları
 
-- **Gerçek zamanlı veri görselleştirme:** Sensör girdisine göre bir modeli döndür.  
-- **Oyun tarzı kamera sistemleri:** Kamera simülasyonu için yaw‑pitch‑roll uygula.  
-- **Ürün yapılandırıcıları:** Müşterilerin basit kaydırıcılarla 3D ürün modelini döndürmesine izin ver.
+- **Gerçek zamanlı veri görselleştirme:** Canlı sensör girdisine göre bir modeli döndürün.  
+- **Oyun tarzı kamera sistemleri:** Yaw‑pitch‑roll uygulayarak bir birinci‑kişi kamera simüle edin.  
+- **Ürün yapılandırıcıları:** Müşterilerin basit kaydırıcılarla bir 3‑D ürün modelini döndürmelerine izin verin.
 
 ## Sorun Giderme ve İpuçları
 
-- **Gimbal kilidi:** Döndürürken beklenmedik sıçramalar fark ederseniz, quaternion tabanlı dönüşüme (`setRotationQuaternion()`) geçmeyi düşünün.  
-- **Birim tutarlılığı:** Aspose 3D, sağladığınız birimlerde çalışır; çevirim değerlerini modelinizin ölçeğiyle tutarlı tutun.  
-- **Performans:** Büyük sahneler için, kaydettikten sonra yerel kaynakları serbest bırakmak amacıyla `scene.dispose()` çağırın.
+- **Gimbal kilidi:** Dönüşüm beklenmedik şekilde sıçrarsa, `setRotationQuaternion()` ile quaternion tabanlı dönüşüme geçin.  
+- **Birim tutarlılığı:** Aspose 3D, sağladığınız birimleri korur; bozulmayı önlemek için çeviri değerlerini modelinizin ölçeğiyle tutarlı tutun.  
+- **Performans:** Büyük sahneler için, kaydetme sonrasında yerel kaynakları serbest bırakmak ve bellek sızıntılarını önlemek amacıyla `scene.dispose()`'ı açıkça çağırın.
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
-**S: Euler açıları ile quaternion dönüşümü arasındaki fark nedir?**  
-C: Euler açıları sezgisel (pitch, yaw, roll) olsa da gimbal kilidi sorununa uğrayabilir; quaternionlar bu sorunu ortadan kaldırır ve pürüzsüz interpolasyonlar için daha iyidir.
+**Q: Euler açıları ile quaternion dönüşümü arasındaki fark nedir?**  
+A: Euler açıları sezgisel (pitch, yaw, roll) olsa da gimbal kilidine maruz kalabilir, quaternion'lar ise bu sorunu önler ve animasyonlar için daha akıcı ara değerler sağlar.
 
-**S: Aynı düğüm üzerinde birden fazla dönüşüm zinciri oluşturabilir miyim?**  
-C: Evet. `setEulerAngles`, `setTranslation` ve `setScale` metodlarını istediğiniz sırayla çağırın; kütüphane bunları tek bir dönüşüm matrisinde birleştirir.
+**Q: Aynı düğümde birden fazla dönüşümü zincirleyebilir miyim?**  
+A: Evet. `setEulerAngles`, `setTranslation` ve `setScale`'i istediğiniz sırayla çağırın; kütüphane bunları tek bir dönüşüm matrisine birleştirir.
 
-**S: OBJ veya STL gibi diğer formatlara dışa aktarmak mümkün mü?**  
-C: Kesinlikle. `scene.save` çağrısında `FileFormat.FBX7500ASCII` yerine `FileFormat.OBJ` veya `FileFormat.STL` kullanın.
+**Q: OBJ veya STL gibi diğer formatlara dışa aktarmak mümkün mü?**  
+A: Kesinlikle. `scene.save` çağrısında `FileFormat.FBX7500ASCII` yerine `FileFormat.OBJ` veya `FileFormat.STL` kullanın.
 
-**S: Aynı dönüşümü birden fazla düğüme aynı anda nasıl uygularım?**  
-C: Bir ebeveyn düğüm oluşturun, dönüşümü ebeveyne uygulayın ve alt düğümleri ona ekleyin. Tüm alt düğümler dönüşümü miras alır.
+**Q: Aynı dönüşümü birden fazla düğüme aynı anda nasıl uygularım?**  
+A: Bir ebeveyn düğüm oluşturun, dönüşümü ebeveyne uygulayın ve alt düğümleri ona ekleyin. Tüm alt düğümler dönüşümü otomatik olarak devralır.
 
-**S: Kaydettikten sonra temizlik metodları çağırmam gerekiyor mu?**  
-C: Java çöp toplayıcısı çoğu kaynağı yönetir, ancak uzun süre çalışan bir uygulamada büyük sahnelerle çalışıyorsanız `scene.dispose()` metodunu açıkça çağırabilirsiniz.
-
-## Sonuç
-
-Tebrikler! **create mesh aspose java** işlemini başarıyla gerçekleştirdiniz ve Euler açılarıyla Java’da Aspose 3D kullanarak 3D düğümleri dönüştürdünüz. Farklı açıları, çevirimleri ve hatta quaternion dönüşümlerini deneyerek dinamik ve etkileyici 3D deneyimler oluşturabilirsiniz.
+**Q: Kaydetme sonrasında herhangi bir temizlik yöntemi çağırmam gerekiyor mu?**  
+A: Java çöp toplayıcısı çoğu kaynağı yönetir, ancak uzun süren uygulamalarda büyük sahnelerle çalışırken `scene.dispose()`'ı açıkça çağırabilirsiniz.
 
 ---
 
-**Last Updated:** 2026-02-20  
-**Tested With:** Aspose.3D 23.12 for Java  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Son Güncelleme:** 2026-06-13  
+**Test Edilen:** Aspose.3D 23.12 for Java  
+**Yazar:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## İlgili Öğreticiler
+
+- [Aspose.3D kullanarak Java'da Rotasyon Quaternion'ı Ayarla](/3d/java/geometry/concatenate-quaternions-for-3d-rotations/)
+- [Java'da Aspose 3D Düğüm Oluştur – Dönüşümleri Açığa Çıkar](/3d/java/geometry/expose-geometric-transformations/)
+- [Java 3D Grafik Öğreticisi - Aspose.3D ile 3D Küp Sahnesi Oluştur](/3d/java/geometry/create-3d-cube-scene/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

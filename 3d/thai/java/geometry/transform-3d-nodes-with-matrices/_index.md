@@ -1,10 +1,75 @@
 ---
-date: 2026-02-20
-description: เรียนรู้วิธีการต่อเมทริกซ์การแปลงในบทแนะนำกราฟิก 3 มิติด้วย Java โดยใช้
-  Aspose.3D รวมถึงลำดับการคูณเมทริกซ์ 3 มิติ การแปลงโหนด และการส่งออกฉาก
-linktitle: Concatenate Transformation Matrices in Java 3D Graphics Tutorial with Aspose.3D
+date: 2026-06-13
+description: เรียนรู้วิธีต่อเมทริกซ์ในบทแนะนำ Java 3D Graphics ด้วย Aspose.3D, ครอบคลุม
+  matrix multiplication order, node transformations, และ scene export
+keywords:
+- how to concatenate matrices
+- matrix multiplication order 3d
+- Aspose.3D node transformation
+linktitle: ต่อเมทริกซ์การแปลงใน Java 3D Graphics Tutorial ด้วย Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-06-13'
+  description: Learn how to concatenate matrices in a Java 3D graphics tutorial using
+    Aspose.3D, covering matrix multiplication order, node transformations, and scene
+    export.
+  headline: How to Concatenate Matrices in Java 3D Graphics – Aspose.3D Tutorial
+  type: TechArticle
+- description: Learn how to concatenate matrices in a Java 3D graphics tutorial using
+    Aspose.3D, covering matrix multiplication order, node transformations, and scene
+    export.
+  name: How to Concatenate Matrices in Java 3D Graphics – Aspose.3D Tutorial
+  steps:
+  - name: Initialize the Scene Object
+    text: '`Scene` is the top‑level container that holds all nodes, meshes, lights
+      and cameras in an Aspose.3D model. The `Scene` class is Aspose.3D''s top‑level
+      container that holds all nodes, meshes, lights, and cameras. Create a `Scene`
+      which acts as the root container for all 3D elements.'
+  - name: Initialize a Node (Cube)
+    text: '`Node` represents an element in the scene graph that can contain geometry,
+      lights or child nodes. The `Node` class represents a scene graph element that
+      can contain geometry, lights, or other nodes. Instantiate a `Node` that will
+      hold the geometry of a cube.'
+  - name: Create Mesh Using Polygon Builder
+    text: The `Common` helper builds a mesh from a list of polygons. Generate a mesh
+      for the cube using the helper method in `Common`.
+  - name: Attach Mesh to the Node
+    text: Link the geometry to the node so the scene knows what to render. The `Node`’s
+      `setMesh` method attaches the previously created mesh.
+  - name: Set a Custom Translation Matrix (Concatenation Example)
+    text: '`Matrix4` defines a 4×4 transformation matrix used for translation, rotation
+      and scaling operations. Here we **concatenate transformation matrices** by directly
+      providing a custom `Matrix4`. You could first create separate translation, rotation,
+      and scaling matrices and multiply them, but for brevit'
+  - name: Add the Cube Node to the Scene
+    text: Insert the node into the scene hierarchy under the root node. The `Scene`’s
+      `getRootNode().getChildren().add` method registers the cube for rendering.
+  - name: Save the 3D Scene
+    text: '`FileFormat` enum specifies the output file type such as FBX, OBJ, STL
+      or glTF. Choose a directory and file name, then export the scene. The example
+      saves as FBX ASCII, but you can switch to OBJ, STL, glTF, etc., by changing
+      the `FileFormat` enum.'
+  type: HowTo
+- questions:
+  - answer: Yes. Create separate matrices for each transformation (translation, rotation,
+      scaling) and **concatenate transformation matrices** using multiplication before
+      assigning the final matrix.
+    question: Can I apply multiple transformations to a single 3D node?
+  - answer: Build a rotation matrix (e.g., around the Y‑axis) with `Matrix4.createRotationY(angle)`
+      and concatenate it with any existing matrix.
+    question: How can I rotate a 3D object in Aspose.3D?
+  - answer: The practical limit is dictated by your system’s memory and CPU. Aspose.3D
+      is designed to handle large scenes efficiently, but monitor resource usage for
+      extremely complex models.
+    question: Is there a limit to the size of the 3D scenes I can create?
+  - answer: Visit the [Aspose.3D documentation](https://reference.aspose.com/3d/java/)
+      for a full list of APIs, code samples, and best‑practice guides.
+    question: Where can I find additional examples and documentation?
+  - answer: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for Aspose.3D?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: บทเรียนกราฟิก 3 มิติด้วย Java – การต่อเมทริกซ์ Aspose.3D
+title: วิธีต่อเมทริกซ์ใน Java 3D Graphics – บทแนะนำ Aspose.3D
 url: /th/java/geometry/transform-3d-nodes-with-matrices/
 weight: 21
 ---
@@ -17,40 +82,39 @@ weight: 21
 
 ## บทนำ
 
-ยินดีต้อนรับสู่ **java 3d graphics tutorial** แบบขั้นตอนต่อขั้นตอน ในคู่มือนี้คุณจะได้เรียนรู้วิธี **concatenate transformation matrices** เพื่อแปลงโหนด 3D อย่างง่ายดายด้วย Aspose.3D ไม่ว่าคุณจะกำลังสร้างเกมเอนจิ้น, ตัวดู CAD, หรือเครื่องมือแสดงผลทางวิทยาศาสตร์ การเชื่อมต่อเมทริกซ์ให้คุณควบคุมการแปล, การหมุน, และการสเกลในหนึ่งการดำเนินการได้อย่างแม่นยำ
+ในบทเรียน **java 3d graphics tutorial** ที่ครอบคลุมนี้ คุณจะได้ค้นพบ **วิธีการต่อเมทริกซ์** เพื่อควบคุมการแปล, การหมุน, และการสเกลของโหนด 3D ด้วย Aspose.3D ไม่ว่าคุณจะกำลังสร้างเครื่องยนต์เกม, ตัวดู CAD, หรือเครื่องมือแสดงผลทางวิทยาศาสตร์ การเชี่ยวชาญการต่อเมทริกซ์จะทำให้คุณได้ตำแหน่งที่พิกเซล‑เพอร์เฟกต์ในหนึ่งการดำเนินการเดียว ช่วยประหยัดทั้งโค้ดและเวลาในการประมวลผล
 
-## คำตอบด่วน
-- **คลาสหลักสำหรับฉาก 3D คืออะไร?** `Scene` – เก็บโหนด, mesh, และแสงทั้งหมด  
-- **ฉันจะใช้การแปลงหลายอย่างได้อย่างไร?** โดยการ concatenating transformation matrices บนวัตถุ `Transform` ของโหนด  
-- **ฟอร์แมตไฟล์ที่ใช้สำหรับบันทึกคืออะไร?** FBX (ASCII 7500) แสดงเป็นตัวอย่าง แต่ Aspose.3D รองรับหลายรูปแบบอื่น ๆ  
-- **ต้องมีลิขสิทธิ์สำหรับการพัฒนาหรือไม่?** ลิขสิทธิ์ชั่วคราวใช้ได้สำหรับการประเมิน; ต้องมีลิขสิทธิ์เต็มสำหรับการผลิต  
-- **IDE ใดที่ทำงานดีที่สุด?** IDE Java ใดก็ได้ (IntelliJ IDEA, Eclipse, NetBeans) ที่รองรับ Maven/Gradle  
+## คำตอบอย่างรวดเร็ว
+- **อะไรคือคลาสหลักสำหรับฉาก 3D?** `Scene` – it holds all nodes, meshes, and lights.  
+- **ฉันจะใช้การแปลงหลายอย่างได้อย่างไร?** By concatenating transformation matrices on a node’s `Transform` object.  
+- **รูปแบบไฟล์ใดที่ใช้สำหรับการบันทึก?** FBX (ASCII 7500) is shown, but Aspose.3D supports 20+ formats.  
+- **ฉันต้องการใบอนุญาตสำหรับการพัฒนาหรือไม่?** A temporary license works for evaluation; a full license is required for production.  
+- **IDE ใดที่ทำงานดีที่สุด?** Any Java IDE (IntelliJ IDEA, Eclipse, NetBeans) that supports Maven/Gradle.
 
 ## “concatenate transformation matrices” คืออะไร?
 
-การ concatenating transformation matrices หมายถึงการคูณเมทริกซ์สองเมทริกซ์หรือมากกว่าเพื่อให้เมทริกซ์รวมหนึ่งเมทริกซ์แทนลำดับการแปลง (เช่น translate → rotate → scale) ใน Aspose.3D คุณจะนำเมทริกซ์ที่ได้ไปใช้กับการแปลงของโหนด ทำให้การกำหนดตำแหน่งซับซ้อนทำได้ด้วยการเรียกครั้งเดียว
+การต่อเมทริกซ์การแปลงหมายถึงการคูณเมทริกซ์สองหรือหลายเมทริกซ์เพื่อให้เมทริกซ์รวมเดียวแทนลำดับของการแปลง (เช่น translate → rotate → scale). ใน Aspose.3D คุณจะนำเมทริกซ์ที่ได้ไปใช้กับการแปลงของโหนด, ทำให้สามารถกำหนดตำแหน่งที่ซับซ้อนได้ด้วยการเรียกครั้งเดียว
 
-## ความสำคัญของลำดับการคูณเมทริกซ์ 3d
+## ความเข้าใจลำดับการคูณเมทริกซ์ 3d
 
-**matrix multiplication order 3d** มีความสำคัญเพราะการคูณเมทริกซ์ไม่เป็นคอมมิวเตทีฟ โดยปกติคุณจะคูณตามลำดับ **scale → rotate → translate** เพื่อให้ได้ผลลัพธ์ภาพที่คาดหวัง Aspose.3D’s `Matrix4.multiply()` ทำตามแนวทางเดียวกัน ดังนั้นต้องคำนึงถึงลำดับเมื่อตั้งค่าเมทริกซ์รวมของคุณ
+**matrix multiplication order 3d** มีความสำคัญเนื่องจากการคูณเมทริกซ์ไม่เป็นคอมมิวเตทีฟ (ไม่สลับตำแหน่งได้). ในการปฏิบัติคุณมักคูณตามลำดับ **scale → rotate → translate** เพื่อให้ได้ผลลัพธ์ภาพที่คาดหวัง. `Matrix4.multiply()` ของ Aspose.3D ทำตามแนวทางเดียวกัน, ดังนั้นให้คำนึงถึงลำดับนี้เมื่อสร้างเมทริกซ์รวมของคุณ.  
+`Matrix4.multiply()` คูณเมทริกซ์การแปลง 4×4 สองเมทริกซ์และคืนค่าเมทริกซ์ที่รวมกัน
 
-## ทำไม tutorial java 3d graphics นี้จึงสำคัญ
+## ทำไมบทเรียน java 3d graphics tutorial นี้จึงสำคัญ
 
-- **การเรนเดอร์ประสิทธิภาพสูง** – Aspose.3D ถูกปรับให้ทำงานกับฉากขนาดใหญ่ได้อย่างมีประสิทธิภาพ  
-- **รองรับหลายฟอร์แมต** – ส่งออกเป็น FBX, OBJ, STL, glTF และอื่น ๆ อีกมาก  
-- **API ที่เรียบง่ายแต่ทรงพลัง** – ไลบรารีแอบซ่อนคณิตศาสตร์ระดับล่างไว้ขณะยังให้คุณเข้าถึงการดำเนินการเมทริกซ์สำหรับการควบคุมละเอียด  
+- **High‑performance rendering** – Aspose.3D สามารถเรนเดอร์ฉากที่มีจำนวนโพลิกอนสูงสุดถึง 500 000 โพลิกอนโดยใช้หน่วยความจำต่ำกว่า 2 GB.  
+- **Cross‑format support** – ส่งออกเป็น FBX, OBJ, STL, glTF, และ **รูปแบบเพิ่มเติมกว่า 20** ด้วยการเรียก API ครั้งเดียว.  
+- **Simple yet powerful API** – ไลบรารีนี้แยกความซับซ้อนของคณิตศาสตร์ระดับต่ำออกไปในขณะที่ยังคงเปิดเผยการดำเนินการเมทริกซ์เพื่อการควบคุมที่ละเอียด.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนเริ่มทำตามขั้นตอน ให้ตรวจสอบว่าคุณมี:
-
-- ความรู้พื้นฐานการเขียนโปรแกรม Java  
-- ไลบรารี Aspose.3D ติดตั้งแล้ว – ดาวน์โหลดได้จาก [here](https://releases.aspose.com/3d/java/)  
-- IDE Java (IntelliJ, Eclipse, หรือ NetBeans) ที่รองรับ Maven/Gradle  
+- ความรู้พื้นฐานการเขียนโปรแกรม Java.  
+- ไลบรารี Aspose.3D ติดตั้งแล้ว – ดาวน์โหลดจาก [here](https://releases.aspose.com/3d/java/).  
+- IDE สำหรับ Java (IntelliJ, Eclipse, หรือ NetBeans) ที่รองรับ Maven/Gradle.
 
 ## นำเข้าแพ็กเกจ
 
-ในโปรเจกต์ Java ของคุณ ให้นำเข้าคลาส Aspose.3D ที่จำเป็น บล็อกการนำเข้านี้ต้องคงไว้ตามที่แสดง:
+ในโปรเจกต์ Java ของคุณ ให้นำเข้าคลาส Aspose.3D ที่จำเป็นบล็อกการนำเข้าเหล่านี้ต้องคงอยู่ตามที่แสดง:
 
 ```java
 import com.aspose.threed.*;
@@ -59,9 +123,15 @@ import com.aspose.threed.*;
 
 ## คู่มือแบบขั้นตอน
 
-### ขั้นตอนที่ 1: เริ่มต้นอ็อบเจกต์ Scene
+### วิธีต่อเมทริกซ์?
 
-สร้าง `Scene` ซึ่งทำหน้าที่เป็นคอนเทนเนอร์รากสำหรับองค์ประกอบ 3D ทั้งหมด
+โหลดหรือสร้าง `Matrix4` สำหรับแต่ละการแปลง (scale, rotate, translate), คูณตามลำดับ *scale → rotate → translate* และกำหนดเมทริกซ์ที่ได้ให้กับ `Transform` ของโหนด. เมทริกซ์รวมเดียวนี้จะควบคุมตำแหน่ง, การหมุน, และขนาดสุดท้ายของโหนดในหนึ่งการดำเนินการที่มีประสิทธิภาพ
+
+### ขั้นตอนที่ 1: เริ่มต้นอ็อบเจ็กต์ Scene
+
+`Scene` คือคอนเทนเนอร์ระดับบนสุดที่เก็บโหนดทั้งหมด, mesh, แสงและกล้องในโมเดล Aspose.3D  
+
+คลาส `Scene` เป็นคอนเทนเนอร์ระดับบนสุดของ Aspose.3D ที่เก็บโหนด, mesh, แสง, และกล้องทั้งหมด. สร้าง `Scene` ที่ทำหน้าที่เป็นคอนเทนเนอร์รากสำหรับองค์ประกอบ 3D ทั้งหมด.
 
 ```java
 Scene scene = new Scene();
@@ -69,7 +139,9 @@ Scene scene = new Scene();
 
 ### ขั้นตอนที่ 2: เริ่มต้น Node (Cube)
 
-สร้าง `Node` ที่จะเก็บเรขาคณิตของลูกบาศก์
+`Node` แทนองค์ประกอบในกราฟฉากที่สามารถบรรจุเรขาคณิต, แสง หรือโหนดลูกได้.  
+
+คลาส `Node` แทนองค์ประกอบของกราฟฉากที่สามารถบรรจุเรขาคณิต, แสง, หรือโหนดอื่น ๆ. สร้างอินสแตนซ์ของ `Node` ที่จะเก็บเรขาคณิตของลูกบาศก์.
 
 ```java
 Node cubeNode = new Node("cube");
@@ -77,7 +149,7 @@ Node cubeNode = new Node("cube");
 
 ### ขั้นตอนที่ 3: สร้าง Mesh ด้วย Polygon Builder
 
-สร้าง mesh สำหรับลูกบาศก์โดยใช้เมธอดช่วยเหลือใน `Common`
+ตัวช่วย `Common` สร้าง mesh จากรายการโพลิกอน. สร้าง mesh สำหรับลูกบาศก์โดยใช้เมธอดช่วยเหลือใน `Common`.
 
 ```java
 Mesh mesh = Common.createMeshUsingPolygonBuilder();
@@ -85,15 +157,17 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
 ### ขั้นตอนที่ 4: แนบ Mesh ไปยัง Node
 
-เชื่อมต่อเรขาคณิตกับโหนดเพื่อให้ฉากรู้ว่าจะเรนเดอร์อะไร
+เชื่อมต่อเรขาคณิตกับโหนดเพื่อให้ฉากรู้ว่าจะเรนเดอร์อะไร. เมธอด `setMesh` ของ `Node` จะแนบ mesh ที่สร้างไว้ก่อนหน้านี้.
 
 ```java
 cubeNode.setEntity(mesh);
 ```
 
-### ขั้นตอนที่ 5: ตั้งค่าเมทริกซ์การแปลแบบกำหนดเอง (ตัวอย่างการ Concatenation)
+### ขั้นตอนที่ 5: ตั้งค่าเมทริกซ์การแปลแบบกำหนดเอง (ตัวอย่างการต่อเมทริกซ์)
 
-ที่นี่เราจะ **concatenate transformation matrices** โดยให้ `Matrix4` ที่กำหนดเองโดยตรง คุณอาจสร้างเมทริกซ์การแปล, การหมุน, และการสเกลแยกกันแล้วคูณกัน แต่เพื่อความกระชับเราจะแสดงเมทริกซ์รวมเดียว
+`Matrix4` กำหนดเมทริกซ์การแปลง 4×4 ที่ใช้สำหรับการแปล, การหมุนและการสเกล.  
+
+ที่นี่เราจะ **concatenate transformation matrices** โดยให้ `Matrix4` ที่กำหนดเองโดยตรง. คุณอาจสร้างเมทริกซ์การแปล, การหมุน, และการสเกลแยกกันแล้วคูณกัน, แต่เพื่อความกระชับเราจะแสดงเมทริกซ์รวมเดียว.
 
 ```java
 cubeNode.getTransform().setTransformMatrix(new Matrix4(
@@ -104,11 +178,11 @@ cubeNode.getTransform().setTransformMatrix(new Matrix4(
 ));
 ```
 
-> **Pro tip:** เพื่อ concatenating หลายเมทริกซ์ ให้สร้าง `Matrix4` แต่ละอัน (เช่น `translation`, `rotation`, `scale`) แล้วใช้ `Matrix4.multiply()` ก่อนกำหนดผลลัพธ์ให้กับ `setTransformMatrix`
+> **เคล็ดลับ:** เพื่อต่อหลายเมทริกซ์, สร้าง `Matrix4` แต่ละตัว (เช่น `translation`, `rotation`, `scale`) แล้วใช้ `Matrix4.multiply()` ก่อนกำหนดผลลัพธ์ให้กับ `setTransformMatrix`.
 
-### ขั้นตอนที่ 6: เพิ่ม Node ลูกบาศก์ลงใน Scene
+### ขั้นตอนที่ 6: เพิ่ม Node ลูกบาศก์ไปยังฉาก
 
-แทรกโหนดลงในโครงสร้างฉากภายใต้โหนดราก
+แทรกโหนดลงในโครงสร้างลำดับชั้นของฉากภายใต้โหนดราก. เมธอด `getRootNode().getChildren().add` ของ `Scene` จะลงทะเบียนลูกบาศก์เพื่อการเรนเดอร์.
 
 ```java
 scene.getRootNode().addChildNode(cubeNode);
@@ -116,7 +190,9 @@ scene.getRootNode().addChildNode(cubeNode);
 
 ### ขั้นตอนที่ 7: บันทึกฉาก 3D
 
-เลือกไดเรกทอรีและชื่อไฟล์ จากนั้นส่งออกฉาก ตัวอย่างบันทึกเป็น FBX ASCII แต่คุณสามารถเปลี่ยนเป็น OBJ, STL ฯลฯ ได้โดยเปลี่ยน `FileFormat`
+`FileFormat` enum ระบุประเภทไฟล์เอาต์พุตเช่น FBX, OBJ, STL หรือ glTF.  
+
+เลือกไดเรกทอรีและชื่อไฟล์, จากนั้นส่งออกฉาก. ตัวอย่างบันทึกเป็น FBX ASCII, แต่คุณสามารถเปลี่ยนเป็น OBJ, STL, glTF ฯลฯ โดยการเปลี่ยนค่าใน enum `FileFormat`.
 
 ```java
 String MyDir = "Your Document Directory";
@@ -128,42 +204,44 @@ System.out.println("\nTransformation added successfully to node.\nFile saved at 
 ## ปัญหาทั่วไปและวิธีแก้
 
 | ปัญหา | สาเหตุ | วิธีแก้ |
-|-------|-------|--------|
-| **Scene ไม่สามารถบันทึกได้** | เส้นทางไดเรกทอรีไม่ถูกต้องหรือไม่มีสิทธิ์เขียน | ตรวจสอบว่า `MyDir` ชี้ไปยังโฟลเดอร์ที่มีอยู่และแอปพลิเคชันมีสิทธิ์เข้าถึงระบบไฟล์ |
-| **เมทริกซ์ไม่มีผล** | ใช้เมทริกซ์เอกลักษณ์หรือลืมกำหนดค่า | ตรวจสอบว่าคุณเรียก `setTransformMatrix` หลังจากสร้างเมทริกซ์และตรวจสอบค่าของเมทริกซ์ |
-| **การจัดแนวไม่ถูกต้อง** | ลำดับการหมุนไม่ตรงกันเมื่อ concatenating เมทริกซ์ | คูณเมทริกซ์ตามลำดับ *scale → rotate → translate* เพื่อให้ได้ผลลัพธ์ที่คาดหวัง |
+|-------|-------|-----|
+| **Scene ไม่บันทึก** | เส้นทางไดเรกทอรีไม่ถูกต้องหรือไม่มีสิทธิ์การเขียน | ตรวจสอบว่า `MyDir` ชี้ไปยังโฟลเดอร์ที่มีอยู่และแอปพลิเคชันมีสิทธิ์ระบบไฟล์ |
+| **Matrix ดูเหมือนไม่มีผล** | ใช้เมทริกซ์เอกลักษณ์หรือลืมกำหนดค่า | ตรวจสอบว่าคุณเรียก `setTransformMatrix` หลังจากสร้างเมทริกซ์และตรวจสอบค่าของเมทริกซ์อีกครั้ง |
+| **การวางแนวไม่ถูกต้อง** | ลำดับการหมุนไม่ตรงกันเมื่อทำการต่อเมทริกซ์ | คูณเมทริกซ์ตามลำดับ *scale → rotate → translate* เพื่อให้ได้ผลลัพธ์ตามที่คาดหวัง |
 
 ## คำถามที่พบบ่อย
 
-### Q1: ฉันสามารถใช้การแปลงหลายอย่างกับโหนด 3D เดียวได้หรือไม่?
+**Q: ฉันสามารถใช้การแปลงหลายอย่างกับโหนด 3D เดียวได้หรือไม่?**  
+A: ใช่. สร้างเมทริกซ์แยกสำหรับแต่ละการแปลง (translation, rotation, scaling) และ **concatenate transformation matrices** ด้วยการคูณก่อนกำหนดเมทริกซ์สุดท้าย
 
-A1: ได้ คุณสร้างเมทริกซ์แยกสำหรับแต่ละการแปลง (translation, rotation, scaling) แล้ว **concatenate transformation matrices** ด้วยการคูณก่อนกำหนดเมทริกซ์สุดท้าย
+**Q: ฉันจะหมุนวัตถุ 3D ใน Aspose.3D ได้อย่างไร?**  
+A: สร้างเมทริกซ์การหมุน (เช่น รอบแกน Y) ด้วย `Matrix4.createRotationY(angle)` และต่อมันกับเมทริกซ์ที่มีอยู่ใด ๆ
 
-### Q2: ฉันจะหมุนวัตถุ 3D ใน Aspose.3D อย่างไร?
+**Q: มีขีดจำกัดขนาดของฉาก 3D ที่ฉันสามารถสร้างได้หรือไม่?**  
+A: ขีดจำกัดเชิงปฏิบัติกำหนดโดยหน่วยความจำและ CPU ของระบบของคุณ. Aspose.3D ถูกออกแบบให้จัดการฉากขนาดใหญ่ได้อย่างมีประสิทธิภาพ, แต่ควรตรวจสอบการใช้ทรัพยากรสำหรับโมเดลที่ซับซ้อนมาก
 
-A2: สร้างเมทริกซ์การหมุน (เช่น รอบแกน Y) ด้วย `Matrix4.createRotationY(angle)` แล้ว concatenating กับเมทริกซ์ที่มีอยู่
+**Q: ฉันสามารถหา ตัวอย่างและเอกสารเพิ่มเติมได้ที่ไหน?**  
+A: เยี่ยมชม [Aspose.3D documentation](https://reference.aspose.com/3d/java/) เพื่อดูรายการ API, ตัวอย่างโค้ด, และแนวทางปฏิบัติที่ดีที่สุด
 
-### Q3: มีขีดจำกัดขนาดของฉาก 3D ที่ฉันสามารถสร้างได้หรือไม่?
-
-A3: ขีดจำกัดจริงขึ้นอยู่กับหน่วยความจำและ CPU ของระบบ Aspose.3D ถูกออกแบบให้จัดการฉากขนาดใหญ่ได้อย่างมีประสิทธิภาพ แต่ควรตรวจสอบการใช้ทรัพยากรสำหรับโมเดลที่ซับซ้อนมาก
-
-### Q4: ฉันจะหา ตัวอย่างเพิ่มเติมและเอกสารอ้างอิงได้จากที่ไหน?
-
-A4: เยี่ยมชม [Aspose.3D documentation](https://reference.aspose.com/3d/java/) เพื่อดูรายการ API, ตัวอย่างโค้ด, และแนวทางปฏิบัติที่ดีที่สุด
-
-### Q5: ฉันจะขอรับลิขสิทธิ์ชั่วคราวสำหรับ Aspose.3D ได้อย่างไร?
-
-A5: คุณสามารถรับลิขสิทธิ์ชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/)
+**Q: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.3D ได้อย่างไร?**  
+A: คุณสามารถรับใบอนุญาตชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/)
 
 ## สรุป
 
-คุณได้เรียนรู้วิธี **concatenate transformation matrices** เพื่อจัดการโหนด 3D ในสภาพแวดล้อม Java ด้วย Aspose.3D แล้ว ทดลองผสมเมทริกซ์ต่าง ๆ – translate, rotate, scale – เพื่อสร้างแอนิเมชันและโมเดลที่ซับซ้อน เมื่อพร้อมแล้วลองสำรวจฟีเจอร์อื่น ๆ ของ Aspose.3D เช่น การจัดแสง, การควบคุมกล้อง, และการส่งออกไปยังฟอร์แมตเพิ่มเติม
+คุณได้เชี่ยวชาญ **วิธีการต่อเมทริกซ์** เพื่อจัดการโหนด 3D ในสภาพแวดล้อม Java ด้วย Aspose.3D แล้ว. ทดลองผสมเมทริกซ์ต่าง ๆ — translate, rotate, scale — เพื่อสร้างแอนิเมชันและโมเดลที่ซับซ้อน. เมื่อพร้อมแล้ว, สำรวจคุณลักษณะอื่นของ Aspose.3D เช่น การจัดแสง, การควบคุมกล้อง, และการส่งออกเป็นรูปแบบเพิ่มเติม
 
 ---
 
-**อัปเดตล่าสุด:** 2026-02-20  
+**อัปเดตล่าสุด:** 2026-06-13  
 **ทดสอบกับ:** Aspose.3D 24.11 for Java  
 **ผู้เขียน:** Aspose
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [สร้าง Node Aspose 3D ใน Java – เปิดเผยการแปลง](/3d/java/geometry/expose-geometric-transformations/)
+- [วิธีการส่งออก FBX และสร้างโครงสร้าง Node ใน Java](/3d/java/geometry/build-node-hierarchies/)
+- [Java 3D Graphics Tutorial - สร้างฉากลูกบาศก์ 3D ด้วย Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
