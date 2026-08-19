@@ -1,5 +1,5 @@
 ---
-title: Right to Left Handed: Flip Coordinates in Java with Aspose.3D
+title: 'Flip Coordinates from Right‑Handed to Left‑Handed in Java using Aspose.3D'
 linktitle: Customize 3D File Loading in Java with Aspose.3D LoadOptions
 second_title: Aspose.3D Java API
 description: Learn how to flip the coordinate system from right to left handed when loading 3D models in Java with Aspose.3D. Includes load obj with materials and support for 3DS, STL, glTF, and more.
@@ -47,7 +47,7 @@ When you enable the flip option, Aspose.3D internally multiplies the X‑axis va
 
 - Basic understanding of Java programming.  
 - Installed Java Development Kit (JDK).  
-- Aspose.3D for Java library downloaded. You can obtain it [here](https://releases.aspose.com/3d/java/).  
+- Aspose.3D for Java library downloaded. You can obtain it on the **Aspose.3D Java download page**.  
 - Familiarity with 3D file formats such as 3DS, OBJ, STL, U3D, glTF, PLY, X, and FBX.
 
 ## Import Packages
@@ -66,7 +66,7 @@ import java.io.IOException;
 
 Below are step‑by‑step code snippets that demonstrate how to enable the **flip coordinate system** option for each supported format. The snippets are ready to copy into your project; just replace `"Your Document Directory"` with the actual path to your assets.
 
-### Step 1: Customize 3DS File Loading
+### Step 1: customize 3DS file loading
 
 ```java
 public static void discreet3DSLoadOption() {
@@ -79,7 +79,7 @@ public static void discreet3DSLoadOption() {
 }
 ```
 
-### Step 2: Customize OBJ File Loading
+### Step 2: customize OBJ file loading
 
 ```java
 public static void objLoadOption() {
@@ -99,7 +99,7 @@ When loading an OBJ model you can ask Aspose.3D to read the associated material 
 - Enable material loading with `setEnableMaterials(true)`.  
 - Add the folder that holds the OBJ and MTL files to `loadOpts.getLookupPaths()`.  
 
-### Step 3: Customize STL File Loading
+### Step 3: customize STL file loading
 
 ```java
 public static void stlLoadOption() {
@@ -110,7 +110,7 @@ public static void stlLoadOption() {
 }
 ```
 
-### Step 4: Customize U3D File Loading
+### Step 4: customize U3D file loading
 
 ```java
 public static void u3dLoadOption() {
@@ -121,7 +121,7 @@ public static void u3dLoadOption() {
 }
 ```
 
-### Step 5: Customize glTF File Loading
+### Step 5: customize glTF file loading
 
 ```java
 public static void gltfLoadOptions() throws IOException {
@@ -133,7 +133,7 @@ public static void gltfLoadOptions() throws IOException {
 }
 ```
 
-### Step 6: Customize PLY File Loading
+### Step 6: customize PLY file loading
 
 ```java
 public static void plyLoadOptions() throws IOException {
@@ -145,7 +145,7 @@ public static void plyLoadOptions() throws IOException {
 }
 ```
 
-### Step 7: Customize X File Loading
+### Step 7: customize x file loading
 
 ```java
 public static void xLoadOptions() throws IOException {
@@ -172,7 +172,7 @@ private static void FBXLoadOptions() throws IOException {
 }
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Model appears mirrored after loading** – Verify that `setFlipCoordinateSystem(true)` is set for the correct format.  
 - **Materials are missing** – For OBJ files, ensure `setEnableMaterials(true)` and that the material files (.mtl) are located in one of the lookup paths.  
 - **Texture coordinates are upside‑down** – For glTF, you may need `setFlipTexCoordV(true)` in addition to flipping the axes.  
@@ -182,22 +182,22 @@ private static void FBXLoadOptions() throws IOException {
 
 By leveraging Aspose.3D’s `LoadOptions`, you can **flip the coordinate system** and **customize 3D import** for virtually every major format. This level of control eliminates the need for post‑processing scripts and ensures your assets render correctly the first time.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Where can I find the Aspose.3D for Java documentation?**  
-A1: The documentation is available [here](https://reference.aspose.com/3d/java/).
+A1: The documentation is available on the **Aspose.3D Java API reference**.
 
 **Q2: How can I download Aspose.3D for Java?**  
-A2: You can download it [here](https://releases.aspose.com/3d/java/).
+A2: You can download it from the **Aspose.3D Java download page**.
 
 **Q3: Is there a free trial available?**  
-A3: Yes, you can access the free trial [here](https://releases.aspose.com/).
+A3: Yes, you can access the free trial on the **Aspose.3D free trial page**.
 
 **Q4: Where can I get support for Aspose.3D for Java?**  
-A5: Visit the support forum [here](https://forum.aspose.com/c/3d/18).
+A5: Visit the support forum on the **Aspose.3D support forum**.
 
 **Q5: Do I need a temporary license for testing?**  
-A5: Yes, obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A5: Yes, obtain a temporary license from the **temporary license request page**.
 
 ---
 
