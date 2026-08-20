@@ -1,10 +1,33 @@
 ---
-date: 2026-02-25
-description: Tutorial passo‑passo di grafica 3D in Java che mostra come creare un
-  documento 3D vuoto con Aspose.3D per Java.
-linktitle: 'Java 3D Graphics Tutorial - Create Empty 3D Document'
+date: 2026-06-18
+description: Tutorial passo-passo di grafica 3D Java su come creare file FBX utilizzando
+  Aspose.3D per Java.
+keywords:
+- how to create fbx
+- java 3d graphics tutorial
+- Aspose.3D Java
+linktitle: 'Come creare FBX: tutorial di grafica 3D Java con Aspose.3D'
+schemas:
+- author: Aspose
+  dateModified: '2026-06-18'
+  description: Step‑by‑step Java 3D graphics tutorial on how to create FBX files using
+    Aspose.3D for Java.
+  headline: 'How to Create FBX: Java 3D Graphics Tutorial with Aspose.3D'
+  type: TechArticle
+- questions:
+  - answer: It creates an empty 3‑D FBX scene file using Aspose.3D.
+    question: What does this tutorial achieve?
+  - answer: About 5 minutes once the prerequisites are installed.
+    question: How long does it take?
+  - answer: FBX 7.5 ASCII (`FileFormat.FBX7500ASCII`).
+    question: Which file format is used?
+  - answer: A temporary or full license is required for production use.
+    question: Do I need a license?
+  - answer: Yes – the Java library works on Windows, macOS and Linux.
+    question: Can I run this on any OS?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: 'Tutorial di Grafica 3D in Java - Crea un Documento 3D Vuoto'
+title: 'Come creare FBX: tutorial di grafica 3D Java con Aspose.3D'
 url: /it/java/load-and-save/create-empty-3d-document/
 weight: 10
 ---
@@ -13,42 +36,46 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tutorial di Java 3D Graphics: Crea un Documento 3D Vuoto Utilizzando Aspose.3D
+# Come creare FBX: tutorial di grafica 3D Java con Aspose.3D
 
 ## Introduzione
 
-Benvenuti a questo **java 3d graphics tutorial**. In questa guida vi accompagneremo nella creazione di un nuovo documento 3D vuoto con Aspose.3D per Java. Che stiate prototipando un motore di gioco, visualizzando dati scientifici o semplicemente esplorando formati di file 3‑D, iniziare con una scena pulita vi dà il pieno controllo su ogni oggetto che aggiungerete in seguito.
+In questo **java 3d graphics tutorial** ti guideremo passo passo attraverso le esatte istruzioni **come creare fbx** file da zero usando Aspose.3D per Java. Che tu stia creando un prototipo di gioco, visualizzando dati scientifici o convertendo modelli legacy, iniziare con una scena FBX vuota ti dà il pieno controllo su ogni mesh, telecamera e luce che aggiungerai successivamente.
 
-## Risposte Rapide
-- **Cosa realizza questo tutorial?** Crea un file di scena 3‑D vuoto (FBX) utilizzando Aspose.3D.  
+## Risposte rapide
+- **Qual è l'obiettivo di questo tutorial?** Crea un file di scena FBX 3‑D vuoto usando Aspose.3D.  
 - **Quanto tempo ci vuole?** Circa 5 minuti una volta installati i prerequisiti.  
-- **Quale formato file viene utilizzato?** FBX 7.5 ASCII (`FileFormat.FBX7500ASCII`).  
+- **Quale formato file viene usato?** FBX 7.5 ASCII (`FileFormat.FBX7500ASCII`).  
 - **È necessaria una licenza?** È richiesta una licenza temporanea o completa per l'uso in produzione.  
-- **Posso eseguirlo su qualsiasi OS?** Sì – la libreria Java funziona su Windows, macOS e Linux.
+- **Posso eseguirlo su qualsiasi OS?** Sì – la libreria Java funziona su Windows, macOS e Linux.  
 
-## Che cos'è un tutorial di Java 3D graphics?
+`FileFormat` è un'enumerazione che specifica il formato di output del file quando si salva una scena 3‑D.
 
-Un **java 3d graphics tutorial** vi insegna come generare, modificare ed esportare contenuti tridimensionali in modo programmatico. Seguendo esempi passo‑a‑passo, imparerete le chiamate API fondamentali che alimentano le pipeline 3‑D, dalla creazione della scena alla serializzazione del file.
+## Cos'è un tutorial di grafica 3D Java?
+
+Un **java 3d graphics tutorial** ti insegna come generare, modificare ed esportare contenuti tridimensionali in modo programmatico. Ti guida attraverso le chiamate API principali, dalla creazione della scena alla serializzazione del file, così puoi costruire pipeline 3‑D robuste senza strumenti di modellazione manuale.
 
 ## Perché usare Aspose.3D per Java?
 
-* **Ampio supporto di formati** – FBX, OBJ, STL, GLTF e altri.  
-* **Nessuna dipendenza esterna** – puro Java, facile da integrare in qualsiasi progetto.  
-* **Rendering ad alte prestazioni** – ottimizzato per mesh di grandi dimensioni e gerarchie complesse.  
-* **Documentazione completa e prova gratuita** – iniziate rapidamente con esempi e dati di esempio.
+Aspose.3D ti consente di **come creare fbx** file rapidamente e in modo affidabile. Supporta **oltre 50** formati di input e output — inclusi FBX, OBJ, STL, GLTF e altri — e può elaborare modelli di centinaia di pagine senza caricare l'intero file in memoria, offrendo rendering ad alte prestazioni su hardware standard.  
+
+- **Ampio supporto di formati** – FBX, OBJ, STL, GLTF e altri.  
+- **Nessuna dipendenza esterna** – puro Java, facile da incorporare in qualsiasi progetto.  
+- **Rendering ad alte prestazioni** – ottimizzato per mesh di grandi dimensioni e gerarchie complesse.  
+- **Documentazione completa e prova gratuita** – inizia rapidamente con esempi e dati di esempio.
 
 ## Prerequisiti
 
-Prima di immergerci nel codice, assicuratevi di avere quanto segue pronto:
+Prima di immergerci nel codice, assicurati di avere quanto segue pronto:
 
-1. **Ambiente di sviluppo Java** – Installate l'ultima JDK (Java 17 o versioni successive consigliate). Potete scaricarla [qui](https://www.java.com/download/).  
-2. **Libreria Aspose.3D per Java** – Scaricate l'ultima versione dal sito ufficiale [qui](https://releases.aspose.com/3d/java/).  
+1. **Ambiente di sviluppo Java** – Installa l'ultima JDK (Java 17 o più recente è consigliata). Puoi scaricarla [qui](https://www.java.com/download/).  
+2. **Libreria Aspose.3D per Java** – Scarica l'ultima versione dal sito ufficiale [qui](https://releases.aspose.com/3d/java/).  
 
 Avere questi elementi a disposizione garantisce che il tutorial funzioni senza intoppi.
 
-## Importa i pacchetti
+## Importa pacchetti
 
-Ora che l'ambiente è configurato, importate le classi necessarie. Queste importazioni ci danno accesso alla funzionalità principale di Aspose.3D e alle utility standard di Java.
+Le seguenti importazioni ci danno accesso alla funzionalità principale di Aspose.3D così come alle utility standard di Java.
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -58,9 +85,9 @@ import com.aspose.threed.Scene;
 import java.io.Console;
 ```
 
-## Passo 1: Configura la Directory del Documento
+## Passo 1: Configura la directory del documento
 
-Innanzitutto, decidete dove il file generato sarà salvato nel vostro file system. Sostituite `"Your Document Directory"` con un percorso assoluto o relativo adatto alla struttura del vostro progetto.
+Per prima cosa, decidi dove il file generato sarà salvato nel tuo file system. Sostituisci `"Your Document Directory"` con un percorso assoluto o relativo che si adatti alla struttura del tuo progetto.
 
 ```java
 // Set the path to the documents directory
@@ -68,71 +95,76 @@ String MyDir = "Your Document Directory";
 MyDir = MyDir + "document.fbx";
 ```
 
-## Passo 2: Crea un Oggetto Scene
+## Passo 2: Crea un oggetto Scene
 
-Una `Scene` rappresenta il contenitore radice per tutte le entità 3‑D (mesh, luci, telecamere, ecc.). Creare un'istanza vuota ci fornisce una tela pulita.
+La classe `Scene` è il contenitore di livello superiore di Aspose.3D che rappresenta un singolo documento 3‑D in memoria. Creare un'istanza vuota ti fornisce una tela pulita per iniziare a costruire il tuo file FBX.
 
 ```java
 // Create an object of the Scene class
 Scene scene = new Scene();
 ```
 
-## Passo 3: Salva il Documento della Scena 3D
+## Passo 3: Salva il documento della scena 3D
 
-Con la scena vuota pronta, salvatela su disco usando il formato file scelto. In questo tutorial utilizziamo il formato FBX 7.5 ASCII, ampiamente supportato da molte applicazioni 3‑D.
+Con la scena vuota pronta, salvala su disco usando il formato file scelto. In questo tutorial utilizziamo il formato FBX 7.5 ASCII, ampiamente supportato da molte applicazioni 3‑D.
 
 ```java
 // Save 3D scene document
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
-## Passo 4: Stampa il Messaggio di Successo
+## Passo 4: Stampa il messaggio di successo
 
-Un messaggio amichevole sulla console conferma che l'operazione è riuscita e indica dove trovare il file.
+Un messaggio di console amichevole conferma che l'operazione è riuscita e ti indica dove trovare il file.
 
 ```java
 // Print success message
 System.out.println("\nAn empty 3D document created successfully.\nFile saved at " + MyDir);
 ```
 
-## Problemi Comuni e Soluzioni
+## Problemi comuni e soluzioni
 
-| Problema | Motivo | Soluzione |
-|----------|--------|-----------|
-| **File non trovato / Accesso negato** | Percorso errato o permessi di scrittura mancanti | Verificate che `MyDir` punti a una cartella esistente e che il processo Java abbia i permessi di scrittura. |
-| **JAR Aspose.3D mancante** | Libreria non aggiunta al classpath | Aggiungete il JAR Aspose.3D (o la dipendenza Maven/Gradle) al vostro progetto. |
-| **Formato file non supportato** | Utilizzo di un formato non disponibile nella versione corrente | Controllate l'enumerazione `FileFormat` per le opzioni supportate o aggiornate la libreria. |
+| Problema | Motivo | Correzione |
+|----------|--------|------------|
+| **File non trovato / Accesso negato** | Percorso errato o permessi di scrittura mancanti | Verifica che `MyDir` punti a una cartella esistente e che il processo Java abbia i permessi di scrittura. |
+| **JAR Aspose.3D mancante** | Libreria non aggiunta al classpath | Aggiungi il JAR Aspose.3D (o la dipendenza Maven/Gradle) al tuo progetto. |
+| **Formato file non supportato** | Uso di un formato non disponibile nella versione corrente | Controlla l'enumerazione `FileFormat` per le opzioni supportate o aggiorna la libreria. |
 
-## Domande Frequenti
+## Domande frequenti
 
 **Q1: Aspose.3D è compatibile con tutti gli ambienti di sviluppo Java?**  
-A1: Aspose.3D è progettato per essere compatibile con gli ambienti di sviluppo Java standard. Assicuratevi di avere Java installato correttamente.
+A1: Sì. Aspose.3D funziona su qualsiasi runtime Java standard, inclusi JDK 17+, e opera su Windows, macOS e Linux senza librerie native aggiuntive.
 
 **Q2: Dove posso trovare la documentazione dettagliata per Aspose.3D in Java?**  
-A2: Consultate la documentazione [qui](https://reference.aspose.com/3d/java/) per informazioni complete ed esempi.
+A2: Il riferimento API ufficiale è disponibile [qui](https://reference.aspose.com/3d/java/), offrendo esempi di codice, gerarchie di classi e guide d'uso.
 
 **Q3: Posso provare Aspose.3D prima di acquistarlo?**  
-A3: Sì, è disponibile una prova gratuita [qui](https://releases.aspose.com/) per esplorare le funzionalità di Aspose.3D.
+A3: Un download di prova gratuito è fornito [qui](https://releases.aspose.com/), permettendoti di valutare tutte le funzionalità, inclusa la creazione di FBX.
 
-**Q4: Come posso ottenere licenze temporanee per Aspose.3D?**  
-A4: Ottenete licenze temporanee per Aspose.3D [qui](https://purchase.aspose.com/temporary-license/).
+**Q4: Come posso ottenere una licenza temporanea per Aspose.3D?**  
+A4: Le licenze temporanee possono essere richieste [qui](https://purchase.aspose.com/temporary-license/), abilitando la piena funzionalità durante lo sviluppo.
 
 **Q5: Dove posso cercare supporto o discutere domande relative ad Aspose.3D?**  
-A5: Visitate il forum della community [qui](https://forum.aspose.com/c/3d/18) per supporto e discussioni.
+A5: Il forum della community è attivo [qui](https://forum.aspose.com/c/3d/18), dove puoi porre domande e condividere soluzioni.
 
 ## Conclusione
 
-Avete appena completato un **java 3d graphics tutorial** che mostra come **creare documenti 3d** da zero utilizzando Aspose.3D per Java. Con un file di scena vuoto a disposizione, potete ora iniziare ad aggiungere mesh, luci, telecamere o qualsiasi geometria personalizzata richiesta dal vostro progetto. Continuate a sperimentare con l'API—c'è un intero mondo di possibilità 3‑D pronto per essere sbloccato.
+Hai appena imparato **come creare fbx** file programmaticamente usando un **java 3d graphics tutorial** con Aspose.3D per Java. Con un file di scena vuoto a disposizione, ora puoi aggiungere mesh, luci, telecamere o qualsiasi geometria personalizzata richiesta dal tuo progetto. Continua a sperimentare — Aspose.3D supporta oltre 50 formati e può gestire modelli di grandi dimensioni in modo efficiente, aprendo la porta a innumerevoli possibilità 3‑D.
 
 ---
 
-**Last Updated:** 2026-02-25  
-**Tested With:** Aspose.3D for Java 24.10  
-**Author:** Aspose  
+**Ultimo aggiornamento:** 2026-06-18  
+**Testato con:** Aspose.3D for Java 24.10  
+**Autore:** Aspose
+
+## Tutorial correlati
+
+- [Crea documento 3D Java – Lavorare con file 3D (Creare, Caricare, Salvare e Convertire)](/3d/java/load-and-save/)
+- [Tutorial di grafica 3D Java - Crea una scena cubo 3D con Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
+- [Come convertire FBX in mesh e scrivere file binari in Java](/3d/java/3d-scenes-and-models/save-custom-mesh-formats/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
