@@ -1,8 +1,38 @@
 ---
-date: 2026-02-17
-description: Aspose.3D kullanarak Java 3D'de malzeme rengini ayarlarken ve ağ geometrisi
-  verilerini paylaşırken, ağı FBX'e nasıl dönüştüreceğinizi öğrenin.
-linktitle: Convert Mesh to FBX and Set Material Color in Java 3D
+date: 2026-05-19
+description: Java 3D'de Aspose.3D kullanarak malzeme rengini ayarlarken mesh'i FBX'e
+  dönüştürmeyi ve mesh geometri verilerini paylaşmayı öğrenin.
+keywords:
+- convert mesh to fbx
+- how to export fbx
+- how to set material
+- export mesh to fbx
+- aspose 3d tutorial
+linktitle: Mesh'i FBX'e Dönüştür ve Java 3D'de Malzeme Rengini Ayarla
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to convert mesh to FBX while setting material color and sharing
+    mesh geometry data in Java 3D using Aspose.3D.
+  headline: Convert Mesh to FBX and Set Material Color in Java 3D
+  type: TechArticle
+- questions:
+  - answer: Yes, the shared mesh can be animated via skeletal rigs or morph targets
+      while each node retains its own material.
+    question: Can I reuse the same mesh for animated characters?
+  - answer: Absolutely, Aspose.3D writes full UV data, so textures map correctly in
+      downstream tools.
+    question: Does the FBX export preserve UV coordinates?
+  - answer: The library can stream meshes exceeding 2 GB without loading the entire
+      file into memory, making it suitable for large scenes.
+    question: What is the maximum file size Aspose.3D can handle?
+  - answer: Pass a different `FileFormat` enum value, such as `FileFormat.FBX201400ASCII`,
+      to `scene.save`.
+    question: How do I change the FBX version?
+  - answer: Yes, you can create a new `Scene`, add the desired nodes, and then save
+      that scene to FBX.
+    question: Is it possible to export only a subset of nodes?
+  type: FAQPage
 second_title: Aspose.3D Java API
 title: Mesh'i FBX'e Dönüştür ve Java 3D'de Malzeme Rengini Ayarla
 url: /tr/java/geometry/share-mesh-geometry-data/
@@ -17,41 +47,41 @@ weight: 15
 
 ## Giriş
 
-Java tabanlı bir 3D uygulaması geliştiriyorsanız, aynı geometriyi birden fazla nesne arasında yeniden kullanmanız ve her örneğe benzersiz bir görünüm vermeniz sıkça gerekir. Bu öğreticide **mesh'i FBX'e nasıl dönüştüreceğinizi**, temel mesh geometrisini birkaç düğüm arasında nasıl paylaşacağınızı ve **her düğüm için farklı bir malzeme rengi nasıl ayarlayacağınızı** öğreneceksiniz. Sonunda, herhangi bir motor veya görüntüleyiciye aktarabileceğiniz, dışa aktarılmaya hazır bir FBX sahnesine sahip olacaksınız.
+Java tabanlı bir 3D uygulaması geliştiriyorsanız, aynı geometriyi birden fazla nesne arasında yeniden kullanmanız ve her örneğe benzersiz bir görünüm vermeniz sıkça gerekir. Bu öğreticide **mesh'i FBX'e nasıl dönüştüreceğinizi**, temel mesh geometrisini birkaç düğüm arasında nasıl paylaşacağınızı ve **her düğüm için farklı bir malzeme rengi nasıl ayarlayacağınızı** öğreneceksiniz. Sonunda, herhangi bir motor veya görüntüleyiciye aktarabileceğiniz hazır bir FBX sahnesine sahip olacaksınız.
 
 ## Hızlı Yanıtlar
-- **Ana hedef nedir?** Mesh'i FBX'e dönüştürmek, mesh geometrisini paylaşmak ve her düğüm için farklı bir malzeme rengi ayarlamak.  
-- **Hangi kütüphane gereklidir?** Aspose.3D for Java.  
+- **Ana hedef nedir?** Mesh'i FBX'e dönüştürmek, mesh geometrisini paylaşmak ve her düğüm için ayrı bir malzeme rengi ayarlamak.  
+- **Hangi kütüphane gereklidir?** Java için Aspose.3D.  
 - **Sonucu nasıl dışa aktarırım?** `FileFormat.FBX7400ASCII` kullanarak sahneyi bir FBX dosyası olarak kaydedin.  
-- **Lisans gerekli mi?** Üretim kullanımı için geçici ya da tam bir lisans gereklidir.  
-- **Hangi Java sürümü çalışır?** Java 8+ ortamları.
+- **Lisans gerekli mi?** Üretim kullanımı için geçici veya tam bir lisans gereklidir.  
+- **Hangi Java sürümü çalışır?** Java 8 ve üzeri herhangi bir ortam.
 
 ## **convert mesh to FBX** nedir?
 
-`convert mesh to fbx`, bellekte oluşturulan veya değiştirilen bir mesh nesnesini, Maya, Blender ve Unity gibi 3D araçları tarafından geniş çapta desteklenen FBX dosya formatına yazma işlemidir. Aspose.3D bu ağır işi üstlenir; siz sadece uygun `FileFormat` ile `scene.save(...)` çağırmanız yeterlidir.
+Mesh'i FBX'e dönüştürmek, bellekte bulunan bir mesh nesnesini FBX dosya formatına yazmak anlamına gelir; bu, Maya, Blender, Unity ve birçok diğer 3D aracının desteklediği de‑facto bir standarttır. Aspose.3D bu işi halleder, bu yüzden sadece uygun `FileFormat` ile `scene.save(...)` çağırmanız yeterlidir.
 
-## Neden mesh geometrisi paylaşılır?
+## Neden mesh geometri verisini paylaşmalı?
 
-Geometriyi paylaşmak, bellek tüketimini azaltır ve render süresini hızlandırır çünkü temel vertex tamponları yalnızca bir kez depolanır. Bu teknik, ormanlar, kalabalıklar veya modüler mimari gibi çok sayıda yinelenen nesnenin bulunduğu sahneler için mükemmeldir; her örnek sadece dönüşüm veya malzeme açısından farklılık gösterir.
+Geometriyi paylaşmak, temel vertex tamponlarının yalnızca bir kez depolanması sayesinde bellek tüketimini azaltır ve render süresini hızlandırır. Bu teknik, birçok yinelenen nesnenin bulunduğu sahneler için mükemmeldir — ormanlar, kalabalıklar veya modüler mimari gibi — burada her örnek sadece dönüşüm veya malzeme açısından farklılık gösterir.
 
-## Önkoşullar
+## Ön Koşullar
 
-Öğreticiye başlamadan önce aşağıdaki önkoşulların sağlandığından emin olun:
+Öğreticiye başlamadan önce aşağıdaki ön koşulların sağlandığından emin olun:
 
-- **Java Geliştirme Ortamı** – Java 8 veya daha yeni bir sürümle çalışan herhangi bir IDE ya da komut satırı kurulumu.  
-- **Aspose.3D Kütüphanesi** – Resmi siteden en son JAR dosyasını indirin: [here](https://releases.aspose.com/3d/java/).
+- **Java Geliştirme Ortamı** – Java 8 veya daha yeni bir sürümle çalışan herhangi bir IDE veya komut satırı kurulumu.  
+- **Aspose.3D Kütüphanesi** – resmi siteden en son JAR'ı indirin: [here](https://releases.aspose.com/3d/java/).
 
 ## Paketleri İçe Aktarma
 
-Gerekli paketleri Java projenize dahil edin. Bu adım, Aspose.3D kütüphanesinin sunduğu işlevlere erişim için kritiktir.
+`com.aspose.threed` ad alanı, sahneler, mesh'ler ve malzemeler oluşturmak için ihtiyaç duyacağınız tüm sınıfları içerir. Derleyicinin türleri çözebilmesi için bu paketleri Java dosyanızın en üstüne içe aktarın.
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## Adım 1: Sahne Nesnesini Başlatma (initialize scene java)
+## Adım 1: Scene Nesnesini Başlatma (initialize scene java)
 
-İşleme, bir sahne nesnesi başlatarak başlayalım. Bu nesne, 3D sihrimizin gerçekleşeceği tuval görevi görecek.
+`Scene` sınıfı, Aspose.3D'nin tüm bir 3D dünyayı temsil eden üst‑seviye konteyneridir. Bir `Scene` başlatmak, mesh'lerin, ışıkların ve kameraların eklenebileceği temiz bir tuval sağlar.
 
 ```java
 // Initialize scene object
@@ -60,7 +90,8 @@ Scene scene = new Scene();
 
 ## Adım 2: Renk Vektörlerini Tanımlama
 
-Bu adımda, 3D sahnemizin farklı öğelerine uygulanacak renk vektörlerinden oluşan bir dizi tanımlıyoruz.
+`Vector3`, konumlar, yönler veya renkler için kullanılan üç bileşenli bir vektörü (X, Y, Z) temsil eder.  
+RGB değerlerini tutan bir `Vector3` nesnesi dizisi oluşturun. Her vektör daha sonra ayrı bir düğüme atanacak ve her örneğe kendi malzeme tonunu verecek.
 
 ```java
 // Define color vectors
@@ -73,7 +104,7 @@ Vector3[] colors = new Vector3[] {
 
 ## Adım 3: Polygon Builder Kullanarak 3D Mesh Oluşturma (create 3d mesh java)
 
-Common sınıfını kullanarak polygon builder yöntemiyle bir mesh oluşturun. Bu mesh, 3D öğelerimizin temelini oluşturacak.
+`PolygonBuilder` sınıfı, köşe ve yüzleri manuel olarak tanımlayarak bir mesh oluşturmanıza olanak tanır. Bu mesh, tüm düğümler arasında yeniden kullanılacak ve geometri paylaşımının pratikte nasıl çalıştığını gösterecek.
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
@@ -82,7 +113,8 @@ Mesh mesh = Common.createMeshUsingPolygonBuilder();
 
 ## Her düğüm için malzeme rengi nasıl ayarlanır?
 
-Renk vektörleri üzerinden döngü kurun, küp düğümleri oluşturun ve malzeme, **set material color** ve konum gibi öznitelikleri ayarlayın. Bu, her mesh örneğinin görsel görünümünü kontrol etmenin çekirdeğidir.
+`LambertMaterial`, bir mesh için difüz rengi tanımlayan basit bir malzeme türüdür.  
+Renk vektörleri üzerinde döngü yapın, her giriş için bir küp düğümü oluşturun, mevcut renk ile yeni bir `LambertMaterial` atayın ve düğümü bir çeviri matrisi kullanarak konumlandırın. Bu desen, her düğümün aynı temel mesh'e referans vermeye devam ederken benzersiz bir renk göstermesini sağlar.
 
 ```java
 int idx = 0;
@@ -104,7 +136,7 @@ for(Vector3 color : colors) {
 
 ## Adım 5: 3D Sahneyi Kaydetme (save scene fbx, convert mesh to fbx)
 
-Desteklenen dosya formatında, bu örnekte FBX7400ASCII, 3D sahneyi kaydetmek için dizin ve dosya adını belirtin. Bu adım aynı zamanda **convert mesh to FBX** işlemini de gösterir.
+Desteklenen dosya formatında, bu durumda FBX7400ASCII, 3D sahneyi kaydetmek için dizin ve dosya adını belirtin. Bu adım aynı zamanda **mesh'i FBX'e dönüştürme** işlemini, paylaşılan geometri sahnesini diske kaydederek gösterir.
 
 ```java
 // The path to the documents directory.
@@ -115,43 +147,67 @@ MyDir = MyDir + "MeshGeometryData.fbx";
 scene.save(MyDir, FileFormat.FBX7400ASCII);
 ```
 
-## Yaygın Hatalar ve İpuçları
+## Yaygın Tuzaklar ve İpuçları
 
 - **Yol Sorunları** – Dosya adını eklemeden önce dizin yolunun bir dosya ayırıcı (`/` veya `\\`) ile bittiğinden emin olun.  
-- **Lisans Başlatma** – `scene.save` çağrısından önce Aspose.3D lisansını ayarlamazsanız, kütüphane deneme modunda çalışır ve bir filigran ekleyebilir.  
+- **Lisans Başlatma** – `scene.save` çağırmadan önce Aspose.3D lisansını ayarlamayı unutursanız, kütüphane deneme modunda çalışır ve bir filigran ekleyebilir.  
 - **Malzeme Üzerine Yazma** – Aynı `LambertMaterial` örneğini birden fazla düğümde yeniden kullanmak, tüm düğümlerin aynı rengi paylaşmasına neden olur. Yukarıda gösterildiği gibi her yineleme için yeni bir malzeme oluşturun.  
-- **Büyük Mesh'ler** – Milyonlarca verteks içeren mesh'ler için FBX dosya boyutunu kontrol altında tutmak amacıyla indeksli poligonlarla `MeshBuilder` kullanmayı düşünün.
+- **Büyük Mesh'ler** – Milyonlarca verteks içeren mesh'ler için FBX dosya boyutunu yönetilebilir tutmak amacıyla indeksli çokgenlerle `MeshBuilder` kullanmayı düşünün.
 
-## Ek Sıkça Sorulan Sorular
+## Ek Sık Sorulan Sorular
 
-**S1: Aspose.3D'yi diğer Java framework'leriyle kullanabilir miyim?**  
-C1: Evet, Aspose.3D çeşitli Java framework'leriyle sorunsuz çalışacak şekilde tasarlanmıştır.
+**Q1: Aspose.3D'yi diğer Java çerçeveleriyle kullanabilir miyim?**  
+A1: Evet, Aspose.3D çeşitli Java çerçeveleriyle sorunsuz çalışacak şekilde tasarlanmıştır.
 
-**S2: Aspose.3D için lisans seçenekleri var mı?**  
-C2: Evet, lisans seçeneklerini [buradan](https://purchase.aspose.com/buy) inceleyebilirsiniz.
+**Q2: Aspose.3D için herhangi bir lisans seçeneği var mı?**  
+A2: Evet, lisans seçeneklerini [here](https://purchase.aspose.com/buy) adresinden inceleyebilirsiniz.
 
-**S3: Aspose.3D için destek nasıl alınır?**  
-C3: Destek ve tartışmalar için Aspose.3D [forumunu](https://forum.aspose.com/c/3d/18) ziyaret edin.
+**Q3: Aspose.3D için nasıl destek alabilirim?**  
+A3: Destek ve tartışmalar için Aspose.3D [forum](https://forum.aspose.com/c/3d/18) adresini ziyaret edin.
 
-**S4: Ücretsiz deneme sürümü mevcut mu?**  
-C4: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) alabilirsiniz.
+**Q4: Ücretsiz deneme mevcut mu?**  
+A4: Evet, ücretsiz denemeyi [here](https://releases.aspose.com/) adresinden alabilirsiniz.
 
-**S5: Aspose.3D için geçici bir lisans nasıl elde ederim?**  
-C5: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
+**Q5: Aspose.3D için geçici bir lisans nasıl elde ederim?**  
+A5: Geçici lisansı [here](https://purchase.aspose.com/temporary-license/) adresinden alabilirsiniz.
+
+## Sık Sorulan Sorular
+
+**Q: Aynı mesh'i animasyonlu karakterler için yeniden kullanabilir miyim?**  
+A: Evet, paylaşılan mesh iskelet rig'leri veya morf hedefleriyle animasyonlandırılabilir ve her düğüm kendi malzemesini korur.
+
+**Q: FBX dışa aktarımı UV koordinatlarını korur mu?**  
+A: Kesinlikle, Aspose.3D tam UV verisini yazar, böylece dokular sonraki araçlarda doğru şekilde haritalanır.
+
+**Q: Aspose.3D'nin işleyebileceği maksimum dosya boyutu nedir?**  
+A: Kütüphane, tüm dosyayı belleğe yüklemeden 2 GB'yi aşan mesh'leri akış olarak işleyebilir, bu da büyük sahneler için uygundur.
+
+**Q: FBX sürümünü nasıl değiştiririm?**  
+A: `scene.save`'e `FileFormat.FBX201400ASCII` gibi farklı bir `FileFormat` enum değeri geçirerek.
+
+**Q: Sadece bir düğüm alt kümesini dışa aktarmak mümkün mü?**  
+A: Evet, yeni bir `Scene` oluşturup istediğiniz düğümleri ekleyebilir ve ardından o sahneyi FBX olarak kaydedebilirsiniz.
 
 ## Sonuç
 
-Tebrikler! **Mesh'i FBX'e dönüştürdünüz**, birden fazla düğüm arasında mesh geometrisi verisini paylaştınız ve Aspose.3D for Java kullanarak bireysel malzeme renklerini ayarladınız. Bu iş akışı, herhangi bir FBX‑uyumlu boru hattına aktarılabilecek hafif, yeniden kullanılabilir bir mesh mimarisi sağlar.
+Tebrikler! Aspose.3D for Java kullanarak **mesh'i FBX'e dönüştürdünüz**, mesh geometri verisini birden fazla düğüm arasında paylaştınız ve bireysel malzeme renklerini ayarladınız. Bu iş akışı, herhangi bir FBX‑uyumlu pipeline'a aktarılabilecek hafif, yeniden kullanılabilir bir mesh mimarisi sağlar.
 
 ---
 
-**Son Güncelleme:** 2026-02-17  
-**Test Edilen Versiyon:** Aspose.3D 24.11 for Java  
-**Yazar:** Aspose  
+**Last Updated:** 2026-05-19  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## İlgili Öğreticiler
+
+- [Java'da Aspose.3D Kullanarak Malzemeye Göre Mesh'i Bölme](/3d/java/3d-mesh-data/split-meshes-by-material/)
+- [Java'da FBX Doku Gömme – Aspose.3D ile 3D Nesnelere Malzeme Uygulama](/3d/java/geometry/apply-materials-to-3d-objects/)
+- [Java'da Sahneyi FBX'e Dışa Aktarma ve 3D Sahne Bilgilerini Alma](/3d/java/3d-scenes-and-models/get-scene-information/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

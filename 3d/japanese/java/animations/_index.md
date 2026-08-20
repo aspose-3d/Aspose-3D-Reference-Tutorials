@@ -1,10 +1,16 @@
 ---
-date: 2026-02-09
-description: Aspose.3D を使用して Java でアニメーション 3D シーンを作成する方法を学びます。キーフレーム アニメーション、アニメーションの期間設定、複数オブジェクトのアニメーション、アニメーション
-  FBX ファイルのエクスポートをカバーしています。
-linktitle: Create an Animated 3D Scene in Java – Aspose.3D Tutorial
+date: 2026-05-04
+description: Aspose.3D を使用した Java でのアニメーション 3D シーン作成のためのキーフレームアニメーションチュートリアルを学び、アニメーションの長さ設定、複数オブジェクトのアニメーション、アニメーション
+  FBX ファイルのエクスポートについて解説します。
+keywords:
+- keyframe animation tutorial
+- set animation duration
+- multiple object animation
+- create animated 3d scene
+- add animation properties
+linktitle: キーフレームアニメーションチュートリアル – Javaでアニメーション化された3Dシーン
 second_title: Aspose.3D Java API
-title: Javaでアニメーション3Dシーンを作成する – Aspose.3Dチュートリアル
+title: キーフレームアニメーションチュートリアル – Javaによるアニメーション3Dシーン
 url: /ja/java/animations/
 weight: 20
 ---
@@ -13,90 +19,100 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Javaでアニメーション化された3Dシーンを作成する方法
+# キーフレーム アニメーション チュートリアル – Javaでアニメーション化された3Dシーンを作成
 
 ## はじめに
 
-Javaアプリケーションで **how to animate 3d** を探しているなら、ここが最適です。この Aspose.3D for Java チュートリアルシリーズでは、**animated 3D scene** を構築し、動きや生命感、シネマティックな演出を 3‑D プロジェクトに加える方法をすべてご案内します。ゲーム、製品ビジュアライザー、インタラクティブシミュレーションの開発に関わらず、アニメーションをマスターし、**export animated FBX** ファイルの作成方法を知っていれば、魅力的なユーザー体験を提供する優位性が得られます。
+If you’re looking to **animate 3D Java** applications, you’ve come to the right place. In this Aspose.3D for Java tutorial series we’ll walk you through everything you need to build a **keyframe animation tutorial**, add motion, life, and cinematic flair to your 3‑D projects. Whether you’re developing a game, a product visualizer, or an interactive simulation, mastering **keyframe animation** and knowing how to **export animated FBX** files gives you the edge to deliver compelling user experiences.
 
 ## クイック回答
-- **What is the first step to animate 3D in Java?** Aspose.3D ライブラリをインポートし、`Scene` オブジェクトを作成します。  
-- **Which class holds animation data?** `Animation` と `AnimationTrack` クラスがキー フレーム情報を保持します。  
-- **Do I need a separate camera for animations?** ターゲットカメラはオプションですが、視点遷移を正確に制御できます。  
-- **Is a license required for production?** はい、評価版以外のビルドには商用 Aspose.3D ライセンスが必要です。  
-- **Can I combine multiple animations?** もちろんです。位置、回転、スケーリングのトラックを同じノードにレイヤーできます。
+- **What is the first step to animate 3D in Java?** Import the Aspose.3D library and create a `Scene` object.  
+- **Which class holds animation data?** `Animation` and `AnimationTrack` classes store key‑frame information.  
+- **Do I need a separate camera for animations?** A target camera is optional but gives you precise control over viewpoint transitions.  
+- **Is a license required for production?** Yes, a commercial Aspose.3D license is needed for non‑evaluation builds.  
+- **Can I combine multiple animations?** Absolutely – you can layer position, rotation, and scaling tracks on the same node.
 
-## Aspose.3Dのコンテキストで「how to animate 3d」とは何ですか？
+## Aspose.3Dのコンテキストで「keyframe animation tutorial」とは何ですか？
 
-3D オブジェクトにアニメーションを付けるとは、プロパティ（位置、回転、スケール、マテリアルなど）が時間とともにどのように変化するかを定義することです。Aspose.3D は、**keyframe animation Java** シーケンスを作成し、ノードに割り当て、実行時に再生できる流暢な API を提供します。
+Animating 3D objects means defining how their properties (position, rotation, scale, material, etc.) change over time. Aspose.3D provides a fluent API that lets you create **keyframe animation Java** sequences, assign them to nodes, and play them back during runtime.
 
 ## なぜJavaのアニメーションにAspose.3Dを使用するのか？
 
-- **Simple, fluent API** – 低レベルのグラフィック パイプラインに深入りする必要はありません。  
-- **Cross‑platform** – Windows、Linux、macOS で動作します。  
-- **Rich feature set** – スケルトン アニメーション、モーフ ターゲット、カメラ パスを標準でサポートします。  
-- **Full control** – 複数のアニメーション トラックを組み合わせて複雑な動きを実現し、アニメーションの長さを設定し、**export animated FBX** ファイルを下流パイプライン向けにエクスポートできます。  
+- **Simple, fluent API** – No need to dive into low‑level graphics pipelines.  
+- **Cross‑platform** – Works on Windows, Linux, and macOS.  
+- **Rich feature set** – Supports skeletal animation, morph targets, and camera paths out of the box.  
+- **Full control** – Combine multiple animation tracks for complex motion, **set animation duration**, and **export animated FBX** files for downstream pipelines.  
 
 ## 前提条件
-- Java 8 以降がインストールされていること。  
-- Aspose.3D for Java ライブラリ（Aspose のウェブサイトからダウンロード）。  
-- 本番環境で使用する有効な Aspose.3D ライセンス（無料トライアルあり）。  
+
+- Java 8 or later installed.  
+- Aspose.3D for Java library (download from the Aspose website).  
+- A valid Aspose.3D license for production use (free trial available).  
 
 ## Javaで3Dシーンにアニメーションプロパティを追加する
 
-### [Aspose.3D Tutorial - Add Animation Properties to Scenes](./add-animation-properties-to-scenes/)
+### [Aspose.3D チュートリアル - シーンへのアニメーションプロパティの追加](./add-animation-properties-to-scenes/)
 
-旅の最初の段階では、**how to add animation** を 3D シーンに適用する方法を探ります。Java ベースのプロジェクトが流れるような動きとダイナミックなエフェクトで命を吹き込まれる様子を想像してください。ステップバイステップのチュートリアルにより、アニメーション プロパティのシームレスな統合が保証され、簡単に作品に活力を与えることができます。魔法を [here](./add-animation-properties-to-scenes/) で発見し、静的シーンがアニメーション マスターピースへと変貌する様子をご覧ください。
+In the first leg of our journey, we'll explore how to **how to add animation** to your 3D scenes. Imagine your Java‑based projects coming to life with fluid motions and dynamic effects. Our step‑by‑step tutorial ensures a seamless integration of animation properties, allowing you to breathe vitality into your creations effortlessly. Uncover the magic [here](./add-animation-properties-to-scenes/) and witness the transformation of static scenes into animated masterpieces.
 
 ## Javaで3Dアニメーション用のターゲットカメラを設定する
 
-### [Aspose.3D Tutorial - Set Up Target Camera](./set-up-target-camera/)
+### [Aspose.3D チュートリアル - ターゲットカメラの設定](./set-up-target-camera/)
 
-次のステップでは、Java 3D アニメーション用のターゲットカメラ設定の細部に踏み込みます。シネマティック効果を実現する重要な要素であるターゲットカメラは、可能性の世界を開きます。チュートリアルはプロセスを明確に案内し、Java 3D アニメーションの探索を容易にするロードマップを提供します。今すぐダウンロードし、魅力的な 3D 開発の旅を始めましょう！チュートリアルは [here](./set-up-target-camera/) でご覧いただけます。
+Next on our adventure, we dive into the intricities of setting up a target camera for Java 3D animations. A crucial element in achieving cinematic effects, the target camera opens up a world of possibilities. Our tutorial guides you through the process, offering a clear roadmap for effortless exploration of Java 3D animations. Download now, and let the captivating 3D development journey begin! Explore the tutorial [here](./set-up-target-camera/) to unleash the power of visual storytelling in your projects.
 
 ## Javaでアニメーション化された3Dシーンを構築する方法
-**animated 3D scene** を作成するには、主に次の 3 つのステップがあります。
 
-1. **Define the geometry** – メッシュ、ライト、カメラをロードまたは構築します。  
-2. **Create animation tracks** – 平行移動、回転、スケーリング用のキー フレームを指定します。  
-3. **Attach tracks to scene nodes** – エンジンが再生中に値を補間します。
+Creating an **animated 3D scene** involves three main steps:
 
-上記の 2 つのチュートリアルに従えば、FBX や OBJ などの一般的なフォーマットへエクスポート可能な **create animated 3D scenes** 用の完全なパイプラインが手に入ります。再生が期待通りになるよう、`animation.setDuration(seconds)` で **set animation duration** を忘れずに設定してください。
+1. **Define the geometry** – load or construct meshes, lights, and cameras.  
+2. **Create animation tracks** – specify key‑frames for translation, rotation, or scaling.  
+3. **Attach tracks to scene nodes** – the engine will interpolate values during playback.
+
+By following the two tutorials above, you’ll have a complete pipeline to **create animated 3D scenes** that can be exported to popular formats like FBX or OBJ. Remember to **set animation duration** with `animation.setDuration(seconds)` so your playback runs exactly as expected.
+
+## アニメーションの長さを設定する方法
+
+The duration of an animation clip determines how long the sequence plays. In Aspose.3D you simply call `animation.setDuration(double seconds)` right after creating the `Animation` object. Consistent timing ensures smooth playback across all tracks.
+
+## 複数オブジェクトのアニメーション
+
+When you need several objects to move independently, create a separate `AnimationTrack` for each node. This **multiple object animation** approach keeps each object's motion isolated and gives you fine‑grained control over timing and interpolation.
 
 ## よくある落とし穴とヒント
-- **Pitfall:** アニメーションの長さを設定し忘れること。*Tip:* 再生時間を定義するために必ず `animation.setDuration(seconds)` を呼び出してください。  
-- **Pitfall:** アニメーション追加後にシーングラフを更新しないこと。*Tip:* 描画前に `scene.update()` を呼び出しましょう。  
-- **Pitfall:** キーフレームの時間単位が一致していないこと。*Tip:* すべてのキーフレーム タイムスタンプを同じ時間単位（秒）で管理してください。  
-- **Pitfall:** 単一のトラックで複数オブジェクトをアニメーションできると誤解すること。*Tip:* **multiple object animation** を使用し、各ノードに固有の `AnimationTrack` を割り当てましょう。  
 
-## FAQ
+- **Pitfall:** Forgetting to set the animation duration. *Tip:* Always call `animation.setDuration(seconds)` to define playback length.  
+- **Pitfall:** Overlooking the need to update the scene graph after adding animations. *Tip:* Invoke `scene.update()` before rendering.  
+- **Pitfall:** Using incompatible key‑frame times. *Tip:* Keep all key‑frame timestamps in the same time unit (seconds).  
+- **Pitfall:** Assuming a single track can animate multiple objects. *Tip:* Use **multiple object animation** – each node gets its own `AnimationTrack`.  
+
+## Javaチュートリアルでのアニメーションの扱い方
+
+### [Javaで3Dシーンにアニメーションプロパティを追加 | Aspose.3D チュートリアル](./add-animation-properties-to-scenes/)
+Enhance your Java‑based 3D projects with Aspose.3D. Follow our tutorial to add animation properties seamlessly.
+
+### [Javaで3Dアニメーション用のターゲットカメラを設定 | Aspose.3D チュートリアル](./set-up-target-camera/)
+Explore Java 3D animations effortlessly with Aspose.3D. Follow our tutorial for a step‑by‑step guide. Download now for a captivating 3D development journey.
+
+## よくある質問
 
 **Q: How do I set animation duration for a clip?**  
-A: `Animation` オブジェクト作成直後に `animation.setDuration(double seconds)` を呼び出します。
+A: Call `animation.setDuration(double seconds)` right after creating the `Animation` object.
 
 **Q: Can I export an animated FBX directly from Aspose.3D?**  
-A: はい、`scene.save("output.fbx", SaveFormat.FBX)` を使用すれば、アニメーション データが保持されたままエクスポートできます。
+A: Yes, use `scene.save("output.fbx", SaveFormat.FBX)`; the animation data is preserved.
 
 **Q: What is the best way to manage keyframe animation Java code?**  
-A: 関連するキー フレームを個別の `AnimationTrack` オブジェクトにまとめ、対応するノードに添付して整理整頓しましょう。
+A: Group related key‑frames into separate `AnimationTrack` objects and attach them to the corresponding node for clean organization.
 
 **Q: Does Aspose.3D support skeletal animation for character rigs?**  
-A: サポートしています。スケルトン データをインポートし、スケルトン階層上の `AnimationTrack` を使用してボーンをアニメーションできます。
+A: It does; you can import skeletal data and animate bones using `AnimationTrack` on the skeleton hierarchy.
 
 **Q: Are there performance considerations for large animated scenes?**  
-A: キーフレーム数は適度に抑え、可能であれば共有アニメーション トラックを再利用し、レンダリング前に `scene.optimize()` を呼び出してください。
+A: Keep the number of key‑frames reasonable, reuse shared animation tracks when possible, and call `scene.optimize()` before rendering.
 
-## Javaチュートリアルでアニメーションを扱う
-### [Add Animation Properties to 3D Scenes in Java | Aspose.3D Tutorial](./add-animation-properties-to-scenes/)
-Aspose.3D を使用して Java ベースの 3D プロジェクトを強化しましょう。チュートリアルに従えば、アニメーション プロパティをシームレスに追加できます。
-
-### [Set Up Target Camera for 3D Animations in Java | Aspose.3D Tutorial](./set-up-target-camera/)
-Aspose.3D で Java の 3D アニメーションを手軽に体験してください。ステップバイステップのガイドが用意されたチュートリアルを参照し、魅力的な 3D 開発の旅を今すぐ始めましょう。
-
----
-
-**最終更新日:** 2026-02-09  
-**テスト対象:** Aspose.3D for Java 24.11  
+**最終更新日:** 2026-05-04  
+**テスト環境:** Aspose.3D for Java 24.11  
 **作者:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

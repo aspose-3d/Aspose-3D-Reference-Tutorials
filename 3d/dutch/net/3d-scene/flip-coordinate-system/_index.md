@@ -1,33 +1,50 @@
 ---
-title: Coördinatensysteem omdraaien in 3D-scènes
-linktitle: Coördinatensysteem omdraaien in 3D-scènes
-second_title: Aspose.3D .NET-API
-description: Beheers de kunst van het omdraaien van coördinatensystemen in 3D-scènes met Aspose.3D voor .NET. Volg onze stapsgewijze handleiding voor een naadloze implementatie.
-weight: 12
+date: 2026-03-26
+description: Leer hoe u coördinaten en het coördinatensysteem kunt omkeren in 3D‑scènes
+  met Aspose.3D voor .NET. Volg onze stapsgewijze handleiding voor een naadloze implementatie.
+linktitle: Flipping Coordinate System in 3D Scenes
+second_title: Aspose.3D .NET API
+title: Hoe coördinaten te spiegelen in 3D‑scènes met Aspose.3D voor .NET
 url: /nl/net/3d-scene/flip-coordinate-system/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Coördinatensysteem omdraaien in 3D-scènes
+# Hoe Coördinaten omkeren in 3D‑scènes met Aspose.3D voor .NET
 
-## Invoering
+## Inleiding
 
-Welkom bij deze stapsgewijze handleiding over het omdraaien van het coördinatensysteem in 3D-scènes met Aspose.3D voor .NET. Als u een ontwikkelaar of een 3D-liefhebber bent en coördinatensystemen in uw scènes wilt manipuleren, bent u hier op de juiste plek. In deze zelfstudie leiden we u door het proces, zodat u deze functie eenvoudig naadloos kunt implementeren.
+Als je **hoe je coördinaten omdraait** in een 3D‑scène, ben je op de juiste plek. In deze tutorial lopen we de exacte stappen door die nodig zijn om het coördinatensysteem van een 3D‑model om te keren met behulp van de Aspose.3D .NET API. Aan het einde begrijp je waarom je het **coördinatensysteem wilt omkeren**, hoe je het **3D‑coördinatensysteem kunt converteren** naar een andere asoriëntatie, en hoe je dit doet met slechts een paar regels C#‑code.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat is het primaire doel?** Om de asoriëntatie van een 3D‑scène te wijzigen zodat deze overeenkomt met de conventie van de doelapplicatie.  
+- **Welk formaat wordt gebruikt voor de output?** Wavefront OBJ (`.obj`).  
+- **Heb ik een licentie nodig?** Een tijdelijke of volledige Aspose.3D‑licentie is vereist voor productiegebruik.  
+- **Hoe lang duurt de implementatie?** Meestal minder dan 10 minuten voor een eenvoudige scène.  
+- **Kan ik dit gebruiken met .NET Core?** Ja – de API werkt met .NET Framework en .NET Core.
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat betekent het omkeren van coördinaten?
 
-- Basiskennis van de programmeertaal C#.
--  Aspose.3D voor .NET-bibliotheek geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/3d/net/).
-- Een voorbeeld van een 3D-bestand in een ondersteund formaat (bijvoorbeeld .ma).
+Het omkeren van coördinaten betekent het omkeren van het teken van één of meer assen (X, Y of Z) bij het exporteren of importeren van een model. Deze bewerking is vaak nodig bij het verplaatsen van assets tussen software die verschillende rechtshandige of linkshandige coördinatenconventies gebruiken.
 
-## Naamruimten importeren
+## Waarom een 3D‑coördinatensysteem omkeren?
 
-Zorg ervoor dat u in uw C#-project de benodigde naamruimten opneemt om toegang te krijgen tot de Aspose.3D-functionaliteiten:
+- **Interoperabiliteit:** Sommige game‑engines verwachten Y‑up terwijl veel modelleringstools Z‑up gebruiken.  
+- **Consistentie:** Het uitlijnen van alle assets op één asoriëntatie vereenvoudigt het samenstellen van scènes.  
+- **Conversie:** Bij het converteren van bestanden tussen formaten (bijv. `.ma` naar `.obj`) zorgt het omkeren ervoor dat de geometrie correct wordt weergegeven.
+
+## Voorvereisten
+
+- Basiskennis van C#‑programmeren.  
+- Aspose.3D voor .NET‑bibliotheek geïnstalleerd – download deze van [hier](https://releases.aspose.com/3d/net/).  
+- Een voorbeeld 3D‑bestand in een ondersteund formaat (bijv. `.ma`).  
+
+## Namespaces importeren
+
+Voeg de benodigde `using`‑statements toe zodat de compiler de Aspose.3D‑klassen kan vinden:
 
 ```csharp
 using System;
@@ -39,19 +56,23 @@ using Aspose.ThreeD.Entities;
 using Aspose.ThreeD.Formats;
 ```
 
-## Stap 1: Laad 3D-scène
+## Stapsgewijze handleiding
+
+### Stap 1: Laad de 3D‑scène
+
+Open eerst het bronbestand. Dit maakt een `Scene`‑object aan dat alle geometrie, camera's en lichten bevat.
 
 ```csharp
-// Het pad naar het invoerbestand
+// The path to the input file
 string input = "camera.ma";
-// Initialiseer scèneobject
+// Initialize scene object
 Scene scene = new Scene();
 scene.Open(input);
 ```
 
- In deze stap laden we een 3D-scène vanuit het opgegeven bestandspad met behulp van de`Open` methode.
+### Stap 2: Keer het coördinatensysteem om tijdens het opslaan
 
-## Stap 2: Draai het coördinatensysteem om
+Stel de `FlipCoordinateSystem`‑vlag in op het `ObjSaveOptions`‑object. Wanneer `Save` wordt aangeroepen, keert Aspose.3D automatisch de asoriëntatie om.
 
 ```csharp
 var output = RunExamples.GetOutputFilePath("FlipCoordinateSystem.obj");
@@ -62,41 +83,51 @@ var opt = new ObjSaveOptions()
 scene.Save(output, opt);
 ```
 
- Nu gebruiken wij de`Save` methode om de scène te exporteren, waarbij het coördinatensysteem wordt omgedraaid. De uitvoer wordt opgeslagen in het Wavefront OBJ-formaat.
+> **Pro tip:** Als je de **asoriëntatie 3d** voor een ander doel moet wijzigen (bijv. Y‑up naar Z‑up), pas dan de `FlipCoordinateSystem`‑vlag aan of gebruik een aangepaste transformatie‑matrix vóór het opslaan.
 
-## Stap 3: Succesbericht weergeven
+### Stap 3: Bevestig succes
+
+Een eenvoudige console‑melding laat je verifiëren dat de bewerking zonder fouten is voltooid.
 
 ```csharp
 Console.WriteLine("\nCoordinate system has been flipped successfully.\nFile saved at " + output);
 ```
 
-Ten slotte geven we een succesbericht weer, dat aangeeft dat het coördinatensysteem met succes is omgedraaid, en geven we het pad naar het opgeslagen bestand op.
+## Veelvoorkomende valkuilen & hoe ze te vermijden
 
-## Conclusie
-
-Gefeliciteerd! Je hebt met succes geleerd hoe je het coördinatensysteem in 3D-scènes kunt omdraaien met Aspose.3D voor .NET. Deze functie kan in verschillende scenario's van cruciaal belang zijn, en met deze tutorial kunt u deze nu moeiteloos in uw projecten integreren.
+| Symptoom | Waarschijnlijke oorzaak | Oplossing |
+|----------|--------------------------|-----------|
+| Model verschijnt gespiegeld | `FlipCoordinateSystem` staat op de standaardwaarde (`false`) | Zorg ervoor dat de vlag op `true` staat. |
+| Geometrie ontbreekt na export | Invoerbestand wordt niet volledig ondersteund | Controleer of het bronformaat wordt ondersteund door Aspose.3D. |
+| Onverwachte asrichting | Een aangepaste transformatie gebruiken na het omkeren | Pas transformaties **voor** het instellen van de omkeer‑optie toe. |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.3D voor .NET gebruiken met andere programmeertalen?
+**Q: Kan ik Aspose.3D voor .NET gebruiken met andere programmeertalen?**  
+A: Aspose.3D is voornamelijk een .NET‑bibliotheek, maar Aspose biedt equivalente API's voor Java, Python en andere platforms.
 
-A1: Aspose.3D voor .NET is voornamelijk ontworpen voor C#-programmering. Aspose biedt echter vergelijkbare bibliotheken voor andere talen zoals Java, Python en meer.
+**Q: Waar kan ik gedetailleerde documentatie vinden voor Aspose.3D voor .NET?**  
+A: Je kunt de documentatie raadplegen [hier](https://reference.aspose.com/3d/net/) voor uitgebreide informatie.
 
-### V2: Waar kan ik gedetailleerde documentatie vinden voor Aspose.3D voor .NET?
+**Q: Is er een gratis proefversie beschikbaar voor Aspose.3D voor .NET?**  
+A: Ja, je kunt de gratis proefversie verkennen [hier](https://releases.aspose.com/) voordat je een aankoop doet.
 
- A2: U kunt de documentatie raadplegen[hier](https://reference.aspose.com/3d/net/) voor uitgebreide informatie over Aspose.3D voor .NET.
+**Q: Hoe kan ik een tijdelijke licentie krijgen voor Aspose.3D voor .NET?**  
+A: Voor tijdelijke licenties, bezoek [deze link](https://purchase.aspose.com/temporary-license/).
 
-### V3: Is er een gratis proefversie beschikbaar voor Aspose.3D voor .NET?
+**Q: Waar kan ik ondersteuning zoeken of vragen stellen over Aspose.3D voor .NET?**  
+A: Het Aspose community‑forum [hier](https://forum.aspose.com/c/3d/18) is de ideale plek voor ondersteuning en discussies.
 
- A3: Ja, u kunt de gratis proefversie verkennen[hier](https://releases.aspose.com/) voordat u een aankoop doet.
+## Conclusie
 
-### V4: Hoe kan ik tijdelijke licenties krijgen voor Aspose.3D voor .NET?
+Je weet nu **hoe je coördinaten omdraait** in een 3D‑scène met Aspose.3D voor .NET, waarom je mogelijk het **3D‑coördinatensysteem moet omkeren**, en hoe je de meest voorkomende problemen aanpakt. Integreer dit fragment in je asset‑pipeline om een consistente asoriëntatie te garanderen voor al je 3D‑assets.
 
- A4: Ga voor tijdelijke licenties naar[deze link](https://purchase.aspose.com/temporary-license/).
+---
 
-### V5: Waar kan ik ondersteuning zoeken of vragen stellen met betrekking tot Aspose.3D voor .NET?
+**Laatst bijgewerkt:** 2026-03-26  
+**Getest met:** Aspose.3D for .NET (latest release)  
+**Auteur:** Aspose  
 
- A5: Het Aspose-communityforum[hier](https://forum.aspose.com/c/3d/18) is de ideale plek voor ondersteuning en discussies.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

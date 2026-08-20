@@ -1,8 +1,12 @@
 ---
-date: 2026-02-12
-description: 学习如何使用 Aspose.3D for Java 将场景导出为 FBX 并获取 3D 场景信息。本分步指南涵盖设置应用程序名称、定义测量单位以及将场景导出为
-  FBX。
-linktitle: How to Save FBX and Retrieve 3D Scene Info in Java
+date: 2026-05-04
+description: 学习如何使用 Aspose.3D for Java 将场景导出为 FBX 并设置应用程序名称为 java。本分步指南还展示了如何定义测量单位以及获取
+  3D 场景信息。
+keywords:
+- export scene to fbx
+- set application name java
+- aspose 3d java
+linktitle: 如何在 Java 中保存 FBX 并检索 3D 场景信息
 second_title: Aspose.3D Java API
 title: 如何将场景导出为 FBX 并在 Java 中获取 3D 场景信息
 url: /zh/java/3d-scenes-and-models/get-scene-information/
@@ -13,26 +17,25 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何在 Java 中导出场景为 FBX 并获取 3D 场景信息
+# 如何将场景导出为 FBX 并在 Java 中检索 3D 场景信息
 
 ## 介绍
 
-如果你正在寻找一份关于 **如何导出场景为 FBX** 并从 3D 场景中提取有用元数据的清晰、动手指南，你来对地方了。在本教程中，我们将使用 **Aspose.3D Java** 库逐步演示：从创建场景、**设置应用程序名称**、**定义计量单位**，到最终 **导出场景为 FBX**。完成后，你将拥有一个可直接使用的 FBX 文件，其中包含下游流水线所需的资产信息。
+如果您正在寻找一个关于 **如何将场景导出为 FBX** 并从 3D 场景中提取有用元数据的清晰、动手指南，那么您来对地方了。在本教程中，我们将使用 **Aspose.3D Java** 库逐步演示：从创建场景、**设置应用程序名称**、**定义测量单位**，到最终**将场景导出为 FBX**。完成后，您将拥有一个可直接使用的 FBX 文件，携带下游流水线所需的资产信息。
 
-## 快速回答
-- **主要目标是什么？** 导出包含自定义资产信息的 FBX 场景。  
-- **使用哪个库？** Aspose.3D for Java。  
-- **需要许可证吗？** 开发阶段可使用免费试用版；生产环境需商业许可证。  
-- **可以更改计量单位吗？** 可以——使用 `setUnitName` 和 `setUnitScaleFactor`。  
-- **输出保存在哪里？** 保存到你在 `scene.save(...)` 中指定的路径。
+## 快速答案
+
+- **主要目标是什么？** 将场景导出为包含自定义资产信息的 FBX。  
+- **使用的库是？** Aspose.3D for Java。  
+- **我需要许可证吗？** 免费试用可用于开发；生产环境需要商业许可证。  
+- **我可以更改测量单位吗？** 可以——使用 `setUnitName` 和 `setUnitScaleFactor`。  
+- **输出保存在哪里？** 保存到您在 `scene.save(...)` 中指定的路径。  
 
 ## 前置条件
 
-在开始之前，请确保你已经：
-
-- 熟练掌握核心 Java 语法。  
-- 下载并将 **Aspose.3D for Java** 添加到项目中（可从官方获取）[Aspose 3D 下载页面](https://releases.aspose.com/3d/java/)。  
-- 正确配置了你喜欢的 Java IDE（IntelliJ IDEA、Eclipse、NetBeans 等）。
+- 对核心 Java 语法有扎实的掌握。  
+- **Aspose.3D for Java** 已下载并添加到项目中（您可以从官方获取）[Aspose 3D 下载页面](https://releases.aspose.com/3d/java/)。  
+- 您喜欢的 Java IDE（IntelliJ IDEA、Eclipse、NetBeans 等）已正确配置。
 
 ## 导入包
 
@@ -43,11 +46,11 @@ import com.aspose.threed.FileFormat;
 import com.aspose.threed.Scene;
 ```
 
-> **专业提示：** 保持 import 列表最小化，以避免不必要的依赖并提升编译速度。
+> **专业提示：** 保持导入列表最小化，以避免不必要的依赖并提升编译速度。
 
 ## 保存 FBX 文件的流程是什么？
 
-下面是一段简明的逐步演练，展示 **如何向场景添加资产信息** 并 **导出场景为 FBX**。
+下面是一个简明的逐步演示，展示了 **如何向场景添加资产信息** 并随后 **将场景导出为 FBX**。
 
 ### 步骤 1：初始化 3D 场景
 
@@ -58,20 +61,20 @@ import com.aspose.threed.Scene;
 Scene scene = new Scene();
 ```
 
-### 步骤 2：设置应用程序和供应商信息
+### 如何在 Java 中设置应用程序名称
 
-添加自定义元数据有助于下游工具识别文件来源。这里我们使用 `AssetInfo` 对象 **设置应用程序名称** 和供应商。
+添加自定义元数据有助于下游工具识别文件来源。在保存文件之前，使用 `AssetInfo` 对象 **设置应用程序名称**（以及供应商）。
 
 ```java
 scene.getAssetInfo().setApplicationName("Egypt");
 scene.getAssetInfo().setApplicationVendor("Manualdesk");
 ```
 
-> **为什么重要：** 许多流水线会根据来源应用程序对资产进行过滤或标记，这一步对大型项目至关重要。
+> **为什么重要：** 许多流水线会根据来源应用程序过滤或标记资产，这使得此步骤对大型项目至关重要。
 
-### 步骤 3：定义计量单位
+### 步骤 3：定义测量单位
 
-Aspose.3D 允许你指定场景使用的单位系统。本例中使用古埃及单位 “pole”，并设置自定义比例因子。
+Aspose.3D 允许您指定场景使用的单位系统。在本例中，我们使用一种名为 “pole” 的古埃及单位，并设置自定义比例因子。
 
 ```java
 scene.getAssetInfo().setUnitName("pole");
@@ -82,7 +85,7 @@ scene.getAssetInfo().setUnitScaleFactor(0.6);
 
 ### 步骤 4：导出场景为 FBX
 
-资产信息已附加后，使用 FBX 格式保存场景。`FileFormat.FBX7500ASCII` 选项会生成可读的 ASCII FBX，便于调试。
+现在资产信息已附加，我们将场景保存为 FBX 文件。`FileFormat.FBX7500ASCII` 选项会生成可读的 ASCII FBX，便于调试。
 
 ```java
 String MyDir = "Your Document Directory";
@@ -91,11 +94,11 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:AddAssetInformationToScene
 ```
 
-> **记住：** 将 `"Your Document Directory"` 替换为绝对路径或相对于项目工作目录的路径。
+> **请记住：** 将 `"Your Document Directory"` 替换为绝对路径或相对于项目工作目录的路径。
 
 ### 步骤 5：打印成功信息
 
-简单的控制台输出确认操作成功并告知文件写入位置。
+简单的控制台输出确认操作成功，并告知文件写入的位置。
 
 ```java
 System.out.println("\nAsset information added successfully to Scene.\nFile saved at " + MyDir);
@@ -103,49 +106,49 @@ System.out.println("\nAsset information added successfully to Scene.\nFile saved
 
 ## 为什么使用 Aspose.3D 导出场景为 FBX？
 
-导出为 FBX 是常见需求，因为 FBX 被游戏引擎、DCC 工具和 AR/VR 流水线广泛支持。Aspose.3D 让你能够完全控制导出文件——包括元数据、单位和几何体——而无需笨重的 3D 创作软件。这使得自动化资产生成、批处理和服务器端转换既快速又可靠。
+导出为 FBX 是常见需求，因为 FBX 被游戏引擎、DCC 工具和 AR/VR 流水线广泛支持。Aspose.3D 让您能够完全控制导出文件——元数据、单位和几何体——无需重量级的 3D 创作应用程序。这使得自动化资产生成、批处理以及服务器端转换快速且可靠。
 
 ## 常见使用场景
 
-- **游戏资产流水线** – 直接在 FBX 文件中嵌入创作者信息，以实现版本追踪。  
-- **建筑可视化** – 存储项目特定单位，避免在渲染引擎中出现缩放错误。  
+- **游戏资产流水线** – 将创作者信息直接嵌入 FBX 文件以进行版本跟踪。  
+- **建筑可视化** – 存储项目特定的单位，以避免在导入渲染引擎时出现缩放错误。  
 - **自动化报告** – 实时生成带有元数据的 FBX 文件，供下游分析工具读取。  
-- **云端 3D 服务** – 在没有 GUI 的情况下以编程方式创建并导出场景，完美适用于 SaaS 平台。
+- **基于云的 3D 服务** – 程序化创建并导出场景，无需 GUI，适合 SaaS 平台。  
 
-## 故障排查与技巧
+## 故障排除与技巧
 
 | 问题 | 解决方案 |
-|------|----------|
-| **保存后文件未找到** | 确认 `MyDir` 指向已存在的文件夹，并且应用程序拥有写入权限。 |
-| **在外部查看器中单位显示不正确** | 再次检查 `unitScaleFactor`；部分查看器默认以米为基准单位。 |
-| **资产元数据缺失** | 确保在调用 `scene.save()` **之前** 调用 `scene.getAssetInfo()`；`save()` 之后的更改不会被持久化。 |
-| **大场景性能瓶颈** | 在保存前使用 `scene.optimize()` 以降低内存占用。 |
-| **ASCII FBX 文件过大** | 使用 `FileFormat.FBX7500` 切换为二进制 FBX（参见 FAQ）。 |
+|-------|----------|
+| **保存后文件未找到** | 确认 `MyDir` 指向已存在的文件夹，并且您的应用程序具有写入权限。 |
+| **外部查看器中单位显示不正确** | 再次检查 `unitScaleFactor`；某些查看器期望以米为基础单位。 |
+| **资产元数据缺失** | 确保在保存之前调用 `scene.getAssetInfo()`；在 `save()` 之后所做的更改不会被持久化。 |
+| **大型场景的性能瓶颈** | 在保存之前使用 `scene.optimize()` 以降低内存使用。 |
+| **ASCII FBX 文件太大** | 通过使用 `FileFormat.FBX7500` 切换为二进制 FBX（参见 FAQ）。 |
 
-## 常见问答
+## 常见问题
 
-**问：如何将输出格式改为二进制 FBX？**  
-答：在调用 `scene.save(...)` 时，将 `FileFormat.FBX7500ASCII` 替换为 `FileFormat.FBX7500`。
+**Q: 如何将输出格式更改为二进制 FBX？**  
+A: 在调用 `scene.save(...)` 时，将 `FileFormat.FBX7500ASCII` 替换为 `FileFormat.FBX7500`。
 
-**问：我可以在内置资产字段之外添加自定义用户元数据吗？**  
-答：可以，使用 `scene.getUserData().add("Key", "Value")` 嵌入额外的键值对。
+**Q: 我可以在内置资产字段之外添加自定义用户元数据吗？**  
+A: 可以，使用 `scene.getUserData().add("Key", "Value")` 嵌入额外的键值对。
 
-**问：Aspose.3D 是否支持其他导出格式，如 OBJ 或 GLTF？**  
-答：支持。只需将 `FileFormat` 枚举改为 `OBJ` 或 `GLTF2` 即可。
+**Q: Aspose.3D 是否支持其他导出格式，如 OBJ 或 GLTF？**  
+A: 支持。只需将 `FileFormat` 枚举更改为 `OBJ` 或 `GLTF2` 即可。
 
-**问：需要哪个版本的 Java？**  
-答：Aspose.3D for Java 支持 Java 8 及以上版本。
+**Q: 需要哪个版本的 Java？**  
+A: Aspose.3D for Java 支持 Java 8 及更高版本。
 
-**问：能否加载已有的 FBX，修改其资产信息后重新保存？**  
-答：完全可以。使用 `new Scene("input.fbx")` 加载文件，修改 `scene.getAssetInfo()`，随后保存。
+**Q: 能否加载已有的 FBX，修改其资产信息后重新保存？**  
+A: 完全可以。使用 `new Scene("input.fbx")` 加载文件，修改 `scene.getAssetInfo()`，然后保存。
 
 ## 结论
 
-现在，你已经掌握了一套完整的、可投入生产的 **导出场景为 FBX** 工作流，同时嵌入了应用程序名称、供应商以及自定义计量单位等重要资产信息。这种方法简化了资产管理，减少了手动记录工作，并确保下游工具获取全部上下文。欢迎探索其他导出格式、添加自定义用户数据，或将此代码集成到更大的自动化流水线中。
+您现在拥有一个完整的、可投入生产的工作流，用于 **将场景导出为 FBX** 并嵌入有价值的资产信息，如应用程序名称、供应商和自定义测量单位。此方法简化了资产管理，减少了手动记录，并确保下游工具获取所需的全部上下文。欢迎探索其他导出格式、添加自定义用户数据，或将此代码集成到更大的自动化流水线中。
 
 ---
 
-**最后更新：** 2026-02-12  
+**最后更新：** 2026-05-04  
 **测试环境：** Aspose.3D for Java 24.11  
 **作者：** Aspose
 

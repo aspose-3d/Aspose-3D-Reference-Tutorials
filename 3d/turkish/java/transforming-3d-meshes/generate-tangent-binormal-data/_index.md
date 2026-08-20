@@ -53,12 +53,15 @@ import java.io.IOException;
 ## Adım 1: 3D Dosyasını Yükleme
 İlk olarak, işlemek istediğiniz kaynak modeli yükleyin.
 
-```java
+````
 // The path to the documents directory.
 String MyDir = "Your Document Directory";
+MyDir = MyDir + "document.fbx";
 // Load an existing 3D file
-Scene scene = new Scene(MyDir + "document.fbx");
-```
+Scene scene = new Scene();
+scene.open(MyDir);
+````
+
 
 > **Pro ipucu:** `"Your Document Directory"` ifadesini makinenizdeki mutlak yol ile değiştirin ve dosya adının düzenlemek istediğiniz gerçek FBX dosyasıyla eşleştiğinden emin olun.
 

@@ -2,10 +2,14 @@
 title: How to Export Scene to FBX and Retrieve 3D Scene Info in Java
 linktitle: How to Save FBX and Retrieve 3D Scene Info in Java
 second_title: Aspose.3D Java API
-description: Learn how to export scene to FBX and retrieve 3D scene information using Aspose.3D for Java. This step‑by‑step guide covers setting the application name, defining measurement units, and exporting the scene to FBX.
+description: Learn how to export scene to FBX and set application name java using Aspose.3D for Java. This step‑by‑step guide also shows how to define measurement units and retrieve 3D scene information.
 weight: 12
 url: /java/3d-scenes-and-models/get-scene-information/
-date: 2026-02-12
+date: 2026-05-04
+keywords:
+- export scene to fbx
+- set application name java
+- aspose 3d java
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -23,7 +27,7 @@ If you’re looking for a clear, hands‑on guide on **how to export scene to FB
 - **Which library is used?** Aspose.3D for Java.  
 - **Do I need a license?** A free trial works for development; a commercial license is required for production.  
 - **Can I change the measurement units?** Yes – use `setUnitName` and `setUnitScaleFactor`.  
-- **Where is the output saved?** To the path you specify in `scene.save(...)`.
+- **Where is the output saved?** To the path you specify in `scene.save(...)`.  
 
 ## Prerequisites
 
@@ -57,9 +61,9 @@ First, create an empty `Scene` object. This will be the container for all geomet
 Scene scene = new Scene();
 ```
 
-### Step 2: Set Application and Vendor Information
+### How to set application name in Java
 
-Adding custom metadata helps downstream tools identify the source of the file. Here we **set the application name** and vendor using the `AssetInfo` object.
+Adding custom metadata helps downstream tools identify the source of the file. Use the `AssetInfo` object to **set the application name** (and vendor) before you save the file.
 
 ```java
 scene.getAssetInfo().setApplicationName("Egypt");
@@ -82,24 +86,15 @@ scene.getAssetInfo().setUnitScaleFactor(0.6);
 ### Step 4: Export Scene to FBX
 
 Now that the asset information is attached, we save the scene as an FBX file. The `FileFormat.FBX7500ASCII` option produces a human‑readable ASCII FBX, which is handy for debugging.
-
 ```java
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "InformationToScene.fbx";
 scene.save(MyDir, FileFormat.FBX7500ASCII);
+System.out.println("\nAsset information added successfully to Scene.\nFile saved at " + MyDir);
 // ExEnd:AddAssetInformationToScene
 ```
 
-> **Remember:** Replace `"Your Document Directory"` with an absolute path or a path relative to your project’s working directory.
-
-### Step 5: Print Success Message
-
-A simple console output confirms that the operation succeeded and tells you where the file was written.
-
-```java
-System.out.println("\nAsset information added successfully to Scene.\nFile saved at " + MyDir);
-```
-
+> **Remember:** Replace `"Your Document Directory"` with an absolute path or a path relative to your project's working directory.
 ## Why export scene to FBX with Aspose.3D?
 
 Exporting to FBX is a common requirement because FBX is widely supported by game engines, DCC tools, and AR/VR pipelines. Aspose.3D gives you full control over the exported file—metadata, units, and geometry—without needing a heavyweight 3D authoring application. This makes automated asset generation, batch processing, and server‑side conversions fast and reliable.
@@ -144,7 +139,7 @@ You now have a complete, production‑ready workflow for **exporting a scene to 
 
 ---
 
-**Last Updated:** 2026-02-12  
+**Last Updated:** 2026-05-04  
 **Tested With:** Aspose.3D for Java 24.11  
 **Author:** Aspose
 

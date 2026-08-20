@@ -1,55 +1,46 @@
 ---
-date: 2026-03-21
-description: Naučte se, jak změnit orientaci roviny ve 3D scénách pomocí Aspose.3D
-  pro .NET. Postupujte podle našeho krok‑za‑krokem průvodce, jak exportovat 3D model
-  OBJ a snadno otáčet 3D rovinou.
-linktitle: Changing Plane Orientation in 3D Scenes
+title: Add Camera to Scene with Aspose.3D – XPath Queries
+linktitle: XPath-Like Object Queries
 second_title: Aspose.3D .NET API
-title: Změna orientace roviny ve 3D scénách – Aspose.3D pro .NET
-url: /cs/net/3d-modeling/change-plane-orientation/
-weight: 10
+description: Learn how to add camera to scene and manipulate 3D objects using Aspose.3D for .NET. Explore XPath‑like queries, select node by name and more.
+weight: 24
+url: /net/geometry-and-hierarchy/xpath-like-object-queries/
+date: 2026-01-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Změna orientace roviny ve 3D scénách
+# Add Camera to Scene with Aspose.3D – XPath Queries
 
-## Úvod
+## Introduction
+In this tutorial you’ll discover how to **add a camera to a scene** and work with powerful XPath‑like object queries in Aspose.3D for .NET. Whether you need to **select node by name**, **select single object**, or simply **add light to scene**, the steps below will guide you through creating, querying, and manipulating 3D objects with clear, real‑world examples.
 
-V tomto komplexním tutoriálu se naučíte **jak změnit orientaci roviny** ve 3‑D scéně pomocí Aspose.3D pro .NET. Ať už vytváříte hru, CAD prohlížeč nebo vědeckou vizualizaci, řízení směru roviny je nezbytné pro přesné renderování a správný export souborů 3‑D modelu OBJ. Projděme si proces společně, krok za krokem.
+## Quick Answers
+- **How do I add a camera to a scene?** Use `c.CreateChildNode("c1").AddEntity(new Camera("cam"));`
+- **Can I query objects with XPath syntax?** Yes – `SelectObjects` and `SelectSingleObject` support XPath‑like expressions.
+- **What if I need to select a node by name?** Use `SelectSingleObject("a1")` or `"//a1"` style paths.
+- **How do I add a light to the scene?** Call `AddEntity(new Light("light"))` on a child node.
+- **Which .NET versions are supported?** Aspose.3D works with .NET Framework 2.0+ and .NET Core/5/6.
 
-## Rychlé odpovědi
-- **Co znamená „změna orientace roviny“?** Úprava up‑vektoru roviny pro její otočení ve 3‑D prostoru.  
-- **Jaký formát souboru se používá pro export?** Wavefront OBJ (`.obj`).  
-- **Mohu 3D rovinu otáčet přímo?** Ano – upravte vektor `Up` entity `Plane`.  
-- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.  
-- **Jaké verze .NET jsou podporovány?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+## What is “add camera to scene” in Aspose.3D?
+Adding a camera creates a viewpoint from which the scene can be rendered or inspected. The camera behaves like any other 3D entity, so you can position, rotate, and query it just like meshes or lights.
 
-## Co je změna orientace roviny?
-Změna orientace roviny označuje redefinování normály nebo up‑vektoru roviny tak, aby směřoval jiným směrem v rámci 3‑D souřadnicového systému. Tato operace efektivně **otočí 3D rovinu** objekty, aniž by měnila jejich velikost nebo polohu.
+## Why use XPath‑like object queries?
+XPath‑like queries let you locate objects based on type, name, or custom attributes without manually traversing the node hierarchy. This makes **manipulating 3D objects** fast, readable, and maintainable—especially in complex scenes.
 
-## Proč měnit orientaci roviny?
-- **Přesné vizuální zarovnání** – zajišťuje, že textury a osvětlení se chovají podle očekávání.  
-- **Správný export** – některé následné nástroje spoléhají na konkrétní orientaci roviny při importu OBJ souborů.  
-- **Flexibilita** – můžete znovu použít stejnou geometrii s různými orientacemi pro různé pohledy.
+## Prerequisites
+- Basic knowledge of the .NET framework
+- Visual Studio installed
+- Aspose.3D library referenced in your project (latest version)
 
-## Předpoklady
-
-- Aspose.3D pro .NET: Ujistěte se, že máte knihovnu nainstalovanou. Pokud ne, stáhněte ji z [zde](https://releases.aspose.com/3d/net/).  
-- Váš adresář dokumentů: Nastavte složku, kde bude tutoriál číst/zapisovat soubory.
-
-Nyní, když jsme pokryli základy, ponořme se do kódu.
-
-## Importování jmenných prostorů
-
-Ve vašem .NET projektu začněte importováním potřebných jmenných prostorů:
+## Import Namespaces
+Start by importing the required namespaces so you have access to all Aspose.3D classes.
 
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
-using Aspose.ThreeD.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,73 +48,101 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-Tyto jmenné prostory poskytují nezbytné třídy a metody pro práci s 3D scénami v Aspose.3D.
+## Step‑by‑Step Guide
 
-## Krok 1: Inicializace objektu Scene
+### Step 1: Open Visual Studio
+Create a new C# project or open an existing one where you want to work with 3D scenes.
 
-```csharp
-// The path to the data directory
-string dataDir = "Your Document Directory";
-
-// Initialize scene object
-Scene scene = new Scene();
-```
-
-Tento kód nastavuje prostředí pro vaši 3‑D scénu.
-
-## Krok 2: Nastavení vektoru pro orientaci roviny (otočení 3D roviny)
+### Step 2: Create a New Scene (Add Camera to Scene)
+Instantiate a fresh `Scene` object that will serve as the canvas for all subsequent objects.
 
 ```csharp
-// Set Vector
-scene.RootNode.CreateChildNode(new Plane() { Up = new Vector3(1, 1, 3) });
+Scene s = new Scene();
 ```
 
-Zde vytvoříme podřízený uzel představující rovinu a přizpůsobíme její orientaci pomocí vektoru `Up`. Změna hodnot vektoru otáčí 3D rovinu do požadovaného úhlu.
-
-## Krok 3: Uložení a export 3D modelu OBJ
+### Step 3: Populate the Scene – Add Nodes, Camera, and Light
+Build a simple hierarchy, then **add a camera** and **add light to scene** to illustrate querying later.
 
 ```csharp
-// This will generate a plane that has customized orientation
-scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
+var a = s.RootNode.CreateChildNode("a");
+a.CreateChildNode("a1");
+a.CreateChildNode("a2");
+s.RootNode.CreateChildNode("b");
+var c = s.RootNode.CreateChildNode("c");
+c.CreateChildNode("c1").AddEntity(new Camera("cam"));
+c.CreateChildNode("c2").AddEntity(new Light("light"));
 ```
 
-Uložení scény vytvoří soubor OBJ, který odráží novou orientaci roviny, což vám umožní **exportovat 3D model OBJ** pro použití v dalších aplikacích.
+The resulting hierarchy looks like this:
 
-Opakujte tyto kroky podle potřeby pro další roviny nebo různé orientace.
+```
+- Root
+    - a
+        - a1
+        - a2
+    - b
+    - c
+        - c1
+            - cam
+        - c2
+            - light
+```
 
-## Časté problémy a řešení
-- **Rovina se jeví jako plochá nebo invertovaná:** Ověřte, že vektor `Up` není kolineární s normálou roviny. Upravit komponenty vektoru pro dosažení požadovaného náklonu.  
-- **Exportovaný OBJ vypadá prázdně:** Ujistěte se, že cesta `dataDir` končí oddělovačem (`\\` nebo `/`) a že máte oprávnění k zápisu.  
-- **Neočekávané otáčení:** Pamatujte, že vektor `Up` definuje lokální osu Y roviny; jeho úprava otáčí rovinu kolem její osy X.
+### Step 4: Select Objects – How to query 3D objects
+Use an XPath‑like expression to fetch all cameras **or** any node named “light”.
 
-## Často kladené otázky
+```csharp
+var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+```
 
-**Q1: Je Aspose.3D kompatibilní s jinými 3D knihovnami?**  
-A1: Aspose.3D může bez problémů spolupracovat s jinými populárními 3D knihovnami, což poskytuje flexibilitu ve vašem vývoji.
+### Step 5: Select a Single Object – Select single object by path
+Retrieve the first camera node directly with a concise path.
 
-**Q2: Mohu používat Aspose.3D pro komerční projekty?**  
-A2: Rozhodně! Aspose.3D nabízí licenční možnosti jak pro osobní, tak pro komerční použití. Prohlédněte si je [zde](https://purchase.aspose.com/buy).
+```csharp
+var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
+```
 
-**Q3: Jak mohu získat podporu pro Aspose.3D?**  
-A3: Navštivte [forum Aspose.3D](https://forum.aspose.com/c/3d/18) pro komunitní podporu a diskuzi.
+### Step 6: Select Node by Name – Quick way to locate a node
+If you know the node’s name, you can fetch it without caring about its position in the hierarchy.
 
-**Q4: Je k dispozici bezplatná zkušební verze?**  
-A4: Ano, můžete si Aspose.3D vyzkoušet zdarma [zde](https://releases.aspose.com/).
+```csharp
+var obj = s.RootNode.SelectSingleObject("a1");
+```
 
-**Q5: Kde najdu podrobnou dokumentaci?**  
-A5: Odkazujte se na dokumentaci [zde](https://reference.aspose.com/3d/net/) pro podrobné informace.
+### Step 7: Select the Root Node – Useful for global operations
+Sometimes you need a reference to the scene’s root for bulk transformations.
 
-**Q6: Mohu změnit orientaci roviny po uložení?**  
-A6: Musíte upravit vektor `Up` před voláním `scene.Save`; soubor OBJ odráží stav v okamžiku uložení.
+```csharp
+obj = s.RootNode.SelectSingleObject("/");
+```
 
-**Q7: Ovlivňuje změna orientace souřadnice textur?**  
-A7: Změna orientace ovlivňuje pouze geometrii roviny; souřadnice textur zůstávají beze změny, pokud je výslovně neupravíte.
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **Camera not appearing in query results** | Ensure the node’s `Entity` is a `Camera` and the name matches the query case‑sensitively. |
+| **SelectSingleObject returns null** | Verify the XPath expression syntax; use leading `/` for absolute paths. |
+| **Light does not affect rendering** | Remember that lighting calculations require a rendering engine; the Light entity alone does not render anything. |
+| **Performance slowdown on large scenes** | Limit queries to sub‑trees (`RootNode.SelectObjects("//c/*")`) or cache results when possible. |
 
----
+## Frequently Asked Questions
 
-**Poslední aktualizace:** 2026-03-21  
-**Testováno s:** Aspose.3D 24.12 pro .NET  
-**Autor:** Aspose  
+**Q: Is Aspose.3D compatible with all .NET versions?**  
+A: Aspose.3D supports .NET Framework 2.0 and higher, as well as .NET Core, .NET 5, and .NET 6.
+
+**Q: Can I use Aspose.3D for both 3D modeling and rendering?**  
+A: Absolutely. The library provides tools for creating, editing, and rendering 3D models.
+
+**Q: Are there licensing constraints for the free trial?**  
+A: The trial version includes a limited feature set; a full license is required for production use.
+
+**Q: How can I get community support for Aspose.3D?**  
+A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for tips, examples, and help from other developers.
+
+**Q: What advantages does Aspose.3D offer over other 3D libraries for .NET?**  
+A: It combines a rich API for object queries, robust scene management, and cross‑platform compatibility without needing external dependencies.
+
+## Conclusion
+You’ve now learned how to **add a camera to a scene**, **add light to scene**, and **query 3D objects** using XPath‑like syntax in Aspose.3D for .NET. These techniques let you efficiently manipulate complex hierarchies, select nodes by name, and retrieve single objects—all essential for modern 3D applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -131,3 +150,9 @@ A7: Změna orientace ovlivňuje pouze geometrii roviny; souřadnice textur zůst
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-25  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose

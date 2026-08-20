@@ -61,6 +61,7 @@ using Aspose.ThreeD.Utilities;
 We start by defining the 2‑D shape that will be extruded. Here we create a rectangle with a small rounding radius.
 
 ```csharp
+using Aspose.ThreeD.Profiles;
 var profile = new RectangleShape()
 {
     RoundingRadius = 0.3

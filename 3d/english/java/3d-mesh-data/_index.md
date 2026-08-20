@@ -1,11 +1,17 @@
 ---
-title: "Reduce 3D File Size – Create Mesh Tangents Java and Optimize 3D Mesh Data"
+title: "How to Split Meshes – Reduce 3D File Size in Java"
 linktitle: "Create Mesh Tangents Java – Optimizing and Working with 3D Mesh Data"
 second_title: "Aspose.3D Java API"
-description: "Learn how to reduce 3d file size by creating mesh tangents in Java and optimizing 3D mesh data with Aspose.3D. Discover compression, data generation, and material‑based mesh splitting."
+description: "Learn how to split meshes, reduce 3d file size, and create mesh tangents in Java using Aspose.3D. Discover compression, data generation, and material‑based mesh splitting."
 weight: 32
 url: /java/3d-mesh-data/
-date: 2026-01-30
+date: 2026-05-04
+keywords:
+- how to split meshes
+- reduce 3d file size
+- how to compress 3d
+- split mesh by material
+- how to generate tangents
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,10 +22,10 @@ date: 2026-01-30
 
 ## Introduction
 
-If you’re looking to **reduce 3d file size** while creating mesh tangents in Java and boost the performance of your 3D applications, you’ve come to the right place. In this hub we gather the most valuable Aspose.3D for Java tutorials that show you how to compress meshes, generate essential vertex data (including normals, tangents, and binormals), and split meshes by material for faster processing. Whether you’re building games, AR/VR experiences, or engineering visualizations, mastering these techniques will make your Java projects run smoother, look better, and keep file sizes to a minimum.
+If you’re looking to learn **how to split meshes** while also reducing 3d file size and creating mesh tangents in Java, you’ve come to the right place. This hub gathers the most valuable Aspose.3D for Java tutorials that show you how to compress meshes, generate essential vertex data (including normals, tangents, and binormals), and split meshes by material for faster processing. Whether you’re building games, AR/VR experiences, or engineering visualizations, mastering these techniques will make your Java projects run smoother, look better, and keep file sizes to a minimum.
 
 ## Quick Answers
-- **What does “reduce 3d file size” mean?** It refers to shrinking the on‑disk size of 3D assets without losing visual quality.  
+- **How to split meshes?** You can split meshes by material using Aspose.3D, which reduces file size and improves rendering performance.  
 - **Which Aspose.3D feature helps the most?** Google Draco compression combined with mesh‑data generation (normals, tangents, binormals).  
 - **Do I need a license to try these tutorials?** A free trial license is sufficient for evaluation; a commercial license is required for production.  
 - **What formats are supported?** OBJ, FBX, STL, GLTF, GLB, and many more.  
@@ -89,11 +95,9 @@ A: Yes. While a free trial lets you explore the features, a valid Aspose.3D lice
 
 ---
 
-**Last Updated:** 2026-01-30  
+**Last Updated:** 2026-05-04  
 **Tested With:** Aspose.3D for Java 24.11  
 **Author:** Aspose  
-
----
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

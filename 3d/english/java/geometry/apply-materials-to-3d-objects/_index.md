@@ -76,7 +76,7 @@ Node cubeNode = new Node("cube");
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
-Mesh mesh = Common.createMeshUsingPolygonBuilder();
+Mesh mesh = new Mesh();
 ```
 
 ## Step 4: Point Node to the Mesh

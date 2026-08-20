@@ -1,56 +1,85 @@
 ---
-date: 2026-02-20
-description: Pelajari cara membuat mesh Aspose Java dan mentransformasi node 3D menggunakan
-  sudut Euler, menambahkan rotasi 3D, serta mengatur translasi Java.
-linktitle: Create Mesh Aspose Java – Transform 3D Nodes with Euler Angles
-second_title: Aspose.3D Java API
-title: Buat Mesh Aspose Java – Transformasi Node 3D dengan Sudut Euler
-url: /id/java/geometry/transform-3d-nodes-with-euler-angles/
+title: "Create Mesh Aspose Java – Transform 3D Nodes with Euler Angles"
+linktitle: "Create Mesh Aspose Java – Transform 3D Nodes with Euler Angles"
+second_title: "Aspose.3D Java API"
+description: "Learn how to create mesh aspose java and transform 3D nodes using Euler angles, add rotation 3D, set translation java, and export scenes efficiently."
 weight: 19
+url: /java/geometry/transform-3d-nodes-with-euler-angles/
+date: 2026-06-13
+keywords:
+  - create mesh aspose java
+  - set translation java
+  - euler angles java
+  - aspose 3d rotation
+  - export fbx java
+schemas:
+- type: TechArticle
+  headline: Create Mesh Aspose Java – Transform 3D Nodes with Euler Angles
+  description: Learn how to create mesh aspose java and transform 3D nodes using Euler
+    angles, add rotation 3D, set translation java, and export scenes efficiently.
+  dateModified: '2026-06-13'
+  author: Aspose
+- type: FAQPage
+  questions:
+  - question: What is the difference between Euler angles and quaternion rotation?
+    answer: Euler angles are intuitive (pitch, yaw, roll) but can suffer from gimbal
+      lock, while quaternions avoid that issue and provide smoother interpolation
+      for animations.
+  - question: Can I chain multiple transformations on the same node?
+    answer: Yes. Call `setEulerAngles`, `setTranslation`, and `setScale` in any order;
+      the library composes them into a single transform matrix.
+  - question: Is it possible to export to other formats like OBJ or STL?
+    answer: Absolutely. Replace `FileFormat.FBX7500ASCII` with `FileFormat.OBJ` or
+      `FileFormat.STL` in the `scene.save` call.
+  - question: How do I apply the same rotation to several nodes at once?
+    answer: Create a parent node, apply the rotation to the parent, and add child
+      nodes under it. All children inherit the transformation automatically.
+  - question: Do I need to call any cleanup methods after saving?
+    answer: The Java garbage collector handles most resources, but you can explicitly
+      call `scene.dispose()` when working with large scenes in long‑running applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Transformasi Node 3D dengan Sudut Euler di Java menggunakan Aspose.3D
+# Transform 3D Nodes with Euler Angles in Java using Aspose.3D
 
-## Perkenalan
+## Introduction
 
-Dalam tutorial ini Anda akan menemukan cara **membuat mesh aspose java** dan mentransformasi node 3D dengan menerapkan sudut Euler. Pada akhir panduan Anda akan dapat menambahkan rotasi3D, mengatur terjemahan java, dan membuat adegan dinamis yang bereaksi terhadap data waktu‑nyata.
+In this tutorial you’ll **create mesh aspose java** objects, attach them to scene nodes, and then transform those nodes using Euler angles. By the end you’ll be comfortable adding 3‑D rotation, setting translation java, and exporting the final scene to FBX or other formats—all with Aspose 3D’s concise API.
 
-## Jawaban Cepat
-- **Perpustakaan apa yang menangani transformasi 3D di Java?** Aspose3D untuk Java.
-- **Metode apa yang mengatur rotasi menggunakan sudut Euler?** `setEulerAngles()` pada transformasi node.
-- **Bagaimana cara memindahkan node dalam ruang?** Gunakan `setTranslation()` dengan `Vector3`.
-- **Apakah saya memerlukan lisensi untuk produksi?** Ya, lisensi komersial Aspose3D diperlukan.
-- ** meminta saya mengekspor ke FBX?** Tentu – `scene.save(..., FileFormat.FBX7500ASCII)` berfungsi langsung.
+## Quick Answers
+- **What library handles 3D transformations in Java?** Aspose 3D for Java.  
+- **Which method sets rotation using Euler angles?** `setEulerAngles()` on a node’s transform.  
+- **How do I move a node in space?** Call `setTranslation()` with a `Vector3`.  
+- **Do I need a license for production?** Yes, a commercial Aspose 3D license is required.  
+- **Can I export to FBX?** Absolutely – `scene.save(..., FileFormat.FBX7500ASCII)` works out of the box.
 
-## Prasyarat
+## What is “create mesh aspose java”?
 
-Sebelum kita memulai tutorial, pastikan Anda memiliki prasyarat berikut:
-
-- Pengetahuan dasar pemrograman Java.
-- Java Development Kit (JDK) terpasang di mesin Anda.
-- Perpustakaan Aspose.3D, yang dapat Anda dapatkan dari [Dokumentasi Java Aspose.3D](https://reference.aspose.com/3d/java/).
-
-## Impor Paket
-
-Mulailah dengan mengimpor paket yang diperlukan ke dalam proyek Java Anda. Pastikan perpustakaan Aspose.3D telah ditambahkan dengan benar ke classpath Anda. Jika Anda belum mengunduhnya, Anda dapat menemukan tautan unduhan [di sini](https://releases.aspose.com/3d/java/).
+`Mesh` is Aspose.3D’s core geometry container that stores vertices, faces, and material data for a 3‑D object. When you **create mesh aspose java**, you are defining the shape that will later be attached to a node and transformed. The mesh encapsulates all geometric information, making it reusable across multiple nodes or scenes, and it can be exported directly without additional conversion steps.
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## Buat Mesh Asumsikan Java
+## Why use Euler angles with Aspose 3D?
 
-Langkah pertama dalam setiap alur kerja 3D adalah **create mesh aspose java** – yaitu, membangun geometrik data yang nantinya akan ditransformasi. Pada contoh ini kami akan menghasilkan mesh kubus sederhana menggunakan metode bantu Aspose dan menempelkannya ke sebuah node.
+Euler angles let you describe rotation as three intuitive values—pitch, yaw, and roll—making it easy to map UI sliders or sensor data directly to a model’s orientation. Aspose 3D abstracts the underlying matrix math, so you can focus on visual results rather than complex quaternion calculations.
 
-### aspose 3d java – Bekerja dengan Sudut Euler
+## Prerequisites
 
-#### Langkah 1. Inisialisasi Scene dan Node.js
+Before we dive, ensure you have:
 
-Pertama, buat sebuah scene dan node yang akan menampung geometri yang ingin Anda transformasi.
+- Basic Java programming experience.  
+- JDK 8 or newer installed.  
+- Aspose.3D library, which you can obtain from [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/).  
+- A valid Aspose 3D license for production builds.
+
+## Import Packages
+
+Begin by importing the necessary packages into your Java project. Ensure that the Aspose.3D library is correctly added to your classpath. If you haven't downloaded it yet, you can find the download link [here](https://releases.aspose.com/3d/java/).
 
 ```java
 // ExStart:AddTransformationToNodeByEulerAngles
@@ -60,24 +89,20 @@ Scene scene = new Scene();
 // Initialize Node class object
 Node cubeNode = new Node("cube");
 ```
+## How do I create mesh aspose java?
 
-#### Langkah 2. Buat Mesh dan Atur Geometri
+`Mesh` is a container that holds vertex and face data for a 3-D object. It provides methods to define geometry programmatically or load it from existing files. To create a mesh, instantiate the class, add vertices, define polygons, and then assign the mesh to a node. This step establishes the geometric foundation before any transformation is applied, allowing you to reuse the same mesh across multiple nodes if needed.
 
-Selanjutnya, hasilkan mesh sederhana (sebuah kubus dalam kasus ini) dan lampirkan ke node.
-
-```java
-// Call Common class create mesh using polygon builder method to set mesh instance
-Mesh mesh = Common.createMeshUsingPolygonBuilder();
+` ```java
+// Use Box primitive and convert to mesh
+Mesh mesh = new Box().toMesh();
 
 // Point node to the Mesh geometry
 cubeNode.setEntity(mesh);
-```
+` ```
+## How can I set translation java on a node?
 
-## Tambahkan Rotasi 3D ke Node
-
-#### Langkah 3. Atur Sudut Euler dan Translasi
-
-Sekarang kami menerapkan rotasi menggunakan sudut Euler dan juga memindahkan node ke posisi yang terlihat.
+`Transform` is the component attached to every `Node` that controls position, rotation, and scale. The `setTranslation()` method of `Transform` moves the node by specifying a `Vector3` offset. By calling this method you shift the entire mesh relative to the scene’s origin while preserving its internal geometry. This approach is ideal for positioning objects in a world coordinate system or aligning multiple models together.
 
 ```java
 // Euler angles
@@ -87,82 +112,78 @@ cubeNode.getTransform().setEulerAngles(new Vector3(0.3, 0.1, -0.5));
 cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 ```
 
-## Atur Translasi Java – Memposisikan Node
+## How do I apply Euler angles to rotate a node?
 
-Langkah translasi di atas memperlihatkan **set translation java** secara praktis: node digeser 20 unit sepanjang sumbu Z sehingga Anda dapat melihatnya setelah rendering.
-
-## Langkah 4. Tambahkan Node ke Scene
-
-Lampirkan node yang telah ditransformasi ke node root scene.
+`setEulerAngles()` is a method of the node’s `Transform` that accepts three floating‑point values representing rotation around the X, Y, and Z axes (in degrees). Providing pitch, yaw, and roll values lets you rotate the node intuitively, and Aspose 3D internally converts these angles into a rotation matrix. This method is especially useful for UI‑driven rotations where users adjust sliders corresponding to each axis.
 
 ```java
 // Add cube to the scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
+## How to add the transformed node to the scene?
 
-## Langkah 5. Simpan Scene 3D
+`scene.getRootNode().addChildNode(node)` adds a node to the root of the scene graph, making it part of the renderable hierarchy. Once the node is attached, any transforms applied to it—such as translation, rotation, or scaling—are automatically considered during rendering and export operations. Adding nodes in this way also enables hierarchical relationships, allowing child nodes to inherit transformations from their parents.
 
-Akhirnya, ekspor scene ke file FBX (atau format lain yang didukung).
-
-```java
-// The path to the documents directory.
-String MyDir = "Your Document Directory";
-MyDir = MyDir + "TransformationToNode.fbx";
-
+` ```java
+// Add cube to the scene
+scene.getRootNode().addChildNode(cubeNode);
+` ```
 // Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-Pastikan untuk mengganti `"Your Document Directory"` dengan jalur yang sesuai pada mesin Anda.
+## How to save the 3D scene to a file?
 
-## Mengapa Menggunakan Sudut Euler dengan Aspose3D?
+`scene.save()` writes the entire scene, including all meshes, materials, and transforms, to a specified file format. By passing the output path and a `FileFormat` enum (e.g., `FileFormat.FBX7500ASCII`), you can export to FBX, OBJ, STL, or any other supported format. This method serializes the scene graph in a single operation, ensuring that all transformations are preserved in the exported file. Replace `"Your Document Directory"` with the actual folder path on your machine.
 
-Sudut Euler memberikan cara intuitif untuk memikirkan rotasi—pitch, yaw, dan roll—menjadikannya sempurna untuk prototipe cepat atau ketika Anda perlu menampilkan kontrol rotasi kepada pengguna akhir. Aspose3D mengabstraksi matriks matematika di baliknya, sehingga Anda dapat fokus pada hasil visual daripada matematika.
+CODE_BLOCK_PLACEHOLDER_6_END
 
-## Kasus Penggunaan Umum
+## Common Use Cases
 
-- **Visualisasi data waktu‑nyata:** Memutar model berdasarkan input sensor.
-- **Permainan Rig kamera gaya:** Terapkan yaw‑pitch‑roll untuk drive kamera.
-- **Konfigurator produk:**Biarkan pelanggan memutar model produk 3D dengan slider sederhana.
+- **Real‑time data visualization:** Rotate a model based on live sensor input.  
+- **Game‑style camera rigs:** Apply yaw‑pitch‑roll to simulate a first‑person camera.  
+- **Product configurators:** Let customers spin a 3‑D product model using simple sliders.
 
-## Pemecahan Masalah & Tip
+## Troubleshooting & Tips
 
-- **Gimbal lock:** Jika Anda melihat gertakan yang tidak terduga saat memutar, mengingat peralihan ke rotasi berbasis quaternion (`setRotationQuaternion()`).
-- **Konsistensi satuan:** Aspose3D bekerja dengan satuan yang Anda berikan; jaga nilai terjemahan konsisten dengan skala model Anda.
-- **Kinerja:** Untuk adegan besar, panggil `scene.dispose()` setelah menyimpan untuk membebankan sumber daya asli.
+- **Gimbal lock:** If rotation snaps unexpectedly, switch to quaternion‑based rotation with `setRotationQuaternion()`.  
+- **Unit consistency:** Aspose 3D respects the units you provide; keep translation values consistent with your model’s scale to avoid distortion.  
+- **Performance:** For large scenes, explicitly call `scene.dispose()` after saving to free native resources and prevent memory leaks.
 
-## Pertanyaan yang Sering Diajukan
+## Frequently Asked Questions
 
-**Q: Apa perbedaan antara sudut Euler dan rotasi angka empat?**
-A: Sudut Euler bersifat intuitif (pitch, yaw, roll) tetapi dapat mengalami gimbal lock, sementara quaternion menghindari masalah tersebut dan lebih baik untuk interpolasi halus.
+**Q: What is the difference between Euler angles and quaternion rotation?**  
+A: Euler angles are intuitive (pitch, yaw, roll) but can suffer from gimbal lock, while quaternions avoid that issue and provide smoother interpolation for animations.
 
-**Q: Bisakah saya menggabungkan beberapa transformasi pada node yang sama?**
-J: Ya. Panggil `setEulerAngles`, `setTranslation`, dan `setScale` dalam urutan apa pun; perpustakaan akan menggabungkannya menjadi satu matriks transformasi.
+**Q: Can I chain multiple transformations on the same node?**  
+A: Yes. Call `setEulerAngles`, `setTranslation`, and `setScale` in any order; the library composes them into a single transform matrix.
 
-**Q: Apakah memungkinkan mengekspor ke format lain seperti OBJ atau STL?**
-J: Tentu. Ganti `FileFormat.FBX7500ASCII` dengan `FileFormat.OBJ` atau `FileFormat.STL` dalam memanggil `scene.save`.
+**Q: Is it possible to export to other formats like OBJ or STL?**  
+A: Absolutely. Replace `FileFormat.FBX7500ASCII` with `FileFormat.OBJ` or `FileFormat.STL` in the `scene.save` call.
 
-**Q: Bagaimana cara menerapkan rotasi yang sama ke beberapa node sekaligus?**
-A: Buat simpul induk, terapkan rotasi pada induk, dan tambahkan simpul anak di bawahnya. Semua anak akan mewarisi transformasi tersebut.
+**Q: How do I apply the same rotation to several nodes at once?**  
+A: Create a parent node, apply the rotation to the parent, and add child nodes under it. All children inherit the transformation automatically.
 
-**Q: Apakah saya perlu memanggil metode pembersihan apa pun setelah menyimpan?**
-A: Pengumpul sampah Java menangani sebagian besar sumber daya, tetapi Anda dapat secara eksplisit memanggil `scene.dispose()` jika bekerja dengan scene besar dalam aplikasi yang berjalan lama.
-
-## Kesimpulan
-
-Selamat! Anda telah berhasil **membuat mesh aspose java** dan mentransformasi node 3D menggunakan sudut Euler di Java dengan Aspose3D. Bereksperimenlah dengan berbagai sudut, terjemahan, dan bahkan rotasi quaternion untuk menciptakan pengalaman 3D yang dinamis dan menarik.
+**Q: Do I need to call any cleanup methods after saving?**  
+A: The Java garbage collector handles most resources, but you can explicitly call `scene.dispose()` when working with large scenes in long‑running applications.
 
 ---
 
-**Terakhir Diperbarui:** 2026-02-20
-**Diuji Dengan:** Aspose.3D 23.12 untuk Java
-**Pengarang:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-06-13  
+**Tested With:** Aspose.3D 23.12 for Java  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Related Tutorials
+
+- [Set Rotation Quaternion in Java using Aspose.3D](/3d/java/geometry/concatenate-quaternions-for-3d-rotations/)
+- [Create Node Aspose 3D in Java – Expose Transformations](/3d/java/geometry/expose-geometric-transformations/)
+- [Java 3D Graphics Tutorial - Create a 3D Cube Scene with Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

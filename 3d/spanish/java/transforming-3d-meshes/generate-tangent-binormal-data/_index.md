@@ -54,12 +54,15 @@ import java.io.IOException;
 ## Paso 1: Cargar el archivo 3D
 Primero, carga el modelo fuente que deseas procesar.
 
-```java
+````
 // The path to the documents directory.
 String MyDir = "Your Document Directory";
+MyDir = MyDir + "document.fbx";
 // Load an existing 3D file
-Scene scene = new Scene(MyDir + "document.fbx");
-```
+Scene scene = new Scene();
+scene.open(MyDir);
+````
+
 
 > **Consejo profesional:** Reemplaza `"Your Document Directory"` con la ruta absoluta en tu máquina, y asegura que el nombre del archivo coincida con el archivo FBX real que deseas editar.
 

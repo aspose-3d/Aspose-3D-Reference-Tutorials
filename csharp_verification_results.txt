@@ -1,0 +1,124 @@
+=== C# Code Verification Results for Aspose.3D 26.6.0 ===
+
+
+================================================================================
+File: 3d-modeling/_index.md
+================================================================================
+Found 0 C# code blocks
+
+
+================================================================================
+File: 3d-modeling/change-plane-orientation/_index.md
+================================================================================
+Found 4 C# code blocks
+
+--- Block 1 (first 60 chars): ---
+using Aspose.ThreeD;
+using Aspose.ThreeD.Entities;
+using Asp
+
+FAILED ✗
+ERROR:
+
+
+--- Block 2 (first 60 chars): ---
+// The path to the data directory
+string dataDir = "Your Doc
+
+VERIFIED ✓
+--- Block 3 (first 60 chars): ---
+// Set Vector
+scene.RootNode.CreateChildNode(new Plane() { U
+
+FAILED ✗
+ERROR:
+(2,1): error CS0103: The name 'scene' does not exist in the current context 
+
+--- Block 4 (first 60 chars): ---
+// This will generate a plane that has customized orientatio
+
+FAILED ✗
+ERROR:
+(2,1): error CS0103: The name 'scene' does not exist in the current context 
+(2,12): error CS0103: The name 'dataDir' does not exist in the current context 
+
+
+================================================================================
+File: 3d-modeling/linear-extrusion/_index.md
+================================================================================
+Found 0 C# code blocks
+
+
+================================================================================
+File: 3d-modeling/linear-extrusion/center-in-linear-extrusion/_index.md
+================================================================================
+Found 9 C# code blocks
+
+--- Block 1 (first 60 chars): ---
+using Aspose.ThreeD;
+using Aspose.ThreeD.Entities;
+using Asp
+
+FAILED ✗
+ERROR:
+
+
+--- Block 2 (first 60 chars): ---
+var profile = new RectangleShape()
+{
+    RoundingRadius = 0.
+
+FAILED ✗
+ERROR:
+(1,19): error CS0246: The type or namespace name 'RectangleShape' could not be found (are you missing a using directive or an assembly reference?) 
+
+--- Block 3 (first 60 chars): ---
+Scene scene = new Scene();
+
+VERIFIED ✓
+--- Block 4 (first 60 chars): ---
+var left = scene.RootNode.CreateChildNode();
+var right = sce
+
+FAILED ✗
+ERROR:
+(1,12): error CS0103: The name 'scene' does not exist in the current context 
+(2,13): error CS0103: The name 'scene' does not exist in the current context 
+
+--- Block 5 (first 60 chars): ---
+left.CreateChildNode(new LinearExtrusion(profile, 2) { Cente
+
+FAILED ✗
+ERROR:
+(1,1): error CS0103: The name 'left' does not exist in the current context 
+(1,42): error CS0103: The name 'profile' does not exist in the current context 
+
+--- Block 6 (first 60 chars): ---
+left.CreateChildNode(new Box(0.01, 3, 3));
+
+FAILED ✗
+ERROR:
+(1,1): error CS0103: The name 'left' does not exist in the current context 
+
+--- Block 7 (first 60 chars): ---
+right.CreateChildNode(new LinearExtrusion(profile, 2) { Cent
+
+FAILED ✗
+ERROR:
+(1,1): error CS0103: The name 'right' does not exist in the current context 
+(1,43): error CS0103: The name 'profile' does not exist in the current context 
+
+--- Block 8 (first 60 chars): ---
+right.CreateChildNode(new Box(0.01, 3, 3));
+
+FAILED ✗
+ERROR:
+(1,1): error CS0103: The name 'right' does not exist in the current context 
+
+--- Block 9 (first 60 chars): ---
+scene.Save("Your Output Directory" + "CenterInLinearExtrusio
+
+FAILED ✗
+ERROR:
+(1,1): error CS0103: The name 'scene' does not exist in the current context 
+

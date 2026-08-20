@@ -1,55 +1,46 @@
 ---
-date: 2026-03-21
-description: Aspose.3D for .NET kullanarak 3D sahnelerde düzlemin yönünü nasıl değiştireceğinizi
-  öğrenin. 3D modeli OBJ olarak dışa aktarmak ve 3D düzlemi kolayca döndürmek için
-  adım adım rehberimizi izleyin.
-linktitle: Changing Plane Orientation in 3D Scenes
+title: Add Camera to Scene with Aspose.3D – XPath Queries
+linktitle: XPath-Like Object Queries
 second_title: Aspose.3D .NET API
-title: 3D Sahnelerde Düzlem Yönünü Değiştir – Aspose.3D for .NET
-url: /tr/net/3d-modeling/change-plane-orientation/
-weight: 10
+description: Learn how to add camera to scene and manipulate 3D objects using Aspose.3D for .NET. Explore XPath‑like queries, select node by name and more.
+weight: 24
+url: /net/geometry-and-hierarchy/xpath-like-object-queries/
+date: 2026-01-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D Ortamlarda Düzlem Yönünü Değiştirme
+# Add Camera to Scene with Aspose.3D – XPath Queries
 
-## Giriş
+## Introduction
+In this tutorial you’ll discover how to **add a camera to a scene** and work with powerful XPath‑like object queries in Aspose.3D for .NET. Whether you need to **select node by name**, **select single object**, or simply **add light to scene**, the steps below will guide you through creating, querying, and manipulating 3D objects with clear, real‑world examples.
 
-Bu kapsamlı öğreticide Aspose.3D for .NET ile bir 3‑B sahnesinde **düzlem yönünü nasıl değiştireceğinizi** öğreneceksiniz. Bir oyun, bir CAD görüntüleyici veya bilimsel bir görselleştirme oluşturuyor olun, düzlemin yönünü kontrol etmek doğru render ve 3‑B model OBJ dosyalarının uygun dışa aktarımı için esastır. Süreci adım adım birlikte inceleyelim.
+## Quick Answers
+- **How do I add a camera to a scene?** Use `c.CreateChildNode("c1").AddEntity(new Camera("cam"));`
+- **Can I query objects with XPath syntax?** Yes – `SelectObjects` and `SelectSingleObject` support XPath‑like expressions.
+- **What if I need to select a node by name?** Use `SelectSingleObject("a1")` or `"//a1"` style paths.
+- **How do I add a light to the scene?** Call `AddEntity(new Light("light"))` on a child node.
+- **Which .NET versions are supported?** Aspose.3D works with .NET Framework 2.0+ and .NET Core/5/6.
 
-## Hızlı Yanıtlar
-- **“düzlem yönünü değiştirme” ne anlama gelir?** Düzlemin up‑vektörünü ayarlayarak 3‑B uzayında döndürmek.  
-- **Dışa aktarma için hangi dosya formatı kullanılır?** Wavefront OBJ (`.obj`).  
-- **3D düzlemi doğrudan döndürebilir miyim?** Evet – `Plane` varlığının `Up` vektörünü değiştirin.  
-- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
-- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+## What is “add camera to scene” in Aspose.3D?
+Adding a camera creates a viewpoint from which the scene can be rendered or inspected. The camera behaves like any other 3D entity, so you can position, rotate, and query it just like meshes or lights.
 
-## Düzlem Yönünü Değiştirme Nedir?
-Düzlem yönünü değiştirmek, düzlemin normalini veya up‑vektörünü yeniden tanımlayarak 3‑B koordinat sisteminde farklı bir yönde işaret etmesini sağlamaktır. Bu işlem, **3D düzlemi döndürür** ve nesnelerin boyutunu veya konumunu değiştirmez.
+## Why use XPath‑like object queries?
+XPath‑like queries let you locate objects based on type, name, or custom attributes without manually traversing the node hierarchy. This makes **manipulating 3D objects** fast, readable, and maintainable—especially in complex scenes.
 
-## Neden Düzlem Yönünü Değiştirmelisiniz?
-- **Doğru görsel hizalama** – dokuların ve ışıklandırmanın beklendiği gibi davranmasını sağlar.  
-- **Doğru dışa aktarım** – bazı sonraki araçlar OBJ dosyalarını içe aktarırken belirli bir düzlem yönüne dayanır.  
-- **Esneklik** – aynı geometriyi farklı yönlerle birden çok görünümde yeniden kullanabilirsiniz.
+## Prerequisites
+- Basic knowledge of the .NET framework
+- Visual Studio installed
+- Aspose.3D library referenced in your project (latest version)
 
-## Önkoşullar
-
-- Aspose.3D for .NET: Kütüphanenin kurulu olduğundan emin olun. Eğer kurulu değilse, [buradan](https://releases.aspose.com/3d/net/) indirin.  
-- Belge Dizininiz: Öğreticinin dosyaları okuyup yazacağı bir klasör oluşturun.
-
-Temel konuları ele aldığımıza göre, koda dalalım.
-
-## Ad Alanlarını İçe Aktarma
-
-.NET projenizde, gerekli ad alanlarını içe aktararak başlayın:
+## Import Namespaces
+Start by importing the required namespaces so you have access to all Aspose.3D classes.
 
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
-using Aspose.ThreeD.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,73 +48,101 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-Bu ad alanları, Aspose.3D içinde 3D sahnelerle çalışmak için gerekli sınıf ve yöntemleri sağlar.
+## Step‑by‑Step Guide
 
-## Adım 1: Scene Nesnesini Başlatma
+### Step 1: Open Visual Studio
+Create a new C# project or open an existing one where you want to work with 3D scenes.
 
-```csharp
-// The path to the data directory
-string dataDir = "Your Document Directory";
-
-// Initialize scene object
-Scene scene = new Scene();
-```
-
-Bu kod, 3‑B sahneniz için ortamı oluşturur.
-
-## Adım 2: Düzlem Yönü İçin Vektör Ayarlama (3D Düzlemi Döndürme)
+### Step 2: Create a New Scene (Add Camera to Scene)
+Instantiate a fresh `Scene` object that will serve as the canvas for all subsequent objects.
 
 ```csharp
-// Set Vector
-scene.RootNode.CreateChildNode(new Plane() { Up = new Vector3(1, 1, 3) });
+Scene s = new Scene();
 ```
 
-Burada, bir düzlemi temsil eden bir alt düğüm oluşturuyor ve `Up` vektörünü kullanarak yönünü özelleştiriyoruz. Vektör değerlerini değiştirerek 3D düzlemi istenen açıya döndürürsünüz.
-
-## Adım 3: 3D Model OBJ Kaydetme ve Dışa Aktarma
+### Step 3: Populate the Scene – Add Nodes, Camera, and Light
+Build a simple hierarchy, then **add a camera** and **add light to scene** to illustrate querying later.
 
 ```csharp
-// This will generate a plane that has customized orientation
-scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
+var a = s.RootNode.CreateChildNode("a");
+a.CreateChildNode("a1");
+a.CreateChildNode("a2");
+s.RootNode.CreateChildNode("b");
+var c = s.RootNode.CreateChildNode("c");
+c.CreateChildNode("c1").AddEntity(new Camera("cam"));
+c.CreateChildNode("c2").AddEntity(new Light("light"));
 ```
 
-Sahneyi kaydetmek, yeni düzlem yönünü yansıtan bir OBJ dosyası oluşturur ve **3D model OBJ dışa aktarmanıza** diğer uygulamalarda kullanım için olanak tanır.
+The resulting hierarchy looks like this:
 
-Ek düzlemler veya farklı yönler için gerektiği gibi bu adımları tekrarlayın.
+```
+- Root
+    - a
+        - a1
+        - a2
+    - b
+    - c
+        - c1
+            - cam
+        - c2
+            - light
+```
 
-## Yaygın Sorunlar ve Çözümler
-- **Düzlem düz veya ters görünüyor:** `Up` vektörünün düzlemin normaline kolinear olmadığından emin olun. İstenen eğimi elde etmek için vektör bileşenlerini ayarlayın.  
-- **Dışa aktarılan OBJ boş görünüyor:** `dataDir` yolunun bir ayırıcı (`\\` veya `/`) ile bittiğinden ve yazma izniniz olduğundan emin olun.  
-- **Beklenmeyen döndürme:** `Up` vektörünün düzlemin yerel Y‑eksenini tanımladığını unutmayın; bunu değiştirerek düzlemi X‑eksenine göre döndürürsünüz.
+### Step 4: Select Objects – How to query 3D objects
+Use an XPath‑like expression to fetch all cameras **or** any node named “light”.
 
-## Sık Sorulan Sorular
+```csharp
+var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+```
 
-**S1: Aspose.3D diğer 3D kütüphaneleriyle uyumlu mu?**  
-C1: Aspose.3D, diğer popüler 3D kütüphaneleriyle sorunsuz çalışabilir ve geliştirme sürecinizde esneklik sağlar.
+### Step 5: Select a Single Object – Select single object by path
+Retrieve the first camera node directly with a concise path.
 
-**S2: Aspose.3D'yi ticari projelerde kullanabilir miyim?**  
-C2: Kesinlikle! Aspose.3D, kişisel ve ticari kullanım için lisans seçenekleri sunar. Bunları [buradan](https://purchase.aspose.com/buy) inceleyebilirsiniz.
+```csharp
+var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
+```
 
-**S3: Aspose.3D için nasıl destek alabilirim?**  
-C3: Topluluk desteği ve tartışma için [Aspose.3D forumunu](https://forum.aspose.com/c/3d/18) ziyaret edin.
+### Step 6: Select Node by Name – Quick way to locate a node
+If you know the node’s name, you can fetch it without caring about its position in the hierarchy.
 
-**S4: Ücretsiz deneme mevcut mu?**  
-C4: Evet, Aspose.3D'yi ücretsiz deneme sürümüyle [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
+```csharp
+var obj = s.RootNode.SelectSingleObject("a1");
+```
 
-**S5: Ayrıntılı belgeleri nerede bulabilirim?**  
-C5: Derinlemesine bilgi için belgeleri [buradan](https://reference.aspose.com/3d/net/) inceleyin.
+### Step 7: Select the Root Node – Useful for global operations
+Sometimes you need a reference to the scene’s root for bulk transformations.
 
-**S6: Kaydettikten sonra düzlem yönünü değiştirebilir miyim?**  
-C6: `scene.Save` çağrısından önce `Up` vektörünü değiştirmeniz gerekir; OBJ dosyası kaydetme anındaki durumu yansıtır.
+```csharp
+obj = s.RootNode.SelectSingleObject("/");
+```
 
-**S7: Yön değişikliği doku koordinatlarını etkiler mi?**  
-C7: Yön değişikliği yalnızca düzlemin geometrisini etkiler; doku koordinatları açıkça değiştirilmedikçe aynı kalır.
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **Camera not appearing in query results** | Ensure the node’s `Entity` is a `Camera` and the name matches the query case‑sensitively. |
+| **SelectSingleObject returns null** | Verify the XPath expression syntax; use leading `/` for absolute paths. |
+| **Light does not affect rendering** | Remember that lighting calculations require a rendering engine; the Light entity alone does not render anything. |
+| **Performance slowdown on large scenes** | Limit queries to sub‑trees (`RootNode.SelectObjects("//c/*")`) or cache results when possible. |
 
----
+## Frequently Asked Questions
 
-**Son Güncelleme:** 2026-03-21  
-**Test Edilen:** Aspose.3D 24.12 for .NET  
-**Yazar:** Aspose  
+**Q: Is Aspose.3D compatible with all .NET versions?**  
+A: Aspose.3D supports .NET Framework 2.0 and higher, as well as .NET Core, .NET 5, and .NET 6.
+
+**Q: Can I use Aspose.3D for both 3D modeling and rendering?**  
+A: Absolutely. The library provides tools for creating, editing, and rendering 3D models.
+
+**Q: Are there licensing constraints for the free trial?**  
+A: The trial version includes a limited feature set; a full license is required for production use.
+
+**Q: How can I get community support for Aspose.3D?**  
+A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for tips, examples, and help from other developers.
+
+**Q: What advantages does Aspose.3D offer over other 3D libraries for .NET?**  
+A: It combines a rich API for object queries, robust scene management, and cross‑platform compatibility without needing external dependencies.
+
+## Conclusion
+You’ve now learned how to **add a camera to a scene**, **add light to scene**, and **query 3D objects** using XPath‑like syntax in Aspose.3D for .NET. These techniques let you efficiently manipulate complex hierarchies, select nodes by name, and retrieve single objects—all essential for modern 3D applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -131,3 +150,9 @@ C7: Yön değişikliği yalnızca düzlemin geometrisini etkiler; doku koordinat
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-25  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose

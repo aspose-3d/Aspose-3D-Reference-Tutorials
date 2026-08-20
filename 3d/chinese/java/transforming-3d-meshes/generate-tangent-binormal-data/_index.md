@@ -51,12 +51,14 @@ import java.io.IOException;
 ## 步骤 1：加载 3D 文件
 首先，加载要处理的源模型。
 
-```java
+````
 // The path to the documents directory.
 String MyDir = "Your Document Directory";
+MyDir = MyDir + "document.fbx";
 // Load an existing 3D file
-Scene scene = new Scene(MyDir + "document.fbx");
-```
+Scene scene = new Scene();
+scene.open(MyDir);
+````
 
 > **技巧提示：** 将 `"Your Document Directory"` 替换为机器上的绝对路径，并确保文件名与您要编辑的实际 FBX 文件匹配。
 

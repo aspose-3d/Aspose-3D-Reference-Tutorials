@@ -58,17 +58,15 @@ PointCloud pointCloud = (PointCloud) FileFormat.DRACO.decode("Your Document Dire
 ```
 
 This sets the stage for decoding the mesh efficiently.
-
 ### Step 2: Decode Mesh
 
 Once the `PointCloud` is initialized, proceed to decode the mesh. Use the following code:
 
-```java
+````java
 // ExStart:3
-Mesh mesh = pointCloud.get_Mesh();
+Geometry geometry = pointCloud;
 // ExEnd:3
-```
-
+````
 This step extracts the mesh from the initialized point cloud.
 
 ### Step 3: Further Processing

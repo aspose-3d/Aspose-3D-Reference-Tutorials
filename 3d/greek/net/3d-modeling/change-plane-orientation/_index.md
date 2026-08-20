@@ -1,55 +1,46 @@
 ---
-date: 2026-03-21
-description: Μάθετε πώς να αλλάζετε τον προσανατολισμό του επιπέδου σε 3D σκηνές χρησιμοποιώντας
-  το Aspose.3D για .NET. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για να εξάγετε μοντέλο
-  3D OBJ και να περιστρέψετε εύκολα το 3D επίπεδο.
-linktitle: Changing Plane Orientation in 3D Scenes
+title: Add Camera to Scene with Aspose.3D – XPath Queries
+linktitle: XPath-Like Object Queries
 second_title: Aspose.3D .NET API
-title: Αλλαγή προσανατολισμού επιπέδου σε 3Δ σκηνές – Aspose.3D για .NET
-url: /el/net/3d-modeling/change-plane-orientation/
-weight: 10
+description: Learn how to add camera to scene and manipulate 3D objects using Aspose.3D for .NET. Explore XPath‑like queries, select node by name and more.
+weight: 24
+url: /net/geometry-and-hierarchy/xpath-like-object-queries/
+date: 2026-01-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Αλλαγή Προσανατολισμού Επιπέδου σε 3D Σκηνές
+# Add Camera to Scene with Aspose.3D – XPath Queries
 
-## Εισαγωγή
+## Introduction
+In this tutorial you’ll discover how to **add a camera to a scene** and work with powerful XPath‑like object queries in Aspose.3D for .NET. Whether you need to **select node by name**, **select single object**, or simply **add light to scene**, the steps below will guide you through creating, querying, and manipulating 3D objects with clear, real‑world examples.
 
-Σε αυτό το ολοκληρωμένο tutorial θα μάθετε **πώς να αλλάζετε τον προσανατολισμό του επιπέδου** σε μια 3‑D σκηνή με το Aspose.3D for .NET. Είτε δημιουργείτε ένα παιχνίδι, έναν προβολέα CAD ή μια επιστημονική οπτικοποίηση, ο έλεγχος της κατεύθυνσης του επιπέδου είναι απαραίτητος για ακριβή απόδοση και σωστή εξαγωγή αρχείων 3‑D μοντέλου OBJ. Ας περάσουμε από τη διαδικασία μαζί, βήμα προς βήμα.
+## Quick Answers
+- **How do I add a camera to a scene?** Use `c.CreateChildNode("c1").AddEntity(new Camera("cam"));`
+- **Can I query objects with XPath syntax?** Yes – `SelectObjects` and `SelectSingleObject` support XPath‑like expressions.
+- **What if I need to select a node by name?** Use `SelectSingleObject("a1")` or `"//a1"` style paths.
+- **How do I add a light to the scene?** Call `AddEntity(new Light("light"))` on a child node.
+- **Which .NET versions are supported?** Aspose.3D works with .NET Framework 2.0+ and .NET Core/5/6.
 
-## Γρήγορες Απαντήσεις
-- **Τι σημαίνει “αλλαγή προσανατολισμού επιπέδου”;** Προσαρμογή του up‑vector του επιπέδου ώστε να το περιστρέφει στο 3‑D χώρο.  
-- **Ποια μορφή αρχείου χρησιμοποιείται για εξαγωγή;** Wavefront OBJ (`.obj`).  
-- **Μπορώ να περιστρέψω το 3D επίπεδο απευθείας;** Ναι – τροποποιήστε το διανύσμα `Up` της οντότητας `Plane`.  
-- **Χρειάζομαι άδεια χρήσης;** Μια δωρεάν δοκιμή λειτουργεί για ανάπτυξη· απαιτείται εμπορική άδεια για παραγωγή.  
-- **Ποιες εκδόσεις .NET υποστηρίζονται;** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+## What is “add camera to scene” in Aspose.3D?
+Adding a camera creates a viewpoint from which the scene can be rendered or inspected. The camera behaves like any other 3D entity, so you can position, rotate, and query it just like meshes or lights.
 
-## Τι είναι η Αλλαγή Προσανατολισμού Επιπέδου;
-Η αλλαγή προσανατολισμού επιπέδου αναφέρεται στον επαναπροσδιορισμό του κανονικού ή του up‑vector του επιπέδου ώστε να δείχνει προς διαφορετική κατεύθυνση μέσα στο 3‑D σύστημα συντεταγμένων. Αυτή η λειτουργία **περιστρέφει αντικείμενα 3D επιπέδου** χωρίς να αλλάζει το μέγεθος ή τη θέση τους.
+## Why use XPath‑like object queries?
+XPath‑like queries let you locate objects based on type, name, or custom attributes without manually traversing the node hierarchy. This makes **manipulating 3D objects** fast, readable, and maintainable—especially in complex scenes.
 
-## Γιατί να Αλλάξετε τον Προσανατολισμό του Επιπέδου;
-- **Ακριβής ευθυγράμμιση οπτικού** – εξασφαλίζει ότι οι υφές και ο φωτισμός συμπεριφέρονται όπως αναμένεται.  
-- **Σωστή εξαγωγή** – ορισμένα downstream εργαλεία βασίζονται σε συγκεκριμένο προσανατολισμό επιπέδου κατά την εισαγωγή αρχείων OBJ.  
-- **Ευελιξία** – μπορείτε να επαναχρησιμοποιήσετε την ίδια γεωμετρία με διαφορετικούς προσανατολισμούς για πολλαπλές προβολές.
+## Prerequisites
+- Basic knowledge of the .NET framework
+- Visual Studio installed
+- Aspose.3D library referenced in your project (latest version)
 
-## Προαπαιτούμενα
-
-- Aspose.3D for .NET: Βεβαιωθείτε ότι έχετε εγκαταστήσει τη βιβλιοθήκη. Αν όχι, κατεβάστε την από [εδώ](https://releases.aspose.com/3d/net/).  
-- Ο Φάκελος του Εγγράφου σας: Δημιουργήστε έναν φάκελο όπου το tutorial θα διαβάζει/γράφει αρχεία.
-
-Τώρα που καλύψαμε τα βασικά, ας προχωρήσουμε στον κώδικα.
-
-## Εισαγωγή Χώρων Ονομάτων
-
-Στο .NET project σας, ξεκινήστε εισάγοντας τους απαραίτητους χώρους ονομάτων:
+## Import Namespaces
+Start by importing the required namespaces so you have access to all Aspose.3D classes.
 
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
-using Aspose.ThreeD.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,71 +48,101 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-Αυτοί οι χώροι ονομάτων παρέχουν τις βασικές κλάσεις και μεθόδους για εργασία με 3D σκηνές στο Aspose.3D.
+## Step‑by‑Step Guide
 
-## Βήμα 1: Αρχικοποίηση του Αντικειμένου Scene
+### Step 1: Open Visual Studio
+Create a new C# project or open an existing one where you want to work with 3D scenes.
 
-```csharp
-// The path to the data directory
-string dataDir = "Your Document Directory";
-
-// Initialize scene object
-Scene scene = new Scene();
-```
-
-Αυτός ο κώδικας ρυθμίζει το περιβάλλον για τη 3‑D σκηνή σας.
-
-## Βήμα 2: Ορισμός Διανύσματος για Προσανατολισμό Επιπέδου (Περιστροφή 3D Επιπέδου)
+### Step 2: Create a New Scene (Add Camera to Scene)
+Instantiate a fresh `Scene` object that will serve as the canvas for all subsequent objects.
 
 ```csharp
-// Set Vector
-scene.RootNode.CreateChildNode(new Plane() { Up = new Vector3(1, 1, 3) });
+Scene s = new Scene();
 ```
 
-Εδώ δημιουργούμε έναν θυγατρικό κόμβο που αντιπροσωπεύει ένα επίπεδο και προσαρμόζουμε τον προσανατολισμό του χρησιμοποιώντας το διανύσμα `Up`. Η αλλαγή των τιμών του διανύσματος περιστρέφει το 3D επίπεδο στην επιθυμητή γωνία.
-
-## Βήμα 3: Αποθήκευση και Εξαγωγή 3D Μοντέλου OBJ
+### Step 3: Populate the Scene – Add Nodes, Camera, and Light
+Build a simple hierarchy, then **add a camera** and **add light to scene** to illustrate querying later.
 
 ```csharp
-// This will generate a plane that has customized orientation
-scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
+var a = s.RootNode.CreateChildNode("a");
+a.CreateChildNode("a1");
+a.CreateChildNode("a2");
+s.RootNode.CreateChildNode("b");
+var c = s.RootNode.CreateChildNode("c");
+c.CreateChildNode("c1").AddEntity(new Camera("cam"));
+c.CreateChildNode("c2").AddEntity(new Light("light"));
 ```
 
-Η αποθήκευση της σκηνής δημιουργεί ένα αρχείο OBJ που αντικατοπτρίζει τον νέο προσανατολισμό του επιπέδου, επιτρέποντάς σας να **εξάγετε 3D μοντέλο OBJ** για χρήση σε άλλες εφαρμογές.
+The resulting hierarchy looks like this:
 
-Επαναλάβετε αυτά τα βήματα όσο χρειάζεται για πρόσθετα επίπεδα ή διαφορετικούς προσανατολισμούς.
+```
+- Root
+    - a
+        - a1
+        - a2
+    - b
+    - c
+        - c1
+            - cam
+        - c2
+            - light
+```
 
-## Κοινά Προβλήματα και Λύσεις
-- **Το επίπεδο εμφανίζεται επίπεδο ή ανεστραμμένο:** Βεβαιωθείτε ότι το διανύσμα `Up` δεν είναι συνευθυγραμμισμένο με το κανονικό του επιπέδου. Ρυθμίστε τα συστατικά του διανύσματος για το επιθυμητό κλίση.  
-- **Το εξαγόμενο OBJ φαίνεται κενό:** Ελέγξτε ότι η διαδρομή `dataDir` τελειώνει με διαχωριστικό (`\\` ή `/`) και ότι έχετε δικαιώματα εγγραφής.  
-- **Απρόσμενη περιστροφή:** Θυμηθείτε ότι το διανύσμα `Up` ορίζει τον τοπικό άξονα Y του επιπέδου· η τροποποίησή του περιστρέφει το επίπεδο γύρω από τον άξονα X του.
+### Step 4: Select Objects – How to query 3D objects
+Use an XPath‑like expression to fetch all cameras **or** any node named “light”.
 
-## Συχνές Ερωτήσεις
+```csharp
+var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+```
 
-**Q1: Είναι το Aspose.3D συμβατό με άλλες βιβλιοθήκες 3D;**  
-A1: Το Aspose.3D μπορεί να συνεργαστεί άψογα με άλλες δημοφιλείς βιβλιοθήκες 3D, προσφέροντας ευελιξία στην ανάπτυξή σας.
+### Step 5: Select a Single Object – Select single object by path
+Retrieve the first camera node directly with a concise path.
 
-**Q2: Μπορώ να χρησιμοποιήσω το Aspose.3D για εμπορικά έργα;**  
-A2: Απόλυτα! Το Aspose.3D προσφέρει επιλογές αδειοδότησης για προσωπική και εμπορική χρήση. Δείτε τις επιλογές [εδώ](https://purchase.aspose.com/buy).
+```csharp
+var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
+```
 
-**Q3: Πώς μπορώ να λάβω υποστήριξη για το Aspose.3D;**  
-A3: Επισκεφθείτε το [φόρουμ Aspose.3D](https://forum.aspose.com/c/3d/18) για υποστήριξη από την κοινότητα και συζητήσεις.
+### Step 6: Select Node by Name – Quick way to locate a node
+If you know the node’s name, you can fetch it without caring about its position in the hierarchy.
 
-**Q4: Υπάρχει διαθέσιμη δωρεάν δοκιμή;**  
-A4: Ναι, μπορείτε να εξερευνήσετε το Aspose.3D με μια δωρεάν δοκιμή [εδώ](https://releases.aspose.com/).
+```csharp
+var obj = s.RootNode.SelectSingleObject("a1");
+```
 
-**Q5: Πού μπορώ να βρω λεπτομερή τεκμηρίωση;**  
-A5: Ανατρέξτε στην τεκμηρίωση [εδώ](https://reference.aspose.com/3d/net/) για εκτενείς πληροφορίες.
+### Step 7: Select the Root Node – Useful for global operations
+Sometimes you need a reference to the scene’s root for bulk transformations.
 
-**Q6: Μπορώ να αλλάξω τον προσανατολισμό του επιπέδου μετά την αποθήκευση;**  
-A6: Πρέπει να τροποποιήσετε το διανύσμα `Up` πριν καλέσετε `scene.Save`; το αρχείο OBJ αντικατοπτρίζει την κατάσταση τη στιγμή της αποθήκευσης.
+```csharp
+obj = s.RootNode.SelectSingleObject("/");
+```
 
-**Q7: Επηρεάζει η αλλαγή προσανατολισμού τις συντεταγμένες υφής;**  
-A7: Η αλλαγή προσανατολισμού επηρεάζει μόνο τη γεωμετρία του επιπέδου· οι συντεταγμένες υφής παραμένουν αμετάβλητες εκτός αν τις τροποποιήσετε ρητά.
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **Camera not appearing in query results** | Ensure the node’s `Entity` is a `Camera` and the name matches the query case‑sensitively. |
+| **SelectSingleObject returns null** | Verify the XPath expression syntax; use leading `/` for absolute paths. |
+| **Light does not affect rendering** | Remember that lighting calculations require a rendering engine; the Light entity alone does not render anything. |
+| **Performance slowdown on large scenes** | Limit queries to sub‑trees (`RootNode.SelectObjects("//c/*")`) or cache results when possible. |
 
-**Τελευταία Ενημέρωση:** 2026-03-21  
-**Δοκιμή με:** Aspose.3D 24.12 for .NET  
-**Συγγραφέας:** Aspose  
+## Frequently Asked Questions
+
+**Q: Is Aspose.3D compatible with all .NET versions?**  
+A: Aspose.3D supports .NET Framework 2.0 and higher, as well as .NET Core, .NET 5, and .NET 6.
+
+**Q: Can I use Aspose.3D for both 3D modeling and rendering?**  
+A: Absolutely. The library provides tools for creating, editing, and rendering 3D models.
+
+**Q: Are there licensing constraints for the free trial?**  
+A: The trial version includes a limited feature set; a full license is required for production use.
+
+**Q: How can I get community support for Aspose.3D?**  
+A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for tips, examples, and help from other developers.
+
+**Q: What advantages does Aspose.3D offer over other 3D libraries for .NET?**  
+A: It combines a rich API for object queries, robust scene management, and cross‑platform compatibility without needing external dependencies.
+
+## Conclusion
+You’ve now learned how to **add a camera to a scene**, **add light to scene**, and **query 3D objects** using XPath‑like syntax in Aspose.3D for .NET. These techniques let you efficiently manipulate complex hierarchies, select nodes by name, and retrieve single objects—all essential for modern 3D applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -129,3 +150,9 @@ A7: Η αλλαγή προσανατολισμού επηρεάζει μόνο �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-25  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose

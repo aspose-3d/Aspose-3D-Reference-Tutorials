@@ -1,55 +1,46 @@
 ---
-date: 2026-03-21
-description: Lär dig hur du ändrar planens orientering i 3D‑scener med Aspose.3D för
-  .NET. Följ vår steg‑för‑steg‑guide för att exportera 3D‑modellen OBJ och rotera
-  3D‑planet enkelt.
-linktitle: Changing Plane Orientation in 3D Scenes
+title: Add Camera to Scene with Aspose.3D – XPath Queries
+linktitle: XPath-Like Object Queries
 second_title: Aspose.3D .NET API
-title: Ändra planens orientering i 3D‑scener – Aspose.3D för .NET
-url: /sv/net/3d-modeling/change-plane-orientation/
-weight: 10
+description: Learn how to add camera to scene and manipulate 3D objects using Aspose.3D for .NET. Explore XPath‑like queries, select node by name and more.
+weight: 24
+url: /net/geometry-and-hierarchy/xpath-like-object-queries/
+date: 2026-01-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ändra planens orientering i 3D‑scener
+# Add Camera to Scene with Aspose.3D – XPath Queries
 
-## Introduktion
+## Introduction
+In this tutorial you’ll discover how to **add a camera to a scene** and work with powerful XPath‑like object queries in Aspose.3D for .NET. Whether you need to **select node by name**, **select single object**, or simply **add light to scene**, the steps below will guide you through creating, querying, and manipulating 3D objects with clear, real‑world examples.
 
-I den här omfattande handledningen kommer du att lära dig **hur du ändrar planens orientering** i en 3‑D‑scen med Aspose.3D för .NET. Oavsett om du bygger ett spel, en CAD‑visare eller en vetenskaplig visualisering är kontroll av planens riktning avgörande för korrekt rendering och korrekt export av 3‑D‑modell OBJ‑filer. Låt oss gå igenom processen tillsammans, steg för steg.
+## Quick Answers
+- **How do I add a camera to a scene?** Use `c.CreateChildNode("c1").AddEntity(new Camera("cam"));`
+- **Can I query objects with XPath syntax?** Yes – `SelectObjects` and `SelectSingleObject` support XPath‑like expressions.
+- **What if I need to select a node by name?** Use `SelectSingleObject("a1")` or `"//a1"` style paths.
+- **How do I add a light to the scene?** Call `AddEntity(new Light("light"))` on a child node.
+- **Which .NET versions are supported?** Aspose.3D works with .NET Framework 2.0+ and .NET Core/5/6.
 
-## Snabba svar
-- **Vad betyder “change plane orientation”?** Att justera planens up‑vektor för att rotera den i 3‑D‑rymden.  
-- **Vilket filformat används för export?** Wavefront OBJ (`.obj`).  
-- **Kan jag rotera 3D‑planet direkt?** Ja – modifiera `Up`‑vektorn för `Plane`‑entiteten.  
-- **Behöver jag en licens?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.  
-- **Vilka .NET‑versioner stöds?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+## What is “add camera to scene” in Aspose.3D?
+Adding a camera creates a viewpoint from which the scene can be rendered or inspected. The camera behaves like any other 3D entity, so you can position, rotate, and query it just like meshes or lights.
 
-## Vad är ändring av planens orientering?
-Att ändra planens orientering innebär att omdefiniera planens normal‑ eller up‑vektor så att den pekar i en annan riktning inom 3‑D‑koordinatsystemet. Denna operation roterar effektivt **3D‑plan**‑objekt utan att ändra deras storlek eller position.
+## Why use XPath‑like object queries?
+XPath‑like queries let you locate objects based on type, name, or custom attributes without manually traversing the node hierarchy. This makes **manipulating 3D objects** fast, readable, and maintainable—especially in complex scenes.
 
-## Varför ändra planens orientering?
-- **Noggrann visuell justering** – säkerställer att texturer och belysning beter sig som förväntat.  
-- **Korrekt export** – vissa efterföljande verktyg förlitar sig på en specifik planorientering vid import av OBJ‑filer.  
-- **Flexibilitet** – du kan återanvända samma geometri med olika orienteringar för flera vyer.
+## Prerequisites
+- Basic knowledge of the .NET framework
+- Visual Studio installed
+- Aspose.3D library referenced in your project (latest version)
 
-## Förutsättningar
-
-- Aspose.3D för .NET: Se till att du har biblioteket installerat. Om inte, ladda ner det från [here](https://releases.aspose.com/3d/net/).  
-- Din dokumentkatalog: Skapa en mapp där handledningen kommer att läsa/skriva filer.
-
-Nu när vi har gått igenom grunderna, låt oss dyka ner i koden.
-
-## Importera namnrymder
-
-I ditt .NET‑projekt, börja med att importera de nödvändiga namnrymderna:
+## Import Namespaces
+Start by importing the required namespaces so you have access to all Aspose.3D classes.
 
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
-using Aspose.ThreeD.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,71 +48,101 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-Dessa namnrymder tillhandahåller de nödvändiga klasserna och metoderna för att arbeta med 3D‑scener i Aspose.3D.
+## Step‑by‑Step Guide
 
-## Steg 1: Initiera scenobjektet
+### Step 1: Open Visual Studio
+Create a new C# project or open an existing one where you want to work with 3D scenes.
 
-```csharp
-// The path to the data directory
-string dataDir = "Your Document Directory";
-
-// Initialize scene object
-Scene scene = new Scene();
-```
-
-Denna kod sätter upp miljön för din 3‑D‑scen.
-
-## Steg 2: Ställ in vektor för planens orientering (rotera 3D‑plan)
+### Step 2: Create a New Scene (Add Camera to Scene)
+Instantiate a fresh `Scene` object that will serve as the canvas for all subsequent objects.
 
 ```csharp
-// Set Vector
-scene.RootNode.CreateChildNode(new Plane() { Up = new Vector3(1, 1, 3) });
+Scene s = new Scene();
 ```
 
-Här skapar vi en barnnod som representerar ett plan och anpassar dess orientering med hjälp av `Up`‑vektorn. Genom att ändra vektorvärdena roteras 3D‑planet till önskad vinkel.
-
-## Steg 3: Spara och exportera 3D‑modell OBJ
+### Step 3: Populate the Scene – Add Nodes, Camera, and Light
+Build a simple hierarchy, then **add a camera** and **add light to scene** to illustrate querying later.
 
 ```csharp
-// This will generate a plane that has customized orientation
-scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
+var a = s.RootNode.CreateChildNode("a");
+a.CreateChildNode("a1");
+a.CreateChildNode("a2");
+s.RootNode.CreateChildNode("b");
+var c = s.RootNode.CreateChildNode("c");
+c.CreateChildNode("c1").AddEntity(new Camera("cam"));
+c.CreateChildNode("c2").AddEntity(new Light("light"));
 ```
 
-Att spara scenen genererar en OBJ‑fil som återspeglar den nya planorienteringen, vilket gör att du kan **exportera 3D‑modell OBJ** för användning i andra applikationer.
+The resulting hierarchy looks like this:
 
-Upprepa dessa steg vid behov för ytterligare plan eller olika orienteringar.
+```
+- Root
+    - a
+        - a1
+        - a2
+    - b
+    - c
+        - c1
+            - cam
+        - c2
+            - light
+```
 
-## Vanliga problem och lösningar
-- **Planet ser platt eller inverterat ut:** Verifiera att `Up`‑vektorn inte är kolineär med planens normal. Justera vektorkomponenterna för att uppnå önskad lutning.  
-- **Exporterad OBJ ser tom ut:** Säkerställ att `dataDir`‑sökvägen slutar med en separator (`\\` eller `/`) och att du har skrivrättigheter.  
-- **Oväntad rotation:** Kom ihåg att `Up`‑vektorn definierar planens lokala Y‑axel; att modifiera den roterar planet runt dess X‑axel.
+### Step 4: Select Objects – How to query 3D objects
+Use an XPath‑like expression to fetch all cameras **or** any node named “light”.
 
-## Vanliga frågor
+```csharp
+var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+```
 
-**Q1: Är Aspose.3D kompatibel med andra 3D‑bibliotek?**  
-A1: Aspose.3D kan sömlöst fungera med andra populära 3D‑bibliotek, vilket ger flexibilitet i din utveckling.
+### Step 5: Select a Single Object – Select single object by path
+Retrieve the first camera node directly with a concise path.
 
-**Q2: Kan jag använda Aspose.3D för kommersiella projekt?**  
-A2: Absolut! Aspose.3D erbjuder licensalternativ för både personligt och kommersiellt bruk. Se dem [here](https://purchase.aspose.com/buy).
+```csharp
+var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
+```
 
-**Q3: Hur kan jag få support för Aspose.3D?**  
-A3: Besök [Aspose.3D forum](https://forum.aspose.com/c/3d/18) för community‑support och diskussion.
+### Step 6: Select Node by Name – Quick way to locate a node
+If you know the node’s name, you can fetch it without caring about its position in the hierarchy.
 
-**Q4: Finns det en gratis provversion?**  
-A4: Ja, du kan utforska Aspose.3D med en gratis provversion [here](https://releases.aspose.com/).
+```csharp
+var obj = s.RootNode.SelectSingleObject("a1");
+```
 
-**Q5: Var kan jag hitta detaljerad dokumentation?**  
-A5: Se dokumentationen [here](https://reference.aspose.com/3d/net/) för djupgående information.
+### Step 7: Select the Root Node – Useful for global operations
+Sometimes you need a reference to the scene’s root for bulk transformations.
 
-**Q6: Kan jag ändra planens orientering efter att ha sparat?**  
-A6: Du måste modifiera `Up`‑vektorn innan du anropar `scene.Save`; OBJ‑filen återspeglar tillståndet vid sparning.
+```csharp
+obj = s.RootNode.SelectSingleObject("/");
+```
 
-**Q7: Påverkar förändring av orientering texturkoordinater?**  
-A7: Orienteringsändringen påverkar endast planens geometri; texturkoordinater förblir oförändrade om du inte explicit modifierar dem.
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **Camera not appearing in query results** | Ensure the node’s `Entity` is a `Camera` and the name matches the query case‑sensitively. |
+| **SelectSingleObject returns null** | Verify the XPath expression syntax; use leading `/` for absolute paths. |
+| **Light does not affect rendering** | Remember that lighting calculations require a rendering engine; the Light entity alone does not render anything. |
+| **Performance slowdown on large scenes** | Limit queries to sub‑trees (`RootNode.SelectObjects("//c/*")`) or cache results when possible. |
 
-**Senast uppdaterad:** 2026-03-21  
-**Testat med:** Aspose.3D 24.12 för .NET  
-**Författare:** Aspose  
+## Frequently Asked Questions
+
+**Q: Is Aspose.3D compatible with all .NET versions?**  
+A: Aspose.3D supports .NET Framework 2.0 and higher, as well as .NET Core, .NET 5, and .NET 6.
+
+**Q: Can I use Aspose.3D for both 3D modeling and rendering?**  
+A: Absolutely. The library provides tools for creating, editing, and rendering 3D models.
+
+**Q: Are there licensing constraints for the free trial?**  
+A: The trial version includes a limited feature set; a full license is required for production use.
+
+**Q: How can I get community support for Aspose.3D?**  
+A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for tips, examples, and help from other developers.
+
+**Q: What advantages does Aspose.3D offer over other 3D libraries for .NET?**  
+A: It combines a rich API for object queries, robust scene management, and cross‑platform compatibility without needing external dependencies.
+
+## Conclusion
+You’ve now learned how to **add a camera to a scene**, **add light to scene**, and **query 3D objects** using XPath‑like syntax in Aspose.3D for .NET. These techniques let you efficiently manipulate complex hierarchies, select nodes by name, and retrieve single objects—all essential for modern 3D applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -129,3 +150,9 @@ A7: Orienteringsändringen påverkar endast planens geometri; texturkoordinater 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-25  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose

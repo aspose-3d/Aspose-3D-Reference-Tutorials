@@ -64,7 +64,7 @@ Create a `Scene` object that points to your 3DS file. The file doesn’t contain
 String MyDir = "Your Document Directory";
 
 // Load a 3ds file, 3ds file doesn't have normal data, but it has smoothing group
-Scene s = new Scene(MyDir + "camera.3ds");
+Scene s = Scene.fromFile(MyDir + "camera.3ds");
 ```
 
 *Why this matters:* Loading the scene is the first step in any mesh‑processing pipeline. Once the scene is in memory, we can traverse its node hierarchy and apply transformations or calculations such as **generate mesh normals**.

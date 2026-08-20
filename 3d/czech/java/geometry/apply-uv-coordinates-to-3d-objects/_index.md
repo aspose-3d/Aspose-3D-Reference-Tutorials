@@ -1,10 +1,16 @@
 ---
-date: 2026-02-09
-description: Naučte se, jak vytvářet UV mapy a mapovat textury v Javě pomocí Aspose.3D.
-  Vylepšete své grafiky pomocí tohoto krok‑za‑krokem průvodce.
-linktitle: How to Create UVs – Apply UV Coordinates to 3D Objects in Java with Aspose.3D
+date: 2026-04-12
+description: Naučte se generovat UV souřadnice a mapovat textury v Javě s Aspose.3D
+  – krok za krokem tutoriál mapování textur.
+keywords:
+- generate uv coordinates
+- create uv set
+- texture mapping tutorial
+- uv mapping 3d objects
+- add texture coordinates
+linktitle: Jak generovat UV souřadnice – aplikovat UV na 3D objekty v Javě s Aspose.3D
 second_title: Aspose.3D Java API
-title: Jak vytvořit UV – Aplikovat UV souřadnice na 3D objekty v Javě s Aspose.3D
+title: Jak generovat UV souřadnice – aplikovat UV na 3D objekty v Javě s Aspose.3D
 url: /cs/java/geometry/apply-uv-coordinates-to-3d-objects/
 weight: 18
 ---
@@ -13,40 +19,40 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak vytvořit UV – Použít UV souřadnice na 3D objekty v Javě s Aspose.3D
+# Jak generovat UV souřadnice – aplikovat UV na 3D objekty v Javě s Aspose.3D
 
 ## Úvod
 
-Vítejte v tomto komplexním tutoriálu o **jak vytvořit UV** a aplikovat UV souřadnice na 3D objekty v Javě pomocí Aspose.3D. Ve světě 3D grafiky hrají UV souřadnice klíčovou roli při **mapování textur java**, což vám umožní přidat texturové souřadnice, které vašim modelům dodají realismus. Tento průvodce vás provede každým krokem, abyste mohli s jistotou začít texturovat své objekty.
+Vítejte v tomto komplexním **tutorialu mapování textur** o **tom, jak generovat UV souřadnice** a aplikovat UV souřadnice na 3D objekty v Javě pomocí Aspose.3D. Ve světě 3‑D grafiky jsou UV souřadnice mostem, který vám umožní **mapovat textury java** a dodat vašim modelům realistický vzhled. Tento průvodce vás provede každým krokem, takže můžete s jistotou začít přidávat texturové souřadnice k libovolné síti.
 
 ## Rychlé odpovědi
-- **Jaký je hlavní cíl?** Naučte se, jak vytvořit UV a mapovat textury na 3D geometrii.  
-- **Která knihovna se používá?** Aspose.3D pro Javu.  
+- **Jaký je hlavní cíl?** Naučte se, jak generovat UV souřadnice a mapovat textury na 3‑D geometrii.  
+- **Která knihovna je použita?** Aspose.3D for Java.  
 - **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; licence je vyžadována pro produkci.  
 - **Jak dlouho trvá implementace?** Přibližně 10‑15 minut pro základní krychli.  
-- **Mohu to použít i s jinými tvary?** Ano – stejná principy platí pro jakýkoli mesh.
+- **Mohu to použít s jinými tvary?** Ano – stejné principy platí pro jakoukoli síť.
 
-## Co je UV mapování a proč potřebujete vytvářet UV?
+## Jak generovat UV souřadnice v Javě
 
-UV mapování je proces projekce 2‑D obrázku (textury) na 3‑D povrch. Definováním **UV souřadnic** říkáte rendereru, která část textury patří ke každému vrcholu. Bez správných UV se textury jeví jako natažené, špatně umístěné nebo jednoduše neviditelné.
+Než se ponoříme do kódu, objasníme, proč je generování UV souřadnic důležité. Správné UV zajišťují, že textury jsou správně zarovnány, zabraňují natažení a materiály vypadají profesionálně. Ať už vytváříte hru, simulaci nebo vizualizátor produktu, solidní sada UV je nezbytná.
 
-## Proč použít Aspose.3D pro UV mapování v Javě?
+## Proč je mapování UV 3D objektů důležité
 
-- **Cross‑platform**: Funguje v jakémkoli prostředí kompatibilním s Javou.  
-- **Rich API**: Poskytuje vysoce úrovňové třídy jako `VertexElementUV`, které zjednodušují práci s UV.  
-- **Performance‑oriented**: Optimalizováno pro velké scény a složité modely.  
+- **Realismus:** Správné UV umožňují texturám přirozeně obalit složité povrchy.  
+- **Výkon:** Dobře uspořádané sady UV snižují potřebu dalších shaderů nebo úprav za běhu.  
+- **Přenositelnost:** UV data cestují se sítí, takže model vypadá stejně v jakémkoli enginu, který podporuje Aspose.3D.
 
 ## Požadavky
 
-Než se pustíte dál, ujistěte se, že máte:
+Než začnete, ujistěte se, že máte:
 
 - **Java Development Environment** – nainstalovaný a nakonfigurovaný JDK 8+.  
 - **Aspose.3D Library** – Stáhněte nejnovější JAR z oficiální stránky [zde](https://releases.aspose.com/3d/java/).  
-- **Basic 3D Knowledge** – Znalost meshů, vrcholů a konceptů textur vám pomůže sledovat postup.
+- **Basic 3D Knowledge** – Znalost sítí, vrcholů a konceptů textur vám pomůže sledovat návod.
 
 ## Import balíčků
 
-V tomto kroku importujeme potřebné balíčky, abychom zahájili naši cestu UV‑mapováním. Knihovna Aspose.3D poskytuje nástroje, které potřebujeme pro práci s 3‑D objekty v Javě.
+V tomto kroku importujeme potřebné balíčky, abychom zahájili naši cestu s UV‑mapováním. Knihovna Aspose.3D poskytuje nástroje, které potřebujeme pro práci s 3‑D objekty v Javě.
 
 ### Krok 1: Importovat balíčky Aspose.3D
 
@@ -58,9 +64,9 @@ import java.util.Arrays;
 
 Nyní, když jsou balíčky připraveny, nastavíme UV data pro jednoduchou krychli.
 
-## Jak vytvořit UV na 3D objektu
+## Vytvořit UV sadu pro vaši síť
 
-V této sekci vás provedeme vytvářením UV souřadnic pro krychli a následným přiřazením těchto souřadnic k mesh. Stejný přístup lze rozšířit na libovolnou geometrii.
+Zde definujeme UV souřadnice a indexový buffer, který síti říká, které UV patří ke každému vrcholu polygonu. Toto je jádro procesu **create UV set**.
 
 ### Krok 2: Vytvořit UV a indexy
 
@@ -83,9 +89,13 @@ int[] uvsId = new int[]
 // ExEnd:SetupUVOnCube
 ```
 
-Tyto pole definují **UV souřadnice** (`uvs`) a **mapování indexů** (`uvsId`), které mesh říká, která UV patří ke každému vrcholu polygonu.
+Tyto pole definují **UV souřadnice** (`uvs`) a **mapování indexů** (`uvsId`), které síti říkají, které UV patří ke každému vrcholu polygonu.
 
-### Krok 3: Vytvořit Mesh a UV set
+## Přidat texturové souřadnice do sítě
+
+Nyní připojíme UV sadu k instanci sítě. Tento krok **přidává texturové souřadnice** k geometrii, čímž ji připraví pro vykreslování s texturou.
+
+### Krok 3: Vytvořit síť a UV sadu
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
@@ -100,9 +110,9 @@ elementUV.setIndices(uvsId);
 
 Zde:
 
-1. Vytvoříme mesh (krychli) pomocí pomocné třídy.  
-2. Vytvoříme UV element (`VertexElementUV`), který ukládá naše texturové souřadnice.  
-3. Přiřadíme UV data a indexový buffer k mesh, čímž efektivně **přidáme texturové souřadnice** do geometrie.
+1. Vytvoříme síť (krychli) pomocí pomocné třídy.  
+2. Vytvoříme UV prvek (`VertexElementUV`), který ukládá naše texturové souřadnice.  
+3. Přiřadíme UV data a indexový buffer k síti, čímž efektivně **přidáváme texturové souřadnice** k geometrii.
 
 ### Krok 4: Vytisknout potvrzení
 
@@ -110,23 +120,23 @@ Zde:
 System.out.println("\nUVs have been set up successfully on the cube.");
 ```
 
-Spuštěním programu se zobrazí potvrzovací zpráva, která naznačuje, že UV jsou nyní součástí mesh a připraveny pro mapování textur.
+Spuštění programu zobrazí potvrzovací zprávu, která naznačuje, že UV jsou nyní součástí sítě a připraveny pro mapování textur.
 
 ## Časté problémy a řešení
 
 | Problém | Příčina | Řešení |
 |-------|-------|-----|
-| UV jsou natažené | Nesprávné pořadí UV nebo nesoulad indexů | Ověřte, že `uvsId` správně odkazuje na pole `uvs` pro každý vrchol polygonu. |
+| UV jsou natažené | Nesprávné pořadí UV nebo neodpovídající indexy | Ověřte, že `uvsId` správně odkazuje na pole `uvs` pro každý vrchol polygonu. |
 | Textura není viditelná | UV sada není propojena s materiálem | Ujistěte se, že `TextureMapping` materiálu je nastaven na `DIFFUSE` (jak je ukázáno) a textura je přiřazena materiálu. |
-| Runtime `NullPointerException` | `Common.createMeshUsingPolygonBuilder()` vrací `null` | Zkontrolujte, že pomocná třída je zahrnuta ve vašem projektu a metoda vytváří platný mesh. |
+| Runtime `NullPointerException` | `Common.createMeshUsingPolygonBuilder()` vrací `null` | Zkontrolujte, že pomocná třída je zahrnuta ve vašem projektu a metoda vytváří platnou síť. |
 
 ## Často kladené otázky
 
 **Q: Mohu aplikovat UV souřadnice na složité 3D modely?**  
-A: Ano, proces zůstává podobný i pro složité modely. Ujistěte se, že generujete vhodná UV data a indexové buffery pro každý polygon.
+A: Ano, proces zůstává podobný pro složité modely. Ujistěte se, že generujete vhodná UV data a indexové buffery pro každý polygon.
 
-**Q: Kde najdu další zdroje a podporu pro Aspose.3D?**  
-A: Navštivte [Aspose.3D dokumentaci](https://reference.aspose.com/3d/java/) pro podrobné informace. Pro podporu zkontrolujte [Aspose.3D fórum](https://forum.aspose.com/c/3d/18).
+**Q: Kde mohu najít další zdroje a podporu pro Aspose.3D?**  
+A: Navštivte [dokumentaci Aspose.3D](https://reference.aspose.com/3d/java/) pro podrobné informace. Pro podporu zkontrolujte [forum Aspose.3D](https://forum.aspose.com/c/3d/18).
 
 **Q: Je k dispozici bezplatná zkušební verze pro Aspose.3D?**  
 A: Ano, můžete prozkoumat knihovnu Aspose.3D pomocí [bezplatné zkušební verze](https://releases.aspose.com/).
@@ -135,20 +145,20 @@ A: Ano, můžete prozkoumat knihovnu Aspose.3D pomocí [bezplatné zkušební ve
 A: Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
 **Q: Kde mohu zakoupit Aspose.3D?**  
-A: Pro nákup Aspose.3D navštivte [stránku nákupu](https://purchase.aspose.com/buy).
+A: Pro zakoupení Aspose.3D navštivte [stránku nákupu](https://purchase.aspose.com/buy).
 
-**Q: Jak přidám více textur k jednomu mesh?**  
-A: Vytvořte další instance `VertexElementUV` s různými hodnotami `TextureMapping` (např. `NORMAL`, `SPECULAR`) a přiřaďte každou k mesh.
+**Q: Jak přidám více textur do jedné sítě?**  
+A: Vytvořte další instance `VertexElementUV` s různými hodnotami `TextureMapping` (např. `NORMAL`, `SPECULAR`) a přiřaďte každou k síti.
 
 ## Závěr
 
-V tomto tutoriálu jsme pokryli **jak vytvořit UV** a připojit je k 3‑D objektu pomocí Aspose.3D pro Javu. Ovládnutím UV mapování můžete **mapovat textury java** a **přidávat texturové souřadnice** k libovolnému mesh, čímž odemknete realistické renderování pro hry, simulace a vizualizace. Experimentujte s různými tvary, rozvržením UV a texturami, abyste viděli, jak mocné UV mapování může být.
+V tomto tutoriálu jsme pokryli **jak generovat UV souřadnice** a připojit je k 3‑D objektu pomocí Aspose.3D pro Java. Ovládnutím UV mapování můžete **mapovat textury java** a **přidávat texturové souřadnice** k jakékoli síti, čímž odemknete realistické renderování pro hry, simulace a vizualizace. Experimentujte s různými tvary, rozvržením UV a texturami, abyste viděli, jak mocné UV mapování může být.
 
 ---
 
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.3D latest release (Java)  
-**Author:** Aspose  
+**Poslední aktualizace:** 2026-04-12  
+**Testováno s:** Aspose.3D latest release (Java)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

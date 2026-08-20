@@ -1,54 +1,46 @@
 ---
-date: 2026-03-21
-description: Aspose.3D for .NET を使用して、3D シーンで平面の向きを変更する方法を学びましょう。ステップバイステップのガイドに従って、3D
-  モデル OBJ をエクスポートし、3D 平面を簡単に回転させることができます。
-linktitle: Changing Plane Orientation in 3D Scenes
+title: Add Camera to Scene with Aspose.3D – XPath Queries
+linktitle: XPath-Like Object Queries
 second_title: Aspose.3D .NET API
-title: 3Dシーンで平面の向きを変更する – Aspose.3D for .NET
-url: /ja/net/3d-modeling/change-plane-orientation/
-weight: 10
+description: Learn how to add camera to scene and manipulate 3D objects using Aspose.3D for .NET. Explore XPath‑like queries, select node by name and more.
+weight: 24
+url: /net/geometry-and-hierarchy/xpath-like-object-queries/
+date: 2026-01-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D シーンで平面の向きを変更する方法
+# Add Camera to Scene with Aspose.3D – XPath Queries
 
-## はじめに
+## Introduction
+In this tutorial you’ll discover how to **add a camera to a scene** and work with powerful XPath‑like object queries in Aspose.3D for .NET. Whether you need to **select node by name**, **select single object**, or simply **add light to scene**, the steps below will guide you through creating, querying, and manipulating 3D objects with clear, real‑world examples.
 
-この包括的なチュートリアルでは、Aspose.3D for .NET を使用して **平面の向きを変更する方法** を学びます。ゲーム、CAD ビューア、科学的可視化のいずれを構築する場合でも、平面の方向を制御することは、正確なレンダリングと 3‑D モデル OBJ ファイルの適切なエクスポートに不可欠です。ステップバイステップで一緒に手順を確認しましょう。
+## Quick Answers
+- **How do I add a camera to a scene?** Use `c.CreateChildNode("c1").AddEntity(new Camera("cam"));`
+- **Can I query objects with XPath syntax?** Yes – `SelectObjects` and `SelectSingleObject` support XPath‑like expressions.
+- **What if I need to select a node by name?** Use `SelectSingleObject("a1")` or `"//a1"` style paths.
+- **How do I add a light to the scene?** Call `AddEntity(new Light("light"))` on a child node.
+- **Which .NET versions are supported?** Aspose.3D works with .NET Framework 2.0+ and .NET Core/5/6.
 
-## クイック回答
-- **「平面の向きを変更する」とは何ですか？** 平面の up‑ベクトルを調整して、3‑D 空間で回転させることです。  
-- **エクスポートに使用するファイル形式は？** Wavefront OBJ（`.obj`）。  
-- **3D 平面を直接回転させられますか？** はい – `Plane` エンティティの `Up` ベクトルを変更します。  
-- **ライセンスは必要ですか？** 開発用には無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
-- **サポートされている .NET バージョンは？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6 以上。
+## What is “add camera to scene” in Aspose.3D?
+Adding a camera creates a viewpoint from which the scene can be rendered or inspected. The camera behaves like any other 3D entity, so you can position, rotate, and query it just like meshes or lights.
 
-## 平面の向き変更とは？
-平面の向き変更とは、平面の法線または up‑ベクトルを再定義し、3‑D 座標系内で別の方向を向かせることを指します。この操作により、サイズや位置を変えずに **3D 平面を回転** させることができます。
+## Why use XPath‑like object queries?
+XPath‑like queries let you locate objects based on type, name, or custom attributes without manually traversing the node hierarchy. This makes **manipulating 3D objects** fast, readable, and maintainable—especially in complex scenes.
 
-## なぜ平面の向きを変更するのか？
-- **正確なビジュアル整合性** – テクスチャやライティングが期待通りに動作するようになります。  
-- **正しいエクスポート** – 一部の下流ツールは OBJ ファイルをインポートする際に特定の平面向きを前提としています。  
-- **柔軟性** – 同じジオメトリを異なる向きで再利用し、複数のビューを作成できます。
+## Prerequisites
+- Basic knowledge of the .NET framework
+- Visual Studio installed
+- Aspose.3D library referenced in your project (latest version)
 
-## 前提条件
-
-- Aspose.3D for .NET: ライブラリがインストールされていることを確認してください。未インストールの場合は、[here](https://releases.aspose.com/3d/net/) からダウンロードできます。  
-- 作業ディレクトリ: チュートリアルがファイルの読み書きを行うフォルダーを用意してください。
-
-基本を把握したので、コードに入りましょう。
-
-## 名前空間のインポート
-
-.NET プロジェクトで、必要な名前空間をインポートします。
+## Import Namespaces
+Start by importing the required namespaces so you have access to all Aspose.3D classes.
 
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
-using Aspose.ThreeD.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,73 +48,101 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-これらの名前空間は、Aspose.3D で 3D シーンを操作するための基本クラスとメソッドを提供します。
+## Step‑by‑Step Guide
 
-## 手順 1: シーン オブジェクトの初期化
+### Step 1: Open Visual Studio
+Create a new C# project or open an existing one where you want to work with 3D scenes.
 
-```csharp
-// The path to the data directory
-string dataDir = "Your Document Directory";
-
-// Initialize scene object
-Scene scene = new Scene();
-```
-
-このコードは 3‑D シーンの環境を構築します。
-
-## 手順 2: 平面の向き用ベクトルを設定 (3D 平面の回転)
+### Step 2: Create a New Scene (Add Camera to Scene)
+Instantiate a fresh `Scene` object that will serve as the canvas for all subsequent objects.
 
 ```csharp
-// Set Vector
-scene.RootNode.CreateChildNode(new Plane() { Up = new Vector3(1, 1, 3) });
+Scene s = new Scene();
 ```
 
-ここでは、平面を表す子ノードを作成し、`Up` ベクトルで向きをカスタマイズします。ベクトルの値を変更することで、3D 平面を目的の角度に回転させます。
-
-## 手順 3: 3D モデル OBJ の保存とエクスポート
+### Step 3: Populate the Scene – Add Nodes, Camera, and Light
+Build a simple hierarchy, then **add a camera** and **add light to scene** to illustrate querying later.
 
 ```csharp
-// This will generate a plane that has customized orientation
-scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
+var a = s.RootNode.CreateChildNode("a");
+a.CreateChildNode("a1");
+a.CreateChildNode("a2");
+s.RootNode.CreateChildNode("b");
+var c = s.RootNode.CreateChildNode("c");
+c.CreateChildNode("c1").AddEntity(new Camera("cam"));
+c.CreateChildNode("c2").AddEntity(new Light("light"));
 ```
 
-シーンを保存すると、平面の新しい向きが反映された OBJ ファイルが生成され、他のアプリケーションで **3D モデル OBJ をエクスポート** できるようになります。
+The resulting hierarchy looks like this:
 
-必要に応じて、追加の平面や異なる向きでこの手順を繰り返してください。
+```
+- Root
+    - a
+        - a1
+        - a2
+    - b
+    - c
+        - c1
+            - cam
+        - c2
+            - light
+```
 
-## よくある問題と解決策
-- **平面が平坦に見える、または逆向きになる:** `Up` ベクトルが平面の法線と同一直線になっていないか確認してください。ベクトル成分を調整して目的の傾きを得ます。  
-- **エクスポートした OBJ が空になる:** `dataDir` パスの末尾に区切り文字（`\\` または `/`）が付いているか、書き込み権限があるかを確認してください。  
-- **予期しない回転が発生する:** `Up` ベクトルは平面のローカル Y 軸を定義します。これを変更すると平面は X 軸周りに回転します。
+### Step 4: Select Objects – How to query 3D objects
+Use an XPath‑like expression to fetch all cameras **or** any node named “light”.
 
-## FAQ
+```csharp
+var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+```
 
-**Q1: Aspose.3D は他の 3D ライブラリと互換性がありますか？**  
-A1: Aspose.3D は他の一般的な 3D ライブラリとシームレスに連携でき、開発の柔軟性を提供します。
+### Step 5: Select a Single Object – Select single object by path
+Retrieve the first camera node directly with a concise path.
 
-**Q2: 商用プロジェクトで Aspose.3D を使用できますか？**  
-A2: もちろんです！ Aspose.3D には個人利用・商用利用向けのライセンスオプションがあります。詳細は [here](https://purchase.aspose.com/buy) をご覧ください。
+```csharp
+var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
+```
 
-**Q3: Aspose.3D のサポートはどこで受けられますか？**  
-A3: コミュニティサポートやディスカッションは [Aspose.3D forum](https://forum.aspose.com/c/3d/18) で利用できます。
+### Step 6: Select Node by Name – Quick way to locate a node
+If you know the node’s name, you can fetch it without caring about its position in the hierarchy.
 
-**Q4: 無料トライアルはありますか？**  
-A4: はい、無料トライアルは [here](https://releases.aspose.com/) から利用できます。
+```csharp
+var obj = s.RootNode.SelectSingleObject("a1");
+```
 
-**Q5: 詳細なドキュメントはどこにありますか？**  
-A5: 詳細情報はドキュメント [here](https://reference.aspose.com/3d/net/) を参照してください。
+### Step 7: Select the Root Node – Useful for global operations
+Sometimes you need a reference to the scene’s root for bulk transformations.
 
-**Q6: 保存後に平面の向きを変更できますか？**  
-A6: `scene.Save` を呼び出す前に `Up` ベクトルを変更する必要があります。OBJ ファイルは保存時の状態を反映します。
+```csharp
+obj = s.RootNode.SelectSingleObject("/");
+```
 
-**Q7: 向きの変更はテクスチャ座標に影響しますか？**  
-A7: 向きの変更は平面のジオメトリにのみ影響し、テクスチャ座標は明示的に変更しない限りそのままです。
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **Camera not appearing in query results** | Ensure the node’s `Entity` is a `Camera` and the name matches the query case‑sensitively. |
+| **SelectSingleObject returns null** | Verify the XPath expression syntax; use leading `/` for absolute paths. |
+| **Light does not affect rendering** | Remember that lighting calculations require a rendering engine; the Light entity alone does not render anything. |
+| **Performance slowdown on large scenes** | Limit queries to sub‑trees (`RootNode.SelectObjects("//c/*")`) or cache results when possible. |
 
----
+## Frequently Asked Questions
 
-**最終更新日:** 2026-03-21  
-**テスト環境:** Aspose.3D 24.12 for .NET  
-**作者:** Aspose  
+**Q: Is Aspose.3D compatible with all .NET versions?**  
+A: Aspose.3D supports .NET Framework 2.0 and higher, as well as .NET Core, .NET 5, and .NET 6.
+
+**Q: Can I use Aspose.3D for both 3D modeling and rendering?**  
+A: Absolutely. The library provides tools for creating, editing, and rendering 3D models.
+
+**Q: Are there licensing constraints for the free trial?**  
+A: The trial version includes a limited feature set; a full license is required for production use.
+
+**Q: How can I get community support for Aspose.3D?**  
+A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for tips, examples, and help from other developers.
+
+**Q: What advantages does Aspose.3D offer over other 3D libraries for .NET?**  
+A: It combines a rich API for object queries, robust scene management, and cross‑platform compatibility without needing external dependencies.
+
+## Conclusion
+You’ve now learned how to **add a camera to a scene**, **add light to scene**, and **query 3D objects** using XPath‑like syntax in Aspose.3D for .NET. These techniques let you efficiently manipulate complex hierarchies, select nodes by name, and retrieve single objects—all essential for modern 3D applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -130,3 +150,9 @@ A7: 向きの変更は平面のジオメトリにのみ影響し、テクスチ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-25  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose

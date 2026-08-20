@@ -1,43 +1,42 @@
 ---
-date: 2026-01-25
-description: Apprenez à ajouter une caméra à la scène et à manipuler des objets 3D
-  avec Aspose.3D pour .NET. Explorez les requêtes de type XPath, sélectionnez un nœud
-  par son nom et bien plus encore.
+title: Add Camera to Scene with Aspose.3D – XPath Queries
 linktitle: XPath-Like Object Queries
 second_title: Aspose.3D .NET API
-title: Ajouter une caméra à la scène avec Aspose.3D – Requêtes XPath
-url: /fr/net/geometry-and-hierarchy/xpath-like-object-queries/
+description: Learn how to add camera to scene and manipulate 3D objects using Aspose.3D for .NET. Explore XPath‑like queries, select node by name and more.
 weight: 24
+url: /net/geometry-and-hierarchy/xpath-like-object-queries/
+date: 2026-01-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter une caméra à la scène avec Aspose.3D – Requêtes XPath
+# Add Camera to Scene with Aspose.3D – XPath Queries
 
 ## Introduction
-Dans ce tutoriel, vous découvrirez comment **ajouter une caméra à une scène** et travailler avec de puissantes requêtes d’objets de type XPath dans Aspose.3D pour .NET. Que vous ayez besoin de **sélectionner un nœud par son nom**, **sélectionner un seul objet**, ou simplement **ajouter une lumière à la scène**, les étapes ci‑dessous vous guideront dans la création, l’interrogation et la manipulation d’objets 3D avec des exemples concrets.
+In this tutorial you’ll discover how to **add a camera to a scene** and work with powerful XPath‑like object queries in Aspose.3D for .NET. Whether you need to **select node by name**, **select single object**, or simply **add light to scene**, the steps below will guide you through creating, querying, and manipulating 3D objects with clear, real‑world examples.
 
-## Réponses rapides
-- **Comment ajouter une caméra à une scène ?** Utilisez `c.CreateChildNode("c1").AddEntity(new Camera("cam"));`
-- **Puis‑je interroger des objets avec une syntaxe XPath ?** Oui – `SelectObjects` et `SelectSingleObject` prennent en charge des expressions de type XPath.
-- **Que faire pour sélectionner un nœud par son nom ?** Utilisez `SelectSingleObject("a1")` ou des chemins de style `"//a1"`.
-- **Comment ajouter- **Quelles versions de .NET sont prises en charge ?** Aspose.3D fonctionne avec .NET Framework 2.0+ et .NET Core/5/6.
+## Quick Answers
+- **How do I add a camera to a scene?** Use `c.CreateChildNode("c1").AddEntity(new Camera("cam"));`
+- **Can I query objects with XPath syntax?** Yes – `SelectObjects` and `SelectSingleObject` support XPath‑like expressions.
+- **What if I need to select a node by name?** Use `SelectSingleObject("a1")` or `"//a1"` style paths.
+- **How do I add a light to the scene?** Call `AddEntity(new Light("light"))` on a child node.
+- **Which .NET versions are supported?** Aspose.3D works with .NET Framework 2.0+ and .NET Core/5/6.
 
-## Qu’est‑ce que « ajouter une caméra à la scène » dans Aspose.3D ?
-Ajouter une caméra crée un point de vue depuis lequel la scène peut être rendue ou inspectée. La caméra se comporte comme toute autre entité 3D, vous pouvez donc la positionner, la faire pivoter et l’interroger comme des maillages ou des lumières.
+## What is “add camera to scene” in Aspose.3D?
+Adding a camera creates a viewpoint from which the scene can be rendered or inspected. The camera behaves like any other 3D entity, so you can position, rotate, and query it just like meshes or lights.
 
-## Pourquoi utiliser des requêtes d’objets de type XPath ?
-Les requêtes de type XPath vous permettent de localiser des objets en fonction de leur type, de leur nom ou d’attributs personnalisés sans parcourir manuellement la hiérarchie des nœuds. Cela rend **la manipulation d’objets 3D** rapide, lisible et maintenable—surtout dans des scènes complexes.
+## Why use XPath‑like object queries?
+XPath‑like queries let you locate objects based on type, name, or custom attributes without manually traversing the node hierarchy. This makes **manipulating 3D objects** fast, readable, and maintainable—especially in complex scenes.
 
-## Pré‑requis
-- Connaissances de base du framework .NET
-- Visual Studio installé
-- Bibliothèque Aspose.3D référencée dans votre projet (dernière version)
+## Prerequisites
+- Basic knowledge of the .NET framework
+- Visual Studio installed
+- Aspose.3D library referenced in your project (latest version)
 
-## Importer les espaces de noms
-Commencez par importer les espaces de noms requis afin d’avoir accès à toutes les classes Aspose.3D.
+## Import Namespaces
+Start by importing the required namespaces so you have access to all Aspose.3D classes.
 
 ```csharp
 using Aspose.ThreeD;
@@ -49,20 +48,20 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-## Guide étape par étape
+## Step‑by‑Step Guide
 
-### Étape 1 : Ouvrir Visual Studio
-Créez un nouveau projet C# ou ouvrez un projet existant où vous souhaitez travailler avec des scènes 3D.
+### Step 1: Open Visual Studio
+Create a new C# project or open an existing one where you want to work with 3D scenes.
 
-### Étape 2 : Créer une nouvelle scène (Ajouter une caméra à la scène)
-Instanciez un nouvel objet `Scene` qui servira de canevas pour tous les objets suivants.
+### Step 2: Create a New Scene (Add Camera to Scene)
+Instantiate a fresh `Scene` object that will serve as the canvas for all subsequent objects.
 
 ```csharp
 Scene s = new Scene();
 ```
 
-### Étape 3 : Remplir la scène – Ajouter des nœuds, une caméra et une lumière
-Construisez une hiérarchie simple, puis **ajoutez une caméra** et **ajoutez une lumière à la scène** pour illustrer les requêtes ultérieures.
+### Step 3: Populate the Scene – Add Nodes, Camera, and Light
+Build a simple hierarchy, then **add a camera** and **add light to scene** to illustrate querying later.
 
 ```csharp
 var a = s.RootNode.CreateChildNode("a");
@@ -74,7 +73,7 @@ c.CreateChildNode("c1").AddEntity(new Camera("cam"));
 c.CreateChildNode("c2").AddEntity(new Light("light"));
 ```
 
-La hiérarchie résultante ressemble à ceci :
+The resulting hierarchy looks like this:
 
 ```
 - Root
@@ -89,61 +88,61 @@ La hiérarchie résultante ressemble à ceci :
             - light
 ```
 
-### Étape 4 : Sélectionner des objets – Comment interroger des objets 3D
-Utilisez une expression de type XPath pour récupérer toutes les caméras **ou** tout nœud nommé « light ».
+### Step 4: Select Objects – How to query 3D objects
+Use an XPath‑like expression to fetch all cameras **or** any node named “light”.
 
 ```csharp
 var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
 ```
 
-### Étape 5 : Sélectionner un seul objet – Sélectionner un objet unique par chemin
-Récupérez directement le premier nœud caméra avec un chemin concis.
+### Step 5: Select a Single Object – Select single object by path
+Retrieve the first camera node directly with a concise path.
 
 ```csharp
 var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
 ```
 
-### Étape 6 : Sélectionner un nœud par son nom – Méthode rapide pour localiser un nœud
-Si vous connaissez le nom du nœud, vous pouvez le récupérer sans vous soucier de sa position dans la hiérarchie.
+### Step 6: Select Node by Name – Quick way to locate a node
+If you know the node’s name, you can fetch it without caring about its position in the hierarchy.
 
 ```csharp
 var obj = s.RootNode.SelectSingleObject("a1");
 ```
 
-### Étape 7 : Sélectionner le nœud racine – Utile pour les opérations globales
-Parfois, vous avez besoin d’une référence à la racine de la scène pour des transformations en masse.
+### Step 7: Select the Root Node – Useful for global operations
+Sometimes you need a reference to the scene’s root for bulk transformations.
 
 ```csharp
 obj = s.RootNode.SelectSingleObject("/");
 ```
 
-## Problèmes courants et solutions
-| Problème | Solution |
-|----------|----------|
-| **La caméra n’apparaît pas dans les résultats de la requête** | Vérifiez que l’`Entity` du nœud est bien une `Camera` et que le nom correspond à la requête en respectant la casse. |
-| **SelectSingleObject renvoie null** | Vérifiez la syntaxe de l’expression XPath ; utilisez un `/` initial pour les chemins absolus. |
-| **La lumière n’influence pas le rendu** | Rappelez‑vous que les calculs d’éclairage nécessitent un moteur de rendu ; l’entité Light seule ne produit aucun rendu. |
-| **Ralentissement des performances sur de grandes scènes** | Limitez les requêtes aux sous‑arbres (`RootNode.SelectObjects("//c/*")`) ou mettez en cache les résultats lorsque c’est possible. |
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **Camera not appearing in query results** | Ensure the node’s `Entity` is a `Camera` and the name matches the query case‑sensitively. |
+| **SelectSingleObject returns null** | Verify the XPath expression syntax; use leading `/` for absolute paths. |
+| **Light does not affect rendering** | Remember that lighting calculations require a rendering engine; the Light entity alone does not render anything. |
+| **Performance slowdown on large scenes** | Limit queries to sub‑trees (`RootNode.SelectObjects("//c/*")`) or cache results when possible. |
 
-## Questions fréquentes
+## Frequently Asked Questions
 
-**Q : Aspose.3D est‑il compatible avec toutes les versions de .NET ?**  
-R : Aspose.3D prend en charge .NET Framework 2.0 et supérieur, ainsi que .NET Core, .NET 5 et .NET 6.
+**Q: Is Aspose.3D compatible with all .NET versions?**  
+A: Aspose.3D supports .NET Framework 2.0 and higher, as well as .NET Core, .NET 5, and .NET 6.
 
-**Q : Puis‑je utiliser Aspose.3D à la fois pour la modélisation 3D et le rendu ?**  
-R : Absolument. La bibliothèque fournit des outils pour créer, modifier et rendre des modèles 3D.
+**Q: Can I use Aspose.3D for both 3D modeling and rendering?**  
+A: Absolutely. The library provides tools for creating, editing, and rendering 3D models.
 
-**Q : Existe‑t‑il des contraintes de licence pour la version d’essai ?**  
-R : La version d’essai comprend un ensemble de fonctionnalités limité ; une licence complète est requise pour une utilisation en production.
+**Q: Are there licensing constraints for the free trial?**  
+A: The trial version includes a limited feature set; a full license is required for production use.
 
-**Q : Comment obtenir du support communautaire pour Aspose.3D ?**  
-R : Consultez le [forum Aspose.3D](https://forum.aspose.com/c/3d/18) pour des astuces, des exemples et de l’aide d’autres développeurs.
+**Q: How can I get community support for Aspose.3D?**  
+A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for tips, examples, and help from other developers.
 
-**Q : Quels avantages Aspose.3D offre‑t‑il par rapport aux autres bibliothèques 3D pour .NET ?**  
-R : Il combine une API riche pour les requêtes d’objets, une gestion robuste des scènes et une compatibilité multiplateforme sans dépendances externes.
+**Q: What advantages does Aspose.3D offer over other 3D libraries for .NET?**  
+A: It combines a rich API for object queries, robust scene management, and cross‑platform compatibility without needing external dependencies.
 
 ## Conclusion
-Vous avez maintenant appris comment **ajouter une caméra à une scène**, **ajouter une lumière à la scène**, et **interroger des objets 3D** à l’aide d’une syntaxe de type XPath dans Aspose.3D pour .NET. Ces techniques vous permettent de manipuler efficacement des hiérarchies complexes, de sélectionner des nœuds par nom et de récupérer des objets uniques—des compétences essentielles pour les applications 3D modernes.
+You’ve now learned how to **add a camera to a scene**, **add light to scene**, and **query 3D objects** using XPath‑like syntax in Aspose.3D for .NET. These techniques let you efficiently manipulate complex hierarchies, select nodes by name, and retrieve single objects—all essential for modern 3D applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -154,5 +153,6 @@ Vous avez maintenant appris comment **ajouter une caméra à une scène**, **ajo
 
 ---
 
-**Dernière mise à jour :** 2026-01-25  
-**Testé avec :** Aspose.3
+**Last Updated:** 2026-01-25  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose
