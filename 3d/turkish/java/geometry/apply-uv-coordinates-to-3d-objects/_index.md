@@ -1,17 +1,60 @@
 ---
-date: 2026-04-12
-description: Aspose.3D ile Java’da UV koordinatları oluşturmayı ve dokuları haritalamayı
-  öğrenin – adım adım bir doku haritalama öğreticisi.
+date: 2026-06-29
+description: Java ile Aspose.3D kullanarak UV coordinates nasıl oluşturulur, texture
+  coordinates eklenir ve dokular mesh üzerine nasıl haritalanır öğrenin – adım adım
+  uv mapping 3d models öğreticisi.
 keywords:
-- generate uv coordinates
-- create uv set
-- texture mapping tutorial
-- uv mapping 3d objects
+- uv mapping 3d models
 - add texture coordinates
-linktitle: UV Koordinatlarını Nasıl Oluşturulur – Aspose.3D ile Java’da 3D Nesnelere
-  UV Uygulama
+- map textures onto mesh
+linktitle: uv mapping 3d modeller – How to Generate UV Coordinates and Apply UVs to
+  3D Objects in Java with Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to generate UV coordinates, add texture coordinates and map
+    textures onto mesh in Java with Aspose.3D – a step‑by‑step uv mapping 3d models
+    tutorial.
+  headline: uv mapping 3d models – How to Generate UV Coordinates and Apply UVs to
+    3D Objects in Java with Aspose.3D
+  type: TechArticle
+- description: Learn how to generate UV coordinates, add texture coordinates and map
+    textures onto mesh in Java with Aspose.3D – a step‑by‑step uv mapping 3d models
+    tutorial.
+  name: uv mapping 3d models – How to Generate UV Coordinates and Apply UVs to 3D
+    Objects in Java with Aspose.3D
+  steps:
+  - name: Import Aspose.3D Packages
+    text: Now that the packages are ready, let’s set up the UV data for a simple cube.
+  - name: Create UVs and Indices
+    text: These arrays define the **UV coordinates** (`uvs`) and the **index mapping**
+      (`uvsId`) that tells the mesh which UV belongs to each polygon vertex.
+  - name: Create Mesh and UVset
+    text: 'Here we: 1. Build a mesh (the cube) using a helper class. 2. Create a UV
+      element (`VertexElementUV`) that stores our texture coordinates. 3. Assign the
+      UV data and the index buffer to the mesh, effectively **adding texture coordinates**
+      to the geometry.'
+  - name: Print Confirmation
+    text: Running the program will display a confirmation message, indicating that
+      the UVs are now part of the mesh and ready for texture mapping.
+  type: HowTo
+- questions:
+  - answer: Yes, the process remains similar for complex models. Ensure you generate
+      appropriate UV data and index buffers for each polygon.
+    question: Can I apply UV coordinates to complex 3D models?
+  - answer: Visit the [Aspose.3D documentation](https://reference.aspose.com/3d/java/)
+      for in‑depth information. For support, check the [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
+    question: Where can I find additional resources and support for Aspose.3D?
+  - answer: Yes, you can explore the Aspose.3D library with a [free trial](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.3D?
+  - answer: You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.3D?
+  - answer: To purchase Aspose.3D, visit the [purchase page](https://purchase.aspose.com/buy).
+    question: Where can I purchase Aspose.3D?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: UV Koordinatlarını Oluşturma – Aspose.3D ile Java’da 3D Nesnelere UV Uygulama
+title: uv mapping 3d modeller – How to Generate UV Coordinates and Apply UVs to 3D
+  Objects in Java with Aspose.3D
 url: /tr/java/geometry/apply-uv-coordinates-to-3d-objects/
 weight: 18
 ---
@@ -20,40 +63,46 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# UV Koordinatlarını Oluşturma – Aspose.3D ile Java'da 3D Nesnelere UV Uygulama
+# uv mapping 3d modeller – Java ile Aspose.3D'de UV Koordinatlarını Oluşturma ve UV'leri 3D Nesnelere Uygulama
 
 ## Giriş
 
-Aspose.3D kullanarak Java'da 3D nesnelere UV koordinatları oluşturma ve uygulama üzerine kapsamlı bir **texture mapping tutorial**'a hoş geldiniz. 3‑D grafik dünyasında UV koordinatları, **map textures java** yapmanızı sağlayan ve modellerinize gerçekçi bir görünüm kazandıran köprüdür. Bu kılavuz, her adımı size anlatır, böylece herhangi bir mesh'e güvenle doku koordinatları eklemeye başlayabilirsiniz.
+Bu kapsamlı **texture mapping tutorial**'da UV koordinatlarını nasıl oluşturacağınızı, doku koordinatlarını ekleyeceğinizi ve Aspose.3D for Java kullanarak 3‑D nesnelere dokuları nasıl eşleyeceğinizi tam olarak göstereceğiz. UV mapping 3d models, düz bir ağı gerçekçi, dokulu bir varlığa dönüştüren temel adımdır; ister bir oyun, bir ürün görselleştirici ya da bilimsel bir simülasyon oluşturuyor olun. Bu rehberin sonunda herhangi bir geometri için bir UV seti oluşturabilecek ve dokunuzun birkaç dakika içinde doğru şekilde sarmalandığını görebileceksiniz.
 
 ## Hızlı Yanıtlar
-- **Ana hedef nedir?** UV koordinatlarını nasıl oluşturacağınızı ve dokuları 3‑D geometriye nasıl haritalayacağınızı öğrenin.  
+
+- **Ana hedef nedir?** UV koordinatlarını nasıl oluşturacağınızı ve dokuları 3‑D geometriye nasıl eşleyeceğinizi öğrenin.  
 - **Hangi kütüphane kullanılıyor?** Aspose.3D for Java.  
-- **Bir lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim için lisans gereklidir.  
+- **Bir lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim için bir lisans gereklidir.  
 - **Uygulama ne kadar sürer?** Temel bir küp için yaklaşık 10‑15 dakika.  
-- **Bunu diğer şekillerle kullanabilir miyim?** Evet – aynı prensipler herhangi bir mesh'e uygulanabilir.
+- **Bunu diğer şekillerde kullanabilir miyim?** Evet – aynı prensipler herhangi bir ağ için geçerlidir.
 
-## Java'da UV Koordinatlarını Oluşturma
+## uv mapping 3d modelleri nedir?
 
-Koda geçmeden önce, UV koordinatları oluşturmanın neden önemli olduğunu açıklayalım. Doğru UV'ler, dokuların düzgün hizalanmasını, gerilme olmamasını ve malzemelerin profesyonel görünmesini sağlar. İster bir oyun, bir simülasyon ya da bir ürün görselleştirici geliştirin, sağlam bir UV seti şarttır.
+uv mapping 3d models, bir 3‑D ağın her köşesine 2‑D doku koordinatları (U ve V) atama sürecidir; böylece bir 2‑D görüntü geometri etrafına bozulma olmadan sarılabilir. Bir UV seti tanımlayarak, renderlayıcıya dokunun hangi kısmının her poligona ait olduğunu tam olarak söylersiniz; bu da gerçekçi malzeme görünümünü sağlar ve gerilme ya da dikişleri ortadan kaldırır.
 
-## 3D Nesnelerin UV Haritalaması Neden Önemlidir
+## UV Mapping 3D Nesnelerinin Önemi
 
-- **Gerçekçilik:** Doğru UV'ler, dokuların karmaşık yüzeyler etrafında doğal bir şekilde sarılmasını sağlar.  
-- **Performans:** İyi organize edilmiş UV setleri, ekstra shader'lara veya çalışma zamanı ayarlamalarına olan ihtiyacı azaltır.  
-- **Taşınabilirlik:** UV verileri mesh ile birlikte taşınır, böylece model Aspose.3D'yi destekleyen herhangi bir motor içinde aynı görünür.
+UV mapping, bir 2‑D görüntünün bir 3‑D yüzeye nasıl projekte edildiğini belirlediği için hayati öneme sahiptir; bu da görsel doğruluk, render verimliliği ve platformlar arası tutarlılığı etkiler. Doğru düzenlenmiş UV'ler doku gerilmesini önler, gölgelendirici (shader) karmaşıklığını azaltır ve varlıkların farklı motorlar ve iş akışları arasında sorunsuz yeniden kullanılmasını sağlar.
+
+- **Gerçekçilik:** Doğru UV'ler dokuların karmaşık yüzeyler etrafında doğal bir şekilde sarılmasını sağlar ve foto-gerçekçi sonuçlar verir.  
+- **Performans:** İyi organize edilmiş UV setleri ekstra gölgelendiricilere veya çalışma zamanı ayarlamalarına ihtiyaç duyulmasını azaltır, çerçeve hızlarını yüksek tutar.  
+- **Taşınabilirlik:** UV verileri ağ ile birlikte taşınır, bu yüzden model Aspose.3D'yi destekleyen herhangi bir motor içinde aynı görünür.  
+- **Sayısal Fayda:** Aspose.3D **30+ import and export formats** (including OBJ, STL, FBX, and Collada) destekler ve **up to 1 million vertices** ile ağları, tüm dosyayı belleğe yüklemeden işleyebilir, bu da mütevazı donanımlarda bile hızlı iş akışları sağlar.
 
 ## Önkoşullar
 
-İçeriğe başlamadan önce, şunların olduğundan emin olun:
+- **Java Development Environment** – JDK 8+ yüklü ve yapılandırılmış.  
+- **Aspose.3D Library** – En son JAR dosyasını resmi siteden [buradan](https://releases.aspose.com/3d/java/) indirin.  
+- **Basic 3D Knowledge** – Mesh'ler, köşeler ve doku kavramlarına aşina olmak, konuyu takip etmenize yardımcı olur.
 
-- **Java Geliştirme Ortamı** – JDK 8+ yüklü ve yapılandırılmış.  
-- **Aspose.3D Kütüphanesi** – Resmi siteden en son JAR'ı indirin [buradan](https://releases.aspose.com/3d/java/).  
-- **Temel 3D Bilgisi** – Mesh'ler, köşe noktaları ve doku kavramlarına aşina olmak, içeriği takip etmenize yardımcı olur.
+## Java'da UV Koordinatlarını Nasıl Oluşturulur?
+
+Ağınızı yükleyin, bir UV dizisi oluşturun, her poligon köşesini bir UV girişine eşleyen bir indeks tamponu oluşturun ve ardından UV öğesini ağa ekleyin – tüm bunlar dört kısa adımda yapılır. Aşağıdaki kod (daha sonra sağlanacak) tüm akışı gösterir ve her adım sonrası açıklama işlemin neden gerekli olduğunu gösterir.
 
 ## Paketleri İçe Aktarma
 
-Bu adımda, UV haritalama yolculuğumuza başlamak için gerekli paketleri içe aktarırız. Aspose.3D kütüphanesi, Java'da 3‑D nesnelerle çalışmak için ihtiyaç duyduğumuz araçları sağlar.
+Bu adımda Aspose.3D ad alanlarını kapsam içine alıyoruz, böylece mesh'ler, köşeler ve doku öğeleriyle çalışabiliriz.
 
 ### Adım 1: Aspose.3D Paketlerini İçe Aktar
 
@@ -65,11 +114,11 @@ import java.util.Arrays;
 
 Paketler hazır olduğuna göre, basit bir küp için UV verilerini ayarlayalım.
 
-## Mesh'iniz İçin UV Seti Oluşturma
+## Ağınız İçin UV Seti Oluşturun
 
-Burada, mesh'e her çokgen köşe noktasının hangi UV'ye ait olduğunu söyleyen UV koordinatlarını ve indeks tamponunu tanımlıyoruz. Bu, **create UV set** sürecinin çekirdeğidir.
+UV seti iki diziden oluşur: biri gerçek UV koordinatlarını depolar, diğeri ise ağın her poligon köşesine hangi UV'nin ait olduğunu belirtir.
 
-### Adım 2: UV'ler ve İndeksler Oluşturma
+### Adım 2: UV'leri ve İndeksleri Oluştur
 
 ```java
 // ExStart:SetupUVOnCube
@@ -90,13 +139,13 @@ int[] uvsId = new int[]
 // ExEnd:SetupUVOnCube
 ```
 
-Bu diziler, mesh'e her çokgen köşe noktasının hangi UV'ye ait olduğunu söyleyen **UV coordinates** (`uvs`) ve **index mapping** (`uvsId`) tanımlar.
+Bu diziler **UV coordinates** (`uvs`) ve **index mapping** (`uvsId`) tanımlar; bu, ağın her poligon köşesine hangi UV'nin ait olduğunu söyler.
 
-## Mesh'e Doku Koordinatları Ekleme
+## Bir Ağa Doku Koordinatları Ekle
 
-Şimdi UV setini bir mesh örneğine ekliyoruz. Bu adım, geometriye **adds texture coordinates** ekleyerek, bir doku ile renderlamaya hazır hale getirir.
+VertexElementUV, bir ağ için köşe başına UV koordinatlarını depolayan Aspose.3D öğesidir. Bu öğeyi ekleyerek geometriyi doku eşlemesi için hazır hâle getiririz.
 
-### Adım 3: Mesh ve UVset Oluşturma
+### Adım 3: Ağ ve UVset Oluştur
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
@@ -110,9 +159,10 @@ elementUV.setIndices(uvsId);
 ```
 
 Burada:
-1. Yardımcı bir sınıf kullanarak bir mesh (küp) oluşturun.  
-2. Doku koordinatlarımızı saklayan bir UV öğesi (`VertexElementUV`) oluşturun.  
-3. UV verilerini ve indeks tamponunu mesh'e atayın, böylece geometriye etkili bir şekilde **adds texture coordinates** eklenir.
+
+1. Yardımcı sınıfı kullanarak bir ağ (küp) oluşturuyoruz.  
+2. Doku koordinatlarımızı depolayan bir UV öğesi (`VertexElementUV`) oluşturuyoruz.  
+3. UV verisini ve indeks tamponunu ağa atıyoruz; bu, geometriye etkili bir şekilde **adding texture coordinates** ekler.
 
 ### Adım 4: Onayı Yazdır
 
@@ -120,45 +170,53 @@ Burada:
 System.out.println("\nUVs have been set up successfully on the cube.");
 ```
 
-Programı çalıştırdığınızda, UV'ların artık mesh'in bir parçası olduğunu ve doku haritalamaya hazır olduğunu belirten bir onay mesajı görüntülenecek.
+Programı çalıştırdığınızda bir onay mesajı görüntülenir; bu, UV'lerin artık ağın bir parçası olduğunu ve doku eşlemesi için hazır olduğunu gösterir.
 
 ## Yaygın Sorunlar ve Çözümler
 
+Common.createMeshUsingPolygonBuilder() bir poligon oluşturucu kullanarak basit bir küp ağı oluşturan yardımcı bir yöntemdir.
+
 | Sorun | Neden | Çözüm |
 |-------|-------|-----|
-| UV'lar uzatılmış görünüyor | Yanlış UV sıralaması veya eşleşmeyen indeksler | `uvsId`'nin her çokgen köşe noktası için `uvs` dizisini doğru referans ettiğini doğrulayın. |
-| Doku görünmüyor | UV seti materyale bağlanmamış | Materialin `TextureMapping` özelliğinin `DIFFUSE` (gösterildiği gibi) olarak ayarlandığından ve materyale bir doku atandığından emin olun. |
-| Çalışma zamanı `NullPointerException` | `Common.createMeshUsingPolygonBuilder()` `null` döndürüyor | Yardımcı sınıfın projenize dahil edildiğini ve metodun geçerli bir mesh oluşturduğunu kontrol edin. |
+| UV'ler uzatılmış görünüyor | Yanlış UV sıralaması veya eşleşmeyen indeksler | Her poligon köşesi için `uvsId`'nin `uvs` dizisine doğru referans verdiğini doğrulayın. |
+| Doku görünmüyor | UV seti materyale bağlanmamış | Materyalin `TextureMapping`'inin `DIFFUSE` olarak ayarlandığından (gösterildiği gibi) ve bir dokunun materyale atandığından emin olun. |
+| Çalışma Zamanı `NullPointerException` | `Common.createMeshUsingPolygonBuilder()` `null` döndürüyor | Yardımcı sınıfın projenize dahil edildiğini ve yöntemin geçerli bir ağ oluşturduğunu kontrol edin. |
 
 ## Sıkça Sorulan Sorular
 
-**S: Karmaşık 3D modellere UV koordinatları uygulayabilir miyim?**  
-**C:** Evet, süreç karmaşık modeller için de benzer kalır. Her çokgen için uygun UV verileri ve indeks tamponları oluşturduğunuzdan emin olun.
+**Q:** Karmaşık 3D modellere UV koordinatları uygulayabilir miyim?  
+**A:** Evet, süreç karmaşık modeller için de benzer kalır. Her poligon için uygun UV verileri ve indeks tamponları oluşturduğunuzdan emin olun.
 
-**S: Aspose.3D için ek kaynaklar ve destek nereden bulunabilir?**  
-**C:** Derinlemesine bilgi için [Aspose.3D documentation](https://reference.aspose.com/3d/java/) sayfasını ziyaret edin. Destek için [Aspose.3D forum](https://forum.aspose.com/c/3d/18) sayfasına bakın.
+**Q:** Aspose.3D için ek kaynaklar ve destek nereden bulunur?  
+**A:** Derinlemesine bilgi için [Aspose.3D documentation](https://reference.aspose.com/3d/java/) adresini ziyaret edin. Destek için [Aspose.3D forum](https://forum.aspose.com/c/3d/18) sayfasına bakın.
 
-**S: Aspose.3D için ücretsiz deneme sürümü mevcut mu?**  
-**C:** Evet, Aspose.3D kütüphanesini bir [free trial](https://releases.aspose.com/) ile keşfedebilirsiniz.
+**Q:** Aspose.3D için ücretsiz deneme sürümü mevcut mu?  
+**A:** Evet, Aspose.3D kütüphanesini bir [free trial](https://releases.aspose.com/) ile keşfedebilirsiniz.
 
-**S: Aspose.3D için geçici bir lisans nasıl alabilirim?**  
-**C:** Geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
+**Q:** Aspose.3D için geçici bir lisans nasıl alabilirim?  
+**A:** Geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
-**S: Aspose.3D'yi nereden satın alabilirim?**  
-**C:** Aspose.3D'yi satın almak için [purchase page](https://purchase.aspose.com/buy) sayfasını ziyaret edin.
+**Q:** Aspose.3D'yi nereden satın alabilirim?  
+**A:** Aspose.3D'yi satın almak için [purchase page](https://purchase.aspose.com/buy) adresini ziyaret edin.
 
-**S: Tek bir mesh'e birden fazla doku nasıl eklenir?**  
-**C:** Farklı `TextureMapping` değerlerine (ör. `NORMAL`, `SPECULAR`) sahip ek `VertexElementUV` örnekleri oluşturun ve her birini mesh'e atayın.
+**Q:** Tek bir ağa birden fazla doku nasıl eklenir?  
+**A:** Farklı `TextureMapping` değerlerine (ör. `NORMAL`, `SPECULAR`) sahip ek `VertexElementUV` örnekleri oluşturun ve her birini ağa atayın.
 
 ## Sonuç
 
-Bu öğreticide **how to generate UV coordinates** konusunu ve bunları Aspose.3D for Java kullanarak bir 3‑D nesneye nasıl ekleyeceğimizi ele aldık. UV haritalamayı ustalaştırarak **map textures java** ve **add texture coordinates** işlemlerini herhangi bir mesh'e uygulayabilir, oyunlar, simülasyonlar ve görselleştirmeler için gerçekçi renderlamanın kilidini açabilirsiniz. Farklı şekiller, UV düzenleri ve dokularla deney yaparak UV haritalamanın ne kadar güçlü olduğunu görebilirsiniz.
+Bu öğreticide **how to generate UV coordinates** konusunu ve bunları Aspose.3D for Java kullanarak bir 3‑D nesneye nasıl ekleyeceğimizi ele aldık. uv mapping 3d models'i ustalaşmak, herhangi bir ağa **add texture coordinates** eklemenizi sağlar ve oyunlar, simülasyonlar ve görselleştirmeler için gerçekçi render almanıza olanak tanır. Farklı şekiller, UV düzenleri ve dokularla deney yaparak UV mapping'in ne kadar güçlü olduğunu görebilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2026-04-12  
-**Test Edilen Versiyon:** Aspose.3D latest release (Java)  
-**Yazar:** Aspose  
+**Son Güncelleme:** 2026-06-29  
+**Test Edilen:** Aspose.3D latest release (Java)  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Java ile FBX'e Doku Gömme – Aspose.3D kullanarak 3D Nesnelere Malzeme Uygulama](/3d/java/geometry/apply-materials-to-3d-objects/)
+- [Java ile Aspose.3D kullanarak Nesnelerde 3D Grafik Normalleri Ayarlama](/3d/java/geometry/set-up-normals-on-3d-objects/)
+- [Java ile UV Mapping Oluşturma – Java ile 3D Modellerde Poligon Manipülasyonu](/3d/java/polygon/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
