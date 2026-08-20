@@ -1,5 +1,5 @@
 ---
-title: "java 3d scene graph: Create Child Nodes and Export FBX in Java with Aspose.3D"
+title: "Build Node Hierarchies and Export FBX with Aspose.3D in Java"
 linktitle: "Build Node Hierarchies in 3D Scenes with Java and Aspose.3D"
 second_title: "Aspose.3D Java API"
 description: "Learn how to create child nodes, add mesh to node, and export FBX using the java 3d scene graph capabilities of Aspose.3D Java API."
@@ -65,7 +65,7 @@ schemas:
 - [How to Export Scene to FBX and Retrieve 3D Scene Info in Java](/3d/java/3d-scenes-and-models/get-scene-information/)
 
 
-{{< /blocks/products/pf/tutorial-page-section >}}  
+  
 {{< blocks/products/pf/tutorial-page-section >}}  
 
 # How to Export FBX and Build Node Hierarchies in Java with Aspose.3D  
@@ -89,11 +89,11 @@ A **java 3d scene graph** is a hierarchical data structure that represents objec
 
 A well‑structured hierarchy reduces code duplication, simplifies animation, and mirrors real‑world relationships. When you later **convert scene to FBX** (or any other format), the hierarchy is preserved, so downstream tools like Blender, Maya, or Unity understand the parent‑child relationships exactly as you designed them.  
 
-## Quantified Benefits of Aspose.3D  
+## Quantified benefits of aspose.3D
 
 Aspose.3D supports **30+ import and export formats** – including FBX, OBJ, STL, 3DS, and Collada – and can process **multi‑hundred‑page scenes** without loading the entire file into memory. The library renders meshes at **up to 60 fps** on standard hardware, enabling real‑time preview during development.  
 
-## Common Use Cases for Node Hierarchies  
+## Common use cases for node hierarchies
 
 | Use‑case | Why a hierarchy helps | Typical outcome |
 |----------|----------------------|-----------------|
@@ -116,7 +116,7 @@ The `com.aspose.threed` namespace provides all classes you’ll need for scene c
 import com.aspose.threed.*;
 ```  
 
-## Step 1: Initialize the Scene Object  
+## Step 1: initialize the scene object
 
 The `Scene` class is the top‑level container that holds the entire 3D hierarchy. Creating a `Scene` instance allocates the root node and prepares the internal data structures for meshes, lights, and cameras.  
 
@@ -125,7 +125,7 @@ The `Scene` class is the top‑level container that holds the entire 3D hierarch
 Scene scene = new Scene();
 ```  
 
-## Step 2: Create Child Nodes and Add Mesh to Node  
+## Step 2: create child nodes and add mesh to node
 
 In this step we demonstrate **how to create child nodes** and **add mesh to node** objects. The `Node` class represents a single element in the hierarchy, while the `Mesh` class stores geometry data such as vertices and faces.  
 
@@ -154,7 +154,7 @@ Rotating the parent node automatically rotates all its children, which is a core
 top.getTransform().setRotation(Quaternion.fromEulerAngle(Math.PI, 4, 0));
 ```  
 
-## Step 4: Save the 3D Scene – How to Export FBX  
+## Step 4: save the 3D scene – how to export FBX
 
 Now we **save scene as FBX**, completing the “how to export fbx” workflow. The `Scene.save` method accepts a file path and a `FileFormat` enum, letting you choose between FBX 2013, FBX 2014, or the latest ASCII 7500 format.  
 The `FileFormat` enum lists the supported export formats such as FBX2013, FBX2014, and ASCII 7500.  
@@ -171,7 +171,7 @@ System.out.println("\nNode hierarchy added successfully to document.\nFile saved
 
 Running the code creates a file named **NodeHierarchy.fbx** in the specified directory. Open it in any FBX‑compatible viewer to see two cubes positioned left and right of a central pivot, all rotating together.  
 
-## Common Issues and Solutions  
+## Common issues and solutions
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
@@ -185,7 +185,7 @@ Running the code creates a file named **NodeHierarchy.fbx** in the specified dir
 - **Inspect the scene graph**: Call `scene.getRootNode().getChildren().size()` to confirm that child nodes were added.  
 - **Check FBX version compatibility**: Some older tools only support FBX 2013; you can change the format to `FileFormat.FBX2013` if needed.  
 
-## Frequently Asked Questions  
+## Frequently asked questions
 
 **Q: Is Aspose.3D for Java suitable for beginners?**  
 A: Absolutely! The API is designed with a clean, object‑oriented approach that makes it easy to learn, even if you’re new to 3D programming.  
@@ -212,7 +212,12 @@ Mastering **create child nodes**, **add mesh to node**, and **how to export FBX*
 **Tested With:** Aspose.3D for Java 24.11  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/main-wrap-class >}}  
-{{< blocks/products/pf/main-container >}}  
-{{< blocks/products/products-backtop-button >}}  
+  
+{{< blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
