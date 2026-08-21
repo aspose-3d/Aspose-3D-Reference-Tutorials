@@ -1,5 +1,5 @@
 ---
-title: "How to Use XPath – Modify Sphere Radius Java with Aspose.3D"
+title: "How to Use XPath to Modify Sphere Radius in Java with Aspose.3D"
 linktitle: "Manipulating 3D Objects and Scenes in Java"
 second_title: "Aspose.3D Java API"
 description: "Learn how to modify sphere radius java using Aspose.3D with XPath‑like queries. This step‑by‑step guide shows you how to resize spheres, query objects, and export updated scenes."
@@ -12,14 +12,14 @@ keywords:
 - Java 3D sphere manipulation
 schemas:
 - type: TechArticle
-  headline: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+  headline: How to Use XPath to Modify Sphere Radius in Java with Aspose.3D
   description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
     queries. This step‑by‑step guide shows you how to resize spheres, query objects,
     and export updated scenes.
   dateModified: '2026-07-04'
   author: Aspose
 - type: HowTo
-  name: How to Use XPath – Modify Sphere Radius Java with Aspose.3D
+  name: How to Use XPath to Modify Sphere Radius in Java with Aspose.3D
   description: Learn how to modify sphere radius java using Aspose.3D with XPath‑like
     queries. This step‑by‑step guide shows you how to resize spheres, query objects,
     and export updated scenes.
@@ -108,15 +108,15 @@ Load your scene, run an XPath‑like query to fetch the target sphere nodes, and
 ## How to modify sphere radius java?
 Below you’ll find two focused tutorials that walk you through the exact steps.
 
-### Modify 3D Sphere Radius in Java with Aspose.3D
+### Modify 3D sphere radius in java with aspose.3D
 Embark on an exciting venture into the realm of 3D sphere manipulation using Aspose.3D. This tutorial guides you step by step, teaching you how to effortlessly modify the radius of a 3D sphere in Java. Whether you're a seasoned developer or a novice, this tutorial ensures a smooth learning experience.
 
-Are you ready to dive in? Click [here](./modify-sphere-radius/) to access the full tutorial and download the necessary resources. Enhance your proficiency in Java 3D programming by mastering the art of modifying 3D sphere radius with Aspose.3D.
+Are you ready to dive in? Access the **Modify Sphere Radius tutorial** (./modify-sphere-radius/) to download the necessary resources and follow the complete guide.
 
-### Apply XPath‑Like Queries to 3D Objects in Java
+### Apply xPath‑Like queries to 3D objects in java
 Unravel the power of XPath‑like queries in Java 3D programming with Aspose.3D. This tutorial provides comprehensive insights into applying sophisticated queries to manipulate 3D objects seamlessly. Elevate your 3D development skills as you explore the world of XPath‑like queries and enhance your ability to interact with 3D scenes effortlessly.
 
-Ready to take your Java 3D programming skills to the next level? Dive into the tutorial [here](./xpath-like-object-queries/) and empower yourself with the knowledge to apply XPath‑like queries effectively. Aspose.3D ensures a user‑friendly and efficient learning experience, making complex 3D object manipulation accessible to all.
+Ready to take your Java 3D programming skills to the next level? Explore the **XPath‑Like Object Queries tutorial** (./xpath-like-object-queries/) and empower yourself with the knowledge to apply XPath‑like queries effectively. Aspose.3D ensures a user‑friendly and efficient learning experience, making complex 3D object manipulation accessible to all.
 
 ## Common Use Cases for modify sphere radius java
 - **Interactive simulations:** Adjust sphere size based on sensor data or user input.  
@@ -140,12 +140,33 @@ The `Scene` class represents the root of a 3D scene graph, containing nodes, geo
 5. **Refresh the view** – Invoke `scene.update();` to ensure the viewport reflects the change.  
 6. **Save the updated scene** – Export to your desired format (OBJ, FBX, GLTF) using `scene.save("updated.fbx");`.
 
+### Sample Code
+
+```java
+// Example: modify sphere radius using XPath‑like query
+Scene scene = new Scene();
+scene.load("model.fbx");
+
+// Select spheres named 'MySphere'
+List<Node> spheres = scene.selectNodes("//Sphere[@name='MySphere']");
+
+// Change radius to 5.0
+for (Node node : spheres) {
+    Sphere sphere = (Sphere) node;
+    sphere.setRadius(5.0);
+}
+
+// Refresh and save
+scene.update();
+scene.save("updated.fbx");
+```
+
 ## Troubleshooting Tips
 - **Null reference errors:** Ensure the sphere node is retrieved before calling `setRadius()`.  
 - **Scene not updating:** Call `scene.update()` after modifying geometry to refresh the viewport.  
 - **License issues:** Verify that the Aspose.3D license file is correctly loaded; otherwise, a trial watermark appears.  
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I modify the radius of multiple spheres at once?**  
 A: Yes. Use Aspose.3D’s XPath‑like query to select all sphere nodes, then iterate and set each radius.
@@ -165,10 +186,10 @@ A: Yes. Aspose.3D can save to OBJ, FBX, GLTF, and more after you adjust the geom
 ## Conclusion
 In conclusion, these tutorials act as your gateway to mastering Java 3D programming with Aspose.3D. Whether you're **modifying sphere radius java** or applying XPath‑like queries, each tutorial is designed to enhance your skills and contribute to a seamless 3D development experience. Download the resources, follow the step‑by‑step instructions, and unlock the endless possibilities of Java 3D programming today!
 
-## Manipulating 3D Objects and Scenes in Java Tutorials
-### [Modify 3D Sphere Radius in Java with Aspose.3D](./modify-sphere-radius/)
+## Manipulating 3D objects and scenes in java tutorials
+### [Modify 3D sphere radius in java with aspose.3D](./modify-sphere-radius/)
 Explore Java 3D programming with Aspose.3D, modifying sphere radius effortlessly. Download now for a seamless 3D development experience.
-### [Apply XPath‑Like Queries to 3D Objects in Java](./xpath-like-object-queries/)
+### [Apply xPath‑Like queries to 3D objects in java](./xpath-like-object-queries/)
 Master 3D object queries in Java effortlessly with Aspose.3D. Apply XPath‑like queries, manipulate scenes, and elevate your 3D development.
 
 ---

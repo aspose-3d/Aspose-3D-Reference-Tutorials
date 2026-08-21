@@ -1,6 +1,6 @@
 ---
-title: Upgrade 3D Materials PBR in Java with Aspose.3D
-linktitle: Upgrade 3D Materials to PBR for Enhanced Realism in Java with Aspose.3D
+title: Upgrade 3D Materials to PBR in Java
+linktitle: Upgrade 3D Materials to PBR for Enhanced Realism in Java
 second_title: Aspose.3D Java API
 description: Learn how to upgrade 3d materials pbr in Java using Aspose.3D. This guide shows you step‑by‑step conversion to PBR for realistic visuals.
 date: 2026-07-04
@@ -42,12 +42,12 @@ schemas:
     answer: Yes, you can use Aspose.3D for both personal and commercial projects.
       Visit the [purchase page](https://purchase.aspose.com/buy) for licensing details.
   - question: Is there a free trial available?
-    answer: Yes, you can access a free trial [here](https://releases.aspose.com/).
+    answer: Yes, you can access a free trial [free trial download page](https://releases.aspose.com/).
   - question: Where can I find support for Aspose.3D?
     answer: Explore the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community
       support.
   - question: How do I obtain a temporary license for Aspose.3D?
-    answer: Visit [this link](https://purchase.aspose.com/temporary-license/) for
+    answer: Visit the [temporary license page](https://purchase.aspose.com/temporary-license/) for
       temporary license information.
 ---
 
@@ -98,7 +98,7 @@ import com.aspose.threed.*;
 
 > **Pro tip:** If you use Maven, include the Aspose.3D dependency in your `pom.xml` to let the IDE resolve the package automatically.
 
-## Step 1: Initialize a New 3D Scene
+## Step 1: initialize a new 3D scene
 
 Create an empty scene that will hold the geometry and materials:
 
@@ -108,7 +108,7 @@ import com.aspose.threed.*;
 
 The `Scene` class is Aspose.3D’s container for all objects, cameras, lights, and materials in a single file. Instantiating it gives you a clean canvas for further operations.
 
-## Step 2: Create a Box with PhongMaterial
+## Step 2: create a box with phongMaterial
 
 We start with a classic `PhongMaterial` to demonstrate the conversion later:
 
@@ -121,7 +121,7 @@ Scene s = new Scene();
 
 `PhongMaterial` is the legacy shading model that defines diffuse, specular, and ambient colors. It’s still useful for quick prototypes but lacks the metallic‑roughness workflow required by modern engines.
 
-## Step 3: Save in GLTF 2.0 Format (Automatic PBR Conversion)
+## Step 3: save in GLTF 2.0 format (Automatic PBR conversion)
 
 When saving to GLTF 2.0 we plug a custom `MaterialConverter` that transforms every `PhongMaterial` into a `PbrMaterial`. This is the core of **upgrade 3d materials pbr**:
 
@@ -136,7 +136,7 @@ s.getRootNode().createChildNode("box1", box).setMaterial(mat);
 
 The `MaterialConverter` callback is invoked for each material during the export process. By mapping the diffuse color to the PBR albedo and assigning a default metallic value of 0, you achieve a one‑to‑one visual translation without manually recreating geometry.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -144,7 +144,7 @@ The `MaterialConverter` callback is invoked for each material during the export 
 | **Exported GLTF file appears black** | Missing texture or albedo set to zero. | Verify that `setAlbedo` receives a non‑zero `Vector3` (e.g., `new Vector3(1,1,1)` for white). |
 | **File not found error** | `MyDir` points to a non‑existent folder. | Create the directory beforehand or use `Paths.get(MyDir).toAbsolutePath()` for debugging. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.3D compatible with Java development environments other than Eclipse?**  
 A: Yes, Aspose.3D works with any IDE that supports standard Java projects, including IntelliJ IDEA and VS Code.
@@ -153,13 +153,13 @@ A: Yes, Aspose.3D works with any IDE that supports standard Java projects, inclu
 A: Yes, you can use Aspose.3D for both personal and commercial projects. Visit the [purchase page](https://purchase.aspose.com/buy) for licensing details.
 
 **Q: Is there a free trial available?**  
-A: Yes, you can access a free trial [here](https://releases.aspose.com/).
+A: Yes, you can access a free trial [free trial download page](https://releases.aspose.com/).
 
 **Q: Where can I find support for Aspose.3D?**  
 A: Explore the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community support.
 
 **Q: How do I obtain a temporary license for Aspose.3D?**  
-A: Visit [this link](https://purchase.aspose.com/temporary-license/) for temporary license information.
+A: Visit the [temporary license page](https://purchase.aspose.com/temporary-license/) for temporary license information.
 
 ## Conclusion
 
@@ -173,18 +173,18 @@ By following the steps above, you now know **how to upgrade 3d materials pbr** u
 
 ---
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
-- [Create 3D Cube Java and Apply PBR Materials with Aspose.3D](/3d/java/geometry/)
-- [Create 3D Document Java – Working with 3D Files (Create, Load, Save & Convert)](/3d/java/load-and-save/)
-- [Save Rendered 3D Scenes to Image Files with Aspose.3D for Java](/3d/java/rendering-3d-scenes/render-to-file/)
+- [Create 3D Cube Java and Apply PBR Materials with Aspose.3D]({{< relref "3d/java/geometry/_index.md" >}})
+- [Create 3D Document Java – Working with 3D Files (Create, Load, Save & Convert)]({{< relref "3d/java/load-and-save/_index.md" >}})
+- [Save Rendered 3D Scenes to Image Files with Aspose.3D for Java]({{< relref "3d/java/rendering-3d-scenes/render-to-file/_index.md" >}})
 
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+
+
+
 
 ```java
 // ExStart:SaveInGLTF
@@ -201,3 +201,10 @@ opt.setMaterialConverter(new MaterialConverter() {
 s.save(MyDir + "Non_PBRtoPBRMaterial_Out.gltf", opt);
 // ExEnd:SaveInGLTF
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
