@@ -1,17 +1,15 @@
 ---
-date: 2026-06-13
-description: Naučte se, jak vytvořit 3D scénu s lineárním extruzním twistem pomocí
-  Aspose 3D Java. Exportujte OBJ soubory krok za krokem a ovládněte tvorbu 3D scén
-  v Java.
+date: 2026-08-22
+description: Naučte se, jak vytvořit 3D scene s linear extrusion twist pomocí Aspose
+  3D Java a poté exportovat výsledek jako OBJ soubor.
 keywords:
 - aspose 3d java
 - how to export obj
-- java 3d scene
-- linear extrusion twist
-linktitle: Vytvořte 3D scénu s Twist v lineární extruzi – Aspose.3D for Java
-schemas:
+- export obj java
+- view obj file blender
+- save scene as obj
 - author: Aspose
-  dateModified: '2026-06-13'
+  dateModified: '2026-08-22'
   description: Learn how to create a 3D scene with a linear extrusion twist using
     Aspose 3D Java. Export OBJ files step‑by‑step and master java 3d scene creation.
   headline: 'Aspose 3D Java: Create 3D Scene with Twist in Linear Extrusion'
@@ -32,8 +30,38 @@ schemas:
       the scene.
     question: How do I export OBJ with Aspose 3D Java?
   type: FAQPage
+lastmod: 2026-08-22
+linktitle: Vytvořte 3D Scene s Twist v Linear Extrusion – Aspose.3D for Java
+og_description: Naučte se, jak použít Aspose 3D Java k vytvoření 3D scene s linear
+  extrusion twist a exportovat ji jako OBJ soubor. Postupujte podle step‑by‑step kódu
+  a tipů na export pro Java vývojáře.
+og_image_alt: Tutorial showing Aspose 3D Java twist extrusion and OBJ export
+og_title: 'Aspose 3D Java: vytvořte 3D scene s twist extrusion'
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Learn how to create a 3D scene with a linear extrusion twist using
+    Aspose 3D Java, then export the result as an OBJ file.
+  headline: How to create a 3D scene with twist extrusion using Aspose 3D Java
+  type: TechArticle
+- questions:
+  - answer: Yes – pass a negative angle to `setTwist()` to rotate in the opposite
+      direction.
+    question: Can I change the twist direction?
+  - answer: Aspose 3D Java applies a uniform twist; for variable twist you would need
+      to generate multiple segments manually.
+    question: Is it possible to apply different twist values along the extrusion?
+  - answer: Any standard 3‑D viewer (e.g., Blender, MeshLab) can open OBJ files.
+    question: How do I view the exported OBJ file?
+  - answer: Yes – after extrusion you can assign materials or UV coordinates to the
+      node’s mesh.
+    question: Does the library support texture mapping on twisted extrusions?
+  - answer: Call `scene.save("output.obj", FileFormat.WAVEFRONTOBJ);` after building
+      the scene.
+    question: How do I export OBJ with Aspose 3D Java?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: 'Aspose 3D Java: Vytvořte 3D scénu s Twist v lineární extruzi'
+title: Jak vytvořit 3D scene s twist extrusion pomocí Aspose 3D Java
 url: /cs/java/linear-extrusion/applying-twist/
 weight: 14
 ---
@@ -42,122 +70,129 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose 3D Java: Vytvořte 3D scénu s otáčením při lineární extruzi
+# Aspose 3D Java: vytvořte 3D scénu s twist extruzí
 
-V tomto tutoriálu **java 3d scene** se naučíte, jak **vytvořit 3D scénu**, použít *lineární extruzi s otáčením* a nakonec **exportovat OBJ Java** soubory pomocí **Aspose 3D Java**. Ať už vytváříte herní asset, CAD prototyp nebo vizuální efekt, přidání otáčení během extruze dodá vašim modelům dynamický, spirálovitý vzhled, který je s běžnou extruzí nemožný.
+V tomto **java 3d scene** tutoriálu se naučíte, jak **vytvořit 3D scénu**, aplikovat *lineární extruzi s twistem* a nakonec **exportovat OBJ Java** soubory pomocí **Aspose 3D Java**. Ať už vytváříte herní asset, CAD prototyp nebo vizuální efekt, přidání twistu během extruze dává vašim modelům dynamický, spirálovitý vzhled, který je s běžnou extruzí nemožný.
 
 ## Rychlé odpovědi
-- **Co znamená „twist“ (otočení) při extruzi?** Rotuje profil postupně podél cesty extruze a vytváří spirálový efekt.  
-- **Která knihovna poskytuje funkci otáčení?** Aspose 3D Java.  
+- **Co znamená „twist“ při extruzi?** Rotuje profil postupně podél cesty extruze a vytváří spirálový efekt.  
+- **Která knihovna poskytuje funkci twist?** Aspose 3D Java.  
 - **Mohu výsledek exportovat jako OBJ?** Ano – použijte `FileFormat.WAVEFRONTOBJ`.  
 - **Potřebuji licenci pro tento tutoriál?** Pro produkční použití je vyžadována dočasná nebo plná licence.  
-- **Jaká verze Javy je požadována?** Java 8 nebo vyšší.
+- **Jaká verze Javy je vyžadována?** Java 8 nebo vyšší.
 
-## Co je „twist“ (otočení) v lineární extruzi?
+## Co je „twist“ v lineární extruzi?
 
-Otočení je transformace, která otáčí každou vrstvu extrudovaného tvaru o zadaný úhel. Řízením úhlu můžete vytvořit spirály, šrouby nebo jemné torze, které přidají vizuální zajímavost jinak plochým extruzím. Postupná rotace je aplikována rovnoměrně podél délky extruze, čímž vzniká hladká šroubová geometrie, kterou lze použít pro dekorativní nebo funkční součásti.
+Twist otáčí každou příčnou sekci extrudovaného profilu o konstantní úhel, čímž převádí rovný tah na hladkou šroubovici. Tato transformace vám umožní modelovat šroubováky, spirálové rukojeti nebo dekorativní pásky, aniž byste museli ručně stavět každý segment. Množství otáčení je řízeno parametrem úhlu twistu, který určuje, o kolik stupňů se profil otočí od začátku do konce.
 
 ## Proč použít Aspose 3D Java?
 
-Aspose 3D Java podporuje **více než 50 vstupních a výstupních formátů** — včetně OBJ, FBX, STL a glTF — a dokáže zpracovat modely o stovkách stránek, aniž by načítal celý soubor do paměti. Jeho čistě Java API eliminuje nativní závislosti, což umožňuje bezproblémovou integraci do jakékoli Java aplikace, od desktopových nástrojů po serverové pipeline.
+Aspose 3D Java vám umožňuje pracovat s **více než 50 vstupními a výstupními formáty**—včetně OBJ, FBX, STL a glTF—při zpracování modelů o stovkách stránek, aniž byste načítali celý soubor do paměti. Jeho čistě Java API odstraňuje nativní závislosti, takže jej můžete integrovat do jakéhokoli Java‑založeného pipeline, od desktopových utilit po serverové renderovací farmy.
 
 ## Požadavky
 
-- **Java Development Kit (JDK) 8+** nainstalovaný ve vašem počítači.  
-- **Aspose 3D for Java** – stáhnout z [odkazu ke stažení](https://releases.aspose.com/3d/java/).  
-- Základní znalost syntaxe Javy a 3‑D konceptů.  
-- Přístup k oficiální [dokumentaci Aspose.3D](https://reference.aspose.com/3d/java/) pro referenci.
+- **Java Development Kit (JDK) 8+** nainstalovaný na vašem počítači.  
+- **Aspose 3D for Java** – stáhněte z [download link](https://releases.aspose.com/3d/java/).  
+- Znalost základní syntaxe Javy a 3‑D konceptů.  
+- Přístup k oficiální [Aspose.3D documentation](https://reference.aspose.com/3d/java/) pro referenci.  
+- K bezplatné zkušební verzi můžete přistupovat ze [Aspose 3D Java free trial page](https://releases.aspose.com/).
 
 ## Import balíčků
 
-Namespace `com.aspose.threed` obsahuje všechny potřebné třídy. Importujte je na začátku vašeho Java souboru.
+Namespace `com.aspose.threed` obsahuje všechny třídy, které potřebujete. Importujte je na začátku vašeho Java souboru.
 
-## Krok 1: Nastavte adresář dokumentu
+## Krok 1: nastavení adresáře dokumentu
 
-Definujte, kam bude uložen vygenerovaný OBJ soubor. Nahraďte zástupný text skutečnou cestou ke složce ve vašem systému a ujistěte se, že cesta končí správným oddělovačem (`/` na Unixu, `\` na Windows).
+Definujte, kam bude vygenerovaný OBJ soubor uložen. Nahraďte zástupný znak skutečnou cestou ke složce ve vašem systému a ujistěte se, že cesta končí příslušným oddělovačem (`/` na Unixu, `\` na Windows).
 
-## Krok 2: Inicializujte základní profil
+## Krok 2: inicializace základního profilu
 
-Vytvořte tvar, který bude extrudován. Zde používáme obdélník s malým poloměrem zaoblení, aby měly hrany měkčí vzhled.
+Vytvořte tvar, který bude extrudován. Zde používáme obdélník s malým poloměrem zaoblení, aby byly hrany měkčí.
 
-## Krok 3: Vytvořte scénu pro umístění vašich uzlů
+## Krok 3: vytvoření scény pro hostování vašich uzlů
 
-Třída `Scene` je nejvyšší kontejner Aspose 3D Java, který představuje kompletní 3‑D svět. Všechny sítě (meshe), světla, kamery a další entity žijí uvnitř instance `Scene`.
+Třída `Scene` je nejvyšší kontejner Aspose 3D Java, který představuje kompletní 3‑D svět. Všechny sítě (meshes), světla, kamery a další entity žijí uvnitř instance `Scene`.
 
-## Krok 4: Přidejte levý a pravý uzel
+## Krok 4: přidání levých a pravých uzlů
 
-Vytvoříme dva sourozenecké uzly: jeden bez otáčení (pro srovnání) a jeden s 90‑stupňovým otáčením. Každý uzel obsahuje vlastní mesh, což vám umožní vidět efekt vedle sebe.
+Vytvoříme dva sourozenecké uzly: jeden bez twistu (pro srovnání) a jeden s 90‑stupňovým twistem. Každý uzel obsahuje vlastní mesh, což vám umožní vidět efekt vedle sebe.
 
-## Krok 5: Proveďte lineární extruzi s otáčením
+## Krok 5: provedení lineární extruze s twistem
 
-`LinearExtrusion` je třída, která převádí 2‑D profil na 3‑D mesh tím, že jej provléká podél přímé čáry.  
+`LinearExtrusion` je třída, která převádí 2‑D profil na 3‑D mesh tím, že jej provádí podél přímé linie.  
+`setTwist` určuje celkový úhel rotace aplikovaný během délky extruze.  
+`setSlices` určuje, kolik mezilehlých příčných řezů je vygenerováno, což ovlivňuje hladkost a výkon.
+
 - `setTwist(0)` → žádná rotace (přímá extruze).  
-- `setTwist(90)` → plná 90‑stupňová rotace podél délky.  
-Oba uzly používají **100 vrstev** pro plynulou geometrii, což vyvažuje vizuální kvalitu a spotřebu paměti.
+- `setTwist(90)` → plná 90‑stupňová rotace po celé délce.  
 
-## Krok 6: Uložte 3D scénu jako OBJ
+Oba uzly používají **100 řezů** pro hladkou geometrii, což vyvažuje vizuální kvalitu a využití paměti.
 
-Nakonec zapište scénu do OBJ souboru, abyste ji mohli zobrazit v libovolném standardním 3‑D prohlížeči. OBJ je široce podporovaný formát, což usnadňuje import výsledku do Blenderu, Maya nebo Unity.
+## Krok 6: uložení 3D scény jako OBJ
+
+Nakonec zapíšete scénu do OBJ souboru, abyste ji mohli zobrazit v libovolném standardním 3‑D prohlížeči. OBJ je široce podporovaný formát, což usnadňuje import výsledku do Blenderu, Maya nebo Unity.
 
 ## Časté problémy a tipy
 
 - **Chyby cesty k souboru:** Ujistěte se, že `MyDir` končí oddělovačem cesty (`/` nebo `\\`) vhodným pro váš OS.  
-- **Úhel otáčení příliš vysoký:** Úhly nad 360° mohou způsobit překrývající se geometrii; udržujte je v rozmezí 0‑360° pro předvídatelné výsledky.  
-- **Výkon:** Zvýšení `setSlices` zlepšuje plynulost, ale může ovlivnit paměť; 100 vrstev je dobrá rovnováha pro většinu scénářů.
+- **Úhel twistu příliš vysoký:** Úhly nad 360° mohou způsobit překrývající se geometrii; držte je v rozmezí 0‑360° pro předvídatelné výsledky.  
+- **Výkon:** Zvýšení `setSlices` zlepšuje hladkost, ale může ovlivnit paměť; 100 řezů je dobrá rovnováha pro většinu scénářů.
 
-## Často kladené otázky (Originální)
+## Často kladené otázky (originál)
 
 ### Q1: Mohu použít Aspose 3D pro Java k práci s jinými 3D formáty souborů?
 A1: Ano, Aspose 3D podporuje různé 3D formáty souborů, což vám umožní importovat, exportovat a manipulovat s různými typy souborů.
 
 ### Q2: Kde mohu najít podporu pro Aspose 3D pro Java?
-A2: Navštivte [forum Aspose.3D](https://forum.aspose.com/c/3d/18) pro komunitní podporu a diskuze.
+A2: Navštivte [Aspose.3D forum](https://forum.aspose.com/c/3d/18) pro komunitní podporu a diskuse.
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose 3D pro Java?
-A3: Ano, můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
+A3: Ano, bezplatnou zkušební verzi můžete získat [zde](https://releases.aspose.com/).
 
 ### Q4: Jak mohu získat dočasnou licenci pro Aspose 3D pro Java?
-A4: Získejte dočasnou licenci na [stránce dočasné licence](https://purchase.aspose.com/temporary-license/).
+A4: Získejte dočasnou licenci na [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Kde mohu zakoupit Aspose 3D pro Java?
-A5: Zakupte Aspose 3D pro Java na [stránce nákupu](https://purchase.aspose.com/buy).
+A5: Zakupte Aspose 3D pro Java na [buying page](https://purchase.aspose.com/buy).
 
 ## Další FAQ (AI‑optimalizováno)
 
-**Q: Mohu změnit směr otáčení?**  
-A: Ano – předáte záporný úhel do `setTwist()`, aby se otáčelo opačným směrem.
+**Q: Mohu změnit směr twistu?**  
+A: Ano – předáte záporný úhel do `setTwist()`, aby se otáčel opačným směrem.
 
-**Q: Je možné aplikovat různé hodnoty otáčení podél extruze?**  
-A: Aspose 3D Java aplikuje jednotné otáčení; pro proměnné otáčení byste museli ručně generovat více segmentů.
+**Q: Je možné aplikovat různé hodnoty twistu podél extruze?**  
+A: Aspose 3D Java aplikuje jednotný twist; pro proměnný twist byste museli ručně generovat více segmentů.
 
-**Q: Jak mohu zobrazit exportovaný OBJ soubor?**  
+**Q: Jak si mohu prohlédnout exportovaný OBJ soubor?**  
 A: Jakýkoli standardní 3‑D prohlížeč (např. Blender, MeshLab) může otevřít OBJ soubory.
 
-**Q: Podporuje knihovna mapování textur na otáčených extruzích?**  
+**Q: Podporuje knihovna mapování textur na twistované extruze?**  
 A: Ano – po extruzi můžete přiřadit materiály nebo UV souřadnice k meshi uzlu.
 
-## Rychlý referenční FAQ (Nové)
+## Rychlý referenční FAQ (nový)
 
-**Q: Jak exportuji OBJ pomocí Aspose 3D Java?**  
-A: Po vytvoření scény zavolejte `scene.save("output.obj", FileFormat.WAVEFRONTOBJ);`.
+**Q: Jak exportovat OBJ pomocí Aspose 3D Java?**  
+A: Zavolejte `scene.save("output.obj", FileFormat.WAVEFRONTOBJ);` po vytvoření scény.
 
-**Q: Jaký je doporučený počet vrstev pro plynulé otáčení?**  
-A: 100 vrstev poskytuje dobrý kompromis mezi plynulostí a výkonem pro většinu modelů.
+**Q: Jaký je doporučený počet řezů pro hladké twisty?**  
+A: 100 řezů poskytuje dobrý kompromis mezi hladkostí a výkonem pro většinu modelů.
 
-**Q: Mohu tento kód použít v Maven projektu?**  
+**Q: Mohu použít tento kód v Maven projektu?**  
 A: Ano – přidejte závislost Aspose 3D Java do vašeho `pom.xml` a stejný kód bude fungovat beze změny.
 
 **Q: Potřebuji licenci pro vývojové sestavení?**  
-A: Dočasná licence stačí pro hodnocení; pro komerční nasazení je vyžadována plná licence.
+A: Dočasná licence stačí pro hodnocení; plná licence je vyžadována pro komerční nasazení.
 
 **Q: Je podporována Java 11?**  
-A: Naprosto – Aspose 3D Java je kompatibilní s Java 8 až Java 17.
+A: Rozhodně – Aspose 3D Java je kompatibilní s Java 8 až Java 17.
 
 ## Závěr
 
-Nyní jste **vytvořili 3D scénu**, aplikovali **otočení při lineární extruzi** a **exportovali výsledek jako OBJ soubor** pomocí **Aspose 3D Java**. Experimentujte s různými profily, úhly otáčení a počtem vrstev, abyste vytvořili jedinečné geometrie pro hry, simulace nebo 3‑D tisk. Až budete připraveni jít dál než OBJ, prozkoumejte podporu knihovny pro FBX, STL a glTF, abyste integrovali své modely do jakéhokoli pipeline.
+Nyní jste **vytvořili 3D scénu**, aplikovali **lineární extruzi s twistem** a **exportovali výsledek jako OBJ soubor** pomocí **Aspose 3D Java**. Experimentujte s různými profily, úhly twistu a počtem řezů, abyste vytvořili jedinečné geometrie pro hry, simulace nebo 3‑D tisk. Až budete připraveni jít dál než OBJ, prozkoumejte podporu knihovny pro FBX, STL a glTF, abyste integrovali své modely do jakéhokoli pipeline.
 
-**Poslední aktualizace:** 2026-06-13  
+---
+
+**Poslední aktualizace:** 2026-08-22  
 **Testováno s:** Aspose 3D for Java 24.11  
 **Autor:** Aspose
 
@@ -210,8 +245,8 @@ scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 
 ## Související tutoriály
 
-- [Jak vytvořit 3D scénu s offsetem otáčení při lineární extruzi pomocí Aspose.3D pro Java](/3d/java/linear-extrusion/using-twist-offset/)
-- [Jak nastavit směr při lineární extruzi s Aspose.3D pro Java](/3d/java/linear-extrusion/setting-direction/)
+- [Jak vytvořit 3D scénu s Twist Offset v lineární extruzi pomocí Aspose.3D pro Java](/3d/java/linear-extrusion/using-twist-offset/)
+- [Jak nastavit směr v lineární extruzi s Aspose.3D pro Java](/3d/java/linear-extrusion/setting-direction/)
 - [Vytvořit 3D extruzi v Javě s Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
 
 
