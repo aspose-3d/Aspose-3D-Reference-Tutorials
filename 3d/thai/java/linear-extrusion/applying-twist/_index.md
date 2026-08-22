@@ -1,16 +1,15 @@
 ---
-date: 2026-06-13
-description: เรียนรู้วิธีสร้างฉาก 3D ด้วยการบิด Linear Extrusion โดยใช้ Aspose 3D
-  Java. ส่งออกไฟล์ OBJ ทีละขั้นตอนและเชี่ยวชาญการสร้าง java 3d scene
+date: 2026-08-22
+description: เรียนรู้วิธีสร้าง 3D scene ด้วย linear extrusion twist โดยใช้ Aspose
+  3D Java แล้วส่งออกผลลัพธ์เป็นไฟล์ OBJ
 keywords:
 - aspose 3d java
 - how to export obj
-- java 3d scene
-- linear extrusion twist
-linktitle: สร้างฉาก 3D ด้วยการบิดใน Linear Extrusion – Aspose.3D for Java
-schemas:
+- export obj java
+- view obj file blender
+- save scene as obj
 - author: Aspose
-  dateModified: '2026-06-13'
+  dateModified: '2026-08-22'
   description: Learn how to create a 3D scene with a linear extrusion twist using
     Aspose 3D Java. Export OBJ files step‑by‑step and master java 3d scene creation.
   headline: 'Aspose 3D Java: Create 3D Scene with Twist in Linear Extrusion'
@@ -31,8 +30,38 @@ schemas:
       the scene.
     question: How do I export OBJ with Aspose 3D Java?
   type: FAQPage
+lastmod: 2026-08-22
+linktitle: สร้าง 3D Scene ด้วย Twist ใน Linear Extrusion – Aspose.3D for Java
+og_description: เรียนรู้วิธีใช้ Aspose 3D Java เพื่อสร้าง 3D scene ด้วย linear extrusion
+  twist และส่งออกเป็นไฟล์ OBJ. ทำตามขั้นตอนโค้ดแบบ step‑by‑step และเคล็ดลับการส่งออกสำหรับ
+  Java developers.
+og_image_alt: Tutorial showing Aspose 3D Java twist extrusion and OBJ export
+og_title: 'Aspose 3D Java: สร้าง 3D scene ด้วย twist extrusion'
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Learn how to create a 3D scene with a linear extrusion twist using
+    Aspose 3D Java, then export the result as an OBJ file.
+  headline: How to create a 3D scene with twist extrusion using Aspose 3D Java
+  type: TechArticle
+- questions:
+  - answer: Yes – pass a negative angle to `setTwist()` to rotate in the opposite
+      direction.
+    question: Can I change the twist direction?
+  - answer: Aspose 3D Java applies a uniform twist; for variable twist you would need
+      to generate multiple segments manually.
+    question: Is it possible to apply different twist values along the extrusion?
+  - answer: Any standard 3‑D viewer (e.g., Blender, MeshLab) can open OBJ files.
+    question: How do I view the exported OBJ file?
+  - answer: Yes – after extrusion you can assign materials or UV coordinates to the
+      node’s mesh.
+    question: Does the library support texture mapping on twisted extrusions?
+  - answer: Call `scene.save("output.obj", FileFormat.WAVEFRONTOBJ);` after building
+      the scene.
+    question: How do I export OBJ with Aspose 3D Java?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: 'Aspose 3D Java: สร้างฉาก 3D ด้วยการบิดใน Linear Extrusion'
+title: วิธีสร้าง 3D scene ด้วย twist extrusion โดยใช้ Aspose 3D Java
 url: /th/java/linear-extrusion/applying-twist/
 weight: 14
 ---
@@ -41,112 +70,117 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose 3D Java: สร้างฉาก 3D ด้วยการบิดใน Linear Extrusion
+# Aspose 3D Java: สร้างฉาก 3D ด้วยการดึงเส้นบิด
 
-ในบทแนะนำ **java 3d scene** นี้ คุณจะได้เรียนรู้วิธี **สร้างฉาก 3D**, ใช้ *linear extrusion twist* และสุดท้าย **ส่งออกไฟล์ OBJ Java** ด้วย **Aspose 3D Java** ไม่ว่าคุณจะสร้างสินทรัพย์เกม, ตัวอย่าง CAD, หรือเอฟเฟกต์ภาพ, การเพิ่มการบิดระหว่างการดึงออกทำให้โมเดลของคุณมีลักษณะเป็นสไปรัลแบบไดนามิกซึ่งทำได้ยากกับการดึงออกแบบธรรมดา
+ในบทแนะนำ **java 3d scene** นี้คุณจะได้เรียนรู้วิธี **สร้างฉาก 3D**, ใช้ *linear extrusion twist* และสุดท้าย **export OBJ Java** ด้วย **Aspose 3D Java** ไม่ว่าคุณจะสร้างสินทรัพย์เกม, ตัวอย่าง CAD, หรือเอฟเฟกต์ภาพ, การเพิ่มบิดระหว่างการดึงเส้นทำให้โมเดลของคุณมีลักษณะเป็นสไปรัลแบบไดนามิกที่ไม่สามารถทำได้ด้วยการดึงเส้นธรรมดา
 
-## คำตอบสั้น
-- **การ “twist” หมายถึงอะไรในการดึงออก?** มันทำการหมุนโปรไฟล์อย่างค่อยเป็นค่อยไปตามเส้นทางการดึงออก, สร้างเอฟเฟกต์สไปรัล.  
+## คำตอบเร็ว
+- **“twist” หมายถึงอะไรในการดึงเส้น?** มันทำการหมุนโปรไฟล์อย่างค่อยเป็นค่อยไปตามเส้นทางการดึงเส้น, สร้างเอฟเฟกต์สไปรัล  
 - **ไลบรารีใดที่ให้ฟีเจอร์ twist?** Aspose 3D Java.  
-- **ฉันสามารถส่งออกผลลัพธ์เป็น OBJ ได้หรือไม่?** ได้ – ใช้ `FileFormat.WAVEFRONTOBJ`.  
-- **ฉันต้องการไลเซนส์สำหรับบทแนะนำนี้หรือไม่?** ต้องมีไลเซนส์ชั่วคราวหรือเต็มสำหรับการใช้งานในผลิตภัณฑ์.  
+- **ฉันสามารถ export ผลลัพธ์เป็น OBJ ได้หรือไม่?** ใช่ – ใช้ `FileFormat.WAVEFRONTOBJ`.  
+- **ฉันต้องการไลเซนส์สำหรับบทแนะนำนี้หรือไม่?** จำเป็นต้องมีไลเซนส์ชั่วคราวหรือเต็มสำหรับการใช้งานในผลิตภัณฑ์  
 - **ต้องการเวอร์ชัน Java ใด?** Java 8 หรือสูงกว่า.
 
-## “twist” คืออะไรในการดึงออกเชิงเส้น?
-การบิดเป็นการแปลงที่หมุนแต่ละชั้นของรูปทรงที่ดึงออกโดยมุมที่กำหนด โดยการควบคุมมุมคุณสามารถสร้างสไปรัล, คอร์กสกรีว, หรือการบิดเล็กน้อยที่เพิ่มความน่าสนใจให้กับการดึงออกที่เป็นแผ่นเรียบ การหมุนอย่างค่อยเป็นค่อยไปจะถูกนำไปใช้อย่างสม่ำเสมอตลอดความยาวของการดึงออก, สร้างรูปทรงเฮลิกซ์เรียบที่สามารถใช้เป็นส่วนตกแต่งหรือส่วนทำงานได้
+## “twist” คืออะไรในการดึงเส้นเชิงเส้น?
+การบิดจะหมุนแต่ละหน้าตัดของโปรไฟล์ที่ดึงเส้นด้วยมุมคงที่, ทำให้การสวีปตรงกลายเป็นเฮลิกซ์เรียบ การแปลงนี้ทำให้คุณสามารถสร้างโมเดลแบบคอร์กสครู, ด้ามจับแบบสไปรัล, หรือริบบิ้นตกแต่งโดยไม่ต้องสร้างแต่ละส่วนด้วยตนเอง ปริมาณการหมุนถูกควบคุมโดยพารามิเตอร์มุมบิด, ซึ่งกำหนดจำนวนองศาที่โปรไฟล์หมุนจากจุดเริ่มต้นถึงจุดสิ้นสุด
 
 ## ทำไมต้องใช้ Aspose 3D Java?
-Aspose 3D Java รองรับ **50+ รูปแบบไฟล์เข้าและออก** — รวมถึง OBJ, FBX, STL, และ glTF — และสามารถประมวลผลโมเดลหลายร้อยหน้าโดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ API แบบ pure‑Java ของมันขจัดการพึ่งพาเนทีฟ ทำให้สามารถผสานรวมได้อย่างราบรื่นกับแอปพลิเคชัน Java ใด ๆ ไม่ว่าจะเป็นเครื่องมือเดสก์ท็อปหรือพายป์ไลน์ฝั่งเซิร์ฟเวอร์
+Aspose 3D Java ให้คุณทำงานกับ **รูปแบบไฟล์เข้าและออกกว่า 50 รูปแบบ**—รวมถึง OBJ, FBX, STL, และ glTF—พร้อมประมวลผลโมเดลหลายร้อยหน้าโดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ API แบบ pure‑Java ของมันไม่มีการพึ่งพา native จึงสามารถรวมเข้ากับ pipeline ที่ใช้ Java ใดก็ได้ ไม่ว่าจะเป็นยูทิลิตี้บนเดสก์ท็อปหรือฟาร์มเรนเดอร์บนเซิร์ฟเวอร์
 
 ## ข้อกำหนดเบื้องต้น
-- **Java Development Kit (JDK) 8+** ติดตั้งบนเครื่องของคุณ.  
-- **Aspose 3D for Java** – download from the [download link](https://releases.aspose.com/3d/java/).  
+- **Java Development Kit (JDK) 8+** ที่ติดตั้งบนเครื่องของคุณ.  
+- **Aspose 3D for Java** – ดาวน์โหลดจาก [download link](https://releases.aspose.com/3d/java/).  
 - ความคุ้นเคยกับไวยากรณ์พื้นฐานของ Java และแนวคิด 3‑D.  
-- เข้าถึงเอกสารอย่างเป็นทางการของ [Aspose.3D documentation](https://reference.aspose.com/3d/java/) เพื่ออ้างอิง.
+- เข้าถึง [Aspose.3D documentation](https://reference.aspose.com/3d/java/) อย่างเป็นทางการเพื่ออ้างอิง.  
+- คุณสามารถเข้าถึงเวอร์ชันทดลองฟรีจาก [Aspose 3D Java free trial page](https://releases.aspose.com/).
 
 ## นำเข้าแพ็กเกจ
-เนมสเปซ `com.aspose.threed` มีคลาสทั้งหมดที่คุณต้องการ นำเข้าที่ส่วนบนของไฟล์ Java ของคุณ.
+เนมสเปซ `com.aspose.threed` มีคลาสทั้งหมดที่คุณต้องการ ให้นำเข้าไว้ที่ส่วนหัวของไฟล์ Java ของคุณ
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสาร
-กำหนดตำแหน่งที่ไฟล์ OBJ ที่สร้างขึ้นจะถูกบันทึก แทนที่ตัวแปรตำแหน่งที่เก็บไฟล์ด้วยเส้นทางโฟลเดอร์จริงบนระบบของคุณ, ตรวจสอบให้แน่ใจว่าเส้นทางจบด้วยตัวคั่นที่เหมาะสม (`/` บน Unix, `\` บน Windows).
+กำหนดตำแหน่งที่ไฟล์ OBJ ที่สร้างจะถูกบันทึก แทนที่ตัวแปร placeholder ด้วยพาธโฟลเดอร์จริงบนระบบของคุณ และตรวจสอบให้พาธลงท้ายด้วยตัวคั่นที่เหมาะสม (`/` บน Unix, `\` บน Windows)
 
 ## ขั้นตอนที่ 2: เริ่มต้นโปรไฟล์ฐาน
-สร้างรูปทรงที่จะถูกดึงออก ที่นี่เราใช้สี่เหลี่ยมที่มีรัศมีการโค้งเล็กน้อยเพื่อให้ขอบดูนุ่มนวลขึ้น.
+สร้างรูปทรงที่จะถูกดึงเส้น ที่นี่เราใช้สี่เหลี่ยมผืนผ้าพร้อมรัศมีการโค้งเล็กน้อยเพื่อให้ขอบดูนุ่มนวลขึ้น
 
-## ขั้นตอนที่ 3: สร้าง Scene เพื่อเป็นโฮสต์ให้ Nodes ของคุณ
-คลาส `Scene` เป็นคอนเทนเนอร์ระดับบนของ Aspose 3D Java ที่แสดงถึงโลก 3‑D สมบูรณ์ ทุกเมช, แสง, กล้อง, และเอนทิตีอื่น ๆ อยู่ภายในอินสแตนซ์ `Scene`.
+## ขั้นตอนที่ 3: สร้างฉากเพื่อโฮสต์โหนดของคุณ
+คลาส `Scene` เป็นคอนเทนเนอร์ระดับบนของ Aspose 3D Java ที่แทนโลก 3‑D สมบูรณ์ทั้งหมด เมช, แสง, กล้อง และเอนทิตี้อื่น ๆ อยู่ภายในอินสแตนซ์ `Scene`
 
-## ขั้นตอนที่ 4: เพิ่ม Node ด้านซ้ายและด้านขวา
-เราจะสร้าง Node สองตัวที่เป็นพี่น้อง: ตัวหนึ่งไม่มีการบิด (เพื่อเปรียบเทียบ) และอีกตัวหนึ่งมีการบิด 90‑องศา แต่ละ Node จะถือเมชของตนเอง ทำให้คุณเห็นผลลัพธ์ข้างกันได้
+## ขั้นตอนที่ 4: เพิ่มโหนดซ้ายและขวา
+เราจะสร้างโหนดพี่น้องสองตัว: หนึ่งตัวไม่มีบิด (เพื่อเปรียบเทียบ) และอีกหนึ่งตัวมีบิด 90‑องศา แต่ละโหนดมีเมชของตนเอง ทำให้คุณเห็นผลลัพธ์เคียงข้างกันได้
 
-## ขั้นตอนที่ 5: ทำ Linear Extrusion พร้อม Twist
-`LinearExtrusion` เป็นคลาสที่เปลี่ยนโปรไฟล์ 2‑D ให้เป็นเมช 3‑D โดยการสวีปตามเส้นตรง  
-- `setTwist(0)` → ไม่มีการหมุน (ดึงออกตรง).  
-- `setTwist(90)` → หมุนเต็ม 90‑องศาตลอดความยาว.  
-Node ทั้งสองใช้ **100 slices** เพื่อให้เรขาคณิตเรียบเนียน, สมดุลระหว่างคุณภาพภาพและการใช้หน่วยความจำ.
+## ขั้นตอนที่ 5: ทำการดึงเส้นเชิงเส้นพร้อมบิด
+`LinearExtrusion` คือคลาสที่แปลงโปรไฟล์ 2‑D ให้เป็นเมช 3‑D โดยสวีปตามเส้นตรง  
+`setTwist` ระบุมุมการหมุนรวมที่ใช้ตลอดความยาวการดึงเส้น  
+`setSlices` กำหนดจำนวนหน้าตัดกลางที่สร้างขึ้น, มีผลต่อความเรียบและประสิทธิภาพ
 
-## ขั้นตอนที่ 6: บันทึก Scene 3D เป็น OBJ
-สุดท้ายให้เขียน Scene ลงไฟล์ OBJ เพื่อให้คุณสามารถดูได้ในโปรแกรมดู 3‑D มาตรฐานใดก็ได้ OBJ เป็นฟอร์แมตที่ได้รับการสนับสนุนอย่างกว้างขวาง ทำให้การนำผลลัพธ์เข้า Blender, Maya หรือ Unity ทำได้ง่าย
+- `setTwist(0)` → ไม่มีการหมุน (ดึงเส้นตรง)  
+- `setTwist(90)` → หมุนเต็ม 90‑องศาตลอดความยาว  
 
-## ปัญหาทั่วไปและเคล็ดลับ
-- **File path errors:** ตรวจสอบให้แน่ใจว่า `MyDir` จบด้วยตัวคั่น (`/` หรือ `\\`) ที่เหมาะสมกับ OS ของคุณ.  
-- **Twist angle too high:** มุมเหนือ 360° อาจทำให้รูปทรงทับซ้อน; ควรอยู่ในช่วง 0‑360° เพื่อผลลัพธ์ที่คาดเดาได้.  
-- **Performance:** การเพิ่มค่า `setSlices` จะทำให้เรียบเนียนขึ้นแต่อาจเพิ่มการใช้หน่วยความจำ; 100 slices เป็นสมดุลที่ดีสำหรับสถานการณ์ส่วนใหญ่.
+ทั้งสองโหนดใช้ **100 slices** เพื่อให้เรขาคณิตเรียบเนียน, สมดุลระหว่างคุณภาพภาพและการใช้หน่วยความจำ
 
-## คำถามที่พบบ่อย (Original)
+## ขั้นตอนที่ 6: บันทึกฉาก 3D เป็น OBJ
+สุดท้ายให้เขียนฉากลงไฟล์ OBJ เพื่อให้คุณสามารถดูได้ในโปรแกรมดู 3‑D มาตรฐานใดก็ได้ OBJ เป็นฟอร์แมตที่ได้รับการสนับสนุนอย่างกว้างขวาง ทำให้การนำเข้าผลลัพธ์ไปยัง Blender, Maya หรือ Unity ทำได้ง่าย
+
+## ปัญหาทั่วไป & เคล็ดลับ
+- **File path errors:** ตรวจสอบให้ `MyDir` ลงท้ายด้วยตัวคั่นพาธ (`/` หรือ `\\`) ที่เหมาะกับ OS ของคุณ  
+- **Twist angle too high:** มุมเหนือ 360° อาจทำให้เรขาคณิตทับซ้อน; ควรอยู่ในช่วง 0‑360° เพื่อผลลัพธ์ที่คาดเดาได้  
+- **Performance:** การเพิ่มค่า `setSlices` ทำให้เรียบขึ้นแต่อาจใช้หน่วยความจำมากขึ้น; 100 slices เป็นสมดุลที่ดีสำหรับหลายกรณี
+
+## คำถามที่พบบ่อย (ต้นฉบับ)
 
 ### Q1: ฉันสามารถใช้ Aspose 3D for Java ทำงานกับรูปแบบไฟล์ 3D อื่นได้หรือไม่?
-A1: ใช่, Aspose 3D รองรับรูปแบบไฟล์ 3D หลากหลาย, ให้คุณนำเข้า, ส่งออก, และจัดการไฟล์ประเภทต่าง ๆ ได้.
+A1: ใช่, Aspose 3D รองรับรูปแบบไฟล์ 3D หลากหลาย, ช่วยให้คุณ import, export, และจัดการไฟล์ประเภทต่าง ๆ ได้
 
-### Q2: ฉันจะหาการสนับสนุนสำหรับ Aspose 3D for Java ได้จากที่ไหน?
-A2: เยี่ยมชม [Aspose.3D forum](https://forum.aspose.com/c/3d/18) เพื่อรับการสนับสนุนจากชุมชนและการสนทนา.
+### Q2: ฉันจะหาแหล่งสนับสนุนสำหรับ Aspose 3D for Java ได้จากที่ไหน?
+A2: เยี่ยมชม [Aspose.3D forum](https://forum.aspose.com/c/3d/18) เพื่อรับการสนับสนุนจากชุมชนและการสนทนาต่าง ๆ
 
-### Q3: มีรุ่นทดลองฟรีสำหรับ Aspose 3D for Java หรือไม่?
-A3: มี, คุณสามารถเข้าถึงรุ่นทดลองฟรีได้จาก [here](https://releases.aspose.com/).
+### Q3: มีเวอร์ชันทดลองฟรีสำหรับ Aspose 3D for Java หรือไม่?
+A3: มี, คุณสามารถเข้าถึงเวอร์ชันทดลองฟรีได้จาก [here](https://releases.aspose.com/)
 
-### Q4: ฉันจะขอรับไลเซนส์ชั่วคราวสำหรับ Aspose 3D for Java ได้อย่างไร?
-A4: รับไลเซนส์ชั่วคราวได้จาก [temporary license page](https://purchase.aspose.com/temporary-license/).
+### Q4: ฉันจะขอไลเซนส์ชั่วคราวสำหรับ Aspose 3D for Java ได้อย่างไร?
+A4: รับไลเซนส์ชั่วคราวได้จาก [temporary license page](https://purchase.aspose.com/temporary-license/)
 
-### Q5: ฉันจะซื้อ Aspose 3D for Java ได้จากที่ไหน?
-A5: ซื้อ Aspose 3D for Java ได้จาก [buying page](https://purchase.aspose.com/buy).
+### Q5: ฉันสามารถซื้อ Aspose 3D for Java ได้จากที่ไหน?
+A5: ซื้อ Aspose 3D for Java ได้จาก [buying page](https://purchase.aspose.com/buy)
 
-## คำถามเพิ่มเติม (AI‑Optimized)
+## คำถามเพิ่มเติม (AI‑optimized)
 
-**Q: ฉันสามารถเปลี่ยนทิศทางของการบิดได้หรือไม่?**  
-A: ได้ – ส่งมุมเป็นค่าลบให้ `setTwist()` เพื่อหมุนในทิศทางตรงกันข้าม.
+**Q: ฉันสามารถเปลี่ยนทิศทางของบิดได้หรือไม่?**  
+A: ได้ – ส่งมุมเป็นค่าลบให้ `setTwist()` เพื่อหมุนในทิศทางตรงกันข้าม
 
-**Q: สามารถใช้ค่าการบิดที่แตกต่างกันตามความยาวการดึงออกได้หรือไม่?**  
-A: Aspose 3D Java ใช้การบิดแบบสม่ำเสมอ; หากต้องการบิดที่เปลี่ยนแปลงคุณต้องสร้างเซกเมนต์หลายส่วนด้วยตนเอง.
+**Q: สามารถกำหนดค่าบิดที่แตกต่างกันตามความยาวการดึงเส้นได้หรือไม่?**  
+A: Aspose 3D Java ใช้บิดแบบสม่ำเสมอ; หากต้องการบิดที่เปลี่ยนแปลงคุณต้องสร้างเซกเมนต์หลายส่วนด้วยตนเอง
 
-**Q: ฉันจะดูไฟล์ OBJ ที่ส่งออกได้อย่างไร?**  
-A: โปรแกรมดู 3‑D มาตรฐานใด ๆ (เช่น Blender, MeshLab) สามารถเปิดไฟล์ OBJ ได้.
+**Q: ฉันจะดูไฟล์ OBJ ที่ export แล้วอย่างไร?**  
+A: โปรแกรมดู 3‑D มาตรฐานใด ๆ (เช่น Blender, MeshLab) สามารถเปิดไฟล์ OBJ ได้
 
-**Q: ไลบรารีรองรับการแมปเทกเจอร์บนการดึงออกที่บิดหรือไม่?**  
-A: ใช่ – หลังจากดึงออกคุณสามารถกำหนดวัสดุหรือพิกัด UV ให้กับเมชของ Node ได้.
+**Q: ไลบรารีรองรับการแมปเทกเจอร์บนการดึงเส้นบิดหรือไม่?**  
+A: รองรับ – หลังจากดึงเส้นคุณสามารถกำหนดวัสดุหรือพิกัด UV ให้กับเมชของโหนดได้
 
-## คำถามอ้างอิงอย่างรวดเร็ว (New)
+## คำถามอ้างอิงอย่างรวดเร็ว (ใหม่)
 
-**Q: ฉันจะส่งออก OBJ ด้วย Aspose 3D Java อย่างไร?**  
-A: เรียก `scene.save("output.obj", FileFormat.WAVEFRONTOBJ);` หลังจากสร้าง Scene เสร็จ.
+**Q: ฉันจะ export OBJ ด้วย Aspose 3D Java อย่างไร?**  
+A: เรียก `scene.save("output.obj", FileFormat.WAVEFRONTOBJ);` หลังจากสร้างฉากเสร็จ
 
-**Q: จำนวน slice ที่แนะนำสำหรับการบิดเรียบคือเท่าไหร่?**  
-A: 100 slices ให้สมดุลที่ดีระหว่างความเรียบและประสิทธิภาพสำหรับโมเดลส่วนใหญ่.
+**Q: จำนวน slice ที่แนะนำสำหรับบิดเรียบคือเท่าไหร่?**  
+A: 100 slices ให้สมดุลที่ดีระหว่างความเรียบและประสิทธิภาพสำหรับโมเดลส่วนใหญ่
 
-**Q: ฉันสามารถใช้โค้ดนี้ในโครงการ Maven ได้หรือไม่?**  
-A: ใช่ – เพิ่ม dependency ของ Aspose 3D Java ลงใน `pom.xml` แล้วโค้ดเดียวกันทำงานได้โดยไม่ต้องเปลี่ยนแปลง.
+**Q: ฉันสามารถใช้โค้ดนี้ในโปรเจกต์ Maven ได้หรือไม่?**  
+A: ใช่ – เพิ่ม dependency ของ Aspose 3D Java ลงใน `pom.xml` แล้วโค้ดเดียวกันทำงานได้โดยไม่ต้องแก้ไข
 
-**Q: ฉันต้องการไลเซนส์สำหรับการสร้างเวอร์ชันพัฒนาไหม?**  
-A: ไลเซนส์ชั่วคราวเพียงพอสำหรับการประเมิน; ไลเซนส์เต็มจำเป็นสำหรับการใช้งานเชิงพาณิชย์.
+**Q: ฉันต้องการไลเซนส์สำหรับการสร้าง build พัฒนาไหม?**  
+A: ไลเซนส์ชั่วคราวเพียงพอสำหรับการประเมิน; ต้องมีไลเซนส์เต็มสำหรับการใช้งานเชิงพาณิชย์
 
 **Q: รองรับ Java 11 หรือไม่?**  
-A: แน่นอน – Aspose 3D Java เข้ากันได้กับ Java 8 ถึง Java 17.
+A: แน่นอน – Aspose 3D Java ทำงานร่วมกับ Java 8 ถึง Java 17
 
 ## สรุป
-คุณได้ **สร้างฉาก 3D**, ใช้ **linear extrusion twist**, และ **ส่งออกผลลัพธ์เป็นไฟล์ OBJ** ด้วย **Aspose 3D Java** แล้ว ทดลองปรับเปลี่ยนโปรไฟล์, มุมบิด, และจำนวน slice เพื่อสร้างเรขาคณิตที่เป็นเอกลักษณ์สำหรับเกม, การจำลอง, หรือการพิมพ์ 3‑D เมื่อพร้อมที่จะก้าวต่อจาก OBJ, สำรวจการสนับสนุนของไลบรารีสำหรับ FBX, STL, และ glTF เพื่อผสานโมเดลของคุณเข้าสู่พายป์ไลน์ใดก็ได้
+คุณได้ **สร้างฉาก 3D**, ใช้ **linear extrusion twist**, และ **export ผลลัพธ์เป็นไฟล์ OBJ** ด้วย **Aspose 3D Java** แล้ว ทดลองปรับเปลี่ยนโปรไฟล์, มุมบิด, และจำนวน slice เพื่อสร้างรูปทรงที่เป็นเอกลักษณ์สำหรับเกม, การจำลอง, หรือการพิมพ์ 3‑D เมื่อพร้อมที่จะก้าวไกลกว่าการใช้ OBJ, สำรวจการสนับสนุน FBX, STL, และ glTF ของไลบรารีเพื่อผสานโมเดลของคุณเข้าสู่ pipeline ใดก็ได้
 
 ---
 
-**อัปเดตล่าสุด:** 2026-06-13  
+**อัปเดตล่าสุด:** 2026-08-22  
 **ทดสอบด้วย:** Aspose 3D for Java 24.11  
 **ผู้เขียน:** Aspose
 
@@ -201,7 +235,8 @@ scene.save(MyDir + "TwistInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 
 - [วิธีสร้างฉาก 3d ด้วย Twist Offset ใน Linear Extrusion โดยใช้ Aspose.3D for Java](/3d/java/linear-extrusion/using-twist-offset/)
 - [วิธีตั้งทิศทางใน Linear Extrusion ด้วย Aspose.3D for Java](/3d/java/linear-extrusion/setting-direction/)
-- [สร้าง 3D Extrusion ด้วย Java โดยใช้ Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
+- [สร้าง 3D Extrusion Java ด้วย Aspose.3D](/3d/java/linear-extrusion/performing-linear-extrusion/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
