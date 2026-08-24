@@ -124,7 +124,8 @@ If you have an RVM file that stores extra attribute data, you can import both th
 
 ```java
 String dataDir = "Your Document Directory";
-Scene scene = new Scene(dataDir + "att-test.rvm");
+Scene scene = new Scene();
+scene.open(dataDir + "att-test.rvm");
 FileFormat.RVM_BINARY.loadAttributes(scene, dataDir + "att-test.att");
 ```
 

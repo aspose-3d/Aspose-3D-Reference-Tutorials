@@ -128,39 +128,32 @@ Ready to take your Java 3D programming skills to the next level? Explore the **X
 - Maven or Gradle for dependency management.  
 - Aspose.3D for Java library (download from the Aspose website).  
 - Basic familiarity with 3D scene graphs.
-
-## Step‑by‑Step Guide (No code blocks required)
-
-The `Scene` class represents the root of a 3D scene graph, containing nodes, geometry, and materials.
-
-1. **Set up your project** – Add the Aspose.3D Maven/Gradle dependency and import the necessary classes.  
-2. **Load or create a scene** – Use `Scene scene = new Scene();` or load an existing file with `scene.open("model.fbx");`.  
-3. **Locate the sphere node** – Apply an XPath‑like query such as `scene.selectNodes("//Sphere[@name='MySphere']")`.  
-4. **Modify the radius** – Iterate over the returned nodes and call `sphere.setRadius(newRadius);`.  
-5. **Refresh the view** – Invoke `scene.update();` to ensure the viewport reflects the change.  
-6. **Save the updated scene** – Export to your desired format (OBJ, FBX, GLTF) using `scene.save("updated.fbx");`.
-
-### Sample Code
+    133 | Step-by-Step Guide (No code blocks required)
+    134 | 
+    135 | The `Scene` class represents the root of a 3D scene graph, containing nodes, geometry, and materials.
+    136 | 
+    137 | 1. **Set up your project** – Add the Aspose.3D Maven/Gradle dependency and import the necessary classes.  
+    138 | 2. **Load or create a scene** – Use `Scene scene = new Scene();` or load an existing file with `scene.open("model.fbx");`.  
+    139 | 3. **Locate the sphere node** – Traverse the scene graph to find the sphere node by name using `scene.getRootNode().getChildNodes()` and iterate through nodes.  
+    140 | 4. **Modify the radius** – Cast the node's entity to `Sphere` and call `sphere.setRadius(newRadius);`.  
+    141 | 5. **Save the updated scene** – Export to your desired format (OBJ, FBX, GLTF) using `scene.save("updated.fbx");`.### Sample Code
 
 ```java
-// Example: modify sphere radius using XPath‑like query
+// Example: modify sphere radius by traversing the scene graph
 Scene scene = new Scene();
 scene.open("model.fbx");
 
-// Select spheres named 'MySphere'
-List<Node> spheres = scene.selectNodes("//Sphere[@name='MySphere']");
-
-// Change radius to 5.0
-for (Node node : spheres) {
-    Sphere sphere = (Sphere) node;
-    sphere.setRadius(5.0);
+// Find spheres named 'MySphere' by traversing the scene graph
+for (Node childNode : scene.getRootNode().getChildNodes()) {
+    Sphere sphere = (Sphere) childNode.getEntity();
+    if (sphere != null && "MySphere".equals(childNode.getName())) {
+        sphere.setRadius(5.0);
+    }
 }
 
-// Refresh and save
-scene.update();
+// Save the updated scene
 scene.save("updated.fbx");
 ```
-
 ## Troubleshooting Tips
 - **Null reference errors:** Ensure the sphere node is retrieved before calling `setRadius()`.  
 - **Scene not updating:** Call `scene.update()` after modifying geometry to refresh the viewport.  

@@ -145,7 +145,9 @@ VertexElementUV is Aspose.3D's element that stores per‑vertex UV coordinates f
 ### Step 3: Create Mesh and UVset
 
 ```java
-Mesh mesh = new Mesh();
+// Create a box mesh and convert it to a polygon mesh
+Box box = new Box();
+Mesh mesh = box.toMesh();
 
 // Create UVset
 VertexElementUV elementUV = mesh.createElementUV(TextureMapping.DIFFUSE, MappingMode.POLYGON_VERTEX, ReferenceMode.INDEX_TO_DIRECT);
@@ -156,7 +158,7 @@ elementUV.setIndices(uvsId);
 
 Here we:
 
-1. Build a mesh (the cube) using a helper class.  
+1. Build a mesh (the cube) by creating a `Box` and converting it to a mesh using `toMesh()`.  
 2. Create a UV element (`VertexElementUV`) that stores our texture coordinates.  
 3. Assign the UV data and the index buffer to the mesh, effectively **adding texture coordinates** to the geometry.
 
@@ -170,14 +172,11 @@ Running the program will display a confirmation message, indicating that the UVs
 
 ## Common Issues and Solutions
 
-Common.createMeshUsingPolygonBuilder() is a helper method that builds a simple cube mesh using a polygon builder.
-
 | Issue | Cause | Fix |
 |-------|-------|-----|
 | UVs appear stretched | Incorrect UV ordering or mismatched indices | Verify that `uvsId` correctly references the `uvs` array for each polygon vertex. |
-| Texture not visible | UV set not linked to the material | Ensure the material’s `TextureMapping` is set to `DIFFUSE` (as shown) and a texture is assigned to the material. |
-| Runtime `NullPointerException` | `Common.createMeshUsingPolygonBuilder()` returns `null` | Check that the helper class is included in your project and the method creates a valid mesh. |
-
+| Texture not visible | UV set not linked to the material | Ensure the material's `TextureMapping` is set to `DIFFUSE` (as shown) and a texture is assigned to the material. |
+| Runtime `NullPointerException` | Mesh creation failed | Use `new Box().toMesh()` instead of a non-existent helper method to create a valid mesh. |
 ## Frequently Asked Questions
 
 **Q: Can I apply UV coordinates to complex 3D models?**  

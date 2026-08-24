@@ -8,6 +8,7 @@
       "type": "task",
       "assignee": "ag-FrJ12nDj",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-04T07:32:56.0221728Z",
       "finishedAt": "2026-07-04T08:11:44.1494541Z"
     },
@@ -19,6 +20,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T22:23:55.0089179Z",
       "finishedAt": "2026-07-28T23:06:17.8486397Z"
     },
@@ -30,6 +32,7 @@
       "type": "task",
       "assignee": "ag-VpMdumLi",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T22:24:25.6567258Z",
       "finishedAt": "2026-07-28T22:24:25.6567258Z"
     },
@@ -41,6 +44,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:06:22.4497426Z",
       "finishedAt": "2026-07-28T23:20:20.4689838Z"
     },
@@ -52,6 +56,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:21:00.3849168Z",
       "finishedAt": "2026-07-29T00:30:53.8525021Z"
     },
@@ -63,6 +68,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:21:26.0256196Z",
       "finishedAt": "2026-07-28T23:21:31.3504939Z"
     },
@@ -74,6 +80,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:21:59.2481749Z",
       "finishedAt": "2026-07-28T23:21:59.2481749Z"
     },
@@ -85,6 +92,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:22:26.3374821Z",
       "finishedAt": "2026-07-28T23:22:26.3374821Z"
     },
@@ -96,6 +104,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:22:49.222922Z",
       "finishedAt": "2026-07-28T23:22:49.222922Z"
     },
@@ -107,6 +116,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:23:18.9072568Z",
       "finishedAt": "2026-07-28T23:23:18.9072568Z"
     },
@@ -118,6 +128,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:23:49.2864428Z",
       "finishedAt": "2026-07-28T23:23:49.2864428Z"
     },
@@ -129,6 +140,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:24:20.0211209Z",
       "finishedAt": "2026-07-28T23:24:20.0211209Z"
     },
@@ -140,6 +152,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:24:47.2407363Z",
       "finishedAt": "2026-07-28T23:24:47.2407363Z"
     },
@@ -151,6 +164,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:25:14.4267168Z",
       "finishedAt": "2026-07-28T23:25:14.4267168Z"
     },
@@ -162,6 +176,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:25:39.4536089Z",
       "finishedAt": "2026-07-28T23:25:39.4536089Z"
     },
@@ -173,6 +188,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:26:08.2904595Z",
       "finishedAt": "2026-07-28T23:26:08.2904595Z"
     },
@@ -184,6 +200,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:26:33.0264402Z",
       "finishedAt": "2026-07-28T23:26:33.0264402Z"
     },
@@ -195,6 +212,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:27:00.5362933Z",
       "finishedAt": "2026-07-28T23:27:00.5362933Z"
     },
@@ -206,6 +224,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:27:32.3282576Z",
       "finishedAt": "2026-07-28T23:27:32.3282576Z"
     },
@@ -217,6 +236,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:27:59.683641Z",
       "finishedAt": "2026-07-28T23:27:59.683641Z"
     },
@@ -228,6 +248,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:28:31.6305944Z",
       "finishedAt": "2026-07-28T23:28:31.6305944Z"
     },
@@ -239,6 +260,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:29:06.6770671Z",
       "finishedAt": "2026-07-28T23:29:06.6770671Z"
     },
@@ -250,6 +272,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:29:33.106149Z",
       "finishedAt": "2026-07-28T23:29:33.106149Z"
     },
@@ -261,6 +284,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:30:03.4664836Z",
       "finishedAt": "2026-07-28T23:30:03.4664836Z"
     },
@@ -272,6 +296,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:30:36.5012762Z",
       "finishedAt": "2026-07-28T23:30:36.5012762Z"
     },
@@ -283,6 +308,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:31:06.1988577Z",
       "finishedAt": "2026-07-28T23:31:06.1988577Z"
     },
@@ -294,6 +320,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:31:34.51957Z",
       "finishedAt": "2026-07-28T23:31:34.51957Z"
     },
@@ -305,6 +332,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:32:13.9693263Z",
       "finishedAt": "2026-07-28T23:32:13.9693263Z"
     },
@@ -316,6 +344,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:32:46.57769Z",
       "finishedAt": "2026-07-28T23:32:46.57769Z"
     },
@@ -327,6 +356,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:33:18.1772619Z",
       "finishedAt": "2026-07-28T23:33:18.1772619Z"
     },
@@ -338,6 +368,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:33:53.9719748Z",
       "finishedAt": "2026-07-28T23:33:53.9719748Z"
     },
@@ -349,6 +380,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:34:22.1181952Z",
       "finishedAt": "2026-07-28T23:34:22.1181952Z"
     },
@@ -360,6 +392,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:34:52.4127379Z",
       "finishedAt": "2026-07-28T23:34:52.4127379Z"
     },
@@ -371,6 +404,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:35:20.896144Z",
       "finishedAt": "2026-07-28T23:35:20.896144Z"
     },
@@ -382,6 +416,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:35:52.2639175Z",
       "finishedAt": "2026-07-28T23:35:52.2639175Z"
     },
@@ -393,6 +428,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:36:24.7646235Z",
       "finishedAt": "2026-07-28T23:36:24.7646235Z"
     },
@@ -404,6 +440,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:37:01.6858845Z",
       "finishedAt": "2026-07-28T23:37:01.6858845Z"
     },
@@ -415,6 +452,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:37:31.343656Z",
       "finishedAt": "2026-07-28T23:37:31.343656Z"
     },
@@ -426,6 +464,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:38:06.7723347Z",
       "finishedAt": "2026-07-28T23:38:06.7723347Z"
     },
@@ -437,6 +476,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:38:37.9971576Z",
       "finishedAt": "2026-07-28T23:38:37.9971576Z"
     },
@@ -448,6 +488,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:39:11.6938422Z",
       "finishedAt": "2026-07-28T23:39:11.6938422Z"
     },
@@ -459,6 +500,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:39:41.92964Z",
       "finishedAt": "2026-07-28T23:39:41.92964Z"
     },
@@ -470,6 +512,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:40:09.0062225Z",
       "finishedAt": "2026-07-28T23:40:09.0062225Z"
     },
@@ -481,6 +524,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:40:40.6487777Z",
       "finishedAt": "2026-07-28T23:40:40.6487777Z"
     },
@@ -492,6 +536,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:41:10.0088592Z",
       "finishedAt": "2026-07-28T23:41:10.0088592Z"
     },
@@ -503,6 +548,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:41:47.3934569Z",
       "finishedAt": "2026-07-28T23:41:47.3934569Z"
     },
@@ -514,6 +560,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:42:26.784162Z",
       "finishedAt": "2026-07-28T23:42:26.784162Z"
     },
@@ -525,6 +572,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:42:57.6811677Z",
       "finishedAt": "2026-07-28T23:42:57.6811677Z"
     },
@@ -536,6 +584,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:43:26.4254126Z",
       "finishedAt": "2026-07-28T23:43:26.4254126Z"
     },
@@ -547,6 +596,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:43:58.5142014Z",
       "finishedAt": "2026-07-28T23:43:58.5142014Z"
     },
@@ -558,6 +608,7 @@
       "type": "task",
       "assignee": "tutorial_reviewer",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:44:26.4521166Z",
       "finishedAt": "2026-07-28T23:44:26.4521166Z"
     },
@@ -569,6 +620,7 @@
       "type": "task",
       "assignee": "ag-FrJ12nDj",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:45:39.2169417Z",
       "finishedAt": "2026-07-28T23:45:47.9972673Z"
     },
@@ -580,6 +632,7 @@
       "type": "task",
       "assignee": "ag-kkm1u47Q",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-28T23:51:20.501646Z",
       "finishedAt": "2026-07-28T23:53:36.4016536Z"
     },
@@ -591,6 +644,7 @@
       "type": "task",
       "assignee": "ag-FrJ12nDj",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-29T00:09:02.6604229Z",
       "finishedAt": "2026-07-29T00:09:09.6705023Z"
     },
@@ -602,6 +656,7 @@
       "type": "task",
       "assignee": "ag-WY2uHUBw",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-29T00:12:50.9173244Z",
       "finishedAt": "2026-07-29T00:22:25.4705463Z"
     },
@@ -613,6 +668,7 @@
       "type": "task",
       "assignee": "ag-FrJ12nDj",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-29T00:13:54.8541609Z",
       "finishedAt": "2026-07-29T00:39:31.1583162Z"
     },
@@ -624,6 +680,7 @@
       "type": "task",
       "assignee": "ag-CEIUOvvc",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-29T00:23:28.6245476Z",
       "finishedAt": "2026-07-29T00:25:05.0084441Z"
     },
@@ -635,6 +692,7 @@
       "type": "task",
       "assignee": "ag-CEIUOvvc",
       "status": "working",
+      "creator": "",
       "createdAt": "2026-07-29T00:26:25.538474Z"
     },
     {
@@ -645,6 +703,7 @@
       "type": "verify",
       "assignee": "ag-CEIUOvvc",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-29T00:31:14.7833073Z",
       "finishedAt": "2026-07-29T00:33:07.4060481Z"
     },
@@ -656,6 +715,7 @@
       "type": "task",
       "assignee": "ag-CEIUOvvc",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-29T00:34:08.3487112Z",
       "finishedAt": "2026-07-29T00:36:42.7313898Z"
     },
@@ -667,9 +727,43 @@
       "type": "task",
       "assignee": "ag-FrJ12nDj",
       "status": "resolved",
+      "creator": "",
       "createdAt": "2026-07-29T00:39:35.183236Z",
       "finishedAt": "2026-07-29T00:40:12.3850032Z"
+    },
+    {
+      "id": 62,
+      "title": "Verify and fix code snippets in commit d1b18a92",
+      "description": "Review and verify Java code snippets in 4 tutorials from commit fb701f4b - Found issues:\n\n1. **3d-objects-and-scenes/_index.md** (commit fb701f4b):\n   - \u0060scene.selectNodes()\u0060 doesn\u0027t exist (line 151)\n   - \u0060scene.update()\u0060 doesn\u0027t exist (line 160)\n   - Need to remove XPath-like query approach\n\n2. **read-existing-3d-scenes/_index.md** (commit fb701f4b):\n   - \u0060new Scene(String)\u0060 doesn\u0027t exist (line 127)\n   - Need to use \u0060new Scene()\u0060 then \u0060scene.open()\u0060\n\n3. **point-clouds/_index.md** (commit fb701f4b):\n   - \u0060new Scene(String)\u0060 doesn\u0027t exist (line 71)\n   - \u0060scene.convertToPointCloud()\u0060 doesn\u0027t exist (line 72)\n   - \u0060SaveFormat.PLY\u0060 doesn\u0027t exist (line 73)\n   - Need to use correct API for PLY operations\n\n4. **commit 172001728829509d2888bb5196a669a0aa14a23d**:\n   - **apply-uv-coordinates-to-3d-objects/_index.md**: \u0060Common.createMeshUsingPolygonBuilder()\u0060 doesn\u0027t exist (line 173)",
+      "priority": "high",
+      "type": "task",
+      "assignee": "tutorial_reviewer",
+      "status": "open",
+      "creator": "tutorial_reviewer",
+      "createdAt": "2026-08-24T22:01:16.6370599Z"
+    },
+    {
+      "id": 63,
+      "title": "Verify and fix code snippets in commit 172001728829509d2888bb5196a669a0aa14a23d",
+      "description": "Review and verify Java code snippets in 3 tutorials from commit 172001728829509d2888bb5196a669a0aa14a23d",
+      "priority": "normal",
+      "type": "task",
+      "assignee": "tutorial_reviewer",
+      "status": "open",
+      "creator": "tutorial_reviewer",
+      "createdAt": "2026-08-24T22:02:56.0835622Z"
+    },
+    {
+      "id": 64,
+      "title": "Verify the following API calls for Aspose.3D Java 26.6.0:",
+      "description": "Verify the following API calls for Aspose.3D Java 26.6.0:\n\n1. Check if \u0060Common\u0060 class exists and what methods it has\n2. Check if \u0060Common.createMeshUsingPolygonBuilder()\u0060 exists\n3. Check if \u0060PointCloud\u0060 class exists\n4. Check if \u0060scene.convertToPointCloud()\u0060 exists on Scene class\n5. Check if \u0060FileFormat.WAVEFRONTOBJ\u0060 and \u0060FileFormat.PLY\u0060 exist\n\nUse \u0060aspose-cli api\u0060 commands to verify the API. Return a summary of findings.",
+      "priority": "normal",
+      "type": "task",
+      "assignee": "ag-kkm1u47Q",
+      "status": "open",
+      "creator": "tutorial_reviewer",
+      "createdAt": "2026-08-24T22:03:36.9173736Z"
     }
   ],
-  "nextId": 62
+  "nextId": 65
 }

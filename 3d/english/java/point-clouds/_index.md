@@ -62,19 +62,23 @@ PLY (Polygon File Format) is a widely used file format for storing 3D point clou
 - **Pure Java implementation** – no native binaries, making deployment on any platform straightforward.  
 - **High‑performance parsing** – the parser can load a 500 MB PLY file in under 8 seconds on a typical 2.5 GHz CPU, reducing load times dramatically.  
 - **Rich feature set** – beyond loading, you can convert, edit, and export to **50+** 3D formats, including OBJ, STL, and XYZ.  
-- **Comprehensive documentation** – step‑by‑step guides and API references keep you moving fast.
+- **Comprehensive documentation** – step‑by‑step guides and API references keep you moving fast.## How do I create a point cloud from a mesh in Java?
 
-## How do I create a point cloud from a mesh in Java?
-`Scene` is Aspose.3D's class that represents a 3D model or scene. Load your mesh with `new Scene("model.obj")`. `convertToPointCloud()` converts the loaded mesh into a `PointCloud` object, and `save()` writes the point cloud to a file in the specified format. Example:
+`Scene` is Aspose.3D's class that represents a 3D model or scene. Load your mesh with `new Scene()`, then call `scene.open("model.obj")` to load the file. Iterate over the scene's entities and use `FileFormat.PLY.encode()` to export each as a PLY point cloud. Example:
 
 ```java
-Scene scene = new Scene("model.obj");
-PointCloud pointCloud = scene.convertToPointCloud();
-pointCloud.save("cloud.ply", SaveFormat.PLY);
+Scene scene = new Scene();
+scene.open("model.obj");
+
+// Export each entity in the scene as a PLY point cloud
+for (Node node : scene.getRootNode().getChildNodes()) {
+    if (node.getEntity() != null) {
+        FileFormat.PLY.encode(node.getEntity(), "cloud.ply");
+    }
+}
 ```
 
-This three‑step flow creates a point cloud from any supported mesh format, preserving vertex positions and optional color data. For large meshes, enable streaming mode to keep memory usage under 200 MB.
-
+This approach creates point clouds from any supported mesh format, preserving vertex positions and optional color data. For large meshes, enable streaming mode to keep memory usage under 200 MB.
 ## What is Aspose.3D point cloud library?
 `PointCloud` is the core class representing a collection of 3D points. `PointCloudBuilder` is a helper class for constructing point clouds efficiently. The **Aspose.3D point cloud library** is a collection of these classes and related utilities that enable developers to read, manipulate, and write point‑cloud data entirely in Java. It abstracts file‑format specifics, giving you a consistent API for PLY, OBJ, STL, and XYZ clouds.
 
