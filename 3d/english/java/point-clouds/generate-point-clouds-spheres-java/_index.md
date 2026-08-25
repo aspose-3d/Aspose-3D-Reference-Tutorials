@@ -55,9 +55,7 @@ Welcome to this step‑by‑step guide on **create draco point cloud** from sphe
 - **What library is used?** Aspose.3D for Java  
 - **What format is the point cloud saved as?** Draco (`.drc`)  
 - **Do I need a license for testing?** A free trial works for evaluation; a commercial license is required for production.  
-- **Which Java version is supported?** Java 8 or higher (JDK 11 recommended)  
-- **How long does the implementation take?** About 10‑15 minutes for a basic sphere point cloud  
-
+- **Which Java version is supported?** Java 8 or higher (JDK 11 recommended)  > **Pro tip:** Adjust `setCompressionLevel()` (using `DracoCompressionLevel` enum values) for trade-offs between compression speed and file size.
 ## What is a draco point cloud?
 
 A draco point cloud is a compact binary representation of 3‑D vertices compressed using Google’s Draco algorithm. **Aspose.3D** provides built‑in `DracoSaveOptions` to write this format directly from a `Scene` object, delivering up to 90 % size reduction compared with raw vertex lists.
@@ -100,26 +98,22 @@ import com.aspose.threed.save.*;
 ## How do I create a draco point cloud from a sphere in Java?
 
 Load your sphere, enable point‑cloud mode, and save it with Draco compression in just three lines of code. First, configure `DracoSaveOptions` to output a point cloud, then instantiate a `Sphere` primitive, add it to a `Scene`, and finally call `save`. This pattern works for any mesh you wish to convert.
-
 ## Step 1: set up dracoSaveOptions
 
 `DracoSaveOptions` tells Aspose.3D to encode geometry as a point cloud rather than a full mesh.
 
 ```java
 DracoSaveOptions dracoOptions = new DracoSaveOptions();
-dracoOptions.setPointCloud(true);               // Enable point‑cloud output
-dracoOptions.setCompressionLevel(7);            // 0‑10 range; 7 gives good size/ speed balance
+dracoOptions.setPointCloud(true);
 ```
 
-> **Definition anchor:** `DracoSaveOptions` is the configuration object that controls how Aspose.3D writes Draco files, including compression level and point‑cloud flag.
-
+> **Definition anchor:** `DracoSaveOptions` is the configuration object that controls how Aspose.3D writes Draco files, including compression level and point-cloud flag.
 ## Step 2: create a sphere
 
 The `Sphere` class represents a mathematically perfect sphere. You can control radius and tessellation density to influence point count.
 
 ```java
-// Create a sphere with radius 5.0 and 32 longitudinal/latitudinal segments
-Sphere sphere = new Sphere(5.0, 32, 32);
+Sphere sphere = new Sphere();
 ```
 
 > **Definition anchor:** `Sphere` is a primitive shape class that generates a mesh of vertices and faces based on radius and segment parameters.
@@ -130,8 +124,8 @@ Add the sphere to a new `Scene`, then invoke `save` with the previously configur
 
 ```java
 Scene scene = new Scene();
-scene.getRootNode().attachChild(sphere);               // Add sphere to scene graph
-scene.save("output_point_cloud.drc", dracoOptions);   // Write compressed point cloud
+scene.getRootNode().createChildNode(sphere);
+scene.save("output_point_cloud.drc", dracoOptions);
 ```
 
 > **Definition anchor:** `Scene.save` writes the entire scene to the specified file using the provided save options.
@@ -158,35 +152,33 @@ A: The current Aspose.3D implementation focuses on geometry only. To add attribu
 
 **Q: How large can a point cloud be before performance degrades?**  
 A: Draco compresses efficiently, but clouds exceeding **100 million** points may require more than 8 GB RAM. Consider chunking or streaming APIs for very large datasets.
-
 **Q: Is the generated `.drc` file compatible with web viewers like three.js?**  
-A: Absolutely. three.js includes a Draco loader that reads the file directly for real‑time rendering.
+A: Absolutely. three.js includes a Draco loader that reads the file directly for real-time rendering.
 
-**Q: Do I need to call `opt.setCompressionLevel()` for better results?**  
-A: The default level (5) works for most cases. If file size is critical, experiment with values between **0** (fastest) and **10** (maximum compression) to balance speed vs. size.
+**Q: Do I need to call `opt.setCompressionLevel()` for better results?**
 
-## FAQ's
+A: The default compression level works for most cases. If file size is critical, use `DracoCompressionLevel` enum values to adjust between speed and compression (values 0-10).
 
-### Q1: Can I use Aspose.3D for free?
+## Frequently asked questions
 
+**Q: Can I use Aspose.3D for free?**
 A1: Yes, you can explore Aspose.3D with a free trial. Visit the **Aspose releases page** to get started.
 
-### Q2: Where can I find support for Aspose.3D?
+**Q: Where can I find support for Aspose.3D?**
 
 A2: You can find support and connect with the community on the [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
 
-### Q3: how can i purchase aspose.3D?
+**Q: how can i purchase aspose.3D?**
 
 A3: Visit the [purchase page](https://purchase.aspose.com/buy) to buy Aspose.3D and unlock its full potential.
 
-### Q4: Is there a temporary license available?
+**Q: Is there a temporary license available?**
 
-A4: Yes, you can obtain a temporary license from the **Aspose temporary‑license page** for your development needs.
+A4: Yes, you can obtain a temporary license from the **Aspose temporary\u2011license page** for your development needs.
 
-### Q5: Where can I find the documentation?
+**Q: Where can I find the documentation?**
 
 A5: Refer to the detailed [Aspose.3D Java documentation](https://reference.aspose.com/3d/java/) for comprehensive information.
-
 ## Conclusion
 
 Congratulations! You have successfully **create draco point cloud** from a sphere using Aspose.3D for Java. You can now load the `.drc` file into any Draco‑compatible viewer, stream it over the web, or feed it into downstream processing pipelines such as point‑cloud classification or surface reconstruction.
