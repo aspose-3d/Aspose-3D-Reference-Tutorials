@@ -156,7 +156,7 @@ scene.save("updated.fbx");
 ```
 ## Troubleshooting Tips
 - **Null reference errors:** Ensure the sphere node is retrieved before calling `setRadius()`.  
-- **Scene not updating:** Call `scene.update()` after modifying geometry to refresh the viewport.  
+- **Scene not updating:** After modifying geometry, save the scene to see the changes.  
 - **License issues:** Verify that the Aspose.3D license file is correctly loaded; otherwise, a trial watermark appears.  
 
 ## Frequently asked questions
