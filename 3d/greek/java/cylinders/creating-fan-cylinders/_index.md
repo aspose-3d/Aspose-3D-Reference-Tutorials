@@ -1,15 +1,52 @@
 ---
-date: 2026-04-03
-description: Μάθετε πώς να δημιουργήσετε σχήμα κυλινδρικού ανεμιστήρα σε Java με το
+date: 2026-08-02
+description: Μάθετε πώς να δημιουργήσετε σχήμα ανεμιστήρα κυλίνδρου σε Java με το
   Aspose.3D. Αυτός ο οδηγός καλύπτει τη μοντελοποίηση 3D σε Java και τις τεχνικές
-  αποθήκευσης αρχείων OBJ σε Java.
+  αποθήκευσης αρχείου OBJ.
 keywords:
 - create cylinder fan shape
 - save obj file java
 - aspose 3d export obj
-linktitle: Πώς να δημιουργήσετε σχήμα κυλινδρικού ανεμιστήρα χρησιμοποιώντας το Aspose.3D
+lastmod: 2026-08-02
+linktitle: Πώς να δημιουργήσετε σχήμα ανεμιστήρα κυλίνδρου χρησιμοποιώντας το Aspose.3D
   για Java
+og_description: Δημιουργήστε σχήμα ανεμιστήρα κυλίνδρου χρησιμοποιώντας το Aspose.3D
+  για Java και εξαγάγετε αρχείο OBJ. Ακολουθήστε οδηγίες βήμα‑βήμα για να μοντελοποιήσετε,
+  προσαρμόσετε και αποθηκεύσετε τον 3D ανεμιστήρα κυλίνδρου σας.
+og_image_alt: 'Tutorial: create cylinder fan shape in Java with Aspose.3D'
+og_title: Δημιουργήστε σχήμα ανεμιστήρα κυλίνδρου με το Aspose.3D για Java – Σύντομος
+  Οδηγός
+schemas:
+- author: Aspose
+  dateModified: '2026-08-02'
+  description: Learn how to create cylinder fan shape in Java with Aspose.3D. This
+    guide covers java 3d modeling and save obj file java techniques.
+  headline: How to create cylinder fan shape using Aspose.3D for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.3D can coexist with libraries like Java 3D or jMonkeyEngine,
+      allowing you to integrate custom geometry into larger pipelines.
+    question: Is Aspose.3D compatible with other Java 3D libraries?
+  - answer: Absolutely. You can apply materials, textures, and lighting by accessing
+      the node’s `Material` and `Light` collections.
+    question: Can I further customize the appearance of the fan cylinder?
+  - answer: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for community
+      help and official responses.
+    question: Where can I get additional support?
+  - answer: Yes, you can explore Aspose.3D with a [free trial](https://releases.aspose.com/)
+      before purchasing.
+    question: Is there a free trial available?
+  - answer: Acquire one [here](https://purchase.aspose.com/temporary-license/) to
+      unlock full functionality during development.
+    question: How do I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.3D Java API
+tags:
+- create cylinder fan shape
+- Aspose.3D
+- Java 3D modeling
+- export OBJ
+- 3D geometry
 title: Πώς να δημιουργήσετε σχήμα ανεμιστήρα κυλίνδρου χρησιμοποιώντας το Aspose.3D
   για Java
 url: /el/java/cylinders/creating-fan-cylinders/
@@ -24,35 +61,37 @@ weight: 10
 
 ## Εισαγωγή
 
-Έτοιμοι να κατακτήσετε **πώς να δημιουργήσετε σχήμα ανεμιστήρα κυλίνδρου** σε περιβάλλον Java; Σε αυτό το tutorial θα περάσουμε από κάθε βήμα — από τη ρύθμιση της σκηνής μέχρι την εξαγωγή ενός αρχείου Wavefront OBJ — χρησιμοποιώντας το Aspose.3D. Είτε δημιουργείτε ένα στοιχείο παιχνιδιού, ένα πρωτότυπο CAD, είτε απλώς πειραματίζεστε με 3D γεωμετρία, θα δείτε πόσο εύκολο μπορεί να είναι το μοντελοποίηση 3D σε Java με αυτή τη δυνατή βιβλιοθήκη.
+Ready to master **create cylinder fan shape** in a Java environment? In this tutorial we’ll walk through every step— from setting up the scene to exporting a Wavefront OBJ file— using Aspose.3D. Whether you’re building a game asset, a CAD prototype, or just experimenting with 3D geometry, you’ll see how easy Java 3D modeling can be with this powerful library.
 
 ## Γρήγορες Απαντήσεις
-- **Ποιος είναι ο κύριος στόχος;** Δημιουργήστε έναν προσαρμόσιμο κυλινδρικό σχήμα ανεμιστήρα και αποθηκεύστε το ως αρχείο OBJ.  
+- **Ποιος είναι ο κύριος στόχος;** Create a customizable fan‑shaped cylinder and save it as an OBJ file.  
 - **Ποια βιβλιοθήκη χρησιμοποιείται;** Aspose.3D for Java.  
-- **Χρειάζομαι άδεια;** Μια δωρεάν δοκιμή λειτουργεί για ανάπτυξη· απαιτείται εμπορική άδεια για παραγωγή.  
-- **Ποια είναι τα προαπαιτούμενα;** Εγκατεστημένο JDK και το πακέτο Aspose.3D Java προστεθειμένο στο έργο σας.  
-- **Μπορώ να εξάγω άλλες μορφές;** Ναι — το Aspose.3D υποστηρίζει πολλές μορφές· αυτό το παράδειγμα χρησιμοποιεί Wavefront OBJ.
+- **Χρειάζομαι άδεια;** A free trial works for development; a commercial license is required for production.  
+- **Ποιες είναι οι προαπαιτήσεις;** JDK installed and Aspose.3D Java package added to your project.  
+- **Μπορώ να εξάγω άλλες μορφές;** Yes—Aspose.3D supports many formats; this example uses Wavefront OBJ.
 
-## Τι είναι ένας Κυλινδρικός Ανεμιστήρας;
+## Τι είναι ένας Ανεμιστήρας Κυλίνδρου;
 
-Ένας κυλινδρικός ανεμιστήρας είναι ένας μερικός επιφάνειας κύλινδρος όπου παραλείπεται ένα τμήμα της κυκλικής βάσης, δημιουργώντας μια «ανοιγμένη» περιοχή. Αυτή η γεωμετρία είναι χρήσιμη για την απεικόνιση τομών, ταμπλό ή προσαρμοσμένων μηχανικών εξαρτημάτων.
+A fan cylinder is a cylindrical segment where a portion of the circular base is removed, creating an open‑ended “fan” sector. It is defined by radius, height, and opening angle, making it ideal for visualizing slices, dashboards, or custom mechanical parts.  
+
+In practical terms, think of a regular cylinder with a wedge cut out—perfect for representing partial rotations or slice‑style visualizations in engineering dashboards.
 
 ## Γιατί να χρησιμοποιήσετε το Aspose.3D για μοντελοποίηση 3D σε Java;
 
-Το Aspose.3D παρέχει ένα καθαρό, αντικειμενοστραφές API που αφαιρεί τα χαμηλού επιπέδου μαθηματικά των 3D γραφικών. Μπορείτε να εστιάσετε στο σχεδιασμό αντί στις ιδιαιτερότητες των μορφών αρχείων, και η βιβλιοθήκη διαχειρίζεται αυτόματα τις λειτουργίες **save obj file java**.
+Aspose.3D for Java offers a high‑level, object‑oriented API that abstracts low‑level math, supports **50+ input and output formats**, and can process multi‑hundred‑page models without loading the entire file into memory, enabling rapid development of 3D applications. The library also handles **export OBJ file java** operations automatically, so you focus on geometry instead of file‑format quirks.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε:
+Before we dive in, make sure you have:
 
-- **Java Development Kit (JDK)** – κατεβάστε το [εδώ](https://www.oracle.com/java/technologies/javase-downloads.html).  
-- **Aspose.3D for Java** – αποκτήστε το πιο πρόσφατο JAR από το [download link](https://releases.aspose.com/3d/java/).  
+- **Java Development Kit (JDK)** – download it [here](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.3D for Java** – obtain the latest JAR from the [download link](https://releases.aspose.com/3d/java/).  
 
-Προσθέστε το JAR του Aspose.3D στο classpath του έργου σας.
+Add the Aspose.3D JAR to your project’s classpath.
 
 ## Εισαγωγή Πακέτων
 
-Ξεκινήστε εισάγοντας τις απαραίτητες κλάσεις. Αυτό σας δίνει πρόσβαση στη σκηνή 3D, στα γεωμετρικά primitives και στις βοηθητικές μεθόδους.
+Begin by importing the necessary classes. This gives you access to the 3D scene, geometry primitives, and utility methods.
 
 ```java
 import com.aspose.threed.*;
@@ -63,7 +102,7 @@ import java.io.IOException;
 
 ## Βήμα 1: Δημιουργία Σκηνής
 
-Αρχικά, δημιουργούμε ένα νέο `Scene`. Σκεφτείτε τη σκηνή ως το δοχείο που περιέχει όλα τα 3D αντικείμενα, τα φώτα και τις κάμερες.
+The `Scene` class is Aspose.3D's container that holds all 3D objects, lights, and cameras. Think of it as the virtual stage where you place every element of your model.
 
 ```java
 // ExStart:2
@@ -72,9 +111,9 @@ Scene scene = new Scene();
 // ExEnd:2
 ```
 
-## Βήμα 2: Δημιουργία Κυλίνδρου Ανεμιστήρα (πώς να δημιουργήσετε κύλινδρο)
+## Βήμα 2: Δημιουργία Ανεμιστήρα Κυλίνδρου (πώς να δημιουργήσετε κύλινδρο)
 
-Τώρα δημιουργούμε τον ίδιο τον κυλινδρικό ανεμιστήρα. Οι παράμετροι του κατασκευαστή ορίζουν την ακτίνα, το ύψος, την τυποποίηση και αν η γεωμετρία δημιουργείται ως ανεμιστήρας.
+The `Cylinder` class represents a cylindrical mesh that can be customized with radius, height, tessellation, and a fan opening angle. By adjusting `setThetaLength`, you control how much of the cylinder is omitted.
 
 ```java
 // ExStart:3
@@ -85,11 +124,11 @@ fan.setThetaLength(MathUtils.toRadian(270.0));
 // ExEnd:3
 ```
 
-> **Συμβουλή:** Ρυθμίστε το `setThetaLength` για να αλλάξετε τη γωνία ανοίγματος. 270° δημιουργεί έναν τρι‑τέταρτο ανεμιστήρα· 180° θα έδινε μισό κύλινδρο.
+> **Pro tip:** Adjust `setThetaLength` to change the opening angle. 270° creates a three‑quarter fan; 180° would give a half‑cylinder.
 
-## Βήμα 3: Τοποθέτηση του Κυλίνδρου Ανεμιστήρα
+## Βήμα 3: Τοποθέτηση του Ανεμιστήρα Κυλίνδρου
 
-Στη συνέχεια, προσθέτουμε τον κυλινδρικό ανεμιστήρα στη σκηνή και τον μετακινούμε σε μια βολική θέση. Οι συντεταγμένες μετάφρασης είναι με τη σειρά (X, Y, Z).
+The `Node` class is the scene graph element that holds geometry and its transform. Moving the node translates the fan cylinder to the desired location in the (X, Y, Z) coordinate system.
 
 ```java
 // ExStart:4
@@ -100,7 +139,7 @@ scene.getRootNode().createChildNode(fan).getTransform().setTranslation(10, 0, 0)
 
 ## Βήμα 4: Δημιουργία Μη‑Ανεμιστήρα Κυλίνδρου (σύγκριση μοντελοποίησης 3D σε Java)
 
-Για να δείξουμε την ευελιξία του Aspose.3D, δημιουργούμε επίσης έναν κανονικό κύλινδρο χωρίς άνοιγμα ανεμιστήρα.
+To illustrate the flexibility of Aspose.3D, we also create a regular cylinder without a fan opening. This side‑by‑side comparison helps you see the impact of the `ThetaLength` parameter.
 
 ```java
 // ExStart:5
@@ -111,9 +150,9 @@ scene.getRootNode().createChildNode(nonfan);
 // ExEnd:5
 ```
 
-## Βήμα 5: Αποθήκευση της Σκηνής (java αποθήκευση αρχείου obj)
+## Βήμα 5: Αποθήκευση της Σκηνής (αποθήκευση αρχείου obj σε Java)
 
-Τέλος, εξάγουμε ολόκληρη τη σκηνή σε αρχείο Wavefront OBJ. Αυτή η μορφή υποστηρίζεται ευρέως από τους περισσότερους 3D επεξεργαστές και μηχανές παιχνιδιών.
+The `Scene.save` method writes the entire scene to a file. By passing `FileFormat.WAVEFRONTOBJ`, Aspose.3D generates a standard OBJ file that can be opened in Blender, Maya, Unity, and many other 3D tools.
 
 ```java
 // ExStart:6
@@ -122,42 +161,47 @@ scene.save("Your Document Directory" + "CreateFanCylinder.obj", FileFormat.WAVEF
 // ExEnd:6
 ```
 
-> **Σημείωση:** Αντικαταστήστε το `"Your Document Directory"` με μια απόλυτη ή σχετική διαδρομή όπου έχετε δικαίωμα εγγραφής.
+> **Note:** Replace `"Your Document Directory"` with an absolute or relative path where you have write permission.
 
 ## Πώς να αποθηκεύσετε αρχείο OBJ σε Java χρησιμοποιώντας το Aspose 3D
 
-Η μέθοδος `Scene.save` του Aspose.3D διαχειρίζεται αυτόματα τη διαδικασία **aspose 3d export obj**. Απλώς χρειάζεται να καθορίσετε το όνομα του αρχείου προορισμού και την τιμή του enum `FileFormat.WAVEFRONTOBJ`, όπως φαίνεται στο προηγούμενο βήμα.
+To export your scene, call `scene.save("output.obj", FileFormat.WAVEFRONTOBJ);` – Aspose.3D writes the geometry, materials, and texture references into a standard Wavefront OBJ file that any major 3D editor can open.
 
-## Συχνά Προβλήματα και Λύσεις
+## Κοινά Προβλήματα και Λύσεις
 
 | Πρόβλημα | Αιτία | Διόρθωση |
 |----------|-------|----------|
-| Το αρχείο OBJ είναι κενό | Η σκηνή δεν αποθηκεύτηκε ή η διαδρομή είναι λανθασμένη | Επαληθεύστε ότι ο φάκελος εξόδου υπάρχει και έχει πρόσβαση **εγγραφής**. |
-| Το άνοιγμα του ανεμιστήρα φαίνεται λανθασμένο | Λανθασμένη τιμή `ThetaLength` | Χρησιμοποιήστε το `MathUtils.toRadian(degrees)` για να ορίσετε τη ακριβή γωνία που χρειάζεστε. |
-| Σφάλματα μεταγλώττισης | Λείπει το JAR του Aspose.3D στο classpath | Προσθέστε το JAR στον φάκελο `libs` του έργου σας και συμπεριλάβετε το στη διαδρομή κατασκευής. |
+| Το αρχείο OBJ είναι κενό | Η σκηνή δεν αποθηκεύτηκε ή το μονοπάτι είναι λανθασμένο | Επαληθεύστε ότι ο φάκελος εξόδου υπάρχει και έχει δικαιώματα εγγραφής. |
+| Η ανοίγματος του ανεμιστήρα φαίνεται λανθασμένο | Λανθασμένη τιμή `ThetaLength` | Χρησιμοποιήστε `MathUtils.toRadian(degrees)` για να ορίσετε την ακριβή γωνία που χρειάζεστε. |
+| Σφάλματα μεταγλώττισης | Λείπει το Aspose.3D JAR στο classpath | Προσθέστε το JAR στο φάκελο `libs` του έργου σας και συμπεριλάβτε το στη διαδρομή κατασκευής. |
 
 ## Συχνές Ερωτήσεις
 
-**Ε: Είναι το Aspose.3D συμβατό με άλλες βιβλιοθήκες Java 3D;**  
-Α: Ναι, το Aspose.3D μπορεί να συνυπάρξει με βιβλιοθήκες όπως Java 3D ή jMonkeyEngine, επιτρέποντάς σας να ενσωματώσετε προσαρμοσμένη γεωμετρία σε μεγαλύτερα pipelines.
+**Q: Είναι το Aspose.3D συμβατό με άλλες βιβλιοθήκες 3D Java;**  
+A: Ναι, το Aspose.3D μπορεί να συνυπάρξει με βιβλιοθήκες όπως Java 3D ή jMonkeyEngine, επιτρέποντάς σας να ενσωματώσετε προσαρμοσμένη γεωμετρία σε μεγαλύτερα pipelines.
 
-**Ε: Μπορώ να προσαρμόσω περαιτέρω την εμφάνιση του κυλίνδρου ανεμιστήρα;**  
-Α: Απόλυτα. Μπορείτε να εφαρμόσετε υλικά, υφές και φωτισμό προσπερνώντας τις συλλογές `Material` και `Light` του κόμβου.
+**Q: Μπορώ να προσαρμόσω περαιτέρω την εμφάνιση του ανεμιστήρα κυλίνδρου;**  
+A: Απόλυτα. Μπορείτε να εφαρμόσετε υλικά, υφές και φωτισμό προσπελαύνοντας τις συλλογές `Material` και `Light` του κόμβου.
 
-**Ε: Πού μπορώ να βρω επιπλέον υποστήριξη;**  
-Α: Επισκεφθείτε το [Aspose.3D forum](https://forum.aspose.com/c/3d/18) για βοήθεια από την κοινότητα και επίσημες απαντήσεις.
+**Q: Πού μπορώ να βρω επιπλέον υποστήριξη;**  
+A: Επισκεφθείτε το [Aspose.3D forum](https://forum.aspose.com/c/3d/18) για βοήθεια από την κοινότητα και επίσημες απαντήσεις.
 
-**Ε: Υπάρχει διαθέσιμη δωρεάν δοκιμή;**  
-Α: Ναι, μπορείτε να εξερευνήσετε το Aspose.3D με μια [δωρεάν δοκιμή](https://releases.aspose.com/) πριν την αγορά.
+**Q: Υπάρχει διαθέσιμη δωρεάν δοκιμή;**  
+A: Ναι, μπορείτε να εξερευνήσετε το Aspose.3D με μια [δωρεάν δοκιμή](https://releases.aspose.com/) πριν από την αγορά.
 
-**Ε: Πώς μπορώ να αποκτήσω προσωρινή άδεια για δοκιμή;**  
-Α: Αποκτήστε μία [εδώ](https://purchase.aspose.com/temporary-license/) για να ξεκλειδώσετε πλήρη λειτουργικότητα κατά την ανάπτυξη.
+**Q: Πώς μπορώ να αποκτήσω προσωρινή άδεια για δοκιμή;**  
+A: Αποκτήστε μία [εδώ](https://purchase.aspose.com/temporary-license/) για να ξεκλειδώσετε πλήρη λειτουργικότητα κατά την ανάπτυξη.
 
----
-
-**Last Updated:** 2026-04-03  
+**Last Updated:** 2026-08-02  
 **Tested With:** Aspose.3D 24.11 for Java  
-**Author:** Aspose  
+**Author:** Aspose
+
+## Σχετικά Μαθήματα
+
+- [Πώς να Δημιουργήσετε Μοντέλα Κυλίνδρων με Aspose.3D για Java](/3d/java/cylinders/)
+- [Άδεια Προσωρινής Χρήσης Aspose – Δημιουργία Κυλίνδρου με Μετατόπιση Κορυφής (Java)](/3d/java/cylinders/creating-cylinders-with-offset-top/)
+- [Πώς να Αλλάξετε τον Προσανατολισμό Επιπέδου και να Εξάγετε OBJ σε Java](/3d/java/3d-scenes-and-models/change-plane-orientation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

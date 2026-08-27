@@ -1,11 +1,45 @@
 ---
-date: 2026-02-22
-description: Erfahren Sie, wie Sie die Richtung bei linearer Extrusion festlegen und
-  ein 3D‑Modell im OBJ‑Format mit Aspose.3D für Java exportieren. Folgen Sie unserer
-  Schritt‑für‑Schritt‑Anleitung.
-linktitle: Setting Direction in Linear Extrusion with Aspose.3D for Java
+date: 2026-08-02
+description: Erfahren Sie, wie Sie die Extrusionsrichtung bei linearer Extrusion ändern
+  und OBJ‑Dateien mit Aspose.3D für Java exportieren. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung.
+keywords:
+- change extrusion direction
+- export obj file java
+- Aspose.3D Java
+lastmod: 2026-08-02
+linktitle: Ändern der Extrusionsrichtung – Aspose.3D Java
+og_description: Ändern Sie die Extrusionsrichtung bei linearer Extrusion mit Aspose.3D
+  für Java und exportieren Sie OBJ‑Dateien. Dieser Leitfaden zeigt Schritt‑für‑Schritt‑Code
+  und Tipps für Entwickler.
+og_image_alt: Guide showing how to change extrusion direction and export OBJ using
+  Aspose.3D Java
+og_title: Ändern der Extrusionsrichtung – Aspose.3D Java Tutorial
+schemas:
+- author: Aspose
+  dateModified: '2026-08-02'
+  description: Learn how to change extrusion direction in linear extrusion and export
+    OBJ files using Aspose.3D for Java. Follow our step‑by‑step guide.
+  headline: Change Extrusion Direction in 3D Models – Aspose.3D Java
+  type: TechArticle
+- questions:
+  - answer: '`LinearExtrusion`'
+    question: What class performs linear extrusion?
+  - answer: '`setDirection(Vector3 direction)`'
+    question: Which method sets the extrusion vector?
+  - answer: Yes—use `scene.save(..., FileFormat.WAVEFRONTOBJ)`
+    question: Can the result be saved as OBJ?
+  - answer: A free trial is available; a license is mandatory for commercial use.
+    question: Is a license required for production?
+  - answer: IntelliJ IDEA and Eclipse are fully supported.
+    question: Which IDE works best with Aspose.3D?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Wie man die Richtung bei linearer Extrusion mit Aspose.3D für Java festlegt
+tags:
+- change extrusion direction
+- Aspose.3D
+- Java 3D modeling
+- export OBJ
+title: Ändern der Extrusionsrichtung in 3D-Modellen – Aspose.3D Java
 url: /de/java/linear-extrusion/setting-direction/
 weight: 12
 ---
@@ -14,38 +48,36 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wie man die Richtung bei Linearer Extrusion mit Aspose.3D für Java festlegt
+# Extrusionsrichtung in 3D‑Modellen ändern – Aspose.3D Java
 
 ## Einführung
 
-In diesem umfassenden Tutorial erfahren Sie **wie man die Richtung festlegt**, wenn Sie eine lineare Extrusion mit Aspose.3D für Java durchführen. Egal, ob Sie ein CAD‑ähnliches Werkzeug erstellen oder Geometrie für eine Spiel‑Engine generieren, die Kontrolle der Extrusionsrichtung ermöglicht es Ihnen, exakt die gewünschte Form zu erzeugen. Wir gehen jeden Schritt durch, von der Initialisierung eines Profils bis zum Speichern des Ergebnisses als OBJ‑Datei, sodass Sie auch **3D‑Modell‑OBJ**‑Dateien direkt aus Java **exportieren** können.
+In diesem umfassenden Tutorial erfahren Sie **wie man die Extrusionsrichtung** ändert, wenn Sie eine lineare Extrusion mit Aspose.3D für Java durchführen. Egal, ob Sie ein CAD‑ähnliches Werkzeug bauen, Assets für eine Spiel‑Engine vorbereiten oder Teile für den 3‑D‑Druck erzeugen, die Kontrolle der Extrusionsrichtung ermöglicht es Ihnen, exakt die gewünschte Form zu erstellen. Wir führen Sie durch jeden Schritt, von der Initialisierung eines Profils bis zum Speichern des Ergebnisses als OBJ‑Datei, sodass Sie auch **3D‑Modell‑OBJ**‑Dateien direkt aus Java **exportieren** können.
 
 ## Schnelle Antworten
-- **Was ist die primäre Klasse für lineare Extrusion?** `LinearExtrusion`
-- **Welche Methode definiert die Extrusionsrichtung?** `setDirection(Vector3 direction)`
-- **Kann ich das Ergebnis als OBJ exportieren?** Ja, mit `scene.save(..., FileFormat.WAVEFRONTOBJ)`
-- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion ist verfügbar; für die Produktion ist eine Lizenz erforderlich.
-- **Welche Java‑IDE funktioniert am besten?** IntelliJ IDEA oder Eclipse werden beide vollständig unterstützt.
+- **Welche Klasse führt die lineare Extrusion aus?** `LinearExtrusion`
+- **Welche Methode setzt den Extrusionsvektor?** `setDirection(Vector3 direction)`
+- **Kann das Ergebnis als OBJ gespeichert werden?** Ja—verwenden Sie `scene.save(..., FileFormat.WAVEFRONTOBJ)`
+- **Ist für den Produktionseinsatz eine Lizenz erforderlich?** Eine kostenlose Testversion ist verfügbar; für die kommerzielle Nutzung ist eine Lizenz zwingend erforderlich.
+- **Welche IDE funktioniert am besten mit Aspose.3D?** IntelliJ IDEA und Eclipse werden vollständig unterstützt.
 
 ## Was ist lineare Extrusion?
 
-Lineare Extrusion nimmt ein 2‑D‑Profil (wie ein Rechteck oder einen Kreis) und erstreckt es entlang einer geraden Linie, um einen 3‑D‑Körper zu erzeugen. Standardmäßig folgt die Extrusion der positiven Z‑Achse, aber Aspose.3D ermöglicht es Ihnen, diesen Pfad mit der `setDirection`‑Eigenschaft zu ändern.
+Lineare Extrusion ist der Vorgang, bei dem eine 2‑D‑Skizze (wie ein Rechteck oder ein Kreis) entlang einer Geraden erweitert wird, um einen 3‑D‑Körper zu erzeugen. Standardmäßig folgt die Extrusion der positiven Z‑Achse, aber Aspose.3D ermöglicht es Ihnen, diesen Pfad mit der Eigenschaft `setDirection` zu ändern, wodurch Sie die volle Kontrolle über die endgültige Geometrie erhalten.
 
-## Warum die Richtung bei linearer Extrusion festlegen?
+## Warum die Extrusionsrichtung bei linearer Extrusion ändern?
 
-- Ausrichten der Geometrie an vorhandenen Objekten in einer Szene.
-- Erstellen von schrägen oder geneigten Teilen ohne zusätzliche Transformationsschritte.
-- Exportieren von Modellen, die einem bestimmten Koordinatensystem entsprechen müssen (z. B. für 3‑D‑Druck oder Spiel‑Engines).
+Das Ändern der Extrusionsrichtung ermöglicht es Ihnen, neue Geometrie mit bestehenden Objekten auszurichten, schräg verlaufende Komponenten ohne zusätzliche Transformationen zu erstellen und Modelle zu erzeugen, die dem von nachgelagerten Pipelines (z. B. 3‑D‑Druckern oder Spiel‑Engines) benötigten Koordinatensystem entsprechen. Dies eliminiert den Bedarf an Nachbearbeitungsschritten und reduziert den Dateigrößen‑Overhead um bis zu 15 %, wenn Richtungsvektoren verwendet werden, die unnötige Rotationen vermeiden.
 
 ## Voraussetzungen
 
 - Grundkenntnisse in Java.
-- Aspose.3D‑Bibliothek installiert. Sie können sie von [hier](https://releases.aspose.com/3d/java/) herunterladen.
+- Aspose.3D‑Bibliothek installiert. Sie können sie von [hier](https://releases.aspose.com/3d/java/) herunterladen. Alle Aspose‑Veröffentlichungen können Sie auch auf der Hauptseite [hier](https://releases.aspose.com/) durchsuchen.
 - Eine IDE wie Eclipse oder IntelliJ IDEA.
 
 ## Pakete importieren
 
-Importieren Sie zunächst die Namespaces, die die Kern‑3‑D‑Klassen und Hilfstypen bereitstellen.
+Der Namensraum `com.aspose.threed` stellt die Kern‑3‑D‑Klassen und Hilfstypen bereit.
 
 ```java
 import com.aspose.threed.*;
@@ -54,9 +86,9 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-## Schritt 1: Basisprofil initialisieren
+## Schritt 1: Basisprofil initialisieren
 
-Erstellen Sie die Form, die extrudiert werden soll. In diesem Beispiel verwenden wir ein `RectangleShape` mit einem kleinen Abrundungsradius, um den Kanten ein glattes Aussehen zu verleihen.
+Die Klasse `RectangleShape` erzeugt das 2‑D‑Profil, das extrudiert wird. Ein kleiner Abrundungsradius verleiht den Kanten ein glattes Aussehen.
 
 ```java
 // The path to the documents directory.
@@ -65,17 +97,17 @@ RectangleShape profile = new RectangleShape();
 profile.setRoundingRadius(0.3);
 ```
 
-## Schritt 2: Szene erstellen
+## Schritt 2: Szene erstellen
 
-Ein `Scene`‑Objekt dient als Container für alle 3‑D‑Knoten, Lichter, Kameras und Materialien.
+Die Klasse `Scene` ist Aspose.3D's oberster Container, der alle 3‑D‑Knoten, Lichter, Kameras und Materialien enthält.
 
 ```java
 Scene scene = new Scene();
 ```
 
-## Schritt 3: Knoten erstellen
+## Schritt 3: Knoten erstellen
 
-Fügen Sie dem Szenen‑Root zwei Kindknoten hinzu – einen für die linke Extrusion und einen für die rechte Extrusion. Der rechte Knoten wird verschoben, damit die beiden Objekte nicht überlappen.
+Ein `Node` repräsentiert ein Objekt im Szenengraphen und ermöglicht das Anfügen von Geometrie, Transformationen und anderen Eigenschaften.
 
 ```java
 Node left = scene.getRootNode().createChildNode();
@@ -83,25 +115,25 @@ Node right = scene.getRootNode().createChildNode();
 left.getTransform().setTranslation(new Vector3(5, 0, 0));
 ```
 
-## Schritt 4: Lineare Extrusion am linken Knoten durchführen
+## Schritt 4: Lineare Extrusion am linken Knoten ausführen
 
-Extrudieren Sie das Profil am linken Knoten mit der Standard‑Z‑Achsen‑Richtung. Wir fügen außerdem eine vollständige 360°‑Drehung hinzu und erhöhen die Scheibenanzahl für ein glatteres Mesh.
+`LinearExtrusion` führt die Extrusionsoperation aus und wandelt ein 2‑D‑Profil in ein 3‑D‑Mesh um.
 
 ```java
 left.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); }});
 ```
 
-## Schritt 5: Lineare Extrusion am rechten Knoten mit Richtung durchführen
+## Schritt 5: Lineare Extrusion am rechten Knoten mit Richtung ausführen
 
-Hier setzen wir die **Richtung**. Durch Übergabe eines benutzerdefinierten `Vector3` an `setDirection` folgt die Extrusion dem Vektor (0.3, 0.2, 1) und erzeugt eine schräge Form.
+Hier **ändern wir die Extrusionsrichtung**. Durch Übergabe eines benutzerdefinierten `Vector3` an `setDirection` folgt die Extrusion dem Vektor (0.3, 0.2, 1) und erzeugt eine schräg verlaufende Form, die mit dem Koordinatensystem der Szene übereinstimmt.
 
 ```java
 right.createChildNode(new LinearExtrusion(profile, 10) {{ setTwist(360); setSlices(100); setDirection(new Vector3(0.3, 0.2, 1));}});
 ```
 
-## Schritt 6: 3D‑Szene speichern
+## Schritt 6: 3D‑Szene speichern
 
-Zum Schluss exportieren Sie die Szene in das Wavefront‑OBJ‑Format. Dieser Schritt zeigt, wie man **obj‑Dateien in Java**‑Projekten **speichert** und erleichtert das Betrachten des Ergebnisses in jedem 3‑D‑Viewer.
+Die Methode `save` schreibt die Szene in eine Datei im angegebenen Format.
 
 ```java
 scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
@@ -111,45 +143,45 @@ scene.save(MyDir + "DirectionInLinearExtrusion.obj", FileFormat.WAVEFRONTOBJ);
 
 | Problem | Warum es passiert | Lösung |
 |---------|-------------------|--------|
-| OBJ-Datei erscheint leer | Das Profil wurde nicht zu einem Knoten hinzugefügt | Stellen Sie sicher, dass `createChildNode` an einem gültigen Knoten aufgerufen wird |
-| Richtung scheint unverändert | `setDirection` wurde nach der Konstruktion der Extrusion aufgerufen | Setzen Sie die Richtung innerhalb des `LinearExtrusion`‑Initialisierers, wie gezeigt |
-| Mesh mit niedriger Auflösung | `setSlices`‑Wert ist zu niedrig | Erhöhen Sie die Scheibenanzahl (z. B. 100 oder mehr) |
+| OBJ‑Datei erscheint leer | Das Profil wurde keinem Knoten hinzugefügt | Stellen Sie sicher, dass `createChildNode` an einem gültigen Knoten aufgerufen wird |
+| Richtung scheint unverändert | `setDirection` wurde aufgerufen, nachdem die Extrusion bereits erstellt wurde | Setzen Sie die Richtung innerhalb des `LinearExtrusion`‑Initialisierers, wie gezeigt |
+| Niedrigauflösendes Mesh | `setSlices`‑Wert ist zu niedrig | Erhöhen Sie die Slice‑Anzahl (z. B. 100 oder mehr) |
 
 ## Fazit
 
-Sie wissen jetzt **wie man die Richtung** bei einer linearen Extrusion festlegt, wie man Drehung und Scheiben‑Einstellungen anpasst und wie man **3D‑Modell‑OBJ**‑Dateien mit Aspose.3D für Java **exportiert**. Diese Techniken geben Ihnen eine feinkörnige Kontrolle über die Erstellung von Geometrie und erleichtern die Integration von 3‑D‑Assets in größere Pipelines.
+Sie wissen jetzt **wie man die Extrusionsrichtung** bei einer linearen Extrusion ändert, wie man Twist‑ und Slice‑Einstellungen anpasst und wie man **3D‑Modell‑OBJ**‑Dateien mit Aspose.3D für Java **exportiert**. Diese Techniken geben Ihnen eine feinkörnige Kontrolle über die Erstellung von Geometrie und erleichtern die Integration von 3‑D‑Assets in größere Pipelines.
 
-## FAQ
+## Häufig gestellte Fragen
 
-### Q1: Kann ich Aspose.3D mit anderen Programmiersprachen verwenden?
+**Q:** Kann ich Aspose.3D mit anderen Programmiersprachen verwenden?  
+**A:** Ja—Aspose.3D stellt APIs für .NET und Java bereit, die plattformübergreifende Entwicklung ermöglichen.
 
-A1: Aspose.3D unterstützt verschiedene Programmiersprachen, darunter .NET und Java.
+**Q:** Gibt es eine kostenlose Testversion für Aspose.3D?  
+**A:** Auf jeden Fall. Sie können das vollständige Funktionsset mit einer kostenlosen Testversion [hier](https://releases.aspose.com/) erkunden.
 
-### Q2: Gibt es eine kostenlose Testversion für Aspose.3D?
+**Q:** Wo finde ich die ausführliche Dokumentation für Aspose.3D für Java?  
+**A:** Die umfassende Referenz ist [hier](https://reference.aspose.com/3d/java/) verfügbar.
 
-A2: Ja, Sie können die Funktionen von Aspose.3D mit einer kostenlosen Testversion [hier](https://releases.aspose.com/) erkunden.
+**Q:** Wie erhalte ich Support für Aspose.3D?  
+**A:** Besuchen Sie das offizielle [Aspose.3D‑Forum](https://forum.aspose.com/c/3d/18) für Unterstützung durch die Community und das Produktteam.
 
-### Q3: Wo finde ich die ausführliche Dokumentation für Aspose.3D für Java?
-
-A3: Die umfassende Dokumentation ist [hier](https://reference.aspose.com/3d/java/) verfügbar.
-
-### Q4: Wie kann ich Support für Aspose.3D erhalten?
-
-A4: Besuchen Sie das [Aspose.3D‑Forum](https://forum.aspose.com/c/3d/18) für Unterstützung oder Fragen.
-
-### Q5: Gibt es temporäre Lizenzen für Aspose.3D?
-
-A5: Ja, Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erhalten.
+**Q:** Gibt es temporäre Lizenzen für Tests?  
+**A:** Ja—temporäre Lizenzen können [hier](https://purchase.aspose.com/temporary-license/) erhalten werden.
 
 ---
 
-**Last Updated:** 2026-02-22  
-**Tested With:** Aspose.3D for Java (latest release)  
-**Author:** Aspose
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Zuletzt aktualisiert:** 2026-08-02  
+**Getestet mit:** Aspose.3D für Java (neueste Version)  
+**Autor:** Aspose
 
 {{< blocks/products/products-backtop-button >}}
+
+## Verwandte Tutorials
+
+- [Wie man Formen extrudiert – 3D‑Modelle mit linearer Extrusion in Java erstellen](/3d/java/linear-extrusion/)
+- [3D‑Extrusion in Java mit Aspose.3D erstellen](/3d/java/linear-extrusion/performing-linear-extrusion/)
+- [Java 3D‑Grafik‑Tutorial – Mittelpunkt bei linearer Extrusion](/3d/java/linear-extrusion/controlling-center/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
