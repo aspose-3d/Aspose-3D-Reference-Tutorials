@@ -100,7 +100,7 @@ The `RenderTexture`, `Renderer`, `Scene`, `Camera`, and related classes live in 
 
 ```java
 import com.aspose.threed.*;
-import com.aspose.threed.render.*;
+import com.aspose.threed.*;
 import com.aspose.threed.geometry.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -157,12 +157,12 @@ The `RenderTexture` class is Aspose.3D's off‑screen buffer that can be sized i
 
 ```java
 try (Renderer renderer = Renderer.createRenderer()) {
-    try (IRenderTexture rt = renderer.getRenderFactory().createRenderTexture(new RenderParameters(), 1, image.getWidth(), image.getHeight())) {
+    try (IRenderTexture rt = renderer.getRenderFactory().createRenderTexture(new RenderParameters(), 1, bitmap.getWidth(), bitmap.getHeight())) {
         rt.createViewport(camera, new Vector3(1, 0, 0), RelativeRectangle.fromScale(0, 0, 1, 1));
         renderer.render(rt);
         ITexture2D texture = (ITexture2D) rt.getTargets().get(0);
         TextureData data = texture.toBitmap();
-        data.save(output);
+        data.save(outputPath);
     }
 }
 ```
@@ -236,7 +236,7 @@ Camera camera = setupScene(scene);
 ```
 
 ```java
-String output = "manual-render-to-image.png";
+String output = "manual-output/rendered_image.png";
 ```
 
 ```java
@@ -249,7 +249,7 @@ scene.render(camera, image);
 
 ```java
 try (Renderer renderer = Renderer.createRenderer()) {
-    try (IRenderTexture rt = renderer.getRenderFactory().createRenderTexture(new RenderParameters(), 1, image.getWidth(), image.getHeight())) {
+    try (IRenderTexture rt = renderer.getRenderFactory().createRenderTexture(new RenderParameters(), 1, bitmap.getWidth(), bitmap.getHeight())) {
         rt.createViewport(camera, Color.pink, RelativeRectangle.fromScale(0, 0, 1, 1));
         renderer.render(rt);
         ITexture2D texture = (ITexture2D) rt.getTargets().get(0);
