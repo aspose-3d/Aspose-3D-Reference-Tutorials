@@ -91,69 +91,57 @@ The helper creates a basic cube mesh that we’ll animate later. This is the fou
 // Each cube node has its own translation
 Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ```
-
-Each node can have its own transform (translation, rotation, scale). Here we add a child node named **cube1**.
-
 ## Step 4: Find Translation Property
 
-```java
+````java
 // Find translation property on node's transform object
 Property translation = cube1.getTransform().findProperty("Translation");
-```
-
-The `Translation` property is what we’ll animate—moving the cube along the X, Y, or Z axes.
-
-## Step 5: Create Bind Point
-
-```java
-// Create a bind point based on the translation property
-BindPoint bindPoint = new BindPoint(scene, translation);
-```
+````
 
 A **bind point** links a property (like translation) to an animation curve.
 
-## Step 6: Create Animation Curve for the X Axis
+## Step 5: Create Animation Curve for the X Axis
 
-```java
-// Create the animation curve on the X component of the scale
-KeyframeSequence kfs = new KeyframeSequence();
+````java
+// Create an animation node for the scene
+AnimationNode animNode = new AnimationNode("TranslationAnimation");
+
+// Create a bind point for the translation property on the cube's transform
+BindPoint bp = animNode.createBindPoint(cube1.getTransform(), "Translation");
+
+// Create the animation curve on the X component of the translation
+KeyframeSequence kfsX = new KeyframeSequence();
 
 // Add keyframes for X component
-kfs.add(0, 10.0f, Interpolation.BEZIER);
-kfs.add(3, 20.0f, Interpolation.BEZIER);
-kfs.add(5, 30.0f, Interpolation.LINEAR);
+kfsX.add(0, 10.0f, Interpolation.BEZIER);
+kfsX.add(3, 20.0f, Interpolation.BEZIER);
+kfsX.add(5, 30.0f, Interpolation.LINEAR);
 
-// Bind the keyframe sequence to the X component
-bindPoint.bindKeyframeSequence("X", kfs);
-```
+// Bind the keyframe sequence to the X channel of the bind point
+bp.bindKeyframeSequence("X", kfsX);
+````
 
-The curve defines three keyframes: at time 0, 3, and 5 seconds. The first two use **BEZIER** for smooth motion, while the last uses **LINEAR**—perfect for demonstrating linear interpolation 3d.
+The curve defines three keyframes: at time​0,​3, and​5 seconds. The first two use **BEZIER** for smooth motion, while the last uses **LINEAR**​—perfect for demonstrating linear interpolation 3d.
+## Step 6: Repeat for Z Component
 
-## Step 7: Repeat for Z Component
-
-```java
+````java
 // Repeat the process for the Z component
-kfs = new KeyframeSequence();
-kfs.add(0, 10.0f, Interpolation.BEZIER);
-kfs.add(3, -10.0f, Interpolation.BEZIER);
-kfs.add(5, 0.0f, Interpolation.LINEAR);
+KeyframeSequence kfsZ = new KeyframeSequence();
+kfsZ.add(0, 10.0f, Interpolation.BEZIER);
+kfsZ.add(3, -10.0f, Interpolation.BEZIER);
+kfsZ.add(5, 0.0f, Interpolation.LINEAR);
 
-bindPoint.bindKeyframeSequence("Z", kfs);
-```
+// Bind the keyframe sequence to the Z channel of the same bind point
+bp.bindKeyframeSequence("Z", kfsZ);
+````
 
-Animating the Z axis gives the cube a more dynamic path through 3‑D space.
-
-## Step 8: Save the 3D Scene
-
-```java
-// Specify the directory for saving the 3D scene
+Animates the Z axis gives the cube a more dynamic path through 3‑D space.// Specify the directory for saving the 3D scene
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "PropertyToDocument.fbx";
 
 // Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7500ASCII);
-```
-
+````
 The scene is persisted as an **animated FBX** file, which you can open in tools like Blender, Unity, or Autodesk Maya to preview the animation.
 
 ## How to Export Animated FBX

@@ -1,151 +1,140 @@
 ---
+title: "How to Change Plane Orientation and Export OBJ in Java"
+linktitle: "How to Change Plane Orientation and Export OBJ in Java"
+second_title: "Aspose.3D Java API"
+description: "Learn how to change plane orientation and export OBJ in Java using Aspose.3D. Step‑by‑step guide to export 3D model OBJ files."
+weight: 10
+url: /java/3d-scenes-and-models/change-plane-orientation/
 date: 2026-04-29
-description: 學習如何在 Java 中使用 Aspose.3D 變更平面方向並匯出 OBJ。一步一步的指南，教您匯出 3D 模型 OBJ 檔案。
 keywords:
 - change plane orientation
 - create sloped plane
 - export obj java
 - aspose 3d export obj
-linktitle: 如何在 Java 中更改平面方向並匯出 OBJ
-second_title: Aspose.3D Java API
-title: 如何在 Java 中更改平面方向並匯出 OBJ
-url: /zh-hant/java/3d-scenes-and-models/change-plane-orientation/
-weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何在 Java 中變更平面方向並匯出 OBJ
+# How to Change Plane Orientation and Export OBJ in Java
 
-## 簡介
+## Introduction
 
-在本教學中，您將了解 **如何變更平面方向** 以及使用 Aspose.3D Java API 從 Java **匯出 OBJ** 檔案。調整平面的 up‑vector 可讓您在 **create 3D scene** 工作流程中精細控制物件的放置——對於遊戲、模擬和建築視覺化等需要精確定位的情境非常適合。
+In this tutorial you’ll discover **how to change plane orientation** and **export OBJ** files from Java using the Aspose.3D Java API. Adjusting a plane’s up‑vector gives you fine‑grained control over object placement inside a **create 3D scene** workflow—perfect for games, simulations, and architectural visualizations where exact positioning matters.
 
-## 快速解答
-- **「export OBJ」是什麼意思？** 它是指將 3‑D 場景轉換為 Wavefront OBJ 格式，這是一種被廣泛支援的網格檔案類型。  
-- **為何要調整平面方向？** 變更平面的 up‑vector 可讓您在場景中將幾何體精確對齊至所需位置。  
-- **執行程式碼是否需要授權？** 免費試用可用於開發；商業授權則需於正式環境使用。  
-- **支援哪個 Java 版本？** Aspose.3D 可在 Java 8 及更新版本上執行。  
-- **我可以匯出其他格式嗎？** 可以——API 也支援 FBX、STL 等多種格式。
+## Quick Answers
+- **What does “export OBJ” mean?** It means converting a 3‑D scene into the Wavefront OBJ format, a universally supported mesh file type.  
+- **Why adjust plane orientation?** Changing the plane’s up‑vector lets you align geometry exactly where you need it in the scene.  
+- **Do I need a license to run the code?** A free trial works for development; a commercial license is required for production.  
+- **Which Java version is supported?** Aspose.3D works with Java 8 and newer.  
+- **Can I export other formats?** Yes – the API also supports FBX, STL, and more.
 
-## 什麼是「變更平面方向」？
-變更平面方向是重新定義平面的 **up‑vector**，使平面相對於預設的 XY 平面傾斜的過程。這讓您在匯出模型之前能 **建立斜坡平面** 幾何，例如坡道、屋頂或自訂參考平面。
+## What is “change plane orientation”?
+Changing plane orientation is the process of redefining a plane’s **up‑vector** so that the plane tilts away from the default XY‑plane. This lets you **create sloped plane** geometry such as ramps, roofs, or custom reference planes before exporting the model.
 
-## 為何要修改平面方向？
-變更平面的方向（使用 **how to set plane up**）可讓您：
+## Why modify plane orientation?
+Altering the plane’s orientation (using **how to set plane up**) lets you:
 
-* 將物件對齊至自訂座標軸，而非預設的世界座標軸。  
-* 模擬傾斜表面，例如坡道、屋頂或相機參考平面。  
-* 確保匯出的 OBJ 網格符合設計的視覺意圖，使 **export 3d model obj** 步驟更可靠。
+* Align objects with custom axes instead of the default world axes.  
+* Simulate tilted surfaces such as ramps, roofs, or camera reference planes.  
+* Ensure that exported OBJ meshes match the visual intent of your design, making the **export 3d model obj** step reliable.
 
-## 先決條件
+## Prerequisites
 
-在開始之前，請確保您已具備：
+Before we start, make sure you have:
 
-- 對 Java 程式設計有基本了解。  
-- 已安裝 Aspose.3D for Java – 可在此下載 [here](https://releases.aspose.com/3d/java/)。  
-- 已備妥 Java IDE 或建置工具（例如 IntelliJ IDEA、Maven 或 Gradle）以進行編碼。
+- A basic understanding of Java programming.  
+- Aspose.3D for Java installed – download it [here](https://releases.aspose.com/3d/java/).  
+- A Java IDE or build tool (e.g., IntelliJ IDEA, Maven, or Gradle) ready for coding.
 
-## 匯入套件
+## Import Packages
 
-首先，匯入可讓您使用 Aspose.3D 功能的類別。
-
-```java
-import com.aspose.threed.FileFormat;
+First, import the classes that give you access to the Aspose.3D functionality.\u0060\u0060\u0060javaimport com.aspose.threed.FileFormat;
 import com.aspose.threed.Plane;
 import com.aspose.threed.Scene;
 import com.aspose.threed.Vector3;
-```
 
-## 步驟說明
+import java.io.IOException;\u0060\u0060\u0060
 
-### 步驟 1：設定文件目錄路徑  
-定義匯出 OBJ 檔案的儲存位置。
+## Step-by-Step Guide### Step 1: Set Document Directory Path  
+Define where the exported OBJ file will be saved.
 
-```java
+````java
 String MyDir = "Your Document Directory";
-```
+````
 
-將 `"Your Document Directory"` 替換為您機器上的絕對路徑（例如 `C:/3DOutputs/`）。
+Replace `"Your Document Directory"` with the absolute path on your machine (e.g., `C:/3DOutputs/`).
 
-### 步驟 2：初始化場景 – create 3D scene  
-建立一個全新的場景物件，用於容納所有幾何體。
+### Step 2: Initialize the Scene – create 3D scene  
+Create a fresh scene object that will hold all geometry.
 
-```java
+````java
 Scene scene = new Scene();
-```
+````
 
-### 步驟 3：初始化平面 – how to modify plane  
-實例化一個 `Plane` 物件，稍後將對其進行方向設定。
+### Step 3: Initialize the Plane – how to modify plane  
+Instantiate a `Plane` object that we will later orient.
 
-```java
+````java
 Plane plane = new Plane();
-```
+````
 
-### 步驟 4：設定向量 – how to set plane up  
-為平面定義自訂的 up‑vector。這是 **change plane orientation** 的核心。
+### Step 4: Set Vector – how to set plane up  
+Define a custom up-vector for the plane. This is the core of **change plane orientation**.
+The vector `(1, 1, 3)` tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.### Step 5: Complete the Plane Orientation and Export  
+ Define a custom up-vector for the plane. This is the core of **change plane orientation**.\u0060\u0060\u0060\u0060java
+// ExStart:ChangePlaneOrientation
+try {
+    plane.setUp(new Vector3(1, 1, 3));
+    
+    scene.getRootNode().createChildNode(plane);
+    
+    scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
+} catch (IOException e) {
+    e.printStackTrace();
+}// ExEnd:ChangePlaneOrientation
+\u0060\u0060\u0060
 
-```java
-plane.setUp(new Vector3(1, 1, 3));
-```
+After this call, you'll find \u0060ChangePlaneOrientation.obj\u0060 in the directory you specified, ready for any **aspose 3d export obj** workflow.## Common Issues and Solutions
 
-向量 `(1, 1, 3)` 使平面相對於預設的 XY‑plane 傾斜，提供您可在之後 **export obj java** 的斜坡表面。
-
-### 步驟 5：產生平面 – add plane to scene  
-將平面附加至根節點，使其成為場景層級結構的一部分。
-
-```java
-scene.getRootNode().createChildNode(plane);
-```
-
-### 步驟 6：儲存場景 – export OBJ file  
-將整個場景（包括已設定方向的平面）匯出為 OBJ 檔案。
-
-```java
-scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
-```
-
-呼叫完成後，您會在先前指定的目錄中找到 `ChangePlaneOrientation.obj`，可供任何 **aspose 3d export obj** 工作流程使用。
-
-## 常見問題與解決方案
-
-| 問題 | 發生原因 | 解決方法 |
+| Issue | Why It Happens | Fix |
 |-------|----------------|-----|
-| **File not found** 錯誤（儲存時） | `MyDir` 不存在或缺乏寫入權限 | 事先建立資料夾，或使用具備適當權限的絕對路徑。 |
-| 平面在檢視器中顯示為平坦 | 向量與預設 up‑vector 共線 | 選擇非平行的向量（例如 `(1, 0, 1)`）以看到可見的傾斜。 |
-| OBJ 檔案載入時缺少紋理 | 場景中未加入紋理 | 如有需要，請在匯出前將材質/紋理附加至幾何體。 |
+| **File not found** error when saving | `MyDir` does not exist or lacks write permission | Create the folder beforehand or use an absolute path with proper permissions. |
+| Plane appears flat in the viewer | Vector is collinear with default up‑vector | Choose a non‑parallel vector (e.g., `(1, 0, 1)`) to see a visible tilt. |
+| OBJ file loads with missing textures | Textures were never added to the scene | Attach material/texture to geometry before exporting if needed. |
 
-## 常見問答
+## Frequently Asked Questions
 
-**Q: 我可以將 Aspose.3D for Java 與其他程式語言一起使用嗎？**  
-A: 可以，Aspose.3D 支援 Java、.NET 以及其他平台，透過語言特定的 API。
+**Q: Can I use Aspose.3D for Java with other programming languages?**  
+A: Yes, Aspose.3D supports Java, .NET, and other platforms via language‑specific APIs.
 
-**Q: Aspose.3D 有提供免費試用嗎？**  
-A: 當然！您可透過此連結取得免費試用，探索 Aspose.3D 的功能 [here](https://releases.aspose.com/)。
+**Q: Is a free trial available for Aspose.3D?**  
+A: Certainly! You can explore the features of Aspose.3D by accessing the free trial [here](https://releases.aspose.com/).
 
-**Q: 我該去哪裡取得 Aspose.3D 的支援？**  
-A: 如有任何問題或需要協助，請前往我們的 [support forum](https://forum.aspose.com/c/3d/18)。
+**Q: Where can I find support for Aspose.3D?**  
+A: For any queries or assistance, visit our [support forum](https://forum.aspose.com/c/3d/18).
 
-**Q: 我要如何購買 Aspose.3D？**  
-A: 請前往我們的 [buy page](https://purchase.aspose.com/buy) 進行購買。
+**Q: How can I purchase Aspose.3D?**  
+A: To purchase Aspose.3D, visit our [buy page](https://purchase.aspose.com/buy).
 
-**Q: 有臨時授權的選項嗎？**  
-A: 有，若您需要臨時授權，可在此取得 [here](https://purchase.aspose.com/temporary-license/)。
+**Q: Is there a temporary license option?**  
+A: Yes, if you need a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
 
-**Q: 我可以將場景匯出為除 OBJ 之外的其他格式嗎？**  
-A: 當然可以。`Scene.save` 方法支援 FBX、STL 以及其他多種格式，只需更改 `FileFormat` 列舉即可。
+**Q: Can I export the scene to formats other than OBJ?**  
+A: Absolutely. The `Scene.save` method supports FBX, STL, and several other formats – just change the `FileFormat` enum.
 
-## 結論
+## Conclusion
+### Step 4: Set Vector \u2013 how to set plane up  \nDefine a custom up-vector for the plane. This is the core of **change plane orientation**.\nThe vector \u0060(1, 1, 3)\u0060 tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.
 
-透過上述步驟，您已學會在 Aspose.3D for Java 中 **變更平面方向** 並 **匯出 OBJ**。嘗試不同的 up‑vectors 以建立自訂斜坡、坡道或相機參考平面，並將匯出的 OBJ 檔案整合至後續流程——無論是遊戲引擎、CAD 工具或基於 Web 的 3‑D 檢視器。
+### Step 5: Complete the Plane Orientation and Export  \nDefine a custom up-vector for the plane. This is the core of **change plane orientation**.
 
+\u0060\u0060\u0060\u0060java
 ---
 
-**最後更新：** 2026-04-29  
-**測試環境：** Aspose.3D for Java 24.11  
-**作者：** Aspose  
+**Last Updated:** 2026-04-29  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

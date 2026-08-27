@@ -47,17 +47,17 @@ import com.aspose.threed.PolygonModifier;
 import com.aspose.threed.Scene;
 import java.io.IOException;
 ```
-
 ## Step 1: Load the 3D File
 First, load the source model that you want to process.
 
-```java
+````java
 // The path to the documents directory.
 String MyDir = "Your Document Directory";
+MyDir = MyDir + "document.fbx";
 // Load an existing 3D file
-Scene scene = new Scene(MyDir + "document.fbx");
-```
-
+Scene scene = new Scene();
+scene.open(MyDir);
+````
 > **Pro tip:** Replace `"Your Document Directory"` with the absolute path on your machine, and ensure the file name matches the actual FBX file you intend to edit.
 
 ## Step 2: Triangulate the Scene (how to triangulate mesh)

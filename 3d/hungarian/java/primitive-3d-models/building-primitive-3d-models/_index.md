@@ -1,11 +1,61 @@
 ---
-date: 2026-03-13
-description: Tanulja meg, hogyan hozhat létre 3D hengert, dobozt és egyéb primitív
-  modelleket az Aspose.3D for Java használatával, és mentse a jelenetet FBX formátumban.
-linktitle: Building Primitive 3D Models with Aspose.3D for Java
+date: 2026-06-03
+description: Ismerje meg, hogyan exportálhatja a jelenetet FBX formátumba, és hozhat
+  létre 3D cylinder, box és egyéb primitive models az Aspose.3D for Java használatával.
+keywords:
+- export scene as fbx
+- convert 3d model fbx
+- Aspose 3D primitives
+- Java 3D modeling
+linktitle: Primitív 3D Models építése az Aspose.3D for Java segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to export scene as FBX and create 3D cylinder, box, and other
+    primitive models using Aspose.3D for Java.
+  headline: Export scene as FBX and build cylinder with Aspose.3D Java
+  type: TechArticle
+- description: Learn how to export scene as FBX and create 3D cylinder, box, and other
+    primitive models using Aspose.3D for Java.
+  name: Export scene as FBX and build cylinder with Aspose.3D Java
+  steps:
+  - name: Initialize a Scene Object
+    text: The `Scene` class is Aspose.3D's top‑level container that holds all nodes,
+      lights, cameras, and materials in memory.
+  - name: Build a 3D box model
+    text: The `Box` class represents a rectangular prism and is useful for testing
+      the coordinate system. Adding it as a child of the scene’s root node positions
+      it at the origin.
+  - name: Create a 3D cylinder model
+    text: The `Cylinder` class is Aspose.3D's built‑in cylinder primitive. It comes
+      with default dimensions (radius = 1, height = 2) but you can customise them
+      via its constructor.
+  - name: Save the drawing in the FBX format
+    text: After assembling the scene, export it so other tools (e.g., Unity, Blender)
+      can read it. We use the `FBX7500ASCII` format, which is widely supported and
+      human‑readable.
+  type: HowTo
+- questions:
+  - answer: Aspose.3D primarily supports Java, but there are versions available for
+      .NET and C++ as well.
+    question: Can I use Aspose.3D for Java with other programming languages?
+  - answer: Absolutely. It provides a comprehensive set of features—including mesh
+      manipulation, material assignment, and animation—making it suitable for both
+      simple primitives and intricate models.
+    question: Is Aspose.3D suitable for complex 3D modeling tasks?
+  - answer: Visit the [Aspose.3D Forum](https://forum.aspose.com/c/3d/18) for community
+      support and discussions.
+    question: Where can I find additional help and support?
+  - answer: Yes, you can explore a [free trial](https://releases.aspose.com/) before
+      making a purchase decision.
+    question: Can I try Aspose.3D before purchasing?
+  - answer: You can obtain a [temporary license](https://purchase.aspose.com/temporary-license/)
+      for Aspose.3D through the website.
+    question: How do I obtain a temporary license for Aspose.3D?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Hogyan készítsünk 3D hengert és egyéb primitív 3D modelleket az Aspose.3D for
-  Java segítségével
+title: Exportálja a jelenetet FBX formátumba, és építsen hengert az Aspose.3D Java
+  segítségével
 url: /hu/java/primitive-3d-models/building-primitive-3d-models/
 weight: 10
 ---
@@ -14,52 +64,56 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Primitive 3D modellek építése az Aspose.3D for Java segítségével
+# Exportálja a jelenetet FBX formátumba, és építsen hengert az Aspose.3D Java-val
 
 ## Bevezetés
 
-Ha valaha is **3D henger** objektumokat (vagy bármely más alapformát) kellett közvetlenül Java kódból létrehoznod, az Aspose.3D gondtalanul megoldja a feladatot. Ebben az útmutatóban végigvezetünk a teljes munkafolyamaton – a környezet beállításától a végső jelenet FBX fájlként való mentéséig – hogy azonnal programozottan generálhass 3D geometriát.
+Ha valaha is szüksége volt **3D henger** (vagy bármely más alapvető alakzat) közvetlenül Java kódból létrehozni, az Aspose.3D könnyűvé teszi a feladatot. Ebben az útmutatóban végigvezetjük a teljes munkafolyamatot – a környezet beállításától a **jelenet exportálása FBX**-ként – hogy azonnal programozottan generálhasson 3D geometriát. Meg fogja látni, hogyan kezeli a könyvtár az primitíveket, hogyan szervezi őket egy jelenet gráfba, és hogyan menti az eredményt olyan formátumban, amelyet a Unity, a Blender vagy bármely más 3D eszköz olvas.
 
 ## Gyors válaszok
-- **Melyik könyvtár teszi lehetővé, hogy 3D hengert hozzak létre Java-ban?** Aspose.3D for Java.  
-- **Milyen formátumba exportálhatom a jelenetet?** FBX (ASCII 7500) using `FileFormat.FBX7500ASCII`.  
-- **Szükségem van licencre a fejlesztéshez?** Egy ingyenes próba működik teszteléshez; a termeléshez állandó licenc szükséges.  
-- **Melyek a támogatott fő primitívek?** Box, Cylinder, Sphere, Cone, and more.  
-- **Kompatibilis a kód a Java 8 és újabb verziókkal?** Igen, az Aspose.3D a JDK 8+ célja.  
+- **Melyik könyvtár teszi lehetővé 3D henger létrehozását Java-ban?** Aspose.3D for Java.  
+- **Milyen formátumba exportálhatom a jelenetet?** FBX (ASCII 7500) a `FileFormat.FBX7500ASCII` használatával.  
+- **Szükségem van licencre a fejlesztéshez?** Egy ingyenes próba a teszteléshez működik; egy állandó licenc szükséges a termeléshez.  
+- **Melyek a támogatott fő primitívek?** Box, Cylinder, Sphere, Cone, és több mint 10 további alakzat.  
+- **Kompatibilis a kód a Java 8 és újabb verziókkal?** Igen, az Aspose.3D a JDK 8+ célpontja.
 
 ## Mi az a 3D henger primitív?
 
-A henger primitív egy alapvető geometriai alak, amelyet a sugár és a magasság határoz meg. Sok 3D pipeline-ban építőkövként szolgál összetettebb modellekhez, például csövekhez, kerekekhez vagy építészeti oszlopokhoz. Az Aspose.3D egy kész `Cylinder` osztályt biztosít, így nem kell manuálisan számolnod a csúcspontokat.
+A henger primitív egy alapvető geometriai alakzat, amelyet sugár és magasság határoz meg. Sok 3D folyamatban építőelemként szolgál összetettebb modellekhez, mint például csövek, kerekek vagy építészeti oszlopok. Az Aspose.3D egy kész `Cylinder` osztályt biztosít, így nem kell manuálisan számolni a csúcsokat.
 
 ## Miért használjuk az Aspose.3D for Java-t?
 
-- **Teljes körű 3D motor** – támogatja a népszerű formátumok importálását/exportálását (FBX, OBJ, STL, stb.).  
-- **Tiszta Java API** – nincs natív függőség, tökéletes keresztplatformos projektekhez.  
-- **Robusztus jelenetgrafikon** – lehetővé teszi az objektumok hierarchikus szervezését.  
-- **Egyszerű licencelés** – kezdje egy ingyenes próbaverzióval, majd frissítsen állandó licencre.  
+Az Aspose.3D for Java egy átfogó, tisztán Java‑alapú 3D motorral rendelkezik, amely megszünteti a natív könyvtárak szükségességét, így ideális a platformközi fejlesztéshez. Széles körű import‑ és exportformátumokat támogat, robusztus jelenet gráfot biztosít a hierarchikus szervezéshez, és beépített primitíveket tartalmaz, amelyekkel minimális kóddal hozhat létre geometriát. Ezek a funkciók együtt felgyorsítják a fejlesztést és csökkentik a karbantartási terhet.
 
-## Előkövetelmények
+- **Teljes funkcionalitású 3D motor** – **több mint 30** népszerű formátum importálását/exportálását támogat (FBX, OBJ, STL, GLTF, 3DS, stb.).  
+- **Pure Java API** – nincs natív függőség, tökéletes a platformközi projektekhez.  
+- **Robusztus jelenet gráf** – lehetővé teszi az objektumok hierarchikus szervezését, így a nagy jelenetek könnyen kezelhetők.  
+- **Egyszerű licencelés** – kezdje egy ingyenes próbalicenceléssel, majd frissítsen állandó licencre, amikor élőben használja.
 
-Mielőtt a kódba merülnél, győződj meg róla, hogy a következők rendelkezésre állnak:
+## Előfeltételek
 
-1. **Java Development Kit (JDK)** – JDK 8 vagy újabb telepítve a gépeden.  
-2. **Aspose.3D for Java könyvtár** – töltsd le és telepítsd a [letöltési oldalról](https://releases.aspose.com/3d/java/).  
+Mielőtt a kódba merülnél, győződj meg róla, hogy a következők telepítve vannak:
+
+1. **Java Development Kit (JDK)** – JDK 8 vagy újabb telepítve a gépén.  
+2. **Aspose.3D for Java library** – töltse le és telepítse a [download page](https://releases.aspose.com/3d/java/) oldalról.  
 
 ## Csomagok importálása
 
-Kezdjük a fő Aspose.3D névtér importálásával. Ez hozzáférést biztosít a `Scene`, `Box`, `Cylinder` és a fájlformátum‑konstansokhoz.
+Kezdje a core Aspose.3D névtér importálásával. Ez hozzáférést biztosít a `Scene`, `Box`, `Cylinder` és a fájlformátum konstansokhoz.
 
 ```java
 import com.aspose.threed.*;
 ```
 
-Most, hogy a könyvtár hivatkozva van, hozzunk létre egy jelenetet, és adjunk hozzá némi primitív geometriát.
+Miután a könyvtár hivatkozásra került, hozzunk létre egy jelenetet, és adjunk hozzá némi primitív geometriát.
 
-## Hogyan hozzunk létre 3D hengert és más primitíveket egy jelenetben
+## Hogyan exportáljuk a jelenetet FBX formátumba és hozzunk létre 3D primitíveket?
 
-### 1. lépés: Scene objektum inicializálása
+Töltsön be egy új `Scene` objektumot, adjon hozzá primitív csomópontokat (Box, Cylinder, stb.), majd hívja meg a `save` metódust az FBX7500ASCII formátummal. Néhány sorban egy teljes funkcionalitású FBX fájlt kap, amely bármely nagyobb 3D szerkesztőben megnyitható, lehetővé téve a zökkenőmentes integrációt játék motorokkal, renderelési folyamatokkal vagy AR/VR alkalmazásokkal.
 
-Először egy `Scene` tárolót kell létrehoznunk, amely az összes 3D csomópontot tartalmazza.
+### 1. lépés: Jelenet objektum inicializálása
+
+`Scene` osztály az Aspose.3D felső szintű tárolója, amely memóriában tartja az összes csomópontot, fényt, kamerát és anyagot.
 
 ```java
 // The path to the documents directory.
@@ -69,9 +123,9 @@ String myDir = "Your Document Directory";
 Scene scene = new Scene();
 ```
 
-### 2. lépés: 3D doboz modell építése
+### 2. lépés: 3D doboz modell felépítése
 
-A doboz primitív hasznos a koordináta‑rendszer teszteléséhez. Itt a jelenet gyökércsomópontjának gyermekeként adjuk hozzá.
+`Box` osztály egy téglalapprizmát képvisel, és hasznos a koordináta rendszer teszteléséhez. Gyökércsomópont gyermekeként hozzáadva a jelenethez, az eredetben helyezkedik el.
 
 ```java
 // Create a Box model
@@ -80,7 +134,7 @@ scene.getRootNode().createChildNode("box", new Box());
 
 ### 3. lépés: 3D henger modell létrehozása
 
-Most ténylegesen **3D hengert** hozunk létre. A `Cylinder` osztály alapértelmezett méretekkel érkezik, de a konstruktorában testreszabhatod a sugár és a magasság értékét, ha szükséges.
+`Cylinder` osztály az Aspose.3D beépített henger primitívje. Alapértelmezett méretekkel (sugár = 1, magasság = 2) érkezik, de testreszabható a konstruktorán keresztül.
 
 ```java
 // Create a Cylinder model
@@ -89,7 +143,7 @@ scene.getRootNode().createChildNode("cylinder", new Cylinder());
 
 ### 4. lépés: Rajz mentése FBX formátumban
 
-A jelenet összeállítása után exportáljuk, hogy más eszközök (pl. Unity, Blender) is olvashassák. Az `FBX7500ASCII` formátumot használjuk, amely széles körben támogatott.
+A jelenet összeállítása után exportálja, hogy más eszközök (pl. Unity, Blender) is olvashassák. A `FBX7500ASCII` formátumot használjuk, amely széles körben támogatott és ember által olvasható.
 
 ```java
 // Save drawing in the FBX format
@@ -99,42 +153,46 @@ scene.save(myDir, FileFormat.FBX7500ASCII);
 
 ## Gyakori problémák és megoldások
 
-| Probléma | Miért fordul elő | Javítás |
-|----------|------------------|---------|
-| **File not found** mentéskor | `myDir` egy nem létező mappára mutat | Győződjön meg arról, hogy a könyvtár létezik, vagy hozza létre a `new File(myDir).mkdirs();` paranccsal |
-| **Empty scene** export után | A `save` hívása előtt nem került hozzáadásra csomópont | Ellenőrizze, hogy a `createChildNode` hívások végrehajtásra kerültek-e (hibakeresés: `scene.getRootNode().getChildCount()` ) |
-| **License exception** | Érvényes licenc nélkül futtatás termelésben | Alkalmazzon ideiglenes vagy állandó licencet a következő kóddal: `License license = new License(); license.setLicense("Aspose.3D.Java.lic");` |
+| Probléma | Miért fordul elő | Megoldás |
+|----------|------------------|----------|
+| **File not found** mentéskor | `myDir` egy nem létező mappára mutat | Győződjön meg róla, hogy a könyvtár létezik, vagy hozza létre a `new File(myDir).mkdirs();` segítségével |
+| **Empty scene** export után | A `save` hívása előtt nem lettek csomópontok hozzáadva | Ellenőrizze, hogy a `createChildNode` hívások végrehajtásra kerülnek (debuggolás a `scene.getRootNode().getChildCount()` segítségével) |
+| **License exception** | Érvényes licenc nélkül futtatás a termelésben | Alkalmazzon ideiglenes vagy állandó licencet a `License license = new License(); license.setLicense("Aspose.3D.Java.lic");` használatával |
 
-## Gyakran Ismételt Kérdések
+## Gyakran feltett kérdések
 
-**Q: Használhatom az Aspose.3D for Java‑t más programozási nyelvekkel?**  
-A: Az Aspose.3D elsősorban a Java‑t támogatja, de léteznek verziók más nyelvekhez is, például .NET‑hez.
+**Q: Használhatom az Aspose.3D for Java-t más programozási nyelvekkel?**  
+A: Az Aspose.3D elsősorban Java-t támogat, de elérhetők verziók .NET és C++ számára is.
 
-**Q: Alkalmas-e az Aspose.3D komplex 3D modellezési feladatokra?**  
-A: Teljes mértékben! Az Aspose.3D átfogó funkciókészletet biztosít, amely egyszerű és összetett 3D modellezési feladatokhoz egyaránt megfelelő.
+**Q: Alkalmas az Aspose.3D összetett 3D modellezési feladatokra?**  
+A: Teljes mértékben. Átfogó funkciókészletet biztosít – beleértve a háló manipulációt, anyag hozzárendelést és animációt – így alkalmas egyszerű primitívek és bonyolult modellek egyaránt.
 
 **Q: Hol találok további segítséget és támogatást?**  
-A: Látogasd meg az [Aspose.3D Fórumot](https://forum.aspose.com/c/3d/18) a közösségi támogatás és a megbeszélések miatt.
+A: Látogassa meg az [Aspose.3D Fórumot](https://forum.aspose.com/c/3d/18) a közösségi támogatás és megbeszélésekért.
 
-**Q: Kipróbálhatom az Aspose.3D‑t vásárlás előtt?**  
-A: Igen, felfedezheted az [ingyenes próbát](https://releases.aspose.com/) a vásárlási döntés meghozatala előtt.
+**Q: Kipróbálhatom az Aspose.3D-t vásárlás előtt?**  
+A: Igen, felfedezhet egy [ingyenes próbát](https://releases.aspose.com/) a vásárlási döntés előtt.
 
-**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.3D‑hez?**  
-A: A weboldalon egy [ideiglenes licencet](https://purchase.aspose.com/temporary-license/) szerezhetsz.
+**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?**  
+A: A weboldalon keresztül szerezhet [ideiglenes licencet](https://purchase.aspose.com/temporary-license/) az Aspose.3D-hez.
 
 ## Összegzés
 
-Most már megtanultad, hogyan **hozz létre 3D hengert**, dobozt és más primitív modelleket az Aspose.3D for Java segítségével, valamint hogyan **mentsd a jelenetet FBX‑ként** a további felhasználáshoz. Nyugodtan kísérletezz más primitívekkel (Sphere, Cone, stb.) és fedezd fel az anyag‑beállításokat, hogy modelleid valósághű megjelenést kapjanak.
+Most már megtanulta, hogyan **exportálja a jelenetet FBX**-ként, és hogyan **hozzon létre 3D hengert**, dobozt és egyéb primitív modelleket az Aspose.3D for Java segítségével. Nyugodtan kísérletezzen további primitívekkel, például Sphere, Cone vagy Torus, és fedezze fel az anyag hozzárendeléseket, hogy modelljei valósághű megjelenést kapjanak. Amint magabiztos, integrálhatja a generált FBX fájlokat játék motorokba, AR/VR folyamatokba vagy bármely további 3D munkafolyamatba.
 
 ---
 
-**Utolsó frissítés:** 2026-03-13  
-**Tesztelve:** Aspose.3D for Java 24.11 (a legújabb a megírás időpontjában)  
-**Szerző:** Aspose  
+**Utoljára frissítve:** 2026-06-03  
+**Tesztelve a következővel:** Aspose.3D for Java 24.11 (legújabb a írás időpontjában)  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan exportáljunk jelenetet FBX-be és nyerjünk ki 3D jelenet információt Java-ban](/3d/java/3d-scenes-and-models/get-scene-information/)
+- [Hogyan exportáljunk FBX-et és építsünk csomópont hierarchiákat Java-ban](/3d/java/geometry/build-node-hierarchies/)
+- [Hogyan hozzunk létre henger modelleket az Aspose.3D for Java-val](/3d/java/cylinders/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -1,152 +1,140 @@
 ---
+title: "How to Change Plane Orientation and Export OBJ in Java"
+linktitle: "How to Change Plane Orientation and Export OBJ in Java"
+second_title: "Aspose.3D Java API"
+description: "Learn how to change plane orientation and export OBJ in Java using Aspose.3D. Step‑by‑step guide to export 3D model OBJ files."
+weight: 10
+url: /java/3d-scenes-and-models/change-plane-orientation/
 date: 2026-04-29
-description: Pelajari cara mengubah orientasi bidang dan mengekspor OBJ di Java menggunakan
-  Aspose.3D. Panduan langkah demi langkah untuk mengekspor file OBJ model 3D.
 keywords:
 - change plane orientation
 - create sloped plane
 - export obj java
 - aspose 3d export obj
-linktitle: Cara Mengubah Orientasi Bidang dan Mengekspor OBJ di Java
-second_title: Aspose.3D Java API
-title: Cara Mengubah Orientasi Bidang dan Mengekspor OBJ di Java
-url: /id/java/3d-scenes-and-models/change-plane-orientation/
-weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Mengubah Orientasi Bidang dan Mengekspor OBJ di Java
+# How to Change Plane Orientation and Export OBJ in Java
 
-## Pendahuluan
+## Introduction
 
-Dalam tutorial ini Anda akan menemukan **cara mengubah orientasi bidang** dan **mengekspor OBJ** dari Java menggunakan Aspose.3D Java API. Menyesuaikan up‑vector bidang memberi Anda kontrol halus atas penempatan objek dalam alur kerja **create 3D scene**—sempurna untuk game, simulasi, dan visualisasi arsitektur di mana penempatan yang tepat sangat penting.
+In this tutorial you’ll discover **how to change plane orientation** and **export OBJ** files from Java using the Aspose.3D Java API. Adjusting a plane’s up‑vector gives you fine‑grained control over object placement inside a **create 3D scene** workflow—perfect for games, simulations, and architectural visualizations where exact positioning matters.
 
-## Jawaban Cepat
-- **Apa arti “export OBJ”?** Itu berarti mengonversi sebuah adegan 3‑D ke format Wavefront OBJ, jenis file mesh yang didukung secara universal.  
-- **Mengapa mengubah orientasi bidang?** Mengubah up‑vector bidang memungkinkan Anda menyelaraskan geometri tepat di tempat yang Anda inginkan dalam adegan.  
-- **Apakah saya memerlukan lisensi untuk menjalankan kode?** Versi percobaan gratis cukup untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
-- **Versi Java mana yang didukung?** Aspose.3D bekerja dengan Java 8 dan yang lebih baru.  
-- **Bisakah saya mengekspor format lain?** Ya – API juga mendukung FBX, STL, dan lainnya.
+## Quick Answers
+- **What does “export OBJ” mean?** It means converting a 3‑D scene into the Wavefront OBJ format, a universally supported mesh file type.  
+- **Why adjust plane orientation?** Changing the plane’s up‑vector lets you align geometry exactly where you need it in the scene.  
+- **Do I need a license to run the code?** A free trial works for development; a commercial license is required for production.  
+- **Which Java version is supported?** Aspose.3D works with Java 8 and newer.  
+- **Can I export other formats?** Yes – the API also supports FBX, STL, and more.
 
-## Apa itu “mengubah orientasi bidang”?
-Mengubah orientasi bidang adalah proses mendefinisikan ulang **up‑vector** bidang sehingga bidang miring dari XY‑plane default. Ini memungkinkan Anda **membuat bidang miring** seperti ramp, atap, atau bidang referensi khusus sebelum mengekspor model.
+## What is “change plane orientation”?
+Changing plane orientation is the process of redefining a plane’s **up‑vector** so that the plane tilts away from the default XY‑plane. This lets you **create sloped plane** geometry such as ramps, roofs, or custom reference planes before exporting the model.
 
-## Mengapa memodifikasi orientasi bidang?
-Mengubah orientasi bidang (menggunakan **how to set plane up**) memungkinkan Anda:
+## Why modify plane orientation?
+Altering the plane’s orientation (using **how to set plane up**) lets you:
 
-* Menyelaraskan objek dengan sumbu khusus alih-alih sumbu dunia default.  
-* Mensimulasikan permukaan miring seperti ramp, atap, atau bidang referensi kamera.  
-* Memastikan mesh OBJ yang diekspor sesuai dengan maksud visual desain Anda, membuat langkah **export 3d model obj** menjadi dapat diandalkan.
+* Align objects with custom axes instead of the default world axes.  
+* Simulate tilted surfaces such as ramps, roofs, or camera reference planes.  
+* Ensure that exported OBJ meshes match the visual intent of your design, making the **export 3d model obj** step reliable.
 
-## Prasyarat
+## Prerequisites
 
-Sebelum kita mulai, pastikan Anda memiliki:
+Before we start, make sure you have:
 
-- Pemahaman dasar tentang pemrograman Java.  
-- Aspose.3D untuk Java terpasang – unduh di [sini](https://releases.aspose.com/3d/java/).  
-- IDE Java atau alat build (mis., IntelliJ IDEA, Maven, atau Gradle) siap untuk coding.
+- A basic understanding of Java programming.  
+- Aspose.3D for Java installed – download it [here](https://releases.aspose.com/3d/java/).  
+- A Java IDE or build tool (e.g., IntelliJ IDEA, Maven, or Gradle) ready for coding.
 
-## Impor Paket
+## Import Packages
 
-Pertama, impor kelas yang memberi Anda akses ke fungsionalitas Aspose.3D.
-
-```java
-import com.aspose.threed.FileFormat;
+First, import the classes that give you access to the Aspose.3D functionality.\u0060\u0060\u0060javaimport com.aspose.threed.FileFormat;
 import com.aspose.threed.Plane;
 import com.aspose.threed.Scene;
 import com.aspose.threed.Vector3;
-```
 
-## Panduan Langkah‑per‑Langkah
+import java.io.IOException;\u0060\u0060\u0060
 
-### Langkah 1: Atur Jalur Direktori Dokumen  
-Tentukan di mana file OBJ yang diekspor akan disimpan.
+## Step-by-Step Guide### Step 1: Set Document Directory Path  
+Define where the exported OBJ file will be saved.
 
-```java
+````java
 String MyDir = "Your Document Directory";
-```
+````
 
-Ganti `"Your Document Directory"` dengan jalur absolut di mesin Anda (mis., `C:/3DOutputs/`).
+Replace `"Your Document Directory"` with the absolute path on your machine (e.g., `C:/3DOutputs/`).
 
-### Langkah 2: Inisialisasi Scene – create 3D scene  
-Buat objek scene baru yang akan menampung semua geometri.
+### Step 2: Initialize the Scene – create 3D scene  
+Create a fresh scene object that will hold all geometry.
 
-```java
+````java
 Scene scene = new Scene();
-```
+````
 
-### Langkah 3: Inisialisasi Plane – how to modify plane  
-Instansiasi objek `Plane` yang nanti akan kita orientasikan.
+### Step 3: Initialize the Plane – how to modify plane  
+Instantiate a `Plane` object that we will later orient.
 
-```java
+````java
 Plane plane = new Plane();
-```
+````
 
-### Langkah 4: Atur Vektor – how to set plane up  
-Tentukan up‑vector khusus untuk bidang. Ini adalah inti dari **change plane orientation**.
+### Step 4: Set Vector – how to set plane up  
+Define a custom up-vector for the plane. This is the core of **change plane orientation**.
+The vector `(1, 1, 3)` tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.### Step 5: Complete the Plane Orientation and Export  
+ Define a custom up-vector for the plane. This is the core of **change plane orientation**.\u0060\u0060\u0060\u0060java
+// ExStart:ChangePlaneOrientation
+try {
+    plane.setUp(new Vector3(1, 1, 3));
+    
+    scene.getRootNode().createChildNode(plane);
+    
+    scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
+} catch (IOException e) {
+    e.printStackTrace();
+}// ExEnd:ChangePlaneOrientation
+\u0060\u0060\u0060
 
-```java
-plane.setUp(new Vector3(1, 1, 3));
-```
+After this call, you'll find \u0060ChangePlaneOrientation.obj\u0060 in the directory you specified, ready for any **aspose 3d export obj** workflow.## Common Issues and Solutions
 
-Vektor `(1, 1, 3)` memiringkan bidang dari XY‑plane default, memberi Anda permukaan miring yang kemudian dapat **export obj java**.
-
-### Langkah 5: Hasilkan Plane – add plane to scene  
-Lampirkan bidang ke node root sehingga menjadi bagian dari hierarki scene.
-
-```java
-scene.getRootNode().createChildNode(plane);
-```
-
-### Langkah 6: Simpan Scene – export OBJ file  
-Ekspor seluruh scene, termasuk bidang yang diorientasikan, ke file OBJ.
-
-```java
-scene.save(MyDir + "ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
-```
-
-Setelah pemanggilan ini, Anda akan menemukan `ChangePlaneOrientation.obj` di direktori yang Anda tentukan, siap untuk alur kerja **aspose 3d export obj** apa pun.
-
-## Masalah Umum dan Solusinya
-
-| Masalah | Mengapa Terjadi | Solusi |
+| Issue | Why It Happens | Fix |
 |-------|----------------|-----|
-| **File not found** error saat menyimpan | `MyDir` tidak ada atau tidak memiliki izin menulis | Buat folder tersebut terlebih dahulu atau gunakan jalur absolut dengan izin yang tepat. |
-| Bidang muncul datar di penampil | Vektor kolinear dengan up‑vector default | Pilih vektor yang tidak paralel (mis., `(1, 0, 1)`) untuk melihat kemiringan yang terlihat. |
-| File OBJ dimuat dengan tekstur yang hilang | Tekstur tidak pernah ditambahkan ke scene | Lampirkan material/tekstur ke geometri sebelum mengekspor jika diperlukan. |
+| **File not found** error when saving | `MyDir` does not exist or lacks write permission | Create the folder beforehand or use an absolute path with proper permissions. |
+| Plane appears flat in the viewer | Vector is collinear with default up‑vector | Choose a non‑parallel vector (e.g., `(1, 0, 1)`) to see a visible tilt. |
+| OBJ file loads with missing textures | Textures were never added to the scene | Attach material/texture to geometry before exporting if needed. |
 
-## Pertanyaan yang Sering Diajukan
+## Frequently Asked Questions
 
-**Q: Bisakah saya menggunakan Aspose.3D untuk Java dengan bahasa pemrograman lain?**  
-A: Ya, Aspose.3D mendukung Java, .NET, dan platform lain melalui API spesifik bahasa.
+**Q: Can I use Aspose.3D for Java with other programming languages?**  
+A: Yes, Aspose.3D supports Java, .NET, and other platforms via language‑specific APIs.
 
-**Q: Apakah tersedia versi percobaan gratis untuk Aspose.3D?**  
-A: Tentu! Anda dapat menjelajahi fitur Aspose.3D dengan mengakses versi percobaan gratis [di sini](https://releases.aspose.com/).
+**Q: Is a free trial available for Aspose.3D?**  
+A: Certainly! You can explore the features of Aspose.3D by accessing the free trial [here](https://releases.aspose.com/).
 
-**Q: Di mana saya dapat menemukan dukungan untuk Aspose.3D?**  
-A: Untuk pertanyaan atau bantuan, kunjungi [forum dukungan](https://forum.aspose.com/c/3d/18) kami.
+**Q: Where can I find support for Aspose.3D?**  
+A: For any queries or assistance, visit our [support forum](https://forum.aspose.com/c/3d/18).
 
-**Q: Bagaimana cara membeli Aspose.3D?**  
-A: Untuk membeli Aspose.3D, kunjungi [halaman pembelian](https://purchase.aspose.com/buy) kami.
+**Q: How can I purchase Aspose.3D?**  
+A: To purchase Aspose.3D, visit our [buy page](https://purchase.aspose.com/buy).
 
-**Q: Apakah ada opsi lisensi sementara?**  
-A: Ya, jika Anda memerlukan lisensi sementara, Anda dapat mendapatkannya [di sini](https://purchase.aspose.com/temporary-license/).
+**Q: Is there a temporary license option?**  
+A: Yes, if you need a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
 
-**Q: Bisakah saya mengekspor scene ke format selain OBJ?**  
-A: Tentu. Metode `Scene.save` mendukung FBX, STL, dan beberapa format lainnya – cukup ubah enum `FileFormat`.
+**Q: Can I export the scene to formats other than OBJ?**  
+A: Absolutely. The `Scene.save` method supports FBX, STL, and several other formats – just change the `FileFormat` enum.
 
-## Kesimpulan
+## Conclusion
+### Step 4: Set Vector \u2013 how to set plane up  \nDefine a custom up-vector for the plane. This is the core of **change plane orientation**.\nThe vector \u0060(1, 1, 3)\u0060 tilts the plane away from the default XY-plane, giving you a sloped surface you can later **export obj java**.
 
-Dengan mengikuti langkah-langkah di atas Anda telah mempelajari **cara mengubah orientasi bidang** sambil **mengekspor OBJ** di Aspose.3D untuk Java. Bereksperimenlah dengan up‑vector yang berbeda untuk membuat lereng khusus, ramp, atau bidang referensi kamera, dan integrasikan file OBJ yang diekspor ke dalam alur kerja Anda—baik itu mesin game, alat CAD, atau penampil 3‑D berbasis web.
+### Step 5: Complete the Plane Orientation and Export  \nDefine a custom up-vector for the plane. This is the core of **change plane orientation**.
 
+\u0060\u0060\u0060\u0060java
 ---
 
-**Terakhir Diperbarui:** 2026-04-29  
-**Diuji Dengan:** Aspose.3D untuk Java 24.11  
-**Penulis:** Aspose  
+**Last Updated:** 2026-04-29  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

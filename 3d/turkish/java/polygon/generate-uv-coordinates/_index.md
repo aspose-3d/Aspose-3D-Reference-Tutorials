@@ -1,11 +1,66 @@
 ---
-date: 2026-03-07
-description: Aspose.3D kullanarak Java 3D modelleri için UV koordinatları oluşturmayı
-  ve UV üretmeyi öğrenin ve basit adım adım bir rehberde OBJ dosyasını Java'ya dışa
-  aktarın.
-linktitle: Generate UV Coordinates for Texture Mapping in Java 3D Models
+date: 2026-06-03
+description: Java 3D modelleri için **create uv coordinates java** öğrenin ve Aspose.3D
+  kullanarak UV mapping oluşturun, ardından sonucu bir OBJ dosyası olarak net adım
+  adım bir rehberde dışa aktarın.
+keywords:
+- create uv coordinates java
+- export obj java
+- aspose 3d export obj
+linktitle: Java 3D Modellerinde Doku Haritalaması İçin UV Coordinates Oluşturma
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to **create uv coordinates java** and generate UV mapping
+    for Java 3D models using Aspose.3D, then export the result as an OBJ file in a
+    clear step‑by‑step guide.
+  headline: How to Create UV Coordinates Java – Generate UV for 3D Models
+  type: TechArticle
+- description: Learn how to **create uv coordinates java** and generate UV mapping
+    for Java 3D models using Aspose.3D, then export the result as an OBJ file in a
+    clear step‑by‑step guide.
+  name: How to Create UV Coordinates Java – Generate UV for 3D Models
+  steps:
+  - name: Set Document Directory Path
+    text: Define where the generated OBJ file will be saved. > **Pro tip:** Use an
+      absolute path or `System.getProperty("user.dir")` to avoid relative‑path surprises.
+  - name: Create a Scene
+    text: '`Scene` is Aspose.3D''s top‑level container that holds all objects, lights,
+      and cameras in a 3‑D world.'
+  - name: Create a Mesh
+    text: '`Mesh` represents a geometric object composed of vertices, edges, and faces.
+      We’ll start with a simple box mesh and deliberately remove any built‑in UV data
+      to simulate a mesh that lacks texture coordinates.'
+  - name: Generate UV Coordinates
+    text: '`PolygonModifier.generateUV` creates a basic planar UV layout for any mesh
+      you pass in. The method returns a `VertexElement` that holds the new UV data.'
+  - name: Associate UV Data with the Mesh
+    text: Now attach the generated UV element back to the mesh so that it becomes
+      part of the vertex data.
+  - name: Create a Node and Add Mesh to the Scene
+    text: '`Node` is an element in the scene graph that can hold geometry, transforms,
+      and other properties. `Node` represents an instance of a geometry in the scene
+      graph. Adding the mesh to a node makes it renderable and ready for export.'
+  - name: Export OBJ File Java
+    text: '`FileFormat.WAVEFRONTOBJ` specifies the OBJ file format for saving the
+      scene. Finally, write the entire scene—including our newly created UV coordinates—to
+      an OBJ file, which can be opened in virtually any 3‑D tool. > **What to expect:**
+      Opening `test.obj` in a viewer like Blender should show the bo'
+  type: HowTo
+- questions:
+  - answer: It’s the process of assigning 2‑D texture coordinates (U & V) to 3‑D vertices.
+    question: What is UV mapping?
+  - answer: Aspose.3D for Java.
+    question: Which library helps you generate UV in Java?
+  - answer: A free trial is available; a license is required for production.
+    question: Do I need a license to try this?
+  - answer: Yes – use `scene.save(..., FileFormat.WAVEFRONTOBJ)`.
+    question: Can I export the result as OBJ?
+  - answer: Create a scene, build a mesh, generate UV, attach it, and save.
+    question: What are the main steps?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Java 3D Modelleri için UV Koordinatları Nasıl Oluşturulur
+title: Java’da UV Koordinatları Nasıl Oluşturulur – 3D Modeller İçin UV Oluşturma
 url: /tr/java/polygon/generate-uv-coordinates/
 weight: 11
 ---
@@ -14,34 +69,36 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java 3D Modelleri için UV Koordinatları Nasıl Oluşturulur
+# Java'da UV Koordinatları Nasıl Oluşturulur – 3D Modeller için UV Oluşturma
 
 ## Giriş
 
-Java 3D modelinde doku haritalama için **uv koordinatlarını nasıl oluşturacağınızı** öğrenmek istiyorsanız, doğru yerdesiniz. Bu öğreticide Aspose.3D ile UV verilerini manuel olarak üretme, bir mesh’e ekleme ve son olarak **OBJ dosyasını Java**‑uyumlu geometri olarak dışa aktarma adımlarını adım adım göstereceğiz. Sonunda UV haritalamanın neden önemli olduğunu, programlı olarak nasıl üretileceğini ve standart bir OBJ görüntüleyicide sonucu nasıl doğrulayacağınızı anlayacaksınız.
+Eğer bir Java 3D modelinde doku eşlemesi için **create uv coordinates java** arıyorsanız, doğru yere geldiniz. Bu öğreticide Aspose.3D ile UV verilerini manuel olarak oluşturma, bir mesh'e ekleme ve sonunda **export OBJ file Java**‑uyumlu geometriyi dışa aktarma adımlarını adım adım göstereceğiz. Sonunda UV eşlemesinin neden önemli olduğunu, programlı olarak nasıl oluşturulacağını ve sonucu herhangi bir standart OBJ görüntüleyicide nasıl doğrulayacağınızı anlayacaksınız.
 
 ## Hızlı Yanıtlar
-- **UV haritalama nedir?** 2‑D doku koordinatlarını (U & V) 3‑D köşelere atama sürecidir.  
-- **Java’da UV üretmenize yardımcı olan kütüphane hangisidir?** Aspose.3D for Java.  
-- **Bunu denemek için lisansa ihtiyacım var mı?** Ücretsiz bir deneme sürümü mevcuttur; üretim için lisans gereklidir.  
+- **UV haritalama nedir?** 2‑D doku koordinatlarını (U & V) 3‑D köşelere atama işlemidir.  
+- **Java'da UV oluşturmanıza yardımcı olan kütüphane hangisidir?** Aspose.3D for Java.  
+- **Bunu denemek için lisansa ihtiyacım var mı?** Ücretsiz deneme mevcuttur; üretim için lisans gereklidir.  
 - **Sonucu OBJ olarak dışa aktarabilir miyim?** Evet – `scene.save(..., FileFormat.WAVEFRONTOBJ)` kullanın.  
-- **Ana adımlar nelerdir?** Bir sahne oluşturun, bir mesh oluşturun, UV üretin, ekleyin ve kaydedin.
+- **Ana adımlar nelerdir?** Bir sahne oluşturun, bir mesh oluşturun, UV oluşturun, ekleyin ve kaydedin.
 
 ## UV Haritalama Nedir ve Neden Gereklidir?
 
-UV haritalama, bir 2‑D resmi (doku) bir 3‑D nesnenin etrafına sarmanıza olanak tanır. Uygun UV koordinatları olmadan dokular uzar, hizalanmaz veya tamamen kaybolur. UV’leri manuel olarak üretmek, dokuların nasıl projeleneceği üzerinde tam kontrol sağlar; bu, oyunlar, simülasyonlar ve görsel‑zengin Java uygulamaları için hayati öneme sahiptir.
+UV haritalama, bir 2‑D görüntüyü (doku) bir 3‑D nesne etrafına sarmanızı sağlar. Uygun UV koordinatları olmadan dokular uzamış, hizalanmamış veya tamamen eksik görünebilir. UV'leri manuel olarak oluşturmak, dokuların nasıl projekte edileceği üzerinde tam kontrol sağlar; bu, oyunlar, simülasyonlar ve görsel açıdan zengin herhangi bir Java uygulaması için esastır.
 
-## Ön Koşullar
+## UV Oluşturma İçin Aspose.3D Neden Kullanılmalı?
 
-Başlamadan önce şunların kurulu olduğundan emin olun:
+Aspose.3D, **50+ input and output formats** — OBJ, FBX, STL ve COLLADA dahil — destekler ve tüm dosyayı belleğe yüklemeden çok sayfalı modelleri işleyebilir. `PolygonModifier.generateUV` rutini, tek bir çağrıda düzlemsel bir UV düzeni oluşturur ve özel projeksiyon matematiği yazmanızdan sizi kurtarır.
+
+## Önkoşullar
 
 - Temel Java programlama bilgisi.  
-- Aspose.3D for Java – [buradan](https://releases.aspose.com/3d/java/) indirebilirsiniz.  
-- Aspose.3D JAR dosyalarının sınıf yolunda bulunduğu bir Java IDE (IntelliJ IDEA, Eclipse, VS Code vb.).
+- Aspose.3D for Java yüklü – [buradan](https://releases.aspose.com/3d/java/) indirebilirsiniz.  
+- Aspose.3D JAR'ları sınıf yolunda (classpath) ayarlanmış bir Java IDE (IntelliJ IDEA, Eclipse, VS Code vb.).
 
 ## Paketleri İçe Aktarma
 
-Java projenizde gerekli Aspose.3D sınıflarını içe aktarın. Bu importlar sahne yönetimi, mesh manipülasyonu ve köşe öğesi işleme yeteneklerini sağlar.
+Java projenizde gerekli Aspose.3D sınıflarını içe aktarın. Bu importlar, sahne yönetimi, mesh manipülasyonu ve vertex elemanı işleme erişimi sağlar.
 
 ```java
 import com.aspose.threed.Box;
@@ -54,108 +111,119 @@ import com.aspose.threed.VertexElement;
 import com.aspose.threed.VertexElementType;
 ```
 
-## Adım‑Adım Kılavuz
+## UV Koordinatlarını Manuel Olarak Nasıl Oluşturulur?
 
-### Adım 1: Belge Dizini Yolunu Ayarlama
+Mesh'inizi yükleyin, `PolygonModifier.generateUV` metodunu çağırın ve ortaya çıkan UV elemanını mesh'e geri ekleyin — bu, üç kısa kod satırında tüm iş akışını oluşturur. Bu yöntem, çoğu kutu‑benzeri geometri için çalışan düzlemsel bir UV düzeni otomatik olarak oluşturur ve özel bir projeksiyon gerektiğinde koordinatları daha sonra ayarlayabilirsiniz.
 
-Oluşturulacak OBJ dosyasının kaydedileceği yeri tanımlayın.
+## Adım Adım Kılavuz
+
+### Adım 1: Belge Dizin Yolunu Ayarla
+
+Oluşturulan OBJ dosyasının kaydedileceği yeri tanımlayın.
 
 ```java
 String MyDir = "Your Document Directory";
 ```
 
-> **İpucu:** Göreli yol sürprizlerinden kaçınmak için mutlak yol ya da `System.getProperty("user.dir")` kullanın.
+> **İpucu:** Mutlak bir yol veya `System.getProperty("user.dir")` kullanın, böylece göreli‑yol sürprizlerinden kaçınabilirsiniz.
 
-### Adım 2: Bir Sahne Oluşturma
+### Adım 2: Bir Sahne Oluşturun
 
-`Scene`, tüm 3‑D nesnelerinin üst‑seviye konteyneridir.
+`Scene`, Aspose.3D'nin tüm nesneleri, ışıkları ve kameraları 3‑D dünyada tutan üst‑seviye konteyneridir.
 
 ```java
 Scene scene = new Scene();
 ```
 
-### Adım 3: Bir Mesh Oluşturma
+### Adım 3: Bir Mesh Oluşturun
 
-Basit bir kutu mesh’i oluşturacağız ve doku koordinatları içermeyen bir mesh simüle etmek için yerleşik UV verilerini kasıtlı olarak kaldıracağız.
+`Mesh`, köşeler, kenarlar ve yüzlerden oluşan geometrik bir nesneyi temsil eder.  
+Basit bir kutu mesh'iyle başlayacağız ve kasıtlı olarak yerleşik UV verilerini kaldıracağız, böylece doku koordinatları olmayan bir mesh simüle edeceğiz.
 
 ```java
 Mesh mesh = (new Box()).toMesh();
 mesh.getVertexElements().remove(mesh.getElement(VertexElementType.UV));
 ```
 
-### Adım 4: UV Koordinatlarını Manuel Olarak Nasıl Üretirsiniz
+### Adım 4: UV Koordinatlarını Oluşturun
 
-Aspose.3D, herhangi bir mesh için temel bir düzlemsel UV düzeni oluşturan `PolygonModifier.generateUV` metodunu sunar.
+`PolygonModifier.generateUV`, gönderdiğiniz herhangi bir mesh için temel bir düzlemsel UV düzeni oluşturur. Metot, yeni UV verilerini tutan bir `VertexElement` döndürür.
 
 ```java
 VertexElement uv = PolygonModifier.generateUV(mesh);
 ```
 
-### Adım 5: UV Verilerini Mesh’e Bağlama
+### Adım 5: UV Verilerini Mesh ile İlişkilendirin
 
-Şimdi oluşturulan UV öğesini mesh’e ekleyerek köşe verisinin bir parçası haline getirin.
+Şimdi oluşturulan UV elemanını mesh'e geri ekleyin, böylece vertex verisinin bir parçası haline gelsin.
 
 ```java
 mesh.addElement(uv);
 ```
 
-### Adım 6: Bir Node Oluşturma ve Mesh’i Sahneye Ekleme
+### Adım 6: Bir Node Oluşturun ve Mesh'i Sahneye Ekleyin
 
-`Node`, sahne grafiğinde bir nesne örneğini temsil eder. Mesh’i bir node’a eklemek, onun renderlanabilir olmasını sağlar.
+`Node`, sahne grafiğinde geometri, dönüşümler ve diğer özellikleri tutabilen bir elemandır.  
+`Node`, sahne grafiğinde bir geometrinin örneğini temsil eder. Mesh'i bir node'a eklemek, onu render edilebilir ve dışa aktarmaya hazır hâle getirir.
 
 ```java
 Node node = scene.getRootNode().createChildNode(mesh);
 ```
 
-### Adım 7: OBJ Dosyasını Java’da Nasıl Dışa Aktarırsınız
+### Adım 7: OBJ Dosyasını Java ile Dışa Aktarın
 
-Son olarak, yeni oluşturulan UV koordinatları dahil tüm sahneyi bir OBJ dosyasına yazın; bu dosya neredeyse tüm 3‑D araçlarda açılabilir.
+`FileFormat.WAVEFRONTOBJ`, sahneyi kaydetmek için OBJ dosya formatını belirtir.  
+Son olarak, tüm sahneyi — yeni oluşturulan UV koordinatlarımız dahil — bir OBJ dosyasına yazın; bu dosya neredeyse her 3‑D araçta açılabilir.
 
 ```java
 scene.save(MyDir + "test.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-> **Beklenen Sonuç:** `test.obj` dosyasını Blender gibi bir görüntüleyicide açtığınızda, kutu varsayılan UV düzeniyle gösterilir ve uyguladığınız herhangi bir doku doğru şekilde haritalanır.
+> **Beklenen:** `test.obj` dosyasını Blender gibi bir görüntüleyicide açtığınızda, varsayılan UV düzenine sahip kutu gösterilir ve uyguladığınız herhangi bir dokuya hazır olur.
 
 ## Yaygın Sorunlar ve Çözümler
 
-| Sorun | Sebep | Düzeltme |
+| Sorun | Neden | Çözüm |
 |-------|--------|-----|
-| **UV’ler görüntüleyicide eksik görünüyor** | Mesh hâlâ eski bir UV öğesi içeriyor. | Yeni UV’leri üretmeden önce orijinal UV’yi (`mesh.getVertexElements().remove(...)`) kaldırdığınızdan emin olun. |
-| **Dosya bulunamadı hatası** | `MyDir` mevcut olmayan bir klasöre işaret ediyor. | Klasörü önceden oluşturun veya `new File(MyDir).mkdirs();` kullanın. |
-| **Lisans istisnası** | Üretimde geçerli bir lisans olmadan çalıştırılıyor. | Aspose belgelerinde açıklandığı gibi geçici ya da kalıcı bir lisans uygulayın. |
+| **Görünümde UV'ler eksik görünüyor** | Mesh hâlâ eski bir UV elemanı içeriyor. | Yeni UV'ler oluşturulmadan önce orijinal UV'yi (`mesh.getVertexElements().remove(...)`) kaldırdığınızdan emin olun. |
+| **Dosya bulunamadı hatası** | `MyDir` var olmayan bir klasöre işaret ediyor. | Önce klasörü oluşturun veya `new File(MyDir).mkdirs();` kullanın. |
+| **Lisans istisnası** | Üretimde geçerli bir lisans olmadan çalıştırmak. | Aspose belgelerinde açıklandığı gibi geçici veya kalıcı bir lisans uygulayın. |
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.3D for Java’yı başka programlama dilleriyle kullanabilir miyim?
+### Q1: Aspose.3D for Java'ı diğer programlama dilleriyle kullanabilir miyim?
 
-C1: Aspose.3D temel olarak Java için tasarlanmıştır, ancak Aspose .NET, C++ ve diğer diller için bağlamalar da sunar. Dil‑spesifik API’ler için resmi dokümantasyona bakın.
+A1: Aspose.3D öncelikle Java için tasarlanmıştır, ancak Aspose .NET, C++ ve diğer dil bağlamaları da sunar. Dil‑spesifik API'ler için resmi belgeleri kontrol edin.
 
-### S2: Aspose.3D için bir deneme sürümü mevcut mu?
+### Q2: Aspose.3D için deneme sürümü mevcut mu?
 
-C2: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
+A2: Evet, Aspose.3D'nin özelliklerini ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) kullanarak keşfedebilirsiniz.
 
-### S3: Aspose.3D için destek nasıl alabilirim?
+### Q3: Aspose.3D için nasıl destek alabilirim?
 
-C3: Topluluk desteği ve diğer kullanıcılarla etkileşim için Aspose.3D forumuna [buradan](https://forum.aspose.com/c/3d/18) ulaşabilirsiniz.
+A3: Topluluk desteği almak ve diğer kullanıcılarla etkileşimde bulunmak için Aspose.3D forumunu [buradan](https://forum.aspose.com/c/3d/18) ziyaret edin.
 
-### S4: Aspose.3D için kapsamlı dokümantasyonu nerede bulabilirim?
+### Q4: Aspose.3D için kapsamlı belgeleri nerede bulabilirim?
 
-C4: Dokümantasyon [burada](https://reference.aspose.com/3d/java/) mevcuttur.
+A4: Dokümantasyon [burada](https://reference.aspose.com/3d/java/) mevcuttur.
 
-### S5: Aspose.3D için geçici bir lisans satın alabilir miyim?
+### Q5: Aspose.3D için geçici bir lisans satın alabilir miyim?
 
-C5: Evet, geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
+A5: Evet, geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
----
+**Son Güncelleme:** 2026-06-03  
+**Test Edilen Versiyon:** Aspose.3D for Java 24.11 (latest at time of writing)  
+**Yazar:** Aspose
 
-**Son Güncelleme:** 2026-03-07  
-**Test Edilen Versiyon:** Aspose.3D for Java 24.11 (yazım anındaki en güncel)  
-**Yazar:** Aspose  
+## İlgili Öğreticiler
+
+- [UV'leri Nasıl Oluşturulur – Aspose.3D ile Java'da 3D Nesnelere UV Koordinatları Uygulama](/3d/java/geometry/apply-uv-coordinates-to-3d-objects/)
+- [UV Haritalama Oluşturma Java – Java ile 3D Modellerde Poligon Manipülasyonu](/3d/java/polygon/)
+- [OBJ Nasıl Dışa Aktarılır - Java'da Hassas 3D Sahne Konumlandırması için Düzlem Yönelimini Değiştirme](/3d/java/3d-scenes-and-models/change-plane-orientation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

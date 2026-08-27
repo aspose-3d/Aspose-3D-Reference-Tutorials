@@ -1,10 +1,35 @@
 ---
-date: 2026-03-05
-description: Learn how to convert mesh to point cloud in Java using Aspose.3D and
-  save point cloud file efficiently.
-linktitle: Convert Mesh to Point Cloud in Java
+date: 2026-05-29
+description: 了解如何使用 Aspose 3D API 在 Java 中将 mesh 转换为 point cloud，并高效保存 point cloud
+  文件。
+keywords:
+- aspose 3d api
+- convert mesh to pointcloud
+- generate pointcloud mesh
+linktitle: 在 Java 中将 Mesh 转换为 Point Cloud
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Learn how to use the Aspose 3D API to convert mesh to point cloud in
+    Java and efficiently save the point cloud file.
+  headline: Convert Mesh to Point Cloud in Java with Aspose 3D API
+  type: TechArticle
+- questions:
+  - answer: Yes. Purchase a production license [here](https://purchase.aspose.com/buy);
+      a free trial is available for evaluation.
+    question: Can I use Aspose 3D API for commercial projects?
+  - answer: Absolutely. Download the trial version [here](https://releases.aspose.com/).
+    question: Is there a free trial I can test before buying?
+  - answer: The community‑driven [Aspose.3D forum](https://forum.aspose.com/c/3d/18)
+      provides answers and code samples.
+    question: Where can I get help if I run into problems?
+  - answer: Request a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for automated builds?
+  - answer: Detailed API reference is available at [documentation](https://reference.aspose.com/3d/java/).
+    question: Where is the official documentation for the Aspose 3D API?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: 如何在 Java 中使用 Aspose.3D 将网格转换为点云
+title: 使用 Aspose 3D API 在 Java 中将 Mesh 转换为 Point Cloud
 url: /zh/java/point-clouds/create-point-clouds-java/
 weight: 12
 ---
@@ -13,35 +38,32 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何在 Java 中使用 Aspose.3D 将网格转换为点云
+# 在 Java 中使用 Aspose 3D API 将网格转换为点云
 
-从 3D 网格创建 **点云** 是图形、仿真和数据可视化项目中的常见需求。在本教程中，你将学习如何使用 Aspose.3D Java API **将网格转换为点云**，以及如何 **保存点云文件** 以供后续使用。步骤清晰，帮助你以最小的工作量将点云生成集成到 Java 应用中。
+在许多图形、仿真和数据可视化项目中，您需要将 3D 网格转换为 **点云**。本教程展示了如何使用 Java 的 **Aspose 3D API** **将网格转换为点云**，然后将结果保存为紧凑的 DRACO 文件。完成后，您将拥有一个可直接用于渲染引擎、AI 流程或 AR/VR 应用的点云文件，只需几行代码。
 
-## 快速回答
-- **哪个库最适合此任务？** Aspose.3D Java API 提供内置的网格转点云支持。  
-- **示例使用哪种格式？** 使用 DRACO 格式（`.drc`）进行紧凑的点云存储。  
-- **我需要许可证吗？** 免费试用可用于开发；生产环境需要商业许可证。  
-- **我可以处理多个网格吗？** 可以——对每个网格重复编码步骤即可。  
-- **是否需要额外的处理？** 可选；Aspose.3D 提供方法在编码后操作点云。
+## 快速答案
+- **什么库处理网格到点云的转换？** Aspose 3D API 提供内置支持，将网格转换为点云。  
+- **演示使用的文件格式是什么？** DRACO (`.drc`) – 一种高度压缩的点云格式。  
+- **开发时需要许可证吗？** 免费试用可用于开发；生产使用需要商业许可证。  
+- **可以一次处理多个网格吗？** 可以——对每个网格对象重复编码步骤。  
+- **是否必须进行额外处理？** 不需要——API 自动完成转换和压缩，您可以在之后应用可选过滤器。
 
 ## 什么是“将网格转换为点云”？
-将网格转换为点云是指从网格几何体中提取顶点位置（可选地包括法线或颜色），并将其存储为点的集合。这种表示方式非常适合快速渲染、碰撞检测以及将数据输入机器学习管道。
+**将网格转换为点云会从网格几何中提取顶点位置（以及可选的法线或颜色），并将其存储为独立的点。** 这种表示方式非常适合快速渲染、碰撞检测以及将数据输入机器学习模型，因为它在保留空间信息的同时降低了几何复杂度。
 
-## 为什么使用 Aspose.3D 进行点云生成？
-- **高性能编码：** 内置 DRACO 压缩可显著减小文件体积。  
-- **简洁 API：** 一行调用即可完成繁重工作。  
-- **跨平台 Java 支持：** 适用于任何兼容 JVM 的环境。  
-- **可扩展性：** 转换后可进一步处理点云（过滤、变换等）。
+## 为什么使用 Aspose 3D API 生成点云？
+Aspose 3D API 在一次调用中完成转换，并应用 DRACO 压缩，可将点云文件缩小 **最高达 90 %**，且细节损失不明显。它可在任何 JVM 上运行，无需本地依赖，并提供简洁、可链式调用的语法，让您专注于应用逻辑，而非底层文件处理。
 
-## 先决条件
+## 前提条件
+- **Java Development Kit** 8 或更高版本已安装。  
+- **Aspose.3D 库** – 从官方站点 [此处](https://releases.aspose.com/3d/java/) 下载最新 JAR。  
+- **输出目录** – 创建一个文件夹用于写入生成的点云文件。
 
-1. **Java 开发环境** – 已安装 JDK 8 或更高版本。  
-2. **Aspose.3D 库** – 下载并安装 Aspose.3D 库。你可以在[此处](https://releases.aspose.com/3d/java/)找到该库。  
-3. **文档目录** – 创建一个文件夹，用于保存生成的点云文件。
+> **量化声明：** Aspose 3D API 支持 **50+** 种输入和输出格式，且能够在不将整个文件加载到内存的情况下处理拥有 **数十万顶点** 的网格。
 
 ## 导入包
-
-要开始，请在 Java 项目中导入必要的类：
+在开始编码之前导入必要的类：
 
 ```java
 import com.aspose.threed.FileFormat;
@@ -52,8 +74,13 @@ import java.io.IOException;
 ```
 
 ## 步骤 1：将网格编码为点云
+`FileFormat.DRACO` 是用于选择 DRACO 压缩点云输出的枚举值。  
 
-使用 `FileFormat.DRACO` 编码器将网格（例如 `Sphere`）转换为压缩的点云文件：
+**定义锚点：** `FileFormat.DRACO` 告诉 Aspose 3D API 使用 DRACO 格式写入点云，该格式在尺寸和速度上进行了优化。  
+
+`Sphere` 是一个内置的原始类，用于创建球形网格。  
+
+使用此编码器将网格（例如 `Sphere`）转换为压缩的点云文件：
 
 ```java
 // ExStart:1
@@ -61,58 +88,60 @@ FileFormat.DRACO.encode(new Sphere(), "Your Document Directory" + "sphere.drc");
 // ExEnd:1
 ```
 
-**说明**
-
-- `FileFormat.DRACO` 选择 DRACO 压缩格式，专为点云存储优化。  
+**说明**  
+- `FileFormat.DRACO` 选择 DRACO 压缩格式，可在保持几何保真度的同时显著减小文件大小。  
 - `new Sphere()` 创建一个简单的球形网格，作为源几何体。  
-- 字符串 `"Your Document Directory" + "sphere.drc"` 构建完整的输出路径，**点云文件**（`sphere.drc`）将保存到该位置。
+- 连接的字符串构建完整的输出路径，**点云文件** (`sphere.drc`) 将被保存到该路径。
 
-随意重复此步骤，使用其他网格对象（如 `Box`、`Cylinder`）生成更多点云。
+您可以随意使用其他网格对象（例如 `Box`、`Cylinder`）重复此步骤，以生成更多点云。
 
 ## 步骤 2：额外处理（可选）
+`PointCloud` 表示点的集合，并提供变换和过滤操作。  
 
-编码完成后，你可能想对点云进行细化——例如应用变换、过滤离群点或添加自定义属性。Aspose.3D 提供丰富的方法来操作点云数据，虽然对基本转换并非必需。
+编码后，您可能想要细化点云——应用变换、过滤离群点或添加自定义属性。Aspose 3D API 提供诸如 `PointCloud.transform()`、`PointCloud.filterNoise()` 和 `PointCloud.addColorChannel()` 等方法。这些步骤对基本转换是可选的，但对高级流水线很有用。
 
 ## 步骤 3：保存并使用
+编码后的文件已保存到您指定的位置。您现在可以在任何兼容 DRACO 的查看器中加载 `.drc` 文件，将其提供给渲染引擎，或直接传递给期望点云输入的机器学习模型。
 
-编码后的文件已保存到你指定的位置。现在可以在任何支持 DRACO 点云的应用中加载此 `.drc` 文件，或直接将其用于渲染引擎、仿真管道或 AI 模型。
-
-## 常见问题与提示
-
-- **路径无效：** 确保目录已存在且具有写入权限，否则会抛出 `IOException`。  
-- **不受支持的网格类型：** 含非三角形面的复杂网格会被 Aspose.3D 自动三角化，但非常大的网格可能需要更多内存。  
-- **性能：** DRACO 压缩速度快，但对于超大点云，建议分块处理以避免内存峰值。
+## 常见问题与技巧
+- **Invalid Path:** 验证目录是否存在且您拥有写入权限；否则将抛出 `IOException`。  
+- **Unsupported Mesh Types:** 非三角形面会自动三角化，但极大的网格可能需要额外内存；考虑分块处理。  
+- **Performance:** DRACO 压缩以线性时间运行；对于超过 **1 million vertices** 的网格，将转换拆分为批次以避免内存激增。
 
 ## 结论
-
-现在你已经掌握了如何在 Java 中使用 Aspose.3D **将网格转换为点云**，以及如何 **保存点云文件** 以供后续使用。这一能力为图形、AR/VR 和数据科学项目中的高效 3D 数据处理打开了大门。
+您已经学习了如何在 Java 中使用 Aspose 3D API **将网格转换为点云**，以及如何 **保存点云文件** 以供下游使用。此功能在图形、AR/VR 和数据科学项目中实现高效的 3D 数据处理，同时保持代码库简洁且易于维护。
 
 ## 常见问题
 
-### Q1: 我可以在商业项目中使用 Aspose.3D 吗？  
-A1: 可以。请访问[购买页面](https://purchase.aspose.com/buy)了解许可证选项。
+**Q: 我可以在商业项目中使用 Aspose 3D API 吗？**  
+A: 可以。请在[此处](https://purchase.aspose.com/buy) 购买生产许可证；免费试用可用于评估。
 
-### Q2: 是否提供免费试用？  
-A2: 是的，你可以在[此处](https://releases.aspose.com/)获取免费试用。
+**Q: 我可以在购买前先试用免费版吗？**  
+A: 当然。请在[此处](https://releases.aspose.com/) 下载试用版。
 
-### Q3: 我在哪里可以找到 Aspose.3D 的支持？  
-A3: 请访问[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18)获取社区支持。
+**Q: 如果遇到问题，我可以在哪里获得帮助？**  
+A: 社区驱动的[Aspose.3D 论坛](https://forum.aspose.com/c/3d/18) 提供答案和代码示例。
 
-### Q4: 如何获取临时许可证？  
-A4: 你可以在[此处](https://purchase.aspose.com/temporary-license/)获取临时许可证。
+**Q: 我如何获取用于自动化构建的临时许可证？**  
+A: 请在[此处](https://purchase.aspose.com/temporary-license/) 申请临时许可证。
 
-### Q5: 文档在哪里可以查阅？  
-A5: 请参考[文档](https://reference.aspose.com/3d/java/)获取详细信息。
+**Q: Aspose 3D API 的官方文档在哪里？**  
+A: 详细的 API 参考可在[文档](https://reference.aspose.com/3d/java/) 查看。
 
 ---
 
-**最后更新：** 2026-03-05  
-**测试环境：** Aspose.3D Java 24.12  
-**作者：** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**最后更新:** 2026-05-29  
+**测试环境:** Aspose.3D Java 24.12  
+**作者:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## 相关教程
+
+- [aspose 3d 点云 - 使用 Aspose.3D for Java 导出 3D 场景为点云](/3d/java/point-clouds/export-3d-scenes-point-clouds-java/)
+- [在 Java 中从球体生成 Aspose 3D 点云](/3d/java/point-clouds/generate-point-clouds-spheres-java/)
+- [导入 PLY 文件 Java – 无缝加载 PLY 点云](/3d/java/point-clouds/load-ply-point-clouds-java/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

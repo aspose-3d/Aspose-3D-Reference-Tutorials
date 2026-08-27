@@ -55,61 +55,63 @@ import com.aspose.threed.*;
 import java.util.ArrayList;
 import java.util.List;
 ```
-
-## Step‑by‑Step Guide  
+## Step-by-Step Guide  
 
 ### Step 1: Create a Scene for Testing  
 
 We start with an empty scene that will host our hierarchy.
 
-```java
+````java
 // ExStart:CreateScene
-Scene s = new Scene();
+Scene scene = new Scene();
 // ExEnd:CreateScene
-```
+````
 
 ### Step 2: Build a Hierarchy of Nodes  
 
-Next, we add a few child nodes under the root node. Some nodes contain a **Camera** or a **Light** entity, which we’ll later query.
+Next, we add a few child nodes under the root node. Some nodes contain a **Camera** or a **Light** entity, which we'll later query.
 
-```java
+````java
 // ExStart:CreateHierarchy
-Scene s = new Scene();
-Node a = s.getRootNode().createChildNode("a");
+Node a = scene.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");
-s.getRootNode().createChildNode("b");
-Node c = s.getRootNode().createChildNode("c");
+scene.getRootNode().createChildNode("b");
+Node c = scene.getRootNode().createChildNode("c");
 c.createChildNode("c1").addEntity(new Camera("cam"));
 c.createChildNode("c2").addEntity(new Light("light"));
 // ExEnd:CreateHierarchy
-```
+````
 
-### Step 3: Apply XPath‑Like Queries  
+### Step 3: Query Objects by Traversing the Scene Graph  
 
-Now the fun part—using XPath‑style strings to **select objects by name** or type.
+Now the fun part—iterating through the scene to **select objects by name** or type using the NodeVisitor pattern.
 
-```java
-import java.util.List;
-import com.aspose.threed.*;
-
+\u0060\u0060\u0060\u0060java
 // The scene from Step 1
-Scene s = new Scene();
 
-// Select objects that have type Camera or name is 'light' regardless of their location.
-List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+// Create a list to store the found objects
+List<Object> objects = new ArrayList<>();
 
-// Select a single camera object under the child nodes of the node named 'c' under the root node
-A3DObject c1 = (A3DObject) s.getRootNode().selectSingleObject("/c/*/<Camera>");
+// Use a NodeVisitor to traverse the scene graph
+scene.getRootNode().accept(new NodeVisitor() {
+    @Override
+    public boolean call(Node node) {
+        Entity entity = node.getEntity();
+        // Check if the node has a Camera or if the node's name is 'light'
+        if (entity instanceof Camera || "light".equals(node.getName())) {
+            objects.add(entity);
+        }
+        return true;
+    }
+});
 
-// Select the node named 'a1' under the root node, even if 'a1' is not a directly child node
-A3DObject obj = (A3DObject) s.getRootNode().selectSingleObject("a1");
-
-// Select the node itself, as '/' is selected directly on the root node
-obj = (A3DObject) s.getRootNode().selectSingleObject("/");
+// Print the found objects
+for (Object obj : objects) {
+    System.out.println("Found: " + obj);
+}
 // ExEnd:XPathLikeObjectQueries
-```
-
+\u0060\u0060\u0060
 **Explanation of the key expressions**
 
 - `//*[(@Type = 'Camera') or (@Name = 'light')]` – Finds every object in the scene whose **type** attribute equals `Camera` **or** whose **name** attribute equals `light`. This is a classic example of **select objects by name** (and by type).

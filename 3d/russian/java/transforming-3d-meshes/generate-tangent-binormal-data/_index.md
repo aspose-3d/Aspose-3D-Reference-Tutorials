@@ -54,12 +54,15 @@ import java.io.IOException;
 ## Шаг 1: Загрузка 3D‑файла
 Сначала загрузите исходную модель, которую хотите обработать.
 
-```java
+````
 // The path to the documents directory.
 String MyDir = "Your Document Directory";
+MyDir = MyDir + "document.fbx";
 // Load an existing 3D file
-Scene scene = new Scene(MyDir + "document.fbx");
-```
+Scene scene = new Scene();
+scene.open(MyDir);
+````
+
 
 > **Pro tip:** Замените `"Your Document Directory"` на абсолютный путь на вашей машине и убедитесь, что имя файла соответствует реальному FBX‑файлу, который вы собираетесь редактировать.
 

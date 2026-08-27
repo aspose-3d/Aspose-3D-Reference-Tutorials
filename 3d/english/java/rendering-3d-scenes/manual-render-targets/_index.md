@@ -105,19 +105,21 @@ import com.aspose.threed.geometry.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 ```
-
 ## Step 1: Setup the Scene
 
-Create a fresh `Scene` object and configure a camera that will be used for rendering. The `setupScene` helper (not shown) adds lights, meshes, and positions the camera.
+Create a fresh `Scene` object and configure a camera that will be used for rendering.
 
-```java
+````java
 Scene scene = new Scene();
-Camera camera = new Camera();
-scene.getCameras().add(camera);
-// Additional lights and meshes are added by the helper method.
-setupScene(scene, camera);
-```
+Node light = scene.getRootNode().createChildNode("light", new Light());
+light.getTransform().setTranslation(10, 10, 10);
 
+Camera camera = new Camera();
+scene.getRootNode().createChildNode(camera);
+camera.setNearPlane(0.1);
+camera.getParentNode().getTransform().setTranslation(0, 5, 10);
+camera.setLookAt(Vector3.getZero());
+````
 ## Step 2: Define Output Image
 
 Decide where the final rendered picture will be stored on disk.
@@ -154,13 +156,15 @@ Now comes the core of **aspose 3d render texture** creation. We instantiate a `R
 The `RenderTexture` class is Aspose.3D's off‑screen buffer that can be sized independently of the display.  
 
 ```java
-Renderer renderer = new Renderer();
-RenderTexture renderTex = renderer.getFactory().createRenderTexture(width, height, PixelFormat.R8G8B8A8);
-Viewport viewport = renderTex.createViewport();
-viewport.setBackgroundColor(Color.PINK);   // Custom clear color
-renderer.render(scene, camera, viewport);
-ITexture2D texture = renderTex.getTexture();
-texture.copyTo(bitmap);
+try (Renderer renderer = Renderer.createRenderer()) {
+    try (IRenderTexture rt = renderer.getRenderFactory().createRenderTexture(new RenderParameters(), 1, image.getWidth(), image.getHeight())) {
+        rt.createViewport(camera, new Vector3(1, 0, 0), RelativeRectangle.fromScale(0, 0, 1, 1));
+        renderer.render(rt);
+        ITexture2D texture = (ITexture2D) rt.getTargets().get(0);
+        TextureData data = texture.toBitmap();
+        data.save(output);
+    }
+}
 ```
 
 ### Why this matters
