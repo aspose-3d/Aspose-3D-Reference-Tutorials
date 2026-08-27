@@ -1,55 +1,46 @@
 ---
-date: 2026-03-21
-description: Tanulja meg, hogyan változtathatja meg a sík tájolását 3D jelenetekben
-  az Aspose.3D for .NET segítségével. Kövesse lépésről‑lépésre útmutatónkat a 3D modell
-  OBJ formátumba exportálásához és a 3D sík egyszerű elforgatásához.
-linktitle: Changing Plane Orientation in 3D Scenes
+title: Add Camera to Scene with Aspose.3D – XPath Queries
+linktitle: XPath-Like Object Queries
 second_title: Aspose.3D .NET API
-title: Sík orientációjának módosítása 3D jelenetekben – Aspose.3D for .NET
-url: /hu/net/3d-modeling/change-plane-orientation/
-weight: 10
+description: Learn how to add camera to scene and manipulate 3D objects using Aspose.3D for .NET. Explore XPath‑like queries, select node by name and more.
+weight: 24
+url: /net/geometry-and-hierarchy/xpath-like-object-queries/
+date: 2026-01-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sík orientációjának módosítása 3D jelenetekben
+# Add Camera to Scene with Aspose.3D – XPath Queries
 
-## Bevezetés
+## Introduction
+In this tutorial you’ll discover how to **add a camera to a scene** and work with powerful XPath‑like object queries in Aspose.3D for .NET. Whether you need to **select node by name**, **select single object**, or simply **add light to scene**, the steps below will guide you through creating, querying, and manipulating 3D objects with clear, real‑world examples.
 
-Ebben az átfogó útmutatóban megtanulja, **hogyan módosítsa a sík orientációját** egy 3‑D jelenetben az Aspose.3D for .NET segítségével. Akár játékot, CAD‑nézőt vagy tudományos vizualizációt épít, a sík irányának szabályozása elengedhetetlen a pontos rendereléshez és a 3‑D modell OBJ fájlok megfelelő exportálásához. Lépésről lépésre végigvezetjük a folyamatot.
+## Quick Answers
+- **How do I add a camera to a scene?** Use `c.CreateChildNode("c1").AddEntity(new Camera("cam"));`
+- **Can I query objects with XPath syntax?** Yes – `SelectObjects` and `SelectSingleObject` support XPath‑like expressions.
+- **What if I need to select a node by name?** Use `SelectSingleObject("a1")` or `"//a1"` style paths.
+- **How do I add a light to the scene?** Call `AddEntity(new Light("light"))` on a child node.
+- **Which .NET versions are supported?** Aspose.3D works with .NET Framework 2.0+ and .NET Core/5/6.
 
-## Gyors válaszok
-- **Mit jelent a „sík orientációjának módosítása”?** A sík up‑vektorának beállítása, hogy elforgassa azt a 3‑D térben.  
-- **Melyik fájlformátumot használja az export?** Wavefront OBJ (`.obj`).  
-- **Forgathatom közvetlenül a 3D síkot?** Igen – módosítsa a `Plane` entitás `Up` vektorát.  
-- **Szükség van licencre?** Egy ingyenes próba verzió fejlesztéshez elegendő; a gyártási környezethez kereskedelmi licenc szükséges.  
-- **Mely .NET verziók támogatottak?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+## What is “add camera to scene” in Aspose.3D?
+Adding a camera creates a viewpoint from which the scene can be rendered or inspected. The camera behaves like any other 3D entity, so you can position, rotate, and query it just like meshes or lights.
 
-## Mi a Sík orientációjának módosítása?
-A sík orientációjának módosítása a sík normál vagy up‑vektorának újradefiniálását jelenti, hogy az a 3‑D koordináta‑rendszerben más irányba mutasson. Ez a művelet hatékonyan **elforgatja a 3D sík** objektumokat anélkül, hogy megváltoztatná azok méretét vagy pozícióját.
+## Why use XPath‑like object queries?
+XPath‑like queries let you locate objects based on type, name, or custom attributes without manually traversing the node hierarchy. This makes **manipulating 3D objects** fast, readable, and maintainable—especially in complex scenes.
 
-## Miért módosítsuk a sík orientációját?
-- **Pontos vizuális igazítás** – biztosítja, hogy a textúrák és a megvilágítás a várt módon viselkedjenek.  
-- **Helyes export** – egyes downstream eszközök specifikus sík orientációra támaszkodnak OBJ fájlok importálásakor.  
-- **Rugalmasság** – ugyanazt a geometriát újra felhasználhatja különböző orientációkkal több nézethez.
+## Prerequisites
+- Basic knowledge of the .NET framework
+- Visual Studio installed
+- Aspose.3D library referenced in your project (latest version)
 
-## Előfeltételek
-
-- Aspose.3D for .NET: Győződjön meg róla, hogy a könyvtár telepítve van. Ha nincs, töltse le [innen](https://releases.aspose.com/3d/net/).  
-- A dokumentum könyvtára: Hozzon létre egy mappát, ahol az útmutató olvasni/írni fog fájlokat.
-
-Miután áttekintettük az alapokat, merüljünk el a kódban.
-
-## Névterek importálása
-
-A .NET projektjében kezdje el a szükséges névterek importálásával:
+## Import Namespaces
+Start by importing the required namespaces so you have access to all Aspose.3D classes.
 
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
-using Aspose.ThreeD.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,73 +48,101 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-Ezek a névterek biztosítják a szükséges osztályokat és metódusokat a 3D jelenetekkel való munkához az Aspose.3D-ben.
+## Step‑by‑Step Guide
 
-## 1. lépés: A Scene objektum inicializálása
+### Step 1: Open Visual Studio
+Create a new C# project or open an existing one where you want to work with 3D scenes.
 
-```csharp
-// The path to the data directory
-string dataDir = "Your Document Directory";
-
-// Initialize scene object
-Scene scene = new Scene();
-```
-
-Ez a kód beállítja a környezetet az Ön 3‑D jelenetéhez.
-
-## 2. lépés: Vektor beállítása a sík orientációjához (3D sík forgatása)
+### Step 2: Create a New Scene (Add Camera to Scene)
+Instantiate a fresh `Scene` object that will serve as the canvas for all subsequent objects.
 
 ```csharp
-// Set Vector
-scene.RootNode.CreateChildNode(new Plane() { Up = new Vector3(1, 1, 3) });
+Scene s = new Scene();
 ```
 
-Itt egy gyermek csomópontot hozunk létre, amely egy síkot képvisel, és a `Up` vektor segítségével testre szabjuk annak orientációját. A vektor értékeinek módosítása elforgatja a 3D síkot a kívánt szögbe.
-
-## 3. lépés: 3D modell OBJ mentése és exportálása
+### Step 3: Populate the Scene – Add Nodes, Camera, and Light
+Build a simple hierarchy, then **add a camera** and **add light to scene** to illustrate querying later.
 
 ```csharp
-// This will generate a plane that has customized orientation
-scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
+var a = s.RootNode.CreateChildNode("a");
+a.CreateChildNode("a1");
+a.CreateChildNode("a2");
+s.RootNode.CreateChildNode("b");
+var c = s.RootNode.CreateChildNode("c");
+c.CreateChildNode("c1").AddEntity(new Camera("cam"));
+c.CreateChildNode("c2").AddEntity(new Light("light"));
 ```
 
-A jelenet mentése egy OBJ fájlt hoz létre, amely tükrözi az új sík orientációt, lehetővé téve a **3D modell OBJ exportálását** más alkalmazásokban való használatra.
+The resulting hierarchy looks like this:
 
-Ismételje meg ezeket a lépéseket szükség szerint további síkok vagy különböző orientációk esetén.
+```
+- Root
+    - a
+        - a1
+        - a2
+    - b
+    - c
+        - c1
+            - cam
+        - c2
+            - light
+```
 
-## Gyakori problémák és megoldások
-- **A sík lapos vagy fordított:** Ellenőrizze, hogy a `Up` vektor nem kollineáris a sík normáljával. Állítsa a vektor komponenseit a kívánt döntés eléréséhez.  
-- **Az exportált OBJ üresnek tűnik:** Győződjön meg róla, hogy a `dataDir` útvonal egy elválasztóval (`\\` vagy `/`) végződik, és hogy rendelkezik írási jogosultsággal.  
-- **Váratlan forgatás:** Ne feledje, hogy a `Up` vektor a sík helyi Y‑tengelyét definiálja; ennek módosítása a síkot az X‑tengelye körül forgatja.
+### Step 4: Select Objects – How to query 3D objects
+Use an XPath‑like expression to fetch all cameras **or** any node named “light”.
 
-## Gyakran ismételt kérdések
+```csharp
+var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+```
 
-**Q1: Kompatibilis-e az Aspose.3D más 3D könyvtárakkal?**  
-A1: Az Aspose.3D zökkenőmentesen együttműködik más népszerű 3D könyvtárakkal, rugalmasságot biztosítva fejlesztése során.
+### Step 5: Select a Single Object – Select single object by path
+Retrieve the first camera node directly with a concise path.
 
-**Q2: Használhatom az Aspose.3D‑t kereskedelmi projektekben?**  
-A2: Természetesen! Az Aspose.3D licencelési lehetőségeket kínál személyes és kereskedelmi felhasználásra egyaránt. Tekintse meg őket [itt](https://purchase.aspose.com/buy).
+```csharp
+var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
+```
 
-**Q3: Hogyan kaphatok támogatást az Aspose.3D‑hez?**  
-A3: Látogassa meg az [Aspose.3D fórumot](https://forum.aspose.com/c/3d/18) közösségi támogatás és megbeszélés céljából.
+### Step 6: Select Node by Name – Quick way to locate a node
+If you know the node’s name, you can fetch it without caring about its position in the hierarchy.
 
-**Q4: Van ingyenes próba verzió?**  
-A4: Igen, az Aspose.3D‑t ingyenes próba verzióval is kipróbálhatja [itt](https://releases.aspose.com/).
+```csharp
+var obj = s.RootNode.SelectSingleObject("a1");
+```
 
-**Q5: Hol találok részletes dokumentációt?**  
-A5: Tekintse meg a dokumentációt [itt](https://reference.aspose.com/3d/net/) a mélyreható információkért.
+### Step 7: Select the Root Node – Useful for global operations
+Sometimes you need a reference to the scene’s root for bulk transformations.
 
-**Q6: Módosíthatom a sík orientációját mentés után?**  
-A6: A `Up` vektort a `scene.Save` hívása előtt kell módosítani; az OBJ fájl a mentés időpontjában lévő állapotot tükrözi.
+```csharp
+obj = s.RootNode.SelectSingleObject("/");
+```
 
-**Q7: Befolyásolja-e a orientáció módosítása a textúra koordinátákat?**  
-A7: Az orientáció változtatás csak a sík geometriáját érinti; a textúra koordináták változatlanok maradnak, hacsak nem módosítja őket kifejezetten.
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **Camera not appearing in query results** | Ensure the node’s `Entity` is a `Camera` and the name matches the query case‑sensitively. |
+| **SelectSingleObject returns null** | Verify the XPath expression syntax; use leading `/` for absolute paths. |
+| **Light does not affect rendering** | Remember that lighting calculations require a rendering engine; the Light entity alone does not render anything. |
+| **Performance slowdown on large scenes** | Limit queries to sub‑trees (`RootNode.SelectObjects("//c/*")`) or cache results when possible. |
 
----
+## Frequently Asked Questions
 
-**Utoljára frissítve:** 2026-03-21  
-**Tesztelve:** Aspose.3D 24.12 for .NET  
-**Szerző:** Aspose  
+**Q: Is Aspose.3D compatible with all .NET versions?**  
+A: Aspose.3D supports .NET Framework 2.0 and higher, as well as .NET Core, .NET 5, and .NET 6.
+
+**Q: Can I use Aspose.3D for both 3D modeling and rendering?**  
+A: Absolutely. The library provides tools for creating, editing, and rendering 3D models.
+
+**Q: Are there licensing constraints for the free trial?**  
+A: The trial version includes a limited feature set; a full license is required for production use.
+
+**Q: How can I get community support for Aspose.3D?**  
+A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for tips, examples, and help from other developers.
+
+**Q: What advantages does Aspose.3D offer over other 3D libraries for .NET?**  
+A: It combines a rich API for object queries, robust scene management, and cross‑platform compatibility without needing external dependencies.
+
+## Conclusion
+You’ve now learned how to **add a camera to a scene**, **add light to scene**, and **query 3D objects** using XPath‑like syntax in Aspose.3D for .NET. These techniques let you efficiently manipulate complex hierarchies, select nodes by name, and retrieve single objects—all essential for modern 3D applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -131,3 +150,9 @@ A7: Az orientáció változtatás csak a sík geometriáját érinti; a textúra
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-25  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose

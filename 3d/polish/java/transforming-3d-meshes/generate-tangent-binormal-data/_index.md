@@ -54,12 +54,15 @@ import java.io.IOException;
 ## Krok 1: Załaduj plik 3D
 Najpierw załaduj model źródłowy, który chcesz przetworzyć.
 
-```java
+````
 // The path to the documents directory.
 String MyDir = "Your Document Directory";
+MyDir = MyDir + "document.fbx";
 // Load an existing 3D file
-Scene scene = new Scene(MyDir + "document.fbx");
-```
+Scene scene = new Scene();
+scene.open(MyDir);
+````
+
 
 > **Pro tip:** Zastąp `"Your Document Directory"` absolutną ścieżką na swoim komputerze i upewnij się, że nazwa pliku odpowiada rzeczywistemu plikowi FBX, który chcesz edytować.
 

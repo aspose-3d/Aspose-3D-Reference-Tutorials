@@ -1,55 +1,46 @@
 ---
-date: 2026-03-21
-description: เรียนรู้วิธีเปลี่ยนทิศทางของระนาบในฉาก 3 มิติด้วย Aspose.3D สำหรับ .NET.
-  ปฏิบัติตามคู่มือขั้นตอนโดยละเอียดของเราเพื่อส่งออกโมเดล 3 มิติในรูปแบบ OBJ และหมุนระนาบ
-  3 มิติได้อย่างง่ายดาย.
-linktitle: Changing Plane Orientation in 3D Scenes
+title: Add Camera to Scene with Aspose.3D – XPath Queries
+linktitle: XPath-Like Object Queries
 second_title: Aspose.3D .NET API
-title: เปลี่ยนการวางแนวของระนาบในฉาก 3 มิติ – Aspose.3D สำหรับ .NET
-url: /th/net/3d-modeling/change-plane-orientation/
-weight: 10
+description: Learn how to add camera to scene and manipulate 3D objects using Aspose.3D for .NET. Explore XPath‑like queries, select node by name and more.
+weight: 24
+url: /net/geometry-and-hierarchy/xpath-like-object-queries/
+date: 2026-01-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เปลี่ยนการวางแนวของระนาบในฉาก 3D
+# Add Camera to Scene with Aspose.3D – XPath Queries
 
-## บทนำ
+## Introduction
+In this tutorial you’ll discover how to **add a camera to a scene** and work with powerful XPath‑like object queries in Aspose.3D for .NET. Whether you need to **select node by name**, **select single object**, or simply **add light to scene**, the steps below will guide you through creating, querying, and manipulating 3D objects with clear, real‑world examples.
 
-ในบทแนะนำเชิงลึกนี้ คุณจะได้เรียนรู้ **วิธีการเปลี่ยนการวางแนวของระนาบ** ในฉาก 3‑D ด้วย Aspose.3D สำหรับ .NET ไม่ว่าคุณจะกำลังสร้างเกม, ตัวดู CAD, หรือการแสดงผลทางวิทยาศาสตร์ การควบคุมทิศทางของระนาบเป็นสิ่งสำคัญสำหรับการเรนเดอร์ที่แม่นยำและการส่งออกไฟล์โมเดล 3‑D OBJ อย่างถูกต้อง เรามาเดินผ่านกระบวนการนี้ด้วยกัน ทีละขั้นตอน
+## Quick Answers
+- **How do I add a camera to a scene?** Use `c.CreateChildNode("c1").AddEntity(new Camera("cam"));`
+- **Can I query objects with XPath syntax?** Yes – `SelectObjects` and `SelectSingleObject` support XPath‑like expressions.
+- **What if I need to select a node by name?** Use `SelectSingleObject("a1")` or `"//a1"` style paths.
+- **How do I add a light to the scene?** Call `AddEntity(new Light("light"))` on a child node.
+- **Which .NET versions are supported?** Aspose.3D works with .NET Framework 2.0+ and .NET Core/5/6.
 
-## คำตอบอย่างรวดเร็ว
-- **“การเปลี่ยนการวางแนวของระนาบ” หมายถึงอะไร?** การปรับเวกเตอร์ up ของระนาบเพื่อหมุนมันในพื้นที่ 3‑D.  
-- **รูปแบบไฟล์ที่ใช้สำหรับการส่งออกคืออะไร?** Wavefront OBJ (`.obj`).  
-- **ฉันสามารถหมุนระนาบ 3D ได้โดยตรงหรือไม่?** ได้ – แก้ไขเวกเตอร์ `Up` ของเอนทิตี้ `Plane`.  
-- **ฉันต้องการไลเซนส์หรือไม่?** การทดลองใช้ฟรีทำงานสำหรับการพัฒนา; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง.  
-- **เวอร์ชัน .NET ที่รองรับคืออะไร?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+## What is “add camera to scene” in Aspose.3D?
+Adding a camera creates a viewpoint from which the scene can be rendered or inspected. The camera behaves like any other 3D entity, so you can position, rotate, and query it just like meshes or lights.
 
-## การเปลี่ยนการวางแนวของระนาบคืออะไร?
-การเปลี่ยนการวางแนวของระนาบหมายถึงการกำหนดค่าใหม่ให้กับเวกเตอร์ปกติหรือเวกเตอร์ up ของระนาบเพื่อให้ชี้ไปในทิศทางที่ต่างกันภายในระบบพิกัด 3‑D การดำเนินการนี้ทำให้ **หมุนระนาบ 3D** ได้โดยไม่ต้องเปลี่ยนขนาดหรือตำแหน่งของวัตถุ
+## Why use XPath‑like object queries?
+XPath‑like queries let you locate objects based on type, name, or custom attributes without manually traversing the node hierarchy. This makes **manipulating 3D objects** fast, readable, and maintainable—especially in complex scenes.
 
-## ทำไมต้องเปลี่ยนการวางแนวของระนาบ?
-- **การจัดแนวภาพที่แม่นยำ** – ทำให้เทกเจอร์และแสงทำงานตามที่คาดหวัง.  
-- **การส่งออกที่ถูกต้อง** – เครื่องมือบางอย่างพึ่งพาการวางแนวของระนาบที่เฉพาะเจาะจงเมื่อทำการนำเข้าไฟล์ OBJ.  
-- **ความยืดหยุ่น** – คุณสามารถใช้เรขาคณิตเดียวกันกับการวางแนวที่ต่างกันสำหรับหลายมุมมอง.
+## Prerequisites
+- Basic knowledge of the .NET framework
+- Visual Studio installed
+- Aspose.3D library referenced in your project (latest version)
 
-## ข้อกำหนดเบื้องต้น
-
-- Aspose.3D for .NET: ตรวจสอบว่าคุณได้ติดตั้งไลบรารีแล้ว หากยังไม่ได้ ให้ดาวน์โหลดจาก [here](https://releases.aspose.com/3d/net/).  
-- โฟลเดอร์เอกสารของคุณ: ตั้งค่าโฟลเดอร์ที่บทแนะนำจะอ่าน/เขียนไฟล์.
-
-ตอนนี้เราได้ครอบคลุมพื้นฐานแล้ว มาเริ่มลงลึกในโค้ดกัน
-
-## นำเข้า Namespaces
-
-ในโปรเจกต์ .NET ของคุณ เริ่มต้นด้วยการนำเข้า namespaces ที่จำเป็น:
+## Import Namespaces
+Start by importing the required namespaces so you have access to all Aspose.3D classes.
 
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
-using Aspose.ThreeD.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,71 +48,101 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-Namespaces เหล่านี้ให้คลาสและเมธอดที่จำเป็นสำหรับการทำงานกับฉาก 3D ใน Aspose.3D.
+## Step‑by‑Step Guide
 
-## ขั้นตอนที่ 1: เริ่มต้นอ็อบเจ็กต์ Scene
+### Step 1: Open Visual Studio
+Create a new C# project or open an existing one where you want to work with 3D scenes.
 
-```csharp
-// The path to the data directory
-string dataDir = "Your Document Directory";
-
-// Initialize scene object
-Scene scene = new Scene();
-```
-
-โค้ดนี้ตั้งค่าสภาพแวดล้อมสำหรับฉาก 3‑D ของคุณ.
-
-## ขั้นตอนที่ 2: ตั้งค่าเวกเตอร์สำหรับการวางแนวของระนาบ (หมุนระนาบ 3D)
+### Step 2: Create a New Scene (Add Camera to Scene)
+Instantiate a fresh `Scene` object that will serve as the canvas for all subsequent objects.
 
 ```csharp
-// Set Vector
-scene.RootNode.CreateChildNode(new Plane() { Up = new Vector3(1, 1, 3) });
+Scene s = new Scene();
 ```
 
-ที่นี่ เราสร้าง child node ที่เป็นตัวแทนของระนาบและปรับแต่งการวางแนวโดยใช้เวกเตอร์ `Up`. การเปลี่ยนค่าเวกเตอร์จะทำให้ระนาบ 3D หมุนไปยังมุมที่ต้องการ.
-
-## ขั้นตอนที่ 3: บันทึกและส่งออกโมเดล 3D OBJ
+### Step 3: Populate the Scene – Add Nodes, Camera, and Light
+Build a simple hierarchy, then **add a camera** and **add light to scene** to illustrate querying later.
 
 ```csharp
-// This will generate a plane that has customized orientation
-scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
+var a = s.RootNode.CreateChildNode("a");
+a.CreateChildNode("a1");
+a.CreateChildNode("a2");
+s.RootNode.CreateChildNode("b");
+var c = s.RootNode.CreateChildNode("c");
+c.CreateChildNode("c1").AddEntity(new Camera("cam"));
+c.CreateChildNode("c2").AddEntity(new Light("light"));
 ```
 
-การบันทึกฉากจะสร้างไฟล์ OBJ ที่สะท้อนการวางแนวของระนาบใหม่ ทำให้คุณสามารถ **ส่งออกโมเดล 3D OBJ** เพื่อใช้ในแอปพลิเคชันอื่นได้.
+The resulting hierarchy looks like this:
 
-ทำซ้ำขั้นตอนเหล่านี้ตามต้องการสำหรับระนาบเพิ่มเติมหรือการวางแนวที่ต่างกัน.
+```
+- Root
+    - a
+        - a1
+        - a2
+    - b
+    - c
+        - c1
+            - cam
+        - c2
+            - light
+```
 
-## ปัญหาที่พบบ่อยและวิธีแก้
-- **ระนาบปรากฏแบนหรือกลับด้าน:** ตรวจสอบว่าเวกเตอร์ `Up` ไม่อยู่ในแนวเดียวกับปกติของระนาบ ปรับส่วนประกอบของเวกเตอร์เพื่อให้ได้การเอียงที่ต้องการ.  
-- **ไฟล์ OBJ ที่ส่งออกดูว่างเปล่า:** ตรวจสอบว่าเส้นทาง `dataDir` ลงท้ายด้วยตัวคั่น (`\\` หรือ `/`) และคุณมีสิทธิ์เขียน.  
-- **การหมุนที่ไม่คาดคิด:** จำไว้ว่าเวกเตอร์ `Up` กำหนดแกน Y‑ท้องถิ่นของระนาบ; การแก้ไขมันจะทำให้ระนาบหมุนรอบแกน X ของมัน.
+### Step 4: Select Objects – How to query 3D objects
+Use an XPath‑like expression to fetch all cameras **or** any node named “light”.
 
-## คำถามที่พบบ่อย
+```csharp
+var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+```
 
-**Q1: Aspose.3D เข้ากันได้กับไลบรารี 3D อื่นหรือไม่?**  
-A1: Aspose.3D สามารถทำงานร่วมกับไลบรารี 3D ยอดนิยมอื่น ๆ ได้อย่างราบรื่น ให้ความยืดหยุ่นในการพัฒนาของคุณ.
+### Step 5: Select a Single Object – Select single object by path
+Retrieve the first camera node directly with a concise path.
 
-**Q2: ฉันสามารถใช้ Aspose.3D สำหรับโครงการเชิงพาณิชย์ได้หรือไม่?**  
-A2: แน่นอน! Aspose.3D มีตัวเลือกไลเซนส์สำหรับการใช้งานส่วนบุคคลและเชิงพาณิชย์ ตรวจสอบได้ที่ [here](https://purchase.aspose.com/buy).
+```csharp
+var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
+```
 
-**Q3: ฉันจะรับการสนับสนุนสำหรับ Aspose.3D อย่างไร?**  
-A3: เยี่ยมชม [Aspose.3D forum](https://forum.aspose.com/c/3d/18) เพื่อรับการสนับสนุนจากชุมชนและการสนทนา.
+### Step 6: Select Node by Name – Quick way to locate a node
+If you know the node’s name, you can fetch it without caring about its position in the hierarchy.
 
-**Q4: มีการทดลองใช้ฟรีหรือไม่?**  
-A4: มี, คุณสามารถสำรวจ Aspose.3D ด้วยการทดลองใช้ฟรีได้ที่ [here](https://releases.aspose.com/).
+```csharp
+var obj = s.RootNode.SelectSingleObject("a1");
+```
 
-**Q5: ฉันจะหาเอกสารรายละเอียดได้จากที่ไหน?**  
-A5: ดูเอกสารที่ [here](https://reference.aspose.com/3d/net/) เพื่อข้อมูลเชิงลึก.
+### Step 7: Select the Root Node – Useful for global operations
+Sometimes you need a reference to the scene’s root for bulk transformations.
 
-**Q6: ฉันสามารถเปลี่ยนการวางแนวของระนาบหลังจากบันทึกได้หรือไม่?**  
-A6: คุณต้องแก้ไขเวกเตอร์ `Up` ก่อนเรียก `scene.Save`; ไฟล์ OBJ จะสะท้อนสถานะในขณะบันทึก.
+```csharp
+obj = s.RootNode.SelectSingleObject("/");
+```
 
-**Q7: การเปลี่ยนการวางแนวส่งผลต่อพิกัดเทกเจอร์หรือไม่?**  
-A7: การเปลี่ยนการวางแนวมีผลต่อเรขาคณิตของระนาบเท่านั้น; พิกัดเทกเจอร์จะคงเดิม เว้นแต่คุณจะแก้ไขโดยเจตนา.
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **Camera not appearing in query results** | Ensure the node’s `Entity` is a `Camera` and the name matches the query case‑sensitively. |
+| **SelectSingleObject returns null** | Verify the XPath expression syntax; use leading `/` for absolute paths. |
+| **Light does not affect rendering** | Remember that lighting calculations require a rendering engine; the Light entity alone does not render anything. |
+| **Performance slowdown on large scenes** | Limit queries to sub‑trees (`RootNode.SelectObjects("//c/*")`) or cache results when possible. |
 
-**อัปเดตล่าสุด:** 2026-03-21  
-**ทดสอบกับ:** Aspose.3D 24.12 for .NET  
-**ผู้เขียน:** Aspose  
+## Frequently Asked Questions
+
+**Q: Is Aspose.3D compatible with all .NET versions?**  
+A: Aspose.3D supports .NET Framework 2.0 and higher, as well as .NET Core, .NET 5, and .NET 6.
+
+**Q: Can I use Aspose.3D for both 3D modeling and rendering?**  
+A: Absolutely. The library provides tools for creating, editing, and rendering 3D models.
+
+**Q: Are there licensing constraints for the free trial?**  
+A: The trial version includes a limited feature set; a full license is required for production use.
+
+**Q: How can I get community support for Aspose.3D?**  
+A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for tips, examples, and help from other developers.
+
+**Q: What advantages does Aspose.3D offer over other 3D libraries for .NET?**  
+A: It combines a rich API for object queries, robust scene management, and cross‑platform compatibility without needing external dependencies.
+
+## Conclusion
+You’ve now learned how to **add a camera to a scene**, **add light to scene**, and **query 3D objects** using XPath‑like syntax in Aspose.3D for .NET. These techniques let you efficiently manipulate complex hierarchies, select nodes by name, and retrieve single objects—all essential for modern 3D applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -129,3 +150,9 @@ A7: การเปลี่ยนการวางแนวมีผลต่�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-25  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose

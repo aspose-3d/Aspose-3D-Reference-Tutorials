@@ -57,19 +57,15 @@ import com.aspose.threed.*;
 
 import java.io.*;
 import java.util.List;
-```
-
-## Step 1: Load the 3D Model (convert fbx to mesh)
+```## Step 1: Load the 3D Model (convert fbx to mesh)
 
 ```java
 Scene scene = new Scene();
 scene.open("Your Document Directory" + "test.fbx");
 ```
 
-*Here we load an FBX file (`convert fbx to mesh`) into an Aspose `Scene` object, which gives us access to all nodes, meshes, and materials.*
-
+Here we load an FBX file (``convert fbx to mesh``) into an Aspose ``Scene`` object, which gives us access to all nodes, meshes, and materials.
 ## Create Custom Mesh Format (binary)
-
 Before saving, decide on the binary layout. The example below uses a very simple schema that you can extend to include normals, UVs, or any custom attribute you need for your engine.
 
 ```java
@@ -86,12 +82,8 @@ import java.io.*;
 import java.util.List;
 import com.aspose.threed.*;
 
-Scene scene = new Scene();
-scene.open("Your Document Directory" + "test.fbx");
-
-try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("Your Document Directory" + "Save3DMeshesInCustomBinaryFormat_out")))) {
-    // Visit each descent node in the scene
-    scene.getRootNode().accept(new NodeVisitor() {
+````java
+try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("Your Document Directory" + "Save3DMeshesInCustomBinaryFormat_out")))) {    scene.getRootNode().accept(new NodeVisitor() {
         @Override
         public boolean call(Node node) {
             try {
@@ -123,8 +115,7 @@ try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new
                         writer.writeInt(triFaces[i][1]);
                         writer.writeInt(triFaces[i][2]);
                     }
-                }
-            } catch (Exception e) {
+                }            } catch (Exception e) {
                 e.printStackTrace();
             }
             return true;
@@ -134,7 +125,6 @@ try (DataOutputStream writer = new DataOutputStream(new BufferedOutputStream(new
     e.printStackTrace();
 }
 ```
-
 *The visitor pattern walks every node, extracts mesh data, **triangulate mesh Java** using `PolygonModifier.triangulate`, applies the node’s global transform, and finally writes the binary payload. This is the core of **how to write binary** for 3‑D meshes.*
 
 ## Common Issues & Troubleshooting

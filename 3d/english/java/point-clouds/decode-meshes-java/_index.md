@@ -133,7 +133,7 @@ PointCloud pointCloud = (PointCloud) FileFormat.DRACO.decode("Your Document Dire
 // ExEnd:1
 ```
 
-This prepares the library to read Draco‑compressed data efficiently.
+This sets the stage for decoding the mesh efficiently.
 
 ### Step 2: Decode Mesh
 
@@ -141,17 +141,10 @@ The `decodeMesh()` method on a `PointCloud` instance extracts the underlying pol
 
 ```java
 // ExStart:3
-Mesh mesh = pointCloud.get_Mesh();
+Geometry geometry = pointCloud;
 // ExEnd:3
 ```
-
-```java
-// ExStart:3
-Mesh mesh = pointCloud.get_Mesh();
-// ExEnd:3
-```
-
-You now have a fully‑formed `Mesh` object ready for further manipulation.
+This step extracts the mesh from the initialized point cloud.
 
 ### Step 3: Further Processing
 

@@ -1,57 +1,85 @@
 ---
-date: 2026-02-20
-description: Erfahren Sie, wie Sie ein Mesh in Aspose Java erstellen und 3D‑Knoten
-  mit Euler‑Winkeln transformieren, 3D‑Rotation hinzufügen und die Translation in
-  Java festlegen.
-linktitle: Create Mesh Aspose Java – Transform 3D Nodes with Euler Angles
-second_title: Aspose.3D Java API
-title: Mesh mit Aspose Java erstellen – 3D‑Knoten mit Euler‑Winkeln transformieren
-url: /de/java/geometry/transform-3d-nodes-with-euler-angles/
+title: "Create Mesh Aspose Java – Transform 3D Nodes with Euler Angles"
+linktitle: "Create Mesh Aspose Java – Transform 3D Nodes with Euler Angles"
+second_title: "Aspose.3D Java API"
+description: "Learn how to create mesh aspose java and transform 3D nodes using Euler angles, add rotation 3D, set translation java, and export scenes efficiently."
 weight: 19
+url: /java/geometry/transform-3d-nodes-with-euler-angles/
+date: 2026-06-13
+keywords:
+  - create mesh aspose java
+  - set translation java
+  - euler angles java
+  - aspose 3d rotation
+  - export fbx java
+schemas:
+- type: TechArticle
+  headline: Create Mesh Aspose Java – Transform 3D Nodes with Euler Angles
+  description: Learn how to create mesh aspose java and transform 3D nodes using Euler
+    angles, add rotation 3D, set translation java, and export scenes efficiently.
+  dateModified: '2026-06-13'
+  author: Aspose
+- type: FAQPage
+  questions:
+  - question: What is the difference between Euler angles and quaternion rotation?
+    answer: Euler angles are intuitive (pitch, yaw, roll) but can suffer from gimbal
+      lock, while quaternions avoid that issue and provide smoother interpolation
+      for animations.
+  - question: Can I chain multiple transformations on the same node?
+    answer: Yes. Call `setEulerAngles`, `setTranslation`, and `setScale` in any order;
+      the library composes them into a single transform matrix.
+  - question: Is it possible to export to other formats like OBJ or STL?
+    answer: Absolutely. Replace `FileFormat.FBX7500ASCII` with `FileFormat.OBJ` or
+      `FileFormat.STL` in the `scene.save` call.
+  - question: How do I apply the same rotation to several nodes at once?
+    answer: Create a parent node, apply the rotation to the parent, and add child
+      nodes under it. All children inherit the transformation automatically.
+  - question: Do I need to call any cleanup methods after saving?
+    answer: The Java garbage collector handles most resources, but you can explicitly
+      call `scene.dispose()` when working with large scenes in long‑running applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D‑Knoten mit Euler‑Winkeln in Java mithilfe von Aspose.3D transformieren
+# Transform 3D Nodes with Euler Angles in Java using Aspose.3D
 
-## Einführung
+## Introduction
 
-In diesem Tutorial erfahren Sie, wie Sie **create mesh aspose java** erstellen und 3D‑Knoten durch Anwenden von Euler‑Winkeln transformieren. Am Ende der Anleitung können Sie 3D‑Rotation hinzufügen, **set translation java** festlegen und dynamische Szenen erstellen, die auf Echtzeitdaten reagieren.
+In this tutorial you’ll **create mesh aspose java** objects, attach them to scene nodes, and then transform those nodes using Euler angles. By the end you’ll be comfortable adding 3‑D rotation, setting translation java, and exporting the final scene to FBX or other formats—all with Aspose 3D’s concise API.
 
-## Schnelle Antworten
-- **Welche Bibliothek verarbeitet 3D‑Transformationen in Java?** Aspose 3D for Java.  
-- **Welche Methode setzt die Rotation mittels Euler‑Winkeln?** `setEulerAngles()` am Transform des Knotens.  
-- **Wie bewege ich einen Knoten im Raum?** Verwenden Sie `setTranslation()` mit einem `Vector3`.  
-- **Benötige ich eine Lizenz für die Produktion?** Ja, eine kommerzielle Aspose 3D‑Lizenz ist erforderlich.  
-- **Kann ich nach FBX exportieren?** Absolut – `scene.save(..., FileFormat.FBX7500ASCII)` funktioniert sofort.
+## Quick Answers
+- **What library handles 3D transformations in Java?** Aspose 3D for Java.  
+- **Which method sets rotation using Euler angles?** `setEulerAngles()` on a node’s transform.  
+- **How do I move a node in space?** Call `setTranslation()` with a `Vector3`.  
+- **Do I need a license for production?** Yes, a commercial Aspose 3D license is required.  
+- **Can I export to FBX?** Absolutely – `scene.save(..., FileFormat.FBX7500ASCII)` works out of the box.
 
-## Voraussetzungen
+## What is “create mesh aspose java”?
 
-Bevor wir ins Tutorial einsteigen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllt haben:
-
-- Grundkenntnisse in der Java‑Programmierung.  
-- Java Development Kit (JDK) auf Ihrem Rechner installiert.  
-- Aspose.3D‑Bibliothek, die Sie von [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/) erhalten können.
-
-## Pakete importieren
-
-Beginnen Sie damit, die erforderlichen Pakete in Ihr Java‑Projekt zu importieren. Stellen Sie sicher, dass die Aspose.3D‑Bibliothek korrekt zu Ihrem Klassenpfad hinzugefügt wurde. Wenn Sie sie noch nicht heruntergeladen haben, finden Sie den Download‑Link [hier](https://releases.aspose.com/3d/java/).
+`Mesh` is Aspose.3D’s core geometry container that stores vertices, faces, and material data for a 3‑D object. When you **create mesh aspose java**, you are defining the shape that will later be attached to a node and transformed. The mesh encapsulates all geometric information, making it reusable across multiple nodes or scenes, and it can be exported directly without additional conversion steps.
 
 ```java
 import com.aspose.threed.*;
 ```
 
-## Mesh mit Aspose Java erstellen
+## Why use Euler angles with Aspose 3D?
 
-Der erste Schritt in jedem 3D‑Workflow ist **create mesh aspose java** – also das Erstellen der geometrischen Daten, die später transformiert werden. In diesem Beispiel erzeugen wir ein einfaches Würfel‑Mesh mithilfe von Asposes Hilfsmethoden und hängen es an einen Knoten an.
+Euler angles let you describe rotation as three intuitive values—pitch, yaw, and roll—making it easy to map UI sliders or sensor data directly to a model’s orientation. Aspose 3D abstracts the underlying matrix math, so you can focus on visual results rather than complex quaternion calculations.
 
-### aspose 3d java – Arbeiten mit Euler‑Winkeln
+## Prerequisites
 
-#### Schritt 1. Szene und Knoten initialisieren
+Before we dive, ensure you have:
 
-Zuerst erstellen Sie eine Szene und einen Knoten, der die Geometrie enthält, die Sie transformieren möchten.
+- Basic Java programming experience.  
+- JDK 8 or newer installed.  
+- Aspose.3D library, which you can obtain from [Aspose.3D Java Documentation](https://reference.aspose.com/3d/java/).  
+- A valid Aspose 3D license for production builds.
+
+## Import Packages
+
+Begin by importing the necessary packages into your Java project. Ensure that the Aspose.3D library is correctly added to your classpath. If you haven't downloaded it yet, you can find the download link [here](https://releases.aspose.com/3d/java/).
 
 ```java
 // ExStart:AddTransformationToNodeByEulerAngles
@@ -61,24 +89,20 @@ Scene scene = new Scene();
 // Initialize Node class object
 Node cubeNode = new Node("cube");
 ```
+## How do I create mesh aspose java?
 
-#### Schritt 2. Mesh erstellen und Geometrie setzen
+`Mesh` is a container that holds vertex and face data for a 3-D object. It provides methods to define geometry programmatically or load it from existing files. To create a mesh, instantiate the class, add vertices, define polygons, and then assign the mesh to a node. This step establishes the geometric foundation before any transformation is applied, allowing you to reuse the same mesh across multiple nodes if needed.
 
-Als Nächstes erzeugen Sie ein einfaches Mesh (in diesem Fall einen Würfel) und hängen es an den Knoten an.
-
-```java
-// Call Common class create mesh using polygon builder method to set mesh instance
-Mesh mesh = Common.createMeshUsingPolygonBuilder();
+` ```java
+// Use Box primitive and convert to mesh
+Mesh mesh = new Box().toMesh();
 
 // Point node to the Mesh geometry
 cubeNode.setEntity(mesh);
-```
+` ```
+## How can I set translation java on a node?
 
-## 3D‑Rotation zu einem Knoten hinzufügen
-
-#### Schritt 3. Euler‑Winkel und Translation setzen
-
-Jetzt wenden wir die Rotation mittels Euler‑Winkeln an und verschieben den Knoten zudem in eine sichtbare Position.
+`Transform` is the component attached to every `Node` that controls position, rotation, and scale. The `setTranslation()` method of `Transform` moves the node by specifying a `Vector3` offset. By calling this method you shift the entire mesh relative to the scene’s origin while preserving its internal geometry. This approach is ideal for positioning objects in a world coordinate system or aligning multiple models together.
 
 ```java
 // Euler angles
@@ -88,82 +112,78 @@ cubeNode.getTransform().setEulerAngles(new Vector3(0.3, 0.1, -0.5));
 cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
 ```
 
-## set translation java – Positionierung des Knotens
+## How do I apply Euler angles to rotate a node?
 
-Der obige Translation‑Schritt demonstriert **set translation java** in der Praxis: Der Knoten wird um 20 Einheiten entlang der Z‑Achse verschoben, sodass er nach dem Rendern sichtbar ist.
-
-## Schritt 4. Knoten zur Szene hinzufügen
-
-Hängen Sie den transformierten Knoten an den Root‑Knoten der Szene an.
+`setEulerAngles()` is a method of the node’s `Transform` that accepts three floating‑point values representing rotation around the X, Y, and Z axes (in degrees). Providing pitch, yaw, and roll values lets you rotate the node intuitively, and Aspose 3D internally converts these angles into a rotation matrix. This method is especially useful for UI‑driven rotations where users adjust sliders corresponding to each axis.
 
 ```java
 // Add cube to the scene
 scene.getRootNode().getChildNodes().add(cubeNode);
 ```
+## How to add the transformed node to the scene?
 
-## Schritt 5. 3D‑Szene speichern
+`scene.getRootNode().addChildNode(node)` adds a node to the root of the scene graph, making it part of the renderable hierarchy. Once the node is attached, any transforms applied to it—such as translation, rotation, or scaling—are automatically considered during rendering and export operations. Adding nodes in this way also enables hierarchical relationships, allowing child nodes to inherit transformations from their parents.
 
-Exportieren Sie schließlich die Szene in eine FBX‑Datei (oder ein anderes unterstütztes Format).
-
-```java
-// The path to the documents directory.
-String MyDir = "Your Document Directory";
-MyDir = MyDir + "TransformationToNode.fbx";
-
+` ```java
+// Add cube to the scene
+scene.getRootNode().addChildNode(cubeNode);
+` ```
 // Save 3D scene in the supported file formats
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 // ExEnd:AddTransformationToNodeByEulerAngles
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-Stellen Sie sicher, dass Sie `"Your Document Directory"` durch den entsprechenden Pfad auf Ihrem Rechner ersetzen.
+## How to save the 3D scene to a file?
 
-## Warum Euler‑Winkel mit Aspose 3D verwenden?
+`scene.save()` writes the entire scene, including all meshes, materials, and transforms, to a specified file format. By passing the output path and a `FileFormat` enum (e.g., `FileFormat.FBX7500ASCII`), you can export to FBX, OBJ, STL, or any other supported format. This method serializes the scene graph in a single operation, ensuring that all transformations are preserved in the exported file. Replace `"Your Document Directory"` with the actual folder path on your machine.
 
-Euler‑Winkel bieten eine intuitive Möglichkeit, über Rotationen nachzudenken – Pitch, Yaw und Roll – und eignen sich perfekt für schnelles Prototyping oder wenn Sie Rotations‑Steuerelemente End‑Benutzern zur Verfügung stellen müssen. Aspose 3D abstrahiert die zugrunde liegende Matrix‑Mathematik, sodass Sie sich auf das visuelle Ergebnis statt auf die Mathematik konzentrieren können.
+CODE_BLOCK_PLACEHOLDER_6_END
 
-## Häufige Anwendungsfälle
+## Common Use Cases
 
-- **Echtzeit‑Datenvisualisierung:** Ein Modell basierend auf Sensoreingaben rotieren.  
-- **Spiel‑ähnliche Kamerasysteme:** Yaw‑Pitch‑Roll anwenden, um eine Kamera zu simulieren.  
-- **Produktkonfiguratoren:** Kunden ermöglichen, ein 3D‑Produktmodell mit einfachen Schiebereglern zu drehen.
+- **Real‑time data visualization:** Rotate a model based on live sensor input.  
+- **Game‑style camera rigs:** Apply yaw‑pitch‑roll to simulate a first‑person camera.  
+- **Product configurators:** Let customers spin a 3‑D product model using simple sliders.
 
-## Fehlersuche & Tipps
+## Troubleshooting & Tips
 
-- **Gimbal‑Lock:** Wenn Sie beim Rotieren unerwartetes Springen bemerken, sollten Sie zu einer quaternion‑basierten Rotation (`setRotationQuaternion()`) wechseln.  
-- **Einheiten‑Konsistenz:** Aspose 3D arbeitet in denselben Einheiten, die Sie angeben; halten Sie die Translationswerte konsistent mit dem Maßstab Ihres Modells.  
-- **Performance:** Für große Szenen rufen Sie nach dem Speichern `scene.dispose()` auf, um native Ressourcen freizugeben.
+- **Gimbal lock:** If rotation snaps unexpectedly, switch to quaternion‑based rotation with `setRotationQuaternion()`.  
+- **Unit consistency:** Aspose 3D respects the units you provide; keep translation values consistent with your model’s scale to avoid distortion.  
+- **Performance:** For large scenes, explicitly call `scene.dispose()` after saving to free native resources and prevent memory leaks.
 
-## Häufig gestellte Fragen
+## Frequently Asked Questions
 
-**Q: Was ist der Unterschied zwischen Euler‑Winkeln und Quaternion‑Rotation?**  
-A: Euler‑Winkel sind intuitiv (Pitch, Yaw, Roll), können jedoch unter Gimbal‑Lock leiden, während Quaternionen dieses Problem vermeiden und besser für sanfte Interpolationen geeignet sind.
+**Q: What is the difference between Euler angles and quaternion rotation?**  
+A: Euler angles are intuitive (pitch, yaw, roll) but can suffer from gimbal lock, while quaternions avoid that issue and provide smoother interpolation for animations.
 
-**Q: Kann ich mehrere Transformationen am selben Knoten verketten?**  
-A: Ja. Rufen Sie `setEulerAngles`, `setTranslation` und `setScale` in beliebiger Reihenfolge auf; die Bibliothek kombiniert sie zu einer einzigen Transformationsmatrix.
+**Q: Can I chain multiple transformations on the same node?**  
+A: Yes. Call `setEulerAngles`, `setTranslation`, and `setScale` in any order; the library composes them into a single transform matrix.
 
-**Q: Ist es möglich, in andere Formate wie OBJ oder STL zu exportieren?**  
-A: Absolut. Ersetzen Sie `FileFormat.FBX7500ASCII` durch `FileFormat.OBJ` oder `FileFormat.STL` im Aufruf von `scene.save`.
+**Q: Is it possible to export to other formats like OBJ or STL?**  
+A: Absolutely. Replace `FileFormat.FBX7500ASCII` with `FileFormat.OBJ` or `FileFormat.STL` in the `scene.save` call.
 
-**Q: Wie wende ich dieselbe Rotation auf mehrere Knoten gleichzeitig an?**  
-A: Erstellen Sie einen Eltern‑Knoten, wenden Sie die Rotation auf den Eltern‑Knoten an und fügen Sie darunter Kind‑Knoten hinzu. Alle Kinder erben die Transformation.
+**Q: How do I apply the same rotation to several nodes at once?**  
+A: Create a parent node, apply the rotation to the parent, and add child nodes under it. All children inherit the transformation automatically.
 
-**Q: Muss ich nach dem Speichern Aufräum‑Methoden aufrufen?**  
-A: Der Java‑Garbage‑Collector kümmert sich um die meisten Ressourcen, aber Sie können explizit `scene.dispose()` aufrufen, wenn Sie mit großen Szenen in einer langfristig laufenden Anwendung arbeiten.
-
-## Fazit
-
-Herzlichen Glückwunsch! Sie haben erfolgreich **create mesh aspose java** erstellt und 3D‑Knoten mit Euler‑Winkeln in Java mithilfe von Aspose 3D transformiert. Experimentieren Sie mit verschiedenen Winkeln, Translationen und sogar Quaternion‑Rotationen, um dynamische und ansprechende 3D‑Erlebnisse zu schaffen.
+**Q: Do I need to call any cleanup methods after saving?**  
+A: The Java garbage collector handles most resources, but you can explicitly call `scene.dispose()` when working with large scenes in long‑running applications.
 
 ---
 
-**Zuletzt aktualisiert:** 2026-02-20  
-**Getestet mit:** Aspose.3D 23.12 für Java  
-**Autor:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-06-13  
+**Tested With:** Aspose.3D 23.12 for Java  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Related Tutorials
+
+- [Set Rotation Quaternion in Java using Aspose.3D](/3d/java/geometry/concatenate-quaternions-for-3d-rotations/)
+- [Create Node Aspose 3D in Java – Expose Transformations](/3d/java/geometry/expose-geometric-transformations/)
+- [Java 3D Graphics Tutorial - Create a 3D Cube Scene with Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

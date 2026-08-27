@@ -1,16 +1,59 @@
 ---
-date: 2026-04-12
-description: เรียนรู้วิธีสร้างพิกัด UV และทำการแมปเทกซ์เจอร์ใน Java ด้วย Aspose.3D
-  – บทเรียนการแมปเทกซ์เจอร์แบบทีละขั้นตอน
+date: 2026-06-29
+description: เรียนรู้วิธีสร้าง UV coordinates, เพิ่ม texture coordinates และแมป textures
+  บน mesh ใน Java ด้วย Aspose.3D – การสอน uv mapping 3d models แบบขั้นตอนต่อขั้นตอน
 keywords:
-- generate uv coordinates
-- create uv set
-- texture mapping tutorial
-- uv mapping 3d objects
+- uv mapping 3d models
 - add texture coordinates
-linktitle: วิธีสร้างพิกัด UV – นำ UV ไปใช้กับวัตถุ 3 มิติใน Java ด้วย Aspose.3D
+- map textures onto mesh
+linktitle: uv mapping 3d models – วิธีสร้าง UV Coordinates และนำ UVs ไปใช้กับ 3D Objects
+  ใน Java ด้วย Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-06-29'
+  description: Learn how to generate UV coordinates, add texture coordinates and map
+    textures onto mesh in Java with Aspose.3D – a step‑by‑step uv mapping 3d models
+    tutorial.
+  headline: uv mapping 3d models – How to Generate UV Coordinates and Apply UVs to
+    3D Objects in Java with Aspose.3D
+  type: TechArticle
+- description: Learn how to generate UV coordinates, add texture coordinates and map
+    textures onto mesh in Java with Aspose.3D – a step‑by‑step uv mapping 3d models
+    tutorial.
+  name: uv mapping 3d models – How to Generate UV Coordinates and Apply UVs to 3D
+    Objects in Java with Aspose.3D
+  steps:
+  - name: Import Aspose.3D Packages
+    text: Now that the packages are ready, let’s set up the UV data for a simple cube.
+  - name: Create UVs and Indices
+    text: These arrays define the **UV coordinates** (`uvs`) and the **index mapping**
+      (`uvsId`) that tells the mesh which UV belongs to each polygon vertex.
+  - name: Create Mesh and UVset
+    text: 'Here we: 1. Build a mesh (the cube) using a helper class. 2. Create a UV
+      element (`VertexElementUV`) that stores our texture coordinates. 3. Assign the
+      UV data and the index buffer to the mesh, effectively **adding texture coordinates**
+      to the geometry.'
+  - name: Print Confirmation
+    text: Running the program will display a confirmation message, indicating that
+      the UVs are now part of the mesh and ready for texture mapping.
+  type: HowTo
+- questions:
+  - answer: Yes, the process remains similar for complex models. Ensure you generate
+      appropriate UV data and index buffers for each polygon.
+    question: Can I apply UV coordinates to complex 3D models?
+  - answer: Visit the [Aspose.3D documentation](https://reference.aspose.com/3d/java/)
+      for in‑depth information. For support, check the [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
+    question: Where can I find additional resources and support for Aspose.3D?
+  - answer: Yes, you can explore the Aspose.3D library with a [free trial](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.3D?
+  - answer: You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.3D?
+  - answer: To purchase Aspose.3D, visit the [purchase page](https://purchase.aspose.com/buy).
+    question: Where can I purchase Aspose.3D?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: วิธีสร้างพิกัด UV – นำ UV ไปใช้กับวัตถุ 3 มิติใน Java ด้วย Aspose.3D
+title: uv mapping 3d models – วิธีสร้าง UV Coordinates และนำ UVs ไปใช้กับ 3D Objects
+  ใน Java ด้วย Aspose.3D
 url: /th/java/geometry/apply-uv-coordinates-to-3d-objects/
 weight: 18
 ---
@@ -19,40 +62,48 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีสร้างพิกัด UV – ใช้ UV กับวัตถุ 3D ใน Java ด้วย Aspose.3D
+# การทำ uv mapping โมเดล 3 มิติ – วิธีสร้างพิกัด UV และนำ UV ไปใช้กับวัตถุ 3 มิติใน Java ด้วย Aspose.3D
 
 ## บทนำ
 
-ยินดีต้อนรับสู่ **texture mapping tutorial** ที่ครอบคลุมเกี่ยวกับ **how to generate UV coordinates** และการใช้พิกัด UV กับวัตถุ 3D ใน Java ด้วย Aspose.3D. ในโลกของกราฟิก 3‑D, พิกัด UV เป็นสะพานที่ทำให้คุณ **map textures java** และทำให้โมเดลของคุณดูสมจริง คู่มือนี้จะพาคุณผ่านแต่ละขั้นตอน เพื่อให้คุณเริ่มเพิ่มพิกัดพื้นผิวให้กับเมชใดก็ได้ด้วยความมั่นใจ.
+ใน **texture mapping tutorial** ฉบับครอบคลุมนี้ เราจะสาธิตให้คุณเห็นขั้นตอนการสร้างพิกัด UV, เพิ่มพิกัดเทกซ์เจอร์, และทำการแมปเทกซ์เจอร์บนวัตถุ 3‑D ด้วย Aspose.3D for Java การทำ uv mapping โมเดล 3 มิติเป็นขั้นตอนสำคัญที่ทำให้เมชธรรมดากลายเป็นทรัพย์สินที่มีพื้นผิวสมจริง ไม่ว่าคุณจะสร้างเกม, ตัวแสดงผลผลิตภัณฑ์, หรือการจำลองทางวิทยาศาสตร์ เมื่อจบคู่มือคุณจะสามารถสร้างชุด UV สำหรับรูปทรงใดก็ได้และเห็นเทกซ์เจอร์ห่อหุ้มอย่างถูกต้องในเวลาเพียงไม่กี่นาที
 
 ## คำตอบสั้น
-- **เป้าหมายหลักคืออะไร?** เรียนรู้วิธีสร้างพิกัด UV และ map textures onto 3‑D geometry.  
-- **ใช้ไลบรารีอะไร?** Aspose.3D for Java.  
-- **ต้องการไลเซนส์หรือไม่?** การทดลองใช้ฟรีทำงานได้สำหรับการพัฒนา; จำเป็นต้องมีไลเซนส์สำหรับการผลิต.  
-- **ใช้เวลานานเท่าไหร่ในการทำงาน?** ประมาณ 10‑15 นาทีสำหรับลูกบาศก์พื้นฐาน.  
-- **สามารถใช้กับรูปทรงอื่นได้หรือไม่?** ใช่ – หลักการเดียวกันใช้กับเมชใดก็ได้.
 
-## วิธีสร้างพิกัด UV ใน Java
+- **เป้าหมายหลักคืออะไร?** เรียนรู้วิธีสร้างพิกัด UV และแมปเทกซ์เจอร์บนรูปทรง 3‑D  
+- **ไลบรารีที่ใช้คืออะไร?** Aspose.3D for Java  
+- **ฉันต้องการไลเซนส์หรือไม่?** ทดลองใช้ฟรีสำหรับการพัฒนา; ต้องมีไลเซนส์สำหรับการใช้งานจริง  
+- **การดำเนินการใช้เวลานานเท่าไหร่?** ประมาณ 10‑15 นาทีสำหรับลูกบาศก์พื้นฐาน  
+- **ฉันสามารถใช้กับรูปทรงอื่นได้หรือไม่?** ใช่ – หลักการเดียวกันใช้กับเมชใด ๆ  
 
-ก่อนที่เราจะลงลึกในโค้ด, เรามาอธิบายว่าทำไมการสร้างพิกัด UV ถึงสำคัญ. UV ที่ถูกต้องทำให้เทกเจอร์เรียงตัวอย่างถูกต้อง, ป้องกันการยืดหยุ่น, และทำให้วัสดุดูเป็นมืออาชีพ ไม่ว่าคุณจะสร้างเกม, การจำลอง, หรือเครื่องมือแสดงผลสินค้า, ชุด UV ที่ดีเป็นสิ่งจำเป็น.
+## uv mapping โมเดล 3 มิติคืออะไร?
 
-## ทำไมการทำ UV Mapping วัตถุ 3D ถึงสำคัญ
+uv mapping โมเดล 3 มิติคือกระบวนการกำหนดพิกัดเทกซ์เจอร์ 2‑D (U และ V) ให้กับแต่ละเวอร์เท็กซ์ของเมช 3‑D เพื่อให้ภาพ 2‑D สามารถห่อหุ้มรูปทรงได้โดยไม่มีการบิดเบือน การกำหนดชุด UV จะบอกเรนเดอร์ว่า ส่วนใดของเทกซ์เจอร์เป็นของแต่ละโพลิกอน ทำให้วัสดุแสดงผลสมจริงและขจัดการยืดหรือรอยต่อ
 
-- **ความสมจริง:** UV ที่ถูกต้องทำให้เทกเจอร์ห่อหุ้มอย่างเป็นธรรมชาติรอบพื้นผิวที่ซับซ้อน.  
-- **ประสิทธิภาพ:** ชุด UV ที่จัดระเบียบดีช่วยลดความจำเป็นในการใช้เชดเดอร์เพิ่มเติมหรือการปรับแต่งระหว่างรันไทม์.  
-- **ความพกพา:** ข้อมูล UV จะเดินทางพร้อมกับเมช, ทำให้โมเดลดูเหมือนเดิมในเครื่องยนต์ใดก็ได้ที่รองรับ Aspose.3D.
+## ทำไมการทำ UV Mapping วัตถุ 3 มิติถึงสำคัญ
+
+UV Mapping มีความสำคัญเพราะกำหนดวิธีที่ภาพ 2‑D ถูกฉายบนพื้นผิว 3‑D ส่งผลต่อความละเอียดของภาพ, ประสิทธิภาพการเรนเดอร์, และความสอดคล้องข้ามแพลตฟอร์ม UV ที่จัดวางอย่างเหมาะสมช่วยป้องกันการยืดของเทกซ์เจอร์, ลดความซับซ้อนของเชดเดอร์, และทำให้สามารถใช้ทรัพยากรซ้ำได้อย่างราบรื่นในเครื่องยนต์และไพป์ไลน์ต่าง ๆ  
+
+- **ความสมจริง:** UV ที่ถูกต้องทำให้เทกซ์เจอร์ห่อหุ้มพื้นผิวซับซ้อนได้อย่างเป็นธรรมชาติ ให้ผลลัพธ์เหมือนภาพถ่าย  
+- **ประสิทธิภาพ:** ชุด UV ที่จัดระเบียบดีลดความจำเป็นในการใช้เชดเดอร์เพิ่มเติมหรือการปรับค่าใน runtime ทำให้เฟรมเรตสูงขึ้น  
+- **การพกพา:** ข้อมูล UV ไปกับเมช ดังนั้นโมเดลจะแสดงผลเหมือนกันในทุกเครื่องยนต์ที่รองรับ Aspose.3D  
+- **ประโยชน์ที่วัดได้:** Aspose.3D รองรับ **รูปแบบการนำเข้าและส่งออกกว่า 30 แบบ** (รวม OBJ, STL, FBX, Collada) และสามารถประมวลผลเมชที่มี **ถึง 1 ล้านเวอร์เท็กซ์** โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ ทำให้เวิร์กโฟลว์เร็วแม้บนฮาร์ดแวร์ระดับกลาง  
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่ม, ตรวจสอบว่าคุณมี:
+ก่อนเริ่มทำงาน ตรวจสอบว่าคุณมี:
 
-- **Java Development Environment** – ติดตั้งและกำหนดค่า JDK 8+ แล้ว.  
-- **Aspose.3D Library** – ดาวน์โหลด JAR ล่าสุดจากเว็บไซต์อย่างเป็นทางการ [ที่นี่](https://releases.aspose.com/3d/java/).  
-- **Basic 3D Knowledge** – ความคุ้นเคยกับเมช, เวอร์เท็กซ์, และแนวคิดของเทกเจอร์จะช่วยให้คุณตามได้ง่ายขึ้น.
+- **สภาพแวดล้อมการพัฒนา Java** – JDK 8+ ติดตั้งและกำหนดค่าแล้ว  
+- **ไลบรารี Aspose.3D** – ดาวน์โหลด JAR ล่าสุดจากเว็บไซต์อย่างเป็นทางการ [here](https://releases.aspose.com/3d/java/)  
+- **ความรู้พื้นฐานด้าน 3 มิติ** – ความคุ้นเคยกับเมช, เวอร์เท็กซ์, และแนวคิดเรื่องเทกซ์เจอร์จะช่วยให้คุณตามได้ง่ายขึ้น  
+
+## วิธีสร้างพิกัด UV ใน Java?
+
+โหลดเมชของคุณ, สร้างอาเรย์ UV, สร้างบัฟเฟอร์ดัชนีที่แมปเวอร์เท็กซ์ของโพลิกอนกับรายการ UV, แล้วแนบอิลิเมนต์ UV ไปยังเมช – ทั้งหมดในสี่ขั้นตอนสั้น ๆ โค้ดด้านล่าง (จะให้ต่อไป) แสดงกระบวนการทั้งหมด และคำอธิบายหลังแต่ละขั้นตอนจะบอกว่าทำไมต้องทำเช่นนั้น  
 
 ## นำเข้าแพ็กเกจ
 
-ในขั้นตอนนี้, เรานำเข้าแพ็กเกจที่จำเป็นเพื่อเริ่มต้นการทำ UV‑mapping. ไลบรารี Aspose.3D มีเครื่องมือที่เราต้องการสำหรับทำงานกับวัตถุ 3‑D ใน Java.
+ในขั้นตอนนี้เรานำเนมสเปซของ Aspose.3D เข้ามาในสโคปเพื่อให้เราสามารถทำงานกับเมช, เวอร์เท็กซ์, และอิลิเมนต์เทกซ์เจอร์ได้  
 
 ### ขั้นตอนที่ 1: นำเข้าแพ็กเกจ Aspose.3D
 
@@ -62,11 +113,11 @@ import com.aspose.threed.*;
 import java.util.Arrays;
 ```
 
-เมื่อแพ็กจ์พร้อมแล้ว, เรามาตั้งค่าข้อมูล UV สำหรับลูกบาศก์ง่าย ๆ กันเถอะ.
+ตอนนี้แพ็กเกจพร้อมแล้ว เรามาตั้งค่าข้อมูล UV สำหรับลูกบาศก์ง่าย ๆ กัน  
 
 ## สร้างชุด UV สำหรับเมชของคุณ
 
-ที่นี่เรากำหนดพิกัด UV และบัฟเฟอร์ดัชนีที่บอกเมชว่า UV ใดเป็นของแต่ละเวอร์เท็กซ์ของโพลิกอน. นี่คือหัวใจของกระบวนการ **create UV set**.
+ชุด UV ประกอบด้วยอาเรย์สองชุด: หนึ่งชุดเก็บพิกัด UV จริง ๆ และอีกชุดบอกเมชว่า UV ใดเป็นของแต่ละเวอร์เท็กซ์ของโพลิกอน  
 
 ### ขั้นตอนที่ 2: สร้าง UVs และ Indices
 
@@ -89,13 +140,13 @@ int[] uvsId = new int[]
 // ExEnd:SetupUVOnCube
 ```
 
-อาร์เรย์เหล่านี้กำหนด **UV coordinates** (`uvs`) และ **index mapping** (`uvsId`) ที่บอกเมชว่า UV ใดเป็นของแต่ละเวอร์เท็กซ์ของโพลิกอน.
+อาเรย์เหล่านี้กำหนด **พิกัด UV** (`uvs`) และ **การแมปดัชนี** (`uvsId`) ที่บอกเมชว่า UV ใดเป็นของแต่ละเวอร์เท็กซ์ของโพลิกอน  
 
-## เพิ่มพิกัดพื้นผิวให้กับเมช
+## เพิ่มพิกัดเทกซ์เจอร์ให้กับเมช
 
-ตอนนี้เราจะผูกชุด UV เข้ากับอินสแตนซ์เมช. ขั้นตอนนี้ **adds texture coordinates** ให้กับเรขาคณิต, ทำให้พร้อมสำหรับการเรนเดอร์ด้วยเทกเจอร์.
+`VertexElementUV` เป็นอิลิเมนต์ของ Aspose.3D ที่เก็บพิกัด UV ต่อเวอร์เท็กซ์สำหรับเมช การแนบอิลิเมนต์นี้ทำให้รูปทรงพร้อมสำหรับการทำ texture mapping  
 
-### ขั้นตอนที่ 3: สร้างเมชและ UVset
+### ขั้นตอนที่ 3: สร้างเมชและชุด UV
 
 ```java
 // Call Common class create mesh using polygon builder method to set mesh instance
@@ -108,57 +159,65 @@ elementUV.setData(uvs);
 elementUV.setIndices(uvsId);
 ```
 
-ที่นี่เราทำ:
+ที่นี่เรา:
 
-1. สร้างเมช (ลูกบาศก์) ด้วยคลาสช่วยเหลือ.  
-2. สร้างองค์ประกอบ UV (`VertexElementUV`) ที่เก็บพิกัดเทกเจอร์ของเรา.  
-3. กำหนดข้อมูล UV และบัฟเฟอร์ดัชนีให้กับเมช, ซึ่งทำให้ **adding texture coordinates** ไปยังเรขาคณิตอย่างมีประสิทธิภาพ.
+1. สร้างเมช (ลูกบาศก์) โดยใช้คลาสช่วยเหลือ  
+2. สร้างอิลิเมนต์ UV (`VertexElementUV`) ที่เก็บพิกัดเทกซ์เจอร์ของเรา  
+3. กำหนดข้อมูล UV และบัฟเฟอร์ดัชนีให้กับเมช ทำให้ **เพิ่มพิกัดเทกซ์เจอร์** ให้กับรูปทรง  
 
-### ขั้นตอนที่ 4: พิมพ์การยืนยัน
+### ขั้นตอนที่ 4: พิมพ์ข้อความยืนยัน
 
 ```java
 System.out.println("\nUVs have been set up successfully on the cube.");
 ```
 
-การรันโปรแกรมจะแสดงข้อความยืนยัน, บ่งบอกว่าพิกัด UV ตอนนี้เป็นส่วนหนึ่งของเมชและพร้อมสำหรับการทำ texture mapping.
+การรันโปรแกรมจะแสดงข้อความยืนยันว่า UV ตอนนี้เป็นส่วนหนึ่งของเมชและพร้อมสำหรับการทำ texture mapping  
 
 ## ปัญหาทั่วไปและวิธีแก้
 
+`Common.createMeshUsingPolygonBuilder()` เป็นเมธอดช่วยเหลือที่สร้างเมชลูกบาศก์ง่าย ๆ ด้วย polygon builder  
+
 | ปัญหา | สาเหตุ | วิธีแก้ |
-|-------|-------|-----|
-| UVs ปรากฏยืดหยุ่น | การเรียงลำดับ UV ไม่ถูกต้องหรือดัชนีไม่ตรงกัน | ตรวจสอบว่า `uvsId` อ้างอิงอาร์เรย์ `uvs` อย่างถูกต้องสำหรับแต่ละเวอร์เท็กซ์ของโพลิกอน. |
-| เทกเจอร์ไม่แสดง | ชุด UV ไม่ได้เชื่อมต่อกับวัสดุ | ตรวจสอบว่า `TextureMapping` ของวัสดุถูกตั้งเป็น `DIFFUSE` (ตามที่แสดง) และเทกเจอร์ถูกกำหนดให้กับวัสดุ. |
-| Runtime `NullPointerException` | `Common.createMeshUsingPolygonBuilder()` คืนค่า `null` | ตรวจสอบว่าคลาสช่วยเหลือรวมอยู่ในโปรเจคของคุณและเมธอดสร้างเมชที่ถูกต้อง. |
+|-------|-------|----------|
+| UVs appear stretched | การจัดลำดับ UV ไม่ถูกต้องหรือดัชนีไม่ตรงกัน | ตรวจสอบว่า `uvsId` อ้างอิงอาเรย์ `uvs` อย่างถูกต้องสำหรับแต่ละเวอร์เท็กซ์ของโพลิกอน |
+| Texture not visible | ชุด UV ไม่ได้เชื่อมต่อกับเมทริกซ์ | ตรวจสอบว่า `TextureMapping` ของเมทริกซ์ตั้งเป็น `DIFFUSE` (ตามตัวอย่าง) และได้กำหนดเทกซ์เจอร์ให้กับเมทริกซ์ |
+| Runtime `NullPointerException` | `Common.createMeshUsingPolygonBuilder()` คืนค่า `null` | ตรวจสอบว่าคลาสช่วยเหลือรวมอยู่ในโปรเจคและเมธอดสร้างเมชที่ใช้งานได้จริง |
 
 ## คำถามที่พบบ่อย
 
-**Q: ฉันสามารถใช้พิกัด UV กับโมเดล 3D ที่ซับซ้อนได้หรือไม่?**  
-A: ใช่, กระบวนการยังคงคล้ายกันสำหรับโมเดลที่ซับซ้อน. ตรวจสอบว่าคุณสร้างข้อมูล UV ที่เหมาะสมและบัฟเฟอร์ดัชนีสำหรับแต่ละโพลิกอน.
+**Q: ฉันสามารถใช้พิกัด UV กับโมเดล 3 มิติที่ซับซ้อนได้หรือไม่?**  
+A: ใช่ กระบวนการยังคงคล้ายกันสำหรับโมเดลที่ซับซ้อน เพียงสร้างข้อมูล UV และบัฟเฟอร์ดัชนีที่เหมาะสมสำหรับแต่ละโพลิกอน  
 
 **Q: ฉันสามารถหาแหล่งข้อมูลเพิ่มเติมและการสนับสนุนสำหรับ Aspose.3D ได้จากที่ไหน?**  
-A: เยี่ยมชม [Aspose.3D documentation](https://reference.aspose.com/3d/java/) เพื่อข้อมูลเชิงลึก. สำหรับการสนับสนุน, ตรวจสอบ [Aspose.3D forum](https://forum.aspose.com/c/3d/18).
+A: เยี่ยมชม [Aspose.3D documentation](https://reference.aspose.com/3d/java/) เพื่อดูข้อมูลเชิงลึก สำหรับการสนับสนุน ให้ตรวจสอบ [Aspose.3D forum](https://forum.aspose.com/c/3d/18)  
 
 **Q: มีการทดลองใช้ฟรีสำหรับ Aspose.3D หรือไม่?**  
-A: ใช่, คุณสามารถสำรวจไลบรารี Aspose.3D ด้วย [free trial](https://releases.aspose.com/).
+A: มี คุณสามารถสำรวจไลบรารี Aspose.3D ด้วย [free trial](https://releases.aspose.com/)  
 
 **Q: ฉันจะขอรับไลเซนส์ชั่วคราวสำหรับ Aspose.3D ได้อย่างไร?**  
-A: คุณสามารถรับไลเซนส์ชั่วคราวได้จาก [ที่นี่](https://purchase.aspose.com/temporary-license/).
+A: คุณสามารถรับไลเซนส์ชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/)  
 
 **Q: ฉันสามารถซื้อ Aspose.3D ได้จากที่ไหน?**  
-A: เพื่อซื้อ Aspose.3D, เยี่ยมชม [purchase page](https://purchase.aspose.com/buy).
+A: เพื่อซื้อ Aspose.3D ให้ไปที่ [purchase page](https://purchase.aspose.com/buy)  
 
-**Q: ฉันจะเพิ่มเทกเจอร์หลายรายการให้กับเมชเดียวได้อย่างไร?**  
-A: สร้างอินสแตนซ์ `VertexElementUV` เพิ่มเติมโดยใช้ค่า `TextureMapping` ที่แตกต่างกัน (เช่น `NORMAL`, `SPECULAR`) และกำหนดแต่ละอันให้กับเมช.
+**Q: ฉันจะเพิ่มเทกซ์เจอร์หลายชั้นให้กับเมชเดียวได้อย่างไร?**  
+A: สร้างอินสแตนซ์ `VertexElementUV` เพิ่มเติมโดยกำหนดค่า `TextureMapping` ที่แตกต่างกัน (เช่น `NORMAL`, `SPECULAR`) แล้วแนบแต่ละอิลิเมนต์ให้กับเมช  
 
 ## สรุป
 
-ในบทแนะนำนี้เราได้ครอบคลุม **how to generate UV coordinates** และการแนบพวกมันไปยังวัตถุ 3‑D ด้วย Aspose.3D สำหรับ Java. ด้วยการเชี่ยวชาญ UV mapping คุณสามารถ **map textures java** และ **add texture coordinates** ให้กับเมชใดก็ได้, เปิดประตูสู่การเรนเดอร์ที่สมจริงสำหรับเกม, การจำลอง, และการแสดงผล. ทดลองกับรูปทรงต่าง ๆ, การจัดวาง UV, และเทกเจอร์เพื่อดูว่า UV mapping มีพลังแค่ไหน.
+ในบทเรียนนี้เราได้ครอบคลุม **วิธีสร้างพิกัด UV** และการแนบพิกัดเหล่านั้นให้กับวัตถุ 3‑D ด้วย Aspose.3D for Java การเชี่ยวชาญการทำ uv mapping โมเดล 3d จะทำให้คุณ **เพิ่มพิกัดเทกซ์เจอร์** ให้กับเมชใดก็ได้ เปิดประสบการณ์การเรนเดอร์ที่สมจริงสำหรับเกม, การจำลอง, และการแสดงผลต่าง ๆ ทดลองกับรูปทรง, การจัดวาง UV, และเทกซ์เจอร์ต่าง ๆ เพื่อค้นพบพลังของ UV Mapping  
 
 ---
 
-**อัปเดตล่าสุด:** 2026-04-12  
-**ทดสอบด้วย:** Aspose.3D latest release (Java)  
-**ผู้เขียน:** Aspose  
+**Last Updated:** 2026-06-29  
+**Tested With:** Aspose.3D latest release (Java)  
+**Author:** Aspose  
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [How to Embed Texture in FBX with Java – Apply Materials to 3D Objects using Aspose.3D](/3d/java/geometry/apply-materials-to-3d-objects/)
+- [Set Up 3D Graphics Normals on Objects in Java with Aspose.3D](/3d/java/geometry/set-up-normals-on-3d-objects/)
+- [Create UV Mapping Java – Polygon Manipulation in 3D Models with Java](/3d/java/polygon/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

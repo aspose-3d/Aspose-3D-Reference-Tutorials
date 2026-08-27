@@ -57,6 +57,7 @@ using Aspose.ThreeD.Utilities;
 We’ll start with a rectangle shape that will be extruded. The `RoundingRadius` adds a subtle fillet.
 
 ```csharp
+using Aspose.ThreeD.Profiles;
 var profile = new RectangleShape()
 {
     RoundingRadius = 0.3

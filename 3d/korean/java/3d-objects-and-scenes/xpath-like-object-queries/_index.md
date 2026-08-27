@@ -1,52 +1,53 @@
 ---
-date: 2026-03-31
-description: Aspose.3D for Java에서 XPath와 유사한 쿼리를 사용하여 **이름으로 객체 선택**하는 방법을 배우고, 프로그래밍으로
-  3D 씬을 구축하세요.
+title: Select Objects by Name in Java 3D Scene – XPath‑Like Queries with Aspose.3D
 linktitle: Select Objects by Name in Java 3D Scene – XPath‑Like Queries with Aspose.3D
 second_title: Aspose.3D Java API
-title: Java 3D 씬에서 이름으로 객체 선택 – Aspose.3D를 이용한 XPath‑유사 쿼리
-url: /ko/java/3d-objects-and-scenes/xpath-like-object-queries/
+description: Learn how to **select objects by name** using XPath‑like queries in Aspose.3D for Java and build a 3D scene programmatically.
 weight: 11
+url: /java/3d-objects-and-scenes/xpath-like-object-queries/
+date: 2026-03-31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java 3D 씬에서 이름으로 객체 선택 – Aspose.3D와 XPath‑유사 쿼리
+# Select Objects by Name in Java 3D Scene – XPath‑Like Queries with Aspose.3D
 
-## 소개  
+## Introduction  
 
-복잡한 객체 계층을 조작하는 **create 3d scene java** 애플리케이션이 필요하다면, Aspose.3D for Java는 정확히 원하는 객체를 찾을 수 있는 깔끔한 XPath‑스타일 방법을 제공합니다. 이 튜토리얼에서는 간단한 씬을 구축하고, 노드 계층을 추가한 다음, XPath‑유사 쿼리를 사용하여 **select objects by name**(예: 카메라 또는 조명) 을 트리 어디에 있든 선택하는 과정을 단계별로 안내합니다. 마지막까지 단일 표현식만으로 3‑D 엔터티를 쿼리하고, 필터링하며, 검색하는 데 익숙해질 것입니다.
+If you need to **create 3d scene java** applications that manipulate complex hierarchies of objects, Aspose.3D for Java gives you a clean, XPath‑style way to locate exactly what you need. In this tutorial we’ll walk through building a simple scene, adding a hierarchy of nodes, and then using XPath‑like queries to **select objects by name** (for example, cameras or lights) no matter where they live in the tree. By the end you’ll be comfortable querying, filtering, and retrieving 3‑D entities with just a single expression.
 
-## 빠른 답변
-- **무엇을 쿼리할 수 있나요?** Any node or entity (Camera, Light, Mesh, etc.) in a Scene.  
-- **어떻게 타입으로 객체를 선택하나요?** Use an XPath‑like expression such as `//*[(@Type='Camera')]`.  
-- **개발에 라이선스가 필요합니까?** A free trial works for testing; a license is required for production.  
-- **지원되는 Java 버전은 무엇인가요?** Java 8 or later.  
-- **Aspose.3D를 어디서 다운로드할 수 있나요?** From the official download page linked in the prerequisites.
+## Quick Answers
+- **What can I query?** Any node or entity (Camera, Light, Mesh, etc.) in a Scene.  
+- **How do I select objects by type?** Use an XPath‑like expression such as `//*[(@Type='Camera')]`.  
+- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
+- **Which Java version is supported?** Java 8 or later.  
+- **Where can I download Aspose.3D?** From the official download page linked in the prerequisites.
 
-## 왜 이것이 중요한가  
+## Why this matters  
 
-3‑D 콘텐츠를 다룰 때, 씬 그래프를 수동으로 탐색하면 오류가 발생하기 쉽고 유지 관리가 어려워집니다. XPath‑유사 쿼리는 필요한 객체를 정확히 찾을 수 있는 선언적이고 가독성 좋은 방법을 제공하여 개발 속도를 높이고 버그를 줄여줍니다—특히 수십에서 수백 개의 노드가 있는 대규모 씬에서 더욱 효과적입니다.
+When you work with 3‑D content, manually walking the scene graph quickly becomes error‑prone and hard to maintain. XPath‑like queries give you a declarative, readable way to locate exactly the objects you need, which speeds up development and reduces bugs—especially in large scenes with dozens or hundreds of nodes.
 
-## Aspose.3D에서 XPath‑유사 쿼리란?  
+## What is an XPath‑like query in Aspose.3D?  
 
-Aspose.3D는 씬 그래프에 대해 작동하는 XPath 구문 중 일부를 구현합니다. XML 노드 대신, 표현식은 **A3DObject** 인스턴스(노드, 카메라, 조명, 메쉬 등)를 대상으로 합니다. 이를 통해 “모든 카메라” 또는 “이름이 ‘light’인 객체”와 같은 표현식으로 계층을 직접 탐색하지 않고도 필터링할 수 있습니다.
+Aspose.3D implements a subset of the XPath syntax that works against the scene graph. Instead of XML nodes, the expressions target **A3DObject** instances (nodes, cameras, lights, meshes, etc.). This lets you write expressive filters such as “all cameras” or “objects whose name is ‘light’” without manually traversing the hierarchy.
 
-## XPath‑유사 쿼리를 사용하여 이름으로 객체 선택하는 방법  
+## How to select objects by name using XPath‑Like Queries  
 
-이름으로 객체를 선택하는 것은 `@Name` 속성과 일치하는 표현식을 작성하는 것만큼 간단합니다. 아래에서는 타입과 이름을 함께 선택하는 등 여러 일반적인 패턴을 보여줍니다.
+Selecting objects by name is as simple as writing an expression that matches the `@Name` attribute. Below we demonstrate several common patterns, including selecting by type and by name together.
 
-## 사전 요구 사항  
+## Prerequisites  
 
-- Java Development Kit (JDK) 가 머신에 설치되어 있어야 합니다.  
-- Aspose.3D for Java 라이브러리를 다운로드하고 설정합니다. 다운로드 링크는 **[here](https://releases.aspose.com/3d/java/)** 에서 찾을 수 있습니다.  
-- Java 프로그래밍에 대한 기본 지식.
+Before we start, make sure you have:
 
-## 패키지 가져오기  
+- Java Development Kit (JDK) installed on your machine.  
+- Aspose.3D for Java library downloaded and set up. You can find the download link **[here](https://releases.aspose.com/3d/java/)**.  
+- Basic knowledge of Java programming.  
 
-먼저, 필요한 Aspose.3D 클래스를 가져옵니다. 이 단계는 라이브러리를 프로젝트에 사용할 수 있게 합니다.
+## Import Packages  
+
+First, import the Aspose.3D classes you’ll need. This step makes the library available to your project.
 
 ```java
 import com.aspose.threed.*;
@@ -54,108 +55,104 @@ import com.aspose.threed.*;
 import java.util.ArrayList;
 import java.util.List;
 ```
+## Step-by-Step Guide  
 
-## 단계별 가이드  
+### Step 1: Create a Scene for Testing  
 
-### 단계 1: 테스트용 씬 생성  
+We start with an empty scene that will host our hierarchy.
 
-빈 씬을 시작하여 계층을 호스팅하도록 합니다.
-
-```java
+````java
 // ExStart:CreateScene
-Scene s = new Scene();
+Scene scene = new Scene();
 // ExEnd:CreateScene
-```
+````
 
-### 단계 2: 노드 계층 구축  
+### Step 2: Build a Hierarchy of Nodes  
 
-다음으로, 루트 노드 아래에 몇 개의 자식 노드를 추가합니다. 일부 노드에는 **Camera** 또는 **Light** 엔터티가 포함되어 있으며, 이후에 쿼리할 예정입니다.
+Next, we add a few child nodes under the root node. Some nodes contain a **Camera** or a **Light** entity, which we'll later query.
 
-```java
+````java
 // ExStart:CreateHierarchy
-Node a = s.getRootNode().createChildNode("a");
+Node a = scene.getRootNode().createChildNode("a");
 a.createChildNode("a1");
 a.createChildNode("a2");
-s.getRootNode().createChildNode("b");
-Node c = s.getRootNode().createChildNode("c");
+scene.getRootNode().createChildNode("b");
+Node c = scene.getRootNode().createChildNode("c");
 c.createChildNode("c1").addEntity(new Camera("cam"));
 c.createChildNode("c2").addEntity(new Light("light"));
 // ExEnd:CreateHierarchy
-```
+````
 
-### 단계 3: XPath‑유사 쿼리 적용  
+### Step 3: Apply XPath-like Queries  
 
-이제 재미있는 부분—XPath‑스타일 문자열을 사용하여 **select objects by name** 또는 타입을 선택합니다.
+Now the fun part—using XPath-style strings to **select objects by name** or type.
+\u0060\u0060\u0060\u0060java
+// The scene from Step 1
 
-```java
-// ExStart:XPathLikeObjectQueries
-// Select objects that have type Camera or name is 'light' regardless of their location.
-List<Object> objects = s.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+// Select objects that have type Camera or name is \u0027light\u0027 regardless of their location.List<Object> objects = scene.getRootNode().selectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
 
 // Select a single camera object under the child nodes of the node named 'c' under the root node
-A3DObject c1 = (A3DObject) s.getRootNode().selectSingleObject("/c/*/<Camera>");
+A3DObject c1 = (A3DObject) scene.getRootNode().selectSingleObject("/c/*/<Camera>");
 
 // Select the node named 'a1' under the root node, even if 'a1' is not a directly child node
-A3DObject obj = (A3DObject) s.getRootNode().selectSingleObject("a1");
+A3DObject obj = (A3DObject) scene.getRootNode().selectSingleObject("a1");
 
 // Select the node itself, as '/' is selected directly on the root node
-obj = (A3DObject) s.getRootNode().selectSingleObject("/");
-// ExEnd:XPathLikeObjectQueries
-```
+obj = (A3DObject) scene.getRootNode().selectSingleObject("/");// ExEnd:XPathLikeObjectQueries
+\u0060\u0060\u0060
+**Explanation of the key expressions**
 
-**키 표현식 설명**
+- `//*[(@Type = 'Camera') or (@Name = 'light')]` – Finds every object in the scene whose **type** attribute equals `Camera` **or** whose **name** attribute equals `light`. This is a classic example of **select objects by name** (and by type).
+- `/c/*/<Camera>` – Starts at the root, goes to node `c`, then any child (`*`), and finally selects the `<Camera>` entity.
+- `a1` – A shorthand that searches the entire tree for a node named `a1`.
+- `/` – Returns the root node itself.
 
-- `//*[(@Type = 'Camera') or (@Name = 'light')]` – 씬에서 **type** 속성이 `Camera`와 같거나 **name** 속성이 `light`와 같은 모든 객체를 찾습니다. 이는 **select objects by name**(및 타입) 의 전형적인 예시입니다.  
-- `/c/*/<Camera>` – 루트에서 시작해 노드 `c` 로 이동한 뒤, 모든 자식(`*`)을 거쳐 마지막으로 `<Camera>` 엔터티를 선택합니다.  
-- `a1` – 전체 트리에서 이름이 `a1`인 노드를 검색하는 축약형입니다.  
-- `/` – 루트 노드 자체를 반환합니다.
+### Common Pitfalls & Tips  
 
-### 일반적인 함정 및 팁  
+- **Case sensitivity:** Attribute names (`@Type`, `@Name`) are case‑sensitive.  
+- **Entity vs. Node:** Use `<Camera>` syntax only when you need the underlying entity, not just the node.  
+- **Performance:** For very large scenes, narrow the search path (e.g., start from a specific subtree) to improve speed.  
 
-- **대소문자 구분:** 속성 이름(`@Type`, `@Name`)은 대소문자를 구분합니다.  
-- **Entity vs. Node:** `<Camera>` 구문은 노드가 아닌 실제 엔터티가 필요할 때만 사용합니다.  
-- **성능:** 매우 큰 씬에서는 검색 경로를 좁히세요(예: 특정 서브트리에서 시작)하여 속도를 향상시킬 수 있습니다.
+## Common Issues and Solutions  
 
-## 일반적인 문제 및 해결책  
-
-| 문제 | 원인 | 해결책 |
+| Issue | Reason | Solution |
 |-------|--------|----------|
-| 결과가 반환되지 않음 | 쿼리 문자열 오타 또는 속성 대소문자 오류 | `@Name` 철자와 대소문자를 확인하고 정확한 노드 이름을 사용하세요 |
-| 예상치 못한 노드 포함 | `//*`를 사용하면 전체 트리를 검색합니다 | 경로를 제한하세요, 예: `/c/*` 로 범위를 제한 |
-| 대규모 씬에서 느린 성능 | 쿼리가 전체 그래프에서 실행됩니다 | 루트 대신 알려진 서브노드에서 쿼리를 시작하세요 |
+| No results returned | Query string typo or wrong attribute case | Verify `@Name` spelling and case; use exact node names |
+| Unexpected nodes included | Using `//*` searches the whole tree | Restrict the path, e.g., `/c/*` to limit scope |
+| Slow performance on huge scenes | Query runs on the entire graph | Start the query from a known sub‑node instead of the root |
 
-## 자주 묻는 질문  
+## Frequently Asked Questions  
 
-**Q: Aspose.3D for Java 문서는 어디에서 찾을 수 있나요?**  
-A: 문서는 **[here](https://reference.aspose.com/3d/java/)** 에서 확인할 수 있습니다.
+**Q: Where can I find the Aspose.3D for Java documentation?**  
+A: The documentation is available **[here](https://reference.aspose.com/3d/java/)**.
 
-**Q: Aspose.3D for Java를 어떻게 다운로드할 수 있나요?**  
-A: **[here](https://releases.aspose.com/3d/java/)** 에서 다운로드할 수 있습니다.
+**Q: How can I download Aspose.3D for Java?**  
+A: You can download it **[here](https://releases.aspose.com/3d/java/)**.
 
-**Q: 무료 체험판을 이용할 수 있나요?**  
-A: 예, **[here](https://releases.aspose.com/)** 에서 무료 체험판을 받을 수 있습니다.
+**Q: Is there a free trial available?**  
+A: Yes, you can get a free trial **[here](https://releases.aspose.com/)**.
 
-**Q: Aspose.3D for Java에 대한 지원은 어디서 받을 수 있나요?**  
-A: 지원 포럼 **[here](https://forum.aspose.com/c/3d/18)** 을 방문하세요.
+**Q: Where can I get support for Aspose.3D for Java?**  
+A: Visit the support forum **[here](https://forum.aspose.com/c/3d/18)**.
 
-**Q: 임시 라이선스가 필요하신가요?**  
-A: 임시 라이선스는 **[here](https://purchase.aspose.com/temporary-license/)** 에서 얻을 수 있습니다.
+**Q: Need a temporary license?**  
+A: Obtain a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
 
-**Q: 사용자 정의 속성을 쿼리할 수 있나요?**  
-A: 예, 노드에 추가한 `@` 속성을 사용해 XPath 표현식을 확장할 수 있습니다.
+**Q: Can I query custom user‑defined properties?**  
+A: Yes, you can extend the XPath expression with additional `@` attributes that you add to nodes.
 
-**Q: 쿼리 엔진이 애니메이션 씬에서도 작동하나요?**  
-A: 물론입니다 – 쿼리는 정적 계층 구조에서 작동하며, 애니메이션은 동일한 노드에 연결되어 있기 때문에 결과에 포함됩니다.
+**Q: Does the query engine work with animated scenes?**  
+A: Absolutely – the queries operate on the static hierarchy; animations are attached to the same nodes and are therefore included in the results.
 
-## 결론  
+## Conclusion  
 
-이제 Java 3D 씬에서 XPath‑유사 쿼리를 사용해 **select objects by name** 하는 방법을 알게 되었습니다. 이 접근 방식은 간단한 데모부터 프로덕션 수준의 3‑D 애플리케이션까지 확장 가능하며, 장황한 코드 없이 씬 탐색을 세밀하게 제어할 수 있습니다.
+You now know how to **select objects by name** in Java 3D scenes using XPath‑like queries. This approach scales from simple demos to production‑grade 3‑D applications, giving you fine‑grained control over scene traversal without verbose code.
 
 ---
 
-**마지막 업데이트:** 2026-03-31  
-**테스트 대상:** Aspose.3D for Java 24.11  
-**작성자:** Aspose  
+**Last Updated:** 2026-03-31  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

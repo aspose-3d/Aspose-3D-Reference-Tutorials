@@ -56,20 +56,20 @@ import com.aspose.threed.Scene;
 
 import java.io.IOException;
 ```
-
-## Step 1: Load an Existing 3‑D File
+## Step 1: Load an Existing 3-D File
 
 First, point the API at the directory that contains your source model and load it into a `Scene` object.
 
-```java
+````java
 // ExStart:Load3DFile
 // The path to the documents directory.
 String MyDir = "Your Document Directory";
+MyDir = MyDir + "document.fbx";
 // Load an existing 3D file
-Scene scene = new Scene(MyDir + "document.fbx");
+Scene scene = new Scene();
+scene.open(MyDir);
 // ExEnd:Load3DFile
-```
-
+````
 > **Pro tip:** If you need to load a file from a stream (e.g., from a database or network), use the `Scene(InputStream, FileFormat)` constructor.
 
 ## Step 2: Triangulate the Scene

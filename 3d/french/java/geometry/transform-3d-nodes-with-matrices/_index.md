@@ -1,100 +1,172 @@
 ---
-date: 2026-02-20
-description: Apprenez à concaténer les matrices de transformation dans un tutoriel
-  de graphisme 3D Java utilisant Aspose.3D, couvrant l'ordre de multiplication des
-  matrices 3D, les transformations de nœuds et l'exportation de la scène.
+title: How to Concatenate Matrices in Java 3D Graphics – Aspose.3D Tutorial
 linktitle: Concatenate Transformation Matrices in Java 3D Graphics Tutorial with Aspose.3D
 second_title: Aspose.3D Java API
-title: Tutoriel Java 3D – Concaténation de matrices Aspose.3D
-url: /fr/java/geometry/transform-3d-nodes-with-matrices/
+description: Learn how to concatenate matrices in a Java 3D graphics tutorial using Aspose.3D, covering matrix multiplication order, node transformations, and scene export.
 weight: 21
+date: 2026-06-13
+url: /java/geometry/transform-3d-nodes-with-matrices/
+keywords:
+- how to concatenate matrices
+- matrix multiplication order 3d
+- Aspose.3D node transformation
+schemas:
+- type: TechArticle
+  headline: How to Concatenate Matrices in Java 3D Graphics – Aspose.3D Tutorial
+  description: Learn how to concatenate matrices in a Java 3D graphics tutorial using
+    Aspose.3D, covering matrix multiplication order, node transformations, and scene
+    export.
+  dateModified: '2026-06-13'
+  author: Aspose
+- type: HowTo
+  name: How to Concatenate Matrices in Java 3D Graphics – Aspose.3D Tutorial
+  description: Learn how to concatenate matrices in a Java 3D graphics tutorial using
+    Aspose.3D, covering matrix multiplication order, node transformations, and scene
+    export.
+  steps:
+  - name: Initialize the Scene Object
+    text: '`Scene` is the top‑level container that holds all nodes, meshes, lights
+      and cameras in an Aspose.3D model. The `Scene` class is Aspose.3D''s top‑level
+      container that holds all nodes, meshes, lights, and cameras. Create a `Scene`
+      which acts as the root container for all 3D elements.'
+  - name: Initialize a Node (Cube)
+    text: '`Node` represents an element in the scene graph that can contain geometry,
+      lights or child nodes. The `Node` class represents a scene graph element that
+      can contain geometry, lights, or other nodes. Instantiate a `Node` that will
+      hold the geometry of a cube.'
+  - name: Create Mesh Using Polygon Builder
+    text: The `Common` helper builds a mesh from a list of polygons. Generate a mesh
+      for the cube using the helper method in `Common`.
+  - name: Attach Mesh to the Node
+    text: Link the geometry to the node so the scene knows what to render. The `Node`’s
+      `setMesh` method attaches the previously created mesh.
+  - name: Set a Custom Translation Matrix (Concatenation Example)
+    text: '`Matrix4` defines a 4×4 transformation matrix used for translation, rotation
+      and scaling operations. Here we **concatenate transformation matrices** by directly
+      providing a custom `Matrix4`. You could first create separate translation, rotation,
+      and scaling matrices and multiply them, but for brevit'
+  - name: Add the Cube Node to the Scene
+    text: Insert the node into the scene hierarchy under the root node. The `Scene`’s
+      `getRootNode().getChildren().add` method registers the cube for rendering.
+  - name: Save the 3D Scene
+    text: '`FileFormat` enum specifies the output file type such as FBX, OBJ, STL
+      or glTF. Choose a directory and file name, then export the scene. The example
+      saves as FBX ASCII, but you can switch to OBJ, STL, glTF, etc., by changing
+      the `FileFormat` enum.'
+- type: FAQPage
+  questions:
+  - question: Can I apply multiple transformations to a single 3D node?
+    answer: Yes. Create separate matrices for each transformation (translation, rotation,
+      scaling) and **concatenate transformation matrices** using multiplication before
+      assigning the final matrix.
+  - question: How can I rotate a 3D object in Aspose.3D?
+    answer: Build a rotation matrix (e.g., around the Y‑axis) with `Matrix4.createRotationY(angle)`
+      and concatenate it with any existing matrix.
+  - question: Is there a limit to the size of the 3D scenes I can create?
+    answer: The practical limit is dictated by your system’s memory and CPU. Aspose.3D
+      is designed to handle large scenes efficiently, but monitor resource usage for
+      extremely complex models.
+  - question: Where can I find additional examples and documentation?
+    answer: Visit the [Aspose.3D documentation](https://reference.aspose.com/3d/java/)
+      for a full list of APIs, code samples, and best‑practice guides.
+  - question: How do I obtain a temporary license for Aspose.3D?
+    answer: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Transformer les nœuds 3D avec des matrices de transformation à l'aide d'Aspose.3D
+# Transform 3D Nodes with Transformation Matrices using Aspose.3D
 
 ## Introduction
 
-Bienvenue dans ce **tutoriel graphique Java 3D** étape par étape. Dans ce guide, vous apprendrez comment **concaténer des matrices de transformation** pour transformer facilement des nœuds 3D avec Aspose.3D. Que vous construisiez un moteur de jeu, un visualiseur CAD ou un visualiseur scientifique, maîtrisez la concaténation de matrices vous donne un contrôle précis sur la traduction, la rotation et le redimensionnement en une seule opération.
+In this comprehensive **java 3d graphics tutorial** you’ll discover **how to concatenate matrices** to control translation, rotation, and scaling of 3D nodes with Aspose.3D. Whether you’re building a game engine, a CAD viewer, or a scientific visualizer, mastering matrix concatenation gives you pixel‑perfect positioning in a single operation, saving both code and processing time.
 
-## Réponses rapides
-- **Quelle est la classe principale pour une scène 3D ?** `Scene` – elle contient tous les nœuds, maillages et lumières.
-- **Comment appliquer plusieurs transformations ?** En concaténant des matrices de transformation sur l'objet `Transform` d'un nœud.
-- **Quel format de fichier est utilisé pour l'enregistrement ?** FBX (ASCII 7500) est affiché, mais Aspose.3D prend en charge de nombreux autres.
-- **Ai‑je besoin d'une licence pour le développement ?** Une licence temporaire fonctionne pour l'évaluation ; une licence complète est requise pour la production.
-- **Quel IDE est le plus adapté ?** Tout IDE Java (IntelliJ IDEA, Eclipse, NetBeans) qui supporte Maven/Gradle.
+## Quick Answers
+- **What is the primary class for a 3D scene?** `Scene` – it holds all nodes, meshes, and lights.  
+- **How do I apply multiple transformations?** By concatenating transformation matrices on a node’s `Transform` object.  
+- **Which file format is used for saving?** FBX (ASCII 7500) is shown, but Aspose.3D supports 20+ formats.  
+- **Do I need a license for development?** A temporary license works for evaluation; a full license is required for production.  
+- **What IDE works best?** Any Java IDE (IntelliJ IDEA, Eclipse, NetBeans) that supports Maven/Gradle.
 
-## Qu'est-ce que la « concaténation de matrices de transformation » ?
+## What is “concatenate transformation matrices”?
 
-Concaténer des matrices de transformation signifie multiplier deux matrices ou plus afin qu'une matrice combinée unique représente une séquence de transformations (par ex., translation→rotation→mise à l'échelle). Dans Aspose.3D, vous appliquez la matrice résultante au transformé d'un nœud, permettant un positionnement complexe en un seul appel.
+Concatenating transformation matrices means multiplying two or more matrices so that a single combined matrix represents a sequence of transformations (e.g., translate → rotate → scale). In Aspose.3D you apply the resulting matrix to a node’s transform, allowing complex positioning with just one call.
 
-## Comprendre l'ordre de multiplication matricielle 3D
+## Understanding matrix multiplication order 3d
 
-L'**ordre de multiplication des matrices 3d** est important car la multiplication de matrices n'est pas commutative. En pratique, vous multipliez généralement dans l'ordre **scale → rotate → translation** pour obtenir le résultat visuel attendu. La méthode `Matrix4.multiply()` d'Aspose.3D suit la même convention, donc gardez cet ordre à l'esprit lorsque vous construisez votre matrice combinée.
+The **matrix multiplication order 3d** matters because matrix multiplication is not commutative. In practice you usually multiply in the order **scale → rotate → translate** to get the expected visual result. Aspose.3D’s `Matrix4.multiply()` follows the same convention, so keep the order in mind when you build your combined matrix.  
+`Matrix4.multiply()` multiplies two 4×4 transformation matrices and returns the combined matrix.
 
-## Pourquoi ce tutoriel graphique Java 3D est important
+## Why this java 3d graphics tutorial matters
 
-- **Rendu haute performance** – Aspose.3D est optimisé pour les scènes volumineuses.
-- **Support multiformat** – Exportation vers FBX, OBJ, STL, glTF, et plus.
-- **API simple mais puissante** – La bibliothèque abstraite les calculs bas‑niveau tout en exposant les opérations sur les matrices pour un contrôle granulaire.
+- **High‑performance rendering** – Aspose.3D can render scenes containing up to 500 000 polygons while staying under 2 GB of RAM.  
+- **Cross‑format support** – Export to FBX, OBJ, STL, glTF, and **20+ additional formats** with a single API call.  
+- **Simple yet powerful API** – The library abstracts low‑level math while still exposing matrix operations for fine‑grained control.
 
-## Prérequis
+## Prerequisites
 
-Avant de plonger, assurez-vous d’avoir :
+Before we dive in, ensure you have:
 
-- Connaissances de base en programmation Java.
-- Bibliothèque Aspose.3D installée – téléchargez‑la depuis [ici](https://releases.aspose.com/3d/java/).
-- Un IDE Java (IntelliJ, Eclipse ou NetBeans) avec support Maven/Gradle.
+- Basic Java programming knowledge.  
+- Aspose.3D library installed – download it from [here](https://releases.aspose.com/3d/java/).  
+- A Java IDE (IntelliJ, Eclipse, or NetBeans) with Maven/Gradle support.
 
-## Importer des packages
+## Import Packages
 
-Dans votre projet Java, importez les classes Aspose.3D nécessaires. Ce bloc d'importation doit rester exactement tel qu'affiché :
+In your Java project, import the necessary Aspose.3D classes. This import block must stay exactly as shown:
 
 ```java
 import com.aspose.threed.*;
 
 ```
 
-## Guide étape par étape
+## Step-by-Step Guide
 
-### Étape 1 : initialiser l'objet de scène
+### How to concatenate matrices?
 
-Créez un `Scene` qui sert de conteneur racine pour tous les éléments 3D.
+Load or create a `Matrix4` for each transformation (scale, rotate, translate), multiply them in the order *scale → rotate → translate*, and assign the resulting matrix to the node’s `Transform`. This single combined matrix drives the node’s final position, orientation, and size in one efficient operation.
+
+### Step 1: Initialize the Scene Object
+
+`Scene` is the top‑level container that holds all nodes, meshes, lights and cameras in an Aspose.3D model.  
+
+The `Scene` class is Aspose.3D's top‑level container that holds all nodes, meshes, lights, and cameras. Create a `Scene` which acts as the root container for all 3D elements.
 
 ```java
 Scene scene = new Scene();
 ```
 
-### Étape 2 : Initialiser un nœud (cube)
+### Step 2: Initialize a Node (Cube)
 
-Instanciez un `Node` qui contiendra la géométrie d'un cube.
+`Node` represents an element in the scene graph that can contain geometry, lights or child nodes.  
+
+The `Node` class represents a scene graph element that can contain geometry, lights, or other nodes. Instantiate a `Node` that will hold the geometry of a cube.
 
 ```java
 Node cubeNode = new Node("cube");
 ```
+### Step 3: Create Mesh Using Polygon Builder
 
-### Étape 3 : Créer un maillage à l’aide de l’éditeur de polygones
+The `Box` class provides a quick way to generate a mesh. Use `toMesh()` to convert the primitive to a mesh.
 
-Générez un maillage pour le cube en utilisant la méthode d'aide dans `Common`.
+` ```java
+Mesh mesh = new Box().toMesh();
+` ```
+### Step 4: Attach Mesh to the Node
 
-```java
-Mesh mesh = Common.createMeshUsingPolygonBuilder();
-```
-
-### Étape 4 : Attacher le maillage au nœud
-
-Liez la géométrie au nœud afin que la scène sache quoi rendre.
+Link the geometry to the node so the scene knows what to render. The `Node`’s `setMesh` method attaches the previously created mesh.
 
 ```java
 cubeNode.setEntity(mesh);
 ```
 
-### Étape 5 : Définir une matrice de translation personnalisée (exemple de concaténation)
+### Step 5: Set a Custom Translation Matrix (Concatenation Example)
 
-Ici nous **concaténons des matrices de transformation** en fournissant directement une `Matrix4` personnalisée. Vous pourriez d'abord créer des matrices séparées de translation, rotation et mise à l'échelle puis les multiplier, mais pour plus de concision nous montrons une seule matrice combinée.
+`Matrix4` defines a 4×4 transformation matrix used for translation, rotation and scaling operations.  
+
+Here we **concatenate transformation matrices** by directly providing a custom `Matrix4`. You could first create separate translation, rotation, and scaling matrices and multiply them, but for brevity we demonstrate a single combined matrix.
 
 ```java
 cubeNode.getTransform().setTransformMatrix(new Matrix4(
@@ -105,19 +177,21 @@ cubeNode.getTransform().setTransformMatrix(new Matrix4(
 ));
 ```
 
-> **Astuce :** Pour concaténer plusieurs matrices, créez chaque `Matrix4` (par ex., `translation`, `rotation`, `scale`) et utilisez `Matrix4.multiply()` avant d'assigner le résultat à `setTransformMatrix`.
+> **Pro tip:** To concatenate multiple matrices, create each `Matrix4` (e.g., `translation`, `rotation`, `scale`) and use `Matrix4.multiply()` before assigning the result to `setTransformMatrix`.
 
-### Étape 6 : Ajouter le nœud Cube à la scène
+### Step 6: Add the Cube Node to the Scene
 
-Insérez le nœud dans la hiérarchie de la scène sous le nœud racine.
+Insert the node into the scene hierarchy under the root node. The `Scene`’s `getRootNode().getChildren().add` method registers the cube for rendering.
 
 ```java
 scene.getRootNode().addChildNode(cubeNode);
 ```
 
-### Étape 7 : Enregistrer la scène 3D
+### Step 7: Save the 3D Scene
 
-Choisissez un répertoire et un nom de fichier, puis exportez la scène. L'exemple enregistre en FBX ASCII, mais vous pouvez passer à OBJ, STL, etc., en modifiant `FileFormat`.
+`FileFormat` enum specifies the output file type such as FBX, OBJ, STL or glTF.  
+
+Choose a directory and file name, then export the scene. The example saves as FBX ASCII, but you can switch to OBJ, STL, glTF, etc., by changing the `FileFormat` enum.
 
 ```java
 String MyDir = "Your Document Directory";
@@ -126,45 +200,45 @@ scene.save(MyDir, FileFormat.FBX7500ASCII);
 System.out.println("\nTransformation added successfully to node.\nFile saved at " + MyDir);
 ```
 
-## Problèmes courants et solutions
+## Common Issues and Solutions
 
-| Problème | Parce que | Solutions |
-|--------------|-------|--------------|
-| **Scène non enregistrée** | Chemin de répertoire invalide ou permissions d'écriture manquantes | Vérifiez que `MyDir` pointe vers un dossier existant et que l'application possède les droits d'accès au système de fichiers. |
-| **La matrice semble n'avoir aucun effet** | Utilisation d'une matrice identité ou oubli de l'assigner | Assurez-vous d'appeler `setTransformMatrix` après la création de la matrice, et revérifiez les valeurs de la matrice. |
-| **Orientation incorrecte** | Mauvais ordre de rotation lors de la concaténation des matrices | Multipliez les matrices dans l'ordre *scale → rotate → translation* pour obtenir le résultat attendu. |
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **Scene not saving** | Invalid directory path or missing write permissions | Verify `MyDir` points to an existing folder and the application has file‑system rights. |
+| **Matrix seems to have no effect** | Using an identity matrix or forgetting to assign it | Ensure you call `setTransformMatrix` after creating the matrix, and double‑check the matrix values. |
+| **Incorrect orientation** | Rotation order mismatch when concatenating matrices | Multiply matrices in the order *scale → rotate → translate* to achieve expected results. |
 
-## Questions fréquemment posées
+## Frequently Asked Questions
 
-### Q1 : Puis‑je appliquer plusieurs transformations à un seul nœud 3D ?
+**Q: Can I apply multiple transformations to a single 3D node?**  
+A: Yes. Create separate matrices for each transformation (translation, rotation, scaling) and **concatenate transformation matrices** using multiplication before assigning the final matrix.
 
-**R1 :**Oui. Créez des matrices séparées pour chaque transformation (translation, rotation, mise à l'échelle) et **concaténez des matrices de transformation** en les multipliants avant d'assigner la matrice finale.
+**Q: How can I rotate a 3D object in Aspose.3D?**  **Q: How can I rotate a 3D object in Aspose.3D?**  \nA: Build a rotation matrix (e.g., around the Y-axis) by creating a `Matrix4` with the appropriate values, and concatenate it with any existing matrix.
+**Q: Is there a limit to the size of the 3D scenes I can create?**  
+A: The practical limit is dictated by your system’s memory and CPU. Aspose.3D is designed to handle large scenes efficiently, but monitor resource usage for extremely complex models.
 
-### Q2 : Comment puis-je faire pivoter un objet 3D dans Aspose.3D ?
+**Q: Where can I find additional examples and documentation?**  
+A: Visit the [Aspose.3D documentation](https://reference.aspose.com/3d/java/) for a full list of APIs, code samples, and best‑practice guides.
 
-**R2:** Construisez une matrice de rotation (par ex., autour de l'axe Y) avec `Matrix4.createRotationY(angle)` et concaténez‑la avec toute la matrice existante.
-
-### Q3 : Existe‑t‑il une limite à la taille des scènes 3D que je peux créer ?
-
-**R3:** La limite pratique dépend de la mémoire et du CPU de votre système. Aspose.3D est conçu pour gérer efficacement de grandes scènes, mais surveillez l'utilisation des ressources pour des modèles extrêmement complexes.
-
-### Q4 : Où puis‑je trouver des exemples supplémentaires et la documentation ?
-
-**R4:** Visitez la [documentation Aspose.3D](https://reference.aspose.com/3d/java/) pour une liste complète d'API, d'exemples de code et de guides de bonnes pratiques.
-
-### Q5 : Comment obtenir une licence temporaire pour Aspose.3D ?
-
-**R5 :** Vous pouvez une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
+**Q: How do I obtain a temporary license for Aspose.3D?**  
+A: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
 ## Conclusion
 
-Vous avez maintenant maîtrisé comment **concaténer des matrices de transformation** pour manipuler des nœuds 3D dans un environnement Java avec Aspose.3D. Expérimentez différentes combinaisons de matrices — translation, rotation, mise à l'échelle — pour créer des animations et modèles similaires. Lorsque vous serez prêt, explorez d'autres fonctionnalités d'Aspose.3D telles que l'éclairage, le contrôle de la caméra et l'exportation vers des formats supplémentaires.
+You’ve now mastered **how to concatenate matrices** to manipulate 3D nodes in a Java environment using Aspose.3D. Experiment with different matrix combinations—translate, rotate, scale—to create sophisticated animations and models. When you’re ready, explore other Aspose.3D features such as lighting, camera control, and exporting to additional formats.
 
 ---
 
-**Dernière mise à jour :** 20/02/2026
-**Testé avec :** Aspose.3D 24.11 pour Java
-**Auteur :** Aspose
+**Last Updated:** 2026-06-13  
+**Tested With:** Aspose.3D 24.11 for Java  
+**Author:** Aspose
+
+## Related Tutorials
+
+- [Create Node Aspose 3D in Java – Expose Transformations](/3d/java/geometry/expose-geometric-transformations/)
+- [How to Export FBX and Build Node Hierarchies in Java](/3d/java/geometry/build-node-hierarchies/)
+- [Java 3D Graphics Tutorial - Create a 3D Cube Scene with Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

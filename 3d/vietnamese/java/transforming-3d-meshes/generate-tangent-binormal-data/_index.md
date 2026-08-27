@@ -54,12 +54,15 @@ import java.io.IOException;
 ## Bước 1: Tải tệp 3D
 Đầu tiên, tải mô hình nguồn mà bạn muốn xử lý.
 
-```java
+````
 // The path to the documents directory.
 String MyDir = "Your Document Directory";
+MyDir = MyDir + "document.fbx";
 // Load an existing 3D file
-Scene scene = new Scene(MyDir + "document.fbx");
-```
+Scene scene = new Scene();
+scene.open(MyDir);
+````
+
 
 > **Mẹo chuyên nghiệp:** Thay thế `"Your Document Directory"` bằng đường dẫn tuyệt đối trên máy của bạn, và đảm bảo tên tệp khớp với tệp FBX thực tế mà bạn muốn chỉnh sửa.
 

@@ -1,55 +1,46 @@
 ---
-date: 2026-03-21
-description: Tìm hiểu cách thay đổi hướng mặt phẳng trong các cảnh 3D bằng Aspose.3D
-  cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để xuất mô hình 3D OBJ
-  và xoay mặt phẳng 3D một cách dễ dàng.
-linktitle: Changing Plane Orientation in 3D Scenes
+title: Add Camera to Scene with Aspose.3D – XPath Queries
+linktitle: XPath-Like Object Queries
 second_title: Aspose.3D .NET API
-title: Thay đổi hướng mặt phẳng trong các cảnh 3D – Aspose.3D cho .NET
-url: /vi/net/3d-modeling/change-plane-orientation/
-weight: 10
+description: Learn how to add camera to scene and manipulate 3D objects using Aspose.3D for .NET. Explore XPath‑like queries, select node by name and more.
+weight: 24
+url: /net/geometry-and-hierarchy/xpath-like-object-queries/
+date: 2026-01-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thay Đổi Hướng Mặt Phẳng trong Cảnh 3D
+# Add Camera to Scene with Aspose.3D – XPath Queries
 
-## Giới thiệu
+## Introduction
+In this tutorial you’ll discover how to **add a camera to a scene** and work with powerful XPath‑like object queries in Aspose.3D for .NET. Whether you need to **select node by name**, **select single object**, or simply **add light to scene**, the steps below will guide you through creating, querying, and manipulating 3D objects with clear, real‑world examples.
 
-Trong hướng dẫn toàn diện này, bạn sẽ học **cách thay đổi hướng mặt phẳng** trong một cảnh 3‑D với Aspose.3D cho .NET. Dù bạn đang xây dựng một trò chơi, một trình xem CAD, hay một biểu diễn khoa học, việc kiểm soát hướng của mặt phẳng là điều cần thiết để render chính xác và xuất đúng các tệp OBJ mô hình 3‑D. Hãy cùng chúng tôi đi qua quy trình, từng bước một.
+## Quick Answers
+- **How do I add a camera to a scene?** Use `c.CreateChildNode("c1").AddEntity(new Camera("cam"));`
+- **Can I query objects with XPath syntax?** Yes – `SelectObjects` and `SelectSingleObject` support XPath‑like expressions.
+- **What if I need to select a node by name?** Use `SelectSingleObject("a1")` or `"//a1"` style paths.
+- **How do I add a light to the scene?** Call `AddEntity(new Light("light"))` on a child node.
+- **Which .NET versions are supported?** Aspose.3D works with .NET Framework 2.0+ and .NET Core/5/6.
 
-## Câu trả lời nhanh
-- **“Thay đổi hướng mặt phẳng” có nghĩa là gì?** Điều chỉnh vector lên (`up‑vector`) của mặt phẳng để xoay nó trong không gian 3‑D.  
-- **Định dạng tệp nào được dùng để xuất?** Wavefront OBJ (`.obj`).  
-- **Tôi có thể xoay mặt phẳng 3D trực tiếp không?** Có – sửa đổi vector `Up` của thực thể `Plane`.  
-- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí đủ cho phát triển; giấy phép thương mại cần cho môi trường sản xuất.  
-- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
+## What is “add camera to scene” in Aspose.3D?
+Adding a camera creates a viewpoint from which the scene can be rendered or inspected. The camera behaves like any other 3D entity, so you can position, rotate, and query it just like meshes or lights.
 
-## Thay Đổi Hướng Mặt Phẳng là gì?
-Thay đổi hướng mặt phẳng đề cập đến việc định nghĩa lại vector pháp tuyến hoặc vector lên của mặt phẳng sao cho nó chỉ về một hướng khác trong hệ tọa độ 3‑D. Thao tác này thực tế **xoay mặt phẳng 3D** mà không làm thay đổi kích thước hay vị trí của nó.
+## Why use XPath‑like object queries?
+XPath‑like queries let you locate objects based on type, name, or custom attributes without manually traversing the node hierarchy. This makes **manipulating 3D objects** fast, readable, and maintainable—especially in complex scenes.
 
-## Tại sao cần Thay Đổi Hướng Mặt Phẳng?
-- **Căn chỉnh hình ảnh chính xác** – đảm bảo kết cấu và ánh sáng hoạt động như mong đợi.  
-- **Xuất đúng** – một số công cụ downstream dựa vào hướng mặt phẳng cụ thể khi nhập tệp OBJ.  
-- **Linh hoạt** – bạn có thể tái sử dụng cùng một hình học với các hướng khác nhau cho nhiều góc nhìn.
+## Prerequisites
+- Basic knowledge of the .NET framework
+- Visual Studio installed
+- Aspose.3D library referenced in your project (latest version)
 
-## Yêu cầu trước
-
-- Aspose.3D cho .NET: Đảm bảo bạn đã cài đặt thư viện. Nếu chưa, tải về từ [here](https://releases.aspose.com/3d/net/).  
-- Thư mục tài liệu của bạn: Tạo một thư mục nơi hướng dẫn sẽ đọc/ghi các tệp.
-
-Bây giờ chúng ta đã nắm được các kiến thức cơ bản, hãy đi sâu vào mã nguồn.
-
-## Nhập các Namespace
-
-Trong dự án .NET của bạn, bắt đầu bằng cách nhập các namespace cần thiết:
+## Import Namespaces
+Start by importing the required namespaces so you have access to all Aspose.3D classes.
 
 ```csharp
 using Aspose.ThreeD;
 using Aspose.ThreeD.Entities;
-using Aspose.ThreeD.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,73 +48,101 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-Các namespace này cung cấp các lớp và phương thức thiết yếu để làm việc với cảnh 3D trong Aspose.3D.
+## Step‑by‑Step Guide
 
-## Bước 1: Khởi tạo Đối tượng Scene
+### Step 1: Open Visual Studio
+Create a new C# project or open an existing one where you want to work with 3D scenes.
 
-```csharp
-// The path to the data directory
-string dataDir = "Your Document Directory";
-
-// Initialize scene object
-Scene scene = new Scene();
-```
-
-Đoạn mã này thiết lập môi trường cho cảnh 3‑D của bạn.
-
-## Bước 2: Đặt Vector cho Hướng Mặt Phẳng (Xoay Mặt Phẳng 3D)
+### Step 2: Create a New Scene (Add Camera to Scene)
+Instantiate a fresh `Scene` object that will serve as the canvas for all subsequent objects.
 
 ```csharp
-// Set Vector
-scene.RootNode.CreateChildNode(new Plane() { Up = new Vector3(1, 1, 3) });
+Scene s = new Scene();
 ```
 
-Ở đây, chúng ta tạo một node con đại diện cho mặt phẳng và tùy chỉnh hướng của nó bằng vector `Up`. Thay đổi các giá trị vector sẽ xoay mặt phẳng 3D tới góc mong muốn.
-
-## Bước 3: Lưu và Xuất Mô hình 3D OBJ
+### Step 3: Populate the Scene – Add Nodes, Camera, and Light
+Build a simple hierarchy, then **add a camera** and **add light to scene** to illustrate querying later.
 
 ```csharp
-// This will generate a plane that has customized orientation
-scene.Save(dataDir + "ChangePlaneOrientation.obj", FileFormat.WavefrontOBJ);
+var a = s.RootNode.CreateChildNode("a");
+a.CreateChildNode("a1");
+a.CreateChildNode("a2");
+s.RootNode.CreateChildNode("b");
+var c = s.RootNode.CreateChildNode("c");
+c.CreateChildNode("c1").AddEntity(new Camera("cam"));
+c.CreateChildNode("c2").AddEntity(new Light("light"));
 ```
 
-Lưu cảnh sẽ tạo ra một tệp OBJ phản ánh hướng mặt phẳng mới, cho phép bạn **xuất mô hình 3D OBJ** để sử dụng trong các ứng dụng khác.
+The resulting hierarchy looks like this:
 
-Lặp lại các bước này khi cần cho các mặt phẳng bổ sung hoặc các hướng khác nhau.
+```
+- Root
+    - a
+        - a1
+        - a2
+    - b
+    - c
+        - c1
+            - cam
+        - c2
+            - light
+```
 
-## Các Vấn Đề Thường Gặp và Giải Pháp
-- **Mặt phẳng xuất hiện phẳng hoặc ngược:** Kiểm tra xem vector `Up` có đồng hướng với pháp tuyến của mặt phẳng không. Điều chỉnh các thành phần của vector để đạt được độ nghiêng mong muốn.  
-- **OBJ xuất ra trống:** Đảm bảo đường dẫn `dataDir` kết thúc bằng dấu phân cách (`\\` hoặc `/`) và bạn có quyền ghi.  
-- **Xoay không mong muốn:** Nhớ rằng vector `Up` xác định trục Y cục bộ của mặt phẳng; thay đổi nó sẽ xoay mặt phẳng quanh trục X của nó.
+### Step 4: Select Objects – How to query 3D objects
+Use an XPath‑like expression to fetch all cameras **or** any node named “light”.
 
-## Câu Hỏi Thường Gặp
+```csharp
+var objects = s.RootNode.SelectObjects("//*[(@Type = 'Camera') or (@Name = 'light')]");
+```
 
-**Q1: Aspose.3D có tương thích với các thư viện 3D khác không?**  
-A1: Aspose.3D có thể làm việc liền mạch với các thư viện 3D phổ biến khác, mang lại sự linh hoạt cho dự án của bạn.
+### Step 5: Select a Single Object – Select single object by path
+Retrieve the first camera node directly with a concise path.
 
-**Q2: Tôi có thể sử dụng Aspose.3D cho dự án thương mại không?**  
-A2: Chắc chắn! Aspose.3D cung cấp các tùy chọn giấy phép cho cả sử dụng cá nhân và thương mại. Xem chi tiết [here](https://purchase.aspose.com/buy).
+```csharp
+var c1 = s.RootNode.SelectSingleObject("/c/*/<Camera>");
+```
 
-**Q3: Làm sao tôi có thể nhận hỗ trợ cho Aspose.3D?**  
-A3: Truy cập [Aspose.3D forum](https://forum.aspose.com/c/3d/18) để nhận hỗ trợ cộng đồng và thảo luận.
+### Step 6: Select Node by Name – Quick way to locate a node
+If you know the node’s name, you can fetch it without caring about its position in the hierarchy.
 
-**Q4: Có bản dùng thử miễn phí không?**  
-A4: Có, bạn có thể khám phá Aspose.3D với bản dùng thử miễn phí [here](https://releases.aspose.com/).
+```csharp
+var obj = s.RootNode.SelectSingleObject("a1");
+```
 
-**Q5: Tôi có thể tìm tài liệu chi tiết ở đâu?**  
-A5: Tham khảo tài liệu chi tiết [here](https://reference.aspose.com/3d/net/) để biết thêm thông tin.
+### Step 7: Select the Root Node – Useful for global operations
+Sometimes you need a reference to the scene’s root for bulk transformations.
 
-**Q6: Tôi có thể thay đổi hướng mặt phẳng sau khi lưu không?**  
-A6: Bạn cần sửa đổi vector `Up` trước khi gọi `scene.Save`; tệp OBJ sẽ phản ánh trạng thái tại thời điểm lưu.
+```csharp
+obj = s.RootNode.SelectSingleObject("/");
+```
 
-**Q7: Thay đổi hướng có ảnh hưởng đến tọa độ kết cấu không?**  
-A7: Thay đổi hướng chỉ ảnh hưởng đến hình học của mặt phẳng; tọa độ kết cấu vẫn giữ nguyên trừ khi bạn tự thay đổi chúng.
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **Camera not appearing in query results** | Ensure the node’s `Entity` is a `Camera` and the name matches the query case‑sensitively. |
+| **SelectSingleObject returns null** | Verify the XPath expression syntax; use leading `/` for absolute paths. |
+| **Light does not affect rendering** | Remember that lighting calculations require a rendering engine; the Light entity alone does not render anything. |
+| **Performance slowdown on large scenes** | Limit queries to sub‑trees (`RootNode.SelectObjects("//c/*")`) or cache results when possible. |
 
----
+## Frequently Asked Questions
 
-**Cập nhật lần cuối:** 2026-03-21  
-**Đã kiểm tra với:** Aspose.3D 24.12 cho .NET  
-**Tác giả:** Aspose  
+**Q: Is Aspose.3D compatible with all .NET versions?**  
+A: Aspose.3D supports .NET Framework 2.0 and higher, as well as .NET Core, .NET 5, and .NET 6.
+
+**Q: Can I use Aspose.3D for both 3D modeling and rendering?**  
+A: Absolutely. The library provides tools for creating, editing, and rendering 3D models.
+
+**Q: Are there licensing constraints for the free trial?**  
+A: The trial version includes a limited feature set; a full license is required for production use.
+
+**Q: How can I get community support for Aspose.3D?**  
+A: Visit the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) for tips, examples, and help from other developers.
+
+**Q: What advantages does Aspose.3D offer over other 3D libraries for .NET?**  
+A: It combines a rich API for object queries, robust scene management, and cross‑platform compatibility without needing external dependencies.
+
+## Conclusion
+You’ve now learned how to **add a camera to a scene**, **add light to scene**, and **query 3D objects** using XPath‑like syntax in Aspose.3D for .NET. These techniques let you efficiently manipulate complex hierarchies, select nodes by name, and retrieve single objects—all essential for modern 3D applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -131,3 +150,9 @@ A7: Thay đổi hướng chỉ ảnh hưởng đến hình học của mặt ph�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-25  
+**Tested With:** Aspose.3D 24.11 for .NET  
+**Author:** Aspose
