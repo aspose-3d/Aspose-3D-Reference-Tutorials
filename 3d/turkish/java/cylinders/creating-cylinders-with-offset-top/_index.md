@@ -1,17 +1,68 @@
 ---
-date: 2026-04-08
-description: Aspose.3D for Java'da üst kısmı kaydırılmış bir silindir nasıl oluşturulur,
-  Java çocuğu düğüm eklenir, üst kaydırma ayarlanır, 3D model oluşturulur ve Aspose
-  geçici lisansı kullanılarak OBJ dışa aktarılır, öğrenin.
+date: 2026-08-12
+description: Aspose.3D kullanarak 3d nasıl oluşturulur – Java'da üst kısmı kaydırılmış
+  bir silindir oluşturma, alt düğüm ekleme, üst kaydırmayı ayarlama, 3D modeli oluşturma,
+  OBJ'yi dışa aktarma ve temporary license ile değerlendirme.
 keywords:
+- how to generate 3d
 - aspose temporary license
-- generate 3d model
-- add child node java
-- java export obj
+- export obj file
 - set offset top
-linktitle: Aspose Geçici Lisansı – Üst Kaydırmalı Silindir Oluştur (Java)
+- java 3d cylinder
+lastmod: 2026-08-12
+linktitle: 3d nasıl oluşturulur – üst kısmı kaydırılmış silindir oluşturma (Java)
+og_description: Aspose.3D for Java ile 3d nasıl oluşturulur. Silindir üstlerini kaydırmayı,
+  alt düğümler eklemeyi ve temporary license kullanarak OBJ'yi dışa aktarmayı öğrenin.
+og_image_alt: Guide showing Java code to create a cylinder with offset top and export
+  OBJ using Aspose.3D
+og_title: 3d nasıl oluşturulur – üst kısmı kaydırılmış silindir oluşturma (Java)
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: How to generate 3d using Aspose.3D – create a cylinder with offset
+    top in Java, add child node, set offset top, generate 3D model, export OBJ, and
+    evaluate with a temporary license.
+  headline: How to generate 3d – create cylinder with offset top (Java)
+  type: TechArticle
+- description: How to generate 3d using Aspose.3D – create a cylinder with offset
+    top in Java, add child node, set offset top, generate 3D model, export OBJ, and
+    evaluate with a temporary license.
+  name: How to generate 3d – create cylinder with offset top (Java)
+  steps:
+  - name: Create a Java 3D scene
+    text: '`Scene` is the top‑level container that holds all nodes, meshes, lights,
+      and cameras in a 3‑D environment.'
+  - name: Initialize cylinder with offset top
+    text: '`Cylinder` represents a cylindrical mesh and provides properties such as
+      radius, height, and offset.'
+  - name: Add child node Java – attach the first cylinder
+    text: '`Node` is an element in the scene graph that can hold geometry and transformations.'
+  - name: Java export OBJ – save the scene as OBJ
+    text: '`FileFormat` enumerates the supported export formats such as OBJ, STL,
+      and FBX.'
+  type: HowTo
+- questions:
+  - answer: Yes, it works seamlessly with Eclipse, IntelliJ IDEA, NetBeans, and other
+      IDEs.
+    question: Is Aspose.3D compatible with different Java IDEs?
+  - answer: Absolutely! Use the `Material` class to assign textures and surface properties.
+    question: Can I apply textures to the created 3D objects?
+  - answer: Various licensing models are available; you can explore them **[Aspose
+      purchase page](https://purchase.aspose.com/buy)**.
+    question: Are there licensing options for Aspose.3D?
+  - answer: Join the **[Aspose.3D community forum](https://forum.aspose.com/c/3d/18)**
+      for support and discussion.
+    question: How can I get help or share experiences?
+  - answer: Yes, an **aspose temporary license** can be obtained for evaluation **[temporary
+      license request page](https://purchase.aspose.com/temporary-license/)**.
+    question: Is a temporary license available for testing?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Aspose Geçici Lisansı – Üstü Kaydırmalı Silindir Oluştur (Java)
+tags:
+- generate 3d
+- aspose.3d
+- java cylinder offset
+title: 3d nasıl oluşturulur – üst kısmı kaydırılmış silindir oluşturma (Java)
 url: /tr/java/cylinders/creating-cylinders-with-offset-top/
 weight: 11
 ---
@@ -20,41 +71,41 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose Geçici Lisansı – Üstü Kaydırmalı Silindir Oluşturma (Java)
+# 3d nasıl oluşturulur – üstü ofsetli silindir oluşturma (Java)
 
 ## Giriş
 
-Java tabanlı bir 3D sahnede **silindir** nesnelerini özel bir üst kaydırma ile oluşturmak istiyorsanız, Aspose.3D bu süreci basitleştirir. Bu öğreticide sahneyi kurmaktan modeli OBJ dosyası olarak dışa aktarmaya kadar her adımı adım adım göstereceğiz; böylece üstü kaydırmalı silindirleri uygulamalarınıza güvenle entegre edebilirsiniz. Rehberin sonunda **aspose temporary license** ile bu özellikleri tam bir satın alma yapmadan nasıl değerlendirebileceğinizi de öğreneceksiniz.
+Eğer Java tabanlı bir 3D sahnede özel bir üst ofseti olan **silindir** nesneleri oluşturmak istiyorsanız, Aspose.3D süreci basitleştirir. Bu eğitimde sahneyi kurmaktan son modeli OBJ dosyası olarak dışa aktarmaya kadar her adımı adım adım göstereceğiz; böylece offset‑top silindirlerini uygulamalarınıza güvenle entegre edebilirsiniz. Rehberin sonunda, bir **aspose geçici lisansının** bu özellikleri tam bir satın alma yapmadan değerlendirmenizi nasıl sağladığını da anlayacaksınız.
 
-## Hızlı Yanıtlar
+## Hızlı cevaplar
 - **Hangi kütüphane kullanılıyor?** Aspose.3D for Java  
-- **Silindirin üstünü kaydırabilir miyim?** Evet, `setOffsetTop` kullanarak  
-- **Java'da bir alt düğüm nasıl eklenir?** Kök düğümde `createChildNode` çağırın  
-- **Hangi formata dışa aktarabilirim?** Wavefront OBJ (`java export obj`)  
-- **Test için lisansa ihtiyacım var mı?** Değerlendirme için bir **aspose temporary license** mevcuttur  
+- **Bir silindirin üstünü ofsetleyebilir miyim?** Evet, `setOffsetTop` ile  
+- **Java'da bir çocuk düğüm nasıl eklenir?** Kök düğümde `createChildNode` metodunu çağırın  
+- **Hangi formata dışa aktarabilirim?** Wavefront OBJ (`export obj file`)  
+- **Test için lisansa ihtiyacım var mı?** Değerlendirme için bir **aspose geçici lisansı** mevcuttur  
 
-## Aspose Geçici Lisansı Nedir?
+## Aspose geçici lisansı nedir?
 
-Bir **aspose temporary license**, geliştirme ve test sırasında Aspose.3D for Java’nın tam özellik setini açan kısa vadeli, ücretsiz bir değerlendirme anahtarıdır. Değerlendirme filigranlarını kaldırır ve OBJ, STL veya FBX gibi 3D model dosyalarını, ücretli bir lisans gibi oluşturmanıza izin verir.
+Bir **aspose geçici lisansı**, geliştirme ve test sırasında Aspose.3D for Java'nın tam özellik setini açan kısa vadeli, ücretsiz bir değerlendirme anahtarıdır. Değerlendirme filigranlarını kaldırır ve OBJ, STL veya FBX gibi 3D model dosyalarını, ücretli bir lisansın yapacağı gibi oluşturmanıza olanak tanır.
 
-## Aspose.3D for Java Neden Kullanılmalı?
+## Neden Aspose.3D for Java kullanılmalı?
 
-- **Yüksek seviyeli API:** Düşük seviyeli mesh verilerini yönetmenize gerek yok.  
+Aspose.3D, 3D oluşturma ve dışa aktarmayı basitleştiren yüksek seviyeli, çapraz platform API'si sunar. 30'dan fazla format için yerleşik dışa aktarıcılar içerir, sahne‑grafik hiyerarşilerini destekler ve düşük seviyeli ağ (mesh) işlemleriyle uğraşmak yerine geometriye odaklanmanızı sağlar.
+
+- **Yüksek seviyeli API:** Düşük seviyeli ağ verilerini yönetmeye gerek yok.  
 - **Çapraz platform:** Herhangi bir JVM uyumlu ortamda çalışır.  
-- **Yerleşik dışa aktarıcılar:** Direkt olarak OBJ, STL, FBX ve daha fazlasına kaydedebilir.  
-- **Genişletilebilir:** Kolayca alt düğümler ekleyebilir, dönüşümler uygulayabilir ve diğer Java kütüphaneleriyle entegre edebilirsiniz.  
+- **Yerleşik dışa aktarıcılar:** OBJ, STL, FBX ve daha fazlasına doğrudan kaydedebilir—Aspose.3D **30+** dışa aktarma formatını destekler.  
+- **Genişletilebilir:** Çocuk düğümleri kolayca ekleyebilir, dönüşümler uygulayabilir ve diğer Java kütüphaneleriyle bütünleştirebilirsiniz.  
 
 ## Önkoşullar
 
-İlerlemeye başlamadan önce şunların yüklü olduğundan emin olun:
-
 - **Java Development Kit (JDK)** – uyumlu bir sürüm yüklü.  
-- **Aspose.3D for Java kütüphanesi** – resmi siteden en son JAR'ı indirin [burada](https://releases.aspose.com/3d/java/).  
-- Seçtiğiniz bir IDE (Eclipse, IntelliJ IDEA, NetBeans, vb.).  
+- **Aspose.3D for Java kütüphanesi** – resmi siteden en son JAR'ı indirin **[Aspose.3D for Java indirme sayfası](https://releases.aspose.com/3d/java/)**.  
+- Tercih ettiğiniz bir IDE (Eclipse, IntelliJ IDEA, NetBeans, vb.).  
 
-## Paketleri İçe Aktarma
+## Paketleri içe aktar
 
-İhtiyacımız olan sınıfları içe aktaralım. Bu ifadeleri Java dosyanızın en üstüne ekleyin:
+Aşağıdaki importlar, bir silindiri oluşturmak ve dışa aktarmak için gereken temel Aspose.3D sınıflarını getirir.
 
 ```java
 import com.aspose.threed.Cylinder;
@@ -66,11 +117,11 @@ import com.aspose.threed.Vector3;
 import java.io.IOException;
 ```
 
-## Adım Adım Kılavuz
+## Adım adım kılavuz
 
-### Adım 1: Java 3D Sahnesi Oluşturma
+### Adım 1: Java 3D sahnesi oluşturma
 
-Bir **java 3d sahnesi**, tüm 3D nesneleri için bir kapsayıcı görevi görür.
+`Scene`, 3‑D ortamda tüm düğümleri, ağları (meshes), ışıkları ve kameraları tutan üst‑seviye konteynerdir.
 
 ```java
 // ExStart:1
@@ -79,9 +130,9 @@ Scene scene = new Scene();
 // ExEnd:1
 ```
 
-### Adım 2: Üstü Kaydırmalı Silindiri Başlatma
+### Adım 2: Üstü ofsetli silindiri başlatma
 
-Burada **silindir nasıl oluşturulur** sorusuna özel bir kaydırma ile yanıt veriyoruz. Yapıcı, yarıçap, yükseklik, dilimler, yığınlar ve silindirin kapalı olup olmadığını tanımlar. Ardından `setOffsetTop` ile üst kısmı kaydırıyoruz.
+`Cylinder`, silindirik bir ağ (mesh) temsil eder ve yarıçap, yükseklik ve ofset gibi özellikler sunar.
 
 ```java
 // ExStart:2
@@ -92,9 +143,9 @@ cylinder1.setOffsetTop(new Vector3(5, 3, 0));
 // ExEnd:2
 ```
 
-### Adım 3: Java'da Alt Düğüm Ekle – İlk Silindiri Bağla
+### Adım 3: Çocuk düğüm ekleme Java – ilk silindiri ekleme
 
-Sahnenin kök düğümünün altında bir alt düğüm oluşturur ve silindiri istenen konuma taşırız.
+`Node`, sahne grafiğinde geometri ve dönüşümleri tutabilen bir öğedir.
 
 ```java
 // ExStart:3
@@ -103,9 +154,7 @@ scene.getRootNode().createChildNode(cylinder1).getTransform().setTranslation(10,
 // ExEnd:3
 ```
 
-### Adım 4: İkinci Silindiri Başlat (Kaydırma Yok)
-
-Karşılaştırma amacıyla, kaydırma olmadan normal bir silindir ekliyoruz.
+### Adım 4: İkinci silindiri başlatma (ofsetsiz)
 
 ```java
 // ExStart:4
@@ -114,7 +163,7 @@ Cylinder cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
 // ExEnd:4
 ```
 
-### Adım 5: Java'da Alt Düğüm Ekle – İkinci Silindiri Bağla
+### Adım 5: Çocuk düğüm ekleme Java – ikinci silindiri ekleme
 
 ```java
 // ExStart:5
@@ -123,9 +172,9 @@ scene.getRootNode().createChildNode(cylinder2);
 // ExEnd:5
 ```
 
-### Adım 6: Java OBJ Dışa Aktar – Sahneyi OBJ Olarak Kaydet
+### Adım 6: Java OBJ dışa aktar – sahneyi OBJ olarak kaydetme
 
-Son olarak, **java export obj** komutuyla tüm sahneyi (her iki silindiri) Wavefront OBJ dosyası olarak kaydediyoruz; bu format 3D araçları tarafından yaygın olarak desteklenir.
+`FileFormat`, OBJ, STL ve FBX gibi desteklenen dışa aktarma formatlarını listeler.
 
 ```java
 // ExStart:6
@@ -134,54 +183,58 @@ scene.save("Your Document Directory" + "CustomizedOffsetTopCylinder.obj", FileFo
 // ExEnd:6
 ```
 
-Programı çalıştırdığınızda, belirtilen dizinde `CustomizedOffsetTopCylinder.obj` dosyasını bulacaksınız; bu dosya Blender, Maya veya başka bir OBJ‑uyumlu görüntüleyicide açılmaya hazırdır.
+## Java'da 3d model nasıl oluşturulur ve OBJ dışa aktarılır
 
-## Java'da 3D Model Nasıl Oluşturulur ve OBJ Olarak Dışa Aktarılır
+3D bir model oluşturmak için sahneyi yükleyin, gerekli dönüşümleri uygulayın ve ardından `scene.save("path/CustomizedOffsetTopCylinder.obj", FileFormat.WAVEFRONTOBJ)` metodunu çağırın. **aspose geçici lisansı**, değerlendirme filigranını kaldırarak tam lisans satın almadan üretim‑hazır OBJ dosyaları oluşturmanıza izin verir.
 
-`Scene.save(..., FileFormat.WAVEFRONTOBJ)` ifadesi ile **aspose temporary license** kombinasyonu, **3d model** dosyalarını harici dönüştürücülere ihtiyaç duymadan hızlıca üretmenizi sağlar. Bu, prototipleme sırasında veya tasarımcılarla varlık paylaşırken özellikle kullanışlıdır.
+## Gerçek dünya kullanım örnekleri
 
-## Gerçek Dünya Kullanım Senaryoları
+- **Mimari görselleştirme:** Üstü ofsetli silindirler, tavana doğru incelen sütları modellemede kullanılır.  
+- **Mekanik parçalar:** Üst yüzeyi kasıtlı olarak kaydırılmış pistonlar veya dişli muhafazaları oluşturun.  
+- **Oyun varlıkları:** Anında çeşitli süt şekilleri üretin, elle oluşturulmuş ağlara (meshes) olan ihtiyacı azaltın.
 
-- **Mimari görselleştirme:** Üstü kaydırmalı silindirler, tavana doğru incelen sütunları modellemek için kullanılır.  
-- **Mekanik parçalar:** Üst yüzeyi kasıtlı olarak kaydırılmış pistonlar veya dişli muhafazaları oluşturur.  
-- **Oyun varlıkları:** Çeşitli sütun şekillerini anında üretir, elle hazırlanmış mesh ihtiyacını azaltır.
-
-## Yaygın Sorunlar ve Çözümleri
+## Yaygın sorunlar ve çözümler
 
 | Sorun | Sebep | Çözüm |
 |-------|--------|-----|
-| **OBJ dosyası boş** | Sahne doğru kaydedilmedi veya yol hatalı. | Çıktı dizininin var olduğunu ve yazma izinlerinizin olduğunu doğrulayın. |
-| **Kaydırma uygulanmadı** | Eski bir Aspose.3D sürümü kullanılıyor. | `setOffsetTop` desteklenen en son kütüphaneye güncelleyin. |
-| **Alt düğüm görünmüyor** | Dönüşüm uygulanmadı. | Alt düğüm oluşturduktan sonra `getTransform().setTranslation` çağırdığınızdan emin olun. |
+| **OBJ dosyası boş** | Sahne doğru kaydedilmemiş veya yol hatalı. | Çıktı dizininin var olduğunu ve yazma izinlerinizin olduğunu doğrulayın. |
+| **Ofset uygulanmadı** | Eski bir Aspose.3D sürümü kullanılıyor. | `setOffsetTop` desteklenen en son kütüphaneye güncelleyin. |
+| **Çocuk düğüm görünmüyor** | Dönüşüm uygulanmadı. | Çocuk düğümü oluşturduktan sonra `getTransform().setTranslation` metodunu çağırdığınızdan emin olun. |
 
-## Sık Sorulan Sorular
+## Sıkça sorulan sorular
 
 **S: Aspose.3D farklı Java IDE'leriyle uyumlu mu?**  
-C: Evet, Eclipse, IntelliJ IDEA, NetBeans ve diğer IDE'lerle sorunsuz çalışır.
+**C:** Evet, Eclipse, IntelliJ IDEA, NetBeans ve diğer IDE'lerle sorunsuz çalışır.
 
 **S: Oluşturulan 3D nesnelere doku uygulayabilir miyim?**  
-C: Kesinlikle! `Material` sınıfını kullanarak dokular ve yüzey özellikleri atayabilirsiniz.
+**C:** Kesinlikle! `Material` sınıfını kullanarak dokular ve yüzey özellikleri atayabilirsiniz.
 
 **S: Aspose.3D için lisans seçenekleri var mı?**  
-C: Çeşitli lisans modelleri mevcuttur; bunları [burada](https://purchase.aspose.com/buy) keşfedebilirsiniz.
+**C:** Çeşitli lisans modelleri mevcuttur; **[Aspose satın alma sayfası](https://purchase.aspose.com/buy)** üzerinden inceleyebilirsiniz.
 
 **S: Yardım nasıl alabilirim veya deneyimlerimi paylaşabilirim?**  
-C: Destek ve tartışma için Aspose.3D topluluk forumuna [buradan](https://forum.aspose.com/c/3d/18) katılabilirsiniz.
+**C:** Destek ve tartışma için **[Aspose.3D topluluk forumu](https://forum.aspose.com/c/3d/18)**'a katılın.
 
 **S: Test için geçici bir lisans mevcut mu?**  
-C: Evet, bir **aspose temporary license** değerlendirme için [buradan](https://purchase.aspose.com/temporary-license/) alınabilir.
+**C:** Evet, değerlendirme için bir **aspose geçici lisansı** **[geçici lisans talep sayfası](https://purchase.aspose.com/temporary-license/)** üzerinden alınabilir.
 
 ---
 
-**Son Güncelleme:** 2026-04-08  
-**Test Edilen Versiyon:** Aspose.3D for Java 24.12 (en son)  
+**Son güncelleme:** 2026-08-12  
+**Test edildiği sürüm:** Aspose.3D for Java 24.12 (en son)  
 **Yazar:** Aspose
 
 ---
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## İlgili Eğitimler
+
+- [Aspose.3D for Java ile Silindir Modelleri Oluşturma](/3d/java/cylinders/)
+- [Aspose.3D for Java kullanarak silindir fan şekli oluşturma](/3d/java/cylinders/creating-fan-cylinders/)
+- [Aspose.3D ile Java'da Çocuk Düğümler Oluşturma ve FBX Dışa Aktarma](/3d/java/geometry/build-node-hierarchies/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
