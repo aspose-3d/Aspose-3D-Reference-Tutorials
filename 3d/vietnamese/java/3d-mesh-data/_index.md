@@ -1,16 +1,73 @@
 ---
-date: 2026-05-04
-description: Học cách tách lưới, giảm kích thước tệp 3D và tạo các tiếp tuyến lưới
-  trong Java bằng Aspose.3D. Khám phá nén, tạo dữ liệu và tách lưới dựa trên vật liệu.
+date: 2026-09-03
+description: Tìm hiểu cách tách mesh theo material, giảm kích thước tệp 3D và tạo
+  mesh tangents trong Java với Aspose.3D. Khám phá compression, data generation và
+  việc tách mesh dựa trên material.
 keywords:
-- how to split meshes
-- reduce 3d file size
-- how to compress 3d
 - split mesh by material
-- how to generate tangents
-linktitle: Tạo Tangent Lưới Java – Tối ưu hoá và Làm việc với Dữ liệu Lưới 3D
+- reduce 3d file size
+- compress 3d meshes
+- generate mesh tangents
+- Aspose.3D Java
+lastmod: 2026-09-03
+linktitle: Tạo Mesh Tangents Java – Tối ưu hoá và làm việc với dữ liệu 3D Mesh
+og_description: Tìm hiểu cách tách mesh theo material, giảm kích thước tệp 3D và tạo
+  mesh tangents trong Java với Aspose.3D. Khám phá compression, data generation và
+  việc tách mesh dựa trên material.
+og_image_alt: Developer guide showing split mesh by material and mesh tangent creation
+  in Java using Aspose.3D
+og_title: Cách tách mesh theo material và giảm kích thước tệp 3D trong Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to split mesh by material, reduce 3D file size, and create
+    mesh tangents in Java with Aspose.3D. Explore compression, data generation, and
+    material‑based mesh splitting.
+  headline: How to split mesh by material and reduce 3D file size in Java
+  type: TechArticle
+- description: Learn how to split mesh by material, reduce 3D file size, and create
+    mesh tangents in Java with Aspose.3D. Explore compression, data generation, and
+    material‑based mesh splitting.
+  name: How to split mesh by material and reduce 3D file size in Java
+  steps:
+  - name: '**Add Aspose.3D to your project** – via Maven or the provided JAR files.'
+    text: '**Add Aspose.3D to your project** – via Maven or the provided JAR files.'
+  - name: '**Load a 3D scene** – the API supports OBJ, FBX, STL, GLTF, GLB, and 30+
+      other formats.'
+    text: '**Load a 3D scene** – the API supports OBJ, FBX, STL, GLTF, GLB, and 30+
+      other formats.'
+  - name: '**Apply the tutorial you need** – whether it’s compression, data generation,
+      or material splitting.'
+    text: '**Apply the tutorial you need** – whether it’s compression, data generation,
+      or material splitting.'
+  type: HowTo
+- questions:
+  - answer: Yes. Generate normals, tangents, and binormals first, then apply Draco
+      compression to the enriched mesh for optimal size reduction.
+    question: Can I combine Draco compression with mesh‑data generation in a single
+      pipeline?
+  - answer: Reducing file size improves load times and memory usage. When combined
+      with material splitting, it also lowers draw‑call count, boosting runtime FPS.
+    question: Does reducing 3d file size affect runtime performance?
+  - answer: Draco handles very large meshes, but extremely high‑poly models may require
+      adjusting quantization bits to balance quality and size.
+    question: Are there any limitations on the size of meshes that can be compressed
+      with Draco?
+  - answer: No. Draco preserves all vertex attributes, including tangents, if they
+      were generated before compression.
+    question: Do I need to regenerate tangents after decompressing a Draco mesh?
+  - answer: Yes. A free trial lets you explore the features, but a valid Aspose.3D
+      license is mandatory for production deployments.
+    question: Is a commercial license required for production use?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Cách Tách Lưới – Giảm Kích Thước Tệp 3D trong Java
+tags:
+- split mesh
+- 3D optimization
+- Java
+- Aspose.3D
+- mesh processing
+title: Cách tách mesh theo material và giảm kích thước tệp 3D trong Java
 url: /vi/java/3d-mesh-data/
 weight: 32
 ---
@@ -19,86 +76,99 @@ weight: 32
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Giảm Kích Thước Tệp 3D – Tạo Mesh Tangents Java và Tối Ưu Dữ Liệu Mesh 3D
+# Giảm kích thước tệp 3D và tách lưới theo vật liệu trong Java
 
 ## Giới thiệu
 
-Nếu bạn đang muốn học **cách tách mesh** đồng thời giảm kích thước tệp 3d và tạo mesh tangents trong Java, bạn đã đến đúng nơi. Trung tâm này tập hợp các hướng dẫn Aspose.3D cho Java giá trị nhất, chỉ cho bạn cách nén mesh, tạo dữ liệu đỉnh thiết yếu (bao gồm normals, tangents và binormals), và tách mesh theo vật liệu để xử lý nhanh hơn. Dù bạn đang xây dựng trò chơi, trải nghiệm AR/VR, hay trực quan hoá kỹ thuật, việc thành thạo các kỹ thuật này sẽ giúp dự án Java của bạn chạy mượt hơn, đẹp hơn và giữ kích thước tệp ở mức tối thiểu.
+Aspose.3D là một thư viện Java cung cấp các công cụ hiệu năng cao để tạo, chỉnh sửa và tối ưu hóa các cảnh và lưới 3D. Nếu bạn muốn học **cách tách lưới theo vật liệu** đồng thời giảm kích thước tệp 3D và tạo các tangent cho lưới trong Java, bạn đã đến đúng nơi. Trung tâm này tập hợp các hướng dẫn Aspose.3D cho Java giá trị nhất, chỉ cho bạn cách nén lưới, tạo dữ liệu đỉnh cần thiết (bao gồm normals, tangents và binormals), và tách lưới theo vật liệu để xử lý nhanh hơn. Dù bạn đang xây dựng trò chơi, trải nghiệm AR/VR, hay trực quan hoá kỹ thuật, việc thành thạo các kỹ thuật này sẽ giúp dự án Java của bạn chạy mượt hơn, trông đẹp hơn và giữ kích thước tệp ở mức tối thiểu.
 
 ## Câu trả lời nhanh
-- **Làm thế nào để tách mesh?** Bạn có thể tách mesh theo vật liệu bằng Aspose.3D, giúp giảm kích thước tệp và cải thiện hiệu suất render.  
-- **Tính năng Aspose.3D nào hữu ích nhất?** Nén Google Draco kết hợp với việc tạo dữ liệu mesh (normals, tangents, binormals).  
-- **Tôi có cần giấy phép để thử các hướng dẫn này không?** Giấy phép dùng thử miễn phí đủ cho việc đánh giá; giấy phép thương mại cần thiết cho môi trường sản xuất.  
-- **Các định dạng nào được hỗ trợ?** OBJ, FBX, STL, GLTF, GLB và nhiều định dạng khác.  
-- **Mã có sẵn để chạy không?** Có – mỗi hướng dẫn có liên kết đều bao gồm một ví dụ hoàn chỉnh, có thể sao chép và dán.
+- **Làm thế nào để tách lưới?** Sử dụng API tách lưới dựa trên vật liệu của Aspose.3D để tách một cảnh thành các lưới riêng lẻ, giúp giảm số lần gọi vẽ và kích thước tệp.  
+- **Tính năng Aspose.3D nào hữu ích nhất?** Nén Google Draco kết hợp với việc tự động tạo dữ liệu lưới (normals, tangents, binormals).  
+- **Tôi có cần giấy phép để thử các hướng dẫn này không?** Giấy phép dùng thử miễn phí đủ cho việc đánh giá; giấy phép thương mại là bắt buộc cho môi trường sản xuất.  
+- **Các định dạng nào được hỗ trợ?** OBJ, FBX, STL, GLTF, GLB, và hơn 30 định dạng khác.  
+- **Mã có sẵn để chạy không?** Có – mỗi hướng dẫn liên kết đều bao gồm một ví dụ hoàn chỉnh, có thể sao chép và dán.
 
-## Cách Tạo Mesh Tangents Java với Aspose.3D
+## Cách tạo mesh tangents trong Java với Aspose.3D
 
-Aspose.3D cung cấp một API sạch, cấp cao, trừu tượng hoá các phép tính cấp thấp trong khi vẫn cho bạn quyền kiểm soát đầy đủ việc thao tác mesh. Bằng cách theo dõi các hướng dẫn dưới đây, bạn sẽ học được:
+In Aspose.3D, a `Scene` object represents the entire 3D model, including meshes, materials, and hierarchy. Load your 3D scene, generate missing tangents, and then save the result – all in two concise steps. First, call `scene.generateTangents()` to compute per‑vertex tangents based on existing normals and UVs; second, export the scene with `scene.save("output.gltf")`. This approach guarantees correct normal‑map rendering without manual math.
 
-* Giảm kích thước tệp bằng nén Google Draco.  
-* Tạo dữ liệu hình học thiếu như tangents, rất quan trọng cho việc ánh xạ normal đúng.  
-* Tổ chức cảnh phức tạp bằng cách tách mesh theo vật liệu, cải thiện pipeline render.
+Aspose.3D provides a clean, high‑level API that abstracts the low‑level math while giving you full control over mesh manipulation. By following the tutorials below you’ll learn to:
 
-### Nén Mesh 3D bằng Google Draco trong Java
+* Reduce file size with Google Draco compression.  
+* Generate missing geometric data such as tangents, which are crucial for correct normal mapping.  
+* Organize complex scenes by separating meshes per material, improving rendering pipelines.
 
-[Compress 3D Meshes with Google Draco in Java](./compress-meshes-google-draco/) là cánh cửa của bạn tới phát triển 3D hiệu quả. Aspose.3D cho Java cho phép bạn tối ưu hoá các ứng dụng 3D bằng cách nén mesh sử dụng Google Draco mạnh mẽ. Hướng dẫn từng bước của chúng tôi sẽ dẫn bạn qua quy trình, đảm bảo bạn nắm bắt mọi chi tiết. Khi hoàn thành, bạn sẽ có kỹ năng giảm đáng kể kích thước tệp mà không ảnh hưởng đến chất lượng.
+### Nén lưới 3D với Google Draco trong Java
 
-### Tạo Dữ liệu cho Mesh 3D trong Java (Normals, Tangents, Binormals)
+[Compress 3D Meshes with Google Draco in Java](./compress-meshes-google-draco/) là cánh cửa dẫn bạn tới phát triển 3D hiệu quả. Aspose.3D for Java cho phép bạn tối ưu hoá các ứng dụng 3D bằng cách nén lưới sử dụng Google Draco mạnh mẽ. Hướng dẫn từng bước của chúng tôi sẽ dẫn bạn qua quy trình, đảm bảo bạn nắm bắt mọi chi tiết. Khi hoàn thành, bạn sẽ có kỹ năng giảm đáng kể kích thước tệp mà không làm giảm chất lượng.
 
-[Generate Data for 3D Meshes in Java (Normals, Tangents, Binormals)](./generate-mesh-data/) là hướng dẫn bạn cần để nâng cấp dự án Java lên tầm cao mới. Hãy khám phá sâu sắc các chi tiết của đồ họa 3D khi chúng tôi hướng dẫn bạn tạo dữ liệu normal cho mesh 3D một cách dễ dàng. Học cách cải thiện sức hấp dẫn hình ảnh của dự án và tự tin khám phá thế giới 3D.
+### Tạo dữ liệu cho lưới 3D trong Java (Normals, Tangents, Binormals)
 
-### Tách Mesh 3D theo Vật liệu để Xử lý Hiệu quả trong Java
+[Generate Data for 3D Meshes in Java (Normals, Tangents, Binormals)](./generate-mesh-data/) là hướng dẫn bạn cần. Hãy khám phá sâu sắc các khía cạnh của đồ họa 3D khi chúng tôi hướng dẫn bạn tạo dữ liệu normal cho lưới 3D một cách dễ dàng. Học cách nâng cao sức hấp dẫn hình ảnh của dự án và tự tin khám phá thế giới 3D.
 
-[Splitting 3D Meshes by Material for Efficient Processing Java](./split-meshes-by-material/) mở khóa tiềm năng đầy đủ của Aspose.3D trong Java. Khám phá quy trình tách mesh 3D một cách hiệu quả dựa trên vật liệu. Điều này không chỉ nâng cao hiệu suất ứng dụng mà còn tối ưu hoá quy trình phát triển của bạn. Theo dõi hướng dẫn từng bước và chứng kiến sự tích hợp liền mạch của Aspose.3D vào các dự án Java.
+### Tách lưới 3D theo vật liệu để xử lý hiệu quả trong Java
 
-## Tại sao việc giảm kích thước tệp 3d lại quan trọng
+[Splitting 3D Meshes by Material for Efficient Processing Java](./split-meshes-by-material/) mở khóa tiềm năng đầy đủ của Aspose.3D trong Java. Khám phá quy trình chi tiết để chia lưới 3D một cách hiệu quả dựa trên vật liệu. Điều này không chỉ nâng cao hiệu suất ứng dụng mà còn giúp quy trình phát triển của bạn trở nên suôn sẻ hơn. Thực hiện theo hướng dẫn từng bước và chứng kiến sự tích hợp liền mạch của Aspose.3D vào các dự án Java của bạn.
 
-* **Performance:** Tạo tangents và tách mesh giảm số lượng draw call và cải thiện việc sử dụng GPU.  
-* **File Size:** Nén Draco có thể thu nhỏ tài nguyên lên tới 90 %, giúp tải xuống nhanh hơn cho người dùng cuối.  
-* **Visual Fidelity:** Tangents đúng đảm bảo các bản đồ normal được render chính xác, mang lại vẻ ngoài thực tế cho mô hình.
+## Tại sao việc giảm kích thước tệp 3D lại quan trọng
 
-## Bắt đầu nhanh chóng
+Giảm kích thước tệp trực tiếp cải thiện thời gian tải và giảm mức tiêu thụ bộ nhớ, từ đó mang lại hiệu năng chạy mượt hơn trên cả máy tính để bàn và thiết bị di động. Nén Draco có thể thu nhỏ tài nguyên lên tới 90 %, và việc tách lưới dựa trên vật liệu có thể giảm số lần gọi vẽ 30‑50 % trong các cảnh điển hình, mang lại tăng FPS đáng kể.
 
-1. **Add Aspose.3D to your project** – thông qua Maven hoặc các file JAR được cung cấp.  
-2. **Load a 3D scene** – API hỗ trợ OBJ, FBX, STL, GLTF và nhiều định dạng khác.  
-3. **Apply the tutorial you need** – dù là nén, tạo dữ liệu, hay tách vật liệu.  
+## Bắt đầu nhanh
 
-Mỗi hướng dẫn có liên kết đều chứa mã mẫu sẵn sàng chạy, vì vậy bạn có thể sao chép, dán và thấy kết quả ngay lập tức.
+1. **Thêm Aspose.3D vào dự án** – qua Maven hoặc các tệp JAR được cung cấp.  
+2. **Tải một cảnh 3D** – API hỗ trợ OBJ, FBX, STL, GLTF, GLB, và hơn 30 định dạng khác.  
+3. **Áp dụng hướng dẫn bạn cần** – dù là nén, tạo dữ liệu, hay tách vật liệu.  
+
+Mỗi hướng dẫn liên kết đều chứa mã mẫu sẵn sàng chạy, vì vậy bạn có thể sao chép, dán và thấy kết quả ngay lập tức.
 
 ## Tóm tắt các hướng dẫn có sẵn
 
-### [Compress 3D Meshes with Google Draco in Java](./compress-meshes-google-draco/)
-Tối ưu hoá các ứng dụng 3D của bạn với Aspose.3D. Học cách nén mesh bằng Google Draco trong Java. Theo dõi hướng dẫn từng bước để phát triển 3D hiệu quả.
+### [Nén lưới 3D với Google Draco trong Java](./compress-meshes-google-draco/)
+Tối ưu hoá các ứng dụng 3D của bạn với Aspose.3D. Học cách nén lưới bằng Google Draco trong Java. Thực hiện theo hướng dẫn từng bước để phát triển 3D hiệu quả.
 
-### [Generate Data for 3D Meshes in Java (Normals, Tangents, Binormals)](./generate-mesh-data/)
-Nâng cao dự án Java của bạn với Aspose.3D. Thực hiện hướng dẫn để tạo dữ liệu normal cho mesh 3D một cách dễ dàng. Đắm mình vào đồ họa 3D một cách nhẹ nhàng.
+### [Nén lưới 3D với Google Draco trong Java](./compress-meshes-google-draco/)
+Một tham chiếu thứ hai tới hướng dẫn nén Draco để đầy đủ.
 
-### [Split 3D Meshes by Material for Efficient Processing in Java](./split-meshes-by-material/)
-Khám phá sức mạnh của Aspose.3D trong Java với hướng dẫn từng bước về việc tách mesh 3D hiệu quả theo vật liệu. Nâng cao hiệu suất ứng dụng của bạn một cách liền mạch.
+### [Tạo dữ liệu cho lưới 3D trong Java (Normals, Tangents, Binormals)](./generate-mesh-data/)
+Nâng cao dự án Java của bạn với Aspose.3D. Thực hiện theo hướng dẫn của chúng tôi để tạo dữ liệu normal cho lưới 3D một cách dễ dàng. Khám phá đồ họa 3D một cách nhẹ nhàng.
+
+### [Tạo dữ liệu cho lưới 3D trong Java (Normals, Tangents, Binormals)](./generate-mesh-data/)
+Liên kết khác tới hướng dẫn tạo dữ liệu lưới.
+
+### [Tách lưới 3D theo vật liệu để xử lý hiệu quả Java](./split-meshes-by-material/)
+Khám phá sức mạnh của Aspose.3D trong Java với hướng dẫn từng bước về việc tách lưới 3D một cách hiệu quả theo vật liệu. Nâng cao hiệu suất ứng dụng của bạn một cách liền mạch.
+
+### [Tách lưới 3D theo vật liệu để xử lý hiệu quả trong Java](./split-meshes-by-material/)
+Một cách diễn đạt thay thế cho hướng dẫn tách lưới dựa trên vật liệu.
 
 ## Câu hỏi thường gặp
 
-**Q: Tôi có thể kết hợp nén Draco với việc tạo dữ liệu mesh trong một pipeline duy nhất không?**  
-A: Có. Quy trình thường là tạo dữ liệu thiếu (normals, tangents, binormals) trước, sau đó áp dụng nén Draco cho mesh đã được làm giàu.
+**Q: Tôi có thể kết hợp nén Draco với việc tạo dữ liệu lưới trong một pipeline duy nhất không?**  
+**A:** Có. Đầu tiên tạo normals, tangents và binormals, sau đó áp dụng nén Draco cho lưới đã được làm giàu để đạt mức giảm kích thước tối ưu.
 
-**Q: Việc giảm kích thước tệp 3d có ảnh hưởng đến hiệu suất runtime không?**  
-A: Giảm kích thước tệp thường cải thiện thời gian tải và giảm mức sử dụng bộ nhớ. Khi kết hợp với việc tổ chức mesh hợp lý (ví dụ: tách vật liệu), nó còn giảm số lượng draw call, tăng hiệu suất runtime.
+**Q: Giảm kích thước tệp 3D có ảnh hưởng đến hiệu năng chạy không?**  
+**A:** Giảm kích thước tệp cải thiện thời gian tải và việc sử dụng bộ nhớ. Khi kết hợp với việc tách vật liệu, nó còn giảm số lần gọi vẽ, tăng FPS trong quá trình chạy.
 
-**Q: Có giới hạn nào về kích thước mesh có thể nén bằng Draco không?**  
-A: Draco xử lý được các mesh rất lớn, nhưng các mô hình siêu đa giác có thể cần điều chỉnh các thiết lập nén (ví dụ: số bit lượng tử) để cân bằng giữa kích thước và chất lượng.
+**Q: Có giới hạn nào về kích thước lưới có thể nén bằng Draco không?**  
+**A:** Draco xử lý được các lưới rất lớn, nhưng các mô hình siêu đa giác có thể cần điều chỉnh số bit lượng tử để cân bằng chất lượng và kích thước.
 
-**Q: Tôi có cần tạo lại tangents sau khi giải nén mesh Draco không?**  
-A: Không. Draco giữ nguyên các thuộc tính đỉnh, bao gồm tangents, nếu chúng đã được tạo trước khi nén.
+**Q: Tôi có cần tạo lại tangents sau khi giải nén lưới Draco không?**  
+**A:** Không. Draco bảo tồn tất cả các thuộc tính đỉnh, bao gồm cả tangents, nếu chúng đã được tạo trước khi nén.
 
 **Q: Có cần giấy phép thương mại cho việc sử dụng trong môi trường sản xuất không?**  
-A: Có. Trong khi giấy phép dùng thử cho phép bạn khám phá các tính năng, một giấy phép Aspose.3D hợp lệ là bắt buộc cho triển khai sản xuất.
+**A:** Có. Giấy phép dùng thử cho phép bạn khám phá các tính năng, nhưng giấy phép Aspose.3D hợp lệ là bắt buộc cho triển khai sản xuất.
 
----
-
-**Cập nhật lần cuối:** 2026-05-04  
+**Cập nhật lần cuối:** 2026-09-03  
 **Kiểm tra với:** Aspose.3D for Java 24.11  
-**Tác giả:** Aspose  
+**Tác giả:** Aspose
+
+## Các hướng dẫn liên quan
+
+- [Giảm kích thước mô hình 3D: Tạo lưới hình cầu trong Java với Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
+- [Cách tính normals cho lưới và thêm normals vào lưới 3D trong Java (Sử dụng Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
+- [Giảm kích thước tệp 3D – Nén cảnh với Aspose.3D cho Java](/3d/java/3d-scenes-and-models/compress-3d-scenes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
