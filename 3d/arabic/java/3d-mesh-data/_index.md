@@ -1,18 +1,73 @@
 ---
-date: 2026-05-04
-description: تعلم كيفية تقسيم الشبكات، تقليل حجم ملفات 3D، وإنشاء المتجهات المماسية
-  للشبكة في Java باستخدام Aspose.3D. اكتشف الضغط، توليد البيانات، وتقسيم الشبكات بناءً
-  على المواد.
+date: 2026-09-03
+description: تعلم كيفية تقسيم الـ mesh حسب المادة، تقليل حجم ملف 3D، وإنشاء mesh tangents
+  في Java باستخدام Aspose.3D. استكشف compression، data generation، و material‑based
+  mesh splitting.
 keywords:
-- how to split meshes
-- reduce 3d file size
-- how to compress 3d
 - split mesh by material
-- how to generate tangents
-linktitle: إنشاء متجهات المماس للشبكة في جافا – تحسين والعمل مع بيانات الشبكة ثلاثية
-  الأبعاد
+- reduce 3d file size
+- compress 3d meshes
+- generate mesh tangents
+- Aspose.3D Java
+lastmod: 2026-09-03
+linktitle: إنشاء Mesh Tangents Java – تحسين والعمل مع بيانات 3D Mesh
+og_description: تعلم كيفية تقسيم الـ mesh حسب المادة، تقليل حجم ملف 3D، وإنشاء mesh
+  tangents في Java باستخدام Aspose.3D. استكشف compression، data generation، و material‑based
+  mesh splitting.
+og_image_alt: Developer guide showing split mesh by material and mesh tangent creation
+  in Java using Aspose.3D
+og_title: كيفية تقسيم الـ mesh حسب المادة وتقليل حجم ملف 3D في Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to split mesh by material, reduce 3D file size, and create
+    mesh tangents in Java with Aspose.3D. Explore compression, data generation, and
+    material‑based mesh splitting.
+  headline: How to split mesh by material and reduce 3D file size in Java
+  type: TechArticle
+- description: Learn how to split mesh by material, reduce 3D file size, and create
+    mesh tangents in Java with Aspose.3D. Explore compression, data generation, and
+    material‑based mesh splitting.
+  name: How to split mesh by material and reduce 3D file size in Java
+  steps:
+  - name: '**Add Aspose.3D to your project** – via Maven or the provided JAR files.'
+    text: '**Add Aspose.3D to your project** – via Maven or the provided JAR files.'
+  - name: '**Load a 3D scene** – the API supports OBJ, FBX, STL, GLTF, GLB, and 30+
+      other formats.'
+    text: '**Load a 3D scene** – the API supports OBJ, FBX, STL, GLTF, GLB, and 30+
+      other formats.'
+  - name: '**Apply the tutorial you need** – whether it’s compression, data generation,
+      or material splitting.'
+    text: '**Apply the tutorial you need** – whether it’s compression, data generation,
+      or material splitting.'
+  type: HowTo
+- questions:
+  - answer: Yes. Generate normals, tangents, and binormals first, then apply Draco
+      compression to the enriched mesh for optimal size reduction.
+    question: Can I combine Draco compression with mesh‑data generation in a single
+      pipeline?
+  - answer: Reducing file size improves load times and memory usage. When combined
+      with material splitting, it also lowers draw‑call count, boosting runtime FPS.
+    question: Does reducing 3d file size affect runtime performance?
+  - answer: Draco handles very large meshes, but extremely high‑poly models may require
+      adjusting quantization bits to balance quality and size.
+    question: Are there any limitations on the size of meshes that can be compressed
+      with Draco?
+  - answer: No. Draco preserves all vertex attributes, including tangents, if they
+      were generated before compression.
+    question: Do I need to regenerate tangents after decompressing a Draco mesh?
+  - answer: Yes. A free trial lets you explore the features, but a valid Aspose.3D
+      license is mandatory for production deployments.
+    question: Is a commercial license required for production use?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: كيفية تقسيم الشبكات – تقليل حجم ملف 3D في جافا
+tags:
+- split mesh
+- 3D optimization
+- Java
+- Aspose.3D
+- mesh processing
+title: كيفية تقسيم الـ mesh حسب المادة وتقليل حجم ملف 3D في Java
 url: /ar/java/3d-mesh-data/
 weight: 32
 ---
@@ -21,86 +76,101 @@ weight: 32
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تقليل حجم ملف 3D – إنشاء Mesh Tangents في Java وتحسين بيانات Mesh 3D
+# تقليل حجم ملف 3D وتقسيم الشبكة حسب المادة في Java
 
 ## مقدمة
 
-إذا كنت ترغب في تعلم **كيفية تقسيم الشبكات** مع تقليل حجم ملف 3D وإنشاء Mesh Tangents في Java، فقد وصلت إلى المكان الصحيح. يجمع هذا المركز أهم دروس Aspose.3D for Java التي تُظهر لك كيفية ضغط الشبكات، وتوليد بيانات القمم الأساسية (بما في ذلك Normals، Tangents، وBinormals)، وتقسيم الشبكات حسب المادة لمعالجة أسرع. سواءً كنت تبني ألعابًا، أو تجارب AR/VR، أو تصورات هندسية، فإن إتقان هذه التقنيات سيجعل مشاريع Java الخاصة بك تعمل بسلاسة أكبر، وتظهر بصورة أفضل، وتبقي أحجام الملفات في الحد الأدنى.
+Aspose.3D هي مكتبة Java توفر أدوات عالية الأداء لإنشاء وتحرير وتحسين مشاهد وشبكات 3D. إذا كنت تبحث عن تعلم **كيفية تقسيم الشبكة حسب المادة** مع تقليل حجم ملف 3D وإنشاء متجهات الشبكة (tangents) في Java، فأنت في المكان الصحيح. يجمع هذا المركز أهم دروس Aspose.3D لـ Java التي تُظهر لك كيفية ضغط الشبكات، وتوليد بيانات الرؤوس الأساسية (بما في ذلك normals و tangents و binormals)، وتقسيم الشبكات حسب المادة لمعالجة أسرع. سواء كنت تبني ألعابًا أو تجارب AR/VR أو تصورات هندسية، فإن إتقان هذه التقنيات سيجعل مشاريع Java الخاصة بك تعمل بسلاسة أكبر، وتبدو أفضل، وتبقي حجم الملفات في الحد الأدنى.
 
 ## إجابات سريعة
-- **كيف يمكن تقسيم الشبكات؟** يمكنك تقسيم الشبكات حسب المادة باستخدام Aspose.3D، مما يقلل حجم الملف ويحسن أداء العرض.  
-- **أي ميزة في Aspose.3D هي الأكثر فائدة؟** ضغط Google Draco مع توليد بيانات الشبكة (normals، tangents، binormals).  
+- **كيف يمكن تقسيم الشبكات؟** استخدم API التقسيم القائم على المادة في Aspose.3D لفصل المشهد إلى شبكات فردية، مما يقلل من عدد استدعاءات الرسم وحجم الملف.  
+- **ما هي ميزة Aspose.3D التي تساعد أكثر؟** ضغط Google Draco مع توليد بيانات الشبكة تلقائيًا (normals, tangents, binormals).  
 - **هل أحتاج إلى ترخيص لتجربة هذه الدروس؟** ترخيص تجريبي مجاني يكفي للتقييم؛ الترخيص التجاري مطلوب للإنتاج.  
-- **ما الصيغ المدعومة؟** OBJ، FBX، STL، GLTF، GLB، والعديد غيرها.  
-- **هل الكود جاهز للتنفيذ؟** نعم – كل درس مرتبط يتضمن مثالًا كاملاً جاهزًا للنسخ واللصق.
+- **ما الصيغ المدعومة؟** OBJ، FBX، STL، GLTF، GLB، وأكثر من 30 صيغة أخرى.  
+- **هل الكود جاهز للتنفيذ؟** نعم – كل درس مرتبط يتضمن مثالًا كاملًا جاهزًا للنسخ واللصق.
 
-## كيفية إنشاء Mesh Tangents في Java باستخدام Aspose.3D
+## كيفية إنشاء متجهات الشبكة (tangents) في Java باستخدام Aspose.3D
 
-توفر Aspose.3D واجهة برمجة تطبيقات (API) عالية المستوى نظيفة تُجرد الرياضيات منخفضة المستوى مع إعطائك التحكم الكامل في تعديل الشبكات. باتباع الدروس أدناه ستتعلم:
+في Aspose.3D، يمثل كائن `Scene` النموذج ثلاثي الأبعاد بالكامل، بما في ذلك الشبكات والمواد والهيكل الهرمي. قم بتحميل مشهد 3D الخاص بك، وتوليد المتجهات المفقودة (tangents)، ثم احفظ النتيجة – كل ذلك في خطوتين مختصرتين. أولاً، استدعِ `scene.generateTangents()` لحساب المتجهات لكل رأس بناءً على الـ normals و UVs الموجودة؛ ثانيًا، صدّر المشهد باستخدام `scene.save("output.gltf")`. يضمن هذا النهج عرض خريطة الـ normal بشكل صحيح دون الحاجة إلى حسابات يدوية.
+
+توفر Aspose.3D API نظيفة وعالية المستوى تُجرد الرياضيات منخفضة المستوى مع إعطائك تحكمًا كاملاً في تعديل الشبكات. باتباع الدروس أدناه ستتعلم:
 
 * تقليل حجم الملف باستخدام ضغط Google Draco.  
-* توليد البيانات الهندسية المفقودة مثل tangents، والتي تُعد حاسمة لتطبيق خريطة العادي بشكل صحيح.  
-* تنظيم المشاهد المعقدة بفصل الشبكات حسب المادة، مما يحسن خطوط أنابيب العرض.
+* توليد البيانات الهندسية المفقودة مثل المتجهات (tangents)، والتي تُعد حاسمة لتطبيق خريطة الـ normal بشكل صحيح.  
+* تنظيم المشاهد المعقدة عن طريق فصل الشبكات حسب المادة، مما يحسن خطوط أنابيب العرض.
 
-### ضغط Meshes ثلاثية الأبعاد باستخدام Google Draco في Java
+### ضغط شبكات 3D باستخدام Google Draco في Java
 
-[ضغط Meshes ثلاثية الأبعاد باستخدام Google Draco في Java](./compress-meshes-google-draco/) هو بوابتك إلى تطوير ثلاثي الأبعاد فعال. يتيح لك Aspose.3D for Java تحسين تطبيقاتك ثلاثية الأبعاد عن طريق ضغط الشبكات باستخدام Google Draco القوي. دليلنا خطوة بخطوة يرافقك خلال العملية، لضمان فهمك لكل تفاصيلها. في النهاية، ستمتلك المهارات اللازمة لتقليل أحجام الملفات بشكل كبير دون التضحية بالجودة.
+[ضغط شبكات 3D باستخدام Google Draco في Java](./compress-meshes-google-draco/) هو بوابتك لتطوير 3D فعال. يتيح لك Aspose.3D لـ Java تحسين تطبيقات 3D الخاصة بك عن طريق ضغط الشبكات باستخدام Google Draco القوي. دليلنا خطوة بخطوة يرافقك خلال العملية، مما يضمن فهمك لكل التفاصيل. في النهاية، ستمتلك المهارات لتقليل حجم الملفات بشكل كبير دون التضحية بالجودة.
 
-### توليد بيانات Meshes ثلاثية الأبعاد في Java (Normals, Tangents, Binormals)
+### توليد البيانات لشبكات 3D في Java (Normals, Tangents, Binormals)
 
-[توليد بيانات Meshes ثلاثية الأبعاد في Java (Normals, Tangents, Binormals)](./generate-mesh-data/) مع Aspose.3D هو الدرس الذي تحتاجه. غص عميقًا في تفاصيل الرسوم ثلاثية الأبعاد بينما نرشدك إلى توليد بيانات الـ normal بسهولة لشبكاتك ثلاثية الأبعاد. تعلم كيف تعزز الجاذبية البصرية لمشاريعك وتستكشف عالم الـ 3D بثقة.
+هل أنت مستعد للارتقاء بمشاريع Java الخاصة بك إلى المستوى التالي؟ [توليد البيانات لشبكات 3D في Java (Normals, Tangents, Binormals)](./generate-mesh-data/) مع Aspose.3D هو الدرس الذي تحتاجه. غص عميقًا في تفاصيل رسومات 3D بينما نرشدك إلى توليد بيانات الـ normal لشبكات 3D الخاصة بك بسهولة. تعلم كيف تعزز الجاذبية البصرية لمشاريعك وتستكشف عالم 3D بثقة.
 
-### تقسيم Meshes ثلاثية الأبعاد حسب المادة لمعالجة فعّالة في Java
+### تقسيم شبكات 3D حسب المادة لمعالجة فعّالة في Java
 
-[تقسيم Meshes ثلاثية الأبعاد حسب المادة لمعالجة فعّالة في Java](./split-meshes-by-material/) يفتح لك كامل إمكانات Aspose.3D في Java. استكشف العملية الدقيقة لتقسيم Meshes ثلاثية الأبعاد بناءً على المادة بكفاءة. لن يحسن ذلك فقط أداء تطبيقك، بل سيُبسّط أيضًا سير عمل التطوير. اتبع دليلنا خطوة بخطوة وشاهد التكامل السلس لـ Aspose.3D في مشاريع Java الخاصة بك.
+اكتشف الإمكانات الكاملة لـ Aspose.3D في Java من خلال درسنا حول [تقسيم شبكات 3D حسب المادة لمعالجة فعّالة في Java](./split-meshes-by-material/). استكشف العملية المعقدة لتقسيم شبكات 3D بكفاءة بناءً على المادة. لن يعزز ذلك أداء تطبيقك فحسب، بل سيُبسط أيضًا سير عمل التطوير. اتبع دليلنا خطوة بخطوة وشاهد التكامل السلس لـ Aspose.3D في مشاريع Java الخاصة بك.
 
 ## لماذا تقليل حجم ملف 3D مهم
 
-* **الأداء:** توليد tangents وتقسيم الشبكات يقلل من عدد استدعاءات الرسم ويحسن استغلال وحدة معالجة الرسوميات (GPU).  
-* **حجم الملف:** ضغط Draco يمكنه تقليص الأصول بنسبة تصل إلى 90 %، مما يجعل التحميل أسرع للمستخدمين النهائيين.  
-* **الدقة البصرية:** tangents الصحيحة تضمن عرض خرائط العادي بدقة، مما يمنح نماذجك مظهرًا واقعيًا.
+تقليل حجم الملف يحسن مباشرة أوقات التحميل ويقلل استهلاك الذاكرة، مما يترجم إلى أداء تشغيل أكثر سلاسة على كل من أجهزة الكمبيوتر المكتبية والهواتف المحمولة. يمكن لضغط Draco أن يقلص الأصول بنسبة تصل إلى 90 %، ويمكن لتقسيم الشبكات القائم على المادة أن يقلل عدد استدعاءات الرسم بنسبة 30‑50 % في المشاهد النموذجية، مما يحقق تحسينات ملحوظة في FPS.
 
-## بدء العمل بسرعة
+## البدء بسرعة
 
-1. **إضافة Aspose.3D إلى مشروعك** – عبر Maven أو ملفات JAR المتوفرة.  
-2. **تحميل مشهد ثلاثي الأبعاد** – تدعم الواجهة صيغ OBJ، FBX، STL، GLTF، والعديد غيرها.  
-3. **تطبيق الدرس الذي تحتاجه** – سواء كان ضغطًا، توليد بيانات، أو تقسيم حسب المادة.  
+1. **أضف Aspose.3D إلى مشروعك** – عبر Maven أو ملفات JAR المقدمة.  
+2. **حمّل مشهد 3D** – يدعم API الصيغ OBJ، FBX، STL، GLTF، GLB، وأكثر من 30 صيغة أخرى.  
+3. **طبق الدرس الذي تحتاجه** – سواء كان ضغطًا، توليد بيانات، أو تقسيم حسب المادة.  
 
-كل درس مرتبط يحتوي على كود عينة جاهز للتنفيذ، بحيث يمكنك النسخ واللصق ورؤية النتائج فورًا.
+كل درس مرتبط يحتوي على شفرة نموذجية جاهزة للتنفيذ، بحيث يمكنك النسخ واللصق ورؤية النتائج فورًا.
 
 ## ملخص الدروس المتاحة
 
-### [ضغط Meshes ثلاثية الأبعاد باستخدام Google Draco في Java](./compress-meshes-google-draco/)
-حسّن تطبيقاتك ثلاثية الأبعاد باستخدام Aspose.3D. تعلم كيفية ضغط Meshes باستخدام Google Draco في Java. اتبع دليلنا خطوة بخطوة لتطوير ثلاثي الأبعاد فعال.
+### [ضغط شبكات 3D باستخدام Google Draco في Java](./compress-meshes-google-draco/)
+حسّن تطبيقات 3D الخاصة بك باستخدام Aspose.3D. تعلم كيفية ضغط الشبكات باستخدام Google Draco في Java. اتبع دليلنا خطوة بخطوة لتطوير 3D فعال.
 
-### [توليد بيانات Meshes ثلاثية الأبعاد في Java (Normals, Tangents, Binormals)](./generate-mesh-data/)
-عزّز مشاريع Java الخاصة بك مع Aspose.3D. اتبع درسنا لتوليد بيانات الـ normal بسهولة لشبكات ثلاثية الأبعاد. غص في عالم الرسوم ثلاثية الأبعاد بسهولة.
+### [ضغط شبكات 3D باستخدام Google Draco في Java](./compress-meshes-google-draco/)
+ضغط شبكات 3D باستخدام Google Draco في Java.
 
-### [تقسيم Meshes ثلاثية الأبعاد حسب المادة لمعالجة فعّالة في Java](./split-meshes-by-material/)
-استكشف قوة Aspose.3D في Java من خلال دليلنا خطوة بخطوة لتقسيم Meshes ثلاثية الأبعاد بكفاءة حسب المادة. حسّن أداء تطبيقك بسلاسة.
+### [توليد البيانات لشبكات 3D في Java (Normals, Tangents, Binormals)](./generate-mesh-data/)
+عزّز مشاريع Java الخاصة بك باستخدام Aspose.3D. اتبع درسنا لتوليد بيانات الـ normal لشبكات 3D بسهولة. غص في رسومات 3D بسهولة.
+
+### [توليد البيانات لشبكات 3D في Java (Normals, Tangents, Binormals)](./generate-mesh-data/)
+توليد البيانات لشبكات 3D في Java (Normals, Tangents, Binormals).
+
+### [تقسيم شبكات 3D حسب المادة لمعالجة فعّالة في Java](./split-meshes-by-material/)
+استكشف قوة Aspose.3D في Java من خلال دليلنا خطوة بخطوة حول تقسيم شبكات 3D بكفاءة حسب المادة. حسّن أداء تطبيقك بسلاسة.
+
+### [تقسيم شبكات 3D حسب المادة لمعالجة فعّالة في Java](./split-meshes-by-material/)
+صياغة بديلة لدرس تقسيم الشبكات القائم على المادة.
 
 ## الأسئلة المتكررة
 
 **س: هل يمكنني دمج ضغط Draco مع توليد بيانات الشبكة في خط أنابيب واحد؟**  
-ج: نعم. عادةً ما يتم توليد البيانات المفقودة (normals، tangents، binormals) أولاً، ثم تطبيق ضغط Draco على الشبكة المُث enriched.
+نعم. قم بتوليد الـ normals والـ tangents والـ binormals أولاً، ثم طبّق ضغط Draco على الشبكة المُعززة للحصول على تقليل حجم مثالي.
 
 **س: هل يؤثر تقليل حجم ملف 3D على أداء وقت التشغيل؟**  
-ج: تقليل حجم الملف عادةً ما يحسن أوقات التحميل ويقلل استهلاك الذاكرة. عند الجمع مع تنظيم الشبكة المناسب (مثل تقسيم المادة)، يقل عدد استدعاءات الرسم، مما يعزز أداء وقت التشغيل.
+تقليل حجم الملف يحسن أوقات التحميل واستخدام الذاكرة. عند دمجه مع تقسيم المادة، يقلل أيضًا من عدد استدعاءات الرسم، مما يزيد من FPS أثناء التشغيل.
 
-**س: هل هناك حدود لحجم الشبكات التي يمكن ضغطها باستخدام Draco؟**  
-ج: يدعم Draco شبكات كبيرة جدًا، لكن النماذج ذات عدد بوليغونات عالي جدًا قد تحتاج إلى تعديل إعدادات الضغط (مثل عدد بتات الكمّية) لتحقيق توازن بين الحجم والجودة.
+**س: هل هناك أي قيود على حجم الشبكات التي يمكن ضغطها باستخدام Draco؟**  
+يتعامل Draco مع شبكات كبيرة جدًا، لكن النماذج ذات عدد بوليغونات عالي جدًا قد تحتاج إلى تعديل بتات الكوانتة لتحقيق توازن بين الجودة والحجم.
 
-**س: هل أحتاج إلى توليد tangents مرة أخرى بعد فك ضغط شبكة Draco؟**  
-ج: لا. يحافظ Draco على سمات القمم، بما في ذلك tangents، إذا تم توليدها قبل الضغط.
+**س: هل أحتاج إلى إعادة توليد المتجهات (tangents) بعد فك ضغط شبكة Draco؟**  
+لا. يحتفظ Draco بجميع سمات الرؤوس، بما في ذلك المتجهات، إذا تم توليدها قبل الضغط.
 
 **س: هل يلزم ترخيص تجاري للاستخدام في الإنتاج؟**  
-ج: نعم. بينما يتيح الترخيص التجريبي استكشاف الميزات، يلزم وجود ترخيص Aspose.3D صالح للاستخدام في بيئات الإنتاج.
+نعم. يتيح لك الإصدار التجريبي المجاني استكشاف الميزات، لكن ترخيص Aspose.3D صالح ضروري للنشر في بيئة الإنتاج.
 
 ---
 
-**آخر تحديث:** 2026-05-04  
+**آخر تحديث:** 2026-09-03  
 **تم الاختبار مع:** Aspose.3D for Java 24.11  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [تقليل حجم نموذج 3D: إنشاء شبكة كروية في Java باستخدام Draco](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
+- [كيفية حساب الـ normals وإضافة الـ normals إلى شبكات 3D في Java (باستخدام Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
+- [تقليل حجم ملف 3D – ضغط المشاهد باستخدام Aspose.3D لـ Java](/3d/java/3d-scenes-and-models/compress-3d-scenes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

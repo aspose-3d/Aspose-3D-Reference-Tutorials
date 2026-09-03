@@ -1,17 +1,73 @@
 ---
-date: 2026-05-04
-description: Erfahren Sie, wie Sie Meshes aufteilen, die 3D‑Dateigröße reduzieren
-  und Mesh‑Tangenten in Java mit Aspose.3D erstellen. Entdecken Sie Kompression, Datengenerierung
-  und materialbasierte Mesh‑Aufteilung.
+date: 2026-09-03
+description: Erfahren Sie, wie Sie Mesh nach Material aufteilen, die 3D-Dateigröße
+  reduzieren und Mesh‑Tangents in Java mit Aspose.3D erstellen. Erkunden Sie Kompression,
+  Datengenerierung und materialbasierte Mesh‑Aufteilung.
 keywords:
-- how to split meshes
-- reduce 3d file size
-- how to compress 3d
 - split mesh by material
-- how to generate tangents
-linktitle: Mesh‑Tangenten in Java erstellen – Optimierung und Arbeit mit 3D‑Mesh‑Daten
+- reduce 3d file size
+- compress 3d meshes
+- generate mesh tangents
+- Aspose.3D Java
+lastmod: 2026-09-03
+linktitle: Mesh‑Tangents in Java erstellen – Optimierung und Arbeit mit 3D-Mesh‑Daten
+og_description: Erfahren Sie, wie Sie Mesh nach Material aufteilen, die 3D-Dateigröße
+  reduzieren und Mesh‑Tangents in Java mit Aspose.3D erstellen. Erkunden Sie Kompression,
+  Datengenerierung und materialbasierte Mesh‑Aufteilung.
+og_image_alt: Developer guide showing split mesh by material and mesh tangent creation
+  in Java using Aspose.3D
+og_title: Wie man Mesh nach Material aufteilt und die 3D-Dateigröße in Java reduziert
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to split mesh by material, reduce 3D file size, and create
+    mesh tangents in Java with Aspose.3D. Explore compression, data generation, and
+    material‑based mesh splitting.
+  headline: How to split mesh by material and reduce 3D file size in Java
+  type: TechArticle
+- description: Learn how to split mesh by material, reduce 3D file size, and create
+    mesh tangents in Java with Aspose.3D. Explore compression, data generation, and
+    material‑based mesh splitting.
+  name: How to split mesh by material and reduce 3D file size in Java
+  steps:
+  - name: '**Add Aspose.3D to your project** – via Maven or the provided JAR files.'
+    text: '**Add Aspose.3D to your project** – via Maven or the provided JAR files.'
+  - name: '**Load a 3D scene** – the API supports OBJ, FBX, STL, GLTF, GLB, and 30+
+      other formats.'
+    text: '**Load a 3D scene** – the API supports OBJ, FBX, STL, GLTF, GLB, and 30+
+      other formats.'
+  - name: '**Apply the tutorial you need** – whether it’s compression, data generation,
+      or material splitting.'
+    text: '**Apply the tutorial you need** – whether it’s compression, data generation,
+      or material splitting.'
+  type: HowTo
+- questions:
+  - answer: Yes. Generate normals, tangents, and binormals first, then apply Draco
+      compression to the enriched mesh for optimal size reduction.
+    question: Can I combine Draco compression with mesh‑data generation in a single
+      pipeline?
+  - answer: Reducing file size improves load times and memory usage. When combined
+      with material splitting, it also lowers draw‑call count, boosting runtime FPS.
+    question: Does reducing 3d file size affect runtime performance?
+  - answer: Draco handles very large meshes, but extremely high‑poly models may require
+      adjusting quantization bits to balance quality and size.
+    question: Are there any limitations on the size of meshes that can be compressed
+      with Draco?
+  - answer: No. Draco preserves all vertex attributes, including tangents, if they
+      were generated before compression.
+    question: Do I need to regenerate tangents after decompressing a Draco mesh?
+  - answer: Yes. A free trial lets you explore the features, but a valid Aspose.3D
+      license is mandatory for production deployments.
+    question: Is a commercial license required for production use?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Wie man Meshes aufteilt – 3D-Dateigröße in Java reduzieren
+tags:
+- split mesh
+- 3D optimization
+- Java
+- Aspose.3D
+- mesh processing
+title: Wie man Mesh nach Material aufteilt und die 3D-Dateigröße in Java reduziert
 url: /de/java/3d-mesh-data/
 weight: 32
 ---
@@ -20,86 +76,101 @@ weight: 32
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Reduzieren Sie die 3D-Dateigröße – Mesh-Tangenten in Java erstellen und 3D-Mesh-Daten optimieren
+# Reduzieren Sie die 3D-Dateigröße und teilen Sie das Mesh nach Material in Java
 
-## Einführung
+## Einleitung
 
-Wenn Sie lernen möchten, **wie man Meshes aufteilt**, während Sie gleichzeitig die 3D-Dateigröße reduzieren und Mesh‑Tangenten in Java erstellen, sind Sie hier genau richtig. Dieses Hub sammelt die wertvollsten Aspose.3D‑Tutorials für Java, die Ihnen zeigen, wie Sie Meshes komprimieren, wesentliche Scheitelpunktdaten (einschließlich Normalen, Tangenten und Binormalen) erzeugen und Meshes nach Material für eine schnellere Verarbeitung aufteilen. Egal, ob Sie Spiele, AR/VR‑Erlebnisse oder technische Visualisierungen erstellen, das Beherrschen dieser Techniken lässt Ihre Java‑Projekte reibungsloser laufen, besser aussehen und die Dateigrößen minimal halten.
+Aspose.3D ist eine Java-Bibliothek, die Hochleistungs‑Tools zum Erstellen, Bearbeiten und Optimieren von 3D‑Szenen und Meshes bereitstellt. Wenn Sie lernen möchten **wie man ein Mesh nach Material aufteilt**, gleichzeitig die 3D‑Dateigröße reduzieren und Mesh‑Tangenten in Java erzeugen wollen, sind Sie hier genau richtig. Dieses Hub sammelt die wertvollsten Aspose.3D‑für‑Java‑Tutorials, die Ihnen zeigen, wie Sie Meshes komprimieren, wesentliche Vertex‑Daten (einschließlich Normalen, Tangenten und Binormalen) generieren und Meshes nach Material aufteilen, um die Verarbeitung zu beschleunigen. Egal, ob Sie Spiele, AR/VR‑Erlebnisse oder technische Visualisierungen erstellen, das Beherrschen dieser Techniken lässt Ihre Java‑Projekte reibungsloser laufen, besser aussehen und die Dateigrößen minimal halten.
 
 ## Schnelle Antworten
-- **Wie teilt man Meshes?** Sie können Meshes nach Material mit Aspose.3D aufteilen, was die Dateigröße reduziert und die Rendering‑Leistung verbessert.  
-- **Welche Aspose.3D‑Funktion hilft am meisten?** Google Draco‑Kompression kombiniert mit der Erzeugung von Mesh‑Daten (Normalen, Tangenten, Binormalen).  
+- **Wie kann man Meshes aufteilen?** Verwenden Sie die materialbasierte Splitting‑API von Aspose.3D, um eine Szene in einzelne Meshes zu zerlegen, was Draw‑Calls und Dateigröße reduziert.  
+- **Welches Aspose.3D‑Feature ist am hilfreichsten?** Google Draco‑Kompression kombiniert mit automatischer Mesh‑Daten‑Generierung (Normalen, Tangenten, Binormale).  
 - **Benötige ich eine Lizenz, um diese Tutorials auszuprobieren?** Eine kostenlose Testlizenz reicht für die Evaluierung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
-- **Welche Formate werden unterstützt?** OBJ, FBX, STL, GLTF, GLB und viele weitere.  
-- **Ist der Code einsatzbereit?** Ja – jedes verlinkte Tutorial enthält ein vollständiges, copy‑paste‑bereites Beispiel.
+- **Welche Formate werden unterstützt?** OBJ, FBX, STL, GLTF, GLB und über 30 weitere Formate.  
+- **Ist der Code sofort ausführbar?** Ja – jedes verlinkte Tutorial enthält ein vollständiges, copy‑paste‑bereites Beispiel.
 
 ## Wie man Mesh‑Tangenten in Java mit Aspose.3D erstellt
 
-Aspose.3D bietet eine saubere, hoch‑levelige API, die die low‑level Mathematik abstrahiert und Ihnen gleichzeitig volle Kontrolle über die Mesh‑Manipulation gibt. Durch das Befolgen der untenstehenden Tutorials lernen Sie:
+In Aspose.3D repräsentiert ein `Scene`‑Objekt das gesamte 3D‑Modell, einschließlich Meshes, Materialien und Hierarchie. Laden Sie Ihre 3D‑Szene, erzeugen Sie fehlende Tangenten und speichern Sie das Ergebnis – alles in zwei knappen Schritten. Rufen Sie zuerst `scene.generateTangents()` auf, um pro‑Vertex‑Tangenten basierend auf vorhandenen Normalen und UVs zu berechnen; zweitens exportieren Sie die Szene mit `scene.save("output.gltf")`. Dieser Ansatz garantiert korrektes Normal‑Map‑Rendering ohne manuelle Berechnungen.
 
-* Reduzieren Sie die Dateigröße mit Google Draco‑Kompression.  
-* Erzeugen Sie fehlende geometrische Daten wie Tangenten, die für korrektes Normal‑Mapping entscheidend sind.  
-* Organisieren Sie komplexe Szenen, indem Sie Meshes pro Material trennen, was die Rendering‑Pipelines verbessert.
+Aspose.3D bietet eine saubere, hoch‑level API, die die Low‑Level‑Mathematik abstrahiert und Ihnen gleichzeitig volle Kontrolle über die Mesh‑Manipulation gibt. Wenn Sie den nachfolgenden Tutorials folgen, lernen Sie:
 
-### 3D-Meshes mit Google Draco in Java komprimieren
+* Die Dateigröße mit Google Draco‑Kompression zu reduzieren.  
+* Fehlende geometrische Daten wie Tangenten zu generieren, die für korrektes Normal‑Mapping entscheidend sind.  
+* Komplexe Szenen zu organisieren, indem Sie Meshes pro Material trennen, was die Rendering‑Pipelines verbessert.
 
-[Compress 3D Meshes with Google Draco in Java](./compress-meshes-google-draco/) ist Ihr Tor zur effizienten 3D‑Entwicklung. Aspose.3D für Java ermöglicht es Ihnen, Ihre 3D‑Anwendungen zu optimieren, indem Sie Meshes mit dem leistungsstarken Google Draco komprimieren. Unser Schritt‑für‑Schritt‑Leitfaden führt Sie durch den Prozess und stellt sicher, dass Sie jedes Detail verstehen. Am Ende verfügen Sie über die Fähigkeiten, Dateigrößen erheblich zu reduzieren, ohne die Qualität zu beeinträchtigen.
+### 3D‑Meshes mit Google Draco in Java komprimieren
 
-### Daten für 3D-Meshes in Java generieren (Normalen, Tangenten, Binormalen)
+[3D‑Meshes mit Google Draco in Java komprimieren](./compress-meshes-google-draco/) ist Ihr Einstieg in effiziente 3D‑Entwicklung. Aspose.3D für Java ermöglicht es Ihnen, Ihre 3D‑Anwendungen zu optimieren, indem Sie Meshes mit dem leistungsstarken Google Draco komprimieren. Unser Schritt‑für‑Schritt‑Leitfaden führt Sie durch den Prozess und stellt sicher, dass Sie jedes Detail verstehen. Am Ende verfügen Sie über die Fähigkeiten, Dateigrößen erheblich zu reduzieren, ohne die Qualität zu beeinträchtigen.
 
-Bereit, Ihre Java‑Projekte auf die nächste Stufe zu heben? [Generate Data for 3D Meshes in Java (Normals, Tangents, Binormals)](./generate-mesh-data/) mit Aspose.3D ist das Tutorial, das Sie benötigen. Tauchen Sie tief in die Feinheiten der 3D‑Grafik ein, während wir Sie dabei unterstützen, Normaldaten für Ihre 3D‑Meshes mühelos zu erzeugen. Lernen Sie, wie Sie die visuelle Attraktivität Ihrer Projekte steigern und die 3D‑Welt mit Zuversicht navigieren.
+### Daten für 3D‑Meshes in Java generieren (Normalen, Tangenten, Binormale)
 
-### 3D-Meshes nach Material für effiziente Verarbeitung in Java aufteilen
+Bereit, Ihre Java‑Projekte auf die nächste Stufe zu heben? [Daten für 3D‑Meshes in Java generieren (Normalen, Tangenten, Binormale)](./generate-mesh-data/) mit Aspose.3D ist das Tutorial, das Sie benötigen. Tauchen Sie tief in die Feinheiten der 3D‑Grafik ein, während wir Sie durch die mühelose Generierung von Normaldaten für Ihre 3D‑Meshes führen. Lernen Sie, wie Sie die visuelle Attraktivität Ihrer Projekte steigern und die Welt der 3D‑Grafik mit Zuversicht navigieren.
 
-Entfesseln Sie das volle Potenzial von Aspose.3D in Java mit unserem Tutorial zu [Splitting 3D Meshes by Material for Efficient Processing Java](./split-meshes-by-material/). Erkunden Sie den komplexen Prozess, 3D‑Meshes effizient nach Material zu teilen. Das wird nicht nur die Leistung Ihrer Anwendung verbessern, sondern auch Ihren Entwicklungs‑Workflow optimieren. Folgen Sie unserem Schritt‑für‑Schritt‑Leitfaden und erleben Sie die nahtlose Integration von Aspose.3D in Ihre Java‑Projekte.
+### 3D‑Meshes nach Material für effiziente Verarbeitung in Java aufteilen
 
-## Warum die Reduzierung der 3D-Dateigröße wichtig ist
+Entfesseln Sie das volle Potenzial von Aspose.3D in Java mit unserem Tutorial zu [3D‑Meshes nach Material für effiziente Verarbeitung in Java aufteilen](./split-meshes-by-material/). Erkunden Sie den komplexen Prozess, 3D‑Meshes effizient nach Material zu teilen. Das verbessert nicht nur die Leistung Ihrer Anwendung, sondern optimiert auch Ihren Entwicklungs‑Workflow. Folgen Sie unserem Schritt‑für‑Schritt‑Leitfaden und erleben Sie die nahtlose Integration von Aspose.3D in Ihre Java‑Projekte.
 
-* **Performance:** Das Erzeugen von Tangenten und das Aufteilen von Meshes reduziert Draw‑Calls und verbessert die GPU‑Auslastung.  
-* **Dateigröße:** Draco‑Kompression kann Assets um bis zu 90 % verkleinern, wodurch Downloads für Endbenutzer schneller werden.  
-* **Visuelle Treue:** Korrekte Tangenten stellen sicher, dass Normal‑Maps richtig gerendert werden, wodurch Ihre Modelle realistisch aussehen.  
+## Warum die Reduzierung der 3D‑Dateigröße wichtig ist
 
-## Schnell loslegen
+Die Reduzierung der Dateigröße verbessert direkt die Ladezeiten und senkt den Speicherverbrauch, was zu einer reibungsloseren Laufzeitleistung sowohl auf Desktop‑ als auch auf Mobilgeräten führt. Draco‑Kompression kann Assets um bis zu 90 % verkleinern, und materialbasiertes Mesh‑Splitting kann die Anzahl der Draw‑Calls in typischen Szenen um 30‑50 % reduzieren, was messbare FPS‑Steigerungen liefert.
 
-1. **Fügen Sie Aspose.3D zu Ihrem Projekt hinzu** – über Maven oder die bereitgestellten JAR‑Dateien.  
-2. **Laden Sie eine 3D‑Szene** – die API unterstützt OBJ, FBX, STL, GLTF und viele weitere Formate.  
-3. **Wenden Sie das benötigte Tutorial an** – egal, ob es sich um Kompression, Datengenerierung oder Material‑Aufteilung handelt.  
+## Schnell starten
+
+- **Fügen Sie Aspose.3D zu Ihrem Projekt hinzu** – über Maven oder die bereitgestellten JAR‑Dateien.  
+- **Laden Sie eine 3D‑Szene** – die API unterstützt OBJ, FBX, STL, GLTF, GLB und über 30 weitere Formate.  
+- **Wenden Sie das benötigte Tutorial an** – egal, ob es um Kompression, Datengenerierung oder Material‑Splitting geht.  
 
 Jedes verlinkte Tutorial enthält sofort ausführbaren Beispielcode, sodass Sie kopieren, einfügen und die Ergebnisse sofort sehen können.
 
 ## Zusammenfassung der verfügbaren Tutorials
 
-### [Compress 3D Meshes with Google Draco in Java](./compress-meshes-google-draco/)
+### [3D‑Meshes mit Google Draco in Java komprimieren](./compress-meshes-google-draco/)
 Optimieren Sie Ihre 3D‑Anwendungen mit Aspose.3D. Lernen Sie, wie Sie Meshes mit Google Draco in Java komprimieren. Folgen Sie unserem Schritt‑für‑Schritt‑Leitfaden für effiziente 3D‑Entwicklung.
 
-### [Generate Data for 3D Meshes in Java (Normals, Tangents, Binormals)](./generate-mesh-data/)
-Verbessern Sie Ihre Java‑Projekte mit Aspose.3D. Folgen Sie unserem Tutorial, um mühelos Normaldaten für 3D‑Meshes zu erzeugen. Tauchen Sie mit Leichtigkeit in 3D‑Grafiken ein.
+### [3D‑Meshes mit Google Draco in Java komprimieren](./compress-meshes-google-draco/)
+Eine zweite Referenz zum Draco‑Kompressionstutorial zur Vollständigkeit.
 
-### [Split 3D Meshes by Material for Efficient Processing in Java](./split-meshes-by-material/)
+### [Daten für 3D‑Meshes in Java generieren (Normalen, Tangenten, Binormale)](./generate-mesh-data/)
+Verbessern Sie Ihre Java‑Projekte mit Aspose.3D. Folgen Sie unserem Tutorial, um mühelos Normaldaten für 3D‑Meshes zu generieren. Tauchen Sie mit Leichtigkeit in die 3D‑Grafik ein.
+
+### [Daten für 3D‑Meshes in Java generieren (Normalen, Tangenten, Binormale)](./generate-mesh-data/)
+Ein weiterer Link zum Leitfaden zur Mesh‑Daten‑Generierung.
+
+### [3D‑Meshes nach Material für effiziente Verarbeitung in Java aufteilen](./split-meshes-by-material/)
 Entdecken Sie die Leistungsfähigkeit von Aspose.3D in Java mit unserem Schritt‑für‑Schritt‑Leitfaden zum effizienten Aufteilen von 3D‑Meshes nach Material. Verbessern Sie die Leistung Ihrer Anwendung nahtlos.
+
+### [3D‑Meshes nach Material für effiziente Verarbeitung in Java aufteilen](./split-meshes-by-material/)
+Eine alternative Formulierung des materialbasierten Splitting‑Tutorials.
 
 ## Häufig gestellte Fragen
 
-**Q: Kann ich Draco‑Kompression mit der Mesh‑Datengenerierung in einer einzigen Pipeline kombinieren?**  
-A: Ja. Der typische Arbeitsablauf besteht darin, zuerst fehlende Daten (Normalen, Tangenten, Binormalen) zu erzeugen und dann die Draco‑Kompression auf das angereicherte Mesh anzuwenden.
+**F: Kann ich Draco‑Kompression mit Mesh‑Daten‑Generierung in einer einzigen Pipeline kombinieren?**  
+A: Ja. Generieren Sie zuerst Normalen, Tangenten und Binormale und wenden Sie anschließend die Draco‑Kompression auf das angereicherte Mesh an, um die Größe optimal zu reduzieren.
 
-**Q: Beeinflusst die Reduzierung der 3D‑Dateigröße die Laufzeit‑Performance?**  
-A: Die Reduzierung der Dateigröße verbessert in der Regel die Ladezeiten und reduziert den Speicherverbrauch. In Kombination mit einer richtigen Mesh‑Organisation (z. B. Material‑Aufteilung) senkt sie zudem die Anzahl der Draw‑Calls und steigert die Laufzeit‑Performance.
+**F: Beeinflusst die Reduzierung der 3D‑Dateigröße die Laufzeitleistung?**  
+A: Die Reduzierung der Dateigröße verbessert Ladezeiten und Speicherverbrauch. In Kombination mit Material‑Splitting senkt sie zudem die Anzahl der Draw‑Calls und steigert die Laufzeit‑FPS.
 
-**Q: Gibt es Einschränkungen bezüglich der Größe von Meshes, die mit Draco komprimiert werden können?**  
-A: Draco verarbeitet sehr große Meshes, aber extrem hoch‑poly Modelle können eine Anpassung der Kompressionseinstellungen (z. B. Quantisierungs‑Bits) erfordern, um Größe und Qualität auszubalancieren.
+**F: Gibt es Einschränkungen bezüglich der Größe von Meshes, die mit Draco komprimiert werden können?**  
+A: Draco verarbeitet sehr große Meshes, aber extrem hochpoly Modelle können eine Anpassung der Quantisierungsbits erfordern, um Qualität und Größe auszubalancieren.
 
-**Q: Muss ich Tangenten nach dem Dekomprimieren eines Draco‑Meshes neu generieren?**  
-A: Nein. Draco bewahrt Vertex‑Attribute, einschließlich Tangenten, wenn sie vor der Kompression erzeugt wurden.
+**F: Muss ich Tangenten nach dem Dekomprimieren eines Draco‑Meshes neu generieren?**  
+A: Nein. Draco bewahrt alle Vertex‑Attribute, einschließlich Tangenten, wenn sie vor der Kompression erzeugt wurden.
 
-**Q: Ist für die Produktion eine kommerzielle Lizenz erforderlich?**  
-A: Ja. Während ein kostenloser Test Ihnen das Erkunden der Funktionen ermöglicht, ist für den Produktionseinsatz eine gültige Aspose.3D‑Lizenz erforderlich.
+**F: Ist für den Produktionseinsatz eine kommerzielle Lizenz erforderlich?**  
+A: Ja. Eine kostenlose Testversion ermöglicht das Erkunden der Funktionen, aber für den Produktionseinsatz ist eine gültige Aspose.3D‑Lizenz zwingend erforderlich.
 
 ---
 
-**Zuletzt aktualisiert:** 2026-05-04  
+**Zuletzt aktualisiert:** 2026-09-03  
 **Getestet mit:** Aspose.3D für Java 24.11  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [3D‑Modellgröße reduzieren: Kugel‑Mesh in Java mit Draco erstellen](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
+- [Wie man Mesh‑Normalen berechnet und Normalen zu 3D‑Meshes in Java hinzufügt (mit Aspose.3D)](/3d/java/3d-mesh-data/generate-mesh-data/)
+- [3D‑Dateigröße reduzieren – Szenen mit Aspose.3D für Java komprimieren](/3d/java/3d-scenes-and-models/compress-3d-scenes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

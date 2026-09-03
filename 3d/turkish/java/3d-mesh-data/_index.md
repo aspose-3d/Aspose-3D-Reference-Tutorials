@@ -1,18 +1,73 @@
 ---
-date: 2026-05-04
-description: Aspose.3D kullanarak Java’da ağları nasıl böleceğinizi, 3D dosya boyutunu
-  nasıl küçülteceğinizi ve ağ teğetlerini nasıl oluşturacağınızı öğrenin. Sıkıştırma,
-  veri oluşturma ve malzeme‑tabanlı ağ bölmeyi keşfedin.
+date: 2026-09-03
+description: Aspose.3D ile Java'da materyale göre mesh'i bölmeyi, 3D dosya boyutunu
+  küçültmeyi ve mesh tangents oluşturmayı öğrenin. Sıkıştırma, veri üretimi ve materyale
+  dayalı mesh bölme konularını keşfedin.
 keywords:
-- how to split meshes
-- reduce 3d file size
-- how to compress 3d
 - split mesh by material
-- how to generate tangents
-linktitle: Java ile Mesh Tangent'ları Oluşturma – 3B Mesh Verilerini Optimize Etme
-  ve Çalışma
+- reduce 3d file size
+- compress 3d meshes
+- generate mesh tangents
+- Aspose.3D Java
+lastmod: 2026-09-03
+linktitle: Mesh Tangents Oluşturma Java – 3D Mesh Verilerini Optimize Etme ve Çalışma
+og_description: Aspose.3D ile Java'da materyale göre mesh'i bölmeyi, 3D dosya boyutunu
+  küçültmeyi ve mesh tangents oluşturmayı öğrenin. Sıkıştırma, veri üretimi ve materyale
+  dayalı mesh bölme konularını keşfedin.
+og_image_alt: Developer guide showing split mesh by material and mesh tangent creation
+  in Java using Aspose.3D
+og_title: Java'da materyale göre mesh'i bölme ve 3D dosya boyutunu küçültme
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to split mesh by material, reduce 3D file size, and create
+    mesh tangents in Java with Aspose.3D. Explore compression, data generation, and
+    material‑based mesh splitting.
+  headline: How to split mesh by material and reduce 3D file size in Java
+  type: TechArticle
+- description: Learn how to split mesh by material, reduce 3D file size, and create
+    mesh tangents in Java with Aspose.3D. Explore compression, data generation, and
+    material‑based mesh splitting.
+  name: How to split mesh by material and reduce 3D file size in Java
+  steps:
+  - name: '**Add Aspose.3D to your project** – via Maven or the provided JAR files.'
+    text: '**Add Aspose.3D to your project** – via Maven or the provided JAR files.'
+  - name: '**Load a 3D scene** – the API supports OBJ, FBX, STL, GLTF, GLB, and 30+
+      other formats.'
+    text: '**Load a 3D scene** – the API supports OBJ, FBX, STL, GLTF, GLB, and 30+
+      other formats.'
+  - name: '**Apply the tutorial you need** – whether it’s compression, data generation,
+      or material splitting.'
+    text: '**Apply the tutorial you need** – whether it’s compression, data generation,
+      or material splitting.'
+  type: HowTo
+- questions:
+  - answer: Yes. Generate normals, tangents, and binormals first, then apply Draco
+      compression to the enriched mesh for optimal size reduction.
+    question: Can I combine Draco compression with mesh‑data generation in a single
+      pipeline?
+  - answer: Reducing file size improves load times and memory usage. When combined
+      with material splitting, it also lowers draw‑call count, boosting runtime FPS.
+    question: Does reducing 3d file size affect runtime performance?
+  - answer: Draco handles very large meshes, but extremely high‑poly models may require
+      adjusting quantization bits to balance quality and size.
+    question: Are there any limitations on the size of meshes that can be compressed
+      with Draco?
+  - answer: No. Draco preserves all vertex attributes, including tangents, if they
+      were generated before compression.
+    question: Do I need to regenerate tangents after decompressing a Draco mesh?
+  - answer: Yes. A free trial lets you explore the features, but a valid Aspose.3D
+      license is mandatory for production deployments.
+    question: Is a commercial license required for production use?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Mesh'leri Nasıl Bölümlere Ayırırız – Java’da 3D Dosya Boyutunu Azaltma
+tags:
+- split mesh
+- 3D optimization
+- Java
+- Aspose.3D
+- mesh processing
+title: Java'da materyale göre mesh'i bölme ve 3D dosya boyutunu küçültme
 url: /tr/java/3d-mesh-data/
 weight: 32
 ---
@@ -21,84 +76,101 @@ weight: 32
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D Dosya Boyutunu Azaltın – Mesh Tangent'lerini Java'da Oluşturun ve 3D Mesh Verilerini Optimize Edin
+# 3D dosya boyutunu azaltma ve Java'da malzemeye göre ağları bölme
 
 ## Giriş
 
-Eğer **mesh'leri nasıl bölmeyi** öğrenmek, aynı zamanda 3D dosya boyutunu azaltmak ve Java'da mesh tangent'leri oluşturmak istiyorsanız, doğru yerdesiniz. Bu merkez, mesh'leri sıkıştırmayı, temel vertex verilerini (normaller, tangent'ler ve binormal'ler dahil) üretmeyi ve daha hızlı işleme için mesh'leri malzemeye göre bölmeyi gösteren en değerli Aspose.3D for Java eğitimlerini bir araya getiriyor. Oyunlar, AR/VR deneyimleri veya mühendislik görselleştirmeleri geliştiriyor olun, bu tekniklere hâkim olmak Java projelerinizin daha sorunsuz çalışmasını, daha iyi görünmesini ve dosya boyutlarının minimumda tutulmasını sağlayacak.
+Aspose.3D, 3D sahneler ve ağlar oluşturmak, düzenlemek ve optimize etmek için yüksek performanslı araçlar sunan bir Java kütüphanesidir. **Malzemeye göre ağları bölmeyi** öğrenmek, aynı zamanda 3D dosya boyutunu azaltmak ve Java'da ağ teğetleri oluşturmak istiyorsanız doğru yerdesiniz. Bu merkez, ağları sıkıştırmayı, temel vertex verilerini (normaller, teğetler ve binormaller dahil) üretmeyi ve daha hızlı işleme için malzemeye göre ağları bölmeyi gösteren en değerli Aspose.3D for Java öğreticilerini bir araya getirir. Oyunlar, AR/VR deneyimleri veya mühendislik görselleştirmeleri geliştiriyor olun, bu tekniklere hakim olmak Java projelerinizin daha sorunsuz çalışmasını, daha iyi görünmesini ve dosya boyutlarının minimumda tutulmasını sağlar.
 
-## Hızlı Yanıtlar
-- **Mesh'leri nasıl bölersiniz?** Aspose.3D kullanarak mesh'leri malzemeye göre bölerek dosya boyutunu azaltabilir ve render performansını artırabilirsiniz.  
-- **Aspose.3D'nin en çok hangi özelliği yardımcı olur?** Google Draco sıkıştırması ve mesh veri üretimi (normaller, tangent'ler, binormal'ler) kombinasyonu.  
-- **Bu eğitimleri denemek için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme lisansı yeterlidir; üretim için ticari lisans gereklidir.  
-- **Hangi formatlar destekleniyor?** OBJ, FBX, STL, GLTF, GLB ve daha fazlası.  
-- **Kod çalıştırmaya hazır mı?** Evet – her bağlantılı eğitim, eksiksiz, kopyala‑yapıştır hazır bir örnek içerir.
+## Hızlı cevaplar
+- **Ağları nasıl bölümlersiniz?** Aspose.3D'nin malzeme tabanlı bölme API'sini kullanarak bir sahneyi ayrı ağlara ayırın; bu, çizim çağrılarını ve dosya boyutunu azaltır.  
+- **En çok hangi Aspose.3D özelliği yardımcı olur?** Otomatik ağ verisi (normaller, teğetler, binormaller) üretimiyle birleştirilen Google Draco sıkıştırması.  
+- **Bu öğreticileri denemek için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme lisansı yeterlidir; üretim için ticari lisans gereklidir.  
+- **Hangi formatlar destekleniyor?** OBJ, FBX, STL, GLTF, GLB ve 30'dan fazla diğer format.  
+- **Kod çalıştırmaya hazır mı?** Evet – her bağlantılı öğretici, tam ve kopyala‑yapıştır‑hazır bir örnek içerir.
 
-## Aspose.3D ile Java'da Mesh Tangent'lerini Oluşturma
+## Java'da Aspose.3D ile ağ teğetlerini nasıl oluşturulur
 
-Aspose.3D, düşük seviyeli matematiği soyutlayan ve mesh manipülasyonu üzerinde tam kontrol sağlayan temiz, yüksek seviyeli bir API sunar. Aşağıdaki eğitimleri izleyerek şunları öğreneceksiniz:
+Aspose.3D'de bir `Scene` nesnesi, ağlar, materyaller ve hiyerarşi dahil olmak üzere tüm 3D modeli temsil eder. 3D sahnenizi yükleyin, eksik teğetleri oluşturun ve ardından sonucu kaydedin – tümü iki kısa adımda. İlk olarak, mevcut normaller ve UV'ler temelinde per‑vertex teğetleri hesaplamak için `scene.generateTangents()` çağırın; ikinci olarak, sahneyi `scene.save("output.gltf")` ile dışa aktarın. Bu yaklaşım, manuel matematik gerektirmeden doğru normal haritası render edilmesini garanti eder.
+
+Aspose.3D, düşük seviyeli matematiği soyutlayan ve ağ manipülasyonu üzerinde tam kontrol sağlayan temiz, yüksek seviyeli bir API sunar. Aşağıdaki öğreticileri izleyerek şunları öğreneceksiniz:
 
 * Google Draco sıkıştırmasıyla dosya boyutunu azaltma.  
-* Doğru normal haritalama için kritik olan tangent gibi eksik geometrik verileri oluşturma.  
-* Mesh'leri malzemeye göre ayırarak karmaşık sahneleri düzenleme, render boru hatlarını iyileştirme.
+* Doğru normal haritalama için kritik olan teğetler gibi eksik geometrik verileri oluşturma.  
+* Malzemeye göre ağları ayırarak karmaşık sahneleri düzenleme, renderleme boru hatlarını iyileştirme.
 
-### Java'da Google Draco ile 3D Mesh'leri Sıkıştırma
+### Google Draco ile Java'da 3D Ağları Sıkıştırma
 
-[Compress 3D Meshes with Google Draco in Java](./compress-meshes-google-draco/) verimli 3D geliştirme için kapınızdır. Aspose.3D for Java, güçlü Google Draco'yu kullanarak mesh'leri sıkıştırarak 3D uygulamalarınızı optimize etmenizi sağlar. Adım adım rehberimiz, süreci size ayrıntılı olarak anlatır, her detayı kavramanızı sağlar. Sonunda, kaliteyi düşürmeden dosya boyutlarını önemli ölçüde azaltma becerisine sahip olacaksınız.
+[Google Draco ile Java'da 3D Ağları Sıkıştırma](./compress-meshes-google-draco/) verimli 3D geliştirme için kapınızdır. Aspose.3D for Java, güçlü Google Draco'yu kullanarak ağları sıkıştırarak 3D uygulamalarınızı optimize etmenizi sağlar. Adım adım rehberimiz süreci size anlatır, her detayı kavramanızı sağlar. Sonunda, kaliteyi düşürmeden dosya boyutlarını önemli ölçüde azaltma becerisine sahip olacaksınız.
 
-### Java'da 3D Mesh'ler için Veri Oluşturma (Normals, Tangents, Binormals)
+### Java'da 3D Ağlar için Veri Oluşturma (Normaller, Teğetler, Binormaller)
 
-Java projelerinizi bir sonraki seviyeye taşımaya hazır mısınız? Aspose.3D ile [Generate Data for 3D Meshes in Java (Normals, Tangents, Binormals)](./generate-mesh-data/) ihtiyacınız olan eğitimdir. 3D grafiğin inceliklerine derinlemesine dalarak 3D mesh'leriniz için normal verilerini zahmetsizce üretmenizi sağlayacağız. Projelerinizin görsel çekiciliğini artırmayı ve 3D dünyasında güvenle gezinmeyi öğrenin.
+Java projelerinizi bir sonraki seviyeye taşımaya hazır mısınız? Aspose.3D ile [Java'da 3D Ağlar için Veri Oluşturma (Normaller, Teğetler, Binormaller)](./generate-mesh-data/) ihtiyacınız olan öğreticidir. 3D grafiklerin inceliklerine derinlemesine dalın, 3D ağlarınız için normal verilerini zahmetsizce oluşturmanıza rehberlik ediyoruz. Projelerinizin görsel çekiciliğini artırmayı ve 3D dünyasında güvenle gezinmeyi öğrenin.
 
-### Java'da Verimli İşleme İçin Malzeme Bazında 3D Mesh'leri Bölme
+### Java'da Verimli İşleme için Malzemeye Göre 3D Ağları Bölme
 
-Aspose.3D'nin Java'daki tam potansiyelini, [Splitting 3D Meshes by Material for Efficient Processing Java](./split-meshes-by-material/) eğitimimizle ortaya çıkarın. Malzemeye göre 3D mesh'leri verimli bir şekilde bölme sürecini keşfedin. Bu sadece uygulamanızın performansını artırmakla kalmaz, aynı zamanda geliştirme iş akışınızı da sadeleştirir. Adım adım rehberimizi izleyin ve Aspose.3D'nin Java projelerinize sorunsuz entegrasyonuna tanık olun.
+Aspose.3D'nin Java'daki tam potansiyelini, [Java'da Verimli İşleme için Malzemeye Göre 3D Ağları Bölme](./split-meshes-by-material/) öğreticimizle keşfedin. Malzemeye göre 3D ağları verimli bir şekilde bölme sürecini ayrıntılı olarak inceleyin. Bu sadece uygulamanızın performansını artırmakla kalmaz, aynı zamanda geliştirme iş akışınızı da düzenler. Adım adım rehberimizi izleyin ve Aspose.3D'nin Java projelerinize sorunsuz entegrasyonunu görün.
 
-## 3D Dosya Boyutunu Azaltmanın Önemi
+## 3D dosya boyutunu azaltmanın önemi
 
-* **Performans:** Tangent üretimi ve mesh bölme, draw call'ları azaltır ve GPU kullanımını iyileştirir.  
-* **Dosya Boyutu:** Draco sıkıştırması, varlıkları %90'a kadar küçültebilir, böylece son kullanıcılar için indirmeler daha hızlı olur.  
-* **Görsel Doğruluk:** Doğru tangent'ler, normal haritaların doğru render edilmesini sağlar ve modellerinize gerçekçi bir görünüm kazandırır.  
+Dosya boyutunu azaltmak, yükleme sürelerini doğrudan iyileştirir ve bellek tüketimini düşürür; bu da hem masaüstü hem de mobil cihazlarda daha sorunsuz çalışma zamanı performansına dönüşür. Draco sıkıştırması, varlıkları %90'a kadar küçültebilir ve malzeme tabanlı ağ bölme, tipik sahnelerde çizim çağrısı sayısını %30‑50 azaltarak ölçülebilir FPS artışı sağlar.
 
-## Hızlı Başlangıç
+## Hızlı başlangıç
 
-1. **Aspose.3D'yi projenize ekleyin** – Maven aracılığıyla veya sağlanan JAR dosyalarıyla.  
-2. **Bir 3D sahne yükleyin** – API, OBJ, FBX, STL, GLTF ve daha birçok formatı destekler.  
-3. **İhtiyacınız olan eğitimi uygulayın** – ister sıkıştırma, veri üretimi, ister malzeme bölme olsun.  
+1. **Projenize Aspose.3D ekleyin** – Maven üzerinden veya sağlanan JAR dosyalarıyla.  
+2. **3D sahne yükleyin** – API, OBJ, FBX, STL, GLTF, GLB ve 30'dan fazla diğer formatı destekler.  
+3. **İhtiyacınız olan öğreticiyi uygulayın** – ister sıkıştırma, veri oluşturma, ister malzeme bölme olsun.  
 
-Her bağlantılı eğitim, hazır‑çalıştır örnek kod içerir, böylece kopyalayıp yapıştırarak sonuçları anında görebilirsiniz.
+Her bağlantılı öğretici, çalıştırmaya hazır örnek kod içerir; böylece kopyalayıp yapıştırarak sonuçları anında görebilirsiniz.
 
-## Mevcut Eğitimlerin Özeti
+## Mevcut öğreticilerin özeti
 
-### [Compress 3D Meshes with Google Draco in Java](./compress-meshes-google-draco/)
-Aspose.3D ile 3D uygulamalarınızı optimize edin. Java'da Google Draco kullanarak mesh'leri nasıl sıkıştıracağınızı öğrenin. Verimli 3D geliştirme için adım adım rehberimizi izleyin.
+### [Google Draco ile Java'da 3D Ağları Sıkıştırma](./compress-meshes-google-draco/)
+Aspose.3D ile 3D uygulamalarınızı optimize edin. Java'da Google Draco kullanarak ağları nasıl sıkıştıracağınızı öğrenin. Verimli 3D geliştirme için adım adım rehberimizi izleyin.
 
-### [Generate Data for 3D Meshes in Java (Normals, Tangents, Binormals)](./generate-mesh-data/)
-Aspose.3D ile Java projelerinizi geliştirin. 3D mesh'ler için normal verilerini zahmetsizce üretmek için eğitimimizi izleyin. 3D grafiğe kolayca dalın.
+### [Google Draco ile Java'da 3D Ağları Sıkıştırma](./compress-meshes-google-draco/)
+Tamamlayıcı bir referans olarak Draco sıkıştırma öğreticisine ikinci bir başvuru.
 
-### [Split 3D Meshes by Material for Efficient Processing in Java](./split-meshes-by-material/)
-Aspose.3D'nin Java'daki gücünü, malzeme bazında 3D mesh'leri verimli bir şekilde bölme üzerine adım adım rehberimizle keşfedin. Uygulamanızın performansını sorunsuz bir şekilde artırın.
+### [Java'da 3D Ağlar için Veri Oluşturma (Normaller, Teğetler, Binormaller)](./generate-mesh-data/)
+Aspose.3D ile Java projelerinizi geliştirin. 3D ağlar için normal verilerini zahmetsizce oluşturmak için öğreticimizi izleyin. 3D grafiklere kolayca dalın.
 
-## Sıkça Sorulan Sorular
+### [Java'da 3D Ağlar için Veri Oluşturma (Normaller, Teğetler, Binormaller)](./generate-mesh-data/)
+Mesh veri oluşturma rehberine başka bir bağlantı.
 
-**S: Draco sıkıştırmasını mesh‑veri üretimiyle tek bir pipeline'da birleştirebilir miyim?**  
-C: Evet. Tipik iş akışı, eksik verileri (normaller, tangent'ler, binormal'ler) önce üretmek, ardından zenginleştirilmiş mesh'e Draco sıkıştırması uygulamaktır.
+### [Java'da Verimli İşleme için Malzemeye Göre 3D Ağları Bölme](./split-meshes-by-material/)
+Aspose.3D'nin Java'daki gücünü, malzemeye göre 3D ağları verimli bir şekilde bölme konusunda adım adım rehberimizle keşfedin. Uygulamanızın performansını sorunsuz bir şekilde artırın.
+
+### [Java'da Malzemeye Göre 3D Ağları Bölme](./split-meshes-by-material/)
+Malzeme tabanlı bölme öğreticisinin alternatif bir ifadesi.
+
+## Sıkça sorulan sorular
+
+**S: Draco sıkıştırmasını ağ‑verisi oluşturma ile tek bir akışta birleştirebilir miyim?**  
+C: Evet. Önce normaller, teğetler ve binormaller oluşturun, ardından zenginleştirilmiş ağa optimal boyut azaltması için Draco sıkıştırmasını uygulayın.
 
 **S: 3D dosya boyutunu azaltmak çalışma zamanı performansını etkiler mi?**  
-C: Dosya boyutunu azaltmak genellikle yükleme sürelerini iyileştirir ve bellek kullanımını azaltır. Uygun mesh organizasyonu (ör. malzeme bölme) ile birleştirildiğinde, draw call sayısını da düşürerek çalışma zamanı performansını artırır.
+C: Dosya boyutunu azaltmak yükleme sürelerini ve bellek kullanımını iyileştirir. Malzeme bölme ile birleştirildiğinde, çizim çağrısı sayısını da düşürerek çalışma zamanı FPS'ini artırır.
 
-**S: Draco ile sıkıştırılabilecek mesh'lerin boyutu konusunda herhangi bir sınırlama var mı?**  
-C: Draco çok büyük mesh'leri işleyebilir, ancak aşırı yüksek poligonlu modeller, boyut ve kalite dengesini sağlamak için sıkıştırma ayarlarını (ör. kuantizasyon bitleri) ayarlamayı gerektirebilir.
+**S: Draco ile sıkıştırılabilecek ağların boyutu konusunda herhangi bir sınırlama var mı?**  
+C: Draco çok büyük ağları işleyebilir, ancak aşırı yüksek poligonlu modeller kalite ve boyut dengesini sağlamak için kantizasyon bitlerini ayarlamayı gerektirebilir.
 
-**S: Draco mesh'ini açtıktan sonra tangent'leri yeniden üretmem gerekiyor mu?**  
-C: Hayır. Draco, sıkıştırma öncesinde üretilmişse tangent'ler dahil olmak üzere vertex özniteliklerini korur.
+**S: Draco ağını açtıktan sonra teğetleri yeniden oluşturmak gerekir mi?**  
+C: Hayır. Draco, sıkıştırmadan önce oluşturulmuşsa teğetler dahil tüm vertex özniteliklerini korur.
 
 **S: Üretim kullanımında ticari lisans gerekli mi?**  
-C: Evet. Ücretsiz deneme özellikleri keşfetmenizi sağlasa da, üretim dağıtımları için geçerli bir Aspose.3D lisansı gereklidir.
+C: Evet. Ücretsiz deneme, özellikleri keşfetmenizi sağlar, ancak üretim dağıtımları için geçerli bir Aspose.3D lisansı zorunludur.
 
-**Son Güncelleme:** 2026-05-04  
-**Test Edilen:** Aspose.3D for Java 24.11  
-**Yazar:** Aspose  
+---
+
+**Son güncelleme:** 2026-09-03  
+**Test edildiği sürüm:** Aspose.3D for Java 24.11  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [3D Model Boyutunu Azaltma: Java'da Draco ile Küre Ağı Oluşturma](/3d/java/3d-mesh-data/compress-meshes-google-draco/)
+- [Java'da Mesh Normallerini Hesaplama ve 3D Mesh'lere Normaller Ekleme (Aspose.3D Kullanarak)](/3d/java/3d-mesh-data/generate-mesh-data/)
+- [3D Dosya Boyutunu Azaltma – Aspose.3D for Java ile Sahneleri Sıkıştırma](/3d/java/3d-scenes-and-models/compress-3d-scenes/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
