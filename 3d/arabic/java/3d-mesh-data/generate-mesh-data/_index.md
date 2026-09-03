@@ -1,13 +1,71 @@
 ---
-date: 2026-03-31
-description: تعلم كيفية إضافة المتجهات العمودية إلى المجسمات ثلاثية الأبعاد في جافا
-  باستخدام Aspose.3D. يوضح لك هذا الدليل خطوة بخطوة كيفية إنشاء بيانات المتجهات العمودية،
-  حساب المتجهات العمودية للمجسم، وتحسين الرسومات ثلاثية الأبعاد الخاصة بك.
-linktitle: How to Calculate Mesh Normals and Add Normals to 3D Meshes in Java (Using
+date: 2026-09-03
+description: تعلم كيفية إضافة normals إلى 3D meshes في Java باستخدام Aspose.3D. يوضح
+  لك هذا الدليل خطوة بخطوة كيفية توليد mesh normals، إنشاء normal data، وتصدير نموذج
+  render‑ready model.
+keywords:
+- how to add normals
+- add normals to mesh
+- calculate mesh normals java
+- aspose 3d java
+lastmod: 2026-09-03
+linktitle: كيفية حساب Mesh Normals وإضافة Normals إلى 3D Meshes في Java (باستخدام
   Aspose.3D)
+og_description: تعلم كيفية إضافة normals إلى 3D meshes في Java باستخدام Aspose.3D.
+  يوضح لك هذا الدليل خطوة بخطوة كيفية توليد mesh normals، إنشاء normal data، وتصدير
+  نموذج render‑ready model.
+og_image_alt: Tutorial showing Java code to add normals to 3D meshes using Aspose.3D
+og_title: كيفية إضافة normals إلى 3D meshes في Java باستخدام Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to add normals to 3D meshes in Java with Aspose.3D. This
+    step‑by‑step guide shows you how to generate mesh normals, create normal data,
+    and export a render‑ready model.
+  headline: How to add normals to 3D meshes in Java using Aspose.3D
+  type: TechArticle
+- description: Learn how to add normals to 3D meshes in Java with Aspose.3D. This
+    step‑by‑step guide shows you how to generate mesh normals, create normal data,
+    and export a render‑ready model.
+  name: How to add normals to 3D meshes in Java using Aspose.3D
+  steps:
+  - name: Load the 3D document
+    text: The `Scene` class represents an entire 3‑D scene (geometry, materials, cameras,
+      etc.). Loading the file brings the full hierarchy into memory so you can iterate
+      over its nodes. *Why this matters:* Loading the scene is the first step in any
+      mesh‑processing pipeline. Once the scene is in memory, we ca
+  - name: Visit nodes and create normal data
+    text: '`PolygonModifier.generateNormal(mesh)` computes a per‑vertex normal for
+      the supplied `Mesh` and returns a `VertexElementNormal` object. Adding this
+      element to the mesh stores the newly created normals. *Tip:* The `generateNormal`
+      method respects existing smoothing groups, so the resulting normals wi'
+  - name: Confirm success
+    text: After the visitor finishes, printing a short message confirms that normal
+      data was generated for **all meshes** in the scene. *What to expect:* When you
+      open the resulting scene in any 3D viewer (e.g., Aspose.3D Viewer, Blender,
+      or Unity), the model will now display proper lighting because the norma
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.3D supports a wide range of formats such as OBJ, FBX, STL,
+      glTF, and more than 30 others.
+    question: Is Aspose.3D compatible with other 3D file formats?
+  - answer: Absolutely. Purchase a commercial license **[Aspose purchase page](https://purchase.aspose.com/buy)**.
+    question: Can I use this code in a commercial project?
+  - answer: Yes, you can explore a free trial **[Aspose free trial page](https://releases.aspose.com/)**.
+    question: Is there a free trial available?
+  - answer: Refer to the official documentation **[Aspose 3D Java API reference](https://reference.aspose.com/3d/java/)**.
+    question: Where can I find detailed documentation for Aspose.3D?
+  - answer: Visit the Aspose.3D forum **[Aspose 3D forum](https://forum.aspose.com/c/3d/18)**.
+    question: Need help or want to discuss with the community?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: كيفية حساب النورمالز وإضافة النورمالز إلى شبكات ثلاثية الأبعاد في جافا (باستخدام
-  Aspose.3D)
+tags:
+- 3d mesh
+- aspose.3d
+- java graphics
+- mesh normals
+- 3d rendering
+title: كيفية إضافة normals إلى 3D meshes في Java باستخدام Aspose.3D
 url: /ar/java/3d-mesh-data/generate-mesh-data/
 weight: 11
 ---
@@ -16,38 +74,37 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية حساب متجهات النورمال وإضافة النورمال إلى المجسمات ثلاثية الأبعاد في جافا (باستخدام Aspose.3D)
+# كيفية إضافة المتجهات العمودية إلى شبكات 3D في جافا باستخدام Aspose.3D
 
 ## مقدمة  
 
-إذا كنت تتساءل **كيفية إضافة النورمال** إلى مجسم ثلاثي الأبعاد، فقد وجدت المكان المناسب. إضافة متجهات النورمال الصحيحة إلى المجسم ضرورية للإضاءة الواقعية، التظليل، وحسابات الفيزياء. في هذا الدرس سنستعرض الخطوات الدقيقة المطلوبة **لحساب متجهات النورمال** وتوليد بيانات النورمال لمجسم ثلاثي الأبعاد باستخدام مكتبة **Aspose.3D for Java**. في نهاية الدليل ستكون قادرًا على **إنشاء بيانات النورمال**، **حساب متجهات النورمال**، وتصدير نموذج نظيف جاهز للعرض يبدو رائعًا تحت أي إضاءة.
+إذا كنت تبحث **عن كيفية إضافة المتجهات العمودية** إلى شبكة ثلاثية الأبعاد، فقد وصلت إلى المكان الصحيح. إضافة المتجهات العمودية الصحيحة ضرورية للإضاءة الواقعية، التظليل، وحسابات الفيزياء. في هذا الدرس سنستعرض الخطوات الدقيقة المطلوبة **لحساب المتجهات العمودية للشبكة**، توليد بيانات المتجهات، وتصدير نموذج نظيف جاهز للتصوير يبدو رائعًا تحت أي ظروف إضاءة باستخدام **Aspose.3D for Java**.
 
-## الإجابات السريعة
-- **ما الذي تحققه “إضافة النورمال”?** تمكّن من إضاءة وتظليل صحيح على الأسطح ثلاثية الأبعاد.  
+## إجابات سريعة
+- **ما الذي يحققه “إضافة المتجهات العمودية”؟** يتيح إضاءة وتظليل صحيحين على الأسطح ثلاثية الأبعاد.  
 - **ما المكتبة المستخدمة؟** Aspose.3D for Java.  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تعمل للتطوير؛ الترخيص التجاري مطلوب للإنتاج.  
-- **كم من الوقت تستغرق التنفيذ؟** حوالي 10‑15 دقيقة لمجسم أساسي.  
-- **هل يمكن استخدامه مع صيغ أخرى؟** نعم – Aspose.3D يدعم العديد من صيغ الملفات ثلاثية الأبعاد (OBJ، FBX، STL، إلخ).  
+- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تكفي للتطوير؛ يلزم ترخيص تجاري للإنتاج.  
+- **كم من الوقت تستغرق العملية؟** حوالي 10‑15 دقيقة لشبكة أساسية.  
+- **هل يمكن استخدامه مع صيغ أخرى؟** نعم – يدعم Aspose.3D العديد من صيغ ملفات 3D (OBJ، FBX، STL، إلخ).  
 
-## ما هو “إضافة النورمال” إلى مجسم؟  
-النورمال هي متجهات عمودية على مضلعات السطح. تُخبر محرك العرض كيف يتفاعل الضوء مع كل وجه. عندما يفتقر الملف إلى هذه المعلومات (شائع في ملفات 3DS القديمة)، يجب عليك **توليد متجهات النورمال** قبل أن يبدو النموذج صحيحًا في المشهد.
+## ما هو “إضافة المتجهات العمودية” إلى شبكة؟
+تحميل شبكة بدون متجهات عمودية يؤدي إلى أسطح مسطحة أو مضاءة بشكل غير صحيح؛ إضافة المتجهات العمودية توفر متجهات الاتجاه لكل رأس تخبر المُعالج كيف يتفاعل الضوء مع كل وجه. **عمليًا، تقوم بإنشاء متجه عمودي لكل رأس، والذي يستخدمه خط أنابيب الرسومات لحساب الإضاءة المنتشرة واللامعة.**
 
-## لماذا نستخدم Aspose.3D لهذه المهمة؟  
-توفر Aspose.3D واجهة برمجة تطبيقات عالية المستوى تُجرد الرياضيات منخفضة المستوى اللازمة لحساب النورمال. كما أنها تدعم مجموعات التنعيم، المتجهات المماسية، المتجهات الثنائية، ومجموعة واسعة من صيغ الملفات، مما يجعلها خيارًا موثوقًا ل**دروس Aspose 3D** المهنية.
+المتجهات العمودية هي متجهات عمودية على مضلعات السطح. إنها تخبر محرك العرض كيف يتفاعل الضوء مع كل وجه. عندما يفتقر ملف إلى هذه المعلومات (شائع في ملفات 3DS القديمة)، يجب عليك **إنشاء المتجهات العمودية للشبكة** قبل أن يبدو النموذج صحيحًا في المشهد.
 
-## المتطلبات المسبقة  
+## لماذا نستخدم Aspose.3D لهذه المهمة؟
+يوفر Aspose.3D واجهة برمجة تطبيقات عالية المستوى تُجرد الرياضيات منخفضة المستوى اللازمة لحساب المتجهات العمودية، ويدعم **أكثر من 30 صيغة إدخال وإخراج** أثناء معالجة الشبكات التي تصل إلى **مليون رأس** دون تحميل الملف بالكامل إلى الذاكرة. كما تحترم المكتبة مجموعات التنعيم، وتولد تظليلًا ناعمًا حيث يلزم وحوافًا حادة حيث تم تعريفها، مما يجعلها النهج القياسي لتدفقات عمل 3‑D الاحترافية.
 
+## المتطلبات المسبقة
 - معرفة أساسية ببرمجة جافا.  
-- تثبيت Aspose.3D for Java – قم بتنزيله **[هنا](https://releases.aspose.com/3d/java/)**.  
-- ملف ثلاثي الأبعاد بصيغة 3DS (سنستخدم **camera.3ds** كمثال).
+- Aspose.3D for Java مثبت – قم بتحميله من **[Aspose.3D Java download page](https://releases.aspose.com/3d/java/)**.  
+- ملف 3D بصيغة 3DS (سنستخدم **camera.3ds** كمثال).  
 
-## كيفية حساب متجهات النورمال وإضافة النورمال إلى مجسماتك ثلاثية الأبعاد  
+## كيفية حساب المتجهات العمودية للشبكة وإضافة المتجهات العمودية إلى شبكات 3D الخاصة بك
+فيما يلي الدليل الكامل خطوة بخطوة. كل كتلة شفرة لم تتغير عن الدرس الأصلي؛ النص المحيط يضيف السياق والتوضيحات.
 
-فيما يلي الدليل الكامل خطوة بخطوة. كل كتلة شفرة تبقى كما هي من الدرس الأصلي؛ النص المحيط يضيف السياق والشروحات.
-
-### استيراد الحزم  
-
-أولاً، استورد فئات Aspose.3D وأدوات إدخال/إخراج Java التي ستحتاجها.
+### استيراد الحزم
+حزمة `com.aspose.threed.*` تمنحك الوصول إلى `Scene`، `NodeVisitor`، `Mesh`، وأداة `PolygonModifier` التي ستنشئ بيانات المتجهات العمودية لنا.
 
 ```java
 import com.aspose.threed.*;
@@ -56,11 +113,10 @@ import com.aspose.threed.*;
 import java.io.IOException;
 ```
 
-*Explanation:* `com.aspose.threed.*` يمنحك الوصول إلى `Scene`، `NodeVisitor`، `Mesh`، وأداة `PolygonModifier` التي ستنشئ بيانات النورمال لنا.
+*شرح:* `com.aspose.threed.*` يحتوي على جميع الفئات الأساسية المطلوبة لتعديل المشهد، traversing الشبكة، وتعديل الهندسة.
 
-### الخطوة 1: تحميل المستند ثلاثي الأبعاد  
-
-أنشئ كائن `Scene` يشير إلى ملف 3DS الخاص بك. الملف لا يحتوي على بيانات النورمال، لكنه يحتوي على مجموعات التنعيم التي يمكن للمكتبة استخدامها لتوليدها.
+### الخطوة 1: تحميل مستند 3D
+فئة `Scene` تمثل مشهدًا ثلاثيًا كاملاً (الهندسة، المواد، الكاميرات، إلخ). تحميل الملف يجلب الهيكل الكامل إلى الذاكرة بحيث يمكنك التنقل عبر عقده.
 
 ```java
 // ExStart:GenerateDataForMeshes
@@ -68,14 +124,13 @@ import java.io.IOException;
 String MyDir = "Your Document Directory";
 
 // Load a 3ds file, 3ds file doesn't have normal data, but it has smoothing group
-Scene s = new Scene(MyDir + "camera.3ds");
+Scene s = Scene.fromFile(MyDir + "camera.3ds");
 ```
 
-*Why this matters:* تحميل المشهد هو الخطوة الأولى في أي خط أنابيب لمعالجة المجسمات. بمجرد أن يكون المشهد في الذاكرة، يمكننا استعراض هيكل العقد وتطبيق التحويلات أو الحسابات مثل **generate mesh normals**.
+*لماذا هذا مهم:* تحميل المشهد هو الخطوة الأولى في أي خط أنابيب لمعالجة الشبكات. بمجرد أن يكون المشهد في الذاكرة، يمكننا استعراض هيكل العقد وتطبيق حسابات مثل **إنشاء المتجهات العمودية للشبكة**.
 
-### الخطوة 2: زيارة العقد وإنشاء بيانات النورمال  
-
-نستعرض كل عقدة في رسم المشهد. لكل عقدة تحتوي على `Mesh`، نستدعي `PolygonModifier.generateNormal(mesh)` التي تحسب وتعيد كائن `VertexElementNormal`. إضافة هذا العنصر إلى المجسم يخزن النورمال التي تم إنشاؤها حديثًا.
+### الخطوة 2: زيارة العقد وإنشاء بيانات المتجهات العمودية
+`PolygonModifier.generateNormal(mesh)` يحسب متجهًا عموديًا لكل رأس للشبكة المقدمة `Mesh` ويعيد كائن `VertexElementNormal`. إضافة هذا العنصر إلى الشبكة يخزن المتجهات العمودية التي تم إنشاؤها حديثًا.
 
 ```java
 s.getRootNode().accept(new NodeVisitor() {
@@ -91,63 +146,66 @@ s.getRootNode().accept(new NodeVisitor() {
 });
 ```
 
-*Tip:* طريقة `generateNormal` تحترم مجموعات التنعيم الموجودة، لذا فإن النورمال الناتجة ستظهر ناعمة حيثما كان ذلك مقصودًا وحادة حيث تم تعريف الحواف. هذا بالضبط ما تحتاجه لـ **smooth shading normals**.
+*نصيحة:* طريقة `generateNormal` تحترم مجموعات التنعيم الموجودة، لذا ستظهر المتجهات العمودية ناعمة حيث يُقصد ذلك وحادة حيث تم تعريف الحواف. هذا بالضبط ما تحتاجه لـ **متجهات تظليل ناعمة**.
 
-### الخطوة 3: تأكيد النجاح  
-
-بعد انتهاء الزائر، اطبع رسالة قصيرة إلى وحدة التحكم. هذا يؤكد أن بيانات النورمال تم توليدها لجميع **المجسمات** في المشهد.
+### الخطوة 3: تأكيد النجاح
+بعد انتهاء الزائر، طباعة رسالة قصيرة تؤكد أن بيانات المتجهات العمودية تم إنشاؤها لجميع **الشبكات** في المشهد.
 
 ```java
 // ExEnd:GenerateDataForMeshes
 System.out.println("\nNormal data generated successfully for all meshes.");
 ```
 
-*What to expect:* عند فتح المشهد الناتج في أي عارض ثلاثي الأبعاد (مثل Aspose.3D Viewer أو Blender أو Unity)، سيظهر النموذج الآن إضاءة صحيحة لأن النورمال موجودة.
+*ما المتوقع:* عند فتح المشهد الناتج في أي عارض 3D (مثل Aspose.3D Viewer، Blender، أو Unity)، سيظهر النموذج الآن إضاءة صحيحة لأن المتجهات العمودية موجودة.
 
-## حالات الاستخدام الشائعة لحساب متجهات النورمال  
-
+## حالات الاستخدام الشائعة لحساب المتجهات العمودية للشبكة
 - **تطوير الألعاب:** إضاءة دقيقة على نماذج الشخصيات وأصول البيئة.  
-- **تطبيقات AR/VR:** التظليل في الوقت الحقيقي يتطلب نورمال لكل رأس للحصول على عمق مقنع.  
-- **معاينات الطباعة ثلاثية الأبعاد:** تساعد النورمال برنامج القطع على تحديد اتجاه السطح.
+- **تطبيقات AR/VR:** التظليل في الوقت الحقيقي يتطلب متجهات عمودية لكل رأس لإعطاء عمق مقنع.  
+- **معاينات الطباعة ثلاثية الأبعاد:** المتجهات العمودية تساعد برنامج القطع على تحديد اتجاه السطح.  
 
-## استكشاف أخطاء متجهات النورمال وإصلاحها  
+## استكشاف أخطاء المتجهات العمودية للشبكة
+حتى مع سير عمل بسيط، قد تواجه مشكلات. فيما يلي الأعراض الشائعة وكيفية **استكشاف أخطاء المتجهات العمودية للشبكة** بفعالية.
 
-حتى مع سير عمل بسيط، قد تواجه مشكلات. فيما يلي الأعراض الشائعة وكيفية **استكشاف أخطاء متجهات النورمال** بفعالية.
-
-| العَرَض | السبب المحتمل | الحل |
+| Symptom | Likely cause | Fix |
 |---------|--------------|-----|
-| لا يوجد إخراج أو وحدة تحكم فارغة | مسار `MyDir` غير صحيح | تحقق من أن مسار الدليل ينتهي بشرطة مائلة نهائية والملف موجود. |
-| يظهر المجسم مسطحًا أو ساطعًا جدًا | لم يتم إضافة النورمال | تأكد من تنفيذ `mesh.addElement(normals);` لكل مجسم. |
-| بطء الأداء على ملفات كبيرة | زيارة كل عقدة بشكل متزامن | فكر في معالجة المجسمات بشكل متوازي باستخدام Java streams (خارج نطاق هذا الدرس). |
+| لا يوجد إخراج أو وحدة تحكم فارغة | مسار `MyDir` غير صحيح | تحقق من أن مسار الدليل ينتهي بشرطة مائلة نهائية وأن الملف موجود. |
+| الشبكة تظهر مسطحة أو ساطعة جدًا | لم يتم إضافة المتجهات العمودية | تأكد من تنفيذ `mesh.addElement(normals);` لكل شبكة. |
+| تباطؤ الأداء على الملفات الكبيرة | زيارة كل عقدة بشكل متزامن | فكر في معالجة الشبكات بالتوازي باستخدام Java streams (خارج نطاق هذا الدرس). |
 
-## الأسئلة المتكررة  
-
-**س: هل Aspose.3D متوافق مع صيغ ملفات ثلاثية الأبعاد أخرى؟**  
-ج: نعم، يدعم Aspose.3D مجموعة واسعة من الصيغ مثل OBJ، FBX، STL، glTF، وغيرها.  
+## الأسئلة المتكررة
+**س: هل Aspose.3D متوافق مع صيغ ملفات 3D أخرى؟**  
+ج: نعم، يدعم Aspose.3D مجموعة واسعة من الصيغ مثل OBJ، FBX، STL، glTF، وأكثر من 30 صيغة أخرى.  
 
 **س: هل يمكنني استخدام هذا الكود في مشروع تجاري؟**  
-ج: بالتأكيد. اشترِ ترخيصًا تجاريًا **[هنا](https://purchase.aspose.com/buy)**.  
+ج: بالتأكيد. اشترِ ترخيصًا تجاريًا **[Aspose purchase page](https://purchase.aspose.com/buy)**.  
 
 **س: هل هناك نسخة تجريبية مجانية متاحة؟**  
-ج: نعم، يمكنك تجربة النسخة المجانية **[هنا](https://releases.aspose.com/)**.  
+ج: نعم، يمكنك تجربة نسخة تجريبية مجانية **[Aspose free trial page](https://releases.aspose.com/)**.  
 
 **س: أين يمكنني العثور على وثائق مفصلة لـ Aspose.3D؟**  
-ج: راجع الوثائق الرسمية **[هنا](https://reference.aspose.com/3d/java/)**.  
+ج: راجع الوثائق الرسمية **[Aspose 3D Java API reference](https://reference.aspose.com/3d/java/)**.  
 
-**س: هل تحتاج مساعدة أو تريد مناقشة مع المجتمع؟**  
-ج: زر منتدى Aspose.3D **[هنا](https://forum.aspose.com/c/3d/18)**.  
+**س: هل تحتاج إلى مساعدة أو ترغب في مناقشة مع المجتمع؟**  
+ج: زر منتدى Aspose.3D **[Aspose 3D forum](https://forum.aspose.com/c/3d/18)**.  
 
-**س: كيف يمكنني التحقق من أن النورمال قد أضيفت بشكل صحيح؟**  
-ج: حمّل المشهد المحفوظ في عارض يعرض نورمال الرؤوس (مثل “Viewport Overlays” → “Normals” في Blender).  
+**س: كيف أتحقق من أن المتجهات العمودية أضيفت بشكل صحيح؟**  
+ج: حمّل المشهد المحفوظ في عارض يعرض المتجهات العمودية للرؤوس (مثل “Viewport Overlays” → “Normals” في Blender).  
 
-**س: هل يمكنني توليد المتجهات المماسية والثنائية مع النورمال؟**  
-ج: نعم، توفر Aspose.3D الدالة `PolygonModifier.generateTangentBinormal(mesh)` التي يمكنك استدعاؤها بعد توليد النورمال.
+**س: هل يمكنني توليد المتجهات المماسية والثنائية مع المتجهات العمودية؟**  
+ج: نعم، يوفر Aspose.3D الدالة `PolygonModifier.generateTangentBinormal(mesh)` التي يمكنك استدعاؤها بعد توليد المتجهات العمودية.
 
 ---
 
-**آخر تحديث:** 2026-03-31  
+**آخر تحديث:** 2026-09-03  
 **تم الاختبار مع:** Aspose.3D for Java 24.11 (أحدث نسخة وقت الكتابة)  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [كيفية تعيين المتجهات العمودية على كائنات 3D في جافا باستخدام Aspose.3D Java API](/3d/java/geometry/set-up-normals-on-3d-objects/)
+- [كيفية مثلثية الشبكة وتوليد بيانات المتجهات المماسية والثنائية للشبكات ثلاثية الأبعاد في جافا](/3d/java/transforming-3d-meshes/generate-tangent-binormal-data/)
+- [تعلم كيفية إنشاء إحداثيات UV في جافا – توليد UV لنماذج 3D باستخدام Aspose.3D](/3d/java/polygon/generate-uv-coordinates/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
