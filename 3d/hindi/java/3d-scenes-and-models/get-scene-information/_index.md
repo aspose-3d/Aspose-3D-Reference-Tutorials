@@ -1,15 +1,73 @@
 ---
-date: 2026-05-04
-description: Aspose.3D for Java का उपयोग करके सीन को FBX में निर्यात करना और एप्लिकेशन
-  नाम java सेट करना सीखें। यह चरण‑दर‑चरण गाइड यह भी दिखाता है कि माप इकाइयों को कैसे
-  परिभाषित करें और 3D सीन की जानकारी कैसे प्राप्त करें।
+date: 2026-09-08
+description: Aspose.3D का उपयोग करके Java में यूनिट्स को परिभाषित करने और सीन को FBX
+  में निर्यात करने का तरीका सीखें। यह चरण‑दर‑चरण गाइड application name सेट करने, measurement
+  units, और 3D सीन जानकारी प्राप्त करने को दर्शाता है।
 keywords:
+- how to define units
 - export scene to fbx
-- set application name java
-- aspose 3d java
-linktitle: जावा में FBX को कैसे सहेजें और 3D सीन जानकारी प्राप्त करें
+- how to set application name
+- define measurement units
+lastmod: 2026-09-08
+linktitle: Java में FBX को सहेजने और 3D सीन जानकारी प्राप्त करने का तरीका
+og_description: Aspose.3D के साथ Java में यूनिट्स को परिभाषित करने और सीन को FBX में
+  निर्यात करने का तरीका सीखें। गाइड में application name सेट करना, measurement units,
+  और कुछ चरणों में 3D सीन जानकारी प्राप्त करना शामिल है।
+og_image_alt: Guide showing how to define units and export a 3D scene to FBX using
+  Aspose.3D Java
+og_title: Java में यूनिट्स को परिभाषित करने और सीन को FBX में निर्यात करने का तरीका
+schemas:
+- author: Aspose
+  dateModified: '2026-09-08'
+  description: Learn how to define units and export a scene to FBX in Java using Aspose.3D.
+    This step‑by‑step guide shows setting the application name, measurement units,
+    and retrieving 3D scene information.
+  headline: How to define units and export scene to FBX in Java
+  type: TechArticle
+- description: Learn how to define units and export a scene to FBX in Java using Aspose.3D.
+    This step‑by‑step guide shows setting the application name, measurement units,
+    and retrieving 3D scene information.
+  name: How to define units and export scene to FBX in Java
+  steps:
+  - name: initialize a 3D scene
+    text: The `Scene` class is Aspose.3D's top‑level container that represents an
+      entire 3D scene, including geometry, lights, cameras, and metadata. First, create
+      an empty `Scene` object. This will be the container for all geometry, lights,
+      cameras, and asset metadata.
+  - name: define measurement units
+    text: The unit system determines the real‑world scale of the scene; Aspose.3D
+      lets you specify a unit name and a scale factor relative to meters. In this
+      example we use an ancient Egyptian unit called “pole” with a custom scale factor.
+      > **Tip:** Adjust `unitScaleFactor` to match the real‑world size of yo
+  - name: export scene to FBX
+    text: Now that the asset information is attached, we save the scene as an FBX
+      file. The `FileFormat.FBX7500ASCII` option produces a human‑readable ASCII FBX,
+      which is handy for debugging. > **Remember:** Replace `"Your Document Directory"`
+      with an absolute path or a path relative to your project's working
+  type: HowTo
+- questions:
+  - answer: Replace `FileFormat.FBX7500ASCII` with `FileFormat.FBX7500` when calling
+      `scene.save(...)`.
+    question: How do I change the output format to binary FBX?
+  - answer: Yes, use `scene.getUserData().add("Key", "Value")` to embed additional
+      key‑value pairs.
+    question: Can I add custom user‑defined metadata beyond the built‑in asset fields?
+  - answer: It does. Simply change the `FileFormat` enum to `OBJ` or `GLTF2` as needed.
+    question: Does Aspose.3D support other export formats like OBJ or GLTF?
+  - answer: Aspose.3D for Java supports Java 8 and later.
+    question: What version of Java is required?
+  - answer: Absolutely. Load the file with `new Scene("input.fbx")`, modify `scene.getAssetInfo()`,
+      then save.
+    question: Is it possible to load an existing FBX, modify its asset info, and resave?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: सीन को FBX में निर्यात कैसे करें और जावा में 3D सीन जानकारी प्राप्त करें
+tags:
+- export scene to fbx
+- Aspose.3D
+- Java 3D
+- define units
+- 3D asset metadata
+title: Java में यूनिट्स को परिभाषित करने और सीन को FBX में निर्यात करने का तरीका
 url: /hi/java/3d-scenes-and-models/get-scene-information/
 weight: 12
 ---
@@ -18,72 +76,73 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java में सीन को FBX में निर्यात करने और 3D सीन जानकारी प्राप्त करने का तरीका
+# जावा में यूनिट्स को परिभाषित करने और सीन को FBX में निर्यात करने का तरीका
 
 ## परिचय
 
-यदि आप **सीन को FBX में निर्यात करने** के साथ-साथ अपने 3D सीन से उपयोगी मेटाडेटा निकालने के लिए एक स्पष्ट, व्यावहारिक गाइड की तलाश में हैं, तो आप सही जगह पर आए हैं। इस ट्यूटोरियल में हम **Aspose.3D Java** लाइब्रेरी का उपयोग करके हर चरण को विस्तार से देखेंगे: सीन बनाना, **एप्लिकेशन नाम सेट करना**, **मापन इकाइयों को परिभाषित करना**, और अंत में **सीन को FBX में निर्यात करना**। अंत तक आपके पास एक तैयार‑to‑use FBX फ़ाइल होगी जिसमें वह एसेट जानकारी होगी जिसकी आपको डाउनस्ट्रीम पाइपलाइन के लिए आवश्यकता है।
+यदि आप अपने 3D सीन से उपयोगी मेटाडेटा निकालते हुए **यूनिट्स को परिभाषित करने** और **सीन को FBX में निर्यात करने** के लिए एक स्पष्ट, व्यावहारिक मार्गदर्शिका की तलाश में हैं, तो आप सही जगह पर आए हैं। इस ट्यूटोरियल में हम **Aspose.3D for Java** लाइब्रेरी का उपयोग करके हर चरण को विस्तार से देखेंगे: सीन बनाना, **एप्लिकेशन नाम सेट करना**, **मापन इकाइयों को परिभाषित करना**, और अंत में **सीन को FBX में निर्यात करना**। अंत तक आपके पास एक तैयार‑उपयोगी FBX फ़ाइल होगी जिसमें वह एसेट जानकारी होगी जिसकी आपको डाउनस्ट्रीम पाइपलाइन के लिए आवश्यकता होगी।
 
 ## त्वरित उत्तर
-- **मुख्य लक्ष्य क्या है?** कस्टम एसेट जानकारी वाले सीन को FBX में निर्यात करना।  
+
+- **मुख्य लक्ष्य क्या है?** एक कस्टम एसेट जानकारी वाले सीन को FBX में निर्यात करना।  
 - **कौन सी लाइब्रेरी उपयोग की गई है?** Aspose.3D for Java।  
-- **क्या लाइसेंस की जरूरत है?** विकास के लिए मुफ्त ट्रायल चलती है; उत्पादन के लिए व्यावसायिक लाइसेंस आवश्यक है।  
-- **क्या मापन इकाइयों को बदला जा सकता है?** हाँ – `setUnitName` और `setUnitScaleFactor` का उपयोग करें।  
-- **आउटपुट कहाँ सहेजा जाता है?** `scene.save(...)` में निर्दिष्ट पथ पर।
+- **क्या मुझे लाइसेंस की आवश्यकता है?** विकास के लिए एक मुफ्त ट्रायल काम करता है; उत्पादन के लिए एक व्यावसायिक लाइसेंस आवश्यक है।  
+- **क्या मैं मापन इकाइयों को बदल सकता हूँ?** हाँ – `setUnitName` और `setUnitScaleFactor` का उपयोग करें।  
+- **आउटपुट कहाँ सहेजा जाता है?** `scene.save(...)` में आप जो पाथ निर्दिष्ट करते हैं, वहाँ।
 
 ## पूर्वापेक्षाएँ
 
-शुरू करने से पहले सुनिश्चित करें कि आपके पास:
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास है:
 
-- कोर Java सिंटैक्स की ठोस समझ हो।  
-- **Aspose.3D for Java** डाउनलोड किया हुआ और अपने प्रोजेक्ट में जोड़ा हुआ हो (आप इसे आधिकारिक) [Aspose 3D डाउनलोड पेज](https://releases.aspose.com/3d/java/) से प्राप्त कर सकते हैं।  
-- आपका पसंदीदा Java IDE (IntelliJ IDEA, Eclipse, NetBeans, आदि) सही तरीके से कॉन्फ़िगर हो।
+- कोर जावा सिंटैक्स की ठोस समझ।  
+- **Aspose.3D for Java** डाउनलोड किया हुआ और आपके प्रोजेक्ट में जोड़ा हुआ (आप इसे आधिकारिक से प्राप्त कर सकते हैं) [Aspose 3D download page](https://releases.aspose.com/3d/java/)।  
+- आपका पसंदीदा जावा IDE (IntelliJ IDEA, Eclipse, NetBeans, आदि) सही ढंग से कॉन्फ़िगर किया हुआ।
 
 ## पैकेज इम्पोर्ट करें
 
-अपने Java स्रोत फ़ाइल में, Aspose.3D क्लासेज़ को इम्पोर्ट करें जो सीन हैंडलिंग और फ़ाइल‑फ़ॉर्मेट समर्थन प्रदान करती हैं।
+अपने जावा स्रोत फ़ाइल में, Aspose.3D क्लासेज़ को इम्पोर्ट करें जो सीन हैंडलिंग और फ़ाइल‑फ़ॉर्मेट समर्थन प्रदान करती हैं।
 
 ```java
 import com.aspose.threed.FileFormat;
 import com.aspose.threed.Scene;
 ```
 
-> **प्रो टिप:** अनावश्यक निर्भरताओं से बचने और कम्पाइल समय को बेहतर बनाने के लिए इम्पोर्ट सूची को न्यूनतम रखें।
+> **Pro tip:** इम्पोर्ट सूची को न्यूनतम रखें ताकि अनावश्यक निर्भरताओं से बचा जा सके और कंपाइल टाइम सुधार सके।
 
 ## FBX फ़ाइल को सहेजने की प्रक्रिया क्या है?
 
-नीचे एक संक्षिप्त, चरण‑दर‑चरण walkthrough दिया गया है जो **एसेट जानकारी** को सीन में जोड़ता है और फिर **सीन को FBX में निर्यात** करता है।
+एक सीन को FBX फ़ाइल के रूप में सहेजने के लिए आप एक `Scene` बनाते हैं, इच्छित एसेट मेटाडेटा सेट करते हैं, मापन इकाई को परिभाषित करते हैं, और फिर `scene.save(path, FileFormat.FBX7500ASCII)` को कॉल करते हैं। यह क्रम ज्योमेट्री, मैटेरियल्स, और मेटाडेटा को एक ASCII FBX में लिखता है जिसे डाउनस्ट्रीम टूल्स द्वारा निरीक्षण या इम्पोर्ट किया जा सकता है।
 
 ### चरण 1: 3D सीन को इनिशियलाइज़ करें
 
-सबसे पहले, एक खाली `Scene` ऑब्जेक्ट बनाएं। यह सभी जियोमेट्री, लाइट्स, कैमरा और एसेट मेटाडेटा का कंटेनर होगा।
+`Scene` क्लास Aspose.3D का टॉप‑लेवल कंटेनर है जो पूरे 3D सीन का प्रतिनिधित्व करता है, जिसमें ज्योमेट्री, लाइट्स, कैमरा, और मेटाडेटा शामिल हैं। पहले, एक खाली `Scene` ऑब्जेक्ट बनाएं। यह सभी ज्योमेट्री, लाइट्स, कैमरा, और एसेट मेटाडेटा का कंटेनर होगा।
 
 ```java
 // ExStart:AddAssetInformationToScene
 Scene scene = new Scene();
 ```
 
-### Java में एप्लिकेशन नाम कैसे सेट करें
+### जावा में एप्लिकेशन नाम कैसे सेट करें
 
-कस्टम मेटाडेटा जोड़ने से डाउनस्ट्रीम टूल्स को फ़ाइल के स्रोत की पहचान करने में मदद मिलती है। फ़ाइल सहेजने से पहले `AssetInfo` ऑब्जेक्ट का उपयोग करके **एप्लिकेशन नाम** (और विक्रेता) सेट करें।
+`AssetInfo` ऑब्जेक्ट सीन के लिए एप्लिकेशन नाम, विक्रेता, और संस्करण जैसी मेटाडेटा संग्रहीत करता है। कस्टम मेटाडेटा जोड़ने से डाउनस्ट्रीम टूल्स को फ़ाइल के स्रोत की पहचान करने में मदद मिलती है। फ़ाइल को सहेजने से पहले `AssetInfo` ऑब्जेक्ट का उपयोग करके **एप्लिकेशन नाम सेट करें** (और विक्रेता)।
 
 ```java
 scene.getAssetInfo().setApplicationName("Egypt");
 scene.getAssetInfo().setApplicationVendor("Manualdesk");
 ```
 
-> **यह क्यों महत्वपूर्ण है:** कई पाइपलाइन एसेट को उत्पन्न करने वाले एप्लिकेशन के आधार पर फ़िल्टर या टैग करती हैं, इसलिए यह चरण बड़े प्रोजेक्ट्स के लिए आवश्यक है।
+> **Why this matters:** कई पाइपलाइन मूल एप्लिकेशन के आधार पर एसेट्स को फ़िल्टर या टैग करती हैं, जिससे यह चरण बड़े प्रोजेक्ट्स के लिए आवश्यक बन जाता है।
 
 ### चरण 3: मापन इकाइयों को परिभाषित करें
 
-Aspose.3D आपको सीन में उपयोग की जाने वाली यूनिट सिस्टम निर्दिष्ट करने की अनुमति देता है। इस उदाहरण में हम “pole” नामक प्राचीन मिस्र की इकाई को कस्टम स्केल फैक्टर के साथ उपयोग करते हैं।
+यूनिट सिस्टम सीन के वास्तविक दुनिया के स्केल को निर्धारित करता है; Aspose.3D आपको मीटर के सापेक्ष एक यूनिट नाम और स्केल फ़ैक्टर निर्दिष्ट करने देता है। इस उदाहरण में हम एक प्राचीन मिस्री इकाई “pole” का उपयोग करते हैं जिसमें एक कस्टम स्केल फ़ैक्टर है।
 
 ```java
 scene.getAssetInfo().setUnitName("pole");
 scene.getAssetInfo().setUnitScaleFactor(0.6);
 ```
 
-> **टिप:** `unitScaleFactor` को अपने मॉडलों के वास्तविक आकार से मिलाने के लिए समायोजित करें; 1.0 का अर्थ है चुनी गई इकाई के साथ 1‑to‑1 मैपिंग।
+> **Tip:** `unitScaleFactor` को अपने मॉडल के वास्तविक आकार से मेल खाने के लिए समायोजित करें; 1.0 चुनी गई इकाई के साथ 1‑to‑1 मैपिंग दर्शाता है।
 
 ### चरण 4: सीन को FBX में निर्यात करें
 
@@ -93,66 +152,61 @@ scene.getAssetInfo().setUnitScaleFactor(0.6);
 String MyDir = "Your Document Directory";
 MyDir = MyDir + "InformationToScene.fbx";
 scene.save(MyDir, FileFormat.FBX7500ASCII);
+System.out.println("\nAsset information added successfully to Scene.\nFile saved at " + MyDir);
 // ExEnd:AddAssetInformationToScene
 ```
 
-> **ध्यान रखें:** `"Your Document Directory"` को एक पूर्ण पथ या आपके प्रोजेक्ट की कार्यशील निर्देशिका के सापेक्ष पथ से बदलें।
-
-### चरण 5: सफलता संदेश प्रिंट करें
-
-एक साधारण कंसोल आउटपुट यह पुष्टि करता है कि ऑपरेशन सफल रहा और फ़ाइल कहाँ लिखी गई, यह बताता है।
-
-```java
-System.out.println("\nAsset information added successfully to Scene.\nFile saved at " + MyDir);
-```
+> **Remember:** `"Your Document Directory"` को एक पूर्ण पाथ या आपके प्रोजेक्ट की कार्यशील डायरेक्टरी के सापेक्ष पाथ से बदलें।
 
 ## Aspose.3D के साथ सीन को FBX में निर्यात क्यों करें?
 
-FBX में निर्यात करना एक सामान्य आवश्यकता है क्योंकि FBX को गेम इंजन, DCC टूल्स, और AR/VR पाइपलाइन द्वारा व्यापक रूप से समर्थन मिलता है। Aspose.3D आपको निर्यातित फ़ाइल—मेटाडेटा, यूनिट्स, और जियोमेट्री—पर पूर्ण नियंत्रण देता है, बिना किसी भारी 3D ऑथरिंग एप्लिकेशन की आवश्यकता के। यह स्वचालित एसेट जनरेशन, बैच प्रोसेसिंग, और सर्वर‑साइड कन्वर्ज़न को तेज़ और भरोसेमंद बनाता है।
+Aspose.3D **50+ इनपुट और आउटपुट फ़ॉर्मेट** को समर्थन देता है और पूरी फ़ाइल को मेमोरी में लोड किए बिना कई सौ पृष्ठों वाले सीन को प्रोसेस कर सकता है, जिससे आपको निर्यातित फ़ाइल—मेटाडेटा, यूनिट्स, और ज्योमेट्री—पर पूर्ण नियंत्रण मिलता है, बिना किसी भारी 3D ऑथरिंग एप्लिकेशन की आवश्यकता के। यह स्वचालित एसेट जेनरेशन, बैच प्रोसेसिंग, और सर्वर‑साइड कन्वर्ज़न को तेज़ और विश्वसनीय बनाता है।
 
 ## सामान्य उपयोग केस
 
-- **गेम एसेट पाइपलाइन** – संस्करण ट्रैकिंग के लिए FBX फ़ाइलों में सीधे निर्माता जानकारी एम्बेड करें।  
-- **आर्किटेक्चरल विज़ुअलाइज़ेशन** – प्रोजेक्ट‑विशिष्ट यूनिट्स संग्रहीत करें ताकि रेंडरिंग इंजन में इम्पोर्ट करते समय स्केलिंग त्रुटियों से बचा जा सके।  
-- **स्वचालित रिपोर्टिंग** – मेटाडेटा के साथ ऑन‑द‑फ़्लाई FBX फ़ाइलें जनरेट करें जिन्हें डाउनस्ट्रीम एनालिटिक्स टूल पढ़ सकते हैं।  
-- **क्लाउड‑आधारित 3D सेवाएँ** – बिना GUI के प्रोग्रामेटिक रूप से सीन बनाएं और निर्यात करें, SaaS प्लेटफ़ॉर्म के लिए आदर्श।
+- **Game asset pipelines** – संस्करण ट्रैकिंग के लिए निर्माता जानकारी को सीधे FBX फ़ाइलों में एम्बेड करें।  
+- **Architectural visualization** – रेंडरिंग इंजन में इम्पोर्ट करते समय स्केलिंग त्रुटियों से बचने के लिए प्रोजेक्ट‑विशिष्ट यूनिट्स को संग्रहीत करें।  
+- **Automated reporting** – मेटाडेटा के साथ ऑन‑द‑फ्लाई FBX फ़ाइलें जनरेट करें जिन्हें डाउनस्ट्रीम एनालिटिक्स टूल पढ़ सकते हैं।  
+- **Cloud‑based 3D services** – प्रोग्रामेटिकली सीन बनाएं और निर्यात करें बिना GUI के, SaaS प्लेटफ़ॉर्म के लिए उपयुक्त।
 
-## समस्या निवारण एवं टिप्स
+## समस्या निवारण और टिप्स
 
-| समस्या | समाधान |
+| Issue | Solution |
 |-------|----------|
-| **सेव के बाद फ़ाइल नहीं मिली** | सुनिश्चित करें कि `MyDir` किसी मौजूदा फ़ोल्डर की ओर इशारा कर रहा है और आपके एप्लिकेशन के पास लिखने की अनुमति है। |
-| **बाहरी व्यूअर में यूनिट्स गलत दिख रही हैं** | `unitScaleFactor` को दोबारा जांचें; कुछ व्यूअर बेस यूनिट के रूप में मीटर की अपेक्षा करते हैं। |
-| **एसेट मेटाडेटा गायब है** | `scene.save(...)` करने से **पहले** `scene.getAssetInfo()` को कॉल करना सुनिश्चित करें; `save()` के बाद किए गए परिवर्तन संरक्षित नहीं होते। |
-| **बड़ी सीन पर प्रदर्शन बाधा** | सहेजने से पहले `scene.optimize()` का उपयोग करके मेमोरी उपयोग कम करें। |
-| **ASCII FBX बहुत बड़ी है** | बाइनरी FBX के लिए `FileFormat.FBX7500` का उपयोग करें (FAQ देखें)। |
+| **सेव के बाद फ़ाइल नहीं मिली** | जाँचें कि `MyDir` एक मौजूदा फ़ोल्डर की ओर इशारा कर रहा है और आपके एप्लिकेशन के पास लिखने की अनुमति है। |
+| **बाहरी व्यूअर में यूनिट्स गलत दिख रहे हैं** | `unitScaleFactor` को दोबारा जांचें; कुछ व्यूअर बेस यूनिट के रूप में मीटर की अपेक्षा करते हैं। |
+| **एसेट मेटाडेटा गायब है** | सुनिश्चित करें कि आप `scene.getAssetInfo()` **सेव से पहले** कॉल करें; `save()` के बाद किए गए परिवर्तन सहेजे नहीं जाएंगे। |
+| **बड़े सीन पर प्रदर्शन बाधा** | मेमोरी उपयोग कम करने के लिए सेव से पहले `scene.optimize()` का उपयोग करें। |
+| **ASCII FBX बहुत बड़ा है** | `FileFormat.FBX7500` का उपयोग करके बाइनरी FBX में स्विच करें (FAQ देखें)। |
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-**प्रश्न: आउटपुट फ़ॉर्मेट को बाइनरी FBX में कैसे बदलें?**  
-उत्तर: `scene.save(...)` कॉल करते समय `FileFormat.FBX7500ASCII` को `FileFormat.FBX7500` से बदल दें।
+**Q: आउटपुट फ़ॉर्मेट को बाइनरी FBX में कैसे बदलें?**  
+A: `scene.save(...)` कॉल करते समय `FileFormat.FBX7500ASCII` को `FileFormat.FBX7500` से बदलें।
 
-**प्रश्न: बिल्ट‑इन एसेट फ़ील्ड्स के अलावा कस्टम यूज़र‑डिफ़ाइंड मेटाडेटा जोड़ सकता हूँ?**  
-उत्तर: हाँ, `scene.getUserData().add("Key", "Value")` का उपयोग करके अतिरिक्त की‑वैल्यू जोड़े जा सकते हैं।
+**Q: बिल्ट‑इन एसेट फ़ील्ड्स के अलावा कस्टम यूज़र‑डिफाइंड मेटाडेटा जोड़ सकता हूँ?**  
+A: हाँ, अतिरिक्त की‑वैल्यू जोड़े को एम्बेड करने के लिए `scene.getUserData().add("Key", "Value")` का उपयोग करें।
 
-**प्रश्न: क्या Aspose.3D अन्य निर्यात फ़ॉर्मेट जैसे OBJ या GLTF को सपोर्ट करता है?**  
-उत्तर: करता है। आवश्यकतानुसार `FileFormat` enum को `OBJ` या `GLTF2` में बदलें।
+**Q: क्या Aspose.3D OBJ या GLTF जैसे अन्य एक्सपोर्ट फ़ॉर्मेट्स को सपोर्ट करता है?**  
+A: हां। बस आवश्यकतानुसार `FileFormat` एनोम को `OBJ` या `GLTF2` में बदलें।
 
-**प्रश्न: Java का कौन सा संस्करण आवश्यक है?**  
-उत्तर: Aspose.3D for Java Java 8 और उसके बाद के संस्करणों को सपोर्ट करता है।
+**Q: जावा का कौन सा संस्करण आवश्यक है?**  
+A: Aspose.3D for Java, Java 8 और उसके बाद के संस्करणों को सपोर्ट करता है।
 
-**प्रश्न: क्या मौजूदा FBX को लोड करके उसकी एसेट जानकारी बदलना और फिर पुनः सहेजना संभव है?**  
-उत्तर: बिल्कुल। `new Scene("input.fbx")` से फ़ाइल लोड करें, `scene.getAssetInfo()` को संशोधित करें, फिर सहेजें।
-
-## निष्कर्ष
-
-अब आपके पास **सीन को FBX में निर्यात करने** के साथ-साथ एप्लिकेशन नाम, विक्रेता, और कस्टम मापन इकाइयों जैसी मूल्यवान एसेट जानकारी एम्बेड करने के लिए एक पूर्ण, प्रोडक्शन‑रेडी वर्कफ़्लो है। यह एसेट प्रबंधन को सरल बनाता है, मैन्युअल बुककीपिंग को घटाता है, और सुनिश्चित करता है कि डाउनस्ट्रीम टूल्स को सभी आवश्यक संदर्भ मिलें। अन्य निर्यात फ़ॉर्मेट्स का अन्वेषण करें, कस्टम यूज़र डेटा जोड़ें, या इस कोड को बड़े ऑटोमेशन पाइपलाइन में एकीकृत करें।
+**Q: क्या मौजूदा FBX को लोड करके, उसकी एसेट जानकारी को संशोधित करके, फिर पुनः सहेजना संभव है?**  
+A: बिल्कुल। फ़ाइल को `new Scene("input.fbx")` से लोड करें, `scene.getAssetInfo()` को संशोधित करें, फिर सहेजें।
 
 ---
 
-**अंतिम अपडेट:** 2026-05-04  
-**टेस्टेड विथ:** Aspose.3D for Java 24.11  
+**अंतिम अपडेट:** 2026-09-08  
+**परीक्षित संस्करण:** Aspose.3D for Java 24.11  
 **लेखक:** Aspose
+
+## संबंधित ट्यूटोरियल
+
+- [3D फ़ाइल आकार घटाएँ – Aspose.3D for Java के साथ सीन को संपीड़ित करें](/3d/java/3d-scenes-and-models/compress-3d-scenes/)
+- [जावा में vector3 रंग कैसे सेट करें: Diffuse Color बदलें और Aspose.3D का उपयोग करके जावा सीन में 3D प्रॉपर्टीज़ प्रबंधित करें](/3d/java/3d-scenes-and-models/managing-3d-properties-scenes/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
