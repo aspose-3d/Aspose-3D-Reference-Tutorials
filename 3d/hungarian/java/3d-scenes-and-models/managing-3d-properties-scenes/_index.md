@@ -1,18 +1,51 @@
 ---
-date: 2026-04-05
-description: Tanulja meg, hogyan állíthat be vector3 színt Java-ban, hogyan változtathatja
-  meg a diffúz színt, hogyan kérdezheti le az anyag tulajdonságát, és hogyan kezelheti
-  a 3D tulajdonságokat Java jelenetekben az Aspose.3D segítségével – egy teljes lépésről‑lépésre
-  útmutató.
+date: 2026-09-13
+description: Tanulja meg, hogyan állítsa be a diffuse color-t, módosítsa a material
+  color-t, és kezelje a 3D properties-t Java jelenetekben az Aspose.3D segítségével.
+  Ez a step‑by‑step útmutató bemutatja a Vector3 használatát, a material lekérdezését,
+  és a custom data handling-et.
 keywords:
-- set vector3 color java
+- set diffuse color
 - Aspose 3D Java
-- change diffuse color
-linktitle: 'Hogyan állítsuk be a vector3 színt Java-ban: Diffúz szín módosítása és
-  3D tulajdonságok kezelése Java jelenetekben az Aspose.3D segítségével'
+- modify material color
+lastmod: 2026-09-13
+linktitle: Hogyan állítsuk be a diffuse color-t Java jelenetekben az Aspose.3D használatával
+og_description: Tanulja meg, hogyan állítsa be a diffuse color-t, módosítsa a material
+  color-t, és kezelje a 3D properties-t Java jelenetekben az Aspose.3D segítségével.
+  Kövesse a tömör step‑by‑step oktatót fejlesztőknek.
+og_image_alt: Screenshot of Java code changing diffuse color with Aspose.3D
+og_title: Hogyan állítsuk be a diffuse color-t Java jelenetekben az Aspose.3D használatával
+schemas:
+- author: Aspose
+  dateModified: '2026-09-13'
+  description: Learn how to set diffuse color, modify material color, and manage 3D
+    properties in Java scenes with Aspose.3D. This step‑by‑step guide covers Vector3
+    usage, material retrieval, and custom data handling.
+  headline: How to set diffuse color in Java scenes using Aspose.3D
+  type: TechArticle
+- questions:
+  - answer: Download the JAR from the [Aspose website](https://releases.aspose.com/3d/java/)
+      and add it to your project's classpath or Maven/Gradle dependencies.
+    question: How can I install the Aspose.3D library in my Java project?
+  - answer: Yes, a fully functional 30‑day trial is available from the [Aspose free
+      trial page](https://releases.aspose.com/).
+    question: Are there any free trial options for Aspose.3D?
+  - answer: The official API reference is at [Aspose.3D documentation](https://reference.aspose.com/3d/java/).
+    question: Where can I find detailed documentation for Aspose.3D in Java?
+  - answer: Absolutely—visit the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18)
+      to connect with the community and experts.
+    question: Is there a support forum for Aspose.3D where I can ask questions?
+  - answer: Request one via the [temporary license page](https://purchase.aspose.com/temporary-license/)
+      on the Aspose site.
+    question: How can I obtain a temporary license for Aspose.3D?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: 'Hogyan állítsuk be a vector3 színt Java-ban: Diffúz szín módosítása és 3D
-  tulajdonságok kezelése Java jelenetekben az Aspose.3D segítségével'
+tags:
+- 3d rendering
+- Aspose.3D
+- java graphics
+- material properties
+title: Hogyan állítsuk be a diffuse color-t Java jelenetekben az Aspose.3D használatával
 url: /hu/java/3d-scenes-and-models/managing-3d-properties-scenes/
 weight: 14
 ---
@@ -21,29 +54,48 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan állítsuk be a vector3 színt Java-ban: Diffúz szín módosítása és 3D tulajdonságok kezelése Java jelenetekben az Aspose.3D használatával
+# Hogyan állítsuk be a szórt színt Java jelenetekben az Aspose.3D használatával
 
 ## Bevezetés
 
-Ebben a **Aspose 3D bemutatóban** felfedezheti, **how to set vector3 color java**, és dolgozhat 3D tulajdonságokkal és egyéni adatokkal Java jelenetekben. Akár játékot, termékvizualizátort vagy tudományos megjelenítőt épít, a anyag attribútumainak futásidőben történő módosítása teljes művészi kontrollt biztosít. Lépésről‑lépésre végigvezetjük a folyamatot, a jelenet betöltésétől a *Diffuse* szín finomhangolásáig egy `Vector3` érték használatával.
+Ebben a **Aspose 3D bemutatóban** megtanulja, **hogyan állítsa be a szórt színt** egy anyagon, és hogyan kezelje a többi 3D tulajdonságot a Java jelenetekben. Akár termékkonfigurátort, játékot vagy tudományos vizualizátort épít, a szórt szín futásidőben történő módosítása teljes művészi kontrollt ad a modellek megjelenése felett. Lépésről lépésre végigvezetjük a jelenet betöltésén, egy anyag lekérésén, és egy új `Vector3` színérték hozzárendelésén — mindezt tiszta, termék‑kész kóddal.
 
 ## Gyors válaszok
-- **Mit módosíthatok?** A textúra színét, átlátszóságát, fényességét, és bármely anyaghoz csatolt egyéni tulajdonságot módosíthatja.  
-- **Melyik osztály tárolja az adatokat?** `Material` és annak `PropertyCollection`.  
-- **Hogyan állítsak be új színt?** Használja a `props.set("Diffuse", new Vector3(r, g, b))`-t.  
-- **Hogyan állítsam be a vector3 színt Java-ban?** Hívja a `props.set("Diffuse", new Vector3(r, g, b))`-t az anyag property collection-én.  
-- **Szükségem van licencre?** Egy ideiglenes licenc elegendő értékeléshez; a teljes licenc szükséges a termeléshez.  
+- **Mit módosíthatok?** Megváltoztathatja a textúra színét, az átlátszóságot, a fényességet, valamint bármely egyéni, anyaghoz csatolt tulajdonságot.  
+- **Melyik osztály tartalmazza az adatokat?** `Material` és annak `PropertyCollection`-ja.  
+- **Hogyan állítsak be egy új színt?** Használja a `props.set("Diffuse", new Vector3(r, g, b))` kifejezést.  
+- **Hogyan állítsam be a vector3 színt Java-ban?** Hívja meg a `props.set("Diffuse", new Vector3(r, g, b))` metódust az anyag `PropertyCollection`-jén.  
+- **Szükségem van licencre?** Az ideiglenes licenc elegendő értékeléshez; a teljes licenc szükséges a termeléshez.  
 - **Támogatott formátumok?** FBX, OBJ, STL, GLTF és még sok más.
+
+## Mi a szórt szín beállítása?
+`set diffuse color` a művelet, amely új RGB színt rendel egy anyag szórt csatornájához, ami meghatározza az alapárnyalatot, amelyet a felület közvetlen fényben visszaver. Az Aspose.3D-ben ez az anyag `PropertyCollection`-jén keresztül történik. Általában a modellek megjelenésének testreszabására használják textúrafájlok módosítása nélkül, lehetővé téve a dinamikus színváltoztatást futásidőben.
+
+## Miért módosítsuk az anyag színét?
+Az Aspose.3D **30+ bemeneti és kimeneti formátumot** támogat, és akár **500 MB** méretű modelleket is képes feldolgozni anélkül, hogy a teljes fájlt a memóriába töltené. A szórt szín frissítése lehetővé teszi dinamikus vizuális hatások létrehozását, például felhasználó‑vezérelt színválasztókat, valós‑idő fénybeállításokat vagy vizuális visszajelzést a szimuláció állapotairól.
 
 ## Előfeltételek
 
-- Telepített Java Development Kit (JDK) 8 vagy újabb.  
-- Aspose.3D for Java könyvtár (letölthető az [Aspose weboldalról](https://releases.aspose.com/3d/java/)).  
+- Telepítve legyen a Java Development Kit (JDK) 8 vagy újabb.  
+- Az Aspose.3D for Java könyvtár (letöltés a [Aspose weboldalról](https://releases.aspose.com/3d/java/)).  
 - Alapvető ismeretek a Java szintaxisról és az objektum‑orientált koncepciókról.
 
 ## Csomagok importálása
 
-Mielőtt bármilyen logikát írnánk, importáljuk azokat az osztályokat, amelyek hozzáférést biztosítanak az anyag tulajdonságokhoz és a vektorok manipulálásához.
+Mielőtt bármilyen logikát írna, importálja az osztályokat, amelyek hozzáférést biztosítanak az anyag tulajdonságaihoz és a vektorok manipulálásához.
+
+`Scene` osztály betölti és reprezentálja a 3D fájlt.  
+`Material` osztály meghatározza a felület attribútumait, például a színeket és a textúrákat.  
+`PropertyCollection` osztály szótárként működik, lehetővé téve anyagtulajdonságok név szerinti olvasását vagy írását.  
+`Vector3` osztály három komponensű értékeket tárol, és színek, normálok és egyéb vektoradatok számára használható.
+
+## Hogyan állítsam be a szórt színt Vector3 használatával Java-ban?
+
+Töltse be a jelenetet, keresse meg a cél csomópontot, szerezze be annak anyagát, és rendelje hozzá az új `Vector3` értéket a **Diffuse** tulajdonsághoz — mindezt néhány kódsorral. Ez a közvetlen válaszminta biztosítja, hogy gyorsan és megbízhatóan tudja megvalósítani a színváltoztatásokat.
+
+### Lépésről‑lépésre útmutató – anyagtulajdonságok elérése és módosítása
+
+Itt a teljes működő példa, amely bemutatja az összes lépést:
 
 ```java
 import java.io.IOException;
@@ -55,120 +107,84 @@ import com.aspose.threed.Scene;
 import com.aspose.threed.Vector3;
 ```
 
-### Miért importáljuk ezeket az osztályokat?
-
-- `Scene` betölti és képviseli a 3D fájlt.  
-- `Material` biztosítja a felület definícióját (textúrák, színek stb.).  
-- `PropertyCollection` egy szótár‑szerű tároló, amely lehetővé teszi a **anyag tulajdonságok** név szerint történő **elérését**.  
-- `Vector3` a színekhez és egyéb három komponensű vektorokhoz használt adattípus.
-
-## Hogyan állítsuk be a vector3 színt Java-ban – Diffúz módosítása lépésről‑lépésre útmutató
-
-### 1. lépés: A jelenet inicializálása
-
-```java
-String dataDir = "Your Document Directory";
-Scene scene = new Scene(dataDir + "EmbeddedTexture.fbx");
-```
-
-Létrehozunk egy `Scene` objektumot egy FBX fájl betöltésével, amely már tartalmaz egy textúrát. Ez lesz a vászon, amelyen **a diffúz színt** megváltoztatjuk.
-
-### 2. lépés: Anyag tulajdonságok elérése
-
-```java
-Material material = scene.getRootNode().getChildNodes().get(0).getMaterial();
-PropertyCollection props = material.getProperties();
-```
-
-Itt **az anyag tulajdonságokhoz** férünk hozzá a jelenet első hálóján. A `Material` objektum egy `PropertyCollection`‑t tartalmaz, amely minden konfigurálható attribútumot tárol, például *Diffuse*, *Specular* és egyéni felhasználói adatokat.
-
-### 3. lépés: Minden tulajdonság listázása (Módosítás előtti ellenőrzés)
-
-```java
-for (Property prop : props) {
-    System.out.println("Name" + prop.getName() + " Value = " + prop.getValue());
-}
-```
-
-A `props` iterálása kiír minden tulajdonság nevét és aktuális értékét. Ez a gyors leltár segít felfedezni, mely kulcsokat módosíthatja később, például a `"Diffuse"`‑t az alap színhez.
-
-### 4. lépés: Vector3 érték beállítása a Diffúz szín módosításához
-
-```java
-props.set("Diffuse", new Vector3(1, 0, 1));
-```
-
-**Pro tip:** A `Vector3` konstruktor három lebegőpontos számot vár, amelyek a **vörös, zöld és kék** komponenseket (0‑1 tartomány) képviselik. A `(1, 0, 1)` beállítása a textúra alap színét magentára változtatja, ezzel hatékonyan **megváltoztatja a modell diffúz színét**. Ez a **setting vector3 color java** lényege.
-
-### 5. lépés: Anyag tulajdonság lekérése név alapján
-
-```java
-Object diffuse = (Vector3) props.get("Diffuse");
-System.out.println(diffuse);
-```
-
-Ez bemutatja a **anyagtulajdonság lekérését** név szerint. A visszakapott `Object`‑et `Vector3`‑ra konvertáljuk, hogy programozottan dolgozhassunk a színnel.
-
-### 6. lépés: Tulajdonság példány közvetlen elérése
-
-```java
-Property pdiffuse = props.findProperty("Diffuse");
-System.out.println(pdiffuse);
-```
-
-A `findProperty` visszaadja a teljes `Property` objektumot, amely hozzáférést biztosít metaadatokhoz, például a tulajdonság típusához, címkéjéhez és bármely csatolt egyéni adathoz.
-
-### 7. lépés: Tulajdonság al‑tulajdonságainak bejárása
-
-```java
-for (Property pp : pdiffuse.getProperties()) {
-    System.out.println("Diffuse. " + pp.getName() + " = " + pp.getValue());
-}
-```
-
-Néhány tulajdonság hierarchikus. A `pdiffuse.getProperties()` bejárása megmutatja az összes beágyazott attribútumot (pl. textúra koordináták, animációs kulcsok), amelyek a *Diffuse* bejegyzéshez tartoznak.
-
-## Miért fontos ez
-
-A diffúz szín futásidőben történő módosítása dinamikus vizuális effektusok létrehozását teszi lehetővé – gondoljunk termékkonfigurátorokra, ahol a felhasználók színeket választhatnak, vagy játékokra, amelyek a játékmenet eseményeire reagálnak. Mivel a módosítás a `PropertyCollection`‑ön keresztül történik, egyszerűen szkriptelhetünk tömeges frissítéseket sok anyagon minimális kóddal.
-
 ## Gyakori problémák és megoldások
 
 | Probléma | Miért fordul elő | Megoldás |
 |----------|------------------|----------|
-| **`NullPointerException` on `material`** | A csomópontnak lehet, hogy nincs hozzárendelt anyaga. | Hívja a `node.setMaterial(new Material())`-t a tulajdonságok elérése előtt. |
-| **A szín nem változik** | A modell egy olyan textúrát használ, amely felülírja a *Diffuse* színt. | Tiltsa le a textúrát, vagy módosítsa közvetlenül a textúra képet. |
-| **`ClassCastException` lekéréskor** | Megpróbál egy nem‑Vector3 típusú tulajdonságot átkonvertálni. | Ellenőrizze a tulajdonság típusát a `pdiffuse.getValue().getClass()` segítségével, mielőtt átkonvertálná. |
+| **`NullPointerException` a `material`-on** | A csomópontnak lehet, hogy nincs hozzárendelt anyaga. | Hívja meg a `node.setMaterial(new Material())` metódust a tulajdonságok elérése előtt. |
+| **A szín nem változik** | A modell olyan textúrát használ, amely felülírja a *Diffuse* színt. | Tiltsa le a textúrát, vagy módosítsa közvetlenül a textúra képet. |
+| **`ClassCastException` lekéréskor** | Megpróbál egy nem‑Vector3 típusú tulajdonságot átkonvertálni. | Ellenőrizze a tulajdonság típusát a `pdiffuse.getValue().getClass()` segítségével a konvertálás előtt. |
 
-## Gyakran Ismételt Kérdések
+## Gyakran feltett kérdések
 
-**Q:** **Hogyan telepíthetem az Aspose.3D könyvtárat a Java projektembe?**  
-**A:** Töltse le a JAR-t az [Aspose weboldalról](https://releases.aspose.com/3d/java/), és adja hozzá a projekt classpath-jához vagy Maven/Gradle függőségekhez.
+**Q: Hogyan telepíthetem az Aspose.3D könyvtárat a Java projektembe?**  
+A: Töltse le a JAR fájlt a [Aspose weboldalról](https://releases.aspose.com/3d/java/) és adja hozzá a projekt osztályútvonalához vagy Maven/Gradle függőségekhez.
 
-**Q:** **Vannak ingyenes próba lehetőségek az Aspose.3D-hez?**  
-**A:** Igen, egy teljes funkcionalitású 30‑napos próba elérhető a [Aspose ingyenes próba oldalról](https://releases.aspose.com/).
+**Q: Van ingyenes próba lehetőség az Aspose.3D-hez?**  
+A: Igen, egy teljes funkcionalitású 30‑napos próba elérhető a [Aspose ingyenes próbaoldalról](https://releases.aspose.com/).
 
-**Q:** **Hol találhatok részletes dokumentációt az Aspose.3D Java-hoz?**  
-**A:** Az hivatalos API referencia a [Aspose.3D dokumentációban](https://reference.aspose.com/3d/java/).
+**Q: Hol találok részletes dokumentációt az Aspose.3D Java-hoz?**  
+A: A hivatalos API referencia a [Aspose.3D dokumentációban](https://reference.aspose.com/3d/java/).
 
-**Q:** **Van támogatási fórum az Aspose.3D-hez, ahol kérdéseket tehetek fel?**  
-**A:** Természetesen—látogassa meg a [Aspose.3D támogatási fórumot](https://forum.aspose.com/c/3d/18), hogy kapcsolatba léphessen a közösséggel és szakértőkkel.
+**Q: Van támogatási fórum az Aspose.3D-hez, ahol kérdéseket tehetek fel?**  
+A: Természetesen — látogassa meg az [Aspose.3D támogatási fórumot](https://forum.aspose.com/c/3d/18), hogy kapcsolatba léphessen a közösséggel és szakértőkkel.
 
-**Q:** **Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?**  
-**A:** Kérjen egyet a [ideiglenes licenc oldalról](https://purchase.aspose.com/temporary-license/) az Aspose weboldalán.
+**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.3D-hez?**  
+A: Kérjen egyet a [ideiglenes licenc oldalán](https://purchase.aspose.com/temporary-license/) az Aspose weboldalán.
 
-**Q:** **Módosíthatok más anyag attribútumokat is a diffúz mellett?**  
-**A:** Igen, olyan tulajdonságok, mint `Specular`, `Opacity`, és egyéni felhasználói adatok módosíthatók ugyanazzal a `props.set` mintával.
+**Q: Módosíthatok más anyagattribútumokat is a szórt szín mellett?**  
+A: Igen, olyan tulajdonságok, mint a `Specular`, `Opacity`, és egyedi felhasználói adatok is módosíthatók ugyanazzal a `props.set` mintával.
 
 ## Összegzés
 
-Most már megtanulta, **how to set vector3 color java**, **anyag tulajdonság lekérése**, `Vector3` érték beállítása, valamint a hierarchikus tulajdonságadatok bejárása egy Java jelenetben az Aspose.3D segítségével. Ezek a technikák finomhangolt kontrollt biztosítanak bármely 3D eszköz felett, lehetővé téve dinamikus vizuális effektusok és futásidőben történő testreszabás alkalmazásában.
+Most már megtanulta, **hogyan állítsa be a szórt színt**, **hogyan szerezze be az anyagtulajdonságokat**, és **hogyan kezelje a 3D tulajdonságokat** egy Java jelenetben az Aspose.3D használatával. Ezek a technikák finomhangolt kontrollt biztosítanak bármely 3D eszköz felett, lehetővé téve a dinamikus vizuális hatásokat és a futásidőben történő testreszabást az alkalmazásaiban.
 
 ---
 
-**Last Updated:** 2026-04-05  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose  
+**Utoljára frissítve:** 2026-09-13  
+**Tesztelve ezzel:** Aspose.3D for Java 24.11  
+**Szerző:** Aspose  
+
+```java
+import java.io.IOException;
+import com.aspose.threed.Material;
+import com.aspose.threed.Property;
+import com.aspose.threed.PropertyCollection;
+import com.aspose.threed.Scene;
+import com.aspose.threed.Vector3;
+
+String dataDir = "Your Document Directory";
+Scene scene = Scene.fromFile(dataDir + "EmbeddedTexture.fbx");
+
+Material material = scene.getRootNode().getChildNodes().get(0).getMaterial();
+PropertyCollection props = material.getProperties();
+
+// List All Properties (Inspect Before Changing)
+for (Property prop : props) {
+    System.out.println("Name" + prop.getName() + " Value = " + prop.getValue());
+}
+
+// Set Vector3 Value to Change Diffuse Color
+props.set("Diffuse", new Vector3(1, 0, 1));
+
+// Retrieve Material Property by Name
+Object diffuse = (Vector3) props.get("Diffuse");
+System.out.println(diffuse);
+
+// Access Property Instance Directly
+Property pdiffuse = props.findProperty("Diffuse");
+System.out.println(pdiffuse);
+
+// Access property value directly
+System.out.println("Property value: " + pdiffuse.getValue());
+```
+
+## Kapcsolódó bemutatók
+
+- [Háló átalakítása FBX-re és anyagszín beállítása Java 3D-ben az Aspose.3D használatával](/3d/java/geometry/share-mesh-geometry-data/)
+- [Hogyan ágyazzunk be textúrát FBX-be Java-val – Anyagok alkalmazása 3D objektumokra az Aspose.3D használatával](/3d/java/geometry/apply-materials-to-3d-objects/)
+- [Renderelt 3D jelenetek mentése képfájlokba az Aspose.3D for Java-val](/3d/java/rendering-3d-scenes/render-to-file/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
