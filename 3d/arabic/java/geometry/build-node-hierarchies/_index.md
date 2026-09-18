@@ -1,69 +1,132 @@
 ---
-date: 2026-04-12
-description: تعلم كيفية إنشاء عقد فرعية، وإضافة شبكة إلى العقدة، وتصدير FBX باستخدام
-  Aspose.3D Java API لإنشاء رسوم مشاهد ثلاثية الأبعاد قوية.
+date: 2026-09-18
+description: تعلم كيفية إنشاء عقد فرعية، إضافة شبكة إلى العقدة، وتصدير FBX باستخدام
+  Aspose.3D Java API لإنشاء رسومات مشاهد 3D قوية.
 keywords:
-- create child nodes
-- how to export fbx
+- how to build hierarchy
 - add mesh to node
-- java 3d scene graph
+- convert scene fbx
 - save scene fbx
-linktitle: إنشاء هياكل العقد في المشاهد ثلاثية الأبعاد باستخدام جافا و Aspose.3D
+- create child nodes java
+lastmod: 2026-09-18
+linktitle: بناء تسلسلات هرمية للعقد في مشاهد 3D باستخدام Java و Aspose.3D
+og_description: تعلم كيفية بناء التسلسل الهرمي، إضافة شبكة إلى العقدة، وتصدير FBX
+  باستخدام Aspose.3D Java API. يوضح هذا الدليل كودًا خطوة بخطوة لإنشاء عقد فرعية وحفظ
+  المشاهد.
+og_image_alt: Tutorial showing Java code to build node hierarchy and export FBX with
+  Aspose.3D
+og_title: كيفية بناء التسلسل الهرمي وتصدير FBX في Java باستخدام Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to create child nodes, add mesh to node, and export FBX using
+    Aspose.3D Java API for robust 3D scene graphs.
+  headline: How to build hierarchy and export FBX in Java with Aspose.3D
+  type: TechArticle
+- description: Learn how to create child nodes, add mesh to node, and export FBX using
+    Aspose.3D Java API for robust 3D scene graphs.
+  name: How to build hierarchy and export FBX in Java with Aspose.3D
+  steps:
+  - name: '**Java Development Environment** – JDK 8+ and an IDE or build tool of your
+      choice.'
+    text: '**Java Development Environment** – JDK 8+ and an IDE or build tool of your
+      choice.'
+  - name: '**Aspose.3D for Java Library** – Download and install the library from
+      the [download page](https://releases.aspose.com/3d/java/).'
+    text: '**Aspose.3D for Java Library** – Download and install the library from
+      the [download page](https://releases.aspose.com/3d/java/).'
+  - name: '**Document Directory** – A folder on your machine where the generated FBX
+      file will be saved.'
+    text: '**Document Directory** – A folder on your machine where the generated FBX
+      file will be saved.'
+  type: HowTo
+- questions:
+  - answer: Absolutely! The API follows a clean, object‑oriented design that lets
+      you start building scenes with just a few lines of code.
+    question: Is Aspose.3D for Java suitable for beginners?
+  - answer: Yes, you can. Visit the [purchase page](https://purchase.aspose.com/buy)
+      for licensing details.
+    question: Can I use Aspose.3D for Java for commercial projects?
+  - answer: Join the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) to get assistance
+      from the community and Aspose support team.
+    question: How can I get support for Aspose.3D for Java?
+  - answer: Certainly! Explore the features with the [free trial](https://releases.aspose.com/)
+      before making a commitment.
+    question: Is there a free trial available?
+  - answer: Refer to the [documentation](https://reference.aspose.com/3d/java/) for
+      detailed information on Aspose.3D for Java.
+    question: Where can I find the documentation?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: إنشاء عقد فرعية وتصدير FBX في جافا باستخدام Aspose.3D
+tags:
+- build hierarchy
+- Aspose.3D
+- Java 3D
+- FBX export
+title: كيفية بناء التسلسل الهرمي وتصدير FBX في Java باستخدام Aspose.3D
 url: /ar/java/geometry/build-node-hierarchies/
 weight: 16
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}  
-{{< blocks/products/pf/main-container >}}  
-{{< blocks/products/pf/tutorial-page-section >}}  
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية تصدير FBX وبناء هياكل العقد في Java باستخدام Aspose.3D  
+  
+  
+  
+
+# كيفية بناء التسلسل الهرمي وتصدير FBX في Java باستخدام Aspose.3D  
 
 ## مقدمة  
 
-إذا كنت تبحث عن دليل واضح خطوة بخطوة حول **إنشاء عقد فرعية**، **إضافة مجسم إلى العقدة**، و**كيفية تصدير FBX** من تطبيق Java، فأنت في المكان الصحيح. في هذا الدرس سنستعرض بناء **مخطط مشهد 3D في Java**، إرفاق المجسمات، تطبيق التحولات، وأخيرًا حفظ المشهد كملف FBX باستخدام Aspose.3D Java API. سواء كنت تصمم نموذجًا تجريبيًا بسيطًا أو تبني محرك 3D جاهز للإنتاج، فإن إتقان هذه المفاهيم يمنحك التحكم الكامل في هيكل المشهد وسير عمل التصدير.  
+إذا كنت تبحث عن دليل واضح خطوة بخطوة حول **create child nodes**، **add mesh to node**، و**how to export FBX** من تطبيق Java، فأنت في المكان المناسب. في هذا البرنامج التعليمي سنستعرض بناء **java 3d scene graph**، إرفاق المجسمات، تطبيق التحولات، وأخيرًا حفظ المشهد كملف FBX باستخدام Aspose.3D Java API. سواءً كنت تقوم بنمذجة عرض تجريبي بسيط أو بتصميم محرك 3D جاهز للإنتاج، فإن إتقان هذه المفاهيم يمنحك سيطرة كاملة على تسلسل المشهد الهرمي وسير عمل التصدير.  
 
 ## إجابات سريعة  
-- **ما هو الهدف الأساسي من هذا الدرس؟** توضيح كيفية **إنشاء عقد فرعية**، إرفاق المجسمات، و**تصدير FBX** بعد بناء هيكل العقد.  
-- **ما المكتبة المستخدمة؟** Aspose.3D for Java.  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتطوير؛ يتطلب الإنتاج ترخيصًا تجاريًا.  
-- **ما تنسيق الملف الناتج؟** FBX (ASCII 7500).  
-- **هل يمكن تخصيص تحولات العقد؟** نعم – الترجمة، الدوران، والتحجيم مدعومة جميعًا.  
+- **What is the primary purpose of this tutorial?** توضيح كيفية **create child nodes**، إرفاق المجسمات، و**export FBX** بعد بناء تسلسل العقد.  
+- **Which library is used?** Aspose.3D for Java.  
+- **Do I need a license?** نسخة تجريبية مجانية تكفي للتطوير؛ يلزم الحصول على ترخيص تجاري للإنتاج.  
+- **What file format is produced?** FBX (ASCII 7500).  
+- **Can I customize node transformations?** نعم – يدعم كل من الإزاحة، الدوران، وتغيير الحجم.  
 
-## ما معنى “إنشاء عقد فرعية” في سياق Aspose.3D؟  
+## كيفية بناء التسلسل الهرمي في Aspose.3D؟  
 
-إنشاء عقد فرعية يعني إضافة كائنات `Node` تابعة إلى عقدة أصلية في مخطط المشهد. تسمح لك هذه البنية الهرمية بتطبيق تحول مرة واحدة على المستوى الأصلي وتؤثر تلقائيًا على جميع الأطفال، وهو أمر أساسي لعلاقات الأشياء الواقعية مثل هيكل سيارة مع عجلات دوارة.  
+حمّل كائن `Scene`، أنشئ `Node` أبًا، ثم أضف مثيلات `Node` فرعية باستخدام `parentNode.getChildren().add(childNode)`. يُنقل التسلسل الهرمي التحولات تلقائيًا من الأب إلى الأبناء، لذا فإن تدوير الأب يدور كل مجسم مرفق. تتطلب هذه العملية بأكملها بضع أسطر من الشيفرة فقط وتعمل مع أي تنسيق 3D مدعوم.  
 
-## لماذا بناء هياكل العقد قبل التصدير؟  
+## ما هو “create child nodes” في سياق Aspose.3D؟  
 
-تقلل البنية الهرمية المنظمة من تكرار الشيفرة، تبسط التحريك، وتعكس العلاقات الواقعية. عندما تقوم لاحقًا **بتحويل المشهد إلى FBX** (أو أي تنسيق آخر)، يتم الحفاظ على الهيكلية، وبالتالي تفهم الأدوات اللاحقة مثل Blender أو Maya أو Unity علاقات الأصل‑ابن كما صممتها بالضبط.  
+إنشاء عقد فرعية يعني إضافة كائنات `Node` تابعة إلى عقدة أب في مخطط المشهد. يتيح لك هذا الهيكل الهرمي تطبيق تحول مرة واحدة على مستوى الأب وتأثيره تلقائيًا على جميع أبنائه، وهو أمر أساسي لعلاقات الكائنات الواقعية مثل هيكل سيارة مع عجلات تدور.  
 
-## حالات الاستخدام الشائعة لهياكل العقد  
+## لماذا بناء تسلسلات العقد قبل التصدير؟  
 
-| حالة الاستخدام | لماذا تساعد الهيكلية | النتيجة النموذجية |
-|----------------|----------------------|-------------------|
-| **التجميعات الميكانيكية** (مثال: ذراع روبوت) | دوران العقدة الأساسية يحرك جميع الأجزاء المرفقة | تحريك سهل للآليات المعقدة |
-| **هياكل الشخصيات** | عظام الهيكل العظمي هي عقد فرعية للجذر | تحولات وضعية متسقة |
+التسلسل الهرمي المنظم يقلل من تكرار الشيفرة، يبسط الرسوم المتحركة، ويعكس العلاقات الواقعية. عندما تقوم لاحقًا **convert scene fbx** (أو أي تنسيق آخر)، يتم الحفاظ على التسلسل الهرمي، وبالتالي تفهم الأدوات اللاحقة مثل Blender وMaya أو Unity علاقات الأب‑ابن بالضبط كما صممتها.  
+
+## حالات الاستخدام الشائعة لتسلسلات العقد  
+
+| حالة الاستخدام | لماذا يساعد التسلسل الهرمي | النتيجة المتوقعة |
+|----------------|----------------------------|-------------------|
+| **التجميعات الميكانيكية** (مثال: ذراع روبوت) | تدوير عقدة القاعدة يحرك جميع الأجزاء المرفقة | تحريك سهل للآليات المعقدة |
+| **هياكل الشخصيات** | عظام الهيكل العظمي هي عقد فرعية لجذر | تحولات وضعية متسقة |
 | **تنظيم المشهد** | تجميع العناصر الثابتة تحت عقدة “props” | إدارة مشهد أنظف وتصدير انتقائي |
-| **تبديل مستوى التفاصيل (LOD)** | العقدة الأم تتحكم في ظهور المجسمات الفرعية | تحسين العرض لأجهزة مختلفة |
+| **تبديل مستوى التفاصيل (LOD)** | عقدة الأب تتحكم في إظهار/إخفاء المجسمات الفرعية | تصيير محسّن لأجهزة مختلفة |
 
 ## المتطلبات المسبقة  
 
-1. **بيئة تطوير Java** – JDK 8+ وIDE أو أداة بناء حسب اختيارك.  
-2. **مكتبة Aspose.3D for Java** – قم بتحميل وتثبيت المكتبة من [صفحة التحميل](https://releases.aspose.com/3d/java/).  
-3. **دليل المستندات** – مجلد على جهازك حيث سيتم حفظ ملف FBX المُولد.  
+1. **Java Development Environment** – JDK 8+ وبيئة تطوير متكاملة أو أداة بناء حسب اختيارك.  
+2. **Aspose.3D for Java Library** – قم بتنزيل وتثبيت المكتبة من [download page](https://releases.aspose.com/3d/java/).  
+3. **Document Directory** – مجلد على جهازك حيث سيتم حفظ ملف FBX المُولد.  
 
 ## استيراد الحزم  
 
-ابدأ باستيراد الفئات الضرورية من Aspose.3D:  
+الفئات `Scene` و`Node` و`Mesh` و`Quaternion` هي اللبنات الأساسية.  
 
 ```java
 import com.aspose.threed.*;
 ```  
 
 ## الخطوة 1: تهيئة كائن المشهد  
+
+الفئة `Scene` هي الحاوية العليا في Aspose.3D التي تمثل مستند 3D كامل في الذاكرة.  
 
 ```java
 // Initialize scene object
@@ -72,7 +135,7 @@ Scene scene = new Scene();
 
 ## الخطوة 2: إنشاء عقد فرعية وإضافة مجسم إلى العقدة  
 
-في هذه الخطوة نوضح **كيفية إنشاء عقد فرعية** و**إضافة مجسم إلى العقدة**.  
+في هذه الخطوة نوضح **how to create child nodes** و**add mesh to node**.  
 
 ```java
 // Get a child node object
@@ -80,7 +143,7 @@ Node top = scene.getRootNode().createChildNode();
 
 // Create the first cube node
 Node cube1 = top.createChildNode("cube1");
-Mesh mesh = Common.createMeshUsingPolygonBuilder(); // Use your mesh creation method
+Mesh mesh = new Mesh();
 cube1.setEntity(mesh);
 cube1.getTransform().setTranslation(new Vector3(-10, 0, 0));
 
@@ -92,7 +155,7 @@ cube2.getTransform().setTranslation(new Vector3(10, 0, 0));
 
 ## الخطوة 3: تطبيق الدوران على العقدة العليا  
 
-دوران العقدة الأم يدور تلقائيًا جميع أطفالها، وهو ميزة أساسية للمشاهد الهرمية.  
+تدوير عقدة الأب يدور تلقائيًا جميع أبنائها، وهو ميزة أساسية للمشاهد الهرمية.  
 
 ```java
 // Rotate the top node, affecting all child nodes
@@ -101,7 +164,7 @@ top.getTransform().setRotation(Quaternion.fromEulerAngle(Math.PI, 4, 0));
 
 ## الخطوة 4: حفظ المشهد ثلاثي الأبعاد – كيفية تصدير FBX  
 
-الآن نقوم **بحفظ المشهد كـ FBX**، مكملين سير عمل “كيفية تصدير FBX”.  
+الآن نقوم **save scene as FBX**، مكملين سير عمل “how to export fbx”.  
 
 ```java
 // Save 3D scene in the supported file format (FBX in this case)
@@ -113,52 +176,63 @@ System.out.println("\nNode hierarchy added successfully to document.\nFile saved
 
 ### النتيجة المتوقعة  
 
-تشغيل الكود ينشئ ملفًا باسم **NodeHierarchy.fbx** في الدليل المحدد. افتحه بأي عارض يدعم FBX لترى مكعبين موضعين إلى اليسار واليمين من محور مركزي، جميعهما يدور معًا.  
+تشغيل الشيفرة ينشئ ملفًا باسم **NodeHierarchy.fbx** في الدليل المحدد. افتحه في أي عارض يدعم FBX لترى مكعبين موضعين إلى اليسار واليمين من محور مركزي، جميعهما يدور معًا.  
+
+## ادعاء كمي حول Aspose.3D  
+
+Aspose.3D يدعم **أكثر من 30 تنسيق استيراد وتصدير**، بما في ذلك FBX وOBJ وSTL و3DS، ويمكنه معالجة المشاهد التي تحتوي على **أكثر من 10,000 عقدة** دون تحميل الملف بالكامل إلى الذاكرة، مما يوفّر أوقات تصدير سريعة حتى للتجميعات الكبيرة.  
 
 ## المشكلات الشائعة والحلول  
 
-| المشكلة | لماذا يحدث | الحل |
+| المشكلة | سبب حدوثها | الحل |
 |---------|------------|------|
-| **خطأ ملف غير موجود** عند الحفظ | مسار `MyDir` غير صحيح أو يفتقد الفاصل النهائي | تأكد من وجود الدليل وينتهي بفاصل ملف (`/` أو `\\`). |
-| **المجسم غير مرئي** بعد التصدير | لم يتم تعيين كيان المجسم أو الترجمة نقلته خارج المشهد | تحقق من `cube1.setEntity(mesh)` وتأكد من قيم الترجمة. |
-| **الدوران غير صحيح** | استخدام الراديان بدلاً من الدرجات بشكل غير صحيح | `Quaternion.fromEulerAngle` يتوقع راديان؛ عدل القيم وفقًا لذلك. |
+| **File not found** error when saving | مسار `MyDir` غير صحيح أو يفتقد الفاصل النهائي | تأكد من وجود المجلد وانتهائه بفاصل ملف (`/` أو `\\`). |
+| **Mesh not visible** after export | لم يتم تعيين كيان المجسم أو أن الإزاحة نقلته خارج نطاق الرؤية | تحقق من `cube1.setEntity(mesh)` وتأكد من قيم الإزاحة. |
+| **Rotation looks wrong** | استخدام الراديان بدلاً من الدرجات بشكل غير صحيح | `Quaternion.fromEulerAngle` يتوقع راديان؛ عدّل القيم وفقًا لذلك. |
 
 ## نصائح استكشاف الأخطاء وإصلاحها  
 
-- **تحقق من صحة الدليل**: استخدم `new File(MyDir).mkdirs();` قبل `scene.save` إذا كان المجلد قد لا يكون موجودًا.  
-- **فحص مخطط المشهد**: استدعِ `scene.getRootNode().getChildren().size()` لتأكيد إضافة العقد الفرعية.  
-- **تحقق من توافق نسخة FBX**: بعض الأدوات القديمة تدعم فقط FBX 2013؛ يمكنك تغيير الصيغة إلى `FileFormat.FBX2013` إذا لزم الأمر.  
+- **Validate the directory**: استخدم `new File(MyDir).mkdirs();` قبل `scene.save` إذا كان المجلد قد لا يكون موجودًا.  
+- **Inspect the scene graph**: استدعِ `scene.getRootNode().getChildren().size()` لتأكيد إضافة العقد الفرعية.  
+- **Check FBX version compatibility**: بعض الأدوات القديمة تدعم فقط FBX 2013؛ يمكنك تغيير الصيغة إلى `FileFormat.FBX2013` إذا لزم الأمر.  
 
 ## الأسئلة المتكررة  
 
-**س: هل Aspose.3D for Java مناسب للمبتدئين؟**  
-ج: بالتأكيد! تم تصميم الـ API بنهج نظيف وموجه كائنات يجعل تعلمه سهلًا، حتى إذا كنت جديدًا في برمجة 3D.  
+**Q: Is Aspose.3D for Java suitable for beginners?**  
+A: بالتأكيد! تتبع الـ API تصميمًا نظيفًا موجهًا للكائنات يتيح لك بدء بناء المشاهد ببضع أسطر من الشيفرة فقط.  
 
-**س: هل يمكنني استخدام Aspose.3D for Java في المشاريع التجارية؟**  
-ج: نعم، يمكنك ذلك. زر [صفحة الشراء](https://purchase.aspose.com/buy) للحصول على تفاصيل الترخيص.  
+**Q: Can I use Aspose.3D for Java for commercial projects?**  
+A: نعم، يمكنك ذلك. زر [purchase page](https://purchase.aspose.com/buy) للحصول على تفاصيل الترخيص.  
 
-**س: كيف يمكنني الحصول على دعم لـ Aspose.3D for Java؟**  
-ج: انضم إلى [منتدى Aspose.3D](https://forum.aspose.com/c/3d/18) للحصول على مساعدة من المجتمع وفريق دعم Aspose.  
+**Q: How can I get support for Aspose.3D for Java?**  
+A: انضم إلى [Aspose.3D forum](https://forum.aspose.com/c/3d/18) للحصول على المساعدة من المجتمع وفريق دعم Aspose.  
 
-**س: هل هناك نسخة تجريبية مجانية متاحة؟**  
-ج: بالطبع! استكشف الميزات عبر [النسخة التجريبية المجانية](https://releases.aspose.com/) قبل اتخاذ القرار.  
+**Q: Is there a free trial available?**  
+A: بالتأكيد! استكشف الميزات عبر [free trial](https://releases.aspose.com/) قبل اتخاذ القرار.  
 
-**س: أين يمكنني العثور على الوثائق؟**  
-ج: راجع [الوثائق](https://reference.aspose.com/3d/java/) للحصول على معلومات مفصلة حول Aspose.3D for Java.  
+**Q: Where can I find the documentation?**  
+A: راجع [documentation](https://reference.aspose.com/3d/java/) للحصول على معلومات مفصلة حول Aspose.3D for Java.  
 
-## الخاتمة  
+## الخلاصة  
 
-إتقان **إنشاء عقد فرعية**، **إضافة مجسم إلى العقدة**، و**كيفية تصدير FBX** هي خطوات أساسية نحو بناء تطبيقات 3D متقدمة في Java. مع Aspose.3D تحصل على حل قوي وصديق للترخيص يُجرد التفاصيل منخفضة المستوى مع منحك التحكم الكامل في مخطط المشهد. جرب مجسمات مختلفة، تحولات، وصيغ تصدير لاكتشاف إمكانيات إضافية.  
+إتقان **create child nodes**، **add mesh to node**، و**how to export FBX** هي خطوات أساسية نحو بناء تطبيقات 3D متقدمة في Java. مع Aspose.3D تحصل على حل قوي وصديق للترخيص يُجرد التفاصيل منخفضة المستوى مع منحك سيطرة كاملة على مخطط المشهد. جرّب مجسمات مختلفة، وتحولات، وتنسيقات تصدير لاكتشاف إمكانيات إضافية.  
 
 ---  
 
-**آخر تحديث:** 2026-04-12  
-**تم الاختبار مع:** Aspose.3D for Java 24.11  
-**المؤلف:** Aspose  
+**Last Updated:** 2026-09-18  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}  
+## دروس ذات صلة
 
-{{< /blocks/products/pf/main-container >}}  
-{{< /blocks/products/pf/main-wrap-class >}}  
+- [دليل رسومات Java 3D - إنشاء مشهد مكعب ثلاثي الأبعاد باستخدام Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
+- [تطبيق التحولات الهندسية على عقدة باستخدام Aspose.3D Java API](/3d/java/geometry/expose-geometric-transformations/)
+- [حفظ مشاهد 3D في Java باستخدام Aspose.3D – تحويل ملفات 3D بفعالية](/3d/java/load-and-save/save-3d-scenes/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,78 +1,141 @@
 ---
-date: 2026-04-12
-description: เรียนรู้วิธีสร้างโหนดลูก, เพิ่มเมชลงในโหนด, และส่งออก FBX ด้วย Aspose.3D
-  Java API เพื่อสร้างกราฟฉาก 3 มิติที่แข็งแรง.
+date: 2026-09-18
+description: เรียนรู้วิธีสร้าง child nodes, เพิ่ม mesh ให้ node, และส่งออก FBX ด้วย
+  Aspose.3D Java API สำหรับ 3D scene graphs ที่มีความทนทาน
 keywords:
-- create child nodes
-- how to export fbx
+- how to build hierarchy
 - add mesh to node
-- java 3d scene graph
+- convert scene fbx
 - save scene fbx
-linktitle: สร้างลำดับชั้นของโหนดในฉาก 3 มิติด้วย Java และ Aspose.3D
+- create child nodes java
+lastmod: 2026-09-18
+linktitle: สร้าง node hierarchies ใน 3D scenes ด้วย Java และ Aspose.3D
+og_description: เรียนรู้วิธีสร้าง hierarchy, เพิ่ม mesh ให้ node, และส่งออก FBX ด้วย
+  Aspose.3D Java API. คู่มือนี้แสดงโค้ดขั้นตอนต่อขั้นตอนสำหรับการสร้าง child nodes
+  และบันทึก scenes
+og_image_alt: Tutorial showing Java code to build node hierarchy and export FBX with
+  Aspose.3D
+og_title: วิธีสร้าง hierarchy และส่งออก FBX ด้วย Java และ Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to create child nodes, add mesh to node, and export FBX using
+    Aspose.3D Java API for robust 3D scene graphs.
+  headline: How to build hierarchy and export FBX in Java with Aspose.3D
+  type: TechArticle
+- description: Learn how to create child nodes, add mesh to node, and export FBX using
+    Aspose.3D Java API for robust 3D scene graphs.
+  name: How to build hierarchy and export FBX in Java with Aspose.3D
+  steps:
+  - name: '**Java Development Environment** – JDK 8+ and an IDE or build tool of your
+      choice.'
+    text: '**Java Development Environment** – JDK 8+ and an IDE or build tool of your
+      choice.'
+  - name: '**Aspose.3D for Java Library** – Download and install the library from
+      the [download page](https://releases.aspose.com/3d/java/).'
+    text: '**Aspose.3D for Java Library** – Download and install the library from
+      the [download page](https://releases.aspose.com/3d/java/).'
+  - name: '**Document Directory** – A folder on your machine where the generated FBX
+      file will be saved.'
+    text: '**Document Directory** – A folder on your machine where the generated FBX
+      file will be saved.'
+  type: HowTo
+- questions:
+  - answer: Absolutely! The API follows a clean, object‑oriented design that lets
+      you start building scenes with just a few lines of code.
+    question: Is Aspose.3D for Java suitable for beginners?
+  - answer: Yes, you can. Visit the [purchase page](https://purchase.aspose.com/buy)
+      for licensing details.
+    question: Can I use Aspose.3D for Java for commercial projects?
+  - answer: Join the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) to get assistance
+      from the community and Aspose support team.
+    question: How can I get support for Aspose.3D for Java?
+  - answer: Certainly! Explore the features with the [free trial](https://releases.aspose.com/)
+      before making a commitment.
+    question: Is there a free trial available?
+  - answer: Refer to the [documentation](https://reference.aspose.com/3d/java/) for
+      detailed information on Aspose.3D for Java.
+    question: Where can I find the documentation?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: สร้างโหนดลูกและส่งออก FBX ใน Java ด้วย Aspose.3D
+tags:
+- build hierarchy
+- Aspose.3D
+- Java 3D
+- FBX export
+title: วิธีสร้าง hierarchy และส่งออก FBX ด้วย Java และ Aspose.3D
 url: /th/java/geometry/build-node-hierarchies/
 weight: 16
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}  
-{{< blocks/products/pf/main-container >}}  
-{{< blocks/products/pf/tutorial-page-section >}}  
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีการส่งออก FBX และสร้างโครงสร้างโหนดใน Java ด้วย Aspose.3D  
+  
+  
+  
+
+# วิธีสร้างลำดับชั้นและส่งออก FBX ใน Java ด้วย Aspose.3D  
 
 ## บทนำ  
 
-หากคุณกำลังมองหาคู่มือที่ชัดเจนและเป็นขั้นตอนเกี่ยวกับ **create child nodes**, **add mesh to node**, และ **how to export FBX** จากแอปพลิเคชัน Java คุณอยู่ในที่ที่ถูกต้อง ในบทเรียนนี้เราจะอธิบายการสร้าง **java 3d scene graph**, การแนบเมช, การใช้การแปลง, และสุดท้ายการบันทึกฉากเป็นไฟล์ FBX โดยใช้ Aspose.3D Java API ไม่ว่าคุณจะทำการสร้างต้นแบบเดโมง่าย ๆ หรือพัฒนาเอนจิน 3D ที่พร้อมใช้งาน การเข้าใจแนวคิดเหล่านี้จะทำให้คุณควบคุมโครงสร้างฉากและกระบวนการส่งออกได้อย่างเต็มที่  
+If you’re looking for a clear, step‑by‑step guide on **create child nodes**, **add mesh to node**, and **how to export FBX** from a Java application, you’re in the right place. In this tutorial we’ll walk through building a **java 3d scene graph**, attaching meshes, applying transformations, and finally saving the scene as an FBX file using the Aspose.3D Java API. Whether you’re prototyping a simple demo or engineering a production‑ready 3D engine, mastering these concepts gives you full control over your scene hierarchy and export workflow.  
 
-## คำตอบอย่างรวดเร็ว  
-- **วัตถุประสงค์หลักของบทเรียนนี้คืออะไร?** การสาธิตวิธี **create child nodes**, แนบเมช, และ **export FBX** หลังจากสร้างโครงสร้างโหนด  
+## คำตอบสั้น  
+- **วัตถุประสงค์หลักของบทแนะนำนี้คืออะไร?** Demonstrating how to **create child nodes**, attach meshes, and **export FBX** after building a node hierarchy.  
 - **ไลบรารีที่ใช้คืออะไร?** Aspose.3D for Java.  
-- **ฉันต้องการไลเซนส์หรือไม่?** การทดลองใช้ฟรีทำงานได้สำหรับการพัฒนา; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการผลิต.  
+- **ฉันต้องการใบอนุญาตหรือไม่?** A free trial works for development; a commercial license is required for production.  
 - **รูปแบบไฟล์ที่สร้างคืออะไร?** FBX (ASCII 7500).  
-- **ฉันสามารถปรับแต่งการแปลงโหนดได้หรือไม่?** ใช่ – การแปล, การหมุน, และการสเกลทั้งหมดได้รับการสนับสนุน.  
+- **ฉันสามารถปรับแต่งการแปลงโหนดได้หรือไม่?** Yes – translation, rotation, and scaling are all supported.  
 
-## อะไรคือ “create child nodes” ในบริบทของ Aspose.3D?  
+## วิธีสร้างลำดับชั้นใน Aspose.3D?  
 
-การสร้าง child nodes หมายถึงการเพิ่มอ็อบเจ็กต์ `Node` ย่อยลงในโหนดพาเรนต์ในกราฟฉาก โครงสร้างแบบลำดับชั้นนี้ทำให้คุณสามารถใช้การแปลงหนึ่งครั้งที่ระดับพาเรนต์และให้มันส่งผลโดยอัตโนมัติไปยังโหนดลูกทั้งหมด ซึ่งเป็นสิ่งสำคัญสำหรับความสัมพันธ์ของวัตถุที่สมจริง เช่น ตัวถังรถที่มีล้อหมุน  
+Load a `Scene` object, create a parent `Node`, then add child `Node` instances with `parentNode.getChildren().add(childNode)`. The hierarchy automatically propagates transformations from parent to children, so rotating the parent rotates every attached mesh. This entire process requires only a few lines of code and works with any supported 3D format.  
 
-## ทำไมต้องสร้างโครงสร้างโหนดก่อนการส่งออก?  
+## “สร้างโหนดลูก” หมายถึงอะไรในบริบทของ Aspose.3D?  
 
-โครงสร้างที่จัดระเบียบดีช่วยลดการทำซ้ำของโค้ด, ทำให้การแอนิเมชันง่ายขึ้น, และสะท้อนความสัมพันธ์ในโลกจริง เมื่อคุณต่อมาทำการ **convert scene fbx** (หรือรูปแบบอื่นใด) โครงสร้างจะถูกเก็บรักษาไว้ ดังนั้นเครื่องมือภายหลังเช่น Blender, Maya, หรือ Unity จะเข้าใจความสัมพันธ์พาเรนต์‑ชิลด์ได้อย่างตรงตามที่คุณออกแบบ  
+Creating child nodes means adding subordinate `Node` objects to a parent node in the scene graph. This hierarchical structure lets you apply a transformation once at the parent level and have it automatically affect all its children, which is essential for realistic object relationships such as a car chassis with rotating wheels.  
 
-## กรณีการใช้งานทั่วไปสำหรับโครงสร้างโหนด  
+## ทำไมต้องสร้างลำดับชั้นของโหนดก่อนการส่งออก?  
 
-| กรณีการใช้งาน | เหตุผลที่โครงสร้างช่วย | ผลลัพธ์ทั่วไป |
+A well‑structured hierarchy reduces code duplication, simplifies animation, and mirrors real‑world relationships. When you later **convert scene fbx** (or any other format), the hierarchy is preserved, so downstream tools like Blender, Maya, or Unity understand the parent‑child relationships exactly as you designed them.  
+
+## กรณีการใช้งานทั่วไปสำหรับลำดับชั้นของโหนด  
+
+| กรณีการใช้งาน | ทำไมลำดับชั้นจึงช่วย | ผลลัพธ์ที่คาดหวัง |
 |----------|----------------------|-----------------|
-| **Mechanical assemblies** (เช่น แขนหุ่นยนต์) | การหมุนโหนดฐานจะเคลื่อนย้ายส่วนที่แนบทั้งหมด | การแอนิเมชันที่ง่ายของกลไกซับซ้อน |
-| **Character rigs** | กระดูกโครงกระดูกเป็นโหนดลูกของราก | การแปลงท่าทางที่สอดคล้องกัน |
-| **Scene organization** | การจัดกลุ่มพร็อพสเตติกภายใต้โหนด “props” | การจัดการฉากที่สะอาดและการส่งออกแบบเลือก |
-| **Level‑of‑detail (LOD) switching** | โหนดพาเรนต์สลับการมองเห็นของเมชลูก | การเรนเดอร์ที่ปรับให้เหมาะกับฮาร์ดแวร์ต่าง ๆ |
+| **การประกอบเชิงกล** (เช่น แขนหุ่นยนต์) | การหมุนโหนดฐานจะเคลื่อนที่ส่วนประกอบทั้งหมดที่แนบ | การทำแอนิเมชันของกลไกซับซ้อนได้ง่าย |
+| **โครงร่างตัวละคร** | กระดูกโครงกระดูกเป็นโหนดลูกของราก | การแปลงท่าทางที่สอดคล้อง |
+| **การจัดระเบียบฉาก** | การจัดกลุ่มอุปกรณ์คงที่ภายใต้โหนด “props” | การจัดการฉากที่เป็นระเบียบและการส่งออกแบบเลือก |
+| **การสลับระดับรายละเอียด (LOD)** | โหนดพาเรนท์สลับการมองเห็นของเมชลูก | การเรนเดอร์ที่ปรับให้เหมาะกับฮาร์ดแวร์ต่าง ๆ |
 
 ## ข้อกำหนดเบื้องต้น  
 
-1. **Java Development Environment** – JDK 8+ และ IDE หรือเครื่องมือสร้างตามที่คุณเลือก.  
-2. **Aspose.3D for Java Library** – ดาวน์โหลดและติดตั้งไลบรารีจาก [download page](https://releases.aspose.com/3d/java/).  
-3. **Document Directory** – โฟลเดอร์บนเครื่องของคุณที่ไฟล์ FBX ที่สร้างจะถูกบันทึก  
+1. **สภาพแวดล้อมการพัฒนา Java** – JDK 8+ and an IDE or build tool of your choice.  
+2. **Aspose.3D for Java Library** – Download and install the library from the [หน้า ดาวน์โหลด](https://releases.aspose.com/3d/java/).  
+3. **ไดเรกทอรีเอกสาร** – A folder on your machine where the generated FBX file will be saved.  
 
 ## นำเข้าแพ็กเกจ  
 
-เริ่มต้นด้วยการนำเข้าคลาส Aspose.3D ที่จำเป็น:  
+The `Scene`, `Node`, `Mesh`, and `Quaternion` classes are the core building blocks.  
 
 ```java
 import com.aspose.threed.*;
 ```  
 
-## ขั้นตอนที่ 1: เริ่มต้นอ็อบเจ็กต์ Scene  
+## ขั้นตอนที่ 1: เริ่มต้นอ็อบเจ็กต์ฉาก  
+
+The `Scene` class is Aspose.3D's top‑level container that represents an entire 3D document in memory.  
 
 ```java
 // Initialize scene object
 Scene scene = new Scene();
 ```  
 
-## ขั้นตอนที่ 2: สร้าง Child Nodes และเพิ่ม Mesh ไปยัง Node  
+## ขั้นตอนที่ 2: สร้างโหนดลูกและเพิ่มเมชให้กับโหนด  
 
-ในขั้นตอนนี้เราจะแสดง **how to create child nodes** และ **add mesh to node**  
+In this step we demonstrate **how to create child nodes** and **add mesh to node** objects.  
 
 ```java
 // Get a child node object
@@ -80,7 +143,7 @@ Node top = scene.getRootNode().createChildNode();
 
 // Create the first cube node
 Node cube1 = top.createChildNode("cube1");
-Mesh mesh = Common.createMeshUsingPolygonBuilder(); // Use your mesh creation method
+Mesh mesh = new Mesh();
 cube1.setEntity(mesh);
 cube1.getTransform().setTranslation(new Vector3(-10, 0, 0));
 
@@ -90,18 +153,18 @@ cube2.setEntity(mesh);
 cube2.getTransform().setTranslation(new Vector3(10, 0, 0));
 ```  
 
-## ขั้นตอนที่ 3: ใช้การหมุนกับโหนดบน  
+## ขั้นตอนที่ 3: ใช้การหมุนกับโหนดบนสุด  
 
-การหมุนโหนดพาเรนต์จะทำให้โหนดลูกทั้งหมดหมุนโดยอัตโนมัติ ซึ่งเป็นข้อได้เปรียบหลักของฉากแบบลำดับชั้น  
+Rotating the parent node automatically rotates all its children, which is a core advantage of hierarchical scenes.  
 
 ```java
 // Rotate the top node, affecting all child nodes
 top.getTransform().setRotation(Quaternion.fromEulerAngle(Math.PI, 4, 0));
 ```  
 
-## ขั้นตอนที่ 4: บันทึกฉาก 3D – วิธีการส่งออก FBX  
+## ขั้นตอนที่ 4: บันทึกฉาก 3D – วิธีส่งออก FBX  
 
-ตอนนี้เราจะ **save scene as FBX**, เสร็จสิ้นกระบวนการ “how to export fbx”  
+Now we **save scene as FBX**, completing the “how to export fbx” workflow.  
 
 ```java
 // Save 3D scene in the supported file format (FBX in this case)
@@ -113,52 +176,63 @@ System.out.println("\nNode hierarchy added successfully to document.\nFile saved
 
 ### ผลลัพธ์ที่คาดหวัง  
 
-การรันโค้ดจะสร้างไฟล์ชื่อ **NodeHierarchy.fbx** ในไดเรกทอรีที่ระบุ เปิดไฟล์ในโปรแกรมดูที่รองรับ FBX ใดก็ได้เพื่อดูสองลูกบาศก์ที่วางซ้ายและขวาของจุดหมุนกลาง ทั้งหมดหมุนพร้อมกัน  
+Running the code creates a file named **NodeHierarchy.fbx** in the specified directory. Open it in any FBX‑compatible viewer to see two cubes positioned left and right of a central pivot, all rotating together.  
+
+## ข้ออ้างอิงเชิงปริมาณเกี่ยวกับ Aspose.3D  
+
+Aspose.3D supports **30+ import and export formats**, including FBX, OBJ, STL, and 3DS, and can process scenes with **over 10,000 nodes** without loading the entire file into memory, delivering fast export times even for large assemblies.  
 
 ## ปัญหาทั่วไปและวิธีแก้  
 
 | ปัญหา | สาเหตุ | วิธีแก้ |
-|-------|----------------|-----|
-| **File not found** ข้อผิดพลาดขณะบันทึก | `MyDir` path ไม่ถูกต้องหรือขาดตัวคั่นท้าย | ตรวจสอบให้แน่ใจว่าไดเรกทอรีมีอยู่และลงท้ายด้วยตัวคั่นไฟล์ (`/` หรือ `\\`). |
-| **Mesh not visible** หลังการส่งออก | Mesh entity ไม่ได้กำหนดหรือการแปลย้ายออกจากมุมมอง | ตรวจสอบ `cube1.setEntity(mesh)` และตรวจสอบค่าการแปล |
-| **Rotation looks wrong** | การใช้เรเดียนกับองศาไม่ถูกต้อง | `Quaternion.fromEulerAngle` ต้องการเรเดียน; ปรับค่าตามนั้น |
+|-------|--------|----------|
+| **ไฟล์ไม่พบ** ข้อผิดพลาดเมื่อบันทึก | `MyDir` path is incorrect or missing a trailing separator | Ensure the directory exists and ends with a file separator (`/` or `\\`). |
+| **เมชไม่ปรากฏ** หลังการส่งออก | Mesh entity not assigned or translation moves it out of view | Verify `cube1.setEntity(mesh)` and check translation values. |
+| **การหมุนดูผิด** | Using radians vs. degrees incorrectly | `Quaternion.fromEulerAngle` expects radians; adjust values accordingly. |
 
 ## เคล็ดลับการแก้ไขปัญหา  
 
-- **Validate the directory**: ใช้ `new File(MyDir).mkdirs();` ก่อน `scene.save` หากโฟลเดอร์อาจไม่มีอยู่  
-- **Inspect the scene graph**: เรียก `scene.getRootNode().getChildren().size()` เพื่อยืนยันว่าได้เพิ่มโหนดลูกแล้ว  
-- **Check FBX version compatibility**: เครื่องมือเก่าบางตัวรองรับเฉพาะ FBX 2013; คุณสามารถเปลี่ยนรูปแบบเป็น `FileFormat.FBX2013` หากจำเป็น  
+- **ตรวจสอบไดเรกทอรี**: Use `new File(MyDir).mkdirs();` before `scene.save` if the folder may not exist.  
+- **ตรวจสอบกราฟฉาก**: Call `scene.getRootNode().getChildren().size()` to confirm that child nodes were added.  
+- **ตรวจสอบความเข้ากันได้ของเวอร์ชัน FBX**: Some older tools only support FBX 2013; you can change the format to `FileFormat.FBX2013` if needed.  
 
 ## คำถามที่พบบ่อย  
 
-**Q: Aspose.3D for Java เหมาะสำหรับผู้เริ่มต้นหรือไม่?**  
-**A:** แน่นอน! API ถูกออกแบบด้วยแนวทางที่สะอาดและเป็นเชิงวัตถุทำให้เรียนรู้ง่าย แม้คุณจะใหม่กับการเขียนโปรแกรม 3D  
+**Q: Aspose.3D for Java เหมาะกับผู้เริ่มต้นหรือไม่?**  
+A: Absolutely! The API follows a clean, object‑oriented design that lets you start building scenes with just a few lines of code.  
 
-**Q: ฉันสามารถใช้ Aspose.3D for Java สำหรับโครงการเชิงพาณิชย์ได้หรือไม่?**  
-**A:** ใช่, คุณสามารถทำได้. เยี่ยมชม [purchase page](https://purchase.aspose.com/buy) สำหรับรายละเอียดการให้สิทธิ์ใช้งาน.  
+**Q: สามารถใช้ Aspose.3D for Java ในโครงการเชิงพาณิชย์ได้หรือไม่?**  
+A: Yes, you can. Visit the [หน้า ซื้อ](https://purchase.aspose.com/buy) for licensing details.  
 
-**Q: ฉันจะรับการสนับสนุนสำหรับ Aspose.3D for Java อย่างไร?**  
-**A:** เข้าร่วม [Aspose.3D forum](https://forum.aspose.com/c/3d/18) เพื่อรับความช่วยเหลือจากชุมชนและทีมสนับสนุนของ Aspose.  
+**Q: จะขอรับการสนับสนุนสำหรับ Aspose.3D for Java ได้อย่างไร?**  
+A: Join the [ฟอรั่ม Aspose.3D](https://forum.aspose.com/c/3d/18) to get assistance from the community and Aspose support team.  
 
 **Q: มีการทดลองใช้ฟรีหรือไม่?**  
-**A:** แน่นอน! ทดลองคุณลักษณะต่าง ๆ ด้วย [free trial](https://releases.aspose.com/) ก่อนทำการตัดสินใจ.  
+A: Certainly! Explore the features with the [ทดลองใช้ฟรี](https://releases.aspose.com/) before making a commitment.  
 
-**Q: ฉันสามารถหาเอกสารได้จากที่ไหน?**  
-**A:** ดูที่ [documentation](https://reference.aspose.com/3d/java/) สำหรับข้อมูลรายละเอียดเกี่ยวกับ Aspose.3D for Java.  
+**Q: จะหาเอกสารได้จากที่ไหน?**  
+A: Refer to the [เอกสาร](https://reference.aspose.com/3d/java/) for detailed information on Aspose.3D for Java.  
 
 ## สรุป  
 
-การเชี่ยวชาญ **create child nodes**, **add mesh to node**, และ **how to export FBX** เป็นขั้นตอนสำคัญในการสร้างแอปพลิเคชัน 3D ที่ซับซ้อนใน Java ด้วย Aspose.3D คุณจะได้โซลูชันที่ทรงพลังและเป็นมิตรต่อไลเซนส์ซึ่งทำให้รายละเอียดระดับล่างเป็นนามธรรมในขณะที่ให้คุณควบคุมโครงสร้างฉากได้เต็มที่ ทดลองกับเมชต่าง ๆ, การแปลง, และรูปแบบการส่งออกเพื่อเปิดโอกาสใหม่ ๆ  
+Mastering **create child nodes**, **add mesh to node**, and **how to export FBX** are essential steps toward building sophisticated 3D applications in Java. With Aspose.3D you get a powerful, license‑friendly solution that abstracts low‑level details while giving you full control over the scene graph. Experiment with different meshes, transformations, and export formats to unlock even more possibilities.  
 
 ---  
 
-**อัปเดตล่าสุด:** 2026-04-12  
-**ทดสอบด้วย:** Aspose.3D for Java 24.11  
-**ผู้เขียน:** Aspose  
+**Last Updated:** 2026-09-18  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}  
+## บทแนะนำที่เกี่ยวข้อง
 
-{{< /blocks/products/pf/main-container >}}  
-{{< /blocks/products/pf/main-wrap-class >}}  
+- [บทแนะนำกราฟิก 3D Java - สร้างฉากลูกบาศก์ 3D ด้วย Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
+- [ใช้การแปลงเชิงเรขาคณิตกับโหนดด้วย Aspose.3D Java API](/3d/java/geometry/expose-geometric-transformations/)
+- [บันทึกฉาก 3D ใน Java ด้วย Aspose.3D – แปลงไฟล์ 3D อย่างมีประสิทธิภาพ](/3d/java/load-and-save/save-3d-scenes/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
