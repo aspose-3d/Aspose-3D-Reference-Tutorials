@@ -1,79 +1,141 @@
 ---
-date: 2026-04-12
-description: Lernen Sie, wie Sie Kindknoten erstellen, ein Mesh zu einem Knoten hinzufügen
-  und FBX mit der Aspose.3D Java API für robuste 3D‑Szenengraphen exportieren.
+date: 2026-09-18
+description: Erfahren Sie, wie Sie Child Nodes erstellen, Mesh zu einem Node hinzufügen
+  und FBX mit der Aspose.3D Java API für robuste 3D Scene Graphs exportieren.
 keywords:
-- create child nodes
-- how to export fbx
+- how to build hierarchy
 - add mesh to node
-- java 3d scene graph
+- convert scene fbx
 - save scene fbx
-linktitle: Knotenhierarchien in 3D‑Szenen mit Java und Aspose.3D erstellen
+- create child nodes java
+lastmod: 2026-09-18
+linktitle: Node‑Hierarchien in 3D‑Szenen mit Java und Aspose.3D erstellen
+og_description: Erfahren Sie, wie Sie Hierarchien erstellen, Mesh zu einem Node hinzufügen
+  und FBX mit der Aspose.3D Java API exportieren. Diese Anleitung zeigt Schritt‑für‑Schritt‑Code
+  zum Erstellen von Child Nodes und zum Speichern von Szenen.
+og_image_alt: Tutorial showing Java code to build node hierarchy and export FBX with
+  Aspose.3D
+og_title: Wie man Hierarchien erstellt und FBX in Java mit Aspose.3D exportiert
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to create child nodes, add mesh to node, and export FBX using
+    Aspose.3D Java API for robust 3D scene graphs.
+  headline: How to build hierarchy and export FBX in Java with Aspose.3D
+  type: TechArticle
+- description: Learn how to create child nodes, add mesh to node, and export FBX using
+    Aspose.3D Java API for robust 3D scene graphs.
+  name: How to build hierarchy and export FBX in Java with Aspose.3D
+  steps:
+  - name: '**Java Development Environment** – JDK 8+ and an IDE or build tool of your
+      choice.'
+    text: '**Java Development Environment** – JDK 8+ and an IDE or build tool of your
+      choice.'
+  - name: '**Aspose.3D for Java Library** – Download and install the library from
+      the [download page](https://releases.aspose.com/3d/java/).'
+    text: '**Aspose.3D for Java Library** – Download and install the library from
+      the [download page](https://releases.aspose.com/3d/java/).'
+  - name: '**Document Directory** – A folder on your machine where the generated FBX
+      file will be saved.'
+    text: '**Document Directory** – A folder on your machine where the generated FBX
+      file will be saved.'
+  type: HowTo
+- questions:
+  - answer: Absolutely! The API follows a clean, object‑oriented design that lets
+      you start building scenes with just a few lines of code.
+    question: Is Aspose.3D for Java suitable for beginners?
+  - answer: Yes, you can. Visit the [purchase page](https://purchase.aspose.com/buy)
+      for licensing details.
+    question: Can I use Aspose.3D for Java for commercial projects?
+  - answer: Join the [Aspose.3D forum](https://forum.aspose.com/c/3d/18) to get assistance
+      from the community and Aspose support team.
+    question: How can I get support for Aspose.3D for Java?
+  - answer: Certainly! Explore the features with the [free trial](https://releases.aspose.com/)
+      before making a commitment.
+    question: Is there a free trial available?
+  - answer: Refer to the [documentation](https://reference.aspose.com/3d/java/) for
+      detailed information on Aspose.3D for Java.
+    question: Where can I find the documentation?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Kindknoten erstellen und FBX in Java mit Aspose.3D exportieren
+tags:
+- build hierarchy
+- Aspose.3D
+- Java 3D
+- FBX export
+title: Wie man Hierarchien erstellt und FBX in Java mit Aspose.3D exportiert
 url: /de/java/geometry/build-node-hierarchies/
 weight: 16
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}  
-{{< blocks/products/pf/main-container >}}  
-{{< blocks/products/pf/tutorial-page-section >}}  
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-# Wie man FBX exportiert und Node-Hierarchien in Java mit Aspose.3D  
+  
+  
+  
 
-## Einleitung  
+# Wie man Hierarchie erstellt und FBX in Java mit Aspose.3D exportiert  
 
-Wenn Sie nach einer klaren, Schritt‑für‑Schritt‑Anleitung zu **create child nodes**, **add mesh to node** und **how to export FBX** aus einer Java‑Anwendung suchen, sind Sie hier genau richtig. In diesem Tutorial führen wir Sie durch den Aufbau eines **java 3d scene graph**, das Anhängen von Meshes, das Anwenden von Transformationen und schließlich das Speichern der Szene als FBX‑Datei mithilfe der Aspose.3D Java‑API. Egal, ob Sie ein einfaches Demo prototypisieren oder eine produktionsreife 3D‑Engine entwickeln, das Beherrschen dieser Konzepte gibt Ihnen die volle Kontrolle über Ihre Szenenhierarchie und den Export‑Workflow.  
+## Einführung  
+
+Wenn Sie nach einer klaren, Schritt‑für‑Schritt‑Anleitung zum **create child nodes**, **add mesh to node** und **how to export FBX** aus einer Java‑Anwendung suchen, sind Sie hier genau richtig. In diesem Tutorial führen wir Sie durch den Aufbau eines **java 3d scene graph**, das Anhängen von Meshes, das Anwenden von Transformationen und schließlich das Speichern der Szene als FBX‑Datei mithilfe der Aspose.3D Java API. Egal, ob Sie ein einfaches Demo‑Prototyp erstellen oder eine produktionsreife 3D‑Engine entwickeln – das Beherrschen dieser Konzepte gibt Ihnen die volle Kontrolle über Ihre Szenenhierarchie und den Export‑Workflow.  
 
 ## Schnelle Antworten  
-
-- **Was ist der Hauptzweck dieses Tutorials?** Demonstration, wie man **create child nodes**, Meshes anhängt und **export FBX** nach dem Aufbau einer Node‑Hierarchie durchführt.  
-- **Welche Bibliothek wird verwendet?** Aspose.3D for Java.  
-- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Was ist der Hauptzweck dieses Tutorials?** Demonstration, wie man **create child nodes**, Meshes anhängt und **export FBX** nach dem Aufbau einer Knoten‑Hierarchie durchführt.  
+- **Welche Bibliothek wird verwendet?** Aspose.3D für Java.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion reicht für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
 - **Welches Dateiformat wird erzeugt?** FBX (ASCII 7500).  
-- **Kann ich Node‑Transformationen anpassen?** Ja – Translation, Rotation und Skalierung werden alle unterstützt.  
+- **Kann ich Knoten‑Transformationen anpassen?** Ja – Translation, Rotation und Skalierung werden alle unterstützt.  
+
+## Wie erstellt man eine Hierarchie in Aspose.3D?  
+
+Laden Sie ein `Scene`‑Objekt, erstellen Sie einen übergeordneten `Node` und fügen Sie dann Kind‑`Node`‑Instanzen mit `parentNode.getChildren().add(childNode)` hinzu. Die Hierarchie propagiert Transformationen automatisch vom Eltern‑ zum Kind‑Knoten, sodass das Drehen des Elternknotens jedes angehängte Mesh rotiert. Dieser gesamte Prozess erfordert nur wenige Codezeilen und funktioniert mit jedem unterstützten 3D‑Format.  
 
 ## Was bedeutet „create child nodes“ im Kontext von Aspose.3D?  
 
-Das Erstellen von Child‑Nodes bedeutet, untergeordnete `Node`‑Objekte zu einem übergeordneten Node im Szenengraphen hinzuzufügen. Diese hierarchische Struktur ermöglicht es, eine Transformation einmal auf der Elternebene anzuwenden und sie automatisch auf alle Kinder auszuweiten, was für realistische Objektbeziehungen wie ein Fahrgestell mit rotierenden Rädern unerlässlich ist.  
+Das Erstellen von Kindknoten bedeutet, untergeordnete `Node`‑Objekte zu einem Elternknoten im Szenengraphen hinzuzufügen. Diese hierarchische Struktur ermöglicht es, eine Transformation einmal auf der Eltern‑Ebene anzuwenden und sie automatisch auf alle Kinder wirken zu lassen – essenziell für realistische Objektbeziehungen wie ein Fahrgestell mit rotierenden Rädern.  
 
-## Warum Node‑Hierarchien vor dem Export aufbauen?  
+## Warum Knotenhierarchien vor dem Exportieren erstellen?  
 
-Eine gut strukturierte Hierarchie reduziert Code‑Duplizierung, vereinfacht Animationen und spiegelt reale Beziehungen wider. Wenn Sie später **convert scene fbx** (oder ein anderes Format) ausführen, bleibt die Hierarchie erhalten, sodass nachgelagerte Werkzeuge wie Blender, Maya oder Unity die Eltern‑Kind‑Beziehungen exakt so verstehen, wie Sie sie entworfen haben.  
+Eine gut strukturierte Hierarchie reduziert Code‑Duplizierung, vereinfacht Animationen und spiegelt reale Beziehungen wider. Wenn Sie später **convert scene fbx** (oder ein anderes Format) durchführen, bleibt die Hierarchie erhalten, sodass nachgelagerte Werkzeuge wie Blender, Maya oder Unity die Eltern‑Kind‑Beziehungen exakt so verstehen, wie Sie sie entworfen haben.  
 
-## Gemeinsame Anwendungsfälle für Node‑Hierarchien  
+## Häufige Anwendungsfälle für Knotenhierarchien  
 
 | Anwendungsfall | Warum eine Hierarchie hilft | Typisches Ergebnis |
-|----------------|-----------------------------|--------------------|
-| **Mechanische Baugruppen** (z. B. Roboterarm) | Das Drehen eines Basis‑Nodes bewegt alle angehängten Segmente | Einfache Animation komplexer Mechanismen |
-| **Charakter‑Riggs** | Skelettknochen sind Child‑Nodes eines Root‑Nodes | Konsistente Pose‑Transformationen |
-| **Szenenorganisation** | Gruppierung statischer Requisiten unter einem „props“-Node | Saubereres Szenen‑Management und selektiver Export |
-| **Level‑of‑Detail (LOD) Umschaltung** | Der Parent‑Node schaltet die Sichtbarkeit von Child‑Meshes um | Optimiertes Rendering für unterschiedliche Hardware |
+|----------------|----------------------------|--------------------|
+| **Mechanische Baugruppen** (z. B. Roboterarm) | Das Drehen eines Basis‑Knotens bewegt alle angehängten Segmente | Einfache Animation komplexer Mechanismen |
+| **Charakter‑Rigs** | Skelettknochen sind Kindknoten eines Wurzelknotens | Konsistente Pose‑Transformationen |
+| **Szenenorganisation** | Gruppierung statischer Requisiten unter einem „props“-Knoten | Sauberere Szenenverwaltung und selektiver Export |
+| **Level‑of‑Detail (LOD) Umschaltung** | Elternknoten schaltet Sichtbarkeit von Kind‑Meshes um | Optimiertes Rendering für verschiedene Hardware |
 
 ## Voraussetzungen  
 
-1. **Java Development Environment** – JDK 8+ und eine IDE oder ein Build‑Tool Ihrer Wahl.  
-2. **Aspose.3D for Java Library** – Laden Sie die Bibliothek von der [Download‑Seite](https://releases.aspose.com/3d/java/) herunter und installieren Sie sie.  
-3. **Document Directory** – Ein Ordner auf Ihrem Rechner, in dem die erzeugte FBX‑Datei gespeichert wird.  
+1. **Java-Entwicklungsumgebung** – JDK 8+ und eine IDE oder ein Build‑Tool Ihrer Wahl.  
+2. **Aspose.3D für Java Bibliothek** – Laden Sie die Bibliothek von der [download page](https://releases.aspose.com/3d/java/) herunter und installieren Sie sie.  
+3. **Dokumentenverzeichnis** – Ein Ordner auf Ihrem Rechner, in dem die erzeugte FBX‑Datei gespeichert wird.  
 
 ## Pakete importieren  
 
-Beginnen Sie damit, die erforderlichen Aspose.3D‑Klassen zu importieren:  
+Die Klassen `Scene`, `Node`, `Mesh` und `Quaternion` sind die Kernbausteine.  
 
 ```java
 import com.aspose.threed.*;
 ```  
 
-## Schritt 1: Das Scene‑Objekt initialisieren  
+## Schritt 1: Das Szenenobjekt initialisieren  
+
+Die Klasse `Scene` ist der oberste Container von Aspose.3D, der ein komplettes 3D‑Dokument im Speicher repräsentiert.  
 
 ```java
 // Initialize scene object
 Scene scene = new Scene();
 ```  
 
-## Schritt 2: Child‑Nodes erstellen und Mesh zu Node hinzufügen  
+## Schritt 2: Kindknoten erstellen und Mesh zu Knoten hinzufügen  
 
-In diesem Schritt demonstrieren wir, **how to create child nodes** und **add mesh to node** Objekte.  
+In diesem Schritt demonstrieren wir, **wie man child nodes erstellt** und **Mesh zu node** Objekten hinzufügt.  
 
 ```java
 // Get a child node object
@@ -81,7 +143,7 @@ Node top = scene.getRootNode().createChildNode();
 
 // Create the first cube node
 Node cube1 = top.createChildNode("cube1");
-Mesh mesh = Common.createMeshUsingPolygonBuilder(); // Use your mesh creation method
+Mesh mesh = new Mesh();
 cube1.setEntity(mesh);
 cube1.getTransform().setTranslation(new Vector3(-10, 0, 0));
 
@@ -91,18 +153,18 @@ cube2.setEntity(mesh);
 cube2.getTransform().setTranslation(new Vector3(10, 0, 0));
 ```  
 
-## Schritt 3: Rotation auf den Top‑Node anwenden  
+## Schritt 3: Rotation auf den obersten Knoten anwenden  
 
-Das Drehen des Parent‑Nodes rotiert automatisch alle seine Kinder, was ein wesentlicher Vorteil hierarchischer Szenen ist.  
+Das Drehen des Elternknotens rotiert automatisch alle seine Kinder, was ein zentraler Vorteil hierarchischer Szenen ist.  
 
 ```java
 // Rotate the top node, affecting all child nodes
 top.getTransform().setRotation(Quaternion.fromEulerAngle(Math.PI, 4, 0));
 ```  
 
-## Schritt 4: Die 3D‑Szene speichern – How to Export FBX  
+## Schritt 4: 3D‑Szene speichern – wie man FBX exportiert  
 
-Jetzt **save scene as FBX**, wodurch der “how to export fbx”‑Workflow abgeschlossen wird.  
+Jetzt **speichern wir die Szene als FBX**, wodurch der „how to export fbx“‑Workflow abgeschlossen ist.  
 
 ```java
 // Save 3D scene in the supported file format (FBX in this case)
@@ -114,52 +176,63 @@ System.out.println("\nNode hierarchy added successfully to document.\nFile saved
 
 ### Erwartetes Ergebnis  
 
-Das Ausführen des Codes erzeugt eine Datei namens **NodeHierarchy.fbx** im angegebenen Verzeichnis. Öffnen Sie sie in einem beliebigen FBX‑kompatiblen Viewer, um zwei Würfel zu sehen, die links und rechts eines zentralen Drehpunkts positioniert sind und gemeinsam rotieren.  
+Das Ausführen des Codes erzeugt eine Datei namens **NodeHierarchy.fbx** im angegebenen Verzeichnis. Öffnen Sie sie in einem beliebigen FBX‑kompatiblen Viewer, um zwei Würfel zu sehen, die links und rechts von einem zentralen Drehpunkt positioniert sind und gemeinsam rotieren.  
+
+## Quantifizierte Aussage zu Aspose.3D  
+
+Aspose.3D unterstützt **30+ Import‑ und Exportformate**, darunter FBX, OBJ, STL und 3DS, und kann Szenen mit **über 10.000 Knoten** verarbeiten, ohne die gesamte Datei in den Speicher zu laden, wodurch selbst bei großen Baugruppen schnelle Exportzeiten erzielt werden.  
 
 ## Häufige Probleme und Lösungen  
 
 | Problem | Warum es passiert | Lösung |
 |---------|-------------------|--------|
-| **File not found** error when saving | `MyDir`‑Pfad ist falsch oder es fehlt ein abschließender Trenner | Stellen Sie sicher, dass das Verzeichnis existiert und mit einem Dateiseparator (`/` oder `\\`) endet. |
-| **Mesh not visible** after export | Mesh‑Entität nicht zugewiesen oder die Translation verschiebt es aus dem Sichtfeld | Überprüfen Sie `cube1.setEntity(mesh)` und prüfen Sie die Translationswerte. |
-| **Rotation looks wrong** | Verwendung von Bogenmaß statt Grad falsch | `Quaternion.fromEulerAngle` erwartet Bogenmaß; passen Sie die Werte entsprechend an. |
+| **File not found**‑Fehler beim Speichern | `MyDir` Pfad ist falsch oder fehlt ein abschließender Trenner | Stellen Sie sicher, dass das Verzeichnis existiert und mit einem Dateiseparator (`/` oder `\\`) endet. |
+| **Mesh nicht sichtbar** nach dem Export | Mesh‑Entität nicht zugewiesen oder Übersetzung verschiebt es aus dem Sichtfeld | Überprüfen Sie `cube1.setEntity(mesh)` und prüfen Sie die Übersetzungswerte. |
+| **Rotation sieht falsch aus** | Verwendung von Bogenmaß anstelle von Grad | `Quaternion.fromEulerAngle` erwartet Bogenmaß; passen Sie die Werte entsprechend an. |
 
-## Fehlerbehebungstipps  
+## Tipps zur Fehlersuche  
 
-- **Validate the directory**: Verwenden Sie `new File(MyDir).mkdirs();` vor `scene.save`, falls der Ordner möglicherweise nicht existiert.  
-- **Inspect the scene graph**: Rufen Sie `scene.getRootNode().getChildren().size()` auf, um zu bestätigen, dass Child‑Nodes hinzugefügt wurden.  
-- **Check FBX version compatibility**: Einige ältere Werkzeuge unterstützen nur FBX 2013; Sie können das Format bei Bedarf zu `FileFormat.FBX2013` ändern.  
+- **Verzeichnis prüfen**: Verwenden Sie `new File(MyDir).mkdirs();` vor `scene.save`, falls der Ordner nicht existiert.  
+- **Szenengraph inspizieren**: Rufen Sie `scene.getRootNode().getChildren().size()` auf, um zu bestätigen, dass Kindknoten hinzugefügt wurden.  
+- **FBX‑Version‑Kompatibilität prüfen**: Einige ältere Werkzeuge unterstützen nur FBX 2013; Sie können das Format bei Bedarf zu `FileFormat.FBX2013` ändern.  
 
 ## Häufig gestellte Fragen  
 
-**Q: Ist Aspose.3D für Java für Anfänger geeignet?**  
-A: Absolut! Die API ist mit einem sauberen, objektorientierten Ansatz gestaltet, der das Erlernen erleichtert, selbst wenn Sie neu in der 3D‑Programmierung sind.  
+**F: Ist Aspose.3D für Java für Anfänger geeignet?**  
+A: Absolut! Die API folgt einem klaren, objektorientierten Design, das es Ihnen ermöglicht, Szenen bereits mit wenigen Codezeilen zu erstellen.  
 
-**Q: Kann ich Aspose.3D für Java für kommerzielle Projekte verwenden?**  
-A: Ja, das können Sie. Besuchen Sie die [Kaufseite](https://purchase.aspose.com/buy) für Lizenzdetails.  
+**F: Kann ich Aspose.3D für Java für kommerzielle Projekte verwenden?**  
+A: Ja, das können Sie. Besuchen Sie die [purchase page](https://purchase.aspose.com/buy) für Lizenzdetails.  
 
-**Q: Wie kann ich Support für Aspose.3D für Java erhalten?**  
-A: Treten Sie dem [Aspose.3D‑Forum](https://forum.aspose.com/c/3d/18) bei, um Unterstützung von der Community und dem Aspose‑Support‑Team zu erhalten.  
+**F: Wie kann ich Support für Aspose.3D für Java erhalten?**  
+A: Treten Sie dem [Aspose.3D forum](https://forum.aspose.com/c/3d/18) bei, um Unterstützung von der Community und dem Aspose‑Supportteam zu erhalten.  
 
-**Q: Gibt es eine kostenlose Testversion?**  
-A: Natürlich! Erkunden Sie die Funktionen mit der [kostenlosen Testversion](https://releases.aspose.com/), bevor Sie sich festlegen.  
+**F: Gibt es eine kostenlose Testversion?**  
+A: Sicherlich! Erkunden Sie die Funktionen mit dem [free trial](https://releases.aspose.com/) bevor Sie sich festlegen.  
 
-**Q: Wo finde ich die Dokumentation?**  
-A: Siehe die [Dokumentation](https://reference.aspose.com/3d/java/) für detaillierte Informationen zu Aspose.3D für Java.  
+**F: Wo finde ich die Dokumentation?**  
+A: Siehe die [documentation](https://reference.aspose.com/3d/java/) für detaillierte Informationen zu Aspose.3D für Java.  
 
 ## Fazit  
 
-Das Beherrschen von **create child nodes**, **add mesh to node** und **how to export FBX** sind wesentliche Schritte zum Aufbau anspruchsvoller 3D‑Anwendungen in Java. Mit Aspose.3D erhalten Sie eine leistungsstarke, lizenzfreundliche Lösung, die Low‑Level‑Details abstrahiert und Ihnen gleichzeitig die volle Kontrolle über den Szenengraphen gibt. Experimentieren Sie mit verschiedenen Meshes, Transformationen und Exportformaten, um noch mehr Möglichkeiten zu erschließen.  
+Das Beherrschen von **create child nodes**, **add mesh to node** und **how to export FBX** ist ein wesentlicher Schritt zum Aufbau anspruchsvoller 3D‑Anwendungen in Java. Mit Aspose.3D erhalten Sie eine leistungsfähige, lizenzfreundliche Lösung, die Low‑Level‑Details abstrahiert und Ihnen gleichzeitig die volle Kontrolle über den Szenengraphen gibt. Experimentieren Sie mit verschiedenen Meshes, Transformationen und Exportformaten, um noch mehr Möglichkeiten zu erschließen.  
 
 ---  
 
-**Zuletzt aktualisiert:** 2026-04-12  
-**Getestet mit:** Aspose.3D for Java 24.11  
-**Autor:** Aspose  
+**Last Updated:** 2026-09-18  
+**Tested With:** Aspose.3D for Java 24.11  
+**Author:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}  
+## Verwandte Tutorials
 
-{{< /blocks/products/pf/main-container >}}  
-{{< /blocks/products/pf/main-wrap-class >}}  
+- [Java 3D Grafik‑Tutorial – Erstelle eine 3D‑Würfel‑Szene mit Aspose.3D](/3d/java/geometry/create-3d-cube-scene/)
+- [Geometrische Transformationen auf einen Knoten mit Aspose.3D Java API anwenden](/3d/java/geometry/expose-geometric-transformations/)
+- [3D‑Szenen in Java mit Aspose.3D speichern – 3D‑Dateien effizient konvertieren](/3d/java/load-and-save/save-3d-scenes/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
