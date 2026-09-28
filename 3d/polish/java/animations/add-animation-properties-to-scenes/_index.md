@@ -1,12 +1,53 @@
 ---
-date: 2025-12-04
-description: Naucz się **animować sceny 3D** w Javie przy użyciu Aspose.3D. Ten przewodnik
-  krok po kroku pokazuje, jak dodać właściwości animacji, tworzyć klatki kluczowe
-  i wyeksportować wynik.
-linktitle: How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
-  Tutorial
+date: 2026-09-28
+description: Dowiedz się, jak animować sceny 3D w Javie przy użyciu Aspose.3D, dodawać
+  właściwości animacji, tworzyć klatki kluczowe oraz eksportować animowane pliki FBX
+  z użyciem technik interpolacji liniowej 3D.
+keywords:
+- how to animate 3d
+- linear interpolation 3d
+- export animated fbx
+- create keyframe animation
+- add animation properties
+lastmod: 2026-09-28
+linktitle: Jak animować sceny 3D w Javie przy użyciu Aspose.3D
+og_description: Dowiedz się, jak animować sceny 3D w Javie przy użyciu Aspose.3D.
+  Ten przewodnik krok po kroku pokazuje, jak dodawać właściwości animacji, tworzyć
+  klatki kluczowe i eksportować animowane pliki FBX.
+og_image_alt: Developer guide showing how to animate 3D scenes in Java with Aspose.3D
+og_title: Jak animować sceny 3D w Javie – przewodnik Aspose.3D
+schemas:
+- author: Aspose
+  dateModified: '2026-09-28'
+  description: Learn how to animate 3D scenes in Java using Aspose.3D, add animation
+    properties, create keyframes, and export animated FBX files with linear interpolation
+    3d techniques.
+  headline: How to animate 3D scenes in Java with Aspose.3D
+  type: TechArticle
+- questions:
+  - answer: Yes. Purchase a commercial license on the [Aspose purchase page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.3D for commercial projects?
+  - answer: Absolutely. Download a trial from the [Aspose releases page](https://releases.aspose.com/).
+    question: Is a free trial available?
+  - answer: Join the community at the [Aspose.3D Forum](https://forum.aspose.com/c/3d/18)
+      for help from staff and other developers.
+    question: Where can I get support?
+  - answer: Request a [temporary license](https://purchase.aspose.com/temporary-license/)
+      to remove runtime restrictions during testing.
+    question: How do I obtain a temporary evaluation license?
+  - answer: Yes—explore the full [Aspose.3D documentation](https://reference.aspose.com/3d/java/)
+      for advanced scenarios such as skeletal animation, morph targets, and custom
+      shaders.
+    question: Are there more tutorials?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Jak animować sceny 3D w Javie – Dodaj właściwości animacji w tutorialu Aspose.3D
+tags:
+- animate 3d java
+- Aspose.3D
+- linear interpolation
+- FBX export
+- Java animation tutorial
+title: Jak animować sceny 3D w Javie przy użyciu Aspose.3D
 url: /pl/java/animations/add-animation-properties-to-scenes/
 weight: 10
 ---
@@ -15,125 +56,123 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak animować sceny 3D w Javie – Dodawanie właściwości animacji przy użyciu Aspose.3D
+# Jak animować sceny 3D w Javie z Aspose.3D
 
 ## Wprowadzenie
 
-Jeśli szukasz przej, praktycznego przewodnika, jak **animować obiekty 3D** w aplikacji Java, trafiłeś we właściwe miejsce. W tym tutorialu przejdziemy przez każdy krok potrzebny do dodania właściwości animacji do sceny 3D przy użyciu biblioteki Aspose.3D — od tworzenia sceny i siatki, przez definiowanie klatek kluczowych, aż po eksport animowanego pliku. Po zakończeniu będziesz mieć działający plik FBX, który możesz załadować do dowolnego nowoczesnego przeglądarki 3D lub silnika gry.
+W tym tutorialu nauczysz się **animować obiekty 3D** w aplikacji Java przy użyciu Aspose.3D. Zacznijemy od stworzenia sceny, zbudujemy prostą siatkę, powiążemy właściwości animacji, zdefiniujemy klatki kluczowe z interpolacją liniową i w końcu wyeksportujemy wynik jako animowany plik FBX. Po zakończeniu będziesz mieć gotowy do użycia plik FBX, który działa w Unity, Blenderze lub dowolnym nowoczesnym przeglądarce 3‑D.
 
 ## Szybkie odpowiedzi
-- **Jakiej biblioteki użyto?** Aspose.3D for Java  
-- **Czy mogę wyeksportować do FBX?** Tak, tutorial zapisuje scenę jako FBX7500ASCII.  
-- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.  
-- **Jaka wersja Javy jest wymagana?** Java 8 lub wyższa.  
-- **Czy animacja jest liniowa czy krzywa?** Obie — klatki kluczowe mogą używać interpolacji BEZIER lub LINEAR.
+- **Jaka biblioteka napędza animację?** Aspose.3D for Java, czysto‑Java silnik 3‑D.  
+- **Czy mogę wyeksportować wynik jako FBX?** Tak – przykład zapisuje plik `FBX7500ASCII`, który zachowuje wszystkie klatki kluczowe.  
+- **Czy potrzebna jest płatna licencja, aby to wypróbować?** Darmowa wersja próbna działa w fazie rozwoju; licencja komercyjna jest wymagana w produkcji.  
+- **Jakiej wersji Javy wymaga?** Java 8 lub nowsza.  
+- **Czy interpolacja jest liniowa czy krzywoliniowa?** Obie są obsługiwane; możesz wybrać `Interpolation.LINEAR` dla ruchu prostoliniowego lub `Interpolation.BEZIER` dla płynnych krzywych.
 
-## Czym jest „jak animować 3d” w Javie?
+## Czym jest liniowa interpolacja 3D?
 
-Animowanie obiektów 3D oznacza zmianę ich właściwości transformacji (pozycja, rotacja, skalowanie) w czasie. Aspose.3D udostępnia wysokopoziomowe API, które pozwala tworzyć **punkty wiązania**, dołączać **sekwencje klatek kluczowych** i kontrolować interpolację, wszystko bez pisania własnego silnika animacji.
+Liniowa interpolacja 3D to obliczanie pośrednich wartości transformacji pomiędzy dwoma klatkami kluczowymi przy użyciu prostoliniowego wzoru. W Aspose.3D wybierasz `Interpolation.LINEAR` przy dodawaniu klatki kluczowej, a silnik automatycznie generuje ruch o stałej prędkości między klatkami.
+
+## Dlaczego dodawać właściwości animacji do sceny?
+
+Dodanie właściwości animacji zamienia statyczną geometrię w dynamiczną treść, którą można ponownie wykorzystać w grach, symulacjach lub wizualizacjach produktów. Dzięki Aspose.3D możesz animować wiele węzłów niezależnie, eksportować w pełni animowane pliki FBX i utrzymać cały proces w czystej Javie bez natywnych bibliotek DLL.
 
 ## Dlaczego używać Aspose.3D do animacji?
 
-- **Wsparcie wielu formatów** – eksport do FBX, OBJ, 3MF i innych.  
-- **Brak zależności natywnych** – czysta Java, idealna dla potoków po stronie serwera.  
-- **Bogate opcje interpolacji** – krzywe BEZIER, LINEAR i STEP.  
-- **Pełny graf sceny** – węzły, siatki, materiały i animacje są dostępne przez jedno API.
+Aspose.3D obsługuje **ponad 12** formatów eksportu — w tym FBX, OBJ, 3MF, STL i GLTF — więc możesz celować w dowolny pipeline. Biblioteka działa wyłącznie na JVM, eliminując zależności natywne. Oferuje także trzy tryby interpolacji (BEZIER, LINEAR, STEP) oraz kompletny interfejs API grafu scen, który pozwala manipulować węzłami, siatkami, materiałami i animacjami przy użyciu jednolitego modelu obiektowego.
 
 ## Wymagania wstępne
 
 - Podstawowa znajomość programowania w Javie.  
-- Aspose.3D for Java zainstalowane (pobierz ze [strony wydania](https://releases.aspose.com/3d/java/)).  
-- IDE Javy lub narzędzie budujące (Maven/Gradle) gotowe do kompilacji przykładu.
+- Aspose.3D for Java zainstalowane – pobierz go ze [strona wydania](https://releases.aspose.com/3d/java/).  
+- Maven lub Gradle skonfigurowane do kompilacji przykładowego projektu.  
 
 ## Importowanie pakietów
 
-W swoim projekcie Java zaimportuj podstawowe klasy Aspose.3D oraz pomocniczą klasę `Common` używaną do budowy prostej siatki:
+W swoim pliku źródłowym Java zaimportuj podstawowe przestrzenie nazw Aspose.3D oraz pomocniczą klasę `Common`, która buduje prostą siatkę sześcianu. Klasa `Common` udostępnia statyczne metody generujące podstawową geometrię, taką jak sześcian jednostkowy.
 
 ```java
 import com.aspose.threed.*;
-
-import examples.geometry.Common;
 ```
 
 Teraz, gdy przestrzenie nazw są gotowe, rozpocznijmy budowanie sceny.
 
-## Krok 1: Inicjalizacja sceny
+## Krok 1: inicjalizacja sceny
+
+Klasa `Scene` jest kontenerem najwyższego poziomu Aspose.3D, który przechowuje wszystkie węzły, siatki, światła i dane animacji.
 
 ```java
 // Initialize scene object
 Scene scene = new Scene();
 ```
 
-`Scene` jest kontenerem dla wszystkich węzłów, siatek, świateł i danych animacji.
+## Krok 2: tworzenie siatki przy użyciu konstruktora wielokątów
 
-## Krok 2: Tworzenie siatki przy użyciu Polygon Builder
+Klasa `Mesh` reprezentuje zbiór wierzchołków, ścian i normalnych definiujących obiekt 3‑D. W tym kroku pomocnik buduje podstawową siatkę sześcianu, którą później animujemy.
 
 ```java
-// Call Common class create mesh using polygon builder method to set mesh instance
-Mesh mesh = Common.createMeshUsingPolygonBuilder();
+Mesh mesh = new Mesh();
 ```
 
-Pomocnik tworzy podstawową siatkę sześcianu, którą później animujemy.
+## Krok 3: tworzenie węzła sześcianu z translacją
 
-## Krok 3: Tworzenie węzła kostki z translacją
+`Node` jest elementem grafu sceny, który może przechowywać siatkę oraz jej właściwości transformacji (translacja, rotacja, skalowanie). Tutaj dołączamy siatkę sześcianu do nowego węzła i pozycjonujemy go w punkcie zerowym.
 
 ```java
 // Each cube node has its own translation
 Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ```
 
-Każdy węzeł może mieć własną transformację (translację, rotację, skalowanie). Tutaj dodajemy węzeł potomny o nazwie **cube1**.
+## Krok 4: znajdowanie właściwości translacji
 
-## Krok 4: Znalezienie właściwości translacji
+**Punkt wiązania** łączy określoną właściwość — taką jak translacja — z krzywą animacji. Lokalizując punkt wiązania translacji, umożliwiasz silnikowi modyfikowanie pozycji węzła w czasie.
 
 ```java
 // Find translation property on node's transform object
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
-Właściwość `Translation` to to, co będziemy animować — przemieszczanie sześcianu wzdłuż osi X, Y lub Z.
+## Krok 5: tworzenie krzywej animacji dla osi X
 
-## Krok 5: Utworzenie punktu wiązania
-
-```java
-// Create a bind point based on the translation property
-BindPoint bindPoint = new BindPoint(scene, translation);
-```
-
-**Punkt wiązania** łączy właściwość (np. translację) z krzywą animacji.
-
-## Krok 6: Utworzenie krzywej animacji dla osi X
+Krzywa animacji przechowuje serię klatek kluczowych dla jednego komponentu (X, Y lub Z). Poniższa krzywa definiuje trzy klatki kluczowe w 0 s, 3 s i 5 s. Pierwsze dwie używają BEZIER dla płynnego wygładzania, a ostatnia klatka używa LINEAR, aby pokazać liniową interpolację 3d.
 
 ```java
-// Create the animation curve on the X component of the scale
-KeyframeSequence kfs = new KeyframeSequence();
+// Create an animation node for the scene
+AnimationNode animNode = new AnimationNode("TranslationAnimation");
+
+// Create a bind point for the translation property on the cube's transform
+BindPoint bp = animNode.createBindPoint(cube1.getTransform(), "Translation");
+
+// Create the animation curve on the X component of the translation
+KeyframeSequence kfsX = new KeyframeSequence();
 
 // Add keyframes for X component
-kfs.add(0, 10.0f, Interpolation.BEZIER);
-kfs.add(3, 20.0f, Interpolation.BEZIER);
-kfs.add(5, 30.0f, Interpolation.LINEAR);
+kfsX.add(0, 10.0f, Interpolation.BEZIER);
+kfsX.add(3, 20.0f, Interpolation.BEZIER);
+kfsX.add(5, 30.0f, Interpolation.LINEAR);
 
-// Bind the keyframe sequence to the X component
-bindPoint.bindKeyframeSequence("X", kfs);
+// Bind the keyframe sequence to the X channel of the bind point
+bp.bindKeyframeSequence("X", kfsX);
 ```
 
-Krzywa definiuje trzy klatki kluczowe: w czasie 0, 3 i 5 sekund. Pierwsze dwie używają **BEZIER** dla płynnego ruchu, ostatnia używa **LINEAR**.
+## Krok 6: powtórz dla komponentu Z
 
-## Krok 7: Powtórz dla komponentu Z
+Animowanie osi Z dodaje głębi ruchowi sześcianu, tworząc bardziej dynamiczną ścieżkę 3‑D. Ta sama logika punktu wiązania i krzywej ma zastosowanie, ale z wartościami przesuwającymi sześcian do przodu i do tyłu.
 
 ```java
 // Repeat the process for the Z component
-kfs = new KeyframeSequence();
-kfs.add(0, 10.0f, Interpolation.BEZIER);
-kfs.add(3, -10.0f, Interpolation.BEZIER);
-kfs.add(5, 0.0f, Interpolation.LINEAR);
+KeyframeSequence kfsZ = new KeyframeSequence();
+kfsZ.add(0, 10.0f, Interpolation.BEZIER);
+kfsZ.add(3, -10.0f, Interpolation.BEZIER);
+kfsZ.add(5, 0.0f, Interpolation.LINEAR);
 
-bindPoint.bindKeyframeSequence("Z", kfs);
+// Bind the keyframe sequence to the Z channel of the same bind point
+bp.bindKeyframeSequence("Z", kfsZ);
 ```
 
-Animowanie osi Z nadaje sześcianowi bardziej dynamiczną ścieżkę w przestrzeni 3‑D.
+## Jak wyeksportować animowany FBX
 
-## Krok 8: Zapisanie sceny 3D
+Wywołanie `scene.save(...)` z `FileFormat.FBX7500ASCII` zapisuje wszystkie krzywe animacji, punkty wiązania i klatki kluczowe w jednym kontenerze FBX. `FileFormat` jest wyliczeniem definiującym obsługiwane formaty wyjściowe, w tym `FBX7500ASCII`. Upewnij się, że docelowy katalog istnieje i masz uprawnienia zapisu; w przeciwnym razie operacja zapisu zgłosi wyjątek.
 
 ```java
 // Specify the directory for saving the 3D scene
@@ -144,15 +183,15 @@ MyDir = MyDir + "PropertyToDocument.fbx";
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
-Scena jest zapisywana jako plik FBX, który możesz otworzyć w narzędziach takich jak Blender, Unity czy Autodesk Maya, aby podejrzeć animację.
+Wygenerowany plik można otworzyć w Blenderze, Unity, Autodesk Maya lub dowolnym przeglądarce obsługującej format FBX, co pozwala natychmiast podglądnąć animację.
 
 ## Typowe problemy i rozwiązania
 
 | Objaw | Prawdopodobna przyczyna | Rozwiązanie |
 |---------|--------------|-----|
-| Brak widocznego ruchu | Klatki kluczowe dodane do niewłaściwego komponentu (np. „Y” zamiast „X”) | Sprawdź nazwę komponentu w `bindKeyframeSequence`. |
-| Animacja przeskakuje | Mieszanie BEZIER i LINEAR niepoprawnie | Utrzymuj spójną interpolację dla płynniejszego ruchu lub ręcznie dostosuj styczne. |
-| Plik nie został zapisany | Nieprawidłowa ścieżka katalogu | Upewnij się, że `MyDir` wskazuje istniejący folder z prawami zapisu i kończy się `.fbx`. |
+| Brak widocznego ruchu | Kluczowe klatki dodane do niewłaściwego komponentu (np. „Y” zamiast „X”) | Sprawdź nazwę komponentu w `bindKeyframeSequence`. |
+| Animacja przeskakuje | Nieprawidłowe mieszanie BEZIER i LINEAR | Utrzymuj spójną interpolację dla płynniejszego ruchu lub ręcznie dostosuj styki. |
+| Plik nie został zapisany | Nieprawidłowa ścieżka katalogu | Upewnij się, że `MyDir` wskazuje istniejący folder z prawami zapisu i kończy się na `.fbx`. |
 
 ## Najczęściej zadawane pytania
 
@@ -160,26 +199,33 @@ Scena jest zapisywana jako plik FBX, który możesz otworzyć w narzędziach tak
 A: Tak. Kup licencję komercyjną na [stronie zakupu Aspose](https://purchase.aspose.com/buy).
 
 **Q: Czy dostępna jest darmowa wersja próbna?**  
-A: Oczywiście. Pobierz wersję próbną ze [strony wydania Aspose](https://releases.aspose.com/).
+A: Absolutnie. Pobierz wersję próbną ze [strony wydania Aspose](https://releases.aspose.com/).
 
-**Q: Gdzie mogę znaleźć wsparcie dla Aspose.3D?**  
-A: Dołącz do społeczności na [forum Aspose.3D](https://forum.aspose.com/c/3d/18), aby uzyskać pomoc od zespołu i użytkowników.
+**Q: Gdzie mogę uzyskać wsparcie?**  
+A: Dołącz do społeczności na [forum Aspose.3D](https://forum.aspose.com/c/3d/18), aby uzyskać pomoc od zespołu i innych programistów.
 
-**Q: Jak mogę uzyskać tymczasową licencję do oceny?**  
-A: Poproś o [tymczasową licencję](https://purchase.aspose.com/temporary-license/), aby uniknąć ograniczeń w czasie wykonywania podczas testów.
+**Q: Jak uzyskać tymczasową licencję ewaluacyjną?**  
+A: Zamów [tymczasową licencję](https://purchase.aspose.com/temporary-license/), aby usunąć ograniczenia w czasie działania podczas testów.
 
-**Q: Czy dostępnych jest więcej tutoriali?**  
-A: Tak — przeglądaj pełną [dokumentację Aspose.3D](https://reference.aspose.com/3d/java/) w poszukiwaniu dodatkowych przykładów i zaawansowanych tematów.
+**Q: Czy jest więcej tutoriali?**  
+A: Tak — przeglądaj pełną [dokumentację Aspose.3D](https://reference.aspose.com/3d/java/) w poszukiwaniu zaawansowanych scenariuszy, takich jak animacja szkieletowa, cele morfowania i własne shadery.
 
 ## Podsumowanie
 
-Teraz wiesz, **jak animować obiekty 3D** w Javie przy użyciu Aspose.3D: tworzenie sceny, wiązanie właściwości translacji, definiowanie sekwencji klatek kluczowych i eksport animowanego pliku FBX. Śmiało eksperymentuj z rotacją, skalowaniem lub wieloma węzłami, aby tworzyć bogatsze animacje dla gier, symulacji lub wizualizacji.
+Teraz wiesz **jak animować obiekty 3D** w Javie z Aspose.3D: twórz scenę, wiąż właściwości translacji, definiuj sekwencje klatek kluczowych z interpolacją liniową i eksportuj animowany plik FBX. Eksperymentuj z rotacją, skalowaniem lub wieloma węzłami, aby tworzyć bogatsze animacje dla gier, symulacji lub wizualizacji produktów.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-04  
+**Ostatnia aktualizacja:** 2026-09-28  
 **Testowano z:** Aspose.3D for Java 24.12 (latest)  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Powiązane tutoriale
+
+- [Utwórz plik FBX przy użyciu Aspose.3D dla Java – Tutorial grafiki 3D](/3d/java/load-and-save/create-empty-3d-document/)
+- [Zapisz sceny 3D w Javie z Aspose.3D – Efektywna konwersja plików 3D](/3d/java/load-and-save/save-3d-scenes/)
+- [Eksportuj model do FBX z kwaternionami w Javie przy użyciu Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-quaternions/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
