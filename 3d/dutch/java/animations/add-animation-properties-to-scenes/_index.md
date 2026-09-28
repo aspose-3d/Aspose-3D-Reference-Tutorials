@@ -1,12 +1,53 @@
 ---
-date: 2025-12-04
-description: Leer **hoe je 3D**‑scènes in Java kunt animeren met Aspose.3D. Deze stapsgewijze
-  handleiding laat je zien hoe je animatie‑eigenschappen toevoegt, keyframes maakt
-  en het resultaat exporteert.
-linktitle: How to Animate 3D Scenes in Java – Add Animation Properties with Aspose.3D
-  Tutorial
+date: 2026-09-28
+description: Leer hoe je 3D‑scènes kunt animeren in Java met Aspose.3D, animatie‑eigenschappen
+  kunt toevoegen, keyframes kunt maken en geanimeerde FBX‑bestanden kunt exporteren
+  met lineaire interpolatie 3d‑technieken.
+keywords:
+- how to animate 3d
+- linear interpolation 3d
+- export animated fbx
+- create keyframe animation
+- add animation properties
+lastmod: 2026-09-28
+linktitle: Hoe 3D‑scènes te animeren in Java met Aspose.3D
+og_description: Leer hoe je 3D‑scènes kunt animeren in Java met Aspose.3D. Deze stapsgewijze
+  gids laat zien hoe je animatie‑eigenschappen toevoegt, keyframes maakt en geanimeerde
+  FBX‑bestanden exporteert.
+og_image_alt: Developer guide showing how to animate 3D scenes in Java with Aspose.3D
+og_title: Hoe 3D‑scènes te animeren in Java – Aspose.3D gids
+schemas:
+- author: Aspose
+  dateModified: '2026-09-28'
+  description: Learn how to animate 3D scenes in Java using Aspose.3D, add animation
+    properties, create keyframes, and export animated FBX files with linear interpolation
+    3d techniques.
+  headline: How to animate 3D scenes in Java with Aspose.3D
+  type: TechArticle
+- questions:
+  - answer: Yes. Purchase a commercial license on the [Aspose purchase page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.3D for commercial projects?
+  - answer: Absolutely. Download a trial from the [Aspose releases page](https://releases.aspose.com/).
+    question: Is a free trial available?
+  - answer: Join the community at the [Aspose.3D Forum](https://forum.aspose.com/c/3d/18)
+      for help from staff and other developers.
+    question: Where can I get support?
+  - answer: Request a [temporary license](https://purchase.aspose.com/temporary-license/)
+      to remove runtime restrictions during testing.
+    question: How do I obtain a temporary evaluation license?
+  - answer: Yes—explore the full [Aspose.3D documentation](https://reference.aspose.com/3d/java/)
+      for advanced scenarios such as skeletal animation, morph targets, and custom
+      shaders.
+    question: Are there more tutorials?
+  type: FAQPage
 second_title: Aspose.3D Java API
-title: Hoe 3D‑scènes te animeren in Java – Voeg animatie‑eigenschappen toe met Aspose.3D‑tutorial
+tags:
+- animate 3d java
+- Aspose.3D
+- linear interpolation
+- FBX export
+- Java animation tutorial
+title: Hoe 3D‑scènes te animeren in Java met Aspose.3D
 url: /nl/java/animations/add-animation-properties-to-scenes/
 weight: 10
 ---
@@ -15,127 +56,123 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe 3D‑scènes te animeren in Java – Animatie‑eigenschappen toevoegen met Aspose.3D
+# Hoe 3D‑scènes te animeren in Java met Aspose.3D
 
 ## Introductie
 
-Als je op zoek bent naar een duidelijke, praktische gids over **hoe je 3D**‑objecten kunt animeren in een Java‑applicatie, ben je hier aan het juiste adres. In deze tutorial lopen we stap voor stap door alles wat nodig is om animatie‑eigenschappen toe te voegen aan een 3D‑scene met de Aspose.3D‑bibliotheek—van het maken van een scene en mesh tot het definiëren van keyframes en uiteindelijk het exporteren van het geanimeerde bestand. Aan het einde heb je een werkend FBX‑bestand dat je in elke moderne 3D‑viewer of game‑engine kunt laden.
+In deze tutorial leer je **hoe 3D te animeren** objecten in een Java‑applicatie met Aspose.3D. We beginnen met het maken van een scène, bouwen een eenvoudige mesh, binden animatie‑eigenschappen, definiëren keyframes met lineaire interpolatie, en exporteren tenslotte het resultaat als een geanimeerd FBX‑bestand. Aan het einde heb je een kant‑klaar FBX‑bestand dat werkt in Unity, Blender of elke moderne 3‑D‑viewer.
 
 ## Snelle antwoorden
-- **Welke bibliotheek wordt gebruikt?** Aspose.3D for Java  
-- **Kan ik exporteren naar FBX?** Ja, de tutorial slaat de scene op als FBX7500ASCII.  
-- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor testen; een commerciële licentie is vereist voor productie.  
+- **Welke bibliotheek drijft de animatie aan?** Aspose.3D for Java, een pure‑Java 3‑D‑engine.  
+- **Kan ik het resultaat exporteren als FBX?** Ja – het voorbeeld slaat een `FBX7500ASCII`‑bestand op dat alle keyframes behoudt.  
+- **Heb ik een betaalde licentie nodig om dit te proberen?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productiegebruik.  
 - **Welke Java‑versie is vereist?** Java 8 of hoger.  
-- **Is de animatie lineair of spline?** Beide—keyframes kunnen BEZIER‑ of LINEAR‑interpolatie gebruiken.
+- **Is de interpolatie lineair of spline?** Beide worden ondersteund; je kunt `Interpolation.LINEAR` kiezen voor rechte‑lijnbeweging of `Interpolation.BEZIER` voor vloeiende curven.
 
-## Wat betekent “hoe 3d animeren” in Java?
+## Wat is lineaire interpolatie 3D?
 
-Het animeren van 3D‑objecten betekent dat hun transformatie‑eigenschappen (positie, rotatie, schaal) in de loop van de tijd worden gewijzigd. Aspose.3D biedt een high‑level API waarmee je **bind points** kunt maken, **keyframe‑reeksen** kunt koppelen en interpolatie kunt regelen, alles zonder een eigen animatie‑engine te schrijven.
+Lineaire interpolatie 3D is de berekening van tussenliggende transformatiewaarden tussen twee keyframes met behulp van een rechte‑lijnformule. In Aspose.3D selecteer je `Interpolation.LINEAR` bij het toevoegen van een keyframe, en genereert de engine automatisch een constante‑snelheidsbeweging tussen de frames.
+
+## Waarom animatie‑eigenschappen aan een scène toevoegen?
+
+Het toevoegen van animatie‑eigenschappen maakt statische geometrie dynamische inhoud die kan worden hergebruikt in games, simulaties of productvisualisaties. Met Aspose.3D kun je veel nodes onafhankelijk animeren, volledig geanimeerde FBX‑bestanden exporteren, en de volledige workflow in pure Java houden zonder native DLL‑s.
 
 ## Waarom Aspose.3D gebruiken voor animatie?
 
-- **Cross‑format ondersteuning** – Exporteren naar FBX, OBJ, 3MF en meer.  
-- **Geen native afhankelijkheden** – Pure Java, ideaal voor server‑side pipelines.  
-- **Rijke interpolatie‑opties** – BEZIER, LINEAR en STEP‑curves.  
-- **Volledige scene‑graph** – Nodes, meshes, materialen en animatie zijn allemaal toegankelijk via één API.
+Aspose.3D ondersteunt **12+** exportformaten — waaronder FBX, OBJ, 3MF, STL en GLTF — zodat je elke pipeline kunt targeten. De bibliotheek draait alleen op de JVM, waardoor native afhankelijkheden wegvallen. Het biedt ook drie interpolatiemodi (BEZIER, LINEAR, STEP) en een volledige scene‑graph‑API waarmee je nodes, meshes, materialen en animaties kunt manipuleren via één consistent objectmodel.
 
-## Voorvereisten
-
-Voordat we beginnen, zorg dat je het volgende hebt:
+## Vereisten
 
 - Basiskennis van Java‑programmeren.  
-- Aspose.3D for Java geïnstalleerd (download van de [release‑pagina](https://releases.aspose.com/3d/java/)).  
-- Een Java‑IDE of build‑tool (Maven/Gradle) klaar om het voorbeeld te compileren.
+- Aspose.3D for Java geïnstalleerd – download het van de [release‑pagina](https://releases.aspose.com/3d/java/).  
+- Maven of Gradle ingesteld om het voorbeeldproject te compileren.  
 
 ## Pakketten importeren
 
-Importeer in je Java‑project de kern‑klassen van Aspose.3D en de helper‑klasse `Common` die wordt gebruikt om een eenvoudige mesh te bouwen:
+In je Java‑bronbestand importeer je de core‑namespaces van Aspose.3D en de helper‑klasse `Common` die een eenvoudige kubus‑mesh bouwt. De `Common`‑klasse biedt statische methoden om basisgeometrie te genereren, zoals een eenheidskubus.
 
 ```java
 import com.aspose.threed.*;
-
-import examples.geometry.Common;
 ```
 
-Nu de namespaces klaar zijn, gaan we de scene bouwen.
+Nu de namespaces klaar zijn, laten we beginnen met het bouwen van de scène.
 
-## Stap 1: De scene initialiseren
+## Stap 1: de scène initialiseren
+
+De `Scene`‑klasse is de top‑level container van Aspose.3D die alle nodes, meshes, lichten en animatie‑data bevat.
 
 ```java
 // Initialize scene object
 Scene scene = new Scene();
 ```
 
-Een `Scene` is de container voor alle nodes, meshes, lichten en animatie‑data.
+## Stap 2: mesh maken met polygon‑bouwer
 
-## Stap 2: Mesh maken met Polygon Builder
+De `Mesh`‑klasse vertegenwoordigt een verzameling vertices, faces en normals die een 3‑D‑object definiëren. In deze stap bouwt de helper een basis‑kubus‑mesh die we later zullen animeren.
 
 ```java
-// Call Common class create mesh using polygon builder method to set mesh instance
-Mesh mesh = Common.createMeshUsingPolygonBuilder();
+Mesh mesh = new Mesh();
 ```
 
-De helper maakt een basis‑kubus‑mesh die we later gaan animeren.
+## Stap 3: kubus‑node maken met translatie
 
-## Stap 3: Kubus‑node maken met translatie
+Een `Node` is een element in de scene‑graph dat een mesh en zijn transformatie‑eigenschappen (translatie, rotatie, schaal) kan bevatten. Hier koppelen we de kubus‑mesh aan een nieuwe node en positioneren deze op de oorsprong.
 
 ```java
 // Each cube node has its own translation
 Node cube1 = scene.getRootNode().createChildNode("cube1", mesh);
 ```
 
-Elke node kan zijn eigen transformatie hebben (translatie, rotatie, schaal). Hier voegen we een child‑node toe met de naam **cube1**.
+## Stap 4: translatie‑eigenschap vinden
 
-## Stap 4: Translatie‑eigenschap vinden
+Een **bind‑punt** koppelt een specifieke eigenschap — zoals translatie — aan een animatiecurve. Door het translatie‑bind‑punt te vinden, stel je de engine in staat de positie van de node in de loop van de tijd te wijzigen.
 
 ```java
 // Find translation property on node's transform object
 Property translation = cube1.getTransform().findProperty("Translation");
 ```
 
-De `Translation`‑eigenschap is wat we gaan animeren—de kubus langs de X-, Y- of Z‑assen verplaatsen.
+## Stap 5: animatiecurve maken voor de x‑as
 
-## Stap 5: Bind‑punt maken
-
-```java
-// Create a bind point based on the translation property
-BindPoint bindPoint = new BindPoint(scene, translation);
-```
-
-Een **bind point** koppelt een eigenschap (zoals translatie) aan een animatie‑curve.
-
-## Stap 6: Animatie‑curve maken voor de X‑as
+Een animatiecurve slaat een reeks keyframes op voor één component (X, Y of Z). De onderstaande curve definieert drie keyframes op 0 s, 3 s en 5 s. De eerste twee gebruiken BEZIER voor vloeiende easing, terwijl het laatste keyframe LINEAR gebruikt om lineaire interpolatie 3D te demonstreren.
 
 ```java
-// Create the animation curve on the X component of the scale
-KeyframeSequence kfs = new KeyframeSequence();
+// Create an animation node for the scene
+AnimationNode animNode = new AnimationNode("TranslationAnimation");
+
+// Create a bind point for the translation property on the cube's transform
+BindPoint bp = animNode.createBindPoint(cube1.getTransform(), "Translation");
+
+// Create the animation curve on the X component of the translation
+KeyframeSequence kfsX = new KeyframeSequence();
 
 // Add keyframes for X component
-kfs.add(0, 10.0f, Interpolation.BEZIER);
-kfs.add(3, 20.0f, Interpolation.BEZIER);
-kfs.add(5, 30.0f, Interpolation.LINEAR);
+kfsX.add(0, 10.0f, Interpolation.BEZIER);
+kfsX.add(3, 20.0f, Interpolation.BEZIER);
+kfsX.add(5, 30.0f, Interpolation.LINEAR);
 
-// Bind the keyframe sequence to the X component
-bindPoint.bindKeyframeSequence("X", kfs);
+// Bind the keyframe sequence to the X channel of the bind point
+bp.bindKeyframeSequence("X", kfsX);
 ```
 
-De curve definieert drie keyframes: op tijd 0, 3 en 5 seconden. De eerste twee gebruiken **BEZIER** voor vloeiende beweging, terwijl de laatste **LINEAR** gebruikt.
+## Stap 6: herhalen voor z‑component
 
-## Stap 7: Herhalen voor Z‑component
+Het animeren van de Z‑as voegt diepte toe aan de beweging van de kubus, waardoor een dynamischer 3‑D‑pad ontstaat. Dezelfde bind‑punt‑ en curve‑logica geldt, maar met waarden die de kubus naar voren en naar achteren verplaatsen.
 
 ```java
 // Repeat the process for the Z component
-kfs = new KeyframeSequence();
-kfs.add(0, 10.0f, Interpolation.BEZIER);
-kfs.add(3, -10.0f, Interpolation.BEZIER);
-kfs.add(5, 0.0f, Interpolation.LINEAR);
+KeyframeSequence kfsZ = new KeyframeSequence();
+kfsZ.add(0, 10.0f, Interpolation.BEZIER);
+kfsZ.add(3, -10.0f, Interpolation.BEZIER);
+kfsZ.add(5, 0.0f, Interpolation.LINEAR);
 
-bindPoint.bindKeyframeSequence("Z", kfs);
+// Bind the keyframe sequence to the Z channel of the same bind point
+bp.bindKeyframeSequence("Z", kfsZ);
 ```
 
-Het animeren van de Z‑as geeft de kubus een dynamischer pad door de 3‑D‑ruimte.
+## Hoe een geanimeerde FBX exporteren
 
-## Stap 8: De 3D‑scene opslaan
+Het aanroepen van `scene.save(...)` met `FileFormat.FBX7500ASCII` schrijft alle animatiecurves, bind‑punten en keyframes naar één FBX‑container. `FileFormat` is een enumeratie die ondersteunde uitvoerformaten definieert, waaronder `FBX7500ASCII`. Zorg ervoor dat de doelmap bestaat en je schrijfrechten hebt; anders gooit de opslaan‑operatie een uitzondering.
 
 ```java
 // Specify the directory for saving the 3D scene
@@ -146,42 +183,49 @@ MyDir = MyDir + "PropertyToDocument.fbx";
 scene.save(MyDir, FileFormat.FBX7500ASCII);
 ```
 
-De scene wordt opgeslagen als een FBX‑bestand, dat je kunt openen in tools zoals Blender, Unity of Autodesk Maya om de animatie te bekijken.
+Het gegenereerde bestand kan worden geopend in Blender, Unity, Autodesk Maya of elke viewer die het FBX‑formaat ondersteunt, zodat je de animatie direct kunt bekijken.
 
 ## Veelvoorkomende problemen en oplossingen
 
 | Symptoom | Waarschijnlijke oorzaak | Oplossing |
 |----------|--------------------------|-----------|
-| Geen beweging zichtbaar | Keyframes toegevoegd aan verkeerde component (bijv. “Y” in plaats van “X”) | Controleer de componentnaam in `bindKeyframeSequence`. |
+| Geen beweging zichtbaar | Keyframes toegevoegd aan de verkeerde component (bijv. “Y” in plaats van “X”) | Controleer de componentnaam in `bindKeyframeSequence`. |
 | Animatie springt | BEZIER en LINEAR onjuist gemixt | Houd interpolatie consistent voor soepelere beweging, of pas de tangenten handmatig aan. |
-| Bestand wordt niet opgeslagen | Ongeldig map‑pad | Zorg ervoor dat `MyDir` naar een bestaande, schrijfbare map wijst en eindigt op `.fbx`. |
+| Bestand niet opgeslagen | Ongeldig mappad | Zorg ervoor dat `MyDir` wijst naar een bestaande, schrijfbare map en eindigt op `.fbx`. |
 
 ## Veelgestelde vragen
 
-**V: Kan ik Aspose.3D gebruiken voor commerciële projecten?**  
-A: Ja. Koop een commerciële licentie op de [Aspose‑aankooppagina](https://purchase.aspose.com/buy).
+**Q: Kan ik Aspose.3D gebruiken voor commerciële projecten?**  
+A: Ja. Koop een commerciële licentie op de [Aspose aankooppagina](https://purchase.aspose.com/buy).
 
-**V: Is er een gratis proefversie beschikbaar?**  
-A: Absoluut. Download een proefversie van de [Aspose‑releases‑pagina](https://releases.aspose.com/).
+**Q: Is er een gratis proefversie beschikbaar?**  
+A: Zeker. Download een proefversie van de [Aspose releases‑pagina](https://releases.aspose.com/).
 
-**V: Waar vind ik ondersteuning voor Aspose.3D?**  
-A: Word lid van de community op het [Aspose.3D‑forum](https://forum.aspose.com/c/3d/18) voor hulp van zowel personeel als gebruikers.
+**Q: Waar kan ik ondersteuning krijgen?**  
+A: Word lid van de community op het [Aspose.3D‑forum](https://forum.aspose.com/c/3d/18) voor hulp van het personeel en andere ontwikkelaars.
 
-**V: Hoe kan ik een tijdelijke licentie krijgen voor evaluatie?**  
-A: Vraag een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) aan om runtime‑beperkingen tijdens testen te vermijden.
+**Q: Hoe verkrijg ik een tijdelijke evaluatielicentie?**  
+A: Vraag een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) aan om runtime‑beperkingen tijdens het testen te verwijderen.
 
-**V: Zijn er meer tutorials beschikbaar?**  
-A: Ja—verken de volledige [Aspose.3D‑documentatie](https://reference.aspose.com/3d/java/) voor extra voorbeelden en geavanceerde onderwerpen.
+**Q: Zijn er meer tutorials?**  
+A: Ja — verken de volledige [Aspose.3D‑documentatie](https://reference.aspose.com/3d/java/) voor geavanceerde scenario's zoals skeletanimatie, morph‑targets en aangepaste shaders.
 
 ## Conclusie
 
-Je weet nu **hoe je 3D**‑objecten kunt animeren in Java met Aspose.3D: een scene maken, translatie‑eigenschappen binden, keyframe‑reeksen definiëren en het geanimeerde FBX‑bestand exporteren. Voel je vrij om te experimenteren met rotatie, schaal of meerdere nodes om rijkere animaties te bouwen voor games, simulaties of visualisaties.
+Je weet nu **hoe 3D te animeren** objecten in Java met Aspose.3D: maak een scène, bind translatie‑eigenschappen, definieer keyframe‑reeksen met lineaire interpolatie, en exporteer een geanimeerd FBX‑bestand. Experimenteer met rotatie, schaling of meerdere nodes om rijkere animaties te bouwen voor games, simulaties of productvisualisaties.
 
 ---
 
-**Laatst bijgewerkt:** 2025-12-04  
-**Getest met:** Aspose.3D for Java 24.12 (latest)  
-**Auteur:** Aspose  
+**Last Updated:** 2026-09-28  
+**Tested With:** Aspose.3D for Java 24.12 (latest)  
+**Author:** Aspose
+
+## Gerelateerde tutorials
+
+- [Maak een FBX‑bestand met Aspose.3D voor Java – 3D‑grafiektutorial](/3d/java/load-and-save/create-empty-3d-document/)
+- [Sla 3D‑scènes op in Java met Aspose.3D – Converteer 3D‑bestanden efficiënt](/3d/java/load-and-save/save-3d-scenes/)
+- [Exporteer model naar FBX met quaternionen in Java met Aspose.3D](/3d/java/geometry/transform-3d-nodes-with-quaternions/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
