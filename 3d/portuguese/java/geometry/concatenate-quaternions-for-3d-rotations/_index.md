@@ -10,15 +10,11 @@ url: /pt/java/geometry/concatenate-quaternions-for-3d-rotations/
 weight: 11
 ---
 
-.
 
-"**Author:** Aspose" translate "Autor:".
 
-Now close shortcodes.
 
-Now ensure we keep all shortcodes at top and bottom unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

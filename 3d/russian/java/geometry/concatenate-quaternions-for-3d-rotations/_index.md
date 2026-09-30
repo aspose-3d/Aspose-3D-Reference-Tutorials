@@ -10,9 +10,7 @@ url: /ru/java/geometry/concatenate-quaternions-for-3d-rotations/
 weight: 11
 ---
 
- keep markdown links.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
