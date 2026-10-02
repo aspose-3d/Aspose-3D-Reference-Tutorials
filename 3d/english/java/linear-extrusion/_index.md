@@ -31,20 +31,11 @@ schemas:
       is an open series of line segments.* Ready to get started? [Perform Linear Extrusion
       Now](./performing-linear-extrusion/) For a detailed tuto
   - name: Configure extrusion options
-    text: 'Set the center, direction, slices, twist, and twist offset on an `Extrusion`
-      object. *The `Extrusion` class encapsulates all parameters needed to generate
-      a 3‑D mesh from a 2‑D profile.* Get hands‑on with center control: [Control Center
-      in Linear Extrusion](./controlling-center/) Read more about cen'
+    text: 'Set the center, direction, slices, twist, and twist offset on an `Extrusion` object.'
   - name: Add the extrusion to the scene
-    text: 'Instantiate a `Scene`, attach the extrusion mesh, and export to your desired
-      format. *`Scene` is the container that holds all 3‑D objects and handles exporting
-      to various file formats.* Ready to set the direction? [Explore Now](./setting-direction/)
-      Learn more about direction: [Setting Direction]
+    text: 'Instantiate a `Scene`, attach the extrusion mesh, and export to your desired format. *`Scene` is the container that holds all 3‑D objects and handles exporting to various file formats.* Ready to set the direction?'
   - name: Export or render
-    text: 'Use `Scene.save()` to write the model to OBJ, STL, or any supported format.
-      *`Scene.save()` writes the entire scene to the specified file format, applying
-      any necessary post‑processing.* Start specifying slices: [Learn More](./specifying-slices/)
-      Detailed guide: [Specifying Slices in Linear Extrusio]
+    text: 'Use `Scene.save()` to write the model to OBJ, STL, or any supported format.'
 - type: FAQPage
   questions:
   - question: Can I use Aspose.3D for Java in a commercial project?

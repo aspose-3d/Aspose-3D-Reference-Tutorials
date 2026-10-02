@@ -27,11 +27,9 @@ schemas:
   - question: Where can I find the documentation for Aspose.3D for Java?
     answer: 'The official API reference is hosted **[here](https://reference.aspose.com/3d/java/)**.'
   - question: How do I get support for Aspose.3D for Java?
-    answer: 'The community‑driven **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)**'
-      provides fast assistance from both Aspose engineers and users.
+    answer: 'The community‑driven **[Aspose.3D forum](https://forum.aspose.com/c/3d/18)** provides fast assistance from both Aspose engineers and users.'
   - question: Are temporary licenses available?
-    answer: 'Yes, you can request a temporary license **[here](https://purchase.aspose.com/temporary-license/)**'
-      for evaluation or CI pipelines.
+    answer: 'Yes, you can request a temporary license **[here](https://purchase.aspose.com/temporary-license/)** for evaluation or CI pipelines.'
   - question: Where can I purchase Aspose.3D for Java?
     answer: 'Direct purchase is possible **[here](https://purchase.aspose.com/buy)**.'
 ---

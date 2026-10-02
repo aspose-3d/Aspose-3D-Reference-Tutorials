@@ -31,11 +31,9 @@ schemas:
     answer: Yes, you can explore the capabilities of Aspose.3D with a free trial.
       [Download it here](https://releases.aspose.com/).
   - question: Where can I find comprehensive documentation for Aspose.3D?
-    answer: 'Refer to the documentation [here](https://reference.aspose.com/3d/java/)'
-      for detailed information and examples.
+    answer: 'Refer to the documentation [here](https://reference.aspose.com/3d/java/) for detailed information and examples.'
   - question: Need assistance or have specific questions?
-    answer: 'Visit the Aspose.3D community forum [here](https://forum.aspose.com/c/3d/18)'
-      for support and discussions.
+    answer: 'Visit the Aspose.3D community forum [here](https://forum.aspose.com/c/3d/18) for support and discussions.'
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
