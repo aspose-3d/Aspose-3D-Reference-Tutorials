@@ -40,8 +40,8 @@ schemas:
     answer: Yes, Aspose.3D integrates with any IDE or build system that supports a
       standard JDK.
   - question: Where can I find comprehensive documentation for Aspose.3D in Java?
-    answer: 'Refer to the [documentation](https://reference.aspose.com/3d/java/) for'
-      detailed insights into Aspose.3D functionalities.
+    answer: 'Refer to the [documentation](https://reference.aspose.com/3d/java/) for
+      detailed insights into Aspose.3D functionalities.'
   - question: Can I try Aspose.3D for Java before purchasing?
     answer: 'Yes, you can explore a [free trial](https://releases.aspose.com/) before'
       making a purchase.
