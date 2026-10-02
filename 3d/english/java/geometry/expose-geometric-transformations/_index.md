@@ -26,31 +26,22 @@ schemas:
     text: Node is the fundamental scene‑graph object representing a transformable
       entity in Aspose 3D.
   - name: Geometric Translation
-    text: 'To **add transform to node**, you modify its `Transform` property. The
-      following snippet sets a geometric translation that moves the node 10 units
-      along the X‑axis:'
+    text: 'To **add transform to node**, you modify its `Transform` property.'
   - name: Evaluate Global Transform
-    text: 'evaluateGlobalTransform() returns the node’s combined world matrix, optionally
-      including geometric transforms for accurate positioning. Load the global matrix
-      to see the combined effect of all transforms, including the geometric translation
-      you just added:'
+    text: 'evaluateGlobalTransform() returns the node’s combined world matrix, optionally including geometric transforms for accurate positioning.'
 - type: FAQPage
   questions:
   - question: Is Aspose.3D compatible with all Java development environments?
     answer: Yes, Aspose.3D integrates with any IDE or build system that supports a
       standard JDK.
   - question: Where can I find comprehensive documentation for Aspose.3D in Java?
-    answer: 'Refer to the [documentation](https://reference.aspose.com/3d/java/) for
-      detailed insights into Aspose.3D functionalities.'
+    answer: 'Refer to the [documentation](https://reference.aspose.com/3d/java/) for detailed insights into Aspose.3D functionalities.'
   - question: Can I try Aspose.3D for Java before purchasing?
-    answer: 'Yes, you can explore a [free trial](https://releases.aspose.com/) before'
-      making a purchase.
+    answer: 'Yes, you can explore a [free trial](https://releases.aspose.com/) before making a purchase.'
   - question: How can I get support for Aspose.3D‑related queries?
-    answer: 'Engage with the Aspose.3D community on the [support forum](https://forum.aspose.com/c/3d/18)'
-      for prompt assistance.
+    answer: 'Engage with the Aspose.3D community on the [support forum](https://forum.aspose.com/c/3d/18) for prompt assistance.'
   - question: Do I need a temporary license for testing Aspose.3D?
-    answer: 'Obtain a [temporary license](https://purchase.aspose.com/temporary-license/)'
-      for testing purposes.
+    answer: 'Obtain a [temporary license](https://purchase.aspose.com/temporary-license/) for testing purposes.'
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
