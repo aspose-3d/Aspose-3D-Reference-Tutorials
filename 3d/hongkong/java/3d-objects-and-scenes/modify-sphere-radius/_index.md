@@ -1,25 +1,29 @@
 ---
-date: 2026-07-27
-description: 了解如何使用 Aspose.3D（領先的 Java 3D 函式庫）修改 Java 球體半徑，並將 3D 匯出為 OBJ 檔案。
+date: 2026-10-03
+description: 了解如何使用 Aspose.3D 建立 Java 球體並匯出 OBJ 檔案，Aspose.3D 是領先的 Java 3D 函式庫，用於轉換
+  3D 模型。
+images:
+- /java/3d-objects-and-scenes/modify-sphere-radius/og-image.png
 keywords:
-- modify sphere radius java
-- export obj file java
-- aspose 3d java
-lastmod: 2026-07-27
-linktitle: 修改 Java 球體半徑：使用 Aspose.3D 將 3D 轉換為 OBJ
-og_description: 使用 Aspose.3D 修改 Java 球體半徑並匯出 OBJ 檔案。本教學將逐步說明如何新增球體、調整大小，並儲存為 OBJ。
-og_image_alt: 'Guide: modify sphere radius Java and export OBJ using Aspose.3D'
-og_title: 修改 Java 球體半徑 – 使用 Aspose.3D 將 3D 轉換為 OBJ
+- create sphere java
+- save 3d as obj
+- java convert 3d model
+- write obj file java
+lastmod: 2026-10-03
+linktitle: 建立 Java 球體：使用 Aspose.3D 轉換 3D 為 OBJ
+og_description: 了解如何使用 Aspose.3D 建立 Java 球體並匯出 OBJ 檔案。本逐步指南示範如何新增球體、調整半徑，並儲存為 OBJ。
+og_image_alt: 'Guide: create sphere java and export OBJ using Aspose.3D'
+og_title: 建立 Java 球體 – 使用 Aspose.3D 匯出 OBJ
 schemas:
 - author: Aspose
-  dateModified: '2026-07-27'
-  description: Learn how to modify sphere radius Java and export OBJ file Java using
-    Aspose.3D, the leading Java 3D library for converting 3D to OBJ.
-  headline: 'Modify Sphere Radius Java: Convert 3D to OBJ with Aspose.3D'
+  dateModified: '2026-10-03'
+  description: Learn how to create sphere java and export OBJ file using Aspose.3D,
+    the leading Java 3D library for converting 3D models.
+  headline: 'Create sphere java: Convert 3D to OBJ with Aspose.3D'
   type: TechArticle
-- description: Learn how to modify sphere radius Java and export OBJ file Java using
-    Aspose.3D, the leading Java 3D library for converting 3D to OBJ.
-  name: 'Modify Sphere Radius Java: Convert 3D to OBJ with Aspose.3D'
+- description: Learn how to create sphere java and export OBJ file using Aspose.3D,
+    the leading Java 3D library for converting 3D models.
+  name: 'Create sphere java: Convert 3D to OBJ with Aspose.3D'
   steps:
   - name: Initialize a Scene
     text: '**Definition anchor:** The `Scene` class is Aspose.3D''s top‑level container
@@ -68,7 +72,7 @@ tags:
 - aspose.3d
 - java 3d
 - 3d conversion
-title: 修改 Java 球體半徑：使用 Aspose.3D 將 3D 轉換為 OBJ
+title: 建立 Java 球體：使用 Aspose.3D 轉換 3D 為 OBJ
 url: /zh-hant/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
@@ -77,36 +81,32 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 將 3D 轉換為 OBJ：在 Java 中新增球體並修改半徑
+# 建立球體 Java 並匯出為 OBJ
 
 ## 介紹
 
-如果您需要快速且程式化地 **modify sphere radius java**，本指南將精確說明如何將球體加入場景、變更其半徑，並使用 **Aspose.3D Java library** 寫入產生的 OBJ 檔案。我們會逐行說明程式碼、解釋每一步的重要性，並提供避免常見陷阱的技巧，讓您能自信地將此工作流程整合至遊戲、CAD 工具或科學視覺化中。
+在本教學中，您將學習如何 **建立球體 Java**、調整其半徑，並使用 Aspose.3D Java 函式庫 **將 3D 儲存為 OBJ**。我們會逐行說明程式碼，解釋每一步的重要性，並提供實用技巧，讓您能自信地將此工作流程嵌入遊戲、CAD 工具或科學視覺化中。
 
 ## 快速回答
-- **這個教學的主要目標是什麼？** 示範如何透過建立球體、調整半徑，並在 Java 中匯出模型，以將 3D 轉換為 OBJ。  
-- **哪個函式庫提供 3D 功能？** Aspose.3D，一個完整的 **java 3d library tutorial**。  
-- **我要如何變更球體大小？** 對 `Sphere` 實例呼叫 `sphere.setRadius(double)`。  
-- **我可以直接從 Java 寫入 OBJ 檔案嗎？** 可以——使用 `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`。  
-- **商業使用需要授權嗎？** 開發階段可使用免費試用版；商業用途則需正式授權。
+- **本教學的主要目標是什麼？** 示範如何建立球體 Java、修改其尺寸，並使用 Java 將模型匯出為 OBJ。  
+- **哪個函式庫提供 3D 功能？** Aspose.3D，一個完整功能的 **Java 3D 函式庫教學**。  
+- **如何變更球體大小？** 在 `Sphere` 實例上呼叫 `sphere.setRadius(double)`。  
+- **我可以直接從 Java 寫入 OBJ 檔案嗎？** 可以—使用 `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`。  
+- **生產環境是否需要授權？** 開發階段使用免費試用版即可；商業使用則需永久授權。
 
 ## Aspose.3D for Java 是什麼？
 
-Aspose.3D for Java 是一套完整的 **java 3d library**，讓開發者能在不依賴外部套件的情況下建立、編輯與轉換 3D 檔案。它支援超過 **50 種輸入與輸出格式**——包括 OBJ、FBX、STL 與 GLTF——可無縫整合至任何 3‑D 流程中。
+Aspose.3D for Java 是一套完整的 **Java 3D 函式庫**，讓開發者能在無需外部相依性的情況下建立、編輯與轉換 3D 檔案。它支援超過 **50 種輸入與輸出格式**——包括 OBJ、FBX、STL 與 GLTF——可無縫整合至任何 3D 流程中。
 
 ## 為什麼要將 3D 轉換為 OBJ？
 
-將檔案轉換為 OBJ 可提供一種通用的純文字幾何表示方式，方便檢視、編輯，且幾乎所有 3D 應用程式皆能匯入，適合快速原型設計與跨平台資產交換。
-
-- **通用相容性** – OBJ 受到幾乎所有 3D 檢視器、遊戲引擎與建模軟體支援。  
-- **輕量匯出** – OBJ 以純文字格式儲存幾何資訊，易於檢查與除錯。  
-- **工作流程彈性** – 可在伺服器端 Java 程式即時產生 OBJ，實現資產自動化產出管線。
+將 3D 轉換為 OBJ 可提供一種通用、純文字的幾何表示方式，任何 3D 工具皆能讀取，適合快速原型開發、跨平台資產交換，以及方便除錯頂點資料。由於 OBJ 檔案輕量且可讀，人們在需要時可使用簡單的文字編輯器檢查或修改。
 
 ## 前置條件
 
 - 基本的 Java 程式設計知識。  
-- 已安裝 Aspose.3D 函式庫——可從 [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) 下載。  
-- 開發機器上已安裝 JDK 8 或更新版本。
+- 已安裝 Aspose.3D 函式庫 – 從 [Aspose.3D for Java 文件](https://reference.aspose.com/3d/java/) 下載。  
+- 開發機上已安裝 JDK 8 或更新版本。
 
 ## 匯入套件
 
@@ -118,11 +118,13 @@ import com.aspose.threed.Sphere;
 import java.io.IOException;
 ```
 
-## 如何修改 sphere radius java？
+## 如何修改球體半徑 Java？
 
-載入 `Sphere` 物件、呼叫 `setRadius` 設定所需值，最後將場景存為 OBJ——整個流程只需五個簡潔步驟。此方法適用於任何數值半徑，且保證匯出的 OBJ 完全符合您指定的尺寸。
+`Sphere` 是 Aspose.3D 中表示球體的幾何基元。
 
-### 步驟 1：初始化 Scene
+載入 `Sphere` 物件，使用 `setRadius` 設定所需值，然後將場景儲存為 OBJ——整個工作流程可在五個簡潔步驟中完成。此方法適用於任何數值半徑，並確保匯出的 OBJ 正確反映您指定的尺寸。
+
+### 步驟 1：初始化場景
 
 ```java
 // ExStart:WorkingWithSphereRadius
@@ -131,93 +133,93 @@ import java.io.IOException;
 Scene scene = new Scene();
 ```
 
-**Definition anchor:** `Scene` 類別是 Aspose.3D 的最高層容器，負責保存模型的幾何、光源與相機。建立 `Scene` 後即得到一個工作空間，可在其中加入與操作物件。
+**定義說明：** `Scene` 類別是 Aspose.3D 的頂層容器，負責保存幾何、光源與相機的 3D 模型。建立 `Scene` 可提供一個工作空間，讓您加入與操作物件。
 
-建立 `Scene` 後即得到一個容納所有幾何、光源與相機的容器。之後我們將 **add sphere to scene**。
+建立 `Scene` 後，您將擁有一個容納所有幾何、光源與相機的容器。稍後我們會 **將球體加入場景**。
 
-### 步驟 2：初始化 Sphere
+### 步驟 2：初始化球體
 
 ```java
 // initialize a Sphere
 Sphere sphere = new Sphere();
 ```
 
-**Definition anchor:** `Sphere` 類別代表可設定半徑、中心與材質的球形基元。預設半徑為 1.0。
+**定義說明：** `Sphere` 類別代表可設定半徑、中心與材質的幾何球體基元。預設半徑為 1.0。
 
-`Sphere` 物件預設半徑為 1.0。可將其視為待匯出的形狀之空白畫布。
+`Sphere` 物件預設半徑為 1.0。可視為您欲匯出形狀的空白畫布。
 
 ### 步驟 3：設定所需半徑
 
-`setRadius(double)` 方法會以場景使用的相同單位，將球體的半徑更新為新值。
+**定義說明：** `setRadius(double)` 方法以與場景相同的單位設定球體半徑。  
 
 ```java
 // set radius
 sphere.setRadius(10);
 ```
 
-此處我們以 **write obj file java**‑style 程式碼設定精確半徑。將 `10` 替換為符合設計需求的任意 `double` 數值。
+此處我們以 **寫入 OBJ 檔案 Java** 風格的程式碼設定精確半徑。將 `10` 替換為符合您設計需求的任意 `double` 數值。
 
-### 步驟 4：將 Sphere 加入 Scene
+### 步驟 4：將球體加入場景
 
 ```java
 // add sphere to the scene
 scene.getRootNode().createChildNode(sphere);
 ```
 
-此行 **adds sphere to scene**，透過在根節點下建立子節點，使幾何正式成為場景圖的一部份。
+此行透過在根節點下建立子節點 **將球體加入場景**。此時幾何開始成為場景圖的一部份。
 
 ### 步驟 5：將模型匯出為 OBJ
-
-`save(String, FileFormat)` 方法會使用指定的格式（如 OBJ）將整個場景寫入目標檔案。
 
 ```java
 // save scene
 scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-呼叫 `scene.save` **exports obj file java**‑style，等同於 **save scene as obj**。產生的 `sphere.obj` 可在任何標準 3D 檢視器中開啟。
+`save(String, FileFormat)` 方法會使用指定的格式（如 OBJ）將整個場景寫入指定檔案。呼叫 `scene.save` **以 Java 方式匯出 OBJ 檔案**，實際上是 **將場景儲存為 OBJ**。產生的 `sphere.obj` 可在任何標準 3D 檢視器中開啟。
 
 ## 常見問題與解決方案
 
 | 問題 | 解決方案 |
-|------|----------|
-| **Sphere 在檢視器中顯示過小** | 確認半徑值是否正確設定；記得單位是任意的，除非您另行套用縮放變換。 |
-| **Exported OBJ has no material** | Aspose.3D 只寫入幾何資訊；若需貼圖，請為球體加入材質 (`sphere.setMaterial(...)`)。 |
-| **License exception at runtime** | 請確保在建立 `Scene` 前已載入臨時或永久授權檔案。 |
+|-------|----------|
+| **球體在檢視器中顯示過小** | 確認半徑值是否正確設定；請記得單位是任意的，除非您套用了縮放變換。 |
+| **匯出的 OBJ 沒有材質** | Aspose.3D 只寫入幾何；若需要貼圖，請為球體加入材質 (`sphere.setMaterial(...)`)。 |
+| **執行時授權例外** | 確保在建立 `Scene` 前已載入臨時或永久授權檔案。 |
 
-## 常見問答
+## 常見問與答
 
-**Q: 在哪裡可以找到 Aspose.3D for Java 的文件？**  
-A: 您可參考 [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) 取得完整說明。
+**Q: 我可以在哪裡找到 Aspose.3D for Java 的文件？**  
+A: 您可參考 [Aspose.3D for Java 文件](https://reference.aspose.com/3d/java/) 以獲得完整指引。
 
-**Q: 我要如何下載 Aspose.3D for Java？**  
-A: 前往發行頁面下載函式庫：[Download Aspose.3D for Java](https://releases.aspose.com/3d/java/)。
+**Q: 我該如何下載 Aspose.3D for Java？**  
+A: 從發行頁面下載函式庫：[下載 Aspose.3D for Java](https://releases.aspose.com/3d/java/)。
 
 **Q: Aspose.3D for Java 有提供免費試用嗎？**  
-A: 有，您可前往 [Aspose.3D Free Trial](https://releases.aspose.com/) 體驗功能。
+A: 有，您可前往 [Aspose.3D 免費試用](https://releases.aspose.com/) 體驗功能。
 
-**Q: 在哪裡可以取得 Aspose.3D for Java 的支援？**  
-A: 加入 Aspose 社群論壇 [Aspose.3D Support Forum](https://forum.aspose.com/c/3d/18) 取得協助與討論。
+**Q: 我可以在哪裡取得 Aspose.3D for Java 的支援？**  
+A: 加入 Aspose 社群於 [Aspose.3D 支援論壇](https://forum.aspose.com/c/3d/18) 獲得協助與討論。
 
-**Q: 我要如何取得 Aspose.3D 的臨時授權？**  
-A: 前往 [Temporary License](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
+**Q: 我該如何取得 Aspose.3D 的臨時授權？**  
+A: 前往 [臨時授權](https://purchase.aspose.com/temporary-license/) 取得。
 
-**Q: 我可以將此程式碼套用到其他 3D 格式（如 STL）嗎？**  
+**Q: 我可以將此程式碼用於其他 3D 格式（如 STL）嗎？**  
 A: 當然可以——只要在呼叫 `scene.save` 時更改 `FileFormat` 列舉，例如 `FileFormat.STL`。
 
 ---
 
-**最後更新：** 2026-07-27  
+**最後更新：** 2026-10-03  
 **測試環境：** Aspose.3D for Java 24.11  
 **作者：** Aspose
 
 ## 相關教學
 
-- [如何在 Java 中使用 Aspose.3D Java API 為 3D 物件設定法線](/3d/java/geometry/set-up-normals-on-3d-objects/)
-- [如何在 Java 中以 Aspose.3D 為 FBX 加入貼圖 – 為 3D 物件套用材質](/3d/java/geometry/apply-materials-to-3d-objects/)
+- [如何在 Java 使用 Aspose.3D Java API 為 3D 物件設定法線](/3d/java/geometry/set-up-normals-on-3d-objects/)
+- [如何在 Java 中將紋理嵌入 FBX – 使用 Aspose.3D 為 3D 物件套用材質](/3d/java/geometry/apply-materials-to-3d-objects/)
 - [如何在 Java 中變更平面方向並匯出 OBJ](/3d/java/3d-scenes-and-models/change-plane-orientation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

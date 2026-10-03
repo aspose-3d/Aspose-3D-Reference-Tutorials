@@ -1,29 +1,32 @@
 ---
-date: 2026-07-27
-description: Erfahren Sie, wie Sie den Sphere Radius in Java ändern und eine OBJ‑Datei
-  mit Java exportieren, wobei Sie Aspose.3D verwenden, die führende Java‑3D‑Bibliothek
-  zum Konvertieren von 3D in OBJ.
+date: 2026-10-03
+description: Erfahren Sie, wie Sie eine Kugel in Java erstellen und eine OBJ‑Datei
+  mit Aspose.3D exportieren, der führenden Java‑3D‑Bibliothek zum Konvertieren von
+  3D‑Modellen.
+images:
+- /java/3d-objects-and-scenes/modify-sphere-radius/og-image.png
 keywords:
-- modify sphere radius java
-- export obj file java
-- aspose 3d java
-lastmod: 2026-07-27
-linktitle: 'Sphere Radius in Java ändern: 3D in OBJ konvertieren mit Aspose.3D'
-og_description: Ändern Sie den Sphere Radius in Java und exportieren Sie eine OBJ‑Datei
-  mit Java unter Verwendung von Aspose.3D. Dieses Tutorial zeigt Schritt für Schritt,
-  wie man eine Kugel hinzufügt, ihre Größe ändert und als OBJ speichert.
-og_image_alt: 'Guide: modify sphere radius Java and export OBJ using Aspose.3D'
-og_title: Sphere Radius in Java ändern – 3D in OBJ konvertieren mit Aspose.3D
+- create sphere java
+- save 3d as obj
+- java convert 3d model
+- write obj file java
+lastmod: 2026-10-03
+linktitle: 'Erstelle Kugel in Java: Konvertiere 3D zu OBJ mit Aspose.3D'
+og_description: Erfahren Sie, wie Sie eine Kugel in Java erstellen und eine OBJ‑Datei
+  mit Aspose.3D exportieren. Diese Schritt‑für‑Schritt‑Anleitung zeigt, wie man eine
+  Kugel hinzufügt, ihren Radius ändert und als OBJ speichert.
+og_image_alt: 'Guide: create sphere java and export OBJ using Aspose.3D'
+og_title: Kugel in Java erstellen – OBJ mit Aspose.3D exportieren
 schemas:
 - author: Aspose
-  dateModified: '2026-07-27'
-  description: Learn how to modify sphere radius Java and export OBJ file Java using
-    Aspose.3D, the leading Java 3D library for converting 3D to OBJ.
-  headline: 'Modify Sphere Radius Java: Convert 3D to OBJ with Aspose.3D'
+  dateModified: '2026-10-03'
+  description: Learn how to create sphere java and export OBJ file using Aspose.3D,
+    the leading Java 3D library for converting 3D models.
+  headline: 'Create sphere java: Convert 3D to OBJ with Aspose.3D'
   type: TechArticle
-- description: Learn how to modify sphere radius Java and export OBJ file Java using
-    Aspose.3D, the leading Java 3D library for converting 3D to OBJ.
-  name: 'Modify Sphere Radius Java: Convert 3D to OBJ with Aspose.3D'
+- description: Learn how to create sphere java and export OBJ file using Aspose.3D,
+    the leading Java 3D library for converting 3D models.
+  name: 'Create sphere java: Convert 3D to OBJ with Aspose.3D'
   steps:
   - name: Initialize a Scene
     text: '**Definition anchor:** The `Scene` class is Aspose.3D''s top‑level container
@@ -72,7 +75,7 @@ tags:
 - aspose.3d
 - java 3d
 - 3d conversion
-title: 'Sphere Radius in Java ändern: 3D in OBJ konvertieren mit Aspose.3D'
+title: 'Erstelle Kugel in Java: Konvertiere 3D zu OBJ mit Aspose.3D'
 url: /de/java/3d-objects-and-scenes/modify-sphere-radius/
 weight: 10
 ---
@@ -81,36 +84,32 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D in OBJ konvertieren: Kugel hinzufügen & Radius in Java ändern
+# Kugel in Java erstellen und als OBJ exportieren
 
 ## Einführung
 
-Wenn Sie **Kugelradius in Java ändern** schnell und programmatisch benötigen, zeigt Ihnen diese Anleitung genau, wie Sie eine Kugel zu einer Szene hinzufügen, ihren Radius ändern und die resultierende OBJ‑Datei mit der **Aspose.3D Java library** schreiben. Wir gehen jede Codezeile durch, erklären, warum jeder Schritt wichtig ist, und geben Tipps, um häufige Fallstricke zu vermeiden – sodass Sie den Workflow mit Vertrauen in Spiele, CAD‑Tools oder wissenschaftliche Visualisierungen integrieren können.
+In diesem Tutorial lernen Sie, wie man **Kugel in Java erstellt**, ihren Radius anpasst und dann **3D als OBJ speichert** mit der Aspose.3D Java-Bibliothek. Wir gehen jede Codezeile durch, erklären, warum jeder Schritt wichtig ist, und geben Ihnen praktische Tipps, damit Sie diesen Workflow mit Vertrauen in Spiele, CAD‑Tools oder wissenschaftliche Visualisierungen einbetten können.
 
 ## Schnelle Antworten
-- **Was ist das Hauptziel dieses Tutorials?** Um zu demonstrieren, wie man 3D in OBJ konvertiert, indem man eine Kugel erstellt, ihren Radius anpasst und das Modell in Java exportiert.  
-- **Welche Bibliothek liefert die 3D‑Funktionalität?** Aspose.3D, ein voll ausgestattetes **java 3d library tutorial**.  
-- **Wie ändere ich die Größe der Kugel?** Rufen Sie `sphere.setRadius(double)` auf der `Sphere`‑Instanz auf.  
-- **Kann ich die OBJ‑Datei direkt aus Java schreiben?** Ja—verwenden Sie `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`.  
-- **Brauche ich eine Lizenz für die Produktion?** Eine kostenlose Testversion reicht für die Entwicklung; für die kommerzielle Nutzung ist eine permanente Lizenz erforderlich.
+- **Was ist das Hauptziel dieses Tutorials?** Um zu demonstrieren, wie man Kugel in Java erstellt, ihre Größe ändert und das Modell mit Java als OBJ exportiert.
+- **Welche Bibliothek liefert die 3D‑Funktionalität?** Aspose.3D, ein vollwertiges **java 3d library tutorial**.
+- **Wie ändere ich die Größe der Kugel?** Rufen Sie `sphere.setRadius(double)` auf der `Sphere`‑Instanz auf.
+- **Kann ich die OBJ‑Datei direkt aus Java schreiben?** Ja – verwenden Sie `scene.save("file.obj", FileFormat.WAVEFRONTOBJ)`.
+- **Benötige ich eine Lizenz für die Produktion?** Eine kostenlose Testversion reicht für die Entwicklung; für die kommerzielle Nutzung ist eine permanente Lizenz erforderlich.
 
 ## Was ist Aspose.3D für Java?
 
-Aspose.3D für Java ist eine umfassende **java 3d library**, die Entwicklern ermöglicht, 3D‑Dateien zu erstellen, zu bearbeiten und zu konvertieren, ohne externe Abhängigkeiten. Sie unterstützt mehr als **50 Eingabe‑ und Ausgabeformate**—einschließlich OBJ, FBX, STL und GLTF—und ermöglicht eine nahtlose Integration in jede 3‑D‑Pipeline.
+Aspose.3D für Java ist eine umfassende **java 3d library**, die Entwicklern ermöglicht, 3D‑Dateien zu erstellen, zu bearbeiten und zu konvertieren, ohne externe Abhängigkeiten. Sie unterstützt mehr als **50 Eingabe‑ und Ausgabeformate** – darunter OBJ, FBX, STL und GLTF – und ermöglicht eine nahtlose Integration in jede 3‑D‑Pipeline.
 
-## Warum 3D in OBJ konvertieren?
+## Warum 3D nach OBJ konvertieren?
 
-Die Konvertierung zu OBJ liefert eine universell lesbare, reine Textdarstellung von Geometrie, die von praktisch jeder 3D‑Anwendung inspiziert, bearbeitet und importiert werden kann, was sie ideal für schnelles Prototyping und plattformübergreifenden Asset‑Austausch macht.
-
-- **Universelle Kompatibilität** – OBJ wird von praktisch jedem 3D‑Viewer, Spiel‑Engine und Modellierungs‑Software unterstützt.  
-- **Leichter Export** – OBJ speichert Geometrie in einem Klartextformat, das leicht zu inspizieren und zu debuggen ist.  
-- **Flexibilität im Workflow** – Sie können OBJ‑Dateien on‑the‑fly aus serverseitigem Java‑Code erzeugen, wodurch automatisierte Pipelines für die Asset‑Erstellung ermöglicht werden.
+Die Konvertierung zu OBJ liefert Ihnen eine universell unterstützte, reine Textdarstellung von Geometrie, die von jedem 3D‑Tool gelesen werden kann. Das macht sie ideal für schnelles Prototyping, plattformübergreifenden Asset‑Austausch und einfaches Debugging von Vertex‑Daten. Da OBJ‑Dateien leichtgewichtig und menschenlesbar sind, können Sie sie bei Bedarf mit einem einfachen Texteditor inspizieren oder ändern.
 
 ## Voraussetzungen
 
-- Grundlegende Java‑Programmierkenntnisse.  
+- Grundkenntnisse in Java‑Programmierung.  
 - Aspose.3D‑Bibliothek installiert – laden Sie sie von der [Aspose.3D for Java documentation](https://reference.aspose.com/3d/java/) herunter.  
-- JDK 8 oder höher auf Ihrem Entwicklungsrechner installiert.
+- JDK 8 oder höher auf Ihrer Entwicklungsmaschine installiert.
 
 ## Pakete importieren
 
@@ -124,7 +123,9 @@ import java.io.IOException;
 
 ## Wie man den Kugelradius in Java ändert?
 
-Laden Sie das `Sphere`‑Objekt, rufen Sie `setRadius` mit dem gewünschten Wert auf und speichern Sie anschließend die Szene als OBJ—dieser gesamte Workflow kann in fünf knappen Schritten durchgeführt werden. Der Ansatz funktioniert für jeden numerischen Radius und stellt sicher, dass das exportierte OBJ exakt die von Ihnen angegebene Größe widerspiegelt.
+`Sphere` ist ein geometrisches Primitive, das eine Kugel in Aspose.3D darstellt.
+
+Laden Sie das `Sphere`‑Objekt, rufen Sie `setRadius` mit dem gewünschten Wert auf und speichern Sie dann die Szene als OBJ – dieser gesamte Workflow kann in fünf knappen Schritten durchgeführt werden. Der Ansatz funktioniert für jeden numerischen Radius und stellt sicher, dass das exportierte OBJ exakt die von Ihnen angegebene Größe widerspiegelt.
 
 ### Schritt 1: Szene initialisieren
 
@@ -135,7 +136,7 @@ Laden Sie das `Sphere`‑Objekt, rufen Sie `setRadius` mit dem gewünschten Wert
 Scene scene = new Scene();
 ```
 
-Definition: Die Klasse `Scene` ist Aspose.3D's oberste Containerklasse, die Geometrie, Lichter und Kameras für ein 3D‑Modell enthält. Das Erstellen einer `Scene` gibt Ihnen einen Arbeitsbereich, in dem Sie Objekte hinzufügen und manipulieren können.
+**Definition anchor:** Die `Scene`‑Klasse ist Aspose.3D's Top‑Level‑Container, der Geometrie, Lichter und Kameras für ein 3D‑Modell hält. Das Erstellen einer `Scene` gibt Ihnen einen Arbeitsbereich, in dem Sie Objekte hinzufügen und manipulieren können.
 
 Das Erstellen einer `Scene` liefert Ihnen einen Container für alle Geometrien, Lichter und Kameras. Hier werden wir später **add sphere to scene** hinzufügen.
 
@@ -146,13 +147,13 @@ Das Erstellen einer `Scene` liefert Ihnen einen Container für alle Geometrien, 
 Sphere sphere = new Sphere();
 ```
 
-Definition: Die Klasse `Sphere` repräsentiert ein geometrisches Kugel‑Primitive mit konfigurierbarem Radius, Zentrum und Material. Standardmäßig startet sie mit einem Radius von 1.0.
+**Definition anchor:** Die `Sphere`‑Klasse repräsentiert ein geometrisches Kugel‑Primitive mit konfigurierbarem Radius, Zentrum und Material. Standardmäßig startet sie mit einem Radius von 1,0.
 
-Ein `Sphere`‑Objekt beginnt mit einem Standardradius von 1.0. Betrachten Sie es als leere Leinwand für die Form, die Sie exportieren möchten.
+Ein `Sphere`‑Objekt startet mit einem Standardradius von 1,0. Betrachten Sie es als leere Leinwand für die Form, die Sie exportieren möchten.
 
 ### Schritt 3: Gewünschten Radius festlegen
 
-Die Methode `setRadius(double)` aktualisiert die Größe der Kugel, indem sie einen neuen Radiuswert in denselben Einheiten wie die Szene zuweist.
+**Definition anchor:** Die Methode `setRadius(double)` legt den Radius der Kugel in denselben Einheiten fest, die von der Szene verwendet werden.  
 
 ```java
 // set radius
@@ -172,22 +173,20 @@ Diese Zeile **adds sphere to scene** erstellt einen Kindknoten unter dem Wurzelk
 
 ### Schritt 5: Modell als OBJ exportieren
 
-Die Methode `save(String, FileFormat)` schreibt die gesamte Szene in die angegebene Datei unter Verwendung des gewählten Formats, z. B. OBJ.
-
 ```java
 // save scene
 scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 ```
 
-Der Aufruf von `scene.save` **exports obj file java**‑stil, effektiv **save scene as obj**. Die erzeugte `sphere.obj` kann in jedem gängigen 3D‑Viewer geöffnet werden.
+Die Methode `save(String, FileFormat)` schreibt die gesamte Szene in die angegebene Datei im gewählten Format, z. B. OBJ. Der Aufruf von `scene.save` **exports obj file java**‑stil, effektiv **save scene as obj**. Die erzeugte `sphere.obj` kann in jedem gängigen 3D‑Betrachter geöffnet werden.
 
 ## Häufige Probleme und Lösungen
 
 | Problem | Lösung |
-|---------|--------|
-| **Kugel erscheint im Viewer zu klein** | Stellen Sie sicher, dass der Radiuswert korrekt gesetzt ist; beachten Sie, dass Einheiten willkürlich sind, sofern Sie keine Skalierungstransformation anwenden. |
+|-------|----------|
+| **Kugel erscheint zu klein im Viewer** | Überprüfen Sie, ob der Radiuswert korrekt gesetzt ist; denken Sie daran, dass Einheiten willkürlich sind, sofern Sie keine Skalierungstransformation anwenden. |
 | **Exportiertes OBJ hat kein Material** | Aspose.3D schreibt nur Geometrie; fügen Sie der Kugel ein Material hinzu, wenn Sie Texturen benötigen (`sphere.setMaterial(...)`). |
-| **Lizenzausnahme zur Laufzeit** | Stellen Sie sicher, dass Sie vor dem Erstellen der `Scene` entweder eine temporäre oder permanente Lizenzdatei geladen haben. |
+| **Lizenzausnahme zur Laufzeit** | Stellen Sie sicher, dass Sie entweder eine temporäre oder permanente Lizenzdatei geladen haben, bevor Sie die `Scene` erstellen. |
 
 ## Häufig gestellte Fragen
 
@@ -200,10 +199,10 @@ A: Laden Sie die Bibliothek von der Release‑Seite herunter: [Download Aspose.3
 **Q: Gibt es eine kostenlose Testversion für Aspose.3D für Java?**  
 A: Ja, erkunden Sie die Funktionen mit einer kostenlosen Testversion, indem Sie [Aspose.3D Free Trial](https://releases.aspose.com/) besuchen.
 
-**Q: Wo kann ich Support für Aspose.3D für Java erhalten?**  
-A: Treten Sie der Aspose‑Community im [Aspose.3D Support Forum](https://forum.aspose.com/c/3d/18) bei für Unterstützung und Diskussionen.
+**Q: Wo kann ich Unterstützung für Aspose.3D für Java erhalten?**  
+A: Treten Sie der Aspose‑Community im [Aspose.3D Support Forum](https://forum.aspose.com/c/3d/18) für Hilfe und Diskussionen bei.
 
-**Q: Wie erhalte ich eine temporäre Lizenz für Aspose.3D?**  
+**Q: Wie kann ich eine temporäre Lizenz für Aspose.3D erhalten?**  
 A: Holen Sie sich eine temporäre Lizenz, indem Sie [Temporary License](https://purchase.aspose.com/temporary-license/) besuchen.
 
 **Q: Kann ich diesen Code mit anderen 3D‑Formaten wie STL verwenden?**  
@@ -211,17 +210,19 @@ A: Absolut – ändern Sie einfach das `FileFormat`‑Enum beim Aufruf von `scen
 
 ---
 
-**Last Updated:** 2026-07-27  
-**Tested With:** Aspose.3D for Java 24.11  
-**Author:** Aspose
+**Zuletzt aktualisiert:** 2026-10-03  
+**Getestet mit:** Aspose.3D for Java 24.11  
+**Autor:** Aspose
 
 ## Verwandte Tutorials
 
 - [Wie man Normalen auf 3D‑Objekten in Java mit Aspose.3D Java API setzt](/3d/java/geometry/set-up-normals-on-3d-objects/)
-- [Wie man Textur in FBX mit Java einbettet – Materialien auf 3D‑Objekte mit Aspose.3D anwenden](/3d/java/geometry/apply-materials-to-3d-objects/)
+- [Wie man Textur in FBX mit Java einbettet – Materialien auf 3D‑Objekte mit Aspose.3D anwendet](/3d/java/geometry/apply-materials-to-3d-objects/)
 - [Wie man die Ebenenorientierung ändert und OBJ in Java exportiert](/3d/java/3d-scenes-and-models/change-plane-orientation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
